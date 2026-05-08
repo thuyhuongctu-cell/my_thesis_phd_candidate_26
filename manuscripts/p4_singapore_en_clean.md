@@ -82,11 +82,13 @@ surrounding digital ecosystem (Bharadwaj et al., 2013; Verhoef et al.,
 Three gaps motivate this study. First, prior research has often bundled
 digitalization-related firm attributes into broad umbrella constructs,
 making it difficult to distinguish firm-internal technological
-capability from more basic forms of digital adoption. Second, although
-work on digital internationalization has generated important conceptual
-advances, firm-level evidence remains limited on how basic digital
-adoption relates to export intensity within a single digitally advanced
-institutional environment. Third, the nonlinear
+capability from more basic forms of digital adoption. Second,
+influential conceptual work on digital internationalization has proposed
+frameworks for platform boundaries and internalization in digital
+settings (Banalieva & Dhanaraj, 2019; Stallkamp & Schotter, 2021), but
+firm-level empirical evidence on how foundational digital adoption
+interacts with export intensity within a single digitally advanced
+economy remains limited. Third, the nonlinear
 internationalization–performance literature has documented inverted-U
 patterns extensively, but the interpretation of such patterns in a
 digitally advanced setting remains under-specified.
@@ -145,9 +147,15 @@ Bharadwaj–Verhoef digitalization tradition (Bharadwaj et al., 2013;
 Verhoef et al., 2021). In the Verhoef et al. (2021) hierarchy, website
 presence (c22b) corresponds most closely to Tier 1 digitization, while
 electronic-payment intensity on the customer and supplier sides (k33,
-k38) corresponds to Tier 2 digitalization. Methodologically, the two
-constructs satisfy the Coltman et al. (2008) four-criterion test for
-formative measurement.
+k38) corresponds to Tier 2 digitalization. Each construct is modeled as
+a formative rather than reflective composite, following the
+four-criterion test of Coltman et al. (2008). Their separation into two
+distinct indices is additionally warranted by their different theoretical
+roles and nomological nets: TCI captures capability depth grounded in
+absorptive capacity logic, whereas DAI captures participation in
+digital-transaction infrastructure. Collapsing them into a single proxy
+would obscure substantively different hypothesized consequences
+regardless of their measurement model.
 
 ### 2.3 Hypothesis development
 
@@ -175,6 +183,12 @@ construct, reflecting firm-internal capability depth. DAI is the
 contingency variable on the I–P path: its productivity relevance is
 theorized to vary across levels of export intensity rather than to
 operate as a uniform direct premium.
+
+*[Editorial note for Figure 1: moderation arrows representing H2 and H4
+should point to the causal path between FSTS and performance, not to the
+Internationalization variable box—standard path diagram convention
+(moderation arrows intersect the relevant path rather than pointing to
+a variable node).]*
 
 ### 2.5 Context-contingent digital capability: framing across institutional environments
 
@@ -208,8 +222,12 @@ non-zero exports, and only 3% exceed 50% foreign sales to total sales
 
 **Dependent variable.** Firm performance is operationalized as labour
 productivity, measured as the natural logarithm of annual sales divided
-by the number of full-time employees. To reduce sensitivity to outliers,
-the dependent variable is winsorized at the 1st and 99th percentiles.
+by the number of full-time employees. Annual sales are expressed in
+constant 2023 Singapore dollars; because the WBES 2023 wave is a single
+cross-section, this deflation subtracts a common constant from log
+sales, which is absorbed by the model intercept and does not affect any
+estimated slope coefficient. To reduce sensitivity to outliers, the
+dependent variable is winsorized at the 1st and 99th percentiles.
 
 **Focal independent variable.** FSTS is defined as the proportion of
 annual sales derived from direct exports and rescaled to the [0,1]
@@ -257,13 +275,15 @@ that would justify collapsing the constructs.
 ### 4.2 The I–P relationship: primarily monotonic with mild curvature
 
 In the baseline quadratic specification (M2), the linear FSTS term is
-positive and significant (β = 2.652, p < 0.001), whereas the squared
-term is negative and only marginally significant (β = −1.705, p < 0.1).
-The fitted curve implies a turning point near FSTS = 82% on the
-original scale, but that point is imprecisely located. The 5,000-
-replication bootstrap recovers an inverted-U shape in 96.3% of
-replications, but the 95% percentile confidence interval for the
-turning point is wide ([53%, 253%]). The Lind–Mehlum test does not
+positive and significant (β = 3.490, SE = 0.902, p < 0.001), whereas
+the squared term is marginally negative (β = −2.059, SE = 1.082,
+p = 0.053). The fitted curve implies a turning point of approximately
+88.6% on the original uncentered FSTS scale (applying −β₁/2β₂ to
+mean-centered FSTS yields ≈ 84.1%; adding back the sample mean of 0.045
+gives ≈ 88.6%—Aiken & West, 1991), but that point is imprecisely
+located. The 5,000-replication bootstrap recovers an inverted-U shape in
+96.3% of replications, but the 95% percentile confidence interval for
+the turning point is wide ([53%, 253%]). The Lind–Mehlum test does not
 reject monotonicity (p = 0.303). The most defensible interpretation is
 that the full-sample relationship is predominantly positive with mild
 quadratic curvature.
@@ -282,34 +302,45 @@ the TCI association than with a clearly identified moderation channel.
 ### 4.4 DAI results
 
 In the direct-effect model for DAI (M6), DAI is positively associated
-with labour productivity (β = 0.104, SE = 0.038, p = 0.007). Once TCI
+with labour productivity (β = 0.114, SE = 0.038, p = 0.007). Once TCI
 is included alongside DAI in M7, the DAI coefficient attenuates to
-β = 0.077 (p = 0.048). The strongest evidence for DAI appears in the
-moderation specifications. In the full model (M8), the direct DAI term
-is small and not significant (β = 0.019, p = 0.705); the linear
-interaction with FSTS is negative and marginal (β = −1.177, p = 0.083);
+β = 0.073 (p < 0.10), falling below the 5% significance threshold. The
+strongest evidence for DAI appears in the moderation specifications. In
+the full model (M8), the direct DAI term is small and not significant
+(β = 0.019, p = 0.705); the linear interaction with FSTS is negative
+and marginal (β = −1.177, p = 0.083);
 **and the quadratic interaction term is positive and statistically
-significant (β = 3.118, SE = 1.117, p = 0.005)**. M8 produces the
+significant (β = 3.023, SE = 1.309, p = 0.021)**. M8 produces the
 highest R² = 0.211 among the main specifications.
 
 The marginal effects of DAI across selected FSTS levels (from M8) show
 that at FSTS = 0% the marginal effect is +0.080 (p = 0.045); across the
 low- to middle-export range it is statistically indistinguishable from
-zero; and at FSTS = 70% and 100% it reaches +0.588 (p = 0.025) and
-+1.742 (p = 0.002), respectively. This pattern supports interpreting
+zero; and at FSTS = 70% and 100% it reaches +0.660 (p = 0.025) and
++1.818 (p = 0.002), respectively. This pattern supports interpreting
 DAI as a scale-enabling complement whose productivity relevance emerges
 more clearly when firms face denser cross-border coordination demands.
+
+Cohen's f² for the TCI direct effect (comparing M2 with M5) is
+approximately 0.036, in the small-to-medium range; Cohen's f² for the
+DAI moderation block (comparing M7 with M8) is approximately 0.018,
+below Cohen's (1988) conventional small-effect threshold of 0.02.
 
 ### 4.5 Robustness checks
 
 The robustness analysis shows that the core inference about DAI
 moderation is broadly stable. The positive sign of the quadratic DAI
 moderation term is preserved across all six specifications: thinner
-website-only DAI; thinner certification-only TCI; excluding micro-firms;
-SMEs only; and exporters only. An item-swap falsification test further
-supports the construct boundary: when website (c22b) is reassigned from
-DAI to TCI, the joint significance of the DAI moderation block
-collapses (joint F drops from 4.56 to 1.88).
+website-only DAI (R1 restricts DAI to the website-presence indicator,
+c22b, to verify that the moderation signal is not driven by the
+electronic-payment items—a test of indicator-level attribution, not an
+exclusion of foreign-licensed technology, which is an indicator for TCI
+and was never part of the baseline DAI composite); thinner
+certification-only TCI; excluding micro-firms; SMEs only; and exporters
+only. An item-swap falsification test further supports the construct
+boundary: when website (c22b) is reassigned from DAI to TCI, the joint
+significance of the DAI moderation block collapses (joint F drops from
+4.56 to 1.88).
 
 ---
 
@@ -402,6 +433,9 @@ Brynjolfsson, E., & McAfee, A. (2014). *The second machine age: Work,
 progress, and prosperity in a time of brilliant technologies*. W. W.
 Norton & Company.
 
+Cohen, J. (1988). *Statistical power analysis for the behavioral
+sciences* (2nd ed.). Lawrence Erlbaum.
+
 Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new
 perspective on learning and innovation. *Administrative Science
 Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
@@ -483,3 +517,5 @@ World Bank. (2024). *World Bank Enterprise Survey: Singapore 2023*.
 https://www.enterprisesurveys.org
 
 *Full table content (Table 1 descriptives, Table 2 hierarchical OLS, Table 3 robustness, Table 4 marginal effects) and figures are available in the original docx upload `01_Manuscript_4.docx`.*
+
+*[Editorial note for Figure 2 and Figure 3: the images are swapped in the current docx. The image under the Figure 2 caption (marginal effects of DAI across FSTS) should be the DAI marginal-effect plot; the image under the Figure 3 caption (predicted I–P curve) should be the I–P curve plot. Please swap the image placements to match their respective captions.]*
