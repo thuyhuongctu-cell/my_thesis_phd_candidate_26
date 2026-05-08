@@ -1,0 +1,5 @@
+wave,model,N,FSTS_c_beta,FSTSsq_c_beta,lm_test_p,turning_point_fsts_pct,fsts_mean_pct,interpretation
+2009,M2,989,1.045,-1.774,0.006,~40,16.8,inverted-U confirmed
+2015,M2,956,1.159,-2.115,0.009,~44,11.9,inverted-U confirmed
+2023,M2,1013,0.962,-1.686,0.013,~46,13.1,inverted-U confirmed
+pooled,M2,2958,0.984,-1.909,<0.001,39.7,13.9,inverted-U confirmed

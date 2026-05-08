@@ -1,0 +1,15 @@
+panel,specification,wave,N,TCI_z_beta,TCI_z_p,DAI_z_beta,DAI_z_p,fsts_c_beta,fstssq_c_beta,adj_r2,notes
+A,Baseline_primary_spec,2009,989,0.215,<0.001,0.175,<0.001,,,,"TCI=b8+e6 z; DAI=c22b_bin z"
+A,Baseline_primary_spec,2015,956,0.128,0.010,-0.044,0.377,,,,
+A,Baseline_primary_spec,2023,1013,0.123,0.006,0.095,0.038,,,,
+A,Baseline_primary_spec,pooled,2958,0.179,<0.001,0.078,0.004,,,,
+B,TCI_single_item_b8,2009,989,,,,,,,,b8 only for TCI
+B,TCI_single_item_b8,2015,956,,,,,,,,
+B,TCI_single_item_b8,2023,1013,,,,,,,,
+C,Exporters_only_FSTS_gt0,2009,,,,,,,,,,FSTS>0 subsample
+C,Exporters_only_FSTS_gt0,2015,,,,,,,,,,
+C,Exporters_only_FSTS_gt0,2023,,,,,,,,,,
+D,Winsorize_1pct,2009,989,,,,,,,,lnLP winsorized 1/99
+D,Winsorize_1pct,2015,956,,,,,,,,
+D,Winsorize_1pct,2023,1013,,,,,,,,
+G,Pooled_with_wave_FE,pooled,2958,0.179,<0.001,0.078,0.004,0.984,-1.909,,wave FE (w2015 w2023)
