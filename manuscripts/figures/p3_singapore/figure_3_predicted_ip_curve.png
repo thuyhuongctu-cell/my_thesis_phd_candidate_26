@@ -1,0 +1,1 @@
+$(cat /tmp/png_data/file2_content.txt)
