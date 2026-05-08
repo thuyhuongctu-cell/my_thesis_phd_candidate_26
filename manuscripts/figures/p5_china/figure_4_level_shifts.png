@@ -1,1 +1,1 @@
-iVBORw0KGgoAAAANSUhEUgAAC5oAAAU6CAYAAAA5+ugaAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGli
+$(python3 -c "import json; d=json.load(open('/tmp/p5_china_pngs.json')); print(list(d.values())[3], end='')" 2>/dev/null)
