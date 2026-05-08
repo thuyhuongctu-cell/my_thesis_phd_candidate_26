@@ -1,1 +1,1 @@
-$(python3 -c "import json; d=json.load(open('/tmp/p5_china_pngs.json')); print(list(d.values())[2], end='')" 2>/dev/null)
+iVBORw0KGgoAAAANSUhEUgAACdgAAAWMCAYAAAA3SnYuAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjkuMiwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy8hTgPZAAAACXBIWXMAAA==
