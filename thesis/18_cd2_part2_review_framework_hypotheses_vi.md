@@ -2,7 +2,7 @@
 
 > Phần 1 (Chương 1–2): `thesis/17_cd2_part1_intro_theory_vi.md`.
 > Phần 3 (Chương 6–9 + TLTK): `thesis/19_cd2_part3_models_data_conclusion_vi.md`.
-> **Phiên bản 1.0 (ngày 09/05/2026)**: Chương 3 — lược khảo mô hình I→P; Chương 4 — khung khái niệm tích hợp; Chương 5 — hệ giả thuyết H1–H6 với neo đậu thực nghiệm từ P3 Singapore (MIR), P4 Việt Nam (APJM), P5 Trung Quốc (IJOEM).
+> **Phiên bản 1.1 (ngày 09/05/2026)**: Chương 3 — lược khảo mô hình I→P; Chương 4 — khung khái niệm tích hợp; Chương 5 — hệ giả thuyết H1–H6 với neo đậu thực nghiệm từ P3 Việt Nam (APJM), P4 Singapore (MIR), P5 Trung Quốc (IJOEM).
 
 ---
 
@@ -52,7 +52,7 @@ Năm tổng quan định lượng lớn cung cấp bức tranh tổng thể về
 
 **Bằng chứng từ bộ ba bản thảo đồng hành (P3–P5)**. Ba bản thảo trong chuỗi luận án cung cấp bằng chứng cập nhật nhất cho châu Á:
 
-*P3 Việt Nam (Đỗ & Phan, 2026, APJM under review)*: Phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận inverted-U trong cả ba sóng — Lind–Mehlum test p = .006 (2009), .009 (2015), .013 (2023), p < .001 (pooled). Turning point ổn định trong khoảng 39–46% FSTS. TCI dương bền vững (β_pooled = 0.179, p < .001); DAI stage-contingent — dương năm 2009, null năm 2015, dương 2023 — với Paternoster z = 3.353 giữa 2009 và 2015 (p < .001). IV estimation (first-stage F = 34.6) cho DAI null (β = 0.018, p = .942) gợi ý selection bias trong OLS.
+*P3 Việt Nam (Đỗ & Phan, 2026, APJM under review)*: Phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận inverted-U trong cả ba sóng — Lind–Mehlum test p = .006 (2009), .009 (2015), .013 (2023), p < .001 (pooled). Turning points: 46.2% (2009), 39.3% (2015), 41.6% (2023), 39.7% (pooled). P3 phân tách H1 thành **H1a (participation margin dominant)** và **H1b (intensity margin near-flat)**: trong sub-sample exporters-only, FSTS_c² β = −0.200 (p = .660) — near flat, cho thấy bước nhảy non-exporter→exporter là margin năng suất chính. TCI (2-item: b8=ISO cert + e6=foreign licensed tech) dương bền vững (β_pooled = 0.179, p < .001); IV estimation cho TCI causal: β = 1.639 (p < .001, first-stage F = 22.1). DAI stage-contingent — dương năm 2009 (β = 0.175 OLS), null năm 2015 (β = −0.044), dương trực tiếp 2023 (β = 0.095 OLS) **nhưng tương tác FSTS_c×DAI_z = −0.912 (p = .043) âm trong 2023** — "proxy obsolescence" (Tier 1 website không còn phân biệt tại FSTS cao khi adoption đạt 49.8%). IV estimation (first-stage F = 34.6) cho DAI null: β = 0.018 (p = .942) — selection-driven, không causal. Paternoster z = 3.353 giữa turning point 2009 và 2015 (p < .001).
 
 *P4 Singapore (Mar et al., 2026, MIR under review)*: Phân tích 623 doanh nghiệp WBES 2023. Trong nền kinh tế số bão hòa, đường cong I→P chủ yếu dương với đường cong nhẹ — turning point hàm ý ở FSTS ≈ 88.6% (vùng thưa dữ liệu; Lind–Mehlum p = .303). **Phát hiện nổi bật**: DAI×FSTS² = +3.119 (p = .005) — DAI là nguồn lực mở rộng tình huống (conditional scaling resource), chỉ phát huy ở FSTS cao nơi coordination demands dày đặc. TCI dương trực tiếp (β = 0.153). Giải thích: **digital saturation paradox** — khi Tier 1–2 đã phổ biến (website 67%), DAI mất tác dụng uniform premium và chỉ phân biệt qua export-contingent channel.
 
@@ -242,7 +242,7 @@ CDCM cho thấy: một phát hiện "DAI null" và một phát hiện "DAI posit
 **Phân biệt TCI với DAI**. Theo Bhandari et al. (2023), TCI hoạt động như resource-deepening mechanism (nội tại, tích lũy theo thời gian, khó bắt chước), trong khi DAI hoạt động như adoption-contingent mechanism (ngoại tại, phụ thuộc digital ecosystem). Coltman et al. (2008) xác nhận hai construct thỏa mãn tiêu chí formative composite riêng biệt.
 
 **Bằng chứng neo đậu**:
-- P3 Việt Nam: β(TCI) = 0.179 (p < .001) bền vững 3 sóng; IV cho β(TCI) = 1.639 (p < .001, first-stage F = 34.6) → TCI là causal, không phải selection-driven
+- P3 Việt Nam: β(TCI) = 0.179 (p < .001) bền vững 3 sóng; IV cho β(TCI) = 1.639 (p < .001, first-stage F = 22.1) → TCI là causal, không phải selection-driven [lưu ý: first-stage F = 34.6 là của instrument cho DAI, không phải TCI]
 - P5 Trung Quốc: β(TCI) tăng từ +0.28 (2012) → +0.43 (2024), Paternoster z = −2.55 (p = .011) → TCI level-shift tăng cường theo thời gian
 - P4 Singapore: β(TCI) = +0.153 (p < .01), không moderate curvature → TCI là pure level-shifter trong Nhóm I
 

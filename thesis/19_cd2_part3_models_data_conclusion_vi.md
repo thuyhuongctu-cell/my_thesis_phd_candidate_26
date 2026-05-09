@@ -344,7 +344,7 @@ Ngoài ra, khi BEE schema mở rộng Tier 3–4 digital indicators (AI deployme
 
 ### 9.8 Kết luận
 
-Chuyên đề 2 xây dựng một mô hình nghiên cứu toàn diện về quan hệ quốc tế hóa → hiệu quả (I→P) cho châu Á và Thái Bình Dương, tích hợp năm tầng lý thuyết (Uppsala, RBV, Institutional Theory, Upper Echelons, Digital Capability Lens) vào tám mô hình thực nghiệm M0–M7 có thể kiểm định trên pool 101.185 doanh nghiệp WBES xuyên 47 nền kinh tế và 108 cặp quốc gia-năm. Hệ giả thuyết H1–H6 được phát triển có neo đậu thực nghiệm từ ba bản thảo đồng hành (P3 Singapore, P4 Việt Nam, P5 Trung Quốc) — xác nhận khả nghiệm của khung CĐ2 trước khi áp dụng cho toàn pool.
+Chuyên đề 2 xây dựng một mô hình nghiên cứu toàn diện về quan hệ quốc tế hóa → hiệu quả (I→P) cho châu Á và Thái Bình Dương, tích hợp năm tầng lý thuyết (Uppsala, RBV, Institutional Theory, Upper Echelons, Digital Capability Lens) vào tám mô hình thực nghiệm M0–M7 có thể kiểm định trên pool 101.185 doanh nghiệp WBES xuyên 47 nền kinh tế và 108 cặp quốc gia-năm. Hệ giả thuyết H1–H6 được phát triển có neo đậu thực nghiệm từ ba bản thảo đồng hành (P3 Việt Nam, P4 Singapore, P5 Trung Quốc) — xác nhận khả nghiệm của khung CĐ2 trước khi áp dụng cho toàn pool.
 
 Đóng góp trung tâm của CĐ2 — CDCM (Context-Contingent Digital Capability Model) — giải thích tại sao DAI hoạt động như conditional scaling resource chứ không phải uniform premium: tác động phụ thuộc đồng thời vào regime thể chế, mức FSTS, và digital saturation của nền kinh tế. Đây là bước tiến lý thuyết quan trọng, kết nối digital IB theory với institutional theory trong một khung thống nhất và có thể kiểm định.
 
