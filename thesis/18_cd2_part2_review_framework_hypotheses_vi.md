@@ -89,45 +89,82 @@ CĐ2 giải quyết cả ba khoảng trống bằng framework 4 tầng + Digital
 
 ### 4.1 Sơ đồ khung khái niệm (Hình 4.1)
 
-Khung khái niệm CĐ2 tích hợp năm tầng lý thuyết (Chương 2) vào một mô hình nhân quả có thể kiểm định:
+Khung khái niệm CĐ2 tích hợp năm tầng lý thuyết (Chương 2) vào một mô hình nhân quả có thể kiểm định. Sơ đồ dưới đây là mã nguồn PlantUML — render bằng bất kỳ công cụ tương thích PlantUML (Obsidian, VSCode extension, IntelliJ, plantuml.com); file nguồn lưu tại `thesis/figures/cd2_fig41_conceptual_model.puml`.
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                    BIẾN ĐỘC LẬP — Quốc tế hóa (I)                    │
-│            FSTS · FSTS² · FSTS³  [Cường độ xuất khẩu]                │
-└───────────────────────────┬────────────────────────────────────────────┘
-                            │ → P (Hiệu quả hoạt động kinh doanh)
-                            │   ln(LP) = ln(doanh thu/lao động)
-                            ▼
-┌────────────────────────────────────────────────────────────────────────┐
-│                  BIẾN PHỤ THUỘC — Hiệu quả (P)                       │
-│              ln(Labour Productivity) — Năng suất lao động             │
-└───────────────────────────┬────────────────────────────────────────────┘
-                            │ Điều tiết (moderate) bởi:
-          ┌─────────────────┼──────────────────────────────┐
-          │                 │                              │
-    Cấp doanh nghiệp        │                         Cấp quốc gia
-          │                 │                              │
-  ┌───────┴──────┐  ┌───────┴────────┐          ┌─────────┴──────────┐
-  │ TCI          │  │ DAI            │          │ ICRV Regime        │
-  │ Technological│  │ Digital        │          │ 6 nhóm: Nhóm I→VI  │
-  │ Capability   │  │ Adoption Index │          │ (institutional     │
-  │ Index        │  │ (CDCM: context-│          │  gradient)         │
-  │ (level-shift)│  │ contingent)    │          └────────────────────┘
-  └──────────────┘  └────────────────┘
-          │
-  ┌───────┴──────────────┐
-  │ Top Manager          │
-  │ Characteristics      │
-  │ (exp, educ, gender,  │
-  │  intl experience)    │
-  └──────────────────────┘
-                            │
-                    Temporal moderation:
-                    Year-bucket (2009–12 / 2013–17 / 2018–25)
+```plantuml
+@startuml cd2_conceptual_model
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam ArrowColor #2C3E50
+skinparam ArrowThickness 1.5
+skinparam RectangleBorderColor #5D6D7E
+skinparam RectangleBorderThickness 1.5
+
+' ── Biến độc lập ────────────────────────────────────────
+rectangle "  **Quốc tế hóa (I)**\n  FSTS · FSTS²_c · FSTS³_c\n  ──────────────────────\n  Mã WBES: d3c / 100\n  N = 101.185 DN × 47 nền kinh tế  " as IV #AED6F1
+
+' ── Biến phụ thuộc ──────────────────────────────────────
+rectangle "  **Hiệu quả (P)**\n  ln(Labour Productivity)\n  ──────────────────────\n  ln(Doanh thu PPP / Lao động)  " as DV #A9DFBF
+
+' ── Điều tiết cấp doanh nghiệp ──────────────────────────
+rectangle "  **TCI**\n  Năng lực Công nghệ nội tại\n  ISO · R&D · Đổi mới · Tech NN\n  → Level-shifter **[H2]**  " as TCI #FEF9E7
+
+rectangle "  **DAI** — CDCM\n  Áp dụng Số Nền tảng\n  Website (c22b) · E-payment (k33/k38)\n  → Conditional scaling **[H3]**  " as DAI #FEF9E7
+
+rectangle "  **Nhà quản trị**\n  Kinh nghiệm (b5) · Học vấn (b7a)\n  Giới tính (b7)\n  → Upper Echelons **[H4]**  " as MGR #FEF9E7
+
+' ── Điều tiết cấp quốc gia ──────────────────────────────
+rectangle "  **ICRV Regime** (6 nhóm)\n  Nhóm I → Nhóm VI\n  5+5+6+7+17+7 = 47 nền kinh tế\n  Gradient TP + Forced penalty **[H5]**  " as ICRV #FAD7A0
+
+rectangle "  **Year-bucket**\n  2009–2012 · 2013–2017 · 2018–2025\n  Temporal heterogeneity **[H6]**  " as YB #D5DBDB
+
+' ── Biến kiểm soát ──────────────────────────────────────
+rectangle "  **Controls**\n  ln(emp) · age · foreign_own\n  sector · Country FE · Year FE  " as CTRL #F0F0F0
+
+' ── Quan hệ chính: H1 ───────────────────────────────────
+IV -right-> DV : "  **H1**: β₁>0; β₂<0\n  inverted-U / S-curve\n  TP gradient I→VI  "
+
+' ── Điều tiết firm-level (nét đứt vàng) ────────────────
+TCI -[dashed,#7D6608]down-> DV : " H2 "
+DAI -[dashed,#7D6608]down-> DV : " H3 "
+MGR -[dashed,#7D6608]down-> DV : " H4 "
+
+' ── Điều tiết country-level (nét đứt đỏ) ───────────────
+ICRV -[dashed,#922B21]up-> DV : " H5 "
+YB   -[dashed,#922B21]up-> DV : " H6 "
+
+CTRL -[dotted,#A0A0A0]right-> DV : " kiểm soát "
+
+note top of TCI
+  **CẤP DOANH NGHIỆP — Firm-level moderators**
+end note
+
+note bottom of ICRV
+  **CẤP QUỐC GIA — Country-level moderators**
+end note
+
+note right of DAI
+  **CDCM**: DAI = f(ICRV × FSTS × Digital saturation)
+  P4 SG: FSTS²×DAI = +3.119 (p=.005)
+  P3 VN: IV null β = 0.018 (p=.942)
+  P5 CN: control only (Tier 1 bão hòa)
+end note
+
+legend right
+  |= Ký hiệu |= Ý nghĩa |
+  | →  (liền) | Tác động trực tiếp H1 |
+  | -[vàng]-> | Điều tiết cấp DN H2–H4 |
+  | -[đỏ]->   | Điều tiết cấp QG H5–H6 |
+  | ..>        | Biến kiểm soát |
+endlegend
+
+@enduml
 ```
 
-*Hình 4.1*. Khung khái niệm tích hợp CĐ2. Mũi tên liền = tác động trực tiếp; mũi tên nét đứt = điều tiết. CDCM = Context-Contingent Digital Capability Model (phát hiện trong CĐ1, formalized trong §2.5). Biến kiểm soát (firm size, age, foreign ownership, sector, country FE, year FE) không vẽ để đơn giản hóa.
+*Hình 4.1*. Khung khái niệm tích hợp CĐ2. Mũi tên liền = tác động trực tiếp (H1); mũi tên nét đứt vàng = điều tiết cấp doanh nghiệp (H2–H4); mũi tên nét đứt đỏ = điều tiết cấp quốc gia (H5–H6); chấm = biến kiểm soát. CDCM = Context-Contingent Digital Capability Model (phát hiện từ CĐ1, formalized trong §2.5 và H3). File nguồn PlantUML đầy đủ (kèm ghi chú chi tiết): `thesis/figures/cd2_fig41_conceptual_model.puml`.
 
 ### 4.2 Mapping biến — Khái niệm → Đo lường WBES → Kỳ vọng
 
