@@ -371,11 +371,9 @@ Digital Adoption (DAI_z)
 
 Controls: lnEmp, FirmAge, ForeignOwned, sector FE [+ wave FE]
 
-Figure 1: Conceptual model. The independent variable (internationalisation, FSTS_c and FSTS_c2 )
+![Figure 1: Conceptual model — TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/p4_vietnam/figure_1_conceptual_model.png)
 
-and the dependent variable (firm performance, ln labour productivity) anchor the IV–DV spine. Technological capability (TCI_z) and foundational digital adoption (DAI_z) act as direct effects (H2, H3) and
-as moderators of the FSTS curve (H2 moderation, H4 exploratory moderation). Controls are entered
-additively. Wave fixed effects apply to the pooled specification only.
+*Figure 1.* Conceptual model. The independent variable (internationalisation, FSTS_c and FSTS_c²) and the dependent variable (firm performance, ln labour productivity) anchor the IV–DV spine. Technological capability (TCI_z) and foundational digital adoption (DAI_z) act as direct effects (H2, H3) and as moderators of the FSTS curve (H2 moderation, H4 exploratory moderation). Controls are entered additively. Wave fixed effects apply to the pooled specification only.
 
 ## 3. Data, variables, and empirical strategy
 ### 3.1 Data structure
@@ -741,6 +739,22 @@ The positive pooled average coexists with
 substantial temporal heterogeneity, and the conditional role of digital adoption emerges more
 clearly only in the later wave.
 
+![Figure 2a: Wave 2009 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2a.png)
+
+*Figure 2a.* Predicted ln(labour productivity) as a function of FSTS for the 2009 wave (M2). Shaded band = 95% CI. Turning point ≈ 46% FSTS (Lind-Mehlum p = .006).
+
+![Figure 2b: Wave 2015 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2b.png)
+
+*Figure 2b.* Predicted ln(labour productivity) as a function of FSTS for the 2015 wave (M2). Turning point ≈ 39% FSTS (Lind-Mehlum p = .009).
+
+![Figure 2c: Wave 2023 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2c.png)
+
+*Figure 2c.* Predicted ln(labour productivity) as a function of FSTS for the 2023 wave (M2). Turning point ≈ 42% FSTS (Lind-Mehlum p = .013).
+
+![Figure 2d: Pooled (2009+2015+2023) — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2d.png)
+
+*Figure 2d.* Predicted ln(labour productivity) as a function of FSTS for the pooled sample (M2). Turning point ≈ 40% FSTS (Lind-Mehlum p < .001).
+
 ### 4.3 Interpretation of the hypothesis tests
 H1 receives qualified support. The Lind–Mehlum test rejects the monotonicity null
 in all three waves (2009 p = .006, 2015 p = .009, 2023 p = .013) and in the pooled
@@ -777,6 +791,10 @@ wave in which the digital moderation is within-sample detectable, and the findin
 treated as exploratory.
 
 Following Haans, Pieters, and He (2016), we distinguish two types of moderation for curvilinear I–P relationships. Type I moderation flattens or steepens one slope of the inverted-U (i.e., the linear FSTS × DAI interaction is significant while FSTS² × DAI is not): the moderator shifts the position of the turning point but preserves the inverted-U shape. Type II moderation flips the shape of the curve (i.e., FSTS² × DAI is significant): high versus low moderator values produce qualitatively different functional forms. The 2023 DAI evidence fits Type I: the significant linear interaction FSTS_c × DAI_z = −0.912 (p = .043) indicates that digital adoption attenuates the positive slope at low export intensity, pulling the turning point inward, while the FSTS² × DAI interaction remains insignificant, confirming that the inverted-U shape is preserved. Type II moderation — digital capability reversing the curvature for high-adopter firms — is not supported in the Vietnam sample.
+
+![Figure 3: Moderator marginal effects — TCI and DAI interactions with FSTS (Vietnam)](figures/p4_vietnam/figure_3_moderator_marginals.png)
+
+*Figure 3.* Marginal effects of TCI_z and DAI_z on ln(labour productivity) across FSTS levels (M7/M8). TCI shows a stable positive level-shift across waves; DAI moderation is wave-specific, with the 2023 interaction showing attenuation at high FSTS (Type I moderation: slope-flattening, shape preserved).
 
 ### 4.4 Main empirical pattern: participation × intensity
 Before reading the table that follows, we anchor the reader in the two-margin structure introduced in 2.1. The full-sample inverted-U is informative about the joint participation-andintensity pattern, but its curvature is identified primarily through the participation margin: only
@@ -1501,33 +1519,6 @@ tables/table_lind_mehlum.csv (Table LM source), tables/table_3_robustness.csv (T
 
 
 ---
-
-## Figures
-
-![Figure 1: Conceptual model — TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/p4_vietnam/figure_1_conceptual_model.png)
-
-*Figure 1.* Conceptual model. Export intensity (FSTS, FSTS²) is the independent variable; ln(labour productivity) is the dependent variable. TCI_z (technological capability) enters as a direct-effect moderator (H2, H3); DAI_z (digital adoption) enters as a direct-effect moderator (H4) with stage-contingent interaction in M8. Vietnam WBES 2009/2015/2023, N = 989/956/1,013.
-
-![Figure 2a: Wave 2009 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2a.png)
-
-*Figure 2a.* Predicted ln(labour productivity) as a function of FSTS for the 2009 wave (M2). Shaded band = 95% CI. Turning point ≈ 46% FSTS (Lind-Mehlum p = .006).
-
-![Figure 2b: Wave 2015 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2b.png)
-
-*Figure 2b.* Predicted ln(labour productivity) as a function of FSTS for the 2015 wave (M2). Turning point ≈ 39% FSTS (Lind-Mehlum p = .009).
-
-![Figure 2c: Wave 2023 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2c.png)
-
-*Figure 2c.* Predicted ln(labour productivity) as a function of FSTS for the 2023 wave (M2). Turning point ≈ 42% FSTS (Lind-Mehlum p = .013).
-
-![Figure 2d: Pooled (2009+2015+2023) — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2d.png)
-
-*Figure 2d.* Predicted ln(labour productivity) as a function of FSTS for the pooled sample (M2). Turning point ≈ 40% FSTS (Lind-Mehlum p < .001).
-
-![Figure 3: Moderator marginal effects — TCI and DAI interactions with FSTS (Vietnam)](figures/p4_vietnam/figure_3_moderator_marginals.png)
-
-*Figure 3.* Marginal effects of TCI_z and DAI_z on ln(labour productivity) across FSTS levels (M7/M8). TCI shows a stable positive level-shift across waves; DAI moderation is wave-specific, with the 2023 interaction showing attenuation at high FSTS.
-
 
 ## References
 Aguinis, H., Hill, N. S., and Bailey, J. R. (2021). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. Organizational Research Methods,

@@ -121,6 +121,8 @@ Given that DAI_core in the present WBES data reduces to a single binary item —
 
 Figure 1 summarises the conceptual model and the role each construct plays in the analysis. The internationalization–performance relationship is captured by the two FSTS terms (linear and squared) flowing into log labour productivity, with H1 predicting the inverted‑U curvature. Wave2024 is added as an explicit construct connected via dashed temporal-shift arrows to the FSTS and FSTS² terms (H2 directional shift). Working-capital conditions are shown as a dashed block — an exploratory mechanism-oriented analysis (§4.5) rather than a formal hypothesis. The present paper treats the working-capital channel as a theoretically grounded conditioner of the post-threshold downturn whose direct identification awaits richer financial microdata. Technological capability (H4a) enters the model as a direct level‑shift condition and candidate moderator of curvature. Digital adoption (DAI_core) is retained as a baseline digital-presence control; its level association with productivity is noted descriptively but not formalised as a hypothesis given the single-binary-item limitation. Controls flow into the outcome through a separate path. The visual hierarchy of Figure 1 reflects the architectural priority of the paper: H1 and H2 (solid arrows) are the primary curvature and shift predictions, while H3 and the H4 moderation arms are exploratory.
 
+![Figure 1: Conceptual model — bounded I–P and temporal shift, Chinese private firms](figures/p5_china/figure_1_conceptual_model.png)
+
 > **Figure 1.** Conceptual model for P5: bounded internationalization–performance and predicted temporal shift among Chinese private firms. Boxes denote firm‑level constructs (export intensity FSTS, FSTS²; technological capability TCI; digital adoption DAI; controls; outcome ln(LP)); a wave2024 dummy explicitly enters the model. Solid arrows mark the primary directional hypotheses (H1 inverted‑U curvature; H2 temporal shift via wave×FSTS interactions; H4a TCI level shift and curvature moderation; DAI_core baseline-control level association (not a formal hypothesis)). The dashed working-capital block and dashed dynamic-moderation arrows reflect exploratory mechanism analyses evaluated in §4.5.
 
 ## 3. Data and Methods
@@ -258,6 +260,8 @@ Standard errors in parentheses. Pooled specification clustered on idstd. *** p <
 
 The estimated turning point is 49.4 % of total sales in 2012 (95 % delta‑method CI [43.2 %, 55.6 %]), 47.2 % in 2024 (CI [34.5 %, 59.9 %]), and 48.8 % in the pooled sample (CI [42.7 %, 54.9 %]). Figure 2 displays the three turning‑point estimates with their 95 % confidence intervals. To put the magnitudes in everyday terms: at the wave-specific turning point, predicted ln(LP) is approximately 0.51 log points (2012) and 0.35 log points (2024) above the FSTS = 0 baseline — i.e., 67 % and 42 % productivity premia respectively at the geometric-mean control levels. By contrast, at FSTS = 1 (a hypothetical 100 % exporter), predicted ln(LP) is approximately at parity with the FSTS = 0 baseline in both waves, illustrating the bounded-optimum logic at the heart of H1.
 
+![Figure 2: Turning-point estimates with 95% confidence intervals by wave (China 2012, 2024, pooled)](figures/p5_china/figure_2_turning_points.png)
+
 > **Figure 2.** Optimal export‑intensity threshold (turning point of the inverted U‑shaped relationship) for Chinese private firms in 2012, 2024, and the pooled sample. Markers are point estimates from OLS‑HC1 estimation of lnLP ~ FSTS + FSTS² + lnEmp + firm_age + foreign_dummy (+ wave_2024); vertical bars are 95 % delta-method confidence intervals.
 
 ### 4.3 Competing mechanism test: H2b supported — structural durability confirmed
@@ -267,6 +271,8 @@ H2 predicted that the shape, slope, or location of the inverted U‑shaped relat
 The Paternoster (1998) z‑tests for cross‑wave equality of the linear and squared export‑intensity coefficients **fail to reject equality** at conventional thresholds. For the linear FSTS term, the difference between waves yields z = +0.82, p = .412. For the squared FSTS² term, the difference yields z = −0.61, p = .545. The joint F‑test on the (FSTS × wave_2024, FSTS² × wave_2024) interactions in the pooled three‑way moderation specification yields F(2, 3,558) = 2.24, p = .107, also failing to reject equality at conventional thresholds (Table 3).
 
 **The data support H2b (structural durability) over H2a (environmental shift).** Despite multiple plausible mechanisms motivating H2a — post-2008 trade re-equilibration, China–US tariff escalation, COVID-19 disruption, and evolving trade-finance institutions — the data show no detectable curvature shift. Combined with the tight overlap of the turning‑point CIs in Figure 2 and the closeness of the point estimates in the threshold table, the evidence indicates that the export‑intensity threshold for Chinese private firms is *structurally stable* across the 2012 and 2024 waves. This **confirms H2b**: the inverted-U reflects deep firm-level constraints that persist through a decade of substantial environmental change. Figure 3 overlays the predicted internationalization–performance curves for the two waves, illustrating the near‑parallel shape with a level shift but no curvature change.
+
+![Figure 3: Predicted ln(labour productivity) curves by wave (China, OLS-HC1)](figures/p5_china/figure_3_predicted_curves.png)
 
 > **Figure 3.** Predicted log labour productivity across export intensity for Chinese private firms in 2012 and 2024, holding controls at within‑sample means. Shaded bands are 95 % confidence intervals. Vertical dotted lines mark the wave‑specific turning points (49.4 % in 2012, 47.2 % in 2024). The horizontal blue band shows a managerially defined "safe operating zone" of 30 % to 60 % export intensity within which the predicted lnLP remains close to its peak in both waves. The two curves are nearly parallel in shape but level‑shifted upward in 2024, consistent with general productivity growth between waves while the inverted‑U structure is preserved — i.e., predicted shift is rejected; observed pattern is stability.
 
@@ -299,6 +305,8 @@ The dynamic moderation hypothesis — that capability‑conditioned curvature sh
 
 N = 3,559 (sample_full). Cluster-robust SE on idstd. Controls (lnEmp, firmage, foreigndummy) included.
 F1 corresponds to H2a vs H2b (cross-wave shift vs structural durability); F2 to H4a cross-sectional curvature moderation; F3 to capability-conditioned dynamic moderation.
+
+![Figure 4: TCI and DAI direct-effect coefficients by wave (China, standardised OLS)](figures/p5_china/figure_4_level_shifts.png)
 
 > **Figure 4.** Direct level‑shift coefficients of technological capability (TCI_full) and digital adoption (DAI_core) by wave for Chinese private firms. Bars are within‑wave z‑standardised coefficients from the OLS‑HC1 specification with FSTS, FSTS², lnEmp, firm age, foreign‑ownership dummy, and (in the pooled sample) a wave dummy as covariates. Error bars are 95 % confidence intervals.
 
@@ -427,26 +435,6 @@ Future research should pursue panel data, expanded measurement instruments — p
 Source: World Bank Enterprise Surveys, www.enterprisesurveys.org. We thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the data. The user of the data acknowledges that the original collector of the data, the authorised distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors and do not necessarily represent the views of the World Bank Group, its Executive Directors, or the governments they represent.
 
 The authors received no specific grant from any funding agency in the public, commercial, or not‑for‑profit sectors for the research, authorship, or publication of this article. The authors declare no conflicts of interest.
-
----
-
-## Figures
-
-![Figure 1: Conceptual model — bounded I–P and temporal shift, Chinese private firms](figures/p5_china/figure_1_conceptual_model.png)
-
-*Figure 1.* Conceptual model for P5. Boxes denote firm-level constructs (FSTS, FSTS², TCI, DAI, controls; outcome ln(LP)); a wave2024 dummy explicitly enters the model. Solid arrows mark primary directional hypotheses (H1 inverted-U curvature; H2 temporal shift via wave×FSTS interactions; H4a/H4b TCI and DAI level-shift and curvature-moderation). Dashed working-capital block reflects exploratory mechanism analyses (§4.5).
-
-![Figure 2: Turning-point estimates with 95% confidence intervals by wave (China 2012, 2024, pooled)](figures/p5_china/figure_2_turning_points.png)
-
-*Figure 2.* Optimal export-intensity threshold (turning point of the inverted-U) for Chinese private firms in 2012, 2024, and the pooled sample. Markers = OLS-HC1 point estimates; vertical bars = 95% delta-method CIs. Estimates: 49.4% (2012), 47.2% (2024), 48.8% (pooled) — structurally stable across waves (Paternoster z-test p = .412 / p = .545; joint F p = .107).
-
-![Figure 3: Predicted ln(labour productivity) curves by wave (China, OLS-HC1)](figures/p5_china/figure_3_predicted_curves.png)
-
-*Figure 3.* Predicted log labour productivity across FSTS for Chinese private firms in 2012 and 2024, holding controls at within-sample means. Shaded bands = 95% CIs. Vertical dotted lines mark wave-specific turning points (49.4% / 47.2%). Blue horizontal band marks the managerially defined "safe operating zone" (30%–60% FSTS). The two curves are nearly parallel — shape is stable; only level-shifted upward in 2024.
-
-![Figure 4: TCI and DAI direct-effect coefficients by wave (China, standardised OLS)](figures/p5_china/figure_4_level_shifts.png)
-
-*Figure 4.* Direct level-shift coefficients of TCI_full and DAI_core by wave for Chinese private firms. Bars = within-wave z-standardised OLS-HC1 coefficients; error bars = 95% CIs. TCI effect is positive and significant in both waves; DAI effect smaller and statistically weaker.
 
 ---
 
