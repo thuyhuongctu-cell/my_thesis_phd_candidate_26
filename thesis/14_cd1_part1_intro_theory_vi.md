@@ -232,7 +232,7 @@ Ma trận 3 trạng thái này thiết lập **tiền đề lý thuyết bắt b
 
 ### §2.7 KHUNG 4-TIER CHUYỂN ĐỔI SỐ + MÔ HÌNH NĂNG LỰC SỐ PHỤ THUỘC BỐI CẢNH
 
-NotebookLM critique 08/05/2026 (đối chiếu hai bản thảo của tác giả: P3 Singapore — Mar et al., 2026, *MIR*; P4 Việt Nam — Đỗ & Phan, 2026 — *JFAR*) chỉ ra một construct validity gap quan trọng: DAI đo lường trong cả 2 papers chỉ chạm tầng cơ bản (Tier 1 = website cho Việt Nam; Tier 1+2 = website + e-payment cho Singapore), trong khi lý thuyết về *super-linear coordination cost* (Brynjolfsson & McAfee, 2014) đòi hỏi tầng tích hợp sâu (Tier 3) hoặc năng lực động (Tier 4). Cần thiết lập explicit **construct boundary** từ Chương 2 — trước khi báo cáo descriptive results — để phòng tránh "overclaiming" trong khi nộp Hội đồng CTU + tránh "desk-reject" khi submit Q1/Q2 IB journals.
+NotebookLM critique 08/05/2026 (đối chiếu hai bản thảo của tác giả: P3 Singapore — Mar et al., 2026, *MIR*; P4 Việt Nam — Đỗ & Phan, 2026 — *APJM*) chỉ ra một construct validity gap quan trọng: DAI đo lường trong cả 2 papers chỉ chạm tầng cơ bản (Tier 1 = website cho Việt Nam; Tier 1+2 = website + e-payment cho Singapore), trong khi lý thuyết về *super-linear coordination cost* (Brynjolfsson & McAfee, 2014) đòi hỏi tầng tích hợp sâu (Tier 3) hoặc năng lực động (Tier 4). Cần thiết lập explicit **construct boundary** từ Chương 2 — trước khi báo cáo descriptive results — để phòng tránh "overclaiming" trong khi nộp Hội đồng CTU + tránh "desk-reject" khi submit Q1/Q2 IB journals.
 
 **Bốn tầng bậc số hóa theo Verhoef et al. (2021 — *Journal of Business Research*)**:
 
@@ -247,13 +247,13 @@ NotebookLM critique 08/05/2026 (đối chiếu hai bản thảo của tác giả
 
 **Mô hình Năng lực số phụ thuộc bối cảnh (Context-Contingent Digital Capability Model — CDCM)** — đóng góp lý thuyết MỚI hợp nhất hai papers:
 
-CDCM hợp nhất phát hiện Singapore P3 (Mar et al., 2026) + Việt Nam P4 (Đỗ & Phan, 2026 — *JFAR*) thành một khung xuyên quốc gia 3 chiều:
+CDCM hợp nhất phát hiện Singapore P3 (Mar et al., 2026) + Việt Nam P4 (Đỗ & Phan, 2026 — *APJM*) thành một khung xuyên quốc gia 3 chiều:
 
 **(a) Hình dáng đường cong I-P (Internationalization-Performance)**: Việt Nam → Inverted-U rõ nét, điểm uốn (TP) ≈ 39-46% FSTS xuyên 3 wave 2009-2023; Lind-Mehlum p<0,013. Singapore → tuyến tính dương + bậc hai nhẹ, TP ≈ 82% FSTS (vùng dữ liệu thưa, 3,2% firms vượt 70% FSTS); Lind-Mehlum p=0,303 KHÔNG xác nhận.
 
 **(b) Cơ chế DAI**: Việt Nam (Tier 1 = website only) → **stage-contingent**: mạnh 2009 → vô tác dụng 2015 → phục hồi 2023 nhưng tương tác DAI×FSTS mang dấu âm (β=-0,912, p=,043) ở mức xuất khẩu cao → Tier 1 trở thành **điểm nghẽn**. Singapore (Tier 1+2 = website + e-payment) → **conditional scaling**: tương tác DAI×FSTS² dương mạnh (β=3,119, p=,005) → Tier 1+2 trở thành **đòn bẩy** ở xuất khẩu cao.
 
-**(c) Vai trò TCI (Năng lực công nghệ)**: Việt Nam — *scarce advantage* giúp doanh nghiệp vượt rào cản quốc tế hóa (TCIz IV β=1,639, p<,001 robust 2SLS — Đỗ & Phan, 2026 — *JFAR*). Singapore — *hygiene factor* nâng cao productivity floor nhưng KHÔNG điều tiết I-P curve.
+**(c) Vai trò TCI (Năng lực công nghệ)**: Việt Nam — *scarce advantage* giúp doanh nghiệp vượt rào cản quốc tế hóa (TCIz IV β=1,639, p<,001 robust 2SLS — Đỗ & Phan, 2026 — *APJM*). Singapore — *hygiene factor* nâng cao productivity floor nhưng KHÔNG điều tiết I-P curve.
 
 **Lý giải xuyên quốc gia — Institutional Transaction Costs (TCE Coase-Williamson, mở rộng Banalieva & Dhanaraj 2019)**: Ở Việt Nam, hạ tầng thương mại số yếu khiến chi phí điều phối xuyên biên giới tăng vọt ở mức xuất khẩu trung bình (TP 39-46%). Ở Singapore, hạ tầng số + logistics đã hấp thụ phần lớn chi phí này, đẩy ranh giới quá tải (overload) về vùng FSTS cực cao (~82%).
 
@@ -263,7 +263,7 @@ CDCM hợp nhất phát hiện Singapore P3 (Mar et al., 2026) + Việt Nam P4 (
 - **Robustness check #10** (mới): cross-validation construct boundary — chạy Spec 2 chỉ ở 41 nước có đủ Tier 1+2 data (BREADY+ wave); confirm rằng pattern Singapore-style emerges khi có composite digital adoption metric;
 - **Hạn chế minh bạch (Limitations)**: WBES không quan sát Tier 3 (ERP/CRM) và Tier 4 (AI). Đề xuất nghiên cứu tương lai sử dụng panel data đo trực tiếp các hệ thống ERP/AI để xác định ranh giới giữa "đòn bẩy" (lever) và "điểm nghẽn" (bottleneck) của số hóa theo cấp tầng và cường độ xuất khẩu.
 
-**Tham chiếu**: Verhoef et al. (2021); Bharadwaj et al. (2013); Brynjolfsson & McAfee (2014); Mar et al. (2026 — P3 Singapore manuscript, *MIR* under review); Đỗ & Phan (2026 — P4 Việt Nam — *JFAR*); NotebookLM (08/05/2026, *Digital Scaling and Performance in Singapore's Global Firms*); Coase (1937); Williamson (1985); Banalieva & Dhanaraj (2019).
+**Tham chiếu**: Verhoef et al. (2021); Bharadwaj et al. (2013); Brynjolfsson & McAfee (2014); Mar et al. (2026 — P3 Singapore manuscript, *MIR* under review); Đỗ & Phan (2026 — P4 Việt Nam — *APJM*); NotebookLM (08/05/2026, *Digital Scaling and Performance in Singapore's Global Firms*); Coase (1937); Williamson (1985); Banalieva & Dhanaraj (2019).
 
 ---
 
