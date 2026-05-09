@@ -10,9 +10,11 @@ import matplotlib.ticker as mtick
 from statsmodels.formula.api import ols
 warnings.filterwarnings('ignore')
 
-UPLOAD = '/root/.claude/uploads/acb742a3-bfb0-42bf-b65f-c1b6044da4b5'
-OUT = '/tmp/p4_vietnam_figures'
-import os; os.makedirs(OUT, exist_ok=True)
+UPLOAD = '/root/.claude/uploads/4342a099-4c09-46f0-a81b-f754f349e99f'
+import os
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p4_vietnam')
+os.makedirs(OUT, exist_ok=True)
 
 # ── Helper to build wave dataframe ───────────────────────────────────────────
 def build_wave(path, wave_year, encoding=None):
@@ -103,9 +105,9 @@ def build_wave(path, wave_year, encoding=None):
 
 # ── Load all three waves ─────────────────────────────────────────────────────
 print("Loading waves...")
-df09 = build_wave(f'{UPLOAD}/2ff19506-Vietnam2009fulldata.dta', 2009)
-df15 = build_wave(f'{UPLOAD}/022620ff-Vietnam2015fulldata.dta', 2015)
-df23 = build_wave(f'{UPLOAD}/ba6023ac-VietNam2023fulldata.dta', 2023)
+df09 = build_wave(f'{UPLOAD}/ce379f9e-Vietnam2009fulldata.dta', 2009)
+df15 = build_wave(f'{UPLOAD}/2cf27baa-Vietnam2015fulldata.dta', 2015, encoding='latin1')
+df23 = build_wave(f'{UPLOAD}/c5673dd2-VietNam2023fulldata.dta', 2023)
 
 # ── OLS helper ───────────────────────────────────────────────────────────────
 SEC = '+ sec_mfg + sec_svc'
@@ -259,7 +261,7 @@ for M2, d_b, fm, wlabel, col, _ in wave_info:
     ax.spines['right'].set_visible(False)
     plt.tight_layout()
     tag = chr(96+[w for _,_,_,w,_,_ in wave_info].index(wlabel)+1)
-    plt.savefig(f'{OUT}/figure_2{tag}_{wlabel}_predicted_curve.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'{OUT}/figure_2{tag}.png', dpi=300, bbox_inches='tight')
     plt.close()
     print(f"  figure_2{tag} ({wlabel}) saved")
 
@@ -274,7 +276,7 @@ ax.legend(fontsize=10)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.tight_layout()
-plt.savefig(f'{OUT}/figure_2d_pooled_predicted_curve.png', dpi=300, bbox_inches='tight')
+plt.savefig(f'{OUT}/figure_2d.png', dpi=300, bbox_inches='tight')
 plt.close()
 print("  figure_2d (pooled) saved")
 

@@ -4,7 +4,7 @@
 
 *6 May 2026*
 
-*Target journal: International Business Review (IBR)*
+*Target journal: Asia Pacific Journal of Management (APJM)*
 
 **Manuscript classification:** research article.
 

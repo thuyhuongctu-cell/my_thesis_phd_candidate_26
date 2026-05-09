@@ -1,6 +1,6 @@
 # Technological Capability, Digital Adoption, and the Internationalization–Performance Relationship: A Firm-Level Study of Singapore
 
-*Target journal: International Business Review (IBR)*
+*Target journal: Management International Review (MIR)*
 
 ## Abstract
 This study examines how technological capability and digital adoption are associated with the internationalization–performance relationship among firms in Singapore, treated as a boundary-case test of the I–P relationship at the advanced-economy ceiling of the Institutional Context and Regulatory Variables (ICRV) spectrum — an analytically informative, within-context setting that reveals how the conventional nonlinear logic behaves when digital infrastructure is near-universally diffused and institutional transaction costs are at their lowest. Using World Bank Enterprise Survey microdata for Singapore 2023, the analysis distinguishes a Technological Capability Index (TCI), capturing firm-internal capability depth, from a Digital Adoption Index (DAI), capturing foundational digital interfaces and transaction-enabling mechanisms.

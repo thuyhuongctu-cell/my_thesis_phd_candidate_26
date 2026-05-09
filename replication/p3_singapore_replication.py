@@ -10,12 +10,14 @@ import matplotlib.ticker as mtick
 from statsmodels.formula.api import ols
 warnings.filterwarnings('ignore')
 
-UPLOAD = '/root/.claude/uploads/acb742a3-bfb0-42bf-b65f-c1b6044da4b5'
-OUT = '/tmp/p3_singapore_figures'
-import os; os.makedirs(OUT, exist_ok=True)
+UPLOAD = '/root/.claude/uploads/4342a099-4c09-46f0-a81b-f754f349e99f'
+import os
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p3_singapore')
+os.makedirs(OUT, exist_ok=True)
 
 # ── 1. Load data ──────────────────────────────────────────────────────────────
-df_raw, meta = pyreadstat.read_dta(f'{UPLOAD}/a815af4b-Singapore2023fulldata.dta')
+df_raw, meta = pyreadstat.read_dta(f'{UPLOAD}/d0ca2a21-Singapore2023fulldata.dta')
 df = df_raw.copy()
 
 for col in df.columns:

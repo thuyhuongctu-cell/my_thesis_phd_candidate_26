@@ -14,9 +14,11 @@ from statsmodels.formula.api import ols
 from scipy.stats import norm
 warnings.filterwarnings('ignore')
 
-UPLOAD = '/root/.claude/uploads/acb742a3-bfb0-42bf-b65f-c1b6044da4b5'
-OUT = '/tmp/p5_china_figures_real'
-import os; os.makedirs(OUT, exist_ok=True)
+UPLOAD = '/root/.claude/uploads/4342a099-4c09-46f0-a81b-f754f349e99f'
+import os
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p5_china')
+os.makedirs(OUT, exist_ok=True)
 
 def safe_recode(df):
     """Recode WBES special values to NaN."""
@@ -34,7 +36,7 @@ def safe_recode(df):
 
 # ── Load 2012 ─────────────────────────────────────────────────────────────────
 print("=== China 2012 ===")
-df12, meta12 = pyreadstat.read_dta(f'{UPLOAD}/3c9235af-China2012fullESN2700data.dta')
+df12, meta12 = pyreadstat.read_dta(f'{UPLOAD}/3e36f503-China2012fullESN2700data.dta')
 df12 = safe_recode(df12)
 print(f"N={len(df12)}")
 for v in ['d2','d3c','l1','b5','b2b','b8','e6','CNo1','CNo3','c22b']:
@@ -46,7 +48,7 @@ for v in ['d2','d3c','l1','b5','b2b','b8','e6','CNo1','CNo3','c22b']:
 
 # ── Load 2024 (use pandas to avoid encoding error) ────────────────────────────
 print("\n=== China 2024 ===")
-df24 = pd.read_stata(f'{UPLOAD}/dfa0b3e8-China2024fulldata.dta', convert_categoricals=False)
+df24 = pd.read_stata(f'{UPLOAD}/0331eb03-China2024fulldata.dta', convert_categoricals=False)
 df24 = safe_recode(df24)
 print(f"N={len(df24)}")
 for v in ['d2','d3c','l1','b5','b2b','b8','e6','h1','h8','c22b']:
