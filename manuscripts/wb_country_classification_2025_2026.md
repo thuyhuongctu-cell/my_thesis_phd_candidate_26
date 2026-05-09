@@ -39,25 +39,25 @@ Quy tắc làm tròn: ước tính GNI Atlas và các ngưỡng thu nhập đề
 
 #### 2.3.1 Đông Á và Thái Bình Dương (East Asia and Pacific — EAP)
 
-| Quốc gia/Nền kinh tế | GNI per capita (USD, Atlas, ~2024) | Nhóm Thu nhập FY2026 | Trạng thái FY2025 | Thay đổi | Vay vốn |
-|---|---|---|---|---|---|
-| **Trung Quốc** | ~$13,400 | Upper-middle income | Upper-middle | Không đổi | IBRD |
-| **Indonesia** | ~$4,480 | Lower-middle income | Lower-middle | Không đổi | IBRD |
-| **Thái Lan** | ~$7,230 | Upper-middle income | Upper-middle | Không đổi | IBRD |
-| **Malaysia** | ~$12,070 | Upper-middle income | Upper-middle | Không đổi | IBRD |
-| **Việt Nam** | ~$3,760 | **Lower-middle income** | Lower-middle | Không đổi | IDA/Blend |
-| **Philippines** | ~$3,950 | Lower-middle income | Lower-middle | Không đổi | IBRD |
-| **Campuchia** | ~$1,700 | Lower-middle income | Lower-middle | Không đổi | IDA |
-| **Lào (Lao PDR)** | ~$2,000 | Lower-middle income | Lower-middle | Không đổi | IDA |
-| **Mông Cổ** | ~$4,760 | Upper-middle income | Upper-middle | Không đổi | IBRD/Blend |
-| **Myanmar** | ~$1,210 | Lower-middle income | Lower-middle | Không đổi | IDA |
-| **Papua New Guinea** | ~$2,860 | Lower-middle income | Lower-middle | Không đổi | IDA/Blend |
-| **Timor-Leste** | ~$2,490 | Lower-middle income | Lower-middle | Không đổi | IDA |
-| **Singapore** | ~$67,200 | High income | High income | Không đổi | — |
-| **Nhật Bản** | ~$42,440 | High income | High income | Không đổi | — |
-| **Hàn Quốc** | ~$35,490 | High income | High income | Không đổi | — |
-| **Fiji** | ~$5,450 | Upper-middle income | Upper-middle | Không đổi | IBRD/Blend |
-| **Samoa** | ~$4,020 | Lower-middle income | Lower-middle | Không đổi | IDA/Blend |
+| Quốc gia/Nền kinh tế | GNI per capita (USD, Atlas, ~2024) | Nhóm Thu nhập FY2026 | Trạng thái FY2025 | Thay đổi | Vay vốn | WBES Waves |
+|---|---|---|---|---|---|---|
+| **Trung Quốc** | ~$13,400 | Upper-middle income | Upper-middle | Không đổi | IBRD | 2012, 2024 |
+| **Indonesia** | ~$4,480 | Lower-middle income | Lower-middle | Không đổi | IBRD | 2015 |
+| **Thái Lan** | ~$7,230 | Upper-middle income | Upper-middle | Không đổi | IBRD | 2016 |
+| **Malaysia** | ~$12,070 | Upper-middle income | Upper-middle | Không đổi | IBRD | 2015 |
+| **Việt Nam** | ~$3,760 | **Lower-middle income** | Lower-middle | Không đổi | IDA/Blend | 2009, 2015, 2023 |
+| **Philippines** | ~$3,950 | Lower-middle income | Lower-middle | Không đổi | IBRD | 2015, 2023 |
+| **Campuchia** | ~$1,700 | Lower-middle income | Lower-middle | Không đổi | IDA | 2016, 2023 |
+| **Lào (Lao PDR)** | ~$2,000 | Lower-middle income | Lower-middle | Không đổi | IDA | 2016 |
+| **Mông Cổ** | ~$4,760 | Upper-middle income | Upper-middle | Không đổi | IBRD/Blend | 2019 |
+| **Myanmar** | ~$1,210 | Lower-middle income | Lower-middle | Không đổi | IDA | 2014, 2016 |
+| **Papua New Guinea** | ~$2,860 | Lower-middle income | Lower-middle | Không đổi | IDA/Blend | hạn chế |
+| **Timor-Leste** | ~$2,490 | Lower-middle income | Lower-middle | Không đổi | IDA | 2015 |
+| **Singapore** | ~$67,200 | High income | High income | Không đổi | — | 2023 (B-READY) |
+| **Nhật Bản** | ~$42,440 | High income | High income | Không đổi | — | — † |
+| **Hàn Quốc** | ~$35,490 | High income | High income | Không đổi | — | — † |
+| **Fiji** | ~$5,450 | Upper-middle income | Upper-middle | Không đổi | IBRD/Blend | 2023 (B-READY) |
+| **Samoa** | ~$4,020 | Lower-middle income | Lower-middle | Không đổi | IDA/Blend | 2023 (B-READY) |
 
 #### 2.3.2 Nam Á (South Asia — SAS)
 
@@ -175,17 +175,19 @@ Trong bối cảnh nghiên cứu WBES, phân loại thu nhập WB là khung tham
 
 ---
 
-## 7. Bảng Tổng hợp Nhanh — 47 Nền kinh tế Mẫu WBES (Theo Nhóm Thu nhập FY2026)
+## 7. Bảng Tổng hợp — Các Nền kinh tế Châu Á có WBES Data (Theo Nhóm Thu nhập FY2026)
+
+*Phạm vi: WB regions EAP + SAS + MENAAP (Asia-relevant). Không bao gồm ECA (Europe & Central Asia).*
 
 | Nhóm Thu nhập WB (FY2026) | Phân nhóm con ICRV (Đỗ & Phan, 2026) | Nền kinh tế trong mẫu WBES |
 |---|---|---|
-| High income | Advanced (A) | Singapore, Nhật Bản*, Hàn Quốc* |
-| Upper-middle income | Upper-middle (UM) | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia, Maldives, Fiji, Mông Cổ, Türkiye |
-| Lower-middle income | Emerging (E) / Frontier (F) | Việt Nam, Ấn Độ, Philippines, Indonesia, Bangladesh, Pakistan, Sri Lanka, Nepal, Lào, Campuchia, Myanmar, Bhutan, Kyrgyzstan, Tajikistan, Uzbekistan |
+| High income | Advanced (A) | Singapore (WBES 2023), Nhật Bản †, Hàn Quốc † |
+| Upper-middle income | Upper-middle (UM) | Trung Quốc, Malaysia, Thái Lan, Mông Cổ, Maldives, Fiji |
+| Lower-middle income | Emerging (E) / Frontier (F) | Việt Nam, Ấn Độ, Philippines, Indonesia, Bangladesh, Pakistan, Sri Lanka, Nepal, Lào, Campuchia, Myanmar, Bhutan |
 | Low income | Frontier (F) | Afghanistan |
-| Pacific SIDS | SIDS Pacific (boundary) | Fiji (UMI), Samoa, Solomon Islands, Vanuatu, Tonga, Kiribati, Marshall Islands |
+| Pacific SIDS | SIDS Pacific (boundary) | Samoa, Solomon Islands, Vanuatu, Tonga, Kiribati, Marshall Islands |
 
-> *Nhật Bản và Hàn Quốc không có trong mẫu WBES chính nhưng thuộc khung "Asia and Pacific" của ADB.
+> † Nhật Bản và Hàn Quốc: **không có WBES data** — WB không thực hiện Enterprise Survey tại các nền kinh tế high income OECD. Không đưa vào mẫu nghiên cứu chính. Singapore được đưa vào với tư cách nền kinh tế so sánh (P4, WBES B-READY 2023).
 
 ---
 
