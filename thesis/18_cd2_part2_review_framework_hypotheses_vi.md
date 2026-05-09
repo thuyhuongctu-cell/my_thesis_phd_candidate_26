@@ -1,0 +1,286 @@
+# CHUYÊN ĐỀ TIẾN SĨ SỐ 2 — PHẦN 2 (CHƯƠNG 3–5)
+
+> Phần 1 (Chương 1–2): `thesis/17_cd2_part1_intro_theory_vi.md`.
+> Phần 3 (Chương 6–9 + TLTK): `thesis/19_cd2_part3_models_data_conclusion_vi.md`.
+> **Phiên bản 1.0 (ngày 09/05/2026)**: Chương 3 — lược khảo mô hình I→P; Chương 4 — khung khái niệm tích hợp; Chương 5 — hệ giả thuyết H1–H6 với neo đậu thực nghiệm từ P3 Singapore (MIR), P4 Việt Nam (APJM), P5 Trung Quốc (IJOEM).
+
+---
+
+## CHƯƠNG 3 — LƯỢC KHẢO MÔ HÌNH I→P TRÊN THẾ GIỚI VÀ CHÂU Á
+
+### 3.1 Năm dạng hàm của quan hệ I→P trong văn liệu
+
+Văn liệu International Business (IB) đã ghi nhận không dưới **năm dạng hàm** khác nhau trong quan hệ giữa cường độ quốc tế hóa (I) và hiệu quả doanh nghiệp (P). Sự đa dạng này không phải ngẫu nhiên mà phản ánh tính phụ thuộc ngữ cảnh (context-dependency) của hiệu ứng quốc tế hóa: cùng một mức FSTS có thể tạo ra lợi ích hoặc gánh nặng tùy theo năng lực doanh nghiệp, thể chế quốc gia, và giai đoạn phát triển số.
+
+**Dạng hàm 1 — Tuyến tính**. Các nghiên cứu sớm như Hsu và Boggs (2003) và Geringer et al. (1989) tìm thấy mối quan hệ tuyến tính dương: hiệu quả tăng đơn điệu theo mức độ quốc tế hóa. Logic nền tảng là lợi ích quy mô (economies of scale), đa dạng hóa doanh thu, và tiếp cận thị trường lớn hơn. Tuy nhiên, đây là kết quả đặc thù của các mẫu với FSTS thấp hoặc phân tán hẹp, không phản ánh được chi phí điều phối ở mức FSTS cao.
+
+**Dạng hàm 2 — Inverted-U (chữ U ngược)**. Hitt, Hoskisson và Kim (1997) và Gomes và Ramaswamy (1999) đề xuất mô hình chữ U ngược: hiệu quả tăng ở giai đoạn quốc tế hóa ban đầu đến trung bình do lợi ích scale và learning, nhưng giảm sau ngưỡng tối ưu do chi phí điều phối đa thị trường vượt lợi ích. Turning point thực nghiệm thường nằm trong khoảng 30–60% FSTS (Marano et al., 2016). Đây là dạng hàm phổ biến nhất trong meta-analyses (Bausch & Krist, 2007; Kirca et al., 2012).
+
+**Dạng hàm 3 — S-curve/Cubic**. Lu và Beamish (2004) và Contractor, Kundu và Hsu (2003) phát triển lý thuyết ba giai đoạn: (i) giai đoạn đầu hiệu quả giảm do chi phí học tập và thiết lập; (ii) giai đoạn giữa hiệu quả tăng do lợi ích scale và diversification; (iii) giai đoạn quá mức hiệu quả giảm do chi phí phối hợp. Dạng S-curve có hệ số β₁(FSTS)>0, β₂(FSTS²)<0, β₃(FSTS³)>0. Bằng chứng hỗ trợ mạnh từ các MNEs lớn, nhưng kém ổn định hơn với SMEs do mẫu thường không bao phủ FSTS²>0.5.
+
+**Dạng hàm 4 — M-curve**. Riahi-Belkaoui (1998) đề xuất dạng M-curve với hai turning points — dạng hàm phức tạp phản ánh heterogeneity trong lợi ích quốc tế hóa tùy theo loại thị trường. Bằng chứng thực nghiệm hạn chế và khó tái lập; thường chỉ xuất hiện trong các mẫu đặc thù.
+
+**Dạng hàm 5 — Forced penalty**. Glaum và Oesterle (2007) và Đỗ và Phan (P8 manuscript, Pacific SIDS) ghi nhận dạng hàm tuyến tính âm hoặc không có lợi ích trong các nền kinh tế bắt buộc phải quốc tế hóa do thị trường nội địa quá nhỏ (Briguglio, 1995; Bertram, 2006). Đây là pattern đặc thù của SIDS Pacific — quốc gia phải xuất khẩu để tồn tại nhưng thiếu năng lực cạnh tranh, tạo ra "forced penalty" — hiệu quả không tăng theo cường độ xuất khẩu.
+
+**Bảng 3.1**. *Năm dạng hàm I→P, cơ chế, và bối cảnh xuất hiện.*
+
+| Dạng hàm | Tác giả tiêu biểu | Cơ chế | ICRV bối cảnh |
+|----------|-------------------|--------|---------------|
+| Tuyến tính (+) | Hsu & Boggs (2003) | Scale + learning | FSTS thấp, tất cả nhóm |
+| Inverted-U | Hitt et al. (1997); Gomes & Ramaswamy (1999) | Chi phí điều phối > lợi ích ở FSTS cao | Nhóm III–IV (trung bình cao, đang nổi) |
+| S-curve/Cubic | Lu & Beamish (2004); Contractor et al. (2003) | Ba giai đoạn: học tập → scale → quá mức | MNEs lớn, tất cả nhóm |
+| M-curve | Riahi-Belkaoui (1998) | Heterogeneous returns | Bằng chứng hạn chế |
+| Forced penalty | Glaum & Oesterle (2007); Đỗ & Phan (P8) | Bắt buộc QTH, thiếu năng lực | Nhóm VI (SIDS) |
+
+### 3.2 Năm meta-analysis lớn (1980–2024) và khoảng trống thực nghiệm
+
+Năm tổng quan định lượng lớn cung cấp bức tranh tổng thể về quan hệ I→P:
+
+**Bausch và Krist (2007)** phân tích 68 nghiên cứu (1980–2005) và tìm thấy trung bình r = .045 (không đáng kể), nhưng với biến động cao (SD = .21) — cho thấy moderators quan trọng hơn hiệu ứng trung bình. Năng lực doanh nghiệp và thể chế quốc gia là moderators mạnh nhất.
+
+**Kirca et al. (2012)** tổng hợp 180 nghiên cứu với 824 hiệu cỡ, tìm thấy mối quan hệ dương trung bình nhưng với significant moderation từ: loại hình quốc tế hóa (FDI vs xuất khẩu), thước đo hiệu quả (accounting vs market), và thuộc tính doanh nghiệp (R&D intensity, age, size). Khoảng trống: thiếu bằng chứng từ châu Á và emerging markets.
+
+**Marano et al. (2016)** phân tích 333 nghiên cứu với khung "institutionalized" approach, tìm turning points trong khoảng 30–60% FSTS cho inverted-U. Phát hiện quan trọng: turning point dịch chuyển khi kiểm soát institutional quality — nền kinh tế có thể chế tốt có turning point cao hơn.
+
+**Wu, Wood và Khan (2022)** tổng hợp 20 năm bằng chứng từ emerging market MNEs, tìm thấy pattern khác biệt: EMNEs có inverted-U yếu hơn và turning point thấp hơn so với DMNEs (developed country MNEs) do absorptive capacity hạn chế hơn ở FSTS cao.
+
+**Schwens et al. (2018)** tập trung vào SMEs và tìm thấy U-shape (không phải inverted-U) trong một số bối cảnh — chi phí quốc tế hóa ban đầu lớn so với năng lực SME, nhưng recovery sau khi vượt ngưỡng thiết lập.
+
+**Khoảng trống tổng hợp**: Cả năm meta-analysis đều (i) thiếu coverage đầy đủ cho châu Á và Pacific; (ii) không kiểm định đồng thời phi tuyến + moderation đa tầng; (iii) không phân tách TCI và DAI; (iv) không bao gồm SIDS Pacific; (v) không có dữ liệu sau 2020 (AI + COVID). CĐ2 lấp đầy tất cả năm khoảng trống này.
+
+### 3.3 Bằng chứng châu Á đặc thù
+
+**Bằng chứng từ bộ ba bản thảo đồng hành (P3–P5)**. Ba bản thảo trong chuỗi luận án cung cấp bằng chứng cập nhật nhất cho châu Á:
+
+*P3 Việt Nam (Đỗ & Phan, 2026, APJM under review)*: Phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận inverted-U trong cả ba sóng — Lind–Mehlum test p = .006 (2009), .009 (2015), .013 (2023), p < .001 (pooled). Turning point ổn định trong khoảng 39–46% FSTS. TCI dương bền vững (β_pooled = 0.179, p < .001); DAI stage-contingent — dương năm 2009, null năm 2015, dương 2023 — với Paternoster z = 3.353 giữa 2009 và 2015 (p < .001). IV estimation (first-stage F = 34.6) cho DAI null (β = 0.018, p = .942) gợi ý selection bias trong OLS.
+
+*P4 Singapore (Mar et al., 2026, MIR under review)*: Phân tích 623 doanh nghiệp WBES 2023. Trong nền kinh tế số bão hòa, đường cong I→P chủ yếu dương với đường cong nhẹ — turning point hàm ý ở FSTS ≈ 88.6% (vùng thưa dữ liệu; Lind–Mehlum p = .303). **Phát hiện nổi bật**: DAI×FSTS² = +3.119 (p = .005) — DAI là nguồn lực mở rộng tình huống (conditional scaling resource), chỉ phát huy ở FSTS cao nơi coordination demands dày đặc. TCI dương trực tiếp (β = 0.153). Giải thích: **digital saturation paradox** — khi Tier 1–2 đã phổ biến (website 67%), DAI mất tác dụng uniform premium và chỉ phân biệt qua export-contingent channel.
+
+*P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM under review)*: Phân tích 4.559 doanh nghiệp WBES 2012/2024. **Phát hiện chính**: inverted-U bền vững cấu trúc (H2b structural durability) — turning point 49.4% (2012), 47.2% (2024), Paternoster z-tests thất bại bác bỏ bình đẳng hệ số (FSTS²: p = .545; joint F: p = .107). TCI tăng cường theo thời gian (β = +0.28 → +0.43, Paternoster p = .011). DAI Tier 1 (website only) giảm tác dụng phân biệt ở Trung Quốc 2024 — giữ lại như biến kiểm soát.
+
+**Bằng chứng từ văn liệu China và Asia**. Xiao et al. (2013) tìm thấy S-curve trong Chinese manufacturing và nhấn mạnh vai trò governance structure trong việc định hình turning point. Chen và Tan (2012) phát hiện region effects trong I→P của doanh nghiệp Trung Quốc — Greater China region có hiệu quả cao hơn. Kafouros et al. (2023) tổng hợp bằng chứng từ Global Strategy Journal về digital moderation của I→P trong châu Á giai đoạn 2018+.
+
+**Bảng 3.2**. *So sánh bằng chứng ba bản thảo đồng hành — tổng hợp cho CĐ2.*
+
+| Chiều | P3 Việt Nam (Nhóm IV) | P4 Singapore (Nhóm I) | P5 Trung Quốc (Nhóm III) |
+|-------|-----------------------|----------------------|--------------------------|
+| Dạng I→P | Inverted-U xác nhận | Chủ yếu dương, TP ~88.6% | Inverted-U bền vững |
+| TP chính | 39–46% FSTS | ~88.6% (sparse) | 47–49% FSTS |
+| TCI | Dương bền vững, causal | Dương trực tiếp | Dương, tăng theo thời gian |
+| DAI | Stage-contingent; IV null | Conditional scaling (+3.119) | Control only (Tier 1 bão hòa) |
+| Temporal | Paternoster p<.001 (shift) | Cross-section 2023 | Paternoster p=.545 (ổn định) |
+| CDCM pattern | Nhóm IV, trung gian | Nhóm I, bão hòa số | Nhóm III, đang trưởng thành |
+
+### 3.4 Khoảng trống nghiên cứu — Định vị CĐ2
+
+Tổng hợp văn liệu cho thấy ba khoảng trống còn mở:
+
+**Khoảng trống 1 — Phạm vi và tích hợp**: Không có nghiên cứu nào kiểm định đồng thời phi tuyến I→P và moderation đa tầng (TCI, DAI, manager, institutional regime) trên một pool đủ lớn bao phủ toàn bộ châu Á và Thái Bình Dương (47 nền kinh tế, 101.185 doanh nghiệp, 14 sóng WBES). Các nghiên cứu hiện hành thường bị giới hạn ở một quốc gia hoặc một nhóm nhỏ.
+
+**Khoảng trống 2 — Tách bạch TCI và DAI**: Văn liệu thường dùng khái niệm "digital capability" không phân biệt giữa (a) chiều sâu năng lực công nghệ nội tại (TCI — R&D, ISO, absorptive capacity) và (b) mức độ áp dụng giao diện số ngoại tại (DAI — Tier 1–2: website, e-payment). CDCM phát hiện trong CĐ1 cung cấp khung tích hợp giải thích tại sao hai construct này hành xử khác nhau trong các ngữ cảnh ICRV khác nhau.
+
+**Khoảng trống 3 — SIDS và frontier economies**: Không có nghiên cứu nào tích hợp SIDS Pacific (Nhóm VI) và frontier economies (Nhóm V) vào khung I→P lớn. "Forced penalty" hypothesis chưa được kiểm định đồng thời với các dạng hàm khác.
+
+CĐ2 giải quyết cả ba khoảng trống bằng framework 4 tầng + Digital lens + CDCM, mô hình M0–M7, và pool 101.185 doanh nghiệp xuyên 47 nền kinh tế.
+
+---
+
+## CHƯƠNG 4 — KHUNG KHÁI NIỆM TÍCH HỢP
+
+### 4.1 Sơ đồ khung khái niệm (Hình 4.1)
+
+Khung khái niệm CĐ2 tích hợp năm tầng lý thuyết (Chương 2) vào một mô hình nhân quả có thể kiểm định:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                    BIẾN ĐỘC LẬP — Quốc tế hóa (I)                    │
+│            FSTS · FSTS² · FSTS³  [Cường độ xuất khẩu]                │
+└───────────────────────────┬────────────────────────────────────────────┘
+                            │ → P (Hiệu quả hoạt động kinh doanh)
+                            │   ln(LP) = ln(doanh thu/lao động)
+                            ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                  BIẾN PHỤ THUỘC — Hiệu quả (P)                       │
+│              ln(Labour Productivity) — Năng suất lao động             │
+└───────────────────────────┬────────────────────────────────────────────┘
+                            │ Điều tiết (moderate) bởi:
+          ┌─────────────────┼──────────────────────────────┐
+          │                 │                              │
+    Cấp doanh nghiệp        │                         Cấp quốc gia
+          │                 │                              │
+  ┌───────┴──────┐  ┌───────┴────────┐          ┌─────────┴──────────┐
+  │ TCI          │  │ DAI            │          │ ICRV Regime        │
+  │ Technological│  │ Digital        │          │ 6 nhóm: Nhóm I→VI  │
+  │ Capability   │  │ Adoption Index │          │ (institutional     │
+  │ Index        │  │ (CDCM: context-│          │  gradient)         │
+  │ (level-shift)│  │ contingent)    │          └────────────────────┘
+  └──────────────┘  └────────────────┘
+          │
+  ┌───────┴──────────────┐
+  │ Top Manager          │
+  │ Characteristics      │
+  │ (exp, educ, gender,  │
+  │  intl experience)    │
+  └──────────────────────┘
+                            │
+                    Temporal moderation:
+                    Year-bucket (2009–12 / 2013–17 / 2018–25)
+```
+
+*Hình 4.1*. Khung khái niệm tích hợp CĐ2. Mũi tên liền = tác động trực tiếp; mũi tên nét đứt = điều tiết. CDCM = Context-Contingent Digital Capability Model (phát hiện trong CĐ1, formalized trong §2.5). Biến kiểm soát (firm size, age, foreign ownership, sector, country FE, year FE) không vẽ để đơn giản hóa.
+
+### 4.2 Mapping biến — Khái niệm → Đo lường WBES → Kỳ vọng
+
+**Bảng 4.1**. *Mapping biến đầy đủ: khái niệm lý thuyết → biến WBES → kỳ vọng dấu → giả thuyết.*
+
+| Biến | Khái niệm | Mã WBES | Công thức | Kỳ vọng | Giả thuyết |
+|------|-----------|---------|-----------|---------|------------|
+| ln(LP) | Labour productivity | d2, l1 | ln(d2/l1) | DV | — |
+| FSTS | Cường độ QTH | d3c | d3c/100 | β₁>0 (ngưỡng thấp) | H1 |
+| FSTS² | Phi tuyến | — | (FSTS)² | β₂<0 | H1 |
+| FSTS³ | S-curve | — | (FSTS)³ | β₃>0 | H1 |
+| TCI | Năng lực CN nội tại | b8, h8, h1, e6 | z-mean(≥3/4 items) | β>0 (direct) | H2 |
+| DAI | Áp dụng số nền tảng | c22b; k33/k38 | z-mean (Tier 1+2) | Context-specific | H3 |
+| FSTS×TCI | TCI moderation | — | interaction | β_mod: phụ thuộc ngữ cảnh | H2 |
+| FSTS²×DAI | DAI contingent | — | interaction | β>0 (Nhóm I); null (Nhóm IV IV) | H3 |
+| exp_manager | Kinh nghiệm QL | b5 | năm kinh nghiệm | β>0 (H4) | H4 |
+| gender_manager | Giới tính QL | b7 | binary female=1 | Exploratory | H4 |
+| educ_manager | Học vấn QL | b7a | ordinal | β>0 | H4 |
+| ICRV_j | Regime thể chế | — | j=I→VI dummy | Gradient H5 | H5 |
+| Year_bucket | Thời gian | year | 2009–12/13–17/18–25 | shift H6 | H6 |
+| ln(employees) | Quy mô DN | l1 | ln(l1) | β>0 | Kiểm soát |
+| firm_age | Tuổi DN | b6 | năm thành lập | β ambiguous | Kiểm soát |
+| foreign_own | Sở hữu nước ngoài | b2b | ≥10% = 1 | β>0 | Kiểm soát |
+
+**Ghi chú đo lường**:
+- **TCI**: binary composite từ: ISO certification (b8=1), R&D activity (h8=1), product innovation (h1=1), foreign licensed technology (e6=1). Yêu cầu ≥3/4 items non-missing; z-standardized trong mỗi wave. Items nhất quán qua ba thế hệ schema WBES (PICS3, Standardized, BREADY/BEE).
+- **DAI**: z-standardized composite. Schema BREADY/BEE (2019+): website (c22b) + customer e-payment intensity (k33) + supplier e-payment intensity (k38) = Tier 1+2. Schema cũ hơn (PICS3, Standardized): chỉ website (c22b) = Tier 1. Sự bất nhất này phải minh bạch trong §7.2 và kiểm định robustness (R1: DAI website-only xuyên toàn bộ sample).
+- **FSTS**: mean-centered trước khi tính FSTS² để giảm đa cộng tuyến giữa FSTS và FSTS².
+
+### 4.3 Giải thích CDCM trong khung khái niệm
+
+CDCM — Context-Contingent Digital Capability Model — là phát hiện tích hợp của CĐ1 giải thích tại sao tác động DAI không đồng nhất (Hình 4.2):
+
+```
+Tác động DAI lên P = f(Regime × FSTS level × Digital saturation)
+
+Nhóm I (tiên tiến đổi mới, bão hòa số cao):
+  → DAI chủ yếu là conditional scaling resource
+  → Tác động xuất hiện ở FSTS cao (P4 Singapore: FSTS²×DAI = +3.119)
+  → Không có uniform premium
+
+Nhóm IV (đang nổi, bão hòa số trung bình):
+  → DAI dương trong giai đoạn đầu số hóa (OLS)
+  → Selection-driven: IV cho null (P3 Việt Nam: β = 0.018, p = .942)
+  → Stage-contingent: dương 2009, null 2015, dương 2023
+
+Nhóm III (trung bình cao, bão hòa số trung bình-cao):
+  → DAI Tier 1 mất tác dụng phân biệt khi phổ biến >60%
+  → Giữ như control, không moderate curvature (P5 Trung Quốc)
+```
+
+CDCM cho thấy: một phát hiện "DAI null" và một phát hiện "DAI positive" có thể nhất quán với cùng một cơ chế — khác nhau ở điều kiện bối cảnh, không phải ở lý thuyết nền tảng.
+
+---
+
+## CHƯƠNG 5 — HỆ GIẢ THUYẾT H1–H6
+
+### 5.1 Giả thuyết H1 — Phi tuyến S-curve/Cubic trong quan hệ I→P
+
+**Cơ sở lý thuyết**. Mô hình Uppsala (Johanson & Vahlne, 1977) đề xuất quốc tế hóa diễn ra theo ba giai đoạn với tốc độ và đặc điểm chi phí-lợi ích khác nhau. Contractor et al. (2003) và Lu và Beamish (2004) formalize ba giai đoạn thành S-curve: (i) giai đoạn học tập tốn kém — doanh nghiệp chịu chi phí thiết lập thị trường, tuyển dụng nhân sự địa phương, điều chỉnh sản phẩm → hiệu quả thấp; (ii) giai đoạn hái quả — economies of scale, diversification, và knowledge spillovers → hiệu quả tăng; (iii) giai đoạn quá mức — chi phí điều phối nhiều thị trường, information overload, agency problems vượt lợi ích → hiệu quả giảm. Với các SMEs châu Á trong WBES (majority), giai đoạn I ngắn do quy mô nhỏ thường bỏ qua nhanh; do đó dạng inverted-U (H1 quadratic, M1) có thể mạnh hơn S-curve hoàn toàn (H1 cubic, M2) trong nhiều mẫu.
+
+**Heterogeneity ngữ cảnh ICRV**. Turning point của inverted-U khác nhau theo regime: Nhóm I (tiên tiến đổi mới) có turning point cao hơn (~85%) do digital infrastructure giảm coordination costs; Nhóm IV (đang nổi) có turning point trung bình (39–46%); Nhóm III (trung bình cao) có turning point trung bình-cao (47–49%). Nhóm VI (SIDS) có pattern forced penalty — không có inverted-U điển hình.
+
+**Bằng chứng neo đậu**:
+- P3 Việt Nam (Nhóm IV): Lind–Mehlum p < .001 (pooled), TP 39–46%
+- P5 Trung Quốc (Nhóm III): Lind–Mehlum xác nhận hai sóng, TP 47–49%
+- P4 Singapore (Nhóm I): Lind–Mehlum p = .303 — predominantly positive, TP ~88.6% (near-ceiling)
+
+> **H1**: Quan hệ giữa cường độ quốc tế hóa (FSTS) và hiệu quả doanh nghiệp (ln LP) có dạng **phi tuyến**, với β₁(FSTS) > 0 và β₂(FSTS²) < 0, phản ánh inverted-U ở phần lớn các regime ICRV. Turning point dịch chuyển theo gradient ICRV: cao nhất ở Nhóm I → thấp nhất ở Nhóm IV, với Nhóm VI có pattern forced penalty.
+
+### 5.2 Giả thuyết H2 — TCI điều tiết tích cực (level-shifter)
+
+**Cơ sở lý thuyết**. RBV (Barney, 1991) cho rằng nguồn lực VRIN tạo lợi thế cạnh tranh bền vững. TCI — năng lực công nghệ nội tại (ISO certification, R&D, product innovation, foreign technology licensing) — là nguồn lực VRIN theo Lall (1992) và tích lũy absorptive capacity theo Cohen và Levinthal (1990). Doanh nghiệp có TCI cao: (a) hấp thụ tri thức từ thị trường nước ngoài hiệu quả hơn; (b) có công nghệ sản xuất tiên tiến hơn → năng suất cao hơn ở mọi mức FSTS; (c) có thể duy trì hiệu quả ở FSTS cao hơn do năng lực phối hợp tốt hơn. Cơ chế chính là **level-shift** (nâng mặt bằng LP toàn bộ), không nhất thiết thay đổi vị trí turning point.
+
+**Phân biệt TCI với DAI**. Theo Bhandari et al. (2023), TCI hoạt động như resource-deepening mechanism (nội tại, tích lũy theo thời gian, khó bắt chước), trong khi DAI hoạt động như adoption-contingent mechanism (ngoại tại, phụ thuộc digital ecosystem). Coltman et al. (2008) xác nhận hai construct thỏa mãn tiêu chí formative composite riêng biệt.
+
+**Bằng chứng neo đậu**:
+- P3 Việt Nam: β(TCI) = 0.179 (p < .001) bền vững 3 sóng; IV cho β(TCI) = 1.639 (p < .001, first-stage F = 34.6) → TCI là causal, không phải selection-driven
+- P5 Trung Quốc: β(TCI) tăng từ +0.28 (2012) → +0.43 (2024), Paternoster z = −2.55 (p = .011) → TCI level-shift tăng cường theo thời gian
+- P4 Singapore: β(TCI) = +0.153 (p < .01), không moderate curvature → TCI là pure level-shifter trong Nhóm I
+
+> **H2**: Technological Capability Index (TCI) có mối quan hệ dương trực tiếp với hiệu quả doanh nghiệp (β(TCI) > 0) và nâng mặt bằng ln(LP) của toàn bộ đường cong I→P (**level-shifter effect**). Tác động điều tiết của TCI lên **độ cong** của đường cong (curvature moderation) là câu hỏi thực nghiệm mở và được kiểm định như H2 exploratory trong M3.
+
+### 5.3 Giả thuyết H3 — DAI điều tiết theo ngữ cảnh (CDCM)
+
+**Cơ sở lý thuyết**. Banalieva và Dhanaraj (2019) và Verhoef et al. (2021) đề xuất DAI (Digital Adoption Index — Tier 1–2: website, e-payment) làm giảm psychic distance và chi phí giao dịch xuyên biên giới. Tuy nhiên, CDCM (phát hiện trong CĐ1) cho thấy tác động này không đồng nhất mà phụ thuộc vào ba chiều:
+
+1. **Regime thể chế (ICRV)**: Nhóm I — bão hòa số cao → DAI là conditional scaling resource (P4 Singapore FSTS²×DAI = +3.119); Nhóm IV — chưa bão hòa → DAI dương nhưng selection-driven (P3 Việt Nam IV null); Nhóm III — đang trưởng thành → DAI mất discriminatory power (P5 Trung Quốc control only).
+
+2. **Mức độ quốc tế hóa (FSTS level)**: DAI phát huy ở FSTS cao (nhiều cross-border transactions cần digital infrastructure); ít hiệu quả ở FSTS thấp (few international coordination needs).
+
+3. **Mức độ bão hòa số (digital saturation)**: Khi Tier 1–2 phổ biến >65%, DAI mất tác dụng phân biệt cấp doanh nghiệp (Singapore: website 67%; Trung Quốc 2024 similar); khi <50%, DAI vẫn có signal (Việt Nam 2023: 49.8%).
+
+**Phân biệt DAI với TCI**:
+- TCI: non-location-bound, traveling well across markets, level-shifter
+- DAI: environmentally contingent, mattering most when digital ecosystem supports it, curvature modifier
+
+**Bằng chứng neo đậu**:
+- P4 Singapore: FSTS²×DAI = +3.119 (p = .005) — DAI contingent scaling ✓
+- P3 Việt Nam: IV null β = 0.018 (p = .942) — OLS positive = selection, không phải causal ✓
+- P5 Trung Quốc: không moderate curvature ✓
+
+> **H3**: Digital Adoption Index (DAI) không hoạt động như một uniform productivity premium mà như một **conditional scaling resource** (nguồn lực mở rộng tình huống) theo CDCM: tác động của DAI lên ln(LP) phụ thuộc vào regime thể chế (ICRV), mức FSTS, và mức độ bão hòa số. Cụ thể: (a) β(FSTS²×DAI) > 0 trong Nhóm I (nơi coordination demands dày đặc ở FSTS cao); (b) tác động DAI yếu hoặc selection-driven trong Nhóm IV; (c) TCI và DAI là hai construct distinct theo CDCM và không thể thay thế nhau.
+
+### 5.4 Giả thuyết H4 — Đặc điểm nhà quản trị điều tiết
+
+**Cơ sở lý thuyết**. Upper Echelons Theory (Hambrick & Mason, 1984; Hambrick, 2007) cho rằng quyết định chiến lược của doanh nghiệp — bao gồm quyết định mức độ quốc tế hóa và cách quản lý phức tạp quốc tế — phản ánh đặc điểm của top manager: kinh nghiệm, học vấn, kinh nghiệm quốc tế, giới tính. Nielsen và Nielsen (2011) chứng minh kinh nghiệm quốc tế của TMT là yếu tố quyết định entry mode; Cannella, Park và Lee (2008) thấy TMT diversity tương quan với hiệu quả trong môi trường thay đổi nhanh.
+
+Trong bối cảnh WBES, biến top manager được đo bởi: (a) **exp_manager** — số năm kinh nghiệm quản lý (b5); (b) **educ_manager** — trình độ học vấn (b7a); (c) **gender_manager** — giới tính (b7, female = 1). Doanh nghiệp có manager kinh nghiệm quốc tế cao hơn có thể duy trì hiệu quả ở FSTS cao hơn trước khi turning point xuất hiện.
+
+> **H4**: Kinh nghiệm của nhà quản trị cấp cao (exp_manager) điều tiết tích cực quan hệ FSTS → ln(LP): β(FSTS×exp_manager) > 0, nghĩa là với cùng mức FSTS, doanh nghiệp có manager kinh nghiệm hơn đạt hiệu quả cao hơn. Học vấn manager và giới tính được kiểm định như moderators exploratory.
+
+### 5.5 Giả thuyết H5 — Thể chế ICRV điều tiết theo gradient
+
+**Cơ sở lý thuyết**. Institutional Theory (North, 1990; Khanna & Palepu, 2010) cho rằng thể chế quy định chi phí giao dịch, rủi ro hợp đồng, và khả năng tiếp cận thị trường — tất cả ảnh hưởng đến hiệu quả của quốc tế hóa. Peng (2003) và Xu (2024) nhấn mạnh khoảng cách giữa thể chế de jure (formal rules) và de facto (actual implementation) — khoảng cách này lớn ở emerging và frontier economies. Gradient ICRV sáu nhóm cụ thể hóa hypothesis này:
+
+- **Nhóm I (tiên tiến đổi mới)**: thể chế hoàn thiện + DAI bão hòa → turning point cao, chi phí phối hợp thấp
+- **Nhóm II (tiên tiến tài nguyên)**: thể chế hoàn thiện nhưng FDI/tài nguyên dominates → I→P yếu hoặc không liên quan cho SME
+- **Nhóm III (trung bình cao)**: thể chế đang phát triển → turning point trung bình-cao
+- **Nhóm IV (đang nổi)**: institutional voids (Khanna & Palepu, 2010) → turning point thấp-trung bình
+- **Nhóm V (cận biên)**: institutional voids nghiêm trọng + thị trường tài chính kém → turning point rất thấp
+- **Nhóm VI (SIDS — trường hợp biên)**: forced internationalization → forced penalty pattern; không có inverted-U điển hình
+
+> **H5**: Hiệu ứng điều tiết của regime thể chế (ICRV) lên quan hệ I→P có dạng gradient: cùng một mức FSTS, doanh nghiệp ở Nhóm I đạt hiệu quả cao nhất; gradient giảm dần qua Nhóm II → III → IV → V; Nhóm VI (SIDS) có pattern forced penalty (tuyến tính âm hoặc không có inverted-U). Turning point tăng đơn điệu theo gradient từ Nhóm VI → Nhóm I.
+
+### 5.6 Giả thuyết H6 — Temporal heterogeneity
+
+**Cơ sở lý thuyết**. Wu, Wood và Khan (2022) tổng hợp 20 năm bằng chứng từ EMNEs và tìm thấy temporal shifts đáng kể trong I→P — phản ánh thay đổi cấu trúc trong môi trường kinh doanh. Ba giai đoạn trong dữ liệu CĐ2 có đặc điểm bối cảnh khác nhau rõ ràng:
+
+- **2009–2012**: Hậu khủng hoảng tài chính 2008; WTO expansion; digital infrastructure sơ khai ở châu Á; FSTS returns thấp hơn do credit constraints và demand uncertainty.
+- **2013–2017**: Phục hồi GVC; FDI surge vào ASEAN; mobile internet adoption bùng nổ; DAI bắt đầu có tác dụng phân biệt.
+- **2018–2025**: Chuyển đổi số + AI bùng nổ; COVID-19 disruption và recovery; supply chain reconfiguration; thương mại điện tử xuyên biên giới (Alibaba, Shopee); DAI effect tăng cường ở emerging markets nhưng bão hòa ở advanced markets.
+
+**Bằng chứng neo đậu**:
+- P3 Việt Nam: Paternoster z = 3.353 giữa 2009 và 2015 (p < .001) — I→P relationship dịch chuyển đáng kể ✓
+- P5 Trung Quốc: TCI Paternoster p = .011 — TCI effect tăng cường 2012→2024 ✓
+- P5 Trung Quốc: FSTS Paternoster p = .545 — turning point ổn định (H2b structural durability confirmed)
+
+> **H6**: Tác động của quốc tế hóa lên hiệu quả doanh nghiệp thể hiện **temporal heterogeneity**: β(FSTS×Year_bucket) và β(FSTS²×Year_bucket) khác nhau có ý nghĩa thống kê giữa ba giai đoạn 2009–2012, 2013–2017, và 2018–2025. Cụ thể: (a) tác động TCI tăng cường theo thời gian (consistent với P5 China); (b) tác động DAI biến thiên theo giai đoạn (stage-contingent, consistent với P3 Vietnam); (c) turning point có thể dịch chuyển giữa giai đoạn trong một số nhóm ICRV nhưng ổn định trong các nhóm khác.
+
+### 5.7 Tổng hợp hệ giả thuyết
+
+**Bảng 5.1**. *Hệ giả thuyết H1–H6 — tóm tắt cơ chế, biến, kỳ vọng, và bằng chứng neo đậu.*
+
+| Hyp | Tên | Cơ chế lý thuyết | Biến kiểm định | Kỳ vọng | Bằng chứng P3/P4/P5 |
+|-----|-----|-----------------|----------------|---------|---------------------|
+| **H1** | Phi tuyến I→P | Uppsala 3-stage; chi phí phối hợp | FSTS, FSTS², FSTS³ | β₁>0; β₂<0 | P3 TP 39–46%; P5 TP 47–49% |
+| **H2** | TCI level-shifter | RBV absorptive capacity | TCI, FSTS×TCI | β(TCI)>0; curvature: exploratory | P3 IV causal; P5 +0.28→+0.43 |
+| **H3** | DAI conditional | CDCM × Digital lens | DAI, FSTS²×DAI | Context-contingent (β>0 ở Nhóm I) | P4 +3.119; P3 IV null |
+| **H4** | Manager moderation | Upper Echelons | exp_manager, FSTS×exp | β(FSTS×exp)>0 | (WBES b5, b7a, b7) |
+| **H5** | ICRV gradient | Institutional Theory | ICRV_j × FSTS | TP gradient; Nhóm VI forced penalty | CĐ1 dispersion pattern |
+| **H6** | Temporal heterog. | Structural change | Year_bucket × FSTS | β(FSTS×Year)≠0 cross-periods | P3 Paternoster p<.001; P5 TCI p=.011 |
+
+---
+
+*Tiếp tục ở Phần 3 (Chương 6 — đặc tả mô hình M0–M7; Chương 7 — thiết kế dữ liệu; Chương 8 — robustness; Chương 9 — đóng góp và kết luận) trong file `thesis/19_cd2_part3_models_data_conclusion_vi.md`.*
