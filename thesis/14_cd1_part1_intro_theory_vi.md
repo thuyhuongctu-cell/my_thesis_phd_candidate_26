@@ -148,6 +148,8 @@ Vì vậy, chuyên đề này lấp khoảng trống thực tiễn bằng việc
 - **(v) Frontier (17 nước)**: Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyz Republic, Turkmenistan, Afghanistan, Timor-Leste, Iraq, Lebanon, Yemen.
 - Cyprus được bao gồm trong nhóm Advanced (cụm Mediterranean — biên giới Đông – Tây Á về địa lý).
 
+> **Lưu ý phân biệt phạm vi ICRV vs WB geographic scope (v3.14)**: Khung ICRV trong chuyên đề này bao gồm **47 nền kinh tế** với 5 phân nhóm châu Á thuần (gồm Kazakhstan/Armenia/Georgia trong Upper-middle; Kyrgyzstan/Tajikistan/Uzbekistan/Turkmenistan trong Frontier) vì các nền kinh tế này có dữ liệu WBES đầy đủ, mức độ dị biệt thể chế có giá trị phân tích và được xếp vào "Emerging/Central Asia" theo khung phân loại ADB + nhiều nghiên cứu IB. Tài liệu tham chiếu `manuscripts/wb_country_classification_2025_2026.md` sử dụng phạm vi hẹp hơn: WB geographic regions EAP + SAS + MENAAP (không bao gồm ECA), phục vụ mục đích tra cứu phân loại thu nhập FY2026 WB Atlas Method — hai tài liệu phục vụ mục đích khác nhau. Để tra cứu chi tiết tình trạng WBES data availability cho từng nền kinh tế châu Á (Included vs. Excluded trong PhD + lý do), xem `manuscripts/wbes_asia_country_scope.md`.
+
 **B. Boundary case extension — 7 SIDS Thái Bình Dương** (theo khung "Asia and Pacific" của ADB Regional Classification và World Bank East Asia and Pacific Region):
 
 - **(vi) SIDS Thái Bình Dương (7 nước, n=1.371, 1,4% pool)**: Fiji, Papua New Guinea, Solomon Islands, Tonga (gồm cả đợt 2024), Vanuatu, Samoa, **Kiribati (mới 2025)**.

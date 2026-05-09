@@ -157,7 +157,11 @@ PICs có 4 trụ cột MIRAB (Bertram, 2006): (1) khu vực công chủ đạo (
 | South Asia | 9,2% | 8,5% | +0,7 đpt |
 | **Middle East & North Africa (MENA)** | **3,3%** *(thấp nhất globally)* | **1,7%** *(thấp nhất globally)* | +1,6 đpt |
 
-Bốn quan sát: (a) EAP dẫn đầu — Asian gender paradox; (b) MENA thấp nhất — structural barriers; (c) 43/50 economies có ownership ceiling cao hơn management; (d) Boundary references: Mardones-Ibáñez (2025) Chile + Al-Najjar et al. (2025) S&P 500 U-shaped.
+Sáu quan sát: (a) **EAP dẫn đầu — Asian gender paradox**: EAP 33,4% nữ TMT cao nhất toàn cầu trong khi South Asia và MENA thấp nhất — phản ánh dị biệt thể chế-văn hóa xuyên "châu Á" không đồng nhất; (b) **MENA thấp nhất — structural barriers**: MENA 3,3% nữ TMT + 1,7% nữ ownership — thấp nhất toàn cầu, phản ánh rào cản thể chế-luật pháp đặc thù (World Bank, 2024 — *Women, Business and the Law*); (c) **Ownership ceiling phổ biến**: 43/50 economies có ownership ceiling cao hơn management representation — gợi ý barrier đặc thù ở cấp sở hữu vốn (equity ownership) so với vị trí quản lý; (d) **Boundary references TMT moderation**: Mardones-Ibáñez (2025 — *SAGE Open*) Chile context + Al-Najjar et al. (2025 — *IJHRM*) S&P 500 U-shaped TMT gender effect — không suy rộng trực tiếp sang ICRV Emerging/Frontier; (e) **Technology complement hypothesis** (Carboni et al., WBES 192K obs, 158 nước, 2006–2023): female top manager (`b7a`) tương tác với technology adoption — tác động ESG-performance mạnh hơn khi doanh nghiệp có DAI cao; (f) **Firm performance heterogeneity** (World Bank, 2024 — *Unlocking Global Growth: Closing the Gender Gap in Business*): doanh nghiệp có nữ sở hữu đa số có doanh thu/nhân viên thấp hơn trung bình nhưng tốc độ tăng trưởng việc làm cao hơn ở nhóm Frontier/Emerging — pattern phù hợp §4.3 CAGR việc làm SIDS cao nhất (5,77%).
+
+**Liên kết với §4.5.6** *(mới v3.14)*: Chi tiết phân tầng female top manager theo ICRV sub-regime và hàm ý biến `b7a` trong CĐ2 specification xem §4.5.6 file 15.
+
+**Nguồn**: Carboni et al. (2024/2025 — WBES ESG indicators); World Bank (2024) *Unlocking Global Growth: Closing the Gender Gap in Business* (WBES 167 nền kinh tế); Mardones-Ibáñez (2025 — *SAGE Open*); Al-Najjar et al. (2025 — *IJHRM*).
 
 ### 6.2 Đường cong U của innovation digital tech *(mới v3.5b)*
 
