@@ -142,6 +142,8 @@ the underlying relationships shift across time. A design that combines pooled an
 analysis is therefore necessary to determine whether the observed effects are stable or stage
 contingent.
 
+Recent meta-analytic work reinforces this concern. Pisani, Garcia-Bernardo, and Heemskerk (2020, SMJ) demonstrate that the inverted-U relationship between internationalisation and performance weakens substantially — and sometimes disappears — under more rigorous identification in cross-national pooled samples, suggesting that aggregation across heterogeneous institutional contexts inflates apparent functional-form regularity. Wu, Fan, and Chen (2022, MIR) extend this argument by showing in a meta-analysis of emerging-market multinationals (EMNEs) that institutional context moderates I–P effect sizes more powerfully than firm-level capability variables. Taken together, these findings imply that within-country longitudinal designs — which hold institutional context constant while varying time — provide a more credible test of whether the inverted-U is an artefact of cross-national pooling or a genuine relationship that persists as the institutional environment evolves. Vietnam's three-wave WBES panel (2009, 2015, 2016) provides exactly this design.
+
 ### 1.3 Contribution
 This study makes three contributions to the literature.
 
@@ -747,7 +749,11 @@ per cent (2015) and 46.2 per cent (2009) of direct-export intensity, with the po
 that this curvature weakens substantially once the participation margin is netted out.
 The most defensible interpretation is therefore that the full-sample inverted-U reflects
 a combined participation-and-intensity structure, with the productivity-relevant contrast concentrated primarily at the transition from non-exporting to exporting rather
-than in strong within-exporter curvature alone. H2 is supported by the positive TCI_z
+than in strong within-exporter curvature alone.
+
+Cross-paper comparison reinforces the institutional-context interpretation. The Vietnam pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is notably lower than the manufacturing-subsample threshold of 47.8 % reported for Chinese private firms by Do and Phan (2026 — JFAR). This gap is consistent with institutional transaction costs binding earlier in Vietnam's lower-income emerging-economy context: Vietnamese exporters approach over-commitment costs at a lower absolute export-intensity level than their Chinese counterparts, where more mature contract-enforcement institutions, larger domestic markets, and more established export-support infrastructure allow firms to sustain higher export intensity before productivity returns diminish. The cross-country threshold difference thus provides within-WBES cross-setting evidence for the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022 — MIR; Marano et al., 2016).
+
+H2 is supported by the positive TCI_z
 direct association in the pooled sample (β = 0.179, p < .001) and in all three wavespecific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), reinforced by statistically distinguishable TCI moderation in three of four panels (M3 joint p = .040,
 .713, .027 and .003). H3 is supported on average but not uniformly across waves:
 the pooled M7 estimate of DAI_z is positive and significant (β = 0.078, p = .004),
@@ -769,6 +775,8 @@ therefore interpret the evidence as suggestive of wave-specific conditionality r
 than as confirmation of a stable cross-wave moderation pattern: 2023 is the only
 wave in which the digital moderation is within-sample detectable, and the finding is
 treated as exploratory.
+
+Following Haans, Pieters, and He (2016), we distinguish two types of moderation for curvilinear I–P relationships. Type I moderation flattens or steepens one slope of the inverted-U (i.e., the linear FSTS × DAI interaction is significant while FSTS² × DAI is not): the moderator shifts the position of the turning point but preserves the inverted-U shape. Type II moderation flips the shape of the curve (i.e., FSTS² × DAI is significant): high versus low moderator values produce qualitatively different functional forms. The 2023 DAI evidence fits Type I: the significant linear interaction FSTS_c × DAI_z = −0.912 (p = .043) indicates that digital adoption attenuates the positive slope at low export intensity, pulling the turning point inward, while the FSTS² × DAI interaction remains insignificant, confirming that the inverted-U shape is preserved. Type II moderation — digital capability reversing the curvature for high-adopter firms — is not supported in the Vietnam sample.
 
 ### 4.4 Main empirical pattern: participation × intensity
 Before reading the table that follows, we anchor the reader in the two-margin structure introduced in 2.1. The full-sample inverted-U is informative about the joint participation-andintensity pattern, but its curvature is identified primarily through the participation margin: only
@@ -1593,6 +1601,8 @@ literature on digital transformation: Insights and implications for strategy and
 change. Journal of Management Studies, 58(5):1159–1197.
 Heckman, J. J. (1979). Sample selection bias as a specification error. Econometrica, 47(1):153–
 161.
+Haans, R. F. J., Pieters, C., and He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted-U-shaped relationships in strategy research. Strategic Management Journal, 37(7):1177–1195.
+
 Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship.
 
 Management International Review, 47(3):423–452.
@@ -1636,6 +1646,8 @@ for strategic sectors, profiting from innovation, and the multinational enterpri
 Journal of
 
 International Business Studies, 50(9):1487–1512.
+Pisani, N., Garcia-Bernardo, J., and Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. Strategic Management Journal, 41(1):152–172.
+
 Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study
 of strategy and organizations. Journal of Management, 46(7):1244–1256.
 Stallkamp, M. and Schotter, A. P. J. (2021).
@@ -1715,6 +1727,8 @@ Strategy research in
 
 emerging economies: Challenging the conventional wisdom. Journal of Management Studies,
 42(1):1–33.
+Wu, F., Fan, D., and Chen, L. (2022). Untangling the internationalization–performance relationship in emerging-economy multinationals: A meta-analytic review. Management International Review, 62(3):315–354.
+
 Wu, J., Wang, C., Hong, J., Piperopoulos, P., and Zhuo, S. (2016). Internationalization and
 innovation performance of emerging market enterprises: The role of host-country institutional
 development. Journal of World Business, 51(2):251–263.
