@@ -1,6 +1,6 @@
-# Danh Mục Tài Liệu Tham Khảo (APA 7th Edition) — v2.5
+# Danh Mục Tài Liệu Tham Khảo (APA 7th Edition) — v2.6
 
-> Chuyên Đề Tiến Sĩ Số 1: Thực Trạng Hiệu Quả Hoạt Động Kinh Doanh Của Doanh Nghiệp Ở Các Nền Kinh Tế Châu Á (2009–2025).
+> Chuyên Đề Tiến Sĩ Số 1: Thực Trạng Hiệu Quả Hoạt Động Kinh Doanh Của Doanh Nghiệp Ở Các Nền Kinh Tế Châu Á (2009–2025); P6 UPDATED: Meta-Analytic Regression Analysis (MARA) Internationalization–Performance, 1982–2026.
 > Sắp xếp theo thứ tự alphabet tên tác giả/tổ chức.
 > `[under review]` = bản thảo đang nộp; `[in press]` = đã chấp nhận, chưa in; `[in preparation]` = đang chuẩn bị.
 
@@ -96,4 +96,64 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 ---
 
-*Ghi chú biên soạn (v2.5)*: Các DOI có nhãn `forthcoming` hoặc `improved` là placeholder — cập nhật khi bài báo được định danh chính thức. Các mục `[under review]` không cần DOI cho đến khi được chấp nhận đăng. Định dạng tuân thủ APA 7th (American Psychological Association, 2020, *Publication Manual*, 7th ed.).
+## Bổ sung v2.6 — P6 UPDATED: Meta-analysis methods, I→P literature, moderator theories
+
+Arte, P., & Larimo, J. (2022). Internationalisation performance of emerging market multinationals: A meta-analytic review. *International Business Review*, *31*(6), 102028. https://doi.org/10.1016/j.ibusrev.2022.102028
+
+Barney, J. B. (1991). Firm resources and sustained competitive advantage. *Journal of Management*, *17*(1), 99–120. https://doi.org/10.1177/014920639101700108
+
+Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization-performance relationship: Evidence from meta-analysis. *Management International Review*, *47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
+
+Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. *Biometrics*, *50*(4), 1088–1101. https://doi.org/10.2307/2533446
+
+Bhandari, K. R., Ranta, M., & Salo, J. (2023). The resource-based view, stakeholder capitalism, ESG, and sustainable competitive advantage: The firm's embeddedness into ecology, society, and governance. *Business Strategy and the Environment*, *32*(4), 1525–1546. https://doi.org/10.1002/bse.3217 [cần xác nhận đúng bài về digital capability × internationalization]
+
+Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). *Introduction to meta-analysis*. Wiley. https://doi.org/10.1002/9780470743386
+
+Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. *American Economic Journal: Macroeconomics*, *13*(1), 333–372. https://doi.org/10.1257/mac.20180386
+
+Cheung, M. W.-L. (2014). Modeling dependent effect sizes with three-level meta-analyses: A structural equation modeling approach. *Psychological Methods*, *19*(2), 211–229. https://doi.org/10.1037/a0032968
+
+Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies*, *34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
+
+David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review*, *80*(2), 355–361.
+
+Đỗ, T. H., & Phan, A. T. (2024). Internationalization and firm performance: A meta-analysis review. In *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489). College of Economics, Can Tho University. [P6 ICBEF 2025 — baseline cho P6 UPDATED]
+
+Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. *Biometrics*, *56*(2), 455–463. https://doi.org/10.1111/j.0006-341X.2000.00455.x
+
+Dzikowski, P., Tomczyk, Ł., & Zając, T. (2023). Digital technology and firm performance: A meta-analysis of empirical studies. *Technological Forecasting and Social Change*, *196*, 122807. [cần xác nhận chi tiết DOI — tham chiếu trong P6 §2.3 DPL moderator]
+
+Egger, M., Davey Smith, G., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. *BMJ*, *315*(7109), 629–634. https://doi.org/10.1136/bmj.315.7109.629
+
+Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review*, *9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
+
+Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal*, *40*(4), 767–798. https://doi.org/10.2307/256948
+
+Johanson, J., & Vahlne, J.-E. (2009). The Uppsala internationalization process model revisited: From liability of foreignness to liability of outsidership. *Journal of International Business Studies*, *40*(9), 1411–1431. https://doi.org/10.1057/jibs.2009.24
+
+Kaufmann, D., Kraay, A., & Mastruzzi, M. (2010). The worldwide governance indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law*, *3*(2), 220–246. https://doi.org/10.1017/S1876404511200046
+
+Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality-performance relationship: A meta-analytic review. *Global Strategy Journal*, *2*(2), 108–121. https://doi.org/10.1002/gsj.1025
+
+Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management*, *42*(5), 1075–1110. https://doi.org/10.1177/0149206316630070
+
+North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press. https://doi.org/10.1017/CBO9780511808678
+
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. https://doi.org/10.1136/bmj.n71
+
+Schmuck, D., Zapkau, F. B., Schwens, C., & Brouthers, K. D. (2022). Addressing reverse causality in the internationalization–performance relationship: A meta-analytic approach. *Journal of International Business Studies*. [cần xác nhận tập/trang — xuất hiện trong P6 như kiểm soát reverse causality qua coding study design]
+
+Schwens, C., Zapkau, F. B., Brouthers, K. D., & Hollender, L. (2018). The internationalization and performance of international new ventures: A meta-analysis. *Journal of International Business Studies*, *49*(4), 487–513. [cần xác nhận chi tiết DOI]
+
+Scott, W. R. (1995). *Institutions and organizations*. Sage.
+
+Suurmond, R., van Rhee, H., & Hak, T. (2017). Introduction, comparison, and validation of Meta-Essentials: A free and simple tool for meta-analysis. *Research Synthesis Methods*, *8*(4), 537–553. https://doi.org/10.1002/jrsm.1260
+
+Van den Noortgate, W., López-López, J. A., Marín-Martínez, F., & Sánchez-Meca, J. (2013). Three-level meta-analysis of dependent effect sizes. *Behavior Research Methods*, *45*(2), 576–594. https://doi.org/10.3758/s13428-012-0261-6
+
+Yang, Y., & Driffield, N. (2012). Multinationality-performance relationship: A meta-analysis. *Management International Review*, *52*(1), 23–47. https://doi.org/10.1007/s11575-011-0093-5
+
+---
+
+*Ghi chú biên soạn (v2.6)*: Cập nhật 10/05/2026 — bổ sung 28 tài liệu P6 UPDATED (meta-analysis methods, I→P meta-analyses, moderator theories, publication bias tests, PRISMA 2020). Các DOI có nhãn `forthcoming` hoặc `improved` là placeholder — cập nhật khi bài báo được định danh chính thức. Các mục `[under review]` không cần DOI cho đến khi được chấp nhận đăng. Các mục `[cần xác nhận]` cần NCS kiểm tra lại chi tiết trước khi nộp luận án. Định dạng tuân thủ APA 7th (American Psychological Association, 2020, *Publication Manual*, 7th ed.).
