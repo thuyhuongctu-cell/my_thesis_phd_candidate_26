@@ -41,11 +41,12 @@ We hope the manuscript will be of interest to APJM's readership and look forward
 Yours sincerely,
 
 **Đỗ Thùy Hương (Do Thuy Huong)**
-PhD Candidate, College of Economics
-Can Tho University, Vietnam
-*Corresponding author*
-Email: [email address]
+PhD Candidate
+Vĩnh Long University of Technology Education (VLUTE), Vietnam
+Email: huongdt@vlute.edu.vn | ORCID: 0000-0002-7711-2487
 
 **PGS.TS. Phan Anh Tú (Phan Anh Tu)**
 Associate Professor, College of Economics
-Can Tho University, Vietnam
+Can Tho University (CTU), Vietnam
+*Corresponding author*
+Email: patu@ctu.edu.vn | ORCID: 0000-0003-0667-3137
