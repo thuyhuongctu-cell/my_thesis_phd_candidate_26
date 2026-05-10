@@ -585,7 +585,7 @@ wave + a4b/a4a
 
 Cell entries are mean (standard deviation) for continuous variables and proportion for binary indicators.
 Listwise deletion is applied on the focal variable set with WBES non-response codes (−9) treated as missing.
-Source: World Bank Enterprise Surveys, Vietnam 2009 / 2015 / 2023 (World Bank, 2010, 2016, 2024).
+Source: World Bank Enterprise Surveys (Vietnam 2009, 2015, 2023), www.enterprisesurveys.org; authors' calculations.
 Notes.
 
 p = .825; full-model M8 joint p = .700). In substantive terms, both capability dimensions in
@@ -935,7 +935,7 @@ Figure 6: Predicted ln(labour productivity) along the FSTS export-intensity rang
 specification with HC1 robust standard errors and the focal interaction term FSTS_c × DAI_z =
 −0.912 (p = .043). At high DAI_z, the productivity-relevant slope of FSTS turns negative more sharply
 on the right tail of the export-intensity distribution; at low DAI_z, the FSTS curve is flatter. Joint M8
-test p = .062 (marginal). Source: World Bank Enterprise Surveys 2023; authors' calculations.
+test p = .062 (marginal). Source: World Bank Enterprise Surveys (Vietnam 2023), www.enterprisesurveys.org; authors' calculations.
 Table 3 collates the robustness panels documented in 4.5 in a single overview to ease crosscomparison.
 Table LM reports the implied turning points of the inverted-U specification (M2) and the
 Lind–Mehlum p-values for each wave and the pooled sample.
@@ -1173,7 +1173,7 @@ errors (PSM and 2SLS use the indicated alternative estimators). Significance mar
 ∗
 p < .05, † p < .10, n.s. = not significant. Panel E (Heckman / control function selection corrections) and
 Panel F (Paternoster cross-wave z-tests, Paternoster et al., 1998) are reported in the prose because their natural
-presentation is per-sample rather than per-row. Source: World Bank Enterprise Surveys; authors' calculations.
+presentation is per-sample rather than per-row. Source: World Bank Enterprise Surveys (Vietnam 2009, 2015, 2023), www.enterprisesurveys.org; authors' calculations.
 Notes.
 
 Table 4: Implied turning points of the inverted-U (M2 specification).
@@ -1234,7 +1234,7 @@ Turning points are derived from the M2 inverted-U specification (lnLP = β0 + β
 FSTS_c2 + controls + sector FE [+ wave FE in pooled]) and back-transformed to the raw FSTS scale. 95 %
 confidence intervals use the delta method on the within-sample FSTS_c range. Lind–Mehlum p-values follow
 the Sasabuchi-style endpoint test for an inverted-U over the observed FSTS range (Lind and Mehlum, 2010).
-Source: World Bank Enterprise Surveys; authors' calculations.
+Source: World Bank Enterprise Surveys (Vietnam 2009, 2015, 2023), www.enterprisesurveys.org; authors' calculations.
 Notes.
 
 
@@ -1489,9 +1489,7 @@ publication.
 
 
 ## Acknowledgements
-This study uses data from the World Bank Enterprise Surveys. We thank the Enterprise Analysis
-Unit of the Development Economics Global Indicators Group of the World Bank for providing
-access to the data.
+We thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the data.
 
 The original collector of the data, the authorised distributor, and the
 
