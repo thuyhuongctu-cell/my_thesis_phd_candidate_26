@@ -12,7 +12,7 @@
 
 **Tables:** 4 (Table 1 descriptives; Table 2 focal coefficient summary; Table 3 robustness panels; Table 4 turning points).
 
-**Figures:** 6 (Figure 1 conceptual model; Figures 2a–2d wave-specific FSTS curves; Figure 3 moderation curves at p25 vs p75 of moderator).
+**Figures:** 6 (Figure 1 conceptual model; Figures 2a–2d wave-specific FSTS curves; Figure 3 moderator marginal effects — TCI and DAI interactions with FSTS).
 
 ---
 
@@ -362,7 +362,7 @@ Digital Adoption (DAI_z)
 
 Controls: lnEmp, FirmAge, ForeignOwned, sector FE [+ wave FE]
 
-![Figure 1: Conceptual model — TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/p3_vietnam/figure_1_conceptual_model.png)
+![Figure 1: Conceptual model — TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/vietnam/figure_1_conceptual_model.png)
 
 *Figure 1.* Conceptual model. The independent variable (internationalisation, FSTS_c and FSTS_c²) and the dependent variable (firm performance, ln labour productivity) anchor the IV–DV spine. Technological capability (TCI_z) and foundational digital adoption (DAI_z) act as direct effects (H2, H3) and as moderators of the FSTS curve (H2 moderation, H4 exploratory moderation). Controls are entered additively. Wave fixed effects apply to the pooled specification only.
 
@@ -730,19 +730,19 @@ The positive pooled average coexists with
 substantial temporal heterogeneity, and the conditional role of digital adoption emerges more
 clearly only in the later wave.
 
-![Figure 2a: Wave 2009 — predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2a.png)
+![Figure 2a: Wave 2009 — predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2a.png)
 
 *Figure 2a.* Predicted ln(labour productivity) as a function of FSTS for the 2009 wave (M2). Shaded band = 95% CI. Turning point ≈ 46% FSTS (Lind-Mehlum p = .006).
 
-![Figure 2b: Wave 2015 — predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2b.png)
+![Figure 2b: Wave 2015 — predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2b.png)
 
 *Figure 2b.* Predicted ln(labour productivity) as a function of FSTS for the 2015 wave (M2). Turning point ≈ 39% FSTS (Lind-Mehlum p = .009).
 
-![Figure 2c: Wave 2023 — predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2c.png)
+![Figure 2c: Wave 2023 — predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2c.png)
 
 *Figure 2c.* Predicted ln(labour productivity) as a function of FSTS for the 2023 wave (M2). Turning point ≈ 42% FSTS (Lind-Mehlum p = .013).
 
-![Figure 2d: Pooled (2009+2015+2023) — predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2d.png)
+![Figure 2d: Pooled (2009+2015+2023) — predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2d.png)
 
 *Figure 2d.* Predicted ln(labour productivity) as a function of FSTS for the pooled sample (M2). Turning point ≈ 40% FSTS (Lind-Mehlum p < .001).
 
@@ -783,7 +783,7 @@ treated as exploratory.
 
 Following Haans, Pieters, and He (2016), we distinguish two types of moderation for curvilinear I–P relationships. Type I moderation flattens or steepens one slope of the inverted-U (i.e., the linear FSTS × DAI interaction is significant while FSTS² × DAI is not): the moderator shifts the position of the turning point but preserves the inverted-U shape. Type II moderation flips the shape of the curve (i.e., FSTS² × DAI is significant): high versus low moderator values produce qualitatively different functional forms. The 2023 DAI evidence fits Type I: the significant linear interaction FSTS_c × DAI_z = −0.912 (p = .043) indicates that digital adoption attenuates the positive slope at low export intensity, pulling the turning point inward, while the FSTS² × DAI interaction remains insignificant, confirming that the inverted-U shape is preserved. Type II moderation — digital capability reversing the curvature for high-adopter firms — is not supported in the Vietnam sample.
 
-![Figure 3: Moderator marginal effects — TCI and DAI interactions with FSTS (Vietnam)](figures/p3_vietnam/figure_3_moderator_marginals.png)
+![Figure 3: Moderator marginal effects — TCI and DAI interactions with FSTS (Vietnam)](figures/vietnam/figure_3_moderator_marginals.png)
 
 *Figure 3.* Marginal effects of TCI_z and DAI_z on ln(labour productivity) across FSTS levels (M7/M8). TCI shows a stable positive level-shift across waves; DAI moderation is wave-specific, with the 2023 interaction showing attenuation at high FSTS (Type I moderation: slope-flattening, shape preserved).
 
@@ -903,32 +903,6 @@ Measurement-sensitivity probes confirm that core inferences do not depend on com
 
 Multiple-testing caveat. 4.5 reports four narrative panels (G, H, I, F) and three robustness families (endogeneity/selection, measurement sensitivity) across multiple focal terms. We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. Our substantive inferences in §5 rely on the pattern across panels and the directional consistency of the focal estimates rather than on the significance of any single robustness panel.
 
-Low DAI_z (p25)
-High DAI_z (p75)
-
-20.5
-
-
-19.5
-
-0.2
-
-0.4
-
-0.6
-
-0.8
-
-
-Direct-export intensity (FSTS, raw scale)
-
-Figure 6: Predicted ln(labour productivity) along the FSTS export-intensity range, 2023 wave (N
-
-= 1,013), evaluated at the 25th vs 75th percentile of DAI_z. The fitted curves come from the M8
-specification with HC1 robust standard errors and the focal interaction term FSTS_c × DAI_z =
-−0.912 (p = .043). At high DAI_z, the productivity-relevant slope of FSTS turns negative more sharply
-on the right tail of the export-intensity distribution; at low DAI_z, the FSTS curve is flatter. Joint M8
-test p = .062 (marginal). Source: World Bank Enterprise Surveys (Vietnam 2023), www.enterprisesurveys.org; authors' calculations.
 Table 3 collates the robustness panels documented in 4.5 in a single overview to ease crosscomparison.
 Table LM reports the implied turning points of the inverted-U specification (M2) and the
 Lind–Mehlum p-values for each wave and the pooled sample.
