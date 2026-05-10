@@ -22,8 +22,8 @@ market and examines how technological capability and foundational digital adopti
 on Vietnam, it asks whether export intensity is nonlinearly associated with labour productivity
 and whether technological capability and foundational digital adoption play distinct roles across
 survey waves.
-Design/methodology/approach — The study uses three waves of World Bank Enterprise Survey data for Vietnam (2009, 2015 and 2023; pooled N = 2,958) and estimates wave-specific and pooled OLS models with HC1 robust standard errors and quadratic export-intensity terms. A Technological Capability Index (quality certification + foreign-licensed technology) is distinguished from a foundational Digital Adoption Index (website presence), with no shared items between the two constructs.
-Findings — The internationalisation–performance relationship is inverted-U with turning points clustered between 39–46% FSTS, identified primarily through the participation margin (non-exporters → exporters) rather than within-exporter curvature (Panel H). Technological capability is positively associated with productivity across all three waves; foundational digital adoption is positive in 2009 and 2023 but null in 2015, with detectable curvature moderation only in 2023. Instrumental-variable estimation yields a null instrumented DAI coefficient (β = 0.018, p = .942, first-stage F = 34.6), indicating the OLS-estimated DAI association is selection-driven rather than causal.
+Design/methodology/approach — The study uses three waves of World Bank Enterprise Survey data for Vietnam (2009, 2015 and 2023; pooled N = 2,958) and estimates wave-specific and pooled OLS models with HC1 robust standard errors, quadratic export-intensity terms and interaction specifications. The analysis distinguishes a Technological Capability Index based on internationally recognised quality certification and foreign-licensed technology from a foundational Digital Adoption Index based on website presence, with no shared items between the two constructs.
+Findings — The productivity benefits of internationalisation are concentrated primarily at the participation margin — the step from non-exporting to exporting — while within-exporter intensity yields diminishing to null marginal returns (Panel H). The full-sample inverted-U (turning points 39–46% FSTS) is identified mainly through this participation step rather than through dense curvature within the exporter subsample. Technological capability is positively associated with productivity in all three waves and in the pooled sample, and its moderating role is more stable than that of foundational digital adoption. Foundational digital adoption is positive in 2009 and 2023, null in 2015, and only shows within-sample detectable moderation in 2023. Instrumental-variable estimation (Panel K) yields a null instrumented DAI coefficient (β = 0.018, p = .942, first-stage F = 34.6), indicating that the OLS-estimated positive DAI association is likely selection-driven rather than causal.
 
 
 Originality/value — The study contributes to research on emerging markets by distinguishing
@@ -442,7 +442,7 @@ A note on missing-code handling.
 The WBES instrument codes don't-know and refused
 
 responses as -9. We treat -9 as missing before any composite is built and apply listwise deletion
-on the focal variable set (lnLP, lnEmp, FirmAge, ForeignOwned, FSTS, TCI_thin, DAI_thin,
+on the focal variable set (lnLP, lnEmp, FirmAge, ForeignOwned, FSTS, TCI_z, DAI_z,
 sector1). The resulting analytic samples are 989, 956, and 1,013 observations for 2009, 2015,
 and 2023 respectively; pooled N is 2,958.
 
@@ -531,7 +531,7 @@ Pooled
 ln LP (log labour productivity)
 FSTS (direct-export share)
 Exporter (FSTS > 0) share
-TCI_thin (mean of b8, e6 recoded)
+TCI_z (mean of b8, e6 recoded)
 DAI (c22b own website, recoded)
 ln Emp (log permanent employees)
 Firm Age (years since b5)
@@ -1518,209 +1518,59 @@ tables/table_lind_mehlum.csv (Table LM source), tables/table_3_robustness.csv (T
 
 ---
 
+
 ## References
-Aguinis, H., Hill, N. S., and Bailey, J. R. (2021). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. Organizational Research Methods,
-24(4):678–693.
-Antonakis, J., Bendahan, S., Jacquart, P., and Lalive, R. (2010). On making causal claims: A
-review and recommendations. The Leadership Quarterly, 21(6):1086–1120.
-Banalieva, E. R. and Dhanaraj, C. (2019). Internalization theory for the digital economy. Journal
-
-of International Business Studies, 50(8):1372–1387.
-Bernard, A. B., Jensen, J. B., Redding, S. J., and Schott, P. K. (2007). Firms in international
-trade. Journal of Economic Perspectives, 21(3):105–130.
-Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., and Venkatraman, N. (2013). Digital business
-strategy: Toward a next generation of insights. MIS Quarterly, 37(2):471–482.
-Brouthers, K. D., Geisser, K. D., and Rothlauf, F. (2016). Explaining the internationalization
-of ibusiness firms. Journal of International Business Studies, 47(5):513–534.
-
-
-
-Brynjolfsson, E., Rock, D., and Syverson, C. (2021). The productivity J-curve: How intangibles
-complement general purpose technologies.
-
-American Economic Journal: Macroeconomics,
-
-13(1):333–372.
-Certo, S. T., Busenbark, J. R., Woo, H.-s., and Semadeni, M. (2016).
-and Heckman models in strategic management research.
-
-Sample selection bias
-
-Strategic Management Journal,
-
-37(13):2639–2657.
-Cohen, W. M. and Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning
-and innovation. Administrative Science Quarterly, 35(1):128–152.
-Contractor, F. J. (2007).
-
-Is international business good for companies?
-
-The evolutionary or
-
-multi-stage theory of internationalization vs. the transaction cost perspective.
-
-Management
-
-International Review, 47(3):453–475.
-Coviello, N., Kano, L., and Liesch, P. W. (2017). Adapting the Uppsala model to a modern world:
-Macro-context and microfoundations. Journal of International Business Studies, 48(9):1151–
-1164.
-Cuervo-Cazurra,
-
-A. and Genc,
-
-M. (2008).
-
-Transforming disadvantages into advantages:
-
-Developing-country MNEs in the least developed countries.
-
-Journal of International Busi-
-
-ness Studies, 39(6):957–979.
-Eisenhardt, K. M. and Martin, J. A. (2000). Dynamic capabilities: What are they?
-
-Strategic
-
-Management Journal, 21(10–11):1105–1121.
-Goldfarb, A. and Tucker, C. (2019). Digital economics. Journal of Economic Literature, 57(1):3–
-43.
-Hanelt, A., Bohnsack, R., Marz, D., and Antunes Marante, C. (2021). A systematic review of the
-literature on digital transformation: Insights and implications for strategy and organizational
-change. Journal of Management Studies, 58(5):1159–1197.
-Heckman, J. J. (1979). Sample selection bias as a specification error. Econometrica, 47(1):153–
-161.
-Haans, R. F. J., Pieters, C., and He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted-U-shaped relationships in strategy research. Strategic Management Journal, 37(7):1177–1195.
-
-Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship.
-
-Management International Review, 47(3):423–452.
-Hennart, J.-F. (2011).
-
-A theoretical assessment of the empirical literature on the impact of
-
-multinationality on performance. Global Strategy Journal, 1(1–2):135–151.
-Karna, A., Richter, A., and Riesenkampff, E. (2016). Revisiting the role of the environment in
-the capabilities–financial performance relationship: A meta-analysis.
-
-Strategic Management
-
-Journal, 37(6):1154–1173.
-Knight, G. A. and Liesch, P. W. (2016). Internationalization: From incremental to born global.
-
-Journal of World Business, 51(1):93–102.
-
-
-
-Lall, S. (1992). Technological capabilities and industrialization. World Development, 20(2):165–
-186.
-Lind, J. T. and Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped
-relationship. Oxford Bulletin of Economics and Statistics, 72(1):109–118.
-Lu, J. W. and Beamish, P. W. (2004). International diversification and firm performance: The
-S-curve hypothesis. Academy of Management Journal, 47(4):598–609.
-Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., and van Essen, M. (2016). Home country
-institutions and the internationalization–performance relationship: A meta-analytic review.
-
-Journal of Management, 42(5):1075–1110.
-Nambisan, S., Wright, M., and Feldman, M. (2019). The digital transformation of innovation
-and entrepreneurship: Progress, challenges and key themes. Research Policy, 48(8):103773.
-Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. Journal
-
-of Business & Economic Statistics, 37(2):187–204.
-Paternoster, R., Brame, R., Mazerolle, P., and Piquero, A. (1998). Using the correct statistical
-test for the equality of regression coefficients. Criminology, 36(4):859–866.
-Petricevic, O. and Teece, D. J. (2019). The structural reshaping of globalization: Implications
-for strategic sectors, profiting from innovation, and the multinational enterprise.
-
-Journal of
-
-International Business Studies, 50(9):1487–1512.
-Pisani, N., Garcia-Bernardo, J., and Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. Strategic Management Journal, 41(1):152–172.
-
-Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study
-of strategy and organizations. Journal of Management, 46(7):1244–1256.
-Stallkamp, M. and Schotter, A. P. J. (2021).
-
-Platforms without borders?
-
-The international
-
-strategies of digital platform firms. Global Strategy Journal, 11(1):58–80.
-Strange, R. and Zucchella, A. (2017). Industry 4.0, global value chains and international business.
-
-Multinational Business Review, 25(3):174–184.
-Teece, D. J. (2007).
-
-Explicating dynamic capabilities:
-
-The nature and microfoundations of
-
-(sustainable) enterprise performance. Strategic Management Journal, 28(13):1319–1350.
-Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From
-internationalization to evolution. Global Strategy Journal, 10(2):239–250.
-Vahlne, J.-E. and Johanson, J. (2017).
-
-From internationalization to evolution: The Uppsala
-
-model at 40 years. Journal of International Business Studies, 48(9):1087–1102.
-Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., and Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda.
-
-Journal of Business Research, 122:889–901.
-Vernon, R. (1979). The product cycle hypothesis in a new international environment.
-
-Bulletin of Economics and Statistics, 41(4):255–267.
-
-Oxford
-
-
-Vial, G. (2019). Understanding digital transformation: A review and a research agenda. Journal
-
-of Strategic Information Systems, 28(2):118–144.
-Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data.
-
-The World Economy, 30(1):60–82.
-Wolfolds, S. E. and Siegel, J. (2019). Misaccounting for endogeneity: The peril of relying on
-the Heckman two-step method without a valid instrument.
-
-Strategic Management Journal,
-
-40(3):432–462.
-Wooldridge, J. M. (2010).
-
-Econometric analysis of cross section and panel data. MIT Press,
-
-2nd edition.
-World Bank (2010).
-
-Vietnam Enterprise Survey 2009: Data file.
-
-Enterprise Surveys, World
-
-Vietnam Enterprise Survey 2015: Data file.
-
-Enterprise Surveys, World
-
-Vietnam Enterprise Survey 2023: Data file.
-
-Enterprise Surveys, World
-
-Bank Group.
-World Bank (2016).
-Bank Group.
-World Bank (2024).
-Bank Group.
+Aguinis, H., Hill, N. S., & Bailey, J. R. (2021). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693. https://doi.org/10.1177/1094428119836485
+Antonakis, J., Bendahan, S., Jacquart, P., & Lalive, R. (2010). On making causal claims: A review and recommendations. *The Leadership Quarterly, 21*(6), 1086–1120. https://doi.org/10.1016/j.leaqua.2010.10.010
+Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387. https://doi.org/10.1057/s41267-019-00243-7
+Bernard, A. B., Jensen, J. B., Redding, S. J., & Schott, P. K. (2007). Firms in international trade. *Journal of Economic Perspectives, 21*(3), 105–130. https://doi.org/10.1257/jep.21.3.105
+Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/misq/2013/37:2.3
+Brouthers, K. D., Geisser, K. D., & Rothlauf, F. (2016). Explaining the internationalization of iBusiness firms. *Journal of International Business Studies, 47*(5), 513–534. https://doi.org/10.1057/jibs.2015.20
+Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. *American Economic Journal: Macroeconomics, 13*(1), 333–372. https://doi.org/10.1257/mac.20180386
+Certo, S. T., Busenbark, J. R., Woo, H.-S., & Semadeni, M. (2016). Sample selection bias and Heckman models in strategic management research. *Strategic Management Journal, 37*(13), 2639–2657. https://doi.org/10.1002/smj.2475
+Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
+Contractor, F. J. (2007). Is international business good for companies? The evolutionary or multi-stage theory of internationalization vs. the transaction cost perspective. *Management International Review, 47*(3), 453–475. https://doi.org/10.1007/s11575-007-0024-2
+Coviello, N., Kano, L., & Liesch, P. W. (2017). Adapting the Uppsala model to a modern world: Macro-context and microfoundations. *Journal of International Business Studies, 48*(9), 1151–1164. https://doi.org/10.1057/s41267-017-0120-x
+Cuervo-Cazurra, A., & Genc, M. (2008). Transforming disadvantages into advantages: Developing-country MNEs in the least developed countries. *Journal of International Business Studies, 39*(6), 957–979. https://doi.org/10.1057/palgrave.jibs.8400390
+Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 39*(2), 287–291. Retrieved May 9, 2026, from https://ojs.umt.edu.pk/index.php/jfar
+Eisenhardt, K. M., & Martin, J. A. (2000). Dynamic capabilities: What are they? *Strategic Management Journal, 21*(10–11), 1105–1121. https://doi.org/10.1002/1097-0266(200010/11)21:10/11%3C1105::AID-SMJ133%3E3.0.CO;2-E
+Goldfarb, A., & Tucker, C. (2019). Digital economics. *Journal of Economic Literature, 57*(1), 3–43. https://doi.org/10.1257/jel.20171452
+Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted-U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
+Hanelt, A., Bohnsack, R., Marz, D., & Antunes Marante, C. (2021). A systematic review of the literature on digital transformation: Insights and implications for strategy and organizational change. *Journal of Management Studies, 58*(5), 1159–1197. https://doi.org/10.1111/joms.12639
+Heckman, J. J. (1979). Sample selection bias as a specification error. *Econometrica, 47*(1), 153–161. https://doi.org/10.2307/1912352
+Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0023-3
+Hennart, J.-F. (2011). A theoretical assessment of the empirical literature on the impact of multinationality on performance. *Global Strategy Journal, 1*(1–2), 135–151. https://doi.org/10.1002/gsj.8
+International Telecommunication Union. (2026). *World Telecommunication/ICT Indicators Database* [Data set]. Retrieved May 9, 2026, from https://www.itu.int/en/ITU-D/Statistics/Pages/publications/wtid.aspx
+Karna, A., Richter, A., & Riesenkampff, E. (2016). Revisiting the role of the environment in the capabilities–financial performance relationship: A meta-analysis. *Strategic Management Journal, 37*(6), 1154–1173. https://doi.org/10.1002/smj.2379
+Knight, G. A., & Liesch, P. W. (2016). Internationalization: From incremental to born global. *Journal of World Business, 51*(1), 93–102. https://doi.org/10.1016/j.jwb.2015.08.011
+Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
+Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
+Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
+Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
+Nambisan, S., Wright, M., & Feldman, M. (2019). The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes. *Research Policy, 48*(8), 103773. https://doi.org/10.1016/j.respol.2019.03.018
+Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. *Journal of Business & Economic Statistics, 37*(2), 187–204. https://doi.org/10.1080/07350015.2016.1227711
+Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866. https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
+Petricevic, O., & Teece, D. J. (2019). The structural reshaping of globalization: Implications for strategic sectors, profiting from innovation, and the multinational enterprise. *Journal of International Business Studies, 50*(9), 1487–1512. https://doi.org/10.1057/s41267-019-00269-x
+Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
+Prime Minister of Vietnam. (2020, June 3). *Decision No. 749/QD-TTg approving the "National Digital Transformation Programme by 2025, with orientations towards 2030"* [Policy document]. Retrieved May 9, 2026, from https://english.luatvietnam.vn/decision-no-749-qd-ttg-on-approving-the-national-digital-transformation-program-until-2025-with-a-vision-184241-doc1.html
+Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. https://doi.org/10.1177/0149206319846272
+Staiger, D., & Stock, J. H. (1997). Instrumental variables regression with weak instruments. *Econometrica, 65*(3), 557–586. https://doi.org/10.2307/2171753
+Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? The international strategies of digital platform firms. *Global Strategy Journal, 11*(1), 58–80. https://doi.org/10.1002/gsj.1336
+Strange, R., & Zucchella, A. (2017). Industry 4.0, global value chains and international business. *Multinational Business Review, 25*(3), 174–184. https://doi.org/10.1108/MBR-05-2017-0028
+Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. *Strategic Management Journal, 28*(13), 1319–1350. https://doi.org/10.1002/smj.640
+Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evolution. *Global Strategy Journal, 10*(2), 239–250. https://doi.org/10.1002/gsj.1375
+Vahlne, J.-E., & Johanson, J. (2017). From internationalization to evolution: The Uppsala model at 40 years. *Journal of International Business Studies, 48*(9), 1087–1102. https://doi.org/10.1057/s41267-017-0107-7
+Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
+Vernon, R. (1979). The product cycle hypothesis in a new international environment. *Bulletin of Economics and Statistics, 41*(4), 255–267. https://doi.org/10.1111/j.1468-0084.1979.mp41004002.x
+Vial, G. (2019). Understanding digital transformation: A review and a research agenda. *Journal of Strategic Information Systems, 28*(2), 118–144. https://doi.org/10.1016/j.jsis.2019.01.003
+Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy, 30*(1), 60–82. https://doi.org/10.1111/j.1467-9701.2007.00872.x
 Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
-Wright, M., Filatotchev, I., Hoskisson, R. E., and Peng, M. W. (2005).
-
-Strategy research in
-
-emerging economies: Challenging the conventional wisdom. Journal of Management Studies,
-42(1):1–33.
-Wu, F., Fan, D., and Chen, L. (2022). Untangling the internationalization–performance relationship in emerging-economy multinationals: A meta-analytic review. Management International Review, 62(3):315–354.
-
-Wu, J., Wang, C., Hong, J., Piperopoulos, P., and Zhuo, S. (2016). Internationalization and
-innovation performance of emerging market enterprises: The role of host-country institutional
-development. Journal of World Business, 51(2):251–263.
-
-
-
+Wolfolds, S. E., & Siegel, J. (2019). Misaccounting for endogeneity: The peril of relying on the Heckman two-step method without a valid instrument. *Strategic Management Journal, 40*(3), 432–462. https://doi.org/10.1002/smj.2995
+Wooldridge, J. M. (2010). *Econometric analysis of cross section and panel data* (2nd ed.). MIT Press.
+World Bank. (2010). *Vietnam Enterprise Survey 2009: Data file*. Enterprise Surveys, World Bank Group. Retrieved May 9, 2026, from https://www.enterprisesurveys.org/en/enterprisesurveys
+World Bank. (2016). *Vietnam Enterprise Survey 2015: Data file*. Enterprise Surveys, World Bank Group. Retrieved May 9, 2026, from https://www.enterprisesurveys.org/en/enterprisesurveys
+World Bank. (2024). *Vietnam Enterprise Survey 2023: Data file*. Enterprise Surveys, World Bank Group. Retrieved May 9, 2026, from https://www.enterprisesurveys.org/en/enterprisesurveys
+World Bank. (2026). *World Development Indicators* [Data set]. Retrieved May 9, 2026, from https://databank.worldbank.org/source/world-development-indicators
+Wright, M., Filatotchev, I., Hoskisson, R. E., & Peng, M. W. (2005). Strategy research in emerging economies: Challenging the conventional wisdom. *Journal of Management Studies, 42*(1), 1–33. https://doi.org/10.1111/j.1467-6486.2005.00487.x
+Wu, F., Fan, D., & Chen, L. (2022). Untangling the internationalization–performance relationship in emerging-economy multinationals: A meta-analytic review. *Management International Review, 62*(2), 203–243. https://doi.org/10.1007/s11575-022-00466-1
+Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2016). Internationalization and innovation performance of emerging market enterprises: The role of host-country institutional development. *Journal of World Business, 51*(2), 251–263. https://doi.org/10.1016/j.jwb.2015.09.001
