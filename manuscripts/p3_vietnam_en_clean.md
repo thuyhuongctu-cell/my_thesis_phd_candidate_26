@@ -22,12 +22,8 @@ market and examines how technological capability and foundational digital adopti
 on Vietnam, it asks whether export intensity is nonlinearly associated with labour productivity
 and whether technological capability and foundational digital adoption play distinct roles across
 survey waves.
-Design/methodology/approach — The study uses three waves of World Bank Enterprise Survey
-data for Vietnam (2009, 2015 and 2023; pooled N = 2,958) and estimates wave-specific and
-pooled OLS models with HC1 robust standard errors, quadratic export-intensity terms and interaction specifications. The analysis distinguishes a Technological Capability Index based on
-internationally recognised quality certification and foreign-licensed technology from a foundational Digital Adoption Index based on website presence, with no shared items between the two
-constructs. Supplementary checks assess the stability of the main findings.
-Findings — The productivity benefits of internationalisation are concentrated primarily at the participation margin — the step from non-exporting to exporting — while within-exporter intensity yields diminishing to null marginal returns (Panel H). The full-sample inverted-U (turning points 39–46% FSTS) is identified mainly through this participation step rather than through dense curvature within the exporter subsample. Technological capability is positively associated with productivity in all three waves and in the pooled sample, and its moderating role is more stable than that of foundational digital adoption. Foundational digital adoption is positive in 2009 and 2023, null in 2015, and only shows within-sample detectable moderation in 2023. Instrumental-variable estimation (Panel K) yields a null instrumented DAI coefficient (β = 0.018, p = .942, first-stage F = 34.6), indicating that the OLS-estimated positive DAI association is likely selection-driven rather than causal.
+Design/methodology/approach — The study uses three waves of World Bank Enterprise Survey data for Vietnam (2009, 2015 and 2023; pooled N = 2,958) and estimates wave-specific and pooled OLS models with HC1 robust standard errors and quadratic export-intensity terms. A Technological Capability Index (quality certification + foreign-licensed technology) is distinguished from a foundational Digital Adoption Index (website presence), with no shared items between the two constructs.
+Findings — The internationalisation–performance relationship is inverted-U with turning points clustered between 39–46% FSTS, identified primarily through the participation margin (non-exporters → exporters) rather than within-exporter curvature (Panel H). Technological capability is positively associated with productivity across all three waves; foundational digital adoption is positive in 2009 and 2023 but null in 2015, with detectable curvature moderation only in 2023. Instrumental-variable estimation yields a null instrumented DAI coefficient (β = 0.018, p = .942, first-stage F = 34.6), indicating the OLS-estimated DAI association is selection-driven rather than causal.
 
 
 Originality/value — The study contributes to research on emerging markets by distinguishing
@@ -373,7 +369,7 @@ Digital Adoption (DAI_z)
 
 Controls: lnEmp, FirmAge, ForeignOwned, sector FE [+ wave FE]
 
-![Figure 1: Conceptual model — TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/p4_vietnam/figure_1_conceptual_model.png)
+![Figure 1: Conceptual model — TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/p3_vietnam/figure_1_conceptual_model.png)
 
 *Figure 1.* Conceptual model. The independent variable (internationalisation, FSTS_c and FSTS_c²) and the dependent variable (firm performance, ln labour productivity) anchor the IV–DV spine. Technological capability (TCI_z) and foundational digital adoption (DAI_z) act as direct effects (H2, H3) and as moderators of the FSTS curve (H2 moderation, H4 exploratory moderation). Controls are entered additively. Wave fixed effects apply to the pooled specification only.
 
@@ -741,19 +737,19 @@ The positive pooled average coexists with
 substantial temporal heterogeneity, and the conditional role of digital adoption emerges more
 clearly only in the later wave.
 
-![Figure 2a: Wave 2009 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2a.png)
+![Figure 2a: Wave 2009 — predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2a.png)
 
 *Figure 2a.* Predicted ln(labour productivity) as a function of FSTS for the 2009 wave (M2). Shaded band = 95% CI. Turning point ≈ 46% FSTS (Lind-Mehlum p = .006).
 
-![Figure 2b: Wave 2015 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2b.png)
+![Figure 2b: Wave 2015 — predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2b.png)
 
 *Figure 2b.* Predicted ln(labour productivity) as a function of FSTS for the 2015 wave (M2). Turning point ≈ 39% FSTS (Lind-Mehlum p = .009).
 
-![Figure 2c: Wave 2023 — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2c.png)
+![Figure 2c: Wave 2023 — predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2c.png)
 
 *Figure 2c.* Predicted ln(labour productivity) as a function of FSTS for the 2023 wave (M2). Turning point ≈ 42% FSTS (Lind-Mehlum p = .013).
 
-![Figure 2d: Pooled (2009+2015+2023) — predicted ln(labour productivity) vs FSTS](figures/p4_vietnam/figure_2d.png)
+![Figure 2d: Pooled (2009+2015+2023) — predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2d.png)
 
 *Figure 2d.* Predicted ln(labour productivity) as a function of FSTS for the pooled sample (M2). Turning point ≈ 40% FSTS (Lind-Mehlum p < .001).
 
@@ -794,7 +790,7 @@ treated as exploratory.
 
 Following Haans, Pieters, and He (2016), we distinguish two types of moderation for curvilinear I–P relationships. Type I moderation flattens or steepens one slope of the inverted-U (i.e., the linear FSTS × DAI interaction is significant while FSTS² × DAI is not): the moderator shifts the position of the turning point but preserves the inverted-U shape. Type II moderation flips the shape of the curve (i.e., FSTS² × DAI is significant): high versus low moderator values produce qualitatively different functional forms. The 2023 DAI evidence fits Type I: the significant linear interaction FSTS_c × DAI_z = −0.912 (p = .043) indicates that digital adoption attenuates the positive slope at low export intensity, pulling the turning point inward, while the FSTS² × DAI interaction remains insignificant, confirming that the inverted-U shape is preserved. Type II moderation — digital capability reversing the curvature for high-adopter firms — is not supported in the Vietnam sample.
 
-![Figure 3: Moderator marginal effects — TCI and DAI interactions with FSTS (Vietnam)](figures/p4_vietnam/figure_3_moderator_marginals.png)
+![Figure 3: Moderator marginal effects — TCI and DAI interactions with FSTS (Vietnam)](figures/p3_vietnam/figure_3_moderator_marginals.png)
 
 *Figure 3.* Marginal effects of TCI_z and DAI_z on ln(labour productivity) across FSTS levels (M7/M8). TCI shows a stable positive level-shift across waves; DAI moderation is wave-specific, with the 2023 interaction showing attenuation at high FSTS (Type I moderation: slope-flattening, shape preserved).
 
