@@ -1,0 +1,8 @@
+/home/user/PAPERS_IN_PHD_2026/manuscripts/p4_singapore_en_clean.md
+/home/user/PAPERS_IN_PHD_2026/thesis/09_academic_writing_standards_vi.md
+/home/user/PAPERS_IN_PHD_2026/scripts/submission-checklist.py
+/home/user/PAPERS_IN_PHD_2026/thesis/04_references_apa7.md
+/home/user/PAPERS_IN_PHD_2026/thesis/21_p6_meta_vi.md
+/home/user/PAPERS_IN_PHD_2026/manuscripts/p3_vietnam_en_clean.md
+/home/user/PAPERS_IN_PHD_2026/scripts/format-apa7.py
+/home/user/PAPERS_IN_PHD_2026/scripts/check-consistency.py

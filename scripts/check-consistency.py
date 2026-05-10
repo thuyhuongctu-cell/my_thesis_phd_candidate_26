@@ -52,9 +52,15 @@ CANONICAL = {
 
 # Files to check (relative to repo root)
 DEFAULT_PATTERNS = [
-    "manuscripts/*.md",
-    "manuscripts/p5_china/apjm/*.md",
+    "p3/*.md",
+    "p4/*.md",
+    "p5/*.md",
+    "p5/versions/apjm/*.md",
+    "p6/*.md",
+    "chuyen_de/cd1/*.md",
+    "chuyen_de/cd2/*.md",
     "thesis/*.md",
+    "writing_guides/*.md",
 ]
 
 @dataclass

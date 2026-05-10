@@ -19,19 +19,19 @@ from collections import defaultdict
 DEFAULT_REFS_FILE = "thesis/04_references_apa7.md"
 
 MANUSCRIPT_PATTERNS = [
-    "manuscripts/p3_vietnam_en_clean.md",
-    "manuscripts/p4_singapore_en_clean.md",
-    "manuscripts/p5_china/apjm/manuscript_v1_8_blinded_part1_frontmatter_intro.md",
-    "manuscripts/p5_china/apjm/manuscript_v1_8_blinded_part2_theory.md",
-    "manuscripts/p5_china/apjm/manuscript_v1_8_blinded_part3_data_methods.md",
-    "manuscripts/p5_china/apjm/manuscript_v1_8_blinded_part4_results.md",
-    "thesis/14_cd1_part1_intro_theory_vi.md",
-    "thesis/15_cd1_part2_findings_vi.md",
-    "thesis/16_cd1_part3_cases_conclusion_vi.md",
-    "thesis/17_cd2_part1_intro_theory_vi.md",
-    "thesis/18_cd2_part2_review_framework_hypotheses_vi.md",
-    "thesis/19_cd2_part3_models_data_conclusion_vi.md",
-    "thesis/21_p6_meta_vi.md",
+    "p3/p3_vietnam_en_clean.md",
+    "p4/p4_singapore_en_clean.md",
+    "p5/versions/apjm/manuscript_v1_8_blinded_part1_frontmatter_intro.md",
+    "p5/versions/apjm/manuscript_v1_8_blinded_part2_theory.md",
+    "p5/versions/apjm/manuscript_v1_8_blinded_part3_data_methods.md",
+    "p5/versions/apjm/manuscript_v1_8_blinded_part4_results.md",
+    "chuyen_de/cd1/14_cd1_part1_intro_theory_vi.md",
+    "chuyen_de/cd1/15_cd1_part2_findings_vi.md",
+    "chuyen_de/cd1/16_cd1_part3_cases_conclusion_vi.md",
+    "chuyen_de/cd2/17_cd2_part1_intro_theory_vi.md",
+    "chuyen_de/cd2/18_cd2_part2_review_framework_hypotheses_vi.md",
+    "chuyen_de/cd2/19_cd2_part3_models_data_conclusion_vi.md",
+    "p6/21_p6_meta_vi.md",
 ]
 
 # Regex: (Author, Year) hoặc Author (Year) hoặc Author et al. (Year)
