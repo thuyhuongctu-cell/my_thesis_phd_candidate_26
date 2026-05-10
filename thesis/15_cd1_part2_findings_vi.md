@@ -10,7 +10,9 @@
 
 ### 4.1 Nguồn dữ liệu World Bank Enterprise Surveys
 
-**Phạm vi tổng hợp dữ liệu**. Nhóm dữ liệu (pool) gồm **101.185 doanh nghiệp**, 47 nền kinh tế, **108 cặp quốc gia × năm**, giai đoạn 2009–2025. Tổng hợp này kế thừa và mở rộng từ 17 nước châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026 — VEFR), gấp ~2,5 lần. Phân bố theo phân nhóm con (sub-regime) ICRV: Emerging 47.803 (47%), Frontier 28.678 (28%), Upper-middle 16.693 (17%), Advanced 6.640 (7%), **SIDS 1.371 (1,4% — gồm Kiribati 2025)**. Có **14 đợt khảo sát năm 2025** với 16.979 doanh nghiệp.
+#### 4.1.1 Phạm vi tổng hợp và phân bố pool
+
+Nhóm dữ liệu (pool) gồm **101.185 doanh nghiệp**, 47 nền kinh tế, **108 cặp quốc gia × năm**, giai đoạn 2009–2025. Tổng hợp này kế thừa và mở rộng từ 17 nước châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026 — *VEFR*), gấp ~2,5 lần. Phân bố theo phân nhóm con (sub-regime) ICRV: Emerging 47.803 (47%), Frontier 28.678 (28%), Upper-middle 16.693 (17%), Advanced 6.640 (7%), **SIDS 1.371 (1,4% — gồm Kiribati 2025)**. Có **14 đợt khảo sát năm 2025** với 16.979 doanh nghiệp.
 
 ![Hình 4.1.1 — Phân bố pool 5 phân nhóm con thể chế (n=101.185 doanh nghiệp)](figures/fig_4_1_pool_composition.png)
 
@@ -20,9 +22,57 @@
 
 *Hình 4.0. Phân bố mẫu doanh nghiệp xuyên 17 năm theo 3 thế hệ schema WBES: PICS3 (2009-2012, n=14.171), Standardized (2013-2017, n=24.564), BREADY (2018-2025, n=62.450 gồm Kiribati 2025). Đợt 2025 đột biến với 16.979 doanh nghiệp = 16,8% pool — đợt khảo sát đơn năm lớn nhất. Tái lập: `generate_figures.py` function `fig_4_0_pool_by_year()`.*
 
-**Trường hợp biên (boundary cases)**: **7 SIDS Thái Bình Dương đầy đủ (FJI, PNG, SLB, TON, VUT, WSM, KIR)** + Tây Á 9 nước. Phân bố thời gian: 2009–2012 (n=14.171), 2013–2017 (n=24.564), 2018–2025 (n=62.450, chiếm 62%). Ba thế hệ khung dữ liệu (schema): PICS3/MENA-WBES, Standardized, Standardized2018+/BREADY.
+#### 4.1.2 Cấu trúc 108 cặp quốc gia × năm
 
-**Hài hòa**. Pipeline Python (`wbes/02_harmonize.py`); FSTS = `d3b + d3c`; giới hạn cực trị (winsorize) log năng suất ở mức 1/99 phân vị trong cụm quốc gia × năm. Doanh thu chưa quy đổi sang USD PPP.
+WBES châu Á và Thái Bình Dương trong giai đoạn 2009–2025 không phải là panel thuần (không theo dõi cùng doanh nghiệp qua các năm) mà là chuỗi *cross-section lặp lại* (repeated cross-sections) ở cấp quốc gia. Mỗi cặp quốc gia × năm tương ứng với một đợt khảo sát độc lập. 108 cặp được phân bố như sau:
+
+- **2009–2012 (n=14.171, 14% pool)**: 24 cặp dưới schema **PICS3/MENA-WBES** — cấu trúc câu hỏi tập trung vào Productivity & Investment Climate (PICS) cho châu Á và biến thể MENA-WBES cho Tây Á (Lebanon, Iraq, Jordan, Yemen).
+- **2013–2017 (n=24.564, 24% pool)**: 31 cặp dưới schema **Standardized** — Bộ câu hỏi WBES chuẩn hóa toàn cầu, áp dụng đồng thời cho châu Phi, Mỹ Latinh, châu Á.
+- **2018–2025 (n=62.450, 62% pool)**: 53 cặp dưới schema **Standardized2018+/BREADY** — bộ câu hỏi cập nhật với mở rộng module số (`c22b` website binary; `k33`/`k38` e-payment phía cung và phía cầu) và module quản trị chính thức.
+
+Một số quốc gia có *nhiều cặp* (multi-wave): Trung Quốc (2012, 2024), Việt Nam (2009, 2015, 2023), Ấn Độ (2014, 2022), Philippines (2009, 2015, 2023). Những nước multi-wave là cơ sở quan trọng cho **CĐ2 — H6 temporal heterogeneity** và **P5 China — H2b structural durability**. Các nước *single wave* (1 cặp duy nhất) đóng vai trò *cross-sectional anchor* nhưng không có thông tin về thay đổi nội bộ theo thời gian.
+
+#### 4.1.3 Ba thế hệ schema và đứt gãy đo lường
+
+Ba thế hệ schema WBES không chỉ khác về kích cỡ bộ câu hỏi mà còn về cách đo lường nhiều biến quan trọng. **§4.11 (Cô lập đứt gãy schema BREADY 2025)** mô tả ba pattern đáng chú ý: (i) FSTS Ấn Độ rơi 7,7% (PICS3) → 2,7% (BREADY 2022) — không phản ánh thay đổi thực tế mà do schema khác; (ii) R&D nhiều nước tăng vọt do cách định nghĩa khác (binary thay vì continuous); (iii) DAI tier 1+2 (website + e-payment) chỉ khả dụng từ BREADY trở đi.
+
+Hệ quả cho phân tích pool 101.185:
+
+1. **Kiểm soát schema FE bắt buộc**: Mọi specification trong CĐ2 sẽ bao gồm dummy schema (PICS3 = base; Standardized; BREADY) tương tác với year-bucket để tách biệt *hiệu ứng schema* (questionnaire effect) khỏi *hiệu ứng thời gian thực* (temporal effect). Anchor-model approach (xem §4.11 v3.7) sử dụng các nước multi-wave với schema chuyển đổi để identify schema-induced shift.
+2. **Sub-pool analysis cho biến phụ thuộc schema**: DAI (Tier 1+2) chỉ tính cho mẫu BREADY (~62.450 doanh nghiệp); R&D continuous chỉ cho PICS3+Standardized (~38.735 doanh nghiệp); ISO certification consistent xuyên cả ba schema. Mỗi specification ghi rõ effective n.
+3. **Robustness "PostBREADY2024 enhanced"**: 2024–2025 cohort (n ≈ 26.000) được phân tích riêng để xác minh các kết luận pool có nhất quán không khi giới hạn ở mẫu hiện đại nhất với schema đầy đủ nhất.
+
+#### 4.1.4 Trường hợp biên — 7 SIDS Thái Bình Dương + Tây Á
+
+**SIDS Thái Bình Dương** (FJI, PNG, SLB, TON, VUT, WSM, KIR — 7 quốc đảo) là *boundary case* (trường hợp biên) trong scope của luận án vì hai lý do: (a) khoảng cách địa lý xa với khối Đông – Đông Nam – Nam Á; (b) đặc trưng kinh tế MIRAB (Migration, Remittances, Aid, Bureaucracy — Bertram, 2006) khác biệt căn bản với mô hình tăng trưởng dựa xuất khẩu của châu Á đại lục. Tuy vậy, SIDS được giữ lại trong pool 47 nước vì: (i) WBES có dữ liệu cho cả 7 nước; (ii) cung cấp variation thể chế cực hạn (WGI < −0,5 cho hầu hết) hữu ích cho identification gradient ICRV; (iii) bằng chứng SIDS xuất hiện trong P8 (Đỗ & Phan, in preparation) như một test "forced internationalization penalty".
+
+**Tây Á 9 nước** (Lebanon, Iraq, Jordan, Yemen, Bahrain, Saudi Arabia, Qatar, Kuwait, Brunei): được tích hợp khi khung 47 nước được phát triển từ 17 nước Asia-only ban đầu. Các nước này phân tách thành: (a) **Nhóm II tiên tiến tài nguyên dẫn dắt** (Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei) — kinh tế hydrocarbon-driven; (b) Nhóm V **cận biên** Tây Á (Lebanon, Iraq, Yemen, Jordan) — fragility cao và unrest history. Việc tách Advanced thành Nhóm I (innovation-driven) và Nhóm II (resource-driven) là một **đóng góp về phân loại** của CĐ1 v3.x — không có trong các báo cáo WBES toàn cầu chuẩn.
+
+**Kiribati 2025** là đợt khảo sát mới nhất được thêm vào pool ở v3.1 (n = 150 doanh nghiệp). Đây là **WBES BREADY đầu tiên cho Kiribati**, cung cấp baseline duy nhất; chưa thể so sánh trước–sau cho quốc gia này. Pattern đáng chú ý: website 18,7% (thấp hơn nhiều SIDS khác như Fiji 60–70%) — *không* thể hiện digital leapfrog 2018–2025 đang quan sát ở các SIDS khác. Lý giải khả dĩ: Kiribati có hạ tầng kỹ thuật số chưa đạt minimum threshold (kết nối internet quốc tế qua một cáp ngầm duy nhất từ 2024); leapfrog cần điều kiện hạ tầng tối thiểu mà Kiribati chưa đạt.
+
+#### 4.1.5 Quy trình hài hòa và winsorization
+
+**Pipeline hài hòa** (`wbes/02_harmonize.py`) thực hiện các bước:
+1. **Đọc các file thô** (`.dta` Stata format) cho 108 cặp quốc gia × năm.
+2. **Mapping biến** xuyên schema: bảng tham chiếu trong `thesis/08_p7_data_harmonization_protocol_vi.md` định nghĩa cho mỗi biến phân tích (FSTS, lnLP, TCI items, DAI items, controls) các tên biến gốc tương ứng trong PICS3 / Standardized / BREADY. Ví dụ: R&D = `h8` (continuous) trong Standardized vs `CNo3` (binary) trong PICS3.
+3. **Recode missing values**: WBES dùng các code `−9` (don't know), `−8` (refused), `−7` (n/a), `−6` (no response). Tất cả được recode thành missing trên các biến phân tích, không phân biệt nguyên nhân.
+4. **Xây dựng FSTS**: `FSTS = d3b + d3c` (xuất khẩu trực tiếp + gián tiếp), giới hạn ở [0, 100]; chia 100 để có scale [0, 1] cho regression.
+5. **Xây dựng lnLP**: `lnLP = ln(d2 / l1)` với `d2` = doanh thu năm tài chính (currency local), `l1` = số lao động cố định.
+6. **Winsorize**: log năng suất giới hạn ở mức 1/99 phân vị *trong cụm quốc gia × năm* — tránh ô nhiễm chéo giữa các nước có scale doanh thu khác nhau (chưa quy đổi PPP). Cách này preserve heterogeneity giữa quốc gia mà loại bỏ chỉ những outlier cực đoan trong từng cụm.
+
+**Lưu ý đo lường**: doanh thu chưa được quy đổi sang USD PPP. Hệ quả: lnLP có thể so sánh *trong* mỗi quốc gia × năm (xếp hạng doanh nghiệp) và có thể so sánh *giữa các quốc gia trong cùng cụm thể chế nếu kiểm soát country FE*; *không* thể so sánh tuyệt đối giữa các quốc gia khác cụm. Vì lý do đó, mọi phân tích trong CĐ1 và CĐ2 sẽ kèm country FE hoặc within-cluster standardization (z-score within country × year).
+
+#### 4.1.6 So sánh pool 101.185 với các nguồn dữ liệu khác
+
+| Nguồn dữ liệu | Phạm vi | Quy mô | Strength | Limitation tương ứng với CĐ |
+|---|---|---|---|---|
+| **WBES pool 101.185 (luận án)** | 47 nước châu Á + Pacific, 2009–2025 | 101.185 firms, 14 sóng | Coverage rộng nhất, harmonized, cấp doanh nghiệp | Repeated cross-sections (không panel thuần); doanh thu local currency |
+| Orbis (Bureau van Dijk) | Toàn cầu, 1990s+ | Hàng triệu firms | Panel firm-level (multi-year) | Bias hướng EU/US, coverage châu Á thưa, không có DAI items |
+| OECD STAN / structural-business statistics | OECD nước (ít châu Á) | Quốc gia × ngành | Long time-series, comparable | Chỉ aggregate level, không cấp doanh nghiệp |
+| Manufacturing surveys quốc gia (e.g., Indian Annual Survey of Industries) | Riêng từng nước | Lớn cho 1 nước | Panel thuần, biến phong phú | Không cross-country comparable |
+| Kafouros et al. (2023) | 16 nước CEE, 2004–2011 | 12.888 firms, 72.082 obs | Panel với governance moderation | Không bao gồm châu Á; nguồn institutional khác (WGI vs ICRV) |
+
+Pool 101.185 *bù đắp* khoảng trống coverage châu Á trong các nguồn dữ liệu hiện có, đồng thời chấp nhận trade-off về cấu trúc panel để có chiều rộng quốc gia.
 
 ### 4.2 Thực trạng năng suất lao động — phân tán trong từng quốc gia
 
@@ -59,6 +109,61 @@
 | SIDS | 6,3 | 16,3 | 5,77 |
 
 Trung vị FSTS bằng 0% — phân phối phân cực mạnh; SIDS có CAGR việc làm cao nhất.
+
+#### 4.3.1 Cấu trúc phân phối FSTS — biên ngoài (extensive margin) chi phối biên trong (intensive margin)
+
+Pattern then chốt của Bảng 4.3 là **trung vị FSTS = 0% xuyên cả năm phân nhóm con** trong khi trung bình dao động 6,3%–10,3%. Phân phối FSTS do đó có **đuôi phải dài** với khối lượng tập trung ở số ít doanh nghiệp xuất khẩu cao. Giải thích cấu trúc: 77,0%–84,5% doanh nghiệp WBES *không xuất khẩu* (1 – tỷ lệ doanh nghiệp xuất khẩu cột 3), trong khi nhóm xuất khẩu (15,5%–23,0%) có FSTS dao động rộng từ vài phần trăm đến 100%. Hệ quả thống kê quan trọng:
+
+1. **Biên ngoài (extensive margin — bước từ không xuất khẩu sang xuất khẩu) chi phối biên trong (intensive margin — cường độ xuất khẩu trong nhóm đã xuất khẩu)**. Pattern này được P3 Việt Nam (Đỗ & Phan, 2026 — *APJM*) chính thức hóa qua Panel H phân giải biên tham gia (participation margin) và biên cường độ (intensity margin): inverted-U pooled toàn mẫu (turning point 39,7%) được nhận dạng *chủ yếu* qua biên ngoài, còn trong subset doanh nghiệp xuất khẩu, FSTS² β = −0,200 (p = 0,660) ≈ 0 — đường cong gần phẳng. Bằng chứng cho thấy cơ chế "vượt ngưỡng phối hợp" của Hitt et al. (1997) hoạt động chủ yếu ở ngưỡng tham gia thị trường quốc tế, không phải tăng cường độ trong nhóm đã xuất khẩu.
+
+2. **Hàm ý nhận dạng cho CĐ2 — H1**: phần lớn variance FSTS giải thích biến thể năng suất đến từ phân tách 0/>0, nên các specification CĐ2 cần báo cáo *cả hai*: (a) baseline OLS đầy đủ với FSTS continuous (như §6.1–6.3); (b) Heckman selection model với participation equation tách bạch (xem §7.4 file 19 — chiến lược nhận dạng). Nếu IMR (inverse Mills ratio) significant như 2012 trong P5 (z = −2,44, p = 0,015), kết quả full-sample cần caveat về self-selection.
+
+3. **Hệ quả cho power analysis**: tổng số doanh nghiệp xuất khẩu trong pool ≈ 17.500 (101.185 × ~17,3% trung bình có trọng số) — đủ lớn cho subset analysis trong CĐ2 nhưng không đồng đều giữa phân nhóm: Advanced ~1.527 doanh nghiệp xuất khẩu, SIDS chỉ ~224. Subset analysis SIDS có power thấp; báo cáo điểm ước lượng và 95% CI nhưng không nên kết luận mạnh từ nhóm này.
+
+#### 4.3.2 Pattern declension theo regime — bằng chứng neo đậu cho H5
+
+So với CĐ1 v3.1 (chia Advanced thành hai phân nhóm con: tiên tiến đổi mới sáng tạo dẫn dắt — Nhóm I và tiên tiến tài nguyên dẫn dắt — Nhóm II), Bảng 4.3 hiện gộp ô Advanced (10,2% / 23,0% / 3,15%) chỉ phản ánh trung bình hai phân nhóm con. Phân tách Advanced theo Bảng 4.1 §4.2 (sd log 1,03 cho innovation-driven vs 0,49 cho resource-driven) gợi ý hai phân nhóm con có *cấu trúc xuất khẩu khác biệt*:
+
+- **Nhóm I — tiên tiến đổi mới sáng tạo dẫn dắt** (Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel): đặc trưng kinh tế *hub thương mại — sản xuất — dịch vụ tích hợp toàn cầu*; FSTS trung bình kỳ vọng cao và phân tán rộng. Bằng chứng từ P4 Singapore (Mar et al., 2026 — *MIR*): WBES 2023 với 67% doanh nghiệp có website và FSTS đuôi phải dài lên đến 100%; turning point hàm ý ~88,6% — đặc trưng của nền kinh tế số bão hòa.
+- **Nhóm II — tiên tiến tài nguyên dẫn dắt** (Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei): đặc trưng *kinh tế nội địa lớn dựa hydrocarbon + quỹ đầu tư chính phủ*; FSTS thường thấp hơn vì xuất khẩu hàng hóa thô tập trung ở doanh nghiệp nhà nước, không phải doanh nghiệp khảo sát WBES (chỉ tư nhân ngoài nông nghiệp).
+
+Phân tách FSTS Nhóm I vs Nhóm II không khả dụng trong CĐ1 v3.x cuối *(scope mở rộng cho CĐ2 — Bảng 7.2 file 19)*; đây là hạn chế ở mức độ chi tiết của Bảng 4.3 hiện tại nhưng *không* phủ nhận pattern declension chính giữa Advanced (gộp) → Upper-middle → Emerging → Frontier → SIDS.
+
+Tỷ lệ doanh nghiệp xuất khẩu cho thấy gradient rõ rệt: Advanced (23,0%) > Upper-middle (21,7%) > Frontier (16,6%) ≈ SIDS (16,3%) > Emerging (15,5%). Pattern này *không* đơn điệu theo trật tự ICRV (Emerging xuất khẩu thấp hơn Frontier) — nhất quán với giả thuyết khoảng trống thể chế (Khanna & Palepu, 2010): các nền kinh tế Emerging châu Á (Việt Nam, Indonesia, Philippines, Ấn Độ) có tỷ lệ doanh nghiệp xuất khẩu thấp hơn vì khu vực phi chính thức lớn (La Porta & Shleifer, 2014) và các doanh nghiệp xuất khẩu được "phân lớp" — phần lớn là FDI và doanh nghiệp lớn. Bằng chứng P3 Việt Nam: 12,6%–17,8% doanh nghiệp WBES Việt Nam có FSTS > 0 xuyên ba sóng 2009/2015/2023; pattern ổn định bền theo Paternoster cross-wave test.
+
+Hàm ý cho **H5 — Institutional moderation gradient (CĐ2 §5.5)**: cùng cường độ quốc tế hóa (FSTS) nhưng hiệu quả khác nhau theo nhóm ICRV; tham số β(FSTS × ICRV_dummy) trong M6 sẽ kiểm định gradient này một cách chính thức (xem §6.7 file 19).
+
+#### 4.3.3 Tăng trưởng việc làm CAGR — pattern phi tuyến và "puzzle" SIDS
+
+CAGR việc làm phân tách thành ba pattern khác biệt:
+
+1. **Upper-middle (4,25%) > Frontier (3,65%) > Advanced (3,15%) > Emerging (2,81%)**: pattern phi đơn điệu theo gradient phát triển. Upper-middle (Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia) đang trong giai đoạn chuyển đổi công nghiệp với động lực tạo việc làm tích cực; Advanced đã đi qua đỉnh demographic dividend và CAGR thấp hơn phù hợp với pattern dân số già đi.
+
+2. **Emerging thấp nhất (2,81%) — pattern đáng chú ý**: Emerging Asia (Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ) thường được kỳ vọng có CAGR việc làm cao do dân số trẻ và đang công nghiệp hóa. Ba lý giải khả dĩ:
+   - **Tự động hóa sớm (premature automation)**: Các nền kinh tế Emerging bắt đầu áp dụng tự động hóa và số hóa khi công nghiệp hóa chưa hoàn thành, làm giảm cầu lao động trực tiếp (Cusolito & Maloney, 2018).
+   - **Đo lường WBES**: WBES chỉ đo doanh nghiệp tư nhân chính thức ngoài nông nghiệp; ở Emerging Asia, khu vực phi chính thức (informal sector) ≈ 30%–40% việc làm (La Porta & Shleifer, 2014) — không nằm trong pool.
+   - **Dynamics doanh nghiệp**: tỷ lệ exit cao (Hsieh & Klenow, 2009, 2014) làm CAGR việc làm net thấp dù gross job creation cao.
+
+3. **SIDS Pacific cao nhất (5,77%) — "puzzle SIDS" cần giải thích**. SIDS Pacific (Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati 2025) có CAGR việc làm 5,77% vượt cả Upper-middle, một bất thường so với pattern chung. Năm cơ chế đề xuất:
+   - **Hiệu ứng cơ sở thấp**: pool SIDS chỉ 1.371 doanh nghiệp — base nhỏ, biến động tương đối lớn về tỷ lệ.
+   - **Tăng trưởng dịch vụ liên quan du lịch và hậu cần biển** (post-COVID 2022+) cần lao động trực tiếp.
+   - **Mô hình MIRAB** (Migration, Remittances, Aid, Bureaucracy) của Bertram (2006): khu vực công và doanh nghiệp dịch vụ phụ thuộc viện trợ có tăng trưởng việc làm ổn định không liên kết với động lực thị trường thông thường.
+   - **Survival bias**: chỉ doanh nghiệp tồn tại đủ lâu để được khảo sát mới có dữ liệu CAGR; doanh nghiệp shutdown trong khoảng 2009–2025 không đóng góp vào trung bình.
+   - **Hạn chế đo lường ở SIDS**: schema BREADY ở Kiribati 2025 lần đầu cho khu vực này; cross-wave comparisons cần thận trọng (xem §4.11 — đứt gãy schema).
+
+Hàm ý: SIDS được giữ lại trong pool 47 nước với nhãn **trường hợp biên (boundary case)** trong CĐ2 (xem §16 file 16 §5.7); kết quả dạng hàm I→P cho SIDS được kiểm định riêng (forced penalty hypothesis — Glaum & Oesterle, 2007) chứ không gộp vào regression chính của 41 nước châu Á.
+
+#### 4.3.4 Caveats đo lường WBES về quốc tế hóa
+
+Bốn caveat cần ghi nhận khi diễn giải Bảng 4.3:
+
+1. **FSTS = `d3b + d3c`**: tỷ trọng xuất khẩu trực tiếp (d3b) + gián tiếp (d3c) trong tổng doanh thu năm tài chính. Không bao gồm FDI ngoài (outward FDI — không có item WBES), licensing, hoặc thu nhập từ cung cấp dịch vụ qua nền tảng số xuyên biên giới (gap đo lường cho thời kỳ digital era — xem §4.4 và CDCM trong CĐ2 §2.5).
+
+2. **CAGR việc làm**: tính từ `l1` (số lao động hiện tại) so với `l1_recall` (số lao động 3 năm trước, recall). Sai số đo lường có thể xảy ra ở doanh nghiệp lớn (recall imprecision) và doanh nghiệp mới (n/a). Robustness check trong CĐ2 sẽ bao gồm trim ±1% extreme và winsorize ở 1/99 percentile.
+
+3. **Doanh nghiệp xuất khẩu (%)**: tính từ dummy `exporter` = 1 nếu FSTS > 0; 0 ngược lại. Không phân biệt direct exporter (d3b > 0) với indirect-only exporter (d3b = 0, d3c > 0) — phân biệt này quan trọng cho lý thuyết Uppsala (commitment level) và sẽ được khai thác trong P7 capstone (Đỗ & Phan, in preparation).
+
+4. **Coverage chéo phân nhóm con không đồng đều**: SIDS chỉ 1,4% pool nhưng được quote như một phân nhóm con đầy đủ. Lập luận về SIDS dựa trên mẫu có power thấp (n = 1.371) và khoảng cách niên đại lớn (đa số WBES SIDS giai đoạn 2009–2018, Kiribati 2025 single wave). Caveats được lặp lại xuyên các chương khi đề cập SIDS.
 
 ### 4.4 Thực trạng đổi mới sáng tạo và năng lực số
 
