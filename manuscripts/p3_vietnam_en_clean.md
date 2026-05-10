@@ -17,20 +17,13 @@
 ---
 
 ## Abstract
-Purpose — This study revisits the internationalisation–performance relationship in an emerging
-market and examines how technological capability and foundational digital adoption are associated with firms' productivity under conditions of institutional and digital transition. Focusing
-on Vietnam, it asks whether export intensity is nonlinearly associated with labour productivity
-and whether technological capability and foundational digital adoption play distinct roles across
-survey waves.
-Design/methodology/approach — The study uses three waves of World Bank Enterprise Survey data for Vietnam (2009, 2015 and 2023; pooled N = 2,958) and estimates wave-specific and pooled OLS models with HC1 robust standard errors, quadratic export-intensity terms and interaction specifications. The analysis distinguishes a Technological Capability Index based on internationally recognised quality certification and foreign-licensed technology from a foundational Digital Adoption Index based on website presence, with no shared items between the two constructs.
-Findings — The productivity benefits of internationalisation are concentrated primarily at the participation margin — the step from non-exporting to exporting — while within-exporter intensity yields diminishing to null marginal returns (Panel H). The full-sample inverted-U (turning points 39–46% FSTS) is identified mainly through this participation step rather than through dense curvature within the exporter subsample. Technological capability is positively associated with productivity in all three waves and in the pooled sample, and its moderating role is more stable than that of foundational digital adoption. Foundational digital adoption is positive in 2009 and 2023, null in 2015, and only shows within-sample detectable moderation in 2023. Instrumental-variable estimation (Panel K) yields a null instrumented DAI coefficient (β = 0.018, p = .942, first-stage F = 34.6), indicating that the OLS-estimated positive DAI association is likely selection-driven rather than causal.
+Purpose — This study revisits the internationalisation–performance relationship in Vietnam and examines how technological capability and foundational digital adoption are associated with firm productivity under institutional and digital transition, asking whether export intensity is nonlinearly related to labour productivity and whether the two constructs play distinct roles across survey waves.
 
+Design/methodology/approach — Three waves of World Bank Enterprise Survey data for Vietnam (2009, 2015, 2023; N = 2,958) are used to estimate wave-specific and pooled OLS models with HC1 robust standard errors, quadratic export-intensity terms, and interactions. The Technological Capability Index (quality certification, foreign-licensed technology) and Digital Adoption Index (website presence) share no items.
 
-Originality/value — The study contributes to research on emerging markets by distinguishing
-foreign-technology / standards capability from foundational digital adoption and by showing
-that pooled digital effects can mask substantial temporal heterogeneity. The findings suggest
-that the productivity relevance of basic digital adoption is context-sensitive and wave-specific
-rather than uniformly stable across stages of internationalisation.
+Findings — The inverted-U between internationalisation and firm performance (turning points 39–46% export intensity) holds across all three waves, concentrated at the participation margin rather than through dense within-exporter curvature. Technological capability is positively associated with productivity in all waves and in the pooled sample, with a more stable moderating role than foundational digital adoption. Digital adoption is positive in 2009 and 2023, null in 2015, and shows moderation only in 2023. Instrumental-variable estimation yields a null digital-adoption coefficient, indicating that the observed positive association is likely selection-driven.
+
+Originality/value — The study contributes to research on emerging markets by distinguishing foreign-technology / standards capability from foundational digital adoption and by showing that pooled digital effects can mask substantial temporal heterogeneity. The findings suggest that the productivity relevance of basic digital adoption is context-sensitive and wave-specific rather than uniformly stable across stages of internationalisation.
 
 Keywords: internationalisation–performance; emerging markets; digital adoption; technological capability; Vietnam; firm productivity.
 

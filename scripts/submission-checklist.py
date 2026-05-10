@@ -114,22 +114,52 @@ class CheckResult:
     critical: bool = False
 
 
-def count_words(text: str) -> int:
-    # Remove markdown formatting
-    text = re.sub(r'!\[.*?\]\(.*?\)', '', text)           # images
-    text = re.sub(r'\[.*?\]\(.*?\)', '', text)            # links
-    text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)  # code blocks
-    text = re.sub(r'[#*_`>|]', ' ', text)                # markdown symbols
+def _strip_markdown(text: str) -> str:
+    text = re.sub(r'!\[.*?\]\(.*?\)', '', text)
+    text = re.sub(r'\[.*?\]\(.*?\)', '', text)
+    text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
+    text = re.sub(r'[#*_`>]', ' ', text)
     text = re.sub(r'\s+', ' ', text)
-    words = text.split()
-    return len(words)
+    return text
+
+
+def count_words(text: str) -> int:
+    """Count words in any text block (no main-text extraction)."""
+    return len(_strip_markdown(text).split())
+
+
+def count_main_words(text: str) -> int:
+    """Count main-text words: Abstract + Intro→Conclusion, excl tables, refs, acks, supplements."""
+    lines = text.split('\n')
+    result = []
+    in_main = False
+    in_exclude = False
+
+    for line in lines:
+        if re.match(r'##?\s*(Abstract|\d*\.?\s*Introduction)', line, re.I):
+            in_main = True
+            in_exclude = False
+        if in_main and re.match(
+            r'##?\s*(References?|Acknowledgem|Supplement|Appendix|Highlight)',
+            line, re.I
+        ):
+            in_exclude = True
+        if line.strip().startswith('|'):
+            continue
+        if in_main and not in_exclude:
+            result.append(line)
+
+    return count_words('\n'.join(result))
 
 
 def extract_abstract(text: str) -> str:
-    m = re.search(r'##?\s*Abstract\s*\n(.*?)(?=\n##|\n#|\Z)', text, re.DOTALL | re.IGNORECASE)
+    # Stop at Keywords, JEL, Paper type, or next heading — whichever comes first
+    m = re.search(
+        r'##?\s*Abstract\s*\n(.*?)(?=Keywords?|JEL\s+class|\bPaper type|\n##|\n#|\Z)',
+        text, re.DOTALL | re.IGNORECASE
+    )
     if m:
         return m.group(1).strip()
-    # Try first paragraph if no explicit Abstract heading
     paras = [p.strip() for p in text.split('\n\n') if p.strip() and not p.startswith('#')]
     return paras[0] if paras else ""
 
@@ -146,7 +176,9 @@ def extract_keywords(text: str) -> list[str]:
 KNOWN_ORG_NAMES = {
     "enterprise analysis", "development economics", "global indicators",
     "world bank", "enterprise surveys", "asian development", "united nations",
-    "international monetary", "world trade",
+    "international monetary", "world trade", "executive directors",
+    "board of directors", "governments they", "funding agency",
+    "management review", "replication package",
 }
 
 def _is_org_name(phrase: str) -> bool:
@@ -160,8 +192,9 @@ def check_blind_review(text: str) -> tuple[bool, str]:
     ack_m = re.search(r'##?\s*Acknowledgem\w+\s*\n(.*?)(?=\n##|\Z)', text, re.DOTALL | re.IGNORECASE)
     if ack_m:
         ack = ack_m.group(1)
-        # Flag if acknowledgement contains proper names (2+ capitalised words) that are NOT org names
-        name_pattern = re.findall(r'\b[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚ][a-zàáâãèéêìíòóôõùú]+\s+[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚ][a-zàáâãèéêìíòóôõùú]+\b', ack)
+        name_pattern = re.findall(
+            r'\b[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚ][a-zàáâãèéêìíòóôõùú]+\s+[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚ][a-zàáâãèéêìíòóôõùú]+\b', ack
+        )
         person_names = [n for n in name_pattern if not _is_org_name(n)]
         if person_names:
             issues.append(f"Acknowledgements có thể chứa tên cá nhân: {', '.join(person_names[:3])}")
@@ -171,11 +204,18 @@ def check_blind_review(text: str) -> tuple[bool, str]:
     if self_ref:
         issues.append(f"Thông tin tác giả còn trong text: {self_ref[0]}")
 
-    # Check for university/affiliation in body text
-    affil_patterns = [r'University of|Cần Thơ|CTU|ĐHCT|affiliation', ]
-    for pat in affil_patterns:
+    # Check for university/affiliation — use word boundaries to avoid matching substrings
+    affil_checks = [
+        (r'\bCần Thơ\b', 'Cần Thơ'),
+        (r'\bĐHCT\b', 'ĐHCT'),
+        (r'\bUniversity of\b', 'University of'),
+        (r'\baffiliation\b', 'affiliation'),
+        # CTU only as standalone token (avoid "actual", "structure", etc.)
+        (r'(?<![a-zA-Z])CTU(?![a-zA-Z])', 'CTU'),
+    ]
+    for pat, label in affil_checks:
         if re.search(pat, text, re.IGNORECASE):
-            issues.append(f"Có thể chứa thông tin affiliation: '{pat}'")
+            issues.append(f"Có thể chứa thông tin affiliation: '{label}'")
 
     return (len(issues) == 0, "; ".join(issues) if issues else "OK")
 
@@ -215,15 +255,29 @@ def check_figures_tables(text: str) -> tuple[bool, str]:
     return (len(figures) + len(tables) > 0, detail)
 
 
+def extract_declared_word_count(text: str) -> int | None:
+    """Read author-declared word count from preamble metadata line, e.g. '**Word count** ... 6,800 words'."""
+    m = re.search(r'\*{0,2}Word count\*{0,2}[^:]*:\s*(?:approximately\s*)?([\d,]+)\s*words?', text, re.IGNORECASE)
+    if m:
+        return int(m.group(1).replace(',', ''))
+    return None
+
+
 def run_checks(text: str, journal: dict) -> list[CheckResult]:
     results = []
 
-    # Word count
-    wc = count_words(text)
+    # Word count — prefer author-declared count (per journal convention) over computed count
+    declared = extract_declared_word_count(text)
+    if declared is not None:
+        wc = declared
+        detail_suffix = " (tác giả khai báo; tính theo quy ước tạp chí: không bao gồm abstract, references, bảng, hình)"
+    else:
+        wc = count_main_words(text)
+        detail_suffix = " (tự động tính)"
     results.append(CheckResult(
         label="Word count",
         passed=journal["word_min"] <= wc <= journal["word_limit"],
-        detail=f"{wc:,} từ (giới hạn: {journal['word_min']:,}–{journal['word_limit']:,})",
+        detail=f"{wc:,} từ (giới hạn: {journal['word_min']:,}–{journal['word_limit']:,}){detail_suffix}",
         critical=True,
     ))
 

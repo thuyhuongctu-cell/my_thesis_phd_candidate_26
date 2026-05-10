@@ -46,9 +46,9 @@ INLINE_CITE_RE = re.compile(
 )
 
 # Regex để parse author + year từ reference list entries
-# APA7: Author, A. (Year). Title...
+# APA7: Author, A., & Co, B. (Year). Title...  — include & in character class
 REF_ENTRY_RE = re.compile(
-    r'^([A-ZÀ-Ỵa-zà-ỵÐđ][A-Za-zÀ-Ỵà-ỵÐđ\s\-,\.]+?)\.\s*\((\d{4}[a-z]?)(?:,\s*[A-Za-z]+)?\)'
+    r'^([A-ZÀ-Ỵa-zà-ỵÐđ][A-Za-zÀ-Ỵà-ỵÐđ\s\-,\.&]+?)\.\s*\((\d{4}[a-z]?)(?:,\s*[A-Za-z]+)?\)'
 )
 
 # Known abbreviation/alias mappings (inline key → how they appear in refs)
@@ -211,7 +211,7 @@ def main():
     refs_file = root / (args.refs or DEFAULT_REFS_FILE)
 
     if args.paper:
-        files = [Path(args.paper)]
+        files = [Path(args.paper).resolve()]
     else:
         files = [root / p for p in MANUSCRIPT_PATTERNS]
 

@@ -56,6 +56,10 @@ Kafouros, M., Wang, C., Piperopoulos, P., & Zhang, M. (2023). Academic collabora
 
 Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
 
+Lall, S. (1992). Technological capabilities and industrialization. *World Development*, *20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
+
+Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics*, *72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
+
 La Porta, R., & Shleifer, A. (2008). The unofficial economy and economic development. *Brookings Papers on Economic Activity*, *2008*(2), 275–352. https://doi.org/10.1353/eca.0.0016
 
 La Porta, R., & Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives*, *28*(3), 109–126. https://doi.org/10.1257/jep.28.3.109
@@ -75,6 +79,8 @@ Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? The inter
 United Nations Conference on Trade and Development. (2023). *World investment report 2023: Investing in sustainable energy for all*. UNCTAD.
 
 Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research*, *122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
+
+Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy*, *30*(1), 60–82. https://doi.org/10.1111/j.1467-9701.2007.00872.x
 
 Wang, Y., Huang, Y., & Hong, J. (2024). Technology concentration risk and bank performance: Evidence from China. *International Review of Financial Analysis*, *94*, 103307. https://doi.org/10.1016/j.irfa.2024.103307
 
@@ -132,6 +138,8 @@ Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: 
 
 Johanson, J., & Vahlne, J.-E. (2009). The Uppsala internationalization process model revisited: From liability of foreignness to liability of outsidership. *Journal of International Business Studies*, *40*(9), 1411–1431. https://doi.org/10.1057/jibs.2009.24
 
+Karna, A., Richter, A., & Riesenkampff, E. (2016). Revisiting the role of the environment in the capabilities–financial performance relationship: A meta-analysis. *Strategic Management Journal*, *37*(6), 1154–1173. https://doi.org/10.1002/smj.2379
+
 Kaufmann, D., Kraay, A., & Mastruzzi, M. (2010). The worldwide governance indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law*, *3*(2), 220–246. https://doi.org/10.1017/S1876404511200046
 
 Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality-performance relationship: A meta-analytic review. *Global Strategy Journal*, *2*(2), 108–121. https://doi.org/10.1002/gsj.1025
@@ -139,6 +147,8 @@ Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of co
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management*, *42*(5), 1075–1110. https://doi.org/10.1177/0149206316630070
 
 North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press. https://doi.org/10.1017/CBO9780511808678
+
+Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology*, *36*(4), 859–866. https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
 
 Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. https://doi.org/10.1136/bmj.n71
 
