@@ -162,6 +162,33 @@
 
 ---
 
+### Singapore ecosystem rankings 2025/2026 — P4 contextual grounding *(mới 10/05/2026)*
+
+**Nguồn**: StartupBlink IBEI 2026; StartupBlink Global Startup Ecosystem Index 2025; GovTech Singapore UN e-Gov Survey 2024; Enterprise Singapore SWITCH 2025 Press Release; IMDA ATxSG 2025 Press Release.
+
+**Các số liệu chính:**
+
+| Chỉ số | Giá trị | Nguồn |
+|--------|---------|-------|
+| StartupBlink IBEI 2026 — xếp hạng toàn cầu | **Hạng 2** (99,145/100) | StartupBlink (2026) |
+| StartupBlink IBEI 2026 — xếp hạng châu Á–TBD | **Hạng 1** | StartupBlink (2026) |
+| Global Startup Ecosystem Index 2025 | **Hạng 4** (tăng từ 5) | StartupBlink (2025) |
+| Tốc độ tăng trưởng hệ sinh thái 2025 | **44,9%** (top-20 avg: 28,5%) | StartupBlink (2025) |
+| UN e-Government Survey 2024 | **Hạng 3 toàn cầu** | GovTech Singapore (2024) |
+| Smart Nation 2.0 (ra mắt 2024) | Trust + Growth + Community | GovTech Singapore |
+| SWITCH 2025 — số người tham dự | 25.000+ (100+ quốc gia) | Enterprise Singapore (2025) |
+| SWITCH 2025 — SLINGSHOT applications | 6.800+ (150 thị trường) | Enterprise Singapore (2025) |
+| ATxSG 2025 — số người tham dự | 22.000 (110 khu vực) | IMDA (2025) |
+| ATxSG 2025 — số gian hàng / pavilion | 700+ / 34 pavilion quốc tế | IMDA (2025) |
+
+**Hàm ý cho luận án:**
+- **Validates ICRV Group I biên trên**: Ba xếp hạng độc lập (IBEI, Startup Ecosystem, e-Gov) đồng thuận → Singapore không chỉ là "điển hình" mà là **benchmark ceiling** cho phân loại ICRV Nhóm I
+- **Validates Digital Saturation Paradox (P4)**: Hệ sinh thái SWITCH/ATxSG vận hành ở Tier 3–4 (AI, deep tech, platform) trong khi DAI WBES chỉ đo Tier 1–2 → lý giải tại sao uniform premium DAI = null và chỉ còn signal ở FSTS cao
+- **Validates TCI positive (P4)**: IBEI sub-component "Market Perception + Business Incentives + R&D ecosystem" → Singapore có TCI cao hơn structural average → nhất quán với β_TCI = +0,168
+- **Cross-paper consistency (CĐ1 §5.1)**: Cập nhật §5.1 file 16 v3.6 với các chỉ số này để tăng độ tin cậy của phân nhóm Advanced innovation-driven
+
+---
+
 ### AI trong tài chính và P4 Singapore (Boeddu, Feyen et al., 2025)
 
 - G20 report: survey 70+ financial sector authorities ở EMDEs về AI adoption challenges
@@ -178,11 +205,13 @@
 | File 14 §1.5 (CĐ1) | Gap 3: khoảng cách số hóa | "Coverage-to-connection gap" (Pirlea & Corso, 2026): validates DAI construct |
 | File 14 §2.7 (CĐ1) | DAI-TCI non-overlap | 4 điều kiện AI (Mahler et al., 2026): DAI = điều kiện 1, TCI = điều kiện 2–3 |
 | File 15 §4.4 (CĐ1) | Findings DAI subsample | Bangladesh case: minh họa "digital theatre" trong WBES data |
+| File 16 §5.1 (CĐ1) | Singapore ICRV Group I | ***(Mới 10/05/2026)*** IBEI 2026 hạng 2, Ecosystem Index hạng 4, SWITCH/ATxSG 2025: validates biên trên + Digital Saturation Paradox |
 | File 16 §5.2 (CĐ1) | Gulf ICRV Group II | Commodity shock context: institutional uncertainty mới từ Agnolucci et al. (2026) |
 | File 16 §5.7 (CĐ1) | SIDS boundary case | Fertilizer +30%: amplifies Forced Internationalization Penalty |
+| P4 §1.1 + §5.1 (MIR) | Background + Discussion | ***(Mới 10/05/2026)*** Rankings grounding + SWITCH/ATxSG ecosystem evidence |
 | CĐ2 file 17 §1.2 | AI heterogeneity | AI 50× gap (Mahler et al., 2026): motivates ICRV regime moderation H5 |
-| thesis/04_references | Section P mới | 5 entries World Bank 2026 |
+| thesis/04_references | Section P + Q | 5 entries World Bank 2026 (P) + 5 entries Singapore ecosystem 2025/2026 (Q) |
 
 ---
 
-*Cập nhật 10/05/2026 (Section 2: World Bank Data360 Atlas). NCS: Đỗ Thùy Hương; HD: TS. Nguyễn Minh Cảnh.*
+*Cập nhật 10/05/2026 (Section 2: World Bank Data360 Atlas; Section 3: Singapore ecosystem 2025/2026). NCS: Đỗ Thùy Hương; HD: TS. Nguyễn Minh Cảnh.*
