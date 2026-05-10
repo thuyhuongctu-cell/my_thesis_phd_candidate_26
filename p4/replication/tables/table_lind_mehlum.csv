@@ -1,5 +1,5 @@
-wave,model,N,FSTS_c_beta,FSTSsq_c_beta,lm_test_p,turning_point_fsts_pct,fsts_mean_pct,interpretation
-2009,M2,989,1.045,-1.774,0.006,~40,16.8,inverted-U confirmed
-2015,M2,956,1.159,-2.115,0.009,~44,11.9,inverted-U confirmed
-2023,M2,1013,0.962,-1.686,0.013,~46,13.1,inverted-U confirmed
-pooled,M2,2958,0.984,-1.909,<0.001,39.7,13.9,inverted-U confirmed
+sample,tp_raw,tp_raw_lo,tp_raw_hi,lm_p,fsts_min,fsts_max,n
+VNM2009,0.4625,0.3739,0.551,0.0057,0.0,1.0,989
+VNM2015,0.3932,0.3029,0.4835,0.0087,0.0,1.0,956
+VNM2023,0.416,0.3173,0.5146,0.0125,0.0,1.0,1013
+VNMpooled,0.3972,0.3397,0.4547,0.0,0.0,1.0,2958

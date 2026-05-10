@@ -1,10 +1,5 @@
-check,wave,N,method,TCI_z_coef,DAI_z_coef,fsts_c_coef,fstssq_c_coef,selection_term_p,notes
-Heckman_two_step,2009,989,heckman_2step,,,,,,,"Mills ratio"
-Heckman_two_step,2015,956,heckman_2step,,,,,,
-Heckman_two_step,2023,1013,heckman_2step,,,,,,
-Control_function,2009,989,control_function,,,,,,,"residual from probit"
-Control_function,2015,956,control_function,,,,,,
-Control_function,2023,1013,control_function,,,,,,
-OLS_exporters_only,2009,,ols_subsample,,,,,,FSTS>0 firms only
-OLS_exporters_only,2015,,ols_subsample,,,,,,
-OLS_exporters_only,2023,,ols_subsample,,,,,,
+sample,n_total,n_selected,imr_b,imr_se,imr_p,gres_b,gres_se,gres_p
+VNM2009,989,281,-0.1108,0.5689,0.8455,0.5099,0.1127,0.0
+VNM2015,956,198,-0.8327,0.7372,0.2587,-0.1123,0.1218,0.3566
+VNM2023,1013,190,0.6652,0.7886,0.3989,0.2589,0.1535,0.0917
+VNMpooled,2958,669,-0.4624,0.492,0.3473,0.3041,0.0765,0.0001
