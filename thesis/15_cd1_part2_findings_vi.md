@@ -106,7 +106,7 @@ Spec 1 (full coverage 2009–2025) dùng biến nhị phân duy nhất (`website
 
 #### 4.4.5.1 Đối chiếu DAI xuyên quốc gia — Singapore (Tier 1+2) vs Việt Nam (Tier 1 only)
 
-> **Bằng chứng nền tảng**: §2.7 file 14 v3.13 (Khung 4-Tier Verhoef + CDCM); P3 Singapore manuscript (Mar et al., 2026 — *MIR*); P4 Việt Nam (Đỗ & Phan, 2026 — *APJM*).
+> **Bằng chứng nền tảng**: §2.7 file 14 v3.13 (Khung 4-Tier Verhoef + CDCM); P4 Singapore manuscript (Mar et al., 2026 — *MIR*); P3 Việt Nam (Đỗ & Phan, 2026 — *APJM*).
 
 NotebookLM critique 08/05/2026 chỉ ra **mâu thuẫn tử huyệt** giữa hai papers: Singapore (Tier 1+2 = website + e-payment) cho hệ số tương tác DAI×FSTS² **dương mạnh** (β=3,119, p=,005), trong khi Việt Nam (Tier 1 = website only) cho tương tác DAI×FSTS **âm** ở wave 2023 (β=-0,912, p=,043). Đây không phải mâu thuẫn ngẫu nhiên mà là **bằng chứng cho khung CDCM** — giá trị của công cụ số phụ thuộc độ tương thích giữa cấp độ số hóa và mật độ giao dịch quốc tế:
 
@@ -121,7 +121,7 @@ NotebookLM critique 08/05/2026 chỉ ra **mâu thuẫn tử huyệt** giữa hai
 | **2SLS robustness (DAI)** | (chưa kiểm định IV) | β co về 0,02, p=,94 — **không xác lập nhân quả** |
 | **Cơ chế giải thích** | Tier 1+2 hấp thụ super-linear coordination cost xuất khẩu cao (Brynjolfsson & McAfee, 2014) | Tier 1 không quản lý nổi giao dịch lớn → khuếch đại quá tải thông tin |
 
-**Hàm ý cho lập luận §4.4.5 hiện hành**: Hệ số âm DAI ở Advanced trong Spec 1 (-0,129) không chỉ là *artifact của Tier-1 saturation* (đã lập luận v3.5) mà còn phản ánh **gãy đổ đo lường** (measurement break) khi Tier 1 không đủ sức quản lý giao dịch ở xuất khẩu cao. Khi mở rộng sang Tier 1+2 (Spec 2 với e-payment), hệ số dương mạnh emerges — replication pattern Singapore P3.
+**Hàm ý cho lập luận §4.4.5 hiện hành**: Hệ số âm DAI ở Advanced trong Spec 1 (-0,129) không chỉ là *artifact của Tier-1 saturation* (đã lập luận v3.5) mà còn phản ánh **gãy đổ đo lường** (measurement break) khi Tier 1 không đủ sức quản lý giao dịch ở xuất khẩu cao. Khi mở rộng sang Tier 1+2 (Spec 2 với e-payment), hệ số dương mạnh emerges — replication pattern Singapore P4.
 
 **Đề xuất phương pháp luận cho CĐ2** *(robustness check #10)*: Cross-validation construct boundary — chạy Spec 2 chỉ ở 41 nước có đủ Tier 1+2 data (BREADY+ wave); confirm rằng pattern Singapore-style (DAI × FSTS² dương) emerges khi có composite digital adoption metric. Nếu confirm → đóng góp lý thuyết mạnh cho CDCM (Đỗ & Phan, 2026 mở rộng từ APJM sang luận án). Nếu không confirm → cần Tier 3 (ERP/CRM) hoặc Tier 4 (AI) để nắm cơ chế thực sự — hàm ý cho data collection tương lai (limitations §7.3.4 file 16).
 
