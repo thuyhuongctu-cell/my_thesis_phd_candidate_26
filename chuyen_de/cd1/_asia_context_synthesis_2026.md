@@ -86,3 +86,103 @@
 ---
 
 *Tổng hợp 06/05/2026 phục vụ CĐ1 v3.2 cập nhật. NCS: Đỗ Thùy Hương; HD: TS. Nguyễn Minh Cảnh.*
+
+---
+
+## Bối cảnh kỹ thuật số toàn cầu và thị trường hàng hóa (World Bank Data360 Atlas, 05/2026)
+
+> Tổng hợp từ 5 tài liệu World Bank tháng 5/2026 — phục vụ cập nhật CĐ1/CĐ2 và bối cảnh luận án.
+
+### Nguồn
+
+1. **Pirlea, A. F., & Corso, L.** (May 2026). *The Unfinished Digital Revolution: Expanding Internet Access*. World Bank Data360 Atlas.
+2. **Mahler, D., Wang, H., & Weber, M.** (May 2026). *Inequalities in Use of and Exposure to Artificial Intelligence*. World Bank Data360 Atlas.
+3. **Pirlea, A. F., et al. (Eds.)** (2026). *Atlas of Global Development 2026*. World Bank (CC BY 3.0 IGO). 121,249 data points · 107 datasets · 95 visualizations.
+4. **Agnolucci, P., Kenworthy, P., & Kose, M. A.** (May 7, 2026). Five questions on how the war in the Middle East is affecting commodity markets. *Let's Talk Development*, World Bank Blogs.
+5. **Boeddu, G., Feyen, E., Martinez Jaramillo, S., et al.** (2025). *Artificial Intelligence for Financial Sector Supervision: An EMDE Perspective* (Prosperity Insight Series). World Bank Group. Report to G20 Finance Ministers.
+
+---
+
+### Khoảng cách kỹ thuật số toàn cầu (Pirlea & Corso, 2026)
+
+**Dữ liệu truy cập Internet:**
+- **2,2 tỷ người** vẫn offline toàn cầu (2025); 1/4 dân số thế giới không dùng Internet
+- **9/10 người** ở Sub-Saharan Africa không có phủ sóng 5G; **22%** người dân LIC sở hữu smartphone
+- **Bangladesh case**: 4G phủ 100% dân số (2024) nhưng chỉ 53% thực sự dùng Internet → **coverage ≠ adoption**
+- Khoảng cách giới: **280 triệu** nam dùng Internet nhiều hơn nữ (2025)
+- Singapore / UAE / Chile: >300 Mbps vs LIC bình quân <20 Mbps
+
+**Hàm ý cho luận án:**
+- "Coverage-to-connection gap" = định nghĩa thực nghiệm cho **"digital theatre" warning** (Anil & Misra, 2022): infrastructure có, adoption không
+- Xác nhận WBES DAI đo website + e-payment phản ánh **thực tế áp dụng số**, không phải hạ tầng — đây là lý do DAI ≠ TCI và tại sao coverage không đủ để tạo hiệu quả
+- **Bangladesh vs Singapore**: cùng 4G coverage, khác adoption 47 pp → validates ICRV regime gradient là giải thích tốt hơn connectivity alone
+
+---
+
+### Bất bình đẳng AI toàn cầu (Mahler, Wang & Weber, 2026)
+
+**Dữ liệu chính:**
+- ChatGPT: **50×** sử dụng per internet user ở HICs vs LICs; 8× vs lower-middle income; 3× vs upper-middle
+- Gói data 5GB = **~50%** ngân sách còn lại sau ăn ở LICs → AI là "xa xỉ phẩm kỹ thuật số"
+- Chỉ **5%** dân số LIC có kỹ năng số cơ bản (2023)
+- HICs: **77%** năng lực data center toàn cầu; LICs: **<0,1%**; Mỹ gấp **20.000 lần** LICs per capita
+
+**4 điều kiện để AI tạo hiệu quả** (WB Digital Progress and Trends Report 2025):
+1. Kết nối internet đáng tin cậy và giá cả phải chăng
+2. Dữ liệu địa phương chất lượng để AI hữu ích
+3. Lực lượng lao động có kỹ năng số
+4. Computing power (tradable — có thể thuê qua cloud)
+
+**Hàm ý cho luận án:**
+- Validates **gradient ICRV H5**: AI gap 50× HIC vs LIC phản ánh chính xác điều mà ICRV regime đo lường — không chỉ regulatory quality mà còn technological capability tổng thể
+- **CDCM H3**: DAI effect heterogeneous vì Frontier/SIDS firms chỉ đạt DAI Tier 1 (website), không đạt Tier 2–4 → DAI null trong IV estimation ở Group IV–VI là **expected**, không phải failure
+- **TCI-DAI phân tách**: AI adoption by firms cần cả 4 điều kiện → DAI = điều kiện 1 (connectivity), TCI = điều kiện 2–3 → confirms non-overlapping construct validity
+
+---
+
+### Thị trường hàng hóa và Chiến tranh Trung Đông (Agnolucci, Kenworthy & Kose, 2026)
+
+**Dữ liệu chính (tháng 3–5/2026):**
+- **Eo biển Hormuz**: 35% thương mại dầu thô đường biển; 20% xăng dầu tinh; 20% LNG toàn cầu
+- Brent oil: $72 → **$118/bbl** (cuối tháng 3/2026 — mức tăng tháng lớn nhất lịch sử); bình quân 2026 dự báo $86/bbl (+24%)
+- **Phân bón** +30% (urea +60%); **kim loại cơ bản** +19%; vàng và bạc ~4× mức bình quân 2015–19
+- **EMDEs growth**: 3,6% (2026), giảm 0,4 pp; commodity exporters chỉ 2,4%; lạm phát EMDEs 4,1% → 5,1%
+
+**Hàm ý cho luận án:**
+
+*ICRV Group II (tiên tiến tài nguyên — Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei):*
+- Chiến tranh trực tiếp tạo **institutional uncertainty** cho Group II; resource rent disruption có thể shift turning point I→P curve — cần ghi chú khi diễn giải kết quả H5
+
+*P8 Pacific SIDS (Forced Internationalization Penalty):*
+- Phân bón +30% + food import exposure → **food security risk** tăng cao cho SIDS không sản xuất được
+- Validates P8 argument: SIDS chịu penalty không chỉ từ institutional voids mà còn từ **commodity price vulnerability** bên ngoài kiểm soát
+
+*ICRV Group IV–V (Frontier, Emerging):*
+- Vietnam, Bangladesh, Philippines = commodity importers → giá năng lượng cao làm tăng chi phí vận hành → ảnh hưởng FSTS profitability margin trong analysis period
+
+---
+
+### AI trong tài chính và P4 Singapore (Boeddu, Feyen et al., 2025)
+
+- G20 report: survey 70+ financial sector authorities ở EMDEs về AI adoption challenges
+- **3 challenges** chính cho supervisors: (1) skills gaps; (2) data quality & model validation; (3) digitization của existing systems
+- Singapore = financial hub ICRV Group I: đã đáp ứng 4 điều kiện AI → validates lý do **DAI null (saturation)** và **TCI positive** trong P4
+- "Hidden privacy risks in central banks' AI": institutional constraint mới cho DAI adoption ở regulatory-heavy financial hubs → supports CDCM conditional framing
+
+---
+
+### Tích hợp vào files luận án
+
+| File | Vị trí | Nội dung bổ sung |
+|------|--------|-----------------|
+| File 14 §1.5 (CĐ1) | Gap 3: khoảng cách số hóa | "Coverage-to-connection gap" (Pirlea & Corso, 2026): validates DAI construct |
+| File 14 §2.7 (CĐ1) | DAI-TCI non-overlap | 4 điều kiện AI (Mahler et al., 2026): DAI = điều kiện 1, TCI = điều kiện 2–3 |
+| File 15 §4.4 (CĐ1) | Findings DAI subsample | Bangladesh case: minh họa "digital theatre" trong WBES data |
+| File 16 §5.2 (CĐ1) | Gulf ICRV Group II | Commodity shock context: institutional uncertainty mới từ Agnolucci et al. (2026) |
+| File 16 §5.7 (CĐ1) | SIDS boundary case | Fertilizer +30%: amplifies Forced Internationalization Penalty |
+| CĐ2 file 17 §1.2 | AI heterogeneity | AI 50× gap (Mahler et al., 2026): motivates ICRV regime moderation H5 |
+| thesis/04_references | Section P mới | 5 entries World Bank 2026 |
+
+---
+
+*Cập nhật 10/05/2026 (Section 2: World Bank Data360 Atlas). NCS: Đỗ Thùy Hương; HD: TS. Nguyễn Minh Cảnh.*

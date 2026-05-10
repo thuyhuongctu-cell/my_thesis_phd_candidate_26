@@ -12,6 +12,8 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 >
 > **Phiên bản 2.4 (07/05/2026 — Citation audit APA 7th cho v3.4-v3.7)**: Bổ sung **6 verified references** (Bello & Kostova 2012 JIBS, Meyer et al. 2017 JIBS, Dunning 1988 JIBS, Williamson 2000 JEL, Aguinis Hill & Bailey 2019 ORM, Malerba & Orsenigo 1995 CJE, NotebookLM 2026 podcast). 3 audit warnings cho NCS fix.
 >
+> **Phiên bản 2.6 (10/05/2026 — World Bank Data360 Atlas 2026 + G20 AI FinSupervision)**: Bổ sung **Section P mới** (5 entries): (i) Pirlea & Corso (2026) internet access digital divide; (ii) Mahler, Wang & Weber (2026) AI inequality; (iii) Pirlea et al. (2026) Atlas of Global Development 2026; (iv) Agnolucci, Kenworthy & Kose (2026) Middle East war → commodity markets; (v) Boeddu, Feyen et al. (2025) AI for Financial Sector Supervision (G20 report).
+>
 > **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **✓ RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
 
 > **Note**: Sections A, B, C, E, H, I, J, M, N, O giữ nguyên từ v2.1-v2.4 trừ phần entries mới được đánh dấu **(Mới v2.x)**.
@@ -200,6 +202,18 @@ Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: 
 
 (Giữ nguyên từ v2.0 — 7 văn bản pháp lý + 8 hiệp định FTA.)
 
+## P. World Bank Data360 Atlas 2026 và báo cáo AI-Finance (Mới v2.6)
+
+Agnolucci, P., Kenworthy, P., & Kose, M. A. (2026, May 7). Five questions on how the war in the Middle East is affecting commodity markets. *Let's Talk Development*. World Bank Blogs. https://blogs.worldbank.org/en/developmenttalk/five-questions-on-how-the-war-in-the-middle-east-is-affecting-co *(Mới v2.6 — Strait of Hormuz closure: 35% seaborne crude oil; Brent $72→$118/bbl March 2026; energy +24%; fertilizer +30%; EMDEs growth 3,6% downgrade 0,4pp; EMDE commodity exporters 2,4%.)*
+
+Boeddu, G., Feyen, E., Martinez Jaramillo, S., Mesquita, S., Palta, Y., Sarkar, A., Sinha, S., & Gutiérrez Traverso, A. (2025). *Artificial Intelligence for Financial Sector Supervision: An Emerging Market and Developing Economies Perspective* (Prosperity Insight Series). World Bank Group. https://doi.org/10.1596/978-1-4648-2132-7 *(Mới v2.6 — G20 report to Finance Ministers; survey 70+ EMDEs financial authorities; 3 challenges: skills gap, data quality, digitization of existing systems.)*
+
+Mahler, D., Wang, H., & Weber, M. (2026, May). Inequalities in use of and exposure to artificial intelligence. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. https://data360.worldbank.org/en/int/atlas/artificial-intelligence *(Mới v2.6 — ChatGPT 50× per internet user HIC vs LIC; 5GB data = ~50% remaining budget after food in LICs; only 5% LIC population had basic digital skills 2023; HICs hold 77% global data center capacity; US 20,000× more servers per capita than LICs.)*
+
+Pirlea, A. F., & Corso, L. (2026, May). The unfinished digital revolution: Expanding internet access. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. https://data360.worldbank.org/en/int/atlas/internet-access *(Mới v2.6 — 2,2 tỷ người offline (2025); Bangladesh: 100% 4G coverage nhưng chỉ 53% dùng Internet (coverage-to-connection gap); 280 triệu men online hơn women; Singapore/UAE/Chile >300 Mbps vs LIC <20 Mbps.)*
+
+Pirlea, A. F., Wadhwa, D., Mahler, D., Serajuddin, U., Welch, M., Thudt, A., & Lambrechts, M. (Eds.). (2026). *Atlas of Global Development 2026* (License: Creative Commons Attribution CC BY 3.0 IGO). World Bank. https://data360.worldbank.org/en/int/atlas *(Mới v2.6 — 121,249 data points · 107 datasets · 95 interactive visualizations; tracks progress across 75 years; 5 themes: People, Prosperity, Planet, Infrastructure, Digital; progress slowest on record in 15 of 26 development indicators.)*
+
 ---
 
 ## Hướng dẫn sử dụng (cập nhật v2.5)
@@ -216,6 +230,12 @@ Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: 
 - **Trích dẫn WB WBES indicators Vietnamese (v2.5)**: dùng dạng "World Bank (n.d. — Vietnamese Indicators Summary)".
 - **Trích dẫn academic GSJ papers (v2.3)**: "Xu (2024)" và "Kafouros et al. (2023)".
 - **Trích dẫn JIBS editorials (v2.4)**: "Bello & Kostova (2012)" và "Meyer et al. (2017)".
+- **Trích dẫn Section P — Data360 Atlas (v2.6)**:
+  - Internet access story: "Pirlea & Corso (2026)"
+  - AI inequality story: "Mahler, Wang & Weber (2026)"
+  - Atlas overview/statistics: "Pirlea et al. (2026 — Atlas)"
+  - Commodity markets blog: "Agnolucci, Kenworthy & Kose (2026)"
+  - AI financial supervision G20: "Boeddu et al. (2025)"
 - **Trích dẫn classical theory (v2.4)**: "Dunning (1988)", "Williamson (2000)", "Aguinis, Hill & Bailey (2019)".
 - **Trích dẫn AI-generated audio (v2.4)**: "NotebookLM (2026, May 6)".
 
