@@ -377,7 +377,7 @@ Kết quả three-level MARA tích hợp trực tiếp với Conditional Digital
 
 **P3 Việt Nam** (Regime II–III): DAI null sau IV correction (first-stage F=34.6, DAI instrument; F=22.1, TCI instrument) — DAI không có causal effect độc lập, consistent với CDCM dự đoán rằng ở Regime thấp hơn, DAI không phát huy được do institutional friction.
 
-**P5 Trung Quốc** (Regime II): DAI retained as control only; TCI là level-shifter ($\beta=+0.28 \to +0.43$, Paternoster $p=.011$) — consistent với CDCM dự đoán TCI > DAI ở Regime II.
+**P5 Trung Quốc** (Regime II): DAI retained as control only; TCI là level-shifter ($\beta_z=+0.260 \to +0.426$, Paternoster $p=.011$) — consistent với CDCM dự đoán TCI > DAI ở Regime II.
 
 **Implication meta-analytic**: ICRV gradient (Hm2) và cDAI amplification (Hm3) tích hợp nhất quán với CDCM: $DAI_{country} \times ICRV_{regime}$ là interaction cốt lõi, với amplification mạnh nhất ở intersection $ICRV_{I} \times cDAI_{high}$.
 

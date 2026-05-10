@@ -408,7 +408,7 @@ Năm tổng quan định lượng lớn cung cấp bức tranh tổng thể về
 
 *P4 Singapore (Mar et al., 2026, MIR under review)*: Phân tích 623 doanh nghiệp WBES 2023. Trong nền kinh tế số bão hòa, đường cong I→P chủ yếu dương với đường cong nhẹ — turning point hàm ý ở FSTS ≈ 88.6% (vùng thưa dữ liệu; Lind–Mehlum p = .303). **Phát hiện nổi bật**: DAI×FSTS² = +3.119 (p = .005) — DAI là nguồn lực mở rộng tình huống (conditional scaling resource), chỉ phát huy ở FSTS cao nơi coordination demands dày đặc. TCI dương trực tiếp (β = 0.153). Giải thích: **digital saturation paradox** — khi Tier 1–2 đã phổ biến (website 67%), DAI mất tác dụng uniform premium và chỉ phân biệt qua export-contingent channel.
 
-*P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM under review)*: Phân tích 4.559 doanh nghiệp WBES 2012/2024. **Phát hiện chính**: inverted-U bền vững cấu trúc (H2b structural durability) — turning point 49.4% (2012), 47.2% (2024), Paternoster z-tests thất bại bác bỏ bình đẳng hệ số (FSTS²: p = .545; joint F: p = .107). TCI tăng cường theo thời gian (β = +0.28 → +0.43, Paternoster p = .011). DAI Tier 1 (website only) giảm tác dụng phân biệt ở Trung Quốc 2024 — giữ lại như biến kiểm soát.
+*P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM under review)*: Phân tích 4.559 doanh nghiệp WBES 2012/2024. **Phát hiện chính**: inverted-U bền vững cấu trúc (H2b structural durability) — turning point 49.4% (2012), 47.2% (2024), Paternoster z-tests thất bại bác bỏ bình đẳng hệ số (FSTS²: p = .545; joint F: p = .107). TCI tăng cường theo thời gian (β_z = +0.260 → +0.426, Paternoster p = .011). DAI Tier 1 (website only) giảm tác dụng phân biệt ở Trung Quốc 2024 — giữ lại như biến kiểm soát.
 
 **Bằng chứng từ văn liệu China và Asia**. Xiao et al. (2013) tìm thấy S-curve trong Chinese manufacturing và nhấn mạnh vai trò governance structure trong việc định hình turning point. Chen và Tan (2012) phát hiện region effects trong I→P của doanh nghiệp Trung Quốc — Greater China region có hiệu quả cao hơn. Kafouros et al. (2023) tổng hợp bằng chứng từ Global Strategy Journal về digital moderation của I→P trong châu Á giai đoạn 2018+.
 
@@ -595,7 +595,7 @@ CDCM cho thấy: một phát hiện "DAI null" và một phát hiện "DAI posit
 
 **Bằng chứng neo đậu**:
 - P3 Việt Nam: β(TCI) = 0.179 (p < .001) bền vững 3 sóng; IV cho β(TCI) = 1.639 (p < .001, first-stage F = 22.1) → TCI là causal, không phải selection-driven [lưu ý: first-stage F = 34.6 là của instrument cho DAI, không phải TCI]
-- P5 Trung Quốc: β(TCI) tăng từ +0.28 (2012) → +0.43 (2024), Paternoster z = −2.55 (p = .011) → TCI level-shift tăng cường theo thời gian
+- P5 Trung Quốc: β_z(TCI) tăng từ +0.260 (2012) → +0.426 (2024), Paternoster z = −2.55 (p = .011) → TCI level-shift tăng cường theo thời gian
 - P4 Singapore: β(TCI) = +0.153 (p < .01), không moderate curvature → TCI là pure level-shifter trong Nhóm I
 
 > **H2**: Technological Capability Index (TCI) có mối quan hệ dương trực tiếp với hiệu quả doanh nghiệp (β(TCI) > 0) và nâng mặt bằng ln(LP) của toàn bộ đường cong I→P (**level-shifter effect**). Tác động điều tiết của TCI lên **độ cong** của đường cong (curvature moderation) là câu hỏi thực nghiệm mở và được kiểm định như H2 exploratory trong M3.
@@ -664,7 +664,7 @@ Trong bối cảnh WBES, biến top manager được đo bởi: (a) **exp_manage
 | Hyp | Tên | Cơ chế lý thuyết | Biến kiểm định | Kỳ vọng | Bằng chứng P3/P4/P5 |
 |-----|-----|-----------------|----------------|---------|---------------------|
 | **H1** | Phi tuyến I→P | Uppsala 3-stage; chi phí phối hợp | FSTS, FSTS², FSTS³ | β₁>0; β₂<0 | P3 TP 39–46%; P5 TP 47–49% |
-| **H2** | TCI level-shifter | RBV absorptive capacity | TCI, FSTS×TCI | β(TCI)>0; curvature: exploratory | P3 IV causal; P5 +0.28→+0.43 |
+| **H2** | TCI level-shifter | RBV absorptive capacity | TCI, FSTS×TCI | β(TCI)>0; curvature: exploratory | P3 IV causal; P5 +0.260→+0.426 |
 | **H3** | DAI conditional | CDCM × Digital lens | DAI, FSTS²×DAI | Context-contingent (β>0 ở Nhóm I) | P4 +3.119; P3 IV null |
 | **H4** | Manager moderation | Upper Echelons | exp_manager, FSTS×exp | β(FSTS×exp)>0 | (WBES b5, b7a, b7) |
 | **H5** | ICRV gradient | Institutional Theory | ICRV_j × FSTS | TP gradient; Nhóm VI forced penalty | CĐ1 dispersion pattern |
@@ -948,7 +948,7 @@ Chuyên đề 2 xây dựng và đặc tả mô hình nghiên cứu lý thuyết
 | Giả thuyết | Kết quả dự kiến | Cơ sở neo đậu |
 |-----------|----------------|---------------|
 | H1 phi tuyến | Xác nhận inverted-U ở hầu hết nhóm ICRV; TP gradient I→VI | P3 TP 39–46%; P5 TP 47–49%; P4 near-monotonic |
-| H2 TCI level-shift | TCI dương bền vững; curvature moderation exploratory | P3 IV causal β=1.639; P5 +0.28→+0.43 |
+| H2 TCI level-shift | TCI dương bền vững; curvature moderation exploratory | P3 IV causal β=1.639; P5 +0.260→+0.426 |
 | H3 DAI conditional | FSTS²×DAI dương trong Nhóm I; selection-driven trong Nhóm IV | P4 +3.119; P3 IV null |
 | H4 Manager | exp_manager×FSTS dương | (kiểm định mới trong pool) |
 | H5 ICRV gradient | Turning point gradient; forced penalty Nhóm VI | CĐ1 dispersion evidence |

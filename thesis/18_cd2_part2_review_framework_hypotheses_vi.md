@@ -89,7 +89,7 @@ Một phân tích quan trọng thường bị bỏ qua trong các lược khảo
 
 *P4 Singapore (Mar et al., 2026, MIR under review)*: Phân tích 623 doanh nghiệp WBES 2023. Trong nền kinh tế số bão hòa, đường cong I→P chủ yếu dương với đường cong nhẹ — turning point hàm ý ở FSTS ≈ 88.6% (vùng thưa dữ liệu; Lind–Mehlum p = .303). **Phát hiện nổi bật**: DAI×FSTS² = +3.119 (p = .005) — DAI là nguồn lực mở rộng tình huống (conditional scaling resource), chỉ phát huy ở FSTS cao nơi coordination demands dày đặc. TCI dương trực tiếp (β = 0.153). Giải thích: **digital saturation paradox** — khi Tier 1–2 đã phổ biến (website 67%), DAI mất tác dụng uniform premium và chỉ phân biệt qua export-contingent channel.
 
-*P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM under review)*: Phân tích 4.559 doanh nghiệp WBES 2012/2024. **Phát hiện chính**: inverted-U bền vững cấu trúc (H2b structural durability) — turning point 49.4% (2012), 47.2% (2024), Paternoster z-tests thất bại bác bỏ bình đẳng hệ số (FSTS²: p = .545; joint F: p = .107). TCI tăng cường theo thời gian (β = +0.28 → +0.43, Paternoster p = .011). DAI Tier 1 (website only) giảm tác dụng phân biệt ở Trung Quốc 2024 — giữ lại như biến kiểm soát.
+*P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM under review)*: Phân tích 4.559 doanh nghiệp WBES 2012/2024. **Phát hiện chính**: inverted-U bền vững cấu trúc (H2b structural durability) — turning point 49.4% (2012), 47.2% (2024), Paternoster z-tests thất bại bác bỏ bình đẳng hệ số (FSTS²: p = .545; joint F: p = .107). TCI tăng cường theo thời gian (β_z = +0.260 → +0.426, Paternoster p = .011). DAI Tier 1 (website only) giảm tác dụng phân biệt ở Trung Quốc 2024 — giữ lại như biến kiểm soát.
 
 **Văn liệu châu Á bổ sung**. Xiao et al. (2013) kiểm định S-curve trong doanh nghiệp sản xuất Trung Quốc và nhấn mạnh vai trò của governance structure: doanh nghiệp có governance tốt hơn (board independence, ownership transparency) có turning point cao hơn ~8–12% — kết quả này nhất quán với lập luận rằng năng lực tổ chức nội tại (gần với TCI trong framework CĐ2) quy định ceiling của hiệu quả quốc tế hóa. Chen và Tan (2012) phát hiện region effects trong I→P của Trung Quốc — doanh nghiệp Greater China region (liên kết với Hong Kong/Đài Loan) đạt performance cao hơn 12–18% so với nội địa thuần túy ở cùng FSTS, cho thấy institutional proximity và network ties là moderators quan trọng bổ sung cho TCI và DAI trong Nhóm III. Li et al. (2022) tổng hợp bằng chứng Southeast Asia và tìm thấy ASEAN Free Trade Area (AFTA) tạo "regional premium" — turning point cao hơn 5–10% cho các thành viên AFTA so với ngoài khối, consistent với H5 gradient vì AFTA membership giảm institutional barriers và coordination costs xuyên biên giới.
 
@@ -359,14 +359,14 @@ Bốn nguyên tắc phát triển giả thuyết:
 
 **Bằng chứng neo đậu**:
 - P3 Việt Nam: β(TCI) = 0.179 (p < .001) bền vững 3 sóng; IV cho β(TCI) = 1.639 (p < .001, first-stage F = 22.1) → TCI là causal, không phải selection-driven [lưu ý: first-stage F = 34.6 là của instrument cho DAI, không phải TCI]
-- P5 Trung Quốc: β(TCI) tăng từ +0.28 (2012) → +0.43 (2024), Paternoster z = −2.55 (p = .011) → TCI level-shift tăng cường theo thời gian
+- P5 Trung Quốc: β_z(TCI) tăng từ +0.260 (2012) → +0.426 (2024), Paternoster z = −2.55 (p = .011) → TCI level-shift tăng cường theo thời gian
 - P4 Singapore: β(TCI) = +0.153 (p < .01), không moderate curvature → TCI là pure level-shifter trong Nhóm I
 
 > **H2**: Technological Capability Index (TCI) có mối quan hệ dương trực tiếp với hiệu quả doanh nghiệp (β(TCI) > 0) và nâng mặt bằng ln(LP) của toàn bộ đường cong I→P (**level-shifter effect**). Tác động điều tiết của TCI lên **độ cong** của đường cong (curvature moderation) là câu hỏi thực nghiệm mở và được kiểm định như H2 exploratory trong M3.
 
 **Cơ chế IV và phân tách endogeneity**: P3 Việt Nam (Đỗ & Phan, 2026) cho thấy IV estimation cho TCI (first-stage F = 22.1, instrument: industry-level TCI mean loại trừ firm) cho β(`TCI_IV`) = 1.639 (p < .001) — lớn hơn OLS β = 0.179, consistent với measurement error attenuation bias. Kết quả này xác nhận TCI là causal, không phải selection-driven, và causal effect lớn hơn đáng kể so với OLS estimate. Pool 101.185 sẽ cho phép kiểm định IV cho TCI trên sub-samples đủ lớn (ít nhất Nhóm I, III, IV).
 
-**Temporal reinforcement (P5 China)**: TCI level-shift tăng cường theo thời gian — β(TCI) = +0.28 (2012) → +0.43 (2024), Paternoster z = −2.55 (p = .011) — consistent với cơ chế absorptive capacity tích lũy và dynamic capabilities (Teece et al., 1997): TCI không phải là nguồn lực tĩnh mà accumulates qua learning-by-exporting. H6 (temporal heterogeneity) sẽ bổ sung cho H2 bằng cách kiểm định xem TCI temporal reinforcement xuất hiện không chỉ ở Trung Quốc (P5) mà còn trong pool đầy đủ.
+**Temporal reinforcement (P5 China)**: TCI level-shift tăng cường theo thời gian — β_z(TCI) = +0.260 (2012) → +0.426 (2024), Paternoster z = −2.55 (p = .011) — consistent với cơ chế absorptive capacity tích lũy và dynamic capabilities (Teece et al., 1997): TCI không phải là nguồn lực tĩnh mà accumulates qua learning-by-exporting. H6 (temporal heterogeneity) sẽ bổ sung cho H2 bằng cách kiểm định xem TCI temporal reinforcement xuất hiện không chỉ ở Trung Quốc (P5) mà còn trong pool đầy đủ.
 
 **Phân biệt H2 confirmatory vs exploratory**:
 - **H2 confirmatory**: β(TCI) > 0 — trực tiếp, nhất quán với P3/P4/P5
@@ -506,7 +506,7 @@ Tích hợp cả sáu hypothesis trong M7 (three-way capstone, §6.9) cho phép 
 | Hyp | Tên | Cơ chế lý thuyết | Biến kiểm định | Kỳ vọng | Bằng chứng P3/P4/P5 |
 |-----|-----|-----------------|----------------|---------|---------------------|
 | **H1** | Phi tuyến I→P | Uppsala 3-stage; chi phí phối hợp | FSTS, FSTS², FSTS³ | β₁>0; β₂<0 | P3 TP 39–46%; P5 TP 47–49% |
-| **H2** | TCI level-shifter | RBV absorptive capacity | TCI, FSTS×TCI | β(TCI)>0; curvature: exploratory | P3 IV causal; P5 +0.28→+0.43 |
+| **H2** | TCI level-shifter | RBV absorptive capacity | TCI, FSTS×TCI | β(TCI)>0; curvature: exploratory | P3 IV causal; P5 +0.260→+0.426 |
 | **H3** | DAI conditional | CDCM × Digital lens | DAI, FSTS²×DAI | Context-contingent (β>0 ở Nhóm I) | P4 +3.119; P3 IV null |
 | **H4** | Manager moderation | Upper Echelons | exp_manager, FSTS×exp | β(FSTS×exp)>0 | (WBES b5, b7a, b7) |
 | **H5** | ICRV gradient | Institutional Theory | ICRV_j × FSTS | TP gradient; Nhóm VI forced penalty | CĐ1 dispersion pattern |
@@ -587,7 +587,7 @@ Phần 2 đóng góp ba điều cụ thể cho CĐ2:
 
 3. **Hệ giả thuyết (Chương 5)**: Phát triển H1–H6 với dự đoán dấu cụ thể, phân rã H1a/H1b, bảng CDCM ba chiều cho H3 (Bảng 5.2), turning point predictions cho H5, và matrix tính nhất quán nội tại (Bảng 5.3). §5.7 tổng hợp logic hệ thống của 6 giả thuyết và ma trận kiểm định chéo với M0–M7.
 
-**Số liệu tham chiếu nhất quán trong Phần 2**. Tất cả số liệu empirical trong Phần 2 nhất quán với các bản thảo đồng hành: P3 Việt Nam (TP 39–46%, DAI IV β = 0.018 p = .942, TCI IV F = 22.1, DAI IV F = 34.6, Paternoster z = 3.353); P4 Singapore (TP ~88.6%, `FSTS²×DAI` = +3.119 p = .005, TCI β = 0.153); P5 Trung Quốc (TP 47–49%, TCI +0.28→+0.43 Paternoster p = .011, FSTS Paternoster p = .545). Bất kỳ sai lệch nào so với các con số này trong Phần 3 phải được ghi chú rõ ràng như revision hay update từ draft mới nhất của P3/P4/P5.
+**Số liệu tham chiếu nhất quán trong Phần 2**. Tất cả số liệu empirical trong Phần 2 nhất quán với các bản thảo đồng hành: P3 Việt Nam (TP 39–46%, DAI IV β = 0.018 p = .942, TCI IV F = 22.1, DAI IV F = 34.6, Paternoster z = 3.353); P4 Singapore (TP ~88.6%, `FSTS²×DAI` = +3.119 p = .005, TCI β = 0.153); P5 Trung Quốc (TP 47–49%, TCI +0.260→+0.426 Paternoster p = .011, FSTS Paternoster p = .545). Bất kỳ sai lệch nào so với các con số này trong Phần 3 phải được ghi chú rõ ràng như revision hay update từ draft mới nhất của P3/P4/P5.
 
 *Tiếp tục ở Phần 3 (Chương 6 — đặc tả mô hình M0–M7; Chương 7 — thiết kế dữ liệu; Chương 8 — robustness; Chương 9 — đóng góp và kết luận) trong file `thesis/19_cd2_part3_models_data_conclusion_vi.md`.*
 

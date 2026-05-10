@@ -326,7 +326,7 @@ Chuyên đề 2 xây dựng và đặc tả mô hình nghiên cứu lý thuyết
 | Giả thuyết | Kết quả dự kiến | Cơ sở neo đậu |
 |-----------|----------------|---------------|
 | H1 phi tuyến | Xác nhận inverted-U ở hầu hết nhóm ICRV; TP gradient I→VI | P3 TP 39–46%; P5 TP 47–49%; P4 near-monotonic |
-| H2 TCI level-shift | TCI dương bền vững; curvature moderation exploratory | P3 IV causal β=1.639; P5 +0.28→+0.43 |
+| H2 TCI level-shift | TCI dương bền vững; curvature moderation exploratory | P3 IV causal β=1.639; P5 +0.260→+0.426 |
 | H3 DAI conditional | FSTS²×DAI dương trong Nhóm I; selection-driven trong Nhóm IV | P4 +3.119; P3 IV null |
 | H4 Manager | exp_manager×FSTS dương | (kiểm định mới trong pool) |
 | H5 ICRV gradient | Turning point gradient; forced penalty Nhóm VI | CĐ1 dispersion evidence |
