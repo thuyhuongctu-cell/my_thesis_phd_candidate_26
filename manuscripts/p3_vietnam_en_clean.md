@@ -439,7 +439,7 @@ is not in the public release. Pooled specifications add wave fixed effects to ab
 differences in the productivity baseline.
 A note on missing-code handling.
 
-The WBES instrument codes don't-know and refused
+The WBES instrument codes do-not-know and refused
 
 responses as -9. We treat -9 as missing before any composite is built and apply listwise deletion
 on the focal variable set (lnLP, lnEmp, FirmAge, ForeignOwned, FSTS, TCI_z, DAI_z,
@@ -498,7 +498,7 @@ The 2009 wave displays a clearly nonlinear internationalisation–performance re
 (M2) yields a positive linear term (β = 1.045, p = .015) and a negative quadratic term (β =
 -1.774, p = .009); the Lind–Mehlum test rejects monotonicity at p = .006. In the dual-direct
 specification (M7) both TCI_z (β = 0.215, p < .001) and DAI_z (β = 0.175, p < .001) are
-positive and highly significant. TCI moderation is statistically distinguishable from zero (M3
+positive. TCI moderation is statistically distinguishable from zero (M3
 joint p = .040; FSTS_c × TCI_z = -0.579, p = .087), but DAI moderation is not (M4 joint
 
 
@@ -684,7 +684,7 @@ FSTS_c
 on the nonlinear shape of internationalisation returns in emerging-market firms (Marano et al.,
 2016).
 The pooled evidence shows that both technological capability and basic digital adoption are
-positively associated with firm performance on average. In the pooled M7 dual-direct specification, TCI_z is positive and highly significant (β = 0.179, p < .001), and DAI_z is positive
+positively associated with firm performance on average. In the pooled M7 dual-direct specification, TCI_z is positive (β = 0.179, p < .001), and DAI_z is positive
 and significant (β = 0.078, p = .004).
 
 In the full M8 specification, the TCI_z coefficient is
@@ -1273,7 +1273,7 @@ The DAI_rich extension reported in 4.5 Panel B reinforces the construct interp
 rather than weakening it. Although the primary DAI_z anchored on c22b (website presence) is
 by 2023 close to a Tier-1 baseline indicator, the DAI_rich extension available only in 2023 —
 combining c22b with electronic-payment shares (k33, k38) — produces a similarly directioned
-and marginally significant moderation pattern (FSTS_c × DAI_rich_cont_z = -0.93, M8 joint
+and a moderation pattern in the same direction (FSTS_c × DAI_rich_cont_z = -0.93, M8 joint
 p = .099). Whether digital adoption is measured by the thin Tier-1 website indicator or by the
 deeper Tier-2 / 3 transaction items, the 2023 moderation pattern goes in the same direction. This
 common-direction evidence guards against the proxy-obsolescence reading of the DAI pattern
