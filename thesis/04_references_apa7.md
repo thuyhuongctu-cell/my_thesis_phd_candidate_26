@@ -14,6 +14,8 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 >
 > **Phiên bản 2.6 (10/05/2026 — World Bank Data360 Atlas 2026 + G20 AI FinSupervision)**: Bổ sung **Section P mới** (5 entries): (i) Pirlea & Corso (2026) internet access digital divide; (ii) Mahler, Wang & Weber (2026) AI inequality; (iii) Pirlea et al. (2026) Atlas of Global Development 2026; (iv) Agnolucci, Kenworthy & Kose (2026) Middle East war → commodity markets; (v) Boeddu, Feyen et al. (2025) AI for Financial Sector Supervision (G20 report).
 >
+> **Phiên bản 2.7 (10/05/2026 — Singapore innovation ecosystem 2025/2026)**: Bổ sung **Section Q mới** (5 entries) phục vụ cập nhật §1.1 và §5.1 của P4 Singapore: (i) Enterprise Singapore (2025) SWITCH 2025; (ii) GovTech Singapore (2024) Digital Government Rankings; (iii) IMDA (2025) ATxSG 2025; (iv) StartupBlink (2025) Global Startup Ecosystem Index; (v) StartupBlink (2026) Innovators Business Environment Index.
+>
 > **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **✓ RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
 
 > **Note**: Sections A, B, C, E, H, I, J, M, N, O giữ nguyên từ v2.1-v2.4 trừ phần entries mới được đánh dấu **(Mới v2.x)**.
@@ -216,6 +218,20 @@ Pirlea, A. F., Wadhwa, D., Mahler, D., Serajuddin, U., Welch, M., Thudt, A., & L
 
 ---
 
+## Q. Singapore innovation ecosystem 2025/2026 (Mới v2.7 — P4 contextual grounding)
+
+Enterprise Singapore. (2025, November). *SWITCH 2025 concludes 10th anniversary milestone with record 25,000 attendees* [Press release]. Enterprise Singapore. https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2025/november/mr05225_switch-2025-concludes-10th-anniversary-milestone-with-record-25000-attendees-strengthens-position-as-premiere-platform-for-deep-tech-innovation *(Mới v2.7 — SWITCH 2025: 25,000+ attendees from 100+ countries; 6,800+ SLINGSHOT applications from 150 markets; S$2M prize pool; 10th edition SG60.)*
+
+GovTech Singapore. (2024). *Our digital government rankings*. Government Technology Agency of Singapore. https://www.tech.gov.sg/about-us/our-achievements/our-digital-government-rankings/ *(Mới v2.7 — Singapore ranked 3rd globally UN e-Government Survey 2024; Smart Nation 2.0 (2024) framed around Trust, Growth, Community.)*
+
+IMDA. (2025). *Asia Tech x Singapore turns five* [Press release]. Infocomm Media Development Authority. https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2025/asia-tech-x-singapore-turns-five *(Mới v2.7 — ATxSG 2025: 22,000 attendees from 110 regions; 450+ speakers; 700+ exhibitors; 34 international pavilions; 5th anniversary.)*
+
+StartupBlink. (2025). *Global Startup Ecosystem Index 2025: Singapore profile*. StartupBlink Research. https://www.startupblink.com/startup-ecosystem/singapore *(Mới v2.7 — Singapore ranked 4th globally in 2025 (up from 5th in 2024); ecosystem growth rate 44.9% vs top-20 average 28.5%.)*
+
+StartupBlink. (2026). *Innovators Business Environment Index 2026*. StartupBlink Research. https://www.startupblink.com/blog/innovators-business-environment-index/ *(Mới v2.7 — Singapore ranked 2nd globally (score 99.145/100); 1st in Asia Pacific; 30+ parameters across Regulation & Governance, Access to Capital, Taxation, Digital Infrastructure, Global Mobility.)*
+
+---
+
 ## Hướng dẫn sử dụng (cập nhật v2.5)
 
 ### Trong bản thảo luận án
@@ -238,6 +254,11 @@ Pirlea, A. F., Wadhwa, D., Mahler, D., Serajuddin, U., Welch, M., Thudt, A., & L
   - AI financial supervision G20: "Boeddu et al. (2025)"
 - **Trích dẫn classical theory (v2.4)**: "Dunning (1988)", "Williamson (2000)", "Aguinis, Hill & Bailey (2019)".
 - **Trích dẫn AI-generated audio (v2.4)**: "NotebookLM (2026, May 6)".
+- **Trích dẫn Section Q — Singapore ecosystem (v2.7)**:
+  - SWITCH 2025: "Enterprise Singapore (2025)"
+  - Digital government rankings: "GovTech Singapore (2024)"
+  - ATxSG summit: "IMDA (2025)"
+  - Startup ecosystem rank: "StartupBlink (2025)" or "StartupBlink (2026)" (specify year for disambiguation)
 
 ### Khi nộp bản cuối
 
