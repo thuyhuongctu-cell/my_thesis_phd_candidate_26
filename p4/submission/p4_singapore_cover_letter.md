@@ -10,11 +10,11 @@ Springer
 
 Dear Editor-in-Chief,
 
-We are pleased to submit the above manuscript for consideration for publication in *Management International Review* (MIR). The manuscript presents an empirical study of the internationalisation–performance (I–P) relationship using World Bank Enterprise Survey microdata for Singapore (2023; N = 414), positioned as an analytically informative boundary-case test at the advanced-economy ceiling of the institutional spectrum.
+We are pleased to submit the above manuscript for consideration for publication in *Management International Review* (MIR). The manuscript presents an empirical study of the internationalisation–performance (I–P) relationship using World Bank Enterprise Survey microdata for Singapore (2023; N = 623, N = 617 for specifications including DAI), positioned as an analytically informative boundary-case test at the advanced-economy ceiling of the institutional spectrum.
 
 **Relevance to MIR**
 
-The study speaks directly to MIR's interest in international business theory across diverse institutional settings. Singapore is an ideal stress-test setting for the I–P relationship because near-universal digital diffusion — what the paper terms the *digital saturation paradox* — removes the uniform-premium effect of foundational digital adoption and leaves only the export-contingent signal legible. This configuration provides a theoretical complement to I–P studies in emerging-economy settings and advances MIR's sustained focus on how institutional and digital environments condition the returns to internationalisation.
+The study speaks directly to MIR's interest in international business theory across diverse institutional settings. Singapore is an ideal stress-test setting for the I–P relationship because near-universal digital diffusion — what the paper terms the *digital saturation paradox* — removes the uniform-premium effect of foundational digital adoption and leaves only the export-contingent signal legible. Singapore's advanced-economy positioning is empirically well-established: it ranks 2nd globally in the StartupBlink Innovators Business Environment Index 2026 (score 99.145 out of 100; 1st in Asia Pacific across 30+ governance, capital access, taxation, and digital-infrastructure parameters), 4th in the Global Startup Ecosystem Index 2025, and 3rd in the United Nations e-Government Survey 2024, with the Smart Nation 2.0 initiative (2024) formalising digital trust and growth as national policy pillars. This configuration provides a theoretically precise complement to I–P studies in emerging-economy settings and advances MIR's sustained focus on how institutional and digital environments condition the returns to internationalisation.
 
 **Key Contributions**
 
