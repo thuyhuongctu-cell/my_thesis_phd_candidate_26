@@ -59,6 +59,14 @@ Năm tổng quan định lượng lớn cung cấp bức tranh tổng thể về
 
 **Khoảng trống tổng hợp**: Cả năm meta-analysis đều (i) thiếu coverage đầy đủ cho châu Á và Pacific; (ii) không kiểm định đồng thời phi tuyến + moderation đa tầng; (iii) không phân tách TCI và DAI; (iv) không bao gồm SIDS Pacific; (v) không có dữ liệu sau 2020 (AI + COVID). CĐ2 lấp đầy tất cả năm khoảng trống này.
 
+### 3.1b Phương pháp xác định turning point và kiểm định thống kê
+
+Trong văn liệu I→P, turning point của inverted-U được tính từ công thức: TP = −β₁/(2β₂) × FSTS_range, với β₁ > 0 và β₂ < 0. Tuy nhiên, chỉ tính turning point là chưa đủ — cần kiểm định xem turning point có *nằm trong vùng dữ liệu thực tế* và *có ý nghĩa thống kê* hay không. Lind và Mehlum (2010) phát triển test chuyên biệt cho điều này — kiểm định đồng thời (i) β₁ > 0, (ii) β₂ < 0, và (iii) turning point nằm trong interval dữ liệu. Cả ba điều kiện phải thỏa mãn cùng lúc để xác nhận inverted-U.
+
+**Tính turning point trong pool đa quốc gia**: Khi dùng dữ liệu pooled với country FE, mean-centered FSTS (`FSTS_c` = FSTS − mean(FSTS) theo country-wave), turning point được tính trên thang `FSTS_c` và cần convert về thang FSTS gốc: TP_FSTS = mean(FSTS) + TP_FSTS_c. Trong pool 47 nền kinh tế, mean(FSTS) thay đổi từ ~5% (Nhóm VI SIDS) đến ~35% (Nhóm I). Do đó, TP được báo cáo riêng cho từng nhóm ICRV hoặc trong interaction specification (M6).
+
+**Kiểm định Paternoster z-test cho so sánh turning points**: Khi so sánh TP giữa hai sub-samples (ví dụ: Nhóm I vs Nhóm IV), Paternoster et al. (1998) z-test là phương pháp chuẩn: z = (TP₁ − TP₂) / √(SE²_TP₁ + SE²_TP₂), với SE_TP được tính qua delta method từ variance-covariance matrix của β₁ và β₂. P3 Việt Nam dùng test này để so sánh TP 2009 và 2015 (z = 3.353, p < .001); CĐ2 sẽ áp dụng cho so sánh TP(Nhóm I) vs TP(Nhóm IV) trong M6 để kiểm định H5 gradient.
+
 ### 3.2b Phân tích heterogeneity trong kết quả meta-analysis
 
 Một phân tích quan trọng thường bị bỏ qua trong các lược khảo I→P là **nguồn gốc của heterogeneity** trong effect sizes. Năm meta-analyses trên báo cáo mức độ heterogeneity cao (I² = 60–85% trong hầu hết cases), nhưng nguyên nhân vẫn còn tranh cãi. CĐ2 đề xuất ba nguồn chính:
@@ -222,6 +230,37 @@ endlegend
 - **TCI**: binary composite từ: ISO certification (b8=1), R&D activity (h8=1), product innovation (h1=1), foreign licensed technology (e6=1). Yêu cầu ≥3/4 items non-missing; z-standardized trong mỗi wave. Items nhất quán qua ba thế hệ schema WBES (PICS3, Standardized, BREADY/BEE).
 - **DAI**: z-standardized composite. Schema BREADY/BEE (2019+): website (c22b) + customer e-payment intensity (k33) + supplier e-payment intensity (k38) = Tier 1+2. Schema cũ hơn (PICS3, Standardized): chỉ website (c22b) = Tier 1. Sự bất nhất này phải minh bạch trong §7.2 và kiểm định robustness (R1: DAI website-only xuyên toàn bộ sample).
 - **FSTS**: mean-centered trước khi tính FSTS² để giảm đa cộng tuyến giữa FSTS và FSTS².
+
+**Chiến lược xử lý missing data và schema heterogeneity**: Pool 101.185 doanh nghiệp từ 14 sóng WBES sử dụng ba thế hệ schema (PICS3 2006–2010, Standardized 2010–2018, BREADY/BEE 2019+). Sự bất nhất schema tạo ra hai vấn đề:
+
+*Vấn đề 1 — DAI Tier 1+2 chỉ có ở BREADY/BEE*: Giải pháp: sử dụng DAI_Tier1 (website only, `c22b`) cho toàn bộ pool; DAI_Tier2 (`k33+k38`) chỉ available cho subset BREADY/BEE. M4 primary dùng DAI_Tier1; robustness R2 dùng DAI_Tier1+2 cho BREADY/BEE sub-sample. Nếu kết quả nhất quán giữa DAI_Tier1 và DAI_Tier1+2 → DAI effect không phụ thuộc vào schema.
+
+*Vấn đề 2 — TCI items thay đổi nhỏ giữa schemas*: Item `h1` (product innovation) không available ở một số sóng PICS3. Giải pháp: TCI_3item (b8+h8+e6, không có h1) cho PICS3; TCI_4item (b8+h8+h1+e6) cho Standardized và BREADY/BEE. Robustness R3: kiểm định với TCI_3item xuyên toàn bộ sample để đảm bảo comparability.
+
+*Vấn đề 3 — Listwise deletion vs imputation*: Biến phụ thuộc `ln(LP)` yêu cầu cả d2 (doanh thu) và l1 (số lao động) non-missing và dương. Biến `FSTS` yêu cầu d3c non-missing và trong [0,100]. Approx 18–22% observations bị loại do missing trong d2 hoặc l1. Robustness R4: multiple imputation (m=20, chained equations) cho dữ liệu MCAR/MAR để kiểm tra xem missing không correlated với unobservables.
+
+**Chuẩn hóa biến kiểm soát**: `ln(employees)` = ln(l1+1) (cộng 1 để tránh ln(0) cho firms báo cáo 0 lao động, dù hiếm); `firm_age` = năm khảo sát − năm thành lập (b6); `foreign_own` = 1 nếu b2b ≥ 10% (ngưỡng tiêu chuẩn IB literature cho "meaningful foreign ownership"). Tất cả continuous moderators được z-standardized trong mỗi country-wave cell trước khi tính interactions để giảm multicollinearity.
+
+### 4.2b Tiêu chí lựa chọn mô hình và chiến lược nhận dạng nhân quả
+
+**Tiêu chí lựa chọn mô hình (model selection criteria)**: Hệ mô hình M0–M7 được đánh giá qua bốn tiêu chí:
+
+| Tiêu chí | Mô tả | Công thức / Ngưỡng |
+|----------|-------|-------------------|
+| Adjusted R² | Phần trăm phương sai giải thích, hiệu chỉnh theo số tham số | ΔR² > 0.01 để thêm moderator |
+| AIC (Akaike) | Penalizes model complexity, thưởng parsimony | ΔAIC < −2 ủng hộ mô hình phức tạp hơn |
+| BIC (Bayesian) | Penalizes mạnh hơn AIC theo ln(N) | ΔBIC < −10 là bằng chứng mạnh |
+| F-test (ΔF) | Kiểm định joint significance của biến thêm vào | p < .05 để thêm block biến |
+
+Chiến lược lựa chọn: M7 (three-way capstone) sẽ được báo cáo nếu ΔAIC(M7 vs M4+M3 kết hợp) < −2 VÀ F-test p < .05. Nếu không, kết luận là "no three-way synergy" — TCI và DAI operate independently.
+
+**Chiến lược nhận dạng nhân quả (causal identification strategy)**: Ba vấn đề endogeneity chính trong I→P regression:
+
+*Vấn đề 1 — Selection into exporting*: Doanh nghiệp hiệu quả hơn có xu hướng trở thành exporters (Melitz, 2003 — self-selection). Giải pháp: OLS và FE estimates đều chịu bias này. IV strategy: instrument `FSTS` bằng `industry_avg_FSTS_ex_firm` (FSTS trung bình ngành loại trừ chính firm đó, trong cùng country-wave). Validity: firm's FSTS correlated với industry norm (relevance); industry norm không ảnh hưởng LP của một firm cụ thể trực tiếp (exclusion). First-stage F phải > 10 (weak instrument threshold, Stock & Yogo, 2005).
+
+*Vấn đề 2 — Reverse causality (P → I)*: Doanh nghiệp hiệu quả hơn có thể invest more in technology (TCI) và digital (DAI). Giải pháp cho TCI: instrument bằng `industry_avg_TCI_ex_firm` (P3 Việt Nam IV: first-stage F = 22.1). Giải pháp cho DAI: instrument bằng `region_avg_broadband_penetration` × `year` (Internet infrastructure là exogenous firm-level digital adoption). Validity: broadband penetration affects firms' incentive to adopt digital tools nhưng không trực tiếp affect LP.
+
+*Vấn đề 3 — Omitted variable bias*: Unobserved firm-level capability (management quality beyond b5 measure, organizational culture) correlates với cả FSTS và LP. Giải pháp chính: Country FE + Year FE hấp thụ country-level và year-level unobservables. Firm FE không khả thi (WBES không phải panel — mỗi firm xuất hiện 1 lần trong hầu hết waves). Partial solution: industry dummies hấp thụ industry-level unobservables; multi-wave countries cho phép quasi-panel với province/city FE nếu available.
 
 ### 4.3 Giải thích CDCM trong khung khái niệm
 
