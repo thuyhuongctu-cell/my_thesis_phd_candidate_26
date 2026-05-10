@@ -135,6 +135,61 @@ RULES: list[LangRule] = [
         severity="info",
         ignore_sections=[],
     ),
+    # ── Author-voice rules (Đỗ Thúy Hương — PhD elevation) ──────────────────
+    # 12. Direct hypothesis without conditional framing
+    LangRule(
+        name="unconditional_hypothesis",
+        pattern=r"\bH\d[a-z]?[:\s].{0,60}(has a|have a|is|are) (positive|negative|significant) (impact|effect|influence|relationship)\b",
+        message="Hypothesis lacks conditional framing — PhD register requires: 'under [condition], [mechanism] predicts...'",
+        suggestion="→ 'H1: Under [condition], [mechanism] generates [expected direction] because [pathway]'",
+        severity="warning",
+        ignore_sections=["references", "appendix"],
+    ),
+    # 13. "Supports H1/H2/H3" without mechanism explanation
+    LangRule(
+        name="bare_hypothesis_support",
+        pattern=r"\b(supports?|confirms?|validates?)\s+H\d[a-z]?\b",
+        message="'Supports H[n]' without mechanism — state the coefficient and theoretical pathway",
+        suggestion="→ 'β = [value] (p = [p]), consistent with H[n]: [mechanism explanation]'",
+        severity="warning",
+        ignore_sections=["abstract", "conclusion", "references"],
+    ),
+    # 14. Single-mechanism claims ("X helps Y") without pathway
+    LangRule(
+        name="single_mechanism_vague",
+        pattern=r"\b(helps?|enables?|allows?|lets?)\s+(firms?|companies|businesses|managers?|organizations?)\s+(to\s+)?(overcome|improve|enhance|achieve|increase|reduce)\b",
+        message="Single-mechanism claim without theoretical pathway — name the mechanism and cite it",
+        suggestion="→ 'reduces [specific cost] through [pathway] (Author, Year)' not 'helps firms improve'",
+        severity="warning",
+        ignore_sections=["introduction", "references", "appendix"],
+    ),
+    # 15. Limitation as afterthought bullet without remedy
+    LangRule(
+        name="limitation_no_remedy",
+        pattern=r"^\s*[-*]\s*(1\.|2\.|3\.|first,?|second,?|third,?|one limitation|a limitation|the (main|key|primary|major) limitation)",
+        message="Limitation bullet without inferential bound + remedy — integrate as prose with methodological solution",
+        suggestion="→ 'First, [what cannot be concluded] because [source]. Future work using [method] would resolve [specific ambiguity]'",
+        severity="info",
+        ignore_sections=["references", "appendix"],
+    ),
+    # 16. "More research is needed" without specification
+    LangRule(
+        name="vague_future_research",
+        pattern=r"\b(more research (is|are) needed|future (studies|research|work) (should|could|might|may|would) (examine|investigate|explore|consider|look at))\b",
+        message="Vague future-research call — specify mechanism, method, and ambiguity to be resolved",
+        suggestion="→ 'Future work using [method] would resolve [ambiguity] by [mechanism of resolution]'",
+        severity="warning",
+        ignore_sections=["references"],
+    ),
+    # 17. "Contrasts with [X]" without context-specific reconciliation
+    LangRule(
+        name="unreconciled_contrast",
+        pattern=r"\b(contrasts? with|differs? from|inconsistent with|contradicts?)\s+[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝĐ][a-zàáâãèéêìíòóôõùúýđ]+.{0,40}\(\d{4}\)",
+        message="Contrast with prior work not reconciled — explain the divergence via boundary condition or context difference",
+        suggestion="→ 'The divergence from [Author, Year] is interpretable: [context difference] shifts [mechanism], predicting [different outcome]'",
+        severity="info",
+        ignore_sections=["references", "appendix"],
+    ),
 ]
 
 # ─── IMRaD tense conventions ──────────────────────────────────────────────────
