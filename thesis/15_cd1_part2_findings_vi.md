@@ -96,6 +96,60 @@ Pool 101.185 *bù đắp* khoảng trống coverage châu Á trong các nguồn 
 
 5 phát hiện: (1) Phân tán Advanced gộp giảm từ 1,00 → 0,86 sau khi bổ sung Vùng Vịnh — bằng chứng dị biệt nội bộ; (2) Frontier cao nhất — phù hợp **giả thuyết phân bổ sai nguồn lực (misallocation hypothesis)** Hsieh & Klenow (2009, 2014); (3) SIDS ở mức trung bình ~1,32 (v3.1); (4) tỷ số P90/P10 tăng đơn điệu theo phân nhóm con; (5) bằng chứng cho H5 — điều tiết thể chế (institutional moderation).
 
+#### 4.2.1 Đọc Bảng 4.1 — gradient phân tán xuyên 6 phân nhóm con
+
+Bảng 4.1 cung cấp *measure phân tán năng suất* qua ba metric bổ sung lẫn nhau: (a) sd log = độ lệch chuẩn của ln(LP) trong cụm — đo phân tán toàn bộ; (b) P90/P10 = tỷ số năng suất phần trăm thứ 90 chia phần trăm thứ 10 — đo *spread đuôi*; (c) P75/P25 = inter-quartile range tỷ số — đo *spread trung tâm*. Ba metric *consistent* về xếp hạng nhưng cho thông tin khác nhau:
+
+- **Advanced gộp** (sd log = 0,86; P90/P10 = 10,8): inter-quartile P75/P25 = 3,1 → *50% trung tâm có spread 3 lần*. Năng suất doanh nghiệp tốt nhất gấp ~10 lần năng suất doanh nghiệp tệ trong cùng nước. Đây là pattern thực tế của *thị trường lao động hiệu quả* — không có firms zombie tồn tại lâu (Caballero, Hoshi & Kashyap, 2008).
+- **Frontier** (sd log = 1,36; P90/P10 = 39,6): P75/P25 = 6,1 → *50% trung tâm có spread 6 lần*. Năng suất cao gấp ~40 lần năng suất thấp — *bằng chứng misallocation cực mạnh* (Hsieh & Klenow, 2009 estimate cho China + India). Cơ chế: institutional voids (Khanna & Palepu, 2010) ngăn re-allocation; informal sector + zombie firms tồn tại do thiếu market-based exit; access to finance có rào cản (k30 từ §4.5.5).
+
+Pattern *gradient declension* được formalized bởi misallocation hypothesis: chất lượng thể chế (rule of law, contract enforcement, financial development) *causally giảm* phân tán năng suất nội bộ vì:
+1. Cho phép re-allocation từ low-productivity sang high-productivity firms
+2. Giảm zombie firms (Caballero et al., 2008) — doanh nghiệp tồn tại nhờ subsidy hoặc evergreen lending mặc dù không tạo value
+3. Tăng exit rate cho firms không cạnh tranh được
+4. Giảm informality — kéo doanh nghiệp năng suất thấp ra khỏi WBES sample
+
+#### 4.2.2 Phân tách Advanced — đóng góp về phân loại của CĐ1
+
+Tỷ số phân tán Singapore (sd log = 1,03) so với Vùng Vịnh (sd log = 0,49) ≈ 2,1 lần là *bằng chứng định lượng quan trọng* cho việc phân tách Advanced thành hai phân nhóm con. Lý giải kinh tế:
+
+**Nhóm I — Advanced innovation-driven (Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel)**: phân tán cao (sd log 1,03) phản ánh *cấu trúc kinh tế đa ngành đa quy mô*: hub thương mại quốc tế (Singapore, Hong Kong), sản xuất công nghệ cao (Hàn Quốc — Samsung, LG, Hyundai, hàng nghìn supplier SMEs), chip semiconductor (Đài Loan — TSMC, UMC, hundreds of design firms), hi-tech defense + agriculture + cybersecurity (Israel). Phân tán cao là *feature, not bug* — nó phản ánh thị trường cho phép super-high-productivity firms (TSMC, Samsung) co-exist với SMEs. Inter-firm dispersion là engine của innovation diffusion.
+
+**Nhóm II — Advanced resource-driven (Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei)**: phân tán thấp (sd log 0,49) phản ánh *cấu trúc kinh tế đơn ngành dominant + nhà nước-trung tâm*: dầu khí + petrochemicals (Saudi Aramco, QatarEnergy, KPC) chiếm 60–80% GDP và 70–90% exports; doanh nghiệp tư nhân ngoài hydrocarbon chủ yếu là *retail + construction + services* phục vụ thị trường nội địa với productivity tương đối thuần nhất. WBES sample các nước Vùng Vịnh chỉ bao gồm doanh nghiệp tư nhân ngoài nông nghiệp — *không* SOE hydrocarbon — nên productivity dispersion observed thấp một cách hệ thống. Đây là pattern rentier state (Beblawi, 1987; Hertog, 2010): nhà nước phân phối oil rent qua patronage networks tạo ra *equality in productivity* nhưng *không phải* signs of competitiveness.
+
+Hàm ý: pooled "Advanced" coefficient trong regression I→P là *weighted average* của hai mechanism khác nhau (innovation-driven vs rentier). Specification CĐ2 cần phân nhóm con explicit:
+- M1 baseline với Advanced gộp → reported nhưng *không* là kết luận chính
+- M6 với 6 ICRV dummy variables (Nhóm I, II, III, IV, V, VI; Nhóm I = base) → kết luận chính
+
+Nếu coefficient Nhóm I và Nhóm II khác sign, kết luận quan trọng: *cả hai đều là Advanced theo GNI nhưng cấu trúc kinh tế khác biệt buộc phải phân tách trong khung phân tích*.
+
+#### 4.2.3 SIDS Pacific — phân tán giữa và hàm ý forced internationalization
+
+SIDS Pacific (sd log = 1,32) ở vị trí *giữa Emerging (1,24) và Frontier (1,36)*. Pattern này không như kỳ vọng đầu tiên: SIDS có thể chế kém (WGI < −0,5 cho hầu hết) và nên expect phân tán cao như Frontier. Tại sao SIDS phân tán không cao như Frontier?
+
+Ba lý giải khả dĩ:
+
+1. **Limited firm heterogeneity** trong nền kinh tế nhỏ: SIDS với GDP <5 tỷ USD và population <1 triệu (trừ Papua New Guinea + Fiji) có ít doanh nghiệp lớn — *không có TSMC equivalent*. Phân phối productivity bị truncated ở phía cao do *physical/economic ceiling* — nhỏ thì khó có super-firms.
+
+2. **MIRAB economy structure** (Bertram, 2006): kinh tế phụ thuộc Migration + Remittances + Aid + Bureaucracy không thúc đẩy private-sector competitive dispersion. Government và aid agencies chiếm phần lớn employment; private sector tập trung ở retail, tourism, construction — *productivity tương đối uniform*.
+
+3. **WBES sample bias**: SIDS waves chủ yếu giai đoạn 2009–2018 với schema PICS3/Standardized; sample size nhỏ (n = 1.371 / 7 nước / multiple waves) → nhiều cells nhỏ hơn 100 firms; statistical estimate sd log có *standard error rộng*, có thể che giấu true dispersion cao hơn.
+
+Pattern SIDS giữa Emerging và Frontier *vẫn consistent* với gradient theo regime (declension theory) nhưng *không phải đỉnh phân tán* như intuition đầu tiên gợi ý. Hàm ý: H5 (Institutional moderation gradient) có thể *non-monotonic* khi kinh tế nhỏ + cấu trúc đặc biệt — cần caveat khi compute Marginal Effect of FSTS theo ICRV regime.
+
+#### 4.2.4 Pattern P90/P10 và P75/P25 — đuôi vs trung tâm
+
+Tỷ số P90/P10 (10,8 → 27,7 → 30,6 → 39,6) tăng nhanh hơn tỷ số P75/P25 (3,1 → 5,4 → 5,1 → 6,1). Pattern này đặc trưng cho *fat-tailed productivity distribution* ở các nước declension regime: *đuôi extends* mạnh hơn *trung tâm spreads*. Hệ quả:
+
+- **Median firm tương đối ổn định** xuyên các regime (P75/P25 tăng tương đối chậm)
+- **Đuôi trên (high-productivity outliers)** kéo dài mạnh ở Frontier — một số doanh nghiệp xuất khẩu lớn + FDI có productivity gấp 30-40 lần median
+- **Đuôi dưới (low-productivity firms)** kéo dài tương ứng — zombie firms + microenterprises persistent
+
+Hàm ý cho regression specification CĐ2:
+1. **Quantile regression** tại p25, p50, p75 sẽ cho coefficient khác nhau (xem §8 file 19 robustness check 3 — quantile regression). OLS coefficient là *weighted mean*, có thể không phản ánh hiệu ứng ở từng phần phân phối.
+2. **Winsorize lnLP ở 1/99 percentile** trong cụm country × year (đã thực hiện trong harmonization pipeline — §4.1.5) là *cần thiết* để loại bỏ extreme outliers nhưng *không* loại bỏ heterogeneity systematic giữa các regime.
+3. **Variance decomposition** xuyên regimes (similar to Hsieh & Klenow exercise) có thể là phụ lục bổ sung cho CĐ2 — cho phép quantify bao nhiêu variance hiệu quả là *between-regime* vs *within-regime*.
+
 ### 4.3 Thực trạng quốc tế hóa và tăng trưởng việc làm
 
 **Bảng 4.3**. *FSTS, doanh nghiệp xuất khẩu và CAGR việc làm theo phân nhóm con.*
@@ -322,6 +376,49 @@ Nhảy vọt số (digital leapfrog): website tăng +20–43 đpt ở Frontier, 
 ![Hình 4.7 — Spider chart 5 chiều × 2 mốc thời gian (Advanced, Emerging, SIDS)](figures/fig_4_7_spider_chart.png)
 
 *Hình 4.7. Radar/spider chart cho 3 phân nhóm con (Advanced, Emerging, SIDS) trên 5 chiều (FSTS, Innovation product, R&D, Website, ISO) với 2 mốc thời gian (2009–2012 vs 2018–2025). Quan sát: SIDS có Innovation product cao đột biến + Website tăng mạnh giai đoạn 2018-2025 (digital leapfrog confirmed). Advanced ổn định high level. Emerging: ISO + R&D thay đổi mạnh, FSTS giảm. Tái lập: `generate_figures.py` function `fig_4_7_spider_chart()`.*
+
+#### 4.6.1 Đọc Bảng 4.6 theo từng chỉ số — phân giải năm pattern thời gian
+
+Bảng 4.6 chứa năm chiều thay đổi giữa 2009–2012 và 2018–2025 cho bốn phân nhóm con. Đọc theo từng chỉ số phát hiện năm pattern khác biệt:
+
+**(a) Δ Website — Nhảy vọt số (digital leapfrog) ở Frontier/Emerging/SIDS**: Tăng đồng loạt +20,3 đpt (Emerging) → +22,1 đpt (Frontier) → +35–43 đpt (SIDS), trong khi Upper-middle giảm −9,9 đpt. Pattern này *không phải tăng trưởng số tuyến tính* mà là *bão hòa muộn rồi nhảy vọt*: Frontier/Emerging/SIDS bắt đầu từ tỷ lệ thấp (10–20% website 2009) và đến 2025 đã đạt 30–60%; Upper-middle (Trung Quốc, Malaysia, Thái Lan) đã vượt 60% website từ 2012 và pattern âm có thể là *artifact của schema break BREADY* (cách hỏi về website thay đổi). Nếu "Website" được đo nhất quán xuyên các waves, pattern Upper-middle sẽ flat hoặc tăng nhẹ. Hàm ý cho **H6 (CĐ2)**: tương tác FSTS × Year-bucket có thể có sign khác nhau theo regime.
+
+**(b) Δ Doanh nghiệp xuất khẩu — pattern không monotonic**: Upper-middle +1,4 (gần flat); Emerging −7,5 (giảm); Frontier +1,5 (gần flat); SIDS +6 đến +11 (tăng). Emerging giảm có thể phản ánh hai hiện tượng cùng tồn tại: (a) shift từ assembly export sang services + domestic market (Việt Nam, Indonesia, Philippines); (b) survival bias — doanh nghiệp xuất khẩu yếu rời sample sau COVID. SIDS tăng có thể do Fiji + Maldives mở rộng tourism services exports post-COVID 2022+.
+
+**(c) Δ FDI ≥10% — phổ biến giảm (decline pattern)**: Upper-middle +2,3 (gần flat) là ngoại lệ; Emerging −10,9; Frontier −6,5; SIDS −5 đến −10. Pattern này phù hợp với *deglobalization narrative* (UNCTAD, 2023): tỷ lệ FDI ≥10% giảm phản ánh *nội hóa* (re-shoring, friend-shoring) ở các nước Emerging và Frontier sau COVID + tariff escalation 2018+. SIDS giảm cũng phản ánh withdrawal of mining + telecommunications FDI. Hàm ý cho CĐ2: FDI dummy là biến kiểm soát cần thiết, không phải biến chính, vì pattern này không stable.
+
+**(d) Δ R&D — Đứt gãy schema BREADY là chiếm ưu thế**: Δ R&D Emerging −42,1 đpt là *ngoại lệ kỳ lạ* không thể giải thích bởi thực tế kinh tế (Emerging Asia thực tế *đầu tư R&D nhiều hơn* trong 2018–2025 do AI boom). §4.11 phân tích chi tiết: BREADY 2024-2025 đo R&D bằng *binary* (R&D Y/N với threshold tự định nghĩa) trong khi PICS3 + Standardized đo *continuous* (% doanh thu cho R&D). Khi binary có ngưỡng cao (e.g., "có R&D đáng kể"), tỷ lệ giảm so với continuous (đếm bất kỳ R&D > 0%). Đây là *artifact đo lường* chứ không phải pattern thực tế. Schema FE × year-bucket trong CĐ2 sẽ kiểm soát pattern này.
+
+**(e) Δ ISO — pattern hỗn hợp + Upper-middle giảm bất thường**: Upper-middle −25,4 (giảm mạnh); Emerging +1,9 (gần flat); Frontier +18,5 (tăng); SIDS −20 đến −25 (giảm). Upper-middle giảm có thể phản ánh: (a) các doanh nghiệp lớn đã chứng nhận ISO từ trước 2009 và không cần re-certify trong WBES sample mới; (b) shift sang chứng nhận khác (ISO 27001, IATF 16949) chuyên ngành hơn không được captured trong WBES item b8 generic. Frontier +18,5 phản ánh diffusion của ISO 9001 vào các nước Bangladesh, Pakistan, Lào — quá trình "catching up". SIDS giảm có thể là noise do n nhỏ + survival bias.
+
+#### 4.6.2 Hàm ý cho hệ giả thuyết H6 — Temporal heterogeneity
+
+Bảng 4.6 cung cấp *bằng chứng đa chiều* cho **H6 (Temporal heterogeneity)** trong CĐ2: tác động của FSTS, TCI, DAI lên hiệu quả thay đổi theo bối cảnh thời gian (Year-bucket 2009–2012 / 2013–2017 / 2018–2025). Bốn cơ chế lý thuyết liên quan:
+
+1. **Chuyển đổi số 2018+** (Banalieva & Dhanaraj, 2019; Verhoef et al., 2021): bối cảnh số thay đổi chất lượng tại 2018 với BREADY schema mở rộng module số. Hệ quả: DAI có hiệu lực moderation khác trước và sau 2018 — chính thức được test trong M7 capstone CĐ2.
+
+2. **COVID-19 disruption 2020–2022**: shock toàn cầu làm gián đoạn supply chain, ép quay lại nội hóa (re-shoring), tăng survival pressure cho exporters. Năm tài chính 2020–2022 trong các đợt khảo sát 2023+ chứa thông tin về crisis adaptation.
+
+3. **AI boom 2023+** (Brynjolfsson & McAfee, 2014; Brynjolfsson et al., 2021 — productivity J-curve): hiện diện AI từ ChatGPT (cuối 2022) reshape digital capability landscape. WBES BREADY 2024-2025 đợt khảo sát đầu tiên capture AI-era digital adoption; kết quả này specific cho post-2022 cohort.
+
+4. **Tariff escalation 2018+** (China-US trade war 2018, Việt Nam 2025 tariff uncertainty): bối cảnh thương mại quốc tế thay đổi, tăng switching costs cho exporters và làm I→P relationship phụ thuộc vào market diversification capability.
+
+Bằng chứng neo đậu cho H6 từ ba bản thảo đồng hành:
+- **P3 Việt Nam** (Đỗ & Phan, 2026 — *APJM*): Paternoster z-test cross-wave cho DAI giữa 2009 và 2015 yields z = 3,353 (p < 0,001) — bằng chứng *trực tiếp* cho temporal shift trong DAI effect.
+- **P5 Trung Quốc** (Đỗ & Phan, 2026 — *IJOEM*): Paternoster z-test cho TCI giữa 2012 và 2024 yields z = −2,55 (p = 0,011) — bằng chứng cho TCI strengthening over time. Tuy vậy, FSTS² Paternoster p = 0,545 — bằng chứng cho threshold structural durability, không shift.
+- **P4 Singapore** (Mar et al., 2026 — *MIR*): single wave 2023, không thể test temporal directly trong P4 alone; nhưng pattern Tier 1 saturation gợi ý DAI uniform premium đã giảm so với nhiều thập kỷ trước.
+
+Tổng hợp: H6 không đồng nghĩa "tất cả tham số thay đổi theo thời gian"; pattern thực tế là *partial temporal heterogeneity* — một số tham số (DAI in Vietnam, TCI in China) thay đổi đáng kể; những tham số khác (FSTS² in China) bền vững. CĐ2 §6.9 (M7 capstone) sẽ test đồng thời các kênh này.
+
+#### 4.6.3 Pattern consistency với khung CDCM
+
+Bảng 4.6 đa chiều cho thấy *pattern consistency* với khung CDCM phát hiện trong CĐ1 và formalized trong CĐ2 §2.5:
+
+- **Frontier digital leapfrog** (+22,1 đpt website) trong khi vẫn giữ Δ R&D âm: gợi ý DAI Tier 1 đi trước TCI multi-component — *digital adoption không tự động đi kèm capability building* (CDCM corollary).
+- **Upper-middle Δ Website âm và Δ ISO âm** đồng thời: cohort transition vào WBES sample của các doanh nghiệp nhỏ hơn (post-2018 BREADY mở rộng coverage SME) — phản ánh *ngữ cảnh thay đổi sample composition*, không phải bão hòa tiến triển.
+- **SIDS Δ Website +35–43 đpt + ISO −20 đến −25 đpt**: pattern *adaptation digital không kèm formal certification* — characteristic của boundary case kinh tế đảo nhỏ. CDCM dimension thứ ba (digital saturation) không tương đương ở SIDS với Advanced.
+
+Hàm ý cho specification CĐ2: Year-bucket là biến kiểm soát quan trọng nhưng *tương tác* (FSTS × Year-bucket; DAI × Year-bucket) cần được giới hạn ở các kết hợp có lý thuyết support, không phải fully saturated; nếu không, model sẽ over-fit và mất power statistic.
 
 ### 4.7 Tổng hợp Chương 4 (mở rộng D4 — 10 kết luận chính)
 
