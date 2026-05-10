@@ -112,3 +112,6 @@ The threshold result is robust to several specification variations available wit
 **Excluding the 217 panel firms from the 2024 wave** (yielding a strictly cross-sectional pool of N = 4,358 sample_base observations) changes the pooled turning-point estimate from 48.78 % to 46.88 % — a 1.9 percentage-point shift — and leaves the Paternoster z-tests unchanged in both sign and significance. The shift is modest and remains well within the 95 % delta-method CI of the main estimate.
 
 We do not report weighted estimation (`wmedian`) as a separate specification in this version; this is computationally feasible from the WBES weight variables but requires careful treatment of the panel-firm cluster structure that is beyond the scope of the present revision. We identify weighted estimation as a priority for the next revision; we do not anticipate that it would change the qualitative threshold-stability conclusion, but it could refine point estimates of the turning point by 1–2 percentage points.
+
+## Acknowledgements
+We thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the data.
