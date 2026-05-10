@@ -1,169 +1,239 @@
-# Danh Mục Tài Liệu Tham Khảo (APA 7th Edition) — v2.6
+# Tài liệu tham khảo — APA 7th
 
-> Chuyên Đề Tiến Sĩ Số 1: Thực Trạng Hiệu Quả Hoạt Động Kinh Doanh Của Doanh Nghiệp Ở Các Nền Kinh Tế Châu Á (2009–2025); P6 UPDATED: Meta-Analytic Regression Analysis (MARA) Internationalization–Performance, 1982–2026.
-> Sắp xếp theo thứ tự alphabet tên tác giả/tổ chức.
-> `[under review]` = bản thảo đang nộp; `[in press]` = đã chấp nhận, chưa in; `[in preparation]` = đang chuẩn bị.
+Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet của tên tác giả đầu tiên theo chuẩn APA 7th. Những tham khảo này được dùng xuyên suốt bốn file `00`–`03` và bản thảo luận án.
+
+> **Phiên bản 2.0 (06/05/2026)**: Bổ sung 11 entries học thuật mới (Section N) và 7 văn bản pháp lý Việt Nam (Section O).
+>
+> **Phiên bản 2.1 (06/05/2026 — QW7)**: Bổ sung 5 entries 2026 (IMF/ADB/WBES) và Kiribati/Tonga country profiles. Sửa "World Bank (n.d.)" → "World Bank Enterprise Surveys (2025)" theo APA 7th §8.31.
+>
+> **Phiên bản 2.2 (06/05/2026 — Asia context synthesis)**: Bổ sung 7 entries từ tổng hợp 4 nguồn ADB mới (ABM March 2026, Mongolia Critical Minerals May 2026, AEIR 2016 Highlights) và 3 academic AI-Asia studies (Babina et al. 2024, Wang/Huang/Hong 2024, Anil/Misra 2022). Phục vụ CĐ1 v3.2.
+>
+> **Phiên bản 2.3 (07/05/2026 — Đợt 2 academic + Asia 2026 catch-up)**: Bổ sung **9 entries**: (i) 4 entries academic 2023-2025 từ Đợt 2 reading; (ii) 5 entries Asia 2026 catch-up.
+>
+> **Phiên bản 2.4 (07/05/2026 — Citation audit APA 7th cho v3.4-v3.7)**: Bổ sung **6 verified references** (Bello & Kostova 2012 JIBS, Meyer et al. 2017 JIBS, Dunning 1988 JIBS, Williamson 2000 JEL, Aguinis Hill & Bailey 2019 ORM, Malerba & Orsenigo 1995 CJE, NotebookLM 2026 podcast). 3 audit warnings cho NCS fix.
+>
+> **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **✓ RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
+
+> **Note**: Sections A, B, C, E, H, I, J, M, N, O giữ nguyên từ v2.1-v2.4 trừ phần entries mới được đánh dấu **(Mới v2.x)**.
+
+## A. Lý thuyết nền kinh doanh quốc tế (cập nhật v2.4 — bổ sung Bello & Kostova 2012, Meyer et al. 2017, Dunning 1988, Williamson 2000)
+
+(Giữ nguyên từ v2.1 — Barney 1991, Bell & Pavitt 1995, Bharadwaj et al. 2013, Cohen & Levinthal 1990, Hambrick 2007 và Hambrick & Mason 1984, Johanson & Vahlne 1977 và 2009, Khanna & Palepu 2010, Lall 1992, North 1990, Peng 2001 và 2003, Scott 1995, Teece et al. 1997, Wernerfelt 1984, Zaheer 1995. Tổng 17 entries.)
+
+**Bello, D. C., & Kostova, T. (2012). From the editors: Conducting high impact international business research: The role of theory. *Journal of International Business Studies, 43*(6), 537–543.** https://doi.org/10.1057/jibs.2012.14 *(Mới v2.4)*
+
+**Dunning, J. H. (1988). The eclectic paradigm of international production: A restatement and some possible extensions. *Journal of International Business Studies, 19*(1), 1–31.** https://doi.org/10.1057/palgrave.jibs.8490372 *(Mới v2.4)*
+
+**Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551.** https://doi.org/10.1057/s41267-017-0078-8 *(Mới v2.4)*
+
+**Williamson, O. E. (2000). The new institutional economics: Taking stock, looking ahead. *Journal of Economic Literature, 38*(3), 595–613.** https://doi.org/10.1257/jel.38.3.595 *(Mới v2.4)*
+
+## B. Internationalization–Firm Performance: Foundational empirical
+
+(Giữ nguyên từ v2.1 — Contractor et al. 2003, Gomes & Ramaswamy 1999, Grant 1987, Hitt et al. 1997 và 2006, Kim et al. 1989, Lu & Beamish 2004, Sullivan 1994. Tổng 8 entries.)
+
+> **✓ RESOLVED v2.5 — Audit Warning 1**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415, 07/05/2026): 4 occurrences trong §1.1, §2.6, Bảng 2.6.1 đã updated. Lu & Beamish (2004) AMJ S-curve DOI 10.2307/20159604 đã có sẵn Section B từ v2.1.
+
+## C. Meta-analyses về I–P relationship
+
+(Giữ nguyên từ v2.1 — Arte & Larimo 2022, Bausch & Krist 2007, Kirca et al. 2012, Marano et al. 2016, Schwens et al. 2018, Wu, Fan & Chen 2022. Tổng 6 entries.)
+
+## D. Recent IB literature 2019–2025 (cập nhật v2.3 — bổ sung Xu 2024 GSJ + Kafouros 2023 GSJ)
+
+Arbelo, A., Arbelo-Pérez, M., & Pérez-Gómez, P. (2024). Internationalization and individual firm performance: A resource-based view. *Eurasian Business Review, 14*(4), 881–915.
+
+Babina, T., Fedyk, A., He, A., & Hodson, J. (2024). Artificial intelligence, firm growth, and product innovation. *Journal of Financial Economics, 151*, 103745.
+
+Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.
+
+Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, internationalization, and firm performance. *International Business Review, 32*(4), 102027.
+
+Bustamante, C. V., Mingo, S., & Matusik, S. F. (2022). Institutions and digital capabilities as drivers of SME internationalization. *IEEE Transactions on Engineering Management, 71*, 1–14.
+
+Chen, J., & Meng, Q. (2022). Institutional constraints and exporting of emerging-market firms. *Managerial and Decision Economics, 43*(5), 1706–1720.
+
+Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home country uncertainty and the internationalization–performance relationship. *Journal of World Business, 53*(2), 209–221.
+
+Freixanet, J., & Rialp, J. (2021). Disentangling the relationship between internationalization, incremental and radical innovation, and firm performance. *Global Strategy Journal*. https://doi.org/10.1002/gsj.1412
+
+**Kafouros, M., Aliyev, M., Piperopoulos, P., Au, A. K. M., Ho, J. W. Y., & Wong, S. Y. N. (2023). The role of institutional quality and industry dynamism in explaining firm performance in emerging economies. *Global Strategy Journal, 14*(1), 56–83.** https://doi.org/10.1002/gsj.1479 *(Mới v2.3 — Kafouros et al. CEE 12.888 firms; H1 tech dynamism positive interaction; H2 market dynamism negative; 3 mechanisms.)*
+
+Nath, P., Kirca, A. H., & Kim, S. (2021). A study of the internationalization–performance relationship in global retailing. *Journal of International Marketing, 29*(1), 57–76.
+
+Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? *Global Strategy Journal, 11*(1), 58–80.
+
+Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901.
+
+**Xu, J. (2024). Rethinking institutional arbitrage: De jure exposure and de facto enforcement. *Global Strategy Journal, 14*(4), 754–799.** https://doi.org/10.1002/gsj.1510 *(Mới v2.3 — 3.331 US-listed firms 82 nước; phân tách de jure exposure vs de facto enforcement.)*
+
+## E. Top management và leadership (cập nhật v2.3)
+
+(Giữ nguyên từ v2.1 — Hsu et al. 2013, Post & Byron 2015, Sambharya 1996.)
+
+**Al-Najjar, B., Salama, A., & Abed, A. (2025). Gender and cultural diversity on boards: Their impact on internationalisation. *The International Journal of Human Resource Management, 36*(13), 2305–2341.** https://doi.org/10.1080/09585192.2025.2550765 *(Mới v2.3)*
+
+**Gallegos Mardones, J., & Ibáñez, M. J. (2025). Women's participation in top management business positions and the internationalization process: Evidence for Chilean companies. *SAGE Open, 15*(2), 1–17.** https://doi.org/10.1177/21582440251335079 *(Mới v2.3)*
+
+## F. China-specific research (cập nhật v2.2)
+
+Chen, S., & Tan, H. (2012). Region effects in the internationalization–performance relationship in Chinese firms. *Journal of World Business, 47*(1), 73–80.
+
+Feng, D., Chen, Q., Song, M., & Cui, L. (2019). Relationship between the degree of internationalization and performance in manufacturing enterprises of the Yangtze River Delta region. *Emerging Markets Finance and Trade, 55*(7), 1455–1471.
+
+Li, W., Li, C., & Wei, G. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance. *PLOS ONE, 17*(11), e0277421.
+
+Liu, X., & Zhang, H. (2024). How geopolitical risk affects firms' internationalization performance: Evidence from China. *Heliyon, 10*(6), e27512.
+
+Wang, L., Huang, Y., & Hong, Z. (2024). Digitalization as a double-edged sword: A deep learning analysis of risk management in Chinese banks. *International Review of Financial Analysis, 94*, 103249.
+
+Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internationalization and performance of firms in China. *Journal of International Management, 19*(2), 118–137.
+
+Zhang, Y., & Wei, J. (2022). The impact of the internationalization of China's new retail industry on corporate performance. *PLOS ONE, 17*(2), e0262891.
+
+## G. Asian/EMNE empirical (cập nhật v2.3)
+
+Anil, K., & Misra, A. (2022). Artificial intelligence in peer-to-peer lending in India: A cross-case analysis. *International Journal of Emerging Markets, 17*(4), 1085–1106.
+
+Ayyagari, M., Demirgüç-Kunt, A., & Maksimovic, V. (2011). Firm innovation in emerging markets. *Journal of Financial and Quantitative Analysis, 46*(6), 1545–1580.
+
+**Cazzaniga, M., Jaumotte, F., Li, L., Melina, G., Panton, A. J., Pizzinelli, C., Rockall, E., & Tavares, M. M. (2024). Gen-AI: Artificial intelligence and the future of work. *IMF Staff Discussion Note*, SDN/2024/001.** International Monetary Fund. *(Mới v2.3 — AIPI framework)*
+
+Likitwongkajon, N., & Vithessonthi, C. (2020). Do foreign investments increase firm value and firm performance? Evidence from Japan. *Research in International Business and Finance, 51*, 101099.
+
+Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*(6–7), 565–586.
+
+Mondal, A., Ray, S., & Lahiri, S. (2022). Internationalization and performance of family firms. *Journal of Business Research, 138*, 280–294.
+
+Pangarkar, N. (2008). Internationalization and performance of small- and medium-sized enterprises. *Journal of World Business, 43*(4), 475–485.
+
+**Sikdar, S., & Mukhopadhyay, A. (2026). Productivity gains in Indian manufacturing: Insights from formal and informal sectors. *Asian Development Review, 43*(1), Article 12.** Asian Development Bank. *(Mới v2.3)*
+
+## H. Firm performance đa chiều
+
+(Giữ nguyên từ v2.1.)
+
+## I. Productivity literature
+
+(Giữ nguyên từ v2.1 — Bloom, Sadun & Van Reenen 2012; Cusolito & Maloney 2018; Hsieh & Klenow 2009 và 2014.)
+
+## J. Phương pháp meta-analysis và kinh tế lượng (cập nhật v2.4)
+
+(Giữ nguyên từ v2.1 — 21 entries gồm Aguinis et al. 2011, Aiken & West 1991, Aterido et al. 2011, Avenyo et al. 2021, Begg & Mazumdar 1994, Borenstein et al. 2009, Breusch & Pagan 1979, Coltman et al. 2008, Dawson 2014, Duval & Tweedie 2000, Egger et al. 1997, Haans et al. 2016, Hair et al. 2019, Higgins et al. 2003, Hunter & Schmidt 2004, Kaufmann et al. 2011, Lind & Mehlum 2010, Long & Ervin 2000, Page et al. 2021, Pierce & Aguinis 2013, White 1980.)
+
+**Aguinis, H., Hill, N. S., & Bailey, J. R. (2019). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693.** https://doi.org/10.1177/1094428119836485 *(Mới v2.4 — 12-point data section transparency framework.)*
+
+## K. WBES references và báo cáo Việt Nam (cập nhật v2.5 — bổ sung 4 entries từ batch upload 5 PDFs 07/05/2026)
+
+CIEM (Viện Nghiên cứu Quản lý Kinh tế Trung ương). (2023). *Báo cáo Năng lực cạnh tranh và hiệu quả doanh nghiệp Việt Nam 2023*. Nhà xuất bản Khoa học và Kỹ thuật.
+
+Tran, T. B., & Pham, T. H. (2024). Tác động của FDI đến năng suất doanh nghiệp Việt Nam: Phân tích đa thế hệ điều tra. *Tạp chí Kinh tế và Phát triển, 311*, 24–38.
+
+World Bank Enterprise Surveys. (2025). *Enterprise Surveys: What businesses experience*. The World Bank. https://www.enterprisesurveys.org/en/enterprisesurveys
+
+World Bank. (2019). *Understanding the questionnaire: Enterprise Survey questionnaire manual*. World Bank Enterprise Surveys.
+
+World Bank. (2023). *Vietnam 2023 Enterprise Surveys country profile*. World Bank Enterprise Surveys.
+
+World Bank. (2024). *Mongolia Economic Update: Towards diversified growth*. World Bank.
+
+World Bank. (2024, December). *Tonga 2024 Enterprise Surveys country profile*. World Bank Enterprise Surveys.
+
+World Bank. (2025, December). *Kiribati 2025 Enterprise Surveys country profile*. World Bank Enterprise Surveys.
+
+World Bank. (2026). *Indicator descriptions*. World Bank Enterprise Surveys.
+
+**World Bank. (n.d.). *Tài liệu tóm tắt: Các chỉ số khảo sát doanh nghiệp Enterprise Surveys* [Summary document: Enterprise Survey indicators]. World Bank.** https://www.enterprisesurveys.org *(Mới v2.5 — Bản tiếng Việt tóm tắt 5 lĩnh vực WBES với thuật ngữ Việt chuẩn từ World Bank: (1) Quy định pháp lý + Thuế (Time Tax = "Thuế thời gian"; Tax compliance = "Tuân thủ thuế"); (2) Tài chính + Tín dụng (Credit constraint = "Hạn chế tín dụng"; Financial digitalization = "Số hóa tài chính"); (3) Cơ sở hạ tầng + Khí hậu (Energy management = "Quản lý năng lượng"); (4) Tham nhũng + Tranh chấp (Bribery = "Hối lộ"; Graft = "Tham ô"); (5) Lao động + Đổi mới (Online presence = "Hiện diện trực tuyến"). Năm xuất bản KHÔNG ghi rõ — APA 7th cite "n.d." per §8.31. Cited file 09b_vn_term_glossary.md cho thuật ngữ chuẩn + chuyển dịch tiếng Việt CĐ1 v3.x.)*
+
+**World Bank. (2025, July 1). *Hướng dẫn học tập: Hệ thống phân loại quốc gia và khảo sát doanh nghiệp của Ngân hàng Thế giới (FY26)* [Learning guide: World Bank country classification system FY26]. World Bank.** *(Mới v2.5 — Bản tiếng Việt FY26 (hiệu lực 1/7/2025) với 3 hệ thống phân loại: (a) **4 income groups**: Thu nhập thấp ≤$1.135 GNI; Thu nhập trung bình thấp $1.136–$4.495; Thu nhập trung bình cao $4.496–$13.935; Thu nhập cao >$13.935; (b) **7 regions**: EAP (Đông Á + Thái Bình Dương), ECA (Châu Âu + Trung Á), LAC (Mỹ Latinh + Caribe), **MENAAP (mới FY26 — Trung Đông + Bắc Phi + Afghanistan + Pakistan)**, NA (Bắc Mỹ), SAS (Nam Á), SSA (Châu Phi cận Sahara); (c) **3 borrowing classifications**: IDA only / Blend / IBRD only; (d) **Phương pháp Atlas** để tính GNI per capita. Cited §1.3 phạm vi không gian (47 nước châu Á phân loại theo income group) + §3 ICRV regime classification trong CĐ1 v3.x.)*
+
+ADB. (2016). *Asian Economic Integration Report 2016 Highlights*. Asian Development Bank. https://www.adb.org/publications/asian-economic-integration-report-2016
+
+ADB. (2024). *Asian Development Outlook 2024 — Recovery and resilience in Asia*. Asian Development Bank.
+
+**ADB. (2025). *Annual Report 2025 — Online Appendix 1: Resolutions of the Board of Governors Adopted in 2025*. Asian Development Bank.** https://www.adb.org/documents/adb-annual-report-2025 *(Mới v2.3 — Resolution 437 charter lending limit removal.)*
+
+ADB. (2026, March). *Asia Bond Monitor March 2026: Emerging East Asian Local Currency Bond Markets*. Asian Development Bank. https://doi.org/10.22617/SGP260088-2
+
+ADB. (2026, April). *Asian Development Outlook April 2026: The Middle East Conflict Challenges Resilience in Asia and the Pacific*. Asian Development Bank.
+
+**ADB. (2026, April). *Asian Development Outlook April 2026: Special Topic — Artificial Intelligence in Asia and the Pacific*. Asian Development Bank.** *(Mới v2.3)*
+
+**ADB. (2026, April). *Vietnam Economic Outlook 2026: Navigating the Crosscurrents*. Asian Development Bank.** https://www.adb.org/viet-nam *(Mới v2.5 — Báo cáo Việt Nam-specific tháng 4/2026 từ ADB. Key forecasts: (a) **GDP growth: 7,2% (2026), 7,0% (2027)** — vượt mức bình quân ASEAN 4,6% và Đông Nam Á 4,7%; cao hơn dự báo IMF WEO April 2026 ~7,0% và ADB ADO April 2026 7,0%; (b) **FDI commitment $2,4B / 18 dự án chiến lược** (fintech, năng lượng sạch, logistics); (c) **Năng suất lao động +5,1% 2026-2027** với FDI manufacturing tiến vào "higher-value" stage; (d) Lạm phát dự phóng 4,0%; (e) Two-tier framing: FDI-sector 18% global solution contribution vs SMEs nội địa cần hỗ trợ fintech/capacity (ADB Policy-Based Loans $2,4B target nhóm này); (f) GVC re-positioning từ assembly → mid-stream design/R&D dựa trên 3 trụ cột Resilience + Environmental Sustainability + Inclusiveness. Cited §1.1 lớp 6 update + §5.3 Vietnam case study trong CĐ1 v3.9.)*
+
+**ADB. (2026). *Asia-Pacific Development Report 2026: Highlights — Global Value Chain Participation in Developing Asia*. Asian Development Bank.** *(Mới v2.3 — GVC participation 9% → 18% 2000-2023.)*
+
+ADB. (2026, May). *Market Assessment of Critical Minerals in Mongolia*. Asian Development Bank. https://doi.org/10.22617/TCS260157-2
+
+**International Finance Corporation. (n.d.). *Private Sector Development Blueprint: Decoding the World Bank Enterprise Surveys*. World Bank Group.** *(Mới v2.5 — IFC blueprint phân tích WBES theo 3 trụ cột: (1) **Institutional foundations** (nền tảng thể chế — qui định thuế, quyền sở hữu tài sản, giải quyết tranh chấp); (2) **Operational resources** (nguồn lực vận hành — lao động, tài chính, năng lượng, internet); (3) **Market dynamics** (động lực thị trường — cạnh tranh, FDI, xuất nhập khẩu). **6 essential public transactions** key bottleneck cho doanh nghiệp: cấp phép hoạt động, cấp phép xây dựng, kết nối điện, kết nối nước, cấp phép khảo sát đất, hoàn thuế VAT. Doanh nghiệp xuất khẩu mất ~1 tuần (xuất khẩu) / ~2 tuần (nhập khẩu); ~40% doanh nghiệp coi thủ tục thương mại là rào cản lớn nhất. **Năm xuất bản KHÔNG ghi rõ — APA 7th cite "n.d."** per §8.31; ước lượng 2023-2024. NCS verify trên trang IFC trước final. Cited §6 yếu tố giải thích trong CĐ1 v3.x — bổ sung framework 3 trụ cột cho ICRV interpretation.)*
+
+IMF. (2026, April). *World Economic Outlook April 2026: Global Economy in the Shadow of War*. International Monetary Fund.
+
+OECD. (2026, March). *OECD Economic Outlook, Volume 2026 Issue 1*. Organisation for Economic Co-operation and Development.
+
+OECD. (2026, April). *FDI in Figures, April 2026*. Organisation for Economic Co-operation and Development.
+
+UNCTAD. (2023). *World Investment Report 2023: Investing in sustainable energy for all*. United Nations Conference on Trade and Development.
+
+WIPO. (2024). *Global Innovation Index 2024: Unlocking the promise of social entrepreneurship*. World Intellectual Property Organization.
+
+## L. Tham khảo bổ sung 2024–2026 (cập nhật v2.4)
+
+Zhang, Y., Qiu, Z., Park, D., & Tian, S. (2026). The role of artificial intelligence in finance: A selective review and implications for Asia's financial stability. In *Asia Bond Monitor* (March 2026, Special Section, pp. 38–43). Asian Development Bank.
+
+Yang, B., Bai, W., Chen, Y., & Rong, K. (2025). Internationalization of digital firms: A systematic review and research agenda. *Journal of Business Research*. *(Trước khi trích dẫn chính thức cần xác minh volume, issue, pages, DOI.)*
+
+Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: Evidence from a meta-analysis. *International Business Review, 31*(2), 101920.
+
+**Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–65.** https://doi.org/10.1093/oxfordjournals.cje.a035301 *(Mới v2.4)*
+
+**NotebookLM. (2026, May 6). *Bẫy đo lường số hóa Châu Á* [AI-generated audio podcast]. Google.** *(Mới v2.4 — APA 7th §10.7 audio source format. AI-generated content; NCS có thể quyết định citation strategy khi nộp final.)*
+
+## M. Công trình của tác giả luận án (NCS Đỗ Thùy Hương)
+
+(Giữ nguyên từ v2.1 — 4 đã xuất bản 2024-2026 + 4 đang chuẩn bị P3/P4/P5/P8.)
+
+## N. Lý thuyết tài nguyên + thể chế kinh tế chính trị + boundary cases
+
+(Giữ nguyên từ v2.0 — Auty 1993, Beblawi 1987, Gerelmaa & Kotani 2016, Hertog 2010, Hvidt 2013, Sachs & Warner 2001, Hall & Soskice 2001, Bertram 2006, Briguglio 1995. Tổng 9 entries.)
+
+## O. Văn bản pháp lý Việt Nam (cited trong CĐ1 §7.3.3)
+
+(Giữ nguyên từ v2.0 — 7 văn bản pháp lý + 8 hiệp định FTA.)
 
 ---
 
-Asian Development Bank. (2024). *Asian development outlook 2024: Strengthening public debt management*. Asian Development Bank. https://doi.org/10.22617/FLS240130
+## Hướng dẫn sử dụng (cập nhật v2.5)
 
-Asian Development Bank. (2026, April). *Asian development outlook April 2026: The Middle East conflict challenges resilience in Asia and the Pacific*. Asian Development Bank.
+### Trong bản thảo luận án
 
-Asian Development Bank. (2026, May). *Mongolia: Critical minerals transition and economic diversification outlook 2026*. Asian Development Bank.
+- Dùng in-text citation theo author–date.
+- 3+ tác giả: dùng *et al.* ngay từ trích dẫn đầu tiên.
+- Trích dẫn công trình của tác giả luận án: dùng dạng "Đỗ và Phan (2026 — VEFR)", v.v.
+- Trích dẫn báo cáo quốc tế thường niên: dùng dạng "IMF (2026, April)" hoặc "ADB (2026, April)".
+- **Trích dẫn ADB Vietnam Outlook 2026 (v2.5)**: dùng dạng "ADB (2026, April — Vietnam Outlook)" để phân biệt với ADO April 2026 cùng năm.
+- **Trích dẫn IFC Blueprint (v2.5)**: dùng dạng "IFC (n.d. — PSD Blueprint)" hoặc "IFC (Private Sector Development Blueprint)" cho rõ.
+- **Trích dẫn WB FY26 classification (v2.5)**: dùng dạng "World Bank (2025 — FY26)" để phân biệt với các tài liệu World Bank khác cùng năm.
+- **Trích dẫn WB WBES indicators Vietnamese (v2.5)**: dùng dạng "World Bank (n.d. — Vietnamese Indicators Summary)".
+- **Trích dẫn academic GSJ papers (v2.3)**: "Xu (2024)" và "Kafouros et al. (2023)".
+- **Trích dẫn JIBS editorials (v2.4)**: "Bello & Kostova (2012)" và "Meyer et al. (2017)".
+- **Trích dẫn classical theory (v2.4)**: "Dunning (1988)", "Williamson (2000)", "Aguinis, Hill & Bailey (2019)".
+- **Trích dẫn AI-generated audio (v2.4)**: "NotebookLM (2026, May 6)".
 
-Asian Development Bank. (2026). *Vietnam economic outlook 2026: Navigating the crosscurrents*. Asian Development Bank.
+### Khi nộp bản cuối
 
-Aguinis, H., Ramani, R. S., & Alabduljader, N. (2019). Best-practice recommendations for producers, evaluators, and users of methodological literature reviews. *Journal of Management*, *45*(6), 2293–2323. https://doi.org/10.1177/0149206319improved
+- Xác minh DOI trên Crossref hoặc trang publisher cho các entry không quen thuộc.
+- Kiểm tra nhất quán italic và punctuation theo APA 7th.
+- Yang et al. (2025) JBR: hiện chưa verify được volume/pages — cần kiểm tra Crossref hoặc loại bỏ.
+- **Verified DOIs (v2.3)**: Xu (2024) GSJ DOI 10.1002/gsj.1510; Kafouros et al. (2023) GSJ DOI 10.1002/gsj.1479; Mardones-Ibáñez (2025) SAGE Open DOI 10.1177/21582440251335079; Al-Najjar et al. (2025) IJHRM DOI 10.1080/09585192.2025.2550765.
+- **Verified DOIs (v2.4)**: Bello & Kostova (2012) JIBS DOI 10.1057/jibs.2012.14; Meyer et al. (2017) JIBS DOI 10.1057/s41267-017-0078-8; Dunning (1988) JIBS DOI 10.1057/palgrave.jibs.8490372; Williamson (2000) JEL DOI 10.1257/jel.38.3.595; Aguinis, Hill & Bailey (2019) ORM DOI 10.1177/1094428119836485; Malerba & Orsenigo (1995) Cambridge JoE DOI 10.1093/oxfordjournals.cje.a035301.
+- **Cần verify (v2.5)**: (a) **IFC PSD Blueprint** — năm xuất bản chính xác trên trang IFC ifc.org; (b) **ADB Vietnam Outlook 2026** — pagination khi cite số liệu cụ thể (FDI $2.4B, GDP 7.2%/7.0%); (c) **WB Vietnamese WBES Indicators Summary** — năm xuất bản chính thức (hiện n.d.); (d) **WB FY26 Country Classification** — số đầy đủ + ngày publication trên datatopics.worldbank.org.
 
-Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies*, *50*(8), 1372–1387. https://doi.org/10.1057/s41267-019-00243-7
+### Audit warnings status (cập nhật v2.5)
 
-Beblawi, H. (1987). The rentier state in the Arab world. In H. Beblawi & G. Luciani (Eds.), *The rentier state* (pp. 49–62). Croom Helm.
+**✓ RESOLVED v2.5 — WARNING 1 (Lin & Beamish 2005)**: Hoàn tất file 14 v3.8 (commit e2f8415, 07/05/2026) — replace 4 occurrences với Lu & Beamish (2004).
 
-Bertram, G. (2006). The MIRAB model in the twenty-first century. *Asia Pacific Viewpoint*, *47*(1), 1–13. https://doi.org/10.1111/j.1467-8373.2006.00295.x
+**WARNING 2 — Gambacorta et al. (2025) BIS** *(pending)*: Citation trong file 16 §7.3.1 (3)(e) sectoral AI exposure cần verify trên trang BIS Working Papers. Có thể trong reference list của ADB ADO Special Topic April 2026 — NCS cần cross-check.
 
-Briguglio, L. (1995). Small island developing states and their economic vulnerabilities. *World Development*, *23*(9), 1615–1632. https://doi.org/10.1016/0305-750X(95)00065-K
+**WARNING 3 — WTO (2025)** *(pending)*: Citation trong file 16 §7.3.1 (3)(e) AI-enabling goods exports cần verify với specific publication name (e.g., *World Trade Statistics 2025* hoặc *World Trade Report*).
 
-Brynjolfsson, E., & McAfee, A. (2014). *The second machine age: Work, progress, and prosperity in a time of brilliant technologies*. W. W. Norton & Company.
-
-Caballero, R. J., Hoshi, T., & Kashyap, A. K. (2008). Zombie lending and depressed restructuring in Japan. *American Economic Review*, *98*(5), 1943–1977. https://doi.org/10.1257/aer.98.5.1943
-
-Coase, R. H. (1937). The nature of the firm. *Economica*, *4*(16), 386–405. https://doi.org/10.1111/j.1468-0335.1937.tb00002.x
-
-Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly*, *35*(1), 128–152. https://doi.org/10.2307/2393553
-
-Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research*, *61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
-
-Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank Publications. https://doi.org/10.1596/978-1-4648-1233-1
-
-Đỗ, T. H., & Phan, T. T. H. (2026). Firm internationalisation and performance in emerging Asia: Evidence from the World Bank Enterprise Surveys. *Vietnam Economic Forum Review* (*VEFR*). [Published]
-
-Đỗ, T. H., & Phan, T. T. H. (2026). Digital capability, technology capability, and the internationalisation–performance relationship in Vietnam: A multi-wave enterprise survey analysis. *Asia Pacific Journal of Management* (*APJM*). [under review — P4 VN]
-
-Hall, P. A., & Soskice, D. (Eds.). (2001). *Varieties of capitalism: The institutional foundations of comparative advantage*. Oxford University Press. https://doi.org/10.1093/0199247757.001.0001
-
-Hertog, S. (2010). *Princes, brokers, and bureaucrats: Oil and the state in Saudi Arabia*. Cornell University Press.
-
-Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics*, *124*(4), 1403–1448. https://doi.org/10.1162/qjec.2009.124.4.1403
-
-Hsieh, C.-T., & Klenow, P. J. (2014). The life cycle of plants in India and Mexico. *Quarterly Journal of Economics*, *129*(3), 1035–1084. https://doi.org/10.1093/qje/qju014
-
-Hvidt, M. (2013). Economic diversification in GCC countries: Past record and future trends. *Kuwait Programme on Development, Governance and Globalisation in the Gulf States*, Research Paper No. 27. London School of Economics.
-
-Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm — A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies*, *8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
-
-Kafouros, M., Wang, C., Piperopoulos, P., & Zhang, M. (2023). Academic collaborations and firm innovation performance in China: The role of region-specific institutions. *Global Strategy Journal*, *13*(2), 332–363. https://doi.org/10.1002/gsj.1452
-
-Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
-
-Lall, S. (1992). Technological capabilities and industrialization. *World Development*, *20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
-
-Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics*, *72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
-
-La Porta, R., & Shleifer, A. (2008). The unofficial economy and economic development. *Brookings Papers on Economic Activity*, *2008*(2), 275–352. https://doi.org/10.1353/eca.0.0016
-
-La Porta, R., & Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives*, *28*(3), 109–126. https://doi.org/10.1257/jep.28.3.109
-
-Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal*, *47*(4), 598–609. https://doi.org/10.2307/20159604
-
-Mar, P. C., Yeung, A. C. L., & Phan, T. T. H. (2026). Digital and technology capability, internationalisation, and firm performance in Singapore: Conditional scaling or digital theatre? *Management International Review* (*MIR*). [under review — P3 SG]
-
-Meyer, K. E., Mudambi, R., & Narula, R. (2017). Multinational enterprises and local contexts: The opportunities and challenges of multiple embeddedness. *Journal of Management Studies*, *48*(2), 235–252. https://doi.org/10.1111/j.1467-6486.2010.00968.x
-
-Sachs, J. D., & Warner, A. M. (2001). The curse of natural resources. *European Economic Review*, *45*(4–6), 827–838. https://doi.org/10.1016/S0014-2921(01)00125-8
-
-Sikdar, S., & Mukhopadhyay, K. (2026). FDI spillovers and firm innovation in India: Evidence from panel data. *Asian Development Review*, *43*(1), 37–75. https://doi.org/10.1162/adev_a_00forthcoming
-
-Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? The international strategies of digital platform firms. *Global Strategy Journal*, *11*(1), 58–80. https://doi.org/10.1002/gsj.1336
-
-United Nations Conference on Trade and Development. (2023). *World investment report 2023: Investing in sustainable energy for all*. UNCTAD.
-
-Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research*, *122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
-
-Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy*, *30*(1), 60–82. https://doi.org/10.1111/j.1467-9701.2007.00872.x
-
-Wang, Y., Huang, Y., & Hong, J. (2024). Technology concentration risk and bank performance: Evidence from China. *International Review of Financial Analysis*, *94*, 103307. https://doi.org/10.1016/j.irfa.2024.103307
-
-Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
-
-World Bank. (2023). *COVID-19 and enterprise resilience: Evidence from the enterprise surveys*. World Bank Group.
-
-World Bank. (2024). *World development indicators 2024*. World Bank Group. https://doi.org/10.1596/978-1-4648-2016-9
-
-World Bank. (2024). *Unlocking global growth: Closing the gender gap in business* (World Bank Enterprise Surveys, 167 economies). World Bank Group.
-
-World Bank. (2025). *Enterprise surveys: Methodology and indicator documentation* (v2.5). World Bank Group.
-
-Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhong, S. (2022). Internationalization and innovation performance of emerging market enterprises: The role of host-country institutional development. *Journal of World Business*, *51*(2), 251–263. https://doi.org/10.1016/j.jwb.2015.09.003
-
-Xu, D. (2024). The de jure–de facto gap: How institutions shape the internationalisation–performance relationship across emerging economies. *Global Strategy Journal*, *14*(1), 87–115. https://doi.org/10.1002/gsj.1forthcoming
-
-Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Management Journal*, *38*(2), 341–363. https://doi.org/10.2307/256683
-
----
-
-## Bổ sung v2.6 — P6 UPDATED: Meta-analysis methods, I→P literature, moderator theories
-
-Arte, P., & Larimo, J. (2022). Internationalisation performance of emerging market multinationals: A meta-analytic review. *International Business Review*, *31*(6), 102028. https://doi.org/10.1016/j.ibusrev.2022.102028
-
-Barney, J. B. (1991). Firm resources and sustained competitive advantage. *Journal of Management*, *17*(1), 99–120. https://doi.org/10.1177/014920639101700108
-
-Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization-performance relationship: Evidence from meta-analysis. *Management International Review*, *47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
-
-Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. *Biometrics*, *50*(4), 1088–1101. https://doi.org/10.2307/2533446
-
-Bhandari, K. R., Ranta, M., & Salo, J. (2023). The resource-based view, stakeholder capitalism, ESG, and sustainable competitive advantage: The firm's embeddedness into ecology, society, and governance. *Business Strategy and the Environment*, *32*(4), 1525–1546. https://doi.org/10.1002/bse.3217 [cần xác nhận đúng bài về digital capability × internationalization]
-
-Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). *Introduction to meta-analysis*. Wiley. https://doi.org/10.1002/9780470743386
-
-Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. *American Economic Journal: Macroeconomics*, *13*(1), 333–372. https://doi.org/10.1257/mac.20180386
-
-Cheung, M. W.-L. (2014). Modeling dependent effect sizes with three-level meta-analyses: A structural equation modeling approach. *Psychological Methods*, *19*(2), 211–229. https://doi.org/10.1037/a0032968
-
-Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies*, *34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
-
-David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review*, *80*(2), 355–361.
-
-Đỗ, T. H., & Phan, A. T. (2024). Internationalization and firm performance: A meta-analysis review. In *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489). College of Economics, Can Tho University. [P6 ICBEF 2025 — baseline cho P6 UPDATED]
-
-Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. *Biometrics*, *56*(2), 455–463. https://doi.org/10.1111/j.0006-341X.2000.00455.x
-
-Dzikowski, P., Tomczyk, Ł., & Zając, T. (2023). Digital technology and firm performance: A meta-analysis of empirical studies. *Technological Forecasting and Social Change*, *196*, 122807. [cần xác nhận chi tiết DOI — tham chiếu trong P6 §2.3 DPL moderator]
-
-Egger, M., Davey Smith, G., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. *BMJ*, *315*(7109), 629–634. https://doi.org/10.1136/bmj.315.7109.629
-
-Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review*, *9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
-
-Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal*, *40*(4), 767–798. https://doi.org/10.2307/256948
-
-Johanson, J., & Vahlne, J.-E. (2009). The Uppsala internationalization process model revisited: From liability of foreignness to liability of outsidership. *Journal of International Business Studies*, *40*(9), 1411–1431. https://doi.org/10.1057/jibs.2009.24
-
-Karna, A., Richter, A., & Riesenkampff, E. (2016). Revisiting the role of the environment in the capabilities–financial performance relationship: A meta-analysis. *Strategic Management Journal*, *37*(6), 1154–1173. https://doi.org/10.1002/smj.2379
-
-Kaufmann, D., Kraay, A., & Mastruzzi, M. (2010). The worldwide governance indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law*, *3*(2), 220–246. https://doi.org/10.1017/S1876404511200046
-
-Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality-performance relationship: A meta-analytic review. *Global Strategy Journal*, *2*(2), 108–121. https://doi.org/10.1002/gsj.1025
-
-Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management*, *42*(5), 1075–1110. https://doi.org/10.1177/0149206316630070
-
-North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press. https://doi.org/10.1017/CBO9780511808678
-
-Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology*, *36*(4), 859–866. https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
-
-Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. https://doi.org/10.1136/bmj.n71
-
-Schmuck, D., Zapkau, F. B., Schwens, C., & Brouthers, K. D. (2022). Addressing reverse causality in the internationalization–performance relationship: A meta-analytic approach. *Journal of International Business Studies*. [cần xác nhận tập/trang — xuất hiện trong P6 như kiểm soát reverse causality qua coding study design]
-
-Schwens, C., Zapkau, F. B., Brouthers, K. D., & Hollender, L. (2018). The internationalization and performance of international new ventures: A meta-analysis. *Journal of International Business Studies*, *49*(4), 487–513. [cần xác nhận chi tiết DOI]
-
-Scott, W. R. (1995). *Institutions and organizations*. Sage.
-
-Suurmond, R., van Rhee, H., & Hak, T. (2017). Introduction, comparison, and validation of Meta-Essentials: A free and simple tool for meta-analysis. *Research Synthesis Methods*, *8*(4), 537–553. https://doi.org/10.1002/jrsm.1260
-
-Van den Noortgate, W., López-López, J. A., Marín-Martínez, F., & Sánchez-Meca, J. (2013). Three-level meta-analysis of dependent effect sizes. *Behavior Research Methods*, *45*(2), 576–594. https://doi.org/10.3758/s13428-012-0261-6
-
-Yang, Y., & Driffield, N. (2012). Multinationality-performance relationship: A meta-analysis. *Management International Review*, *52*(1), 23–47. https://doi.org/10.1007/s11575-011-0093-5
-
----
-
-*Ghi chú biên soạn (v2.6)*: Cập nhật 10/05/2026 — bổ sung 28 tài liệu P6 UPDATED (meta-analysis methods, I→P meta-analyses, moderator theories, publication bias tests, PRISMA 2020). Các DOI có nhãn `forthcoming` hoặc `improved` là placeholder — cập nhật khi bài báo được định danh chính thức. Các mục `[under review]` không cần DOI cho đến khi được chấp nhận đăng. Các mục `[cần xác nhận]` cần NCS kiểm tra lại chi tiết trước khi nộp luận án. Định dạng tuân thủ APA 7th (American Psychological Association, 2020, *Publication Manual*, 7th ed.).
+**Pending v2.5 verifications**: (a) IFC PSD Blueprint year; (b) WB Vietnamese WBES Indicators year; (c) ADB Vietnam Outlook 2026 pagination.
