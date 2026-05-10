@@ -335,4 +335,224 @@ would resolve [specific ambiguity] by [mechanism of resolution].
 
 ---
 
-*End of Author Voice Guide v1.0 — Reference this document before drafting any new section.*
+---
+
+## §9 — Writing Standards from Key Academic Sources
+
+> **Phiên bản**: 2.0 (10/05/2026)  
+> **Nguồn**: 7 tài liệu phương pháp học thuật được tích hợp bên dưới.
+
+Phần này tổng hợp tiêu chuẩn viết cụ thể từ 7 tài liệu gốc. Đây là phần **bổ sung** cho §1–§8, không thay thế. Mỗi quy tắc kèm nguồn trích dẫn và ví dụ áp dụng cho manuscripts I→P.
+
+---
+
+### §9.A — Phần Dữ liệu và Phương pháp (Aguinis et al., 2019)
+
+**Nguồn**: Aguinis, Ramani & Alabduljader (2019). *Methodological transparency*. Academy of Management Annals.
+
+| # | Quy tắc | Áp dụng cho P3/P4/P5/P6 |
+|---|---------|------------------------|
+| A1 | Báo cáo phương pháp phân tích **và lý do chọn** (không chỉ tên phương pháp) | "HC1 robust SE was chosen over cluster-robust SE because..." |
+| A2 | Báo cáo phiên bản phần mềm và cú pháp (syntax) đã dùng | "All analyses were conducted in R 4.3.1 using `feols()` from fixest (v0.11.2)" |
+| A3 | Dữ liệu thiếu: báo cáo cơ chế (MCAR/MAR/MNAR), phương pháp xử lý, và ảnh hưởng đến kết quả | "Missing FSTS values (n = 2,341, 2.3%) were treated as MCAR based on Little's test (χ² = 8.4, p = .14)" |
+| A4 | Outlier: báo cáo phương pháp phát hiện, quy tắc quyết định, bước xử lý, kết quả **có và không có** outlier | "Cook's distance > 4/n flagged 127 firms; results excluding outliers reported in Table A2 (Δβ < 0.003)" |
+| A5 | Biến kiểm soát: **biện minh lý thuyết cho từng biến**; báo cáo kết quả có và không có kiểm soát | "Firm age is included because older firms accumulate institutional knowledge (Hitt et al., 1997)" |
+| A6 | Báo cáo **tất cả** kiểm định giả định thống kê: normality, heteroscedasticity, independence, homogeneity | "Breusch–Pagan test confirmed heteroscedasticity (BP = 84.3, p < .001), justifying HC1 correction" |
+| A7 | Báo cáo thống kê mô tả đầy đủ (mean, SD, min, max) **và** ma trận tương quan/hiệp phương sai cho **tất cả** biến | Table 2: Descriptive statistics and correlation matrix (n = 101,185) |
+| A8 | Định nghĩa khái niệm **trước** khi vận hành hóa — không nhầm construct với measure | "Labour productivity is defined as... and operationalized as ln(annual sales PPP / permanent employees)" |
+
+**Anti-pattern (tránh)**:
+> ❌ "OLS regression was used. Outliers were excluded."  
+> ✅ "OLS with HC1 robust standard errors (Long & Ervin, 2000) was chosen because the Breusch–Pagan test confirmed heteroscedasticity (BP = 84.3, p < .001). Fourteen observations with Cook's distance > 4/n were flagged; their exclusion did not qualitatively change the results (Table A2)."
+
+---
+
+### §9.B — Chiến lược Nhận dạng (Writing Tips for Economics Research, §VI)
+
+**Nguồn**: Nikolov, P. (n.d.). *Writing Tips for Economics Research*. §VI Identification Strategy.
+
+Ba yếu tố quan trọng nhất trong bài báo kinh tế thực nghiệm: **Identification. Identification. Identification.**
+
+| # | Quy tắc |
+|---|---------|
+| B1 | Mô tả chiến lược nhận dạng **rõ nhất có thể** — đây là trung tâm của bài báo thực nghiệm |
+| B2 | Viết ra đặc tả kinh tế lượng đầy đủ; giải thích **cách đo lường từng biến** |
+| B3 | Trả lời: Tại sao đây là đặc tả đúng? Có xuất phát từ lý thuyết không? Tại sao biến X được đưa vào/loại ra? |
+| B4 | Nêu thẳng các giả định nhận dạng **trong bối cảnh dữ liệu cụ thể** — không theo kiểu sách giáo khoa |
+| B5 | Thảo luận về thiên lệch tiềm năng từ OLS ngây thơ; mô tả nhóm so sánh và lý do chọn |
+| B6 | Thừa nhận giới hạn nhưng không che giấu — "better to acknowledge shortcomings than to make overly broad claims" |
+
+**Template cho phần Method (áp dụng cho CĐ2/P3/P4/P5)**:
+```
+The baseline specification takes the form:
+  ln(LP)ᵢ = β₀ + β₁·FSTSᵢ + β₂·FSTS²ᵢ + γ·Xᵢ + αⱼ + δₜ + εᵢ
+
+where i indexes firms, j countries, t survey waves. FSTS is measured as [exact WBES item],
+mean-centred to reduce collinearity (mean = 8.3%, SD = 14.7%). Country fixed effects αⱼ
+absorb time-invariant institutional heterogeneity; wave fixed effects δₜ address common
+macroeconomic shocks. HC1 robust standard errors (Long & Ervin, 2000) correct for
+heteroscedasticity documented by Breusch–Pagan (p < .001).
+
+This specification was derived from [theoretical model] and has been used in prior
+Asia-Pacific I–P work by [cite]. The key identifying assumption is that, conditional on
+controls and fixed effects, FSTS variation is exogenous to productivity shocks — an
+assumption that holds if [condition] but may be violated if [endogeneity concern].
+The IV specification (§3.6) addresses this concern using [instrument].
+```
+
+---
+
+### §9.C — Phần Lý thuyết (Bello & Kostova, 2012; Thomas et al., 2011)
+
+**Nguồn 1**: Bello, D.C. & Kostova, T. (2012). From the editors: Conducting high impact studies in international business. *JIBS*, 43(6), 537–544.  
+**Nguồn 2**: Thomas, A.S., Autio, E. & Gann, D.M. (2014). Architectural leverage. *AMR*, 39(2), 193–214.
+
+#### Ba vấn đề lý thuyết phổ biến cần tránh (Thomas et al.):
+
+| # | Vấn đề | Biểu hiện | Cách sửa |
+|---|--------|-----------|----------|
+| C1 | Mô tả construct mà không giải thích tại sao chúng liên kết | "TCI and performance are related" | "TCI reduces per-unit coordination cost (Cohen & Levinthal, 1990) because..." |
+| C2 | Trích dẫn quy luật thực nghiệm thay vì cơ chế | "Prior studies show TCI → performance" | "TCI functions as an absorptive-capacity resource because..." |
+| C3 | Trích dẫn lý thuyết nhưng không áp dụng logic của nó | "Based on RBV, TCI affects performance" | "RBV predicts TCI generates above-normal returns when it is valuable, rare, and non-substitutable (Barney, 1991) — conditions met when..." |
+
+#### Tiêu chuẩn lý thuyết từ Bello & Kostova (2012):
+
+- **Construct clarity**: Định nghĩa construct (what it IS) trước khi đo lường (how to measure it)
+- **Causal mechanism**: Phải nói rõ CÁI GÌ thay đổi khi X thay đổi và THÔNG QUA con đường nào
+- **Multi-level specification**: Chỉ rõ construct vận hành ở cấp nào (firm, industry, country)
+- **Context as mechanism**: Giải thích tại sao bối cảnh tạo đòn bẩy suy diễn, không chỉ nói rằng bạn nghiên cứu bối cảnh đó
+
+**8 câu hỏi kiểm tra logic nhân quả (Thomas et al.)**:
+1. Construct X và Y đã được định nghĩa chính xác chưa?
+2. Cơ chế nhân quả X→Y là gì (không phải "X ảnh hưởng Y")?
+3. Điều gì xảy ra ở bước trung gian giữa X và Y?
+4. Điều kiện biên nào quyết định khi nào X→Y giữ và khi nào không?
+5. Lý thuyết có thể tạo ra dự đoán cụ thể (có thể bác bỏ)?
+6. Dự đoán này khác gì so với lý thuyết cạnh tranh?
+7. Cấp phân tích có nhất quán xuyên suốt không?
+8. Cơ chế có phù hợp với bằng chứng thực nghiệm hiện có không?
+
+---
+
+### §9.D — Báo cáo Kết quả (Aguinis et al., 2019; Meyer et al., 2017; Writing Tips §VII)
+
+**Nguồn 1**: Aguinis et al. (2019) — Tables 6–7  
+**Nguồn 2**: Meyer, K.E., van Witteloostuijn, A. & Beugelsdijk, S. (2017). What's *p*? *JIBS*, 48(5), 535–551.  
+**Nguồn 3**: Writing Tips §VII Results Section
+
+#### Các quy tắc báo cáo số liệu bắt buộc:
+
+| # | Quy tắc | Ví dụ đúng |
+|---|---------|-----------|
+| D1 | Báo cáo **p-value chính xác đến 2 chữ số thập phân** — tuyệt đối không dùng *, **, *** | p = .03 không phải p < .05* |
+| D2 | Báo cáo **effect size VÀ CI** cùng với significance | β = −0.267, 95% CI [−0.348, −0.186] |
+| D3 | Báo cáo **cả hệ số unstandardized VÀ standardized** | b = −0.267 (β_std = −0.183) |
+| D4 | Phân biệt **ý nghĩa thống kê vs ý nghĩa thực tiễn** — giải thích độ lớn kinh tế | "A 10-pp increase in FSTS associates with a 2.7% decline in LP — equivalent to roughly 0.4 years of productivity growth at mean rate" |
+| D5 | Dùng "**statistically significant**" — KHÔNG dùng "significant", "marginally significant", "almost significant", "highly significant" | "The coefficient is statistically significant (p = .03)" |
+| D6 | Xác định **chính xác** loại effect size được dùng (Cohen's d, r, R², η², Cramer's V) | "The effect size (Cohen's d = 0.34) falls in the small-to-medium range" |
+| D7 | Bảng phải **tự chứa** — tiêu đề rõ, nhãn biến mô tả (không dùng tên biến phần mềm), Notes giải thích tất cả | Table 2 Notes: "FSTS = foreign sales to total sales ratio (WBES item d3c/100); SE in parentheses" |
+| D8 | Số thập phân: dùng SE làm chuẩn — tìm chữ số khác 0 đầu tiên trong SE để xác định độ chính xác | SE = 0.041 → báo cáo β đến 3 chữ số thập phân |
+| D9 | **Mỗi con số quan trọng phải có SE** | "β = 0.089 (SE = 0.038)" không phải "β = 0.089" |
+| D10 | Báo cáo kết quả **có và không có biến kiểm soát** (ít nhất đề cập trong Appendix) | "Results excluding controls reported in Table A1 (Δβ < 0.005)" |
+
+#### Cấu trúc đoạn kết quả (Writing Tips §VII):
+- **Câu đầu**: Big-picture statement — kết quả chính khớp với story tổng thể
+- **Câu giữa**: Báo cáo số cụ thể theo format D1–D9
+- **Câu cuối**: Big-picture statement — kết nối về ý nghĩa lý thuyết
+
+**Ví dụ áp dụng (P6 meta-analysis)**:
+> ❌ "The three-level model shows significant heterogeneity (I² = 87.92%), supporting our hypothesis that context moderates the I–P relationship."  
+> ✅ "The three-level model partitions total heterogeneity (I²_total = 87.92%) into between-study variance (σ²₍₃₎ = 0.0142, I²₍₃₎ ≈ 65%) and within-study variance (σ²₍₂₎ = 0.071, I²₍₂₎ ≈ 30%). The baseline effect size (r̂ = 0.067, 95% CI [0.027, 0.106]) is statistically distinguishable from zero (p = .002) but practically small, consistent with the ICBEF 2025 baseline (Đỗ & Phan, 2024). The large between-study variance (65%) indicates that moderator analyses are warranted."
+
+---
+
+### §9.E — Phần Thảo luận và Kết luận (Geletkanycz & Tepper, 2012; Writing Tips §VIII)
+
+**Nguồn 1**: Geletkanycz, M. & Tepper, B.J. (2012). From the editors: Publishing in AMJ. *AMJ*, 55(2), 256–260.  
+**Nguồn 2**: Writing Tips §VIII Conclusion Section
+
+#### Cấu trúc phần Discussion (Geletkanycz & Tepper):
+
+```
+1. What was found → phát biểu kết quả chính (1 đoạn)
+2. Theoretical meaning → ý nghĩa lý thuyết của kết quả (2-3 đoạn)
+   - Không chỉ "consistent with prior work" — phải nói WHAT SPECIFICALLY advances
+3. Boundary conditions → điều kiện biên: khi nào kết quả hold, khi nào không (1 đoạn)
+4. Practical implications → hàm ý thực tiễn — conditional, không universal (1 đoạn)
+5. Limitations + future research → inferential bounds + specific future methods (1-2 đoạn)
+```
+
+#### Tiêu chuẩn cho phần Limitations:
+
+| Loại hạn chế | Cách đúng | Cách sai |
+|-------------|-----------|---------|
+| Design choice | "Cross-sectional WBES data preclude causal identification; IV partially addresses this (F = 34.6)" | "Cross-sectional data is a limitation" |
+| Avoidable flaw | Thừa nhận và giải thích bước để xử lý | Giả vờ không có |
+| Scope constraint | "Turning points apply to ICRV III settings (WGI ≈ −0.4); ICRV I contexts yield different estimates (P4: TP ≈ 88.6%)" | "Results may not generalize" |
+
+#### Kết luận (Writing Tips §VIII — 5-6 đoạn chặt):
+1. Tóm tắt kết quả chính
+2. Giải thích trực giác và cơ chế
+3. Các cơ chế tiềm năng
+4. Hạn chế quan trọng
+5. Hàm ý chính sách
+6. Hướng nghiên cứu hứa hẹn
+
+**Sau khi viết xong Conclusion: viết lại Introduction** bằng bức tranh ngắn của kết quả và hàm ý.
+
+---
+
+### §9.F — Bối cảnh trong Nghiên cứu Quốc tế (Meyer, 2018)
+
+**Nguồn**: Meyer, K.E. (2018). Context in management research. *AMA Global SIG White Paper*.
+
+#### 4 vai trò của bối cảnh (phải xác định vai trò nào bạn đang dùng):
+
+| Vai trò | Ý nghĩa | Áp dụng cho luận án |
+|---------|---------|---------------------|
+| **Setting** | Bối cảnh là nơi nghiên cứu diễn ra | "We study Vietnamese firms" — vai trò YẾU NHẤT |
+| **Moderator** | Bối cảnh điều tiết mối quan hệ | "ICRV regime moderates I→P curvature" — phổ biến trong P3/P4/P5 |
+| **Outcome** | Bối cảnh là biến kết quả | "How does institutional quality affect I→P?" |
+| **Theory-building** | Bối cảnh tạo cơ hội xây dựng lý thuyết mới | "CDCM emerged from contrasting VN/SG/CN patterns" — vai trò MẠNH NHẤT |
+
+**Quy tắc**: Phải biện minh TẠI SAO bối cảnh tạo đòn bẩy suy diễn, không chỉ nói rằng bạn nghiên cứu bối cảnh đó.
+
+**Ví dụ mạnh (P3 Vietnam)**:
+> "Vietnam offers an analytically valuable setting — not merely as a geographical location, but as a *moderator* context — because institutional transition (WGI Rule of Law improving from −0.61 to −0.48, 2009–2022) and heterogeneous digital capability accumulation create exogenous variation in the conditions under which DAI functions as a scaling resource. This variation is unobserved in single-year cross-sections but exploitable across the 14 WBES waves spanning 2009–2025."
+
+**Measurement equivalence**: Khi so sánh xuyên bối cảnh, phải kiểm tra liệu cùng biến có đo cùng construct không (FSTS trong WBES-PICS3 vs BREADY schema).
+
+---
+
+### §9.G — Tiêu chuẩn Câu và Đoạn (Writing Tips §I–V)
+
+**Nguồn**: Writing Tips for Economics Research, Sections I–V.
+
+| # | Quy tắc | Trước | Sau |
+|---|---------|-------|-----|
+| G1 | Mở đầu Introduction bằng đóng góp, không bằng bối cảnh chung | "Internationalization is an important strategy..." | "This paper documents that [specific finding], resolving the debate over [specific ambiguity]." |
+| G2 | Câu trong Introduction ≤ 25 từ | 48-từ sentence | Tách thành 2 câu |
+| G3 | Một ý chính mỗi đoạn | Đoạn gộp 3 ý | Tách 3 đoạn |
+| G4 | Thông tin cũ đầu câu, thông tin mới cuối câu | "The coefficient is negative for TCI..." | "For TCI, the coefficient is negative..." |
+| G5 | Tránh danh hóa động từ (zombie nouns) | "conduct an investigation of" | "investigate" |
+| G6 | Tránh hedge rỗng ("it is worth noting that") | "It is interesting to note that..." | Xóa đi; bắt đầu từ ý chính |
+| G7 | Giọng chủ động | "It was found that..." | "The analysis reveals..." |
+| G8 | Số thập phân giả tạo | β = 0.00456789 | β = 0.005 (theo SE benchmark) |
+
+---
+
+### §9.H — Trích dẫn trong Văn bản (Writing Tips §IX)
+
+**Nguồn**: Writing Tips §IX Citations.
+
+| Loại | Format | Khi nào dùng |
+|------|--------|-------------|
+| **Loud reference** | Smith (2020) argues that... | Khi muốn nhấn mạnh nguồn; thảo luận trực tiếp với tác giả |
+| **Soft reference** | ...has been established (Smith, 2020; Jones, 2019) | Khi trích dẫn bằng chứng hỗ trợ; liệt kê nhiều nguồn |
+| Multiple sources | (Author1, Year1; Author2, Year2) — liệt kê theo thứ tự alphabet | Soft references với nhiều nguồn |
+
+**Format APA 7th** cho luận án (xem `04_references_apa7.md` để biết full entries). Đảm bảo mọi in-text citation có entry trong danh mục và ngược lại.
+
+---
+
+*End of Author Voice Guide v2.0 — §9 integrated from 7 methodological sources (10/05/2026).*

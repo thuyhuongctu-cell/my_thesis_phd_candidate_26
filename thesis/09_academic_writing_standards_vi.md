@@ -280,4 +280,275 @@ Phụ lục H trong CĐ1 (file `14_cd1_part1_intro_theory_vi.md`, cuối tài li
 
 ---
 
-*Cập nhật lần cuối: 08/05/2026 | Phiên bản: v2.0 | Branch: `claude/edit-vietnamese-academic-standards-xcAmn` | Repo: `papers_in_phd_2026`*
+---
+
+## Section 5 — Chuẩn mực viết từ 7 nguồn tài liệu học thuật quốc tế
+
+> **Phiên bản mở rộng v3.0** — Bổ sung từ 7 tài liệu phương pháp học thuật được đọc ngày 10/05/2026.  
+> Phiên bản đầy đủ tiếng Anh: `thesis/00_author_voice_guide.md §9`.
+
+---
+
+### 5.1 — Tính minh bạch phương pháp (Aguinis, Ramani & Alabduljader, 2019)
+
+Chuẩn vàng về tính minh bạch phương pháp cho bài báo quản trị quốc tế.
+
+#### Phần Dữ liệu — 8 quy tắc bắt buộc:
+
+**Quy tắc D1: Báo cáo phương pháp phân tích VÀ lý do chọn**
+
+> ❌ "Hồi quy OLS được sử dụng."  
+> ✅ "OLS với sai số chuẩn vững HC1 (Long & Ervin, 2000) được lựa chọn do kiểm định Breusch–Pagan xác nhận phương sai sai số không đồng nhất (BP = 84,3; p < 0,001)."
+
+**Quy tắc D2: Báo cáo phần mềm và cú pháp**
+
+> ✅ "Tất cả phân tích được thực hiện trong R 4.3.1 sử dụng hàm `feols()` từ gói fixest (v0.11.2). Cú pháp R đầy đủ có trong Phụ lục D."
+
+**Quy tắc D3: Dữ liệu thiếu — ba điều cần báo cáo:**
+1. Tỷ lệ thiếu của từng biến chính
+2. Kiểm định cơ chế thiếu (MCAR/MAR/MNAR)
+3. Phương pháp xử lý và ảnh hưởng đến kết quả
+
+> ✅ "Giá trị thiếu của FSTS chiếm 2,3% (n = 2.341). Kiểm định Little's MCAR cho kết quả không bác bỏ giả thuyết MCAR (χ² = 8,4; p = 0,14). Các quan sát này bị loại khỏi phân tích chính; kết quả với imputation được báo cáo trong Bảng A3 (Δβ < 0,003)."
+
+**Quy tắc D4: Outlier — bốn điều cần báo cáo:**
+1. Phương pháp phát hiện (ví dụ: Cook's distance)
+2. Quy tắc quyết định (ví dụ: > 4/n)
+3. Bước xử lý (loại bỏ, Winsorization, v.v.)
+4. Kết quả có và không có outlier
+
+**Quy tắc D5: Biến kiểm soát — biện minh lý thuyết từng biến**
+
+> ❌ "Quy mô doanh nghiệp được kiểm soát."  
+> ✅ "Quy mô doanh nghiệp (ln số lao động) được đưa vào vì các doanh nghiệp lớn hơn có khả năng tiếp cận thị trường nước ngoài tốt hơn (Hitt et al., 1997); kết quả không có biến này được báo cáo trong Bảng A1 (Δβ < 0,005)."
+
+**Quy tắc D6: Báo cáo TẤT CẢ kiểm định giả định thống kê:**
+- Normality: kiểm định Shapiro–Wilk hoặc Q–Q plot
+- Heteroscedasticity: Breusch–Pagan
+- Independence: Durbin–Watson hoặc Moran's I
+- Multicollinearity: VIF (< 10 là chấp nhận được)
+
+**Quy tắc D7: Thống kê mô tả đầy đủ cho TẤT CẢ biến:**
+
+| Biến | Mean | SD | Min | Max | Tương quan ... |
+|------|------|----|-----|-----|----------------|
+| Cần có bảng này trong mọi bài báo thực nghiệm |
+
+**Quy tắc D8: Phân biệt construct và measure:**
+
+> ❌ "Năng suất lao động được đo bằng ln(doanh thu/số lao động)."  
+> ✅ "Năng suất lao động (labour productivity) được định nghĩa là sản lượng trên mỗi đơn vị lao động. Trong nghiên cứu này, biến này được đo bằng ln(doanh thu hàng năm theo PPP / số lao động cố định) — thước đo phổ biến trong tài liệu WBES (Hsieh & Klenow, 2009)."
+
+---
+
+### 5.2 — Báo cáo p-value và Cỡ hiệu ứng (Meyer et al., 2017)
+
+**Nguồn**: Meyer, K.E., van Witteloostuijn, A. & Beugelsdijk, S. (2017). *JIBS*, 48(5), 535–551.
+
+#### 10 hướng dẫn cốt lõi:
+
+| # | Hướng dẫn | Trước (sai) | Sau (đúng) |
+|---|-----------|------------|-----------|
+| 1 | Báo cáo p-value chính xác đến 2 chữ số | p < 0,05* | p = 0,03 |
+| 2 | Báo cáo cỡ hiệu ứng cùng ý nghĩa thống kê | "significant" | "β = −0,267, d = 0,34" |
+| 3 | Báo cáo khoảng tin cậy 95% | — | "95% CI [−0,348; −0,186]" |
+| 4 | Phân biệt ý nghĩa thống kê và thực tiễn | "significant effect" | "statistically significant but practically marginal (d = 0,08)" |
+| 5 | Tránh HARKing (Hypothesizing After Results are Known) | — | Chỉ kiểm định giả thuyết đã đặt trước |
+| 6 | Phân tích độ nhạy | — | Báo cáo kết quả với các đặc tả thay thế |
+| 7 | Công bố kết quả null | — | Không che giấu kết quả không ý nghĩa |
+| 8 | Thảo luận nội sinh tính | — | Thảo luận rõ về endogeneity concern |
+| 9 | Xử lý outlier minh bạch | — | Báo cáo kết quả có và không có outlier |
+| 10 | Thảo luận giải thích thay thế | — | Nêu ít nhất 1 giải thích thay thế |
+
+#### Từ vựng báo cáo kết quả đúng chuẩn:
+
+| Dùng | Không dùng |
+|------|-----------|
+| "statistically significant" | "significant", "highly significant", "marginally significant" |
+| "r = 0,07 (p = 0,002)" | "r = 0,07*" hoặc "r = 0,07 (p < 0,05)" |
+| "Cohen's d = 0,34 (small-to-medium)" | "the effect is large" |
+| "95% CI [0,027; 0,106]" | (không báo cáo CI) |
+
+---
+
+### 5.3 — Vai trò của Lý thuyết (Bello & Kostova, 2012; Thomas et al., 2011)
+
+**Nguồn 1**: Bello & Kostova (2012). *JIBS*, 43(6).  
+**Nguồn 2**: Thomas et al. (2011). *AMR*, 39(2).
+
+#### Ba vấn đề lý thuyết phổ biến (Thomas et al., 2011):
+
+**Vấn đề 1**: Mô tả construct mà không giải thích *tại sao* chúng liên kết
+
+> ❌ "TCI và hiệu quả kinh doanh có mối quan hệ dương."  
+> ✅ "TCI làm giảm chi phí phối hợp trên mỗi đơn vị xuất khẩu thông qua cơ chế học hỏi hấp thụ (Cohen & Levinthal, 1990), qua đó mở rộng vùng lợi ích ở đường cong I–P."
+
+**Vấn đề 2**: Trích dẫn quy luật thực nghiệm thay vì cơ chế nhân quả
+
+> ❌ "Các nghiên cứu trước cho thấy TCI tác động tích cực đến hiệu quả kinh doanh."  
+> ✅ "TCI vận hành như một nguồn năng lực hấp thụ (absorptive capacity resource) theo nghĩa của Cohen & Levinthal (1990): nó cho phép doanh nghiệp nhận dạng, đồng hóa, và khai thác kiến thức thu được từ thị trường nước ngoài."
+
+**Vấn đề 3**: Trích dẫn lý thuyết mà không áp dụng logic của nó
+
+> ❌ "Dựa trên RBV, TCI tác động đến hiệu quả kinh doanh."  
+> ✅ "RBV dự đoán TCI tạo ra lợi nhuận vượt mức khi nó có giá trị (valuable), hiếm (rare), và không thể thay thế (non-substitutable) (Barney, 1991) — ba điều kiện được thỏa mãn trong môi trường ICRV III–IV nơi năng lực công nghệ phân tán và IT infrastructure còn hạn chế."
+
+#### Định nghĩa construct trước khi vận hành hóa (Bello & Kostova):
+
+```
+Bước 1: Định nghĩa khái niệm (conceptual definition)
+   → "[Construct] là [định nghĩa tổng quát, không phụ thuộc vào cách đo]"
+
+Bước 2: Vận hành hóa (operationalization)
+   → "Trong nghiên cứu này, [construct] được đo bằng [measure] vì [lý do đo lường này phù hợp với định nghĩa]"
+```
+
+---
+
+### 5.4 — Cấu trúc Thảo luận và Kết luận (Geletkanycz & Tepper, 2012)
+
+**Nguồn**: Geletkanycz, M. & Tepper, B.J. (2012). *AMJ*, 55(2), 256–260.
+
+#### Cấu trúc 5 thành phần của phần Thảo luận:
+
+```
+1. PHÁT HIỆN (What was found)
+   → Phát biểu kết quả chính — không lặp lại số liệu chi tiết
+   → "This study documents [specific finding]..."
+
+2. Ý NGHĨA LÝ THUYẾT (Theoretical meaning)  
+   → Không chỉ "consistent with prior work"
+   → Phải nói: kết quả NÀY TIẾN BỘ như thế nào so với what prior work showed
+   → "This extends [prior work] by showing that [specific mechanism] operates
+      under [specific condition] not tested before"
+
+3. ĐIỀU KIỆN BIÊN (Boundary conditions)
+   → Khi nào kết quả hold? Khi nào không?
+   → "This effect is expected to attenuate in [context] where [condition]"
+
+4. HÀM Ý THỰC TIỄN (Practical implications)
+   → Có điều kiện — không phổ quát
+   → "Firms in ICRV III settings operating below FSTS = 45% should..."
+   → KHÔNG phải: "Firms should increase internationalization"
+
+5. HẠN CHẾ + HƯỚNG NGHIÊN CỨU (Limitations + Future research)
+   → Phân biệt design choice vs avoidable flaw
+   → Hướng nghiên cứu = câu hỏi lý thuyết mở, không phải "cần nghiên cứu thêm"
+```
+
+#### Phân biệt hạn chế thiết kế và hạn chế có thể tránh:
+
+| Loại | Mô tả | Cách trình bày |
+|------|-------|----------------|
+| Design choice | Lựa chọn có chủ ý (cross-sectional vs panel) | "This cross-sectional design was chosen because... The inferential bound is [specific]. Longitudinal data from [source] would resolve this." |
+| Avoidable flaw | Có thể đã làm tốt hơn | Thừa nhận và đề xuất cách khắc phục trong nghiên cứu tương lai |
+
+---
+
+### 5.5 — Chiến lược Nhận dạng và Trình bày Kết quả (Writing Tips — §VI, §VII)
+
+**Nguồn**: Nikolov, P. *Writing Tips for Economics Research*. Sections VI–VIII.
+
+#### Identification Strategy — Danh sách kiểm tra:
+
+```
+□ Mô tả chiến lược nhận dạng rõ nhất có thể
+□ Viết ra đặc tả kinh tế lượng đầy đủ
+□ Giải thích cách đo lường từng biến (item WBES cụ thể)
+□ Biện minh tại sao đặc tả này đúng về mặt lý thuyết
+□ Trả lời: tại sao biến X được đưa vào / loại ra?
+□ Nêu rõ giả định nhận dạng trong bối cảnh dữ liệu CỤ THỂ
+□ Thảo luận thiên lệch tiềm năng từ OLS naïve
+□ Mô tả nhóm so sánh và lý do chọn
+□ Thừa nhận giới hạn (sample nhỏ, proxy không hoàn hảo, mức dữ liệu khác ideal)
+```
+
+#### Results Section — Danh sách kiểm tra:
+
+```
+□ Ít kết quả hơn thường tốt hơn (tránh "kitchen sink")
+□ Chỉ báo cáo kết quả trực tiếp hỗ trợ câu chuyện chính
+□ Kết quả phụ → Phụ lục Online
+□ Bảng tự chứa: tiêu đề rõ, nhãn biến mô tả (không tên biến phần mềm)
+□ Ghi chú bảng (Notes) giải thích tất cả ký hiệu
+□ Báo cáo SE, không T-statistics (ưu tiên trong kinh tế học)
+□ Số thập phân: dùng SE làm chuẩn (xem §5.2 bên dưới)
+□ Mỗi con số quan trọng phải có SE
+□ Câu đầu đoạn = big-picture statement
+□ Câu cuối đoạn = big-picture statement
+□ Giải thích độ lớn kinh tế (economic magnitude), không chỉ ý nghĩa thống kê
+```
+
+#### Quy tắc số thập phân (SE benchmark):
+
+> Tìm chữ số khác 0 đầu tiên trong SE. Làm tròn SE và hệ số đến cùng vị trí thập phân đó.
+
+**Ví dụ:**
+- SE = 0,041 → hệ số báo cáo đến 3 chữ số thập phân: β = 0,267
+- SE = 0,009 → hệ số báo cáo đến 3 chữ số thập phân: β = 0,089
+- SE = 12,3 → hệ số báo cáo đến chữ số hàng chục: β = 36,7
+
+---
+
+### 5.6 — Bối cảnh trong Nghiên cứu Kinh doanh Quốc tế (Meyer, 2018)
+
+**Nguồn**: Meyer, K.E. (2018). Context in management research.
+
+#### Tại sao bối cảnh tạo đòn bẩy suy diễn — template biện minh:
+
+```
+"[Quốc gia/vùng] tạo ra bối cảnh có giá trị phân tích vì [2-3 điều kiện thể chế/cấu trúc 
+cụ thể] cho phép [cơ chế suy diễn cụ thể]. Không giống như [bối cảnh trong nghiên cứu 
+trước], [tính năng đặc trưng] trong [quốc gia] tạo ra biến thiên ngoại sinh trong [biến 
+quan tâm], cho phép phân tách [hiệu ứng X] khỏi [yếu tố gây nhiễu Y]."
+```
+
+**Ví dụ (P3 Vietnam)**:
+> "Việt Nam tạo ra bối cảnh có giá trị phân tích vì quá trình chuyển đổi thể chế (WGI Rule of Law cải thiện từ −0,61 lên −0,48 giai đoạn 2009–2022) và tích lũy năng lực số không đồng đều tạo ra biến thiên ngoại sinh trong điều kiện mà DAI vận hành như một nguồn lực mở rộng quy mô. Biến thiên này không quan sát được trong mặt cắt ngang đơn năm nhưng có thể khai thác qua 14 sóng WBES từ 2009 đến 2025."
+
+#### Tương đương đo lường xuyên bối cảnh:
+
+Khi so sánh kết quả giữa các quốc gia hoặc các sóng khảo sát, phải xác minh:
+- Cùng biến WBES có đo cùng construct không? (ví dụ: FSTS trong PICS3 vs BREADY schema)
+- Thang đo có invariant không? (configural → metric → scalar invariance)
+
+---
+
+### 5.7 — Checklist tự đánh giá bổ sung (từ 7 nguồn tài liệu)
+
+Bổ sung vào checklist 10 điểm của Section 4.3:
+
+| # | Tiêu chí (từ 7 nguồn) | Đạt | Cần sửa |
+|---|----------------------|-----|---------|
+| 11 | Phương pháp phân tích được biện minh lý do chọn (không chỉ tên) | ☐ | ☐ |
+| 12 | Dữ liệu thiếu: tỷ lệ, cơ chế, xử lý đã báo cáo | ☐ | ☐ |
+| 13 | Outlier: phát hiện, quyết định, kết quả có/không có | ☐ | ☐ |
+| 14 | p-value chính xác đến 2 chữ số — không dùng *, **, *** | ☐ | ☐ |
+| 15 | Cỡ hiệu ứng VÀ CI được báo cáo cùng significance | ☐ | ☐ |
+| 16 | Dùng "statistically significant" — không dùng "significant" đơn độc | ☐ | ☐ |
+| 17 | Biến kiểm soát đã được biện minh lý thuyết từng biến | ☐ | ☐ |
+| 18 | Bảng tự chứa: tiêu đề rõ, nhãn biến mô tả, Notes đầy đủ | ☐ | ☐ |
+| 19 | Discussion có đủ 5 thành phần (phát hiện→lý thuyết→biên→thực tiễn→hạn chế) | ☐ | ☐ |
+| 20 | Hướng nghiên cứu tương lai = câu hỏi lý thuyết cụ thể + phương pháp cụ thể | ☐ | ☐ |
+
+---
+
+### 5.8 — Tài liệu tham khảo cho Section 5
+
+1. **Aguinis, H., Ramani, R.S., & Alabduljader, N. (2019).** What you see is what you get? Enhancing methodological transparency in organizational science. *Academy of Management Annals*, 13(2), 70–110.
+
+2. **Bello, D.C., & Kostova, T. (2012).** From the editors: Conducting high impact studies in international business: The role of theory. *Journal of International Business Studies*, 43(6), 537–544.
+
+3. **Geletkanycz, M., & Tepper, B.J. (2012).** From the editors: Publishing in AMJ — Part 6: Discussing the implications. *Academy of Management Journal*, 55(2), 256–260.
+
+4. **Meyer, K.E., van Witteloostuijn, A., & Beugelsdijk, S. (2017).** What's *p* in international business research? *Journal of International Business Studies*, 48(5), 535–551.
+
+5. **Meyer, K.E. (2018).** Context in management research (White paper). AMA Global SIG.
+
+6. **Nikolov, P. (n.d.).** Writing tips for economics research. Course materials, Binghamton University.
+
+7. **Thomas, A.S., Autio, E., & Gann, D.M. (2014).** Architectural leverage: Putting general purpose technologies to work. *Academy of Management Perspectives*, 28(2), 198–219.
+
+---
+
+*Cập nhật lần cuối: 10/05/2026 | Phiên bản: v3.0 | Branch: `claude/edit-vietnamese-academic-standards-xcAmn` | Repo: `papers_in_phd_2026`*

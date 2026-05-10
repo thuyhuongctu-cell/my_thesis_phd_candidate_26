@@ -190,6 +190,34 @@ RULES: list[LangRule] = [
         severity="info",
         ignore_sections=["references", "appendix"],
     ),
+    # ── Transparency rules (Aguinis et al., 2019; Meyer et al., 2017) ─────────
+    # 18. Bare "significant" without "statistically" (Meyer et al., 2017)
+    LangRule(
+        name="bare_significant",
+        pattern=r"(?<!\bstatistically\s)\b(is|are|was|were|becomes?|remained?)\s+significant\b(?!\s+in\s+the\s+sense)",
+        message="'Significant' without 'statistically' — use 'statistically significant' per Meyer et al. (2017)",
+        suggestion="→ 'statistically significant (p = [exact value])' — never 'significant', 'highly significant', 'marginally significant'",
+        severity="warning",
+        ignore_sections=["references", "appendix"],
+    ),
+    # 19. "Marginally/almost/nearly/highly significant" — anti-pattern (Meyer et al., 2017)
+    LangRule(
+        name="qualified_significant",
+        pattern=r"\b(marginally|almost|nearly|borderline|quasi|highly|weakly)\s+(statistically\s+)?significant\b",
+        message="'[Qualifier] significant' is not a valid statistical category (Meyer et al., 2017)",
+        suggestion="→ Report exact p-value: 'p = 0.07' not 'marginally significant'; 'p = 0.001' not 'highly significant'",
+        severity="error",
+        ignore_sections=["references", "appendix"],
+    ),
+    # 20. Asterisk-based significance reporting (Aguinis et al., 2019; Meyer et al., 2017)
+    LangRule(
+        name="asterisk_significance",
+        pattern=r"[*†]{1,3}\s*p\s*[<≤]\s*[0-9.]+|p\s*[<≤]\s*[0-9.]+\s*[*†]{1,3}|\bsignificant at the\s+(0\.\d+|[0-9]+%)\s+level",
+        message="Asterisk/cutoff-based p-reporting — use exact p-values (Aguinis et al., 2019; Meyer et al., 2017)",
+        suggestion="→ Replace '***p < .001' with 'p = [exact value, e.g., p = .003]'",
+        severity="warning",
+        ignore_sections=["references", "appendix"],
+    ),
 ]
 
 # ─── IMRaD tense conventions ──────────────────────────────────────────────────
