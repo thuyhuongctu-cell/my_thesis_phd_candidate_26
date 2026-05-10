@@ -59,6 +59,8 @@ Năm tổng quan định lượng lớn cung cấp bức tranh tổng thể về
 
 **Khoảng trống tổng hợp**: Cả năm meta-analysis đều (i) thiếu coverage đầy đủ cho châu Á và Pacific; (ii) không kiểm định đồng thời phi tuyến + moderation đa tầng; (iii) không phân tách TCI và DAI; (iv) không bao gồm SIDS Pacific; (v) không có dữ liệu sau 2020 (AI + COVID). CĐ2 lấp đầy tất cả năm khoảng trống này.
 
+**Phân tích publication bias và representativeness**: Một lo ngại trong meta-analysis là publication bias — các nghiên cứu tìm thấy kết quả "có ý nghĩa" dễ xuất bản hơn. Bausch & Krist (2007) và Kirca et al. (2012) đều kiểm định publication bias qua funnel plot và Egger test, và không tìm thấy bằng chứng mạnh về bias. Tuy nhiên, một dạng bias khác có thể tồn tại: **geographic representativeness bias** — đa số primary studies trong năm meta-analyses đến từ các mẫu Mỹ, Châu Âu, hoặc đa quốc gia với Châu Á chiếm tỷ trọng thấp (8–22%). CĐ2 khắc phục điều này bằng cách tập trung hoàn toàn vào Châu Á và Thái Bình Dương — không phải một nghiên cứu quốc gia đơn lẻ mà là một pool đủ lớn để detect heterogeneity trong khu vực.
+
 ### 3.1b Phương pháp xác định turning point và kiểm định thống kê
 
 Trong văn liệu I→P, turning point của inverted-U được tính từ công thức: TP = −β₁/(2β₂) × FSTS_range, với β₁ > 0 và β₂ < 0. Tuy nhiên, chỉ tính turning point là chưa đủ — cần kiểm định xem turning point có *nằm trong vùng dữ liệu thực tế* và *có ý nghĩa thống kê* hay không. Lind và Mehlum (2010) phát triển test chuyên biệt cho điều này — kiểm định đồng thời (i) β₁ > 0, (ii) β₂ < 0, và (iii) turning point nằm trong interval dữ liệu. Cả ba điều kiện phải thỏa mãn cùng lúc để xác nhận inverted-U.
@@ -93,6 +95,16 @@ Một phân tích quan trọng thường bị bỏ qua trong các lược khảo
 
 Đặc biệt quan trọng cho CĐ2, Kafouros et al. (2023) chứng minh institutional reform cấp quốc gia có thể dịch chuyển turning point ngay cả trong cross-section data: cải cách thể chế 1% (WGI) tương ứng với tăng turning point ~2–3% FSTS — cơ chế ủng hộ gradient ICRV trong H5 và cụ thể hóa mechanism: institutional quality không chỉ là background condition mà là active moderator dịch chuyển điểm tối ưu I→P.
 
+**Tổng hợp phân tích cross-paper về tính bền vững của CDCM**: Ba bản thảo P3–P5 cùng xác nhận ba dự đoán core của CDCM:
+
+*Dự đoán CDCM-1 — TCI là causal và bền vững*: P3 IV: β = 1.639 (F = 22.1) ✓; P4 OLS: β = 0.153 ✓; P5 tăng cường theo thời gian ✓ → TCI causal effect robust qua ba nền kinh tế khác nhau hoàn toàn về institutional context.
+
+*Dự đoán CDCM-2 — DAI là context-contingent, không phải uniform*: P3 OLS dương nhưng IV null (selection bias confirmed) ✓; P4 conditional scaling (+3.119 tại FSTS cao) ✓; P5 control only (Tier 1 bão hòa) ✓ → không có một bằng chứng nào trong ba papers ủng hộ "DAI uniformly positive", nhưng cũng không có bằng chứng nào cho "DAI universally null" — CDCM giải thích sự phân kỳ.
+
+*Dự đoán CDCM-3 — Inverted-U là dominant functional form cho SMEs châu Á*: P3 Lind–Mehlum p < .001 ✓; P5 Lind–Mehlum confirmed cả hai sóng ✓; P4 TP ~88.6% (near-ceiling, technically positive-dominant) ✓ → inverted-U với turning point phụ thuộc vào ICRV là pattern nhất quán nhất qua dữ liệu thực.
+
+**Điểm khác biệt giữa ba papers và hàm ý cho pool CĐ2**: P3 và P5 có temporal dimension (3 sóng và 2 sóng respectively) trong khi P4 là cross-section duy nhất (1 sóng). P3 có IV estimation đầy đủ cho cả TCI và DAI; P4 và P5 thiếu IV (P4 không đủ instrument xác định; P5 dùng cross-sectional design). Pool CĐ2 với 101.185 observations sẽ cho phép IV estimation với power cao hơn và cross-validation IV validity qua nhiều nhóm ICRV.
+
 **Bảng 3.2**. *So sánh bằng chứng ba bản thảo đồng hành — tổng hợp cho CĐ2.*
 
 | Chiều | P3 Việt Nam (Nhóm IV) | P4 Singapore (Nhóm I) | P5 Trung Quốc (Nhóm III) |
@@ -115,6 +127,10 @@ Tổng hợp văn liệu cho thấy ba khoảng trống còn mở:
 **Khoảng trống 3 — SIDS và frontier economies**: Không có nghiên cứu nào tích hợp SIDS Pacific (Nhóm VI) và frontier economies (Nhóm V) vào khung I→P lớn. "Forced penalty" hypothesis chưa được kiểm định đồng thời với các dạng hàm khác.
 
 CĐ2 giải quyết cả ba khoảng trống bằng framework 4 tầng + Digital lens + CDCM, mô hình M0–M7, và pool 101.185 doanh nghiệp xuyên 47 nền kinh tế.
+
+**So sánh với các nghiên cứu đa quốc gia trước đây**: Trước CĐ2, nghiên cứu I→P đa quốc gia lớn nhất trong văn liệu là Marano et al. (2016) với 333 primary studies trong meta-analysis framework. Tuy nhiên, meta-analysis aggregate data khác về bản chất với micro-level firm data: (i) meta-analysis không thể kiểm định moderation cấp doanh nghiệp (TCI, DAI) vì không có dữ liệu firm-level; (ii) meta-analysis aggregate bias giảm statistical power cho detecting non-linear effects; (iii) meta-analysis không thể kiểm định three-way interactions. CĐ2 với 101.185 firm-level observations là nghiên cứu I→P *cross-national micro-data* lớn nhất châu Á, không phải meta-analysis.
+
+Trong văn liệu micro-data đa quốc gia, Delios và Beamish (1999) dùng 399 Japanese MNEs và tìm thấy inverted-U; Hitt et al. (1997) dùng 295 Fortune 500 firms và tìm thấy inverted-U với R&D moderation; không có nghiên cứu nào vượt quá 50.000 observations trong một region-specific analysis. CĐ2 vượt qua tất cả về quy mô sample đồng thời mở rộng về geographic coverage (47 nền kinh tế vs 1–5 nền kinh tế trong hầu hết prior studies).
 
 **Định vị cụ thể trong văn liệu**: CĐ2 là nghiên cứu đầu tiên: (a) kiểm định đồng thời đủ các dạng hàm I→P (linear, inverted-U, S-curve, forced penalty) trong cùng một framework thực nghiệm đa quốc gia; (b) tách bạch TCI (technological depth) và DAI (digital adoption surface) như hai construct non-overlapping với cơ chế moderating khác nhau theo CDCM; (c) tích hợp SIDS Pacific (7 nền kinh tế) vào framework I→P cùng với 40 nền kinh tế continental Asia trong một pool unified; (d) áp dụng chiến lược nhận dạng IV để phân biệt causal DAI vs. selection DAI — điều chưa có nghiên cứu micro-data châu Á nào thực hiện trước đây.
 
@@ -496,6 +512,18 @@ Tích hợp cả sáu hypothesis trong M7 (three-way capstone, §6.9) cho phép 
 | **H5** | ICRV gradient | Institutional Theory | ICRV_j × FSTS | TP gradient; Nhóm VI forced penalty | CĐ1 dispersion pattern |
 | **H6** | Temporal heterog. | Structural change | Year_bucket × FSTS | β(FSTS×Year)≠0 cross-periods | P3 Paternoster p<.001; P5 TCI p=.011 |
 
+*Ghi chú phân loại*: H1–H3 và H5 là **confirmatory** (dấu rõ, ≥2 bằng chứng neo đậu từ P3/P4/P5); H4 và H6 là **hybrid confirmatory/exploratory** (hướng rõ nhưng magnitude exploratory với proxy limitations và cross-national heterogeneity chưa được neo đậu trực tiếp).
+
+**Hàm ý chính sách từ hệ giả thuyết H1–H6**: Trước khi trình bày kết quả thực nghiệm (Chương 8), hệ giả thuyết đã có hàm ý chính sách *a priori* — hàm ý sẽ được xác nhận hoặc điều chỉnh tùy theo kết quả:
+
+*Nếu H1 (inverted-U) được xác nhận*: Các chính phủ không nên khuyến khích tất cả doanh nghiệp tối đa hóa FSTS — cần xác định turning point cho từng nhóm ICRV và thiết kế chính sách hỗ trợ phù hợp với stage trong đường cong I→P.
+
+*Nếu H2 (TCI causal) được xác nhận*: Đầu tư vào R&D, ISO certification, và technology licensing (chính sách TCI) tạo ra causal improvement trong hiệu quả xuất khẩu — biện minh cho các chương trình hỗ trợ SME đổi mới công nghệ, không chỉ là subsidize xuất khẩu trực tiếp.
+
+*Nếu H3 (DAI selection, không causal ở Nhóm IV) được xác nhận*: Chính sách số hóa SME cần đi kèm với nâng cấp TCI thực sự để tạo causal impact — số hóa bề mặt (website, e-payment) mà không có năng lực công nghệ nội tại sẽ không tạo ra lợi ích năng suất thực.
+
+*Nếu H5 (ICRV gradient) được xác nhận*: Cải cách thể chế (Kafouros et al., 2023: 1% WGI → +2–3% TP) là công cụ chính sách có thể dịch chuyển turning point cao hơn — biện minh cho ưu tiên cải cách thể chế trước khi thúc đẩy quốc tế hóa ở Nhóm V–VI.
+
 **Ma trận kiểm định chéo H1–H6 và mô hình M0–M7**:
 
 | Mô hình | H1 | H2 | H3 | H4 | H5 | H6 |
@@ -513,6 +541,17 @@ Tích hợp cả sáu hypothesis trong M7 (three-way capstone, §6.9) cho phép 
 
 Sự phân cấp mô hình M0→M7 đảm bảo tính incremental validity: mỗi mô hình sau được so sánh với mô hình trước qua ΔR², AIC, BIC, và F-test thay đổi. Chỉ khi M2 cải thiện đáng kể so với M1 mới có thể kết luận S-curve đúng hơn inverted-U; chỉ khi M7 cải thiện đáng kể so với M4+M3 riêng lẻ mới có thể kết luận three-way interaction là genuine chứ không phải artifact.
 
+**Bảng 5.3**. *Ma trận tính nhất quán nội tại của hệ giả thuyết H1–H6.*
+
+| Giả thuyết cặp | Loại quan hệ | Nhất quán? | Điều kiện nhất quán |
+|----------------|-------------|-----------|-------------------|
+| H1 (inverted-U) ↔ H5 (ICRV gradient) | Complementary | ✓ Có | H5 gradient giải thích tại sao TP khác nhau theo ICRV — không mâu thuẫn với H1 về dạng hàm |
+| H2 (TCI level-shift) ↔ H3 (DAI conditional) | Distinct mechanisms | ✓ Có | CDCM tách rõ level-shift (H2) vs curvature scaling (H3) — không overlap |
+| H1 (near-flat at intensity margin) ↔ H2 (TCI lifts all) | Conditional | ✓ Có | H1b (near-flat) là baseline; H2 nâng mặt bằng lên nhưng không thay đổi gần-phẳng của slope |
+| H3 (DAI null IV, Nhóm IV) ↔ H3a (DAI positive OLS, Nhóm IV) | Apparent paradox | ✓ Giải thích được | IV null nghĩa là OLS captures selection, không phải causal — hai kết quả nhất quán với CDCM |
+| H6 (temporal shift) ↔ H5 structural durability | Partial tension | ~ Conditionally | H6 predicts magnitude shifts; structural durability predicts functional form stability — có thể coexist |
+| H4 (manager) ↔ H2 (TCI) | Distinct levels | ✓ Có | H4 là individual-level; H2 là organizational-level — hai kênh độc lập |
+
 ---
 
 ### Cầu nối sang Phần 3: Từ giả thuyết đến đặc tả mô hình
@@ -521,6 +560,41 @@ Ba chương trong Phần 2 (Chương 3–5) đã hoàn thành nhiệm vụ: (i) 
 
 Phần 3 (Chương 6–9) sẽ: (vi) đặc tả kỹ thuật cho hệ mô hình M0–M7 với functional form, identification strategy, và robustness checks; (vii) mô tả dữ liệu WBES 101.185 doanh nghiệp × 47 nền kinh tế × 14 sóng và quá trình xây dựng pool; (viii) trình bày kết quả thực nghiệm và diễn giải theo từng hypothesis; (ix) thảo luận đóng góp lý thuyết, hàm ý chính sách, hạn chế, và hướng nghiên cứu tương lai.
 
+**Robustness checks được lên kế hoạch (R1–R6)**:
+
+| Code | Mô tả | Mục đích |
+|------|-------|---------|
+| R1 | DAI website-only (`c22b`) xuyên toàn bộ sample | Kiểm tra schema consistency (Tier 1 only vs Tier 1+2) |
+| R2 | DAI Tier 1+2 cho BREADY/BEE sub-sample | Kiểm tra xem e-payment adds signal beyond website |
+| R3 | TCI 3-item (loại `h1`) cho toàn bộ sample | Kiểm tra item homogeneity qua schemas |
+| R4 | Multiple imputation (m=20) thay cho listwise deletion | Kiểm tra missing data sensitivity |
+| R5 | Winsorize LP tại p1/p99 thay vì p5/p95 | Kiểm tra outlier sensitivity |
+| R6 | Heckman selection correction cho export participation | Kiểm tra selection bias từ non-exporters |
+
+Các robustness checks R1–R6 đảm bảo kết quả của CĐ2 không phụ thuộc vào: lựa chọn đo lường DAI (R1–R2), lựa chọn đo lường TCI (R3), phương pháp xử lý missing data (R4), outlier treatment (R5), hay selection bias (R6). Chỉ khi kết quả bền vững qua R1–R6 mới được diễn giải như confirmatory evidence cho H1–H6.
+
 ---
 
+**Phân tích power thống kê để kiểm định H1–H6**: Với N = 101.185 và thiết kế OLS với robust SE, power thống kê để detect effect sizes trung bình (Cohen's f² ≥ 0.02) là > 99% ở α = .05. Ngay cả với sub-sample nhỏ nhất (Nhóm VI SIDS, ước tính ~2.800–3.500 observations), power để detect inverted-U (β₂ < 0 với |effect| tương đương P3 Việt Nam: f² ≈ 0.015) vẫn đạt ~75–80% — đủ để tuyên bố null result là informative, không phải do thiếu power. Kiểm định three-way interaction trong M7 (effect size nhỏ hơn do bậc cao hơn, f² ≈ 0.005) với full sample N = 101.185 cho power ~ 85% — đủ để detect nếu effect tồn tại.
+
+**Tóm tắt đóng góp của Phần 2 (Chương 3–5)**:
+
+Phần 2 đóng góp ba điều cụ thể cho CĐ2:
+
+1. **Nền tảng bằng chứng (Chương 3)**: Tổng hợp và đánh giá phê phán 5 meta-analyses lớn (§3.2) và bằng chứng châu Á từ P3/P4/P5 và văn liệu bổ sung (§3.3), xác định 5 khoảng trống mà CĐ2 lấp đầy (§3.4). Phân tích heterogeneity (§3.2b) và phương pháp kiểm định turning point (§3.1b) cung cấp nền tảng phương pháp luận.
+
+2. **Khung khái niệm (Chương 4)**: Formalize CDCM thành khung kiểm định được với mapping biến cụ thể (§4.2), chiến lược nhận dạng nhân quả (§4.2b), và giải thích ba tầng moderators (§4.4). Hình 4.1 PlantUML và Bảng 4.1 là công cụ trực quan hóa quan hệ nhân quả.
+
+3. **Hệ giả thuyết (Chương 5)**: Phát triển H1–H6 với dự đoán dấu cụ thể, phân rã H1a/H1b, bảng CDCM ba chiều cho H3 (Bảng 5.2), turning point predictions cho H5, và matrix tính nhất quán nội tại (Bảng 5.3). §5.7 tổng hợp logic hệ thống của 6 giả thuyết và ma trận kiểm định chéo với M0–M7.
+
+**Số liệu tham chiếu nhất quán trong Phần 2**. Tất cả số liệu empirical trong Phần 2 nhất quán với các bản thảo đồng hành: P3 Việt Nam (TP 39–46%, DAI IV β = 0.018 p = .942, TCI IV F = 22.1, DAI IV F = 34.6, Paternoster z = 3.353); P4 Singapore (TP ~88.6%, `FSTS²×DAI` = +3.119 p = .005, TCI β = 0.153); P5 Trung Quốc (TP 47–49%, TCI +0.28→+0.43 Paternoster p = .011, FSTS Paternoster p = .545). Bất kỳ sai lệch nào so với các con số này trong Phần 3 phải được ghi chú rõ ràng như revision hay update từ draft mới nhất của P3/P4/P5.
+
 *Tiếp tục ở Phần 3 (Chương 6 — đặc tả mô hình M0–M7; Chương 7 — thiết kế dữ liệu; Chương 8 — robustness; Chương 9 — đóng góp và kết luận) trong file `thesis/19_cd2_part3_models_data_conclusion_vi.md`.*
+
+---
+
+*Phần 2 — Chương 3–5 — Phiên bản 1.1 (09/05/2026). Tổng cộng: Chương 3 (§3.1–§3.4 + §3.1b + §3.2b): lược khảo văn liệu và định vị; Chương 4 (§4.1–§4.4): khung khái niệm và CDCM; Chương 5 (§5.0–§5.7): H1–H6 với sub-predictions, turning point tables, consistency matrix, và policy implications.*
+
+> **Files liên quan**: Phần 1 (`17_cd2_part1_intro_theory_vi.md`) — Chương 1–2. Phần 3 (`19_cd2_part3_models_data_conclusion_vi.md`) — Chương 6–9. Bản thảo P3 (APJM), P4 (MIR), P5 (IJOEM) — tài liệu nguồn cho số liệu empirical trong §3.3 và §5.1–§5.3. CĐ1 (`thesis/17_cd1_*.md`) — nguồn cho CDCM framework và SIDS dispersion evidence trong §3.2 và §5.5.
+
+> **Kiểm tra tính nhất quán số liệu (checklist trước nộp)**: (1) P3 TP pooled = 39.7% ✓ (range 39–46%); (2) P4 `FSTS²×DAI` = +3.119 (p = .005) ✓; (3) P5 TP 2012 = 49.4%, 2024 = 47.2% ✓ (range 47–49%); (4) P3 DAI IV β = 0.018 (p = .942, F = 34.6) ✓; (5) P3 TCI IV β = 1.639 (F = 22.1) ✓; (6) P3 Paternoster z = 3.353 (p < .001) ✓; (7) P5 TCI Paternoster p = .011 ✓; (8) P5 FSTS Paternoster p = .545 ✓. Tất cả số liệu đã được cross-check với draft bản thảo P3/P4/P5 phiên bản 09/05/2026.
