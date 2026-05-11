@@ -1,0 +1,23 @@
+{
+  "n_total": 8253,
+  "n_countries": 3,
+  "n_country_years": 6,
+  "countries": [
+    "China",
+    "Singapore",
+    "Vietnam"
+  ],
+  "models_run": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M5",
+    "M6",
+    "M7",
+    "M8",
+    "M9",
+    "M10",
+    "M11"
+  ]
+}

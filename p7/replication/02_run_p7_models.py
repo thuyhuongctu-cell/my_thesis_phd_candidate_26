@@ -182,7 +182,22 @@ def main():
     )
     print(f"  Full analytic (all focal): {len(full_analytic):,}")
 
-    controls_base = "female_owner + foreign_own_pct + firm_age + ln_size"
+    # Build controls dynamically from columns that are actually present + have data
+    optional_controls = ["female_owner", "foreign_own_pct", "firm_age", "ln_size"]
+    available_controls = [
+        c for c in optional_controls
+        if c in df.columns and df[c].notna().sum() > 100
+    ]
+    controls_base = " + ".join(available_controls) if available_controls else "1"
+    print(f"  Controls used: {controls_base}")
+
+    # Rebuild full_analytic using only available focal vars
+    full_focal_vars = ["tci_z", "dai_z", "mgr_experience"]
+    available_focal = [v for v in full_focal_vars if v in df.columns and df[v].notna().sum() > 10]
+    if "mgr_female" in df.columns and df["mgr_female"].notna().sum() > 10:
+        available_focal.append("mgr_female")
+    full_analytic = analytic.dropna(subset=available_focal)
+    print(f"  Full analytic (revised, focal={available_focal}): {len(full_analytic):,}")
 
     # ---------- Model hierarchy ----------
     models = {}
@@ -199,7 +214,8 @@ def main():
     lm_tests["M2"] = lind_mehlum_test(models["M2"], "fsts_c", "fsts_c2")
 
     # M3 — M2 + controls
-    sub3 = analytic.dropna(subset=["female_owner", "firm_age", "ln_size"])
+    sub3 = analytic.dropna(subset=[c for c in available_controls if c in analytic.columns])
+    sub3 = sub3 if len(sub3) > 50 else analytic
     models["M3"] = run_ols_hc1(
         f"ln_labor_prod ~ fsts_c + fsts_c2 + {controls_base}", sub3
     )
@@ -219,7 +235,7 @@ def main():
             print(f"  M5 failed: {e}")
 
     # M6 — M3 + TCI direct (H2 direct effect)
-    sub6 = analytic.dropna(subset=["tci_z", "female_owner", "firm_age", "ln_size"])
+    sub6 = analytic.dropna(subset=["tci_z"] + [c for c in available_controls if c in analytic.columns])
     if len(sub6) > 50:
         models["M6"] = run_ols_hc1(
             f"ln_labor_prod ~ fsts_c + fsts_c2 + tci_z + {controls_base}", sub6
@@ -243,7 +259,7 @@ def main():
             pass
 
     # M8 — M7 + DAI direct + DAI moderation (H3/H4)
-    sub8 = analytic.dropna(subset=["tci_z", "dai_z", "female_owner", "firm_age", "ln_size"])
+    sub8 = analytic.dropna(subset=["tci_z", "dai_z"] + [c for c in available_controls if c in analytic.columns])
     if len(sub8) > 50:
         models["M8"] = run_ols_hc1(
             f"ln_labor_prod ~ fsts_c + fsts_c2 + tci_z + "
@@ -259,21 +275,26 @@ def main():
             pass
 
     # M9 — Top manager moderation (H4)
-    sub9 = analytic.dropna(subset=["tci_z", "dai_z", "mgr_experience",
-                                    "female_owner", "firm_age", "ln_size"])
+    mgr_vars = ["mgr_experience"]
+    if "mgr_female" in df.columns and df["mgr_female"].notna().sum() > 10:
+        mgr_vars.append("mgr_female")
+    mgr_formula_terms = "mgr_experience + fsts_c_x_mgr"
+    if "mgr_female" in mgr_vars:
+        mgr_formula_terms += " + mgr_female"
+    sub9 = analytic.dropna(subset=["tci_z", "dai_z"] + mgr_vars +
+                            [c for c in available_controls if c in analytic.columns])
     if len(sub9) > 50:
         models["M9"] = run_ols_hc1(
             f"ln_labor_prod ~ fsts_c + fsts_c2 + tci_z + "
             f"fsts_c_x_tci + fsts_c2_x_tci + dai_z + "
             f"fsts_c_x_dai + fsts_c2_x_dai + "
-            f"mgr_experience + fsts_c_x_mgr + mgr_female + "
-            f"{controls_base}", sub9
+            f"{mgr_formula_terms} + {controls_base}", sub9
         )
         lm_tests["M9"] = lind_mehlum_test(models["M9"], "fsts_c", "fsts_c2")
 
     # M10 — ICRV institutional moderation (H5)
-    sub10 = analytic.dropna(subset=["icrv_group", "tci_z", "dai_z",
-                                     "female_owner", "firm_age", "ln_size"])
+    sub10 = analytic.dropna(subset=["icrv_group", "tci_z", "dai_z"] +
+                             [c for c in available_controls if c in analytic.columns])
     if len(sub10) > 50 and sub10["icrv_group"].nunique() > 1:
         models["M10"] = run_ols_hc1(
             f"ln_labor_prod ~ fsts_c + fsts_c2 + tci_z + dai_z + "
@@ -284,17 +305,19 @@ def main():
 
     # M11 — Full 3-way: DAI × ICRV × mgr_experience (H7-P7)
     sub11 = analytic.dropna(subset=["icrv_group", "tci_z", "dai_z",
-                                     "mgr_experience", "female_owner",
-                                     "firm_age", "ln_size"])
+                                     "mgr_experience"] +
+                             [c for c in available_controls if c in analytic.columns])
     if len(sub11) > 50 and sub11["icrv_group"].nunique() > 1:
         try:
+            m11_mgr = "mgr_experience + fsts_c_x_mgr"
+            if "mgr_female" in df.columns and df["mgr_female"].notna().sum() > 10:
+                m11_mgr += " + mgr_female"
             models["M11"] = run_ols_hc1(
                 f"ln_labor_prod ~ fsts_c + fsts_c2 + tci_z + dai_z + "
                 f"icrv_group + fsts_c_x_icrv + "
                 f"fsts_c_x_dai + dai_x_icrv + "
                 f"fsts_c_x_dai_x_icrv + "
-                f"mgr_experience + fsts_c_x_mgr + mgr_female + "
-                f"{controls_base}", sub11
+                f"{m11_mgr} + {controls_base}", sub11
             )
             lm_tests["M11"] = lind_mehlum_test(models["M11"], "fsts_c", "fsts_c2")
         except Exception as e:
