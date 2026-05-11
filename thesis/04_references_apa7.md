@@ -146,6 +146,24 @@ World Bank. (2025, December). *Kiribati 2025 Enterprise Surveys country profile*
 
 World Bank. (2026). *Indicator descriptions*. World Bank Enterprise Surveys.
 
+Buchhave, H., Nguyen, C. V., Vu, C., Nguyen, G. T., & Zumbyte, I. (2026). *Care for growth: Making industrial jobs work for women in Viet Nam* (Policy Summary Note). World Bank Group & Australian Aid.
+
+International Finance Corporation. (2022, December). *Mind the gaps: Women in leadership in Viet Nam's banking sector*. IFC, World Bank Group.
+
+World Bank. (2024, December). *Viet Nam economy snapshot: Justice* (Prosperity Data360). World Bank Group. https://www.worldbank.org/ext/en/country/vietnam
+
+World Bank. (2025a, March). *Digital public infrastructure and development: A World Bank Group approach*. World Bank Group.
+
+World Bank. (2025b, September). *Viet Nam economic update: Nurturing high-tech talents* (Taking Stock, September 2025). World Bank Group.
+
+World Bank. (2025c, October). *Viet Nam economy snapshot: Finance, competitiveness & innovation* (Prosperity Data360). World Bank Group. https://www.worldbank.org/ext/en/country/vietnam
+
+World Bank. (2025d, December). *Korea global digital knowledge center*. World Bank Group.
+
+World Bank. (2026a). *ID4D & G2Px annual report 2023: Putting people at the center of digital public infrastructure*. World Bank Group.
+
+World Bank. (2026b, April). *Viet Nam macro monitoring: April 2026*. World Bank Group, Fiscal Policy and Growth Viet Nam Team.
+
 **World Bank. (n.d.). *Tài liệu tóm tắt: Các chỉ số khảo sát doanh nghiệp Enterprise Surveys* [Summary document: Enterprise Survey indicators]. World Bank.** https://www.enterprisesurveys.org *(Mới v2.5 — Bản tiếng Việt tóm tắt 5 lĩnh vực WBES với thuật ngữ Việt chuẩn từ World Bank: (1) Quy định pháp lý + Thuế (Time Tax = "Thuế thời gian"; Tax compliance = "Tuân thủ thuế"); (2) Tài chính + Tín dụng (Credit constraint = "Hạn chế tín dụng"; Financial digitalization = "Số hóa tài chính"); (3) Cơ sở hạ tầng + Khí hậu (Energy management = "Quản lý năng lượng"); (4) Tham nhũng + Tranh chấp (Bribery = "Hối lộ"; Graft = "Tham ô"); (5) Lao động + Đổi mới (Online presence = "Hiện diện trực tuyến"). Năm xuất bản KHÔNG ghi rõ — APA 7th cite "n.d." per §8.31. Cited file 09b_vn_term_glossary.md cho thuật ngữ chuẩn + chuyển dịch tiếng Việt CĐ1 v3.x.)*
 
 **World Bank. (2025, July 1). *Hướng dẫn học tập: Hệ thống phân loại quốc gia và khảo sát doanh nghiệp của Ngân hàng Thế giới (FY26)* [Learning guide: World Bank country classification system FY26]. World Bank.** *(Mới v2.5 — Bản tiếng Việt FY26 (hiệu lực 1/7/2025) với 3 hệ thống phân loại: (a) **4 income groups**: Thu nhập thấp ≤$1.135 GNI; Thu nhập trung bình thấp $1.136–$4.495; Thu nhập trung bình cao $4.496–$13.935; Thu nhập cao >$13.935; (b) **7 regions**: EAP (Đông Á + Thái Bình Dương), ECA (Châu Âu + Trung Á), LAC (Mỹ Latinh + Caribe), **MENAAP (mới FY26 — Trung Đông + Bắc Phi + Afghanistan + Pakistan)**, NA (Bắc Mỹ), SAS (Nam Á), SSA (Châu Phi cận Sahara); (c) **3 borrowing classifications**: IDA only / Blend / IBRD only; (d) **Phương pháp Atlas** để tính GNI per capita. Cited §1.3 phạm vi không gian (47 nước châu Á phân loại theo income group) + §3 ICRV regime classification trong CĐ1 v3.x.)*

@@ -192,6 +192,8 @@ The capability-complementarity curve reshaping found for DAI in M9 — and the s
 
 The consistent and significant performance premium for female top managers (approximately 17–20% across specifications) is notable given the diversity of economies in our sample, from conservative Gulf economies (Bahrain, Iraq) to progressive innovation hubs (Korea, Singapore, Israel). This cross-context robustness supports the view that female top management is a genuine resource (Hambrick & Mason, 1984; Richard et al., 2019), not merely a proxy for firm governance quality. The null curve-moderation result (FSTS×female_manager not significant) suggests that the performance premium is universal across FSTS levels — female managers improve absolute performance but do not help firms navigate internationalisation more efficiently.
 
+Two recent World Bank studies corroborate the premium from a supply-side perspective. In Vietnam — one of our largest ICRV Group IV contributors, with a female-to-male labour force participation ratio of 88.61% (World Bank Prosperity Data360, 2025) — the *Care for Growth* policy note (Buchhave et al., 2026) documents that women who hold management positions have cleared exceptional retention barriers: childbirth reduces women's wage employment probability by 8.1 percentage points and urban household income by 27%, with no significant effect on fathers. Women who reach managerial rank therefore represent a highly selected and committed workforce stratum, consistent with the productivity premium we estimate. At the sector level, IFC (2022) similarly documents that female leadership in Vietnamese banking is associated with superior risk management and stakeholder orientation — the relational-capital mechanisms posited by Upper Echelons Theory (Hambrick & Mason, 1984). These convergent pieces of evidence strengthen the interpretation that the WBES-estimated premium reflects genuine managerial capability rather than endogenous selection into high-productivity firms.
+
 ### 5.5 Limitations
 
 Three inferential constraints bound these findings. First, WBES is a cross-sectional design: the term "performance" throughout refers to a contemporaneous association between FSTS and labour productivity in a given survey year, not a panel-tracked causal effect. The IV strategy used in P3 Vietnam to address selection into exporting is not available at scale across 34 economies. Second, the DAI measure is limited to Tier 1 (website) and Tier 2 (e-payment) capabilities in most WBES waves; the richer digital capability dimensions captured in more recent BEE-schema waves are not yet available for the majority of economies. Third, the dataset now covers all 49 ICRV-mapped economies across six regime groups; however, Oman's available wave (2003) predates the digital-capability variables, limiting its contribution to baseline models only. Future waves of the Oman WBES would sharpen Group II estimates.
@@ -200,7 +202,11 @@ Three inferential constraints bound these findings. First, WBES is a cross-secti
 
 ## 6. Conclusions
 
-We find that the inverted-U I–P relationship holds robustly across a 49-economy, 102-wave WBES sample, with a turning point of approximately 36% foreign sales intensity. Three conclusions are policy-relevant. First, for firms in the ascending phase (FSTS < 36%), intensifying internationalisation is productivity-enhancing; the priority is removing barriers to export expansion. For firms beyond the turning point, the constraint is not market access but coordination capacity. Second, building technological capability raises the performance level across all FSTS levels without reliably reshaping the curve; policy should target capability building as a baseline performance lever rather than as a curve-shifting intervention. Third, digital adoption is both a universal performance enhancer and a primary curve reshaper: DAI compresses ascending-limb returns and attenuates descending-limb performance decline, with stronger returns in weaker institutional environments (DAI×ICRV, p = .012). Future research should leverage the growing panel dimensions of WBES to establish causality, and incorporate Tier 3–4 digital capability measures (AI adoption, cloud computing, platform participation) as these items become available in the 2025+ WBES waves.
+We find that the inverted-U I–P relationship holds robustly across a 49-economy, 102-wave WBES sample, with a turning point of approximately 36% foreign sales intensity. Three conclusions are policy-relevant. First, for firms in the ascending phase (FSTS < 36%), intensifying internationalisation is productivity-enhancing; the priority is removing barriers to export expansion. For firms beyond the turning point, the constraint is not market access but coordination capacity. Second, building technological capability raises the performance level across all FSTS levels without reliably reshaping the curve; policy should target capability building as a baseline performance lever rather than as a curve-shifting intervention. Third, digital adoption is both a universal performance enhancer and a primary curve reshaper: DAI compresses ascending-limb returns and attenuates descending-limb performance decline, with stronger returns in weaker institutional environments (DAI×ICRV, p = .012).
+
+The near-term policy context adds urgency to these findings. World Bank (2026b) macro monitoring data for Vietnam — the largest ICRV Group IV economy in the sample — show manufacturing PMI falling to 45.3 (contraction) in March 2026 as new export orders collapsed following the opening of a U.S. trade-representative investigation; merchandise imports had risen 27.8% year-on-year by the same month, partly driven by energy supply-chain disruption from the Strait of Hormuz conflict. These conditions are precisely those under which the right-side of the inverted-U becomes consequential: firms pushed above their optimal FSTS by earlier export commitments face amplified coordination and input-cost pressures. The ICRV moderation result — that Group IV firms face steeper descending-limb penalties — implies that Vietnamese exporters currently above the 36% FSTS turning point are among the most exposed to macro shocks. Policies promoting digital capability adoption (DAI) can buffer this descent by compressing the descending limb, consistent with our M8/M9 estimates.
+
+Future research should leverage the growing panel dimensions of WBES to establish causality, and incorporate Tier 3–4 digital capability measures (AI adoption, cloud computing, platform participation) as these items become available in the 2025+ WBES waves.
 
 ---
 
@@ -209,6 +215,8 @@ We find that the inverted-U I–P relationship holds robustly across a 49-econom
 Aiken, L. S., & West, S. G. (1991). *Multiple regression: Testing and interpreting interactions*. Sage.
 
 Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120. https://doi.org/10.1177/014920639101700108
+
+Buchhave, H., Nguyen, C. V., Vu, C., Nguyen, G. T., & Zumbyte, I. (2026). *Care for growth: Making industrial jobs work for women in Viet Nam* (Policy Summary Note). World Bank Group & Australian Aid.
 
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization-performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
 
@@ -235,6 +243,8 @@ Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of Management
 Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
 
 Hayes, A. F. (2018). *Introduction to mediation, moderation, and conditional process analysis: A regression-based approach* (2nd ed.). Guilford Press.
+
+International Finance Corporation. (2022, December). *Mind the gaps: Women in leadership in Viet Nam's banking sector*. IFC, World Bank Group.
 
 Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm—A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
 
@@ -267,6 +277,18 @@ Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian
 Wernerfelt, B. (1984). A resource-based view of the firm. *Strategic Management Journal, 5*(2), 171–180. https://doi.org/10.1002/smj.4250050207
 
 World Bank. (2025). *Enterprise surveys*. https://www.enterprisesurveys.org
+
+World Bank. (2025a, March). *Digital public infrastructure and development: A World Bank Group approach*. World Bank Group.
+
+World Bank. (2025b, September). *Viet Nam economic update: Nurturing high-tech talents* (Taking Stock, September 2025). World Bank Group.
+
+World Bank. (2025c, October). *Viet Nam economy snapshot: Finance, competitiveness & innovation* (Prosperity Data360). World Bank Group. https://www.worldbank.org/ext/en/country/vietnam
+
+World Bank. (2026a). *ID4D & G2Px annual report 2023: Putting people at the center of digital public infrastructure*. World Bank Group.
+
+World Bank. (2026b, April). *Viet Nam macro monitoring: April 2026*. World Bank Group, Fiscal Policy and Growth Viet Nam Team.
+
+World Bank. (2024, December). *Viet Nam economy snapshot: Justice* (Prosperity Data360). World Bank Group. https://www.worldbank.org/ext/en/country/vietnam
 
 Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationalisation and innovation of business groups: Evidence from China. *Journal of World Business, 54*(4), 305–320.
 
