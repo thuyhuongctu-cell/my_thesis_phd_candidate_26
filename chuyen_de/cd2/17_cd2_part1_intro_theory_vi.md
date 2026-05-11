@@ -277,6 +277,8 @@ Chuyên đề gồm chín chương:
 
 **Vai trò trong CĐ2**. Digital Capability Lens cung cấp lý thuyết cho **hệ giả thuyết H3 (DAI điều tiết tích cực, riêng biệt với TCI)**: hai biến năng lực số khác nhau với cơ chế tác động khác nhau, cần tách bạch trong mô hình.
 
+**Hạ tầng số công cộng (DPI) như điều kiện nền**. World Bank (2025a) xác định **Digital Public Infrastructure (DPI)** — gồm định danh số quốc gia, hệ thống thanh toán số và nền tảng chia sẻ dữ liệu — là lớp hạ tầng cho phép DAI Tier 1–2 phổ cập ở quy mô đại chúng. Điều này giải thích gradient tác động điều tiết của DAI theo ICRV: ở Nhóm I (DPI hoàn thiện — Singapore, Korea, Hong Kong), DAI Tier 1–2 đã saturated → chỉ xuất hiện conditional effect ở FSTS cao (digital saturation paradox, P4 MIR); ở Nhóm IV (DPI đang phát triển — Việt Nam), DAI còn discriminatory power → positive level effect và moderation có chiều (P3 APJM).
+
 ### 2.6 Tích hợp 4 tầng + Digital Lens
 
 **Bảng 2.1**. *Mỗi tầng lý thuyết → câu hỏi phụ → biến số CĐ2 → giả thuyết tương ứng.*

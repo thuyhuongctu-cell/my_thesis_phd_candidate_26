@@ -360,6 +360,14 @@ StartupBlink. (2026). *Innovators Business Environment Index 2026*. StartupBlink
 
 ---
 
+## R. Tài liệu mới bổ sung v2.8 — Trade Restructuring
+
+Abreha, K., & Lopez Acevedo, G. (2024). *Trade restructuring: Assessing labor market and welfare effects* (Policy Research Working Paper No. 10955). World Bank Group. *(Cited in P5 §2 — trade re-equilibration, US–China tariff cycle, bilateral trade flow reorientation; Poverty and Equity Global Practice, October 2024.)*
+
+*(Các tài liệu World Bank DPI, Vietnam FCI Snapshot, Taking Stock, GDKC đã được lưu trong Section P — World Bank 2025a/b/c/d.)*
+
+---
+
 ## Hướng dẫn sử dụng (cập nhật v2.5)
 
 ### Trong bản thảo luận án

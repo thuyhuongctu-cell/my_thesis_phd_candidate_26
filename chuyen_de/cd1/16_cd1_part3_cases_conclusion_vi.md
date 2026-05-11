@@ -43,6 +43,8 @@ FSTS 23,2% → 17,9% → 16,1% (suy giảm); doanh nghiệp xuất khẩu 37,1% 
 
 **Hàm ý cho CĐ2** *(mới v3.4)*: bổ sung **biến `Vietnam_HighValue_FDI_2026`** đo bước chuyển từ assembly → higher-value của FDI manufacturing như test cho **H7 industry × institutional dynamism interaction** (Kafouros et al., 2023).
 
+**Bổ sung góc độ năng lực cạnh tranh — World Bank FCI Snapshot (2025)**: Dữ liệu Prosperity Data360 Finance, Competitiveness & Innovation xác nhận bức tranh kinh tế này — GDP tăng trưởng 7,09% (2024), FDI đạt $20,17 tỷ (4,23% GDP), cơ cấu xuất khẩu dịch chuyển mạnh sang máy móc & điện tử (45,8% tổng xuất khẩu), tỷ lệ nữ/nam trong lực lượng lao động đạt 88,61% (2023) — cao hơn trung bình khu vực (World Bank, 2025c). Bức tranh này củng cố luận giải *two-tier economy* và xác nhận chuyển đổi cơ cấu diễn ra song hành với 3 đợt khảo sát WBES 2009–2023.
+
 ### 5.4 Trung Quốc (n=4.889)
 
 FSTS 10,9% → 8,8%; FDI ≥10% chiếm 6,0%. Quan hệ FSTS – năng suất là hàm bậc ba (cubic) với điểm uốn ~47,8% (Đỗ & Phan, 2026 — JFAR). **Cập nhật v3.1c**: Wang, Huang và Hong (2024 — *IRFA*) phân tích 80% bank risk models ở PRC phụ thuộc dominant tech providers — **concentration risk** trong digital ecosystem PRC.
@@ -169,7 +171,7 @@ Bốn đề xuất cụ thể cho doanh nghiệp + nhà hoạch định chính s
 
 Bốn lộ trình số hóa cho SME Việt Nam tham khảo:
 
-(a) **Mô hình Singapore + Korea — AI integration full-stack** *(Tier-3 transformation)*: Singapore SmartNation initiative + Korea Digital New Deal đã đạt mức tích hợp AI vào toàn bộ chuỗi value chain — từ marketing automation → CRM intelligence → supply chain optimization → financial forecasting. SME Việt Nam ở giai đoạn này còn xa, **không nên copy nguyên mẫu** mà nên target **Tier-2 first** (xem điểm (d) dưới đây).
+(a) **Mô hình Singapore + Korea — AI integration full-stack** *(Tier-3 transformation)*: Singapore SmartNation initiative + Korea Digital New Deal (World Bank, 2025d — GDKC) đã đạt mức tích hợp AI vào toàn bộ chuỗi value chain — từ marketing automation → CRM intelligence → supply chain optimization → financial forecasting. SME Việt Nam ở giai đoạn này còn xa, **không nên copy nguyên mẫu** mà nên target **Tier-2 first** (xem điểm (d) dưới đây).
 
 (b) **Mô hình Japan — 60% DN dùng AI back-office** *(Tier-2 productive transformation)*: Japan đã đạt 60% doanh nghiệp dùng AI cho back-office tasks (accounting automation, HR scheduling, customer service chatbots). Đây là **realistic target cho SME Việt Nam 2026-2030** — không cần AI cutting-edge, chỉ cần AI applied cho efficiency gains. Khuyến nghị: chính phủ tài trợ **AI Adoption Voucher Program** cho SME (~50 triệu VND/firm) để mua off-the-shelf AI tools (Microsoft Copilot, Notion AI, Make.com).
 
