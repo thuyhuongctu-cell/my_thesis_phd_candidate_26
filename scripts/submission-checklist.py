@@ -3,9 +3,9 @@
 submission-checklist.py — Checklist trước khi nộp manuscript cho tạp chí.
 
 Chạy:
-    python3 scripts/submission-checklist.py --paper manuscripts/p3_vietnam_en_clean.md --journal apjm
-    python3 scripts/submission-checklist.py --paper manuscripts/p4_singapore_en_clean.md --journal mir
-    python3 scripts/submission-checklist.py --paper manuscripts/p5_china_en_clean.md --journal ijoem
+    python3 scripts/submission-checklist.py --paper p3/p3_vietnam_en_clean.md --journal apjm
+    python3 scripts/submission-checklist.py --paper p4/p4_singapore_en_clean.md --journal mir
+    python3 scripts/submission-checklist.py --paper p5/p5_china_en_clean.md --journal ijoem
     python3 scripts/submission-checklist.py --list-journals
 """
 
