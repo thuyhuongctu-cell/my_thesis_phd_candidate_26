@@ -79,8 +79,10 @@ NEG_CODES = {-9, -8, -7, -6, -5, -4, -3, -2, -1}
 ICRV_MAP = {
     # Group I — Advanced innovation
     "Singapore": 1, "Korea": 1, "Taiwan": 1, "Israel": 1, "Cyprus": 1,
+    "HongKong": 1,   # HK SAR — per dissertation ICRV framework (WGI >+0.80)
     # Group II — Advanced resource
     "Bahrain": 2, "Kuwait": 2, "Qatar": 2, "Oman": 2, "SaudiArabia": 2,
+    "Brunei": 2,     # Brunei — advanced resource-driven (oil sultanate, high WGI)
     # Group III — Upper-middle capability
     "China": 3, "Malaysia": 3, "Thailand": 3, "Kazakhstan": 3,
     "Armenia": 3, "Georgia": 3,
@@ -92,10 +94,10 @@ ICRV_MAP = {
     "Bhutan": 5, "Maldives": 5, "Afghanistan": 5, "Tajikistan": 5,
     "KyrgyzRepublic": 5, "Uzbekistan": 5, "Turkmenistan": 5,
     "Iraq": 5, "Yemen": 5, "Jordan": 5, "Lebanon": 5,
-    # Group VI — Pacific/SIDS/small
+    # Group VI — Pacific/SIDS/small open economies
     "Fiji": 6, "Samoa": 6, "Kiribati": 6, "Tonga": 6,
     "SolomonIslands": 6, "Vanuatu": 6, "PapuaNewGuinea": 6,
-    "TimorLeste": 6, "Brunei": 6, "HongKong": 6,
+    "TimorLeste": 6,
 }
 
 ICRV_LABEL = {

@@ -35,7 +35,7 @@ Armenia,2024,West Asia,3,375,302,True,True,True,True
 Malaysia,2024,Southeast Asia,3,979,900,True,True,True,True
 Cyprus,2019,West Asia,1,240,200,True,False,True,True
 Mongolia,2013,East Asia,4,360,276,True,False,True,True
-Brunei,2025,Southeast Asia,6,150,99,True,True,True,True
+Brunei,2025,Southeast Asia,2,150,99,True,True,True,True
 Thailand,2025,Southeast Asia,3,813,766,True,True,True,True
 Vanuatu,2023,Pacific,6,111,80,True,True,True,True
 Malaysia,2019,Southeast Asia,3,1221,1114,True,False,True,True
@@ -64,13 +64,48 @@ Indonesia,2023,Southeast Asia,4,2955,1630,True,False,True,True
 Tajikistan,2024,Central Asia,5,364,258,True,True,True,True
 Laos,2024,Southeast Asia,5,363,327,True,True,True,True
 Kazakhstan,2013,Central Asia,3,600,298,True,False,True,True
-HongKong,2023,East Asia,6,598,189,True,True,True,True
+HongKong,2023,East Asia,1,598,189,True,True,True,True
 TimorLeste,2009,Southeast Asia,6,150,83,True,False,True,True
 Myanmar,2016,Southeast Asia,5,607,544,True,False,True,True
 India,2025,South Asia,4,10479,10464,True,True,True,True
+Iraq,2011,West Asia,5,756,697,True,False,True,True
+Israel,2013,West Asia,1,483,423,True,False,True,True
+PapuaNewGuinea,2024,Pacific,6,145,77,True,True,True,True
+Jordan,2013,West Asia,5,573,463,True,False,True,True
+Jordan,2024,West Asia,5,592,514,True,True,True,True
+KyrgyzRepublic,2009,Central Asia,5,235,183,True,False,True,True
+Kuwait,2025,West Asia,2,150,148,True,True,True,True
+Yemen,2010,West Asia,5,477,262,True,False,True,True
+Lebanon,2009,West Asia,5,382,0,False,False,False,False
+Israel,2024,West Asia,1,388,211,True,True,True,True
+Georgia,2023,West Asia,3,592,476,True,True,True,True
+TimorLeste,2021,Southeast Asia,6,238,181,True,False,True,True
+Lebanon,2013,West Asia,5,561,424,True,False,True,True
+Tonga,2024,Pacific,6,150,144,True,True,True,True
+Georgia,2013,West Asia,3,360,191,True,False,True,True
+Maldives,2025,South Asia,5,154,112,True,True,True,True
+Kiribati,2025,Pacific,6,150,114,True,True,True,True
+PapuaNewGuinea,2015,Pacific,6,65,61,True,False,True,True
+Cyprus,2024,West Asia,1,246,246,True,True,True,True
+Georgia,2019,West Asia,3,581,405,True,False,True,True
+Qatar,2025,West Asia,2,480,468,True,True,True,True
+Fiji,2025,Pacific,6,151,91,True,True,True,True
+Jordan,2019,West Asia,5,601,191,True,False,True,True
+Samoa,2023,Pacific,6,157,131,True,True,True,True
+Yemen,2013,West Asia,5,353,255,True,False,True,True
+Iraq,2022,West Asia,5,1019,575,True,False,True,True
+Lebanon,2019,West Asia,5,532,492,True,False,True,True
+SaudiArabia,2025,West Asia,2,1002,997,True,True,True,True
+Mongolia,2025,East Asia,4,601,526,True,True,True,True
+Fiji,2009,Pacific,6,164,72,True,False,True,True
 Philippines,2009,Southeast Asia,4,1326,1034,True,False,True,True
 Philippines,2015,Southeast Asia,4,1335,1106,True,False,True,True
 Philippines_panel,2009,Unknown,,1326,1034,True,False,True,True
 Philippines_panel,2015,Unknown,,1335,1106,True,False,True,True
 Philippines,2009,Southeast Asia,4,1326,1034,True,False,True,True
 Philippines,2015,Southeast Asia,4,1335,1106,True,False,True,True
+Philippines_panel,2009,Unknown,,1326,1034,True,False,True,True
+Philippines_panel,2015,Unknown,,1335,1106,True,False,True,True
+Mongolia_panel,2009,Unknown,,362,348,True,False,True,True
+Mongolia_panel,2013,Unknown,,360,276,True,False,True,True
+Mongolia_panel,2019,Unknown,,360,358,True,False,True,True
