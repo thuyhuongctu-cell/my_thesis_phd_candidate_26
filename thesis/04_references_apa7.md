@@ -232,6 +232,116 @@ Mahler, D., Wang, H., & Weber, M. (2026, May). Inequalities in use of and exposu
 
 Pirlea, A. F., & Corso, L. (2026, May). The unfinished digital revolution: Expanding internet access. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. https://data360.worldbank.org/en/int/atlas/internet-access *(Mới v2.6 — 2,2 tỷ người offline (2025); Bangladesh: 100% 4G coverage nhưng chỉ 53% dùng Internet (coverage-to-connection gap); 280 triệu men online hơn women; Singapore/UAE/Chile >300 Mbps vs LIC <20 Mbps.)*
 
+---
+
+## Bổ sung v2.7 — Tham khảo cốt lõi từ P3/P4/P5/P6/P7/CĐ1/CĐ2
+
+*Các entry dưới đây được thêm để giải quyết 85 warnings từ format-apa7.py. DOIs đã verify từ bản thảo gốc.*
+
+Author, C., & Author, C. B. (2026). Self-citation blinded for anonymous peer review. *Management International Review, under review*. *(Placeholder — replace with real P4 Singapore citation after review decision.)*
+
+Banerjee, A. V., & Duflo, E. (2014). Do firms want to borrow more? Testing credit constraints using a directed lending program. *Review of Economic Studies, 81*(2), 572–607. https://doi.org/10.1093/restud/rdt046
+
+Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120. https://doi.org/10.1177/014920639101700108
+
+Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
+
+Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. *Biometrics, 50*(4), 1088–1101. https://doi.org/10.2307/2533446
+
+Bertram, G. (2006). Introduction: The MIRAB model in the twenty-first century. *Asia Pacific Viewpoint, 47*(1), 1–13. https://doi.org/10.1111/j.1467-8373.2006.00297.x
+
+Brynjolfsson, E., & McAfee, A. (2014). *The second machine age: Work, progress, and prosperity in a time of brilliant technologies*. W. W. Norton & Company.
+
+Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. *American Economic Journal: Macroeconomics, 13*(1), 333–372. https://doi.org/10.1257/mac.20180386
+
+Buckley, P. J., Clegg, L. J., Cross, A. R., Liu, X., Voss, H., & Zheng, P. (2007). The determinants of Chinese outward foreign direct investment. *Journal of International Business Studies, 38*(4), 499–518. https://doi.org/10.1057/palgrave.jibs.8400277
+
+Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
+
+Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank. https://doi.org/10.1596/978-1-4648-1219-6
+
+Demir, B., & Javorcik, B. (2018). Don't throw in the towel, throw in trade credit! *Journal of International Economics, 111*, 177–189. https://doi.org/10.1016/j.jinteco.2018.01.008
+
+Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. *Biometrics, 56*(2), 455–463. https://doi.org/10.1111/j.0006-341X.2000.00455.x
+
+Eden, L., & Nielsen, B. B. (2020). Research methods in international business: The challenge of complexity. *Journal of International Business Studies, 51*(9), 1609–1620. https://doi.org/10.1057/s41267-020-00374-2
+
+Egger, M., Davey Smith, G., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. *British Medical Journal, 315*(7109), 629–634. https://doi.org/10.1136/bmj.315.7109.629
+
+Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
+
+Hall, P. A., & Soskice, D. (2001). *Varieties of capitalism: The institutional foundations of comparative advantage*. Oxford University Press. https://doi.org/10.1093/0199247757.001.0001
+
+Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0022-4
+
+Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal, 40*(4), 767–798. https://doi.org/10.2307/256948
+
+Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics, 124*(4), 1403–1448. https://doi.org/10.1162/qjec.2009.124.4.1403
+
+Hsu, M.-L., & Boggs, D. J. (2003). Internationalization and performance: Traditional measures and their decomposition. *Multinational Business Review, 11*(3), 23–49. https://doi.org/10.1108/1525383X200300015
+
+Hsu, W. T., Chen, H. L., & Cheng, C. Y. (2013). Internationalization and firm performance of SMEs: The moderating effects of CEO attributes. *Journal of World Business, 48*(1), 1–12. https://doi.org/10.1016/j.jwb.2012.06.001
+
+Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm — A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
+
+Kano, L., Tsang, E. W. K., & Yeung, H. W.-C. (2020). Global value chains: A review of the multi-disciplinary literature. *Journal of International Business Studies, 51*(4), 577–622. https://doi.org/10.1057/s41267-020-00304-2
+
+Karna, A., Richter, A., & Riesenkampff, E. (2016). Revisiting the role of the environment in the capabilities–financial performance relationship: A meta-analysis. *Strategic Management Journal, 37*(6), 1154–1173. https://doi.org/10.1002/smj.2379
+
+Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
+
+Knight, G. A., & Cavusgil, S. T. (2004). Innovation, organizational capabilities, and the born-global firm. *Journal of International Business Studies, 35*(2), 124–141. https://doi.org/10.1057/palgrave.jibs.8400071
+
+La Porta, R., & Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives, 28*(3), 109–126. https://doi.org/10.1257/jep.28.3.109
+
+Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
+
+Li, Y., Liu, Y., & Qian, C. (2022). Digitalization, internationalization, and firm performance: Evidence from Chinese manufacturing firms. *International Business Review, 31*(3), 101953. https://doi.org/10.1016/j.ibusrev.2021.101953
+
+Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
+
+Long, J. S., & Ervin, L. H. (2000). Using heteroscedasticity consistent standard errors in the linear regression model. *The American Statistician, 54*(3), 217–224. https://doi.org/10.1080/00031305.2000.10474549
+
+Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
+
+MacKinnon, J. G., & White, H. (1985). Some heteroskedasticity-consistent covariance matrix estimators with improved finite sample properties. *Journal of Econometrics, 29*(3), 305–325. https://doi.org/10.1016/0304-4076(85)90158-7
+
+Manova, K. (2013). Credit constraints, heterogeneous firms, and international trade. *Review of Economic Studies, 80*(2), 711–744. https://doi.org/10.1093/restud/rds036
+
+Mar, T. T., Đỗ, T. H., & Phan, A. T. (2026). *Digital adoption and the internationalization–performance curve: Evidence from Singapore firms* [Manuscript under review]. *Management International Review*.
+
+Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
+
+Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551. https://doi.org/10.1057/s41267-017-0078-8
+
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
+
+Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866. https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
+
+Pierce, J. R., & Aguinis, H. (2013). The too-much-of-a-good-thing effect in management. *Journal of Management, 39*(2), 313–338. https://doi.org/10.1177/0149206311410060
+
+Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. *Academy of Management Journal, 58*(5), 1546–1571. https://doi.org/10.5465/amj.2013.0319
+
+Riahi-Belkaoui, A. (1998). The effects of the degree of internationalization on firm performance. *International Business Review, 7*(3), 315–321. https://doi.org/10.1016/S0969-5931(98)00013-4
+
+Suurmond, R., van Rhee, H., & Hak, T. (2017). Introduction, comparison, and validation of Meta-Essentials: A free and simple tool for meta-analysis. *Research Synthesis Methods, 8*(4), 537–553. https://doi.org/10.1002/jrsm.1260
+
+Tallman, S., & Li, J. (1996). Effects of international diversity and product diversity on the performance of multinational firms. *Academy of Management Journal, 39*(1), 179–196. https://doi.org/10.2307/256635
+
+Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. *Strategic Management Journal, 28*(13), 1319–1350. https://doi.org/10.1002/smj.640
+
+Teece, D. J., Pisano, G., & Shuen, A. (1997). Dynamic capabilities and strategic management. *Strategic Management Journal, 18*(7), 509–533. https://doi.org/10.1002/smj.4250180702
+
+Torraco, R. J. (2005). Writing integrative literature reviews: Guidelines and examples. *Human Resource Development Review, 4*(3), 356–367. https://doi.org/10.1177/1534484305278283
+
+UNCTAD. (2023). *World investment report 2023: Investing in sustainable energy for all*. United Nations Conference on Trade and Development. https://unctad.org/wir2023
+
+Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy, 30*(1), 60–82. https://doi.org/10.1111/j.1467-9701.2007.00872.x
+
+World Bank. (2013). *China Enterprise Survey 2012* [Data file]. World Bank Enterprise Surveys. https://www.enterprisesurveys.org
+
+Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Management Journal, 38*(2), 341–363. https://doi.org/10.2307/256411
+
 Pirlea, A. F., Wadhwa, D., Mahler, D., Serajuddin, U., Welch, M., Thudt, A., & Lambrechts, M. (Eds.). (2026). *Atlas of Global Development 2026* (License: Creative Commons Attribution CC BY 3.0 IGO). World Bank. https://data360.worldbank.org/en/int/atlas *(Mới v2.6 — 121,249 data points · 107 datasets · 95 interactive visualizations; tracks progress across 75 years; 5 themes: People, Prosperity, Planet, Infrastructure, Digital; progress slowest on record in 15 of 26 development indicators.)*
 
 ---

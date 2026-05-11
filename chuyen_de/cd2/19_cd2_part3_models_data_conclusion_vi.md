@@ -153,7 +153,7 @@ Pool 101.185 firms × 47 nước × 107 country-years × 14 mốc khảo sát; p
 - *Spec 1 — full coverage 2009–2025*: pool 101.185 firms với DAI single-component (website) + TCI 2-component (R&D + ISO).
 - *Spec 2 — high precision 2018–2025*: sub-pool ~50.000 firms với DAI 5-component (website + e-commerce + ERP + cloud + AI usage) + TCI 5-component (R&D dummy + R&D intensity + ISO + imported machinery + engineer ratio).
 
-Phát hiện chính phải replicate ở cả 2 specs (criterion theo Aguinis et al., 2011) — đặc biệt: dispersion ratio 2,1×, Mongolia DAI tăng nhưng FSTS không tăng, SIDS digital leapfrog + low FSTS.
+Phát hiện chính phải replicate ở cả 2 specs — tiêu chí replication theo Aguinis et al. (2011) — đặc biệt: dispersion ratio 2,1×, Mongolia DAI tăng nhưng FSTS không tăng, SIDS digital leapfrog + low FSTS.
 
 (c) **Industry FE + 5 subsample tests** (kế thừa CĐ1 §4.8 file 15):
 - *Hypothesis I1*: Manufacturing FSTS dominance → Manufacturing-only subsample n≈50.000

@@ -53,11 +53,17 @@ REF_ENTRY_RE = re.compile(
 
 # Known abbreviation/alias mappings (inline key → how they appear in refs)
 ALIASES = {
-    "ADB": "Asian Development Bank",
+    # Map abbreviation → how the entry appears in the reference list.
+    # Keep same token so normalize_author produces the matching first word.
     "World Bank": "World Bank",
-    "UNCTAD": "United Nations Conference",
-    "IMF": "International Monetary Fund",
-    "WTO": "World Trade Organization",
+    "ADB": "ADB",
+    "UNCTAD": "UNCTAD",
+    "IMF": "IMF",
+    "WTO": "WTO",
+    "CIEM": "CIEM",
+    "IFC": "IFC",
+    "WIPO": "WIPO",
+    "OECD": "OECD",
 }
 
 
@@ -92,6 +98,8 @@ def parse_reference_list(refs_text: str) -> dict[str, list[str]]:
         line = line.strip()
         if not line or line.startswith('#') or line.startswith('>') or line.startswith('---'):
             continue
+        # Strip markdown bold markers (**...**) before matching
+        line = re.sub(r'^\*+', '', line).strip()
         m = REF_ENTRY_RE.match(line)
         if m:
             author_raw = m.group(1).strip()
