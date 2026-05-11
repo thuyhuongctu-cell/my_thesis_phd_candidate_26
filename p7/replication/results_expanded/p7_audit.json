@@ -1,9 +1,11 @@
 {
-  "n_total": 62642,
-  "n_countries": 29,
-  "n_country_years": 61,
+  "n_total": 64188,
+  "n_countries": 31,
+  "n_country_years": 67,
   "countries": [
     "Afghanistan",
+    "Armenia",
+    "Bahrain",
     "Bangladesh",
     "Bhutan",
     "Brunei",
