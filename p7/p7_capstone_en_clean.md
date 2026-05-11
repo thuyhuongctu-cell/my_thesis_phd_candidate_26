@@ -330,5 +330,11 @@ Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationalis
 
 ---
 
+## Appendix B: TFP Production Function Estimates (Robustness Reference)
+
+Sector-level production function coefficients used to construct alternative TFP-based dependent variables for robustness checks. Two specifications are available: VA=f(K,L) (VAKL, value-added formulation) and Y=f(K,L,M) (YKLM, gross-output formulation), each estimated separately for 20 two-digit ISIC manufacturing sectors with high-income economy interaction terms and year fixed effects (2009–2025). Coefficients and t-statistics are stored in `replication/Annex_TFP_regression_tables_March_11_2026.xlsx`. TFP residuals from these regressions can be used as an alternative dependent variable to ln(LP) to test whether the inverted-U relationship is robust to output-per-worker vs. total-factor productivity operationalisations.
+
+---
+
 *Corresponding author: Phan Anh Tu, College of Economics, Can Tho University, patu@ctu.edu.vn, ORCID: 0000-0003-0667-3137*  
 *First author: Do Thuy Huong, Vinh Long University of Technology Education, huongdt@vlute.edu.vn, ORCID: 0000-0002-7711-2487*
