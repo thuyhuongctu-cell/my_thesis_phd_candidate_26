@@ -1,7 +1,7 @@
 {
-  "n_total": 81307,
-  "n_countries": 50,
-  "n_country_years": 104,
+  "n_total": 82616,
+  "n_countries": 51,
+  "n_country_years": 107,
   "countries": [
     "Afghanistan",
     "Armenia",
@@ -33,6 +33,7 @@
     "Mongolia_panel",
     "Myanmar",
     "Nepal",
+    "Nepal_panel",
     "Pakistan",
     "PapuaNewGuinea",
     "Philippines",

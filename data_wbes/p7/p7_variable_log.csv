@@ -68,6 +68,9 @@ HongKong,2023,598,356,True,True,True,True,True,True,True,True,True,True,True,Tru
 TimorLeste,2009,150,186,True,False,True,True,True,True,True,True,True,True,True,False,True,True,True,True
 Myanmar,2016,607,328,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
 India,2025,10479,339,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
+SaudiArabia,2025,1002,336,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
+Oman,2003,337,531,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+Samoa,2023,157,354,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Iraq,2011,756,287,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
 Israel,2013,483,417,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
 PapuaNewGuinea,2024,145,339,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
@@ -91,11 +94,9 @@ Georgia,2019,581,437,True,False,True,True,True,True,True,True,True,True,True,Tru
 Qatar,2025,480,337,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Fiji,2025,151,336,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Jordan,2019,601,437,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-Samoa,2023,157,354,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Yemen,2013,353,417,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
 Iraq,2022,1019,509,True,False,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Lebanon,2019,532,433,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
-SaudiArabia,2025,1002,336,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Mongolia,2025,601,337,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Fiji,2009,164,188,True,False,True,True,True,True,True,True,True,True,True,False,True,True,True,True
 Philippines,2009,1326,466,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
@@ -104,6 +105,9 @@ Philippines_panel,2009,1326,466,True,False,True,True,True,True,True,True,True,Tr
 Philippines_panel,2015,1335,466,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
 Philippines,2009,1326,466,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
 Philippines,2015,1335,466,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
+Nepal_panel,2009,368,587,True,False,True,True,True,True,True,True,True,True,True,True,True,False,True,True
+Nepal_panel,2013,482,587,True,False,True,True,True,True,True,True,True,True,True,True,True,False,True,True
+Nepal_panel,2023,582,587,True,False,True,True,True,True,True,True,True,True,True,True,True,False,True,True
 Philippines_panel,2009,1326,466,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
 Philippines_panel,2015,1335,466,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
 Mongolia_panel,2009,362,682,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True
