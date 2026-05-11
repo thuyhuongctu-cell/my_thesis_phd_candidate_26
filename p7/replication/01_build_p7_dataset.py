@@ -105,14 +105,62 @@ ICRV_LABEL = {
 }
 
 NAME_MAP = {
+    # Vietnam
     "VietNam": "Vietnam", "Vietnam": "Vietnam",
+    # East Asia
     "HongKongSARChina": "HongKong", "HongKong": "HongKong",
-    "TaiwanChina": "Taiwan",
-    "KoreaRepublic": "Korea",
-    "BruneiDarussalam": "Brunei",
+    "TaiwanChina": "Taiwan", "Taiwan": "Taiwan",
+    "KoreaRepublic": "Korea", "Korea": "Korea",
+    "China": "China",
+    # Southeast Asia
+    "Singapore": "Singapore",
+    "Indonesia": "Indonesia",
+    "Philippines": "Philippines",
+    "Thailand": "Thailand",
+    "Malaysia": "Malaysia",
+    "Myanmar": "Myanmar",
+    "Cambodia": "Cambodia",
+    "BruneiDarussalam": "Brunei", "Brunei": "Brunei",
     "LaoPDR": "Laos", "Laos": "Laos",
-    "Kyrgyzrepublic": "KyrgyzRepublic",
-    "China": "China", "Singapore": "Singapore",
+    "TimorLeste": "TimorLeste",
+    # South Asia
+    "India": "India",
+    "Bangladesh": "Bangladesh",
+    "Pakistan": "Pakistan",
+    "SriLanka": "SriLanka",
+    "Nepal": "Nepal",
+    "Bhutan": "Bhutan",
+    "Maldives": "Maldives",
+    "Afghanistan": "Afghanistan",
+    # Central Asia
+    "Kazakhstan": "Kazakhstan",
+    "Kyrgyzrepublic": "KyrgyzRepublic", "KyrgyzRepublic": "KyrgyzRepublic",
+    "Tajikistan": "Tajikistan",
+    "Uzbekistan": "Uzbekistan",
+    "Turkmenistan": "Turkmenistan",
+    # West Asia / Middle East
+    "Armenia": "Armenia",
+    "Georgia": "Georgia",
+    "Bahrain": "Bahrain",
+    "Kuwait": "Kuwait",
+    "Qatar": "Qatar",
+    "Oman": "Oman",
+    "SaudiArabia": "SaudiArabia",
+    "Israel": "Israel",
+    "Jordan": "Jordan",
+    "Lebanon": "Lebanon",
+    "Iraq": "Iraq",
+    "Yemen": "Yemen",
+    "Cyprus": "Cyprus",
+    # Pacific / SIDS
+    "Fiji": "Fiji",
+    "Samoa": "Samoa",
+    "Kiribati": "Kiribati",
+    "Tonga": "Tonga",
+    "SolomonIslands": "SolomonIslands",
+    "Vanuatu": "Vanuatu",
+    "PapuaNewGuinea": "PapuaNewGuinea",
+    "Mongolia": "Mongolia",
 }
 
 
@@ -329,95 +377,116 @@ def main():
     import re
     from collections import defaultdict
 
+    # Keywords that mark files to exclude from single-year processing
+    SKIP_KEYWORDS = ["ISBS", "ISES", "expansion", "Informal", "LongForm",
+                     "ESIS", "Documentation", "paneldata", "Micro", "micro"]
+
+    def parse_stem(fpath: Path) -> tuple[str, int] | None:
+        """Return (canonical_country, year) or None if unparseable."""
+        stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
+        m = re.match(r"^([A-Za-z][A-Za-z ]+?)[\s_-]*(\d{4})", stem)
+        if not m:
+            return None
+        return NAME_MAP.get(m.group(1), m.group(1)), int(m.group(2))
+
+    def is_panel_filename(fpath: Path) -> bool:
+        """True when stem contains two separate 4-digit years."""
+        stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
+        years = re.findall(r"\d{4}", stem)
+        return len(years) >= 2
+
     # Find all .dta files
     dta_files = sorted(raw_dir.rglob("*.dta"))
     if not dta_files:
-        # Also check uploads (for development)
         uploads = list(Path("/root/.claude/uploads").rglob("*.dta"))
-        dta_files = [p for p in uploads if not any(x in p.name for x in ["panel", "ISBS", "ISES", "expansion"])]
-        log.info(f"raw-dir empty — using {len(dta_files)} .dta from uploads (before dedup)")
+        uploads = [p for p in uploads
+                   if not any(kw in p.name for kw in SKIP_KEYWORDS)]
+        log.info(f"raw-dir empty — {len(uploads)} .dta from uploads (before dedup)")
 
-        # Deduplicate: per (country, year), keep the largest file
-        cy_files: dict = defaultdict(list)
-        for fpath in dta_files:
-            stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-            m = re.match(r"^([A-Za-z][A-Za-z]+?)[\s_-]*(\d{4})", stem)
-            if m:
-                c_raw, yr = NAME_MAP.get(m.group(1), m.group(1)), int(m.group(2))
-                cy_files[(c_raw, yr)].append(fpath)
+        # Separate panel files (two years in name) from single-year files
+        panel_files = [p for p in uploads if is_panel_filename(p)]
+        single_files = [p for p in uploads if not is_panel_filename(p)]
+        log.info(f"  Single-year files: {len(single_files)}, "
+                 f"Panel files (will split): {len(panel_files)}")
+
+        # Deduplicate single-year files: per (country, year), keep largest
+        cy_single: dict = defaultdict(list)
+        for fpath in single_files:
+            parsed = parse_stem(fpath)
+            if parsed:
+                cy_single[parsed].append(fpath)
         dta_files = [
             sorted(files, key=lambda p: p.stat().st_size, reverse=True)[0]
-            for files in cy_files.values()
+            for files in cy_single.values()
         ]
-        log.info(f"After dedup: {len(dta_files)} unique country-year files")
 
-    log.info(f"Found {len(dta_files)} .dta files to process")
+        # For panel files, only keep if the (country, year) pair has no single file
+        panel_to_process = []
+        for fpath in panel_files:
+            stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
+            m = re.match(r"^([A-Za-z][A-Za-z ]+?)[\s_-]*(\d{4})", stem)
+            if not m:
+                continue
+            country = NAME_MAP.get(m.group(1), m.group(1))
+            years_in_name = [int(y) for y in re.findall(r"\d{4}", stem)]
+            # Include panel if any of its years lacks a single-year file
+            needs_panel = any((country, yr) not in cy_single for yr in years_in_name)
+            if needs_panel:
+                panel_to_process.append(fpath)
 
-    all_frames = []
-    manifest_rows = []
-    var_log_rows = []
+        log.info(f"After dedup: {len(dta_files)} single-year + "
+                 f"{len(panel_to_process)} panel files")
+    else:
+        panel_to_process = []
 
-    for fpath in dta_files:
-        # Parse country and year from filename
-        stem = fpath.stem
-        stem = re.sub(r"^[0-9a-f]{8}-", "", stem)
-        m = re.match(r"^([A-Za-z][A-Za-z]+?)[\s_-]*(\d{4})", stem)
-        if not m:
-            log.warning(f"Cannot parse country/year from {stem} — skipping")
-            continue
-        country_raw = m.group(1)
-        year = int(m.group(2))
+    log.info(f"Found {len(dta_files)} single-year + "
+             f"{len(panel_to_process)} panel files to process")
 
-        country = NAME_MAP.get(country_raw, country_raw)
+    REGION_MAP = {
+        "China": "East Asia", "HongKong": "East Asia", "Korea": "East Asia",
+        "Taiwan": "East Asia", "Mongolia": "East Asia",
+        "Vietnam": "Southeast Asia", "Singapore": "Southeast Asia",
+        "Thailand": "Southeast Asia", "Malaysia": "Southeast Asia",
+        "Indonesia": "Southeast Asia", "Philippines": "Southeast Asia",
+        "Cambodia": "Southeast Asia", "Laos": "Southeast Asia",
+        "Myanmar": "Southeast Asia", "Brunei": "Southeast Asia",
+        "TimorLeste": "Southeast Asia",
+        "India": "South Asia", "Bangladesh": "South Asia",
+        "Pakistan": "South Asia", "SriLanka": "South Asia",
+        "Nepal": "South Asia", "Bhutan": "South Asia",
+        "Maldives": "South Asia", "Afghanistan": "South Asia",
+        "Kazakhstan": "Central Asia", "KyrgyzRepublic": "Central Asia",
+        "Tajikistan": "Central Asia", "Uzbekistan": "Central Asia",
+        "Turkmenistan": "Central Asia",
+        "Armenia": "West Asia", "Georgia": "West Asia",
+        "Bahrain": "West Asia", "Kuwait": "West Asia",
+        "Qatar": "West Asia", "Oman": "West Asia",
+        "SaudiArabia": "West Asia", "Israel": "West Asia",
+        "Jordan": "West Asia", "Lebanon": "West Asia",
+        "Iraq": "West Asia", "Yemen": "West Asia", "Cyprus": "West Asia",
+        "Fiji": "Pacific", "Samoa": "Pacific", "Kiribati": "Pacific",
+        "Tonga": "Pacific", "SolomonIslands": "Pacific",
+        "Vanuatu": "Pacific", "PapuaNewGuinea": "Pacific",
+    }
 
-        REGION_MAP = {
-            "China": "East Asia", "HongKong": "East Asia", "Korea": "East Asia",
-            "Taiwan": "East Asia", "Mongolia": "East Asia",
-            "Vietnam": "Southeast Asia", "Singapore": "Southeast Asia",
-            "Thailand": "Southeast Asia", "Malaysia": "Southeast Asia",
-            "Indonesia": "Southeast Asia", "Philippines": "Southeast Asia",
-            "Cambodia": "Southeast Asia", "Laos": "Southeast Asia",
-            "Myanmar": "Southeast Asia", "Brunei": "Southeast Asia",
-            "TimorLeste": "Southeast Asia",
-            "India": "South Asia", "Bangladesh": "South Asia",
-            "Pakistan": "South Asia", "SriLanka": "South Asia",
-            "Nepal": "South Asia", "Bhutan": "South Asia",
-            "Maldives": "South Asia", "Afghanistan": "South Asia",
-            "Kazakhstan": "Central Asia", "KyrgyzRepublic": "Central Asia",
-            "Tajikistan": "Central Asia", "Uzbekistan": "Central Asia",
-            "Turkmenistan": "Central Asia",
-            "Armenia": "West Asia", "Georgia": "West Asia",
-            "Bahrain": "West Asia", "Kuwait": "West Asia",
-            "Qatar": "West Asia", "Oman": "West Asia",
-            "SaudiArabia": "West Asia", "Israel": "West Asia",
-            "Jordan": "West Asia", "Lebanon": "West Asia",
-            "Iraq": "West Asia", "Yemen": "West Asia", "Cyprus": "West Asia",
-            "Fiji": "Pacific", "Samoa": "Pacific", "Kiribati": "Pacific",
-            "Tonga": "Pacific", "SolomonIslands": "Pacific",
-            "Vanuatu": "Pacific", "PapuaNewGuinea": "Pacific",
-        }
+    def process_file(fpath: Path, country: str, year: int) -> None:
+        """Read one .dta, harmonize, append to all_frames/manifest_rows/var_log_rows."""
         region = REGION_MAP.get(country, "Unknown")
-
         log.info(f"Processing {country} {year} ({fpath.name})")
         try:
-            df, meta = read_dta_robust(fpath)
+            df, _ = read_dta_robust(fpath)
         except Exception as e:
             log.error(f"  READ ERROR: {e}")
-            continue
+            return
 
-        # Log variable availability
         var_avail = {v: (v in df.columns) for v in
                      ["c22b", "k33", "b8", "e6", "d3a", "d3b", "d3c",
                       "n3", "d2", "l1", "b7", "b7a", "b4", "b6a", "b5", "a4a"]}
         var_log_rows.append({"country": country, "year": year, "n_obs": len(df),
                              "n_vars": len(df.columns), **var_avail})
-
-        # Extract and harmonize
         try:
             frame = build_firm_record(df, country, year, region)
             all_frames.append(frame)
-
-            # Manifest entry
             n_complete = frame[["ln_labor_prod", "fsts", "tci_z", "dai_z"]].dropna().shape[0]
             manifest_rows.append({
                 "country": country, "year": year, "region": region,
@@ -431,6 +500,62 @@ def main():
         except Exception as e:
             log.error(f"  HARMONIZE ERROR: {e}")
             import traceback; traceback.print_exc()
+
+    all_frames = []
+    manifest_rows = []
+    var_log_rows = []
+
+    # --- Single-year files ---
+    for fpath in dta_files:
+        stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
+        m = re.match(r"^([A-Za-z][A-Za-z ]+?)[\s_-]*(\d{4})", stem)
+        if not m:
+            log.warning(f"Cannot parse country/year from {stem} — skipping")
+            continue
+        country = NAME_MAP.get(m.group(1), m.group(1))
+        year = int(m.group(2))
+        process_file(fpath, country, year)
+
+    # --- Panel files: split by 'year' column ---
+    for fpath in panel_to_process:
+        stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
+        m = re.match(r"^([A-Za-z][A-Za-z ]+?)[\s_-]*(\d{4})", stem)
+        if not m:
+            continue
+        country = NAME_MAP.get(m.group(1), m.group(1))
+        log.info(f"Reading panel file {fpath.name} ({country})")
+        try:
+            df_panel, _ = read_dta_robust(fpath)
+        except Exception as e:
+            log.error(f"  PANEL READ ERROR: {e}")
+            continue
+        if "year" not in df_panel.columns:
+            log.warning(f"  No 'year' column in panel — skipping")
+            continue
+        for yr_val, grp in df_panel.groupby("year"):
+            yr = int(yr_val)
+            log.info(f"  Panel split: {country} {yr} ({len(grp)} rows)")
+            region = REGION_MAP.get(country, "Unknown")
+            var_avail = {v: (v in grp.columns) for v in
+                         ["c22b", "k33", "b8", "e6", "d3a", "d3b", "d3c",
+                          "n3", "d2", "l1", "b7", "b7a", "b4", "b6a", "b5", "a4a"]}
+            var_log_rows.append({"country": country, "year": yr, "n_obs": len(grp),
+                                 "n_vars": len(grp.columns), **var_avail})
+            try:
+                frame = build_firm_record(grp.reset_index(drop=True), country, yr, region)
+                all_frames.append(frame)
+                n_complete = frame[["ln_labor_prod", "fsts", "tci_z", "dai_z"]].dropna().shape[0]
+                manifest_rows.append({
+                    "country": country, "year": yr, "region": region,
+                    "icrv_group": ICRV_MAP.get(country, ""),
+                    "n_raw": len(grp), "n_complete_core": n_complete,
+                    "has_website": var_avail["c22b"],
+                    "has_epay": var_avail["k33"],
+                    "has_cert": var_avail["b8"],
+                    "has_foreign_tech": var_avail["e6"],
+                })
+            except Exception as e:
+                log.error(f"  HARMONIZE ERROR ({country} {yr}): {e}")
 
     if not all_frames:
         log.error("No data extracted — check raw-dir or uploads")
