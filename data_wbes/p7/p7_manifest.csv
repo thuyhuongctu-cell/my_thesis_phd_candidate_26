@@ -1,0 +1,7 @@
+country,year,region,icrv_group,n_raw,n_complete_core,has_website,has_epay,has_cert,has_foreign_tech
+China,2024,East Asia,3,2189,1701,True,True,True,True
+Vietnam,2023,Southeast Asia,4,1028,994,True,True,True,True
+China,2012,East Asia,3,2700,2526,True,False,True,True
+Vietnam,2015,Southeast Asia,4,996,889,True,False,True,True
+Singapore,2023,Southeast Asia,1,623,582,True,True,True,True
+Vietnam,2009,Southeast Asia,4,1053,869,True,False,True,True
