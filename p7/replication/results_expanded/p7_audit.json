@@ -1,7 +1,7 @@
 {
-  "n_total": 64188,
-  "n_countries": 31,
-  "n_country_years": 67,
+  "n_total": 68957,
+  "n_countries": 34,
+  "n_country_years": 72,
   "countries": [
     "Afghanistan",
     "Armenia",
@@ -11,6 +11,7 @@
     "Brunei",
     "Cambodia",
     "China",
+    "Cyprus",
     "HongKong",
     "India",
     "Indonesia",
@@ -24,6 +25,7 @@
     "Nepal",
     "Pakistan",
     "Philippines",
+    "Philippines_panel",
     "Singapore",
     "SolomonIslands",
     "SriLanka",
@@ -33,6 +35,7 @@
     "TimorLeste",
     "Turkmenistan",
     "Uzbekistan",
+    "Vanuatu",
     "Vietnam"
   ],
   "models_run": [

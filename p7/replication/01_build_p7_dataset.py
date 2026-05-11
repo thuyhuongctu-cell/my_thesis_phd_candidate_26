@@ -152,6 +152,7 @@ NAME_MAP = {
     "Iraq": "Iraq",
     "Yemen": "Yemen",
     "Cyprus": "Cyprus",
+    "Republic_of_Cyprus": "Cyprus",
     # Pacific / SIDS
     "Fiji": "Fiji",
     "Samoa": "Samoa",
@@ -384,7 +385,8 @@ def main():
     def parse_stem(fpath: Path) -> tuple[str, int] | None:
         """Return (canonical_country, year) or None if unparseable."""
         stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-        m = re.match(r"^([A-Za-z][A-Za-z ]+?)[\s_-]*(\d{4})", stem)
+        # Allow underscores inside country name (e.g. Republic_of_Cyprus)
+        m = re.match(r"^([A-Za-z][A-Za-z_]+?)[\s_-]*(\d{4})", stem)
         if not m:
             return None
         return NAME_MAP.get(m.group(1), m.group(1)), int(m.group(2))
@@ -424,7 +426,7 @@ def main():
         panel_to_process = []
         for fpath in panel_files:
             stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-            m = re.match(r"^([A-Za-z][A-Za-z ]+?)[\s_-]*(\d{4})", stem)
+            m = re.match(r"^([A-Za-z][A-Za-z_]+?)[\s_-]*(\d{4})", stem)
             if not m:
                 continue
             country = NAME_MAP.get(m.group(1), m.group(1))
@@ -508,7 +510,7 @@ def main():
     # --- Single-year files ---
     for fpath in dta_files:
         stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-        m = re.match(r"^([A-Za-z][A-Za-z ]+?)[\s_-]*(\d{4})", stem)
+        m = re.match(r"^([A-Za-z][A-Za-z_]+?)[\s_-]*(\d{4})", stem)
         if not m:
             log.warning(f"Cannot parse country/year from {stem} — skipping")
             continue
@@ -519,7 +521,7 @@ def main():
     # --- Panel files: split by 'year' column ---
     for fpath in panel_to_process:
         stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-        m = re.match(r"^([A-Za-z][A-Za-z ]+?)[\s_-]*(\d{4})", stem)
+        m = re.match(r"^([A-Za-z][A-Za-z_]+?)[\s_-]*(\d{4})", stem)
         if not m:
             continue
         country = NAME_MAP.get(m.group(1), m.group(1))
