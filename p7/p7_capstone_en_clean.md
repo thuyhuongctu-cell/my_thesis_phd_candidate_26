@@ -20,7 +20,7 @@ A central question in international business research concerns whether and how e
 
 This paper addresses that gap. We pool 91,982 firm-observations from 49 Asian and Pacific economies spanning 2003–2025, harmonised from the World Bank Enterprise Survey (WBES). Our sample spans all six ICRV regime groups — from advanced innovation-driven economies (Singapore, Korea, Taiwan, HongKong, Israel, Cyprus) to Pacific Small Island Developing States (Vanuatu, Solomon Islands, Fiji, Tonga, Samoa, Kiribati, Papua New Guinea, Timor-Leste) and Gulf advanced-resource economies (Bahrain, Kuwait, Qatar, Brunei, Saudi Arabia, Oman) — classified through the Institutional Capability and Resource Vulnerability (ICRV) framework that anchors the broader dissertation programme of which this study is part.
 
-Our contributions are threefold. First, we provide the largest WBES-based test of the inverted-U I–P hypothesis in Asia, confirming a turning point at approximately 36% foreign sales intensity across all specifications (N = 82,616–29,840), robust even in the full three-way moderation model (M11: TP=34.6%, LM p=.002). Second, we document that digital adoption (DAI) is the primary capability moderator that reshapes the I–P curve, generating significant curve compression effects (FSTS×DAI p<.001) that emerge even without controlling for manager characteristics. Technological capability (TCI) raises the performance level but does not reliably reshape the ascending limb across this sample. Third, we document that institutional regime (ICRV group) systematically moderates both the slope and curvature of the I–P function, with DAI×ICRV interactions (p=.012) indicating that digital capabilities deliver stronger per-unit performance returns in weaker institutional environments.
+Our contributions are threefold. First, we provide the largest WBES-based test of the inverted-U I–P hypothesis in Asia, confirming a turning point at approximately 36% foreign sales intensity across all specifications (N = 84,910–29,840), robust even in the full three-way moderation model (M11: TP=34.6%, LM p=.002). Second, we document that digital adoption (DAI) is the primary capability moderator that reshapes the I–P curve, generating significant curve compression effects (FSTS×DAI p<.001) that emerge even without controlling for manager characteristics. Technological capability (TCI) raises the performance level but does not reliably reshape the ascending limb across this sample. Third, we document that institutional regime (ICRV group) systematically moderates both the slope and curvature of the I–P function, with DAI×ICRV interactions (p=.012) indicating that digital capabilities deliver stronger per-unit performance returns in weaker institutional environments.
 
 The remainder of the paper is organised as follows. Section 2 develops the theoretical framework and formal hypotheses. Section 3 describes data and methods. Section 4 presents results. Section 5 discusses implications and limitations. Section 6 concludes.
 
@@ -104,7 +104,7 @@ For moderation tests (M7–M11), we include interaction terms FSTS×moderator an
 
 ### 3.4 Sample Sizes
 
-The analytic sample for M2 (outcome + FSTS non-missing) is N = 82,616. Adding controls reduces the sample to N = 37,364 (M3); country-year FE model M5 uses the same sample. TCI-moderation models (M6, M7) use N ≈ 37,075; adding DAI (M8) N ≈ 36,965; manager models (M9) N ≈ 34,595; ICRV-moderation (M10) N ≈ 31,928; full three-way (M11) N ≈ 29,840. The drop from M2 to M3/M5 reflects missingness in control variables (primarily foreign ownership and firm age), which is more prevalent in smaller economies and early WBES waves.
+The analytic sample for M2 (outcome + FSTS non-missing) is N = 84,910. Adding controls reduces the sample to N = 38,342 (M3); country-year FE model M5 uses the same sample. TCI-moderation models (M6, M7) use N ≈ 38,051; adding DAI (M8) N ≈ 37,940; manager models (M9) N ≈ 35,568; ICRV-moderation (M10) N ≈ 31,928; full three-way (M11) N ≈ 29,840. The drop from M2 to M3/M5 reflects missingness in control variables (primarily foreign ownership and firm age), which is more prevalent in smaller economies and early WBES waves.
 
 ---
 
@@ -118,7 +118,7 @@ The full analytic sample spans 49 economies and 102 country-year waves. The mean
 
 *Table 2, Models M0–M5.*
 
-The baseline linear model (M0) confirms that FSTS alone adds no explanatory power (adjR² = .000). Adding the quadratic term FSTS² (M2) yields β₁ = +1.395 (p < .001) and β₂ = −1.914 (p < .001), consistent with an inverted-U. The Lind–Mehlum test confirms concavity (joint p < .001) with a turning point at **FSTS = 36.4%** of sales from exports. The inverted-U remains significant when controls are added (M3: TP = 34.6%, LM p < .001) and when country-year fixed effects absorb all unobserved time-varying country heterogeneity (M5: TP = 39.4%, LM p < .001, adjR² = .694). The consistency of the turning point across M2, M3, and M5 — ranging from 34.6% to 39.4% — provides strong evidence that the inverted-U is not an artefact of omitted country-level confounders. Crucially, the inverted-U is also confirmed in the full three-way moderation model M11 (TP = 35.4%, LM p = .001), establishing robustness to the most demanding specification.
+The baseline linear model (M0) confirms that FSTS alone adds no explanatory power (adjR² = .000). Adding the quadratic term FSTS² (M2) yields β₁ = +1.316 (p < .001) and β₂ = −1.810 (p < .001), consistent with an inverted-U. The Lind–Mehlum test confirms concavity (joint p < .001) with a turning point at **FSTS = 36.4%** of sales from exports. The inverted-U remains significant when controls are added (M3: TP = 33.8%, LM p < .001) and when country-year fixed effects absorb all unobserved time-varying country heterogeneity (M5: TP = 40.0%, LM p < .001, adjR² = .677). The consistency of the turning point across M2, M3, and M5 — ranging from 33.8% to 40.0% — provides strong evidence that the inverted-U is not an artefact of omitted country-level confounders. Crucially, the inverted-U is also confirmed in the full three-way moderation model M11 (TP = 34.6%, LM p = .002), establishing robustness to the most demanding specification.
 
 **H1 is supported.** The I–P relationship is robustly inverted-U in the pooled sample of 49 Asian and Pacific economies, with a turning point of approximately 36% foreign sales intensity.
 
@@ -126,21 +126,21 @@ The baseline linear model (M0) confirms that FSTS alone adds no explanatory powe
 
 *Table 2, Models M6–M7.*
 
-Adding TCI as a main effect (M6: β = +0.365, p < .001) raises adjR² from .014 to .022. The interaction model M7 adds FSTS×TCI and FSTS²×TCI. Results show:
+Adding TCI as a main effect (M6: β = +0.321, p < .001) raises adjR² from .015 to .024. The interaction model M7 adds FSTS×TCI and FSTS²×TCI. Results show:
 
-- TCI main effect: β = +0.365 (p < .001) — higher TCI raises baseline performance
-- FSTS×TCI: β = +0.037 (NS) — the ascending limb interaction is not significant
-- FSTS²×TCI: β = −0.430 (NS in M7; becomes −0.688, p=.023 in M8 with DAI included)
+- TCI main effect: β = +0.344 (p < .001) — higher TCI raises baseline performance
+- FSTS×TCI: β = −0.144 (NS) — the ascending limb interaction is not significant
+- FSTS²×TCI: β = −0.137 (NS in M7; remains NS in M8, p=.129)
 
-The joint F-test for the two TCI interaction terms is not significant in M7 alone, though FSTS²×TCI achieves marginal significance in M8 and M9 (*). The inverted-U remains confirmed in M7 (TP = 35.0%, LM p < .001). A one-SD increase in TCI raises labour productivity by exp(0.365) − 1 ≈ 44% at mean FSTS — a large and practically meaningful level effect. The curvature steepening found in M8/M9 suggests TCI does amplify performance declines at high FSTS, consistent with H2's mechanism, but the ascending limb amplification does not reach significance in this sample.
+The joint F-test for the two TCI interaction terms is not significant across M7–M9. The inverted-U remains confirmed in M7 (TP = 33.9%, LM p < .001). A one-SD increase in TCI raises labour productivity by exp(0.344) − 1 ≈ 41% at mean FSTS — a large and practically meaningful level effect. The curvature steepening predicted by H2 does not emerge in this expanded sample.
 
-**H2 is partially supported (level effect confirmed; curvature steepening marginal; ascending limb NS).** TCI raises the performance level, and marginally steepens the descending limb of the inverted-U in larger specifications. The full amplification of both limbs predicted by H2 is not confirmed, likely reflecting heterogeneous TCI effects across the expanded institutionally diverse sample.
+**H2 is partially supported (level effect confirmed; curvature effects NS).** TCI raises the performance level consistently across specifications, but neither the ascending nor descending limb amplification reaches significance. The null curvature moderation likely reflects heterogeneous TCI effects across the institutionally diverse 49-economy sample, attenuating individual-country patterns documented in P3/P5.
 
 ### 4.4 Digital Adoption Moderation (H3)
 
 *Table 2, Model M8.*
 
-When DAI is added to M7, the DAI main effect is positive and significant (β = +0.151, p < .001), consistent with approximately a 16% performance premium for digitally active firms (exp(0.151) − 1 ≈ 16%). Strikingly, both DAI interaction terms are significant in M8: FSTS×DAI = −0.562 (p = .001, **) and FSTS²×DAI = +0.688 (p = .004, **). The interaction pattern — negative FSTS×DAI and positive FSTS²×DAI — means that high-DAI firms experience a flatter, shifted I–P curve: lower productivity gains per unit of FSTS at low export intensities (sunk adoption costs, or selection of productivity-constrained firms into digital adoption), but significantly smaller performance declines at high FSTS (digital infrastructure supporting cross-border coordination at scale). This result strengthens further in M9 with manager controls: FSTS×DAI = −0.731 (p < .001, ***) and FSTS²×DAI = +0.923 (p < .001, ***). The inverted-U is maintained in both specifications (M8: TP = 34.9%; M9: TP = 38.1%).
+When DAI is added to M7, the DAI main effect is positive and significant (β = +0.155, p < .001), consistent with approximately a 17% performance premium for digitally active firms (exp(0.155) − 1 ≈ 17%). Strikingly, both DAI interaction terms are significant in M8: FSTS×DAI = −0.614 (p < .001, ***) and FSTS²×DAI = +0.766 (p = .001, **). The interaction pattern — negative FSTS×DAI and positive FSTS²×DAI — means that high-DAI firms experience a flatter, shifted I–P curve: lower productivity gains per unit of FSTS at low export intensities (sunk adoption costs, or selection of productivity-constrained firms into digital adoption), but significantly smaller performance declines at high FSTS (digital infrastructure supporting cross-border coordination at scale). This result strengthens further in M9 with manager controls: FSTS×DAI = −0.780 (p < .001, ***) and FSTS²×DAI = +0.994 (p < .001, ***). The inverted-U is maintained in both specifications (M8: TP = 33.8%; M9: TP = 36.1%).
 
 **H3 is supported.** DAI raises firm performance by approximately 16% and significantly reshapes the I–P curve — compressing the ascending limb and attenuating the performance decline at high FSTS — even before controlling for managerial characteristics. This is the primary capability-moderating finding of the study.
 
@@ -148,7 +148,7 @@ When DAI is added to M7, the DAI main effect is positive and significant (β = +
 
 *Table 2, Model M9.*
 
-Manager experience (β = +0.007, p = .020) and female top manager (β = +0.152, p < .001) both raise firm performance independently of FSTS in M9. The experience effect implies approximately 0.7% higher labour productivity per additional year of sectoral experience; the female top manager effect implies approximately a 16% performance premium (exp(0.152) − 1 ≈ 16%). The FSTS×manager_experience interaction is not significant in M9 (β = −0.014, p = .206), but reaches significance in M11 (β = −0.020, p = .029) — suggesting that, in the full specification, more experienced managers navigate the high-FSTS coordination challenges more effectively (negative interaction = flatter ascending limb, less over-internationalisation penalty).
+Manager experience (β = +0.007, p = .026) and female top manager (β = +0.185, p < .001) both raise firm performance independently of FSTS in M9. The experience effect implies approximately 0.7% higher labour productivity per additional year of sectoral experience; the female top manager effect implies approximately a 20% performance premium (exp(0.185) − 1 ≈ 20%). The FSTS×manager_experience interaction is not significant in M9 (β = −0.012, p = .133), but is marginally significant in M11 (β = −0.019, p = .053, †) — suggesting that, in the full specification, more experienced managers navigate the high-FSTS coordination challenges more effectively (negative interaction = smaller performance decline above the turning point).
 
 **H4 is partially supported.** Top manager experience and female management improve firm performance (level effects confirmed). The curve-moderating effect of manager experience is marginally present in M11 but absent in M9; we interpret this as a secondary finding requiring replication.
 
@@ -166,11 +166,11 @@ More relevant for H5 are the interaction terms: FSTS×ICRV (β = +1.762, p < .00
 
 *Table 2, Model M11.*
 
-The capstone model adds all three-way interactions (FSTS×DAI×ICRV, plus constituent lower-order interactions). The Lind–Mehlum test in M11 confirms the inverted-U (TP = 35.4%, LM p = .001), establishing that the inverted-U shape holds even in the most demanding specification. The DAI×ICRV interaction (β = +0.046, p = .063, †) is marginally significant, consistent with the CDCM prediction that digital capabilities provide stronger per-unit performance effects in weaker institutional environments. The three-way FSTS×DAI×ICRV term (β = −0.024, NS) is not significant, indicating that the DAI curve-reshaping effect documented in M8/M9 does not systematically vary across the ICRV regime gradient in this specification.
+The capstone model adds all three-way interactions (FSTS×DAI×ICRV, plus constituent lower-order interactions). The Lind–Mehlum test in M11 confirms the inverted-U (TP = 34.6%, LM p = .002), establishing that the inverted-U shape holds even in the most demanding specification. The DAI×ICRV interaction (β = +0.060, p = .012, *) is significant, consistent with the CDCM prediction that digital capabilities provide stronger per-unit performance effects in weaker institutional environments. The three-way FSTS×DAI×ICRV term (β = −0.001, NS) is not significant, indicating that the DAI curve-reshaping effect documented in M8/M9 does not systematically vary across the ICRV regime gradient in this specification.
 
-AdjR² = .070 in M11 (vs. .051 in M10) indicates meaningful incremental fit from adding the three-way moderation structure.
+AdjR² = .067 in M11 (vs. .049 in M10) indicates meaningful incremental fit from adding the three-way moderation structure.
 
-**H7-P7 (three-way interaction) is not confirmed; M11 inverted-U is confirmed.** The DAI×ICRV main interaction is marginally significant (p = .063), suggesting regime-contingent digital effects. The three-way FSTS curve-reshaping via DAI×ICRV does not reach significance — the WBES DAI measure's limited dimensionality (Tier 1–2 only) likely constrains detection of the full CDCM-predicted interaction.
+**H7-P7 (three-way interaction) is not confirmed; M11 inverted-U is confirmed.** The DAI×ICRV main interaction is significant (p = .012), supporting regime-contingent digital effects. The three-way FSTS curve-reshaping via DAI×ICRV does not reach significance — the WBES DAI measure's limited dimensionality (Tier 1–2 only) likely constrains detection of the full CDCM-predicted interaction.
 
 ---
 
@@ -182,15 +182,15 @@ The central finding — an inverted-U with a turning point at approximately 36% 
 
 ### 5.2 Technology as Amplifier, Not Moderator
 
-The finding that TCI steepens both limbs of the I–P curve — rather than simply shifting it upward — has important implications for theory and practice. It implies that technological capability is not simply a performance complement to internationalisation; it is a risk amplifier that accelerates the payoff at moderate FSTS and accelerates the performance decline at excessive FSTS. Firms with high TCI derive disproportionate returns from moderate export commitments (the ascending limb premium) but also suffer disproportionate losses from over-internationalisation. This is consistent with the absorptive capacity argument (Cohen & Levinthal, 1990): high-TCI firms are better at processing international market signals, but precisely because they are more active in cross-border engagement, they also face greater coordination demands when export share exceeds capacity.
+The finding that TCI raises the performance level without reliably reshaping the I–P curve in the pooled sample distinguishes the cross-economy result from country-specific evidence. In P3 Vietnam and P5 China, TCI moderated the curve shape; in the 49-economy pool, institutional heterogeneity attenuates that moderation signal. This is consistent with the absorptive capacity argument (Cohen & Levinthal, 1990): high-TCI firms process international market signals more effectively, but the curve-shaping benefit requires institutional complementarity (e.g., strong IP protection, technology transfer infrastructure) that is inconsistently present across the full ICRV spectrum. The practical implication is that technological capability raises the performance floor universally, but its curve-reshaping role is context-contingent and cannot be assumed at scale.
 
 ### 5.3 Digital Adoption and Institutional Complementarity
 
-The capability-complementarity curve reshaping found for DAI in M9 — and the marginally significant DAI×ICRV interaction (p = .063) in M11 — provides the first multi-economy evidence for the CDCM prediction that digital capabilities' performance effects are context-contingent. In institutionally stronger economies (Group I–II), digital infrastructure is near-universal and therefore provides competitive advantage only to early adopters at the margin; in weaker institutional environments (Group IV–VI), digital adoption remains differentiating. The implication is that policies promoting digitalisation in frontier economies are likely to generate stronger firm-level returns per unit of adoption than equivalent policies in advanced economies.
+The capability-complementarity curve reshaping found for DAI in M9 — and the significant DAI×ICRV interaction (β = +0.060, p = .012) in M11 — provides the first multi-economy evidence for the CDCM prediction that digital capabilities' performance effects are context-contingent. In institutionally stronger economies (Group I–II), digital infrastructure is near-universal and therefore provides competitive advantage only to early adopters at the margin; in weaker institutional environments (Group IV–VI), digital adoption remains differentiating. The implication is that policies promoting digitalisation in frontier economies are likely to generate stronger firm-level returns per unit of adoption than equivalent policies in advanced economies.
 
 ### 5.4 Managerial Heterogeneity
 
-The consistent and significant performance premium for female top managers (approximately 12–18% across specifications) is notable given the diversity of economies in our sample, from conservative Gulf economies (Bahrain, Iraq) to progressive innovation hubs (Korea, Singapore, Israel). This cross-context robustness supports the view that female top management is a genuine resource (Hambrick & Mason, 1984; Richard et al., 2019), not merely a proxy for firm governance quality. The null curve-moderation result (FSTS×female_manager not significant) suggests that the performance premium is universal across FSTS levels — female managers improve absolute performance but do not help firms navigate internationalisation more efficiently.
+The consistent and significant performance premium for female top managers (approximately 17–20% across specifications) is notable given the diversity of economies in our sample, from conservative Gulf economies (Bahrain, Iraq) to progressive innovation hubs (Korea, Singapore, Israel). This cross-context robustness supports the view that female top management is a genuine resource (Hambrick & Mason, 1984; Richard et al., 2019), not merely a proxy for firm governance quality. The null curve-moderation result (FSTS×female_manager not significant) suggests that the performance premium is universal across FSTS levels — female managers improve absolute performance but do not help firms navigate internationalisation more efficiently.
 
 ### 5.5 Limitations
 
@@ -294,15 +294,15 @@ Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationalis
 
 | Model | N | Adj R² | Turning point (%) | LM p | Key additions |
 |---|---|---|---|---|---|
-| M0 | 82,616 | .000 | — | — | FSTS linear |
-| M1 | 82,616 | .000 | — | — | FSTS + controls (no quadratic) |
-| M2 | 82,616 | .003 | **36.6** | <.001 | FSTS + FSTS² |
-| M3 | 37,364 | .014 | **34.2** | <.001 | M2 + controls |
-| M5 | 37,364 | .677 | **40.1** | <.001 | M3 + country-year FE |
-| M6 | 37,075 | .023 | 32.9 | <.001 | M3 + TCI (main only) |
-| M7 | 37,075 | .024 | **34.3** | <.001 | M6 + FSTS×TCI, FSTS²×TCI |
-| M8 | 36,965 | .029 | **34.3** | <.001 | M7 + DAI + FSTS×DAI, FSTS²×DAI |
-| M9 | 34,595 | .033 | **36.6** | <.001 | M8 + manager + interactions |
+| M0 | 84,910 | .000 | — | — | FSTS linear |
+| M1 | 84,910 | .000 | — | — | FSTS + controls (no quadratic) |
+| M2 | 84,910 | .003 | **36.4** | <.001 | FSTS + FSTS² |
+| M3 | 38,342 | .015 | **33.8** | <.001 | M2 + controls |
+| M5 | 38,342 | .677 | **40.0** | <.001 | M3 + country-year FE |
+| M6 | 38,051 | .024 | 32.7 | <.001 | M3 + TCI (main only) |
+| M7 | 38,051 | .025 | **33.9** | <.001 | M6 + FSTS×TCI, FSTS²×TCI |
+| M8 | 37,940 | .030 | **33.8** | <.001 | M7 + DAI + FSTS×DAI, FSTS²×DAI |
+| M9 | 35,568 | .035 | **36.1** | <.001 | M8 + manager + interactions |
 | M10 | 31,928 | .049 | — | n.s. | M8 + ICRV + FSTS×ICRV, FSTS²×ICRV |
 | M11 | 29,840 | .067 | **34.6** | .002 | M10 + three-way DAI×ICRV×FSTS |
 
@@ -312,21 +312,21 @@ Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationalis
 
 | Term | M2 | M7 | M8 | M9 | M10 |
 |---|---|---|---|---|---|
-| FSTS (β₁) | +1.400*** | +1.830*** | +1.746*** | +2.269*** | −5.560*** |
-| FSTS² (β₂) | −1.915*** | −2.664*** | −2.546*** | −3.098*** | +8.517*** |
-| TCI_z | — | +0.358*** | +0.321*** | +0.320*** | +0.256*** |
-| FSTS×TCI | — | −0.030 | +0.215 | +0.237 | — |
-| FSTS²×TCI | — | −0.315 | −0.584* | −0.569† | — |
-| DAI_z | — | — | +0.154*** | +0.143*** | +0.181*** |
-| FSTS×DAI | — | — | −0.583*** | −0.749*** | — |
-| FSTS²×DAI | — | — | +0.733** | +0.962*** | — |
+| FSTS (β₁) | +1.316*** | +2.083*** | +2.000*** | +2.522*** | −5.560*** |
+| FSTS² (β₂) | −1.810*** | −3.074*** | −2.954*** | −3.497*** | +8.517*** |
+| TCI_z | — | +0.344*** | +0.307*** | +0.304*** | +0.256*** |
+| FSTS×TCI | — | −0.144 | +0.113 | +0.134 | — |
+| FSTS²×TCI | — | −0.137 | −0.418 | −0.398 | — |
+| DAI_z | — | — | +0.155*** | +0.145*** | +0.181*** |
+| FSTS×DAI | — | — | −0.614*** | −0.780*** | — |
+| FSTS²×DAI | — | — | +0.766** | +0.994*** | — |
 | mgr_experience | — | — | — | +0.007* | — |
-| mgr_female | — | — | — | +0.133** | — |
+| mgr_female | — | — | — | +0.185*** | — |
 | ICRV_group | — | — | — | — | +0.729*** |
 | FSTS×ICRV | — | — | — | — | +1.636*** |
 | FSTS²×ICRV | — | — | — | — | −2.501*** |
-| N | 82,616 | 37,075 | 36,965 | 34,595 | 31,928 |
-| Adj R² | .003 | .024 | .029 | .033 | .049 |
+| N | 84,910 | 38,051 | 37,940 | 35,568 | 31,928 |
+| Adj R² | .003 | .025 | .030 | .035 | .049 |
 
 *Note.* HC1 robust SEs. *** p < .001, ** p < .01, * p < .05, † p < .10. Controls (female_owner, foreign_own_pct, firm_age, ln_size) included in M7–M10 but not reported for space. M11 (N=29,840, AdjR²=.067, TP=34.6%, LM p=.002): DAI×ICRV=+0.060*, three-way FSTS×DAI×ICRV=−0.001 (NS), mgr_experience=+0.009**, FSTS×mgr=−0.019†, mgr_female=+0.187***, female_owner=+0.128**.
 
