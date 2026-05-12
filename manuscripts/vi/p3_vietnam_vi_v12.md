@@ -2,7 +2,7 @@
 
 *Thông tin tác giả đã được lược bỏ phục vụ phản biện kín*
 
-*12 tháng 5 năm 2026 — v12 Phase 10 (áp dụng dịch tiếng Việt cho Phase 9 NotebookLM critique: §2.4 khung hai cơ chế song song, nâng tầm phát hiện hàm bậc thang ở Tóm tắt/Điểm nổi bật/§1.1/§1.3, §5.4 khung phân bổ vốn có điều kiện theo ngưỡng ba giai đoạn)*
+*12 tháng 5 năm 2026 — v13 (§2.4 khung hai cơ chế song song, nâng tầm phát hiện hàm bậc thang ở Tóm tắt/Điểm nổi bật/§1.1/§1.3, §5.4 khung phân bổ vốn có điều kiện theo ngưỡng ba giai đoạn)*
 
 *Tạp chí mục tiêu: Asia Pacific Journal of Management (APJM)*
 

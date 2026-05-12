@@ -2,7 +2,7 @@
 
 *v2.0 (BLINDED) — bản nộp International Journal of Emerging Markets (IJoEM)*
 
-*12 tháng 5 năm 2026 — v2.0 Phase 10 (áp dụng dịch tiếng Việt cho Phase 9 NotebookLM critique: H2a vs H2b giữ khung phát hiện chủ động đã có sẵn, DAI_core đổi tên thành "hiện diện số cơ bản" làm biến kiểm soát nền với đoạn giới hạn phạm vi, H3 vốn lưu động chuyển xuống §5.2 "Các cơ chế thay thế đã thử nghiệm"; tất cả tham chiếu chéo đến working paper chưa công bố đã được loại bỏ xuyên Tóm tắt, Điểm nổi bật, §1, §2, §3, §4, §5, Hạn chế, Tài liệu tham khảo)*
+*12 tháng 5 năm 2026 — v2.1 (H2a vs H2b giữ khung phát hiện chủ động đã có sẵn, DAI_core đổi tên thành "hiện diện số cơ bản" làm biến kiểm soát nền với đoạn giới hạn phạm vi, H3 vốn lưu động chuyển xuống §5.2 "Các cơ chế thay thế đã thử nghiệm"; tất cả tham chiếu chéo đến working paper chưa công bố đã được loại bỏ)*
 
 ---
 

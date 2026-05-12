@@ -6,7 +6,7 @@
 > Hình minh họa: `thesis/figures/` (11 hình; chạy `python3 generate_figures.py`).
 > **Phiên bản 2.5–3.1d**: xem commit history.
 > **Phiên bản 3.2 (06/05/2026 — Asia context v2 integration)**: 4 substantive enhancements.
-> **Phiên bản 3.3 (07/05/2026 — Phase 2 NotebookLM Đợt 3 ripple-effects)**: §6 cảnh báo schema; §7.3.2 anchor model; §7.3.4 8 robustness checks.
+> **Phiên bản 3.3 (07/05/2026)**: §6 cảnh báo schema; §7.3.2 anchor model; §7.3.4 8 robustness checks.
 > **Phiên bản 3.4 (07/05/2026 — ADB Vietnam Outlook 2026 integration)**: §5.3 4 động lực 2026.
 > **Phiên bản 3.5a (07/05/2026 — Phase 4 Đợt 3 sub-commit 3A)**: §5.7.5 PICs macro context (4 trụ cột MIRAB).
 > **Phiên bản 3.5b (07/05/2026 — Phase 4 Đợt 3 sub-commit 3B)**: §6.1 Gender + §6.2 Innovation U-curve digital.
@@ -222,7 +222,7 @@ Bốn lộ trình số hóa cho SME Việt Nam tham khảo:
 *Phiên bản 3.1c (06/05/2026) — §5.6 Mongolia REVAMP critical minerals.*
 *Phiên bản 3.1d (06/05/2026) — 3 markdown image refs.*
 *Phiên bản 3.2 (06/05/2026) — Asia context v2 integration.*
-*Phiên bản 3.3 (07/05/2026) — Phase 2 NotebookLM Đợt 3 ripple-effects.*
+*Phiên bản 3.3 (07/05/2026) — §6 cảnh báo schema; §7.3.2 anchor model; §7.3.4 8 robustness checks.*
 *Phiên bản 3.4 (07/05/2026) — ADB Vietnam Outlook 2026 §5.3 mở rộng.*
 *Phiên bản 3.5a (07/05/2026 — Phase 4 Đợt 3 sub-commit 3A) — §5.7.5 PICs macro context.*
 *Phiên bản 3.5b (07/05/2026 — Phase 4 Đợt 3 sub-commit 3B) — §6.1 Gender + §6.2 Innovation U-curve.*

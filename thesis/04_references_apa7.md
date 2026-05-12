@@ -10,7 +10,7 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 >
 > **Phiên bản 2.3 (07/05/2026 — Đợt 2 academic + Asia 2026 catch-up)**: Bổ sung **9 entries**: (i) 4 entries academic 2023-2025 từ Đợt 2 reading; (ii) 5 entries Asia 2026 catch-up.
 >
-> **Phiên bản 2.4 (07/05/2026 — Citation audit APA 7th cho v3.4-v3.7)**: Bổ sung **6 verified references** (Bello & Kostova 2012 JIBS, Meyer et al. 2017 JIBS, Dunning 1988 JIBS, Williamson 2000 JEL, Aguinis Hill & Bailey 2019 ORM, Malerba & Orsenigo 1995 CJE, NotebookLM 2026 podcast). 3 audit warnings cho NCS fix.
+> **Phiên bản 2.4 (07/05/2026 — Citation audit APA 7th cho v3.4-v3.7)**: Bổ sung **5 verified references** (Bello & Kostova 2012 JIBS, Meyer et al. 2017 JIBS, Dunning 1988 JIBS, Williamson 2000 JEL, Aguinis Hill & Bailey 2019 ORM, Malerba & Orsenigo 1995 CJE). 3 audit warnings cho NCS fix.
 >
 > **Phiên bản 2.6 (10/05/2026 — World Bank Data360 Atlas 2026 + G20 AI FinSupervision)**: Bổ sung **Section P mới** (5 entries): (i) Pirlea & Corso (2026) internet access digital divide; (ii) Mahler, Wang & Weber (2026) AI inequality; (iii) Pirlea et al. (2026) Atlas of Global Development 2026; (iv) Agnolucci, Kenworthy & Kose (2026) Middle East war → commodity markets; (v) Boeddu, Feyen et al. (2025) AI for Financial Sector Supervision (G20 report).
 >

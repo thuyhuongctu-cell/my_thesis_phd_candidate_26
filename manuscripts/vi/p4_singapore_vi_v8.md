@@ -2,7 +2,7 @@
 
 *Tạp chí mục tiêu: Management International Review (MIR)*
 
-*12 tháng 5 năm 2026 — v8 Phase 10 (áp dụng dịch tiếng Việt cho Phase 9 NotebookLM critique: §2.3.4 khung ba cơ chế tiền-đặt với khuếch đại là kỳ vọng H3 trọng tâm, §3.4 Điều kiện biên giới và phạm vi nhận dạng hợp nhất hỗ trợ mẫu / power / Lind–Mehlum tương đương / Heckman, §5.1 biên giới construct Tầng 1+2 với khung kinh tế chuyển đổi tổng quát; tất cả tham chiếu đến bài working paper đồng hành đã được loại bỏ)*
+*12 tháng 5 năm 2026 — v9 (§2.3.4 khung ba cơ chế tiền-đặt với khuếch đại là kỳ vọng H3 trọng tâm, §3.4 Điều kiện biên giới và phạm vi nhận dạng hợp nhất hỗ trợ mẫu / power / Lind–Mehlum tương đương / Heckman, §5.1 biên giới construct Tầng 1+2 với khung kinh tế chuyển đổi tổng quát; tất cả tham chiếu đến bài working paper đồng hành đã được loại bỏ)*
 
 ## Tóm tắt
 
