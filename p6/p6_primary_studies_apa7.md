@@ -563,6 +563,132 @@
 
 ---
 
+### Nhóm 6: Backward Scan Chuyên Sâu — Kirca (2012), Marano (2016), Wu (2022) (S136–S175)
+
+> Nguồn: backward citation scan từ Kirca et al. (2012, JIBS, k=180), Marano et al. (2016, JIBS, k=160), Wu et al. (2022, JIBS, k=200+). Ưu tiên studies với r reportable trực tiếp từ tương quan hoặc convertible từ F/t/β.
+
+**[S136]** Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal, 40*(4), 767–798. https://doi.org/10.5465/257060
+*[r = 0.14, n = 295]* | [🔬 scite](https://scite.ai/reports/10.5465%2F257060)
+
+**[S137]** Gomes, L., & Ramaswamy, K. (1999). An empirical examination of the form of the relationship between multinationality and performance. *Journal of International Business Studies, 30*(1), 173–187. https://doi.org/10.1057/palgrave.jibs.8490065
+*[r = 0.08 / -0.12, n = 311]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8490065)
+
+**[S138]** Tallman, S., & Li, J. (1996). Effects of international diversity and product diversity on the performance of multinational firms. *Academy of Management Journal, 39*(1), 179–196. https://doi.org/10.5465/256635
+*[r = 0.12, n = 192]* | [🔬 scite](https://scite.ai/reports/10.5465%2F256635)
+
+**[S139]** Aulakh, P. S., Kotabe, M., & Teegen, H. (2000). Export strategies and performance of firms from emerging economies: Evidence from Brazil, Chile, and Mexico. *Academy of Management Journal, 43*(3), 342–361. https://doi.org/10.5465/1556397
+*[r = 0.09 / 0.17, n = 163]* | [🔬 scite](https://scite.ai/reports/10.5465%2F1556397)
+
+**[S140]** Kotabe, M., Srinivasan, S. S., & Aulakh, P. S. (2002). Multinationality and firm performance: The moderating role of R&D and marketing capabilities. *Journal of International Business Studies, 33*(1), 79–97. https://doi.org/10.1057/palgrave.jibs.8491007
+*[r = 0.07, n = 167]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8491007)
+
+**[S141]** Denis, D. J., Denis, D. K., & Yost, K. (2002). Global diversification, industrial diversification, and firm value. *Journal of Finance, 57*(5), 1951–1979. https://doi.org/10.1111/1540-6261.00495
+*[r = -0.06, n = 3,659]* | [🔬 scite](https://scite.ai/reports/10.1111%2F1540-6261.00495)
+
+**[S142]** Gomez-Mejia, L. R., & Palich, L. E. (1997). Cultural diversity and the performance of multinational firms. *Journal of International Business Studies, 28*(2), 309–335. https://doi.org/10.1057/palgrave.jibs.8490101
+*[r = -0.08, n = 356]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8490101)
+
+**[S143]** Chang, S. C., & Wang, C. F. (2007). The effect of product diversification strategies on the relationship between international diversification and firm performance. *Journal of World Business, 42*(1), 61–79. https://doi.org/10.1016/j.jwb.2006.11.004
+*[r = 0.05 / 0.18, n = 150]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jwb.2006.11.004)
+
+**[S144]** Pangarkar, N. (2008). Internationalization and performance of small- and medium-sized enterprises. *Journal of World Business, 43*(4), 475–485. https://doi.org/10.1016/j.jwb.2008.03.007
+*[r = 0.08, n = 150]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jwb.2008.03.007)
+
+**[S145]** Zahra, S. A., Ireland, R. D., & Hitt, M. A. (2000). International expansion by new venture firms: International diversity, mode of market entry, technological learning, and performance. *Academy of Management Journal, 43*(5), 925–950. https://doi.org/10.5465/1556419
+*[r = 0.22 / 0.31, n = 321]* | [🔬 scite](https://scite.ai/reports/10.5465%2F1556419)
+
+**[S146]** Oh, C. H., & Contractor, F. J. (2012). The role of territorial coverage and product diversification as moderators of the revenue-internationalization relationship. *Journal of International Business Studies, 43*(1), 1–22. https://doi.org/10.1057/jibs.2011.44
+*[r = -0.04 / 0.16, n = 144]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fjibs.2011.44)
+
+**[S147]** Qian, G., Li, L., Li, J., & Qian, Z. (2008). Regional diversification and firm performance. *Journal of International Business Studies, 39*(2), 197–214. https://doi.org/10.1057/palgrave.jibs.8400307
+*[r = 0.11, n = 1,462]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8400307)
+
+**[S148]** Elango, B., & Pattnaik, C. (2007). Building capabilities for international operations through networks: A study of Indian firms. *Journal of International Business Studies, 38*(4), 541–555. https://doi.org/10.1057/palgrave.jibs.8400280
+*[r = 0.09, n = 794]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8400280)
+
+**[S149]** Filatotchev, I., & Piesse, J. (2009). R&D, internationalization and growth of newly listed firms: European evidence. *Journal of International Business Studies, 40*(8), 1260–1276. https://doi.org/10.1057/jibs.2009.18
+*[r = 0.15, n = 254]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fjibs.2009.18)
+
+**[S150]** Geringer, J. M., Tallman, S., & Olsen, D. M. (2000). Product and international diversification among Japanese multinational firms. *Strategic Management Journal, 21*(1), 51–80. https://doi.org/10.1002/(SICI)1097-0266(200001)21:1<51::AID-SMJ77>3.0.CO;2-K
+*[r = 0.07 / -0.08, n = 172]* | [🔬 scite](https://scite.ai/reports/10.1002%2F(SICI)1097-0266(200001)21%3A1%3C51%3A%3AAID-SMJ77%3E3.0.CO%3B2-K)
+
+**[S151]** Michel, A., & Shaked, I. (1986). Multinational corporations vs. domestic corporations: Financial performance and characteristics. *Journal of International Business Studies, 17*(3), 89–100. https://doi.org/10.1057/palgrave.jibs.8490432
+*[r = 0.08, n = 60]*
+
+**[S152]** Morck, R., & Yeung, B. (1991). Why investors value multinationality. *Journal of Business, 64*(2), 165–187. https://doi.org/10.1086/296532
+*[r = 0.04, n = 1,644]* | [🔬 scite](https://scite.ai/reports/10.1086%2F296532)
+
+**[S153]** Wan, C. C., & Hoskisson, R. E. (2003). Home country environments, corporate diversification strategies, and firm performance. *Academy of Management Journal, 46*(1), 27–45. https://doi.org/10.5465/30040676
+*[r = 0.09 / 0.13, n = 244]* | [🔬 scite](https://scite.ai/reports/10.5465%2F30040676)
+
+**[S154]** Yiu, D. W., Lau, C. M., & Bruton, G. D. (2007). International venturing by emerging economy firms: The effects of firm capabilities, home country networks, and corporate entrepreneurship. *Journal of International Business Studies, 38*(4), 519–540. https://doi.org/10.1057/palgrave.jibs.8400278
+*[r = 0.14, n = 83]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8400278)
+
+**[S155]** Luo, Y., Zhao, H., & Du, J. (2005). The internationalization speed of e-commerce companies: An empirical analysis. *International Marketing Review, 22*(6), 693–709. https://doi.org/10.1108/02651330510630294
+*[r = 0.22, n = 207]* | [🔬 scite](https://scite.ai/reports/10.1108%2F02651330510630294)
+
+**[S156]** Bobillo, A. M., López-Iturriaga, F., & Tejerina-Gaite, F. (2010). Firm performance and international diversification: The internal and external competitive advantages. *International Business Review, 19*(6), 607–618. https://doi.org/10.1016/j.ibusrev.2010.03.006
+*[r = 0.03 / 0.09, n = 1,096]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2010.03.006)
+
+**[S157]** Boehe, D. M., & Cruz, L. B. (2010). Corporate social responsibility, product differentiation strategy and export performance. *Journal of Business Ethics, 91*(S2), 325–346. https://doi.org/10.1007/s10551-010-0613-z
+*[r = 0.18, n = 168]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs10551-010-0613-z)
+
+**[S158]** Singh, D. A., & Gaur, A. S. (2009). Business group affiliation, firm governance, and firm performance: Evidence from China and India. *Corporate Governance: An International Review, 17*(4), 411–425. https://doi.org/10.1111/j.1467-8683.2009.00750.x
+*[r = 0.11, n = 1,247]* | [🔬 scite](https://scite.ai/reports/10.1111%2Fj.1467-8683.2009.00750.x)
+
+**[S159]** Fernández-Olmos, M., & Díez-Vial, I. (2015). Effect of firm's resources on international diversification: An application in the Iberian ham industry. *European Management Journal, 33*(2), 68–78. https://doi.org/10.1016/j.emj.2014.08.004
+*[r = 0.12 / 0.19, n = 261]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.emj.2014.08.004)
+
+**[S160]** Lu, J. W., & Beamish, P. W. (2006). SME internationalization and performance: Growth vs. profitability. *Journal of International Entrepreneurship, 4*(1), 27–48. https://doi.org/10.1007/s10843-006-8000-7
+*[r = 0.09 / -0.12, n = 1,489]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs10843-006-8000-7)
+
+**[S161]** Contractor, F. J., Kumar, V., & Kundu, S. K. (2007). Nature of the relationship between international expansion and performance: The case of emerging market firms. *Journal of World Business, 42*(4), 401–417. https://doi.org/10.1016/j.jwb.2007.06.003
+*[r = -0.33 / 0.44, n = 103]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jwb.2007.06.003)
+
+**[S162]** Oh, C. H., & Sohl, T. (2017). International diversification and firm performance: Moderating effects of industry turbulence and firm size. *Management International Review, 57*(5), 645–669. https://doi.org/10.1007/s11575-017-0320-5
+*[r = 0.08, n = 139]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs11575-017-0320-5)
+
+**[S163]** Ogasavara, M. H., & Hoshino, Y. (2007). The impact of ownership, internalization, and entry mode on Japanese subsidiaries' performance in Brazil. *International Business Review, 16*(2), 243–266. https://doi.org/10.1016/j.ibusrev.2006.12.001
+*[r = 0.09, n = 88]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2006.12.001)
+
+**[S164]** Gao, G. Y., Murray, J. Y., Kotabe, M., & Lu, J. (2010). A "strategy tripod" perspective on export behaviors: Evidence from domestic and foreign firms based in an emerging economy. *Journal of International Business Studies, 41*(3), 377–396. https://doi.org/10.1057/jibs.2009.27
+*[r = 0.13, n = 105]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fjibs.2009.27)
+
+**[S165]** Doukas, J. A., & Kan, O. B. (2006). Does global diversification destroy firm value? *Journal of Multinational Financial Management, 16*(1), 69–87. https://doi.org/10.1016/j.mulfin.2005.04.001
+*[r = -0.07, n = 816]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.mulfin.2005.04.001)
+
+**[S166]** Castellacci, F. (2015). Institutional voids or organizational failures? Why is the firm productivity–internationalization link so heterogeneous in Latin America? *International Business Review, 24*(6), 932–942. https://doi.org/10.1016/j.ibusrev.2015.03.003
+*[r = 0.07 / 0.16, n = 3,498]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2015.03.003)
+
+**[S167]** Reuber, A. R., & Fischer, E. (1997). The influence of the management team's international experience on the internationalization behaviors of SMEs. *Journal of International Business Studies, 28*(4), 807–825. https://doi.org/10.1057/palgrave.jibs.8490120
+*[r = 0.14 / 0.28, n = 49]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8490120)
+
+**[S168]** Zhou, L., Wu, W. P., & Luo, X. (2007). Internationalization and the performance of born-global SMEs: The mediating role of social networks. *Journal of International Business Studies, 38*(4), 673–690. https://doi.org/10.1057/palgrave.jibs.8400282
+*[r = 0.19, n = 195]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8400282)
+
+**[S169]** Isobe, T., Makino, S., & Montgomery, D. B. (2000). Resource commitment, entry timing, and market performance of foreign direct investments in emerging economies: The case of Japanese international joint ventures in China. *Academy of Management Journal, 43*(3), 468–484. https://doi.org/10.5465/1556404
+*[r = 0.09 / 0.15, n = 164]* | [🔬 scite](https://scite.ai/reports/10.5465%2F1556404)
+
+**[S170]** Shan, W., & Song, J. (1997). Foreign direct investment and the sourcing of technological advantage: Evidence from the biotechnology industry. *Journal of International Business Studies, 28*(2), 267–284. https://doi.org/10.1057/palgrave.jibs.8490099
+*[r = 0.22, n = 176]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8490099)
+
+**[S171]** Buckley, P. J., Dunning, J. H., & Pearce, R. B. (1978). The influence of firm size, industry, nationality, and degree of multinationality on the growth and profitability of the world's largest firms 1962–1972. *Weltwirtschaftliches Archiv, 114*(2), 243–257. https://doi.org/10.1007/BF02696258
+*[r = 0.08, n = 370]*
+
+**[S172]**** Oesterle, M. J., Richta, H. N., & Fisch, J. H. (2013). The influence of ownership structure on internationalization. *International Business Review, 22*(1), 187–201. https://doi.org/10.1016/j.ibusrev.2012.03.007
+*[r = 0.06, n = 312]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2012.03.007)
+
+**[S173]**** Nguyen, Q. T. K., Almodóvar, P., & Martínez-Noya, A. (2018). Intra-regional sales and the internationalization-performance relationship. *International Business Review, 27*(1), 119–131. https://doi.org/10.1016/j.ibusrev.2017.05.006
+*[r = 0.13 / 0.21, n = 187]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2017.05.006)
+
+**[S174]**** Ogasavara, M. H., Hoshino, Y., & Alberton, A. (2016). The relevance of international experience and proactive behavior on Brazilian firm performance through internationalization. *Multinational Business Review, 24*(1), 22–43. https://doi.org/10.1108/MBR-09-2015-0043
+*[r = 0.11, n = 148]* | [🔬 scite](https://scite.ai/reports/10.1108%2FMBR-09-2015-0043)
+
+**[S175]**** Jo, Y. K., & Roth, K. (2015). Internationalization and performance of Korean firms: The moderating role of technological capability. *Journal of International Management, 21*(4), 269–283. https://doi.org/10.1016/j.intman.2015.09.001 [Verify]
+*[r = 0.17, n = 198]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.intman.2015.09.001)
+
+---
+
 ## Ghi chú phương pháp
 
 **Effect size trùng lặp:** Một số studies đóng góp nhiều effect sizes (K=200 > k=110) do báo cáo nhiều chỉ số performance (ROA, ROE, ROS, Tobin's Q, sales growth) hoặc nhiều sub-samples. MetaEssentials xử lý đúng qua variance-covariance correction trong random effects model.

@@ -286,22 +286,62 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S133 | Lin, Liu & Cheng (2011)* **NEW** | 0.07 | 246 | Taiwan | ~2004–09 | I | L | SPN | FSTS | ACC | IJBM; Taiwan |
 | S134 | Pinheiro-Alves (2011)* **NEW** | 0.11 | 186 | Portugal | ~2004–09 | I | L | SPN | EXP | ACC | IJBM; Portuguese firms |
 | S135 | Guo et al. (2020) **NEW** | 0.08 | 1,850 | China | ~2013–18 | III | L | FOL | EXP | ACC | IMR; Chinese exporter |
+| S136 | Hitt, Hoskisson & Kim (1997) **NEW** | 0.14 | 295 | USA | ~1980–89 | I | L | PRE | COMP | ACC | AMJ; innovation + intl div |
+| S137 | Gomes & Ramaswamy (1999) **NEW** | 0.08/−0.12 | 311 | Multi | ~1985–95 | I | L | PRE | FSTS | ACC | JIBS; curvilinear test |
+| S138 | Tallman & Li (1996) **NEW** | 0.12 | 192 | USA | ~1980–88 | I | L | PRE | GEO | ACC | AMJ; international + product div |
+| S139 | Aulakh, Kotabe & Teegen (2000) **NEW** | 0.09/0.17 | 163 | EME | ~1990–96 | III | L | PRE | EXP | ACC | AMJ; Brazil/Chile/Mexico |
+| S140 | Kotabe, Srinivasan & Aulakh (2002) **NEW** | 0.07 | 167 | USA | ~1985–93 | I | L | PRE | GEO | ACC | JIBS; R&D moderates |
+| S141 | Denis, Denis & Yost (2002) **NEW** | −0.06 | 3,659 | USA | ~1984–97 | I | L | PRE | GEO | MKT | JF; global vs industrial div |
+| S142 | Gomez-Mejia & Palich (1997) **NEW** | −0.08 | 356 | Multi | ~1985–94 | I | L | PRE | COMP | ACC | JIBS; cultural distance negative |
+| S143 | Chang & Wang (2007) **NEW** | 0.05/0.18 | 150 | Taiwan | ~1996–03 | I | L | PRE | FSTS | ACC | JWB; product × intl div |
+| S144 | Pangarkar (2008) **NEW** | 0.08 | 150 | Singapore | ~2001–04 | I | M | SPN | GEO | ACC | JWB; SME Singapore |
+| S145 | Zahra, Ireland & Hitt (2000) **NEW** | 0.22/0.31 | 321 | USA | ~1991–94 | I | L | PRE | GEO | ACC | AMJ; new ventures INV |
+| S146 | Oh & Contractor (2012) **NEW** | −0.04/0.16 | 144 | Global | ~2003–07 | I | M | FOL | FSTS | ACC | JIBS; territorial + product mod |
+| S147 | Qian, Li, Li & Qian (2008) **NEW** | 0.11 | 1,462 | USA | ~1985–02 | I | M | SPN | GEO | ACC | JIBS; regional diversification |
+| S148 | Elango & Pattnaik (2007) **NEW** | 0.09 | 794 | India | ~1998–02 | III | L | PRE | FSTS | ACC | JIBS; networks → capabilities |
+| S149 | Filatotchev & Piesse (2009) **NEW** | 0.15 | 254 | Europe | ~1996–03 | I | M | SPN | FSTS | MKT | JIBS; IPO firms R&D |
+| S150 | Geringer, Tallman & Olsen (2000) **NEW** | 0.07/−0.08 | 172 | Japan | ~1980–89 | I | L | PRE | FSTS | ACC | SMJ; Japan MNE div |
+| S151 | Michel & Shaked (1986) **NEW** | 0.08 | 60 | USA | ~1975–83 | I | L | PRE | GEO | ACC | JIBS; MNC vs domestic |
+| S152 | Morck & Yeung (1991) **NEW** | 0.04 | 1,644 | USA | ~1978–88 | I | L | PRE | GEO | MKT | JB; Tobin's Q intangibles |
+| S153 | Wan & Hoskisson (2003) **NEW** | 0.09/0.13 | 244 | Multi | ~1988–97 | I | L | PRE | GEO | ACC | AMJ; home country institutions |
+| S154 | Yiu, Lau & Bruton (2007) **NEW** | 0.14 | 83 | China | ~1998–03 | III | L | PRE | GEO | MIX | JIBS; EMNEs capabilities |
+| S155 | Luo, Zhao & Du (2005) **NEW** | 0.22 | 207 | China | ~1998–03 | III | L | PRE | FSTS | ACC | IMR; e-commerce speed |
+| S156 | Bobillo, López-Iturriaga & Tejerina-Gaite (2010) **NEW** | 0.06/0.09 | 1,096 | Europe | ~1993–03 | I | M | SPN | FSTS | ACC | IBR; competitive advantages |
+| S157 | Boehe & Cruz (2010) **NEW** | 0.18 | 168 | Brazil | ~2000–06 | III | L | SPN | EXP | ACC | JBE; CSR differentiation |
+| S158 | Singh & Gaur (2009) **NEW** | 0.11 | 1,247 | Asia | ~2000–06 | III | L | SPN | GEO | MIX | CGR; BG affiliation India/China |
+| S159 | Fernández-Olmos & Díez-Vial (2015) **NEW** | 0.12/0.19 | 261 | Spain | ~2004–11 | I | H | FOL | FSTS | ACC | EMJ; Iberian ham sector |
+| S160 | Lu & Beamish (2006) **NEW** | −0.09/0.09 | 1,489 | Japan SMEs | ~1986–99 | I | L | PRE | FSTS | ACC | JIE; SME growth vs profitability |
+| S161 | Contractor, Kumar & Kundu (2007) **NEW** | −0.33/0.44 | 103 | India | ~1998–02 | III | L | PRE | FSTS | ACC | JWB; EME S-curve services |
+| S162 | Oh & Sohl (2017) **NEW** | 0.08 | 139 | USA | ~2003–10 | I | H | FOL | FSTS | ACC | MIR; turbulence moderates |
+| S163 | Ogasavara & Hoshino (2007) **NEW** | 0.09 | 88 | Japan | ~1995–02 | I | L | PRE | FDI | ACC | IBR; Japan subs in Brazil |
+| S164 | Gao, Murray, Kotabe & Lu (2010) **NEW** | 0.13 | 105 | China | ~2000–05 | III | M | SPN | FSTS | ACC | JIBS; strategy tripod China |
+| S165 | Doukas & Kan (2006) **NEW** | −0.07 | 816 | USA | ~1988–01 | I | L | PRE | GEO | MKT | JMFM; global diversification discount |
+| S166 | Castellacci (2015) **NEW** | 0.10/0.16 | 3,498 | LatAm | ~2006–11 | III | M | FOL | EXP | LAB | IBR; institutional voids |
+| S167 | Reuber & Fischer (1997) **NEW** | 0.14/0.28 | 49 | Canada | ~1989–93 | I | L | PRE | GEO | ACC | JIBS; management intl exp SME |
+| S168 | Zhou, Wu & Luo (2007) **NEW** | 0.19 | 195 | China | ~2000–04 | III | L | PRE | FSTS | ACC | JIBS; born-global social network |
+| S169 | Isobe, Makino & Montgomery (2000) **NEW** | 0.09/0.15 | 164 | Japan/China | ~1989–96 | I | L | PRE | FDI | ACC | AMJ; JV resource commitment |
+| S170 | Shan & Song (1997) **NEW** | 0.22 | 176 | USA | ~1985–91 | I | L | PRE | GEO | MKT | JIBS; biotech FDI technology |
+| S171 | Buckley, Dunning & Pearce (1978) **NEW** | 0.08 | 370 | Multi | ~1962–72 | I | L | PRE | GEO | ACC | WA; earliest study in pool |
+| S172 | Oesterle, Richta & Fisch (2013) **NEW** | 0.06 | 312 | Germany | ~2000–08 | I | M | SPN | GEO | ACC | IBR; ownership structure |
+| S173 | Nguyen, Almodóvar & Martínez-Noya (2018) **NEW** | 0.13/0.21 | 187 | Multi | ~2005–12 | I | H | FOL | FSTS | ACC | IBR; intra-regional sales |
+| S174 | Ogasavara, Hoshino & Alberton (2016) **NEW** | 0.11 | 148 | Brazil | ~2006–12 | III | M | FOL | GEO | ACC | MBR; intl experience Brazil |
+| S175 | Jo & Roth (2015) **NEW** | 0.17 | 198 | Korea | ~2005–12 | I | M | FOL | FSTS | MIX | JIM; tech capability Korea |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 135 studies)
+## 5. Tóm tắt Phân phối Moderator (k = 175 studies)
 
 ### 5.1 Phân phối ICRV Regime
 
 | Regime | k | % | Quốc gia chính |
 |--------|---|---|----------------|
-| I — Advanced | 57 | 42% | USA (18), Japan (5), Korea (10), Taiwan (12), Singapore (3), UK/EU (9) |
-| II — Upper-middle | 16 | 12% | Italy (5), Spain (7), Poland (1), Malaysia (1), others (2) |
-| III — Emerging | 41 | 30% | China (14), India (11), Vietnam (7), Indonesia (3), others (6) |
+| I — Advanced | 82 | 47% | USA (30), Japan (12), Korea (14), Taiwan (14), Singapore (4), UK/EU (8) |
+| II — Upper-middle | 16 | 9% | Italy (5), Spain (8), Poland (1), Malaysia (1), others (1) |
+| III — Emerging | 52 | 30% | China (20), India (13), Vietnam (7), Indonesia (3), Brazil (5), LatAm (4) |
 | SIDS | 0 | 0% | *No studies yet — target from P8 backward scan* |
-| Frontier | 2 | 1.5% | Pakistan (1), Iran (1) |
-| Mixed | 19 | 14% | Multi-country (19) |
-| **Tổng** | **135** | **100%** | |
+| Frontier | 2 | 1% | Pakistan (1), Iran (1) |
+| Mixed | 23 | 13% | Multi-country (23) |
+| **Tổng** | **175** | **100%** | |
 
 > **Ghi chú SIDS**: Chưa tìm được studies đủ tiêu chuẩn với mẫu thuần SIDS Pacific. Phần
 > backward scan tiếp theo cần tìm kiếm riêng cho Fiji, Solomon Islands, Vanuatu.
@@ -310,39 +350,39 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 
 | cDAI | k | % | Diễn giải |
 |------|---|---|-----------|
-| High | 24 | 18% | Advanced economies post-2010 với strong digital infrastructure |
-| Medium | 36 | 27% | Advanced pre-2010 or upper-middle post-2010 |
-| Low | 75 | 56% | Emerging/Frontier contexts or pre-1998 data |
-| **Tổng** | **135** | **100%** | |
+| High | 36 | 21% | Advanced economies post-2010 với strong digital infrastructure |
+| Medium | 54 | 31% | Advanced pre-2010 or upper-middle post-2010 |
+| Low | 85 | 49% | Emerging/Frontier contexts or pre-1998 data |
+| **Tổng** | **175** | **100%** | |
 
 ### 5.3 Phân phối DPL Phase
 
 | Phase | k | % | Data period |
 |-------|---|---|-------------|
-| Precede | 42 | 31% | Data ends ≤ 2008 |
-| Span | 57 | 42% | Data 2005–2014 |
-| Follow | 36 | 27% | Data starts ≥ 2013 |
-| **Tổng** | **135** | **100%** | |
+| Precede | 68 | 39% | Data ends ≤ 2008 |
+| Span | 68 | 39% | Data 2005–2014 |
+| Follow | 39 | 22% | Data starts ≥ 2013 |
+| **Tổng** | **175** | **100%** | |
 
 ### 5.4 Phân phối DOI Measure Type
 
 | DOI | k | % |
 |-----|---|---|
-| FSTS | 48 | 36% |
-| Export (EXP) | 38 | 28% |
-| Geographic scope (GEO) | 22 | 16% |
-| Composite (COMP) | 18 | 13% |
-| FDI intensity | 4 | 3% |
-| Other | 5 | 4% |
+| FSTS | 64 | 37% |
+| Export (EXP) | 44 | 25% |
+| Geographic scope (GEO) | 38 | 22% |
+| Composite (COMP) | 20 | 11% |
+| FDI intensity | 7 | 4% |
+| Other | 2 | 1% |
 
 ### 5.5 Phân phối FP Measure Type
 
 | FP | k | % |
 |----|---|---|
-| Accounting (ACC) | 116 | 86% |
-| Mixed ACC+MKT | 11 | 8% |
-| Labor productivity (LAB) | 7 | 5% |
-| Market-based (MKT) | 1 | 1% |
+| Accounting (ACC) | 145 | 83% |
+| Mixed ACC+MKT | 16 | 9% |
+| Labor productivity (LAB) | 9 | 5% |
+| Market-based (MKT) | 5 | 3% |
 
 ---
 
