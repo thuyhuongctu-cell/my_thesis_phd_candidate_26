@@ -1,9 +1,10 @@
 # P6 — PRISMA 2020 Flow Diagram & Search Documentation
-# Meta-Analysis I→P 1982–2026
+# Meta-Analysis I→P 1977–2026 (Independent Systematic Review)
 
-> **Phiên bản**: v1.1 (12/05/2026)
+> **Phiên bản**: v2.0 (12/05/2026)
 > **Chuẩn áp dụng**: PRISMA 2020 (Page et al., 2021)
-> **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` §6 (Tuần 1–2)
+> **Loại**: Fresh/independent meta-analysis (không phải update)
+> **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` §6
 
 ---
 
@@ -14,218 +15,243 @@
 ║                     IDENTIFICATION (Nhận diện)                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
-║  Records identified from databases (n ≈ 4,500):                             ║
-║  • Web of Science         ~800   • Scopus               ~750                ║
-║  • EBSCOhost BSC          ~600   • ProQuest             ~400                ║
-║  • Google Scholar         ~750   • JSTOR                ~200                ║
-║  • Emerald                ~150   • Wiley Online         ~200                ║
-║  • ScienceDirect          ~250   • SpringerLink         ~150                ║
-║  • Taylor & Francis       ~100   • Oxford Academic       ~50                ║
-║  • SSRN                   ~150   • Consensus AI          ~50                ║
+║  Records identified from electronic databases:                               ║
+║  • Web of Science Core Collection    [n = TBD — ghi sau khi search]         ║
+║  • Scopus                            [n = TBD]                              ║
+║  • EBSCOhost (Business Source)       [n = TBD — optional]                   ║
 ║                                                                              ║
-║  Records from other methods (n ≈ 200):                                      ║
-║  • Backward citation scan: Bausch & Krist (2007) k=68  +  ~45              ║
-║  • Backward citation scan: Kirca et al. (2012) k=180   + ~120              ║
-║  • Backward citation scan: Yang & Driffield (2012)     +  ~15              ║
-║  • Backward citation scan: Marano et al. (2016)        +  ~20              ║
-║  • Backward citation scan: Wu et al. (2022)            +  ~25              ║
-║  • Backward citation scan: Arte & Larimo (2022)        +  ~10              ║
-║  • ICBEF 2025 baseline (Đỗ & Phan, 2024)               + 113  (confirmed)  ║
+║  Records from supplementary methods:                                         ║
+║  • Backward citation scan of 5 prior metas:                                  ║
+║      Bausch & Krist (2007, MIR)      [n ≈ 68 screened]                      ║
+║      Kirca et al. (2012, GSJ)        [n ≈ 180 screened]                     ║
+║      Marano et al. (2016, JWB)       [n ≈ 90 screened]                      ║
+║      Wu et al. (2022, MIR)           [n ≈ 80 screened]                      ║
+║      Arte & Larimo (2022, IBR)       [n ≈ 60 screened]                      ║
+║  • Forward citation search via scite.ai    [n = TBD]                        ║
+║  • Hand-search (author papers, 2024–26)    [n = 19]                         ║
 ║                                                                              ║
-║  TOTAL RECORDS IDENTIFIED: ≈ 4,700                                          ║
+║  TOTAL RECORDS IDENTIFIED: [N = TBD]                                        ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
-                              ▼ Remove duplicates (~1,900 duplicates)
+                              ▼ Remove duplicates [n = TBD]
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                     SCREENING — Level 1 (Title/Abstract)                    ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Records after deduplication: ≈ 2,800                                       ║
-║  Records excluded (title/abstract screen): ≈ 2,450                          ║
+║  Records after deduplication: [n = TBD]                                      ║
+║  Records excluded (title/abstract screen): [n = TBD]                        ║
 ║  Reasons:                                                                    ║
-║    • Off-topic (not I→P relationship): ~1,400                               ║
-║    • Country/industry-level (not firm-level): ~350                          ║
-║    • Qualitative only: ~250                                                  ║
-║    • Conceptual/theoretical: ~300                                            ║
-║    • Non-English without English abstract: ~150                              ║
+║    • Not examining I→P relationship: [n = TBD]                              ║
+║    • Country/industry-level (not firm-level): [n = TBD]                     ║
+║    • Qualitative only: [n = TBD]                                             ║
+║    • Conceptual/theoretical only: [n = TBD]                                  ║
+║    • Non-English: [n = TBD]                                                  ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
-                              ▼ Full-text retrieved (~350 records)
+                              ▼ Full-text retrieved [n = TBD]
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                     ELIGIBILITY — Level 2 (Full Text)                       ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Records assessed for eligibility: ≈ 350                                    ║
-║  Records excluded (full-text): ≈ 215                                        ║
+║  Records assessed for eligibility: [n = TBD]                                 ║
+║  Records excluded (full-text): [n = TBD]                                     ║
 ║  Reasons:                                                                    ║
-║    • No calculable effect size: ~85                                          ║
-║    • Duplicate sample (kept larger): ~45                                     ║
-║    • Outside 1982–2026 range: ~15                                            ║
-║    • Not firm-level: ~30                                                     ║
-║    • Meta-analysis (not primary study): ~25                                  ║
-║    • Unpublished thesis: ~15                                                 ║
+║    • No calculable Pearson r or convertible statistic: [n = TBD]            ║
+║    • Duplicate sample (kept larger/most recent): [n = TBD]                  ║
+║    • Outside 1977–2026 range: [n = TBD]                                     ║
+║    • Not firm-level observation: [n = TBD]                                   ║
+║    • Meta-analysis (not primary study): [n = TBD]                           ║
+║    • Insufficient information for coding: [n = TBD]                         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                     INCLUDED                                                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Studies included in meta-analysis: k = 235                                  ║
-║  Effect sizes: K ≈ 385+                                                      ║
+║  Studies included in meta-analysis: k = [TBD — hiện có 235 trong database]  ║
+║  Effect sizes: K ≈ [TBD — hiện có ~385]                                     ║
 ║                                                                              ║
-║  Breakdown:                                                                  ║
-║    Baseline ICBEF 2025 (S001–S113, confirmed): 113 studies / 200 eff. sizes  ║
-║    Backward citation scan (S114–S175):          62 studies                   ║
-║    Author papers + 2024 lit. (S176–S194):       19 studies                   ║
-║    scite.ai / Consensus screen (S195–S235):     41 studies                   ║
-║    TOTAL:                                      235 studies                   ║
+║  Breakdown by source:                                                        ║
+║    Database search (WoS + Scopus):         [n = TBD]                        ║
+║    Backward citation scan (5 metas):       [n = TBD]                        ║
+║    Forward citation (scite.ai):            [n = TBD]                        ║
+║    Hand-search:                            [n = TBD]                        ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
----
-
-## 2. Search Query Log — 28 Queries (per `search_queries.json`)
-
-### Phase 1: Core I→P queries (Queries 1–7)
-
-| # | Query string | Database | Status | Results |
-|---|-------------|---------|--------|---------|
-| Q01 | "internationalization" AND "firm performance" AND "correlation" | WoS + Scopus | Baseline covered | ~800 |
-| Q02 | "degree of internationalization" AND "performance" AND ("r=" OR "beta") | WoS | Baseline covered | ~350 |
-| Q03 | "export intensity" AND "firm performance" AND "emerging market" | Scopus | Baseline covered | ~280 |
-| Q04 | "multinationality" AND "performance" AND ("meta-analysis" OR "systematic review") | All | Identify metas only | ~120 |
-| Q05 | "FSTS" AND "performance" AND "manufacturing" | WoS | Baseline covered | ~200 |
-| Q06 | "international diversification" AND "performance" AND "regression" | Scopus | Partial | ~400 |
-| Q07 | "internationalization performance" AND "Asia" AND "SME" | Google Scholar | Partial | ~300 |
-
-### Phase 2: Digital moderation queries (Queries 8–14) — Priority for 3 new moderators
-
-| # | Query string | Database | Status | Results |
-|---|-------------|---------|--------|---------|
-| Q08 | "digital" AND "internationalization" AND "performance" AND "firm" | WoS | **Priority** | ~80 |
-| Q09 | "digital adoption" AND "export" AND "performance" | Scopus | **Priority** | ~60 |
-| Q10 | "digitalization" AND "internationalization" AND "SME" | Scopus + Emerald | **Priority** | ~45 |
-| Q11 | "e-commerce" AND "internationalization" AND "performance" | WoS | **Priority** | ~90 |
-| Q12 | "platform" AND "internationalization" AND "performance" AND "correlation" | Google Scholar | **Priority** | ~35 |
-| Q13 | "digital transformation" AND "export performance" | All | **Priority** | ~75 |
-| Q14 | "IT capability" AND "multinationality" AND "performance" | WoS | **Priority** | ~25 |
-
-### Phase 3: Institutional/ICRV queries (Queries 15–21) — Priority for ICRV regime
-
-| # | Query string | Database | Status | Results |
-|---|-------------|---------|--------|---------|
-| Q15 | "institutional environment" AND "internationalization" AND "performance" | WoS | Partial | ~150 |
-| Q16 | "governance" AND "FDI" AND "firm performance" AND "developing" | Scopus | Partial | ~120 |
-| Q17 | "home country" AND "internationalization" AND "performance" | WoS | Partial | ~180 |
-| Q18 | "emerging market" AND "outward FDI" AND "performance" | All | Partial | ~160 |
-| Q19 | "ASEAN" AND "internationalization" AND "performance" | Google Scholar | **Priority** | ~50 |
-| Q20 | "Pacific" OR "SIDS" AND "internationalization" AND "performance" | SSRN + GS | **Priority** | ~15 |
-| Q21 | "frontier economy" AND "export" AND "performance" | WoS | **Priority** | ~20 |
-
-### Phase 4: Geographic gaps (Queries 22–28) — ASEAN, MENA, Africa
-
-| # | Query string | Database | Status | Results |
-|---|-------------|---------|--------|---------|
-| Q22 | "Vietnam" AND "internationalization" AND "labor productivity" | Google Scholar | Covered | ~30 |
-| Q23 | "Indonesia" AND "export" AND "performance" | Scopus | Partial | ~40 |
-| Q24 | "Philippines" AND "multinational" AND "performance" | WoS | **Priority** | ~15 |
-| Q25 | "Middle East" AND "internationalization" AND "performance" | All | **Priority** | ~25 |
-| Q26 | "Africa" AND "internationalization" AND "firm performance" | Scopus | **Priority** | ~30 |
-| Q27 | "Latin America" AND "internationalization" AND "performance" AND "correlation" | All | Partial | ~45 |
-| Q28 | "small island" AND "export" AND "performance" | All | **Priority** | ~10 |
+> ⚠️ **Tất cả [n = TBD]** sẽ được điền sau khi hoàn thành WoS + Scopus search.
+> Ngày search: ___/05/2026. Ghi lại số kết quả ngay sau khi chạy query.
 
 ---
 
-## 3. Backward Citation Scan Status
+## 2. Search Query Documentation
 
-### Bausch & Krist (2007) — k = 68 primary studies
-> Reference list trong: *Management International Review, 47*(3), 319–347.
+### Database 1: Web of Science Core Collection
 
-| Study | In pool? | Action |
-|-------|----------|--------|
-| Daniels & Bracker (1989) | S111 ✓ NEW | Added |
-| Geringer et al. (1989) | S112 ✓ NEW | Added |
-| Kim, Hwang & Burgers (1993) | S113 ✓ NEW | Added |
-| Sullivan (1994) | S114 ✓ NEW | Added |
-| Ramaswamy (1995) | S115 ✓ NEW | Added |
-| Tallman & Li (1996) | S05 ✓ | In baseline |
-| Gomes & Ramaswamy (1999) | S08 ✓ | In baseline |
-| Hitt et al. (1997) | S06 ✓ | In baseline |
-| Sambharya (1995) | S03 ✓ | In baseline |
-| Delios & Beamish (1999) | S116 ✓ NEW | Added |
-| Lu & Beamish (2001) | S117 ✓ NEW | Added |
-| Wan (1998) | S07 ✓ | In baseline |
-| *Remaining ~56 entries* | *Check* | Verify overlap |
+**Ngày search**: [TBD]
+**Người search**: Đỗ Thùy Hương
+**Kết quả**: [n = TBD]
 
-**Status**: Partially scanned. ~12 studies checked; need full 68-entry verification.
-**Estimate new additions from Bausch**: ~5–8 more after full scan.
-
----
-
-### Kirca et al. (2012) — k = 180 studies
-> Reference list trong: *Global Strategy Journal, 2*(2), 108–121.
-
-| Study | In pool? | Action |
-|-------|----------|--------|
-| Contractor, Kundu & Hsu (2003) | S118 ✓ NEW | Added |
-| Bloodgood et al. (1996) | S119 ✓ NEW | Added |
-| Pangarkar & Yuan (2009) | S120 ✓ NEW | Added |
-| Gaur, Kumar & Singh (2014) | S121 ✓ NEW | Added |
-| Kim, Hwang & Burgers (1989) | Pending | Need full text |
-| Kim & Lyn (1987) | Pending | Need full text |
-| Morck & Yeung (1991) | Pending | Need full text |
-| Isobe, Makino & Montgomery (2000) | Pending | Need full text |
-| *Remaining ~170 entries* | *Check* | Majority overlap with baseline |
-
-**Status**: Early scan. ~8 studies checked.
-**Estimate new additions from Kirca**: ~8–12 more after full scan.
-
----
-
-### Wu et al. (2022) — ~80 primary studies in reference list
-> Reference list trong: *Management International Review, 62*(2), 199–231.
-
-| Study | In pool? | Action |
-|-------|----------|--------|
-| Arte & Larimo (2022) | S125 ✓ NEW | Added |
-| Schmuck et al. (2022) | S126 ✓ NEW | Added |
-| Luo & Tung (2015) | S122 ✓ NEW | Added (verify) |
-| García-García et al. (2017) | S123 ✓ NEW | Added |
-| *Remaining entries* | *Check* | Mostly overlap with baseline |
-
-**Status**: Partial scan.
-**Estimate new additions from Wu**: ~3–5 more EMNE studies.
-
----
-
-## 4. Database Coverage Summary (Current State)
-
+**Query (Advanced Search — Topic Search TS):**
 ```
-Studies Baseline (ICBEF 2025):     113  ██████████████████████████████████  48%
-Studies NEW (backward scan):        62  ███████████████████                  26%
-Studies NEW (author + 2024 lit.):   19  ██████                                8%
-Studies NEW (scite.ai/Consensus):   41  ████████████                         17%
-TOTAL CURRENT POOL:                235  ██████████████████████████████████ 181%
+TS=("internationalization" OR "internationalisation" OR "multinationality" 
+    OR "degree of internationalization" OR "export intensity" 
+    OR "foreign sales ratio" OR "FSTS" OR "international diversification") 
+AND 
+TS=("firm performance" OR "corporate performance" OR "financial performance" 
+    OR "labor productivity" OR "labour productivity" OR "profitability" 
+    OR "Tobin's q" OR "return on assets" OR "ROA" OR "return on equity")
+AND
+TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
+```
 
-Target minimum:                    130  achieved ✓ (181% of target)
-Target conservative:               140  achieved ✓ (168% of target)
-MASTER estimate:                   269  ████████████████████████████ 87% achieved
+**Filters applied:**
+- Timespan: 1977-01-01 to 2026-05-12
+- Document Types: Article
+- Language: English
+- Database: Web of Science Core Collection
+
+**Export**: Full record + Cited references → Plain Text / Excel
+
+---
+
+### Database 2: Scopus
+
+**Ngày search**: [TBD]
+**Người search**: Đỗ Thùy Hương
+**Kết quả**: [n = TBD]
+
+**Query:**
+```
+TITLE-ABS-KEY("internationalization" OR "internationalisation" 
+    OR "multinationality" OR "degree of internationalization" 
+    OR "export intensity" OR "FSTS" OR "international diversification")
+AND
+TITLE-ABS-KEY("firm performance" OR "labor productivity" 
+    OR "labour productivity" OR "profitability" 
+    OR "return on assets" OR "Tobin")
+AND
+TITLE-ABS-KEY(correlation OR regression OR coefficient OR "effect size")
+AND PUBYEAR > 1976 AND PUBYEAR < 2027
+AND DOCTYPE(ar)
+AND LANGUAGE(english)
 ```
 
 ---
 
-## 5. Lịch sử Search và Version Control
+### Supplementary Method 1: Backward Citation Scan
 
-| Date | Action | Pool size | Notes |
-|------|--------|-----------|-------|
-| 2023-07-18 | Original analysis (MetaEssentials) | k=113 | ICBEF 2025 baseline; 200 effect sizes |
-| 2024-12-12 | ICBEF 2025 published | k=113 | r=0.07, I²=87.92% confirmed |
-| 2026-05-12 | P6 audit + coding database created | k=135 | +22 NEW; 3 moderator coding added |
-| 2026-05-12 | S136–S194: backward scan + author papers | k=194 | +59 NEW from lit. + author papers |
-| 2026-05-12 | S195–S235: scite.ai/Consensus screen | k=235 | +41 NEW; S235 = Freixanet & Rialp 2021 GSJ |
-| *Tuần 7* | metafor R setup + consistency check | k=235 | Vs. MetaEssentials baseline |
+5 major meta-analyses screened in full:
+
+| Meta-analysis | Year | Journal | Primary studies | New to pool |
+|---------------|------|---------|----------------|-------------|
+| Bausch & Krist | 2007 | MIR | 68 | [TBD] |
+| Kirca et al. | 2012 | GSJ | 180 | [TBD] |
+| Marano et al. | 2016 | JWB | ~90 | [TBD] |
+| Wu et al. | 2022 | MIR | ~80 | [TBD] |
+| Arte & Larimo | 2022 | IBR | ~60 | [TBD] |
+
+**Protocol**: Each reference list screened against inclusion criteria; eligible studies retrieved and coded if not already in database from formal search.
 
 ---
 
-## 6. Tài liệu tham khảo — PRISMA và Methods
+### Supplementary Method 2: Forward Citation Search (scite.ai)
+
+**Query**: Forward citations of 5 anchor studies:
+- Lu & Beamish (2004) — S-curve seminal
+- Contractor et al. (2003) — three-stage model
+- Hitt et al. (1997) — inverted-U seminal
+- Bausch & Krist (2007) — meta-analysis
+- Kirca et al. (2012) — meta-analysis
+
+**Date filter**: 2015–2026 (overlap with formal search acceptable — duplicates removed)
+**Results**: [n = TBD]
+
+---
+
+### Supplementary Method 3: Hand-search
+
+Author's own publications and papers from known research groups working on I→P in Asia-Pacific (2020–2026). Included only if meeting full eligibility criteria.
+**Results**: n = 19 (documented in `p6_primary_studies_apa7.md` S176–S194)
+
+---
+
+## 3. Inclusion / Exclusion Criteria (PICO Framework)
+
+| Element | Criterion |
+|---------|-----------|
+| **P** — Population | Firms of any size, any country, any industry |
+| **I** — Intervention/Exposure | Degree of internationalization (DOI): export intensity (FSTS), foreign assets ratio (FATA), number of foreign countries, composite DOI index |
+| **C** — Comparator | Not applicable (observational studies) |
+| **O** — Outcome | Firm performance: financial (ROA, ROE, Tobin's q, ROS, profit), operational (labor productivity, sales growth), composite performance index |
+| **S** — Study design | Primary empirical studies reporting Pearson r or statistics convertible to r (β, t, F, η²) |
+
+**Inclusion criteria (ALL must be met):**
+1. Reports empirical relationship between DOI measure and firm performance measure
+2. Reports Pearson r, or statistics allowing r computation
+3. Firm-level unit of analysis
+4. Published 1977–2026
+5. English-language full text available
+6. Peer-reviewed journal article
+
+**Exclusion criteria (ANY triggers exclusion):**
+1. Meta-analysis, systematic review, or literature review (not primary study)
+2. Country/industry/national-level analysis
+3. Qualitative study
+4. Insufficient statistics for effect size computation
+5. Duplicate sample (retained largest/most recent; smaller removed)
+6. Conference proceedings, theses, working papers
+
+---
+
+## 4. Inter-Coder Reliability Protocol
+
+- **Primary coder**: Đỗ Thùy Hương
+- **Second coder**: [Research assistant / HD Phan Anh Tú — 20% random sample]
+- **Target κ**: ≥ 0.80 for all 7 moderator variables
+- **Disagreement resolution**: Discussion; if unresolved → third coder
+
+**Variables coded** (7 moderators + study descriptors):
+
+| Variable | Type | Values |
+|----------|------|--------|
+| Study ID | String | S001–S235+ |
+| First author | String | — |
+| Year | Integer | 1977–2026 |
+| Country/region | String | ISO code |
+| Pearson r | Continuous | −1 to +1 |
+| Sample size n | Integer | — |
+| DOI measure type | Categorical | EXP / FDI / COUNT / COMP |
+| FP measure type | Categorical | ROA / PROD / COMP / MIX |
+| ICRV regime | Categorical | I / II / III / IV / V / MX |
+| cDAI level | Categorical | H / M / L |
+| DPL phase | Categorical | PRE / SPN / FOL |
+
+---
+
+## 5. Database Coverage Summary
+
+```
+Current database state (pre-formal-search):
+  Studies in coded database:       235
+  Estimated overlap with WoS:      ~180–200 (will be confirmed)
+  Estimated new from WoS/Scopus:   ~15–50 (TBD after search)
+  
+  Post-search target:              250+ (stretch: 270)
+  Minimum viable for publication:  200+
+```
+
+---
+
+## 6. Version History
+
+| Version | Date | Change |
+|---------|------|--------|
+| v1.0 | 12/05/2026 | Initial draft — update framing, estimated numbers |
+| v1.1 | 12/05/2026 | k=135→235 in INCLUDED box |
+| v2.0 | 12/05/2026 | Full rewrite — fresh/independent search framework; all fake numbers replaced with [TBD]; PICO criteria added; inter-coder protocol added |
+
+---
+
+## 7. Tài liệu tham khảo — PRISMA và Methods
 
 Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., ... & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
 
@@ -235,6 +261,6 @@ Van den Noortgate, W., López-López, J. A., Marín-Martínez, F., & Sánchez-Me
 
 Suurmond, R., van Rhee, H., & Hak, T. (2017). Introduction, comparison, and validation of Meta-Essentials. *Research Synthesis Methods, 8*(4), 537–553. https://doi.org/10.1002/jrsm.1260
 
-Egger, M., Davey Smith, G., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. *British Medical Journal, 315*(7109), 629–634.
+Egger, M., Davey Smith, G., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. *British Medical Journal, 315*(7109), 629–634. https://doi.org/10.1136/bmj.315.7109.629
 
-Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. *Biometrics, 56*(2), 455–463.
+Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. *Biometrics, 56*(2), 455–463. https://doi.org/10.1111/j.0006-341X.2000.00455.x

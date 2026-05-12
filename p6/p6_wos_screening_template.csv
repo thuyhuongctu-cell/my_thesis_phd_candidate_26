@@ -1,0 +1,2 @@
+study_id,wos_id,authors,year,title,journal,doi,n_sample,country,screen_l1,screen_l1_reason,screen_l2,screen_l2_reason,eligible,doi_measure,fp_measure,r_reported,n_used,notes
+,,,,,,,,,"Y/N","if N: off-topic/qual/country-level/no-data/language","Y/N","if N: no-r/duplicate/outside-range/not-firm/meta-only/insufficient","Y/N",,,,,,
