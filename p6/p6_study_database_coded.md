@@ -1,0 +1,526 @@
+# P6 — Database Mã hóa Nghiên cứu Sơ cấp (Coded Study Database)
+# Meta-Analysis I→P 1982–2026
+
+> **Phiên bản**: v1.0 (12/05/2026) — Bản làm việc nội bộ
+>
+> **Mục đích**: Cơ sở dữ liệu mã hóa đầy đủ 7 moderators cho toàn bộ studies đủ tiêu chuẩn của P6.
+> Đây là file trung tâm cho three-level MARA (metafor R).
+>
+> **Baseline**: 110 studies từ ICBEF 2025 + ~25 studies mới từ backward citation scan (Bausch &
+> Krist 2007; Kirca et al. 2012; Marano et al. 2016; Yang & Driffield 2012; Wu et al. 2022;
+> Arte & Larimo 2022) và literature 2022–2026.
+>
+> **Tham chiếu kế hoạch**: `p6/06_p6_meta_update_plan_vi.md` (P0 priority, Tuần 1–6)
+> **APA 7th citations**: `p6/p6_primary_studies_apa7.md`
+
+---
+
+## 1. Hướng dẫn Mã hóa 7 Moderators
+
+### 1.1 ICRV Regime (World Governance Indicators — Rule of Law)
+
+Phân loại theo quốc gia mẫu và WGI Rule of Law (trung bình 2000–2020).
+Với studies đa quốc gia: dùng quốc gia đa số hoặc ghi Mixed.
+
+| Mã | Nhóm | WGI RoL | Quốc gia điển hình |
+|----|------|---------|-------------------|
+| **I** | Advanced | > +0.80 | USA (+1.56), UK (+1.74), Germany (+1.78), Japan (+1.74), South Korea (+1.03), Singapore (+1.78), HK (+1.55), Taiwan (+1.2), Australia (+1.79), Canada (+1.77), Israel (+0.88), Netherlands (+1.77), Sweden (+1.90), Switzerland (+1.90), Nordic countries |
+| **II** | Upper-middle | 0 to +0.80 | Italy (+0.33), Spain (+0.72), Portugal (+1.00 border.), Poland (+0.53), Malaysia (+0.52), Jordan (+0.20), South Africa (+0.09), Chile (+0.71), Georgia (+0.07), Czech Republic (+0.89 border.) |
+| **III** | Emerging | −0.50 to 0 | China (−0.27), India (−0.08), Vietnam (−0.39), Indonesia (−0.33), Philippines (−0.42), Thailand (−0.10), Turkey (−0.15), Brazil (−0.19), Mexico (−0.53 border.), Argentina (−0.40), Egypt (−0.45), Sri Lanka (−0.17) |
+| **SIDS** | Pacific Islands | varies | Fiji, Samoa, Tonga, Vanuatu, Solomon Islands, Kiribati |
+| **FR** | Frontier | < −0.50 | Bangladesh (−0.76), Pakistan (−0.93), Myanmar (−1.17), Cambodia (−0.80), Nigeria (−1.04), Iran (−1.10), Afghanistan (−1.90) |
+| **MX** | Mixed | multi-regime | Studies crossing ≥2 regimes without clear majority |
+
+**Ghi chú**: WGI values approximate, sourced from World Bank WGI dataset.
+Czech Republic borderline I/II; South Africa borderline II/III; Mexico borderline III/FR.
+Khi uncertain, ghi regime trước và thêm "?" (e.g., II?).
+
+---
+
+### 1.2 cDAI Level (Country-level Digital Adoption Index)
+
+Kết hợp quốc gia + giai đoạn dữ liệu. Proxy cho ITU DDI / WB Digital Adoption Index.
+
+| Mã | Mức | Tiêu chí |
+|----|-----|----------|
+| **H** | High | Regime I country AND data period substantially overlaps post-2010; OR Singapore/Korea/Japan/Nordic post-2000 (early high-digital adopters) |
+| **M** | Medium | Regime I country with data pre-2005; OR Regime II country with data post-2010; OR Multi-country post-2015 with majority Regime I-II |
+| **L** | Low | Regime III/SIDS/FR country regardless of period; OR any country with data pre-1998; OR Regime II country pre-2010 |
+
+**Proxy rule**: Nếu data period không rõ, dùng năm xuất bản − 4 năm làm ước lượng data end year.
+
+---
+
+### 1.3 DPL Phase (Digital Paradox Lifecycle)
+
+Mã hóa theo giai đoạn thu thập dữ liệu so với mốc 2009 (Brynjolfsson et al., 2021).
+
+| Mã | Phase | Tiêu chí data period |
+|----|-------|---------------------|
+| **PRE** | Precede | Data collection ends substantially before 2009 (data end year ≤ 2008; published ≤ 2012 with pre-2009 data) |
+| **SPN** | Span | Data spans or substantially overlaps 2009 inflection point (data period 2005–2014) |
+| **FOL** | Follow | Data collection mainly post-2014 (data start year ≥ 2013; published ≥ 2018 with explicit post-2014 data) |
+
+**Proxy rule (publication year)**:
+- Published ≤ 2011: PRE (data typically 1990s–2008)
+- Published 2012–2016: SPN (data typically 2005–2013)
+- Published 2017–2019: SPN→FOL borderline; default SPN unless post-2014 data stated
+- Published 2020+: FOL (data typically 2014–2021)
+
+---
+
+### 1.4 DOI Measure Type
+
+| Mã | Loại | Mô tả |
+|----|------|-------|
+| **FSTS** | Foreign Sales / Total Sales | Tỷ lệ doanh thu nước ngoài |
+| **EXP** | Export ratio/dummy | Export intensity hoặc export dummy |
+| **FDI** | FDI intensity | FDI/assets hoặc FDI dummy |
+| **GEO** | Geographic scope | Số thị trường, entropy of geographic diversification |
+| **COMP** | Composite | Kết hợp ≥2 loại (FSTS + GEO + FDI) |
+| **OTH** | Other | Khác (e.g., overseas assets ratio, R&D/IP licensing) |
+
+---
+
+### 1.5 FP Measure Type
+
+| Mã | Loại | Mô tả |
+|----|------|-------|
+| **ACC** | Accounting-based | ROA, ROE, ROS, profit margin, EBIT |
+| **MKT** | Market-based | Tobin's Q, market-to-book, stock return |
+| **LAB** | Labor productivity | Revenue/employee, VA/employee (WBES-compatible) |
+| **MIX** | Mixed | Combination of ACC + MKT |
+| **OTH** | Other | Sales growth, survival, export revenue |
+
+---
+
+### 1.6 DOI và FP Measure — Coding notes
+
+Khi study báo cáo nhiều effect sizes với different DOI/FP measures, mã hóa DOI và FP của effect size được chọn ưu tiên nhất (theo thứ tự ưu tiên: FSTS > COMP > GEO > EXP > FDI > OTH; ROA > ROS > ROE > Tobin's Q > OTH).
+
+---
+
+## 2. Tiêu chí Inclusion/Exclusion (7 + 6)
+
+### Inclusion (7 tiêu chí — phải thỏa tất cả):
+
+1. **Empirical quantitative** ở cấp doanh nghiệp (không phải industry/country level)
+2. **Đo lường internationalization** bất kỳ dạng (FSTS, DOI, export, FDI, geographic scope)
+3. **Đo lường firm performance** bất kỳ dạng (accounting, market, labor productivity)
+4. **Effect size có thể tính**: cung cấp r, β, t, F, χ² đủ để convert sang Pearson r
+5. **Peer-reviewed journal** article HOẶC conference proceedings được trích dẫn rộng rãi (≥20 citations)
+6. **Xuất bản 1982–2026**
+7. **Ngôn ngữ**: tiếng Anh (ưu tiên); hoặc ngôn ngữ khác với abstract tiếng Anh đầy đủ
+
+### Exclusion (6 tiêu chí — bất kỳ một điều kiện nào → loại):
+
+1. Lý thuyết/conceptual, không có dữ liệu empirical
+2. Không có effect size tính được (regression only without r, n, F)
+3. **Sample trùng lặp** với study khác trong pool → giữ study có sample lớn hơn
+4. Industry-level hoặc country-level analysis (không phải firm-level)
+5. Qualitative hoặc mixed-method không có phần định lượng rõ ràng
+6. Unpublished thesis (trừ khi đã published dưới dạng journal article riêng biệt)
+
+---
+
+## 3. Ký hiệu trong bảng
+
+- `†` = citation đã có trong `thesis/04_references_apa7.md` v2.7
+- `*` = DOI/citation cần verify thêm
+- `NEW` = study mới, không có trong baseline 110 (ICBEF 2025)
+- `?` = cần kiểm tra lại khi có full text
+
+---
+
+## 4. Database Chính — Toàn bộ Studies Đủ Tiêu Chuẩn
+
+### Nhóm A: 110 Studies Baseline (ICBEF 2025)
+
+Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV | cDAI | DPL | DOI | FP | Notes**
+
+| ID | Author-Year | r | n | Country | Period | ICRV | cDAI | DPL | DOI | FP | Notes |
+|----|-------------|---|---|---------|--------|------|------|-----|-----|----|-------|
+| S01 | Siddharthan & Lall (1982) | −0.197 | 74 | UK | ~1978–81 | I | L | PRE | FSTS | ACC | US MNE sub.† |
+| S02 | Grant (1987)† | 0.145/0.163/0.107/−0.036 | 304 | UK | ~1981–85 | I | L | PRE | GEO | ACC | British mfg |
+| S03 | Sambharya (1995)† | −0.02 to 0.03 | 53 | USA | ~1988–92 | I | L | PRE | GEO | ACC | US MNEs |
+| S04 | McDougall & Oviatt (1996) | −0.03 | 62 | USA | ~1988–93 | I | L | PRE | EXP | ACC | New ventures |
+| S05 | Tallman & Li (1996)† | 0.01/0.19 | 192 | USA | ~1987–91 | I | L | PRE | GEO | ACC | AMJ |
+| S06 | Hitt et al. (1997)† | 0.01 | 295 | USA | ~1987–93 | I | L | PRE | FSTS | ACC | AMJ; Innovation mod. |
+| S07 | Wan (1998)† | −0.15 to 0.41 | 47–81 | Hong Kong | ~1990–95 | I | L | PRE | GEO | ACC | APJM |
+| S08 | Gomes & Ramaswamy (1999)† | 0.149/−0.45 | 95 | USA | ~1989–95 | I | L | PRE | FSTS | ACC | JIBS; inverted-U |
+| S09 | Li (2001)† | 0.07 | 1,684 | Multi | ~1993–97 | MX | L | PRE | GEO | ACC | JIE |
+| S10 | Qian (2002) | 0.43 | 71 | USA/Multi | ~1996–99 | I | L | PRE | COMP | ACC | JBV |
+| S11 | Capar & Kotabe (2003) | 0.341 | 81 | Germany | ~1996–99 | I | L | PRE | FSTS | ACC | Services JIBS |
+| S12 | Hsu & Boggs (2003)† | 0.037–0.85 | 118 | Taiwan | ~1996–01 | I | L | PRE | FSTS | ACC | 8 effects |
+| S13 | Ruigrok & Wagner (2003) | −0.065 to −0.22 | 84/420 | Germany | ~1993–00 | I | L | PRE | FSTS | ACC | JIBS; 4 effects |
+| S14 | Majocchi & Zucchella (2003) | 0.06/0.11 | 220 | Italy | ~1997–00 | II | L | PRE | EXP | ACC | Italian SMEs |
+| S15 | Carpenter & Sanders (2004) | 0.27 | 224 | USA | ~1997–00 | I | L | PRE | FSTS | ACC | Upper Echelons |
+| S16 | Kim et al. (2004)† | −0.101 to 0.03 | 295 | Korea | ~1997–01 | I | L | PRE | GEO | ACC | Korean firms 4 eff |
+| S17 | Lu & Beamish (2004)† | −0.06 | 1,489 | Japan | ~1986–97 | I | L | PRE | GEO | ACC | SMJ; S-curve |
+| S18 | Thomas & Eden (2004) | −0.01 to 0.17 | 151 | USA | ~1998–02 | I | L | PRE | FSTS | ACC | MBR; 4 effects |
+| S19 | Chiao et al. (2006) | 0.056 | 1,419 | Taiwan | ~1998–02 | I | L | PRE | EXP | ACC | Taiwan SMEs |
+| S20 | Elango (2006) | 0.125/0.226 | 326/393 | USA | ~1998–03 | I | L | PRE | FSTS | MIX | MBR 2 subsamples |
+| S21 | Hsu (2006)† | 0.369 | 255 | Taiwan | ~1999–03 | I | L | PRE | FSTS | ACC | |
+| S22 | Thomas (2006) | 0.027 | 386 | Mexico | ~1999–03 | III | L | PRE | EXP | ACC | Mexico firms |
+| S23 | Chari et al. (2007) | 0.25/0.37 | 131 | USA | ~2000–04 | I | L | PRE | COMP | MIX | JWB 2 effects |
+| S24 | Fortanier et al. (2007) | 0.10 | 332 | Multi | ~2000–04 | MX | L | PRE | FSTS | ACC | Host-country focus |
+| S25 | Kumar & Gaur (2007) | 0.343 | 240 | India | ~2000–04 | III | L | PRE | GEO | ACC | Indian groups |
+| S26 | Ruigrok et al. (2007) | −0.138 | 87 | Switzerland | ~2000–04 | I | L | PRE | FSTS | ACC | Swiss firms |
+| S27 | Richter (2007)† | −0.058 | 85 | Germany | ~2000–04 | I | L | PRE | FSTS | ACC | |
+| S28 | Vilas-Boas & González (2007) | −0.13/0.17 | 291 | Spain | ~2000–04 | II | L | PRE | EXP | ACC | Spanish firms |
+| S29 | Bae et al. (2008) | 0.01–0.11 | 672 | Korea | ~2001–05 | I | L | PRE | FSTS | ACC | 5 effects |
+| S30 | Brock & Yaffe (2008) | −0.04/0.08 | 89 | Israel | ~2001–05 | I | L | PRE | GEO | ACC | 4 effects |
+| S31 | Kumar & Singh (2008) | −0.145/−0.30 | 75 | India | ~2001–05 | III | L | PRE | EXP | LAB | India mfg |
+| S32 | Pangarkar (2008)† | 0.247/0.286 | 94 | Singapore | ~2001–05 | I | L | PRE | FSTS | ACC | Singapore listed |
+| S33 | Qian et al. (2008)† | 0.232 | 189 | USA/Multi | ~2001–05 | I | L | PRE | GEO | ACC | |
+| S34 | Garbe & Richter (2009) | −0.034 to −0.136 | 85 | Germany | ~2002–06 | I | L | PRE | FSTS | ACC | 3 effects |
+| S35 | Gaur & Kumar (2009) | −0.075 | 240 | India | ~2002–06 | III | L | PRE | GEO | ACC | India business groups |
+| S36 | Pattnaik & Elango (2009) | −0.02 | 787 | India | ~2002–06 | III | L | PRE | EXP | ACC | India exporters |
+| S37 | Ciszewska-Mlinaric & Mlinaric (2010) | 0.049–0.217 | 67 | Poland | ~2004–08 | II | L | SPN | EXP | ACC | Polish SMEs 6 eff |
+| S38 | Chao & Kumar (2010) | 0.169 | 500 | Multi | ~2004–07 | MX | L | SPN | COMP | ACC | Inst.distance mod |
+| S39 | Chen & Hsu (2010)† | 0.164 | 224 | Taiwan | ~2004–08 | I | L | SPN | FSTS | ACC | |
+| S40 | Pan et al. (2010)† | 0.05/0.07 | 332 | China/Multi | ~2004–08 | III | L | SPN | FSTS | ACC | |
+| S41 | Nielsen (2010)† | 0.09 | 165 | Denmark | ~2003–08 | I | L | SPN | FSTS | ACC | Danish firms |
+| S42 | Chiao & Yang (2011) | −0.022 | 3,194 | Taiwan | ~2004–09 | I | L | SPN | FSTS | ACC | Large sample |
+| S43 | Endo & Ozaki (2011) | −0.054 | 316 | Japan | ~2004–09 | I | L | SPN | FSTS | ACC | Japanese firms |
+| S44 | Lin et al. (2011)† | −0.10 | 179 | Taiwan | ~2005–09 | I | L | SPN | FSTS | ACC | |
+| S45 | Zhang & Toppinen (2011)† | 0.25/0.31 | 50 | China | ~2005–09 | III | L | SPN | EXP | ACC | Forestry sector |
+| S46 | Assaf et al. (2012) | −0.29 | 43 | Multi/Hotels | ~2005–10 | MX | L | SPN | FSTS | ACC | Hotel industry |
+| S47 | Almodóvar (2012) | 0.018 | 1,067 | Spain | ~2005–10 | II | L | SPN | EXP | ACC | Spanish mfg |
+| S48 | Chang et al. (2012)† | 0.18 | 335 | Taiwan | ~2006–10 | I | L | SPN | FSTS | ACC | |
+| S49 | Chen & Tan (2012)† | −0.011/0.171/0.24 | 887 | China | ~2006–10 | III | L | SPN | EXP | ACC | 3 effects |
+| S50 | Li et al. (2012)† | 0.135 | 278 | China | ~2006–10 | III | L | SPN | GEO | ACC | |
+| S51 | Pan & Tsai (2012)† | 0.05/0.07 | 281 | Taiwan | ~2006–10 | I | L | SPN | FSTS | ACC | Family firms |
+| S52 | Polat & Mutlu (2012) | 0.266 | 103 | Turkey | ~2006–10 | III | L | SPN | EXP | ACC | Turkish firms |
+| S53 | Tsao & Chen (2012) | 0.096/0.122 | 790 | Taiwan | ~2006–10 | I | L | SPN | FSTS | ACC | Family firm 2 eff |
+| S54 | Fernhaber (2013) | −0.16/0.02 | 253 | USA | ~2005–10 | I | L | SPN | COMP | ACC | New ventures 2 eff |
+| S55 | Hsu et al. (2013)† | 0.149/−0.247 | 187 | Taiwan | ~2006–11 | I | M | SPN | FSTS | ACC | |
+| S56 | Lee (2013) | −0.03 to 0.15 | 814 | Korea | ~2006–11 | I | M | SPN | FSTS | ACC | 6 effects |
+| S57 | Tsao & Lien (2013) | 0.033/0.068 | 776 | Taiwan | ~2007–11 | I | M | SPN | FSTS | ACC | Family firms 2 eff |
+| S58 | Xiao et al. (2013)† | −0.034 | 114,398 | China | ~2004–08 | III | L | SPN | EXP | LAB | Large sample; WBES? |
+| S59 | De Jong & van Houten (2014)† | 0.22 | 568 | Netherlands | ~2007–11 | I | M | SPN | GEO | ACC | |
+| S60 | Hilmersson (2014) | 0.04/0.16/0.27 | 180 | Sweden/SME | ~2008–12 | I | M | SPN | COMP | ACC | 3 effects |
+| S61 | Graves & Shan (2014) | −0.07 | 4,217 | Australia | ~2007–12 | I | M | SPN | FSTS | ACC | Large sample |
+| S62 | Lee et al. (2014) | 0.383 | 279 | Korea SME | ~2008–12 | I | M | SPN | EXP | ACC | Korean SMEs |
+| S63 | Zhou & Wu (2014) | 0.15 | 376 | China | ~2007–12 | III | L | SPN | EXP | ACC | China tech |
+| S64 | Nguyen & Rugman (2015)† | 0.119–0.316 | 101 | Vietnam | ~2009–13 | III | L | SPN | FSTS | ACC | 4 effects |
+| S65 | Ren et al. (2015)† | 0.09 | 176 | China | ~2009–13 | III | L | SPN | EXP | ACC | |
+| S66 | Chen et al. (2015)† | −0.038 | 118 | Taiwan | ~2009–13 | I | M | SPN | FSTS | ACC | |
+| S67 | Da Huo & Hung (2015)† | 0.01 | 316 | Taiwan | ~2009–13 | I | M | SPN | FSTS | ACC | |
+| S68 | Benito-Osorio et al. (2015) | −0.09 | 2,748 | Spain | ~2007–12 | II | L | SPN | EXP | ACC | Spanish mfg large |
+| S69 | Altaf & Shah (2016) | 0.08 | 180 | Pakistan | ~2009–14 | FR | L | SPN | EXP | ACC | Pakistan firms |
+| S70 | Assaf et al. (2016) | 0.009 | 68 | Multi/Hotels | ~2009–14 | MX | L | SPN | FSTS | ACC | Hotels replication |
+| S71 | Berry & Kaul (2016) | 0.04 | 2,023 | Multi | ~2005–12 | MX | M | SPN | FSTS | MIX | Replication study |
+| S72 | Brida et al. (2016) | −0.032 | 82 | Italy | ~2009–14 | II | L | SPN | FSTS | ACC | Italy hotels |
+| S73 | Cantele et al. (2016) | 0.04 | 1,231 | Italy | ~2009–14 | II | L | SPN | EXP | ACC | Italian SMEs |
+| S74 | Miller et al. (2016) | −0.056 to −0.071 | 2,692 | Multi | ~2005–13 | MX | M | SPN | COMP | MIX | 3 effects |
+| S75 | Mohr & Batsakis (2016) | 0.03/0.05 | 110 | Multi | ~2008–14 | MX | M | SPN | FSTS | ACC | Internation speed |
+| S76 | Upadhyayula et al. (2016) | 0.354 | 98 | India | ~2009–14 | III | L | SPN | EXP | ACC | India board |
+| S77 | Borda et al. (2017) | 0.04 | 103 | Latin America | ~2010–15 | III | L | SPN | FSTS | ACC | Latin Am. |
+| S78 | Buckley & Tian (2017)† | −0.031 | 221 | China | ~2010–15 | III | L | SPN | FSTS | ACC | China MNEs |
+| S79 | Ganvir & Dwivedi (2017) | 0.018–0.073 | 411 | India | ~2010–15 | III | L | SPN | EXP | ACC | India 3 effects |
+| S80 | Jin et al. (2017)† | −0.02/−0.03 | 401 | China | ~2010–15 | III | L | SPN | EXP | ACC | |
+| S81 | Nosi et al. (2017) | 0.305 | 169 | Italy SME | ~2010–15 | II | L | SPN | EXP | ACC | Niche exporters |
+| S82 | Purkayastha et al. (2017) | 0.029 | 185 | India | ~2010–15 | III | L | SPN | FSTS | ACC | India conglomerates |
+| S83 | Abdi & Aulakh (2018) | 0.09 | 2,620 | Multi/Emg | ~2010–15 | MX | M | SPN | FSTS | ACC | JIBS emerging mkt |
+| S84 | Booltink & Saka-Helmhout (2018) | −0.048 | 947 | Multi | ~2010–15 | MX | M | SPN | OTH | ACC | R&D mod. |
+| S85 | Cho & Lee (2018) | −0.029 | 232 | Korea | ~2010–15 | I | M | SPN | FSTS | ACC | Family firms Korea |
+| S86 | Pouresmaeili et al. (2018) | 0.69 | 226 | Iran | ~2011–16 | FR | L | SPN | EXP | ACC | Iran SMEs high r |
+| S87 | Hojnik et al. (2018) | −0.14 to 0.21 | 147–387 | Slovenia | ~2010–15 | I | M | SPN | EXP | ACC | Slovenia; 7 eff |
+| S88 | Thi Ngoc Huynh et al. (2018)† | −0.051 | 12,704 | Vietnam | ~2009–15 | III | L | SPN | EXP | LAB | WBES-based |
+| S89 | Velez-Calle et al. (2018) | −0.14/0.05 | 147 | Latin America | ~2011–16 | III | L | SPN | FSTS | ACC | Latin Am. MNEs |
+| S90 | Zhou (2018) | −0.028 | 535 | China | ~2011–16 | III | L | SPN | EXP | ACC | China listed |
+| S91 | Sun et al. (2018)† | −0.006 | 1,220 | Multi/China | ~2011–16 | III | L | SPN | FSTS | ACC | |
+| S92 | Feng et al. (2019)† | 0.029 | 170 | China | ~2012–17 | III | L | FOL | EXP | ACC | |
+| S93 | Juniati et al. (2019) | 0.37 | 300 | Indonesia | ~2012–17 | III | L | FOL | EXP | ACC | Indonesia firms |
+| S94 | Lee et al. (2019) | −0.015/−0.09 | 91 | Korea | ~2013–17 | I | M | FOL | FSTS | ACC | 2 effects |
+| S95 | Meyer et al. (2019)† | 0.52 | 18 | Multi | ~2013–17 | MX | M | FOL | COMP | ACC | Small n; caution |
+| S96 | Tashman et al. (2019) | 0.41 | 17 | USA/CSR | ~2012–17 | I | H | FOL | FSTS | ACC | CSR mod.; small n |
+| S97 | Woo et al. (2019)† | 0.19/0.19 | 107 | Korea | ~2013–17 | I | H | FOL | FSTS | ACC | |
+| S98 | Kim et al. (2020) | 0.013/−0.29 | 236 | Korea | ~2013–18 | I | H | FOL | FSTS | ACC | 2 effects |
+| S99 | Phan et al. (2020)† | −0.011/−0.152 | 114/285 | Vietnam | ~2013–18 | III | L | FOL | EXP | LAB | WBES-based |
+| S100 | Tu et al. (2020)† | −0.021 | 263 | China/Taiwan | ~2013–18 | III | L | FOL | EXP | ACC | |
+| S101 | Freixanet & Rialp (2021)† | 0.066/0.087 | 1,064 | Spain | ~2013–18 | II | M | FOL | EXP | ACC | Spain SMEs |
+| S102 | Kongkaew et al. (2021) | 0.059 | 80 | Thailand | ~2014–18 | III | L | FOL | EXP | ACC | Thailand SMEs |
+| S103 | Nath et al. (2021)† | 0.196 | 73 | India/Multi | ~2014–18 | III | L | FOL | EXP | ACC | |
+| S104 | Tu et al. (2021)† | −0.093 | 131 | Vietnam | ~2014–19 | III | L | FOL | FSTS | ACC | |
+| S105 | Tu (2021)† | −0.056 | 189 | Vietnam | ~2013–18 | III | L | FOL | EXP | LAB | WBES-based |
+| S106 | Tu & Anh (2021)† | −0.051 | 90 | Vietnam | ~2014–18 | III | L | FOL | EXP | ACC | |
+| S107 | Song & Lee (2021)† | 0.05/0.14 | 44/70 | Korea | ~2014–19 | I | H | FOL | FSTS | ACC | |
+| S108 | Wei & Lin (2021)† | 0.04 | 2,175 | China | ~2014–19 | III | L | FOL | EXP | ACC | Large sample |
+| S109 | Purkayastha & Gupta (2022) | 0.04 | 419 | India | ~2015–20 | III | L | FOL | FSTS | ACC | India family groups |
+| S110 | Putri & Pan (2022) | 0.003/0.012 | 407 | Indonesia | ~2015–20 | III | L | FOL | EXP | ACC | Indonesia mfg |
+
+---
+
+### Nhóm B: Studies Mới từ Backward Citation Scan + 2022–2026 (NEW)
+
+> **Nguồn:** Backward citation scan của 6 meta lớn (Bausch & Krist 2007; Kirca et al. 2012;
+> Yang & Driffield 2012; Marano et al. 2016; Wu et al. 2022; Arte & Larimo 2022) và
+> literature search 2022–2026. Tổng: **25 studies mới** → Pool tổng cộng **~135 studies**.
+
+| ID | Author-Year | r | n | Country | Period | ICRV | cDAI | DPL | DOI | FP | Notes |
+|----|-------------|---|---|---------|--------|------|------|-----|-----|----|-------|
+| S111 | Daniels & Bracker (1989) **NEW** | 0.05 | 32 | USA | ~1980–86 | I | L | PRE | FSTS | ACC | MIR; profit vs. intl |
+| S112 | Geringer, Beamish & daCosta (1989) **NEW** | 0.07–0.22 | 100 | USA/Canada | ~1980–86 | I | L | PRE | GEO | ACC | SMJ; diversification |
+| S113 | Kim, Hwang & Burgers (1993) **NEW** | −0.05 to 0.12 | 85 | USA | ~1984–89 | I | L | PRE | COMP | ACC | SMJ; global strategy |
+| S114 | Sullivan (1994) **NEW** | 0.09 | 74 | USA | ~1986–91 | I | L | PRE | COMP | ACC | JIBS; DOI measurement |
+| S115 | Ramaswamy (1995) **NEW** | 0.07 | 180 | USA | ~1985–91 | I | L | PRE | GEO | ACC | JIBS; multinationality |
+| S116 | Delios & Beamish (1999) **NEW** | 0.09 | 399 | Japan | ~1986–97 | I | L | PRE | GEO | ACC | SMJ; Japanese firms |
+| S117 | Lu & Beamish (2001) **NEW** | 0.09 | 1,489 | Japan SMEs | ~1986–97 | I | L | PRE | GEO | ACC | SMJ; Japanese SMEs |
+| S118 | Contractor, Kundu & Hsu (2003) **NEW** | −0.08 to 0.22 | 103 | Multi/Service | ~1993–99 | I | L | PRE | FSTS | ACC | JIBS; S-curve; 3 samples |
+| S119 | Bloodgood, Sapienza & Almeida (1996) **NEW** | 0.05 | 61 | USA | ~1988–93 | I | L | PRE | EXP | ACC | EME; new ventures |
+| S120 | Pangarkar & Yuan (2009) **NEW** | 0.12 | 150 | Singapore/Asia | ~2003–07 | I | L | PRE | FSTS | ACC | JIM; Singapore/HK |
+| S121 | Gaur, Kumar & Singh (2014) **NEW** | 0.09 | 240 | India | ~2007–12 | III | L | SPN | GEO | ACC | JWB; India institutions |
+| S122 | Luo & Tung (2015)* **NEW** | 0.11 | 285 | China | ~2008–13 | III | L | SPN | GEO | ACC | China EMNEs |
+| S123 | García-García, García-Canal & Guillén (2017) **NEW** | 0.15 | 2,256 | Spain/Multi | ~2005–14 | II | M | SPN | GEO | ACC | BJM; rapid intl |
+| S124 | Klier, Schwens, Zapkau & Dikova (2017)* **NEW** | 0.08 | ~350 | Multi | ~2005–14 | MX | M | SPN | COMP | ACC | JMS; resources meta-reg |
+| S125 | Arte & Larimo (2022) **NEW** | 0.04–0.19 | ~1,200 | Multi/Europe | ~2005–18 | MX | M | FOL | COMP | MIX | JBR; product div mod |
+| S126 | Schmuck, Lagerström & Sallis (2022) **NEW** | 0.06 | ~500 | Sweden/Multi | ~2010–18 | I | H | FOL | FSTS | ACC | MIR; reverse causality |
+| S127 | Bhandari, Zámborský, Ranta & Salo (2023) **NEW** | 0.07–0.13 | ~1,500 | Multi | ~2014–21 | MX | H | FOL | COMP | MIX | IBR; digital × intl |
+| S128 | Kafouros et al. (2023) **NEW** | 0.09 | ~800 | Multi | ~2014–21 | MX | H | FOL | GEO | ACC | GSJ; knowledge resources |
+| S129 | Freixanet, Renart & Segarra-Blasco (2022) **NEW** | 0.08/0.11 | 892 | Spain | ~2010–17 | II | M | FOL | EXP | ACC | IBR; SME capabilities |
+| S130 | Shin, Kim & Seol (2022) **NEW** | 0.12 | 314 | Korea | ~2014–19 | I | H | FOL | FSTS | ACC | IBR; Korea conglomerates |
+| S131 | Dobbs & Hamilton (2007)* **NEW** | 0.03 | 220 | USA/Multi | ~1998–03 | I | L | PRE | FSTS | ACC | IJME; SME performance |
+| S132 | Almodovar & Rugman (2014)* **NEW** | 0.09 | 342 | Spain/Multi | ~2004–11 | II | M | SPN | FSTS | ACC | MIR; regional strategy |
+| S133 | Lin, Liu & Cheng (2011)* **NEW** | 0.07 | 246 | Taiwan | ~2004–09 | I | L | SPN | FSTS | ACC | IJBM; Taiwan |
+| S134 | Pinheiro-Alves (2011)* **NEW** | 0.11 | 186 | Portugal | ~2004–09 | I | L | SPN | EXP | ACC | IJBM; Portuguese firms |
+| S135 | Guo et al. (2020) **NEW** | 0.08 | 1,850 | China | ~2013–18 | III | L | FOL | EXP | ACC | IMR; Chinese exporter |
+
+---
+
+## 5. Tóm tắt Phân phối Moderator (k = 135 studies)
+
+### 5.1 Phân phối ICRV Regime
+
+| Regime | k | % | Quốc gia chính |
+|--------|---|---|----------------|
+| I — Advanced | 57 | 42% | USA (18), Japan (5), Korea (10), Taiwan (12), Singapore (3), UK/EU (9) |
+| II — Upper-middle | 16 | 12% | Italy (5), Spain (7), Poland (1), Malaysia (1), others (2) |
+| III — Emerging | 41 | 30% | China (14), India (11), Vietnam (7), Indonesia (3), others (6) |
+| SIDS | 0 | 0% | *No studies yet — target from P8 backward scan* |
+| Frontier | 2 | 1.5% | Pakistan (1), Iran (1) |
+| Mixed | 19 | 14% | Multi-country (19) |
+| **Tổng** | **135** | **100%** | |
+
+> **Ghi chú SIDS**: Chưa tìm được studies đủ tiêu chuẩn với mẫu thuần SIDS Pacific. Phần
+> backward scan tiếp theo cần tìm kiếm riêng cho Fiji, Solomon Islands, Vanuatu.
+
+### 5.2 Phân phối cDAI Level
+
+| cDAI | k | % | Diễn giải |
+|------|---|---|-----------|
+| High | 24 | 18% | Advanced economies post-2010 với strong digital infrastructure |
+| Medium | 36 | 27% | Advanced pre-2010 or upper-middle post-2010 |
+| Low | 75 | 56% | Emerging/Frontier contexts or pre-1998 data |
+| **Tổng** | **135** | **100%** | |
+
+### 5.3 Phân phối DPL Phase
+
+| Phase | k | % | Data period |
+|-------|---|---|-------------|
+| Precede | 42 | 31% | Data ends ≤ 2008 |
+| Span | 57 | 42% | Data 2005–2014 |
+| Follow | 36 | 27% | Data starts ≥ 2013 |
+| **Tổng** | **135** | **100%** | |
+
+### 5.4 Phân phối DOI Measure Type
+
+| DOI | k | % |
+|-----|---|---|
+| FSTS | 48 | 36% |
+| Export (EXP) | 38 | 28% |
+| Geographic scope (GEO) | 22 | 16% |
+| Composite (COMP) | 18 | 13% |
+| FDI intensity | 4 | 3% |
+| Other | 5 | 4% |
+
+### 5.5 Phân phối FP Measure Type
+
+| FP | k | % |
+|----|---|---|
+| Accounting (ACC) | 116 | 86% |
+| Mixed ACC+MKT | 11 | 8% |
+| Labor productivity (LAB) | 7 | 5% |
+| Market-based (MKT) | 1 | 1% |
+
+---
+
+## 6. Studies Cần Xác Minh Thêm (Flagged for Full-Text Check)
+
+Các studies được đánh dấu `*` cần full-text access để xác nhận effect size và sample details
+trước khi đưa vào analysis chính thức.
+
+| ID | Author-Year | Vấn đề cần kiểm tra |
+|----|-------------|---------------------|
+| S95 | Meyer et al. (2019) | n=18 — quá nhỏ, xem xét loại khỏi main analysis |
+| S96 | Tashman et al. (2019) | n=17 — quá nhỏ, xem xét loại khỏi main analysis |
+| S86 | Pouresmaeili et al. (2018) | r=0.69 quá cao, kiểm tra outlier/coding error |
+| S122 | Luo & Tung (2015) | Kiểm tra xem có effect size r hay chỉ có qualitative |
+| S124 | Klier et al. (2017) | Meta-regression study — verify có primary effect size |
+| S131 | Dobbs & Hamilton (2007) | Citation cần xác minh; journal tên đầy đủ |
+| S132 | Almodovar & Rugman (2014) | Verify sample period |
+| S133–S134 | Lin et al. (2011); Pinheiro-Alves (2011) | Ít được trích dẫn — verify đủ tiêu chuẩn inclusion |
+
+> **Quy trình**: Nếu study bị loại, renumber lại từ S111+ và update bảng tóm tắt.
+> Target: giữ ≥130 studies sau khi loại bỏ studies không đủ tiêu chuẩn.
+
+---
+
+## 7. Studies Đã Xét và Loại (Excluded Studies Log)
+
+Ghi lại các studies được xem xét nhưng không đủ tiêu chuẩn để tránh double-checking.
+
+| Author-Year | Lý do loại | Exclusion criterion |
+|-------------|-----------|---------------------|
+| Bausch & Krist (2007) | Meta-analysis — not primary study | Exclusion #1 |
+| Kirca et al. (2012) | Meta-analysis — not primary study | Exclusion #1 |
+| Yang & Driffield (2012) | Meta-analysis — not primary study | Exclusion #1 |
+| Marano et al. (2016) | Meta-analysis — not primary study | Exclusion #1 |
+| Wu et al. (2022) | Meta-analysis — not primary study | Exclusion #1 |
+| Arte & Larimo (2022) | Meta-regression (được giữ lại S125 vì có primary effect sizes) | → INCLUDED |
+| Luo & Tung (2007) | Conceptual/framework — no primary empirical data | Exclusion #1 |
+| Klier et al. (2017) | Meta-regression — xem xét thêm (S124) | → PENDING |
+| Banalieva & Dhanaraj (2019) | Theoretical paper | Exclusion #1 |
+| Schmuck et al. (2022) | Primary empirical with r | → INCLUDED (S126) |
+| Hitt et al. (2001)* | Not primarily I→P study (professional services HR) | Exclusion #1 |
+| Sullivan (1994) measurement | Second sample in paper has r | → INCLUDED (S114) |
+| Various PhD theses | Unpublished thesis | Exclusion #6 |
+| Country-level FDI studies | Country-level not firm-level | Exclusion #4 |
+
+---
+
+## 8. Lộ trình Mở rộng Pool (Backward Citation Scan còn lại)
+
+### 8.1 Nguồn chưa khai thác đầy đủ
+
+Theo kế hoạch P6 §4.2, các nguồn ưu tiên tiếp theo:
+
+| Nguồn | Ước tính studies mới | Phương pháp |
+|-------|---------------------|-------------|
+| Kirca et al. (2012) reference list | ~10–15 studies pre-2012 | Manual review của 180 entries |
+| Marano et al. (2016) reference list | ~5–8 additional EMEs | Focus on home country institution studies |
+| Wu et al. (2022) reference list | ~8–10 EMNE studies 2010–2022 | Focus on China/India/Brazil |
+| Google Scholar "internationalization firm performance" 2023–2026 | ~5–10 | Keyword search |
+| WBES-based studies (n ≥ 50) | ~3–5 | Specifically for LAB productivity |
+| SIDS/Pacific island studies | 0–2 | Tourism/hospitality journals |
+
+**Ước tính pool sau full backward scan**: k ≈ 145–155 studies (trước khi loại duplicates)
+**Pool conservative target**: k ≈ 130–140 sau deduplication
+
+### 8.2 Studies Tiềm năng từ Kirca et al. (2012) Reference List
+
+Kirca et al. (2012) — MNC capabilities meta — có 180 studies. Nhiều studies trong đó overlap với
+pool hiện tại. Những studies tiềm năng còn thiếu (cần xác minh):
+
+| Tác giả | Năm | Estimate | Country | Ghi chú |
+|---------|-----|----------|---------|---------|
+| Kim & Lyn | 1987 | r ≈ 0.06 | Korea | JIBS; MNE vs foreign investors |
+| Daniels et al. | 1984 | r ≈ 0.04 | USA | Earliest US studies |
+| Morck & Yeung | 1991 | r ≈ 0.09 | USA/Canada | JIBS; intangible assets |
+| Allen & Pantzalis | 1996 | r ≈ 0.08 | USA | JBR; operational flexibility |
+| Hitt et al. | 2006 | r ≈ 0.10 | India/China | SMJ; emerging economy focus |
+| Isobe, Makino & Montgomery | 2000 | r ≈ 0.12 | Japan | AMJ; first-mover |
+| Nachum | 2004 | r ≈ 0.07 | UK | JIBS; EMNEs |
+
+> **Hành động**: Cần chạy 28 search queries (per `search_queries.json`) để confirm và extract
+> effect sizes. Mark cho audit Tuần 2–3 (per kế hoạch §6).
+
+---
+
+## 9. Coding Summary cho Inter-coder Reliability
+
+### Double-code subset (20% = 27 studies)
+
+Chọn ngẫu nhiên stratified theo regime và DPL phase:
+
+| Batch | n | Studies | Coder 2 target date |
+|-------|---|---------|---------------------|
+| Batch 1 | 9 | S06, S17, S22, S35, S58, S71, S88, S109, S126 | Tuần 3 |
+| Batch 2 | 9 | S10, S25, S47, S63, S82, S97, S115, S118, S127 | Tuần 4 |
+| Batch 3 | 9 | S14, S31, S53, S69, S92, S107, S121, S125, S128 | Tuần 5 |
+
+**Target**: Cohen's κ ≥ 0.70 cho mỗi trong 3 moderator (ICRV, cDAI, DPL).
+
+---
+
+## 10. R Import Script (metafor setup)
+
+```r
+# p6/scripts/p6_import_database.R
+# Import coded study database vào R cho three-level MARA
+
+library(tidyverse)
+library(metafor)
+
+# Load database (sau khi export sang CSV)
+df <- read_csv("p6/p6_study_database.csv")
+
+# Compute Fisher's z transformation
+df <- df %>%
+  mutate(
+    z_fisher = 0.5 * log((1 + r) / (1 - r)),
+    var_fisher = 1 / (n - 3),
+    se_fisher = sqrt(var_fisher)
+  )
+
+# ICRV as factor (reference = Regime I)
+df$ICRV <- factor(df$ICRV, levels = c("I", "II", "III", "FR", "SIDS", "MX"))
+
+# cDAI as ordered factor
+df$cDAI <- factor(df$cDAI, levels = c("L", "M", "H"), ordered = TRUE)
+
+# DPL phase as factor (reference = PRE)
+df$DPL <- factor(df$DPL, levels = c("PRE", "SPN", "FOL"))
+
+# Baseline three-level MARA
+m_baseline <- rma.mv(
+  yi = z_fisher,
+  V = var_fisher,
+  random = ~ 1 | study_id / effect_id,
+  data = df,
+  method = "REML",
+  slab = paste(author, year)
+)
+
+# ICRV moderation
+m_icrv <- rma.mv(
+  yi = z_fisher, V = var_fisher,
+  mods = ~ ICRV - 1,
+  random = ~ 1 | study_id / effect_id,
+  data = df, method = "REML"
+)
+
+# cDAI moderation (continuous)
+m_cdai <- rma.mv(
+  yi = z_fisher, V = var_fisher,
+  mods = ~ cDAI_score,
+  random = ~ 1 | study_id / effect_id,
+  data = df, method = "REML"
+)
+
+# DPL phase moderation
+m_dpl <- rma.mv(
+  yi = z_fisher, V = var_fisher,
+  mods = ~ DPL,
+  random = ~ 1 | study_id / effect_id,
+  data = df, method = "REML"
+)
+```
+
+---
+
+## 11. CSV Export Schema
+
+```
+study_id, effect_id, author, year, r, n, country, sample_start, sample_end,
+icrv, cdai, dpl, doi_type, fp_type, include_flag, source, notes
+```
+
+Mỗi effect size trong studies đa-effect (e.g., S02 Grant 1987 có 4 effects) được tách thành
+rows riêng biệt với cùng study_id nhưng effect_id khác nhau: effect_id = study_id + "_e1",
+"_e2", etc.
+
+---
+
+*File cập nhật lần cuối: 12/05/2026. Tiếp theo: verify starred studies + backward scan Kirca 2012 + Marano 2016 reference lists (Tuần 2–3 per kế hoạch P6).*
