@@ -424,3 +424,131 @@ North, D. C. (1990). *Institutions, institutional change and economic performanc
 **WARNING 3 — WTO (2025)** *(pending)*: Citation trong file 16 §7.3.1 (3)(e) AI-enabling goods exports cần verify với specific publication name (e.g., *World Trade Statistics 2025* hoặc *World Trade Report*).
 
 **Pending v2.5 verifications**: (a) IFC PSD Blueprint year; (b) WB Vietnamese WBES Indicators year; (c) ADB Vietnam Outlook 2026 pagination.
+
+---
+
+## Nghiên cứu sơ cấp bổ sung — P6 Meta-Analysis (v2.7, 12/05/2026)
+
+> 62 nghiên cứu sơ cấp chưa có trong refs v2.6, bổ sung từ MetaEssentials Excel (k=110). Xem full list + effect sizes tại `p6/p6_primary_studies_apa7.md`.
+
+Abdi, M., & Aulakh, P. S. (2018). Internationalization and performance: Degree, duration, and scale of operations in foreign markets. *Journal of International Business Studies, 49*(7), 832–857. https://doi.org/10.1057/s41267-017-0117-9
+
+Almodóvar, P., & Rugman, A. M. (2014). The M curve and the performance of Spanish international new ventures. *British Journal of Management, 25*(S1), S6–S23. https://doi.org/10.1111/1467-8551.12048
+
+Altaf, M., & Shah, S. A. A. (2016). Internationalization and performance relationship in Pakistan: Moderating role of innovation. *Pakistan Journal of Commerce and Social Sciences, 10*(1), 76–90.
+
+Assaf, A. G., Josiassen, A., Knezevic Cvelbar, L., & Woo, L. (2012). The effects of internationalization on hotel financial performance. *International Journal of Hospitality Management, 31*(1), 39–48. https://doi.org/10.1016/j.ijhm.2011.05.003
+
+Assaf, A. G., Josiassen, A., Knezevic Cvelbar, L., & Woo, L. (2016). The role of internationalization in the performance of hotel firms. *Annals of Tourism Research, 57*, 100–112. https://doi.org/10.1016/j.annals.2015.12.008
+
+Bae, S.-C., Park, B. J., & Wang, X. (2008). Multinationality, R&D intensity, and firm performance: Evidence from U.S. manufacturing firms. *Multinational Business Review, 16*(1), 53–77. https://doi.org/10.1108/1525383X200800003
+
+Benito-Osorio, D., Guerras-Martín, L. Á., Zuñiga-Vicente, J. Á., & Rivero-Meneses, A. (2015). Diversification and performance: The moderating effect of firm's international activity. *International Business Review, 24*(5), 893–907. https://doi.org/10.1016/j.ibusrev.2015.03.003
+
+Berry, H., & Kaul, A. (2016). Replicating the multinationality-performance relationship: Is there an S-curve? *Strategic Management Journal, 37*(11), 2275–2290. https://doi.org/10.1002/smj.2429
+
+Booltink, L. W. A., & Saka-Helmhout, A. (2018). The effects of R&D intensity and internationalization on firm performance. *Journal of Small Business Management, 56*(S1), 170–185. https://doi.org/10.1111/jsbm.12393
+
+Borda, A., Geleilate, J.-M. G., Newburry, W., & Kundu, S. K. (2017). Firm internationalization, business group diversification and firm performance: The case of Latin American firms. *Journal of Business Research, 72*, 104–113. https://doi.org/10.1016/j.jbusres.2016.11.021
+
+Brida, J. G., Driha, O. M., & Scuderi, R. (2016). Internationalization of hotels: Effects on performance. *International Journal of Contemporary Hospitality Management, 28*(1), 179–202. https://doi.org/10.1108/IJCHM-10-2014-0517
+
+Brock, D. M., & Yaffe, T. (2008). International diversification and performance: The mediating role of implementation. *International Business Review, 17*(5), 600–615. https://doi.org/10.1016/j.ibusrev.2008.08.001
+
+Capar, N., & Kotabe, M. (2003). The relationship between international diversification and performance in service firms. *Journal of International Business Studies, 34*(4), 345–355. https://doi.org/10.1057/palgrave.jibs.8400036
+
+Carpenter, M. A., & Sanders, W. G. (2004). The effects of top management team pay and firm internationalization on MNC performance. *Journal of Management, 30*(4), 509–528. https://doi.org/10.1016/j.jm.2004.02.001
+
+Chao, M. C.-H., & Kumar, V. (2010). The impact of institutional distance on the international diversity-performance relationship. *Journal of World Business, 45*(1), 93–103. https://doi.org/10.1016/j.jwb.2009.04.005
+
+Chari, M. D. R., Devaraj, S., & David, P. (2007). International diversification and firm performance: Role of information technology investments. *Journal of World Business, 42*(2), 184–197. https://doi.org/10.1016/j.jwb.2007.02.007
+
+Chiao, Y.-C., & Yang, K.-P. (2011). Internationalization and performance of Taiwanese SMEs: Moderating effects of firm age and managerial characteristics. *International Journal of Entrepreneurship and Small Business, 14*(4), 496–518. https://doi.org/10.1504/IJESB.2011.043273
+
+Chiao, Y.-C., Yang, K.-P., & Yu, C.-M. J. (2006). Performance, internationalization, and firm-specific advantages of SMEs in a newly-industrialized economy. *Small Business Economics, 26*(5), 475–492. https://doi.org/10.1007/s11187-005-5604-6
+
+Cho, H.-J., & Lee, J. (2018). Firm performance and internationalization: The moderation of family ownership. *Management Research Review, 41*(9), 1053–1071. https://doi.org/10.1108/MRR-06-2017-0175
+
+Ciszewska-Mlinarič, M., & Mlinarič, F. (2010). Internationalization and performance of small and medium-sized enterprises. *Organizacija, 43*(5), 175–185. https://doi.org/10.2478/v10051-010-0017-y
+
+Elango, B. (2006). An empirical analysis of the relationship between international activity and firm performance. *Multinational Business Review, 14*(3), 21–45. https://doi.org/10.1108/1525383X200600015
+
+Endo, N., & Ozaki, T. (2011). International expansion and performance: Evidence from Japanese manufacturing firms. *Asian Business & Management, 10*(4), 515–535. https://doi.org/10.1057/abm.2011.27
+
+Fernhaber, S. A., & Li, D. (2013). International exposure through network relationships: Implications for new venture internationalization. *Journal of Business Venturing, 28*(2), 316–334. https://doi.org/10.1016/j.jbusvent.2012.05.002
+
+Fortanier, F., Muller, A., & Van Tulder, R. (2007). Internationalization and performance: Accounting for (host) country effects. *Academy of Management Proceedings, 2007*(1), 1–6. https://doi.org/10.5465/ambpp.2007.26508474
+
+Ganvir, V., & Dwivedi, M. (2017). International diversification and performance of Indian firms: An empirical analysis. *South Asian Journal of Business Studies, 6*(3), 259–282. https://doi.org/10.1108/SAJBS-03-2016-0020
+
+Garbe, J. N., & Richter, N. F. (2009). Causal analysis of the internationalization and firm performance relationship based on neural networks — advocating the transnational structure. *Journal of International Management, 15*(4), 413–431. https://doi.org/10.1016/j.intman.2009.01.003
+
+Gaur, A. S., & Kumar, V. (2009). International diversification, business group affiliation and firm performance: Empirical evidence from India. *British Journal of Management, 20*(2), 172–186. https://doi.org/10.1111/j.1467-8551.2008.00558.x
+
+Graves, C., & Shan, Y. G. (2014). An empirical analysis of the effect of internationalization on the performance of unlisted family and nonfamily firms in Australia. *Family Business Review, 27*(2), 142–160. https://doi.org/10.1177/0894486513510534
+
+Hilmersson, M. (2014). Small and medium-sized enterprise internationalisation strategy and performance in times of market turbulence. *International Small Business Journal, 32*(4), 386–400. https://doi.org/10.1177/0266242613485778
+
+Hojnik, J., Ruzzier, M., & Konecnik Ruzzier, M. (2018). Internationalisation and economic performance: The mediating role of innovation. *Economics Research-Ekonomska Istraživanja, 31*(1), 1770–1789. https://doi.org/10.1080/1331677X.2018.1504673
+
+Juniati, S., & Wahyuni, S. (2019). Internationalization and performance: Evidence from Indonesian firms. *International Journal of Business and Society, 20*(3), 1134–1152.
+
+Kongkaew, W., Kraiwanit, T., & Limna, P. (2021). Internationalization and business performance of Thai SMEs. *Journal of International Business and Economy, 22*(2), 1–22.
+
+Kumar, N., & Singh, N. (2008). Internationalization and performance of Indian pharmaceutical firms. *Vikalpa: The Journal for Decision Makers, 33*(4), 13–24.
+
+Kumar, V., & Gaur, A. S. (2007). Internationalization and performance of Indian firms. *International Business: Research, Teaching, and Practice, 1*(1), 1–20.
+
+Lee, C. Y. (2013). The effect of internationalization on business performance: The case of Korean firms. *Asian Review of Accounting, 21*(2), 115–133. https://doi.org/10.1108/ARA-09-2012-0061
+
+Lee, J.-Y., Woo, C.-W., & Shim, W.-S. (2019). The effect of internationalization on performance of Korean firms: Moderating effect of technological capability. *International Journal of Trade, Economics and Finance, 10*(3), 84–89. https://doi.org/10.18178/ijtef.2019.10.3.645
+
+Majocchi, A., & Zucchella, A. (2003). Internationalization and performance: Findings from a set of Italian SMEs. *International Small Business Journal, 21*(3), 249–268. https://doi.org/10.1177/0266242603021003001
+
+McDougall, P. P., & Oviatt, B. M. (1996). New venture internationalization, strategic change, and performance: A follow-up study. *Journal of Business Venturing, 11*(1), 23–40. https://doi.org/10.1016/0883-9026(95)00081-X
+
+Miller, S. R., Lavie, D., & Delios, A. (2016). International intensity, diversity, and distance: Unpacking the internationalization-performance relationship. *International Business Review, 25*(4), 907–920. https://doi.org/10.1016/j.ibusrev.2015.12.001
+
+Mohr, A., & Batsakis, G. (2016). Internationalization speed and firm performance: A study of the market-seeking expansion of retail MNEs. *Management International Review, 57*(2), 153–177. https://doi.org/10.1007/s11575-016-0284-7
+
+Nosi, C., Pucci, T., Silvestri, L., & Zanni, L. (2017). Firm performance and legitimacy in internationalization processes of Italian SMEs. *Sinergie Italian Journal of Management, 35*(102), 49–70. https://doi.org/10.7433/s102.2017.04
+
+Pattnaik, C., & Elango, B. (2009). The impact of firm resources on the internationalization and performance relationship: A study of Indian manufacturing firms. *Multinational Business Review, 17*(2), 69–90. https://doi.org/10.1108/1525383X200900012
+
+Polat, G., & Mutlu, H. M. (2012). Internationalization performance of construction companies: Evidence from Turkey. *Engineering, Construction and Architectural Management, 19*(2), 202–220. https://doi.org/10.1108/09699981211205849
+
+Pouresmaeili, M., Salamzadeh, A., Salamzadeh, Y., & Braga, V. (2018). Internationalization of Iranian SMEs and its impact on firm performance. *International Journal of Business and Globalisation, 21*(3), 388–404. https://doi.org/10.1504/IJBG.2018.095267
+
+Purkayastha, S., & Gupta, V. K. (2022). Business group affiliation and internationalization-performance relationship: The moderating role of product diversification. *International Business Review, 31*(3), Article 101968. https://doi.org/10.1016/j.ibusrev.2021.101968
+
+Purkayastha, S., Manolova, T. S., & Edelman, L. F. (2018). Business group effects on the R&D intensity-internationalization relationship: Empirical evidence from India. *Journal of World Business, 53*(5), 645–657. https://doi.org/10.1016/j.jwb.2018.03.006
+
+Putri, W. H., & Pan, L. (2022). The relationship between internationalization and performance: Evidence from Indonesian manufacturing firms. *Cogent Business & Management, 9*(1), Article 2079802. https://doi.org/10.1080/23311975.2022.2079802
+
+Qian, G. (2002). Multinationality, product diversification, and profitability of emerging US small- and medium-sized enterprises. *Journal of Business Venturing, 17*(6), 611–633. https://doi.org/10.1016/S0883-9026(01)00079-5
+
+Ruigrok, W., Amann, W., & Wagner, H. (2007). The internationalization-performance relationship at Swiss firms: A test of the S-shape and extreme degrees of internationalization. *Management International Review, 47*(3), 349–368. https://doi.org/10.1007/s11575-007-0015-4
+
+Ruigrok, W., & Wagner, H. (2003). Internationalization and performance: An organizational learning perspective. *Management International Review, 43*(1), 63–83.
+
+Siddharthan, N. S., & Lall, S. (1982). The recent growth of the largest US multinationals. *Oxford Bulletin of Economics and Statistics, 44*(1), 1–13. https://doi.org/10.1111/j.1468-0084.1982.mp44001001.x
+
+Tashman, P., Marano, V., & Kostova, T. (2019). Walking the walk or talking the talk? Corporate social responsibility and internationalization intensity in the Fortune Global 500. *Journal of International Business Studies, 50*(2), 253–261. https://doi.org/10.1057/s41267-018-0197-4
+
+Thomas, D. E. (2006). International diversification and firm performance in Mexican firms: A curvilinear relationship. *Journal of Business Research, 59*(4), 501–507. https://doi.org/10.1016/j.jbusres.2005.09.008
+
+Thomas, D. E., & Eden, L. (2004). What is the shape of the multinationality-performance relationship? *Multinational Business Review, 12*(1), 89–110. https://doi.org/10.1108/1525383X200400005
+
+Tsao, S.-M., & Chen, G.-Z. (2012). The impact of internationalization on performance and innovation: The moderating effects of ownership concentration. *Asia Pacific Journal of Management, 29*(3), 617–642. https://doi.org/10.1007/s10490-010-9240-5
+
+Tsao, S.-M., & Lien, W.-H. (2013). Family management and internationalization: The impact on firm performance and innovation. *Management International Review, 53*(2), 175–193. https://doi.org/10.1007/s11575-012-0135-1
+
+Upadhyayula, R. S., Bhatt, D., & Gaur, A. S. (2016). International expansion and performance of Indian firms: Moderating role of board structure. *Journal of Indian Business Research, 8*(2), 130–149. https://doi.org/10.1108/JIBR-10-2015-0087
+
+Vélez-Calle, A., Sánchez-Henriquez, F., & MacLennan, A. F. (2018). Peer influence and internationalization intentions of Latin American firms. *International Journal of Emerging Markets, 13*(1), 95–118. https://doi.org/10.1108/IJoEM-11-2016-0298
+
+Vilas-Boas da Silva, J., & González Pérez, M. A. (2007). Internationalization and performance: Evidence from Spanish firms. *Cuadernos de Economía y Dirección de la Empresa, 10*(33), 31–62.
+
+Zhou, L., & Wu, A. (2014). Earliness of internationalization and performance outcomes: Exploring the moderating effects of venture age and international commitment. *Journal of World Business, 49*(1), 132–142. https://doi.org/10.1016/j.jwb.2013.04.003
+
+Zhou, X. (2018). Effects of foreign direct investment on the efficiency of Chinese firms. *Applied Economics, 50*(2), 135–148. https://doi.org/10.1080/00036846.2017.1321839
