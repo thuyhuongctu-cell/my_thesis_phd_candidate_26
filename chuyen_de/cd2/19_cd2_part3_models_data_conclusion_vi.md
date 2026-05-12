@@ -26,7 +26,63 @@
 
 ### 6.2 Đặc tả phương trình chi tiết
 
-(Giữ nguyên — xem v1.0 commit history.)
+**M0 — Baseline tuyến tính**
+
+$$\ln(LP)_i = \beta_0 + \beta_1 \cdot FSTS_i + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i$$
+
+Kỳ vọng: β₁ > 0 (tác động dương trung bình). Cung cấp lower-bound estimate, không nắm bắt phi tuyến.
+
+**M1 — Inverted-U Quadratic (H1 partial)**
+
+$$\ln(LP)_i = \beta_0 + \beta_1 \cdot FSTS_{c,i} + \beta_2 \cdot FSTS_{c,i}^2 + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i$$
+
+Kỳ vọng: β₁ > 0, β₂ < 0. Turning point TP₁ = −β₁/(2β₂). Lind–Mehlum U-test xác nhận inverted-U thực sự.
+
+**M2 — S-curve/Cubic (H1 full)**
+
+$$\ln(LP)_i = \beta_0 + \beta_1 \cdot FSTS_{c,i} + \beta_2 \cdot FSTS_{c,i}^2 + \beta_3 \cdot FSTS_{c,i}^3 + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i$$
+
+Kỳ vọng: β₁ > 0, β₂ < 0, β₃ > 0. So sánh M1 và M2 bằng AIC, BIC và F-test β₃=0.
+
+**M3 — + TCI Moderation (H2)**
+
+$$\ln(LP)_i = \underbrace{\beta_0 + \beta_1 FSTS_{c,i} + \beta_2 FSTS_{c,i}^2}_{M1} + \beta_3 \cdot TCI_i + \beta_4 \cdot (FSTS_{c,i} \times TCI_i) + \beta_5 \cdot (FSTS_{c,i}^2 \times TCI_i) + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i$$
+
+Kỳ vọng chính: β₃ > 0 (direct TCI effect). F-test (β₄=β₅=0) = joint moderation test.
+
+**M4 — + DAI Moderation (H3)**
+
+$$\ln(LP)_i = \underbrace{\text{M1}}_{\text{base}} + \beta_3 \cdot DAI_i + \beta_4 \cdot (FSTS_{c,i} \times DAI_i) + \beta_5 \cdot (FSTS_{c,i}^2 \times DAI_i) + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i$$
+
+Kỳ vọng: β₅(FSTS²×DAI) > 0 trong Nhóm I (P4 Singapore +3.119); β₃ → 0 khi IV (P3 Việt Nam null).
+
+**M5 — + Manager Moderation (H4)**
+
+$$\ln(LP)_i = \underbrace{\text{M1}}_{\text{base}} + \beta_3 \cdot Manager_i + \beta_4 \cdot (FSTS_{c,i} \times Manager_i) + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i$$
+
+Biến Manager ưu tiên: exp_manager (b5). Kỳ vọng: β₄(FSTS×exp_manager) > 0.
+
+**M6 — + Institutional Regime ICRV (H5)**
+
+$$\ln(LP)_i = \underbrace{\text{M1}}_{\text{base}} + \sum_{j=2}^{6} \left[\beta_{3j} \cdot ICRV_{j,i} + \beta_{4j} \cdot (FSTS_{c,i} \times ICRV_{j,i}) + \beta_{5j} \cdot (FSTS_{c,i}^2 \times ICRV_{j,i})\right] + \boldsymbol{\gamma}'\mathbf{X}_i + \delta_t + \varepsilon_i$$
+
+Baseline = Nhóm I (tiên tiến đổi mới). Kỳ vọng: turning point gradient I > II > III > IV > V; Nhóm VI forced penalty. Country FE bị omit → thay bằng Year FE + Region FE (6 regions).
+
+**M7 — Three-way Capstone (H2 + H3 + H6)**
+
+$$\begin{aligned}
+\ln(LP)_i = &\ \beta_0 + \beta_1 FSTS_{c,i} + \beta_2 FSTS_{c,i}^2 + \beta_3 TCI_i + \beta_4 DAI_i \\
+&+ \beta_5 (FSTS_{c,i} \times TCI_i) + \beta_6 (FSTS_{c,i}^2 \times TCI_i) \\
+&+ \beta_7 (FSTS_{c,i} \times DAI_i) + \beta_8 (FSTS_{c,i}^2 \times DAI_i) \\
+&+ \beta_9 (FSTS_{c,i} \times TCI_i \times DAI_i) \\
+&+ \beta_{10} (FSTS_{c,i} \times YB_{2013-17,i}) + \beta_{11} (FSTS_{c,i}^2 \times YB_{2013-17,i}) \\
+&+ \beta_{12} (FSTS_{c,i} \times YB_{2018-25,i}) + \beta_{13} (FSTS_{c,i}^2 \times YB_{2018-25,i}) \\
+&+ \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
+\end{aligned}$$
+
+Kỳ vọng: β₈(FSTS²×DAI) > 0 Nhóm I; β₃(TCI) > 0; β₁₂/β₁₃ ≠ β₁₀/β₁₁ (temporal shift). Với k = 13 focal + controls, n ≥ 5.000 cần thiết cho power > 0.80 — dễ đáp ứng với pool 101.185.
+
+> **X** gồm: ln_employees, firm_age, foreign_own (≥10%), sector dummies; αⱼ = country FE; δₜ = year FE.
 
 ### 6.3 Cấp độ phân tích và đơn vị quan sát
 
@@ -276,11 +332,159 @@ Ang (2008); Arte & Larimo (2022); Auty (1993); Aw, Chung & Roberts (2000); Banal
 
 ### Phụ lục A — Bảng định nghĩa biến CĐ2
 
-(Giữ nguyên — xem v1.0 commit history.)
+**Bảng A1**. *Biến phụ thuộc, biến độc lập, và biến điều tiết — đo lường và mã WBES.*
 
-### Phụ lục B – G
+| Biến | Khái niệm | Đo lường | Mã WBES | Schema |
+|------|-----------|---------|---------|--------|
+| **ln(LP)** | Năng suất lao động (log) | ln(annual_sales_PPP / permanent_employees) | d2, l1 | Tất cả |
+| **FSTS** | Cường độ xuất khẩu (Foreign Sales to Total Sales) | d3c / 100 | d3c | Tất cả |
+| **FSTS_c** | FSTS mean-centered | FSTS − mean(FSTS) trong wave×country cell | — | Tất cả |
+| **TCI_z** | Chỉ số năng lực công nghệ (z-standardized) | z-mean(ISO + R&D + innov + foreign_tech); cần ≥3/4 non-missing | b8, h8, h1, e6 | Tất cả |
+| **DAI_z_full** | Chỉ số áp dụng số Tầng 1+2 | z-mean(website + customer_epay + supplier_epay) | c22b, k33, k38 | BEE (2019+) |
+| **DAI_z_tier1** | Chỉ số áp dụng số Tầng 1 | z-mean(website) | c22b | Tất cả |
+| **exp_manager** | Kinh nghiệm nhà quản lý (năm) | Số năm kinh nghiệm top manager | b5 | BEE + một số Std |
+| **educ_manager** | Trình độ học vấn quản lý | Ordinal 1–6 (no education → graduate) | b7a | BEE + một số Std |
+| **gender_manager** | Giới tính top manager | Binary: female = 1 | b7 | BEE + một số Std |
+| **ICRV_j** | Nhóm thể chế ICRV (j=1–6) | Categorical theo phân loại WGI + GNI/capita | — | Quốc gia cố định |
+| **Year_bucket** | Giai đoạn thời gian | 1 = 2009–12; 2 = 2013–17; 3 = 2018–25 | — | Tất cả |
+| **ln_emp** | Quy mô doanh nghiệp | ln(số lao động chính thức) | l1 | Tất cả |
+| **firm_age** | Tuổi doanh nghiệp | 2025 − year_established | b5 hoặc year estab | Tất cả |
+| **foreign_own** | Sở hữu nước ngoài ≥10% | Binary | b2b | Tất cả |
+| **sector** | Ngành sản xuất / dịch vụ | Manufacturing (ISIC 10–33); Services (45–96) | isic | Tất cả |
 
-(Sơ đồ mô hình M0–M7; Bảng giả thuyết H1–H6; Bộ mã Stata mẫu cho M2 và M7; Bảng crosswalk schema WBES; Power analysis chi tiết; So sánh khung CĐ2 với 4 khung tham chiếu — giữ nguyên v1.0.)
+*Ghi chú:* TCI Cronbach α ≈ 0.55–0.65 — phù hợp với formative composite (Coltman et al., 2008). FSTS winsorized tại p1/p99; ln(LP) winsorized tại p1/p99. DAI_z_full chỉ dùng trong BEE sub-sample; DAI_z_tier1 cho cross-schema robustness.
+
+---
+
+### Phụ lục B — Sơ đồ cấu trúc tám mô hình M0–M7
+
+```
+M0: FSTS → ln(LP)                                     [Linear baseline]
+M1: FSTS + FSTS² → ln(LP)                             [Inverted-U, H1]
+M2: FSTS + FSTS² + FSTS³ → ln(LP)                     [S-curve, H1 full]
+M3: M1 + TCI + FSTS×TCI + FSTS²×TCI                   [H2 TCI]
+M4: M1 + DAI + FSTS×DAI + FSTS²×DAI                   [H3 DAI]
+M5: M1 + Manager + FSTS×Manager                       [H4 Manager]
+M6: M1 + ICRV_j + FSTS×ICRV_j + FSTS²×ICRV_j         [H5 Institutional, j=2–6]
+M7: M1 + TCI + DAI + interactions + FSTS×YB + FSTS²×YB [H2+H3+H6 capstone]
+```
+
+Tất cả mô hình kiểm soát: ln_emp, firm_age, foreign_own, sector FE, country FE (trừ M6), year FE.
+
+---
+
+### Phụ lục C — Bảng kiểm định giả thuyết H1–H6
+
+| Giả thuyết | Nội dung | Mô hình | Kiểm định | Kỳ vọng từ neo đậu |
+|-----------|---------|---------|-----------|-------------------|
+| **H1a** | FSTS→LP phi tuyến inverted-U | M1 | Lind–Mehlum; TP trong [0,1] | TP 39–49% (P3: 39–46%; P5: 47–49%) |
+| **H1b** | S-curve không vượt trội inverted-U với SME Asia | M2 vs M1 | F-test β₃=0; AIC/BIC | M1 thắng (expected) |
+| **H2** | TCI nâng mặt bằng LP (level-shifter) | M3 | t-test β₃>0; F-test β₄=β₅=0 | β₃>0; curvature exploratory |
+| **H3** | DAI là conditional scaling resource | M4 | t-test β₅>0 Nhóm I; IV Nhóm IV | β₅>0 Nhóm I; IV null Nhóm IV |
+| **H4** | exp_manager moderation positive | M5 | t-test β₄>0 | β₄(FSTS×exp)>0 |
+| **H5** | ICRV gradient + SIDS forced penalty | M6 | F-test joint; Paternoster TP cross-group | TP gradient I>II>III>IV>V; VI ≤ 0 |
+| **H6** | Temporal heterogeneity 2009→2023 | M7 | t-test β₁₂≠β₁₀; Paternoster z | Structural shift; DAI stronger in YB3 |
+
+---
+
+### Phụ lục D — Bộ mã Stata mẫu cho M2 và M7
+
+```stata
+* ── Chuẩn bị biến ──────────────────────────────────────
+gen FSTS_c = FSTS - mean_FSTS_wave_country
+gen FSTS_c2 = FSTS_c^2
+gen FSTS_c3 = FSTS_c^3
+gen lnLP = ln(sales_ppp / l1)
+
+* ── M2: S-curve baseline ─────────────────────────────────
+reghdfe lnLP FSTS_c FSTS_c2 FSTS_c3 ///
+    ln_emp firm_age foreign_own i.sector, ///
+    absorb(country_id year_id) vce(robust)
+    
+* Lind-Mehlum U-test (xtreml package)
+utest FSTS_c FSTS_c2, fieller
+
+* ── M7: Three-way capstone ───────────────────────────────
+gen TCI_DAI = TCI_z * DAI_z_tier1
+gen FSTS_TCI = FSTS_c * TCI_z
+gen FSTS2_TCI = FSTS_c2 * TCI_z
+gen FSTS_DAI = FSTS_c * DAI_z_tier1
+gen FSTS2_DAI = FSTS_c2 * DAI_z_tier1
+gen FSTS_TCI_DAI = FSTS_c * TCI_z * DAI_z_tier1
+gen FSTS_YB2 = FSTS_c * (year_bucket==2)
+gen FSTS_YB3 = FSTS_c * (year_bucket==3)
+gen FSTS2_YB2 = FSTS_c2 * (year_bucket==2)
+gen FSTS2_YB3 = FSTS_c2 * (year_bucket==3)
+
+reghdfe lnLP FSTS_c FSTS_c2 TCI_z DAI_z_tier1 ///
+    FSTS_TCI FSTS2_TCI FSTS_DAI FSTS2_DAI FSTS_TCI_DAI ///
+    FSTS_YB2 FSTS_YB3 FSTS2_YB2 FSTS2_YB3 ///
+    ln_emp firm_age foreign_own i.sector, ///
+    absorb(country_id year_id) vce(robust)
+    
+* Turning point và CI (delta method)
+nlcom -_b[FSTS_c]/(2*_b[FSTS_c2])
+```
+
+---
+
+### Phụ lục E — Bảng crosswalk schema WBES
+
+| Biến | PICS3 (2009–13) | Standardized (2014–18) | BEE (2019–25) | Ghi chú |
+|------|----------------|----------------------|--------------|---------|
+| Labor productivity (DV) | d2/l1 | d2/l1 | d2/l1 | Nhất quán |
+| FSTS | d3c | d3c | d3c | Nhất quán |
+| ISO cert | b8 | b8 | b8 | Nhất quán |
+| R&D | h8 | h8 | h8 | Nhất quán |
+| Product innov | h1 | h1 | h1 | Nhất quán |
+| Foreign tech | e6 | e6 | e6 | Nhất quán |
+| Website | c22b | c22b | c22b | Nhất quán |
+| Customer e-pay (%) | — | — | k33 | BEE only → DAI Tier 2 |
+| Supplier e-pay (%) | — | — | k38 | BEE only → DAI Tier 2 |
+| Manager exp | b5 | b5 | b5 | Nhất quán |
+| Manager gender | b7 | b7 | b7 | Nhất quán |
+| Foreign ownership | b2b | b2b | b2b | Nhất quán |
+| Permanent employees | l1 | l1 | l1 | Nhất quán |
+
+*Đứt gãy schema*: DAI Tier 2 (k33, k38) chỉ bắt đầu từ BEE 2019 → tạo đứt gãy đo lường giữa pre/post-BEE. Chiến lược: DAI_z_full là biến chính trong BEE sub-sample; DAI_z_tier1 là biến robustness xuyên tất cả schema. Biến giả `Post_BEE_2019` được thêm vào mọi specification tổng gộp để kiểm soát schema break.
+
+---
+
+### Phụ lục F — Power Analysis
+
+**Phương trình tham chiếu: M7 (13 focal parameters)**
+
+Sử dụng G*Power 3.1 cho F-test với f² = 0.02 (small-medium effect, Cohen, 1988):
+
+| Tham số | Giá trị |
+|---------|---------|
+| Effect size (f²) | 0.02 (conservative) |
+| α | 0.05 |
+| Power | 0.80 |
+| Số predictors (M7) | 13 focal + ~15 controls = 28 |
+| n tối thiểu cần | ~1.800 |
+| n thực tế (pool) | **101.185** |
+| Power thực tế | **>0.999** |
+
+Sub-sample ICRV Nhóm VI (SIDS): n ≈ 1.200–1.800 — đáp ứng power 0.80 cho M1 (2 focal parameters). Nhóm I (Singapore): n ≈ 623 (P4 data) — đủ cho M4 (5 focal parameters) tại f² = 0.05.
+
+---
+
+### Phụ lục G — So sánh khung CĐ2 với 4 khung tham chiếu
+
+| Tiêu chí | CĐ2 (nghiên cứu này) | Lu & Beamish (2004) | Marano et al. (2016) | Banalieva & Dhanaraj (2019) |
+|---------|---------------------|--------------------|--------------------|--------------------------|
+| Lý thuyết nền | Uppsala + RBV + Inst + UE + Digital | Uppsala + RBV | Institutional | Digital capability + I-O |
+| Cỡ mẫu | 101.185 firms | ~980 firms | Meta-analysis | Large multi-country |
+| Số quốc gia | **47** | 1 (Japan) | 50+ | Multi-country |
+| Phi tuyến | Lind–Mehlum U-test + LOWESS | Cubic OLS | HLM | Không |
+| Digital moderator | **TCI + DAI tách biệt (CDCM)** | Không | Không | DAI (không tách) |
+| ICRV classification | **6 nhóm (novel)** | Không | GNI rough | WB income group |
+| IV identification | **Có (2SLS, first-stage F>16)** | Không | N/A | Không |
+| Temporal het. | **Year-bucket 3 giai đoạn** | Không | Không | Không |
+| SIDS inclusion | **Có (Nhóm VI, 7 nước)** | Không | Không | Không |
+
+*Đóng góp khác biệt*: CĐ2 là khung duy nhất đồng thời tích hợp: (a) micro-data lớn; (b) digital moderators tách biệt TCI/DAI; (c) ICRV 6 nhóm; (d) IV; và (e) temporal heterogeneity cho châu Á-Thái Bình Dương.
 
 ---
 
