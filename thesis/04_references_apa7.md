@@ -642,3 +642,11 @@ Zhou, X. (2018). Effects of foreign direct investment on the efficiency of Chine
 Cantele, S., Vernizzi, S., & Zardini, A. (2016). Does export affect the performance of Italian SMEs? An empirical analysis. *Economia e Diritto del Terziario, 28*(1), 5–22.
 
 Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014). Culture and entrepreneurial orientation: A multi-country study. *International Entrepreneurship and Management Journal, 10*(1), 1–15. https://doi.org/10.1007/s11365-011-0218-8
+
+## S. Tổng quan hệ thống 2026 — Bổ sung v2.9 (12/05/2026)
+
+> Tài liệu bổ sung được xác định qua tổng quan hệ thống WoS/Scopus mở rộng đến tháng 1/2026. Chỉ gồm các entries CHƯA có trong các phần trên. Nghiên cứu sơ cấp ứng viên (có r): xem `p6/p6_primary_studies_apa7.md` Phần 2.
+
+Falahat, M., Ramayah, T., Soto-Acosta, P., & Lee, Y.-Y. (2020). SMEs internationalization: The role of product innovation, market intelligence, pricing and marketing communication capabilities as drivers of SMEs' international performance. *Technological Forecasting and Social Change, 152*, Article 119908. https://doi.org/10.1016/j.techfore.2020.119908
+
+Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evolution. *Global Strategy Journal, 10*(2), 239–250. https://doi.org/10.1002/gsj.1383

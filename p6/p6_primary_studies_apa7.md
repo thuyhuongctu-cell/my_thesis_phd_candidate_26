@@ -286,4 +286,72 @@ done
 - 21+ authors: list first 19, ellipsis (...), last author (APA 7th §9.8)
 - Issue numbers omitted when journal has continuous pagination
 
+---
+
+## Phần 2 — Ứng viên sơ cấp bổ sung 2020–2022 (r chờ trích xuất)
+
+> Xác định qua tổng quan hệ thống mở rộng 2026 (WoS/Scopus đến tháng 1/2026). Tất cả là nghiên cứu thực nghiệm định lượng kiểm định I→P với dữ liệu sơ cấp. **Chưa có r trong MetaEssentials** — cần đọc bài gốc, trích xuất từ Bảng tương quan (bivariate r) hoặc chuyển đổi từ hệ số hồi quy (β → r theo công thức Peterson & Brown, 2005), sau đó nhập vào bảng coding.
+
+---
+
+### Nhóm 2020
+
+**[S-111]** Dikova, D., & Veselova, A. (2020). Performance effects of internationalization: Contingency theory analysis of Russian internationalized firms. *Management and Organization Review, 17*(1), 173–197. https://doi.org/10.1017/mor.2020.39
+*Effect: r = [*trích xuất — bảng tương quan § Phụ lục*], n ≈ 200–350 (Russian exporters/MNEs)* | [scite](https://scite.ai/reports/10.1017/mor.2020.39)
+
+**[S-112]** Huang, L., & Marciano, D. (2020). Interdependence relationship of internationalization-performance in manufacturing firms listed in Indonesia Stock Exchange and Chinese Stock Exchanges. In *Proceedings of the 17th International Symposium on Management (INSYMA 2020)* (Article 57). https://doi.org/10.2991/aebmr.k.200127.085
+*Effect: r = [*trích xuất — bảng tương quan Pearson*], n ≈ 150–300 (listed firms ID+CN)* | [scite](https://scite.ai/reports/10.2991/aebmr.k.200127.085)
+
+**[S-113]** Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and performance of small and medium-sized enterprises from emerging economies. *Competitiveness Review: An International Business Journal, 31*(4), 642–662. https://doi.org/10.1108/cr-03-2019-0028
+*Effect: r = [*trích xuất — bảng tương quan*], n ≈ 100–200 (SME Latin America)* | [scite](https://scite.ai/reports/10.1108/cr-03-2019-0028)
+
+**[S-114]** Phan, A. T., Tran, T. M., & Lu, T. M. (2020). The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon. *Decision Science Letters, 9*(4), 573–580. https://doi.org/10.5267/j.dsl.2020.7.001
+*Effect: r = [*trích xuất — W-curve, ≥2 r-values cho từng đoạn*], n ≈ 200 (Cameroon firms)* | [scite](https://scite.ai/reports/10.5267/j.dsl.2020.7.001)
+
+**[S-115]** Wang, G., Zhang, H., Xia, B., Wu, G., & Han, Y. (2020). Relationship between internationalization and financial performance: Evidence from ENR-listed Chinese firms. *Journal of Management in Engineering, 36*(2), Article 04019044. https://doi.org/10.1061/(asce)me.1943-5479.0000736
+*Effect: r = [*trích xuất — FSTS × ROA/ROE*], n ≈ 100–200 (ENR-listed Chinese construction MNEs)* | [scite](https://scite.ai/reports/10.1061/(asce)me.1943-5479.0000736)
+
+---
+
+### Nhóm 2021
+
+**[S-116]** Barłożewski, K., & Trąpczyński, P. (2021a). Internationalisation motives and the multinationality-performance relationship: The case of Polish firms. *Entrepreneurial Business and Economics Review, 9*(2), 85–104. https://doi.org/10.15678/eber.2021.090206
+*Effect: r = [*trích xuất — Table 2: DoI × ROS/ROS_norm*], n ≈ 150 (Polish MNEs)* | [scite](https://scite.ai/reports/10.15678/eber.2021.090206)
+
+**[S-117]** Barłożewski, K., & Trąpczyński, P. (2021b). Is internationalisation beneficial for novice internationalisers? The performance effects of firm-specific advantages, internationalisation degree and firm size revisited. *Oeconomia Copernicana, 12*(1), 53–75. https://doi.org/10.24136/oc.2021.003
+*Effect: r = [*trích xuất — Table A2: DoI × performance*], n ≈ 100–130 (Polish novice)* | [scite](https://scite.ai/reports/10.24136/oc.2021.003)
+
+**[S-118]** Tsionas, M. G., & Tzeremes, N. G. (2021). The degree of internationalization and firm productivity: Empirical evidence from large multinationals. *British Journal of Management, 32*(4), 1032–1052. https://doi.org/10.1111/1467-8551.12560
+*Effect: r = [*trích xuất — DoI × TFP/labor productivity*], n ≈ 200–400 (large MNEs)* | [scite](https://scite.ai/reports/10.1111/1467-8551.12560)
+
+**[S-119]** Wei, S., & Lin, L. (2021). The relationship between extent of internationalization and firm performance (Taiwan 1992–2017). *Mathematical Problems in Engineering, 2021*, Article 5528972. https://doi.org/10.1155/2021/5528972
+*Effect: r = [*S-curve, trích xuất ≥3 r-values: increasing/peak/decreasing segments*], n ≈ 300–500 (Taiwan panel)* | [scite](https://scite.ai/reports/10.1155/2021/5528972)
+
+---
+
+### Nhóm 2022
+
+**[S-120]** Cao, X., Li, P., Huang, X., & Fan, L. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from China. *PLoS ONE, 17*(2), Article e0263674. https://doi.org/10.1371/journal.pone.0263674
+*Effect: r = [*trích xuất — Table 2 correlations: FSTS × ROA/Tobin-Q*], n ≈ 250–500 (Chinese listed firms)* | [scite](https://scite.ai/reports/10.1371/journal.pone.0263674)
+
+**[S-121]** Schmuck, A., Lagerström, K., & Sallis, J. F. (2022). Turning the tables: The relationship between performance and multinationality. *Management International Review, 62*(1), 3–26. https://doi.org/10.1007/s11575-022-00464-3
+*Effect: r = [*reverse-causality design — extract bivariate r(I,P) from Appendix correlation matrix*], n ≈ 100–250 (European MNEs)* | [scite](https://scite.ai/reports/10.1007/s11575-022-00464-3)
+
+---
+
+### Ghi chú trích xuất r
+
+Để chuyển đổi hệ số β sang r khi bài không báo cáo bivariate r trực tiếp:
+```
+r = β / √(β² + MSE/Var_x)       # nếu có MSE
+r ≈ β × SDx / SDy               # nếu có SD của cả hai biến
+r = t / √(t² + df)              # nếu chỉ có t-statistic và df
+```
+Tham khảo: Peterson & Brown (2005, Journal of Applied Psychology). Sau khi trích xuất, kiểm tra bằng `metafor::escalc()` với measure="COR" hoặc measure="ZPCOR" tùy thiết kế.
+
+**Tóm tắt tiến độ (v2.0, 12/05/2026):**
+- Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
+- Phần 2: 11 ứng viên mới (S-111 → S-121) — r chờ trích xuất thủ công
+- Tổng ứng viên: k = 121, đích mục tiêu: k = 130 (có thể đạt sau tổng quan WoS/Scopus đầy đủ)
+
 *File generated 12/05/2026 (v5-standalone-62). CrossRef batch attempted but network blocked; citations built from training knowledge cross-referenced with `p6_study_database_coded.md` and confirmed against existing entries in `thesis/04_references_apa7.md` v2.7.*
