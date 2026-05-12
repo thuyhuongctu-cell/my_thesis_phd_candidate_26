@@ -1,7 +1,7 @@
 # P6 — PRISMA 2020 Flow Diagram & Search Documentation
 # Meta-Analysis I→P 1982–2026
 
-> **Phiên bản**: v1.0 (12/05/2026)
+> **Phiên bản**: v1.1 (12/05/2026)
 > **Chuẩn áp dụng**: PRISMA 2020 (Page et al., 2021)
 > **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` §6 (Tuần 1–2)
 
@@ -68,14 +68,15 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                     INCLUDED                                                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Studies included in meta-analysis: k ≈ 135                                 ║
-║  Effect sizes: K ≈ 250+                                                      ║
+║  Studies included in meta-analysis: k = 235                                  ║
+║  Effect sizes: K ≈ 385+                                                      ║
 ║                                                                              ║
 ║  Breakdown:                                                                  ║
-║    Baseline ICBEF 2025 (confirmed):    110 studies / 200 effect sizes        ║
-║    New from backward citation scan:     16 studies                           ║
-║    New from 2022–2026 literature:        9 studies                           ║
-║    TOTAL:                              135 studies                            ║
+║    Baseline ICBEF 2025 (S001–S113, confirmed): 113 studies / 200 eff. sizes  ║
+║    Backward citation scan (S114–S175):          62 studies                   ║
+║    Author papers + 2024 lit. (S176–S194):       19 studies                   ║
+║    scite.ai / Consensus screen (S195–S235):     41 studies                   ║
+║    TOTAL:                                      235 studies                   ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -198,14 +199,15 @@
 ## 4. Database Coverage Summary (Current State)
 
 ```
-Studies Baseline (ICBEF 2025):    110  ████████████████████████████████  100%
-Studies NEW (backward scan):        16  ████                               15%
-Studies NEW (2022–2026 lit.):        9  ██                                  8%
-TOTAL CURRENT POOL:                135  ██████████████████████████████████ 123%
+Studies Baseline (ICBEF 2025):     113  ██████████████████████████████████  48%
+Studies NEW (backward scan):        62  ███████████████████                  26%
+Studies NEW (author + 2024 lit.):   19  ██████                                8%
+Studies NEW (scite.ai/Consensus):   41  ████████████                         17%
+TOTAL CURRENT POOL:                235  ██████████████████████████████████ 181%
 
-Target minimum:                    130  ██████████████████████████████████ achieved ✓
-Target conservative:               140  ██████████████████████████████████ ~96% achieved
-MASTER estimate:                   269  ██████ (50% achieved — optional P3/P4 priority)
+Target minimum:                    130  achieved ✓ (181% of target)
+Target conservative:               140  achieved ✓ (168% of target)
+MASTER estimate:                   269  ████████████████████████████ 87% achieved
 ```
 
 ---
@@ -216,9 +218,10 @@ MASTER estimate:                   269  ██████ (50% achieved — opt
 |------|--------|-----------|-------|
 | 2023-07-18 | Original analysis (MetaEssentials) | k=113 | ICBEF 2025 baseline; 200 effect sizes |
 | 2024-12-12 | ICBEF 2025 published | k=113 | r=0.07, I²=87.92% confirmed |
-| 2026-05-12 | P6 audit + coding database created | k=135 | +25 NEW; 3 moderator coding added |
-| *Tuần 2–6* | Backward scan completion + recode | k≈140+ | Target: Kirca 2012 full list |
-| *Tuần 7* | metafor R setup + consistency check | k≈140 | Vs. MetaEssentials baseline |
+| 2026-05-12 | P6 audit + coding database created | k=135 | +22 NEW; 3 moderator coding added |
+| 2026-05-12 | S136–S194: backward scan + author papers | k=194 | +59 NEW from lit. + author papers |
+| 2026-05-12 | S195–S235: scite.ai/Consensus screen | k=235 | +41 NEW; S235 = Freixanet & Rialp 2021 GSJ |
+| *Tuần 7* | metafor R setup + consistency check | k=235 | Vs. MetaEssentials baseline |
 
 ---
 
