@@ -2,7 +2,7 @@
 # p6_three_level_mara.R — Three-level MARA for P6 (I→P, 1982–2026)
 #
 # ICBEF 2025 baseline: k=113 studies, r=0.07, I²=87.92% (Đỗ & Phan, 2024)
-# P6 UPDATED target: k=175 studies, K≈320 effect sizes (extended backward scan + 2022–2026)
+# P6 UPDATED target: k=187 studies, K≈320 effect sizes (extended backward scan + 2022–2026)
 # Three-level MARA with 3 new moderators: ICRV regime, cDAI, DPL phase
 #
 # Run: Rscript scripts/p6_three_level_mara.R
@@ -23,9 +23,9 @@ cat("=================================================================\n\n")
 # ─── 1. Synthetic effect-size database (P6 UPDATED: k=135 studies) ───────────
 set.seed(2024)
 
-# k=175 studies, K≈320 effect sizes (three-level: multiple ES per study)
-# ICBEF 2025 baseline was k=113; P6 adds 62 studies via backward scan (Kirca/Marano/Wu) + 2022–2026
-n_studies   <- 175
+# k=187 studies, K≈320 effect sizes (three-level: multiple ES per study)
+# ICBEF 2025 baseline was k=113; P6 adds 74 studies via backward scan (Kirca/Marano/Wu) + 2022–2026 (incl. S176–S187)
+n_studies   <- 187
 study_id    <- rep(seq_len(n_studies), times = sample(1:3, n_studies, replace = TRUE, prob = c(0.5, 0.3, 0.2)))
 k_effects   <- length(study_id)
 
@@ -168,7 +168,7 @@ for (i in seq_len(nrow(coef_df))) {
   bar     <- paste(rep("█", bar_len), collapse = "")
   cat(sprintf("  %-20s r=%.3f  |%s\n", coef_df$Regime[i], coef_df$r[i], bar))
 }
-cat("  [ICBEF 2025 baseline: k=113, r=0.07 → P6 target: k=175 — synthetic data]\n\n")
+cat("  [ICBEF 2025 baseline: k=113, r=0.07 → P6 target: k=187 — synthetic data]\n\n")
 
 cat("=================================================================\n")
 cat("  Ghi chú: Kết quả từ synthetic data (seed=2024, k=135).\n")

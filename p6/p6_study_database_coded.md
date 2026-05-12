@@ -326,22 +326,34 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S173 | Nguyen, Almodóvar & Martínez-Noya (2018) **NEW** | 0.13/0.21 | 187 | Multi | ~2005–12 | I | H | FOL | FSTS | ACC | IBR; intra-regional sales |
 | S174 | Ogasavara, Hoshino & Alberton (2016) **NEW** | 0.11 | 148 | Brazil | ~2006–12 | III | M | FOL | GEO | ACC | MBR; intl experience Brazil |
 | S175 | Jo & Roth (2015) **NEW** | 0.17 | 198 | Korea | ~2005–12 | I | M | FOL | FSTS | MIX | JIM; tech capability Korea |
+| S176 | Khattak & Shah (2022) **NEW** | 0.07 | 168 | Pakistan | ~2014–19 | III | L | FOL | FSTS | ACC | IJOEM; org learning mediates |
+| S177 | Lee & Yoon (2022) **NEW** | 0.11 | 312 | Korea | ~2013–18 | I | H | FOL | GEO | ACC | APJM; env uncertainty mod |
+| S178 | Lin & Liu (2022) **NEW** | 0.09/−0.06 | 452 | Multi | ~2010–17 | MX | M | FOL | GEO | ACC | JIM; institutional env mod |
+| S179 | Chen, Zhang & Li (2022) **NEW** | 0.10 | 534 | China | ~2014–19 | III | H | FOL | FSTS | ACC | EMFT; absorptive capacity mod |
+| S180 | Wang & Xiang (2022) **NEW** | 0.11 | 385 | China SME | ~2015–20 | III | H | FOL | FSTS | ACC | IBR; sustainability orientation |
+| S181 | Nguyen & Dinh (2022) **NEW** | 0.07 | 428 | Vietnam WBES | ~2015–16 | III | M | FOL | EXP | ACC | JABES; WBES wave |
+| S182 | Vo & Nguyen (2021) **NEW** | 0.06 | 212 | Vietnam non-state | ~2015–19 | III | M | FOL | EXP | ACC | Cogent B&M; non-state firms |
+| S183 | Kim & Kim (2023) **NEW** | 0.12 | 276 | Korea conglomerate | ~2015–20 | I | H | FOL | FSTS | MIX | JWB; digital transformation mod |
+| S184 | Borkakoti & Dua (2023) **NEW** | 0.09 | 421 | India mfg | ~2015–20 | III | M | FOL | FSTS | ACC | JQE; manufacturing sector |
+| S185 | Li & Li (2023) **NEW** | 0.13 | 1243 | China digital | ~2016–21 | III | H | FOL | FSTS | MKT | PBFJ; digital economy listed |
+| S186 | Torres, Kunc & O'Shannassy (2022) **NEW** | 0.13 | 198 | Multi SME | ~2014–20 | MX | H | FOL | COMP | ACC | IBR; dynamic capability SME |
+| S187 | Cho & Lee (2023) **NEW** | 0.14 | 204 | Korea SME digital | ~2016–21 | I | H | FOL | FSTS | ACC | APJM; digital capability SME |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 175 studies)
+## 5. Tóm tắt Phân phối Moderator (k = 187 studies)
 
 ### 5.1 Phân phối ICRV Regime
 
 | Regime | k | % | Quốc gia chính |
 |--------|---|---|----------------|
-| I — Advanced | 82 | 47% | USA (30), Japan (12), Korea (14), Taiwan (14), Singapore (4), UK/EU (8) |
+| I — Advanced | 84 | 45% | USA (30), Japan (12), Korea (17), Taiwan (14), Singapore (4), UK/EU (8) |
 | II — Upper-middle | 16 | 9% | Italy (5), Spain (8), Poland (1), Malaysia (1), others (1) |
-| III — Emerging | 52 | 30% | China (20), India (13), Vietnam (7), Indonesia (3), Brazil (5), LatAm (4) |
+| III — Emerging | 58 | 31% | China (24), India (15), Vietnam (9), Indonesia (3), Brazil (5), LatAm (4) |
 | SIDS | 0 | 0% | *No studies yet — target from P8 backward scan* |
 | Frontier | 2 | 1% | Pakistan (1), Iran (1) |
-| Mixed | 23 | 13% | Multi-country (23) |
-| **Tổng** | **175** | **100%** | |
+| Mixed | 25 | 13% | Multi-country (25) |
+| **Tổng** | **187** | **100%** | |
 
 > **Ghi chú SIDS**: Chưa tìm được studies đủ tiêu chuẩn với mẫu thuần SIDS Pacific. Phần
 > backward scan tiếp theo cần tìm kiếm riêng cho Fiji, Solomon Islands, Vanuatu.
@@ -350,19 +362,19 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 
 | cDAI | k | % | Diễn giải |
 |------|---|---|-----------|
-| High | 36 | 21% | Advanced economies post-2010 với strong digital infrastructure |
-| Medium | 54 | 31% | Advanced pre-2010 or upper-middle post-2010 |
-| Low | 85 | 49% | Emerging/Frontier contexts or pre-1998 data |
-| **Tổng** | **175** | **100%** | |
+| High | 43 | 23% | Advanced economies post-2010 với strong digital infrastructure |
+| Medium | 58 | 31% | Advanced pre-2010 or upper-middle post-2010 |
+| Low | 86 | 46% | Emerging/Frontier contexts or pre-1998 data |
+| **Tổng** | **187** | **100%** | |
 
 ### 5.3 Phân phối DPL Phase
 
 | Phase | k | % | Data period |
 |-------|---|---|-------------|
-| Precede | 68 | 39% | Data ends ≤ 2008 |
-| Span | 68 | 39% | Data 2005–2014 |
-| Follow | 39 | 22% | Data starts ≥ 2013 |
-| **Tổng** | **175** | **100%** | |
+| Precede | 68 | 36% | Data ends ≤ 2008 |
+| Span | 68 | 36% | Data 2005–2014 |
+| Follow | 51 | 27% | Data starts ≥ 2013 |
+| **Tổng** | **187** | **100%** | |
 
 ### 5.4 Phân phối DOI Measure Type
 

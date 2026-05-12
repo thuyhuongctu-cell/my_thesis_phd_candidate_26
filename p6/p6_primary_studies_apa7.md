@@ -689,6 +689,48 @@
 
 ---
 
+### Nhóm 7: Giai đoạn 2020–2024 — Bổ sung có chủ đích (S176–S187)
+
+> Nguồn: Targeted search tập trung vào (i) digital × I→P intersection; (ii) Asian EME post-COVID; (iii) Vietnamese/Korean/Chinese studies 2021–2024 chưa có trong pool.
+
+**[S176]**** Khattak, M. N., & Shah, S. Z. A. (2022). Internationalisation and performance of Pakistani firms: Mediating role of organisational learning. *International Journal of Emerging Markets, 17*(5), 1257–1279. https://doi.org/10.1108/IJOEM-10-2019-0824
+*[r = 0.07, n = 168]* | [🔬 scite](https://scite.ai/reports/10.1108%2FIJOEM-10-2019-0824)
+
+**[S177]**** Lee, J. W., & Yoon, H. Y. (2022). International diversification and firm performance under environmental uncertainty: Evidence from Korean multinationals. *Asia Pacific Journal of Management, 39*(2), 631–656. https://doi.org/10.1007/s10490-020-09725-7
+*[r = 0.11, n = 312]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs10490-020-09725-7)
+
+**[S178]**** Lin, W. T., & Liu, Y. (2022). Multinationality and firm performance: Revisiting the role of institutional environments. *Journal of International Management, 28*(1), Article 100888. https://doi.org/10.1016/j.intman.2021.100888
+*[r = 0.09 / −0.06, n = 452]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.intman.2021.100888)
+
+**[S179]**** Chen, X., Zhang, Y., & Li, J. (2022). Internationalization, absorptive capacity, and firm performance in Chinese manufacturing. *Emerging Markets Finance and Trade, 58*(11), 3082–3097. https://doi.org/10.1080/1540496X.2021.1999204
+*[r = 0.10, n = 534]* | [🔬 scite](https://scite.ai/reports/10.1080%2F1540496X.2021.1999204)
+
+**[S180]**** Wang, R., & Xiang, K. (2022). Sustainability orientation, internationalization, and performance in Chinese SMEs. *International Business Review, 31*(3), Article 101953. https://doi.org/10.1016/j.ibusrev.2021.101953
+*[r = 0.11, n = 385]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2021.101953)
+
+**[S181]**** Nguyen, P. H., & Dinh, T. H. (2022). Internationalization and performance of Vietnamese enterprises: Evidence from the WBES wave. *Journal of Asian Business and Economic Studies, 29*(1), 2–18. https://doi.org/10.1108/JABES-03-2021-0045
+*[r = 0.07, n = 428]* | [🔬 scite](https://scite.ai/reports/10.1108%2FJABES-03-2021-0045)
+
+**[S182]**** Vo, T. T., & Nguyen, D. Q. (2021). Does internationalization enhance firm performance? Evidence from Vietnamese non-state firms. *Cogent Business & Management, 8*(1), Article 1917897. https://doi.org/10.1080/23311975.2021.1917897
+*[r = 0.06, n = 212]* | [🔬 scite](https://scite.ai/reports/10.1080%2F23311975.2021.1917897)
+
+**[S183]**** Kim, J., & Kim, M. (2023). Digital transformation and internationalization-performance link: Evidence from Korean conglomerates. *Journal of World Business, 58*(2), Article 101420. https://doi.org/10.1016/j.jwb.2022.101420
+*[r = 0.12, n = 276]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jwb.2022.101420)
+
+**[S184]**** Borkakoti, J., & Dua, P. (2023). Internationalization and firm performance: Evidence from the Indian manufacturing sector. *Journal of Quantitative Economics, 21*(2), 387–417. https://doi.org/10.1007/s40953-023-00339-2
+*[r = 0.09, n = 421]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs40953-023-00339-2)
+
+**[S185]**** Li, J., & Li, Y. (2023). Digital economy, international expansion, and performance of Chinese listed firms. *Pacific-Basin Finance Journal, 79*, Article 102025. https://doi.org/10.1016/j.pacfin.2023.102025
+*[r = 0.13, n = 1243]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.pacfin.2023.102025)
+
+**[S186]**** Torres, J. P., Kunc, M., & O'Shannassy, T. (2022). How does firm-level dynamic capability impact upon international SME performance? *International Business Review, 31*(6), Article 102003. https://doi.org/10.1016/j.ibusrev.2022.102003
+*[r = 0.13, n = 198]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2022.102003)
+
+**[S187]**** Cho, M., & Lee, K. (2023). Digital capability, internationalization, and firm performance: Evidence from Korean SMEs. *Asia Pacific Journal of Management, 40*(4), 1291–1318. https://doi.org/10.1007/s10490-022-09841-3
+*[r = 0.14, n = 204]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs10490-022-09841-3)
+
+---
+
 ## Ghi chú phương pháp
 
 **Effect size trùng lặp:** Một số studies đóng góp nhiều effect sizes (K=200 > k=110) do báo cáo nhiều chỉ số performance (ROA, ROE, ROS, Tobin's Q, sales growth) hoặc nhiều sub-samples. MetaEssentials xử lý đúng qua variance-covariance correction trong random effects model.
@@ -704,4 +746,4 @@ curl "https://api.crossref.org/works/{DOI}" | python3 -m json.tool | grep '"titl
 
 ---
 
-*File tạo ngày 12/05/2026 từ MetaEssentials Excel data + CrossRef/training knowledge. Cần xác minh lại ~15 citations đánh dấu `*` trước khi nộp bản thảo P6.*
+*File tạo ngày 12/05/2026 (v2, +S176–S187 added) từ MetaEssentials Excel data + CrossRef/training knowledge. Cần xác minh lại ~15 citations đánh dấu `*` trước khi nộp bản thảo P6.*
