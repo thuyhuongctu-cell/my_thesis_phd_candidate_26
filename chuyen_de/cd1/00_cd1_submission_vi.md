@@ -463,7 +463,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ng
 | V — Frontier | <-0,50 | <$1k–$3k | Subsistence + informal | Thấp–trung bình | ~1,36 | Yếu; institutional voids → bricolage innovation |
 | VI — SIDS | Đặc biệt | $1k–$8k | MIRAB + tourism | Rất thấp (1–12%) | ~1,32 | Forced internationalization — U-curve không vận hành |
 
-*Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, July). Pattern WBES từ phân tích Chương 4 và Đỗ & Phan (2026 — VEFR, APJM, JFAR, MIR under review).*
+*Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, July). Pattern WBES từ phân tích Chương 4 và Đỗ & Phan (2026 — VEFR, JABS, JFAR, MIR under review).*
 
 ---
 
@@ -960,7 +960,7 @@ Bốn giai đoạn từ tháng 6 đến tháng 9 năm 2026:
 
 **Giai đoạn 1 — Tháng 6/2026**: Chạy M0–M7 trên R với dữ liệu WBES harmonized đầy đủ. Lind–Mehlum test. Paternoster z-test temporal. Xuất 8 bảng kết quả (Bảng 4.3–4.10) định dạng APA 7th. Cập nhật Bảng 5.1 với số liệu thực từ regression. Nộp bản nháp CĐ1 hoàn thiện cho PGS.TS. Phan Anh Tú.
 
-**Giai đoạn 2 — Tháng 7/2026**: Nộp P3 (APJM) và P4 (MIR). Chuẩn bị dữ liệu WBES cho CĐ2 (101.185 obs, 47 nền kinh tế, 3 thế hệ schema harmonized). Phác thảo M0–M7 specification CĐ2.
+**Giai đoạn 2 — Tháng 7/2026**: Nộp P3 (JABS) và P4 (MIR). Chuẩn bị dữ liệu WBES cho CĐ2 (101.185 obs, 47 nền kinh tế, 3 thế hệ schema harmonized). Phác thảo M0–M7 specification CĐ2.
 
 **Giai đoạn 3 — Tháng 8/2026**: Ước lượng M0–M7 CĐ2 với HC1 robust SE + country/year FE. Kiểm định H1–H6. Chạy 8 robustness checks. Viết Chương 4 (Kết quả) và Chương 5 (Thảo luận) CĐ2.
 
@@ -998,7 +998,7 @@ David, P. A. (1990). The dynamo and the computer: An historical perspective on t
 
 Đỗ, T. H., & Phan, A. T. (2024). *Meta-analysis of internationalization–performance relationship in Asia-Pacific SMEs*. Proceedings of ICBEF 2025. Business Innovation Academy.
 
-Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Asia Pacific Journal of Management* (under review).
+Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Journal of Asia Business Studies* (under review).
 
 Hall, P. A., & Soskice, D. (Eds.). (2001). *Varieties of capitalism: The institutional foundations of comparative advantage*. Oxford University Press.
 
