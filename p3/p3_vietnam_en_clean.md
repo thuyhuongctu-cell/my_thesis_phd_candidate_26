@@ -4,7 +4,7 @@
 
 *12 May 2026 — v13*
 
-*Target journal: Asia Pacific Journal of Management (APJM)*
+*Target journal: Journal of Asia Business Studies (JABS), Emerald Publishing*
 
 **Manuscript classification:** research article.
 
