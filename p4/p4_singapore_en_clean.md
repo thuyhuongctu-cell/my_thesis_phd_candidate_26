@@ -4,9 +4,20 @@
 
 *12 May 2026 — v8 Phase 9 (NotebookLM critique applied: §2.3.4 three-mechanism framing with amplification as focal H3 expectation, §3.4 Boundary Conditions and Identification Scope consolidating support / power / Lind–Mehlum equivalence / Heckman caveats, §5.1 Tier-1+2 construct boundary with generic emerging-market framing; cross-paper companion-paper refs removed throughout)*
 
+---
+
+**Manuscript classification:** research article.
+
+**Word count** (main text, excluding abstract, references, tables and figures): approximately 8,500 words.
+
+**Tables:** 12 | **Figures:** 10
+
+---
+
 ## Abstract
-This study examines how technological capability and digital adoption are associated with the internationalization–performance relationship among firms in Singapore, treated as a boundary-case test of the I–P relationship at the advanced-economy ceiling of the Institutional Context and Regulatory Variables (ICRV) spectrum — an analytically informative, within-context setting that reveals how the conventional nonlinear logic behaves when digital infrastructure is near-universally diffused and institutional transaction costs are at their lowest. Using World Bank Enterprise Survey microdata for Singapore 2023, the analysis distinguishes a Technological Capability Index (TCI), capturing firm-internal capability depth, from a Digital Adoption Index (DAI), capturing foundational digital interfaces and transaction-enabling mechanisms.
-Three findings emerge. First, within the observed export-intensity range, the internationalization–performance relationship is better characterized as predominantly positive with mild quadratic curvature than as an inverted-U. The fitted quadratic implies a turning point in the upper tail, but that point is imprecisely located and falls in a sparsely populated region of the data. Second, TCI is positively associated with labour productivity, while no statistically distinguishable moderation by TCI is detected under the present design. Third, DAI does not exhibit a large uniform productivity premium across firms; instead, its association with productivity becomes more positive at higher levels of export intensity, with the clearest signal concentrated in the high-export tail. Taken together, the findings provide within-context evidence from Singapore that sharpens the distinction between technological capability and foundational digital adoption and suggests that digital adoption functions more as a contingent scaling resource than as a uniform productivity advantage.
+This study examines how technological capability (TCI) and digital adoption (DAI) are associated with the internationalization–performance relationship among firms in Singapore — a boundary-case test at the advanced-economy ceiling of the ICRV spectrum, where digital infrastructure is near-universally diffused. Using World Bank Enterprise Survey microdata (Singapore 2023, N = 623), the analysis separates firm-internal capability depth (TCI) from foundational digital interfaces and transaction-enabling mechanisms (DAI).
+
+Three findings emerge. First, the I–P relationship within the observed export-intensity range is better characterized as predominantly positive with mild quadratic curvature than as an inverted-U; the implied turning point lies in a sparsely populated upper tail. Second, TCI is positively associated with labour productivity, but no TCI moderation of the I–P curve is detected. Third, DAI does not produce a uniform productivity premium; instead, its productivity association becomes more positive only at higher export intensity, with the clearest signal in the high-export tail. These findings suggest that foundational digital adoption functions as a contingent scaling resource — its productivity relevance activates under cross-border coordination demands — rather than as a firm-wide productivity advantage.
 
 **Keywords:** internationalization–performance relationship; digital adoption; technological capability; export intensity; labour productivity; Singapore
 ## 1 Introduction

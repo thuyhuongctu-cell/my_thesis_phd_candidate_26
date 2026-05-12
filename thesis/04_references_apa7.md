@@ -360,11 +360,21 @@ StartupBlink. (2026). *Innovators Business Environment Index 2026*. StartupBlink
 
 ---
 
-## R. Tài liệu mới bổ sung v2.8 — Trade Restructuring
+## R. Tài liệu mới bổ sung v2.8 — Trade Restructuring + P4/P5 missing entries
 
 Abreha, K., & Lopez Acevedo, G. (2024). *Trade restructuring: Assessing labor market and welfare effects* (Policy Research Working Paper No. 10955). World Bank Group. *(Cited in P5 §2 — trade re-equilibration, US–China tariff cycle, bilateral trade flow reorientation; Poverty and Equity Global Practice, October 2024.)*
 
 *(Các tài liệu World Bank DPI, Vietnam FCI Snapshot, Taking Stock, GDKC đã được lưu trong Section P — World Bank 2025a/b/c/d.)*
+
+Avenyo, E. K., Tregenna, F., & Kraemer-Mbula, E. (2021). Do productive capabilities affect export performance? Evidence from African firms. *European Journal of Development Research, 33*(2), 304–329. https://doi.org/10.1057/s41287-021-00364-6
+
+Filatotchev, I., Wei, L. Q., Sarala, R. M., Dick, P., & Prescott, J. E. (2020). Connecting eastern and western perspectives on management: Translation of practices across organizations, institution and geographies. *Journal of Management Studies, 57*(1), 1–24. https://doi.org/10.1111/joms.12526
+
+Lakens, D., Scheel, A. M., & Isager, P. M. (2018). Equivalence testing for psychological research: A tutorial. *Advances in Methods and Practices in Psychological Science, 1*(2), 259–269. https://doi.org/10.1177/2515245918770963
+
+Nambisan, S., Wright, M., & Feldman, M. (2019). The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes. *Research Policy, 48*(8), 103773. https://doi.org/10.1016/j.respol.2019.03.018
+
+North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
 
 ---
 
