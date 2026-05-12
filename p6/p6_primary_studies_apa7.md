@@ -756,7 +756,7 @@
 
 ---
 
-### Nhóm 9: Nghiên cứu bổ sung từ scite.ai/Consensus — 2000–2024 (S195–S234)
+### Nhóm 9: Nghiên cứu bổ sung từ scite.ai/Consensus — 2000–2024 (S195–S235)
 
 **[S195]**** Barłożewski, K., & Trąpczyński, P. (2021). Internationalisation motives and the multinationality-performance relationship: The case of Polish firms. *Entrepreneurial Business and Economics Review, 9*(2), 85–104. https://doi.org/10.15678/eber.2021.090206
 *[r ≈ +0.06 (est.); n ≈ 200 Polish firms; motive moderator; mixed M-P findings]* | [🔬 scite](https://scite.ai/reports/10.15678%2Feber.2021.090206)
@@ -878,6 +878,9 @@
 **[S234]**** Yip, G. S., Biscarri, J. G., & Monti, J. A. (2000). The role of the internationalization process in the performance of newly internationalizing firms. *Journal of International Marketing, 8*(3), 10–35. https://doi.org/10.1509/jimk.8.3.10.19635
 *[r ≈ +0.06 (est.); n ≈ 150 newly internationalizing firms; internationalization process stages as moderator]* | [🔬 scite](https://scite.ai/reports/10.1509%2Fjimk.8.3.10.19635)
 
+**[S235]**** Freixanet, J., & Rialp, J. (2021). Disentangling the relationship between internationalization, incremental and radical innovation, and firm performance. *Global Strategy Journal*. https://doi.org/10.1002/gsj.1412
+*[r ≈ +0.08 (est.); n ≈ 1,500 Spanish manufacturing firms; I→P mediated by innovation; ESEE panel ~2008–2016; ⚠️ distinct from S101 (Freixanet & Rialp 2021 EMJ — export promotion programs)]* | [🔬 scite](https://scite.ai/reports/10.1002%2Fgsj.1412)
+
 ---
 
 ## Ghi chú phương pháp
@@ -895,4 +898,4 @@ curl "https://api.crossref.org/works/{DOI}" | python3 -m json.tool | grep '"titl
 
 ---
 
-*File tạo ngày 12/05/2026 (v3, +S188–S194 added: tác giả's own papers India/China/Turkey/Poland/Ecuador 2021–2026 + 2024 papers Spain/India family) từ MetaEssentials Excel data + CrossRef/training knowledge. Cần xác minh lại ~15 citations đánh dấu `*` trước khi nộp bản thảo P6.*
+*File tạo ngày 12/05/2026 (v4, +S188–S194 author papers; +S195–S234 scite.ai/Consensus screen; +S235 Freixanet & Rialp 2021 GSJ từ Consensus PDF upload 2; k=235) từ MetaEssentials Excel data + CrossRef/training knowledge. Cần xác minh lại ~15 citations đánh dấu `*` trước khi nộp bản thảo P6.*

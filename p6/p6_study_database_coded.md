@@ -385,22 +385,23 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S232 | Huang & Marciano (2020) | +0.05 (est.) | 200 | Multi | ~2010–18 | MX | M | SPN | FSTS | ACC | INSYMA conf.; Indonesia/China |
 | S233 | Kayaci (2022) | +0.06 (est.) | 200 | Turkey | ~2015–20 | II | H | FOL | COMP | ACC | CumJourn; BIST-listed Turkey |
 | S234 | Yip et al. (2000) | +0.06 (est.) | 150 | Multi | ~1992–98 | MX | L | PRE | COMP | ACC | JIM; newly internationalizing firms |
+| S235 | Freixanet & Rialp (2021) GSJ | +0.08 (est.) | 1,500 | Spain | ~2008–16 | II | M | FOL | EXP | MIX | GSJ; I→P with innovation mediator (distinct from S101 EMJ) |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 234 studies)
+## 5. Tóm tắt Phân phối Moderator (k = 235 studies)
 
 ### 5.1 Phân phối ICRV Regime
 
 | Regime | k | % | Quốc gia chính |
 |--------|---|---|----------------|
 | I — Advanced | 91 | 44% | USA (30), Japan (12), Korea (17), Taiwan (14), Singapore (4), UK/EU (8), Poland (2) |
-| II — Upper-middle | 24 | 10% | Italy (5), Spain (9), Turkey (2), Malaysia (1), Slovenia (1), Sweden (1), others (5) |
+| II — Upper-middle | 25 | 11% | Italy (5), Spain (10), Turkey (2), Malaysia (1), Slovenia (1), Sweden (1), others (5) |
 | III — Emerging | 80 | 34% | China (26), India (17), Vietnam (9), Indonesia (3), Brazil (5), LatAm (4), Russia (1), Thailand (2), Malaysia (1) |
 | SIDS | 0 | 0% | *No studies yet — target from P8 backward scan* |
 | Frontier | 3 | 1% | Pakistan (1), Iran (1), Cameroon (1) |
 | Mixed | 36 | 15% | Multi-country (36) |
-| **Tổng** | **234** | **100%** | |
+| **Tổng** | **235** | **100%** | |
 
 > **Ghi chú SIDS**: Chưa tìm được studies đủ tiêu chuẩn với mẫu thuần SIDS Pacific. Phần
 > backward scan tiếp theo cần tìm kiếm riêng cho Fiji, Solomon Islands, Vanuatu.
@@ -410,9 +411,9 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | cDAI | k | % | Diễn giải |
 |------|---|---|-----------|
 | High | 57 | 24% | Advanced economies post-2010 với strong digital infrastructure |
-| Medium | 80 | 34% | Advanced pre-2010 or upper-middle post-2010 |
+| Medium | 81 | 34% | Advanced pre-2010 or upper-middle post-2010 |
 | Low | 97 | 41% | Emerging/Frontier contexts or pre-1998 data |
-| **Tổng** | **234** | **100%** | |
+| **Tổng** | **235** | **100%** | |
 
 ### 5.3 Phân phối DPL Phase
 
@@ -420,8 +421,8 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 |-------|---|---|-------------|
 | Precede | 74 | 32% | Data ends ≤ 2008 |
 | Span | 90 | 38% | Data 2005–2014 |
-| Follow | 70 | 30% | Data starts ≥ 2013 |
-| **Tổng** | **234** | **100%** | |
+| Follow | 71 | 30% | Data starts ≥ 2013 |
+| **Tổng** | **235** | **100%** | |
 
 ### 5.4 Phân phối DOI Measure Type
 

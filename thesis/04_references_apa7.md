@@ -433,6 +433,8 @@ North, D. C. (1990). *Institutions, institutional change and economic performanc
 
 Abdi, M., & Aulakh, P. S. (2018). Internationalization and performance: Degree, duration, and scale of operations in foreign markets. *Journal of International Business Studies, 49*(7), 832–857. https://doi.org/10.1057/s41267-017-0117-9
 
+Aydemir, M., & Alper, D. (2024). The internationalization-firm performance relationship: A meta-analysis. *International Journal of Management Economics and Business*. https://doi.org/10.17130/ijmeb.1458989
+
 Almodóvar, P., & Rugman, A. M. (2014). The M curve and the performance of Spanish international new ventures. *British Journal of Management, 25*(S1), S6–S23. https://doi.org/10.1111/1467-8551.12048
 
 Altaf, M., & Shah, S. A. A. (2016). Internationalization and performance relationship in Pakistan: Moderating role of innovation. *Pakistan Journal of Commerce and Social Sciences, 10*(1), 76–90.
@@ -483,6 +485,8 @@ Ganvir, V., & Dwivedi, M. (2017). International diversification and performance 
 
 Garbe, J. N., & Richter, N. F. (2009). Causal analysis of the internationalization and firm performance relationship based on neural networks — advocating the transnational structure. *Journal of International Management, 15*(4), 413–431. https://doi.org/10.1016/j.intman.2009.01.003
 
+Glaum, M., & Oesterle, M. (2007). 40 years of research on internationalization and firm performance: More questions than answers? *Management International Review, 47*(3), 307–317. https://doi.org/10.1007/s11575-007-0018-0
+
 Gaur, A. S., & Kumar, V. (2009). International diversification, business group affiliation and firm performance: Empirical evidence from India. *British Journal of Management, 20*(2), 172–186. https://doi.org/10.1111/j.1467-8551.2008.00558.x
 
 Graves, C., & Shan, Y. G. (2014). An empirical analysis of the effect of internationalization on the performance of unlisted family and nonfamily firms in Australia. *Family Business Review, 27*(2), 142–160. https://doi.org/10.1177/0894486513510534
@@ -501,6 +505,8 @@ Kumar, V., & Gaur, A. S. (2007). Internationalization and performance of Indian 
 
 Lee, C. Y. (2013). The effect of internationalization on business performance: The case of Korean firms. *Asian Review of Accounting, 21*(2), 115–133. https://doi.org/10.1108/ARA-09-2012-0061
 
+Leung, T., & Sharma, P. (2021). Differences in the impact of R&D intensity and R&D internationalization on firm performance: Mediating role of innovation performance. *Journal of Business Research, 131*, 81–91. https://doi.org/10.1016/j.jbusres.2021.03.060
+
 Lee, J.-Y., Woo, C.-W., & Shim, W.-S. (2019). The effect of internationalization on performance of Korean firms: Moderating effect of technological capability. *International Journal of Trade, Economics and Finance, 10*(3), 84–89. https://doi.org/10.18178/ijtef.2019.10.3.645
 
 Majocchi, A., & Zucchella, A. (2003). Internationalization and performance: Findings from a set of Italian SMEs. *International Small Business Journal, 21*(3), 249–268. https://doi.org/10.1177/0266242603021003001
@@ -510,6 +516,8 @@ McDougall, P. P., & Oviatt, B. M. (1996). New venture internationalization, stra
 Miller, S. R., Lavie, D., & Delios, A. (2016). International intensity, diversity, and distance: Unpacking the internationalization-performance relationship. *International Business Review, 25*(4), 907–920. https://doi.org/10.1016/j.ibusrev.2015.12.001
 
 Mohr, A., & Batsakis, G. (2016). Internationalization speed and firm performance: A study of the market-seeking expansion of retail MNEs. *Management International Review, 57*(2), 153–177. https://doi.org/10.1007/s11575-016-0284-7
+
+Nguyen, Q., & Kim, S. (2020). The multinationality and performance relationship: Revisiting the literature and exploring the implications. *International Business Review, 29*(6), Article 101670. https://doi.org/10.1016/j.ibusrev.2020.101670
 
 Nosi, C., Pucci, T., Silvestri, L., & Zanni, L. (2017). Firm performance and legitimacy in internationalization processes of Italian SMEs. *Sinergie Italian Journal of Management, 35*(102), 49–70. https://doi.org/10.7433/s102.2017.04
 

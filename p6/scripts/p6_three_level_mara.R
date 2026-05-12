@@ -2,7 +2,7 @@
 # p6_three_level_mara.R — Three-level MARA for P6 (I→P, 1982–2026)
 #
 # ICBEF 2025 baseline: k=113 studies, r=0.07, I²=87.92% (Đỗ & Phan, 2024)
-# P6 UPDATED target: k=234 studies, K≈380 effect sizes (extended backward scan + 2022–2026 + scite.ai/Consensus screen)
+# P6 UPDATED target: k=235 studies, K≈385 effect sizes (extended backward scan + 2022–2026 + scite.ai/Consensus screen)
 # Three-level MARA with 3 new moderators: ICRV regime, cDAI, DPL phase
 #
 # Run: Rscript scripts/p6_three_level_mara.R
@@ -20,12 +20,12 @@ cat("  metafor", as.character(packageVersion("metafor")), "| clubSandwich",
     as.character(packageVersion("clubSandwich")), "\n")
 cat("=================================================================\n\n")
 
-# ─── 1. Synthetic effect-size database (P6 UPDATED: k=135 studies) ───────────
+# ─── 1. Synthetic effect-size database (P6 UPDATED: k=235 studies) ───────────
 set.seed(2024)
 
-# k=234 studies, K≈380 effect sizes (three-level: multiple ES per study)
-# ICBEF 2025 baseline was k=113; P6 adds 81 via backward scan (Kirca/Marano/Wu) + 2022–2026 (S176–S194) + 40 from scite.ai/Consensus (S195–S234)
-n_studies   <- 234
+# k=235 studies, K≈385 effect sizes (three-level: multiple ES per study)
+# ICBEF 2025 baseline was k=113; P6 adds 81 via backward scan (Kirca/Marano/Wu) + 2022–2026 (S176–S194) + 40 from scite.ai/Consensus (S195–S234) + S235 from Consensus PDF upload 2
+n_studies   <- 235
 study_id    <- rep(seq_len(n_studies), times = sample(1:3, n_studies, replace = TRUE, prob = c(0.5, 0.3, 0.2)))
 k_effects   <- length(study_id)
 
@@ -168,7 +168,7 @@ for (i in seq_len(nrow(coef_df))) {
   bar     <- paste(rep("█", bar_len), collapse = "")
   cat(sprintf("  %-20s r=%.3f  |%s\n", coef_df$Regime[i], coef_df$r[i], bar))
 }
-cat("  [ICBEF 2025 baseline: k=113, r=0.07 → P6 target: k=234 — synthetic data]\n\n")
+cat("  [ICBEF 2025 baseline: k=113, r=0.07 → P6 target: k=235 — synthetic data]\n\n")
 
 cat("=================================================================\n")
 cat("  Ghi chú: Kết quả từ synthetic data (seed=2024, k=135).\n")
