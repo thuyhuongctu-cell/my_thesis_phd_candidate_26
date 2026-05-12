@@ -2,7 +2,7 @@
 
 *Author details removed for blind review*
 
-*12 May 2026 — v12 Phase 9 (NotebookLM critique applied: §2.4 two-mechanism framing, §1.1/§1.3/Abstract/Highlights step-function elevation, §5.4 threshold-conditioned capital allocation)*
+*12 May 2026 — v13*
 
 *Target journal: Asia Pacific Journal of Management (APJM)*
 

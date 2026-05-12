@@ -2,7 +2,7 @@
 
 *Target journal: Management International Review (MIR)*
 
-*12 May 2026 — v8 Phase 9 (NotebookLM critique applied: §2.3.4 three-mechanism framing with amplification as focal H3 expectation, §3.4 Boundary Conditions and Identification Scope consolidating support / power / Lind–Mehlum equivalence / Heckman caveats, §5.1 Tier-1+2 construct boundary with generic emerging-market framing; cross-paper companion-paper refs removed throughout)*
+*12 May 2026 — v9*
 
 ---
 

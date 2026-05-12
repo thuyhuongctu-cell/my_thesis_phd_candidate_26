@@ -276,8 +276,8 @@ Khung 9 ngành trên không chỉ phân loại theo logic kinh tế mà còn the
 (b) Manufacturing-only subsample — tách cho high-tech vs low-tech theo Kafouros (2023) classification.
 (c) Tourism separation cho SIDS Pacific (boundary case extension §1.3).
 (d) Construction subsample test Vùng Vịnh resource-driven Advanced.
-(e) ICT exclusion test cho DAI — đặc biệt liên quan Phase 2 NotebookLM HĐ1 Tier-1 Digital Presence rebrand.
-**(f) Test interaction term `tech_dynamism × institutional_quality` và `market_dynamism × institutional_quality`** *(mới v3.4)* — robustness check thứ 7 cho CĐ2 H7 mới (sau Manufacturing-only, ICT-excluded, Tourism-separated SIDS, Construction-tested Gulf, Mining-excluded resource, Anchor model BREADY 2025). Đây là test trực tiếp cho **replication Kafouros et al. (2023) trong bối cảnh châu Á** — bảng Industry × Institutional Quality interaction cần thiết để confirm/disconfirm H1-H2 của Kafouros với 41 nước châu Á (vs 16 nước CEE của Kafouros). Nếu interaction tech_dynamism × institutional_quality dương và significant ở mức p<.05, đây là evidence châu Á-specific cho industry-bounded institutional advantage — đóng góp lý thuyết của luận án.
+(e) ICT exclusion test cho DAI — kiểm định Tier-1 Digital Presence boundary condition.
+**(f) Test interaction term `tech_dynamism × institutional_quality` và `market_dynamism × institutional_quality`** *(mới v3.4)* — robustness check thứ 7 cho CĐ2 H7 mới (sau Manufacturing-only, ICT-excluded, Tourism-separated SIDS, Construction-tested Gulf, Mining-excluded resource, Anchor model BREADY 2025). Đây là test trực tiếp cho **replication Kafouros et al. (2023) trong bối cảnh châu Á** — bảng Industry × Institutional Quality interaction cần thiết để confirm/disconfirm H1-H2 của Kafouros với 40 nước châu Á (vs 16 nước CEE của Kafouros). Nếu interaction tech_dynamism × institutional_quality dương và significant ở mức p<.05, đây là evidence châu Á-specific cho industry-bounded institutional advantage — đóng góp lý thuyết của luận án.
 
 ### 4.9 Phân nhóm con Emerging — phát hiện dị biệt nội bộ
 
