@@ -2,7 +2,7 @@
 
 > **NCS**: Đỗ Thùy Hương · **HD**: PGS.TS. Phan Anh Tú
 >
-> **Phiên bản 1.1 (12/05/2026)** — Bổ sung S195–S234 từ scite.ai/Consensus screen; k=194→234; sửa S193 Arbelo et al. authors.
+> **Phiên bản 1.3 (12/05/2026)** — +S195–S234 từ scite.ai/Consensus screen; +S235 Freixanet & Rialp 2021 GSJ; k=194→235; sửa S193 Arbelo et al. authors; enrich thesis refs.
 >
 > **Tham chiếu kế hoạch**: `thesis/06_p6_meta_update_plan_vi.md`
 >
@@ -653,4 +653,4 @@ Studies included in meta-analysis: n = 135
 
 ---
 
-*Bản thảo v1.2 (12/05/2026). NCS: Đỗ Thùy Hương. HD: PGS.TS. Phan Anh Tú. Trường Đại học Cần Thơ. Khoa Kinh tế. Chuyên ngành: Quản trị kinh doanh. Kết quả minh họa trong §4 được hoàn thiện bằng `metafor` (R) sau khi hoàn thành coding 194 studies với 3 moderator mới theo kế hoạch `p6/06_p6_meta_update_plan_vi.md`. Gồm S188–S194: nghiên cứu India/China/Turkey/Poland/Ecuador của nhóm tác giả (2021–2026) và 2 nghiên cứu mới 2024. Coding database: `p6/p6_study_database_coded.md`; APA citations: `p6/p6_primary_studies_apa7.md`.*
+*Bản thảo v1.3 (12/05/2026). NCS: Đỗ Thùy Hương. HD: PGS.TS. Phan Anh Tú. Trường Đại học Cần Thơ. Khoa Kinh tế. Chuyên ngành: Quản trị kinh doanh. Kết quả minh họa trong §4 được hoàn thiện bằng `metafor` (R) sau khi hoàn thành coding 235 studies với 3 moderator mới theo kế hoạch `p6/06_p6_meta_update_plan_vi.md`. Database: S001–S235 (baseline 113 từ ICBEF 2025 + S114–S175 backward scan + S176–S194 author papers + S195–S235 scite.ai/Consensus screen). Coding database: `p6/p6_study_database_coded.md`; APA citations: `p6/p6_primary_studies_apa7.md`.*
