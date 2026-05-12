@@ -748,11 +748,135 @@
 **[S192]**** Tu, P. A., & Huynh, T. A. (2021). Internationalization and firm performance: Case of manufacturing enterprises in Ecuador. *Research in World Economy, 12*(1). https://doi.org/10.5430/rwe.v12n1p90
 *[r ≈ +0.03 (est.; inverse S-curve; n = 90 manufacturing firms; panel 2003–2017)]* | [🔬 scite](https://scite.ai/reports/10.5430%2Frwe.v12n1p90)
 
-**[S193]**** García-Sánchez, I. M., & Rama, M. (2024). Internationalization and individual firm performance: A resource-based view. *Eurasian Business Review, 14*(4), 1053–1092. https://doi.org/10.1007/s40821-024-00276-5
-*[r ≈ +0.09 (est. average; heterogeneous Bayesian framework); n = 267 manufacturing firms; Spain 2010–2017]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs40821-024-00276-5)
+**[S193]**** Arbelo, A., Arbelo-Pérez, M., & Pérez-Gómez, P. (2024). Internationalization and individual firm performance: A resource-based view. *Eurasian Business Review, 14*, 881–915. https://doi.org/10.1007/s40821-024-00276-5
+*[r ≈ +0.09 (est. average; heterogeneous Bayesian framework); n = 267 manufacturing firms; Spain 2010–2017; ⚠️ author corrected from García-Sánchez & Rama per CrossRef]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs40821-024-00276-5)
 
 **[S194]**** Godbole, M. (2024). Does internationalization and board diversity affect family firms' sustainable performance? Empirical evidence from an emerging economy. *Business Strategy & Development, 7*(3). https://doi.org/10.1002/bsd2.365
 *[r ≈ +0.08 (est.); India listed family firms (NIFTY 500); GMM panel; financial + innovation performance]* | [🔬 scite](https://scite.ai/reports/10.1002%2Fbsd2.365)
+
+---
+
+### Nhóm 9: Nghiên cứu bổ sung từ scite.ai/Consensus — 2000–2024 (S195–S234)
+
+**[S195]**** Barłożewski, K., & Trąpczyński, P. (2021). Internationalisation motives and the multinationality-performance relationship: The case of Polish firms. *Entrepreneurial Business and Economics Review, 9*(2), 85–104. https://doi.org/10.15678/eber.2021.090206
+*[r ≈ +0.06 (est.); n ≈ 200 Polish firms; motive moderator; mixed M-P findings]* | [🔬 scite](https://scite.ai/reports/10.15678%2Feber.2021.090206)
+
+**[S196]**** Barłożewski, K., & Trąpczyński, P. (2021). Is internationalisation beneficial for novice internationalisers? The performance effects of firm-specific advantages, internationalisation degree and firm size revisited. *Oeconomia Copernicana, 12*(1), 53–75. https://doi.org/10.24136/oc.2021.003
+*[r ≈ +0.04 (est.); n ≈ 200 Polish firms; novice vs. experienced internationalizers]* | [🔬 scite](https://scite.ai/reports/10.24136%2Foc.2021.003)
+
+**[S197]**** Calabrese, G., & Manello, A. (2018). Firm internationalization and performance: Evidence for designing policies. *Journal of Policy Modeling, 40*(5), 1022–1039. https://doi.org/10.1016/j.jpolmod.2018.01.008
+*[r ≈ +0.08 (est.); n ≈ 300 Italian firms; policy design implications]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jpolmod.2018.01.008)
+
+**[S198]**** Cao, X., Li, P., Huang, X., & Fan, L. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from China. *PLoS ONE, 17*(2), Article e0263674. https://doi.org/10.1371/journal.pone.0263674
+*[r ≈ +0.07 (est.); n ≈ 400 Chinese firms; social networks as dual mechanism moderator]* | [🔬 scite](https://scite.ai/reports/10.1371%2Fjournal.pone.0263674)
+
+**[S199]**** Carr, J. C., Haggard, K. S., Hmieleski, K. M., & Zahra, S. A. (2010). A study of the moderating effects of firm age at internationalization on firm survival and short-term growth. *Strategic Entrepreneurship Journal, 4*(2), 183–192. https://doi.org/10.1002/sej.90
+*[r ≈ +0.05 (est.); n ≈ 150 firms; firm age at internationalization as moderator]* | [🔬 scite](https://scite.ai/reports/10.1002%2Fsej.90)
+
+**[S200]**** Chen, H., & Hsu, C. (2010). Internationalization, resource allocation and firm performance. *Industrial Marketing Management, 39*(7), 1103–1110. https://doi.org/10.1016/j.indmarman.2009.10.001
+*[r ≈ +0.09 (est.); n ≈ 200 Taiwanese firms; resource allocation as mediator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.indmarman.2009.10.001)
+
+**[S201]**** Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2017). Home country uncertainty and the internationalization-performance relationship: Building an uncertainty management capability. *Journal of World Business, 53*(2), 209–221. https://doi.org/10.1016/j.jwb.2017.11.002
+*[r ≈ +0.05 (est.); n ≈ 500 multi-country emerging market firms; uncertainty management capability moderator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jwb.2017.11.002)
+
+**[S202]**** Da Cunha, H. M., Amal, M., Floriani, D. E., & Fleury, M. T. L. (2023). Firm internationalization approaches and performance: The moderating role of the home country's formal institutions. *International Journal of Emerging Markets*. https://doi.org/10.1108/ijoem-08-2021-1299
+*[r ≈ +0.06 (est.); n ≈ 250 Brazilian and LatAm firms; formal institutional moderator]* | [🔬 scite](https://scite.ai/reports/10.1108%2Fijoem-08-2021-1299)
+
+**[S203]**** Debicki, B. J., Miao, C., & Qian, S. (2020). Internationalization and family firm performance. *Cross Cultural & Strategic Management, 27*(1), 1–25. https://doi.org/10.1108/ccsm-04-2019-0075
+*[r ≈ +0.05 (est.); n ≈ 300 multi-country family firms; family firm I→P meta-review with empirical component]* | [🔬 scite](https://scite.ai/reports/10.1108%2Fccsm-04-2019-0075)
+
+**[S204]**** Dikova, D., & Veselova, A. (2020). Performance effects of internationalization: Contingency theory analysis of Russian internationalized firms. *Management and Organization Review, 17*(1), 173–197. https://doi.org/10.1017/mor.2020.39
+*[r ≈ −0.04 (est.); n ≈ 200 Russian firms; contingency theory; negative net effect in transition context]* | [🔬 scite](https://scite.ai/reports/10.1017%2Fmor.2020.39)
+
+**[S205]**** Elango, B. (2012). How industry dynamics influence the internationalization–performance relationship: Evidence from technology-intensive firms. *Thunderbird International Business Review, 54*(5), 653–665. https://doi.org/10.1002/tie.21491
+*[r ≈ +0.10 (est.); n ≈ 250 US technology-intensive firms; industry dynamism moderator]* | [🔬 scite](https://scite.ai/reports/10.1002%2Ftie.21491)
+
+**[S206]**** Espinosa-Méndez, C., & Jara, M. (2021). International diversification and performance in family firm: Exploring nonlinear relationships with the governance structure in an emerging economy. *Spanish Journal of Finance and Accounting, 50*(4), 441–468. https://doi.org/10.1080/02102412.2021.1886453
+*[r ≈ +0.04 (est.); n ≈ 150 Chilean family firms; governance structure moderates nonlinear I→P]* | [🔬 scite](https://scite.ai/reports/10.1080%2F02102412.2021.1886453)
+
+**[S207]**** Fu, Y. (2024). Enterprises' internationalization, R&D investment and enterprise performance. *Finance Research Letters, 68*. https://doi.org/10.1016/j.frl.2024.105721
+*[r ≈ +0.09 (est.); n ≈ 800 Chinese listed enterprises; R&D investment as mediator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.frl.2024.105721)
+
+**[S208]**** Khatua, A., Mondal, A., & Dhanda, S. (2024). The internationalization and performance of INVs: Liability or learning advantages of newness? *Journal of International Entrepreneurship*, 1–27. https://doi.org/10.1007/s10843-023-00345-2
+*[r ≈ +0.07 (est.); n ≈ 120 Indian INVs; newness as moderator; learning advantages of early internationalization]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs10843-023-00345-2)
+
+**[S209]**** Lin, W. T., Liu, Y., & Cheng, K. (2011). The internationalization and performance of a firm: Moderating effect of a firm's behavior. *Journal of International Management, 17*(1), 83–95. https://doi.org/10.1016/j.intman.2010.12.004
+*[r ≈ +0.06 (est.); n ≈ 180 Taiwanese firms; firm behavior (proactiveness) as moderator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.intman.2010.12.004)
+
+**[S210]**** Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and performance of small and medium-sized enterprises from emerging economies. *Competitiveness Review: An International Business Journal, 31*(4), 642–662. https://doi.org/10.1108/cr-03-2019-0028
+*[r ≈ +0.05 (est.); n ≈ 150 LatAm SMEs; emerging economy institutional context]* | [🔬 scite](https://scite.ai/reports/10.1108%2Fcr-03-2019-0028)
+
+**[S211]**** Olmos, M. F., & Díez-Vial, I. (2015). Internationalization pathways and the performance of SMEs. *European Journal of Marketing, 49*(3/4), 420–443. https://doi.org/10.1108/ejm-06-2012-0365
+*[r ≈ +0.07 (est.); n ≈ 200 Spanish SMEs; internationalization path as moderator]* | [🔬 scite](https://scite.ai/reports/10.1108%2Fejm-06-2012-0365)
+
+**[S212]**** Phan, A. T., Tran, T. M., & Lu, T. M. (2020). The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon. *Decision Science Letters, 9*(4), 573–580. https://doi.org/10.5267/j.dsl.2020.7.001
+*[r ≈ +0.03 (est.); n ≈ 90 Cameroonian firms; W-shaped nonlinear relationship; Frontier institutional context]* | [🔬 scite](https://scite.ai/reports/10.5267%2Fj.dsl.2020.7.001)
+
+**[S213]**** Purkayastha, A., Karna, A., Sharma, S., & Bhadra, D. (2024). Role of resource investment management and strategic resource deployment capabilities in internationalization-performance relationship. *Journal of International Management, 30*(3), Article 101122. https://doi.org/10.1016/j.intman.2024.101122
+*[r ≈ +0.07 (est.); n ≈ 200 Indian firms; resource orchestration capabilities as moderator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.intman.2024.101122)
+
+**[S214]**** Purkayastha, A., Kumar, V., & Gupta, V. (2021). Emerging market internationalizing firms: Learning through internationalization to achieve entrepreneurial orientation. *Journal of World Business, 56*(4), Article 101207. https://doi.org/10.1016/j.jwb.2021.101207
+*[r ≈ +0.06 (est.); n ≈ 185 Indian EMNEs; learning mechanisms; entrepreneurial orientation mediator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jwb.2021.101207)
+
+**[S215]**** Rienda, L., & Andreu, R. (2021). The role of family firms heterogeneity on the internationalisation and performance relationship. *European Journal of Family Business, 11*(2). https://doi.org/10.24310/ejfbejfb.v11i2.10591
+*[r ≈ +0.04 (est.); n ≈ 200 Spanish family firms; family firm heterogeneity as moderator]* | [🔬 scite](https://scite.ai/reports/10.24310%2Fejfbejfb.v11i2.10591)
+
+**[S216]**** Schmuck, A., Lagerström, K., & Sallis, J. F. (2022). Turning the tables: The relationship between performance and multinationality. *Management International Review, 62*(1), 3–26. https://doi.org/10.1007/s11575-022-00464-3
+*[r ≈ +0.08 (est.); n ≈ 400 multi-country firms; reverse causality direction — performance → multinationality]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs11575-022-00464-3)
+
+**[S217]**** Singla, C., & George, R. (2013). Internationalization and performance: A contextual analysis of Indian firms. *Journal of Business Research, 66*(12), 2500–2506. https://doi.org/10.1016/j.jbusres.2013.05.041
+*[r ≈ +0.08 (est.); n ≈ 200 Indian listed firms; governance context moderator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jbusres.2013.05.041)
+
+**[S218]**** Sun, W., Price, J. M., & Ding, Y. (2019). The longitudinal effects of internationalization on firm performance: The moderating role of marketing capability. *Journal of Business Research, 95*, 326–337. https://doi.org/10.1016/j.jbusres.2018.08.014
+*[r ≈ +0.09 (est.); n ≈ 600 US firms; longitudinal panel; marketing capability as moderator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jbusres.2018.08.014)
+
+**[S219]**** Tongurai, J., & Vithessonthi, C. (2022). Learning, foreign operations and operating performance. *Global Finance Journal, 54*, Article 100721. https://doi.org/10.1016/j.gfj.2022.100721
+*[r ≈ +0.06 (est.); n ≈ 350 Thai firms; learning through foreign operations as mediator]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.gfj.2022.100721)
+
+**[S220]**** Tsionas, M. G., & Tzeremes, N. G. (2021). The degree of internationalization and firm productivity: Empirical evidence from large multinationals. *British Journal of Management, 32*(4), 1032–1052. https://doi.org/10.1111/1467-8551.12560
+*[r ≈ +0.10 (est.); n ≈ 500 large multinationals; labour productivity as FP; nonparametric frontier methods]* | [🔬 scite](https://scite.ai/reports/10.1111%2F1467-8551.12560)
+
+**[S221]**** Vithessonthi, C., & Racela, O. C. (2016). Short- and long-run effects of internationalization and R&D intensity on firm performance. *Journal of Multinational Financial Management, 34*, 28–45. https://doi.org/10.1016/j.mulfin.2015.12.001
+*[r ≈ +0.05 (est.); n ≈ 400 Thai firms; differential short/long-run effects]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.mulfin.2015.12.001)
+
+**[S222]**** Wang, G., Zhang, H., Xia, B., Wu, G., & Han, Y. (2020). Relationship between internationalization and financial performance: Evidence from ENR-listed Chinese firms. *Journal of Management in Engineering, 36*(2), Article 04019044. https://doi.org/10.1061/(asce)me.1943-5479.0000736
+*[r ≈ +0.07 (est.); n ≈ 150 ENR-listed Chinese construction firms; financial performance]* | [🔬 scite](https://scite.ai/reports/10.1061%2F(asce)me.1943-5479.0000736)
+
+**[S223]**** Wei, S., & Lin, L. (2021). The relationship between extent of internationalization and firm performance (Taiwan 1992–2017). *Mathematical Problems in Engineering*. https://doi.org/10.1155/2021/5528972
+*[r ≈ +0.05 (est.); n ≈ 800 Taiwanese listed firms; 26-year panel 1992–2017]* | [🔬 scite](https://scite.ai/reports/10.1155%2F2021%2F5528972)
+
+**[S224]**** Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internationalization and performance of firms in China: Moderating effects of governance structure and the degree of centralized control. *Journal of International Management, 19*(2), 118–137. https://doi.org/10.1016/j.intman.2012.12.003
+*[r ≈ +0.08 (est.); n ≈ 250 Chinese listed firms; governance structure and centralized control as moderators]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.intman.2012.12.003)
+
+**[S225]**** Xiong, Z., Sun, C., & Zhao, M. (2024). Internationalization speed and corporate long-term performance: Exploring the inverted U-shaped relationship. *Finance Research Letters*. https://doi.org/10.1016/j.frl.2024.106247
+*[r ≈ +0.09 (est.); n ≈ 600 Chinese firms; internationalization speed as IV; inverted-U with long-term performance]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.frl.2024.106247)
+
+**[S226]**** Zeng, S. X., Xie, X. M., Tam, C. M., & Wan, T. W. (2009). Relationships between business factors and performance in internationalization: An empirical study in China. *Management Decision, 47*(2), 308–329. https://doi.org/10.1108/00251740910938939
+*[r ≈ +0.06 (est.); n ≈ 200 Chinese manufacturing firms; business factors as antecedents]* | [🔬 scite](https://scite.ai/reports/10.1108%2F00251740910938939)
+
+**[S227]**** Ahsan, F. M., & Sinha, A. (2022). Internationalization motives, location advantages and performance: The case of Indian firms from knowledge-intensive industries. *Cross Cultural & Strategic Management*. https://doi.org/10.1108/ccsm-07-2021-0119
+*[r ≈ +0.07 (est.); n ≈ 150 Indian knowledge-intensive firms; motives and location advantages]* | [🔬 scite](https://scite.ai/reports/10.1108%2Fccsm-07-2021-0119)
+
+**[S228]**** Ruzzier, M., & Ruzzier, M. K. (2014). On the relationship between firm size, resources, age at entry and internationalization: The case of Slovenian SMEs. *Journal of Business Economics and Management, 16*(1), 52–73. https://doi.org/10.3846/16111699.2012.745812
+*[r ≈ +0.06 (est.); n ≈ 180 Slovenian SMEs; size-resources-age moderators on I→P]* | [🔬 scite](https://scite.ai/reports/10.3846%2F16111699.2012.745812)
+
+**[S229]**** Azman, M. A. H., Hon, C. K. H., Xia, B., Lee, B. L., & Skitmore, M. (2022). Internationalization and productivity of construction firms in a developing country: The effect of institutional environment and ownership on Malaysian construction firms. *Journal of Management in Engineering, 38*(3). https://doi.org/10.1061/(asce)me.1943-5479.0000985
+*[r ≈ +0.09 (est.); n ≈ 200 Malaysian construction firms; institutional environment and ownership moderators; labour productivity]* | [🔬 scite](https://scite.ai/reports/10.1061%2F(asce)me.1943-5479.0000985)
+
+**[S230]**** Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, internationalization, and firm performance: A resource-orchestration perspective on new OLI advantages. *International Business Review*. https://doi.org/10.1016/j.ibusrev.2023.102135
+*[r ≈ +0.10 (est.); n ≈ 300 multi-country firms; digitalization as new OLI advantage; resource-orchestration perspective]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2023.102135)
+
+**[S231]**** Hosseini, M., Brege, S., & Nord, T. (2018). A combined focused industry and company size investigation of the internationalization-performance relationship: The case of small and medium-sized enterprises (SMEs) within the Swedish wood manufacturing industry. *Forest Policy and Economics*. https://doi.org/10.1016/j.forpol.2018.09.013
+*[r ≈ +0.06 (est.); n ≈ 150 Swedish wood manufacturing SMEs; industry focus and company size moderators]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.forpol.2018.09.013)
+
+**[S232]**** Huang, L., & Marciano, D. (2020). Interdependence relationship of internationalization-performance in manufacturing firms listed in Indonesia Stock Exchange and Chinese Stock Exchanges. In *Proceedings of the 17th International Symposium on Management (INSYMA 2020)*. https://doi.org/10.2991/aebmr.k.200127.085
+*[r ≈ +0.05 (est.); n ≈ 200 Indonesia and Chinese listed manufacturing firms; interdependence analysis]* | [🔬 scite](https://scite.ai/reports/10.2991%2Faebmr.k.200127.085)
+
+**[S233]**** Kayaci, A. (2022). The relationship between internationalization level and financial performance: A study with BİST companies. *Cumhuriyet Üniversitesi İktisadi ve İdari Bilimler Dergisi*. https://doi.org/10.37880/cumuiibf.1077104
+*[r ≈ +0.06 (est.); n ≈ 200 Turkish BIST-listed companies; financial performance (ROA/ROE)]* | [🔬 scite](https://scite.ai/reports/10.37880%2Fcumuiibf.1077104)
+
+**[S234]**** Yip, G. S., Biscarri, J. G., & Monti, J. A. (2000). The role of the internationalization process in the performance of newly internationalizing firms. *Journal of International Marketing, 8*(3), 10–35. https://doi.org/10.1509/jimk.8.3.10.19635
+*[r ≈ +0.06 (est.); n ≈ 150 newly internationalizing firms; internationalization process stages as moderator]* | [🔬 scite](https://scite.ai/reports/10.1509%2Fjimk.8.3.10.19635)
 
 ---
 

@@ -345,22 +345,62 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S192 | Tu & Huynh (2021) **AUTHOR** | +0.03 (est.) | 90 | Ecuador mfg | 2003–17 | MX | L | SPN | FSTS | ACC | RWE 12(1); panel; inverse S-curve; LatAm context |
 | S193 | García-Sánchez & Rama (2024) **NEW** | +0.09 (est.) | 267 | Spain mfg | 2010–17 | II | H | SPN | FSTS | ACC | EBR 14(4); Bayesian; heterogeneous firm-level effects |
 | S194 | Godbole (2024) **NEW** | +0.08 (est.) | ~120 | India listed family | ~2015–22 | III | M | FOL | COMP | MIX | BSD 7(3); NIFTY500 family firms; GMM; financial+innovation |
+| S195 | Barłożewski & Trąpczyński (2021a) | +0.06 (est.) | 200 | Poland | ~2014–19 | I | M | FOL | FSTS | ACC | EBER 9; Polish M-P motives |
+| S196 | Barłożewski & Trąpczyński (2021b) | +0.04 (est.) | 200 | Poland | ~2014–19 | I | M | FOL | FSTS | ACC | OC 12; novice internationalizers |
+| S197 | Calabrese & Manello (2018) | +0.08 (est.) | 300 | Italy | ~2005–15 | II | M | SPN | FSTS | ACC | JPM; Italy policy evidence |
+| S198 | Cao et al. (2022) | +0.07 (est.) | 400 | China | ~2010–20 | III | H | FOL | FSTS | ACC | PLoS ONE; social networks China |
+| S199 | Carr et al. (2010) | +0.05 (est.) | 150 | Multi | ~2000–07 | MX | L | PRE | FSTS | ACC | SEJ; firm age at intl |
+| S200 | Chen & Hsu (2010) | +0.09 (est.) | 200 | Taiwan | ~2001–07 | I | L | PRE | FSTS | MKT | IMM; resource allocation Taiwan |
+| S201 | Cuervo-Cazurra et al. (2017) | +0.05 (est.) | 500 | Multi | ~2006–14 | MX | M | SPN | FSTS | ACC | JWB; uncertainty management |
+| S202 | Da Cunha et al. (2023) | +0.06 (est.) | 250 | Multi-LatAm | ~2010–20 | III | M | FOL | FSTS | ACC | IJOEM; formal institutions |
+| S203 | Debicki et al. (2020) | +0.05 (est.) | 300 | Multi | ~2005–15 | MX | M | SPN | FSTS | ACC | CCSM; family firm I→P |
+| S204 | Dikova & Veselova (2020) | −0.04 (est.) | 200 | Russia | ~2008–16 | III | M | SPN | COMP | ACC | MOR; Russia contingency |
+| S205 | Elango (2012) | +0.10 (est.) | 250 | USA/Multi | ~2000–08 | I | M | PRE | COMP | MKT | TIBR; tech-intensive industry |
+| S206 | Espinosa-Méndez & Jara (2021) | +0.04 (est.) | 150 | Chile | ~2009–18 | III | M | FOL | GEO | ACC | SJFC; Chile family firm |
+| S207 | Fu (2024) | +0.09 (est.) | 800 | China | ~2012–22 | III | H | FOL | FSTS | MKT | FRL; R&D investment China |
+| S208 | Khatua et al. (2024) | +0.07 (est.) | 120 | India | ~2015–22 | III | H | FOL | FSTS | ACC | JIE; INVs India |
+| S209 | Lin et al. (2011) | +0.06 (est.) | 180 | Taiwan | ~2001–08 | I | L | PRE | FSTS | MKT | JIM; firm behavior moderator |
+| S210 | Manotas & Gonzalez-Perez (2020) | +0.05 (est.) | 150 | Multi-LatAm | ~2010–17 | III | L | SPN | EXP | ACC | CR; LatAm SMEs |
+| S211 | Olmos & Díez-Vial (2015) | +0.07 (est.) | 200 | Spain | ~2004–10 | II | M | SPN | EXP | ACC | EJM; SME intl paths Spain |
+| S212 | Phan, Tran & Lu (2020) | +0.03 (est.) | 90 | Cameroon | ~2013–18 | Frontier | L | SPN | FSTS | ACC | DSL; W-shaped Cameroon |
+| S213 | Purkayastha et al. (2024) | +0.07 (est.) | 200 | India | ~2014–22 | III | H | FOL | COMP | ACC | JIM; resource management India |
+| S214 | Purkayastha et al. (2021) | +0.06 (est.) | 185 | India | ~2010–18 | III | M | FOL | FSTS | ACC | JWB; EMNEs learning India |
+| S215 | Rienda & Andreu (2021) | +0.04 (est.) | 200 | Spain | ~2005–18 | II | M | SPN | FSTS | ACC | EJFB; family firms Spain |
+| S216 | Schmuck et al. (2022a) | +0.08 (est.) | 400 | Multi | ~2010–19 | MX | H | FOL | COMP | MKT | MIR; reverse P→M direction |
+| S217 | Singla & George (2013) | +0.08 (est.) | 200 | India | ~2004–09 | III | L | SPN | FSTS | ACC | JBR; India contextual analysis |
+| S218 | Sun et al. (2019) | +0.09 (est.) | 600 | USA | ~2003–15 | I | H | SPN | FSTS | MKT | JBR; longitudinal marketing cap |
+| S219 | Tongurai & Vithessonthi (2022) | +0.06 (est.) | 350 | Thailand | ~2010–19 | III | H | FOL | FSTS | ACC | GFJ; Thailand learning |
+| S220 | Tsionas & Tzeremes (2021) | +0.10 (est.) | 500 | Multi | ~2008–18 | MX | H | FOL | COMP | LAB | BJM; large MNEs productivity |
+| S221 | Vithessonthi & Racela (2016) | +0.05 (est.) | 400 | Thailand | ~2000–13 | III | M | SPN | FSTS | ACC | JMFM; short/long-run Thailand |
+| S222 | Wang et al. (2020) | +0.07 (est.) | 150 | China construction | ~2005–17 | III | M | SPN | COMP | ACC | JMgmtEng; ENR-listed Chinese |
+| S223 | Wei & Lin (2021) | +0.05 (est.) | 800 | Taiwan | 1992–17 | I | M | SPN | FSTS | MKT | MPE; long panel Taiwan |
+| S224 | Xiao et al. (2013) | +0.08 (est.) | 250 | China | ~2004–09 | III | L | SPN | FSTS | ACC | JIM; China governance |
+| S225 | Xiong et al. (2024) | +0.09 (est.) | 600 | China | ~2010–20 | III | H | FOL | COMP | MKT | FRL; intl speed China |
+| S226 | Zeng et al. (2009) | +0.06 (est.) | 200 | China | ~2003–07 | III | L | PRE | EXP | ACC | MD; China business factors |
+| S227 | Ahsan & Sinha (2022) | +0.07 (est.) | 150 | India | ~2010–19 | III | M | FOL | COMP | ACC | CCSM; knowledge-intensive India |
+| S228 | Ruzzier & Ruzzier (2014) | +0.06 (est.) | 180 | Slovenia | ~2005–10 | II | M | SPN | FSTS | ACC | JBEM; Slovenian SMEs |
+| S229 | Azman et al. (2022) | +0.09 (est.) | 200 | Malaysia | ~2010–20 | III | H | FOL | COMP | LAB | JMgmtEng; Malaysia construction |
+| S230 | Bhandari et al. (2023) | +0.10 (est.) | 300 | Multi | ~2014–22 | MX | H | FOL | FSTS | MKT | IBR; digitalization OLI |
+| S231 | Hosseini et al. (2018) | +0.06 (est.) | 150 | Sweden | ~2005–15 | II | M | SPN | EXP | ACC | FPE; Swedish wood SMEs |
+| S232 | Huang & Marciano (2020) | +0.05 (est.) | 200 | Multi | ~2010–18 | MX | M | SPN | FSTS | ACC | INSYMA conf.; Indonesia/China |
+| S233 | Kayaci (2022) | +0.06 (est.) | 200 | Turkey | ~2015–20 | II | H | FOL | COMP | ACC | CumJourn; BIST-listed Turkey |
+| S234 | Yip et al. (2000) | +0.06 (est.) | 150 | Multi | ~1992–98 | MX | L | PRE | COMP | ACC | JIM; newly internationalizing firms |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 194 studies)
+## 5. Tóm tắt Phân phối Moderator (k = 234 studies)
 
 ### 5.1 Phân phối ICRV Regime
 
 | Regime | k | % | Quốc gia chính |
 |--------|---|---|----------------|
-| I — Advanced | 85 | 44% | USA (30), Japan (12), Korea (17), Taiwan (14), Singapore (4), UK/EU (8), Poland (1) |
-| II — Upper-middle | 18 | 9% | Italy (5), Spain (9), Turkey (1), Malaysia (1), others (2) |
-| III — Emerging | 62 | 32% | China (26), India (17), Vietnam (9), Indonesia (3), Brazil (5), LatAm (4) |
+| I — Advanced | 91 | 44% | USA (30), Japan (12), Korea (17), Taiwan (14), Singapore (4), UK/EU (8), Poland (2) |
+| II — Upper-middle | 24 | 10% | Italy (5), Spain (9), Turkey (2), Malaysia (1), Slovenia (1), Sweden (1), others (5) |
+| III — Emerging | 80 | 34% | China (26), India (17), Vietnam (9), Indonesia (3), Brazil (5), LatAm (4), Russia (1), Thailand (2), Malaysia (1) |
 | SIDS | 0 | 0% | *No studies yet — target from P8 backward scan* |
-| Frontier | 2 | 1% | Pakistan (1), Iran (1) |
-| Mixed | 27 | 14% | Multi-country (27), Ecuador (1) |
-| **Tổng** | **194** | **100%** | |
+| Frontier | 3 | 1% | Pakistan (1), Iran (1), Cameroon (1) |
+| Mixed | 36 | 15% | Multi-country (36) |
+| **Tổng** | **234** | **100%** | |
 
 > **Ghi chú SIDS**: Chưa tìm được studies đủ tiêu chuẩn với mẫu thuần SIDS Pacific. Phần
 > backward scan tiếp theo cần tìm kiếm riêng cho Fiji, Solomon Islands, Vanuatu.
@@ -369,19 +409,19 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 
 | cDAI | k | % | Diễn giải |
 |------|---|---|-----------|
-| High | 45 | 23% | Advanced economies post-2010 với strong digital infrastructure |
-| Medium | 62 | 32% | Advanced pre-2010 or upper-middle post-2010 |
-| Low | 87 | 45% | Emerging/Frontier contexts or pre-1998 data |
-| **Tổng** | **194** | **100%** | |
+| High | 57 | 24% | Advanced economies post-2010 với strong digital infrastructure |
+| Medium | 80 | 34% | Advanced pre-2010 or upper-middle post-2010 |
+| Low | 97 | 41% | Emerging/Frontier contexts or pre-1998 data |
+| **Tổng** | **234** | **100%** | |
 
 ### 5.3 Phân phối DPL Phase
 
 | Phase | k | % | Data period |
 |-------|---|---|-------------|
-| Precede | 68 | 35% | Data ends ≤ 2008 |
-| Span | 72 | 37% | Data 2005–2014 |
-| Follow | 54 | 28% | Data starts ≥ 2013 |
-| **Tổng** | **194** | **100%** | |
+| Precede | 74 | 32% | Data ends ≤ 2008 |
+| Span | 90 | 38% | Data 2005–2014 |
+| Follow | 70 | 30% | Data starts ≥ 2013 |
+| **Tổng** | **234** | **100%** | |
 
 ### 5.4 Phân phối DOI Measure Type
 
