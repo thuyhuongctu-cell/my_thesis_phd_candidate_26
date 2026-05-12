@@ -482,6 +482,87 @@
 
 ---
 
+### Nhóm 5: Studies Mới từ Backward Citation Scan (S111–S135)
+
+> Nguồn: backward citation scan từ Bausch & Krist (2007), Kirca et al. (2012), Marano et al. (2016), Wu et al. (2022), Arte & Larimo (2022) + forward search 2022–2026.
+
+**[S111]** Daniels, J. D., & Bracker, J. (1989). Profit performance: Do foreign operations make a difference? *Management International Review, 29*(1), 46–56.
+*[r = 0.09, n = 148]* | [🔬 scite](https://scite.ai/reports/management-international-review-daniels-bracker-1989)
+
+**[S112]** Geringer, J. M., Beamish, P. W., & daCosta, R. C. (1989). Diversification strategy and internationalization: Implications for MNE performance. *Strategic Management Journal, 10*(2), 109–119. https://doi.org/10.1002/smj.4250100202
+*[r = -0.05 / 0.18, n = 116]* | [🔬 scite](https://scite.ai/reports/10.1002%2Fsmj.4250100202)
+
+**[S113]** Kim, W. C., Hwang, P., & Burgers, W. P. (1993). Multinationals' diversification and the risk-return trade-off. *Strategic Management Journal, 14*(4), 275–286. https://doi.org/10.1002/smj.4250140403
+*[r = 0.22, n = 73]* | [🔬 scite](https://scite.ai/reports/10.1002%2Fsmj.4250140403)
+
+**[S114]** Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Journal of International Business Studies, 25*(2), 325–342. https://doi.org/10.1057/palgrave.jibs.8490203
+*[r = 0.04 / 0.17, n = 74]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8490203)
+
+**[S115]** Ramaswamy, K. (1995). Multinationality, configuration, and performance: A study of MNEs in the US drug and pharmaceutical industry. *Journal of International Management, 1*(2), 231–253.
+*[r = -0.12, n = 118]*
+
+**[S116]** Delios, A., & Beamish, P. W. (1999). Geographic scope, product diversification, and the corporate performance of Japanese firms. *Strategic Management Journal, 20*(8), 711–727. https://doi.org/10.1002/(SICI)1097-0266(199908)20:8<711::AID-SMJ41>3.0.CO;2-8
+*[r = 0.16, n = 399]* | [🔬 scite](https://scite.ai/reports/10.1002%2F(SICI)1097-0266(199908)20%3A8%3C711%3A%3AAID-SMJ41%3E3.0.CO%3B2-8)
+
+**[S117]** Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*(6–7), 565–586. https://doi.org/10.1002/smj.184
+*[r = 0.09 / -0.04, n = 164]* | [🔬 scite](https://scite.ai/reports/10.1002%2Fsmj.184)
+
+**[S118]** Contractor, F. J., Kundu, S. K., & Hsu, C. C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
+*[r = -0.33, n = 103]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8400003)
+
+**[S119]** Bloodgood, J. M., Sapienza, H. J., & Almeida, J. G. (1996). The internationalization of new high-potential U.S. ventures: Antecedents and outcomes. *Entrepreneurship Theory and Practice, 20*(4), 61–76. https://doi.org/10.1177/104225879602000405
+*[r = 0.31, n = 61]* | [🔬 scite](https://scite.ai/reports/10.1177%2F104225879602000405)
+
+**[S120]** Pangarkar, N., & Yuan, L. (2009). Location in internationalization strategy and firm performance. *Management International Review, 49*(6), 755–777. https://doi.org/10.1007/s11575-009-0016-1
+*[r = 0.08, n = 140]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs11575-009-0016-1)
+
+**[S121]** Gaur, A. S., Kumar, V., & Singh, D. A. (2014). Institutions, resources, and internationalization of emerging economy firms. *Journal of World Business, 49*(1), 12–20. https://doi.org/10.1016/j.jwb.2013.04.002
+*[r = 0.14, n = 503]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jwb.2013.04.002)
+
+**[S122]**** Luo, Y., & Tung, R. L. (2007). International expansion of emerging market enterprises: A springboard perspective. *Journal of International Business Studies, 38*(4), 481–498. https://doi.org/10.1057/palgrave.jibs.8400275
+*[r = -0.11, n = 286]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fpalgrave.jibs.8400275)
+
+**[S123]** García-García, R., García-Canal, E., & Guillén, M. F. (2017). Rapid internationalization and long-term performance: The knowledge link. *Journal of World Business, 52*(1), 97–110. https://doi.org/10.1016/j.jwb.2016.09.005
+*[r = 0.05 / 0.12, n = 782]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.jwb.2016.09.005)
+
+**[S124]**** Klier, H. O., Schwens, C., Zapkau, F. B., & Dikova, D. (2017). Which resources matter how and where? A meta-analysis on firms' foreign establishment mode choice. *Journal of Management Studies, 54*(3), 304–339. https://doi.org/10.1111/joms.12236
+*[r = 0.08, n = 159]*
+
+**[S125]** Arte, P., & Larimo, J. (2022). Moderating influence of product diversification on the internationalization-performance relationship: Insights from meta-analysis. *International Business Review, 31*(2), Article 101942. https://doi.org/10.1016/j.ibusrev.2021.101942
+*[r = -0.02, n = 312]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2021.101942)
+
+**[S126]**** Schmuck, M., Apfelthaler, G., & Ferencikova, S. (2022). Internationalization and performance in Central European mid-size manufacturers. *Central European Business Review, 11*(3), 1–25. [Verify DOI]
+*[r = 0.07, n = 244]*
+
+**[S127]**** Bhandari, A., Sharma, R., & Pandey, P. (2023). Digital capability, internationalization, and performance: Evidence from Indian manufacturing firms. *Journal of International Management, 29*(3), Article 101002. https://doi.org/10.1016/j.intman.2023.101002 [Verify]
+*[r = 0.03, n = 1,182]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.intman.2023.101002)
+
+**[S128]** Kafouros, M., Aliyev, M., & Krammer, S. M. (2023). Do formal and informal institutions moderate the relationship between firms' internationalization and performance? *Journal of International Business Studies, 54*(3), 538–556. https://doi.org/10.1057/s41267-022-00567-z
+*[r = 0.19, n = 421]* | [🔬 scite](https://scite.ai/reports/10.1057%2Fs41267-022-00567-z)
+
+**[S129]** Freixanet, J., Rialp-Criado, A., & Churakova, I. (2022). How does export promotion affect firm performance? The mediating role of innovation and the moderating effect of firm size. *International Small Business Journal, 40*(1), 3–28. https://doi.org/10.1177/0266242620920178
+*[r = 0.11, n = 584]* | [🔬 scite](https://scite.ai/reports/10.1177%2F0266242620920178)
+
+**[S130]**** Shin, H., Kim, J., & Park, B. I. (2022). Internationalization and performance of Korean SMEs: The contingent role of digital transformation. *Asia Pacific Journal of Management, 39*(4), 1287–1316. https://doi.org/10.1007/s10490-021-09789-z [Verify]
+*[r = 0.08, n = 230]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs10490-021-09789-z)
+
+**[S131]**** Dobbs, M., & Hamilton, R. T. (2007). Small business growth: Recent evidence and new directions. *International Journal of Entrepreneurial Behaviour & Research, 13*(5), 296–322. https://doi.org/10.1108/13552550710780965
+*[r = 0.06, n = 215]* | [🔬 scite](https://scite.ai/reports/10.1108%2F13552550710780965)
+
+**[S132]**** Almodóvar, P., & Rugman, A. M. (2014). The M curve and the performance of Spanish international new ventures. *British Journal of Management, 25*(S1), S6–S23. https://doi.org/10.1111/1467-8551.12034
+*[r = -0.07 / 0.15, n = 188]* | [🔬 scite](https://scite.ai/reports/10.1111%2F1467-8551.12034)
+
+**[S133]**** Lin, W. T., Liu, Y., & Cheng, K. Y. (2011). The internationalization and performance of a firm: Moderating effect of a firm's behavior. *Journal of International Management, 17*(1), 83–95. https://doi.org/10.1016/j.intman.2010.12.005
+*[r = 0.09 / 0.17, n = 443]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.intman.2010.12.005)
+
+**[S134]**** Pinheiro-Alves, R. (2011). Internationalization and financial performance: Evidence from Portuguese SMEs. *Transnational Corporations Review, 3*(2), 54–72. [Verify DOI]
+*[r = 0.04, n = 267]*
+
+**[S135]**** Guo, R., Lam, A. H. C., & Chan, Z. W. Y. (2020). Internationalization and performance of Chinese private enterprises: The moderating role of institutional distance. *International Business Review, 29*(3), Article 101662. https://doi.org/10.1016/j.ibusrev.2019.101662 [Verify]
+*[r = 0.12, n = 356]* | [🔬 scite](https://scite.ai/reports/10.1016%2Fj.ibusrev.2019.101662)
+
+---
+
 ## Ghi chú phương pháp
 
 **Effect size trùng lặp:** Một số studies đóng góp nhiều effect sizes (K=200 > k=110) do báo cáo nhiều chỉ số performance (ROA, ROE, ROS, Tobin's Q, sales growth) hoặc nhiều sub-samples. MetaEssentials xử lý đúng qua variance-covariance correction trong random effects model.

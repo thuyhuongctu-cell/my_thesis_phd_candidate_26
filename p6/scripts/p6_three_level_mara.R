@@ -1,8 +1,9 @@
 #!/usr/bin/env Rscript
-# p6_three_level_mara.R — Three-level MARA demo for P6 (I→P, 1982–2026)
+# p6_three_level_mara.R — Three-level MARA for P6 (I→P, 1982–2026)
 #
-# Reproduces baseline from Đỗ & Phan (2024, ICBEF 2025): k=113, r=0.07, I²=87.92%
-# Then runs three-level MARA with ICRV, cDAI, DPL moderators.
+# ICBEF 2025 baseline: k=113 studies, r=0.07, I²=87.92% (Đỗ & Phan, 2024)
+# P6 UPDATED target: k=135 studies, K≈250 effect sizes (extended 2022–2026)
+# Three-level MARA with 3 new moderators: ICRV regime, cDAI, DPL phase
 #
 # Run: Rscript scripts/p6_three_level_mara.R
 # Or with real data: Rscript scripts/p6_three_level_mara.R --data data/p6_effect_sizes.csv
@@ -19,11 +20,12 @@ cat("  metafor", as.character(packageVersion("metafor")), "| clubSandwich",
     as.character(packageVersion("clubSandwich")), "\n")
 cat("=================================================================\n\n")
 
-# ─── 1. Synthetic effect-size database matching ICBEF 2025 baseline ──────────
+# ─── 1. Synthetic effect-size database (P6 UPDATED: k=135 studies) ───────────
 set.seed(2024)
 
-# k=113 studies, ~200 effect sizes (multiple ES per study = three-level structure)
-n_studies   <- 113
+# k=135 studies, K≈250 effect sizes (three-level: multiple ES per study)
+# ICBEF 2025 baseline was k=113; P6 adds 22 studies via backward scan 2022–2026
+n_studies   <- 135
 study_id    <- rep(seq_len(n_studies), times = sample(1:3, n_studies, replace = TRUE, prob = c(0.5, 0.3, 0.2)))
 k_effects   <- length(study_id)
 
@@ -166,10 +168,12 @@ for (i in seq_len(nrow(coef_df))) {
   bar     <- paste(rep("█", bar_len), collapse = "")
   cat(sprintf("  %-20s r=%.3f  |%s\n", coef_df$Regime[i], coef_df$r[i], bar))
 }
-cat("  [Baseline r=0.07 from ICBEF 2025 — synthetic data for demo]\n\n")
+cat("  [ICBEF 2025 baseline: k=113, r=0.07 → P6 target: k=135 — synthetic data]\n\n")
 
 cat("=================================================================\n")
-cat("  Ghi chú: Kết quả từ synthetic data (seed=2024).\n")
+cat("  Ghi chú: Kết quả từ synthetic data (seed=2024, k=135).\n")
 cat("  Với real data: đặt effect sizes vào data/p6_effect_sizes.csv\n")
+cat("  (columns: study_id, es_id, yi, vi, ni, icrv_regime, cdai_level, dlp_phase, doi_measure)\n")
 cat("  và chạy: Rscript scripts/p6_three_level_mara.R --data data/p6_effect_sizes.csv\n")
+cat("  Nguồn coding: p6/p6_study_database_coded.md (Section 4A + 4B)\n")
 cat("=================================================================\n")
