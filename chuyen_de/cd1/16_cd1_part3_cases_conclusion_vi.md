@@ -161,7 +161,7 @@ Bốn đề xuất cụ thể cho doanh nghiệp + nhà hoạch định chính s
 
 (b) **Học mô hình RSE** *(New Zealand Recognised Seasonal Employer)*: New Zealand RSE chỉ áp dụng cho viticulture (vườn nho) + horticulture (vườn cây ăn quả) + fishing — work permits 7 tháng/năm. Việt Nam hợp tác với NZ để mở **Aquaculture + Coffee + Cashew Skills Exchange** — leveraging chuyên môn Việt Nam trong các ngành này.
 
-(c) **Cơ chế remittance corridor digital**: Theo NotebookLM 06/05/2026, Vanuatu RSE remittances chiếm 15-20% GDP — chứng minh model "labor mobility + digital remittance" hiệu quả. Việt Nam có thể hợp tác với Wise/Western Union/MoMo để **giảm phí remittance từ ~7% xuống <3%** cho lao động Việt ở Aus/NZ — tiết kiệm hàng trăm triệu USD/năm. Liên kết §5.3 (a) FDI commitment $2,4B với fintech focus.
+(c) **Cơ chế remittance corridor digital**: Vanuatu RSE remittances chiếm khoảng 15–20% GDP (World Bank, 2023), chứng minh model "labor mobility + digital remittance" hiệu quả. Việt Nam có thể hợp tác với các nền tảng fintech (Wise/MoMo) để **giảm phí remittance từ ~7% xuống <3%** cho lao động Việt ở Aus/NZ — tiết kiệm hàng trăm triệu USD/năm. Liên kết §5.3 (a) FDI commitment $2,4B với fintech focus.
 
 (d) **Skills upgrading approach để tránh brain drain**: Migration labor có nguy cơ brain drain nếu chỉ low-skilled. Việt Nam cần đầu tư technical education + ngoại ngữ trước khi gửi đi, theo mô hình Korea Employment Permit System (EPS) — tập trung vào ngành cao kỹ + đảm bảo lao động return có vốn + kỹ năng để khởi nghiệp tại Việt Nam (return migration channel).
 

@@ -105,9 +105,9 @@ WBES tổ chức các chỉ số doanh nghiệp thành **5 lĩnh vực chính th
 
 SIDS Thái Bình Dương thể hiện pattern **thích nghi và nhảy vọt số (adaptation + digital leapfrog)**; phân tách rõ Năng lực công nghệ (TCI) so với Năng lực số (DAI) — kế thừa Đỗ & Phan (2026 — VEFR).
 
-#### 4.4.5 Tái định hình "Năng lực số" — Tier-1 Digital Presence rebrand *(mới v3.5 — Phase 2 NotebookLM HĐ1)*
+#### 4.4.5 Tái định hình "Năng lực số" — Tier-1 Digital Presence rebrand *(mới v3.5)*
 
-Spec 1 (full coverage 2009–2025) dùng biến nhị phân duy nhất (`website` Y/N) đại diện cho "Năng lực số (DAI)". Trong khi đó TCI được đo bằng nhiều thành phần vững chắc (R&D + ISO multi-component aspirational). **Hậu quả phân tích**: hệ số -0,129 cho DAI ở Advanced trong Spec 1 gợi ý "số hóa làm giảm năng suất ở Singapore/Hàn Quốc/Hong Kong" — nhưng đây là **ảo ảnh thống kê** do đo lường sơ sài, không phải thực tế kinh tế. Như NotebookLM (2026, *Bẫy đo lường số hóa Châu Á*) so sánh: *"Giống như cố đánh giá hiệu suất của mạng lưới logistic AI hiện đại nhưng dùng bản đồ trạm điện tín thế kỷ 19."*
+Spec 1 (full coverage 2009–2025) dùng biến nhị phân duy nhất (`website` Y/N) đại diện cho "Năng lực số (DAI)". Trong khi đó TCI được đo bằng nhiều thành phần vững chắc (R&D + ISO multi-component aspirational). **Hậu quả phân tích**: hệ số -0,129 cho DAI ở Advanced trong Spec 1 gợi ý "số hóa làm giảm năng suất ở Singapore/Hàn Quốc/Hong Kong" — nhưng đây là **ảo ảnh thống kê** do đo lường sơ sài, không phải thực tế kinh tế. Đây là ảo ảnh đo lường điển hình: dùng chỉ số Tier-1 (website Y/N) để đánh giá bão hòa số hóa ở nền kinh tế Tier-2 là không tương thích về mặt construct.
 
 **Đề xuất rebrand v3.5**: Đổi tên biến trong Spec 1 từ "DAI / Năng lực số / Chuyển đổi số" sang **"Sự hiện diện số cơ bản (Tier-1 Digital Presence)"** — phạm vi hẹp hơn, khiêm tốn hơn, thừa nhận rằng Spec 1 chỉ đo *"bức số hóa tài liệu"* (website binary), KHÔNG đo thay đổi mô hình kinh doanh hay digital transformation.
 
@@ -197,7 +197,7 @@ Chương 4 cung cấp bức tranh thực trạng đa chiều dựa trên **101.1
 
 **(v) Quốc tế hóa là hiện tượng phân cực**: trung vị FSTS = 0% xuyên năm phân nhóm con; chỉ 15–23% doanh nghiệp xuất khẩu. Cần **lựa chọn hai giai đoạn (2-stage selection)** trong CĐ2.
 
-**(vi) Nhảy vọt số (digital leapfrog) 2018–2025** ở Frontier/Emerging/SIDS (+20–43 đpt website) — bằng chứng tái định vị Uppsala (Banalieva & Dhanaraj, 2019). *Kiribati 2025 không thể hiện leapfrog (website 18,7%) — cần điều kiện hạ tầng tối thiểu mà Kiribati chưa đạt.* **(Cập nhật v3.5 — Phase 2 NotebookLM HĐ1)**: Cần phân biệt **Tier-1 Digital Presence** (website binary, đo trong Spec 1, đã bão hòa ở Advanced từ trước 2018) vs **Tier-2 Digital Transformation** (DAI multi-component — e-commerce, cloud, AI adoption — đo trong Spec 2 với 5 thành phần). Hệ số âm DAI ở Advanced trong Spec 1 (-0,129) KHÔNG phản ánh "số hóa làm giảm năng suất" mà là **artifact của Tier-1 saturation** ở các nước tiên tiến — xem §4.4.5 ICT exclusion test.
+**(vi) Nhảy vọt số (digital leapfrog) 2018–2025** ở Frontier/Emerging/SIDS (+20–43 đpt website) — bằng chứng tái định vị Uppsala (Banalieva & Dhanaraj, 2019). *Kiribati 2025 không thể hiện leapfrog (website 18,7%) — cần điều kiện hạ tầng tối thiểu mà Kiribati chưa đạt.* **Lưu ý phân biệt construct**: Cần phân biệt **Tier-1 Digital Presence** (website binary, đo trong Spec 1, đã bão hòa ở Advanced từ trước 2018) vs **Tier-2 Digital Transformation** (DAI multi-component — e-commerce, cloud, AI adoption — đo trong Spec 2 với 5 thành phần). Hệ số âm DAI ở Advanced trong Spec 1 (-0,129) KHÔNG phản ánh "số hóa làm giảm năng suất" mà là **artifact của Tier-1 saturation** ở các nước tiên tiến — xem §4.4.5 ICT exclusion test.
 
 **(vii) Pattern phi tuyến FDI ≥10%** — dạng chữ U với cực tiểu Emerging (4,7%): Advanced 11,1% → Upper-middle 8,4% → Emerging 4,7% → Frontier 5,9% → SIDS 23,5%. Hai mô hình FDI: (a) Advanced — MNE hub + Vùng Vịnh hạn chế; (b) SIDS — du lịch + viễn thông.
 
@@ -268,7 +268,7 @@ WBES đo lường tham nhũng qua **3 chỉ số riêng biệt** — phân biệ
 
 **Lý giải lý thuyết — Kafouros et al. (2023) industry × institutional quality interaction** *(mới v3.4)*:
 
-Khung 9 ngành trên không chỉ phân loại theo logic kinh tế mà còn theo logic lý thuyết của **Kafouros et al. (2023 — *Global Strategy Journal*, Vol 14, 56–83)**. Kafouros và cộng sự (n=12.888 firms · 16 CEE economies · 2004-2011 · 72.082 obs) chứng minh chất lượng thể chế (đo bằng Rule of Law từ World Governance Indicators) tương tác hai chiều với động học ngành: **(H1)** ở các ngành có **technological dynamism** cao (Schumpeter Mark II — pharma, computers, electrical, ICT, motor vehicles), chất lượng thể chế **khuếch đại tích cực** hiệu quả doanh nghiệp do ba cơ chế (partnership identification, IPR enforcement, interfirm market exchange); **(H2)** ngược lại, ở các ngành có **market dynamism** cao (volatility cầu — tourism, retail, finance), chất lượng thể chế **suy yếu** vì doanh nghiệp phải nội bộ hóa (internalize) các chức năng để giảm phụ thuộc thị trường ngoài. **Hàm ý cho CĐ1 và CĐ2**: (a) hệ số âm DAI ở Advanced phân nhóm innovation-driven (-0,129 trong Spec 1 — xem §4.4 và Phase 2 NotebookLM HĐ1) có thể bị nhiễu bởi ICT firms saturated; (b) Bảng 4.6 cho thấy Δ R&D Emerging giảm -42,1 đpt — nếu phân tách high-tech vs low-tech Manufacturing, có thể thấy pattern khác biệt; (c) **CĐ2 cần thêm giả thuyết H7**: tương tác `tech_dynamism × institutional_quality` có hệ số dương; tương tác `market_dynamism × institutional_quality` có hệ số âm. Đây là test trực tiếp cho replication của Kafouros (2023) trong bối cảnh châu Á — đóng góp lý thuyết quan trọng vì Kafouros chỉ test trong bối cảnh CEE.
+Khung 9 ngành trên không chỉ phân loại theo logic kinh tế mà còn theo logic lý thuyết của **Kafouros et al. (2023 — *Global Strategy Journal*, Vol 14, 56–83)**. Kafouros và cộng sự (n=12.888 firms · 16 CEE economies · 2004-2011 · 72.082 obs) chứng minh chất lượng thể chế (đo bằng Rule of Law từ World Governance Indicators) tương tác hai chiều với động học ngành: **(H1)** ở các ngành có **technological dynamism** cao (Schumpeter Mark II — pharma, computers, electrical, ICT, motor vehicles), chất lượng thể chế **khuếch đại tích cực** hiệu quả doanh nghiệp do ba cơ chế (partnership identification, IPR enforcement, interfirm market exchange); **(H2)** ngược lại, ở các ngành có **market dynamism** cao (volatility cầu — tourism, retail, finance), chất lượng thể chế **suy yếu** vì doanh nghiệp phải nội bộ hóa (internalize) các chức năng để giảm phụ thuộc thị trường ngoài. **Hàm ý cho CĐ1 và CĐ2**: (a) hệ số âm DAI ở Advanced phân nhóm innovation-driven (-0,129 trong Spec 1 — xem §4.4) có thể bị nhiễu bởi ICT firms saturated; (b) Bảng 4.6 cho thấy Δ R&D Emerging giảm -42,1 đpt — nếu phân tách high-tech vs low-tech Manufacturing, có thể thấy pattern khác biệt; (c) **CĐ2 cần thêm giả thuyết H7**: tương tác `tech_dynamism × institutional_quality` có hệ số dương; tương tác `market_dynamism × institutional_quality` có hệ số âm. Đây là test trực tiếp cho replication của Kafouros (2023) trong bối cảnh châu Á — đóng góp lý thuyết quan trọng vì Kafouros chỉ test trong bối cảnh CEE.
 
 **6 hàm ý phương pháp luận** *(cập nhật v3.4 — mở rộng từ 5 → 6 với hàm ý (f))*:
 
@@ -322,18 +322,18 @@ Năm phát hiện: (1) FSTS phân tầng 5,0%-7,2%-13,2% bị che giấu; (2) FD
 
 **Bảy phát hiện**: (1) IND FSTS sụt 5 đpt (schema effect); (2) THA "digital up, exports down"; (3) Fiji website 74,8% > Singapore (digital leapfrog); (4) Vùng Vịnh + Brunei resource-driven Advanced confirmed; (5) R&D schema-induced overestimation; (6) 2025 wave validation sample CĐ2; **(7) Kiribati extreme — FSTS 1,03%, FDI 0,7%, website 18,7% — đối lập với Fiji digital leapfrog. Bằng chứng dị biệt SIDS rõ rệt: "high-digital" (FJI, MDV) vs "isolated rural" (KIR) — CĐ2 cần tách 2 phân nhóm con SIDS.**
 
-**Bảy hàm ý cho CĐ2** *(cập nhật v3.5 — Phase 2 NotebookLM HĐ1 + chi tiết hóa HĐ3 trong §4.11)*: (a) 2025 validation test bed; **(b) Schema FE PostBREADY2024 enhanced với anchor model** *(chi tiết §4.11 v3.7)*; (c) Advanced sub-grouping test 11 quốc gia; (d) SIDS digital leapfrog evidence cho H6 — phân biệt **Tier-1** (website saturation, đã bão hòa) vs **Tier-2** (transformation, đang phát triển); (e) Two-wave panel cho 6 nước; (f) tách phân nhóm con SIDS — "high-digital" vs "isolated" — mở rộng 8 → 9 phân nhóm con; (g) Tách 2025 thành **"Panel hậu đại dịch độc lập"** *(chi tiết §4.11 v3.7)*.
+**Bảy hàm ý cho CĐ2** *(cập nhật v3.5)*: (a) 2025 validation test bed; **(b) Schema FE PostBREADY2024 enhanced với anchor model** *(chi tiết §4.11 v3.7)*; (c) Advanced sub-grouping test 11 quốc gia; (d) SIDS digital leapfrog evidence cho H6 — phân biệt **Tier-1** (website saturation, đã bão hòa) vs **Tier-2** (transformation, đang phát triển); (e) Two-wave panel cho 6 nước; (f) tách phân nhóm con SIDS — "high-digital" vs "isolated" — mở rộng 8 → 9 phân nhóm con; (g) Tách 2025 thành **"Panel hậu đại dịch độc lập"** *(chi tiết §4.11 v3.7)*.
 
-### 4.11 Cô lập đứt gãy schema BREADY 2025 — 3 đề xuất phương pháp luận *(mới v3.7 — Phase 2 NotebookLM HĐ3)*
+### 4.11 Cô lập đứt gãy schema BREADY 2025 — 3 đề xuất phương pháp luận *(mới v3.7)*
 
-Đợt 2025 (n=16.979 firms, **16,8% pool**) sử dụng schema mới BREADY khác bản hỏi cũ — gây cú sốc phi lý: IND FSTS rơi 7,7%→2,7% (xem §4.10), R&D nhiều nước tăng vọt do **hiệu ứng bảng hỏi (questionnaire effect)** chứ không phải thực tế. Theo NotebookLM (2026, *Bẫy đo lường số hóa Châu Á*): *"Đứt gãy schema BREADY 2025 đe dọa trực tiếp đến tính liên tục của phân tích chuỗi thời gian. Mô hình kiểm tra điểm uốn sẽ cho ra kết luận sai lệch hoàn toàn nếu không xử lý."* NCS đã có cảnh báo trong §4.10 (mục 5: R&D schema-induced overestimation) nhưng cần làm sâu hơn với 3 đề xuất phương pháp luận.
+Đợt 2025 (n=16.979 firms, **16,8% pool**) sử dụng schema mới BREADY khác bản hỏi cũ — gây cú sốc phi lý: IND FSTS rơi 7,7%→2,7% (xem §4.10), R&D nhiều nước tăng vọt do **hiệu ứng bảng hỏi (questionnaire effect)** chứ không phải thực tế. Đứt gãy schema này đe dọa tính liên tục của phân tích chuỗi thời gian: mô hình kiểm tra điểm uốn có thể cho kết luận sai lệch nếu không xử lý. NCS đã có cảnh báo trong §4.10 (mục 5: R&D schema-induced overestimation) và cần làm sâu hơn với 3 đề xuất phương pháp luận.
 
 #### 4.11.1 Đề xuất 3a — Biến giả `Post_BREADY_2024` trong mọi spec tổng gộp
 
 Khai báo biến giả `Post_BREADY_2024` = 1 cho mọi observation thuộc đợt khảo sát 2025+ (BREADY schema), = 0 cho 2009–2024 (PICS3 + Standardized + early BREADY 2018-2024). Biến giả này:
 
 - **Hấp thụ schema effect tĩnh**: lấy out mức trung bình của các thay đổi đo lường giữa 2 generation bảng hỏi (e.g., IND FSTS 7,7%→2,7% có thể một phần do BREADY questions hỏi rõ hơn về "doanh thu xuất khẩu trực tiếp" vs PICS3 hỏi tổng quát hơn).
-- **Cảnh báo từ NotebookLM**: *"Biến giả đâu phải cây đũa thần. Nó chỉ như miếng bọt biển hút tác động tĩnh, không sửa được phương sai."* Vì vậy cần đi cùng đề xuất 3b (anchor model) để kiểm tra robustness.
+- **Lưu ý phương pháp**: Biến giả chỉ hấp thụ tác động tĩnh (level shift), không sửa được phương sai hay sai lệch tương tác. Vì vậy cần đi cùng đề xuất 3b (anchor model) để kiểm tra robustness.
 - **Triển khai**: thêm `Post_BREADY_2024` vào Spec 1 (full pool, 101.185 firms) và Spec 2 (2018-2025, ~50.000 firms) cho CĐ2.
 
 #### 4.11.2 Đề xuất 3b — Mô hình neo (anchor model)
@@ -363,7 +363,7 @@ Tiến trình:
   - Hệ số nào thay đổi (validation failed → discuss as evidence của paradigm shift hậu COVID + AI)
   - Effect size differences và policy implications.
 
-**Như NotebookLM nhận xét**: *"Biến rủi ro dữ liệu thành chương phân tích hướng tới tương lai cực kỳ giá trị."*
+Cách tiếp cận này chuyển đứt gãy dữ liệu từ hạn chế kỹ thuật thành đóng góp phân tích: kết quả validation năm 2025 sẽ cho biết pattern tiền-COVID có được bảo tồn trong bối cảnh AI và hậu đại dịch hay không.
 
 #### 4.11.4 Liên kết với §6 (yếu tố giải thích) và §7.3 (hàm ý CĐ2)
 

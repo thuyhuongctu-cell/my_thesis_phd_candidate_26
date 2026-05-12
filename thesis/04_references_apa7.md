@@ -208,7 +208,6 @@ Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: 
 
 **Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–65.** https://doi.org/10.1093/oxfordjournals.cje.a035301 *(Mới v2.4)*
 
-**NotebookLM. (2026, May 6). *Bẫy đo lường số hóa Châu Á* [AI-generated audio podcast]. Google.** *(Mới v2.4 — APA 7th §10.7 audio source format. AI-generated content; NCS có thể quyết định citation strategy khi nộp final.)*
 
 ## M. Công trình của tác giả luận án (NCS Đỗ Thùy Hương)
 
@@ -399,7 +398,6 @@ North, D. C. (1990). *Institutions, institutional change and economic performanc
   - Commodity markets blog: "Agnolucci, Kenworthy & Kose (2026)"
   - AI financial supervision G20: "Boeddu et al. (2025)"
 - **Trích dẫn classical theory (v2.4)**: "Dunning (1988)", "Williamson (2000)", "Aguinis, Hill & Bailey (2019)".
-- **Trích dẫn AI-generated audio (v2.4)**: "NotebookLM (2026, May 6)".
 - **Trích dẫn Section Q — Singapore ecosystem (v2.7)**:
   - SWITCH 2025: "Enterprise Singapore (2025)"
   - Digital government rankings: "GovTech Singapore (2024)"
