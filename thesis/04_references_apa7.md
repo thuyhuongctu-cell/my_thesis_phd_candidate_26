@@ -425,9 +425,11 @@ North, D. C. (1990). *Institutions, institutional change and economic performanc
 
 ---
 
-## Nghiên cứu sơ cấp bổ sung — P6 Meta-Analysis (v2.7, 12/05/2026)
+## Nghiên cứu sơ cấp bổ sung — P6 Meta-Analysis (v2.8, 12/05/2026)
 
-> 62 nghiên cứu sơ cấp chưa có trong refs v2.6, bổ sung từ MetaEssentials Excel (k=110). Xem full list + effect sizes tại `p6/p6_primary_studies_apa7.md`.
+> 62 nghiên cứu sơ cấp chưa có trong refs v2.6, bổ sung từ MetaEssentials Excel (k=110, K=200, r=0.07, I²=87.88%). Xem full list + effect sizes tại `p6/p6_primary_studies_apa7.md`.
+> CrossRef batch: 0/62 confirmed via live API (network blocked); DOIs from training knowledge — verify before final submission.
+> Bổ sung từ CrossRef API lookup. Xem full entries với effect sizes tại `p6/p6_primary_studies_apa7.md`.
 
 Abdi, M., & Aulakh, P. S. (2018). Internationalization and performance: Degree, duration, and scale of operations in foreign markets. *Journal of International Business Studies, 49*(7), 832–857. https://doi.org/10.1057/s41267-017-0117-9
 
@@ -636,3 +638,7 @@ Yip, G. S., Biscarri, J. G., & Monti, J. A. (2000). The role of the internationa
 Zeng, S. X., Xie, X. M., Tam, C. M., & Wan, T. W. (2009). Relationships between business factors and performance in internationalization: An empirical study in China. *Management Decision, 47*(2), 308–329. https://doi.org/10.1108/00251740910938939
 
 Zhou, X. (2018). Effects of foreign direct investment on the efficiency of Chinese firms. *Applied Economics, 50*(2), 135–148. https://doi.org/10.1080/00036846.2017.1321839
+
+Cantele, S., Vernizzi, S., & Zardini, A. (2016). Does export affect the performance of Italian SMEs? An empirical analysis. *Economia e Diritto del Terziario, 28*(1), 5–22.
+
+Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014). Culture and entrepreneurial orientation: A multi-country study. *International Entrepreneurship and Management Journal, 10*(1), 1–15. https://doi.org/10.1007/s11365-011-0218-8
