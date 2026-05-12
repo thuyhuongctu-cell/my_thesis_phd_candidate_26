@@ -731,6 +731,31 @@
 
 ---
 
+### Nhóm 8: Nghiên cứu nhóm tác giả + bổ sung 2021–2026 (S188–S194)
+
+**[S188]** Do Thuy Huong, & Phan Anh Tu. (2025). Internationalization and firm performance of firms in India: The role of top management. In *International Business Research: Traditional and Creative Approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+*[r = −0.045 (confirmed Table 3 correlation matrix), n = 380 firms (760 obs); FGLS panel; ROS; negative linear effect β = −36.664, p < .001]* | [🔬 scite](https://scite.ai/reports/10.5772%2Fintechopen.1011012)
+
+**[S189]**** Do Thuy Huong, & Phan Anh Tu. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 2*(39), 287–291. [DOI pending]
+*[r ≈ +0.07 (est. bivariate; inverted-U: β₁ = +1.704, β₂ = −1.781, TP = 47.8%; n = 4,290 firm-year obs; WBES China 2012+2024)]* | scite: pending DOI
+
+**[S190]**** Phan Anh Tu, Ninh Le Khuong, & Do Thuy Huong. (2021). Internationalization and Turkish manufacturing firm performance: Does managerial personality matter? In N. M. Alsharari (Ed.), *Accounting and Finance Innovations*. IntechOpen. https://doi.org/10.5772/intechopen.76583
+*[r ≈ −0.04 (est.; FGLS panel; WBES Turkey; n = 263 manufacturing firms; manager experience positive moderator)]* | [🔬 scite](https://scite.ai/reports/10.5772%2Fintechopen.76583)
+
+**[S191]**** Phan Anh Tu, Ninh Le Khuong, Do Thuy Huong, Ha Trong Van, Chinh Ngoc Tran, & Quang Dinh Thang. (2021). Internationalization and firm performance: Moderating effects of managers' characteristics and financial access barriers — evidence from Poland. In N. M. Alsharari (Ed.), *Accounting and Finance Innovations*. IntechOpen. https://doi.org/10.5772/intechopen.97432
+*[r ≈ +0.05 (est.; inverted-U confirmed; female manager (+), financial obstacles (−), manager experience (−); n = 131 manufacturing-services firms; WBES Poland)]* | [🔬 scite](https://scite.ai/reports/10.5772%2Fintechopen.97432)
+
+**[S192]**** Tu, P. A., & Huynh, T. A. (2021). Internationalization and firm performance: Case of manufacturing enterprises in Ecuador. *Research in World Economy, 12*(1). https://doi.org/10.5430/rwe.v12n1p90
+*[r ≈ +0.03 (est.; inverse S-curve; n = 90 manufacturing firms; panel 2003–2017)]* | [🔬 scite](https://scite.ai/reports/10.5430%2Frwe.v12n1p90)
+
+**[S193]**** García-Sánchez, I. M., & Rama, M. (2024). Internationalization and individual firm performance: A resource-based view. *Eurasian Business Review, 14*(4), 1053–1092. https://doi.org/10.1007/s40821-024-00276-5
+*[r ≈ +0.09 (est. average; heterogeneous Bayesian framework); n = 267 manufacturing firms; Spain 2010–2017]* | [🔬 scite](https://scite.ai/reports/10.1007%2Fs40821-024-00276-5)
+
+**[S194]**** Godbole, M. (2024). Does internationalization and board diversity affect family firms' sustainable performance? Empirical evidence from an emerging economy. *Business Strategy & Development, 7*(3). https://doi.org/10.1002/bsd2.365
+*[r ≈ +0.08 (est.); India listed family firms (NIFTY 500); GMM panel; financial + innovation performance]* | [🔬 scite](https://scite.ai/reports/10.1002%2Fbsd2.365)
+
+---
+
 ## Ghi chú phương pháp
 
 **Effect size trùng lặp:** Một số studies đóng góp nhiều effect sizes (K=200 > k=110) do báo cáo nhiều chỉ số performance (ROA, ROE, ROS, Tobin's Q, sales growth) hoặc nhiều sub-samples. MetaEssentials xử lý đúng qua variance-covariance correction trong random effects model.
@@ -746,4 +771,4 @@ curl "https://api.crossref.org/works/{DOI}" | python3 -m json.tool | grep '"titl
 
 ---
 
-*File tạo ngày 12/05/2026 (v2, +S176–S187 added) từ MetaEssentials Excel data + CrossRef/training knowledge. Cần xác minh lại ~15 citations đánh dấu `*` trước khi nộp bản thảo P6.*
+*File tạo ngày 12/05/2026 (v3, +S188–S194 added: tác giả's own papers India/China/Turkey/Poland/Ecuador 2021–2026 + 2024 papers Spain/India family) từ MetaEssentials Excel data + CrossRef/training knowledge. Cần xác minh lại ~15 citations đánh dấu `*` trước khi nộp bản thảo P6.*

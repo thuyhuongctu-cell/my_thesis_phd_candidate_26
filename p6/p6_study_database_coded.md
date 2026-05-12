@@ -338,22 +338,29 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S185 | Li & Li (2023) **NEW** | 0.13 | 1243 | China digital | ~2016–21 | III | H | FOL | FSTS | MKT | PBFJ; digital economy listed |
 | S186 | Torres, Kunc & O'Shannassy (2022) **NEW** | 0.13 | 198 | Multi SME | ~2014–20 | MX | H | FOL | COMP | ACC | IBR; dynamic capability SME |
 | S187 | Cho & Lee (2023) **NEW** | 0.14 | 204 | Korea SME digital | ~2016–21 | I | H | FOL | FSTS | ACC | APJM; digital capability SME |
+| S188 | Do & Phan (2025) **AUTHOR** | −0.045 | 380 | India mfg | ~2013–18 | III | M | FOL | FSTS | ACC | IntechOpen; India WBES; FGLS; ROS; manager moderator; r confirmed Table 3 |
+| S189 | Do & Phan (2026) **AUTHOR** | +0.07 (est.) | 4290 | China mfg SME | ~2012–24 | III | H | FOL | FSTS | LAB | JFAR; WBES China 2012+2024; inverted-U TP=47.8%; β₁=+1.704 |
+| S190 | Phan, Ninh & Do (2021) **AUTHOR** | −0.04 (est.) | 263 | Turkey mfg | ~2013–16 | II | M | SPN | FSTS | ACC | IntechOpen; WBES Turkey; FGLS; manager experience moderator |
+| S191 | Phan et al. (2021) **AUTHOR** | +0.05 (est.) | 131 | Poland mfg-svc | ~2013–16 | I | M | SPN | FSTS | ACC | IntechOpen; WBES Poland; inverted-U; female manager + fin.obstacles mods |
+| S192 | Tu & Huynh (2021) **AUTHOR** | +0.03 (est.) | 90 | Ecuador mfg | 2003–17 | MX | L | SPN | FSTS | ACC | RWE 12(1); panel; inverse S-curve; LatAm context |
+| S193 | García-Sánchez & Rama (2024) **NEW** | +0.09 (est.) | 267 | Spain mfg | 2010–17 | II | H | SPN | FSTS | ACC | EBR 14(4); Bayesian; heterogeneous firm-level effects |
+| S194 | Godbole (2024) **NEW** | +0.08 (est.) | ~120 | India listed family | ~2015–22 | III | M | FOL | COMP | MIX | BSD 7(3); NIFTY500 family firms; GMM; financial+innovation |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 187 studies)
+## 5. Tóm tắt Phân phối Moderator (k = 194 studies)
 
 ### 5.1 Phân phối ICRV Regime
 
 | Regime | k | % | Quốc gia chính |
 |--------|---|---|----------------|
-| I — Advanced | 84 | 45% | USA (30), Japan (12), Korea (17), Taiwan (14), Singapore (4), UK/EU (8) |
-| II — Upper-middle | 16 | 9% | Italy (5), Spain (8), Poland (1), Malaysia (1), others (1) |
-| III — Emerging | 58 | 31% | China (24), India (15), Vietnam (9), Indonesia (3), Brazil (5), LatAm (4) |
+| I — Advanced | 85 | 44% | USA (30), Japan (12), Korea (17), Taiwan (14), Singapore (4), UK/EU (8), Poland (1) |
+| II — Upper-middle | 18 | 9% | Italy (5), Spain (9), Turkey (1), Malaysia (1), others (2) |
+| III — Emerging | 62 | 32% | China (26), India (17), Vietnam (9), Indonesia (3), Brazil (5), LatAm (4) |
 | SIDS | 0 | 0% | *No studies yet — target from P8 backward scan* |
 | Frontier | 2 | 1% | Pakistan (1), Iran (1) |
-| Mixed | 25 | 13% | Multi-country (25) |
-| **Tổng** | **187** | **100%** | |
+| Mixed | 27 | 14% | Multi-country (27), Ecuador (1) |
+| **Tổng** | **194** | **100%** | |
 
 > **Ghi chú SIDS**: Chưa tìm được studies đủ tiêu chuẩn với mẫu thuần SIDS Pacific. Phần
 > backward scan tiếp theo cần tìm kiếm riêng cho Fiji, Solomon Islands, Vanuatu.
@@ -362,19 +369,19 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 
 | cDAI | k | % | Diễn giải |
 |------|---|---|-----------|
-| High | 43 | 23% | Advanced economies post-2010 với strong digital infrastructure |
-| Medium | 58 | 31% | Advanced pre-2010 or upper-middle post-2010 |
-| Low | 86 | 46% | Emerging/Frontier contexts or pre-1998 data |
-| **Tổng** | **187** | **100%** | |
+| High | 45 | 23% | Advanced economies post-2010 với strong digital infrastructure |
+| Medium | 62 | 32% | Advanced pre-2010 or upper-middle post-2010 |
+| Low | 87 | 45% | Emerging/Frontier contexts or pre-1998 data |
+| **Tổng** | **194** | **100%** | |
 
 ### 5.3 Phân phối DPL Phase
 
 | Phase | k | % | Data period |
 |-------|---|---|-------------|
-| Precede | 68 | 36% | Data ends ≤ 2008 |
-| Span | 68 | 36% | Data 2005–2014 |
-| Follow | 51 | 27% | Data starts ≥ 2013 |
-| **Tổng** | **187** | **100%** | |
+| Precede | 68 | 35% | Data ends ≤ 2008 |
+| Span | 72 | 37% | Data 2005–2014 |
+| Follow | 54 | 28% | Data starts ≥ 2013 |
+| **Tổng** | **194** | **100%** | |
 
 ### 5.4 Phân phối DOI Measure Type
 
