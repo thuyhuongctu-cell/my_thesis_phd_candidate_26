@@ -150,13 +150,7 @@ It
 
 also matters empirically because the two constructs do not exhibit identical patterns across the
 Vietnamese waves.
-Third, the study introduces a lifecycle interpretation of digital internationalisation.
-
-The
-
-evidence suggests that digital capability is neither a universally stable premium nor a uniformly
-ineffective resource. Instead, it is an uneven and stage-dependent source of performance heterogeneity. This perspective helps explain why pooled average effects may coexist with substantial
-wave-specific differences.
+Third, the study introduces a cross-wave, stage-dependency interpretation of digital internationalisation. Because the WBES data are repeated cross-sections rather than a firm panel, within-firm trajectories cannot be directly observed; the cross-wave evidence nonetheless suggests that digital capability is neither a universally stable premium nor a uniformly ineffective resource. Instead, it appears as an uneven and snapshot-contingent source of performance heterogeneity across institutional phases. This perspective helps explain why pooled average effects may coexist with substantial wave-specific differences.
 
 A fourth contribution reframes the inverted-U itself: the Vietnamese evidence shows that the robustly identified turning point (39–46 % FSTS) emerges as a *step function across the export-participation barrier* rather than as a continuous coordination-cost saturation curve. The decomposition is sharp: re-fitted on the exporter-only sub-sample, the quadratic FSTS term collapses to a non-significant β = -0.200 (p = .660), and only ~1.0 % of pooled firms occupy the ±5 percentage-point neighbourhood of the turning point. This locates the productivity-relevant friction at the participation margin — where institutional, capability, and sunk-cost barriers bind hardest in a transitional economy — rather than within the intensity tail where conventional Uppsala-style coordination-cost arguments operate. The within-exporter flatness is consistent with the view that, once a Vietnamese firm has absorbed the fixed costs of crossing into international markets, additional intensity does not by itself trigger a coordination-cost saturation strong enough to reverse the productivity gain. This step-function reading qualifies the conventional inverted-U interpretation and points toward participation-margin frictions, rather than intensity-margin saturation, as the dominant binding mechanism in transitional-economy I–P dynamics. The divergence between this pattern and those documented in digitally advanced economies, where the coordination-cost mechanism is attenuated by comprehensive digital infrastructure, anchors the digitally transitional end of the institutional spectrum and motivates institution-level mechanisms as candidate moderators of I–P curve location.
 
@@ -816,7 +810,7 @@ Three complementary approaches address selection and endogeneity concerns. Heckm
 
 Two-stage least-squares estimation using leave-one-out sector × region × wave peer-adoption rates as instruments (Panel K; first-stage F-statistics 22–35, well above the Staiger–Stock threshold) returns an instrumented DAI estimate of 0.018 (p = .942) and an instrumented TCI estimate of 1.639 (p < .001). The null 2SLS DAI coefficient is a key robustness result: it confirms that website presence does not plausibly cause productivity improvements in 2023 Vietnam, reinforcing the Tier 1 proxy obsolescence interpretation of the negative DAI×FSTS interaction. The strongly positive instrumented TCI coefficient (β=1.639, p<.001 — substantially larger than the OLS estimate, consistent with attenuation-bias correction) further confirms that foreign-technology and standards capability is the robust productivity-relevant mechanism in this institutional setting. The instrument set (peer-adoption rates within sector × region × wave cells) satisfies relevance (strong first stage) and approximate exclusion (peer-adoption rates are unlikely to affect individual firm productivity through channels other than DAI adoption, conditional on sector-wave cells). Oster (2019) δ-stability bounds (assuming R_max = 1.3 × R_controlled) confirm that no focal coefficient changes sign or collapses to zero under plausible magnitudes of unobserved selection. Full 2SLS first-stage results and Oster bound calculations are reported in Online Appendix Table B.
 
-Measurement-sensitivity probes confirm that core inferences do not depend on composite construction. Enriching TCI with R&D and product-innovation items (Panel A) attenuates the TCI coefficient modestly but does not alter qualitative conclusions. The enriched DAI_rich composite (Tier 1–2, Panel B) yields directionally consistent moderation in 2023 with weaker significance. Micro-firm exclusion (Panel D) preserves the inverted-U and TCI associations. Paternoster et al. cross-wave z-tests (Panel F) confirm that the DAI lifecycle shift is statistically distinguishable while curvature parameters share a common pooled magnitude. Panel-level estimates are reported in Online Appendix Tables C–F.
+Measurement-sensitivity probes confirm that core inferences do not depend on composite construction. Enriching TCI with R&D and product-innovation items (Panel A) attenuates the TCI coefficient modestly but does not alter qualitative conclusions. The enriched DAI_rich composite (Tier 1–2, Panel B) yields directionally consistent moderation in 2023 with weaker significance. Micro-firm exclusion (Panel D) preserves the inverted-U and TCI associations. Paternoster et al. cross-wave z-tests (Panel F) confirm that the DAI cross-wave shift is statistically distinguishable while curvature parameters share a common pooled magnitude. Panel-level estimates are reported in Online Appendix Tables C–F.
 
 Multiple-testing caveat. 4.5 reports four narrative panels (G, H, I, F) and three robustness families (endogeneity/selection, measurement sensitivity) across multiple focal terms. We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. Our substantive inferences in §5 rely on the pattern across panels and the directional consistency of the focal estimates rather than on the significance of any single robustness panel.
 
@@ -1093,7 +1087,7 @@ The negative sign on the FSTS_c × DAI_z interaction in 2023 — where DAI produ
 This interpretation helps reconcile the coexistence of positive pooled effects and uneven wavespecific results. The pooled model captures the average tendency for stronger capability to be
 associated with better performance. The wave-specific models show that this tendency is not
 equally strong in every phase. The value of digital capability therefore depends on where firms
-stand in the broader lifecycle of internationalisation and transition.
+stand in the broader trajectory of internationalisation and transition, as captured in repeated cross-sectional snapshots rather than within-firm longitudinal records.
 
 ### 5.2 Why the distinction between TCI and baseline DAI matters
 The results strengthen the methodological case for separating foreign-technology / standards capability from a baseline website-presence indicator and for not conflating the two under a single "digital adoption" or "digital transformation" label. The PSM and IV evidence in 4.5 (Panels J and K)
@@ -1228,7 +1222,7 @@ Programmes
 that bundle Tier 1–2 digital adoption with deeper capability upgrading — quality certification,
 absorptive-capacity investment, organisational routines for cross-border coordination — will be
 more consistent with the pattern that emerges in 2023.
-Third, the lifecycle reading suggests that policy evaluation windows matter.
+Third, the cross-wave comparison — which, given the repeated cross-sectional design, reflects cohort-level snapshots rather than within-firm trajectories — suggests that policy evaluation windows matter.
 
 A digital-
 
@@ -1238,7 +1232,7 @@ transformation programme assessed only against a 2015-style transitional baselin
 
 derstate its long-run productivity contribution; a programme assessed against a 2009-style or
 2023-style baseline would overstate it relative to the in-between phase. Policy evaluation that
-takes the lifecycle structure seriously will couple short-window outcome measurement with sustained measurement of the capability and infrastructure environment in which firms operate. In the Vietnamese context, the World Bank (2025b) *Taking Stock* update identifies the cultivation of high-tech industrial talent as a binding constraint mediating digital and capability investment into sustainable productivity gains — reinforcing the argument that policy evaluation in transitional settings must monitor the capability environment, not adoption rates alone.
+takes the wave-specific structural differences seriously will couple short-window outcome measurement with sustained measurement of the capability and infrastructure environment in which firms operate. In the Vietnamese context, the World Bank (2025b) *Taking Stock* update identifies the cultivation of high-tech industrial talent as a binding constraint mediating digital and capability investment into sustainable productivity gains — reinforcing the argument that policy evaluation in transitional settings must monitor the capability environment, not adoption rates alone.
 
 ## 6. Limitations and future research
 The findings should be read against five limitations. First and most fundamentally, the WBES
@@ -1254,7 +1248,7 @@ construct further and allow a sharper test of whether deeper digital integration
 stable productivity channel.
 Third, the analysis is conducted on a single transitional economy. Vietnam is informative
 precisely because its institutional and digital environment shifted noticeably across the 2009–
-2023 observation window, but the lifecycle pattern documented here may not generalise without
+2023 observation window, but the cross-wave pattern documented here may not generalise without
 modification to economies whose digital infrastructure or export composition follows a different
 trajectory.
 Fourth, the cross-wave evidence is uneven in statistical strength.
@@ -1264,7 +1258,7 @@ The Paternoster et al.
 (1998) z-tests confirm that the drop in DAI_z between 2009 and 2015 (z = 3.353, p < .001)
 and its recovery between 2015 and 2023 (z = -2.051, p = .040) are statistically distinguishable,
 but most other cross-wave coefficient differences sit at marginal or non-significant magnitudes.
-The lifecycle interpretation therefore rests primarily on the directional consistency of the wavespecific estimates and on the concentration of the digital signal in 2023, rather than on uniformly
+The cross-wave comparison therefore rests primarily on the directional consistency of the wave-specific estimates and on the concentration of the digital signal in 2023, rather than on uniformly
 significant pairwise coefficient differences across all focal terms. Future work could exploit policy
 timing — for example, Vietnam's National Digital Transformation Programme launched in 2020
 — for sharper identification of the digital channel through a policy-evaluation design rather than
