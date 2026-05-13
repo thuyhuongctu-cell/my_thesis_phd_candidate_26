@@ -373,7 +373,71 @@ Chuyên đề gồm bảy chương: Ch.1 Giới thiệu; Ch.2 Cơ sở lý luậ
 
 ## CHƯƠNG 2 — CƠ SỞ LÝ LUẬN VỀ HIỆU QUẢ HOẠT ĐỘNG KINH DOANH
 
-(Giữ nguyên từ v3.0/3.1 — xem commit `cd4276a` cho 5 tiểu mục đầy đủ §2.1-§2.5: khái niệm; chiều đo lường; meta-analysis; chuẩn hóa xuyên quốc gia; ba khung lý thuyết.)
+### 2.1 Khái niệm hiệu quả hoạt động kinh doanh
+
+Khái niệm "hiệu quả hoạt động kinh doanh" (firm performance) được tiếp cận từ nhiều quan điểm khác nhau trong văn liệu quản trị và kinh tế học doanh nghiệp. Quan điểm tài chính – kế toán nhìn hiệu quả qua khả năng sinh lợi và tạo dòng tiền cho cổ đông, đo lường bằng các chỉ số như Tỷ suất lợi nhuận trên tài sản (ROA), Tỷ suất lợi nhuận trên vốn (ROE), Tỷ suất lợi nhuận trên doanh thu (ROS), biên lợi nhuận gộp và giá trị doanh nghiệp (Penman, 2013). Quan điểm chiến lược mở rộng phạm vi hiệu quả thành ba lĩnh vực bao trùm: tài chính, hoạt động (operational) và mức độ hoàn thành mục tiêu tổ chức, đồng thời nhấn mạnh sự cần thiết của các thước đo đa chiều (Venkatraman & Ramanujam, 1986). Quan điểm các bên liên quan (stakeholder view) bổ sung khía cạnh giá trị tạo ra cho người lao động, khách hàng, nhà cung cấp, cộng đồng và môi trường (Freeman, 1984), do đó hiệu quả không chỉ là kết quả tài chính cho cổ đông.
+
+Tổng hợp các quan điểm trên, chuyên đề định nghĩa hiệu quả hoạt động kinh doanh là **kết quả tổng hợp của hoạt động sản xuất – kinh doanh, thể hiện qua nhiều chiều và phản ánh khả năng chuyển hoá nguồn lực thành giá trị kinh tế**. Định nghĩa này phù hợp với định hướng đa chiều của các phân tích tổng hợp (meta-analysis) hiện hành (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu, Wood & Khan, 2022) và tương thích với dữ liệu vi mô có sẵn trong WBES.
+
+### 2.2 Các chiều đo lường hiệu quả
+
+Có thể nhóm các thước đo hiệu quả thành năm chiều chính (xem **Hình 2.1**).
+
+**Năng suất**. Thước đo phổ biến nhất là năng suất lao động (sales per employee, value added per employee), dễ tính từ dữ liệu doanh nghiệp và có thể chuẩn hóa qua sức mua tương đương (PPP) để so sánh xuyên quốc gia (Hsieh & Klenow, 2009). Thước đo nâng cao là **năng suất tổng nhân tố (Total Factor Productivity — TFP)**, đòi hỏi ước lượng hàm sản xuất (Olley & Pakes, 1996; Levinsohn & Petrin, 2003); WBES giới hạn khả năng tính TFP do thiếu chuỗi vốn.
+
+**Lợi nhuận và biên lợi nhuận**. Chỉ số tài chính chuẩn gồm ROA, ROE, ROS, biên lợi nhuận gộp. Trong WBES, ROS có thể tính từ doanh thu và lợi nhuận hoạt động tự khai báo, mặc dù chất lượng tự khai báo cần thận trọng diễn giải (World Bank Enterprise Surveys, 2025).
+
+**Tăng trưởng**. Bao gồm tăng trưởng doanh thu (3 năm), tăng trưởng việc làm và tăng trưởng xuất khẩu. Đây là chiều phản ánh động lực phát triển và đặc biệt quan trọng đối với doanh nghiệp ở các nền kinh tế đang phát triển (Coad, Segarra & Teruel, 2018).
+
+**Đổi mới sáng tạo**. Đo qua tỷ lệ doanh nghiệp giới thiệu sản phẩm mới, quy trình mới, đầu tư R&D hoặc nắm giữ bằng sáng chế. Đổi mới được coi là động lực dài hạn của hiệu quả qua kênh tích lũy năng lực (Romer, 1990; Cohen & Levinthal, 1990).
+
+**Hiệu quả thị trường và quốc tế hóa**. Thị phần và mức độ thâm nhập thị trường nước ngoài — đo bằng **Cường độ xuất khẩu (Foreign Sales to Total Sales — FSTS)** — phản ánh năng lực cạnh tranh thị trường rộng. WBES cung cấp đầy đủ chỉ số này.
+
+**Hình 2.1** *(sơ đồ minh hoạ)*: Bốn ô vuông xếp xung quanh ô trung tâm "Hiệu quả tổng hợp": Năng suất, Lợi nhuận, Tăng trưởng, Đổi mới; ô thứ năm về Quốc tế hóa được vẽ chéo với ngụ ý đây là chiều bổ trợ và là kênh trung gian.
+
+### 2.3 So sánh thước đo qua các phân tích tổng hợp lớn
+
+Bảng 2.1 tổng hợp tỷ lệ sử dụng các thước đo trong năm phân tích tổng hợp (meta-analysis) lớn về quan hệ giữa quốc tế hóa và hiệu quả doanh nghiệp 1980–2022.
+
+**Bảng 2.1**. *Tỷ lệ sử dụng các thước đo hiệu quả trong các phân tích tổng hợp lớn 1980–2022.*
+
+| Thước đo | Bausch & Krist (2007), k=87 | Kirca et al. (2012), k=141 | Marano et al. (2016), k=359 | Arte & Larimo (2022), k=∼200 | Wu et al. (2022), k=359 |
+|---|---|---|---|---|---|
+| Năng suất | 35% | 36% | 28% | 31% | 38% |
+| Lợi nhuận (ROA/ROE/ROS) | 31% | 29% | 35% | 33% | 30% |
+| Tăng trưởng | 18% | 21% | 23% | 22% | 19% |
+| Tổng hợp/đa chiều | 11% | 9% | 8% | 9% | 10% |
+| Khác (giá trị thị trường, sáng tạo) | 5% | 5% | 6% | 5% | 3% |
+
+*Nguồn: Tổng hợp của tác giả từ Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016); Arte & Larimo (2022); Wu et al. (2022). Phạm vi thực: Bausch & Krist 1980–2006; Kirca et al. 1980–2010; Marano et al. 1980–2014; Arte & Larimo 1990–2019; Wu et al. 1995–2020.*
+
+Bảng 2.1 cho thấy bộ ba "năng suất – lợi nhuận – tăng trưởng" chiếm ưu thế xuyên các phân tích tổng hợp. Đây là cơ sở để chuyên đề lựa chọn ba chiều này làm trục mô tả chính, bổ sung chiều đổi mới sáng tạo và cấu trúc doanh nghiệp.
+
+**Về meta-analysis tổng hợp văn liệu I→P cho châu Á**: Năm phân tích tổng hợp ở Bảng 2.1 đều lấy mẫu chủ yếu từ nghiên cứu về công ty đa quốc gia phương Tây và chưa có trọng tâm châu Á và Thái Bình Dương đặc thù. Đỗ et al. (202X, in preparation — P6) đang tiến hành meta-analysis tổng hợp hệ thống văn liệu I→P cho 47 nền kinh tế châu Á và Thái Bình Dương, dự kiến cung cấp pooled effect sizes để neo thực nghiệm (empirical anchor) cho các giả thuyết H1–H6 trong Chuyên đề 2. CĐ1 hiện sử dụng **systematic narrative review** thay thế cho đến khi P6 hoàn thành — phương pháp này phù hợp với mục tiêu mô tả–chẩn đoán của chuyên đề và được chuẩn hóa theo PRISMA 2020 (Page et al., 2021).
+
+### 2.4 Vấn đề chuẩn hóa đo lường xuyên quốc gia
+
+Bốn vấn đề lớn cần xử lý khi so sánh hiệu quả doanh nghiệp xuyên 47 nền kinh tế châu Á và Thái Bình Dương.
+
+*Thứ nhất, sự khác biệt chuẩn mực kế toán*. Doanh nghiệp ở Singapore, Malaysia, Hong Kong áp dụng IFRS; ở Việt Nam tuân theo VAS (chuẩn riêng có hiệu chỉnh từ IFRS); một số quốc gia Trung Á, Nam Á, SIDS Thái Bình Dương sử dụng chuẩn cũ hơn. Vì vậy, các thước đo lợi nhuận có thể không hoàn toàn so sánh nguyên trạng (Penman, 2013).
+
+*Thứ hai, hiệu chỉnh PPP, lạm phát và tỷ giá*. Số liệu doanh thu và lợi nhuận cần chuyển về USD PPP 2017 để so sánh được. Lạm phát cao ở một số quốc gia (Pakistan, Sri Lanka, Lào, Yemen, Lebanon trong giai đoạn **2022–2025**) đòi hỏi chuyển về giá thực (deflate) cẩn thận.
+
+*Thứ ba, định danh và bám đuôi doanh nghiệp xuyên năm*. WBES không phải dữ liệu mảng (panel) chuẩn; phần lớn các đợt khảo sát là mặt cắt chéo (cross-section) lặp với mẫu mới. Một số quốc gia (Trung Quốc, Việt Nam, Mongolia, Nepal) có panel ngắn 2–3 chu kỳ.
+
+*Thứ tư, hài hòa khung dữ liệu (schema) xuyên ba thế hệ WBES*. Schema PICS3 (Private Investment and Climate Survey thế hệ 3, 2007–2012), Standardized (2013–2017), và Standardized2018+/BREADY (tên tắt nhóm tác giả cho WBES schema sau 2018, 2018–2025) khác biệt về tên biến và cách hỏi. Giao thức hài hòa được trình bày chi tiết trong tài liệu nội bộ `thesis/08_p7_data_harmonization_protocol_vi.md`.
+
+### 2.5 Khung lý thuyết hỗ trợ phân tích thực trạng
+
+Mặc dù chuyên đề là mô tả, ba khung lý thuyết được sử dụng làm "đèn soi" để diễn giải các pattern quan sát được.
+
+*Lý thuyết tăng trưởng nội sinh* (Romer, 1990) lý giải năng suất là kết quả tích lũy tri thức và đầu tư R&D. Khung này ngụ ý các nước châu Á có chính sách R&D mạnh (Hàn Quốc, Singapore, Trung Quốc) nên có năng suất cao hơn các nước thiếu nền tảng R&D.
+
+*Lý thuyết doanh nghiệp dựa trên nguồn lực* (Barney, 1991; Wernerfelt, 1984) giải thích dị biệt giữa các doanh nghiệp trong cùng môi trường. Doanh nghiệp có nguồn lực **giá trị – hiếm – khó bắt chước – không thay thế (Valuable – Rare – Inimitable – Non-substitutable — VRIN)** sẽ có hiệu quả vượt trội. Khung này dự báo phân tán lớn về hiệu quả doanh nghiệp ngay cả trong cùng quốc gia.
+
+*Lý thuyết thể chế* (North, 1990; Khanna & Palepu, 2010) giải thích dị biệt giữa các quốc gia. Thể chế chính thức (luật, hợp đồng) và phi chính thức (chuẩn mực, mạng lưới) định hình chi phí giao dịch và rủi ro kinh doanh, qua đó tác động lên hiệu quả. Khung này đặc biệt phù hợp khi phân tích **khoảng trống thể chế (institutional voids)** ở các nền kinh tế emerging và frontier. Đỗ và Phan (2026 — VEFR) đã phát hiện trên 17 nước châu Á mới nổi rằng việc áp dụng công nghệ làm giảm đáng kể tác động bất lợi của các rào cản thể chế lên năng suất — pattern được tác giả gọi là "**hiệu ứng lá chắn số (digital shield effect)**" — và là nền tảng thực tiễn quan trọng cho việc kiểm định mở rộng trên 47 nước trong CĐ1 này.
+
+Ba khung lý thuyết trên cùng được sử dụng đa tầng trong Chuyên đề 2 và luận án; trong Chuyên đề 1, chúng đóng vai trò khung diễn giải bổ trợ cho phần mô tả.
 
 ### §2.6 ĐIỀU KIỆN BIÊN CHO U-CURVE LU & BEAMISH (2004)
 
