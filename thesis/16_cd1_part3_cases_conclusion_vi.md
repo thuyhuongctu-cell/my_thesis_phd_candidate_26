@@ -10,7 +10,7 @@
 
 ### 5.1 Singapore (Advanced đổi mới sáng tạo dẫn dắt — innovation-driven, n=623, đợt 2023)
 
-FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất (sd log) 1,03. **Biên trên (upper boundary)** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo bài báo P3 (Singapore — MIR): mô hình M8 cho R² hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119; điểm uốn (turning point) ở mức ~85%.
+FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất (sd log) 1,03. **Biên trên (upper boundary)** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo bài báo P4 (Singapore — MIR): mô hình M8 cho R² hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119; điểm uốn (turning point) ở mức ~85%.
 
 ### 5.2 Saudi Arabia, Qatar và Kuwait (Advanced tài nguyên dẫn dắt — resource-driven, n=1.632, 3 đợt năm 2025)
 
@@ -28,6 +28,8 @@ Năm phát hiện: (1) **nhà nước tô (rentier state)** — Beblawi (1987); 
 ### 5.3 Việt Nam (n=3.077, 3 đợt khảo sát) — cập nhật v3.4 với ADB Vietnam Outlook 2026
 
 FSTS 23,2% → 17,9% → 16,1% (suy giảm); doanh nghiệp xuất khẩu 37,1% → 23,8%; ISO 17–23%; R&D 6,1% (đợt 2023). Pattern **kinh tế hai tầng (two-tier economy)**.
+
+> ¹ *Ghi chú cỡ mẫu*: n=3.077 là tổng doanh nghiệp Việt Nam trong pool WBES (2009+2015+2023) trước khi lọc biến hồi quy. n=2.958 là mẫu phân tích hồi quy hoàn chỉnh (complete case) sau khi loại các quan sát thiếu giá trị trên biến focal set — xem §4.4.5.1 Bảng 4.4.5.1.
 
 **Cập nhật bối cảnh 2026 — ADB Vietnam Economic Outlook 2026**: GDP lịch sử 2025 đạt 8,0%; dự phóng **7,2% (2026) → 7,0% (2027)**. Bốn động lực: (a) FDI commitment $2,4 tỷ; (b) Năng suất lao động tăng 5,1%; (c) Hai-tầng kinh tế + ADB Policy-Based Loans $2,4B; (d) GVC re-positioning → mid-stream design/R&D.
 

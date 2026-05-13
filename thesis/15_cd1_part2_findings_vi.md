@@ -10,7 +10,7 @@
 
 ### 4.1 Nguồn dữ liệu World Bank Enterprise Surveys
 
-**Phạm vi tổng hợp dữ liệu**. Nhóm dữ liệu (pool) gồm **101.185 doanh nghiệp**, 47 nền kinh tế, **108 cặp quốc gia × năm**, giai đoạn 2009–2025. Tổng hợp này kế thừa và mở rộng từ 17 nước châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026 — VEFR), gấp ~2,5 lần. Phân bố theo phân nhóm con (sub-regime) ICRV: Emerging 47.803 (47%), Frontier 28.678 (28%), Upper-middle 16.693 (17%), Advanced 6.640 (7%), **SIDS 1.371 (1,4% — gồm Kiribati 2025)**. Có **14 đợt khảo sát năm 2025** với 16.979 doanh nghiệp.
+**Phạm vi tổng hợp dữ liệu**. Nhóm dữ liệu (pool) gồm **101.185 doanh nghiệp**, 47 nền kinh tế, **108 cặp quốc gia × năm**, giai đoạn 2009–2025. Tổng hợp này kế thừa và mở rộng từ 17 nước châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026 — VEFR), gấp ~2,5 lần. Phân bố theo phân nhóm con (sub-regime) ICRV: Emerging 47.803 (47%), Frontier 28.678 (28%), Upper-middle 16.693 (17%), Advanced 6.640 (7%), **SIDS 1.371 (1,4% — gồm Kiribati 2025)**. Có **14 đợt khảo sát năm 2025** với 17.107 doanh nghiệp.
 
 ![Hình 4.1.1 — Phân bố pool 5 phân nhóm con thể chế (n=101.185 doanh nghiệp)](figures/fig_4_1_pool_composition.png)
 
@@ -18,7 +18,7 @@
 
 ![Hình 4.0 — Phân bố mẫu 101.185 doanh nghiệp xuyên 17 năm (2009–2025) theo 3 thế hệ schema WBES](figures/fig_4_0_pool_by_year.png)
 
-*Hình 4.0. Phân bố mẫu doanh nghiệp xuyên 17 năm theo 3 thế hệ schema WBES: PICS3 (2009-2012, n=14.171), Standardized (2013-2017, n=24.564), BREADY (2018-2025, n=62.450 gồm Kiribati 2025). Đợt 2025 đột biến với 16.979 doanh nghiệp = 16,8% pool — đợt khảo sát đơn năm lớn nhất. Tái lập: `generate_figures.py` function `fig_4_0_pool_by_year()`.*
+*Hình 4.0. Phân bố mẫu doanh nghiệp xuyên 17 năm theo 3 thế hệ schema WBES: PICS3 (2009-2012, n=14.171), Standardized (2013-2017, n=24.564), BREADY (2018-2025, n=62.450 gồm Kiribati 2025). Đợt 2025 đột biến với 17.107 doanh nghiệp = 16,9% pool — đợt khảo sát đơn năm lớn nhất. Tái lập: `generate_figures.py` function `fig_4_0_pool_by_year()`.*
 
 **Trường hợp biên (boundary cases)**: **7 SIDS Thái Bình Dương đầy đủ (FJI, PNG, SLB, TON, VUT, WSM, KIR)** + Tây Á 9 nước. Phân bố thời gian: 2009–2012 (n=14.171), 2013–2017 (n=24.564), 2018–2025 (n=62.450, chiếm 62%). Ba thế hệ khung dữ liệu (schema): PICS3/MENA-WBES, Standardized, Standardized2018+/BREADY.
 
@@ -27,6 +27,8 @@
 ### 4.2 Thực trạng năng suất lao động — phân tán trong từng quốc gia
 
 **Bảng 4.1**. *Phân tán (dispersion) năng suất lao động theo phân nhóm con thể chế (n=108 cặp QG×năm — v3.1).*
+
+> *Lưu ý cột n_firms*: n_firms = số doanh nghiệp có đầy đủ dữ liệu log năng suất (productivity-complete subsample). Tổng pool = 101.185 (không tính mất dữ liệu log năng suất). Chênh lệch Frontier (18.877 vs §4.1 text 28.678 = −9.801, −34%) phản ánh mức độ missing cao hơn ở nhóm này do coverage WBES giai đoạn 2009–2012. Cột "Cặp QG×năm" trong bảng cộng = 103; 5 cặp còn lại là các đợt khảo sát không đủ dữ liệu để tính sd log.
 
 | Phân nhóm con | Cặp QG×năm | n_firms | sd log | P90/P10 | P75/P25 |
 |---|---|---|---|---|---|
@@ -106,7 +108,7 @@ Spec 1 (full coverage 2009–2025) dùng biến nhị phân duy nhất (`website
 
 #### 4.4.5.1 Đối chiếu DAI xuyên quốc gia — Singapore (Tier 1+2) vs Việt Nam (Tier 1 only)
 
-> **Bằng chứng nền tảng**: §2.7 file 14 v3.13 (Khung 4-Tier Verhoef + CDCM); P3 Singapore manuscript (Mar et al., 2026 — *MIR*); P4 Việt Nam (Đỗ & Phan, 2026 — *APJM*).
+> **Bằng chứng nền tảng**: §2.7 file 14 v3.13 (Khung 4-Tier Verhoef + CDCM); P4 Singapore manuscript (Mar et al., 2026 — *MIR*); P3 Việt Nam (Đỗ & Phan, 2026 — *JABS*).
 
 NotebookLM critique 08/05/2026 chỉ ra **mâu thuẫn tử huyệt** giữa hai papers: Singapore (Tier 1+2 = website + e-payment) cho hệ số tương tác DAI×FSTS² **dương mạnh** (β=3,119, p=,005), trong khi Việt Nam (Tier 1 = website only) cho tương tác DAI×FSTS **âm** ở wave 2023 (β=-0,912, p=,043). Đây không phải mâu thuẫn ngẫu nhiên mà là **bằng chứng cho khung CDCM** — giá trị của công cụ số phụ thuộc độ tương thích giữa cấp độ số hóa và mật độ giao dịch quốc tế:
 
@@ -121,9 +123,9 @@ NotebookLM critique 08/05/2026 chỉ ra **mâu thuẫn tử huyệt** giữa hai
 | **2SLS robustness (DAI)** | (chưa kiểm định IV) | β co về 0,02, p=,94 — **không xác lập nhân quả** |
 | **Cơ chế giải thích** | Tier 1+2 hấp thụ super-linear coordination cost xuất khẩu cao (Brynjolfsson & McAfee, 2014) | Tier 1 không quản lý nổi giao dịch lớn → khuếch đại quá tải thông tin |
 
-**Hàm ý cho lập luận §4.4.5 hiện hành**: Hệ số âm DAI ở Advanced trong Spec 1 (-0,129) không chỉ là *artifact của Tier-1 saturation* (đã lập luận v3.5) mà còn phản ánh **gãy đổ đo lường** (measurement break) khi Tier 1 không đủ sức quản lý giao dịch ở xuất khẩu cao. Khi mở rộng sang Tier 1+2 (Spec 2 với e-payment), hệ số dương mạnh emerges — replication pattern Singapore P3.
+**Hàm ý cho lập luận §4.4.5 hiện hành**: Hệ số âm DAI ở Advanced trong Spec 1 (-0,129) không chỉ là *artifact của Tier-1 saturation* (đã lập luận v3.5) mà còn phản ánh **gãy đổ đo lường** (measurement break) khi Tier 1 không đủ sức quản lý giao dịch ở xuất khẩu cao. Khi mở rộng sang Tier 1+2 (Spec 2 với e-payment), hệ số dương mạnh emerges — replication pattern Singapore P4.
 
-**Đề xuất phương pháp luận cho CĐ2** *(robustness check #10)*: Cross-validation construct boundary — chạy Spec 2 chỉ ở 41 nước có đủ Tier 1+2 data (BREADY+ wave); confirm rằng pattern Singapore-style (DAI × FSTS² dương) emerges khi có composite digital adoption metric. Nếu confirm → đóng góp lý thuyết mạnh cho CDCM (Đỗ & Phan, 2026 mở rộng từ APJM sang luận án). Nếu không confirm → cần Tier 3 (ERP/CRM) hoặc Tier 4 (AI) để nắm cơ chế thực sự — hàm ý cho data collection tương lai (limitations §7.3.4 file 16).
+**Đề xuất phương pháp luận cho CĐ2** *(robustness check #10)*: Cross-validation construct boundary — chạy Spec 2 chỉ ở 41 nước có đủ Tier 1+2 data (BREADY+ wave); confirm rằng pattern Singapore-style (DAI × FSTS² dương) emerges khi có composite digital adoption metric. Nếu confirm → đóng góp lý thuyết mạnh cho CDCM (Đỗ & Phan, 2026 mở rộng từ JABS sang luận án). Nếu không confirm → cần Tier 3 (ERP/CRM) hoặc Tier 4 (AI) để nắm cơ chế thực sự — hàm ý cho data collection tương lai (limitations §7.3.4 file 16).
 
 ### 4.5 Thực trạng cấu trúc doanh nghiệp
 
@@ -238,7 +240,7 @@ Chương 4 cung cấp bức tranh thực trạng đa chiều dựa trên **101.1
 
 **(vii) Pattern phi tuyến FDI ≥10%** — dạng chữ U với cực tiểu Emerging (4,7%): Advanced 11,1% → Upper-middle 8,4% → Emerging 4,7% → Frontier 5,9% → SIDS 23,5%. Hai mô hình FDI: (a) Advanced — MNE hub + Vùng Vịnh hạn chế; (b) SIDS — du lịch + viễn thông.
 
-**(viii) Đợt khảo sát 2025 — mẫu đơn năm lớn nhất** *(NEW D2)*. **14 nước × 16.979 doanh nghiệp**: (a) IND FSTS sụt 5 đpt (schema + Atmanirbhar Bharat); (b) Fiji website 74,8% > Singapore 66,1%; **Kiribati đối lập với website 18,7%, FSTS 1,03%**; (c) Vùng Vịnh+Brunei resource-driven Advanced confirmed; (d) R&D schema-induced overestimation cảnh báo.
+**(viii) Đợt khảo sát 2025 — mẫu đơn năm lớn nhất** *(NEW D2)*. **14 nước × 17.107 doanh nghiệp**: (a) IND FSTS sụt 5 đpt (schema + Atmanirbhar Bharat); (b) Fiji website 74,8% > Singapore 66,1%; **Kiribati đối lập với website 18,7%, FSTS 1,03%**; (c) Vùng Vịnh+Brunei resource-driven Advanced confirmed; (d) R&D schema-induced overestimation cảnh báo.
 
 **(ix) Khung phân tích cấp ngành (industry-level)** *(NEW D3, §4.8)*. 9 ngành ISIC Rev. 4: Manufacturing-only subsample, ICT exclusion test, Construction subsample test Vùng Vịnh, Tourism/Hotels separation cho SIDS. 5 giả thuyết I1-I5.
 
@@ -316,11 +318,13 @@ WBES đo lường tham nhũng qua **3 chỉ số riêng biệt** — phân biệ
 | Emerging — tài nguyên | MNG | 1.905 | **5,0** | 9,7 | 4,7 | 50,1 | 20,8 | 15,4 | 1,16 |
 | **Tổng Emerging** | 7 nước | **47.803** | 8,6 | 15,5 | 4,7 | 49,2 | 16,4 | 24,9 | 1,24 |
 
+*Ghi chú cỡ mẫu nhóm FDI dẫn dắt SEA (n=13.779)*: VNM ≈ 3.077 (3 đợt 2009+2015+2023), IDN ≈ 7.493 (3 đợt 2009+2015+2023), PHL ≈ 3.209 (2 đợt 2015+2024) — tổng kiểm tra = 13.779. VNM 3.077 là tổng pool; mẫu hồi quy hoàn chỉnh VNM n=2.958 (xem §5.3 footnote ¹).
+
 Năm phát hiện: (1) FSTS phân tầng 5,0%-7,2%-13,2% bị che giấu; (2) FDI chênh lệch 6× ASEAN-3 vs Nam Á+Tây Á; (3) TCI ngược dấu; (4) Mongolia boundary case; (5) sd log 1,53 vs 1,16 — two-tier.
 
 ### 4.10 Phân tích sâu đợt khảo sát 2025
 
-**Bảng 4.10**. *14 quốc gia trong đợt 2025 (n=16.979 — v3.1 với Kiribati 2025).*
+**Bảng 4.10**. *14 quốc gia trong đợt 2025 (n=17.107 — v3.1 với Kiribati 2025).*
 
 | Quốc gia | ISO3 | Phân nhóm con | n_firms | FSTS (%) | FDI (%) | R&D (%) | Website (%) | sd log |
 |---|---|---|---|---|---|---|---|---|
@@ -338,7 +342,7 @@ Năm phát hiện: (1) FSTS phân tầng 5,0%-7,2%-13,2% bị che giấu; (2) FD
 | Brunei | BRN | Advanced | 150 | 5,1 | 26,2 | 18,9 | **80,7** | 1,10 |
 | Kuwait | KWT | Advanced | 150 | **0,4** | 0,0 | 20,7 | 69,3 | 1,15 |
 | **Kiribati²** | **KIR** | **SIDS** | **150** | **1,0** | **0,7** | **14,0** | **18,7** | **1,48** |
-| **Tổng 2025** | — | — | **16.979** | **3,8** | **2,9** | **5,4** | **44,2** | **0,90** |
+| **Tổng 2025** | — | — | **17.107** | **3,8** | **2,9** | **5,4** | **44,2** | **0,90** |
 
 *Ghi chú: ¹Nepal 2025 — schema BREADY chưa thống nhất. ²Kiribati 2025: Lower Middle Income; viện trợ AUS/NZ ~30% GDP.*
 
