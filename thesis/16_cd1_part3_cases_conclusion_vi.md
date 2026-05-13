@@ -159,7 +159,7 @@ Khoảng trống cho CĐ1: chưa có nghiên cứu firm-level WBES kết hợp v
 
 **(vii)** Mongolia chuyển đổi sang critical minerals economy 2026.
 
-**(viii)** Bằng chứng đảo dấu — phi tuyến + điều tiết đa tầng. Cơ sở H1-H6; **CĐ2 mở rộng 9 phân nhóm con**.
+**(viii)** Bằng chứng đảo dấu — phi tuyến + điều tiết đa tầng. Cơ sở H1-H6; **CĐ2 mở rộng 8 phân nhóm con**.
 
 ### 7.3 Hàm ý cho luận án và Chuyên đề 2
 
@@ -205,11 +205,11 @@ Cảnh báo *digital theatre* (Verhoef et al., 2021) cần được củng cố 
 
 **(3) Phân loại 8 phân nhóm con cho CĐ2** + biến `Critical_Minerals_Exposure` (v3.1c) + biến `GVC_participation_rate` (NEW v3.2) + biến `AIPI_country_score` (NEW v3.2 conditional on data availability).
 
-**(4) NEW v3.3 — Mô hình neo (anchor model) — robustness check #6 cho schema BREADY 2025** (kế thừa từ §4.11.2 file 15): Quy trình 3 bước — (i) chạy hồi quy với data ≤2024 lấy "anchor coefficients"; (ii) khóa hệ số; (iii) re-run với data đầy đủ 2009-2025 và so sánh stability (Wald test, Chow test, coefficient ratio). Nếu `beta_2025 / beta_anchor > 1.5x` hoặc `< 0.67x` → schema effect significant. Đây là kiểm chứng định lượng cho "cấu trúc bảng hỏi mới có làm đảo chiều ý nghĩa thống kê cốt lõi hay không" (NotebookLM, 2026).
+**(4) NEW v3.3 — Mô hình neo (anchor model) — robustness check #6 cho schema BREADY 2025** (kế thừa từ §4.11.2 file 15): Quy trình 3 bước — (i) chạy hồi quy với data ≤2024 lấy "anchor coefficients"; (ii) khóa hệ số; (iii) re-run với data đầy đủ 2009-2025 và so sánh stability (Wald test, Chow test, coefficient ratio). Nếu `beta_2025 / beta_anchor > 1.5x` hoặc `< 0.67x` → schema effect significant. Đây là kiểm chứng định lượng cho "cấu trúc bảng hỏi mới có làm đảo chiều ý nghĩa thống kê cốt lõi hay không" (tác giả, ghi chú nội bộ, 2026).
 
 **(5) NEW v3.3 — Tách 2025 thành "Panel hậu đại dịch độc lập" — robustness check #7** (kế thừa từ §4.11.3 file 15): Thay vì cố ép 2025 vào đường xu hướng lịch sử, dành riêng sub-section CĐ2 để xử lý 2025 như **out-of-sample validation panel cho kỷ nguyên hậu COVID + AI**. Câu hỏi nghiên cứu: *"Quy luật thể chế và U-curve giai đoạn 2009-2024 có còn hiệu lực trong 'trạng thái bình thường mới' (new normal) hậu COVID + AI bùng nổ?"* Tiến trình 3 bước (chạy mô hình chính trên 2009-2024 → test trên 2025 only → báo cáo coefficient stability vs paradigm shift).
 
-**Triple-defense system tổng hợp**: 3 đề xuất 3a (biến giả `Post_BREADY_2024`) + 3b (anchor model #6) + 3c (panel hậu đại dịch #7) tạo thành **hệ thống 3 lớp** chống đứt gãy schema 2025 — bảo vệ tính liên tục của phân tích chuỗi thời gian và tránh "kết luận sai lệch hoàn toàn" (NotebookLM, 2026).
+**Triple-defense system tổng hợp**: 3 đề xuất 3a (biến giả `Post_BREADY_2024`) + 3b (anchor model #6) + 3c (panel hậu đại dịch #7) tạo thành **hệ thống 3 lớp** chống đứt gãy schema 2025 — bảo vệ tính liên tục của phân tích chuỗi thời gian và tránh "kết luận sai lệch hoàn toàn" (tác giả, ghi chú nội bộ, 2026).
 
 #### 7.3.3 Hàm ý chính sách cho doanh nghiệp Việt Nam và khu vực (9 hàm ý)
 
@@ -229,19 +229,105 @@ Bốn nguyên tắc: (a) Đa dạng hóa qua RCEP + CPTPP + ACFTA + GCC + India 
 
 #### 7.3.4 Hàm ý cho Chuyên đề 2 và luận án
 
-(Giữ nguyên từ v3.1a — xem commit `b41dbb8` cho 6 đóng góp kế thừa, H1-H6, 2 đặc tả robustness, OLS+IV+Lind-Mehlum, 5-chương luận án.)
+**Sáu đóng góp kế thừa từ CĐ1 sang CĐ2**:
 
-**Mở rộng v3.3**: CĐ2 sẽ cần triển khai **8 robustness checks** (nâng từ 5 lên 8): (#1) Manufacturing-only subsample; (#2) ICT exclusion test (đã promote lên §4.4.5 file 15); (#3) Tourism-separated SIDS; (#4) Construction-tested Gulf; (#5) Mining-excluded resource; (#6) **anchor model BREADY** *(NEW)*; (#7) **panel hậu đại dịch độc lập** *(NEW)*; (#8) interaction term Kafouros 2023 replication. CĐ2 §X.Y dedicated section cho robustness #6-#8, tham chiếu §4.11 file 15 cho chi tiết quy trình.
+**(1) Pool dữ liệu vi mô lớn nhất về doanh nghiệp châu Á hiện có**: 101.185 doanh nghiệp × 47 nền kinh tế × 108 cặp quốc gia × năm × 14 đợt khảo sát (2009–2025) — pipeline WBES tái lập được với STATA code đã xác minh, sẵn sàng mở rộng cho CĐ2.
+
+**(2) Khung phân loại ICRV 6 phân nhóm con → 8 phân nhóm con**: CĐ1 đề xuất 6 sub-regime (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, SIDS Pacific). CĐ2 mở rộng thành **8 sub-regime** bằng cách tách Emerging thành 3 phân nhóm con: (a) FDI-led SEA (Việt Nam, Indonesia, Philippines — FSTS cao, TCI thấp); (b) dân số lớn nội địa (Ấn Độ, Sri Lanka, Jordan — FSTS thấp, spillover cao); (c) khai khoáng (Mongolia — 4 đợt, FSTS 5,0%). Tổng: 2 Advanced + 1 Upper-middle + 3 Emerging + 1 Frontier + 1 SIDS = **8 sub-regime**.
+
+**(3) Bằng chứng tồn tại (existence evidence) phi tuyến FSTS→năng suất**: Turning point thực nghiệm từ P3 và P4: ~49,4% (Trung Quốc 2012), ~47,2% (Trung Quốc 2024), ~85% (Singapore — P4, Mar et al., 2026). Pattern inverted-U xác nhận trong CĐ1, định hướng trực tiếp cho **H1**.
+
+**(4) Bốn lần đảo dấu xuyên phân nhóm con**: Hệ số tương quan FSTS–năng suất đảo từ dương (Emerging/Frontier) → âm (Advanced innovation-driven) → không có ý nghĩa (SIDS) — bằng chứng cho **H2, H3, H4**. Pattern đảo dấu DAI tương tự (−0,129 ở Advanced, +0,072 ở Frontier) xác nhận "digital theatre" warning (H3 — Verhoef et al., 2021).
+
+**(5) Forced internationalization penalty — trường hợp biên SIDS Pacific**: FSTS không tương quan hoặc tương quan âm với năng suất ở 7 SIDS (n=1.371) — Kiribati 2025 là extreme case: FSTS 1,03%, FDI 0,7%, website 18,7%. Bằng chứng trực tiếp cho **H6** (Briguglio, 1995; Bertram, 2006).
+
+**(6) Bằng chứng kênh FDI — cụm tài nguyên Gulf**: FDI ≥10% tương quan dương mạnh (+0,222) với năng suất ở Advanced resource-driven (Saudi Arabia, Qatar, Kuwait) trong khi FSTS tương quan yếu — cơ sở cho **H5** (FDI là kênh năng suất chủ đạo thay thế FSTS ở nền kinh tế tài nguyên dẫn dắt).
+
+---
+
+**Hệ giả thuyết H1–H6 của Chuyên đề 2 — định hướng có dấu (directional specification)**:
+
+> **H1** *(phi tuyến FSTS→log năng suất)*: Mối quan hệ FSTS→log năng suất có dạng **inverted-U (phi tuyến bậc hai)**: β₁ > 0 (hệ số FSTS), β₂ < 0 (hệ số FSTS²). Turning point dự kiến ≈ 47–52% trong nhóm Emerging–Frontier và dịch phải ≈ 80–85% trong nhóm Advanced innovation-driven. Kiểm định bằng Lind–Mehlum (2010) extreme bounds test.
+
+> **H2** *(TCI điều tiết — absorptive capacity mechanism)*: Tương tác TCI × FSTS có hệ số **β(FSTS×TCI) > 0** — năng lực công nghệ tích lũy khuếch đại lợi ích quốc tế hóa trong vùng FSTS thấp–trung, thu hẹp turning point khi TCI cao (Cohen & Levinthal, 1990; Lall, 1992).
+
+> **H3** *(DAI có điều kiện — digital theatre boundary)*: β(DAI) **> 0** trong Emerging và Frontier; β(DAI) **≤ 0** trong Advanced innovation-driven (diminishing returns + substitution effect). Kiểm định bằng interaction DAI × ICRV_advanced dummy (Verhoef et al., 2021).
+
+> **H4** *(phân nhóm con thể chế điều tiết cường độ)*: Hệ số FSTS **khác biệt có ý nghĩa thống kê xuyên 8 phân nhóm con** — F-test p < 0,05. Thể chế mạnh tương ứng với turning point cao hơn và biên độ positive effect rộng hơn (Xu, 2024; Kafouros et al., 2023).
+
+> **H5** *(cụm tài nguyên — FDI thay thế FSTS)*: β(FDI×Resource) **> 0** nhưng β(FSTS×Resource) **< β(FSTS×Innovation)** tại Advanced resource-driven — FDI là kênh năng suất chủ đạo; FSTS tác động yếu hoặc không đáng kể (Auty, 1993; Sachs & Warner, 2001).
+
+> **H6** *(forced internationalization penalty — SIDS Pacific)*: β(FSTS) **không có ý nghĩa thống kê hoặc âm** khi tương tác với dummy SIDS — U-curve Lu & Beamish (2004) không vận hành khi thiếu 3 điều kiện cấu trúc (§2.6): quy mô thị trường tối thiểu, hạ tầng thể chế, năng lực hấp thụ (Briguglio, 1995; Bertram, 2006).
+
+---
+
+**Hai đặc tả hồi quy cốt lõi và 8 robustness checks**:
+
+*Đặc tả cơ sở (OLS + robust SE)*:
+```
+log_productivity_ij = α + β₁·FSTS + β₂·FSTS² + β₃·TCI + β₄·DAI
+                     + β₅·(FSTS×TCI) + β₆·(DAI×ICRV_advanced)
+                     + X·γ + μ_j + λ_t + ε_ij
+```
+*Đặc tả IV-2SLS (kiểm soát nội sinh)*: Biến công cụ `internet_penetration_lagged_j` (độ trễ 2 năm tỷ lệ phổ cập internet quốc gia). Kiểm tra Sargan–Hansen weak-instrument test.
+
+**8 robustness checks** (nâng từ 5 lên 8): (#1) Manufacturing-only subsample; (#2) ICT exclusion test (đã promote §4.4.5 file 15); (#3) Tourism-separated SIDS; (#4) Construction-tested Gulf; (#5) Mining-excluded resource economies; (#6) **Anchor model BREADY** — chạy trên ≤2024 → neo hệ số → test stability với 2025 data (§4.11.2 file 15); (#7) **Panel hậu đại dịch độc lập 2025** — out-of-sample validation (§4.11.3 file 15); (#8) Interaction term Kafouros (2023) replication — industry × institutional dynamism. CĐ2 dành §X.Y riêng cho robustness #6–#8.
+
+---
+
+**Cấu trúc 5-chương luận án và vị trí CĐ1**:
+
+| Chương | Nội dung | Nguồn |
+|--------|----------|-------|
+| Ch.1 | Tổng quan nghiên cứu, khoảng trống, câu hỏi nghiên cứu | Luận án |
+| Ch.2 | Cơ sở lý luận: CDCM 4-tier, ICRV, U-curve điều kiện biên | Luận án (kế thừa CĐ1 Ch.2–3) |
+| Ch.3 | **CĐ1** — Thực trạng hiệu quả doanh nghiệp châu Á (mô tả–chẩn đoán) | File 14–16 |
+| Ch.4 | **CĐ2** — Phân tích nhân quả H1–H6 (OLS + IV + Lind-Mehlum) | CĐ2 |
+| Ch.5 | Kết luận tổng hợp — đóng góp lý luận, chính sách, hướng mở | Luận án |
 
 ### 7.4 Hạn chế của chuyên đề
 
-(Giữ nguyên từ v3.1a — 6 hạn chế. **NEW v3.2**: (7) Chưa có biến `GVC_participation_rate` ở firm level — WBES không đo trực tiếp; cần combine OECD TiVA hoặc ADB MRIO ở cấp ngành × quốc gia. CĐ2 sẽ khắc phục.)
+**(1) Thiết kế cắt ngang trong từng mốc khảo sát (cross-sectional design)**: WBES thu thập dữ liệu tại một điểm thời gian trong từng đợt; không theo dõi cùng một doanh nghiệp qua nhiều đợt (unbalanced pseudo-panel). Kết luận nhân quả mạnh đòi hỏi giả định biến công cụ (instrument) nghiêm ngặt — CĐ1 không đáp ứng do mục tiêu mô tả–chẩn đoán. CĐ2 sẽ xây dựng cohort-level pseudo-panel và áp dụng IV-2SLS với biến công cụ cấp quốc gia.
 
-**(8) NEW v3.4 — Meta-analysis tổng hợp văn liệu I→P cho châu Á (P6) chưa hoàn thành.** Đỗ et al. (202X, in preparation — P6) đang tiến hành meta-analysis tổng hợp hệ thống văn liệu I→P cho 47 nền kinh tế châu Á và Thái Bình Dương; pooled effect sizes từ P6 dự kiến sẽ cung cấp neo thực nghiệm (empirical anchor) cho các giả thuyết H1–H6 của CĐ2. CĐ1 hiện sử dụng systematic narrative review (§2.3) thay thế — phương pháp phù hợp với mục tiêu mô tả–chẩn đoán và được chuẩn hóa theo PRISMA 2020. P6 sẽ được tích hợp khi hoàn thành.
+**(2) Sai số đo lường do tự khai báo (self-report measurement error)**: Tất cả biến WBES — doanh số, lao động, chi phí, tỷ lệ xuất khẩu (FSTS) — dựa trên khai báo của quản lý doanh nghiệp, không được kiểm chứng độc lập qua dữ liệu hải quan hay thuế. Sai số phân loại và recall bias có thể làm giảm ước lượng cường độ hiệu ứng, đặc biệt ở nhóm Frontier (17 nước) nơi năng lực kế toán thấp.
+
+**(3) Ranh giới phân nhóm ICRV do nhà nghiên cứu áp đặt (researcher-defined classification boundaries)**: Khung 6 phân nhóm con ICRV là phân loại lý thuyết; ranh giới giữa Upper-middle và Emerging (ví dụ: Malaysia vs Thái Lan) có thể tranh luận. Phân loại lựa chọn ảnh hưởng đến hệ số tương quan và pattern đảo dấu trong §6. CĐ2 sẽ kiểm tra độ nhạy (robustness check #4) với phân loại thay thế — nhóm thu nhập WB và phân loại MSCI.
+
+**(4) Chỉ số tổng hợp DAI/TCI giả định trọng số bằng nhau (equal-weight formative index)**: DAI và TCI được tính bằng trung bình đơn giản của các thành phần thành phần (website, e-payment cho DAI; R&D, ISO cho TCI); trọng số tương đối chưa được kiểm tra qua Confirmatory Factor Analysis (CFA) hay Weighted Least Squares. Mô hình phản chiếu (reflective model) thay thế có thể cho kết quả khác. CĐ2 so sánh 2 đặc tả trong robustness check #2.
+
+**(5) Phạm vi thực nghiệm P3–P5 giới hạn ở 3 quốc gia**: Ba bản thảo P3 (Việt Nam — JABS), P4 (Singapore — MIR), P5 (Trung Quốc — IJOEM) chỉ bao phủ 3 trong 47 nền kinh tế; external validity của kết luận xuyên nhóm Frontier (17 nước) và các nền kinh tế Emerging chưa được kiểm nghiệm trực tiếp. P8 (SIDS Pacific) và P6 meta-analysis sẽ mở rộng phạm vi kiểm chứng.
+
+**(6) Mối quan hệ nhân quả ngược (reverse causality — selection bias)**: Năng suất cao có thể thúc đẩy doanh nghiệp đầu tư nhiều hơn vào số hóa và công nghệ (productive firms self-select into technology adoption) thay vì ngược lại. CĐ1 không giải quyết nội sinh — phù hợp với mục tiêu mô tả–chẩn đoán; CĐ2 sẽ kiểm soát bằng IV-2SLS với biến công cụ `internet_penetration_lagged` ở cấp quốc gia.
+
+**(7) Chưa có biến `GVC_participation_rate` ở cấp doanh nghiệp**: WBES không đo trực tiếp mức độ tham gia chuỗi giá trị toàn cầu ở cấp doanh nghiệp; cần kết hợp với dữ liệu OECD TiVA hoặc ADB MRIO ở cấp ngành × quốc gia. Biến này có thể điều tiết quan trọng mối quan hệ FSTS–năng suất, đặc biệt với GVC-intensive economies (Việt Nam, Philippines, Malaysia). CĐ2 sẽ khắc phục bằng cách merge WBES × TiVA 2021 ở cấp ngành 2 chữ số ISIC.
+
+**(8) Meta-analysis tổng hợp văn liệu I→P cho châu Á (P6) chưa hoàn thành**: Đỗ et al. (202X, in preparation — P6) đang tiến hành meta-analysis tổng hợp hệ thống văn liệu I→P cho 47 nền kinh tế châu Á và Thái Bình Dương; pooled effect sizes từ P6 dự kiến sẽ cung cấp hiệu chỉnh định lượng (quantitative calibration) cho các giả thuyết H1–H6 của CĐ2. CĐ1 hiện sử dụng systematic narrative review (§2.3) thay thế — phương pháp phù hợp với mục tiêu mô tả–chẩn đoán và được chuẩn hóa theo PRISMA 2020. P6 sẽ được tích hợp khi hoàn thành (dự kiến 06/2027).
 
 ### 7.5 Kế hoạch hoàn thiện
 
-(Giữ nguyên từ v3.1a — 4 giai đoạn 6/2026 → 9/2026.)
+**Giai đoạn 1 (06/2026–07/2026) — Hoàn thiện các bản thảo thực nghiệm**:
+- Nộp P3 (Đỗ & Phan, 2026) lên *Journal of Asia Business Studies* (Emerald) — 06/2026.
+- Nộp P4 (Mar et al., 2026) lên *Management International Review* (Springer) — 06/2026.
+- Nộp P5 lên *International Journal of Emerging Markets* (Emerald) — 07/2026.
+- Nộp CĐ1 (file 14–16 định dạng CTU DOCX) cho Hội đồng khoa học CTU xét duyệt lần 1 — 07/2026.
+
+**Giai đoạn 2 (07/2026–08/2026) — Xây dựng nền tảng CĐ2 và P6**:
+- Tìm kiếm cơ sở dữ liệu P6: Web of Science, Scopus, EconLit, PsycINFO (theo PRISMA protocol `thesis/p6_prisma_protocol.md`).
+- Screening và full-text review 2 vòng độc lập → trích xuất dữ liệu effect size.
+- Chuẩn bị dataset CĐ2: merge WBES 2009–2025 × ICRV typology × TiVA × WGI × AIPI.
+- Xây dựng R framework three-level meta-analysis (`p6_scripts/01_baseline_model.R`).
+
+**Giai đoạn 3 (08/2026–09/2026) — Phân tích thực nghiệm CĐ2**:
+- Chạy specification cơ sở OLS + IV-2SLS cho H1–H6 trên panel 2009–2025.
+- Hoàn thành 8 robustness checks (#1–#8 theo §7.3.4).
+- Lind–Mehlum (2010) U-shape test cho H1; Wald test xuyên 8 sub-regime cho H4.
+- Viết CĐ2 draft (dự kiến ~80.000 từ tiếng Việt) theo định dạng CTU QĐ 1799/SH.
+
+**Giai đoạn 4 (09/2026–12/2026) — Tổng hợp luận án và bảo vệ**:
+- Tích hợp CĐ1 + CĐ2 + P6 (khi sẵn sàng) thành luận án 5 chương.
+- Nộp luận án cho Hội đồng phản biện độc lập CTU — dự kiến 10/2026.
+- Chỉnh sửa theo góp ý Hội đồng — 11/2026.
+- Bảo vệ luận án cấp Trường — dự kiến 12/2026.
 
 ---
 
