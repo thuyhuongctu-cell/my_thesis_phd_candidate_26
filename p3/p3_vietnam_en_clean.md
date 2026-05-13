@@ -2,8 +2,6 @@
 
 *Author details removed for blind review*
 
-*12 May 2026 — v13*
-
 *Target journal: Journal of Asia Business Studies (JABS), Emerald Publishing*
 
 **Manuscript classification:** research article.
@@ -261,7 +259,7 @@ foreign-technology / standards channel, not the broader absorptive-capacity stoc
 H2. Foreign-technology / standards capability (TCI_z) is positively associated with
 firm performance in Vietnam.
 
-### 2.3 Website-based digital presence as a baseline control
+### 2.3 Website-based digital presence and firm performance
 The primary DAI_z used in this paper is a website-based digital presence measure: a binary indicator of whether the firm has its own website. This is a foundational and cross-wave-comparable
 marker of digital adoption — it does not measure transaction-level digital integration, electronic
 payment infrastructure, or digital transformation in the Bharadwaj et al. (2013) / Verhoef et al.
@@ -298,7 +296,7 @@ Given that DAI_z reduces to a single binary item — c22b (own-website presence)
 
 **WBES-scope caveat.** Because the WBES Vietnam instrument carries only the website-presence binary (c22b) comparably across the 2009 / 2015 / 2023 waves, this paper does not attempt to test higher-tier digital-transformation mechanisms such as data-driven decision-making, AI integration, or ERP-based process digitisation. Any descriptive coefficient on DAI_z should be read as reflecting baseline digital-presence variation, not dynamic digital capability. This caveat shields the present analysis from over-claiming on the limited Tier-1 information that a single binary website indicator can provide.
 
-### 2.4 Stage-contingent digital value (exploratory probe)
+### 2.4 Stage-contingent digital value
 Because the WBES Vietnam instrument cannot identify Tier 2–4 digital capability across waves, the present paper does not advance a primary digital-transformation claim. The following discussion frames a *secondary, exploratory probe* of whether the Tier-1 website indicator interacts with export intensity differently across waves — read as a within-WBES sensitivity check on Tier-1 baseline behaviour, not as a hypothesis test of dynamic digital capability. The exploratory claim is that even baseline digital presence may be stage contingent in scope:
 In early phases of internationalisation, digital tools may create relatively direct gains by helping
 firms communicate faster, access markets more easily, and manage transactions more efficiently.

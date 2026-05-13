@@ -2,8 +2,6 @@
 
 *Target journal: Management International Review (MIR)*
 
-*12 May 2026 — v9*
-
 ---
 
 **Manuscript classification:** research article.

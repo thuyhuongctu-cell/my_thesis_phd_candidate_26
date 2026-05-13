@@ -1,8 +1,6 @@
 # The Export Intensity–Performance Relationship in Chinese Private Firms: A Threshold-Stability Perspective
 
-*v2.0 (BLINDED) — submission to International Journal of Emerging Markets (IJOEM)*
-
-*12 May 2026 — v2.1*
+*Submission: International Journal of Emerging Markets (IJOEM)*
 
 ---
 
