@@ -13,10 +13,10 @@
 # Dependencies
 node_modules/
 
-# Build output
-dist/
+# Build output (Node.js projects only — PhD dissertation DOCX output is tracked)
 build/
 out/
+# dist/ intentionally NOT ignored — dist/chuyen_de_1/ contains CTU-formatted DOCX deliverables
 
 # Logs
 logs/
