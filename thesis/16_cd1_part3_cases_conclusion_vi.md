@@ -127,23 +127,87 @@ Sáu quan sát: (a) EAP dẫn đầu — Asian gender paradox; (b) MENA thấp n
 
 ## CHƯƠNG 7 — KHOẢNG TRỐNG THỰC TIỄN VÀ KẾT LUẬN
 
-### 7.1 Khoảng trống nghiên cứu thực tiễn (5 khoảng trống — v3.2)
+### 7.1 Khoảng trống nghiên cứu thực tiễn (mở rộng v3.2 từ 4 lên **5 khoảng trống**)
 
-(Giữ nguyên — xem commit 7738953 + b3306e1.)
+**(1) Hài hòa khung dữ liệu xuyên thế hệ WBES 2009–2025**. Pipeline tái lập được cho 4 thế hệ (PICS3, Standardized, BEE, BREADY) — thực hành mở (Page et al., 2021).
 
-### 7.2 Kết luận chính (8 kết luận)
+**(2) Phân nhóm con Advanced + boundary case Mongolia**. (a) Advanced sub-grouping innovation/resource — VoC + REE (Hall & Soskice, 2001; Hertog, 2010); (b) Mongolia chuyển đổi sang critical minerals economy 2026 (ADB, 2026, May).
 
-(Giữ nguyên — xem commit b3306e1.)
+**(3) Mô hình phi tuyến và điều tiết đa tầng** (Bausch & Krist, 2007; Marano et al., 2016). Đỗ & Phan (2026 — VEFR, JFAR) chỉ ra điểm uốn khác nhau; CĐ1 mở rộng lên 47 nước.
+
+**(4) Trường hợp biên SIDS Thái Bình Dương** — 7 nước với Kiribati 2025. Đỗ & Phan (2026 — bản thảo P8) áp dụng forced internationalization penalty (Briguglio, 1995; Bertram, 2006).
+
+**(5) Khung GVC participation và inclusive development cho 47 nước (NEW v3.2)** — Theo *Asian Development Policy Report 2026 — Global Value Chains and Inclusive Development* (ADB, 2026, May): Asia/Pacific chiếm ~1/3 GVC trade global; **GVC share Developing Asia tăng 9% → 18% giai đoạn 2000-2023** (gấp đôi). Bằng chứng định lượng macro: 10% increase trong GVC participation → +0,45% per capita income growth; 10% improvement in GVC centrality → +0,8% per capita income growth. Successfully upgraded economies grew 6%/năm (2000-2023) vs 3,9% peripheral. **Tuy nhiên**: small firms 25% less likely to participate in GVCs; within-economy Gini ↑6,7pp — nguy cơ dị biệt nội bộ.
+
+Khoảng trống cho CĐ1: chưa có nghiên cứu firm-level WBES kết hợp với GVC participation cho 47 nước châu Á + Thái Bình Dương. Bằng chứng CĐ1 về **kinh tế hai tầng Việt Nam** (§5.3) và **dị biệt Em Asia** (§5.5) phù hợp với pattern ADPR 2026 — small firms khó tham gia GVC. CĐ2 nên có biến `GVC_participation_rate` (theo OECD TiVA hoặc ADB MRIO) ở cấp ngành × quốc gia × năm.
+
+### 7.2 Kết luận chính
+
+**(i)** Pool 101.185 doanh nghiệp · 47 nước · 108 cặp QG×năm — phạm vi rộng nhất.
+
+**(ii)** Phân tán: Advanced (0,86) < Emerging (1,24) ≈ SIDS (1,32) < Frontier (1,36).
+
+**(iii)** Bảy tiểu cảnh + 7 SIDS đa diện cùng tồn tại — không có hội tụ.
+
+**(iv)** Dị biệt nội bộ Advanced (Singapore/Vùng Vịnh ≈ 2,1×).
+
+**(v)** SIDS pattern thích nghi/leapfrog ở 6 nước cũ; Kiribati 2025 CỰC ĐOAN nhất.
+
+**(vi)** FDI ≥10% dương mạnh SIDS (+0,222) — kênh năng suất chính.
+
+**(vii)** Mongolia chuyển đổi sang critical minerals economy 2026.
+
+**(viii)** Bằng chứng đảo dấu — phi tuyến + điều tiết đa tầng. Cơ sở H1-H6; **CĐ2 mở rộng 9 phân nhóm con**.
 
 ### 7.3 Hàm ý cho luận án và Chuyên đề 2
 
 #### 7.3.1 Hàm ý lý thuyết
 
-(Giữ nguyên từ v3.3 — 5 evidence; AIPI; digital theatre warning. Xem commit cc33ed4.)
+**(1) VoC + REE type thứ 3** (Hall & Soskice, 2001; Hertog, 2010; Hvidt, 2013).
 
-#### 7.3.2 Hàm ý phương pháp luận (mở rộng v3.3)
+**(2) Lời nguyền tài nguyên × điều tiết thể chế** — Auty (1993); Sachs & Warner (2001); North (1990); Khanna & Palepu (2010).
 
-(Giữ nguyên từ v3.3 — 5 hàm ý + triple-defense system. Xem commit cc33ed4.)
+**(3) DAI là điều kiện cần nhưng không đủ — cảnh báo *digital theatre***. Sở hữu công cụ số đơn lẻ không tự động đem lại lợi nhuận biên ở Advanced (DAI = -0,129); cần kết hợp absorptive capacity (Cohen & Levinthal, 1990) và năng lực công nghệ tích lũy (Lall, 1992).
+
+**Bằng chứng học thuật 2022-2026 ở Asia (mở rộng v3.2 từ 4 → 5 evidence)**:
+
+(a) **Babina et al. (2024 — JFE)**: AI adoption → growth + innovation intensity (positive evidence khi điều kiện đủ).
+
+(b) **Wang, Huang & Hong (2024 — IRFA)**: 80% bank risk models PRC concentrated — concentration risk gây model homogenization.
+
+(c) **Anil & Misra (2022 — IJEM)**: India UPI fraud −50% nhưng rural rejection +24% — "digital theatre" paradox.
+
+(d) **Zhang, Qiu, Park & Tian (2026 — ABM Special Section)**: 249 studies; 5 risk dimensions Asia; AI là "co-evolutionary governance substrate".
+
+**(e) NEW v3.2 — AI Preparedness Index Asia** (ADB, 2026, April — *Asian Development Outlook April 2026* Special Topic Ch.1.4 "AI Readiness and Economic Impacts in Asia and the Pacific", pp.44-51, dựa trên Cazzaniga et al., 2024 — IMF SDN/2024/001 "Gen-AI: Artificial Intelligence and the Future of Work"):
+
+- **AI Preparedness Index (AIPI)** đo 5 chiều: digital infrastructure, human capital, innovation capacity, regulatory & ethics, economic structure.
+- **Khoảng cách lớn AAP vs DAP**: AAP digital infrastructure 0,19 vs DAP <0,11 — "binding constraints on computing capacity, digital connectivity, data infrastructure".
+- DAP với điểm AIPI thấp nhất: Cambodia, India, Myanmar, Papua New Guinea, Philippines.
+- **AI-related job postings**: Singapore + Hàn Quốc >6%, India 4-5%, Australia 4%, Malaysia/Philippines <2%.
+- **AI-enabling goods exports** (theo WTO 2025): Hong Kong, Singapore, Đài Loan-Trung Quốc đều >25% tổng xuất khẩu; DAP trung bình ~10%.
+- **Sectoral AI exposure** (Gambacorta et al., 2025 — BIS): Financial services 6,6 cao nhất; Education 6,4; ICT 6,3; Agriculture 5,4 thấp nhất.
+- **GDP gains scenarios 2030** (G-Cubed model): AAP 0,6-2,1pp; DAP 0,2-1,8pp; trong DAP, PRC 0,2-6,9% (cao nhất); India lower.
+- **AI-driven productivity gains by sector**: Agriculture 0,1-4,5%; Industry 0,3-9,1%; Services 0,3-9,0%.
+- **Hệ quả phân phối**: Better-prepared economies → AI accelerate services-led structural change. Less-prepared economies (DAP excluding PRC and IND) → DỊCH CHUYỂN VIỆC LÀM tiêu cực, employment giảm 1-5pp by 2030.
+
+**Hàm ý cho CĐ1 và CĐ2**: AIPI gap củng cố mạnh "digital theatre" warning §7.3.1 (3) — chứng minh DAI cần đi kèm với 4 chiều khác (human capital, innovation capacity, regulatory ethics, economic structure). CĐ2 nên cân nhắc bổ sung biến `AIPI_country_score` cho 47 nước (sau khi Cazzaniga et al. publish full dataset 2024) tương tác với DAI multi-component để giải thích positive vs negative AI effects.
+
+Cảnh báo *digital theatre* (Verhoef et al., 2021) cần được củng cố trong CĐ2 với DAI đa thành phần và mô hình tương tác DAI × TCI × AIPI.
+
+#### 7.3.2 Hàm ý phương pháp luận (mở rộng v3.3 — bổ sung anchor model + panel hậu đại dịch)
+
+**(1) Pipeline tái lập được**.
+
+**(2) DAI/TCI đa thành phần với formative model + 2 đặc tả** (Bharadwaj et al., 2013; Coltman et al., 2008; Aguinis et al., 2011).
+
+**(3) Phân loại 8 phân nhóm con cho CĐ2** + biến `Critical_Minerals_Exposure` (v3.1c) + biến `GVC_participation_rate` (NEW v3.2) + biến `AIPI_country_score` (NEW v3.2 conditional on data availability).
+
+**(4) NEW v3.3 — Mô hình neo (anchor model) — robustness check #6 cho schema BREADY 2025** (kế thừa từ §4.11.2 file 15): Quy trình 3 bước — (i) chạy hồi quy với data ≤2024 lấy "anchor coefficients"; (ii) khóa hệ số; (iii) re-run với data đầy đủ 2009-2025 và so sánh stability (Wald test, Chow test, coefficient ratio). Nếu `beta_2025 / beta_anchor > 1.5x` hoặc `< 0.67x` → schema effect significant. Đây là kiểm chứng định lượng cho "cấu trúc bảng hỏi mới có làm đảo chiều ý nghĩa thống kê cốt lõi hay không" (NotebookLM, 2026).
+
+**(5) NEW v3.3 — Tách 2025 thành "Panel hậu đại dịch độc lập" — robustness check #7** (kế thừa từ §4.11.3 file 15): Thay vì cố ép 2025 vào đường xu hướng lịch sử, dành riêng sub-section CĐ2 để xử lý 2025 như **out-of-sample validation panel cho kỷ nguyên hậu COVID + AI**. Câu hỏi nghiên cứu: *"Quy luật thể chế và U-curve giai đoạn 2009-2024 có còn hiệu lực trong 'trạng thái bình thường mới' (new normal) hậu COVID + AI bùng nổ?"* Tiến trình 3 bước (chạy mô hình chính trên 2009-2024 → test trên 2025 only → báo cáo coefficient stability vs paradigm shift).
+
+**Triple-defense system tổng hợp**: 3 đề xuất 3a (biến giả `Post_BREADY_2024`) + 3b (anchor model #6) + 3c (panel hậu đại dịch #7) tạo thành **hệ thống 3 lớp** chống đứt gãy schema 2025 — bảo vệ tính liên tục của phân tích chuỗi thời gian và tránh "kết luận sai lệch hoàn toàn" (NotebookLM, 2026).
 
 #### 7.3.3 Hàm ý chính sách cho doanh nghiệp Việt Nam và khu vực (9 hàm ý)
 
@@ -163,11 +227,15 @@ Bốn nguyên tắc: (a) Đa dạng hóa qua RCEP + CPTPP + ACFTA + GCC + India 
 
 #### 7.3.4 Hàm ý cho Chuyên đề 2 và luận án
 
-(Giữ nguyên từ v3.3 — 8 robustness checks. Xem commit cc33ed4.)
+(Giữ nguyên từ v3.1a — xem commit `b41dbb8` cho 6 đóng góp kế thừa, H1-H6, 2 đặc tả robustness, OLS+IV+Lind-Mehlum, 5-chương luận án.)
+
+**Mở rộng v3.3**: CĐ2 sẽ cần triển khai **8 robustness checks** (nâng từ 5 lên 8): (#1) Manufacturing-only subsample; (#2) ICT exclusion test (đã promote lên §4.4.5 file 15); (#3) Tourism-separated SIDS; (#4) Construction-tested Gulf; (#5) Mining-excluded resource; (#6) **anchor model BREADY** *(NEW)*; (#7) **panel hậu đại dịch độc lập** *(NEW)*; (#8) interaction term Kafouros 2023 replication. CĐ2 §X.Y dedicated section cho robustness #6-#8, tham chiếu §4.11 file 15 cho chi tiết quy trình.
 
 ### 7.4 Hạn chế của chuyên đề
 
-(Giữ nguyên từ v3.2 — 7 hạn chế.)
+(Giữ nguyên từ v3.1a — 6 hạn chế. **NEW v3.2**: (7) Chưa có biến `GVC_participation_rate` ở firm level — WBES không đo trực tiếp; cần combine OECD TiVA hoặc ADB MRIO ở cấp ngành × quốc gia. CĐ2 sẽ khắc phục.)
+
+**(8) NEW v3.4 — Meta-analysis tổng hợp văn liệu I→P cho châu Á (P6) chưa hoàn thành.** Đỗ et al. (202X, in preparation — P6) đang tiến hành meta-analysis tổng hợp hệ thống văn liệu I→P cho 47 nền kinh tế châu Á và Thái Bình Dương; pooled effect sizes từ P6 dự kiến sẽ cung cấp neo thực nghiệm (empirical anchor) cho các giả thuyết H1–H6 của CĐ2. CĐ1 hiện sử dụng systematic narrative review (§2.3) thay thế — phương pháp phù hợp với mục tiêu mô tả–chẩn đoán và được chuẩn hóa theo PRISMA 2020. P6 sẽ được tích hợp khi hoàn thành.
 
 ### 7.5 Kế hoạch hoàn thiện
 
