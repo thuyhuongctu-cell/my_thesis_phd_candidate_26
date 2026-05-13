@@ -21,7 +21,7 @@ Design/methodology/approach — Three waves of World Bank Enterprise Survey data
 
 Findings — An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46% — a structurally durable 7-percentage-point band sustained across 14 years of institutional change. The nonlinearity is primarily a participation-margin effect: re-estimated on the exporter-only sub-sample, the quadratic term loses statistical significance (β = −0.200, p = .660), and fewer than 1% of pooled firms lie within ±5 percentage points of the turning point. TCI is positively associated with productivity in all waves (pooled β = 0.179, p < .001) and moderates the I–P curvature. The website indicator follows a Tier-1 proxy-obsolescence trajectory: positive in 2009, null in 2015, and negatively interactive with export intensity in 2023.
 
-Originality/value — The study shows that the conventional inverted-U in zero-inflated emerging-market settings reflects a performance gap at the export-participation barrier rather than a continuous intensity-saturation curve, and demonstrates that pooled digital coefficients on a Tier-1 binary mask progressive proxy obsolescence.
+Originality/value — The study shows that the conventional inverted-U in zero-inflated emerging-market settings reflects a performance gap at the export-participation barrier rather than a continuous intensity-saturation curve, and shows that pooled digital coefficients on a Tier-1 binary mask progressive proxy obsolescence.
 
 Keywords: internationalisation–performance; emerging markets; technological capability; threshold durability; Vietnam; firm productivity.
 
@@ -529,8 +529,8 @@ In the dual-direct M7, both capability dimensions are positive and
 significant (TCI_z β = 0.123, p = .006; DAI_z β = 0.095, p = .038). When the DAI interaction
 terms are added in M8, the linear interaction is negative and individually significant (FSTS_c
 
-× DAI_z = -0.912, p = .043), the quadratic interaction is positive and marginal (FSTS_c2 ×
-DAI_z = 1.043, p = .099), and the joint test sits at marginal significance (M4 joint p = .102;
+× DAI_z = -0.912, p = .043), the quadratic interaction is positive but does not reach conventional significance (FSTS_c2 ×
+DAI_z = 1.043, p = .099), and the joint test is above the .05 threshold (M4 joint p = .102;
 
 M8 joint p = .062). The substantive reading is that, by 2023, basic digital adoption becomes
 more conditional on export intensity:
@@ -617,9 +617,9 @@ and the quadratic interaction is positive but not significant (FSTS_c
 
 2 × DAI_z = 0.460, p =
 
-.276). The joint Wald test sits at marginal significance (M8 joint p = .083). This pooled signal
+.276). The joint Wald test does not reach conventional significance (M8 joint p = .083). This pooled signal
 is driven primarily by the 2023 wave: the M4 joint moderation test on DAI is null in 2009 (p =
-.825) and 2015 (p = .125), and reaches marginal significance only in 2023 (M4 joint p = .102;
+.825) and 2015 (p = .125), and remains above the .05 threshold in 2023 (M4 joint p = .102;
 M8 joint p = .062). Pooled estimates therefore understate the timing of the DAI moderation
 channel: the channel is concentrated in the most recent wave rather than uniformly distributed
 across the 2009–2023 window.
@@ -682,7 +682,7 @@ H4 receives limited exploratory support. The DAI joint moderation test is null i
 2009 (M4 p = .825), null in 2015 (M4 p = .125) and reaches the edge of significance
 in 2023 with the individual interaction FSTS_c × DAI_z = -0.912 (p = .043) and
 the joint test at M4 p = .102, M8 p = .062. The pooled M8 joint test (p = .083)
-is also at marginal significance, driven by the 2023 wave rather than by a stable
+is also above the .05 threshold (p = .083), driven by the 2023 wave rather than by a stable
 cross-period moderation. The formal pooled wave × focal interaction test (Panel I)
 does not detect cross-wave differences in the FSTS × DAI moderation terms. We
 therefore interpret the evidence as suggestive of wave-specific conditionality rather
