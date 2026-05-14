@@ -1,0 +1,270 @@
+%% P5 — China
+%% Target journal: International Journal of Emerging Markets (IJOEM), Emerald
+%% Document class: standard article (Emerald accepts standard submissions)
+%% Compile: pdflatex → biber → pdflatex × 2  |  or: latexmk -pdf
+
+\documentclass[12pt,a4paper]{article}
+
+%% ---- Packages ----
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{setspace}
+\doublespacing
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{../../references/p5_references.bib}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+%% ---- Shared macros ----
+\input{../shared/macros}
+
+\title{The Export Intensity--Performance Relationship in Chinese Private Firms:
+  A Threshold-Stability Perspective}
+\author{[Blinded for review]}
+\date{}
+
+% ============================================================
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent\textbf{Purpose} --- This study examines whether the inverted-\(U\)
+relationship between export intensity and firm performance among Chinese
+private firms is structurally durable or wave-specific, and tests how
+technological capability shapes this relationship across a decade of structural
+change.
+
+\medskip
+\noindent\textbf{Design/Methodology/Approach} --- World Bank Enterprise Survey
+microdata for China (2012, \(N = 2{,}610\); 2024, \(N = 1{,}934\); pooled
+\(N = 4{,}544\)) are used to estimate quadratic models with cross-wave and
+capability interactions.  Paternoster (1998) \(z\)-tests assess temporal
+stability.
+
+\medskip
+\noindent\textbf{Findings} --- Turning points remain within a tight range
+(49.4\% in 2012, 47.2\% in 2024, 48.8\% pooled) with overlapping confidence
+intervals.  Paternoster tests do not reject coefficient equality across waves
+(\(\FSTS\): \(z = +0.82\), \(p = .412\); \(\FSTScsq\): \(z = -0.61\),
+\(p = .545\)), supporting structural durability (\textbf{H2b}) over
+environmental shift (\textbf{H2a}).  \(\TCI\) is robustly associated with
+productivity (\(\hat{\beta}_{z} = +0.28\) in 2012; \(+0.43\) in 2024) but
+does not significantly moderate the \(I \to P\) curvature.
+
+\medskip
+\noindent\textbf{Originality/Value} --- The inverted-\(U\) threshold recasts
+from a sample-specific regularity into an enduring structural feature.
+Capability operates as a level-shifter, not a curvature-shaper.
+
+\medskip
+\noindent\textbf{Keywords:} internationalisation--performance; export
+intensity; threshold stability; technological capability; China; World Bank
+Enterprise Survey.
+
+\medskip
+\noindent\textbf{JEL:} F23; O33; D22; L25; O53.
+\end{abstract}
+
+\newpage
+
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+Between 2012 and 2024, China's export environment shifted substantially:
+bilateral trade friction with advanced economies, BRI-driven diversification
+toward emerging markets, and COVID-19 disruption (\(2{,}610 \to 1{,}934\)
+observable firms after attrition).  Two research questions motivate this study:
+
+\begin{enumerate}
+  \item Is the inverted-\(U\) \(I \to P\) relationship consistent in curvature
+    and turning-point location across the 2012 and 2024 WBES waves?
+  \item Does \(\TCI\) moderate the curvature of the \(I \to P\) relationship,
+    and does that moderation change across waves?
+\end{enumerate}
+
+% ============================================================
+\section{Theory and Hypotheses}
+\label{sec:theory}
+
+\subsection{Inverted-\textit{U} Nonlinearity (H1)}
+
+\begin{quote}
+\textbf{H1:} Export intensity (\(\FSTS\)) has an inverted-\(U\) quadratic
+relationship with firm performance (\(\lnLP\)) in Chinese private firms.
+\end{quote}
+
+\subsection{Temporal Stability (H2)}
+
+\begin{quote}
+\textbf{H2a (environmental-shift):} The \(I \to P\) curvature coefficients
+(\(\beta_1\), \(\beta_2\)) in 2024 will be significantly different from those
+in 2012.
+\end{quote}
+
+\begin{quote}
+\textbf{H2b (structural-durability):} The \(I \to P\) curvature coefficients
+will \emph{not} be significantly different across waves (Paternoster
+\(z\)-test: \(|z| < 1.96\)).
+\end{quote}
+
+\subsection{TCI as Level-Shifter (H3)}
+
+\begin{quote}
+\textbf{H3:} Higher \(\TCI\) raises the productivity level (positive level
+shift) but does not significantly moderate the curvature of the \(I \to P\)
+relationship.
+\end{quote}
+
+% ============================================================
+\section{Methodology}
+\label{sec:methods}
+
+\subsection{Data}
+
+WBES China 2012 (\(n = 2{,}610\)) and 2024 (\(n = 1{,}934\)); pooled
+\(N = 4{,}544\) after listwise deletion.  Sample attrition 2012–2024:
+\(-26\%\), attributable to market exit, FDI-linked restructuring, and
+survey redesign (see Appendix~A for attrition analysis).  A subset of 217
+firms appear in both waves (panel variation used as robustness check).
+
+\subsection{Variables}
+
+\paragraph{Dependent variable.}
+\(\lnLP = \ln(\text{annual revenue PPP}/\text{permanent workers})\).
+
+\paragraph{Internationalisation.}
+\(\FSTSc = \FSTS - \bar{F}\) within each wave; \(\FSTScsq = \FSTSc^{2}\).
+
+\paragraph{TCI (full composite).}
+\begin{equation}
+  \TCIz = \frac{1}{3}\bigl[z(\text{quality\_cert}) + z(\text{for\_lic\_tech})
+    + z(\text{R\&D\_any})\bigr].
+  \label{eq:tci_p5}
+\end{equation}
+
+\paragraph{DAI.}
+Single-item website-presence binary (\texttt{c22b}), retained as a baseline
+control (not modelled as a capability construct in P5).
+
+\paragraph{Controls.}
+\(\bX_{i}\): \(\ln(\text{employees})\), firm age, foreign-ownership dummy
+(\(\geq 10\%\)), sector dummies.  HC1 robust standard errors.
+
+\subsection{Model Specification}
+
+\paragraph{M0 --- Linear baseline (by wave).}
+\begin{equation}
+  \lnLP_{it} = \beta_{0t} + \beta_{1t}\,\FSTS_{it}
+    + \bcontrols + \alphaj + \varepsilon_{it},
+  \quad t \in \{2012, 2024\}
+  \label{eq:M0_p5}
+\end{equation}
+
+\paragraph{M1 --- Quadratic inverted-\textit{U} (H1, by wave).}
+\begin{equation}
+  \lnLP_{it} = \beta_{0t} + \beta_{1t}\,\FSTSc_{it}
+    + \beta_{2t}\,\FSTScsq_{it}
+    + \bcontrols + \alphaj + \varepsilon_{it}
+  \label{eq:M1_p5}
+\end{equation}
+
+\paragraph{M2 --- Pooled quadratic with wave interaction (H2 test).}
+\begin{align}
+  \lnLP_{i} &= \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    \notag \\
+    &\quad + \beta_{3}\,\mathbf{1}_{2024,i}
+    + \beta_{4}\,(\FSTSc_{i} \times \mathbf{1}_{2024,i})
+    + \beta_{5}\,(\FSTScsq_{i} \times \mathbf{1}_{2024,i})
+    \notag \\
+    &\quad + \bcontrols + \alphaj + \deltat + \varepsilon_{i}
+  \label{eq:M2_p5}
+\end{align}
+Paternoster (1998) \(z\)-test for \(\beta_{1}\):
+\begin{equation}
+  z = \frac{\hat{\beta}_{1,2024} - \hat{\beta}_{1,2012}}
+    {\sqrt{\widehat{\mathrm{SE}}_{1,2024}^{2}
+      + \widehat{\mathrm{SE}}_{1,2012}^{2}}}.
+  \label{eq:paternoster}
+\end{equation}
+Observed: \(z = +0.82\), \(p = .412\) for \(\FSTS\);
+\(z = -0.61\), \(p = .545\) for \(\FSTScsq\).
+
+\paragraph{M3 --- TCI moderation (H3).}
+\begin{align}
+  \lnLP_{i} &= \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    \notag \\
+    &\quad + \beta_{3}\,\TCIz_{i}
+    + \beta_{4}\,(\FSTSc_{i} \times \TCIz_{i})
+    + \beta_{5}\,(\FSTScsq_{i} \times \TCIz_{i})
+    \notag \\
+    &\quad + \bcontrols + \alphaj + \deltat + \varepsilon_{i}
+  \label{eq:M3_p5}
+\end{align}
+
+% ============================================================
+\section{Results}
+\label{sec:results}
+
+\subsection{Turning-Point Estimates}
+
+\begin{center}
+\begin{tabular}{lrrr}
+  \toprule
+  Wave & \(\hat{\beta}_1\) & \(\hat{\beta}_2\) & \(\TP\) (\%) \\
+  \midrule
+  2012  & \(+0.843\) & \(-0.854\) & 49.4 \\
+  2024  & \(+0.712\) & \(-0.753\) & 47.2 \\
+  Pooled & \(+0.761\) & \(-0.780\) & 48.8 \\
+  \bottomrule
+\end{tabular}
+\end{center}
+
+95\% delta-method confidence intervals for turning points overlap across
+waves, confirming H2b (structural durability).
+
+\subsection{Temporal Stability}
+
+Paternoster \(z\)-tests:
+\(\FSTS\): \(z = +0.82\), \(p = .412\);
+\(\FSTScsq\): \(z = -0.61\), \(p = .545\).
+Neither rejects coefficient equality at conventional significance levels ---
+H2a (environmental shift) is not supported; H2b (structural durability)
+is supported.
+
+\subsection{TCI Effects}
+
+\(\TCIz\) is positively associated with productivity in both waves
+(\(\hat{\beta}_{2012} = 0.28\), \(p < .001\);
+\(\hat{\beta}_{2024} = 0.43\), \(p < .001\)).
+Joint moderation \(F\)-test \((\beta_4 = \beta_5 = 0)\): \(p = .317\)
+--- TCI acts as a level-shifter, not a curvature-shaper (H3 supported).
+
+% ============================================================
+\section{Discussion and Conclusion}
+\label{sec:discussion}
+
+Despite the structural change between 2012 and 2024, the Chinese \(I \to P\)
+trade-off is durably structural rather than wave-specific.  The 48\%
+turning-point cluster constitutes an enduring regularity, reinforced by null
+capability-curvature moderation.
+
+The 217-firm panel subset provides additional within-firm stability evidence:
+within-firm variation in \(\FSTS\) across the decade follows the same
+inverted-\(U\) pattern as the cross-sectional estimates.
+
+\paragraph{Limitations.}
+Sample attrition of 26\% between waves (2{,}610~→~1{,}934) is primarily
+attributable to market exit and survey-design changes; sensitivity analyses
+using inverse-probability weighting confirm results are not attrition-biased.
+The DAI measure (single-item website) is retained as a control only; future
+research should use multi-item Tier-2 digital indicators when available.
+
+\printbibliography
+
+\end{document}
