@@ -276,7 +276,7 @@ tryCatch({
 })
 
 # Fail-safe N
-fsn_val <- fsn(yi = yi, vi = vi, data = dat)
+fsn_val <- fsn(dat$yi, dat$vi)
 cat(sprintf("\nFail-safe N (Rosenthal): %d\n", fsn_val$fsnum))
 
 # =============================================================================
