@@ -282,61 +282,81 @@ def make_p5_conceptual_model(outdir):
 # ══════════════════════════════════════════════════════════════════════════════
 # P6 — Meta-Analysis MARA Conceptual Model
 # ══════════════════════════════════════════════════════════════════════════════
+# Design principles (meta-analysis-internationalization-performance skill):
+#   - Show the conceptual I→P relationship, not just meta-analytic statistics
+#   - Ground ALL moderators in published theory (no unpublished framework names)
+#   - No citations to unpublished manuscripts
+#   - Three-level MARA as method note only (not IV/DV labels)
 def make_p6_conceptual_model(outdir):
-    fig, ax = plt.subplots(figsize=(9.5, 6))
+    fig, ax = plt.subplots(figsize=(10, 6.5))
     ax.set_xlim(0, 1); ax.set_ylim(0, 1)
     ax.axis('off')
 
-    # ── Study-level effects (Level 2) ──
-    box(ax, 0.15, 0.62, 0.24, 0.20,
-        'Effect Size (r)\nk = 235 effects\nFrom 89 primary studies\nI² = 87.92%\nr̄ = 0.07',
-        color=COL_IV, fontsize=7.8, bold=True)
+    # ── IV: Internationalization ──
+    box(ax, 0.13, 0.60, 0.24, 0.22,
+        'Internationalization\n(Primary Studies)\nFSTS · Geographic scope\nEntropy index · DOI\nNumber of countries\nk = 235 effect sizes\n89 primary studies (1977–2024)',
+        color=COL_IV, fontsize=7.6, bold=True)
 
-    # ── DV ──
-    box(ax, 0.82, 0.62, 0.24, 0.14,
-        'I→P Relationship\nFisher z-transformed r\nThree-level MARA\n(σ²₂ within, σ²₃ between)',
-        color=COL_DV, fontsize=7.8, bold=True)
+    # ── DV: Firm Performance ──
+    box(ax, 0.86, 0.60, 0.24, 0.18,
+        'Firm Performance\n(Primary Studies)\nROA · ROE · ROS\nTobin\'s Q · Firm value\nSales growth',
+        color=COL_DV, fontsize=7.6, bold=True)
 
-    arrow(ax, 0.28, 0.62, 0.70, 0.62,
-          'Baseline: z = 0.072, 95% CI [0.042, 0.102]')
+    # ── Main focal arrow ──
+    arrow(ax, 0.26, 0.63, 0.74, 0.63,
+          'H0: I→P positive (r̄ = 0.07; 95% CI [0.042, 0.102])\nHigh heterogeneity (I² = 87.92%) → moderation analysis')
 
-    # ── Moderator 1: cDAI ──
-    box(ax, 0.50, 0.90, 0.28, 0.12,
-        'Country Digital Adoption (cDAI)\nITU/WB digital index\n[H1: cDAI × I→P (+)]',
-        color=COL_MOD, fontsize=7.5)
-    curved_arrow(ax, 0.64, 0.90, 0.82, 0.69, label='H1 (+)', rad=-0.2, color=COL_MOD)
-    ax.annotate('', xy=(0.50, 0.68), xytext=(0.50, 0.84),
+    # ── Moderator 1: Country Digital Infrastructure (cDAI) ──
+    # Grounded in: Goldfarb & Tucker (2019); IMF (2023) digital economy; WB DAI
+    box(ax, 0.50, 0.92, 0.32, 0.13,
+        'Country Digital Infrastructure (cDAI)\nITU ICT Development Index · WB Digital Adoption\n[H1: Higher cDAI → stronger I→P (+)]\n[Digital economy: Goldfarb & Tucker 2019]',
+        color=COL_MOD, fontsize=7.3)
+    curved_arrow(ax, 0.65, 0.92, 0.86, 0.70, label='H1 (+)', rad=-0.2, color=COL_MOD)
+    ax.annotate('', xy=(0.50, 0.69), xytext=(0.50, 0.86),
                 arrowprops=dict(arrowstyle='->', color=COL_MOD, lw=1.3, linestyle='--'))
 
-    # ── Moderator 2: ICRV Regime ──
-    box(ax, 0.15, 0.25, 0.26, 0.16,
-        'ICRV Regime\n5 regimes: Adv-I to Frontier-V\n[H2: Gradient Advanced→Frontier\nAdvanced > Emerging > Frontier]',
-        color='#1E8449', fontsize=7.5)
-    curved_arrow(ax, 0.29, 0.33, 0.70, 0.57, label='H2 (gradient)', rad=0.2, color='#1E8449')
+    # ── Moderator 2: Institutional Context (ICRV Regime) ──
+    # Grounded in: North (1990); Scott (1995); Peng, Wang & Jiang (2008)
+    box(ax, 0.13, 0.23, 0.28, 0.20,
+        'Institutional Context\n(ICRV Regime — 5 levels)\nAdvanced-I → Frontier-V\n[H2: Gradient effect:\nAdvanced > Emerging > Frontier]\n[Institutional Theory:\nNorth 1990; Peng et al. 2008]',
+        color='#1E8449', fontsize=7.3)
+    curved_arrow(ax, 0.27, 0.33, 0.73, 0.57, label='H2 (gradient)', rad=0.25, color='#1E8449')
 
-    # ── Moderator 3: DPL Phase ──
-    box(ax, 0.82, 0.22, 0.24, 0.16,
-        'DPL Phase\nPrecede (<2009)\nSpan (2009–2015)\nFollow (>2015)\n[H3: Post-2009 shift]',
-        color='#6C3483', fontsize=7.5)
-    ax.annotate('', xy=(0.82, 0.55), xytext=(0.82, 0.38),
+    # ── Moderator 3: Study Period (Temporal Moderation) ──
+    # Grounded in: Cohen & Levinthal (1990) absorptive capacity; Rogers (2003) diffusion
+    box(ax, 0.86, 0.23, 0.25, 0.20,
+        'Study Period\n(Temporal Moderation)\nPre-2009 · 2009–2015 · Post-2015\n[H3: Post-2009 positive shift]\n[Absorptive capacity:\nCohen & Levinthal 1990;\nDiffusion: Rogers 2003]',
+        color='#6C3483', fontsize=7.3)
+    ax.annotate('', xy=(0.86, 0.55), xytext=(0.86, 0.43),
                 arrowprops=dict(arrowstyle='->', color='#6C3483', lw=1.3, linestyle='--'))
-    ax.text(0.84, 0.46, 'H3 (+)', ha='left', fontsize=7.5, color='#6C3483', fontstyle='italic')
+    ax.text(0.88, 0.49, 'H3 (+)', ha='left', fontsize=7.5, color='#6C3483', fontstyle='italic')
 
-    # ── Publication bias note ──
-    box(ax, 0.50, 0.08, 0.34, 0.10,
-        'Publication Bias Controls: Egger test · Trim-and-fill · PET-PEESE',
-        color=COL_CTRL, fontsize=7.5)
+    # ── cDAI × Study Period interaction (H4) ──
+    ax.annotate('', xy=(0.71, 0.43), xytext=(0.53, 0.88),
+                arrowprops=dict(arrowstyle='->', color='#884EA0', lw=1.2, linestyle=':',
+                                connectionstyle='arc3,rad=0.28'))
+    ax.text(0.57, 0.65, 'H4: cDAI × Period\n(interaction)', ha='center', fontsize=7.3,
+            color='#884EA0', fontstyle='italic')
 
-    # ── Theory ──
-    ax.text(0.50, 0.02,
-            'Theory: CIMT (Capability–Institution Mismatch) + DPL (Digital Paradox Lifecycle) | Target: International Business Review',
-            ha='center', va='center', fontsize=7.5, color='#566573', style='italic',
+    # ── Publication bias controls ──
+    box(ax, 0.50, 0.08, 0.40, 0.10,
+        'Publication Bias Controls: Egger\'s regression test · Trim-and-fill · PET-PEESE\n'
+        'Sensitivity: Leave-one-out · Subgroup by database · High-quality studies only',
+        color=COL_CTRL, fontsize=7.2)
+
+    # ── Method + theory note (published bases only) ──
+    ax.text(0.50, 0.01,
+            'Theoretical bases: Resource-Based View (Barney 1991) · Institutional Theory (North 1990; Scott 1995; Peng et al. 2008) · '
+            'Organizational Learning (Cohen & Levinthal 1990)\n'
+            'Method: Three-level MARA (random effects; σ²₂ within-study, σ²₃ between-study) | Target: International Business Review',
+            ha='center', va='bottom', fontsize=6.8, color='#566573', style='italic',
             bbox=dict(boxstyle='round,pad=0.3', facecolor='#FDFEFE', edgecolor='#AEB6BF', lw=0.8))
 
-    ax.set_title('Figure 1. Conceptual Model — Three-Level MARA (P6)', fontsize=11,
-                 fontweight='bold', pad=10, color=COL_IV)
+    ax.set_title('Figure 1. Conceptual Model — Three-Level MARA: Internationalization–Performance (P6)',
+                 fontsize=11, fontweight='bold', pad=12, color=COL_IV)
 
     out = os.path.join(outdir, 'p6/figures/figure_1_conceptual_model.png')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
     fig.savefig(out, dpi=300, bbox_inches='tight', facecolor='white')
     plt.close(fig)
     print(f'Saved: {out}')
@@ -395,7 +415,8 @@ def make_cd2_conceptual_model(outdir):
 
     # ── H6: Temporal Heterogeneity ──
     ax.text(0.50, 0.07,
-            'H6 — Temporal Heterogeneity: Year-bucket FE (2009–12 | 2013–17 | 2018–25) · DPL Precede/Span/Follow phases',
+            'H6 — Temporal Heterogeneity: Year-bucket FE (2009–12 | 2013–17 | 2018–25)\n'
+            '[Proposed temporal phases grounded in Cohen & Levinthal 1990; Rogers 2003 diffusion theory]',
             ha='center', va='center', fontsize=7.8, color='#884EA0', style='italic',
             bbox=dict(boxstyle='round,pad=0.3', facecolor='#F9EBFF', edgecolor='#C39BD3', lw=0.8))
 
@@ -408,7 +429,7 @@ def make_cd2_conceptual_model(outdir):
     # ── Theory layer legend ──
     legend_items = [
         mpatches.Patch(facecolor='white', edgecolor='#1A5276', label='RBV — TCI (H2)'),
-        mpatches.Patch(facecolor='white', edgecolor='#117A65', label='Digital Capability Lens — DAI/CDCM (H3)'),
+        mpatches.Patch(facecolor='white', edgecolor='#117A65', label='Digital Capability (DAI/CDCM — proposed lens) (H3)'),
         mpatches.Patch(facecolor='white', edgecolor='#6C3483', label='Upper Echelons — Manager (H4)'),
         mpatches.Patch(facecolor='white', edgecolor='#1E8449', label='Institutional Theory — ICRV (H5)'),
         mpatches.Patch(facecolor='white', edgecolor=COL_IV, label='Uppsala Model — H1 (I→P nonlinear)'),
