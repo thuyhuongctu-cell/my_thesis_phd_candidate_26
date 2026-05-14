@@ -117,7 +117,7 @@ Adopting multidimensional descriptive statistics, charts, cross-country–cross-
 | Hình | Tiêu đề | Trang |
 |---|---|---|
 | Hình 2.3.3.1 | Phân bố mẫu 101.185 doanh nghiệp xuyên 17 năm (2009–2025) theo 3 thế hệ schema WBES | 2.3 |
-| Hình 2.3.3.2 | Phân bố pool 5 phân nhóm con thể chế (n=101.185 doanh nghiệp) | 2.3 |
+| Hình 2.3.3.2 | Phân bố pool 5 phân nhóm con thể chế (Advanced tổng hợp I+II; n=101.185 doanh nghiệp) | 2.3 |
 | Hình 2.3.3.3 | Phân phối năng suất theo 6 phân nhóm con (kernel density, n=101.185) | 2.3 |
 | Hình 2.3.4.1 | Slope chart 2009–2012 vs 2018–2025 (Δ điểm phần trăm 5 chỉ số) | 2.3 |
 | Hình 2.3.5.1 | Phân phối quy mô doanh nghiệp theo phân nhóm con (n=101.185) | 2.3 |

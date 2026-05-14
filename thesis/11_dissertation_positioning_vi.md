@@ -246,8 +246,9 @@ Mở bằng phenomenon-based pitch:
 
 - P1 (VEFR 2026), P2 (JFAR 2026): đã công bố
 - P6 baseline (ICBEF 2025): đã published
-- P3, P4: bu1ea3n thu1ea3o vu1eaba xong — ru0103ng cu1ea3i thiện cho IBR/JWB target
-- P5: đang chu1ea1y — target APJM
+- P3: bản thảo vừa xong — target JABS (Journal of Asia Business Studies, Emerald)
+- P4: bản thảo vừa xong — target MIR (Management International Review, Springer)
+- P5: đang chạy — target IJOEM (International Journal of Emerging Markets, Emerald)
 - P7: đang thiết kế — target MIR/JIBS
 - P8: bu1ea3n thu1ea3o REVISED v2 — chu1ea9n bu1ecb submit World Development
 
@@ -313,10 +314,10 @@ heterogeneity?
 8 PAPERS (P1–P8):
 ✅ P1 Emerging Asia 17 economies (VEFR 2026)
 ✅ P2 China SMEs (JFAR 2026)
-✅ P3 Vietnam — Frontier V, inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft)
-✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft)
-🔄 P5 China temporal 2012–2024 (manuscript complete)
-🔄 P6 Meta-analysis three-level MARA k=235 (manuscript draft complete)
+✅ P3 Vietnam — Frontier V, inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
+✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft → MIR)
+🔄 P5 China temporal 2012–2024 (manuscript complete → IJOEM)
+🔄 P6 Meta-analysis three-level MARA k=235 (manuscript draft complete → APJM)
 🔄 P7 Asian capstone TCI+DAI (planning)
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 

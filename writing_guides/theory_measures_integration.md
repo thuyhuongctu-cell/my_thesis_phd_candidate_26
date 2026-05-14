@@ -174,8 +174,8 @@ machinery (h8), ISO certification (h1). Items standardised within-wave, then ave
 
 #### Cross-wave comparability caveat
 
-> "The 2009 and 2015 WBES modules include only b8 and e6 (TCI_thin = 2-item composite);
-> the 2023 BREADY module adds h1 and h8, enabling TCI_full (4-item composite). We
+> "The 2009 and 2015 WBES modules include only b8 and e6 (TCI_2item = 2-item composite);
+> the 2023 BREADY module adds h1 and h8, enabling TCI_4item (4-item composite). We
 > standardise each version within-wave before pooling, which addresses mean-level
 > differences but does not fully resolve item-set heterogeneity. We flag this as a
 > measurement boundary in §3.2 and treat cross-wave TCI comparisons as
