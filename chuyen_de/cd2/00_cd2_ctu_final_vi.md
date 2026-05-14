@@ -81,7 +81,8 @@ Phần 2 — Nội dung chuyên đề
 
 2.4 Kết luận và đề xuất
   2.4.1 Kết luận
-  2.4.2 Đề xuất
+  2.4.2 Hạn chế nghiên cứu
+  2.4.3 Hướng nghiên cứu tiếp theo
 
 Tài liệu tham khảo
 
@@ -695,6 +696,8 @@ Bảng 2.8. Cấu trúc pool theo nhóm ICRV và mốc khảo sát.
 
 Ba thế hệ schema WBES và giao thức hòa hợp: PICS3 (2009–2013): biến FSTS từ d3a/d3b; TCI từ h1/h8/b8; DAI từ c22b only. Standardized (2014–2018): biến tái định dạng nhưng tương thích. BREADY/BEE (2019–2025): schema mở rộng; DAI đầy đủ (c22b + k33 + k38); module nhà quản trị chi tiết hơn.
 
+*Ghi chú về trọng số khảo sát:* Chuyên đề không áp dụng trọng số mẫu WBES (`wt_final`) trong các mô hình hồi quy vì ba lý do. Thứ nhất, mục tiêu phân tích là xác định hệ số quan hệ I→P tại cấp doanh nghiệp (conditional on observables), không phải ước lượng thống kê mô tả đại diện tổng thể. Thứ hai, hai chiều fixed effects (quốc gia × năm) đã hấp thụ phần lớn biến thiên liên quan đến thiết kế lấy mẫu phân tầng. Thứ ba, tích hợp trọng số mẫu vào mô hình fixed effects không đồng nhất gây phức tạp ước lượng mà không đem lại cải thiện tính hợp lệ nội tại (Solon et al., 2015). Phân tích độ nhạy với trọng số được đề xuất như kiểm định tương lai (xem §2.4.2) để xác nhận tính vững của kết quả so với mẫu không có trọng số.
+
 Giao thức hòa hợp bao gồm: crosswalk biến giữa ba schema; xử lý giá trị thiếu; loại bỏ ngoại lệ tại phân vị 1/99; chuyển đổi doanh thu về PPP USD 2017.
 
 ##### Đo lường biến chi tiết
@@ -992,6 +995,8 @@ Peng, M. W., Wang, D. Y. L., & Jiang, Y. (2008). An institution-based view of in
 Riahi-Belkaoui, A. (1998). The effects of the degree of internationalization on firm performance. *International Business Review, 7*(3), 315–321.
 
 Schwens, C., Zapkau, F. B., Brouthers, K. D., & Hollender, L. (2018). Limits to outside-in open innovation in SMEs: When it helps and when it does not help with international performance. *Journal of World Business, 53*(2), 168–177.
+
+Solon, G., Haider, S. J., & Wooldridge, J. M. (2015). What are we weighting for? *Journal of Human Resources, 50*(2), 301–316. https://doi.org/10.3368/jhr.50.2.301
 
 Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? The international strategies of digital platform firms. *Global Strategy Journal, 11*(1), 58–80. https://doi.org/10.1002/gsj.1336
 
