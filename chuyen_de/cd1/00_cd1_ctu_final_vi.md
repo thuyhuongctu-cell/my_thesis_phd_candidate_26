@@ -706,7 +706,7 @@ FSTS đình trệ 4–6%; FDI ≥10% giảm **7,2% → 3,2%**; website tăng 39%
 
 **Bảng 2.3.7.1**. *Ma trận so sánh đa chiều bảy tiểu cảnh điển hình.*
 
-| Chỉ số | Singapore | Việt Nam | Trung Quốc | Em Asia | Mông Cổ | SIDS TBD | Saudi+Qatar+Kuwait |
+| Chỉ số | Singapore | Việt Nam | Trung Quốc | Em Asia | Mông Cổ | SIDS Thái Bình Dương | Saudi+Qatar+Kuwait |
 |---|---|---|---|---|---|---|---|
 | n_firms | 623 | 3.077 | 4.889 | 42.278 | 1.905 | **1.371** | 1.632 |
 | FSTS (%) | 7,1 | 19,1 | 9,9 | 7,6 | **5,0** | 6,3 | **2,4** |

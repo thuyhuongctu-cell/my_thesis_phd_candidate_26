@@ -235,7 +235,7 @@ Bốn nguyên tắc: (a) Đa dạng hóa qua RCEP + CPTPP + ACFTA + GCC + India 
 
 **(2) Khung phân loại ICRV 6 phân nhóm con → 8 phân nhóm con**: CĐ1 đề xuất 6 sub-regime (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, SIDS Pacific). CĐ2 mở rộng thành **8 sub-regime** bằng cách tách Emerging thành 3 phân nhóm con: (a) FDI-led SEA (Việt Nam, Indonesia, Philippines — FSTS cao, TCI thấp); (b) dân số lớn nội địa (Ấn Độ, Sri Lanka, Jordan — FSTS thấp, spillover cao); (c) khai khoáng (Mongolia — 4 đợt, FSTS 5,0%). Tổng: 2 Advanced + 1 Upper-middle + 3 Emerging + 1 Frontier + 1 SIDS = **8 sub-regime**.
 
-**(3) Bằng chứng tồn tại (existence evidence) phi tuyến FSTS→năng suất**: Turning point thực nghiệm từ P3 và P4: ~49,4% (Trung Quốc 2012), ~47,2% (Trung Quốc 2024), ~85% (Singapore — P4, Mar et al., 2026). Pattern inverted-U xác nhận trong CĐ1, định hướng trực tiếp cho **H1**.
+**(3) Bằng chứng tồn tại (existence evidence) phi tuyến FSTS→năng suất**: Turning point thực nghiệm từ P4 và P5: ~49,4% (Trung Quốc 2012 — P5), ~47,2% (Trung Quốc 2024 — P5), ~85% (Singapore — P4, Mar et al., 2026); P3 (Việt Nam — Đỗ & Phan, 2026 — *JABS*) xác nhận turning point ~39–46% FSTS qua ba đợt khảo sát. Pattern inverted-U xác nhận trong CĐ1, định hướng trực tiếp cho **H1**.
 
 **(4) Bốn lần đảo dấu xuyên phân nhóm con**: Hệ số tương quan FSTS–năng suất đảo từ dương (Emerging/Frontier) → âm (Advanced innovation-driven) → không có ý nghĩa (SIDS) — bằng chứng cho **H2, H3, H4**. Pattern đảo dấu DAI tương tự (−0,129 ở Advanced, +0,072 ở Frontier) xác nhận "digital theatre" warning (H3 — Verhoef et al., 2021).
 
