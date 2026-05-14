@@ -849,19 +849,47 @@ Kết quả dự kiến từ bằng chứng neo đậu: H1 (phi tuyến) xác nh
 
 Thông điệp chính sách cốt lõi: không có một công thức duy nhất cho quốc tế hóa thành công — chế độ thể chế, năng lực công nghệ nội tại, và mức độ số hóa cùng quyết định hiệu quả của chiến lược xuất khẩu. Chính sách và chiến lược doanh nghiệp cần được hiệu chỉnh theo vị trí trên bản đồ ICRV.
 
-#### 2.4.2 Đề xuất
+#### 2.4.2 Hạn chế nghiên cứu
 
-Về hướng nghiên cứu tiếp theo, chuyên đề này đặt nền tảng lý thuyết và thực nghiệm cho các bài báo tiếp theo trong chuỗi luận án:
+Chuyên đề này có ba giới hạn suy diễn cần được thừa nhận rõ ràng theo cấu trúc ba phần: điều không thể kết luận, phương pháp khắc phục, và nguồn tham chiếu phương pháp.
 
-P6 (tổng quan định lượng cập nhật): cập nhật năm tổng quan định lượng lớn với khoảng 75 nghiên cứu mới (2017–2026), tập trung vào thị trường mới nổi và điều tiết số.
+**(a) Điều không thể kết luận từ khung nghiên cứu này:**
 
-P7 (25 quốc gia tổng lực): áp dụng M0–M7 cho mẫu con 25 nền kinh tế đại diện từ tất cả nhóm ICRV — kiểm định toàn bộ H1–H6 đồng thời trên dữ liệu hòa hợp.
+Thứ nhất, dữ liệu WBES không phải panel chuẩn — mỗi sóng là thiết kế cắt ngang với mẫu mới, không theo dõi cùng một doanh nghiệp qua thời gian. Do đó, mô hình M0–M7 xác lập *liên kết có điều kiện* chứ không phải *tác động nhân quả* giữa quốc tế hóa và hiệu quả; không thể loại trừ khả năng doanh nghiệp vốn hiệu quả hơn sẽ xuất khẩu nhiều hơn (reverse causality) mà không có biến công cụ hợp lệ hoặc thiết kế thực nghiệm tự nhiên.
 
-P8 (SIDS Thái Bình Dương — gánh nặng tắt buộc): nghiên cứu chuyên biệt cho 7 SIDS (Nhóm VI) kiểm định giả thuyết gánh nặng tắt buộc và các con đường quốc tế hóa thích nghi.
+Thứ hai, DAI bị giới hạn ở Tier 1–2 (website và e-payment) do hạn chế schema WBES. Không thể kết luận về vai trò của năng lực số Tier 3–4 — tích hợp ERP, triển khai AI, quản trị dữ liệu xuyên biên giới — đối với mối quan hệ I→P. Kết luận H3 chỉ hợp lệ trong ranh giới đo lường Tier 1–2; ngoài ranh giới này, CDCM chưa được kiểm định thực nghiệm.
 
-Về mở rộng CDCM, khi schema BEE bổ sung thêm chỉ số số Tier 3–4 (triển khai AI, ERP tích hợp), CDCM có thể được kiểm định đầy đủ hơn — đây là cơ hội cho nghiên cứu panel theo dõi doanh nghiệp qua các sóng.
+Thứ ba, FSTS (Foreign Sales to Total Sales) chỉ nắm bắt xuất khẩu hàng hóa và dịch vụ trực tiếp, bỏ qua FDI, licensing, franchising, và các hình thức quốc tế hóa phi xuất khẩu khác. H1 (phi tuyến) có thể có dạng hàm khác nhau nếu đo bằng chỉ số quốc tế hóa đa chiều hơn như DOI hoặc entropy index.
 
-Về hạn chế cần lưu ý: WBES không phải panel chuẩn — tác động thực nghiệm là liên kết có điều kiện, không phải tác động nhân quả trừ khi có biến công cụ hợp lệ; DAI bị giới hạn Tier 1–2; biến nhà quản trị thiếu trong một số schema; FSTS chỉ đo xuất khẩu trực tiếp, không bao gồm FDI và các hình thức quốc tế hóa khác.
+Thứ tư, biến nhà quản trị trong H4 bị hạn chế do WBES không đo khoảng cách tâm lý, gắn kết mạng lưới quốc tế, hay cấu trúc hội đồng quản trị đầy đủ. Kiểm định H4 vì vậy là *chỉ báo gián tiếp* của cơ chế Upper Echelons (Hambrick & Mason, 1984), không phải kiểm định trực tiếp các cấu trúc lý thuyết gốc.
+
+**(b) Phương pháp khắc phục cho nghiên cứu tương lai:**
+
+Để giải quyết vấn đề nhân quả, các nghiên cứu tiếp theo có thể sử dụng: (i) biến công cụ dựa trên tỷ lệ áp dụng trung bình ngành × vùng × sóng như IV cho TCI và DAI (chiến lược đã áp dụng thành công trong P3 với first-stage F = 22–35, vượt ngưỡng Staiger–Stock); (ii) thiết kế difference-in-differences khai thác các cú sốc chính sách ngoại sinh (ví dụ: CPTPP 2018, chiến tranh thương mại Mỹ-Trung 2018-2019) như ranh giới thực nghiệm tự nhiên; hoặc (iii) phân tích panel dài với dữ liệu WBES core panel 2023-2027 khi có sẵn.
+
+Để mở rộng đo lường số hóa, nghiên cứu tương lai có thể kết hợp WBES với dữ liệu nền tảng số cấp ngành (World Bank Digital Progress and Trends Report, ITU DDI) hoặc thu thập dữ liệu Tier 3–4 từ báo cáo thường niên doanh nghiệp niêm yết. Khi schema B-READY bổ sung thêm mô-đun về AI và ERP, CDCM có thể được kiểm định đầy đủ hơn.
+
+Để mở rộng thước đo quốc tế hóa vượt FSTS, nghiên cứu có thể tích hợp dữ liệu UNCTAD FDI Bilateral Investment Matrix với WBES theo mã quốc gia-ngành, hoặc dùng entropy index đa thị trường như trong Contractor et al. (2003).
+
+**(c) Phương pháp và nguồn tham chiếu:**
+
+Về nhân quả hóa I→P: Angrist & Pischke (2009); Oster (2019) về δ-stability bounds; Wolfolds & Siegel (2019) về điều kiện hợp lệ của Heckman. Về tổng hợp bằng chứng xuyên bối cảnh: Sutton & Higgins (2008) — panel meta-analysis; Borenstein et al. (2021) — Bayesian meta-regression với thông tin tiền nghiệm. Về mở rộng bậc số hóa: Verhoef et al. (2021) — phân cấp Tier 1–4. Về mở rộng quốc tế hóa đa chiều: Contractor et al. (2003); Sullivan (1994) về DOI composite.
+
+---
+
+#### 2.4.3 Hướng nghiên cứu tiếp theo
+
+Chuyên đề này đặt nền tảng lý thuyết và thực nghiệm cho năm hướng nghiên cứu cụ thể trong chuỗi luận án và xa hơn:
+
+**Hướng 1 — P6: Tổng quan định lượng ba tầng (three-level MARA, IBR):** Mở rộng ICBEF 2025 baseline (Đỗ & Phan, 2024, k=113) lên k≈235 với hệ thống tìm kiếm PRISMA 2020 trên Web of Science + Scopus (1977–2026). Ba biến điều tiết mới chưa được kiểm định trong bất kỳ meta-analysis I→P nào: (i) cDAI — mức độ số hóa cấp quốc gia khuếch đại lợi ích quốc tế hóa; (ii) ICRV 5 nhóm cho châu Á-Thái Bình Dương thay vì phân loại toàn cầu thô trong Marano et al. (2016); (iii) DPL phase — phân chia dữ liệu theo trước/trong/sau bước ngoặt số 2009. Kết quả meta-analytic sẽ xác nhận hoặc bác bỏ gradient ICRV trong H5 trên cơ sở dữ liệu xuyên nghiên cứu. Hướng này lấp đầy khoảng trống P6 từ bằng chứng kép: thiếu Tier-2 DAI (P3 Vietnam) và thiếu hội tụ cấu trúc (P5 China).
+
+**Hướng 2 — P7: Kiểm định H1–H6 toàn pool 25 nền kinh tế đại diện (IJOEM hoặc JWB):** Áp dụng M0–M7 cho mẫu con 25 nền kinh tế đại diện từ tất cả 6 nhóm ICRV — kiểm định toàn bộ H1–H6 đồng thời trên dữ liệu hòa hợp với country và year fixed effects. Trọng tâm là mô hình M7 điều tiết ba chiều (FSTS × TCI × ICRV regime): liệu hiệu ứng nâng mặt bằng TCI (H2) và nguồn lực tình huống DAI (H3) có được gradient hóa theo chế độ thể chế như CDCM dự đoán không? P3 (Nhóm IV, DAI IV null), P4 (Nhóm I, DAI amplification) và P5 (Nhóm III, null moderation) cung cấp neo đậu cross-context cho dự đoán này.
+
+**Hướng 3 — P8: SIDS Thái Bình Dương — gánh nặng tắt buộc (World Development hoặc Pacific Economic Bulletin):** Nghiên cứu chuyên biệt cho 7 SIDS (Nhóm VI: Fiji, PNG, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati) kiểm định giả thuyết gánh nặng tắt buộc (Briguglio, 1995; Bertram, 2006): phải quốc tế hóa để sinh tồn dù điều kiện thể chế không hỗ trợ → r(FSTS, logLP) âm cấu trúc. Khoảng trống H1b trong CD2 (điểm uốn < 10% FSTS hoặc hàm giảm đơn điệu ở SIDS) cần bằng chứng cấp doanh nghiệp trực tiếp.
+
+**Hướng 4 — CDCM Tier 3–4 extension (MIS Quarterly hoặc Information Systems Research):** Khi schema B-READY (World Bank, 2023–2027) và WBES mới bổ sung thêm mô-đun AI, ERP, và quản trị dữ liệu, CDCM có thể được kiểm định đầy đủ bốn tầng Verhoef et al. (2021). Câu hỏi lý thuyết: liệu DAI Tier 3–4 có chuyển vai trò từ nguồn lực tình huống (chỉ phát huy ở FSTS cao) thành nguồn lực nền tảng (nâng mặt bằng đồng nhất) — và điều kiện chuyển đổi là gì (ngưỡng thể chế, quy mô doanh nghiệp, hay sóng công nghệ)?
+
+**Hướng 5 — Panel longitudinal WBES core 2023–2027 (JIBS hoặc SMJ):** WBES core panel theo dõi một nhóm doanh nghiệp trong ít nhất hai sóng liên tiếp, cho phép kiểm định nhân quả TCI→năng suất và DAI→FSTS (theo hướng: số hóa có thúc đẩy xuất khẩu không, thay vì chỉ làm tăng năng suất?) không phụ thuộc vào giả định IV. Đây là hướng nghiên cứu thiết yếu để chuyển H2 và H3 từ liên kết có điều kiện thành tác động nhân quả được xác nhận.
 
 ---
 
