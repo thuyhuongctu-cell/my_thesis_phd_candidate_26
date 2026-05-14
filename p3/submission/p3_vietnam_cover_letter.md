@@ -42,8 +42,8 @@ Yours sincerely,
 
 **Đỗ Thùy Hương (Do Thuy Huong)**
 PhD Candidate
-Vĩnh Long University of Technology Education (VLUTE), Vietnam
-Email: huongdt@vlute.edu.vn | ORCID: 0000-0002-7711-2487
+College of Economics, Can Tho University (CTU), Vietnam
+Email: huongp1323001@gstudent.ctu.edu.vn | ORCID: 0000-0002-7711-2487
 
 **PGS.TS. Phan Anh Tú (Phan Anh Tu)**
 Associate Professor, College of Economics
