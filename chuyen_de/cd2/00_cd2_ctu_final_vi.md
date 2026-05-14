@@ -95,7 +95,7 @@ Bảng 2.1. Mỗi tầng lý thuyết — câu hỏi phụ — biến số — g
 
 Bảng 2.2. Năm dạng hàm I→P, cơ chế, và bối cảnh xuất hiện
 
-Bảng 2.3. So sánh bằng chứng ba bản thảo đồng hành P3–P5
+Bảng 2.3. So sánh bằng chứng bốn bản thảo đồng hành P2–P5
 
 Bảng 2.4. Mapping biến đầy đủ: khái niệm lý thuyết — biến WBES — kỳ vọng dấu — giả thuyết
 
@@ -184,7 +184,7 @@ Khung lý thuyết hiện hành về quan hệ I→P còn phân tán. Các tổn
 
 Kết quả phân tích mô tả trong Chuyên đề Tiến sĩ số 1 đã cung cấp bức tranh thực trạng đa chiều dựa trên 101.185 doanh nghiệp WBES xuyên 47 nền kinh tế, làm rõ ba pattern then chốt: phân tán năng suất tăng đơn điệu theo chế độ từ Nhóm I đến Nhóm VI; tính không đồng nhất nội bộ trong nhóm Advanced; và pattern adaptation đặc trưng của các quốc đảo nhỏ Thái Bình Dương. Đồng thời, phân tích đó phát hiện CDCM — Mô hình Năng lực số phụ thuộc bối cảnh: tác động của DAI lên hiệu quả phụ thuộc vào chế độ thể chế, giai đoạn quốc tế hóa, và mức độ bão hòa số của nền kinh tế. Chuyên đề 2 này tiếp nối bằng cách xây dựng mô hình lý thuyết và thực nghiệm để giải thích cơ chế đằng sau các pattern đó.
 
-Ba bản thảo thực nghiệm đồng hành cung cấp bằng chứng quốc gia cụ thể kiểm định khả năng của khung đề xuất. P3 Việt Nam (Đỗ & Phan, 2026, JABS under review) phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với điểm uốn 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp); TCI nhân quả qua biến công cụ (β = 1,639, F bậc một = 22,1); DAI theo giai đoạn và phụ thuộc chọn lựa (IV null, β = 0,018). P4 Singapore (Mar, Đỗ & Phan, 2026, MIR under review) phân tích 623 doanh nghiệp WBES 2023, cho thấy điểm uốn hàm ý ở FSTS khoảng 88,6% và DAI hoạt động như nguồn lực mở rộng tình huống với hệ số DAI×FSTS² = +3,119 (p = 0,005). P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM under review) phân tích 4.559 doanh nghiệp WBES hai sóng (2012, 2024) xác nhận chữ U ngược bền vững cấu trúc với điểm uốn 49,4% (2012) và 47,2% (2024).
+Bốn bản thảo thực nghiệm đồng hành cung cấp bằng chứng quốc gia cụ thể kiểm định khả năng của khung đề xuất. P2 Trung Quốc SMEs (Đỗ & Phan, 2026, JFAR đã công bố) phân tích 2.700 doanh nghiệp SMEs Trung Quốc và tìm thấy dạng bậc ba (cubic nonlinearity / S-curve ba giai đoạn), cung cấp tiền thân thực nghiệm cho H1 và cơ sở để so sánh với P5. P3 Việt Nam (Đỗ & Phan, 2026, JABS under review) phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với điểm uốn 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp); TCI nhân quả qua biến công cụ (β = 1,639, F bậc một = 22,1); DAI theo giai đoạn và phụ thuộc chọn lựa (IV null, β = 0,018). P4 Singapore (Mar, Đỗ & Phan, 2026, MIR under review) phân tích 623 doanh nghiệp WBES 2023, cho thấy điểm uốn hàm ý ở FSTS khoảng 88,6% và DAI hoạt động như nguồn lực mở rộng tình huống với hệ số DAI×FSTS² = +3,119 (p = 0,005). P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM under review) phân tích 4.559 doanh nghiệp WBES hai sóng (2012, 2024) xác nhận chữ U ngược bền vững cấu trúc với điểm uốn 49,4% (2012) và 47,2% (2024).
 
 #### 2.1.2 Mục tiêu
 
@@ -296,18 +296,21 @@ P4 Singapore (Mar, Đỗ & Phan, 2026, MIR under review): Phân tích 623 doanh 
 
 P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM under review): Phân tích 4.559 doanh nghiệp WBES hai sóng (2012, 2024). Chữ U ngược bền vững cấu trúc — điểm uốn 49,4% (2012), 47,2% (2024), kiểm định Paternoster cho hệ số FSTS² không có sự khác biệt đáng kể (p = 0,545). TCI tăng cường theo thời gian (+0,260 → +0,426, Paternoster p = 0,011).
 
-Bảng 2.3. So sánh bằng chứng ba bản thảo đồng hành.
+Bảng 2.3. So sánh bằng chứng bốn bản thảo đồng hành.
 
-| Chiều | P3 Việt Nam (Nhóm IV) | P4 Singapore (Nhóm I) | P5 Trung Quốc (Nhóm III) |
-|-------|-----------------------|----------------------|--------------------------|
-| Dạng I→P | Chữ U ngược xác nhận | Chủ yếu dương, TP ~88,6% | Chữ U ngược bền vững |
-| Điểm uốn chính | 39–46% FSTS | ~88,6% (thưa dữ liệu) | 47–49% FSTS |
-| TCI | Dương bền vững, nhân quả (IV) | Dương trực tiếp | Dương, tăng theo thời gian |
-| DAI | Phụ thuộc giai đoạn; IV null | Mở rộng tình huống (+3,119) | Kiểm soát (Tier 1 bão hòa) |
-| Temporal | Paternoster p < 0,001 (dịch chuyển) | Cắt ngang 2023 | Paternoster p = 0,545 (ổn định) |
-| Mô hình CDCM | Nhóm IV, trung gian | Nhóm I, bão hòa số | Nhóm III, đang trưởng thành |
+| Chiều | P2 Trung Quốc SMEs (Nhóm III) | P3 Việt Nam (Nhóm IV) | P4 Singapore (Nhóm I) | P5 Trung Quốc (Nhóm III) |
+|-------|-------------------------------|----------------------|----------------------|--------------------------|
+| Journal | JFAR (đã công bố 2026) | JABS (under review) | MIR (under review) | IJOEM (under review) |
+| Dạng I→P | **Bậc ba / cubic** (S-curve ba giai đoạn) | Chữ U ngược xác nhận | Chủ yếu dương, TP ~88,6% | Chữ U ngược bền vững |
+| Điểm uốn | Hai điểm uốn (cubic) | 39–46% FSTS | ~88,6% (thưa dữ liệu) | 47–49% FSTS |
+| TCI | Dương; RBV xác nhận | Dương bền vững, nhân quả (IV) | Dương trực tiếp | Dương, tăng theo thời gian |
+| DAI | Không kiểm định (pre-CDCM) | Phụ thuộc giai đoạn; IV null | Mở rộng tình huống (+3,119) | Kiểm soát (Tier 1 bão hòa) |
+| Temporal | Cắt ngang (không temporal) | Paternoster p < 0,001 (dịch chuyển) | Cắt ngang 2023 | Paternoster p = 0,545 (ổn định) |
+| Mô hình CDCM | Tiền thân (chưa tách TCI/DAI) | Nhóm IV, trung gian | Nhóm I, bão hòa số | Nhóm III, đang trưởng thành |
 
-Ba bản thảo cùng xác nhận ba dự đoán cốt lõi của CDCM: TCI là nhân quả và bền vững qua ba nền kinh tế khác nhau; DAI là phụ thuộc ngữ cảnh, không đồng nhất; chữ U ngược là dạng hàm phổ biến nhất cho doanh nghiệp vừa và nhỏ châu Á với điểm uốn phụ thuộc vào ICRV.
+*Ghi chú: P2 (Đỗ & Phan, 2026 — JFAR) là bản thảo tiền thân đã công bố, tìm thấy bậc ba (cubic nonlinearity) trong mẫu SMEs Trung Quốc — bằng chứng quan trọng cho dạng S-curve trong H1. P2 không kiểm định CDCM, được đưa vào đây để làm rõ sự tiến hóa phương pháp từ P2 sang P5.*
+
+Bốn bản thảo cùng xác nhận ba dự đoán cốt lõi của CDCM: TCI là nhân quả và bền vững qua ba nền kinh tế khác nhau; DAI là phụ thuộc ngữ cảnh, không đồng nhất; chữ U ngược (hoặc S-curve cubic trong P2) là dạng hàm phổ biến nhất cho doanh nghiệp vừa và nhỏ châu Á với điểm uốn phụ thuộc vào ICRV.
 
 
 #### 2.3.2 Khung lý thuyết tích hợp 4 tầng
