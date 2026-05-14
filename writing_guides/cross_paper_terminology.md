@@ -118,12 +118,18 @@ The thesis distinguishes three export participation concepts:
 
 ## 7. CDCM Framework
 
-**Full term:** Context-Contingent Digital Capability Model (CDCM)
-**Vietnamese:** Mô hình năng lực kỹ thuật số có điều kiện theo bối cảnh (CDCM)
-**First mention:** "digital capability model (Context-Contingent Digital Capability Model — CDCM)"
+**Full term:** Context-Contingent Digital-and-Capability Model (CDCM)
+**Vietnamese:** Mô hình kỹ thuật số và năng lực có điều kiện theo bối cảnh (CDCM)
+**First mention:** "digital-and-capability model (Context-Contingent Digital-and-Capability Model — CDCM)"
 **Subsequent:** "CDCM"
 
-The CDCM is the theoretical framework developed in Chuyên đề 2 and tested empirically across P3–P5. It posits that DAI's moderating effect on the FSTS–performance relationship is conditional on the ICRV regime.
+The CDCM is the theoretical framework developed in Chuyên đề 2 and tested empirically across P3–P5. It has two distinct pillars:
+- **"Digital"** = DAI adoption dimension (foundational digital presence — Tier-1/Tier-2 only; **not** dynamic digital capability)
+- **"Capability"** = TCI process-competence dimension (foreign-technology and standards capability)
+
+> **Critical naming rule:** Do NOT write "digital capability model" as if DAI represents a capability construct. WBES DAI items (c22b website, k33/k38 e-payment) are binary adoption/presence measures — Tier 1–2 in the Verhoef et al. (2021) hierarchy. DAI cannot support dynamic-capability or reconfiguration-capability framing. Always write "digital *adoption*" when referring to the DAI dimension.
+
+The CDCM posits that TCI's moderating effect on the FSTS–performance inverted-U is the primary capability mechanism, while DAI's role is conditional on ICRV regime and wave (proxy obsolescence in early waves; baseline adoption signal in 2023).
 
 ---
 
