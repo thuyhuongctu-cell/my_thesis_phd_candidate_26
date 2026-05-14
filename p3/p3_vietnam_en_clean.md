@@ -1,6 +1,7 @@
 # Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption
 
-*Author details removed for blind review*
+**Do Thuy Huong** · College of Economics, Can Tho University · huongp1323001@gstudent.ctu.edu.vn  
+**Phan Anh Tu** *(Corresponding author)* · College of Economics, Can Tho University · patu@ctu.edu.vn
 
 *Target journal: Journal of Asia Business Studies (JABS), Emerald Publishing*
 

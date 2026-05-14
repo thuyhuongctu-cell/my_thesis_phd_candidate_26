@@ -1,5 +1,8 @@
 # Technological Capability, Digital Adoption, and the Internationalization–Performance Relationship: A Firm-Level Study of Singapore
 
+**Do Thuy Huong** · College of Economics, Can Tho University · huongp1323001@gstudent.ctu.edu.vn  
+**Phan Anh Tu** *(Corresponding author)* · College of Economics, Can Tho University · patu@ctu.edu.vn
+
 *Target journal: Management International Review (MIR)*
 
 ---

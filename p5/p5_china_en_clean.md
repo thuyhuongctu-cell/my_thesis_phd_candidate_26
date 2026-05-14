@@ -1,6 +1,7 @@
-<!-- BLIND REVIEW: Remove author-identifying information before submission -->
-
 # The Export Intensity–Performance Relationship in Chinese Private Firms: A Threshold-Stability Perspective
+
+**Do Thuy Huong** · College of Economics, Can Tho University · huongp1323001@gstudent.ctu.edu.vn  
+**Phan Anh Tu** *(Corresponding author)* · College of Economics, Can Tho University · patu@ctu.edu.vn
 
 *Submission: International Journal of Emerging Markets (IJOEM)*
 
@@ -269,7 +270,7 @@ Several limitations should be noted. First, WBES data are cross-sectional within
 
 ### 5.5 Future Research
 
-Several directions emerge from this study. First, future work should use WBES panel data (where available for other countries) to test within-firm temporal dynamics of the I–P threshold. Second, the level-shift strengthening of TCI_full between waves invites investigation of the mechanisms by which technological capability became more productivity-enhancing between 2012 and 2024. Third, the digital-capability proxy could be enriched using WBES’s emerging e-commerce and platform-sales items (available in some country waves), enabling a more rigorous test of the TCI–DAI mediation pathway. Readers should note that a companion analysis ([Author(s), Year]; details omitted for double-anonymized reviewing) examines a manufacturing-only extraction and GVC-position moderator using the same WBES waves; the present manuscript focuses on the full private-firm frame and threshold stability.
+Several directions emerge from this study. First, future work should use WBES panel data (where available for other countries) to test within-firm temporal dynamics of the I–P threshold. Second, the level-shift strengthening of TCI_full between waves invites investigation of the mechanisms by which technological capability became more productivity-enhancing between 2012 and 2024. Third, the digital-capability proxy could be enriched using WBES’s emerging e-commerce and platform-sales items (available in some country waves), enabling a more rigorous test of the TCI–DAI mediation pathway. Readers should note that a companion analysis (Đỗ & Phan, 2026) examines a manufacturing-only extraction and GVC-position moderator using the same WBES waves; the present manuscript focuses on the full private-firm frame and threshold stability.
 
 ---
 
