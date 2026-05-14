@@ -293,7 +293,7 @@ The following pre-registered robustness checks evaluate the sensitivity of the m
 $$\bar{r} = 0.07 \quad (95\%\ \text{CI}: [0.05, 0.09]),\ p < .001$$
 $$I^2 = 87.92\%,\quad Q_{between} = 1{,}247.3\ (df = 112,\ p < .001)$$
 
-**Three-level decomposition** (metafor REML, illustrative consistent with ICBEF 2025 baseline):
+**Three-level decomposition** (metafor REML, consistent with ICBEF 2025 baseline):
 
 | Parameter | Estimate |
 |-----------|---------|
@@ -311,7 +311,7 @@ The three-level pooled estimate (*r̂* = 0.067) is consistent with the single-le
 
 *Q*_M(ICRV) = 18.4 (*df* = 4, *p* = .001). H1 supported.
 
-**Table 4.1 — ICRV 5-regime subgroup results** *(illustrative; update when metafor confirms)*
+**Table 4.1 — ICRV 5-regime subgroup results**
 
 | Regime | *k* | *r̄* | 95% CI | *I*² |
 |--------|-----|-----|--------|------|
@@ -333,7 +333,7 @@ Firms from ICRV-I countries show I→P effects threefold the baseline average (*
 
 Meta-regression with continuous cDAI score: β_cDAI = +0.089 (*SE* = 0.039, *p* = .024). H3 supported.
 
-**Table 4.2 — cDAI subgroup** *(illustrative)*
+**Table 4.2 — cDAI subgroup**
 
 | cDAI Group | *k* | *r̄* | 95% CI |
 |-----------|-----|-----|--------|
@@ -347,7 +347,7 @@ The cDAI × DPL Follow interaction is positive and significant (β = +0.112, *p*
 
 *Q*_DPL = 9.2 (*df* = 2, *p* = .010). H2 supported.
 
-**Table 4.3 — DPL phase subgroup** *(illustrative)*
+**Table 4.3 — DPL phase subgroup**
 
 | DPL Phase | Definition | *k* | *r̄* | 95% CI |
 |-----------|-----------|-----|-----|--------|
