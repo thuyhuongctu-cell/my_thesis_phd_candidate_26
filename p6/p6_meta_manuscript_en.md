@@ -236,6 +236,10 @@ The three-level pooled estimate (*r̂* = 0.067) is consistent with the single-le
 | IV — SIDS (Pacific islands) | ~5 | −0.04 | [−0.15, 0.08] | 43% |
 | V — Frontier (BD, MM…) | ~10 | −0.02 | [−0.09, 0.06] | 71% |
 
+![Figure 2: ICRV 5-regime forest plot — subgroup pooled effects with 95% CI](figures/figure2_icrv_forest.png)
+
+*Figure 2.* ICRV subgroup forest plot. Pooled *r̄* and 95% CI for each of the five institutional regimes.
+
 The gradient confirms H1a (Advanced *r̄* = 0.21) and provides partial support for H1b (Frontier/SIDS *r̄* near zero; wide CIs prevent definitive negative conclusion for SIDS at *k* ≈ 5). The pattern is consistent with Capability–Institution Mismatch Theory: institutional quality amplifies the productivity returns to internationalization by reducing coordination costs and protecting rents from knowledge transfer (Kogut & Zander, 1993).
 
 Firms from ICRV-I countries show I→P effects threefold the baseline average (*r̄* = 0.21 vs. pooled 0.07). This is consistent with the institutional complementarity argument: in high-quality institutional environments, firms can sustain productive export intensification well beyond levels viable in Emerging or Frontier contexts, where coordination costs accumulate faster (Khanna & Palepu, 2010).
@@ -268,9 +272,17 @@ The cDAI × DPL Follow interaction is positive and significant (β = +0.112, *p*
 
 Pairwise z-tests (Paternoster et al., 1998): Follow vs. Precede (*z* = 3.1, *p* = .002); Follow vs. Span (*z* = 2.0, *p* = .046); Span vs. Precede (*z* = 1.4, *p* = .15, n.s.). The significant Follow vs. Span comparison confirms that the DPL inflection is concentrated in the post-2014 period, consistent with Brynjolfsson et al.'s (2021) J-curve timeline: digital infrastructure benefits materialize with a 5–7 year lag after mainstream adoption.
 
+![Figure 3: DPL phase moderation — pooled I→P effect by digital adoption epoch](figures/figure3_dpl_phase.png)
+
+*Figure 3.* DPL phase subgroup results. Pooled effect sizes by Precede / Span / Follow epoch, with 95% CI. The J-curve pattern (monotonic increase from Precede to Follow) is consistent with H2.
+
 ### 4.6 Publication Bias (H4)
 
 Egger's regression test intercept: *b* = 0.41 (*SE* = 0.19, *p* = .032) — mild asymmetry detected. Trim-and-fill imputes 8 missing studies and adjusts pooled *r̄* from 0.067 to 0.057 (95% CI [0.019, 0.094]) — effect remains positive and significant. Fail-safe *N* = 4,218 studies: implausibly large; publication bias cannot eliminate the positive effect. H4 supported: publication bias is present but not publication-altering.
+
+![Figure 5: Funnel plot with trim-and-fill imputed studies](figures/figure5_funnel_plot.png)
+
+*Figure 5.* Funnel plot of effect sizes against standard errors. Open circles = original studies; filled circles = trim-and-fill imputed studies (*k* = 8). Mild left-side asymmetry is visible but does not reverse the positive pooled effect.
 
 ### 4.7 Robustness
 
@@ -281,6 +293,10 @@ Egger's regression test intercept: *b* = 0.41 (*SE* = 0.19, *p* = .032) — mild
 | FSTS-only restriction | *r̄* = 0.09, *I*² = 83%, ICRV gradient maintained |
 | WGI composite ICRV | Gradient preserved; Frontier/SIDS effect unchanged |
 | Post-2000 only (*k* ≈ 180) | DPL findings stable; Follow vs. Precede *z* = 2.8, *p* = .005 |
+
+![Figure 4: Leave-one-out sensitivity — pooled *r̄* range across leave-one-out iterations](figures/figure4_sensitivity.png)
+
+*Figure 4.* Leave-one-out sensitivity analysis. Each point is the pooled *r̄* with 95% CI after removing one study. The narrow range confirms no single study drives the results.
 
 ---
 
