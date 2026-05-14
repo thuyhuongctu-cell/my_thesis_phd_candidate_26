@@ -60,7 +60,7 @@
 
 # 1. Phenomenon-based positioning — vì sao luận án này khác
 
-Luận án của NCS là **cumulative dissertation** với **8 papers** (P1–P8), **multi-country WBES ≈25–36 economies**, **institutional gradient narrative** từ Singapore (regime I) đến Pacific SIDS (regime IV/V). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
+Luận án của NCS là **cumulative dissertation** với **8 papers** (P1–P8), **multi-country WBES ≈25–36 economies**, **institutional gradient narrative** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime V/Frontier). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
 
 Tông luận này đối chiếu luận án với các công trình nghiên cứu quốc tế và châu Á tương đương để chứng minh **tính mới và đóng góp độc đáo** trong bối cảnh học thuật quốc tế hiện nay.
 
@@ -214,7 +214,7 @@ Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade Universi
 | **# countries** | 32 | Multi-EMNE | Multi | 1 (US) | 1 (Colombia) | 1 (Japan) | 1 (VN) | **25–36** |
 | **Pacific SIDS coverage** | Không | Không | Không | Không | Không | Không | Không | **8 Pacific countries** |
 | **TCI/DAI separation** | n/a | n/a | n/a | Digital capability composite | n/a | n/a | n/a | **Yes — separated (Bharadwaj 2013; Verhoef 2021; Coltman 2008)** |
-| **Institutional gradient** | Yếu | Yếu | Yếu | Không | Một biến | Không | Không | **Full Regime I→V** |
+| **Institutional gradient** | Yếu | Yếu | Yếu | Không | Một biến | Không | Không | **Full ICRV Regime I→V (6-regime CD2; 5-regime P3/P6)** |
 | **Boundary condition test** | Không | Không | Không | Không | Không | Không | Không | **Forced Penalty** |
 | **Multi-method** | Single (meta) | Single (meta) | Single (meta) | Single | Single | Single (panel) | Single | **Mixed (meta + empirical + boundary)** |
 | **Time span** | 40 years | 23 years | 32 years | 21 years | 6 years | 11 years | 5–9 years | **44 years (1982–2026)** |
@@ -317,7 +317,7 @@ heterogeneity?
 ✅ P3 Vietnam — Frontier V, inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
 ✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft → MIR)
 🔄 P5 China temporal 2012–2024 (manuscript complete → IJOEM)
-🔄 P6 Meta-analysis three-level MARA k=235 (manuscript draft complete → APJM)
+🔄 P6 Meta-analysis three-level MARA k=235 (manuscript draft complete → IBR — International Business Review)
 🔄 P7 Asian capstone TCI+DAI (planning)
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 
