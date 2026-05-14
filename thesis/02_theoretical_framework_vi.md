@@ -24,7 +24,7 @@ Trong bối cảnh đương đại, RBV được mở rộng bằng dynamic capa
 
 Institutional Theory (North, 1990; Scott, 1995; Khanna & Palepu, 2010) cho rằng thể chế tạo ra cấu trúc khuyến khích, chi phí giao dịch và mức bất định khác nhau giữa các quốc gia, do đó cả chiến lược quốc tế hóa và hiệu quả của nó đều phụ thuộc vào môi trường thể chế của nơi doanh nghiệp hoạt động. Ở emerging markets, **institutional voids** — tức thiếu hụt các thể chế trung gian hỗ trợ giao dịch thị trường — tạo ra chi phí tăng thêm và dị biệt hiệu quả doanh nghiệp (Khanna & Palepu, 2010; Peng, 2003).
 
-Marano et al. (2016) cung cấp meta-analytic evidence cho thấy home country institutions điều tiết mối quan hệ internationalization–performance, trong khi Cuervo-Cazurra et al. (2018) chỉ ra rằng home country uncertainty tạo ra năng lực quản lý bất định ở doanh nghiệp emerging market. Trong luận án, Institutional Theory cung cấp nền lý thuyết cho giả thuyết về vai trò điều tiết của institutional obstacles và cơ chế "digital shield effect".
+Marano et al. (2016) cung cấp meta-analytic evidence cho thấy home country institutions điều tiết mối quan hệ internationalization–performance, trong khi Cuervo-Cazurra et al. (2018) chỉ ra rằng home country uncertainty tạo ra năng lực quản lý bất định ở doanh nghiệp emerging market. Trong luận án, Institutional Theory cung cấp nền lý thuyết cho giả thuyết về vai trò điều tiết của institutional obstacles và cơ chế "digital shield effect". Để vận hành hóa tầng thể chế đa cấp, luận án áp dụng khung **ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế)** phân loại 47 nền kinh tế thành 6 sub-regime: Advanced Innovation-Driven (Singapore), Advanced Resource-Driven (GCC), Upper-middle, Emerging, Frontier, và Pacific SIDS — mở rộng từ phân loại thể chế của Khanna và Palepu (2010) và WGI (Kaufmann et al., 2011).
 
 ### 2.4 Upper Echelons Theory
 
@@ -47,8 +47,9 @@ Hai construct này không đồng nhất và có thể vận hành khác nhau tr
 
 ```
           INSTITUTIONAL CONTEXT                  TOP MANAGER
-          (institutional voids,                 CHARACTERISTICS
-           obstacles, regime)                  (experience, gender)
+          (ICRV 6 sub-regime:                  CHARACTERISTICS
+           voids, obstacles,                   (experience, gender)
+           regime gradient)
                   ↓                                  ↓
                   ↓           moderates                ↓
                   ↓              ↓↓                   ↓
@@ -93,7 +94,7 @@ Cơ sở lý thuyết: Hambrick và Mason (1984) với Upper Echelons; Hsu et al
 
 ### H5: Điều tiết bởi institutional context
 
-**H5**: Chất lượng thể chế làm giảm tác động bất lợi của institutional obstacles lên hiệu quả hoạt động trong quá trình quốc tế hóa, và technology adoption đóng vai trò "digital shield" bù đắp một phần institutional voids.
+**H5**: Chất lượng thể chế theo khung ICRV (6 sub-regime từ Advanced Innovation-Driven đến Pacific SIDS) điều tiết tác động của institutional obstacles lên hiệu quả hoạt động trong quá trình quốc tế hóa, với digital adoption đóng vai trò "digital shield" bù đắp một phần institutional voids — với cường độ điều tiết giảm dần theo gradient ICRV từ Frontier đến Advanced.
 
 Cơ sở lý thuyết: North (1990) với institutions và economic performance; Khanna và Palepu (2010) với institutional voids; Marano et al. (2016) với meta-analytic evidence về home country institutions trong I–P relationship.
 
@@ -111,7 +112,7 @@ Cơ sở lý thuyết: Wu et al. (2022) với twenty-year meta-analysis về EMN
 | H2 | Tương tác $FSTS \times TCI$ trong hồi quy | Country-level và multi-country |
 | H3 | Tương tác $FSTS \times DAI$ và $FSTS^2 \times DAI$ | Country-level và multi-country |
 | H4 | Tương tác $FSTS \times Manager_{exp}$ và $FSTS \times Manager_{gender}$ | Multi-country (do dữ liệu quy mô lớn) |
-| H5 | Tương tác $FSTS \times Institutional_{obstacles}$; subgroup theo regime | Multi-country |
+| H5 | Tương tác $FSTS \times Institutional_{obstacles}$; subgroup theo ICRV regime (Advanced / Emerging / Frontier / SIDS) | Multi-country |
 | H6 | Tương tác $FSTS \times Year_{2024}$ và $FSTS^2 \times Year_{2024}$ | China two-wave analysis |
 
 Chi tiết mô hình phân tích và kiểm định độ vững được trình bày trong file `03_methodology_vi.md`.
