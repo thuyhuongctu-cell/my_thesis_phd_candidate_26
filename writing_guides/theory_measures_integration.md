@@ -1,5 +1,5 @@
 # Theory & Measures Integration Guide
-**PhD Dissertation: Internationalization, Digital Capability, and Firm Performance in Asia**
+**PhD Dissertation: Internationalization, Digital Adoption, and Firm Performance in Asia**
 **Author: Do Thuy Huong — Can Tho University**
 **Version: 1.0 (May 2026)**
 
@@ -20,14 +20,26 @@ dissertation uses four theoretical pillars that operate at different levels of a
 | Pillar | Level | Core claim | Role in CDCM |
 |--------|-------|-----------|--------------|
 | **Uppsala Model** (Johanson & Vahlne, 1977, 2009) | Process (firm trajectory) | Internationalization proceeds via experiential learning; foreign market commitment increases as knowledge accumulates | Explains *why* FSTS follows a non-linear path: early-stage export generates learning returns, but beyond a threshold organisational complexity dominates |
-| **Resource-Based View** (Barney, 1991; Wernerfelt, 1984; Peng, 2001) | Firm capabilities | Sustained performance advantage requires VRIN resources; TCI and DAI are capability proxies | Establishes TCI and DAI as *moderating resources* — their presence shifts the FSTS turning point because they reduce the coordination-cost penalty of deep internationalisation |
+| **Resource-Based View** (Barney, 1991; Wernerfelt, 1984; Peng, 2001) | Firm capabilities | Sustained performance advantage requires VRIN resources; TCI is a validated capability proxy; DAI is a foundational digital adoption indicator | Establishes TCI as a *capability-level moderator* and DAI as a *digital adoption moderator* — both shift the FSTS turning point, but through different mechanisms (process competence vs. market visibility) |
 | **Institutional Theory** (North, 1990; Scott, 1995; Khanna & Palepu, 2010) | Country/regime context | Formal and informal institutions shape the transaction-cost environment in which firm resources yield returns | Provides the logic for ICRV as a contextual moderator: the same DAI level yields higher returns in Advanced regimes (credible digital infrastructure) than in Frontier regimes (weak enforcement) |
 | **Upper Echelons Theory** (Hambrick & Mason, 1984; Hambrick, 2007) | Manager cognition | Top manager characteristics (experience, gender) shape strategic risk tolerance and foreign-market commitment | Justifies the inclusion of manager-level moderators in M4–M5; also explains heterogeneity in turning points across firm subgroups |
 
-**Digital Capability Lens** (Banalieva & Dhanaraj, 2019; Verhoef et al., 2021;
-Stallkamp & Schotter, 2021): a fifth integrating layer that bridges RBV (DAI as a
-digitally-enabled capability) and institutional theory (digital infrastructure quality varies
-by ICRV regime). This is the theoretical foundation of CDCM.
+**Foundational Digital Adoption Framework** (Stallkamp & Schotter, 2021; Verhoef et al.,
+2021; Banalieva & Dhanaraj, 2019): a fifth integrating layer that bridges RBV (TCI as a
+process-capability moderator) and institutional theory (the translation of digital adoption
+into export-market benefits varies by ICRV regime). This is the theoretical foundation of
+CDCM.
+
+> **Critical measurement boundary (read before citing DAI as "capability"):**
+> WBES items for DAI are binary adoption/presence measures — c22b (website presence),
+> k33 (e-payment from customers), k38 (e-payment to suppliers). These map to Tier 1
+> (digitization) and Tier 2 (digitalization) in the Verhoef et al. (2021) hierarchy.
+> WBES does **not** contain items for Tier 3 (digital process integration: ERP, CRM) or
+> Tier 4 (digital dynamic capability: AI deployment, platform reconfiguration). Therefore,
+> DAI in this dissertation measures **digital adoption/presence**, not digital capability.
+> Framing DAI as "dynamic digital capability" would overstate what the WBES instrument
+> supports. Use "digital adoption" language when describing DAI; reserve "digital capability"
+> for TCI (which captures process-technology absorption) and for theoretical mechanisms only.
 
 ### 1.2 The CDCM Logic Chain
 
@@ -36,7 +48,7 @@ by ICRV regime). This is the theoretical foundation of CDCM.
                ↓
 [RBV] → TCI shifts the turning point rightward by buffering complexity costs (H2)
                ↓
-[RBV + Digital Capability Lens] → DAI shifts the turning point contingently (H3)
+[RBV + Foundational Digital Adoption Framework] → DAI shifts the turning point contingently (H3)
                ↑
 [Institutional Theory] → Direction and magnitude of DAI shift depends on ICRV regime (H5)
                ↓
@@ -59,12 +71,14 @@ When introducing the theoretical framework at the start of a paper, use this str
 > **process-capability-context interaction** rather than a main effect. The Uppsala model
 > (Johanson & Vahlne, 1977, 2009) predicts a non-linear trajectory driven by learning
 > accumulation and coordination complexity; the resource-based view (Barney, 1991) explains
-> why technological and digital capabilities alter the efficiency of that trajectory;
+> why technological capability (TCI) and foundational digital adoption (DAI) alter the efficiency of that trajectory;
 > institutional theory (North, 1990; Scott, 1995) conditions the returns to those
 > capabilities on the regime-level quality of formal institutions; and Upper Echelons theory
 > (Hambrick & Mason, 1984) introduces managerial-cognitive heterogeneity as a second
-> capability-level moderator. Together, these form the Context-Contingent Digital Capability
-> Model (CDCM), which is tested empirically in this study."
+> capability-level moderator. Together, these form the Context-Contingent Digital-and-Capability
+> Model (CDCM), which is tested empirically in this study. [Note: 'Digital' in CDCM refers
+> to the DAI adoption dimension; 'Capability' refers to the TCI process-competence dimension.
+> DAI is a digital adoption measure, not a dynamic capability measure.]"
 
 ---
 
@@ -190,16 +204,18 @@ Z-standardised within sample before regression (`DAI_z`).
 > engaged firms from non-participants in global information flows (Stallkamp & Schotter,
 > 2021). While this measure does not capture digital depth (e-payment, e-procurement,
 > ERP integration), cross-wave comparability requires a common measurement base.
-> We treat DAI Tier-1 as a **lower-bound digital capability signal** and report
-> sensitivity analyses using DAI Tier-1+2 where the 2023 BREADY module is available."
+> We treat DAI Tier-1 as a **foundational digital adoption indicator (lower-bound adoption signal)**
+> and report sensitivity analyses using DAI Tier-1+2 where the 2023 BREADY module is available.
+> This measure does not claim to capture digital capability; it captures digital presence/adoption."
 
-**Theoretical justification (Digital Capability Lens):**
+**Theoretical justification (Foundational Digital Adoption — digital presence as entry condition):**
 > "A firm without a website operates below the visibility threshold for digital market
 > participation; the binary distinction between website presence and absence captures
-> the *entry condition* for digital export market discovery (Banalieva & Dhanaraj, 2019).
-> Above this threshold, the marginal effect of deeper digital adoption (e-payment) on
-> performance is better modelled as a continuous interaction — addressed in P4 and P5
-> 2024 analyses using DAI Tier-1+2."
+> the *entry condition* for digital export market discovery (Stallkamp & Schotter, 2021;
+> Banalieva & Dhanaraj, 2019). This is a digital adoption threshold (Rogers, 1962 diffusion
+> framework), not a dynamic capability. Above this threshold, the marginal effect of deeper
+> digital adoption (e-payment) on performance is better modelled as a continuous interaction
+> — addressed in P4 and P5 2024 analyses using DAI Tier-1+2."
 
 #### Why DAI and TCI are kept separate (not collapsed into one composite)
 
@@ -318,7 +334,7 @@ development of China's digital regulatory environment across provinces."
 >
 > H1: Export intensity (FSTS) is related to labour productivity in an inverted-U pattern,
 > with performance increasing at low FSTS levels and decreasing at high FSTS levels
-> (conditional on technological and digital capabilities, holding other factors constant)."
+> (conditional on technological capability [TCI] and foundational digital adoption [DAI], holding other factors constant)."
 
 ### 3.2 H2 — TCI Positive Moderation (Turning-Point Shift)
 
@@ -340,13 +356,15 @@ development of China's digital regulatory environment across provinces."
 
 ### 3.3 H3 — DAI Conditional Moderation (CDCM)
 
-**Template (Digital Capability Lens + Institutional Theory interaction):**
+**Template (Foundational Digital Adoption Framework + Institutional Theory interaction):**
 > "Digital adoption (DAI) introduces a dual theoretical prediction that distinguishes it
-> from TCI moderation. On one hand, the digital capability lens (Banalieva & Dhanaraj, 2019;
-> Stallkamp & Schotter, 2021) predicts that website presence — by increasing market
-> visibility, reducing search costs for foreign buyers, and enabling asynchronous
+> from TCI moderation. On one hand, the foundational digital adoption framework (Stallkamp &
+> Schotter, 2021; Banalieva & Dhanaraj, 2019) predicts that website presence — by increasing
+> market visibility, reducing search costs for foreign buyers, and enabling asynchronous
 > communication — amplifies the learning returns from international engagement, suggesting
-> a positive DAI × FSTS interaction at low-to-moderate FSTS levels. On the other hand,
+> a positive DAI × FSTS interaction at low-to-moderate FSTS levels. [Note: This is a digital
+> *adoption* mechanism, not a dynamic capability mechanism; the WBES binary items support
+> the adoption framing, not Tier-3/4 capability framing.] On the other hand,
 > institutional theory (North, 1990) implies that this amplifying effect is conditional:
 > in regimes where digital infrastructure is high-quality and e-commerce regulations are
 > credible (ICRV Group I — Singapore), DAI generates reliable export-discovery advantages;
@@ -427,7 +445,7 @@ Minimum citations per theory:
 | RBV | Barney (1991), Wernerfelt (1984) | Peng (2001), Teece et al. (1997) |
 | Institutional | North (1990), Scott (1995) | Khanna & Palepu (2010), Peng (2003) |
 | Upper Echelons | Hambrick & Mason (1984), Hambrick (2007) | Only in H4 papers |
-| Digital Capability | Stallkamp & Schotter (2021), Banalieva & Dhanaraj (2019) | Verhoef et al. (2021) |
+| Digital Adoption (Foundational) | Stallkamp & Schotter (2021), Banalieva & Dhanaraj (2019), Rogers (1962) | Verhoef et al. (2021) — Tier 1–2 only; NOT dynamic capability |
 
 ### 5.2 Contribution framing (per author voice guide §2, Pattern 4)
 
@@ -473,13 +491,20 @@ Every paper must contain a sentence in §5 Discussion that:
 
 #### 2.X.1 Theoretical Rationale
 
-**Paragraph 1 — The Digital Capability Lens and market-interface function:**
+**Paragraph 1 — Foundational digital adoption and market-interface function:**
 
-Digital adoption represents a distinct class of firm capability that operates at the
-market-interface rather than the production-process level. The digital capability lens
-(Banalieva & Dhanaraj, 2019; Stallkamp & Schotter, 2021) conceptualises digital tools
-as mechanisms that reduce the geographic and informational friction inherent in cross-border
-transactions. A firm with a web presence — the minimum-bar indicator of digital adoption
+> **Framing note**: DAI in this dissertation captures digital *adoption* (binary website
+> presence / e-payment usage from WBES), not dynamic digital capability. Theoretical
+> arguments in this section refer to the mechanism by which foundational digital presence
+> reduces market-interface friction — which is observable with Tier-1/2 WBES items.
+> Do not frame this as a "dynamic capability" argument; WBES data cannot support Tier-3/4
+> claims.
+
+Digital adoption at the foundational level — website presence (Tier 1) and electronic
+payment usage (Tier 2) — functions primarily at the market-interface rather than the
+production-process level. The foundational digital adoption framework (Stallkamp &
+Schotter, 2021; Banalieva & Dhanaraj, 2019) conceptualises these tools as mechanisms that
+reduce the geographic and informational friction inherent in cross-border transactions. A firm with a web presence — the minimum-bar indicator of digital adoption
 (DAI Tier-1) — gains visibility to foreign buyers through search engines and digital
 marketplaces, reduces response latency to international orders, and signals credibility in
 markets where physical proximity cannot substitute for reputational signals. These
@@ -494,14 +519,14 @@ firms extract higher performance returns per unit of FSTS increase.
 
 **Paragraph 2 — The ICRV conditioning mechanism:**
 
-However, the digital capability lens does not operate in an institutional vacuum. The
-returns to digital adoption for export-market engagement depend critically on the
-*credibility* and *completeness* of the digital infrastructure in the firm's operating
+However, the foundational digital adoption framework does not operate in an institutional
+vacuum. The returns to digital adoption for export-market engagement depend critically on
+the *credibility* and *completeness* of the digital infrastructure in the firm's operating
 environment — a factor that varies systematically across the ICRV institutional spectrum.
 Institutional theory (North, 1990; Scott, 1995) predicts that formal institutions —
 specifically, digital-transaction regulations, payment system reliability, intellectual
 property protection, and e-commerce enforcement capacity — determine whether digital
-capabilities translate into realised competitive advantages or remain latent potential.
+adoption translates into realised competitive advantages or remains latent potential.
 In Advanced Innovation-Driven regimes (ICRV Group I, e.g., Singapore), digital
 infrastructure is world-class, e-commerce regulation is transparent, and digital payment
 systems are ubiquitous; a firm's DAI investment yields predictable, reliable export-market
@@ -512,8 +537,8 @@ under which the same DAI investment yields uncertain returns, and may even gener
 disadvantages if digital visibility attracts fraudulent buyers or creates compliance costs
 without corresponding revenue gains. This ICRV conditioning mechanism generates the
 context-contingency prediction at the core of CDCM: *DAI moderates the FSTS–performance
-relationship in the direction predicted by the Digital Capability Lens, but only above a
-threshold institutional quality that varies by ICRV regime.*
+relationship in the direction predicted by the foundational digital adoption framework, but
+only above a threshold institutional quality that varies by ICRV regime.*
 
 **Paragraph 3 — Distinguishing DAI moderation from TCI moderation:**
 
