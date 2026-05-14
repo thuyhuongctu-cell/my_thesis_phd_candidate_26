@@ -32,7 +32,7 @@ This paper addresses all three gaps through a fresh systematic search expanding 
 
 **Contributions.** We make three methodological and three theoretical contributions:
 *(Methodological)*: (1) First three-level MARA for the I→P literature; (2) first PRISMA-2020-compliant systematic search with OSF pre-registration for this topic; (3) first application of between-study *vs.* within-study heterogeneity decomposition to I→P.
-*(Theoretical)*: (4) ICRV 5-regime provides the first institution-theoretic contingency framework tested meta-analytically for Asia-Pacific I→P; (5) cDAI demonstrates that national digital infrastructure moderates aggregate I→P more strongly in the post-2014 DPL Follow phase; (6) DPL phase confirms a productivity-accumulation J-curve in the digitized internationalization landscape.
+*(Theoretical)*: (4) ICRV 5-regime provides the first institution-theoretic contingency framework tested meta-analytically for Asia-Pacific I→P; (5) cDAI shows that national digital infrastructure moderates aggregate I→P more strongly in the post-2014 DPL Follow phase; (6) DPL phase confirms a productivity-accumulation J-curve in the digitized internationalization literature.
 
 ---
 
@@ -42,7 +42,7 @@ This paper addresses all three gaps through a fresh systematic search expanding 
 
 Four theoretical perspectives ground the moderating hypotheses:
 
-**Resource-Based View (RBV).** Barney (1991) establishes that sustainable competitive advantages derive from VRIN resources. Internationalization tests whether firms can leverage home-country resources (including digital capabilities) across institutional environments of varying quality. Wernerfelt's (1984) resource bundling logic predicts that digital tools compound existing resource advantages.
+**Resource-Based View (RBV).** Barney (1991) establishes that sustainable competitive advantages derive from VRIN resources. Internationalization tests whether firms can draw on home-country resources (including digital capabilities) across institutional environments of varying quality. Wernerfelt's (1984) resource bundling logic predicts that digital tools compound existing resource advantages.
 
 **Institutional Theory.** North's (1990) framework positions formal and informal institutions as the "rules of the game" shaping transaction costs. In the I→P context, higher institutional quality (lower uncertainty, better contract enforcement, stronger IP protection) reduces the costs of cross-border coordination — amplifying the productivity returns to international expansion.
 
@@ -54,7 +54,7 @@ Four theoretical perspectives ground the moderating hypotheses:
 
 We propose *Capability–Institution Mismatch Theory* (CIMT) to explain the ICRV gradient: the I→P effect is stronger when a firm's home-country institutional quality *matches* the capability requirements of cross-border expansion. In high-quality institutional environments (ICRV Regime I–II), formal institutions enforce contracts, protect IP, and reduce liability of foreignness — so that each unit of internationalization translates into larger performance gains. In institutional voids (Frontier and SIDS contexts), coordination costs accumulate faster than scale economies, depressing the I→P effect toward zero or negative territory (Khanna & Palepu, 2010).
 
-**Hypothesis 1 (H1 — ICRV gradient):** The I→P pooled effect decreases monotonically from ICRV Advanced (Regime I) through ICRV Frontier (Regime V), with *Q*_M(ICRV) statistically significant (*p* < .05).
+**Hypothesis 1 (H1 — ICRV gradient):** When firms operate in higher-quality institutional environments (ICRV Regime I → V), the pooled I→P effect is expected to decrease monotonically, because formal institutions — contract enforcement, IP protection, and reduced liability of foreignness — amplify the productivity returns to each unit of international expansion (Khanna & Palepu, 2010; North, 1990). This gradient is bounded by the assumption that institutional quality varies systematically across regimes rather than within them; studies spanning multiple regimes are therefore coded to the modal regime. *Q*_M(ICRV) is expected to be statistically significant (*p* < .05).
 
 **Hypothesis 1a:** Firms from Advanced-Innovation environments (ICRV-I: Singapore, Hong Kong, South Korea, Japan, Australia) show the largest pooled I→P effect (*r̄* > 0.15).
 
@@ -67,19 +67,19 @@ Inspired by Brynjolfsson et al.'s (2021) AI productivity J-curve and David's (19
 - **Span** (data spanning 2005–2014): digital infrastructure building; mixed effects; transition period.
 - **Follow** (data collected predominantly after 2014): digital platforms (cloud logistics, B2B platforms, e-payment) sufficiently mature to compress coordination costs; expected strongest I→P effect.
 
-**Hypothesis 2 (H2 — DPL phase):** Pooled I→P effects increase across DPL phases: *r̄*(Follow) > *r̄*(Span) > *r̄*(Precede), with *Q*_DPL significant (*p* < .05).
+**Hypothesis 2 (H2 — DPL phase):** In the DPL Follow phase (predominantly post-2014), pooled I→P effects are expected to be largest, because digital platforms reach the maturity threshold at which coordination-cost compression outweighs adjustment costs — the mechanism identified by Brynjolfsson et al.'s (2021) productivity J-curve and David's (1990) dynamo analogy. This ordering is bounded by the classification rule that studies must be assignable to a dominant data period; mixed-period studies are coded as Span. Formally: *r̄*(Follow) > *r̄*(Span) > *r̄*(Precede), with *Q*_DPL significant (*p* < .05).
 
 ### 2.4 cDAI as Amplifier (Hm3)
 
 National digital adoption (cDAI) — measured as country-year scores from the World Bank Digital Adoption Index or ITU Digital Development Index — captures whether the digital infrastructure environment is mature enough to lower coordination costs for internationalizing firms. Bustamante et al. (2022) establish that institutions and digital capabilities interact in SME internationalization; Bharadwaj et al. (2013) frame digital business strategy as a distinct nomological net.
 
-**Hypothesis 3 (H3 — cDAI amplification):** Higher cDAI amplifies the I→P relationship (β_cDAI > 0 in continuous meta-regression, *p* < .05). The cDAI × DPL Follow interaction is significant and positive.
+**Hypothesis 3 (H3 — cDAI amplification):** When national digital adoption (cDAI) is higher, the I→P relationship is expected to be amplified (β_cDAI > 0, *p* < .05), because mature national digital infrastructure lowers coordination costs for internationalizing firms — the mechanism linking platform-based IB theory (Stallkamp & Schotter, 2021) to firm-level performance returns (Bharadwaj et al., 2013). This amplification effect is bounded by DPL phase: it is expected to be concentrated in the Follow phase, where digital infrastructure has reached the maturity threshold necessary to compress coordination costs. The cDAI × DPL Follow interaction is accordingly expected to be significant and positive.
 
 ### 2.5 Publication Bias as Null Hypothesis
 
 Given the history of selective reporting in IB meta-analyses (Borenstein et al., 2021), we test publication bias as a formal null hypothesis:
 
-**Hypothesis 4 (H4 — Publication bias):** Egger's regression intercept, trim-and-fill adjusted effect, and fail-safe N are not consistent with severe selective reporting (non-directional, inferential null: publication bias does not reverse the sign of the pooled effect).
+**Hypothesis 4 (H4 — Publication bias):** Significant funnel-plot asymmetry and trim-and-fill adjustment are expected, because selective reporting of positive I→P findings is well-documented in the literature; however, these are not expected to be severe enough to reverse the sign of the pooled effect. The boundary condition is that fail-safe N must be implausibly large (> 2,000 studies) for the positive pooled effect to be attributed to bias alone (Orwin, 1983). Formally: Egger's regression intercept, trim-and-fill adjusted effect, and fail-safe N are not consistent with severe selective reporting (non-directional, inferential null: publication bias does not reverse the sign of the pooled effect).
 
 ### 2.6 Conceptual Model
 
@@ -292,11 +292,11 @@ The meta-analytic results align coherently with patterns documented in country-l
 
 **Frontier-V contexts (e.g., Vietnam, Bangladesh, Myanmar):** The near-zero meta-analytic *r̄* for Frontier regimes (−0.02) is consistent with CIMT: in institutional voids, productive internationalization saturates quickly, after which coordination costs dominate (Khanna & Palepu, 2010). Country-level studies from frontier economies consistently document low turning points in the inverted-U relationship, reflecting the speed at which institutional friction offsets scale benefits at moderate export intensities (Đỗ & Phan, 2024).
 
-**Advanced-I contexts (e.g., Singapore, South Korea, Japan, Hong Kong):** The threefold baseline effect (*r̄* = 0.21 for ICRV-I vs. pooled 0.07) aligns with institutional complementarity theory: strong contract enforcement, IP protection, and low liability of foreignness allow firms to leverage digital coordination tools at high export intensities without the coordination cost penalties that truncate internationalization benefits in lower-quality institutional environments (North, 1990; Peng et al., 2008).
+**Advanced-I contexts (e.g., Singapore, South Korea, Japan, Hong Kong):** The threefold baseline effect (*r̄* = 0.21 for ICRV-I vs. pooled 0.07) aligns with institutional complementarity theory: strong contract enforcement, IP protection, and low liability of foreignness allow firms to use digital coordination tools at high export intensities without the coordination cost penalties that truncate internationalization benefits in lower-quality institutional environments (North, 1990; Peng et al., 2008).
 
 **Emerging contexts (e.g., China, India, Malaysia, Thailand):** Intermediate *r̄* values (0.06–0.12) are consistent with the CIMT gradient prediction. In emerging environments, technological capability shifts the I→P performance intercept positively — reflecting direct productivity returns to digital investment — without amplifying the marginal return to deeper internationalization, as institutional friction limits the synergy between export intensity and digital capability (Đỗ & Phan, 2024). At the primary-study level, Do & Phan (2025) document a negative linear DOI coefficient (β = −36.664, *p* < .001) on 380 Indian WBES firms (FGLS estimation), with manager experience (β_DOI×exp = 1.546, *p* < .001) and female top-management leadership (β_DOI×gender = 77.032, *p* < .001) as positive moderating factors. This pattern is precisely consistent with CIMT: aggregate I→P returns are modest in Emerging institutional environments, but firm-level compensating resources — managerial human capital and leadership diversity — can partially overcome institutional friction to generate positive interaction effects.
 
-**Synthesis:** The meta-analytic ICRV gradient (*Q*_M = 18.4, *p* = .001) confirms that digital adoption functions as a *conditional scaling resource*: its amplification effect depends on the institutional quality of the operating environment. This finding is consistent with the broader Asia-Pacific evidence base (Đỗ & Phan, 2024) and advances the CIMT framework by providing systematic cross-study validation of the regime-contingent I→P mechanism.
+**Synthesis:** The meta-analytic ICRV gradient (*Q*_M = 18.4, *p* = .001) confirms that digital adoption functions as a *conditional scaling resource*: its amplification effect depends on the institutional quality of the operating environment. The pattern is consistent with the broader Asia-Pacific evidence base (Đỗ & Phan, 2024) and advances the CIMT framework by providing systematic cross-study validation of the regime-contingent I→P mechanism.
 
 ### 5.2 Theoretical Contributions
 
@@ -304,21 +304,21 @@ The meta-analytic results align coherently with patterns documented in country-l
 
 **Contribution 2: Digital Paradox Lifecycle (DPL).** The significant DPL phase moderation (*Q*_DPL = 9.2, *p* = .010) is the first systematic evidence that I→P effect magnitudes follow a temporal J-curve aligned with the digital platform adoption curve. The DPL framework extends Brynjolfsson et al.'s (2021) productivity J-curve from macro-economic to micro-firm level.
 
-**Contribution 3: cDAI as systematic moderator.** β_cDAI = +0.089 (*p* = .024), concentrated in DPL Follow (post-2014), demonstrates that national digital infrastructure is a contextual amplifier of firm-level internationalization benefits. This advances Stallkamp and Schotter's (2021) platform-based IB theory by providing the first meta-analytic causal identification.
+**Contribution 3: cDAI as systematic moderator.** β_cDAI = +0.089 (*p* = .024), concentrated in DPL Follow (post-2014), shows that national digital infrastructure is a contextual amplifier of firm-level internationalization benefits. The result advances Stallkamp and Schotter's (2021) platform-based IB theory by providing the first meta-analytic causal identification.
 
 ### 5.3 Managerial and Policy Implications
 
 **For firms in Frontier contexts (Vietnam, Bangladesh, Myanmar):** The near-zero meta-analytic I→P effect (*r̄* = −0.02) suggests that pure export intensification is a suboptimal strategy in institutional-void environments. Investment in technological capability as a performance level-shifter — improving the productivity intercept through quality certification, R&D, and foreign technology licensing — is a more viable path than chasing export scale (Đỗ & Phan, 2024).
 
-**For firms in Advanced contexts (Singapore, South Korea, Japan):** The threefold baseline I→P effect (*r̄* = 0.21) and large cDAI amplification coefficient (β = +0.089) indicate that digital-platform-enabled internationalization offers disproportionate returns. Firms in high-quality institutional environments should invest in advanced digital capabilities (e-payment, cloud logistics, digital B2B platforms) to leverage the institutional complementarity effect that amplifies productivity gains at high export intensities.
+**For firms in Advanced contexts (Singapore, South Korea, Japan):** The threefold baseline I→P effect (*r̄* = 0.21) and large cDAI amplification coefficient (β = +0.089) indicate that digital-platform-enabled internationalization offers disproportionate returns. Firms in high-quality institutional environments should invest in advanced digital capabilities (e-payment, cloud logistics, digital B2B platforms) to draw on the institutional complementarity effect that amplifies productivity gains at high export intensities.
 
-**For policymakers:** The ICRV-I vs. ICRV-V performance gap (*r̄* = 0.21 vs. −0.02) underscores that institutional quality and digital infrastructure investment are prerequisites for export-led productivity growth. Policies targeting both simultaneously (e.g., Vietnam's 2025 Digital Economy Strategy alongside business environment reforms) are more likely to shift the turning point outward than either intervention alone.
+**For policymakers:** The ICRV-I vs. ICRV-V performance gap (*r̄* = 0.21 vs. −0.02) confirms that institutional quality and digital infrastructure investment are prerequisites for export-led productivity growth. Policies targeting both simultaneously (e.g., Vietnam's 2025 Digital Economy Strategy alongside business environment reforms) are more likely to shift the turning point outward than either intervention alone.
 
 ### 5.4 Limitations and Inferential Bounds
 
 Three limitations bound the inferences available from this study:
 
-**(a) What cannot be concluded:** (1) The SIDS subgroup (*k* ≈ 5, wide CI) does not permit definitive conclusions about the "forced-penalty" hypothesis — more SIDS-focused primary studies are needed before meta-analytic SIDS effects are precise. (2) The cDAI × ICRV joint moderation (three-way interaction) is underpowered in the current dataset (*k* per cell < 20); point estimates are provided but confidence intervals are wide. (3) All effect sizes are cross-sectional or panel at the study level — no longitudinal meta-regression can distinguish selection effects from causal learning returns to internationalization.
+**(a) What cannot be concluded:** (1) The SIDS subgroup (*k* ≈ 5, wide CI) does not permit definitive conclusions about the "forced-penalty" hypothesis — a targeted search for SIDS-focused primary studies (as specified in Appendix B) is required before meta-analytic SIDS effects are precise. (2) The cDAI × ICRV joint moderation (three-way interaction) is underpowered in the current dataset (*k* per cell < 20); point estimates are provided but confidence intervals are wide. (3) All effect sizes are cross-sectional or panel at the study level — no longitudinal meta-regression can distinguish selection effects from causal learning returns to internationalization.
 
 **(b) Methodological remedies for future work:** Panel meta-analysis with longitudinal effect sizes from individual-firm data would enable causal decomposition (Sutton & Higgins, 2008). Bayesian meta-regression with informative priors from country-level panel studies of frontier economies would tighten SIDS regime estimates.
 
@@ -328,7 +328,7 @@ Three limitations bound the inferences available from this study:
 
 ## 6. Conclusion
 
-This study presents the first three-level MARA of the internationalization–performance relationship, extending the ICBEF 2025 baseline from *k* = 113 to *k* = 235 and introducing three novel moderators: ICRV institutional regime, country-level digital adoption (cDAI), and Digital Paradox Lifecycle phase. The pooled effect (*r* = 0.07, *I*² = 87.92%) is confirmed, and three-level decomposition reveals that 65% of heterogeneity is between-study — validating country context as the dominant source of I→P variability.
+The paper reports the first three-level MARA of the internationalization–performance relationship, extending the ICBEF 2025 baseline from *k* = 113 to *k* = 235 and introducing three novel moderators: ICRV institutional regime, country-level digital adoption (cDAI), and Digital Paradox Lifecycle phase. The pooled effect (*r* = 0.07, *I*² = 87.92%) is confirmed, and three-level decomposition reveals that 65% of heterogeneity is between-study — validating country context as the dominant source of I→P variability.
 
 ICRV 5-regime moderation (*Q*_M = 18.4, *p* = .001) establishes a clear institutional gradient: Advanced-Innovation contexts (*r̄* = 0.21) yield threefold the baseline effect compared to Frontier contexts (*r̄* = −0.02). cDAI amplifies I→P (β = +0.089, *p* = .024), concentrated in the post-2014 DPL Follow phase. Together, these three moderators explain a substantial portion of the residual heterogeneity that prior meta-analyses could not account for.
 

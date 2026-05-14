@@ -927,6 +927,8 @@ Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of in
 
 Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Manuscript under review]. *International Journal of Emerging Markets*. [P5 — Trung Quốc]
 
+Đỗ, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. [P2 — Trung Quốc SMEs, đã công bố]
+
 Geringer, J. M., Beamish, P. W., & daCosta, R. C. (1989). Diversification strategy and internationalization: Implications for MNE performance. *Strategic Management Journal, 10*(2), 109–119.
 
 Glaum, M., & Oesterle, M.-J. (2007). 40 years of research on internationalization and firm performance: More questions than answers? *Management International Review, 47*(3), 307–317.
