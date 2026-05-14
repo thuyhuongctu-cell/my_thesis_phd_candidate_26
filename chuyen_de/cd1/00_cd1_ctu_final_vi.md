@@ -282,7 +282,7 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 
 **Nguyên tắc minh bạch dữ liệu** (Aguinis et al., 2019): chuyên đề trình bày rõ (i) định nghĩa tổng thể (47 nền kinh tế châu Á và Thái Bình Dương, phân tách 41 và 7); (ii) quy trình lấy mẫu (lấy mẫu chính thức WBES); (iii) lý giải quy mô mẫu (pool 101.185); (iv) xử lý giá trị thiếu (FSTS = d3b + d3c, winsorize 1/99); (v) xây dựng biến; (vi) độ tin cậy và giá trị (TCI đa thành phần; DAI đơn thành phần Spec 1, đa thành phần Spec 2); (vii) phương pháp ước lượng (mô tả trong CĐ1; OLS và biến công cụ trong CĐ2); (viii) khoa học mở.
 
-**Hệ thống phòng thủ ba tầng cho đứt gãy schema BREADY 2025**: Đợt 2025 (n=17.107 doanh nghiệp, 16,9% pool) sử dụng schema mới BREADY gây biến động bất thường: Ấn Độ FSTS giảm từ 7,7% xuống 2,7%; R&D nhiều nước tăng đột biến do hiệu ứng bảng hỏi chứ không phải thực tế. Ba đề xuất phương pháp: (3a) biến giả `Post_BREADY_2024` hấp thụ hiệu ứng schema tĩnh; (3b) mô hình neo (anchor model) — chạy hồi quy với dữ liệu đến 2024, khóa hệ số, kiểm định ổn định với dữ liệu đầy đủ bằng Chow test; (3c) panel hậu đại dịch độc lập — tách 2025 thành tập xác thực ngoài mẫu cho kỷ nguyên hậu COVID và AI.
+**Hệ thống phòng thủ ba tầng cho đứt gãy schema BREADY 2025**: Đợt 2025 (n=15.313 doanh nghiệp, 15,1% pool) sử dụng schema mới BREADY gây biến động bất thường: Ấn Độ FSTS giảm từ 7,7% xuống 2,7%; R&D nhiều nước tăng đột biến do hiệu ứng bảng hỏi chứ không phải thực tế. Ba đề xuất phương pháp: (3a) biến giả `Post_BREADY_2024` hấp thụ hiệu ứng schema tĩnh; (3b) mô hình neo (anchor model) — chạy hồi quy với dữ liệu đến 2024, khóa hệ số, kiểm định ổn định với dữ liệu đầy đủ bằng Chow test; (3c) panel hậu đại dịch độc lập — tách 2025 thành tập xác thực ngoài mẫu cho kỷ nguyên hậu COVID và AI.
 
 ---
 
@@ -443,9 +443,9 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 
 #### 2.3.3.1 Nguồn dữ liệu và cấu trúc pool
 
-**Phạm vi tổng hợp dữ liệu**. Nhóm dữ liệu gồm **101.185 doanh nghiệp**, 47 nền kinh tế, **108 cặp quốc gia × năm**, giai đoạn 2009–2025 (bao gồm Kiribati 2025: +150 doanh nghiệp, +1 cặp quốc gia × năm). Tổng hợp này kế thừa và mở rộng từ 17 nước châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026 — VEFR), gấp ~2,5 lần. Phân bố theo phân nhóm con ICRV: Emerging 47.803 (47%), Frontier 28.678 (28%), Upper-middle 16.693 (17%), Advanced 6.640 (7%), **SIDS 1.371 (1,4% — bao gồm Kiribati 2025)**. Có **14 đợt khảo sát năm 2025** với 17.107 doanh nghiệp.
+**Phạm vi tổng hợp dữ liệu**. Nhóm dữ liệu gồm **101.185 doanh nghiệp**, 47 nền kinh tế, **108 cặp quốc gia × năm**, giai đoạn 2009–2025 (bao gồm Kiribati 2025: +150 doanh nghiệp, +1 cặp quốc gia × năm). Tổng hợp này kế thừa và mở rộng từ 17 nước châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026 — VEFR), gấp ~2,5 lần. Phân bố theo phân nhóm con ICRV: Emerging 47.803 (47%), Frontier 28.678 (28%), Upper-middle 16.693 (17%), Advanced 6.640 (7%), **SIDS 1.371 (1,4% — bao gồm Kiribati 2025)**. Có **13 quốc gia khảo sát năm 2025** với 15.313 doanh nghiệp (Nepal 2025 chưa có dữ liệu).
 
-*Hình 2.3.3.1. Phân bố mẫu 101.185 doanh nghiệp xuyên 17 năm (2009–2025) theo 3 thế hệ schema WBES: PICS3 (2009–2012, n=14.171), Standardized (2013–2017, n=24.564), BREADY (2018–2025, n=62.450 bao gồm Kiribati 2025). Đợt 2025 đột biến với 17.107 doanh nghiệp = 16,9% pool.*
+*Hình 2.3.3.1. Phân bố mẫu 101.185 doanh nghiệp xuyên 17 năm (2009–2025) theo 3 thế hệ schema WBES: PICS3 (2009–2012, n=14.171), Standardized (2013–2017, n=24.564), BREADY (2018–2025, n=62.450 bao gồm Kiribati 2025). Đợt 2025 đột biến với 15.313 doanh nghiệp = 15,1% pool.*
 
 *Hình 2.3.3.2. Bar chart phân bố theo 5 phân nhóm con: Emerging (47.803, 47,2%), Frontier (28.678, 28,3%), Upper-middle (16.693, 16,5%), Advanced (6.640, 6,6%), SIDS Thái Bình Dương (1.371, 1,4%, bao gồm Kiribati 2025).*
 
@@ -624,25 +624,24 @@ Năm phát hiện: (1) FSTS phân tầng 5,0%–7,2%–13,2% bị che giấu khi
 
 #### 2.3.6.5 Phân tích sâu đợt khảo sát 2025
 
-**Bảng 2.3.6.5**. *14 quốc gia trong đợt 2025 (n=17.107 — bao gồm Kiribati 2025).*
+**Bảng 2.3.6.5**. *13 quốc gia trong đợt 2025 (n=15.313 — bao gồm Kiribati 2025; Nepal 2025 chưa có dữ liệu — xem Nepal 2023 n=582 trong đợt 2023).*
 
 | Quốc gia | ISO3 | Phân nhóm con | n_firms | FSTS (%) | FDI (%) | R&D (%) | Website (%) | sd log |
 |---|---|---|---|---|---|---|---|---|
-| Ấn Độ | IND | Emerging | 10.479 | 2,7 | 1,9 | 2,2 | 41,8 | 0,83 |
-| Nepal | NPL | Frontier | 1.740 | n/a | n/a | n/a | n/a | n/a |
-| Saudi Arabia | SAU | Advanced | 1.002 | 2,7 | 9,5 | 1,7 | 30,2 | **0,47** |
-| Thái Lan | THA | Upper-middle | 813 | 9,3 | 6,3 | 8,7 | 61,9 | 1,38 |
-| Sri Lanka | LKA | Emerging | 607 | 16,1 | 1,8 | 4,1 | 48,8 | 1,00 |
-| Mông Cổ | MNG | Emerging | 601 | 5,9 | 3,2 | 20,8 | 64,7 | 1,15 |
-| Qatar | QAT | Advanced | 480 | 2,3 | 19,4 | 0,6 | 63,3 | **0,31** |
-| Afghanistan | AFG | Frontier | 480 | 6,4 | 1,0 | 25,8 | 45,8 | 1,42 |
-| Maldives | MDV | Frontier | 154 | 5,8 | 4,5 | 22,4 | **73,4** | 1,36 |
-| Fiji | FJI | SIDS | 151 | 12,5 | 9,9 | 18,8 | **74,8** | 1,09 |
-| Solomon Islands | SLB | SIDS | 150 | 4,8 | 20,0 | 11,3 | 53,3 | 1,25 |
-| Brunei | BRN | Advanced | 150 | 5,1 | 26,2 | 18,9 | **80,7** | 1,10 |
-| Kuwait | KWT | Advanced | 150 | **0,4** | 0,0 | 20,7 | 69,3 | 1,15 |
-| **Kiribati** | **KIR** | **SIDS** | **150** | **1,0** | **0,7** | **14,0** | **18,7** | **1,48** |
-| **Tổng 2025** | — | — | **17.107** | **3,8** | **2,9** | **5,4** | **44,2** | **0,90** |
+| Ấn Độ | IND | Emerging | 10.479 | 2,7 | 1,9 | 2,2 | 41,8 | 0,86 |
+| Saudi Arabia | SAU | Advanced | 1.002 | 2,7 | 9,5 | 1,7 | 30,2 | **0,49** |
+| Thái Lan | THA | Upper-middle | 813 | 9,2 | 6,3 | 8,7 | 61,9 | 1,49 |
+| Sri Lanka | LKA | Emerging | 607 | 16,1 | 1,8 | 4,1 | 48,8 | 1,21 |
+| Mông Cổ | MNG | Emerging | 601 | 5,9 | 3,2 | 20,8 | 64,7 | 1,30 |
+| Qatar | QAT | Advanced | 480 | 2,3 | 19,4 | 0,6 | 63,3 | **0,35** |
+| Afghanistan | AFG | Frontier | 426 | 5,9 | 1,0 | 25,8 | 47,2 | 1,53 |
+| Maldives | MDV | Frontier | 154 | 5,7 | 4,5 | 22,4 | **73,4** | 1,63 |
+| Fiji | FJI | SIDS | 151 | 12,2 | 9,9 | 18,8 | **74,8** | 1,22 |
+| Solomon Islands | SLB | SIDS | 150 | 4,8 | 20,0 | 11,3 | 53,3 | 1,43 |
+| Brunei | BRN | Advanced | 150 | 5,0 | 26,2 | 18,9 | **80,7** | 1,38 |
+| Kuwait | KWT | Advanced | 150 | **0,4** | 0,0 | 20,7 | 69,3 | 1,16 |
+| **Kiribati** | **KIR** | **SIDS** | **150** | **1,0** | **0,7** | **14,0** | **18,7** | **1,55** |
+| **Tổng 2025** | — | — | **15.313** | **3,8** | **2,9** | **5,4** | **44,2** | **0,90** |
 
 Bảy phát hiện từ đợt 2025: (1) Ấn Độ FSTS sụt 5 điểm phần trăm (hiệu ứng schema); (2) Thái Lan "số hóa tăng, xuất khẩu giảm"; (3) Fiji website 74,8% > Singapore 66,1% (nhảy vọt số); (4) Vùng Vịnh + Brunei Advanced tài nguyên dẫn dắt được xác nhận; (5) R&D schema-induced overestimation; (6) mẫu xác thực 2025 cho Chuyên đề 2; (7) **Kiribati cực đoan — FSTS 1,03%, FDI 0,7%, website 18,7% — đối lập hoàn toàn với Fiji. Dị biệt SIDS "số hóa cao" (FJI, MDV) so với "cô lập nông thôn" (KIR) — Chuyên đề 2 cần tách 2 phân nhóm con SIDS.**
 
@@ -785,7 +784,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **(vii) Pattern phi tuyến FDI ≥10%** — dạng chữ U với cực tiểu Emerging (4,7%): Advanced 11,1% → Emerging 4,7% → SIDS 23,5%. Hai mô hình FDI: MNE hub (Advanced) và du lịch/viễn thông (SIDS).
 
-**(viii) Đợt khảo sát 2025 — mẫu đơn năm lớn nhất**: 14 nước × 17.107 doanh nghiệp. Ấn Độ FSTS sụt 5 điểm phần trăm (hiệu ứng schema); Fiji website 74,8% > Singapore 66,1%; Kiribati đối lập cực đoan với Fiji.
+**(viii) Đợt khảo sát 2025 — mẫu đơn năm lớn nhất**: 13 nước × 15.313 doanh nghiệp (Nepal 2025 chưa có dữ liệu). Ấn Độ FSTS sụt 5 điểm phần trăm (hiệu ứng schema); Fiji website 74,8% > Singapore 66,1%; Kiribati đối lập cực đoan với Fiji.
 
 **(ix) Khung phân tích cấp ngành**: 9 ngành ISIC Rev. 4; kiểm định loại trừ ICT; bổ sung Dynamism profile theo Kafouros et al. (2023).
 
