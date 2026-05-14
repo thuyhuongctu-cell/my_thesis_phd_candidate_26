@@ -358,7 +358,9 @@ Cheung, M. W.-L. (2014). Modeling dependent effect sizes with three-level meta-a
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review*, 80(2), 355–361.
 
-Do Thuy Huong, & Phan Anh Tu. (2025). Internationalization and firm performance of firms in India: The role of top management. In *International Business Research – Traditional and Creative Approaches*. InTechOpen. https://doi.org/10.5772/intechopen.1011012
+Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF).
+
+Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
 
 Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis. *Biometrics*, 56(2), 455–463.
 
