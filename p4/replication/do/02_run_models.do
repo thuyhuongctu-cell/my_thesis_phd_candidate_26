@@ -16,7 +16,7 @@
 version 17
 clear all
 set more off
-set linesize 120
+set linesize 200
 
 /* ---- Directory Setup ---------------------------------------- */
 global out    "results"
@@ -118,6 +118,21 @@ esttab M0 M1 M2 M3 M4 M5 ///
 
 di as result "  Saved: table_2_main_models.csv"
 
+/* Professional RTF table for manuscript */
+esttab M0 M1 M2 M3 M4 M5 ///
+    using "$out/table_2_main_models.rtf", replace ///
+    b(%9.3f) se(%9.3f) ///
+    star(† 0.10 * 0.05 ** 0.01 *** 0.001) ///
+    stats(N r2_a lm_p, fmt(%9.0f %9.3f %9.3f) ///
+          labels("Observations" "Adj. R²" "Lind-Mehlum p")) ///
+    label mtitles("M0" "M1" "M2" "M3" "M4" "M5") ///
+    title("Table 2. Singapore 2023 — Main Threshold Models (M0–M5)") ///
+    addnote("Notes: HC1 robust SE in parentheses. † p<0.10, * p<0.05, ** p<0.01, *** p<0.001." ///
+            "FSTS centred at within-sample mean. TCI = Technological Capability Index (z-standardised)." ///
+            "DAI = Digital Adoption Index Tier-1+2 (DAIfull, website + e-payment, z-standardised)." ///
+            "Turning point TP = mean + [−b(FSTSc)/(2·b(FSTSc²))]; CI via delta method.") wrap
+di as result "  Saved: table_2_main_models.rtf"
+
 /* ============================================================
    PART B — Heckman IMR Selection Check
    Test whether exporter status (FSTS > 0) is endogenous
@@ -154,6 +169,18 @@ esttab M2 M2_heck ///
     label title("Heckman Selection Check") noobs
 
 di as result "  Saved: table_heckman_imr.csv"
+
+/* Professional RTF table — Heckman IMR robustness check */
+esttab M2 M2_heck ///
+    using "$out/table_heckman_imr.rtf", replace ///
+    b(%9.3f) se(%9.3f) ///
+    star(† 0.10 * 0.05 ** 0.01 *** 0.001) ///
+    stats(N r2_a, fmt(%9.0f %9.3f) labels("Observations" "Adj. R²")) ///
+    label mtitles("M2 Baseline" "M2 + Heckman IMR") ///
+    title("Appendix Table. Singapore 2023 — Heckman IMR Selection Check") ///
+    addnote("Notes: HC1 robust SE in parentheses. IMR = Inverse Mills Ratio from first-stage probit" ///
+            "on exporter dummy (FSTS > 0). † p<0.10, * p<0.05, ** p<0.01, *** p<0.001.") wrap
+di as result "  Saved: table_heckman_imr.rtf"
 
 /* ============================================================
    PART C — Robustness: Tier-1-only DAI sensitivity

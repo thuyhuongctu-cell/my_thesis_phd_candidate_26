@@ -19,7 +19,7 @@
 version 17
 clear all
 set more off
-set linesize 120
+set linesize 200
 
 /* ---- Directory Setup ---------------------------------------- */
 global out    "results"
@@ -134,6 +134,21 @@ foreach yr in 2009 2015 2023 {
         label title("Vietnam `yr' — Main Models") noobs
 
     di as result "  Saved: table_wave`yr'_models.csv"
+
+    /* Professional RTF table for manuscript (main models M0–M4) */
+    esttab M0 M1 M2 M3 M4 ///
+        using "$out/table_wave`yr'_main.rtf", replace ///
+        b(%9.3f) se(%9.3f) ///
+        star(† 0.10 * 0.05 ** 0.01 *** 0.001) ///
+        stats(N r2_a lm_p, fmt(%9.0f %9.3f %9.3f) ///
+              labels("Observations" "Adj. R²" "Lind-Mehlum p")) ///
+        label mtitles("M0" "M1" "M2" "M3" "M4") ///
+        title("Table 2 (Wave `yr'). Vietnam — Main Threshold Models") ///
+        addnote("Notes: HC1 robust SE in parentheses. † p<0.10, * p<0.05, ** p<0.01, *** p<0.001." ///
+                "FSTS centred at within-wave mean before quadratic specification." ///
+                "TCI = Technological Capability Index (z-standardised)." ///
+                "DAI = Digital Adoption Index Tier-1 (website only, z-standardised).") wrap
+    di as result "  Saved: table_wave`yr'_main.rtf"
 }
 
 /* ============================================================
@@ -197,6 +212,21 @@ esttab Mpooled0 Mpooled1 Mpooled2 Mpooled3 Mpooled4 ///
     stats(N r2 r2_a lm_p, fmt(%9.0f %6.4f %6.4f %6.4f)) ///
     label title("Vietnam Pooled — Main Models") noobs
 di as result "  Saved: table_pooled_models.csv"
+
+/* Professional RTF table — pooled main models (M0–M4) for manuscript */
+esttab Mpooled0 Mpooled1 Mpooled2 Mpooled3 Mpooled4 ///
+    using "$out/table_pooled_main.rtf", replace ///
+    b(%9.3f) se(%9.3f) ///
+    star(† 0.10 * 0.05 ** 0.01 *** 0.001) ///
+    stats(N r2_a lm_p, fmt(%9.0f %9.3f %9.3f) ///
+          labels("Observations" "Adj. R²" "Lind-Mehlum p")) ///
+    label mtitles("M0" "M1" "M2" "M3" "M4") ///
+    title("Table 3. Vietnam Pooled (2009+2015+2023) — Main Threshold Models") ///
+    addnote("Notes: Cluster-robust SE (cluster on firm ID) in parentheses." ///
+            "† p<0.10, * p<0.05, ** p<0.01, *** p<0.001. Wave dummies d15 d23 included." ///
+            "TCI = Technological Capability Index (z-standardised)." ///
+            "DAI = Digital Adoption Index Tier-1 (website only, z-standardised).") wrap
+di as result "  Saved: table_pooled_main.rtf"
 
 /* ============================================================
    PART C — Lind-Mehlum Turning-Point Summary Table

@@ -7,8 +7,10 @@
 
 clear all
 set more off
+set linesize 200
 version 17
-ssc install utest, replace
+cap ssc install estout, replace
+cap ssc install utest,  replace
 
 cap log close
 log using "run_models.log", replace text
@@ -46,6 +48,19 @@ esttab M0_2012 M1_2012 M2_2012 M3_2012 M4_2012 M5_2012 M6_2012 M7_2012 M8_2012 /
     using "results_2012.csv", replace ///
     se star(* 0.10 ** 0.05 *** 0.01) stats(N r2_a) label
 
+* Professional RTF table — main models (M0–M4) for manuscript
+esttab M0_2012 M1_2012 M2_2012 M3_2012 M4_2012 ///
+    using "results_2012_main.rtf", replace ///
+    b(%9.3f) se(%9.3f) ///
+    star(* 0.10 ** 0.05 *** 0.01) ///
+    stats(N r2_a, fmt(%9.0f %9.3f) labels("Observations" "Adj. R²")) ///
+    label mtitles("M0" "M1" "M2" "M3" "M4") ///
+    title("Table 2a. China 2012 — Main Threshold Models (M0–M4)") ///
+    addnote("Notes: HC1 robust SE in parentheses. * p<0.10, ** p<0.05, *** p<0.01." ///
+            "TCI = Technological Capability Index (composite, ≥3/4 items, z-standardised)." ///
+            "DAI = Digital Adoption Index Tier-1 (website presence, WBES c22b, z-standardised).") wrap
+di as result "  Saved: results_2012_main.rtf"
+
 *=================================================================
 * PART B — China 2024 wave estimates (mirrors 2012)
 *=================================================================
@@ -76,6 +91,19 @@ esttab M0_2024 M1_2024 M2_2024 M3_2024 M4_2024 M5_2024 M6_2024 M7_2024 M8_2024 /
     using "results_2024.csv", replace ///
     se star(* 0.10 ** 0.05 *** 0.01) stats(N r2_a) label
 
+* Professional RTF table — main models (M0–M4) for manuscript
+esttab M0_2024 M1_2024 M2_2024 M3_2024 M4_2024 ///
+    using "results_2024_main.rtf", replace ///
+    b(%9.3f) se(%9.3f) ///
+    star(* 0.10 ** 0.05 *** 0.01) ///
+    stats(N r2_a, fmt(%9.0f %9.3f) labels("Observations" "Adj. R²")) ///
+    label mtitles("M0" "M1" "M2" "M3" "M4") ///
+    title("Table 2b. China 2024 — Main Threshold Models (M0–M4)") ///
+    addnote("Notes: HC1 robust SE in parentheses. * p<0.10, ** p<0.05, *** p<0.01." ///
+            "TCI = Technological Capability Index (composite, ≥3/4 items, z-standardised)." ///
+            "DAI = Digital Adoption Index Tier-1 (website presence, WBES c22b, z-standardised).") wrap
+di as result "  Saved: results_2024_main.rtf"
+
 *=================================================================
 * PART C — Pooled estimates with cluster-robust SE on idstd
 *=================================================================
@@ -105,6 +133,20 @@ eststo M8_P: reg lnLP FSTS FSTSsq TCIfull DAIthin `controls' wave2024 if sample_
 esttab M0_P M1_P M2_P M3_P M4_P M5_P M6_P M7_P M8_P ///
     using "results_pooled.csv", replace ///
     se star(* 0.10 ** 0.05 *** 0.01) stats(N r2_a) label
+
+* Professional RTF table — main models (M0–M4) for manuscript
+esttab M0_P M1_P M2_P M3_P M4_P ///
+    using "results_pooled_main.rtf", replace ///
+    b(%9.3f) se(%9.3f) ///
+    star(* 0.10 ** 0.05 *** 0.01) ///
+    stats(N r2_a, fmt(%9.0f %9.3f) labels("Observations" "Adj. R²")) ///
+    label mtitles("M0" "M1" "M2" "M3" "M4") ///
+    title("Table 2c. China Pooled (2012+2024) — Main Threshold Models (M0–M4)") ///
+    addnote("Notes: Cluster-robust SE (cluster on firm ID, idstd) in parentheses." ///
+            "* p<0.10, ** p<0.05, *** p<0.01. wave2024 dummy controls for period fixed effect." ///
+            "TCI = Technological Capability Index (z-standardised)." ///
+            "DAI = Digital Adoption Index Tier-1 (z-standardised).") wrap
+di as result "  Saved: results_pooled_main.rtf"
 
 *=================================================================
 * PART D — Paternoster z-test for cross-wave coefficient equality
