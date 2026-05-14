@@ -447,7 +447,19 @@ foundational digital adoption become more conditional as export intensity rises?
 results are described as associations rather than effects, consistent with the inferential limits of
 repeated-cross-section data (Antonakis et al., 2010; Wooldridge, 2010).
 
-### 3.4 Replication and reproducibility
+### 3.4 Identification and Endogeneity Strategy
+
+A central identification concern in I→P research is that exporters self-select into foreign markets on the basis of characteristics — productivity, financial resilience, managerial quality — that also predict labour productivity independently of their export decision (Wagner, 2007; Wooldridge, 2010). Three design features address this concern.
+
+*Heckman two-step correction.* A probit selection equation with industry × region × wave fixed effects predicts the probability of positive export participation; the implied inverse Mills ratio (IMR) is included as an additional regressor in the main outcome equation. The IMR coefficient is interpreted as a direct test of residual selection bias: a statistically insignificant IMR indicates that the OLS estimate is not materially contaminated by unobserved positive selection into exporting (Certo et al., 2016; Heckman, 1979). Results are reported as Panel E in §4.5.
+
+*Instrumental-variable estimation.* Leave-one-out sector × region × wave peer-adoption rates serve as instruments for DAI and TCI. The instrument captures the digital and technological adoption decisions of peer firms in the same sector and region in the same survey wave, which are plausibly correlated with a focal firm's adoption but unlikely to affect the focal firm's labour productivity except through the adoption channel — satisfying approximate exclusion conditional on sector-wave cells. First-stage F-statistics of 22–35 are well above the Staiger–Stock (1997) threshold of 10, confirming instrument relevance.
+
+*Oster (2019) coefficient-stability bounds.* Assuming R²_max = 1.3 × R²_controlled, the Oster δ-stability bound is computed for each focal coefficient. No coefficient changes sign or collapses to zero under plausible magnitudes of unobserved selection, confirming that omitted-variable bias cannot account for the main findings.
+
+The repeated-cross-section data structure (three non-overlapping surveys of different firms) precludes within-firm fixed-effects estimation; the identification strategy therefore relies on the three complementary approaches above rather than panel differencing. All inferences are described as associations with the selection-robustness caveats noted above, consistent with the inferential conventions for cross-sectional WBES data (Antonakis et al., 2010; Shaver, 2020).
+
+### 3.5 Replication and reproducibility
 The full pipeline is implemented as a 10-step Stata blueprint distributed with the manuscript.
 The build steps (01–04) clean each WBES wave, harmonise the focal variable set, and append
 the three waves into a pooled file with within-wave centring and z-standardisation reapplied.
