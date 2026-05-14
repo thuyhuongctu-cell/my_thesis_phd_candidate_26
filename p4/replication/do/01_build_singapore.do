@@ -37,9 +37,10 @@ gen lnLP = ln(d2 / b1_d) if b1_d > 0 & d2 > 0
 label var lnLP "ln(Labour Productivity) — annual sales per worker"
 
 /* -- Export intensity (FSTS) -- */
-gen FSTS = d3b / 100 if d3b != .
-replace FSTS = 0   if d3b == 0 | d3b == .
-replace FSTS = .   if FSTS < 0 | FSTS > 1
+/* BREADY 2023 variable: d3b (% direct exports). Verify name vs. d3c in earlier waves. */
+/* Non-exporters report d3b = 0; missing d3b (no response) stays missing. */
+gen FSTS = d3b / 100 if !mi(d3b) & d3b >= 0
+replace FSTS = . if FSTS > 1   // flag any invalid values > 100%
 label var FSTS "Export intensity (Foreign Sales / Total Sales)"
 gen FSTSsq = FSTS^2
 label var FSTSsq "FSTS squared"
@@ -117,9 +118,35 @@ label var lnEmp        "ln(Number of employees)"
 label var firmage      "Firm age (years)"
 label var foreigndummy "Foreign ownership ≥10% dummy"
 
-/* -- Industry classification -- */
-capture gen ind_2digit = int(isic / 10) if isic != .
-label var ind_2digit "ISIC 2-digit industry group"
+/* -- Sector Classification (WBES BREADY 2023 Singapore) --
+   Manuscript §3.2.4: Manufacturing ~31%, Retail/Other services ~50%, Other ~19%
+   BREADY 2023 a4a codes (verify against Singapore_2023.dta labels):
+     1 = Manufacturing;  2 = Retail/Wholesale;  3+ = Services/Other
+   Fallback: uses ISIC divisional codes if a4a uses ISIC scheme (a4a > 10) */
+quietly summarize a4a if analytic
+local a4a_max = r(max)
+
+if `a4a_max' > 10 {
+    /* ISIC-based sector coding */
+    gen byte sec_mfg    = (a4a >= 10 & a4a <= 39) if !mi(a4a)
+    gen byte sec_retail = (a4a >= 45 & a4a <= 56) if !mi(a4a)
+}
+else {
+    /* BREADY 2023 numeric coding (1=Mfg, 2=Retail, 3+=Other) */
+    gen byte sec_mfg    = (a4a == 1) if !mi(a4a)
+    gen byte sec_retail = (a4a == 2 | a4a == 3) if !mi(a4a)
+}
+gen byte sec_other = (sec_mfg == 0 & sec_retail == 0) if (!mi(sec_mfg) & !mi(sec_retail))
+
+label var sec_mfg    "Manufacturing sector (BREADY a4a)"
+label var sec_retail "Retail/wholesale sector (BREADY a4a)"
+label var sec_other  "Other services sector (reference omitted in regressions)"
+
+/* Audit: sector shares should approximate 31% / 50% / 19% per §3.1 */
+foreach s in mfg retail other {
+    quietly count if sec_`s' == 1 & analytic
+    di as txt "[AUDIT] sec_`s' firms = " r(N) " (" %5.1f r(N)/_N*100 "%)"
+}
 
 /* -- Sample Flags -- */
 gen analytic   = (!missing(lnLP, FSTS, lnEmp))
@@ -137,15 +164,17 @@ quietly summarize lnLP if analytic, detail
 replace lnLP = r(p1)  if lnLP < r(p1)  & analytic
 replace lnLP = r(p99) if lnLP > r(p99) & analytic
 
-/* -- Audit -- */
+/* -- Audit: report each sample count before keep -- */
 di "Singapore 2023 — Raw N = " _N
-count if analytic
-count if base
-count if full_samp
-count if exp_samp
-
-di "Analytic N  = " r(N)
+count if analytic;   local n_analytic = r(N)
+count if base;       local n_base     = r(N)
+count if full_samp;  local n_full     = r(N)
+count if exp_samp;   local n_exp      = r(N)
+di "Analytic N   = `n_analytic'"
+di "Base N       = `n_base'"
+di "Full-samp N  = `n_full'  (expect ~617 per manuscript)"
+di "Exporters N  = `n_exp'   (expect ~84 per manuscript)"
 
 keep if analytic
 save "$out/singapore_2023_analytic.dta", replace
-di "Saved: singapore_2023_analytic.dta"
+di "Saved: $out/singapore_2023_analytic.dta (N = `n_analytic')"
