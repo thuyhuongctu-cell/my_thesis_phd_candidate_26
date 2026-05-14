@@ -31,14 +31,15 @@ open http://localhost:3000
 
 | Method | Path | Description |
 |--------|------|-------------|
-| POST | `/api/extract` | Upload PDF → extracted effect size |
+| POST | `/api/extract` | Base64 PDF body → extracted effect size |
+| POST | `/api/extract/upload` | Multipart PDF upload → extracted effect size |
 | GET | `/api/studies` | List studies (filter: icrv, dpl, verified, locked) |
 | GET | `/api/studies/{id}` | Single study detail |
-| PATCH | `/api/studies/{id}/verify` | PI field overrides |
+| PATCH | `/api/studies/{id}/verify` | PI field overrides + approval |
 | POST | `/api/studies/{id}/lock` | Irreversible PI data lock |
 | GET | `/api/studies/export/csv` | Export locked studies as CSV |
 | POST | `/api/notion/sync` | Push locked studies to Notion |
-| GET | `/api/health` | Health check |
+| GET | `/api/health` | Health check + service configuration flags |
 
 ## Extraction Workflow
 
