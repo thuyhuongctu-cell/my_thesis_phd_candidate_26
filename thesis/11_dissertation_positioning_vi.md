@@ -313,17 +313,17 @@ heterogeneity?
 8 PAPERS (P1–P8):
 ✅ P1 Emerging Asia 17 economies (VEFR 2026)
 ✅ P2 China SMEs (JFAR 2026)
-✅ P3 Singapore — ASEAN benchmark (draft)
-✅ P4 Vietnam — Resource Diversion Trap (draft)
-🔄 P5 China temporal 2012–2024 (running)
-🔄 P6 Meta-analysis update (planning)
+✅ P3 Vietnam — Frontier V, inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft)
+✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft)
+🔄 P5 China temporal 2012–2024 (manuscript complete)
+🔄 P6 Meta-analysis three-level MARA k=235 (manuscript draft complete)
 🔄 P7 Asian capstone TCI+DAI (planning)
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 
 INSTITUTIONAL GRADIENT:
-Singapore (regime I) → Inverted-U classic, 71% optimum
-Vietnam (regime II)  → Resource Diversion Trap, 37-44% optimum
-China (regime II→I)  → Vanishing inverted-U over time
+Vietnam (Frontier V)   → Inverted-U, TP ~39–46% FSTS (low optimum, Frontier constraint)
+Singapore (Advanced I) → Inverted-U, TP ~88.6% FSTS (wide CI [53–253%], support-constrained)
+China (Emerging IV)    → Inverted-U, TP ~47–49% FSTS (stable 2012→2024, Paternoster z=0.82)
 Asian capstone       → Heterogeneous moderation
 Pacific SIDS (regime IV/V) → REVERSED slope (Forced Penalty)
 
