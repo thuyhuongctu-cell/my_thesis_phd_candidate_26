@@ -96,21 +96,23 @@ The thesis distinguishes three export participation concepts:
 
 ## 6. ICRV Framework — Institutional Context Regime Variation
 
-| Regime | Code | Countries in thesis |
-|--------|------|---------------------|
-| Advanced Innovation-Driven | Nhóm I | Singapore (P4) |
-| Advanced Resource-Driven | Nhóm II | Gulf SIDS (Chuyên đề 1) |
-| Upper-Middle | Nhóm III | China upper tier |
-| Emerging | Nhóm IV | China main sample (P5) |
-| Frontier | Nhóm V | Vietnam (P3) |
-| SIDS | Nhóm VI | Small Island Developing States (Chuyên đề 1) |
+| Regime | CD2 Code (6-regime) | P3/P6 Code (5-regime) | Countries in thesis |
+|--------|---------------------|----------------------|---------------------|
+| Advanced Innovation-Driven | Nhóm I | Regime I | Singapore (P4) |
+| Advanced Resource-Driven | Nhóm II | Regime II | Gulf states (Chuyên đề 1) |
+| Upper-Middle | Nhóm III | Regime III | China main sample (P5) |
+| Emerging | Nhóm IV | *(no separate Regime IV in 5-regime system)* | Vietnam (P3); Indonesia; India |
+| Frontier | Nhóm V | Regime V ("Frontier V") | Most-frontier 17 economies |
+| SIDS | Nhóm VI | SIDS (separate) | Small Island Developing States (Chuyên đề 1) |
 
 **Full term:** Institutional Context Regime Variation (ICRV)
 **Vietnamese:** Biến thể chế độ bối cảnh thể chế (ICRV)
 **First mention:** "institutional context regime (Institutional Context Regime Variation — ICRV)"
 **Subsequent:** "ICRV" or "bối cảnh thể chế"
 
-**Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references: P3→Nhóm V, P4→Nhóm I, P5→Nhóm IV.
+**Two-system mapping note:** CD2 (Chuyên đề 2) uses a **6-regime system** where Vietnam = **Nhóm IV** (Emerging/cận biên trên), with Nhóm V being 17 more-extreme frontier economies. P3 and P6 use a **5-regime WGI-based system** (cutoff: WGI Rule of Law ≤ −0.50 = Frontier V) with no separate Regime IV — so Vietnam maps to **"Frontier V"** in P3/P6 because it falls in the most-frontier non-SIDS category. These are *equivalent placements in different numbering conventions*, not contradictory classifications. Vietnam WGI Rule of Law: −0.66 (2009), −0.57 (2015), −0.42 (2023) — borderline at the threshold over time, firmly Frontier in early waves.
+
+**Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (labeled "Frontier V" in P3/P6's 5-regime system), **P4→Nhóm I**, **P5→Nhóm III** (described as "Emerging/Upper-middle transition" in P5).
 
 ---
 
