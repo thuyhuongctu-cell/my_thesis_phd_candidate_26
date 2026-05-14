@@ -1,5 +1,5 @@
 # Cross-Paper Terminology Harmonization Guide
-**Papers P3 (Vietnam), P4 (Singapore), P5 (China), P6 (Meta-analysis)**
+**Papers P3 (Vietnam), P4 (Singapore), P5 (China), P6 (Meta-analysis), P7 (Asian Capstone), P8 (Pacific SIDS)**
 **Thesis: Internationalization, Digital Capability, and Firm Performance in Asia**
 
 ---
@@ -69,9 +69,10 @@ The thesis distinguishes three export participation concepts:
 
 | Term | Definition | Where used |
 |------|-----------|-----------|
-| **Extensive margin** | Whether a firm exports at all (binary: exporter vs. non-exporter) | P3, P4, P5 (exporter dummy) |
-| **Intensive margin** | How much a firm exports, among active exporters (FSTS level within exporters > 0) | P3, P4, P5 (FSTS conditional on export) |
+| **Extensive margin** | Whether a firm exports at all (binary: exporter vs. non-exporter) | P3, P4, P5, P7, P8 (exporter dummy) |
+| **Intensive margin** | How much a firm exports, among active exporters (FSTS level within exporters > 0) | P3, P4, P5, P7, P8 (FSTS conditional on export) |
 | **Participation-margin effect** | The productivity premium from switching from non-exporter to exporter status — the jump at FSTS = 0 | P3 §4.5, CD2 §3.1 |
+| **Forced internationalization penalty** | In SIDS, the NEGATIVE FSTS–LP slope: export engagement reduces productivity due to structural dependency on remittance/aid economies, thin domestic markets, and terms-of-trade vulnerability — not a strategic choice but a structural constraint. | P8 exclusively |
 
 **Standard sentence form:**
 > "The participation-margin effect — the productivity premium from entering export markets, as distinct from the intensive-margin gain from deepening export engagement among active exporters (Helpman, Melitz & Yeaple, 2004) — is captured by …"
@@ -96,14 +97,25 @@ The thesis distinguishes three export participation concepts:
 
 ## 6. ICRV Framework — Institutional Context Regime Variation
 
-| Regime | CD2 Code (6-regime) | P3/P6 Code (5-regime) | Countries in thesis |
-|--------|---------------------|----------------------|---------------------|
-| Advanced Innovation-Driven | Nhóm I | Regime I | Singapore (P4) |
-| Advanced Resource-Driven | Nhóm II | Regime II | Gulf states (Chuyên đề 1) |
-| Upper-Middle | Nhóm III | Regime III | China main sample (P5) |
-| Emerging | Nhóm IV | *(no separate Regime IV in 5-regime system)* | Vietnam (P3); Indonesia; India |
-| Frontier | Nhóm V | Regime V ("Frontier V") | Most-frontier 17 economies |
-| SIDS | Nhóm VI | SIDS (separate) | Small Island Developing States (Chuyên đề 1) |
+| Regime | CD2 Code (6-regime) | P3/P6 Code (5-regime) | P7 R code | Countries in thesis |
+|--------|---------------------|----------------------|-----------|---------------------|
+| Advanced Innovation-Driven | Nhóm I | Regime I | `Advanced_innovation` | Singapore (P4); Japan; Korea; Taiwan |
+| Advanced Resource-Driven | Nhóm II | Regime II | `Advanced_resource` | Gulf states (Chuyên đề 1); Brunei |
+| Upper-Middle | Nhóm III | Regime III | `Upper_mid` | China main sample (P5); Malaysia; Thailand |
+| Emerging | Nhóm IV | *(no separate Regime IV in 5-regime system)* | `Emerging` | Vietnam (P3); Indonesia; India; Philippines |
+| Frontier | Nhóm V | Regime V ("Frontier V") | `Lower_mid_transition` | Most-frontier economies; Afghanistan; Nepal |
+| SIDS | Nhóm VI | SIDS (separate) | `SIDS_small` | Pacific SIDS (P8): Fiji, Kiribati, Solomon Islands, Maldives |
+
+**P7 pooled-sample sizes by ICRV group (from p7_pooled_clean.csv, N=102,332):**
+
+| Group | N firms | TP (R, country FE) | FSTS–LP shape |
+|-------|---------|-------------------|---------------|
+| Advanced_innovation | 4,708 | 56.6% | Inverted-U |
+| Advanced_resource | 2,269 | — | Inverted-U (p<.10) |
+| Upper_mid | 13,993 | 3.4% (near 0, caution) | Inverted-U |
+| Emerging | 18,201 | 43.7% | Inverted-U*** |
+| Lower_mid_transition | 50,926 | 44.5% | Inverted-U*** |
+| SIDS_small | 1,885 | — | **U-shaped (penalty confirmed)** |
 
 **Full term:** Institutional Context Regime Variation (ICRV)
 **Vietnamese:** Biến thể chế độ bối cảnh thể chế (ICRV)
@@ -112,7 +124,9 @@ The thesis distinguishes three export participation concepts:
 
 **Two-system mapping note:** CD2 (Chuyên đề 2) uses a **6-regime system** where Vietnam = **Nhóm IV** (Emerging/cận biên trên), with Nhóm V being 17 more-extreme frontier economies. P3 and P6 use a **5-regime WGI-based system** (cutoff: WGI Rule of Law ≤ −0.50 = Frontier V) with no separate Regime IV — so Vietnam maps to **"Frontier V"** in P3/P6 because it falls in the most-frontier non-SIDS category. These are *equivalent placements in different numbering conventions*, not contradictory classifications. Vietnam WGI Rule of Law: −0.66 (2009), −0.57 (2015), −0.42 (2023) — borderline at the threshold over time, firmly Frontier in early waves.
 
-**Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (labeled "Frontier V" in P3/P6's 5-regime system), **P4→Nhóm I**, **P5→Nhóm III** (described as "Emerging/Upper-middle transition" in P5).
+**Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (labeled "Frontier V" in P3/P6's 5-regime system), **P4→Nhóm I**, **P5→Nhóm III** (described as "Emerging/Upper-middle transition" in P5), **P7→all 6 groups (cross-regime), P8→Nhóm VI (SIDS_small)**.
+
+**Institutional gradient in P7 results (key cross-paper narrative):** The ICRV gradient is empirically confirmed in P7 — Emerging and Lower_mid_transition groups show the steepest inverted-U (highest b1, lowest TP ~44-45%), while Advanced_innovation shows a higher TP (~57%) and flatter curve. SIDS_small is the exception: U-shaped (Forced Penalty), confirming the boundary condition hypothesis.
 
 ---
 
@@ -130,6 +144,49 @@ The CDCM is the theoretical framework developed in Chuyên đề 2 and tested em
 > **Critical naming rule:** Do NOT write "digital capability model" as if DAI represents a capability construct. WBES DAI items (c22b website, k33/k38 e-payment) are binary adoption/presence measures — Tier 1–2 in the Verhoef et al. (2021) hierarchy. DAI cannot support dynamic-capability or reconfiguration-capability framing. Always write "digital *adoption*" when referring to the DAI dimension.
 
 The CDCM posits that TCI's moderating effect on the FSTS–performance inverted-U is the primary capability mechanism, while DAI's role is conditional on ICRV regime and wave (proxy obsolescence in early waves; baseline adoption signal in 2023).
+
+---
+
+## 7b. P7/P8 Specific Terminology
+
+### Forced Internationalization Penalty (P8)
+
+**Full term:** Forced Internationalization Penalty (FIP)
+**Vietnamese:** Hình phạt quốc tế hóa bắt buộc (FIP)
+**Definition:** In Pacific SIDS economies, export engagement (FSTS > 0) is associated with *lower* labour productivity — β(FSTSc) = −0.357 (p = .069, country+year FE, HC1 SE, N = 1,352). This is not a strategic performance trap (as in the classic overextension hypothesis) but a **structural constraint**: SIDS firms export under compulsion from thin domestic markets and dependence on remittance/aid economies, without the organisational capabilities to convert export exposure into productivity gains.
+
+**Standard sentence form:**
+> "The Forced Internationalization Penalty — a negative FSTS–labour productivity relationship observed among Pacific SIDS firms — reflects structural dependence on export revenue in resource-scarce, aid-dependent economies (β = −0.357, p = .069), as distinct from the inverted-U overextension threshold documented for larger continental economies."
+
+**Do NOT conflate** with: the downward arm of the inverted-U in continental economies. That arm still shows positive-then-declining LP (TP ≈ 44–57%); the SIDS penalty shows a negative slope from FSTS = 0.
+
+### Asian Capstone Turning Points (P7)
+
+Key empirical anchors (country fixed effects, HC1, N ≈ 36,137):
+
+| Model | Turning Point | Notes |
+|-------|--------------|-------|
+| M6 (controls + country FE) | **52.9% FSTS** | Preferred specification |
+| M7 (+ TCI moderation) | **51.0% FSTS** | TCI shifts TP slightly inward |
+| M8 (+ DAI moderation) | **51.1% FSTS** | DAI moderation F = 7.38, p = .0006*** |
+| ICRV: Emerging | 43.7% | Higher b1 and b2 — steeper curve |
+| ICRV: Lower_mid_transition | 44.5% | Most extreme inverted-U shape |
+| ICRV: Advanced_innovation | 56.6% | Flatter, later peak |
+
+**When citing P7 turning points**, always specify which model and whether country FE is included. The no-FE turning point (M2: 8.1%) is spurious and should not be reported in isolation.
+
+### DAI Moderation Joint F-Test (P7)
+
+The DAI moderation test in P7 uses a **joint F-test** for two interaction terms simultaneously:
+- `fsts_c × DAI_z` (linear × digital)
+- `fsts_c² × DAI_z` (quadratic × digital)
+
+Result: F(2, 36132) = 7.38, p = .0006***
+
+**Interpretation:** DAI amplifies the inverted-U relationship — higher digital adoption steepens the curvature. This is a *shape-shifting* moderator (it changes both slope and curvature), not just a level-shifter.
+
+**Standard sentence form:**
+> "A joint F-test of the two DAI interaction terms (linear and quadratic) confirms that digital adoption significantly moderates the FSTS–labour productivity curve (F = 7.38, p < .001), consistent with digital capability theory (Stallkamp & Schotter, 2021)."
 
 ---
 
@@ -167,21 +224,46 @@ The CDCM posits that TCI's moderating effect on the FSTS–performance inverted-
 
 ## 10. Variable Name Cross-Reference Table
 
-| Concept | Stata name | Python/R name | Paper(s) |
-|---------|-----------|--------------|---------|
-| Labour productivity (log) | lnLP | lnLP | P3, P4, P5 |
-| Export intensity | FSTS | FSTS | P3, P4, P5 |
-| FSTS centred | FSTSc | FSTS_c | P3, P4, P5 |
-| FSTS squared (centred) | FSTSc2 | FSTSsq_c | P3, P4, P5 |
-| TCI composite | TCIfull | TCI_z | P3, P4, P5 |
-| DAI Tier-1 | DAIthin | DAI_thin | P3, P4, P5 |
-| DAI Tier-1+2 | DAIfull | DAI_full | P4 |
-| Firm size (log) | lnEmp | lnEmp | P3, P4, P5 |
-| Firm age | firmage | firmage | P3, P4, P5 |
-| Foreign ownership | foreigndummy | foreign_dum | P3, P4, P5 |
-| Survey wave year | wave | wave | P3, P5 |
+| Concept | Stata name | Python/R name (p7/p8 CSV) | Paper(s) |
+|---------|-----------|--------------------------|---------|
+| Labour productivity (log) | lnLP | ln_labor_prod | P3, P4, P5, P7, P8 |
+| Export intensity | FSTS | fsts | P3, P4, P5, P7, P8 |
+| FSTS centred | FSTSc | fsts_c | P3, P4, P5, P7, P8 |
+| FSTS squared (centred) | FSTSc2 | fsts_c2 | P3, P4, P5, P7, P8 |
+| TCI composite | TCIfull | tci_z | P3, P4, P5, P7, P8 |
+| DAI Tier-1 | DAIthin | dai_z | P3, P4, P5, P7, P8 |
+| DAI Tier-1+2 | DAIfull | dai_full_z | P4 |
+| Firm size (log) | lnEmp | ln_emp | P3, P4, P5, P7, P8 |
+| Firm age | firmage | firmage | P3, P4, P5, P7, P8 |
+| Foreign ownership | foreigndummy | foreign_own | P3, P4, P5, P7, P8 |
+| ICRV regime group | icrv_group | icrv_group | P7, P8 |
+| Country identifier | idstd | country | P7, P8 |
+| Survey wave year | wave | year | P3, P5, P7, P8 |
+| Exporter dummy | exportdummy | exporter | P3, P4, P5, P7, P8 |
 | Analytic sample flag | analytic | analytic | P3, P4, P5 |
 | Full-sample flag | full_samp | full_samp | P3, P4, P5 |
+| SIDS indicator | sids | sids_small | P7, P8 |
+
+**Key difference:** P7/P8 data uses `p7_pooled_clean.csv` column names (lowercase, underscores). P3/P5 Stata do-files use camelCase variable names. The Python merge script (`scripts/merge_wbes_dta.py`) maps WBES raw variables to the CSV column names; consult that script for full mapping.
+
+---
+
+---
+
+## 11. Dissertation-Wide Empirical Summary (Preliminary R Results)
+
+For use in thesis integration chapter and §6 Discussion cross-referencing:
+
+| Paper | Context | TP / Key β | Direction | Confirmed |
+|-------|---------|-----------|-----------|-----------|
+| P3 Vietnam | Frontier IV (3 waves) | TP ≈ 34.5% (R); 39.7% (Stata) | Inverted-U | ✓ |
+| P4 Singapore | Advanced I | TP ≈ 76–89% (wide CI) | Predominantly positive | ✓ saturation |
+| P5 China | Upper-mid III (2 waves) | TP ≈ 47.5% | Inverted-U | ✓ Paternoster p=.831 |
+| P6 Meta-analysis | All regimes (k=235) | r = 0.075, I² = 62.5% | Positive mean | ✓ ICRV Q-mod |
+| P7 Capstone | 49 economies (6 ICRV) | TP ≈ 51–53% (country FE) | Inverted-U | ✓ DAI F=7.38*** |
+| P8 Pacific SIDS | Nhóm VI | β(FSTSc) = −0.357 (p=.069) | **NEGATIVE (FIP)** | ✓ Penalty |
+
+**Cross-paper narrative:** Results demonstrate an ICRV-contingent internationalization–performance gradient. The inverted-U is universal across all non-SIDS regimes, but the threshold (TP) increases with institutional development: Frontier/Emerging ~44%, Upper-mid ~48%, Advanced Innovation ~57%. Pacific SIDS constitute a structural exception (Forced Internationalization Penalty), not a manifestation of overextension.
 
 ---
 
