@@ -3,7 +3,7 @@
 **Đỗ Thị Thúy Hương** · Can Tho University / Huong Do Thi Thuy
 **Phan Anh Tú** · Can Tho University
 
-*Manuscript prepared for: Asia Pacific Journal of Management (APJM, Springer, IF ≈ 4.5, ABDC-B)*
+*Manuscript prepared for: International Business Review (IBR, Elsevier, IF ≈ 5.5, ABS-3)*
 *Version 1.0 — May 2026 (target journal submission: Q4 2026)*
 
 ---
