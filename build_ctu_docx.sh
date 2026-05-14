@@ -43,6 +43,7 @@ done
 echo "[3] Vietnamese manuscripts..."
 [ -f manuscripts/vi/p3_vietnam_vi.md ]  && ${PANDOC_VI} manuscripts/vi/p3_vietnam_vi.md  -o "${DIST}/manuscripts/vi/p3_vietnam_vi.docx"
 [ -f manuscripts/vi/p4_singapore_vi.md ] && ${PANDOC_VI} manuscripts/vi/p4_singapore_vi.md -o "${DIST}/manuscripts/vi/p4_singapore_vi.docx"
+[ -f manuscripts/vi/p5_china_vi.md ]     && ${PANDOC_VI} manuscripts/vi/p5_china_vi.md     -o "${DIST}/manuscripts/vi/p5_china_vi.docx"
 
 echo "[4] English manuscripts..."
 [ -f p3/p3_vietnam_en_clean.md ]    && ${PANDOC_EN} p3/p3_vietnam_en_clean.md    -o "${DIST}/manuscripts/en/p3_vietnam_en_clean.docx"
