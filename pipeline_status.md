@@ -24,7 +24,7 @@
 | P3 — Vietnam | JABS (Emerald) | ✅ Submission ready | IBR rejected → retargeted to JABS; lifecycle language fixed; Wu+Pisani §5 positioning added |
 | P4 — Singapore | MIR (Springer) | ✅ Submission ready | Institutional transferability §5.1 added; P4 v8 integrated |
 | P5 — China | IJOEM (Emerald) | ✅ Submission ready | Companion paper (P2 JFAR) disclosed in §6; v9 integrated |
-| P6 — Meta-analysis | TBD | 🟡 In progress | 62/62 missing APA7 citations added; 11 Part 2 r-values pending manual extraction |
+| P6 — Meta-analysis | IBR (International Business Review, Elsevier) | 🟡 In progress | 62/62 missing APA7 citations added; 11 Part 2 r-values pending manual extraction |
 | CĐ2 — Chuyên đề 2 | PhD Committee (VI) | ✅ Submitted v2.1 | APJM→JABS updated 2026-05-12 |
 | CĐ1 — Chuyên đề 1 | PhD Committee (VI) | ✅ Complete | |
 
