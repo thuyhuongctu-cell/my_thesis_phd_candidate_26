@@ -81,6 +81,14 @@ Given the history of selective reporting in IB meta-analyses (Borenstein et al.,
 
 **Hypothesis 4 (H4 — Publication bias):** Egger's regression intercept, trim-and-fill adjusted effect, and fail-safe N are not consistent with severe selective reporting (non-directional, inferential null: publication bias does not reverse the sign of the pooled effect).
 
+### 2.6 Conceptual Model
+
+![Figure 1: Conceptual model — Three-level MARA with ICRV, cDAI, and DPL moderators](figures/figure_1_conceptual_model.png)
+
+*Figure 1.* Conceptual model for Paper 6 (Three-Level Meta-Analytic Regression Analysis).
+
+*Note:* Solid arrows represent the primary meta-analytic effect (baseline I→P pooled effect, k = 235, r̄ = 0.07, 95% CI [0.042, 0.102]). Dashed arrows represent hypothesised moderating relationships. Three study-level constructs moderate the pooled I→P effect: (1) ICRV Regime (H1) — five-regime gradient (Advanced I through Frontier V) grounded in Capability–Institution Mismatch Theory (CIMT); predicts Advanced > Emerging > Frontier gradient in Q_M(ICRV). (2) cDAI — Country Digital Adoption Index (H3) — continuous meta-regression moderator; predicts cDAI amplifies I→P (β > 0). (3) DPL Phase (H2) — Digital Paradox Lifecycle classification (Precede/Span/Follow, inflection ≈ 2009); predicts Follow > Span > Precede ordering. The three-level model nests k effects within studies (σ²_within ≈ 0.0071, ~30% of variance) within between-study heterogeneity (σ²_between ≈ 0.0142, ~65% of variance). Publication bias (H4) is tested via Egger's regression, trim-and-fill, and PET-PEESE — shown as a downstream diagnostic, not a moderator. (+) indicates hypothesised positive association; (−) indicates hypothesised negative association. Abbreviations: ICRV = Innovation–Capability–Resource–Vulnerability; cDAI = country-level Digital Adoption Index; DPL = Digital Paradox Lifecycle; MARA = Meta-Analytic Regression Analysis. Target journal: *International Business Review* (IF ~5.5).
+
 ---
 
 ## 3. Method

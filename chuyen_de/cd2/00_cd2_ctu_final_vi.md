@@ -391,74 +391,23 @@ Hạn chế của khung tích hợp: khó tách hiệu ứng riêng từng tần
 
 #### 2.3.3 Khung khái niệm và mô hình nghiên cứu đề xuất
 
+Khung khái niệm được xây dựng theo quy trình năm bước (Whetten, 1989; Dubin, 1978): (1) xác định khoảng trống lý thuyết; (2) lựa chọn và biện minh lý thuyết nền; (3) phát triển giả thuyết có cơ chế nhân quả rõ ràng; (4) thiết kế sơ đồ trực quan nhất quán với hệ giả thuyết; (5) kiểm tra tính đồng nhất giữa mô hình, giả thuyết và chiến lược thực nghiệm. Mô hình kết hợp năm tầng lý thuyết — Uppsala Model, Resource-Based View, Institutional Theory, Upper Echelons Theory và Digital Capability Lens — vào một cấu trúc nhân quả kiểm định được, nhận diện rõ vai trò của từng biến: **biến độc lập** (quốc tế hóa, đo bằng FSTS và dạng phi tuyến FSTS²_c), **biến phụ thuộc** (hiệu quả, đo bằng ln(Labour Productivity)), **biến điều tiết** cấp doanh nghiệp (TCI, DAI) và cấp quốc gia (ICRV regime, thời gian), **biến kiểm soát** (quy mô, tuổi, sở hữu nước ngoài, sector FE, country FE, year FE).
+
 ##### Hình 2.1 — Khung khái niệm tích hợp (tổng quan)
 
-Khung khái niệm tích hợp năm tầng lý thuyết vào một mô hình nhân quả có thể kiểm định. Sơ đồ dưới đây mô tả cấu trúc tổng quát:
+![Hình 2.1: Khung khái niệm tích hợp CĐ2](figures/hinh_2_1_khung_khai_niem.png)
 
-```
-[Quốc tế hóa (I)]
-  FSTS · FSTS²_c · FSTS³_c
-  Mã WBES: d3c/100
-  N = 101.185 doanh nghiệp × 47 nền kinh tế
-          │
-          │  H1: β₁ > 0; β₂ < 0
-          │  Chữ U ngược / S-curve
-          │  Điểm uốn gradient I → VI
-          ▼
-[Hiệu quả (P)]
-  ln(Labour Productivity)
-  ln(Doanh thu PPP / Lao động)
-          ▲
-          │
-  Điều tiết bởi:
-  ┌──────────────────────────────────────┐
-  │  CẤP DOANH NGHIỆP                   │
-  │                                      │
-  │  TCI (H2)          DAI — CDCM (H3)  │
-  │  Năng lực CN nội   Áp dụng số       │
-  │  ISO·R&D·Đổi mới   Website·E-payment│
-  │  Level-shifter     Conditional       │
-  │  [causal IV]       scaling resource  │
-  │                                      │
-  │  Nhà quản trị (H4)                  │
-  │  Kinh nghiệm (b5) · Học vấn (b7a)  │
-  │  Giới tính (b7) · Upper Echelons    │
-  └──────────────────────────────────────┘
-  ┌──────────────────────────────────────┐
-  │  CẤP QUỐC GIA                       │
-  │                                      │
-  │  ICRV Regime (H5)   Year-bucket (H6)│
-  │  6 nhóm: I → VI     2009–12         │
-  │  Gradient TP        2013–17         │
-  │  Forced penalty     2018–25         │
-  └──────────────────────────────────────┘
-  [Controls: ln(emp), firm_age, foreign_own,
-   sector FE, country FE, year FE]
-```
+*Hình 2.1.* Khung khái niệm tích hợp Chuyên đề 2 (H1–H6, năm tầng lý thuyết).
 
-Hình 2.1. Khung khái niệm tích hợp CĐ2 (tổng quan). Sáu giả thuyết H1–H6 ánh xạ vào năm tầng lý thuyết: H1 (Uppsala) kiểm định phi tuyến trực tiếp; H2–H4 (RBV, Digital Lens+CDCM, Upper Echelons) là biến điều tiết cấp doanh nghiệp; H5 (Institutional Theory) gradient ICRV; H6 (Temporal) thay đổi theo giai đoạn thời gian. Mỗi biến điều tiết có bằng chứng neo đậu từ ít nhất một trong ba bản thảo đồng hành P3, P4, P5.
+Mũi tên liền nét biểu thị tác động trực tiếp (H1: quan hệ phi tuyến I→P). Mũi tên đứt nét biểu thị tác động điều tiết. H1–H6 tương ứng với các giả thuyết phát triển trong §2.3.4. Biến phụ thuộc (ln(Labour Productivity)) được xác định duy nhất ở cực phải. Biến độc lập (FSTS, FSTS²_c, FSTS³_c) ở cực trái. Năm nhóm biến điều tiết phân theo hai cấp: cấp doanh nghiệp (TCI — H2, DAI — H3, đặc điểm nhà quản trị — H4) và cấp quốc gia (ICRV regime — H5, giai đoạn thời gian — H6). Biến kiểm soát (ln(emp), firm_age, foreign_own, sector/country/year FE) được đưa vào mô hình thực nghiệm nhưng không hiển thị trong sơ đồ để đơn giản hóa trình bày. Mỗi tầng lý thuyết cung cấp cơ chế nhân quả riêng biệt: Uppsala giải thích đường cong I→P; RBV biện minh cho H2; Digital Capability Lens (CDCM) biện minh cho H3; Upper Echelons biện minh cho H4; Institutional Theory biện minh cho H5. Bằng chứng neo đậu từ P3 Việt Nam, P4 Singapore và P5 Trung Quốc xác nhận tính khả nghiệm trước khi áp dụng cho toàn pool 101.185 doanh nghiệp.
 
 ##### Hình 2.2 — Cơ chế CDCM chi tiết
 
-```
-Tác động DAI lên P = f(Regime × FSTS level × Digital saturation)
+![Hình 2.2: Cơ chế CDCM theo ba nhóm ICRV](figures/hinh_2_2_cdcm_detail.png)
 
-Nhóm I (tiên tiến đổi mới, bão hòa số cao):
-  → DAI chủ yếu là nguồn lực mở rộng tình huống
-  → Tác động xuất hiện ở FSTS cao (P4 Singapore: FSTS²×DAI = +3,119)
-  → Không có phần thưởng đồng nhất
+*Hình 2.2.* Cơ chế Context-Contingent Digital Capability Model (CDCM) theo ba nhóm ICRV đại diện.
 
-Nhóm IV (đang nổi, bão hòa số trung bình):
-  → DAI dương trong giai đoạn đầu số hóa (OLS)
-  → Phụ thuộc chọn lựa: IV cho null (P3 Việt Nam: β = 0,018, p = 0,942)
-  → Phụ thuộc giai đoạn: dương 2009, null 2015, dương OLS 2023
-
-Nhóm III (trung bình cao, bão hòa số trung bình–cao):
-  → DAI Tier 1 mất tác dụng phân biệt khi phổ biến >60%
-  → Giữ như biến kiểm soát, không điều tiết độ cong (P5 Trung Quốc)
-```
-
-Hình 2.2. Cơ chế CDCM theo ba nhóm ICRV. Một kết quả "DAI null" và một kết quả "DAI dương" có thể nhất quán với cùng một cơ chế — khác nhau ở điều kiện bối cảnh, không phải ở lý thuyết nền tảng.
+DAI (Digital Adoption Index) không phải là nguồn lực đồng nhất mà là **nguồn lực phụ thuộc ngữ cảnh** (context-contingent resource) — vai trò của DAI trong quan hệ I→P thay đổi theo regime thể chế và mức bão hòa số của nền kinh tế. Nhóm I (Singapore — Advanced I, bão hòa số cao): DAI Tier-1+2 vận hành như nguồn lực khuếch đại tình huống — tác động chỉ xuất hiện khi cường độ xuất khẩu đạt ngưỡng cao (FSTS²×DAI = +3,119; P4). Nhóm IV (Việt Nam — Frontier V, bão hòa số thấp): DAI Tier-1 là ràng buộc đo lường; tác động dương theo OLS nhưng biến mất sau hiệu chỉnh nội sinh IV (β = 0,018, p = 0,942; P3). Nhóm III–IV (Trung Quốc — Emerging IV, bão hòa số trung bình): DAI Tier-1 phổ biến >60% — mất khả năng phân biệt, giữ như biến kiểm soát không phải biến điều tiết (P5). Cơ chế này giải thích tại sao kết quả "DAI null" và "DAI dương" đều nhất quán với lý thuyết CDCM — khác nhau ở điều kiện bối cảnh, không mâu thuẫn về lý thuyết nền tảng.
 
 ##### Bảng 2.4 — Mapping biến đầy đủ
 
