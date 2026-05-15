@@ -9,7 +9,7 @@
 
 *Target journal:* Journal of Asia Business Studies (JABS), Emerald Publishing
 
-*Submission date:* 12 May 2026
+*Submission date:* 15 May 2026
 
 ---
 
@@ -99,7 +99,7 @@ Generative AI tools were used during manuscript preparation to assist with langu
 | Paper type | Research article |
 | Word count (main text) | Approximately 6,800 words |
 | Abstract word count | 247 words |
-| Tables | 4 (inline) |
+| Tables | 5 (inline) |
 | Figures | 6 (inline) |
 | References | 48 |
 | Keywords | internationalisation–performance; emerging markets; digital adoption; technological capability; Vietnam; firm productivity |

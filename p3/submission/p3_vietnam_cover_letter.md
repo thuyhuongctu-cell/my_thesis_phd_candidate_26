@@ -1,4 +1,4 @@
-12 May 2026
+15 May 2026
 
 The Editor-in-Chief
 *Journal of Asia Business Studies*
