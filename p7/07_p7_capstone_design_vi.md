@@ -1,4 +1,4 @@
-# Thiết kế chi tiết P7 — Capstone 25-country Asian study (Main Results)
+# Thiết kế chi tiết P7 — Capstone 49-economy Asian & Pacific study (Main Results)
 
 P7 là nghiên cứu **capstone** chứa kết quả nghiên cứu chính của luận án. Theo cấu trúc 5 chương (xem `01_chapter_outline_vi.md`), P7 đi vào **Ch.4.3 — Kết quả phân tích đa quốc gia**, là bồ sung quan trọng nhất cho đóng góp lý thuyết ở Ch.5.
 
@@ -10,9 +10,9 @@ P7 là nghiên cứu túch hợp đa quốc gia, kiểm định khung 4 tầng +
 
 ### 1.2 Differentiation từ P1 (bài đã công bố, VEFR 2026)
 
-| Yếu tố | P1 (đã công bố) | P7 (sẽ viết tiếp) |
+| Yếu tố | P1 (đã công bố) | P7 (JIBS under revision) |
 |---|---|---|
-| Coverage | 17 nền kinh tế châu Á mới nổi | **25 nền kinh tế châu Á** đa dạng |
+| Coverage | 17 nền kinh tế châu Á mới nổi | **49 nền kinh tế châu Á và Thái Bình Dương** |
 | Quan hệ chính | Thực trạng (descriptive) của productivity heterogeneity | **Internationalization → firm performance** (causal-inferential) |
 | Mức độ phân tích | Yếu tố quyết định productivity (technology, obstacles) | **Phi tuyến FSTS–FP + moderation 3 chiều** (digital × institutional × top manager) |
 | Biến xử lý | Tech adoption + business obstacles | **FSTS, FSTS², TCI, DAI, ICRV regime, top manager attributes** |

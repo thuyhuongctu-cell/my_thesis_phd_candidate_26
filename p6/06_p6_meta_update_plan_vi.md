@@ -155,7 +155,7 @@ Bỏ bớt cho versión dễ thuức hiện: sample size, publication year, digi
 
 ### Tuần 9–10: Moderator analysis
 
-- ICRV subgroup (5 regimes)
+- ICRV subgroup (6 regimes)
 - cDAI moderation (continuous và categorical)
 - DPL phase comparison (pre-/span-/post-2009)
 - Three-way interaction nếu dữ liệu cho phép
@@ -334,7 +334,7 @@ Liệt kê công việc cụ thể cho từng tuần. NCS có thể cập nhật
 
 ### Tuần 9 — Moderator analysis
 
-- [ ] ICRV regime subgroup (5 regimes)
+- [ ] ICRV regime subgroup (6 regimes)
 - [ ] cDAI moderation (continuous và categorical)
 - [ ] DPL phase comparison (pre/span/post 2009)
 - [ ] Two-way interactions nếu dữ liệu cho phép
