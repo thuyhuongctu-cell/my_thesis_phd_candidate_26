@@ -337,6 +337,85 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 ---
 
+### 4.5.4 Mô hình cụ thể — Nghiên cứu 7 (Đa quốc gia châu Á, WBES 2003–2025)
+
+Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **49 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 84.910 (M0–M2) đến N = 29.840 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
+
+- **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực) — biến phụ thuộc
+- **CDDXK_c_it**: cường độ xuất khẩu mean-centred — FSTS_c = (d3c/100) − mean_pool(FSTS)
+- **CDDXK_c²_it**: CDDXK_c bình phương — kiểm định phi tuyến
+- **NLCN_z_it**: năng lực công nghệ z-standardised — TCI_z = z-std(b8, e6)
+- **CSS_z_it**: chỉ số số hoá z-standardised — DAI_z = z-std(website + e-pay, Tier 1+2: c22b/e1, k33)
+- **KNQLy_it**: kinh nghiệm nhà quản lý trong ngành (năm, b7)
+- **NQL_nu_it**: top manager là nữ (binary, b7a/b6a)
+- **ICRV_j**: phân loại chế độ thể chế ICRV (integer 1–6, Advanced→SIDS)
+- **lnLD_it**: ln(lao động thường trực) — kiểm soát quy mô doanh nghiệp
+- **TuoiDN_it**: tuổi doanh nghiệp (năm_khảo_sát − b5)
+- **SoHuuNN_it**: tỷ lệ sở hữu nước ngoài (b6a/100)
+- **δ_ct**: country × year fixed effects (M5)
+
+**Chuỗi mô hình lồng nhau M0–M11:**
+
+**M0** (tuyến tính baseline):
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \varepsilon_{it}$$
+
+**M2** (phi tuyến — kiểm định H1):
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \varepsilon_{it}$$
+$$TP^* = -\beta_1 / (2\beta_2); \quad \text{Lind–Mehlum } p < {,}001 \Rightarrow TP \approx 36\%$$
+
+**M3** (M2 + kiểm soát cơ bản):
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot X_{it} + \varepsilon_{it}$$
+
+**M5** (M3 + country-year FE — kiểm định vững mạnh nhất):
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot X_{it} + \delta_{ct} + \varepsilon_{it}$$
+$$\text{AdjR}^2 = {,}677; \quad TP \approx 40\%$$
+
+**M7** (M3 + điều tiết NLCN — kiểm định H2):
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z$$
+$$+ \beta_4 (CDDXK\_c \times NLCN\_z) + \beta_5 (CDDXK\_c^2 \times NLCN\_z) + \gamma \cdot X + \varepsilon$$
+
+**M8** (M7 + điều tiết CSS — kiểm định H3):
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z$$
+$$+ \beta_7 (CDDXK\_c \times CSS\_z) + \beta_8 (CDDXK\_c^2 \times CSS\_z) + \gamma \cdot X + \varepsilon$$
+$$\text{H3: } \hat\beta_7 < 0\ (p < {,}001);\ \hat\beta_8 > 0\ (p < {,}01) \rightarrow \text{DAI nén sườn tăng, giảm nhẹ sườn giảm}$$
+
+**M9** (M8 + đặc điểm nhà quản lý — kiểm định H4):
+$$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
+$$\hat\beta_{10} = +0{,}185^{***} \text{ (top manager nữ: lợi thế hiệu quả ~17–20\% cross-context)}$$
+
+**M10** (M3 + điều tiết ICRV — kiểm định H5):
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} ICRV_j$$
+$$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
+$$\text{H5: } TP \text{ tăng khi ICRV tăng (thể chế yếu hơn): Group I} \approx 28\%,\ \text{Group V–VI} \approx 55\%$$
+
+**M11** (full three-way — kiểm định H7-P7):
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
+$$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
+$$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
+$$+ \beta_{14}(CDDXK\_c \times CSS\_z \times ICRV) + \beta_9 KNQLy + \beta_{10} NQL\_nu + \gamma \cdot X + \delta_{ct} + \varepsilon$$
+$$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,}6\%,\ \text{LM } p = {,}002$$
+
+**Bảng định nghĩa biến — Nghiên cứu 7 (đa quốc gia)**
+
+| Ký hiệu | WBES item | Cách tính | Vai trò |
+|---------|-----------|-----------|---------|
+| lnNSLD | d2/n3, l1 | ln(doanh thu/lao động) | Biến phụ thuộc |
+| CDDXK_c | d3c | (d3c/100) − mean_pool(FSTS): centred | Biến độc lập (I) |
+| CDDXK_c² | d3c | CDDXK_c bình phương | I — phi tuyến |
+| NLCN_z | b8, e6 | z-std(cert chất lượng + CN nước ngoài) | Năng lực công nghệ |
+| CSS_z | c22b/e1, k33 | z-std(website + e-payment): Tier 1+2 | Số hoá (DAI) |
+| KNQLy | b7 | năm kinh nghiệm nhà quản lý trong ngành | Quản trị |
+| NQL_nu | b7a/b6a | 1 nếu top manager là nữ | Quản trị |
+| ICRV | phân loại | integer 1–6 (Advanced Innovation→SIDS) | Thể chế |
+| lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
+| TuoiDN | b5 | năm_khảo_sát − b5 | Control (tuổi DN) |
+| SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |
+| δ_ct | — | country × year FE | Fixed effects |
+
+*Ghi chú: Mẫu phân tích giảm dần từ N = 84.910 (M2) → 38.342 (M3, thêm kiểm soát) → 29.840 (M11, thêm manager + ICRV + three-way). DAI P7 là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với P3 Vietnam (Tier-1 only) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
+
+---
+
 ### 4.6 Sai số chuẩn
 
 Tất cả các mô hình đều sử dụng HC1/HC3 robust standard errors (Long & Ervin, 2000; White, 1980) để xử lý heteroscedasticity. Đối với multi-country, bổ sung clustered SE theo country.
