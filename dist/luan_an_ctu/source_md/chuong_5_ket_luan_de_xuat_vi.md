@@ -184,7 +184,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu $N=84.910$–$91.982$ doanh nghiệp · 49 nền kinh tế · 102 country-year waves, TP≈36%, gradient ICRV **giảm** từ SIDS/Frontier (~55%) xuống Advanced Innovation (~28%), TCI level effect β≈+0,344**, DAI level effect phổ quát β=+0,155*** + DAI×ICRV p=.012 (digital shield mạnh nhất khi thể chế yếu).
 
-- **P8** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích SIDS Thái Bình Dương, $N = 1.469$, $\beta(\text{FSTS}_c) = -0{,}404^{*}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
+- **P8** (World Development under revision, Đỗ & Phan, 2026): phân tích SIDS Thái Bình Dương, $N = 1.469$, $\beta(\text{FSTS}_c) = -0{,}404^{*}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
 
 ### 5.6.2 Phát hiện trung tâm
 

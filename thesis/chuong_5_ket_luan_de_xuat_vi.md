@@ -184,7 +184,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu châu Á và Thái Bình Dương $N = 84.910$ (M2) / $N = 38.342$ (M3–M5 với controls đầy đủ), TP = 36,4–40,0% (M2–M5; M11 đầy đủ: TP = 34,6%, $p_\text{LM} = {,}002$), gradient ICRV xác nhận mạnh mẽ, TCI nâng mặt bằng năng suất phổ quát, DAI điều tiết đường cong có ý nghĩa trên toàn mẫu và mạnh hơn tại thể chế yếu hơn (DAI×ICRV $p = {,}012$).
 
-- **P8** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích SIDS Thái Bình Dương, $N = 1.469$, $\beta(\text{FSTS}_c) = -0{,}404^{*}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
+- **P8** (World Development under revision, Đỗ & Phan, 2026): phân tích SIDS Thái Bình Dương, $N = 1.469$, $\beta(\text{FSTS}_c) = -0{,}404^{*}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
 
 ### 5.6.2 Phát hiện trung tâm
 
