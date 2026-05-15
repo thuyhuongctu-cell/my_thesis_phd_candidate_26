@@ -36,7 +36,7 @@ Kết quả tổng hợp hỗ trợ lập luận trong khung CDCM rằng DAI là
 
 Cần lưu ý rằng kết quả null về DAI tại Việt Nam (P3) và các bối cảnh thấp hơn không nhất thiết bác bỏ H3, mà còn phản ánh hạn chế đo lường: Tier-1 DAI (website, email, online sales) chưa nắm bắt được chiều sâu của năng lực số. Khi DAI được đo bằng Tier-1+2 (bổ sung e-payment, e-supplier) như tại Singapore, hiệu ứng điều tiết xuất hiện rõ ràng hơn. Quan trọng hơn, tất cả đo lường DAI trong luận án đều là **chỉ số chấp nhận số tĩnh** (static digital adoption index) dựa trên dữ liệu WBES tại một thời điểm — không phải "dynamic digital capability" theo nghĩa của dynamic capabilities theory (Teece et al., 1997) vì dữ liệu WBES không có đủ thang đo để đo lường tính động của năng lực số.
 
-Một giải thích bổ sung từ Institutional Theory: ở các bối cảnh ICRV thấp với nhiều "institutional voids" (Khanna & Palepu, 2010), việc áp dụng công cụ số bề mặt không đủ để bù đắp cho sự thiếu hụt hạ tầng vật lý, hệ thống thanh toán và khung pháp lý thương mại điện tử. DAI chỉ phát huy "digital shield effect" khi nền tảng thể chế hỗ trợ đã có sẵn.
+Một giải thích bổ sung từ Institutional Theory: ở các bối cảnh ICRV thấp với nhiều "institutional voids" (Khanna & Palepu, 2010), các doanh nghiệp xuất khẩu phụ thuộc vào DAI nhiều hơn như một cơ chế bù đắp cho thiếu hụt hạ tầng thể chế. Bằng chứng: DAI×ICRV (p=.012) trong P7 cho thấy DAI **mạnh hơn** tại thể chế yếu — "digital shield effect" phát huy mạnh nhất khi nền tảng thể chế còn thiếu hụt, không phải khi thể chế đã hoàn thiện.
 
 ### 5.1.4 Đặc Điểm Nhà Quản Trị là Moderator Cá Nhân — Hỗ trợ có điều kiện H4
 
@@ -86,9 +86,9 @@ Ngoài ra, luận án sử dụng phương pháp MARA ba tầng để phân tác
 
 ### 5.3.1 CDCM — Làm rõ DAI là nguồn lực tình huống
 
-Đóng góp lý thuyết đầu tiên là làm rõ **bản chất của DAI** trong khung CDCM. Phát hiện rằng DAI chỉ phát huy vai trò điều tiết trong bối cảnh Advanced (Nhóm I, II) và không có ý nghĩa trong Frontier/SIDS gợi ý rằng DAI không phải là foundational capability (như TCI) mà là **situational resource** — tài nguyên có điều kiện phụ thuộc vào hệ sinh thái số xung quanh.
+Đóng góp lý thuyết đầu tiên là làm rõ **bản chất của DAI** trong khung CDCM. Phát hiện rằng DAI có hiệu ứng nâng mặt bằng phổ quát (β=+0.155, p<.001, mẫu gộp N=84,910 từ 49 nền kinh tế) nhưng vai trò điều tiết đường cong I→P là **bối cảnh-phụ thuộc** (DAI×ICRV: p=.012) gợi ý rằng DAI không phải là foundational capability (như TCI) mà là **situational resource** — tài nguyên có vai trò thay đổi theo bối cảnh thể chế. Quan trọng: DAI×ICRV (p=.012) cho thấy hiệu ứng điều tiết của DAI **mạnh hơn** tại các nền kinh tế thể chế yếu hơn (Frontier, SIDS) — "digital shield" bù đắp cho thiếu hụt thể chế.
 
-Điều này có hàm ý lý thuyết quan trọng cho RBV và digital capability literature (Bhandari et al., 2023; Verhoef et al., 2021): không phải mọi nguồn lực số đều tạo ra lợi thế cạnh tranh trong mọi bối cảnh. Giá trị của DAI là **complementary asset** (Teece, 1986) cần đi kèm với cơ sở hạ tầng thể chế và số phù hợp. Không có complementary assets, DAI chỉ là chi phí bổ sung mà không tạo ra lợi thế.
+Điều này có hàm ý lý thuyết quan trọng cho RBV và digital capability literature (Bhandari et al., 2023; Verhoef et al., 2021): không phải mọi nguồn lực số đều tạo ra lợi thế cạnh tranh theo cùng một cơ chế trong mọi bối cảnh. Giá trị của DAI là **complementary asset** (Teece, 1986) với bối cảnh thể chế — nhưng theo hướng **nghịch chiều**: DAI hoạt động như lá chắn bù đắp (compensatory asset) trong bối cảnh thể chế yếu, nơi hạ tầng thể chế chưa đủ hỗ trợ cho doanh nghiệp xuất khẩu. Đây là bằng chứng thực nghiệm bổ sung cho lý thuyết về vai trò thay thế giữa thể chế và năng lực số.
 
 ### 5.3.2 FIP — Khái niệm mới về trường hợp biên cho SIDS
 
@@ -100,7 +100,7 @@ Khái niệm FIP mở ra hướng nghiên cứu mới về **điều kiện biê
 
 Đóng góp lý thuyết thứ ba là phát triển và kiểm định **khung ICRV sáu sub-regime** như một công cụ phân loại thể chế đặc thù cho khu vực châu Á — Thái Bình Dương, thay thế cho các phân loại binary (developed/emerging) hoặc continuous (WGI scores) trong literature hiện tại.
 
-ICRV nắm bắt được sự đa dạng thể chế chưa từng được vận hành hóa đầy đủ: sự khác biệt giữa Singapore (Advanced Innovation, kết hợp pháp quyền mạnh và hệ sinh thái đổi mới) với GCC (Advanced Resource, kết hợp giàu tài nguyên nhưng hệ sinh thái đổi mới khác), và sự khác biệt giữa Trung Quốc (Upper-middle, chính phủ can thiệp mạnh) với Việt Nam (Lower-mid Transition, đang trong quá trình cải cách) với Bangladesh (Frontier, institutional voids cao). ICRV không chỉ là taxonomy mô tả mà còn là taxonomy **dự đoán**: turning point I→P tăng đơn điệu theo chiều từ SIDS lên Advanced Innovation, xác nhận giá trị dự đoán của phân loại.
+ICRV nắm bắt được sự đa dạng thể chế chưa từng được vận hành hóa đầy đủ: sự khác biệt giữa Singapore (Advanced Innovation, kết hợp pháp quyền mạnh và hệ sinh thái đổi mới) với GCC (Advanced Resource, kết hợp giàu tài nguyên nhưng hệ sinh thái đổi mới khác), và sự khác biệt giữa Trung Quốc (Upper-middle, chính phủ can thiệp mạnh) với Việt Nam (Lower-mid Transition, đang trong quá trình cải cách) với Bangladesh (Frontier, institutional voids cao). ICRV không chỉ là taxonomy mô tả mà còn là taxonomy **dự đoán**: turning point I→P **giảm** đơn điệu theo chiều từ SIDS/Frontier (~55%) xuống Advanced Innovation (~28%) — thể chế càng mạnh, doanh nghiệp đạt đỉnh hiệu quả ở mức quốc tế hóa thấp hơn — xác nhận giá trị dự đoán của phân loại.
 
 ---
 
