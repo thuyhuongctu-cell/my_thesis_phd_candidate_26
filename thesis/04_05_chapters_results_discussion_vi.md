@@ -175,6 +175,7 @@ Mô hình M2 bổ sung FSTS$^2$ không cho kết quả có ý nghĩa thống kê
 
 ### 4.6.3 Giải thích cơ chế Forced Internationalization Penalty
 
+<!-- TODO-THUẬT-NGỮ: "bất lợi hiệu quả từ quốc tế hóa cưỡng bức" — cần xem xét cụm từ tiếng Việt học thuật phù hợp hơn cho FIP trước khi nộp -->
 Luận án đặt tên cho hiện tượng này là **Forced Internationalization Penalty (FIP)** — bất lợi hiệu quả từ quốc tế hóa cưỡng bức — một construct lý thuyết mới chưa xuất hiện trong literature IB trước đây. Cơ chế giải thích gồm ba yếu tố cấu trúc đặc thù của SIDS:
 
 1. **Thị trường nội địa quá nhỏ**: doanh nghiệp SIDS buộc phải xuất khẩu không phải vì có lợi thế cạnh tranh mà vì nhu cầu nội địa không đủ để duy trì hoạt động. Đây là quốc tế hóa cưỡng ép (forced internationalization), không phải quốc tế hóa chiến lược (strategic internationalization).
