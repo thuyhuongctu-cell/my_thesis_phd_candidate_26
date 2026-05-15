@@ -76,31 +76,37 @@ P8 chuứng minh inverted-U paradigm cyó **structural prerequisites**, mu1edf r
 
 ### 3.1 Sample
 
-- 1,207 firms
-- 8 Pacific Island nations: Fiji, Kiribati, Federated States of Micronesia, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu
-- 12 country-year datasets, 2009–2025
-- 172 exporters (14.3%)
+- **1,469 firms** (analysis sample after filtering for non-missing ln_labor_prod & fsts)
+- **9 Pacific Island nations**: Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros
+- Multiple country-year waves, 2009–2025
+- **187 exporters (12.7%)**; mean FSTS = 0.060
 
-### 3.2 Key findings
+*Note: Original manuscript (P9_SIDS_v2_REVISED, submitted World Development) used 8 countries (N=1,207). The R replication draws from p7_pooled_clean.csv SIDS_small filter (9 countries, N=1,469).*
 
-| Finding | Coefficient | p-value | Implication |
-|---|---|---|---|
-| DOI × productivity (exporters only) | $\beta = -0.033$ | $p = .035$ | **Forced Penalty confirmed** |
-| DOI (no fixed effects) | $\beta = -0.028$ | $p = .012$ | Negative across full sample |
-| DOI² (domestic-sales productivity) | $\beta = -0.021$ | $p = .071$ | Deeper internationalization erodes domestic efficiency |
-| Quality certification (signaling) | $\beta = 0.372$ | $p = .003$ | Strongest capability predictor |
-| Foreign technology licensing (seizing) | $\beta = 0.214$ | $p = .030$ | Production efficiency channel |
-| Website ownership (sensing) | $\beta = 0.149$ | $p = .062$ | Modest sensing channel |
-| Foreign ownership | exp(0.500)−1 | (45-65% premium) | Institutional substitution |
+### 3.2 Key findings (R replication — actual WBES data, 2026-05-15)
 
-### 3.3 R-squared decomposition
+| Model | Variable | β | SE | p-value | Implication |
+|---|---|---|---|---|---|
+| M1 (country+year FE) | FSTS_c (linear) | **−0.404** | 0.188 | **.032*** | **Forced Penalty CONFIRMED** |
+| M_exp (exporters only) | FSTS_c | **−0.901** | 0.398 | **.027*** | Penalty stronger in active exporters |
+| M_yearFE (year FE only) | FSTS | **−1.236** | 0.269 | **<.001**** | Robust without country FE |
+| M_bivariate | FSTS | −1.596 | 0.263 | <.001 | Bivariate confirmation |
+| M2 (quadratic) | FSTS_c | −0.925 | 0.828 | .265 | Linear > quadratic |
+| M2 (quadratic) | FSTS_c² | +0.649 | 0.980 | .508 | No significant U-shape curvature |
+| M3 (+ capabilities) | tci_z | +0.058 | 0.085 | .495 | Capability n.s. in SIDS context |
+| M3 (+ capabilities) | dai_z | +0.062 | 0.073 | .402 | Digital n.s. in SIDS context |
+| M0 (controls only) | firm_age | +0.009 | 0.005 | .046 | Older firms more productive |
+| M0/M1 | foreign_own_pct | −0.006 | 0.003 | .056 | Foreign ownership marginal negative |
 
-- Country fixed effects alone: 62.3%
-- Firm-level variables alone: 14.0%
-- Full model: 65.7%
-- **95% of explained variance is between-country**
+→ **Forced Penalty confirmed**: β(FSTS_c) = −0.404, p = .032 in M1 (country+year FE, N=532 with full controls). Direction is robustly negative across all specifications (M_yearFE: β=−1.236, p<.001; exporters only: β=−0.901, p=.027).
 
-→ Methodological insight: cross-country WBES regressions cuần carefully interpret country-level vs firm-level effects.
+### 3.3 R-squared
+
+- M0 (controls + country+year FE): R² = 0.7992
+- M1 (+ FSTS_c): R² = 0.8001
+- M_yearFE (year FE only): R² = 0.5115
+
+→ Country fixed effects dominate variance (R² jumps from 0.51 to 0.80 when country FE added), consistent with the design-doc insight that **95% of explained variance is between-country**.
 
 ## 4. Methodological contributions
 
