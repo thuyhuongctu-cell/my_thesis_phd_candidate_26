@@ -191,7 +191,7 @@ Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống
 ### 4.6.3 Điều tiết bởi TCI và DAI trong toàn mẫu
 
 - **TCI**: có ý nghĩa thống kê dương trên toàn mẫu ($p < {,}05$), xác nhận H2.
-- **DAI**: có ý nghĩa trong nhóm Advanced (Nhóm I và II), nhưng **không có ý nghĩa** trong nhóm Frontier (Nhóm V) và SIDS (Nhóm VI). Kết quả này nhất quán với lập luận lý thuyết rằng DAI chỉ phát huy vai trò điều tiết khi cơ sở hạ tầng số và hệ sinh thái số đã đủ trưởng thành.
+- **DAI**: có ý nghĩa thống kê toàn mẫu — hiệu ứng trực tiếp $\hat{\beta}(\text{DAI}) = +0{,}155$ ($p < {,}001$) tương ứng lợi thế năng suất ~17% cho doanh nghiệp có website. Quan trọng hơn, cả hai tương tác điều tiết đều có ý nghĩa: $\hat{\beta}(\text{FSTS} \times \text{DAI}) = -0{,}614$ ($p < {,}001$) và $\hat{\beta}(\text{FSTS}^2 \times \text{DAI}) = +0{,}766$ ($p < {,}01$). Pattern âm rồi dương này cho thấy doanh nghiệp DAI cao có đường cong I→P phẳng hơn nhưng dịch lên — tổn thất hiệu suất ít hơn khi quốc tế hóa cao. Tương tác DAI×ICRV ($p = {,}012$) xác nhận vai trò của DAI **mạnh hơn** ở các môi trường thể chế yếu hơn — nhất quán với cơ chế "digital shield" của CDCM.
 
 ---
 
