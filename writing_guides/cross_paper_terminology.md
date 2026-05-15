@@ -102,8 +102,8 @@ The thesis distinguishes three export participation concepts:
 | Advanced Innovation-Driven | Nhóm I | Regime I | `Advanced_innovation` | Singapore (P4); Japan; Korea; Taiwan |
 | Advanced Resource-Driven | Nhóm II | Regime II | `Advanced_resource` | Gulf states (Chuyên đề 1); Brunei |
 | Upper-Middle | Nhóm III | Regime III | `Upper_mid` | China main sample (P5); Malaysia; Thailand |
-| Emerging | Nhóm IV | *(no separate Regime IV in 5-regime system)* | `Emerging` | Vietnam (P3); Indonesia; India; Philippines |
-| Frontier | Nhóm V | Regime V ("Frontier V") | `Lower_mid_transition` | Most-frontier economies; Afghanistan; Nepal |
+| Lower-Middle Transition | Nhóm IV | Regime IV | `Lower_mid_transition` | **Vietnam (P3)**; Indonesia; India; Philippines; Bangladesh; Mongolia; Pakistan |
+| Frontier (low-income) | Nhóm V | Regime V | `Emerging` | Afghanistan; Nepal; Cambodia; Laos; Myanmar; Bhutan; Jordan; Kyrgyz Rep.; etc. |
 | SIDS | Nhóm VI | SIDS (separate) | `SIDS_small` | Pacific SIDS (P8): Fiji, Kiribati, Solomon Islands, Maldives |
 
 **P7 pooled-sample sizes by ICRV group (from p7_pooled_clean.csv, N=102,332):**
@@ -122,9 +122,9 @@ The thesis distinguishes three export participation concepts:
 **First mention:** "institutional context regime (Institutional Context Regime Variation — ICRV)"
 **Subsequent:** "ICRV" or "bối cảnh thể chế"
 
-**Two-system mapping note:** CD2 (Chuyên đề 2) uses a **6-regime system** where Vietnam = **Nhóm IV** (Emerging/cận biên trên), with Nhóm V being 17 more-extreme frontier economies. P3 and P6 use a **5-regime WGI-based system** (cutoff: WGI Rule of Law ≤ −0.50 = Frontier V) with no separate Regime IV — so Vietnam maps to **"Frontier V"** in P3/P6 because it falls in the most-frontier non-SIDS category. These are *equivalent placements in different numbering conventions*, not contradictory classifications. Vietnam WGI Rule of Law: −0.66 (2009), −0.57 (2015), −0.42 (2023) — borderline at the threshold over time, firmly Frontier in early waves.
+**Two-system mapping note:** Vietnam = **Nhóm IV (Lower_mid_transition, Group 4)** in the dissertation's 6-regime ICRV classification, consistent across CD1, CD2, P7 data (`ICRV_MAP["Vietnam"] = 4`) and the data registry (Group IV — Lower-Middle Transition). P3 and P6 (5-regime, SIDS excluded) use the same numbering: groups 1–5 without group 6, so Vietnam remains **Regime IV** in the 5-regime context. The earlier label **"Frontier V" in P3 was incorrect** — it was based on an outdated reading of WGI Rule of Law scores and a miscount of the regime numbering. Vietnam WGI Rule of Law estimate (RL.EST scale, −2.5 to +2.5): approximately −0.55 to −0.68 in 2009 (early-wave low), improving to approximately −0.09 in 2023 (source: World Bank / tradingeconomics.com). The Nhóm V regime ("Emerging" in P7 R code) contains lower-governance economies: Afghanistan, Nepal, Cambodia, Laos, Myanmar, Bhutan, Jordan, Kyrgyz Republic, Tajikistan, Uzbekistan, Yemen, etc. Vietnam is **above** this threshold and correctly classified at Nhóm IV across all dissertation documents.
 
-**Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (labeled "Frontier V" in P3/P6's 5-regime system), **P4→Nhóm I**, **P5→Nhóm III** (described as "Emerging/Upper-middle transition" in P5), **P7→all 6 groups (cross-regime), P8→Nhóm VI (SIDS_small)**.
+**Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (`Lower_mid_transition`; Vietnam = Group 4 of 6), **P4→Nhóm I** (`Advanced_innovation`; Singapore), **P5→Nhóm III** (`Upper_mid`; China), **P7→all 6 groups (cross-regime)**, **P8→Nhóm VI** (`SIDS_small`). Note: "Frontier V" is NOT a valid dissertation-internal label for Vietnam; correct label is "Nhóm IV" or "ICRV Group 4 (Lower_mid_transition)".
 
 **Institutional gradient in P7 results (key cross-paper narrative):** The ICRV gradient is empirically confirmed in P7 — Emerging and Lower_mid_transition groups show the steepest inverted-U (highest b1, lowest TP ~44-45%), while Advanced_innovation shows a higher TP (~57%) and flatter curve. SIDS_small is the exception: U-shaped (Forced Penalty), confirming the boundary condition hypothesis.
 

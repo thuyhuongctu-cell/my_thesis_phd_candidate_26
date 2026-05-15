@@ -314,7 +314,7 @@ heterogeneity?
 8 PAPERS (P1–P8):
 ✅ P1 Emerging Asia 17 economies (VEFR 2026)
 ✅ P2 China SMEs (JFAR 2026)
-✅ P3 Vietnam — Frontier V, inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
+✅ P3 Vietnam — Nhóm IV (Lower_mid_transition), inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
 ✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft → MIR)
 🔄 P5 China temporal 2012–2024 (manuscript complete → IJOEM)
 ✅ P6 Meta-analysis three-level MARA k=235 (manuscript complete → IBR — International Business Review; r=0.075, I²=62.5%, ICRV gradient Q=127.77***)
@@ -322,13 +322,13 @@ heterogeneity?
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 
 INSTITUTIONAL GRADIENT:
-Vietnam (Frontier V / Emerging IV*)  → Inverted-U, TP ~39–46% FSTS (low optimum, Frontier constraint)
+Vietnam (Nhóm IV — Lower_mid_transition*)  → Inverted-U, TP ~39–46% FSTS (low optimum, lower-middle transition constraint)
 Singapore (Advanced I)               → Inverted-U, TP ~88.6% FSTS (wide CI [53–253%], support-constrained)
 China (Upper-middle III)             → Inverted-U, TP ~47–49% FSTS (stable 2012→2024, Paternoster z=0.82)
 Asian capstone (all 6 ICRV groups)  → Heterogeneous moderation; P7 TP~36%, DAI≠TCI
 Pacific SIDS (SIDS_small / VI)       → REVERSED slope (Forced Penalty), β(FSTS)=−0.357 (p=.069)
 
-*Hai hệ thống phân loại: 5-chế độ (P3/P6): Vietnam = Frontier V; 6-chế độ (CD1/CD2/P7): Vietnam = Nhóm IV Emerging. Tương đương nhau, khác ký hiệu.
+*Vietnam = Nhóm IV (Lower_mid_transition, Group 4/6) nhất quán trong toàn bộ luận án (P7 code: ICRV_MAP["Vietnam"]=4; data registry: Group IV). Nhãn "Frontier V" trước đây trong bản thảo P3 đã được sửa thành "Nhóm IV" — nhóm V (Emerging trong P7) là Afghanistan, Nepal, Cambodia, v.v. WGI Rule of Law Việt Nam: ~−0,66 (2009), ~−0,09 (2023), nguồn World Bank.
 
 TÍNH MỚI:
 1. Forced Internationalization Penalty — named contribution
