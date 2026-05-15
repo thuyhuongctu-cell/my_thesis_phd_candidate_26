@@ -9,7 +9,7 @@
 
 **Word count** (main text excluding abstract, references, tables and figures): approximately 6,800 words.
 
-**Tables:** 4 (Table 1 descriptives; Table 2 focal coefficient summary; Table 3 robustness panels; Table 4 turning points).
+**Tables:** 5 (Table 1 variable definitions; Table 2 descriptives; Table 3 focal coefficient summary; Table 4 robustness panels; Table 5 turning points).
 
 **Figures:** 6 (Figure 1 conceptual model; Figures 2a–2d wave-specific FSTS curves; Figure 3 moderator marginal effects — TCI and DAI interactions with FSTS).
 
@@ -393,9 +393,9 @@ because k33 and k38 are unavailable in the 2009 and 2015 waves.
 
 Controls are standard. Firm size lnEmp = ln(l1). Firm age FirmAge = survey year minus b5 (year established). Foreign ownership ForeignOwned = 1 if b2b (percentage of equity owned by private foreign individuals or firms) > 0. Sector fixed effects use the first digit of a4b (broad ISIC code) for the 2009 and 2015 waves and the first digit of a4a for the 2023 wave, where a4b is not in the public release. Pooled specifications add wave fixed effects to absorb broad period differences in the productivity baseline.
 
-Table 0 summarises all variables used in the M0–M8 sequence, their WBES source items, construction rules, and theoretical roles.
+Table 1 summarises all variables used in the M0–M8 sequence, their WBES source items, construction rules, and theoretical roles.
 
-*Table 0: Variable definitions and WBES construction.*
+*Table 1: Variable definitions and WBES construction.*
 
 | Variable | WBES item(s) | Construction | Role in model |
 |---|---|---|---|
@@ -482,7 +482,7 @@ the object that adjusts when the rerun drifts from the prose. Throughout, we fol
 of associational evidence (Aguinis et al., 2021; Shaver, 2020).
 
 ## 4. Results
-Table 1 reports analytic-sample summary statistics by wave. Three patterns stand out
+Table 2 reports analytic-sample summary statistics by wave. Three patterns stand out
 before the inferential analysis. The share of firms reporting any positive direct-export intensity
 declines from 28.4 % in 2009 to 20.7 % in 2015 to 18.8 % in 2023, reflecting the rebalancing of
 the Vietnamese exporter cohort away from labour-intensive manufacturing toward services and
@@ -501,7 +501,7 @@ positive. TCI moderation is statistically distinguishable from zero (M3 joint p 
 
 
 
-Table 1: Analytic-sample summary statistics by wave.
+Table 2: Analytic-sample summary statistics by wave.
 
 | Variable | 2009 (N=989) | 2015 (N=956) | 2023 (N=1,013) | Pooled (N=2,958) |
 | --- | --- | --- | --- | --- |
@@ -648,10 +648,10 @@ Before reading the table that follows, we anchor the reader in the two-margin st
 the exporter-only sub-sample (FSTS > 0; pooled N = 669, 4.5 Panel H), the linear FSTS_c term is negative (β = -0.861, p < .001) but the quadratic term is not significant (FSTS_c² β = -0.200, p = .660, M8 joint p = .462). H1a (participation margin) is therefore the dominant
 productivity-relevant margin in this dataset; the within-exporter intensity curvature claimed by
 H1b weakens once participation is netted out. We retain the full-sample inverted-U as the headline empirical regularity, but interpret it explicitly through the dual-mechanism lens: most of the
-productivity differential lies between non-exporters and exporters, with limited additional curvature within the exporter subsample. Table 1 therefore reads as a description of the combined
+productivity differential lies between non-exporters and exporters, with limited additional curvature within the exporter subsample. Table 2 therefore reads as a description of the combined
 participation × intensity pattern rather than as a structural statement about within-exporter
 intensity curvature.
-Table 1 summarises the directional interpretation of the focal coefficients from the full specifications by wave and for the pooled sample.
+Table 3 summarises the directional interpretation of the focal coefficients from the full specifications by wave and for the pooled sample.
 
 ### 4.5 Robustness
 Four families of robustness checks examine whether central inferences are sensitive to measurement choices, sector composition, export-participation structure, and endogeneity. The panels below are estimated on the same OLS HC1 design as the main models.
@@ -714,13 +714,13 @@ Measurement-sensitivity probes confirm that core inferences do not depend on com
 
 Multiple-testing caveat. 4.5 reports four narrative panels (G, H, I, F) and three robustness families (endogeneity/selection, measurement sensitivity) across multiple focal terms. We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. Our substantive inferences in §5 rely on the pattern across panels and the directional consistency of the focal estimates rather than on the significance of any single robustness panel.
 
-Table 3 collates the robustness panels documented in 4.5 in a single overview to ease crosscomparison.
+Table 4 collates the robustness panels documented in 4.5 in a single overview to ease crosscomparison.
 Table LM reports the implied turning points of the inverted-U specification (M2) and the
 Lind–Mehlum p-values for each wave and the pooled sample.
 
 
 
-Table 3: Robustness panels A–K and supplementary checks.
+Table 4: Robustness panels A–K and supplementary checks.
 
 | Panel | Sample | N | Term | b (SE) | p |
 | --- | --- | --- | --- | --- | --- |
@@ -954,7 +954,7 @@ Panel F (Paternoster cross-wave z-tests, Paternoster et al., 1998) are reported 
 presentation is per-sample rather than per-row. Source: World Bank Enterprise Surveys (Vietnam 2009, 2015, 2023), www.enterprisesurveys.org; authors' calculations.
 Notes.
 
-Table 4: Implied turning points of the inverted-U (M2 specification).
+Table 5: Implied turning points of the inverted-U (M2 specification).
 
 | Sample | Turning point (FSTS) | 95% CI | Lind-Mehlum p | FSTS range |
 | --- | --- | --- | --- | --- |
@@ -973,7 +973,7 @@ Table 4: Implied turning points of the inverted-U (M2 specification).
 | 2009 vs. 2023 | z=0.09 (p=0.926) | z=0.14 (p=0.888) | z=1.42 (p=0.155) | z=1.28 (p=0.201) |
 | 2015 vs. 2023 | z=0.66 (p=0.509) | z=-0.84 (p=0.400) | z=0.07 (p=0.947) | z=-2.05 (p=0.040) |
 
-*Notes.* Cross-wave coefficient equality tests following Paternoster et al. (1998). Failure to reject indicates coefficient stability across waves. FSTSc and FSTSc² comparisons support wave-specific heterogeneity in TCI and DAI direct effects but not in the I–P curvature parameters. Turning points (already reported in Table 4 above) are derived from M2 (lnLP = β₀ + β₁ FSTS_c + β₂ FSTS_c² + controls + sector FE [+ wave FE in pooled]) back-transformed to the raw FSTS scale; 95% CI uses the delta method; Lind–Mehlum p-values follow the Sasabuchi-style endpoint test (Lind & Mehlum, 2010). Source: WBES Vietnam 2009, 2015, 2023; authors' calculations.
+*Notes.* Cross-wave coefficient equality tests following Paternoster et al. (1998). Failure to reject indicates coefficient stability across waves. FSTSc and FSTSc² comparisons support wave-specific heterogeneity in TCI and DAI direct effects but not in the I–P curvature parameters. Turning points (already reported in Table 5 above) are derived from M2 (lnLP = β₀ + β₁ FSTS_c + β₂ FSTS_c² + controls + sector FE [+ wave FE in pooled]) back-transformed to the raw FSTS scale; 95% CI uses the delta method; Lind–Mehlum p-values follow the Sasabuchi-style endpoint test (Lind & Mehlum, 2010). Source: WBES Vietnam 2009, 2015, 2023; authors' calculations.
 
 ## 5. Discussion
 
@@ -1035,7 +1035,7 @@ and broader technological depth (more identification-robust), rather than collap
 a single label.
 
 ### 5.3 The significance of the 2015 dip
-Before invoking the macro-infrastructure narrative, the 2015 null should be grounded in the micro-structure of the sample itself. As reported in Table 1, the exporter share fell from 28.4% in 2009 to 20.7% in 2015 — a selective exit that left a residual cohort disproportionately concentrated in labour-intensive, OEM-dependent assembly operations. For a garment or electronics sub-contractor awaiting orders from a foreign principal, a basic corporate website functions as a digital pamphlet rather than a productivity-enabling coordination tool: it signals presence but does not optimise supply-chain flows, enable transaction-level data integration, or substitute for the digital interfaces controlled by the upstream buyer. This cohort-composition mechanism — not merely the macro infrastructure gap — helps explain why the website-based DAI coefficient compresses to a null in 2015 even as the inverted-U curvature remains statistically present. The proxy-obsolescence channel reinforces this reading: by 2015, website ownership had diffused sufficiently that the c22b indicator could no longer separate digitally capable exporters from routine web presence, further attenuating its measured association with productivity. We therefore treat the macro indicators below as institutional context that makes the wave-specific reading plausible, not as identifying variation.
+Before invoking the macro-infrastructure narrative, the 2015 null should be grounded in the micro-structure of the sample itself. As reported in Table 2, the exporter share fell from 28.4% in 2009 to 20.7% in 2015 — a selective exit that left a residual cohort disproportionately concentrated in labour-intensive, OEM-dependent assembly operations. For a garment or electronics sub-contractor awaiting orders from a foreign principal, a basic corporate website functions as a digital pamphlet rather than a productivity-enabling coordination tool: it signals presence but does not optimise supply-chain flows, enable transaction-level data integration, or substitute for the digital interfaces controlled by the upstream buyer. This cohort-composition mechanism — not merely the macro infrastructure gap — helps explain why the website-based DAI coefficient compresses to a null in 2015 even as the inverted-U curvature remains statistically present. The proxy-obsolescence channel reinforces this reading: by 2015, website ownership had diffused sufficiently that the c22b indicator could no longer separate digitally capable exporters from routine web presence, further attenuating its measured association with productivity. We therefore treat the macro indicators below as institutional context that makes the wave-specific reading plausible, not as identifying variation.
 
 A purely stage-contingency interpretation is not the only reading of the wave-specific DAI pattern. An alternative — and to a degree complementary — explanation is proxy obsolescence:
 the c22b indicator of website ownership measures something different in 2009, 2015 and 2023
@@ -1228,10 +1228,10 @@ and computational reproducibility.
 ## Supplementary materials
 All figures and tables in the manuscript are embedded inline. The underlying coefficient outputs are also distributed as plain CSV files in the replication package for downstream reanalysis:
 
-tables/table_1_descriptives.csv (Table 1), tables/coefs_main_models.csv (M0–M8
+tables/table_1_descriptives.csv (Table 2), tables/coefs_main_models.csv (M0–M8
 
 long-format coefficient table), tables/joint_tests_main_models.csv (H2 and P1 joint F-tests),
-tables/table_lind_mehlum.csv (Table LM source), tables/table_3_robustness.csv (Table 3 panels A–D + G), tables/selection_checks.csv (Heckman / control function), and tables/table_paternoster.csv
+tables/table_lind_mehlum.csv (Table LM source), tables/table_3_robustness.csv (Table 4 panels A–D + G), tables/selection_checks.csv (Heckman / control function), and tables/table_paternoster.csv
 (cross-wave z-tests). Replication package and instructions: see p3_vietnam/README.md.
 
 
