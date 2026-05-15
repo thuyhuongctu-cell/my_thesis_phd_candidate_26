@@ -3,7 +3,7 @@
 > LFE Academic Workflow — adapted from Library-First Engineering v2
 > Project: PhD Dissertation — Đỗ Thùy Hương (VLUTE), supervised by PGS.TS. Phan Anh Tú (CTU)
 > Branch: `claude/edit-vietnamese-academic-standards-xcAmn`
-> Last updated: 2026-05-12
+> Last updated: 2026-05-15
 
 ---
 
@@ -13,7 +13,7 @@
 **Archivist** (maintenance / inter-mission period)
 
 ## Session Count
-**42** (hygiene audit due every 5 sessions — next at session 45)
+**45** (hygiene audit due — completed this session)
 
 ---
 
@@ -24,7 +24,8 @@
 | P3 — Vietnam | JABS (Emerald) | ✅ Submission ready | IBR rejected → retargeted to JABS; lifecycle language fixed; Wu+Pisani §5 positioning added |
 | P4 — Singapore | MIR (Springer) | ✅ Submission ready | Institutional transferability §5.1 added; P4 v8 integrated |
 | P5 — China | IJOEM (Emerald) | ✅ Submission ready | Companion paper (P2 JFAR) disclosed in §6; v9 integrated |
-| P6 — Meta-analysis | IBR (International Business Review, Elsevier) | 🟡 In progress | 62/62 missing APA7 citations added; 11 Part 2 r-values pending manual extraction |
+| P6 — Meta-analysis | IBR (Elsevier) | 🟡 In progress | Target journal confirmed IBR; S-111→S-121 r-values in forest_data.csv (paper-level verify pending); S-62 citation suspect |
+| P7 — Multi-country capstone | JIBS (Palgrave) | ✅ Submission ready | jibs_package built; §4.5.4 methodology added; H2 partial-confirmation corrected; dist/ synced |
 | CĐ2 — Chuyên đề 2 | PhD Committee (VI) | ✅ Submitted v2.1 | APJM→JABS updated 2026-05-12 |
 | CĐ1 — Chuyên đề 1 | PhD Committee (VI) | ✅ Complete | |
 
@@ -38,7 +39,17 @@
 ---
 
 ## Pipeline Phase
-**Between missions** — all active papers at submission-ready state.
+**Between missions** — all active papers at submission-ready state. P6 manuscript in-progress pending manual r-value extraction.
+
+## Completed This Session (2026-05-15)
+- dist/ chapters (chuong_1/4/5) synced with thesis/ master; docx rebuilt via pandoc
+- H2 hypothesis table corrected: "Xác nhận một phần" (TCI curvature moderation NS in P7 49-economy sample)
+- server-anthropic: model IDs updated (claude-3-opus-20240229 → claude-sonnet-4-6 default)
+- P6 manuscript end note: target journal corrected APJM → IBR
+- thesis/00_optimal_plan_vi.md: P6/P7 status already updated (prior session)
+- thesis/03_methodology_vi.md: §4.5.4 P7 already present (prior session)
+- p7/submission/jibs_package/: all 4 files present (prior session)
+- check-consistency.py: 0 issues confirmed
 
 ## Coordination Files
 None active in `.plans/` (clean state).
