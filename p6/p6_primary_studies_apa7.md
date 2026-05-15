@@ -418,7 +418,7 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 *Effect: r cần trích xuất | Region: Asia (food sector, ICRV=MX) | IV: internationalization → FP: EBITDA/market cap | DPL: FOL*
 
 **[S-137]** Cho, J., & Lee, J. (2018). Internationalization and performance of Korean SMEs: The moderating role of competitive strategy. *Asian Business & Management, 17*(2), 140–166. https://doi.org/10.1057/s41291-017-0035-9
-*Effect: r = **−0.029** (Table 4 bivariate Pearson r(FSTS,ROA)) | n = 232 firms (2,320 obs) | Country: Korea (ICRV=I) | IV: FSTS → FP: ROA (ACC) | Panel 2003–2013 | Method: Fixed-effects + GMM + SSIV | S-curve (cubic FSTS significant) | cDAI=H, DPL=SPN* ✅ **PDF đã đọc 15/05/2026 — r đã xác nhận, KHÔNG phải S-62**
+*Effect: r = **−0.029** (Table 4 bivariate Pearson r(FSTS,ROA)) | n = 232 firms (2,320 obs) | Country: Korea (ICRV=I) | IV: FSTS → FP: ROA (ACC) | Panel 2003–2013 | Method: Fixed-effects + GMM + SSIV | S-curve (cubic FSTS significant) | cDAI=H, DPL=SPN* ✅ **PDF đã đọc 15/05/2026 — r đã xác nhận, KHÔNG phải S-62 | forest_data.csv: S238** (CI=[−0.16, +0.10])
 
 ---
 
@@ -459,7 +459,8 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
   - ✅ S-117 → **S237** (r=−0.04, correlation matrix Table 2, 304 Polish firms 2010–2013, OC)
   - ✅ S-118 (S220), S-119 (S108+S223) — 2 nghiên cứu 2021
   - ✅ S-120 (S198), S-121 (S126+S216) — 2 nghiên cứu 2022
-- Phần 3: 16 ứng viên mới (S-122 → S-137) — **CẦN r-extraction**: 15 chưa có PDF/r; 1 đã có r (S-137 Cho & Lee 2018: r=−0.029)
+- Phần 3: 16 ứng viên mới (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 Cho & Lee (2018) r=−0.029 → **S238** đã thêm vào forest_data.csv; 15 còn lại cần PDF + r-extraction
+- forest_data.csv: **288 data rows** (S238 mới thêm: Cho & Lee 2018, Korea, FSTS, r=−0.029)
 - forest_data.csv: 287 rows tổng (285 data rows + header), S236+S237 đã append
 - 🔴 **CÒN LẠI:** S-62 citation sai — Cho & Lee (2018) đã kiểm tra và KHÔNG phải S-62 (r=−0.029≠0.383; n=232≠279). Cần tìm bài khác từ MetaEssentials Excel (Korean sample, r=0.383, n=279)
 
