@@ -220,6 +220,123 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 | δ_s | a4b / a4a | ngành 1-chữ số ISIC (a4b cho 2009/2015; a4a cho 2023) | Hiệu ứng cố định ngành |
 | λ_t | wave | chỉ báo sóng khảo sát (chỉ pooled) | Hiệu ứng cố định thời kỳ |
 
+### 4.5.2 Mô hình cụ thể — Nghiên cứu 4 (Singapore, WBES 2023)
+
+Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N = 623). Thiết kế đơn sóng, không có thành phần λ_t. Ký hiệu tiếng Việt:
+
+- **lnNSLD_i** = lnLP_i: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
+- **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
+- **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; CDDXK_c² là bình phương
+- **NLCN_z_i** = TCI_z_i: năng lực công nghệ — z-std của trung bình(b8₀₁, e6₀₁)
+- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2** — z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm e-payment hai chiều (Tier-2)
+- **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự P3
+- **δ_s**: sector fixed effects (ISIC 1-chữ số)
+- **IMR_i** = nghịch đảo tỷ lệ Mills từ mô hình probit tham gia xuất khẩu (kiểm tra độ nhạy Heckman)
+
+**Chuỗi mô hình lồng nhau M0–M5:**
+
+> M0 (Baseline):
+> lnNSLD_i = α + γ₁ lnLD_i + γ₂ TuoiDN_i + γ₃ SoHuuNN_i + δ_s + ε_i
+
+> M1 (Tuyến tính FSTS):
+> lnNSLD_i = α + β₁ CDDXK_c_i + γ·X_i + δ_s + ε_i
+
+> M2 (Bậc hai FSTS — kiểm định H1):
+> lnNSLD_i = α + β₁ CDDXK_c_i + β₂ CDDXK_c²_i + γ·X_i + δ_s + ε_i
+> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) ≈ 88,6% FSTS [CI bootstrap [53%, 253%]]
+> Lưu ý: Lind–Mehlum p = 0,303 — không bác bỏ tuyến tính trong phạm vi dữ liệu quan sát; đây là kết quả thông tin tích cực theo khung bão hòa (saturation framework)
+
+> M3 (+ NLCN — H1-TCI trực tiếp):
+> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + γ·X + δ_s + ε
+
+> M4 (+ CSS trực tiếp):
+> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z + γ·X + δ_s + ε
+
+> M5 (Mô hình đầy đủ — kiểm định H3):
+> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
+>            + β₅(CDDXK_c × CSS_z) + β₆(CDDXK_c² × CSS_z) + γ·X + δ_s + ε
+> H3: β₆ > 0 — DAI khuếch đại lợi nhuận I→P ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
+> Kết quả: β₆ = +3,119 (p = 0,005) trong mẫu đầy đủ; β₆ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê ≈ 16%)
+
+**Bảng định nghĩa biến — Nghiên cứu 4 (Singapore):**
+
+| Ký hiệu VN | Mã WBES | Cách tính | Vai trò |
+|---|---|---|---|
+| lnNSLD | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
+| CDDXK_c | d3c | FSTS − mean(FSTS): centred | Biến độc lập |
+| CDDXK_c² | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
+| NLCN_z | b8, e6 | z-std của TB(b8₀₁, e6₀₁) | Năng lực công nghệ (H2) |
+| CSS_z | c22b, k33, k38 | z-std của TB(c22b₀₁, k33₀₁, k38₀₁) — **Tier-1+2** | Số hoá Tier-1+2 (H3) |
+| lnLD | l1 | ln(l1) | Quy mô doanh nghiệp |
+| TuoiDN | b5 | năm khảo sát − b5 | Tuổi doanh nghiệp |
+| SoHuuNN | b2b | 1 nếu b2b > 0 | Hình thức sở hữu |
+| IMR | probit selection | Nghịch đảo tỷ lệ Mills (kiểm tra Heckman) | Kiểm soát chọn lựa tham gia xuất khẩu |
+| δ_s | a4b | Sector FE (ISIC 1-chữ số) | Hiệu ứng cố định ngành |
+
+---
+
+### 4.5.3 Mô hình cụ thể — Nghiên cứu 5 (Trung Quốc, WBES 2012 và 2024)
+
+Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: N = 1.934; pooled N = 4.544). Thiết kế đa sóng không panel (217 doanh nghiệp xuất hiện cả hai sóng tạo thành "panel core" được sử dụng cho cluster-robust SE). Ký hiệu tiếng Việt:
+
+- **lnNSLD_it** = lnLP_it: log năng suất lao động (biến phụ thuộc)
+- **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
+- **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện — z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn P3
+- **CSS_z_it** = DAI_core_it: chỉ số số hoá cơ bản — chỉ c22b₀₁ (Tier-1 mỏng, single-item binary)
+- **lnLD_it**, **TuoiDN_it**, **SoHuuNN_it**: biến kiểm soát
+- **δ_s**: sector fixed effects; **λ_t**: wave fixed effects (pooled)
+
+**Chuỗi mô hình lồng nhau M0–M6:**
+
+> M0 (Baseline):
+> lnNSLD_it = α + γ₁ lnLD_it + γ₂ TuoiDN_it + γ₃ SoHuuNN_it + δ_s + λ_t + ε_it
+
+> M1 (Tuyến tính FSTS):
+> lnNSLD_it = α + β₁ CDDXK_c_it + γ·X_it + δ_s + λ_t + ε_it
+
+> M2 (Bậc hai FSTS — kiểm định H1):
+> lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + γ·X_it + δ_s + λ_t + ε_it
+> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) — điểm uốn 49,4% (2012) và 47,2% (2024)
+> Kiểm định ổn định cấu trúc: Paternoster (1998) z-test: z(FSTS) = +0,82 (p = 0,412); z(FSTS²) = −0,61 (p = 0,545) → không bác bỏ bình đẳng hệ số giữa hai sóng
+
+> M3 (+ NLCN trực tiếp — H2 level-shift):
+> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + γ·X + δ_s + λ_t + ε
+> Kết quả: β₃ = +0,28 (2012, p < 0,001), +0,43 (2024, p < 0,001) — TCI là "bộ tăng mức" (level-shifter), không điều tiết độ cong
+
+> M4 (+ CSS trực tiếp):
+> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z + γ·X + δ_s + λ_t + ε
+
+> M5 (Kiểm định ổn định xuyên sóng — H2b):
+> Ước lượng M2 riêng biệt cho 2012 và 2024, sau đó áp dụng:
+> z = (β̂₁,2012 − β̂₁,2024) / √(SE²₁,2012 + SE²₁,2024)
+> (Paternoster et al., 1998) — tương tự cho β₂ (FSTS²)
+
+> M6 (Điều tiết ba chiều — kiểm định H3/H4a/H4b):
+> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
+>             + β₅(CDDXK_c × NLCN_z) + β₆(CDDXK_c² × NLCN_z)
+>             + β₇(CDDXK_c × wave) + β₈(CDDXK_c² × wave) + γ·X + δ_s + λ_t + ε
+> F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng lực), F3 (dịch chuyển điều kiện)
+> Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017) → H4b (null capability-curvature moderation) được chấp nhận
+
+**Bảng định nghĩa biến — Nghiên cứu 5 (Trung Quốc):**
+
+| Ký hiệu VN | Mã WBES | Cách tính | Vai trò |
+|---|---|---|---|
+| lnNSLD | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
+| CDDXK_c | d3c | FSTS − mean_wave(FSTS) | Biến độc lập |
+| CDDXK_c² | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
+| NLCN_z | b8, e6, b4, b7a | z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁) — TCI toàn diện | Năng lực công nghệ (H2) |
+| CSS_z | c22b | c22b₀₁ — **Tier-1 đơn biến** (binary) | Số hoá Tier-1 mỏng (kiểm soát) |
+| lnLD | l1 | ln(l1) | Quy mô doanh nghiệp |
+| TuoiDN | b5 | năm khảo sát − b5 | Tuổi doanh nghiệp |
+| SoHuuNN | b2b | 1 nếu b2b > 0 | Hình thức sở hữu |
+| δ_s | ISIC sector | Sector FE | Hiệu ứng cố định ngành |
+| λ_t | wave (2012/2024) | Wave FE (chỉ pooled) | Hiệu ứng cố định thời kỳ |
+
+*Ghi chú: 217 doanh nghiệp xuất hiện cả hai sóng ("panel core") tạo thêm nhận dạng biến thiên trong mẫu trong khi clustered SE theo idstd xử lý tương quan nội nhóm. DAI Trung Quốc chỉ là Tier-1 đơn biến — không đủ để kiểm định CDCM; hàm ý chính sách và lý thuyết khác với P4 Singapore (Tier-1+2).*
+
+---
+
 ### 4.6 Sai số chuẩn
 
 Tất cả các mô hình đều sử dụng HC1/HC3 robust standard errors (Long & Ervin, 2000; White, 1980) để xử lý heteroscedasticity. Đối với multi-country, bổ sung clustered SE theo country.
