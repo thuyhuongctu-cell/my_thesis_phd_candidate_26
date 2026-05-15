@@ -417,6 +417,83 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 
 ---
 
+#### 3.4.5.5 Mô hình cụ thể — Nghiên cứu 8: Pacific SIDS (N = 1.469, Nhóm VI)
+
+Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế Pacific SIDS** (Fiji, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, và các đảo nhỏ khác) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
+
+Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)** — mối quan hệ quốc tế hóa–hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3–P7. Lind–Mehlum U-test không bác bỏ đơn điệu (p > ,10), xác nhận không có điểm quay.
+
+**Ký hiệu biến (tiếng Việt ↔ mã WBES):**
+
+| Ký hiệu | Tên tiếng Việt | Mã WBES | Cách tính |
+|---------|----------------|---------|-----------|
+| lnNSLD | Log năng suất lao động | d2, l1 | ln(doanh thu PPP / lao động thường trực) |
+| CDDXK_c | Cường độ xuất khẩu (điều chỉnh) | d3c | (d3c/100) − mean_wave(FSTS): centred theo sóng |
+| CDDXK_c² | CDDXK_c bình phương | d3c | CDDXK_c × CDDXK_c |
+| NLCN_z | Năng lực công nghệ | b8, e6 | z-std(trung bình cert chất lượng + CN nước ngoài) |
+| CSS_z | Chỉ số số hoá (Tier-1) | c22b | z-std(website binary): **chỉ Tier-1, không dynamic** |
+| lnLD | Log quy mô lao động | l1 | ln(lao động thường trực) |
+| TuoiDN | Tuổi doanh nghiệp | b5 | năm_khảo_sát − b5 |
+| SoHuuNN | Tỷ lệ sở hữu nước ngoài | b6a | tỷ lệ 0–1 |
+| δ_c | Country fixed effects | a3b | dummy theo quốc gia |
+| λ_t | Wave fixed effects | wave | dummy theo sóng điều tra |
+
+*Ghi chú: CSS_z (DAI) là proxy tĩnh Tier-1 (website binary c22b). WBES không thu thập đủ thang đo cho số hoá động tại các đảo nhỏ — KHÔNG gọi là "năng lực số hoá động".*
+
+**Chuỗi mô hình M0–M3 (P8):**
+
+M0 — Baseline kiểm soát:
+
+$$lnNSLD_{it} = \alpha + \gamma_1 lnLD_{it} + \gamma_2 TuoiDN_{it} + \gamma_3 SoHuuNN_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+
+M1 — Kiểm định FIP (H1b): thêm cường độ xuất khẩu tuyến tính
+
+$$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+
+$$\beta_1 = -0{,}404,\ p = {,}032\ (\text{country+year FE, N} = 1{.}469) \Rightarrow \textbf{FIP xác nhận}$$
+
+M2 — Kiểm định phi tuyến: thêm CDDXK_c²
+
+$$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+
+$$\beta_1\ \text{NS},\ \beta_2\ \text{NS};\ \text{Lind–Mehlum U-test NS} \Rightarrow \text{không có điểm quay, đơn điệu âm}$$
+
+M3 — Kiểm định năng lực điều tiết (H2 null cho SIDS):
+
+$$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \beta_3 NLCN\_z_{it} + \beta_4 CSS\_z_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+
+$$\beta_3\ (NLCN\_z):\ p = {,}495\ \text{NS};\ \beta_4\ (CSS\_z):\ p = {,}402\ \text{NS} \Rightarrow \text{H2 bị bác bỏ tại Nhóm VI}$$
+
+**Phân tích độ vững (robustness checks):**
+
+| Specification | β(CDDXK_c) | SE | p |
+|---|---|---|---|
+| M1 country+year FE (N = 1.469) | −0,404 | — | ,032 |
+| Year FE only (không country FE) | −1,236 | — | < ,001 |
+| Bivariate (không controls) | −1,596 | — | < ,001 |
+| Exporters-only (N = 187) | −0,901 | — | ,027 |
+
+*Hệ số âm nhất quán qua 4 specification xác nhận FIP không phải do selection bias hay outlier.*
+
+**Bảng định nghĩa biến — Nghiên cứu 8 (Pacific SIDS)**
+
+| Ký hiệu | WBES item | Cách tính | Vai trò |
+|---------|-----------|-----------|---------|
+| lnNSLD | d2, l1 | ln(doanh thu PPP / lao động) | Biến phụ thuộc |
+| CDDXK_c | d3c | (d3c/100) − mean_wave: centred | Biến độc lập (I) |
+| CDDXK_c² | d3c | CDDXK_c bình phương | I — kiểm định phi tuyến |
+| NLCN_z | b8, e6 | z-std(cert + CN nước ngoài) | Năng lực công nghệ |
+| CSS_z | c22b | z-std(website binary): Tier-1 only | Số hoá — proxy tĩnh |
+| lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
+| TuoiDN | b5 | năm_KS − năm_thành_lập | Control (tuổi DN) |
+| SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài | Control (sở hữu) |
+| δ_c | a3b | country FE | Fixed effects |
+| λ_t | wave | wave FE | Fixed effects |
+
+*Ghi chú: FIP là điều kiện biên (boundary condition) của mô hình chữ U ngược — áp dụng đặc thù tại ICRV Nhóm VI nơi 3 điều kiện cấu trúc bị vi phạm đồng thời: (1) không có thị trường nội địa đủ lớn, (2) chi phí thương mại không kiểm soát được, (3) hỗ trợ thể chế không đủ chức năng. DAI (CSS_z) Tier-1 only — WBES không thu thập thang đo đầy đủ cho số hoá động tại SIDS.*
+
+---
+
 ### 3.4.6 Sai số chuẩn
 
 Tất cả các mô hình đều sử dụng HC1/HC3 robust standard errors (Long & Ervin, 2000; White, 1980) để xử lý heteroscedasticity. Đối với multi-country, bổ sung clustered SE theo country.
