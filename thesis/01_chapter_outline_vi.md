@@ -112,7 +112,7 @@ Luận án áp dụng **mixed synthesis-empirical design** kết hợp meta-anal
 ### 3.2 Nguồn dữ liệu
 
 - **Phase meta-analysis**: literature pool 1982–2026, tiêu chí inclusion theo PRISMA (Page et al., 2021); mục tiêu ~172 effect-size units.
-- **Phase empirical**: World Bank Enterprise Surveys cho **41 nền kinh tế châu Á** (101.185 doanh nghiệp · 108 cặp quốc gia × năm · 14 mốc khảo sát) trong giai đoạn **2009–2025** (World Bank, 2019, 2023, 2026, n.d.). Pool kế thừa và mở rộng từ 17 nước trong Đỗ và Phan (2026 — VEFR). 6 nước Pacific SIDS được phân tích bổ sung như boundary case adjacent (Đỗ & Phan, 2026 — P8).
+- **Phase empirical**: World Bank Enterprise Surveys cho **41 nền kinh tế châu Á** (101.185 doanh nghiệp · 108 cặp quốc gia × năm · 14 mốc khảo sát) trong giai đoạn **2009–2025** (World Bank, 2019, 2023, 2026, n.d.). Pool kế thừa và mở rộng từ 17 nước trong Đỗ và Phan (2026 — VEFR). 9 nước Pacific SIDS được phân tích bổ sung như boundary case adjacent (Đỗ & Phan, 2026 — P8; gồm 7 ICRV Nhóm VI + Comoros + Timor-Leste theo bộ lọc WBES, N=1.469).
 - Dữ liệu WBES cho phép so sánh chuẩn hóa do các biến doanh thu, lao động, chấp nhận số và obstacles được đo nhất quán giữa các quốc gia và các wave, sau khi hòa hợp 3 thế hệ schema (PICS3 2009–2012, Standardized 2013–2017, BREADY/BEE 2018–2025).
 
 ### 3.3 Đo lường biến
@@ -159,7 +159,7 @@ Chương 4 trình bày kết quả ở ba cấp độ: meta-analysis, country-le
 
 ### 4.3 Kết quả phân tích đa quốc gia (capstone)
 
-- Pooled regression trên 41 nền kinh tế châu Á (cộng 6 Pacific SIDS adjacent ở mục 4.4), mở rộng từ pool 17 nước (Đỗ & Phan, 2026 — VEFR).
+- Pooled regression trên 41 nền kinh tế châu Á (cộng 9 nước SIDS adjacent ở mục 4.4), mở rộng từ pool 17 nước (Đỗ & Phan, 2026 — VEFR).
 - Kiểm định phi tuyến tổng hợp.
 - Subgroup analysis theo sub-regime ICRV (Khanna & Palepu, 2010).
 - Three-way moderation: digital × institutional × top manager.
