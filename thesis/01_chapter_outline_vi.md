@@ -42,7 +42,7 @@ Câu hỏi cụ thể:
 
 - Đối tượng: mối quan hệ internationalization–firm performance và các yếu tố điều tiết.
 - Đơn vị phân tích: doanh nghiệp (firm-level).
-- Phạm vi không gian (chính): các nền kinh tế châu Á có dữ liệu WBES, tổ chức theo 5 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier). Phạm vi mở rộng: 9 nước Pacific SIDS (gồm cả Comoros, Timor-Leste) được phân tích như boundary case adjacent. Nhật Bản không thuộc empirical scope.
+- Phạm vi không gian: 47–49 nền kinh tế châu Á và Thái Bình Dương có dữ liệu WBES, tổ chức theo **6 sub-regime ICRV** (I: Advanced innovation-driven, II: Advanced resource-driven, III: Upper-middle, IV: Emerging, V: Frontier, VI: Pacific SIDS). P8 cung cấp phân tích boundary case chuyên sâu cho Nhóm VI (Pacific SIDS, forced internationalization penalty). Nhật Bản không thuộc empirical scope.
 - Phạm vi thời gian: literature 1982–2026 (meta-analysis); WBES 2009–2025 (101.185 doanh nghiệp · 108 cặp quốc gia × năm) cho phase thực nghiệm.
 
 ### 1.6 Tính mới và đóng góp dự kiến

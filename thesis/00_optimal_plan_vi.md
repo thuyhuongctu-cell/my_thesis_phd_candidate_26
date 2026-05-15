@@ -78,7 +78,7 @@ Luận án tập trung vào các nền kinh tế châu Á với 6 sub-regime ICR
 
 - **Đối tượng nghiên cứu**: mối quan hệ giữa quốc tế hóa và hiệu quả hoạt động của doanh nghiệp ở Châu Á, cùng các yếu tố điều tiết thuộc ba tầng (thể chế, năng lực, quản trị) cộng với lớp digital.
 - **Đơn vị phân tích**: doanh nghiệp cấp vi mô (firm-level).
-- **Phạm vi không gian (chính)**: 41 nền kinh tế châu Á có dữ liệu WBES, tổ chức theo 5 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier). **Phạm vi mở rộng (boundary case)**: 6 nước Pacific SIDS được phân tích như adjacent để kiểm định forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript). Nhật Bản hiện chưa có dữ liệu thực nghiệm phù hợp nên không thuộc empirical scope.
+- **Phạm vi không gian**: 47–49 nền kinh tế châu Á và Thái Bình Dương có dữ liệu WBES, tổ chức theo **6 sub-regime ICRV** (I: Advanced innovation-driven, II: Advanced resource-driven, III: Upper-middle, IV: Emerging, V: Frontier, VI: Pacific SIDS). P8 mở rộng thêm bằng phân tích chuyên sâu các nền kinh tế Nhóm VI (SIDS) để kiểm định forced internationalization penalty (Đỗ & Phan, 2026). Nhật Bản hiện chưa có dữ liệu WBES phù hợp nên không thuộc empirical scope.
 - **Phạm vi thời gian**: literature pool 1982–2026 cho meta-analysis; WBES 2009–2025 (16 năm × 14 mốc khảo sát, 108 cặp quốc gia × năm) cho phase thực nghiệm.
 
 ## 5. Nguồn dữ liệu và bản thảo nội bộ
