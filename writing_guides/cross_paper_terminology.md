@@ -260,7 +260,7 @@ For use in thesis integration chapter and §6 Discussion cross-referencing:
 | P5 China | Upper-mid III (2 waves) | TP ≈ 47.5% | Inverted-U | ✓ Paternoster p=.831 |
 | P6 Meta-analysis | All regimes (k=235) | r = 0.075, I² = 62.5% | Positive mean | ✓ ICRV Q-mod |
 | P7 Capstone | 55 economies (6 ICRV) | TP ≈ **52.7%** (M6, country FE, N=36,137 with wstrict) | Inverted-U | ✓ DAI F=7.38*** |
-| P8 Pacific SIDS | Nhóm VI | β(FSTSc) = −0.357 (p=.069, country FE, N=1,352) | **NEGATIVE (FIP)** | ✓ Penalty |
+| P8 Pacific SIDS | Nhóm VI | β(FSTS_c) = −0.404 (p=.032, country+year FE, N=1,469) | **NEGATIVE (FIP)** | ✓ Penalty |
 
 **ICRV subgroup TPs (P7, no-country-FE with year FE — from original R script):**
 
