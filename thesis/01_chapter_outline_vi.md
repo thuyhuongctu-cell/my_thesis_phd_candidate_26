@@ -169,14 +169,14 @@ Chương 4 trình bày kết quả ở ba cấp độ: meta-analysis, country-le
 - Vai trò điều tiết của thể chế (institutional voids, business obstacles, sub-regime ICRV).
 - Vai trò điều tiết của digital constructs (TCI vs DAI) — kiểm định non-overlapping property và digital shield effect mở rộng (Đỗ & Phan, 2026 — VEFR).
 - Vai trò điều tiết của top manager characteristics (experience, gender) (Hambrick & Mason, 1984; Hsu et al., 2013).
-- **Boundary case Pacific SIDS adjacent** (6 nước, n=1.221): forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript).
+- **Boundary case Pacific SIDS adjacent** (7 nước, n=1.371 pool / n=1.097 phân tích): forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript). Kiribati 2025 (n=150) được bổ sung là SIDS cực đoan nhất (FSTS 1,03%, FDI 0,7%, website 18,7%).
 
 ### 4.5 Kiểm định độ vững và temporal heterogeneity
 
 - Thay đổi thước đo performance.
 - Mẫu phụ: SMEs, manufacturing only, exporters only.
 - Kiểm định nonlinearity bằng Lind–Mehlum U-test (Lind & Mehlum, 2010).
-- **Temporal heterogeneity China 2012 vs 2024**: kiểm định stability của cubic turning point (~47,8% FSTS) đã được công bố (Đỗ & Phan, 2026 — JFAR) sau hơn một thập kỷ chuyển đổi số.
+- **Temporal heterogeneity China 2012 vs 2024**: kiểm định stability của inverted-U turning point (49,4% FSTS năm 2012; 47,2% năm 2024 — Paternoster z = +0,82, p = .412, không bác bỏ bằng nhau) qua hơn một thập kỷ chuyển đổi số (Đỗ & Phan, 2026 — IJOEM).
 - Endogeneity discussion và đề xuất IV approach (nếu dữ liệu cho phép).
 
 ---

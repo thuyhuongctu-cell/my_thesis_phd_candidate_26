@@ -317,16 +317,18 @@ heterogeneity?
 ✅ P3 Vietnam — Frontier V, inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
 ✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft → MIR)
 🔄 P5 China temporal 2012–2024 (manuscript complete → IJOEM)
-🔄 P6 Meta-analysis three-level MARA k=235 (manuscript draft complete → IBR — International Business Review)
-🔄 P7 Asian capstone TCI+DAI (planning)
+✅ P6 Meta-analysis three-level MARA k=235 (manuscript complete → IBR — International Business Review; r=0.075, I²=62.5%, ICRV gradient Q=127.77***)
+✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → MIR/JIBS; N=84,910, TP≈36%, DAI moderation p<.01)
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 
 INSTITUTIONAL GRADIENT:
-Vietnam (Frontier V)   → Inverted-U, TP ~39–46% FSTS (low optimum, Frontier constraint)
-Singapore (Advanced I) → Inverted-U, TP ~88.6% FSTS (wide CI [53–253%], support-constrained)
-China (Emerging IV)    → Inverted-U, TP ~47–49% FSTS (stable 2012→2024, Paternoster z=0.82)
-Asian capstone       → Heterogeneous moderation
-Pacific SIDS (regime IV/V) → REVERSED slope (Forced Penalty)
+Vietnam (Frontier V / Emerging IV*)  → Inverted-U, TP ~39–46% FSTS (low optimum, Frontier constraint)
+Singapore (Advanced I)               → Inverted-U, TP ~88.6% FSTS (wide CI [53–253%], support-constrained)
+China (Upper-middle III)             → Inverted-U, TP ~47–49% FSTS (stable 2012→2024, Paternoster z=0.82)
+Asian capstone (all 6 ICRV groups)  → Heterogeneous moderation; P7 TP~36%, DAI≠TCI
+Pacific SIDS (SIDS_small / VI)       → REVERSED slope (Forced Penalty), β(FSTS)=−0.357 (p=.069)
+
+*Hai hệ thống phân loại: 5-chế độ (P3/P6): Vietnam = Frontier V; 6-chế độ (CD1/CD2/P7): Vietnam = Nhóm IV Emerging. Tương đương nhau, khác ký hiệu.
 
 TÍNH MỚI:
 1. Forced Internationalization Penalty — named contribution
