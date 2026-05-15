@@ -264,22 +264,22 @@ For use in thesis integration chapter and §6 Discussion cross-referencing:
 | P4 Singapore | Advanced I | TP ≈ 76–89% (wide CI) | Predominantly positive | ✓ saturation |
 | P5 China | Upper-mid III (2 waves) | TP ≈ 47.5% | Inverted-U | ✓ Paternoster p=.831 |
 | P6 Meta-analysis | All regimes (k=235) | r = 0.075, I² = 62.5% | Positive mean | ✓ ICRV Q-mod |
-| P7 Capstone | 55 economies (6 ICRV) | TP ≈ **52.7%** (M6, country FE, N=36,137 with wstrict) | Inverted-U | ✓ DAI F=7.38*** |
+| P7 Capstone | 49 economies (6 ICRV) | TP ≈ **36%** (M2–M5: 36.4–40.0%; M11 full: TP=34.6%, LM p=.002, N=29,840); N=84,910–91,982 | Inverted-U | ✓ ICRV Q-mod; DAI×ICRV p=.012 |
 | P8 Pacific SIDS | Nhóm VI | β(FSTS_c) = −0.404 (p=.032, country+year FE, N=1,469) | **NEGATIVE (FIP)** | ✓ Penalty |
 
-**ICRV subgroup TPs (P7, no-country-FE with year FE — from original R script):**
+**ICRV subgroup TPs (P7 finalized — JIBS under revision):**
 
 | ICRV Group | TP | Shape | Notes |
 |-----------|-----|-------|-------|
-| Advanced_innovation | **56.6%** | Inverted-U | Singapore, HK, Japan, Korea, Taiwan, Cyprus |
-| Upper_mid | 5.5% (near 0) | Inverted-U (weak) | China, Malaysia, Thailand, Armenia, Georgia, Kazakhstan (Turkey excl via wstrict) |
-| Lower_mid_transition | **44.5%** | Inverted-U*** | India, Vietnam, Indonesia, Philippines, Bangladesh... |
-| Emerging | **43.9%** | Inverted-U*** | Afghanistan, Nepal, Cambodia, Bhutan, Azerbaijan... |
-| SIDS_small | U-shaped | — | β(FSTSc)<0 — Forced Penalty |
+| Advanced Innovation (Nhóm I) | **~28%** | Inverted-U | Singapore, HK, Japan, Korea, Taiwan — TP lowest |
+| Advanced Resource / Upper-mid (Nhóm II–III) | ~35–42% | Inverted-U | China, Malaysia, Thailand, Kazakhstan... |
+| Emerging / Lower-mid (Nhóm IV) | ~44–50% | Inverted-U | India, Vietnam, Indonesia, Philippines... |
+| Frontier (Nhóm V) | **~50–55%** | Inverted-U | Afghanistan, Nepal, Cambodia, Bhutan... |
+| Pacific SIDS (Nhóm VI) | No TP | **Negative (FIP)** | β(FSTS_c)=−0.404* — monotone penalty |
 
-**Note on new countries and wstrict filter:** Turkey, Azerbaijan, and Comoros (added May 2026) lack `wstrict` survey-weight variables and thus do not enter the M5–M8 country-FE models (N=36,137). They appear in M0–M4 (broader pool) and descriptive statistics. The M6 TP≈52.7% is stable vs the pre-expansion 52.9% — a 0.2 pp difference only.
+**ICRV gradient direction (CRITICAL):** TP **DECREASES** as institutional quality increases. Advanced Innovation (~28%) has the LOWEST TP; Frontier/SIDS (~55%) has the HIGHEST. This means stronger institutions → firms reach performance optimum at lower export intensity. Weaker institutions → firms need higher FSTS before costs exceed benefits. Do NOT write "threshold increases with institutional development."
 
-**Cross-paper narrative:** Results demonstrate an ICRV-contingent internationalization–performance gradient. The inverted-U is universal across all non-SIDS regimes, but the threshold increases with institutional development: Emerging/Frontier ~44%, Advanced Innovation ~57%. Pacific SIDS (Nhóm VI) constitute a structural exception (Forced Internationalization Penalty), not overextension.
+**Cross-paper narrative:** Results demonstrate an ICRV-contingent internationalization–performance gradient. The inverted-U is universal across non-SIDS regimes, but the turning point **decreases** with institutional quality: Frontier ~50–55%, Emerging ~44–50%, Advanced Innovation ~28%. DAI×ICRV (p=.012) confirms the "digital shield" compensatory mechanism — DAI delivers **stronger** per-unit returns in weaker institutional environments. Pacific SIDS (Nhóm VI) constitute a structural exception (Forced Internationalization Penalty), not overextension.
 
 ---
 
