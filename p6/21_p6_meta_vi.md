@@ -12,7 +12,7 @@
 
 ## Tóm tắt có cấu trúc
 
-**Background**: Quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động doanh nghiệp (I→P) là chủ đề được phân tích tổng hợp nhiều nhất trong kinh doanh quốc tế, song mức heterogeneity vẫn rất cao ($I^2=87.92\%$) và ba khoảng trống chưa được lấp đầy: (1) vai trò điều tiết của áp dụng số cấp quốc gia (cDAI); (2) dị biệt thể chế theo 5 nhóm ICRV trong châu Á và Pacific; (3) tiến trình Vòng đời Nghịch lý Số (DPL) qua ba giai đoạn trước/trong/sau mốc 2009.
+**Background**: Quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động doanh nghiệp (I→P) là chủ đề được phân tích tổng hợp nhiều nhất trong kinh doanh quốc tế, song mức heterogeneity vẫn rất cao ($I^2=87.92\%$) và ba khoảng trống chưa được lấp đầy: (1) vai trò điều tiết của áp dụng số cấp quốc gia (cDAI); (2) dị biệt thể chế theo 6 nhóm ICRV trong châu Á và Pacific; (3) tiến trình Vòng đời Nghịch lý Số (DPL) qua ba giai đoạn trước/trong/sau mốc 2009.
 
 **Methods**: Phân tích tổng hợp hồi quy ba cấp (three-level meta-analytic regression analysis — MARA) theo Cheung (2014) và Van den Noortgate et al. (2013), sử dụng `metafor` (R). Pool $k=235$ nghiên cứu sơ cấp (từ tìm kiếm hệ thống trên WoS và Scopus [1977–2026] + backward citation scan 5 meta-analyses trước + hand-search), $k_{effects}\approx385$ effect sizes. Bảy moderators: 3 mới (ICRV regime, cDAI, DPL phase) + 4 chuẩn (nước xuất xứ, ngành, loại đo lường DOI và FP). Tiền đăng ký OSF trước khi trích xuất effect sizes; độ tin cậy liên coder Cohen's $\kappa \geq 0.70$ trên 20% mẫu double-coded.
 
