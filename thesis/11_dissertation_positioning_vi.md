@@ -60,7 +60,7 @@
 
 # 1. Phenomenon-based positioning — vì sao luận án này khác
 
-Luận án của NCS là **cumulative dissertation** với **8 papers** (P1–P8), **multi-country WBES ≈25–36 economies**, **institutional gradient narrative** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime V/Frontier). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
+Luận án của NCS là **cumulative dissertation** với **8 papers** (P1–P8), **multi-country WBES 47–49 economies**, **institutional gradient narrative** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime V/Frontier). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
 
 Tông luận này đối chiếu luận án với các công trình nghiên cứu quốc tế và châu Á tương đương để chứng minh **tính mới và đóng góp độc đáo** trong bối cảnh học thuật quốc tế hiện nay.
 
@@ -71,7 +71,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Khu0103a cạnh | Marano et al. (2016) | NCS dissertation |
 |---|---|---|
 | Loại nghiên cứu | Single meta-analysis paper | **Cumulative dissertation 8 papers** |
-| Sample | 170 studies, 32 countries, 1972–2012 | 25–36 countries WBES + 113 studies meta + Pacific SIDS |
+| Sample | 170 studies, 32 countries, 1972–2012 | 47–49 economies WBES + 113 studies meta + Pacific SIDS |
 | Theory | Home country institutions moderates I-P | **Institutional gradient + 3 prerequisites theory** |
 | Contribution | Institutional quality moderates degree of effect | **Inverted-U is conditional, not universal** — sign reversal in extreme regimes |
 | Method | Random-effects meta-regression | **Mixed: meta-analysis + multi-country + extreme boundary case** |
@@ -84,7 +84,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Khu0103a cạnh | Wu et al. (2022) | NCS dissertation |
 |---|---|---|
 | Loại nghiên cứu | Single meta-analysis paper | Cumulative dissertation |
-| Sample | 218 effect sizes, 186 studies, EMNEs | 25–36 countries WBES + meta-analysis + SIDS |
+| Sample | 218 effect sizes, 186 studies, EMNEs | 47–49 economies WBES + meta-analysis + SIDS |
 | Theory | Government quality moderates EMNE I-P | Multi-tier framework (4 layers + digital lens) |
 | Contribution | EMNE-specific moderation | **Asian-specific + extreme boundary cases** |
 | Time period | 1998–2021 | 1982–2026 (extended) |
@@ -95,7 +95,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 | Khu0103a cạnh | Kirca et al. (2012) | NCS dissertation |
 |---|---|---|
-| Sample | 154 samples, 47,849 firms | 25–36 country WBES |
+| Sample | 154 samples, 47,849 firms | 47–49 economy WBES |
 | Method | Meta-analytic review | Mixed methodology |
 | Time period | 1977–2009 | 1982–2026 |
 | Contribution | Context-dependent I-P | **Context-conditional** I-P (stronger claim) |
@@ -106,7 +106,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 | Khu0103a cạnh | Cuervo-Cazurra et al. (2018) | NCS dissertation |
 |---|---|---|
-| Sample | 218 firms, Colombia EMNEs, 2006–2012 | 25–36 countries WBES, 1982–2026 |
+| Sample | 218 firms, Colombia EMNEs, 2006–2012 | 47–49 economies WBES, 1982–2026 |
 | Method | Single-country panel | **Multi-country mixed methodology** |
 | Theory | Home country uncertainty + capability | **4-tier framework + digital lens + Forced Penalty** |
 
@@ -116,7 +116,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 | Khu0103a cạnh | Bhandari et al. (2023) | NCS dissertation |
 |---|---|---|
-| Sample | 571 USA manufacturing firms | 25–36 countries (WBES Asian + Pacific) |
+| Sample | 571 USA manufacturing firms | 47–49 economies (WBES Asian + Pacific) |
 | Method | Single country panel | Multi-country pooled |
 | Theory | Resource orchestration + new OLI | Multi-tier + Forced Penalty boundary |
 | Digital | Digital capability composite (resource-orchestration) | **TCI + DAI riêng biệt** theo Bharadwaj et al. (2013), Verhoef et al. (2021), Coltman et al. (2008) |
@@ -184,7 +184,7 @@ Tìm kiếm ProQuest Dissertations + JIBS + AMJ archives cho "internationalizati
 | Dimension | Typical Asian dissertation | NCS dissertation |
 |---|---|---|
 | **# papers** | 1–3 | **8 (P1–P8)** |
-| **# countries** | 1 (Asian focus) | **25–36** |
+| **# countries** | 1 (Asian focus) | **47–49** |
 | **Time span** | 5–10 years | **1982–2026 (44 years)** |
 | **Method** | Single | **Mixed: meta + multi-country + boundary case** |
 | **Theory** | 1–2 frameworks | **4 layers + digital lens** |
@@ -211,7 +211,7 @@ Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade Universi
 | Dimension | Marano (2016) | Wu (2022) | Kirca (2012) | Bhandari (2023) | Cuervo (2018) | Lu&Beamish (2004) | Vietnamese typical | **NCS** |
 |---|---|---|---|---|---|---|---|---|
 | **# papers in program** | 1 | 1 | 1 | 1 | 1 | 4 | 1–3 | **8** |
-| **# countries** | 32 | Multi-EMNE | Multi | 1 (US) | 1 (Colombia) | 1 (Japan) | 1 (VN) | **25–36** |
+| **# countries** | 32 | Multi-EMNE | Multi | 1 (US) | 1 (Colombia) | 1 (Japan) | 1 (VN) | **47–49** |
 | **Pacific SIDS coverage** | Không | Không | Không | Không | Không | Không | Không | **8 Pacific countries** |
 | **TCI/DAI separation** | n/a | n/a | n/a | Digital capability composite | n/a | n/a | n/a | **Yes — separated (Bharadwaj 2013; Verhoef 2021; Coltman 2008)** |
 | **Institutional gradient** | Yếu | Yếu | Yếu | Không | Một biến | Không | Không | **Full ICRV Regime I→V (6-regime CD2; 5-regime P3/P6)** |
