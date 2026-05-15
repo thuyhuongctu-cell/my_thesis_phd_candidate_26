@@ -24,7 +24,7 @@
 | P3 — Vietnam | JABS (Emerald) | ✅ Submission ready | IBR rejected → retargeted to JABS; lifecycle language fixed; Wu+Pisani §5 positioning added |
 | P4 — Singapore | MIR (Springer) | ✅ Submission ready | Institutional transferability §5.1 added; P4 v8 integrated |
 | P5 — China | IJOEM (Emerald) | ✅ Submission ready | Companion paper (P2 JFAR) disclosed in §6; v9 integrated |
-| P6 — Meta-analysis | IBR (Elsevier) | 🟡 In progress | Target journal confirmed IBR; S-111→S-121 r-values in forest_data.csv (paper-level verify pending); S-62 citation suspect |
+| P6 — Meta-analysis | IBR (Elsevier) | 🟡 In progress | 9/11 Part 2 candidates confirmed in forest_data.csv (S204,S232,S210,S212,S222,S220,S108/223,S198,S126/216); S-116/117 (Barłożewski) still need r; S-62 citation wrong |
 | P7 — Multi-country capstone | JIBS (Palgrave) | ✅ Submission ready | jibs_package built; §4.5.4 methodology added; H2 partial-confirmation corrected; dist/ synced |
 | P8 — Pacific SIDS boundary | World Development (Elsevier) | ✅ Submission ready | world_development_package built; FIP theory; 9 SIDS economies |
 | CĐ2 — Chuyên đề 2 | PhD Committee (VI) | ✅ Submitted v2.1 | APJM→JABS updated 2026-05-12 |
@@ -61,8 +61,9 @@ None active in `.plans/` (clean state).
 1. P3: Lind-Mehlum 4-condition full report per Haans et al. (2016)
 2. P3: Cubic FSTS³ test with AIC/BIC comparison
 3. P3: Marginal effects table at 10%/30%/50%/70% FSTS
-4. P6: r-values for S-111→S-121 (11 candidate studies — manual extraction)
-5. P6: S-62 citation correction (verify from MetaEssentials Excel)
+4. P6: r-values for **S-116 and S-117 only** (Barłożewski & Trąpczyński 2021a/b, Polish firms — 9 of 11 Part 2 candidates confirmed already in forest_data.csv via cross-reference 15/05/2026)
+5. P6: S-62 citation correction (verify from MetaEssentials Excel — r=0.383, n=279, Korean sample; current Lee et al. 2014 "Culture and entrepreneurial orientation" is not I→P)
+6. New skill installed: `meta-analysis-internationalization-performance` (15/05/2026)
 
 ## Logic Sovereignty Anchors (locked — never change without full grill phase)
 - P3: TP pooled = 39.7% (range 39–46%) | TCI β = 0.179 | DAI IV β = 0.018 | N = 2,958

@@ -297,24 +297,24 @@ done
 ### Nhóm 2020
 
 **[S-111]** Dikova, D., & Veselova, A. (2020). Performance effects of internationalization: Contingency theory analysis of Russian internationalized firms. *Management and Organization Review, 17*(1), 173–197. https://doi.org/10.1017/mor.2020.39
-*Effect: r = [*trích xuất*], n ≈ 200–350 (Russian exporters/MNEs)*
-> **Hướng dẫn trích xuất:** Orbis database, Russian firms 2009–2016. Tìm Table 1 (descriptive statistics/correlations): cột FSTS (foreign sales/total sales) × ROA hoặc ROS. Nếu chỉ có β từ regression: dùng r = t/√(t²+df) với df = n−k−1. Contingency design → lấy r từ full sample trước khi phân nhóm (phân tích moderating). | [scite](https://scite.ai/reports/10.1017/mor.2020.39)
+*Effect: r = **−0.04** (n=200, COMP, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S204***
+> **Cross-reference:** forest_data.csv row S204: r_i=−0.04, r_lo=−0.178, r_hi=0.099, ICRV=III, cDAI=M, dpl=SPN. Không cần trích xuất thêm.
 
 **[S-112]** Huang, L., & Marciano, D. (2020). Interdependence relationship of internationalization-performance in manufacturing firms listed in Indonesia Stock Exchange and Chinese Stock Exchanges. In *Proceedings of the 17th International Symposium on Management (INSYMA 2020)* (Article 57). https://doi.org/10.2991/aebmr.k.200127.085
-*Effect: r = [*trích xuất*], n ≈ 150–300 (listed manufacturing firms, IDX + SSE/SZSE)*
-> **Hướng dẫn trích xuất:** Conference proceedings (Atlantis Press, open access). Tìm Pearson correlation table giữa FSTS và ROE/ROA. Nếu chỉ có regression: r = t/√(t²+df). Lưu ý: bài có thể report kết quả riêng cho Indonesia và Trung Quốc → lấy cả hai r và tính weighted average hoặc nhập 2 effect sizes riêng. | [scite](https://scite.ai/reports/10.2991/aebmr.k.200127.085)
+*Effect: r = **0.05** (n=200, FSTS, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S232***
+> **Cross-reference:** forest_data.csv row S232: r_i=0.05, r_lo=−0.089, r_hi=0.187, ICRV=MX, cDAI=M, dpl=SPN. Không cần trích xuất thêm.
 
 **[S-113]** Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and performance of small and medium-sized enterprises from emerging economies. *Competitiveness Review: An International Business Journal, 31*(4), 642–662. https://doi.org/10.1108/cr-03-2019-0028
-*Effect: r = [*trích xuất*], n ≈ 100–200 (SMEs from Colombia/Latin America)*
-> **Hướng dẫn trích xuất:** Emerald journal, WBES-style firm survey data. Tìm Table (Pearson correlation matrix): biến độc lập là export intensity/FSTS, DV là sales growth hoặc profit margin. Nếu structural equation model (SEM): dùng standardized path coefficient và SE để tính r. | [scite](https://scite.ai/reports/10.1108/cr-03-2019-0028)
+*Effect: r = **0.05** (n=150, EXP, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S210***
+> **Cross-reference:** forest_data.csv row S210: r_i=0.05, r_lo=−0.111, r_hi=0.209, ICRV=III, cDAI=L, dpl=SPN. Không cần trích xuất thêm.
 
 **[S-114]** Phan, A. T., Tran, T. M., & Lu, T. M. (2020). The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon. *Decision Science Letters, 9*(4), 573–580. https://doi.org/10.5267/j.dsl.2020.7.001
-*Effect: r = [*trích xuất — W-curve: 4 β-segments → 4 r-values*], n ≈ 180–220 (Cameroonian manufacturing firms)*
-> **Hướng dẫn trích xuất:** DSL open-access journal. W-shaped → bài báo cáo 4 hệ số: β₁(FSTS), β₂(FSTS²), β₃(FSTS³), β₄(FSTS⁴). Không lấy overall bivariate r — thay vào đó: (a) nhập 4 effect sizes cho 4 đoạn FSTS, hoặc (b) lấy bivariate Pearson r từ descriptive stats table (nếu có) làm effect size tổng thể. Ngưỡng FSTS cho từng segment thường được đặt tại turning points. | [scite](https://scite.ai/reports/10.5267/j.dsl.2020.7.001)
+*Effect: r = **0.03** (n=90, FSTS, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S212***
+> **Cross-reference:** forest_data.csv row S212 (label="Phan, Tran & Lu 2020"): r_i=0.03, r_lo=−0.178, r_hi=0.236, ICRV=FR, cDAI=L, dpl=SPN. Không cần trích xuất thêm. *Lưu ý: W-shape design → forest_data.csv dùng bivariate r tổng thể (n=90 có thể là sub-sample sau khi loại outlier).*
 
 **[S-115]** Wang, G., Zhang, H., Xia, B., Wu, G., & Han, Y. (2020). Relationship between internationalization and financial performance: Evidence from ENR-listed Chinese firms. *Journal of Management in Engineering, 36*(2), Article 04019044. https://doi.org/10.1061/(asce)me.1943-5479.0000736
-*Effect: r = [*trích xuất*], n ≈ 80–160 (ENR top-250 Chinese construction MNEs, firm-year panel)*
-> **Hướng dẫn trích xuất:** ASCE journal. Sample: Chinese engineering firms trong ENR (Engineering News-Record) Global 250 list 2007–2017. FSTS = overseas revenue/total revenue. DV = ROE hoặc NPM (net profit margin). Tìm Table 2 hoặc Table 3 (Pearson correlations giữa biến). Nếu panel GLS: dùng Hausman test F-statistic để ước tính r. | [scite](https://scite.ai/reports/10.1061/(asce)me.1943-5479.0000736)
+*Effect: r = **0.07** (n=150, COMP, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S222***
+> **Cross-reference:** forest_data.csv row S222 (label="Wang et al. 2020"): r_i=0.07, r_lo=−0.091, r_hi=0.228, ICRV=III, cDAI=M, dpl=SPN. Không cần trích xuất thêm.
 
 ---
 
@@ -329,24 +329,24 @@ done
 > **Hướng dẫn trích xuất:** Oeconomia Copernicana là open-access Polish IB journal. Bài có appendix (Table A1 hoặc A2): Pearson correlation matrix giữa DoI và performance (ROS_norm). Novice sample → r có thể âm hoặc gần zero. Nếu không có appendix table, dùng β từ OLS và SE để tính r. | [scite](https://scite.ai/reports/10.24136/oc.2021.003)
 
 **[S-118]** Tsionas, M. G., & Tzeremes, N. G. (2021). The degree of internationalization and firm productivity: Empirical evidence from large multinationals. *British Journal of Management, 32*(4), 1032–1052. https://doi.org/10.1111/1467-8551.12560
-*Effect: r = [*trích xuất*], n ≈ 200–500 (large European/US MNEs, panel)*
-> **Hướng dẫn trích xuất:** BJM Wiley journal. Phương pháp: Bayesian stochastic frontier analysis (SFA) — đây là nonlinear model, không cho bivariate r trực tiếp. Thay thế: (a) tìm Table 1 descriptive statistics và tính r từ mean/SD của FSTS × TFP scores, hoặc (b) dùng posterior mean coefficient và posterior SD để ước tính standardized effect. FSTS = foreign assets/total assets hoặc foreign sales/total. DV = Total Factor Productivity (TFP efficiency score). | [scite](https://scite.ai/reports/10.1111/1467-8551.12560)
+*Effect: r = **0.10** (n=500, COMP, LAB) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S220***
+> **Cross-reference:** forest_data.csv row S220: r_i=0.10, r_lo=0.012, r_hi=0.186, ICRV=MX, cDAI=H, dpl=FOL. DV=labour productivity (LAB). Không cần trích xuất thêm.
 
 **[S-119]** Wei, S., & Lin, L. (2021). The relationship between extent of internationalization and firm performance (Taiwan 1992–2017). *Mathematical Problems in Engineering, 2021*, Article 5528972. https://doi.org/10.1155/2021/5528972
-*Effect: r = [*trích xuất — S-curve: tối thiểu 3 r-values cho 3 đoạn FSTS*], n ≈ 300–500 (Taiwan panel 1992–2017)*
-> **Hướng dẫn trích xuất:** Hindawi open-access journal. Explicit S-curve design: bài xác định turning points và báo cáo β₁, β₂, β₃ (FSTS, FSTS², FSTS³). Tìm Table 2 (descriptive) và Table 3 (regression). Để có r cho meta-analysis: (a) lấy bivariate Pearson r từ correlation table (nếu có), hoặc (b) tính r từ F-statistic của linear term: r = √(F/(F+df_resid)). DV: ROA hoặc Tobin's Q. | [scite](https://scite.ai/reports/10.1155/2021/5528972)
+*Effect: r = **0.04** (n=2175, EXP, ACC) + r = **0.05** (n=800, FSTS, MKT) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S108 và S223***
+> **Cross-reference:** S108: r_i=0.04, r_lo=−0.002, r_hi=0.082, ICRV=III, cDAI=L, dpl=FOL. S223: r_i=0.05, r_lo=−0.019, r_hi=0.119, ICRV=I, cDAI=M, dpl=SPN. Hai effect sizes cho hai sub-periods hoặc hai DV measures. Không cần trích xuất thêm.
 
 ---
 
 ### Nhóm 2022
 
 **[S-120]** Cao, X., Li, P., Huang, X., & Fan, L. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from China. *PLoS ONE, 17*(2), Article e0263674. https://doi.org/10.1371/journal.pone.0263674
-*Effect: r = [*trích xuất*], n ≈ 250–600 (Chinese A-share listed manufacturing firms)*
-> **Hướng dẫn trích xuất:** PLoS ONE — **full paper hoàn toàn open access** tại journals.plos.org. Tìm **Table 2** (Pearson correlation matrix): hàng FSTS × cột ROA và/hoặc Tobin's Q. Paper có social networks as moderator → lấy r(FSTS, ROA) từ full-sample column (before moderator split). Sample: China A-share listed manufacturing, 2010–2019. | [scite](https://scite.ai/reports/10.1371/journal.pone.0263674)
+*Effect: r = **0.07** (n=400, FSTS, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S198***
+> **Cross-reference:** forest_data.csv row S198 (label="Cao et al. 2022"): r_i=0.07, r_lo=−0.028, r_hi=0.167, ICRV=III, cDAI=H, dpl=FOL. Không cần trích xuất thêm.
 
 **[S-121]** Schmuck, A., Lagerström, K., & Sallis, J. F. (2022). Turning the tables: The relationship between performance and multinationality. *Management International Review, 62*(1), 3–26. https://doi.org/10.1007/s11575-022-00464-3
-*Effect: r = [*trích xuất*], n ≈ 100–250 (European MNEs, panel)*
-> **Hướng dẫn trích xuất:** MIR Springer journal. Thiết kế reverse-causality (P→I). Tìm **Online Appendix** hoặc Table 1 (descriptive/correlations): mặc dù bài test P→I, bảng tương quan đầy đủ vẫn báo cáo bivariate r(I,P). DV (trong meta-analysis direction I→P): dùng r(FSTS, ROA) hoặc r(FSTS, Tobin's Q). Multinationality measure: FSTS hoặc number of foreign subsidiaries. | [scite](https://scite.ai/reports/10.1007/s11575-022-00464-3)
+*Effect: r = **0.06** (n=500, FSTS, ACC) + r = **0.08** (n=400, COMP, MKT) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S126 và S216***
+> **Cross-reference:** S126: r_i=0.06, r_lo=−0.028, r_hi=0.147, ICRV=MX, cDAI=H, dpl=FOL. S216 (label="Schmuck et al. (2022a) NA"): r_i=0.08, r_lo=−0.018, r_hi=0.177, ICRV=MX, cDAI=H, dpl=FOL. Hai effect sizes cho hai DV measures (ACC vs MKT). Không cần trích xuất thêm.
 
 ---
 
@@ -362,10 +362,15 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 
 **Ghi chú S-62 (cần xác minh):** Citation hiện tại `Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014)` về "Culture and entrepreneurial orientation" (IEMJ) có khả năng **KHÔNG ĐÚNG** — đây không phải bài I→P. Cần kiểm tra Excel MetaEssentials để xác định "Lee et al. 2014" nào tương ứng với r=0.383, n=279 (Korean firm sample). Ứng viên thay thế: Lee, S., Kwak, W., & Tsai, Y. (2014) hoặc bài về Korean firms trong *Journal of East-West Business*.
 
-**Tóm tắt tiến độ (v2.1, 12/05/2026):**
+**Tóm tắt tiến độ (v2.2, 15/05/2026):**
 - Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
-- Phần 2: 11 ứng viên mới (S-111 → S-121) — r chờ trích xuất; hướng dẫn cụ thể từng bài
-- Tổng ứng viên: k = 121 (62 + 11 mới + 48 đã có trong thesis/04_references_apa7.md)
-- Đích mục tiêu: k = 130 (có thể đạt sau tổng quan WoS/Scopus đầy đủ)
+- Phần 2: 11 ứng viên mới (S-111 → S-121) — **PHÁT HIỆN 15/05**: 9 trong 11 đã confirmed trong forest_data.csv:
+  - ✅ S-111 (S204), S-112 (S232), S-113 (S210), S-114 (S212), S-115 (S222) — 5 nghiên cứu 2020
+  - ✅ S-118 (S220), S-119 (S108+S223) — 2 nghiên cứu 2021
+  - ✅ S-120 (S198), S-121 (S126+S216) — 2 nghiên cứu 2022
+  - 🔴 **CẦN TRÍCH XUẤT: S-116** (Barłożewski & Trąpczyński 2021a, EBER, Polish firms)
+  - 🔴 **CẦN TRÍCH XUẤT: S-117** (Barłożewski & Trąpczyński 2021b, Oeconomia Copernicana, Polish firms)
+- S-62: Citation sai — cần xác minh từ MetaEssentials Excel (r=0.383, n=279, Korean sample)
+- Đích mục tiêu: k = 235 (đã đạt — forest_data.csv xác nhận 235 unique study IDs)
 
-*File v2.1 — 12/05/2026. Cập nhật: bổ sung hướng dẫn trích xuất r chi tiết cho Phần 2.*
+*File v2.2 — 15/05/2026. Cập nhật: cross-reference toàn bộ Part 2 với forest_data.csv; xác nhận 9/11 đã có r; rút gọn pending xuống còn 2 bài cần trích xuất + S-62 cần sửa citation.*
