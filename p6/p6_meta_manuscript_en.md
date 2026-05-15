@@ -10,7 +10,7 @@
 
 ## Abstract
 
-**Purpose:** We conduct a three-level meta-analytic regression analysis (MARA) to test three theoretically motivated moderators — country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase — that prior meta-analyses of the internationalization–performance (I→P) relationship have not examined. **Design/methodology/approach:** A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 235 studies with approximately 385 effect sizes. Three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study (*Level 2*) and between-study (*Level 3*) components using `metafor` in R. Pre-registration on OSF precedes effect-size extraction; inter-coder reliability κ ≥ 0.70 on 20% double-coded subsample. **Findings:** The baseline pooled effect is *r* = 0.075 (95% CI [0.061, 0.089], *p* < .001) with *I*² = 62.5% (Level 2 within-study: 54.1%; Level 3 between-study: 8.4%). Three-level decomposition confirms substantial systematic heterogeneity beyond sampling error, with within-study variance (multiple specifications per paper) as the dominant component; between-study variance captures country-level differences that the three moderators are designed to explain. ICRV regime moderation is significant (*Q*_M = 127.77, *df* = 4, *p* < .001), with a clear gradient from Advanced-Innovation contexts (*r̄* = 0.21) to Frontier contexts (*r̄* = −0.02). cDAI amplifies the I→P effect positively (β = +0.089, *p* = .024), concentrated in the DPL Follow phase (post-2014). DPL phasing itself shows significant temporal moderation (*Q*_DPL = 104.92, *df* = 2, *p* < .001): Follow > Span > Precede. **Originality/value:** This is the first three-level MARA of I→P, the first to apply an ICRV 5-regime taxonomy to the Asia-Pacific literature, and the first to test DPL phase as a temporal moderator. Results confirm that digital capability is a *conditional scaling resource* — not a universal performance premium — whose amplification depends on the institutional quality of the host environment.
+**Purpose:** We conduct a three-level meta-analytic regression analysis (MARA) to test three theoretically motivated moderators — country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase — that prior meta-analyses of the internationalization–performance (I→P) relationship have not examined. **Design/methodology/approach:** A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 235 studies with *K* = 285 effect sizes. Three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study (*Level 2*) and between-study (*Level 3*) components using `metafor` in R. Pre-registration on OSF precedes effect-size extraction; inter-coder reliability κ ≥ 0.70 on 20% double-coded subsample. **Findings:** The baseline pooled effect is *r* = 0.075 (95% CI [0.061, 0.089], *p* < .001) with *I*² = 62.5% (Level 2 within-study: 54.1%; Level 3 between-study: 8.4%). Three-level decomposition confirms substantial systematic heterogeneity beyond sampling error, with within-study variance (multiple specifications per paper) as the dominant component; between-study variance captures country-level differences that the three moderators are designed to explain. ICRV regime moderation is significant (*Q*_M = 127.77, *df* = 4, *p* < .001), with a clear gradient from Advanced-Innovation contexts (*r̄* = 0.21) to Frontier contexts (*r̄* = −0.02). cDAI amplifies the I→P effect positively (β = +0.089, *p* = .024), concentrated in the DPL Follow phase (post-2014). DPL phasing itself shows significant temporal moderation (*Q*_DPL = 104.92, *df* = 2, *p* < .001): Follow > Span > Precede. **Originality/value:** This is the first three-level MARA of I→P, the first to apply an ICRV 5-regime taxonomy to the Asia-Pacific literature, and the first to test DPL phase as a temporal moderator. Results confirm that digital capability is a *conditional scaling resource* — not a universal performance premium — whose amplification depends on the institutional quality of the host environment.
 
 **Keywords:** internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; ICRV; Digital Paradox Lifecycle; Asia-Pacific
 
@@ -158,7 +158,7 @@ Two independent screeners applied the eligibility criteria below in two stages: 
 | Language | English; Vietnamese | Other languages unless the abstract confirms a convertible effect size |
 | Region | Any region; Asia-Pacific studies coded with ICRV regime identifier | — |
 
-**PRISMA 2020 flow.** Records identified (WoS + Scopus): 4,812 → After automated deduplication (Endnote X21): 3,104 → Title/abstract screen (two coders; κ = 0.79): 892 retained → Full-text assessment: 312 retained → Effect size extractable: 235 studies (≈ 385 effects). Detailed exclusion reasons at the full-text stage are reported in Appendix A.
+**PRISMA 2020 flow.** Records identified (WoS + Scopus): 4,812 → After automated deduplication (Endnote X21): 3,104 → Title/abstract screen (two coders; κ = 0.79): 892 retained → Full-text assessment: 312 retained → Effect size extractable: 235 studies (285 effects). Detailed exclusion reasons at the full-text stage are reported in Appendix A.
 
 ### 3.3 Data Extraction and Quality Assurance
 
@@ -260,7 +260,7 @@ The following pre-registered robustness checks evaluate the sensitivity of the m
 
 ### 4.1 Sample Description and Inter-Coder Reliability
 
-*k* = 235 studies, approximately 385 effect sizes.
+*k* = 235 studies, *K* = 285 effect sizes.
 
 **Table 3.1 — Inter-coder reliability statistics** *(20% double-coded subsample, k = 47 studies)*
 
@@ -569,7 +569,7 @@ Records identified (WoS + Scopus): 4,812
         ├── Excluded (no convertible ES): 580
         └── Included: 312
             ├── Effect size extraction failed: 77
-            └── Final sample: k = 235 studies (≈385 effect sizes)
+            └── Final sample: k = 235 studies (K = 285 effect sizes)
 ```
 
 *Reasons for full-text exclusion (top 3):* (1) No effect size convertible to *r* (n = 324); (2) No IB internationalization measure (n = 189); (3) State-owned enterprise sample only (n = 67).
