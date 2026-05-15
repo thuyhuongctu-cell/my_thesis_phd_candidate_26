@@ -26,6 +26,7 @@
 | P5 — China | IJOEM (Emerald) | ✅ Submission ready | Companion paper (P2 JFAR) disclosed in §6; v9 integrated |
 | P6 — Meta-analysis | IBR (Elsevier) | 🟡 In progress | Target journal confirmed IBR; S-111→S-121 r-values in forest_data.csv (paper-level verify pending); S-62 citation suspect |
 | P7 — Multi-country capstone | JIBS (Palgrave) | ✅ Submission ready | jibs_package built; §4.5.4 methodology added; H2 partial-confirmation corrected; dist/ synced |
+| P8 — Pacific SIDS boundary | World Development (Elsevier) | ✅ Submission ready | world_development_package built; FIP theory; 9 SIDS economies |
 | CĐ2 — Chuyên đề 2 | PhD Committee (VI) | ✅ Submitted v2.1 | APJM→JABS updated 2026-05-12 |
 | CĐ1 — Chuyên đề 1 | PhD Committee (VI) | ✅ Complete | |
 
@@ -67,6 +68,8 @@ None active in `.plans/` (clean state).
 - P3: TP pooled = 39.7% (range 39–46%) | TCI β = 0.179 | DAI IV β = 0.018 | N = 2,958
 - P4: DAI×FSTS² = +3.119 (p=.005) | TP ≈ 88.6% | N = 623
 - P5: TP 2012 = 49.4% | TP 2024 = 47.2% | Paternoster p = .545 | N = 4,559
+- P7: TP ≈ 36% (pooled M2, N=84,910) | DAI β=+0.155 (p<.001) | ICRV gradient TP 28%→55% | N=84,910–38,342
+- P8: FIP β = −0.404 (p=.032, country FE) | no quadratic turning point | N=1,469 (9 Pacific SIDS)
 - CĐ2: N = 101,185 | 47 economies | 108 country-year pairs | 14 waves
 
 ---
