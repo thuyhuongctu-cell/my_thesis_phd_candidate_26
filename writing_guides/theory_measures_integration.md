@@ -336,6 +336,23 @@ development of China's digital regulatory environment across provinces."
 > with performance increasing at low FSTS levels and decreasing at high FSTS levels
 > (conditional on technological capability [TCI] and foundational digital adoption [DAI], holding other factors constant)."
 
+### 3.1b H1b — Forced Internationalization Penalty (FIP) — SIDS Boundary Condition
+
+**Context:** P8 only — Pacific Small Island Developing States (ICRV Nhóm VI).
+
+**Template (FIP mechanism — 3-prerequisite framework):**
+> "The inverted-U paradigm assumes three structural prerequisites that allow internationalization to generate net positive performance returns at low-to-moderate export intensity levels: (1) a viable domestic market of sufficient size to fund the organizational capabilities required for profitable exporting; (2) manageable trade costs commensurate with the value of exportable output; and (3) functional institutional support for international market access — including trade finance intermediaries, contract enforcement, and standards infrastructure (Winters & Martins, 2004; Briguglio, 1995; Khanna & Palepu, 2010). When all three prerequisites are simultaneously absent, the inverted-U collapses into a monotone negative relationship. We term this the Forced Internationalization Penalty (FIP): firms export not because exporting creates competitive advantage but because the domestic market cannot sustain their operations, and the structural costs of exporting exceed the revenue gains in every marginal unit of export intensity. FIP is theoretically distinct from: (a) phase-1 learning costs in three-stage theory (Contractor et al., 2003), which predict eventual positive returns; (b) Liability of Foreignness (Zaheer, 1995), which operates on the host-market side; and (c) necessity entrepreneurship (Sarasvathy et al., 2014), which operates at the firm level rather than as a structural regime-level constraint. Therefore:
+>
+> H1b: In Pacific SIDS economies — where all three structural prerequisites of the inverted-U are simultaneously absent — export intensity (FSTS) is monotonically negatively associated with labour productivity, with no statistically significant turning point within the observed FSTS range (FIP boundary condition)."
+
+**Empirical anchor (P8):** β(FSTS_c) = −0.404 (p = .032, M1 country+year FE, N = 1,469); M2 quadratic both NS; Lind–Mehlum test: NS. Robust across M_yearFE (β = −1.236, p < .001) and exporters-only (β = −0.901, p = .027).
+
+**Key citations:** Winters & Martins (2004); Briguglio (1995); Read (2004); Khanna & Palepu (2010); Contractor et al. (2003); Zaheer (1995); UN General Assembly (2024).
+
+**Critical rule:** FIP is the *boundary condition* of the inverted-U, not a variant of it. It signals that the institutional context has crossed a threshold below which the basic preconditions for positive internationalization returns no longer hold. This is a qualitative (sign-changing) departure, not a quantitative (magnitude-shifting) one.
+
+---
+
 ### 3.2 H2 — TCI Positive Moderation (Turning-Point Shift)
 
 **Template (RBV mechanism):**
@@ -415,6 +432,9 @@ development of China's digital regulatory environment across provinces."
 | "Why four theories?" | Process-capability-context interaction necessity (§1.2) | Each theory governs a distinct arrow in the conceptual model — no single theory predicts both H2 and H3 |
 | "H3 and H2 are the same hypothesis" | CDCM mechanism differentiation (§1.2 + §3.3) | Empirical test: TCI and DAI coefficients differ in sign/magnitude across ICRV regimes |
 | "The turning point is outside sample support" | Report Lind–Mehlum utest | Report CI for TP; if boundary case, reframe as "support-constrained estimate" |
+| "FIP is just the first stage of Uppsala learning costs" | FIP is a structural regime, not a temporal phase — no recovery expected within observed FSTS range; Lind–Mehlum NS confirms no inflection | Contrast: 3-stage theory predicts eventual positive slope; SIDS data show uniformly negative slope across all specifications |
+| "FIP could be explained by firm-level selection bias" | Country+year FE absorb country-level structural factors; exporters-only subsample β = −0.901 (p = .027) confirms result among active exporters | Direction consistent across 4 specifications with different FE structures |
+| "FIP needs to be tested with panel data" | Cross-sectional pooling with country FE is standard in WBES SIDS literature (Goedhuys & Sleuwaegen, 2013); limited panel variation for SIDS in WBES | Future agenda: Fiji + PNG have 2 waves — scope for panel check in future research |
 
 ### 4.2 Standard Inferential Bounds Paragraph
 
