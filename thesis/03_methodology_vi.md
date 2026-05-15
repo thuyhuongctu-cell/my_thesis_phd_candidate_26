@@ -161,6 +161,65 @@ Nếu $\beta_4$ hoặc $\beta_5$ có ý nghĩa, hình dạng đường quan hệ
 
 **Đóng góp mới**: áp dụng cho China 2012 và 2024 để kiểm định stability của cubic turning point (~47,8% FSTS) sau hơn một thập kỷ chuyển đổi số.
 
+### 4.5.1 Mô hình cụ thể — Nghiên cứu 3 (Việt Nam, WBES 2009/2015/2023)
+
+Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượng riêng theo từng sóng khảo sát (2009, 2015, 2023) và gộp pooled. Ký hiệu tiếng Việt:
+
+- **lnNSLD_it** = lnLP_it: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
+- **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu điều chỉnh trung bình trong sóng (mean-centred)
+- **CDDXK_c²_it** = FSTS_c²_it: bình phương cường độ xuất khẩu điều chỉnh
+- **NLCN_z_it** = TCI_z_it: năng lực công nghệ (chuẩn hoá z trong sóng)
+- **CSS_z_it** = DAI_z_it: chỉ số số hoá cơ sở — Tier-1 (chuẩn hoá z trong sóng)
+- **lnLD, TuoiDN, SoHuuNuocNgoai**: kiểm soát quy mô, tuổi, sở hữu
+- **δ_s**: hiệu ứng cố định ngành (1-digit ISIC); **λ_t**: hiệu ứng cố định sóng (chỉ pooled)
+
+**M0 — Mô hình cơ sở (biến kiểm soát):**
+$$\ln NSLD_{it} = \alpha + \gamma_1 \ln LD_{it} + \gamma_2 TuoiDN_{it} + \gamma_3 SoHuuNN_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+
+**M1 — Quốc tế hoá tuyến tính:**
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+
+**M2 — Quốc tế hoá phi tuyến (kiểm định H1 — inverted-U):**
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+
+H1: $\beta_1 > 0$ và $\beta_2 < 0$; điểm quay $TP^* = -\beta_1 / (2\beta_2)$, xác nhận bởi kiểm định Lind–Mehlum (2010).
+
+**M3 — Điều tiết NLCN (kiểm định H2):**
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4(CDDXK\_c \times NLCN\_z) + \beta_5(CDDXK\_c^2 \times NLCN\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+
+**M4 — Điều tiết CSS/DAI (H4 thăm dò):**
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z + \beta_4(CDDXK\_c \times CSS\_z) + \beta_5(CDDXK\_c^2 \times CSS\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+
+**M5 — NLCN trực tiếp (không tương tác):**
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+
+**M6 — CSS/DAI trực tiếp (không tương tác):**
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+
+**M7 — Cả hai trực tiếp, không tương tác:**
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4 CSS\_z + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+
+**M8 — Mô hình đầy đủ (trực tiếp + điều tiết CSS):**
+$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4 CSS\_z + \beta_5(CDDXK\_c \times CSS\_z) + \beta_6(CDDXK\_c^2 \times CSS\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+
+*Tất cả mô hình đều ước lượng bằng OLS với sai số chuẩn vững HC1. Hiệu ứng cố định sóng $\lambda_t$ chỉ áp dụng trong mô hình pooled. Mô hình được ước lượng riêng cho 3 sóng và gộp (N = 989 / 956 / 1.013 / 2.958).*
+
+**Bảng định nghĩa biến — Nghiên cứu 3 (Việt Nam):**
+
+| Ký hiệu | Biến WBES | Cách tính | Vai trò |
+|---|---|---|---|
+| lnNSLD | d2, l1 | ln(d2 / l1): ln(doanh thu PPP / lao động thường xuyên) | Biến phụ thuộc |
+| CDDXK | d3c | d3c / 100: cường độ xuất khẩu trực tiếp (0–1) | Biến độc lập |
+| CDDXK_c | d3c | CDDXK − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
+| CDDXK_c² | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
+| NLCN_z | b8, e6 | z-std trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
+| CSS_z | c22b | z-std trong sóng của c22b₀₁: hiện diện website | Số hoá Tier-1 (H4 thăm dò) |
+| lnLD | l1 | ln(l1): log số lao động thường xuyên | Kiểm soát: quy mô doanh nghiệp |
+| TuoiDN | b5 | năm khảo sát − b5: số năm hoạt động | Kiểm soát: tuổi doanh nghiệp |
+| SoHuuNN | b2b | 1 nếu b2b > 0: có vốn nước ngoài | Kiểm soát: hình thức sở hữu |
+| δ_s | a4b / a4a | ngành 1-chữ số ISIC (a4b cho 2009/2015; a4a cho 2023) | Hiệu ứng cố định ngành |
+| λ_t | wave | chỉ báo sóng khảo sát (chỉ pooled) | Hiệu ứng cố định thời kỳ |
+
 ### 4.6 Sai số chuẩn
 
 Tất cả các mô hình đều sử dụng HC1/HC3 robust standard errors (Long & Ervin, 2000; White, 1980) để xử lý heteroscedasticity. Đối với multi-country, bổ sung clustered SE theo country.
