@@ -41,14 +41,56 @@ for f in 00_optimal_plan_vi 01_chapter_outline_vi 02_theoretical_framework_vi 03
 done
 
 echo "[3] Vietnamese manuscripts..."
-[ -f manuscripts/vi/p3_vietnam_vi.md ]  && ${PANDOC_VI} manuscripts/vi/p3_vietnam_vi.md  -o "${DIST}/manuscripts/vi/p3_vietnam_vi.docx"
-[ -f manuscripts/vi/p4_singapore_vi.md ] && ${PANDOC_VI} manuscripts/vi/p4_singapore_vi.md -o "${DIST}/manuscripts/vi/p4_singapore_vi.docx"
-[ -f manuscripts/vi/p5_china_vi.md ]     && ${PANDOC_VI} manuscripts/vi/p5_china_vi.md     -o "${DIST}/manuscripts/vi/p5_china_vi.docx"
+# P3: no inline figures — build directly
+[ -f "${SCRIPT_DIR}/p3/submission/p3_vietnam_vi.md" ] && \
+  ${PANDOC_VI} "${SCRIPT_DIR}/p3/submission/p3_vietnam_vi.md" \
+    -o "${DIST}/manuscripts/vi/p3_vietnam_vi.docx"
+# P4: figures in p4/figures/ — run from p4/ dir so relative paths resolve
+[ -f "${SCRIPT_DIR}/p4/submission/p4_singapore_vi.md" ] && (
+  cd "${SCRIPT_DIR}/p4" && \
+  pandoc -f gfm -t docx --resource-path=. \
+    --reference-doc="${THESIS_REF}" \
+    submission/p4_singapore_vi.md \
+    -o "${DIST}/manuscripts/vi/p4_singapore_vi.docx"
+)
+# P5: figures in p5/figures/ — run from p5/ dir
+[ -f "${SCRIPT_DIR}/p5/submission/p5_china_vi.md" ] && (
+  cd "${SCRIPT_DIR}/p5" && \
+  pandoc -f gfm -t docx --resource-path=. \
+    --reference-doc="${THESIS_REF}" \
+    submission/p5_china_vi.md \
+    -o "${DIST}/manuscripts/vi/p5_china_vi.docx"
+)
 
 echo "[4] English manuscripts..."
-[ -f p3/p3_vietnam_en_clean.md ]    && ${PANDOC_EN} p3/p3_vietnam_en_clean.md    -o "${DIST}/manuscripts/en/p3_vietnam_en_clean.docx"
-[ -f p4/p4_singapore_en_clean.md ]  && ${PANDOC_EN} p4/p4_singapore_en_clean.md  -o "${DIST}/manuscripts/en/p4_singapore_en_clean.docx"
-[ -f p5/p5_china_en_clean.md ]      && ${PANDOC_EN} p5/p5_china_en_clean.md      -o "${DIST}/manuscripts/en/p5_china_en_clean.docx"
+# P3: no inline figures
+[ -f "${SCRIPT_DIR}/p3/p3_vietnam_en_clean.md" ] && \
+  ${PANDOC_EN} "${SCRIPT_DIR}/p3/p3_vietnam_en_clean.md" \
+    -o "${DIST}/manuscripts/en/p3_vietnam_en_clean.docx"
+# P4: figures in p4/figures/
+[ -f "${SCRIPT_DIR}/p4/p4_singapore_en_clean.md" ] && (
+  cd "${SCRIPT_DIR}/p4" && \
+  pandoc -f gfm -t docx --resource-path=. \
+    --reference-doc="${PAPER_REF}" \
+    p4_singapore_en_clean.md \
+    -o "${DIST}/manuscripts/en/p4_singapore_en_clean.docx"
+)
+# P5: figures in p5/figures/
+[ -f "${SCRIPT_DIR}/p5/p5_china_en_clean.md" ] && (
+  cd "${SCRIPT_DIR}/p5" && \
+  pandoc -f gfm -t docx --resource-path=. \
+    --reference-doc="${PAPER_REF}" \
+    p5_china_en_clean.md \
+    -o "${DIST}/manuscripts/en/p5_china_en_clean.docx"
+)
+# P6: meta-analysis manuscript
+[ -f "${SCRIPT_DIR}/p6/p6_meta_manuscript_en.md" ] && \
+  ${PANDOC_EN} "${SCRIPT_DIR}/p6/p6_meta_manuscript_en.md" \
+    -o "${DIST}/manuscripts/en/p6_meta_en_clean.docx"
+# P7: capstone multi-country (no figures)
+[ -f "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md" ] && \
+  ${PANDOC_EN} "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md" \
+    -o "${DIST}/manuscripts/en/p7_capstone_en_clean.docx"
 
 echo ""
 echo "=== Build complete ==="
