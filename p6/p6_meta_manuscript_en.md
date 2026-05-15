@@ -610,4 +610,4 @@ Records identified (WoS + Scopus): 4,812
 ---
 
 *Word count (excluding tables, references, appendices): ≈ 6,900 words*
-*Target journal: Asia Pacific Journal of Management (APJM, Springer, IF ≈ 4.5, ABDC-B). APJM requires 7,000–9,000 words for empirical articles; the manuscript is within range after the §3 expansion. Results §4.3–4.5 will be expanded with confirmed metafor output once formal effect-size extraction from p6_study_database_coded.md is complete using M-AIDA v7.0 (Do, 2025). IBR was considered but APJM is better suited given the explicit Asia-Pacific institutional focus and the ICRV taxonomy.*
+*Target journal: International Business Review (IBR, Elsevier, IF ≈ 5.5, ABS-3). IBR requires 8,000–10,000 words for empirical articles; the manuscript will reach range after §3–§4 expansion with confirmed metafor output once formal effect-size extraction from p6_study_database_coded.md is complete using M-AIDA v7.0 (Do, 2025).*
