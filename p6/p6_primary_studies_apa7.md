@@ -451,17 +451,42 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 
 ---
 
-**Tóm tắt tiến độ (v2.5, 15/05/2026):**
-- Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
-- Phần 2: 11 ứng viên mới (S-111 → S-121) — **HOÀN THÀNH 15/05**: 11/11 đã có r-value:
-  - ✅ S-111 (S204), S-112 (S232), S-113 (S210), S-114 (S212), S-115 (S222) — 5 nghiên cứu 2020
-  - ✅ S-116 → **S236** (r=−0.10, ước lượng từ partial r ROA, 97 Polish MNEs 2006–2013, EBER)
-  - ✅ S-117 → **S237** (r=−0.04, correlation matrix Table 2, 304 Polish firms 2010–2013, OC)
-  - ✅ S-118 (S220), S-119 (S108+S223) — 2 nghiên cứu 2021
-  - ✅ S-120 (S198), S-121 (S126+S216) — 2 nghiên cứu 2022
-- Phần 3: 16 ứng viên mới (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 Cho & Lee (2018) r=−0.029 → **S238** đã thêm vào forest_data.csv; 15 còn lại cần PDF + r-extraction
-- forest_data.csv: **288 data rows** (S238 mới thêm: Cho & Lee 2018, Korea, FSTS, r=−0.029)
-- forest_data.csv: 287 rows tổng (285 data rows + header), S236+S237 đã append
-- 🔴 **CÒN LẠI:** S-62 citation sai — Cho & Lee (2018) đã kiểm tra và KHÔNG phải S-62 (r=−0.029≠0.383; n=232≠279). Cần tìm bài khác từ MetaEssentials Excel (Korean sample, r=0.383, n=279)
+---
 
-*File v2.4 — 15/05/2026. Cập nhật: Xác nhận Cho & Lee (2018) ABM không phải S-62; ghi chú S-62 chi tiết hóa; note Cho & Lee (2018) là ứng viên thêm mới vào k nếu cần.*
+## Phần 4 — Danh sách 71–80: Tốc độ quốc tế hóa / Born-Global
+
+> **Nguồn:** Người dùng cung cấp 15/05/2026. Đây là batch papers về tốc độ quốc tế hóa (internationalization speed) và born-global firms. Cross-check với forest_data.csv và tiêu chí đủ điều kiện PICO.
+
+### Nhóm A: Cần kiểm tra PDF (tiềm năng có r giữa DOI và FP)
+
+**[S-138]** Autio, E., Sapienza, H. J., & Almeida, J. G. (2000). Effects of age at entry, knowledge intensity, and imitability on international growth. *Academy of Management Journal, 43*(5), 909–924. https://doi.org/10.2307/1556419
+*Tình trạng: Cần kiểm tra — bài empirical (AMJ) đo tác động của entry age và knowledge intensity lên international growth (FP). IV có thể là GEO/COUNT, FP=growth (ACC). n≈ ? | ICRV=MX | DPL=PRE | ⚠️ Cần xem Table correlation matrix để tìm r(DOI, FP). Nếu không có DOI→FP r thì loại.*
+
+**[S-139]** Knight, G. A., & Cavusgil, S. T. (2004). Innovation, organizational capabilities, and the born-global firm. *Journal of International Business Studies, 35*(2), 124–141. https://doi.org/10.1057/palgrave.jibs.8400071
+*Tình trạng: Cần kiểm tra — JIBS empirical survey 203 US born-global manufacturers. DV = export performance (ACC). IV = innovation + intl marketing capabilities. Không rõ có FSTS→performance r trực tiếp không. ⚠️ Nếu chỉ có capabilities→performance (không có DOI→FP), thì không đủ điều kiện I→P.*
+
+### Nhóm B: Loại trừ — Không đủ điều kiện I→P meta-analysis
+
+| Nghiên cứu | Lý do loại |
+|------------|-----------|
+| Prashantham, S., & Young, S. (2011). Post-entry speed of international new ventures. *ETP, 35*(2), 275–292. | Speed of internationalization (DV), không phải DOI→FP |
+| Casillas, J. C., & Acedo, F. J. (2013). Speed in the internationalization process of the firm. *IJMR, 15*(1), 15–29. | Review paper về speed; không có primary effect size |
+| Chetty, S., Johanson, M., & Martín Martín, O. (2014). Speed of internationalization. *JWB, 49*(4), 513–523. | Conceptual + measurement paper về speed |
+| Weerawardena, J., Sullivan Mort, G., Liesch, P. W., & Knight, G. (2007). Conceptualizing accelerated internationalization. *JWB, 42*(3), 294–306. | Conceptual framework — không empirical |
+| Oviatt, B. M., & McDougall, P. P. (2005). Defining international entrepreneurship and modeling the speed. *ETP, 29*(5), 537–554. | Conceptual/definitional — không empirical r |
+| Sapienza, H. J., Autio, E., George, G., & Zahra, S. A. (2006). A capabilities perspective on the effects of early internationalization. *AMR, 31*(4), 914–933. | AMR = theoretical review; không có empirical r |
+| Freeman, S., Edwards, R., & Schroder, B. (2006). How smaller born-global firms use networks. *JIM, 14*(3), 33–54. | Qualitative case study — không có extractable r |
+| Acedo, F. J., & Jones, M. V. (2007). Speed of internationalization. *JWB, 42*(3), 253–267. | Speed, không phải DOI→FP; đã liệt kê S-125 Phần 3 |
+
+---
+
+**Tóm tắt tiến độ (v2.6, 15/05/2026):**
+- Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
+- Phần 2: 11 ứng viên mới (S-111 → S-121) — **HOÀN THÀNH**: 11/11 đã có r-value
+  - ✅ S-116 → **S236** (r=−0.10); S-117 → **S237** (r=−0.04)
+- Phần 3: 16 ứng viên (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 → **S238** (r=−0.029); 15 còn lại cần PDF
+- Phần 4: 9 ứng viên (S-138 → S-139 + 7 loại trừ) — S-138, S-139 cần kiểm tra PDF
+- forest_data.csv: **288 data rows** (S238 mới nhất; Cho & Lee 2018, Korea, FSTS, r=−0.029)
+- 🔴 **CÒN LẠI S-62:** Citation sai (Lee, S.M. Lim & Pathak 2014 về entrepreneurial orientation ≠ bài I→P). Cần tìm "Lee et al. 2014, Korean SME, r=0.383, n=279, EXP→ACC" từ MetaEssentials Excel gốc.
+
+*File v2.6 — 15/05/2026. Cập nhật: Thêm Phần 4 (studies 71-80 speed/born-global); sửa PRISMA section trong p6_meta_manuscript_en.md (loại M-AIDA, số giả); Nhóm B: 7 loại trừ; S-138/S-139 cần PDF.*
