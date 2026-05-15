@@ -174,11 +174,11 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P1 và P2** (đã công bố — ICBEF 2024, Đỗ & Phan, 2024): thiết lập baseline meta-analytic với $k = 113$, $r = 0{,}07$, xác nhận tác động dương nhỏ nhưng có ý nghĩa, và đặt nền cho khung CDCM.
 
-- **P3** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích Việt Nam (Lower-mid Transition), xác nhận inverted-U với TP = 39,3–46,2%, TCI là moderator dương có ý nghĩa.
+- **P3** (JABS under review, Đỗ & Phan, 2026): phân tích Việt Nam (Lower-mid Transition), xác nhận inverted-U với TP = 39,3–46,2%, TCI là moderator dương có ý nghĩa.
 
-- **P4** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích Singapore (Advanced Innovation), xác nhận inverted-U với TP ≈ 88,6% (rộng CI), DAI khuếch đại tại mức FSTS cao.
+- **P4** (MIR under review, Đỗ & Phan, 2026): phân tích Singapore (Advanced Innovation), xác nhận inverted-U với TP ≈ 88,6% (rộng CI), DAI khuếch đại tại mức FSTS cao.
 
-- **P5** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích Trung Quốc 2012–2024 (Upper-middle), xác nhận inverted-U ổn định theo thời gian (TP ≈ 48,78%, Paternoster $z = 0{,}82$, $p = {,}412$).
+- **P5** (IJOEM under review, Đỗ & Phan, 2026): phân tích Trung Quốc 2012–2024 (Upper-middle), xác nhận inverted-U ổn định theo thời gian (TP ≈ 48,78%, Paternoster $z = 0{,}82$, $p = {,}412$).
 
 - **P6** (IBR under review, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 235$, $r = 0{,}075$, $I^2 = 62{,}5\%$ (54,1% tầng 2 + 8,4% tầng 3), ICRV moderation $Q_M = 127{,}77^{***}$.
 
