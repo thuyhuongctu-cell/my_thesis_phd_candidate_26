@@ -44,7 +44,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (Đỗ & Phan, 2026 — VEFR).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (6 nước, n=1.221) cho phép kiểm định forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript).
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript).
 
 ### 3.2 Đo lường biến phụ thuộc — Hiệu quả hoạt động
 

@@ -288,7 +288,7 @@ Rule of Law, Control of Corruption, and per-capita GNI:
 
 | Paper | Economy | ICRV Regime (6-code) | ICRV Regime (5-code P3/P6) |
 |-------|---------|---------------------|---------------------------|
-| P3 | Vietnam | Nhóm IV (Emerging) | Frontier V |
+| P3 | Vietnam | Nhóm IV (Lower_mid_transition) | Nhóm IV (Lower_mid_transition) |
 | P4 | Singapore | Nhóm I (Advanced Innovation) | Advanced I |
 | P5 | China 2012–2024 | Nhóm III (Upper-Middle) | Upper-Middle III |
 | P6 meta | All 47 | All 6 regimes as moderator | 5-regime subgroup |
@@ -301,11 +301,11 @@ infrastructure is world-class, contract enforcement is near-certain, and e-payme
 regulation is clear — conditions under which CDCM predicts DAI should exert its strongest
 amplifying effect on export-performance returns."
 
-*P3 Vietnam*: "Vietnam occupies the Emerging/Frontier boundary of the ICRV classification
-(Group IV in the 6-regime system; WGI Rule of Law −0.42 to −0.66 across the 2009–2023
-panel) — a regime in which digital infrastructure exists but institutional support for
-digital transactions remains incomplete, generating the conditional moderation pattern
-predicted by CDCM."
+*P3 Vietnam*: "Vietnam is classified at Nhóm IV (Lower_mid_transition) of the ICRV
+classification (Group 4 of 6; WGI Rule of Law approximately −0.66 to −0.68 in 2009,
+improving to −0.09 in 2023, World Bank) — a lower-middle-income transition economy where
+digital infrastructure exists but institutional support for digital transactions remains
+incomplete, generating the conditional moderation pattern predicted by CDCM."
 
 *P5 China*: "China's WBES private-firm sample — excluding state-owned enterprises by
 design — maps to ICRV Group III (Upper-Middle Transition; WGI Rule of Law approximately

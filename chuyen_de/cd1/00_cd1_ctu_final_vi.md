@@ -240,7 +240,7 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 **(5) Không tách biệt tác động COVID-19 khỏi tác động áp dụng số**: Bộ câu hỏi BREADY 2018–2025 bao gồm giai đoạn gián đoạn COVID (2020–2022) và tăng tốc AI (2023+). Kết quả từ BREADY 2025 nên được giải thích là "hậu đại dịch kết hợp tăng tốc số".
 
-**(6) Phạm vi SIDS chưa đầy đủ**: 7/~52 SIDS theo UNCTAD. Tuvalu, Nauru, Marshall Islands, Micronesia chưa có WBES. Kết luận về chi phí quốc tế hóa buộc phải có thể chưa đại diện toàn bộ SIDS Pacific.
+**(6) Phạm vi SIDS chưa đầy đủ**: 9/~52 SIDS theo UNCTAD (dữ liệu WBES hiện có). Tuvalu, Nauru, Marshall Islands, Micronesia chưa có WBES. Kết luận về chi phí quốc tế hóa buộc phải có thể chưa đại diện toàn bộ SIDS Pacific.
 
 **(7) Không có dữ liệu cường độ số theo ngành**: WBES không phân biệt chỉ số áp dụng số theo ngành. Doanh nghiệp sản xuất và dịch vụ có hệ số DAI Tier-1 giống nhau nhưng cường độ số thực tế khác nhau. Hiệu ứng cố định ngành kiểm soát được một phần nhưng không giải quyết triệt để vấn đề này.
 

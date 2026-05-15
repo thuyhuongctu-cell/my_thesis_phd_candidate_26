@@ -42,7 +42,7 @@ Câu hỏi cụ thể:
 
 - Đối tượng: mối quan hệ internationalization–firm performance và các yếu tố điều tiết.
 - Đơn vị phân tích: doanh nghiệp (firm-level).
-- Phạm vi không gian (chính): các nền kinh tế châu Á có dữ liệu WBES, tổ chức theo 5 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier). Phạm vi mở rộng: 6 nước Pacific SIDS được phân tích như boundary case adjacent. Nhật Bản không thuộc empirical scope.
+- Phạm vi không gian (chính): các nền kinh tế châu Á có dữ liệu WBES, tổ chức theo 5 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier). Phạm vi mở rộng: 9 nước Pacific SIDS (gồm cả Comoros, Timor-Leste) được phân tích như boundary case adjacent. Nhật Bản không thuộc empirical scope.
 - Phạm vi thời gian: literature 1982–2026 (meta-analysis); WBES 2009–2025 (101.185 doanh nghiệp · 108 cặp quốc gia × năm) cho phase thực nghiệm.
 
 ### 1.6 Tính mới và đóng góp dự kiến
@@ -169,7 +169,7 @@ Chương 4 trình bày kết quả ở ba cấp độ: meta-analysis, country-le
 - Vai trò điều tiết của thể chế (institutional voids, business obstacles, sub-regime ICRV).
 - Vai trò điều tiết của digital constructs (TCI vs DAI) — kiểm định non-overlapping property và digital shield effect mở rộng (Đỗ & Phan, 2026 — VEFR).
 - Vai trò điều tiết của top manager characteristics (experience, gender) (Hambrick & Mason, 1984; Hsu et al., 2013).
-- **Boundary case Pacific SIDS adjacent** (7 nước, n=1.371 pool / n=1.097 phân tích): forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript). Kiribati 2025 (n=150) được bổ sung là SIDS cực đoan nhất (FSTS 1,03%, FDI 0,7%, website 18,7%).
+- **Boundary case Pacific SIDS adjacent** (9 nước, n=2.038 (toàn pool SIDS_small) / n=1.469 (mẫu phân tích sau lọc missing)): forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript). Kiribati 2025 (n=150) được bổ sung là SIDS cực đoan nhất (FSTS 1,03%, FDI 0,7%, website 18,7%).
 
 ### 4.5 Kiểm định độ vững và temporal heterogeneity
 
