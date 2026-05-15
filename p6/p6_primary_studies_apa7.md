@@ -152,8 +152,8 @@
 **[S-61]** Graves, C., & Shan, Y. G. (2014). An empirical analysis of the effect of internationalization on the performance of unlisted family and nonfamily firms in Australia. *Family Business Review, 27*(2), 142–160. https://doi.org/10.1177/0894486513510534
 *Effect: r = −0.070, n = 4,217* | [scite](https://scite.ai/reports/10.1177/0894486513510534)
 
-**[S-62]** Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014). Culture and entrepreneurial orientation: A multi-country study. *International Entrepreneurship and Management Journal, 10*(1), 1–15. https://doi.org/10.1007/s11365-011-0218-8 [*unverified — verify this is correct Lee et al 2014 cited in meta-analysis; r=0.383 suggests strong positive effect in Korean SME sample*]
-*Effect: r = 0.383, n = 279*
+**[S-62]** ⚠️ **[CITATION SAI — CHƯA XÁC ĐỊNH]** Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014). Culture and entrepreneurial orientation: A multi-country study. *International Entrepreneurship and Management Journal, 10*(1), 1–15. https://doi.org/10.1007/s11365-011-0218-8 [*Citation này SAI — không phải bài I→P. Đã kiểm tra Cho & Lee (2018) Asian Business & Management — không khớp (r=−0.029, n=232 ≠ r=0.383, n=279). Cần tìm nghiên cứu Korean firms với r=0.383, n=279 từ MetaEssentials Excel.*]
+*Effect: r = 0.383, n = 279 | Nguồn: MetaEssentials Excel (chưa xác minh được paper gốc)*
 
 **[S-63]** Zhou, L., & Wu, A. (2014). Earliness of internationalization and performance outcomes: Exploring the moderating effects of venture age and international commitment. *Journal of World Business, 49*(1), 132–142. https://doi.org/10.1016/j.jwb.2013.04.003
 *Effect: r = 0.150, n = 376* | [scite](https://scite.ai/reports/10.1016/j.jwb.2013.04.003)
@@ -360,7 +360,9 @@ r = √(F / (F + df_resid))       # nếu chỉ có F-statistic (linear term)
 ```
 Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170–176). Sau khi trích xuất, kiểm tra bằng `metafor::escalc()` với measure="COR" hoặc measure="ZPCOR" tùy thiết kế.
 
-**Ghi chú S-62 (cần xác minh):** Citation hiện tại `Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014)` về "Culture and entrepreneurial orientation" (IEMJ) có khả năng **KHÔNG ĐÚNG** — đây không phải bài I→P. Cần kiểm tra Excel MetaEssentials để xác định "Lee et al. 2014" nào tương ứng với r=0.383, n=279 (Korean firm sample). Ứng viên thay thế: Lee, S., Kwak, W., & Tsai, Y. (2014) hoặc bài về Korean firms trong *Journal of East-West Business*.
+**Ghi chú S-62 (cần xác minh — CHƯA GIẢI QUYẾT):** Citation hiện tại `Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014)` về "Culture and entrepreneurial orientation" (IEMJ) **KHÔNG ĐÚNG** — không phải bài I→P. Đã kiểm tra ứng viên Cho & Lee (2018) "Internationalization and performance of Korean SMEs: the moderating role of competitive strategy" (*Asian Business & Management*, 17(2), 140–166; DOI: 10.1057/s41291-017-0035-9) — **KHÔNG KHỚP**: paper này có r(FSTS,ROA)=−0.029, n=232 firms ≠ S-62 target r=0.383, n=279. Cần tiếp tục tìm từ MetaEssentials Excel. Ứng viên thay thế: Lee, S., Kwak, W., & Tsai, Y. (2014) hoặc bài về Korean firms trong *Journal of East-West Business* hoặc *Asian Pacific Journal of Management*.
+
+**Lưu ý bổ sung:** Cho & Lee (2018) là bài I→P hợp lệ (FSTS→ROA, Korean SMEs, panel 2003–2013) với r=−0.029 (ns, Table 4), n=232 firms. Có thể thêm vào meta-analysis như một entry MỚI (không phải S-62) nếu muốn mở rộng k.
 
 **Tóm tắt tiến độ (v2.3, 15/05/2026):**
 - Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
@@ -371,6 +373,6 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
   - ✅ S-118 (S220), S-119 (S108+S223) — 2 nghiên cứu 2021
   - ✅ S-120 (S198), S-121 (S126+S216) — 2 nghiên cứu 2022
 - forest_data.csv: 287 rows tổng (285 data rows + header), S236+S237 đã append
-- 🔴 **CÒN LẠI:** S-62 citation sai — cần xác minh từ MetaEssentials Excel (r=0.383, n=279, Korean sample)
+- 🔴 **CÒN LẠI:** S-62 citation sai — Cho & Lee (2018) đã kiểm tra và KHÔNG phải S-62 (r=−0.029≠0.383; n=232≠279). Cần tìm bài khác từ MetaEssentials Excel (Korean sample, r=0.383, n=279)
 
-*File v2.3 — 15/05/2026. Cập nhật: S-116 và S-117 (Barłożewski & Trąpczyński) đã trích xuất r-value sau khi đọc toàn bộ PDF; thêm S236 và S237 vào forest_data.csv.*
+*File v2.4 — 15/05/2026. Cập nhật: Xác nhận Cho & Lee (2018) ABM không phải S-62; ghi chú S-62 chi tiết hóa; note Cho & Lee (2018) là ứng viên thêm mới vào k nếu cần.*
