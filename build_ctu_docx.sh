@@ -35,7 +35,7 @@ cp thesis/14_cd1_part1_intro_theory_vi.md thesis/15_cd1_part2_findings_vi.md \
    thesis/16_cd1_part3_cases_conclusion_vi.md "${DIST}/chuyen_de_1/source_md/"
 
 echo "[2] Luận án thesis files..."
-for f in 00_optimal_plan_vi 01_chapter_outline_vi 02_theoretical_framework_vi 03_methodology_vi 04_references_apa7; do
+for f in 00_optimal_plan_vi 01_chapter_outline_vi 02_theoretical_framework_vi 03_methodology_vi 04_05_chapters_results_discussion_vi 04_references_apa7 11_dissertation_positioning_vi; do
   [ -f "thesis/${f}.md" ] && ${PANDOC_VI} "thesis/${f}.md" -o "${DIST}/luan_an/${f}.docx" && \
     cp "thesis/${f}.md" "${DIST}/luan_an/source_md/"
 done
