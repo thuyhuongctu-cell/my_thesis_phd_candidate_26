@@ -10,7 +10,7 @@ P5 thuộc **tầng hình dạng quan hệ** trong khung 4 tầng (xem `02_theor
 
 ### 1.2 Differentiation từ P2 (bài China đã công bố, JFAR 2026)
 
-| Yếu tố | P2 (đã công bố) | P5 (sẽ viết tiếp) |
+| Yếu tố | P2 (đã công bố) | P5 (IJOEM under review) |
 |---|---|---|
 | Câu hỏi | **What shape**: mối quan hệ I–P trong Chinese manufacturing SMEs có phi tuyến không | **Whether shape shifts over time**: hình dạng đó có ổn định giữa 2012 và 2024 không |
 | Coverage thời gian | Một wave duy nhất | Hai wave (2012 và 2024) |
