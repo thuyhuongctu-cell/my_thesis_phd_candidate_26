@@ -259,9 +259,9 @@ Potential **2027 graduation timeline**:
 
 # 8. Câu hỏi thường được hỏi và câu trả lời chuẩn bị sẵn
 
-## 8.1 GVHD có thể hỏi: "Why so many countries (~36)?"
+## 8.1 GVHD có thể hỏi: "Why so many countries (~49)?"
 
-**Answer**: Tính mới của luận án nằm ở chu1ee9ng minh **inverted-U có boundary conditions**. Mu1ed7i institutional regime cu1ea7n it nhu1ea5t 3 countries đu1ec3 statistical power (Marano 2016 chuu1ea9n: 5+ countries per regime). 36 countries chia 5 regimes → 7 countries/regime trung bình — đu1ee7 statistical power.
+**Answer**: Tính mới của luận án nằm ở chứng minh **inverted-U có boundary conditions**. Mỗi institutional regime cần ít nhất 3 countries để statistical power (Marano 2016 chuẩn: 5+ countries per regime). 49 economies chia 6 regimes (ICRV I–VI) → ~8 economies/regime trung bình — đủ statistical power.
 
 ## 8.2 GVHD có thể hỏi: "Vì sao không dyụng panel?"
 

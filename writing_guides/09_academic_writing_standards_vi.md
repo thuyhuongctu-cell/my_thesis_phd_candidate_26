@@ -22,7 +22,7 @@ Cộng với APA 7th + PRISMA 2020 đã có trong các file trước.
 - **P4**: Vietnam Resource Diversion Trap — *Journal of World Business* (target)
 - **P5**: China temporal evolution 2012–2024 — *Asia Pacific Journal of Management* (target)
 - **P6**: Meta-analysis update — top-tier journal target (TBD)
-- **P7**: Asian capstone (25–36 countries) — *MIR/JIBS* (target)
+- **P7**: Asian capstone (47–49 economies) — *JIBS* (under revision)
 - **P8**: Pacific SIDS Forced Internationalization Penalty — *World Development* (đang submit)
 
 ### B. Luận án tiếng Việt (CTU 5 chương)
