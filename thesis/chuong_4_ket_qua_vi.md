@@ -215,8 +215,7 @@ Mô hình M2 bổ sung FSTS$^2$ không cho kết quả có ý nghĩa thống kê
 
 ### 4.7.3 Giải thích cơ chế Forced Internationalization Penalty
 
-<!-- TODO-THUẬT-NGỮ: "bất lợi hiệu quả từ quốc tế hóa cưỡng bức" — cần xem xét cụm từ tiếng Việt học thuật phù hợp hơn cho FIP trước khi nộp -->
-Luận án đặt tên cho hiện tượng này là **Forced Internationalization Penalty (FIP)** — bất lợi hiệu quả từ quốc tế hóa cưỡng bức — một construct lý thuyết mới chưa có trong literature IB trước đây. Cơ chế giải thích gồm ba yếu tố cấu trúc đặc thù của SIDS: (1) thị trường nội địa quá nhỏ, buộc doanh nghiệp SIDS xuất khẩu không phải vì có lợi thế cạnh tranh mà vì nhu cầu nội địa không đủ để duy trì hoạt động; (2) chi phí hậu cần và tiếp cận thị trường cực cao do vị trí địa lý xa xôi và phân tán; và (3) thiếu hỗ trợ thể chế và năng lực xuất khẩu.
+Luận án đặt tên cho hiện tượng này là **Forced Internationalization Penalty (FIP)** — gánh nặng quốc tế hóa bắt buộc — một construct lý thuyết mới chưa có trong literature IB trước đây. Cơ chế giải thích gồm ba yếu tố cấu trúc đặc thù của SIDS: (1) thị trường nội địa quá nhỏ, buộc doanh nghiệp SIDS xuất khẩu không phải vì có lợi thế cạnh tranh mà vì nhu cầu nội địa không đủ để duy trì hoạt động; (2) chi phí hậu cần và tiếp cận thị trường cực cao do vị trí địa lý xa xôi và phân tán; và (3) thiếu hỗ trợ thể chế và năng lực xuất khẩu.
 
 Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đầu tiên được ghi nhận và đặt tên trong literature internationalization–firm performance cho khu vực Thái Bình Dương.
 

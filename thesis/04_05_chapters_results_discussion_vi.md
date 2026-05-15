@@ -175,10 +175,9 @@ Mô hình M2 bổ sung FSTS$^2$ không cho kết quả có ý nghĩa thống kê
 
 ### 4.6.3 Giải thích cơ chế Forced Internationalization Penalty
 
-<!-- TODO-THUẬT-NGỮ: "bất lợi hiệu quả từ quốc tế hóa cưỡng bức" — cần xem xét cụm từ tiếng Việt học thuật phù hợp hơn cho FIP trước khi nộp -->
-Luận án đặt tên cho hiện tượng này là **Forced Internationalization Penalty (FIP)** — bất lợi hiệu quả từ quốc tế hóa cưỡng bức — một construct lý thuyết mới chưa xuất hiện trong literature IB trước đây. Cơ chế giải thích gồm ba yếu tố cấu trúc đặc thù của SIDS:
+Luận án đặt tên cho hiện tượng này là **Forced Internationalization Penalty (FIP)** — gánh nặng quốc tế hóa bắt buộc — một construct lý thuyết mới chưa xuất hiện trong literature IB trước đây. Cơ chế giải thích gồm ba yếu tố cấu trúc đặc thù của SIDS:
 
-1. **Thị trường nội địa quá nhỏ**: doanh nghiệp SIDS buộc phải xuất khẩu không phải vì có lợi thế cạnh tranh mà vì nhu cầu nội địa không đủ để duy trì hoạt động. Đây là quốc tế hóa cưỡng ép (forced internationalization), không phải quốc tế hóa chiến lược (strategic internationalization).
+1. **Thị trường nội địa quá nhỏ**: doanh nghiệp SIDS buộc phải xuất khẩu không phải vì có lợi thế cạnh tranh mà vì nhu cầu nội địa không đủ để duy trì hoạt động. Đây là quốc tế hóa bắt buộc (forced internationalization), không phải quốc tế hóa chiến lược (strategic internationalization).
 
 2. **Chi phí hậu cần và tiếp cận thị trường cực cao**: vị trí địa lý xa xôi và phân tán của các đảo SIDS tạo ra chi phí vận chuyển, logistics và giao dịch xuyên biên giới không tỷ lệ với giá trị hàng hóa có thể xuất khẩu.
 
@@ -286,9 +285,9 @@ Cần lưu ý thêm một hạn chế quan trọng: trong toàn bộ luận án,
 
 ### 5.3.2 FIP — Khái niệm mới về trường hợp biên cho SIDS
 
-Đóng góp lý thuyết thứ hai là phát hiện và đặt tên cho **Forced Internationalization Penalty (FIP)** như một hiện tượng lý thuyết độc lập, khác biệt về bản chất với "phase 1 downward slope" trong S-curve theory. FIP không phải là giai đoạn đầu của quá trình học hỏi (learning costs) như mô hình Uppsala dự đoán, mà là một trạng thái cấu trúc bất lợi dài hạn: doanh nghiệp SIDS phải xuất khẩu để tồn tại (do thị trường nội địa quá nhỏ) nhưng không có năng lực và môi trường để đạt lợi thế từ xuất khẩu.
+Đóng góp lý thuyết thứ hai là đề xuất và đặt tên cho **Forced Internationalization Penalty (FIP)** — một construct lý thuyết mới chưa được định danh trong literature kinh doanh quốc tế — như một hiện tượng lý thuyết độc lập, khác biệt về bản chất với "phase 1 downward slope" trong S-curve theory. FIP không phải là giai đoạn đầu của quá trình học hỏi (learning costs) như mô hình Uppsala dự đoán, mà là một trạng thái cấu trúc bất lợi dài hạn: doanh nghiệp SIDS phải xuất khẩu để tồn tại (do thị trường nội địa quá nhỏ) nhưng không có năng lực và môi trường để đạt lợi thế từ xuất khẩu.
 
-Khái niệm FIP mở ra hướng nghiên cứu mới về **điều kiện biên của lý thuyết quốc tế hóa**: trong điều kiện nào thì "more internationalization" luôn là "worse performance"? Luận án đề xuất rằng FIP xuất hiện khi ba điều kiện đồng thời: (i) thể chế ICRV ở mức thấp nhất, (ii) quy mô nền kinh tế quá nhỏ để tạo cơ sở nội địa, và (iii) thiếu hỗ trợ năng lực xuất khẩu từ chính sách. Kết hợp ba điều kiện này tạo ra "trap" — bẫy quốc tế hóa cưỡng ép — mà không có turning point để thoát khỏi.
+Khái niệm FIP mở ra hướng nghiên cứu mới về **điều kiện biên của lý thuyết quốc tế hóa**: trong điều kiện nào thì "more internationalization" luôn là "worse performance"? Luận án đề xuất rằng FIP xuất hiện khi ba điều kiện đồng thời: (i) thể chế ICRV ở mức thấp nhất, (ii) quy mô nền kinh tế quá nhỏ để tạo cơ sở nội địa, và (iii) thiếu hỗ trợ năng lực xuất khẩu từ chính sách. Kết hợp ba điều kiện này tạo ra "trap" — bẫy quốc tế hóa bắt buộc — mà không có turning point để thoát khỏi.
 
 ### 5.3.3 ICRV 6-Regime — Phân loại thể chế đặc thù cho khu vực châu Á — Thái Bình Dương
 
@@ -320,11 +319,11 @@ Kết quả thực nghiệm cung cấp **hướng dẫn thực tế** cho nhà q
 
 - **Doanh nghiệp SIDS (Nhóm VI)**: kết quả FIP là cảnh báo nghiêm túc — đẩy mạnh xuất khẩu trong bối cảnh thiếu năng lực và hỗ trợ thể chế không cải thiện mà còn có thể làm xấu đi hiệu quả hoạt động. Doanh nghiệp SIDS nên ưu tiên xây dựng năng lực nội địa và nâng cao TCI trước khi mở rộng xuất khẩu đáng kể.
 
-### 5.4.3 Hàm ý đặc biệt cho SIDS — Tránh Bẫy Quốc Tế Hóa Cưỡng Ép
+### 5.4.3 Hàm ý đặc biệt cho SIDS — Tránh Bẫy Quốc Tế Hóa Bắt Buộc
 
 Phát hiện FIP tại chín quốc gia SIDS Thái Bình Dương có hàm ý chính sách cụ thể và cấp bách. Hiện tại, nhiều chương trình phát triển quốc tế và viện trợ thương mại cho SIDS tập trung vào khuyến khích xuất khẩu như một chiến lược tăng trưởng. Kết quả FIP đặt câu hỏi về hiệu quả của chiến lược này khi thiếu nền tảng năng lực tương ứng.
 
-Thay vào đó, hàm ý chính sách là: **không phải xuất khẩu nhiều hơn, mà phải xuất khẩu tốt hơn**. Cụ thể, ưu tiên nên là: (i) xây dựng hạ tầng logistics và kết nối (giảm chi phí cố định của xuất khẩu); (ii) phát triển năng lực doanh nghiệp thông qua TCI (chứ không chỉ DAI bề mặt); (iii) thiết kế chương trình hỗ trợ xuất khẩu có chọn lọc tập trung vào doanh nghiệp đã có đủ năng lực để hưởng lợi, thay vì khuyến khích đại trà. Nói tóm lại, tránh "bẫy quốc tế hóa cưỡng ép" bằng cách đảm bảo rằng các can thiệp chính sách xây dựng năng lực trước khi thúc đẩy mở rộng thị trường.
+Thay vào đó, hàm ý chính sách là: **không phải xuất khẩu nhiều hơn, mà phải xuất khẩu tốt hơn**. Cụ thể, ưu tiên nên là: (i) xây dựng hạ tầng logistics và kết nối (giảm chi phí cố định của xuất khẩu); (ii) phát triển năng lực doanh nghiệp thông qua TCI (chứ không chỉ DAI bề mặt); (iii) thiết kế chương trình hỗ trợ xuất khẩu có chọn lọc tập trung vào doanh nghiệp đã có đủ năng lực để hưởng lợi, thay vì khuyến khích đại trà. Nói tóm lại, tránh "bẫy quốc tế hóa bắt buộc" bằng cách đảm bảo rằng các can thiệp chính sách xây dựng năng lực trước khi thúc đẩy mở rộng thị trường.
 
 ---
 
@@ -396,7 +395,7 @@ Về thực tiễn, luận án cung cấp cơ sở để nhà hoạch định ch
 
 ### 5.6.4 Lời kết
 
-Luận án này bắt đầu từ câu hỏi đơn giản: quốc tế hóa có cải thiện hiệu quả của doanh nghiệp không? Câu trả lời, sau tám nghiên cứu và phân tích trên hàng chục ngàn doanh nghiệp ở gần năm mươi nền kinh tế, là: **có, thường là như vậy, nhưng không phải lúc nào, và không phải ở mọi nơi**. Giới hạn của lợi ích là có thực, phụ thuộc vào bối cảnh thể chế, và trong trường hợp SIDS, quốc tế hóa cưỡng ép có thể gây ra thiệt hại. Hiểu biết này — rằng quan hệ I→P là quan hệ có điều kiện theo thể chế, không phải quan hệ phổ quát — là đóng góp cốt lõi mà luận án mang lại cho khoa học quản trị kinh doanh quốc tế.
+Luận án này bắt đầu từ câu hỏi đơn giản: quốc tế hóa có cải thiện hiệu quả của doanh nghiệp không? Câu trả lời, sau tám nghiên cứu và phân tích trên hàng chục ngàn doanh nghiệp ở gần năm mươi nền kinh tế, là: **có, thường là như vậy, nhưng không phải lúc nào, và không phải ở mọi nơi**. Giới hạn của lợi ích là có thực, phụ thuộc vào bối cảnh thể chế, và trong trường hợp SIDS, quốc tế hóa bắt buộc có thể gây ra thiệt hại. Hiểu biết này — rằng quan hệ I→P là quan hệ có điều kiện theo thể chế, không phải quan hệ phổ quát — là đóng góp cốt lõi mà luận án mang lại cho khoa học quản trị kinh doanh quốc tế.
 
 ---
 
