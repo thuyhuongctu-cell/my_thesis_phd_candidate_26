@@ -168,8 +168,9 @@ Key empirical anchors (N = 84,910–91,982 firms, 49 economies, 102 country-year
 |-------|--------------|-------|
 | M5 (controls + country-year FE) | **40.0% FSTS** | adjR² = .677 |
 | M11 (full three-way moderation) | **34.6% FSTS** | LM p = .002; DAI×ICRV p = .012 |
-| ICRV: Advanced_innovation | 56.6% | Flatter, later peak |
-| ICRV: Emerging | 43.9% | Steeper curvature |
+| ICRV: Advanced_innovation (Group I) | **~28% FSTS** | Stronger institutions → earlier peak |
+| ICRV: Emerging/Upper-middle (Group III–IV) | **~40–50% FSTS** | Mid-range gradient |
+| ICRV: Frontier/SIDS (Group V–VI) | **~55% FSTS** | Weaker institutions → later peak |
 | P8 Pacific SIDS | monotone negative | No TP — FIP confirmed |
 
 **When citing P7 turning points**, always specify which model and whether country FE is included. The no-FE turning point (M2: 8.1%) is spurious and should not be reported in isolation.
@@ -177,12 +178,16 @@ Key empirical anchors (N = 84,910–91,982 firms, 49 economies, 102 country-year
 ### DAI Moderation Joint F-Test (P7)
 
 The DAI moderation test in P7 uses a **joint F-test** for two interaction terms simultaneously:
-- `fsts_c × DAI_z` (linear × digital)
-- `fsts_c² × DAI_z` (quadratic × digital)
+- `fsts_c × DAI_z` (linear × digital): β = −0.614 (p < .001) — compresses ascending limb
+- `fsts_c² × DAI_z` (quadratic × digital): β = +0.766 (p < .01) — amplifies at high FSTS
 
 Result: F(2, 36132) = 7.38, p = .0006***
 
-**Interpretation:** DAI amplifies the inverted-U relationship — higher digital adoption steepens the curvature. This is a *shape-shifting* moderator (it changes both slope and curvature), not just a level-shifter.
+**DAI level effect (universal):** β = +0.155 (p < .001) — DAI raises the performance floor across all ICRV regimes.
+
+**DAI×ICRV institutional contingency:** p = .012 — DAI's moderating effect is **stronger in weak-institution contexts** (Frontier/SIDS), not only in Advanced. This is the "digital shield" mechanism: DAI compensates for institutional deficiencies rather than amplifying existing advantages. Do NOT write "DAI only significant in Advanced contexts."
+
+**Interpretation:** DAI is a *situational resource*: the level effect is universal; the moderating mechanism (compression vs amplification of the I→P curve) depends on ICRV regime. This is analytically distinct from TCI (foundational capability with universal level + curvature effects).
 
 **Standard sentence form:**
 > "A joint F-test of the two DAI interaction terms (linear and quadratic) confirms that digital adoption significantly moderates the FSTS–labour productivity curve (F = 7.38, p < .001), consistent with digital capability theory (Stallkamp & Schotter, 2021)."
