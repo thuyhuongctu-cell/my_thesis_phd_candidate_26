@@ -13,7 +13,7 @@ P8 đóng vai trò **extreme boundary case** trong **institutional gradient narr
 | High-quality institutions | P3 Singapore | Inverted-U classic, optimum ~71% FSTS | Regime I |
 | Transitional | P4 Vietnam | Resource Diversion Trap, optimum ~37–44% | Regime II |
 | Evolving | P5 China 2012–2024 | Vanishing inverted-U over time | Regime II→I |
-| Multi-country mainland | P7 Asian capstone (25–36 countries) | Heterogeneous w/ moderation | Regimes I–III |
+| Multi-country mainland | P7 Asian capstone (47–49 economies) | Heterogeneous w/ moderation | Regimes I–V |
 | **Extreme institutional voids** | **P8 Pacific SIDS** | **REVERSED slope (Forced Penalty)** | **Regime IV/V** |
 
 → P8 cung cấp **biên ngoài** của institutional spectrum, hoàn thiện buức tranh inverted-U lyà **conditional relationship**, không phải universal law.
@@ -29,7 +29,7 @@ P8 đi vào **Ch.4.4 — Boundary condition test** sau khi trình bày P3-P5 cou
 | P3 Singapore | 1 country, ASEAN benchmark | Inverted-U classic confirmation | $\ln(LP)$ |
 | P4 Vietnam | 1 country, transitional | Resource Diversion Trap | ROS / $\ln(LP)$ |
 | P5 China | 1 country, 2 waves | Temporal evolution of nonlinearity | $\ln(LP)$ |
-| P7 Asian capstone | 25–36 countries mainland | Three-way moderation in mainland | $\ln(LP)$ |
+| P7 Asian capstone | 47–49 economies | Three-way moderation, ICRV gradient | $\ln(LP)$ |
 | **P8 Pacific SIDS** | **8 Pacific countries, 12 waves** | **Forced Penalty as boundary condition** | **$\ln(LP)$ + domestic-sales productivity** |
 
 P8 không trùng với P3–P5 (single mainland Asian) và với P7 (mainland multi-country) vì:
