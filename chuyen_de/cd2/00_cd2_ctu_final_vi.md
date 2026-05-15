@@ -691,8 +691,8 @@ Bảng 2.8. Cấu trúc pool theo nhóm ICRV và mốc khảo sát.
 | III — Trung bình cao | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia | 6 | ~18.000 | ~15 |
 | IV — Đang nổi | Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ | 7 | ~28.000 | ~22 |
 | V — Cận biên | 17 nền kinh tế | 17 | ~35.000 | ~42 |
-| VI — SIDS (TBD & ÂĐD) | Comoros, Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu | 9 | ~5.185 | ~9 |
-| Tổng | | 48 | ~101.185 | 108 |
+| VI — SIDS Thái Bình Dương | Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu | 7 | ~5.185 | ~9 |
+| Tổng | | 47 | ~101.185 | 108 |
 
 Ba thế hệ schema WBES và giao thức hòa hợp: PICS3 (2009–2013): biến FSTS từ d3a/d3b; TCI từ h1/h8/b8; DAI từ c22b only. Standardized (2014–2018): biến tái định dạng nhưng tương thích. BREADY/BEE (2019–2025): schema mở rộng; DAI đầy đủ (c22b + k33 + k38); module nhà quản trị chi tiết hơn.
 
@@ -748,10 +748,10 @@ Bảng 2.11. Phân loại 47 nền kinh tế theo ICRV — đặc điểm và ti
 | II | Tiên tiến tài nguyên dẫn dắt | GNI/người >25.000 PPP + Doanh thu tài nguyên >40% GDP | Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei |
 | III | Trung bình cao | GNI/người 10.000–25.000 PPP; chuyển đổi công nghiệp | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia |
 | IV | Đang nổi | GNI/người 4.000–10.000 PPP; hội nhập GVC đang tăng | Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ |
-| V | Cận biên | GNI/người <4.000 PPP; khoảng trống thể chế đáng kể | Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Iraq, Lebanon, Yemen (16 nước) |
-| VI | SIDS (TBD & ÂĐD) | Đảo nhỏ; GDP <10B; phụ thuộc cao; quốc tế hóa tắt buộc | Comoros, Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu |
+| V | Cận biên | GNI/người <4.000 PPP; khoảng trống thể chế đáng kể | Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Timor-Leste, Iraq, Lebanon, Yemen (17 nước) |
+| VI | SIDS Thái Bình Dương | Đảo nhỏ; GDP <10B; phụ thuộc cao; quốc tế hóa tắt buộc | Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu |
 
-Tổng: 5 + 5 + 6 + 7 + 15 + 9 = 47 nền kinh tế.
+Tổng: 5 + 5 + 6 + 7 + 17 + 7 = 47 nền kinh tế. *(Ghi chú: phân tích P8 dùng bộ lọc WBES SIDS_small gồm 9 nước, bao gồm thêm Comoros và Timor-Leste không có trong khung ICRV lý thuyết.)*
 
 Phân loại dựa trên GNI/người PPP (trung bình 2020–2024, World Bank), Chỉ số Đổi mới Sáng tạo Toàn cầu (WIPO GII), và tỉ trọng doanh thu tài nguyên (IMF Fiscal Monitor). Tất cả 47 nền kinh tế không thay đổi nhóm ICRV trong giai đoạn 2009–2025 (ngưỡng kiểm tra: chuyển nhóm nếu GNI/người vượt ngưỡng ±15% trong ≥3 năm liên tiếp — không có trường hợp nào).
 
@@ -888,7 +888,7 @@ Chuyên đề này đặt nền tảng lý thuyết và thực nghiệm cho năm
 
 **Hướng 2 — P7: Kiểm định H1–H6 toàn pool 25 nền kinh tế đại diện (IJOEM hoặc JWB):** Áp dụng M0–M7 cho mẫu con 25 nền kinh tế đại diện từ tất cả 6 nhóm ICRV — kiểm định toàn bộ H1–H6 đồng thời trên dữ liệu hòa hợp với country và year fixed effects. Trọng tâm là mô hình M7 điều tiết ba chiều (FSTS × TCI × ICRV regime): liệu hiệu ứng nâng mặt bằng TCI (H2) và nguồn lực tình huống DAI (H3) có được gradient hóa theo chế độ thể chế như CDCM dự đoán không? P3 (Nhóm IV, DAI IV null), P4 (Nhóm I, DAI amplification) và P5 (Nhóm III, null moderation) cung cấp neo đậu cross-context cho dự đoán này.
 
-**Hướng 3 — P8: SIDS Thái Bình Dương — gánh nặng tắt buộc (World Development hoặc Pacific Economic Bulletin):** Nghiên cứu chuyên biệt cho 9 nước SIDS (Nhóm VI: Comoros, Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu) kiểm định giả thuyết gánh nặng tắt buộc (Briguglio, 1995; Bertram, 2006): phải quốc tế hóa để sinh tồn dù điều kiện thể chế không hỗ trợ → r(FSTS, logLP) âm cấu trúc. Khoảng trống H1b trong CD2 (điểm uốn < 10% FSTS hoặc hàm giảm đơn điệu ở SIDS) cần bằng chứng cấp doanh nghiệp trực tiếp.
+**Hướng 3 — P8: SIDS Thái Bình Dương — gánh nặng tắt buộc (World Development hoặc Pacific Economic Bulletin):** Nghiên cứu chuyên biệt cho 9 nước SIDS theo bộ lọc WBES (Nhóm VI ICRV: Fiji, Kiribati, PNG, Samoa, Solomon Islands, Tonga, Vanuatu; bổ sung Comoros và Timor-Leste có trong WBES) kiểm định giả thuyết gánh nặng tắt buộc (Briguglio, 1995; Bertram, 2006): phải quốc tế hóa để sinh tồn dù điều kiện thể chế không hỗ trợ → r(FSTS, logLP) âm cấu trúc. Khoảng trống H1b trong CD2 (điểm uốn < 10% FSTS hoặc hàm giảm đơn điệu ở SIDS) cần bằng chứng cấp doanh nghiệp trực tiếp.
 
 **Hướng 4 — CDCM Tier 3–4 extension (MIS Quarterly hoặc Information Systems Research):** Khi schema B-READY (World Bank, 2023–2027) và WBES mới bổ sung thêm mô-đun AI, ERP, và quản trị dữ liệu, CDCM có thể được kiểm định đầy đủ bốn tầng Verhoef et al. (2021). Câu hỏi lý thuyết: liệu DAI Tier 3–4 có chuyển vai trò từ nguồn lực tình huống (chỉ phát huy ở FSTS cao) thành nguồn lực nền tảng (nâng mặt bằng đồng nhất) — và điều kiện chuyển đổi là gì (ngưỡng thể chế, quy mô doanh nghiệp, hay sóng công nghệ)?
 
@@ -1036,13 +1036,14 @@ Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia.
 ICRV Nhóm IV — Đang nổi (7 nền kinh tế):
 Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ.
 
-ICRV Nhóm V — Cận biên (16 nền kinh tế):
-Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Iraq, Lebanon, Yemen.
+ICRV Nhóm V — Cận biên (17 nền kinh tế):
+Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Timor-Leste, Iraq, Lebanon, Yemen.
 
-ICRV Nhóm VI — SIDS (Thái Bình Dương & Ấn Độ Dương), trường hợp biên (9 nền kinh tế):
-Comoros, Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu.
+ICRV Nhóm VI — SIDS Thái Bình Dương, trường hợp biên (7 nền kinh tế):
+Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu.
+*(Ghi chú: phân tích P8 dùng bộ lọc WBES SIDS_small gồm 9 nước, bổ sung thêm Comoros và Timor-Leste.)*
 
-Tổng: 5 + 5 + 6 + 7 + 15 + 9 = 47 nền kinh tế.
+Tổng: 5 + 5 + 6 + 7 + 17 + 7 = 47 nền kinh tế.
 
 ### Phụ lục B — Tóm tắt ba bản thảo đồng hành
 
