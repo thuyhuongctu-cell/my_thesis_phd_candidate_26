@@ -414,6 +414,72 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 
 *Ghi chú: Mẫu phân tích giảm dần từ N = 84.910 (M2) → 38.342 (M3, thêm kiểm soát) → 29.840 (M11, thêm manager + ICRV + three-way). DAI P7 là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với P3 Vietnam (Tier-1 only) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
 
+### 4.5.5 Mô hình cụ thể — Nghiên cứu 8 (Pacific SIDS, WBES 2009–2025)
+
+**Bối cảnh**: 9 nền kinh tế Pacific SIDS (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros), N = 1.469 doanh nghiệp (mẫu phân tích sau lọc missing lnNSLD và CDDXK), trong đó 187 nhà xuất khẩu (12,7%). Phân loại ICRV Regime IV/V (Frontier + Pacific SIDS).
+
+**Ký hiệu tiếng Việt — Nghiên cứu 8**:
+
+| Ký hiệu | Biến WBES | Cách tính | Vai trò |
+|---|---|---|---|
+| lnNSLD | d2, l1 | ln(d2/l1): ln(doanh thu PPP/lao động) | Biến phụ thuộc |
+| CDDXK | d3c | d3c/100 | Cường độ xuất khẩu (FSTS) |
+| CDDXK_c | d3c | CDDXK − trung bình_wave(CDDXK): trung tâm hóa | Biến độc lập chính |
+| NLCN_z | b8, e6 | z-std(mean(b8, e6)): chứng nhận + công nghệ nước ngoài | Năng lực công nghệ (TCI) |
+| CSS_z | c22b | z-std(c22b): website (Tier-1 proxy, static) | Chỉ số số hoá (DAI, Tier-1) |
+| lnLD | l1 | ln(lao động thường trực) | Control (quy mô DN) |
+| TuoiDN | b5 | năm_khảo_sát − b5 | Control (tuổi DN) |
+| SoHuuNN | b2b | tỷ lệ sở hữu nước ngoài (%) | Control (sở hữu) |
+| δ_c | — | country fixed effects | FE quốc gia |
+| λ_t | wave | wave/year fixed effects | FE năm khảo sát |
+
+**Chuỗi mô hình M0–M3**:
+
+M0 (Controls baseline):
+lnNSLD_it = α + γ₁ lnLD_it + γ₂ TuoiDN_it + γ₃ SoHuuNN_it + δ_c + λ_t + ε_it
+
+M1 (Tuyến tính — kiểm định H1 FIP):
+lnNSLD_it = α + β₁ CDDXK_c_it + γ·X_it + δ_c + λ_t + ε_it
+→ **H1 FIP: β₁ < 0, không có điểm uốn** [β₁ = −0,404, SE = 0,188, p = .032*]
+
+M2 (Phi tuyến — kiểm định hình dạng đường cong):
+lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + γ·X_it + δ_c + λ_t + ε_it
+→ β₁ và β₂ đều không có ý nghĩa thống kê → xác nhận quan hệ âm đơn điệu, không có điểm uốn
+
+M3 (+ Năng lực — kiểm định H2 null):
+lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + β₃ NLCN_z_it + β₄ CSS_z_it + γ·X_it + δ_c + λ_t + ε_it
+→ NLCN_z: β = +0,058, p = .495 (n.s.); CSS_z: β = +0,062, p = .402 (n.s.)
+→ **H2: Năng lực doanh nghiệp không điều tiết được quan hệ CDDXK–lnNSLD trong bối cảnh SIDS**
+
+**Robustness**:
+
+M_yearFE (chỉ year FE, không country FE):
+lnNSLD_it = α + β₁ CDDXK_it + γ·X_it + λ_t + ε_it
+→ β₁ = −1,236, SE = 0,269, p < .001*** (tác động mạnh hơn khi không kiểm soát heterogeneity quốc gia)
+
+M_bivariate (không controls):
+lnNSLD_it = α + β₁ CDDXK_it + ε_it
+→ β₁ = −1,596, SE = 0,263, p < .001***
+
+Exporters-only (N = 187 nhà xuất khẩu):
+→ β₁(CDDXK_c) = −0,901, SE = 0,398, p = .027* — xác nhận FIP ngay trong nhóm đang xuất khẩu
+
+**Kết quả chính**:
+
+**Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)** được xác nhận: quan hệ âm đơn điệu giữa cường độ xuất khẩu và năng suất lao động tại 9 nền kinh tế Pacific SIDS, không có điểm uốn trong phạm vi dữ liệu quan sát (CDDXK trung bình = 0,060).
+
+| Mô hình | N | β(CDDXK_c) | SE | p | Kết luận |
+|---|---|---|---|---|---|
+| M1 (country+year FE) | 1.469 | −0,404 | 0,188 | .032* | **FIP xác nhận** |
+| M2 (phi tuyến) | 1.469 | n.s. | — | .265 | Không có điểm uốn |
+| M3 (+ năng lực, N giảm) | 526 | −0,974 | 0,850 | .252 | FIP giữ chiều âm |
+| M_yearFE | 1.469 | −1,236 | 0,269 | <.001*** | Vững |
+| Exporters-only | 187 | −0,901 | 0,398 | .027* | Vững |
+
+*Ghi chú: N giảm trong M3 (1.469 → 526) do missing values của biến NLCN_z và CSS_z. Chiều β(CDDXK_c) nhất quán âm trong tất cả mô hình. Country FE hấp thụ phần lớn phương sai (R² tăng từ 0,511 lên 0,800 khi thêm country FE), phù hợp với bối cảnh heterogeneity cực cao giữa các nền kinh tế SIDS. DAI là Tier-1 proxy (website) — không phải năng lực số động.*
+
+**Đóng góp lý thuyết từ Nghiên cứu 8**: FIP là **boundary condition** của mô hình inverted-U: khi 3 điều kiện tiên quyết cấu trúc đồng thời không được đáp ứng — (1) thị trường nội địa khả thi, (2) chi phí thương mại chấp nhận được, (3) thể chế hỗ trợ trao đổi quốc tế — quan hệ I→P chuyển từ inverted-U thành đường thẳng âm đơn điệu không có điểm uốn. Chuyển dịch lý thuyết từ "institutional moderation of I-P intensity" (Marano et al., 2016) sang "institutional determination of I-P sign".
+
 ---
 
 ### 4.6 Sai số chuẩn
