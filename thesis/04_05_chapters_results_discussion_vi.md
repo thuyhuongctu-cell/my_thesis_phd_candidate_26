@@ -192,7 +192,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | Giả thuyết | Nội dung | Kết quả |
 |---|---|---|
 | H1 (Phi tuyến chữ U ngược) | I→P có dạng inverted-U | Xác nhận tại Singapore, Trung Quốc, Việt Nam, và toàn mẫu P7 (ngoại trừ SIDS) |
-| H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận tại Việt Nam (M6), và toàn mẫu P7 |
+| H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận một phần: TCI nâng mặt bằng năng suất tại tất cả bối cảnh; uốn đường cong xác nhận tại Việt Nam nhưng NS tại toàn mẫu P7 (49 nền kinh tế) |
 | H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (49 nền kinh tế); DAI×ICRV p=.012 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 nhưng không được tổng kết trong chương này do phạm vi |
 | H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận mạnh mẽ: $Q_M = 127{,}77^{***}$ từ meta (P6) và gradient ICRV từ P7 |
