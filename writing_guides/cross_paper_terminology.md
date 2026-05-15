@@ -152,26 +152,25 @@ The CDCM posits that TCI's moderating effect on the FSTS–performance inverted-
 ### Forced Internationalization Penalty (P8)
 
 **Full term:** Forced Internationalization Penalty (FIP)
-**Vietnamese:** Hình phạt quốc tế hóa bắt buộc (FIP)
-**Definition:** In Pacific SIDS economies, export engagement (FSTS > 0) is associated with *lower* labour productivity — β(FSTSc) = −0.357 (p = .069, country+year FE, HC1 SE, N = 1,352). This is not a strategic performance trap (as in the classic overextension hypothesis) but a **structural constraint**: SIDS firms export under compulsion from thin domestic markets and dependence on remittance/aid economies, without the organisational capabilities to convert export exposure into productivity gains.
+**Vietnamese:** gánh nặng quốc tế hóa bắt buộc (FIP)
+**Definition:** In Pacific SIDS economies, export engagement (FSTS > 0) is associated with *lower* labour productivity — β(FSTS_c) = −0.404 (p = .032, country+year FE, HC1 SE, N = 1,469). This is not a strategic performance trap (as in the classic overextension hypothesis) but a **structural constraint**: SIDS firms export under compulsion from thin domestic markets and dependence on remittance/aid economies, without the organisational capabilities to convert export exposure into productivity gains. Defined formally as "the monotone negative effect of internationalization intensity on firm performance in contexts where three structural prerequisites are simultaneously absent: (1) a viable domestic market, (2) manageable trade costs, and (3) functional institutional support for international market access."
 
 **Standard sentence form:**
-> "The Forced Internationalization Penalty — a negative FSTS–labour productivity relationship observed among Pacific SIDS firms — reflects structural dependence on export revenue in resource-scarce, aid-dependent economies (β = −0.357, p = .069), as distinct from the inverted-U overextension threshold documented for larger continental economies."
+> "The Forced Internationalization Penalty (gánh nặng quốc tế hóa bắt buộc) — a monotone negative FSTS–labour productivity relationship observed among Pacific SIDS firms — reflects structural dependence on export revenue in resource-scarce, aid-dependent economies (β = −0.404, p = .032, M1 country+year FE), as distinct from the inverted-U overextension threshold documented for larger continental economies."
 
 **Do NOT conflate** with: the downward arm of the inverted-U in continental economies. That arm still shows positive-then-declining LP (TP ≈ 44–57%); the SIDS penalty shows a negative slope from FSTS = 0.
 
 ### Asian Capstone Turning Points (P7)
 
-Key empirical anchors (country fixed effects, HC1, N ≈ 36,137):
+Key empirical anchors (N = 84,910–91,982 firms, 49 economies, 102 country-year waves):
 
 | Model | Turning Point | Notes |
 |-------|--------------|-------|
-| M6 (controls + country FE) | **52.9% FSTS** | Preferred specification |
-| M7 (+ TCI moderation) | **51.0% FSTS** | TCI shifts TP slightly inward |
-| M8 (+ DAI moderation) | **51.1% FSTS** | DAI moderation F = 7.38, p = .0006*** |
-| ICRV: Emerging | 43.7% | Higher b1 and b2 — steeper curve |
-| ICRV: Lower_mid_transition | 44.5% | Most extreme inverted-U shape |
+| M5 (controls + country-year FE) | **40.0% FSTS** | adjR² = .677 |
+| M11 (full three-way moderation) | **34.6% FSTS** | LM p = .002; DAI×ICRV p = .012 |
 | ICRV: Advanced_innovation | 56.6% | Flatter, later peak |
+| ICRV: Emerging | 43.9% | Steeper curvature |
+| P8 Pacific SIDS | monotone negative | No TP — FIP confirmed |
 
 **When citing P7 turning points**, always specify which model and whether country FE is included. The no-FE turning point (M2: 8.1%) is spurious and should not be reported in isolation.
 
