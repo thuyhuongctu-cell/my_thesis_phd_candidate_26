@@ -180,11 +180,11 @@ $$\text{TP} \approx 36\% \text{ FSTS}$$
 
 ### 4.6.2 Gradient ICRV — Xác nhận H5
 
-Kết quả quan trọng nhất của P7 là xác nhận **gradient ICRV**: turning point tăng dần theo chiều từ nhóm thể chế thấp hơn đến nhóm thể chế cao hơn:
+Kết quả quan trọng nhất của P7 là xác nhận **gradient ICRV**: turning point tăng dần khi chuyển từ nhóm thể chế mạnh hơn sang nhóm thể chế yếu hơn:
 
-$$\text{TP(Advanced Innovation)} > \text{TP(Advanced Resource)} > \text{TP(Upper-middle)} > \text{TP(Emerging/Lower-mid)}$$
+$$\text{TP(Advanced Innovation)} \approx 28\% < \text{TP(Upper-middle)} < \text{TP(Frontier/SIDS)} \approx 55\%$$
 
-Gradient này nhất quán về chiều hướng với dự đoán từ Institutional Theory: môi trường thể chế chất lượng cao giúp doanh nghiệp duy trì tăng trưởng hiệu quả từ quốc tế hóa đến mức độ FSTS cao hơn trước khi chi phí phối hợp và bất định vượt qua lợi ích.
+Gradient này nhất quán với dự đoán của Institutional Theory: trong môi trường thể chế mạnh (Nhóm I), doanh nghiệp hoàn thu chi phí quốc tế hóa tại mức FSTS thấp hơn, tức là đạt đỉnh hiệu quả sớm hơn. Ngược lại, tại các nền kinh tế thể chế yếu (Nhóm V–VI), doanh nghiệp cần mức độ quốc tế hóa cao hơn để bù đắp chi phí giao dịch và bất định thể chế, nên turning point xuất hiện muộn hơn — ở mức FSTS cao hơn.
 
 Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống kê cao, nhất quán với kết quả meta-analysis trong P6 ($Q_M = 127{,}77$). Hai nguồn bằng chứng độc lập — meta-analytic và primary empirical — cùng chỉ ra gradient ICRV, tạo ra independent confirmation có giá trị.
 
