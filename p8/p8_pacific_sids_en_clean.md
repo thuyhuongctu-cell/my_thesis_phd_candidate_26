@@ -92,6 +92,24 @@ We use pooled data from the World Bank Enterprise Survey (WBES), drawing waves c
 
 **Control variables.** Firm size is the natural logarithm of the number of permanent workers (ln_size, from l1). Firm age is survey year minus year of establishment (b5). Foreign ownership (foreign_own_pct) is the percentage of firm equity held by foreign entities (b2b). These are standard controls in enterprise-level I-P research (Hitt et al., 1997; Lu & Beamish, 2004).
 
+*Table 0: Variable definitions and WBES construction.*
+
+| Variable | WBES item(s) | Construction | Role in model |
+|----------|-------------|-------------|---------------|
+| ln_LP | d2, l1 | ln(annual sales PPP / permanent workers); PPP-deflated using World Bank ICP deflators by survey year | Dependent variable — log labor productivity (Goedhuys & Sleuwaegen, 2013) |
+| FSTS | d3c | d3c / 100; proportion of total sales from exports | Internationalization intensity — raw (Haans et al., 2016) |
+| FSTS_c | d3c | FSTS − mean_wave(FSTS); wave-level mean-centred | Internationalization intensity — centred (Contractor et al., 2003) |
+| FSTS_c² | d3c | FSTS_c²; tests curvature (H1) | Quadratic term; β₂ < 0 if inverted-U, NS if FIP monotone (Lind & Mehlum, 2010) |
+| TCI_z | b8, e6 | z-std(mean(b8_binary, e6_binary)); quality cert + foreign tech licence | Technological capability — Tier-1 proxy; direct + moderation test (H2; Lall, 1992) |
+| DAI_z | c22b | z-std(c22b_binary); operational website presence — Tier-1 only | Digital adoption — foundational website proxy; NOT dynamic digital capability (Banalieva & Dhanaraj, 2019; H2) |
+| ln_size | l1 | ln(permanent employees) | Control — firm size (Hitt et al., 1997) |
+| firm_age | b5 | survey_year − b5 | Control — firm age (Lu & Beamish, 2004) |
+| foreign_own_pct | b2b | % equity held by foreign entities | Control — foreign ownership (Marano et al., 2016) |
+| δ_c | a4a/a4b | Country fixed effects (9 SIDS economies) | Absorbs time-invariant country heterogeneity: institutional quality, remoteness, trade costs |
+| λ_t | wave | Wave-year fixed effects (2009, 2015, 2016, 2018, 2019, 2022, 2023, 2024, 2025) | Absorbs common time trends |
+
+*Notes.* b8 and e6 are recoded from WBES response codes (1 = yes, 2 = no) to binary (1/0). c22b is recoded similarly. TCI_z and DAI_z are standardised across the full pooled sample. PPP conversion uses World Bank ICP deflators matched to survey year. FSTS_c is centred within each country-year wave so that turning-point estimates are not confounded by cross-wave composition shifts (Haans et al., 2016). DAI captures only Tier-1 static website presence; Tier-2 (e-payment) and Tier-3 (cloud/ERP) indicators are unavailable for these WBES waves.
+
 ### 3.3 Model Sequence
 
 We estimate four model families to test H1 and H2:
