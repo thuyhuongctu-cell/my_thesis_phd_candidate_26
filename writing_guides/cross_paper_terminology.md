@@ -106,16 +106,18 @@ The thesis distinguishes three export participation concepts:
 | Frontier (low-income) | Nhóm V | Regime V | `Emerging` | Afghanistan; Nepal; Cambodia; Laos; Myanmar; Bhutan; Jordan; Kyrgyz Rep.; etc. |
 | SIDS | Nhóm VI | SIDS (separate) | `SIDS_small` | Pacific SIDS (P8): Fiji, Kiribati, Solomon Islands, Maldives |
 
-**P7 pooled-sample sizes by ICRV group (from p7_pooled_clean.csv, N=102,332):**
+**P7 pooled-sample sizes by ICRV group (finalized — JIBS under revision, N=84,910–91,982):**
 
-| Group | N firms | TP (R, country FE) | FSTS–LP shape |
+| Group | N firms (approx) | TP (finalized Stata) | FSTS–LP shape |
 |-------|---------|-------------------|---------------|
-| Advanced_innovation | 4,708 | 56.6% | Inverted-U |
-| Advanced_resource | 2,269 | — | Inverted-U (p<.10) |
-| Upper_mid | 13,993 | 3.4% (near 0, caution) | Inverted-U |
-| Emerging | 18,201 | 43.7% | Inverted-U*** |
-| Lower_mid_transition | 50,926 | 44.5% | Inverted-U*** |
-| SIDS_small | 1,885 | — | **U-shaped (penalty confirmed)** |
+| Advanced_innovation (Nhóm I) | ~4,700 | **~28%** (LOWEST) | Inverted-U |
+| Advanced_resource (Nhóm II) | ~2,300 | ~33–38% | Inverted-U |
+| Upper_mid (Nhóm III) | ~14,000 | ~38–44% | Inverted-U |
+| Emerging / Lower_mid_transition (Nhóm IV) | ~69,000 | ~44–50% | Inverted-U*** |
+| Frontier (Nhóm V) | ~1,900 | **~50–55%** (HIGHEST) | Inverted-U |
+| SIDS_small (Nhóm VI) | ~1,900 | No TP | **Monotone negative (FIP)** |
+
+*Note: Old R-script estimates (wstrict filter, N=36,137) are superseded by finalized manuscript results (Stata, N=84,910 M2). Group-level TPs from M10 ICRV-moderation model.*
 
 **Full term:** Institutional Context Regime Variation (ICRV)
 **Vietnamese:** Biến thể chế độ bối cảnh thể chế (ICRV)
@@ -126,7 +128,7 @@ The thesis distinguishes three export participation concepts:
 
 **Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (`Lower_mid_transition`; Vietnam = Group 4 of 6), **P4→Nhóm I** (`Advanced_innovation`; Singapore), **P5→Nhóm III** (`Upper_mid`; China), **P7→all 6 groups (cross-regime)**, **P8→Nhóm VI** (`SIDS_small`). Note: "Frontier V" is NOT a valid dissertation-internal label for Vietnam; correct label is "Nhóm IV" or "ICRV Group 4 (Lower_mid_transition)".
 
-**Institutional gradient in P7 results (key cross-paper narrative):** The ICRV gradient is empirically confirmed in P7 — Emerging and Lower_mid_transition groups show the steepest inverted-U (highest b1, lowest TP ~44-45%), while Advanced_innovation shows a higher TP (~57%) and flatter curve. SIDS_small is the exception: U-shaped (Forced Penalty), confirming the boundary condition hypothesis.
+**Institutional gradient in P7 results (key cross-paper narrative — CRITICAL direction):** The ICRV gradient is empirically confirmed in P7 — Advanced_innovation shows the **LOWEST** TP (~28%) while Frontier shows the **HIGHEST** TP (~55%). The gradient is monotone: as institutional quality decreases (Advanced → Frontier), the turning point increases. This means in stronger-institution contexts, firms reach performance peak at lower export intensity; in weaker-institution contexts, they need higher FSTS to overcome transaction costs before reaching peak performance. SIDS_small (Nhóm VI) is the exception: FIP (Forced Internationalization Penalty) — monotone negative, no turning point. DAI×ICRV (p=.012): digital adoption delivers stronger per-unit returns in weaker institutional environments ("digital shield").
 
 ---
 
