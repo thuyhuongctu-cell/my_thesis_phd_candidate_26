@@ -751,7 +751,7 @@ Bảng 2.11. Phân loại 47 nền kinh tế theo ICRV — đặc điểm và ti
 | V | Cận biên | GNI/người <4.000 PPP; khoảng trống thể chế đáng kể | Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Iraq, Lebanon, Yemen (16 nước) |
 | VI | SIDS (TBD & ÂĐD) | Đảo nhỏ; GDP <10B; phụ thuộc cao; quốc tế hóa tắt buộc | Comoros, Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu |
 
-Tổng: 5 + 5 + 6 + 7 + 16 + 9 = 48 nền kinh tế.
+Tổng: 5 + 5 + 6 + 7 + 15 + 9 = 47 nền kinh tế.
 
 Phân loại dựa trên GNI/người PPP (trung bình 2020–2024, World Bank), Chỉ số Đổi mới Sáng tạo Toàn cầu (WIPO GII), và tỉ trọng doanh thu tài nguyên (IMF Fiscal Monitor). Tất cả 47 nền kinh tế không thay đổi nhóm ICRV trong giai đoạn 2009–2025 (ngưỡng kiểm tra: chuyển nhóm nếu GNI/người vượt ngưỡng ±15% trong ≥3 năm liên tiếp — không có trường hợp nào).
 
@@ -1042,7 +1042,7 @@ Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekis
 ICRV Nhóm VI — SIDS (Thái Bình Dương & Ấn Độ Dương), trường hợp biên (9 nền kinh tế):
 Comoros, Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu.
 
-Tổng: 5 + 5 + 6 + 7 + 16 + 9 = 48 nền kinh tế.
+Tổng: 5 + 5 + 6 + 7 + 15 + 9 = 47 nền kinh tế.
 
 ### Phụ lục B — Tóm tắt ba bản thảo đồng hành
 
