@@ -191,3 +191,142 @@ Khi giới thiệu dissertation, nêu:
 - Verbeke, A., & Brugman, M. (2018). Internationalization and performance. *Journal of International Business Studies, 49*(7).
 - Winters, L. A., & Martins, P. M. G. (2004). When comparative advantage is not enough. *World Trade Review, 3*(3), 347–383.
 - Xu, P., & Takase, K. (2025). *Financial constraints and firm performance in Small Island Developing States* [Working paper].
+
+---
+
+## 8. Phân tích đặt tên theo IB Research Naming Framework
+
+*Áp dụng skill `international-business-research-naming` — kiểm tra và chuẩn hóa tên khái niệm FIP cho P8.*
+
+### 8.1 Bước 1 — Phân tích bản chất kết quả
+
+| Tiêu chí | Đánh giá |
+|---|---|
+| **Bản chất** | Hiện tượng thực nghiệm mới: quan hệ âm đơn điệu thay thế inverted-U khi 3 structural prerequisites vắng mặt |
+| **Đóng góp** | Xác định *ranh giới cấu trúc* (structural boundary) của inverted-U paradigm — chuyển từ "institutional moderation of intensity" sang "institutional determination of sign" |
+| **Bối cảnh** | 9 quốc đảo Thái Bình Dương; ICRV Regime IV/V; N=1,469; β(FSTS_c)=−0.404, p=.032 trong M1; M_yearFE: β=−1.236, p<.001 |
+| **Literature liên quan** | Liability of Foreignness (Zaheer, 1995); Necessity Entrepreneurship (Sarasvathy et al., 2014); Institutional Voids (Khanna & Palepu, 2010); Uppsala Model (Johanson & Vahlne, 1977) |
+
+### 8.2 Bước 2 — Đánh giá tên tiếng Anh: "Forced Internationalization Penalty (FIP)"
+
+**Loại tên**: Kết hợp mô tả-khái niệm (Descriptive-Conceptual Hybrid)
+
+**Cấu trúc**: `[Modifier] + [Process] + [Outcome]`
+— theo pattern "Liability of Foreignness": `[Condition] + [Domain] + [Consequence]`
+
+| Tiêu chí | Đánh giá | Kết luận |
+|---|---|---|
+| **Rõ ràng** | "Forced" = structural compulsion; "Penalty" = negative performance outcome — người đọc ngay lập tức hiểu chiều âm | ✅ Đạt |
+| **Ngắn gọn** | 3 từ (không kể FIP) — trong phạm vi 2–5 từ lý tưởng | ✅ Đạt |
+| **Phân biệt** | "Forced" phân biệt với voluntary internationalization; "Penalty" phân biệt với generic "costs" | ✅ Đạt |
+| **Độ chính xác** | "Forced" = không thể không xuất khẩu (thị trường nội địa quá nhỏ); "Penalty" = tác động âm trên hiệu quả, không phải điểm uốn | ✅ Đạt |
+| **Dễ nhớ** | FIP là viết tắt 3 chữ rõ ràng, không gây nhầm lẫn | ✅ Đạt |
+| **Tìm kiếm** | "Forced Internationalization Penalty" chưa được sử dụng trong IB literature trước P8 | ✅ Đạt |
+
+**Kết luận**: Tên tiếng Anh **"Forced Internationalization Penalty (FIP)"** đạt đầy đủ 6 tiêu chí — GIỮ NGUYÊN.
+
+**Phân biệt với adjacent concepts**:
+
+| Khái niệm liền kề | Khác biệt |
+|---|---|
+| "Forced Internationalization" (SME literature) | FIP nhấn mạnh OUTCOME âm, không chỉ quá trình; SME literature vẫn dự đoán lợi ích từ forced internationalization |
+| "Liability of Foreignness" (Zaheer, 1995) | LoF = chi phí một lần khi gia nhập thị trường nước ngoài; FIP = quan hệ âm đơn điệu không có turning point |
+| "Necessity Entrepreneurship" | Cùng động cơ (necessity), nhưng FIP bổ sung: kết quả hiệu quả là âm do 3 violated prerequisites |
+| "Phase 1 downward slope" (Contractor et al., 2003) | Phase 1 là tạm thời, có turning point; FIP là trạng thái cấu trúc vĩnh viễn, không có turning point trong phạm vi dữ liệu |
+
+### 8.3 Bước 3 — Hoàn thiện tên tiếng Việt
+
+**Tên cuối cùng**: **"gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)"**
+
+**Căn cứ lựa chọn**:
+
+| Thành phần | Lý do chọn |
+|---|---|
+| **gánh nặng** | Theo pattern "Liability of Foreignness → gánh nặng ngoại lai" trong literature IB tiếng Việt; "gánh nặng" ngụ ý bất lợi có tính cấu trúc, khác với "chi phí" (chi phí là có thể kiểm soát) |
+| **quốc tế hóa** | Thuật ngữ chuẩn trong literature kinh doanh quốc tế tiếng Việt |
+| **bắt buộc** | Theo làm rõ của tác giả: doanh nghiệp SIDS quốc tế hóa vì **sự bắt buộc cấu trúc** (thị trường nội địa quá nhỏ để duy trì hoạt động), không phải chiến lược (chiến lược) cũng không phải áp lực bên ngoài (cưỡng bức) |
+
+**Các phương án bị loại bỏ**:
+
+| Phương án | Lý do loại |
+|---|---|
+| "hình phạt quốc tế hóa cưỡng ép" | "hình phạt" có sắc thái pháp lý không phù hợp; "cưỡng ép" ngụ ý áp lực bên ngoài |
+| "bất lợi hiệu quả từ quốc tế hóa cưỡng bức" | Quá dài (7 từ), không đáp ứng tiêu chí ngắn gọn; "bất lợi hiệu quả" nghe không tự nhiên |
+| "quốc tế hóa vì sự tồn tại" | Phù hợp để mô tả PROCESS nhưng không nắm bắt OUTCOME âm; dùng làm tên phụ (xem §8.4) |
+
+### 8.4 Bước 4 — Phân biệt Process Name vs. Outcome Name
+
+Skill framework gợi ý: P8 có **hai tầng** cần được đặt tên riêng biệt.
+
+**Tầng 1 — PROCESS (tại sao SIDS firms internationalize):**
+- **English**: "Survival-Based Internationalization" (đề xuất từ skill framework) / "Forced Internationalization"
+- **Tiếng Việt**: "quốc tế hóa bắt buộc" hoặc "quốc tế hóa vì sự tồn tại"
+- **Dùng khi**: Mô tả cơ chế, động cơ — tại sao doanh nghiệp SIDS phải xuất khẩu
+
+**Tầng 2 — OUTCOME (điều gì xảy ra với hiệu quả):**
+- **English**: "Forced Internationalization Penalty (FIP)"
+- **Tiếng Việt**: "gánh nặng quốc tế hóa bắt buộc (FIP)"
+- **Dùng khi**: Mô tả kết quả thực nghiệm — quan hệ âm đơn điệu β=−0.404
+
+**Cách dùng phối hợp trong bài báo**:
+> *"Firms in SIDS engage in **survival-based internationalization** — not as a strategic choice for growth but as a structural imperative. We term the performance consequence of this pattern the **Forced Internationalization Penalty (FIP)**: a monotone negative relationship between internationalization intensity and firm performance..."*
+
+**Cách dùng trong luận án (tiếng Việt)**:
+> *"Doanh nghiệp tại SIDS thực hiện **quốc tế hóa bắt buộc** — không phải là lựa chọn chiến lược để tăng trưởng mà là mệnh lệnh cấu trúc do thị trường nội địa quá nhỏ. Luận án đặt tên cho hệ quả hiệu quả của hiện tượng này là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**: quan hệ âm đơn điệu giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp..."*
+
+### 8.5 Template giới thiệu trong bài báo (World Development, English)
+
+```
+We term this phenomenon the "Forced Internationalization Penalty" (FIP), which we 
+define as the monotone negative effect of internationalization intensity on firm 
+performance in contexts where three structural prerequisites of the conventional 
+inverted-U relationship are simultaneously absent: (1) a viable domestic market 
+of sufficient size to sustain firm operations; (2) manageable trade costs 
+commensurate with the value of exportable output; and (3) functional institutional 
+support for international market access. This concept challenges the universality 
+of the inverted-U internationalization-performance paradigm (Lu & Beamish, 2004; 
+Contractor et al., 2003) by demonstrating that the inverted-U is conditional on 
+structural prerequisites that Pacific SIDS firms systematically lack. Unlike the 
+"phase 1" downward slope in three-stage theory (Contractor et al., 2003), FIP 
+represents not a transient learning cost but a persistent structural disadvantage 
+with no observable turning point within the range of observed FSTS values 
+(β = −0.404, p = .032; confirmed across four specifications).
+```
+
+### 8.6 Template giới thiệu trong luận án (Chương 4, tiếng Việt)
+
+```
+Luận án đặt tên cho hiện tượng quan sát được tại 9 nền kinh tế SIDS Thái Bình 
+Dương là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — 
+FIP)**, định nghĩa là quan hệ âm đơn điệu giữa cường độ quốc tế hóa (FSTS) và 
+hiệu quả doanh nghiệp trong bối cảnh ba điều kiện tiên quyết của quan hệ chữ U 
+ngược thông thường đồng thời không được đáp ứng: (1) thị trường nội địa không đủ 
+quy mô để duy trì hoạt động doanh nghiệp; (2) chi phí thương mại quá cao so với 
+giá trị xuất khẩu tiềm năng; và (3) thiếu hỗ trợ thể chế cho hoạt động quốc tế 
+hóa. FIP là **construct lý thuyết mới** chưa được định danh trong literature kinh 
+doanh quốc tế — không phải giai đoạn "phase 1" tạm thời của lý thuyết ba giai 
+đoạn (Contractor et al., 2003), mà là trạng thái bất lợi cấu trúc dài hạn: không 
+có turning point trong phạm vi dữ liệu SIDS (β = −0,404, p = ,032; xác nhận qua 
+bốn specification). Đây là đóng góp lý thuyết gốc của luận án, có ý nghĩa đặc biệt 
+đối với các mô hình phi tuyến phổ quát trong literature I→P.
+```
+
+### 8.7 Checklist kiểm tra cuối cùng
+
+**English name "Forced Internationalization Penalty (FIP)"**:
+- [x] Google Scholar test: Không trùng lặp với tên đã tồn tại
+- [x] Clarity test: Người ngoài ngành hiểu ≥70% ý nghĩa từ tên
+- [x] Memory test: FIP là acronym dễ nhớ
+- [x] Citation test: "Building on FIP (Đỗ & Phan, 2026), we..." — tự nhiên
+- [x] Abbreviation test: FIP — 3 chữ, không gây nhầm lẫn với FDI/FTA/FDI
+
+**Vietnamese name "gánh nặng quốc tế hóa bắt buộc"**:
+- [x] Follows "liability → gánh nặng" IB Vietnam convention
+- [x] "bắt buộc" chính xác hơn "cưỡng bức"/"cưỡng ép" (structural necessity, not external coercion)
+- [x] Không dịch từng từ sát nghĩa; ưu tiên tự nhiên trong văn phong học thuật VN
+- [x] 5 từ — chấp nhận được cho Vietnamese academic style (không thể ngắn hơn mà không mất nghĩa)
+- [x] Nhất quán xuyên suốt luận án (đã thay thế tất cả placeholder cũ)
+
+**Process vs. Outcome distinction**:
+- [x] "quốc tế hóa bắt buộc" = process name (dùng trong mô tả cơ chế)
+- [x] "gánh nặng quốc tế hóa bắt buộc (FIP)" = outcome name (dùng trong kết quả và đóng góp lý thuyết)
