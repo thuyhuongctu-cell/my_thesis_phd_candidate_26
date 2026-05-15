@@ -49,7 +49,7 @@ Phân tích trên mẫu doanh nghiệp Singapore từ dữ liệu WBES với $N 
 
 Mô hình M5 bổ sung tương tác $FSTS \times DAI$ (bao gồm cả Tier-1 và Tier-2 của chỉ số DAI) cho thấy hiệu ứng khuếch đại (amplification) tại mức FSTS cao: hệ số tương tác $FSTS^2 \times DAI < 0$ và có ý nghĩa thống kê ($p < {,}05$). Cụ thể, ở mức độ quốc tế hóa cao, doanh nghiệp Singapore có năng lực chấp nhận số (digital adoption) cao hơn duy trì hiệu quả tốt hơn so với doanh nghiệp có mức DAI thấp hơn, cho thấy DAI đóng vai trò nguồn lực bổ trợ (situational resource) làm chậm đà suy giảm phía bên phải của đường phi tuyến.
 
-Kết quả này có ý nghĩa lý thuyết quan trọng: ở bối cảnh Advanced Innovation (Nhóm I), nơi cơ sở hạ tầng số đã phát triển đầy đủ, DAI có thể phát huy vai trò điều tiết đáng kể trong quá trình quốc tế hóa. Điều này trái ngược với kết quả trong các bối cảnh ICRV thấp hơn (xem mục 4.4 và 4.5), nơi DAI không có ý nghĩa thống kê.
+Kết quả này có ý nghĩa lý thuyết quan trọng: ở bối cảnh Advanced Innovation (Nhóm I), nơi cơ sở hạ tầng số đã phát triển đầy đủ, DAI phát huy vai trò điều tiết đáng kể trong quá trình quốc tế hóa. Kết quả P7 (49 nền kinh tế) sau đó xác nhận DAI có level effect phổ quát (β=+0,155***) và cơ chế "digital shield" — DAI×ICRV p=.012, mạnh nhất tại các bối cảnh thể chế yếu (Frontier/SIDS), không chỉ Advanced.
 
 ### 4.2.3 Giới hạn suy luận và cảnh báo thống kê
 
@@ -193,7 +193,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 |---|---|---|
 | H1 (Phi tuyến chữ U ngược) | I→P có dạng inverted-U | Xác nhận tại Singapore, Trung Quốc, Việt Nam, và toàn mẫu P7 (ngoại trừ SIDS) |
 | H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận tại Việt Nam (M6), và toàn mẫu P7 |
-| H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận một phần: chỉ có ý nghĩa tại Singapore và nhóm Advanced trong P7; null tại Việt Nam (Tier-1 only) và Frontier/SIDS |
+| H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (49 nền kinh tế); DAI×ICRV p=.012 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 nhưng không được tổng kết trong chương này do phạm vi |
 | H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận mạnh mẽ: $Q_M = 127{,}77^{***}$ từ meta (P6) và gradient ICRV từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |

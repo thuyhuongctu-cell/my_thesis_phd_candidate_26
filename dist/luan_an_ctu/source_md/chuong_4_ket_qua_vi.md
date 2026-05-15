@@ -174,9 +174,9 @@ Mô hình M5 với tương tác $FSTS \times DAI$ (chỉ bao gồm Tier-1 DAI do
 
 ### 4.6.1 Mẫu và mô hình chính
 
-Phân tích P7 là kiểm định quy mô lớn nhất của luận án, kết hợp tất cả các bối cảnh ICRV trong khu vực châu Á với **$N = 36.137$ quan sát** (sau khi áp dụng bộ lọc nghiêm ngặt — "wstrict filter" loại bỏ các quan sát có missing data hoặc ngoại lệ cực đoan về FSTS). Mô hình M6 với country fixed effects và year fixed effects — cấu hình mạnh nhất về kiểm soát phương sai không quan sát — ước lượng turning point tổng thể (pooled):
+Phân tích P7 là kiểm định quy mô lớn nhất của luận án, kết hợp tất cả các bối cảnh ICRV trong khu vực châu Á và Thái Bình Dương với **$N = 84.910$–$91.982$ doanh nghiệp · 49 nền kinh tế · 102 country-year waves**. Mô hình M5 với country-year fixed effects — cấu hình mạnh nhất về kiểm soát phương sai không quan sát — ước lượng turning point tổng thể (pooled):
 
-$$\text{TP} = 52{,}7\% \text{ FSTS}$$
+$$\text{TP} \approx 36\% \text{ FSTS}$$
 
 ### 4.6.2 Gradient ICRV — Xác nhận H5
 
@@ -227,7 +227,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 |---|---|---|
 | H1 (Phi tuyến chữ U ngược) | I→P có dạng inverted-U | Xác nhận tại Singapore, Trung Quốc, Việt Nam, và toàn mẫu P7 (ngoại trừ SIDS) |
 | H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận tại Việt Nam (M6), và toàn mẫu P7 |
-| H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận một phần: chỉ có ý nghĩa tại Singapore và nhóm Advanced trong P7; null tại Việt Nam và Frontier/SIDS |
+| H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (49 nền kinh tế); DAI×ICRV p=.012 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 với top manager nữ β = +0,185*** |
 | H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận mạnh mẽ: $Q_M = 127{,}77^{***}$ từ meta (P6) và gradient ICRV từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |

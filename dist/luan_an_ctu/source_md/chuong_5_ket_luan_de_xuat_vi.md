@@ -16,7 +16,7 @@ Chương 5 tổng hợp và diễn giải kết quả từ Chương 4 trong ánh
 
 ### 5.1.1 ICRV Gradient — Xác nhận H5 và tầng thể chế của CDCM
 
-Phát hiện nhất quán nhất và có ý nghĩa lý thuyết rộng nhất của luận án là **gradient ICRV (Biến thiên chế độ bối cảnh thể chế — Institutional Context Regime Variation)**: cùng một mức độ quốc tế hóa (FSTS) mang lại hiệu quả rất khác nhau tùy thuộc vào chế độ thể chế mà doanh nghiệp hoạt động. Bằng chứng từ hai nguồn độc lập — phân tích meta-analytic (P6, $Q_M = 127{,}77$, $p < {,}001$) và phân tích dữ liệu sơ cấp toàn mẫu (P7, $N = 36.137$) — đều chỉ đến cùng một kết luận: điểm uốn (turning point) của quan hệ I→P tăng dần theo chiều từ SIDS/Frontier lên Emerging, Upper-middle, Advanced Resource, và Advanced Innovation.
+Phát hiện nhất quán nhất và có ý nghĩa lý thuyết rộng nhất của luận án là **gradient ICRV (Biến thiên chế độ bối cảnh thể chế — Institutional Context Regime Variation)**: cùng một mức độ quốc tế hóa (FSTS) mang lại hiệu quả rất khác nhau tùy thuộc vào chế độ thể chế mà doanh nghiệp hoạt động. Bằng chứng từ hai nguồn độc lập — phân tích meta-analytic (P6, $Q_M = 127{,}77$, $p < {,}001$) và phân tích dữ liệu sơ cấp toàn mẫu (P7, $N = 84.910$–$91.982$, 49 nền kinh tế) — đều chỉ đến cùng một kết luận: điểm uốn (turning point) của quan hệ I→P **giảm dần** theo chiều từ SIDS/Frontier (~55% FSTS) xuống Emerging, Upper-middle, Advanced Resource, và Advanced Innovation (~28% FSTS).
 
 Kết quả này xác nhận H5 và tầng thể chế của khung lý thuyết CDCM theo một cách thuyết phục nhất: không phải chỉ một moderator đơn lẻ mà là **cả một chế độ thể chế** — được vận hành hóa thành sáu sub-regime ICRV — xác định điều kiện biên cho quan hệ I→P. Institutional Theory của North (1990) và Khanna và Palepu (2010) dự đoán rằng thể chế định hình chi phí giao dịch và cấu trúc khuyến khích; kết quả ICRV gradient là biểu hiện thực nghiệm của cơ chế này ở quy mô 47 nền kinh tế châu Á và Thái Bình Dương.
 
@@ -182,7 +182,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P6** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 235$, $r = 0{,}075$, $I^2 = 62{,}5\%$ (54,1% tầng 2 + 8,4% tầng 3), ICRV moderation $Q_M = 127{,}77^{***}$.
 
-- **P7** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): kiểm định toàn mẫu châu Á $N = 36.137$, TP = 52,7%, gradient ICRV xác nhận, TCI dương và có ý nghĩa, DAI chỉ có ý nghĩa trong Advanced.
+- **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu $N=84.910$–$91.982$ doanh nghiệp · 49 nền kinh tế · 102 country-year waves, TP≈36%, gradient ICRV **giảm** từ SIDS/Frontier (~55%) xuống Advanced Innovation (~28%), TCI level effect β≈+0,344**, DAI level effect phổ quát β=+0,155*** + DAI×ICRV p=.012 (digital shield mạnh nhất khi thể chế yếu).
 
 - **P8** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích SIDS Thái Bình Dương, $N = 1.469$, $\beta(\text{FSTS}_c) = -0{,}404^{*}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
 
