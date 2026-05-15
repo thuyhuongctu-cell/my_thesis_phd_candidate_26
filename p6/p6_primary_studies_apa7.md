@@ -152,8 +152,8 @@
 **[S-61]** Graves, C., & Shan, Y. G. (2014). An empirical analysis of the effect of internationalization on the performance of unlisted family and nonfamily firms in Australia. *Family Business Review, 27*(2), 142–160. https://doi.org/10.1177/0894486513510534
 *Effect: r = −0.070, n = 4,217* | [scite](https://scite.ai/reports/10.1177/0894486513510534)
 
-**[S-62]** ⚠️ **[CITATION SAI — CHƯA XÁC ĐỊNH]** Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014). Culture and entrepreneurial orientation: A multi-country study. *International Entrepreneurship and Management Journal, 10*(1), 1–15. https://doi.org/10.1007/s11365-011-0218-8 [*Citation này SAI — không phải bài I→P. Đã kiểm tra Cho & Lee (2018) Asian Business & Management — không khớp (r=−0.029, n=232 ≠ r=0.383, n=279). Cần tìm nghiên cứu Korean firms với r=0.383, n=279 từ MetaEssentials Excel.*]
-*Effect: r = 0.383, n = 279 | Nguồn: MetaEssentials Excel (chưa xác minh được paper gốc)*
+**[S-62]** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014). A synergy effect of internationalization & firm size on performance: US hotel industry. *International Journal of Contemporary Hospitality Management, 26*(1), 35–49. https://doi.org/10.1108/IJCHM-05-2012-0073
+*Effect: r = 0.383, n = 279 | Country: USA (ICRV=I) | Industry: Hotels | IV: foreign hotel assets/total hotel assets → FP: Tobin's Q (MKT) | Panel 1990–2010 | ✅ Xác minh từ bảng trích xuất trong literature review docx (15/05/2026)*
 
 **[S-63]** Zhou, L., & Wu, A. (2014). Earliness of internationalization and performance outcomes: Exploring the moderating effects of venture age and international commitment. *Journal of World Business, 49*(1), 132–142. https://doi.org/10.1016/j.jwb.2013.04.003
 *Effect: r = 0.150, n = 376* | [scite](https://scite.ai/reports/10.1016/j.jwb.2013.04.003)
@@ -269,7 +269,7 @@ Studies marked [*unverified — confirm from WoS*] were not matched by CrossRef 
 
 **Summary:**
 - Studies with confirmed DOIs (from training knowledge): 50/62
-- Studies requiring manual WoS/Scopus verification: 8/62 (S-13, S-25, S-28, S-31, S-62, S-69, S-73, S-93, S-102)
+- Studies requiring manual WoS/Scopus verification: 7/62 (S-13, S-25, S-28, S-31, S-69, S-73, S-93, S-102) [S-62 ĐÃ XÁC MINH]
 - CrossRef live API confirmations: 0/62 (network not available in sandbox environment)
 
 **Verification command (run outside sandbox):**
@@ -360,9 +360,9 @@ r = √(F / (F + df_resid))       # nếu chỉ có F-statistic (linear term)
 ```
 Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170–176). Sau khi trích xuất, kiểm tra bằng `metafor::escalc()` với measure="COR" hoặc measure="ZPCOR" tùy thiết kế.
 
-**Ghi chú S-62 (cần xác minh — CHƯA GIẢI QUYẾT):** Citation hiện tại `Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014)` về "Culture and entrepreneurial orientation" (IEMJ) **KHÔNG ĐÚNG** — không phải bài I→P. Đã kiểm tra ứng viên Cho & Lee (2018) "Internationalization and performance of Korean SMEs: the moderating role of competitive strategy" (*Asian Business & Management*, 17(2), 140–166; DOI: 10.1057/s41291-017-0035-9) — **KHÔNG KHỚP**: paper này có r(FSTS,ROA)=−0.029, n=232 firms ≠ S-62 target r=0.383, n=279. Cần tiếp tục tìm từ MetaEssentials Excel. Ứng viên thay thế: Lee, S., Kwak, W., & Tsai, Y. (2014) hoặc bài về Korean firms trong *Journal of East-West Business* hoặc *Asian Pacific Journal of Management*.
+**Ghi chú S-62 (ĐÃ GIẢI QUYẾT — 15/05/2026):** Citation đúng là Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49 — nghiên cứu US hotel industry, n=279 firms panel 1990–2010, FP=Tobin's Q (MKT), DOI=foreign hotel assets/total hotel assets. Xác minh từ bảng trích xuất hiệu quả trong literature review docx. forest_data.csv đã cập nhật: fp_type ACC → MKT.
 
-**Lưu ý bổ sung:** Cho & Lee (2018) là bài I→P hợp lệ (FSTS→ROA, Korean SMEs, panel 2003–2013) với r=−0.029 (ns, Table 4), n=232 firms. Có thể thêm vào meta-analysis như một entry MỚI (không phải S-62) nếu muốn mở rộng k.
+**Lưu ý bổ sung:** Cho & Lee (2018) là bài I→P riêng biệt (FSTS→ROA, Korean SMEs, panel 2003–2013) với r=−0.029 (ns), n=232 firms — đã gộp vào forest_data.csv như entry S238.
 
 ---
 
@@ -487,6 +487,6 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 - Phần 3: 16 ứng viên (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 → **S238** (r=−0.029); 15 còn lại cần PDF
 - Phần 4: 9 ứng viên (S-138 → S-139 + 7 loại trừ) — S-138, S-139 cần kiểm tra PDF
 - forest_data.csv: **288 data rows** (S238 mới nhất; Cho & Lee 2018, Korea, FSTS, r=−0.029)
-- 🔴 **CÒN LẠI S-62:** Citation sai (Lee, S.M. Lim & Pathak 2014 về entrepreneurial orientation ≠ bài I→P). Cần tìm "Lee et al. 2014, Korean SME, r=0.383, n=279, EXP→ACC" từ MetaEssentials Excel gốc.
+- ✅ **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC → MKT.
 
-*File v2.6 — 15/05/2026. Cập nhật: Thêm Phần 4 (studies 71-80 speed/born-global); sửa PRISMA section trong p6_meta_manuscript_en.md (loại M-AIDA, số giả); Nhóm B: 7 loại trừ; S-138/S-139 cần PDF.*
+*File v2.7 — 15/05/2026. Cập nhật: Giải quyết S-62 (Lee et al. 2014 = US hotel industry IJCHM); sửa forest_data.csv fp_type S62 ACC→MKT; cập nhật ghi chú xác minh.*
