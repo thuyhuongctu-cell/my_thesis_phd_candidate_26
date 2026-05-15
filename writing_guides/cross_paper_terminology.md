@@ -160,7 +160,7 @@ The CDCM posits that TCI's moderating effect on the FSTS–performance inverted-
 **Standard sentence form:**
 > "The Forced Internationalization Penalty (gánh nặng quốc tế hóa bắt buộc) — a monotone negative FSTS–labour productivity relationship observed among Pacific SIDS firms — reflects structural dependence on export revenue in resource-scarce, aid-dependent economies (β = −0.404, p = .032, M1 country+year FE), as distinct from the inverted-U overextension threshold documented for larger continental economies."
 
-**Do NOT conflate** with: the downward arm of the inverted-U in continental economies. That arm still shows positive-then-declining LP (TP ≈ 44–57%); the SIDS penalty shows a negative slope from FSTS = 0.
+**Do NOT conflate** with: the downward arm of the inverted-U in continental economies. That arm still shows positive-then-declining LP (TP ≈ 28–55%, varying by ICRV regime — Advanced ~28%, Frontier ~55%); the SIDS penalty shows a negative slope from FSTS = 0.
 
 ### Asian Capstone Turning Points (P7)
 
