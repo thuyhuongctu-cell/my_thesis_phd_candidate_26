@@ -74,6 +74,12 @@ Khung này vận hành ở bốn tầng — institutional, capability, manageria
 
 Cơ sở lý thuyết: Lu và Beamish (2004) với S-curve hypothesis; Contractor et al. (2003) với three-stage theory; Hitt et al. (1997) với inverted-U trong product-diversified firms.
 
+### H1b: Điều kiện biên — Gánh nặng quốc tế hóa bắt buộc (FIP) tại Pacific SIDS
+
+**H1b**: Tại các nền kinh tế Pacific SIDS (ICRV Nhóm VI), quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động doanh nghiệp là **âm đơn điệu** (không có turning point trong phạm vi dữ liệu), phản ánh gánh nặng quốc tế hóa bắt buộc (FIP) nơi ba điều kiện cấu trúc đồng thời bị vi phạm: thị trường nội địa quá nhỏ, chi phí thương mại cực cao, và thiếu hỗ trợ thể chế.
+
+Cơ sở lý thuyết: North (1990) với Institutional Theory; Williamson (1985) với transaction cost theory; Khanna và Palepu (2010) với institutional voids; Lall (2004) với SIDS structural constraints. H1b là **boundary condition** của H1: H1 áp dụng khi các điều kiện cấu trúc tối thiểu được đáp ứng; H1b áp dụng khi các điều kiện đó đồng thời thất bại.
+
 ### H2: Điều tiết bởi technological capability
 
 **H2**: Technological capability làm gia tăng tác động tích cực của quốc tế hóa lên hiệu quả hoạt động của doanh nghiệp, bằng cách nâng mặt bằng performance và làm giảm chi phí học hỏi thị trường quốc tế.
@@ -109,6 +115,7 @@ Cơ sở lý thuyết: Wu et al. (2022) với twenty-year meta-analysis về EMN
 | Giả thuyết | Cuộc đối thoại kiểm định chính | Phase phân tích |
 |---|---|---|
 | H1 | Mô hình quadratic với $FSTS$ và $FSTS^2$; Lind–Mehlum U-test | Country-level và multi-country |
+| H1b | Mô hình M1 tuyến tính tại SIDS; Lind–Mehlum U-test (NS); exporters-only robustness | Pacific SIDS (P8) |
 | H2 | Tương tác $FSTS \times TCI$ trong hồi quy | Country-level và multi-country |
 | H3 | Tương tác $FSTS \times DAI$ và $FSTS^2 \times DAI$ | Country-level và multi-country |
 | H4 | Tương tác $FSTS \times Manager_{exp}$ và $FSTS \times Manager_{gender}$ | Multi-country (do dữ liệu quy mô lớn) |
