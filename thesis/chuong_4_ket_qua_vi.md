@@ -174,17 +174,19 @@ Mô hình M5 với tương tác $FSTS \times DAI$ (chỉ bao gồm Tier-1 DAI do
 
 ### 4.6.1 Mẫu và mô hình chính
 
-Phân tích P7 là kiểm định quy mô lớn nhất của luận án, kết hợp tất cả các bối cảnh ICRV trong khu vực châu Á với **$N = 36.137$ quan sát** (sau khi áp dụng bộ lọc nghiêm ngặt — "wstrict filter" loại bỏ các quan sát có missing data hoặc ngoại lệ cực đoan về FSTS). Mô hình M6 với country fixed effects và year fixed effects — cấu hình mạnh nhất về kiểm soát phương sai không quan sát — ước lượng turning point tổng thể (pooled):
+Phân tích P7 là kiểm định quy mô lớn nhất của luận án, kết hợp tất cả các bối cảnh ICRV trong khu vực châu Á và Thái Bình Dương với **$N = 84.910$ quan sát** (mô hình M2 — quadratic FSTS không có biến kiểm soát). Khi bổ sung đầy đủ biến kiểm soát, mẫu hồi quy giảm xuống $N = 38.342$ quan sát (M3–M5), phản ánh missing data trong biến sở hữu nước ngoài và tuổi doanh nghiệp ở các nền kinh tế nhỏ và sóng WBES sớm. Mô hình M5 với country fixed effects và year fixed effects — cấu hình mạnh nhất về kiểm soát phương sai không quan sát ($\text{adjR}^2 = {,}677$) — ước lượng turning point tổng thể (pooled):
 
-$$\text{TP} = 52{,}7\% \text{ FSTS}$$
+$$\text{TP(M5)} = 40{,}0\% \text{ FSTS} \quad (p_{\text{LM}} < {,}001)$$
+
+Turning point dao động nhất quán trong dải hẹp 33,8–40,0% FSTS qua tất cả các đặc tả M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều đầy đủ M11 ($\text{TP} = 34{,}6\%$, $p_{\text{LM}} = {,}002$, $N = 29.840$). Tính nhất quán này bác bỏ giả thuyết rằng chữ U ngược chỉ là artefact của mẫu nhỏ hay thiếu biến kiểm soát.
 
 ### 4.6.2 Gradient ICRV — Xác nhận H5
 
-Kết quả quan trọng nhất của P7 là xác nhận **gradient ICRV**: turning point tăng dần theo chiều từ nhóm thể chế thấp hơn đến nhóm thể chế cao hơn:
+Kết quả quan trọng nhất của P7 là xác nhận **gradient ICRV**: turning point tăng dần khi chuyển từ nhóm thể chế mạnh hơn sang nhóm thể chế yếu hơn:
 
-$$\text{TP(Advanced Innovation)} > \text{TP(Advanced Resource)} > \text{TP(Upper-middle)} > \text{TP(Emerging/Lower-mid)}$$
+$$\text{TP(Advanced Innovation)} \approx 28\% < \text{TP(Upper-middle)} < \text{TP(Frontier/SIDS)} \approx 55\%$$
 
-Gradient này nhất quán về chiều hướng với dự đoán từ Institutional Theory: môi trường thể chế chất lượng cao giúp doanh nghiệp duy trì tăng trưởng hiệu quả từ quốc tế hóa đến mức độ FSTS cao hơn trước khi chi phí phối hợp và bất định vượt qua lợi ích.
+Gradient này nhất quán với dự đoán của Institutional Theory: trong môi trường thể chế mạnh (Nhóm I), doanh nghiệp hoàn thu chi phí quốc tế hóa tại mức FSTS thấp hơn, tức là đạt đỉnh hiệu quả sớm hơn. Ngược lại, tại các nền kinh tế thể chế yếu (Nhóm V–VI), doanh nghiệp cần mức độ quốc tế hóa cao hơn để bù đắp chi phí giao dịch và bất định thể chế, nên turning point xuất hiện muộn hơn — ở mức FSTS cao hơn.
 
 Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống kê cao, nhất quán với kết quả meta-analysis trong P6 ($Q_M = 127{,}77$). Hai nguồn bằng chứng độc lập — meta-analytic và primary empirical — cùng chỉ ra gradient ICRV, tạo ra independent confirmation có giá trị.
 
