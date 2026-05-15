@@ -291,7 +291,7 @@ Khái niệm FIP mở ra hướng nghiên cứu mới về **điều kiện biê
 
 Đóng góp lý thuyết thứ ba là phát triển và kiểm định **khung ICRV sáu sub-regime** như một công cụ phân loại thể chế đặc thù cho khu vực châu Á — Thái Bình Dương, thay thế cho các phân loại binary (developed/emerging) hoặc continuous (WGI scores) trong literature hiện tại.
 
-ICRV nắm bắt được sự đa dạng thể chế chưa từng được vận hành hóa đầy đủ: sự khác biệt giữa Singapore (Advanced Innovation, kết hợp pháp quyền mạnh và hệ sinh thái đổi mới) với GCC (Advanced Resource, kết hợp giàu tài nguyên nhưng hệ sinh thái đổi mới khác), và sự khác biệt giữa Trung Quốc (Upper-middle, chính phủ can thiệp mạnh) với Việt Nam (Lower-mid Transition, đang trong quá trình cải cách) với Bangladesh (Frontier, institutional voids cao). ICRV không chỉ là taxonomy mô tả mà còn là taxonomy **dự đoán**: turning point I→P tăng đơn điệu theo chiều từ SIDS lên Advanced Innovation, xác nhận giá trị dự đoán của phân loại.
+ICRV nắm bắt được sự đa dạng thể chế chưa từng được vận hành hóa đầy đủ: sự khác biệt giữa Singapore (Advanced Innovation, kết hợp pháp quyền mạnh và hệ sinh thái đổi mới) với GCC (Advanced Resource, kết hợp giàu tài nguyên nhưng hệ sinh thái đổi mới khác), và sự khác biệt giữa Trung Quốc (Upper-middle, chính phủ can thiệp mạnh) với Việt Nam (Lower-mid Transition, đang trong quá trình cải cách) với Bangladesh (Frontier, institutional voids cao). ICRV không chỉ là taxonomy mô tả mà còn là taxonomy **dự đoán**: turning point I→P **giảm** đơn điệu theo chiều từ SIDS/Frontier (~55%) xuống Advanced Innovation (~28%) — thể chế càng mạnh, doanh nghiệp đạt đỉnh hiệu quả ở mức quốc tế hóa thấp hơn — xác nhận giá trị dự đoán của phân loại.
 
 ---
 
