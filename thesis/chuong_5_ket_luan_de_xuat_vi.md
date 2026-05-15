@@ -180,9 +180,9 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P5** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích Trung Quốc 2012–2024 (Upper-middle), xác nhận inverted-U ổn định theo thời gian (TP ≈ 48,78%, Paternoster $z = 0{,}82$, $p = {,}412$).
 
-- **P6** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 235$, $r = 0{,}075$, $I^2 = 62{,}5\%$ (54,1% tầng 2 + 8,4% tầng 3), ICRV moderation $Q_M = 127{,}77^{***}$.
+- **P6** (IBR under review, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 235$, $r = 0{,}075$, $I^2 = 62{,}5\%$ (54,1% tầng 2 + 8,4% tầng 3), ICRV moderation $Q_M = 127{,}77^{***}$.
 
-- **P7** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): kiểm định toàn mẫu châu Á và Thái Bình Dương $N = 84.910$ (M2) / $N = 38.342$ (M3–M5 với controls đầy đủ), TP = 36,4–40,0% (M2–M5; M11 đầy đủ: TP = 34,6%, $p_\text{LM} = {,}002$), gradient ICRV xác nhận mạnh mẽ, TCI nâng mặt bằng năng suất phổ quát, DAI điều tiết đường cong có ý nghĩa trên toàn mẫu và mạnh hơn tại thể chế yếu hơn (DAI×ICRV $p = {,}012$).
+- **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu châu Á và Thái Bình Dương $N = 84.910$ (M2) / $N = 38.342$ (M3–M5 với controls đầy đủ), TP = 36,4–40,0% (M2–M5; M11 đầy đủ: TP = 34,6%, $p_\text{LM} = {,}002$), gradient ICRV xác nhận mạnh mẽ, TCI nâng mặt bằng năng suất phổ quát, DAI điều tiết đường cong có ý nghĩa trên toàn mẫu và mạnh hơn tại thể chế yếu hơn (DAI×ICRV $p = {,}012$).
 
 - **P8** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích SIDS Thái Bình Dương, $N = 1.469$, $\beta(\text{FSTS}_c) = -0{,}404^{*}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
 

@@ -180,7 +180,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P5** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): phân tích Trung Quốc 2012–2024 (Upper-middle), xác nhận inverted-U ổn định theo thời gian (TP ≈ 48,78%, Paternoster $z = 0{,}82$, $p = {,}412$).
 
-- **P6** (bản thảo đang chuẩn bị, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 235$, $r = 0{,}075$, $I^2 = 62{,}5\%$ (54,1% tầng 2 + 8,4% tầng 3), ICRV moderation $Q_M = 127{,}77^{***}$.
+- **P6** (IBR under review, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 235$, $r = 0{,}075$, $I^2 = 62{,}5\%$ (54,1% tầng 2 + 8,4% tầng 3), ICRV moderation $Q_M = 127{,}77^{***}$.
 
 - **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu $N=84.910$–$91.982$ doanh nghiệp · 49 nền kinh tế · 102 country-year waves, TP≈36%, gradient ICRV **giảm** từ SIDS/Frontier (~55%) xuống Advanced Innovation (~28%), TCI level effect β≈+0,344**, DAI level effect phổ quát β=+0,155*** + DAI×ICRV p=.012 (digital shield mạnh nhất khi thể chế yếu).
 
