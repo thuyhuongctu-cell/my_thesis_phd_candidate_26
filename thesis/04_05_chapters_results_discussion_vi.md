@@ -27,7 +27,7 @@ Phát hiện này có hàm ý lý thuyết sâu sắc: heterogeneity trong I→P
 
 ### 4.1.3 Điều tiết bởi chế độ thể chế — ICRV moderation
 
-Kiểm định điều tiết bằng nhóm chế độ thể chế ICRV (Institutional Context Regime Variation) cho kết quả có ý nghĩa thống kê cao: $Q_M = 127{,}77$, $df = 4$, $p < {,}001$. Điều này xác nhận rằng chế độ thể chế — được phân loại thành sáu nhóm từ Advanced Innovation-Driven (Nhóm I: Singapore, Hong Kong, Đài Loan, Nhật Bản, Hàn Quốc) đến SIDS Thái Bình Dương (Nhóm VI) — là moderator có ý nghĩa thực sự cho mối quan hệ tổng hợp I→P trong văn liệu. Kiểm định $Q_M$ lớn hơn nhiều so với giá trị tới hạn, hàm ý rằng sự khác biệt giữa các nhóm ICRV không thể giải thích bằng sai số lấy mẫu.
+Kiểm định điều tiết bằng nhóm chế độ thể chế ICRV (Institutional Context Regime Variation) cho kết quả có ý nghĩa thống kê cao: $Q_M = 127{,}77$, $df = 4$, $p < {,}001$. Điều này xác nhận rằng chế độ thể chế — được phân loại thành sáu nhóm từ Advanced Innovation-Driven (Nhóm I: Singapore, Hong Kong, Đài Loan, Hàn Quốc) đến SIDS Thái Bình Dương (Nhóm VI) — là moderator có ý nghĩa thực sự cho mối quan hệ tổng hợp I→P trong văn liệu. Kiểm định $Q_M$ lớn hơn nhiều so với giá trị tới hạn, hàm ý rằng sự khác biệt giữa các nhóm ICRV không thể giải thích bằng sai số lấy mẫu.
 
 Gradient theo ICRV hiện diện rõ ràng trong kết quả: các nền kinh tế Advanced Innovation-Driven có hiệu ứng I→P lớn hơn so với các nền kinh tế Frontier hay SIDS. Kết quả này nhất quán với cơ chế lý thuyết từ Institutional Theory — môi trường thể chế chất lượng cao tạo điều kiện để doanh nghiệp chuyển hóa quốc tế hóa thành hiệu quả dễ dàng hơn (North, 1990; Marano et al., 2016).
 

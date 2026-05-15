@@ -321,12 +321,12 @@ done
 ### Nhóm 2021
 
 **[S-116]** Barłożewski, K., & Trąpczyński, P. (2021a). Internationalisation motives and the multinationality-performance relationship: The case of Polish firms. *Entrepreneurial Business and Economics Review, 9*(2), 85–104. https://doi.org/10.15678/eber.2021.090206
-*Effect: r = [*trích xuất*], n ≈ 140–160 (Polish MNEs, survey data)*
-> **Hướng dẫn trích xuất:** EBER là open-access journal của Kraków University of Economics. Tìm Table 2 hoặc Table 3: Pearson/Spearman r giữa DoI (degree of internationalisation = FSTS hoặc composite) và ROS (return on sales). Paper có thể phân nhóm theo motives → lấy r từ full sample. Kiểm tra cả Supplementary materials nếu có. | [scite](https://scite.ai/reports/10.15678/eber.2021.090206)
+*Effect: r = **−0.10** (n=97, FSTS, ACC) — ✅ **TRÍCH XUẤT XONG — thêm vào forest_data.csv: study_id=S236***
+> **Phương pháp trích xuất (15/05/2026):** Không có correlation matrix trong paper. r ước lượng từ partial regression coefficient FSTS→ROA: β=−0.023 (p<0.01, N=729 obs/97 firms), inverted U-shape với turning point FSTS≈12–13%. Bivariate r phỏng tính từ partial r: r_partial≈−0.10 (t≥2.58, df≈717). Toàn bộ sample là Polish listed MNEs (panel 2006–2013). ICRV=MX (Poland post-transition), cDAI=M, dpl=SPN. CI: [−0.29, +0.10] (n=97 firms). **forest_data.csv S236:** r=−0.10, r_lo=−0.29, r_hi=0.10.
 
 **[S-117]** Barłożewski, K., & Trąpczyński, P. (2021b). Is internationalisation beneficial for novice internationalisers? The performance effects of firm-specific advantages, internationalisation degree and firm size revisited. *Oeconomia Copernicana, 12*(1), 53–75. https://doi.org/10.24136/oc.2021.003
-*Effect: r = [*trích xuất*], n ≈ 100–130 (Polish novice internationalizers)*
-> **Hướng dẫn trích xuất:** Oeconomia Copernicana là open-access Polish IB journal. Bài có appendix (Table A1 hoặc A2): Pearson correlation matrix giữa DoI và performance (ROS_norm). Novice sample → r có thể âm hoặc gần zero. Nếu không có appendix table, dùng β từ OLS và SE để tính r. | [scite](https://scite.ai/reports/10.24136/oc.2021.003)
+*Effect: r = **−0.04** (n=304, FSTS, ACC) — ✅ **TRÍCH XUẤT XONG — thêm vào forest_data.csv: study_id=S237***
+> **Phương pháp trích xuất (15/05/2026):** Trực tiếp từ Table 2 (correlation matrix, Annex): r(FSTS_3GR, ROS) = −0.04 (ns), n=304 firms (1,167 firm-year obs), Polish listed novice internationalisers 2010–2013. FSTS_3GR là biến phân loại 3 mức (0/1/2 cho <5%, 5–30%, >30%). FSTS là moderating variable trong paper (FSAs→ROS), nhưng bivariate r với ROS được trích từ correlation matrix. ICRV=MX (Poland post-transition), cDAI=M, dpl=FOL (post-2009). CI: [−0.15, +0.07] (n=304). **forest_data.csv S237:** r=−0.04, r_lo=−0.15, r_hi=0.07.
 
 **[S-118]** Tsionas, M. G., & Tzeremes, N. G. (2021). The degree of internationalization and firm productivity: Empirical evidence from large multinationals. *British Journal of Management, 32*(4), 1032–1052. https://doi.org/10.1111/1467-8551.12560
 *Effect: r = **0.10** (n=500, COMP, LAB) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S220***
@@ -362,15 +362,15 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 
 **Ghi chú S-62 (cần xác minh):** Citation hiện tại `Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014)` về "Culture and entrepreneurial orientation" (IEMJ) có khả năng **KHÔNG ĐÚNG** — đây không phải bài I→P. Cần kiểm tra Excel MetaEssentials để xác định "Lee et al. 2014" nào tương ứng với r=0.383, n=279 (Korean firm sample). Ứng viên thay thế: Lee, S., Kwak, W., & Tsai, Y. (2014) hoặc bài về Korean firms trong *Journal of East-West Business*.
 
-**Tóm tắt tiến độ (v2.2, 15/05/2026):**
+**Tóm tắt tiến độ (v2.3, 15/05/2026):**
 - Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
-- Phần 2: 11 ứng viên mới (S-111 → S-121) — **PHÁT HIỆN 15/05**: 9 trong 11 đã confirmed trong forest_data.csv:
+- Phần 2: 11 ứng viên mới (S-111 → S-121) — **HOÀN THÀNH 15/05**: 11/11 đã có r-value:
   - ✅ S-111 (S204), S-112 (S232), S-113 (S210), S-114 (S212), S-115 (S222) — 5 nghiên cứu 2020
+  - ✅ S-116 → **S236** (r=−0.10, ước lượng từ partial r ROA, 97 Polish MNEs 2006–2013, EBER)
+  - ✅ S-117 → **S237** (r=−0.04, correlation matrix Table 2, 304 Polish firms 2010–2013, OC)
   - ✅ S-118 (S220), S-119 (S108+S223) — 2 nghiên cứu 2021
   - ✅ S-120 (S198), S-121 (S126+S216) — 2 nghiên cứu 2022
-  - 🔴 **CẦN TRÍCH XUẤT: S-116** (Barłożewski & Trąpczyński 2021a, EBER, Polish firms)
-  - 🔴 **CẦN TRÍCH XUẤT: S-117** (Barłożewski & Trąpczyński 2021b, Oeconomia Copernicana, Polish firms)
-- S-62: Citation sai — cần xác minh từ MetaEssentials Excel (r=0.383, n=279, Korean sample)
-- Đích mục tiêu: k = 235 (đã đạt — forest_data.csv xác nhận 235 unique study IDs)
+- forest_data.csv: 287 rows tổng (285 data rows + header), S236+S237 đã append
+- 🔴 **CÒN LẠI:** S-62 citation sai — cần xác minh từ MetaEssentials Excel (r=0.383, n=279, Korean sample)
 
-*File v2.2 — 15/05/2026. Cập nhật: cross-reference toàn bộ Part 2 với forest_data.csv; xác nhận 9/11 đã có r; rút gọn pending xuống còn 2 bài cần trích xuất + S-62 cần sửa citation.*
+*File v2.3 — 15/05/2026. Cập nhật: S-116 và S-117 (Barłożewski & Trąpczyński) đã trích xuất r-value sau khi đọc toàn bộ PDF; thêm S236 và S237 vào forest_data.csv.*

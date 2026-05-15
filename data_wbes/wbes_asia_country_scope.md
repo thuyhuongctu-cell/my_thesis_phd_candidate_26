@@ -66,7 +66,6 @@ Các nền kinh tế sau **không có Enterprise Survey** của World Bank (do t
 | Quốc gia/Nền kinh tế | WB Region | Income FY2026 | Lý do không có WBES |
 |---|---|---|---|
 | **Nhật Bản** | EAP | High income | High income OECD — WB không thực hiện ES tại nước này |
-| **Hàn Quốc** | EAP | High income | High income OECD |
 | **Đài Loan** | EAP | High income* | Không phải WB member (không được WB công nhận là quốc gia độc lập) |
 | **Hong Kong SAR** | EAP | High income | SAR — báo cáo gộp với Trung Quốc hoặc không có WES riêng |
 | **Macau SAR** | EAP | High income | SAR — tương tự Hong Kong |
@@ -75,7 +74,7 @@ Các nền kinh tế sau **không có Enterprise Survey** của World Bank (do t
 
 > *Đài Loan và Bắc Triều Tiên không có phân loại WB chính thức do không phải member.
 
-**Hệ quả cho nghiên cứu**: Không có cơ sở dữ liệu WBES nào cho phép so sánh trực tiếp Việt Nam hoặc Trung Quốc với Nhật Bản hay Hàn Quốc tại cùng cấp dữ liệu doanh nghiệp.
+**Hệ quả cho nghiên cứu**: Không có cơ sở dữ liệu WBES nào cho phép so sánh trực tiếp Việt Nam hoặc Trung Quốc với Nhật Bản tại cùng cấp dữ liệu doanh nghiệp. **Lưu ý 15/05/2026**: Hàn Quốc có WBES 2005 và 2024 (N=1,518, n_complete=1,447) — đã được đưa vào p7_manifest.csv với ICRV=1. Korea không phải là "không có WBES" như ghi trước đây.
 
 ---
 
@@ -177,8 +176,9 @@ WBES châu Á (EAP + SAS + MENAAP)
 │   ├── Có thể trong VEFR synthesis (≤17): Philippines, Indonesia, India, Bangladesh...
 │   └── NGOÀI phạm vi nghiên cứu (lý do B/C/D): Sri Lanka, Myanmar, Pakistan...
 │
-└── KHÔNG có WBES data (~7+): Japan, Korea, Taiwan, Hong Kong, Macau, Brunei, N.Korea
+└── KHÔNG có WBES data (~6+): Japan, Taiwan, Hong Kong, Macau, Brunei, N.Korea
     └── Lý do: High income OECD hoặc không hợp tác WB
+    └── [Korea có WBES 2005+2024 — xem Lưu ý ở trên]
 ```
 
 ---

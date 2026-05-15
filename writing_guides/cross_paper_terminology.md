@@ -99,7 +99,7 @@ The thesis distinguishes three export participation concepts:
 
 | Regime | CD2 Code (6-regime) | P3/P6 Code (5-regime) | P7 R code | Countries in thesis |
 |--------|---------------------|----------------------|-----------|---------------------|
-| Advanced Innovation-Driven | Nhóm I | Regime I | `Advanced_innovation` | Singapore (P4); Japan; Korea; Taiwan |
+| Advanced Innovation-Driven | Nhóm I | Regime I | `Advanced_innovation` | Singapore (P4); Korea; Taiwan |
 | Advanced Resource-Driven | Nhóm II | Regime II | `Advanced_resource` | Gulf states (Chuyên đề 1); Brunei |
 | Upper-Middle | Nhóm III | Regime III | `Upper_mid` | China main sample (P5); Malaysia; Thailand |
 | Lower-Middle Transition | Nhóm IV | Regime IV | `Lower_mid_transition` | **Vietnam (P3)**; Indonesia; India; Philippines; Bangladesh; Mongolia; Pakistan |
@@ -273,7 +273,7 @@ For use in thesis integration chapter and §6 Discussion cross-referencing:
 
 | ICRV Group | TP | Shape | Notes |
 |-----------|-----|-------|-------|
-| Advanced Innovation (Nhóm I) | **~28%** | Inverted-U | Singapore, HK, Japan, Korea, Taiwan — TP lowest |
+| Advanced Innovation (Nhóm I) | **~28%** | Inverted-U | Singapore, HK, Korea, Taiwan — TP lowest |
 | Advanced Resource / Upper-mid (Nhóm II–III) | ~35–42% | Inverted-U | China, Malaysia, Thailand, Kazakhstan... |
 | Emerging / Lower-mid (Nhóm IV) | ~44–50% | Inverted-U | India, Vietnam, Indonesia, Philippines... |
 | Frontier (Nhóm V) | **~50–55%** | Inverted-U | Afghanistan, Nepal, Cambodia, Bhutan... |
