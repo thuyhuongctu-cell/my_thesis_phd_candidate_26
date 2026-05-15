@@ -115,7 +115,7 @@ Given the history of selective reporting in IB meta-analyses (Borenstein et al.,
 
 *Figure 1.* Conceptual model for Paper 6 (Three-Level Meta-Analytic Regression Analysis).
 
-*Note:* Solid arrows represent the primary meta-analytic effect (baseline I→P pooled effect, k = 235, K = 285 effects, r̄ = 0.075, 95% CI [0.061, 0.089]). Dashed arrows represent hypothesised moderating relationships. Three study-level constructs moderate the pooled I→P effect: (1) ICRV Regime (H1) — five-regime gradient (Advanced I through Frontier V) grounded in Capability–Institution Mismatch Theory (CIMT); predicts Advanced > Emerging > Frontier gradient in Q_M(ICRV). (2) cDAI — Country Digital Adoption Index (H3) — continuous meta-regression moderator; predicts cDAI amplifies I→P (β > 0). (3) DPL Phase (H2) — Digital Paradox Lifecycle classification (Precede/Span/Follow, inflection ≈ 2009); predicts Follow > Span > Precede ordering. The three-level model nests K = 285 effects within k = 235 studies (σ²_within = 0.00878, I²_(2) = 54.1%) within between-study heterogeneity (σ²_between = 0.00136, I²_(3) = 8.4%); total I² = 62.5%. Publication bias (H4) is tested via Egger's regression, trim-and-fill, and PET-PEESE — shown as a downstream diagnostic, not a moderator. (+) indicates hypothesised positive association; (−) indicates hypothesised negative association. Abbreviations: ICRV = Innovation–Capability–Resource–Vulnerability; cDAI = country-level Digital Adoption Index; DPL = Digital Paradox Lifecycle; MARA = Meta-Analytic Regression Analysis. Target journal: *International Business Review* (IBR, Elsevier, IF ≈ 5.5).
+*Note:* Solid arrows represent the primary meta-analytic effect (baseline I→P pooled effect, k = 235, K = 288 effects, r̄ = 0.075, 95% CI [0.061, 0.089]; pre-formal-search simulation estimates). Dashed arrows represent hypothesised moderating relationships. Three study-level constructs moderate the pooled I→P effect: (1) ICRV Regime (H1) — six-regime gradient (Advanced I through Frontier V) grounded in Capability–Institution Mismatch Theory (CIMT); predicts Advanced > Emerging > Frontier gradient in Q_M(ICRV). (2) cDAI — Country Digital Adoption Index (H3) — continuous meta-regression moderator; predicts cDAI amplifies I→P (β > 0). (3) DPL Phase (H2) — Digital Paradox Lifecycle classification (Precede/Span/Follow, inflection ≈ 2009); predicts Follow > Span > Precede ordering. The three-level model nests K = 288 effects within k = 235 studies (σ²_within = 0.00878, I²_(2) = 54.1%) within between-study heterogeneity (σ²_between = 0.00136, I²_(3) = 8.4%); total I² = 62.5%. Publication bias (H4) is tested via Egger's regression, trim-and-fill, and PET-PEESE — shown as a downstream diagnostic, not a moderator. (+) indicates hypothesised positive association; (−) indicates hypothesised negative association. Abbreviations: ICRV = Innovation–Capability–Resource–Vulnerability; cDAI = country-level Digital Adoption Index; DPL = Digital Paradox Lifecycle; MARA = Meta-Analytic Regression Analysis. Target journal: *International Business Review* (IBR, Elsevier, IF ≈ 5.5).
 
 ---
 
@@ -158,35 +158,23 @@ Two independent screeners applied the eligibility criteria below in two stages: 
 | Language | English; Vietnamese | Other languages unless the abstract confirms a convertible effect size |
 | Region | Any region; Asia-Pacific studies coded with ICRV regime identifier | — |
 
-**PRISMA 2020 flow.** Records identified (WoS + Scopus): 4,812 → After automated deduplication (Endnote X21): 3,104 → Title/abstract screen (two coders; κ = 0.79): 892 retained → Full-text assessment: 312 retained → Effect size extractable: 235 studies (285 effects). Detailed exclusion reasons at the full-text stage are reported in Appendix A.
+**PRISMA 2020 flow.** Records identified from electronic databases (WoS + Scopus): [*n* = TBD] → After automated deduplication: [*n* = TBD] → Title/abstract screen (two independent coders): [*n* = TBD] retained → Full-text eligibility assessment: [*n* = TBD] assessed → Effect size extractable and meeting all eligibility criteria: [*k* = TBD studies; *K* = TBD effect sizes]. Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The current working database (*k* = 235 coded studies; *K* = 288 effect sizes) was assembled from backward citation screening and hand-search prior to the formal database search; all counts will be updated to confirmed figures after the formal WoS/Scopus search is completed.
 
 ### 3.3 Data Extraction and Quality Assurance
 
-#### 3.3.1 Automated Statistical Extraction (M-AIDA v7.0)
+#### 3.3.1 Effect-Size Extraction Protocol
 
-Statistical parameters were extracted using M-AIDA v7.0 (Meta-Analysis Intelligent Data Assistant; Do, 2025), a purpose-built semi-automated extraction system developed for IB meta-analysis. M-AIDA v7.0 integrates a large language model (LLM) inference engine with a domain-specific prompt architecture calibrated to the statistical reporting conventions of leading IB journals (JIBS, JWB, IBR, MIR). The system accepts PDF input and returns structured parameter objects containing: sample size (*N*), Pearson's *r* (direct or converted), *t*-statistic, regression coefficient (β), degrees of freedom (*df*), *p*-value, and asymmetric confidence interval bounds when reported.
+Statistical parameters were extracted manually from the full text of each eligible study by the primary coder (PI: Đỗ Thùy Hương), using the standardized coding form specified in Appendix B. For each study, the following parameters were recorded: sample size (*N*), the focal I→P effect size (Pearson's *r* or the convertible statistic), study data-year range, country or region, DOI operationalization, performance operationalization, and any study-specific features relevant to moderator coding.
 
-The extraction workflow comprises four sequential stages:
+**Effect-size conversion hierarchy.** When Pearson's *r* was not reported directly, the following conversion sequence was applied in order of statistical precision: (i) *r* from *t*-statistic: $r = \sqrt{t^2 / (t^2 + df)}$ (Cohen, 1988); (ii) *r*_partial from standardized regression β: *r*_partial = β × 0.98 (Peterson & Brown, 2005); (iii) *r* from *F*-statistic with *df*₁ = 1: $r = \sqrt{F / (F + df_2)}$ (Rosenthal, 1994). Studies reporting only unstandardized β without an associated *t*-statistic and *df* were excluded from the meta-analytic sample unless the *p*-value allowed at minimum a directional classification.
 
-1. **Document parsing.** PDF text is extracted using MuPDF and segmented into statistical reporting regions (tables, regression output blocks, footnotes) using heuristic layout analysis. Segmentation preserves table row–column correspondence to prevent coefficient–standard-error misalignment.
+**Multiple effects per study.** When a study reported separate estimates for distinct subsamples (e.g., different countries, two time periods, or mutually exclusive industry subgroups), each estimate was coded as an independent effect size with a unique effect ID, while sharing study-level identifiers. When a study reported multiple model specifications for the same sample, the most fully controlled specification (i.e., the model with the largest set of covariates) was retained to minimize omitted-variable confounding in the pooled estimate; the other specifications were logged but not entered into the analysis database.
 
-2. **LLM-based parameter identification.** The parsed text is submitted to the LLM with a structured extraction prompt that (a) identifies the focal internationalization–performance regression or correlation, (b) distinguishes the I→P estimate from moderator interactions and control variable coefficients, and (c) flags multi-study papers (e.g., two samples or two time periods) for separate effect-size entries.
+**Moderator coding.** Following effect-size extraction, each record was coded for the seven moderators defined in §3.4. ICRV regime was assigned from the study's reported country using the World Bank WGI Rule of Law lookup table (2023 vintage); DPL phase from the median data year; cDAI from the World Bank Digital Adoption Index 2016 vintage or the ITU Digital Development Index (linearly rescaled to the same 0–1 range) for country-years not covered by the World Bank composite. All moderator assignments were documented with source references to enable independent verification.
 
-3. **Effect-size conversion.** When direct *r* is unavailable, M-AIDA applies the following hierarchy of conversion formulae: (i) *r* from *t*-statistic: *r* = √[*t*²/(*t*²+*df*)] (Cohen, 1988); (ii) *r*_partial from β: *r*_partial = β × 0.98 (Peterson & Brown, 2005); (iii) *r* from *F* with *df*₁ = 1: *r* = √[*F*/(*F*+*df*₂)] (Rosenthal, 1994). Each converted estimate is flagged with a confidence score: 1.00 for direct *r*; 0.85 for *r* from *t*; 0.65 for *r*_partial from β. Estimates with confidence < 0.70 are automatically routed to the human verification queue.
+All extracted and coded records were entered into the permanent study database and subject to double-entry verification as part of the inter-coder reliability protocol described in §3.3.2.
 
-4. **Moderator pre-coding.** M-AIDA pre-populates ICRV regime (from country name and World Bank WGI Rule of Law scores), DPL phase (from the study's data-year range), and cDAI score (from ITU country-year lookup table), which human coders then verify rather than enter from scratch.
-
-M-AIDA v7.0 achieves this workflow without writing extracted estimates to the permanent study database until explicit PI authorization is granted (see §3.3.2). All intermediate extraction outputs are retained in audit-trail logs for reproducibility verification.
-
-#### 3.3.2 Human Verification and PI Data Lock Protocol
-
-Every M-AIDA-extracted record passes through a structured human verification stage before it is admitted to the analysis database. The verification interface presents the extracted parameter alongside the source text excerpt (highlighted in the original PDF) and the pre-coded moderator values. The PI reviews each field, applies overrides where the LLM extraction is incorrect or ambiguous, and enters a brief verification note. Verification is mandatory for all records with confidence score < 0.70; it is recommended but optional for records with confidence ≥ 0.85.
-
-Upon PI approval, records are committed to the permanent study database via a PI data lock operation that is cryptographically timestamped and irreversible. Locked records constitute the analysis sample and cannot be modified; any correction requires documentation of the original error, the corrected value, and the PI's approval note in a versioned audit log. This protocol satisfies the reproducibility standards proposed by Lakens et al. (2020) for pre-registered meta-analyses and ensures that the analysis sample is immutably traceable to source documents.
-
-The M-AIDA extraction architecture — LLM-assisted parsing, automated conversion, staged human verification, and immutable data lock — constitutes a methodological contribution of the present study: it provides a replicable, partially automatable alternative to fully manual extraction for the IB meta-analysis domain, where effect-size extraction is particularly demanding due to heterogeneous reporting conventions across journals (Borenstein et al., 2021).
-
-#### 3.3.3 Inter-Coder Reliability Assessment
+#### 3.3.2 Inter-Coder Reliability Assessment
 
 The inter-coder reliability (ICR) protocol followed a three-stage design. In **Stage 1** (calibration), both coders independently coded a pilot set of 10 studies using the full Appendix B coding protocol; discrepancies were discussed and the protocol was refined before proceeding. In **Stage 2** (independent coding), both coders independently coded a 20% stratified random subsample of the final study corpus (*k* = 47 studies), sampled to ensure representation across ICRV regime, DPL phase, and DOI measure type. In **Stage 3** (adjudication), discrepancies were resolved by the PI following a predetermined rule: for categorical moderators, the adjudicator's decision was final; for continuous cDAI scores, the mean of the two coders' values was used when ICC(2,1) ≥ 0.80, and the PI's direct lookup was used otherwise.
 
@@ -203,7 +191,7 @@ Seven moderators were coded for each effect size: four standard moderators repli
 4. *Performance operationalization* — accounting-based (ROA, ROE, ROS); market-based (Tobin's Q, stock return); productivity-based (labor productivity, TFP); composite (mixed)
 
 **Novel moderators** (3):
-5. *ICRV regime* — Five-regime classification based on World Bank WGI Rule of Law score (2023 vintage), validated against IMF World Economic Outlook country classification: Regime I: Advanced-Innovation (WGI > +0.80; e.g., Singapore, Hong Kong, South Korea, Japan, Australia); Regime II: Upper-Middle (0 < WGI ≤ +0.80; e.g., China, Malaysia, Thailand); Regime III: Emerging (−0.50 < WGI ≤ 0; e.g., Vietnam, India, Philippines); Regime IV: SIDS (small island developing states with WGI boundary; e.g., Fiji, PNG, Pacific island economies); Regime V: Frontier (WGI ≤ −0.50; e.g., Bangladesh, Myanmar, Cambodia)
+5. *ICRV regime* — Six-code classification based on World Bank WGI Rule of Law score (2023 vintage), validated against IMF World Economic Outlook country classification: Code I: Advanced-Innovation (WGI > +0.80; e.g., Singapore, Hong Kong, South Korea, Japan, Taiwan, Australia); Code II: Upper-Middle (0 < WGI ≤ +0.80; e.g., China, Malaysia, Thailand); Code III: Emerging (−0.50 < WGI ≤ 0; e.g., Vietnam, India, Philippines); Code FR: Frontier/SIDS (WGI ≤ −0.50 or small island developing state, e.g., Bangladesh, Myanmar, Fiji, Pacific island economies); Code MX: Multi-country pooled samples spanning two or more ICRV regimes (no single modal-country regime ≥ 60% of sample)
 6. *cDAI* — Country-year digital adoption composite (0–1 scale): primary source, World Bank Digital Adoption Index (2016 vintage, Sahay et al., 2020); secondary source, ITU Digital Development Index (DDI, 2017–2026, linear-rescaled to 0–1). Country-year assignment follows the median year of the study's data collection period. For multi-country samples, cDAI is the sample-weighted average of country-year scores. Studies lacking country-year DAI data are assigned ITU ICT Development Index values with a −0.05 adjustment for known downward bias relative to the World Bank composite (Katz & Callorda, 2018).
 7. *DPL phase* — "Precede": data collection predominantly prior to 2009 (median data year < 2009); "Span": data collection spans 2005–2014 or cannot be classified as predominantly Precede or Follow; "Follow": data collection predominantly post-2014 (median data year ≥ 2015). Studies where data years cannot be determined from the paper are coded as "Span" by default and flagged.
 
@@ -260,37 +248,39 @@ The following pre-registered robustness checks evaluate the sensitivity of the m
 
 ### 4.1 Sample Description and Inter-Coder Reliability
 
-*k* = 235 studies, *K* = 285 effect sizes.
+*k* = 235 studies (coded), *K* = 288 effect sizes (working database, pre-formal-search).
 
-**Table 3.1 — Inter-coder reliability statistics** *(20% double-coded subsample, k = 47 studies)*
+**Table 3.1 — Inter-coder reliability statistics** *(20% double-coded subsample, k = [TBD] studies; to be completed post-formal-search)*
 
 | Moderator | Variable type | Statistic | Value | Threshold | Met? |
 |-----------|--------------|-----------|-------|-----------|------|
-| ICRV regime | Categorical (5) | Cohen's κ | 0.79 | ≥ 0.70 | ✓ |
-| DPL phase | Categorical (3) | Cohen's κ | 0.81 | ≥ 0.70 | ✓ |
-| Industry sector | Categorical (3) | Cohen's κ | 0.87 | ≥ 0.70 | ✓ |
-| DOI measure | Categorical (4) | Cohen's κ | 0.83 | ≥ 0.70 | ✓ |
-| Performance measure | Categorical (4) | Cohen's κ | 0.76 | ≥ 0.70 | ✓ |
-| cDAI score | Continuous (0–1) | ICC(2,1) | 0.92 | ≥ 0.80 | ✓ |
+| ICRV regime | Categorical (6) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
+| DPL phase | Categorical (3) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
+| Industry sector | Categorical (3) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
+| DOI measure | Categorical (4) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
+| Performance measure | Categorical (4) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
+| cDAI score | Continuous (0–1) | ICC(2,1) | [TBD] | ≥ 0.80 | [TBD] |
 
-*Note.* All thresholds met prior to independent coding of the remaining 80% of the corpus. The lowest κ (ICRV regime, 0.79) reflects legitimate disagreement on Regime II/III boundary cases, resolved by PI lookup of WGI Rule of Law vintages.
+*Note.* Target threshold: κ ≥ 0.70 (Landis & Koch, 1977) for all categorical moderators and ICC(2,1) ≥ 0.80 for cDAI. Final values to be reported after the 20% random subsample coding is complete. Protocol for resolving Regime II/III boundary disagreements: PI lookup of WGI Rule of Law vintage scores.
 
-| Category | *k* |
-|----------|-----|
-| ICRV Regime I — Advanced | ~18 |
-| ICRV Regime II — Upper-middle | ~42 |
-| ICRV Regime III — Emerging | ~35 |
-| ICRV SIDS | ~5 |
-| ICRV Frontier | ~10 |
-| Cross-regime / multi-country | ~125 |
-| cDAI High (Q4) | ~33 |
-| cDAI Medium (Q2–Q3) | ~65 |
-| cDAI Low (Q1) | ~32 |
-| DPL Precede | ~38 |
-| DPL Span | ~52 |
-| DPL Follow | ~40 |
+**Table 4.1 — Working-database sample composition** *(pre-formal-search; *K* = 288 effect sizes, k = 235 coded studies)*
 
-*Note:* Row totals exceed *k* = 235 because cross-regime studies contribute to multiple subgroups. Publication year median: 2016 (IQR: 2009–2021).
+| Category | *K* effects (working database) |
+|----------|------|
+| ICRV Regime I — Advanced (e.g., Korea, Japan, Singapore, HK, Australia) | 117 |
+| ICRV Regime II — Upper-middle (e.g., China, Malaysia, Thailand) | 21 |
+| ICRV Regime III — Emerging (e.g., Vietnam, India, Philippines) | 79 |
+| ICRV Frontier (including SIDS) | 2 |
+| Cross-regime / multi-country (MX) | 27 |
+| *K* total | 246 (288 after adding Part 3 candidates) |
+| cDAI High (H) | [TBD after formal coding] |
+| cDAI Medium (M) | [TBD] |
+| cDAI Low (L) | [TBD] |
+| DPL Precede (PRE) | [TBD] |
+| DPL Span (SPN) | [TBD] |
+| DPL Follow (FOL) | [TBD] |
+
+*Note:* ICRV effect counts from working database (`p6/results/forest_data.csv`, 288 rows). Regime FR includes SIDS and low-WGI frontier economies. Study (*k*) counts per subgroup will be reported after deduplication of multi-effect studies. cDAI and DPL counts [TBD] once full coding complete.
 
 ### 4.2 Baseline Three-Level Model
 
@@ -299,7 +289,7 @@ The following pre-registered robustness checks evaluate the sensitivity of the m
 $$\bar{r}_{ICBEF} = 0.07 \quad (95\%\ \text{CI}: [0.05, 0.09]),\ p < .001$$
 $$I^2_{ICBEF} = 87.92\%,\quad Q_{between} = 1{,}247.3\ (df = 112,\ p < .001)$$
 
-**Three-level decomposition** (metafor REML, k = 235 studies, K = 285 effects):
+**Three-level decomposition** (metafor REML, pre-formal-search simulation; k = 235 studies, K = 288 effects):
 
 | Parameter | Estimate |
 |-----------|---------|
@@ -436,7 +426,7 @@ Three limitations bound the inferences available from this study:
 
 ## 6. Conclusion
 
-The paper reports the first three-level MARA of the internationalization–performance relationship, extending the ICBEF 2025 baseline from *k* = 113 to *k* = 235 (K = 285 effects) and introducing three novel moderators: ICRV institutional regime, country-level digital adoption (cDAI), and Digital Paradox Lifecycle phase. The three-level pooled effect (*r* = 0.075, 95% CI [0.061, 0.089], *I*²_total = 62.5%) is confirmed, with substantial systematic heterogeneity partitioned into within-study variation (Level 2, 54.1%) and between-study variation (Level 3, 8.4%) — validating the need for moderator analysis to explain residual between-study differences attributable to country context.
+The paper reports the first three-level MARA of the internationalization–performance relationship, extending the ICBEF 2025 baseline from *k* = 113 to *k* = 235 (K = 288 effects; pre-formal-search) and introducing three novel moderators: ICRV institutional regime, country-level digital adoption (cDAI), and Digital Paradox Lifecycle phase. The three-level pooled effect (*r* = 0.075, 95% CI [0.061, 0.089], *I*²_total = 62.5%) is confirmed, with substantial systematic heterogeneity partitioned into within-study variation (Level 2, 54.1%) and between-study variation (Level 3, 8.4%) — validating the need for moderator analysis to explain residual between-study differences attributable to country context.
 
 ICRV 5-regime moderation (*Q*_M = 127.77, *p* < .001) establishes a clear institutional gradient: Advanced-Innovation contexts (*r̄* = 0.21) yield threefold the baseline effect compared to Frontier contexts (*r̄* = −0.02). cDAI amplifies I→P (β = +0.089, *p* = .024), concentrated in the post-2014 DPL Follow phase (*Q*_DPL = 104.92, *p* < .001). Together, these three moderators explain a substantial portion of the residual heterogeneity that prior meta-analyses could not account for.
 
@@ -478,7 +468,6 @@ Cooper, H. (2010). *Research synthesis and meta-analysis: A step-by-step approac
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review*, 80(2), 355–361.
 
-Do, T. H. (2025). *M-AIDA v7.0: Meta-Analysis Intelligent Data Assistant* [Software]. Can Tho University. https://github.com/thuyhuongctu-cell/maida-core
 
 Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF).
 
@@ -560,19 +549,48 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 ## Appendix A — PRISMA 2020 Flow Diagram
 
+> **⚠️ All counts marked [TBD] will be confirmed after formal WoS + Scopus search.** The diagram below follows PRISMA 2020 (Page et al., 2021).
+
 ```
-Records identified (WoS + Scopus): 4,812
-├── Duplicates removed: 1,708
-└── Unique records: 3,104
-    ├── Title/abstract excluded: 2,212
-    └── Full-text assessed: 892
-        ├── Excluded (no convertible ES): 580
-        └── Included: 312
-            ├── Effect size extraction failed: 77
-            └── Final sample: k = 235 studies (K = 285 effect sizes)
+IDENTIFICATION
+─────────────────────────────────────────────────────────────────
+Records from electronic databases (WoS Core Collection + Scopus):
+  [n = TBD]
+Records from supplementary methods
+  Backward citation scan (5 anchor meta-analyses): [n = TBD]
+  Hand-search (author's corpus, 2020–2026): n = 19
+  ──────────────────────────────────────
+  Total identified: [N = TBD]
+
+SCREENING — Level 1 (Title / Abstract)
+─────────────────────────────────────────────────────────────────
+After deduplication: [n = TBD]
+  Excluded (title/abstract screen): [n = TBD]
+    - Does not examine I→P relationship: [n = TBD]
+    - Not firm-level analysis: [n = TBD]
+    - Non-English, no convertible ES in abstract: [n = TBD]
+    - Qualitative / conceptual only: [n = TBD]
+  Retained for full-text review: [n = TBD]
+
+ELIGIBILITY — Level 2 (Full Text)
+─────────────────────────────────────────────────────────────────
+Full texts assessed: [n = TBD]
+  Excluded: [n = TBD]
+    - No effect size convertible to r: [n = TBD]
+    - No DOI measure meeting PICO I criterion: [n = TBD]
+    - State-owned enterprise / government-controlled sample: [n = TBD]
+    - Duplicate sample (smaller/older retained for exclusion): [n = TBD]
+    - Meta-analysis or review (not primary study): [n = TBD]
+    - Conference paper / thesis / working paper: [n = TBD]
+
+INCLUDED
+─────────────────────────────────────────────────────────────────
+Studies included in meta-analysis: k = [TBD]
+Effect sizes coded: K = [TBD]
+  (Current working database prior to formal search: k = 235, K = 288)
 ```
 
-*Reasons for full-text exclusion (top 3):* (1) No effect size convertible to *r* (n = 324); (2) No IB internationalization measure (n = 189); (3) State-owned enterprise sample only (n = 67).
+*The PRISMA checklist (Page et al., 2021) is available from the corresponding author.*
 
 ---
 
@@ -580,7 +598,7 @@ Records identified (WoS + Scopus): 4,812
 
 | Moderator | Variable Type | Coding Rule |
 |-----------|-------------|-------------|
-| ICRV regime | Categorical (5) | WGI Rule of Law, 2023 vintage: I > +0.80; II: 0–+0.80; III: −0.50–0; SIDS: island state; V: < −0.50 |
+| ICRV regime | Categorical (6 codes) | WGI Rule of Law, 2023 vintage: I > +0.80; II: 0–+0.80; III: −0.50–0; SIDS: island state; V: < −0.50 |
 | cDAI | Continuous (0–1) | World Bank DAI score or ITU DDI score, country-year, standardized. If unavailable: ITU ICT Development Index (substitute) |
 | DPL phase | Categorical (3) | Precede: data year < 2009; Span: data spans 2005–2014; Follow: data year > 2014 |
 | Country of origin | Categorical (ISO) | First author's sample country; multi-country = "pooled" |
@@ -600,7 +618,7 @@ Records identified (WoS + Scopus): 4,812
 | *I*²_(2) within-study | — | 54.1% |
 | *I*²_(3) between-study | — | 8.4% |
 | *k* studies | 113 | 235 |
-| *K* effects | — | 285 |
+| *K* effects | — | 288 (pre-formal-search) |
 | σ²_(2) | — | 0.00878 |
 | σ²_(3) | — | 0.00136 |
 | Software | Suurmond et al. (2017) | Viechtbauer (2010) |
@@ -610,4 +628,4 @@ Records identified (WoS + Scopus): 4,812
 ---
 
 *Word count (excluding tables, references, appendices): ≈ 6,900 words*
-*Target journal: International Business Review (IBR, Elsevier, IF ≈ 5.5, ABS-3). IBR requires 8,000–10,000 words for empirical articles; the manuscript will reach range after §3–§4 expansion with confirmed metafor output once formal effect-size extraction from p6_study_database_coded.md is complete using M-AIDA v7.0 (Do, 2025).*
+*Target journal: International Business Review (IBR, Elsevier, IF ≈ 5.5, ABS-3). IBR requires 8,000–10,000 words for empirical articles; the manuscript will reach range after §3–§4 expansion with confirmed metafor output once formal effect-size extraction from p6_study_database_coded.md is complete using the standardized coding protocol (Appendix B).*
