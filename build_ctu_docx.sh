@@ -94,10 +94,14 @@ echo "[4] English manuscripts..."
     p5_china_en_clean.md \
     -o "${DIST}/manuscripts/en/p5_china_en_clean.docx"
 )
-# P6: meta-analysis manuscript
-[ -f "${SCRIPT_DIR}/p6/p6_meta_manuscript_en.md" ] && \
-  ${PANDOC_EN} "${SCRIPT_DIR}/p6/p6_meta_manuscript_en.md" \
+# P6: meta-analysis manuscript — figures in p6/figures/ — run from p6/ dir
+[ -f "${SCRIPT_DIR}/p6/p6_meta_manuscript_en.md" ] && (
+  cd "${SCRIPT_DIR}/p6" && \
+  pandoc -f gfm -t docx --resource-path=. \
+    --reference-doc="${PAPER_REF}" \
+    p6_meta_manuscript_en.md \
     -o "${DIST}/manuscripts/en/p6_meta_en_clean.docx"
+)
 # P7: capstone multi-country (no figures)
 [ -f "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md" ] && \
   ${PANDOC_EN} "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md" \
