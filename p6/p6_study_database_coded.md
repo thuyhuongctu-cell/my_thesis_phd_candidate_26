@@ -224,7 +224,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S82 | Purkayastha et al. (2017) | 0.029 | 185 | India | ~2010–15 | III | L | SPN | FSTS | ACC | India conglomerates |
 | S83 | Abdi & Aulakh (2018) | 0.09 | 2,620 | Multi/Emg | ~2010–15 | MX | M | SPN | FSTS | ACC | JIBS emerging mkt |
 | S84 | Booltink & Saka-Helmhout (2018) | −0.048 | 947 | Multi | ~2010–15 | MX | M | SPN | OTH | ACC | R&D mod. |
-| S85 | Cho & Lee (2018) | −0.029 | 232 | Korea | ~2010–15 | I | M | SPN | FSTS | ACC | Family firms Korea |
+| S85 | Cho & Lee (2018) | −0.029 | 232 | Korea | ~2010–15 | I | H | SPN | FSTS | ACC | Family firms Korea; cDAI=H (Korea advanced digital, post-2010; corrected from M) |
 | S86 | Pouresmaeili et al. (2018) | 0.69 | 226 | Iran | ~2011–16 | FR | L | SPN | EXP | ACC | Iran SMEs high r |
 | S87 | Hojnik et al. (2018) | −0.14 to 0.21 | 147–387 | Slovenia | ~2010–15 | I | M | SPN | EXP | ACC | Slovenia; 7 eff |
 | S88 | Thi Ngoc Huynh et al. (2018)† | −0.051 | 12,704 | Vietnam | ~2009–15 | III | L | SPN | EXP | LAB | WBES-based |
@@ -345,8 +345,8 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S192 | Tu & Huynh (2021) **AUTHOR** | +0.03 (est.) | 90 | Ecuador mfg | 2003–17 | MX | L | SPN | FSTS | ACC | RWE 12(1); panel; inverse S-curve; LatAm context |
 | S193 | García-Sánchez & Rama (2024) **NEW** | +0.09 (est.) | 267 | Spain mfg | 2010–17 | II | H | SPN | FSTS | ACC | EBR 14(4); Bayesian; heterogeneous firm-level effects |
 | S194 | Godbole (2024) **NEW** | +0.08 (est.) | ~120 | India listed family | ~2015–22 | III | M | FOL | COMP | MIX | BSD 7(3); NIFTY500 family firms; GMM; financial+innovation |
-| S195 | Barłożewski & Trąpczyński (2021a) | +0.06 (est.) | 200 | Poland | ~2014–19 | I | M | FOL | FSTS | ACC | EBER 9; Polish M-P motives |
-| S196 | Barłożewski & Trąpczyński (2021b) | +0.04 (est.) | 200 | Poland | ~2014–19 | I | M | FOL | FSTS | ACC | OC 12; novice internationalizers |
+| S195 | Barłożewski & Trąpczyński (2021a) | +0.06 (est.) | 200 | Poland | ~2014–19 | I | M | FOL | FSTS | ACC | EBER 9; full-sample n=200; see S236 for exporter-subsample (n=97, confirmed r) |
+| S196 | Barłożewski & Trąpczyński (2021b) | +0.04 (est.) | 200 | Poland | ~2014–19 | I | M | FOL | FSTS | ACC | OC 12; full-sample n=200; see S237 for larger-sample (n=304, confirmed r) |
 | S197 | Calabrese & Manello (2018) | +0.08 (est.) | 300 | Italy | ~2005–15 | II | M | SPN | FSTS | ACC | JPM; Italy policy evidence |
 | S198 | Cao et al. (2022) | +0.07 (est.) | 400 | China | ~2010–20 | III | H | FOL | FSTS | ACC | PLoS ONE; social networks China |
 | S199 | Carr et al. (2010) | +0.05 (est.) | 150 | Multi | ~2000–07 | MX | L | PRE | FSTS | ACC | SEJ; firm age at intl |
@@ -386,12 +386,15 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S233 | Kayaci (2022) | +0.06 (est.) | 200 | Turkey | ~2015–20 | II | H | FOL | COMP | ACC | CumJourn; BIST-listed Turkey |
 | S234 | Yip et al. (2000) | +0.06 (est.) | 150 | Multi | ~1992–98 | MX | L | PRE | COMP | ACC | JIM; newly internationalizing firms |
 | S235 | Freixanet & Rialp (2021) GSJ | +0.08 (est.) | 1,500 | Spain | ~2008–16 | II | M | FOL | EXP | MIX | GSJ; I→P with innovation mediator (distinct from S101 EMJ) |
+| S236 | Barłożewski & Trąpczyński (2021a) | −0.10 | 97 | Poland | ~2014–19 | MX | M | SPN | FSTS | ACC | EBER 9; exporter subsample n=97; r confirmed (see S195 for full-sample n=200 est.) |
+| S237 | Barłożewski & Trąpczyński (2021b) | −0.04 | 304 | Poland | ~2014–19 | MX | M | FOL | FSTS | ACC | OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.) |
+| S238 | Cho & Lee (2018) | −0.029 | 232 | Korea | ~2010–15 | I | H | SPN | FSTS | ACC | Family firms Korea; cDAI corrected to H (was M at S85); verify before final analysis |
 
 ---
 
 ## 5. Tóm tắt Phân phối Moderator (k = 238 studies, K = 288 effects)
 
-> *Cập nhật 15/05/2026: k=235→238 do bổ sung S236 Barłożewski (2021a), S237 Barłożewski (2021b), S238 Cho & Lee (2018). Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` (K=288 rows) để có số liệu chính xác theo effect.*
+> *Cập nhật 16/05/2026: k=238. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). S238 = Cho & Lee (2018) confirmed cDAI=H variant of S85 (same paper, corrected coding — verify before final analysis). Table rows S01–S238 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` (K=288 rows) để có số liệu chính xác theo effect.*
 >
 > **Ghi chú về chênh lệch K: MetaEssentials vs forest_data (16/05/2026)**
 >
