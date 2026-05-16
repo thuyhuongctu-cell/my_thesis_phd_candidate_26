@@ -108,7 +108,7 @@ S81,S81,Nosi et al.,2017,0.305,169,Italy SME,2010,2015,II,L,SPN,EXP,ACC,1,0,Nich
 S82,S82,Purkayastha et al.,2017,0.029,185,India,2010,2015,III,L,SPN,FSTS,ACC,1,0,India conglomerates
 S83,S83,Abdi & Aulakh,2018,0.09,2620,Multi/Emg,2010,2015,MX,M,SPN,FSTS,ACC,1,0,JIBS emerging mkt
 S84,S84,Booltink & Saka-Helmhout,2018,-0.048,947,Multi,2010,2015,MX,M,SPN,OTH,ACC,1,0,R&D mod.
-S85,S85,Cho & Lee,2018,-0.029,232,Korea,2010,2015,I,M,SPN,FSTS,ACC,1,0,Family firms Korea
+S85,S85,Cho & Lee,2018,-0.029,232,Korea,2010,2015,I,H,SPN,FSTS,ACC,1,0,"Family firms Korea; cDAI=H (Korea advanced digital, post-2010; corrected from M)"
 S86,S86,Pouresmaeili et al.,2018,0.69,226,Iran,2011,2016,FR,L,SPN,EXP,ACC,1,0,Iran SMEs high r
 S87,S87,Hojnik et al.,2018,0.035,267,Slovenia,2010,2015,I,M,SPN,EXP,ACC,1,0,Slovenia; 7 eff
 S88,S88,Thi Ngoc Huynh et al.,2018,-0.051,12704,Vietnam,2009,2015,III,L,SPN,EXP,LAB,1,0,WBES-based
@@ -243,8 +243,8 @@ S191,S191,Phan et al.,2021,0.05,131,Poland mfg-svc,2013,2016,I,M,SPN,FSTS,ACC,1,
 S192,S192,Tu & Huynh,2021,0.03,90,Ecuador mfg,2003,2017,MX,L,SPN,FSTS,ACC,1,1,RWE 12(1); panel; inverse S-curve; LatAm context
 S193,S193,García-Sánchez & Rama,2024,0.09,267,Spain mfg,2010,2017,II,H,SPN,FSTS,ACC,1,1,EBR 14(4); Bayesian; heterogeneous firm-level effects
 S194,S194,Godbole,2024,0.08,120,India listed family,2015,2022,III,M,FOL,COMP,MIX,1,1,BSD 7(3); NIFTY500 family firms; GMM; financial+innovation
-S195,S195,Barłożewski & Trąpczyński (2021a),,0.06,200,Poland,2014,2019,I,M,FOL,FSTS,ACC,1,1,EBER 9; Polish M-P motives
-S196,S196,Barłożewski & Trąpczyński (2021b),,0.04,200,Poland,2014,2019,I,M,FOL,FSTS,ACC,1,1,OC 12; novice internationalizers
+S195,S195,Barłożewski & Trąpczyński (2021a),,0.06,200,Poland,2014,2019,I,M,FOL,FSTS,ACC,1,1,"EBER 9; full-sample n=200; see S236 for exporter-subsample (n=97, confirmed r)"
+S196,S196,Barłożewski & Trąpczyński (2021b),,0.04,200,Poland,2014,2019,I,M,FOL,FSTS,ACC,1,1,"OC 12; full-sample n=200; see S237 for larger-sample (n=304, confirmed r)"
 S197,S197,Calabrese & Manello,2018,0.08,300,Italy,2005,2015,II,M,SPN,FSTS,ACC,1,1,JPM; Italy policy evidence
 S198,S198,Cao et al.,2022,0.07,400,China,2010,2020,III,H,FOL,FSTS,ACC,1,1,PLoS ONE; social networks China
 S199,S199,Carr et al.,2010,0.05,150,Multi,2000,2007,MX,L,PRE,FSTS,ACC,1,1,SEJ; firm age at intl
@@ -284,3 +284,5 @@ S232,S232,Huang & Marciano,2020,0.05,200,Multi,2010,2018,MX,M,SPN,FSTS,ACC,1,1,I
 S233,S233,Kayaci,2022,0.06,200,Turkey,2015,2020,II,H,FOL,COMP,ACC,1,1,CumJourn; BIST-listed Turkey
 S234,S234,Yip et al.,2000,0.06,150,Multi,1992,1998,MX,L,PRE,COMP,ACC,1,1,JIM; newly internationalizing firms
 S235,S235,Freixanet & Rialp,2021,0.08,1500,Spain,2008,2016,II,M,FOL,EXP,MIX,1,1,GSJ; I→P with innovation mediator (distinct from S101 EMJ)
+S236,S236,Barłożewski & Trąpczyński (2021a),,-0.1,97,Poland,2014,2019,MX,M,SPN,FSTS,ACC,1,0,EBER 9; exporter subsample n=97; r confirmed (see S195 for full-sample n=200 est.)
+S237,S237,Barłożewski & Trąpczyński (2021b),,-0.04,304,Poland,2014,2019,MX,M,FOL,FSTS,ACC,1,0,OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.)
