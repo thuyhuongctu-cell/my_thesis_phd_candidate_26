@@ -48,7 +48,7 @@
 | 8 | **Selection process**: State the process for selecting studies (e.g., screening, eligibility), including the number of reviewers involved in each stage and how discrepancies were resolved. | §3.2: "Two independent screeners… two stages (title/abstract then full-text)… disagreements resolved by third reviewer (majority decision)" | ✅ |
 | 9 | **Data collection process**: Specify the methods used to collect data from reports, including the number of coders and how disagreements were handled. | §3.3.1: "primary coder (PI: Đỗ Thùy Hương)… standardized coding form (Appendix B)"; §3.3.2: ICR 3-stage protocol with calibration, independent coding (20% subsample), adjudication | ✅ |
 | 10 | **Data items**: List and define all variables for which data were sought; describe any assumptions. | §3.3.1: 7 variables listed (N, r, year range, country, DOI type, performance type, moderators); §3.4: 7 moderators defined with exact coding rules; Appendix B table | ✅ |
-| 11 | **Study risk of bias assessment**: Specify the methods used to assess the risk of bias in included studies (e.g., a tool, criteria). | Not explicitly assessed study-by-study. Standard in I→P meta-analysis to rely on publication-bias correction at synthesis level rather than study-level quality score. Consider adding a sentence: "Study-level quality assessment was not conducted; risk of bias at the synthesis level is addressed through publication bias tests (§3.6)." | ❌ Add note to §3 |
+| 11 | **Study risk of bias assessment**: Specify the methods used to assess the risk of bias in included studies (e.g., a tool, criteria). | §3.3.3 Study-Level Risk of Bias: no formal RoB instrument applied (consistent with I→P meta-analysis practice); synthesis-level bias addressed via Egger's test, Begg & Mazumdar rank correlation, and trim-and-fill (§3.6). | ✅ Complete |
 | 12 | **Effect measures**: Specify the effect measure(s) used in the synthesis (e.g., risk ratio, mean difference). | §3.5: "All Pearson's *r* values are transformed to Fisher's *z* prior to analysis… back-transformed to *r* for interpretability"; conversion hierarchy β→r, t→r, F→r specified | ✅ |
 | 13 | **Synthesis methods**: Describe planned methods for synthesising results, including heterogeneity quantification (e.g., *I*²) and any other statistical models. | §3.5: Three-level MARA specified; REML via `rma.mv`; heterogeneity decomposition formulas for *I*²_(2) and *I*²_(3); moderator omnibus *Q*_M test; Holm–Bonferroni pairwise correction | ✅ |
 | 14 | **Reporting bias assessment**: Describe planned methods to investigate reporting biases (e.g., publication bias). | §3.6: Four complementary tests — Egger's weighted regression, Begg–Mazumdar rank correlation, trim-and-fill, Orwin's FSN; plus PET-PEESE meta-regression | ✅ |
@@ -63,7 +63,7 @@
 | 16a | **Study selection**: Describe the results of the search and selection process (PRISMA flow diagram recommended). | §3.2 last paragraph: PRISMA 2020 flow inline text with TBD counts; Appendix A: full ASCII flow diagram | ⚠️ TBD counts after formal search |
 | 16b | **Exclusion reasons**: Present reasons for exclusions at the full-text stage in sufficient detail. | Appendix A: six exclusion reasons at full-text stage; §3.2 inline | ⚠️ Counts TBD |
 | 17 | **Study characteristics**: Cite each included study; present their characteristics (PICO data, etc.). | §4.1: Sample description — *k* = 238 studies, *K* = 288 effect sizes; Table 3.1 (ICR statistics); forest_data.csv contains all study-level data | ⚠️ Formal Table of Study Characteristics (all k studies listed) not yet in manuscript |
-| 18 | **Risk of bias in studies**: Present risk-of-bias assessments for each study. | Not assessed (see Item 11). | ❌ Consistent with Item 11 decision |
+| 18 | **Risk of bias in studies**: Present risk-of-bias assessments for each study. | Consistent with §3.3.3 — no per-study RoB scores. Synthesis-level bias diagnostics reported in §4.4 (Egger's, trim-and-fill, PET-PEESE). Acknowledged as study-design constraint in Limitations (§6). | ✅ Addressed (synthesis-level; per-study not applicable) |
 | 19 | **Results of individual studies**: Present results from each study — at minimum, effect estimate for each synthesis outcome. | Forest plots in Figures 1–2 show individual study r-values; supplementary `forest_data.csv` | ✅ |
 | 20 | **Results of syntheses**: Present the results of all syntheses (pooled r, CI, heterogeneity, moderator results). | §4.2 Baseline, §4.3 Moderator analyses (Tables 2–4), §4.4 Publication bias | ✅ |
 | 21 | **Reporting biases**: Present the results of assessments of reporting biases (publication bias). | §4.5: Egger's *p*, trim-fill adjusted *r*, Orwin's FSN, PET-PEESE results | ✅ |
@@ -98,9 +98,9 @@
 
 | Status | Count | Items |
 |--------|-------|-------|
-| ✅ Complete | 19 | 1, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 19, 20, 21, 23, 25, 27, 28, 29 |
+| ✅ Complete | 21 | 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 23, 25, 27, 28, 29 |
 | ⚠️ Partial (fill after formal search) | 7 | 2, 6, 16a, 16b, 17, 24, 26 |
-| ❌ Missing / not addressed | 4 | 11, 15, 18, 22 |
+| ❌ Missing / not addressed | 2 | 15, 22 |
 
 ### Action list before IBR submission
 

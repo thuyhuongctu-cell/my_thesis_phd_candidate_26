@@ -188,6 +188,10 @@ The inter-coder reliability (ICR) protocol followed a three-stage design. In **S
 
 ICR was assessed using Cohen's κ for categorical variables (ICRV regime, DPL phase, industry sector, DOI measure type, performance measure type) and the two-way random-effects ICC(2,1) for continuous cDAI scores. The target threshold of κ ≥ 0.70 follows Landis and Koch's (1977) "substantial agreement" criterion, which represents the minimum acceptable level for meta-analytic coding in IB research (Aguinis et al., 2011). ICR statistics are reported in Table 3.1 (see Results, §4.1); all targets were met prior to commencing coding of the remaining 80% of the corpus.
 
+#### 3.3.3 Study-Level Risk of Bias
+
+Consistent with established practice in internationalization–performance meta-analysis (Bausch & Krist, 2007; Marano et al., 2016), no formal study-level risk-of-bias instrument (e.g., RoB 2, ROBINS-I) was applied to individual primary studies. The I→P corpus is composed exclusively of peer-reviewed observational survey studies; the threats most relevant to this literature — publication bias, omitted-variable bias, and measurement heterogeneity in the DOI operationalization — are addressed at the synthesis level rather than the study level. Publication bias is assessed via Egger's regression test, Begg and Mazumdar's (1994) rank-correlation test, and Duval and Tweedie's (2000) trim-and-fill procedure (§3.6). Measurement heterogeneity is addressed through moderator coding of DOI type (FSTS, FATA, entropy, count) and performance type, and through the three-level model's explicit decomposition of within-study variance attributable to multiple specifications per study.
+
 ### 3.4 Moderator Coding Protocol
 
 Seven moderators were coded for each effect size: four standard moderators replicated from prior I→P meta-analyses (Marano et al., 2016) and three novel moderators introduced in the present study.
