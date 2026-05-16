@@ -65,13 +65,14 @@ None active in `.plans/` (clean state).
 
 ---
 
-## Pending (analysis-dependent — require Stata re-run or external data)
-1. P3: Lind-Mehlum 4-condition full report per Haans et al. (2016)
-2. P3: Cubic FSTS³ test with AIC/BIC comparison
-3. P3: Marginal effects table at 10%/30%/50%/70% FSTS
-4. P6: PRISMA formal search (WoS+Scopus) — fill in `p6/p6_wos_search_guide.md` [TBD] counts after manual search
-5. P6: Part 5 Nhóm A studies [S-140]–[S-144] — PDFs needed to extract r values before assigning S239–S243
-6. New skill installed: `meta-analysis-internationalization-performance` (15/05/2026)
+## Pending (external data required)
+1. P6: PRISMA formal search (WoS+Scopus) — fill in `p6/p6_wos_search_guide.md` [TBD] counts after manual search
+2. P6: Part 5 Nhóm A studies [S-140]–[S-144] — PDFs needed to extract r values before assigning S239–S243
+
+~~P3: Lind-Mehlum 4-condition full report~~ ✅ RESOLVED (§4.2, C1–C4 per Haans et al. 2016, commit 5f8ac68)  
+~~P3: Cubic FSTS³ test with AIC/BIC~~ ✅ RESOLVED (§4.5, β=-1.763 p=.287, AIC/BIC favour quadratic)  
+~~P3: Marginal effects table 10/30/50/70%~~ ✅ RESOLVED (Table 4b in §4.2, β1=0.984 β2=-1.909)  
+New skill installed: `stata-khong-license-giai-phap` (16/05/2026) — Python/R econometrics alternatives
 
 ~~P6: r-values for S-116/S-117~~ ✅ RESOLVED (S236: r=−0.10; S237: r=−0.04)  
 ~~P6: S-62 citation correction~~ ✅ RESOLVED (Lee et al. 2014, IJCHM, US hotels, fp_type=MKT)
