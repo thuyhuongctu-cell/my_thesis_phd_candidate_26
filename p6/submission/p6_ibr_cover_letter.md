@@ -32,7 +32,7 @@ This manuscript is original, has not been published previously, and is not under
 
 - Paper type: Research article (meta-analysis)
 - Word count (main text, excluding abstract, references, tables, and figures): approximately 8,000 words
-- Studies (*k*): 235 primary studies; approximately 385 effect sizes
+- Studies (*k*): 238 primary studies; 288 effect sizes (pre-formal-search baseline)
 - Keywords: internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; ICRV; Digital Paradox Lifecycle; Asia-Pacific
 - JEL classification: F23, O33, C83, O53
 

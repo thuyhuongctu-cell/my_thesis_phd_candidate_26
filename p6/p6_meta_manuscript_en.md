@@ -625,7 +625,7 @@ Effect sizes coded: K = [TBD]
 | *I*²_total | 87.92% | 62.5% |
 | *I*²_(2) within-study | — | 54.1% |
 | *I*²_(3) between-study | — | 8.4% |
-| *k* studies | 113 | 235 |
+| *k* studies | 113 | 238 |
 | *K* effects | — | 288 (pre-formal-search) |
 | σ²_(2) | — | 0.00878 |
 | σ²_(3) | — | 0.00136 |

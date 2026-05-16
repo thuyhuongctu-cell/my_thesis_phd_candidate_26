@@ -96,8 +96,8 @@ Generative AI tools were used during manuscript preparation to assist with langu
 |---|---|
 | Paper type | Research article (systematic meta-analysis) |
 | Word count (main text) | Approximately 8,000 words |
-| Studies (*k*) | 235 primary studies |
-| Effect sizes | Approximately 385 |
+| Studies (*k*) | 238 primary studies |
+| Effect sizes | 288 (pre-formal-search baseline) |
 | Tables | 4 (inline) |
 | Figures | 3 (forest plot, funnel plot, moderator bubble plot) |
 | Keywords | internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; ICRV; Digital Paradox Lifecycle; Asia-Pacific |

@@ -51,8 +51,8 @@
 | Abstract | ~300 words |
 | Tables | 5 (+ appendices) |
 | Figures | 5 |
-| Studies (k) | 235 |
-| Effect sizes | ~385 |
+| Studies (k) | 238 |
+| Effect sizes | 288 (pre-formal-search baseline) |
 | Baseline pooled r | 0.075 (95% CI [0.061, 0.089]) |
 | I² total | 62.5% |
 
