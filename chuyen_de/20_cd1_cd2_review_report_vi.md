@@ -85,7 +85,7 @@ Pattern không hoàn toàn đơn điệu (Emerging < Upper-middle).
 
 ### A.6 🟠 Phần 1 chưa cập nhật v2.5
 
-**Vấn đề**: Phần 1 hiện tại là v2.2 — chưa có thông tin pool 101K, 47 nước, 107 country-years. Mục 1.5 vẫn ghi "5 đợt khảo sát năm 2025" (số cũ).
+**Vấn đề**: Phần 1 hiện tại là v2.2 — chưa có thông tin pool 101K, 47 nước, 108 country-years. Mục 1.5 vẫn ghi "5 đợt khảo sát năm 2025" (số cũ).
 
 **Khuyến nghị sửa**: 
 - Cập nhật phiên bản trên đầu Phần 1: v2.2 → v2.5
@@ -292,7 +292,7 @@ reg ..., vce(cluster cluster_id)
 
 ### E.1 Điểm mạnh (cần giữ nguyên)
 
-✅ **Phạm vi dữ liệu rộng nhất văn liệu**: 101.035 doanh nghiệp × 47 nước × 107 country-years × 14 năm (2009–2025) — chưa có nghiên cứu nào trong văn liệu IB đạt được phạm vi này.
+✅ **Phạm vi dữ liệu rộng nhất văn liệu**: 101.185 doanh nghiệp × 47 nước × 108 cặp quốc gia × năm × 14 năm (2009–2025) — chưa có nghiên cứu nào trong văn liệu IB đạt được phạm vi này.
 
 ✅ **Khung lý thuyết tích hợp 4 tầng + Digital Lens** — đầy đủ và logic chặt chẽ; đối chiếu rõ ràng với 4 khung tham chiếu lớn (Bausch & Krist 2007, Marano 2016, Banalieva 2019, Wu et al. 2022).
 

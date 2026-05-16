@@ -530,7 +530,7 @@ Winsorization 1% và 5% đối với labor productivity và employment, áp dụ
 |---|---|---|
 | Mixed design | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **47 châu Á + Pacific economies** trong một luận án |
 | Meta-analysis 1982–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng coverage, bổ sung digital và 6 sub-regime ICRV moderators |
-| Pool empirical | Đỗ & Phan (2026 — VEFR) — 17 nước châu Á mới nổi | Mở rộng từ 17 → **47 nước** với 101.185 doanh nghiệp · 107 country-years |
+| Pool empirical | Đỗ & Phan (2026 — VEFR) — 17 nước châu Á mới nổi | Mở rộng từ 17 → **47 nước** với 101.185 doanh nghiệp · 108 cặp quốc gia × năm |
 | Labor productivity DV | Bloom et al. (2012); Hsieh & Klenow (2009); Đỗ & Phan (2026 — VEFR) | Lập luận rõ về firm performance đa chiều trong bối cảnh WBES |
 | FSTS + FSTS² + FSTS³ | Lu & Beamish (2004); Hitt et al. (1997); Đỗ & Phan (2026 — JFAR) | Đưa vào cùng three-way moderation framework |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Non-overlapping construct purity protocol cho WBES; digital shield mở rộng (Đỗ & Phan, 2026 — VEFR) |
