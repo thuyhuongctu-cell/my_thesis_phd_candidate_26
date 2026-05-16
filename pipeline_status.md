@@ -67,6 +67,9 @@
 - All 6 submission blinded docx rebuilt: P4 (5 commits stale), P5, P6 (k=238/K=288 stale), P7, P8 (committed 1558bea, ff28030, 66862e2, f0f4e4b)
 - dist/ full rebuild: 7 thesis docx + 5 CTU chapters + 6 English manuscripts (P3–P8, P8 newly added) all rebuilt from current sources (committed af50029)
 - dist/manuscripts/vi/: P3/P4/P5 vi docx rebuilt — were stale (dist built at 39287bc; sources updated in fa2142e table-numbering fix and 068c193 citation additions) (committed 955c8e6)
+- writing_guides/09: stale target journals updated — P3 JFAR→JABS, P4 IBR→MIR, P5 APJM→IJOEM, P6 TBD→IBR (committed 7a0fc97)
+- p6/21_p6_meta_vi.md: P3 self-citation journal corrected APJM→Journal of Asia-Pacific Business (committed 7a0fc97)
+- P4: APA7 journal/volume italic format standardized across all 30 references (*Journal*, *Vol* → *Journal, Vol*); internal process notes removed from §4.4 body (committed a3eeabd, cb25e7c, 9e7cc55); MIR blinded docx and dist/en/ rebuilt
 
 ## Coordination Files
 None active in `.plans/` (clean state).
