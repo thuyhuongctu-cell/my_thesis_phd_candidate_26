@@ -138,7 +138,7 @@ Query chính (WoS Advanced Search, Topic Search):
 
 Kết quả: WoS = [n = TBD, ngày search: __/05/2026]; Scopus = [n = TBD]. Tổng sau deduplication: [n = TBD].
 
-**Tìm kiếm bổ sung**: (1) Backward citation scan của 5 meta-analyses lớn (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) — quét toàn bộ reference lists để thu thập studies xuất bản trước khi tập trung vào các khu vực địa lý hoặc thước đo chưa được phủ đầy; (2) Hand-search các nghiên cứu của nhóm tác giả về I→P tại châu Á (2020–2026); (3) Forward citation search qua scite.ai cho 3 anchor studies (Lu & Beamish, 2004; Contractor et al., 2003; Hitt et al., 1997).
+**Tìm kiếm bổ sung**: (1) Backward citation scan của 5 meta-analyses lớn (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) — quét toàn bộ reference lists; (2) Tìm kiếm bổ sung trên ABI/INFORM Complete, Business Source Complete, ScienceDirect, SpringerLink, và Emerald Insight để bao phủ các tạp chí chuyên ngành không có đầy đủ trên WoS/Scopus; (3) Hand-search nghiên cứu của nhóm tác giả về I→P (2020–2026); (4) Forward citation search qua Google Scholar cho 5 anchor studies (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022).
 
 OSF preregistration xác định trước: câu hỏi nghiên cứu, tiêu chí inclusion/exclusion, coding protocol 7 moderators, kế hoạch phân tích three-level MARA.
 
@@ -660,4 +660,4 @@ Studies included in meta-analysis: n = 135
 
 ---
 
-*Bản thảo v1.5 (16/05/2026). NCS: Đỗ Thùy Hương. HD: PGS.TS. Phan Anh Tú. Trường Đại học Cần Thơ. Khoa Kinh tế. Chuyên ngành: Quản trị kinh doanh. Kết quả minh họa trong §4 được hoàn thiện bằng `metafor` (R) sau khi hoàn thành WoS/Scopus formal search. Database: S001–S238 (baseline 113 từ ICBEF 2025 + S114–S175 backward scan + S176–S194 author papers + S195–S235 scite.ai/Consensus screen + S236–S238 bổ sung 16/05/2026). Coding database: `p6/p6_study_database_coded.md`; APA citations: `p6/p6_primary_studies_apa7.md`; effect data: `p6/results/forest_data.csv` (K=288).*
+*Bản thảo v1.6 (16/05/2026). NCS: Đỗ Thùy Hương. HD: PGS.TS. Phan Anh Tú. Trường Đại học Cần Thơ. Khoa Kinh tế. Chuyên ngành: Quản trị kinh doanh. Kết quả minh họa trong §4 được hoàn thiện bằng `metafor` (R) sau khi hoàn thành formal search. Database: S001–S238 (baseline 113 từ ICBEF 2025 + S114–S175 backward scan + S176–S194 author papers + S195–S235 forward/supplementary screen + S236–S238 bổ sung 16/05/2026). Coding database: `p6/p6_study_database_coded.md`; APA citations: `p6/p6_primary_studies_apa7.md`; effect data: `p6/results/forest_data.csv` (K=288). Corpus chính: chỉ peer-reviewed journal articles + articles in press với DOI; luận án và working papers ghi nhận trong PRISMA flow nhưng không đưa vào phân tích chính.*
