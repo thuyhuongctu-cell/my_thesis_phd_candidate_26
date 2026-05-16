@@ -78,6 +78,12 @@
 - p6/p6_prisma_flow.md v2.2: IDENTIFICATION box updated (5 supplementary DBs added, scite.ai→Google Scholar); Level 1 screening: "Non-peer-reviewed publication" exclusion added; §2 WoS+Scopus queries updated to expanded global strings; §3 exclusion criterion 6 expanded; INCLUDED breakdown updated; version history logged (committed eccd3d8)
 - p6/21_p6_meta_vi.md v1.6: §3.1 supplementary search rewritten (5 databases + Google Scholar forward citation, 5 anchor metas); footer updated — scite.ai→forward/supplementary screen; peer-reviewed-only corpus note added (committed 7dc2e48)
 - dist/manuscripts/en/p6_meta_en_clean.docx rebuilt — was stale since search protocol expansion (committed 28cb442)
+- p6/p6_study_database_coded.md: S236/S237/S238 table rows added; S85/S195/S196 notes corrected; all 238 studies now documented in markdown (committed cfb97ab)
+- dist/chuyen_de_1/: CĐ1 docx (57KB) and CĐ2 docx (790KB with figures) first-ever built from source files (committed 39ac92b)
+- dist/submission_packages/CD1+CD2 rebuilt — stale since 01aad57 (committed 09cdcd3)
+- p4/submission/mir_package/01_manuscript_blinded.docx rebuilt — 3 commits stale: APA7 refs, §4.4 process notes removed (committed 6e8bb98)
+- build_ctu_docx.sh: P8 entry added; P3 and P6 fixed to use --resource-path=. from their own dir (figures were being silently dropped in root-level builds); P3 dist and JABS blinded docx rebuilt with all 6 figures (1.6MB); P6 dist and IBR blinded already had correct sizes (committed 1676f1b, 50b74ab, 7282d4c)
+- P3 Haans ref title: "inverted-U-shaped"→"inverted U-shaped" to match canonical form in thesis/04_references_apa7.md and P4/P5/P7/P8 (committed 1676f1b)
 
 ## Coordination Files
 None active in `.plans/` (clean state).
