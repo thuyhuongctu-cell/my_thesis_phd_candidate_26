@@ -98,6 +98,10 @@ echo "[4] English manuscripts..."
 [ -f "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md" ] && \
   ${PANDOC_EN} "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md" \
     -o "${DIST}/manuscripts/en/p7_capstone_en_clean.docx"
+# P8: Pacific SIDS boundary condition (no inline figures)
+[ -f "${SCRIPT_DIR}/p8/p8_pacific_sids_en_clean.md" ] && \
+  ${PANDOC_EN} "${SCRIPT_DIR}/p8/p8_pacific_sids_en_clean.md" \
+    -o "${DIST}/manuscripts/en/p8_pacific_sids_en_clean.docx"
 
 echo ""
 echo "=== Build complete ==="
