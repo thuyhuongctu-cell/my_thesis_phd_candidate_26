@@ -70,6 +70,11 @@
 - writing_guides/09: stale target journals updated — P3 JFAR→JABS, P4 IBR→MIR, P5 APJM→IJOEM, P6 TBD→IBR (committed 7a0fc97)
 - p6/21_p6_meta_vi.md: P3 self-citation journal corrected APJM→Journal of Asia-Pacific Business (committed 7a0fc97)
 - P4: APA7 journal/volume italic format standardized across all 30 references (*Journal*, *Vol* → *Journal, Vol*); internal process notes removed from §4.4 body (committed a3eeabd, cb25e7c, 9e7cc55); MIR blinded docx and dist/en/ rebuilt
+- P6 §3.1 search strategy: WoS/Scopus search string expanded — Asia-Pacific geographic filter removed; added FATA, geographic diversification, export ratio, foreign subsidiaries; added ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight to database coverage; ProQuest Dissertations removed
+- P6 §3.2 eligibility criteria: "Publication type" row added — main corpus restricted to peer-reviewed journal articles + articles in press with DOI; dissertations/theses/working papers/conference papers excluded from primary analysis
+- P6 §3.2: peer-review restriction paragraph inserted after eligibility table (exact text per user specification)
+- p6/p6_wos_search_guide.md: WoS and Scopus queries expanded to match manuscript §3.1; supplementary databases section added (Phần 3); "Non-peer-reviewed publication" exclusion reason added to Level 1 screening table; section headers renumbered (4→5, 5→6)
+- P6 IBR blinded docx rebuilt from updated manuscript source
 
 ## Coordination Files
 None active in `.plans/` (clean state).

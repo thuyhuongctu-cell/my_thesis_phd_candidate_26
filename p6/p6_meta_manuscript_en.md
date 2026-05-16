@@ -125,18 +125,23 @@ The methodological approach follows the APA Meta-Analysis Reporting Standards (C
 
 ### 3.1 Search Strategy and Study Identification
 
-**Database coverage.** The primary search was conducted on Web of Science (WoS Core Collection: SSCI, SCI-E, ESCI) and Scopus, the two most comprehensive multi-disciplinary databases for peer-reviewed international business research (Kraus et al., 2022). Supplementary hand-searching via backward citation tracking was applied to five anchor meta-analyses: Bausch and Krist (2007), Kirca et al. (2012), Marano et al. (2016), Schwens et al. (2018), and Arte and Larimo (2022). Google Scholar was searched with truncated variants of the primary string to identify grey literature and working papers meeting the eligibility criteria.
+**Database coverage.** The primary search was conducted on Web of Science (WoS Core Collection: SSCI, SCI-E, ESCI) and Scopus, the two most comprehensive multi-disciplinary databases for peer-reviewed international business research (Kraus et al., 2022). Supplementary searches were conducted in ABI/INFORM Complete, Business Source Complete (EBSCO), ScienceDirect, SpringerLink, and Emerald Insight to maximize coverage of specialist international business and management journals not fully indexed in WoS or Scopus. Supplementary hand-searching via backward citation tracking was applied to five anchor meta-analyses: Bausch and Krist (2007), Kirca et al. (2012), Marano et al. (2016), Schwens et al. (2018), and Arte and Larimo (2022); forward citation tracking was conducted in Google Scholar using the same five anchors to identify citing literature published after 2022.
 
 **Search string (WoS Topic field):**
 ```
 TS = ("internationalization" OR "internationalisation" OR "multinationality"
-      OR "degree of internationalization" OR "DOI" OR "export intensity")
+      OR "degree of internationalization" OR "degree of internationalisation"
+      OR "international diversification" OR "geographic diversification"
+      OR "foreign sales" OR "foreign sales to total sales" OR "FSTS"
+      OR "foreign assets" OR "foreign assets to total assets" OR "FATA"
+      OR "export intensity" OR "export scope" OR "export ratio"
+      OR "foreign market entry" OR "foreign subsidiaries")
 AND TS = ("firm performance" OR "enterprise performance" OR "corporate performance"
+          OR "financial performance" OR "business performance"
           OR "ROA" OR "Tobin's Q" OR "return on assets" OR "profitability"
-          OR "labor productivity" OR "total factor productivity")
-AND TS = ("Asia" OR "Asian" OR "Pacific" OR "China" OR "Vietnam" OR "Singapore"
-          OR "Korea" OR "Japan" OR "Indonesia" OR "Thailand" OR "emerging market"
-          OR "developing economy" OR "transition economy")
+          OR "labor productivity" OR "labour productivity" OR "total factor productivity"
+          OR "return on equity" OR "return on sales" OR "firm efficiency")
+AND TS = (correlation OR regression OR coefficient OR "effect size" OR "r =")
 ```
 
 An equivalent string using Scopus field codes (TITLE-ABS-KEY) was applied identically. The Scopus string was validated against a known-item set of 30 papers confirmed eligible from prior reading; recall was 97% (29/30), establishing adequate coverage.
@@ -157,6 +162,9 @@ Two independent screeners applied the eligibility criteria below in two stages: 
 | Effect size extractability | Correlation *r*; regression β (convertible to *r*_partial via Peterson & Brown, 2005); *t*-statistic with *df* (convertible via *r* = √[*t*²/(*t*²+*df*)]); *F*-statistic with *df*₁ = 1 | Structural equation model path loadings without associated *SE*; qualitative case studies; simulation studies; theoretical derivations without data |
 | Language | English; Vietnamese | Other languages unless the abstract confirms a convertible effect size |
 | Region | Any region; Asia-Pacific studies coded with ICRV regime identifier | — |
+| Publication type | Peer-reviewed journal articles; articles in press with DOI | Doctoral dissertations, master's theses, working papers, conference papers, book chapters, unpublished manuscripts, institutional reports |
+
+To ensure comparability and methodological quality across the primary-study corpus, the main meta-analysis was restricted to peer-reviewed journal articles and articles in press with identifiable DOI information. Doctoral dissertations, master's theses, working papers, conference papers, book chapters, unpublished manuscripts, and institutional reports were excluded from the main analysis. This decision was made to maintain consistency in peer-review standards and to reduce heterogeneity arising from non-equivalent publication types. Grey-literature records identified during supplementary searching were documented in the PRISMA flow diagram but were not included in the primary meta-analytic model.
 
 **PRISMA 2020 flow.** Records identified from electronic databases (WoS + Scopus): [*n* = TBD] → After automated deduplication: [*n* = TBD] → Title/abstract screen (two independent coders): [*n* = TBD] retained → Full-text eligibility assessment: [*n* = TBD] assessed → Effect size extractable and meeting all eligibility criteria: [*k* = TBD studies; *K* = TBD effect sizes]. Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The current working database (*k* = 238 coded studies; *K* = 288 effect sizes) was assembled from backward citation screening and hand-search prior to the formal database search; all counts will be updated to confirmed figures after the formal WoS/Scopus search is completed.
 

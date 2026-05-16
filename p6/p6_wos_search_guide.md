@@ -1,9 +1,11 @@
-# P6 — Hướng dẫn Tìm kiếm PRISMA trên Web of Science & Scopus
+# P6 — Hướng dẫn Tìm kiếm PRISMA trên Web of Science, Scopus & Cơ sở dữ liệu bổ sung
 
 > **Mục đích**: Ghi lại từng bước thực hiện tìm kiếm hệ thống cho meta-analysis P6  
 > **Chuẩn**: PRISMA 2020 (Page et al., 2021)  
 > **Người thực hiện**: Đỗ Thùy Hương  
 > **Ngày search**: ___/___/2026  
+> **Phiên bản**: v2 — Chuỗi toàn cầu (không bộ lọc địa lý); bổ sung ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight  
+> **Loại ấn phẩm**: Chỉ bài báo peer-reviewed trên tạp chí học thuật và articles in press có DOI. Luận án, working papers, conference papers, book chapters **không** đưa vào corpus chính.  
 
 ---
 
@@ -26,12 +28,18 @@
 
 ```
 TS=(internationaliz* OR internationalis* OR multinationality 
-    OR "degree of internationalization" OR "export intensity" 
-    OR "foreign sales ratio" OR FSTS OR "international diversification") 
+    OR "degree of internationalization" OR "degree of internationalisation"
+    OR "international diversification" OR "geographic diversification"
+    OR "foreign sales" OR "foreign sales to total sales" OR FSTS
+    OR "foreign assets" OR "foreign assets to total assets" OR FATA
+    OR "export intensity" OR "export scope" OR "export ratio"
+    OR "foreign market entry" OR "foreign subsidiaries")
 AND 
-TS=("firm performance" OR "corporate performance" OR "financial performance" 
+TS=("firm performance" OR "enterprise performance" OR "corporate performance"
+    OR "financial performance" OR "business performance"
     OR "labor productivity" OR "labour productivity" OR profitability 
-    OR "Tobin's q" OR "return on assets" OR ROA OR "return on equity")
+    OR "Tobin's q" OR "return on assets" OR ROA OR "return on equity"
+    OR "return on sales" OR "total factor productivity" OR "firm efficiency")
 AND
 TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
 ```
@@ -42,6 +50,8 @@ TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
 > - Tính từ: internationalized / internationalised  
 > - Phân từ hiện tại: internationalizing / internationalising  
 > - Số nhiều: internationalizations / internationalisations
+>
+> **Lưu ý bổ sung v2 (global search, không có bộ lọc địa lý):** Chuỗi tìm kiếm đã mở rộng để bắt đầy đủ các thước đo quốc tế hóa (FSTS, FATA, geographic diversification, export ratio, foreign subsidiaries) và không giới hạn vùng địa lý. Kết quả sẽ nhiều hơn đáng kể so với chuỗi có bộ lọc châu Á–Thái Bình Dương trước đây.
 
 ---
 
@@ -89,14 +99,20 @@ Số kết quả WoS:  n = ________
 > Dùng `internationaliz*` và `internationalis*` để bắt toàn bộ dạng từ (xem ghi chú §1.2).
 
 ```
-TITLE-ABS-KEY(internationaliz* OR internationalis* 
-    OR multinationality OR "degree of internationalization" 
-    OR "export intensity" OR FSTS OR "international diversification")
+TITLE-ABS-KEY(internationaliz* OR internationalis*
+    OR multinationality OR "degree of internationalization"
+    OR "degree of internationalisation"
+    OR "international diversification" OR "geographic diversification"
+    OR "foreign sales" OR "foreign sales to total sales" OR FSTS
+    OR "foreign assets" OR "foreign assets to total assets" OR FATA
+    OR "export intensity" OR "export scope" OR "export ratio"
+    OR "foreign market entry" OR "foreign subsidiaries")
 AND
-TITLE-ABS-KEY("firm performance" OR "corporate performance"
-    OR "financial performance" OR "labor productivity" 
-    OR "labour productivity" OR profitability 
-    OR "return on assets" OR Tobin)
+TITLE-ABS-KEY("firm performance" OR "enterprise performance"
+    OR "corporate performance" OR "financial performance" OR "business performance"
+    OR "labor productivity" OR "labour productivity" OR profitability
+    OR "return on assets" OR Tobin OR "return on equity"
+    OR "return on sales" OR "total factor productivity" OR "firm efficiency")
 AND
 TITLE-ABS-KEY(correlation OR regression OR coefficient OR "effect size")
 AND PUBYEAR > 1976 AND PUBYEAR < 2027
@@ -122,22 +138,56 @@ Số kết quả Scopus: n = ________
 
 ---
 
-## PHẦN 3 — DEDUPLICATION (Loại trùng)
+## PHẦN 3 — CƠ SỞ DỮ LIỆU BỔ SUNG
 
-Sau khi có cả hai file WoS + Scopus:
+Sau WoS và Scopus, thực hiện tìm kiếm bổ sung tại các cơ sở dữ liệu sau. Dùng chuỗi tìm kiếm ngắn gọn hơn (không cần layer thứ ba về thống kê vì các cơ sở dữ liệu này ít hỗ trợ wildcard phức tạp).
 
-1. Gộp 2 file vào 1 bảng Excel
+| Cơ sở dữ liệu | Truy cập | Ghi chú |
+|---------------|----------|---------|
+| ABI/INFORM Complete | ProQuest | Mạnh về quản trị, kinh doanh quốc tế |
+| Business Source Complete | EBSCO | Bao phủ tạp chí IBR, JWB, MIR |
+| ScienceDirect | Elsevier | IBR, JIBS, JWB (Elsevier-owned) |
+| SpringerLink | Springer | MIR, APJM, management journals |
+| Emerald Insight | Emerald | Tạp chí chuyên ngành management |
+
+**Chuỗi tìm kiếm rút gọn (cho cơ sở dữ liệu bổ sung):**
+```
+(internationalization OR internationalisation OR "foreign sales" OR FSTS OR FATA
+ OR "export intensity" OR "foreign subsidiaries")
+AND
+("firm performance" OR "financial performance" OR "labor productivity"
+ OR profitability OR "return on assets" OR "Tobin's Q")
+```
+
+**Bộ lọc:** Article / Journal Article; English; 1977–2026
+
+```
+ABI/INFORM:           n = ________
+Business Source:      n = ________
+ScienceDirect:        n = ________
+SpringerLink:         n = ________
+Emerald Insight:      n = ________
+Forward citation (Google Scholar, 5 anchors): n = ________
+```
+
+---
+
+## PHẦN 4 — DEDUPLICATION (Loại trùng)
+
+Sau khi có tất cả kết quả từ WoS, Scopus và cơ sở dữ liệu bổ sung:
+
+1. Gộp tất cả file vào 1 bảng Excel
 2. Xóa trùng theo **DOI** (ưu tiên) hoặc Title + Year
 3. Dùng Excel: **Data → Remove Duplicates** (cột DOI)
 
 ```
-Tổng WoS + Scopus:       n = ________
+Tổng tất cả nguồn:       n = ________
 Sau khi loại trùng:      n = ________   ← ghi vào PRISMA flow
 ```
 
 ---
 
-## PHẦN 4 — SCREENING LEVEL 1 (Tiêu đề + Tóm tắt)
+## PHẦN 5 — SCREENING LEVEL 1 (Tiêu đề + Tóm tắt)
 
 Duyệt từng dòng trong Excel, thêm cột **Decision** (INCLUDE / EXCLUDE) và cột **Reason**.
 
@@ -150,6 +200,7 @@ Duyệt từng dòng trong Excel, thêm cột **Decision** (INCLUDE / EXCLUDE) v
 | 3 | Nghiên cứu định tính hoặc conceptual thuần túy | qualitative |
 | 4 | Meta-analysis hoặc systematic review (không phải primary study) | meta |
 | 5 | Không phải tiếng Anh | language |
+| 6 | Không phải bài báo peer-reviewed trên tạp chí học thuật (luận án, working paper, conference paper, book chapter, institutional report) | non_peer_reviewed |
 
 ```
 Số bài sau Level 1:  n = ________
@@ -158,7 +209,7 @@ Số bài bị loại:      n = ________
 
 ---
 
-## PHẦN 5 — SCREENING LEVEL 2 (Full Text — PICO)
+## PHẦN 6 — SCREENING LEVEL 2 (Full Text — PICO)
 
 Tải PDF từng bài còn lại, kiểm tra 4 tiêu chí:
 
