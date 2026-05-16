@@ -16,6 +16,8 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 >
 > **Phiên bản 2.7 (10/05/2026 — Singapore innovation ecosystem 2025/2026)**: Bổ sung **Section Q mới** (5 entries) phục vụ cập nhật §1.1 và §5.1 của P4 Singapore: (i) Enterprise Singapore (2025) SWITCH 2025; (ii) GovTech Singapore (2024) Digital Government Rankings; (iii) IMDA (2025) ATxSG 2025; (iv) StartupBlink (2025) Global Startup Ecosystem Index; (v) StartupBlink (2026) Innovators Business Environment Index.
 >
+> **Phiên bản 2.8 (16/05/2026 — Data360 Global Progress Atlas + P8 in-text citations)**: Bổ sung (i) Pirlea et al. (2026) "Global Progress" chapter-level entry với URL `/global-progress` (Section P); (ii) in-text citations trong P8 §1 (SIDS development lag) và §3.2 (DAI null context — Mahler et al. 2026). Khatua et al. (2024) APA7 format corrected to advance online publication.
+>
 > **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **✓ RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
 
 > **Note**: Sections A, B, C, E, H, I, J, M, N, O giữ nguyên từ v2.1-v2.4 trừ phần entries mới được đánh dấu **(Mới v2.x)**.
@@ -230,6 +232,8 @@ Boeddu, G., Feyen, E., Martinez Jaramillo, S., Mesquita, S., Palta, Y., Sarkar, 
 Mahler, D., Wang, H., & Weber, M. (2026, May). Inequalities in use of and exposure to artificial intelligence. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. https://data360.worldbank.org/en/int/atlas/artificial-intelligence *(Mới v2.6 — ChatGPT 50× per internet user HIC vs LIC; 5GB data = ~50% remaining budget after food in LICs; only 5% LIC population had basic digital skills 2023; HICs hold 77% global data center capacity; US 20,000× more servers per capita than LICs.)*
 
 Pirlea, A. F., & Corso, L. (2026, May). The unfinished digital revolution: Expanding internet access. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. https://data360.worldbank.org/en/int/atlas/internet-access *(Mới v2.6 — 2,2 tỷ người offline (2025); Bangladesh: 100% 4G coverage nhưng chỉ 53% dùng Internet (coverage-to-connection gap); 280 triệu men online hơn women; Singapore/UAE/Chile >300 Mbps vs LIC <20 Mbps.)*
+
+Pirlea, A. F., Wadhwa, D., Mahler, D., Serajuddin, U., Welch, M., Thudt, A., & Lambrechts, M. (2026, May). Global progress. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. https://data360.worldbank.org/en/int/atlas/global-progress *(Mới v2.7 — progress slowest on record in 15 of 26 tracked development indicators; SIDS and Sub-Saharan Africa most affected; 75 years of development data: 121,249 data points · 107 datasets; per-capita income growth in LICs 2020–2025 below historical average; poorest quintile lost most ground since COVID-19 disruption.)*
 
 ---
 
