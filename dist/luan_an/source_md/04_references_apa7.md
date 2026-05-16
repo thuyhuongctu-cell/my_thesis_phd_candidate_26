@@ -16,6 +16,10 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 >
 > **Phiên bản 2.7 (10/05/2026 — Singapore innovation ecosystem 2025/2026)**: Bổ sung **Section Q mới** (5 entries) phục vụ cập nhật §1.1 và §5.1 của P4 Singapore: (i) Enterprise Singapore (2025) SWITCH 2025; (ii) GovTech Singapore (2024) Digital Government Rankings; (iii) IMDA (2025) ATxSG 2025; (iv) StartupBlink (2025) Global Startup Ecosystem Index; (v) StartupBlink (2026) Innovators Business Environment Index.
 >
+> **Phiên bản 2.8 (16/05/2026 — Data360 Global Progress Atlas + P8 in-text citations)**: Bổ sung (i) Pirlea et al. (2026) "Global Progress" chapter-level entry với URL `/global-progress` (Section P); (ii) in-text citations trong P8 §1 (SIDS development lag) và §3.2 (DAI null context — Mahler et al. 2026). Khatua et al. (2024) APA7 format corrected to advance online publication.
+>
+> **Phiên bản 2.9 (16/05/2026 — WB Working Papers từ upload 11 PDFs)**: Bổ sung **Section T mới** (5 entries) từ đánh giá 11 PDFs upload ngày 16/05/2026: (i) Agarwal, Barattieri & Mattoo (2026) WPS11352 — Vietnam firm LP tăng theo export demand shock; (ii) Barattieri, Mattoo & Signoret (2026) WPS11354 — Vietnam trade liberalization → +2.9%/yr productivity; (iii) Geginat & Ramalho (2015) WPS7460 — electricity quality & firm performance 183 countries (P8/CD1); (iv) Kim, Kumar, Ramalho & Russell (2026) WPS11279 — institutional capacity framework for ICRV (CD2/thesis); (v) Mahler, Serajuddin, Wadhwa & Yonzan (2026) WPS11350 — world slowest development pace 75 yrs, SIDS ≥100 yrs from standards (P8). **Disambiguation**: "Mahler, Serajuddin, Wadhwa & Yonzan (2026)" = WPS11350 ≠ "Mahler, Wang & Weber (2026)" = Atlas chapter (Section P). In-text citations added: P3 §5 (Agarwal + Barattieri), P8 §1 (Mahler et al. 2026b), CD2 §3.3 Tầng 3 (Kim et al. 2026).
+>
 > **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **✓ RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
 
 > **Note**: Sections A, B, C, E, H, I, J, M, N, O giữ nguyên từ v2.1-v2.4 trừ phần entries mới được đánh dấu **(Mới v2.x)**.
@@ -231,6 +235,8 @@ Mahler, D., Wang, H., & Weber, M. (2026, May). Inequalities in use of and exposu
 
 Pirlea, A. F., & Corso, L. (2026, May). The unfinished digital revolution: Expanding internet access. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. https://data360.worldbank.org/en/int/atlas/internet-access *(Mới v2.6 — 2,2 tỷ người offline (2025); Bangladesh: 100% 4G coverage nhưng chỉ 53% dùng Internet (coverage-to-connection gap); 280 triệu men online hơn women; Singapore/UAE/Chile >300 Mbps vs LIC <20 Mbps.)*
 
+Pirlea, A. F., Wadhwa, D., Mahler, D., Serajuddin, U., Welch, M., Thudt, A., & Lambrechts, M. (2026, May). Global progress. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. https://data360.worldbank.org/en/int/atlas/global-progress *(Mới v2.7 — progress slowest on record in 15 of 26 tracked development indicators; SIDS and Sub-Saharan Africa most affected; 75 years of development data: 121,249 data points · 107 datasets; per-capita income growth in LICs 2020–2025 below historical average; poorest quintile lost most ground since COVID-19 disruption.)*
+
 ---
 
 ## Bổ sung v2.7 — Tham khảo cốt lõi từ P3/P4/P5/P6/P7/CĐ1/CĐ2
@@ -377,6 +383,22 @@ North, D. C. (1990). *Institutions, institutional change and economic performanc
 
 ---
 
+## T. World Bank Policy Research Working Papers — Bổ sung v2.9 (16/05/2026)
+
+> 5 entries từ đánh giá 11 PDFs upload ngày 16/05/2026. Xếp theo thứ tự APA7 (tác giả đầu tiên). **Disambiguation quan trọng**: Mahler et al. (2026) WPS11350 (Mahler, Serajuddin, Wadhwa & Yonzan) ≠ Mahler, Wang & Weber (2026) Atlas chapter (Section P). Dùng hậu tố "a/b" trong in-text nếu trích dẫn cả hai trong cùng văn bản.
+
+Agarwal, A., Barattieri, A., & Mattoo, A. (2026, April). *Foreign demand shocks and domestic value added: Firm-level evidence from Viet Nam* (Policy Research Working Paper No. 11352). World Bank Group. *(Mới v2.9 — Vietnam DVAR tăng mạnh từ 2018: US demand shock 8,76% → DVAR +2,49 pp trong 2018–2020, giải thích 68,5% tổng tăng DVAR; firms phản ứng bằng cách xuất khẩu nhiều hơn sang cả US và non-US markets và ghi nhận tăng năng suất lao động; non-Chinese-owned firms là động lực chính; cơ chế: implicit rules of origin + FDI vào intermediates. Sử dụng matched firm-level + customs data 2016–2020. Cited P3 §5 Discussion — corroboration cho ascending-limb mechanism.)*
+
+Barattieri, A., Mattoo, A., & Signoret, J. (2026, April). *Foreign tariffs as catalysts for reform? The potential development dividend* (Policy Research Working Paper No. 11354). World Bank Group. *(Mới v2.9 — Vietnam: liberalization dịch vụ thương mại 2008–2016 → +2,9% năng suất hàng năm trong dịch vụ, +3,1% trong sản xuất; "China-plus-one" strategy lợi ích hạn chế cho phần lớn đang phát triển; US Supreme Court Feb 20 2026 tuyên bố IEEPA tariffs unconstitutional. Cited P3 §5.5 Policy implications — macro-level corroboration cho tác động của mở cửa thương mại lên năng suất Việt Nam.)*
+
+Geginat, C., & Ramalho, R. (2015). *Electricity connections and firm performance in 183 countries* (Policy Research Working Paper No. 7460). World Bank Group. *(Mới v2.9 — WBES-based; LICs mất gấp 2 lần thời gian và trả gấp 70 lần chi phí kết nối điện so với HICs; chất lượng điện → firm performance; phân tích 183 quốc gia. Cited P8 / CD1 — infrastructure quality như institutional void context cho SIDS.)*
+
+Kim, G., Kumar, T., Ramalho, R., & Russell, S. (2026, January). *Institutional capacity for policy implementation: An analytical framework* (Policy Research Working Paper No. 11279). World Bank Group. *(Mới v2.9 — Định nghĩa "năng lực thể chế" = khả năng thực thi chính sách của các tổ chức công; hai chiều: Tổ chức (nhân sự, tài chính, hệ thống thông tin, quản lý) và Quản trị (minh bạch, độc lập, trách nhiệm giải trình); xây dựng trên North (1990); phân tích "islands of excellence" trong môi trường năng lực thấp; tương quan dương vững giữa năng lực thể chế và phát triển kinh tế. Cited CD2 §3.3 Tầng 3 Institutional Theory — cung cấp định nghĩa và framework chính thức cho ICRV 6-regime classification.)*
+
+Mahler, D. G., Serajuddin, U., Wadhwa, D., & Yonzan, N. (2026, April). *The world is developing at its slowest pace in 75 years* (Policy Research Working Paper No. 11350). World Bank Group. *(Mới v2.9 — Phương pháp mới đo tiến bộ xã hội qua 6 chỉ số: nghèo đói, tuổi thọ, giáo dục, bình đẳng giới, khí hậu, điện; phát triển chậm nhất kể từ 1950 (75 năm); 54 quốc gia ≥100 năm để đạt chuẩn developed; không có chậm lại, 150 triệu ít nghèo hơn; SIDS đại diện không cân xứng trong nhóm "stuck countries". **PHÂN BIỆT**: Mahler, Serajuddin, Wadhwa & Yonzan (2026) WPS11350 ≠ Mahler, Wang & Weber (2026) Atlas/AI chapter Section P. Dùng "Mahler et al. (2026b)" nếu trích dẫn cả hai. Cited P8 §1 Introduction — structural developmental constraints cho Pacific SIDS FIP mechanism.)*
+
+---
+
 ## Hướng dẫn sử dụng (cập nhật v2.5)
 
 ### Trong bản thảo luận án
@@ -403,6 +425,12 @@ North, D. C. (1990). *Institutions, institutional change and economic performanc
   - Digital government rankings: "GovTech Singapore (2024)"
   - ATxSG summit: "IMDA (2025)"
   - Startup ecosystem rank: "StartupBlink (2025)" or "StartupBlink (2026)" (specify year for disambiguation)
+- **Trích dẫn Section T — WB Working Papers 2015/2026 (v2.9)**:
+  - Vietnam firm LP + export demand: "Agarwal, Barattieri, & Mattoo (2026)" [WPS11352]
+  - Vietnam trade liberalization → productivity: "Barattieri, Mattoo, & Signoret (2026)" [WPS11354]
+  - Electricity & firm performance 183 countries: "Geginat & Ramalho (2015)" [WPS7460]
+  - Institutional capacity framework: "Kim, Kumar, Ramalho, & Russell (2026)" [WPS11279]
+  - World slowest development 75 years: **"Mahler et al. (2026b)"** [WPS11350] — **b suffix** phân biệt với "Mahler, Wang & Weber (2026)" [Atlas chapter, Section P]
 
 ### Khi nộp bản cuối
 
@@ -597,7 +625,7 @@ Huang, L., & Marciano, D. (2020). Interdependence relationship of internationali
 
 Kayaci, A. (2022). The relationship between internationalization level and financial performance: A study with BİST companies. *Cumhuriyet Üniversitesi İktisadi ve İdari Bilimler Dergisi*. https://doi.org/10.37880/cumuiibf.1077104
 
-Khatua, A., Mondal, A., & Dhanda, S. (2024). The internationalization and performance of INVs: Liability or learning advantages of newness? *Journal of International Entrepreneurship*, 1–27. https://doi.org/10.1007/s10843-023-00345-2
+Khatua, A., Mondal, A., & Dhanda, S. (2024). The internationalization and performance of INVs: Liability or learning advantages of newness? *Journal of International Entrepreneurship*. Advance online publication. https://doi.org/10.1007/s10843-023-00345-2
 
 Lin, W. T., Liu, Y., & Cheng, K. (2011). The internationalization and performance of a firm: Moderating effect of a firm's behavior. *Journal of International Management, 17*(1), 83–95. https://doi.org/10.1016/j.intman.2010.12.004
 
