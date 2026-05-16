@@ -485,4 +485,43 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 - forest_data.csv: **288 data rows, k=238 studies** (S238 mới nhất; Cho & Lee 2018, Korea, FSTS, r=−0.029)
 - ✅ **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC → MKT.
 
-*File v2.8 — 16/05/2026. Cập nhật: (1) Đóng Phần 4 — Autio (2000) và Knight & Cavusgil (2004) loại trừ (PICO không thoả); (2) Sửa nhãn số thứ tự S-138/139 (xung đột với forest_data.csv); tất cả counts sync với k=238, K=288.*
+---
+
+## Phần 5 — Ứng viên 2023–2026 mới bổ sung (r chờ trích xuất)
+
+> **Nguồn:** Người dùng cung cấp 16/05/2026. Batch 9 nghiên cứu thực nghiệm 2023–2026 về internationalization–performance. Cross-check PICO: IV = DOI (FSTS/EXP/FDI/GEO), DV = firm performance (ACC/MKT/LAB). Các nghiên cứu có DV không phải FP hoặc DOI không phải IV bị loại ngay.
+
+### Nhóm A — Ứng viên PICO đạt, cần PDF để trích r
+
+| Nhãn | Nghiên cứu (APA 7) | Mẫu | Ghi chú PICO |
+|------|-------------------|-----|-------------|
+| [S-140] | Agyare, A., Gyeke-Dako, A., & Agbolosu, A. (2023). The effect of internationalization on firm performance and firm value. *Global Finance Journal, 55*, 100750. | 1,280 firms, 27 European countries, 1990–2016 | IV=DOI, DV=firm performance + firm value (ACC + MKT). ✅ Extractable r or β. ICRV=mix Advanced + Upper-middle. |
+| [S-141] | Hussain, S. A., Khan, M. A., & [co-authors]. (2026). Internationalization, ESG performance, and financial performance in Asia-Pacific firms. *Environment, Development and Sustainability*. [Advance online]. | 1,708 Asia-Pacific firms, 2002–2023 | IV=exports + FDI (DOI channels), DV=financial performance (ACC likely). ✅ PICO OK. Moderator=ESG — can extract main DOI→FP effect. |
+| [S-142] | Andreu, L., Claver, E., Quer, D., & [co-authors]. (2025). Intellectual capital as mediator between internationalization and firm performance in hotel firms. *Journal of Business Research, [vol]*, [pages]. | Spanish hotel firms, 2009–2019 | IV=internationalization, DV=firm performance. ✅ PICO OK. Mediator=intellectual capital (extract total/direct effect). |
+| [S-143] | Castor, X., [co-authors]. (2024). Heterogeneous effects of internationalization on firm efficiency: A Bayesian frontier approach. *Eurasian Business Review, [vol]*, [pages]. | 267 Spanish manufacturing firms | IV=internationalization, DV=efficiency (Bayesian frontier = ACC measure). ✅ PICO OK. Small n=267; frontier efficiency r or β extractable. |
+| [S-144] | Matsubara, T. (2025). International diversification and firm performance among Japanese manufacturing firms. *MMRC Discussion Paper, 568*. Management Research Center, University of Tokyo. | 2,675 obs, Japanese manufacturing, 2017–2023 | IV=internationalization (alongside diversification), DV=firm performance. ⚠️ Grey lit (discussion paper). Need to verify DOI→FP β is separately identified from diversification. ICRV=Advanced (Japan). |
+
+> **Yêu cầu PDF:** Tất cả 5 nghiên cứu Nhóm A cần PDF gốc để trích xuất r (hoặc β + SE + n để tính r). Nếu r trích được, gán S239–S243 và thêm vào forest_data.csv.
+
+### Nhóm B — Loại trừ: PICO không thoả
+
+| Nghiên cứu | Lý do loại |
+|-----------|-----------|
+| Han, M., & Wu, J. (2023). Internationalization and earnings management: Evidence from Chinese listed firms. *Finance Research Letters, [vol]*, [article]. | **DV = earnings management** (accrual-based) — không phải firm performance (FP). Đo lường chất lượng kế toán, không phải hiệu quả hoạt động. PICO: O không thoả. |
+| Hussain, S. S., & Luqman, A. (2024). ESG disclosure, internationalization, and firm financial performance in Asia-Pacific emerging economies. *Journal of International Studies, 17*(X), XXX. | **DOI = biến điều tiết (moderator)**, không phải IV. Quan hệ chính: ESG → FP; quốc tế hoá làm yếu tố điều tiết. PICO: I không thoả (cần DOI là IV). |
+| Li, R., & Huang, J. (2025). Internationalization degree and debt maturity mismatch: Evidence from Chinese manufacturing firms. *Finance Research Letters, [vol]*, [article]. | **DV = debt maturity mismatch** (chênh lệch kỳ hạn nợ) — chỉ số rủi ro tài chính, không phải firm performance. PICO: O không thoả. |
+| Xu, Y., [co-authors]. (2025). Internationalization and asset-liability maturity mismatch: Evidence from Chinese firms. *Research in International Business and Finance, [vol]*, [article]. | **DV = asset-liability maturity gap** — chỉ số cấu trúc vốn/rủi ro, không phải firm performance. PICO: O không thoả. |
+
+---
+
+**Tóm tắt tiến độ (v2.9, 16/05/2026):**
+- Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
+- Phần 2: 11 ứng viên mới (S-111 → S-121) — **HOÀN THÀNH**: 11/11 đã có r-value
+  - ✅ S-116 → **S236** (r=−0.10); S-117 → **S237** (r=−0.04)
+- Phần 3: 16 ứng viên (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 → **S238** (r=−0.029); 15 còn lại cần PDF
+- Phần 4: 10 ứng viên (2 Nhóm A + 8 Nhóm B) — **HOÀN THÀNH**: Autio (2000) và Knight & Cavusgil (2004) đã đánh giá là **LOẠI TRỪ** (PICO không thoả)
+- Phần 5: 9 ứng viên (5 Nhóm A + 4 Nhóm B) — **MỚI 16/05/2026**: 5 cần PDF để trích r (S-140→S-144); 4 loại trừ PICO
+- forest_data.csv: **288 data rows, k=238 studies** (S238 mới nhất)
+- ✅ **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC → MKT.
+
+*File v2.9 — 16/05/2026. Cập nhật: (1) Thêm Phần 5 — 9 ứng viên 2023–2026; 5 Nhóm A (S-140–S-144, cần PDF) + 4 Nhóm B (PICO fail — DV không phải FP hoặc DOI không phải IV); (2) Mọi counts khác không thay đổi: k=238, K=288.*
