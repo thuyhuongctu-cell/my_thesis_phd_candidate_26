@@ -33,7 +33,7 @@ Một đóng góp lý thuyết đặc biệt là **tái định vị Uppsala mod
 
 ### 2.2 Tính mới về phương pháp
 
-Luận án kết hợp **meta-analytic synthesis** (cập nhật 1982–2026, mục tiêu ~172 effect sizes) với **multi-country empirical analysis** sử dụng dữ liệu vi mô của các nền kinh tế châu Á (101.185 doanh nghiệp · 108 cặp quốc gia × năm · giai đoạn 2009–2025) từ World Bank Enterprise Surveys, kế thừa và mở rộng từ pool 17 nước châu Á mới nổi đã được tác giả công bố trước đó (Đỗ & Phan, 2026 — VEFR). Pool đầy đủ bao gồm 47–49 nền kinh tế châu Á và Thái Bình Dương (bao gồm 6–8 nền kinh tế Pacific SIDS) trong phạm vi đề tài chính thức. Thiết kế nghiên cứu mixed synthesis-empirical này hiếm gặp trong literature IB về châu Á và cho phép đối thoại đồng thời giữa bằng chứng tổng hợp ở cấp literature và bằng chứng thực nghiệm trực tiếp ở cấp doanh nghiệp (Borenstein et al., 2009; Hunter & Schmidt, 2004).
+Luận án kết hợp **meta-analytic synthesis** (cập nhật 1982–2026, pool K=288 / k=238 baseline, mục tiêu k≥250 sau formal search) với **multi-country empirical analysis** sử dụng dữ liệu vi mô của các nền kinh tế châu Á (101.185 doanh nghiệp · 108 cặp quốc gia × năm · giai đoạn 2009–2025) từ World Bank Enterprise Surveys, kế thừa và mở rộng từ pool 17 nước châu Á mới nổi đã được tác giả công bố trước đó (Đỗ & Phan, 2026 — VEFR). Pool đầy đủ bao gồm 47–49 nền kinh tế châu Á và Thái Bình Dương (bao gồm 6–8 nền kinh tế Pacific SIDS) trong phạm vi đề tài chính thức. Thiết kế nghiên cứu mixed synthesis-empirical này hiếm gặp trong literature IB về châu Á và cho phép đối thoại đồng thời giữa bằng chứng tổng hợp ở cấp literature và bằng chứng thực nghiệm trực tiếp ở cấp doanh nghiệp (Borenstein et al., 2009; Hunter & Schmidt, 2004).
 
 ### 2.3 Tính mới về thực nghiệm
 
