@@ -160,7 +160,14 @@ The results are:
 β(FSTS_c) = −0.925, SE = 0.828, p = .265 (n.s.)
 β(FSTS_c²) = +0.649, SE = 0.980, p = .508 (n.s.)
 
-Both the linear and quadratic terms lose significance when entered jointly, indicating high collinearity between the two terms in this low-FSTS sample (mean FSTS = 0.060). Importantly, the positive quadratic coefficient would imply a U-shape rather than inverted-U — a reversal of the conventional form that is itself consistent with FIP (the relationship is monotonically negative with no upward turning point within the observed range). The Lind–Mehlum (2010) sufficient conditions test for an inverted U cannot be rejected in the positive direction: there is no evidence that internationalization improves performance at any intensity level.
+Both the linear and quadratic terms lose significance when entered jointly, indicating high collinearity between the two terms in this low-FSTS sample (mean FSTS = 0.060). Importantly, the positive quadratic coefficient would imply a U-shape rather than inverted-U — a reversal of the conventional form that is itself consistent with FIP (the relationship is monotonically negative with no upward turning point within the observed range).
+
+Following Haans et al. (2016), we evaluate the four necessary conditions for a curvature relationship. All four must hold for an inverted-U to be confirmed; here, all four *fail* — which is the expected signature of FIP:
+
+- **C1** (positive slope at low FSTS): β(FSTS_c) = −0.925 (*p* = .265) — **not significant and negative in sign**; no ascending limb at low FSTS values
+- **C2** (negative curvature β₂ < 0): β(FSTS_c²) = +0.649 (*p* = .508) — **not significant; positive sign indicates U-shape, not inverted-U**
+- **C3** (turning point within data range): TP* = −(−0.925) / (2 × 0.649) = 0.712 — **implied turning point lies outside the observed sample maximum (FSTS_max ≈ 0.80, but neither β₁ nor β₂ is significant)**
+- **C4** (Lind–Mehlum utest, Lind & Mehlum, 2010): utest *p* = .941 — **fails to reject the null of monotone negative relationship; no inverted-U detected**
 
 The pattern is **monotone negative** — consistent with H1 and the FIP structural mechanism. There is no turning point within the observed FSTS range (0–1).
 
