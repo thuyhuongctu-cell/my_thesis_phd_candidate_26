@@ -63,6 +63,10 @@
 - P5: Haans, Pieters & He (2016) 4-condition LM block added to §4.2 (C1–C4 for 2012, 2024, and pooled waves) + APA7 reference added (committed 5ba7445, 4ad334f)
 - P7: TP formula corrected in §3.3 — removed erroneous `× SD(FSTS)` term (applies only to z-standardized FSTS; P7 uses mean-centering only); Haans (2016) 4-condition LM block added to §4.2 + APA7 reference added (committed 5ba7445, 4ad334f)
 - thesis/11_dissertation_positioning_vi.md §7.4: P6 entry added (was missing); P8 garbled UTF-8 "bu1ea3n thu1ea3o..." fixed to "bản thảo hoàn chỉnh"; P3/P4 "vừa xong"→"hoàn chỉnh"; P7 "target JIBS"→"JIBS under revision"; timeline corrected 2026 H2/2027 H1 (committed 34fd730)
+- P8 Haans et al. (2016) DOI added — all 5 papers P3–P8 now consistently have `smj.2399` DOI (committed ff28030)
+- All 6 submission blinded docx rebuilt: P4 (5 commits stale), P5, P6 (k=238/K=288 stale), P7, P8 (committed 1558bea, ff28030, 66862e2, f0f4e4b)
+- dist/ full rebuild: 7 thesis docx + 5 CTU chapters + 6 English manuscripts (P3–P8, P8 newly added) all rebuilt from current sources (committed af50029)
+- dist/manuscripts/vi/: P3/P4/P5 vi docx rebuilt — were stale (dist built at 39287bc; sources updated in fa2142e table-numbering fix and 068c193 citation additions) (committed 955c8e6)
 
 ## Coordination Files
 None active in `.plans/` (clean state).
