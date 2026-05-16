@@ -70,10 +70,14 @@ echo "[3] Vietnamese manuscripts..."
 )
 
 echo "[4] English manuscripts..."
-# P3: no inline figures
-[ -f "${SCRIPT_DIR}/p3/p3_vietnam_en_clean.md" ] && \
-  ${PANDOC_EN} "${SCRIPT_DIR}/p3/p3_vietnam_en_clean.md" \
+# P3: figures in p3/figures/vietnam/ — run from p3/ dir so relative paths resolve
+[ -f "${SCRIPT_DIR}/p3/p3_vietnam_en_clean.md" ] && (
+  cd "${SCRIPT_DIR}/p3" && \
+  pandoc -f gfm -t docx --resource-path=. \
+    --reference-doc="${PAPER_REF}" \
+    p3_vietnam_en_clean.md \
     -o "${DIST}/manuscripts/en/p3_vietnam_en_clean.docx"
+)
 # P4: figures in p4/figures/
 [ -f "${SCRIPT_DIR}/p4/p4_singapore_en_clean.md" ] && (
   cd "${SCRIPT_DIR}/p4" && \
