@@ -330,7 +330,7 @@ development of China's digital regulatory environment across provinces."
 > Johanson, 2016; Tan & Mahoney, 2006), generating a negative marginal effect of further
 > FSTS increases. This inverted-U trajectory has been documented in manufacturing exporters
 > (Hitt et al., 1997; Lu & Beamish, 2001) and in meta-analytic syntheses (Do & Phan, 2026 —
-> k = 235, r̄ = 0.07). Therefore:
+> k = 238, r̄ = 0.07). Therefore:
 >
 > H1: Export intensity (FSTS) is related to labour productivity in an inverted-U pattern,
 > with performance increasing at low FSTS levels and decreasing at high FSTS levels
