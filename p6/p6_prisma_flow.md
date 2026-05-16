@@ -1,7 +1,7 @@
 # P6 — PRISMA 2020 Flow Diagram & Search Documentation
 # Meta-Analysis I→P 1977–2026 (Independent Systematic Review)
 
-> **Phiên bản**: v2.0 (12/05/2026)
+> **Phiên bản**: v2.2 (16/05/2026)
 > **Chuẩn áp dụng**: PRISMA 2020 (Page et al., 2021)
 > **Loại**: Fresh/independent meta-analysis (không phải update)
 > **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` §6
@@ -18,7 +18,11 @@
 ║  Records identified from electronic databases:                               ║
 ║  • Web of Science Core Collection    [n = TBD — ghi sau khi search]         ║
 ║  • Scopus                            [n = TBD]                              ║
-║  • EBSCOhost (Business Source)       [n = TBD — optional]                   ║
+║  • ABI/INFORM Complete               [n = TBD]                              ║
+║  • Business Source Complete (EBSCO)  [n = TBD]                              ║
+║  • ScienceDirect (Elsevier)          [n = TBD]                              ║
+║  • SpringerLink                      [n = TBD]                              ║
+║  • Emerald Insight                   [n = TBD]                              ║
 ║                                                                              ║
 ║  Records from supplementary methods:                                         ║
 ║  • Backward citation scan of 5 prior metas:                                  ║
@@ -27,7 +31,7 @@
 ║      Marano et al. (2016, JWB)       [n ≈ 90 screened]                      ║
 ║      Wu et al. (2022, MIR)           [n ≈ 80 screened]                      ║
 ║      Arte & Larimo (2022, IBR)       [n ≈ 60 screened]                      ║
-║  • Forward citation search via scite.ai    [n = TBD]                        ║
+║  • Forward citation search (Google Scholar, 5 anchors) [n = TBD]            ║
 ║  • Hand-search (author papers, 2024–26)    [n = 19]                         ║
 ║                                                                              ║
 ║  TOTAL RECORDS IDENTIFIED: [N = TBD]                                        ║
@@ -45,6 +49,8 @@
 ║    • Qualitative only: [n = TBD]                                             ║
 ║    • Conceptual/theoretical only: [n = TBD]                                  ║
 ║    • Non-English: [n = TBD]                                                  ║
+║    • Non-peer-reviewed (dissertation, working paper, conference               ║
+║      paper, book chapter, institutional report): [n = TBD]                  ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼ Full-text retrieved [n = TBD]
@@ -70,9 +76,9 @@
 ║  Effect sizes: K ≈ [TBD — hiện có 288 trong forest_data.csv]                ║
 ║                                                                              ║
 ║  Breakdown by source:                                                        ║
-║    Database search (WoS + Scopus):         [n = TBD]                        ║
+║    Database search (WoS + Scopus + 5 supplementary DBs): [n = TBD]         ║
 ║    Backward citation scan (5 metas):       [n = TBD]                        ║
-║    Forward citation (scite.ai):            [n = TBD]                        ║
+║    Forward citation (Google Scholar):      [n = TBD]                        ║
 ║    Hand-search:                            [n = TBD]                        ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -92,13 +98,19 @@
 
 **Query (Advanced Search — Topic Search TS):**
 ```
-TS=("internationalization" OR "internationalisation" OR "multinationality" 
-    OR "degree of internationalization" OR "export intensity" 
-    OR "foreign sales ratio" OR "FSTS" OR "international diversification") 
-AND 
-TS=("firm performance" OR "corporate performance" OR "financial performance" 
-    OR "labor productivity" OR "labour productivity" OR "profitability" 
-    OR "Tobin's q" OR "return on assets" OR "ROA" OR "return on equity")
+TS=(internationaliz* OR internationalis* OR multinationality
+    OR "degree of internationalization" OR "degree of internationalisation"
+    OR "international diversification" OR "geographic diversification"
+    OR "foreign sales" OR "foreign sales to total sales" OR FSTS
+    OR "foreign assets" OR "foreign assets to total assets" OR FATA
+    OR "export intensity" OR "export scope" OR "export ratio"
+    OR "foreign market entry" OR "foreign subsidiaries")
+AND
+TS=("firm performance" OR "enterprise performance" OR "corporate performance"
+    OR "financial performance" OR "business performance"
+    OR "ROA" OR "Tobin's Q" OR "return on assets" OR "profitability"
+    OR "labor productivity" OR "labour productivity" OR "total factor productivity"
+    OR "return on equity" OR "return on sales" OR "firm efficiency")
 AND
 TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
 ```
@@ -121,13 +133,20 @@ TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
 
 **Query:**
 ```
-TITLE-ABS-KEY("internationalization" OR "internationalisation" 
-    OR "multinationality" OR "degree of internationalization" 
-    OR "export intensity" OR "FSTS" OR "international diversification")
+TITLE-ABS-KEY(internationaliz* OR internationalis*
+    OR multinationality OR "degree of internationalization"
+    OR "degree of internationalisation"
+    OR "international diversification" OR "geographic diversification"
+    OR "foreign sales" OR "foreign sales to total sales" OR FSTS
+    OR "foreign assets" OR "foreign assets to total assets" OR FATA
+    OR "export intensity" OR "export scope" OR "export ratio"
+    OR "foreign market entry" OR "foreign subsidiaries")
 AND
-TITLE-ABS-KEY("firm performance" OR "labor productivity" 
-    OR "labour productivity" OR "profitability" 
-    OR "return on assets" OR "Tobin")
+TITLE-ABS-KEY("firm performance" OR "enterprise performance"
+    OR "corporate performance" OR "financial performance" OR "business performance"
+    OR "labor productivity" OR "labour productivity" OR profitability
+    OR "return on assets" OR Tobin OR "return on equity"
+    OR "return on sales" OR "total factor productivity" OR "firm efficiency")
 AND
 TITLE-ABS-KEY(correlation OR regression OR coefficient OR "effect size")
 AND PUBYEAR > 1976 AND PUBYEAR < 2027
@@ -153,7 +172,7 @@ AND LANGUAGE(english)
 
 ---
 
-### Supplementary Method 2: Forward Citation Search (scite.ai)
+### Supplementary Method 2: Forward Citation Search (Google Scholar)
 
 **Query**: Forward citations of 5 anchor studies:
 - Lu & Beamish (2004) — S-curve seminal
@@ -198,7 +217,7 @@ Author's own publications and papers from known research groups working on I→P
 3. Qualitative study
 4. Insufficient statistics for effect size computation
 5. Duplicate sample (retained largest/most recent; smaller removed)
-6. Conference proceedings, theses, working papers
+6. Non-peer-reviewed publication: doctoral dissertations, master's theses, working papers, conference papers, book chapters, unpublished manuscripts, institutional reports
 
 ---
 
@@ -249,6 +268,7 @@ Current database state (pre-formal-search):
 | v1.1 | 12/05/2026 | k=135→235 in INCLUDED box |
 | v2.0 | 12/05/2026 | Full rewrite — fresh/independent search framework; all fake numbers replaced with [TBD]; PICO criteria added; inter-coder protocol added |
 | v2.1 | 16/05/2026 | k=235→238, K=~385→288 (forest_data.csv actual count); Study ID range S001–S238+ |
+| v2.2 | 16/05/2026 | Search strategy expanded: WoS/Scopus queries updated to global scope (no Asia-Pacific geo filter); supplementary databases added (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight); "Non-peer-reviewed publication" added as exclusion reason; scite.ai → Google Scholar for forward citation; INCLUDED breakdown updated |
 
 ---
 
