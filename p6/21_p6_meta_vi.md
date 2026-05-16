@@ -522,7 +522,7 @@ David, P. A. (1990). The dynamo and the computer: An historical perspective on t
 
 Đỗ, T. H., & Phan, A. T. (2026). Firm performance heterogeneity in emerging Asia: A multi-country enterprise survey analysis. *Vietnam Economic Forum Review*. \[P1, published\]
 
-Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Asia Pacific Journal of Management*. \[P3, under review\]
+Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Journal of Asia-Pacific Business*. \[P3, under review\]
 
 Dzikowski, P., Tomczyk, E., & Chlebus, M. (2023). Do digital technologies pay off? The impact of digital adoption on firm performance. *Technovation, 128*, 102838.
 
