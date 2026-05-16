@@ -57,6 +57,8 @@
 - Repository-wide scan: 107→108 country-year fix (4 files, committed prior), ~172→K=288/k=238 fix (5 files), P3/P4 inversion in writing_guides/09 fixed — all confirmed clean
 - I²=62.5% figure: consistent across all files (only ICBEF baseline 87.92% appears in correct context)
 - pipeline_status.md: updated — S-62 and S-116/S-117 already resolved in forest_data.csv (both still listed as pending — now corrected)
+- chuyen_de/20_cd1_cd2_review_report_vi.md: errata note added — historical 101.035/107 values preserved; correct values 101.185/108 noted (committed bf25711)
+- thesis/11_dissertation_positioning_vi.md: 4 stale markers fixed — P5 🔄→✅, P5 "đang chạy"→"bản thảo hoàn chỉnh", P7 "MIR/JIBS"→"JIBS", P7 "đang thiết kế"→"bản thảo hoàn chỉnh" (committed 0788689)
 
 ## Coordination Files
 None active in `.plans/` (clean state).
