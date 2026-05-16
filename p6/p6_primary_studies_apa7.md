@@ -457,18 +457,14 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 
 > **Nguồn:** Người dùng cung cấp 15/05/2026. Đây là batch papers về tốc độ quốc tế hóa (internationalization speed) và born-global firms. Cross-check với forest_data.csv và tiêu chí đủ điều kiện PICO.
 
-### Nhóm A: Cần kiểm tra PDF (tiềm năng có r giữa DOI và FP)
-
-**[S-138]** Autio, E., Sapienza, H. J., & Almeida, J. G. (2000). Effects of age at entry, knowledge intensity, and imitability on international growth. *Academy of Management Journal, 43*(5), 909–924. https://doi.org/10.2307/1556419
-*Tình trạng: Cần kiểm tra — bài empirical (AMJ) đo tác động của entry age và knowledge intensity lên international growth (FP). IV có thể là GEO/COUNT, FP=growth (ACC). n≈ ? | ICRV=MX | DPL=PRE | ⚠️ Cần xem Table correlation matrix để tìm r(DOI, FP). Nếu không có DOI→FP r thì loại.*
-
-**[S-139]** Knight, G. A., & Cavusgil, S. T. (2004). Innovation, organizational capabilities, and the born-global firm. *Journal of International Business Studies, 35*(2), 124–141. https://doi.org/10.1057/palgrave.jibs.8400071
-*Tình trạng: Cần kiểm tra — JIBS empirical survey 203 US born-global manufacturers. DV = export performance (ACC). IV = innovation + intl marketing capabilities. Không rõ có FSTS→performance r trực tiếp không. ⚠️ Nếu chỉ có capabilities→performance (không có DOI→FP), thì không đủ điều kiện I→P.*
-
 ### Nhóm B: Loại trừ — Không đủ điều kiện I→P meta-analysis
+
+> ⚠️ **Ghi chú số thứ tự (16/05/2026):** Nhãn [S-138] và [S-139] trong file này là nhãn *tạm thời* cho hai ứng viên Nhóm A. Tuy nhiên, trong `forest_data.csv` số S138 và S139 đã được gán cho **Tallman & Li (1996)** và **Aulakh, Kotabe & Teegen (2000)** — hai bài đã được code và đưa vào phân tích. Hai ứng viên dưới đây (Autio 2000 và Knight & Cavusgil 2004) đã được đánh giá là **không đủ điều kiện PICO** và được chuyển sang Nhóm B, không cần gán số S-.
 
 | Nghiên cứu | Lý do loại |
 |------------|-----------|
+| Autio, E., Sapienza, H. J., & Almeida, J. G. (2000). Effects of age at entry, knowledge intensity, and imitability on international growth. *AMJ, 43*(5), 909–924. | IV = age at entry / knowledge intensity (không phải DOI); DV = international growth rate (tốc độ tăng trưởng quốc tế, không phải firm performance). PICO: P không thoả — không phải I→FP |
+| Knight, G. A., & Cavusgil, S. T. (2004). Innovation, organizational capabilities, and the born-global firm. *JIBS, 35*(2), 124–141. | IV = innovation + intl marketing capabilities (không phải DOI/FSTS). DV = export performance. Đây là capabilities→FP, không phải DOI→FP. PICO: I không thoả |
 | Prashantham, S., & Young, S. (2011). Post-entry speed of international new ventures. *ETP, 35*(2), 275–292. | Speed of internationalization (DV), không phải DOI→FP |
 | Casillas, J. C., & Acedo, F. J. (2013). Speed in the internationalization process of the firm. *IJMR, 15*(1), 15–29. | Review paper về speed; không có primary effect size |
 | Chetty, S., Johanson, M., & Martín Martín, O. (2014). Speed of internationalization. *JWB, 49*(4), 513–523. | Conceptual + measurement paper về speed |
@@ -480,13 +476,13 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 
 ---
 
-**Tóm tắt tiến độ (v2.6, 15/05/2026):**
+**Tóm tắt tiến độ (v2.8, 16/05/2026):**
 - Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
 - Phần 2: 11 ứng viên mới (S-111 → S-121) — **HOÀN THÀNH**: 11/11 đã có r-value
   - ✅ S-116 → **S236** (r=−0.10); S-117 → **S237** (r=−0.04)
 - Phần 3: 16 ứng viên (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 → **S238** (r=−0.029); 15 còn lại cần PDF
-- Phần 4: 9 ứng viên (S-138 → S-139 + 7 loại trừ) — S-138, S-139 cần kiểm tra PDF
-- forest_data.csv: **288 data rows** (S238 mới nhất; Cho & Lee 2018, Korea, FSTS, r=−0.029)
+- Phần 4: 10 ứng viên (2 Nhóm A + 8 Nhóm B) — **HOÀN THÀNH**: Autio (2000) và Knight & Cavusgil (2004) đã đánh giá là **LOẠI TRỪ** (PICO không thoả — không phải DOI→FP)
+- forest_data.csv: **288 data rows, k=238 studies** (S238 mới nhất; Cho & Lee 2018, Korea, FSTS, r=−0.029)
 - ✅ **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC → MKT.
 
-*File v2.7 — 15/05/2026. Cập nhật: Giải quyết S-62 (Lee et al. 2014 = US hotel industry IJCHM); sửa forest_data.csv fp_type S62 ACC→MKT; cập nhật ghi chú xác minh.*
+*File v2.8 — 16/05/2026. Cập nhật: (1) Đóng Phần 4 — Autio (2000) và Knight & Cavusgil (2004) loại trừ (PICO không thoả); (2) Sửa nhãn số thứ tự S-138/139 (xung đột với forest_data.csv); tất cả counts sync với k=238, K=288.*
