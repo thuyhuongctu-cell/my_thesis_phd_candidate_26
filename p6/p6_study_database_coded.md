@@ -392,6 +392,16 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 ## 5. Tóm tắt Phân phối Moderator (k = 238 studies, K = 288 effects)
 
 > *Cập nhật 15/05/2026: k=235→238 do bổ sung S236 Barłożewski (2021a), S237 Barłożewski (2021b), S238 Cho & Lee (2018). Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` (K=288 rows) để có số liệu chính xác theo effect.*
+>
+> **Ghi chú về chênh lệch K: MetaEssentials vs forest_data (16/05/2026)**
+>
+> MetaEssentials 1.5 (ICBEF 2025 baseline, k=113) báo cáo **K=200 effect sizes**, trong khi `forest_data.csv` chỉ có **K=146 effects cho cùng k=113 studies** (S01–S113). Chênh lệch 54 effects này là có chủ đích và không phải lỗi:
+>
+> - **MetaEssentials** thu thập *tất cả* bivariate correlations trong correlation matrix của từng bài (kể cả các cặp DOI khác nhau với cùng FP, hoặc cùng biến đo bằng nhiều cách).
+> - **forest_data.csv** chỉ giữ effects đại diện cho *tổ hợp (DOI type × FP type) độc lập* — một study có tối đa 1 effect mỗi tổ hợp; loại bỏ correlations giữa cùng biến nhưng đo theo cách khác (raw vs. adjusted, khác subsample cùng nghiên cứu).
+> - Nguyên tắc này nhất quán với Cheung (2014) three-level MARA: "effects should represent independent comparisons; redundant correlations inflate K và bias kết quả aggregation."
+>
+> **Kết luận**: K=288 trong forest_data là số đúng cho three-level MARA. 54 effects không được đưa vào là *intentional exclusions*, không phải missing data. Không cần bổ sung thêm.
 
 ### 5.1 Phân phối ICRV Regime
 
