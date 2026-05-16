@@ -246,15 +246,16 @@ Mở bằng phenomenon-based pitch:
 
 - P1 (VEFR 2026), P2 (JFAR 2026): đã công bố
 - P6 baseline (ICBEF 2025): đã published
-- P3: bản thảo vừa xong — target JABS (Journal of Asia Business Studies, Emerald)
-- P4: bản thảo vừa xong — target MIR (Management International Review, Springer)
+- P3: bản thảo hoàn chỉnh — target JABS (Journal of Asia Business Studies, Emerald)
+- P4: bản thảo hoàn chỉnh — target MIR (Management International Review, Springer)
 - P5: bản thảo hoàn chỉnh — target IJOEM (International Journal of Emerging Markets, Emerald)
-- P7: bản thảo hoàn chỉnh — target JIBS (Journal of International Business Studies)
-- P8: bu1ea3n thu1ea3o REVISED v2 — chu1ea9n bu1ecb submit World Development
+- P6: bản thảo hoàn chỉnh — IBR (International Business Review, Elsevier) under review
+- P7: bản thảo hoàn chỉnh — JIBS (Journal of International Business Studies) under revision
+- P8: bản thảo hoàn chỉnh — World Development (Elsevier) under revision
 
 Potential **2027 graduation timeline**:
-- 2026 H2: Houàn thiện P3, P4, P5 manuscripts
-- 2027 H1: Submit P3, P4, P5, P7, P8 — tôi thiểu 1 paper accepted
+- 2026 H2: Submit P3, P4, P5 — submission packages hoàn chỉnh (JABS/MIR/IJOEM)
+- 2027 H1: Ít nhất 1 paper accepted; revisions P6/P7/P8 nộp lại
 - 2027 H2: Defense
 
 # 8. Câu hỏi thường được hỏi và câu trả lời chuẩn bị sẵn
