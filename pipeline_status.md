@@ -3,7 +3,7 @@
 > LFE Academic Workflow — adapted from Library-First Engineering v2
 > Project: PhD Dissertation — Đỗ Thùy Hương (VLUTE), supervised by PGS.TS. Phan Anh Tú (CTU)
 > Branch: `claude/edit-vietnamese-academic-standards-xcAmn`
-> Last updated: 2026-05-15
+> Last updated: 2026-05-16
 
 ---
 
@@ -52,18 +52,27 @@
 - p7/submission/jibs_package/: all 4 files present (prior session)
 - check-consistency.py: 0 issues confirmed
 
+## Completed This Session (2026-05-16)
+- p6/p6_wos_search_guide.md: WoS+Scopus queries updated to use wildcards (`internationaliz*`, `internationalis*`) — captures internationalized, internationalising, internationalizations (per user's WordHippo review of word forms)
+- Repository-wide scan: 107→108 country-year fix (4 files, committed prior), ~172→K=288/k=238 fix (5 files), P3/P4 inversion in writing_guides/09 fixed — all confirmed clean
+- I²=62.5% figure: consistent across all files (only ICBEF baseline 87.92% appears in correct context)
+- pipeline_status.md: updated — S-62 and S-116/S-117 already resolved in forest_data.csv (both still listed as pending — now corrected)
+
 ## Coordination Files
 None active in `.plans/` (clean state).
 
 ---
 
-## Pending (analysis-dependent — require Stata re-run)
+## Pending (analysis-dependent — require Stata re-run or external data)
 1. P3: Lind-Mehlum 4-condition full report per Haans et al. (2016)
 2. P3: Cubic FSTS³ test with AIC/BIC comparison
 3. P3: Marginal effects table at 10%/30%/50%/70% FSTS
-4. P6: r-values for **S-116 and S-117 only** (Barłożewski & Trąpczyński 2021a/b, Polish firms — 9 of 11 Part 2 candidates confirmed already in forest_data.csv via cross-reference 15/05/2026)
-5. P6: S-62 citation correction (verify from MetaEssentials Excel — r=0.383, n=279, Korean sample; current Lee et al. 2014 "Culture and entrepreneurial orientation" is not I→P)
+4. P6: PRISMA formal search (WoS+Scopus) — fill in `p6/p6_wos_search_guide.md` [TBD] counts after manual search
+5. P6: Part 5 Nhóm A studies [S-140]–[S-144] — PDFs needed to extract r values before assigning S239–S243
 6. New skill installed: `meta-analysis-internationalization-performance` (15/05/2026)
+
+~~P6: r-values for S-116/S-117~~ ✅ RESOLVED (S236: r=−0.10; S237: r=−0.04)  
+~~P6: S-62 citation correction~~ ✅ RESOLVED (Lee et al. 2014, IJCHM, US hotels, fp_type=MKT)
 
 ## Logic Sovereignty Anchors (locked — never change without full grill phase)
 - P3: TP pooled = 39.7% (range 39–46%) | TCI β = 0.179 | DAI IV β = 0.018 | N = 2,958
