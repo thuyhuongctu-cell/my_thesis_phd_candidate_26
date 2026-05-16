@@ -504,7 +504,7 @@ Bảng 2.6. CDCM — Dự đoán tác động DAI theo 3 chiều ngữ cảnh.
 
 H3: Digital Adoption Index (DAI) không hoạt động như một phần thưởng năng suất đồng nhất mà như một nguồn lực mở rộng tình huống theo CDCM: tác động của DAI lên ln(LP) phụ thuộc vào chế độ thể chế (ICRV), mức FSTS, và mức độ bão hòa số. Cụ thể: (a) β(FSTS²×DAI) > 0 trong Nhóm I; (b) tác động DAI yếu hoặc phụ thuộc chọn lựa trong Nhóm IV; (c) TCI và DAI là hai cấu trúc phân biệt và không thể thay thế nhau.
 
-##### H4 — Đặc điểm nhà quản trị điều tiết
+##### H4a–H4c — Đặc điểm nhà quản trị điều tiết
 
 Cơ sở lý thuyết: Upper Echelons Theory (Hambrick & Mason, 1984; Hambrick, 2007) cho rằng quyết định chiến lược phản ánh đặc điểm nhân khẩu học của nhà quản trị cấp cao — bao gồm kinh nghiệm, học vấn, và giới tính. Cơ chế điều tiết hoạt động qua hai kênh: chất lượng quyết định (tránh quốc tế hóa sớm ở FSTS thấp) và năng lực điều phối (quản lý phức tạp đa thị trường ở FSTS cao). Trong bối cảnh WBES, ba biến đại diện có sẵn: số năm kinh nghiệm quản lý (b5), trình độ học vấn (b7a), và giới tính nhà quản trị cấp cao (b7).
 
