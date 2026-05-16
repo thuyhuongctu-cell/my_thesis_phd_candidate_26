@@ -248,8 +248,8 @@ Mở bằng phenomenon-based pitch:
 - P6 baseline (ICBEF 2025): đã published
 - P3: bản thảo vừa xong — target JABS (Journal of Asia Business Studies, Emerald)
 - P4: bản thảo vừa xong — target MIR (Management International Review, Springer)
-- P5: đang chạy — target IJOEM (International Journal of Emerging Markets, Emerald)
-- P7: đang thiết kế — target MIR/JIBS
+- P5: bản thảo hoàn chỉnh — target IJOEM (International Journal of Emerging Markets, Emerald)
+- P7: bản thảo hoàn chỉnh — target JIBS (Journal of International Business Studies)
 - P8: bu1ea3n thu1ea3o REVISED v2 — chu1ea9n bu1ecb submit World Development
 
 Potential **2027 graduation timeline**:
@@ -316,9 +316,9 @@ heterogeneity?
 ✅ P2 China SMEs (JFAR 2026)
 ✅ P3 Vietnam — Nhóm IV (Lower_mid_transition), inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
 ✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft → MIR)
-🔄 P5 China temporal 2012–2024 (manuscript complete → IJOEM)
+✅ P5 China temporal 2012–2024 (manuscript complete → IJOEM)
 ✅ P6 Meta-analysis three-level MARA k=238 (manuscript complete → IBR — International Business Review; r=0.075, I²=62.5%, ICRV gradient Q=127.77***)
-✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → MIR/JIBS; N=84,910, TP≈36%, DAI moderation p<.01)
+✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → JIBS; N=84,910, TP≈36%, DAI moderation p<.01)
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 
 INSTITUTIONAL GRADIENT:
