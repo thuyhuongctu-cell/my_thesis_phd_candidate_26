@@ -241,30 +241,30 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 
 Arte, P., & Larimo, J. (2022). Moderating influence of product diversification on the international diversification-performance relationship: A meta-analysis. *Journal of Business Research*, 139, 281–295.
 
-Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization-performance relationship: Evidence from meta-analysis. *Management International Review*, 47(3), 319–347.
+Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization-performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347.
 
 Đỗ, H., & Phan, T. (2024). *Internationalization and firm performance in Asia: A meta-analytic baseline*. Paper presented at the International Conference on Business, Economics and Finance (ICBEF), Can Tho University.
 
-Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics*, 124(4), 1403–1448.
+Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics, 124*(4), 1403–1448.
 
-Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law*, 3(2), 220–246.
+Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law, 3*(2), 220–246.
 
 Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
 
-Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality-performance relationship: A meta-analytic review. *Global Strategy Journal*, 2(2), 108–121.
+Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality-performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121.
 
-Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics*, 72(1), 109–118.
+Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118.
 
-Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & Van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management*, 42(5), 1075–1110.
+Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & Van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110.
 
 North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
 
-Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology*, 36(4), 859–866.
+Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866.
 
 Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research*, 122, 889–901.
 
 World Bank Enterprise Surveys. (2025). *Enterprise surveys data*. World Bank Group. https://www.enterprisesurveys.org
 
-Wu, J., Xu, L., & Yang, Z. (2022). Multinationality and performance of emerging economy multinational enterprises: A twenty-year study. *International Business Review*, 31(5), 102003.
+Wu, J., Xu, L., & Yang, Z. (2022). Multinationality and performance of emerging economy multinational enterprises: A twenty-year study. *International Business Review, 31*(5), 102003.
 
 ---
