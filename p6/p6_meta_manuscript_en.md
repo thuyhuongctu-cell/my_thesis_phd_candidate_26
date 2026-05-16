@@ -456,6 +456,20 @@ The findings converge with country-level evidence from the Asia-Pacific region (
 
 ---
 
+## Funding
+
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Competing Interests
+
+The authors declare no conflict of interest.
+
+## Data Availability
+
+The coded study database (`forest_data.csv`), R analysis scripts (`metafor`), and the OSF pre-registration protocol are available from the corresponding author upon reasonable request. The PRISMA 2020 checklist is provided as supplementary material.
+
+---
+
 ## References
 
 Aguinis, H., Dalton, D. R., Bosco, F. A., Pierce, C. A., & Dalton, C. M. (2011). Meta-analytic choices and judgment calls: Implications for theory and research. *Journal of Management, 37*(1), 5–38.

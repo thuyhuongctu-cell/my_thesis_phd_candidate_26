@@ -86,9 +86,9 @@
 | Item | PRISMA 2020 Requirement | Location in Manuscript | Status |
 |------|------------------------|------------------------|--------|
 | 26 | **Registration and protocol**: Provide registration information for the review, including register name and registration number. | §3.1: "Pre-registration on the Open Science Framework (OSF)… registration identifier will be inserted at acceptance" | ⚠️ Insert actual OSF registration ID before submission |
-| 27 | **Support**: Describe sources of financial support for the review, and the role of the funders or sponsors. | Not yet in manuscript | ❌ Add acknowledgement / funding statement |
-| 28* | **Competing interests**: Declare any competing interests among the reviewers. | Not yet in manuscript | ❌ Add competing interests statement |
-| 29* | **Data availability**: Report where the data, analytic code, and other materials associated with the review can be accessed. | Not yet in manuscript | ❌ Add: "The coded study database (forest_data.csv), R analysis scripts (metafor), and the OSF pre-registration protocol are available at [OSF link]. The PRISMA checklist is available from the corresponding author." |
+| 27 | **Support**: Describe sources of financial support for the review, and the role of the funders or sponsors. | §Funding: "This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors." | ✅ Complete |
+| 28* | **Competing interests**: Declare any competing interests among the reviewers. | §Competing Interests: "The authors declare no conflict of interest." | ✅ Complete |
+| 29* | **Data availability**: Report where the data, analytic code, and other materials associated with the review can be accessed. | §Data Availability: "The coded study database (forest_data.csv), R analysis scripts (metafor), and the OSF pre-registration protocol are available from the corresponding author upon reasonable request. The PRISMA 2020 checklist is provided as supplementary material." | ✅ Complete |
 
 > *Items 28–29 are sometimes listed as part of a 29-item extension in PRISMA 2020 guidance; include regardless as IBR requires them.*
 
@@ -98,9 +98,9 @@
 
 | Status | Count | Items |
 |--------|-------|-------|
-| ✅ Complete | 15 | 1, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 19, 20, 21, 23, 25 |
-| ⚠️ Partial (fill after formal search) | 6 | 2, 6, 16a, 16b, 17, 24, 26 |
-| ❌ Missing / not addressed | 6 | 11, 15, 18, 22, 27, 28, 29 |
+| ✅ Complete | 19 | 1, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 19, 20, 21, 23, 25, 27, 28, 29 |
+| ⚠️ Partial (fill after formal search) | 7 | 2, 6, 16a, 16b, 17, 24, 26 |
+| ❌ Missing / not addressed | 4 | 11, 15, 18, 22 |
 
 ### Action list before IBR submission
 
