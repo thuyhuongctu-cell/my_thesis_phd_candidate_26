@@ -84,6 +84,16 @@
 - p4/submission/mir_package/01_manuscript_blinded.docx rebuilt — 3 commits stale: APA7 refs, §4.4 process notes removed (committed 6e8bb98)
 - build_ctu_docx.sh: P8 entry added; P3 and P6 fixed to use --resource-path=. from their own dir (figures were being silently dropped in root-level builds); P3 dist and JABS blinded docx rebuilt with all 6 figures (1.6MB); P6 dist and IBR blinded already had correct sizes (committed 1676f1b, 50b74ab, 7282d4c)
 - P3 Haans ref title: "inverted-U-shaped"→"inverted U-shaped" to match canonical form in thesis/04_references_apa7.md and P4/P5/P7/P8 (committed 1676f1b)
+- CĐ2 B.1: H3 split into H3a/H3b (CDCM regime-contingent moderation) + H3c discriminant validity — section heading, hypothesis text, abstract VI+EN, narrative summary, theory table all updated (committed 53fd628)
+- CĐ2 B.2: Bảng 2.13 framework comparison inserted (7 frameworks × 8 dimensions; CĐ2 only framework with all 8 ✓; JFAR row added); DANH MỤC BẢNG updated (committed dbdf466)
+- CĐ2 B.6: H4 split into H4a/H4b/H4c (experience, education, gender) — heading, variable table, M5 description, model table, both abstracts updated (committed 1fccdc0, 591ec06)
+- CĐ2 B.8: Phụ lục D Stata cluster SE code block added — Cameron & Miller (2015) citation; 235 clusters; HC1 vs cluster SE note; M2–M5 and H4a/H4b/H4c runs (committed 1fccdc0)
+- Khatua et al. (2024): APA7 format corrected to advance online publication in thesis/04_references_apa7.md (committed 53fd628)
+- thesis/04_references_apa7.md v2.8: Pirlea et al. (2026) "Global Progress" chapter entry added (Section P); version header updated (committed 7a821ce)
+- P8 §1: Pirlea et al. (2026) in-text citation added — SIDS development lag context ("progress slowest on record in 15/26 benchmarks; SIDS disproportionately affected") (committed 7a821ce)
+- P8 §3.2: Mahler, Wang & Weber (2026) in-text citation added — DAI null context ("5% LIC basic digital skills; 77% HIC data center capacity") (committed 7a821ce)
+- P8 references: Mahler et al. (2026) AI atlas + Pirlea et al. (2026) global-progress added alphabetically (committed 7a821ce)
+- dist: P8 docx + source_md snapshot + world_development_package/01_manuscript_blinded.docx rebuilt (committed 38c3fac)
 
 ## Coordination Files
 None active in `.plans/` (clean state).
