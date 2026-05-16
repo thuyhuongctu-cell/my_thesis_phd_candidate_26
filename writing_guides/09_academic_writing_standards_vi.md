@@ -18,8 +18,8 @@ Cộng với APA 7th + PRISMA 2020 đã có trong các file trước.
 
 - **P1**: Firm performance heterogeneity in emerging Asia (đã công bố VEFR 2026)
 - **P2**: Chinese manufacturing SMEs internationalization (đã công bố JFAR 2026)
-- **P3**: Singapore — *International Business Review* (target)
-- **P4**: Vietnam Resource Diversion Trap — *Journal of World Business* (target)
+- **P3**: Vietnam — *Journal of Finance and Accounting Research* (đã công bố VEFR 2026, đang revise cho JFAR)
+- **P4**: Singapore — *International Business Review* (target)
 - **P5**: China temporal evolution 2012–2024 — *Asia Pacific Journal of Management* (target)
 - **P6**: Meta-analysis update — top-tier journal target (TBD)
 - **P7**: Asian capstone (47–49 economies) — *JIBS* (under revision)
