@@ -75,6 +75,9 @@
 - P6 §3.2: peer-review restriction paragraph inserted after eligibility table (exact text per user specification)
 - p6/p6_wos_search_guide.md: WoS and Scopus queries expanded to match manuscript §3.1; supplementary databases section added (Phần 3); "Non-peer-reviewed publication" exclusion reason added to Level 1 screening table; section headers renumbered (4→5, 5→6)
 - P6 IBR blinded docx rebuilt from updated manuscript source
+- p6/p6_prisma_flow.md v2.2: IDENTIFICATION box updated (5 supplementary DBs added, scite.ai→Google Scholar); Level 1 screening: "Non-peer-reviewed publication" exclusion added; §2 WoS+Scopus queries updated to expanded global strings; §3 exclusion criterion 6 expanded; INCLUDED breakdown updated; version history logged (committed eccd3d8)
+- p6/21_p6_meta_vi.md v1.6: §3.1 supplementary search rewritten (5 databases + Google Scholar forward citation, 5 anchor metas); footer updated — scite.ai→forward/supplementary screen; peer-reviewed-only corpus note added (committed 7dc2e48)
+- dist/manuscripts/en/p6_meta_en_clean.docx rebuilt — was stale since search protocol expansion (committed 28cb442)
 
 ## Coordination Files
 None active in `.plans/` (clean state).
