@@ -285,7 +285,7 @@ Doh, J. P., Rodrigues, S., Saka-Helmhout, A., & Makhija, M. (2017). Internationa
 
 Goedhuys, M., & Sleuwaegen, L. (2013). The impact of international standards certification on the performance of firms in less developed countries. *World Development, 46*, 87–101.
 
-Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195.
+Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
 
 Hennart, J.-F. (2007). The theoretical rationale for a multinationality-performance relationship. *Management International Review, 47*(3), 423–452.
 
