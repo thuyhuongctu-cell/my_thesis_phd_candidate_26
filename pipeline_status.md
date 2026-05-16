@@ -59,6 +59,10 @@
 - pipeline_status.md: updated — S-62 and S-116/S-117 already resolved in forest_data.csv (both still listed as pending — now corrected)
 - chuyen_de/20_cd1_cd2_review_report_vi.md: errata note added — historical 101.035/107 values preserved; correct values 101.185/108 noted (committed bf25711)
 - thesis/11_dissertation_positioning_vi.md: 4 stale markers fixed — P5 🔄→✅, P5 "đang chạy"→"bản thảo hoàn chỉnh", P7 "MIR/JIBS"→"JIBS", P7 "đang thiết kế"→"bản thảo hoàn chỉnh" (committed 0788689)
+- P3 abstract: trimmed from 304 to exactly 250 words for JABS structured-abstract limit (removed 40-word parenthetical, density sentence, minor cuts); JABS README word count updated "247→250"; blinded docx rebuilt via pandoc (committed 151a44b, 5ba7445)
+- P5: Haans, Pieters & He (2016) 4-condition LM block added to §4.2 (C1–C4 for 2012, 2024, and pooled waves) + APA7 reference added (committed 5ba7445, 4ad334f)
+- P7: TP formula corrected in §3.3 — removed erroneous `× SD(FSTS)` term (applies only to z-standardized FSTS; P7 uses mean-centering only); Haans (2016) 4-condition LM block added to §4.2 + APA7 reference added (committed 5ba7445, 4ad334f)
+- thesis/11_dissertation_positioning_vi.md §7.4: P6 entry added (was missing); P8 garbled UTF-8 "bu1ea3n thu1ea3o..." fixed to "bản thảo hoàn chỉnh"; P3/P4 "vừa xong"→"hoàn chỉnh"; P7 "target JIBS"→"JIBS under revision"; timeline corrected 2026 H2/2027 H1 (committed 34fd730)
 
 ## Coordination Files
 None active in `.plans/` (clean state).
