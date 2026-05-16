@@ -19,17 +19,29 @@
 
 ### 1.2 Query — Copy nguyên đoạn dưới vào ô Advanced Search
 
+> **Lưu ý ký tự đại diện (wildcard):** WoS hỗ trợ `*` bên ngoài dấu ngoặc kép.  
+> `internationaliz*` bắt: internationalization, internationalized, internationalizing, internationalizes  
+> `internationalis*` bắt: internationalisation, internationalised, internationalising (British English)  
+> Không cần liệt kê từng biến thể — dùng wildcard ngắn gọn hơn và bắt đầy đủ hơn.
+
 ```
-TS=("internationalization" OR "internationalisation" OR "multinationality" 
+TS=(internationaliz* OR internationalis* OR multinationality 
     OR "degree of internationalization" OR "export intensity" 
-    OR "foreign sales ratio" OR "FSTS" OR "international diversification") 
+    OR "foreign sales ratio" OR FSTS OR "international diversification") 
 AND 
 TS=("firm performance" OR "corporate performance" OR "financial performance" 
-    OR "labor productivity" OR "labour productivity" OR "profitability" 
-    OR "Tobin's q" OR "return on assets" OR "ROA" OR "return on equity")
+    OR "labor productivity" OR "labour productivity" OR profitability 
+    OR "Tobin's q" OR "return on assets" OR ROA OR "return on equity")
 AND
 TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
 ```
+
+> **Các biến thể được bắt bởi wildcard `internationaliz*` / `internationalis*`:**
+> - Danh từ: internationalization / internationalisation  
+> - Động từ: internationalize / internationalise  
+> - Tính từ: internationalized / internationalised  
+> - Phân từ hiện tại: internationalizing / internationalising  
+> - Số nhiều: internationalizations / internationalisations
 
 ---
 
@@ -73,15 +85,18 @@ Số kết quả WoS:  n = ________
 
 ### 2.2 Query — Copy nguyên đoạn dưới vào ô Advanced Search
 
+> **Lưu ý Scopus:** Scopus hỗ trợ wildcard `*` tương tự WoS, nhưng **bên trong** TITLE-ABS-KEY.  
+> Dùng `internationaliz*` và `internationalis*` để bắt toàn bộ dạng từ (xem ghi chú §1.2).
+
 ```
-TITLE-ABS-KEY("internationalization" OR "internationalisation" 
-    OR "multinationality" OR "degree of internationalization" 
-    OR "export intensity" OR "FSTS" OR "international diversification")
+TITLE-ABS-KEY(internationaliz* OR internationalis* 
+    OR multinationality OR "degree of internationalization" 
+    OR "export intensity" OR FSTS OR "international diversification")
 AND
 TITLE-ABS-KEY("firm performance" OR "corporate performance"
     OR "financial performance" OR "labor productivity" 
-    OR "labour productivity" OR "profitability" 
-    OR "return on assets" OR "Tobin")
+    OR "labour productivity" OR profitability 
+    OR "return on assets" OR Tobin)
 AND
 TITLE-ABS-KEY(correlation OR regression OR coefficient OR "effect size")
 AND PUBYEAR > 1976 AND PUBYEAR < 2027
