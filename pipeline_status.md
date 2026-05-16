@@ -94,7 +94,9 @@ None active in `.plans/` (clean state).
 New skill installed: `stata-khong-license-giai-phap` (16/05/2026) — Python/R econometrics alternatives
 
 ~~P6: r-values for S-116/S-117~~ ✅ RESOLVED (S236: r=−0.10; S237: r=−0.04)  
-~~P6: S-62 citation correction~~ ✅ RESOLVED (Lee et al. 2014, IJCHM, US hotels, fp_type=MKT)
+~~P6: S-62 citation correction~~ ✅ RESOLVED (Lee et al. 2014, IJCHM, US hotels, fp_type=MKT)  
+~~P6: S236/S237/S238 missing from study database coded.md~~ ✅ RESOLVED (commit cfb97ab — rows added; S85 cDAI M→H corrected; S195/S196 cross-referenced to their subsample counterparts)  
+⚠️ P6: S238 vs S85 duplicate review — Cho & Lee (2018) appears as both S85 (cDAI=M) and S238 (cDAI=H, corrected); verify with author whether these are separate analyses or single effect before final analysis; if single effect, remove S238 from forest_data.csv and keep S85 with cDAI=H
 
 ## Logic Sovereignty Anchors (locked — never change without full grill phase)
 - P3: TP pooled = 39.7% (range 39–46%) | TCI β = 0.179 | DAI IV β = 0.018 | N = 2,958
