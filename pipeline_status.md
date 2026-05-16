@@ -94,6 +94,15 @@
 - P8 §3.2: Mahler, Wang & Weber (2026) in-text citation added — DAI null context ("5% LIC basic digital skills; 77% HIC data center capacity") (committed 7a821ce)
 - P8 references: Mahler et al. (2026) AI atlas + Pirlea et al. (2026) global-progress added alphabetically (committed 7a821ce)
 - dist: P8 docx + source_md snapshot + world_development_package/01_manuscript_blinded.docx rebuilt (committed 38c3fac)
+- **11 PDFs uploaded by user assessed for dissertation relevance** (16/05/2026 session continuation):
+  - 5 applicable: Agarwal+Barattieri+Mattoo WPS11352 (P3); Barattieri+Mattoo+Signoret WPS11354 (P3); Mahler+Serajuddin+Wadhwa+Yonzan WPS11350 (P8); Kim+Kumar+Ramalho+Russell WPS11279 (CD2); Geginat+Ramalho WPS7460 (P8/CD1)
+  - 4 not cited: Gould et al. 2013 (South Asia FDI); Barattieri et al. 2014 (M&A services); de Nicola et al. 2026 (robots+FDI); WBG Annual Report 2025 (general)
+  - 2 moderate: Kee et al. 2025 (P5 optional); WBG Annual Report 2025 (general background)
+- thesis/04_references_apa7.md v2.9: Section T added (5 new entries); Mahler disambiguation note; usage guide updated
+- p3/p3_vietnam_en_clean.md §5 Discussion: Agarwal et al. (2026) ascending-limb corroboration added; Barattieri et al. (2026) trade liberalization macro evidence added in §5.5
+- p8/p8_pacific_sids_en_clean.md §1: Mahler, Serajuddin, Wadhwa & Yonzan (2026) slowest development pace added (as Mahler et al. 2026b to disambiguate from Mahler, Wang & Weber 2026 Atlas chapter)
+- chuyen_de/cd2/00_cd2_ctu_final_vi.md §3.3 Tầng 3: Kim et al. (2026) institutional capacity framework added after North (1990) definition
+- Rebuilt: dist/manuscripts/en/p3_vietnam_en_clean.docx, p8_pacific_sids_en_clean.docx, dist/submission_packages/cd2/CD2_submission_final.docx
 
 ## Coordination Files
 None active in `.plans/` (clean state).
