@@ -16,8 +16,10 @@
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║  Records identified from electronic databases:                               ║
-║  • Web of Science Core Collection    [n = TBD — ghi sau khi search]         ║
-║  • Scopus                            [n = TBD]                              ║
+║  • Web of Science Core Collection    [n = TBD — cần institutional access]   ║
+║  • Scopus                            [n = TBD — cần institutional access]   ║
+║  • OpenAlex (free, global coverage)  [n = TBD — chạy p6/tools/openalex_    ║
+║                                       prisma_search.py trên máy có mạng]   ║
 ║  • ABI/INFORM Complete               [n = TBD]                              ║
 ║  • Business Source Complete (EBSCO)  [n = TBD]                              ║
 ║  • ScienceDirect (Elsevier)          [n = TBD]                              ║
@@ -269,6 +271,7 @@ Current database state (pre-formal-search):
 | v2.0 | 12/05/2026 | Full rewrite — fresh/independent search framework; all fake numbers replaced with [TBD]; PICO criteria added; inter-coder protocol added |
 | v2.1 | 16/05/2026 | k=235→238, K=~385→288 (forest_data.csv actual count); Study ID range S001–S238+ |
 | v2.2 | 16/05/2026 | Search strategy expanded: WoS/Scopus queries updated to global scope (no Asia-Pacific geo filter); supplementary databases added (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight); "Non-peer-reviewed publication" added as exclusion reason; scite.ai → Google Scholar for forward citation; INCLUDED breakdown updated |
+| v2.3 | 16/05/2026 | Added OpenAlex as free supplementary database; Python search script created at p6/tools/openalex_prisma_search.py; WoS/Scopus noted as requiring institutional access |
 
 ---
 
