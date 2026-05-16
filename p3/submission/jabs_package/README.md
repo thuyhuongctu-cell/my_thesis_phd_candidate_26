@@ -35,7 +35,7 @@
 - [ ] **Title:** Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption
 - [ ] **Keywords** (6): internationalisation–performance; emerging markets; digital adoption; technological capability; Vietnam; threshold durability
 - [ ] **JEL codes:** F23, O33, D22, L25, O53
-- [ ] **Abstract** (247 words): paste from `01_manuscript_blinded.docx`
+- [ ] **Abstract** (250 words): paste from `01_manuscript_blinded.docx`
 - [ ] Upload `01_manuscript_blinded.docx` → Manuscript
 - [ ] Upload `02_title_page.docx` → Title Page
 - [ ] Upload `03_cover_letter.docx` → Cover Letter
@@ -57,7 +57,7 @@
 | Item | Count |
 |------|-------|
 | Word count (main text) | ~6,800 words |
-| Abstract | 247 words |
+| Abstract | 250 words |
 | Tables | 5 |
 | Figures | 6 |
 | References | 48 |
