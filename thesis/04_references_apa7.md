@@ -597,7 +597,7 @@ Huang, L., & Marciano, D. (2020). Interdependence relationship of internationali
 
 Kayaci, A. (2022). The relationship between internationalization level and financial performance: A study with BİST companies. *Cumhuriyet Üniversitesi İktisadi ve İdari Bilimler Dergisi*. https://doi.org/10.37880/cumuiibf.1077104
 
-Khatua, A., Mondal, A., & Dhanda, S. (2024). The internationalization and performance of INVs: Liability or learning advantages of newness? *Journal of International Entrepreneurship*, 1–27. https://doi.org/10.1007/s10843-023-00345-2
+Khatua, A., Mondal, A., & Dhanda, S. (2024). The internationalization and performance of INVs: Liability or learning advantages of newness? *Journal of International Entrepreneurship*. Advance online publication. https://doi.org/10.1007/s10843-023-00345-2
 
 Lin, W. T., Liu, Y., & Cheng, K. (2011). The internationalization and performance of a firm: Moderating effect of a firm's behavior. *Journal of International Management, 17*(1), 83–95. https://doi.org/10.1016/j.intman.2010.12.004
 
