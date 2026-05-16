@@ -66,8 +66,8 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                     INCLUDED                                                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Studies included in meta-analysis: k = [TBD — hiện có 235 trong database]  ║
-║  Effect sizes: K ≈ [TBD — hiện có ~385]                                     ║
+║  Studies included in meta-analysis: k = [TBD — hiện có 238 trong database]  ║
+║  Effect sizes: K ≈ [TBD — hiện có 288 trong forest_data.csv]                ║
 ║                                                                              ║
 ║  Breakdown by source:                                                        ║
 ║    Database search (WoS + Scopus):         [n = TBD]                        ║
@@ -213,7 +213,7 @@ Author's own publications and papers from known research groups working on I→P
 
 | Variable | Type | Values |
 |----------|------|--------|
-| Study ID | String | S001–S235+ |
+| Study ID | String | S001–S238+ |
 | First author | String | — |
 | Year | Integer | 1977–2026 |
 | Country/region | String | ISO code |
@@ -231,7 +231,7 @@ Author's own publications and papers from known research groups working on I→P
 
 ```
 Current database state (pre-formal-search):
-  Studies in coded database:       235
+  Studies in coded database:       238
   Estimated overlap with WoS:      ~180–200 (will be confirmed)
   Estimated new from WoS/Scopus:   ~15–50 (TBD after search)
   
@@ -248,6 +248,7 @@ Current database state (pre-formal-search):
 | v1.0 | 12/05/2026 | Initial draft — update framing, estimated numbers |
 | v1.1 | 12/05/2026 | k=135→235 in INCLUDED box |
 | v2.0 | 12/05/2026 | Full rewrite — fresh/independent search framework; all fake numbers replaced with [TBD]; PICO criteria added; inter-coder protocol added |
+| v2.1 | 16/05/2026 | k=235→238, K=~385→288 (forest_data.csv actual count); Study ID range S001–S238+ |
 
 ---
 
