@@ -76,7 +76,7 @@
 | Item | PRISMA 2020 Requirement | Location in Manuscript | Status |
 |------|------------------------|------------------------|--------|
 | 23 | **Discussion**: Provide a general interpretation of the results in the context of other evidence, and implications for practice, policy, and future research. | §5 Discussion: ICRV gradient interpreted; cDAI mechanism discussed; DPL phase temporal pattern; comparison with Marano et al. (2016), Wu et al. (2022) | ✅ |
-| 24 | **Limitations**: Discuss limitations of the evidence included in the review and of the review process itself. | §5 Discussion or §6 Conclusion should include: (a) TBD counts not yet confirmed (formal search pending), (b) DAI as Tier-1 static measure, (c) single-coder for 80% of corpus, (d) English-only restriction, (e) no causal inference from observational studies | ⚠️ Check §5/§6 for explicit limitations paragraph |
+| 24 | **Limitations**: Discuss limitations of the evidence included in the review and of the review process itself. | §5.4 Limitations: (a) cross-sectional study-level data / no firm-level causal inference; (b) AP-weighted corpus / Europe/NA underrepresented; (c) DAI Tier-1+2 only, not Tier-3/4; (d) English-only search, anglocentricity bias noted; (e) 80% single-coder — five-item limitations block added May 2026 | ✅ Complete |
 | 25 | **Conclusions**: Provide a brief summary of the findings in the context of the implications for practice and future research. | §6 Conclusion | ✅ |
 
 ---
@@ -98,8 +98,8 @@
 
 | Status | Count | Items |
 |--------|-------|-------|
-| ✅ Complete | 21 | 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 23, 25, 27, 28, 29 |
-| ⚠️ Partial (fill after formal search) | 7 | 2, 6, 16a, 16b, 17, 24, 26 |
+| ✅ Complete | 22 | 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 23, 24, 25, 27, 28, 29 |
+| ⚠️ Partial (fill after formal search) | 6 | 2, 6, 16a, 16b, 17, 26 |
 | ❌ Missing / not addressed | 2 | 15, 22 |
 
 ### Action list before IBR submission
