@@ -116,6 +116,8 @@ Bảng 2.11. Phân loại 47 nền kinh tế theo ICRV — đặc điểm và ti
 
 Bảng 2.12. Kế hoạch kiểm định độ vững — sáu nhóm
 
+Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết của các khung tham chiếu chính và CĐ2
+
 ---
 
 ## DANH MỤC HÌNH
@@ -288,6 +290,20 @@ Wu, Wood và Khan (2022) tổng hợp 20 năm bằng chứng từ doanh nghiệp
 Schwens và cộng sự (2018) tập trung vào doanh nghiệp vừa và nhỏ và tìm thấy dạng U (không phải chữ U ngược) trong một số bối cảnh — chi phí quốc tế hóa ban đầu lớn so với năng lực, nhưng phục hồi sau khi vượt ngưỡng thiết lập. Hạn chế: mẫu nhỏ (87 nghiên cứu); không bao phủ châu Á Thái Bình Dương đầy đủ; không kiểm định DAI như biến điều tiết.
 
 Kết luận tổng quan: hiệu ứng trung bình I→P là dương nhỏ (r khoảng 0,04–0,07) nhưng rất không đồng nhất (SD = 0,15–0,21). Cả năm tổng quan đều thiếu: (i) bao phủ đầy đủ châu Á và Thái Bình Dương; (ii) kiểm định đồng thời phi tuyến và điều tiết đa tầng; (iii) phân tách TCI và DAI; (iv) bao gồm quốc đảo nhỏ Thái Bình Dương; (v) dữ liệu sau 2020. Chuyên đề này lấp đầy tất cả năm khoảng trống với pool 101.185 doanh nghiệp và khung CDCM.
+
+Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết của các khung tham chiếu chính và CĐ2.
+
+| Khung | Phi tuyến I→P | TCI | DAI | Đặc điểm QL | Thể chế (Inst.) | Temporal | Phân nhóm | SIDS |
+|-------|--------------|-----|-----|-------------|-----------------|----------|-----------|------|
+| Bausch & Krist (2007) | ✗ (không kiểm định hệ thống) | Partial (R&D proxy) | ✗ | ✗ | ✓ (GDP, văn hóa) | ✗ | ✗ | ✗ |
+| Kirca et al. (2012) | ✗ | ✓ (R&D proxy) | ✗ | ✗ | Partial | ✗ | Partial (ngành) | ✗ |
+| Marano et al. (2016) | ✓ (TP ±15% FSTS) | ✗ | ✗ | ✗ | ✓ (cốt lõi) | ✗ | ✗ | ✗ |
+| Banalieva & Dhanaraj (2019) | Partial | ✗ | ✓ (cốt lõi) | ✗ | Partial | Partial | ✗ | ✗ |
+| Wu, Wood & Khan (2022) | ✓ (TP thấp hơn EMNE) | Partial (absorptive capacity) | ✗ | ✗ | ✓ | ✓ (20 năm) | ✓ (EMNE/DMNE) | ✗ |
+| Đỗ & Phan (2026 — JFAR) | ✓ (bậc ba / S-curve) | – | – | – | – | – | – | – |
+| **CĐ2 (luận án này)** | **✓ (H1: chữ U ngược + S-curve)** | **✓ (H2: nhân quả IV)** | **✓ (H3: CDCM phân biệt)** | **✓ (H4a–H4c)** | **✓ (H5: ICRV 6 nhóm)** | **✓ (H6: 3 giai đoạn)** | **✓ (Nhóm I→VI)** | **✓ (Nhóm VI FIP)** |
+
+*Ghi chú: ✓ = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; ✗ = không bao gồm; – = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
 
 ##### Bằng chứng châu Á từ ba bản thảo đồng hành
 
