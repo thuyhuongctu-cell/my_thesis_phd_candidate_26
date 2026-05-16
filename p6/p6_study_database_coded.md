@@ -389,7 +389,9 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 235 studies)
+## 5. Tóm tắt Phân phối Moderator (k = 238 studies, K = 288 effects)
+
+> *Cập nhật 15/05/2026: k=235→238 do bổ sung S236 Barłożewski (2021a), S237 Barłożewski (2021b), S238 Cho & Lee (2018). Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` (K=288 rows) để có số liệu chính xác theo effect.*
 
 ### 5.1 Phân phối ICRV Regime
 
@@ -401,7 +403,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | SIDS | 0 | 0% | *No studies yet — target from P8 backward scan* |
 | Frontier | 3 | 1% | Pakistan (1), Iran (1), Cameroon (1) |
 | Mixed | 36 | 15% | Multi-country (36) |
-| **Tổng** | **235** | **100%** | |
+| **Tổng** | **238** | **100%** | |
 
 > **Ghi chú SIDS**: Chưa tìm được studies đủ tiêu chuẩn với mẫu thuần SIDS Pacific. Phần
 > backward scan tiếp theo cần tìm kiếm riêng cho Fiji, Solomon Islands, Vanuatu.
@@ -413,7 +415,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | High | 57 | 24% | Advanced economies post-2010 với strong digital infrastructure |
 | Medium | 81 | 34% | Advanced pre-2010 or upper-middle post-2010 |
 | Low | 97 | 41% | Emerging/Frontier contexts or pre-1998 data |
-| **Tổng** | **235** | **100%** | |
+| **Tổng** | **238** | **100%** | |
 
 ### 5.3 Phân phối DPL Phase
 
@@ -422,7 +424,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | Precede | 74 | 32% | Data ends ≤ 2008 |
 | Span | 90 | 38% | Data 2005–2014 |
 | Follow | 71 | 30% | Data starts ≥ 2013 |
-| **Tổng** | **235** | **100%** | |
+| **Tổng** | **238** | **100%** | |
 
 ### 5.4 Phân phối DOI Measure Type
 
