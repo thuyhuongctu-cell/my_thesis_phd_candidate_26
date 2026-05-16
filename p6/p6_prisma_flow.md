@@ -234,7 +234,7 @@ Author's own publications and papers from known research groups working on I→P
 
 | Variable | Type | Values |
 |----------|------|--------|
-| Study ID | String | S001–S238+ |
+| Study ID | String | S001–S237++ |
 | First author | String | — |
 | Year | Integer | 1977–2026 |
 | Country/region | String | ISO code |
@@ -269,7 +269,7 @@ Current database state (pre-formal-search):
 | v1.0 | 12/05/2026 | Initial draft — update framing, estimated numbers |
 | v1.1 | 12/05/2026 | k=135→235 in INCLUDED box |
 | v2.0 | 12/05/2026 | Full rewrite — fresh/independent search framework; all fake numbers replaced with [TBD]; PICO criteria added; inter-coder protocol added |
-| v2.1 | 16/05/2026 | k=235→238, K=~385→288 (forest_data.csv actual count); Study ID range S001–S238+ |
+| v2.1 | 16/05/2026 | k=235→238, K=~385→288 (forest_data.csv actual count); Study ID range S001–S237++ |
 | v2.2 | 16/05/2026 | Search strategy expanded: WoS/Scopus queries updated to global scope (no Asia-Pacific geo filter); supplementary databases added (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight); "Non-peer-reviewed publication" added as exclusion reason; scite.ai → Google Scholar for forward citation; INCLUDED breakdown updated |
 | v2.3 | 16/05/2026 | Added OpenAlex as free supplementary database; Python search script created at p6/tools/openalex_prisma_search.py; WoS/Scopus noted as requiring institutional access |
 

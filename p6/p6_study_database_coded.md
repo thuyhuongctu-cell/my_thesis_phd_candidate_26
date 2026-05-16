@@ -388,13 +388,12 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S235 | Freixanet & Rialp (2021) GSJ | +0.08 (est.) | 1,500 | Spain | ~2008–16 | II | M | FOL | EXP | MIX | GSJ; I→P with innovation mediator (distinct from S101 EMJ) |
 | S236 | Barłożewski & Trąpczyński (2021a) | −0.10 | 97 | Poland | ~2014–19 | MX | M | SPN | FSTS | ACC | EBER 9; exporter subsample n=97; r confirmed (see S195 for full-sample n=200 est.) |
 | S237 | Barłożewski & Trąpczyński (2021b) | −0.04 | 304 | Poland | ~2014–19 | MX | M | FOL | FSTS | ACC | OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.) |
-| S238 | Cho & Lee (2018) | −0.029 | 232 | Korea | ~2010–15 | I | H | SPN | FSTS | ACC | Family firms Korea; cDAI corrected to H (was M at S85); verify before final analysis |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 238 studies, K = 288 effects)
+## 5. Tóm tắt Phân phối Moderator (k = 237 studies, K = 287 effects)
 
-> *Cập nhật 16/05/2026: k=238. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). S238 = Cho & Lee (2018) confirmed cDAI=H variant of S85 (same paper, corrected coding — verify before final analysis). Table rows S01–S238 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` (K=288 rows) để có số liệu chính xác theo effect.*
+> *Cập nhật 16/05/2026: k=237. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). S238 = Cho & Lee (2018) confirmed duplicate of S85 (same paper, same r=−0.029, same n=232; removed — cDAI corrected to H at S85). Table rows S01–S237 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` (K=287 rows) để có số liệu chính xác theo effect.*
 >
 > **Ghi chú về chênh lệch K: MetaEssentials vs forest_data (16/05/2026)**
 >
@@ -404,7 +403,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 > - **forest_data.csv** chỉ giữ effects đại diện cho *tổ hợp (DOI type × FP type) độc lập* — một study có tối đa 1 effect mỗi tổ hợp; loại bỏ correlations giữa cùng biến nhưng đo theo cách khác (raw vs. adjusted, khác subsample cùng nghiên cứu).
 > - Nguyên tắc này nhất quán với Cheung (2014) three-level MARA: "effects should represent independent comparisons; redundant correlations inflate K và bias kết quả aggregation."
 >
-> **Kết luận**: K=288 trong forest_data là số đúng cho three-level MARA. 54 effects không được đưa vào là *intentional exclusions*, không phải missing data. Không cần bổ sung thêm.
+> **Kết luận**: K=287 trong forest_data là số đúng cho three-level MARA. 54 effects không được đưa vào là *intentional exclusions*, không phải missing data. Không cần bổ sung thêm.
 
 ### 5.1 Phân phối ICRV Regime
 
@@ -416,7 +415,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | SIDS | 0 | 0% | *No studies yet — target from P8 backward scan* |
 | Frontier | 3 | 1% | Pakistan (1), Iran (1), Cameroon (1) |
 | Mixed | 36 | 15% | Multi-country (36) |
-| **Tổng** | **238** | **100%** | |
+| **Tổng** | **237** | **100%** | |
 
 > **Ghi chú SIDS**: Chưa tìm được studies đủ tiêu chuẩn với mẫu thuần SIDS Pacific. Phần
 > backward scan tiếp theo cần tìm kiếm riêng cho Fiji, Solomon Islands, Vanuatu.
@@ -428,7 +427,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | High | 57 | 24% | Advanced economies post-2010 với strong digital infrastructure |
 | Medium | 81 | 34% | Advanced pre-2010 or upper-middle post-2010 |
 | Low | 97 | 41% | Emerging/Frontier contexts or pre-1998 data |
-| **Tổng** | **238** | **100%** | |
+| **Tổng** | **237** | **100%** | |
 
 ### 5.3 Phân phối DPL Phase
 
@@ -437,7 +436,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | Precede | 74 | 32% | Data ends ≤ 2008 |
 | Span | 90 | 38% | Data 2005–2014 |
 | Follow | 71 | 30% | Data starts ≥ 2013 |
-| **Tổng** | **238** | **100%** | |
+| **Tổng** | **237** | **100%** | |
 
 ### 5.4 Phân phối DOI Measure Type
 

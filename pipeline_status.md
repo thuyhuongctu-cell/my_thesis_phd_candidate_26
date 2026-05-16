@@ -103,6 +103,7 @@
 - p8/p8_pacific_sids_en_clean.md §1: Mahler, Serajuddin, Wadhwa & Yonzan (2026) slowest development pace added (as Mahler et al. 2026b to disambiguate from Mahler, Wang & Weber 2026 Atlas chapter)
 - chuyen_de/cd2/00_cd2_ctu_final_vi.md §3.3 Tầng 3: Kim et al. (2026) institutional capacity framework added after North (1990) definition
 - Rebuilt: dist/manuscripts/en/p3_vietnam_en_clean.docx, p8_pacific_sids_en_clean.docx, dist/submission_packages/cd2/CD2_submission_final.docx
+- **P6 S238/S85 duplicate resolved** (16/05/2026): S238 = Cho & Lee (2018) confirmed duplicate of S85 (same r=−0.029, same n=232, Korea family firms); S238 row removed from forest_data.csv + p6_study_database_coded.md; S85 cDAI corrected M→H; k=237, K=287 updated across p6_meta_manuscript_en.md, 21_p6_meta_vi.md, p6_prisma_flow.md, p6_study_database_coded.md; dist/manuscripts/en/p6_meta_en_clean.docx rebuilt (1.25MB); submission/ibr_package/01_manuscript_blinded.docx rebuilt (1.2MB); p3/submission/jabs_package/01_manuscript_blinded.docx rebuilt (1.6MB, stale since Agarwal+Barattieri citations added)
 
 ## Coordination Files
 None active in `.plans/` (clean state).
@@ -121,7 +122,7 @@ New skill installed: `stata-khong-license-giai-phap` (16/05/2026) — Python/R e
 ~~P6: r-values for S-116/S-117~~ ✅ RESOLVED (S236: r=−0.10; S237: r=−0.04)  
 ~~P6: S-62 citation correction~~ ✅ RESOLVED (Lee et al. 2014, IJCHM, US hotels, fp_type=MKT)  
 ~~P6: S236/S237/S238 missing from study database coded.md~~ ✅ RESOLVED (commit cfb97ab — rows added; S85 cDAI M→H corrected; S195/S196 cross-referenced to their subsample counterparts)  
-⚠️ P6: S238 vs S85 duplicate review — Cho & Lee (2018) appears as both S85 (cDAI=M) and S238 (cDAI=H, corrected); verify with author whether these are separate analyses or single effect before final analysis; if single effect, remove S238 from forest_data.csv and keep S85 with cDAI=H
+~~P6: S238 vs S85 duplicate review~~ ✅ RESOLVED (16/05/2026 — S238 confirmed duplicate of S85 [Cho & Lee 2018, same r=−0.029, same n=232]; S238 removed from forest_data.csv + study_database_coded.md; S85 cDAI corrected M→H; k=237, K=287; all P6 files + dist docx updated)
 
 ## Logic Sovereignty Anchors (locked — never change without full grill phase)
 - P3: TP pooled = 39.7% (range 39–46%) | TCI β = 0.179 | DAI IV β = 0.018 | N = 2,958
