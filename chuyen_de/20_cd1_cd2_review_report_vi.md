@@ -3,6 +3,7 @@
 > Reviewer: AI assistant (đóng vai critic độc lập)
 > Ngày review: 04/05/2026
 > Trạng thái: **TRƯỚC khi gửi HD** (TS. Nguyễn Minh Cảnh và PGS.TS. Phan Anh Tú)
+> **⚠ ĐÍNH CHÍNH (16/05/2026):** "pool thực" ở Phần A.1 và các bảng trong báo cáo này ghi **101.035 doanh nghiệp** và **107 country-year** — đây là giá trị được xác nhận từ script cũ. Sau khi chạy lại kiểm tra xuyên suốt, các số đúng là: **101.185 doanh nghiệp** và **108 cặp quốc gia × năm**. Tất cả file manuscript (CĐ1, CĐ2, thesis) đã được cập nhật sang 101.185 / 108. Báo cáo review này giữ nguyên giá trị lịch sử để tham chiếu kiểm toán.
 
 Báo cáo này phân loại các vấn đề theo **mức độ nghiêm trọng** để NCS biết sửa nào trước:
 
