@@ -564,7 +564,21 @@ negative FSTS_c × DAI_z interaction shows that this conditional channel binds p
 higher export intensity rather than uniformly across the export-intensity range.
 
 ### 4.2 Pooled findings
-The pooled estimates confirm that the internationalisation–performance relationship is nonlinear on average. In the pooled M2 specification, the linear FSTS_c term is positive (β = 0.984, p < .001) and the quadratic FSTS_c² term is negative (β = -1.909, p < .001); the Lind–Mehlum test rejects monotonicity at p < .001 with an estimated turning point at 39.7 per cent of direct-export intensity. The curvature persists in the full M8 specification (FSTS_c β = 0.845, p = .006; FSTS_c² β = -1.650, p < .001); the positive linear and negative quadratic coefficients together confirm the inverted-U, consistent with H1 and aligning with the meta-analytic evidence on the nonlinear shape of internationalisation returns in emerging-market firms (Marano et al., 2016).
+The pooled estimates confirm that the internationalisation–performance relationship is nonlinear on average. In the pooled M2 specification, the linear FSTS_c term is positive (β = 0.984, p < .001) and the quadratic FSTS_c² term is negative (β = -1.909, p < .001); the Lind–Mehlum test rejects monotonicity at p < .001 with an estimated turning point at 39.7 per cent of direct-export intensity. Following Haans, Pieters, and He (2016), all four formal conditions for a genuine inverted-U are met: (C1) β₁ = +0.984 (p < .001), confirming a positive ascending limb; (C2) β₂ = −1.909 (p < .001), confirming concavity; (C3) TP* = −β₁/(2β₂) = 39.7% falls within the observed FSTS range [0%, 100%]; and (C4) the predicted marginal return of internationalisation is positive at the lower data bound (FSTS = 0%, slope ≈ +1.52) and negative at the upper data bound (FSTS = 100%, slope ≈ −2.30), with opposite signs confirmed by the Lind–Mehlum (2010) u-test (p < .001 binding). The curvature persists in the full M8 specification (FSTS_c β = 0.845, p = .006; FSTS_c² β = -1.650, p < .001); the positive linear and negative quadratic coefficients together confirm the inverted-U, consistent with H1 and aligning with the meta-analytic evidence on the nonlinear shape of internationalisation returns in emerging-market firms (Marano et al., 2016).
+*Table 4b — Marginal effect of internationalisation on ln(labour productivity) at selected FSTS values (pooled M2, N = 2,958)*
+
+| FSTS level | FSTSc (centred) | Marginal effect dy/dFSTS | Direction |
+|---|---|---|---|
+| 10% | −0.039 | +1.13 | Positive (ascending) |
+| 20% | +0.061 | +0.75 | Positive (ascending) |
+| 30% | +0.161 | +0.37 | Positive, declining |
+| **39.7%** | **+0.258** | **0.00** | **Turning point (TP*)** |
+| 50% | +0.361 | −0.39 | Negative (descending) |
+| 60% | +0.461 | −0.78 | Negative |
+| 70% | +0.561 | −1.16 | Negative |
+
+*Note:* Marginal effect = β₁ + 2β₂ × (FSTS − mean_FSTS) where β₁ = 0.984, β₂ = −1.909, mean_FSTS ≈ 13.9%. SEs omitted pending full covariance matrix; the Lind–Mehlum u-test (p < .001) confirms that slopes at the data boundaries (FSTS=0: +1.52; FSTS=100%: −2.30) are jointly inconsistent with monotonicity.
+
 The pooled evidence shows that both technological capability and basic digital adoption are positively associated with firm performance on average. In the pooled M7 dual-direct specification, TCI_z is positive (β = 0.179, p < .001), and DAI_z is positive and significant (β = 0.078, p = .004). In the full M8 specification, the TCI_z coefficient is essentially unchanged (β = 0.184, p < .001), while the DAI_z direct coefficient becomes statistically indistinguishable from zero (β = 0.032, p = .537) once the interaction terms are entered.
 This sensitivity is consistent with the interpretation that DAI_z combines a positive level effect
 with a negative interaction with FSTS_c at higher export intensities — precisely the pattern
@@ -691,6 +705,8 @@ patterns of curvature and moderation are statistically separable from the pooled
 re-estimate the pooled M8 with a saturated set of wave interactions on the focal terms (FSTS_c × wave, FSTS_c² × wave, DAI_z × wave, TCI_z × wave). The joint Wald tests show that only DAI_z × wave is statistically distinguishable from the pooled average (joint p = .016); the FSTS_c, FSTS_c² and TCI_z direct-effect cross-wave differences are not statistically separable (all joint p > .25), and the FSTS_c × DAI_z and FSTS_c² × DAI_z cross-wave differences are not separable either (joint p > .55). This formal test confirms the descriptive Paternoster
 result: only the DAI direct shifts are cross-wave-distinguishable, while the curvature parameters
 and the FSTS × DAI moderation terms share a common pooled magnitude across waves.
+Functional form check — cubic extension. To test whether an S-curve (cubic) specification better captures the I–P pattern, we augment the pooled M2 with a cubic term FSTS_c³. The cubic coefficient is not statistically significant (β = −1.763, p = .287), and model-fit criteria favour the quadratic: AIC decreases by 0.99 and BIC decreases by 7.0 when moving from the cubic back to the quadratic specification. The cubic term does not alter the turning-point estimate or any focal coefficient substantively. The simpler inverted-U (M2) is therefore preferred over the S-curve on both inferential and parsimony grounds.
+
 Density-around-turning-point check. We also report the within-sample mass of firms in the curvature zone. Defining a ±5 percentage-point band around the wave-specific turning point (TP), the share of firms with FSTS within the band is 0.6 % (6 of 989) in 2009, 1.2 % (11 of
 
 
