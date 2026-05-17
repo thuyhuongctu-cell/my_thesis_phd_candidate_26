@@ -22,7 +22,7 @@ Design/methodology/approach — Three waves of World Bank Enterprise Survey data
 
 Findings — An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46% — a durable 7-percentage-point band across 14 years of institutional change. The nonlinearity reflects a participation-margin effect (Helpman, Melitz & Yeaple, 2004): re-estimated on the exporter-only sub-sample, the quadratic term loses significance (β = −0.200, p = .660). TCI is positively associated with productivity in all waves (pooled β = 0.179, p < .001) and moderates the I–P curvature. The website indicator follows a Tier-1 proxy-obsolescence trajectory: positive in 2009, null in 2015, and negatively interactive with export intensity in 2023.
 
-Originality/value — The study shows that the conventional inverted-U in zero-inflated emerging-market settings reflects a performance gap at the export-participation barrier rather than a continuous intensity-saturation curve; pooled digital coefficients on a Tier-1 binary mask progressive proxy obsolescence. The evidence that the threshold cluster (39–46% FSTS band) is institutionally embedded rather than firm-specific shifts the debate from 'does internationalization help?' to 'under what institutional conditions does the threshold shift?'
+Originality/value — The study finds that the conventional inverted-U in zero-inflated emerging-market settings reflects a performance gap at the export-participation barrier rather than a continuous intensity-saturation curve; pooled digital coefficients on a Tier-1 binary mask progressive proxy obsolescence. The evidence that the threshold cluster (39–46% FSTS band) is institutionally embedded rather than firm-specific shifts the debate from 'does internationalization help?' to 'under what institutional conditions does the threshold shift?'
 
 Keywords: internationalisation–performance; emerging markets; technological capability; threshold durability; Vietnam; firm productivity.
 
@@ -131,7 +131,7 @@ First, it refines the I–P debate by
 
 showing that the Vietnamese evidence supports a nonlinear relationship, but that the salience
 and visibility of that relationship vary across time. Rather than treating nonlinearity as a fixed
-structural fact that appears identically in every period, the analysis shows that the I–P curve
+structural fact that appears identically in every period, the analysis suggests that the I–P curve
 must be read in conjunction with the broader capability environment.
 Second, the study improves construct validity by separating technological capability from
 foundational digital adoption. This distinction matters theoretically because deeper capability
@@ -145,7 +145,7 @@ also matters empirically because the two constructs do not exhibit identical pat
 Vietnamese waves.
 Third, the study introduces a cross-wave, stage-dependency interpretation of digital internationalisation. Because the WBES data are repeated cross-sections rather than a firm panel, within-firm trajectories cannot be directly observed; the cross-wave evidence nonetheless suggests that digital capability is neither a universally stable premium nor a uniformly ineffective resource. Instead, it appears as an uneven and snapshot-contingent source of performance heterogeneity across institutional phases. This perspective helps explain why pooled average effects may coexist with substantial wave-specific differences.
 
-A fourth contribution reframes the inverted-U itself: the Vietnamese evidence shows that the robustly identified turning point (39–46 % FSTS) emerges as a *step function across the export-participation barrier* rather than as a continuous coordination-cost saturation curve. The decomposition is sharp: re-fitted on the exporter-only sub-sample, the quadratic FSTS term collapses to a non-significant β = -0.200 (p = .660), and only ~1.0 % of pooled firms occupy the ±5 percentage-point neighbourhood of the turning point. This locates the productivity-relevant friction at the participation margin — where institutional, capability, and sunk-cost barriers bind hardest in a transitional economy — rather than within the intensity tail where conventional Uppsala-style coordination-cost arguments operate. The within-exporter flatness is consistent with the view that, once a Vietnamese firm has absorbed the fixed costs of crossing into international markets, additional intensity does not by itself trigger a coordination-cost saturation strong enough to reverse the productivity gain. This step-function reading qualifies the conventional inverted-U interpretation and points toward participation-margin frictions, rather than intensity-margin saturation, as the dominant binding mechanism in transitional-economy I–P dynamics. The divergence between this pattern and those documented in digitally advanced economies, where the coordination-cost mechanism is attenuated by comprehensive digital infrastructure, anchors the digitally transitional end of the institutional spectrum and motivates institution-level mechanisms as candidate moderators of I–P curve location.
+A fourth contribution reframes the inverted-U itself: the Vietnamese evidence suggests that the robustly identified turning point (39–46 % FSTS) emerges as a *step function across the export-participation barrier* rather than as a continuous coordination-cost saturation curve. The decomposition is sharp: re-fitted on the exporter-only sub-sample, the quadratic FSTS term collapses to a non-significant β = -0.200 (p = .660), and only ~1.0 % of pooled firms occupy the ±5 percentage-point neighbourhood of the turning point. This locates the productivity-relevant friction at the participation margin — where institutional, capability, and sunk-cost barriers bind hardest in a transitional economy — rather than within the intensity tail where conventional Uppsala-style coordination-cost arguments operate. The within-exporter flatness is consistent with the view that, once a Vietnamese firm has absorbed the fixed costs of crossing into international markets, additional intensity does not by itself trigger a coordination-cost saturation strong enough to reverse the productivity gain. This step-function reading qualifies the conventional inverted-U interpretation and points toward participation-margin frictions, rather than intensity-margin saturation, as the dominant binding mechanism in transitional-economy I–P dynamics. The divergence between this pattern and those documented in digitally advanced economies, where the coordination-cost mechanism is attenuated by comprehensive digital infrastructure, anchors the digitally transitional end of the institutional spectrum and motivates institution-level mechanisms as candidate moderators of I–P curve location.
 
 ### 1.4 Roadmap
 The remainder of the paper is organised as follows. Section 2 develops the theoretical framework
@@ -560,7 +560,7 @@ coming primarily from scale and from foreign-technology / standards capability r
 from foundational digital adoption in this wave. The 2023 wave captures the re-emergence of
 the digital channel as a moderator rather than as a uniform direct premium: the post-NDTP
 digital infrastructure makes foundational digital adoption interact with export intensity, and the
-negative FSTS_c × DAI_z interaction shows that this conditional channel binds primarily at
+negative FSTS_c × DAI_z interaction suggests that this conditional channel binds primarily at
 higher export intensity rather than uniformly across the export-intensity range.
 
 ### 4.2 Pooled findings
@@ -579,7 +579,7 @@ The pooled estimates confirm that the internationalisation–performance relatio
 
 *Note:* Marginal effect = β₁ + 2β₂ × (FSTS − mean_FSTS) where β₁ = 0.984, β₂ = −1.909, mean_FSTS ≈ 13.9%. SEs omitted pending full covariance matrix; the Lind–Mehlum u-test (p < .001) confirms that slopes at the data boundaries (FSTS=0: +1.52; FSTS=100%: −2.30) are jointly inconsistent with monotonicity.
 
-The pooled evidence shows that both technological capability and basic digital adoption are positively associated with firm performance on average. In the pooled M7 dual-direct specification, TCI_z is positive (β = 0.179, p < .001), and DAI_z is positive and significant (β = 0.078, p = .004). In the full M8 specification, the TCI_z coefficient is essentially unchanged (β = 0.184, p < .001), while the DAI_z direct coefficient becomes statistically indistinguishable from zero (β = 0.032, p = .537) once the interaction terms are entered.
+The pooled evidence suggests that both technological capability and basic digital adoption are positively associated with firm performance on average. In the pooled M7 dual-direct specification, TCI_z is positive (β = 0.179, p < .001), and DAI_z is positive and significant (β = 0.078, p = .004). In the full M8 specification, the TCI_z coefficient is essentially unchanged (β = 0.184, p < .001), while the DAI_z direct coefficient becomes statistically indistinguishable from zero (β = 0.032, p = .537) once the interaction terms are entered.
 This sensitivity is consistent with the interpretation that DAI_z combines a positive level effect
 with a negative interaction with FSTS_c at higher export intensities — precisely the pattern
 
@@ -601,7 +601,7 @@ gains across a wider range of export intensities than less capable peers (Cohen 
 If the analysis stopped at pooled estimation, one might conclude that digitalisation provides
 a broadly positive but structurally simple performance premium.
 
-The wave-specific evidence shows that this conclusion would be incomplete.
+The wave-specific evidence suggests that this conclusion would be incomplete.
 
 The positive pooled average coexists with
 
