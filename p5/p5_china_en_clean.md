@@ -97,7 +97,7 @@ Dynamic-capabilities theory (Teece, 2007) and the technological-capabilities lit
 
 ### 3.1 Data
 
-The analytic dataset combines two waves of the World Bank Enterprise Survey for China: 2012 (full release, 2,700 firms; World Bank, 2013) and 2024 (2,189 firms; World Bank, 2025). After listwise deletion on the focal set (sales, employees, export intensity) and treatment of WBES non‑response codes -9 and -7 as missing (and the additional 2024 refusal code -8), the analytic samples are 2,619 firms in 2012, 1,940 firms in 2024, and 4,559 firm‑year observations in the pooled sample. The 2024 sample is smaller than 2012 (N = 1,940 vs N = 2,619, −26%) due to a combination of: (i) WBES sampling redesign between waves; (ii) systematic exclusion of state-owned enterprises in the 2024 instrument; and (iii) potential market exit among firms surveyed in 2012. This attrition is not random in direction — WBES 2024 overshoots private manufacturing SMEs — and our analysis is explicitly restricted to private firms, mitigating compositional bias.
+The analytic dataset combines two waves of the World Bank Enterprise Survey for China: 2012 (full release, 2,700 firms; World Bank, 2013) and 2024 (2,189 firms; World Bank, 2025). After listwise deletion on the focal set (sales, employees, export intensity) and treatment of WBES non‑response codes -9 and -7 as missing (and the additional 2024 refusal code -8), the analytic samples are 2,619 firms in 2012, 1,940 firms in 2024, and 4,559 firm‑year observations in the pooled sample. The 2024 sample is smaller than 2012 (focal-set N = 1,940 vs N = 2,619, −26%; regression-sample N = 1,934 vs 2,610, also −26%) due to a combination of: (i) WBES sampling redesign between waves; (ii) systematic exclusion of state-owned enterprises in the 2024 instrument; and (iii) potential market exit among firms surveyed in 2012. This attrition is not random in direction — WBES 2024 overshoots private manufacturing SMEs — and our analysis is explicitly restricted to private firms, mitigating compositional bias.
 
 The analytic sample is drawn from the broader private‑firm WBES frame for China rather than a manufacturing‑only subsample; firms in services, retail, IT, and construction are included alongside manufacturing because the manuscript’s identification strategy depends on the full WBES private‑firm frame in which the threshold result is estimated. We control for sectoral composition through ISIC stratum dummies (`a4a`). A robustness check restricting the sample to manufacturing firms (ISIC Rev 3.1 codes 15-38 in 2012 and ISIC Rev 4 codes 10-33 in 2024) is reported in §4.6.
 
@@ -245,7 +245,7 @@ The pooled model (N = 4,544) yields FSTS β = +1.24 (p < .001) and FSTS² β = �
 | F-statistic | 28.4*** | 22.7*** | 48.3*** |
 
 Coefficients with HC1-robust standard errors in parentheses. * p < .05; ** p < .01; *** p < .001.
-PATERNOSTER TESTS (FSTS): z = +0.82, p = .412; (FSTS²): z = −0.61, p = .545.
+PATERNOSTER TESTS (FSTS): z = +0.82, p = .412; (FSTS²): z = −0.61, p = .545. Approximate 95% CIs for cross-wave coefficient differences (Δβ ± 1.96 × |Δβ|/|z|, using rounded table values as proxy): FSTS Δβ₁ ≈ +0.09, 95% CI ≈ [−0.13, +0.31]; FSTS² Δβ₂ ≈ −0.05, 95% CI ≈ [−0.21, +0.11]. Both CIs include zero, consistent with non-rejection at α = .05. Exact Δβ and SE values available in replication materials.
 
 ![Figure 2: Turning-point estimates with 95% CIs by wave (China)](figures/p5_china/figure_2_turning_points.png)
 
