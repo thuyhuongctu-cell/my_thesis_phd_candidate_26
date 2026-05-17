@@ -16,7 +16,7 @@ Chương 5 tổng hợp và diễn giải kết quả từ Chương 4 trong ánh
 
 ### 5.1.1 ICRV Gradient — Xác nhận H5 và tầng thể chế của CDCM
 
-Phát hiện nhất quán nhất và có ý nghĩa lý thuyết rộng nhất của luận án là **gradient ICRV (Biến thiên chế độ bối cảnh thể chế — Institutional Context Regime Variation)**: cùng một mức độ quốc tế hóa (FSTS) mang lại hiệu quả rất khác nhau tùy thuộc vào chế độ thể chế mà doanh nghiệp hoạt động. Bằng chứng từ hai nguồn độc lập — phân tích meta-analytic (P6, $Q_M = 127{,}77$, $p < {,}001$) và phân tích dữ liệu sơ cấp toàn mẫu (P7, $N = 84.910$ quan sát từ 49 nền kinh tế) — đều chỉ đến cùng một kết luận: điểm uốn (turning point) của quan hệ I→P **giảm dần** từ SIDS/Frontier (~55% FSTS) xuống Emerging, Upper-middle, Advanced Resource, và Advanced Innovation (~28% FSTS). Hay nói cách khác, nền kinh tế thể chế mạnh hơn đạt đỉnh hiệu quả xuất khẩu tại mức FSTS thấp hơn — doanh nghiệp không cần quốc tế hóa sâu để khai thác lợi thế cạnh tranh khi thể chế hỗ trợ đã vận hành tốt.
+Phát hiện nhất quán nhất và có ý nghĩa lý thuyết rộng nhất của luận án là **gradient ICRV (Biến thiên chế độ bối cảnh thể chế — Institutional Context Regime Variation)**: cùng một mức độ quốc tế hóa (FSTS) mang lại hiệu quả rất khác nhau tùy thuộc vào chế độ thể chế mà doanh nghiệp hoạt động. Bằng chứng từ hai nguồn độc lập — phân tích meta-analytic (P6, $Q_M = 17{,}35$, $df = 4$, $p = {,}002$) và phân tích dữ liệu sơ cấp toàn mẫu (P7, $N = 84.910$ quan sát từ 49 nền kinh tế) — đều chỉ đến cùng một kết luận: điểm uốn (turning point) của quan hệ I→P **giảm dần** từ SIDS/Frontier (~55% FSTS) xuống Emerging, Upper-middle, Advanced Resource, và Advanced Innovation (~28% FSTS). Hay nói cách khác, nền kinh tế thể chế mạnh hơn đạt đỉnh hiệu quả xuất khẩu tại mức FSTS thấp hơn — doanh nghiệp không cần quốc tế hóa sâu để khai thác lợi thế cạnh tranh khi thể chế hỗ trợ đã vận hành tốt.
 
 Kết quả này xác nhận H5 và tầng thể chế của khung lý thuyết CDCM theo một cách thuyết phục nhất: không phải chỉ một moderator đơn lẻ mà là **cả một chế độ thể chế** — được vận hành hóa thành sáu sub-regime ICRV — xác định điều kiện biên cho quan hệ I→P. Institutional Theory của North (1990) và Khanna và Palepu (2010) dự đoán rằng thể chế định hình chi phí giao dịch và cấu trúc khuyến khích; kết quả ICRV gradient là biểu hiện thực nghiệm của cơ chế này ở quy mô 49 nền kinh tế châu Á và Thái Bình Dương (P7).
 
@@ -58,7 +58,7 @@ Quan hệ âm đơn điệu này khác về bản chất với quan hệ phi tuy
 
 ### 5.2.1 Nhất quán với baseline ICBEF 2024
 
-Kết quả pooled effect $r = 0{,}074$ (P6) nhất quán hoàn toàn với $r = 0{,}07$ từ meta-analysis baseline đã công bố tại hội nghị ICBEF 2024 (Đỗ & Phan, 2024). Sự hội tụ này là đáng kể vì P6 mở rộng pool lên $k = 238$ so với $k = 113$, đồng thời áp dụng cấu trúc ba tầng phức tạp hơn. Tính vững của pooled effect khi mở rộng pool nghiên cứu là bằng chứng về tính ổn định của baseline ước lượng.
+Kết quả pooled effect $r = 0{,}074$ (P6) nhất quán hoàn toàn với $r = 0{,}07$ từ meta-analysis baseline đã công bố tại hội nghị ICBEF 2024 (Đỗ & Phan, 2024). Sự hội tụ này là đáng kể vì P6 mở rộng pool lên $k = 237$ so với $k = 113$, đồng thời áp dụng cấu trúc ba tầng phức tạp hơn. Tính vững của pooled effect khi mở rộng pool nghiên cứu là bằng chứng về tính ổn định của baseline ước lượng.
 
 Tuy nhiên, đóng góp của P6 so với baseline không phải ở pooled $r$ mà ở cấu trúc dị biệt: phân tách $I^2 = 62{,}5\%$ thành 54,1% tầng 2 và 8,4% tầng 3 là thông tin mới mà phân tích meta đơn tầng không cung cấp. Điều này thay đổi hiểu biết về nguồn gốc của heterogeneity trong literature — vấn đề chủ yếu là **đo lường bên trong nghiên cứu**, không phải sự bất đồng căn bản giữa các nghiên cứu.
 
@@ -180,7 +180,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P5** (IJOEM under review, Đỗ & Phan, 2026): phân tích Trung Quốc 2012–2024 (Upper-middle), xác nhận inverted-U ổn định theo thời gian (TP ≈ 48,78%, Paternoster $z = 0{,}82$, $p = {,}412$).
 
-- **P6** (IBR under review, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 238$, $r = 0{,}074$, $I^2 = 62{,}5\%$ (54,1% tầng 2 + 8,4% tầng 3), ICRV moderation $Q_M = 127{,}77^{***}$.
+- **P6** (IBR under review, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 237$, $r = 0{,}074$, $I^2 = 62{,}5\%$ (54,1% tầng 2 + 8,4% tầng 3), ICRV moderation $Q_M = 17{,}35^{**}$ ($df = 4$, $p = {,}002$).
 
 - **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu châu Á và Thái Bình Dương $N = 84.910$ (M2) / $N = 38.342$ (M3–M5 với controls đầy đủ), TP = 36,4–40,0% (M2–M5; M11 đầy đủ: TP = 34,6%, $p_\text{LM} = {,}002$), gradient ICRV xác nhận mạnh mẽ, TCI nâng mặt bằng năng suất phổ quát, DAI điều tiết đường cong có ý nghĩa trên toàn mẫu và mạnh hơn tại thể chế yếu hơn (DAI×ICRV $p = {,}012$).
 
