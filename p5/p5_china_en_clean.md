@@ -133,6 +133,23 @@ This test does not rely on a pooled model and avoids the collinearity that infla
 
 Capability moderation is tested via a pooled OLS model (M6) with wave × FSTS × TCI interaction terms and three joint F-tests (F1: cross-wave curvature shift; F2: within-wave capability moderation; F3: capability-conditioned cross-wave shift). Significance is evaluated at α = .05 two-tailed with Bonferroni-corrected threshold α* = .017 for the three jointly-assessed hypotheses.
 
+**M6 (Three-way moderation — capability-conditioned cross-wave shift):**
+
+$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI_{it} + \beta_4 \text{wave}_t$$
+$$+ \beta_5 (FSTS \times TCI)_{it} + \beta_6 (FSTS^2 \times TCI)_{it}$$
+$$+ \beta_7 (FSTS \times \text{wave})_{it} + \beta_8 (FSTS^2 \times \text{wave})_{it}$$
+$$+ \beta_9 (FSTS \times TCI \times \text{wave})_{it} + \beta_{10} (FSTS^2 \times TCI \times \text{wave})_{it}$$
+$$+ \gamma \cdot X_{it} + \varepsilon_{it}$$
+
+where wave_t ∈ {0 = 2012, 1 = 2024}; X_it = {lnEmp, FirmAge, ForeignDummy, ISIC sector FE}; clustered HC1 SE on firm identifier (idstd).
+
+Three joint F-tests map onto H2a/H2b, H3, and H4a/H4b:
+- **F1** (cross-wave curvature shift): H₀: β₇ = β₈ = 0   [H2b null — turning point stable across waves]
+- **F2** (within-wave capability moderation): H₀: β₅ = β₆ = 0   [H3 null — TCI does not moderate I–P curve shape]
+- **F3** (capability-conditioned cross-wave shift): H₀: β₉ = β₁₀ = 0   [H4b null — TCI × wave shift is zero]
+
+Results: F1 = 2.24, p = .107 (NOT rejected); F2 = 3.26, p = .039 (marginal; does not survive Bonferroni α* = .017); F3 = 0.27, p = .760 (NOT rejected). Consistent with H2b (structural durability) and H4b (null capability-curvature moderation).
+
 ---
 
 ## 4. Results
@@ -305,7 +322,7 @@ Avenyo, E. K., Tregenna, F., & Kraemer-Mbula, E. (2021). Do productive capabilit
 
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: A meta-analysis. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0022-4
 
-Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication.
+Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. [DOI pending; add upon assignment]
 
 Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
 

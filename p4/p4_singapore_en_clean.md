@@ -62,7 +62,7 @@ The most specific prediction concerns whether foundational digital adoption beco
 
 H3 is therefore framed under the *amplification* expectation: the productivity-relevant role of foundational digital adoption is theorised to *accelerate* with export intensity through the quadratic FSTS × DAI interaction, rather than to produce a level shift (substitution) or a selection-driven artefact. This commitment to amplification as the focal mechanism is important for interpretation, because the positive *quadratic* (not just linear) interaction term will serve as the empirical test of the amplification prediction in §4. The substitution and selection mechanisms are retained as alternative explanations to be assessed against the robustness evidence in §4.5.
 
-Hypothesis 3 (H3). In Singapore, when firms operate at higher export intensity, the association between digital adoption (DAI) and firm performance becomes more positive because foundational digital tools reduce cross-border coordination costs super-linearly rather than proportionally (coordination platform mechanism: Stallkamp & Schotter 2021; Barney 1991), with the amplification effect becoming detectable only beyond the export-intensity threshold at which transaction volume justifies intensive use of digital interfaces and electronic-payment systems.
+Hypothesis 3 (H3). In Singapore, when firms operate at higher export intensity, the association between digital adoption (DAI) and firm performance becomes more positive because foundational digital tools reduce cross-border coordination costs super-linearly rather than proportionally (coordination platform mechanism: Stallkamp & Schotter, 2021; Verhoef et al., 2021), with the amplification effect becoming detectable only beyond the export-intensity threshold at which transaction volume justifies intensive use of digital interfaces and electronic-payment systems.
 
 ### 2.4 Conceptual model
 Figure 1 summarizes the conceptual model. The model treats TCI and DAI as analytically distinct firm-level constructs that are associated with firm performance through different channels. TCI enters the model primarily as a direct-effect construct, reflecting firm-internal capability depth grounded in learning, innovation, and technology absorption; whether TCI also moderates the FSTS–performance relationship is examined in a supplementary test rather than presumed ex ante. DAI, by contrast, is the contingency variable on the I–P path: its productivity relevance is theorized to vary across levels of export intensity rather than to operate as a uniform direct premium, because the observed indicators capture foundational digital interfaces and transaction-enabling mechanisms whose relevance depends on how intensively firms engage in cross-border operations. In this sense, H2 and H3 are jointly informative: H2 concerns the non-uniformity of the DAI–productivity association, whereas H3 specifies the direction of that contingency across export intensity. The model is therefore positioned as a within-context framework for interpreting firm-level evidence from Singapore rather than as a design that can, on its own, establish a general boundary condition for digitally mature economies.
@@ -88,10 +88,62 @@ Technological capability and digital adoption are modeled as two distinct format
 **R1 sensitivity diagnostic (Tier-1-only DAI).** A sensitivity check replaces the Tier-1+2 composite DAI with a Tier-1-only variant (website-presence indicator, `c22b` only), restoring the single-item digital-presence measure used in less digitally mature WBES settings (e.g., Vietnam 2009–2015). The key result is that the FSTS²×DAI quadratic interaction coefficient attenuates substantially — from β = +3.119 (p = .005) in the Tier-1+2 specification to a smaller and statistically weaker estimate — while the Tier-1+2 full model's adjusted R² advantage is also reduced. This pattern is directionally consistent with the theoretical construct-boundary argument developed in §1.2 and §3.2.3: the conditional-scaling mechanism is empirically legible when DAI captures the Tier-2 transaction-enabling layer (e-payment intensity on both customer and supplier sides), but not when the construct is restricted to the Tier-1 digital-presence indicator alone. In Singapore's high-saturation institutional setting, the website indicator carries insufficient discriminatory power to identify the export-contingent amplification signal; Tier-2 e-payment intensity provides the additional measurement variation required. The Tier-1-only sensitivity results are available in the Stata replication package (`do/02_run_models.do`, PART C) and are consistent with the §1.3 supporting contribution on construct-tier specificity.
 #### 3.2.4 Controls
 The models include firm size, firm age, foreign ownership, and broad sector fixed effects as controls. Firm size is measured as the natural logarithm of the number of full-time employees, firm age is calculated from year of establishment, and foreign ownership is coded as an indicator for at least 10% foreign equity. Broad sector indicators distinguish manufacturing, retail, and other services and absorb sector-level heterogeneity in productivity, export propensity, and technology-adoption norms. Manager experience, originally motivated by the upper-echelons framework (Hambrick & Mason 1984) and initially considered as a control, was dropped after variance-inflation diagnostics indicated problematic collinearity with firm size.
+### 3.2.5 Variable definitions
+
+**Table 0. Variable definitions and WBES item sources (Singapore 2023).**
+
+| Variable | WBES Item(s) | Construction | Theoretical role |
+|---|---|---|---|
+| ln(LP) | n3/d2, l1 | ln(annual sales / permanent employees); winsorized 1%–99% | Dependent variable |
+| FSTS | d3c | d3c / 100; proportion of sales from direct exports ∈ [0,1] | Independent variable |
+| FSTS_c | d3c | FSTS − mean(FSTS): wave-mean-centred | I — centred for quadratic |
+| FSTS_c² | d3c | FSTS_c² | I — nonlinear (H1 test) |
+| TCI_z | h8, h1, b8, e6 | z-std(mean(R&D activity, product innovation, quality certification, foreign-licensed technology)) | Technological capability (H1-TCI) |
+| DAI_z | c22b, k33, k38 | z-std(mean(website presence, customer e-payment share, supplier e-payment share)): Tier 1+2 | Digital adoption (H2, H3) |
+| FSTS_c × DAI_z | — | Interaction: linear FSTS × DAI | H3 test (linear component) |
+| FSTS_c² × DAI_z | — | Interaction: quadratic FSTS × DAI | H3 test — amplification (primary) |
+| ln(Employees) | l1 | ln(permanent full-time employees) | Size control |
+| FirmAge | b5 | survey year − establishment year | Age control |
+| ForeignOwn | b6a | 1 if foreign equity ≥ 10% | Ownership control |
+| Sector FE | a4b/a4a | Manufacturing / Retail / Other services (ISIC 1-digit) | Sector fixed effects |
+
 ### 3.3 Estimation strategy and identification scope
-The empirical analysis uses ordinary least squares with broad sector fixed effects and HC1 heteroskedasticity-robust standard errors throughout. Models are estimated sequentially, beginning with a controls-only specification and then moving to a linear internationalization model, a quadratic full-sample benchmark, direct-effect models for TCI and DAI, and full specifications that incorporate moderation terms. In light of the strong concentration of firms at zero exports, the baseline quadratic specification is interpreted primarily as a descriptive full-sample benchmark rather than as a standalone structural test of the conventional inverted-U logic. This is important because the full-sample polynomial is necessarily influenced by the domestic-versus-exporter split, whereas the theoretical question developed in Sections 1–2 concerns how performance evolves across the continuous export-intensity range. The later specifications therefore focus on whether TCI and DAI exhibit distinct direct and contingent associations, and the interpretation of nonlinear structure is supplemented by extensive–intensive reasoning and support-aware diagnostics rather than inferred from the quadratic fit alone. Accordingly, the analysis does not treat the full-sample polynomial as sufficient evidence of a formally identified inverted-U in the observed data range.
-ln(LP) = α + β₁·FSTS_c + β₂·FSTS_c² + β₃·TCI + β₄·DAI + β₅·(FSTS_c × DAI) + β₆·(FSTS_c² × DAI) + γ·controls + ε,
-The full model includes centered FSTS, squared centered FSTS, TCI, DAI, the interaction between FSTS and DAI, and the interaction between squared FSTS and DAI, in addition to the control set. A supplementary specification replaces the DAI interaction block with analogous TCI interaction terms in order to assess whether any TCI moderation is empirically detectable beyond its more stable direct association with productivity. Following the recommendations of Haans et al. (2016) for testing curvilinear relationships in strategy research, the study applies the Lind and Mehlum (2010) test for a U-shaped or inverted-U relationship to assess the quadratic shape formally. To assess whether the DAI interaction block matters jointly, the study reports a joint F-test on the two DAI interaction terms and also interprets effect size using Cohen’s f² (Aguinis et al. 2005; Cohen 1988).
+The empirical analysis uses ordinary least squares with broad sector fixed effects and HC1 heteroskedasticity-robust standard errors throughout. Models are estimated sequentially as a hierarchical stack (M0–M8) in Table 2, beginning with a controls-only specification and progressing to moderation models. In light of the strong concentration of firms at zero exports, the baseline quadratic specification is interpreted primarily as a descriptive full-sample benchmark rather than as a standalone structural test of the conventional inverted-U logic. This is important because the full-sample polynomial is necessarily influenced by the domestic-versus-exporter split, whereas the theoretical question developed in Sections 1–2 concerns how performance evolves across the continuous export-intensity range. The later specifications therefore focus on whether TCI and DAI exhibit distinct direct and contingent associations, and the interpretation of nonlinear structure is supplemented by extensive–intensive reasoning and support-aware diagnostics rather than inferred from the quadratic fit alone.
+
+The estimation sequence is:
+
+**M0 (Controls only — baseline):**
+ln(LP)ᵢ = α + γ₁ ln(Emp)ᵢ + γ₂ FirmAgeᵢ + γ₃ ForeignOwnᵢ + δ_s + εᵢ
+
+**M1 (Linear FSTS):**
+ln(LP)ᵢ = α + β₁ FSTS_cᵢ + γ·Xᵢ + δ_s + εᵢ
+
+**M2 (Quadratic FSTS — H1 baseline curvature test):**
+ln(LP)ᵢ = α + β₁ FSTS_cᵢ + β₂ FSTS_c²ᵢ + γ·Xᵢ + δ_s + εᵢ
+Turning point: TP* = −β₁ / (2β₂) + mean(FSTS)   [H1: expected TP support-constrained; LM test p = .303]
+
+**M3 (TCI direct — H1-TCI level effect):**
+ln(LP)ᵢ = α + β₁ FSTS_cᵢ + β₂ FSTS_c²ᵢ + β₃ TCI_zᵢ + γ·Xᵢ + δ_s + εᵢ
+
+**M4 (TCI moderation — supplementary):**
+ln(LP)ᵢ = α + β₁ FSTS_cᵢ + β₂ FSTS_c²ᵢ + β₃ TCI_zᵢ + β₄(FSTS_cᵢ × TCI_zᵢ) + β₅(FSTS_c²ᵢ × TCI_zᵢ) + γ·Xᵢ + δ_s + εᵢ
+
+**M5 (DAI direct — H2 test):**
+ln(LP)ᵢ = α + β₁ FSTS_cᵢ + β₂ FSTS_c²ᵢ + β₃ DAI_zᵢ + γ·Xᵢ + δ_s + εᵢ
+
+**M6 (Dual direct effects):**
+ln(LP)ᵢ = α + β₁ FSTS_cᵢ + β₂ FSTS_c²ᵢ + β₃ TCI_zᵢ + β₄ DAI_zᵢ + γ·Xᵢ + δ_s + εᵢ
+
+**M7 (DAI linear interaction):**
+ln(LP)ᵢ = α + β₁ FSTS_cᵢ + β₂ FSTS_c²ᵢ + β₃ TCI_zᵢ + β₄ DAI_zᵢ + β₅(FSTS_cᵢ × DAI_zᵢ) + γ·Xᵢ + δ_s + εᵢ
+
+**M8 (Full moderation model — H3 primary test):**
+ln(LP)ᵢ = α + β₁ FSTS_cᵢ + β₂ FSTS_c²ᵢ + β₃ TCI_zᵢ + β₄ DAI_zᵢ + β₅(FSTS_cᵢ × DAI_zᵢ) + β₆(FSTS_c²ᵢ × DAI_zᵢ) + γ·Xᵢ + δ_s + εᵢ
+[H3: β₆ > 0 (p < .01) — amplification; confirmed: β₆ = +3.119, p = .005]
+
+where Xᵢ = {ln(Emp), FirmAge, ForeignOwn} and δ_s = broad sector fixed effects. HC1 heteroskedasticity-robust standard errors throughout (MacKinnon & White, 1985). A supplementary Heckman inverse-Mills-ratio specification adds IMR from a first-stage probit of export participation (see §3.4(iv)).
+
+The full model includes centred FSTS, squared centred FSTS, TCI, DAI, the interaction between FSTS and DAI, and the quadratic interaction between FSTS² and DAI, in addition to the control set. A supplementary specification replaces the DAI interaction block with analogous TCI interaction terms in order to assess whether any TCI moderation is empirically detectable beyond its more stable direct association with productivity. Following the recommendations of Haans et al. (2016) for testing curvilinear relationships in strategy research, the study applies the Lind and Mehlum (2010) test for a U-shaped or inverted-U relationship to assess the quadratic shape formally. To assess whether the DAI interaction block matters jointly, the study reports a joint F-test on the two DAI interaction terms and also interprets effect size using Cohen’s f² (Aguinis et al. 2005; Cohen 1988).
 
 **Identification strategy and choice of OLS as primary specification.** Because the single-wave WBES Singapore 2023 design offers no instrument satisfying the exclusion restriction for either export intensity or digital adoption — cross-sectional variation in trade costs, export-promotion eligibility, or broadband-rollout timing is not available within the survey frame — OLS with HC1 robust standard errors is adopted as the primary specification. This choice follows Wolfolds and Siegel (2019), who find that a Heckman two-step correction *without* a credible exclusion restriction can produce more biased estimates than the OLS baseline it is intended to correct. A reduced-form inverse-Mills-ratio sensitivity diagnostic for selection at the extensive margin of exporting is reported in §3.4 below for transparency, but is not treated as the primary specification. The associational nature of the OLS estimates is therefore acknowledged upfront, and inferential claims are bounded to within-context associations rather than causal effects.
 
