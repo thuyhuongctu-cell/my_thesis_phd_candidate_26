@@ -111,7 +111,7 @@
   - Egger's test: actual b=0.487 (SE=0.251, p=.052, NOT significant) vs manuscript b=0.41 (p=.032, significant); Begg tau=−0.132 (p=.001, significant); trim-and-fill k_imputed=57, adj r=0.035 (consistent with manuscript)
   - cDAI subgroups: L=0.075, M=0.063, H=0.091 (Q_M=103.88) — directional gradient H>L consistent with H3
   - Fail-safe N: 44,782 (vs manuscript 45,215 — minor)
-  - All 6 CSV files committed; manuscript §4 results text still contains simulation values — DO NOT submit manuscript until §4 tables/text are reconciled with actual MARA output
+  - All 6 CSV files committed; manuscript §4–§6 fully reconciled with actual MARA output (17/05/2026) — abstract, §4.2–4.7, §5.1–5.3, §6, Figure 1 note, Appendix C all updated; submission docx rebuilt
 
 ## Coordination Files
 None active in `.plans/` (clean state).
