@@ -455,11 +455,11 @@ lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + β₃ NLCN_z_it + β₄
 
 M_yearFE (chỉ year FE, không country FE):
 lnNSLD_it = α + β₁ CDDXK_it + γ·X_it + λ_t + ε_it
-→ β₁ = −1,236, SE = 0,269, p < .001*** (tác động mạnh hơn khi không kiểm soát heterogeneity quốc gia)
+→ β₁ = −1,236, SE = 0,269, p < .001 (tác động mạnh hơn khi không kiểm soát heterogeneity quốc gia)
 
 M_bivariate (không controls):
 lnNSLD_it = α + β₁ CDDXK_it + ε_it
-→ β₁ = −1,596, SE = 0,263, p < .001***
+→ β₁ = −1,596, SE = 0,263, p < .001
 
 Exporters-only (N = 187 nhà xuất khẩu):
 → β₁(CDDXK_c) = −0,901, SE = 0,398, p = .027* — xác nhận FIP ngay trong nhóm đang xuất khẩu
