@@ -636,7 +636,7 @@ than in strong within-exporter curvature alone.
 
 The institutional-context interpretation is reinforced by within-Vietnam cross-wave stability of the threshold itself. The pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is structurally durable across three WBES waves spanning 14 years of major institutional change — WTO accession (2007), the Global Financial Crisis (2008–2009), the deepening of the EU–Vietnam and CPTPP trade frameworks (2018–2020), the COVID-19 supply-chain disruption (2020–2022), and the diffusion of digital-payment and e-commerce infrastructure. The fact that the inverted-U turning point clusters within a narrow ~7-percentage-point band despite these macro-environmental shifts is consistent with institutional transaction costs binding through deep firm-level constraints — coordination capacity, contract enforcement, and trade-finance access — that change more slowly than the wider operating environment. This within-WBES cross-wave evidence complements the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022 — MIR; Marano et al., 2016).
 
-H2 is supported: the positive TCI_z direct coefficient (pooled β = 0.179, p < .001) is significant in all three wave-specific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), and statistically distinguishable TCI moderation appears in three of four panels (M3 joint p = .040, .713, .027 and .003). The baseline DAI_z control reports a positive pooled level association (β = 0.078, p = .004) but with substantial wave-to-wave variability — strong in 2009 (β = 0.175, p < .001), null in 2015 (β = -0.044, p = .377), and re-emerging in 2023 (β = 0.095, p = .038). Because DAI_z indexes only Tier-1 website presence and is not formalised as a primary hypothesis in this paper, this wave variation is reported descriptively rather than as a hypothesis test. The Paternoster cross-wave z-tests (4.5, Panel F) confirm that the 2009-to-2015 fall (z = 3.353, p < .001) and the 2015-to-2023 recovery (z = -2.051, p = .040) are both statistically distinguishable shifts in the descriptive Tier-1 series.
+H2 is supported: the positive TCI_z direct coefficient (pooled β = 0.179, p < .001) is statistically significant in all three wave-specific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), and statistically distinguishable TCI moderation appears in three of four panels (M3 joint p = .040, .713, .027 and .003). The baseline DAI_z control reports a positive pooled level association (β = 0.078, p = .004) but with substantial wave-to-wave variability — strong in 2009 (β = 0.175, p < .001), null in 2015 (β = -0.044, p = .377), and re-emerging in 2023 (β = 0.095, p = .038). Because DAI_z indexes only Tier-1 website presence and is not formalised as a primary hypothesis in this paper, this wave variation is reported descriptively rather than as a hypothesis test. The Paternoster cross-wave z-tests (4.5, Panel F) confirm that the 2009-to-2015 fall (z = 3.353, p < .001) and the 2015-to-2023 recovery (z = -2.051, p = .040) are both statistically distinguishable shifts in the descriptive Tier-1 series.
 H4 receives limited exploratory support. The DAI joint moderation test is null in
 2009 (M4 p = .825), null in 2015 (M4 p = .125) and reaches the edge of significance
 in 2023 with the individual interaction FSTS_c × DAI_z = -0.912 (p = .043) and
@@ -1065,7 +1065,7 @@ association across waves partly reflects the shrinking informational content of 
 a structural change in the productivity payoff to foundational digital adoption itself. We do not
 view proxy obsolescence and stage contingency as mutually exclusive: both can be operating
 jointly. We flag the proxy-obsolescence reading because it is not testable within the cross-wavecomparable WBES instrument and future work using waves with richer Tier 2–3 digital items
-will be needed to disentangle the two channels.
+is needed to disentangle the two channels.
 
 The 2015 pattern is best interpreted not as an anomaly, but as a wave-specific compression of
 the foundational digital-adoption channel under transitional infrastructure conditions. It shows
@@ -1139,7 +1139,7 @@ and by the conditional nature of the digital channel at higher export intensity.
 Programmes
 
 that bundle Tier 1–2 digital adoption with deeper capability upgrading — quality certification,
-absorptive-capacity investment, organisational routines for cross-border coordination — will be
+absorptive-capacity investment, organisational routines for cross-border coordination — are
 more consistent with the pattern that emerges in 2023.
 Third, the cross-wave comparison — which, given the repeated cross-sectional design, reflects cohort-level snapshots rather than within-firm trajectories — suggests that policy evaluation windows matter.
 

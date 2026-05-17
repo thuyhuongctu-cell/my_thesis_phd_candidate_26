@@ -166,7 +166,7 @@ Following Haans et al. (2016), we evaluate the four necessary conditions for a c
 
 - **C1** (positive slope at low FSTS): β(FSTS_c) = −0.925 (*p* = .265) — **not significant and negative in sign**; no ascending limb at low FSTS values
 - **C2** (negative curvature β₂ < 0): β(FSTS_c²) = +0.649 (*p* = .508) — **not significant; positive sign indicates U-shape, not inverted-U**
-- **C3** (turning point within data range): TP* = −(−0.925) / (2 × 0.649) = 0.712 — **implied turning point lies outside the observed sample maximum (FSTS_max ≈ 0.80, but neither β₁ nor β₂ is significant)**
+- **C3** (turning point within data range): TP* = −(−0.925) / (2 × 0.649) = 0.712 — **implied turning point lies outside the observed sample maximum (FSTS_max ≈ 0.80, but neither β₁ nor β₂ is statistically significant)**
 - **C4** (Lind–Mehlum utest, Lind & Mehlum, 2010): utest *p* = .941 — **fails to reject the null of monotone negative relationship; no inverted-U detected**
 
 The pattern is **monotone negative** — consistent with H1 and the FIP structural mechanism. There is no turning point within the observed FSTS range (0–1).
@@ -202,7 +202,7 @@ This result is critical: even among firms that have successfully engaged in expo
 
 The FIP coefficient (FSTS_c) remains negative but loses significance in M3 (β = −0.974, p = .252), likely reflecting the substantially reduced sample (N = 526 for M3, versus N = 1,469 for M1, due to missing capability variables). The direction of the FSTS_c coefficient remains negative and numerically larger in M3, consistent with FIP; the significance loss is attributable to power reduction from the subsample restriction.
 
-These results **support H2**: technological capability and digital adoption do not significantly moderate the I-P relationship in Pacific SIDS. The positive point estimates for TCI_z and DAI_z — while small and non-significant — are consistent with the interpretation that capabilities raise productivity levels in general (as found in mainland Asian contexts: Goedhuys & Sleuwaegen, 2013; Teece, 2007) but cannot modify the structural negativity of the FSTS–performance relationship that FIP describes.
+These results **support H2**: technological capability (TCI_z: β = +0.058, SE = 0.085, p = .495) and digital adoption (DAI_z: β = +0.062, SE = 0.073, p = .402) do not statistically significantly moderate the I-P relationship in Pacific SIDS, consistent with the FIP mechanism overwhelming capability effects in structurally constrained SIDS economies. The positive point estimates for TCI_z and DAI_z — while small and non-significant — are consistent with the interpretation that capabilities raise productivity levels in general (as found in mainland Asian contexts: Goedhuys & Sleuwaegen, 2013; Teece, 2007) but cannot modify the structural negativity of the FSTS–performance relationship that FIP describes.
 
 ### 4.6 Summary
 
@@ -230,7 +230,7 @@ This finding connects to the broader question of boundary conditions in IB theor
 
 ### 5.3 The Capability Null: Institutional Determination vs. Moderation
 
-The null results for TCI_z and DAI_z in M3 add a second dimension to the FIP theory. In mainland Asian contexts — Vietnam, Singapore, China, and multi-country samples — technological capability and digital adoption are significant moderators of the I-P relationship (Goedhuys & Sleuwaegen, 2013; Teece, 2007). Why are they null in SIDS?
+The null results for TCI_z and DAI_z in M3 add a second dimension to the FIP theory. In mainland Asian contexts — Vietnam, Singapore, China, and multi-country samples — technological capability and digital adoption are statistically significant moderators of the I-P relationship (Goedhuys & Sleuwaegen, 2013; Teece, 2007). Why are they null in SIDS?
 
 The FIP mechanism provides the answer: capabilities moderate *organizational complexity costs* on the descending portion of the inverted-U, but the FIP mechanism operates at a structural, pre-organizational level. A SIDS firm with ISO 9001 certification (high TCI) still faces the same 30–210% trade cost amplifications; a SIDS firm with a functioning website (DAI = 1) still faces absent trade finance institutions. Capabilities that are powerful moderators within the structural prerequisites framework become ineffective when those prerequisites do not hold.
 
