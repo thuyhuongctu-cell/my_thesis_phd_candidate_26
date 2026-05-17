@@ -70,7 +70,7 @@ Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biế
 
 ### 4.2.1 Chỉ số hiệu ứng tổng hợp
 
-Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu gồm $k = 238$ nghiên cứu với tổng cộng hàng trăm cặp effect-size đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}075$, với khoảng tin cậy 95% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
+Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu gồm $k = 238$ nghiên cứu với tổng cộng hàng trăm cặp effect-size đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}074$, với khoảng tin cậy 95% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
 
 Đặc biệt đáng lưu ý, kết quả P6 hoàn toàn nhất quán với baseline meta-analysis đã công bố tại hội nghị ICBEF 2024 của Đỗ và Phan (2024), với $k = 113$ nghiên cứu và $r = 0{,}07$ — sự hội tụ này tạo ra bằng chứng chéo vững chắc khi mở rộng pool lên gần gấp đôi số nghiên cứu.
 
@@ -233,7 +233,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 với top manager nữ β = +0,185*** |
 | H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận mạnh mẽ: $Q_M = 127{,}77^{***}$ từ meta (P6) và gradient ICRV từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |
-| H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận mạnh mẽ: $\beta = -0{,}404^{*}$ đến $-1{,}236^{***}$ tuỳ specification |
+| H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận mạnh mẽ: $\beta = -0{,}404^{*}$ đến $-0{,}901^{***}$ tuỳ specification |
 
 ---
 
