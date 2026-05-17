@@ -119,6 +119,24 @@ The analytic sample is drawn from the broader private‑firm WBES frame for Chin
 
 **Controls.** (a) Log number of employees (lnEmp) to control for firm size; (b) firm age in years; (c) binary foreign-ownership indicator (`b2b`, > 10 % foreign equity); (d) ISIC 2-digit industry stratum dummies.
 
+**Table V1.** *Variable definitions and WBES item sources — China 2012 and 2024.*
+
+| Variable | WBES Item(s) | Construction | Role |
+|---|---|---|---|
+| lnLP | d2, l1 | ln(annual sales / permanent employees) | Dependent variable |
+| FSTS | e1, d2 | e1/d2: direct-export / total sales (raw proportion [0,1]) | Main IV — export intensity |
+| FSTS² | e1, d2 | FSTS × FSTS | Quadratic — nonlinearity |
+| TCI_full | k8, b7, l9, l10 | Within-wave z-std of 4-item mean (R&D > 0, quality cert, % university, % formally trained); min 3 of 4 non-missing | Technological capability composite |
+| DAI_core | c22b | 1 if own website; Tier-1 proxy (cross-wave identical) | Digital adoption baseline |
+| lnEmp | l1 | ln(permanent full-time employees) | Size control |
+| FirmAge | b5 | survey_year − b5 | Age control |
+| ForeignDummy | b2b | 1 if > 10 % foreign equity | Ownership control |
+| ISIC FE | a4a | ISIC 2-digit stratum dummies | Sector fixed effects |
+| wave | — | 0 = 2012, 1 = 2024 | Wave indicator (pooled only) |
+
+*Note.* TCI_full uses a richer 4-item composite than TCI_z in P3/P4 (2-item: quality cert + foreign technology adoption). DAI_core = Tier-1 proxy (website binary c22b), equivalent to DAI_z in P3. FSTS is not mean-centred (unlike FSTS_c in P3/P4); the turning-point formula TP = −β₁/(2β₂) is invariant to centring.
+
+
 ### 3.3 Estimation Strategy
 
 All models are estimated by OLS with Eicker–Huber–White heteroskedasticity-consistent (HC1) standard errors (MacKinnon and White, 1985), clustered on firm identifier (`idstd`) in the pooled specification. Among the pooled 4,559 observations, 217 firms appear in both the 2012 and 2024 waves (the 'panel core'), enabling within-firm variation estimates via cluster-robust standard errors on firm identifiers. This panel core, though modest in size relative to the full sample, provides additional identification leverage unavailable in single-wave studies. The main specification (M2) includes FSTS, FSTS², lnEmp, firmage, and foreigndummy.
@@ -131,15 +149,45 @@ $$z = \frac{\hat{\beta}_{1,2012} - \hat{\beta}_{1,2024}}{\sqrt{SE^2_{\beta_{1,20
 
 This test does not rely on a pooled model and avoids the collinearity that inflates standard errors in the three-way interaction specification.
 
+**M0** (baseline controls):
+
+$$\ln LP_{it} = \alpha + \gamma \cdot X_{it} + \varepsilon_{it}$$
+
+**M1** (linear FSTS):
+
+$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
+
+**M2** (quadratic FSTS — tests H1, inverted-U):
+
+$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
+
+Turning point: TP\* = −β₁ / (2β₂); Lind–Mehlum (2010) criteria verified for each wave.
+
+**M3** (TCI_full level effect — tests H3 direct):
+
+$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI\_full_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
+
+**M4** (TCI_full curvature moderation — tests H3 interaction):
+
+$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI\_full_{it} + \beta_4 (FSTS \times TCI\_full)_{it} + \beta_5 (FSTS^2 \times TCI\_full)_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
+
+**M5** (DAI_core direct — tests H4 digital baseline):
+
+$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI\_full_{it} + \beta_4 DAI\_core_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
+
+where X_it = {lnEmp_it, FirmAge_it, ForeignDummy_it, ISIC sector FE}; HC1 robust SE; clustered on firm identifier (idstd) in pooled specifications.
+
+**Selection and endogeneity.** Exporters self-select — firms with higher productivity are more likely to begin exporting (Melitz, 2003). WBES cross-sectional waves preclude within-firm IV identification; no valid exclusion restriction was found at the aggregate China-wave level. Following Wolfolds and Siegel (2019), OLS is retained as the primary estimator because an invalid instrument induces more bias than no correction. Reverse causality would bias β₁ upward (superior performers choose more exports), making the estimated positive FSTS slope an upper bound. The primary robustness against this concern is that (a) the turning-point estimate depends on the sign and magnitude of β₂, which is less susceptible to selection-direction bias than β₁, and (b) the structural stability of the inverted-U across two independent waves with distinct selection contexts (Paternoster z = +0.82, p = .412) supports the robustness of the shape estimate. Future work using Heckman two-step correction with industry-level export participation rates as exclusion restrictions (Shaver, 2020) would strengthen causal identification.
+
 Capability moderation is tested via a pooled OLS model (M6) with wave × FSTS × TCI interaction terms and three joint F-tests (F1: cross-wave curvature shift; F2: within-wave capability moderation; F3: capability-conditioned cross-wave shift). Significance is evaluated at α = .05 two-tailed with Bonferroni-corrected threshold α* = .017 for the three jointly-assessed hypotheses.
 
 **M6 (Three-way moderation — capability-conditioned cross-wave shift):**
 
-$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI_{it} + \beta_4 \text{wave}_t$$
-$$+ \beta_5 (FSTS \times TCI)_{it} + \beta_6 (FSTS^2 \times TCI)_{it}$$
-$$+ \beta_7 (FSTS \times \text{wave})_{it} + \beta_8 (FSTS^2 \times \text{wave})_{it}$$
-$$+ \beta_9 (FSTS \times TCI \times \text{wave})_{it} + \beta_{10} (FSTS^2 \times TCI \times \text{wave})_{it}$$
-$$+ \gamma \cdot X_{it} + \varepsilon_{it}$$
+$$\ln LP_{it} = \alpha + \b\beta_1 FSTS_{it} + \b\beta_2 FSTS^2_{it} + \b\beta_3 TCI_{it} + \b\beta_4 \text{wave}_t$$
+$$+ \b\beta_5 (FSTS \times TCI)_{it} + \b\beta_6 (FSTS^2 \times TCI)_{it}$$
+$$+ \b\beta_7 (FSTS \times \text{wave})_{it} + \b\beta_8 (FSTS^2 \times \text{wave})_{it}$$
+$$+ \b\beta_9 (FSTS \times TCI \times \text{wave})_{it} + \beta_{10} (FSTS^2 \times TCI \times \text{wave})_{it}$$
+$$+ \gamma \cdot X_{it} + \v\varepsilon_{it}$$
 
 where wave_t ∈ {0 = 2012, 1 = 2024}; X_it = {lnEmp, FirmAge, ForeignDummy, ISIC sector FE}; clustered HC1 SE on firm identifier (idstd).
 
