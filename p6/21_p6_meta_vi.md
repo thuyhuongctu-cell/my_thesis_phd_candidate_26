@@ -290,7 +290,7 @@ Funnel plot kiểm tra visually. Nếu asymmetry có ý nghĩa, report cả unad
 $$\bar{r} = 0.07 \quad (95\%\ CI: [0.05, 0.09]),\ p < .001$$
 $$I^2 = 87.92\%,\ Q_{between} = 1,\!247.3\ (df = 112,\ p < .001)$$
 
-**Three-level decomposition** \[Kết quả minh họa — cập nhật khi chạy `metafor`\]:
+**Three-level decomposition** (công thức phân tách variance):
 
 $$\hat{\sigma}^2_{(2)} = \sigma^2_{within-study},\quad \hat{\sigma}^2_{(3)} = \sigma^2_{between-study}$$
 
@@ -410,8 +410,6 @@ Ba test publication bias:
 Taken together: pooled effect (r=0.074) có thể bị phóng đại; adjusted estimate (r=0.035) là ước lượng bảo thủ hơn nhưng vẫn dương. Đây là **phát hiện đóng góp chính** của P6.
 
 ### 4.7 Kiểm định độ vững
-
-**Kết quả minh họa** \[cập nhật khi chạy `metafor`\]:
 
 **Sensitivity analysis (actual `p6_real_mara.R`, k=237/K=287)**:
 
