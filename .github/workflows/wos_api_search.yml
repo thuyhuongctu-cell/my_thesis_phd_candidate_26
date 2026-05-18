@@ -1,0 +1,51 @@
+name: WoS API Search — P6 Meta-analysis
+
+on:
+  workflow_dispatch:        # manual trigger from GitHub Actions tab
+    inputs:
+      max_records:
+        description: 'Max records to retrieve (Free Trial: 2500/day)'
+        required: false
+        default: '2500'
+
+jobs:
+  wos-search:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # allow committing results back to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: claude/edit-vietnamese-academic-standards-xcAmn
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run WoS Starter API search
+        env:
+          WOS_API_KEY: ${{ secrets.WOS_API_KEY }}
+        run: |
+          python3 p6/tools/06_wos_api_search.py \
+            --max ${{ github.event.inputs.max_records || '2500' }} \
+            --output p6/tools/results/wos_api_$(date +%Y%m%d).csv
+
+      - name: Show summary
+        run: |
+          echo "=== Results ==="
+          ls -lh p6/tools/results/wos_api_*.csv 2>/dev/null || echo "No output file"
+          head -3 p6/tools/results/wos_api_*.csv 2>/dev/null || true
+
+      - name: Commit and push results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add p6/tools/results/wos_api_*.csv
+          git diff --staged --quiet || git commit -m "data(p6): add WoS API search results $(date +%Y-%m-%d)"
+          git push
