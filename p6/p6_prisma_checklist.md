@@ -25,7 +25,7 @@
 
 | Item | PRISMA 2020 Requirement | Location in Manuscript | Status |
 |------|------------------------|------------------------|--------|
-| 2 | Provide a structured abstract covering: background, objectives, data sources, study eligibility criteria, participants/interventions, appraisal and synthesis methods, results, limitations, conclusions and systematic review registration number. | §Abstract: Purpose / Design-methodology / Findings / Originality sub-sections; *k* = 238, *K* = 288 stated; OSF pre-registration mentioned | ⚠️ Counts TBD; registration ID not yet inserted |
+| 2 | Provide a structured abstract covering: background, objectives, data sources, study eligibility criteria, participants/interventions, appraisal and synthesis methods, results, limitations, conclusions and systematic review registration number. | §Abstract: Purpose / Design-methodology / Findings / Originality sub-sections; *k* = 237, *K* = 287 stated; OSF pre-registration mentioned | ⚠️ Registration ID not yet inserted |
 
 ---
 
@@ -62,7 +62,7 @@
 |------|------------------------|------------------------|--------|
 | 16a | **Study selection**: Describe the results of the search and selection process (PRISMA flow diagram recommended). | §3.2 last paragraph: PRISMA 2020 flow inline text with TBD counts; Appendix A: full ASCII flow diagram | ⚠️ TBD counts after formal search |
 | 16b | **Exclusion reasons**: Present reasons for exclusions at the full-text stage in sufficient detail. | Appendix A: six exclusion reasons at full-text stage; §3.2 inline | ⚠️ Counts TBD |
-| 17 | **Study characteristics**: Cite each included study; present their characteristics (PICO data, etc.). | §4.1: Sample description — *k* = 238 studies, *K* = 288 effect sizes; Table 3.1 (ICR statistics); forest_data.csv contains all study-level data | ⚠️ Formal Table of Study Characteristics (all k studies listed) not yet in manuscript |
+| 17 | **Study characteristics**: Cite each included study; present their characteristics (PICO data, etc.). | §4.1: Sample description — *k* = 237 studies, *K* = 287 effect sizes; Table 3.1 (ICR statistics); forest_data.csv contains all study-level data | ⚠️ Formal Table of Study Characteristics (all k studies listed) not yet in manuscript |
 | 18 | **Risk of bias in studies**: Present risk-of-bias assessments for each study. | Consistent with §3.3.3 — no per-study RoB scores. Synthesis-level bias diagnostics reported in §4.4 (Egger's, trim-and-fill, PET-PEESE). Acknowledged as study-design constraint in Limitations (§6). | ✅ Addressed (synthesis-level; per-study not applicable) |
 | 19 | **Results of individual studies**: Present results from each study — at minimum, effect estimate for each synthesis outcome. | Forest plots in Figures 1–2 show individual study r-values; supplementary `forest_data.csv` | ✅ |
 | 20 | **Results of syntheses**: Present the results of all syntheses (pooled r, CI, heterogeneity, moderator results). | §4.2 Baseline, §4.3 Moderator analyses (Tables 2–4), §4.4 Publication bias | ✅ |
