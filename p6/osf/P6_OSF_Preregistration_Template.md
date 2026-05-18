@@ -1,5 +1,5 @@
 # OSF Pre-Registration: P6 Three-Level Meta-Analysis
-# Internationalization → Firm Performance in Asia-Pacific
+# Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship
 
 > **Registration type:** Systematic Review & Meta-Analysis (Secondary Data)  
 > **Date prepared:** 2026-05-18  
@@ -11,7 +11,7 @@
 
 ## 1. Study Title
 
-Three-Level Meta-Analytic Regression of Internationalization–Firm Performance in Asia-Pacific: Institutional Context, Digital Adoption, and Platform Lifecycle Effects
+Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis
 
 ---
 
@@ -24,7 +24,7 @@ Three-Level Meta-Analytic Regression of Internationalization–Firm Performance 
 
 ## 3. Research Questions
 
-**RQ1 (Baseline):** What is the pooled internationalization–firm performance (I→P) effect size across Asia-Pacific economies (*k*, *r̄*, *I*²)?
+**RQ1 (Baseline):** What is the pooled internationalization–firm performance (I→P) effect size globally (*k*, *r̄*, *I*²)?
 
 **RQ2 (ICRV moderation):** Does institutional context-regime vulnerability (ICRV; 6 regime groups from Advanced to Frontier/SIDS) moderate the I→P effect, with a gradient such that Frontier regimes show larger turning points and smaller baseline effects than Advanced regimes?
 

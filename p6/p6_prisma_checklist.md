@@ -17,7 +17,7 @@
 
 | Item | PRISMA 2020 Requirement | Location in Manuscript | Status |
 |------|------------------------|------------------------|--------|
-| 1 | Identify the report as a systematic review (or meta-analysis). | Title: "A Three-Level Meta-Analytic Investigation…" | ✅ |
+| 1 | Identify the report as a systematic review (or meta-analysis). | Title: "…the Internationalization–Performance Relationship: A Three-Level Meta-Analysis" — phrase "Meta-Analysis" identifies the report type | ✅ |
 
 ---
 
