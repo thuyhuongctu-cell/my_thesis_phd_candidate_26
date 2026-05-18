@@ -231,7 +231,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận một phần: TCI nâng mặt bằng năng suất tại tất cả bối cảnh; uốn đường cong xác nhận tại Việt Nam nhưng NS tại toàn mẫu P7 (49 nền kinh tế) |
 | H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (49 nền kinh tế); DAI×ICRV p=.012 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 với top manager nữ β = +0,185*** |
-| H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận mạnh mẽ: $Q_M = 127{,}77^{***}$ từ meta (P6) và gradient ICRV từ P7 |
+| H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận một phần: $Q_M = 17{,}35^{**}$ (*df* = 4, *p* = ,002) từ P6 MARA xác nhận dị biệt giữa chế độ; gradient định hướng (E1a/E1b) chưa xác nhận do *k* = 3 tại Frontier; gradient ICRV → TP được xác nhận từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |
 | H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận mạnh mẽ: $\beta = -0{,}404^{*}$ đến $-0{,}901^{***}$ tuỳ specification |
 
