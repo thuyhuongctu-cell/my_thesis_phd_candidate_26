@@ -25,7 +25,7 @@
 
 | Item | PRISMA 2020 Requirement | Location in Manuscript | Status |
 |------|------------------------|------------------------|--------|
-| 2 | Provide a structured abstract covering: background, objectives, data sources, study eligibility criteria, participants/interventions, appraisal and synthesis methods, results, limitations, conclusions and systematic review registration number. | §Abstract: Purpose / Design-methodology / Findings / Originality sub-sections; *k* = 237, *K* = 287 stated; OSF pre-registration mentioned | ⚠️ Registration ID not yet inserted |
+| 2 | Provide a structured abstract covering: background, objectives, data sources, study eligibility criteria, participants/interventions, appraisal and synthesis methods, results, limitations, conclusions and systematic review registration number. | §Abstract: Purpose / Design-methodology / Findings / Originality sub-sections; *k* = 237, *K* = 287 stated; OSF registration https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN; May 18, 2026) | ✅ Complete |
 
 ---
 
@@ -43,7 +43,7 @@
 | Item | PRISMA 2020 Requirement | Location in Manuscript | Status |
 |------|------------------------|------------------------|--------|
 | 5 | **Eligibility criteria**: Specify study characteristics (e.g., PICO, study design) and report characteristics (e.g., years considered, language, publication status) used as criteria for eligibility. | §3.2 PICO table with Inclusion/Exclusion columns; covers population, DOI operationalization, performance measure, effect-size extractability, language, region, publication type | ✅ |
-| 6 | **Information sources**: Specify all databases, registers, websites, grey literature sources, and other methods used to identify studies, with the date each was last searched. | §3.1: WoS Core Collection (SSCI, SCI-E, ESCI) + Scopus; 5 supplementary DBs (ABI/INFORM, EBSCO, ScienceDirect, SpringerLink, Emerald); backward + forward citation; hand-search (n=19). Dates TBD. | ⚠️ Search dates not yet filled in |
+| 6 | **Information sources**: Specify all databases, registers, websites, grey literature sources, and other methods used to identify studies, with the date each was last searched. | §3.1: WoS Core Collection (SSCI, SCI-E, ESCI) searched **2026-05-18** via Starter API (n=2,180); Scopus search pending (CTU campus access required); 5 supplementary DBs (ABI/INFORM, EBSCO, ScienceDirect, SpringerLink, Emerald); backward + forward citation; hand-search (n=19). | ⚠️ Scopus search date pending |
 | 7 | **Search strategy**: Present the full search strategy for at least one database, including any filters applied. | §3.1: Full WoS TS= query and equivalent Scopus TITLE-ABS-KEY query shown verbatim with all Boolean operators; validation set (30-paper recall = 97%) | ✅ |
 | 8 | **Selection process**: State the process for selecting studies (e.g., screening, eligibility), including the number of reviewers involved in each stage and how discrepancies were resolved. | §3.2: "Two independent screeners… two stages (title/abstract then full-text)… disagreements resolved by third reviewer (majority decision)" | ✅ |
 | 9 | **Data collection process**: Specify the methods used to collect data from reports, including the number of coders and how disagreements were handled. | §3.3.1: "primary coder (PI: Đỗ Thùy Hương)… standardized coding form (Appendix B)"; §3.3.2: ICR 3-stage protocol with calibration, independent coding (20% subsample), adjudication | ✅ |
@@ -60,9 +60,9 @@
 
 | Item | PRISMA 2020 Requirement | Location in Manuscript | Status |
 |------|------------------------|------------------------|--------|
-| 16a | **Study selection**: Describe the results of the search and selection process (PRISMA flow diagram recommended). | §3.2 last paragraph: PRISMA 2020 flow inline text with TBD counts; Appendix A: full ASCII flow diagram | ⚠️ TBD counts after formal search |
-| 16b | **Exclusion reasons**: Present reasons for exclusions at the full-text stage in sufficient detail. | Appendix A: six exclusion reasons at full-text stage; §3.2 inline | ⚠️ Counts TBD |
-| 17 | **Study characteristics**: Cite each included study; present their characteristics (PICO data, etc.). | §4.1: Sample description — *k* = 237 studies, *K* = 287 effect sizes; Table 3.1 (ICR statistics); forest_data.csv contains all study-level data | ⚠️ Formal Table of Study Characteristics (all k studies listed) not yet in manuscript |
+| 16a | **Study selection**: Describe the results of the search and selection process (PRISMA flow diagram recommended). | **PRISMA flow (WoS arm, 2026-05-18):** Records identified: 2,180 → after internal dedup: 2,179 → L1 keyword pre-screen: 782 → L2 title screen (Y): 345 → dedup against existing k=287: 321 new unique candidates (11 exact + 13 near-year duplicates excluded). UNSURE requiring abstract: 402. Appendix A ASCII flow diagram updated. Scopus arm pending. | ⚠️ Scopus arm counts pending; abstract screening for 402 UNSURE pending |
+| 16b | **Exclusion reasons**: Present reasons for exclusions at the full-text stage in sufficient detail. | L2 exclusion reasons: E1:conceptual/editorial (4), E2:qualitative/case-study (8), E3:macro-level (6), E5:export-as-DV (17). Appendix A updated with actual counts from `l2_deep_screened_20260518.csv`. | ⚠️ Full-text exclusion reasons finalized after abstract screening of 402 UNSURE |
+| 17 | **Study characteristics**: Cite each included study; present their characteristics (PICO data, etc.). | §4.1: Sample description — existing *k* = 237 studies, *K* = 287 effect sizes; 321 new unique candidates identified (full extraction pending). `master_extraction_20260518.xlsx` is the active coding instrument (52 cols × 321 rows). Table S1 (all studies) will be finalized post-extraction. | ⚠️ Table S1 pending completion of effect-size extraction for 321 new studies |
 | 18 | **Risk of bias in studies**: Present risk-of-bias assessments for each study. | Consistent with §3.3.3 — no per-study RoB scores. Synthesis-level bias diagnostics reported in §4.4 (Egger's, trim-and-fill, PET-PEESE). Acknowledged as study-design constraint in Limitations (§6). | ✅ Addressed (synthesis-level; per-study not applicable) |
 | 19 | **Results of individual studies**: Present results from each study — at minimum, effect estimate for each synthesis outcome. | Forest plots in Figures 1–2 show individual study r-values; supplementary `forest_data.csv` | ✅ |
 | 20 | **Results of syntheses**: Present the results of all syntheses (pooled r, CI, heterogeneity, moderator results). | §4.2 Baseline, §4.3 Moderator analyses (Tables 2–4), §4.4 Publication bias | ✅ |
@@ -98,21 +98,20 @@
 
 | Status | Count | Items |
 |--------|-------|-------|
-| ✅ Complete | 22 | 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 23, 24, 25, 27, 28, 29 |
-| ⚠️ Partial (fill after formal search) | 6 | 2, 6, 16a, 16b, 17, 26 |
+| ✅ Complete | 24 | 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29 |
+| ⚠️ Partial (pending extraction / Scopus) | 3 | 6, 16a, 16b |
+| ⚠️ Partial (pending extraction completion) | 1 | 17 |
 | ❌ Missing / not addressed | 2 | 15, 22 |
+
+> **Updated 2026-05-18**: Items 2 and 26 resolved after OSF pre-registration (https://osf.io/z37kn). Items 16a/16b updated with WoS arm counts (2,180 → 782 → 345 Y → 321 new unique). Scopus arm and abstract screening for 402 UNSURE remain pending.
 
 ### Action list before IBR submission
 
-1. **After formal WoS+Scopus search** (highest priority): Fill all [TBD] counts in §3.2, Appendix A, Abstract, §4.1 (Items 2, 6, 16a, 16b, 17)
-2. **Item 11**: Add one sentence to §3 acknowledging no study-level risk-of-bias tool was applied and why (standard in I→P meta-analysis)
-3. **Item 17**: Add Table S1 (supplementary) listing all *k* studies with study characteristics — title, author, year, country, N, DOI measure, performance measure, r, ICRV code, cDAI category, DPL phase
-4. **Item 24**: Confirm §5/§6 contains explicit limitations paragraph (check content)
-5. **Item 26**: ✅ OSF registration complete — https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN; May 18, 2026)
-6. **Items 27–29**: Add before submission:
-   - Funding acknowledgement (e.g., CTU research fund, or "This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.")
-   - Competing interests ("The authors declare no conflict of interest.")
-   - Data availability ("The study database, R scripts, and PRISMA checklist are available at [OSF link].")
+1. **Abstract screening (402 UNSURE)**: Obtain abstracts via `06_fetch_abstracts.py` (run on machine with internet) or export WoS full records — resolve UNSURE → Y/N to finalize PRISMA counts (Items 16a, 16b)
+2. **Scopus search**: Run on CTU campus network; parse with `02_parse_scopus_export.py`; merge with `03_deduplicate_merge.py` to get final n_unique (Item 6)
+3. **Effect-size extraction**: Fill `master_extraction_20260518.xlsx` for 321 new unique studies; use `11_validate_and_convert_extraction.py` to validate and convert → run `10_merge_new_studies.py` → update k in manuscript
+4. **Item 17**: Run `p6_mara_updated.R` after merge → auto-generates Table S1 (`forest_data.csv`) with all k study characteristics
+5. **Items 15, 22** (GRADE certainty): Add brief paragraph in §3 and §4 if IBR reviewers request — template: "Certainty assessed using adapted GRADE framework (Murad et al., 2016): high heterogeneity (I²=62%) and potential publication bias reduce certainty to *moderate*."
 
 ---
 
