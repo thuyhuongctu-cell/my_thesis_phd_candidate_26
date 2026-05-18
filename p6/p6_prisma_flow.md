@@ -1,7 +1,7 @@
 # P6 — PRISMA 2020 Flow Diagram & Search Documentation
 # Meta-Analysis I→P 1977–2026 (Independent Systematic Review)
 
-> **Phiên bản**: v2.4 (18/05/2026)
+> **Phiên bản**: v2.7 (19/05/2026)
 > **Chuẩn áp dụng**: PRISMA 2020 (Page et al., 2021)
 > **Loại**: Fresh/independent meta-analysis (không phải update)
 > **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` §6
@@ -81,10 +81,26 @@
 ║      antecedent exclusions; performance consequences / crisis resilience):   ║
 ║    • Resolved Y (all genuinely new)        : n =    15  ✅                  ║
 ║    • Resolved N                            : n =    34                     ║
-║    • Still UNSURE (abstract required)      : n =    87  [TBD]              ║
+║    • Still UNSURE                          : n =    87                     ║
 ║                                                                              ║
-║  Total L2 Y (WoS arm)                      : n =   550  ✅                  ║
-║    (345 direct + 135 R1 + 30 R2 + 25 R3 + 15 R4)                            ║
+║  UNSURE re-screen Round 5 (script 24, title-only; 19/05/2026):              ║
+║    • Resolved Y (all genuinely new)        : n =     4  ✅                  ║
+║    • Resolved N                            : n =    11                     ║
+║    • Still UNSURE                          : n =    72                     ║
+║                                                                              ║
+║  UNSURE re-screen Round 6 (script 26, title-only; 19/05/2026):              ║
+║    • Resolved Y (all genuinely new)        : n =     8  ✅                  ║
+║    • Resolved N                            : n =    46                     ║
+║    • Still UNSURE                          : n =    18                     ║
+║                                                                              ║
+║  UNSURE re-screen Round 7 (manual signals: book-chapter DOI, single-case,   ║
+║      antecedent-DV, non-business journal, macro unit; 19/05/2026):           ║
+║    • Resolved Y                            : n =     0                     ║
+║    • Resolved N                            : n =     8  ✅                  ║
+║    • Still UNSURE (abstract required)      : n =    10  [TBD]              ║
+║                                                                              ║
+║  Total L2 Y (WoS arm)                      : n =   562  ✅                  ║
+║    (345 direct + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6 + 0 R7)     ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼ Dedup vs prior DB + extraction
@@ -93,8 +109,8 @@
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Dedup vs. existing k=287:                                                   ║
 ║    Confirmed genuinely new (R1 dedup)      : n =   321  ✅                  ║
-║    Title-confirmed new (R1-R4 pending)     : n =   199  [TBD: need full-text] ║
-║    Active extraction pool (v6 xlsx)        : n =   520  ✅                  ║
+║    Title-confirmed new (R1-R7 pending)     : n =   211  [TBD: need full-text] ║
+║    Active extraction pool (worklist v8)    : n =   532  ✅                  ║
 ║                                                                              ║
 ║  Full-text excluded (reasons after extraction — TBD):                       ║
 ║    • No calculable r / convertible stat    : [TBD]                         ║
@@ -304,6 +320,9 @@ Current database state (pre-formal-search):
 | v2.2 | 16/05/2026 | Search strategy expanded: WoS/Scopus queries updated to global scope (no Asia-Pacific geo filter); supplementary databases added (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight); "Non-peer-reviewed publication" added as exclusion reason; scite.ai → Google Scholar for forward citation; INCLUDED breakdown updated |
 | v2.3 | 16/05/2026 | Added OpenAlex as free supplementary database; Python search script created at p6/tools/openalex_prisma_search.py; WoS/Scopus noted as requiring institutional access |
 | v2.4 | 18/05/2026 | R3 UNSURE resolution: 25 Y + 43 N + 136 still UNSURE; Total L2 Y updated 510→535; pool updated v4/480→v5/505 |
+| v2.5 | 19/05/2026 | R5 title-only: 4Y + 11N; R6 title-only: 8Y + 46N; Total L2 Y: 550→562; worklist v7→v8 (524→532); UNSURE: 87→18 |
+| v2.6 | 19/05/2026 | EN manuscript synced to R6/v8 counts |
+| v2.7 | 19/05/2026 | R7 manual signals: 0Y + 8N; UNSURE: 18→10 (abstract required); both manuscripts updated |
 
 ---
 
