@@ -166,7 +166,7 @@ Two independent screeners applied the eligibility criteria below in two stages: 
 
 To ensure comparability and methodological quality across the primary-study corpus, the main meta-analysis was restricted to peer-reviewed journal articles and articles in press with identifiable DOI information. Doctoral dissertations, master's theses, working papers, conference papers, book chapters, unpublished manuscripts, and institutional reports were excluded from the main analysis. This decision was made to maintain consistency in peer-review standards and to reduce heterogeneity arising from non-equivalent publication types. Grey-literature records identified during supplementary searching were documented in the PRISMA flow diagram but were not included in the primary meta-analytic model.
 
-**PRISMA 2020 flow.** Records identified from electronic databases: WoS Core Collection (*n* = 2,180; Starter API, 18 May 2026) + Scopus (*n* = TBD) → After automated deduplication: [*n* = TBD; WoS-only dedup yields 2,179] → Title/abstract screen (two independent coders): [*n* = TBD] retained → Full-text eligibility assessment: [*n* = TBD] assessed → Effect size extractable and meeting all eligibility criteria: [*k* = TBD studies; *K* = TBD effect sizes]. Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The current working database (*k* = 237 coded studies; *K* = 287 effect sizes) was assembled from backward citation screening and hand-search prior to the formal database search; all counts will be updated to confirmed figures after Scopus search is completed.
+**PRISMA 2020 flow (WoS arm confirmed; Scopus pending).** Records identified from WoS Core Collection: *n* = 2,180 (Starter API, 18 May 2026; SSCI + SCI-E + ESCI, 1977–2026) + Scopus: *n* = TBD (institutional access required). After automated within-WoS deduplication: *n* = 2,179 (1 duplicate removed). Level-1 keyword pre-screen (title-signal filtering): *n* = 782 records advanced to Level-2; *n* = 1,397 excluded (title clearly outside I→P domain). Level-2 title screen of 782 records (18 May 2026): *n* = 345 Y, *n* = 35 N, *n* = 402 UNSURE. UNSURE title-only re-screen (script `14_resolve_unsure_titles.py`, aggressive pattern matching): *n* = 135 resolved Y (129 genuinely new after dedup vs. existing *k* = 287; 6 duplicates), *n* = 3 resolved N, *n* = 263 still UNSURE (abstract required). Total L2 Y (WoS arm): *n* = 480. Active extraction pool: *n* = 450 records (321 confirmed new + 129 title-confirmed pending abstract verification; coded in `master_extraction_20260518_autocoded_v3.xlsx`). Final included *k* = TBD; *K* = TBD (pending effect-size extraction). Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The prior working database (*k* = 237 coded studies; *K* = 287 effect sizes) assembled from backward citation screening and hand-search constitutes the baseline; all counts will be updated to confirmed figures after Scopus search and extraction are completed.
 
 ### 3.3 Data Extraction and Quality Assurance
 
@@ -600,45 +600,74 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 ## Appendix A — PRISMA 2020 Flow Diagram
 
-> **⚠️ All counts marked [TBD] will be confirmed after formal WoS + Scopus search.** The diagram below follows PRISMA 2020 (Page et al., 2021).
+> **WoS arm confirmed (18 May 2026). Scopus arm and final k/K pending extraction completion.**  
+> Follows PRISMA 2020 (Page et al., 2021). Numbers in parentheses are confirmed; [TBD] remain pending Scopus search or extraction.
 
 ```
 IDENTIFICATION
 ─────────────────────────────────────────────────────────────────
-Records from electronic databases (WoS Core Collection + Scopus):
-  [n = TBD]
-Records from supplementary methods
-  Backward citation scan (5 anchor meta-analyses): [n = TBD]
-  Hand-search (author's corpus, 2020–2026): n = 19
-  ──────────────────────────────────────
-  Total identified: [N = TBD]
+Records from electronic databases:
+  Web of Science Core Collection (SSCI+SCI-E+ESCI): n = 2,180 ✓
+  Scopus:                                            n = [TBD]
+  ─────────────────────────────────────────────────────
+  Total from databases:                              n = [TBD; WoS only = 2,180]
 
-SCREENING — Level 1 (Title / Abstract)
-─────────────────────────────────────────────────────────────────
-After deduplication: [n = TBD]
-  Excluded (title/abstract screen): [n = TBD]
-    - Does not examine I→P relationship: [n = TBD]
-    - Not firm-level analysis: [n = TBD]
-    - Non-English, no convertible ES in abstract: [n = TBD]
-    - Qualitative / conceptual only: [n = TBD]
-  Retained for full-text review: [n = TBD]
+Records from supplementary methods:
+  Backward citation scan (5 anchor meta-analyses):  n ≈ 478 screened
+  Hand-search (author corpus, 2024–2026):           n = 19
+  ─────────────────────────────────────────────────────
+  Total records identified:                         N = [TBD; WoS arm = 2,180]
 
-ELIGIBILITY — Level 2 (Full Text)
+SCREENING — Level 1 (Title / Keyword Pre-screen)
 ─────────────────────────────────────────────────────────────────
-Full texts assessed: [n = TBD]
-  Excluded: [n = TBD]
-    - No effect size convertible to r: [n = TBD]
-    - No DOI measure meeting PICO I criterion: [n = TBD]
-    - State-owned enterprise / government-controlled sample: [n = TBD]
-    - Duplicate sample (smaller/older retained for exclusion): [n = TBD]
-    - Meta-analysis or review (not primary study): [n = TBD]
-    - Conference paper / thesis / working paper: [n = TBD]
+After within-WoS deduplication:                      n = 2,179  (1 duplicate removed)
+  Excluded at L1 (title clearly outside I→P domain): n = 1,397
+    - No internationalization × performance signal  : n ≈ 1,200
+    - Systematic reviews / meta-analyses            : n ≈   97
+    - Qualitative / conceptual / medical            : n ≈  100
+  Retained for Level-2 title screen:                 n =   782  ✓
+
+SCREENING — Level 2 (Title Screen + UNSURE Resolution)
+─────────────────────────────────────────────────────────────────
+Records screened at L2 (title):                      n =   782
+  Initial decisions (18 May 2026):
+    Y (clearly eligible):                            n =   345
+    N (clearly excluded):                            n =    35
+      E1: Conceptual / editorial                     n =     4
+      E2: Qualitative / case study                   n =     8
+      E3: Macro-level / country-level analysis       n =     6
+      E5: Export as DV (not IV→performance)          n =    17
+    UNSURE (title insufficient):                     n =   402
+
+  UNSURE title-only re-screen (aggressive pattern matching):
+    Resolved Y (additional):                         n =   135
+      Genuinely new (not in existing k=287):         n =   129
+      Duplicates of existing database:               n =     6  → excluded
+    Resolved N (additional):                         n =     3
+    Still UNSURE (abstract required):                n =   263  ← pending
+
+  Total L2 Y (WoS arm):                             n =   480  ✓
+
+ELIGIBILITY — Deduplication vs. Prior Database
+─────────────────────────────────────────────────────────────────
+Deduplicated against existing k=287 coded studies:
+  Confirmed genuinely new:                           n =   321  ✓
+  Confirmed new (title-only, pending abstract):      n =   129  [TBD: need abstract]
+  Active extraction pool (v3 template):              n =   450  ✓
+  Full-text excluded (reasons pending extraction):   n = [TBD]
+    - No calculable r or convertible statistic
+    - Unit of analysis not firm-level
+    - Conference paper / thesis / working paper
+    - Duplicate sample
 
 INCLUDED
 ─────────────────────────────────────────────────────────────────
-Studies included in meta-analysis: k = [TBD]
-Effect sizes coded: K = [TBD]
-  (Current working database prior to formal search: k = 237, K = 287)
+Studies included in meta-analysis:   k = [TBD] (prior DB: k = 237)
+Effect sizes coded:                  K = [TBD] (prior DB: K = 287)
+
+Note: Final k/K will reflect: existing k=237 + confirmed new studies from
+450-record extraction pool after full-text screening and effect-size extraction.
+Scopus arm counts will be added after CTU campus institutional search.
 ```
 
 *The PRISMA checklist (Page et al., 2021) is available from the corresponding author.*

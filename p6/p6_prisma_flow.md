@@ -43,51 +43,64 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                     SCREENING — Level 1 (Title/Abstract)                    ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Records after deduplication: [n = TBD; WoS-only: 2,179]                    ║
+║  Records after WoS dedup: n = 2,179  (1 duplicate removed ✅)              ║
 ║                                                                              ║
-║  L1 title-screening (WoS, automated; 18/05/2026):                           ║
-║    • Clearly relevant (I→P title signal)   : n = 828  → advance to L2      ║
-║    • Clearly excluded (title keywords)     : n =  38                        ║
-║        – Meta-analysis/review              : n =  23                        ║
-║        – Not firm-level / macro            : n =   9                        ║
-║        – Qualitative / conceptual          : n =   4                        ║
-║        – Medical / non-business            : n =   2                        ║
-║    • UNSURE (title insufficient for decision): n = 1,313 → manual review    ║
-║      [Note: No abstracts from WoS Starter API — manual title review needed] ║
+║  L1 keyword pre-screen (WoS; 18/05/2026):                                   ║
+║    • Advanced to L2 (I→P title signal)     : n =   782  ✅                  ║
+║    • Excluded at L1 (title outside domain) : n = 1,397                     ║
+║        – No I→P signal (irrelevant domain) : n ≈ 1,200                     ║
+║        – Reviews / meta-analyses           : n ≈    97                     ║
+║        – Qualitative / conceptual / medical: n ≈   100                     ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║  L2 TITLE SCREEN — 782 records (18/05/2026):                                ║
+║    • Y (clearly eligible)                  : n =   345                     ║
+║    • N (clearly excluded)                  : n =    35                     ║
+║        – E1: Conceptual/editorial          : n =     4                     ║
+║        – E2: Qualitative/case study        : n =     8                     ║
+║        – E3: Macro-level analysis          : n =     6                     ║
+║        – E5: Export as DV not IV           : n =    17                     ║
+║    • UNSURE (title insufficient)           : n =   402                     ║
+║                                                                              ║
+║  UNSURE title-only re-screen (script 14):                                   ║
+║    • Resolved Y (new unique)               : n =   129  ✅                  ║
+║    • Resolved Y (dup of existing k=287)    : n =     6  → excluded         ║
+║    • Resolved N                            : n =     3                     ║
+║    • Still UNSURE (abstract required)      : n =   263  [TBD]              ║
+║                                                                              ║
+║  Total L2 Y (WoS arm)                      : n =   480  ✅                  ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
-                              ▼ Full-text retrieved [n = TBD]
+                              ▼ Dedup vs prior DB + extraction
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                     ELIGIBILITY — Level 2 (Full Text)                       ║
+║                     ELIGIBILITY — Extraction Pool                            ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Records assessed for eligibility: [n = TBD]                                 ║
-║  Records excluded (full-text): [n = TBD]                                     ║
-║  Reasons:                                                                    ║
-║    • No calculable Pearson r or convertible statistic: [n = TBD]            ║
-║    • Duplicate sample (kept larger/most recent): [n = TBD]                  ║
-║    • Outside 1977–2026 range: [n = TBD]                                     ║
-║    • Not firm-level observation: [n = TBD]                                   ║
-║    • Meta-analysis (not primary study): [n = TBD]                           ║
-║    • Insufficient information for coding: [n = TBD]                         ║
+║  Dedup vs. existing k=287:                                                   ║
+║    Confirmed genuinely new                 : n =   321  ✅                  ║
+║    Title-confirmed pending abstract        : n =   129  [TBD]              ║
+║    Active extraction pool (v3 xlsx)        : n =   450  ✅                  ║
+║                                                                              ║
+║  Full-text excluded (reasons after extraction — TBD):                       ║
+║    • No calculable r / convertible stat    : [TBD]                         ║
+║    • Not firm-level unit of analysis       : [TBD]                         ║
+║    • Thesis / conference / working paper   : [TBD]                         ║
+║    • Duplicate sample                      : [TBD]                         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                     INCLUDED                                                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Studies included in meta-analysis: k = [TBD — hiện có 238 trong database]  ║
-║  Effect sizes: K ≈ [TBD — hiện có 288 trong forest_data.csv]                ║
-║                                                                              ║
-║  Breakdown by source:                                                        ║
-║    Database search (WoS + Scopus + 5 supplementary DBs): [n = TBD]         ║
-║    Backward citation scan (5 metas):       [n = TBD]                        ║
-║    Forward citation (Google Scholar):      [n = TBD]                        ║
-║    Hand-search:                            [n = TBD]                        ║
+║  Studies included in meta-analysis:                                          ║
+║    Prior database (backward scan + hand-search): k = 237, K = 287  ✅       ║
+║    New studies from WoS arm (after extraction) : k = [TBD]                 ║
+║    New studies from Scopus arm (pending)        : k = [TBD]                 ║
+║    ──────────────────────────────────────────────────────                    ║
+║    TOTAL                                        : k = [TBD], K = [TBD]     ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-> ⚠️ **Tất cả [n = TBD]** sẽ được điền sau khi hoàn thành WoS + Scopus search.
-> Ngày search: ___/05/2026. Ghi lại số kết quả ngay sau khi chạy query.
+> ✅ = **Confirmed** (WoS arm; 18/05/2026). [TBD] = pending Scopus search or extraction.
+> Scopus search: requires CTU campus institutional access. Run `02_parse_scopus_export.py` after export.
 
 ---
 
