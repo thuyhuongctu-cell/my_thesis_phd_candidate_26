@@ -75,10 +75,16 @@
 ║  UNSURE re-screen Round 3 (script 20, extended HARD_EXCL+STRONG_INCL):      ║
 ║    • Resolved Y (all genuinely new)        : n =    25  ✅                  ║
 ║    • Resolved N                            : n =    43                     ║
-║    • Still UNSURE (abstract required)      : n =   136  [TBD]              ║
+║    • Still UNSURE after R3                 : n =   136                     ║
 ║                                                                              ║
-║  Total L2 Y (WoS arm)                      : n =   535  ✅                  ║
-║    (345 direct + 135 R1 + 30 R2 + 25 R3)                                    ║
+║  UNSURE re-screen Round 4 (script 22, capital structure / location /         ║
+║      antecedent exclusions; performance consequences / crisis resilience):   ║
+║    • Resolved Y (all genuinely new)        : n =    15  ✅                  ║
+║    • Resolved N                            : n =    34                     ║
+║    • Still UNSURE (abstract required)      : n =    87  [TBD]              ║
+║                                                                              ║
+║  Total L2 Y (WoS arm)                      : n =   550  ✅                  ║
+║    (345 direct + 135 R1 + 30 R2 + 25 R3 + 15 R4)                            ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼ Dedup vs prior DB + extraction
@@ -87,8 +93,8 @@
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Dedup vs. existing k=287:                                                   ║
 ║    Confirmed genuinely new (R1 dedup)      : n =   321  ✅                  ║
-║    Title-confirmed new (R1+R2+R3 pending) : n =   184  [TBD: need full-text] ║
-║    Active extraction pool (v5 xlsx)        : n =   505  ✅                  ║
+║    Title-confirmed new (R1-R4 pending)     : n =   199  [TBD: need full-text] ║
+║    Active extraction pool (v6 xlsx)        : n =   520  ✅                  ║
 ║                                                                              ║
 ║  Full-text excluded (reasons after extraction — TBD):                       ║
 ║    • No calculable r / convertible stat    : [TBD]                         ║
