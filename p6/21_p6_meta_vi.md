@@ -312,7 +312,7 @@ $$I^2_{(2)} = \frac{\hat{\sigma}^2_{(2)}}{\hat{\sigma}^2_{(2)} + \hat{\sigma}^2_
 $$\hat{r}_{3L} = 0.074,\quad 95\%\ CI\ [0.060,\ 0.088],\quad p < .001$$
 $$Q_{total} = 1{,}895.58\ (df=286,\ p<.001)$$
 
-Pooled effect trong coded baseline hiện tại là $\hat{r}=0.074$, 95% CI [0.061, 0.086], $Q=1895.58$ và $I^2=84.91\%$ theo kiểm tra random-effects Fisher-z. Con số này consistent với $r=0.07$ từ baseline MetaEssentials, xác nhận rằng chuyển đổi sang mô hình ba cấp không phóng đại pooled estimate. $Q_{total}$ cho thấy heterogeneity rất cao — cần moderator analysis để giải thích variance.
+Pooled effect trong coded baseline hiện tại là $\hat{r}=0.074$, 95% CI [0.060, 0.088] (three-level REML), $Q=1895.58$ ($df=286$, $p<.001$). $I^2_{total}=62.5\%$, phân tách thành $I^2_{within}=54.1\%$ (Level 2, within-study) và $I^2_{between}=8.4\%$ (Level 3, between-study). Con số này consistent với $r=0.07$ từ baseline MetaEssentials — chuyển đổi sang mô hình ba cấp không phóng đại pooled estimate. Lưu ý: DerSimonian–Laird 2-level cho CI [0.061, 0.086] và I²≈85%, nhưng three-level REML là specification chính xác (Cheung 2014). Phần lớn heterogeneity nằm ở Level 2 (within-study variance) hơn là between-study, điều này hàm ý publication bias có thể là nguồn variance quan trọng hơn context (→ §4.6).
 
 **Bảng 4.1 — Kết quả baseline** (đã xác nhận từ ICBEF 2025):
 
