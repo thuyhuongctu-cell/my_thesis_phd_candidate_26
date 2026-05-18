@@ -166,7 +166,7 @@ Two independent screeners applied the eligibility criteria below in two stages: 
 
 To ensure comparability and methodological quality across the primary-study corpus, the main meta-analysis was restricted to peer-reviewed journal articles and articles in press with identifiable DOI information. Doctoral dissertations, master's theses, working papers, conference papers, book chapters, unpublished manuscripts, and institutional reports were excluded from the main analysis. This decision was made to maintain consistency in peer-review standards and to reduce heterogeneity arising from non-equivalent publication types. Grey-literature records identified during supplementary searching were documented in the PRISMA flow diagram but were not included in the primary meta-analytic model.
 
-**PRISMA 2020 flow (WoS arm confirmed; Scopus pending).** Records identified from WoS Core Collection: *n* = 2,180 (Starter API, 18 May 2026; SSCI + SCI-E + ESCI, 1977–2026) + Scopus: *n* = TBD (institutional access required). After automated within-WoS deduplication: *n* = 2,179 (1 duplicate removed). Level-1 keyword pre-screen (title-signal filtering): *n* = 782 records advanced to Level-2; *n* = 1,397 excluded (title clearly outside I→P domain). Level-2 title screen of 782 records (18 May 2026): *n* = 345 Y, *n* = 35 N, *n* = 402 UNSURE. UNSURE title-only re-screen (two rounds): Round 1 (script `14_resolve_unsure_titles.py`): *n* = 135 resolved Y (129 genuinely new after dedup vs. existing *k* = 287; 6 duplicates), *n* = 3 resolved N, *n* = 263 still UNSURE. Round 2 (script `18_resolve_unsure_round2.py`, two-tier rule expansion — hard antecedent/theory exclusions applied before I→P performance detection): *n* = 30 resolved Y (all genuinely new), *n* = 29 resolved N, *n* = 204 still UNSURE (abstract required to resolve). Total L2 Y (WoS arm): *n* = 510 (= 345 + 135 + 30). Active extraction pool: *n* = 480 records (321 + 129 R1 + 30 R2 genuinely new; coded in `master_extraction_20260518_autocoded_v4.xlsx`). Final included *k* = TBD; *K* = TBD (pending effect-size extraction). Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The prior working database (*k* = 237 coded studies; *K* = 287 effect sizes) assembled from backward citation screening and hand-search constitutes the baseline; all counts will be updated to confirmed figures after Scopus search and extraction are completed.
+**PRISMA 2020 flow (WoS arm confirmed; Scopus pending).** Records identified from WoS Core Collection: *n* = 2,180 (Starter API, 18 May 2026; SSCI + SCI-E + ESCI, 1977–2026) + Scopus: *n* = TBD (institutional access required). After automated within-WoS deduplication: *n* = 2,179 (1 duplicate removed). Level-1 keyword pre-screen (title-signal filtering): *n* = 782 records advanced to Level-2; *n* = 1,397 excluded (title clearly outside I→P domain). Level-2 title screen of 782 records (18 May 2026): *n* = 345 Y, *n* = 35 N, *n* = 402 UNSURE. UNSURE title-only re-screen (two rounds): Round 1 (script `14_resolve_unsure_titles.py`): *n* = 135 resolved Y (129 genuinely new after dedup vs. existing *k* = 287; 6 duplicates), *n* = 3 resolved N, *n* = 263 still UNSURE. Round 2 (script `18_resolve_unsure_round2.py`, two-tier rule expansion — hard antecedent/theory exclusions applied before I→P performance detection): *n* = 30 resolved Y (all genuinely new), *n* = 29 resolved N, *n* = 204 still UNSURE. Round 3 (script `20_resolve_unsure_round3.py`, extended HARD_EXCL and STRONG_INCL patterns — added innovation-as-DV, employment/macro DVs, born-global theory, survival/growth INCL patterns): *n* = 25 resolved Y (all genuinely new), *n* = 43 resolved N, *n* = 136 still UNSURE (abstract required to resolve). Total L2 Y (WoS arm): *n* = 535 (= 345 + 135 + 30 + 25). Active extraction pool: *n* = 505 records (321 + 129 R1 + 30 R2 + 25 R3 genuinely new; coded in `master_extraction_20260518_autocoded_v5.xlsx`). Final included *k* = TBD; *K* = TBD (pending effect-size extraction). Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The prior working database (*k* = 237 coded studies; *K* = 287 effect sizes) assembled from backward citation screening and hand-search constitutes the baseline; all counts will be updated to confirmed figures after Scopus search and extraction are completed.
 
 ### 3.3 Data Extraction and Quality Assurance
 
@@ -649,17 +649,22 @@ Records screened at L2 (title):                      n =   782
   UNSURE title-only re-screen — Round 2 (script 18, two-tier rules):
     Resolved Y (all genuinely new):                  n =    30  ✓
     Resolved N:                                      n =    29
-    Still UNSURE (abstract required):                n =   204  ← pending
+    Still UNSURE after R2:                           n =   204
 
-  Total L2 Y (WoS arm):                             n =   510  ✓
-    (= 345 L2 Y + 135 R1 UNSURE-Y + 30 R2 UNSURE-Y)
+  UNSURE title-only re-screen — Round 3 (script 20, extended patterns):
+    Resolved Y (all genuinely new):                  n =    25  ✓
+    Resolved N:                                      n =    43
+    Still UNSURE (abstract required):                n =   136  ← pending
+
+  Total L2 Y (WoS arm):                             n =   535  ✓
+    (= 345 L2 Y + 135 R1 UNSURE-Y + 30 R2 UNSURE-Y + 25 R3 UNSURE-Y)
 
 ELIGIBILITY — Deduplication vs. Prior Database
 ─────────────────────────────────────────────────────────────────
 Deduplicated against existing k=287 coded studies:
   Confirmed genuinely new (R1):                      n =   321  ✓
-  Confirmed new (title-only R2, pending abstract):   n =   159  (129 R1 + 30 R2)
-  Active extraction pool (v4 template):              n =   480  ✓
+  Confirmed new (title-only R2+R3, pending abstract):n =   184  (129 R1 + 30 R2 + 25 R3)
+  Active extraction pool (v5 template):              n =   505  ✓
   Full-text excluded (reasons pending extraction):   n = [TBD]
     - No calculable r or convertible statistic
     - Unit of analysis not firm-level
@@ -672,7 +677,7 @@ Studies included in meta-analysis:   k = [TBD] (prior DB: k = 237)
 Effect sizes coded:                  K = [TBD] (prior DB: K = 287)
 
 Note: Final k/K will reflect: existing k=237 + confirmed new studies from
-480-record extraction pool after full-text screening and effect-size extraction.
+505-record extraction pool after full-text screening and effect-size extraction.
 Scopus arm counts will be added after CTU campus institutional search.
 ```
 

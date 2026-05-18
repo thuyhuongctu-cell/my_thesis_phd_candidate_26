@@ -1,7 +1,7 @@
 # P6 — PRISMA 2020 Flow Diagram & Search Documentation
 # Meta-Analysis I→P 1977–2026 (Independent Systematic Review)
 
-> **Phiên bản**: v2.2 (16/05/2026)
+> **Phiên bản**: v2.4 (18/05/2026)
 > **Chuẩn áp dụng**: PRISMA 2020 (Page et al., 2021)
 > **Loại**: Fresh/independent meta-analysis (không phải update)
 > **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` §6
@@ -70,10 +70,15 @@
 ║  UNSURE re-screen Round 2 (script 18, two-tier rules):                      ║
 ║    • Resolved Y (all genuinely new)        : n =    30  ✅                  ║
 ║    • Resolved N                            : n =    29                     ║
-║    • Still UNSURE (abstract required)      : n =   204  [TBD]              ║
+║    • Still UNSURE after R2                 : n =   204                     ║
 ║                                                                              ║
-║  Total L2 Y (WoS arm)                      : n =   510  ✅                  ║
-║    (345 direct + 135 R1 + 30 R2)                                             ║
+║  UNSURE re-screen Round 3 (script 20, extended HARD_EXCL+STRONG_INCL):      ║
+║    • Resolved Y (all genuinely new)        : n =    25  ✅                  ║
+║    • Resolved N                            : n =    43                     ║
+║    • Still UNSURE (abstract required)      : n =   136  [TBD]              ║
+║                                                                              ║
+║  Total L2 Y (WoS arm)                      : n =   535  ✅                  ║
+║    (345 direct + 135 R1 + 30 R2 + 25 R3)                                    ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼ Dedup vs prior DB + extraction
@@ -82,8 +87,8 @@
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Dedup vs. existing k=287:                                                   ║
 ║    Confirmed genuinely new (R1 dedup)      : n =   321  ✅                  ║
-║    Title-confirmed new (R1 + R2 pending)  : n =   159  [TBD: need full-text] ║
-║    Active extraction pool (v4 xlsx)        : n =   480  ✅                  ║
+║    Title-confirmed new (R1+R2+R3 pending) : n =   184  [TBD: need full-text] ║
+║    Active extraction pool (v5 xlsx)        : n =   505  ✅                  ║
 ║                                                                              ║
 ║  Full-text excluded (reasons after extraction — TBD):                       ║
 ║    • No calculable r / convertible stat    : [TBD]                         ║
@@ -292,6 +297,7 @@ Current database state (pre-formal-search):
 | v2.1 | 16/05/2026 | k=235→238, K=~385→288 (forest_data.csv actual count); Study ID range S001–S237++ |
 | v2.2 | 16/05/2026 | Search strategy expanded: WoS/Scopus queries updated to global scope (no Asia-Pacific geo filter); supplementary databases added (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight); "Non-peer-reviewed publication" added as exclusion reason; scite.ai → Google Scholar for forward citation; INCLUDED breakdown updated |
 | v2.3 | 16/05/2026 | Added OpenAlex as free supplementary database; Python search script created at p6/tools/openalex_prisma_search.py; WoS/Scopus noted as requiring institutional access |
+| v2.4 | 18/05/2026 | R3 UNSURE resolution: 25 Y + 43 N + 136 still UNSURE; Total L2 Y updated 510→535; pool updated v4/480→v5/505 |
 
 ---
 
