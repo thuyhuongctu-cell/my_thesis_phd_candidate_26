@@ -44,15 +44,16 @@
 ║                     SCREENING — Level 1 (Title/Abstract)                    ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Records after deduplication: [n = TBD; WoS-only: 2,179]                    ║
-║  Records excluded (title/abstract screen): [n = TBD]                        ║
-║  Reasons:                                                                    ║
-║    • Not examining I→P relationship: [n = TBD]                              ║
-║    • Country/industry-level (not firm-level): [n = TBD]                     ║
-║    • Qualitative only: [n = TBD]                                             ║
-║    • Conceptual/theoretical only: [n = TBD]                                  ║
-║    • Non-English: [n = TBD]                                                  ║
-║    • Non-peer-reviewed (dissertation, working paper, conference               ║
-║      paper, book chapter, institutional report): [n = TBD]                  ║
+║                                                                              ║
+║  L1 title-screening (WoS, automated; 18/05/2026):                           ║
+║    • Clearly relevant (I→P title signal)   : n = 828  → advance to L2      ║
+║    • Clearly excluded (title keywords)     : n =  38                        ║
+║        – Meta-analysis/review              : n =  23                        ║
+║        – Not firm-level / macro            : n =   9                        ║
+║        – Qualitative / conceptual          : n =   4                        ║
+║        – Medical / non-business            : n =   2                        ║
+║    • UNSURE (title insufficient for decision): n = 1,313 → manual review    ║
+║      [Note: No abstracts from WoS Starter API — manual title review needed] ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼ Full-text retrieved [n = TBD]
