@@ -13,12 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write       # allow committing results back to repo
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           ref: claude/edit-vietnamese-academic-standards-xcAmn
+          fetch-depth: 0
+          token: ${{ github.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -48,4 +52,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add p6/tools/results/wos_api_*.csv
           git diff --staged --quiet || git commit -m "data(p6): add WoS API search results $(date +%Y-%m-%d)"
-          git push
+          git push origin HEAD:claude/edit-vietnamese-academic-standards-xcAmn
