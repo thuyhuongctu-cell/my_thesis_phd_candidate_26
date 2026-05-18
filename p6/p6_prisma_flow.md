@@ -61,13 +61,19 @@
 ║        – E5: Export as DV not IV           : n =    17                     ║
 ║    • UNSURE (title insufficient)           : n =   402                     ║
 ║                                                                              ║
-║  UNSURE title-only re-screen (script 14):                                   ║
+║  UNSURE re-screen Round 1 (script 14):                                      ║
 ║    • Resolved Y (new unique)               : n =   129  ✅                  ║
 ║    • Resolved Y (dup of existing k=287)    : n =     6  → excluded         ║
 ║    • Resolved N                            : n =     3                     ║
-║    • Still UNSURE (abstract required)      : n =   263  [TBD]              ║
+║    • Still UNSURE after R1                 : n =   263                     ║
 ║                                                                              ║
-║  Total L2 Y (WoS arm)                      : n =   480  ✅                  ║
+║  UNSURE re-screen Round 2 (script 18, two-tier rules):                      ║
+║    • Resolved Y (all genuinely new)        : n =    30  ✅                  ║
+║    • Resolved N                            : n =    29                     ║
+║    • Still UNSURE (abstract required)      : n =   204  [TBD]              ║
+║                                                                              ║
+║  Total L2 Y (WoS arm)                      : n =   510  ✅                  ║
+║    (345 direct + 135 R1 + 30 R2)                                             ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼ Dedup vs prior DB + extraction
@@ -75,9 +81,9 @@
 ║                     ELIGIBILITY — Extraction Pool                            ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Dedup vs. existing k=287:                                                   ║
-║    Confirmed genuinely new                 : n =   321  ✅                  ║
-║    Title-confirmed pending abstract        : n =   129  [TBD]              ║
-║    Active extraction pool (v3 xlsx)        : n =   450  ✅                  ║
+║    Confirmed genuinely new (R1 dedup)      : n =   321  ✅                  ║
+║    Title-confirmed new (R1 + R2 pending)  : n =   159  [TBD: need full-text] ║
+║    Active extraction pool (v4 xlsx)        : n =   480  ✅                  ║
 ║                                                                              ║
 ║  Full-text excluded (reasons after extraction — TBD):                       ║
 ║    • No calculable r / convertible stat    : [TBD]                         ║
