@@ -29,6 +29,60 @@ except ImportError:
     FUZZY_LIB = "difflib"
 
 
+# ── Code harmonization: legacy → new schema ───────────────────────────────────
+# Legacy existing database codes → standardized numeric codes for metafor
+#
+# ICRV: Roman → integer 1-6
+#   I   → 1 (Advanced: USA, UK, Germany, Japan, Korea, Taiwan)
+#   II  → 1 (Smaller Advanced: Italy, Spain; some Transition: Poland → conservatively 1)
+#   III → 2 (Emerging/Developing: China, India, Mexico, Brazil)
+#   MX  → 0 (Multi-country mixed — kept separate; use as multi dummy in MARA)
+#   FR  → 6 (Frontier/LDC)
+ICRV_LEGACY = {"I": "1", "II": "1", "III": "2", "MX": "0", "FR": "6", "": ""}
+
+# DPL: named phase → integer 1-3
+#   PRE → 1 (pre-2000 publications)
+#   SPN → 2 (2000-2009, digital spawn phase)
+#   FOL → 3 (2010+, digital follow-on / platform maturity phase)
+DPL_LEGACY = {"PRE": "1", "SPN": "2", "FOL": "3", "": ""}
+
+# cDAI: categorical → midpoint continuous proxy (pending World Bank data lookup)
+#   L → 0.25 (low digital adoption proxy)
+#   M → 0.50 (medium)
+#   H → 0.75 (high)
+CDAI_LEGACY = {"L": "0.25", "M": "0.50", "H": "0.75", "": ""}
+
+# doi_type: legacy → new
+DOI_TYPE_LEGACY = {
+    "FSTS": "FSTS", "EXP": "export_ratio", "GEO": "geographic_diversification",
+    "COMP": "DOI", "FDI": "FDI", "OTH": "other", "": ""
+}
+
+# fp_type: legacy → new
+FP_TYPE_LEGACY = {
+    "ACC": "financial_perf", "MKT": "Tobin_Q", "MIX": "financial_perf",
+    "LAB": "labor_productivity", "": ""
+}
+
+
+def harmonize_row(row: dict, source: str = "existing") -> dict:
+    """Translate legacy codes to standardized schema. Adds _std columns."""
+    if source == "existing":
+        row["icrv_std"]     = ICRV_LEGACY.get(row.get("icrv", ""), row.get("icrv", ""))
+        row["dpl_std"]      = DPL_LEGACY.get(row.get("dpl", ""), row.get("dpl", ""))
+        row["cdai_std"]     = CDAI_LEGACY.get(row.get("cdai", ""), row.get("cdai", ""))
+        row["doi_type_std"] = DOI_TYPE_LEGACY.get(row.get("doi_type", ""), row.get("doi_type", ""))
+        row["fp_type_std"]  = FP_TYPE_LEGACY.get(row.get("fp_type", ""), row.get("fp_type", ""))
+    else:
+        # New template already uses standardized codes
+        row["icrv_std"]     = row.get("icrv", "")
+        row["dpl_std"]      = row.get("dpl", "")
+        row["cdai_std"]     = row.get("cdai", "")
+        row["doi_type_std"] = row.get("doi_type", "")
+        row["fp_type_std"]  = row.get("fp_type", "")
+    return row
+
+
 def title_similarity(a: str, b: str) -> float:
     a = a.lower().strip()
     b = b.lower().strip()
@@ -57,6 +111,10 @@ def main():
 
     existing_rows = list(csv.DictReader(open(args.existing, encoding="utf-8")))
     new_rows      = list(csv.DictReader(open(args.new,      encoding="utf-8")))
+
+    # Harmonize legacy codes in existing database
+    for r in existing_rows:
+        harmonize_row(r, source="existing")
 
     # Build DOI index of existing studies
     existing_dois = set()
@@ -99,6 +157,7 @@ def main():
 
         if not is_dup:
             row["merge_status"] = "new"
+            harmonize_row(row, source="new")
             accepted.append(row)
 
     # Append accepted to existing
@@ -133,6 +192,15 @@ def main():
         print(f"\nNew k = {len(all_rows)} (was {len(existing_rows)})")
     else:
         print("\nNo new studies added — all candidates were duplicates.")
+
+    print()
+    print("NOTE: Legacy codes translated to *_std columns:")
+    print("  icrv_std   : I→1, II→1, III→2, MX→0(multi), FR→6")
+    print("  dpl_std    : PRE→1, SPN→2, FOL→3")
+    print("  cdai_std   : L→0.25, M→0.50, H→0.75 (proxy; replace with WB DAI)")
+    print("  doi_type_std, fp_type_std: see mapping in script header")
+    print()
+    print("Run MARA with icrv_std, dpl_std, cdai_std columns (not raw icrv/dpl/cdai)")
 
 
 if __name__ == "__main__":
