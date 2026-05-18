@@ -2,7 +2,9 @@
 """
 Script 25: Round-5 UNSURE resolution using OpenAlex-fetched abstracts.
 
-Input : openalex_unsure_r4_abstracts_20260519.csv (87 rows, from script 24)
+Input (normal mode):    openalex_unsure_r4_abstracts_20260519.csv  (from script 24)
+Input (--title-only):   unsure_still_round4_20260518.csv           (direct fallback)
+
 Output: unsure_resolved_round5_Y_YYYYMMDD.csv
         unsure_resolved_round5_N_YYYYMMDD.csv
         unsure_still_round5_YYYYMMDD.csv          ← need manual review
@@ -11,14 +13,19 @@ Output: unsure_resolved_round5_Y_YYYYMMDD.csv
 Resolution logic (applied to title+abstract combined):
   1. HARD_EXCL (→ N) — checked first; takes priority over everything
   2. STRONG_INCL (→ Y)
-  3. Composite: INTL_SIGNAL + PERF_SIGNAL + UNIT_SIGNAL → Y
-  4. SOFT_EXCL (→ N) — only if no INCL match
+  3. Composite: INTL_SIGNAL + PERF_SIGNAL + UNIT_SIGNAL → Y (only if abstract available)
+  4. SOFT_EXCL (→ N) — only if no INCL match and abstract available
   5. Else → still UNSURE (need manual full-text review)
 
 Abstract text enables much finer discrimination than title alone.
+
+--title-only flag: skip OpenAlex input requirement; run on round-4 UNSURE
+  titles only (abstract = '').  Resolves title-conclusive cases now; leaves
+  abstract-ambiguous papers as UNSURE for the full abstract pass later.
+  Overwrites the same output files so a full re-run supersedes title-only results.
 """
 
-import csv, re, pathlib
+import argparse, csv, re, pathlib
 from collections import defaultdict
 
 BASE  = pathlib.Path(__file__).parent
@@ -43,7 +50,7 @@ HARD_EXCL = [
     (re.compile(r"\bfirm\s+(?:size|age|experience)\s+and\s+(?:export|internation)\b", re.I), "HARD:ant:size_age_export"),
     (re.compile(r"\bselection\s+into\s+(?:export|global|international)\b", re.I), "HARD:ant:selection_into"),
     (re.compile(r"\bself.selection\b.{0,60}export", re.I), "HARD:ant:self_selection_export"),
-    (re.compile(r"\blearning.by.exporting\b|\blearning\s+to\s+export\b", re.I), "HARD:ant:learning_by_exporting"),
+    (re.compile(r"\blearning.by.exporting\b|\blearning\s+to\s+export\b|\blearn\w*\s+by\s+exporting\b", re.I), "HARD:ant:learning_by_exporting"),
     # ── DV = innovation ────────────────────────────────────────────────────────
     (re.compile(r"\binnovation\s+(?:performance|output|activity|capability|behavior)\b", re.I), "HARD:DV:innov_perf"),
     (re.compile(r"\bpatent(?:s|ing)?\s+(?:output|count|application|intensity)\b", re.I), "HARD:DV:patents"),
@@ -59,7 +66,7 @@ HARD_EXCL = [
     (re.compile(r"\b(?:gdp|gnp|national\s+income|economic\s+growth)\s+(?:and|of)\s+(?:export|trade|fdi)\b", re.I), "HARD:macro:gdp_trade"),
     (re.compile(r"\bcountry.level\s+(?:data|analysis|study|evidence)\b", re.I), "HARD:macro:country_level"),
     (re.compile(r"\b(?:industry|sector).level\s+(?:data|analysis)\b.{0,50}(?:export|trade|fdi)\b", re.I), "HARD:macro:industry_level"),
-    (re.compile(r"\bspillover\s+effect\s+of\s+fdi\b", re.I), "HARD:macro:fdi_spillover"),
+    (re.compile(r"\bspillover\s+effects?\s+of\s+(?:fdi|foreign\s+direct\s+invest)", re.I), "HARD:macro:fdi_spillover"),
     (re.compile(r"\btrade\s+openness\s+and\s+(?:gdp|growth|develop)\b", re.I), "HARD:macro:trade_openness_gdp"),
     # ── qualitative / conceptual ──────────────────────────────────────────────
     (re.compile(r"\b(?:qualitative|case\s+study|interview|grounded\s+theory|narrative)\s+(?:research|approach|method|study)\b", re.I), "HARD:method:qualitative"),
@@ -72,6 +79,22 @@ HARD_EXCL = [
     (re.compile(r"\blocation\s+(?:choice|selection|decision)\s+of\s+(?:fdi|mne|subsidiary|offshore)\b", re.I), "HARD:strat:location_choice"),
     (re.compile(r"\bentry\s+mode\s+(?:choice|selection|decision)\b", re.I), "HARD:strat:entry_mode"),
     (re.compile(r"\bwholly.owned\s+subsidiary\s+vs\s+joint\s+venture\b", re.I), "HARD:strat:ownership_structure"),
+    # ── eco-innovation plural form (singular already in R4; plural missed) ───
+    (re.compile(r"\beco.innovation(?:s|al)?\b", re.I), "HARD:DV:eco_innov_plural"),
+    # ── proactive environmental strategy as DV ────────────────────────────────
+    (re.compile(r"\bproactive\s+environmental\s+strateg", re.I), "HARD:DV:proactive_env_strat"),
+    # ── effects of internationalisation ON innovation (explicit innovation DV)
+    (re.compile(r"\beffects?\s+of\s+internation\w*\s+on\s+innovation", re.I), "HARD:DV:intl_on_innovation"),
+    # ── absorptive capacity FROM FDI (capability DV, not financial performance)
+    (re.compile(r"\babsorptive\s+capacity\s+from\s+(?:fdi|foreign\s+direct)", re.I), "HARD:DV:absorptive_cap_fdi"),
+    # ── export + financial constraints (antecedent: constraints → export) ────
+    (re.compile(r"exports?\b.{0,80}financial\s+constraints?|financial\s+constraints?.{0,80}\bexports?\b", re.I), "HARD:ant:export_financial_constraints"),
+    # ── internationalisation AND innovation intensities (dual-DV, not I→P) ───
+    (re.compile(r"\binternation\w+\s+and\s+innovation\s+intensit", re.I), "HARD:DV:intl_innov_intensity"),
+    # ── innovation management of internationalised firms (innovation DV) ─────
+    (re.compile(r"\binnovation\s+management\s+of\s+internation", re.I), "HARD:DV:innov_mgmt_intl"),
+    # ── innovation activities + learning processes (non-financial DVs) ───────
+    (re.compile(r"\binnovation\s+activities\b.{0,80}\blearning\s+processes?", re.I), "HARD:DV:innov_activities_learning"),
 ]
 
 STRONG_INCL = [
@@ -98,6 +121,12 @@ STRONG_INCL = [
     # ── explicit r/beta/coefficient reported ─────────────────────────────────
     (re.compile(r"\b(?:pearson\s+r|effect\s+size|regression\s+coefficient|standardized\s+beta|path\s+coefficient)\s*=\s*[-0-9.]", re.I), "SI:effect_size_reported"),
     (re.compile(r"\bcorrelation\s+matrix\b|\bpath\s+analysis\b.{0,40}(?:export|internation)\b", re.I), "SI:correlation_matrix"),
+    # ── born-global + performance (title alone is decisive) ──────────────────
+    (re.compile(r"\bborn.global\w*.{0,60}\bperform\w*\b", re.I), "SI:born_global_perf"),
+    # ── efficiency and exports (I→P: export status/intensity → efficiency) ───
+    (re.compile(r"\befficiency\s+and\s+exports?\b|\bexports?\s+and\s+(?:firm\s+)?efficienc", re.I), "SI:efficiency_exports"),
+    # ── effects on (SME) growth with export/internation context ─────────────
+    (re.compile(r"(?:exports?|internation\w*|trade).{0,60}effects?\s+on\s+(?:sme\s+)?(?:growth|perform)\b|effects?\s+on\s+(?:sme\s+)?(?:growth|perform)\b.{0,60}(?:exports?|internation\w*|trade)", re.I), "SI:effects_on_growth_exports"),
 ]
 
 # Composite signals (need INTL + PERF + UNIT to → Y)
@@ -176,17 +205,40 @@ def resolve(title: str, abstract: str) -> tuple[str, str]:
 # ─── main ─────────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    print("Script 25 — Round-5 abstract-level UNSURE resolution")
+    parser = argparse.ArgumentParser(description="Script 25 — Round-5 UNSURE resolution")
+    parser.add_argument("--title-only", action="store_true",
+                        help="Use round-4 UNSURE file directly (no abstract needed). "
+                             "Resolves title-conclusive cases; leaves the rest for the "
+                             "full abstract pass after running script 24.")
+    args = parser.parse_args()
 
-    if not INPUT.exists():
-        raise SystemExit(f"Input not found: {INPUT}\nRun script 24 first.")
+    title_only = args.title_only
+    mode_label = "TITLE-ONLY" if title_only else "ABSTRACT"
+    print(f"Script 25 — Round-5 UNSURE resolution [{mode_label} mode]")
 
-    with open(INPUT, newline="", encoding="utf-8") as f:
-        rows = list(csv.DictReader(f))
-    print(f"  Input rows : {len(rows)}")
+    if title_only:
+        fallback_input = RES / f"unsure_still_round4_20260518.csv"
+        if not fallback_input.exists():
+            raise SystemExit(f"Fallback input not found: {fallback_input}")
+        with open(fallback_input, newline="", encoding="utf-8") as f:
+            base_rows = list(csv.DictReader(f))
+        rows = []
+        for r in base_rows:
+            rows.append({**r, "abstract": "", "openalex_id": "", "pdf_url": ""})
+        print(f"  Input (title-only fallback): {fallback_input.name}")
+        print(f"  Input rows : {len(rows)}")
+        print(f"  Note: abstract='' for all rows; composite (step 3) will be skipped.")
+    else:
+        if not INPUT.exists():
+            raise SystemExit(f"Input not found: {INPUT}\nRun script 24 first, "
+                             "or use --title-only for partial title-based resolution.")
+        with open(INPUT, newline="", encoding="utf-8") as f:
+            rows = list(csv.DictReader(f))
+        print(f"  Input rows : {len(rows)}")
 
     has_abstract = sum(1 for r in rows if str(r.get("abstract","") or "").strip())
-    print(f"  With abstract: {has_abstract}/{len(rows)}")
+    if not title_only:
+        print(f"  With abstract: {has_abstract}/{len(rows)}")
 
     y_rows = []
     n_rows = []
@@ -197,7 +249,8 @@ def main() -> None:
         abstract = str(r.get("abstract", "") or "")
         decision, reason = resolve(title, abstract)
         r["round5_decision"] = decision
-        r["round5_reason"]   = reason
+        # Tag title-only decisions so the full abstract pass can overwrite them
+        r["round5_reason"]   = (reason + ":TITLE_ONLY") if (title_only and reason) else reason
 
     for r in rows:
         d = r["round5_decision"]
