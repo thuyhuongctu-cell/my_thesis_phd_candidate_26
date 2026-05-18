@@ -85,7 +85,7 @@
 
 | Item | PRISMA 2020 Requirement | Location in Manuscript | Status |
 |------|------------------------|------------------------|--------|
-| 26 | **Registration and protocol**: Provide registration information for the review, including register name and registration number. | §3.1: "Pre-registration on the Open Science Framework (OSF)… registration identifier will be inserted at acceptance" | ⚠️ Insert actual OSF registration ID before submission |
+| 26 | **Registration and protocol**: Provide registration information for the review, including register name and registration number. | §3.1: "Pre-registered on OSF prior to effect-size extraction: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN; registered May 18, 2026)" | ✅ Complete |
 | 27 | **Support**: Describe sources of financial support for the review, and the role of the funders or sponsors. | §Funding: "This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors." | ✅ Complete |
 | 28* | **Competing interests**: Declare any competing interests among the reviewers. | §Competing Interests: "The authors declare no conflict of interest." | ✅ Complete |
 | 29* | **Data availability**: Report where the data, analytic code, and other materials associated with the review can be accessed. | §Data Availability: "The coded study database (forest_data.csv), R analysis scripts (metafor), and the OSF pre-registration protocol are available from the corresponding author upon reasonable request. The PRISMA 2020 checklist is provided as supplementary material." | ✅ Complete |
@@ -108,7 +108,7 @@
 2. **Item 11**: Add one sentence to §3 acknowledging no study-level risk-of-bias tool was applied and why (standard in I→P meta-analysis)
 3. **Item 17**: Add Table S1 (supplementary) listing all *k* studies with study characteristics — title, author, year, country, N, DOI measure, performance measure, r, ICRV code, cDAI category, DPL phase
 4. **Item 24**: Confirm §5/§6 contains explicit limitations paragraph (check content)
-5. **Item 26**: Insert actual OSF registration identifier (e.g., `osf.io/XXXXX`)
+5. **Item 26**: ✅ OSF registration complete — https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN; May 18, 2026)
 6. **Items 27–29**: Add before submission:
    - Funding acknowledgement (e.g., CTU research fund, or "This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.")
    - Competing interests ("The authors declare no conflict of interest.")

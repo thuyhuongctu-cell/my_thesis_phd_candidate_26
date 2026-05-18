@@ -148,7 +148,7 @@ An equivalent string using Scopus field codes (TITLE-ABS-KEY) was applied identi
 
 **Temporal coverage.** January 1977 — March 2026. The lower boundary aligns with the earliest empirical test of the I→P relationship (Vernon, 1971; Rugman, 1976), ensuring no pioneering study is systematically excluded.
 
-**OSF pre-registration.** The full protocol — including the search string, eligibility decision rules, moderator coding instructions, and planned metafor model specifications — was registered on OSF prior to database access. The registration identifier will be inserted at acceptance; the protocol document is available from the corresponding author.
+**OSF pre-registration.** The full protocol — including the search string, eligibility decision rules, moderator coding instructions, and planned metafor model specifications — was pre-registered on OSF prior to effect-size extraction (PRISMA 2020, Item 24a): https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN; registered May 18, 2026).
 
 ### 3.2 Eligibility Criteria and Study Selection
 
