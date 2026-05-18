@@ -136,7 +136,7 @@ Query chính (WoS Advanced Search, Topic Search):
 
 > `TS=("internationalization" OR "internationalisation" OR "multinationality" OR "degree of internationalization" OR "export intensity" OR "foreign sales ratio" OR "FSTS") AND TS=("firm performance" OR "labor productivity" OR "labour productivity" OR "profitability" OR "return on assets" OR "Tobin") AND TS=(correlation OR regression OR "effect size")`
 
-Kết quả đã xác nhận cho WoS arm: WoS = 2,180 records, ngày search/API 18/05/2026; sau deduplication nội bộ WoS còn 2,179 records. Scopus, OpenAlex và các database bổ sung còn ở trạng thái pending do cần institutional access hoặc chạy script trên máy có mạng. Vì vậy, P6 hiện report hai tầng bằng chứng: (i) **coded baseline** đã đủ để chạy MARA, k = 237, K = 287; và (ii) **formal-search expansion pool** từ WoS, trong đó 550 records được đưa vào L2 Y/title-eligible và 524 records thuộc active extraction pool (v7, sau R5 title-only pass ngày 19/05/2026).
+Kết quả đã xác nhận cho WoS arm: WoS = 2,180 records, ngày search/API 18/05/2026; sau deduplication nội bộ WoS còn 2,179 records. Scopus, OpenAlex và các database bổ sung còn ở trạng thái pending do cần institutional access hoặc chạy script trên máy có mạng. Vì vậy, P6 hiện report hai tầng bằng chứng: (i) **coded baseline** đã đủ để chạy MARA, k = 237, K = 287; và (ii) **formal-search expansion pool** từ WoS, trong đó 554 records được đưa vào L2 Y/title-eligible (550 sau R4 + 4 từ R5 title-only pass 19/05/2026) và 524 records thuộc active extraction pool v7.
 
 **Tìm kiếm bổ sung**: (1) Backward citation scan của 5 meta-analyses lớn (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) — quét toàn bộ reference lists; (2) Tìm kiếm bổ sung trên ABI/INFORM Complete, Business Source Complete, ScienceDirect, SpringerLink, và Emerald Insight để bao phủ các tạp chí chuyên ngành không có đầy đủ trên WoS/Scopus; (3) Hand-search nghiên cứu của nhóm tác giả về I→P (2020–2026); (4) Forward citation search qua Google Scholar cho 5 anchor studies (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022).
 
@@ -264,8 +264,8 @@ Funnel plot kiểm tra visually. Nếu asymmetry có ý nghĩa, report cả unad
 - Identified from WoS: n = 2,180 records (API/search date: 18/05/2026); Scopus/OpenAlex/supplementary databases pending.
 - After WoS deduplication: n = 2,179 records (1 duplicate removed).
 - L1 keyword pre-screen: n = 782 advanced to L2; n = 1,397 excluded at L1.
-- L2 title screen and re-screening: total L2 Y/title-eligible = n = 550; still UNSURE requiring abstract/full-text = n = 72 (after R5 title-only pass 19/05/2026: 4Y+11N resolved from original 87).
-- Eligibility/extraction pool: active extraction worklist v7 = n = 524 records; high-priority extraction = n = 159; DOI available = n = 354.
+- L2 title screen and re-screening: total L2 Y/title-eligible = n = 554 (345 initial + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5); still UNSURE requiring abstract/full-text = n = 72 (after R5 title-only pass 19/05/2026: 4Y+11N resolved from original 87).
+- Eligibility/extraction pool: active extraction worklist v7 = n = 524 records; high-priority extraction = n = 159; DOI available = n = 371.
 - Included in current MARA baseline: k = 237 studies / K = 287 effect sizes / N = 257,565.
 
 **Phân phối theo moderator trong coded baseline**:
@@ -499,7 +499,7 @@ P6 UPDATED cung cấp baseline tổng hợp đầy đủ nhất cho Chương 4.1
 
 ## Ghi chú hoàn thiện P6 v2.0 — tình trạng dữ liệu ngày 19/05/2026
 
-Bản này đã chuyển P6 từ trạng thái manuscript có nhiều `[TBD]` sang bản **có thể dùng để bảo vệ/trao đổi với GVHD** theo nguyên tắc không điền số liệu chưa được xác nhận. Các thông tin đã xác nhận gồm: WoS arm n = 2,180; WoS after dedup n = 2,179; L1 advanced n = 782; L1 excluded n = 1,397; L2 Y/title-eligible n = 550; active extraction worklist v7 n = 524 (sau R5 title-only pass 19/05/2026: 4Y+11N resolved từ 87 UNSURE ban đầu, còn 72 UNSURE); coded baseline k = 237, K = 287, N = 257,565. Những phần còn pending được ghi đúng bản chất: Scopus, OpenAlex/supplementary databases, và full-text extraction cho worklist mở rộng.
+Bản này đã chuyển P6 từ trạng thái manuscript có nhiều `[TBD]` sang bản **có thể dùng để bảo vệ/trao đổi với GVHD** theo nguyên tắc không điền số liệu chưa được xác nhận. Các thông tin đã xác nhận gồm: WoS arm n = 2,180; WoS after dedup n = 2,179; L1 advanced n = 782; L1 excluded n = 1,397; L2 Y/title-eligible n = 554 (345+135+30+25+15+4); active extraction worklist v7 n = 524 (sau R5 title-only pass 19/05/2026: 4Y+11N resolved từ 87 UNSURE ban đầu, còn 72 UNSURE); coded baseline k = 237, K = 287, N = 257,565. Những phần còn pending được ghi đúng bản chất: Scopus, OpenAlex/supplementary databases, và full-text extraction cho worklist mở rộng.
 
 Về mặt học thuật, P6 hiện có ba lớp bằng chứng riêng biệt: (1) **coded baseline** dùng để chạy MARA và báo cáo kết quả; (2) **formal-search expansion pool** dùng để mở rộng số nghiên cứu sau khi tải full-text; và (3) **PRISMA audit trail** dùng để chứng minh quá trình nhận diện/sàng lọc theo PRISMA 2020. Khi có full PDF cho các records trong worklist, chỉ cần cập nhật `r`, `n`, `sample period`, `DOI measure`, `FP measure`, rồi rerun `p6/scripts/p6_three_level_mara.R` để thay thế kết quả baseline.
 
@@ -630,13 +630,13 @@ L2 title screen and re-screening:
   R3 resolved Y: n = 25
   R4 resolved Y: n = 15
   R5 title-only pass (19/05/2026): n = 4
-  Total L2 Y/title-eligible: n = 550
+  Total L2 Y/title-eligible: n = 554 (345+135+30+25+15+4)
   Still UNSURE after R5 title-only: n = 72
 
 ELIGIBILITY / EXTRACTION
 Active extraction worklist v7: n = 524
 High-priority extraction records: n = 159
-DOI available in worklist v7: n = 354
+DOI available in worklist v7: n = 371
 Full-text exclusions: pending after PDF extraction
 
 INCLUDED
