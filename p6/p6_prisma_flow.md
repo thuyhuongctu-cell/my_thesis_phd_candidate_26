@@ -16,7 +16,7 @@
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║  Records identified from electronic databases:                               ║
-║  • Web of Science Core Collection    [n = TBD — cần institutional access]   ║
+║  • Web of Science Core Collection    [n = 2,180 ✅ — API 18/05/2026]        ║
 ║  • Scopus                            [n = TBD — cần institutional access]   ║
 ║  • OpenAlex (free, global coverage)  [n = TBD — chạy p6/tools/openalex_    ║
 ║                                       prisma_search.py trên máy có mạng]   ║
@@ -36,14 +36,14 @@
 ║  • Forward citation search (Google Scholar, 5 anchors) [n = TBD]            ║
 ║  • Hand-search (author papers, 2024–26)    [n = 19]                         ║
 ║                                                                              ║
-║  TOTAL RECORDS IDENTIFIED: [N = TBD]                                        ║
+║  TOTAL RECORDS IDENTIFIED: [N = TBD — WoS confirmed: 2,180; Scopus TBD]    ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
-                              ▼ Remove duplicates [n = TBD]
+                              ▼ Remove duplicates [n = TBD; WoS-only: 1]
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                     SCREENING — Level 1 (Title/Abstract)                    ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║  Records after deduplication: [n = TBD]                                      ║
+║  Records after deduplication: [n = TBD; WoS-only: 2,179]                    ║
 ║  Records excluded (title/abstract screen): [n = TBD]                        ║
 ║  Reasons:                                                                    ║
 ║    • Not examining I→P relationship: [n = TBD]                              ║
