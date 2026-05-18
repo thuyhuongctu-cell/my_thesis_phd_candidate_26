@@ -2,7 +2,7 @@
 
 > **NCS**: Đỗ Thùy Hương · **HD**: PGS.TS. Phan Anh Tú
 >
-> **Phiên bản hoàn thiện P6 v2.0 (19/05/2026)** — cập nhật theo database hiện có: k=237 studies, K=287 effect sizes, tổng cỡ mẫu N=257,565, coverage năm công bố 1978–2026; tích hợp PRISMA WoS arm ngày 18/05/2026 và worklist extraction v8 (R6 title-only pass: +8 records).
+> **Phiên bản hoàn thiện P6 v2.0 (19/05/2026)** — cập nhật theo database hiện có: k=237 studies, K=287 effect sizes, tổng cỡ mẫu N=257,565, coverage năm công bố 1978–2026; tích hợp PRISMA WoS arm ngày 18/05/2026, worklist extraction v9 (R8 WebSearch pass: +3 records; tất cả 10 UNSURE đã giải quyết).
 >
 > **Database**: `p6/p6_primary_studies_apa7.md` (S001–S237+) · `p6/p6_study_database_coded.md`
 >
@@ -136,7 +136,7 @@ Query chính (WoS Advanced Search, Topic Search):
 
 > `TS=("internationalization" OR "internationalisation" OR "multinationality" OR "degree of internationalization" OR "export intensity" OR "foreign sales ratio" OR "FSTS") AND TS=("firm performance" OR "labor productivity" OR "labour productivity" OR "profitability" OR "return on assets" OR "Tobin") AND TS=(correlation OR regression OR "effect size")`
 
-Kết quả đã xác nhận cho WoS arm: WoS = 2,180 records, ngày search/API 18/05/2026; sau deduplication nội bộ WoS còn 2,179 records. Scopus, OpenAlex và các database bổ sung còn ở trạng thái pending do cần institutional access hoặc chạy script trên máy có mạng. Vì vậy, P6 hiện report hai tầng bằng chứng: (i) **coded baseline** đã đủ để chạy MARA, k = 237, K = 287; và (ii) **formal-search expansion pool** từ WoS, trong đó 562 records được đưa vào L2 Y/title-eligible (550 sau R4 + 4 từ R5 + 8 từ R6 title-only pass 19/05/2026) và 532 records thuộc active extraction pool v8.
+Kết quả đã xác nhận cho WoS arm: WoS = 2,180 records, ngày search/API 18/05/2026; sau deduplication nội bộ WoS còn 2,179 records. Scopus, OpenAlex và các database bổ sung còn ở trạng thái pending do cần institutional access hoặc chạy script trên máy có mạng. Vì vậy, P6 hiện report hai tầng bằng chứng: (i) **coded baseline** đã đủ để chạy MARA, k = 237, K = 287; và (ii) **formal-search expansion pool** từ WoS, trong đó 565 records được đưa vào L2 Y/title-eligible (550 sau R4 + 4 từ R5 + 8 từ R6 + 3 từ R8 WebSearch pass 19/05/2026) và 535 records thuộc active extraction pool v9 — tất cả 10 UNSURE đã được giải quyết.
 
 **Tìm kiếm bổ sung**: (1) Backward citation scan của 5 meta-analyses lớn (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) — quét toàn bộ reference lists; (2) Tìm kiếm bổ sung trên ABI/INFORM Complete, Business Source Complete, ScienceDirect, SpringerLink, và Emerald Insight để bao phủ các tạp chí chuyên ngành không có đầy đủ trên WoS/Scopus; (3) Hand-search nghiên cứu của nhóm tác giả về I→P (2020–2026); (4) Forward citation search qua Google Scholar cho 5 anchor studies (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022).
 
@@ -264,8 +264,8 @@ Funnel plot kiểm tra visually. Nếu asymmetry có ý nghĩa, report cả unad
 - Identified from WoS: n = 2,180 records (API/search date: 18/05/2026); Scopus/OpenAlex/supplementary databases pending.
 - After WoS deduplication: n = 2,179 records (1 duplicate removed).
 - L1 keyword pre-screen: n = 782 advanced to L2; n = 1,397 excluded at L1.
-- L2 title screen and re-screening: total L2 Y/title-eligible = n = 562 (345 initial + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6); still UNSURE requiring abstract/full-text = n = 10 (after R7 title-only pass 19/05/2026: 0Y+8N resolved from 18; abstracts required for remaining 10).
-- Eligibility/extraction pool: active extraction worklist v8 = n = 532 records; high-priority extraction = n = 166; DOI available = n = 378.
+- L2 title screen and re-screening: total L2 Y/title-eligible = n = 565 (345 initial + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6 + 0 R7 + 3 R8); still UNSURE = n = 0 (after R8 WebSearch pass 19/05/2026: 3Y+7N resolved from 10; all UNSURE fully resolved).
+- Eligibility/extraction pool: active extraction worklist v9 = n = 535 records; high-priority extraction = n = 166; DOI available = n = 378.
 - Included in current MARA baseline: k = 237 studies / K = 287 effect sizes / N = 257,565.
 
 **Phân phối theo moderator trong coded baseline**:
@@ -499,7 +499,7 @@ P6 UPDATED cung cấp baseline tổng hợp đầy đủ nhất cho Chương 4.1
 
 ## Ghi chú hoàn thiện P6 v2.0 — tình trạng dữ liệu ngày 19/05/2026
 
-Bản này đã chuyển P6 từ trạng thái manuscript có nhiều `[TBD]` sang bản **có thể dùng để bảo vệ/trao đổi với GVHD** theo nguyên tắc không điền số liệu chưa được xác nhận. Các thông tin đã xác nhận gồm: WoS arm n = 2,180; WoS after dedup n = 2,179; L1 advanced n = 782; L1 excluded n = 1,397; L2 Y/title-eligible n = 562 (345+135+30+25+15+4+8); active extraction worklist v8 n = 532 (sau R6 title-only pass 19/05/2026: 8Y+46N resolved từ 72 UNSURE, còn 18 UNSURE; sau R7 title-only pass 19/05/2026: 0Y+8N, còn 10 UNSURE cần abstract); coded baseline k = 237, K = 287, N = 257,565. Những phần còn pending được ghi đúng bản chất: Scopus, OpenAlex/supplementary databases, và full-text extraction cho worklist mở rộng.
+Bản này đã chuyển P6 từ trạng thái manuscript có nhiều `[TBD]` sang bản **có thể dùng để bảo vệ/trao đổi với GVHD** theo nguyên tắc không điền số liệu chưa được xác nhận. Các thông tin đã xác nhận gồm: WoS arm n = 2,180; WoS after dedup n = 2,179; L1 advanced n = 782; L1 excluded n = 1,397; L2 Y/title-eligible n = 565 (345+135+30+25+15+4+8+0+3); active extraction worklist v9 n = 535 (R8 WebSearch pass 19/05/2026: 3Y+7N resolved từ 10 UNSURE còn lại — tất cả UNSURE đã được giải quyết, còn 0); coded baseline k = 237, K = 287, N = 257,565. Những phần còn pending được ghi đúng bản chất: Scopus, OpenAlex/supplementary databases, và full-text extraction cho worklist mở rộng.
 
 Về mặt học thuật, P6 hiện có ba lớp bằng chứng riêng biệt: (1) **coded baseline** dùng để chạy MARA và báo cáo kết quả; (2) **formal-search expansion pool** dùng để mở rộng số nghiên cứu sau khi tải full-text; và (3) **PRISMA audit trail** dùng để chứng minh quá trình nhận diện/sàng lọc theo PRISMA 2020. Khi có full PDF cho các records trong worklist, chỉ cần cập nhật `r`, `n`, `sample period`, `DOI measure`, `FP measure`, rồi rerun `p6/scripts/p6_three_level_mara.R` để thay thế kết quả baseline.
 
@@ -632,13 +632,14 @@ L2 title screen and re-screening:
   R5 title-only pass (19/05/2026): n = 4
   R6 title-only pass (19/05/2026): n = 8
   R7 title-only pass (19/05/2026): n = 0 Y (8N resolved — book chapters, single cases, antecedent DVs)
-  Total L2 Y/title-eligible: n = 562 (345+135+30+25+15+4+8)
-  Still UNSURE after R7 title-only: n = 10 (abstract required; R7: 0Y+8N resolved from 18)
+  R8 WebSearch pass (19/05/2026): n = 3 Y, 7 N (S0129 India Born Globals I->P; S0240 SME I->P OL mediator; S0683 Latin America multinationality->perf)
+  Total L2 Y/title-eligible: n = 565 (345+135+30+25+15+4+8+0+3)
+  Still UNSURE after R8: n = 0 (ALL RESOLVED)
 
 ELIGIBILITY / EXTRACTION
-Active extraction worklist v8: n = 532
+Active extraction worklist v9: n = 535
 High-priority extraction records: n = 166
-DOI available in worklist v8: n = 378
+DOI available in worklist v9: n = 378
 Full-text exclusions: pending after PDF extraction
 
 INCLUDED
@@ -680,4 +681,4 @@ Diễn giải: sơ đồ trên là **current PRISMA audit state**, không phải
 
 ---
 
-*Bản thảo v2.0 (19/05/2026). NCS: Đỗ Thùy Hương. HD: PGS.TS. Phan Anh Tú. Trường Đại học Cần Thơ. Khoa Kinh tế. Chuyên ngành: Quản trị kinh doanh. Kết quả §4 từ `p6_real_mara.R` (K=287, k=237). Database: S001–S237+ (baseline 113 từ ICBEF 2025 + S114–S175 backward scan + S176–S194 author papers + S195–S235 forward/supplementary screen + S236–S238 bổ sung 16/05/2026). Coding database: `p6/p6_study_database_coded.md`; APA citations: `p6/p6_primary_studies_apa7.md`; effect data: `p6/results/forest_data.csv` (K=287); extraction worklist v8: `p6/tools/results/extraction_worklist_v8_20260519.csv` (n=532). OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN). Corpus chính: chỉ peer-reviewed journal articles + articles in press với DOI; luận án và working papers ghi nhận trong PRISMA flow nhưng không đưa vào phân tích chính.*
+*Bản thảo v2.0 (19/05/2026). NCS: Đỗ Thùy Hương. HD: PGS.TS. Phan Anh Tú. Trường Đại học Cần Thơ. Khoa Kinh tế. Chuyên ngành: Quản trị kinh doanh. Kết quả §4 từ `p6_real_mara.R` (K=287, k=237). Database: S001–S237+ (baseline 113 từ ICBEF 2025 + S114–S175 backward scan + S176–S194 author papers + S195–S235 forward/supplementary screen + S236–S238 bổ sung 16/05/2026). Coding database: `p6/p6_study_database_coded.md`; APA citations: `p6/p6_primary_studies_apa7.md`; effect data: `p6/results/forest_data.csv` (K=287); extraction worklist v9: `p6/tools/results/extraction_worklist_v9_20260519.csv` (n=535). OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN). Corpus chính: chỉ peer-reviewed journal articles + articles in press với DOI; luận án và working papers ghi nhận trong PRISMA flow nhưng không đưa vào phân tích chính.*

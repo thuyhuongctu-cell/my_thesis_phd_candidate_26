@@ -1,7 +1,7 @@
 # P6 — PRISMA 2020 Flow Diagram & Search Documentation
 # Meta-Analysis I→P 1977–2026 (Independent Systematic Review)
 
-> **Phiên bản**: v2.7 (19/05/2026)
+> **Phiên bản**: v2.8 (19/05/2026)
 > **Chuẩn áp dụng**: PRISMA 2020 (Page et al., 2021)
 > **Loại**: Fresh/independent meta-analysis (không phải update)
 > **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` §6
@@ -97,10 +97,16 @@
 ║      antecedent-DV, non-business journal, macro unit; 19/05/2026):           ║
 ║    • Resolved Y                            : n =     0                     ║
 ║    • Resolved N                            : n =     8  ✅                  ║
-║    • Still UNSURE (abstract required)      : n =    10  [TBD]              ║
+║    • Still UNSURE                          : n =    10                     ║
 ║                                                                              ║
-║  Total L2 Y (WoS arm)                      : n =   562  ✅                  ║
-║    (345 direct + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6 + 0 R7)     ║
+║  UNSURE re-screen Round 8 (WebSearch abstract pass, 19/05/2026):            ║
+║      I→P eligibility criteria applied to all 10 remaining UNSURE records    ║
+║    • Resolved Y (S0129, S0240, S0683)      : n =     3  ✅                  ║
+║    • Resolved N                            : n =     7  ✅                  ║
+║    • Still UNSURE                          : n =     0  ← ALL RESOLVED ✓   ║
+║                                                                              ║
+║  Total L2 Y (WoS arm)                      : n =   565  ✅                  ║
+║    (345 + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6 + 0 R7 + 3 R8)    ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
                               │
                               ▼ Dedup vs prior DB + extraction
@@ -109,8 +115,8 @@
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Dedup vs. existing k=287:                                                   ║
 ║    Confirmed genuinely new (R1 dedup)      : n =   321  ✅                  ║
-║    Title-confirmed new (R1-R7 pending)     : n =   211  [TBD: need full-text] ║
-║    Active extraction pool (worklist v8)    : n =   532  ✅                  ║
+║    Title-confirmed new (R1-R8)             : n =   214  [TBD: need full-text] ║
+║    Active extraction pool (worklist v9)    : n =   535  ✅                  ║
 ║                                                                              ║
 ║  Full-text excluded (reasons after extraction — TBD):                       ║
 ║    • No calculable r / convertible stat    : [TBD]                         ║
@@ -323,6 +329,7 @@ Current database state (pre-formal-search):
 | v2.5 | 19/05/2026 | R5 title-only: 4Y + 11N; R6 title-only: 8Y + 46N; Total L2 Y: 550→562; worklist v7→v8 (524→532); UNSURE: 87→18 |
 | v2.6 | 19/05/2026 | EN manuscript synced to R6/v8 counts |
 | v2.7 | 19/05/2026 | R7 manual signals: 0Y + 8N; UNSURE: 18→10 (abstract required); both manuscripts updated |
+| v2.8 | 19/05/2026 | R8 WebSearch abstract pass: 3Y + 7N; UNSURE: 10→0 (ALL RESOLVED); L2 Y: 562→565; worklist v8/532→v9/535 |
 
 ---
 
