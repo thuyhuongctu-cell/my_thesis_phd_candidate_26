@@ -264,7 +264,7 @@ Funnel plot kiểm tra visually. Nếu asymmetry có ý nghĩa, report cả unad
 - Identified from WoS: n = 2,180 records (API/search date: 18/05/2026); Scopus/OpenAlex/supplementary databases pending.
 - After WoS deduplication: n = 2,179 records (1 duplicate removed).
 - L1 keyword pre-screen: n = 782 advanced to L2; n = 1,397 excluded at L1.
-- L2 title screen and re-screening: total L2 Y/title-eligible = n = 562 (345 initial + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6); still UNSURE requiring abstract/full-text = n = 18 (after R6 title-only pass 19/05/2026: 8Y+46N resolved from 72).
+- L2 title screen and re-screening: total L2 Y/title-eligible = n = 562 (345 initial + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6); still UNSURE requiring abstract/full-text = n = 10 (after R7 title-only pass 19/05/2026: 0Y+8N resolved from 18; abstracts required for remaining 10).
 - Eligibility/extraction pool: active extraction worklist v8 = n = 532 records; high-priority extraction = n = 166; DOI available = n = 378.
 - Included in current MARA baseline: k = 237 studies / K = 287 effect sizes / N = 257,565.
 
@@ -499,7 +499,7 @@ P6 UPDATED cung cấp baseline tổng hợp đầy đủ nhất cho Chương 4.1
 
 ## Ghi chú hoàn thiện P6 v2.0 — tình trạng dữ liệu ngày 19/05/2026
 
-Bản này đã chuyển P6 từ trạng thái manuscript có nhiều `[TBD]` sang bản **có thể dùng để bảo vệ/trao đổi với GVHD** theo nguyên tắc không điền số liệu chưa được xác nhận. Các thông tin đã xác nhận gồm: WoS arm n = 2,180; WoS after dedup n = 2,179; L1 advanced n = 782; L1 excluded n = 1,397; L2 Y/title-eligible n = 562 (345+135+30+25+15+4+8); active extraction worklist v8 n = 532 (sau R6 title-only pass 19/05/2026: 8Y+46N resolved từ 72 UNSURE, còn 18 UNSURE); coded baseline k = 237, K = 287, N = 257,565. Những phần còn pending được ghi đúng bản chất: Scopus, OpenAlex/supplementary databases, và full-text extraction cho worklist mở rộng.
+Bản này đã chuyển P6 từ trạng thái manuscript có nhiều `[TBD]` sang bản **có thể dùng để bảo vệ/trao đổi với GVHD** theo nguyên tắc không điền số liệu chưa được xác nhận. Các thông tin đã xác nhận gồm: WoS arm n = 2,180; WoS after dedup n = 2,179; L1 advanced n = 782; L1 excluded n = 1,397; L2 Y/title-eligible n = 562 (345+135+30+25+15+4+8); active extraction worklist v8 n = 532 (sau R6 title-only pass 19/05/2026: 8Y+46N resolved từ 72 UNSURE, còn 18 UNSURE; sau R7 title-only pass 19/05/2026: 0Y+8N, còn 10 UNSURE cần abstract); coded baseline k = 237, K = 287, N = 257,565. Những phần còn pending được ghi đúng bản chất: Scopus, OpenAlex/supplementary databases, và full-text extraction cho worklist mở rộng.
 
 Về mặt học thuật, P6 hiện có ba lớp bằng chứng riêng biệt: (1) **coded baseline** dùng để chạy MARA và báo cáo kết quả; (2) **formal-search expansion pool** dùng để mở rộng số nghiên cứu sau khi tải full-text; và (3) **PRISMA audit trail** dùng để chứng minh quá trình nhận diện/sàng lọc theo PRISMA 2020. Khi có full PDF cho các records trong worklist, chỉ cần cập nhật `r`, `n`, `sample period`, `DOI measure`, `FP measure`, rồi rerun `p6/scripts/p6_three_level_mara.R` để thay thế kết quả baseline.
 
@@ -631,8 +631,9 @@ L2 title screen and re-screening:
   R4 resolved Y: n = 15
   R5 title-only pass (19/05/2026): n = 4
   R6 title-only pass (19/05/2026): n = 8
+  R7 title-only pass (19/05/2026): n = 0 Y (8N resolved — book chapters, single cases, antecedent DVs)
   Total L2 Y/title-eligible: n = 562 (345+135+30+25+15+4+8)
-  Still UNSURE after R6 title-only: n = 18 (R6: 8Y+46N resolved from 72)
+  Still UNSURE after R7 title-only: n = 10 (abstract required; R7: 0Y+8N resolved from 18)
 
 ELIGIBILITY / EXTRACTION
 Active extraction worklist v8: n = 532
