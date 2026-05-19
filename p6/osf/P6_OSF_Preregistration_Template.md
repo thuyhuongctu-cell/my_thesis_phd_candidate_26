@@ -4,8 +4,8 @@
 > **Registration type:** Systematic Review & Meta-Analysis (Secondary Data)  
 > **Date prepared:** 2026-05-18  
 > **Prepared by:** Đỗ Thùy Hương, Can Tho University, Vietnam  
-> **OSF Registration ID:** [TO BE INSERTED AFTER SUBMISSION]  
-> **Status:** DRAFT — submit to OSF.io before beginning L2 effect-size extraction
+> **OSF Registration ID:** https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)  
+> **Status:** REGISTERED — submitted 2026-05-18; registration active
 
 ---
 
