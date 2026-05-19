@@ -130,7 +130,7 @@
 ║                     INCLUDED                                                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Studies included in meta-analysis:                                          ║
-║    Prior database (backward scan + hand-search): k = 237, K = 287  ✅       ║
+║    Prior database (backward scan + hand-search): k = 238, K = 288  ✅       ║
 ║    New studies from WoS arm (after extraction) : k = [TBD]                 ║
 ║    New studies from Scopus arm (pending)        : k = [TBD]                 ║
 ║    ──────────────────────────────────────────────────────                    ║
