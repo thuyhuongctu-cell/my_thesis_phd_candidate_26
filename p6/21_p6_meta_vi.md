@@ -2,7 +2,7 @@
 
 > **NCS**: Đỗ Thùy Hương · **HD**: PGS.TS. Phan Anh Tú
 >
-> **Phiên bản hoàn thiện P6 v2.0 (19/05/2026)** — cập nhật theo database hiện có: k=237 studies, K=287 effect sizes, tổng cỡ mẫu N=257,565, coverage năm công bố 1978–2026; tích hợp PRISMA WoS arm ngày 18/05/2026, worklist extraction v9 (R8 WebSearch pass: +3 records; tất cả 10 UNSURE đã giải quyết).
+> **Phiên bản hoàn thiện P6 v2.1 (19/05/2026)** — cập nhật theo database hiện có: k=237 studies, K=287 effect sizes, tổng cỡ mẫu N=257,565, coverage năm công bố 1978–2026; tích hợp PRISMA WoS arm ngày 18/05/2026, worklist extraction v9 (R8 WebSearch pass: +3 records; tất cả 10 UNSURE đã giải quyết); extraction bắt đầu: S0129 extracted (r=0.13, n≈992, ICRV=3, DPL=2); S0483 confirmed N (JIBS counterpoint paper, no empirical I→P data).
 >
 > **Database**: `p6/p6_primary_studies_apa7.md` (S001–S237+) · `p6/p6_study_database_coded.md`
 >
@@ -266,6 +266,7 @@ Funnel plot kiểm tra visually. Nếu asymmetry có ý nghĩa, report cả unad
 - L1 keyword pre-screen: n = 782 advanced to L2; n = 1,397 excluded at L1.
 - L2 title screen and re-screening: total L2 Y/title-eligible = n = 565 (345 initial + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6 + 0 R7 + 3 R8); still UNSURE = n = 0 (after R8 WebSearch pass 19/05/2026: 3Y+7N resolved from 10; all UNSURE fully resolved).
 - Eligibility/extraction pool: active extraction worklist v9 = n = 535 records; high-priority extraction = n = 166; DOI available = n = 378.
+- **Extraction status (19/05/2026)**: 1 record fully extracted — S0129 (Srividhya & Vidya 2024, JEI): r=0.13**, n≈992 panel firm-yrs, ICRV=3 (India), DPL=2, doi_type=fsts, fp_type=roa; S0483 (Hutzschenreuter & Matt 2017, JIBS) confirmed N — JIBS Counterpoint/theoretical paper, no empirical I→P relationship.
 - Included in current MARA baseline: k = 237 studies / K = 287 effect sizes / N = 257,565.
 
 **Phân phối theo moderator trong coded baseline**:
