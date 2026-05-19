@@ -391,9 +391,11 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 237 studies, K = 287 effects)
+## 5. Tóm tắt Phân phối Moderator (k = 237 studies S01–S237; S238 added to forest_data directly → total k = 238, K = 288 in MARA)
 
-> *Cập nhật 16/05/2026: k=237. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). S238 = Cho & Lee (2018) confirmed duplicate of S85 (same paper, same r=−0.029, same n=232; removed — cDAI corrected to H at S85). Table rows S01–S237 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` (K=287 rows) để có số liệu chính xác theo effect.*
+> *Cập nhật 16/05/2026: k=237. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). S238 = Cho & Lee (2018) confirmed duplicate of S85 (same paper, same r=−0.029, same n=232; removed — cDAI corrected to H at S85). Table rows S01–S237 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` để có số liệu chính xác theo effect.*
+>
+> *Cập nhật 19/05/2026: S238 (Srividhya & Vidya 2024 — India BG, FSTS→ROA, r=0.13, n=992, ICRV=III, cDAI=M, DPL=SPN) thêm trực tiếp vào `forest_data.csv` (E288) từ WoS arm search. Coded database này vẫn cover S01–S237 (k=237); `forest_data.csv` hiện có K=288 rows và k=238 unique study_ids.*
 >
 > **Ghi chú về chênh lệch K: MetaEssentials vs forest_data (16/05/2026)**
 >
@@ -403,7 +405,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 > - **forest_data.csv** chỉ giữ effects đại diện cho *tổ hợp (DOI type × FP type) độc lập* — một study có tối đa 1 effect mỗi tổ hợp; loại bỏ correlations giữa cùng biến nhưng đo theo cách khác (raw vs. adjusted, khác subsample cùng nghiên cứu).
 > - Nguyên tắc này nhất quán với Cheung (2014) three-level MARA: "effects should represent independent comparisons; redundant correlations inflate K và bias kết quả aggregation."
 >
-> **Kết luận**: K=287 trong forest_data là số đúng cho three-level MARA. 54 effects không được đưa vào là *intentional exclusions*, không phải missing data. Không cần bổ sung thêm.
+> **Kết luận**: K=288 trong forest_data là số đúng cho three-level MARA (K=287 từ S01–S237 + K=1 từ S238 Srividhya et al. 2024). 54 effects không được đưa vào là *intentional exclusions*, không phải missing data.
 
 ### 5.1 Phân phối ICRV Regime
 
