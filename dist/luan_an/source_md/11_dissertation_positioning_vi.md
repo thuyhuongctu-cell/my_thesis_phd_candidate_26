@@ -68,7 +68,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 2.1 Marano et al. (2016) — *Journal of Management*
 
-| Khu0103a cạnh | Marano et al. (2016) | NCS dissertation |
+| Khía cạnh | Marano et al. (2016) | NCS dissertation |
 |---|---|---|
 | Loại nghiên cứu | Single meta-analysis paper | **Cumulative dissertation 8 papers** |
 | Sample | 170 studies, 32 countries, 1972–2012 | 47–49 economies WBES + 113 studies meta + Pacific SIDS |
@@ -77,11 +77,11 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Method | Random-effects meta-regression | **Mixed: meta-analysis + multi-country + extreme boundary case** |
 | Impact | Foundational reference | Builds on Marano, extends with Pacific SIDS test |
 
-**Điểm khác biệt**: Marano dyừng lại ở "institutional moderation" — luận án của NCS đi xa hơn sắc biết "institutional dependency" (sign reversal khi regime extreme).
+**Điểm khác biệt**: Marano dừng lại ở "institutional moderation" — luận án của NCS đi xa hơn sắc biết "institutional dependency" (sign reversal khi regime extreme).
 
 ## 2.2 Wu, Fan, & Chen (2022) — *Management International Review*
 
-| Khu0103a cạnh | Wu et al. (2022) | NCS dissertation |
+| Khía cạnh | Wu et al. (2022) | NCS dissertation |
 |---|---|---|
 | Loại nghiên cứu | Single meta-analysis paper | Cumulative dissertation |
 | Sample | 218 effect sizes, 186 studies, EMNEs | 47–49 economies WBES + meta-analysis + SIDS |
@@ -93,7 +93,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 2.3 Kirca, Roth, Hult, & Cavusgil (2012) — *Global Strategy Journal*
 
-| Khu0103a cạnh | Kirca et al. (2012) | NCS dissertation |
+| Khía cạnh | Kirca et al. (2012) | NCS dissertation |
 |---|---|---|
 | Sample | 154 samples, 47,849 firms | 47–49 economy WBES |
 | Method | Meta-analytic review | Mixed methodology |
@@ -104,7 +104,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 2.4 Cuervo-Cazurra, Ciravegna, Melgarejo, & Lopez (2018) — *Journal of World Business*
 
-| Khu0103a cạnh | Cuervo-Cazurra et al. (2018) | NCS dissertation |
+| Khía cạnh | Cuervo-Cazurra et al. (2018) | NCS dissertation |
 |---|---|---|
 | Sample | 218 firms, Colombia EMNEs, 2006–2012 | 47–49 economies WBES, 1982–2026 |
 | Method | Single-country panel | **Multi-country mixed methodology** |
@@ -114,7 +114,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 2.5 Bhandari, Zámborský, Ranta, & Salo (2023) — *International Business Review*
 
-| Khu0103a cạnh | Bhandari et al. (2023) | NCS dissertation |
+| Khía cạnh | Bhandari et al. (2023) | NCS dissertation |
 |---|---|---|
 | Sample | 571 USA manufacturing firms | 47–49 economies (WBES Asian + Pacific) |
 | Method | Single country panel | Multi-country pooled |
@@ -125,7 +125,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 2.6 Chen & Meng (2022) — *Managerial and Decision Economics*
 
-| Khu0103a cạnh | Chen & Meng (2022) | NCS dissertation |
+| Khía cạnh | Chen & Meng (2022) | NCS dissertation |
 |---|---|---|
 | Sample | China WBES single country | China + 35 other countries |
 | Theory | Institutional constraints + digital | **Full institutional gradient** |
@@ -137,7 +137,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 3.1 Lu & Beamish (Japanese MNCs, multiple papers 2001–2004)
 
-| Khu0103a cạnh | Lu & Beamish | NCS dissertation |
+| Khía cạnh | Lu & Beamish | NCS dissertation |
 |---|---|---|
 | Country focus | Japan single | Asian + Pacific multi-country |
 | Time | 1986–1997 | 1982–2026 (5 decades) |
@@ -148,7 +148,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 3.2 Contractor, Kumar, & Kundu (2007) — *Journal of World Business*
 
-| Khu0103a cạnh | Contractor et al. (2007) | NCS dissertation |
+| Khía cạnh | Contractor et al. (2007) | NCS dissertation |
 |---|---|---|
 | Country | India 269 firms | India + 35 other |
 | Theory | Three-stage S-curve in EMNE | **Multi-tier including extreme boundary** |
@@ -160,7 +160,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 3.4 Verbeke & Brugman (2018) — *Journal of International Business Studies*
 
-| Khu0103a cạnh | Verbeke & Brugman (2018) | NCS dissertation |
+| Khía cạnh | Verbeke & Brugman (2018) | NCS dissertation |
 |---|---|---|
 | Sample | 23,000+ USA observations | 30,000+ Asian-Pacific |
 | Method | Propensity score | OLS + two-part model + meta-analysis |
@@ -198,7 +198,7 @@ Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade Universi
 - Pattern: focus 1 ngành hoặc 1 vùng (vd: "DOI và hiệu quả doanh nghiệp ngành dệt may Việt Nam")
 - Method: chủ yếu single-country panel
 - Theory: chủ yếu RBV hoặc Uppsala, không integrated
-- Pacific/SIDS: không có luyận án nào
+- Pacific/SIDS: không có luận án nào
 
 **NCS dissertation differentiation**:
 - Đầu tiên **châu Á + Pacific multi-country** trong VN PhD
@@ -225,22 +225,22 @@ Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade Universi
 
 Mở bằng phenomenon-based pitch:
 
-> "Trong 50 năm nghiên cứu về quan hệ internationalization–firm performance, có một khoảng trống cơ bản: chu0103uê ai test xem **inverted-U có phải universal law hay là conditional relationship**? Luận án này test điuều đó bằng cách có mạch institutional gradient từ Singapore (regime I) đến Pacific SIDS (regime extreme), và phát hiện inverted-U **không phải universal**, nó đảo dấu khi 3 prerequisites không có."
+> "Trong 50 năm nghiên cứu về quan hệ internationalization–firm performance, có một khoảng trống cơ bản: chưa ai test xem **inverted-U có phải universal law hay là conditional relationship**? Luận án này test điều đó bằng cách có mạch institutional gradient từ Singapore (regime I) đến Pacific SIDS (regime extreme), và phát hiện inverted-U **không phải universal**, nó đảo dấu khi 3 prerequisites không có."
 
 ## 7.2 "Đóng góp chính ở đâu"
 
-3 contributions chu0103a từng có trong literature:
+3 contributions chưa từng có trong literature:
 
 1. **Theoretical**: Forced Internationalization Penalty là named contribution đầu tiên cho boundary case I–P
 2. **Methodological**: TCI/DAI separation (kế thừa Bharadwaj et al. 2013, Verhoef et al. 2021, Cohen & Levinthal 1990, Lall 1992; thỏa 4 tiêu chí Coltman et al. 2008) đảm bảo construct purity
 3. **Empirical**: First multi-country evidence cho Pacific SIDS WBES (1,745 papers, 0 covers Pacific I–P)
 
-## 7.3 "Vì sao chu0103u yếu vu0102i việc có 8 papers"
+## 7.3 "Vì sao chưa yếu về việc có 8 papers"
 
 - 2 papers đã công bố (P1 VEFR, P2 JFAR) demonstrate publication track record
 - 1 paper đã có trong ICBEF 2025 proceedings (P6 baseline)
 - 5 papers manuscripts ở various stages (P3, P4, P5, P7, P8)
-- Cấu trúc cumulative thesis quy chu1ea9n quy nuôi ở châu Âu và Bắc Mỹ, phù hợp với quy chu1ea9n VN
+- Cấu trúc cumulative thesis quy chuẩn phổ biến ở châu Âu và Bắc Mỹ, phù hợp với quy chuẩn VN
 
 ## 7.4 "Vấn đề về công bố"
 
@@ -264,22 +264,22 @@ Potential **2027 graduation timeline**:
 
 **Answer**: Tính mới của luận án nằm ở chứng minh **inverted-U có boundary conditions**. Mỗi institutional regime cần ít nhất 3 countries để statistical power (Marano 2016 chuẩn: 5+ countries per regime). 49 economies chia 6 regimes (ICRV I–VI) → ~8 economies/regime trung bình — đủ statistical power.
 
-## 8.2 GVHD có thể hỏi: "Vì sao không dyụng panel?"
+## 8.2 GVHD có thể hỏi: "Vì sao không dùng panel?"
 
-**Answer**: WBES không phu1ea3i panel theo cùng doanh nghu1ec7p (là repeated cross-sections). Tu0103ng đểng bảo nhu1ea5n cho NCS dissertation: Lu nên có panel future work tu1ea1i 4 countries có 2+ waves (Cambodia, India, Bangladesh, Pakistan, etc.).
+**Answer**: WBES không phải panel theo cùng doanh nghiệp (là repeated cross-sections). Lưu ý cho NCS dissertation: Lu nên có panel future work tại 4 countries có 2+ waves (Cambodia, India, Bangladesh, Pakistan, etc.).
 
 ## 8.3 GVHD có thể hỏi: "Vì sao tách bạch TCI và DAI thay vì gộp một composite digital duy nhất?"
 
-**Answer**: Phân tách dựa trên 5 nguồn IB chính thống: (i) Bharadwaj et al. (2013, MIS Quarterly) phân biệt IT capability với digital business strategy; (ii) Verhoef et al. (2021, JBR) phân tầng 3 cấp digitization → digitalization → digital transformation; (iii) Cohen & Levinthal (1990, ASQ) và Lall (1992, World Development) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác bản chất với digital adoption ở giao diện ngoại tại; (iv) Bhandari et al. (2023, IBR) áp dụng resource-orchestration logic cho I→P relationship cho thấy các construct số có nomological nets khác nhau; (v) Coltman et al. (2008, JBR) đưa 4 tiêu chí cho phép TCI và DAI là hai formative composite độc lập. Do đó, NCS dyụng TCI và DAI riêng biệt (cleaner construct) thay vì gộp một composite duy nhất.
+**Answer**: Phân tách dựa trên 5 nguồn IB chính thống: (i) Bharadwaj et al. (2013, MIS Quarterly) phân biệt IT capability với digital business strategy; (ii) Verhoef et al. (2021, JBR) phân tầng 3 cấp digitization → digitalization → digital transformation; (iii) Cohen & Levinthal (1990, ASQ) và Lall (1992, World Development) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác bản chất với digital adoption ở giao diện ngoại tại; (iv) Bhandari et al. (2023, IBR) áp dụng resource-orchestration logic cho I→P relationship cho thấy các construct số có nomological nets khác nhau; (v) Coltman et al. (2008, JBR) đưa 4 tiêu chí cho phép TCI và DAI là hai formative composite độc lập. Do đó, NCS dùng TCI và DAI riêng biệt (cleaner construct) thay vì gộp một composite duy nhất.
 
-## 8.4 GVHD có thể hỏi: "P8 Pacific không phu1ea3i Asia, sao trong dissertation?"
+## 8.4 GVHD có thể hỏi: "P8 Pacific không phải Asia, sao trong dissertation?"
 
-**Answer**: 3 lyý do:
-1. **Empirical**: Pacific SIDS là institutional regime extreme — cu1ea7n nó đu1ec3 demonstrate inverted-U **fails** at boundary
-2. **Theoretical**: "Asian and adjacent regions" là framing chu1ea5p nhu1eadn đu1ee5 trong literature (vd: Asian Development Bank covers Pacific)
-3. **Methodological**: Pacific sử dyụng cu0103ng WBES instrument — datasố comparable
+**Answer**: 3 lý do:
+1. **Empirical**: Pacific SIDS là institutional regime extreme — cần nó để demonstrate inverted-U **fails** at boundary
+2. **Theoretical**: "Asian and adjacent regions" là framing chấp nhận đủ trong literature (vd: Asian Development Bank covers Pacific)
+3. **Methodological**: Pacific sử dụng cùng WBES instrument — dữ liệu comparable
 
-# 9. References APA 7 (để dyụng trong demo)
+# 9. References APA 7 (để dùng trong demo)
 
 Marano, V., Arregle, J. L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship. *Journal of Management, 42*(5), 1075–1110.
 
@@ -301,15 +301,15 @@ Lu, J. W., & Beamish, P. W. (2004). International diversification and firm perfo
 
 Verbeke, A., & Brugman, M. (2018). Internationalization and performance: Degree, duration, and scale of operations. *Journal of International Business Studies, 49*(7).
 
-# 10. Tóm tắt 1-trang cho buy0103i demo GVHD
+# 10. Tóm tắt 1-trang cho buổi demo GVHD
 
 ```
 NCS Đỗ Thùy Hương — Luận án tiến sĩ
-Quốc tế hóa và hiệu quả hoạt động kinh doanh cu1ee7a doanh nghiệp ở cu0103u Á và lu0103n cận
+Quốc tế hóa và hiệu quả hoạt động kinh doanh của doanh nghiệp ở châu Á và lân cận
 
-CÂU HỘI NGHIÊN CỨU:
-Quốc tế hóa uănh hu1edfng đến hiệu quả hoạt động nhu0103 thu0103 nu0103o, vu0103 điu0107u
-kiện thyể chu1ebf, nu0103ng lyưc syô vu0103 đu0102c điu0103m nhu0103 quu1ea3n tru1ecb nu0103o giải thyích
+CÂU HỎI NGHIÊN CỨU:
+Quốc tế hóa ảnh hưởng đến hiệu quả hoạt động như thế nào, và điều
+kiện thể chế, năng lực số và đặc điểm nhà quản trị nào giải thích
 heterogeneity?
 
 8 PAPERS (P1–P8):
@@ -344,10 +344,10 @@ DISTINCTIVE VS. WORLD LITERATURE:
 → Vietnamese typical: 1–3 papers. NCS = 8 papers.
 ```
 
-# 11. File kèm theo đyể demo GVHD
+# 11. File kèm theo để demo GVHD
 
 - `00_optimal_plan_vi.md` — tính mới và đóng góp chi tiết
-- `01_chapter_outline_vi.md` — dyàn yu0102 5 chu0103uơng
-- `02_theoretical_framework_vi.md` — khung 4 ty1ea7ng + digital lens + H1–H6
+- `01_chapter_outline_vi.md` — dàn ý 5 chương
+- `02_theoretical_framework_vi.md` — khung 4 tầng + digital lens + H1–H6
 - `10_p8_pacific_sids_design_vi.md` — P8 boundary case
 - File này (`11_dissertation_positioning_vi.md`) — differentiation analysis
