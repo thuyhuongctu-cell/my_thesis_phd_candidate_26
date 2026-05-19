@@ -9,6 +9,7 @@
 # Claude local settings
 .claude/settings.local.json
 .claude/CLAUDE.local.md
+.claude/session-reads.txt
 
 # Dependencies
 node_modules/
