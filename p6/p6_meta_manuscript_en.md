@@ -317,7 +317,7 @@ $$I^2_{ICBEF} = 87.92\%,\quad Q_{between} = 1{,}247.3\ (df = 112,\ p < .001)$$
 | σ²_(3) between-study | 0.00136 |
 | *I*²_(2) within-study | 54.1% |
 | *I*²_(3) between-study | 8.4% |
-| *I*²_total | 62.5% |
+| *I*²_total | 62.4% |
 | Pooled *r̂*_3L | 0.074 (95% CI [0.060, 0.088]) |
 | *Q*_total | 1,909.42 (*df* = 287, *p* < .001) |
 
@@ -391,7 +391,7 @@ H4 **supported**: multiple indicators consistently detect publication bias, thou
 
 **Trim-and-fill**: imputes *k* = 58 missing studies (left side); adjusted pooled *r̄* = 0.035 (95% CI [0.019, 0.051]) — a conservative lower bound. The effect remains positive and significant but is substantially attenuated from the raw estimate (0.074 → 0.035).
 
-**Fail-safe *N*** (Rosenthal, 1991): *N* = 45,848, far exceeding the criterion of 5*k* + 10 = 1,200; even under extreme publication suppression assumptions, a trivially small effect would require 44,782 unpublished null studies — implausible.
+**Fail-safe *N*** (Rosenthal, 1991): *N* = 45,848, far exceeding the criterion of 5*k* + 10 = 1,200; even under extreme publication suppression assumptions, a trivially small effect would require 45,848 unpublished null studies — implausible.
 
 The trim-and-fill correction (*k* = 58 imputed, adj. *r* = 0.035) is the most conservative bias-corrected estimate and represents a meaningful reduction from the raw *r* = 0.074. Together with the substantial unexplained heterogeneity (*I*² = 62.4%) and non-significant moderator tests (§§4.3–4.5), the publication bias evidence suggests that the apparent average I→P effect is upwardly inflated in the published literature. The true population effect may be closer to *r* ≈ 0.035.
 
@@ -734,7 +734,7 @@ Scopus arm counts will be added after CTU campus institutional search.
 |-----------|----------------------------------|-------------------------------|
 | Pooled *r* | 0.070 | 0.074 |
 | 95% CI | [0.050, 0.090] | [0.060, 0.088] |
-| *I*²_total | 87.92% | 62.5% |
+| *I*²_total | 87.92% | 62.4% |
 | *I*²_(2) within-study | — | 54.1% |
 | *I*²_(3) between-study | — | 8.4% |
 | *k* studies | 113 | 237 |
@@ -743,7 +743,7 @@ Scopus arm counts will be added after CTU campus institutional search.
 | σ²_(3) | — | 0.00136 |
 | Software | Suurmond et al. (2017) | Viechtbauer (2010) |
 
-*Note:* Lower total I² in the three-level model (62.5% vs. 87.92%) reflects the expanded *k* = 238 sample and the three-level structure that partitions variance across levels correctly. The narrower 95% CI reflects the precision gain from 237 vs. 113 studies. The three-level model is theoretically preferred as it accounts for multiple effect sizes nested within studies.
+*Note:* Lower total I² in the three-level model (62.4% vs. 87.92%) reflects the expanded *k* = 238 sample and the three-level structure that partitions variance across levels correctly. The narrower 95% CI reflects the precision gain from 237 vs. 113 studies. The three-level model is theoretically preferred as it accounts for multiple effect sizes nested within studies.
 
 ---
 

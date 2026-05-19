@@ -54,7 +54,7 @@
 | Studies (k) | 238 |
 | Effect sizes | 288 (pre-formal-search baseline) |
 | Baseline pooled r | 0.075 (95% CI [0.061, 0.089]) |
-| I² total | 62.5% |
+| I² total | 62.4% |
 
 ---
 
