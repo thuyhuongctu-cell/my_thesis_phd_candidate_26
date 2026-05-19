@@ -67,7 +67,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 ### 3.3.4 Đo lường biến điều tiết
 
-**a) Digital constructs (TCI và DAI)**
+#### Digital constructs (TCI và DAI)
 
 Luận án phân biệt rõ hai construct:
 
@@ -80,13 +80,13 @@ Luận án phân biệt rõ hai construct:
 
 **Đóng góp mới**: Đưa ra **measurement harmonization protocol** trong bối cảnh WBES, đảm bảo construct purity ở 47 nền kinh tế châu Á và Pacific, với pipeline hòa hợp 3 thế hệ schema. Phân tách TCI và DAI theo (i) Bharadwaj et al. (2013) — IT capability vs digital business strategy có nomological nets khác nhau; (ii) phân tầng 3 cấp của Verhoef et al. (2021) — digitization, digitalization, digital transformation; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác về bản chất với digital adoption ở giao diện ngoại tại; (iv) resource-orchestration logic của Bhandari et al. (2023) cho I→P relationship; và (v) 4 tiêu chí formative composite của Coltman et al. (2008) — đảm bảo TCI và DAI là hai composite độc lập.
 
-**b) Biến thể chế**
+#### Biến thể chế
 
 **Biến chính**: business obstacle index (tổng hợp từ các câu hỏi WBES về obstacles), country-level governance proxies (WGI Rule of Law, Kaufmann et al., 2011), 6 sub-regime ICRV (classification từ Khanna & Palepu, 2010 mở rộng).
 
 **Cơ sở kế thừa**: Khanna và Palepu (2010) với institutional voids; North (1990) với institutional analysis; Marano et al. (2016) với meta-analytic evidence về institutional moderators.
 
-**c) Đặc điểm nhà quản trị cấp cao**
+#### Đặc điểm nhà quản trị cấp cao
 
 **Biến chính**: top manager experience (năm kinh nghiệm), top manager gender (female / male).
 
@@ -136,13 +136,13 @@ $$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 FSTS_i^3 + \
 
 ### 3.4.4 Mô hình moderation (H2–H6)
 
-**Two-way interaction (H2, H3)
+#### Two-way interaction (H2, H3)
 
 $$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 M_i + \beta_4 (FSTS_i \times M_i) + \beta_5 (FSTS_i^2 \times M_i) + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
 với $M_i$ là moderator (TCI hoặc DAI).
 
-**Three-way interaction (synthesis)
+#### Three-way interaction (synthesis)
 
 $$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 D_i + \beta_4 I_i + \beta_5 M_i + \sum \text{interactions} + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
@@ -419,7 +419,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 
 #### 3.4.5.5 Mô hình cụ thể — Nghiên cứu 8: Pacific SIDS (N = 1.469, Nhóm VI)
 
-Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế Pacific SIDS** (Fiji, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, và các đảo nhỏ khác) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
+Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế Pacific SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
 
 Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)** — mối quan hệ quốc tế hóa–hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3–P7. Lind–Mehlum U-test không bác bỏ đơn điệu (p > ,10), xác nhận không có điểm quay.
 
