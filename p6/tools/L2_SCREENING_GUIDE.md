@@ -1,18 +1,22 @@
 # Hướng dẫn L2 Screening — P6 Meta-Analysis
 
-**File làm việc**: `p6/tools/results/l2_prescreened.csv`  
-**Thứ tự ưu tiên**: Xác nhận Y (537) → Xác minh N (5) → Review UNSURE (240)
+**File làm việc**: `p6/tools/results/extraction_worklist_v12_20260519.csv`  
+**File ưu tiên**: `p6/tools/results/extraction_priority_v12_20260519.csv`  
+**Thứ tự ưu tiên**: Priority A — 310 papers có DOI → Priority B — 125 papers không DOI  
+**Phân bố**: Y=435 (81.3%), N=100 (18.7%), UNSURE=0 (tất cả đã giải quyết xong 19/05/2026)
 
 ---
 
 ## Bước 1: Quy trình tổng thể
 
 ```
-Mở l2_prescreened.csv
+Mở extraction_worklist_v12_20260519.csv
   ↓
-prescreen_flag = Y → Xác nhận bằng abstract (copy include_flag = Y nếu đồng ý)
-prescreen_flag = N → Xác minh nhanh (giữ N hoặc chuyển UNSURE nếu cần review)
-prescreen_flag = UNSURE → Tìm full-text → Quyết định Y / N / UNSURE
+prescreen_flag = Y (435 papers) → Đọc abstract → xác nhận include_flag = Y / đổi N nếu cần
+prescreen_flag = N (100 papers) → Xác minh nhanh (giữ N hoặc chuyển UNSURE nếu nghi ngờ)
+prescreen_flag = UNSURE → 0 papers còn lại (tất cả đã giải quyết)
+  ↓
+Ưu tiên theo extraction_priority_v12_20260519.csv (ranked by DOI availability + ICRV)
   ↓
 Điền include_flag + include_reason + r + n + icrv + cdai + dpl cho mỗi paper
 ```
@@ -154,7 +158,7 @@ Dựa trên **năm xuất bản** (publication year):
 
 ## Bước 5: Workflow thực tế với CSV
 
-### Cột cần điền trong l2_prescreened.csv
+### Cột cần điền trong extraction_worklist_v12_20260519.csv
 
 | Cột | Nguồn | Ghi chú |
 |-----|-------|---------|
@@ -185,15 +189,22 @@ Dựa trên **năm xuất bản** (publication year):
 ## Bước 6: Sau khi hoàn thành L2
 
 ```bash
+# OA check và download PDF (chạy LOCAL — server block Unpaywall/OpenAlex)
+python3 p6/tools/30_oa_check_and_download.py \
+  --input  p6/tools/results/extraction_worklist_v12_20260519.csv \
+  --output p6/tools/results/oa_check_20260519.csv \
+  --pdfs   p6/tools/pdfs/ \
+  --email  seranguyenct@gmail.com
+
 # Chọn subsample 20% để double-coding
 python3 p6/tools/09_select_reliability_subsample.py \
-  --input  p6/tools/results/l2_prescreened.csv \
+  --input  p6/tools/results/extraction_worklist_v12_20260519.csv \
   --output p6/tools/results/reliability_subsample.csv \
   --seed   42
 
 # Merge vào database chính (sau khi reliability đạt κ≥0.70)
 python3 p6/tools/10_merge_new_studies.py \
-  --new      p6/tools/results/l2_prescreened.csv \
+  --new      p6/tools/results/extraction_worklist_v12_20260519.csv \
   --existing p6/data/p6_study_database.csv \
   --output   p6/data/p6_study_database_updated.csv
 
@@ -205,9 +216,10 @@ Rscript p6/scripts/p6_mara_updated.R
 
 ## Mẹo thực tế
 
-- **Batch 50 papers** mỗi lần để tránh fatigue — 782 papers ≈ 16 batch
-- **Ưu tiên papers có DOI** (576/782 = 73.7%) — truy cập full-text dễ hơn
-- **537 prescreen_flag=Y**: chỉ cần xác nhận abstract (10–15 phút/batch × 11 batch)
-- **240 prescreen_flag=UNSURE**: cần full-text (30–40 phút/batch × 5 batch)
-- **5 prescreen_flag=N**: xác minh 5 case study nhanh (< 5 phút)
-- Tổng ước tính: **25–35 giờ** nếu làm đều đặn 2–3 giờ/ngày → **10–18 ngày**
+- **Batch 50 papers** mỗi lần để tránh fatigue — 435 papers Y ≈ 9 batch
+- **Ưu tiên Priority A** (310 papers có DOI) — truy cập full-text dễ hơn, dùng file `extraction_priority_v12_20260519.csv`
+- **Priority A (310 papers DOI)**: xác nhận abstract + download PDF tự động qua `30_oa_check_and_download.py` (chạy local)
+- **Priority B (125 papers no-DOI)**: tìm full-text thủ công qua Google Scholar / ResearchGate
+- **100 prescreen_flag=N**: chỉ xác minh nhanh nếu nghi ngờ
+- Tổng ước tính: **15–25 giờ** nếu làm đều đặn 2–3 giờ/ngày → **7–12 ngày**
+- **Lưu ý server**: Tất cả API học thuật (Unpaywall, OpenAlex, CrossRef) bị block (HTTP 403) từ server này — phải chạy OA download locally
