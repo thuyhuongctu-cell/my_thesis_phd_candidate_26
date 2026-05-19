@@ -286,3 +286,4 @@ S234,S234,Yip et al.,2000,0.06,150,Multi,1992,1998,MX,L,PRE,COMP,ACC,1,1,JIM; ne
 S235,S235,Freixanet & Rialp,2021,0.08,1500,Spain,2008,2016,II,M,FOL,EXP,MIX,1,1,GSJ; I→P with innovation mediator (distinct from S101 EMJ)
 S236,S236,Barłożewski & Trąpczyński (2021a),,-0.1,97,Poland,2014,2019,MX,M,SPN,FSTS,ACC,1,0,EBER 9; exporter subsample n=97; r confirmed (see S195 for full-sample n=200 est.)
 S237,S237,Barłożewski & Trąpczyński (2021b),,-0.04,304,Poland,2014,2019,MX,M,FOL,FSTS,ACC,1,0,OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.)
+S238,E288,Srividhya et al.,2024,0.13,992,India,2005,2021,III,M,SPN,FSTS,ACC,1,0,"WoS-arm S0129; JEI 2024 v39(2); r=0.13** Table3 DOI-ROA corr experienced BGs; n≈992 firm-yr (72 firms, PROWESS 2005-2021); doi:10.11130/jei.2024033"
