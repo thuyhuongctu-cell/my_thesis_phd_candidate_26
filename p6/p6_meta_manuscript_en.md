@@ -688,12 +688,20 @@ Records screened at L2 (title):                      n =   782
   Total L2 Y (WoS arm):                             n =   565  ✓
     (= 345 L2 Y + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6 + 0 R7 + 3 R8)
 
+  Extraction pre-screen — Round 9 (worklist v11→v12, 19/05/2026,
+      title-pattern analysis for 92 unresolved prescreen flags):
+    Y (include for extraction):                       n =    41  ✓
+    N (exclude from extraction priority):             n =    51
+    Still UNSURE:                                     n =     0  ← ALL RESOLVED ✓
+  Extraction pool prescreen: Y=435 (81.3%), N=100 (18.7%), UNSURE=0
+
 ELIGIBILITY — Deduplication vs. Prior Database
 ─────────────────────────────────────────────────────────────────
 Deduplicated against existing k=287 coded studies:
   Confirmed genuinely new (R1):                      n =   321  ✓
   Confirmed new (R1-R8):                             n =   214  (129+30+25+15+4+8+0+3)
   Active extraction pool (worklist v12):             n =   535  ✓
+  Priority extraction candidates (prescreen Y):      n =   435  (310 with DOI; 125 no-DOI)
   Full-text excluded (reasons pending extraction):   n = [TBD]
     - No calculable r or convertible statistic
     - Unit of analysis not firm-level
