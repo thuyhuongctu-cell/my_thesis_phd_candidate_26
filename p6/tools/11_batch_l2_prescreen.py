@@ -61,6 +61,15 @@ EXCLUDE_RULES = [
      r"|\bexport\s+performanc.*(?:technolog|capabilit|resourc|knowledg|orientat"
      r"|strateg|innovat|antecedent|determinant|driver|predictor|influenc)",
                                                        "wrong-dir-export-perf-DV", 3),
+    # "Export performance" as DV in clear antecedent framing (not caught above)
+    (r"(?:how|what)\b.{1,60}\bexport\s+performanc"           # How X impacts EP
+     r"|\beffect\b.{1,40}\bexport\s+performanc"              # effect of X on EP
+     r"|\bimpact\b.{1,40}\bexport\s+performanc"              # impact on EP
+     r"|\bchallenge.{0,25}\bexport\s+performanc"             # challenges in EP
+     r"|\bexport\s+performance\s+of\s+\b"                    # EP of firms/SMEs
+     r"|\bapproach\b.{1,30}\bexport\s+performanc"            # approach to EP
+     r"|\bexport\s+performance\b.*\bcase\s+of\b",            # EP: case of X
+                                                       "antecedent-framing-export-perf", 3),
 ]
 
 # ── Inclusion keyword rules ───────────────────────────────────────────────────
