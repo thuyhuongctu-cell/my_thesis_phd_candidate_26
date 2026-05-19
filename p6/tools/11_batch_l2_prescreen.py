@@ -54,6 +54,13 @@ EXCLUDE_RULES = [
     (r"\bcarbon\s+emission\b|\bco2\s+emission\b",      "emissions-focus",      2),
     # Sport / tourism (weak ICRV link)
     (r"\bsport\s+(?:club|organiz|team)\b",             "sport-sector",         2),
+    # Wrong direction: capability/strategy → export performance as DV (NOT I→P)
+    (r"(?:technolog|capabilit|resourc|knowledg|orientat|strateg|innovat|absorptiv"
+     r"|human\s+capital|managerial|antecedent|determinant|driver|predictor)"
+     r".*\bexport\s+performanc"
+     r"|\bexport\s+performanc.*(?:technolog|capabilit|resourc|knowledg|orientat"
+     r"|strateg|innovat|antecedent|determinant|driver|predictor|influenc)",
+                                                       "wrong-dir-export-perf-DV", 3),
 ]
 
 # ── Inclusion keyword rules ───────────────────────────────────────────────────
@@ -81,6 +88,10 @@ INCLUDE_RULES = [
                                                        "ROA/ROE",              2),
     (r"\btobin.?s?\s+q\b|\bmarket\s+value\b",          "Tobin-Q",              2),
     (r"\bsales\s+growth\b|\brevenue\s+growth\b",       "sales-growth",         2),
+    # Export-productivity / learning-by-exporting (valid I→P direction)
+    (r"\b(?:export|internation).*\bproductivit|\bproductivit.*\b(?:export|internation)"
+     r"|\blearning.by.export",
+                                                       "export-productivity",   3),
 ]
 
 # ── ICRV country/region patterns ─────────────────────────────────────────────
