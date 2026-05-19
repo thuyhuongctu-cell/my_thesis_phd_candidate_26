@@ -1,24 +1,29 @@
 # Hướng dẫn L2 Screening — P6 Meta-Analysis
 
-**File làm việc**: `p6/tools/results/extraction_worklist_v12_20260519.csv`  
-**File ưu tiên**: `p6/tools/results/extraction_priority_v12_20260519.csv`  
-**Thứ tự ưu tiên**: Priority A — 310 papers có DOI → Priority B — 125 papers không DOI  
-**Phân bố**: Y=435 (81.3%), N=100 (18.7%), UNSURE=0 (tất cả đã giải quyết xong 19/05/2026)
+**File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v2.csv`  
+**Cấu trúc**: 435 rows × 58 cột — superset của tất cả file trước (retrieval worklist + extraction template + workflow tracking)  
+**Thứ tự ưu tiên**: `extraction_priority = 1_DOI_FIRST` (310 papers) → `2_NO_DOI_MANUAL` (125 papers)  
+**Phân bố**: Y=435 (81.3%), N=100 (18.7%), UNSURE=0 (tất cả đã giải quyết xong 19/05/2026)  
+**Template extraction**: `p6/tools/results/meta_analysis_extraction_ready_v1_1.csv` (v1.1, 435 rows × 40 cột, ICRV/DPL đầy đủ)
 
 ---
 
 ## Bước 1: Quy trình tổng thể
 
 ```
-Mở extraction_worklist_v12_20260519.csv
+Mở fulltext_to_extraction_tracker_v2.csv
   ↓
-prescreen_flag = Y (435 papers) → Đọc abstract → xác nhận include_flag = Y / đổi N nếu cần
+prescreen_flag = Y (435 papers) → Đọc full-text → điền pdf_found + fulltext_screening_decision
 prescreen_flag = N (100 papers) → Xác minh nhanh (giữ N hoặc chuyển UNSURE nếu nghi ngờ)
 prescreen_flag = UNSURE → 0 papers còn lại (tất cả đã giải quyết)
   ↓
-Ưu tiên theo extraction_priority_v12_20260519.csv (ranked by DOI availability + ICRV)
+Ưu tiên theo cột extraction_priority trong tracker:
+    1_DOI_FIRST   (310 papers có DOI) → download PDF tự động + trích xuất r
+    2_NO_DOI_MANUAL (125 papers)     → tìm full-text thủ công qua Google Scholar / ResearchGate
   ↓
-Điền include_flag + include_reason + r + n + icrv + cdai + dpl cho mỗi paper
+Điền include_flag + r + n + icrv + cdai + dpl + workflow columns cho mỗi paper
+  ↓
+Khi ready_for_r = Y → chuyển vào meta_analysis_extraction_ready_v1_1.csv
 ```
 
 ---
@@ -156,33 +161,60 @@ Dựa trên **năm xuất bản** (publication year):
 
 ---
 
-## Bước 5: Workflow thực tế với CSV
+## Bước 5: Workflow thực tế với CSV (58 cột — fulltext_to_extraction_tracker_v2.csv)
 
-### Cột cần điền trong extraction_worklist_v12_20260519.csv
+### Nhóm 1: Workflow tracking (điền khi có full-text)
 
 | Cột | Nguồn | Ghi chú |
 |-----|-------|---------|
-| `include_flag` | Quyết định của bạn | Y / N / UNSURE |
-| `include_reason` | Lý do ngắn | ví dụ: `excl:macro-level` hoặc `incl:firm-level-fsts` |
-| `r` | Từ paper | Pearson r hoặc converted |
-| `r_note` | Ghi chú chuyển đổi | ví dụ: `from t-stat`, `from beta` |
+| `pdf_found` | Y / N | Tìm được full-text PDF không? |
+| `pdf_filename` | Tên file | ví dụ: `smith2020_fsts_roa.pdf` |
+| `pdf_source` | Nguồn | `unpaywall`, `sci-hub`, `researchgate`, `email_author` |
+| `fulltext_screening_decision` | Y / N / UNSURE | Quyết định L2 sau khi đọc full-text |
+| `exclusion_reason` | Mã excl: | ví dụ: `excl:macro-level` |
+
+### Nhóm 2: Effect size extraction (điền khi trích xuất r)
+
+| Cột | Nguồn | Ghi chú |
+|-----|-------|---------|
+| `include_flag` | Quyết định L2 | Y / N / UNSURE |
+| `include_reason` | Lý do ngắn | `incl:firm-level-fsts` |
+| `r` | Từ paper | Pearson r trực tiếp hoặc converted |
+| `r_note` | Ghi chú | `from t-stat`, `from beta` |
 | `n` | Từ paper | Sample size của regression model |
-| `icrv` | Coding | Integer 1–6 hoặc 0 |
+| `df_for_t` | Từ paper | df nếu dùng công thức r từ t |
+| `table_or_page` | Từ paper | ví dụ: `Table 3, p.15` |
+| `statistic_location` | Từ paper | Vị trí cụ thể trong paper |
+| `conversion_formula` | Công thức dùng | `r=sqrt(t²/(t²+df))` hoặc `r=beta/sqrt(beta²+1)` |
+| `effect_direction` | `+` / `-` | Chiều của mối quan hệ I→P |
+| `icrv` | Coding | Integer 1–6 hoặc MX |
 | `cdai` | WB DAI | Decimal 0–1 |
 | `cdai_proxy` | Y/N | Y nếu dùng L/M/H proxy |
-| `dpl` | Pub year | 1 / 2 / 3 |
-| `doi_type` | Từ paper | Xem bảng trên |
-| `fp_type` | Từ paper | Xem bảng trên |
+| `dpl` | Pub year / data year | 1 / 2 / 3 |
+| `doi_type` | Từ paper | Xem bảng Bước 4 |
+| `fp_type` | Từ paper | Xem bảng Bước 4 |
 | `nonlinear` | Y/N | Y nếu báo cáo quadratic term |
 | `turning_point` | Từ paper | TP = -β₁/(2β₂), nếu có |
 
-### Cột do `prescreen_flag` đã điền sẵn (chỉ cần kiểm tra)
+### Nhóm 3: QA và computed columns
+
+| Cột | Nguồn | Ghi chú |
+|-----|-------|---------|
+| `ready_for_r` | Y / N | Tất cả thông tin đủ để chạy MARA? |
+| `extracted_by` | Tên | Người trích xuất |
+| `checked_by` | Tên | Người kiểm tra (double-coding) |
+| `converted_r` | Công thức tự động | `=SQRT(t²/(t²+df))` hoặc điền tay |
+| `fisher_z` | Công thức | `=0.5*LN((1+r)/(1-r))` |
+| `variance_z` | Công thức | `=1/(n-3)` |
+
+### Cột đã điền sẵn (chỉ cần kiểm tra)
 
 - `prescreen_flag` — Y / N / UNSURE (từ keyword engine)
 - `prescreen_reason` — lý do prescreen
-- `prescreen_icrv` — ICRV sơ bộ từ country mention
-- `prescreen_doi_type` — I measure sơ bộ
-- `prescreen_fp_type` — P measure sơ bộ
+- `icrv` — ICRV đã điền đầy đủ (0 trống)
+- `dpl` — DPL đã điền đầy đủ (0 trống)
+- `extraction_priority` — `1_DOI_FIRST` (310) / `2_NO_DOI_MANUAL` (125)
+- `doi`, `doi_link`, `google_scholar`, `openalex_search`, `unpaywall_api` — links đã điền
 
 ---
 
@@ -191,20 +223,20 @@ Dựa trên **năm xuất bản** (publication year):
 ```bash
 # OA check và download PDF (chạy LOCAL — server block Unpaywall/OpenAlex)
 python3 p6/tools/30_oa_check_and_download.py \
-  --input  p6/tools/results/extraction_worklist_v12_20260519.csv \
+  --input  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
   --output p6/tools/results/oa_check_20260519.csv \
   --pdfs   p6/tools/pdfs/ \
   --email  seranguyenct@gmail.com
 
 # Chọn subsample 20% để double-coding
 python3 p6/tools/09_select_reliability_subsample.py \
-  --input  p6/tools/results/extraction_worklist_v12_20260519.csv \
+  --input  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
   --output p6/tools/results/reliability_subsample.csv \
   --seed   42
 
 # Merge vào database chính (sau khi reliability đạt κ≥0.70)
 python3 p6/tools/10_merge_new_studies.py \
-  --new      p6/tools/results/extraction_worklist_v12_20260519.csv \
+  --new      p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
   --existing p6/data/p6_study_database.csv \
   --output   p6/data/p6_study_database_updated.csv
 
@@ -216,10 +248,16 @@ Rscript p6/scripts/p6_mara_updated.R
 
 ## Mẹo thực tế
 
+- **File canonical**: `fulltext_to_extraction_tracker_v2.csv` là file làm việc duy nhất — không cần dùng thêm file nào khác
 - **Batch 50 papers** mỗi lần để tránh fatigue — 435 papers Y ≈ 9 batch
-- **Ưu tiên Priority A** (310 papers có DOI) — truy cập full-text dễ hơn, dùng file `extraction_priority_v12_20260519.csv`
-- **Priority A (310 papers DOI)**: xác nhận abstract + download PDF tự động qua `30_oa_check_and_download.py` (chạy local)
-- **Priority B (125 papers no-DOI)**: tìm full-text thủ công qua Google Scholar / ResearchGate
+- **Ưu tiên `extraction_priority = 1_DOI_FIRST`** (310 papers có DOI) — cột này đã có sẵn trong tracker v2, không cần file ưu tiên riêng
+- **Priority A (310 papers DOI)**: điền `pdf_found`, download PDF tự động qua `30_oa_check_and_download.py` (chạy local), rồi điền `conversion_formula` + `converted_r`
+- **Priority B (125 papers no-DOI)**: tìm full-text thủ công qua Google Scholar / ResearchGate, điền `pdf_source`
+- **Công thức chuyển đổi** (điền vào cột `conversion_formula`):
+  - `r = sqrt(t² / (t² + df))`
+  - `Fisher_z = 0.5 * ln((1 + r) / (1 - r))`
+  - `variance_z = 1 / (n - 3)`
 - **100 prescreen_flag=N**: chỉ xác minh nhanh nếu nghi ngờ
+- **`ready_for_r = Y`** khi đã có: `r`, `n`, `icrv`, `dpl`, `doi_type`, `fp_type` — chỉ khi đó mới chuyển qua MARA
 - Tổng ước tính: **15–25 giờ** nếu làm đều đặn 2–3 giờ/ngày → **7–12 ngày**
 - **Lưu ý server**: Tất cả API học thuật (Unpaywall, OpenAlex, CrossRef) bị block (HTTP 403) từ server này — phải chạy OA download locally
