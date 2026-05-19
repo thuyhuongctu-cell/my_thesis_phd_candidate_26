@@ -327,7 +327,7 @@ The three-level pooled estimate (*r̂* = 0.074) is consistent with the ICBEF 202
 
 *Q*_M(ICRV) = 17.35 (*df* = 4, *p* = .002). H1 **confirmed** — the between-regime Q_M test is statistically significant as hypothesized. Exploratory Propositions E1a (Advanced largest) and E1b (Frontier smallest) are **not meta-analytically confirmed**: the significant Q_M is driven by the *k* = 3 Frontier-group anomaly rather than a monotone institutional gradient; see below.
 
-**Table 4.1 — ICRV regime subgroup results** *(actual MARA output, k=238/K=288)*
+**Table 4.2 — ICRV regime subgroup results** *(actual MARA output, k=238/K=288)*
 
 | Regime | *k* | *r̄* | 95% CI | Note |
 |--------|-----|-----|--------|------|
@@ -351,7 +351,7 @@ Group I (k=139, primarily Western MNEs and Asian advanced economies) shows the h
 
 Meta-regression with continuous cDAI score: β_cDAI = +0.003 (*SE* = 0.010, *p* = .744). Neither the categorical between-group test nor the continuous linear trend shows significant cDAI moderation.
 
-**Table 4.2 — cDAI subgroup** *(actual MARA output)*
+**Table 4.3 — cDAI subgroup** *(actual MARA output)*
 
 | cDAI Group | *k* | *r̄* | 95% CI | Δ vs. Low |
 |-----------|-----|-----|--------|-----------|
@@ -365,7 +365,7 @@ The three cDAI subgroup means are all significantly positive (*p* < .001) but do
 
 *Q*_M(DPL) = 0.62 (*df* = 2, *p* = .734). H2 **not supported**.
 
-**Table 4.3 — DPL phase subgroup** *(actual MARA output)*
+**Table 4.4 — DPL phase subgroup** *(actual MARA output)*
 
 | DPL Phase | Definition | *k* | *r̄* | 95% CI | Δ vs. PRE |
 |-----------|-----------|-----|-----|--------|-----------|
