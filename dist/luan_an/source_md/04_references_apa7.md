@@ -132,7 +132,7 @@ Pangarkar, N. (2008). Internationalization and performance of small- and medium-
 
 ## K. WBES references và báo cáo Việt Nam (cập nhật v2.5 — bổ sung 4 entries từ batch upload 5 PDFs 07/05/2026)
 
-CIEM (Viện Nghiên cứu Quản lý Kinh tế Trung ương). (2023). *Báo cáo Năng lực cạnh tranh và hiệu quả doanh nghiệp Việt Nam 2023*. Nhà xuất bản Khoa học và Kỹ thuật.
+CIEM. (2023). *Báo cáo Năng lực cạnh tranh và hiệu quả doanh nghiệp Việt Nam 2023* [Central Institute for Economic Management]. Nhà xuất bản Khoa học và Kỹ thuật.
 
 Tran, T. B., & Pham, T. H. (2024). Tác động của FDI đến năng suất doanh nghiệp Việt Nam: Phân tích đa thế hệ điều tra. *Tạp chí Kinh tế và Phát triển, 311*, 24–38.
 
@@ -379,7 +379,15 @@ Lakens, D., Scheel, A. M., & Isager, P. M. (2018). Equivalence testing for psych
 
 Nambisan, S., Wright, M., & Feldman, M. (2019). The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes. *Research Policy, 48*(8), 103773. https://doi.org/10.1016/j.respol.2019.03.018
 
+Eisenhardt, K. M., & Martin, J. A. (2000). Dynamic capabilities: What are they? *Strategic Management Journal, 21*(10–11), 1105–1121. https://doi.org/10.1002/smj.118
+
+Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. https://doi.org/10.1111/j.2042-5805.2012.01028.x
+
+Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
+
 North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
+
+Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. https://doi.org/10.1177/0149206319846272
 
 ---
 
@@ -678,3 +686,65 @@ Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014). Culture and entrepreneurial orie
 Falahat, M., Ramayah, T., Soto-Acosta, P., & Lee, Y.-Y. (2020). SMEs internationalization: The role of product innovation, market intelligence, pricing and marketing communication capabilities as drivers of SMEs' international performance. *Technological Forecasting and Social Change, 152*, Article 119908. https://doi.org/10.1016/j.techfore.2020.119908
 
 Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evolution. *Global Strategy Journal, 10*(2), 239–250. https://doi.org/10.1002/gsj.1383
+
+## U. P6 Meta-Analysis + Supplementary References v3.0 (17/05/2026)
+
+> Các entries dưới đây được xác định qua APA7 audit toàn diện cho P6 manuscript, CD1, và CD2. Chỉ gồm entries CHƯA có dạng formatted đầy đủ trong các phần trên.
+
+Aguinis, H., Dalton, D. R., Bosco, F. A., Pierce, C. A., & Dalton, C. M. (2011). Meta-analytic choices and judgment calls: Implications for theory and research. *Journal of Management, 37*(1), 5–38. https://doi.org/10.1177/0149206310370708
+
+Beblawi, H. (1987). The rentier state in the Arab world. In H. Beblawi & G. Luciani (Eds.), *The rentier state* (pp. 49–62). Croom Helm.
+
+Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2021). *Introduction to meta-analysis* (2nd ed.). Wiley.
+
+Briguglio, L. (1995). Small island developing states and their economic vulnerabilities. *World Development, 23*(9), 1615–1632. https://doi.org/10.1016/0305-750X(95)00065-K
+
+Cameron, A. C., & Miller, D. L. (2015). A practitioner's guide to cluster-robust inference. *Journal of Human Resources, 50*(2), 317–372. https://doi.org/10.3368/jhr.50.2.317
+
+Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum.
+
+Contractor, F. J. (2012). Why do multinational firms exist? A theory note about the effect of multinational expansion on performance and recent methodological critiques. *Global Strategy Journal, 2*(4), 318–331. https://doi.org/10.1111/j.2042-5805.2012.01043.x
+
+Cooper, H. (2010). *Research synthesis and meta-analysis: A step-by-step approach* (4th ed.). Sage.
+
+Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam.
+
+Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of Management Review, 32*(2), 334–343. https://doi.org/10.5465/amr.2007.24345254
+
+Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
+
+Hedges, L. V., & Olkin, I. (1985). *Statistical methods for meta-analysis*. Academic Press.
+
+Helpman, E., Melitz, M. J., & Yeaple, S. R. (2004). Export versus FDI with heterogeneous firms. *American Economic Review, 94*(1), 300–316. https://doi.org/10.1257/000282804322970814
+
+Jacquemin, A. P., & Berry, C. H. (1979). Entropy measure of diversification and corporate growth. *Journal of Industrial Economics, 27*(4), 359–369. https://doi.org/10.2307/2097958
+
+Katz, R., & Callorda, F. (2018). *The economic contribution of broadband, digitization and ICT regulation*. ITU Telecommunication Development Sector.
+
+Kraus, S., Breier, M., Lim, W. M., Dabić, M., Kumar, S., Kanbach, D., Mukherjee, D., Corvello, V., Piñeiro-Chousa, J., Liguori, E., Palacios-Marqués, D., Schiavone, F., Ferraris, A., Fernandes, C., & Ferreira, J. J. (2022). Literature reviews as independent studies: Guidelines for academic practice. *Review of Managerial Science, 16*(8), 2577–2595. https://doi.org/10.1007/s11846-022-00588-8
+
+Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics, 33*(1), 159–174. https://doi.org/10.2307/2529310
+
+Peng, M. W., Wang, D. Y. L., & Jiang, Y. (2008). An institution-based view of international business strategy: A focus on emerging economies. *Journal of International Business Studies, 39*(5), 920–936. https://doi.org/10.1057/palgrave.jibs.8400377
+
+Peterson, R. A., & Brown, S. P. (2005). On the use of beta coefficients in meta-analysis. *Journal of Applied Psychology, 90*(1), 175–181. https://doi.org/10.1037/0021-9010.90.1.175
+
+Raudenbush, S. W., & Bryk, A. S. (2002). *Hierarchical linear models: Applications and data analysis methods* (2nd ed.). Sage.
+
+Rosenthal, R. (1991). *Meta-analytic procedures for social research* (rev. ed.). Sage.
+
+Rosenthal, R. (1994). Parametric measures of effect size. In H. Cooper & L. V. Hedges (Eds.), *The handbook of research synthesis* (pp. 231–244). Sage.
+
+Sachs, J. D., & Warner, A. M. (2001). The curse of natural resources. *European Economic Review, 45*(4–6), 827–838. https://doi.org/10.1016/S0014-2921(01)00125-8
+
+Sahay, R., von Allmen, U. E., Lahreche, A., Khera, P., Ogawa, S., Bazarbash, M., & Beaton, K. (2020). *The promise of fintech: Financial inclusion in the post COVID-19 era* (IMF Departmental Paper No. DP/2020/09). International Monetary Fund.
+
+Solon, G., Haider, S. J., & Wooldridge, J. M. (2015). What are we weighting for? *Journal of Human Resources, 50*(2), 301–316. https://doi.org/10.3368/jhr.50.2.301
+
+Stanley, T. D., & Doucouliagos, H. (2014). Meta-regression approximations to reduce publication selection bias. *Research Synthesis Methods, 5*(1), 60–78. https://doi.org/10.1002/jrsm.1095
+
+Sutton, A. J., & Higgins, J. P. T. (2008). Recent developments in meta-analysis. *Statistics in Medicine, 27*(5), 625–650. https://doi.org/10.1002/sim.2982
+
+Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. *Journal of Statistical Software, 36*(3), 1–48. https://doi.org/10.18637/jss.v036.i03
+
+Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.

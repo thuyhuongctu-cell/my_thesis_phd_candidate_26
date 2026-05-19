@@ -296,7 +296,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 > M2 (Bậc hai FSTS — kiểm định H1):
 > lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + γ·X_it + δ_s + λ_t + ε_it
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) — điểm uốn 49,4% (2012) và 47,2% (2024)
+> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) — điểm uốn 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
 > Kiểm định ổn định cấu trúc: Paternoster (1998) z-test: z(FSTS) = +0,82 (p = 0,412); z(FSTS²) = −0,61 (p = 0,545) → không bác bỏ bình đẳng hệ số giữa hai sóng
 
 > M3 (+ NLCN trực tiếp — H2 level-shift):

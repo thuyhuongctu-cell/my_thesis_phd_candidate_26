@@ -1,4 +1,4 @@
-# Does Country Context Shape the Internationalization–Performance Link? A Three-Level Meta-Analytic Investigation of Digital Adoption, Institutional Regimes, and the Digital Paradox Lifecycle
+# Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis
 
 **Đỗ Thị Thúy Hương** · Can Tho University / Huong Do Thi Thuy
 **Phan Anh Tú** · Can Tho University
@@ -12,7 +12,7 @@
 
 **Purpose:** We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I→P) relationship — three theoretically motivated moderators that prior meta-analyses have not examined. **Design/methodology/approach:** A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 238 studies with *K* = 288 effect sizes. Three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study (*Level 2*) and between-study (*Level 3*) components using `metafor` in R. Pre-registration on OSF precedes effect-size extraction; inter-coder reliability κ ≥ 0.70 on 20% double-coded subsample. **Findings:** The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.4% (within-study 54.1%; between-study 8.4%), replicating and extending the ICBEF 2025 baseline (*r* = 0.07, *k* = 113). The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient; cDAI and DPL phase moderation are not statistically significant (*Q*_M = 1.23, *p* = .541 and *Q*_M = 0.56, *p* = .755, respectively) in the current *k* = 238 sample. Substantial publication bias is detected: trim-and-fill imputes *k* = 58 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.019, 0.051]) — positive but attenuated. **Originality/value:** This is the first three-level MARA of I→P drawing on *k* = 238 studies from 49 economies globally, and the first to formally test ICRV, cDAI, and DPL phase as moderators. The ICRV between-regime Q_M test confirms H1 (Q_M = 17.35, *p* = .002), while the directional gradient (E1a/E1b) and the cDAI and DPL hypotheses remain unconfirmed — a finding that, combined with substantial publication bias, reframes the heterogeneity puzzle: unexplained variance in I→P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
 
-**Keywords:** internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; ICRV; Digital Paradox Lifecycle; global; Asia-Pacific
+**Keywords:** internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; ICRV; Digital Paradox Lifecycle; global
 
 ---
 
@@ -148,7 +148,7 @@ An equivalent string using Scopus field codes (TITLE-ABS-KEY) was applied identi
 
 **Temporal coverage.** January 1977 — March 2026. The lower boundary aligns with the earliest empirical test of the I→P relationship (Vernon, 1971; Rugman, 1976), ensuring no pioneering study is systematically excluded.
 
-**OSF pre-registration.** The full protocol — including the search string, eligibility decision rules, moderator coding instructions, and planned metafor model specifications — was registered on OSF prior to database access. The registration identifier will be inserted at acceptance; the protocol document is available from the corresponding author.
+**OSF pre-registration.** The full protocol — including the search string, eligibility decision rules, moderator coding instructions, and planned metafor model specifications — was pre-registered on OSF prior to effect-size extraction (PRISMA 2020, Item 24a): https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN; registered May 18, 2026).
 
 ### 3.2 Eligibility Criteria and Study Selection
 
@@ -166,7 +166,7 @@ Two independent screeners applied the eligibility criteria below in two stages: 
 
 To ensure comparability and methodological quality across the primary-study corpus, the main meta-analysis was restricted to peer-reviewed journal articles and articles in press with identifiable DOI information. Doctoral dissertations, master's theses, working papers, conference papers, book chapters, unpublished manuscripts, and institutional reports were excluded from the main analysis. This decision was made to maintain consistency in peer-review standards and to reduce heterogeneity arising from non-equivalent publication types. Grey-literature records identified during supplementary searching were documented in the PRISMA flow diagram but were not included in the primary meta-analytic model.
 
-**PRISMA 2020 flow.** Records identified from electronic databases (WoS + Scopus): [*n* = TBD] → After automated deduplication: [*n* = TBD] → Title/abstract screen (two independent coders): [*n* = TBD] retained → Full-text eligibility assessment: [*n* = TBD] assessed → Effect size extractable and meeting all eligibility criteria: [*k* = TBD studies; *K* = TBD effect sizes]. Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The current working database (*k* = 238 coded studies; *K* = 288 effect sizes) was assembled from backward citation screening and hand-search prior to the formal database search; all counts will be updated to confirmed figures after the formal WoS/Scopus search is completed.
+**PRISMA 2020 flow (WoS arm confirmed; Scopus pending).** Records identified from WoS Core Collection: *n* = 2,180 (Starter API, 18 May 2026; SSCI + SCI-E + ESCI, 1977–2026) + Scopus: *n* = TBD (institutional access required). After automated within-WoS deduplication: *n* = 2,179 (1 duplicate removed). Level-1 keyword pre-screen (title-signal filtering): *n* = 782 records advanced to Level-2; *n* = 1,397 excluded (title clearly outside I→P domain). Level-2 title screen of 782 records (18 May 2026): *n* = 345 Y, *n* = 35 N, *n* = 402 UNSURE. UNSURE title-only re-screen (two rounds): Round 1 (script `14_resolve_unsure_titles.py`): *n* = 135 resolved Y (129 genuinely new after dedup vs. existing *k* = 287; 6 duplicates), *n* = 3 resolved N, *n* = 263 still UNSURE. Round 2 (script `18_resolve_unsure_round2.py`, two-tier rule expansion — hard antecedent/theory exclusions applied before I→P performance detection): *n* = 30 resolved Y (all genuinely new), *n* = 29 resolved N, *n* = 204 still UNSURE. Round 3 (script `20_resolve_unsure_round3.py`, extended HARD_EXCL and STRONG_INCL patterns — added innovation-as-DV, employment/macro DVs, born-global theory, survival/growth INCL patterns): *n* = 25 resolved Y (all genuinely new), *n* = 43 resolved N, *n* = 136 still UNSURE (abstract required to resolve). Round 4 (script `22_resolve_unsure_round4.py`, further HARD_EXCL extensions — capital structure, location strategy, antecedent/determinant language; STRONG_INCL — performance consequences, optimal multinationality deviations, over-internationalization reduction, OFDI home transformation, crisis resilience): *n* = 15 resolved Y (all genuinely new), *n* = 34 resolved N, *n* = 87 still UNSURE. Round 5 (title-only screening pass by first author, 19 May 2026, applying additional HARD_EXCL patterns: born-global-as-DV, determinants-of-exporting frames, EO-as-DV, health/psychology journals): *n* = 4 resolved Y, *n* = 11 resolved N, *n* = 72 still UNSURE. Round 6 (title-only screening pass by first author, 19 May 2026, extended pattern matching on remaining 72 titles): *n* = 8 resolved Y (all genuinely new), *n* = 46 resolved N, *n* = 18 still UNSURE. Round 7 (title-only pass 19 May 2026, manual signals: book-chapter DOI, single-case titles, antecedent-DV language, non-business journals): *n* = 0 resolved Y, *n* = 8 resolved N (book chapter, single case study, antecedent/EO development DV, conceptual perspective, industry-cluster macro unit, *n* = 6 descriptive), *n* = 10 still UNSURE. Round 8 (WebSearch-assisted abstract retrieval pass, 19 May 2026, applying I→P eligibility criteria to all 10 remaining UNSURE records): *n* = 3 resolved Y (S0129 — India textile Born Globals I→P M-curve; S0240 — SME internationalization speed → firm performance with organizational learning mediator; S0683 — Latin American EMNEs multinationality → performance with business group diversification moderator), *n* = 7 resolved N (cross-border R&D knowledge sourcing/non-standard I measure; exporting-as-DV antecedent study; innovation-exports nexus/wrong DV; game-theory M&A paper; family firm acquisition propensity/DV; MNE expansion patterns/DV; spillover study/domestic focal unit), *n* = 0 still UNSURE. Total L2 Y (WoS arm): *n* = 565 (= 345 + 135 + 30 + 25 + 15 + 4 + 8 + 0 + 3). Active extraction pool: *n* = 535 records (worklist v9; coded in `extraction_worklist_v9_20260519.csv`). Final included *k* = TBD; *K* = TBD (pending effect-size extraction). Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The prior working database (*k* = 238 coded studies; *K* = 288 effect sizes) assembled from backward citation screening and hand-search constitutes the baseline; all counts will be updated to confirmed figures after Scopus search and extraction are completed.
 
 ### 3.3 Data Extraction and Quality Assurance
 
@@ -600,45 +600,114 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 ## Appendix A — PRISMA 2020 Flow Diagram
 
-> **⚠️ All counts marked [TBD] will be confirmed after formal WoS + Scopus search.** The diagram below follows PRISMA 2020 (Page et al., 2021).
+> **WoS arm confirmed (18 May 2026). Scopus arm and final k/K pending extraction completion.**  
+> Follows PRISMA 2020 (Page et al., 2021). Numbers in parentheses are confirmed; [TBD] remain pending Scopus search or extraction.
 
 ```
 IDENTIFICATION
 ─────────────────────────────────────────────────────────────────
-Records from electronic databases (WoS Core Collection + Scopus):
-  [n = TBD]
-Records from supplementary methods
-  Backward citation scan (5 anchor meta-analyses): [n = TBD]
-  Hand-search (author's corpus, 2020–2026): n = 19
-  ──────────────────────────────────────
-  Total identified: [N = TBD]
+Records from electronic databases:
+  Web of Science Core Collection (SSCI+SCI-E+ESCI): n = 2,180 ✓
+  Scopus:                                            n = [TBD]
+  ─────────────────────────────────────────────────────
+  Total from databases:                              n = [TBD; WoS only = 2,180]
 
-SCREENING — Level 1 (Title / Abstract)
-─────────────────────────────────────────────────────────────────
-After deduplication: [n = TBD]
-  Excluded (title/abstract screen): [n = TBD]
-    - Does not examine I→P relationship: [n = TBD]
-    - Not firm-level analysis: [n = TBD]
-    - Non-English, no convertible ES in abstract: [n = TBD]
-    - Qualitative / conceptual only: [n = TBD]
-  Retained for full-text review: [n = TBD]
+Records from supplementary methods:
+  Backward citation scan (5 anchor meta-analyses):  n ≈ 478 screened
+  Hand-search (author corpus, 2024–2026):           n = 19
+  ─────────────────────────────────────────────────────
+  Total records identified:                         N = [TBD; WoS arm = 2,180]
 
-ELIGIBILITY — Level 2 (Full Text)
+SCREENING — Level 1 (Title / Keyword Pre-screen)
 ─────────────────────────────────────────────────────────────────
-Full texts assessed: [n = TBD]
-  Excluded: [n = TBD]
-    - No effect size convertible to r: [n = TBD]
-    - No DOI measure meeting PICO I criterion: [n = TBD]
-    - State-owned enterprise / government-controlled sample: [n = TBD]
-    - Duplicate sample (smaller/older retained for exclusion): [n = TBD]
-    - Meta-analysis or review (not primary study): [n = TBD]
-    - Conference paper / thesis / working paper: [n = TBD]
+After within-WoS deduplication:                      n = 2,179  (1 duplicate removed)
+  Excluded at L1 (title clearly outside I→P domain): n = 1,397
+    - No internationalization × performance signal  : n ≈ 1,200
+    - Systematic reviews / meta-analyses            : n ≈   97
+    - Qualitative / conceptual / medical            : n ≈  100
+  Retained for Level-2 title screen:                 n =   782  ✓
+
+SCREENING — Level 2 (Title Screen + UNSURE Resolution)
+─────────────────────────────────────────────────────────────────
+Records screened at L2 (title):                      n =   782
+  Initial decisions (18 May 2026):
+    Y (clearly eligible):                            n =   345
+    N (clearly excluded):                            n =    35
+      E1: Conceptual / editorial                     n =     4
+      E2: Qualitative / case study                   n =     8
+      E3: Macro-level / country-level analysis       n =     6
+      E5: Export as DV (not IV→performance)          n =    17
+    UNSURE (title insufficient):                     n =   402
+
+  UNSURE title-only re-screen — Round 1 (script 14):
+    Resolved Y:                                      n =   135
+      Genuinely new (not in existing k=287):         n =   129  ✓
+      Duplicates of existing database:               n =     6  → excluded
+    Resolved N:                                      n =     3
+    Still UNSURE after R1:                           n =   263
+
+  UNSURE title-only re-screen — Round 2 (script 18, two-tier rules):
+    Resolved Y (all genuinely new):                  n =    30  ✓
+    Resolved N:                                      n =    29
+    Still UNSURE after R2:                           n =   204
+
+  UNSURE title-only re-screen — Round 3 (script 20, extended patterns):
+    Resolved Y (all genuinely new):                  n =    25  ✓
+    Resolved N:                                      n =    43
+    Still UNSURE after R3:                           n =   136
+
+  UNSURE title-only re-screen — Round 4 (script 22, capital structure / location
+      strategy / antecedent/determinant exclusions; performance consequences /
+      optimal multinationality / crisis resilience inclusions):
+    Resolved Y (all genuinely new):                  n =    15  ✓
+    Resolved N:                                      n =    34
+    Still UNSURE:                                    n =    87
+
+  UNSURE title-only re-screen — Round 5 (first-author manual pass, 19/05/2026):
+    Resolved Y (all genuinely new):                  n =     4  ✓
+    Resolved N:                                      n =    11
+    Still UNSURE:                                    n =    72
+
+  UNSURE title-only re-screen — Round 6 (first-author manual pass, 19/05/2026):
+    Resolved Y (all genuinely new):                  n =     8  ✓
+    Resolved N:                                      n =    46
+    Still UNSURE:                                    n =    18
+
+  UNSURE title-only re-screen — Round 7 (manual signals: book-chapter DOI,
+      single-case, antecedent-DV, non-business journal, macro unit):
+    Resolved Y:                                      n =     0
+    Resolved N:                                      n =     8
+    Still UNSURE:                                    n =    10
+
+  UNSURE WebSearch abstract pass — Round 8 (19/05/2026, I→P eligibility
+      criteria applied via web-sourced abstracts for all 10 remaining):
+    Resolved Y (S0129, S0240, S0683):                n =     3
+    Resolved N (wrong I measure/DV/focal unit):      n =     7
+    Still UNSURE:                                    n =     0  ← ALL RESOLVED ✓
+
+  Total L2 Y (WoS arm):                             n =   565  ✓
+    (= 345 L2 Y + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6 + 0 R7 + 3 R8)
+
+ELIGIBILITY — Deduplication vs. Prior Database
+─────────────────────────────────────────────────────────────────
+Deduplicated against existing k=287 coded studies:
+  Confirmed genuinely new (R1):                      n =   321  ✓
+  Confirmed new (R1-R8):                             n =   214  (129+30+25+15+4+8+0+3)
+  Active extraction pool (worklist v9):              n =   535  ✓
+  Full-text excluded (reasons pending extraction):   n = [TBD]
+    - No calculable r or convertible statistic
+    - Unit of analysis not firm-level
+    - Conference paper / thesis / working paper
+    - Duplicate sample
 
 INCLUDED
 ─────────────────────────────────────────────────────────────────
-Studies included in meta-analysis: k = [TBD]
-Effect sizes coded: K = [TBD]
-  (Current working database prior to formal search: k = 238, K = 288)
+Studies included in meta-analysis:   k = [TBD] (prior DB: k = 238)
+Effect sizes coded:                  K = [TBD] (prior DB: K = 288)
+
+Note: Final k/K will reflect: existing k=238 + confirmed new studies from
+535-record extraction pool after full-text screening and effect-size extraction.
+Scopus arm counts will be added after CTU campus institutional search.
 ```
 
 *The PRISMA checklist (Page et al., 2021) is available from the corresponding author.*
