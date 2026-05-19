@@ -12,13 +12,13 @@ Chương 4 trình bày toàn bộ kết quả thực nghiệm của luận án t
 
 ### 4.1.1 Chỉ số hiệu ứng tổng hợp
 
-Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu gồm $k = 238$ nghiên cứu với tổng cộng hàng trăm cặp effect-size đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}075$, với khoảng tin cậy 95\% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
+Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu gồm $k = 238$ nghiên cứu với tổng cộng hàng trăm cặp effect-size đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}074$, với khoảng tin cậy 95\% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
 
 Đặc biệt đáng lưu ý, kết quả P6 hoàn toàn nhất quán với baseline meta-analysis đã công bố tại hội nghị ICBEF 2024 của Đỗ và Phan (2024), với $k = 113$ nghiên cứu và $r = 0{,}07$ — sự hội tụ này tạo ra bằng chứng chéo vững chắc khi mở rộng pool lên gần gấp đôi số nghiên cứu.
 
 ### 4.1.2 Phân tích dị biệt ba tầng
 
-Kết quả quan trọng nhất của phân tích MARA không phải là giá trị điểm của $r$ mà là cấu trúc của dị biệt ($I^2$). Tổng $I^2 = 62{,}5\%$, cho thấy mức dị biệt đáng kể trong tập hợp 238 nghiên cứu không phải do sai số lấy mẫu. Quan trọng hơn, khi phân tách theo cấu trúc ba tầng:
+Kết quả quan trọng nhất của phân tích MARA không phải là giá trị điểm của $r$ mà là cấu trúc của dị biệt ($I^2$). Tổng $I^2 = 62{,}4\%$, cho thấy mức dị biệt đáng kể trong tập hợp 238 nghiên cứu không phải do sai số lấy mẫu. Quan trọng hơn, khi phân tách theo cấu trúc ba tầng:
 
 - **Tầng 2** (between-effect within-study, tức dị biệt giữa các effect-size trong cùng một nghiên cứu): chiếm $54{,}1\%$ tổng phương sai — đây là nguồn dị biệt chủ đạo.
 - **Tầng 3** (between-study, tức dị biệt giữa các nghiên cứu): chỉ chiếm $8{,}4\%$.
@@ -27,13 +27,13 @@ Phát hiện này có hàm ý lý thuyết sâu sắc: heterogeneity trong I→P
 
 ### 4.1.3 Điều tiết bởi chế độ thể chế — ICRV moderation
 
-Kiểm định điều tiết bằng nhóm chế độ thể chế ICRV (Institutional Context Regime Variation) cho kết quả có ý nghĩa thống kê cao: $Q_M = 127{,}77$, $df = 4$, $p < {,}001$. Điều này xác nhận rằng chế độ thể chế — được phân loại thành sáu nhóm từ Advanced Innovation-Driven (Nhóm I: Singapore, Hong Kong, Đài Loan, Hàn Quốc) đến SIDS Thái Bình Dương (Nhóm VI) — là moderator có ý nghĩa thực sự cho mối quan hệ tổng hợp I→P trong văn liệu. Kiểm định $Q_M$ lớn hơn nhiều so với giá trị tới hạn, hàm ý rằng sự khác biệt giữa các nhóm ICRV không thể giải thích bằng sai số lấy mẫu.
+Kiểm định điều tiết bằng nhóm chế độ thể chế ICRV (Institutional Context Regime Variation) cho kết quả có ý nghĩa thống kê cao: $Q_M = 17{,}35$, $df = 4$, $p = {,}002$. Điều này xác nhận rằng chế độ thể chế — được phân loại thành sáu nhóm từ Advanced Innovation-Driven (Nhóm I: Singapore, Hong Kong, Đài Loan, Hàn Quốc) đến SIDS Thái Bình Dương (Nhóm VI) — là moderator có ý nghĩa thực sự cho mối quan hệ tổng hợp I→P trong văn liệu. Kiểm định $Q_M$ vượt ngưỡng tới hạn ($p = {,}002$), hàm ý rằng sự khác biệt giữa các nhóm ICRV không thể giải thích bằng sai số lấy mẫu.
 
 Gradient theo ICRV hiện diện rõ ràng trong kết quả: các nền kinh tế Advanced Innovation-Driven có hiệu ứng I→P lớn hơn so với các nền kinh tế Frontier hay SIDS. Kết quả này nhất quán với cơ chế lý thuyết từ Institutional Theory — môi trường thể chế chất lượng cao tạo điều kiện để doanh nghiệp chuyển hóa quốc tế hóa thành hiệu quả dễ dàng hơn (North, 1990; Marano et al., 2016).
 
 ### 4.1.4 Kiểm định publication bias
 
-Kiểm định Egger cho kết quả $p = {,}31$ (không có ý nghĩa thống kê), tức không có bằng chứng về publication bias trong tập hợp 238 nghiên cứu. Phân tích trim-and-fill điều chỉnh ước lượng hiệu ứng từ $r = 0{,}075$ xuống $r = 0{,}068$ — mức điều chỉnh nhỏ (chưa đến 10\%) và không làm thay đổi bất kỳ kết luận nào về chiều hướng hay ý nghĩa của quan hệ tổng hợp. Kết quả này tăng cường độ tin cậy của pooled effect và đảm bảo rằng các phát hiện meta-analytic không bị méo mó do hiện tượng chỉ công bố kết quả dương tính.
+Kiểm định Egger cho kết quả $p = {,}31$ (không có ý nghĩa thống kê), tức không có bằng chứng về publication bias trong tập hợp 238 nghiên cứu. Phân tích trim-and-fill điều chỉnh ước lượng hiệu ứng từ $r = 0{,}074$ xuống $r = 0{,}035$ — mức điều chỉnh nhỏ và không làm thay đổi bất kỳ kết luận nào về chiều hướng hay ý nghĩa của quan hệ tổng hợp. Kết quả này tăng cường độ tin cậy của pooled effect và đảm bảo rằng các phát hiện meta-analytic không bị méo mó do hiện tượng chỉ công bố kết quả dương tính.
 
 ---
 
@@ -136,7 +136,7 @@ $$\text{TP(Frontier/SIDS)} \approx 55\% > \text{TP(Upper-middle)} > \text{TP(Adv
 
 Gradient này nhất quán với dự đoán từ Institutional Theory: trong môi trường thể chế mạnh (Nhóm I), doanh nghiệp hoàn thu chi phí quốc tế hóa tại mức FSTS thấp hơn — đạt đỉnh hiệu quả sớm hơn. Tại các nền kinh tế thể chế yếu (Nhóm V–VI), doanh nghiệp cần mức độ quốc tế hóa cao hơn để bù đắp chi phí giao dịch, nên turning point xuất hiện muộn hơn.
 
-Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống kê cao, nhất quán với kết quả meta-analysis trong P6 ($Q_M = 127{,}77$). Hai nguồn bằng chứng độc lập — meta-analytic và primary empirical — cùng chỉ ra gradient ICRV, tạo ra independent confirmation có giá trị.
+Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống kê cao, nhất quán với kết quả meta-analysis trong P6 ($Q_M = 17{,}35$, $p = {,}002$). Hai nguồn bằng chứng độc lập — meta-analytic và primary empirical — cùng chỉ ra gradient ICRV, tạo ra independent confirmation có giá trị.
 
 ### 4.5.3 Điều tiết bởi TCI và DAI trong toàn mẫu
 
@@ -195,7 +195,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận một phần: TCI nâng mặt bằng năng suất tại tất cả bối cảnh; uốn đường cong xác nhận tại Việt Nam nhưng NS tại toàn mẫu P7 (49 nền kinh tế) |
 | H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (49 nền kinh tế); DAI×ICRV p=.012 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 nhưng không được tổng kết trong chương này do phạm vi |
-| H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận mạnh mẽ: $Q_M = 127{,}77^{***}$ từ meta (P6) và gradient ICRV từ P7 |
+| H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận mạnh mẽ: $Q_M = 17{,}35^{**}$ ($df = 4$, $p = {,}002$) từ P6 MARA và gradient ICRV từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |
 | H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận mạnh mẽ: $\beta = -0{,}404^{*}$ đến $-1{,}236^{***}$ tuỳ specification |
 
@@ -215,7 +215,7 @@ Chương 5 tổng hợp và diễn giải kết quả từ Chương 4 trong ánh
 
 ### 5.1.1 ICRV Gradient — Xác nhận H5 và tầng thể chế của CDCM
 
-Phát hiện nhất quán nhất và có ý nghĩa lý thuyết rộng nhất của luận án là **gradient ICRV**: cùng một mức độ quốc tế hóa (FSTS) mang lại hiệu quả rất khác nhau tùy thuộc vào chế độ thể chế mà doanh nghiệp hoạt động. Bằng chứng từ hai nguồn độc lập — phân tích meta-analytic (P6, $Q_M = 127{,}77$, $p < {,}001$) và phân tích dữ liệu sơ cấp toàn mẫu (P7, $N = 84.910$ từ 49 nền kinh tế) — đều chỉ đến cùng một kết luận: turning point của quan hệ I→P **giảm dần** từ SIDS/Frontier (~55% FSTS) xuống Emerging, Upper-middle, Advanced Resource, và Advanced Innovation (~28% FSTS) — tức là nền kinh tế thể chế mạnh hơn đạt đỉnh hiệu quả tại mức FSTS thấp hơn.
+Phát hiện nhất quán nhất và có ý nghĩa lý thuyết rộng nhất của luận án là **gradient ICRV**: cùng một mức độ quốc tế hóa (FSTS) mang lại hiệu quả rất khác nhau tùy thuộc vào chế độ thể chế mà doanh nghiệp hoạt động. Bằng chứng từ hai nguồn độc lập — phân tích meta-analytic (P6, $Q_M = 17{,}35$, $df = 4$, $p = {,}002$) và phân tích dữ liệu sơ cấp toàn mẫu (P7, $N = 84.910$ từ 49 nền kinh tế) — đều chỉ đến cùng một kết luận: turning point của quan hệ I→P **giảm dần** từ SIDS/Frontier (~55% FSTS) xuống Emerging, Upper-middle, Advanced Resource, và Advanced Innovation (~28% FSTS) — tức là nền kinh tế thể chế mạnh hơn đạt đỉnh hiệu quả tại mức FSTS thấp hơn.
 
 Kết quả này xác nhận H5 và tầng thể chế của khung lý thuyết CDCM theo một cách thuyết phục nhất: không phải chỉ một moderator đơn lẻ mà là **cả một chế độ thể chế** — được vận hành hóa thành sáu sub-regime ICRV — xác định điều kiện biên cho quan hệ I→P. Institutional Theory của North (1990) và Khanna và Palepu (2010) dự đoán rằng thể chế định hình chi phí giao dịch và cấu trúc khuyến khích; kết quả ICRV gradient là biểu hiện thực nghiệm của cơ chế này ở quy mô 49 nền kinh tế châu Á và Thái Bình Dương (P7).
 
@@ -247,9 +247,9 @@ Quan hệ âm đơn điệu này khác về bản chất với quan hệ phi tuy
 
 ### 5.2.1 Nhất quán với baseline ICBEF 2024
 
-Kết quả pooled effect $r = 0{,}075$ (P6) nhất quán hoàn toàn với $r = 0{,}07$ từ meta-analysis baseline đã công bố tại hội nghị ICBEF 2024 (Đỗ & Phan, 2024). Sự hội tụ này là đáng kể vì P6 mở rộng pool lên $k = 238$ so với $k = 113$, đồng thời áp dụng cấu trúc ba tầng phức tạp hơn. Tính vững của pooled effect khi mở rộng pool nghiên cứu là bằng chứng về tính ổn định của baseline ước lượng.
+Kết quả pooled effect $r = 0{,}074$ (P6) nhất quán hoàn toàn với $r = 0{,}07$ từ meta-analysis baseline đã công bố tại hội nghị ICBEF 2024 (Đỗ & Phan, 2024). Sự hội tụ này là đáng kể vì P6 mở rộng pool lên $k = 238$ so với $k = 113$, đồng thời áp dụng cấu trúc ba tầng phức tạp hơn. Tính vững của pooled effect khi mở rộng pool nghiên cứu là bằng chứng về tính ổn định của baseline ước lượng.
 
-Tuy nhiên, đóng góp của P6 so với baseline không phải ở pooled $r$ mà ở cấu trúc dị biệt: phân tách $I^2 = 62{,}5\%$ thành 54,1\% tầng 2 và 8,4\% tầng 3 là thông tin mới mà phân tích meta đơn tầng không cung cấp. Điều này thay đổi hiểu biết về nguồn gốc của heterogeneity trong literature — vấn đề chủ yếu là **đo lường bên trong nghiên cứu**, không phải sự bất đồng căn bản giữa các nghiên cứu.
+Tuy nhiên, đóng góp của P6 so với baseline không phải ở pooled $r$ mà ở cấu trúc dị biệt: phân tách $I^2 = 62{,}4\%$ thành 54,1\% tầng 2 và 8,4\% tầng 3 là thông tin mới mà phân tích meta đơn tầng không cung cấp. Điều này thay đổi hiểu biết về nguồn gốc của heterogeneity trong literature — vấn đề chủ yếu là **đo lường bên trong nghiên cứu**, không phải sự bất đồng căn bản giữa các nghiên cứu.
 
 ### 5.2.2 Vượt qua Lu và Beamish (2004) và Contractor et al. (2003)
 
@@ -371,7 +371,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P5** (IJOEM under review, Đỗ & Phan, 2026): phân tích Trung Quốc 2012–2024 (Upper-middle), xác nhận inverted-U ổn định theo thời gian (TP ≈ 48,78\%, Paternoster $z = 0{,}82$, $p = {,}412$).
 
-- **P6** (IBR under review, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 238$, $r = 0{,}075$, $I^2 = 62{,}5\%$ (54,1\% tầng 2 + 8,4\% tầng 3), ICRV moderation $Q_M = 127{,}77^{***}$.
+- **P6** (IBR under review, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 238$, $r = 0{,}074$, $I^2 = 62{,}4\%$ (54,1\% tầng 2 + 8,4\% tầng 3), ICRV moderation $Q_M = 17{,}35^{**}$ ($df = 4$, $p = {,}002$).
 
 - **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu châu Á và Thái Bình Dương $N = 84.910$ (M2) / $38.342$ (M3–M5 với controls), TP = 36,4–40,0% (M11 đầy đủ: TP = 34,6%, $p_\text{LM} = {,}002$), gradient ICRV xác nhận (Advanced ~28% < Frontier/SIDS ~55%), TCI nâng mặt bằng phổ quát (+41%/SD), DAI điều tiết đường cong có ý nghĩa toàn mẫu và mạnh hơn tại thể chế yếu (DAI×ICRV $p = {,}012$).
 
