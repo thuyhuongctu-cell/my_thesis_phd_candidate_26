@@ -62,13 +62,15 @@ EXCLUDE_RULES = [
      r"|strateg|innovat|antecedent|determinant|driver|predictor|influenc)",
                                                        "wrong-dir-export-perf-DV", 3),
     # "Export performance" as DV in clear antecedent framing (not caught above)
-    (r"(?:how|what)\b.{1,60}\bexport\s+performanc"           # How X impacts EP
-     r"|\beffect\b.{1,40}\bexport\s+performanc"              # effect of X on EP
-     r"|\bimpact\b.{1,40}\bexport\s+performanc"              # impact on EP
+    (r"(?:how|what)\b.{1,60}\bexport\s+performanc"           # How/What X exports perf
+     r"|\beffects?\b.{1,60}\bexport\s+performanc"            # effect(s) of X on EP
+     r"|\bimpact\b.{1,60}\bexport\s+performanc"              # impact on EP
+     r"|\binfluences?\b.{1,60}\bexport\s+performanc"         # influence of X on EP
      r"|\bchallenge.{0,25}\bexport\s+performanc"             # challenges in EP
      r"|\bexport\s+performance\s+of\s+\b"                    # EP of firms/SMEs
      r"|\bapproach\b.{1,30}\bexport\s+performanc"            # approach to EP
-     r"|\bexport\s+performance\b.*\bcase\s+of\b",            # EP: case of X
+     r"|\bexport\s+performance\b.*\bcase\s+of\b"             # EP: case of X
+     r"|\bimprove\b.{1,30}\bexport\s+(?:intensit|performanc)",  # improve export DV
                                                        "antecedent-framing-export-perf", 3),
 ]
 

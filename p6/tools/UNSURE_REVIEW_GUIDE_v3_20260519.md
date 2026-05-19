@@ -1,25 +1,27 @@
-# UNSURE Review Guide — L2 Manual Screening (v3, 19/05/2026)
+# UNSURE Review Guide — L2 Manual Screening (v4, 19/05/2026)
 
 ## Summary
 
-After v3 rule-based prescreening of 535 extraction candidates:
+After v4 rule-based prescreening of 535 extraction candidates:
 - **Pre-Y**: 394 (73.6%) — probable INCLUDE, proceed to effect-size extraction
-- **Pre-N**: 45 (8.4%) — probable EXCLUDE, verify then dismiss
-- **UNSURE**: 96 (17.9%) — require manual review (this guide)
+- **Pre-N**: 49 (9.2%) — probable EXCLUDE, verify then dismiss
+- **UNSURE**: 92 (17.2%) — require manual review (this guide)
 
-Use: `p6/tools/results/extraction_worklist_v10_20260519.csv`  
+v4 improvements over v3: fixed `\beffects?\b` plural matching + added "influence of X on export perf" + "improve export DV" patterns. 4 papers moved UNSURE→N (seq 37/98/99/434).
+
+Use: `p6/tools/results/extraction_worklist_v11_20260519.csv`  
 Sort by `prescreen_flag` → review N first, then UNSURE.
 
 ---
 
-## UNSURE Breakdown (96 papers)
+## UNSURE Breakdown (92 papers)
 
 | Category | Count | Action |
 |----------|-------|--------|
 | `WEAK-INCL:exporter` | 11 | Likely INCLUDE if exports → firm performance; EXCLUDE if exports is DV |
 | `WEAK-INCL:financial-perf` | 6 | Likely INCLUDE if I→financial performance clear; check direction |
 | `WEAK-INCL:subsidiaries` | 2 | Likely INCLUDE if FDI/subsidiary → firm performance; EXCLUDE if DV is entry decision |
-| `NO-CLEAR-SIGNAL` | 77 | Need abstract to determine direction; see batched list below |
+| `NO-CLEAR-SIGNAL` | 73 | Need abstract to determine direction; see batched list below |
 
 ---
 
@@ -117,7 +119,7 @@ to get AI-based recommendations before manual review:
 
 ```bash
 python3 p6/tools/29_claude_api_batch_screener.py \
-  --input p6/tools/results/extraction_worklist_v10_20260519.csv \
+  --input p6/tools/results/extraction_worklist_v11_20260519.csv \
   --output p6/tools/results/l2_ai_screened_20260519.csv \
   --api-key sk-ant-YOUR_API_KEY \
   --mode unsure
