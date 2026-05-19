@@ -114,6 +114,7 @@ def _download_pdf(url: str, dest: Path) -> bool:
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
+    global EMAIL
     ap = argparse.ArgumentParser()
     ap.add_argument("--input",  default="p6/tools/results/extraction_worklist_v11_20260519.csv")
     ap.add_argument("--output", default="p6/tools/results/oa_check_20260519.csv")
@@ -123,7 +124,6 @@ def main():
     ap.add_argument("--limit",  type=int, default=0, help="Process only first N DOIs (0=all)")
     args = ap.parse_args()
 
-    global EMAIL
     EMAIL = args.email
 
     pdf_dir = Path(args.pdfs)
