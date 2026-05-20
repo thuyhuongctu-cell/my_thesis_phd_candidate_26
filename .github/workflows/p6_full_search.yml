@@ -3,8 +3,20 @@ name: P6 Full Search — WoS + Scopus + OpenAlex
 on:
   workflow_dispatch:
     inputs:
+      wos_api_key:
+        description: 'WoS Starter API Key (Clarivate)'
+        required: false
+        default: ''
+      scopus_api_key:
+        description: 'Scopus API Key (Elsevier)'
+        required: false
+        default: ''
+      openalex_api_key:
+        description: 'OpenAlex API Key'
+        required: false
+        default: ''
       max_wos:
-        description: 'Max WoS records (Free: 2500/day)'
+        description: 'Max WoS records'
         required: false
         default: '2500'
       max_scopus:
@@ -40,30 +52,39 @@ jobs:
 
       # ── 1. WoS ──────────────────────────────────────────────────────────
       - name: Run WoS Starter API search
-        if: ${{ secrets.WOS_API_KEY != '' }}
         env:
-          WOS_API_KEY: ${{ secrets.WOS_API_KEY }}
+          WOS_API_KEY: ${{ github.event.inputs.wos_api_key || secrets.WOS_API_KEY }}
         run: |
-          python3 p6/tools/06_wos_api_search.py \
-            --max ${{ github.event.inputs.max_wos || '2500' }} \
-            --output p6/tools/results/wos_api_$(date +%Y%m%d).csv
-          echo "WoS done: $(wc -l < p6/tools/results/wos_api_$(date +%Y%m%d).csv) lines"
+          if [ -z "$WOS_API_KEY" ]; then
+            echo "WoS API key not provided — skipping"
+          else
+            python3 p6/tools/06_wos_api_search.py \
+              --max ${{ github.event.inputs.max_wos || '2500' }} \
+              --output p6/tools/results/wos_api_$(date +%Y%m%d).csv
+            echo "WoS done: $(tail -n +2 p6/tools/results/wos_api_$(date +%Y%m%d).csv | wc -l) records"
+          fi
         continue-on-error: true
 
       # ── 2. Scopus ────────────────────────────────────────────────────────
       - name: Run Scopus API search
-        if: ${{ secrets.SCOPUS_API_KEY != '' }}
         env:
-          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key || secrets.SCOPUS_API_KEY }}
         run: |
-          python3 p6/tools/05_scopus_api_search.py \
-            --max ${{ github.event.inputs.max_scopus || '5000' }} \
-            --output p6/tools/results/scopus_api_$(date +%Y%m%d).csv
-          echo "Scopus done: $(wc -l < p6/tools/results/scopus_api_$(date +%Y%m%d).csv) lines"
+          if [ -z "$SCOPUS_API_KEY" ]; then
+            echo "Scopus API key not provided — skipping"
+          else
+            python3 p6/tools/05_scopus_api_search.py \
+              --max ${{ github.event.inputs.max_scopus || '5000' }} \
+              --output p6/tools/results/scopus_api_$(date +%Y%m%d).csv
+            echo "Scopus done: $(tail -n +2 p6/tools/results/scopus_api_$(date +%Y%m%d).csv | wc -l) records"
+          fi
         continue-on-error: true
 
       # ── 3. OpenAlex ──────────────────────────────────────────────────────
       - name: Run OpenAlex search
+        env:
+          OPENALEX_API_KEY: ${{ github.event.inputs.openalex_api_key || secrets.OPENALEX_API_KEY }}
+          MAX_OA: ${{ github.event.inputs.max_openalex || '5000' }}
         run: |
           python3 - <<'PYEOF'
           import requests, csv, time, os
@@ -73,6 +94,7 @@ jobs:
           API_KEY = os.environ.get("OPENALEX_API_KEY", "")
           TODAY   = date.today().strftime("%Y%m%d")
           OUT     = Path("p6/tools/results") / f"openalex_api_{TODAY}.csv"
+          MAX     = int(os.environ.get("MAX_OA", "5000"))
 
           QUERIES = [
               "internationalization firm performance",
@@ -80,7 +102,7 @@ jobs:
               "export intensity labor productivity firm",
               "foreign sales total sales financial performance",
               "multinationality degree internationalization performance",
-              "FSTS FATA firm performance Asia",
+              "FSTS FATA firm performance",
           ]
 
           headers = {"User-Agent": "mailto:Thuyhuongctu@gmail.com"}
@@ -91,8 +113,10 @@ jobs:
           fieldnames = ["source","source_id","authors","year","title","journal","doi","abstract"]
 
           for q in QUERIES:
+              if len(rows) >= MAX:
+                  break
               page, per_page = 1, 200
-              while True:
+              while len(rows) < MAX:
                   params = {
                       "search": q,
                       "filter": "publication_year:1977-2026,type:article",
@@ -101,12 +125,12 @@ jobs:
                       "select": "id,doi,title,publication_year,primary_location,authorships,abstract_inverted_index",
                   }
                   try:
-                      r = requests.get("https://api.openalex.org/works", params=params,
-                                       headers=headers, timeout=30)
+                      r = requests.get("https://api.openalex.org/works",
+                                       params=params, headers=headers, timeout=30)
                       r.raise_for_status()
                       data = r.json()
                   except Exception as e:
-                      print(f"Error q={q!r} page={page}: {e}")
+                      print(f"Error q={q!r[:40]} page={page}: {e}")
                       break
 
                   hits = data.get("results", [])
@@ -114,73 +138,70 @@ jobs:
                       break
 
                   for w in hits:
-                      oid = w.get("id","")
+                      oid = w.get("id", "")
                       if oid in seen:
                           continue
                       seen.add(oid)
-                      doi = (w.get("doi") or "").replace("https://doi.org/","")
+                      doi = (w.get("doi") or "").replace("https://doi.org/", "")
                       auths = "; ".join(
-                          a.get("author",{}).get("display_name","")
+                          a.get("author", {}).get("display_name", "")
                           for a in (w.get("authorships") or [])[:5]
                       )
-                      journal = ""
-                      loc = w.get("primary_location") or {}
-                      src = loc.get("source") or {}
-                      journal = src.get("display_name","")
-                      # reconstruct abstract
+                      loc = (w.get("primary_location") or {})
+                      journal = (loc.get("source") or {}).get("display_name", "")
                       inv = w.get("abstract_inverted_index") or {}
                       abstract = ""
                       if inv:
-                          words = sorted(((pos,word) for word,positions in inv.items()
-                                          for pos in positions))
-                          abstract = " ".join(w for _,w in words)
+                          words = sorted((pos, word)
+                                         for word, positions in inv.items()
+                                         for pos in positions)
+                          abstract = " ".join(w for _, w in words)[:500]
                       rows.append({
                           "source": "openalex",
                           "source_id": oid,
                           "authors": auths,
-                          "year": w.get("publication_year",""),
-                          "title": w.get("title",""),
+                          "year": w.get("publication_year", ""),
+                          "title": w.get("title", ""),
                           "journal": journal,
                           "doi": doi,
-                          "abstract": abstract[:500],
+                          "abstract": abstract,
                       })
 
-                  total = data.get("meta",{}).get("count",0)
-                  print(f"  q={q!r[:40]} page={page} got={len(hits)} total={total} unique={len(seen)}")
-                  if len(rows) >= int(os.environ.get("MAX_OA","5000")):
-                      break
+                  total = data.get("meta", {}).get("count", 0)
+                  print(f"  q={q[:40]!r} page={page} got={len(hits)} total={total} unique={len(seen)}")
                   if page * per_page >= total:
                       break
                   page += 1
-                  time.sleep(0.1)
+                  time.sleep(0.12)
 
-          with open(OUT,"w",newline="",encoding="utf-8") as f:
-              w = csv.DictWriter(f, fieldnames=fieldnames)
-              w.writeheader()
-              w.writerows(rows)
+          with open(OUT, "w", newline="", encoding="utf-8") as f:
+              writer = csv.DictWriter(f, fieldnames=fieldnames)
+              writer.writeheader()
+              writer.writerows(rows)
           print(f"\nOpenAlex done: {len(rows)} unique records → {OUT}")
           PYEOF
-        env:
-          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-          MAX_OA: ${{ github.event.inputs.max_openalex || '5000' }}
         continue-on-error: true
 
       # ── Summary ──────────────────────────────────────────────────────────
       - name: Print summary
         run: |
-          echo "========= SEARCH SUMMARY ========="
+          echo "========= SEARCH SUMMARY $(date +%Y-%m-%d) ========="
           TODAY=$(date +%Y%m%d)
+          TOTAL=0
           for f in p6/tools/results/wos_api_${TODAY}.csv \
                    p6/tools/results/scopus_api_${TODAY}.csv \
                    p6/tools/results/openalex_api_${TODAY}.csv; do
             if [ -f "$f" ]; then
-              LINES=$(wc -l < "$f")
-              echo "  $f: $((LINES-1)) records"
+              N=$(tail -n +2 "$f" | wc -l)
+              TOTAL=$((TOTAL + N))
+              echo "  ✓ $(basename $f): $N records"
             else
-              echo "  $f: NOT PRODUCED"
+              echo "  ✗ $(basename $f): not produced"
             fi
           done
-          echo "=================================="
+          echo "  ─────────────────────────────────"
+          echo "  TOTAL: $TOTAL records across all sources"
+          echo "=========================================="
 
       # ── Commit ───────────────────────────────────────────────────────────
       - name: Commit and push all results
