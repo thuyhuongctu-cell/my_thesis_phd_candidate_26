@@ -6,7 +6,7 @@ then download freely available PDFs.
 
 Usage:
   python3 30_oa_check_and_download.py \
-      --input  p6/tools/results/extraction_worklist_v11_20260519.csv \
+      --input  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
       --output p6/tools/results/oa_check_20260519.csv \
       --pdfs   p6/tools/pdfs/ \
       --email  seranguyenct@gmail.com
