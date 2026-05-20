@@ -84,7 +84,7 @@ Luận án phân biệt rõ hai construct:
 
 #### Biến thể chế
 
-**Biến chính**: business obstacle index (tổng hợp từ các câu hỏi WBES về obstacles), country-level governance proxies (WGI Rule of Law, Kaufmann et al., 2011), 6 sub-regime ICRV (classification từ Khanna & Palepu, 2010 mở rộng).
+**Biến chính**: business obstacle index (tổng hợp từ các câu hỏi WBES về obstacles), country-level governance proxies — chỉ số pháp quyền WGI (Kaufmann et al., 2011), 6 sub-regime ICRV (classification từ Khanna & Palepu, 2010 mở rộng).
 
 **Cơ sở kế thừa**: Khanna và Palepu (2010) với institutional voids; North (1990) với institutional analysis; Marano et al. (2016) với meta-analytic evidence về institutional moderators.
 

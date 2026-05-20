@@ -748,3 +748,47 @@ Sutton, A. J., & Higgins, J. P. T. (2008). Recent developments in meta-analysis.
 Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. *Journal of Statistical Software, 36*(3), 1–48. https://doi.org/10.18637/jss.v036.i03
 
 Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
+
+---
+
+## V. Citation Audit v3.1 (20/05/2026) — Entries chưa có trong refs
+
+> Các entries dưới đây được thêm từ audit format-apa7 toàn bộ 5 chương luận án (20/05/2026). Gồm: 3 self-citations mới (P6 IBR, P7 JIBS, P8 World Dev), 8 entries từ "Giữ nguyên" blocks chưa được expand, và 2 auxiliary entries.
+
+### Công trình của tác giả luận án — Cập nhật Section M
+
+Đỗ, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam. *(Alias Đỗ cho Do — cùng entry với Section U dòng 710, dùng dạng tên Việt cho in-text "Đỗ & Phan, 2024".)*
+
+Đỗ, T. H., & Phan, A. T. (2026a). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript under review]. *Journal of Asia Business Studies*. *(P3 — Việt Nam, JABS under review.)*
+
+Đỗ, T. H., & Phan, A. T. (2026b). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. *(P2 — Trung Quốc SMEs, đã công bố — alias Đỗ.)*
+
+Đỗ, T. H., & Phan, A. T. (2026c). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Manuscript under review]. *International Journal of Emerging Markets*. *(P5 — Trung Quốc, IJOEM under review.)*
+
+Đỗ, T. H., & Phan, A. T. (2026d). *Institutional context, digital adoption, and the internationalization–performance relationship: A three-level meta-analysis* [Manuscript under review]. *International Business Review*. *(P6 — Meta-analysis, IBR under review.)*
+
+Đỗ, T. H., & Phan, A. T. (2026e). *Internationalization and firm performance across 49 Asian and Pacific economies: Institutional regimes, digital capabilities, and managerial characteristics as contingency factors* [Manuscript under revision]. *Journal of International Business Studies*. *(P7 — Đa quốc gia 49 nền kinh tế, JIBS under revision.)*
+
+Đỗ, T. H., & Phan, A. T. (2026f). *Forced internationalization penalty: Firm performance in Pacific small island developing states* [Manuscript under review]. *World Development*. *(P8 — Pacific SIDS, World Development under review.)*
+
+### Phương pháp kinh tế lượng + Meta-analysis (Section J mở rộng)
+
+Arte, L., & Larimo, J. (2022). Moderating influence of psychic distance on the international diversification–performance relationship: Insights from a meta-analysis. *Journal of Business Research, 139*, 230–245. https://doi.org/10.1016/j.jbusres.2021.09.060
+
+Aterido, R., Hallward-Driemeier, M., & Pagés, C. (2011). Big constraints to small firms' growth? Business environment and employment growth across firms. *Economic Development and Cultural Change, 59*(3), 609–647. https://doi.org/10.1086/658349
+
+Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). *Introduction to meta-analysis*. Wiley. https://doi.org/10.1002/9780470743386 *(Lần xuất bản đầu — khác với Borenstein et al. 2021 [2nd ed.].)*
+
+Breusch, T. S., & Pagan, A. R. (1979). A simple test for heteroscedasticity and random coefficient variation. *Econometrica, 47*(5), 1287–1294. https://doi.org/10.2307/1911963
+
+Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage.
+
+Higgins, J. P. T., Thompson, S. G., Deeks, J. J., & Altman, D. G. (2003). Measuring inconsistency in meta-analyses. *BMJ, 327*(7414), 557–560. https://doi.org/10.1136/bmj.327.7414.557
+
+Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law, 3*(2), 220–246. https://doi.org/10.1017/S1876404511200046
+
+### Lý thuyết — bổ sung (Section A/C mở rộng)
+
+Peng, M. W. (2003). Institutional transitions and strategic choices. *Academy of Management Review, 28*(2), 275–296. https://doi.org/10.5465/amr.2003.9416341
+
+Teece, D. J. (1986). Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. *Research Policy, 15*(6), 285–305. https://doi.org/10.1016/0048-7333(86)90027-2
