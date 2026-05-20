@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       input_file:
-        description: 'Input CSV in p6/tools/results/'
+        description: 'Input CSV (in p6/tools/results/)'
         required: false
         default: 'new_candidates_20260520.csv'
       output_file:
-        description: 'Output CSV in p6/tools/results/'
+        description: 'Output CSV (in p6/tools/results/)'
         required: false
         default: 'new_candidates_20260520_doi_enriched.csv'
       max_records:
@@ -21,8 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repository
@@ -41,30 +39,41 @@ jobs:
         run: pip install requests
 
       - name: Run CrossRef DOI enrichment
+        env:
+          INPUT_FILE: ${{ github.event.inputs.input_file }}
+          OUTPUT_FILE: ${{ github.event.inputs.output_file }}
+          MAX_RECORDS: ${{ github.event.inputs.max_records }}
         run: |
           python3 p6/tools/07_enrich_doi_crossref.py \
-            --input  p6/tools/results/${{ github.event.inputs.input_file }} \
-            --output p6/tools/results/${{ github.event.inputs.output_file }} \
+            --input  "p6/tools/results/${INPUT_FILE}" \
+            --output "p6/tools/results/${OUTPUT_FILE}" \
             --email  huongp1323001@gstudent.ctu.edu.vn \
-            --max    ${{ github.event.inputs.max_records || '0' }}
+            --max    "${MAX_RECORDS:-0}"
 
       - name: Show summary
+        env:
+          OUTPUT_FILE: ${{ github.event.inputs.output_file }}
         run: |
           echo "=== DOI Enrichment Results ==="
-          python3 -c "
-          import csv
-          rows = list(csv.DictReader(open('p6/tools/results/${{ github.event.inputs.output_file }}'')))
-          enriched = sum(1 for r in rows if r.get('doi_enriched','').strip())
-          print(f'Total records : {len(rows)}')
-          print(f'With DOI      : {enriched}')
-          print(f'Without DOI   : {len(rows) - enriched}')
-          print(f'Match rate    : {enriched/len(rows)*100:.1f}%')
-          "
+          python3 - <<PYEOF
+import csv, os
+path = "p6/tools/results/" + os.environ["OUTPUT_FILE"]
+rows = list(csv.DictReader(open(path)))
+enriched = sum(1 for r in rows if r.get("doi_enriched", "").strip())
+print(f"Total records : {len(rows)}")
+print(f"With DOI      : {enriched}")
+print(f"Without DOI   : {len(rows) - enriched}")
+if rows:
+    print(f"Match rate    : {enriched/len(rows)*100:.1f}%")
+PYEOF
 
       - name: Commit and push results
+        env:
+          OUTPUT_FILE: ${{ github.event.inputs.output_file }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add p6/tools/results/${{ github.event.inputs.output_file }}
-          git diff --staged --quiet || git commit -m "data(p6): add CrossRef DOI-enriched candidates $(date +%Y-%m-%d)"
+          git add "p6/tools/results/${OUTPUT_FILE}"
+          git diff --staged --quiet || \
+            git commit -m "data(p6): CrossRef DOI enrichment $(date +%Y-%m-%d) — ${OUTPUT_FILE}"
           git push origin HEAD:claude/edit-vietnamese-academic-standards-xcAmn
