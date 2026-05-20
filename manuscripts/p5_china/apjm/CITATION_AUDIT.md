@@ -77,12 +77,13 @@ These references were added in v1.5 / v1.6. The AI may have correctly identified
 | 39 | Vial, G. (2019). Understanding digital transformation. *JSIS, 28*(2), 118–144. | **VERIFIED** | Confirmed JSIS 28(2), 118–144 |
 | 40 | Volberda, H. W., Khanagha, S., Baden-Fuller, C., Mihalache, O. R., & Birkinshaw, J. (2021). Strategizing in a digital world. *Long Range Planning, 54*(5), 102110. | **VERIFIED** | Confirmed Long Range Planning 54(5), article 102110 |
 
-### Tier D — Author's own publications (mentioned by user; please confirm)
+### Tier D — Author's own publications
 
 | # | Reference | Status |
 |---|---|---|
-| 41 | Do, T. H., & Tu, P. A. (2025). Internationalization and firm performance: A meta-analysis review. *ICBEF 2025 proceedings*. | Author confirms |
-| 42 | Do, T. H., & Tu, P. A. (2026). Firm performance heterogeneity in emerging Asia. *Vietnam Economic Financial Review, 2*(1), 111–115. | Author confirms |
+| 41 | Do, T. H., & Tu, P. A. (2025). Internationalization and firm performance: A meta-analysis review. *ICBEF 2025 proceedings*. | Author confirms (published proceedings, ISBN). Cite as blinded "Author Citation, 2025" in submission text. |
+| ~~42~~ | ~~Do, T. H., & Tu, P. A. (2026). Firm performance heterogeneity in emerging Asia. *Vietnam Economic Financial Review*.~~ | **REMOVED v1.9** — companion working paper not yet submitted; cross-paper citation withdrawn. |
+| ~~43~~ | ~~Do, T. H., & Tu, P. A. (2026 — JFAR). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research*.~~ | **REMOVED v1.9** — companion working paper not yet submitted; cross-paper citation withdrawn. |
 
 ## Verification protocol (used in this audit)
 
@@ -100,8 +101,10 @@ For each Tier B and Tier C reference, the audit:
 | A — Classics | 22 | 22 | 0 | 0 |
 | B — Mid-confidence | 8 | 8 | 1 (Avenyo, v1.8.1) | 0 |
 | C — Recently added | 10 | 10 | 1 (Demir & Javorcik, v1.8) | 0 |
-| D — Author publications | 2 | 2 | 0 | 0 |
-| **Total** | **42** | **42** | **2** | **0** |
+| D — Author publications | 1 | 1 | 0 | 0 |
+| **Total** | **41** | **41** | **2** | **0** |
+
+**v1.9 change:** Two Tier-D self-citations (Do & Tu, 2026 — VEFR; Do & Tu, 2026 — JFAR) were removed because the referenced companion working papers have not yet been submitted; cross-paper claims in the manuscript were rewritten to stand on the present paper's own evidence.
 
 → **All 42 references verified.** Manuscript ready for APJM submission.
 
