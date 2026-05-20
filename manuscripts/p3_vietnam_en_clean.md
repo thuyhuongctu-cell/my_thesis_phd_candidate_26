@@ -61,7 +61,7 @@ positive in 2023 (β = 0.095, p = .038) and pooled (β = 0.078, p = .004); the c
 shifts are statistically distinguishable (Paternoster z = 3.353 between 2009 and 2015; z =
 -2.051 between 2015 and 2023).
 
- DAI moderation is concentrated in 2023, where FSTS_c × $\tilde{\mathrm{DAI}}$ = -0.912 (p = .043)
+ DAI moderation is concentrated in 2023, where $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0.912 (p = .043)
 and the M8 joint test is marginal (p = .062); the pooled M8 joint test is also marginal (p
 = .083), driven by 2023 rather than by a stable cross-period moderation.
 
@@ -242,7 +242,7 @@ margin) Within the exporter subsample, additional direct-export intensity is exp
 to exhibit weaker, diminishing, or non-significant marginal returns relative to the
 participation margin.
 
-The exporter-only specification (Panel H) provides the most direct test of H1b: if the inverted-U curvature reflects within-exporter intensity variation, the quadratic term should remain significant in that sub-sample. The near-flat pattern observed in Panel H (pooled FSTS_c² β = −0.200, p = .660) instead indicates that the participation margin (H1a) is the dominant source of the full-sample curvature.
+The exporter-only specification (Panel H) provides the most direct test of H1b: if the inverted-U curvature reflects within-exporter intensity variation, the quadratic term should remain significant in that sub-sample. The near-flat pattern observed in Panel H (pooled $(\mathrm{FSTS}^{c})^2$ β = −0.200, p = .660) instead indicates that the participation margin (H1a) is the dominant source of the full-sample curvature.
 
 ### 2.2 Foreign-technology and standards capability and firm performance
 Following the Lall (1992) tradition for emerging-market firms, this paper uses a measurementtight reading of technological capability: a foreign-technology and standards capability that captures a firm's exposure to externally validated technological inputs — internationally recognised
@@ -274,7 +274,7 @@ capacity to benefit from internationalisation and should also support productivi
 without assuming that it indexes the full innovation-and-R&D dimension.
 Operationally, the primary $\tilde{\mathrm{TCI}}$ is built from two items: internationally recognised quality
 certification (b8) and foreign-licensed technology (e6). These items measure exposure to foreigntechnology and standards channels rather than internal R&D effort or patent activity. A broader
-innovation-augmented composite (TCI_full, adding product innovation h1 and R&D activity h8)
+innovation-augmented composite ($\mathrm{TCI}_{\text{full}}$, adding product innovation h1 and R&D activity h8)
 is reported in 4.5 Panel A as a boundary condition: if direct effects attenuate when innovation
 items are added, this indicates that the primary measure is informative specifically about the
 foreign-technology / standards channel, not the broader absorptive-capacity stock.
@@ -309,7 +309,7 @@ dynamic digital capability (data-driven decision-making, AI integration). The pr
 
 
 
-anchors at Tier 1 only. A Tier 3-style extension (DAI_rich) is reported in 4.5 Panel B for the
+anchors at Tier 1 only. A Tier 3-style extension ($\mathrm{DAI}_{\text{rich}}$) is reported in 4.5 Panel B for the
 2023 wave, where electronic-payment items become available. The label foundational website
 adoption therefore tracks what the construct can actually identify across the 2009–2023 window.
 
@@ -363,7 +363,7 @@ H2
 H2 (mod.)
 
 InternationalisationH1 (non-monotonic) Firm performance
-(FSTS_c, FSTS_c2 )
+($\mathrm{FSTS}^{c}$, $(\mathrm{FSTS}^{c})^2$ )
 (ln labour productivity)
 H4 (mod., exploratory)
 H3
@@ -371,11 +371,11 @@ H3
 Foundational
 Digital Adoption ($\tilde{\mathrm{DAI}}$)
 
-Controls: lnEmp, FirmAge, ForeignOwned, sector FE [+ wave FE]
+Controls: $\ln(\mathrm{Emp})$, FirmAge, ForeignOwned, sector FE [+ wave FE]
 
 ![Figure 1: Conceptual model — TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/p3_vietnam/figure_1_conceptual_model.png)
 
-*Figure 1.* Conceptual model. The independent variable (internationalisation, FSTS_c and FSTS_c²) and the dependent variable (firm performance, ln labour productivity) anchor the IV–DV spine. Technological capability ($\tilde{\mathrm{TCI}}$) and foundational digital adoption ($\tilde{\mathrm{DAI}}$) act as direct effects (H2, H3) and as moderators of the FSTS curve (H2 moderation, H4 exploratory moderation). Controls are entered additively. Wave fixed effects apply to the pooled specification only.
+*Figure 1.* Conceptual model. The independent variable (internationalisation, $\mathrm{FSTS}^{c}$ and $(\mathrm{FSTS}^{c})^2$) and the dependent variable (firm performance, ln labour productivity) anchor the IV–DV spine. Technological capability ($\tilde{\mathrm{TCI}}$) and foundational digital adoption ($\tilde{\mathrm{DAI}}$) act as direct effects (H2, H3) and as moderators of the FSTS curve (H2 moderation, H4 exploratory moderation). Controls are entered additively. Wave fixed effects apply to the pooled specification only.
 
 ## 3. Data, variables, and empirical strategy
 ### 3.1 Data structure
@@ -390,10 +390,10 @@ This structure provides sufficient variation to compare direct effects and condi
 across stages.
 
 ### 3.2 Variables
-Firm performance is measured by log labour productivity (lnLP). Internationalisation is measured by direct-export intensity (FSTS), mean-centred within wave (FSTS_c) and squared
+Firm performance is measured by log labour productivity ($\ln(\mathrm{LP})$). Internationalisation is measured by direct-export intensity (FSTS), mean-centred within wave ($\mathrm{FSTS}^{c}$) and squared
 
 
-(FSTS_c ) so that linear and quadratic terms can be entered jointly to test for nonlinearity.
+($\mathrm{FSTS}^{c}$ ) so that linear and quadratic terms can be entered jointly to test for nonlinearity.
 The analysis uses two distinct capability constructs.
 
 The Technological Capability Index
@@ -404,11 +404,11 @@ stock (Lall, 1992; Cohen and Levinthal, 1990). The Digital Adoption Index ($\til
 as a measure of transaction-level digital integration or digital transformation (Bharadwaj et al.,
 2013; Verhoef et al., 2021; Nambisan et al., 2019). Each composite is z-standardised within wave so that the reported coefficients are comparable in standard-deviation units; the tilde notation $\tilde{\mathrm{TCI}}$ and $\tilde{\mathrm{DAI}}$ marks the standardised variant used throughout the empirical specifications. This separation is deliberate because the study is interested in whether the two domains exhibit different empirical roles, while
 keeping the construct labels tight against what the underlying WBES items actually measure.
-Item-level construction is as follows. The outcome is lnLP = ln(d2 / l1), where d2 is total
+Item-level construction is as follows. The outcome is $\ln(\mathrm{LP})$ = ln(d2 / l1), where d2 is total
 annual sales and l1 is permanent full-time employees. Internationalisation is FSTS = d3c / 100,
 
 
-mean-centred within wave (FSTS_c) and squared (FSTS_c ). The primary Technological Capability Index ($\tilde{\mathrm{TCI}}$) is the within-wave standardised mean of b8 (internationally recognised
+mean-centred within wave ($\mathrm{FSTS}^{c}$) and squared ($\mathrm{FSTS}^{c}$ ). The primary Technological Capability Index ($\tilde{\mathrm{TCI}}$) is the within-wave standardised mean of b8 (internationally recognised
 quality certification) and e6 (foreign-licensed technology), each recoded from WBES 1/2 to 1/0
 binary form.
 
@@ -421,17 +421,17 @@ presence. Cross-wave-comparable transaction-level digital items are absent from 
 than as a fully integrated digital-capability construct (Bharadwaj et al., 2013; Verhoef et al.,
 2021).
 Two enriched composites are used in the 4.5 robustness panel where item availability allows.
-TCI_full adds h1 (introduced new or significantly improved product) and h8 (R&D expenditure
-indicator) to the TCI items in 2015 and 2023, where h1 and h8 are present. DAI_rich, constructed only for 2023, extends the website-presence indicator with k33 (share of sales received
+$\mathrm{TCI}_{\text{full}}$ adds h1 (introduced new or significantly improved product) and h8 (R&D expenditure
+indicator) to the TCI items in 2015 and 2023, where h1 and h8 are present. $\mathrm{DAI}_{\text{rich}}$, constructed only for 2023, extends the website-presence indicator with k33 (share of sales received
 via electronic payment) and k38 (share of supplier payments made via electronic payment), in
-both continuous (k33 / 100, k38 / 100) and binary (k33 > 0, k38 > 0) variants. DAI_rich thus
+both continuous (k33 / 100, k38 / 100) and binary (k33 > 0, k38 > 0) variants. $\mathrm{DAI}_{\text{rich}}$ thus
 moves from basic digital presence toward a transaction-enabling digital-adoption construct, but
 it is treated as a measurement-depth robustness check rather than as the primary specification
 because k33 and k38 are unavailable in the 2009 and 2015 waves.
 
-**Construct-tier comparability note.** The $\tilde{\mathrm{DAI}}$ construct in this paper is a Tier 1-only indicator (website binary c22b). A richer Tier 1+2 composite — combining website presence with electronic payment intensity (k33/k38) — would in principle capture transaction-enabling mechanisms that scale with cross-border coordination demands, but k33 and k38 are unavailable in the 2009 and 2015 waves of WBES Vietnam, precluding a cross-wave Tier 1+2 specification. The negative Tier 1-only interaction documented here (FSTS_c × $\tilde{\mathrm{DAI}}$ = −0.912, p = .043) is therefore interpreted as construct-tier obsolescence: Tier 1 website presence has become a minimum-threshold credential in Vietnam's maturing digital environment and no longer differentiates firms' cross-border coordination capacity at high export intensity. The DAI_rich robustness composite available in the 2023 wave partially bridges this gap for within-wave sensitivity analysis, but cross-wave comparability limits its use as the primary measure.
+**Construct-tier comparability note.** The $\tilde{\mathrm{DAI}}$ construct in this paper is a Tier 1-only indicator (website binary c22b). A richer Tier 1+2 composite — combining website presence with electronic payment intensity (k33/k38) — would in principle capture transaction-enabling mechanisms that scale with cross-border coordination demands, but k33 and k38 are unavailable in the 2009 and 2015 waves of WBES Vietnam, precluding a cross-wave Tier 1+2 specification. The negative Tier 1-only interaction documented here ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = −0.912, p = .043) is therefore interpreted as construct-tier obsolescence: Tier 1 website presence has become a minimum-threshold credential in Vietnam's maturing digital environment and no longer differentiates firms' cross-border coordination capacity at high export intensity. The $\mathrm{DAI}_{\text{rich}}$ robustness composite available in the 2023 wave partially bridges this gap for within-wave sensitivity analysis, but cross-wave comparability limits its use as the primary measure.
 
-Controls are standard. Firm size lnEmp = ln(l1). Firm age FirmAge = survey year minus
+Controls are standard. Firm size $\ln(\mathrm{Emp})$ = ln(l1). Firm age FirmAge = survey year minus
 b5 (year established). Foreign ownership ForeignOwned = 1 if b2b (percentage of equity owned
 by private foreign individuals or firms) > 0. Sector fixed effects use the first digit of a4b (broad
 ISIC code) for the 2009 and 2015 waves and the first digit of a4a for the 2023 wave, where a4b
@@ -442,7 +442,7 @@ A note on missing-code handling.
 The WBES instrument codes don't-know and refused
 
 responses as -9. We treat -9 as missing before any composite is built and apply listwise deletion
-on the focal variable set (lnLP, lnEmp, FirmAge, ForeignOwned, FSTS, TCI_thin, DAI_thin,
+on the focal variable set ($\ln(\mathrm{LP})$, $\ln(\mathrm{Emp})$, FirmAge, ForeignOwned, FSTS, $\mathrm{TCI}_{\text{thin}}$, $\mathrm{DAI}_{\text{thin}}$,
 sector1). The resulting analytic samples are 989, 956, and 1,013 observations for 2009, 2015,
 and 2023 respectively; pooled N is 2,958.
 
@@ -504,7 +504,7 @@ The 2009 wave displays a clearly nonlinear internationalisation–performance re
 -1.774, p = .009); the Lind–Mehlum test rejects monotonicity at p = .006. In the dual-direct
 specification (M7) both $\tilde{\mathrm{TCI}}$ (β = 0.215, p < .001) and $\tilde{\mathrm{DAI}}$ (β = 0.175, p < .001) are
 positive and highly significant. TCI moderation is statistically distinguishable from zero (M3
-joint p = .040; FSTS_c × $\tilde{\mathrm{TCI}}$ = -0.579, p = .087), but DAI moderation is not (M4 joint
+joint p = .040; $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ = -0.579, p = .087), but DAI moderation is not (M4 joint
 
 
 
@@ -528,19 +528,19 @@ Table 2: Focal coefficient summary by wave and pooled (M2 inverted-U, M7 dual-di
 | Term | 2009 (N=989) | 2015 (N=956) | 2023 (N=1,013) | Pooled (N=2,958) |
 | --- | --- | --- | --- | --- |
 | **M2 — Inverted-U on FSTS** | | | | |
-| FSTS_c (linear) | +1.045* (p=.015) | +1.159* (p=.029) | +0.962* (p=.039) | +0.984*** (p<.001) |
-| FSTS_c² (quadratic) | -1.823** (p=.005) | -2.115** (p=.004) | -1.686** (p=.008) | -1.909*** (p<.001) |
+| $\mathrm{FSTS}^{c}$ (linear) | +1.045* (p=.015) | +1.159* (p=.029) | +0.962* (p=.039) | +0.984*** (p<.001) |
+| $(\mathrm{FSTS}^{c})^2$ (quadratic) | -1.823** (p=.005) | -2.115** (p=.004) | -1.686** (p=.008) | -1.909*** (p<.001) |
 | Lind–Mehlum p | <.05 | .009 | .013 | <.001 |
 | Turning point (FSTS) | 0.287 | 0.274 | 0.285 | 0.397 |
 | **M7 — Dual-direct capability** | | | | |
 | $\tilde{\mathrm{TCI}}$ | +0.215*** (p<.001) | +0.128** (p=.010) | +0.123** (p=.006) | +0.179*** (p<.001) |
 | $\tilde{\mathrm{DAI}}$ | +0.175*** (p<.001) | -0.044 (p=.377) | +0.095* (p=.038) | +0.078** (p=.004) |
-| **M8 — With FSTS × DAI moderation (pooled M8: FSTS_c β=0.845, p=.006; FSTS_c² β=-1.650, p<.001)** | | | | |
-| FSTS_c × $\tilde{\mathrm{DAI}}$ | n.s. | n.s. | -0.912* (p=.043) | (mixed across waves) |
-| FSTS_c² × $\tilde{\mathrm{DAI}}$ | n.s. | n.s. | n.s. | n.s. |
+| **M8 — With FSTS × DAI moderation (pooled M8: $\mathrm{FSTS}^{c}$ β=0.845, p=.006; $(\mathrm{FSTS}^{c})^2$ β=-1.650, p<.001)** | | | | |
+| $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ | n.s. | n.s. | -0.912* (p=.043) | (mixed across waves) |
+| $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$ | n.s. | n.s. | n.s. | n.s. |
 | M8 joint test (curvature + moderation) | p=.700 | n.s. | p=.062 † | — |
 
-*Notes.* Coefficients from OLS with HC1 heteroscedasticity-robust standard errors. Sector fixed effects and standard firm-level controls (lnEmp, FirmAge, ForeignOwned) included throughout. Significance: *** p < .001; ** p < .01; * p < .05; † p < .10. M2 = quadratic FSTS only; M7 = M2 + $\tilde{\mathrm{TCI}}$ + $\tilde{\mathrm{DAI}}$ (dual direct); M8 = M7 + FSTS_c × $\tilde{\mathrm{DAI}}$ + FSTS_c² × $\tilde{\mathrm{DAI}}$. The 2023 wave is the only one in which the M8 DAI moderation channel is detectable at conventional thresholds, consistent with the Tier 1 proxy-obsolescence interpretation developed in §5.
+*Notes.* Coefficients from OLS with HC1 heteroscedasticity-robust standard errors. Sector fixed effects and standard firm-level controls ($\ln(\mathrm{Emp})$, FirmAge, ForeignOwned) included throughout. Significance: *** p < .001; ** p < .01; * p < .05; † p < .10. M2 = quadratic FSTS only; M7 = M2 + $\tilde{\mathrm{TCI}}$ + $\tilde{\mathrm{DAI}}$ (dual direct); M8 = M7 + $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ + $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$. The 2023 wave is the only one in which the M8 DAI moderation channel is detectable at conventional thresholds, consistent with the Tier 1 proxy-obsolescence interpretation developed in §5.
 
 
 p = .825; full-model M8 joint p = .700). In substantive terms, both capability dimensions in
@@ -550,7 +550,7 @@ The 2015 wave shows the curvature cleanly but the weakest digital channel. M2 pr
 
 2 β = -2.115 (p = .004), with Lind–Mehlum p =
 
-FSTS_c β = 1.159 (p = .029) and FSTS_c
+$\mathrm{FSTS}^{c}$ β = 1.159 (p = .029) and $\mathrm{FSTS}^{c}$
 
 .009. $\tilde{\mathrm{TCI}}$ retains a positive direct association (β = 0.128, p = .010) but at roughly 60 per
 cent of the 2009 magnitude. $\tilde{\mathrm{DAI}}$ loses direct salience entirely (β = -0.044, p = .377). TCI
@@ -564,15 +564,15 @@ The 2023 wave is where the digital-moderation signal emerges most sharply.
 
 M2 again
 
-indicates a clear inverted-U (FSTS_c β = 0.962, p = .039; FSTS_c β = -1.686, p = .008;
+indicates a clear inverted-U ($\mathrm{FSTS}^{c}$ β = 0.962, p = .039; $\mathrm{FSTS}^{c}$ β = -1.686, p = .008;
 Lind–Mehlum p = .013).
 
 In the dual-direct M7, both capability dimensions are positive and
 
 significant ($\tilde{\mathrm{TCI}}$ β = 0.123, p = .006; $\tilde{\mathrm{DAI}}$ β = 0.095, p = .038). When the DAI interaction
-terms are added in M8, the linear interaction is negative and individually significant (FSTS_c
+terms are added in M8, the linear interaction is negative and individually significant ($\mathrm{FSTS}^{c}$
 
-× $\tilde{\mathrm{DAI}}$ = -0.912, p = .043), the quadratic interaction is positive and marginal (FSTS_c2 ×
+× $\tilde{\mathrm{DAI}}$ = -0.912, p = .043), the quadratic interaction is positive and marginal ($(\mathrm{FSTS}^{c})^2$ ×
 $\tilde{\mathrm{DAI}}$ = 1.043, p = .099), and the joint test sits at marginal significance (M4 joint p = .102;
 
 M8 joint p = .062). The substantive reading is that, by 2023, basic digital adoption becomes
@@ -583,7 +583,7 @@ as exporters move beyond moderate FSTS levels, the
 productivity contribution of basic digital presence attenuates and may amplify rather than relieve
 coordination burdens, consistent with the view that website-level adoption alone is insufficient
 when deeper transaction-enabling and process-integrating digital capability is still maturing.
-A complementary interpretation, consistent with the 2SLS null for instrumented DAI (β=0.018, p=.942; §4.5 Panel K), is proxy obsolescence: by 2023, website presence (Tier 1, c22b) has become a minimum-threshold credential rather than a capability differentiator in Vietnam's maturing digital environment. Firms with and without websites are no longer meaningfully distinguished in their cross-border coordination capacity at the DAI tier that c22b captures. This interpretation predicts the negative DAI×FSTS interaction without requiring that "digital adoption is bad" — instead, the instrument has lost its discriminatory power as Tier 1 adoption has diffused to near-universal levels (49.8% in 2023 vs 42.5% in 2009). Future analyses using the DAI_rich composite (Tier 1+2; Panel B, 2023 only) would provide a within-wave test of whether the sign shifts when electronic-payment-intensity items are added to the Vietnamese instrument.
+A complementary interpretation, consistent with the 2SLS null for instrumented DAI (β=0.018, p=.942; §4.5 Panel K), is proxy obsolescence: by 2023, website presence (Tier 1, c22b) has become a minimum-threshold credential rather than a capability differentiator in Vietnam's maturing digital environment. Firms with and without websites are no longer meaningfully distinguished in their cross-border coordination capacity at the DAI tier that c22b captures. This interpretation predicts the negative DAI×FSTS interaction without requiring that "digital adoption is bad" — instead, the instrument has lost its discriminatory power as Tier 1 adoption has diffused to near-universal levels (49.8% in 2023 vs 42.5% in 2009). Future analyses using the $\mathrm{DAI}_{\text{rich}}$ composite (Tier 1+2; Panel B, 2023 only) would provide a within-wave test of whether the sign shifts when electronic-payment-intensity items are added to the Vietnamese instrument.
 Taken together, the wave-specific results trace two wave-specific associations consistent with
 stage contingency. Foreign-technology / standards capability is positive across all three waves
 with a modestly attenuating magnitude ($\tilde{\mathrm{TCI}}$ = 0.215 → 0.128 → 0.123) but with moderation
@@ -610,7 +610,7 @@ paper-based transaction processing. The 2015 wave captures a transitional phase 
 
 2 = -2.115, p = .004 in M2) but the digital channel
 
-I–P curvature is unusually sharp (FSTS_c
+I–P curvature is unusually sharp ($\mathrm{FSTS}^{c}$
 compresses entirely:
 
 $\tilde{\mathrm{DAI}}$ loses direct salience and shows no joint moderation, suggesting
@@ -620,19 +620,19 @@ coming primarily from scale and from foreign-technology / standards capability r
 from foundational digital adoption in this wave. The 2023 wave captures the re-emergence of
 the digital channel as a moderator rather than as a uniform direct premium: the post-NDTP
 digital infrastructure makes foundational digital adoption interact with export intensity, and the
-negative FSTS_c × $\tilde{\mathrm{DAI}}$ interaction shows that this conditional channel binds primarily at
+negative $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ interaction shows that this conditional channel binds primarily at
 higher export intensity rather than uniformly across the export-intensity range.
 
 ### 4.2 Pooled findings
 The pooled estimates confirm that the internationalisation–performance relationship is nonlinear
-on average. In the pooled M2 specification, the linear FSTS_c term is positive (β = 0.984, p
+on average. In the pooled M2 specification, the linear $\mathrm{FSTS}^{c}$ term is positive (β = 0.984, p
 
 2 term is negative (β = -1.909, p < .001); the Lind–Mehlum
 
-< .001) and the quadratic FSTS_c
+< .001) and the quadratic $\mathrm{FSTS}^{c}$
 
-test rejects monotonicity at p < .001 with an estimated turning point at 39.7 per cent of directexport intensity. The curvature persists in the full M8 specification (FSTS_c β = 0.845, p = .006;
-FSTS_c
+test rejects monotonicity at p < .001 with an estimated turning point at 39.7 per cent of directexport intensity. The curvature persists in the full M8 specification ($\mathrm{FSTS}^{c}$ β = 0.845, p = .006;
+$\mathrm{FSTS}^{c}$
 
 2 β = -1.650, p < .001), supporting H1 and aligning with the meta-analytic evidence
 
@@ -646,7 +646,7 @@ In the full M8 specification, the $\tilde{\mathrm{TCI}}$ coefficient is
 
 essentially unchanged (β = 0.184, p < .001), while the $\tilde{\mathrm{DAI}}$ direct coefficient becomes statistically indistinguishable from zero (β = 0.032, p = .537) once the interaction terms are entered.
 This sensitivity is consistent with the interpretation that $\tilde{\mathrm{DAI}}$ combines a positive level effect
-with a negative interaction with FSTS_c at higher export intensities — precisely the pattern
+with a negative interaction with $\mathrm{FSTS}^{c}$ at higher export intensities — precisely the pattern
 
 
 
@@ -655,8 +655,8 @@ The pooled interaction terms involving $\tilde{\mathrm{DAI}}$ carry a marginal j
 
 The linear
 
-interaction is negative but not individually significant (FSTS_c × $\tilde{\mathrm{DAI}}$ = -0.448, p = .116),
-and the quadratic interaction is positive but not significant (FSTS_c
+interaction is negative but not individually significant ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0.448, p = .116),
+and the quadratic interaction is positive but not significant ($\mathrm{FSTS}^{c}$
 
 2 × $\tilde{\mathrm{DAI}}$ = 0.460, p =
 
@@ -670,10 +670,10 @@ Technological-capability moderation, by contrast, is more uniformly distributed.
 
 The M3
 
-joint test on FSTS_c × $\tilde{\mathrm{TCI}}$ and FSTS_c × $\tilde{\mathrm{TCI}}$ is statistically distinguishable from
+joint test on $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ and $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ is statistically distinguishable from
 zero in three of four panels (2009 p = .040, 2023 p = .027, pooled p = .003) and null only in
-2015 (p = .713). Pooled, the linear interaction is negative (FSTS_c × $\tilde{\mathrm{TCI}}$ = -0.587, p =
-.003) and the quadratic is positive (FSTS_c
+2015 (p = .713). Pooled, the linear interaction is negative ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ = -0.587, p =
+.003) and the quadratic is positive ($\mathrm{FSTS}^{c}$
 
 2 × $\tilde{\mathrm{TCI}}$ = 0.640, p = .031), indicating that the
 
@@ -733,7 +733,7 @@ Paternoster cross-wave z-tests (4.5, Panel F) confirm that the 2009-to-2015 fa
 statistically distinguishable shifts.
 H4 receives limited exploratory support. The DAI joint moderation test is null in
 2009 (M4 p = .825), null in 2015 (M4 p = .125) and reaches the edge of significance
-in 2023 with the individual interaction FSTS_c × $\tilde{\mathrm{DAI}}$ = -0.912 (p = .043) and
+in 2023 with the individual interaction $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0.912 (p = .043) and
 the joint test at M4 p = .102, M8 p = .062. The pooled M8 joint test (p = .083)
 is also at marginal significance, driven by the 2023 wave rather than by a stable
 cross-period moderation. The formal pooled wave × focal interaction test (Panel I)
@@ -743,7 +743,7 @@ than as confirmation of a stable cross-wave moderation pattern: 2023 is the only
 wave in which the digital moderation is within-sample detectable, and the finding is
 treated as exploratory.
 
-Following Haans, Pieters, and He (2016), we distinguish two types of moderation for curvilinear I–P relationships. Type I moderation flattens or steepens one slope of the inverted-U (i.e., the linear FSTS × DAI interaction is significant while FSTS² × DAI is not): the moderator shifts the position of the turning point but preserves the inverted-U shape. Type II moderation flips the shape of the curve (i.e., FSTS² × DAI is significant): high versus low moderator values produce qualitatively different functional forms. The 2023 DAI evidence fits Type I: the significant linear interaction FSTS_c × $\tilde{\mathrm{DAI}}$ = −0.912 (p = .043) indicates that digital adoption attenuates the positive slope at low export intensity, pulling the turning point inward, while the FSTS² × DAI interaction remains insignificant, confirming that the inverted-U shape is preserved. Type II moderation — digital capability reversing the curvature for high-adopter firms — is not supported in the Vietnam sample.
+Following Haans, Pieters, and He (2016), we distinguish two types of moderation for curvilinear I–P relationships. Type I moderation flattens or steepens one slope of the inverted-U (i.e., the linear FSTS × DAI interaction is significant while $\mathrm{FSTS}^2$ × DAI is not): the moderator shifts the position of the turning point but preserves the inverted-U shape. Type II moderation flips the shape of the curve (i.e., $\mathrm{FSTS}^2$ × DAI is significant): high versus low moderator values produce qualitatively different functional forms. The 2023 DAI evidence fits Type I: the significant linear interaction $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = −0.912 (p = .043) indicates that digital adoption attenuates the positive slope at low export intensity, pulling the turning point inward, while the $\mathrm{FSTS}^2$ × DAI interaction remains insignificant, confirming that the inverted-U shape is preserved. Type II moderation — digital capability reversing the curvature for high-adopter firms — is not supported in the Vietnam sample.
 
 ![Figure 3: Moderator marginal effects — TCI and DAI interactions with FSTS (Vietnam)](figures/p3_vietnam/figure_3_moderator_marginals.png)
 
@@ -753,8 +753,8 @@ Following Haans, Pieters, and He (2016), we distinguish two types of moderation 
 Before reading the table that follows, we anchor the reader in the two-margin structure introduced in 2.1. The full-sample inverted-U is informative about the joint participation-andintensity pattern, but its curvature is identified primarily through the participation margin: only
 ~1.0 % of pooled firms sit within ±5 percentage-points of the wave-specific turning points (see
 4.5 density check), and the bulk of mass lies at FSTS = 0. When we re-fit M2 / M7 / M8 on
-the exporter-only sub-sample (FSTS > 0; pooled N = 669, 4.5 Panel H), the linear FSTS_c
-term is negative (β = -0.861, p < .001) but the quadratic term is not significant (FSTS_c
+the exporter-only sub-sample (FSTS > 0; pooled N = 669, 4.5 Panel H), the linear $\mathrm{FSTS}^{c}$
+term is negative (β = -0.861, p < .001) but the quadratic term is not significant ($\mathrm{FSTS}^{c}$
 
 2β
 
@@ -782,13 +782,13 @@ firms (utilities, construction, wholesale and retail, transport, finance and oth
 
 The inverted-U is preserved in both subsets but is sharper in
 
-manufacturing (FSTS_c β = 0.971, p = .001; FSTS_c
+manufacturing ($\mathrm{FSTS}^{c}$ β = 0.971, p = .001; $\mathrm{FSTS}^{c}$
 
 
 2 β = -1.883, p < .001) than in non-
 
 
-manufacturing (FSTS_c β = 1.615, p = .064, marginal; FSTS_c
+manufacturing ($\mathrm{FSTS}^{c}$ β = 1.615, p = .064, marginal; $\mathrm{FSTS}^{c}$
 
 2 β = -2.479, p = .046).
 
@@ -798,7 +798,7 @@ In the M7 dual-direct specification, manufacturing firms display a strong $\tild
 
 direct association (β = 0.223, p < .001) and a positive $\tilde{\mathrm{DAI}}$ direct association (β = 0.087,
 p = .009), while non-manufacturing firms show only a marginal $\tilde{\mathrm{TCI}}$ effect (β = 0.090, p =
-.096) and a null $\tilde{\mathrm{DAI}}$ effect (β = 0.068, p = .133). The DAI moderation channel is concentrated in manufacturing (M8 joint p = .103, marginal; FSTS_c × $\tilde{\mathrm{DAI}}$ = -0.543, p = .079)
+.096) and a null $\tilde{\mathrm{DAI}}$ effect (β = 0.068, p = .133). The DAI moderation channel is concentrated in manufacturing (M8 joint p = .103, marginal; $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0.543, p = .079)
 and is uniformly null in non-manufacturing (M8 joint p = .280). TCI moderation, by contrast,
 is statistically distinguishable from zero in both subsets (M3 joint p = .011 in manufacturing
 and p = .007 in non-manufacturing), indicating that the curvature-flattening effect of capability
@@ -810,8 +810,8 @@ Panel H — Exporter-only sub-sample (FSTS > 0). Because the exporter share is 2
 20.7 % and 18.8 % across waves, the inverted-U fitted on the full sample is partly identified by
 the participation margin between FSTS = 0 and FSTS > 0. We re-fit M2 / M7 / M8 on the
 exporter-only sub-sample (N ≈ 281 in 2009, 198 in 2015, 190 in 2023, and 669 pooled). The
-pooled exporter-only specification yields a negative linear FSTS_c term (β = -0.861, p < .001)
-but a non-significant quadratic term (FSTS_c
+pooled exporter-only specification yields a negative linear $\mathrm{FSTS}^{c}$ term (β = -0.861, p < .001)
+but a non-significant quadratic term ($\mathrm{FSTS}^{c}$
 
 2 β = -0.200, p = .660), and the joint M8 test of the
 
@@ -825,14 +825,14 @@ association between participation-and-intensity in exporting and productivity, n
 within-exporter intensity-curvature claim.
 Panel I — Pooled wave × focal interaction test. To formally test whether the wave-specific
 patterns of curvature and moderation are statistically separable from the pooled estimates, we
-re-estimate the pooled M8 with a saturated set of wave interactions on the focal terms (FSTS_c
+re-estimate the pooled M8 with a saturated set of wave interactions on the focal terms ($\mathrm{FSTS}^{c}$
 
-× wave, FSTS_c2 × wave, $\tilde{\mathrm{DAI}}$ × wave, $\tilde{\mathrm{TCI}}$ × wave). The joint Wald tests show that
+× wave, $(\mathrm{FSTS}^{c})^2$ × wave, $\tilde{\mathrm{DAI}}$ × wave, $\tilde{\mathrm{TCI}}$ × wave). The joint Wald tests show that
 only $\tilde{\mathrm{DAI}}$ × wave is statistically distinguishable from the pooled average (joint p = .016); the
 
 2 and $\tilde{\mathrm{TCI}}$ direct-effect cross-wave differences are not statistically separable
-(all joint p > .25), and the FSTS_c × $\tilde{\mathrm{DAI}}$ and FSTS_c × $\tilde{\mathrm{DAI}}$ cross-wave differences
-FSTS_c, FSTS_c
+(all joint p > .25), and the $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ and $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ cross-wave differences
+$\mathrm{FSTS}^{c}$, $\mathrm{FSTS}^{c}$
 
 are not separable either (joint p > .55). This formal test confirms the descriptive Paternoster
 result: only the DAI direct shifts are cross-wave-distinguishable, while the curvature parameters
@@ -861,7 +861,7 @@ Three complementary approaches address selection and endogeneity concerns. Heckm
 
 Two-stage least-squares estimation using leave-one-out sector × region × wave peer-adoption rates as instruments (Panel K; first-stage F-statistics 22–35, well above the Staiger–Stock threshold) returns an instrumented DAI estimate of 0.018 (p = .942) and an instrumented TCI estimate of 1.639 (p < .001). The null 2SLS DAI coefficient is a key robustness result: it confirms that website presence does not plausibly cause productivity improvements in 2023 Vietnam, reinforcing the Tier 1 proxy obsolescence interpretation of the negative DAI×FSTS interaction. The strongly positive instrumented TCI coefficient (β=1.639, p<.001 — substantially larger than the OLS estimate, consistent with attenuation-bias correction) further confirms that foreign-technology and standards capability is the robust productivity-relevant mechanism in this institutional setting. The instrument set (peer-adoption rates within sector × region × wave cells) satisfies relevance (strong first stage) and approximate exclusion (peer-adoption rates are unlikely to affect individual firm productivity through channels other than DAI adoption, conditional on sector-wave cells). Oster (2019) δ-stability bounds (assuming R_max = 1.3 × R_controlled) confirm that no focal coefficient changes sign or collapses to zero under plausible magnitudes of unobserved selection. Full 2SLS first-stage results and Oster bound calculations are reported in Online Appendix Table B.
 
-Measurement-sensitivity probes confirm that core inferences do not depend on composite construction. Enriching TCI with R&D and product-innovation items (Panel A) attenuates the TCI coefficient modestly but does not alter qualitative conclusions. The enriched DAI_rich composite (Tier 1–2, Panel B) yields directionally consistent moderation in 2023 with weaker significance. Micro-firm exclusion (Panel D) preserves the inverted-U and TCI associations. Paternoster et al. cross-wave z-tests (Panel F) confirm that the DAI lifecycle shift is statistically distinguishable while curvature parameters share a common pooled magnitude. Panel-level estimates are reported in Online Appendix Tables C–F.
+Measurement-sensitivity probes confirm that core inferences do not depend on composite construction. Enriching TCI with R&D and product-innovation items (Panel A) attenuates the TCI coefficient modestly but does not alter qualitative conclusions. The enriched $\mathrm{DAI}_{\text{rich}}$ composite (Tier 1–2, Panel B) yields directionally consistent moderation in 2023 with weaker significance. Micro-firm exclusion (Panel D) preserves the inverted-U and TCI associations. Paternoster et al. cross-wave z-tests (Panel F) confirm that the DAI lifecycle shift is statistically distinguishable while curvature parameters share a common pooled magnitude. Panel-level estimates are reported in Online Appendix Tables C–F.
 
 Multiple-testing caveat. 4.5 reports four narrative panels (G, H, I, F) and three robustness families (endogeneity/selection, measurement sensitivity) across multiple focal terms. We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. Our substantive inferences in §5 rely on the pattern across panels and the directional consistency of the focal estimates rather than on the significance of any single robustness panel.
 Table 3 collates the robustness panels documented in 4.5 in a single overview to ease crosscomparison.
@@ -1021,22 +1021,22 @@ Table 3: Robustness panels A–K and supplementary checks.
 | wave interaction pooled | pooled | 2958 | joint_F_TCIz_x_wave | +1.1156 | 0.328 |
 | wave interaction pooled | pooled | 2958 | joint_F_all_wave_interactions | +2.0664* | 0.036 |
 
-*Notes.* Robustness panels: TCI_full = broader TCI composite; DAI_rich = richer DAI composite (2023 only). HC1 robust standard errors. † p < .10; * p < .05; ** p < .01; *** p < .001.
+*Notes.* Robustness panels: $\mathrm{TCI}_{\text{full}}$ = broader TCI composite; $\mathrm{DAI}_{\text{rich}}$ = richer DAI composite (2023 only). HC1 robust standard errors. † p < .10; * p < .05; ** p < .01; *** p < .001.
 
 Panel / sample
 N Focal coefficient
 Joint test
-A. TCI_full direct (2015)
+A. $\mathrm{TCI}_{\text{full}}$ direct (2015)
 956 TCI_full_z = 0.056 (p = .253) n.s.; $\tilde{\mathrm{DAI}}$ = M3 joint p = .492 n.s.
 −0.033 n.s.
-A. TCI_full direct (2023)
+A. $\mathrm{TCI}_{\text{full}}$ direct (2023)
 1,013 TCI_full_z = 0.096 (p = .024); $\tilde{\mathrm{DAI}}$ = M3 joint p = .152 n.s.
 0.097 (p = .037)
-B. DAI_rich continuous (2023)
-1,013 FSTS_c × DAI_rich_cont_z = −0.933 † (p M8 joint p = .099 †
+B. $\mathrm{DAI}_{\text{rich}}$ continuous (2023)
+1,013 $\mathrm{FSTS}^{c}$ × DAI_rich_cont_z = −0.933 † (p M8 joint p = .099 †
 = .076)
-B. DAI_rich binary (2023)
-1,013 FSTS_c × DAI_rich_bin_z = −0.893 (p = M8 joint p = .243 n.s.
+B. $\mathrm{DAI}_{\text{rich}}$ binary (2023)
+1,013 $\mathrm{FSTS}^{c}$ × DAI_rich_bin_z = −0.893 (p = M8 joint p = .243 n.s.
 .169) n.s.
 C. Common-N reconciled (2023) 1,013 $\tilde{\mathrm{DAI}}$ moderation re-estimated on identical M8 joint p = .062 †
 2023 sample
@@ -1044,8 +1044,8 @@ D. Micro-firm exclusion (l1 ≥ 10) 2,473 $\tilde{\mathrm{TCI}}$ = 0.188 ; $\til
 M8 joint p = .167 n.s.
 G. Manufacturing (sector1 1,854 $\tilde{\mathrm{TCI}}$ = 0.223 ; $\tilde{\mathrm{DAI}}$ = 0.087 ; M8 joint p = .103 †
 ∈ {1, 2, 3})
-FSTS_c × $\tilde{\mathrm{DAI}}$ = −0.543 †
-H. Exporter-only (FSTS > 0, 669 FSTS_c = −0.861 ; FSTS_c2 = −0.200 M8 joint p = .462 n.s.
+$\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = −0.543 †
+H. Exporter-only (FSTS > 0, 669 $\mathrm{FSTS}^{c}$ = −0.861 ; $(\mathrm{FSTS}^{c})^2$ = −0.200 M8 joint p = .462 n.s.
 pooled)
 n.s.
 I. Wave × focal interaction 2,958 $\tilde{\mathrm{DAI}}$ × wave detectable (p = .016); other Only DAI direct shifts
@@ -1158,9 +1158,9 @@ Vietnam pooled
 .013
 < .001
 
-Turning points are derived from the M2 inverted-U specification (lnLP = β0 + β1 FSTS_c + β2
-FSTS_c2 + controls + sector FE [+ wave FE in pooled]) and back-transformed to the raw FSTS scale. 95 %
-confidence intervals use the delta method on the within-sample FSTS_c range. Lind–Mehlum p-values follow
+Turning points are derived from the M2 inverted-U specification ($\ln(\mathrm{LP})$ = β0 + β1 $\mathrm{FSTS}^{c}$ + β2
+$(\mathrm{FSTS}^{c})^2$ + controls + sector FE [+ wave FE in pooled]) and back-transformed to the raw FSTS scale. 95 %
+confidence intervals use the delta method on the within-sample $\mathrm{FSTS}^{c}$ range. Lind–Mehlum p-values follow
 the Sasabuchi-style endpoint test for an inverted-U over the observed FSTS range (Lind and Mehlum, 2010).
 Source: World Bank Enterprise Surveys; authors' calculations.
 Notes.
@@ -1175,7 +1175,7 @@ $\tilde{\mathrm{TCI}}$ and $\tilde{\mathrm{DAI}}$ are positive on average in poo
 materially across waves and across identification strategies (Vahlne, 2020; Stallkamp and Schotter, 2021). This means that website-based digital adoption is not simply a constant background
 advantage; it is a context-sensitive and stage-dependent source of performance heterogeneity.
 
-The negative sign on the FSTS_c × $\tilde{\mathrm{DAI}}$ interaction in 2023 — where DAI productivity relevance attenuates at higher export intensities — is consistent with the Tier-1 boundary of the construct: a website alone cannot manage the transaction density of high-export-intensity operations without electronic-payment and process-integration support. This contrasts with settings where the same construct includes Tier 2 transaction-enabling items, where higher export intensity could instead amplify the productivity return to digital adoption.
+The negative sign on the $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ interaction in 2023 — where DAI productivity relevance attenuates at higher export intensities — is consistent with the Tier-1 boundary of the construct: a website alone cannot manage the transaction density of high-export-intensity operations without electronic-payment and process-integration support. This contrasts with settings where the same construct includes Tier 2 transaction-enabling items, where higher export intensity could instead amplify the productivity return to digital adoption.
 This interpretation helps reconcile the coexistence of positive pooled effects and uneven wavespecific results. The pooled model captures the average tendency for stronger capability to be
 associated with better performance. The wave-specific models show that this tendency is not
 equally strong in every phase. The value of digital capability therefore depends on where firms
@@ -1197,11 +1197,11 @@ DAI direct association is reproduced under PSM (matching ATT = 0.30–0.32, p < 
 attenuates to a null under 2SLS (β = 0.02, p = .94). Taken together, the results suggest that
 foreign-technology / standards capability behaves like a more identification-robust productivity channel, whereas website-based digital presence behaves like a more context-sensitive and
 selection-sensitive marker of performance heterogeneity.
-The DAI_rich extension reported in 4.5 Panel B reinforces the construct interpretation
+The $\mathrm{DAI}_{\text{rich}}$ extension reported in 4.5 Panel B reinforces the construct interpretation
 rather than weakening it. Although the primary $\tilde{\mathrm{DAI}}$ anchored on c22b (website presence) is
-by 2023 close to a Tier-1 baseline indicator, the DAI_rich extension available only in 2023 —
+by 2023 close to a Tier-1 baseline indicator, the $\mathrm{DAI}_{\text{rich}}$ extension available only in 2023 —
 combining c22b with electronic-payment shares (k33, k38) — produces a similarly directioned
-and marginally significant moderation pattern (FSTS_c × DAI_rich_cont_z = -0.93, M8 joint
+and marginally significant moderation pattern ($\mathrm{FSTS}^{c}$ × DAI_rich_cont_z = -0.93, M8 joint
 p = .099). Whether digital adoption is measured by the thin Tier-1 website indicator or by the
 deeper Tier-2 / 3 transaction items, the 2023 moderation pattern goes in the same direction. This
 common-direction evidence guards against the proxy-obsolescence reading of the DAI pattern
@@ -1340,7 +1340,7 @@ time cannot be identified, and time-invariant unobserved heterogeneity cannot be
 the firm level. The associational language used throughout the paper reflects this constraint and
 should not be relaxed in any reader's interpretation of the results.
 Second, $\tilde{\mathrm{DAI}}$ captures only a foundational, Tier-1-style layer of digital adoption centred
-on website presence, rather than digitally integrated organisational capability. The DAI_rich
+on website presence, rather than digitally integrated organisational capability. The $\mathrm{DAI}_{\text{rich}}$
 extension for the 2023 wave shows that the conditional pattern survives when richer items are
 available, but a panel of digitally integrated firms with deeper measurement would tighten the
 construct further and allow a sharper test of whether deeper digital integration exhibits a more
