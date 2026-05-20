@@ -1,263 +1,248 @@
-# Hướng dẫn L2 Screening — P6 Meta-Analysis
+# Hướng dẫn L2 Screening & Extraction — P6 Meta-Analysis
 
-**File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v2.csv`  
-**Cấu trúc**: 435 rows × 58 cột — superset của tất cả file trước (retrieval worklist + extraction template + workflow tracking)  
-**Thứ tự ưu tiên**: `extraction_priority = 1_DOI_FIRST` (310 papers) → `2_NO_DOI_MANUAL` (125 papers)  
-**Phân bố**: Y=435 (81.3%), N=100 (18.7%), UNSURE=0 (tất cả đã giải quyết xong 19/05/2026)  
-**Template extraction**: `p6/tools/results/meta_analysis_extraction_ready_v1_1.csv` (v1.1, 435 rows × 40 cột, ICRV/DPL đầy đủ)
+**Cập nhật**: 20/05/2026  
+**File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv`  
+**Cấu trúc**: 2,467 rows × 58 cột  
+**File extraction queue** (chỉ 538 Y, sorted): `p6/tools/results/extraction_queue_20260520.csv`
 
 ---
 
-## Bước 1: Quy trình tổng thể
+## Trạng thái pipeline (20/05/2026)
+
+| Nhóm | Số lượng | Ghi chú |
+|------|---------|---------|
+| Existing coded (k=238 database) | 344 rows | seq ≤ 435 |
+| New candidates tổng | 2,123 rows | seq > 435 |
+| → Auto-Y (title screening) | 332 | confirmed include từ title |
+| → Auto-Y (abstract screening) | 210 | confirmed include từ abstract |
+| → **Confirmed Y (sau L2 check)** | **538** | sẵn sàng extraction |
+| → N_title | 248 | loại từ title |
+| → N_abstract | 151 | loại từ abstract |
+| → UNSURE (cần full-text) | 1,182 | cần đọc thủ công |
+
+**Thứ tự ưu tiên trong extraction_queue_20260520.csv:**
+- `1_DOI_FIRST`: 396 papers (có DOI → download PDF dễ hơn)
+- `2_NO_DOI_MANUAL`: 142 papers (tìm thủ công)
+
+---
+
+## Bước 1: Mở file làm việc
 
 ```
-Mở fulltext_to_extraction_tracker_v2.csv
-  ↓
-prescreen_flag = Y (435 papers) → Đọc full-text → điền pdf_found + fulltext_screening_decision
-prescreen_flag = N (100 papers) → Xác minh nhanh (giữ N hoặc chuyển UNSURE nếu nghi ngờ)
-prescreen_flag = UNSURE → 0 papers còn lại (tất cả đã giải quyết)
-  ↓
-Ưu tiên theo cột extraction_priority trong tracker:
-    1_DOI_FIRST   (310 papers có DOI) → download PDF tự động + trích xuất r
-    2_NO_DOI_MANUAL (125 papers)     → tìm full-text thủ công qua Google Scholar / ResearchGate
-  ↓
-Điền include_flag + r + n + icrv + cdai + dpl + workflow columns cho mỗi paper
-  ↓
-Khi ready_for_r = Y → chuyển vào meta_analysis_extraction_ready_v1_1.csv
+extraction_queue_20260520.csv  (538 rows, chỉ cột cần thiết — dễ làm việc)
+  ↕ sync từ/về ↕
+fulltext_to_extraction_tracker_v3.csv  (toàn bộ 2,467 rows — canonical)
 ```
 
----
-
-## Bước 2: Tiêu chí INCLUDE / EXCLUDE (L2)
-
-### INCLUDE (Y) — Tất cả điều kiện phải đúng
-
-| # | Tiêu chí | Ví dụ đạt | Ví dụ loại |
-|---|----------|-----------|------------|
-| 1 | **Firm-level unit** | phân tích trên doanh nghiệp/nhà máy/SME | phân tích cấp quốc gia, ngành |
-| 2 | **Quantitative I→P** | báo cáo r, β, t, F, hoặc tính được r | chỉ mô tả định tính |
-| 3 | **Peer-reviewed journal** | journal article có DOI hoặc ISSN rõ | book chapter, dissertation, conference paper |
-| 4 | **I measure** | FSTS, DOI, export intensity, số quốc gia, subsidiary count, FDI | chỉ đo performance mà không có I variable |
-| 5 | **P measure** | ROA, ROE, Tobin's Q, sales growth, lnLP, ROS, profit margin | không có performance outcome |
-| 6 | **1977–2026** | dữ liệu bất kỳ năm trong phạm vi | dữ liệu trước 1977 |
-
-### EXCLUDE (N) — Bất kỳ điều kiện nào đúng
-
-| # | Lý do loại | Mã `include_reason` |
-|---|-----------|---------------------|
-| 1 | Phân tích cấp quốc gia / ngành (không phải firm) | `excl:macro-level` |
-| 2 | Nghiên cứu định tính, conceptual, review, narrative | `excl:qualitative` |
-| 3 | Không báo cáo effect size có thể trích xuất | `excl:no-effect-size` |
-| 4 | Không có I→P relationship (chỉ đo 1 vế) | `excl:no-ip-relationship` |
-| 5 | Meta-analysis hoặc systematic review (không phải primary) | `excl:meta-only` |
-| 6 | Book chapter, dissertation, working paper, conference paper | `excl:grey-lit` |
-| 7 | Trùng lặp với study đã có trong k=287 database | `excl:duplicate-existing` |
-| 8 | Health, environment, education — ngoài IB domain | `excl:off-domain` |
-| 9 | Case study (1–5 doanh nghiệp) | `excl:case-study` |
-
-### UNSURE — Khi không đủ thông tin từ abstract
-
-Giữ `include_flag = UNSURE` nếu:
-- Không đọc được full-text để xác định unit of analysis
-- Abstract không rõ performance variable là gì
-- Cần xem correlation matrix hoặc regression table để biết có extractable r không
+**Cách làm**: Mở `extraction_queue_20260520.csv` trong Excel. Điền vào các cột extraction. Sau khi xong một batch, copy kết quả về `tracker_v3.csv` (dùng seq làm key).
 
 ---
 
-## Bước 3: Trích xuất Effect Size (chỉ cho papers Y)
+## Bước 2: Tiêu chí INCLUDE / EXCLUDE (L2 — 5 câu hỏi)
+
+Trả lời tất cả 5 — **bất kỳ NO = EXCLUDE**:
+
+| # | Câu hỏi | YES = tiếp tục | NO = loại ngay |
+|---|---------|---------------|----------------|
+| 1 | Unit of analysis là firm-level? | doanh nghiệp, nhà máy, SME | quốc gia, ngành, cá nhân |
+| 2 | Có đo lường internationalization? | FSTS, DOI, export intensity, FDI, số quốc gia | không có I variable |
+| 3 | Có đo lường firm performance? | ROA, ROE, Tobin's Q, productivity, sales growth | không có P variable |
+| 4 | Có quan hệ I→P định lượng? | r, β, t, F, hoặc có thể tính r | chỉ mô tả, không có statistics |
+| 5 | Peer-reviewed journal article? | có DOI hoặc ISSN | dissertation, book chapter, WP, conference |
+
+### Red flags — loại ngay không cần đọc thêm
+
+- `country-level / national-level analysis` → loại (macro-level)
+- `antecedents of internationalization` / `determinants of export` → loại (I là DV, không phải P)
+- `qualitative study` / `case study` → loại
+- `meta-analysis` / `systematic review` → loại (không phải primary study)
+- health, environment, education outcomes → loại (off-domain)
+
+---
+
+## Bước 3: Trích xuất Effect Size (chỉ papers Y)
 
 ### Thứ tự ưu tiên lấy r
 
+| Ưu tiên | Nguồn | Công thức | Ghi vào `conversion_formula` |
+|---------|-------|-----------|------------------------------|
+| 1 | Pearson r trực tiếp | r as-is | `direct` |
+| 2 | Partial correlation | r as-is | `direct` + `is_partial=1` |
+| 3 | Standardized β OLS/panel | r ≈ β | `beta` |
+| 4 | t-statistic + df | r = t / √(t² + df) | `t_to_r` |
+| 5 | F-stat (df₁=1) + N | r = √(F / (F + df_err)) | `F_to_r` |
+| 6 | p-value + N | r via t-distribution (conservative) | `p_to_r` |
+
 ```
-1. Pearson r trực tiếp → cột `r`
-2. r từ t-statistic:       r = t / sqrt(t² + N - 2)         → cột `r_from_t`
-3. r từ F-statistic (df₁=1): r = sqrt(F / (F + N - 2))     → cột `r_from_F`
-4. r từ standardized β:    r ≈ β / sqrt(β² + 1)            → ghi chú cột `r_note`
-5. r từ eta²:             r = sqrt(eta²)                   → ghi chú cột `r_note`
+# Công thức Excel:
+converted_r (từ t):  =t_value/SQRT(t_value^2 + df_for_t)
+converted_r (từ F):  =SQRT(reported_coefficient/(reported_coefficient + sample_size_n - 2))
+fisher_z:            =0.5*LN((1+converted_r)/(1-converted_r))
+variance_z:          =1/(sample_size_n - 3)
 ```
 
 ### Nonlinear (inverted-U / U-shape)
 
-Nếu paper báo cáo cả β₁ (linear) và β₂ (quadratic):
-- Điền `r` = partial r từ linear term (nếu có)
-- Điền `r_quadratic` = partial r từ quadratic term
-- Điền `turning_point` = -β₁ / (2β₂) nếu paper báo cáo
-- Ghi `nonlinear = Y`
+- Điền `converted_r` = r từ linear term (β₁)
+- Điền `curve_type` = `inverted_U` hoặc `U_shape`
+- Ghi turning point vào `notes_for_extractor`: `TP = -β₁/(2β₂) = XX%`
+- `effect_direction` = `nonlinear`
 
-### N (sample size)
+### Multiple effects từ 1 paper
 
-Dùng N của regression model cụ thể (không phải N tổng của paper nếu có nhiều sub-samples).
+Tạo thêm row trong tracker với cùng `authors + year`, khác `effect_size_type`.  
+Ghi vào `notes_for_extractor`: `E1=ROA, E2=TobinQ`
 
 ---
 
-## Bước 4: Coding các biến Moderator
+## Bước 4: Coding Moderators
 
-### ICRV (cột `icrv`) — Integer 1–6
+### ICRV (cột `icrv`) — Integer 1–6 hoặc 0
+
+> Dựa trên quốc gia của **mẫu doanh nghiệp** (không phải destination market)
 
 | Mã | Regime | Quốc gia ví dụ |
 |----|--------|---------------|
-| 1 | Advanced Innovation-Driven | Singapore, Hong Kong, Đài Loan, Hàn Quốc, Nhật Bản, Úc, NZ, Israel |
-| 2 | Advanced Resource/Trade-Driven | Brunei, Qatar, UAE, Kuwait, Saudi Arabia |
-| 3 | Upper-Middle / Emerging Strong | Trung Quốc, Malaysia, Thái Lan, Ấn Độ, Brazil, Mexico, Thổ Nhĩ Kỳ |
-| 4 | Lower-Middle / Frontier Weak | Việt Nam, Philippines, Indonesia, Bangladesh, Pakistan, Egypt |
-| 5 | Least Developed / Frontier | Myanmar, Cambodia, Lào, Nepal, Afghanistan, Ethiopia |
-| 6 | Pacific SIDS | Fiji, PNG, Samoa, Tonga, Vanuatu, Solomon Islands |
-| 0 | Multi-country Mixed | Nghiên cứu cover nhiều regime → `icrv = 0` |
+| 1 | Advanced | Singapore, HK, Đài Loan, Hàn Quốc, Nhật, Úc, NZ, Israel, EU phát triển |
+| 2 | Upper-Middle / Emerging Strong | Trung Quốc, Malaysia, Thái Lan, Brazil, Mexico, Thổ Nhĩ Kỳ, Nam Phi |
+| 3 | Lower-Middle / Emerging Weak | Việt Nam, Ấn Độ, Indonesia, Philippines, Pakistan, Bangladesh |
+| 4 | Resource-rich / GCC | Saudi Arabia, UAE, Qatar, Kuwait, Kazakhstan, Angola |
+| 5 | SIDS | Fiji, PNG, Samoa, Tonga, Malta, Mauritius, Maldives |
+| 6 | Frontier / LDC | Myanmar, Cambodia, Lào, Nepal, Ethiopia, Mozambique |
+| 0 | Multi-country Mixed | Nhiều quốc gia khác regime → dùng 0 |
 
-**Quy tắc**: Dùng chế độ của **quốc gia của mẫu doanh nghiệp** (không phải destination market).
+**Đã pre-fill 38%** (202/538) — kiểm tra và điền phần còn lại khi đọc full-text.
 
-### cDAI (cột `cdai`) — Continuous 0–1
+### DPL (cột `dpl`) — **Đã pre-fill 100%** từ publication year
 
-World Bank Digital Adoption Index (DAI) cho quốc gia của mẫu, năm trung bình của data collection:
+| Mã | Phase | Năm |
+|----|-------|-----|
+| 1 | Pre-digital | data midpoint < 2000 |
+| 2 | Early digital | data midpoint 2000–2009 |
+| 3 | Platform era | data midpoint ≥ 2010 |
 
-| Quốc gia | cDAI ước tính (2015–2020) | Nguồn |
-|---------|--------------------------|-------|
-| Singapore | 0.82 | WB DAI 2016 |
-| Hàn Quốc | 0.78 | WB DAI 2016 |
-| Trung Quốc | 0.58 | WB DAI 2016 |
-| Ấn Độ | 0.39 | WB DAI 2016 |
-| Việt Nam | 0.42 | WB DAI 2016 |
-| Indonesia | 0.40 | WB DAI 2016 |
-| Thailand | 0.52 | WB DAI 2016 |
-| Malaysia | 0.62 | WB DAI 2016 |
+> **Ưu tiên dùng năm thu thập dữ liệu** nếu paper ghi rõ (không phải pub year).  
+> Sửa `dpl` nếu data year khác publication year.
 
-Nếu không tìm được WB DAI: dùng ITU IDI (Internet Development Index) normalized, hoặc để trống và ghi `cdai_source = unknown`.
+### fp_type (cột `fp_type`) — **Đã pre-fill 85%**
 
-**Proxy đơn giản nếu không có data**: L=0.25, M=0.50, H=0.75 → nhưng phải ghi `cdai_proxy = Y`.
+| Mã | Mô tả |
+|----|-------|
+| `roa` | Return on Assets |
+| `roe` | Return on Equity |
+| `ros` | Return on Sales / profit margin |
+| `tobin_q` | Tobin's Q, market-to-book |
+| `sales_growth` | Sales/revenue growth rate |
+| `productivity` | lnLP, TFP, output/labor |
+| `market_return` | Abnormal return, stock price |
+| `composite` | Tổng hợp nhiều measures |
 
-### DPL (cột `dpl`) — Integer 1/2/3
+### internationalization_measure_guess (cột `internationalization_measure_guess`)
 
-Dựa trên **năm xuất bản** (publication year):
-
-| Mã | Tên | Publication year |
-|----|-----|-----------------|
-| 1 | Precede (PRE) | Trước 2000 |
-| 2 | Spawn (SPN) | 2000–2009 |
-| 3 | Follow (FOL) | 2010 trở đi |
-
-**Dựa trên data collection year** nếu paper báo cáo: ưu tiên dùng year của dữ liệu thay vì publication year.
-
-### doi_type (cột `doi_type`) — Loại đo lường I
-
-| Mã | Mô tả | Ví dụ biến |
-|----|-------|-----------|
-| `FSTS` | Foreign sales to total sales | export ratio, FSTS, export intensity |
-| `export_ratio` | Export value / total revenue | xuất khẩu/doanh thu |
-| `geographic_diversification` | Số quốc gia, entropy index | DOI entropy, Herfindahl |
-| `DOI` | Composite internationalization | Sullivan's DOI index |
-| `FDI` | FDI flows hoặc stocks | outward FDI, OFDI |
-| `subsidiary` | Số subsidiaries / affiliates | foreign affiliates |
-| `other` | Khác | board internationalization |
-
-### fp_type (cột `fp_type`) — Loại đo lường Performance
-
-| Mã | Mô tả | Ví dụ biến |
-|----|-------|-----------|
-| `financial_perf` | Kết quả tài chính (accounting) | ROA, ROE, ROS, profit margin |
-| `Tobin_Q` | Market-based performance | Tobin's Q, market-to-book |
-| `labor_productivity` | Năng suất lao động | lnLP, revenue/employee |
-| `sales_growth` | Tăng trưởng doanh thu | revenue growth rate |
-| `innovation` | Innovation output | patent count, R&D intensity |
+| Mã | Mô tả |
+|----|-------|
+| `fsts` | Foreign sales to total sales |
+| `entropy` | Entropy index, transnationality |
+| `n_countries` | Số quốc gia, geographic spread |
+| `fdi_stock` | FDI stock/flow |
+| `export_dummy` | Export vs non-export (binary) |
+| `composite` | DOI composite index |
 
 ---
 
-## Bước 5: Workflow thực tế với CSV (58 cột — fulltext_to_extraction_tracker_v2.csv)
+## Bước 5: Cột workflow cần điền
 
-### Nhóm 1: Workflow tracking (điền khi có full-text)
+### Nhóm A — Sau khi tìm được full-text
 
-| Cột | Nguồn | Ghi chú |
-|-----|-------|---------|
-| `pdf_found` | Y / N | Tìm được full-text PDF không? |
-| `pdf_filename` | Tên file | ví dụ: `smith2020_fsts_roa.pdf` |
-| `pdf_source` | Nguồn | `unpaywall`, `sci-hub`, `researchgate`, `email_author` |
-| `fulltext_screening_decision` | Y / N / UNSURE | Quyết định L2 sau khi đọc full-text |
-| `exclusion_reason` | Mã excl: | ví dụ: `excl:macro-level` |
+| Cột | Giá trị | Ghi chú |
+|-----|---------|---------|
+| `pdf_found` | Y / N | Tìm được PDF không? |
+| `pdf_source` | `unpaywall` / `sci-hub` / `researchgate` / `library` | |
+| `fulltext_screening_decision` | Y / N / UNSURE | Quyết định L2 cuối cùng |
+| `exclusion_reason` | `excl:macro-level` etc. | Chỉ điền nếu N |
 
-### Nhóm 2: Effect size extraction (điền khi trích xuất r)
+### Nhóm B — Khi trích xuất stats
 
-| Cột | Nguồn | Ghi chú |
-|-----|-------|---------|
-| `include_flag` | Quyết định L2 | Y / N / UNSURE |
-| `include_reason` | Lý do ngắn | `incl:firm-level-fsts` |
-| `r` | Từ paper | Pearson r trực tiếp hoặc converted |
-| `r_note` | Ghi chú | `from t-stat`, `from beta` |
-| `n` | Từ paper | Sample size của regression model |
-| `df_for_t` | Từ paper | df nếu dùng công thức r từ t |
-| `table_or_page` | Từ paper | ví dụ: `Table 3, p.15` |
-| `statistic_location` | Từ paper | Vị trí cụ thể trong paper |
-| `conversion_formula` | Công thức dùng | `r=sqrt(t²/(t²+df))` hoặc `r=beta/sqrt(beta²+1)` |
-| `effect_direction` | `+` / `-` | Chiều của mối quan hệ I→P |
-| `icrv` | Coding | Integer 1–6 hoặc MX |
-| `cdai` | WB DAI | Decimal 0–1 |
-| `cdai_proxy` | Y/N | Y nếu dùng L/M/H proxy |
-| `dpl` | Pub year / data year | 1 / 2 / 3 |
-| `doi_type` | Từ paper | Xem bảng Bước 4 |
-| `fp_type` | Từ paper | Xem bảng Bước 4 |
-| `nonlinear` | Y/N | Y nếu báo cáo quadratic term |
-| `turning_point` | Từ paper | TP = -β₁/(2β₂), nếu có |
+| Cột | Giá trị | |
+|-----|---------|--|
+| `sample_size_n` | Integer | N của regression model cụ thể |
+| `reported_coefficient` | Decimal | β hoặc F-stat được báo cáo |
+| `t_value` | Decimal | t-statistic nếu có |
+| `df_for_t` | Integer | Degrees of freedom |
+| `p_value` | Decimal | p-value |
+| `converted_r` | Decimal | r sau khi tính (hoặc trực tiếp) |
+| `conversion_formula` | `direct` / `beta` / `t_to_r` / `F_to_r` | |
+| `effect_direction` | `+` / `-` / `nonlinear` | |
+| `table_or_page` | e.g. `Table 3, p.15` | Vị trí trong paper |
+| `icrv` | 0–6 | Kiểm tra/sửa pre-filled value |
+| `dpl` | 1/2/3 | Sửa nếu data year ≠ pub year |
+| `fp_type` | xem Bước 4 | Kiểm tra/sửa pre-filled value |
 
-### Nhóm 3: QA và computed columns
+### Nhóm C — QA
 
-| Cột | Nguồn | Ghi chú |
-|-----|-------|---------|
-| `ready_for_r` | Y / N | Tất cả thông tin đủ để chạy MARA? |
-| `extracted_by` | Tên | Người trích xuất |
-| `checked_by` | Tên | Người kiểm tra (double-coding) |
-| `converted_r` | Công thức tự động | `=SQRT(t²/(t²+df))` hoặc điền tay |
-| `fisher_z` | Công thức | `=0.5*LN((1+r)/(1-r))` |
-| `variance_z` | Công thức | `=1/(n-3)` |
-
-### Cột đã điền sẵn (chỉ cần kiểm tra)
-
-- `prescreen_flag` — Y / N / UNSURE (từ keyword engine)
-- `prescreen_reason` — lý do prescreen
-- `icrv` — ICRV đã điền đầy đủ (0 trống)
-- `dpl` — DPL đã điền đầy đủ (0 trống)
-- `extraction_priority` — `1_DOI_FIRST` (310) / `2_NO_DOI_MANUAL` (125)
-- `doi`, `doi_link`, `google_scholar`, `openalex_search`, `unpaywall_api` — links đã điền
+| Cột | Khi điền |
+|-----|----------|
+| `ready_for_r` | Đặt = `1` khi có đủ: `converted_r`, `sample_size_n`, `icrv`, `dpl`, `fp_type` |
+| `extracted_by` | Tên người trích xuất |
+| `checked_by` | Tên người kiểm tra (double-coding 20%) |
 
 ---
 
-## Bước 6: Sau khi hoàn thành L2
+## Bước 6: Script hỗ trợ
 
 ```bash
-# OA check và download PDF (chạy LOCAL — server block Unpaywall/OpenAlex)
-python3 p6/tools/30_oa_check_and_download.py \
-  --input  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
-  --output p6/tools/results/oa_check_20260519.csv \
-  --pdfs   p6/tools/pdfs/ \
-  --email  seranguyenct@gmail.com
+# Kiểm tra tiến độ extraction
+python3 -c "
+import csv
+with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
+    rows = list(csv.DictReader(f))
+new_y = [r for r in rows if int(r.get('seq',0))>435 and r['fulltext_screening_decision']=='Y']
+done  = sum(1 for r in new_y if r.get('ready_for_r','')=='1')
+r_filled = sum(1 for r in new_y if r.get('converted_r','').strip())
+print(f'Y papers: {len(new_y)} | ready_for_r=1: {done} | converted_r filled: {r_filled}')
+print(f'Remaining: {len(new_y)-done}')
+"
 
-# Chọn subsample 20% để double-coding
+# Sau khi extraction xong: chạy MARA
+Rscript p6/tools/meta_r_scripts/00_mara_starter_20260520.R
+
+# Chọn 20% subsample cho double-coding
 python3 p6/tools/09_select_reliability_subsample.py \
-  --input  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
+  --input  p6/tools/results/fulltext_to_extraction_tracker_v3.csv \
   --output p6/tools/results/reliability_subsample.csv \
   --seed   42
+```
 
-# Merge vào database chính (sau khi reliability đạt κ≥0.70)
-python3 p6/tools/10_merge_new_studies.py \
-  --new      p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
-  --existing p6/data/p6_study_database.csv \
-  --output   p6/data/p6_study_database_updated.csv
+---
 
-# Chạy MARA cập nhật
-Rscript p6/scripts/p6_mara_updated.R
+## Bước 7: Sau khi hoàn thành L2 + extraction
+
+```
+1. Khi ready_for_r = 1 cho ≥ 50 papers mới
+   → Chạy p6/tools/10_merge_new_studies.py để merge vào p6_study_database.csv
+
+2. Chạy MARA cập nhật:
+   Rscript p6/tools/meta_r_scripts/00_mara_starter_20260520.R
+
+3. Cập nhật manuscript p6/p6_meta_manuscript_en.md:
+   - k (số studies), K (số effect sizes)
+   - r̄, I², τ², Q
+   - Moderator tables (ICRV, DPL, cDAI)
+
+4. Inter-coder reliability (κ ≥ 0.70):
+   python3 p6/tools/09_select_reliability_subsample.py
+   → Double-code 20% independently
+   → Rscript p6/tools/compute_reliability.R
 ```
 
 ---
 
 ## Mẹo thực tế
 
-- **File canonical**: `fulltext_to_extraction_tracker_v2.csv` là file làm việc duy nhất — không cần dùng thêm file nào khác
-- **Batch 50 papers** mỗi lần để tránh fatigue — 435 papers Y ≈ 9 batch
-- **Ưu tiên `extraction_priority = 1_DOI_FIRST`** (310 papers có DOI) — cột này đã có sẵn trong tracker v2, không cần file ưu tiên riêng
-- **Priority A (310 papers DOI)**: điền `pdf_found`, download PDF tự động qua `30_oa_check_and_download.py` (chạy local), rồi điền `conversion_formula` + `converted_r`
-- **Priority B (125 papers no-DOI)**: tìm full-text thủ công qua Google Scholar / ResearchGate, điền `pdf_source`
-- **Công thức chuyển đổi** (điền vào cột `conversion_formula`):
-  - `r = sqrt(t² / (t² + df))`
-  - `Fisher_z = 0.5 * ln((1 + r) / (1 - r))`
-  - `variance_z = 1 / (n - 3)`
-- **100 prescreen_flag=N**: chỉ xác minh nhanh nếu nghi ngờ
-- **`ready_for_r = Y`** khi đã có: `r`, `n`, `icrv`, `dpl`, `doi_type`, `fp_type` — chỉ khi đó mới chuyển qua MARA
-- Tổng ước tính: **15–25 giờ** nếu làm đều đặn 2–3 giờ/ngày → **7–12 ngày**
-- **Lưu ý server**: Tất cả API học thuật (Unpaywall, OpenAlex, CrossRef) bị block (HTTP 403) từ server này — phải chạy OA download locally
+- **Batch 50 papers** mỗi phiên — `extraction_queue_20260520.csv` đã sort theo ưu tiên, bắt đầu từ row 1
+- **396 DOI_FIRST** — dùng cột `doi_link` để mở trực tiếp
+- **`ready_for_r = 1` chỉ khi đủ 5 trường**: `converted_r`, `sample_size_n`, `icrv`, `dpl`, `fp_type`
+- **Nonlinear papers**: ghi cả β₁ và β₂, turning point → `notes_for_extractor`
+- **Server block tất cả API**: Unpaywall, OpenAlex, CrossRef đều 403 từ server — download PDF locally
+- **Ước tính thời gian**: 538 papers × 5 phút/paper ≈ 45 giờ → 15–20 ngày làm 3h/ngày
+- **ICRV pre-filled chỉ 38%** — ưu tiên điền icrv khi đọc full-text (quan trọng cho MARA)
