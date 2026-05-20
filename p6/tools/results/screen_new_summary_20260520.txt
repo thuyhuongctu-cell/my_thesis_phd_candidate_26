@@ -1,0 +1,39 @@
+Title screening of 2123 new candidates — 20260520
+
+  Y      (include):    332  (15.6%)
+  N      (exclude):    248  (11.7%)
+  UNSURE (abstract):  1543  (72.7%)
+
+Top exclusion reasons:
+    30  HARD:oob:health
+    20  HARD:ant:determinants
+    19  HARD:gov:corp_gov
+    16  HARD:qual:case_study
+    16  HARD:ant:entry_mode
+    13  HARD:proc:intl_process
+    12  HARD:ant:eo_intl
+    12  HARD:ant:intl_speed
+    11  HARD:proc:supply_chain
+     9  HARD:meth:bibliometric
+     7  HARD:proc:GVC
+     5  HARD:fin:capital_structure
+     4  HARD:proc:strategic_change
+     4  HARD:strat:location_strat
+     3  HARD:DV:csp_mnc
+
+Top inclusion reasons:
+    85  STRONG:SI:exp_perf
+    81  STRONG:SI:intl_perf
+    45  STRONG:SI:intl_and_perf
+    30  DUAL:intl+perf
+    14  STRONG:SI:exp_prod
+    13  STRONG:SI:multi_perf
+    12  STRONG:SI:perf_intl
+     8  STRONG:SI:perf_exp
+     7  STRONG:SI:LBE
+     4  STRONG:SI:prod_exp
+     3  STRONG:SI:intl_sme_perf
+     3  STRONG:SI:doi_explicit
+     3  STRONG:SI:multi_value
+     2  STRONG:SI:fdi_firmperf
+     2  STRONG:SI:intl_financial
