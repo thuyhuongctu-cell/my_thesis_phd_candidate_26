@@ -116,7 +116,7 @@ def _download_pdf(url: str, dest: Path) -> bool:
 def main():
     global EMAIL
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input",  default="p6/tools/results/extraction_worklist_v11_20260519.csv")
+    ap.add_argument("--input",  default="p6/tools/results/fulltext_to_extraction_tracker_v2.csv")
     ap.add_argument("--output", default="p6/tools/results/oa_check_20260519.csv")
     ap.add_argument("--pdfs",   default="p6/tools/pdfs/")
     ap.add_argument("--email",  default=EMAIL)
