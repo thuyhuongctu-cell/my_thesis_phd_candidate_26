@@ -1,0 +1,74 @@
+name: Abstract Fetch - CrossRef and OpenAlex (P6)
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_file:
+        description: 'Input CSV (screened, in p6/tools/results/)'
+        required: false
+        default: 'new_candidates_screened_20260520.csv'
+      output_file:
+        description: 'Output CSV (in p6/tools/results/)'
+        required: false
+        default: 'abstracts_20260520.csv'
+      max_records:
+        description: 'Max records to fetch (0 = all UNSURE)'
+        required: false
+        default: '0'
+      delay:
+        description: 'Seconds between API calls (default 0.25)'
+        required: false
+        default: '0.25'
+
+jobs:
+  fetch-abstracts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          fetch-depth: 0
+          token: ${{ github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch abstracts
+        env:
+          INPUT_FILE: ${{ github.event.inputs.input_file }}
+          OUTPUT_FILE: ${{ github.event.inputs.output_file }}
+          MAX_RECORDS: ${{ github.event.inputs.max_records }}
+          DELAY: ${{ github.event.inputs.delay }}
+        run: |
+          python3 p6/tools/34_fetch_abstracts.py \
+            --input  "p6/tools/results/${INPUT_FILE}" \
+            --output "p6/tools/results/${OUTPUT_FILE}" \
+            --max-records "${MAX_RECORDS}" \
+            --delay "${DELAY}"
+
+      - name: Show summary
+        run: |
+          OUTPATH="p6/tools/results/${{ github.event.inputs.output_file }}"
+          TOTAL=$(tail -n +2 "$OUTPATH" | wc -l)
+          CROSSREF=$(tail -n +2 "$OUTPATH" | awk -F',' '{print $NF}' | grep -c "crossref" || true)
+          OPENALEX=$(tail -n +2 "$OUTPATH" | awk -F',' '{print $NF}' | grep -c "openalex" || true)
+          echo "Total UNSURE records processed : ${TOTAL}"
+          echo "Abstracts via CrossRef         : ${CROSSREF}"
+          echo "Abstracts via OpenAlex         : ${OPENALEX}"
+
+      - name: Commit abstract file
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "p6/tools/results/${{ github.event.inputs.output_file }}"
+          git diff --staged --quiet || git commit -m "P6: fetch abstracts for UNSURE records [$(date +%Y%m%d)]"
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn
