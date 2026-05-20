@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       wos_api_key:
-        description: 'WoS Starter API Key'
+        description: 'WoS Starter API Key (optional — leave blank to use secrets.WOS_API_KEY)'
         required: false
-        default: '1a0367524ef410f4ef7d0930a349aefe54862ab8'
+        default: ''
       scopus_api_key:
-        description: 'Scopus API Key (Elsevier / P6-meta-analysis-CTU)'
+        description: 'Scopus API Key (optional — leave blank to use secrets.SCOPUS_API_KEY)'
         required: false
-        default: '5a33a23876e87fa618d635fc89281790'
+        default: ''
       openalex_api_key:
-        description: 'OpenAlex API Key'
+        description: 'OpenAlex API Key (optional — leave blank to use secrets.OPENALEX_API_KEY)'
         required: false
-        default: 'WV8Ajx6C6qBvJirOOOEpYY'
+        default: ''
       max_wos:
         description: 'Max WoS records'
         required: false
@@ -50,20 +50,45 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      # ── Validate at least one API key is available for each provider ─────
+      - name: Validate API keys available
+        env:
+          WOS_INPUT: ${{ github.event.inputs.wos_api_key }}
+          WOS_SECRET: ${{ secrets.WOS_API_KEY }}
+          SCOPUS_INPUT: ${{ github.event.inputs.scopus_api_key }}
+          SCOPUS_SECRET: ${{ secrets.SCOPUS_API_KEY }}
+          OPENALEX_INPUT: ${{ github.event.inputs.openalex_api_key }}
+          OPENALEX_SECRET: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          MISSING=()
+          [[ -z "$WOS_INPUT" && -z "$WOS_SECRET" ]] && MISSING+=("WOS_API_KEY")
+          [[ -z "$SCOPUS_INPUT" && -z "$SCOPUS_SECRET" ]] && MISSING+=("SCOPUS_API_KEY")
+          # OpenAlex works without a key (rate-limited), so we only warn.
+          if [[ -z "$OPENALEX_INPUT" && -z "$OPENALEX_SECRET" ]]; then
+            echo "::warning::OpenAlex API key not set — running anonymously (lower rate limit)."
+          fi
+          if [[ ${#MISSING[@]} -gt 0 ]]; then
+            echo "::error::Missing API keys: ${MISSING[*]}. Set them in repo Settings → Secrets and variables → Actions, or pass via workflow_dispatch inputs."
+            exit 1
+          fi
+
       # ── Connectivity diagnostics ─────────────────────────────────────────
       - name: Test API connectivity
+        env:
+          WOS_API_KEY: ${{ github.event.inputs.wos_api_key || secrets.WOS_API_KEY }}
+          SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key || secrets.SCOPUS_API_KEY }}
         run: |
           echo "=== Connectivity Test ==="
           echo "Runner IP: $(curl -s https://ifconfig.me || echo unknown)"
           echo ""
 
           WOS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
-            -H "X-ApiKey: ${{ github.event.inputs.wos_api_key }}" \
+            -H "X-ApiKey: $WOS_API_KEY" \
             "https://api.clarivate.com/apis/wos-starter/v1/documents?db=WOS&q=TS%3Dinternationalization&limit=1" || echo "ERR")
           echo "WoS API status:     $WOS_STATUS"
 
           SCOPUS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
-            -H "X-ELS-APIKey: ${{ github.event.inputs.scopus_api_key }}" \
+            -H "X-ELS-APIKey: $SCOPUS_API_KEY" \
             "https://api.elsevier.com/content/search/scopus?query=internationalization&count=1" || echo "ERR")
           echo "Scopus API status:  $SCOPUS_STATUS"
 
@@ -78,7 +103,7 @@ jobs:
       # ── 1. WoS ──────────────────────────────────────────────────────────
       - name: Run WoS Starter API search
         env:
-          WOS_API_KEY: ${{ github.event.inputs.wos_api_key }}
+          WOS_API_KEY: ${{ github.event.inputs.wos_api_key || secrets.WOS_API_KEY }}
         run: |
           if [ "$WOS_HTTP" != "200" ]; then
             echo "WoS API not reachable from GitHub Actions (HTTP $WOS_HTTP) — skipping"
@@ -93,7 +118,7 @@ jobs:
       # ── 2. Scopus ────────────────────────────────────────────────────────
       - name: Run Scopus API search
         env:
-          SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key }}
+          SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key || secrets.SCOPUS_API_KEY }}
         run: |
           if [ "$SCOPUS_HTTP" != "200" ]; then
             echo "Scopus API not reachable from GitHub Actions (HTTP $SCOPUS_HTTP) — skipping"
@@ -108,7 +133,7 @@ jobs:
       # ── 3. OpenAlex ──────────────────────────────────────────────────────
       - name: Run OpenAlex search
         env:
-          OPENALEX_API_KEY: ${{ github.event.inputs.openalex_api_key }}
+          OPENALEX_API_KEY: ${{ github.event.inputs.openalex_api_key || secrets.OPENALEX_API_KEY }}
           MAX_OA: ${{ github.event.inputs.max_openalex }}
         run: |
           if [ "$OA_HTTP" != "200" ]; then
