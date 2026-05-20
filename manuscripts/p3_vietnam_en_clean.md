@@ -538,7 +538,7 @@ Table 2: Focal coefficient summary by wave and pooled (M2 inverted-U, M7 dual-di
 | $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$ | n.s. | n.s. | n.s. | n.s. |
 | M8 joint test (curvature + moderation) | p=.700 | n.s. | p=.062 † | — |
 
-*Notes.* Coefficients from OLS with HC1 heteroscedasticity-robust standard errors. Sector fixed effects and standard firm-level controls ($\ln(\mathrm{Emp})$, FirmAge, ForeignOwned) included throughout. Significance: *** p < .001; ** p < .01; * p < .05; † p < .10. M2 = quadratic FSTS only; M7 = M2 + $\tilde{\mathrm{TCI}}$ + $\tilde{\mathrm{DAI}}$ (dual direct); M8 = M7 + $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ + $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$. The 2023 wave is the only one in which the M8 DAI moderation channel is detectable at conventional thresholds, consistent with the Tier 1 proxy-obsolescence interpretation developed in §5.
+*Notes.* Coefficients from OLS with HC1 heteroscedasticity-robust standard errors. Sector fixed effects and standard firm-level controls ($\ln(\mathrm{Emp})$, FirmAge, ForeignOwned) included throughout. Significance: *** p < .001; ** p < .01; * p < .05; † p < .10. M2 = quadratic FSTS only; M7 = M2 + $\tilde{\mathrm{TCI}}$ + $\tilde{\mathrm{DAI}}$ (dual direct); M8 = M7 + $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ + $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$. The 2023 wave is the only one in which the M8 DAI moderation channel is detectable at conventional thresholds, consistent with the Tier 1 proxy-obsolescence interpretation developed in Section 5.
 
 
 p = .825; full-model M8 joint p = .700). In substantive terms, both capability dimensions in
@@ -580,10 +580,10 @@ as exporters move beyond moderate FSTS levels, the
 productivity contribution of basic digital presence attenuates and may amplify rather than relieve
 coordination burdens, consistent with the view that website-level adoption alone is insufficient
 when deeper transaction-enabling and process-integrating digital capability is still maturing.
-A complementary interpretation, consistent with the 2SLS null for instrumented DAI (β=0.018, p=.942; §4.5 Panel K), is proxy obsolescence: by 2023, website presence (Tier 1, c22b) has become a minimum-threshold credential rather than a capability differentiator in Vietnam's maturing digital environment. Firms with and without websites are no longer meaningfully distinguished in their cross-border coordination capacity at the DAI tier that c22b captures. This interpretation predicts the negative DAI×FSTS interaction without requiring that "digital adoption is bad", instead, the instrument has lost its discriminatory power as Tier 1 adoption has diffused to near-universal levels (49.8% in 2023 vs 42.5% in 2009). Future analyses using the $\mathrm{DAI}_{\text{rich}}$ composite (Tier 1+2; Panel B, 2023 only) would provide a within-wave test of whether the sign shifts when electronic-payment-intensity items are added to the Vietnamese instrument.
+A complementary interpretation, consistent with the 2SLS null for instrumented DAI (β=0.018, p=.942; Section 4.5 Panel K), is proxy obsolescence: by 2023, website presence (Tier 1, c22b) has become a minimum-threshold credential rather than a capability differentiator in Vietnam's maturing digital environment. Firms with and without websites are no longer meaningfully distinguished in their cross-border coordination capacity at the DAI tier that c22b captures. This interpretation predicts the negative DAI×FSTS interaction without requiring that "digital adoption is bad", instead, the instrument has lost its discriminatory power as Tier 1 adoption has diffused to near-universal levels (49.8% in 2023 vs 42.5% in 2009). Future analyses using the $\mathrm{DAI}_{\text{rich}}$ composite (Tier 1+2; Panel B, 2023 only) would provide a within-wave test of whether the sign shifts when electronic-payment-intensity items are added to the Vietnamese instrument.
 Taken together, the wave-specific results trace two wave-specific associations consistent with
 stage contingency. Foreign-technology / standards capability is positive across all three waves
-with a modestly attenuating magnitude ($\tilde{\mathrm{TCI}}$ = 0.215 → 0.128 → 0.123) but with moderation
+with a modestly attenuating magnitude ($\tilde{\mathrm{TCI}}$ = 0.215, 0.128, 0.123) but with moderation
 
 
 
@@ -860,7 +860,7 @@ Two-stage least-squares estimation using leave-one-out sector × region × wave 
 
 Measurement-sensitivity probes confirm that core inferences do not depend on composite construction. Enriching TCI with R&D and product-innovation items (Panel A) attenuates the TCI coefficient modestly but does not alter qualitative conclusions. The enriched $\mathrm{DAI}_{\text{rich}}$ composite (Tier 1–2, Panel B) yields directionally consistent moderation in 2023 with weaker significance. Micro-firm exclusion (Panel D) preserves the inverted-U and TCI associations. Paternoster et al. cross-wave z-tests (Panel F) confirm that the DAI lifecycle shift is statistically distinguishable while curvature parameters share a common pooled magnitude. Panel-level estimates are reported in Online Appendix Tables C–F.
 
-Multiple-testing caveat. 4.5 reports four narrative panels (G, H, I, F) and three robustness families (endogeneity/selection, measurement sensitivity) across multiple focal terms. We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. Our substantive inferences in §5 rely on the pattern across panels and the directional consistency of the focal estimates rather than on the significance of any single robustness panel.
+Multiple-testing caveat. 4.5 reports four narrative panels (G, H, I, F) and three robustness families (endogeneity/selection, measurement sensitivity) across multiple focal terms. We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. Our substantive inferences in Section 5 rely on the pattern across panels and the directional consistency of the focal estimates rather than on the significance of any single robustness panel.
 Table 3 collates the robustness panels documented in 4.5 in a single overview to ease crosscomparison.
 Table 4 reports the implied turning points of the inverted-U specification (M2) and the
 Lind–Mehlum p-values for each wave and the pooled sample.
@@ -1071,7 +1071,7 @@ K. IV / 2SLS — $\tilde{\mathrm{TCI}}$
 First-stage F = 22.1
 (strong)
 Oster (2019) δ = 1 bounds
-2,958 FSTSc 0.92 → 0.61; FSTSc2 −2.21 → −1.17; No sign change; focal findTCI 0.14 → 0.19; DAI 0.07 → 0.08
+2,958 FSTSc 0.92, 0.61; FSTSc2 −2.21, −1.17; No sign change; focal findTCI 0.14, 0.19; DAI 0.07, 0.08
 ings stable
 ∗
 
@@ -1369,7 +1369,7 @@ intensive services with traditional services, or contrasting export-oriented wit
 oriented manufacturing sub-sectors, would benefit from a research design that exploits richer
 industry classification than the WBES one-digit codes allow.
 
-Sixth, the analysis is limited to Vietnam as a single transitional economy at a particular stage of its digital and institutional development. Understanding how the DAI moderation pattern documented here, negative at high export intensity under Tier-1-only adoption, compares with patterns in other emerging markets at different institutional stages, or with patterns in digitally advanced economies where the same interaction is predicted to be positive, requires cross-setting comparative designs that systematically vary institutional transaction costs and digital infrastructure quality. Such designs would also allow more direct tests of the context-contingent framing developed in §2.1.
+Sixth, the analysis is limited to Vietnam as a single transitional economy at a particular stage of its digital and institutional development. Understanding how the DAI moderation pattern documented here, negative at high export intensity under Tier-1-only adoption, compares with patterns in other emerging markets at different institutional stages, or with patterns in digitally advanced economies where the same interaction is predicted to be positive, requires cross-setting comparative designs that systematically vary institutional transaction costs and digital infrastructure quality. Such designs would also allow more direct tests of the context-contingent framing developed in Section 2.1.
 
 
 
