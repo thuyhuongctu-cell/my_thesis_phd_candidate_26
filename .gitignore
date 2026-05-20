@@ -45,3 +45,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# P6 downloaded PDFs (too large for git — store locally)
+p6/pdfs/
