@@ -767,7 +767,7 @@ The most defensible interpretation is therefore that the full-sample inverted-U 
 a combined participation-and-intensity structure, with the productivity-relevant contrast concentrated primarily at the transition from non-exporting to exporting rather
 than in strong within-exporter curvature alone.
 
-The Vietnam pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is consistent with institutional transaction costs binding relatively early in a lower-income emerging-economy context: in settings with thinner contract-enforcement institutions, smaller domestic markets, and less established export-support infrastructure, exporters are expected to approach over-commitment costs at lower absolute export-intensity levels. This setting-level reading is consistent with the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022 — MIR; Marano et al., 2016).
+The Vietnam pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is notably lower than the manufacturing-subsample threshold of 47.8 % reported for Chinese private firms by Author Citation (2026 — JFAR). This gap is consistent with institutional transaction costs binding earlier in Vietnam's lower-income emerging-economy context: Vietnamese exporters approach over-commitment costs at a lower absolute export-intensity level than their Chinese counterparts, where more mature contract-enforcement institutions, larger domestic markets, and more established export-support infrastructure allow firms to sustain higher export intensity before productivity returns diminish. The cross-country threshold difference thus provides within-WBES cross-setting evidence for the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022 — MIR; Marano et al., 2016).
 
 H2 is supported by the positive TCI_z
 direct association in the pooled sample (β = 0.179, p < .001) and in all three wavespecific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), reinforced by statistically distinguishable TCI moderation in three of four panels (M3 joint p = .040,
@@ -1523,6 +1523,8 @@ tables/table_lind_mehlum.csv (Table LM source), tables/table_3_robustness.csv (T
 ---
 
 ## References
+Author Citation (2026 — JFAR). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 02*(39), 287–291. [Author details withheld for blind review.]
+
 Aguinis, H., Hill, N. S., and Bailey, J. R. (2021). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. Organizational Research Methods,
 24(4):678–693.
 Antonakis, J., Bendahan, S., Jacquart, P., and Lalive, R. (2010). On making causal claims: A
