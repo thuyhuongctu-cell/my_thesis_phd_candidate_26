@@ -1,0 +1,67 @@
+name: Semantic Scholar PDF Fallback (P6)
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest_file:
+        description: 'Unpaywall manifest CSV (in p6/tools/results/)'
+        required: true
+        default: 'oa_manifest_20260520.csv'
+      output_file:
+        description: 'S2 output CSV filename'
+        required: true
+        default: 's2_manifest_20260520.csv'
+      delay:
+        description: 'Delay between S2 requests (seconds, min 3)'
+        required: false
+        default: '3.5'
+
+jobs:
+  query-s2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          token: ${{ github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Query Semantic Scholar
+        run: |
+          python3 p6/tools/43_semantic_scholar_query.py \
+            --manifest "p6/tools/results/${{ github.event.inputs.manifest_file }}" \
+            --output   "p6/tools/results/${{ github.event.inputs.output_file }}" \
+            --delay    "${{ github.event.inputs.delay }}"
+
+      - name: Show summary
+        run: |
+          OUTPATH="p6/tools/results/${{ github.event.inputs.output_file }}"
+          TOTAL=$(tail -n +2 "$OUTPATH" | wc -l)
+          FOUND=$(tail -n +2 "$OUTPATH" | awk -F',' '{print $6}' | grep -c "True" || true)
+          echo "## Semantic Scholar Results" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Count |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Papers queried | $TOTAL |" >> $GITHUB_STEP_SUMMARY
+          echo "| New PDF links | $FOUND |" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "p6/tools/results/${{ github.event.inputs.output_file }}"
+          git add "p6/tools/results/${{ github.event.inputs.manifest_file }}"
+          git diff --cached --quiet && echo "No changes" || \
+            git commit -m "feat(p6): S2 PDF fallback — new links added to oa_manifest [$(date +%Y%m%d)]"
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn
