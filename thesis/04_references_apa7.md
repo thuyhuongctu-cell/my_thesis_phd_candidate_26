@@ -413,7 +413,7 @@ Mahler, D. G., Serajuddin, U., Wadhwa, D., & Yonzan, N. (2026, April). *The worl
 
 - Dùng in-text citation theo author–date.
 - 3+ tác giả: dùng *et al.* ngay từ trích dẫn đầu tiên.
-- Trích dẫn công trình của tác giả luận án: dùng dạng "Do và Phan (2026 — VEFR)", v.v.
+- Trích dẫn công trình của tác giả luận án: dùng suffix năm chuẩn APA 7 — "Do và Phan (2026a)", "Do và Phan (2026g)", v.v. (P1=2026a, P2=2026g, P3=2026e, P5=2026f, P6=2026c, P7=2026d, P8=2026b; P4=Mar et al., 2026).
 - Trích dẫn báo cáo quốc tế thường niên: dùng dạng "IMF (2026, April)" hoặc "ADB (2026, April)".
 - **Trích dẫn ADB Vietnam Outlook 2026 (v2.5)**: dùng dạng "ADB (2026, April — Vietnam Outlook)" để phân biệt với ADO April 2026 cùng năm.
 - **Trích dẫn IFC Blueprint (v2.5)**: dùng dạng "IFC (n.d. — PSD Blueprint)" hoặc "IFC (Private Sector Development Blueprint)" cho rõ.
@@ -759,17 +759,19 @@ Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
 
 Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam.
 
-Do, T. H., & Phan, A. T. (2026a). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript under review]. *Journal of Asia Business Studies*. *(P3 — Việt Nam, JABS under review.)*
+Do, T. H., & Phan, A. T. (2026a). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic & Financial Review*, *2*(1), 111–115. *(P1 — VEFR, đã công bố.)*
 
-Do, T. H., & Phan, A. T. (2026b). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. *(P2 — Trung Quốc SMEs, đã công bố.)*
+Do, T. H., & Phan, A. T. (2026b). *Forced internationalization penalty: Firm performance in Pacific small island developing states* [Manuscript under review]. *World Development*. *(P8 — Pacific SIDS, World Development under review.)*
 
-Do, T. H., & Phan, A. T. (2026c). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Manuscript under review]. *International Journal of Emerging Markets*. *(P5 — Trung Quốc, IJOEM under review.)*
+Do, T. H., & Phan, A. T. (2026c). *Institutional context, digital adoption, and the internationalization–performance relationship: A three-level meta-analysis* [Manuscript under review]. *International Business Review*. *(P6 — Meta-analysis, IBR under review.)*
 
-Do, T. H., & Phan, A. T. (2026d). *Institutional context, digital adoption, and the internationalization–performance relationship: A three-level meta-analysis* [Manuscript under review]. *International Business Review*. *(P6 — Meta-analysis, IBR under review.)*
+Do, T. H., & Phan, A. T. (2026d). *Internationalization and firm performance across 49 Asian and Pacific economies: Institutional regimes, digital capabilities, and managerial characteristics as contingency factors* [Manuscript under revision]. *Journal of International Business Studies*. *(P7 — Đa quốc gia 49 nền kinh tế, JIBS under revision.)*
 
-Do, T. H., & Phan, A. T. (2026e). *Internationalization and firm performance across 49 Asian and Pacific economies: Institutional regimes, digital capabilities, and managerial characteristics as contingency factors* [Manuscript under revision]. *Journal of International Business Studies*. *(P7 — Đa quốc gia 49 nền kinh tế, JIBS under revision.)*
+Do, T. H., & Phan, A. T. (2026e). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript under review]. *Journal of Asia Business Studies*. *(P3 — Việt Nam, JABS under review.)*
 
-Do, T. H., & Phan, A. T. (2026f). *Forced internationalization penalty: Firm performance in Pacific small island developing states* [Manuscript under review]. *World Development*. *(P8 — Pacific SIDS, World Development under review.)*
+Do, T. H., & Phan, A. T. (2026f). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Manuscript under review]. *International Journal of Emerging Markets*. *(P5 — Trung Quốc, IJOEM under review.)*
+
+Do, T. H., & Phan, A. T. (2026g). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research*, *39*(2), 287–291. *(P2 — JFAR, đã công bố.)*
 
 ### Phương pháp kinh tế lượng + Meta-analysis (Section J mở rộng)
 
