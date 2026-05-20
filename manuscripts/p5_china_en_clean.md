@@ -185,19 +185,29 @@ The supplementary analyses are interpreted hierarchically. Evidence from the thr
 
 To test the directional shift hypothesis (H2), the cross-sectional capability moderation hypothesis (H4a/H4b curvature components), and the dynamic capability-conditioned moderation hypothesis introduced in §2.4 within a single internally consistent framework, we estimate the following pooled specification on the joint sample of firms reporting all focal variables (sample_full, N = 3,559):
 
-```
-lnLP = β₀ + β₁·FSTS + β₂·FSTS² + β₃·wave_2024
-     + β₄·FSTS×wave_2024 + β₅·FSTS²×wave_2024
-     + β₆·Tech + β₇·FSTS×Tech + β₈·FSTS²×Tech
-     + β₉·FSTS×wave_2024×Tech + β₁₀·FSTS²×wave_2024×Tech
-     + γ·Controls + ε
-```
+$$
+\begin{aligned}
+\ln(\mathrm{LP}_i) =\;& \beta_0 + \beta_1\,\mathrm{FSTS}_i + \beta_2\,\mathrm{FSTS}_i^2 + \beta_3\,\mathrm{wave\_2024}_i \\
+& + \beta_4\,(\mathrm{FSTS}_i \times \mathrm{wave\_2024}_i) + \beta_5\,(\mathrm{FSTS}_i^2 \times \mathrm{wave\_2024}_i) \\
+& + \beta_6\,\mathrm{Tech}_i + \beta_7\,(\mathrm{FSTS}_i \times \mathrm{Tech}_i) + \beta_8\,(\mathrm{FSTS}_i^2 \times \mathrm{Tech}_i) \\
+& + \beta_9\,(\mathrm{FSTS}_i \times \mathrm{wave\_2024}_i \times \mathrm{Tech}_i) + \beta_{10}\,(\mathrm{FSTS}_i^2 \times \mathrm{wave\_2024}_i \times \mathrm{Tech}_i) \\
+& + \boldsymbol{\gamma}^{\top}\!\mathbf{x}_i + \varepsilon_i,
+\end{aligned}
+$$
 
-where Tech = TCI_full (within-wave z-standardised) and Controls = lnEmp + firmage + foreigndummy. Standard errors are cluster-robust on `idstd`. The three focal joint F-tests are:
+where $\mathrm{Tech}_i = \mathrm{TCI\_full}_i$ (within-wave $z$-standardised) and $\mathbf{x}_i$ collects controls $\{\mathrm{lnEmp}_i, \mathrm{firmage}_i, \mathrm{foreigndummy}_i\}$. Standard errors are cluster-robust on `idstd`. The three focal joint $F$-tests are:
 
-- **F1: cross-wave shift / structural durability (H2a vs H2b).** Test β₄ = β₅ = 0. A non-rejection means the shape of the inverted-U is the same in 2012 and 2024, supporting H2b over H2a.
-- **F2: cross-sectional capability moderation (H4a curvature).** Test β₇ = β₈ = 0. Non-rejection means TCI does not moderate the curvature.
-- **F3: capability-conditioned dynamic moderation.** Test β₉ = β₁₀ = 0. Non-rejection means there is no Tech-conditioned shift in curvature over time.
+- **F1: cross-wave shift / structural durability (H2a vs H2b).** Test $H_0: \beta_4 = \beta_5 = 0$. A non-rejection means the shape of the inverted-U is the same in 2012 and 2024, supporting H2b over H2a.
+- **F2: cross-sectional capability moderation (H4a curvature).** Test $H_0: \beta_7 = \beta_8 = 0$. Non-rejection means TCI does not moderate the curvature.
+- **F3: capability-conditioned dynamic moderation.** Test $H_0: \beta_9 = \beta_{10} = 0$. Non-rejection means there is no Tech-conditioned shift in curvature over time.
+
+The cross-wave Paternoster (1998) $z$-statistic for individual coefficient equality is
+
+$$
+z = \frac{\hat\beta_A - \hat\beta_B}{\sqrt{\mathrm{SE}(\hat\beta_A)^2 + \mathrm{SE}(\hat\beta_B)^2}},
+$$
+
+with two-sided $p$-values from the standard normal distribution. The implied turning point of the inverted-U component is $\mathrm{FSTS}^{*} = -\hat\beta_1/(2\hat\beta_2)$ when $\hat\beta_2 < 0$; the delta-method 95 % confidence interval for $\mathrm{FSTS}^{*}$ is reported alongside (Haans, Pieters, & He, 2016).
 
 Lind & Mehlum (2010) U-tests are applied to each wave separately to validate the inverted-U formally; delta-method 95 % confidence intervals for the wave-specific turning points are reported alongside.
 

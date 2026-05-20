@@ -451,23 +451,28 @@ sector1). The resulting analytic samples are 989, 956, and 1,013 observations fo
 and 2023 respectively; pooled N is 2,958.
 
 ### 3.3 Model sequence
-The empirical strategy follows a nested sequence of models, all estimated by ordinary least
-squares with HC1 robust standard errors. A control model establishes the baseline. A linear
-internationalisation model then introduces FSTS_c. A nonlinear model adds the quadratic term
-FSTS_c
+The empirical strategy follows a nested sequence of OLS models estimated with HC1 heteroscedasticity-robust standard errors (MacKinnon & White, 1985). The full specification of interest is
 
-2 to test for curvature. Additional models introduce TCI_z and DAI_z separately, first
+$$
+\begin{aligned}
+\ln(\mathrm{LP}_i) =\;& \alpha + \beta_1\,\mathrm{FSTS}^{c}_i + \beta_2\,(\mathrm{FSTS}^{c}_i)^2 + \beta_3\,\mathrm{TCI}_z{}_i + \beta_4\,\mathrm{DAI}_z{}_i \\
+& + \beta_5\,(\mathrm{FSTS}^{c}_i \times \mathrm{DAI}_z{}_i) + \beta_6\,((\mathrm{FSTS}^{c}_i)^2 \times \mathrm{DAI}_z{}_i) \\
+& + \boldsymbol{\gamma}^{\top}\!\mathbf{x}_i + \delta_s + \lambda_w + \varepsilon_i,
+\end{aligned}
+$$
 
+where $\mathrm{FSTS}^{c}_i = \mathrm{FSTS}_i - \overline{\mathrm{FSTS}}_w$ is wave-centred export intensity, $\mathbf{x}_i$ collects firm-level controls $\{\mathrm{lnEmp}_i, \mathrm{FirmAge}_i, \mathrm{ForeignOwned}_i\}$, $\delta_s$ is a one-digit ISIC sector fixed effect, and $\lambda_w$ is a wave fixed effect applied only in the pooled specification. The implied turning point of the inverted-U is $\mathrm{FSTS}^{*} = -\hat\beta_1/(2\hat\beta_2) + \overline{\mathrm{FSTS}}_w$ when $\hat\beta_2 < 0$ (Haans, Pieters, & He, 2016).
 
+Nested specifications are estimated to disentangle direct from contingent associations:
 
-in specifications that allow interaction terms with FSTS_c and FSTS_c , and then in directeffect specifications. The final full model includes the nonlinear internationalisation terms, both
-direct capability measures, and the interaction terms involving digital adoption.
-This design separates three analytical questions.
+- **M0** (controls only): $\ln(\mathrm{LP}_i) = \alpha + \boldsymbol{\gamma}^{\top}\!\mathbf{x}_i + \delta_s + \lambda_w + \varepsilon_i$;
+- **M1** (linear FSTS): adds $\beta_1\,\mathrm{FSTS}^{c}_i$;
+- **M2** (inverted-U): adds $\beta_2\,(\mathrm{FSTS}^{c}_i)^2$;
+- **M7** (dual-direct capability): M2 plus $\beta_3\,\mathrm{TCI}_z{}_i + \beta_4\,\mathrm{DAI}_z{}_i$;
+- **M8** (full DAI moderation): M7 plus the two DAI interaction terms above.
 
-First, is the I–P relationship nonlinear?
-
-Second, are TCI_z and DAI_z directly associated with performance? Third, does the role of
-foundational digital adoption become more conditional as export intensity rises? Throughout,
+Cross-wave coefficient differences are evaluated via the Paternoster et al. (1998) $z$-test, $z = (\hat\beta_A - \hat\beta_B)/\sqrt{\mathrm{SE}(\hat\beta_A)^2 + \mathrm{SE}(\hat\beta_B)^2}$, with two-sided $p$-values from the standard normal distribution. The Lind and Mehlum (2010) $U$-test is applied on the $[0, 1]$ range of FSTS to verify the inverted-U formally.
+This design separates three analytical questions. First, is the I–P relationship nonlinear? Second, are TCI_z and DAI_z directly associated with performance? Third, does the role of foundational digital adoption become more conditional as export intensity rises? Throughout,
 results are described as associations rather than effects, consistent with the inferential limits of
 repeated-cross-section data (Antonakis et al., 2010; Wooldridge, 2010).
 
