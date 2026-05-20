@@ -15,6 +15,10 @@ on:
         description: 'Delay between S2 requests (seconds, min 3)'
         required: false
         default: '3.5'
+      limit:
+        description: 'Max papers to query (0 = all; use 5 for quick test)'
+        required: false
+        default: '0'
 
 jobs:
   query-s2:
@@ -43,25 +47,40 @@ jobs:
           python3 p6/tools/43_semantic_scholar_query.py \
             --manifest "p6/tools/results/${{ github.event.inputs.manifest_file }}" \
             --output   "p6/tools/results/${{ github.event.inputs.output_file }}" \
-            --delay    "${{ github.event.inputs.delay }}"
+            --delay    "${{ github.event.inputs.delay }}" \
+            --limit    "${{ github.event.inputs.limit }}"
 
       - name: Show summary
+        if: always()
         run: |
           OUTPATH="p6/tools/results/${{ github.event.inputs.output_file }}"
+          if [ ! -f "$OUTPATH" ]; then
+            echo "## Semantic Scholar Results" >> $GITHUB_STEP_SUMMARY
+            echo "**ERROR: output file not found — query step may have failed**" >> $GITHUB_STEP_SUMMARY
+            echo "Check the 'Query Semantic Scholar' step logs above." >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
           TOTAL=$(tail -n +2 "$OUTPATH" | wc -l)
-          FOUND=$(tail -n +2 "$OUTPATH" | awk -F',' '{print $6}' | grep -c "True" || true)
+          FOUND=$(python3 -c "
+          import csv
+          with open('$OUTPATH') as f:
+              rows = list(csv.DictReader(f))
+          print(sum(1 for r in rows if r.get('s2_found','')=='True'))
+          ")
           echo "## Semantic Scholar Results" >> $GITHUB_STEP_SUMMARY
           echo "| Metric | Count |" >> $GITHUB_STEP_SUMMARY
           echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Papers queried | $TOTAL |" >> $GITHUB_STEP_SUMMARY
-          echo "| New PDF links | $FOUND |" >> $GITHUB_STEP_SUMMARY
+          echo "| New PDF links found | $FOUND |" >> $GITHUB_STEP_SUMMARY
 
       - name: Commit results
+        if: success()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "p6/tools/results/${{ github.event.inputs.output_file }}"
-          git add "p6/tools/results/${{ github.event.inputs.manifest_file }}"
-          git diff --cached --quiet && echo "No changes" || \
+          git pull --rebase origin claude/edit-vietnamese-academic-standards-xcAmn || true
+          git add "p6/tools/results/${{ github.event.inputs.output_file }}" || true
+          git add "p6/tools/results/${{ github.event.inputs.manifest_file }}" || true
+          git diff --cached --quiet && echo "No changes to commit" || \
             git commit -m "feat(p6): S2 PDF fallback — new links added to oa_manifest [$(date +%Y%m%d)]"
           git push origin claude/edit-vietnamese-academic-standards-xcAmn
