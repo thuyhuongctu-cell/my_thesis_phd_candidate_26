@@ -145,9 +145,9 @@ def setup_axes(width=10, height=6):
 
 def render_p3_vietnam(path: Path):
     """P3 Vietnam (3-wave): FSTS inverted-U with TCI and DAI as latent
-    moderators (ellipses for formative composites; rectangles for observed
-    FSTS/FSTS²/ln(LP)).  Sign markers (+/-) on arrows per Scopus/WoS
-    conceptual-model convention.
+    moderators.  Each moderator has TWO outgoing arrows — one targeting
+    the IV (FSTS) and one targeting the DV (ln LP) — per the dual-arrow
+    moderation convention requested by the user.
     """
     fig, ax = setup_axes(width=10, height=6.5)
 
@@ -155,14 +155,14 @@ def render_p3_vietnam(path: Path):
             ha="center", va="center", fontsize=TITLE_SIZE, fontweight="bold")
 
     # IVs (left stack — observed)
-    add_box(ax, 1.7, 3.7, 2.0, 0.55, "FSTS",   bold=True)
+    add_box(ax, 1.7, 3.7, 2.0, 0.55, "FSTS",     bold=True)
     add_box(ax, 1.7, 2.9, 2.0, 0.55, "FSTS$^2$", bold=True)
 
     # DV (right — observed)
     add_box(ax, 8.3, 3.3, 2.2, 0.85,
             "ln(LP)\nLabour Productivity", bold=True)
 
-    # Main horizontal IV→DV relationship arrows with signed labels
+    # Main horizontal IV→DV relationship arrows
     add_arrow(ax, (2.7, 3.7), (7.2, 3.45),
               label="H1a  (+)",
               label_pos="mid", label_offset=(0, 0.18))
@@ -170,15 +170,25 @@ def render_p3_vietnam(path: Path):
               label="H1b  (−)",
               label_pos="mid", label_offset=(0, -0.20))
 
-    # TCI moderator — latent (ellipse), moderation arrow vertical down
+    # TCI moderator (top) — dual arrows fanning out to IV and DV
     add_ellipse(ax, 5.0, 5.30, 2.6, 0.7, "TCI\n(capability)", italic=True)
-    add_mod_arrow(ax, (5.0, 4.95), (5.0, 3.55),
-                  label="H2  (+ flattening)")
+    # to FSTS (IV)
+    add_arrow(ax, (4.2, 4.95), (2.4, 3.95), dashed=True,
+              label="H2 (+)",
+              label_pos="mid", label_offset=(-0.05, 0.18))
+    # to ln(LP) (DV)
+    add_arrow(ax, (5.8, 4.95), (7.6, 3.55), dashed=True,
+              label="H2 (+)",
+              label_pos="mid", label_offset=(0.05, 0.18))
 
-    # DAI moderator — latent (ellipse), moderation arrow vertical up
+    # DAI moderator (bottom) — dual arrows fanning out to IV and DV
     add_ellipse(ax, 5.0, 1.30, 2.6, 0.7, "DAI\n(digital adoption)", italic=True)
-    add_mod_arrow(ax, (5.0, 1.65), (5.0, 3.05),
-                  label="H4  (− 2023 obsolescence)")
+    add_arrow(ax, (4.2, 1.65), (2.4, 2.65), dashed=True,
+              label="H4 (−)",
+              label_pos="mid", label_offset=(-0.05, -0.18))
+    add_arrow(ax, (5.8, 1.65), (7.6, 3.05), dashed=True,
+              label="H3 (+)",
+              label_pos="mid", label_offset=(0.05, -0.18))
 
     # Controls
     add_box(ax, 5.0, 0.40, 7.6, 0.40,
@@ -189,14 +199,14 @@ def render_p3_vietnam(path: Path):
     fig.text(0.5, -0.03,
              "Figure 1.  Conceptual model of P3 (Vietnam, 3-wave WBES).  "
              "Rectangles denote observed (measured) variables; ellipses denote "
-             "latent formative composites (TCI, DAI).  Sign markers indicate "
-             "the expected direction of association: H1a (+) linear FSTS, "
-             "H1b (−) quadratic curvature, H2 (+) capability flattening of the "
-             "post-threshold downturn, H4 (−) Tier-1 DAI×FSTS interaction "
-             "(consistent with Tier-1 proxy obsolescence in 2023).  Direct "
-             "level-shift roles of TCI and DAI (H3) are tested in the regression "
-             "but omitted from the diagram for clarity.  Source: authors' own "
-             "elaboration.",
+             "latent formative composites (TCI, DAI).  Each moderator has two "
+             "dashed arrows: one to the independent variable (FSTS) capturing "
+             "the interaction with export intensity, and one to the dependent "
+             "variable (ln LP) capturing the direct level-shift association.  "
+             "Sign markers indicate the expected direction: H1a (+) linear FSTS, "
+             "H1b (−) quadratic curvature, H2 (+) capability flattening, "
+             "H3 (+) DAI direct level-shift, H4 (−) Tier-1 DAI × FSTS in 2023 "
+             "(proxy obsolescence).  Source: authors' own elaboration.",
              ha="center", va="top", fontsize=LABEL_SIZE, fontstyle="italic",
              wrap=True)
 
@@ -207,8 +217,9 @@ def render_p3_vietnam(path: Path):
 
 def render_p4_singapore(path: Path):
     """P4 Singapore: FSTS inverted-U + TCI direct (H1) + DAI conditional
-    (H3) and positive DAI × FSTS² moderation (H4).  Latent constructs
-    drawn as ellipses; signed arrows per Scopus/WoS conventions.
+    (H3) and positive DAI × FSTS² moderation (H4).  Each moderator drawn
+    with dual arrows to both IV (FSTS) and DV (ln LP) per requested
+    convention.
     """
     fig, ax = setup_axes(width=10, height=6.5)
 
@@ -216,15 +227,12 @@ def render_p4_singapore(path: Path):
             "Conceptual Model — P4 Singapore (WBES 2023)",
             ha="center", va="center", fontsize=TITLE_SIZE, fontweight="bold")
 
-    # IVs (observed)
-    add_box(ax, 1.7, 3.7, 2.0, 0.55, "FSTS",   bold=True)
+    add_box(ax, 1.7, 3.7, 2.0, 0.55, "FSTS",     bold=True)
     add_box(ax, 1.7, 2.9, 2.0, 0.55, "FSTS$^2$", bold=True)
 
-    # DV (observed)
     add_box(ax, 8.3, 3.3, 2.2, 0.85,
             "ln(LP)\nLabour Productivity", bold=True)
 
-    # Main relationship arrows with sign markers
     add_arrow(ax, (2.7, 3.7), (7.2, 3.45),
               label="(+) linear",
               label_pos="mid", label_offset=(0, 0.18))
@@ -232,17 +240,24 @@ def render_p4_singapore(path: Path):
               label="(−) curvature",
               label_pos="mid", label_offset=(0, -0.20))
 
-    # TCI latent moderator (top); H1 direct association to DV
+    # TCI latent moderator (top) — dual arrows
     add_ellipse(ax, 5.0, 5.30, 2.6, 0.7, "TCI\n(capability)", italic=True)
-    add_arrow(ax, (5.0, 4.95), (7.2, 3.55),
-              label="H1  (+)",
-              label_pos="end", label_offset=(0, 0.22), curve=-0.18)
+    add_arrow(ax, (4.2, 4.95), (2.4, 3.95), dashed=True,
+              label="(+) interaction",
+              label_pos="mid", label_offset=(-0.05, 0.18))
+    add_arrow(ax, (5.8, 4.95), (7.6, 3.55), dashed=True,
+              label="H1 (+)",
+              label_pos="mid", label_offset=(0.05, 0.18))
 
-    # DAI latent moderator (bottom); H4 positive quadratic moderation
+    # DAI latent moderator (bottom) — dual arrows (H4 to IV, H3 to DV)
     add_ellipse(ax, 5.0, 1.30, 2.6, 0.7,
                 "DAI\n(Tier 1+2 digital)", italic=True)
-    add_mod_arrow(ax, (5.0, 1.65), (5.0, 3.05),
-                  label="H4  (+ DAI × FSTS$^2$)")
+    add_arrow(ax, (4.2, 1.65), (2.4, 2.65), dashed=True,
+              label="H4 (+ × FSTS$^2$)",
+              label_pos="mid", label_offset=(-0.10, -0.18))
+    add_arrow(ax, (5.8, 1.65), (7.6, 3.05), dashed=True,
+              label="H3 (?) conditional",
+              label_pos="mid", label_offset=(0.10, -0.18))
 
     add_box(ax, 5.0, 0.40, 7.6, 0.40,
             "Controls:  log(Emp),  FirmAge,  ForeignOwned,  sector FE",
@@ -252,14 +267,15 @@ def render_p4_singapore(path: Path):
     fig.text(0.5, -0.03,
              "Figure 1.  Conceptual model of P4 (Singapore, WBES 2023).  "
              "Rectangles denote observed variables; ellipses denote latent "
-             "formative composites.  Sign markers indicate the expected "
-             "direction of association: linear FSTS (+), quadratic curvature "
-             "(−), H1 capability direct effect on productivity (+), H4 "
-             "positive quadratic moderation of DAI on the export-intensity "
-             "curvature (consistent with conditional digital complementarity).  "
-             "H3 (conditional DAI–productivity association) is tested via the "
-             "joint F-test on the DAI direct and DAI × FSTS interaction terms.  "
-             "Source: authors' own elaboration.",
+             "formative composites.  Each moderator has two dashed arrows: "
+             "one to the independent variable (FSTS) capturing the interaction "
+             "with export intensity, and one to the dependent variable (ln LP) "
+             "capturing the direct association.  Sign markers indicate the "
+             "expected direction: linear FSTS (+), quadratic curvature (−), "
+             "H1 (+) TCI direct, H3 (?) conditional DAI–productivity association "
+             "(tested via joint F-test on the DAI direct and DAI × FSTS terms), "
+             "H4 (+) positive quadratic moderation of DAI on the export-intensity "
+             "curvature.  Source: authors' own elaboration.",
              ha="center", va="top", fontsize=LABEL_SIZE, fontstyle="italic",
              wrap=True)
 
@@ -270,9 +286,9 @@ def render_p4_singapore(path: Path):
 
 def render_p5_china(path: Path):
     """P5 China (2-wave): cross-wave durability test.
-    Latent ellipses for TCI_full and DAI_core; signed and dashed arrows
-    per Scopus/WoS convention.  H2a/H2b drawn as a single dashed arrow
-    labelled with competing predictions.
+    TCI_full moderator drawn with dual arrows (to FSTS and to ln LP) per
+    requested convention.  DAI_core retained as level-shift only with a
+    single arrow to ln LP.
     """
     fig, ax = setup_axes(width=11, height=7.5)
 
@@ -295,19 +311,23 @@ def render_p5_china(path: Path):
     add_arrow(ax, (2.7, 3.6), (8.15, 3.80),
               label="H1b  (−)",
               label_pos="mid", label_offset=(0, -0.20))
-    # H2a (shift) vs H2b (durability): dashed arrow because the directional
-    # prediction is contested.
     add_arrow(ax, (2.7, 2.8), (8.15, 3.55), dashed=True,
               label="H2a / H2b  (shift  vs.  durability)",
               label_pos="mid", label_offset=(0.6, -0.22))
 
-    # TCI latent moderator (top) — H4a curvature moderation
+    # TCI latent moderator (top) — dual arrows to IV (FSTS) and DV (ln LP)
     add_ellipse(ax, 5.5, 6.10, 2.8, 0.7,
                 r"TCI$_{\mathrm{full}}$" + "\n(capability)", italic=True)
-    add_mod_arrow(ax, (5.5, 5.75), (5.5, 3.95),
-                  label="H4a  (curvature mod)")
+    # to FSTS (IV) — H4a curvature moderation through the interaction term
+    add_arrow(ax, (4.5, 5.75), (2.6, 4.65), dashed=True,
+              label="H4a (?)",
+              label_pos="mid", label_offset=(-0.10, 0.18))
+    # to ln LP (DV) — direct level-shift association
+    add_arrow(ax, (6.5, 5.75), (8.6, 4.10), dashed=True,
+              label="(+) level shift",
+              label_pos="mid", label_offset=(0.10, 0.18))
 
-    # DAI latent level-shift only (no curvature moderation hypothesis)
+    # DAI latent level-shift only — single arrow to DV
     add_ellipse(ax, 5.5, 1.45, 2.8, 0.7,
                 r"DAI$_{\mathrm{core}}$" + "\n(Tier-1 digital)", italic=True)
     add_arrow(ax, (5.5, 1.80), (8.15, 3.55),
@@ -322,7 +342,6 @@ def render_p5_china(path: Path):
               label="H3  (?) exploratory",
               label_pos="mid", label_offset=(0.5, 0))
 
-    # Controls (bottom)
     add_box(ax, 5.5, 0.45, 8.5, 0.40,
             "Controls:  log(Emp),  FirmAge,  ForeignOwned;  "
             "cluster-robust SE on $idstd$",
@@ -331,14 +350,17 @@ def render_p5_china(path: Path):
     fig.text(0.5, -0.03,
              "Figure 1.  Conceptual model of P5 (China, WBES 2012 and 2024).  "
              "Rectangles denote observed variables; ellipses denote latent "
-             "formative composites.  H1a (+) and H1b (−) jointly specify the "
-             "inverted-U.  H2a and H2b are competing predictions about the "
-             "cross-wave behaviour of the curvature (shift vs. structural "
-             "durability), drawn as a single dashed arrow because the "
-             "direction is contested.  H4a tests technological-capability "
-             "moderation of the curvature.  $\\mathrm{DAI}_{\\text{core}}$ "
-             "enters as a level-shift control; H3 working-capital "
-             "conditioning is exploratory.  Source: authors' own elaboration.",
+             "formative composites.  The TCI moderator has two dashed arrows: "
+             "one to the independent variable (FSTS) capturing the H4a "
+             "curvature-moderation prediction, and one to the dependent "
+             "variable (ln LP) capturing the direct level-shift association.  "
+             "H1a (+) and H1b (−) jointly specify the inverted-U.  H2a and H2b "
+             "are competing predictions about the cross-wave behaviour of the "
+             "curvature (shift vs. structural durability), drawn as a single "
+             "dashed arrow because the direction is contested.  "
+             "$\\mathrm{DAI}_{\\text{core}}$ enters as a level-shift control "
+             "(single arrow to ln LP); H3 working-capital conditioning is "
+             "exploratory.  Source: authors' own elaboration.",
              ha="center", va="top", fontsize=LABEL_SIZE, fontstyle="italic",
              wrap=True)
 
