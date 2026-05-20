@@ -113,4 +113,5 @@ For each Tier B and Tier C reference, the audit:
 - **v1.6 → v1.7 (2026-05-03):** Initial Tier A/B/C classification + warning to verify
 - **v1.7 → v1.8 (2026-05-04):** Tier C verification (10 refs); Demir & Javorcik 2018 patched
 - **v1.8 → v1.8.1 (2026-05-06):** Tier B verification (8 refs); Avenyo et al. 2021 patched
+- **v1.9 (2026-05-20):** Tier D self-citations restored in blinded form after confirming all three (ICBEF 2025, VEFR 2026, JFAR 2026) are published. Cross-references to unsubmitted companion working papers removed. Part5 (discussion), part6 (limitations + conclusion), part7 (references + acknowledgements) extracted from the clean source so the APJM split is complete (7 parts) and `build_docx.sh` runs end-to-end. ICBEF reference blinded further: institutional publisher "College of Economics, Can Tho University" replaced with "[Publisher details withheld for blind review]" to avoid affiliation leak.
 - **All tiers verified.** Audit closed.
