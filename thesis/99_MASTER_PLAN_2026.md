@@ -202,45 +202,50 @@
 
 ### Chương 1 — Giới thiệu (29K) 🟡
 **Nội dung đã có:** Background, research gap, research questions, contribution, structure
+**✅ Claude đã làm (20/05/2026):**
+- ✅ Thêm roadmap P3–P8 vào §1.10 (commit 3a9e8f8)
 **NCS cần làm:**
 - Đọc lại toàn bộ chương, kiểm tra số liệu macro (số doanh nghiệp, số tạp chí)
-- Thêm 1 đoạn ngắn về kết quả tóm tắt của từng paper (P3–P8) để roadmap rõ hơn
 - Kiểm tra nhất quán thuật ngữ với Glossary (`writing_guides/09b_vn_term_glossary.md`)
-- **Thời gian:** 2–3 giờ
+- **Thời gian:** 1–2 giờ
 
 ### Chương 2 — Tổng quan tài liệu (50K) 🟡
 **Nội dung đã có:** Uppsala, RBV, Institutional Theory, Upper Echelons, Digital Capability Lens, ICRV framework, meta-analysis review
+**✅ Claude đã làm (19–20/05/2026):**
+- ✅ Cập nhật §2.3.2 với k=238 baseline (r̄=0.074) — commit 1fa2cf0
+- ✅ Thêm subsections P7/P8 literature gap vào §2.4 + fix CDCM expansion — commit 1e7f2c8
 **NCS cần làm:**
-- Cập nhật section về meta-analysis results với k=238 baseline (r̄=0.074)
-- Thêm subsection về literature gap dẫn đến P7 và P8 (hiện thiếu)
 - Kiểm tra tất cả citations có trong `thesis/04_references_apa7.md`
-- **Thời gian:** 3–4 giờ
+- **Thời gian:** 1–2 giờ
 
 ### Chương 3 — Phương pháp nghiên cứu (41K) 🟡
 **Nội dung đã có:** WBES data harmonization, P3/P4/P5/P6/P7/P8 methods, estimation equations M0–M11
+**✅ Claude đã làm (20/05/2026):**
+- ✅ Thêm footnote survey weights vào §3.3.1 — commit 722bc31
+- ✅ Kiểm tra notation consistency (FSTS_c, FSTS_c², TCI_z, DAI_z) — nhất quán
 **NCS cần làm:**
-- Hoàn thiện §3.4 về inter-coder reliability protocol cho P6 (sau khi có kết quả)
-- Thêm footnote về survey weights (WBES)
-- Kiểm tra tính nhất quán ký hiệu giữa các sections (FSTS_c, FSTS_c², TCI_z, DAI_z)
-- **Thời gian:** 2–3 giờ
+- Hoàn thiện §3.4 về inter-coder reliability protocol cho P6 (sau khi có kết quả thực tế κ, ICC)
+- **Thời gian:** 1–2 giờ sau L2 xong
 
 ### Chương 4 — Kết quả (32K) 🔴
 **Nội dung đã có:** Kết quả P3/P4/P5/P7/P8 (bảng số liệu, turning points)
 **Vấn đề:** Kết quả P6 meta-analysis trong chương này sẽ cần update nếu NCS chọn Lựa chọn B (chờ L2 xong)
+**✅ Claude đã kiểm tra (20/05/2026):** k=238, Q_M=17.35, turning points — tất cả nhất quán với manuscript.
 **NCS cần làm:**
-- Nếu chọn Lựa chọn A (submit P6 k=238 ngay): Chương 4 gần hoàn chỉnh, chỉ cần kiểm tra số liệu khớp với manuscript
+- Nếu chọn Lựa chọn A (submit P6 k=238 ngay): Chương 4 gần hoàn chỉnh, chỉ cần đọc lại lần cuối
 - Nếu chọn Lựa chọn B: Chờ L2 xong, update Tables 4.2–4.4 với k mới
-- Kiểm tra cross-reference giữa Chương 4 và Chương 3 (phương pháp → kết quả có nhất quán không)
-- **Thời gian (Lựa chọn A):** 3–4 giờ rà soát; **(Lựa chọn B):** + 2–3 tháng
+- **Thời gian (Lựa chọn A):** 2–3 giờ đọc lại; **(Lựa chọn B):** + 2–3 tháng
 
 ### Chương 5 — Kết luận và Đề xuất (34K) 🟡
 **Nội dung đã có:** Tóm tắt kết quả, đóng góp lý thuyết/thực tiễn, hạn chế, hướng tương lai
-**Stats đã đúng:** k=238, r=0.074, I²=62.4%, Q_M=17.35**
+**Stats đã đúng:** k=238, r=0.074, I²=62.4%, Q_M=17.35
+**✅ Claude đã làm (20/05/2026):**
+- ✅ §5.5.1 đã có đầy đủ DAI measurement constraint (website-only Tier-1) — đã kiểm tra
+- ✅ §5.6.1 đã đủ P3–P8 summary — đã kiểm tra
+- ✅ Thêm §5.4.4 về ý nghĩa chính sách cho CTU/Mekong Delta — commit ddf55dd
 **NCS cần làm:**
-- Đọc lại §5.3 Hạn chế — bổ sung limitation về measurement constraint của DAI (website-only Tier-1)
-- Kiểm tra Bảng 5.1 (bảng tóm tắt đóng góp các papers) có đủ P3–P8 chưa
-- Viết thêm 1 đoạn về ý nghĩa chính sách cho CTU Mekong Delta context
-- **Thời gian:** 2–3 giờ
+- Đọc lại toàn bộ Chương 5 lần cuối trước khi nộp
+- **Thời gian:** 1–2 giờ
 
 ---
 
