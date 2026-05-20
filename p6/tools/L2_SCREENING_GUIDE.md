@@ -1,40 +1,63 @@
 # Hướng dẫn L2 Screening & Extraction — P6 Meta-Analysis
 
-**Cập nhật**: 20/05/2026  
+**Cập nhật**: 20/05/2026 (rev 2)
 **File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv`  
 **Cấu trúc**: 2,467 rows × 58 cột  
-**File extraction queue** (chỉ 538 Y, sorted): `p6/tools/results/extraction_queue_20260520.csv`
+**File extraction queue** (652 Y, sorted by PDF status): `p6/tools/results/extraction_queue_y_20260520.csv`
 
 ---
 
-## Trạng thái pipeline (20/05/2026)
+## Trạng thái pipeline (20/05/2026 — sau auto-screen L2)
 
 | Nhóm | Số lượng | Ghi chú |
 |------|---------|---------|
 | Existing coded (k=238 database) | 344 rows | seq ≤ 435 |
 | New candidates tổng | 2,123 rows | seq > 435 |
-| → Auto-Y (title screening) | 332 | confirmed include từ title |
-| → Auto-Y (abstract screening) | 210 | confirmed include từ abstract |
-| → **Confirmed Y (sau L2 check)** | **538** | sẵn sàng extraction |
-| → N_title | 248 | loại từ title |
-| → N_abstract | 151 | loại từ abstract |
-| → UNSURE (cần full-text) | 1,182 | cần đọc thủ công |
+| **Y (confirmed + auto-Y)** | **652** | sẵn sàng extraction |
+| → có local PDF | 78 | chạy `41_auto_extract_from_pdfs.py` ngay |
+| → có repo URL | 55 | tải thủ công + extract |
+| → không PDF | 519 | cần tìm PDF |
+| N (auto-exclude) | 9 | meta-analyses, reviews, wrong-field |
+| UNSURE (cần full-text) | 1,403 | đọc thủ công từng paper |
+| blank | 0 | — |
 
-**Thứ tự ưu tiên trong extraction_queue_20260520.csv:**
-- `1_DOI_FIRST`: 396 papers (có DOI → download PDF dễ hơn)
-- `2_NO_DOI_MANUAL`: 142 papers (tìm thủ công)
+**PDF coverage (sau Unpaywall + chờ S2):**
+- Unpaywall: 78 PDF trực tiếp + 55 repo URL
+- Semantic Scholar fallback: chạy từ GitHub Actions (263 papers còn lại)
+
+**Scripts pipeline:**
+```
+40_batch_download_pdfs.py   — tải PDF về p6/pdfs/ (chạy local)
+41_auto_extract_from_pdfs.py — auto-extract r từ PDF (chạy local sau 40)
+44_auto_screen_l2_titles.py  — auto-screen blank rows (đã chạy)
+45_export_extraction_queue.py — xuất queue Y papers (đã chạy)
+42_merge_tracker_to_database.py — merge → database (khi ≥50 ready_for_r=1)
+```
 
 ---
 
 ## Bước 1: Mở file làm việc
 
 ```
-extraction_queue_20260520.csv  (538 rows, chỉ cột cần thiết — dễ làm việc)
+extraction_queue_y_20260520.csv  (652 Y rows, sorted by PDF status — dễ làm việc)
   ↕ sync từ/về ↕
 fulltext_to_extraction_tracker_v3.csv  (toàn bộ 2,467 rows — canonical)
 ```
 
-**Cách làm**: Mở `extraction_queue_20260520.csv` trong Excel. Điền vào các cột extraction. Sau khi xong một batch, copy kết quả về `tracker_v3.csv` (dùng seq làm key).
+**Cách làm**: Mở `extraction_queue_y_20260520.csv` trong Excel. Bắt đầu từ `LOCAL_PDF` rows (78 papers). Điền vào các cột extraction. Sau khi xong một batch, copy kết quả về `tracker_v3.csv` (dùng `seq` làm key).
+
+**Check nhanh tiến độ:**
+```bash
+python3 -c "
+import csv
+with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
+    rows = list(csv.DictReader(f))
+ready = sum(1 for r in rows if r.get('ready_for_r','').strip() == '1')
+r_done = sum(1 for r in rows if r.get('converted_r','').strip())
+y = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'Y')
+print(f'Y={y} | converted_r={r_done} | ready_for_r={ready}')
+"
+```
 
 ---
 
