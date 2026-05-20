@@ -60,9 +60,10 @@ def query_s2(doi: str) -> dict:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", default=DEFAULT_MANIFEST)
-    parser.add_argument("--queue",    default=DEFAULT_QUEUE)
     parser.add_argument("--output",   default=DEFAULT_OUTPUT)
     parser.add_argument("--delay",    type=float, default=DELAY)
+    parser.add_argument("--limit",    type=int, default=0,
+                        help="Stop after N papers (0 = all). For testing.")
     args = parser.parse_args()
 
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
@@ -80,11 +81,22 @@ def main():
         and r.get("doi", "").strip()
     ]
 
+    if args.limit:
+        targets = targets[:args.limit]
+        print(f"[--limit] restricted to first {args.limit} targets", flush=True)
+
     print(f"Querying Semantic Scholar for {len(targets)} papers (no Unpaywall PDF)...", flush=True)
     print(f"Estimated time: {len(targets) * args.delay / 60:.1f} min", flush=True)
 
     results = []
     found = 0
+    CHECKPOINT = 20  # save partial results every N papers
+
+    def _save(partial_results):
+        with open(args.output, "w", newline="", encoding="utf-8") as fh:
+            w = csv.DictWriter(fh, fieldnames=OUT_COLS)
+            w.writeheader()
+            w.writerows(partial_results)
 
     for i, row in enumerate(targets, 1):
         doi = row["doi"].strip()
@@ -103,22 +115,23 @@ def main():
 
         if s2["s2_pdf_url"]:
             found += 1
-            # Update manifest in-memory
             if row["seq"] in manifest_by_seq:
-                manifest_by_seq[row["seq"]]["pdf_url"]  = s2["s2_pdf_url"]
-                manifest_by_seq[row["seq"]]["is_oa"]    = "True"
-                manifest_by_seq[row["seq"]]["oa_status"] = manifest_by_seq[row["seq"]].get("oa_status", "") or "green"
+                manifest_by_seq[row["seq"]]["pdf_url"]   = s2["s2_pdf_url"]
+                manifest_by_seq[row["seq"]]["is_oa"]     = "True"
+                manifest_by_seq[row["seq"]]["oa_status"] = (
+                    manifest_by_seq[row["seq"]].get("oa_status", "") or "green"
+                )
 
-        if i % 30 == 0:
+        if i % CHECKPOINT == 0:
+            _save(results)
+            print(f"  {i}/{len(targets)} | found: {found} | checkpoint saved", flush=True)
+        elif i % 10 == 0:
             print(f"  {i}/{len(targets)} | S2 PDFs found: {found}", flush=True)
 
         time.sleep(args.delay)
 
-    # Write S2 manifest
-    with open(args.output, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=OUT_COLS)
-        w.writeheader()
-        w.writerows(results)
+    # Final write — S2 manifest
+    _save(results)
 
     # Write updated OA manifest (with S2 PDFs merged in)
     with open(args.manifest, "w", newline="", encoding="utf-8") as f:
