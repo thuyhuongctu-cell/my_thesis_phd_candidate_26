@@ -24,13 +24,15 @@ jobs:
   query-unpaywall:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
         with:
           ref: claude/edit-vietnamese-academic-standards-xcAmn
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ github.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
