@@ -3,6 +3,10 @@ name: Scopus API Search — P6 Meta-analysis
 on:
   workflow_dispatch:        # manual trigger from GitHub Actions tab
     inputs:
+      scopus_api_key:
+        description: 'Scopus API Key (Elsevier / P6-meta-analysis-CTU)'
+        required: false
+        default: '5a33a23876e87fa618d635fc89281790'
       max_records:
         description: 'Max records to retrieve (default: 5000)'
         required: false
@@ -32,7 +36,7 @@ jobs:
 
       - name: Run Scopus API search
         env:
-          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key || secrets.SCOPUS_API_KEY }}
         run: |
           python3 p6/tools/05_scopus_api_search.py \
             --max ${{ github.event.inputs.max_records || '5000' }} \
