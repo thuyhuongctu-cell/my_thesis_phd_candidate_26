@@ -47,6 +47,8 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 **Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript).
 
+> **Ghi chú về trọng số khảo sát (survey sampling weights):** WBES cung cấp sampling weights để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng sampling weights* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết (mechanism testing) chứ không phải ước lượng mô tả đại diện tổng thể (population-representative descriptive estimation) — trong bối cảnh này, không áp dụng weights là thực hành chuẩn trong literature IB sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Fixed effects ở cấp country-year đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng weights có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng survey weights cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem §3.5).
+
 ### 3.3.2 Đo lường biến phụ thuộc — Hiệu quả hoạt động
 
 **Biến chính**: Labor productivity đo bằng $\ln(\text{annual sales} / \text{permanent full-time employees})$.
