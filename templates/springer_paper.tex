@@ -1,0 +1,78 @@
+% Springer-compatible LaTeX template for APJM / MIR submission
+% Compiled from Markdown via pandoc.
+% Document class: `article` (Springer Nature's sn-jnl is not bundled; this template
+% follows Springer's general manuscript guidelines and is compatible with both
+% Springer Nature LaTeX template and Word-track submission portals).
+
+\documentclass[12pt,a4paper]{article}
+
+% --- Geometry & spacing ---
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% --- Encoding & fonts ---
+% Conditional setup: under pdflatex use legacy inputenc; under xelatex/lualatex
+% use fontspec for native Unicode support (needed for β, −, × symbols).
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+  \setmainfont{DejaVu Serif}[Scale=0.95]
+  \setmonofont{DejaVu Sans Mono}[Scale=0.85]
+\fi
+
+% --- Math ---
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage{bm}
+
+% --- Tables ---
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tabularx}
+
+% --- Figures ---
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+% --- Misc text ---
+\usepackage{microtype}
+\usepackage{enumitem}
+\setlist{nosep,leftmargin=1.5em}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{ulem}\normalem
+
+% --- Links & references ---
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+\usepackage{cleveref}
+
+% --- Bibliography (APA7 via natbib + apalike) ---
+% APJM/MIR accept APA7. natbib's apalike close approximation; for full APA7
+% compliance use biblatex with apa style.
+\usepackage[round,sort]{natbib}
+\bibliographystyle{apalike}
+
+% --- Pandoc compatibility shims ---
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{\lstset{mathescape=false}#1\lstset{mathescape=true}}
+
+% --- Title page (filled in per paper) ---
+\title{$title$}
+\author{Author details withheld for blind review}
+\date{$date$}
+
+\begin{document}
+
+\maketitle
+
+$body$
+
+\end{document}
