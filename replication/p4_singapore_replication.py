@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""P3 Singapore — final figure generation from raw WBES DTA.
+"""P4 Singapore — final figure generation from raw WBES DTA.
 Confirmed spec: TCI=b8+e6+h1 z-each (>=2/3), sector: mfg(a4a=1)+constr(a4a=2),
 no lnLP winsorization, FSTS=d3c/100 mean-centered.
 """
@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 UPLOAD = '/root/.claude/uploads/4342a099-4c09-46f0-a81b-f754f349e99f'
 import os
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p3_singapore')
+OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p4_singapore')
 os.makedirs(OUT, exist_ok=True)
 
 # ── 1. Load data ──────────────────────────────────────────────────────────────
@@ -232,7 +232,7 @@ results = {
     'M2_TP_ci_hi': round(float(ci_hi*100), 1),
     'manuscript_targets': {'TCI': 0.153, 'INT': 3.119, 'AdjR2': 0.196, 'N': 617}
 }
-with open(f'{OUT}/results_p3.json','w') as f:
+with open(f'{OUT}/results_p4.json','w') as f:
     json.dump(results, f, indent=2)
 
 print("\n=== REPLICATION SUMMARY ===")

@@ -15,16 +15,16 @@ The WBES microdata are publicly available from the World Bank Enterprise Surveys
 - Vietnam 2015: https://www.enterprisesurveys.org (survey year 2015)
 - Vietnam 2023: https://www.enterprisesurveys.org (survey year 2023)
 
-Place the three DTA files in a local directory and update the `UPLOAD` path variable at the top of `p4_vietnam_replication.py`.
+Place the three DTA files in a local directory and update the `UPLOAD` path variable at the top of `p3_vietnam_replication.py`.
 
 ### Running the Replication
 ```bash
-python replication/p4_vietnam_replication.py
+python replication/p3_vietnam_replication.py
 ```
 
-Outputs are written to `/tmp/p4_vietnam_figures/` by default. This includes:
+Outputs are written to `manuscripts/figures/p3_vietnam/` by default. This includes:
 - PNG figures (figure_2a–2d, figure_3)
-- `results_p4.json` summary statistics
+- `results_p3.json` summary statistics
 
 ### Supplementary Tables
 The `tables/` subdirectory contains CSV files with the underlying coefficient outputs:

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""P4 Vietnam — full replication from raw WBES DTA files.
+"""P3 Vietnam — full replication from raw WBES DTA files.
 3 waves: 2009, 2015, 2023.
 Primary spec: TCI=b8+e6 (z-each, rowmean, re-std), DAI=c22b_bin (z-std).
 """
@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 UPLOAD = '/root/.claude/uploads/4342a099-4c09-46f0-a81b-f754f349e99f'
 import os
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p4_vietnam')
+OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p3_vietnam')
 os.makedirs(OUT, exist_ok=True)
 
 # ── Helper to build wave dataframe ───────────────────────────────────────────
@@ -348,7 +348,7 @@ summary['manuscript_targets'] = {
     '2015_M7_TCI': 0.128, '2015_M7_DAI': -0.044,
     '2023_M7_TCI': 0.123, '2023_M7_DAI': 0.095,
 }
-with open(f'{OUT}/results_p4.json','w') as f:
+with open(f'{OUT}/results_p3.json','w') as f:
     json.dump(summary, f, indent=2)
 
 print("\n=== REPLICATION SUMMARY (vs manuscript targets) ===")

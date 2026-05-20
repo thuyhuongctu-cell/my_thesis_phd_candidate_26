@@ -430,11 +430,21 @@ Future research should pursue panel data, expanded measurement instruments — p
 
 ---
 
+## Conflict of interest
+
+The authors declare no conflicts of interest.
+
+## Funding
+
+The authors received no specific grant from any funding agency in the public, commercial, or not‑for‑profit sectors for the research, authorship, or publication of this article.
+
+## Data availability statement
+
+The data that support the findings of this study are from the World Bank Enterprise Surveys (WBES) for China (2012 and 2024 waves) and are publicly available from the World Bank Enterprise Surveys portal (https://www.enterprisesurveys.org), subject to registration and compliance with the WBES Data Access Protocol. Because the protocol restricts redistribution of the original .dta files to third parties, the authors do not redistribute the raw survey files. Replication materials — including variable‑construction details, model specifications, and computational outputs — are available from the authors upon reasonable request and may be shared to the extent permitted by the data‑access terms. Code: see `replication/p5_china_replication.py`; figure outputs are reproduced into `manuscripts/figures/p5_china/`.
+
 ## Acknowledgements
 
 Source: World Bank Enterprise Surveys, www.enterprisesurveys.org. We thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the data. The user of the data acknowledges that the original collector of the data, the authorised distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors and do not necessarily represent the views of the World Bank Group, its Executive Directors, or the governments they represent.
-
-The authors received no specific grant from any funding agency in the public, commercial, or not‑for‑profit sectors for the research, authorship, or publication of this article. The authors declare no conflicts of interest.
 
 ---
 
