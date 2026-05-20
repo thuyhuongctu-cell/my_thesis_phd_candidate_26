@@ -166,7 +166,7 @@ Two independent screeners applied the eligibility criteria below in two stages: 
 
 To ensure comparability and methodological quality across the primary-study corpus, the main meta-analysis was restricted to peer-reviewed journal articles and articles in press with identifiable DOI information. Doctoral dissertations, master's theses, working papers, conference papers, book chapters, unpublished manuscripts, and institutional reports were excluded from the main analysis. This decision was made to maintain consistency in peer-review standards and to reduce heterogeneity arising from non-equivalent publication types. Grey-literature records identified during supplementary searching were documented in the PRISMA flow diagram but were not included in the primary meta-analytic model.
 
-**PRISMA 2020 flow (WoS arm confirmed; Scopus pending).** Records identified from WoS Core Collection: *n* = 2,180 (Starter API, 18 May 2026; SSCI + SCI-E + ESCI, 1977–2026) + Scopus: *n* = TBD (institutional access required). After automated within-WoS deduplication: *n* = 2,179 (1 duplicate removed). Level-1 keyword pre-screen (title-signal filtering): *n* = 782 records advanced to Level-2; *n* = 1,397 excluded (title clearly outside I→P domain). Level-2 title screen of 782 records (18 May 2026): *n* = 345 Y, *n* = 35 N, *n* = 402 UNSURE. UNSURE title-only re-screen (two rounds): Round 1 (script `14_resolve_unsure_titles.py`): *n* = 135 resolved Y (129 genuinely new after dedup vs. existing *k* = 287; 6 duplicates), *n* = 3 resolved N, *n* = 263 still UNSURE. Round 2 (script `18_resolve_unsure_round2.py`, two-tier rule expansion — hard antecedent/theory exclusions applied before I→P performance detection): *n* = 30 resolved Y (all genuinely new), *n* = 29 resolved N, *n* = 204 still UNSURE. Round 3 (script `20_resolve_unsure_round3.py`, extended HARD_EXCL and STRONG_INCL patterns — added innovation-as-DV, employment/macro DVs, born-global theory, survival/growth INCL patterns): *n* = 25 resolved Y (all genuinely new), *n* = 43 resolved N, *n* = 136 still UNSURE (abstract required to resolve). Round 4 (script `22_resolve_unsure_round4.py`, further HARD_EXCL extensions — capital structure, location strategy, antecedent/determinant language; STRONG_INCL — performance consequences, optimal multinationality deviations, over-internationalization reduction, OFDI home transformation, crisis resilience): *n* = 15 resolved Y (all genuinely new), *n* = 34 resolved N, *n* = 87 still UNSURE. Round 5 (title-only screening pass by first author, 19 May 2026, applying additional HARD_EXCL patterns: born-global-as-DV, determinants-of-exporting frames, EO-as-DV, health/psychology journals): *n* = 4 resolved Y, *n* = 11 resolved N, *n* = 72 still UNSURE. Round 6 (title-only screening pass by first author, 19 May 2026, extended pattern matching on remaining 72 titles): *n* = 8 resolved Y (all genuinely new), *n* = 46 resolved N, *n* = 18 still UNSURE. Round 7 (title-only pass 19 May 2026, manual signals: book-chapter DOI, single-case titles, antecedent-DV language, non-business journals): *n* = 0 resolved Y, *n* = 8 resolved N (book chapter, single case study, antecedent/EO development DV, conceptual perspective, industry-cluster macro unit, *n* = 6 descriptive), *n* = 10 still UNSURE. Round 8 (WebSearch-assisted abstract retrieval pass, 19 May 2026, applying I→P eligibility criteria to all 10 remaining UNSURE records): *n* = 3 resolved Y (S0129 — India textile Born Globals I→P M-curve; S0240 — SME internationalization speed → firm performance with organizational learning mediator; S0683 — Latin American EMNEs multinationality → performance with business group diversification moderator), *n* = 7 resolved N (cross-border R&D knowledge sourcing/non-standard I measure; exporting-as-DV antecedent study; innovation-exports nexus/wrong DV; game-theory M&A paper; family firm acquisition propensity/DV; MNE expansion patterns/DV; spillover study/domestic focal unit), *n* = 0 still UNSURE. Total L2 Y (WoS arm): *n* = 565 (= 345 + 135 + 30 + 25 + 15 + 4 + 8 + 0 + 3). Active extraction pool: *n* = 535 records reviewed; **eligible for extraction**: *n* = 435 (rule-based pre-screen v5, 19 May 2026: Y = 435 [81.3%], N = 100 [18.7%], UNSURE = 0); canonical working file: `fulltext_to_extraction_tracker_v2.csv` (435 rows × 58 cols; `extraction_priority`: 310 `1_DOI_FIRST` + 125 `2_NO_DOI_MANUAL`). Final included *k* = TBD; *K* = TBD (pending effect-size extraction). Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The prior working database (*k* = 238 coded studies; *K* = 288 effect sizes) assembled from backward citation screening and hand-search constitutes the baseline; all counts will be updated to confirmed figures after Scopus search and extraction are completed.
+**PRISMA 2020 flow (WoS + Scopus confirmed, 20 May 2026).** Records identified from WoS Core Collection: *n* = 2,180 (Starter API, 18 May 2026; SSCI + SCI-E + ESCI, 1977–2026) + Scopus: *n* = 1,083 (All Subject Areas, 1977–2026). Total from databases: *n* = 3,263. After cross-database deduplication (DOI-exact + title-fuzzy ≥85%): *n* = 2,468 unique records (795 duplicates removed); 435 already in existing tracker (prior database); 2,032 new candidates for L2 screening (1,512 with DOI via CrossRef enrichment; 520 requiring manual full-text retrieval). Working file: `fulltext_to_extraction_tracker_v3.csv` (2,467 rows × 58 cols). After automated within-WoS deduplication: *n* = 2,179 (1 duplicate removed). Level-1 keyword pre-screen (title-signal filtering): *n* = 782 records advanced to Level-2; *n* = 1,397 excluded (title clearly outside I→P domain). Level-2 title screen of 782 records (18 May 2026): *n* = 345 Y, *n* = 35 N, *n* = 402 UNSURE. UNSURE title-only re-screen (two rounds): Round 1 (script `14_resolve_unsure_titles.py`): *n* = 135 resolved Y (129 genuinely new after dedup vs. existing *k* = 287; 6 duplicates), *n* = 3 resolved N, *n* = 263 still UNSURE. Round 2 (script `18_resolve_unsure_round2.py`, two-tier rule expansion — hard antecedent/theory exclusions applied before I→P performance detection): *n* = 30 resolved Y (all genuinely new), *n* = 29 resolved N, *n* = 204 still UNSURE. Round 3 (script `20_resolve_unsure_round3.py`, extended HARD_EXCL and STRONG_INCL patterns — added innovation-as-DV, employment/macro DVs, born-global theory, survival/growth INCL patterns): *n* = 25 resolved Y (all genuinely new), *n* = 43 resolved N, *n* = 136 still UNSURE (abstract required to resolve). Round 4 (script `22_resolve_unsure_round4.py`, further HARD_EXCL extensions — capital structure, location strategy, antecedent/determinant language; STRONG_INCL — performance consequences, optimal multinationality deviations, over-internationalization reduction, OFDI home transformation, crisis resilience): *n* = 15 resolved Y (all genuinely new), *n* = 34 resolved N, *n* = 87 still UNSURE. Round 5 (title-only screening pass by first author, 19 May 2026, applying additional HARD_EXCL patterns: born-global-as-DV, determinants-of-exporting frames, EO-as-DV, health/psychology journals): *n* = 4 resolved Y, *n* = 11 resolved N, *n* = 72 still UNSURE. Round 6 (title-only screening pass by first author, 19 May 2026, extended pattern matching on remaining 72 titles): *n* = 8 resolved Y (all genuinely new), *n* = 46 resolved N, *n* = 18 still UNSURE. Round 7 (title-only pass 19 May 2026, manual signals: book-chapter DOI, single-case titles, antecedent-DV language, non-business journals): *n* = 0 resolved Y, *n* = 8 resolved N (book chapter, single case study, antecedent/EO development DV, conceptual perspective, industry-cluster macro unit, *n* = 6 descriptive), *n* = 10 still UNSURE. Round 8 (WebSearch-assisted abstract retrieval pass, 19 May 2026, applying I→P eligibility criteria to all 10 remaining UNSURE records): *n* = 3 resolved Y (S0129 — India textile Born Globals I→P M-curve; S0240 — SME internationalization speed → firm performance with organizational learning mediator; S0683 — Latin American EMNEs multinationality → performance with business group diversification moderator), *n* = 7 resolved N (cross-border R&D knowledge sourcing/non-standard I measure; exporting-as-DV antecedent study; innovation-exports nexus/wrong DV; game-theory M&A paper; family firm acquisition propensity/DV; MNE expansion patterns/DV; spillover study/domestic focal unit), *n* = 0 still UNSURE. Total L2 Y (WoS arm): *n* = 565 (= 345 + 135 + 30 + 25 + 15 + 4 + 8 + 0 + 3). Active extraction pool: *n* = 535 records reviewed; **eligible for extraction**: *n* = 435 (rule-based pre-screen v5, 19 May 2026: Y = 435 [81.3%], N = 100 [18.7%], UNSURE = 0); canonical working file: `fulltext_to_extraction_tracker_v2.csv` (435 rows × 58 cols; `extraction_priority`: 310 `1_DOI_FIRST` + 125 `2_NO_DOI_MANUAL`). Final included *k* = TBD; *K* = TBD (pending effect-size extraction). Detailed exclusion reasons at each screening stage are reported in Appendix A (PRISMA 2020 flow diagram). The prior working database (*k* = 238 coded studies; *K* = 288 effect sizes) assembled from backward citation screening and hand-search constitutes the baseline; all counts will be updated to confirmed figures after Scopus search and extraction are completed.
 
 ### 3.3 Data Extraction and Quality Assurance
 
@@ -600,23 +600,31 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 ## Appendix A — PRISMA 2020 Flow Diagram
 
-> **WoS arm confirmed (18 May 2026). Scopus arm and final k/K pending extraction completion.**  
-> Follows PRISMA 2020 (Page et al., 2021). Numbers in parentheses are confirmed; [TBD] remain pending Scopus search or extraction.
+> **WoS + Scopus arms confirmed (20 May 2026). Final k/K pending full-text screening and extraction.**  
+> Follows PRISMA 2020 (Page et al., 2021). Numbers marked ✓ are confirmed; [TBD] remain pending extraction.
 
 ```
 IDENTIFICATION
 ─────────────────────────────────────────────────────────────────
-Records from electronic databases:
+Records from electronic databases (full search, 20 May 2026):
   Web of Science Core Collection (SSCI+SCI-E+ESCI): n = 2,180 ✓
-  Scopus:                                            n = [TBD]
+  Scopus (All Subject Areas, 1977–2026):             n = 1,083 ✓
   ─────────────────────────────────────────────────────
-  Total from databases:                              n = [TBD; WoS only = 2,180]
+  Total from databases:                              n = 3,263 ✓
+
+After cross-database deduplication (DOI-exact + title-fuzzy ≥85%):
+  Duplicate records removed:                         n =   795  ✓
+  Unique records:                                    n = 2,468  ✓
+  Already in existing tracker (prior database):      n =   435  ✓
+  New candidates for L2 screening:                   n = 2,032  ✓
+    — with DOI (CrossRef enriched, 20 May 2026):     n = 1,512 (74.4%) ✓
+    — no DOI (manual retrieval required):            n =   520 (25.6%) ✓
 
 Records from supplementary methods:
   Backward citation scan (5 anchor meta-analyses):  n ≈ 478 screened
   Hand-search (author corpus, 2024–2026):           n = 19
   ─────────────────────────────────────────────────────
-  Total records identified:                         N = [TBD; WoS arm = 2,180]
+  Total records identified:                         N = 3,263 (databases) + ≈497 (supplementary) ✓
 
 SCREENING — Level 1 (Title / Keyword Pre-screen)
 ─────────────────────────────────────────────────────────────────
@@ -708,14 +716,22 @@ Deduplicated against existing k=287 coded studies:
     - Conference paper / thesis / working paper
     - Duplicate sample
 
+NEW CANDIDATES (20 May 2026 full search, pending L2 screening):
+─────────────────────────────────────────────────────────────────
+  New candidates added to tracker v3:               n = 2,032  ✓
+    1_DOI_FIRST (CrossRef DOI recovered):            n = 1,512  ✓
+    2_NO_DOI_MANUAL (title/GS search required):      n =   520  ✓
+  Working file:  fulltext_to_extraction_tracker_v3.csv
+                 (2,467 rows = 435 prior + 2,032 new; 58 cols)
+  Status: L2 full-text screening pending (OSF pre-registration confirmed)
+
 INCLUDED
 ─────────────────────────────────────────────────────────────────
 Studies included in meta-analysis:   k = [TBD] (prior DB: k = 238)
 Effect sizes coded:                  K = [TBD] (prior DB: K = 288)
 
 Note: Final k/K will reflect: existing k=238 + confirmed new studies from
-535-record extraction pool after full-text screening and effect-size extraction.
-Scopus arm counts will be added after CTU campus institutional search.
+2,032 new candidates after full-text L2 screening and effect-size extraction.
 ```
 
 *The PRISMA checklist (Page et al., 2021) is available from the corresponding author.*
