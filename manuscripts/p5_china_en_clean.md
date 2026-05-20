@@ -470,7 +470,7 @@ Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of in
 
 Demir, B., & Javorcik, B. (2018). Don't throw in the towel, throw in trade credit! *Journal of International Economics, 111*, 177–189. https://doi.org/10.1016/j.jinteco.2018.01.008
 
-Author Citation (2025 — ICBEF). Internationalization and firm performance: A meta-analysis review. In *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489, ISBN). College of Economics, Can Tho University.
+Author Citation (2025 — ICBEF). Internationalization and firm performance: A meta-analysis review. In *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489). [Publisher details withheld for blind review.]
 
 Author Citation (2026 — VEFR). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic and Financial Review*. [Author details withheld for blind review.]
 
