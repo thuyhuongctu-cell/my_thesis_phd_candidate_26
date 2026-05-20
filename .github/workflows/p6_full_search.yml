@@ -50,13 +50,44 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      # ── Connectivity diagnostics ─────────────────────────────────────────
+      - name: Test API connectivity
+        run: |
+          echo "=== Connectivity Test ==="
+          echo "Runner IP: $(curl -s ifconfig.me || echo unknown)"
+          echo ""
+
+          # WoS
+          WOS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
+            -H "X-ApiKey: ${{ github.event.inputs.wos_api_key }}" \
+            "https://api.clarivate.com/apis/wos-starter/v1/documents?db=WOS&q=TS%3Dinternationalization&limit=1" || echo "CONN_ERR")
+          echo "WoS API status: $WOS_STATUS"
+
+          # Scopus
+          SCOPUS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
+            -H "X-ELS-APIKey: ${{ github.event.inputs.scopus_api_key }}" \
+            "https://api.elsevier.com/content/search/scopus?query=internationalization&count=1" || echo "CONN_ERR")
+          echo "Scopus API status: $SCOPUS_STATUS"
+
+          # OpenAlex
+          OA_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
+            "https://api.openalex.org/works?search=internationalization&per_page=1" || echo "CONN_ERR")
+          echo "OpenAlex API status: $OA_STATUS"
+
+          # Write status to file for later steps
+          echo "WOS_HTTP=$WOS_STATUS" >> $GITHUB_ENV
+          echo "SCOPUS_HTTP=$SCOPUS_STATUS" >> $GITHUB_ENV
+          echo "OA_HTTP=$OA_STATUS" >> $GITHUB_ENV
+
       # ── 1. WoS ──────────────────────────────────────────────────────────
       - name: Run WoS Starter API search
         env:
           WOS_API_KEY: ${{ github.event.inputs.wos_api_key || secrets.WOS_API_KEY }}
         run: |
           if [ -z "$WOS_API_KEY" ]; then
-            echo "WoS API key not provided — skipping"
+            echo "WoS key not provided — skipping"
+          elif [ "$WOS_HTTP" != "200" ]; then
+            echo "WoS API not reachable (HTTP $WOS_HTTP) — skipping"
           else
             python3 p6/tools/06_wos_api_search.py \
               --max ${{ github.event.inputs.max_wos || '2500' }} \
@@ -71,7 +102,9 @@ jobs:
           SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key || secrets.SCOPUS_API_KEY }}
         run: |
           if [ -z "$SCOPUS_API_KEY" ]; then
-            echo "Scopus API key not provided — skipping"
+            echo "Scopus key not provided — skipping"
+          elif [ "$SCOPUS_HTTP" != "200" ]; then
+            echo "Scopus API not reachable (HTTP $SCOPUS_HTTP) — skipping"
           else
             python3 p6/tools/05_scopus_api_search.py \
               --max ${{ github.event.inputs.max_scopus || '5000' }} \
@@ -86,6 +119,10 @@ jobs:
           OPENALEX_API_KEY: ${{ github.event.inputs.openalex_api_key || secrets.OPENALEX_API_KEY }}
           MAX_OA: ${{ github.event.inputs.max_openalex || '5000' }}
         run: |
+          if [ "$OA_HTTP" != "200" ]; then
+            echo "OpenAlex not reachable (HTTP $OA_HTTP) — skipping"
+            exit 0
+          fi
           python3 - <<'PYEOF'
           import requests, csv, time, os
           from datetime import date
@@ -178,7 +215,7 @@ jobs:
               writer = csv.DictWriter(f, fieldnames=fieldnames)
               writer.writeheader()
               writer.writerows(rows)
-          print(f"\nOpenAlex done: {len(rows)} unique records → {OUT}")
+          print(f"\nOpenAlex done: {len(rows)} unique records -> {OUT}")
           PYEOF
         continue-on-error: true
 
@@ -186,6 +223,8 @@ jobs:
       - name: Print summary
         run: |
           echo "========= SEARCH SUMMARY $(date +%Y-%m-%d) ========="
+          echo "Connectivity: WoS=$WOS_HTTP  Scopus=$SCOPUS_HTTP  OpenAlex=$OA_HTTP"
+          echo ""
           TODAY=$(date +%Y%m%d)
           TOTAL=0
           for f in p6/tools/results/wos_api_${TODAY}.csv \
@@ -194,23 +233,24 @@ jobs:
             if [ -f "$f" ]; then
               N=$(tail -n +2 "$f" | wc -l)
               TOTAL=$((TOTAL + N))
-              echo "  ✓ $(basename $f): $N records"
+              echo "  OK  $(basename $f): $N records"
             else
-              echo "  ✗ $(basename $f): not produced"
+              echo "  --  $(basename $f): not produced"
             fi
           done
-          echo "  ─────────────────────────────────"
-          echo "  TOTAL: $TOTAL records across all sources"
+          echo ""
+          echo "  TOTAL new records: $TOTAL"
           echo "=========================================="
 
       # ── Commit ───────────────────────────────────────────────────────────
-      - name: Commit and push all results
+      - name: Commit and push results
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add p6/tools/results/wos_api_*.csv \
-                  p6/tools/results/scopus_api_*.csv \
-                  p6/tools/results/openalex_api_*.csv 2>/dev/null || true
-          git diff --staged --quiet || \
-            git commit -m "data(p6): WoS+Scopus+OpenAlex search results $(date +%Y-%m-%d)"
+          # Add only files that actually exist
+          find p6/tools/results/ -name "wos_api_*.csv" -o \
+                                  -name "scopus_api_*.csv" -o \
+                                  -name "openalex_api_*.csv" | xargs git add 2>/dev/null || true
+          git diff --staged --quiet && echo "Nothing to commit" || \
+            git commit -m "data(p6): search results $(date +%Y-%m-%d) [WoS:$WOS_HTTP Scopus:$SCOPUS_HTTP OA:$OA_HTTP]"
           git push origin HEAD:claude/edit-vietnamese-academic-standards-xcAmn
