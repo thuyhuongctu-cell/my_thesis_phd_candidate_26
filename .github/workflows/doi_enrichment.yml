@@ -1,4 +1,4 @@
-name: DOI Enrichment — CrossRef API (P6)
+name: DOI Enrichment - CrossRef API (P6)
 
 on:
   workflow_dispatch:
@@ -54,18 +54,11 @@ jobs:
         env:
           OUTPUT_FILE: ${{ github.event.inputs.output_file }}
         run: |
-          echo "=== DOI Enrichment Results ==="
-          python3 - <<PYEOF
-import csv, os
-path = "p6/tools/results/" + os.environ["OUTPUT_FILE"]
-rows = list(csv.DictReader(open(path)))
-enriched = sum(1 for r in rows if r.get("doi_enriched", "").strip())
-print(f"Total records : {len(rows)}")
-print(f"With DOI      : {enriched}")
-print(f"Without DOI   : {len(rows) - enriched}")
-if rows:
-    print(f"Match rate    : {enriched/len(rows)*100:.1f}%")
-PYEOF
+          OUTPATH="p6/tools/results/${OUTPUT_FILE}"
+          TOTAL=$(tail -n +2 "$OUTPATH" | wc -l)
+          ENRICHED=$(tail -n +2 "$OUTPATH" | awk -F',' 'NF>1 && $NF!="" {count++} END {print count+0}')
+          echo "Total records : ${TOTAL}"
+          echo "Enriched      : ${ENRICHED}"
 
       - name: Commit and push results
         env:
@@ -75,5 +68,5 @@ PYEOF
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "p6/tools/results/${OUTPUT_FILE}"
           git diff --staged --quiet || \
-            git commit -m "data(p6): CrossRef DOI enrichment $(date +%Y-%m-%d) — ${OUTPUT_FILE}"
+            git commit -m "data(p6): CrossRef DOI enrichment $(date +%Y-%m-%d)"
           git push origin HEAD:claude/edit-vietnamese-academic-standards-xcAmn
