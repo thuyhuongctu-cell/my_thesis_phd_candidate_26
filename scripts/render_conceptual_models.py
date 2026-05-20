@@ -20,7 +20,7 @@ from __future__ import annotations
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Ellipse
 from pathlib import Path
 
 FONT_SIZE = 11
@@ -42,6 +42,7 @@ plt.rcParams.update({
 
 
 def add_box(ax, x, y, w, h, text, *, italic=False, bold=False, fontsize=None):
+    """Rectangle (with rounded corners) for observed/measured variables."""
     box = FancyBboxPatch(
         (x - w / 2, y - h / 2), w, h,
         boxstyle="round,pad=0.06",
@@ -50,6 +51,25 @@ def add_box(ax, x, y, w, h, text, *, italic=False, bold=False, fontsize=None):
         facecolor="white",
     )
     ax.add_patch(box)
+    weight = "bold" if bold else "normal"
+    style = "italic" if italic else "normal"
+    ax.text(x, y, text, ha="center", va="center",
+            fontsize=fontsize or FONT_SIZE,
+            fontweight=weight, fontstyle=style)
+
+
+def add_ellipse(ax, x, y, w, h, text, *, italic=False, bold=False, fontsize=None):
+    """Ellipse for latent constructs (formative/reflective composites).
+
+    Per the conceptual-model-scopus-wos skill: ellipse shapes denote latent
+    constructs not directly observed (e.g. TCI and DAI here are formative
+    composites of WBES item indicators).
+    """
+    e = Ellipse((x, y), w, h,
+                linewidth=BOX_EDGE_W,
+                edgecolor="black",
+                facecolor="white")
+    ax.add_patch(e)
     weight = "bold" if bold else "normal"
     style = "italic" if italic else "normal"
     ax.text(x, y, text, ha="center", va="center",
@@ -124,52 +144,59 @@ def setup_axes(width=10, height=6):
 # --- Paper-specific diagrams ---
 
 def render_p3_vietnam(path: Path):
-    """P3 Vietnam (3-wave): FSTS inverted-U with TCI and DAI as moderators.
-    Direct effects of TCI/DAI on ln(LP) noted in caption to avoid crossings.
+    """P3 Vietnam (3-wave): FSTS inverted-U with TCI and DAI as latent
+    moderators (ellipses for formative composites; rectangles for observed
+    FSTS/FSTS²/ln(LP)).  Sign markers (+/-) on arrows per Scopus/WoS
+    conceptual-model convention.
     """
     fig, ax = setup_axes(width=10, height=6.5)
 
     ax.text(5, 6.20, "Conceptual Model — P3 Vietnam (3-wave WBES)",
             ha="center", va="center", fontsize=TITLE_SIZE, fontweight="bold")
 
-    # IVs (left stack)
+    # IVs (left stack — observed)
     add_box(ax, 1.7, 3.7, 2.0, 0.55, "FSTS",   bold=True)
     add_box(ax, 1.7, 2.9, 2.0, 0.55, "FSTS$^2$", bold=True)
 
-    # DV (right)
+    # DV (right — observed)
     add_box(ax, 8.3, 3.3, 2.2, 0.85,
             "ln(LP)\nLabour Productivity", bold=True)
 
-    # Main horizontal IV→DV relationship arrows (no crossings)
-    add_arrow(ax, (2.7, 3.7), (7.2, 3.45), label="H1 (linear)",
+    # Main horizontal IV→DV relationship arrows with signed labels
+    add_arrow(ax, (2.7, 3.7), (7.2, 3.45),
+              label="H1a  (+)",
               label_pos="mid", label_offset=(0, 0.18))
-    add_arrow(ax, (2.7, 2.9), (7.2, 3.15), label="H1 (quadratic)",
+    add_arrow(ax, (2.7, 2.9), (7.2, 3.15),
+              label="H1b  (−)",
               label_pos="mid", label_offset=(0, -0.20))
 
-    # TCI moderator (top center) — moderation arrow vertical down
-    add_box(ax, 5.0, 5.30, 2.4, 0.55, "TCI  (capability)", italic=True)
-    add_mod_arrow(ax, (5.0, 5.0), (5.0, 3.55), label="H2")
+    # TCI moderator — latent (ellipse), moderation arrow vertical down
+    add_ellipse(ax, 5.0, 5.30, 2.6, 0.7, "TCI\n(capability)", italic=True)
+    add_mod_arrow(ax, (5.0, 4.95), (5.0, 3.55),
+                  label="H2  (+ flattening)")
 
-    # DAI moderator (bottom center) — moderation arrow vertical up
-    add_box(ax, 5.0, 1.30, 2.4, 0.55, "DAI  (digital adoption)", italic=True)
-    add_mod_arrow(ax, (5.0, 1.60), (5.0, 3.05), label="H4 (DAI × FSTS)")
+    # DAI moderator — latent (ellipse), moderation arrow vertical up
+    add_ellipse(ax, 5.0, 1.30, 2.6, 0.7, "DAI\n(digital adoption)", italic=True)
+    add_mod_arrow(ax, (5.0, 1.65), (5.0, 3.05),
+                  label="H4  (− 2023 obsolescence)")
 
-    # Controls (bottom, full width, dashed arrow to DV)
+    # Controls
     add_box(ax, 5.0, 0.40, 7.6, 0.40,
             "Controls:  log(Emp),  FirmAge,  ForeignOwned,  sector FE,  wave FE",
             fontsize=LABEL_SIZE, italic=True)
     add_arrow(ax, (8.7, 0.60), (8.7, 2.90), dashed=True, curve=0.10)
 
-    # Caption
     fig.text(0.5, -0.03,
-             "Figure 1.  Conceptual model of the internationalisation–performance "
-             "relationship in P3.  Solid arrows denote primary effects "
-             "(H1 inverted-U).  Dashed arrows with × denote moderation paths "
-             "(H2 capability moderation, H4 digital-adoption moderation).  "
-             "TCI and DAI also enter the model as direct level-shift terms "
-             "(H3 in §3.3); these direct paths are noted but omitted from "
-             "the diagram to keep arrows non-overlapping.  "
-             "Source: authors' own elaboration.",
+             "Figure 1.  Conceptual model of P3 (Vietnam, 3-wave WBES).  "
+             "Rectangles denote observed (measured) variables; ellipses denote "
+             "latent formative composites (TCI, DAI).  Sign markers indicate "
+             "the expected direction of association: H1a (+) linear FSTS, "
+             "H1b (−) quadratic curvature, H2 (+) capability flattening of the "
+             "post-threshold downturn, H4 (−) Tier-1 DAI×FSTS interaction "
+             "(consistent with Tier-1 proxy obsolescence in 2023).  Direct "
+             "level-shift roles of TCI and DAI (H3) are tested in the regression "
+             "but omitted from the diagram for clarity.  Source: authors' own "
+             "elaboration.",
              ha="center", va="top", fontsize=LABEL_SIZE, fontstyle="italic",
              wrap=True)
 
@@ -179,8 +206,9 @@ def render_p3_vietnam(path: Path):
 
 
 def render_p4_singapore(path: Path):
-    """P4 Singapore: FSTS inverted-U, DAI as conditional scaling moderator
-    (H4: positive DAI × FSTS²), TCI direct effect (H1).
+    """P4 Singapore: FSTS inverted-U + TCI direct (H1) + DAI conditional
+    (H3) and positive DAI × FSTS² moderation (H4).  Latent constructs
+    drawn as ellipses; signed arrows per Scopus/WoS conventions.
     """
     fig, ax = setup_axes(width=10, height=6.5)
 
@@ -188,27 +216,33 @@ def render_p4_singapore(path: Path):
             "Conceptual Model — P4 Singapore (WBES 2023)",
             ha="center", va="center", fontsize=TITLE_SIZE, fontweight="bold")
 
+    # IVs (observed)
     add_box(ax, 1.7, 3.7, 2.0, 0.55, "FSTS",   bold=True)
     add_box(ax, 1.7, 2.9, 2.0, 0.55, "FSTS$^2$", bold=True)
 
+    # DV (observed)
     add_box(ax, 8.3, 3.3, 2.2, 0.85,
             "ln(LP)\nLabour Productivity", bold=True)
 
-    # Main relationship arrows
-    add_arrow(ax, (2.7, 3.7), (7.2, 3.45), label="curvature",
+    # Main relationship arrows with sign markers
+    add_arrow(ax, (2.7, 3.7), (7.2, 3.45),
+              label="(+) linear",
               label_pos="mid", label_offset=(0, 0.18))
-    add_arrow(ax, (2.7, 2.9), (7.2, 3.15))
+    add_arrow(ax, (2.7, 2.9), (7.2, 3.15),
+              label="(−) curvature",
+              label_pos="mid", label_offset=(0, -0.20))
 
-    # TCI moderator (top) — H1 direct effect to DV (right edge horizontal)
-    add_box(ax, 5.0, 5.30, 2.4, 0.55, "TCI  (capability)", italic=True)
-    # Direct effect: vertical down to DV midline at a separate x-offset, then horizontal
-    add_arrow(ax, (5.0, 5.0), (7.2, 3.55), label="H1 (direct)",
+    # TCI latent moderator (top); H1 direct association to DV
+    add_ellipse(ax, 5.0, 5.30, 2.6, 0.7, "TCI\n(capability)", italic=True)
+    add_arrow(ax, (5.0, 4.95), (7.2, 3.55),
+              label="H1  (+)",
               label_pos="end", label_offset=(0, 0.22), curve=-0.18)
 
-    # DAI moderator (bottom) — H3 conditional + H4 positive quadratic moderation
-    add_box(ax, 5.0, 1.30, 2.4, 0.55, "DAI  (Tier 1–2 digital)", italic=True)
-    add_mod_arrow(ax, (5.0, 1.60), (5.0, 3.05),
-                  label="H4  (DAI × FSTS$^2$ +)")
+    # DAI latent moderator (bottom); H4 positive quadratic moderation
+    add_ellipse(ax, 5.0, 1.30, 2.6, 0.7,
+                "DAI\n(Tier 1+2 digital)", italic=True)
+    add_mod_arrow(ax, (5.0, 1.65), (5.0, 3.05),
+                  label="H4  (+ DAI × FSTS$^2$)")
 
     add_box(ax, 5.0, 0.40, 7.6, 0.40,
             "Controls:  log(Emp),  FirmAge,  ForeignOwned,  sector FE",
@@ -216,12 +250,15 @@ def render_p4_singapore(path: Path):
     add_arrow(ax, (8.7, 0.60), (8.7, 2.90), dashed=True, curve=0.10)
 
     fig.text(0.5, -0.03,
-             "Figure 1.  Conceptual model of the internationalisation–performance "
-             "relationship in P4.  H1 hypothesises a direct association between "
-             "technological capability and labour productivity; H4 hypothesises "
-             "a positive quadratic moderation of foundational digital adoption "
-             "on the export-intensity curvature; H3 (conditional DAI association) "
-             "is tested via the joint F-test on the DAI direct and DAI × FSTS terms.  "
+             "Figure 1.  Conceptual model of P4 (Singapore, WBES 2023).  "
+             "Rectangles denote observed variables; ellipses denote latent "
+             "formative composites.  Sign markers indicate the expected "
+             "direction of association: linear FSTS (+), quadratic curvature "
+             "(−), H1 capability direct effect on productivity (+), H4 "
+             "positive quadratic moderation of DAI on the export-intensity "
+             "curvature (consistent with conditional digital complementarity).  "
+             "H3 (conditional DAI–productivity association) is tested via the "
+             "joint F-test on the DAI direct and DAI × FSTS interaction terms.  "
              "Source: authors' own elaboration.",
              ha="center", va="top", fontsize=LABEL_SIZE, fontstyle="italic",
              wrap=True)
@@ -233,9 +270,9 @@ def render_p4_singapore(path: Path):
 
 def render_p5_china(path: Path):
     """P5 China (2-wave): cross-wave durability test.
-    FSTS inverted-U (H1), D_{2024} wave shift (H2a/H2b competing),
-    TCI moderator (H4a curvature), DAI level-shift only, working-capital
-    exploratory (H3).
+    Latent ellipses for TCI_full and DAI_core; signed and dashed arrows
+    per Scopus/WoS convention.  H2a/H2b drawn as a single dashed arrow
+    labelled with competing predictions.
     """
     fig, ax = setup_axes(width=11, height=7.5)
 
@@ -243,41 +280,46 @@ def render_p5_china(path: Path):
             "Conceptual Model — P5 China (WBES 2012 & 2024)",
             ha="center", va="center", fontsize=TITLE_SIZE, fontweight="bold")
 
-    # IVs stacked left
-    add_box(ax, 1.7, 4.4, 2.0, 0.55, "FSTS",          bold=True)
-    add_box(ax, 1.7, 3.6, 2.0, 0.55, "FSTS$^2$",        bold=True)
+    # IVs stacked left (observed)
+    add_box(ax, 1.7, 4.4, 2.0, 0.55, "FSTS",            bold=True)
+    add_box(ax, 1.7, 3.6, 2.0, 0.55, "FSTS$^2$",          bold=True)
     add_box(ax, 1.7, 2.8, 2.0, 0.55, "$D_{2024}$ (wave)", bold=True)
 
     add_box(ax, 9.3, 3.8, 2.3, 0.85,
             "ln(LP)\nLabour Productivity", bold=True)
 
-    # Main horizontal arrows (no crossings)
-    add_arrow(ax, (2.7, 4.4), (8.15, 4.05), label="H1 (linear)",
+    # Main horizontal arrows
+    add_arrow(ax, (2.7, 4.4), (8.15, 4.05),
+              label="H1a  (+)",
               label_pos="mid", label_offset=(0, 0.18))
-    add_arrow(ax, (2.7, 3.6), (8.15, 3.80))
+    add_arrow(ax, (2.7, 3.6), (8.15, 3.80),
+              label="H1b  (−)",
+              label_pos="mid", label_offset=(0, -0.20))
+    # H2a (shift) vs H2b (durability): dashed arrow because the directional
+    # prediction is contested.
     add_arrow(ax, (2.7, 2.8), (8.15, 3.55), dashed=True,
-              label="H2a / H2b  (cross-wave shift)",
+              label="H2a / H2b  (shift  vs.  durability)",
               label_pos="mid", label_offset=(0.6, -0.22))
 
-    # TCI moderator (top) — H4a curvature moderation
-    add_box(ax, 5.5, 6.10, 2.6, 0.55,
-            r"TCI$_{\mathrm{full}}$  (capability)", italic=True)
-    add_mod_arrow(ax, (5.5, 5.80), (5.5, 3.95),
+    # TCI latent moderator (top) — H4a curvature moderation
+    add_ellipse(ax, 5.5, 6.10, 2.8, 0.7,
+                r"TCI$_{\mathrm{full}}$" + "\n(capability)", italic=True)
+    add_mod_arrow(ax, (5.5, 5.75), (5.5, 3.95),
                   label="H4a  (curvature mod)")
 
-    # DAI level-shift only (lower, simple arrow to DV)
-    add_box(ax, 5.5, 1.45, 2.6, 0.55,
-            r"DAI$_{\mathrm{core}}$  (Tier-1 digital)", italic=True)
-    add_arrow(ax, (5.5, 1.75), (8.15, 3.55),
-              label="level shift only", label_pos="end",
+    # DAI latent level-shift only (no curvature moderation hypothesis)
+    add_ellipse(ax, 5.5, 1.45, 2.8, 0.7,
+                r"DAI$_{\mathrm{core}}$" + "\n(Tier-1 digital)", italic=True)
+    add_arrow(ax, (5.5, 1.80), (8.15, 3.55),
+              label="(+) level shift", label_pos="end",
               label_offset=(0.0, -0.25))
 
     # Working-capital block (right of DAI, exploratory dashed)
     add_box(ax, 8.5, 1.45, 2.6, 0.55,
-            "Working capital (H3)\nexploratory",
+            "Working capital  (H3)\nexploratory",
             italic=True, fontsize=LABEL_SIZE)
     add_arrow(ax, (8.5, 1.75), (8.5, 3.4), dashed=True,
-              label="H3 exploratory",
+              label="H3  (?) exploratory",
               label_pos="mid", label_offset=(0.5, 0))
 
     # Controls (bottom)
@@ -287,13 +329,15 @@ def render_p5_china(path: Path):
             fontsize=LABEL_SIZE, italic=True)
 
     fig.text(0.5, -0.03,
-             "Figure 1.  Conceptual model of P5: bounded internationalisation–"
-             "performance relationship and cross-wave threshold stability in "
-             "Chinese private firms.  H1 specifies the inverted-U curvature.  "
-             "H2a and H2b are competing predictions about the cross-wave "
-             "behaviour of the curvature (shift vs. structural durability).  "
-             "H4a tests technological-capability moderation of the curvature.  "
-             "DAI is retained as a level-shift control; H3 working-capital "
+             "Figure 1.  Conceptual model of P5 (China, WBES 2012 and 2024).  "
+             "Rectangles denote observed variables; ellipses denote latent "
+             "formative composites.  H1a (+) and H1b (−) jointly specify the "
+             "inverted-U.  H2a and H2b are competing predictions about the "
+             "cross-wave behaviour of the curvature (shift vs. structural "
+             "durability), drawn as a single dashed arrow because the "
+             "direction is contested.  H4a tests technological-capability "
+             "moderation of the curvature.  $\\mathrm{DAI}_{\\text{core}}$ "
+             "enters as a level-shift control; H3 working-capital "
              "conditioning is exploratory.  Source: authors' own elaboration.",
              ha="center", va="top", fontsize=LABEL_SIZE, fontstyle="italic",
              wrap=True)
