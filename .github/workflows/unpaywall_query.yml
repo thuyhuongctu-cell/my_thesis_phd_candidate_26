@@ -1,0 +1,71 @@
+name: Unpaywall OA Query
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_file:
+        description: 'Input CSV filename (in p6/tools/results/)'
+        required: true
+        default: 'extraction_queue_20260520.csv'
+      output_file:
+        description: 'Output CSV filename (in p6/tools/results/)'
+        required: true
+        default: 'oa_manifest_20260520.csv'
+      priority:
+        description: 'extraction_priority filter (1_DOI_FIRST / 2_NO_DOI_MANUAL / all)'
+        required: true
+        default: '1_DOI_FIRST'
+      delay:
+        description: 'Delay between requests (seconds)'
+        required: false
+        default: '0.15'
+
+jobs:
+  query-unpaywall:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Query Unpaywall
+        run: |
+          python3 p6/tools/39_query_unpaywall.py \
+            --input  "p6/tools/results/${{ github.event.inputs.input_file }}" \
+            --output "p6/tools/results/${{ github.event.inputs.output_file }}" \
+            --priority "${{ github.event.inputs.priority }}" \
+            --delay  "${{ github.event.inputs.delay }}"
+
+      - name: Show summary
+        run: |
+          OUTPATH="p6/tools/results/${{ github.event.inputs.output_file }}"
+          TOTAL=$(tail -n +2 "$OUTPATH" | wc -l)
+          OA=$(tail -n +2 "$OUTPATH" | awk -F',' '{print $7}' | grep -c "True" || true)
+          PDF=$(tail -n +2 "$OUTPATH" | awk -F',' '{print $9}' | grep -vc "^$" || true)
+          echo "## Unpaywall Results" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Count |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Total queried | $TOTAL |" >> $GITHUB_STEP_SUMMARY
+          echo "| OA available | $OA |" >> $GITHUB_STEP_SUMMARY
+          echo "| Direct PDF links | $PDF |" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "p6/tools/results/${{ github.event.inputs.output_file }}"
+          git diff --cached --quiet && echo "No changes" || \
+            git commit -m "feat(p6): Unpaywall OA manifest for ${{ github.event.inputs.input_file }} [$(date +%Y%m%d)]"
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn
