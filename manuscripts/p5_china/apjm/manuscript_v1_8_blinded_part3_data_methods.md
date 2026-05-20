@@ -48,7 +48,7 @@ The supplementary analyses are interpreted hierarchically. Evidence from the thr
 
 ### 3.5 Three-way moderation specification
 
-To test the directional shift hypothesis (H2), the cross-sectional capability moderation hypothesis (H4a/H4b curvature components), and the dynamic capability-conditioned moderation hypothesis introduced in §2.4 within a single internally consistent framework, we estimate the following pooled specification on the joint sample of firms reporting all focal variables (sample_full, N = 3,559):
+To test the directional shift hypothesis (H2a vs H2b), the cross-sectional capability moderation hypothesis (H4a/H4b curvature components), and the dynamic capability-conditioned moderation hypothesis introduced in §2.4 within a single internally consistent framework, we estimate the following pooled specification on the joint sample of firms reporting all focal variables (sample_full, N = 3,559). The sample_full subset is smaller than the descriptive pooled sample (sample_base, N = 4,559 reported in Table 1 and §3.1) because the three-way moderation specifications require non-missing values on the TCI_full capability indicators (≥3 of the four binary items b8, e6, h1, h8) in addition to the focal-variable set. The 1,000-observation drop (4,559 → 3,559) reflects firms that report focal export and productivity items but did not respond to all four capability items; cross-wave-comparable descriptives and the wave-by-wave M2 specifications remain estimated on sample_base.
 
 $$
 \begin{aligned}
@@ -62,7 +62,7 @@ $$
 
 where $\mathrm{Tech}_i = \mathrm{TCI\_full}_i$ (within-wave $z$-standardised) and $\mathbf{x}_i$ collects controls $\{\mathrm{lnEmp}_i, \mathrm{firmage}_i, \mathrm{foreigndummy}_i\}$. Standard errors are cluster-robust on `idstd`. The three focal joint $F$-tests are:
 
-- **F1: cross-wave shift (H2).** Test $H_0: \beta_4 = \beta_5 = 0$. A non-rejection means the shape of the inverted-U is the same in 2012 and 2024.
+- **F1: cross-wave shift (H2a vs H2b).** Test $H_0: \beta_4 = \beta_5 = 0$. Rejection supports H2a (environmental shift); non-rejection supports H2b (structural durability).
 - **F2: cross-sectional capability moderation (H4a curvature).** Test $H_0: \beta_7 = \beta_8 = 0$. Non-rejection means TCI does not moderate the curvature.
 - **F3: capability-conditioned dynamic moderation.** Test $H_0: \beta_9 = \beta_{10} = 0$. Non-rejection means there is no Tech-conditioned shift in curvature over time.
 
