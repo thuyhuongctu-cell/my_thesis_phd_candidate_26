@@ -1,0 +1,195 @@
+name: P6 Full Search — WoS + Scopus + OpenAlex
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_wos:
+        description: 'Max WoS records (Free: 2500/day)'
+        required: false
+        default: '2500'
+      max_scopus:
+        description: 'Max Scopus records'
+        required: false
+        default: '5000'
+      max_openalex:
+        description: 'Max OpenAlex records'
+        required: false
+        default: '5000'
+
+jobs:
+  full-search:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          fetch-depth: 0
+          token: ${{ github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      # ── 1. WoS ──────────────────────────────────────────────────────────
+      - name: Run WoS Starter API search
+        if: ${{ secrets.WOS_API_KEY != '' }}
+        env:
+          WOS_API_KEY: ${{ secrets.WOS_API_KEY }}
+        run: |
+          python3 p6/tools/06_wos_api_search.py \
+            --max ${{ github.event.inputs.max_wos || '2500' }} \
+            --output p6/tools/results/wos_api_$(date +%Y%m%d).csv
+          echo "WoS done: $(wc -l < p6/tools/results/wos_api_$(date +%Y%m%d).csv) lines"
+        continue-on-error: true
+
+      # ── 2. Scopus ────────────────────────────────────────────────────────
+      - name: Run Scopus API search
+        if: ${{ secrets.SCOPUS_API_KEY != '' }}
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+        run: |
+          python3 p6/tools/05_scopus_api_search.py \
+            --max ${{ github.event.inputs.max_scopus || '5000' }} \
+            --output p6/tools/results/scopus_api_$(date +%Y%m%d).csv
+          echo "Scopus done: $(wc -l < p6/tools/results/scopus_api_$(date +%Y%m%d).csv) lines"
+        continue-on-error: true
+
+      # ── 3. OpenAlex ──────────────────────────────────────────────────────
+      - name: Run OpenAlex search
+        run: |
+          python3 - <<'PYEOF'
+          import requests, csv, time, os
+          from datetime import date
+          from pathlib import Path
+
+          API_KEY = os.environ.get("OPENALEX_API_KEY", "")
+          TODAY   = date.today().strftime("%Y%m%d")
+          OUT     = Path("p6/tools/results") / f"openalex_api_{TODAY}.csv"
+
+          QUERIES = [
+              "internationalization firm performance",
+              "internationalisation firm performance",
+              "export intensity labor productivity firm",
+              "foreign sales total sales financial performance",
+              "multinationality degree internationalization performance",
+              "FSTS FATA firm performance Asia",
+          ]
+
+          headers = {"User-Agent": "mailto:Thuyhuongctu@gmail.com"}
+          if API_KEY:
+              headers["Authorization"] = f"Bearer {API_KEY}"
+
+          seen, rows = set(), []
+          fieldnames = ["source","source_id","authors","year","title","journal","doi","abstract"]
+
+          for q in QUERIES:
+              page, per_page = 1, 200
+              while True:
+                  params = {
+                      "search": q,
+                      "filter": "publication_year:1977-2026,type:article",
+                      "per_page": per_page,
+                      "page": page,
+                      "select": "id,doi,title,publication_year,primary_location,authorships,abstract_inverted_index",
+                  }
+                  try:
+                      r = requests.get("https://api.openalex.org/works", params=params,
+                                       headers=headers, timeout=30)
+                      r.raise_for_status()
+                      data = r.json()
+                  except Exception as e:
+                      print(f"Error q={q!r} page={page}: {e}")
+                      break
+
+                  hits = data.get("results", [])
+                  if not hits:
+                      break
+
+                  for w in hits:
+                      oid = w.get("id","")
+                      if oid in seen:
+                          continue
+                      seen.add(oid)
+                      doi = (w.get("doi") or "").replace("https://doi.org/","")
+                      auths = "; ".join(
+                          a.get("author",{}).get("display_name","")
+                          for a in (w.get("authorships") or [])[:5]
+                      )
+                      journal = ""
+                      loc = w.get("primary_location") or {}
+                      src = loc.get("source") or {}
+                      journal = src.get("display_name","")
+                      # reconstruct abstract
+                      inv = w.get("abstract_inverted_index") or {}
+                      abstract = ""
+                      if inv:
+                          words = sorted(((pos,word) for word,positions in inv.items()
+                                          for pos in positions))
+                          abstract = " ".join(w for _,w in words)
+                      rows.append({
+                          "source": "openalex",
+                          "source_id": oid,
+                          "authors": auths,
+                          "year": w.get("publication_year",""),
+                          "title": w.get("title",""),
+                          "journal": journal,
+                          "doi": doi,
+                          "abstract": abstract[:500],
+                      })
+
+                  total = data.get("meta",{}).get("count",0)
+                  print(f"  q={q!r[:40]} page={page} got={len(hits)} total={total} unique={len(seen)}")
+                  if len(rows) >= int(os.environ.get("MAX_OA","5000")):
+                      break
+                  if page * per_page >= total:
+                      break
+                  page += 1
+                  time.sleep(0.1)
+
+          with open(OUT,"w",newline="",encoding="utf-8") as f:
+              w = csv.DictWriter(f, fieldnames=fieldnames)
+              w.writeheader()
+              w.writerows(rows)
+          print(f"\nOpenAlex done: {len(rows)} unique records → {OUT}")
+          PYEOF
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          MAX_OA: ${{ github.event.inputs.max_openalex || '5000' }}
+        continue-on-error: true
+
+      # ── Summary ──────────────────────────────────────────────────────────
+      - name: Print summary
+        run: |
+          echo "========= SEARCH SUMMARY ========="
+          TODAY=$(date +%Y%m%d)
+          for f in p6/tools/results/wos_api_${TODAY}.csv \
+                   p6/tools/results/scopus_api_${TODAY}.csv \
+                   p6/tools/results/openalex_api_${TODAY}.csv; do
+            if [ -f "$f" ]; then
+              LINES=$(wc -l < "$f")
+              echo "  $f: $((LINES-1)) records"
+            else
+              echo "  $f: NOT PRODUCED"
+            fi
+          done
+          echo "=================================="
+
+      # ── Commit ───────────────────────────────────────────────────────────
+      - name: Commit and push all results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add p6/tools/results/wos_api_*.csv \
+                  p6/tools/results/scopus_api_*.csv \
+                  p6/tools/results/openalex_api_*.csv 2>/dev/null || true
+          git diff --staged --quiet || \
+            git commit -m "data(p6): WoS+Scopus+OpenAlex search results $(date +%Y-%m-%d)"
+          git push origin HEAD:claude/edit-vietnamese-academic-standards-xcAmn
