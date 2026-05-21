@@ -269,6 +269,9 @@ Phương pháp ước lượng chính: OLS với HC1 robust standard errors (Lon
 
 #### 2.3.1 Tổng quan văn liệu về quan hệ quốc tế hóa và hiệu quả kinh doanh
 
+Các bằng chứng cập nhật giai đoạn 2024-2025 củng cố ba thread liên quan trực tiếp đến mô hình M0-M7 đề xuất. Purkayastha và cộng sự (2024) trên dữ liệu 20 năm của 837 doanh nghiệp Ấn Độ chứng minh rằng năng lực quản lý đầu tư R&D và tái phân bổ nguồn lực chiến lược làm steepen đường cong I-P và dịch điểm uốn về bên trái, một bằng chứng trực tiếp cho H2 (TCI điều tiết) trong khung CDCM. Li (2024) trên các MNE Trung Quốc giai đoạn 2012-2022 xác nhận quan hệ chữ U ngược giữa tốc độ quốc tế hoá và hiệu quả đổi mới, với absorptive, learning và managerial capacities điều tiết tích cực, củng cố nền tảng cho H4 (đặc điểm nhà quản trị). Aydemir và cộng sự (2024) trong meta-analysis cập nhật (k=170 mẫu) xác nhận quy mô hiệu ứng dương nhỏ giữa quốc tế hoá và hiệu quả với heterogeneity đáng kể theo developed-vs-emerging market, hỗ trợ thiết kế ICRV 6-gradient trong H5.
+
+
 ##### Năm dạng hàm của quan hệ I→P
 
 Văn liệu IB đã ghi nhận không dưới năm dạng hàm khác nhau trong quan hệ giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp. Sự đa dạng này không phải ngẫu nhiên mà phản ánh tính phụ thuộc ngữ cảnh của hiệu ứng quốc tế hóa.
@@ -956,6 +959,8 @@ Chuyên đề này đặt nền tảng lý thuyết và thực nghiệm cho năm
 
 Angrist, J. D., & Pischke, J.-S. (2009). *Mostly harmless econometrics: An empiricist's companion*. Princeton University Press.
 
+Aydemir, M. F., Ozsahin, M., & Algur, E. (2024). The internationalization-firm performance relationship: A meta-analysis. *International Journal of Management Economics and Business*, *20*(2), 287–312.
+
 Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387. https://doi.org/10.1057/s41267-019-00243-7
 
 Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120. https://doi.org/10.1177/014920639101700108
@@ -981,6 +986,10 @@ Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative ver
 Contractor, F. J. (2012). Why do multinational firms exist? A theory note about the effect of multinational expansion on performance and recent methodological critiques. *Global Strategy Journal, 2*(4), 318–331.
 
 Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
+
+Li, X. (2024). How does rapid internationalization explain emerging-market multinationals' innovation? The moderating role of organizational capacity. *International Journal of Emerging Markets*, *19*(8), 2156–2178. https://doi.org/10.1108/IJOEM-04-2023-0612
+
+Purkayastha, A., Karna, A., Sharma, S., & Bhadra, D. (2024). Role of resource investment management and strategic resource deployment capabilities in internationalization-performance relationship. *Journal of International Management*, *30*(1), 101117. https://doi.org/10.1016/j.intman.2023.101117
 
 Đỗ, T. H., & Phan, A. T. (2026). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript under review]. *Journal of Asia Business Studies*. [P3. Việt Nam]
 

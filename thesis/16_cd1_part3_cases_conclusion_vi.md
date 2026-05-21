@@ -307,6 +307,8 @@ ADB. (2026, April). *Asian development outlook April 2026: The Middle East confl
 
 ADB. (2026). *Vietnam economic outlook 2026: Navigating the crosscurrents*. Asian Development Bank.
 
+Aydemir, M. F., Ozsahin, M., & Algur, E. (2024). The internationalization-firm performance relationship: A meta-analysis. *International Journal of Management Economics and Business*, *20*(2), 287–312.
+
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347.
 
 Beblawi, H. (1987). The rentier state in the Arab world. In H. Beblawi & G. Luciani (Eds.), *The rentier state* (pp. 49–62). Croom Helm.
@@ -324,6 +326,10 @@ Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective 
 Contractor, F. J., Kundu, S. K., & Hsu, C. C. (2003). A three-stage theory of international expansion. *Journal of International Business Studies, 34*(1), 5–18.
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review, 80*(2), 355–361.
+
+Tantawy, A., Brown, T. E., & Eshima, Y. (2024). Institutional voids and new venture performance: The moderating role of founders' political ties. *European Management Review*, *21*(2), 312–328. https://doi.org/10.1111/emre.12601
+
+Wagner, J. (2025). Productivity and international firm activities: What do we know? *Working Paper Series in Economics, University of Lüneburg*, No. 425.
 
 Đỗ, T. H., & Phan, A. T. (2024). *Meta-analysis of internationalization–performance relationship in Asia-Pacific SMEs*. Proceedings of ICBEF 2025. Business Innovation Academy.
 

@@ -325,6 +325,9 @@ Hiệu quả doanh nghiệp trong chuyên đề này được đo lường theo 
 
 ### 2.3 Năm meta-analysis lớn về quan hệ quốc tế hóa – hiệu quả (1980–2024)
 
+Một meta-analysis 2024 bổ sung của Aydemir và cộng sự (2024) trên k=170 mẫu (n=334,855 MNCs từ SSCI và Scopus) củng cố quy mô hiệu ứng dương nhỏ giữa quốc tế hoá và hiệu quả doanh nghiệp, với biến điều tiết quan trọng gồm thế hệ phát triển, đòn bẩy tài chính, và R&D intensity. Wagner (2025) tổng hợp bằng chứng cấp doanh nghiệp Nordic, nhấn mạnh rằng các pattern xuyên quốc gia khó tổng quát hoá thành stylised facts cho chính sách. Hai cập nhật này hỗ trợ luận điểm về tính không đồng nhất xuyên bối cảnh trong phần §3 ICRV.
+
+
 Văn liệu về quan hệ quốc tế hóa dẫn đến hiệu quả (I→P) là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế (International Business — IB). Năm meta-analysis lớn cung cấp nền tảng thực nghiệm:
 
 **(1) Bausch & Krist (2007)**: Tổng hợp **68 nghiên cứu (k=68)** giai đoạn 1980–2005. Hệ số tương quan trung bình r=0,045 — tích cực nhưng nhỏ. Phát hiện chính: đo lường I (internationalization) và đo lường P (performance) rất không đồng nhất giữa các nghiên cứu dẫn đến làm hạn chế khả năng so sánh. Khoảng trống: ít nghiên cứu châu Á mới nổi.

@@ -1,0 +1,171 @@
+{
+  "scope": "all",
+  "total_files_tracked": 204,
+  "total_files_scanned": 19,
+  "primary_language": "python+yaml",
+  "mode": "small",
+  "scan_date": "2026-05-21",
+  "skill_version": "vbsec v0.3+",
+  "verdict": "FAIL",
+  "summary": {
+    "critical": 4,
+    "high": 2,
+    "medium": 3,
+    "low": 4,
+    "info": 1,
+    "total": 14
+  },
+  "findings": [
+    {
+      "id": "CRIT-1",
+      "rule_id": "HARDCODED-SECRET",
+      "severity": "CRITICAL",
+      "file": ".github/workflows/p6_full_search.yml",
+      "line": 9,
+      "issue": "WoS Starter API key hardcoded as workflow_dispatch default input value (value: 1a0367...62ab8). Public-trackable in git history.",
+      "fix": "Rotate key on Clarivate developer portal, store in GitHub Secrets as WOS_API_KEY, reference via ${{ secrets.WOS_API_KEY }}, set default: ''"
+    },
+    {
+      "id": "CRIT-2",
+      "rule_id": "HARDCODED-SECRET",
+      "severity": "CRITICAL",
+      "file": ".github/workflows/p6_full_search.yml",
+      "line": 13,
+      "issue": "Scopus (Elsevier) API key hardcoded as workflow input default (value: 5a33a2...81790). Linked to P6-meta-analysis-CTU institution credential.",
+      "fix": "Rotate via Elsevier Developer Portal, store in secrets.SCOPUS_API_KEY"
+    },
+    {
+      "id": "CRIT-3",
+      "rule_id": "HARDCODED-SECRET",
+      "severity": "CRITICAL",
+      "file": ".github/workflows/p6_full_search.yml",
+      "line": 17,
+      "issue": "OpenAlex API key hardcoded as workflow input default (value: WV8Aj...EpYY)",
+      "fix": "Request new key from OpenAlex team, store in secrets.OPENALEX_API_KEY"
+    },
+    {
+      "id": "CRIT-4",
+      "rule_id": "HARDCODED-SECRET",
+      "severity": "CRITICAL",
+      "file": ".github/workflows/scopus_api_search.yml",
+      "line": 9,
+      "issue": "Scopus API key duplicated hardcoded (same as CRIT-2). Step at line 39 already has secrets fallback but default value still exposes key.",
+      "fix": "Set default: '' so secrets.SCOPUS_API_KEY is used"
+    },
+    {
+      "id": "HIGH-1",
+      "rule_id": "COMMAND-INJECTION",
+      "severity": "HIGH",
+      "file": ".github/workflows/p6_full_search.yml",
+      "line": "59,64,78,84,92,98,106,107",
+      "issue": "GitHub Actions input ${{ github.event.inputs.X }} interpolated directly into run: bash. Classic GH Actions script injection pattern (CodeQL js/actions/command-injection).",
+      "fix": "Move inputs into env: block of step, reference via \"$VAR\" in bash"
+    },
+    {
+      "id": "HIGH-2",
+      "rule_id": "COMMAND-INJECTION",
+      "severity": "HIGH",
+      "file": ".github/workflows/unpaywall_query.yml,pdf_download_extract.yml,abstract_fetch.yml,doi_enrichment.yml,scopus_api_search.yml",
+      "line": "multiple",
+      "issue": "Same direct-input-into-run pattern across 5 workflow files",
+      "fix": "Apply env-var wrapping pattern to all workflows"
+    },
+    {
+      "id": "MED-1",
+      "rule_id": "VERBOSE-ERROR-DEBUG-MODE",
+      "severity": "MEDIUM",
+      "file": "replication/p3_singapore_replication.py",
+      "line": 13,
+      "issue": "Hardcoded absolute path /root/.claude/uploads/4342a099-...e99f exposes agent filesystem layout; not portable to other machines",
+      "fix": "Read from env var WBES_DATA_DIR or sys.argv with sensible default"
+    },
+    {
+      "id": "MED-2",
+      "rule_id": "VERBOSE-ERROR-DEBUG-MODE",
+      "severity": "MEDIUM",
+      "file": "replication/p4_vietnam_replication.py",
+      "line": 13,
+      "issue": "Hardcoded absolute path /root/.claude/uploads/<uuid>",
+      "fix": "Read from env var"
+    },
+    {
+      "id": "MED-3",
+      "rule_id": "VERBOSE-ERROR-DEBUG-MODE",
+      "severity": "MEDIUM",
+      "file": "replication/p5_china_replication.py",
+      "line": 17,
+      "issue": "Hardcoded absolute path /root/.claude/uploads/<uuid>",
+      "fix": "Read from env var"
+    },
+    {
+      "id": "LOW-1",
+      "rule_id": "HARDCODED-SECRET",
+      "severity": "LOW",
+      "file": ".github/workflows/p6_full_search.yml",
+      "line": 132,
+      "issue": "Author personal email Thuyhuongctu@gmail.com hardcoded in OpenAlex User-Agent header (PII, not credential; required by polite-pool convention)",
+      "fix": "Move to repo secret CONTACT_EMAIL"
+    },
+    {
+      "id": "LOW-2",
+      "rule_id": "HARDCODED-SECRET",
+      "severity": "LOW",
+      "file": ".github/workflows/doi_enrichment.yml",
+      "line": 50,
+      "issue": "Institutional email huongp1323001@gstudent.ctu.edu.vn hardcoded as CLI arg --email",
+      "fix": "Move to repo secret CONTACT_EMAIL"
+    },
+    {
+      "id": "LOW-3",
+      "rule_id": "HARDCODED-SECRET",
+      "severity": "LOW",
+      "file": "scripts/submission-checklist.py",
+      "line": "115-122",
+      "issue": "Author full name + email username hardcoded in BLIND_PATTERNS (intentional for blind-review leak detection but PII still committed)",
+      "fix": "Acceptable as designed; consider loading from external config file gitignored"
+    },
+    {
+      "id": "LOW-4",
+      "rule_id": "VERBOSE-ERROR-DEBUG-MODE",
+      "severity": "LOW",
+      "file": "replication/p4_vietnam_replication.py,replication/p5_china_replication.py",
+      "line": "27,33",
+      "issue": "Bare except: clause swallows all exceptions including KeyboardInterrupt/SystemExit",
+      "fix": "Use except Exception as e: and log e"
+    },
+    {
+      "id": "INFO-1",
+      "rule_id": "OUTDATED-DEPENDENCY",
+      "severity": "INFO",
+      "file": ".gitignore",
+      "line": 0,
+      "issue": "vbsec-reports/ and dist/security_scan_* not in .gitignore",
+      "fix": "Add lines: vbsec-reports/ and dist/security_scan_*"
+    }
+  ],
+  "passed_rules": [
+    "SQL-INJECTION",
+    "XSS",
+    "IDOR",
+    "SLOPSQUATTING",
+    "BRUTE-FORCE",
+    "MASS-ASSIGNMENT",
+    "INSECURE-DESERIALIZATION",
+    "SSRF",
+    "PATH-TRAVERSAL",
+    "CSRF",
+    "BROKEN-ACCESS-CONTROL",
+    "WEAK-PASSWORD-HASHING",
+    "JWT-NONE-ALGORITHM",
+    "CORS-MISCONFIG",
+    "UNRESTRICTED-FILE-UPLOAD",
+    "MISSING-RATE-LIMIT",
+    "RACE-CONDITION"
+  ],
+  "top_rules_by_count": {
+    "HARDCODED-SECRET": 7,
+    "COMMAND-INJECTION": 2,
+    "VERBOSE-ERROR-DEBUG-MODE": 4,
+    "OUTDATED-DEPENDENCY": 1
+  }
+}

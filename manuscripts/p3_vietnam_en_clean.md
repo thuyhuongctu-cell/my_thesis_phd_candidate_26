@@ -71,7 +71,7 @@ that internationalisation can improve performance at lower and intermediate leve
 learning, and diversification, while also generating diminishing or negative returns at higher levels
 because of complexity and coordination burdens. Meta-analytic evidence strongly supports the
 view that nonlinearity is a central feature of this relationship rather than an empirical anomaly
-(Vernon, 1979; Lu and Beamish, 2004; Hennart, 2007; Coviello et al., 2017; Marano et al., 2016).
+(Vernon, 1979; Lu and Beamish, 2004; Hennart, 2007; Coviello et al., 2017; Marano et al., 2016). Recent firm-level evidence from Vietnam confirms the bidirectional productivity-export learning loop in SMEs (Nguyen et al., 2025; Dang et al., 2024) and highlights digital transformation as a strong predictor of export performance under intensifying global competition (Tran et al., 2025; Ngo et al., 2024).
 Digitalisation adds a further layer of complexity to this debate.
 
 Digital tools can reduce
@@ -1454,6 +1454,8 @@ Contractor, F. J. (2007). Is international business good for companies? The evol
 
 Coviello, N., Kano, L., and Liesch, P. W. (2017). Adapting the Uppsala model to a modern world: Macro-context and microfoundations. Journal of International Business Studies, 48(9):1151– 1164. Cuervo-Cazurra, A. and Genc, M. (2008). Transforming disadvantages into advantages: Developing-country MNEs in the least developed countries. Journal of International Business Studies, 39(6):957–979.
 
+Dang, T. M. D., Le, V., & Nguyen, T. T. (2024). Export persistence and productivity in Vietnam: Who learns? *Journal of Economic Integration*, *39*(2), 234–262.
+
 Eisenhardt, K. M. and Martin, J. A. (2000). Dynamic capabilities: What are they? Strategic Management Journal, 21(10–11):1105–1121.
 
 Goldfarb, A. and Tucker, C. (2019). Digital economics. Journal of Economic Literature, 57(1):3– 43.
@@ -1482,6 +1484,10 @@ Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., and van Essen, M. (2016)
 
 Nambisan, S., Wright, M., and Feldman, M. (2019). The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes. Research Policy, 48(8):103773.
 
+Ngo, V. D., Nguyen, T. T., & Hoang, T. T. (2024). Export-specific investments, competitive advantage, and performance in Vietnamese SMEs: The moderating role of domestic market conditions. *Journal of Business Research*, *176*, 114577. https://doi.org/10.1016/j.jbusres.2024.114577
+
+Nguyen, D. P. K., Phan, T. M., & Le, T. T. H. (2025). The simultaneous relationship between labor productivity and exports: The case of small and medium-sized enterprises in Vietnam. *Ho Chi Minh City Open University Journal of Science: Economics and Business Administration*, *20*(1), 1–18.
+
 Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. Journal of Business & Economic Statistics, 37(2):187–204.
 
 Paternoster, R., Brame, R., Mazerolle, P., and Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. Criminology, 36(4):859–866.
@@ -1497,6 +1503,8 @@ Stallkamp, M. and Schotter, A. P. J. (2021). Platforms without borders? The inte
 Strange, R. and Zucchella, A. (2017). Industry 4.0, global value chains and international business. Multinational Business Review, 25(3):174–184.
 
 Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. Strategic Management Journal, 28(13):1319–1350.
+
+Tran, T. T., Le, T. H., & Pham, V. K. (2025). The impact of innovation-driven digital transformation on export performance of SMEs. *Emerging Science Journal*, *9*(2), 451–467. https://doi.org/10.28991/ESJ-2025-09-02-018
 
 Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evolution. Global Strategy Journal, 10(2):239–250.
 
