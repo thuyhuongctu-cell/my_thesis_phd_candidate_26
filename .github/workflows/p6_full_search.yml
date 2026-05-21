@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       wos_api_key:
-        description: 'WoS Starter API Key'
+        description: 'WoS Starter API Key (leave blank to use repo secret WOS_API_KEY)'
         required: false
-        default: '1a0367524ef410f4ef7d0930a349aefe54862ab8'
+        default: ''
       scopus_api_key:
-        description: 'Scopus API Key (Elsevier / P6-meta-analysis-CTU)'
+        description: 'Scopus API Key (leave blank to use repo secret SCOPUS_API_KEY)'
         required: false
-        default: '5a33a23876e87fa618d635fc89281790'
+        default: ''
       openalex_api_key:
-        description: 'OpenAlex API Key'
+        description: 'OpenAlex API Key (leave blank to use repo secret OPENALEX_API_KEY)'
         required: false
-        default: 'WV8Ajx6C6qBvJirOOOEpYY'
+        default: ''
       max_wos:
         description: 'Max WoS records'
         required: false
@@ -56,12 +56,12 @@ jobs:
           echo "Runner IP: $(curl -s https://ifconfig.me || echo unknown)"
 
           WOS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
-            -H "X-ApiKey: ${{ github.event.inputs.wos_api_key }}" \
+            -H "X-ApiKey: ${WOS_API_KEY_RUNTIME}" \
             "https://api.clarivate.com/apis/wos-starter/v1/documents?db=WOS&q=TS%3Dinternationalization&limit=1" || echo "ERR")
           echo "WoS API status:     $WOS_STATUS"
 
           SCOPUS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
-            -H "X-ELS-APIKey: ${{ github.event.inputs.scopus_api_key }}" \
+            -H "X-ELS-APIKey: ${SCOPUS_API_KEY_RUNTIME}" \
             "https://api.elsevier.com/content/search/scopus?query=internationalization&count=1" || echo "ERR")
           echo "Scopus API status:  $SCOPUS_STATUS"
 
@@ -75,7 +75,7 @@ jobs:
 
       - name: Run WoS Starter API search
         env:
-          WOS_API_KEY: ${{ github.event.inputs.wos_api_key }}
+          WOS_API_KEY: ${{ github.event.inputs.wos_api_key || secrets.WOS_API_KEY }}
         run: |
           if [ "$WOS_HTTP" != "200" ]; then
             echo "WoS API not reachable (HTTP $WOS_HTTP) — skipping"
@@ -89,7 +89,7 @@ jobs:
 
       - name: Run Scopus API search
         env:
-          SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key }}
+          SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key || secrets.SCOPUS_API_KEY }}
         run: |
           if [ "$SCOPUS_HTTP" != "200" ]; then
             echo "Scopus API not reachable (HTTP $SCOPUS_HTTP) — skipping"
@@ -103,7 +103,7 @@ jobs:
 
       - name: Run OpenAlex search
         env:
-          OPENALEX_API_KEY: ${{ github.event.inputs.openalex_api_key }}
+          OPENALEX_API_KEY: ${{ github.event.inputs.openalex_api_key || secrets.OPENALEX_API_KEY }}
           MAX_OA: ${{ github.event.inputs.max_openalex }}
         run: |
           if [ "$OA_HTTP" != "200" ]; then

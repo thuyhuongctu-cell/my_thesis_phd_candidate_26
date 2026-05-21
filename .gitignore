@@ -44,3 +44,6 @@ npm-debug.log*
 out/
 temp/
 tmp/
+
+# Security scan artifacts (may contain sensitive findings, redact before committing)
+dist/security_scan_*.{md,json}

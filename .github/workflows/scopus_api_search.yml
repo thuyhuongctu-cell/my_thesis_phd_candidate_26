@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       scopus_api_key:
-        description: 'Scopus API Key (Elsevier / P6-meta-analysis-CTU)'
+        description: 'Scopus API Key (leave blank to use repo secret SCOPUS_API_KEY)'
         required: false
-        default: '5a33a23876e87fa618d635fc89281790'
+        default: ''
       max_records:
         description: 'Max records to retrieve (default: 5000)'
         required: false
