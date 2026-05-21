@@ -1,36 +1,44 @@
 # Hướng dẫn L2 Screening & Extraction — P6 Meta-Analysis
 
-**Cập nhật**: 20/05/2026 (rev 2)
+**Cập nhật**: 21/05/2026 (rev 3)
 **File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv`  
 **Cấu trúc**: 2,467 rows × 58 cột  
 **File extraction queue** (652 Y, sorted by PDF status): `p6/tools/results/extraction_queue_y_20260520.csv`
 
 ---
 
-## Trạng thái pipeline (20/05/2026 — sau auto-screen L2)
+## Trạng thái pipeline (21/05/2026 — sau Phase A-B)
 
 | Nhóm | Số lượng | Ghi chú |
 |------|---------|---------|
 | Existing coded (k=238 database) | 344 rows | seq ≤ 435 |
 | New candidates tổng | 2,123 rows | seq > 435 |
-| **Y (confirmed + auto-Y)** | **652** | sẵn sàng extraction |
-| → có local PDF | 78 | chạy `41_auto_extract_from_pdfs.py` ngay |
-| → có repo URL | 55 | tải thủ công + extract |
-| → không PDF | 519 | cần tìm PDF |
-| N (auto-exclude) | 9 | meta-analyses, reviews, wrong-field |
-| UNSURE (cần full-text) | 1,403 | đọc thủ công từng paper |
-| blank | 0 | — |
+| **Y (confirmed)** | **674** | sẵn sàng extraction |
+| → có converted_r | 3 | ready_for_r=1 (seqs 477, 1549, 1753) |
+| → blank icrv | 267 | cần manual ICRV coding |
+| → có ICRV | 407 | ready cho MARA sau khi có r |
+| N (all types) | 728 | N=329, N_abstract=151, N_title=248 |
+| UNSURE (cần abstract) | 1,065 | Phase A fetching S2 abstracts (ETA ~06:15) |
 
-**PDF coverage (sau Unpaywall + chờ S2):**
-- Unpaywall: 78 PDF trực tiếp + 55 repo URL
-- Semantic Scholar fallback: chạy từ GitHub Actions (263 papers còn lại)
+**ICRV coverage sau Phase B (21/05/2026):**
+- Phase B auto-coded 17 Y papers via title detection
+- Manual coding: seq=477 (Ghana→3), seq=1549 (Italy→1)
+- 267 Y papers vẫn blank ICRV (multi-country hoặc không xác định)
+- Cần manual: sau khi có full-text, xác định context country của study
 
-**Scripts pipeline:**
+**Scripts pipeline (đã chạy 21/05/2026):**
+```
+50_fetch_s2_abstracts_unsure.py  — fetch S2 abstracts cho 757 UNSURE (đang chạy)
+51_icrv_from_s2_affiliations.py  — auto-ICRV cho Y papers (đã hoàn thành — 17 coded)
+52_extract_r_from_abstracts.py   — extract r từ Y paper abstracts (0 r found)
+53_apply_s2_auto_screen.py       — áp dụng N decisions từ Phase A (chạy sau Phase A)
+meta_r_scripts/01_mara_update_combined.R — chạy MARA khi ready_for_r ≥ 50
+```
+
+**Scripts pipeline (còn lại):**
 ```
 40_batch_download_pdfs.py   — tải PDF về p6/pdfs/ (chạy local)
 41_auto_extract_from_pdfs.py — auto-extract r từ PDF (chạy local sau 40)
-44_auto_screen_l2_titles.py  — auto-screen blank rows (đã chạy)
-45_export_extraction_queue.py — xuất queue Y papers (đã chạy)
 42_merge_tracker_to_database.py — merge → database (khi ≥50 ready_for_r=1)
 ```
 
