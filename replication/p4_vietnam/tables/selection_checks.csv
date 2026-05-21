@@ -1,0 +1,10 @@
+check,wave,N,method,TCI_z_coef,DAI_z_coef,fsts_c_coef,fstssq_c_coef,selection_term_p,notes
+Heckman_two_step,2009,989,heckman_2step,,,,,,,"Mills ratio"
+Heckman_two_step,2015,956,heckman_2step,,,,,,
+Heckman_two_step,2023,1013,heckman_2step,,,,,,
+Control_function,2009,989,control_function,,,,,,,"residual from probit"
+Control_function,2015,956,control_function,,,,,,
+Control_function,2023,1013,control_function,,,,,,
+OLS_exporters_only,2009,,ols_subsample,,,,,,FSTS>0 firms only
+OLS_exporters_only,2015,,ols_subsample,,,,,,
+OLS_exporters_only,2023,,ols_subsample,,,,,,

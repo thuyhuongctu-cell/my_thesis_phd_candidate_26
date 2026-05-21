@@ -1,0 +1,760 @@
+# Xem xét lại mối quan hệ giữa quốc tế hoá và hiệu quả hoạt động kinh doanh của doanh nghiệp tại một thị trường mới nổi: Vai trò của năng lực công nghệ và mức độ áp dụng số nền tảng
+
+*Thông tin tác giả đã được lược bỏ để phục vụ bình duyệt ẩn danh*
+
+*Ngày 6 tháng 5 năm 2026*
+
+*Tạp chí mục tiêu: Asia Pacific Journal of Management (APJM)*
+
+**Phân loại bản thảo:** bài báo nghiên cứu.
+
+**Số từ** (phần thân chính, không tính tóm tắt, tài liệu tham khảo, bảng và hình): khoảng 6.800 từ.
+
+**Bảng:** 4 (Bảng 1 thống kê mô tả; Bảng 2 tổng hợp hệ số trọng tâm; Bảng 3 các bảng kiểm tra độ vững; Bảng 4 các điểm ngoặt).
+
+**Hình:** 6 (Hình 1 mô hình khái niệm; các Hình 2a–2d đường cong FSTS theo từng đợt khảo sát; Hình 3 đường cong điều tiết tại p25 so với p75 của biến điều tiết).
+
+---
+
+## Tóm tắt
+**Mục đích.** Nghiên cứu này xem xét lại mối quan hệ giữa quốc tế hoá (internationalisation) và hiệu quả hoạt động kinh doanh của doanh nghiệp (firm performance) tại một thị trường mới nổi, đồng thời khảo sát cách mà năng lực công nghệ (Technological Capability Index, TCI) và áp dụng công nghệ số (Digital Adoption Index, DAI) nền tảng có liên hệ với năng suất doanh nghiệp trong điều kiện chuyển đổi thể chế và chuyển đổi số. Lấy Việt Nam làm trọng tâm, nghiên cứu đặt câu hỏi liệu cường độ xuất khẩu (export intensity, FSTS) có liên hệ phi tuyến với năng suất lao động (labour productivity, ln LP) hay không, và liệu năng lực công nghệ cùng áp dụng công nghệ số nền tảng có đóng những vai trò khác biệt giữa các đợt khảo sát hay không.
+
+**Thiết kế / phương pháp luận / cách tiếp cận.** Nghiên cứu sử dụng ba đợt dữ liệu Khảo sát Doanh nghiệp của Ngân hàng Thế giới (WBES) cho Việt Nam (2009, 2015 và 2023; N gộp = 2.958) và ước lượng các mô hình bình phương nhỏ nhất (OLS) theo từng đợt và gộp, kèm sai số chuẩn vững (robust standard errors, HC1), số hạng bậc hai của cường độ xuất khẩu và các đặc tả tương tác. Phân tích phân biệt một Chỉ số năng lực công nghệ dựa trên chứng nhận chất lượng được công nhận quốc tế và công nghệ được cấp phép nước ngoài với một Chỉ số áp dụng công nghệ số nền tảng dựa trên sự hiện diện website, trong đó hai chỉ số không chia sẻ bất kỳ chỉ báo nào. Các kiểm tra bổ sung đánh giá tính ổn định của những phát hiện chính.
+
+**Kết quả nghiên cứu.** Lợi ích về năng suất của quốc tế hoá tập trung chủ yếu ở biên tham gia, tức bước chuyển từ không xuất khẩu sang xuất khẩu, trong khi cường độ xuất khẩu trong nhóm doanh nghiệp đã xuất khẩu mang lại lợi suất biên giảm dần đến triệt tiêu (Panel H). Đường chữ U ngược (inverted U-shape) trong toàn mẫu (điểm ngoặt 39–46 % FSTS) được nhận diện chủ yếu thông qua bước tham gia này chứ không phải qua độ cong dày đặc bên trong nhóm doanh nghiệp xuất khẩu. Năng lực công nghệ có liên hệ thuận chiều với năng suất trong cả ba đợt và trong mẫu gộp, và vai trò điều tiết của nó ổn định hơn so với áp dụng công nghệ số nền tảng. Áp dụng công nghệ số nền tảng có hệ số dương trong các năm 2009 và 2023, không có ý nghĩa thống kê trong năm 2015, và chỉ thể hiện điều tiết có thể phát hiện trong mẫu vào năm 2023. Ước lượng biến công cụ (instrumental variable, IV; Panel K) cho hệ số DAI sau công cụ hoá bằng không (β = 0,018, p = .942, F giai đoạn một = 34,6), cho thấy mối liên hệ thuận chiều của DAI ước lượng bằng OLS nhiều khả năng phản ánh chọn lựa hơn là quan hệ nhân quả.
+
+**Tính mới / đóng góp.** Nghiên cứu đóng góp cho tài liệu về thị trường mới nổi bằng cách phân tách năng lực công nghệ nước ngoài / tiêu chuẩn khỏi áp dụng công nghệ số nền tảng và bằng cách cho thấy rằng các tác động số gộp có thể che lấp tính không đồng nhất theo thời gian đáng kể. Phát hiện gợi ý rằng tính liên quan đến năng suất của áp dụng công nghệ số cơ bản nhạy cảm với bối cảnh và đặc trưng theo đợt khảo sát hơn là ổn định đồng nhất qua các giai đoạn quốc tế hoá.
+
+**Từ khoá:** quốc tế hoá–hiệu quả hoạt động; thị trường mới nổi; áp dụng công nghệ số; năng lực công nghệ; Việt Nam; năng suất doanh nghiệp.
+
+**Phân loại JEL:** F23 (doanh nghiệp đa quốc gia; kinh doanh quốc tế); O33 (thay đổi công nghệ: lựa chọn và hệ quả); D22 (hành vi doanh nghiệp: phân tích thực nghiệm); L25 (hiệu quả hoạt động kinh doanh của doanh nghiệp); O53 (nghiên cứu quốc gia toàn nền kinh tế: châu Á bao gồm Trung Đông).
+
+**Loại bài:** Bài báo nghiên cứu.
+
+## Điểm nhấn
+- Mối quan hệ giữa quốc tế hoá và hiệu quả hoạt động ở doanh nghiệp Việt Nam có tính phi tuyến vững chắc: kiểm định Lind–Mehlum (U-shape test) bác bỏ tính đơn điệu trong cả ba đợt (2009 p = .006, 2015 p = .009, 2023 p = .013) và trong mẫu gộp (p < .001), với các điểm ngoặt tập trung trong khoảng 39 đến 46 % cường độ xuất khẩu trực tiếp.
+
+- Năng lực công nghệ và áp dụng công nghệ số được tách biệt như những thước đo chính không chồng lấn: $\tilde{\mathrm{TCI}}$ là trung bình chuẩn hoá theo z (z-standardisation) trong từng đợt của chứng nhận chất lượng và công nghệ được cấp phép nước ngoài, trong khi $\tilde{\mathrm{DAI}}$ là chỉ báo hiện diện số nền tảng dựa trên website đã chuẩn hoá theo z trong từng đợt.
+
+- $\tilde{\mathrm{TCI}}$ có liên hệ thuận chiều với năng suất trong cả ba đợt (β = 0,215; 0,128; 0,123) và trong mẫu gộp (β = 0,179, p < .001), và điều tiết độ cong trong ba trong bốn bảng (M3 joint p = .040, .713, .027 và .003).
+
+- $\tilde{\mathrm{DAI}}$ mạnh nhất vào năm 2009 (β = 0,175, p < .001), không có ý nghĩa năm 2015 (β = -0,044, p = .377), dương năm 2023 (β = 0,095, p = .038) và trong mẫu gộp (β = 0,078, p = .004); các dịch chuyển giữa các đợt có thể phân biệt được về mặt thống kê (kiểm định z Paternoster z = 3,353 giữa 2009 và 2015; z = -2,051 giữa 2015 và 2023).
+
+- Điều tiết của DAI tập trung vào năm 2023, trong đó $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0,912 (p = .043) và kiểm định liên hợp M8 ở mức cận ngưỡng (p = .062); kiểm định liên hợp M8 gộp cũng ở mức cận ngưỡng (p = .083), được chi phối bởi năm 2023 chứ không phải bởi một điều tiết ổn định xuyên suốt giai đoạn.
+
+
+
+## 1. Giới thiệu
+### 1.1 Bối cảnh và động cơ nghiên cứu
+Việt Nam là bối cảnh có giá trị phân tích để xem xét lại mối quan hệ giữa quốc tế hoá và hiệu quả hoạt động kinh doanh của doanh nghiệp (I–P) bởi vì các doanh nghiệp mở rộng ra nước ngoài trong điều kiện chuyển đổi thể chế, tích luỹ năng lực không đồng đều và hạ tầng số biến đổi nhanh chóng.
+
+Trong bối cảnh như vậy, không nên giả định rằng quốc tế hoá sẽ tạo ra một khoản phụ trội hiệu quả tuyến tính đơn giản. Doanh nghiệp có thể tiếp cận các thị trường lớn hơn, hưởng lợi từ học hỏi và đa dạng hoá dòng doanh thu, nhưng cũng có thể đối mặt với chi phí phối hợp (coordination cost) tăng cao, gánh nặng xử lý thông tin và sức ép tổ chức khi mức độ tham gia nước ngoài sâu hơn (Wright et al., 2005; Cuervo-Cazurra and Genc, 2008; Wu et al., 2016).
+
+Sự căng thẳng này nằm ở trung tâm của tài liệu I–P. Một truyền thống nghiên cứu lâu đời lập luận rằng quốc tế hoá có thể cải thiện hiệu quả ở các mức thấp và trung gian thông qua quy mô, học hỏi và đa dạng hoá, đồng thời tạo ra lợi suất giảm dần hoặc âm ở các mức cao hơn do tính phức tạp và gánh nặng phối hợp. Bằng chứng từ phân tích tổng hợp mạnh mẽ ủng hộ quan điểm rằng tính phi tuyến là một đặc trưng trung tâm của mối quan hệ này chứ không phải một bất thường thực nghiệm (Vernon, 1979; Lu and Beamish, 2004; Hennart, 2007; Coviello et al., 2017; Marano et al., 2016).
+
+Số hoá bổ sung thêm một lớp phức tạp cho cuộc tranh luận này. Công cụ số có thể giảm ma sát giao tiếp, đẩy nhanh giao dịch và hỗ trợ phối hợp xuyên biên giới. Tuy nhiên, những lợi ích đó không phát sinh tự động. Giá trị thực tế của chúng phụ thuộc vào việc doanh nghiệp có sở hữu chiều sâu tổ chức, năng lực hấp thụ (absorptive capacity) và các thông lệ bổ trợ cần thiết để chuyển hoá việc áp dụng công nghệ số thành lợi ích năng suất hay không (Cohen and Levinthal, 1990; Vial, 2019; Verhoef et al., 2021; Stallkamp and Schotter, 2021; Petricevic and Teece, 2019). Vì lý do này, không nên xem năng lực số như một nguồn lực có lợi phổ quát với mức sinh lời không đổi giữa các doanh nghiệp và theo thời gian.
+
+Bối cảnh Việt Nam khiến vấn đề này trở nên đặc biệt quan trọng. Vì doanh nghiệp được nhúng trong một nền kinh tế đang nâng cấp năng lực và chuyển đổi số, lợi ích từ quốc tế hoá và mức sinh lời từ số hoá đều có thể thay đổi giữa các giai đoạn phát triển. Điều này đặt ra một câu hỏi trung tâm cho nghiên cứu hiện tại: liệu năng lực số ở Việt Nam có vận hành như một tài sản ổn định nâng cao hiệu quả, hay nó vận hành như một nguồn lực phụ thuộc giai đoạn (stage-contingent) với giá trị thay đổi theo vòng đời quốc tế hoá?
+
+Ba điểm ngoặt thể chế định hình cửa sổ quan sát. Việt Nam gia nhập Tổ chức Thương mại Thế giới đầu năm 2007, mở ra giai đoạn trước đợt khảo sát 2009 và chuyển một nhóm doanh nghiệp xuất khẩu định hướng nội địa thành nhóm có độ tiếp xúc thị trường rộng hơn nhưng hạ tầng hấp thụ còn hạn chế. Đợt 2015 ghi lại giai đoạn giữa của pha thứ hai, khi xuất khẩu sản xuất mở rộng cùng tồn tại với hạ tầng thương mại số kém phát triển, tích hợp logistics xuyên biên giới yếu, và một nhóm doanh nghiệp xuất khẩu vẫn tập trung ở các phân khúc thâm dụng lao động. Đợt 2023 diễn ra sau khi Chương trình Chuyển đổi Số Quốc gia được khởi động năm 2020, sự mở rộng nhanh chóng của các nền tảng thanh toán điện tử và thương mại điện tử xuyên biên giới, cũng như sự tái cân bằng đầu tư trực tiếp nước ngoài (FDI) hướng tới sản xuất qua trung gian số và liên kết dịch vụ. Ba đợt khảo sát do đó quan sát doanh nghiệp dưới những tổ hợp khác biệt về cấu trúc giữa áp lực quốc tế hoá và mức độ sẵn có của hạ tầng số. Đây chính là điều khiến cách đọc theo vòng đời có thể kiểm định được chứ không thuần tuý mang tính khái niệm.
+
+Những dịch chuyển này không mang tính hình thức. Bản thân thành phần của nhóm doanh nghiệp xuất khẩu cũng tiến triển qua ba đợt: tỉ lệ doanh nghiệp báo cáo cường độ xuất khẩu trực tiếp dương suy giảm khi các doanh nghiệp dịch vụ và doanh nghiệp chuỗi cung ứng liên kết FDI gia nhập mẫu, trong khi mức trung bình của áp dụng công nghệ số nền tảng tăng lên cùng sự lan toả của website, hệ thống thanh toán điện tử và các giao diện giao dịch số. Đọc mối quan hệ I–P và kênh áp dụng công nghệ số như những sự kiện cấu trúc cố định xuyên suốt cửa sổ mười bốn năm này sẽ bỏ qua thực tế rằng quần thể doanh nghiệp nền, các chi phí phối hợp ràng buộc và bộ khung thể chế cho thương mại xuyên biên giới đều thay đổi đáng kể về mặt vật chất.
+
+### 1.2 Khoảng trống nghiên cứu
+Ba khoảng trống thúc đẩy nghiên cứu này.
+
+Thứ nhất, các nghiên cứu hiện hữu thường xem số hoá như một nguồn lực tích cực một cách rộng rãi mà chưa chú ý đầy đủ đến sự biến đổi theo thời gian và bối cảnh trong mức sinh lời của nó. Cách xử lý như vậy có nguy cơ ngụ ý rằng áp dụng công nghệ số tạo ra một khoản phụ trội hiệu quả tương đối ổn định giữa các doanh nghiệp và qua các giai đoạn chuyển đổi kinh tế (Strange and Zucchella, 2017; Goldfarb and Tucker, 2019). Trên thực tế, số hoá có thể sinh ra lợi suất không đồng đều bởi vì các doanh nghiệp khác biệt về quy mô, thông lệ và năng lực bổ trợ.
+
+Thứ hai, sự phân biệt giữa năng lực công nghệ và áp dụng công nghệ số vẫn chưa được phát triển đầy đủ. Năng lực công nghệ đề cập đến những trữ lượng học hỏi, giải quyết vấn đề, cải tiến quy trình và năng lực đổi mới sâu hơn bên trong doanh nghiệp (Lall, 1992). Ngược lại, áp dụng công nghệ số nền tảng phản ánh một lớp cơ bản hơn về mức độ sẵn sàng số và các giao diện hoặc cơ chế giao dịch có hỗ trợ số (Bharadwaj et al., 2013; Verhoef et al., 2021; Hanelt et al., 2021; Brouthers et al., 2016). Mặc dù hai khái niệm này có liên quan, không nên xem chúng có thể hoán đổi cho nhau. Việc gộp chúng vào một biến tổng có thể làm giảm tính rõ ràng của khái niệm và làm mờ các cơ chế gắn số hoá với hiệu quả.
+
+Thứ ba, ước lượng gộp có thể che giấu sự không đồng nhất theo vòng đời đáng kể. Trong bối cảnh như Việt Nam, nơi doanh nghiệp và thể chế đi qua các giai đoạn chuyển đổi khác biệt, vai trò của quốc tế hoá, năng lực công nghệ và áp dụng công nghệ số có thể biến đổi đáng kể giữa các đợt khảo sát. Mô hình gộp hữu ích để xác định các tác động trung bình, nhưng không đủ nếu các mối quan hệ nền dịch chuyển theo thời gian. Do đó, một thiết kế kết hợp phân tích gộp và phân tích theo từng đợt là cần thiết để xác định liệu các tác động quan sát được ổn định hay phụ thuộc giai đoạn.
+
+Nghiên cứu phân tích tổng hợp gần đây củng cố mối quan tâm này. Pisani, Garcia-Bernardo, và Heemskerk (2020, SMJ) chỉ ra rằng mối quan hệ chữ U ngược giữa quốc tế hoá và hiệu quả hoạt động yếu đi đáng kể, và đôi khi biến mất, dưới các thiết kế nhận diện chặt chẽ hơn trên các mẫu gộp đa quốc gia, gợi ý rằng việc tổng hợp giữa các bối cảnh thể chế khác biệt làm gia tăng tính đều đặn về mặt dạng hàm bề ngoài. Wu, Fan, và Chen (2022, MIR) mở rộng lập luận này bằng cách cho thấy trong một phân tích tổng hợp về doanh nghiệp đa quốc gia thị trường mới nổi (EMNE) rằng bối cảnh thể chế điều tiết quy mô tác động I–P mạnh mẽ hơn so với các biến năng lực ở cấp doanh nghiệp. Tóm lại, những phát hiện này ngụ ý rằng các thiết kế dọc trong nội bộ quốc gia, giữ nguyên bối cảnh thể chế trong khi để thời gian biến đổi, cung cấp một kiểm định đáng tin cậy hơn về việc liệu chữ U ngược có phải là hiện tượng giả do gộp đa quốc gia hay là một mối quan hệ thực sự tồn tại khi môi trường thể chế tiến hoá. Bảng dữ liệu WBES ba đợt của Việt Nam (2009, 2015, 2023) cung cấp đúng thiết kế này.
+
+### 1.3 Đóng góp
+Nghiên cứu này có ba đóng góp vào tài liệu.
+
+Thứ nhất, nó tinh chỉnh cuộc tranh luận I–P bằng cách cho thấy bằng chứng từ Việt Nam ủng hộ mối quan hệ phi tuyến, nhưng tính nổi bật và khả năng quan sát của mối quan hệ đó biến đổi theo thời gian. Thay vì xem tính phi tuyến như một sự kiện cấu trúc cố định xuất hiện giống nhau trong mọi giai đoạn, phân tích cho thấy đường cong I–P phải được đọc cùng với môi trường năng lực rộng hơn.
+
+Thứ hai, nghiên cứu cải thiện tính giá trị khái niệm bằng cách tách năng lực công nghệ khỏi áp dụng công nghệ số nền tảng. Sự phân biệt này quan trọng về mặt lý thuyết vì các trữ lượng năng lực sâu hơn và mức kích hoạt số cơ bản có thể tạo ra hiệu quả qua các kênh khác nhau. Nó cũng quan trọng về mặt thực nghiệm vì hai khái niệm không thể hiện các mẫu hình giống nhau qua các đợt khảo sát ở Việt Nam.
+
+Thứ ba, nghiên cứu giới thiệu một cách diễn giải vòng đời về quốc tế hoá số. Bằng chứng gợi ý rằng năng lực số không phải là một khoản phụ trội ổn định phổ quát cũng không phải là một nguồn lực không hiệu quả đồng nhất. Thay vào đó, đó là một nguồn không đồng đều và phụ thuộc giai đoạn của tính không đồng nhất hiệu quả. Quan điểm này giúp giải thích vì sao các tác động trung bình gộp có thể cùng tồn tại với những khác biệt đáng kể theo từng đợt.
+
+Đóng góp thứ tư mang tính bối cảnh: mẫu hình thực nghiệm của Việt Nam cung cấp một phân rã tham gia-cường độ cho thấy rằng chữ U ngược được nhận diện vững chắc (điểm ngoặt 39–46 % FSTS) được dẫn dắt chủ yếu bởi biên tham gia: trong nhóm doanh nghiệp xuất khẩu, biến thiên cường độ mang lại lợi suất phẳng đến giảm dần (Panel H), đặt giới hạn cho cách đọc thông thường về mẫu hình chữ U ngược. Sự khác biệt giữa mẫu hình này và những gì được ghi nhận ở các nền kinh tế tiên tiến về số, nơi cơ chế chi phí phối hợp được làm dịu bởi hạ tầng số toàn diện, hướng tới các cơ chế cấp thể chế như những biến điều tiết ứng viên về vị trí đường cong I–P. Bằng chứng nội bối cảnh này neo vào phần chuyển tiếp số của phổ thể chế.
+
+### 1.4 Bố cục
+Phần còn lại của bài báo được tổ chức như sau. Mục 2 phát triển khung lý thuyết và các giả thuyết. Mục 3 mô tả dữ liệu, biến số và chiến lược thực nghiệm. Mục 4 trình bày kết quả. Mục 5 thảo luận hàm ý lý thuyết và quản trị. Mục 6 kết luận.
+
+## 2. Cơ sở lý thuyết và giả thuyết
+### 2.1 Quốc tế hoá và hiệu quả hoạt động kinh doanh của doanh nghiệp
+Mối quan hệ giữa quốc tế hoá và hiệu quả hoạt động kinh doanh của doanh nghiệp khó có thể là tuyến tính trong một nền kinh tế chuyển đổi như Việt Nam. Mở rộng ra nước ngoài có thể cải thiện hiệu quả thông qua phạm vi thị trường lớn hơn, đa dạng hoá và học hỏi từ các môi trường bên ngoài. Doanh nghiệp có thể sử dụng quốc tế hoá để phân bổ chi phí cố định, tiếp cận khách hàng mới và thu nhận kiến thức hỗ trợ cải tiến vận hành.
+
+Đồng thời, mức độ tham gia quốc tế sâu hơn thường tạo ra chi phí phối hợp và gánh nặng tổ chức. Doanh nghiệp phải quản lý nhiều thị trường, dung hoà các yêu cầu khách hàng đa dạng, xử lý thông tin nhiều hơn và duy trì kiểm soát quản trị lớn hơn. Khi mở rộng nước ngoài tăng cường, các chi phí này có thể tăng nhanh hơn lợi ích, tạo ra lợi suất giảm dần hoặc thậm chí suy giảm hiệu quả. Logic cơ bản này làm nền tảng cho quan điểm phi tuyến cổ điển về mối quan hệ I–P (Contractor, 2007; Hennart, 2011; Marano et al., 2016). Các cách giải thích theo quá trình về quốc tế hoá, bao gồm khung Uppsala đã cập nhật, cũng nhấn mạnh rằng lợi ích về hiệu quả và chi phí điều chỉnh diễn ra dần dần khi doanh nghiệp tích luỹ kiến thức và cam kết thị trường (Vahlne and Johanson, 2017; Knight and Liesch, 2016).
+
+Lập luận này đặc biệt khả tín ở Việt Nam vì doanh nghiệp hoạt động dưới điều kiện năng lực không đồng đều. Một số doanh nghiệp có thể chuyển hoá mở rộng nước ngoài thành lợi thế học hỏi và quy mô, trong khi những doanh nghiệp khác có thể gặp sức ép tổ chức sớm hơn. Kỳ vọng phù hợp do đó không phải là một độ dốc dương đồng nhất, mà là một mối quan hệ phi tuyến trong đó lợi ích từ quốc tế hoá trở nên ngày càng khó duy trì.
+
+Hai lực đối lập làm nền cho độ cong này.
+
+Ở mặt tích cực, cường độ xuất khẩu trực tiếp tăng tạo ra lợi thế kinh tế theo quy mô, lan toả tri thức từ khách hàng nước ngoài, và tác động học-bằng-xuất-khẩu giúp nâng năng suất (Wagner, 2007).
+
+Ở mặt tiêu cực, việc phối hợp sản xuất cho các thị trường có khoảng cách thể chế áp đặt các chi phí xử lý thông tin tăng phi tuyến: mỗi thị trường nước ngoài bổ sung thêm các yêu cầu tuân thủ, gánh nặng quan hệ khách hàng và sự phụ thuộc chuỗi cung ứng, với chi phí phối hợp biên tăng nhanh hơn lợi ích quy mô biên vượt qua một ngưỡng nhất định. Trong một bối cảnh chuyển đổi nơi các cảng, định chế tài trợ thương mại (trade finance), thị trường số và cơ chế giải quyết tranh chấp vẫn đang trưởng thành, ngưỡng này có thể ràng buộc ở mức cường độ xuất khẩu thấp hơn so với các nền kinh tế trưởng thành, làm sắc nét hơn độ cong so với đường cơ sở phân tích tổng hợp (Hennart, 2007; Wagner, 2007; Marano et al., 2016). Cơ chế là chi phí giao dịch thể chế (Williamson, 1985; Hennart, 2007): trong một nền kinh tế chuyển đổi, các lỗ hổng thực thi, thâm hụt logistics và bất đối xứng thông tin làm tăng chi phí biên của việc quản lý mỗi thị trường nước ngoài bổ sung, khiến sự suy giảm sau ngưỡng ràng buộc ở mức cường độ xuất khẩu thấp hơn so với các bối cảnh nơi chất lượng hạ tầng số và thực thi hợp đồng đã hấp thụ phần lớn ma sát này.
+
+Một cân nhắc thứ hai phát sinh từ cấu trúc của cường độ xuất khẩu trực tiếp trong WBES Việt Nam: biến FSTS bị chặn ở mức không và bị lạm phát ở mức không nghiêm trọng (tỉ lệ doanh nghiệp không xuất khẩu là 71,6 % năm 2009, 79,3 % năm 2015 và 81,2 % năm 2023; gộp 77,4 %). Mối quan hệ quốc tế hoá–hiệu quả do đó bao gồm hai biên có thể phân biệt về mặt phân tích. Biên tham gia là bước từ FSTS = 0 sang FSTS > 0, nơi doanh nghiệp vượt qua ngưỡng nhập cuộc thị trường quốc tế và hấp thụ chi phí nhập cuộc cố định. Biên cường độ là biến thiên của FSTS trong nhóm doanh nghiệp xuất khẩu.
+
+Lý thuyết dự đoán rằng lợi ích năng suất có thể tích luỹ ở cả hai biên: biên tham gia ghi nhận tác động học-bằng-xuất-khẩu và sự tiếp xúc với nhu cầu thị trường nước ngoài; biên cường độ ghi nhận lợi thế kinh tế theo quy mô ở mặt tích cực và gánh nặng phối hợp ở mặt tiêu cực (Bernard et al., 2007; Wagner, 2007). Trong các nền kinh tế chuyển đổi với hạ tầng xuất khẩu mỏng, biên tham gia khả năng là biên nâng cao năng suất chủ đạo, trong khi biên cường độ có thể cho thấy lợi suất giảm dần hoặc triệt tiêu khi đã vượt qua biên tham gia.
+
+**Giả thuyết H1.** Mối quan hệ quốc tế hoá–hiệu quả ở Việt Nam là không đơn điệu trong toàn mẫu và được hiểu tốt nhất qua một cấu trúc tham gia-cường độ trong bối cảnh xuất khẩu lạm phát ở mức không. **(H1a, biên tham gia)** Việc chuyển từ không xuất khẩu (FSTS = 0) sang xuất khẩu (FSTS > 0) có liên hệ thuận chiều với năng suất lao động, phản ánh bước nhảy về học hỏi và quy mô khi nhập cuộc. **(H1b, biên cường độ)** Trong nhóm doanh nghiệp xuất khẩu, cường độ xuất khẩu trực tiếp bổ sung được kỳ vọng cho thấy lợi suất biên yếu hơn, giảm dần hoặc không có ý nghĩa so với biên tham gia.
+
+Đặc tả chỉ riêng doanh nghiệp xuất khẩu (Panel H) cung cấp kiểm định trực tiếp nhất cho H1b: nếu độ cong chữ U ngược phản ánh biến thiên cường độ trong nhóm doanh nghiệp xuất khẩu, số hạng bậc hai phải còn ý nghĩa trong nhóm phụ này. Mẫu hình gần phẳng quan sát được trong Panel H (gộp $(\mathrm{FSTS}^{c})^2$ β = −0,200, p = .660) thay vào đó cho thấy biên tham gia (H1a) là nguồn chủ đạo của độ cong toàn mẫu.
+
+### 2.2 Năng lực công nghệ nước ngoài và tiêu chuẩn cùng hiệu quả hoạt động kinh doanh của doanh nghiệp
+Theo truyền thống Lall (1992) cho các doanh nghiệp thị trường mới nổi, bài báo này sử dụng một cách đọc chặt chẽ về đo lường đối với năng lực công nghệ: một năng lực công nghệ nước ngoài và tiêu chuẩn ghi nhận sự tiếp xúc của doanh nghiệp với các đầu vào công nghệ được xác nhận từ bên ngoài, chứng nhận chất lượng được công nhận quốc tế và công nghệ được cấp phép nước ngoài. Đây là một mặt có thể quan sát của khái niệm năng lực hấp thụ rộng hơn của Cohen và Levinthal (1990) và khái niệm năng lực động của Teece (2007), nhưng thước đo hiện tại không tuyên bố nhận diện toàn bộ trữ lượng năng lực hấp thụ; nó ghi nhận thành phần hướng ngoại của trữ lượng đó (Eisenhardt and Martin, 2000; Karna et al., 2016).
+
+Trong bối cảnh quốc tế, năng lực hướng ngoại này đặc biệt quan trọng bởi vì doanh nghiệp phải ứng phó với các thị trường xa lạ, đáp ứng tiêu chuẩn chất lượng nước ngoài và tích hợp công nghệ được cấp phép từ bên ngoài vào các thông lệ tổ chức.
+
+Một doanh nghiệp với năng lực công nghệ nước ngoài / tiêu chuẩn mạnh hơn có nhiều khả năng chuyển hoá sự tiếp xúc quốc tế thành lợi ích năng suất. Doanh nghiệp có thể điều chỉnh sản phẩm và quy trình để đáp ứng các yêu cầu nước ngoài hiệu quả hơn, tích hợp công nghệ nước ngoài được cấp phép vào sản xuất, và đối phó tốt hơn với các yêu cầu vận hành phát sinh từ hoạt động xuất khẩu. Ngay cả khi năng lực này không thay đổi cơ bản độ cong của mối quan hệ I–P, nó vẫn nên cải thiện mức độ hiệu quả tổng thể của doanh nghiệp bằng cách nâng sàn năng suất giữa các doanh nghiệp đã tiếp xúc.
+
+Điều này ngụ ý một mối liên hệ thuận chiều trực tiếp giữa năng lực công nghệ nước ngoài / tiêu chuẩn và hiệu quả hoạt động kinh doanh của doanh nghiệp ở Việt Nam. Chúng tôi xem nó ở đây như một khái niệm nên nâng năng lực hưởng lợi từ quốc tế hoá của doanh nghiệp và cũng nên hỗ trợ năng suất rộng hơn, mà không giả định rằng nó đại diện cho chiều đầy đủ về đổi mới và R&D.
+
+Về mặt vận hành, $\tilde{\mathrm{TCI}}$ chính được xây dựng từ hai chỉ báo: chứng nhận chất lượng được công nhận quốc tế (b8) và công nghệ được cấp phép nước ngoài (e6). Các chỉ báo này đo lường mức độ tiếp xúc với các kênh công nghệ và tiêu chuẩn nước ngoài chứ không phải nỗ lực R&D nội bộ hay hoạt động bằng sáng chế. Một chỉ số hợp thành cấu thành (formative composite) mở rộng đổi mới ($\mathrm{TCI}_{\text{full}}$, bổ sung đổi mới sản phẩm h1 và hoạt động R&D h8) được báo cáo trong mục 4.5 Panel A như một điều kiện biên: nếu các tác động trực tiếp suy giảm khi các chỉ báo đổi mới được bổ sung, điều này cho thấy thước đo chính cung cấp thông tin cụ thể về kênh công nghệ và tiêu chuẩn nước ngoài, chứ không phải về trữ lượng năng lực hấp thụ rộng hơn.
+
+**Giả thuyết H2.** Năng lực công nghệ nước ngoài / tiêu chuẩn ($\tilde{\mathrm{TCI}}$) có liên hệ thuận chiều với hiệu quả hoạt động kinh doanh của doanh nghiệp ở Việt Nam.
+
+### 2.3 Hiện diện số dựa trên website và hiệu quả hoạt động kinh doanh của doanh nghiệp
+$\tilde{\mathrm{DAI}}$ chính được sử dụng trong bài báo này là một thước đo hiện diện số dựa trên website: một chỉ báo nhị phân về việc doanh nghiệp có sở hữu website riêng hay không. Đây là một dấu mốc nền tảng và có thể so sánh giữa các đợt về áp dụng công nghệ số, nó không đo lường tích hợp số ở cấp độ giao dịch, hạ tầng thanh toán điện tử, hay chuyển đổi số theo nghĩa của Bharadwaj et al. (2013) / Verhoef et al. (2021) / Vial (2019). Chúng tôi sử dụng nó ở đây chính vì đó là chỉ báo số duy nhất mà công cụ WBES mang theo có thể so sánh được giữa các đợt 2009 / 2015 / 2023; các chỉ báo cấp giao dịch như tỉ trọng thanh toán điện tử chỉ xuất hiện trong bảng câu hỏi 2023 (Brouthers et al., 2016; Goldfarb and Tucker, 2019).
+
+Đối với doanh nghiệp tham gia thị trường nước ngoài, ngay cả việc áp dụng website nền tảng cũng có thể có giá trị. Một website giảm chi phí để khách hàng nước ngoài định vị doanh nghiệp, hỗ trợ giao tiếp bất đồng bộ qua các múi giờ, và phát tín hiệu về tính hợp pháp cơ bản trong giao dịch quốc tế. Phạm vi của những lợi ích này có giới hạn, một website tự nó không tích hợp giao dịch, chuỗi cung ứng hay quyết định, và mức sinh lời thực tế phụ thuộc vào việc doanh nghiệp có quy mô và thông lệ để chuyển hoá khả năng hiển thị trực tuyến thành hoạt động kinh doanh xuất khẩu hay không.
+
+Hiện diện số dựa trên website do đó nên cho thấy mối liên hệ thuận chiều trung bình với hiệu quả, nhưng không nhất thiết đồng nhất qua các đợt và giai đoạn. Giá trị thông tin của một website có thể đã dịch chuyển qua cửa sổ 2009–2023:
+
+vào năm 2009, một website là một giao diện thị trường khác biệt; đến năm 2023 nó gần với một dấu hiệu thường lệ của hiện diện số cơ bản. Phần thảo luận trong mục 5 xem xét nghiêm túc cách đọc "biến đại diện đã lỗi thời" (proxy obsolescence) như một lựa chọn thay thế cho câu chuyện thuần tuý về phụ thuộc giai đoạn.
+
+Theo Verhoef et al. (2021), năng lực số có thể được định vị trên một thứ bậc bốn tầng: Tầng 1, hiện diện số (website, email); Tầng 2, giao tiếp số và thương mại điện tử cơ bản; Tầng 3, tích hợp quy trình số (thanh toán điện tử, số hoá chuỗi cung ứng); Tầng 4, năng lực số động (ra quyết định dựa trên dữ liệu, tích hợp AI). $\tilde{\mathrm{DAI}}$ chính chỉ neo ở Tầng 1. Một phần mở rộng kiểu Tầng 3 ($\mathrm{DAI}_{\text{rich}}$) được báo cáo trong mục 4.5 Panel B cho đợt 2023, nơi các chỉ báo thanh toán điện tử trở nên sẵn có. Nhãn áp dụng website nền tảng do đó theo sát những gì khái niệm có thể thực sự nhận diện trên cửa sổ 2009–2023.
+
+Vì $\tilde{\mathrm{DAI}}$ được neo ở Tầng 1 (chỉ hiện diện website), khái niệm này không tương đương với các thước đo áp dụng công nghệ số cũng ghi nhận các chỉ báo Tầng 2 kích hoạt giao dịch như cường độ thanh toán điện tử. Trong các bối cảnh nơi hạ tầng số Tầng 2–3 đã trưởng thành và phổ cập, áp dụng công nghệ số cơ bản có thể tương tác với cường độ xuất khẩu thông qua một cơ chế khác, vận hành như một bổ trợ mở rộng có điều kiện thay vì khuếch đại căng thẳng phối hợp, vì hệ sinh thái xung quanh có thể hấp thụ xử lý giao dịch xuyên biên giới mà một website đơn lẻ không thể.
+
+**Giả thuyết H3.** Hiện diện số dựa trên website ($\tilde{\mathrm{DAI}}$) có liên hệ thuận chiều với hiệu quả hoạt động kinh doanh của doanh nghiệp ở Việt Nam, tính trung bình.
+
+### 2.4 Giá trị số phụ thuộc giai đoạn
+Tuyên bố lý thuyết cốt lõi của nghiên cứu này là áp dụng công nghệ số nền tảng phụ thuộc giai đoạn. Trong các giai đoạn đầu của quốc tế hoá, công cụ số có thể tạo ra lợi ích tương đối trực tiếp bằng cách giúp doanh nghiệp giao tiếp nhanh hơn, tiếp cận thị trường dễ hơn và quản lý giao dịch hiệu quả hơn. Tuy nhiên, ở các giai đoạn sau, lợi ích của số hoá có thể trở nên có điều kiện hơn vì doanh nghiệp đối mặt với các yêu cầu phối hợp phức tạp hơn.
+
+Trong điều kiện đó, giá trị của áp dụng công nghệ số nền tảng ngày càng phụ thuộc vào việc công cụ số có được nhúng vào các thông lệ tổ chức rộng hơn và phù hợp với quy mô xuất khẩu hay không (Banalieva and Dhanaraj, 2019; Petricevic and Teece, 2019).
+
+Lập luận này ngụ ý rằng số hoá có thể là con dao hai lưỡi trong một nền kinh tế chuyển đổi. Nó có thể tạo ra lợi ích có thể quan sát, nhưng những lợi ích đó không đồng đều và phụ thuộc vào thời điểm, quy mô và năng lực bổ trợ. Trong một số giai đoạn, áp dụng công nghệ số có thể chủ yếu vận hành như một yếu tố trực tiếp nâng cao hiệu quả. Trong các giai đoạn khác, nó có thể suy yếu, biến mất hoặc trở nên có điều kiện với mức độ quốc tế hoá của doanh nghiệp.
+
+Kỳ vọng này đặc biệt phù hợp ở Việt Nam, nơi doanh nghiệp hoạt động trong một môi trường chuyển đổi chứ không phải ổn định thể chế và năng lực hoàn toàn. Cách diễn giải vòng đời do đó phù hợp hơn cách diễn giải phụ trội đồng nhất.
+
+Hai cân nhắc khác làm sắc nét hơn dự đoán. Thứ nhất, khi nhóm doanh nghiệp xuất khẩu tập trung ở sản xuất cường độ xuất khẩu thấp, công cụ số nền tảng chủ yếu thực hiện vai trò tiếp cận thị trường: chúng giúp doanh nghiệp tìm khách hàng, truyền đạt thông tin về giá và sản phẩm, và xử lý giao dịch đơn giản. Lợi ích năng suất biên từ vai trò này là dương nhưng phân bổ rộng rãi qua phạm vi cường độ xuất khẩu.
+
+Thứ hai, khi nhóm doanh nghiệp xuất khẩu dịch chuyển về phía các doanh nghiệp hoạt động ở cường độ xuất khẩu cao hơn và tham gia phối hợp xuyên biên giới chặt chẽ hơn, các công cụ số Tầng 1–2 cùng loại bắt đầu tương tác với chi phí phối hợp biên của các thị trường nước ngoài bổ sung. Việc liệu tương tác này có tính thay thế (công cụ số làm giảm chi phí phối hợp và khuếch đại cổ tức năng suất) hay bổ sung với lợi suất giảm dần (công cụ số ở cường độ cao bộc lộ sự thiếu tích hợp sâu hơn và khuếch đại căng thẳng phối hợp) về cơ bản là một câu hỏi thực nghiệm mà bài báo này xem như kiểm định cho H4.
+
+**Giả thuyết H4 (khám phá).** Tính liên quan đến năng suất của áp dụng công nghệ số nền tảng ($\tilde{\mathrm{DAI}}$) biến đổi qua các giai đoạn quốc tế hoá và chuyển đổi thể chế. Bất kỳ điều tiết nào của đường cong cường độ xuất khẩu bởi áp dụng công nghệ số nền tảng do đó được kỳ vọng đặc trưng theo đợt khảo sát thay vì hiện diện đồng nhất xuyên suốt các giai đoạn, với khả năng phát hiện trong mẫu mạnh nhất được dự kiến vào năm 2023.
+
+
+Năng lực công nghệ ($\tilde{\mathrm{TCI}}$)
+H2
+H2 (điều tiết)
+
+Quốc tế hoá—H1 (không đơn điệu)—Hiệu quả hoạt động doanh nghiệp
+($\mathrm{FSTS}^{c}$, $(\mathrm{FSTS}^{c})^2$)
+(ln năng suất lao động)
+H4 (điều tiết, khám phá)
+H3
+
+Áp dụng công nghệ số nền tảng ($\tilde{\mathrm{DAI}}$)
+
+Các biến kiểm soát: $\ln(\mathrm{Emp})$, FirmAge, ForeignOwned, hiệu ứng cố định ngành (sector FE) [+ hiệu ứng cố định đợt khảo sát (wave FE)]
+
+![Figure 1: Conceptual model. TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/p3_vietnam/figure_1_conceptual_model.png)
+
+*Hình 1.* Mô hình khái niệm. Biến độc lập (quốc tế hoá, $\mathrm{FSTS}^{c}$ và $(\mathrm{FSTS}^{c})^2$) và biến phụ thuộc (hiệu quả hoạt động kinh doanh của doanh nghiệp, ln năng suất lao động) tạo nên trục IV–DV. Năng lực công nghệ ($\tilde{\mathrm{TCI}}$) và áp dụng công nghệ số nền tảng ($\tilde{\mathrm{DAI}}$) đóng vai trò tác động trực tiếp (H2, H3) và là các biến điều tiết của đường cong FSTS (điều tiết H2, điều tiết khám phá H4). Các biến kiểm soát được đưa vào theo dạng cộng. Hiệu ứng cố định đợt khảo sát chỉ áp dụng cho đặc tả gộp.
+
+
+## 3. Dữ liệu và phương pháp
+### 3.1 Cấu trúc dữ liệu
+Phân tích thực nghiệm sử dụng bằng chứng cấp doanh nghiệp đã được hài hoà cho Việt Nam qua ba đợt của Khảo sát Doanh nghiệp của Ngân hàng Thế giới: 2009, 2015 và 2023 (World Bank, 2010, 2016, 2024). Ước lượng mô hình riêng theo từng đợt cho phép quan sát các mối quan hệ là ổn định hay đặc trưng theo thời gian, trong khi ước lượng gộp xác định các tác động trung bình trên toàn bộ giai đoạn rộng hơn.
+
+Mẫu ước lượng hữu hiệu biến đổi giữa các đặc tả mô hình do các giá trị thiếu trong các biến năng lực. Trong các mô hình theo đợt đầy đủ, các mẫu sử dụng được là 989 quan sát cho năm 2009, 956 cho năm 2015, và 1.013 cho năm 2023. Mô hình gộp đầy đủ chứa 2.958 quan sát. Cấu trúc này cung cấp đủ biến thiên để so sánh các tác động trực tiếp và các mẫu hình có điều kiện giữa các giai đoạn.
+
+### 3.2 Biến số
+Hiệu quả hoạt động doanh nghiệp được đo bằng năng suất lao động dưới dạng logarit ($\ln(\mathrm{LP})$). Quốc tế hoá được đo bằng cường độ xuất khẩu trực tiếp (FSTS), trừ trung bình trong từng đợt ($\mathrm{FSTS}^{c}$) và bình phương ($(\mathrm{FSTS}^{c})^2$) để có thể đưa đồng thời các số hạng tuyến tính và bậc hai nhằm kiểm định tính phi tuyến.
+
+Phân tích sử dụng hai khái niệm năng lực phân biệt. Chỉ số năng lực công nghệ ($\tilde{\mathrm{TCI}}$) được diễn giải hẹp như một thước đo năng lực công nghệ nước ngoài và tiêu chuẩn, gồm chứng nhận chất lượng quốc tế và công nghệ được cấp phép nước ngoài, đại diện cho mức độ tiếp xúc của doanh nghiệp với các tiêu chuẩn công nghệ bên ngoài chứ không phải toàn bộ trữ lượng năng lực hấp thụ kiểu Cohen–Levinthal (Lall, 1992; Cohen and Levinthal, 1990). Chỉ số áp dụng công nghệ số ($\tilde{\mathrm{DAI}}$) được diễn giải hẹp như hiện diện số dựa trên website, tức áp dụng website nền tảng, và không phải là thước đo tích hợp số ở cấp giao dịch hay chuyển đổi số (Bharadwaj et al., 2013; Verhoef et al., 2021; Nambisan et al., 2019). Mỗi chỉ số hợp thành được chuẩn hoá theo z trong từng đợt để các hệ số báo cáo có thể so sánh được theo đơn vị độ lệch chuẩn; ký hiệu dấu ngã $\tilde{\mathrm{TCI}}$ và $\tilde{\mathrm{DAI}}$ đánh dấu biến thể đã chuẩn hoá được sử dụng xuyên suốt các đặc tả thực nghiệm. Sự phân tách này có chủ ý vì nghiên cứu quan tâm liệu hai miền có thể hiện vai trò thực nghiệm khác nhau hay không, đồng thời giữ chặt các nhãn khái niệm đúng với những gì các chỉ báo WBES nền thực sự đo lường.
+
+Cấu trúc cấp chỉ báo như sau. Biến kết quả là $\ln(\mathrm{LP})$ = ln(d2 / l1), trong đó d2 là tổng doanh thu hàng năm và l1 là số lao động chính thức toàn thời gian. Quốc tế hoá là FSTS = d3c / 100, trừ trung bình trong từng đợt ($\mathrm{FSTS}^{c}$) và bình phương ($(\mathrm{FSTS}^{c})^2$). Chỉ số năng lực công nghệ chính ($\tilde{\mathrm{TCI}}$) là trung bình đã chuẩn hoá theo z trong từng đợt của b8 (chứng nhận chất lượng được công nhận quốc tế) và e6 (công nghệ được cấp phép nước ngoài), mỗi chỉ báo được mã hoá lại từ dạng 1/2 sang dạng nhị phân 1/0 của WBES.
+
+Chỉ số áp dụng công nghệ số chính ($\tilde{\mathrm{DAI}}$) là chỉ báo hiện diện website c22b đã chuẩn hoá theo z trong từng đợt, mã hoá lại từ 1/2 sang 1/0. Theo đặc tả chính đã sửa đổi này, không có chỉ báo nào được dùng chung giữa các chỉ số hợp thành TCI và DAI; e6 chỉ thuộc về khái niệm năng lực, trong khi c22b đơn lẻ đóng vai trò là biến đại diện hài hoà giữa các đợt cho hiện diện số cơ bản. Các chỉ báo số cấp giao dịch có thể so sánh giữa các đợt không có trong bộ công cụ 2009 và 2015, do đó $\tilde{\mathrm{DAI}}$ nên được diễn giải như một thước đo áp dụng công nghệ số Tầng 1–2 chứ không phải một khái niệm năng lực số tích hợp đầy đủ (Bharadwaj et al., 2013; Verhoef et al., 2021).
+
+Hai chỉ số hợp thành được làm giàu được sử dụng trong các bảng kiểm tra độ vững ở mục 4.5 khi tính sẵn có của các chỉ báo cho phép. $\mathrm{TCI}_{\text{full}}$ bổ sung h1 (đã giới thiệu sản phẩm mới hoặc cải tiến đáng kể) và h8 (chỉ báo chi tiêu R&D) vào các chỉ báo TCI trong năm 2015 và 2023, nơi h1 và h8 hiện diện. $\mathrm{DAI}_{\text{rich}}$, chỉ được xây dựng cho đợt 2023, mở rộng chỉ báo hiện diện website với k33 (tỉ trọng doanh thu nhận qua thanh toán điện tử) và k38 (tỉ trọng thanh toán nhà cung cấp thực hiện qua thanh toán điện tử), ở cả dạng liên tục (k33 / 100, k38 / 100) và dạng nhị phân (k33 > 0, k38 > 0). $\mathrm{DAI}_{\text{rich}}$ do đó dịch chuyển từ hiện diện số cơ bản về phía một khái niệm áp dụng công nghệ số kích hoạt giao dịch, nhưng được xem là một kiểm tra độ vững về chiều sâu đo lường hơn là đặc tả chính vì k33 và k38 không có trong các đợt 2009 và 2015.
+
+**Ghi chú về tính so sánh giữa các tầng khái niệm.** Khái niệm $\tilde{\mathrm{DAI}}$ trong bài báo này là một chỉ báo chỉ ở Tầng 1 (nhị phân website c22b). Một chỉ số hợp thành phong phú hơn Tầng 1+2, kết hợp hiện diện website với cường độ thanh toán điện tử (k33/k38), về nguyên tắc sẽ ghi nhận các cơ chế kích hoạt giao dịch mở rộng theo các yêu cầu phối hợp xuyên biên giới, nhưng k33 và k38 không có trong các đợt 2009 và 2015 của WBES Việt Nam, loại trừ một đặc tả Tầng 1+2 giữa các đợt. Tương tác Tầng 1 đơn lẻ âm được ghi nhận ở đây ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = −0,912, p = .043) do đó được diễn giải như tính lỗi thời của tầng khái niệm: hiện diện website Tầng 1 đã trở thành một chứng chỉ ngưỡng tối thiểu trong môi trường số đang trưởng thành của Việt Nam và không còn phân biệt năng lực phối hợp xuyên biên giới của doanh nghiệp ở cường độ xuất khẩu cao. Chỉ số hợp thành kiểm tra độ vững $\mathrm{DAI}_{\text{rich}}$ có sẵn trong đợt 2023 phần nào lấp khoảng trống này cho phân tích nhạy cảm trong đợt, nhưng tính so sánh giữa các đợt giới hạn việc sử dụng nó như thước đo chính.
+
+Các biến kiểm soát theo chuẩn. Quy mô doanh nghiệp $\ln(\mathrm{Emp})$ = ln(l1). Tuổi doanh nghiệp FirmAge = năm khảo sát trừ b5 (năm thành lập). Sở hữu nước ngoài ForeignOwned = 1 nếu b2b (tỉ lệ vốn cổ phần do cá nhân hoặc doanh nghiệp nước ngoài tư nhân sở hữu) > 0. Hiệu ứng cố định ngành sử dụng chữ số đầu tiên của a4b (mã ISIC rộng) cho các đợt 2009 và 2015 và chữ số đầu tiên của a4a cho đợt 2023, nơi a4b không có trong bản công bố công khai. Các đặc tả gộp bổ sung hiệu ứng cố định đợt khảo sát để hấp thụ các khác biệt giai đoạn rộng trong mức năng suất nền.
+
+Ghi chú về xử lý mã thiếu. Các mã công cụ WBES ghi nhận các phản hồi không biết và từ chối là -9. Chúng tôi xem -9 là thiếu trước khi xây dựng bất kỳ chỉ số hợp thành nào và áp dụng loại bỏ theo dòng (listwise deletion) trên tập biến trọng tâm ($\ln(\mathrm{LP})$, $\ln(\mathrm{Emp})$, FirmAge, ForeignOwned, FSTS, $\mathrm{TCI}_{\text{thin}}$, $\mathrm{DAI}_{\text{thin}}$, sector1). Các mẫu phân tích thu được là 989, 956 và 1.013 quan sát cho các năm 2009, 2015 và 2023 tương ứng; N gộp là 2.958.
+
+### 3.3 Trình tự mô hình
+Chiến lược thực nghiệm theo một chuỗi lồng nhau các mô hình OLS được ước lượng với sai số chuẩn vững đối với phương sai thay đổi HC1 (MacKinnon & White, 1985). Đặc tả đầy đủ quan tâm là
+
+$$
+\begin{aligned}
+\ln(\mathrm{LP}_i) =\;& \alpha + \beta_1\,\mathrm{FSTS}^{c}_i + \beta_2\,(\mathrm{FSTS}^{c}_i)^2 + \beta_3\,\tilde{\mathrm{TCI}}_i + \beta_4\,\tilde{\mathrm{DAI}}_i \\
+& + \beta_5\,(\mathrm{FSTS}^{c}_i \times \tilde{\mathrm{DAI}}_i) + \beta_6\,((\mathrm{FSTS}^{c}_i)^2 \times \tilde{\mathrm{DAI}}_i) \\
+& + \boldsymbol{\gamma}^{\top}\!\mathbf{x}_i + \delta_s + \lambda_w + \varepsilon_i,
+\end{aligned}
+$$
+
+trong đó $\mathrm{FSTS}^{c}_i = \mathrm{FSTS}_i - \overline{\mathrm{FSTS}}_w$ là cường độ xuất khẩu được trung tâm hoá theo đợt, $\mathbf{x}_i$ tập hợp các biến kiểm soát cấp doanh nghiệp $\{\mathrm{lnEmp}_i, \mathrm{FirmAge}_i, \mathrm{ForeignOwned}_i\}$, $\delta_s$ là hiệu ứng cố định ngành ISIC một chữ số, và $\lambda_w$ là hiệu ứng cố định đợt khảo sát chỉ áp dụng trong đặc tả gộp. Điểm ngoặt ngụ ý của chữ U ngược là $\mathrm{FSTS}^{*} = -\hat\beta_1/(2\hat\beta_2) + \overline{\mathrm{FSTS}}_w$ khi $\hat\beta_2 < 0$ (Haans, Pieters, & He, 2016).
+
+Các đặc tả lồng nhau được ước lượng để tách các mối liên hệ trực tiếp khỏi các mối liên hệ có điều kiện:
+
+- **M0** (chỉ có các biến kiểm soát): $\ln(\mathrm{LP}_i) = \alpha + \boldsymbol{\gamma}^{\top}\!\mathbf{x}_i + \delta_s + \lambda_w + \varepsilon_i$;
+- **M1** (FSTS tuyến tính): bổ sung $\beta_1\,\mathrm{FSTS}^{c}_i$;
+- **M2** (chữ U ngược): bổ sung $\beta_2\,(\mathrm{FSTS}^{c}_i)^2$;
+- **M7** (năng lực trực tiếp kép): M2 cộng $\beta_3\,\tilde{\mathrm{TCI}}_i + \beta_4\,\tilde{\mathrm{DAI}}_i$;
+- **M8** (điều tiết DAI đầy đủ): M7 cộng hai số hạng tương tác DAI ở trên.
+
+Các khác biệt hệ số giữa các đợt được đánh giá thông qua kiểm định z Paternoster et al. (1998), $z = (\hat\beta_A - \hat\beta_B)/\sqrt{\mathrm{SE}(\hat\beta_A)^2 + \mathrm{SE}(\hat\beta_B)^2}$, với các giá trị $p$ hai phía từ phân phối chuẩn tiêu chuẩn. Kiểm định U của Lind và Mehlum (2010) được áp dụng trên khoảng $[0, 1]$ của FSTS để xác nhận chính thức hình chữ U ngược.
+
+Thiết kế này tách ba câu hỏi phân tích. Thứ nhất, mối quan hệ I–P có phi tuyến hay không? Thứ hai, $\tilde{\mathrm{TCI}}$ và $\tilde{\mathrm{DAI}}$ có liên hệ trực tiếp với hiệu quả hay không? Thứ ba, vai trò của áp dụng công nghệ số nền tảng có trở nên có điều kiện hơn khi cường độ xuất khẩu tăng hay không? Xuyên suốt, các kết quả được mô tả như các mối liên hệ thay vì tác động, nhất quán với giới hạn suy luận của dữ liệu cắt ngang lặp lại (Antonakis et al., 2010; Wooldridge, 2010).
+
+### 3.4 Tái lặp và khả năng tái tạo
+Toàn bộ quy trình được triển khai dưới dạng một sơ đồ Stata 10 bước được phân phối kèm bản thảo. Các bước xây dựng (01–04) làm sạch từng đợt WBES, hài hoà tập biến trọng tâm và nối ba đợt vào một tệp gộp với việc trung tâm hoá trong từng đợt và chuẩn hoá theo z được áp dụng lại. Các bước ước lượng (05–09) bao gồm chuỗi lồng nhau M0–M8, kiểm tra điểm ngoặt Lind–Mehlum, các kiểm định chọn lựa Heckman thủ công, các kiểm định z giữa các đợt theo Paternoster et al. (1998), và các bảng kiểm tra độ vững được mô tả trong mục 4.5. Bước xuất (10) ghi các bảng và Hình 2 hướng tới bản thảo trực tiếp từ các ước lượng đã lưu.
+
+Việc chạy lại quy trình từ một bản nhân bản mới sẽ tái tạo mọi hệ số được báo cáo bên dưới; văn bản bản thảo chứ không phải kết quả tệp do-file là đối tượng điều chỉnh khi việc chạy lại trôi khỏi văn bản. Xuyên suốt, chúng tôi tuân theo các khuyến nghị thực hành tốt nhất hiện hành về chuẩn bị dữ liệu, tính minh bạch và diễn giải tích luỹ của bằng chứng liên hệ (Aguinis et al., 2021; Shaver, 2020).
+
+
+## 4. Kết quả
+Bảng 1 báo cáo thống kê tóm tắt của mẫu phân tích theo từng đợt. Có ba mẫu hình đáng chú ý trước khi tiến hành phân tích suy luận. Tỉ lệ doanh nghiệp báo cáo bất kỳ cường độ xuất khẩu trực tiếp dương nào giảm từ 28,4 % năm 2009 xuống 20,7 % năm 2015 và 18,8 % năm 2023, phản ánh sự tái cân bằng của nhóm doanh nghiệp xuất khẩu Việt Nam từ sản xuất thâm dụng lao động sang các doanh nghiệp dịch vụ và doanh nghiệp chuỗi cung ứng liên kết FDI trong cửa sổ quan sát. Mức trung bình trong đợt của áp dụng công nghệ số cơ bản (chỉ báo website c22b) tăng từ 0,425 năm 2009 lên 0,483 năm 2015 và 0,498 năm 2023, cho thấy sự lan toả rộng rãi của hiện diện số cơ bản trong dân doanh nghiệp Việt Nam trong cửa sổ 14 năm. Mức trung bình của năng suất lao động logarit tăng đơn điệu (19,41 / 20,04 / 20,55), nhất quán với sự hội tụ năng suất rộng hơn của Việt Nam trong giai đoạn.
+
+### 4.1 Phát hiện theo từng đợt
+Đợt 2009 cho thấy một mối quan hệ quốc tế hoá–hiệu quả phi tuyến rõ rệt cùng với các tác động năng lực trực tiếp và áp dụng công nghệ số mạnh. Đặc tả chữ U ngược (M2) cho ra số hạng tuyến tính dương (β = 1,045, p = .015) và số hạng bậc hai âm (β = -1,774, p = .009); kiểm định Lind–Mehlum bác bỏ tính đơn điệu tại p = .006. Trong đặc tả trực tiếp kép (M7), cả $\tilde{\mathrm{TCI}}$ (β = 0,215, p < .001) và $\tilde{\mathrm{DAI}}$ (β = 0,175, p < .001) đều dương và có ý nghĩa cao. Điều tiết của TCI có thể phân biệt thống kê với không (M3 joint p = .040; $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ = -0,579, p = .087), nhưng điều tiết của DAI thì không (M4 joint p = .825; M8 joint đầy đủ p = .700). Về mặt thực chất, cả hai chiều năng lực trong 2009 vận hành chủ yếu như các yếu tố dịch chuyển mức (level shift) trực tiếp; chi phí phối hợp biên làm uốn cong đường I–P có liên hệ với năng lực công nghệ chứ không phải với hiện diện số cơ bản.
+
+Bảng 1: Thống kê tóm tắt mẫu phân tích theo từng đợt.
+
+| Biến số | 2009 (N=989) | 2015 (N=956) | 2023 (N=1.013) | Gộp (N=2.958) |
+| --- | --- | --- | --- | --- |
+| Ln(Năng suất lao động) | 19,412 (1,307) | 20,042 (1,460) | 20,549 (1,474) | 20,005 (1,491) |
+| FSTS (cường độ xuất khẩu) | 0,168 (0,337) | 0,119 (0,283) | 0,131 (0,311) | 0,139 (0,312) |
+| Tỉ lệ doanh nghiệp xuất khẩu | 0,284 | 0,207 | 0,188 | 0,226 |
+| $\tilde{\mathrm{TCI}}$ (trung bình) | 0,169 (0,305) | 0,142 (0,295) | 0,146 (0,276) | 0,152 (0,292) |
+| $\tilde{\mathrm{DAI}}$ (trung bình) | 0,425 (0,495) | 0,483 (0,500) | 0,498 (0,500) | 0,469 (0,499) |
+| Quy mô doanh nghiệp (ln số lao động) | 4,067 (1,493) | 3,629 (1,476) | 3,578 (1,539) | 3,758 (1,519) |
+| Tuổi doanh nghiệp (năm) | 11,900 (11,300) | 12,800 (9,600) | 14,100 (7,900) | 12,900 (9,700) |
+| Sở hữu nước ngoài (tỉ lệ) | 0,142 | 0,090 | 0,125 | 0,119 |
+
+*Ghi chú.* Báo cáo trung bình (SD). $\tilde{\mathrm{TCI}}$ và $\tilde{\mathrm{DAI}}$ là các chỉ số hợp thành cấu thành đã chuẩn hoá theo z. FSTS = tỉ lệ doanh thu nước ngoài trên tổng doanh thu. Cỡ mẫu: 2009 N=989; 2015 N=956; 2023 N=1.013; gộp N=2.958.
+
+Bảng 2: Tổng hợp hệ số trọng tâm theo từng đợt và mẫu gộp (M2 chữ U ngược, M7 trực tiếp kép, M8 với điều tiết DAI).
+
+| Số hạng | 2009 (N=989) | 2015 (N=956) | 2023 (N=1.013) | Gộp (N=2.958) |
+| --- | --- | --- | --- | --- |
+| **M2. Chữ U ngược trên FSTS** | | | | |
+| $\mathrm{FSTS}^{c}$ (tuyến tính) | +1,045* (p=.015) | +1,159* (p=.029) | +0,962* (p=.039) | +0,984*** (p<.001) |
+| $(\mathrm{FSTS}^{c})^2$ (bậc hai) | -1,823** (p=.005) | -2,115** (p=.004) | -1,686** (p=.008) | -1,909*** (p<.001) |
+| Lind–Mehlum p | <.05 | .009 | .013 | <.001 |
+| Điểm ngoặt (FSTS) | 0,287 | 0,274 | 0,285 | 0,397 |
+| **M7. Năng lực trực tiếp kép** | | | | |
+| $\tilde{\mathrm{TCI}}$ | +0,215*** (p<.001) | +0,128** (p=.010) | +0,123** (p=.006) | +0,179*** (p<.001) |
+| $\tilde{\mathrm{DAI}}$ | +0,175*** (p<.001) | -0,044 (p=.377) | +0,095* (p=.038) | +0,078** (p=.004) |
+| **M8. Với điều tiết FSTS × DAI (M8 gộp: $\mathrm{FSTS}^{c}$ β=0,845, p=.006; $(\mathrm{FSTS}^{c})^2$ β=-1,650, p<.001)** | | | | |
+| $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ | n.s. | n.s. | -0,912* (p=.043) | (lẫn lộn giữa các đợt) |
+| $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$ | n.s. | n.s. | n.s. | n.s. |
+| Kiểm định liên hợp M8 (độ cong + điều tiết) | p=.700 | n.s. | p=.062 † | — |
+
+*Ghi chú.* Hệ số từ OLS với sai số chuẩn vững đối với phương sai thay đổi HC1. Hiệu ứng cố định ngành và các biến kiểm soát cấp doanh nghiệp chuẩn ($\ln(\mathrm{Emp})$, FirmAge, ForeignOwned) được bao gồm xuyên suốt. Ý nghĩa: *** p < .001; ** p < .01; * p < .05; † p < .10. M2 = chỉ FSTS bậc hai; M7 = M2 + $\tilde{\mathrm{TCI}}$ + $\tilde{\mathrm{DAI}}$ (trực tiếp kép); M8 = M7 + $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ + $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$. Đợt 2023 là đợt duy nhất trong đó kênh điều tiết DAI của M8 có thể phát hiện được ở các ngưỡng thông thường, nhất quán với cách diễn giải tính lỗi thời của biến đại diện Tầng 1 được phát triển trong Mục 5.
+
+Đợt 2015 cho thấy độ cong rõ ràng nhưng kênh số yếu nhất. M2 cho ra $\mathrm{FSTS}^{c}$ β = 1,159 (p = .029) và $(\mathrm{FSTS}^{c})^2$ β = -2,115 (p = .004), với Lind–Mehlum p = .009. $\tilde{\mathrm{TCI}}$ vẫn giữ một mối liên hệ trực tiếp thuận chiều (β = 0,128, p = .010) nhưng chỉ ở khoảng 60 % độ lớn của năm 2009. $\tilde{\mathrm{DAI}}$ mất hoàn toàn ý nghĩa trực tiếp (β = -0,044, p = .377). Điều tiết TCI không có ý nghĩa trong đợt này (M3 joint p = .713), và điều tiết DAI cao nhất chỉ ở mức cận ngưỡng (M4 joint p = .125; M8 joint p = .093). Đọc như một đặc trưng giai đoạn, năm 2015 trông giống một đợt trong đó độ cong I–P sắc nét bất thường trong khi kênh số nén hoàn toàn, nhất quán với câu chuyện đường cong J về năng suất trong đó doanh nghiệp đầu tư vào công cụ số cơ bản trước khi các điều chỉnh tổ chức bổ trợ tạo ra lợi ích năng suất có thể đo lường được (Brynjolfsson et al., 2021).
+
+Đợt 2023 là nơi tín hiệu điều tiết số nổi lên rõ nét nhất.
+
+M2 lại chỉ ra một chữ U ngược rõ ràng ($\mathrm{FSTS}^{c}$ β = 0,962, p = .039; $(\mathrm{FSTS}^{c})^2$ β = -1,686, p = .008; Lind–Mehlum p = .013).
+
+Trong đặc tả M7 trực tiếp kép, cả hai chiều năng lực đều dương và có ý nghĩa ($\tilde{\mathrm{TCI}}$ β = 0,123, p = .006; $\tilde{\mathrm{DAI}}$ β = 0,095, p = .038). Khi các số hạng tương tác DAI được bổ sung vào M8, tương tác tuyến tính âm và có ý nghĩa riêng lẻ ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0,912, p = .043), tương tác bậc hai dương và cận ngưỡng ($(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$ = 1,043, p = .099), và kiểm định liên hợp ở mức cận ý nghĩa (M4 joint p = .102; M8 joint p = .062). Cách đọc thực chất là, đến năm 2023, áp dụng công nghệ số cơ bản trở nên có điều kiện hơn với cường độ xuất khẩu:
+
+khi các doanh nghiệp xuất khẩu vượt qua các mức FSTS vừa phải, đóng góp năng suất của hiện diện số cơ bản suy yếu và có thể khuếch đại thay vì giảm bớt gánh nặng phối hợp, nhất quán với quan điểm rằng chỉ áp dụng ở cấp website là không đủ khi năng lực số kích hoạt giao dịch và tích hợp quy trình sâu hơn vẫn đang trưởng thành.
+
+Một cách diễn giải bổ sung, nhất quán với kết quả 2SLS không có ý nghĩa cho DAI được công cụ hoá (β=0,018, p=.942; Mục 4.5 Panel K), là tính lỗi thời của biến đại diện: đến năm 2023, hiện diện website (Tầng 1, c22b) đã trở thành một chứng chỉ ngưỡng tối thiểu chứ không phải một dấu hiệu phân biệt năng lực trong môi trường số đang trưởng thành của Việt Nam. Các doanh nghiệp có và không có website không còn được phân biệt một cách có ý nghĩa về năng lực phối hợp xuyên biên giới ở tầng DAI mà c22b ghi nhận. Cách diễn giải này dự đoán tương tác DAI×FSTS âm mà không yêu cầu rằng "áp dụng công nghệ số là xấu"; thay vào đó, công cụ đã mất sức mạnh phân biệt khi áp dụng Tầng 1 đã lan toả đến mức gần phổ quát (49,8 % năm 2023 so với 42,5 % năm 2009). Các phân tích tương lai sử dụng chỉ số hợp thành $\mathrm{DAI}_{\text{rich}}$ (Tầng 1+2; Panel B, chỉ 2023) sẽ cung cấp một kiểm định trong đợt về việc liệu dấu có dịch chuyển khi các chỉ báo cường độ thanh toán điện tử được bổ sung vào công cụ Việt Nam hay không.
+
+Tóm lại, các kết quả theo từng đợt vẽ ra hai mối liên hệ đặc trưng theo đợt nhất quán với phụ thuộc giai đoạn. Năng lực công nghệ nước ngoài / tiêu chuẩn dương trong cả ba đợt với độ lớn suy giảm khiêm tốn ($\tilde{\mathrm{TCI}}$ = 0,215; 0,128; 0,123) nhưng với điều tiết sống sót trong các bảng 2009, 2023 và gộp. Hiện diện số dựa trên website theo một quỹ đạo không đơn điệu, mạnh trong năm 2009 (β = 0,175 ***), không có ý nghĩa năm 2015 (β = -0,044 n.s.), và tái xuất hiện năm 2023 (β = 0,095 *), và kênh điều tiết của nó chỉ vật chất hoá vào năm 2023. Các kiểm định z giữa các đợt theo Paternoster được báo cáo trong mục 4.5 xác nhận rằng mức giảm của DAI từ 2009 đến 2015 (z = 3,353, p < .001) và sự phục hồi từ 2015 đến 2023 (z = -2,051, p = .040) có thể phân biệt thống kê.
+
+Một kiểm định tương tác chính thức gộp đợt × biến trọng tâm (báo cáo dưới dạng Panel I trong mục 4.5) xác nhận rằng chỉ các dịch chuyển trực tiếp DAI là có thể phân biệt giữa các đợt; các khác biệt độ cong FSTS và điều tiết FSTS × DAI giữa các đợt không thể tách biệt thống kê trong đặc tả gộp bão hoà. Chúng tôi do đó đọc mẫu hình như các mối liên hệ đặc trưng theo đợt nhất quán với phụ thuộc giai đoạn, chứ không phải như một dịch chuyển cấu trúc được nhận diện đầy đủ giữa các đợt.
+
+Mẫu hình theo từng đợt mang một cách đọc thể chế. Đợt 2009 ghi nhận thời kỳ ngay sau khi gia nhập WTO, khi doanh nghiệp xuất khẩu biên vẫn nằm trong vùng chi phí nhập cuộc của đường I–P, khi trữ lượng năng lực là nguồn lực khan hiếm, và khi các công cụ số nền tảng, ngay cả ở lớp chỉ riêng website, tạo ra lợi ích trực tiếp vì lựa chọn thay thế là xử lý giao dịch bằng giấy. Đợt 2015 ghi nhận một giai đoạn chuyển đổi trong đó độ cong I–P sắc nét bất thường ($(\mathrm{FSTS}^{c})^2$ = -2,115, p = .004 trong M2) nhưng kênh số nén hoàn toàn: $\tilde{\mathrm{DAI}}$ mất ý nghĩa trực tiếp và không có điều tiết liên hợp, gợi ý rằng các khác biệt trong thành phần doanh nghiệp xuất khẩu giữa các đợt phản ánh ở việc lợi ích năng suất đến chủ yếu từ quy mô và năng lực công nghệ nước ngoài / tiêu chuẩn chứ không phải từ áp dụng công nghệ số nền tảng trong đợt này. Đợt 2023 ghi nhận sự tái xuất hiện của kênh số như một biến điều tiết chứ không phải như một khoản phụ trội trực tiếp đồng nhất: hạ tầng số sau NDTP khiến áp dụng công nghệ số nền tảng tương tác với cường độ xuất khẩu, và tương tác $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ âm cho thấy kênh có điều kiện này ràng buộc chủ yếu ở cường độ xuất khẩu cao hơn chứ không đồng nhất trên phạm vi cường độ xuất khẩu.
+
+### 4.2 Phát hiện gộp
+Các ước lượng gộp xác nhận rằng mối quan hệ quốc tế hoá–hiệu quả là phi tuyến tính trung bình. Trong đặc tả M2 gộp, số hạng tuyến tính $\mathrm{FSTS}^{c}$ dương (β = 0,984, p < .001) và số hạng bậc hai $(\mathrm{FSTS}^{c})^2$ âm (β = -1,909, p < .001); kiểm định Lind–Mehlum bác bỏ tính đơn điệu tại p < .001 với điểm ngoặt ước lượng tại 39,7 % của cường độ xuất khẩu trực tiếp. Độ cong vẫn duy trì trong đặc tả M8 đầy đủ ($\mathrm{FSTS}^{c}$ β = 0,845, p = .006; $(\mathrm{FSTS}^{c})^2$ β = -1,650, p < .001), ủng hộ H1 và đồng nhất với bằng chứng phân tích tổng hợp về hình dạng phi tuyến của lợi suất quốc tế hoá ở các doanh nghiệp thị trường mới nổi (Marano et al., 2016).
+
+Bằng chứng gộp cho thấy cả năng lực công nghệ và áp dụng công nghệ số cơ bản đều có liên hệ thuận chiều với hiệu quả hoạt động kinh doanh của doanh nghiệp tính trung bình. Trong đặc tả M7 trực tiếp kép gộp, $\tilde{\mathrm{TCI}}$ dương và có ý nghĩa cao (β = 0,179, p < .001), và $\tilde{\mathrm{DAI}}$ dương và có ý nghĩa (β = 0,078, p = .004).
+
+Trong đặc tả M8 đầy đủ, hệ số $\tilde{\mathrm{TCI}}$ về cơ bản không thay đổi (β = 0,184, p < .001), trong khi hệ số trực tiếp $\tilde{\mathrm{DAI}}$ trở nên không thể phân biệt thống kê với không (β = 0,032, p = .537) khi các số hạng tương tác được đưa vào. Tính nhạy cảm này nhất quán với cách diễn giải rằng $\tilde{\mathrm{DAI}}$ kết hợp một tác động mức dương với một tương tác âm với $\mathrm{FSTS}^{c}$ ở cường độ xuất khẩu cao hơn, đúng mẫu hình được ghi nhận trong mục 4.1 cho đợt 2023.
+
+Các số hạng tương tác gộp liên quan đến $\tilde{\mathrm{DAI}}$ mang một tín hiệu liên hợp cận ngưỡng. Tương tác tuyến tính âm nhưng không có ý nghĩa riêng lẻ ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0,448, p = .116), và tương tác bậc hai dương nhưng không có ý nghĩa ($(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$ = 0,460, p = .276). Kiểm định Wald liên hợp ở mức cận ý nghĩa (M8 joint p = .083). Tín hiệu gộp này được chi phối chủ yếu bởi đợt 2023: kiểm định điều tiết liên hợp M4 trên DAI không có ý nghĩa trong năm 2009 (p = .825) và 2015 (p = .125), và chỉ đạt mức cận ý nghĩa vào năm 2023 (M4 joint p = .102; M8 joint p = .062). Các ước lượng gộp do đó đánh giá thấp thời điểm của kênh điều tiết DAI: kênh tập trung trong đợt gần đây nhất chứ không phân bổ đồng đều xuyên cửa sổ 2009–2023.
+
+Điều tiết năng lực công nghệ, ngược lại, được phân bổ đồng đều hơn.
+
+Kiểm định liên hợp M3 trên $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ và $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{TCI}}$ có thể phân biệt thống kê với không trong ba trong bốn bảng (2009 p = .040, 2023 p = .027, gộp p = .003) và chỉ không có ý nghĩa vào năm 2015 (p = .713). Trong mẫu gộp, tương tác tuyến tính âm ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ = -0,587, p = .003) và bậc hai dương ($(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{TCI}}$ = 0,640, p = .031), cho thấy chữ U ngược phẳng lại đối với các doanh nghiệp có năng lực cao chứ không dịch chuyển về mức. Điều này nhất quán với cách đọc năng lực hấp thụ trong đó các doanh nghiệp với trữ lượng năng lực sâu hơn rút lợi ích năng suất trên phạm vi cường độ xuất khẩu rộng hơn so với các đồng nghiệp có năng lực thấp hơn (Cohen and Levinthal, 1990; Lall, 1992).
+
+Nếu phân tích dừng lại ở ước lượng gộp, người ta có thể kết luận rằng số hoá cung cấp một khoản phụ trội hiệu quả tích cực rộng rãi nhưng đơn giản về cấu trúc. Bằng chứng theo từng đợt cho thấy kết luận này sẽ không đầy đủ.
+
+Mức trung bình gộp dương cùng tồn tại với tính không đồng nhất theo thời gian đáng kể, và vai trò có điều kiện của áp dụng công nghệ số chỉ nổi lên rõ nét hơn trong đợt sau.
+
+![Figure 2a: Wave 2009: predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2a.png)
+
+*Hình 2a.* Dự đoán ln(năng suất lao động) như một hàm của FSTS cho đợt 2009 (M2). Vùng tô = khoảng tin cậy 95 % (95 % CI). Điểm ngoặt ≈ 46 % FSTS (Lind-Mehlum p = .006).
+
+![Figure 2b: Wave 2015: predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2b.png)
+
+*Hình 2b.* Dự đoán ln(năng suất lao động) như một hàm của FSTS cho đợt 2015 (M2). Điểm ngoặt ≈ 39 % FSTS (Lind-Mehlum p = .009).
+
+![Figure 2c: Wave 2023: predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2c.png)
+
+*Hình 2c.* Dự đoán ln(năng suất lao động) như một hàm của FSTS cho đợt 2023 (M2). Điểm ngoặt ≈ 42 % FSTS (Lind-Mehlum p = .013).
+
+![Figure 2d: Pooled (2009+2015+2023): predicted ln(labour productivity) vs FSTS](figures/p3_vietnam/figure_2d.png)
+
+*Hình 2d.* Dự đoán ln(năng suất lao động) như một hàm của FSTS cho mẫu gộp (M2). Điểm ngoặt ≈ 40 % FSTS (Lind-Mehlum p < .001).
+
+### 4.3 Diễn giải các kiểm định giả thuyết
+H1 được ủng hộ có điều kiện. Kiểm định Lind–Mehlum bác bỏ giả thuyết không về tính đơn điệu trong cả ba đợt (2009 p = .006, 2015 p = .009, 2023 p = .013) và trong mẫu gộp (p < .001), và các điểm ngoặt ngụ ý được tập trung chặt chẽ trong khoảng 39,3 % (2015) đến 46,2 % (2009) của cường độ xuất khẩu trực tiếp, với ước lượng gộp tại 39,7 %. Đồng thời, các mô hình chỉ riêng doanh nghiệp xuất khẩu (mục 4.5, Panel H) cho thấy độ cong này yếu đi đáng kể khi biên tham gia được loại trừ. Cách diễn giải phòng thủ nhất do đó là chữ U ngược trong toàn mẫu phản ánh một cấu trúc tham gia-cường độ kết hợp, với độ tương phản liên quan đến năng suất tập trung chủ yếu ở bước chuyển từ không xuất khẩu sang xuất khẩu chứ không phải ở độ cong mạnh trong nhóm doanh nghiệp xuất khẩu đơn lẻ.
+
+Ngưỡng gộp 39,7 % của Việt Nam (phạm vi 39,3–46,2 % giữa các đợt) thấp hơn đáng kể so với ngưỡng nhóm phụ sản xuất 47,8 % được báo cáo cho doanh nghiệp tư nhân Trung Quốc bởi Author Citation (2026 — JFAR). Khoảng cách này nhất quán với chi phí giao dịch thể chế ràng buộc sớm hơn trong bối cảnh nền kinh tế mới nổi thu nhập thấp hơn của Việt Nam: các doanh nghiệp xuất khẩu Việt Nam tiếp cận chi phí cam kết quá mức ở mức cường độ xuất khẩu tuyệt đối thấp hơn so với đối tác Trung Quốc, nơi các thể chế thực thi hợp đồng trưởng thành hơn, thị trường nội địa lớn hơn và hạ tầng hỗ trợ xuất khẩu vững chắc hơn cho phép doanh nghiệp duy trì cường độ xuất khẩu cao hơn trước khi lợi suất năng suất giảm dần. Khác biệt ngưỡng giữa các quốc gia do đó cung cấp bằng chứng giữa các bối cảnh trong WBES cho kênh bối cảnh thể chế được nhận diện trong các phân tích tổng hợp về mối quan hệ I–P (Wu, Fan, & Chen, 2022 — MIR; Marano et al., 2016).
+
+H2 được ủng hộ bởi mối liên hệ trực tiếp dương của $\tilde{\mathrm{TCI}}$ trong mẫu gộp (β = 0,179, p < .001) và trong cả ba đợt theo từng giai đoạn (2009 p < .001; 2015 p = .010; 2023 p = .006), được củng cố bởi điều tiết TCI có thể phân biệt thống kê trong ba trong bốn bảng (M3 joint p = .040, .713, .027 và .003). H3 được ủng hộ tính trung bình nhưng không đồng nhất giữa các đợt: ước lượng M7 gộp của $\tilde{\mathrm{DAI}}$ dương và có ý nghĩa (β = 0,078, p = .004), nhưng $\tilde{\mathrm{DAI}}$ biến đổi sắc nét giữa các đợt, mạnh năm 2009 (β = 0,175, p < .001), không có ý nghĩa năm 2015 (β = -0,044, p = .377) và tái xuất hiện năm 2023 (β = 0,095, p = .038). Các kiểm định z giữa các đợt theo Paternoster (mục 4.5, Panel F) xác nhận rằng mức giảm 2009 đến 2015 (z = 3,353, p < .001) và sự phục hồi 2015 đến 2023 (z = -2,051, p = .040) đều là các dịch chuyển có thể phân biệt thống kê.
+
+H4 được ủng hộ thăm dò hạn chế. Kiểm định điều tiết liên hợp của DAI không có ý nghĩa trong năm 2009 (M4 p = .825), không có ý nghĩa trong năm 2015 (M4 p = .125) và đạt mức biên ý nghĩa vào năm 2023 với tương tác riêng lẻ $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0,912 (p = .043) và kiểm định liên hợp ở M4 p = .102, M8 p = .062. Kiểm định liên hợp M8 gộp (p = .083) cũng ở mức cận ý nghĩa, được chi phối bởi đợt 2023 chứ không phải bởi một điều tiết ổn định xuyên suốt giai đoạn. Kiểm định tương tác chính thức gộp đợt × biến trọng tâm (Panel I) không phát hiện các khác biệt giữa các đợt trong các số hạng điều tiết FSTS × DAI. Chúng tôi do đó diễn giải bằng chứng như gợi ý về tính có điều kiện đặc trưng theo đợt chứ không phải xác nhận về một mẫu hình điều tiết ổn định giữa các đợt: 2023 là đợt duy nhất trong đó điều tiết số có thể phát hiện trong mẫu, và phát hiện được xem là mang tính thăm dò.
+
+Theo Haans, Pieters, và He (2016), chúng tôi phân biệt hai loại điều tiết cho các mối quan hệ I–P cong. Điều tiết loại I làm phẳng hoặc dốc thêm một độ dốc của chữ U ngược (tức là tương tác tuyến tính FSTS × DAI có ý nghĩa trong khi $\mathrm{FSTS}^2$ × DAI thì không): biến điều tiết dịch chuyển vị trí của điểm ngoặt nhưng giữ lại hình chữ U ngược. Điều tiết loại II lật hình dạng của đường cong (tức là $\mathrm{FSTS}^2$ × DAI có ý nghĩa): giá trị biến điều tiết cao so với thấp tạo ra các dạng hàm khác biệt về chất. Bằng chứng DAI năm 2023 phù hợp với Loại I: tương tác tuyến tính có ý nghĩa $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = −0,912 (p = .043) cho thấy áp dụng công nghệ số làm suy yếu độ dốc dương ở cường độ xuất khẩu thấp, kéo điểm ngoặt vào trong, trong khi tương tác $\mathrm{FSTS}^2$ × DAI vẫn không có ý nghĩa, xác nhận rằng hình chữ U ngược được giữ lại. Điều tiết Loại II, năng lực số đảo ngược độ cong cho các doanh nghiệp áp dụng cao, không được ủng hộ trong mẫu Việt Nam.
+
+![Figure 3: Moderator marginal effects. TCI and DAI interactions with FSTS (Vietnam)](figures/p3_vietnam/figure_3_moderator_marginals.png)
+
+*Hình 3.* Tác động biên của $\tilde{\mathrm{TCI}}$ và $\tilde{\mathrm{DAI}}$ lên ln(năng suất lao động) qua các mức FSTS (M7/M8). TCI cho thấy một dịch chuyển mức dương ổn định giữa các đợt; điều tiết DAI đặc trưng theo đợt, với tương tác năm 2023 cho thấy suy giảm ở FSTS cao (Điều tiết loại I: làm phẳng độ dốc, giữ nguyên hình dạng).
+
+### 4.4 Mẫu hình thực nghiệm chính: tham gia × cường độ
+Trước khi đọc bảng tiếp theo, chúng tôi neo người đọc trong cấu trúc hai biên được giới thiệu ở mục 2.1. Chữ U ngược trong toàn mẫu cung cấp thông tin về mẫu hình tham gia-cường độ kết hợp, nhưng độ cong của nó được nhận diện chủ yếu thông qua biên tham gia: chỉ ~1,0 % doanh nghiệp gộp nằm trong ±5 điểm phần trăm của các điểm ngoặt đặc trưng theo đợt (xem kiểm tra mật độ trong mục 4.5), và phần lớn khối lượng nằm ở FSTS = 0. Khi chúng tôi tái ước lượng M2 / M7 / M8 trên nhóm phụ chỉ doanh nghiệp xuất khẩu (FSTS > 0; gộp N = 669, mục 4.5 Panel H), số hạng tuyến tính $\mathrm{FSTS}^{c}$ âm (β = -0,861, p < .001) nhưng số hạng bậc hai không có ý nghĩa ($(\mathrm{FSTS}^{c})^2$ β = -0,200, p = .660, M8 joint p = .462). H1a (biên tham gia) do đó là biên liên quan đến năng suất chủ đạo trong bộ dữ liệu này; độ cong cường độ trong nhóm doanh nghiệp xuất khẩu mà H1b tuyên bố yếu đi khi biên tham gia được loại trừ. Chúng tôi giữ lại chữ U ngược trong toàn mẫu như tính đều đặn thực nghiệm tiêu điểm, nhưng diễn giải nó rõ ràng qua lăng kính cơ chế kép: phần lớn chênh lệch năng suất nằm giữa doanh nghiệp không xuất khẩu và doanh nghiệp xuất khẩu, với độ cong bổ sung hạn chế trong nhóm doanh nghiệp xuất khẩu. Bảng 1 do đó đọc như một mô tả về mẫu hình tham gia × cường độ kết hợp chứ không phải như một tuyên bố cấu trúc về độ cong cường độ trong nhóm doanh nghiệp xuất khẩu.
+
+Bảng 1 tóm tắt diễn giải định hướng của các hệ số trọng tâm từ các đặc tả đầy đủ theo từng đợt và cho mẫu gộp.
+
+
+### 4.5 Kiểm tra độ vững
+Bốn nhóm kiểm tra độ vững xem xét liệu các suy luận trung tâm có nhạy cảm với các lựa chọn đo lường, thành phần ngành, cấu trúc tham gia xuất khẩu và nội sinh hay không. Các bảng bên dưới được ước lượng trên cùng thiết kế OLS HC1 như các mô hình chính.
+
+**Panel G — Tách ngành (sản xuất so với phi sản xuất).** Để kiểm tra liệu các kênh số và năng lực có vận hành đồng nhất qua thành phần ngành rộng của nhóm doanh nghiệp xuất khẩu Việt Nam hay không, chúng tôi tái ước lượng các đặc tả M2 / M7 / M8 gộp riêng cho doanh nghiệp sản xuất (sector1 ∈ {1, 2, 3} — ISIC 15–37, N = 1.854) và doanh nghiệp phi sản xuất (tiện ích, xây dựng, bán buôn và bán lẻ, vận tải, tài chính và các dịch vụ khác; sector1 ∈ {4, 5, 6, 7}; N = 1.104).
+
+Chữ U ngược được giữ lại trong cả hai nhóm phụ nhưng sắc nét hơn ở sản xuất ($\mathrm{FSTS}^{c}$ β = 0,971, p = .001; $(\mathrm{FSTS}^{c})^2$ β = -1,883, p < .001) so với phi sản xuất ($\mathrm{FSTS}^{c}$ β = 1,615, p = .064, cận ngưỡng; $(\mathrm{FSTS}^{c})^2$ β = -2,479, p = .046).
+
+Quan trọng hơn về mặt thực chất, các kênh năng lực và áp dụng công nghệ số vận hành chủ yếu ở sản xuất.
+
+Trong đặc tả M7 trực tiếp kép, doanh nghiệp sản xuất cho thấy mối liên hệ trực tiếp $\tilde{\mathrm{TCI}}$ mạnh (β = 0,223, p < .001) và mối liên hệ trực tiếp $\tilde{\mathrm{DAI}}$ dương (β = 0,087, p = .009), trong khi doanh nghiệp phi sản xuất chỉ cho thấy tác động $\tilde{\mathrm{TCI}}$ cận ngưỡng (β = 0,090, p = .096) và tác động $\tilde{\mathrm{DAI}}$ không có ý nghĩa (β = 0,068, p = .133). Kênh điều tiết DAI tập trung ở sản xuất (M8 joint p = .103, cận ngưỡng; $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0,543, p = .079) và không có ý nghĩa đồng đều ở phi sản xuất (M8 joint p = .280). Điều tiết TCI, ngược lại, có thể phân biệt thống kê với không trong cả hai nhóm phụ (M3 joint p = .011 ở sản xuất và p = .007 ở phi sản xuất), cho thấy tác động làm phẳng độ cong của năng lực hoạt động rộng rãi trong khi kênh số vẫn đặc thù cho cơ sở doanh nghiệp xuất khẩu sản xuất. Về mặt thực chất, mẫu hình này nhất quán với quan điểm rằng áp dụng công nghệ số cơ bản tương tác với các yêu cầu phối hợp sản xuất xuyên biên giới mạnh hơn ở các ngành hàng hoá có thể giao dịch so với các ngành định hướng dịch vụ hoặc định hướng nội địa của nền kinh tế Việt Nam.
+
+**Panel H — Nhóm phụ chỉ doanh nghiệp xuất khẩu (FSTS > 0).** Vì tỉ lệ doanh nghiệp xuất khẩu là 28,4 %, 20,7 % và 18,8 % qua các đợt, chữ U ngược khớp trên toàn mẫu được nhận diện một phần bởi biên tham gia giữa FSTS = 0 và FSTS > 0. Chúng tôi tái khớp M2 / M7 / M8 trên nhóm phụ chỉ doanh nghiệp xuất khẩu (N ≈ 281 năm 2009, 198 năm 2015, 190 năm 2023, và 669 gộp). Đặc tả chỉ riêng doanh nghiệp xuất khẩu gộp cho ra số hạng tuyến tính $\mathrm{FSTS}^{c}$ âm (β = -0,861, p < .001) nhưng số hạng bậc hai không có ý nghĩa ($(\mathrm{FSTS}^{c})^2$ β = -0,200, p = .660), và kiểm định M8 liên hợp của khối độ cong cộng điều tiết không có ý nghĩa (joint F p = .462). Các ước lượng chỉ riêng doanh nghiệp xuất khẩu theo từng đợt cũng nhiễu hơn và yếu hơn riêng lẻ so với các đối tác toàn mẫu.
+
+Chúng tôi đọc điều này như chứng minh rằng chữ U ngược được ghi nhận trong đặc tả chính được nhận diện có ý nghĩa bởi biên tham gia chứ không phải hoàn toàn bởi biến thiên cường độ trong nhóm doanh nghiệp xuất khẩu; điều này nhất quán với bằng chứng mô tả ở mục 3.1 rằng cường độ xuất khẩu trực tiếp là biến lạm phát ở mức không trong dữ liệu WBES Việt Nam, với khối lượng hạn chế giữa biên tham gia và điểm ngoặt ngụ ý. Tuyên bố H1 thực chất do đó được đọc tốt nhất như một mối liên hệ không đơn điệu giữa tham gia-và-cường độ trong xuất khẩu và năng suất, chứ không phải như một tuyên bố chặt chẽ về độ cong cường độ trong nhóm doanh nghiệp xuất khẩu.
+
+**Panel I — Kiểm định tương tác đợt × biến trọng tâm gộp.** Để kiểm định chính thức liệu các mẫu hình độ cong và điều tiết theo từng đợt có thể tách biệt thống kê với các ước lượng gộp hay không, chúng tôi tái ước lượng M8 gộp với một tập tương tác đợt bão hoà trên các số hạng trọng tâm ($\mathrm{FSTS}^{c}$ × đợt, $(\mathrm{FSTS}^{c})^2$ × đợt, $\tilde{\mathrm{DAI}}$ × đợt, $\tilde{\mathrm{TCI}}$ × đợt). Các kiểm định Wald liên hợp cho thấy chỉ $\tilde{\mathrm{DAI}}$ × đợt là có thể phân biệt thống kê với mức trung bình gộp (joint p = .016); các khác biệt tác động trực tiếp giữa các đợt của $\mathrm{FSTS}^{c}$, $(\mathrm{FSTS}^{c})^2$ và $\tilde{\mathrm{TCI}}$ không thể tách biệt thống kê (tất cả joint p > .25), và các khác biệt giữa các đợt của $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ và $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$ cũng không thể tách biệt (joint p > .55). Kiểm định chính thức này xác nhận kết quả Paternoster mô tả: chỉ các dịch chuyển trực tiếp DAI là có thể phân biệt giữa các đợt, trong khi các tham số độ cong và các số hạng điều tiết FSTS × DAI chia sẻ một độ lớn gộp chung giữa các đợt.
+
+**Kiểm tra mật độ quanh điểm ngoặt.** Chúng tôi cũng báo cáo khối lượng trong mẫu của doanh nghiệp trong vùng độ cong. Xác định một dải ±5 điểm phần trăm quanh điểm ngoặt đặc trưng theo đợt (TP), tỉ lệ doanh nghiệp với FSTS trong dải là 0,6 % (6 trong 989) năm 2009, 1,2 % (11 trong 956) năm 2015, 0,9 % (9 trong 1.013) năm 2023 và 1,0 % (29 trong 2.958) gộp. Phần lớn khối lượng nằm ở FSTS = 0; các ước lượng điểm ngoặt được nhận diện chủ yếu thông qua độ tương phản giữa doanh nghiệp không xuất khẩu và doanh nghiệp xuất khẩu và đuôi phải phía trên TP, chứ không phải thông qua biến thiên dày đặc trong dải.
+
+Người đọc nên ghi nhớ cấu trúc mật độ này khi diễn giải độ lớn chính xác của điểm ngoặt.
+
+#### Độ vững đối với nội sinh và chọn lựa
+
+Ba cách tiếp cận bổ sung giải quyết các quan ngại về chọn lựa và nội sinh. Hiệu chỉnh Heckman hai bước (Panel E) cho các tỉ số Mills nghịch đảo (inverse Mills ratio, IMR) không có ý nghĩa qua tất cả các đợt (tất cả |λ| < 0,84, p > .25), cho thấy không có thiên lệch chọn lựa có thể phát hiện trên nhóm phụ doanh nghiệp xuất khẩu. Đối sánh điểm xu hướng (propensity-score matching, PSM; Panel J) xác nhận các mối liên hệ trung bình H2 và H3 mà không áp đặt tính tuyến tính: các ước lượng ATT cho sở hữu website (0,298–0,321, p < .001) và cho trạng thái công nghệ nước ngoài / chứng nhận (0,609–0,637, p < .001) nhất quán về mặt thực chất với các kết quả OLS. Các chẩn đoán cân bằng đối sánh đầy đủ và các ước lượng ATT được báo cáo trong Bảng A của Phụ lục Trực tuyến.
+
+Ước lượng bình phương nhỏ nhất hai bước (two-stage least squares, 2SLS) sử dụng tỉ lệ áp dụng đồng cấp ngành × vùng × đợt rút một (Panel K; thống kê F giai đoạn một 22–35, vượt xa ngưỡng Staiger–Stock) cho ước lượng DAI được công cụ hoá là 0,018 (p = .942) và ước lượng TCI được công cụ hoá là 1,639 (p < .001). Hệ số DAI 2SLS không có ý nghĩa là một kết quả độ vững then chốt: nó xác nhận rằng hiện diện website không gây ra cải thiện năng suất một cách khả tín ở Việt Nam 2023, củng cố cách diễn giải tính lỗi thời của biến đại diện Tầng 1 cho tương tác DAI×FSTS âm. Hệ số TCI được công cụ hoá dương mạnh (β=1,639, p<.001, lớn hơn đáng kể so với ước lượng OLS, nhất quán với hiệu chỉnh thiên lệch suy giảm) củng cố thêm rằng năng lực công nghệ nước ngoài và tiêu chuẩn là cơ chế liên quan đến năng suất vững chắc trong bối cảnh thể chế này. Tập công cụ (tỉ lệ áp dụng đồng cấp trong các ô ngành × vùng × đợt) thoả mãn tính liên quan (giai đoạn một mạnh) và loại trừ xấp xỉ (tỉ lệ áp dụng đồng cấp khó có khả năng ảnh hưởng đến năng suất doanh nghiệp riêng lẻ qua các kênh khác ngoài áp dụng DAI, có điều kiện trên các ô ngành-đợt). Các giới hạn ổn định δ của Oster (2019) (giả định R_max = 1,3 × R_controlled) xác nhận rằng không có hệ số trọng tâm nào thay đổi dấu hoặc sụp đổ về không dưới các độ lớn khả tín của chọn lựa không quan sát. Kết quả giai đoạn một 2SLS đầy đủ và các tính toán giới hạn Oster được báo cáo trong Bảng B của Phụ lục Trực tuyến.
+
+Các kiểm tra nhạy cảm đo lường xác nhận rằng các suy luận cốt lõi không phụ thuộc vào việc xây dựng chỉ số hợp thành. Làm giàu TCI với các chỉ báo R&D và đổi mới sản phẩm (Panel A) làm suy giảm hệ số TCI khiêm tốn nhưng không thay đổi các kết luận về chất. Chỉ số hợp thành $\mathrm{DAI}_{\text{rich}}$ được làm giàu (Tầng 1–2, Panel B) cho điều tiết theo cùng hướng vào năm 2023 với ý nghĩa yếu hơn. Loại trừ doanh nghiệp siêu nhỏ (Panel D) bảo tồn chữ U ngược và các mối liên hệ TCI. Các kiểm định z giữa các đợt theo Paternoster et al. (Panel F) xác nhận rằng dịch chuyển vòng đời DAI có thể phân biệt thống kê trong khi các tham số độ cong chia sẻ một độ lớn gộp chung. Các ước lượng cấp bảng được báo cáo trong các Bảng C–F của Phụ lục Trực tuyến.
+
+**Lưu ý về kiểm định bội.** Mục 4.5 báo cáo bốn bảng tường thuật (G, H, I, F) và ba nhóm kiểm tra độ vững (nội sinh/chọn lựa, nhạy cảm đo lường) qua nhiều số hạng trọng tâm. Chúng tôi không áp dụng hiệu chỉnh kiểm định bội chính thức vì các bảng kiểm tra các quan ngại nhận diện khác nhau thay vì kiểm định cùng một giả thuyết lặp đi lặp lại, nhưng người đọc nên cân nhắc bất kỳ kết quả bảng cận ngưỡng đơn lẻ nào tương ứng. Các suy luận thực chất của chúng tôi trong Mục 5 dựa vào mẫu hình qua các bảng và tính nhất quán định hướng của các ước lượng trọng tâm chứ không dựa vào ý nghĩa của bất kỳ bảng kiểm tra độ vững đơn lẻ nào.
+
+Bảng 3 tổng hợp các bảng kiểm tra độ vững được ghi nhận trong mục 4.5 trong một tổng quan duy nhất để dễ so sánh chéo.
+
+Bảng 4 báo cáo các điểm ngoặt ngụ ý của đặc tả chữ U ngược (M2) và các giá trị p Lind–Mehlum cho mỗi đợt và mẫu gộp.
+
+Bảng 3: Các bảng kiểm tra độ vững A–K và các kiểm tra bổ sung.
+
+| Bảng | Mẫu | N | Số hạng | b (SE) | p |
+| --- | --- | --- | --- | --- | --- |
+| DAI rich DAI rich bin | 2023 | 1013 | FSTSc | +1,002† (0,607) | 0,099 |
+| DAI rich DAI rich bin | 2023 | 1013 | FSTSc2 | -1,707* (0,813) | 0,036 |
+| DAI rich DAI rich bin | 2023 | 1013 | $\tilde{\mathrm{TCI}}$ | +0,129** (0,045) | 0,004 |
+| DAI rich DAI rich bin | 2023 | 1013 | DAI_rich_bin_z | -0,009 (0,100) | 0,926 |
+| DAI rich DAI rich bin | 2023 | 1013 | FSTSc_DAI_rich_bin | -0,893 (0,649) | 0,169 |
+| DAI rich DAI rich bin | 2023 | 1013 | FSTSc2_DAI_rich_bin | +1,038 (0,878) | 0,237 |
+| DAI rich DAI rich bin | 2023 | 1013 | joint_F_DAI_rich_interactions | +1,4181 | 0,243 |
+| DAI rich DAI rich cont | 2023 | 1013 | FSTSc | +1,032† (0,569) | 0,070 |
+| DAI rich DAI rich cont | 2023 | 1013 | FSTSc2 | -1,744* (0,757) | 0,021 |
+| DAI rich DAI rich cont | 2023 | 1013 | $\tilde{\mathrm{TCI}}$ | +0,126** (0,045) | 0,005 |
+| DAI rich DAI rich cont | 2023 | 1013 | DAI_rich_cont_z | -0,004 (0,083) | 0,957 |
+| DAI rich DAI rich cont | 2023 | 1013 | FSTSc_DAI_rich_cont | -0,933† (0,526) | 0,076 |
+| DAI rich DAI rich cont | 2023 | 1013 | FSTSc2_DAI_rich_cont | +1,052 (0,722) | 0,145 |
+| DAI rich DAI rich cont | 2023 | 1013 | joint_F_DAI_rich_interactions | +2,3148† | 0,099 |
+| DAI thin on rich sample 2023 | 2023 | 1013 | FSTSc | +1,072* (0,493) | 0,030 |
+| DAI thin on rich sample 2023 | 2023 | 1013 | FSTSc2 | -1,793** (0,666) | 0,007 |
+| DAI thin on rich sample 2023 | 2023 | 1013 | $\tilde{\mathrm{TCI}}$ | +0,129** (0,045) | 0,004 |
+| DAI thin on rich sample 2023 | 2023 | 1013 | $\tilde{\mathrm{DAI}}$ | -0,011 (0,073) | 0,880 |
+| DAI thin on rich sample 2023 | 2023 | 1013 | FSTSc_DAIz | -0,912* (0,450) | 0,043 |
+| DAI thin on rich sample 2023 | 2023 | 1013 | FSTSc2_DAIz | +1,043† (0,633) | 0,100 |
+| DAI thin on rich sample 2023 | 2023 | 1013 | joint_F_DAI_thin_interactions | +2,7833† | 0,062 |
+| IV 2SLS K DAI | gộp | 2298 | $\tilde{\mathrm{DAI}}$ (công cụ hoá) | +0,018 (0,249) | 0,942 |
+| IV 2SLS K TCI | gộp | 2298 | $\tilde{\mathrm{TCI}}$ (công cụ hoá) | +1,639*** (0,299) | 0,000 |
+| PSM J NN1 caliper005 | gộp | 1085 | ATT_DAI_treat | +0,298*** (0,061) | 0,000 |
+| PSM J NN1 caliper005 | gộp | 644 | ATT_TCI_treat | +0,637*** (0,077) | 0,000 |
+| PSM J kernel bw006 | gộp | 1085 | ATT_DAI_treat | +0,321*** (0,043) | 0,000 |
+| PSM J kernel bw006 | gộp | 639 | ATT_TCI_treat | +0,609*** (0,056) | 0,000 |
+| TCI full direct | 2015 | 956 | FSTSc | +1,139* (0,539) | 0,035 |
+| TCI full direct | 2015 | 956 | FSTSc2 | -2,088** (0,748) | 0,005 |
+| TCI full direct | 2015 | 956 | TCI_full_z | +0,056 (0,049) | 0,253 |
+| TCI full direct | 2015 | 956 | $\tilde{\mathrm{DAI}}$ | -0,033 (0,051) | 0,520 |
+| TCI full direct | 2023 | 1013 | FSTSc | +0,675 (0,475) | 0,155 |
+| TCI full direct | 2023 | 1013 | FSTSc2 | -1,266* (0,646) | 0,050 |
+| TCI full direct | 2023 | 1013 | TCI_full_z | +0,096* (0,043) | 0,024 |
+| TCI full direct | 2023 | 1013 | $\tilde{\mathrm{DAI}}$ | +0,097* (0,046) | 0,037 |
+| TCI full moderation | 2015 | 956 | FSTSc | +1,347* (0,598) | 0,024 |
+| TCI full moderation | 2015 | 956 | FSTSc2 | -2,350** (0,829) | 0,005 |
+| TCI full moderation | 2015 | 956 | TCI_full_z | +0,004 (0,072) | 0,960 |
+| TCI full moderation | 2015 | 956 | FSTSc_TCIfull | -0,545 (0,495) | 0,270 |
+| TCI full moderation | 2015 | 956 | FSTSc2_TCIfull | +0,641 (0,694) | 0,356 |
+| TCI full moderation | 2015 | 956 | joint_F_TCI_full_interactions | +0,7096 | 0,492 |
+| TCI full moderation | 2023 | 1013 | FSTSc | +0,949† (0,574) | 0,098 |
+| TCI full moderation | 2023 | 1013 | FSTSc2 | -1,579* (0,777) | 0,042 |
+| TCI full moderation | 2023 | 1013 | TCI_full_z | +0,117* (0,049) | 0,016 |
+| TCI full moderation | 2023 | 1013 | FSTSc_TCIfull | -0,317 (0,314) | 0,314 |
+| TCI full moderation | 2023 | 1013 | FSTSc2_TCIfull | +0,185 (0,431) | 0,668 |
+| TCI full moderation | 2023 | 1013 | joint_F_TCI_full_interactions | +1,8868 | 0,152 |
+| common N reconciled 2023 | M8 | 1013 | FSTSc | +1,072* (0,493) | 0,030 |
+| common N reconciled 2023 | M8 | 1013 | FSTSc2 | -1,793** (0,666) | 0,007 |
+| common N reconciled 2023 | M8 | 1013 | $\tilde{\mathrm{TCI}}$ | +0,129** (0,045) | 0,004 |
+| common N reconciled 2023 | M8 | 1013 | $\tilde{\mathrm{DAI}}$ | -0,011 (0,073) | 0,880 |
+| common N reconciled 2023 | M8 | 1013 | FSTSc_DAIz | -0,912* (0,450) | 0,043 |
+| common N reconciled 2023 | M8 | 1013 | FSTSc2_DAIz | +1,043† (0,633) | 0,100 |
+| common N reconciled 2023 | 2023 | 1013 | joint_F_DAI_M8 | +2,7833† | 0,062 |
+| exporter only | M2 | 281 | FSTSc | -0,611* (0,242) | 0,012 |
+| exporter only | M2 | 281 | FSTSc2 | +1,674* (0,853) | 0,050 |
+| exporter only | M7 | 281 | FSTSc | -0,409† (0,238) | 0,085 |
+| exporter only | M7 | 281 | FSTSc2 | +1,585† (0,854) | 0,064 |
+| exporter only | M7 | 281 | $\tilde{\mathrm{TCI}}$ | +0,149† (0,077) | 0,053 |
+| exporter only | M7 | 281 | $\tilde{\mathrm{DAI}}$ | +0,192* (0,090) | 0,034 |
+| exporter only | M8 | 281 | FSTSc | -0,403 (0,262) | 0,124 |
+| exporter only | M8 | 281 | FSTSc2 | +1,377 (0,918) | 0,134 |
+| exporter only | M8 | 281 | $\tilde{\mathrm{TCI}}$ | +0,147† (0,077) | 0,057 |
+| exporter only | M8 | 281 | $\tilde{\mathrm{DAI}}$ | +0,075 (0,143) | 0,598 |
+| exporter only | M8 | 281 | FSTSc_DAIz | +0,078 (0,238) | 0,743 |
+| exporter only | M8 | 281 | FSTSc2_DAIz | +0,802 (0,874) | 0,359 |
+| exporter only | 2009_exp | 281 | joint_F_DAI_M8 | +0,4235 | 0,655 |
+| exporter only | M2 | 198 | FSTSc | -0,773** (0,290) | 0,008 |
+| exporter only | M2 | 198 | FSTSc2 | -2,204* (0,957) | 0,021 |
+| exporter only | M7 | 198 | FSTSc | -0,771** (0,296) | 0,009 |
+| exporter only | M7 | 198 | FSTSc2 | -2,619** (0,957) | 0,006 |
+| exporter only | M7 | 198 | $\tilde{\mathrm{TCI}}$ | +0,242*** (0,071) | 0,001 |
+| exporter only | M7 | 198 | $\tilde{\mathrm{DAI}}$ | -0,212† (0,112) | 0,059 |
+| exporter only | M8 | 198 | FSTSc | -0,672* (0,301) | 0,025 |
+| exporter only | M8 | 198 | FSTSc2 | -2,719* (1,147) | 0,018 |
+| exporter only | M8 | 198 | $\tilde{\mathrm{TCI}}$ | +0,237*** (0,071) | 0,001 |
+| exporter only | M8 | 198 | $\tilde{\mathrm{DAI}}$ | -0,177 (0,202) | 0,383 |
+| exporter only | M8 | 198 | FSTSc_DAIz | -0,335 (0,277) | 0,226 |
+| exporter only | M8 | 198 | FSTSc2_DAIz | -0,172 (1,096) | 0,876 |
+| exporter only | 2015_exp | 198 | joint_F_DAI_M8 | +0,7344 | 0,481 |
+| exporter only | M2 | 190 | FSTSc | -0,910** (0,335) | 0,007 |
+| exporter only | M2 | 190 | FSTSc2 | -1,461 (1,160) | 0,208 |
+| exporter only | M7 | 190 | FSTSc | -0,856* (0,344) | 0,013 |
+| exporter only | M7 | 190 | FSTSc2 | -1,397 (1,171) | 0,233 |
+| exporter only | M7 | 190 | $\tilde{\mathrm{TCI}}$ | +0,061 (0,067) | 0,366 |
+| exporter only | M7 | 190 | $\tilde{\mathrm{DAI}}$ | +0,037 (0,086) | 0,665 |
+| exporter only | M8 | 190 | FSTSc | -1,079** (0,332) | 0,001 |
+| exporter only | M8 | 190 | FSTSc2 | -2,921** (1,094) | 0,008 |
+| exporter only | M8 | 190 | $\tilde{\mathrm{TCI}}$ | +0,080 (0,067) | 0,234 |
+| exporter only | M8 | 190 | $\tilde{\mathrm{DAI}}$ | -0,271† (0,141) | 0,054 |
+| exporter only | M8 | 190 | FSTSc_DAIz | +0,510† (0,294) | 0,083 |
+| exporter only | M8 | 190 | FSTSc2_DAIz | +2,676** (1,021) | 0,009 |
+| exporter only | 2023_exp | 190 | joint_F_DAI_M8 | +3,4455* | 0,034 |
+| exporter only | M2 | 669 | FSTSc | -0,861*** (0,167) | 0,000 |
+| exporter only | M2 | 669 | FSTSc2 | -0,200 (0,581) | 0,730 |
+| exporter only | M7 | 669 | FSTSc | -0,704*** (0,173) | 0,000 |
+| exporter only | M7 | 669 | FSTSc2 | -0,172 (0,577) | 0,765 |
+| exporter only | M7 | 669 | $\tilde{\mathrm{TCI}}$ | +0,178*** (0,042) | 0,000 |
+| exporter only | M7 | 669 | $\tilde{\mathrm{DAI}}$ | +0,066 (0,057) | 0,247 |
+| exporter only | M8 | 669 | FSTSc | -0,683*** (0,183) | 0,000 |
+| exporter only | M8 | 669 | FSTSc2 | -0,497 (0,643) | 0,440 |
+| exporter only | M8 | 669 | $\tilde{\mathrm{TCI}}$ | +0,179*** (0,042) | 0,000 |
+| exporter only | M8 | 669 | $\tilde{\mathrm{DAI}}$ | -0,025 (0,104) | 0,809 |
+| exporter only | M8 | 669 | FSTSc_DAIz | -0,001 (0,164) | 0,995 |
+| exporter only | M8 | 669 | FSTSc2_DAIz | +0,702 (0,625) | 0,261 |
+| exporter only | pooled_exp | 669 | joint_F_DAI_M8 | +0,7733 | 0,462 |
+| micro excluded pooled | pooled_l1ge10 | 2473 | FSTSc | +0,794** (0,301) | 0,008 |
+| micro excluded pooled | pooled_l1ge10 | 2473 | FSTSc2 | -1,647*** (0,434) | 0,000 |
+| micro excluded pooled | pooled_l1ge10 | 2473 | $\tilde{\mathrm{TCI}}$ | +0,188*** (0,028) | 0,000 |
+| micro excluded pooled | pooled_l1ge10 | 2473 | $\tilde{\mathrm{DAI}}$ | +0,054 (0,051) | 0,288 |
+| micro excluded pooled | pooled_l1ge10 | 2473 | FSTSc_DAIz | -0,387 (0,281) | 0,169 |
+| micro excluded pooled | pooled_l1ge10 | 2473 | FSTSc2_DAIz | +0,405 (0,416) | 0,330 |
+| micro excluded pooled | pooled_l1ge10 | 2473 | joint_F_DAI_interactions | +1,7902 | 0,167 |
+| sector split manufacturing | M2 | 1854 | FSTSc | +0,971** (0,296) | 0,001 |
+| sector split manufacturing | M2 | 1854 | FSTSc2 | -1,883*** (0,426) | 0,000 |
+| sector split manufacturing | M7 | 1854 | FSTSc | +0,662* (0,296) | 0,025 |
+| sector split manufacturing | M7 | 1854 | FSTSc2 | -1,382** (0,428) | 0,001 |
+| sector split manufacturing | M7 | 1854 | $\tilde{\mathrm{TCI}}$ | +0,223*** (0,033) | 0,000 |
+| sector split manufacturing | M7 | 1854 | $\tilde{\mathrm{DAI}}$ | +0,087** (0,033) | 0,009 |
+| sector split manufacturing | M8 | 1854 | FSTSc | +0,840* (0,328) | 0,010 |
+| sector split manufacturing | M8 | 1854 | FSTSc2 | -1,624*** (0,473) | 0,001 |
+| sector split manufacturing | M8 | 1854 | $\tilde{\mathrm{TCI}}$ | +0,228*** (0,033) | 0,000 |
+| sector split manufacturing | M8 | 1854 | $\tilde{\mathrm{DAI}}$ | +0,034 (0,057) | 0,552 |
+| sector split manufacturing | M8 | 1854 | FSTSc_DAIz | -0,543† (0,310) | 0,079 |
+| sector split manufacturing | M8 | 1854 | FSTSc2_DAIz | +0,626 (0,457) | 0,170 |
+| sector split manufacturing | gộp | 1854 | joint_F_DAI_interactions_M8 | +2,2806 | 0,102 |
+| sector split manufacturing | gộp | 1854 | joint_F_TCI_interactions_M3 | +4,5710* | 0,011 |
+| sector split non manufacturing | M2 | 1104 | FSTSc | +1,615† (0,870) | 0,064 |
+| sector split non manufacturing | M2 | 1104 | FSTSc2 | -2,479* (1,244) | 0,046 |
+| sector split non manufacturing | M7 | 1104 | FSTSc | +1,350 (0,890) | 0,130 |
+| sector split non manufacturing | M7 | 1104 | FSTSc2 | -2,039 (1,275) | 0,110 |
+| sector split non manufacturing | M7 | 1104 | $\tilde{\mathrm{TCI}}$ | +0,090† (0,054) | 0,096 |
+| sector split non manufacturing | M7 | 1104 | $\tilde{\mathrm{DAI}}$ | +0,068 (0,045) | 0,133 |
+| sector split non manufacturing | M8 | 1104 | FSTSc | +1,387 (0,868) | 0,110 |
+| sector split non manufacturing | M8 | 1104 | FSTSc2 | -2,115† (1,237) | 0,087 |
+| sector split non manufacturing | M8 | 1104 | $\tilde{\mathrm{TCI}}$ | +0,091† (0,054) | 0,091 |
+| sector split non manufacturing | M8 | 1104 | $\tilde{\mathrm{DAI}}$ | +0,060 (0,122) | 0,622 |
+| sector split non manufacturing | M8 | 1104 | FSTSc_DAIz | -0,190 (0,719) | 0,791 |
+| sector split non manufacturing | M8 | 1104 | FSTSc2_DAIz | -0,341 (1,065) | 0,749 |
+| sector split non manufacturing | gộp | 1104 | joint_F_DAI_interactions_M8 | +1,2729 | 0,280 |
+| sector split non manufacturing | gộp | 1104 | joint_F_TCI_interactions_M3 | +4,9441** | 0,007 |
+| wave interaction pooled | gộp | 2958 | joint_F_FSTSc_x_wave | +0,8901 | 0,411 |
+| wave interaction pooled | gộp | 2958 | joint_F_FSTSc2_x_wave | +0,7756 | 0,461 |
+| wave interaction pooled | gộp | 2958 | joint_F_DAIz_x_wave | +4,1656* | 0,016 |
+| wave interaction pooled | gộp | 2958 | joint_F_TCIz_x_wave | +1,1156 | 0,328 |
+| wave interaction pooled | gộp | 2958 | joint_F_all_wave_interactions | +2,0664* | 0,036 |
+
+*Ghi chú.* Các bảng kiểm tra độ vững: $\mathrm{TCI}_{\text{full}}$ = chỉ số hợp thành TCI rộng hơn; $\mathrm{DAI}_{\text{rich}}$ = chỉ số hợp thành DAI giàu hơn (chỉ 2023). Sai số chuẩn vững HC1. † p < .10; * p < .05; ** p < .01; *** p < .001.
+
+Bảng 4: Các điểm ngoặt ngụ ý của chữ U ngược (đặc tả M2).
+
+| Mẫu | Điểm ngoặt (FSTS) | 95% CI | Lind-Mehlum p | Phạm vi FSTS |
+| --- | --- | --- | --- | --- |
+| 2009 (N=989) | 46,2% | [37,4%, 55,1%] | 0,006** | [0%, 100%] |
+| 2015 (N=956) | 39,3% | [30,3%, 48,4%] | 0,009** | [0%, 100%] |
+| 2023 (N=1.013) | 41,6% | [31,7%, 51,5%] | 0,013* | [0%, 100%] |
+| Gộp (N=2.958) | 39,7% | [34,0%, 45,5%] | 0,000*** | [0%, 100%] |
+
+*Ghi chú.* Các điểm ngoặt được ước lượng từ M2 (đặc tả FSTS bậc hai). Giá trị p của kiểm định Lind-Mehlum (2010) cho hình chữ U ngược. Khoảng tin cậy 95 % được tính bằng phương pháp delta (delta method). Cả bốn mẫu đều xác nhận chữ U ngược với điểm ngoặt trong phạm vi 39–46 % FSTS.
+
+**Kiểm định ổn định hệ số giữa các đợt theo Paternoster (1998) (M7):**
+
+| So sánh | FSTSc z (p) | FSTSc² z (p) | $\tilde{\mathrm{TCI}}$ z (p) | $\tilde{\mathrm{DAI}}$ z (p) |
+| --- | --- | --- | --- | --- |
+| 2009 vs. 2015 | z=-0,61 (p=0,543) | z=0,96 (p=0,337) | z=1,29 (p=0,198) | z=3,35 (p=0,001) |
+| 2009 vs. 2023 | z=0,09 (p=0,926) | z=0,14 (p=0,888) | z=1,42 (p=0,155) | z=1,28 (p=0,201) |
+| 2015 vs. 2023 | z=0,66 (p=0,509) | z=-0,84 (p=0,400) | z=0,07 (p=0,947) | z=-2,05 (p=0,040) |
+
+*Ghi chú.* Kiểm định tính bằng nhau của hệ số giữa các đợt theo Paternoster et al. (1998). Không bác bỏ chỉ ra tính ổn định của hệ số giữa các đợt. So sánh FSTSc và FSTSc² ủng hộ tính không đồng nhất đặc trưng theo đợt trong các tác động trực tiếp TCI và DAI nhưng không trong các tham số độ cong I–P.
+
+| Mẫu | N | Điểm ngoặt (FSTS thô) | 95 % CI phương pháp delta | Lind–Mehlum p |
+| --- | --- | --- | --- | --- |
+| Việt Nam 2009 | 989 | 46,2 % | [37,4 %, 55,1 %] | .006 |
+| Việt Nam 2015 | 956 | 39,3 % | [30,3 %, 48,4 %] | .009 |
+| Việt Nam 2023 | 1.013 | 41,6 % | [31,7 %, 51,5 %] | .013 |
+| Việt Nam gộp | 2.958 | 39,7 % | [34,0 %, 45,5 %] | < .001 |
+
+Các điểm ngoặt được rút ra từ đặc tả chữ U ngược M2 ($\ln(\mathrm{LP})$ = β0 + β1 $\mathrm{FSTS}^{c}$ + β2 $(\mathrm{FSTS}^{c})^2$ + biến kiểm soát + sector FE [+ wave FE trong mẫu gộp]) và được biến đổi ngược về thang FSTS thô. Khoảng tin cậy 95 % sử dụng phương pháp delta trên phạm vi $\mathrm{FSTS}^{c}$ trong mẫu. Các giá trị p Lind–Mehlum theo kiểm định điểm cuối kiểu Sasabuchi cho chữ U ngược trên phạm vi FSTS quan sát được (Lind and Mehlum, 2010). Nguồn: Khảo sát Doanh nghiệp của Ngân hàng Thế giới; tính toán của các tác giả.
+
+
+## 5. Thảo luận
+### 5.1 Diễn giải lại năng lực số ở Việt Nam
+Hàm ý trung tâm của các phát hiện là áp dụng công nghệ số nền tảng ở Việt Nam không nên được diễn giải như một khoản phụ trội năng suất phổ quát và ổn định theo thời gian. Mặc dù cả $\tilde{\mathrm{TCI}}$ và $\tilde{\mathrm{DAI}}$ đều dương tính trung bình trong các đặc tả gộp, vai trò thực nghiệm của chúng khác biệt đáng kể giữa các đợt và giữa các chiến lược nhận diện (Vahlne, 2020; Stallkamp and Schotter, 2021). Điều này có nghĩa là áp dụng công nghệ số dựa trên website không đơn giản là một lợi thế nền không đổi; nó là một nguồn nhạy cảm với bối cảnh và phụ thuộc giai đoạn của tính không đồng nhất hiệu quả.
+
+Dấu âm của tương tác $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ vào năm 2023, nơi tính liên quan đến năng suất của DAI suy giảm ở cường độ xuất khẩu cao hơn, nhất quán với biên Tầng 1 của khái niệm: một website đơn lẻ không thể quản lý mật độ giao dịch của các hoạt động cường độ xuất khẩu cao mà không có hỗ trợ thanh toán điện tử và tích hợp quy trình. Điều này tương phản với các bối cảnh nơi cùng khái niệm bao gồm các chỉ báo kích hoạt giao dịch Tầng 2, nơi cường độ xuất khẩu cao hơn có thể thay vào đó khuếch đại lợi nhuận năng suất từ áp dụng công nghệ số.
+
+Cách diễn giải này giúp dung hoà sự cùng tồn tại của các tác động gộp dương và các kết quả theo từng đợt không đồng đều. Mô hình gộp ghi nhận xu hướng trung bình rằng năng lực mạnh hơn có liên hệ với hiệu quả tốt hơn. Các mô hình theo từng đợt cho thấy xu hướng này không đồng đều mạnh trong mọi giai đoạn. Giá trị của năng lực số do đó phụ thuộc vào vị trí của doanh nghiệp trong vòng đời rộng hơn của quốc tế hoá và chuyển đổi.
+
+### 5.2 Vì sao phân biệt giữa TCI và DAI lại quan trọng
+Các kết quả củng cố luận điểm lý thuyết về việc tách năng lực công nghệ nước ngoài / tiêu chuẩn khỏi áp dụng công nghệ số nền tảng. Bằng chứng PSM và IV trong mục 4.5 (Panel J và K) làm rõ hơn sự phân biệt (Karna et al., 2016).
+
+TCI vững chắc dưới cả đối sánh và công cụ hoá: ước lượng 2SLS của $\tilde{\mathrm{TCI}}$ là 1,64 (p < .001) dưới một công cụ mạnh (giai đoạn một F = 22,1), và ATT đối sánh cho xử lý chứng nhận / công nghệ nước ngoài là 0,61–0,64 (p < .001) trên một mẫu đối sánh khoảng 640 doanh nghiệp.
+
+Ngược lại, mối liên hệ trực tiếp DAI được OLS phát hiện được tái tạo dưới PSM (ATT đối sánh = 0,30–0,32, p < .001) nhưng suy giảm về không dưới 2SLS (β = 0,02, p = .94). Tóm lại, các kết quả gợi ý rằng năng lực công nghệ nước ngoài / tiêu chuẩn cư xử như một kênh năng suất vững hơn về nhận diện, trong khi hiện diện số dựa trên website cư xử như một dấu hiệu nhạy cảm hơn với bối cảnh và chọn lựa của tính không đồng nhất hiệu quả.
+
+Phần mở rộng $\mathrm{DAI}_{\text{rich}}$ được báo cáo trong mục 4.5 Panel B củng cố cách diễn giải khái niệm thay vì làm suy yếu nó. Mặc dù $\tilde{\mathrm{DAI}}$ chính neo vào c22b (hiện diện website) đến năm 2023 gần với một chỉ báo cơ sở Tầng 1, phần mở rộng $\mathrm{DAI}_{\text{rich}}$ chỉ có vào năm 2023, kết hợp c22b với tỉ trọng thanh toán điện tử (k33, k38), tạo ra một mẫu hình điều tiết theo cùng hướng và có ý nghĩa cận ngưỡng tương tự ($\mathrm{FSTS}^{c}$ × DAI_rich_cont_z = -0,93, M8 joint p = .099). Dù áp dụng công nghệ số được đo bằng chỉ báo website Tầng 1 mỏng hay bằng các chỉ báo giao dịch Tầng 2 / 3 sâu hơn, mẫu hình điều tiết năm 2023 đi theo cùng hướng. Bằng chứng cùng hướng này bảo vệ chống lại cách đọc tính lỗi thời của biến đại diện cho mẫu hình DAI một cách riêng lẻ: ngay cả dưới một thước đo phong phú hơn khó bị bác bỏ như một dấu hiệu thường lệ, điều tiết trong năm 2023 vẫn nhất quán với phát hiện chính.
+
+Sự khác biệt giữa TCI và DAI quan trọng vì hai khái niệm không cư xử giống nhau qua các giai đoạn hoặc dưới các chiến lược nhận diện khác nhau.
+
+$\tilde{\mathrm{TCI}}$ cư xử như một năng lực công nghệ nước ngoài / tiêu chuẩn vững chắc với mối liên hệ năng suất sống sót qua cả PSM và 2SLS. $\tilde{\mathrm{DAI}}$ cư xử như một dấu hiệu nhạy cảm với bối cảnh với mối liên hệ năng suất được ghi nhận dưới so sánh đối sánh nhưng không dưới biến thiên công cụ ngoại sinh. Điều này ủng hộ một cách tiếp cận cẩn trọng hơn đối với số hoá trong nghiên cứu kinh doanh quốc tế, một cách tiếp cận phân biệt giữa kích hoạt số cơ bản (dễ bị nhiễm bởi chọn lựa trên các biến quan sát được) và chiều sâu công nghệ rộng hơn (vững hơn về nhận diện), thay vì gộp chúng vào một nhãn duy nhất.
+
+### 5.3 Ý nghĩa của giai đoạn lõm 2015
+Trước khi viện dẫn câu chuyện hạ tầng vĩ mô, cần neo kết quả không có ý nghĩa năm 2015 vào cấu trúc vi mô của bản thân mẫu. Như báo cáo trong Bảng 1, tỉ lệ doanh nghiệp xuất khẩu giảm từ 28,4 % năm 2009 xuống 20,7 % năm 2015, một sự rút lui có chọn lọc để lại một nhóm tồn tại tập trung không cân đối ở các hoạt động lắp ráp thâm dụng lao động và phụ thuộc OEM. Đối với một nhà thầu phụ dệt may hoặc điện tử đang chờ đơn hàng từ một nguyên đơn nước ngoài, một website doanh nghiệp cơ bản vận hành như một tờ bướm số chứ không phải một công cụ phối hợp nâng cao năng suất: nó phát tín hiệu hiện diện nhưng không tối ưu hoá dòng chuỗi cung ứng, không kích hoạt tích hợp dữ liệu ở cấp giao dịch, hay thay thế các giao diện số do người mua thượng nguồn kiểm soát. Cơ chế thành phần nhóm này, không chỉ khoảng cách hạ tầng vĩ mô, giúp giải thích vì sao hệ số DAI dựa trên website nén về không vào năm 2015 ngay cả khi độ cong chữ U ngược vẫn còn ý nghĩa thống kê. Kênh tính lỗi thời của biến đại diện củng cố cách đọc này: đến năm 2015, sở hữu website đã lan toả đủ để chỉ báo c22b không còn có thể tách biệt các doanh nghiệp xuất khẩu có năng lực số khỏi sự hiện diện web thường lệ, làm suy giảm thêm mối liên hệ đo lường được với năng suất. Chúng tôi do đó xem các chỉ báo vĩ mô dưới đây như bối cảnh thể chế khiến cách đọc theo từng đợt trở nên khả tín, chứ không phải như biến thiên nhận diện.
+
+Một cách diễn giải thuần tuý về phụ thuộc giai đoạn không phải là cách đọc duy nhất của mẫu hình DAI theo từng đợt. Một giải thích thay thế, và ở một mức độ là bổ sung, là tính lỗi thời của biến đại diện: chỉ báo c22b về sở hữu website đo lường thứ gì đó khác nhau trong các năm 2009, 2015 và 2023 ngay cả khi văn bản câu hỏi giống nhau giữa các đợt.
+
+Năm 2009, sở hữu một website doanh nghiệp là một giao diện thị trường tương đối khác biệt phát tín hiệu về tính hợp pháp số cơ bản trong giao dịch quốc tế; đến năm 2023, một website gần với một dấu hiệu thường lệ của hiện diện số cơ bản được chia sẻ giữa các doanh nghiệp xuất khẩu và không xuất khẩu. Dưới cách đọc này, sự suy giảm mối liên hệ trực tiếp DAI giữa các đợt phần nào phản ánh nội dung thông tin co lại của c22b chứ không phải một thay đổi cấu trúc trong mức sinh lời năng suất đối với áp dụng công nghệ số nền tảng. Chúng tôi không xem tính lỗi thời của biến đại diện và phụ thuộc giai đoạn là loại trừ lẫn nhau: cả hai có thể đang vận hành đồng thời. Chúng tôi nhấn mạnh cách đọc tính lỗi thời của biến đại diện vì nó không thể kiểm định trong công cụ WBES có thể so sánh giữa các đợt và công trình tương lai sử dụng các đợt với các chỉ báo số Tầng 2–3 phong phú hơn sẽ cần để tách rời hai kênh.
+
+Mẫu hình 2015 được diễn giải tốt nhất không phải như một bất thường, mà như một sự nén đặc trưng theo đợt của kênh áp dụng công nghệ số nền tảng dưới điều kiện hạ tầng chuyển đổi. Nó cho thấy ngay cả khi cấu trúc I–P phi tuyến trở nên rõ ràng hơn, mức sinh lời trực tiếp từ hiện diện số dựa trên website có thể nén về không. Cách đọc này khả tín về mặt thể chế, nhưng không nên được xem như một giải thích chính thức được nhận diện về mẫu hình hệ số. Doanh nghiệp có thể đi qua một giai đoạn chuyển đổi trong đó mở rộng xuất khẩu vẫn quan trọng nhưng đóng góp năng suất của áp dụng công nghệ số cơ bản trở nên khó nhận thấy hoặc phát hiện trong mẫu hơn. Chúng tôi đối xử thẳng thắn với sự nén năm 2015 như một mối liên hệ đặc trưng theo đợt nhất quán với phụ thuộc giai đoạn chứ không phải như một dịch chuyển cấu trúc được nhận diện đầy đủ giữa các đợt. Như báo cáo trong mục 4.5 Panel I, kiểm định tương tác chính thức gộp đợt × biến trọng tâm chỉ phát hiện các dịch chuyển trực tiếp DAI là có thể phân biệt giữa các đợt; các khác biệt độ cong FSTS và điều tiết FSTS × DAI giữa các đợt không thể tách biệt thống kê.
+
+Bối cảnh vĩ mô của giai đoạn nhất quán với một vùng trũng hạ tầng số vào năm 2015 so với các neo 2009 và 2023. Các chỉ báo thứ cấp công khai ủng hộ cách đọc này. Các Chỉ số Phát triển Thế giới (WDI) của Ngân hàng Thế giới ghi nhận tỉ lệ cá nhân sử dụng Internet của Việt Nam ở mức khoảng 26 % năm 2009, 45 % năm 2015 và hơn 78 % vào năm 2023; thuê bao băng rộng cố định trên 100 người của ITU tăng từ khoảng 3 năm 2009 lên 8 năm 2015 và hơn 20 vào năm 2023.
+
+Chương trình Chuyển đổi Số Quốc gia (NDTP) của Việt Nam được ban hành năm 2020, và các nền tảng thanh toán điện tử xuyên biên giới (VNPAY, MoMo, ZaloPay) và các thị trường xuất khẩu B2B (Alibaba.com, Amazon Global Selling) đạt quy mô tại Việt Nam chỉ sau 2018–2019. Đợt 2015 do đó quan sát các doanh nghiệp xuất khẩu Việt Nam trong một giai đoạn hạ tầng chuyển đổi mà một website chưa thể cắm vào một hệ sinh thái số hỗ trợ giao dịch; đợt 2023 quan sát họ sau khi khung sườn sau NDTP đã trưởng thành. Chúng tôi không xem các chỉ báo vĩ mô này là biến thiên nhận diện, chúng không được đưa vào hồi quy, nhưng chúng làm cho cách đọc theo từng đợt trở nên khả tín về thể chế chứ không thuần tuý hậu kiểm.
+
+Thay vì xem đợt này như một bất thường, hữu ích hơn khi diễn giải nó như bằng chứng về tính không đồng nhất đặc trưng theo đợt nhất quán với phụ thuộc giai đoạn. Giai đoạn lõm chứng minh vì sao chỉ các mức trung bình gộp là không đủ. Không có phân tích theo từng đợt, người ta sẽ bỏ qua khả năng các khoản sinh lời năng lực nén hoặc mờ đi tạm thời trước khi tái xuất hiện trong giai đoạn sau, ngay cả khi các tham số độ cong của bản thân mối quan hệ I–P vẫn không thể phân biệt thống kê giữa các đợt.
+
+### 5.4 Hàm ý thực tiễn
+Hàm ý quản trị không phải là doanh nghiệp nên đầu tư ít hơn vào số hoá. Đúng hơn, đó là số hoá nên được liên kết với mức độ sẵn sàng của tổ chức và quy mô quốc tế. Các công cụ số nền tảng có thể tạo ra giá trị, nhưng mức sinh lời phụ thuộc vào việc các công cụ đó có được nhúng vào các thông lệ hỗ trợ phối hợp xuất khẩu và hiệu quả hay không.
+
+Các nhà quản lý cũng nên tránh nhầm lẫn áp dụng công nghệ số cơ bản với năng lực công nghệ sâu hơn.
+
+Một doanh nghiệp có thể áp dụng các công cụ số mà không có năng lực học hỏi và nâng cấp cần thiết để duy trì lợi ích hiệu quả theo thời gian.
+
+Ngược lại, năng lực nội bộ mạnh hơn có thể cho phép doanh nghiệp chuyển hoá việc áp dụng công nghệ số tương đối cơ bản thành các kết quả có ý nghĩa hơn. Sự phân biệt này đặc biệt quan trọng trong các nền kinh tế chuyển đổi, nơi doanh nghiệp đi qua các giai đoạn phát triển năng lực không đồng đều.
+
+### 5.6 Hàm ý chính sách
+Chúng tôi đóng khung cách đọc chính sách như những cân nhắc tạm thời chứ không phải các quy định chỉ thị. Tính chất liên hệ của bằng chứng, độ rộng của tính không đồng nhất theo từng đợt, và phạm vi một nền kinh tế đơn lẻ đều cân nhắc chống lại việc chuyển các phát hiện thành mục tiêu chính sách doanh nghiệp cụ thể. Với những lưu ý đó được giữ rõ ràng, ba cân nhắc tiếp theo cho thiết kế chính sách thương mại và kinh tế số của Việt Nam.
+
+Thứ nhất, các công cụ thúc đẩy xuất khẩu được thiết kế quanh một khoản phụ trội quốc tế hoá dương đồng nhất sẽ vượt mức trong các giai đoạn chuyển đổi như đợt 2015, khi các khoản sinh lời năng lực bị nén ngay cả khi cường độ xuất khẩu vẫn liên quan đến năng suất. Hướng hỗ trợ xuất khẩu vào các doanh nghiệp nằm trong vùng chi phí nhập cuộc, thay vì các doanh nghiệp đã hoạt động ở cường độ xuất khẩu cao, nhất quán với độ cong được ghi nhận trong mẫu gộp và mẫu đợt sau. Thứ hai, các chương trình kinh tế số xem áp dụng nền tảng (website, thanh toán điện tử cơ bản) như một đòn bẩy chính sách đủ có khả năng bị suy giảm bởi độ trễ triển khai và bởi tính có điều kiện của kênh số ở cường độ xuất khẩu cao hơn.
+
+Các chương trình kết hợp áp dụng công nghệ số Tầng 1–2 với nâng cấp năng lực sâu hơn, chứng nhận chất lượng, đầu tư năng lực hấp thụ, các thông lệ tổ chức cho phối hợp xuyên biên giới, sẽ nhất quán hơn với mẫu hình nổi lên vào năm 2023.
+
+Thứ ba, cách đọc vòng đời gợi ý rằng các cửa sổ đánh giá chính sách có ý nghĩa quan trọng. Một chương trình chuyển đổi số chỉ được đánh giá dựa trên đường cơ sở chuyển đổi kiểu 2015 sẽ đánh giá thấp đóng góp năng suất dài hạn của nó; một chương trình được đánh giá dựa trên đường cơ sở kiểu 2009 hoặc 2023 sẽ đánh giá cao so với giai đoạn ở giữa. Đánh giá chính sách xem xét nghiêm túc cấu trúc vòng đời sẽ ghép đo lường kết quả cửa sổ ngắn với đo lường bền vững về môi trường năng lực và hạ tầng nơi doanh nghiệp hoạt động.
+
+## 6. Hạn chế và hướng nghiên cứu tiếp theo
+Các phát hiện nên được đọc trong bối cảnh năm hạn chế. Thứ nhất và cơ bản nhất, dữ liệu vi mô WBES là cắt ngang lặp lại chứ không phải một bảng dữ liệu doanh nghiệp thực sự. Thay đổi nội tại doanh nghiệp theo thời gian không thể được nhận diện, và tính không đồng nhất không quan sát được bất biến theo thời gian không thể được loại trừ ở cấp doanh nghiệp. Ngôn ngữ liên hệ được sử dụng xuyên suốt bài báo phản ánh ràng buộc này và không nên được nới lỏng trong bất kỳ diễn giải nào của người đọc về các kết quả.
+
+Thứ hai, $\tilde{\mathrm{DAI}}$ chỉ ghi nhận một lớp áp dụng công nghệ số nền tảng kiểu Tầng 1 tập trung vào hiện diện website, chứ không phải năng lực tổ chức được tích hợp số. Phần mở rộng $\mathrm{DAI}_{\text{rich}}$ cho đợt 2023 cho thấy mẫu hình có điều kiện tồn tại khi các chỉ báo phong phú hơn có sẵn, nhưng một bảng dữ liệu các doanh nghiệp được tích hợp số với đo lường sâu hơn sẽ thắt chặt khái niệm hơn và cho phép một kiểm định sắc nét hơn về việc liệu tích hợp số sâu hơn có thể hiện một kênh năng suất ổn định hơn hay không.
+
+Thứ ba, phân tích được thực hiện trên một nền kinh tế chuyển đổi đơn lẻ. Việt Nam có giá trị thông tin chính vì môi trường thể chế và số của nó dịch chuyển đáng kể trên cửa sổ quan sát 2009–2023, nhưng mẫu hình vòng đời được ghi nhận ở đây có thể không khái quát hoá mà không có sửa đổi đối với các nền kinh tế có hạ tầng số hoặc thành phần xuất khẩu theo quỹ đạo khác.
+
+Thứ tư, bằng chứng giữa các đợt không đồng đều về sức mạnh thống kê.
+
+Các kiểm định z Paternoster et al. (1998) xác nhận rằng sự giảm $\tilde{\mathrm{DAI}}$ giữa 2009 và 2015 (z = 3,353, p < .001) và sự phục hồi giữa 2015 và 2023 (z = -2,051, p = .040) có thể phân biệt thống kê, nhưng hầu hết các khác biệt hệ số giữa các đợt khác nằm ở độ lớn cận ngưỡng hoặc không có ý nghĩa. Diễn giải vòng đời do đó dựa chủ yếu vào tính nhất quán định hướng của các ước lượng theo từng đợt và vào sự tập trung của tín hiệu số vào năm 2023, chứ không dựa vào các khác biệt hệ số cặp đôi có ý nghĩa đồng đều qua tất cả các số hạng trọng tâm. Công trình tương lai có thể khai thác thời điểm chính sách, ví dụ, Chương trình Chuyển đổi Số Quốc gia của Việt Nam khởi động năm 2020, để nhận diện sắc nét hơn kênh số thông qua thiết kế đánh giá chính sách thay vì so sánh giữa các đợt.
+
+Thứ năm, các hiệu ứng cố định ngành trong các mô hình chính được cố ý rộng để giữ đặc tả giữa các đợt có thể so sánh. Mục 4.5 Panel G giải quyết một phần mở rộng tự nhiên bằng cách tái ước lượng các đặc tả M2 / M7 / M8 gộp trên các nhóm phụ sản xuất (sector1 ∈ {1, 2, 3}; N = 1.854) so với phi sản xuất (sector1 ∈ {4, 5, 6, 7}; N = 1.104), và cho thấy rằng kênh áp dụng công nghệ số vận hành chủ yếu ở sản xuất trong khi kênh năng lực công nghệ hiện diện trong cả hai. Các cơ chế cấp ngành tinh hơn, ví dụ, tương phản các dịch vụ thâm dụng số với các dịch vụ truyền thống, hoặc tương phản các phân ngành sản xuất định hướng xuất khẩu với các phân ngành định hướng nội địa, sẽ được hưởng lợi từ một thiết kế nghiên cứu khai thác phân loại ngành phong phú hơn so với các mã WBES một chữ số.
+
+Thứ sáu, phân tích được giới hạn ở Việt Nam như một nền kinh tế chuyển đổi đơn lẻ ở một giai đoạn cụ thể của sự phát triển số và thể chế. Việc hiểu cách mẫu hình điều tiết DAI được ghi nhận ở đây, âm ở cường độ xuất khẩu cao dưới áp dụng chỉ riêng Tầng 1, so sánh với các mẫu hình ở các thị trường mới nổi khác ở các giai đoạn thể chế khác nhau, hoặc với các mẫu hình ở các nền kinh tế tiên tiến về số nơi tương tác tương tự được dự đoán là dương, đòi hỏi các thiết kế so sánh giữa các bối cảnh thay đổi một cách hệ thống chi phí giao dịch thể chế và chất lượng hạ tầng số. Các thiết kế như vậy cũng sẽ cho phép kiểm định trực tiếp hơn về khung phụ thuộc bối cảnh được phát triển trong Mục 2.1.
+
+## 7. Kết luận
+Nghiên cứu này xem xét lại mối quan hệ quốc tế hoá–hiệu quả ở Việt Nam bằng cách phân biệt năng lực công nghệ nước ngoài / tiêu chuẩn khỏi áp dụng công nghệ số nền tảng và bằng cách so sánh bằng chứng gộp với bằng chứng theo từng đợt.
+
+Các phát hiện cho thấy mối quan hệ quốc tế hoá–hiệu quả là không đơn điệu trong toàn mẫu, nhưng mẫu hình này được chi phối chủ yếu bởi cấu trúc tham gia-và-cường độ chứ không phải bởi độ cong mạnh trong nhóm doanh nghiệp xuất khẩu đơn lẻ.
+
+Các kết quả cũng cho thấy hai miền năng lực không nên được xem là có thể hoán đổi. Năng lực công nghệ tương đối ổn định và vững về nhận diện qua các đặc tả, trong khi áp dụng công nghệ số nền tảng nhạy cảm theo đợt hơn và chỉ thể hiện điều tiết có thể phát hiện trong mẫu vào năm 2023. Hàm ý rộng hơn là tính liên quan đến năng suất của áp dụng công nghệ số cơ bản trong một nền kinh tế chuyển đổi là thực sự nhưng không đồng đều, và các mức trung bình gộp có thể che giấu tính không đồng nhất theo thời gian quan trọng về việc khi nào và bằng cách nào áp dụng công nghệ số có ý nghĩa.
+
+## Xung đột lợi ích
+Các tác giả tuyên bố không có xung đột lợi ích.
+
+## Tài trợ
+Nghiên cứu này không nhận được tài trợ cụ thể nào từ bất kỳ cơ quan tài trợ nào trong khu vực công, thương mại hoặc phi lợi nhuận.
+
+## Tuyên bố về sẵn có dữ liệu
+Dữ liệu hỗ trợ các phát hiện của nghiên cứu này là từ Khảo sát Doanh nghiệp của Ngân hàng Thế giới và có sẵn từ cổng thông tin Khảo sát Doanh nghiệp của Ngân hàng Thế giới, tuỳ thuộc vào việc đăng ký và tuân thủ Giao thức Tiếp cận Dữ liệu Khảo sát Doanh nghiệp của Ngân hàng Thế giới. Vì giao thức hạn chế việc tái phân phối các tệp .dta gốc cho bên thứ ba, các tác giả không tái phân phối các tệp khảo sát thô. Tài liệu tái lặp, bao gồm chi tiết xây dựng biến, đặc tả mô hình và đầu ra tính toán, có sẵn từ các tác giả khi có yêu cầu hợp lý và có thể được chia sẻ trong phạm vi cho phép của các điều khoản tiếp cận dữ liệu.
+
+## Sử dụng AI tạo sinh trong quá trình viết
+Các công cụ AI tạo sinh đã được sử dụng trong quá trình chuẩn bị bản thảo để hỗ trợ chỉnh sửa ngôn ngữ, gợi ý cấu trúc và lắp ráp tài liệu gói tái lặp.
+
+Toàn bộ việc đóng khung khái niệm, phát triển giả thuyết, phân tích thực nghiệm, diễn giải kết quả và hoàn thiện ngôn từ đều do các tác giả con người thực hiện, những người chịu hoàn toàn trách nhiệm về nội dung của công trình xuất bản.
+
+## Lời cảm ơn
+Nghiên cứu này sử dụng dữ liệu từ Khảo sát Doanh nghiệp của Ngân hàng Thế giới. Chúng tôi cảm ơn Đơn vị Phân tích Doanh nghiệp của Nhóm Chỉ số Toàn cầu Kinh tế Phát triển thuộc Ngân hàng Thế giới đã cung cấp quyền tiếp cận dữ liệu.
+
+Người thu thập dữ liệu gốc, nhà phân phối được uỷ quyền và cơ quan tài trợ liên quan không chịu trách nhiệm về việc sử dụng dữ liệu hoặc các diễn giải dựa trên việc sử dụng đó. Các phát hiện, diễn giải và kết luận được trình bày trong bài báo này là của các tác giả và không nhất thiết đại diện cho quan điểm của Nhóm Ngân hàng Thế giới, các Giám đốc Điều hành hoặc các chính phủ mà họ đại diện. Các tác giả không nhận được tài trợ cụ thể nào từ bất kỳ cơ quan tài trợ nào trong khu vực công, thương mại hoặc phi lợi nhuận.
+
+Gói tái lặp đi kèm bản thảo này được phát triển để hỗ trợ tính minh bạch về phương pháp luận và khả năng tái tạo tính toán.
+
+## Tài liệu bổ sung
+Tất cả các hình và bảng trong bản thảo đều được nhúng trực tiếp. Các đầu ra hệ số nền cũng được phân phối dưới dạng các tệp CSV thuần trong gói tái lặp để phân tích lại tiếp theo:
+
+tables/table_1_descriptives.csv (Bảng 1), tables/coefs_main_models.csv (bảng hệ số định dạng dài M0–M8), tables/joint_tests_main_models.csv (các kiểm định F liên hợp H2 và P1), tables/table_lind_mehlum.csv (nguồn Bảng LM), tables/table_3_robustness.csv (các bảng A–D + G của Bảng 3), tables/selection_checks.csv (Heckman / hàm kiểm soát), và tables/table_paternoster.csv (các kiểm định z giữa các đợt). Gói tái lặp và hướng dẫn: xem p3_vietnam/README.md.
+
+
+---
+
+## References
+Aguinis, H., Hill, N. S., and Bailey, J. R. (2021). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. Organizational Research Methods, 24(4):678–693.
+
+Antonakis, J., Bendahan, S., Jacquart, P., and Lalive, R. (2010). On making causal claims: A review and recommendations. The Leadership Quarterly, 21(6):1086–1120.
+
+Author Citation (2026 — JFAR). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 02*(39), 287–291. [Author details withheld for blind review.]
+
+Banalieva, E. R. and Dhanaraj, C. (2019). Internalization theory for the digital economy. Journal of International Business Studies, 50(8):1372–1387.
+
+Bernard, A. B., Jensen, J. B., Redding, S. J., and Schott, P. K. (2007). Firms in international trade. Journal of Economic Perspectives, 21(3):105–130.
+
+Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., and Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. MIS Quarterly, 37(2):471–482.
+
+Brouthers, K. D., Geisser, K. D., and Rothlauf, F. (2016). Explaining the internationalization of ibusiness firms. Journal of International Business Studies, 47(5):513–534.
+
+Brynjolfsson, E., Rock, D., and Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. American Economic Journal: Macroeconomics, 13(1):333–372.
+
+Certo, S. T., Busenbark, J. R., Woo, H.-s., and Semadeni, M. (2016). and Heckman models in strategic management research. Sample selection bias Strategic Management Journal, 37(13):2639–2657.
+
+Cohen, W. M. and Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. Administrative Science Quarterly, 35(1):128–152.
+
+Contractor, F. J. (2007). Is international business good for companies? The evolutionary or multi-stage theory of internationalization vs. the transaction cost perspective. Management International Review, 47(3):453–475.
+
+Coviello, N., Kano, L., and Liesch, P. W. (2017). Adapting the Uppsala model to a modern world: Macro-context and microfoundations. Journal of International Business Studies, 48(9):1151– 1164. Cuervo-Cazurra, A. and Genc, M. (2008). Transforming disadvantages into advantages: Developing-country MNEs in the least developed countries. Journal of International Business Studies, 39(6):957–979.
+
+Eisenhardt, K. M. and Martin, J. A. (2000). Dynamic capabilities: What are they? Strategic Management Journal, 21(10–11):1105–1121.
+
+Goldfarb, A. and Tucker, C. (2019). Digital economics. Journal of Economic Literature, 57(1):3– 43.
+
+Haans, R. F. J., Pieters, C., and He, Z.-L. (2016). Thinking about U: Theorizing and testing Uand inverted-U-shaped relationships in strategy research. Strategic Management Journal, 37(7):1177–1195.
+
+Hanelt, A., Bohnsack, R., Marz, D., and Antunes Marante, C. (2021). A systematic review of the literature on digital transformation: Insights and implications for strategy and organizational change. Journal of Management Studies, 58(5):1159–1197.
+
+Heckman, J. J. (1979). Sample selection bias as a specification error. Econometrica, 47(1):153– 161.
+
+Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship. Management International Review, 47(3):423–452.
+
+Hennart, J.-F. (2011). A theoretical assessment of the empirical literature on the impact of multinationality on performance. Global Strategy Journal, 1(1–2):135–151.
+
+Karna, A., Richter, A., and Riesenkampff, E. (2016). Revisiting the role of the environment in the capabilities–financial performance relationship: A meta-analysis. Strategic Management Journal, 37(6):1154–1173.
+
+Knight, G. A. and Liesch, P. W. (2016). Internationalization: From incremental to born global. Journal of World Business, 51(1):93–102.
+
+Lall, S. (1992). Technological capabilities and industrialization. World Development, 20(2):165–186.
+
+Lind, J. T. and Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. Oxford Bulletin of Economics and Statistics, 72(1):109–118.
+
+Lu, J. W. and Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. Academy of Management Journal, 47(4):598–609.
+
+Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., and van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. Journal of Management, 42(5):1075–1110.
+
+Nambisan, S., Wright, M., and Feldman, M. (2019). The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes. Research Policy, 48(8):103773.
+
+Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. Journal of Business & Economic Statistics, 37(2):187–204.
+
+Paternoster, R., Brame, R., Mazerolle, P., and Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. Criminology, 36(4):859–866.
+
+Petricevic, O. and Teece, D. J. (2019). The structural reshaping of globalization: Implications for strategic sectors, profiting from innovation, and the multinational enterprise. Journal of International Business Studies, 50(9):1487–1512.
+
+Pisani, N., Garcia-Bernardo, J., and Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. Strategic Management Journal, 41(1):152–172.
+
+Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. Journal of Management, 46(7):1244–1256.
+
+Stallkamp, M. and Schotter, A. P. J. (2021). Platforms without borders? The international strategies of digital platform firms. Global Strategy Journal, 11(1):58–80.
+
+Strange, R. and Zucchella, A. (2017). Industry 4.0, global value chains and international business. Multinational Business Review, 25(3):174–184.
+
+Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. Strategic Management Journal, 28(13):1319–1350.
+
+Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evolution. Global Strategy Journal, 10(2):239–250.
+
+Vahlne, J.-E. and Johanson, J. (2017). From internationalization to evolution: The Uppsala model at 40 years. Journal of International Business Studies, 48(9):1087–1102.
+
+Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., and Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. Journal of Business Research, 122:889–901.
+
+Vernon, R. (1979). The product cycle hypothesis in a new international environment. Oxford Bulletin of Economics and Statistics, 41(4):255–267.
+
+Vial, G. (2019). Understanding digital transformation: A review and a research agenda. Journal of Strategic Information Systems, 28(2):118–144.
+
+Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. The World Economy, 30(1):60–82.
+
+Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
+
+Wolfolds, S. E. and Siegel, J. (2019). Misaccounting for endogeneity: The peril of relying on the Heckman two-step method without a valid instrument. Strategic Management Journal, 40(3):432–462.
+
+Wooldridge, J. M. (2010). Econometric analysis of cross section and panel data. MIT Press, 2nd edition.
+
+World Bank (2010). Vietnam Enterprise Survey 2009: Data file. Enterprise Surveys, World Bank Group.
+
+World Bank (2016). Vietnam Enterprise Survey 2015: Data file. Enterprise Surveys, World Bank Group.
+
+World Bank (2024). Vietnam Enterprise Survey 2023: Data file. Enterprise Surveys, World Bank Group.
+
+Wright, M., Filatotchev, I., Hoskisson, R. E., and Peng, M. W. (2005). Strategy research in emerging economies: Challenging the conventional wisdom. Journal of Management Studies, 42(1):1–33.
+
+Wu, F., Fan, D., and Chen, L. (2022). Untangling the internationalization–performance relationship in emerging-economy multinationals: A meta-analytic review. Management International Review, 62(3):315–354.
+
+Wu, J., Wang, C., Hong, J., Piperopoulos, P., and Zhuo, S. (2016). Internationalization and innovation performance of emerging market enterprises: The role of host-country institutional development. Journal of World Business, 51(2):251–263.
