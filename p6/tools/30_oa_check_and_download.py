@@ -6,7 +6,7 @@ then download freely available PDFs.
 
 Usage:
   python3 30_oa_check_and_download.py \
-      --input  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
+      --input  p6/tools/results/fulltext_to_extraction_tracker_v3.csv \
       --output p6/tools/results/oa_check_20260519.csv \
       --pdfs   p6/tools/pdfs/ \
       --email  seranguyenct@gmail.com
@@ -116,7 +116,7 @@ def _download_pdf(url: str, dest: Path) -> bool:
 def main():
     global EMAIL
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input",  default="p6/tools/results/fulltext_to_extraction_tracker_v2.csv")
+    ap.add_argument("--input",  default="p6/tools/results/fulltext_to_extraction_tracker_v3.csv")
     ap.add_argument("--output", default="p6/tools/results/oa_check_20260519.csv")
     ap.add_argument("--pdfs",   default="p6/tools/pdfs/")
     ap.add_argument("--email",  default=EMAIL)
