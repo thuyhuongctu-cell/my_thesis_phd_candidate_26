@@ -52,29 +52,16 @@ jobs:
         if: always()
         continue-on-error: true
         run: |
-          LOG=$(ls p6/tools/results/download_log_repo_*.csv 2>/dev/null | sort | tail -1)
           echo "## PDF Download Results" >> $GITHUB_STEP_SUMMARY
+          LOG=$(ls p6/tools/results/download_log_repo_*.csv 2>/dev/null | sort | tail -1)
           if [ -z "$LOG" ]; then
             echo "No download log found." >> $GITHUB_STEP_SUMMARY
           else
-            python3 -c "
-import csv
-with open('${LOG}') as f:
-    rows = list(csv.DictReader(f))
-ok   = sum(1 for r in rows if r.get('status','') in ('OK','SKIP_EXISTS'))
-fail = sum(1 for r in rows if r.get('status','') == 'FAIL')
-skip = sum(1 for r in rows if r.get('status','') == 'SKIP_UNSUPPORTED')
-print('| Metric | Count |')
-print('|--------|-------|')
-print('| OK / Skip-exists |', ok, '|')
-print('| FAIL |', fail, '|')
-print('| Unsupported |', skip, '|')
-print('| Total |', len(rows), '|')
-" >> $GITHUB_STEP_SUMMARY 2>&1 || echo "Could not parse log." >> $GITHUB_STEP_SUMMARY
+            python3 -c "import csv; rows=list(csv.DictReader(open('${LOG}'))); ok=sum(1 for r in rows if r.get('status','') in ('OK','SKIP_EXISTS')); fail=sum(1 for r in rows if r.get('status','')=='FAIL'); skip=sum(1 for r in rows if r.get('status','')=='SKIP_UNSUPPORTED'); print('| Metric | Count |'); print('|--------|-------|'); print('| OK / Skip-exists |',ok,'|'); print('| FAIL |',fail,'|'); print('| Unsupported |',skip,'|'); print('| Total |',len(rows),'|')" >> $GITHUB_STEP_SUMMARY 2>&1 || echo "Could not parse log." >> $GITHUB_STEP_SUMMARY
             echo "Log: ${LOG}" >> $GITHUB_STEP_SUMMARY
           fi
-          PDF_COUNT=$(ls /tmp/p6_pdfs/*.pdf 2>/dev/null | wc -l || echo 0)
-          echo "PDFs downloaded: ${PDF_COUNT}" >> $GITHUB_STEP_SUMMARY
+          PDF_COUNT=$(find /tmp/p6_pdfs -name '*.pdf' 2>/dev/null | wc -l)
+          echo "PDFs in /tmp/p6_pdfs: ${PDF_COUNT}" >> $GITHUB_STEP_SUMMARY
 
       - name: Run auto-extract from downloaded PDFs
         if: ${{ github.event.inputs.run_extract == 'true' }}
@@ -102,21 +89,13 @@ print('| Total |', len(rows), '|')
         if: always()
         continue-on-error: true
         run: |
-          TRACKER="p6/tools/results/fulltext_to_extraction_tracker_v3.csv"
           echo "## Auto-Extract Results" >> $GITHUB_STEP_SUMMARY
-          python3 -c "
-import csv
-with open('${TRACKER}') as f:
-    rows = list(csv.DictReader(f))
-y      = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'Y')
-ready  = sum(1 for r in rows if r.get('ready_for_r','') == '1')
-filled = sum(1 for r in rows if r.get('converted_r','').strip())
-print('| Metric | Count |')
-print('|--------|-------|')
-print('| Y papers |', y, '|')
-print('| ready_for_r=1 |', ready, '|')
-print('| converted_r filled |', filled, '|')
-" >> $GITHUB_STEP_SUMMARY 2>&1 || echo "Could not read tracker." >> $GITHUB_STEP_SUMMARY
+          TRACKER="p6/tools/results/fulltext_to_extraction_tracker_v3.csv"
+          if [ -f "$TRACKER" ]; then
+            python3 -c "import csv; rows=list(csv.DictReader(open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv'))); y=sum(1 for r in rows if r.get('fulltext_screening_decision','')=='Y'); ready=sum(1 for r in rows if r.get('ready_for_r','')=='1'); filled=sum(1 for r in rows if r.get('converted_r','').strip()); print('| Metric | Count |'); print('|--------|-------|'); print('| Y papers |',y,'|'); print('| ready_for_r=1 |',ready,'|'); print('| converted_r filled |',filled,'|')" >> $GITHUB_STEP_SUMMARY 2>&1 || echo "Could not read tracker." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Tracker not found." >> $GITHUB_STEP_SUMMARY
+          fi
 
       - name: Upload results as artifacts
         if: always()
