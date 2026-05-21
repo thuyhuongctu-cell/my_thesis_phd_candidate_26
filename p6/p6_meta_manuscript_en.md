@@ -347,7 +347,7 @@ Group I (k=139, primarily Western MNEs and Asian advanced economies) shows the h
 
 ### 4.4 cDAI Moderation (H3)
 
-*Q*_M(cDAI) = 1.34 (*df* = 2, *p* = .513). H3 **not supported**.
+*Q*_M(cDAI) = 1.23 (*df* = 2, *p* = .541). H3 **not supported**.
 
 Meta-regression with continuous cDAI score: β_cDAI = +0.003 (*SE* = 0.010, *p* = .744). Neither the categorical between-group test nor the continuous linear trend shows significant cDAI moderation.
 
