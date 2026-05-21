@@ -22,9 +22,9 @@ dat$vi  <- 1 / (dat$n - 3)
 dat$study_id <- paste0(dat$authors, "_", dat$year)
 dat$es_id    <- seq_len(nrow(dat))
 
-# ── M0: Three-level baseline (Cheung 2014 single nested term) ────────
+# ── M0: Three-level baseline ────────────────────────────────────────
 m0 <- rma.mv(yi, vi,
-             random = ~ 1 | study_id/es_id,
+             random = list(~ 1 | study_id, ~ 1 | study_id/es_id),
              data = dat, method = "REML")
 
 cat("k =", length(unique(dat$study_id)),
@@ -39,19 +39,17 @@ I2 <- 100 * sum(m0$sigma2) / (sum(m0$sigma2) + (m0$k - m0$p) / sum(diag(P)))
 
 # ── M1–M4: Moderators ───────────────────────────────────────────────
 m1_icrv <- rma.mv(yi, vi, mods = ~ factor(icrv),
-                  random = ~ 1 | study_id/es_id,
+                  random = list(~ 1 | study_id, ~ 1 | study_id/es_id),
                   data = dat, method = "REML")
 
 m2_dpl  <- rma.mv(yi, vi, mods = ~ factor(dpl),
-                  random = ~ 1 | study_id/es_id,
+                  random = list(~ 1 | study_id, ~ 1 | study_id/es_id),
                   data = dat, method = "REML")
 
 # ── Publication bias ────────────────────────────────────────────────
-m0_2level <- rma(yi, vi, data = dat, method = "REML")  # 2-level for Egger/trim-fill
-egger_rt  <- regtest(m0_2level, predictor = "sei")     # manuscript-comparable
-cat("Egger regtest: z =", round(egger_rt$zval, 3), "p =", round(egger_rt$pval, 3), "\n")
-taf <- trimfill(m0_2level, estimator = "L0")
-cat("Trim-fill: k0 =", taf$k0, "adj_r =", round(tanh(coef(taf)), 4), "\n")
+precision <- 1 / sqrt(dat$vi)
+egger     <- lm(dat$yi ~ precision, weights = 1 / dat$vi)
+cat("Egger p =", summary(egger)$coefficients[1, 4], "\n")
 
 # ── Cluster-robust variance estimation ─────────────────────────────
 vcov_rve <- vcovCR(m0, cluster = dat$study_id, type = "CR2")
