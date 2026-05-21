@@ -4,9 +4,9 @@ on:
   workflow_dispatch:        # manual trigger from GitHub Actions tab
     inputs:
       wos_api_key:
-        description: 'WoS Starter API Key (Clarivate)'
+        description: 'WoS Starter API Key (leave blank to use repo secret WOS_API_KEY)'
         required: false
-        default: '1a0367524ef410f4ef7d0930a349aefe54862ab8'
+        default: ''
       max_records:
         description: 'Max records to retrieve (Free Trial: 2500/day)'
         required: false
@@ -39,10 +39,11 @@ jobs:
       - name: Run WoS Starter API search
         env:
           WOS_API_KEY: ${{ github.event.inputs.wos_api_key || secrets.WOS_API_KEY }}
+          MAX_RECORDS: ${{ github.event.inputs.max_records || '2500' }}
         run: |
           python3 p6/tools/06_wos_api_search.py \
-            --max ${{ github.event.inputs.max_records || '2500' }} \
-            --output p6/tools/results/wos_api_$(date +%Y%m%d).csv
+            --max "$MAX_RECORDS" \
+            --output "p6/tools/results/wos_api_$(date +%Y%m%d).csv"
 
       - name: Show summary
         run: |

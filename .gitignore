@@ -48,3 +48,7 @@ __pycache__/
 
 # P6 downloaded PDFs (too large for git — store locally)
 p6/pdfs/
+
+# Security scan artifacts (may contain sensitive findings)
+dist/security_scan_*.md
+dist/security_scan_*.json

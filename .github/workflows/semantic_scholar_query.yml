@@ -43,12 +43,17 @@ jobs:
         run: pip install requests
 
       - name: Query Semantic Scholar
+        env:
+          MANIFEST_FILE: ${{ github.event.inputs.manifest_file }}
+          OUTPUT_FILE: ${{ github.event.inputs.output_file }}
+          QUERY_DELAY: ${{ github.event.inputs.delay }}
+          QUERY_LIMIT: ${{ github.event.inputs.limit }}
         run: |
           python3 p6/tools/43_semantic_scholar_query.py \
-            --manifest "p6/tools/results/${{ github.event.inputs.manifest_file }}" \
-            --output   "p6/tools/results/${{ github.event.inputs.output_file }}" \
-            --delay    "${{ github.event.inputs.delay }}" \
-            --limit    "${{ github.event.inputs.limit }}"
+            --manifest "p6/tools/results/$MANIFEST_FILE" \
+            --output   "p6/tools/results/$OUTPUT_FILE" \
+            --delay    "$QUERY_DELAY" \
+            --limit    "$QUERY_LIMIT"
 
       - name: Show summary
         if: always()

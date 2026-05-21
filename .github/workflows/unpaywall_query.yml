@@ -43,16 +43,23 @@ jobs:
         run: pip install requests
 
       - name: Query Unpaywall
+        env:
+          INPUT_FILE: ${{ github.event.inputs.input_file }}
+          OUTPUT_FILE: ${{ github.event.inputs.output_file }}
+          PRIORITY: ${{ github.event.inputs.priority }}
+          QUERY_DELAY: ${{ github.event.inputs.delay }}
         run: |
           python3 p6/tools/39_query_unpaywall.py \
-            --input  "p6/tools/results/${{ github.event.inputs.input_file }}" \
-            --output "p6/tools/results/${{ github.event.inputs.output_file }}" \
-            --priority "${{ github.event.inputs.priority }}" \
-            --delay  "${{ github.event.inputs.delay }}"
+            --input    "p6/tools/results/$INPUT_FILE" \
+            --output   "p6/tools/results/$OUTPUT_FILE" \
+            --priority "$PRIORITY" \
+            --delay    "$QUERY_DELAY"
 
       - name: Show summary
+        env:
+          OUTPUT_FILE: ${{ github.event.inputs.output_file }}
         run: |
-          OUTPATH="p6/tools/results/${{ github.event.inputs.output_file }}"
+          OUTPATH="p6/tools/results/$OUTPUT_FILE"
           TOTAL=$(tail -n +2 "$OUTPATH" | wc -l)
           OA=$(tail -n +2 "$OUTPATH" | awk -F',' '{print $7}' | grep -c "True" || true)
           PDF=$(tail -n +2 "$OUTPATH" | awk -F',' '{print $9}' | grep -vc "^$" || true)
@@ -64,10 +71,13 @@ jobs:
           echo "| Direct PDF links | $PDF |" >> $GITHUB_STEP_SUMMARY
 
       - name: Commit results
+        env:
+          INPUT_FILE: ${{ github.event.inputs.input_file }}
+          OUTPUT_FILE: ${{ github.event.inputs.output_file }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "p6/tools/results/${{ github.event.inputs.output_file }}"
+          git add "p6/tools/results/$OUTPUT_FILE"
           git diff --cached --quiet && echo "No changes" || \
-            git commit -m "feat(p6): Unpaywall OA manifest for ${{ github.event.inputs.input_file }} [$(date +%Y%m%d)]"
+            git commit -m "feat(p6): Unpaywall OA manifest for $INPUT_FILE [$(date +%Y%m%d)]"
           git push origin claude/edit-vietnamese-academic-standards-xcAmn

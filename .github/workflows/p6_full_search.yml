@@ -104,14 +104,15 @@ jobs:
       - name: Run WoS Starter API search
         env:
           WOS_API_KEY: ${{ github.event.inputs.wos_api_key || secrets.WOS_API_KEY }}
+          MAX_WOS: ${{ github.event.inputs.max_wos }}
         run: |
           if [ "$WOS_HTTP" != "200" ]; then
             echo "WoS API not reachable from GitHub Actions (HTTP $WOS_HTTP) — skipping"
           else
             python3 p6/tools/06_wos_api_search.py \
-              --max ${{ github.event.inputs.max_wos }} \
-              --output p6/tools/results/wos_api_$(date +%Y%m%d).csv
-            echo "WoS done: $(tail -n +2 p6/tools/results/wos_api_$(date +%Y%m%d).csv | wc -l) records"
+              --max "$MAX_WOS" \
+              --output "p6/tools/results/wos_api_$(date +%Y%m%d).csv"
+            echo "WoS done: $(tail -n +2 "p6/tools/results/wos_api_$(date +%Y%m%d).csv" | wc -l) records"
           fi
         continue-on-error: true
 
@@ -119,14 +120,15 @@ jobs:
       - name: Run Scopus API search
         env:
           SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key || secrets.SCOPUS_API_KEY }}
+          MAX_SCOPUS: ${{ github.event.inputs.max_scopus }}
         run: |
           if [ "$SCOPUS_HTTP" != "200" ]; then
             echo "Scopus API not reachable from GitHub Actions (HTTP $SCOPUS_HTTP) — skipping"
           else
             python3 p6/tools/05_scopus_api_search.py \
-              --max ${{ github.event.inputs.max_scopus }} \
-              --output p6/tools/results/scopus_api_$(date +%Y%m%d).csv
-            echo "Scopus done: $(tail -n +2 p6/tools/results/scopus_api_$(date +%Y%m%d).csv | wc -l) records"
+              --max "$MAX_SCOPUS" \
+              --output "p6/tools/results/scopus_api_$(date +%Y%m%d).csv"
+            echo "Scopus done: $(tail -n +2 "p6/tools/results/scopus_api_$(date +%Y%m%d).csv" | wc -l) records"
           fi
         continue-on-error: true
 

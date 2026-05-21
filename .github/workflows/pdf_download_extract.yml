@@ -41,12 +41,15 @@ jobs:
       - name: Download PDFs from REPO_URL papers
         id: download
         continue-on-error: true
+        env:
+          QUEUE_FILE: ${{ github.event.inputs.queue_file }}
+          DOWNLOAD_LIMIT: ${{ github.event.inputs.limit }}
         run: |
           mkdir -p /tmp/p6_pdfs
           python3 p6/tools/48_download_repo_pdfs.py \
-            --queue   "p6/tools/results/${{ github.event.inputs.queue_file }}" \
+            --queue      "p6/tools/results/$QUEUE_FILE" \
             --output-dir /tmp/p6_pdfs \
-            --limit   "${{ github.event.inputs.limit }}"
+            --limit      "$DOWNLOAD_LIMIT"
 
       - name: Show download summary
         if: always()

@@ -14,8 +14,21 @@ from statsmodels.formula.api import ols
 from scipy.stats import norm
 warnings.filterwarnings('ignore')
 
-UPLOAD = '/root/.claude/uploads/4342a099-4c09-46f0-a81b-f754f349e99f'
-import os
+import os, sys
+# Path to WBES raw .dta files. Override via WBES_DATA_DIR env var, or pass as
+# argv[1]. Defaults to ./data so the script remains runnable without
+# hardcoded absolute paths (per security audit MED-1/2/3).
+UPLOAD = (
+    os.environ.get("WBES_DATA_DIR")
+    or (sys.argv[1] if len(sys.argv) > 1 else None)
+    or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "wbes")
+)
+if not os.path.isdir(UPLOAD):
+    raise FileNotFoundError(
+        f"WBES data directory not found: {UPLOAD}\n"
+        "Set the WBES_DATA_DIR environment variable or pass the path as the "
+        "first command-line argument. Expected files: *_fulldata.dta."
+    )
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p5_china')
 os.makedirs(OUT, exist_ok=True)

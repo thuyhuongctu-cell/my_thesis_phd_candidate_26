@@ -47,10 +47,11 @@ jobs:
       - name: Run Scopus API search
         env:
           SCOPUS_API_KEY: ${{ github.event.inputs.scopus_api_key || secrets.SCOPUS_API_KEY }}
+          MAX_RECORDS: ${{ github.event.inputs.max_records || '5000' }}
         run: |
           python3 p6/tools/05_scopus_api_search.py \
-            --max ${{ github.event.inputs.max_records || '5000' }} \
-            --output p6/tools/results/scopus_api_$(date +%Y%m%d).csv
+            --max "$MAX_RECORDS" \
+            --output "p6/tools/results/scopus_api_$(date +%Y%m%d).csv"
 
       - name: Show summary
         run: |
