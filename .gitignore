@@ -52,3 +52,6 @@ p6/pdfs/
 # Security scan artifacts (may contain sensitive findings)
 dist/security_scan_*.md
 dist/security_scan_*.json
+
+# Build artifacts: figures copied into dist/ during PDF compilation
+dist/submission/figures/
