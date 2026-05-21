@@ -75,14 +75,14 @@ jobs:
             echo "41_auto_extract_from_pdfs.py not found — skipping"
           fi
 
-      - name: Fill ICRV and DPL gaps in tracker
+      - name: Fill ICRV gaps in tracker (abstract-based)
         if: ${{ github.event.inputs.run_extract == 'true' }}
         continue-on-error: true
         run: |
-          if [ -f "p6/tools/49_fill_icrv_dpl_gaps.py" ]; then
-            python3 p6/tools/49_fill_icrv_dpl_gaps.py
+          if [ -f "p6/tools/47_auto_code_icrv.py" ]; then
+            python3 p6/tools/47_auto_code_icrv.py
           else
-            echo "49_fill_icrv_dpl_gaps.py not found — skipping"
+            echo "47_auto_code_icrv.py not found — skipping"
           fi
 
       - name: Show extract summary
@@ -106,7 +106,7 @@ jobs:
           path: |
             p6/tools/results/download_log_repo_*.csv
             p6/tools/results/auto_extract_log_*.csv
-            p6/tools/results/icrv_dpl_fill_log_*.csv
+            p6/tools/results/icrv_auto_log_*.csv
           if-no-files-found: ignore
           retention-days: 30
 
@@ -119,7 +119,7 @@ jobs:
           git pull --rebase origin ${{ github.ref_name }} 2>&1 || echo "Pull had issues, continuing..."
           git add p6/tools/results/download_log_repo_*.csv 2>/dev/null || true
           git add p6/tools/results/auto_extract_log_*.csv 2>/dev/null || true
-          git add p6/tools/results/icrv_dpl_fill_log_*.csv 2>/dev/null || true
+          git add p6/tools/results/icrv_auto_log_*.csv 2>/dev/null || true
           git add p6/tools/results/fulltext_to_extraction_tracker_v3.csv 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing new to commit."
