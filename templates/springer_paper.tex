@@ -50,6 +50,22 @@
 \usepackage{xcolor}
 \usepackage{ulem}\normalem
 
+% --- Code block support (pandoc Shaded / Highlighting environments) ---
+% Required when source markdown contains fenced code blocks (```...```).
+\usepackage{fancyvrb}
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+% Highlighting environment for syntax-highlighted code
+\providecommand{\BuiltInTok}[1]{#1}
+\providecommand{\CommentTok}[1]{\textit{#1}}
+\providecommand{\KeywordTok}[1]{\textbf{#1}}
+\providecommand{\NormalTok}[1]{#1}
+\providecommand{\StringTok}[1]{\textit{#1}}
+\providecommand{\OperatorTok}[1]{#1}
+\providecommand{\DataTypeTok}[1]{#1}
+\providecommand{\FunctionTok}[1]{#1}
+
 % --- Links & references ---
 \usepackage[hidelinks,breaklinks=true]{hyperref}
 \usepackage{cleveref}

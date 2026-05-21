@@ -62,6 +62,7 @@ PANDOC_TEX_OPTS=(
   --template "$TEX_TEMPLATE"
   --resource-path "manuscripts"
   --standalone
+  --no-highlight
 )
 
 build_one() {
