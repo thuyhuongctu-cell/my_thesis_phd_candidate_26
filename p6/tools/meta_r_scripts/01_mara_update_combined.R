@@ -127,17 +127,29 @@ if (nrow(dat_dpl) > 20) {
               m2$QM, m2$QMdf[1], m2$QMp))
 }
 
-# ── Publication bias ──────────────────────────────────────────────────────────
-cat("\n── Publication bias ──\n")
-# Egger's test (using two-level model for simplicity)
-m_2level <- rma(yi, vi, data = combined, method = "REML")
-egger <- regtest(m_2level, model = "lm")
-cat(sprintf("Egger's test: z=%.2f, p=%.3f\n", egger$zval, egger$pval))
+# ── Publication bias (on existing k=238 corpus ONLY — not new additions) ─────
+cat("\n── Publication bias (k=238 corpus) ──\n")
+# Publication bias tests should be on the systematic-review corpus, not new additions.
+# The 3 new tracker papers (high r, not yet full L2 reviewed) destabilize trim-fill.
+existing_pb <- subset(combined, source == "existing_k238")
+m_2level <- rma(yi, vi, data = existing_pb, method = "REML")
+cat(sprintf("Corpus for PB: K=%d effects, r=%.4f\n", m_2level$k, tanh(coef(m_2level))))
 
-# Trim-and-fill
-taf <- trimfill(m_2level)
-cat(sprintf("Trim-and-fill: imputed=%d, adjusted r=%.4f\n",
-            taf$k0, tanh(coef(taf))))
+# Egger's test (lm regression, tests intercept)
+precision <- 1 / sqrt(existing_pb$vi)
+egger_lm <- lm(existing_pb$yi ~ precision, weights = 1 / existing_pb$vi)
+egger_b0  <- coef(egger_lm)[1]
+egger_p   <- summary(egger_lm)$coeff[1, 4]
+cat(sprintf("Egger's test: b0=%.3f, p=%.3f\n", egger_b0, egger_p))
+
+# Trim-and-fill (L0 estimator, left-side imputation)
+taf <- trimfill(m_2level, estimator = "L0")
+cat(sprintf("Trim-and-fill (L0): imputed=%d, adjusted r=%.4f [%.4f, %.4f]\n",
+            taf$k0, tanh(coef(taf)), tanh(taf$ci.lb), tanh(taf$ci.ub)))
+
+# Begg's rank correlation test
+begg <- ranktest(m_2level)
+cat(sprintf("Begg's test: tau=%.3f, p=%.4f\n", begg$tau, begg$pval))
 
 # ── Baseline comparison ───────────────────────────────────────────────────────
 # NOTE on I²: Manuscript reports I²=62.4% using typical_v = mean(vi) ≈ 0.00611.
