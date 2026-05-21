@@ -83,9 +83,45 @@ build_one() {
   echo "       $(du -h "$out_tex" | cut -f1) written"
 }
 
-build_one "p3_vietnam"   "manuscripts/p3_vietnam_en_clean.md"   "APJM"
-build_one "p4_singapore" "manuscripts/p4_singapore_en_clean.md" "MIR"
-build_one "p5_china"     "manuscripts/p5_china_en_clean.md"     "APJM"
+build_one "p3_vietnam"      "manuscripts/p3_vietnam_en_clean.md"   "APJM"
+build_one "p4_singapore"    "manuscripts/p4_singapore_en_clean.md" "MIR"
+build_one "p5_china"        "manuscripts/p5_china_en_clean.md"     "APJM"
+
+# Vietnamese translations (academic VN versions for CTU / thesis dossier).
+# Use the CTU thesis reference template (TNR 13pt, 1.5 line spacing,
+# margins 3-2-2-2 cm) since VN versions target Vietnamese academic /
+# thesis review, not the international Springer paper format.
+if [[ -f "templates/ctu_thesis_reference.docx" ]]; then
+  PANDOC_DOCX_OPTS_VN=(
+    --from "gfm+tex_math_dollars"
+    --to docx
+    --reference-doc "templates/ctu_thesis_reference.docx"
+    --resource-path "manuscripts"
+    --highlight-style tango
+  )
+
+  build_one_vn() {
+    local label="$1"
+    local source="$2"
+    local out_docx="$OUT_DIR/${label}_VN.docx"
+    local out_tex="$OUT_DIR/${label}_VN.tex"
+
+    echo "[docx-vn] $label -> $out_docx"
+    pandoc "${PANDOC_DOCX_OPTS_VN[@]}" "$source" -o "$out_docx"
+    echo "          $(du -h "$out_docx" | cut -f1) written"
+
+    echo "[tex-vn]  $label -> $out_tex"
+    pandoc "${PANDOC_TEX_OPTS[@]}" \
+      --metadata title="$label (bản dịch tiếng Việt)" \
+      --metadata date="$(date +%Y-%m-%d)" \
+      "$source" -o "$out_tex"
+    echo "          $(du -h "$out_tex" | cut -f1) written"
+  }
+
+  [[ -f manuscripts/p3_vietnam_vi_clean.md   ]] && build_one_vn "p3_vietnam"   "manuscripts/p3_vietnam_vi_clean.md"
+  [[ -f manuscripts/p4_singapore_vi_clean.md ]] && build_one_vn "p4_singapore" "manuscripts/p4_singapore_vi_clean.md"
+  [[ -f manuscripts/p5_china_vi_clean.md     ]] && build_one_vn "p5_china"     "manuscripts/p5_china_vi_clean.md"
+fi
 
 echo ""
 echo "=== Submission package built ==="

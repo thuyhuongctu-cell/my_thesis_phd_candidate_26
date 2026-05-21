@@ -9,7 +9,7 @@ verbatim; deviations require justification in a translator's note.
 | English | Vietnamese | First-mention format |
 |---|---|---|
 | internationalisation | quốc tế hoá | quốc tế hoá (internationalisation) |
-| firm performance | hiệu quả hoạt động doanh nghiệp | hiệu quả hoạt động doanh nghiệp (firm performance) |
+| firm performance | hiệu quả hoạt động kinh doanh của doanh nghiệp | hiệu quả hoạt động kinh doanh của doanh nghiệp (firm performance) |
 | labour productivity | năng suất lao động | năng suất lao động (labour productivity, ln LP) |
 | export intensity | cường độ xuất khẩu | cường độ xuất khẩu (export intensity, FSTS) |
 | direct exports / FSTS | tỉ trọng doanh thu xuất khẩu trực tiếp | tỉ trọng doanh thu xuất khẩu trực tiếp (FSTS) |
