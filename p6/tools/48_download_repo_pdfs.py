@@ -193,10 +193,14 @@ def main():
     with open(args.queue, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
-    targets = [r for r in rows if r.get("pdf_status", "") == "REPO_URL"]
+    targets = [r for r in rows
+               if r.get("pdf_status", "") in ("REPO_URL", "LOCAL_PDF")
+               and r.get("source_url_or_pdf_path", "").strip().startswith("http")]
     if args.limit:
         targets = targets[:args.limit]
-    print(f"REPO_URL papers to attempt: {len(targets)}")
+    n_repo = sum(1 for r in targets if r.get("pdf_status") == "REPO_URL")
+    n_local = sum(1 for r in targets if r.get("pdf_status") == "LOCAL_PDF")
+    print(f"Papers to attempt: {len(targets)} (REPO_URL={n_repo}, LOCAL_PDF={n_local})")
 
     log_rows = []
     ok_count = 0
