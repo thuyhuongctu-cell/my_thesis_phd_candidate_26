@@ -1,40 +1,46 @@
-# Git ignore rules
-
-# Environment
-.env
-.env.local
-.env.*.local
-.env.production
-
-# Claude local settings
-.claude/settings.local.json
-.claude/CLAUDE.local.md
-
-# Dependencies
-node_modules/
 
 # Build output
-dist/
-build/
-out/
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# OS
-.DS_Store
-Thumbs.db
-
+# Claude local settings
+# Dependencies
+# Environment
+# Git ignore rules
 # IDE
-.vscode/settings.json
-.idea/
-
-# Test coverage
-coverage/
-.nyc_output/
-
+# Logs
+# OS
 # Temporary files
-tmp/
+# Test coverage
+*.log
+.DS_Store
+.claude/CLAUDE.local.md
+.claude/settings.local.json
+.env
+.env.*.local
+.env.local
+.env.production
+.idea/
+.nyc_output/
+.vscode/settings.json
+Thumbs.db
+build/
+coverage/
+# dist/ — submission artefacts are committed (dist/submission/*.{docx,tex,pdf})
+# Only exclude build-time logs and embedded asset copies
+dist/**/*.log
+dist/**/*.aux
+dist/**/*.out
+dist/**/*.toc
+dist/**/*.lof
+dist/**/*.lot
+dist/**/*.bbl
+dist/**/*.blg
+dist/**/*.synctex.gz
+dist/**/*.fdb_latexmk
+dist/**/*.fls
+dist/submission/figures/
+dist/submission/.claude/
+logs/
+node_modules/
+npm-debug.log*
+out/
 temp/
+tmp/

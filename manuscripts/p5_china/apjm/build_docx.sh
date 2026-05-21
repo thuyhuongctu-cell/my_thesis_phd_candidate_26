@@ -42,14 +42,15 @@ else
   echo "      [SKIP] matplotlib not installed; Figures 2/3/4 will be missing"
 fi
 
-echo "[3/4] Assembling 6 v1.8 BLINDED manuscript parts + injecting figure references..."
+echo "[3/4] Assembling 7 v1.8 BLINDED manuscript parts + injecting figure references..."
 cat \
     manuscript_v1_8_blinded_part1_frontmatter_intro.md \
     manuscript_v1_8_blinded_part2_theory.md \
     manuscript_v1_8_blinded_part3_data_methods.md \
     manuscript_v1_8_blinded_part4_results.md \
     manuscript_v1_8_blinded_part5_discussion.md \
-    manuscript_v1_8_blinded_part6_limits_refs.md \
+    manuscript_v1_8_blinded_part6_limitations.md \
+    manuscript_v1_8_blinded_part7_references.md \
     > manuscript_v1_8_blinded_complete.md
 
 python3 - <<'PY'

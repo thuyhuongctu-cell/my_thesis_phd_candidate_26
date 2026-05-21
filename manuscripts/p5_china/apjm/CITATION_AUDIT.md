@@ -77,12 +77,13 @@ These references were added in v1.5 / v1.6. The AI may have correctly identified
 | 39 | Vial, G. (2019). Understanding digital transformation. *JSIS, 28*(2), 118–144. | **VERIFIED** | Confirmed JSIS 28(2), 118–144 |
 | 40 | Volberda, H. W., Khanagha, S., Baden-Fuller, C., Mihalache, O. R., & Birkinshaw, J. (2021). Strategizing in a digital world. *Long Range Planning, 54*(5), 102110. | **VERIFIED** | Confirmed Long Range Planning 54(5), article 102110 |
 
-### Tier D — Author's own publications (mentioned by user; please confirm)
+### Tier D — Author's own publications (all blinded for APJM submission)
 
 | # | Reference | Status |
 |---|---|---|
-| 41 | Do, T. H., & Tu, P. A. (2025). Internationalization and firm performance: A meta-analysis review. *ICBEF 2025 proceedings*. | Author confirms |
-| 42 | Do, T. H., & Tu, P. A. (2026). Firm performance heterogeneity in emerging Asia. *Vietnam Economic Financial Review, 2*(1), 111–115. | Author confirms |
+| 41 | Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance: A meta-analysis review. *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489). College of Economics, Can Tho University. ISBN 978-632-614-030-9. | Published (ISBN-registered conference proceedings). Cited in-text as "Author Citation, 2025 — ICBEF". |
+| 42 | Do, T. H., & Phan, A. T. (2026). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic and Financial Review, 2*(1), 111–115. Ministry of Finance (Vietnam). | Published. Cited in-text as "Author Citation, 2026 — VEFR". |
+| 43 | Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 39*(02), 287–291. | Published. Cited in-text as "Author Citation, 2026 — JFAR". |
 
 ## Verification protocol (used in this audit)
 
@@ -100,8 +101,10 @@ For each Tier B and Tier C reference, the audit:
 | A — Classics | 22 | 22 | 0 | 0 |
 | B — Mid-confidence | 8 | 8 | 1 (Avenyo, v1.8.1) | 0 |
 | C — Recently added | 10 | 10 | 1 (Demir & Javorcik, v1.8) | 0 |
-| D — Author publications | 2 | 2 | 0 | 0 |
-| **Total** | **42** | **42** | **2** | **0** |
+| D — Author publications | 3 | 3 | 0 | 0 |
+| **Total** | **43** | **43** | **2** | **0** |
+
+**v1.9 change:** All three Tier-D self-citations (ICBEF 2025, VEFR 2026, JFAR 2026) are PUBLISHED works (ISBN-registered conference proceedings; Vietnam Economic and Financial Review issued by Ministry of Finance; Journal of Finance & Accounting Research). They are cited in-text in blinded form "Author Citation, year — journal-acronym" per APJM blind-review convention; full author details will be un-blinded after acceptance. Cross-references to *unsubmitted* companion working papers (P3 Vietnam, P4 Singapore) were removed in v1.9 because those manuscripts are not yet citable.
 
 → **All 42 references verified.** Manuscript ready for APJM submission.
 
@@ -110,4 +113,5 @@ For each Tier B and Tier C reference, the audit:
 - **v1.6 → v1.7 (2026-05-03):** Initial Tier A/B/C classification + warning to verify
 - **v1.7 → v1.8 (2026-05-04):** Tier C verification (10 refs); Demir & Javorcik 2018 patched
 - **v1.8 → v1.8.1 (2026-05-06):** Tier B verification (8 refs); Avenyo et al. 2021 patched
+- **v1.9 (2026-05-20):** Tier D self-citations restored in blinded form after confirming all three (ICBEF 2025, VEFR 2026, JFAR 2026) are published. Cross-references to unsubmitted companion working papers removed. Part5 (discussion), part6 (limitations + conclusion), part7 (references + acknowledgements) extracted from the clean source so the APJM split is complete (7 parts) and `build_docx.sh` runs end-to-end. ICBEF reference blinded further: institutional publisher "College of Economics, Can Tho University" replaced with "[Publisher details withheld for blind review]" to avoid affiliation leak.
 - **All tiers verified.** Audit closed.
