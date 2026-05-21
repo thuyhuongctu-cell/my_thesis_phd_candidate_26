@@ -27,6 +27,11 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+# Use a UTF-8 locale so Vietnamese diacritics in --metadata title=... are not
+# mangled into U+FFFD replacement characters by the shell.
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+
 OUT_DIR="dist/submission"
 DOCX_TEMPLATE="templates/ctu_paper_reference.docx"
 TEX_TEMPLATE="templates/springer_paper.tex"
@@ -152,9 +157,15 @@ if [[ -n "$LATEX_ENGINE" ]]; then
     echo "[pdf]  $base (via $LATEX_ENGINE)"
     (
       cd "$OUT_DIR"
+      # Pass 1: initial compilation
       "$LATEX_ENGINE" -interaction=nonstopmode "$(basename "$tex")" \
         > "${base}_latex.log" 2>&1 \
         || echo "       [warn] $LATEX_ENGINE emitted errors (see ${base}_latex.log)"
+      # Pass 2: resolve cross-references + longtable widths first attempt
+      "$LATEX_ENGINE" -interaction=nonstopmode "$(basename "$tex")" \
+        >> "${base}_latex.log" 2>&1 || true
+      # Pass 3: converge longtable column widths + hyperref page labels
+      # (longtable + hyperref typically need 3 passes to fully settle)
       "$LATEX_ENGINE" -interaction=nonstopmode "$(basename "$tex")" \
         >> "${base}_latex.log" 2>&1 || true
     )
