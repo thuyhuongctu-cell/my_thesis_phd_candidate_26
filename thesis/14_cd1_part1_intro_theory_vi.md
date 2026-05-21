@@ -259,15 +259,15 @@ Vì vậy, chuyên đề này lấp khoảng trống thực tiễn bằng việc
 
 **Phạm vi thời gian**: **2009–2025** (16 năm × 14 mốc khảo sát: 2009–2016, 2018–2025). Bao trùm ba thế hệ khung dữ liệu WBES, gồm PICS3 (2009–2012, n=14.335), Standardized (2013–2017, n=25.046), Standardized 2018+ với BREADY/BEE/EAP Core (2018–2025, n=61.804).
 
-**Phạm vi nội dung**: hiệu quả hoạt động kinh doanh đa chiều — năng suất lao động, lợi nhuận, tăng trưởng, đổi mới sáng tạo, cấu trúc doanh nghiệp.
+**Phạm vi nội dung**: hiệu quả hoạt động kinh doanh đa chiều, gồm năng suất lao động, lợi nhuận, tăng trưởng, đổi mới sáng tạo, cấu trúc doanh nghiệp.
 
 ### 1.4 Phương pháp tiếp cận
 
 Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán** (descriptive-diagnostic), không thiết lập mô hình hồi quy đa biến để kiểm định nhân quả. Phương pháp này cung cấp bức tranh tổng thể đáng tin cậy làm nền tảng thực tiễn cho Chuyên đề 2 (mô hình lý thuyết và thực nghiêm) và luận án (kiểm định thực nghiệm).
 
-Cụ thể, chuyên đề kết hợp ba kỹ thuật: (a) thống kê mô tả đa biến (trung vị, trung bình, độ phân tán, kurtosis) theo phân nhóm thể chế và theo ngành; (b) trực quan hóa dữ liệu (heatmap, kernel density, spider chart, scatter plot — 11 hình); (c) phân tích hai biến (bivariate). Khung PESTEL bổ trợ ở cấp độ giải thích bối cảnh.
+Cụ thể, chuyên đề kết hợp ba kỹ thuật: (a) thống kê mô tả đa biến (trung vị, trung bình, độ phân tán, kurtosis) theo phân nhóm thể chế và theo ngành; (b) trực quan hóa dữ liệu (heatmap, kernel density, spider chart, scatter plot, tổng 11 hình); (c) phân tích hai biến (bivariate). Khung PESTEL bổ trợ ở cấp độ giải thích bối cảnh.
 
-**Áp dụng nguyên tắc transparent data section của Aguinis et al. (2019 — *Journal of Management*)**: chuyên đề trình bày rõ (i) population definition (47 nền kinh tế Asia + Pacific với phân tách 41 vs 7); (ii) sampling procedure (WBES official sampling); (iii) sample size justification (pool 101.185); (iv) response rate (per WBES Country Profile each); (v) missing data handling (FSTS = d3b + d3c, winsorize 1/99); (vi) operationalization variables; (vii) reliability/validity (TCI = R&D + ISO multi-component aspirational, DAI = website single-component v3.0, multi-component v3.2); (viii) estimation method (descriptive only in CĐ1; OLS + IV in CĐ2); (ix) standard errors (n/a CĐ1); (x) robustness (cross-validate with VEFR baseline 17 nước); (xi) open science (replication package `wbes/` + `papers/` + `figures/`); (xii) data sharing (WBES public + processed pool documented in Phụ lục E).
+**Áp dụng nguyên tắc transparent data section của Aguinis et al. (2019, *Journal of Management*)**: chuyên đề trình bày rõ (i) population definition (47 nền kinh tế Asia + Pacific với phân tách 41 vs 7); (ii) sampling procedure (WBES official sampling); (iii) sample size justification (pool 101.185); (iv) response rate (per WBES Country Profile each); (v) missing data handling (FSTS = d3b + d3c, winsorize 1/99); (vi) operationalization variables; (vii) reliability/validity (TCI = R&D + ISO multi-component aspirational, DAI = website single-component v3.0, multi-component v3.2); (viii) estimation method (descriptive only in CĐ1; OLS + IV in CĐ2); (ix) standard errors (n/a CĐ1); (x) robustness (cross-validate with VEFR baseline 17 nước); (xi) open science (replication package `wbes/` + `papers/` + `figures/`); (xii) data sharing (WBES public + processed pool documented in Phụ lục E).
 
 **Khung lý giải lý thuyết bổ sung, Kafouros et al. (2023, *Global Strategy Journal*)**: Phương pháp descriptive được dẫn dắt bởi ba cơ chế (mechanisms) qua đó chất lượng thể chế tác động đến hiệu quả doanh nghiệp ở các nền kinh tế mới nổi: (a) **chi phí và mức độ dễ dàng nhận diện và thiết lập đối tác** (partnership identification), giải thích vì sao DAI và mức độ tham gia website thay đổi mạnh xuyên các phân nhóm thể chế; (b) **hiệu lực của khung pháp lý và sở hữu trí tuệ** (legal framework effectiveness), giải thích sự phân tán R&D, ISO và TCI; (c) **trao đổi giữa các doanh nghiệp** (interfirm market exchange), giải thích phân tán năng suất nội bộ. Khung 3 cơ chế này là cơ sở để CĐ2 thiết lập các mô hình điều tiết (moderation) cho giả thuyết H7 mới về tương tác giữa chất lượng thể chế và động học ngành (industry × institutional dynamism interaction).
 
@@ -328,7 +328,7 @@ Hiệu quả doanh nghiệp trong chuyên đề này được đo lường theo 
 Một meta-analysis 2024 bổ sung của Aydemir và cộng sự (2024) trên k=170 mẫu (n=334,855 MNCs từ SSCI và Scopus) củng cố quy mô hiệu ứng dương nhỏ giữa quốc tế hoá và hiệu quả doanh nghiệp, với biến điều tiết quan trọng gồm thế hệ phát triển, đòn bẩy tài chính, và R&D intensity. Wagner (2025) tổng hợp bằng chứng cấp doanh nghiệp Nordic, nhấn mạnh rằng các pattern xuyên quốc gia khó tổng quát hoá thành stylised facts cho chính sách. Hai cập nhật này hỗ trợ luận điểm về tính không đồng nhất xuyên bối cảnh trong phần §3 ICRV.
 
 
-Văn liệu về quan hệ quốc tế hóa dẫn đến hiệu quả (I→P) là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế (International Business — IB). Năm meta-analysis lớn cung cấp nền tảng thực nghiệm:
+Văn liệu về quan hệ quốc tế hóa dẫn đến hiệu quả (I→P) là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế (International Business, IB). Năm meta-analysis lớn cung cấp nền tảng thực nghiệm:
 
 **(1) Bausch & Krist (2007)**: Tổng hợp **68 nghiên cứu (k=68)** giai đoạn 1980–2005. Hệ số tương quan trung bình r=0,045, tích cực nhưng nhỏ. Phát hiện chính: đo lường I (internationalization) và đo lường P (performance) rất không đồng nhất giữa các nghiên cứu, dẫn đến hạn chế khả năng so sánh. Khoảng trống: ít nghiên cứu châu Á mới nổi.
 
@@ -428,11 +428,11 @@ CDCM hợp nhất phát hiện Singapore P3 (Mar et al., 2026) + Việt Nam P4 (
 
 **Hàm ý phương pháp luận cho CĐ2 + luận án**:
 - **Specification 1** (Tier 1-only website, full pool 2009-2025): expected hệ số DAI âm hoặc null ở Advanced phân nhóm innovation-driven do bão hòa Tier 1 (xem Mục 1.5 contribution #3 + Mục 4.4.5 ICT exclusion test file 15);
-- **Specification 2** (Tier 1+2 multi-component, BREADY 2018+ wave): expected positive coefficient + interaction với FSTS² dương ở Advanced — replication pattern Singapore P3;
-- **Robustness check #10** (mới): cross-validation construct boundary — chạy Spec 2 chỉ ở 41 nước có đủ Tier 1+2 data (BREADY+ wave); confirm rằng pattern Singapore-style emerges khi có composite digital adoption metric;
+- **Specification 2** (Tier 1+2 multi-component, BREADY 2018+ wave): expected positive coefficient + interaction với FSTS² dương ở Advanced, replication pattern Singapore P3;
+- **Robustness check #10** (mới): cross-validation construct boundary; chạy Spec 2 chỉ ở 41 nước có đủ Tier 1+2 data (BREADY+ wave); confirm rằng pattern Singapore-style emerges khi có composite digital adoption metric;
 - **Hạn chế minh bạch (Limitations)**: WBES không quan sát Tier 3 (ERP/CRM) và Tier 4 (AI). Đề xuất nghiên cứu tương lai sử dụng panel data đo trực tiếp các hệ thống ERP/AI để xác định ranh giới giữa "đòn bẩy" (lever) và "điểm nghẽn" (bottleneck) của số hóa theo cấp tầng và cường độ xuất khẩu.
 
-**Tham chiếu**: Verhoef et al. (2021); Bharadwaj et al. (2013); Brynjolfsson & McAfee (2014); Mar et al. (2026, P3 Singapore manuscript, *MIR* under review); Đỗ & Phan (2026, P4 Việt Nam — *APJM*); Coase (1937); Williamson (1985); Banalieva & Dhanaraj (2019).
+**Tham chiếu**: Verhoef et al. (2021); Bharadwaj et al. (2013); Brynjolfsson & McAfee (2014); Mar et al. (2026, P3 Singapore manuscript, *MIR* under review); Đỗ & Phan (2026, P4 Việt Nam, *APJM*); Coase (1937); Williamson (1985); Banalieva & Dhanaraj (2019).
 
 ---
 
@@ -440,9 +440,9 @@ CDCM hợp nhất phát hiện Singapore P3 (Mar et al., 2026) + Việt Nam P4 (
 
 ### 3.1 Lý do phân loại
 
-Châu Á không phải là một khối đồng nhất về thể chế. Các nghiên cứu meta-analysis (Marano et al., 2016; Wu et al., 2022) đã ghi nhận rằng bối cảnh thể chế là biến điều tiết quan trọng nhất trong quan hệ I→P — nhưng không có nghiên cứu nào thiết lập hệ thống phân loại thể chế toàn diện cho 47 nền kinh tế châu Á. Khung phân loại ICRV (Institutional Context Regime Variation) được đề xuất trong chuyên đề này nhằm lấp khoảng trống đó, dựa trên bốn nguyên tắc:
+Châu Á không phải là một khối đồng nhất về thể chế. Các nghiên cứu meta-analysis (Marano et al., 2016; Wu et al., 2022) đã ghi nhận rằng bối cảnh thể chế là biến điều tiết quan trọng nhất trong quan hệ I→P. Tuy vậy, không có nghiên cứu nào thiết lập hệ thống phân loại thể chế toàn diện cho 47 nền kinh tế châu Á. Khung phân loại ICRV (Institutional Context Regime Variation) được đề xuất trong chuyên đề này nhằm lấp khoảng trống đó, dựa trên bốn nguyên tắc:
 
-(a) **Tính phân biệt** (discriminating power): mỗi nhóm phải có mô hình hiệu quả doanh nghiệp khác biệt thực sự — không chỉ khác nhau về mức GDP per capita;
+(a) **Tính phân biệt** (discriminating power): mỗi nhóm phải có mô hình hiệu quả doanh nghiệp khác biệt thực sự, không chỉ khác nhau về mức GDP per capita;
 
 (b) **Tính đại diện lý thuyết**: phân loại phải phản ánh được các cơ chế thể chế khác nhau (thể chế đổi mới sáng tạo vs thể chế tài nguyên vs thể chế chuyển đổi, v.v.) theo Varieties of Capitalism (Hall & Soskice, 2001) và Institutional Theory (North, 1990);
 
@@ -454,15 +454,15 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ng
 
 **Nhóm I — Advanced đổi mới sáng tạo dẫn dắt (Innovation-driven)**: WGI Rule of Law >+0,80; GNI per capita >\$30.000 (WB Atlas method); GDP tăng trưởng dựa trên đổi mới công nghệ, dịch vụ tài chính và hàm lượng tri thức cao. Bằng chứng WBES: R&D >10%, ISO >20%, sd log năng suất ~1,03 (diversified).
 
-**Nhóm II — Advanced tài nguyên dẫn dắt (Resource-driven)**: WGI Rule of Law trung bình (+0,00 dẫn đến +0,50); GNI per capita >\$20.000; GDP tăng trưởng dựa trên xuất khẩu tài nguyên thiên nhiên (dầu mỏ, khí đốt, khoáng sản). Bằng chứng WBES: FDI cao hướng khai thác tài nguyên, sd log năng suất thấp (~0,49 — đặc trưng nhà nước tô rentier state).
+**Nhóm II — Advanced tài nguyên dẫn dắt (Resource-driven)**: WGI Rule of Law trung bình (+0,00 đến +0,50); GNI per capita >\$20.000; GDP tăng trưởng dựa trên xuất khẩu tài nguyên thiên nhiên (dầu mỏ, khí đốt, khoáng sản). Bằng chứng WBES: FDI cao hướng khai thác tài nguyên, sd log năng suất thấp (~0,49, đặc trưng nhà nước tô rentier state).
 
-**Nhóm III — Trung bình cao (Upper-middle)**: WGI Rule of Law 0,00 dẫn đến +0,80; GNI per capita \$5.000–\$20.000; nền kinh tế chuyển đổi từ manufacturing sang dịch vụ, với R&D đang tăng (đặc biệt Trung Quốc). WBES pattern: manufacturing FSTS cao, R&D tăng mạnh giai đoạn 2018–2025 (+21,5 đpt Upper-middle).
+**Nhóm III — Trung bình cao (Upper-middle)**: WGI Rule of Law 0,00 đến +0,80; GNI per capita \$5.000–\$20.000; nền kinh tế chuyển đổi từ manufacturing sang dịch vụ, với R&D đang tăng (đặc biệt Trung Quốc). WBES pattern: manufacturing FSTS cao, R&D tăng mạnh giai đoạn 2018–2025 (+21,5 đpt Upper-middle).
 
-**Nhóm IV — Đang nổi (Emerging)**: WGI Rule of Law -0,50 dẫn đến 0,00; GNI per capita \$1.000–\$5.000; tốc độ tăng trưởng cao nhưng gap de jure–de facto lớn (Xu, 2024); manufacturing FDI-driven dẫn dắt xuất khẩu. WBES pattern: FSTS phân cực cao/thấp trong nội bộ nhóm; FDI thấp nhất (4,7%) — do doanh nghiệp nội địa chi phối sample.
+**Nhóm IV — Đang nổi (Emerging)**: WGI Rule of Law -0,50 đến 0,00; GNI per capita \$1.000–\$5.000; tốc độ tăng trưởng cao nhưng gap de jure–de facto lớn (Xu, 2024); manufacturing FDI-driven dẫn dắt xuất khẩu. WBES pattern: FSTS phân cực cao/thấp trong nội bộ nhóm; FDI thấp nhất (4,7%) do doanh nghiệp nội địa chi phối sample.
 
 **Nhóm V — Cận biên (Frontier)**: WGI Rule of Law < -0,50; GNI per capita <\$1.000 hoặc <\$3.000 với voids thể chế lớn; nhiều nước đang qua giai đoạn xung đột hoặc chuyển đổi sau xung đột. WBES pattern: phân tán năng suất cao nhất (sd log 1,36), R&D thấp nhất, nhưng đổi mới sản phẩm cao (bricolage innovation).
 
-**Nhóm VI — SIDS Thái Bình Dương (Boundary case extension)**: Dân số <1 triệu; cô lập địa lý >2.000 km từ hub thương mại; phụ thuộc ODA + remittances > 20% GDP; MIRAB model (Bertram, 2006). WBES pattern: n=1.371 (1,4% pool); FDI cao nhất (23,5% — do MNE tourism); innovation product cao nhất (41,5% — bricolage); website cao trừ Kiribati (18,7%).
+**Nhóm VI — SIDS Thái Bình Dương (Boundary case extension)**: Dân số <1 triệu; cô lập địa lý >2.000 km từ hub thương mại; phụ thuộc ODA + remittances > 20% GDP; MIRAB model (Bertram, 2006). WBES pattern: n=1.371 (1,4% pool); FDI cao nhất (23,5%, do MNE tourism); innovation product cao nhất (41,5%, bricolage); website cao trừ Kiribati (18,7%).
 
 ### 3.3 Danh sách 47 nền kinh tế theo nhóm ICRV (Bảng 3.1)
 
@@ -493,7 +493,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ng
 | V — Frontier | <-0,50 | <\$1k–\$3k | Subsistence + informal | Thấp–trung bình | ~1,36 | Yếu; institutional voids → bricolage innovation |
 | VI — SIDS | Đặc biệt | \$1k–\$8k | MIRAB + tourism | Rất thấp (1–12%) | ~1,32 | Forced internationalization — U-curve không vận hành |
 
-*Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, July). Pattern WBES từ phân tích Chương 4 và Đỗ & Phan (2026 — VEFR, APJM, JFAR, MIR under review).*
+*Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, July). Pattern WBES từ phân tích Chương 4 và Đỗ & Phan (2026, VEFR, APJM, JFAR, MIR under review).*
 
 ---
 
