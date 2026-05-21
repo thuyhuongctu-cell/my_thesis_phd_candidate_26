@@ -135,12 +135,17 @@ existing_pb <- subset(combined, source == "existing_k238")
 m_2level <- rma(yi, vi, data = existing_pb, method = "REML")
 cat(sprintf("Corpus for PB: K=%d effects, r=%.4f\n", m_2level$k, tanh(coef(m_2level))))
 
-# Egger's test (lm regression, tests intercept)
+# Egger's test — two formulations:
+# (1) metafor regtest(predictor='sei'): regresses yi on sei, WLS — matches manuscript b=0.475
+egger_rt <- regtest(m_2level, predictor = "sei")
+cat(sprintf("Egger regtest (sei): z=%.3f, p=%.3f  [manuscript: b=0.475, p=.057]\n",
+            egger_rt$zval, egger_rt$pval))
+
+# (2) lm weighted regression (Egger 1997 variant: yi ~ precision, weights=1/vi)
 precision <- 1 / sqrt(existing_pb$vi)
-egger_lm <- lm(existing_pb$yi ~ precision, weights = 1 / existing_pb$vi)
-egger_b0  <- coef(egger_lm)[1]
-egger_p   <- summary(egger_lm)$coeff[1, 4]
-cat(sprintf("Egger's test: b0=%.3f, p=%.3f\n", egger_b0, egger_p))
+egger_lm  <- lm(existing_pb$yi ~ precision, weights = 1 / existing_pb$vi)
+cat(sprintf("Egger lm (precision): b0=%.3f, p=%.3f\n",
+            coef(egger_lm)[1], summary(egger_lm)$coeff[1, 4]))
 
 # Trim-and-fill (L0 estimator, left-side imputation)
 taf <- trimfill(m_2level, estimator = "L0")

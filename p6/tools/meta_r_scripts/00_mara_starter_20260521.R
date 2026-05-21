@@ -47,9 +47,11 @@ m2_dpl  <- rma.mv(yi, vi, mods = ~ factor(dpl),
                   data = dat, method = "REML")
 
 # ── Publication bias ────────────────────────────────────────────────
-precision <- 1 / sqrt(dat$vi)
-egger     <- lm(dat$yi ~ precision, weights = 1 / dat$vi)
-cat("Egger p =", summary(egger)$coefficients[1, 4], "\n")
+m0_2level <- rma(yi, vi, data = dat, method = "REML")  # 2-level for Egger/trim-fill
+egger_rt  <- regtest(m0_2level, predictor = "sei")     # manuscript-comparable
+cat("Egger regtest: z =", round(egger_rt$zval, 3), "p =", round(egger_rt$pval, 3), "\n")
+taf <- trimfill(m0_2level, estimator = "L0")
+cat("Trim-fill: k0 =", taf$k0, "adj_r =", round(tanh(coef(taf)), 4), "\n")
 
 # ── Cluster-robust variance estimation ─────────────────────────────
 vcov_rve <- vcovCR(m0, cluster = dat$study_id, type = "CR2")
