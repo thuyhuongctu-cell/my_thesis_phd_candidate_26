@@ -27,7 +27,7 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v4
         with:
-          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          ref: ${{ github.ref_name }}
           token: ${{ github.token }}
 
       - name: Set up Python
@@ -126,7 +126,7 @@ print('| converted_r filled |', filled, '|')
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin claude/edit-vietnamese-academic-standards-xcAmn 2>&1 || echo "Pull had issues, continuing..."
+          git pull --rebase origin ${{ github.ref_name }} 2>&1 || echo "Pull had issues, continuing..."
           git add p6/tools/results/download_log_repo_*.csv 2>/dev/null || true
           git add p6/tools/results/auto_extract_log_*.csv 2>/dev/null || true
           git add p6/tools/results/fulltext_to_extraction_tracker_v3.csv 2>/dev/null || true
@@ -134,6 +134,6 @@ print('| converted_r filled |', filled, '|')
             echo "Nothing new to commit."
           else
             git commit -m "feat(p6): PDF download + auto-extract results [$(date +%Y%m%d)]"
-            git push origin claude/edit-vietnamese-academic-standards-xcAmn 2>&1 \
+            git push origin ${{ github.ref_name }} 2>&1 \
               || echo "Push failed — results available as workflow artifacts."
           fi
