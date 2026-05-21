@@ -31,9 +31,10 @@ DEFAULT_TRACKER  = "p6/tools/results/fulltext_to_extraction_tracker_v3.csv"
 DEFAULT_LOG      = f"p6/tools/results/auto_extract_log_{date.today().strftime('%Y%m%d')}.csv"
 
 # ─── Internationalization variable keywords ───────────────────────────────────
+# NOTE: "doi" removed — causes false positives on DOI strings in headers/references
 I_KEYWORDS = [
     "fsts", "foreign sales", "export intensity", "export ratio",
-    "internationalization", "internationalisation", "doi", "degree of int",
+    "internationalization", "internationalisation", "degree of int",
     "multinationality", "foreign revenue", "overseas sales",
     "export sales", "geographic diversif", "entropy", "n_countries",
     "number of countries", "foreign subsid",

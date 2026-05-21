@@ -1,0 +1,260 @@
+# ICRV Regime Classification Map
+# Single source of truth for country → ICRV code mapping
+# Used by: 47_auto_code_icrv.py, 49_fill_icrv_dpl_gaps.py, 55_extract_structured.py
+#
+# ICRV codes:
+#   1 = Advanced (high-income OECD)
+#   2 = Upper-middle / Emerging-advanced
+#   3 = Emerging / Developing
+#   4 = Resource-rich / GCC
+#   5 = SIDS (Small Island Developing States)
+#   6 = Frontier / LDC
+#   0 = Multi-country (mixed sample; default to 2 if dominant context is emerging)
+#
+# ICRV TP gradient: TP DECREASES as institutional quality INCREASES
+#   Group 1 (Advanced) ≈ 28% LOWEST turning point
+#   Group 6 (Frontier) ≈ 55% HIGHEST turning point
+
+advanced:  # ICRV = 1
+  countries:
+    - Australia
+    - Austria
+    - Belgium
+    - Canada
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hong Kong
+    - Iceland
+    - Ireland
+    - Israel
+    - Italy
+    - Japan
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Netherlands
+    - New Zealand
+    - Norway
+    - Poland
+    - Portugal
+    - Singapore
+    - Slovakia
+    - Slovenia
+    - South Korea
+    - Korea
+    - Spain
+    - Sweden
+    - Switzerland
+    - Taiwan
+    - United Kingdom
+    - United States
+    - USA
+    - UK
+    - EU
+    - Europe
+    - Western Europe
+    - OECD
+  aliases:
+    - West European
+    - Western European
+    - Developed economies
+    - High-income OECD
+
+upper_middle:  # ICRV = 2
+  countries:
+    - Albania
+    - Algeria
+    - Argentina
+    - Azerbaijan
+    - Belarus
+    - Bosnia
+    - Brazil
+    - Bulgaria
+    - China
+    - Colombia
+    - Costa Rica
+    - Cuba
+    - Dominican Republic
+    - Ecuador
+    - Egypt
+    - El Salvador
+    - Gabon
+    - Georgia
+    - Guatemala
+    - Iran
+    - Iraq
+    - Jamaica
+    - Jordan
+    - Kazakhstan
+    - Lebanon
+    - Libya
+    - Malaysia
+    - Maldives
+    - Mauritius
+    - Mexico
+    - Montenegro
+    - Namibia
+    - North Macedonia
+    - Panama
+    - Paraguay
+    - Peru
+    - Romania
+    - Russia
+    - Serbia
+    - South Africa
+    - Sri Lanka
+    - Thailand
+    - Tunisia
+    - Turkey
+    - Turkmenistan
+    - Ukraine
+    - Uruguay
+    - Venezuela
+  aliases:
+    - Upper-middle income
+    - Transition economies
+
+emerging:  # ICRV = 3
+  countries:
+    - Afghanistan
+    - Angola
+    - Bangladesh
+    - Bolivia
+    - Cabo Verde
+    - Cambodia
+    - Cameroon
+    - Congo
+    - Cote d'Ivoire
+    - Ghana
+    - Honduras
+    - India
+    - Indonesia
+    - Kenya
+    - Kyrgyzstan
+    - Laos
+    - Morocco
+    - Mozambique
+    - Myanmar
+    - Nepal
+    - Nicaragua
+    - Pakistan
+    - Papua New Guinea
+    - Philippines
+    - Senegal
+    - Sudan
+    - Tanzania
+    - Timor-Leste
+    - Togo
+    - Uganda
+    - Uzbekistan
+    - Vietnam
+    - Viet Nam
+    - Zambia
+    - Zimbabwe
+  aliases:
+    - Emerging economies
+    - Developing countries
+    - Lower-middle income
+
+gcc_resource:  # ICRV = 4
+  countries:
+    - Bahrain
+    - Kuwait
+    - Nigeria
+    - Oman
+    - Qatar
+    - Saudi Arabia
+    - UAE
+    - United Arab Emirates
+    - Venezuela
+    - Brunei
+    - Congo DRC
+    - Equatorial Guinea
+    - Libya
+    - Trinidad and Tobago
+  aliases:
+    - GCC
+    - Resource-rich
+    - Gulf states
+
+sids:  # ICRV = 5
+  countries:
+    - Antigua and Barbuda
+    - Bahamas
+    - Barbados
+    - Belize
+    - Comoros
+    - Cyprus
+    - Dominica
+    - Fiji
+    - Grenada
+    - Haiti
+    - Kiribati
+    - Malta
+    - Marshall Islands
+    - Micronesia
+    - Nauru
+    - Palau
+    - Samoa
+    - Sao Tome
+    - Seychelles
+    - Solomon Islands
+    - St Kitts
+    - St Lucia
+    - St Vincent
+    - Suriname
+    - Tonga
+    - Tuvalu
+    - Vanuatu
+  aliases:
+    - SIDS
+    - Small island
+    - Pacific island
+
+frontier:  # ICRV = 6
+  countries:
+    - Benin
+    - Burkina Faso
+    - Burundi
+    - Central African Republic
+    - Chad
+    - Djibouti
+    - Eritrea
+    - Ethiopia
+    - Gambia
+    - Guinea
+    - Guinea-Bissau
+    - Lesotho
+    - Liberia
+    - Madagascar
+    - Malawi
+    - Mali
+    - Mauritania
+    - Niger
+    - Rwanda
+    - Sierra Leone
+    - Somalia
+    - South Sudan
+    - Syria
+    - Tajikistan
+    - Yemen
+  aliases:
+    - Frontier
+    - LDC
+    - Least developed
+    - Low-income
+
+multi_country:  # ICRV = 0
+  aliases:
+    - Multi-country
+    - Cross-country
+    - Global sample
+    - Multi-national sample
+    - International sample
+    - Panel of countries
+    - Multiple countries
