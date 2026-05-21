@@ -1,0 +1,119 @@
+UNSURE papers WITHOUT DOI — search via Google Scholar / title
+======================================================================
+
+seq=141 | year=2017 | icrv=0 | dpl=3
+  title: Multinationality, R&D and productivity: Evidence from the top R&D investors worldwide
+  journal: INTERNATIONAL BUSINESS REVIEW
+
+seq=143 | year=2017 | icrv=0 | dpl=3
+  title: A Quasi-experimental Approach to the Multinationality-performance Relationship: An Application to Learning-by-exporting
+  journal: GLOBAL STRATEGY JOURNAL
+
+seq=146 | year=2014 | icrv=0 | dpl=3
+  title: From M-P to MA-P: Multinationality alignment and performance
+  journal: JOURNAL OF INTERNATIONAL BUSINESS STUDIES
+
+seq=147 | year=2013 | icrv=II | dpl=3
+  title: Export intensity and the productivity gains of exporting
+  journal: APPLIED ECONOMICS LETTERS
+
+seq=150 | year=2012 | icrv=0 | dpl=3
+  title: Multinationality, foreignness and institutional distance in the relation between R&D and productivity
+  journal: RESEARCH POLICY
+
+seq=155 | year=2008 | icrv=0 | dpl=2
+  title: Multinationality and technical efficiency: A neglected perspective
+  journal: MANAGEMENT INTERNATIONAL REVIEW
+
+seq=366 | year=2024 | icrv=I | dpl=3
+  title: THE MODERATING EFFECT OF WOMEN MANAGERS IN THE INTERNATIONALISATION AND INTELLECTUAL CAPITAL-PERFORMANCE RELATIONSHIP
+  journal: TRANSFORMATIONS IN BUSINESS & ECONOMICS
+
+seq=371 | year=2023 | icrv=1 | dpl=3
+  title: Exports and firm growth: the moderating effect of innovation
+  journal: EUROPEAN JOURNAL OF INTERNATIONAL MANAGEMENT
+
+seq=383 | year=2021 | icrv=I | dpl=3
+  title: Is internationalisation beneficial for novice internationalisers? The performance effects of firm-specific advantages, internationalisation degree and firm size revisited
+  journal: OECONOMIA COPERNICANA
+
+seq=388 | year=2020 | icrv=I | dpl=3
+  title: Innovation, internationalisation and the performance of microbusinesses
+  journal: INTERNATIONAL SMALL BUSINESS JOURNAL-RESEARCHING ENTREPRENEURSHIP
+
+seq=401 | year=2018 | icrv=1 | dpl=3
+  title: Internationalization and performance: the role of depth and breadth
+  journal: ACADEMIA-REVISTA LATINOAMERICANA DE ADMINISTRACION
+
+seq=402 | year=2018 | icrv=0 | dpl=3
+  title: SMEs Performance and Internationalization: A Traditional Industry Approach
+  journal: ANNALS OF ECONOMICS AND FINANCE
+
+seq=415 | year=2016 | icrv=0 | dpl=3
+  title: THE IMPACT OF INTERNATIONALIZATION AND DIVERSIFICATION ON CONSTRUCTION INDUSTRY PERFORMANCE
+  journal: INTERNATIONAL JOURNAL OF STRATEGIC PROPERTY MANAGEMENT
+
+seq=416 | year=2016 | icrv=I | dpl=3
+  title: Speed of SME Internationalization and Performance
+  journal: MANAGEMENT INTERNATIONAL REVIEW
+
+seq=417 | year=2016 | icrv=0 | dpl=3
+  title: Measuring productivity premia with many modes of internationalization
+  journal: ECONOMICS LETTERS
+
+seq=420 | year=2016 | icrv=0 | dpl=3
+  title: Internationalization and hotel performance: The missing pieces
+  journal: TOURISM ECONOMICS
+
+seq=425 | year=2015 | icrv=0 | dpl=3
+  title: Internationalisation of firms and their innovation and productivity
+  journal: ECONOMICS OF INNOVATION AND NEW TECHNOLOGY
+
+seq=502 | year=2021 | icrv=I | dpl=3
+  title: Internationalisation path heterogeneity and growth for international new ventures
+  journal: INTERNATIONAL SMALL BUSINESS JOURNAL-RESEARCHING ENTREPRENEURSHIP
+
+seq=516 | year=2011 | icrv=I | dpl=3
+  title: MNC STRATEGIES, EXOGENOUS SHOCKS, AND PERFORMANCE OUTCOMES
+  journal: STRATEGIC MANAGEMENT JOURNAL
+
+seq=520 | year=2007 | icrv=I | dpl=2
+  title: A Study on the Born Global Venture Corporation's Characteristics and Performance
+  journal: JOURNAL OF GLOBAL SCHOLARS OF MARKETING SCIENCE
+
+seq=586 | year=2005 | icrv= | dpl=
+  title: What matters about internationalization: a market-based assessment
+  journal: JOURNAL OF BUSINESS RESEARCH
+
+seq=626 | year=2008 | icrv= | dpl=
+  title: Regional diversification and firm performance
+  journal: JOURNAL OF INTERNATIONAL BUSINESS STUDIES
+
+seq=768 | year=2011 | icrv= | dpl=
+  title: Size, productivity, and international banking
+  journal: JOURNAL OF INTERNATIONAL ECONOMICS
+
+seq=809 | year=2013 | icrv= | dpl=
+  title: Regionalization strategy and performance The moderating role of industry dynamism and top management team diversity
+  journal: MULTINATIONAL BUSINESS REVIEW
+
+seq=897 | year=2014 | icrv= | dpl=
+  title: Profitability and Speed of Foreign Market Entry
+  journal: MANAGEMENT INTERNATIONAL REVIEW
+
+seq=1164 | year=2017 | icrv= | dpl=
+  title: Transnationality and Financial Performance in the Era of the Global Factory
+  journal: MANAGEMENT INTERNATIONAL REVIEW
+
+seq=1427 | year=2019 | icrv= | dpl=
+  title: International Dispersion and Profitability: An Institution-Based Approach
+  journal: MANAGEMENT INTERNATIONAL REVIEW
+
+seq=1442 | year=2020 | icrv= | dpl=
+  title: Improving the financial performance of SMEs The presence in foreign markets and the moderating role of corporate group and alliance portfolio size
+  journal: BUSINESS PROCESS MANAGEMENT JOURNAL
+
+seq=1762 | year=2022 | icrv= | dpl=
+  title: Learning, foreign operations and operating performance
+  journal: GLOBAL FINANCE JOURNAL
+
