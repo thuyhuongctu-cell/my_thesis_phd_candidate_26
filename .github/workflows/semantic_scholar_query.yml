@@ -6,11 +6,11 @@ on:
       manifest_file:
         description: 'Unpaywall manifest CSV (in p6/tools/results/)'
         required: true
-        default: 'oa_manifest_20260520.csv'
+        default: 'oa_manifest_20260521.csv'
       output_file:
         description: 'S2 output CSV filename'
         required: true
-        default: 's2_manifest_20260520.csv'
+        default: 's2_manifest_20260521.csv'
       delay:
         description: 'Delay between S2 requests (seconds, min 3)'
         required: false

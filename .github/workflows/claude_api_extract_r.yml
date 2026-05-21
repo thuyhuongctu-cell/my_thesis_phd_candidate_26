@@ -1,0 +1,131 @@
+name: Claude API r-Extraction (P6)
+
+on:
+  workflow_dispatch:
+    inputs:
+      queue_file:
+        description: 'Extraction queue CSV (in p6/tools/results/)'
+        required: true
+        default: 'extraction_queue_v2_20260521.csv'
+      manifest_file:
+        description: 'Unpaywall OA manifest CSV (in p6/tools/results/)'
+        required: false
+        default: 'oa_manifest_20260521.csv'
+      limit:
+        description: 'Max papers per run (0 = all)'
+        required: false
+        default: '50'
+      dry_run:
+        description: 'Dry run (no API calls, no tracker writes)?'
+        required: false
+        default: 'false'
+
+jobs:
+  extract-r:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          token: ${{ github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic pdfplumber requests
+
+      - name: Create PDF directory
+        run: mkdir -p p6/pdfs
+
+      - name: Run Claude API extractor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+
+          LIMIT="${{ github.event.inputs.limit }}"
+          if [ -z "$LIMIT" ]; then LIMIT="50"; fi
+
+          MANIFEST="p6/tools/results/${{ github.event.inputs.manifest_file }}"
+          MANIFEST_FLAG=""
+          if [ -f "$MANIFEST" ]; then
+            MANIFEST_FLAG="--manifest $MANIFEST"
+          fi
+
+          python3 p6/tools/57_claude_api_extract_r.py \
+            --queue   "p6/tools/results/${{ github.event.inputs.queue_file }}" \
+            --tracker "p6/tools/results/fulltext_to_extraction_tracker_v3.csv" \
+            --pdf-dir p6/pdfs \
+            --log     "p6/tools/results/claude_extract_log_$(date +%Y%m%d_%H%M).csv" \
+            --limit   "$LIMIT" \
+            $MANIFEST_FLAG \
+            $DRY_RUN_FLAG
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Claude r-Extraction Results" >> $GITHUB_STEP_SUMMARY
+          TRACKER="p6/tools/results/fulltext_to_extraction_tracker_v3.csv"
+          if [ -f "$TRACKER" ]; then
+            python3 -c "
+          import csv
+          rows = list(csv.DictReader(open('$TRACKER')))
+          y    = sum(1 for r in rows if r.get('fulltext_screening_decision','')=='Y')
+          done = sum(1 for r in rows if r.get('fulltext_screening_decision','')=='Y' and r.get('converted_r','').strip())
+          pct  = round(done/y*100,1) if y else 0
+          print('| Metric | Count |')
+          print('|--------|-------|')
+          print(f'| Y papers total | {y} |')
+          print(f'| r filled | {done} ({pct}%) |')
+          print(f'| r still needed | {y-done} |')
+          " >> $GITHUB_STEP_SUMMARY 2>&1 || echo "Could not read tracker." >> $GITHUB_STEP_SUMMARY
+          fi
+
+          LOG=$(ls p6/tools/results/claude_extract_log_*.csv 2>/dev/null | sort | tail -1)
+          if [ -n "$LOG" ]; then
+            echo "### Latest extraction log: $LOG" >> $GITHUB_STEP_SUMMARY
+            python3 -c "
+          import csv
+          from collections import Counter
+          rows = list(csv.DictReader(open('$LOG')))
+          c = Counter(r.get('status','') for r in rows)
+          for k,v in sorted(c.items(), key=lambda x:-x[1]):
+              print(f'| {k} | {v} |')
+          " >> $GITHUB_STEP_SUMMARY 2>&1 || true
+          fi
+
+      - name: Upload log artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-extract-${{ github.run_number }}
+          path: |
+            p6/tools/results/claude_extract_log_*.csv
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commit tracker + logs
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin claude/edit-vietnamese-academic-standards-xcAmn 2>&1 || true
+          git add p6/tools/results/fulltext_to_extraction_tracker_v3.csv || true
+          git add p6/tools/results/claude_extract_log_*.csv || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "feat(p6): Claude API r-extraction batch [$(date +%Y%m%d)]"
+            git push origin claude/edit-vietnamese-academic-standards-xcAmn || echo "Push failed — see artifacts."
+          fi
