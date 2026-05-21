@@ -1,6 +1,6 @@
 # Final Submission Packages — 2026-05-21
 
-7 ZIP packages chia thành **2 loại tài liệu khác nhau**.
+8 ZIP packages chia thành **3 loại tài liệu khác nhau**.
 
 ## Loại 1 — Journal papers (5 bản thảo)
 
@@ -25,35 +25,55 @@ Mỗi package chứa: EN/VN DOCX + PDF + TEX + COVER_LETTER_TEMPLATE.md + SUBMIS
 
 **Format**: CTU thesis template (TNR 13pt, 1.5 line spacing, lề 3-2-2-2 cm).
 
+## Loại 3 — Luận án tiến sĩ (1 monograph 5 chương)
+
+| Package | Status | Nội dung |
+|---|---|---|
+| `LuanAn_5Chuong_20260521.zip` | ✅ Ready | Luận án tiến sĩ 5 chương (~31,249 từ) tích hợp 5 papers + 2 chuyên đề |
+
+Cấu trúc 5 chương:
+- Chương 1: Giới thiệu (4,768 từ)
+- Chương 2: Tổng quan tài liệu (8,441 từ)
+- Chương 3: Phương pháp nghiên cứu (6,492 từ)
+- Chương 4: Kết quả nghiên cứu (5,073 từ)
+- Chương 5: Kết luận và đề xuất (5,611 từ)
+
+Package chứa: Bản tổng hợp DOCX + PDF + TEX + 5 per-chapter DOCX + SUBMISSION_README.md.
+
+**Format**: CTU thesis template (TNR 13pt, 1.5 line spacing, lề 3-2-2-2 cm) theo Quyết định 4769/QĐ-ĐHCT (15/10/2024).
+
 ## Coverage map
 
-| Paper | Sample | Country focus | ICRV group(s) | Hypothesis tested |
+| Paper / Tài liệu | Sample | Country focus | ICRV group(s) | Hypothesis tested |
 |---|---|---|---|---|
 | P3 | n=2,958 firms, 3 waves | Vietnam | IV Emerging | H1 inverted-U + H3 DAI moderation |
 | P4 | n~1,800 firms, 1 wave 2023 | Singapore | I Advanced innovation | H4 DAI×FSTS² (digital scaling) |
 | P5 | n=4,559 firms, 2 waves | China | III Upper-middle | H2 threshold stability (Paternoster z-tests) |
 | **P7** | **n=91,982 firms, 49 economies, 102 country-year waves** | **All Asia + Pacific pool** | **All 6 groups** | **H1-H6 (capstone)** |
-| **P8** | **n=1,469 firms, 9 SIDS economies** | **Pacific SIDS** | **VI Boundary case** | **H1 inverted -U COLLAPSES; FIP** |
+| **P8** | **n=1,469 firms, 9 SIDS economies** | **Pacific SIDS** | **VI Boundary case** | **H1 inverted-U COLLAPSES; FIP** |
 | CD1 | n=101,185 firms, 47 economies | Pool descriptive | All 6 (incl SIDS extension) | descriptive-diagnostic |
 | CD2 | n=101,185 firms, 47 economies | Pool theoretical+empirical | All 6 + H1-H6 | M0-M7 model spec |
+| **Luận án 5 chương** | Tích hợp tất cả các trên | Asia + Pacific (boundary) | All 6 + boundary | H1-H6 + 4 đóng góp lý thuyết |
 
-P7 = capstone JIBS paper unifying all H1-H6 across the pool. P8 = boundary-case paper establishing FIP for SIDS.
+P7 = capstone JIBS paper unifying all H1-H6 across the pool. P8 = boundary-case paper establishing FIP for SIDS. Luận án 5 chương = final monograph integrating all 5 papers + 2 chuyên đề.
 
 ## What to do next
 
-1. Mở 7 ZIP, confirm DOCX/PDF render correctly trong Word/Acrobat.
+1. Mở 8 ZIP, confirm DOCX/PDF render correctly trong Word/Acrobat.
 2. **Journal papers**: điền `COVER_LETTER_TEMPLATE.md` với tên + tổ chức + 3 reviewer gợi ý cho mỗi paper.
 3. **Chuyên đề**: nộp DOCX cho Hội đồng đánh giá CTU.
-4. **CD2 P6 update**: rebuild khi pipeline P6 chạy xong.
+4. **Luận án 5 chương**: nộp DOCX tổng hợp cho Hội đồng đánh giá luận án; có thể đính kèm per-chapter DOCX cho reviewer convenience.
+5. **CD2 P6 update**: rebuild khi pipeline P6 chạy xong.
 
 ## Build provenance
 
 - Source markdown:
   - Journal: `manuscripts/p[3-5,7,8]_*_{en,vi}_clean.md`
   - Chuyên đề: `thesis/14-16_cd1_*.md` + `thesis/17_cd2_full_vi.md`
+  - Luận án: `thesis/chuong_{1-5}_*_vi.md`
 - Build script: `scripts/build_submission_package.sh` (pandoc + xelatex 3-pass)
 - Templates:
   - `templates/ctu_paper_reference.docx` (journal — TNR 12pt 1.15-line)
-  - `templates/ctu_thesis_reference.docx` (chuyên đề — TNR 13pt 1.5-line, lề 3-2-2-2 cm)
+  - `templates/ctu_thesis_reference.docx` (chuyên đề + luận án — TNR 13pt 1.5-line, lề 3-2-2-2 cm)
   - `templates/springer_paper.tex` (LaTeX article class, Liberation Serif full Vietnamese)
-- All 14 build artifacts (7 EN + 7 VN where applicable): ! errors = 0, missing chars = 0
+- All build artifacts: ! errors = 0, missing chars = 0
