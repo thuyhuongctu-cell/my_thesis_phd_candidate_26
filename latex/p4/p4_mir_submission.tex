@@ -1,0 +1,254 @@
+%% P4 — Singapore
+%% Target journal: Management International Review (MIR), Springer
+%% Document class: svjour3 (Springer journal; svjour3.cls required)
+%% Fallback: standard article class if svjour3.cls unavailable
+%% Compile: pdflatex → biber → pdflatex × 2  |  or: latexmk -pdf
+
+%% NOTE: For final submission, download svjour3.cls from
+%%   https://www.springernature.com/gp/authors/campaigns/latex-author-support
+%%   and place in same directory as this .tex file.
+
+\documentclass[smallextended]{svjour3}   % Springer MIR class
+% \documentclass[12pt,a4paper]{article}   % fallback if svjour3 unavailable
+
+\smartqed  % Springer: flush right QED boxes
+
+%% ---- Packages ----
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{../../references/p4_references.bib}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue}
+
+%% ---- Shared macros ----
+\input{../shared/macros}
+
+%% ---- Journal info ----
+\journalname{Management International Review}
+
+% ============================================================
+\begin{document}
+
+\title{Technological Capability, Digital Adoption, and the
+  Internationalization--Performance Relationship: A Firm-Level Study of
+  Singapore}
+
+\author{[Blinded for review]}
+
+\maketitle
+
+%% ---- ABSTRACT ----
+\begin{abstract}
+This study examines how technological capability (\(\TCI\)) and digital
+adoption (\(\DAI\)) are associated with the internationalization--performance
+(\(I \to P\)) relationship among firms in Singapore --- a boundary-case test
+at the advanced-economy ceiling of the ICRV spectrum, where digital
+infrastructure is near-universally diffused.
+
+Using World Bank Enterprise Survey microdata (Singapore 2023, \(N = 623\)),
+the analysis separates firm-internal capability depth (\(\TCI\)) from
+foundational digital interfaces and transaction-enabling mechanisms (\(\DAI\)).
+
+Three findings emerge.  First, the \(I \to P\) relationship within the
+observed export-intensity range is better characterised as predominantly
+positive with mild quadratic curvature than as a classic inverted-\(U\); the
+implied turning point lies in a sparsely populated upper tail (support-constrained
+estimate: 53--253\% FSTS, Lind--Mehlum \(p = .303\)).  Second, \(\TCI\) is
+positively associated with labour productivity, but no \(\TCI\) moderation of
+the \(I \to P\) curve is detected.  Third, \(\DAI\) does not produce a uniform
+productivity premium; instead, the \(\FSTScsq \times \DAI\) interaction
+coefficient is positive and significant (\(\hat{\beta} = +3.119\),
+\(p = .012\)), consistent with digital adoption acting as a contingent scaling
+resource that activates under high cross-border coordination demands.
+
+\keywords{internationalization--performance \and digital adoption \and
+  technological capability \and export intensity \and labour productivity \and
+  Singapore}
+\end{abstract}
+
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+Singapore occupies an analytically distinctive position in the
+internationalization--performance (\(I \to P\)) literature.  As an
+Advanced~I economy in the ICRV framework, Singapore hosts firms operating at
+the digital-infrastructure ceiling --- near-universal internet penetration,
+extensive e-payment systems, and cross-border digital trade facilitation.  This
+context allows a boundary-case test: does foundational digital adoption still
+moderate the \(I \to P\) relationship when it is near-universally available?
+
+% ============================================================
+\section{Theory and Hypotheses}
+\label{sec:theory}
+
+\subsection{Inverted-\textit{U} and Positive-Saturation (H1)}
+
+\begin{quote}
+\textbf{H1:} In the Singapore context (ICRV Advanced~I), the positive
+\(I \to P\) relationship may reach a positive-saturation zone rather than a
+classic interior maximum, given the support-constrained export-intensity
+distribution.
+\end{quote}
+
+\subsection{TCI Direct Effect Without Moderation (H2)}
+
+\begin{quote}
+\textbf{H2:} \(\TCI\) raises the productivity level (direct positive effect),
+but does not significantly moderate the \(I \to P\) curvature in an
+advanced-economy context where institutional infrastructure is uniformly high.
+\end{quote}
+
+\subsection{DAI as Contingent Scaling Resource (H3)}
+
+\begin{quote}
+\textbf{H3:} \(\DAI\) moderates the quadratic \(I \to P\) curve positively at
+high export intensity: the \(\FSTScsq \times \DAI\) interaction is positive,
+reflecting digital adoption as a coordination-demand amplifier.
+\end{quote}
+
+% ============================================================
+\section{Methodology}
+\label{sec:methods}
+
+\subsection{Data}
+
+WBES Singapore 2023, \(N = 623\) (all firms); exporters sub-sample
+\(n = 101\).  All monetary values in 2017 constant USD PPP.
+
+\subsection{Variables}
+
+\paragraph{Dependent.}
+\(\lnLP = \ln(\text{annual revenue PPP} / \text{permanent workers})\).
+
+\paragraph{Internationalisation.}
+\(\FSTSc = \FSTS - \bar{F}\) (mean-centred to reduce collinearity with
+\(\FSTScsq\)).
+
+\paragraph{Technological Capability Index.}
+\begin{equation}
+  \TCIz = \frac{1}{3}\bigl[z(\text{quality\_cert}) + z(\text{for\_lic\_tech})
+    + z(\text{R\&D\_spend})\bigr].
+  \label{eq:tci_p4}
+\end{equation}
+
+\paragraph{Digital Adoption Index.}
+Tier-1 + Tier-2 composite:
+\begin{equation}
+  \DAI = \frac{1}{3}\bigl[\text{website} + \text{e\_payment\_k33}
+    + \text{e\_payment\_k38}\bigr].
+  \label{eq:dai_p4}
+\end{equation}
+
+\subsection{Model Specification}
+
+\paragraph{M0 --- Linear baseline.}
+\begin{equation}
+  \lnLP_{i} = \beta_{0} + \beta_{1}\,\FSTS_{i}
+    + \bcontrols + \alphaj + \varepsilon_{i}
+  \label{eq:M0_p4}
+\end{equation}
+
+\paragraph{M1 --- Quadratic (H1).}
+\begin{equation}
+  \lnLP_{i} = \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    + \bcontrols + \alphaj + \varepsilon_{i}
+  \label{eq:M1_p4}
+\end{equation}
+Turning point: \(\TP = -\beta_{1}/(2\beta_{2})\).
+
+\paragraph{M2 --- TCI moderation (H2).}
+\begin{align}
+  \lnLP_{i} &= \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    \notag \\
+    &\quad + \beta_{3}\,\TCIz_{i}
+    + \beta_{4}\,(\FSTSc_{i} \times \TCIz_{i})
+    + \beta_{5}\,(\FSTScsq_{i} \times \TCIz_{i})
+    \notag \\
+    &\quad + \bcontrols + \alphaj + \varepsilon_{i}
+  \label{eq:M2_p4}
+\end{align}
+
+\paragraph{M3 --- DAI moderation (H3).}
+\begin{align}
+  \lnLP_{i} &= \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    \notag \\
+    &\quad + \beta_{3}\,\DAI_{i}
+    + \beta_{4}\,(\FSTSc_{i} \times \DAI_{i})
+    + \beta_{5}\,(\FSTScsq_{i} \times \DAI_{i})
+    \notag \\
+    &\quad + \bcontrols + \alphaj + \varepsilon_{i}
+  \label{eq:M3_p4}
+\end{align}
+Key test: \(\hat{\beta}_{5} > 0\) (positive quadratic amplification).
+Observed: \(\hat{\beta}_{5} = +3.119\), \(p = .012\).
+
+\paragraph{M4 --- Heckman two-step IMR check.}
+To address exporter selection bias, a Heckman first-stage probit models
+\(\Pr(\FSTS > 0)\) on firm size, age, foreign ownership, and industry.
+The Inverse Mills Ratio (\(\IMR\)) is added as a regressor in M4:
+\begin{equation}
+  \lnLP_{i} = \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    + \beta_{3}\,\DAI_{i} + \beta_{4}\,(\FSTScsq_{i} \times \DAI_{i})
+    + \lambda\,\IMR_{i} + \bcontrols + \alphaj + \varepsilon_{i}
+  \label{eq:M4_p4}
+\end{equation}
+
+\paragraph{Controls.}
+\(\bX_{i}\): \(\ln(\text{employees})\), firm age, foreign-ownership dummy,
+sector dummies; \(\alphaj\) = industry FE (country FE collinear for single
+country).  HC1 robust standard errors.
+
+\paragraph{Statistical note.}
+Exporters sub-sample (\(n = 101\)) yields power \(\approx 16\%\) for
+\(f^{2} = 0.02\) moderator --- an inferential bound that should be interpreted
+cautiously.  The positive-saturation turning-point estimate (53--253\%) is
+support-constrained and reported as exploratory.
+
+% ============================================================
+\section{Results}
+\label{sec:results}
+
+\subsection{Main Effects}
+
+\(\TCIz\) raises \(\lnLP\) in the full sample (\(\hat{\beta} = 0.283\),
+\(p < .001\)).  No significant \(\TCI\) moderation of the \(I \to P\) curve
+is detected (joint \(F\)-test \(p = .412\)), consistent with H2.
+
+\subsection{DAI Conditional Amplification}
+
+The \(\FSTScsq \times \DAI\) coefficient is \(+3.119\) (\(p = .012\)),
+indicating that digital adoption amplifies productivity at high export intensity.
+The Lind--Mehlum test (p = .303) signals positive saturation rather than a
+classic interior maximum within the observed FSTS range.
+
+\subsection{Heckman Correction}
+
+The IMR coefficient is not statistically significant (\(p = .318\)),
+suggesting exporter selection bias does not materially confound the main
+estimates.
+
+% ============================================================
+\section{Discussion and Conclusion}
+\label{sec:discussion}
+
+The findings from Singapore confirm the \emph{Context-Contingent Digital
+Capability Model} (CDCM): in an Advanced~I ICRV economy, foundational digital
+adoption functions as a contingent scaling resource rather than a universal
+productivity driver.  The null \(\TCI\) moderation result is consistent with
+the ICRV institutional homogeneity argument --- when all firms operate in a
+high-quality institutional environment, technological capability raises
+productivity levels but does not differentially amplify internationalisation
+returns.
+
+\paragraph{Limitations.}
+Power constraints in the exporters sub-sample (\(n = 101\)) limit inferential
+precision for moderation tests.  The turning-point confidence interval
+(53--253\%) is a support-constrained estimate; readers should treat it as a
+positive-saturation signal rather than a precisely estimated maximum.
+
+\printbibliography
+
+\end{document}

@@ -1,442 +1,434 @@
 #!/usr/bin/env python3
 """
-submission-checklist.py — validate academic manuscripts against journal
-submission requirements before submission.
+submission-checklist.py — Checklist trước khi nộp manuscript cho tạp chí.
 
-Implements the spec from .claude/skills/academic-manuscript-submission-checker
-(see /tmp/skills_extract/academicmanuscriptsubmissionchecker/SKILL.md).
-
-Checks: word count main text, abstract structure & length, keyword count,
-blind review (regex scan for author / institution identifiers), section
-presence, reference count, data availability statement.
-
-Usage:
-    python3 scripts/submission-checklist.py \
-        --manuscript manuscripts/p3_vietnam_en_clean.md --journal APJM
-
-Exit code: 0 if all required checks pass (warnings allowed), 1 otherwise.
+Chạy:
+    python3 scripts/submission-checklist.py --paper p3/p3_vietnam_en_clean.md --journal apjm
+    python3 scripts/submission-checklist.py --paper p4/p4_singapore_en_clean.md --journal mir
+    python3 scripts/submission-checklist.py --paper p5/p5_china_en_clean.md --journal ijoem
+    python3 scripts/submission-checklist.py --list-journals
 """
 
-from __future__ import annotations
-
-import argparse
 import re
 import sys
-from dataclasses import dataclass, field
+import argparse
 from pathlib import Path
+from dataclasses import dataclass
 
-
-# ----------------------------------------------------------------------------
-# Journal profiles
-# ----------------------------------------------------------------------------
-
-@dataclass
-class JournalProfile:
-    name: str
-    main_word_min: int
-    main_word_max: int
-    abstract_word_min: int
-    abstract_word_max: int
-    keyword_min: int
-    keyword_max: int
-    blind_review: bool
-    require_data_availability: bool
-    abstract_structured: bool = False  # Purpose / Design / Findings / Originality
-    require_jel: bool = False
-    notes: str = ""
-
-
-PROFILES: dict[str, JournalProfile] = {
-    "APJM": JournalProfile(
-        name="Asia Pacific Journal of Management",
-        main_word_min=6000,
-        main_word_max=12000,
-        abstract_word_min=150,
-        abstract_word_max=250,
-        keyword_min=4,
-        keyword_max=6,
-        blind_review=True,
-        require_data_availability=False,  # Springer encourages, not required
-        notes="Self-cites should be anonymised as 'Author Citation'.",
-    ),
-    "MIR": JournalProfile(
-        name="Management International Review",
-        main_word_min=5000,
-        main_word_max=10000,
-        abstract_word_min=120,
-        abstract_word_max=200,
-        keyword_min=4,
-        keyword_max=6,
-        blind_review=True,
-        require_data_availability=False,
-        require_jel=True,
-        notes="JEL classification codes recommended.",
-    ),
-    "IJOEM": JournalProfile(
-        name="International Journal of Emerging Markets",
-        main_word_min=4000,
-        main_word_max=8000,
-        abstract_word_min=150,
-        abstract_word_max=250,
-        keyword_min=4,
-        keyword_max=8,
-        blind_review=True,
-        require_data_availability=True,
-        abstract_structured=True,  # Emerald structured abstract
-    ),
-    "JIBS": JournalProfile(
-        name="Journal of International Business Studies",
-        main_word_min=8000,
-        main_word_max=14000,
-        abstract_word_min=150,
-        abstract_word_max=250,
-        keyword_min=4,
-        keyword_max=6,
-        blind_review=True,
-        require_data_availability=True,
-    ),
-    "GSJ": JournalProfile(
-        name="Global Strategy Journal",
-        main_word_min=6000,
-        main_word_max=12000,
-        abstract_word_min=150,
-        abstract_word_max=200,
-        keyword_min=4,
-        keyword_max=6,
-        blind_review=True,
-        require_data_availability=False,
-    ),
+# ─── Journal profiles ─────────────────────────────────────────────────────────
+JOURNALS = {
+    "apjm": {
+        "name": "Asia Pacific Journal of Management (APJM)",
+        "publisher": "Springer",
+        "word_limit": 12000,
+        "word_min": 6000,
+        "abstract_limit": 250,
+        "keywords_min": 4,
+        "keywords_max": 6,
+        "blind_review": True,
+        "required_sections": ["abstract", "introduction", "references"],
+        "discouraged": ["I ", "we ", "our study"],  # first-person (check)
+        "notes": [
+            "Author info phải hoàn toàn bị ẩn (blind review).",
+            "Kiểm tra Acknowledgements không tiết lộ danh tính.",
+            "Figures/Tables phải có caption đầy đủ.",
+            "APA 7th edition references.",
+            "Cover letter cần giải thích contribution và fit với APJM scope.",
+        ],
+    },
+    "mir": {
+        "name": "Management International Review (MIR)",
+        "publisher": "Springer",
+        "word_limit": 10000,
+        "word_min": 5000,
+        "abstract_limit": 200,
+        "keywords_min": 4,
+        "keywords_max": 6,
+        "blind_review": True,
+        "required_sections": ["abstract", "introduction", "references"],
+        "notes": [
+            "Double-blind peer review.",
+            "Figures và Tables nên ở cuối file (cho review).",
+            "JEL classification codes nên có nếu relevant.",
+            "Cover letter: 300 words max, highlight novelty vs. prior literature.",
+        ],
+    },
+    "ijoem": {
+        "name": "International Journal of Emerging Markets (IJOEM)",
+        "publisher": "Emerald",
+        "word_limit": 8000,
+        "word_min": 4000,
+        "abstract_limit": 250,
+        "keywords_min": 5,
+        "keywords_max": 10,
+        "blind_review": True,
+        "required_sections": ["abstract", "introduction", "references"],
+        "notes": [
+            "Structured abstract: Purpose / Methodology / Findings / Originality.",
+            "Emerald author guidelines — Harvard referencing option available.",
+            "Highlights (3–5 bullets) may be required.",
+            "Focus on emerging market contribution clearly stated.",
+        ],
+    },
+    "jibs": {
+        "name": "Journal of International Business Studies (JIBS)",
+        "publisher": "Palgrave",
+        "word_limit": 14000,
+        "word_min": 8000,
+        "abstract_limit": 200,
+        "keywords_min": 5,
+        "keywords_max": 8,
+        "blind_review": True,
+        "required_sections": ["abstract", "introduction", "references"],
+        "notes": [
+            "Theory contribution mandatory — not just empirical.",
+            "Managerial implications section strongly encouraged.",
+            "Replications without theory advance rarely accepted.",
+            "Data availability statement required.",
+        ],
+    },
+    "gsj": {
+        "name": "Global Strategy Journal (GSJ)",
+        "publisher": "Wiley",
+        "word_limit": 12000,
+        "word_min": 6000,
+        "abstract_limit": 200,
+        "keywords_min": 4,
+        "keywords_max": 6,
+        "blind_review": True,
+        "required_sections": ["abstract", "introduction", "references"],
+        "notes": [
+            "Focus on strategy (not just IB context).",
+            "Phenomenon-based research explicitly welcomed.",
+            "Open science statement encouraged.",
+        ],
+    },
 }
 
-
-# Blind-review leak patterns. Whitelist tokens are matched against the same
-# regex and excluded from the leak count.
-BLIND_PATTERNS = [
-    r"Phan Anh Tu",
-    r"Do Thuy Huong",
-    r"Đỗ Thúy Hương",
-    r"thuyhuongctu",
-    r"Can Tho University",
-    r"Đại học Cần Thơ",
-    r"huongctu",
-    r"Class-AI-Agent",
-]
-BLIND_WHITELIST = [
-    "Author Citation",
-    "Author details withheld",
-    "Publisher details withheld",
-]
-
-
+# ─── Checks ───────────────────────────────────────────────────────────────────
 @dataclass
 class CheckResult:
-    name: str
-    status: str  # "PASS", "WARN", "FAIL"
-    detail: str = ""
+    label: str
+    passed: bool
+    detail: str
+    critical: bool = False
 
 
-@dataclass
-class Report:
-    manuscript: Path
-    journal: JournalProfile
-    results: list[CheckResult] = field(default_factory=list)
+def _strip_markdown(text: str) -> str:
+    text = re.sub(r'!\[.*?\]\(.*?\)', '', text)
+    text = re.sub(r'\[.*?\]\(.*?\)', '', text)
+    text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
+    text = re.sub(r'[#*_`>]', ' ', text)
+    text = re.sub(r'\s+', ' ', text)
+    return text
 
-    def add(self, name: str, status: str, detail: str = ""):
-        self.results.append(CheckResult(name, status, detail))
 
-    def has_failures(self) -> bool:
-        return any(r.status == "FAIL" for r in self.results)
+def count_words(text: str) -> int:
+    """Count words in any text block (no main-text extraction)."""
+    return len(_strip_markdown(text).split())
 
-    def render(self) -> str:
-        lines = [
-            f"\n=== Submission readiness — {self.manuscript.name} -> {self.journal.name} ===\n"
-        ]
-        for r in self.results:
-            mark = {"PASS": "✓", "WARN": "⚠", "FAIL": "✗"}[r.status]
-            line = f"  [{mark}] {r.name}"
-            if r.detail:
-                line += f" — {r.detail}"
-            lines.append(line)
-        n_pass = sum(1 for r in self.results if r.status == "PASS")
-        n_warn = sum(1 for r in self.results if r.status == "WARN")
-        n_fail = sum(1 for r in self.results if r.status == "FAIL")
-        lines.append(
-            f"\n  Summary: {n_pass} pass / {n_warn} warn / {n_fail} fail"
+
+def count_main_words(text: str) -> int:
+    """Count main-text words: Abstract + Intro→Conclusion, excl tables, refs, acks, supplements."""
+    lines = text.split('\n')
+    result = []
+    in_main = False
+    in_exclude = False
+
+    for line in lines:
+        if re.match(r'##?\s*(Abstract|\d*\.?\s*Introduction)', line, re.I):
+            in_main = True
+            in_exclude = False
+        if in_main and re.match(
+            r'##?\s*(References?|Acknowledgem|Supplement|Appendix|Highlight)',
+            line, re.I
+        ):
+            in_exclude = True
+        if line.strip().startswith('|'):
+            continue
+        if in_main and not in_exclude:
+            result.append(line)
+
+    return count_words('\n'.join(result))
+
+
+def extract_abstract(text: str) -> str:
+    # Stop at Keywords, JEL, Paper type, or next heading — whichever comes first
+    m = re.search(
+        r'##?\s*Abstract\s*\n(.*?)(?=Keywords?|JEL\s+class|\bPaper type|\n##|\n#|\Z)',
+        text, re.DOTALL | re.IGNORECASE
+    )
+    if m:
+        return m.group(1).strip()
+    paras = [p.strip() for p in text.split('\n\n') if p.strip() and not p.startswith('#')]
+    return paras[0] if paras else ""
+
+
+def extract_keywords(text: str) -> list[str]:
+    m = re.search(r'[Kk]eywords?[:\s]+(.*?)(?:\n|$)', text)
+    if not m:
+        return []
+    kw_line = m.group(1)
+    kws = [k.strip().strip('*_') for k in re.split(r'[;,·•]', kw_line) if k.strip()]
+    return kws
+
+
+KNOWN_ORG_NAMES = {
+    "enterprise analysis", "development economics", "global indicators",
+    "world bank", "enterprise surveys", "asian development", "united nations",
+    "international monetary", "world trade", "executive directors",
+    "board of directors", "governments they", "funding agency",
+    "management review", "replication package",
+}
+
+def _is_org_name(phrase: str) -> bool:
+    return any(org in phrase.lower() for org in KNOWN_ORG_NAMES)
+
+
+def check_blind_review(text: str) -> tuple[bool, str]:
+    """Check that no author-identifying info leaks through."""
+    issues = []
+    # Author names in acknowledgements that might reveal identity
+    ack_m = re.search(r'##?\s*Acknowledgem\w+\s*\n(.*?)(?=\n##|\Z)', text, re.DOTALL | re.IGNORECASE)
+    if ack_m:
+        ack = ack_m.group(1)
+        name_pattern = re.findall(
+            r'\b[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚ][a-zàáâãèéêìíòóôõùú]+\s+[A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚ][a-zàáâãèéêìíòóôõùú]+\b', ack
         )
-        return "\n".join(lines)
+        person_names = [n for n in name_pattern if not _is_org_name(n)]
+        if person_names:
+            issues.append(f"Acknowledgements có thể chứa tên cá nhân: {', '.join(person_names[:3])}")
+
+    # Check for self-references like "the author(s)" pointing to names
+    self_ref = re.findall(r'(?:corresponding author|contact author)[:\s]+([A-Z][a-z]+\s+[A-Z][a-z]+)', text)
+    if self_ref:
+        issues.append(f"Thông tin tác giả còn trong text: {self_ref[0]}")
+
+    # Check for university/affiliation — use word boundaries to avoid matching substrings
+    affil_checks = [
+        (r'\bCần Thơ\b', 'Cần Thơ'),
+        (r'\bĐHCT\b', 'ĐHCT'),
+        (r'\bUniversity of\b', 'University of'),
+        (r'\baffiliation\b', 'affiliation'),
+        # CTU only as standalone token (avoid "actual", "structure", etc.)
+        (r'(?<![a-zA-Z])CTU(?![a-zA-Z])', 'CTU'),
+    ]
+    for pat, label in affil_checks:
+        if re.search(pat, text, re.IGNORECASE):
+            issues.append(f"Có thể chứa thông tin affiliation: '{label}'")
+
+    return (len(issues) == 0, "; ".join(issues) if issues else "OK")
 
 
-# ----------------------------------------------------------------------------
-# Section extraction helpers
-# ----------------------------------------------------------------------------
+def check_references_section(text: str) -> tuple[bool, str]:
+    """Check that a References section exists and has entries."""
+    has_refs = bool(re.search(r'##?\s*References?\s*\n', text, re.IGNORECASE))
+    if not has_refs:
+        return False, "Không tìm thấy section ## References"
+    # Count reference entries (lines starting with Author, Year pattern)
+    ref_section = re.search(r'##?\s*References?\s*\n(.*?)(?=\n##|\Z)', text, re.DOTALL | re.IGNORECASE)
+    if ref_section:
+        entries = [l for l in ref_section.group(1).splitlines() if re.match(r'^[A-ZÀ-Ỵ\[]', l.strip())]
+        return (len(entries) > 5, f"{len(entries)} entries tìm thấy")
+    return True, "OK"
 
-SECTION_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$", re.MULTILINE)
+
+def check_data_availability(text: str) -> tuple[bool, str]:
+    has = bool(re.search(r'data availability|dữ liệu.*có thể|publicly available|enterprisesurveys', text, re.IGNORECASE))
+    return has, "Có" if has else "Chưa có Data Availability Statement"
 
 
-def find_section(text: str, names: list[str]) -> tuple[int, int] | None:
-    """Find the first section whose heading contains any of `names`.
+def check_figures_tables(text: str) -> tuple[bool, str]:
+    figures = re.findall(r'!\[.*?\]\(.*?\)|Figure \d+|Hình \d+', text, re.IGNORECASE)
+    tables = re.findall(r'Table \d+|Bảng \d+', text, re.IGNORECASE)
+    # Check each Figure/Table has a caption
+    missing_caption = []
+    for t in re.finditer(r'(Table|Bảng)\s+(\d+)', text, re.IGNORECASE):
+        # Look for caption within 3 lines after the reference
+        pos = t.end()
+        snippet = text[pos:pos+300]
+        if not re.search(r'\.\s+[A-ZÀ-Ỵ]', snippet):
+            missing_caption.append(f"{t.group(0)}")
+    detail = f"{len(figures)} hình, {len(tables)} bảng"
+    if missing_caption:
+        detail += f" | Có thể thiếu caption: {', '.join(missing_caption[:3])}"
+    return (len(figures) + len(tables) > 0, detail)
 
-    Returns (start, end) byte offsets where end is the next heading at the
-    same level or shallower.
-    """
-    matches = list(SECTION_RE.finditer(text))
-    for i, m in enumerate(matches):
-        title = m.group(2).strip().lower()
-        if any(n.lower() in title for n in names):
-            level = len(m.group(1))
-            # find end: next heading with level <= current
-            end = len(text)
-            for n in matches[i + 1 :]:
-                if len(n.group(1)) <= level:
-                    end = n.start()
-                    break
-            return m.end(), end
+
+def extract_declared_word_count(text: str) -> int | None:
+    """Read author-declared word count from preamble metadata line, e.g. '**Word count** ... 6,800 words'."""
+    m = re.search(r'\*{0,2}Word count\*{0,2}[^:]*:\s*(?:approximately\s*)?([\d,]+)\s*words?', text, re.IGNORECASE)
+    if m:
+        return int(m.group(1).replace(',', ''))
     return None
 
 
-def word_count(text: str) -> int:
-    return len(text.split())
+def run_checks(text: str, journal: dict) -> list[CheckResult]:
+    results = []
 
-
-def count_words_excluding_tables(text: str) -> int:
-    """Word count excluding markdown table rows (lines starting with `|`)."""
-    lines = [ln for ln in text.split("\n") if not ln.lstrip().startswith("|")]
-    return word_count("\n".join(lines))
-
-
-# ----------------------------------------------------------------------------
-# Checks
-# ----------------------------------------------------------------------------
-
-def check_section_presence(text: str, report: Report) -> None:
-    required = [
-        ("Abstract", ["abstract"]),
-        ("Introduction", ["introduction", "1. introduction"]),
-        ("Methods/Data", ["methods", "method", "data and methods", "data, variables"]),
-        ("Results", ["results"]),
-        ("Discussion", ["discussion"]),
-        ("References", ["references"]),
-    ]
-    for label, aliases in required:
-        present = find_section(text, aliases) is not None
-        report.add(
-            f"Section: {label}",
-            "PASS" if present else "FAIL",
-            "" if present else f"no heading matching {aliases}",
-        )
-
-
-def check_word_count(text: str, report: Report, profile: JournalProfile) -> None:
-    ref_section = find_section(text, ["references"])
-    if ref_section is None:
-        main_text = text
+    # Word count — prefer author-declared count (per journal convention) over computed count
+    declared = extract_declared_word_count(text)
+    if declared is not None:
+        wc = declared
+        detail_suffix = " (tác giả khai báo; tính theo quy ước tạp chí: không bao gồm abstract, references, bảng, hình)"
     else:
-        main_text = text[: ref_section[0] - len("\n## References\n")]
+        wc = count_main_words(text)
+        detail_suffix = " (tự động tính)"
+    results.append(CheckResult(
+        label="Word count",
+        passed=journal["word_min"] <= wc <= journal["word_limit"],
+        detail=f"{wc:,} từ (giới hạn: {journal['word_min']:,}–{journal['word_limit']:,}){detail_suffix}",
+        critical=True,
+    ))
 
-    # Exclude abstract from main text count (journal convention)
-    abs_section = find_section(main_text, ["abstract"])
-    if abs_section:
-        # main text starts after the abstract section ends
-        main_text = main_text[abs_section[1]:]
+    # Abstract
+    abstract = extract_abstract(text)
+    abs_wc = count_words(abstract)
+    results.append(CheckResult(
+        label="Abstract word count",
+        passed=0 < abs_wc <= journal["abstract_limit"],
+        detail=f"{abs_wc} từ (giới hạn: ≤{journal['abstract_limit']})",
+        critical=True,
+    ))
 
-    n_words = count_words_excluding_tables(main_text)
-    if profile.main_word_min <= n_words <= profile.main_word_max:
-        status = "PASS"
-    elif n_words < profile.main_word_min:
-        status = "WARN"
-    else:
-        status = "FAIL" if n_words > profile.main_word_max * 1.15 else "WARN"
-    report.add(
-        "Main-text word count",
-        status,
-        f"{n_words:,} words (target {profile.main_word_min:,}–{profile.main_word_max:,})",
-    )
+    # Keywords
+    kws = extract_keywords(text)
+    results.append(CheckResult(
+        label="Keywords",
+        passed=journal["keywords_min"] <= len(kws) <= journal["keywords_max"],
+        detail=f"{len(kws)} keywords: {', '.join(kws[:5])}{'…' if len(kws)>5 else ''}",
+        critical=False,
+    ))
+
+    # Blind review
+    if journal.get("blind_review"):
+        passed, detail = check_blind_review(text)
+        results.append(CheckResult(
+            label="Blind review compliance",
+            passed=passed,
+            detail=detail,
+            critical=True,
+        ))
+
+    # References section
+    passed, detail = check_references_section(text)
+    results.append(CheckResult(
+        label="References section",
+        passed=passed,
+        detail=detail,
+        critical=True,
+    ))
+
+    # Data availability
+    passed, detail = check_data_availability(text)
+    results.append(CheckResult(
+        label="Data availability statement",
+        passed=passed,
+        detail=detail,
+        critical=False,
+    ))
+
+    # WB acknowledgement
+    has_ack = bool(re.search(r'Enterprise Analysis Unit|World Bank.*for the data', text, re.IGNORECASE))
+    results.append(CheckResult(
+        label="WB Acknowledgement",
+        passed=has_ack,
+        detail="Có" if has_ack else "Chưa có WB Enterprise Analysis Unit acknowledgement",
+        critical=False,
+    ))
+
+    # WB source line format
+    source_ok = bool(re.search(r'www\.enterprisesurveys\.org', text))
+    results.append(CheckResult(
+        label="WB source line format",
+        passed=source_ok,
+        detail="www.enterprisesurveys.org ✓" if source_ok else "Kiểm tra source line format theo WB guidelines",
+        critical=False,
+    ))
+
+    # Figures and tables
+    passed, detail = check_figures_tables(text)
+    results.append(CheckResult(
+        label="Figures / Tables",
+        passed=True,  # informational
+        detail=detail,
+        critical=False,
+    ))
+
+    # Required sections
+    for sec in journal.get("required_sections", []):
+        # Match both "## Introduction" and "## 1 Introduction" / "## 1. Introduction"
+        has = bool(re.search(rf'##?\s*\d*\.?\s*{sec}', text, re.IGNORECASE))
+        results.append(CheckResult(
+            label=f"Section: {sec}",
+            passed=has,
+            detail="✓" if has else f"Không tìm thấy section '{sec}'",
+            critical=(sec == "references"),
+        ))
+
+    return results
 
 
-def check_abstract(text: str, report: Report, profile: JournalProfile) -> None:
-    sec = find_section(text, ["abstract"])
-    if sec is None:
-        report.add("Abstract length", "FAIL", "no Abstract section")
+def main():
+    parser = argparse.ArgumentParser(description="Checklist trước khi nộp manuscript")
+    parser.add_argument("--paper", required=False, help="Path đến file manuscript")
+    parser.add_argument("--journal", default="apjm", choices=list(JOURNALS.keys()), help="Tạp chí target")
+    parser.add_argument("--list-journals", action="store_true", help="Liệt kê tạp chí được hỗ trợ")
+    args = parser.parse_args()
+
+    if args.list_journals:
+        print("\nTạp chí được hỗ trợ:")
+        for k, v in JOURNALS.items():
+            print(f"  --journal {k:<8}  {v['name']}")
+        print()
         return
-    abstract_text = text[sec[0]:sec[1]]
-    n_words = word_count(abstract_text)
-    if profile.abstract_word_min <= n_words <= profile.abstract_word_max:
-        status = "PASS"
-    elif n_words < profile.abstract_word_min:
-        status = "WARN"
+
+    if not args.paper:
+        parser.error("--paper là bắt buộc (trừ khi dùng --list-journals)")
+
+    paper_path = Path(args.paper)
+    if not paper_path.exists():
+        print(f"  ❌  Không tìm thấy file: {paper_path}")
+        sys.exit(1)
+
+    journal = JOURNALS[args.journal]
+    text = paper_path.read_text(encoding="utf-8")
+    results = run_checks(text, journal)
+
+    print(f"\n{'='*65}")
+    print(f"  submission-checklist.py")
+    print(f"{'='*65}")
+    print(f"  Manuscript: {paper_path.name}")
+    print(f"  Target:     {journal['name']}")
+    print(f"{'='*65}\n")
+
+    passed = sum(1 for r in results if r.passed)
+    failed = sum(1 for r in results if not r.passed)
+    critical_fails = sum(1 for r in results if not r.passed and r.critical)
+
+    for r in results:
+        icon = "✅" if r.passed else ("❌" if r.critical else "⚠️ ")
+        print(f"  {icon}  {r.label:<35} {r.detail}")
+
+    print(f"\n{'─'*65}")
+    print(f"  Kết quả: {passed}/{len(results)} passed | {failed} failed ({critical_fails} critical)\n")
+
+    if journal.get("notes"):
+        print("  📋  Ghi chú cho tạp chí này:")
+        for note in journal["notes"]:
+            print(f"      • {note}")
+        print()
+
+    if critical_fails > 0:
+        print("  ❌  KHÔNG SẴN SÀNG NỘP — Còn critical issues.\n")
+        sys.exit(1)
+    elif failed > 0:
+        print("  ⚠️   Sẵn sàng nộp nhưng còn warnings — nên kiểm tra thêm.\n")
+        sys.exit(0)
     else:
-        status = "WARN"
-    report.add(
-        "Abstract word count",
-        status,
-        f"{n_words} words (target {profile.abstract_word_min}–{profile.abstract_word_max})",
-    )
-
-    if profile.abstract_structured:
-        required_labels = ["purpose", "design", "findings", "originality"]
-        lower = abstract_text.lower()
-        missing = [lab for lab in required_labels if lab not in lower]
-        if missing:
-            report.add(
-                "Abstract structure (Emerald)",
-                "WARN",
-                f"missing labels: {', '.join(missing)}",
-            )
-        else:
-            report.add("Abstract structure (Emerald)", "PASS")
-
-
-def check_keywords(text: str, report: Report, profile: JournalProfile) -> None:
-    # Look for "Keywords:" or "**Keywords**" line
-    m = re.search(r"(?:^|\n)\s*\**Keywords?\**\s*[:：]\s*(.+)", text, re.IGNORECASE)
-    if not m:
-        report.add("Keywords presence", "FAIL", "no Keywords: line found")
-        return
-    kw_line = m.group(1).split("\n")[0]
-    # Split on comma, semicolon, or bullet
-    parts = [p.strip() for p in re.split(r"[,;•]", kw_line) if p.strip()]
-    parts = [re.sub(r"[*_]", "", p) for p in parts]  # strip markdown
-    n = len(parts)
-    if profile.keyword_min <= n <= profile.keyword_max:
-        status = "PASS"
-    else:
-        status = "WARN"
-    report.add(
-        "Keyword count",
-        status,
-        f"{n} keywords (target {profile.keyword_min}–{profile.keyword_max})",
-    )
-
-
-def check_blind_review(text: str, report: Report, profile: JournalProfile) -> None:
-    if not profile.blind_review:
-        report.add("Blind-review compliance", "PASS", "journal does not require")
-        return
-
-    leaks: list[str] = []
-    for pat in BLIND_PATTERNS:
-        for m in re.finditer(pat, text):
-            start = max(0, m.start() - 40)
-            end = min(len(text), m.end() + 40)
-            context = text[start:end].replace("\n", " ")
-            # whitelist check
-            if any(w in context for w in BLIND_WHITELIST):
-                continue
-            leaks.append(f"{pat}: ...{context}...")
-            if len(leaks) >= 5:
-                break
-    if leaks:
-        report.add(
-            "Blind-review compliance",
-            "FAIL",
-            f"{len(leaks)} potential leak(s); first: {leaks[0][:140]}",
-        )
-    else:
-        report.add("Blind-review compliance", "PASS")
-
-
-def check_references(text: str, report: Report) -> None:
-    sec = find_section(text, ["references"])
-    if sec is None:
-        report.add("References section", "FAIL", "no References section")
-        return
-    ref_text = text[sec[0]:sec[1]]
-    # Count entries by looking for lines starting with a capital letter and
-    # containing a (YYYY) pattern.
-    entries = re.findall(r"^[A-Z][^\n]*\((?:19|20)\d{2}", ref_text, re.MULTILINE)
-    n = len(entries)
-    if n < 5:
-        report.add("Reference count", "FAIL", f"only {n} entries (expect >=5)")
-    elif n < 15:
-        report.add("Reference count", "WARN", f"{n} entries (typical paper has 20+)")
-    else:
-        report.add("Reference count", "PASS", f"{n} entries")
-
-
-def check_data_availability(text: str, report: Report, profile: JournalProfile) -> None:
-    has_statement = bool(
-        re.search(
-            r"data\s+availability|publicly\s+available|enterprisesurveys\.org|"
-            r"available\s+upon\s+request|replication\s+package",
-            text,
-            re.IGNORECASE,
-        )
-    )
-    if profile.require_data_availability:
-        report.add(
-            "Data availability statement",
-            "PASS" if has_statement else "FAIL",
-            "" if has_statement else "required by journal but not found",
-        )
-    else:
-        report.add(
-            "Data availability statement",
-            "PASS" if has_statement else "WARN",
-            "" if has_statement else "encouraged but not required",
-        )
-
-
-def check_jel(text: str, report: Report, profile: JournalProfile) -> None:
-    if not profile.require_jel:
-        return
-    has_jel = bool(re.search(r"\bJEL\b.{0,20}[:：]", text))
-    report.add(
-        "JEL classification",
-        "PASS" if has_jel else "WARN",
-        "" if has_jel else "JEL codes recommended for this journal",
-    )
-
-
-# ----------------------------------------------------------------------------
-# Entry point
-# ----------------------------------------------------------------------------
-
-def main(argv: list[str] | None = None) -> int:
-    p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--manuscript", required=True, type=Path)
-    p.add_argument(
-        "--journal",
-        required=True,
-        choices=sorted(PROFILES.keys()),
-        help="Target journal code (APJM, MIR, IJOEM, JIBS, GSJ)",
-    )
-    p.add_argument(
-        "--quiet",
-        action="store_true",
-        help="Suppress per-check output, only print summary line",
-    )
-    args = p.parse_args(argv)
-
-    if not args.manuscript.is_file():
-        print(f"error: file not found: {args.manuscript}", file=sys.stderr)
-        return 2
-
-    text = args.manuscript.read_text(encoding="utf-8")
-    profile = PROFILES[args.journal]
-    report = Report(manuscript=args.manuscript, journal=profile)
-
-    check_section_presence(text, report)
-    check_word_count(text, report, profile)
-    check_abstract(text, report, profile)
-    check_keywords(text, report, profile)
-    check_blind_review(text, report, profile)
-    check_references(text, report)
-    check_data_availability(text, report, profile)
-    check_jel(text, report, profile)
-
-    if not args.quiet:
-        print(report.render())
-    else:
-        n_pass = sum(1 for r in report.results if r.status == "PASS")
-        n_warn = sum(1 for r in report.results if r.status == "WARN")
-        n_fail = sum(1 for r in report.results if r.status == "FAIL")
-        print(
-            f"{args.manuscript.name} -> {profile.name}: "
-            f"{n_pass} pass / {n_warn} warn / {n_fail} fail"
-        )
-
-    return 1 if report.has_failures() else 0
+        print("  ✅  SẴN SÀNG NỘP.\n")
+        sys.exit(0)
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

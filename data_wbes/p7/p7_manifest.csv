@@ -1,0 +1,126 @@
+country,year,region,icrv_group,n_raw,n_complete_core,has_website,has_epay,has_cert,has_foreign_tech
+China,2024,East Asia,3.0,2189,1701,True,True,True,True
+Vietnam,2023,Southeast Asia,4.0,1028,994,True,True,True,True
+Vietnam,2015,Southeast Asia,4.0,996,889,True,False,True,True
+Singapore,2023,Southeast Asia,1.0,623,582,True,True,True,True
+Vietnam,2009,Southeast Asia,4.0,1053,869,True,False,True,True
+Cambodia,2013,Southeast Asia,5.0,472,0,False,False,False,False
+Bhutan,2009,South Asia,5.0,250,226,True,False,True,True
+Vanuatu,2009,Pacific,6.0,128,75,True,False,True,True
+Mongolia,2019,East Asia,4.0,360,358,True,False,True,True
+Afghanistan,2014,South Asia,5.0,410,88,True,False,True,True
+Afghanistan,2025,South Asia,5.0,426,361,True,True,True,True
+Philippines,2023,Southeast Asia,4.0,1002,636,True,True,True,True
+Armenia,2020,West Asia,3.0,546,364,True,False,True,True
+Pakistan,2013,South Asia,4.0,1247,528,True,False,True,True
+Bangladesh,2013,South Asia,4.0,1442,1326,True,False,True,True
+Uzbekistan,2013,Central Asia,5.0,390,239,True,False,True,True
+Cambodia,2023,Southeast Asia,5.0,519,444,True,True,True,True
+Bhutan,2015,South Asia,5.0,253,223,True,False,True,True
+SriLanka,2025,South Asia,5.0,607,455,True,True,True,True
+Bangladesh,2022,South Asia,4.0,998,918,True,False,True,True
+Cambodia,2016,Southeast Asia,5.0,373,337,True,False,True,True
+Uzbekistan,2019,Central Asia,5.0,1239,769,True,False,True,True
+Armenia,2013,West Asia,3.0,360,212,True,False,True,True
+Mongolia,2009,East Asia,4.0,362,348,True,False,True,True
+SriLanka,2011,South Asia,5.0,610,525,True,False,True,True
+Bhutan,2024,South Asia,5.0,155,116,True,True,True,True
+Pakistan,2022,South Asia,4.0,1300,1276,True,True,True,True
+Armenia,2009,West Asia,3.0,374,209,True,False,True,True
+Bahrain,2024,West Asia,2.0,150,98,True,True,True,True
+Malaysia,2015,Southeast Asia,3.0,1000,701,True,False,True,True
+Uzbekistan,2024,Central Asia,5.0,1008,716,True,True,True,True
+Nepal,2023,South Asia,5.0,582,536,True,True,True,True
+Armenia,2024,West Asia,3.0,375,302,True,True,True,True
+Malaysia,2024,Southeast Asia,3.0,979,900,True,True,True,True
+Cyprus,2019,West Asia,1.0,240,200,True,False,True,True
+Mongolia,2013,East Asia,4.0,360,276,True,False,True,True
+Brunei,2025,Southeast Asia,2.0,150,99,True,True,True,True
+Thailand,2025,Southeast Asia,3.0,813,766,True,True,True,True
+Vanuatu,2023,Pacific,6.0,111,80,True,True,True,True
+Malaysia,2019,Southeast Asia,3.0,1221,1114,True,False,True,True
+KyrgyzRepublic,2019,Central Asia,5.0,360,288,True,False,True,True
+Korea,2024,East Asia,1.0,1518,1447,True,True,True,True
+Laos,2016,Southeast Asia,5.0,368,355,True,False,True,True
+Indonesia,2015,Southeast Asia,4.0,1320,1279,True,False,True,True
+Myanmar,2014,Southeast Asia,5.0,632,475,True,False,True,True
+Tajikistan,2019,Central Asia,5.0,352,176,True,False,True,True
+Kazakhstan,2024,Central Asia,3.0,1013,933,True,True,True,True
+Kazakhstan,2019,Central Asia,3.0,1446,888,True,False,True,True
+Kazakhstan,2009,Central Asia,3.0,544,375,True,False,True,True
+KyrgyzRepublic,2023,Central Asia,5.0,354,278,True,True,True,True
+India,2014,South Asia,4.0,9281,8272,True,False,True,True
+Thailand,2016,Southeast Asia,3.0,1000,705,True,False,True,True
+Indonesia,2009,Southeast Asia,4.0,1444,1145,True,False,True,True
+Taiwan,2024,East Asia,1.0,612,579,True,True,True,True
+TimorLeste,2015,Southeast Asia,6.0,126,123,True,False,True,True
+KyrgyzRepublic,2013,Central Asia,5.0,270,186,True,False,True,True
+Laos,2018,Southeast Asia,5.0,332,251,True,False,True,True
+India,2022,South Asia,4.0,9376,9159,True,False,True,True
+Tajikistan,2013,Central Asia,5.0,359,179,True,False,True,True
+Turkmenistan,2024,Central Asia,5.0,311,222,True,True,True,True
+SolomonIslands,2025,Pacific,6.0,150,107,True,True,True,True
+Indonesia,2023,Southeast Asia,4.0,2955,1630,True,False,True,True
+Tajikistan,2024,Central Asia,5.0,364,258,True,True,True,True
+Laos,2024,Southeast Asia,5.0,363,327,True,True,True,True
+Kazakhstan,2013,Central Asia,3.0,600,298,True,False,True,True
+HongKong,2023,East Asia,1.0,598,189,True,True,True,True
+TimorLeste,2009,Southeast Asia,6.0,150,83,True,False,True,True
+Myanmar,2016,Southeast Asia,5.0,607,544,True,False,True,True
+India,2025,South Asia,4.0,10479,10464,True,True,True,True
+SaudiArabia,2025,West Asia,2.0,1002,997,True,True,True,True
+Oman,2003,West Asia,2.0,337,0,False,False,False,False
+Samoa,2023,Pacific,6.0,157,131,True,True,True,True
+Iraq,2011,West Asia,5.0,756,697,True,False,True,True
+Israel,2013,West Asia,1.0,483,423,True,False,True,True
+PapuaNewGuinea,2024,Pacific,6.0,145,77,True,True,True,True
+Jordan,2013,West Asia,5.0,573,463,True,False,True,True
+Jordan,2024,West Asia,5.0,592,514,True,True,True,True
+KyrgyzRepublic,2009,Central Asia,5.0,235,183,True,False,True,True
+Kuwait,2025,West Asia,2.0,150,148,True,True,True,True
+Yemen,2010,West Asia,5.0,477,262,True,False,True,True
+Lebanon,2009,West Asia,5.0,382,0,False,False,False,False
+Israel,2024,West Asia,1.0,388,211,True,True,True,True
+Georgia,2023,West Asia,3.0,592,476,True,True,True,True
+TimorLeste,2021,Southeast Asia,6.0,238,181,True,False,True,True
+Lebanon,2013,West Asia,5.0,561,424,True,False,True,True
+Tonga,2024,Pacific,6.0,150,144,True,True,True,True
+Georgia,2013,West Asia,3.0,360,191,True,False,True,True
+Maldives,2025,South Asia,5.0,154,112,True,True,True,True
+Kiribati,2025,Pacific,6.0,150,114,True,True,True,True
+PapuaNewGuinea,2015,Pacific,6.0,65,61,True,False,True,True
+Cyprus,2024,West Asia,1.0,246,246,True,True,True,True
+Georgia,2019,West Asia,3.0,581,405,True,False,True,True
+Qatar,2025,West Asia,2.0,480,468,True,True,True,True
+Fiji,2025,Pacific,6.0,151,91,True,True,True,True
+Jordan,2019,West Asia,5.0,601,191,True,False,True,True
+Yemen,2013,West Asia,5.0,353,255,True,False,True,True
+Iraq,2022,West Asia,5.0,1019,575,True,False,True,True
+Lebanon,2019,West Asia,5.0,532,492,True,False,True,True
+Mongolia,2025,East Asia,4.0,601,526,True,True,True,True
+Fiji,2009,Pacific,6.0,164,72,True,False,True,True
+Philippines,2009,Southeast Asia,4.0,1326,1034,True,False,True,True
+Philippines,2015,Southeast Asia,4.0,1335,1106,True,False,True,True
+Philippines_panel,2009,Unknown,,1326,1034,True,False,True,True
+Philippines_panel,2015,Unknown,,1335,1106,True,False,True,True
+Philippines,2009,Southeast Asia,4.0,1326,1034,True,False,True,True
+Philippines,2015,Southeast Asia,4.0,1335,1106,True,False,True,True
+Nepal_panel,2009,Unknown,,368,312,True,False,True,True
+Nepal_panel,2013,Unknown,,482,455,True,False,True,True
+Nepal_panel,2023,Unknown,,582,536,True,False,True,True
+Philippines_panel,2009,Unknown,,1326,1034,True,False,True,True
+Philippines_panel,2015,Unknown,,1335,1106,True,False,True,True
+Mongolia_panel,2009,Unknown,,362,348,True,False,True,True
+Mongolia_panel,2013,Unknown,,360,276,True,False,True,True
+Mongolia_panel,2019,Unknown,,360,358,True,False,True,True
+Mongolia_panel,2009,Unknown,,362,348,True,False,True,True
+Mongolia_panel,2013,Unknown,,360,276,True,False,True,True
+Mongolia_panel,2019,Unknown,,360,358,True,False,True,True
+Nepal_panel,2009,Unknown,,368,312,True,False,True,True
+Nepal_panel,2013,Unknown,,482,455,True,False,True,True
+Nepal_panel,2023,Unknown,,582,536,True,False,True,True
+Azerbaijan,2024,West Asia,5.0,368,143,True,True,True,True
+Comoros,2025,Indian Ocean SIDS,6.0,153,117,True,True,True,True
+Turkey,2008,West Asia,3.0,1152,670,True,False,True,True
+Turkey,2013,West Asia,3.0,1344,691,True,False,True,True
+Turkey,2024,West Asia,3.0,1416,1124,True,True,True,True

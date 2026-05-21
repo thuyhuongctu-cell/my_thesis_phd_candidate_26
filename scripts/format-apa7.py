@@ -1,310 +1,231 @@
 #!/usr/bin/env python3
 """
-format-apa7.py — cross-validate in-text citations against the reference list
-in an APA7-style academic manuscript.
+format-apa7.py — Kiểm tra chéo citations inline vs danh mục references APA7.
 
-Implements the citation-cross-validation tool described in the
-academic-manuscript-quality-toolkit skill (see /tmp/skills_extract/
-academicmanuscriptqualitytoolkit/SKILL.md).
-
-For each Markdown manuscript:
-  1. Extract reference entries from the `## References` section (one entry
-     per paragraph; each entry must start with an upper-case author surname
-     followed by other authors / initials and a `(YYYY)` year).
-  2. Scan the body text for in-text citations in these forms:
-       - "(Author, YYYY)"
-       - "Author (YYYY)"
-       - "(Author & Author, YYYY)"
-       - "Author and Author (YYYY)"
-       - "Author et al. (YYYY)"
-       - "(Author et al., YYYY)"
-       - blinded variant "(Author Citation, YYYY ...)" / "Author Citation (YYYY)"
-       - semicolon-separated lists "(Foo, 2020; Bar & Baz, 2021)"
-  3. Report:
-       - References that have no matching in-text citation (uncited).
-       - In-text citations that have no matching reference entry (orphaned).
-       - Year mismatches (author cited with year X but reference list has year Y).
-
-Usage:
-    python3 scripts/format-apa7.py --manuscript manuscripts/p3_vietnam_en_clean.md
-
-Exit code: 0 if no uncited / no orphaned citations, 1 otherwise.
+Chạy:
+    python3 scripts/format-apa7.py                          # kiểm tra tất cả
+    python3 scripts/format-apa7.py --paper manuscripts/p3_vietnam_en_clean.md
+    python3 scripts/format-apa7.py --refs thesis/04_references_apa7.md
+    python3 scripts/format-apa7.py --orphans                # chỉ liệt kê refs thừa
 """
 
-from __future__ import annotations
-
-import argparse
 import re
 import sys
-from collections import defaultdict
-from dataclasses import dataclass
+import argparse
 from pathlib import Path
+from collections import defaultdict
 
+# ─── Config ──────────────────────────────────────────────────────────────────
+DEFAULT_REFS_FILE = "thesis/04_references_apa7.md"
 
-# ----------------------------------------------------------------------------
-# Reference extraction
-# ----------------------------------------------------------------------------
+MANUSCRIPT_PATTERNS = [
+    "p3/p3_vietnam_en_clean.md",
+    "p4/p4_singapore_en_clean.md",
+    "p5/versions/apjm/manuscript_v1_8_blinded_part1_frontmatter_intro.md",
+    "p5/versions/apjm/manuscript_v1_8_blinded_part2_theory.md",
+    "p5/versions/apjm/manuscript_v1_8_blinded_part3_data_methods.md",
+    "p5/versions/apjm/manuscript_v1_8_blinded_part4_results.md",
+    "chuyen_de/cd1/14_cd1_part1_intro_theory_vi.md",
+    "chuyen_de/cd1/15_cd1_part2_findings_vi.md",
+    "chuyen_de/cd1/16_cd1_part3_cases_conclusion_vi.md",
+    "chuyen_de/cd2/17_cd2_part1_intro_theory_vi.md",
+    "chuyen_de/cd2/18_cd2_part2_review_framework_hypotheses_vi.md",
+    "chuyen_de/cd2/19_cd2_part3_models_data_conclusion_vi.md",
+    "p6/21_p6_meta_vi.md",
+]
 
-# Reference entry pattern: starts with capital letter, runs until we see (YYYY)
-# Then captures the surname (first author) and year(s). Recognises "World Bank"
-# as a two-word institutional author.
-REF_LINE_RE = re.compile(
-    r"""^
-    (?P<surname>
-        World\s+Bank                              # institutional two-word
-        |[A-Z][A-Za-zÀ-ſ\-\'éèâàü]+               # standard surname
-    )
-    [\.,]?                                        # optional terminator after surname
-    (?:                                          # optional rest of author list
-        \s*,?\s*[A-Z][A-Za-zÀ-ſ\-\'éèâàü\.\s,&]*?
-    )?
-    \s*\(
-        (?P<year>(?:19|20)\d{2})                  # Year
-        (?:\s*[—-]\s*[A-Z]{3,6})?                 # Optional suffix tag (— JFAR / — ICBEF)
-    \)
-    """,
-    re.VERBOSE,
+# Regex: (Author, Year) hoặc Author (Year) hoặc Author et al. (Year)
+# Bắt được: (Đỗ & Phan, 2026), (World Bank, 2025), (Lu & Beamish, 2004), etc.
+INLINE_CITE_RE = re.compile(
+    r'\('
+    r'([A-ZÀ-Ỵa-zà-ỵÐđ][A-ZÀ-Ỵa-zà-ỵÐđ\s\-,\.&]+?)'  # author(s)
+    r',\s*'
+    r'(\d{4}[a-z]?)'                                       # year
+    r'(?:,\s*(?:p\.|pp\.)?\s*[\d\-]+)?'                   # optional page
+    r'\)'
 )
 
-# Blinded entries use "Author Citation" as the surname placeholder.
-BLIND_REF_RE = re.compile(
-    r"""^
-    Author\s+Citation
-    \s*\(
-        (?P<year>(?:19|20)\d{2})
-        (?:\s*[—-]\s*(?P<tag>[A-Z]{3,6}))?
-    \)
-    """,
-    re.VERBOSE,
+# Regex để parse author + year từ reference list entries
+# APA7: Author, A., & Co, B. (Year). Title...  — include & in character class
+REF_ENTRY_RE = re.compile(
+    r'^([A-ZÀ-Ỵa-zà-ỵÐđ][A-Za-zÀ-Ỵà-ỵÐđ\s\-,\.&]+?)\.\s*\((\d{4}[a-z]?)(?:,\s*[A-Za-z]+)?\)'
 )
 
+# Known abbreviation/alias mappings (inline key → how they appear in refs)
+ALIASES = {
+    # Map abbreviation → how the entry appears in the reference list.
+    # Keep same token so normalize_author produces the matching first word.
+    "World Bank": "World Bank",
+    "ADB": "ADB",
+    "UNCTAD": "UNCTAD",
+    "IMF": "IMF",
+    "WTO": "WTO",
+    "CIEM": "CIEM",
+    "IFC": "IFC",
+    "WIPO": "WIPO",
+    "OECD": "OECD",
+}
 
-@dataclass(frozen=True)
-class RefKey:
-    surname: str
-    year: str
-    tag: str = ""  # journal suffix (JFAR / VEFR / ICBEF) for blinded duplicates
 
-    def __str__(self) -> str:
-        suffix = f" — {self.tag}" if self.tag else ""
-        return f"{self.surname} ({self.year}{suffix})"
+def extract_inline_citations(text: str) -> list[tuple[str, str]]:
+    """Returns list of (author_raw, year) tuples from inline citations."""
+    results = []
+    for m in INLINE_CITE_RE.finditer(text):
+        author = m.group(1).strip().rstrip(",")
+        year = m.group(2).strip()
+        results.append((author, year))
+    return results
 
 
-def _split_entries(ref_body: str) -> list[str]:
-    """Split a references block into individual entry strings.
+def normalize_author(raw: str) -> str:
+    """Normalize author string for matching."""
+    raw = raw.strip()
+    # et al. → keep first author only
+    raw = re.sub(r'\s+et al\.?', '', raw, flags=re.IGNORECASE)
+    # Remove initials like "A., B."
+    raw = re.sub(r',?\s+[A-Z]\.\s*(?:&\s*)?', ' ', raw)
+    # Remove " & " and "and"
+    raw = re.sub(r'\s*&\s*|\s+and\s+', ' ', raw)
+    return raw.strip().lower()
 
-    Handles two layouts:
-      1. Paragraph-separated entries (blank line between entries).
-      2. Line-per-entry layout (each entry on a single line, no blank between).
-    Detects which layout is in use by counting blank-line separators.
+
+def parse_reference_list(refs_text: str) -> dict[str, list[str]]:
     """
-    blank_split = [p.strip() for p in re.split(r"\n\s*\n", ref_body) if p.strip()]
-    # If most "paragraphs" contain multiple author-year markers, fall back to
-    # per-line splitting because entries got smashed into one block.
-    has_many_years = sum(
-        len(re.findall(r"\((?:19|20)\d{2}", p)) >= 3 for p in blank_split
-    )
-    if has_many_years:
-        line_split = [
-            ln.strip() for ln in ref_body.split("\n")
-            if ln.strip() and re.match(r"^[A-Z]", ln.strip())
-        ]
-        return line_split
-    return blank_split
-
-
-def extract_references(text: str) -> set[RefKey]:
-    ref_start = text.find("## References")
-    if ref_start == -1:
-        return set()
-    ref_body = text[ref_start:].split("\n", 1)[1] if "\n" in text[ref_start:] else ""
-    entries = _split_entries(ref_body)
-
-    refs: set[RefKey] = set()
-    for entry in entries:
-        # Flatten multi-line entry to a single string
-        flat = re.sub(r"\s+", " ", entry)
-        m = BLIND_REF_RE.match(flat)
+    Returns dict: normalized_first_author → list of years found.
+    """
+    result = defaultdict(list)
+    for line in refs_text.splitlines():
+        line = line.strip()
+        if not line or line.startswith('#') or line.startswith('>') or line.startswith('---'):
+            continue
+        # Strip markdown bold markers (**...**) before matching
+        line = re.sub(r'^\*+', '', line).strip()
+        m = REF_ENTRY_RE.match(line)
         if m:
-            refs.add(RefKey("Author Citation", m.group("year"), m.group("tag") or ""))
+            author_raw = m.group(1).strip()
+            year = m.group(2).strip()
+            # Take first surname only (before first comma)
+            first_surname = author_raw.split(',')[0].strip().lower()
+            result[first_surname].append(year)
+    return result
+
+
+def check_citation_in_refs(
+    author: str, year: str, ref_index: dict[str, list[str]]
+) -> bool:
+    """Try to match an inline citation against the reference index."""
+    # Check alias expansion first
+    expanded = author
+    for abbrev, full in ALIASES.items():
+        if abbrev.lower() in author.lower():
+            expanded = full
+
+    # Get first word of author (first surname)
+    first_word = normalize_author(expanded).split()[0] if normalize_author(expanded).split() else ""
+
+    if not first_word:
+        return True  # Can't check, skip
+
+    for ref_key in ref_index:
+        if first_word in ref_key or ref_key in first_word:
+            if year in ref_index[ref_key]:
+                return True
+    return False
+
+
+def run(root: Path, manuscript_files: list[Path], refs_file: Path, show_orphans: bool):
+    if not refs_file.exists():
+        print(f"  ❌  Không tìm thấy file references: {refs_file}")
+        sys.exit(1)
+
+    refs_text = refs_file.read_text(encoding="utf-8")
+    ref_index = parse_reference_list(refs_text)
+
+    print(f"\n{'='*65}")
+    print(f"  format-apa7.py — Kiểm tra cross-reference citations")
+    print(f"{'='*65}")
+    print(f"  References file: {refs_file.relative_to(root)}")
+    print(f"  Entries trong refs: {sum(len(v) for v in ref_index.values())}")
+    print(f"  Manuscripts: {len(manuscript_files)} file(s)\n")
+
+    missing_total = 0
+    all_inline: dict[str, set[tuple[str, str]]] = defaultdict(set)
+
+    for mf in sorted(manuscript_files):
+        if not mf.exists():
             continue
-        m = REF_LINE_RE.match(flat)
-        if m:
-            surname = re.sub(r"\s+", " ", m.group("surname").strip())
-            refs.add(RefKey(surname, m.group("year")))
-    return refs
+        text = mf.read_text(encoding="utf-8")
+        citations = extract_inline_citations(text)
+        file_missing = []
 
+        for author, year in citations:
+            all_inline[str(mf)].add((author, year))
+            if not check_citation_in_refs(author, year, ref_index):
+                file_missing.append((author, year))
 
-# ----------------------------------------------------------------------------
-# In-text citation extraction
-# ----------------------------------------------------------------------------
+        if file_missing:
+            missing_total += len(file_missing)
+            rel = mf.relative_to(root)
+            print(f"  📄  {rel}")
+            seen = set()
+            for author, year in sorted(set(file_missing)):
+                key = f"{author} ({year})"
+                if key not in seen:
+                    seen.add(key)
+                    print(f"      ⚠️   Citation trong text KHÔNG CÓ trong refs: ({author}, {year})")
+            print()
 
-# Matches "(Author1, Year; Author2 & Author3, Year; ...)"
-PAREN_CITE_RE = re.compile(
-    r"\(([^()]*?(?:19|20)\d{2}[a-z]?[^()]*?)\)"
-)
-
-# Matches narrative form "Author (YYYY)" or "Author et al. (YYYY)" or
-# "Author and/& Author (YYYY)"
-NARRATIVE_CITE_RE = re.compile(
-    r"""(?:
-        (?<![A-Za-z])                              # word boundary before
-        (?:Author\s+Citation|[A-Z][A-Za-zÀ-ſ\-\']+)
-        (?:\s+(?:and|&)\s+[A-Z][A-Za-zÀ-ſ\-\']+)?  # second author
-        (?:\s+et\s+al\.?)?                          # et al.
-    )
-    \s*\(
-        ((?:19|20)\d{2})                            # year
-        (?:[a-z])?                                  # year disambig suffix
-        (?:\s*[—-]\s*[A-Z]{3,6})?
-    \)
-    """,
-    re.VERBOSE,
-)
-
-
-def extract_citations(text: str, body_only: str) -> dict[tuple[str, str], int]:
-    """Return mapping (surname_token, year) -> count over body text."""
-    cites: dict[tuple[str, str], int] = defaultdict(int)
-
-    # Parenthetical citations — split inside the parens on semicolons
-    for m in PAREN_CITE_RE.finditer(body_only):
-        inner = m.group(1)
-        # Skip if obviously not a citation (e.g., page ranges, footnote nums)
-        if not re.search(r"(?:19|20)\d{2}", inner):
-            continue
-        # Skip if it contains math-expression markers (× ^ = + interaction
-        # terms like "FSTS × wave_2024" or table footnote like "(N = 1,940)")
-        if re.search(r"[×\^=]|N\s*=", inner):
-            continue
-        for chunk in re.split(r";", inner):
-            chunk = chunk.strip()
-            # Liberal: first surname token + a year somewhere later in chunk.
-            # Recognises two-word surnames like "World Bank".
-            mm = re.match(
-                r"(?P<head>Author\s+Citation"
-                r"|World\s+Bank"
-                r"|[A-Z][A-Za-zÀ-ſ\-\']+)"
-                r"[^\d]*?(?P<year>(?:19|20)\d{2})",
-                chunk,
-            )
-            if mm:
-                first_surname = mm.group("head").strip()
-                # Collapse internal whitespace ("World  Bank" -> "World Bank")
-                first_surname = re.sub(r"\s+", " ", first_surname)
-                cites[(first_surname, mm.group("year"))] += 1
-
-    # Narrative citations
-    for m in NARRATIVE_CITE_RE.finditer(body_only):
-        full = m.group(0)
-        year = m.group(1)
-        # Skip false positives where the "name" before (YYYY) is part of a
-        # measurement label, table caption, or section reference.
-        if re.match(r"^(Panel|Figure|Table|Section|FSTS|TCI|DAI|Model|WBES|"
-                    r"H[0-9]|N|Equation|Appendix)\b", full):
-            continue
-        toks = re.findall(r"Author\s+Citation|World\s+Bank|[A-Z][A-Za-zÀ-ſ\-\']+", full)
-        if toks:
-            first = re.sub(r"\s+", " ", toks[0].strip())
-            cites[(first, year)] += 1
-    return cites
-
-
-# ----------------------------------------------------------------------------
-# Cross-validation
-# ----------------------------------------------------------------------------
-
-@dataclass
-class AuditReport:
-    manuscript: Path
-    references: set[RefKey]
-    citations: dict[tuple[str, str], int]
-
-    @property
-    def uncited(self) -> list[RefKey]:
-        cited_keys = {(s, y) for (s, y) in self.citations}
-        return sorted(
-            [r for r in self.references if (r.surname, r.year) not in cited_keys],
-            key=lambda r: (r.surname, r.year),
-        )
-
-    @property
-    def orphaned(self) -> list[tuple[str, str]]:
-        ref_keys = {(r.surname, r.year) for r in self.references}
-        return sorted(
-            [k for k in self.citations if k not in ref_keys],
-            key=lambda k: (k[0], k[1]),
-        )
-
-    def render(self) -> str:
-        lines = [
-            f"\n=== APA7 citation audit — {self.manuscript.name} ===\n",
-            f"  References extracted: {len(self.references)}",
-            f"  In-text citation keys: {len(self.citations)}",
-        ]
-        if self.uncited:
-            lines.append(
-                f"\n  UNCITED references ({len(self.uncited)}) — in reference list "
-                f"but not cited in body:"
-            )
-            for r in self.uncited:
-                lines.append(f"    - {r}")
-        else:
-            lines.append("\n  UNCITED: none")
-        if self.orphaned:
-            lines.append(
-                f"\n  ORPHANED citations ({len(self.orphaned)}) — cited in body "
-                f"but missing from reference list:"
-            )
-            for s, y in self.orphaned:
-                lines.append(f"    - {s} ({y}) — cited {self.citations[(s, y)]}×")
-        else:
-            lines.append("\n  ORPHANED: none")
-        return "\n".join(lines)
-
-    @property
-    def clean(self) -> bool:
-        return not self.uncited and not self.orphaned
-
-
-def audit(path: Path) -> AuditReport:
-    text = path.read_text(encoding="utf-8")
-    refs = extract_references(text)
-    body = text.split("## References")[0]
-    cites = extract_citations(text, body)
-    return AuditReport(manuscript=path, references=refs, citations=cites)
-
-
-# ----------------------------------------------------------------------------
-# Entry point
-# ----------------------------------------------------------------------------
-
-def main(argv: list[str] | None = None) -> int:
-    p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--manuscript", required=True, type=Path)
-    p.add_argument(
-        "--quiet",
-        action="store_true",
-        help="Print summary line only",
-    )
-    args = p.parse_args(argv)
-
-    if not args.manuscript.is_file():
-        print(f"error: file not found: {args.manuscript}", file=sys.stderr)
-        return 2
-
-    report = audit(args.manuscript)
-
-    if args.quiet:
-        print(
-            f"{args.manuscript.name}: "
-            f"{len(report.uncited)} uncited / {len(report.orphaned)} orphaned"
-        )
+    if missing_total == 0:
+        print("  ✅  Tất cả citations inline đều có entry trong references.\n")
     else:
-        print(report.render())
+        print(f"  ❌  Tổng: {missing_total} citation(s) không tìm thấy trong references.\n")
 
-    return 0 if report.clean else 1
+    # Orphan check: refs in file but never cited
+    if show_orphans:
+        print(f"\n{'─'*65}")
+        print("  Refs trong danh mục nhưng chưa được cite (có thể bỏ):")
+        cited_authors = set()
+        for citations in all_inline.values():
+            for author, year in citations:
+                first = normalize_author(author).split()[0] if normalize_author(author).split() else ""
+                cited_authors.add(first)
+
+        orphans = []
+        for ref_key, years in sorted(ref_index.items()):
+            if ref_key not in cited_authors and not any(c in ref_key for c in cited_authors):
+                for yr in years:
+                    orphans.append(f"{ref_key} ({yr})")
+        if orphans:
+            for o in orphans[:20]:  # cap at 20 to avoid noise
+                print(f"      • {o}")
+            if len(orphans) > 20:
+                print(f"      … và {len(orphans)-20} nữa")
+        else:
+            print("      (Không có refs thừa — tốt!)")
+        print()
+
+    return missing_total
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Kiểm tra chéo citations APA7")
+    parser.add_argument("--paper", help="Kiểm tra file manuscript cụ thể")
+    parser.add_argument("--refs", help="File danh mục references (mặc định: thesis/04_references_apa7.md)")
+    parser.add_argument("--orphans", action="store_true", help="Liệt kê refs thừa (có trong danh mục nhưng chưa cite)")
+    parser.add_argument("--root", default=".", help="Thư mục gốc repo")
+    args = parser.parse_args()
+
+    root = Path(args.root).resolve()
+    refs_file = root / (args.refs or DEFAULT_REFS_FILE)
+
+    if args.paper:
+        files = [Path(args.paper).resolve()]
+    else:
+        files = [root / p for p in MANUSCRIPT_PATTERNS]
+
+    missing = run(root, files, refs_file, args.orphans)
+    sys.exit(1 if missing > 0 else 0)
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

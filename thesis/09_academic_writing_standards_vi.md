@@ -84,7 +84,7 @@ Sau lần đầu, dùng **tiếng Việt thuần** cho các lần tiếp theo tr
 | Sai | Đúng |
 |-----|------|
 | "dispersion trong phân phối TFP" | "phân tán (dispersion) trong phân phối TFP" |
-| "pool gồm 101.035 doanh nghiệp" | "nhóm dữ liệu gộp (pool) gồm 101.035 doanh nghiệp" |
+| "pool gồm 101,185 doanh nghiệp" | "nhóm dữ liệu gộp (pool) gồm 101,185 doanh nghiệp" |
 | "panel data 6 đợt khảo sát" | "dữ liệu bảng (panel data) từ 6 đợt khảo sát" |
 | "cross-section cho năm 2019" | "mẫu cắt ngang (cross-section) cho năm 2019" |
 | "cluster theo quốc gia" | "nhóm gộp (cluster) theo quốc gia" |
@@ -121,10 +121,10 @@ Sau lần đầu, dùng **tiếng Việt thuần** cho các lần tiếp theo tr
 Nếu ý tưởng phức tạp cần diễn đạt dài hơn, **tách thành 2-3 câu độc lập** hoặc dùng **dấu chấm phẩy (;)** để kết nối các mệnh đề độc lập có liên quan.
 
 **Ví dụ trước biên tập (~80 từ — không chấp nhận):**
-> "Dựa trên phân tích dữ liệu WBES từ 101.035 doanh nghiệp thuộc 47 nền kinh tế châu Á trong 6 đợt khảo sát từ 2009 đến 2025, nghiên cứu này phát hiện rằng mối quan hệ giữa cường độ quốc tế hóa và hiệu quả hoạt động kinh doanh không phải là tuyến tính đơn giản mà biểu hiện dưới dạng đường cong phi tuyến phức tạp với điểm uốn thay đổi tùy theo nhóm thể chế, trình độ công nghệ, và mức độ số hóa của doanh nghiệp."
+> "Dựa trên phân tích dữ liệu WBES từ 101,185 doanh nghiệp thuộc 47 nền kinh tế châu Á trong 6 đợt khảo sát từ 2009 đến 2025, nghiên cứu này phát hiện rằng mối quan hệ giữa cường độ quốc tế hóa và hiệu quả hoạt động kinh doanh không phải là tuyến tính đơn giản mà biểu hiện dưới dạng đường cong phi tuyến phức tạp với điểm uốn thay đổi tùy theo nhóm thể chế, trình độ công nghệ, và mức độ số hóa của doanh nghiệp."
 
 **Sau biên tập (2 câu, mỗi câu ≤35 từ):**
-> "Phân tích dữ liệu WBES gồm 101.035 doanh nghiệp thuộc 47 nền kinh tế châu Á (2009-2025) cho thấy mối quan hệ cường độ quốc tế hóa-hiệu quả kinh doanh mang dạng phi tuyến. Điểm uốn thay đổi tùy theo nhóm thể chế, trình độ công nghệ, và mức độ số hóa của doanh nghiệp."
+> "Phân tích dữ liệu WBES gồm 101,185 doanh nghiệp thuộc 47 nền kinh tế châu Á (2009-2025) cho thấy mối quan hệ cường độ quốc tế hóa-hiệu quả kinh doanh mang dạng phi tuyến. Điểm uốn thay đổi tùy theo nhóm thể chế, trình độ công nghệ, và mức độ số hóa của doanh nghiệp."
 
 ---
 

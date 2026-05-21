@@ -1,46 +1,50 @@
-
-# Build output
-# Claude local settings
-# Dependencies
-# Environment
 # Git ignore rules
-# IDE
-# Logs
-# OS
-# Temporary files
-# Test coverage
-*.log
-.DS_Store
-.claude/CLAUDE.local.md
-.claude/settings.local.json
+
+# Environment
 .env
-.env.*.local
 .env.local
+.env.*.local
 .env.production
-.idea/
-.nyc_output/
-.vscode/settings.json
-Thumbs.db
-build/
-coverage/
-# dist/ — submission artefacts are committed (dist/submission/*.{docx,tex,pdf})
-# Only exclude build-time logs and embedded asset copies
-dist/**/*.log
-dist/**/*.aux
-dist/**/*.out
-dist/**/*.toc
-dist/**/*.lof
-dist/**/*.lot
-dist/**/*.bbl
-dist/**/*.blg
-dist/**/*.synctex.gz
-dist/**/*.fdb_latexmk
-dist/**/*.fls
-dist/submission/figures/
-dist/submission/.claude/
-logs/
+
+# Claude local settings
+.claude/settings.local.json
+.claude/CLAUDE.local.md
+.claude/session-reads.txt
+
+# Dependencies
 node_modules/
-npm-debug.log*
+
+# Build output (Node.js projects only — PhD dissertation DOCX output is tracked)
+build/
 out/
-temp/
+# dist/ intentionally NOT ignored — dist/chuyen_de_1/ contains CTU-formatted DOCX deliverables
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
 tmp/
+temp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# P6 downloaded PDFs (too large for git — store locally)
+p6/pdfs/

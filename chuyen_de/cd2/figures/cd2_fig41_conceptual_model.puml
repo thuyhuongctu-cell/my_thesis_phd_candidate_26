@@ -1,0 +1,83 @@
+@startuml cd2_conceptual_model
+' ══════════════════════════════════════════════════════════════════
+' Hình 4.1 — Khung khái niệm tích hợp CĐ2
+' Tác động của Quốc tế hóa (I) lên Hiệu quả (P)
+' Điều tiết đa tầng: TCI · DAI/CDCM · Manager · ICRV · Year-bucket
+' Pool: 101.185 doanh nghiệp × 47 nền kinh tế × 108 country-years
+' Phiên bản 1.0 — 09/05/2026
+' ══════════════════════════════════════════════════════════════════
+
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam shadowing false
+skinparam roundcorner 10
+skinparam ArrowColor #2C3E50
+skinparam ArrowThickness 1.5
+skinparam RectangleBorderColor #5D6D7E
+skinparam RectangleBorderThickness 1.5
+skinparam RectangleFontSize 11
+
+' ── [1] Biến độc lập ────────────────────────────────────────────
+rectangle "  **Quốc tế hóa (I)**\n  FSTS · FSTS²_c · FSTS³_c\n  ──────────────────────\n  Mã WBES: d3c / 100\n  N = 101.185 doanh nghiệp\n  47 nền kinh tế · 14 sóng  " as IV #AED6F1
+
+' ── [2] Biến phụ thuộc ──────────────────────────────────────────
+rectangle "  **Hiệu quả (P)**\n  ln(Labour Productivity)\n  ──────────────────────\n  ln(Doanh thu PPP / Lao động)\n  Năng suất lao động PPP-adjusted  " as DV #A9DFBF
+
+' ── [3] Điều tiết cấp doanh nghiệp (Firm-level) ────────────────
+rectangle "  **TCI**\n  Năng lực Công nghệ nội tại\n  ────────────────────\n  ISO cert (b8) · R&D (h8)\n  Đổi mới SP (h1) · Tech NN (e6)\n  → **Level-shifter** [H2]  " as TCI #FEF9E7
+
+rectangle "  **DAI** — CDCM\n  Áp dụng Số Nền tảng\n  ────────────────────\n  Website (c22b) · E-payment (k33/k38)\n  Tier 1–2 · Schema BEE (2019+)\n  → **Conditional scaling** [H3]  " as DAI #FEF9E7
+
+rectangle "  **Đặc điểm Nhà quản trị**\n  ────────────────────\n  Kinh nghiệm (b5)\n  Học vấn (b7a) · Giới tính (b7)\n  → **Upper Echelons** [H4]  " as MGR #FEF9E7
+
+' ── [4] Điều tiết cấp quốc gia (Country-level) ─────────────────
+rectangle "  **ICRV Regime** (6 nhóm)\n  ────────────────────\n  Nhóm I (đổi mới) → Nhóm VI (SIDS)\n  5+5+6+7+17+7 = 47 nền kinh tế\n  Gradient TP + Forced penalty\n  → **Institutional Theory** [H5]  " as ICRV #FAD7A0
+
+rectangle "  **Year-bucket**\n  ────────────────────\n  2009–2012 (hậu GFC)\n  2013–2017 (GVC surge)\n  2018–2025 (số hóa + COVID)\n  → **Temporal heterogeneity** [H6]  " as YB #D5DBDB
+
+' ── [5] Biến kiểm soát ─────────────────────────────────────────
+rectangle "  **Controls**\n  ln(employees) · firm_age\n  foreign_own · sector\n  Country FE · Year FE  " as CTRL #F0F0F0
+
+' ── [6] Mối quan hệ chính ───────────────────────────────────────
+IV -right-> DV : "  **H1**: β₁>0; β₂<0 (inverted-U)\n  (β₃>0 → S-curve nếu cubic fits)\n  Turning point gradient I→VI  "
+
+' ── [7] Mối quan hệ điều tiết (dashed) ─────────────────────────
+TCI -[dashed,#7D6608]down-> DV : " H2 "
+DAI -[dashed,#7D6608]down-> DV : " H3 "
+MGR -[dashed,#7D6608]down-> DV : " H4 "
+
+ICRV -[dashed,#922B21]up-> DV : " H5 "
+YB -[dashed,#922B21]up-> DV : " H6 "
+
+CTRL -[dotted,#A0A0A0]right-> DV : " controls "
+
+' ── [8] Ghi chú phân tầng ──────────────────────────────────────
+note top of TCI
+  **CẤP DOANH NGHIỆP — Firm-level moderators**
+  (TCI, DAI, Manager)
+end note
+
+note bottom of ICRV
+  **CẤP QUỐC GIA — Country-level moderators**
+  (ICRV Regime, Year-bucket)
+end note
+
+' ── [9] Ghi chú CDCM ───────────────────────────────────────────
+note right of DAI
+  **CDCM** (Context-Contingent\nDigital Capability Model):
+  DAI = f(ICRV regime × FSTS level\n        × Digital saturation)
+  P4 SG: FSTS²×DAI = +3.119 (p=.005)
+  P3 VN: IV null β = 0.018 (p=.942)
+  P5 CN: control only (Tier 1 bão hòa)
+end note
+
+legend right
+  |= Ký hiệu |= Ý nghĩa |
+  | →  (liền) | Tác động trực tiếp (H1) |
+  | - -> (nét đứt vàng) | Điều tiết cấp DN (H2–H4) |
+  | - -> (nét đứt đỏ) | Điều tiết cấp quốc gia (H5–H6) |
+  | ..> (chấm) | Biến kiểm soát |
+endlegend
+
+@enduml

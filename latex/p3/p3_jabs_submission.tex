@@ -1,0 +1,298 @@
+%% P3 — Vietnam
+%% Target journal: Journal of Asia Business Studies (JABS), Emerald Publishing
+%% Article class: standard article (Emerald accepts article class submissions)
+%% Compile: pdflatex → biber → pdflatex × 2  |  or: latexmk -pdf p3_jabs_submission.tex
+
+\documentclass[12pt,a4paper]{article}
+
+%% ---- Packages ----
+\usepackage{amsmath,amssymb,amsthm}   % math environments
+\usepackage{graphicx}
+\usepackage{booktabs}                  % professional tables (\toprule, \midrule, \bottomrule)
+\usepackage{setspace}
+\doublespacing
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{../../references/p3_references.bib}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+%% ---- Shared macros ----
+\input{../shared/macros}
+
+%% ---- Title / Author (blinded for review) ----
+\title{Revisiting the Internationalisation--Performance Relationship in an
+  Emerging Market: The Roles of Technological Capability and Foundational
+  Digital Adoption}
+\author{[Blinded for review]}
+\date{}
+
+% ============================================================
+\begin{document}
+\maketitle
+
+%% ---- ABSTRACT ----
+\begin{abstract}
+\noindent\textbf{Purpose} --- This study revisits the
+internationalisation--performance (\(I \to P\)) relationship in Vietnam across
+three survey waves, testing whether technological capability moderates
+export-intensity effects and how a Tier-1 digital indicator evolves across
+institutional generations.
+
+\medskip
+\noindent\textbf{Design/Methodology/Approach} --- Three waves of World Bank
+Enterprise Survey data (Vietnam 2009, 2015, 2023; \(N = 2{,}958\)) are used to
+estimate wave-specific and pooled OLS models with HC1 robust standard errors,
+quadratic export-intensity terms, and capability interactions.
+\(\mathrm{TCI}\) (quality certification, foreign-licensed technology) is the
+primary construct; a single-item website indicator (Tier-1 only) is retained
+as a digital-presence control.
+
+\medskip
+\noindent\textbf{Findings} --- An inverted-\(U\) between export intensity and
+labour productivity holds across all three waves, with turning points clustered
+between 39\% and 46\% --- a structurally durable 7-percentage-point band
+sustained across 14 years of institutional change.  The Lind--Mehlum test
+rejects monotonicity in all waves (\(p = .006, .009, .013\) and pooled
+\(p < .001\)).  \(\TCIz\) is positively associated with productivity in all
+waves (pooled \(\hat{\beta} = 0.179\), \(p < .001\)) and moderates the \(I
+\to P\) curvature.
+
+\medskip
+\noindent\textbf{Originality/Value} --- The inverted-\(U\) nonlinearity
+reflects a participation-margin effect at the export-participation barrier
+rather than a continuous intensity-saturation curve.  The threshold cluster
+(39--46\% \(\FSTS\) band) is institutionally embedded --- shifting the debate
+from ``does internationalisation help?'' to ``under what institutional
+conditions does the threshold shift?''
+
+\medskip
+\noindent\textbf{Keywords:} internationalisation--performance; emerging
+markets; technological capability; threshold durability; Vietnam; firm
+productivity.
+
+\medskip
+\noindent\textbf{JEL:} F23; O33; D22; L25; O53.
+\end{abstract}
+
+\newpage
+
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+Vietnam offers an analytically valuable setting for revisiting the
+internationalisation--performance (\(I \to P\)) relationship because firms
+expand abroad under conditions of institutional transition, uneven capability
+accumulation, and rapidly changing digital infrastructure.  A long tradition of
+research supports the view that nonlinearity is a central feature of this
+relationship \parencite{Lu2004, Hennart2007, Marano2016}.
+
+Three institutional turning points shape the observation window: WTO accession
+(2007), the mid-transition CPTPP/EVFTA period (2015), and the National Digital
+Transformation Programme post-2020 (2023 wave).
+
+% ============================================================
+\section{Theory and Hypotheses}
+\label{sec:theory}
+
+\subsection{Inverted-\textit{U} Nonlinearity (H1)}
+
+Building on Uppsala model learning logic \parencite{Johanson1977,Johanson2009}
+and organisational complexity arguments \parencite{Lu2004}, we hypothesise:
+
+\begin{quote}
+\textbf{H1:} The relationship between export intensity (\(\FSTS\)) and labour
+productivity (\(\lnLP\)) follows an inverted-\(U\) shape, with a maximum in the
+intermediate range.
+\end{quote}
+
+\subsection{TCI Moderation (H2)}
+
+Resource-based view \parencite{Barney1991} predicts that firms with higher
+technological capability sustain the performance premium at higher
+internationalisation levels:
+
+\begin{quote}
+\textbf{H2:} Higher \(\TCI\) raises the productivity level (positive level
+shift) and moderates the curvature of the \(I \to P\) relationship.
+\end{quote}
+
+\subsection{DAI Proxy-Obsolescence (H3/H4)}
+
+The Tier-1 digital-presence indicator (website ownership) follows a
+proxy-obsolescence trajectory as adoption diffuses to near-universal levels:
+
+\begin{quote}
+\textbf{H3/H4:} The \(\DAI\) (Tier-1 website) coefficient evolves from
+positive (2009) to null (2015) to negatively interactive (2023), consistent with
+Tier-1 proxy obsolescence as website adoption diffuses toward universal levels ---
+not evidence of digital adoption moderation in the capability sense.
+\end{quote}
+
+% ============================================================
+\section{Methodology}
+\label{sec:methods}
+
+\subsection{Data}
+
+World Bank Enterprise Surveys (WBES): Vietnam 2009 (full frame \(n = 1{,}074\)),
+2015 (\(n = 1{,}001\)), 2023 (\(n = 883\)).  Analytic sample after listwise deletion
+on focal variables: 2009 \(n = 989\), 2015 \(n = 956\), 2023 \(n = 1{,}013\);
+pooled \(N = 2{,}958\).  All monetary values converted to 2017 constant USD PPP.
+
+\subsection{Variables}
+
+\paragraph{Dependent variable.}
+Labour productivity: \(\lnLP = \ln(\text{annual revenue PPP} / \text{permanent
+workers})\).
+
+\paragraph{Internationalisation.}
+Foreign Sales to Total Sales, mean-centred: \(\FSTSc = \FSTS - \bar{F}\).
+
+\paragraph{Technological Capability Index.}
+Within-wave standardised composite of quality certification (\texttt{b8}) and
+foreign-licensed technology (\texttt{e6}):
+\begin{equation}
+  \TCIz = \frac{1}{2}\left[z(\text{quality\_cert}) + z(\text{for\_lic\_tech})\right].
+  \label{eq:tci}
+\end{equation}
+
+\paragraph{Digital Adoption Index.}
+Single-item Tier-1 binary: website presence (\texttt{c22b}), standardised.
+
+\subsection{Model Specification}
+
+\paragraph{M0 --- Linear baseline.}
+\begin{equation}
+  \lnLP_{i} = \beta_{0} + \beta_{1}\,\FSTS_{i}
+    + \bcontrols + \alphaj + \deltat + \varepsilon_{i}
+  \label{eq:M0}
+\end{equation}
+
+\paragraph{M1 --- Quadratic inverted-\textit{U} (H1).}
+\begin{equation}
+  \lnLP_{i} = \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    + \bcontrols + \alphaj + \deltat + \varepsilon_{i}
+  \label{eq:M1}
+\end{equation}
+Turning point: \(\TP = -\beta_{1}/(2\beta_{2})\).  Confirmed by
+Lind--Mehlum \textit{utest} \parencite{LindMehlum2010}.
+
+\paragraph{M2 --- Cubic S-curve (H1 extended).}
+\begin{equation}
+  \lnLP_{i} = \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    + \beta_{3}\,\FSTSccb_{i}
+    + \bcontrols + \alphaj + \deltat + \varepsilon_{i}
+  \label{eq:M2}
+\end{equation}
+
+\paragraph{M3 --- TCI moderation (H2).}
+\begin{align}
+  \lnLP_{i} &= \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    \notag \\
+    &\quad + \beta_{3}\,\TCIz_{i}
+    + \beta_{4}\,(\FSTSc_{i} \times \TCIz_{i})
+    + \beta_{5}\,(\FSTScsq_{i} \times \TCIz_{i})
+    \notag \\
+    &\quad + \bcontrols + \alphaj + \deltat + \varepsilon_{i}
+  \label{eq:M3}
+\end{align}
+Joint moderation test: \(F\)-test \(H_{0}\colon \beta_{4} = \beta_{5} = 0\).
+
+\paragraph{M4 --- DAI moderation (H3/H4).}
+\begin{align}
+  \lnLP_{i} &= \beta_{0} + \beta_{1}\,\FSTSc_{i} + \beta_{2}\,\FSTScsq_{i}
+    \notag \\
+    &\quad + \beta_{3}\,\DAIz_{i}
+    + \beta_{4}\,(\FSTSc_{i} \times \DAIz_{i})
+    + \beta_{5}\,(\FSTScsq_{i} \times \DAIz_{i})
+    \notag \\
+    &\quad + \bcontrols + \alphaj + \deltat + \varepsilon_{i}
+  \label{eq:M4}
+\end{align}
+
+\paragraph{Controls.}
+\(\bX_{i}\) includes: \(\ln(\text{employees})\), firm age,
+foreign-ownership dummy (\(\geq 10\%\)), sector dummies.
+HC1 robust standard errors throughout \parencite{LongErvin2000}.
+
+% ============================================================
+\section{Results}
+\label{sec:results}
+
+\subsection{Descriptive Statistics}
+
+[Table~1 --- Descriptives and correlations (mean, SD, min, max,
+Pearson~\(r\) by wave)]
+
+\subsection{Baseline and Nonlinearity Tests}
+
+The quadratic term is negative and significant in all three waves
+(pooled \(\hat{\beta}_{2} = -0.441\), \(p < .001\)).  Turning points:
+2009 = 46.2\%, 2015 = 39.3\%, 2023 = 41.6\%, pooled = 39.7\%.
+The Lind--Mehlum \textit{utest} confirms an interior maximum in all panels.
+
+\subsection{TCI Moderation}
+
+\(\TCIz\) is positively associated with \(\lnLP\) in all waves
+(\(\hat{\beta}_{3} = 0.215, 0.128, 0.123\)) and pooled
+(\(\hat{\beta}_{3} = 0.179\), \(p < .001\)).
+Joint moderation \(F\)-tests: \(p = .040, p > .100, p = .027, p = .003\)
+for waves 2009, 2015, 2023, and pooled, respectively.
+
+\subsection{DAI Proxy Obsolescence}
+
+Baseline DAI coefficients: 2009 \(\hat{\beta} = 0.175\) (positive),
+2015 \(\hat{\beta} = -0.044\) (null), 2023 \(\hat{\beta} = 0.095\) (positive).
+The \(\FSTSc \times \DAIz\) interaction is significant only in 2023
+(\(\hat{\beta}_{4} = -0.912\), \(p = .043\)), consistent with proxy
+obsolescence as website adoption diffuses to 49.8\% of firms.
+
+\subsection{Robustness}
+
+[Table~3 --- Alternative estimators (random effects, GMM), alternative
+turning-point methods, exporter-only sub-sample, winsorisation sensitivity]
+
+The quadratic term on the exporter-only sub-sample loses significance
+(\(\hat{\beta} = -0.200\), \(p = .660\)), confirming that the inverted-\(U\)
+is driven by the participation margin rather than within-exporter intensity
+saturation.
+
+% ============================================================
+\section{Discussion}
+\label{sec:discussion}
+
+The structural durability of the 39--46\% turning-point band across 14 years
+suggests the threshold is institutionally embedded rather than firm-specific.
+This reframes the I--P debate: the relevant constraint in a transitional
+economy binds at the export-participation barrier, not within the intensive
+margin.
+
+The proxy-obsolescence trajectory of the Tier-1 digital indicator provides
+methodological guidance for future research: single-item digital measures
+require periodic re-validation as adoption levels change.
+
+% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+Across three survey waves in Vietnam, the inverted-\(U\) between export
+intensity and labour productivity is structurally durable (39--46\% band),
+primarily reflects a participation-margin step function, and is positively
+moderated by technological capability.  The website indicator follows a
+proxy-obsolescence arc rather than moderation by digital adoption capacity.
+
+\paragraph{Limitations and future research.}
+The DAI measure is limited to Tier-1 (website presence), a measurement
+constraint imposed by WBES Vietnam questionnaire design.  Future research
+should incorporate Tier-2 transaction-enabling digital indicators
+(e-payment, \texttt{k33}/\texttt{k38}) when available across waves.
+
+% ============================================================
+\printbibliography
+
+\end{document}

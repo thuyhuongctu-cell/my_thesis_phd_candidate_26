@@ -1,12 +1,12 @@
 name: Scopus API Search — P6 Meta-analysis
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:        # manual trigger from GitHub Actions tab
     inputs:
       scopus_api_key:
-        description: 'Scopus API Key (Elsevier / P6-meta-analysis-CTU)'
+        description: 'Scopus API Key (optional — leave blank to use secrets.SCOPUS_API_KEY)'
         required: false
-        default: '5a33a23876e87fa618d635fc89281790'
+        default: ''
       max_records:
         description: 'Max records to retrieve (default: 5000)'
         required: false
@@ -16,7 +16,7 @@ jobs:
   scopus-search:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write       # allow committing results back to repo
 
     steps:
       - name: Checkout repository
@@ -33,6 +33,16 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
+
+      - name: Validate API key available
+        env:
+          INPUT_KEY: ${{ github.event.inputs.scopus_api_key }}
+          SECRET_KEY: ${{ secrets.SCOPUS_API_KEY }}
+        run: |
+          if [[ -z "$INPUT_KEY" && -z "$SECRET_KEY" ]]; then
+            echo "::error::Scopus API key not provided. Either set secrets.SCOPUS_API_KEY in repo settings, or pass scopus_api_key via workflow_dispatch input."
+            exit 1
+          fi
 
       - name: Run Scopus API search
         env:

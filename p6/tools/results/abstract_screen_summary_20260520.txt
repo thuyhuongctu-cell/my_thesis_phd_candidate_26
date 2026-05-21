@@ -1,0 +1,26 @@
+Abstract screening summary — 20260520
+
+Total processed: 1543
+  Y  (include):   210  (13.6%)
+  N  (exclude):   151  (9.8%)
+  UNSURE:        1182  (76.6%)
+
+Top inclusion reasons:
+     93  STRONG:SI:exp_perf
+     72  DUAL:intl+perf
+     17  STRONG:SI:curvilinear
+      9  STRONG:SI:intl_perf
+      9  STRONG:SI:mne_perf
+      4  STRONG:SI:intl_and_perf
+
+Top exclusion reasons:
+     33  HARD:qual:case_study
+     29  HARD:gov:corp_gov
+     28  HARD:proc:intl_process
+     23  HARD:oob:health
+     10  HARD:ant:determinants
+      6  HARD:ant:export_decision
+      6  HARD:meth:bibliometric
+      4  HARD:gov:csr_esg_dv
+
+Output: p6/tools/results/abstract_screened_20260520.csv
