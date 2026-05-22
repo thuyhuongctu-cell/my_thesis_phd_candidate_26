@@ -30,15 +30,15 @@ jobs:
         if: env.MODE == 'tracker'
         run: |
           READY=$(python3 -c "
-import csv
-try:
-    with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
-        rows = list(csv.DictReader(f))
-    n = sum(1 for r in rows if r.get('ready_for_r','').strip()=='1' and r.get('converted_r','').strip())
-    print(n)
-except Exception as e:
-    print(0)
-")
+          import csv
+          try:
+              with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
+                  rows = list(csv.DictReader(f))
+              n = sum(1 for r in rows if r.get('ready_for_r','').strip()=='1' and r.get('converted_r','').strip())
+              print(n)
+          except Exception as e:
+              print(0)
+          ")
           echo "Ready rows: $READY / required: $MIN_READY"
           if [ "$READY" -lt "$MIN_READY" ]; then
             echo "::warning::Only $READY ready_for_r=1 rows found (need $MIN_READY). Stopping."

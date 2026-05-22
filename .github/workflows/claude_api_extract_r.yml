@@ -100,30 +100,30 @@ jobs:
           TRACKER="p6/tools/results/fulltext_to_extraction_tracker_v3.csv"
           if [ -f "$TRACKER" ]; then
             python3 -c "
-import csv
-rows = list(csv.DictReader(open('$TRACKER')))
-y    = sum(1 for r in rows if r.get('fulltext_screening_decision','')=='Y')
-done = sum(1 for r in rows if r.get('fulltext_screening_decision','')=='Y' and r.get('converted_r','').strip())
-pct  = round(done/y*100,1) if y else 0
-print('| Metric | Count |')
-print('|--------|-------| ')
-print(f'| Y papers total | {y} |')
-print(f'| r filled | {done} ({pct}%) |')
-print(f'| r still needed | {y-done} |')
-" >> $GITHUB_STEP_SUMMARY 2>&1 || echo "Could not read tracker." >> $GITHUB_STEP_SUMMARY
+          import csv
+          rows = list(csv.DictReader(open('$TRACKER')))
+          y    = sum(1 for r in rows if r.get('fulltext_screening_decision','')=='Y')
+          done = sum(1 for r in rows if r.get('fulltext_screening_decision','')=='Y' and r.get('converted_r','').strip())
+          pct  = round(done/y*100,1) if y else 0
+          print('| Metric | Count |')
+          print('|--------|-------| ')
+          print(f'| Y papers total | {y} |')
+          print(f'| r filled | {done} ({pct}%) |')
+          print(f'| r still needed | {y-done} |')
+          " >> $GITHUB_STEP_SUMMARY 2>&1 || echo "Could not read tracker." >> $GITHUB_STEP_SUMMARY
           fi
 
           LOG=$(ls p6/tools/results/claude_extract_log_*.csv 2>/dev/null | sort | tail -1)
           if [ -n "$LOG" ]; then
             echo "### Latest extraction log: $LOG" >> $GITHUB_STEP_SUMMARY
             python3 -c "
-import csv
-from collections import Counter
-rows = list(csv.DictReader(open('$LOG')))
-c = Counter(r.get('status','') for r in rows)
-for k,v in sorted(c.items(), key=lambda x:-x[1]):
-    print(f'| {k} | {v} |')
-" >> $GITHUB_STEP_SUMMARY 2>&1 || true
+          import csv
+          from collections import Counter
+          rows = list(csv.DictReader(open('$LOG')))
+          c = Counter(r.get('status','') for r in rows)
+          for k,v in sorted(c.items(), key=lambda x:-x[1]):
+              print(f'| {k} | {v} |')
+          " >> $GITHUB_STEP_SUMMARY 2>&1 || true
           fi
 
       - name: Upload log artifacts
