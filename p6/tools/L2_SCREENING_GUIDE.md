@@ -1,6 +1,6 @@
 # Hướng dẫn L2 Screening & Extraction — P6 Meta-Analysis
 
-**Cập nhật**: 22/05/2026 (rev 5)
+**Cập nhật**: 22/05/2026 (rev 6)
 **File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv`  
 **Cấu trúc**: 2510 rows × 59 cột  
 **Scope**: Full candidate pool từ WoS/Scopus/OpenAlex, bao gồm L2 decisions + extraction tracking
@@ -31,8 +31,30 @@ meta_r_scripts/00_mara_starter_20260522.R — chạy MARA khi ready_for_r ≥ 50
 
 **GitHub Actions workflows:**
 ```
-claude_api_extract_r.yml   — Claude Haiku r-extraction (queue_file mặc định: extraction_queue_v2_20260521.csv)
+claude_api_extract_r.yml   — Claude Haiku r-extraction (queue_file: extraction_queue_pdf_20260522.csv — 116 OA papers)
+semantic_scholar_query.yml — S2 fallback PDF lookup (manifest_file: s2_fallback_queue_20260522.csv — 425 closed-access)
 unpaywall_gap.yml          — Unpaywall OA lookup cho gap papers
+mara_workflow.yml          — Chạy MARA R script (khi converted_r ≥ 50)
+```
+
+**Extraction queues (22/05/2026):**
+```
+extraction_queue_pdf_20260522.csv   — 116 Y papers có OA PDF, Priority A (chạy claude_api_extract_r)
+s2_fallback_queue_20260522.csv      — 425 Y papers closed-access → S2 fallback
+```
+
+**Database tổng hợp:**
+```
+p6/data/p6_study_database_v2.csv    — k=259 studies, K=309 effects (merged + harmonized + fisher_z/vi)
+```
+
+**Preliminary MARA (k=259, K=309) — 22/05/2026:**
+```
+r̄ = 0.074 [0.060, 0.088]  p < .001
+I² = 91.9% (between=12.6%, within=79.3%)
+ICRV: QM(3)=8.56, p=.036  ✅ significant
+DPL:  QM(2)=1.11, p=.575  (NS)
+Egger b=0.077, p<.001
 ```
 
 ---

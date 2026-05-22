@@ -1,0 +1,106 @@
+name: Run Three-Level MARA (P6)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Data source: "database" (p6_study_database_v2) or "tracker" (tracker_v3 ready_for_r=1)'
+        required: false
+        default: 'database'
+      min_ready:
+        description: 'Minimum converted_r rows required before running (tracker mode only)'
+        required: false
+        default: '20'
+
+jobs:
+  mara:
+    runs-on: ubuntu-latest
+    env:
+      MODE: ${{ github.event.inputs.mode || 'database' }}
+      MIN_READY: ${{ github.event.inputs.min_ready || '20' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          fetch-depth: 1
+
+      - name: Check minimum ready_for_r (tracker mode only)
+        if: env.MODE == 'tracker'
+        run: |
+          READY=$(python3 -c "
+          import csv
+          try:
+              with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
+                  rows = list(csv.DictReader(f))
+              n = sum(1 for r in rows if r.get('ready_for_r','').strip()=='1' and r.get('converted_r','').strip())
+              print(n)
+          except Exception as e:
+              print(0)
+          ")
+          echo "Ready rows: $READY / required: $MIN_READY"
+          if [ "$READY" -lt "$MIN_READY" ]; then
+            echo "::warning::Only $READY ready_for_r=1 rows found (need $MIN_READY). Stopping."
+            echo "SKIP=1" >> $GITHUB_ENV
+          else
+            echo "SKIP=0" >> $GITHUB_ENV
+          fi
+
+      - name: Check database file (database mode)
+        if: env.MODE == 'database'
+        run: |
+          if [ ! -f "p6/data/p6_study_database_v2.csv" ]; then
+            echo "::error::p6/data/p6_study_database_v2.csv not found"
+            exit 1
+          fi
+          K=$(python3 -c "import csv; rows=list(csv.DictReader(open('p6/data/p6_study_database_v2.csv'))); print(len(rows))")
+          echo "Database rows: $K"
+          echo "SKIP=0" >> $GITHUB_ENV
+
+      - name: Install R
+        if: env.SKIP != '1'
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3'
+
+      - name: Install R packages
+        if: env.SKIP != '1'
+        run: |
+          Rscript -e "install.packages(c('metafor', 'clubSandwich'), repos='https://cloud.r-project.org', quiet=TRUE)"
+
+      - name: Run MARA script
+        if: env.SKIP != '1'
+        run: |
+          # Patch MODE in the script at runtime
+          SCRIPT=$(cat p6/tools/meta_r_scripts/00_mara_starter_20260522.R)
+          PATCHED=$(echo "$SCRIPT" | sed "s/^MODE <- .*/MODE <- \"$MODE\"   # set by workflow/")
+          echo "$PATCHED" > /tmp/mara_run.R
+
+          echo "=== Running MARA (MODE=$MODE) ===" | tee mara_output_$(date +%Y%m%d).txt
+          Rscript /tmp/mara_run.R 2>&1 | tee -a mara_output_$(date +%Y%m%d).txt
+          echo "Exit code: $?" | tee -a mara_output_$(date +%Y%m%d).txt
+
+      - name: Save output as artifact
+        if: env.SKIP != '1'
+        uses: actions/upload-artifact@v4
+        with:
+          name: mara-results-${{ github.run_number }}
+          path: mara_output_*.txt
+          retention-days: 30
+
+      - name: Commit output to results folder
+        if: env.SKIP != '1'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p p6/tools/results/mara_runs
+          cp mara_output_*.txt p6/tools/results/mara_runs/ 2>/dev/null || true
+          git add p6/tools/results/mara_runs/ || true
+          git diff --cached --quiet && echo "Nothing to commit" || \
+            git commit -m "data(p6/mara): MARA output run #${{ github.run_number }} mode=${{ github.event.inputs.mode || 'database' }} [$(date +%Y%m%d)]"
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
+            echo "Push failed (exit $?). Trying --force-with-lease..."
+            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
+              echo "Force push also failed. Results in artifacts."
+          }
