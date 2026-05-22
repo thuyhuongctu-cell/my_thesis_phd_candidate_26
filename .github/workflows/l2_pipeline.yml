@@ -1,0 +1,99 @@
+name: P6 L2 Pipeline — Abstract Enrichment + Groq Pre-screening
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max papers to process (0 = all)'
+        required: false
+        default: '0'
+      batch:
+        description: 'Papers per Groq L2 run'
+        required: false
+        default: '100'
+      skip_abstracts:
+        description: 'Skip abstract enrichment (use existing)'
+        required: false
+        default: 'false'
+      dry_run:
+        description: 'Dry run (no writes)'
+        required: false
+        default: 'false'
+
+jobs:
+  l2-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          fetch-depth: 0
+          token: ${{ github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Step 1 — Enrich abstracts from OpenAlex
+        if: ${{ github.event.inputs.skip_abstracts != 'true' }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.limit }}" != "0" ]; then
+            ARGS="--limit ${{ github.event.inputs.limit }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python3 p6/tools/61_enrich_abstracts_openalex.py $ARGS
+          echo "Abstract enrichment done"
+          if [ -f "p6/tools/results/abstracts_enriched.csv" ]; then
+            TOTAL=$(tail -n +2 p6/tools/results/abstracts_enriched.csv | wc -l)
+            HAS_ABS=$(tail -n +2 p6/tools/results/abstracts_enriched.csv | awk -F',' '{if(NF>=5 && $5!="") print}' | wc -l)
+            echo "Total enriched: $TOTAL | With abstract: $HAS_ABS"
+          fi
+
+      - name: Step 2 — Groq L2 pre-screening
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          ARGS="--batch ${{ github.event.inputs.batch }}"
+          if [ "${{ github.event.inputs.limit }}" != "0" ]; then
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python3 p6/tools/62_groq_l2_prescreen.py $ARGS
+
+      - name: Progress summary
+        run: |
+          python3 -c "
+          import csv
+          with open('p6/tools/results/fulltext_to_extraction_tracker_v2.csv') as f:
+              rows = list(csv.DictReader(f))
+          done = sum(1 for r in rows if r.get('fulltext_screening_decision','') in ('Y','N'))
+          y    = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'Y')
+          n    = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'N')
+          uns  = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'UNSURE')
+          todo = sum(1 for r in rows if not r.get('fulltext_screening_decision','').strip())
+          print(f'Done: {done}/{len(rows)} | Y={y} N={n} UNSURE={uns} TODO={todo}')
+          "
+
+      - name: Commit results
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add p6/tools/results/abstracts_enriched.csv \
+                  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
+                  p6/tools/results/groq_l2_prescreen_*.csv 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "P6: L2 pre-screen batch [$(date +%Y%m%d_%H%M)]"
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn
