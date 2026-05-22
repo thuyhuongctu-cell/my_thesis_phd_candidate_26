@@ -2,12 +2,18 @@
 """
 59_groq_extract_r.py — Batch r-extraction using Groq FREE API (llama-3.3-70b)
 
-PDF resolution order:
+PDF resolution order per paper:
   1. Local PDF already in pdf_dir (pdf_filename column)
   2. OA manifest (oa_manifest_*.csv) keyed by seq
   3. source_url_or_pdf_path column in queue
   4. Unpaywall API (free, email-based) — best_oa_location.url_for_pdf
   5. Semantic Scholar openAccessPdf
+
+Candidate selection order (to maximise PDF hit rate):
+  Priority 0 — seq in OA manifest (guaranteed PDF URL)
+  Priority 1 — queue source_url_or_pdf_path starts with http
+  Priority 2 — local pdf_filename exists
+  Priority 3 — needs Unpaywall/S2 lookup on-the-fly
 
 Cách lấy Groq API key miễn phí:
   1. Vào console.groq.com → Sign up (chỉ cần email)
@@ -274,15 +280,36 @@ def main():
     with open(args.queue, encoding='utf-8') as f:
         queue = list(csv.DictReader(f))
 
-    candidates = [
+    all_candidates = [
         r for r in queue
         if r.get('seq', '') not in already_done
         and r.get('fulltext_screening_decision', '') != 'N'
-    ][:args.limit]
+    ]
+
+    # Sort by PDF availability so highest-chance papers are processed first
+    def _pdf_priority(row):
+        seq = row.get('seq', '')
+        if seq in manifest:
+            return 0  # guaranteed PDF URL in manifest
+        src = row.get('source_url_or_pdf_path', '').strip()
+        if src.startswith('http'):
+            return 1  # direct URL in queue
+        if row.get('pdf_filename', '').strip():
+            return 2  # local file exists
+        return 3      # needs Unpaywall/S2 on-the-fly
+
+    all_candidates.sort(key=_pdf_priority)
+    candidates = all_candidates[:args.limit]
 
     use_unpaywall = not args.no_unpaywall
+    n_manifest = sum(1 for r in candidates if r.get('seq', '') in manifest)
+    n_url      = sum(1 for r in candidates
+                     if r.get('seq', '') not in manifest
+                     and r.get('source_url_or_pdf_path', '').strip().startswith('http'))
     print(f"Queue: {len(queue)} | Already done: {len(already_done)} | "
-          f"To process: {len(candidates)} (limit={args.limit})")
+          f"Candidates: {len(all_candidates)} | Batch: {len(candidates)} (limit={args.limit})")
+    print(f"  Batch breakdown — manifest: {n_manifest} | queue_url: {n_url} | "
+          f"needs_lookup: {len(candidates)-n_manifest-n_url}")
     print(f"Model: {args.model} | Dry-run: {args.dry_run} | "
           f"Unpaywall fallback: {use_unpaywall}\n")
 
@@ -358,7 +385,7 @@ def main():
                     print(f"  Semantic Scholar OK: {s2_url[:70]}")
 
         if pdf_path is None:
-            print(f"  SKIP: no PDF available (manifest={bool(manifest.get(seq))}, "
+            print(f"  SKIP: no PDF (manifest={bool(manifest.get(seq))}, "
                   f"doi={bool(doi)}, unpaywall={use_unpaywall})")
             log_rows.append({'seq': seq, 'title': title, 'year': year,
                              'doi': doi, 'pdf_url': src or manifest.get(seq, ''),
