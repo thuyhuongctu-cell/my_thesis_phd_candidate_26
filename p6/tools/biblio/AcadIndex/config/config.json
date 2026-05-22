@@ -1,0 +1,13 @@
+{
+    "scraper": {
+        "files_per_thread": 25,
+        "fetch_thread_count": 4,
+        "title_similar_threshold": 0.8
+
+    },
+    "filter": {
+        "min_year": 2000,
+        "cit_count": 0,
+        "ref_count": 0
+    }
+}

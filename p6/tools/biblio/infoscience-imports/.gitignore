@@ -1,0 +1,42 @@
+# Ignore virtual env folder#
+###################
+**/*venv*/**
+
+# Ignore data folder#
+###################
+**/*data*/**
+**/*pdf*/**
+
+# Ignore archived version of notebooks and python stuffs #
+###################
+*.ipynb_checkpoints
+__pycache__
+**/__marimo__/**
+
+# Ignore some local dev stuffs
+###################
+.scannerwork
+.log
+**/*logs*/**
+sonar-project.properties
+**/*test_*/**
+template.py
+**/.DS_Store
+**/.claude/**
+**/.vscode/**
+
+
+# Ignore local windows batch files and internal documentation #
+###################
+**/*.docx
+**/*.xlsx
+**/*.pdf
+preprocessings.ipynb
+test.py
+test.csv
+
+# Ignore env & config files #
+###################
+**/.env**
+**/config.ini
+.streamlit/auth.yaml

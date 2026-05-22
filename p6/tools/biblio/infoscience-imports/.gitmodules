@@ -1,0 +1,3 @@
+[submodule "dspace-rest-python"]
+	path = dspace
+	url = https://github.com/epfllibrary/dspace-rest-python.git
