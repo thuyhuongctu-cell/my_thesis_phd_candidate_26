@@ -54,12 +54,24 @@ DEFAULT_QUEUE   = BASE / f'p6/tools/results/extraction_queue_v2_20260521.csv'
 DEFAULT_PDF_DIR = BASE / 'p6/pdfs'
 DEFAULT_LOG     = BASE / f'p6/tools/results/groq_extract_log_{TODAY}.csv'
 
-MAX_TEXT_CHARS   = 24_000
+# 6_000 chars → ~1,700 tokens/paper → ~52 papers/day on free-tier 100k TPD
+# Previously 24_000 → ~7,400 tokens → quota exhausted after ~13 papers (Run #3 failure)
+MAX_TEXT_CHARS   = 6_000
 GROQ_MODEL       = 'llama-3.3-70b-versatile'
 DOWNLOAD_TIMEOUT = 30
-SLEEP_BETWEEN    = 1.2   # Groq free: 30 req/min
+SLEEP_BETWEEN    = 2.0   # Groq free: 30 req/min — 2s keeps headroom
 SLEEP_UNPAYWALL  = 0.5
 UNPAYWALL_EMAIL  = 'huongdt@vlute.edu.vn'
+
+# Stat keywords for smart page selection: results/regression tables score high
+STAT_KEYWORDS = {
+    'coefficient', 'regression', 'β', 'beta', 'b =', 'b=',
+    'roa', 'roe', 'ros', 'tobin', 'sales growth', 'productivity',
+    't-stat', 't stat', 't =', 't=', 'p <', 'p=', 'p <.',
+    'table', 'significant', 'model', 'result', 'finding',
+    'panel', 'fixed effect', 'ols', 'gmm', 'fsts', 'doi',
+    'performance', 'export', 'internationalization',
+}
 
 # ── Effect-size math ───────────────────────────────────────────────────────────
 def r_from_t(t: float, n: int) -> float:
@@ -97,7 +109,12 @@ def variance_z(n: int) -> float:
 # ── PDF utilities ──────────────────────────────────────────────────────────────
 def download_pdf(url: str, dest: Path, timeout: int = DOWNLOAD_TIMEOUT) -> bool:
     if dest.exists() and dest.stat().st_size > 5_000:
-        return True
+        # Evict cached HTML files from previous runs (missing %PDF magic bytes)
+        with open(dest, 'rb') as f:
+            if not f.read(4).startswith(b'%PDF'):
+                dest.unlink(missing_ok=True)
+            else:
+                return True
     try:
         resp = requests.get(
             url, timeout=timeout, stream=True,
@@ -105,6 +122,21 @@ def download_pdf(url: str, dest: Path, timeout: int = DOWNLOAD_TIMEOUT) -> bool:
         )
         if resp.status_code != 200:
             return False
+        # Reject HTML masquerading as PDF: check Content-Type, then magic bytes
+        ct = resp.headers.get('content-type', '').lower()
+        if 'html' in ct or ('pdf' not in ct and 'octet-stream' not in ct and 'binary' not in ct):
+            first_chunk = b''
+            for chunk in resp.iter_content(512):
+                first_chunk = chunk
+                break
+            if not first_chunk.startswith(b'%PDF'):
+                return False
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            with open(dest, 'wb') as f:
+                f.write(first_chunk)
+                for chunk in resp.iter_content(65_536):
+                    f.write(chunk)
+            return dest.stat().st_size > 5_000
         dest.parent.mkdir(parents=True, exist_ok=True)
         with open(dest, 'wb') as f:
             for chunk in resp.iter_content(65_536):
@@ -143,19 +175,30 @@ def try_semantic_scholar(doi: str) -> str:
     except Exception:
         return ''
 
+def _score_page(text: str) -> int:
+    lower = text.lower()
+    return sum(1 for kw in STAT_KEYWORDS if kw in lower)
+
+
 def pdf_to_text(pdf_path: Path, max_chars: int = MAX_TEXT_CHARS) -> str:
     try:
         with pdfplumber.open(pdf_path) as pdf:
-            parts = []
-            total = 0
-            for page in pdf.pages:
+            # Score each page; high-scoring (results/tables) pages bubble to front
+            scored = []
+            for idx, page in enumerate(pdf.pages):
                 t = page.extract_text() or ''
+                tbl_rows = []
                 for tbl in page.extract_tables() or []:
                     for row in tbl:
                         if row:
-                            parts.append(' | '.join(str(c or '') for c in row))
-                parts.append(t)
-                total += len(t)
+                            tbl_rows.append(' | '.join(str(c or '') for c in row))
+                page_text = '\n'.join(tbl_rows + [t])
+                scored.append((_score_page(page_text), idx, page_text))
+            scored.sort(key=lambda x: (-x[0], x[1]))  # high score first
+            parts, total = [], 0
+            for _, _, page_text in scored:
+                parts.append(page_text)
+                total += len(page_text)
                 if total >= max_chars:
                     break
             return '\n'.join(parts)[:max_chars]
@@ -238,7 +281,10 @@ def extract_r_via_groq(client: Groq, text: str, title: str, model: str) -> dict:
     except json.JSONDecodeError as e:
         return {"error": f"JSON parse: {e}", "r": None}
     except Exception as e:
-        return {"error": str(e), "r": None}
+        err = str(e)
+        if '429' in err or 'rate_limit' in err.lower():
+            return {"error": f"RATE_LIMIT: {err[:200]}", "r": None}
+        return {"error": err[:200], "r": None}
 
 def _safe_float(v) -> float | None:
     try:
@@ -486,11 +532,16 @@ def main():
         result = extract_r_via_groq(client, text, title, args.model)
 
         if 'error' in result:
-            print(f"  ERROR: {result['error']}")
+            err_msg = result['error']
+            is_rate_limit = err_msg.startswith('RATE_LIMIT')
+            status = 'RATE_LIMIT' if is_rate_limit else 'API_ERROR'
+            print(f"  {status}: {err_msg[:100]}")
             log_rows.append({'seq': seq, 'title': title, 'year': year, 'doi': doi,
-                             'pdf_url': pdf_source, 'status': 'API_ERROR', 'converted_r': '',
-                             'n': '', 'conversion_formula': '', 'notes': '',
-                             'error': result['error']})
+                             'pdf_url': pdf_source, 'status': status, 'converted_r': '',
+                             'n': '', 'conversion_formula': '', 'notes': '', 'error': err_msg})
+            if is_rate_limit:
+                print("  Daily token quota exhausted — stopping early to preserve remaining tokens.")
+                break
             time.sleep(SLEEP_BETWEEN)
             continue
 
