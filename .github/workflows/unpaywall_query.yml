@@ -10,7 +10,7 @@ on:
       output_file:
         description: 'Output CSV filename (in p6/tools/results/)'
         required: true
-        default: 'oa_manifest_20260521.csv'
+        default: 'oa_manifest_20260522.csv'
       priority:
         description: 'extraction_priority filter (1_DOI_FIRST / 2_NO_DOI_MANUAL / all)'
         required: true
