@@ -1,30 +1,38 @@
 # Hướng dẫn L2 Screening & Extraction — P6 Meta-Analysis
 
-**Cập nhật**: 22/05/2026 (rev 4)
-**File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v2.csv`  
-**Cấu trúc**: 435 rows × 58 cột  
-**Scope**: Gộp retrieval worklist + extraction template + workflow tracking cho 435 papers L2 priority
+**Cập nhật**: 22/05/2026 (rev 5)
+**File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv`  
+**Cấu trúc**: 2510 rows × 59 cột  
+**Scope**: Full candidate pool từ WoS/Scopus/OpenAlex, bao gồm L2 decisions + extraction tracking
 
 ---
 
-## Trạng thái pipeline (22/05/2026 — tracker v2)
+## Trạng thái pipeline (22/05/2026 — tracker v3)
 
 | Nhóm | Số lượng | Ghi chú |
 |------|---------|---------|
-| **Tổng rows** | **435** | canonical L2 list |
-| Priority A (`1_DOI_FIRST`) | 310 | có DOI → dễ truy cập |
-| Priority B (`2_NO_DOI_MANUAL`) | 125 | không DOI → tìm thủ công |
-| ICRV đã điền | 435 | 0 blank |
-| DPL đã điền | 435 | 0 blank |
-| `converted_r` đã điền | 0 | extraction chưa bắt đầu |
-| `fulltext_screening_decision` đã điền | 0 | chờ L2 screening |
+| **Tổng rows** | **2510** | full candidate pool |
+| Priority A (`1_DOI_FIRST`) | 1864 | có DOI → dễ truy cập |
+| Priority B (`2_NO_DOI_MANUAL`) | 646 | không DOI → tìm thủ công |
+| `fulltext_screening_decision = Y` | 785 | INCLUDE → cần trích xuất r |
+| `fulltext_screening_decision = N` | 352 | EXCLUDE |
+| `fulltext_screening_decision` trống | 0 | L2 screening đã xong |
+| `ready_for_r = 1` | 34 | đủ điều kiện MARA |
+| `converted_r` đã điền | 27 | extraction đang tiến hành |
 
 **Scripts pipeline:**
 ```
+57_claude_api_extract_r.py    — auto-extract r từ PDF via Claude Haiku (GitHub Actions)
 59_groq_extract_r.py          — auto-extract r từ PDF via Groq LLM (GitHub Actions)
 40_batch_download_pdfs.py     — tải PDF về p6/pdfs/ (chạy local)
 42_merge_tracker_to_database.py — merge → database (khi ≥50 ready_for_r=1)
-meta_r_scripts/01_mara_update_combined.R — chạy MARA khi ready_for_r ≥ 50
+meta_r_scripts/00_mara_starter_20260522.R — chạy MARA khi ready_for_r ≥ 50
+```
+
+**GitHub Actions workflows:**
+```
+claude_api_extract_r.yml   — Claude Haiku r-extraction (queue_file mặc định: extraction_queue_v2_20260521.csv)
+unpaywall_gap.yml          — Unpaywall OA lookup cho gap papers
 ```
 
 ---
@@ -33,12 +41,12 @@ meta_r_scripts/01_mara_update_combined.R — chạy MARA khi ready_for_r ≥ 50
 
 **File canonical duy nhất:**
 ```
-p6/tools/results/fulltext_to_extraction_tracker_v2.csv  (435 rows × 58 cột)
+p6/tools/results/fulltext_to_extraction_tracker_v3.csv  (2510 rows × 59 cột)
 ```
 
-**Cách làm**: Mở `fulltext_to_extraction_tracker_v2.csv` trong Excel. Bắt đầu từ `1_DOI_FIRST` rows (310 papers). Điền vào các cột extraction theo thứ tự ưu tiên. Lưu file và commit sau mỗi batch.
+**Cách làm**: Mở `fulltext_to_extraction_tracker_v3.csv` trong Excel. Lọc `fulltext_screening_decision = Y` (785 papers). Bắt đầu từ `1_DOI_FIRST` rows (những papers có DOI). Điền vào các cột extraction theo thứ tự ưu tiên. Lưu file và commit sau mỗi batch.
 
-**Cấu trúc 58 cột của tracker v2:**
+**Cấu trúc 59 cột của tracker v3:**
 
 | Nhóm cột | Cột | Mô tả |
 |----------|-----|-------|
@@ -68,7 +76,7 @@ p6/tools/results/fulltext_to_extraction_tracker_v2.csv  (435 rows × 58 cột)
 ```bash
 python3 -c "
 import csv
-with open('p6/tools/results/fulltext_to_extraction_tracker_v2.csv') as f:
+with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
     rows = list(csv.DictReader(f))
 ready = sum(1 for r in rows if r.get('ready_for_r','').strip() == '1')
 r_done = sum(1 for r in rows if r.get('converted_r','').strip())
@@ -154,7 +162,7 @@ Ghi vào `notes_for_extractor`: `E1=ROA, E2=TobinQ`
 | 6 | Frontier / LDC | Myanmar, Cambodia, Lào, Nepal, Ethiopia, Mozambique |
 | 0 | Multi-country Mixed | Nhiều quốc gia khác regime → dùng 0 |
 
-**Đã pre-fill 38%** (202/538) — kiểm tra và điền phần còn lại khi đọc full-text.
+**Đã pre-fill cho toàn bộ 2510 rows** — kiểm tra và sửa khi đọc full-text nếu context quốc gia không rõ.
 
 ### DPL (cột `dpl`) — **Đã pre-fill 100%** từ publication year
 
@@ -237,7 +245,7 @@ Ghi vào `notes_for_extractor`: `E1=ROA, E2=TobinQ`
 # Kiểm tra tiến độ extraction
 python3 -c "
 import csv
-with open('p6/tools/results/fulltext_to_extraction_tracker_v2.csv') as f:
+with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
     rows = list(csv.DictReader(f))
 y = [r for r in rows if r.get('fulltext_screening_decision','')=='Y']
 done  = sum(1 for r in y if r.get('ready_for_r','')=='1')
@@ -247,11 +255,11 @@ print(f'Remaining: {len(y)-done}')
 "
 
 # Sau khi extraction xong: chạy MARA
-Rscript p6/tools/meta_r_scripts/00_mara_starter_20260520.R
+Rscript p6/tools/meta_r_scripts/00_mara_starter_20260522.R
 
 # Chọn 20% subsample cho double-coding
 python3 p6/tools/09_select_reliability_subsample.py \
-  --input  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
+  --input  p6/tools/results/fulltext_to_extraction_tracker_v3.csv \
   --output p6/tools/results/reliability_subsample.csv \
   --seed   42
 ```
@@ -265,7 +273,7 @@ python3 p6/tools/09_select_reliability_subsample.py \
    → Chạy p6/tools/10_merge_new_studies.py để merge vào p6_study_database.csv
 
 2. Chạy MARA cập nhật:
-   Rscript p6/tools/meta_r_scripts/00_mara_starter_20260520.R
+   Rscript p6/tools/meta_r_scripts/00_mara_starter_20260522.R
 
 3. Cập nhật manuscript p6/p6_meta_manuscript_en.md:
    - k (số studies), K (số effect sizes)
@@ -282,10 +290,10 @@ python3 p6/tools/09_select_reliability_subsample.py \
 
 ## Mẹo thực tế
 
-- **Batch 50 papers** mỗi phiên — sort theo `extraction_priority` (`1_DOI_FIRST` trước)
-- **310 DOI_FIRST** — dùng cột `doi_link` để mở trực tiếp
+- **Batch 50 papers** mỗi phiên — lọc `fulltext_screening_decision = Y`, sort theo `extraction_priority` (`1_DOI_FIRST` trước)
+- **785 Y papers** cần trích xuất r — dùng cột `doi_link` cho DOI papers
 - **`ready_for_r = 1` chỉ khi đủ 5 trường**: `converted_r`, `sample_size_n`, `icrv`, `dpl`, `fp_type`
 - **Nonlinear papers**: ghi cả β₁ và β₂, turning point → `notes_for_extractor`
-- **Auto-extraction**: `59_groq_extract_r.py` chạy qua GitHub Actions, ~52 papers/ngày (Groq free tier)
-- **Ước tính thời gian**: 435 papers × 5 phút/paper ≈ 36 giờ → 12–15 ngày làm 3h/ngày
-- **ICRV đã pre-filled 100%** — kiểm tra lại khi đọc full-text nếu context country không rõ
+- **Auto-extraction**: `claude_api_extract_r.yml` chạy qua GitHub Actions (limit=100/lần); `groq_extract_r.yml` backup
+- **Ước tính thời gian**: 785 papers × 5 phút/paper ≈ 65 giờ → 21–26 ngày làm 3h/ngày; auto-extraction giảm ~70%
+- **ICRV đã pre-filled** — kiểm tra lại khi đọc full-text nếu context country không rõ

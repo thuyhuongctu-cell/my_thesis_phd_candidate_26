@@ -145,4 +145,8 @@ jobs:
           git add p6/tools/results/claude_extract_log_*.csv || true
           git diff --cached --quiet && echo "Nothing to commit." || \
             git commit -m "feat(p6): Claude API r-extraction batch [$(date +%Y%m%d)]"
-          git push origin claude/edit-vietnamese-academic-standards-xcAmn || echo "Push failed — see artifacts."
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
+            echo "Push failed (exit $?). Trying --force-with-lease..."
+            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
+              echo "Force push also failed. Tracker changes saved in artifacts."
+          }
