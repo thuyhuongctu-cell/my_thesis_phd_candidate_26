@@ -9,23 +9,23 @@ Cách lấy Groq API key miễn phí:
 
 Cách chạy (Windows CMD):
   cd C:\path\to\PAPERS_IN_PHD_2026
-  pip install openai pdfplumber requests
+  pip install groq pdfplumber requests
   set GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx
   python p6\\tools\\59_groq_extract_r.py --limit 50
 
 Chạy thử trước (không ghi tracker):
   python p6\\tools\\59_groq_extract_r.py --limit 5 --dry-run
 
-Dependencies: pip install openai pdfplumber requests
+Dependencies: pip install groq pdfplumber requests
 """
 import csv, json, math, os, re, sys, time, argparse
 from datetime import date
 from pathlib import Path
 
 try:
-    from openai import OpenAI
+    from groq import Groq
 except ImportError:
-    print("ERROR: pip install openai"); sys.exit(1)
+    print("ERROR: pip install groq"); sys.exit(1)
 
 try:
     import pdfplumber
@@ -141,7 +141,7 @@ RESPOND WITH ONLY VALID JSON (no markdown, no explanation):
   "notes": "<max 200 chars>"
 }"""
 
-def extract_r_via_groq(client: OpenAI, text: str, title: str) -> dict:
+def extract_r_via_groq(client: Groq, text: str, title: str) -> dict:
     user_msg = f"Paper title: {title}\n\nFull text (truncated to {MAX_TEXT_CHARS} chars):\n\n{text}"
     try:
         resp = client.chat.completions.create(
@@ -205,7 +205,7 @@ def main():
         print("  Get free key: https://console.groq.com → API Keys")
         sys.exit(1)
 
-    client = OpenAI(api_key=api_key, base_url="https://api.groq.com/openai/v1")
+    client = Groq(api_key=api_key)
     pdf_dir = Path(args.pdf_dir)
     pdf_dir.mkdir(parents=True, exist_ok=True)
 
