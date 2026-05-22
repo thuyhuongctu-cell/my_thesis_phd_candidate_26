@@ -8,9 +8,9 @@ on:
         required: true
         default: 'extraction_queue_v2_20260521.csv'
       manifest_file:
-        description: 'Unpaywall OA manifest CSV (in p6/tools/results/)'
+        description: 'Unpaywall OA manifest CSV (in p6/tools/results/). Leave empty to auto-use latest.'
         required: false
-        default: 'oa_manifest_20260522.csv'
+        default: ''
       limit:
         description: 'Max papers per run (0 = all)'
         required: false
@@ -57,10 +57,19 @@ jobs:
           LIMIT="${{ github.event.inputs.limit }}"
           if [ -z "$LIMIT" ]; then LIMIT="50"; fi
 
-          MANIFEST="p6/tools/results/${{ github.event.inputs.manifest_file }}"
+          # Resolve manifest: use explicit input, or auto-detect latest oa_manifest_*.csv
+          MANIFEST_INPUT="${{ github.event.inputs.manifest_file }}"
           MANIFEST_FLAG=""
-          if [ -f "$MANIFEST" ]; then
-            MANIFEST_FLAG="--manifest $MANIFEST"
+          if [ -n "$MANIFEST_INPUT" ] && [ -f "p6/tools/results/$MANIFEST_INPUT" ]; then
+            MANIFEST_FLAG="--manifest p6/tools/results/$MANIFEST_INPUT"
+          else
+            LATEST_MANIFEST=$(ls p6/tools/results/oa_manifest_*.csv 2>/dev/null | sort | tail -1)
+            if [ -n "$LATEST_MANIFEST" ]; then
+              echo "Auto-detected manifest: $LATEST_MANIFEST"
+              MANIFEST_FLAG="--manifest $LATEST_MANIFEST"
+            else
+              echo "No OA manifest found — proceeding without PDF links"
+            fi
           fi
 
           python3 p6/tools/57_claude_api_extract_r.py \
