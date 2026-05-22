@@ -4,6 +4,10 @@
 
 **Keywords**: internationalization–performance relationship; small island developing states; forced internationalization; institutional voids; Pacific economies; labor productivity
 
+**JEL Classification:** F23; O19; L25; D22; O53.
+
+**Paper type:** Research paper.
+
 ---
 
 ## Abstract

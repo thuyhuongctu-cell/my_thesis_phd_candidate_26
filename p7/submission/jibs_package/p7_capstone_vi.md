@@ -19,6 +19,10 @@ Bài viết này xem xét liệu mối quan hệ quốc tế hóa–hiệu quả
 
 **Từ khóa:** quốc tế hóa–hiệu quả doanh nghiệp; hình chữ U ngược; chế độ thể chế; năng lực số; châu Á–Thái Bình Dương; Khảo sát Doanh nghiệp Thế giới
 
+**Phân loại JEL:** F23; O33; D22; L25; O53.
+
+**Loại bài:** Bài báo nghiên cứu.
+
 ---
 
 ## Các Điểm Nổi Bật (Highlights)

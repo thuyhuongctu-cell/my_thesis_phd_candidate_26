@@ -11,6 +11,10 @@
 
 **Từ khóa**: quan hệ quốc tế hóa–hiệu quả doanh nghiệp; Quốc đảo nhỏ đang phát triển; quốc tế hóa bắt buộc; khoảng trống thể chế; kinh tế Thái Bình Dương; năng suất lao động
 
+**Phân loại JEL:** F23; O19; L25; D22; O53.
+
+**Loại bài:** Bài báo nghiên cứu.
+
 ---
 
 ## Tóm Tắt

@@ -12,6 +12,10 @@ We examine whether the internationalization–performance (I–P) relationship h
 
 **Keywords:** internationalization–performance; inverted-U; institutional regime; digital capability; Asia-Pacific; World Bank Enterprise Surveys
 
+**JEL Classification:** F23; O33; D22; L25; O53.
+
+**Paper type:** Research paper.
+
 ---
 
 ## 1. Introduction

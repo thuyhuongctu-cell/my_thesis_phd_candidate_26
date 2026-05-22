@@ -26,6 +26,10 @@ Ba phát hiện chính được trình bày. Thứ nhất, mối quan hệ I–P
 
 **Từ khóa:** mối quan hệ quốc tế hóa–hiệu quả; áp dụng số; năng lực công nghệ; cường độ xuất khẩu; năng suất lao động; Singapore
 
+**Phân loại JEL:** F23; O33; D22; L25; O53.
+
+**Loại bài:** Bài báo nghiên cứu.
+
 ---
 
 ## 1 Giới thiệu

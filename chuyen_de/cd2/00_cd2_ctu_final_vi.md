@@ -46,6 +46,10 @@ Chuyên đề này xây dựng mô hình nghiên cứu lý thuyết và thực n
 
 Từ khóa: quốc tế hóa; hiệu quả hoạt động kinh doanh; châu Á; mô hình phi tuyến; điều tiết; áp dụng số; thể chế; Upper Echelons; ICRV.
 
+**Phân loại JEL:** F23; O33; D22; L25; O53.
+
+**Loại bài:** Chuyên đề tiến sĩ.
+
 ---
 
 ## ABSTRACT
