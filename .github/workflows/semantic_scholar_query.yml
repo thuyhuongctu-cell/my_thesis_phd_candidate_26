@@ -6,7 +6,7 @@ on:
       manifest_file:
         description: 'Unpaywall manifest CSV (in p6/tools/results/)'
         required: true
-        default: 'oa_manifest_20260521.csv'
+        default: 'oa_manifest_merged.csv'
       output_file:
         description: 'S2 output CSV filename'
         required: true
@@ -78,9 +78,12 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin claude/edit-vietnamese-academic-standards-xcAmn || true
           git add "p6/tools/results/${{ github.event.inputs.output_file }}" || true
           git add "p6/tools/results/${{ github.event.inputs.manifest_file }}" || true
           git diff --cached --quiet && echo "No changes to commit" || \
             git commit -m "feat(p6): S2 PDF fallback — new links added to oa_manifest [$(date +%Y%m%d)]"
-          git push origin claude/edit-vietnamese-academic-standards-xcAmn
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
+            echo "Push failed (exit $?). Trying --force-with-lease..."
+            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
+              echo "Force push also failed. S2 manifest saved in artifacts."
+          }

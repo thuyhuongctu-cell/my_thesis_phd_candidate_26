@@ -70,4 +70,8 @@ jobs:
           git add "p6/tools/results/${{ github.event.inputs.output_file }}"
           git diff --cached --quiet && echo "No changes" || \
             git commit -m "feat(p6): Unpaywall OA manifest for ${{ github.event.inputs.input_file }} [$(date +%Y%m%d)]"
-          git push origin claude/edit-vietnamese-academic-standards-xcAmn
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
+            echo "Push failed (exit $?). Trying --force-with-lease..."
+            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
+              echo "Force push also failed. Manifest saved in artifacts."
+          }
