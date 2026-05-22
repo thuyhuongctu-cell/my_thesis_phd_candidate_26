@@ -265,6 +265,10 @@ jobs:
           find p6/tools/results/ \( -name "wos_api_*.csv" -o \
                -name "scopus_api_*.csv" -o \
                -name "openalex_api_*.csv" \) | xargs git add 2>/dev/null || true
-          git diff --staged --quiet && echo "Nothing new to commit" || \
+          git diff --cached --quiet && echo "Nothing new to commit" || \
             git commit -m "data(p6): search results $(date +%Y-%m-%d) [WoS:$WOS_HTTP Scopus:$SCOPUS_HTTP OA:$OA_HTTP]"
-          git push origin HEAD:claude/edit-vietnamese-academic-standards-xcAmn
+          git push origin HEAD:claude/edit-vietnamese-academic-standards-xcAmn || {
+            echo "Push failed (exit $?). Trying --force-with-lease..."
+            git push --force-with-lease origin HEAD:claude/edit-vietnamese-academic-standards-xcAmn || \
+              echo "Force push also failed. Search results saved in artifacts."
+          }
