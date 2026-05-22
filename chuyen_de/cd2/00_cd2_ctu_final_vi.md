@@ -426,7 +426,7 @@ Mũi tên liền nét biểu thị tác động trực tiếp (H1: quan hệ phi
 
 *Hình 2.2.* Cơ chế Context-Contingent Digital-and-Capability Model (CDCM) theo ba nhóm ICRV đại diện.
 
-DAI (Digital Adoption Index) không phải là nguồn lực đồng nhất mà là **nguồn lực phụ thuộc ngữ cảnh** (context-contingent resource), vai trò của DAI trong quan hệ I→P thay đổi theo regime thể chế và mức bão hòa số của nền kinh tế. Nhóm I (Singapore, Advanced I, bão hòa số cao): DAI Tier-1+2 vận hành như nguồn lực khuếch đại tình huống, tác động chỉ xuất hiện khi cường độ xuất khẩu đạt ngưỡng cao (FSTS²×DAI = +3,119; P4). Nhóm IV (Việt Nam — Lower_mid_transition, bão hòa số thấp; Nhóm IV trong cả hệ 5 nhóm P6 lẫn hệ 6 nhóm CD2): DAI Tier-1 là ràng buộc đo lường; tác động dương theo OLS nhưng biến mất sau hiệu chỉnh nội sinh biến công cụ (β = 0,018, p = 0,942; P3). Nhóm III (Trung Quốc, Upper-Middle/Emerging transition, bão hòa số trung bình): DAI Tier-1 phổ biến >60%, mất khả năng phân biệt, giữ như biến kiểm soát không phải biến điều tiết (P5). Cơ chế này giải thích tại sao kết quả "DAI null" và "DAI dương" đều nhất quán với lý thuyết CDCM, khác nhau ở điều kiện bối cảnh, không mâu thuẫn về lý thuyết nền tảng.
+DAI (Digital Adoption Index) không phải là nguồn lực đồng nhất mà là **nguồn lực phụ thuộc ngữ cảnh** (context-contingent resource). Vai trò của DAI trong quan hệ I→P thay đổi theo regime thể chế và mức bão hòa số của nền kinh tế. Nhóm I (Singapore, Advanced I, bão hòa số cao): DAI Tier-1+2 vận hành như nguồn lực khuếch đại tình huống, tác động chỉ xuất hiện khi cường độ xuất khẩu đạt ngưỡng cao (FSTS²×DAI = +3,119; P4). Nhóm IV (Việt Nam, Lower_mid_transition, bão hòa số thấp; Nhóm IV trong cả hệ 5 nhóm P6 lẫn hệ 6 nhóm CD2): DAI Tier-1 là ràng buộc đo lường; tác động dương theo OLS nhưng biến mất sau hiệu chỉnh nội sinh biến công cụ (β = 0,018, p = 0,942; P3). Nhóm III (Trung Quốc, Upper-Middle/Emerging transition, bão hòa số trung bình): DAI Tier-1 phổ biến >60%, mất khả năng phân biệt, giữ như biến kiểm soát không phải biến điều tiết (P5). Cơ chế này giải thích tại sao kết quả "DAI null" và "DAI dương" đều nhất quán với lý thuyết CDCM, khác nhau ở điều kiện bối cảnh, không mâu thuẫn về lý thuyết nền tảng.
 
 ##### Bảng 2.4 — Mapping biến đầy đủ
 
@@ -480,7 +480,7 @@ H1b (biên cường độ, gần phẳng): Trong mẫu chỉ gồm doanh nghiệ
 
 Cơ sở lý thuyết: RBV (Barney, 1991) cho rằng nguồn lực VRIN tạo lợi thế cạnh tranh bền vững. TCI, năng lực công nghệ nội tại, là nguồn lực VRIN theo Lall (1992) và tích lũy năng lực hấp thụ theo Cohen và Levinthal (1990). Doanh nghiệp có TCI cao: hấp thụ tri thức từ thị trường nước ngoài hiệu quả hơn; có công nghệ sản xuất tiên tiến hơn, năng suất cao hơn ở mọi mức FSTS; và có thể duy trì hiệu quả ở FSTS cao hơn. Cơ chế chính là nâng mặt bằng (level-shift), nâng toàn bộ đường cong LP, không nhất thiết thay đổi vị trí điểm uốn.
 
-Bằng chứng neo đậu: P3 Việt Nam: β(TCI) = 0,179 (p < 0,001) bền vững 3 sóng; biến công cụ cho β(TCI) = 1,639 (p < 0,001, F bậc một = 22,1) — TCI là nhân quả. P5 Trung Quốc: β_z(TCI) tăng từ +0,260 (2012) dẫn đến +0,426 (2024), Paternoster z = −2,55 (p = 0,011) — TCI nâng mặt bằng tăng cường theo thời gian. P4 Singapore: β(TCI) = +0,153 (p < 0,01), không điều tiết độ cong — TCI là nâng mặt bằng thuần túy trong Nhóm I.
+Bằng chứng neo đậu: P3 Việt Nam: β(TCI) = 0,179 (p < 0,001) bền vững 3 sóng; biến công cụ cho β(TCI) = 1,639 (p < 0,001, F bậc một = 22,1), xác nhận TCI là nhân quả. P5 Trung Quốc: β_z(TCI) tăng từ +0,260 (2012) lên +0,426 (2024), Paternoster z = −2,55 (p = 0,011), cho thấy TCI nâng mặt bằng tăng cường theo thời gian. P4 Singapore: β(TCI) = +0,153 (p < 0,01), không điều tiết độ cong, TCI là nâng mặt bằng thuần túy trong Nhóm I.
 
 H2: Technological Capability Index (TCI) có mối quan hệ dương trực tiếp với hiệu quả doanh nghiệp (β(TCI) > 0) và nâng mặt bằng ln(LP) của toàn bộ đường cong I→P (hiệu ứng nâng mặt bằng). Tác động điều tiết của TCI lên độ cong của đường cong là câu hỏi thực nghiệm mở và được kiểm định như H2 khám phá trong M3.
 
@@ -490,7 +490,7 @@ Cơ sở lý thuyết: Banalieva và Dhanaraj (2019) và Verhoef và cộng sự
 
 TCI hoạt động như cơ chế đào sâu nguồn lực (nội tại, tích lũy theo thời gian, khó bắt chước), trong khi DAI hoạt động như cơ chế áp dụng phụ thuộc (ngoại tại, phụ thuộc hệ sinh thái số). Coltman và cộng sự (2008) xác nhận hai cấu trúc thỏa mãn tiêu chí tổng hợp formative riêng biệt.
 
-Bằng chứng neo đậu: P4 Singapore: FSTS²×DAI = +3,119 (p = 0,005) — DAI mở rộng tình huống có điều kiện. P3 Việt Nam: biến công cụ null β = 0,018 (p = 0,942) — OLS dương = phụ thuộc chọn lựa, không nhân quả. P5 Trung Quốc: không điều tiết độ cong.
+Bằng chứng neo đậu: P4 Singapore: FSTS²×DAI = +3,119 (p = 0,005), DAI mở rộng tình huống có điều kiện. P3 Việt Nam: biến công cụ null β = 0,018 (p = 0,942), OLS dương phản ánh phụ thuộc chọn lựa, không nhân quả. P5 Trung Quốc: không điều tiết độ cong.
 
 Bảng 2.6. CDCM — Dự đoán tác động DAI theo 3 chiều ngữ cảnh.
 
