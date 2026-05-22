@@ -29,7 +29,6 @@ jobs:
         with:
           ref: claude/edit-vietnamese-academic-standards-xcAmn
           token: ${{ github.token }}
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,24 +38,57 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Verify inputs and environment
+        run: |
+          echo "=== Environment check ==="
+          echo "Gap input file : p6/tools/results/${{ github.event.inputs.gap_file }}"
+          echo "Output file    : p6/tools/results/${{ github.event.inputs.output_file }}"
+          echo "Delay          : ${{ github.event.inputs.delay }}"
+          echo ""
+          echo "=== Input file check ==="
+          ls -lh "p6/tools/results/${{ github.event.inputs.gap_file }}" || {
+            echo "ERROR: Gap input file not found!"
+            ls p6/tools/results/ | head -20
+            exit 1
+          }
+          echo "Input rows: $(tail -n +2 "p6/tools/results/${{ github.event.inputs.gap_file }}" | wc -l)"
+          echo ""
+          echo "=== Existing OA manifests ==="
+          ls p6/tools/results/oa_manifest_*.csv 2>/dev/null || echo "(none found)"
+          echo ""
+          echo "=== Python / requests ==="
+          python3 --version
+          python3 -c "import requests; print('requests OK')"
+
       - name: Query Unpaywall for gap papers
         run: |
+          echo "=== Querying Unpaywall ==="
           python3 p6/tools/39_query_unpaywall.py \
             --input  "p6/tools/results/${{ github.event.inputs.gap_file }}" \
             --output "p6/tools/results/${{ github.event.inputs.output_file }}" \
             --priority "1_DOI_FIRST" \
             --delay  "${{ github.event.inputs.delay }}"
+          echo ""
+          echo "=== Output file ==="
+          ls -lh "p6/tools/results/${{ github.event.inputs.output_file }}" || echo "WARNING: output file not created"
+          ROWS=$(tail -n +2 "p6/tools/results/${{ github.event.inputs.output_file }}" 2>/dev/null | wc -l || echo 0)
+          echo "Rows written: $ROWS"
 
-      - name: Merge gap manifest into latest full manifest
+      - name: Merge gap manifest into full manifest
         run: |
           GAP="p6/tools/results/${{ github.event.inputs.output_file }}"
           if [ -f "$GAP" ]; then
+            echo "=== Merging manifests ==="
+            ls p6/tools/results/oa_manifest_*.csv 2>/dev/null || echo "(no existing manifests)"
             python3 p6/tools/58_merge_oa_manifests.py \
-              --out p6/tools/results/oa_manifest_merged.csv
-            echo "Merged. Rows in oa_manifest_merged.csv:"
-            tail -n +2 p6/tools/results/oa_manifest_merged.csv | wc -l
+              --out p6/tools/results/oa_manifest_merged.csv || {
+              echo "WARNING: merge failed (exit $?) -- continuing without merge"
+            }
+            if [ -f p6/tools/results/oa_manifest_merged.csv ]; then
+              echo "Rows in oa_manifest_merged.csv: $(tail -n +2 p6/tools/results/oa_manifest_merged.csv | wc -l)"
+            fi
           else
-            echo "Gap manifest not found at $GAP — skipping merge"
+            echo "Gap manifest not found -- skipping merge"
           fi
 
       - name: Show summary
@@ -76,8 +108,14 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "Remote: $(git remote get-url origin 2>/dev/null || echo unknown)"
           git add "p6/tools/results/${{ github.event.inputs.output_file }}" || true
           git add p6/tools/results/oa_manifest_merged.csv || true
+          git status --short
           git diff --cached --quiet && echo "Nothing to commit." || \
-            git commit -m "feat(p6): Unpaywall gap manifest — ${{ github.event.inputs.gap_file }} [$(date +%Y%m%d)]"
-          git push origin claude/edit-vietnamese-academic-standards-xcAmn
+            git commit -m "feat(p6): Unpaywall gap fill - ${{ github.event.inputs.gap_file }} [$(date +%Y%m%d)]"
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
+            echo "Push failed (exit $?). Trying with --force-with-lease..."
+            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
+              echo "Force push also failed. Check branch protection rules."
+          }
