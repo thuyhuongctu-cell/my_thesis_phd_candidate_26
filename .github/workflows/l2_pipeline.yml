@@ -75,17 +75,24 @@ jobs:
 
       - name: Progress summary
         run: |
-          python3 -c "
+          TRACKER="p6/tools/results/fulltext_to_extraction_tracker_v3.csv"
+          if [ -f "$TRACKER" ]; then
+            python3 -c "
           import csv
-          with open('p6/tools/results/fulltext_to_extraction_tracker_v2.csv') as f:
-              rows = list(csv.DictReader(f))
+          rows = list(csv.DictReader(open('$TRACKER')))
           done = sum(1 for r in rows if r.get('fulltext_screening_decision','') in ('Y','N'))
           y    = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'Y')
           n    = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'N')
           uns  = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'UNSURE')
           todo = sum(1 for r in rows if not r.get('fulltext_screening_decision','').strip())
+          rdy  = sum(1 for r in rows if r.get('ready_for_r','') == '1')
+          r_done = sum(1 for r in rows if r.get('converted_r','').strip())
           print(f'Done: {done}/{len(rows)} | Y={y} N={n} UNSURE={uns} TODO={todo}')
-          "
+          print(f'ready_for_r=1: {rdy} | converted_r filled: {r_done}')
+          " 2>&1 || echo "Could not read tracker."
+          else
+            echo "Tracker not found: $TRACKER"
+          fi
 
       - name: Commit results
         if: ${{ github.event.inputs.dry_run != 'true' }}
@@ -93,7 +100,12 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add p6/tools/results/abstracts_enriched.csv \
-                  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
+                  p6/tools/results/fulltext_to_extraction_tracker_v3.csv \
                   p6/tools/results/groq_l2_prescreen_*.csv 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "P6: L2 pre-screen batch [$(date +%Y%m%d_%H%M)]"
-          git push origin claude/edit-vietnamese-academic-standards-xcAmn
+          git diff --cached --quiet && echo "Nothing to commit." || \
+            git commit -m "feat(p6): L2 pre-screen batch [$(date +%Y%m%d_%H%M)]"
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
+            echo "Push failed (exit $?). Trying --force-with-lease..."
+            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
+              echo "Force push also failed. Check branch protection rules."
+          }
