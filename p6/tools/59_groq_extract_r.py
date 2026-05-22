@@ -9,25 +9,24 @@ PDF resolution order per paper:
   4. Unpaywall API (free, email-based) — best_oa_location.url_for_pdf
   5. Semantic Scholar openAccessPdf
 
-Candidate selection order (to maximise PDF hit rate):
+Candidate selection order (maximise PDF hit rate):
   Priority 0 — seq in OA manifest (guaranteed PDF URL)
   Priority 1 — queue source_url_or_pdf_path starts with http
   Priority 2 — local pdf_filename exists
   Priority 3 — needs Unpaywall/S2 lookup on-the-fly
 
-Cách lấy Groq API key miễn phí:
-  1. Vào console.groq.com → Sign up (chỉ cần email)
-  2. API Keys → Create API Key
-  3. Set env var: set GROQ_API_KEY=gsk_xxxxxx  (Windows CMD)
-
-Cách chạy (Windows CMD):
-  cd C:\\path\\to\\PAPERS_IN_PHD_2026
-  pip install groq pdfplumber requests
-  set GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx
-  python p6\\tools\\59_groq_extract_r.py --limit 50
-
-Chạy thử trước (không ghi tracker):
-  python p6\\tools\\59_groq_extract_r.py --limit 5 --dry-run
+Effect-size conversion paths (in priority order):
+  1.  Pearson r direct
+  2.  Partial correlation r (flag is_partial=true)
+  3.  Standardized β → r ≈ β
+  4.  t-statistic + N → r = t / sqrt(t²+(N-2))
+  5.  F-statistic (df1=1) + N → r = sqrt(F/(F+(N-2)))
+  6.  Chi-square (df=1) + N → r = sqrt(χ²/N)
+  7.  Cohen's d → r = d / sqrt(d²+4)
+  8.  η² or partial η² → r = sqrt(η²)
+  9.  Log-odds ratio → r via logit-probit: r = log_or·√3/π / sqrt(1+(log_or·√3/π)²)
+  10. Z-score + N → r = z / sqrt(N)
+  11. Unstandardized b + SE_b → t = b/SE_b → r
 
 Dependencies: pip install groq pdfplumber requests
 """
@@ -59,13 +58,34 @@ MAX_TEXT_CHARS   = 24_000
 GROQ_MODEL       = 'llama-3.3-70b-versatile'
 DOWNLOAD_TIMEOUT = 30
 SLEEP_BETWEEN    = 1.2   # Groq free: 30 req/min
-SLEEP_UNPAYWALL  = 0.5   # be polite to Unpaywall
+SLEEP_UNPAYWALL  = 0.5
 UNPAYWALL_EMAIL  = 'huongdt@vlute.edu.vn'
 
-# ── Math helpers ───────────────────────────────────────────────────────────────
+# ── Effect-size math ───────────────────────────────────────────────────────────
 def r_from_t(t: float, n: int) -> float:
     df = max(n - 2, 1)
     return t / math.sqrt(t**2 + df)
+
+def r_from_F(F: float, n: int) -> float:
+    df_e = max(n - 2, 1)
+    return math.sqrt(F / (F + df_e))
+
+def r_from_chi2(chi2: float, n: int) -> float:
+    return math.sqrt(chi2 / max(n, 1))
+
+def r_from_d(d: float) -> float:
+    return d / math.sqrt(d**2 + 4)
+
+def r_from_eta_sq(eta_sq: float) -> float:
+    return math.sqrt(max(eta_sq, 0.0))
+
+def r_from_log_or(log_or: float) -> float:
+    # logit-probit approximation (Borenstein 2009 appendix B)
+    x = log_or * math.sqrt(3) / math.pi
+    return x / math.sqrt(1 + x**2)
+
+def r_from_z(z: float, n: int) -> float:
+    return z / math.sqrt(max(n, 1))
 
 def fisher_z(r: float) -> float:
     r = max(min(r, 0.9999), -0.9999)
@@ -94,7 +114,6 @@ def download_pdf(url: str, dest: Path, timeout: int = DOWNLOAD_TIMEOUT) -> bool:
         return False
 
 def try_unpaywall(doi: str) -> str:
-    """Return best OA PDF URL from Unpaywall, or empty string."""
     if not doi:
         return ''
     try:
@@ -110,7 +129,6 @@ def try_unpaywall(doi: str) -> str:
         return ''
 
 def try_semantic_scholar(doi: str) -> str:
-    """Return OA PDF URL from Semantic Scholar."""
     if not doi:
         return ''
     try:
@@ -146,28 +164,33 @@ def pdf_to_text(pdf_path: Path, max_chars: int = MAX_TEXT_CHARS) -> str:
 
 # ── Groq extraction prompt ─────────────────────────────────────────────────────
 SYSTEM_PROMPT = """\
-You are a meta-analysis research assistant. Extract the Pearson r effect size
-(or a convertible statistic) for the internationalization → firm performance (I→P)
-relationship from the full text of an empirical paper.
+You are a meta-analysis research assistant. Extract ANY statistic that can be converted
+to Pearson r for the internationalization → firm performance (I→P) relationship.
 
 INTERNATIONALIZATION (IV): FSTS, export intensity, export ratio, degree of internationalization (DOI),
 number of foreign countries, foreign sales, multinationality, FDI stock, geographic scope.
 
 PERFORMANCE (DV): ROA, ROE, ROS, Tobin's Q, sales growth, profit margin, productivity (TFP/LP).
 
-EXTRACTION PRIORITY (use first available):
-1. Pearson r direct → use as-is
-2. Partial correlation → use as-is (flag is_partial=true)
-3. Standardized β (OLS/panel, firm-level) → r ≈ β (flag is_estimated=true)
-4. t-statistic + N → r = t / sqrt(t² + (N-2))
-5. F-statistic (df1=1) + N → r = sqrt(F / (F + (N-2)))
-6. p-value + N only → skip (insufficient)
+EXTRACTION PRIORITY — use the FIRST available:
+  1.  Pearson r (direct correlation)                    → r as-is
+  2.  Partial correlation r                             → r as-is, is_partial=true
+  3.  Standardized β (OLS / panel)                      → r ≈ β, is_estimated=true
+  4.  t-statistic + N                                   → r = t/sqrt(t²+(N-2))
+  5.  F-statistic (df1=1) + N                           → r = sqrt(F/(F+(N-2)))
+  6.  Chi-square (df=1) + N                             → r = sqrt(χ²/N)
+  7.  Cohen's d                                         → r = d/sqrt(d²+4)
+  8.  η² or partial η²                                  → r = sqrt(η²)
+  9.  Log-odds ratio (logit coefficient)                → r ≈ log_or·√3/π / sqrt(1+(log_or·√3/π)²)
+  10. Z-score + N                                       → r = z/sqrt(N)
+  11. Unstandardized b + SE_b (→ t=b/SE → r)           → conversion_formula="b_se_to_r"
 
 RULES:
-- Extract coefficient for MAIN I→P linear term (β1 if quadratic model)
-- Use FULL model (most controls) if multiple models reported
-- Never invent numbers. If no convertible stat exists, return r=null
-- N = firm-year observations for panel data
+- Always use the FULL model (most control variables) if multiple models shown.
+- For quadratic I→P models, extract the LINEAR term (β₁ / coefficient on I, not I²).
+- N = firm-year observations for panel data; firm count for cross-section.
+- Never invent numbers. If no convertible statistic exists, return r=null.
+- Report the raw statistic in the matching field even when you compute r.
 
 RESPOND WITH ONLY VALID JSON (no markdown, no explanation):
 {
@@ -176,13 +199,21 @@ RESPOND WITH ONLY VALID JSON (no markdown, no explanation):
   "beta": <float|null>,
   "se": <float|null>,
   "t_stat": <float|null>,
+  "f_stat": <float|null>,
+  "chi_sq": <float|null>,
+  "cohen_d": <float|null>,
+  "eta_sq": <float|null>,
+  "log_or": <float|null>,
+  "z_score": <float|null>,
+  "b_unstand": <float|null>,
+  "se_b": <float|null>,
   "p_value": <float|null>,
   "is_estimated": <bool>,
   "is_partial": <bool>,
-  "conversion_formula": "direct|beta|t_to_r|F_to_r|none",
+  "conversion_formula": "direct|beta|t_to_r|F_to_r|chi2_to_r|d_to_r|eta_to_r|log_or_to_r|z_to_r|b_se_to_r|none",
   "iv_measure": "<FSTS|DOI|export|FDI|entropy|n_countries|other>",
   "dv_measure": "<ROA|ROE|ROS|TobinQ|sales_growth|productivity|other>",
-  "model_type": "<OLS|panel_FE|panel_RE|GMM|other>",
+  "model_type": "<OLS|panel_FE|panel_RE|GMM|logit|probit|other>",
   "icrv_hint": "<country or multi>",
   "effect_direction": "<positive|negative|unclear>",
   "notes": "<max 200 chars>"
@@ -193,7 +224,7 @@ def extract_r_via_groq(client: Groq, text: str, title: str, model: str) -> dict:
     try:
         resp = client.chat.completions.create(
             model=model,
-            max_tokens=512,
+            max_tokens=600,
             temperature=0.0,
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
@@ -209,15 +240,83 @@ def extract_r_via_groq(client: Groq, text: str, title: str, model: str) -> dict:
     except Exception as e:
         return {"error": str(e), "r": None}
 
-def compute_final_r(result: dict) -> tuple:
-    r = result.get('r')
-    if r is not None:
-        try:
-            r = float(r)
-            if abs(r) <= 1.0:
-                return r, result.get('conversion_formula', 'direct')
-        except (ValueError, TypeError):
-            pass
+def _safe_float(v) -> float | None:
+    try:
+        return float(v) if v is not None else None
+    except (ValueError, TypeError):
+        return None
+
+def _safe_int(v) -> int | None:
+    try:
+        return int(float(v)) if v is not None else None
+    except (ValueError, TypeError):
+        return None
+
+def compute_final_r(result: dict) -> tuple[float | None, str]:
+    """
+    Try all conversion paths in priority order.
+    Returns (r_value, conversion_formula_string) or (None, 'none').
+    """
+    n = _safe_int(result.get('n'))
+
+    # 1. Direct Pearson r
+    r = _safe_float(result.get('r'))
+    if r is not None and abs(r) <= 1.0:
+        return r, 'direct'
+
+    # 2. Standardized beta
+    beta = _safe_float(result.get('beta'))
+    if beta is not None and abs(beta) <= 1.5:
+        return beta, 'beta'
+
+    # 3. t-statistic
+    t = _safe_float(result.get('t_stat'))
+    if t is not None and n and n > 2:
+        return r_from_t(t, n), 't_to_r'
+
+    # 4. F-statistic (df1=1)
+    F = _safe_float(result.get('f_stat'))
+    if F is not None and F >= 0 and n and n > 2:
+        return r_from_F(F, n), 'F_to_r'
+
+    # 5. Chi-square (df=1)
+    chi2 = _safe_float(result.get('chi_sq'))
+    if chi2 is not None and chi2 >= 0 and n and n > 0:
+        r_chi = r_from_chi2(chi2, n)
+        if r_chi <= 1.0:
+            return r_chi, 'chi2_to_r'
+
+    # 6. Cohen's d
+    d = _safe_float(result.get('cohen_d'))
+    if d is not None:
+        return r_from_d(d), 'd_to_r'
+
+    # 7. Eta-squared / partial eta-squared
+    eta = _safe_float(result.get('eta_sq'))
+    if eta is not None and 0.0 <= eta <= 1.0:
+        return r_from_eta_sq(eta), 'eta_to_r'
+
+    # 8. Log-odds ratio
+    log_or = _safe_float(result.get('log_or'))
+    if log_or is not None:
+        r_lor = r_from_log_or(log_or)
+        if abs(r_lor) <= 1.0:
+            return r_lor, 'log_or_to_r'
+
+    # 9. Z-score
+    z = _safe_float(result.get('z_score'))
+    if z is not None and n and n > 0:
+        r_z = r_from_z(z, n)
+        if abs(r_z) <= 1.0:
+            return r_z, 'z_to_r'
+
+    # 10. Unstandardized b + SE_b → t → r
+    b = _safe_float(result.get('b_unstand'))
+    se_b = _safe_float(result.get('se_b'))
+    if b is not None and se_b and se_b > 0 and n and n > 2:
+        t_derived = b / se_b
+        return r_from_t(t_derived, n), 'b_se_to_r'
+
     return None, 'none'
 
 def load_oa_manifest(manifest_path: Path) -> dict:
@@ -238,21 +337,17 @@ def main():
     parser.add_argument('--queue',    default=str(DEFAULT_QUEUE))
     parser.add_argument('--tracker',  default=str(TRACKER))
     parser.add_argument('--pdf-dir',  default=str(DEFAULT_PDF_DIR))
-    parser.add_argument('--manifest', default=None,
-                        help='OA manifest CSV (oa_manifest_*.csv or s2_manifest_*.csv)')
+    parser.add_argument('--manifest', default=None)
     parser.add_argument('--log',      default=str(DEFAULT_LOG))
     parser.add_argument('--limit',    type=int, default=50)
     parser.add_argument('--dry-run',  action='store_true')
     parser.add_argument('--model',    default=GROQ_MODEL)
-    parser.add_argument('--no-unpaywall', action='store_true',
-                        help='Skip Unpaywall/S2 fallback lookup')
+    parser.add_argument('--no-unpaywall', action='store_true')
     args = parser.parse_args()
 
     api_key = os.environ.get('GROQ_API_KEY', '')
     if not api_key:
-        print("ERROR: set GROQ_API_KEY env var first")
-        print("  Get free key: https://console.groq.com → API Keys")
-        sys.exit(1)
+        print("ERROR: set GROQ_API_KEY env var first"); sys.exit(1)
 
     client = Groq(api_key=api_key)
     pdf_dir = Path(args.pdf_dir)
@@ -262,21 +357,20 @@ def main():
     manifest = {}
     if args.manifest:
         manifest.update(load_oa_manifest(Path(args.manifest)))
-    # Also try default manifest paths
     for mf in [BASE / 's2_manifest_20260521.csv',
                 BASE / 'p6/tools/results/s2_manifest_20260521.csv',
                 BASE / 'p6/tools/results/oa_manifest_20260521.csv']:
         if mf.exists() and not manifest:
             manifest.update(load_oa_manifest(mf))
 
-    # Load tracker to know which seqs already have r
+    # Load tracker
     with open(args.tracker, encoding='utf-8') as f:
         tracker_rows = list(csv.DictReader(f))
     tracker_fieldnames = list(tracker_rows[0].keys())
     tracker_by_seq = {r['seq']: r for r in tracker_rows}
     already_done = {r['seq'] for r in tracker_rows if r.get('converted_r', '').strip()}
 
-    # Load queue
+    # Load queue and sort by PDF availability
     with open(args.queue, encoding='utf-8') as f:
         queue = list(csv.DictReader(f))
 
@@ -286,32 +380,29 @@ def main():
         and r.get('fulltext_screening_decision', '') != 'N'
     ]
 
-    # Sort by PDF availability so highest-chance papers are processed first
     def _pdf_priority(row):
-        seq = row.get('seq', '')
-        if seq in manifest:
-            return 0  # guaranteed PDF URL in manifest
+        if row.get('seq', '') in manifest:
+            return 0
         src = row.get('source_url_or_pdf_path', '').strip()
         if src.startswith('http'):
-            return 1  # direct URL in queue
+            return 1
         if row.get('pdf_filename', '').strip():
-            return 2  # local file exists
-        return 3      # needs Unpaywall/S2 on-the-fly
+            return 2
+        return 3
 
     all_candidates.sort(key=_pdf_priority)
     candidates = all_candidates[:args.limit]
 
     use_unpaywall = not args.no_unpaywall
     n_manifest = sum(1 for r in candidates if r.get('seq', '') in manifest)
-    n_url      = sum(1 for r in candidates
-                     if r.get('seq', '') not in manifest
-                     and r.get('source_url_or_pdf_path', '').strip().startswith('http'))
-    print(f"Queue: {len(queue)} | Already done: {len(already_done)} | "
-          f"Candidates: {len(all_candidates)} | Batch: {len(candidates)} (limit={args.limit})")
-    print(f"  Batch breakdown — manifest: {n_manifest} | queue_url: {n_url} | "
-          f"needs_lookup: {len(candidates)-n_manifest-n_url}")
-    print(f"Model: {args.model} | Dry-run: {args.dry_run} | "
-          f"Unpaywall fallback: {use_unpaywall}\n")
+    n_url = sum(1 for r in candidates
+                if r.get('seq', '') not in manifest
+                and r.get('source_url_or_pdf_path', '').strip().startswith('http'))
+    print(f"Queue: {len(queue)} | Done: {len(already_done)} | "
+          f"Candidates: {len(all_candidates)} | Batch: {len(candidates)}")
+    print(f"  manifest={n_manifest} | queue_url={n_url} | "
+          f"needs_lookup={len(candidates)-n_manifest-n_url}")
+    print(f"Model: {args.model} | Dry-run: {args.dry_run} | Unpaywall: {use_unpaywall}\n")
 
     log_rows = []
     updated = 0
@@ -329,97 +420,77 @@ def main():
         pdf_path = None
         pdf_source = ''
 
-        # 1. Local PDF (pdf_filename column or already downloaded)
         local_pdf = qrow.get('pdf_filename', '').strip()
         if local_pdf:
-            candidate = pdf_dir / local_pdf
-            if candidate.exists():
-                pdf_path = candidate
-                pdf_source = 'local'
+            cand = pdf_dir / local_pdf
+            if cand.exists():
+                pdf_path = cand; pdf_source = 'local'
 
-        # 2. OA manifest (keyed by seq)
         if pdf_path is None:
             manifest_url = manifest.get(seq, '')
             if manifest_url:
-                safe_name = re.sub(r'[^\w\-.]', '_', seq) + '.pdf'
-                dest = pdf_dir / safe_name
+                safe = re.sub(r'[^\w\-.]', '_', seq) + '.pdf'
+                dest = pdf_dir / safe
                 if download_pdf(manifest_url, dest):
-                    pdf_path = dest
-                    pdf_source = 'manifest'
-                    print(f"  Manifest URL OK: {manifest_url[:70]}")
+                    pdf_path = dest; pdf_source = 'manifest'
+                    print(f"  Manifest OK: {manifest_url[:70]}")
 
-        # 3. source_url_or_pdf_path from queue
-        if pdf_path is None and src and src.startswith('http'):
-            safe_name = re.sub(r'[^\w\-.]', '_', seq) + '_src.pdf'
-            dest = pdf_dir / safe_name
+        if pdf_path is None and src.startswith('http'):
+            safe = re.sub(r'[^\w\-.]', '_', seq) + '_src.pdf'
+            dest = pdf_dir / safe
             if download_pdf(src, dest):
-                pdf_path = dest
-                pdf_source = 'queue_url'
+                pdf_path = dest; pdf_source = 'queue_url'
                 print(f"  Queue URL OK: {src[:70]}")
 
-        # 4. Unpaywall fallback (by DOI)
         if pdf_path is None and doi and use_unpaywall:
             time.sleep(SLEEP_UNPAYWALL)
             unp_url = try_unpaywall(doi)
-            if unp_url and unp_url.startswith('http'):
-                safe_name = re.sub(r'[^\w\-.]', '_', seq) + '_unp.pdf'
-                dest = pdf_dir / safe_name
+            if unp_url.startswith('http'):
+                safe = re.sub(r'[^\w\-.]', '_', seq) + '_unp.pdf'
+                dest = pdf_dir / safe
                 if download_pdf(unp_url, dest):
-                    pdf_path = dest
-                    pdf_source = 'unpaywall'
+                    pdf_path = dest; pdf_source = 'unpaywall'
                     print(f"  Unpaywall OK: {unp_url[:70]}")
-                else:
-                    print(f"  Unpaywall URL found but download failed: {unp_url[:60]}")
-            else:
-                print(f"  Unpaywall: no OA PDF for doi={doi[:40]}")
 
-        # 5. Semantic Scholar fallback
         if pdf_path is None and doi and use_unpaywall:
             s2_url = try_semantic_scholar(doi)
-            if s2_url and s2_url.startswith('http'):
-                safe_name = re.sub(r'[^\w\-.]', '_', seq) + '_s2.pdf'
-                dest = pdf_dir / safe_name
+            if s2_url.startswith('http'):
+                safe = re.sub(r'[^\w\-.]', '_', seq) + '_s2.pdf'
+                dest = pdf_dir / safe
                 if download_pdf(s2_url, dest):
-                    pdf_path = dest
-                    pdf_source = 'semantic_scholar'
-                    print(f"  Semantic Scholar OK: {s2_url[:70]}")
+                    pdf_path = dest; pdf_source = 'semantic_scholar'
+                    print(f"  S2 OK: {s2_url[:70]}")
 
         if pdf_path is None:
-            print(f"  SKIP: no PDF (manifest={bool(manifest.get(seq))}, "
-                  f"doi={bool(doi)}, unpaywall={use_unpaywall})")
-            log_rows.append({'seq': seq, 'title': title, 'year': year,
-                             'doi': doi, 'pdf_url': src or manifest.get(seq, ''),
-                             'status': 'NO_PDF', 'converted_r': '', 'n': '',
-                             'conversion_formula': '', 'notes': '', 'error': ''})
+            print(f"  SKIP: no PDF")
+            log_rows.append({'seq': seq, 'title': title, 'year': year, 'doi': doi,
+                             'pdf_url': src, 'status': 'NO_PDF', 'converted_r': '',
+                             'n': '', 'conversion_formula': '', 'notes': '', 'error': ''})
             continue
 
-        # ── Extract text ───────────────────────────────────────────────────────
         text = pdf_to_text(pdf_path)
         if text.startswith('PDF_READ_ERROR'):
-            print(f"  SKIP: {text}")
-            log_rows.append({'seq': seq, 'title': title, 'year': year,
-                             'doi': doi, 'pdf_url': src or manifest.get(seq, ''),
-                             'status': 'PDF_ERROR', 'converted_r': '', 'n': '',
-                             'conversion_formula': '', 'notes': '', 'error': text})
+            print(f"  SKIP: {text[:80]}")
+            log_rows.append({'seq': seq, 'title': title, 'year': year, 'doi': doi,
+                             'pdf_url': pdf_source, 'status': 'PDF_ERROR', 'converted_r': '',
+                             'n': '', 'conversion_formula': '', 'notes': '', 'error': text})
             continue
 
         if args.dry_run:
-            print(f"  [DRY-RUN] PDF text {len(text)} chars from {pdf_source} — would send to Groq")
-            log_rows.append({'seq': seq, 'title': title, 'year': year,
-                             'doi': doi, 'pdf_url': pdf_source,
-                             'status': 'DRY_RUN', 'converted_r': '', 'n': '',
-                             'conversion_formula': '', 'notes': '', 'error': ''})
+            print(f"  [DRY-RUN] {len(text)} chars from {pdf_source}")
+            log_rows.append({'seq': seq, 'title': title, 'year': year, 'doi': doi,
+                             'pdf_url': pdf_source, 'status': 'DRY_RUN', 'converted_r': '',
+                             'n': '', 'conversion_formula': '', 'notes': '', 'error': ''})
             continue
 
-        # ── Call Groq ──────────────────────────────────────────────────────────
         result = extract_r_via_groq(client, text, title, args.model)
 
         if 'error' in result:
             print(f"  ERROR: {result['error']}")
-            log_rows.append({'seq': seq, 'title': title, 'year': year,
-                             'doi': doi, 'pdf_url': pdf_source,
-                             'status': 'API_ERROR', 'converted_r': '', 'n': '',
-                             'conversion_formula': '', 'notes': '', 'error': result['error']})
+            log_rows.append({'seq': seq, 'title': title, 'year': year, 'doi': doi,
+                             'pdf_url': pdf_source, 'status': 'API_ERROR', 'converted_r': '',
+                             'n': '', 'conversion_formula': '', 'notes': '',
+                             'error': result['error']})
             time.sleep(SLEEP_BETWEEN)
             continue
 
@@ -427,7 +498,7 @@ def main():
         n_val = result.get('n')
 
         if final_r is None:
-            print(f"  NO_R: {result.get('notes', '')[:80]}")
+            print(f"  NO_R: {result.get('notes','')[:80]}")
             status = 'NO_R_FOUND'
         else:
             print(f"  r={final_r:.4f} | n={n_val} | formula={formula} | "
@@ -435,24 +506,28 @@ def main():
             status = 'SUCCESS'
             updated += 1
 
-            # Update tracker row
             trow = tracker_by_seq.get(seq)
             if trow and not trow.get('converted_r', '').strip():
                 trow['converted_r']        = str(round(final_r, 6))
                 trow['conversion_formula'] = formula
                 trow['ready_for_r']        = '1'
                 if n_val:
-                    trow['sample_size_n'] = str(n_val)
-                    trow['fisher_z']      = str(round(fisher_z(final_r), 6))
-                    trow['variance_z']    = str(round(variance_z(int(n_val)), 8))
-                if result.get('t_stat'):
-                    trow['t_value'] = str(result['t_stat'])
-                if result.get('p_value'):
-                    trow['p_value'] = str(result['p_value'])
-                if result.get('beta'):
-                    trow['reported_coefficient'] = str(result['beta'])
-                if result.get('se'):
-                    trow['standard_error'] = str(result['se'])
+                    try:
+                        ni = int(float(n_val))
+                        trow['sample_size_n'] = str(ni)
+                        trow['fisher_z']      = str(round(fisher_z(final_r), 6))
+                        trow['variance_z']    = str(round(variance_z(ni), 8))
+                    except (ValueError, TypeError):
+                        pass
+                for fld, col in [('t_stat','t_value'), ('p_value','p_value'),
+                                  ('beta','reported_coefficient'), ('se','standard_error'),
+                                  ('f_stat','f_stat'), ('chi_sq','chi_sq'),
+                                  ('cohen_d','cohen_d'), ('eta_sq','eta_sq'),
+                                  ('log_or','log_or'), ('z_score','z_score'),
+                                  ('b_unstand','b_unstand'), ('se_b','se_b')]:
+                    v = result.get(fld)
+                    if v is not None and col in trow:
+                        trow[col] = str(v)
                 notes_add = result.get('notes', '')
                 if notes_add:
                     existing = trow.get('notes_for_extractor', '')
@@ -462,7 +537,7 @@ def main():
         log_rows.append({
             'seq': seq, 'title': title, 'year': year, 'doi': doi,
             'pdf_url': pdf_source, 'status': status,
-            'converted_r': str(final_r) if final_r else '',
+            'converted_r': str(final_r) if final_r is not None else '',
             'n': str(n_val) if n_val else '',
             'conversion_formula': formula,
             'notes': result.get('notes', ''),
@@ -490,10 +565,8 @@ def main():
 
     print(f"\n{'='*60}")
     print(f"Processed: {len(candidates)} | Updated: {updated} | Log: {log_path}")
-
     from collections import Counter
-    counts = Counter(r['status'] for r in log_rows)
-    for k, v in sorted(counts.items(), key=lambda x: -x[1]):
+    for k, v in sorted(Counter(r['status'] for r in log_rows).items(), key=lambda x: -x[1]):
         print(f"  {k}: {v}")
 
 if __name__ == '__main__':
