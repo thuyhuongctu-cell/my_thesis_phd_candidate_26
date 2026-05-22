@@ -428,12 +428,12 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 
 | Nhóm | WGI Rule of Law | GNI/capita | Cơ chế tăng trưởng | FSTS dự kiến | sd log LP | Cơ chế quốc tế hóa → hiệu quả |
 |---|---|---|---|---|---|---|
-| I — Innovation | >+0,80 | >$30k | R&D + dịch vụ tri thức | Trung bình (6–15%) | ~1,03 | U ngược nhẹ / tuyến tính dương; điểm uốn ~82% (SG) |
-| II — Resource | +0,00→+0,50 | >$20k | Xuất khẩu dầu/khí | Thấp (1–3%) | ~0,49 | Phi tuyến suy yếu; nhà nước tô phân phối lại |
-| III — Upper-mid | 0,00→+0,80 | $5k–$20k | Sản xuất + chuyển đổi | Trung bình (8–12%) | ~1,29 | U ngược; điểm uốn ~47% |
-| IV — Emerging | -0,50→0,00 | $1k–$5k | FDI-driven sản xuất | Biến động (7–23%) | ~1,24 | U ngược; điểm uốn 39–46% (VNM) — bẫy chuyển hướng nguồn lực |
-| V — Frontier | <-0,50 | <$1k–$3k | Tự cấp + phi chính thức | Thấp–trung bình | ~1,36 | Yếu; voids thể chế → đổi mới bằng nguồn lực hạn chế |
-| VI — SIDS | Đặc biệt | $1k–$8k | MIRAB + du lịch | Rất thấp (1–12%) | ~1,32 | Chi phí buộc phải quốc tế hóa — U-curve không vận hành |
+| I — Innovation | >+0,80 | >\$30k | R&D + dịch vụ tri thức | Trung bình (6–15%) | ~1,03 | U ngược nhẹ / tuyến tính dương; điểm uốn ~82% (SG) |
+| II — Resource | +0,00→+0,50 | >\$20k | Xuất khẩu dầu/khí | Thấp (1–3%) | ~0,49 | Phi tuyến suy yếu; nhà nước tô phân phối lại |
+| III — Upper-mid | 0,00→+0,80 | \$5k–\$20k | Sản xuất + chuyển đổi | Trung bình (8–12%) | ~1,29 | U ngược; điểm uốn ~47% |
+| IV — Emerging | -0,50→0,00 | \$1k–\$5k | FDI-driven sản xuất | Biến động (7–23%) | ~1,24 | U ngược; điểm uốn 39–46% (VNM) — bẫy chuyển hướng nguồn lực |
+| V — Frontier | <-0,50 | <\$1k–\$3k | Tự cấp + phi chính thức | Thấp–trung bình | ~1,36 | Yếu; voids thể chế → đổi mới bằng nguồn lực hạn chế |
+| VI — SIDS | Đặc biệt | \$1k–\$8k | MIRAB + du lịch | Rất thấp (1–12%) | ~1,32 | Chi phí buộc phải quốc tế hóa — U-curve không vận hành |
 
 *Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, tháng 7). Pattern WBES từ phân tích Chương 4 và Đỗ & Phan (2026, VEFR, JABS, JFAR, MIR under review).*
 

@@ -21,8 +21,37 @@
   \usepackage{lmodern}
 \else
   \usepackage{fontspec}
-  \setmainfont{DejaVu Serif}[Scale=0.95]
-  \setmonofont{DejaVu Sans Mono}[Scale=0.85]
+  \setmainfont{Liberation Serif}[
+    Scale=1.0,
+    BoldFont={Liberation Serif Bold},
+    ItalicFont={Liberation Serif Italic},
+    BoldItalicFont={Liberation Serif Bold Italic}
+  ]
+  \setmonofont{Liberation Mono}[Scale=0.85]
+  % Map common Unicode math/typographic symbols
+  \usepackage{newunicodechar}
+  \newunicodechar{∈}{\ensuremath{\in}}
+  \newunicodechar{∉}{\ensuremath{\notin}}
+  \newunicodechar{≤}{\ensuremath{\leq}}
+  \newunicodechar{≥}{\ensuremath{\geq}}
+  \newunicodechar{≠}{\ensuremath{\neq}}
+  \newunicodechar{≈}{\ensuremath{\approx}}
+  \newunicodechar{∞}{\ensuremath{\infty}}
+  \newunicodechar{∑}{\ensuremath{\sum}}
+  \newunicodechar{∏}{\ensuremath{\prod}}
+  \newunicodechar{∗}{\ensuremath{\ast}}
+  \newunicodechar{·}{\ensuremath{\cdot}}
+  \newunicodechar{−}{\ensuremath{-}}
+  \newunicodechar{×}{\ensuremath{\times}}
+  \newunicodechar{÷}{\ensuremath{\div}}
+  \newunicodechar{±}{\ensuremath{\pm}}
+  \newunicodechar{✓}{\ensuremath{\checkmark}}
+  \newunicodechar{✗}{\ensuremath{\times}}
+  \newunicodechar{⚠}{\textbf{!}}
+  \newunicodechar{→}{\ensuremath{\rightarrow}}
+  \newunicodechar{←}{\ensuremath{\leftarrow}}
+  \newunicodechar{⇒}{\ensuremath{\Rightarrow}}
+  \usepackage{xurl}
 \fi
 
 % --- Math ---
@@ -49,6 +78,21 @@
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage{ulem}\normalem
+
+% --- Code block support (pandoc Shaded environment) ---
+\usepackage{fancyvrb}
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\providecommand{\BuiltInTok}[1]{#1}
+\providecommand{\CommentTok}[1]{\textit{#1}}
+\providecommand{\KeywordTok}[1]{\textbf{#1}}
+\providecommand{\NormalTok}[1]{#1}
+\providecommand{\StringTok}[1]{\textit{#1}}
+\providecommand{\OperatorTok}[1]{#1}
+\providecommand{\DataTypeTok}[1]{#1}
+\providecommand{\FunctionTok}[1]{#1}
+
 
 % --- Links & references ---
 \usepackage[hidelinks,breaklinks=true]{hyperref}
