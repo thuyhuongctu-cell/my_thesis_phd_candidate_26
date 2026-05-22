@@ -29,6 +29,7 @@ jobs:
         with:
           ref: claude/edit-vietnamese-academic-standards-xcAmn
           token: ${{ github.token }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -48,54 +49,15 @@ jobs:
 
       - name: Merge gap manifest into latest full manifest
         run: |
-          python3 - <<'PYEOF'
-          import csv, os, glob
-
-          gap_path = "p6/tools/results/${{ github.event.inputs.output_file }}"
-          if not os.path.exists(gap_path):
-              print("Gap manifest not found, skip merge")
-              exit(0)
-
-          # Find the most recent full manifest (not gap)
-          manifests = sorted([
-              f for f in glob.glob("p6/tools/results/oa_manifest_*.csv")
-              if "gap" not in f
-          ])
-          if not manifests:
-              print("No existing full manifest to merge into")
-              exit(0)
-
-          latest = manifests[-1]
-          print(f"Merging {gap_path} into {latest}")
-
-          with open(latest) as f:
-              existing = list(csv.DictReader(f))
-              fieldnames = list(existing[0].keys()) if existing else []
-              existing_seqs = {r.get("seq","") for r in existing}
-
-          with open(gap_path) as f:
-              gap_rows = list(csv.DictReader(f))
-              if not fieldnames:
-                  fieldnames = list(gap_rows[0].keys()) if gap_rows else []
-
-          new_rows = [r for r in gap_rows if r.get("seq","") not in existing_seqs]
-          print(f"New rows from gap: {len(new_rows)} (of {len(gap_rows)})")
-
-          if new_rows:
-              # Write merged back to latest
-              with open(latest, "w", newline="") as f:
-                  w = csv.DictWriter(f, fieldnames=fieldnames)
-                  w.writeheader()
-                  w.writerows(existing + new_rows)
-              print(f"Merged manifest: {latest} now has {len(existing)+len(new_rows)} rows")
-
-              # Count PDF URLs
-              all_rows = existing + new_rows
-              pdf_count = sum(1 for r in all_rows if r.get("pdf_url","").strip())
-              print(f"Total PDF URLs in merged manifest: {pdf_count}")
-          else:
-              print("No new rows to add")
-          PYEOF
+          GAP="p6/tools/results/${{ github.event.inputs.output_file }}"
+          if [ -f "$GAP" ]; then
+            python3 p6/tools/58_merge_oa_manifests.py \
+              --out p6/tools/results/oa_manifest_merged.csv
+            echo "Merged. Rows in oa_manifest_merged.csv:"
+            tail -n +2 p6/tools/results/oa_manifest_merged.csv | wc -l
+          else
+            echo "Gap manifest not found at $GAP — skipping merge"
+          fi
 
       - name: Show summary
         run: |
@@ -121,12 +83,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin claude/edit-vietnamese-academic-standards-xcAmn 2>&1 || true
           git add "p6/tools/results/${{ github.event.inputs.output_file }}" || true
-          git add p6/tools/results/oa_manifest_*.csv || true
-          if git diff --cached --quiet; then
-            echo "Nothing to commit."
-          else
+          git add p6/tools/results/oa_manifest_merged.csv || true
+          git diff --cached --quiet && echo "Nothing to commit." || \
             git commit -m "feat(p6): Unpaywall gap manifest — ${{ github.event.inputs.gap_file }} [$(date +%Y%m%d)]"
-            git push origin claude/edit-vietnamese-academic-standards-xcAmn
-          fi
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn
