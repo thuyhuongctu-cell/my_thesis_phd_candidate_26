@@ -1,69 +1,81 @@
 # Hướng dẫn L2 Screening & Extraction — P6 Meta-Analysis
 
-**Cập nhật**: 21/05/2026 (rev 3)
-**File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv`  
-**Cấu trúc**: 2,467 rows × 58 cột  
-**File extraction queue** (652 Y, sorted by PDF status): `p6/tools/results/extraction_queue_y_20260520.csv`
+**Cập nhật**: 22/05/2026 (rev 4)
+**File làm việc (canonical)**: `p6/tools/results/fulltext_to_extraction_tracker_v2.csv`  
+**Cấu trúc**: 435 rows × 58 cột  
+**Scope**: Gộp retrieval worklist + extraction template + workflow tracking cho 435 papers L2 priority
 
 ---
 
-## Trạng thái pipeline (21/05/2026 — sau Phase A-B)
+## Trạng thái pipeline (22/05/2026 — tracker v2)
 
 | Nhóm | Số lượng | Ghi chú |
 |------|---------|---------|
-| Existing coded (k=238 database) | 344 rows | seq ≤ 435 |
-| New candidates tổng | 2,123 rows | seq > 435 |
-| **Y (confirmed)** | **674** | sẵn sàng extraction |
-| → có converted_r | 3 | ready_for_r=1 (seqs 477, 1549, 1753) |
-| → blank icrv | 267 | cần manual ICRV coding |
-| → có ICRV | 407 | ready cho MARA sau khi có r |
-| N (all types) | 728 | N=329, N_abstract=151, N_title=248 |
-| UNSURE (cần abstract) | 1,065 | Phase A fetching S2 abstracts (ETA ~06:15) |
+| **Tổng rows** | **435** | canonical L2 list |
+| Priority A (`1_DOI_FIRST`) | 310 | có DOI → dễ truy cập |
+| Priority B (`2_NO_DOI_MANUAL`) | 125 | không DOI → tìm thủ công |
+| ICRV đã điền | 435 | 0 blank |
+| DPL đã điền | 435 | 0 blank |
+| `converted_r` đã điền | 0 | extraction chưa bắt đầu |
+| `fulltext_screening_decision` đã điền | 0 | chờ L2 screening |
 
-**ICRV coverage sau Phase B (21/05/2026):**
-- Phase B auto-coded 17 Y papers via title detection
-- Manual coding: seq=477 (Ghana→3), seq=1549 (Italy→1)
-- 267 Y papers vẫn blank ICRV (multi-country hoặc không xác định)
-- Cần manual: sau khi có full-text, xác định context country của study
-
-**Scripts pipeline (đã chạy 21/05/2026):**
+**Scripts pipeline:**
 ```
-50_fetch_s2_abstracts_unsure.py  — fetch S2 abstracts cho 757 UNSURE (đang chạy)
-51_icrv_from_s2_affiliations.py  — auto-ICRV cho Y papers (đã hoàn thành — 17 coded)
-52_extract_r_from_abstracts.py   — extract r từ Y paper abstracts (0 r found)
-53_apply_s2_auto_screen.py       — áp dụng N decisions từ Phase A (chạy sau Phase A)
-meta_r_scripts/01_mara_update_combined.R — chạy MARA khi ready_for_r ≥ 50
-```
-
-**Scripts pipeline (còn lại):**
-```
-40_batch_download_pdfs.py   — tải PDF về p6/pdfs/ (chạy local)
-41_auto_extract_from_pdfs.py — auto-extract r từ PDF (chạy local sau 40)
+59_groq_extract_r.py          — auto-extract r từ PDF via Groq LLM (GitHub Actions)
+40_batch_download_pdfs.py     — tải PDF về p6/pdfs/ (chạy local)
 42_merge_tracker_to_database.py — merge → database (khi ≥50 ready_for_r=1)
+meta_r_scripts/01_mara_update_combined.R — chạy MARA khi ready_for_r ≥ 50
 ```
 
 ---
 
 ## Bước 1: Mở file làm việc
 
+**File canonical duy nhất:**
 ```
-extraction_queue_y_20260520.csv  (652 Y rows, sorted by PDF status — dễ làm việc)
-  ↕ sync từ/về ↕
-fulltext_to_extraction_tracker_v3.csv  (toàn bộ 2,467 rows — canonical)
+p6/tools/results/fulltext_to_extraction_tracker_v2.csv  (435 rows × 58 cột)
 ```
 
-**Cách làm**: Mở `extraction_queue_y_20260520.csv` trong Excel. Bắt đầu từ `LOCAL_PDF` rows (78 papers). Điền vào các cột extraction. Sau khi xong một batch, copy kết quả về `tracker_v3.csv` (dùng `seq` làm key).
+**Cách làm**: Mở `fulltext_to_extraction_tracker_v2.csv` trong Excel. Bắt đầu từ `1_DOI_FIRST` rows (310 papers). Điền vào các cột extraction theo thứ tự ưu tiên. Lưu file và commit sau mỗi batch.
+
+**Cấu trúc 58 cột của tracker v2:**
+
+| Nhóm cột | Cột | Mô tả |
+|----------|-----|-------|
+| **Identification** | `seq`, `priority_rank`, `doi_status` | Số thứ tự, xếp hạng ưu tiên, trạng thái DOI |
+| **Metadata** | `icrv`, `dpl`, `year`, `authors`, `title`, `journal`, `doi` | Thông tin bài báo |
+| **Retrieval** | `extraction_priority`, `doi_link`, `oa_link`, `oa_status` | Link và trạng thái truy cập |
+| **Workflow — PDF** | `pdf_found`, `pdf_source`, `pdf_path` | Kết quả tìm PDF |
+| **Workflow — L2** | `fulltext_screening_decision`, `fulltext_screening_reason` | Quyết định include/exclude |
+| **Workflow — Extraction** | `ready_for_r`, `extracted_by`, `checked_by` | Tiến độ trích xuất |
+| **Effect size** | `converted_r`, `conversion_formula`, `sample_size_n` | Giá trị r và cách tính |
+| **Statistics** | `reported_coefficient`, `t_value`, `df_for_t`, `p_value` | Thống kê gốc từ paper |
+| **Moderators** | `fp_type`, `internationalization_measure_guess`, `effect_direction`, `curve_type` | Mã hóa moderators |
+| **QA** | `table_or_page`, `notes_for_extractor`, `fisher_z`, `variance_z` | Kiểm tra và ghi chú |
+
+**6 cột workflow quan trọng:**
+
+| Cột | Giá trị hợp lệ | Điền khi nào |
+|-----|----------------|--------------|
+| `pdf_found` | `Y` / `N` | Sau khi tìm kiếm full-text |
+| `fulltext_screening_decision` | `Y` / `N` / `UNSURE` | Sau khi đọc abstract/full-text |
+| `ready_for_r` | `1` / (blank) | Khi đủ: `converted_r` + `sample_size_n` + `icrv` + `dpl` + `fp_type` |
+| `extracted_by` | tên người | Khi trích xuất xong |
+| `checked_by` | tên người | Sau double-coding (20% subsample) |
+| `conversion_formula` | `direct` / `beta` / `t_to_r` / `F_to_r` | Cùng lúc với `converted_r` |
 
 **Check nhanh tiến độ:**
 ```bash
 python3 -c "
 import csv
-with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
+with open('p6/tools/results/fulltext_to_extraction_tracker_v2.csv') as f:
     rows = list(csv.DictReader(f))
 ready = sum(1 for r in rows if r.get('ready_for_r','').strip() == '1')
 r_done = sum(1 for r in rows if r.get('converted_r','').strip())
 y = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'Y')
-print(f'Y={y} | converted_r={r_done} | ready_for_r={ready}')
+n = sum(1 for r in rows if r.get('fulltext_screening_decision','') == 'N')
+todo = sum(1 for r in rows if not r.get('fulltext_screening_decision','').strip())
+print(f'Y={y} | N={n} | TODO={todo} | converted_r={r_done} | ready_for_r={ready}')
 "
 ```
 
@@ -225,13 +237,13 @@ Ghi vào `notes_for_extractor`: `E1=ROA, E2=TobinQ`
 # Kiểm tra tiến độ extraction
 python3 -c "
 import csv
-with open('p6/tools/results/fulltext_to_extraction_tracker_v3.csv') as f:
+with open('p6/tools/results/fulltext_to_extraction_tracker_v2.csv') as f:
     rows = list(csv.DictReader(f))
-new_y = [r for r in rows if int(r.get('seq',0))>435 and r['fulltext_screening_decision']=='Y']
-done  = sum(1 for r in new_y if r.get('ready_for_r','')=='1')
-r_filled = sum(1 for r in new_y if r.get('converted_r','').strip())
-print(f'Y papers: {len(new_y)} | ready_for_r=1: {done} | converted_r filled: {r_filled}')
-print(f'Remaining: {len(new_y)-done}')
+y = [r for r in rows if r.get('fulltext_screening_decision','')=='Y']
+done  = sum(1 for r in y if r.get('ready_for_r','')=='1')
+r_filled = sum(1 for r in y if r.get('converted_r','').strip())
+print(f'Y papers: {len(y)} | ready_for_r=1: {done} | converted_r filled: {r_filled}')
+print(f'Remaining: {len(y)-done}')
 "
 
 # Sau khi extraction xong: chạy MARA
@@ -239,7 +251,7 @@ Rscript p6/tools/meta_r_scripts/00_mara_starter_20260520.R
 
 # Chọn 20% subsample cho double-coding
 python3 p6/tools/09_select_reliability_subsample.py \
-  --input  p6/tools/results/fulltext_to_extraction_tracker_v3.csv \
+  --input  p6/tools/results/fulltext_to_extraction_tracker_v2.csv \
   --output p6/tools/results/reliability_subsample.csv \
   --seed   42
 ```
@@ -270,10 +282,10 @@ python3 p6/tools/09_select_reliability_subsample.py \
 
 ## Mẹo thực tế
 
-- **Batch 50 papers** mỗi phiên — `extraction_queue_20260520.csv` đã sort theo ưu tiên, bắt đầu từ row 1
-- **396 DOI_FIRST** — dùng cột `doi_link` để mở trực tiếp
+- **Batch 50 papers** mỗi phiên — sort theo `extraction_priority` (`1_DOI_FIRST` trước)
+- **310 DOI_FIRST** — dùng cột `doi_link` để mở trực tiếp
 - **`ready_for_r = 1` chỉ khi đủ 5 trường**: `converted_r`, `sample_size_n`, `icrv`, `dpl`, `fp_type`
 - **Nonlinear papers**: ghi cả β₁ và β₂, turning point → `notes_for_extractor`
-- **Server block tất cả API**: Unpaywall, OpenAlex, CrossRef đều 403 từ server — download PDF locally
-- **Ước tính thời gian**: 538 papers × 5 phút/paper ≈ 45 giờ → 15–20 ngày làm 3h/ngày
-- **ICRV pre-filled chỉ 38%** — ưu tiên điền icrv khi đọc full-text (quan trọng cho MARA)
+- **Auto-extraction**: `59_groq_extract_r.py` chạy qua GitHub Actions, ~52 papers/ngày (Groq free tier)
+- **Ước tính thời gian**: 435 papers × 5 phút/paper ≈ 36 giờ → 12–15 ngày làm 3h/ngày
+- **ICRV đã pre-filled 100%** — kiểm tra lại khi đọc full-text nếu context country không rõ
