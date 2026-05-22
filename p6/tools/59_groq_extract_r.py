@@ -2,13 +2,20 @@
 """
 59_groq_extract_r.py — Batch r-extraction using Groq FREE API (llama-3.3-70b)
 
+PDF resolution order:
+  1. Local PDF already in pdf_dir (pdf_filename column)
+  2. OA manifest (oa_manifest_*.csv) keyed by seq
+  3. source_url_or_pdf_path column in queue
+  4. Unpaywall API (free, email-based) — best_oa_location.url_for_pdf
+  5. Semantic Scholar openAccessPdf
+
 Cách lấy Groq API key miễn phí:
   1. Vào console.groq.com → Sign up (chỉ cần email)
   2. API Keys → Create API Key
   3. Set env var: set GROQ_API_KEY=gsk_xxxxxx  (Windows CMD)
 
 Cách chạy (Windows CMD):
-  cd C:\path\to\PAPERS_IN_PHD_2026
+  cd C:\\path\\to\\PAPERS_IN_PHD_2026
   pip install groq pdfplumber requests
   set GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx
   python p6\\tools\\59_groq_extract_r.py --limit 50
@@ -42,10 +49,12 @@ DEFAULT_QUEUE   = BASE / f'p6/tools/results/extraction_queue_v2_20260521.csv'
 DEFAULT_PDF_DIR = BASE / 'p6/pdfs'
 DEFAULT_LOG     = BASE / f'p6/tools/results/groq_extract_log_{TODAY}.csv'
 
-MAX_TEXT_CHARS  = 24_000
-GROQ_MODEL      = 'llama-3.3-70b-versatile'
+MAX_TEXT_CHARS   = 24_000
+GROQ_MODEL       = 'llama-3.3-70b-versatile'
 DOWNLOAD_TIMEOUT = 30
-SLEEP_BETWEEN   = 1.2   # Groq free: 30 req/min → 2s safe
+SLEEP_BETWEEN    = 1.2   # Groq free: 30 req/min
+SLEEP_UNPAYWALL  = 0.5   # be polite to Unpaywall
+UNPAYWALL_EMAIL  = 'huongdt@vlute.edu.vn'
 
 # ── Math helpers ───────────────────────────────────────────────────────────────
 def r_from_t(t: float, n: int) -> float:
@@ -77,6 +86,38 @@ def download_pdf(url: str, dest: Path, timeout: int = DOWNLOAD_TIMEOUT) -> bool:
         return dest.stat().st_size > 5_000
     except Exception:
         return False
+
+def try_unpaywall(doi: str) -> str:
+    """Return best OA PDF URL from Unpaywall, or empty string."""
+    if not doi:
+        return ''
+    try:
+        url = f"https://api.unpaywall.org/v2/{doi}?email={UNPAYWALL_EMAIL}"
+        resp = requests.get(url, timeout=10,
+                            headers={'User-Agent': f'meta-analysis-research {UNPAYWALL_EMAIL}'})
+        if resp.status_code != 200:
+            return ''
+        data = resp.json()
+        best = data.get('best_oa_location') or {}
+        return best.get('url_for_pdf') or best.get('url') or ''
+    except Exception:
+        return ''
+
+def try_semantic_scholar(doi: str) -> str:
+    """Return OA PDF URL from Semantic Scholar."""
+    if not doi:
+        return ''
+    try:
+        url = f"https://api.semanticscholar.org/graph/v1/paper/{doi}?fields=openAccessPdf"
+        resp = requests.get(url, timeout=10,
+                            headers={'User-Agent': f'meta-analysis-research {UNPAYWALL_EMAIL}'})
+        if resp.status_code != 200:
+            return ''
+        data = resp.json()
+        oa = data.get('openAccessPdf') or {}
+        return oa.get('url') or ''
+    except Exception:
+        return ''
 
 def pdf_to_text(pdf_path: Path, max_chars: int = MAX_TEXT_CHARS) -> str:
     try:
@@ -141,11 +182,11 @@ RESPOND WITH ONLY VALID JSON (no markdown, no explanation):
   "notes": "<max 200 chars>"
 }"""
 
-def extract_r_via_groq(client: Groq, text: str, title: str) -> dict:
+def extract_r_via_groq(client: Groq, text: str, title: str, model: str) -> dict:
     user_msg = f"Paper title: {title}\n\nFull text (truncated to {MAX_TEXT_CHARS} chars):\n\n{text}"
     try:
         resp = client.chat.completions.create(
-            model=GROQ_MODEL,
+            model=model,
             max_tokens=512,
             temperature=0.0,
             messages=[
@@ -197,6 +238,8 @@ def main():
     parser.add_argument('--limit',    type=int, default=50)
     parser.add_argument('--dry-run',  action='store_true')
     parser.add_argument('--model',    default=GROQ_MODEL)
+    parser.add_argument('--no-unpaywall', action='store_true',
+                        help='Skip Unpaywall/S2 fallback lookup')
     args = parser.parse_args()
 
     api_key = os.environ.get('GROQ_API_KEY', '')
@@ -237,9 +280,11 @@ def main():
         and r.get('fulltext_screening_decision', '') != 'N'
     ][:args.limit]
 
+    use_unpaywall = not args.no_unpaywall
     print(f"Queue: {len(queue)} | Already done: {len(already_done)} | "
           f"To process: {len(candidates)} (limit={args.limit})")
-    print(f"Model: {args.model} | Dry-run: {args.dry_run}\n")
+    print(f"Model: {args.model} | Dry-run: {args.dry_run} | "
+          f"Unpaywall fallback: {use_unpaywall}\n")
 
     log_rows = []
     updated = 0
@@ -255,28 +300,68 @@ def main():
 
         # ── Resolve PDF ────────────────────────────────────────────────────────
         pdf_path = None
-        pdf_url  = manifest.get(seq, '') or src
+        pdf_source = ''
 
-        # Check if local PDF exists (from pdf_found column or local path)
+        # 1. Local PDF (pdf_filename column or already downloaded)
         local_pdf = qrow.get('pdf_filename', '').strip()
         if local_pdf:
             candidate = pdf_dir / local_pdf
             if candidate.exists():
                 pdf_path = candidate
+                pdf_source = 'local'
 
-        if pdf_path is None and pdf_url:
-            safe_name = re.sub(r'[^\w\-.]', '_', seq) + '.pdf'
+        # 2. OA manifest (keyed by seq)
+        if pdf_path is None:
+            manifest_url = manifest.get(seq, '')
+            if manifest_url:
+                safe_name = re.sub(r'[^\w\-.]', '_', seq) + '.pdf'
+                dest = pdf_dir / safe_name
+                if download_pdf(manifest_url, dest):
+                    pdf_path = dest
+                    pdf_source = 'manifest'
+                    print(f"  Manifest URL OK: {manifest_url[:70]}")
+
+        # 3. source_url_or_pdf_path from queue
+        if pdf_path is None and src and src.startswith('http'):
+            safe_name = re.sub(r'[^\w\-.]', '_', seq) + '_src.pdf'
             dest = pdf_dir / safe_name
-            if download_pdf(pdf_url, dest):
+            if download_pdf(src, dest):
                 pdf_path = dest
-                print(f"  Downloaded: {pdf_url[:70]}")
+                pdf_source = 'queue_url'
+                print(f"  Queue URL OK: {src[:70]}")
+
+        # 4. Unpaywall fallback (by DOI)
+        if pdf_path is None and doi and use_unpaywall:
+            time.sleep(SLEEP_UNPAYWALL)
+            unp_url = try_unpaywall(doi)
+            if unp_url and unp_url.startswith('http'):
+                safe_name = re.sub(r'[^\w\-.]', '_', seq) + '_unp.pdf'
+                dest = pdf_dir / safe_name
+                if download_pdf(unp_url, dest):
+                    pdf_path = dest
+                    pdf_source = 'unpaywall'
+                    print(f"  Unpaywall OK: {unp_url[:70]}")
+                else:
+                    print(f"  Unpaywall URL found but download failed: {unp_url[:60]}")
             else:
-                print(f"  Download failed: {pdf_url[:70]}")
+                print(f"  Unpaywall: no OA PDF for doi={doi[:40]}")
+
+        # 5. Semantic Scholar fallback
+        if pdf_path is None and doi and use_unpaywall:
+            s2_url = try_semantic_scholar(doi)
+            if s2_url and s2_url.startswith('http'):
+                safe_name = re.sub(r'[^\w\-.]', '_', seq) + '_s2.pdf'
+                dest = pdf_dir / safe_name
+                if download_pdf(s2_url, dest):
+                    pdf_path = dest
+                    pdf_source = 'semantic_scholar'
+                    print(f"  Semantic Scholar OK: {s2_url[:70]}")
 
         if pdf_path is None:
-            print(f"  SKIP: no PDF available for seq={seq}")
+            print(f"  SKIP: no PDF available (manifest={bool(manifest.get(seq))}, "
+                  f"doi={bool(doi)}, unpaywall={use_unpaywall})")
             log_rows.append({'seq': seq, 'title': title, 'year': year,
-                             'doi': doi, 'pdf_url': pdf_url,
+                             'doi': doi, 'pdf_url': src or manifest.get(seq, ''),
                              'status': 'NO_PDF', 'converted_r': '', 'n': '',
                              'conversion_formula': '', 'notes': '', 'error': ''})
             continue
@@ -286,26 +371,26 @@ def main():
         if text.startswith('PDF_READ_ERROR'):
             print(f"  SKIP: {text}")
             log_rows.append({'seq': seq, 'title': title, 'year': year,
-                             'doi': doi, 'pdf_url': pdf_url,
+                             'doi': doi, 'pdf_url': src or manifest.get(seq, ''),
                              'status': 'PDF_ERROR', 'converted_r': '', 'n': '',
                              'conversion_formula': '', 'notes': '', 'error': text})
             continue
 
         if args.dry_run:
-            print(f"  [DRY-RUN] PDF text {len(text)} chars — would send to Groq")
+            print(f"  [DRY-RUN] PDF text {len(text)} chars from {pdf_source} — would send to Groq")
             log_rows.append({'seq': seq, 'title': title, 'year': year,
-                             'doi': doi, 'pdf_url': pdf_url,
+                             'doi': doi, 'pdf_url': pdf_source,
                              'status': 'DRY_RUN', 'converted_r': '', 'n': '',
                              'conversion_formula': '', 'notes': '', 'error': ''})
             continue
 
         # ── Call Groq ──────────────────────────────────────────────────────────
-        result = extract_r_via_groq(client, text, title)
+        result = extract_r_via_groq(client, text, title, args.model)
 
         if 'error' in result:
             print(f"  ERROR: {result['error']}")
             log_rows.append({'seq': seq, 'title': title, 'year': year,
-                             'doi': doi, 'pdf_url': pdf_url,
+                             'doi': doi, 'pdf_url': pdf_source,
                              'status': 'API_ERROR', 'converted_r': '', 'n': '',
                              'conversion_formula': '', 'notes': '', 'error': result['error']})
             time.sleep(SLEEP_BETWEEN)
@@ -349,7 +434,7 @@ def main():
 
         log_rows.append({
             'seq': seq, 'title': title, 'year': year, 'doi': doi,
-            'pdf_url': pdf_url, 'status': status,
+            'pdf_url': pdf_source, 'status': status,
             'converted_r': str(final_r) if final_r else '',
             'n': str(n_val) if n_val else '',
             'conversion_formula': formula,
