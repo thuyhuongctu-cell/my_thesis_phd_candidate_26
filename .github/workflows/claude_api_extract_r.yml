@@ -6,7 +6,7 @@ on:
       queue_file:
         description: 'Extraction queue CSV (in p6/tools/results/)'
         required: true
-        default: 'extraction_queue_v2_20260521.csv'
+        default: 'extraction_queue_pdf_20260522.csv'
       manifest_file:
         description: 'Unpaywall OA manifest CSV (in p6/tools/results/). Leave empty to auto-use latest.'
         required: false
