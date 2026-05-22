@@ -1,0 +1,1056 @@
+---
+title: "Bibliometria4RA"
+author: "HRico"
+date: "22/3/2021"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## upload libraries
+
+```{r libraries, include=FALSE}
+library(bibliometrix)
+library(writexl)
+library(wordcloud2)
+library(stringr)
+library(broom)
+library(tidyverse)
+library(gplots)
+library(heatmaply)
+library(readxl)
+library(igraph)
+library(tm)
+```
+
+# Get the DataSets
+
+We get the data that was exported from WoS and Scopus. .bib extension is used from both data bases.
+
+```{r cargaDB}
+
+ file <- "Your Path/your_Scopus_filename.bib" 
+
+file2 <- "Your Path/your_WoS_filename.bib"
+
+```
+
+## Merge Datasets
+
+convert the data into data frames in order to merge both dataset in one.
+We use Bibliometrix packages. We get w_sDF as a bibliometrix object
+
+```{r merge}
+scopusDF <- convert2df(file = file, dbsource = "scopus", format = "bibtex")
+wosDF <- convert2df(file = file2, dbsource = "wos", format = "bibtex") 
+w_sDF <- mergeDbSources(scopusDF,wosDF, remove.duplicated = TRUE)
+```
+
+Data frame columns are named using the standard Clarivate Analytics WoS
+Field Tag codify.
+
+The main field tags are:
+
+| Field Tag | Description                                   |
+|-----------|-----------------------------------------------|
+| AU        | Authors                                       |
+| TI        | Document Title                                |
+| SO        | Publication Name (or Source)                  |
+| JI        | ISO Source Abbreviation                       |
+| DT        | Document Type                                 |
+| DE        | Authors' Keywords                             |
+| ID        | Keywords associated by SCOPUS or ISI database |
+| AB        | Abstract                                      |
+| C1        | Author Address                                |
+| RP        | Reprint Address                               |
+| CR        | Cited References                              |
+| TC        | Times Cited                                   |
+| PY        | Year                                          |
+| SC        | Subject Category                              |
+| UT        | Unique Article Identifier                     |
+| DB        | Bibliographic Database                        |
+
+## Cleaning
+
+We review and clean de merged dataframe. Human review is taken place
+
+-   Delete all raw whithout author in the field AU (field Tag = AU)
+-   Delete duplicated raws:
+ 
+  Publication year	/	Authors
+
+2019	RHR A;BERGER B;HESS T
+2020	ALTUNTAS Y;KOCAMAZ A;ULKGUN A
+2021	SLAUGHTER K;CHEN D
+
+
+
+```{r cleanning}
+# check references without Authors
+noAU_Rows<-which(w_sDF$AU=="NA N") 
+w_sDF<-w_sDF[-c(noAU_Rows),]
+
+ # find duplicated indexes
+dupDocs<-which(w_sDF$AU=="RHR A;BERGER B;HESS T") 
+
+# delete duplicated Reference
+w_sDF<-w_sDF[-c(dupDocs),] 
+```
+
+# Homogenization
+
+the objective is to homogenize the parts of the data frame that we obtain when performing a
+merge from WoS and Scopus databases. In the *CR* Tag the
+structure given to the part of the text that refers to the authors (AU) is different
+
+*Scopus: AU= 'Surname', 'Initials'.,* WoS: AU= 'Surname''Initials'.,
+
+This difference creates problems later on when using functions like
+**localCitations** or **histNetwork** in which you use the *SR* tag to
+perform those analyses. *SR* is a summary structure that it is used as pattern 
+in search queries within *CR*. *SR* characterizes the author (AU) with
+the WoS structure, so if we use a data frame merged between Scopus and WoS, 
+the analysis we get is not complete.
+
+The end of each reference is ";" in both cases.
+
+```{r homogenizing}
+library(stringr)
+
+w_sDF$CR <- str_replace_all(w_sDF$CR,",((?=\\s[:alpha:].,)|(?=\\s[:alpha:].[:alpha:].,))","")
+
+w_sDF_H <- w_sDF
+```
+
+## Exports the diferent data frames we built:
+
+
+**dataframe to excel** with this format allows us to load the dataframe
+in bilbioshiny() as a bibliometrix file and use all the analyses in that package. Very usefull to descriptive analysis.
+
+```{r DF2Biblioshiny, include=FALSE}
+# standardized
+write_xlsx(w_sDF_H,"your Path/RA_results.xlsx")
+
+# non standardized
+write_xlsx(w_sDF,"your path/RA_results2.xlsx")
+```
+
+
+# ----- RELATIONAL ANALISYS -----------------
+
+## Keyword analysis
+
+the objective is to perform a descriptive analysis of the keywords that represent the Robo Advisor research, based on our collection of documents.In the data frame that we are using, they are found in the following fields:
+
+-   TI: Document Titleo
+-   DE: Author Keywords
+-   ID: Keyword plus, Algorithm performed by bilbiometrix() to find the keywords in the titles of the cited references, besides in the refereces cited by the author.
+-   AB: Abstracts
+
+#### cleaning no relevant words
+
+Any term-word that include "robo-advi*","robo*" and "Advi*" is included into the stopwords list.
+We will use the function TermExtraction().
+
+##### termExtraction() description
+
+' Term extraction tool from textual fields of a manuscript
+
+It extracts terms from a text field (abstract, title, author's keywords,
+etc.) of a bibliographic data frame.
+
+-   @param **M** is a data frame obtained by the converting function
+    \code{\link{convert2df}}. It is a data matrix with cases
+    corresponding to articles and variables to Field Tag in the original
+    WoS or SCOPUS file.
+
+-   @param **Field** is a character object. It indicates the field tag
+    of textual data :
+
+-   \\tabular{lll}{
+
+-   \code{"TI"}\tab \\tab Manuscript title\cr
+
+-   \code{"AB"}\tab \\tab Manuscript abstract\cr
+
+-   \code{"ID"}\tab \\tab Manuscript keywords plus\cr
+
+-   \code{"DE"}\tab \\tab Manuscript author's keywords}
+
+
+
+## Building the  RA_STOPWORDS
+
+### 1- extraction of keywords
+
+we make a first extraction of the keywords from the tags TI,DE,AB to build with this list of words the stopwords and the thesaurus manually.
+
+Step 1. Extraction of raw terms: Using the function termExtraction of the package bibliometrix, we extract from the AB and the DE a list of relevant keywords about RA, which we will call throughout this work as RA-K. Compound terms have been extracted from up to a maximum of 3 simple words (ngrams = 1 to 3). 
+
+Step 2. Creation of RA-stopwords: When a bibliometric analysis based on keywords is carried out, having these stopwords in the preprocessing phase helps to obtain more focused results on the research topic, since all those words that they have no relevant meaning to the study. Considerating of this list allows greater visibility to be given to those terms that really add value and meaning to the subject being discussed. Thus, from the total of terms extracted in step 1, 1598 words or concepts have been obtained that were considered irrelevant for the analysis on RA  . Along with the stopwords that come by default in the bibliometrix package, all possible combinations of the terms Robo + Advi * have been included, since it is the initial query with which the database was obtained. The names of authors and countries have also been considered stopwords, since the analysis of both concepts has been carried out in the previous section.
+
+```{r raw term extraction from DE , AB tags}
+
+# Temp Data frame
+
+myDF <- w_sDF_H
+
+#load default stopwords
+sw <- stopwords("english") 
+
+RA_Keyword_DE <- termExtraction(myDF,Field="DE",remove.terms = sw)
+DE_Terms <- sort(table(unlist(strsplit(RA_Keyword_DE$DE_TM,split=";"))),decreasing = TRUE)
+DE_TermsDF <- as.data.frame(DE_Terms)
+
+# delete  "NA" rows in field "DE"
+DE_TermsDF <-  DE_TermsDF[DE_TermsDF$Var1!="NA",]
+
+# export to csv
+write.csv2(DE_TermsDF,file="your path/DE_Terms.csv")
+
+# extract list of terms into the tag "AB" and differente ngrams. ngrams = 1 to 3
+AB_Rawn1 <- termExtraction(myDF,Field="AB",ngrams = 1, remove.terms = sw)
+
+AB_Rawn1 <- sort(table(unlist(strsplit(AB_Rawn1$AB_TM,split=";"))),decreasing = TRUE)
+
+AB_Rawn1DF <- as.data.frame(AB_Rawn1)
+
+AB_Rawn2 <- termExtraction(myDF,Field="AB",ngrams = 2, remove.terms = sw)
+
+AB_Rawn2 <- sort(table(unlist(strsplit(AB_Rawn2$AB_TM,split=";"))),decreasing = TRUE)
+
+AB_Rawn2DF <- as.data.frame(AB_Rawn2)
+
+AB_Rawn3 <- termExtraction(myDF,Field="AB",ngrams = 3, remove.terms = sw)
+
+AB_Rawn3 <- sort(table(unlist(strsplit(AB_Rawn3$AB_TM,split=";"))),decreasing = TRUE)
+
+AB_Rawn3DF <- as.data.frame(AB_Rawn3)
+
+#build a table with all of termse
+Term_Raw <- rbind(DE_TermsDF,AB_Rawn1DF,AB_Rawn2DF,AB_Rawn3DF) 
+
+Term_Raw2<- rbind(DE_TermsDF,AB_Rawn1DF,AB_Rawn2DF) 
+
+#export to csv to manually build the RA Stopwords
+
+write.csv2(Term_Raw,file="your path/Raw_Terms.csv")
+
+```
+
+
+## Remove words
+
+. Building the final stopword list. RA_Stopwords.xlsx is the RA_Stopwords list built manually.
+
+```{r remove words, include=FALSE}
+
+sw <- stopwords("english") 
+RA_Stopwords <- read_excel("your path/RA_Stopwords.xlsx",  sheet = "Stopwords")
+
+RA_Stopwords <- c(RA_Stopwords$StopWords) # char vector
+# lowe case
+RA_Stopwords <- tolower(RA_Stopwords)
+
+# merge both stopwrds list
+
+remove.terms <- c(RA_Stopwords,sw)
+
+# uppercase
+remove.terms <- toupper(remove.terms)
+
+```
+
+
+DE --run termExtraction()
+
+we do a special analysis of the author keywords, repeating the term extraction but with the full removed word list
+
+```{r run analysis DE}
+myDF <- w_sDF_H
+
+
+
+RA_Keyword_DE <- termExtraction(myDF,Field="DE",remove.terms = remove.terms)
+DE_Terms <- sort(table(unlist(strsplit(RA_Keyword_DE$DE_TM,split=";"))),decreasing = TRUE)
+DE_TermsDF <- as.data.frame(DE_Terms)
+
+# Delete "NA" rows
+DE_TermsDF <-  DE_TermsDF[DE_TermsDF$Var1!="NA",]
+
+# export to csv. we will check it manually
+write.csv2(DE_TermsDF,file="your path/DE_Terms.csv")
+
+```
+
+
+## building thesaurus
+
+
+we prepare all the dictionaries of synonyms, this allows us to group the output of the function into conceptual blocks.
+
+- Step 3. Creation of RA-synonyms. This dictionary will facilitate the analysis of the relevance of the different topics covered in the RA research, by allowing all those words that refer to the same topic or concept to be grouped into families. Thus, after obtaining the list of RA-stopwords, all the terms of interest on RA have been extracted from the DE and AB, obtaining a total of 4018 words. Of these, the 471 RA-K have been selected, which are considered to represent all those topics of interest for the analysis of the RA (see Table A2 in the appendix). The RA-K has been grouped into 20 families or conceptual groups that, additionally, have been identified with the different phases of the IAds process, which will allow us to study the relevance of each of these phases in the research collected in the corpus.
+
+
+the first word of each string row is taken as the main word and the rest of the row are its synonyms.
+
+#Load de synonyms, RA_sinonimos.xlsx
+
+
+```{r Load synonyms, include=FALSE}
+library(readxl)
+
+RA_Sinonimos <- read_excel("your path/RA_sinonimos.xlsx",  sheet = "KeyWd_synonyms")
+
+
+```
+
+## transform into a char vector. we will need later
+
+
+```{r Synonyms}
+
+
+nCampos <- ncol(RA_Sinonimos) # number of fields
+
+
+#char vector
+synonyms_RA <- character()
+
+for(i in 1:nCampos){
+  
+  # get NA indexes
+  m <-  which(is.na(RA_Sinonimos[,i]))
+  
+  if(length(m)==0){
+    
+    z <- c(RA_Sinonimos[,i])
+    
+  } else {
+    # convert into a list
+    z <- c(RA_Sinonimos[,i][1:min(m)-1,]) 
+  }  
+  # convert into chart
+  z <- unlist(z) 
+  
+  myChar <- str_c(z,collapse = ";")  
+  
+  if(i==1){
+    synonyms_RA <- c(myChar)
+    
+  } else {
+    
+    synonyms_RA <- c(synonyms_RA,myChar)  
+    
+  }
+}
+
+# to upper case. The synonims list ready to use
+synonyms_RA <- toupper(synonyms_RA)
+
+```
+
+
+
+To see the relevance of the stopwords created, let's compare the frequency of the terms
+without and with stopwords. 
+
+```{r run analysis_AB }
+# AB --run termExtraction()
+
+# extract term with and whithout stopwords RA. ngrams = 1 to 2.
+
+
+AB_Rawn1 <- termExtraction(myDF,Field="AB",ngrams = 1, remove.terms = sw)
+
+AB_Rawn1 <- sort(table(unlist(strsplit(AB_Rawn1$AB_TM,split=";"))),decreasing = TRUE)
+
+AB_Rawn1DF <- as.data.frame(AB_Rawn1)
+
+AB_Rawn2 <- termExtraction(myDF,Field="AB",ngrams = 2, remove.terms = sw)
+
+AB_Rawn2 <- sort(table(unlist(strsplit(AB_Rawn2$AB_TM,split=";"))),decreasing = TRUE)
+
+AB_Rawn2DF <- as.data.frame(AB_Rawn2)
+
+
+
+#merge al in one Df to be shown in a wordcloud graph
+AB_Raw <- rbind(AB_Rawn1DF,AB_Rawn2DF)
+
+# we extract the terms without grouping by synonyms. we then use it to know the repetitions of each term without grouping. ngram=1 to 2
+
+RA_Keyword_AB_Rawn1 <- termExtraction(myDF,Field="AB",ngrams = 1, remove.terms = remove.terms)
+
+AB_TermsRawn1 <- sort(table(unlist(strsplit(RA_Keyword_AB_Rawn1$AB_TM,split=";"))),decreasing = TRUE)
+
+AB_TermsRawn1DF <- as.data.frame(AB_TermsRawn1)
+
+RA_Keyword_AB_Rawn2 <- termExtraction(myDF,Field="AB",ngrams = 2, remove.terms = remove.terms)
+
+AB_TermsRawn2 <- sort(table(unlist(strsplit(RA_Keyword_AB_Rawn2$AB_TM,split=";"))),decreasing = TRUE)
+
+AB_TermsRawn2DF <- as.data.frame(AB_TermsRawn2)
+
+
+#group all in 1 Data Frame
+AB_terms.noSin <- rbind(AB_TermsRawn1DF,AB_TermsRawn2DF)
+
+#export to csv, we will use it later with data4bubble and bubble vertices 
+write.csv2(AB_terms.noSin,file="your path/AB_Terms_No_Sin.csv")
+
+
+# Repeat the same work but using the RA_synonyms. we extract terms grouped by synonyms
+RA_Keyword_AB_n1 <- termExtraction(myDF,Field="AB",ngrams = 1, remove.terms = remove.terms,synonyms = synonyms_RA)
+
+AB_Terms_n1 <- sort(table(unlist(strsplit(RA_Keyword_AB_n1 $AB_TM,split=";"))),decreasing = TRUE)
+
+AB_TermsDF_n1 <- as.data.frame(AB_Terms_n1)
+
+RA_Keyword_AB_n2 <- termExtraction(myDF,Field="AB",ngrams = 2, remove.terms = remove.terms,synonyms = synonyms_RA)
+
+AB_Terms_n2 <- sort(table(unlist(strsplit(RA_Keyword_AB_n2 $AB_TM,split=";"))),decreasing = TRUE)
+
+AB_TermsDF_n2 <- as.data.frame(AB_Terms_n2)
+
+AB_TermsDF <- rbind(AB_TermsDF_n1,AB_TermsDF_n2)
+
+#export to csv
+write.csv2(AB_TermsDF,file="your path/AB_Terms.csv")
+
+
+```
+
+
+### wordcloud graphs
+
+We emphasize the relevance of doing the analysis with stopwords and synonyms. We focus on the keywords of the abstracts(AB)
+
+```{r wordCloud plot}
+
+
+#AB cloud
+
+# we work with the top 200 words
+
+
+# the top 200 words without synonyms nor RA stopwords
+AB_Top_Term_raw <-  AB_Raw[1:200,] 
+
+wordcloud2(AB_Top_Term_raw,size = 0.75, minSize = 0.1, gridSize =  0,
+    fontFamily = 'Segoe UI', fontWeight = 'bold',
+    color = 'random-light', backgroundColor = "white",
+    minRotation = -pi/4, maxRotation = pi/4, shuffle = TRUE,
+    rotateRatio = 0.4, shape = 'circle', ellipticity = 0.65,
+    widgetsize = NULL, figPath = NULL, hoverFunction = NULL)
+
+# without synonyms but with RA Stopwords 
+AB_Top_Term_noSin <- AB_terms.noSin[1:200,]
+
+
+wordcloud2(AB_Top_Term_noSin,size = 0.4, minSize = 0.1, gridSize =  0,
+    fontFamily = 'Segoe UI', fontWeight = 'bold',
+    color = 'random-light', backgroundColor = "white",
+    minRotation = -pi/4, maxRotation = pi/4, shuffle = TRUE,
+    rotateRatio = 0.4, shape = 'circle', ellipticity = 0.65,
+    widgetsize = NULL, figPath = NULL, hoverFunction = NULL)
+
+
+
+# With synonyms and RA stopwordswith more than 24 frequency.
+AB_Top_Term <- AB_TermsDF[AB_TermsDF$Freq>24,]
+
+wordcloud2(AB_Top_Term,size = 0.4, minSize = 0.2, gridSize =  0,
+    fontFamily = 'Segoe UI', fontWeight = 'bold',
+    color = 'random-dark', backgroundColor = "white",
+    minRotation = -pi/4, maxRotation = pi/4, shuffle = TRUE,
+    rotateRatio = 0.4, shape = 'circle', ellipticity = 0.65,
+    widgetsize = NULL, figPath = NULL, hoverFunction = NULL)
+
+```
+
+## repreentation of the RA_synonym thesaurus.
+
+
+```{r Synonyms description through a bubble graph}
+
+# libraries
+library(ggraph)
+library(igraph)
+library(broom)
+library(tidyverse)
+
+
+library(dplyr)
+library(readxl)
+library(viridis)
+# Add the data.tree library
+library(data.tree)
+library(ggrepel)
+
+
+
+# load data
+
+# to complete this data I have used the output AB_Terms, which has already been filtered with stopwords and synonyms
+
+my_Sinonimos <- read_excel("your path/RA_sinonimos.xlsx",sheet = "Data4Bubble")
+
+my_vertices <- read_excel("your path/RA_sinonimos.xlsx",sheet = "BubbleVertices")
+
+edges.1 <- my_Sinonimos[,1:2]
+edges.1 <- as.data.frame(edges.1) #convierto a data frame
+
+my_vertices <- as.data.frame(my_vertices)
+
+# Transform it in a 'tree' format
+tree <- FromDataFrameNetwork(edges.1)
+
+# Then I can easily get the level of each node, and add it to the initial data frame:
+mylevels.1 <- data.frame( name=tree$Get('name'), level=tree$Get("level") )
+my_vertices <- my_vertices %>% 
+  left_join(., mylevels.1, by=c("name"="name"))
+
+# Now we can add label for level1 and 2 only for example:
+my_vertices <- my_vertices %>% 
+  mutate(new_label=ifelse(level==2, Shortname, NA))
+
+
+# Now we can add label for level1 and 2 only for example:
+my_vertices <- my_vertices %>% 
+  mutate(new_label_2=ifelse(level==3, Shortname, NA))
+
+# build the graph objet
+ mygraph.1 <- graph_from_data_frame( edges.1, vertices=my_vertices )
+
+pp <-  ggraph(mygraph.1, layout = 'circlepack', weight=size) + 
+  geom_node_circle(aes(fill = as.factor(depth), color = as.factor(depth) )) +
+    scale_fill_manual(values=c("0" = "white", "1" = "white", "2" =  mako(3)[2], "3"=mako(3)[3])) +
+  scale_color_manual( values=c("0" =  "white", "1" = "lightblue", "2" = "black", "3"="black") ) +
+  geom_node_label( aes(label=new_label_2), vjust="bottom",size=3.5, repel = TRUE) +
+  theme_void() +
+  theme(legend.position="TRUE", plot.margin = unit(rep(0,4), "cm"))
+
+
+pp
+
+
+```
+
+## Relational analysis
+
+### we define the relation between synonyms and clusters
+
+```{r networkGraph synonims}
+library(readxl)
+library(ggraph)
+library(igraph)
+
+
+cluster.family.edges  <- read_excel("your path/RA_sinonimos.xlsx",sheet = "networkGraph")
+
+cluster.family.vertices  <- read_excel("your path/RA_sinonimos.xlsx",sheet = "netGraphVer")
+
+#defining the data frame containing the links
+cluster.family.edges <- as.data.frame(cluster.family.edges)
+cluster.family.vertices <- as.data.frame(cluster.family.vertices)
+
+
+#------------------------------------------------------------------------------------------
+
+
+# building the graph object
+ mygraph.2 <- graph_from_data_frame( cluster.family.edges, vertices=cluster.family.vertices )
+
+pp <- ggraph(mygraph.2, layout="stress")+
+ geom_edge_link0(aes(edge_colour="lightblue")) +
+  geom_node_point(aes(fill="clu",size=cluster.family.vertices$size),shape=21)+
+  geom_node_label(aes(filter = textSize>=3 ,label=Shortname, size=textSize*8),repel = TRUE)+
+  geom_node_text(aes(filter = textSize==2 ,label=Shortname, size=textSize*10, fontface="bold"),repel = TRUE)+
+   scale_fill_brewer(palette = "Accent")+
+  coord_fixed() +
+  theme_void()+
+  theme(legend.position = "FALSE")
+pp
+
+```
+
+
+## cleanning no relevant abstracts
+
+after reading the abstracts we realize that some of them are not relevant for the study, for example the paper is a biblimetric analysis so it is just a descriptive analysis of the research. The issues treated in those papers are not included in any cluster.
+
+```{r abstracts cleanning}
+
+# delete the references where no abstract is found
+noAB_Rows<-which(is.na(w_sDF$AB))
+w_sDF_ABClean<-w_sDF[-c(noAB_Rows),]
+
+AB_clean <- cbind.data.frame(w_sDF_ABClean$PY,w_sDF_ABClean$TI,w_sDF_ABClean$AU,w_sDF_ABClean$AB)
+
+write_xlsx(AB_clean,"your path/Abstract_clean.xlsx")
+```
+
+
+### Buuilding the author/subject heatmap:
+
+----------------------------------------------------------------------------
+
+
+```{r upload data and build data frame}
+# import from excel
+
+mapa_calor_AU <- read_excel("your path/mapa_calor_AU 210522.xlsx", sheet = "AU_Clust") 
+
+#we count the number of fields you have in the df map_heat_AU to know how many Themes we have.
+nCamposTemas <- ncol(mapa_calor_AU)
+
+
+# I create the data frame for the ABs, columns 6-24 is where the topics are identified.
+mapa_calor_AB <- cbind(Id_AB=mapa_calor_AU$id_AB,TI=mapa_calor_AU$TI,mapa_calor_AU[,6:24])
+
+# remove the title of the DF to be plotted
+myvars <- names(mapa_calor_AB) %in% c("TI")
+data.AB <- mapa_calor_AB[!myvars] 
+
+# replace NA by zero
+data.AB[is.na(data.AB)] <- 0 
+
+
+
+# 18 topics
+data.AB<- data.AB[,2:20] 
+
+
+
+# from the matrix containing all the data I obtain the subgroups of abstracts that have a 1 in one of the topics included in each cluster.
+c.1 <- apply(data.AB[,1:4],1,sum)
+c.2 <- apply(data.AB[,5:8],1,sum)
+c.3 <- data.AB[,9]
+c.4 <- apply(data.AB[,10:14],1,sum)
+c.5 <- apply(data.AB[,15:19],1,sum)
+
+
+# I create new extended Df for each cluster
+data.AB.c.x <- cbind(data.AB,c.1,c.2,c.3,c.4,c.5)
+
+# I create a new column with the sum of all the clusters to detect those ABs that have none
+C.X <- apply(data.AB.c.x[,20:24],1,sum)
+
+# add column to the complete data frame
+
+data.AB.c.x <- cbind(data.AB.c.x,C.X)
+
+# I eliminate those rows whose C.X is equal to zero because they are abstracts that are not included in any cluster.
+
+# indexing
+data.AB.Clean <- which(data.AB.c.x$C.X!=0)
+
+# data selection
+data.AB.c.x <- data.AB.c.x[c(data.AB.Clean),] # DF ready to work on it
+
+
+```
+
+## Heatmap graph
+
+```{r df para mapa calor AB}
+
+library(bipartite)
+
+
+# change to matrix
+data.AB.Clean <- as.matrix(data.AB.Clean)
+
+
+par(cex.main=1, cex.lab=0.7, cex.axis=0.7)
+
+heatmap.2(t(data.AB),
+          margins = c(5,11),
+          Colv = TRUE, Rowv = FALSE, # remove dendrogram
+          col = colorRampPalette(c("white","white","darkblue")),
+          dendrogram = "col",
+          density.info = "none",
+          trace="both",
+          tracecol = "lightblue",
+        rowsep=c(4,8,9,14),
+        sepcolor="red",
+        
+        lhei = c(1,7),lwid = c(0.5,4),
+        xlab="Abstract",
+        ylab="",
+
+        key=FALSE,
+      offsetRow = 0
+         
+        )
+
+
+```
+
+##individual heatmap by cluster
+
+
+```{r heatmap by cluster}
+
+
+# -------- cluster 1 -----------------------------------------
+idx.c <- which(data.AB.c.x$c.1>0)
+data.AB.c.1 <- data.AB.c.x[c(idx.c),]
+
+# to matrix ready for heatmap.2
+
+data.AB.c.1 <- as.matrix(data.AB.c.1[,1:19])
+
+# HEATMAP C1
+
+
+x_title <- paste(nrow(data.AB.c.1)," abstracts in C1")
+
+  heatmap.2(t(data.AB.c.1[,1:19]),
+          margins = c(5,11),
+          Colv = TRUE, Rowv = FALSE, # remove dendrogram
+          col = colorRampPalette(c("white","white","darkblue")),
+          dendrogram = "col",
+          density.info = "none",
+          trace="both",
+          tracecol = "lightblue",
+          linecol = "white",
+        rowsep=c(4,8,9,14),
+        sepcolor="red",
+        lhei = c(1,7),lwid = c(0.5,4),
+        xlab=x_title,
+        ylab="Synonyms",
+        key=FALSE,
+      offsetRow = 0
+          )
+
+# -------- cluster 2 -----------------------------------------
+idx.c <- which(data.AB.c.x$c.2>0)
+data.AB.c.2 <- data.AB.c.x[c(idx.c),]
+
+
+
+data.AB.c.2 <- as.matrix(data.AB.c.2[,1:19])
+
+
+x_title <- paste(nrow(data.AB.c.2)," abstracts in C2")
+
+  heatmap.2(t(data.AB.c.2),
+          margins = c(5,11),
+          Colv = TRUE, Rowv = FALSE, # remove dendrogram
+          col = colorRampPalette(c("white","white","darkblue")),
+          dendrogram = "col",
+          density.info = "none",
+          trace="both",
+          tracecol = "lightblue",
+          linecol = "white",
+        rowsep=c(4,8,9,14),
+        sepcolor="red",
+        lhei = c(1,7),lwid = c(0.5,4),
+        xlab=x_title,
+        ylab="Synonyms",
+        key=FALSE,
+      offsetRow = 0
+          )
+  
+  # -------- cluster 3 -----------------------------------------
+idx.c <- which(data.AB.c.x$c.3>0)
+data.AB.c.3 <- data.AB.c.x[c(idx.c),]
+
+
+data.AB.c.3 <- as.matrix(data.AB.c.3[,1:19])
+
+
+x_title <- paste(nrow(data.AB.c.3)," abstracts in C3")
+
+  heatmap.2(t(data.AB.c.3),
+          margins = c(5,11),
+          Colv = TRUE, Rowv = FALSE, # remove dendrogram
+          col = colorRampPalette(c("white","white","darkblue")),
+          dendrogram = "col",
+          density.info = "none",
+          trace="both",
+          tracecol = "lightblue",
+          linecol = "white",
+        rowsep=c(4,8,9,14),
+        sepcolor="red",
+        lhei = c(1,7),lwid = c(0.5,4),
+        xlab=x_title,
+        ylab="Synonyms",
+        key=FALSE,
+      offsetRow = 0
+          )
+  
+ # -------- cluster 4 -----------------------------------------
+idx.c <- which(data.AB.c.x$c.4>0)
+data.AB.c.4 <- data.AB.c.x[c(idx.c),]
+
+
+data.AB.c.4 <- as.matrix(data.AB.c.4[,1:19])
+
+
+x_title <- paste(nrow(data.AB.c.4)," abstracts in C4")
+
+  heatmap.2(t(data.AB.c.4),
+          margins = c(5,11),
+          Colv = TRUE, Rowv = FALSE, # remove dendrogram
+          col = colorRampPalette(c("white","white","darkblue")),
+          dendrogram = "col",
+          density.info = "none",
+          trace="both",
+          tracecol = "lightblue",
+          linecol = "white",
+        rowsep=c(4,8,9,14),
+        sepcolor="red",
+        lhei = c(1,7),lwid = c(0.5,4),
+        xlab=x_title,
+        ylab="Synonyms",
+        key=FALSE,
+      offsetRow = 0
+          )  
+  
+ # -------- cluster 5 -----------------------------------------
+idx.c <- which(data.AB.c.x$c.5>0)
+data.AB.c.5 <- data.AB.c.x[c(idx.c),]
+
+
+data.AB.c.5 <- as.matrix(data.AB.c.5[,1:19])
+
+
+x_title <- paste(nrow(data.AB.c.5)," abstracts in C5")
+
+  heatmap.2(t(data.AB.c.5),
+          margins = c(5,11),
+          Colv = TRUE, Rowv = FALSE, # remove dendrogram
+          col = colorRampPalette(c("white","white","darkblue")),
+          dendrogram = "col",
+          density.info = "none",
+          trace="both",
+          tracecol = "lightblue",
+        rowsep=c(4,8,9,14),
+        sepcolor="red",
+        lhei = c(1,7),lwid = c(0.5,4),
+        xlab=x_title,
+        ylab="Synonyms",
+        key=FALSE,
+      offsetRow = 0
+          )  
+```
+
+## Authors heatmap
+
+```{r mapa calor autores- Datos}
+# create single author list from the dataframe with abstracts and topics
+listaAU <- str_split(as.character(mapa_calor_AU$AU), ";")
+
+nAU <- lengths(listaAU) # number of authors per AB
+myAU <- unlist(listaAU) # vector of authors
+  
+myAU <- unique(myAU) # single author vector
+
+nUnqAU <- length(myAU) # number of unique authors
+
+
+
+# we will assign to each author an index in which we will identify in which articles of the DF mapa_calor_AU appears.
+
+nAB <- nrow(mapa_calor_AU) #  abstracts
+
+#  AU/Topics matrix
+AUThemMtx <- data.frame(mapa_calor_AU[,6:24])# lfirst 4 fields are not used
+
+AUThemMtx[is.na(AUThemMtx)] <- 0 #we change NA to zero to be able to sum the columns
+
+
+# I create a matrix of zeros to add up the partial results.
+myTempMatrix <- data.frame(matrix(0,nUnqAU, ncol(AUThemMtx)))
+
+colnames(myTempMatrix) <- colnames(AUThemMtx)
+
+# start allocation loop
+
+for(i in 1: nUnqAU){
+  
+   # I get the index where the authors are, with the grepl function I find the partial matching between the characters of the AU column.
+  idx <-  which(grepl(myAU[i],mapa_calor_AU$AU))
+  
+  # I have to sum by column each row of idx
+  
+  a <- AUThemMtx[c(idx),] # I get the subset referring to the author
+  aSum <- colSums(a)      # sum of all columns
+  
+  # I add the results to the author's row
+  myTempMatrix[i,] <- myTempMatrix[i,]+aSum 
+  
+}
+
+# data frame with unique authors and the topics they have dealt with
+AU_Tema <- data.frame(myAU,myTempMatrix)
+
+#I order the topics by the defined clusters, in each topic name I have added, at the beginning, its cluster number from 1 to 5, so when I order them I group them by cluster.
+
+AU_Tema_ord <-AU_Tema[,2:20] # keep topic columns
+
+AU_Tema_ord <- AU_Tema_ord[,order(colnames(AU_Tema_ord))] # las ordeno por nombre del tema
+
+AU_Tema_ord <- data.frame(myAU,AU_Tema_ord)
+
+AUThemMtx_ord <- AUThemMtx[,order(colnames(AUThemMtx))]
+
+```
+
+We generate the graphs for author analysis
+
+```{r AU graph}
+
+
+data <- AU_Tema 
+
+dataOrd <- AU_Tema_ord
+
+rownames(data) <- data[,1] # unique authors as row names
+rownames(dataOrd) <- dataOrd[,1]
+
+
+data <- data[,2:20] 
+dataOrd <- dataOrd[,2:20]
+
+
+colnames(data) <- colnames(AUThemMtx)
+colnames(dataOrd) <- colnames(AUThemMtx_ord)
+
+data.m <- as.matrix(data)
+dataOrd.m<- as.matrix(dataOrd)
+
+
+
+# We added 5 columns representing each cluster to do the analysis by cluster instead of cluster and family.
+
+dataOrd$C1 <- rowSums(dataOrd[,1:4])
+dataOrd$C2 <- rowSums(dataOrd[,5:8])
+dataOrd$C3 <- dataOrd[,9]
+dataOrd$C4 <- rowSums(dataOrd[,10:15])
+dataOrd$C5 <- rowSums(dataOrd[,16:19])
+
+
+au_clust <- dataOrd[,20:24]
+au_clust.m <- as.matrix(au_clust)
+
+# we plot the relationship between authors and clusters
+library(igraph)
+
+
+
+# network chart between authors and clusters
+net <- graph_from_incidence_matrix(au_clust.m)
+
+V(net)$color <- ifelse(V(net)$type, "lightblue", "salmon")
+V(net)$shape <- ifelse(V(net)$type, "circle", "none")
+V(net)$label.cex <- ifelse(V(net)$type, 1, 0.5)
+E(net)$color <- "gray"
+E(net)$color <- ifelse(E(net)$color==top20AU$Author,"red")
+
+plot(net, vertex.size=10, vertex.label.color="black", 
+     edge.lty=2, edge.color="gray", 
+     main="Author relations with Cluster")
+
+
+# heatmap with families/clusters and authors
+
+par(cex.main=1, cex.lab=0.7,cex.axis=2)
+
+heatmap.2(t(dataOrd.m),
+          margins = c(5,11),
+          Colv = TRUE, Rowv = FALSE, # remove dendrogram
+          col = colorRampPalette(c("white","blue","darkblue")),
+          dendrogram = "none",
+          density.info = "none",
+        trace="none",
+        rowsep=c(4,9,10,15),
+        sepcolor="red",
+        lhei = c(5,15),lwid = c(3,15),
+        xlab="Author",
+        ylab="Theme",
+        main="heatmap AU/Theme"
+      )
+
+
+```
+
+### heatmap top 20 autores
+
+as we have so many authors, the graph does not show very well the
+concentration of authors/topics. Let's redo the heatmap but only for the top 20 AU.
+I need to get the top 20 authors from the bibliometrix results.
+
+
+```{r 20TopAU heatmap}
+
+library(bipartite)
+
+# I import the top 20 authors, I could generate them with the Hindex function of the bibliometrix package, but for now I import them from excel (I got them with biblioshiny).
+
+top20AU <- read_excel("yout path/top20AU.xlsx")
+
+myTop20AU_Tema <- AU_Tema_ord[AU_Tema_ord$myAU %in% top20AU$Author,]
+
+
+data20 <- myTop20AU_Tema
+
+rownames(data20) <- data20[,1] 
+
+
+data20 <- data20[,2:20]
+
+colnames(data20) <- colnames(AUThemMtx_ord)
+
+
+
+data20$C1 <- rowSums(data20[,1:4])
+data20$C2 <- rowSums(data20[,5:8])
+data20$C3 <- data20[,9]
+data20$C4 <- rowSums(data20[,10:14])
+data20$C5 <- rowSums(data20[,15:19])
+
+au20_clust <- data20[,20:24]
+au20_clust.m <- as.matrix(au20_clust)
+
+
+
+
+# we plot the relationship between authors and clusters
+
+plotweb(au20_clust.m, labsize = 1, arrow = "no", col.interaction = "lightblue", 
+        col.high = "tomato", col.low = "grey80" )
+
+# calculating the modules
+mod20 <- computeModules(au20_clust.m)
+pp <- plotModuleWeb(mod20)
+
+
+par(cex.main=1, cex.lab=0.7,cex.axis=2)
+
+
+heatmap.2(t(au20_clust.m),
+          margins = c(10,5),
+          Colv = TRUE, Rowv = FALSE, # remove dendrogram
+          col = colorRampPalette(c("white","blue","darkblue")),
+          dendrogram = "col",
+          density.info = "none",
+          trace="both",
+        rowsep=c(4,9,10,15),
+        sepcolor="red",
+        lhei = c(5,15),lwid = c(3,15),
+        xlab="",
+        ylab="",
+        main="heatmap 20 AU/Theme"
+        )
+
+```

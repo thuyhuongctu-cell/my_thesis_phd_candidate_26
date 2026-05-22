@@ -1,0 +1,26 @@
+library(bibliometrix)
+library(xlsx)
+library(bibliometrixData)
+
+##Importing Scopus Dataset
+scopus_data <- convert2df("Scopus.bib", dbsource="scopus", format = "bibtex")
+
+##Importing WOS Dataset
+wos_data <- convert2df("WOS.bib", dbsource="wos", format = "bibtex")
+
+
+((((#Combining txt files
+big_txt <- c(readLines("kmone.txt"), "\n", readLines("kmtwo.txt"), "\n", readLines("kmthree.txt"))
+writeLines(big_txt,"big_txt.txt")
+
+##Importing Web of Science Dataset
+web_data &lt- convert2df("big_txt.txt")
+
+.......)))))
+
+##Combining both datasets
+combined_final <- mergeDbSources(wos_data, scopus_data, remove.duplicated = T)
+
+
+##Exporting Files
+write.xlsx(combined_final, "combined_final.xlsx")
