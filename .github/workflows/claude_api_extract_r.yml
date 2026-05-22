@@ -33,6 +33,7 @@ jobs:
         with:
           ref: claude/edit-vietnamese-academic-standards-xcAmn
           token: ${{ github.token }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -41,6 +42,17 @@ jobs:
 
       - name: Install dependencies
         run: pip install anthropic pdfplumber requests
+
+      - name: Check ANTHROPIC_API_KEY
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "ERROR: ANTHROPIC_API_KEY secret is not set."
+            echo "Add it at: Settings → Secrets and variables → Actions → New repository secret"
+            exit 1
+          fi
+          echo "API key present (${#ANTHROPIC_API_KEY} chars)"
 
       - name: Create PDF directory
         run: mkdir -p p6/pdfs
@@ -129,12 +141,8 @@ for k,v in sorted(c.items(), key=lambda x:-x[1]):
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin claude/edit-vietnamese-academic-standards-xcAmn 2>&1 || true
           git add p6/tools/results/fulltext_to_extraction_tracker_v3.csv || true
           git add p6/tools/results/claude_extract_log_*.csv || true
-          if git diff --cached --quiet; then
-            echo "Nothing to commit."
-          else
+          git diff --cached --quiet && echo "Nothing to commit." || \
             git commit -m "feat(p6): Claude API r-extraction batch [$(date +%Y%m%d)]"
-            git push origin claude/edit-vietnamese-academic-standards-xcAmn || echo "Push failed — see artifacts."
-          fi
+          git push origin claude/edit-vietnamese-academic-standards-xcAmn || echo "Push failed — see artifacts."
