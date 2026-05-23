@@ -150,8 +150,8 @@ Mô hình tuyến tính cơ sở (M0) xác nhận rằng FSTS một mình không
 Thêm TCI như tác động chính (M6: β = +0,321, p < ,001) nâng adjR² từ ,015 lên ,024. Mô hình tương tác M7 thêm FSTS×TCI và FSTS²×TCI. Kết quả cho thấy:
 
 - Tác động chính TCI: β = +0,344 (p < ,001), tức TCI cao hơn nâng cao hiệu quả cơ sở
-- FSTS×TCI: β = −0,144 (NS), tương tác nhánh lên không có ý nghĩa thống kê
-- FSTS²×TCI: β = −0,137 (NS trong M7; vẫn NS trong M8, p = ,129)
+- FSTS×TCI: $\beta = −0.144$ (NS), tương tác nhánh lên không có ý nghĩa thống kê
+- FSTS²×TCI: $\beta = −0.137$ (NS trong M7; vẫn NS trong M8, p = ,129)
 
 Kiểm định F chung cho hai số hạng tương tác TCI không có ý nghĩa thống kê qua M7–M9. Hình chữ U ngược vẫn được xác nhận trong M7 (TP = 33,9%, LM p < ,001). Tăng một độ lệch chuẩn TCI nâng năng suất lao động lên exp(0,344) − 1 ≈ 41% tại mức FSTS trung bình, một hiệu ứng mức độ lớn và có ý nghĩa thực tiễn đáng kể. Sự dốc hơn của đường cong được dự đoán bởi H2 không xuất hiện trong mẫu mở rộng này.
 
@@ -169,7 +169,7 @@ Khi DAI được thêm vào M7, tác động chính của DAI là dương tính 
 
 *Bảng 2, Mô hình M9.*
 
-Kinh nghiệm nhà quản lý (β = +0,007, p = ,026) và nhà quản lý nữ cấp cao (β = +0,185, p < ,001) đều nâng cao hiệu quả doanh nghiệp độc lập với FSTS trong M9. Hiệu ứng kinh nghiệm ngụ ý khoảng 0,7% năng suất lao động cao hơn trên mỗi năm kinh nghiệm ngành bổ sung; hiệu ứng nhà quản lý nữ cấp cao ngụ ý khoảng 20% phần bù hiệu quả (exp(0,185) − 1 ≈ 20%). Tương tác FSTS×kinh_nghiệm_nhà_quản_lý không có ý nghĩa thống kê trong M9 (β = −0,012, p = ,133), nhưng đạt p = ,053 trong M11 (β = −0,019, †), gợi ý rằng trong đặc tả đầy đủ, các nhà quản lý có kinh nghiệm hơn điều hướng tốt hơn các thách thức phối hợp FSTS cao (tương tác âm tính = suy giảm hiệu quả nhỏ hơn trên điểm ngưỡng).
+Kinh nghiệm nhà quản lý (β = +0,007, p = ,026) và nhà quản lý nữ cấp cao (β = +0,185, p < ,001) đều nâng cao hiệu quả doanh nghiệp độc lập với FSTS trong M9. Hiệu ứng kinh nghiệm ngụ ý khoảng 0,7% năng suất lao động cao hơn trên mỗi năm kinh nghiệm ngành bổ sung; hiệu ứng nhà quản lý nữ cấp cao ngụ ý khoảng 20% phần bù hiệu quả (exp(0,185) − 1 ≈ 20%). Tương tác FSTS×kinh_nghiệm_nhà_quản_lý không có ý nghĩa thống kê trong M9 ($\beta = −0.012$, p = ,133), nhưng đạt p = ,053 trong M11 ($\beta = −0.019$, †), gợi ý rằng trong đặc tả đầy đủ, các nhà quản lý có kinh nghiệm hơn điều hướng tốt hơn các thách thức phối hợp FSTS cao (tương tác âm tính = suy giảm hiệu quả nhỏ hơn trên điểm ngưỡng).
 
 **H4 được ủng hộ một phần.** Kinh nghiệm nhà quản lý cấp cao và quản lý nữ cải thiện hiệu quả doanh nghiệp (xác nhận hiệu ứng mức độ). Hiệu ứng điều tiết đường cong của kinh nghiệm nhà quản lý hiện diện ở mức ranh giới trong M11 nhưng vắng mặt trong M9; chúng tôi giải thích đây là phát hiện thứ cấp cần tái hiện.
 
@@ -179,7 +179,7 @@ Kinh nghiệm nhà quản lý (β = +0,007, p = ,026) và nhà quản lý nữ c
 
 Tác động chính nhóm ICRV (β = +0,763, p < ,001) cho thấy, khi kiểm soát TCI, DAI và đặc điểm doanh nghiệp, mỗi bậc tiến lên thang đo ICRV (từ Nhóm I đến Nhóm VI, tức từ thể chế mạnh hơn đến yếu hơn) tương quan với mức năng suất lao động cao hơn khoảng 115% (exp(0,763) − 1 ≈ 115%). Hệ số ICRV *dương tính* phản trực giác này phản ánh rằng doanh số-trên-mỗi-lao-động danh nghĩa cao hơn ở các nền kinh tế có mức giá thấp hơn (điển hình của các nền kinh tế tiên phong/đang nổi), và FE quốc gia-năm không được đưa vào M10 để bảo tồn chế độ thể chế như nhân tố điều tiết trọng tâm.
 
-Liên quan hơn cho H5 là các số hạng tương tác: FSTS×ICRV (β = +1,762, p < ,001) và FSTS²×ICRV (β = −2,746, p < ,001). Điều này cho thấy độ dốc lên của đường cong I–P dốc hơn ở các nền kinh tế thể chế yếu hơn (nhóm ICRV cao hơn). Tuy nhiên, độ dốc xuống cũng vậy, có nghĩa là đỉnh của hình chữ U ngược xảy ra ở mức cường độ xuất khẩu thấp hơn trong các nền kinh tế thể chế mạnh hơn (số ICRV thấp hơn) và rõ ràng hơn trong các nền kinh tế thể chế yếu hơn. Phân tách theo nhóm ICRV: với các nền kinh tế Nhóm I (Advanced Innovation, Đổi mới tiên tiến), điểm ngưỡng ước tính là khoảng 28%; với Nhóm V–VI (Frontier/SIDS, Tiên phong/Quốc đảo Nhỏ), điểm ngưỡng ước tính là khoảng 55%. Mẫu này nhất quán với các doanh nghiệp trong các nền kinh tế thể chế tiên tiến thu hồi chi phí quốc tế hóa ở mức cường độ xuất khẩu thấp hơn, trong khi các doanh nghiệp trong môi trường thể chế yếu hơn cần cam kết xuất khẩu lớn hơn để đạt đỉnh hiệu quả.
+Liên quan hơn cho H5 là các số hạng tương tác: FSTS×ICRV (β = +1,762, p < ,001) và FSTS²×ICRV ($\beta = −2.746$, p < ,001). Điều này cho thấy độ dốc lên của đường cong I–P dốc hơn ở các nền kinh tế thể chế yếu hơn (nhóm ICRV cao hơn). Tuy nhiên, độ dốc xuống cũng vậy, có nghĩa là đỉnh của hình chữ U ngược xảy ra ở mức cường độ xuất khẩu thấp hơn trong các nền kinh tế thể chế mạnh hơn (số ICRV thấp hơn) và rõ ràng hơn trong các nền kinh tế thể chế yếu hơn. Phân tách theo nhóm ICRV: với các nền kinh tế Nhóm I (Advanced Innovation, Đổi mới tiên tiến), điểm ngưỡng ước tính là khoảng 28%; với Nhóm V–VI (Frontier/SIDS, Tiên phong/Quốc đảo Nhỏ), điểm ngưỡng ước tính là khoảng 55%. Mẫu này nhất quán với các doanh nghiệp trong các nền kinh tế thể chế tiên tiến thu hồi chi phí quốc tế hóa ở mức cường độ xuất khẩu thấp hơn, trong khi các doanh nghiệp trong môi trường thể chế yếu hơn cần cam kết xuất khẩu lớn hơn để đạt đỉnh hiệu quả.
 
 **H5 được ủng hộ.** Chế độ thể chế ICRV điều tiết có hệ thống cả độ dốc lẫn độ cong của hàm I–P, với thể chế mạnh hơn tương quan với đỉnh hiệu quả sớm hơn (mức FSTS thấp hơn).
 
@@ -187,7 +187,7 @@ Liên quan hơn cho H5 là các số hạng tương tác: FSTS×ICRV (β = +1,76
 
 *Bảng 2, Mô hình M11.*
 
-Mô hình capstone thêm tất cả các tương tác ba chiều (FSTS×DAI×ICRV, cộng với các tương tác bậc thấp hơn cấu thành). Kiểm định Lind–Mehlum trong M11 xác nhận hình chữ U ngược (TP = 34,6%, LM p = ,002), thiết lập rằng hình chữ U ngược giữ vững ngay cả trong đặc tả đòi hỏi nhất. Tương tác DAI×ICRV (β = +0,060, p = ,012, *) có ý nghĩa thống kê, nhất quán với dự đoán CDCM rằng năng lực số cung cấp hiệu ứng hiệu quả mạnh hơn trên mỗi đơn vị trong môi trường thể chế yếu hơn. Số hạng ba chiều FSTS×DAI×ICRV (β = −0,001, NS) không có ý nghĩa thống kê, cho thấy hiệu ứng tái tạo đường cong DAI được ghi nhận trong M8/M9 không biến đổi có hệ thống qua gradient thể chế (institutional gradient) ICRV trong đặc tả này.
+Mô hình capstone thêm tất cả các tương tác ba chiều (FSTS×DAI×ICRV, cộng với các tương tác bậc thấp hơn cấu thành). Kiểm định Lind–Mehlum trong M11 xác nhận hình chữ U ngược (TP = 34,6%, LM p = ,002), thiết lập rằng hình chữ U ngược giữ vững ngay cả trong đặc tả đòi hỏi nhất. Tương tác DAI×ICRV (β = +0,060, p = ,012, *) có ý nghĩa thống kê, nhất quán với dự đoán CDCM rằng năng lực số cung cấp hiệu ứng hiệu quả mạnh hơn trên mỗi đơn vị trong môi trường thể chế yếu hơn. Số hạng ba chiều FSTS×DAI×ICRV ($\beta = −0.001$, NS) không có ý nghĩa thống kê, cho thấy hiệu ứng tái tạo đường cong DAI được ghi nhận trong M8/M9 không biến đổi có hệ thống qua gradient thể chế (institutional gradient) ICRV trong đặc tả này.
 
 AdjR² = ,067 trong M11 (so với ,049 trong M10) cho thấy sự cải thiện độ phù hợp có ý nghĩa từ việc thêm cấu trúc điều tiết ba chiều.
 

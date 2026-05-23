@@ -141,8 +141,8 @@ The baseline linear model (M0) confirms that FSTS alone adds no explanatory powe
 Adding TCI as a main effect (M6: β = +0.321, p < .001) raises adjR² from .015 to .024. The interaction model M7 adds FSTS×TCI and FSTS²×TCI. Results show:
 
 - TCI main effect: β = +0.344 (p < .001), higher TCI raises baseline performance
-- FSTS×TCI: β = −0.144 (NS), the ascending limb interaction is not significant
-- FSTS²×TCI: β = −0.137 (NS in M7; remains NS in M8, p=.129)
+- FSTS×TCI: $\beta = −0.144$ (NS), the ascending limb interaction is not significant
+- FSTS²×TCI: $\beta = −0.137$ (NS in M7; remains NS in M8, p=.129)
 
 The joint F-test for the two TCI interaction terms is not significant across M7–M9. The inverted-U remains confirmed in M7 (TP = 33.9%, LM p < .001). A one-SD increase in TCI raises labour productivity by exp(0.344) − 1 ≈ 41% at mean FSTS, a large and practically meaningful level effect. The curvature steepening predicted by H2 does not emerge in this expanded sample.
 
@@ -160,7 +160,7 @@ When DAI is added to M7, the DAI main effect is positive and statistically signi
 
 *Table 2, Model M9.*
 
-Manager experience (β = +0.007, p = .026) and female top manager (β = +0.185, p < .001) both raise firm performance independently of FSTS in M9. The experience effect implies approximately 0.7% higher labour productivity per additional year of sectoral experience; the female top manager effect implies approximately a 20% performance premium (exp(0.185) − 1 ≈ 20%). The FSTS×manager_experience interaction is not significant in M9 (β = −0.012, p = .133), but reaches p = .053 in M11 (β = −0.019, †), suggesting that, in the full specification, more experienced managers navigate the high-FSTS coordination challenges more effectively (negative interaction = smaller performance decline above the turning point).
+Manager experience (β = +0.007, p = .026) and female top manager (β = +0.185, p < .001) both raise firm performance independently of FSTS in M9. The experience effect implies approximately 0.7% higher labour productivity per additional year of sectoral experience; the female top manager effect implies approximately a 20% performance premium (exp(0.185) − 1 ≈ 20%). The FSTS×manager_experience interaction is not significant in M9 ($\beta = −0.012$, p = .133), but reaches p = .053 in M11 ($\beta = −0.019$, †), suggesting that, in the full specification, more experienced managers navigate the high-FSTS coordination challenges more effectively (negative interaction = smaller performance decline above the turning point).
 
 **H4 is partially supported.** Top manager experience and female management improve firm performance (level effects confirmed). The curve-moderating effect of manager experience is marginally present in M11 but absent in M9; we interpret this as a secondary finding requiring replication.
 
@@ -170,7 +170,7 @@ Manager experience (β = +0.007, p = .026) and female top manager (β = +0.185, 
 
 The ICRV group main effect (β = +0.763, p < .001) indicates that, controlling for TCI, DAI, and firm characteristics, each step up the ICRV scale (from Group I to VI, i.e., from stronger to weaker institutions) is associated with approximately a 115% higher labour productivity level (exp(0.763) − 1 ≈ 115%). This counter-intuitive *positive* ICRV coefficient reflects that nominal sales-per-worker is higher in economies with lower price levels (typical of frontier/emerging economies), and country-year fixed effects were not included in M10 to preserve the institutional regime as the key moderator of interest.
 
-More relevant for H5 are the interaction terms: FSTS×ICRV (β = +1.762, p < .001) and FSTS²×ICRV (β = −2.746, p < .001). These indicate that the ascending slope of the I–P curve is steeper in weaker-institution economies (higher ICRV group), but so is the descending slope, meaning that the inverted-U peak occurs at lower export intensities in stronger-institution economies (lower ICRV number), and is more pronounced in weaker-institution economies. Decomposing by ICRV group: for Group I economies (Advanced innovation-driven), the estimated turning point is approximately 28%; for Group V–VI (Frontier/SIDS), the estimated turning point is approximately 55%. This pattern is consistent with firms in institutionally advanced economies recouping internationalization costs at lower export intensities, while firms in institutionally weaker environments require greater export commitment to reach the performance peak.
+More relevant for H5 are the interaction terms: FSTS×ICRV (β = +1.762, p < .001) and FSTS²×ICRV ($\beta = −2.746$, p < .001). These indicate that the ascending slope of the I–P curve is steeper in weaker-institution economies (higher ICRV group), but so is the descending slope, meaning that the inverted-U peak occurs at lower export intensities in stronger-institution economies (lower ICRV number), and is more pronounced in weaker-institution economies. Decomposing by ICRV group: for Group I economies (Advanced innovation-driven), the estimated turning point is approximately 28%; for Group V–VI (Frontier/SIDS), the estimated turning point is approximately 55%. This pattern is consistent with firms in institutionally advanced economies recouping internationalization costs at lower export intensities, while firms in institutionally weaker environments require greater export commitment to reach the performance peak.
 
 **H5 is supported.** The ICRV institutional regime systematically moderates both the slope and curvature of the I–P function, with stronger institutions associated with earlier (lower FSTS) performance peaks.
 
@@ -178,7 +178,7 @@ More relevant for H5 are the interaction terms: FSTS×ICRV (β = +1.762, p < .00
 
 *Table 2, Model M11.*
 
-The capstone model adds all three-way interactions (FSTS×DAI×ICRV, plus constituent lower-order interactions). The Lind–Mehlum test in M11 confirms the inverted-U (TP = 34.6%, LM p = .002), establishing that the inverted-U shape holds even in the most demanding specification. The DAI×ICRV interaction (β = +0.060, p = .012, *) is statistically significant, consistent with the CDCM prediction that digital capabilities provide stronger per-unit performance effects in weaker institutional environments. The three-way FSTS×DAI×ICRV term (β = −0.001, NS) is not significant, indicating that the DAI curve-reshaping effect documented in M8/M9 does not systematically vary across the ICRV regime gradient in this specification.
+The capstone model adds all three-way interactions (FSTS×DAI×ICRV, plus constituent lower-order interactions). The Lind–Mehlum test in M11 confirms the inverted-U (TP = 34.6%, LM p = .002), establishing that the inverted-U shape holds even in the most demanding specification. The DAI×ICRV interaction (β = +0.060, p = .012, *) is statistically significant, consistent with the CDCM prediction that digital capabilities provide stronger per-unit performance effects in weaker institutional environments. The three-way FSTS×DAI×ICRV term ($\beta = −0.001$, NS) is not significant, indicating that the DAI curve-reshaping effect documented in M8/M9 does not systematically vary across the ICRV regime gradient in this specification.
 
 AdjR² = .067 in M11 (vs. .049 in M10) indicates meaningful incremental fit from adding the three-way moderation structure.
 

@@ -51,6 +51,8 @@
   \newunicodechar{→}{\ensuremath{\rightarrow}}
   \newunicodechar{←}{\ensuremath{\leftarrow}}
   \newunicodechar{⇒}{\ensuremath{\Rightarrow}}
+  \newunicodechar{≳}{\ensuremath{\gtrsim}}
+  \newunicodechar{≲}{\ensuremath{\lesssim}}
   \usepackage{xurl}
 \fi
 
@@ -111,7 +113,7 @@
 % --- Title page (filled in per paper) ---
 \title{P8\_PacificSIDS\_WorldDev\_EN}
 \author{Author details withheld for blind review}
-\date{2026-05-22}
+\date{2026-05-23}
 
 \begin{document}
 
@@ -151,17 +153,17 @@ arising from the compulsion to export despite systemic disadvantages.
 Using World Bank Enterprise Survey data from 1,469 firms across nine
 Pacific SIDS economies (2009--2025), we find that internationalization
 intensity is robustly and negatively associated with labor productivity.
-Specifically, β = −0.404, p = .032 in the country-and-year fixed-effects
-specification, and β = −1.236, p \textless{} .001 without country fixed
-effects, with no significant quadratic curvature. Technological
-capability and digital adoption, both significant moderators in mainland
-Asian contexts, are null in the SIDS environment. This pattern is
-consistent with the FIP mechanism: when structural prerequisites are
-absent, firm-level capabilities cannot redirect the I-P relationship
-toward positive territory. The findings reframe the inverted-U paradigm
-as conditional rather than universal, identify boundary conditions for
-institutional moderation theory, and carry direct implications for the
-Antigua and Barbuda Agenda for SIDS.
+Specifically, \(\beta = −0.404\), p = .032 in the country-and-year
+fixed-effects specification, and \(\beta = −1.236\), p \textless{} .001
+without country fixed effects, with no significant quadratic curvature.
+Technological capability and digital adoption, both significant
+moderators in mainland Asian contexts, are null in the SIDS environment.
+This pattern is consistent with the FIP mechanism: when structural
+prerequisites are absent, firm-level capabilities cannot redirect the
+I-P relationship toward positive territory. The findings reframe the
+inverted-U paradigm as conditional rather than universal, identify
+boundary conditions for institutional moderation theory, and carry
+direct implications for the Antigua and Barbuda Agenda for SIDS.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -585,10 +587,10 @@ additional variance but in a consistently negative direction.
 
 Control variable results in M1 are consistent with established evidence.
 Firm age is positively associated with productivity (β = +0.009, p =
-.052). Foreign ownership shows a marginally negative association (β =
-−0.006, p = .056), perhaps reflecting thin foreign investment efficiency
-in SIDS contexts; firm size is positive but non-significant (β = +0.082,
-p = .242).
+.052). Foreign ownership shows a marginally negative association
+(\(\beta = −0.006\), p = .056), perhaps reflecting thin foreign
+investment efficiency in SIDS contexts; firm size is positive but
+non-significant (β = +0.082, p = .242).
 
 \hypertarget{43-monotone-negative-form-no-curvature-h1-quadratic-null}{%
 \subsubsection{4.3 Monotone Negative Form: No Curvature (H1, quadratic
@@ -690,8 +692,8 @@ test H2. Neither variable achieves statistical significance:
 0.073, p = .402 (n.s.)
 
 The FIP coefficient (FSTS\_c) remains negative but loses significance in
-M3 (β = −0.974, p = .252), likely reflecting the substantially reduced
-sample (N = 526 for M3, versus N = 1,469 for M1, due to missing
+M3 (\(\beta = −0.974\), p = .252), likely reflecting the substantially
+reduced sample (N = 526 for M3, versus N = 1,469 for M1, due to missing
 capability variables). The direction of the FSTS\_c coefficient remains
 negative and numerically larger in M3, consistent with FIP; the
 significance loss is attributable to power reduction from the subsample
@@ -714,13 +716,13 @@ FSTS--performance relationship that FIP describes.
 
 Table 2 summarizes the full coefficient matrix. The FIP pattern is
 confirmed across four points. (i) a statistically significant negative
-linear FSTS--performance relationship (M1: β = −0.404, p = .032). (ii)
-no significant quadratic curvature or turning point (M2: both FSTS\_c
-and FSTS\_c² non-significant); (iii) robustly negative across four
-specifications (M\_yearFE: β = −1.236, p \textless{} .001; M\_bivariate:
-β = −1.596, p \textless{} .001; exporters-only: β = −0.901, p = .027);
-and (iv) null capability moderation (M3: TCI\_z p = .495; DAI\_z p =
-.402).
+linear FSTS--performance relationship (M1: \(\beta = −0.404\), p =
+.032). (ii) no significant quadratic curvature or turning point (M2:
+both FSTS\_c and FSTS\_c² non-significant); (iii) robustly negative
+across four specifications (M\_yearFE: \(\beta = −1.236\), p \textless{}
+.001; M\_bivariate: \(\beta = −1.596\), p \textless{} .001;
+exporters-only: \(\beta = −0.901\), p = .027); and (iv) null capability
+moderation (M3: TCI\_z p = .495; DAI\_z p = .402).
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -918,10 +920,11 @@ performance when three structural prerequisites of the inverted-U
 relationship are simultaneously absent: a viable domestic market,
 manageable trade costs, and functional institutional support. Using WBES
 data from 1,469 firms across nine Pacific SIDS economies, we find robust
-support for FIP across four empirical specifications: β = −0.404, p =
-.032 in the primary country-and-year fixed-effects model; β = −1.236, p
-\textless{} .001 without country fixed effects; and β = −0.901, p = .027
-in the exporters-only subsample. The quadratic term is not significant,
+support for FIP across four empirical specifications:
+\(\beta = −0.404\), p = .032 in the primary country-and-year
+fixed-effects model; \(\beta = −1.236\), p \textless{} .001 without
+country fixed effects; and \(\beta = −0.901\), p = .027 in the
+exporters-only subsample. The quadratic term is not significant,
 confirming the monotone negative form with no observable turning point.
 Technological capability and digital adoption, significant in mainland
 Asian contexts, are null in the SIDS environment, consistent with the
@@ -1169,7 +1172,7 @@ M\_bivariate & −1.596 & 0.263 & \textless.001*** & Negative \\
 \end{longtable}
 
 \emph{Note: Penalty confirmed in all specifications. Exporters-only
-result (β = −0.901) addresses adverse selection concern: among active
-exporters, intensifying exports further worsens performance.}
+result (\(\beta = −0.901\)) addresses adverse selection concern: among
+active exporters, intensifying exports further worsens performance.}
 
 \end{document}

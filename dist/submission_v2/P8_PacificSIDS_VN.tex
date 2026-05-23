@@ -51,6 +51,8 @@
   \newunicodechar{→}{\ensuremath{\rightarrow}}
   \newunicodechar{←}{\ensuremath{\leftarrow}}
   \newunicodechar{⇒}{\ensuremath{\Rightarrow}}
+  \newunicodechar{≳}{\ensuremath{\gtrsim}}
+  \newunicodechar{≲}{\ensuremath{\lesssim}}
   \usepackage{xurl}
 \fi
 
@@ -111,7 +113,7 @@
 % --- Title page (filled in per paper) ---
 \title{P8\_PacificSIDS\_VN}
 \author{Author details withheld for blind review}
-\date{2026-05-22}
+\date{2026-05-23}
 
 \begin{document}
 
@@ -164,9 +166,9 @@ Nghiên cứu sử dụng dữ liệu Khảo sát Doanh nghiệp của Ngân hà
 (World Bank Enterprise Survey, WBES) từ 1.469 doanh nghiệp thuộc chín
 nền kinh tế SIDS Thái Bình Dương (2009--2025). Kết quả phát hiện rằng
 cường độ quốc tế hóa có quan hệ âm và vững chắc với năng suất lao động
-(β = −0,404, p = 0,032 trong mô hình hiệu ứng cố định quốc gia-năm; β =
-−1,236, p \textless{} 0,001 khi không có hiệu ứng cố định quốc gia),
-không có độ cong bậc hai có ý nghĩa thống kê.
+(\(\beta = −0.404\), p = 0,032 trong mô hình hiệu ứng cố định quốc
+gia-năm; \(\beta = −1.236\), p \textless{} 0,001 khi không có hiệu ứng
+cố định quốc gia), không có độ cong bậc hai có ý nghĩa thống kê.
 
 Năng lực công nghệ và mức độ áp dụng số, cả hai đều là biến điều tiết có
 ý nghĩa trong bối cảnh châu Á đại lục, không có ý nghĩa thống kê trong
@@ -686,10 +688,10 @@ bổ sung hạn chế nhưng theo chiều âm nhất quán.
 
 Kết quả biến kiểm soát trong M1 nhất quán với bằng chứng đã thiết lập.
 Tuổi doanh nghiệp có quan hệ dương với năng suất (β = +0,009, p =
-0,052). Sở hữu nước ngoài cho thấy quan hệ âm ở mức biên (β = −0,006, p
-= 0,056), có thể phản ánh hiệu quả đầu tư nước ngoài thấp trong bối cảnh
-SIDS. Quy mô doanh nghiệp dương nhưng không có ý nghĩa thống kê (β =
-+0,082, p = 0,242).
+0,052). Sở hữu nước ngoài cho thấy quan hệ âm ở mức biên
+(\(\beta = −0.006\), p = 0,056), có thể phản ánh hiệu quả đầu tư nước
+ngoài thấp trong bối cảnh SIDS. Quy mô doanh nghiệp dương nhưng không có
+ý nghĩa thống kê (β = +0,082, p = 0,242).
 
 \hypertarget{43-dux1ea1ng-uxe2m-ux111ux1a1n-ux111iux1ec7u-khuxf4ng-cuxf3-ux111ux1ed9-cong-h1-null-bux1eadc-hai}{%
 \subsubsection{4.3 Dạng Âm Đơn Điệu: Không Có Độ Cong (H1, null bậc
@@ -790,12 +792,12 @@ kiểm định H2. Không có biến nào đạt được ý nghĩa thống kê:
 β(TCI\_z) = +0,058, SE = 0,085, p = 0,495 (không có ý nghĩa) β(DAI\_z) =
 +0,062, SE = 0,073, p = 0,402 (không có ý nghĩa)
 
-Hệ số FIP (FSTS\_c) vẫn âm nhưng mất ý nghĩa thống kê trong M3 (β =
-−0,974, p = 0,252), có khả năng phản ánh mẫu giảm đáng kể (N = 526 cho
-M3, so với N = 1.469 cho M1, do các biến năng lực bị thiếu). Chiều hướng
-của hệ số FSTS\_c vẫn âm và về số học lớn hơn trong M3, nhất quán với
-FIP; sự mất ý nghĩa thống kê có thể quy cho việc giảm năng lực thống kê
-từ hạn chế mẫu con.
+Hệ số FIP (FSTS\_c) vẫn âm nhưng mất ý nghĩa thống kê trong M3
+(\(\beta = −0.974\), p = 0,252), có khả năng phản ánh mẫu giảm đáng kể
+(N = 526 cho M3, so với N = 1.469 cho M1, do các biến năng lực bị
+thiếu). Chiều hướng của hệ số FSTS\_c vẫn âm và về số học lớn hơn trong
+M3, nhất quán với FIP; sự mất ý nghĩa thống kê có thể quy cho việc giảm
+năng lực thống kê từ hạn chế mẫu con.
 
 Các kết quả này nhất quán với H2 (không điều tiết): Chỉ số năng lực công
 nghệ (TCI\_z: β = +0,058, SE = 0,085, p = 0,495) và Chỉ số áp dụng số
@@ -819,12 +821,13 @@ Quả}\label{46-tuxf3m-tux1eaft-kux1ebft-quux1ea3}}
 
 Bảng 2 tóm tắt ma trận hệ số đầy đủ. Mô hình FIP được xác nhận qua bốn
 điểm. (i) quan hệ tuyến tính FSTS--hiệu quả âm có ý nghĩa thống kê (M1:
-β = −0,404, p = 0,032). (ii) không có độ cong bậc hai hay điểm ngưỡng có
-ý nghĩa thống kê (M2: cả FSTS\_c lẫn FSTS\_c² đều không có ý nghĩa thống
-kê). (iii) âm vững chắc trên bốn đặc tả (M\_yearFE: β = −1,236, p
-\textless{} 0,001; M\_bivariate: β = −1,596, p \textless{} 0,001; chỉ
-nhà xuất khẩu: β = −0,901, p = 0,027). (iv) điều tiết năng lực null (M3:
-TCI\_z p = 0,495; DAI\_z p = 0,402).
+\(\beta = −0.404\), p = 0,032). (ii) không có độ cong bậc hai hay điểm
+ngưỡng có ý nghĩa thống kê (M2: cả FSTS\_c lẫn FSTS\_c² đều không có ý
+nghĩa thống kê). (iii) âm vững chắc trên bốn đặc tả (M\_yearFE:
+\(\beta = −1.236\), p \textless{} 0,001; M\_bivariate:
+\(\beta = −1.596\), p \textless{} 0,001; chỉ nhà xuất khẩu:
+\(\beta = −0.901\), p = 0,027). (iv) điều tiết năng lực null (M3: TCI\_z
+p = 0,495; DAI\_z p = 0,402).
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -1024,14 +1027,14 @@ có chức năng.
 
 Nghiên cứu sử dụng dữ liệu WBES từ 1.469 doanh nghiệp thuộc chín nền
 kinh tế SIDS Thái Bình Dương. Kết quả tìm thấy hỗ trợ vững chắc cho FIP
-trên bốn đặc tả thực nghiệm (β = −0,404, p = 0,032 trong mô hình hiệu
-ứng cố định quốc gia-năm chính; β = −1,236, p \textless{} 0,001 không có
-hiệu ứng cố định quốc gia; β = −0,901, p = 0,027 trong mẫu con chỉ nhà
-xuất khẩu). Hạng tử bậc hai không có ý nghĩa thống kê, xác nhận dạng âm
-đơn điệu, không có điểm ngưỡng trong phạm vi quan sát. Chỉ số năng lực
-công nghệ (TCI) và Chỉ số áp dụng số (DAI), vốn có ý nghĩa thống kê
-trong các bối cảnh châu Á đại lục, lại null trong môi trường SIDS, nhất
-quán với cơ chế lý thuyết FIP.
+trên bốn đặc tả thực nghiệm (\(\beta = −0.404\), p = 0,032 trong mô hình
+hiệu ứng cố định quốc gia-năm chính; \(\beta = −1.236\), p \textless{}
+0,001 không có hiệu ứng cố định quốc gia; \(\beta = −0.901\), p = 0,027
+trong mẫu con chỉ nhà xuất khẩu). Hạng tử bậc hai không có ý nghĩa thống
+kê, xác nhận dạng âm đơn điệu, không có điểm ngưỡng trong phạm vi quan
+sát. Chỉ số năng lực công nghệ (TCI) và Chỉ số áp dụng số (DAI), vốn có
+ý nghĩa thống kê trong các bối cảnh châu Á đại lục, lại null trong môi
+trường SIDS, nhất quán với cơ chế lý thuyết FIP.
 
 Các phát hiện này đóng góp vào lý thuyết IB theo hai cách. Thứ nhất,
 chúng giúp định hướng lại diễn ngôn về các tác động thể chế từ "điều
@@ -1283,9 +1286,9 @@ M\_bivariate & −1,596 & 0,263 & \textless0,001*** & Âm \\
 \end{longtable}
 
 \emph{Ghi chú: Gánh nặng được xác nhận trên tất cả các đặc tả. Kết quả
-chỉ nhà xuất khẩu (β = −0,901) giải quyết lo ngại lựa chọn bất lợi:
-trong số các nhà xuất khẩu tích cực, tăng cường xuất khẩu thêm làm xấu
-đi hiệu quả.}
+chỉ nhà xuất khẩu (\(\beta = −0.901\)) giải quyết lo ngại lựa chọn bất
+lợi: trong số các nhà xuất khẩu tích cực, tăng cường xuất khẩu thêm làm
+xấu đi hiệu quả.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
