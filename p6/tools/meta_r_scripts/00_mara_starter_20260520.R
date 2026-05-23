@@ -25,9 +25,14 @@ if (MODE == "tracker") {
     stringsAsFactors = FALSE
   )
 } else {
-  cat("=== MODE: database (p6_study_database.csv) ===\n")
-  dat_raw <- read.csv("p6/data/p6_study_database.csv",
-                      stringsAsFactors = FALSE)
+  # Prefer v2 if it exists (more coded studies)
+  db_path <- if (file.exists("p6/data/p6_study_database_v2.csv")) {
+    "p6/data/p6_study_database_v2.csv"
+  } else {
+    "p6/data/p6_study_database.csv"
+  }
+  cat(sprintf("=== MODE: database (%s) ===\n", db_path))
+  dat_raw <- read.csv(db_path, stringsAsFactors = FALSE)
   dat_raw <- subset(dat_raw, include_flag == "1")
   dat <- data.frame(
     study_id = dat_raw$study_id,
