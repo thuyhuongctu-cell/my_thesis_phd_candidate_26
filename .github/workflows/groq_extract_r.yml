@@ -6,11 +6,11 @@ on:
       queue_file:
         description: 'Extraction queue CSV (in p6/tools/results/)'
         required: true
-        default: 'extraction_queue_v2_20260521.csv'
+        default: 'extraction_queue_20260520.csv'
       manifest_file:
         description: 'OA manifest CSV (oa or s2, leave blank to skip)'
         required: false
-        default: 'oa_manifest_20260521.csv'
+        default: 'oa_manifest_20260520.csv'
       limit:
         description: 'Max papers per run (0 = all, start with 50)'
         required: false
