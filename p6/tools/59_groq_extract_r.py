@@ -43,7 +43,7 @@ try:
 except ImportError:
     print("ERROR: pip install requests"); sys.exit(1)
 
-# ─── Configuration ──────────────────────────────────────────────────────────────────────────────────
+# ─── Configuration ────────────────────────────────────────────────────────────
 DEFAULT_MODEL  = "llama-3.3-70b-versatile"
 MAX_TOKENS     = 512
 PDF_TEXT_CHARS = 10_000   # Groq has token limits; keep slightly shorter than Claude
@@ -86,7 +86,7 @@ PAPER EXCERPT:
 ---
 """
 
-# ─── Helpers ──────────────────────────────────────────────────────────────────────────────────
+# ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def pdf_text(pdf_path: Path) -> str:
     try:
@@ -144,7 +144,7 @@ def ask_groq(client: Groq, text: str, model: str) -> dict:
                 "sample_size_n": None, "notes": f"Groq error: {e}"}
 
 
-# ─── Main ──────────────────────────────────────────────────────────────────────────────────
+# ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Groq API batch r-extraction")
@@ -170,7 +170,7 @@ def main():
 
     manifest = load_manifest(args.manifest or None)
 
-    # ── Load queue ────────────────────────────────────────────────────────────────────
+    # ── Load queue ──────────────────────────────────────────────────────────
     queue_path = Path(args.queue)
     if not queue_path.exists():
         print(f"ERROR: Queue file not found: {queue_path}"); sys.exit(1)
@@ -178,9 +178,12 @@ def main():
     with open(queue_path, newline="", encoding="utf-8") as f:
         queue_rows = list(csv.DictReader(f))
 
-    # Filter: Y decision, no r yet
+    # Filter: Y decision, no r yet.
+    # Curated queue files (e.g. extraction_queue_pdf_*.csv) omit the
+    # fulltext_screening_decision column — all rows are pre-filtered to Y.
+    # Default to "Y" so those files work without modification.
     pending = [r for r in queue_rows
-               if r.get("fulltext_screening_decision", "").strip() == "Y"
+               if r.get("fulltext_screening_decision", "Y").strip() != "N"
                and not r.get("converted_r", "").strip()]
 
     if args.limit > 0:
@@ -190,7 +193,7 @@ def main():
           flush=True)
     print(f"Model: {args.model}", flush=True)
 
-    # ── Load tracker ─────────────────────────────────────────────────────────────────────
+    # ── Load tracker ─────────────────────────────────────────────────────────
     tracker_path = Path(args.tracker)
     if not tracker_path.exists():
         print(f"ERROR: Tracker not found: {tracker_path}"); sys.exit(1)
@@ -202,7 +205,7 @@ def main():
     # Build lookup: seq → tracker row
     seq_index = {r.get("seq", "").strip(): r for r in tracker_rows}
 
-    # ── Process papers ────────────────────────────────────────────────────────────────────────
+    # ── Process papers ────────────────────────────────────────────────────────
     log_entries = []
     updated = 0
     skipped_manual = 0
@@ -310,7 +313,7 @@ def main():
             print(f"  progress: {i}/{len(pending)} | extracted={updated} "
                   f"no_pdf={no_pdf} not_found={not_found}", flush=True)
 
-    # ── Write tracker ────────────────────────────────────────────────────────────────────────
+    # ── Write tracker ────────────────────────────────────────────────────────
     if not args.dry_run and updated:
         with open(tracker_path, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -320,7 +323,7 @@ def main():
     elif args.dry_run:
         print(f"\nDRY RUN — tracker NOT modified ({updated} would be updated)")
 
-    # ── Write log ───────────────────────────────────────────────────────────────────────────────────
+    # ── Write log ─────────────────────────────────────────────────────────────
     log_path = Path(args.log)
     log_path.parent.mkdir(parents=True, exist_ok=True)
     log_cols = ["seq", "doi", "title", "status", "converted_r", "conversion_formula",
@@ -330,7 +333,7 @@ def main():
         w.writeheader()
         w.writerows(log_entries)
 
-    # ── Summary ───────────────────────────────────────────────────────────────────────────────────
+    # ── Summary ───────────────────────────────────────────────────────────────
     print(f"\n=== GROQ r-EXTRACTION SUMMARY ===")
     print(f"Model:            {args.model}")
     print(f"Papers attempted: {len(pending)}")
