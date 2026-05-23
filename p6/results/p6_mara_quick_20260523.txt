@@ -1,0 +1,85 @@
+Loading required package: Matrix
+Loading required package: metadat
+Loading required package: numDeriv
+
+Loading the 'metafor' package (version 4.4-0). For an
+introduction to the package please type: help(metafor)
+
+=== P6 Database loaded ===
+Total effect sizes: 288 
+Studies (unique): 238 
+Countries: 76 
+
+Valid for analysis: 288 
+
+=== Pooled Random-Effects (Fisher z scale) ===
+
+Random-Effects Model (k = 288; tau^2 estimator: REML)
+
+tau^2 (estimated amount of total heterogeneity): 0.0101 (SE = 0.0012)
+tau (square root of estimated tau^2 value):      0.1005
+I^2 (total heterogeneity / total variability):   87.85%
+H^2 (total variability / sampling variability):  8.23
+
+Test for Heterogeneity:
+Q(df = 287) = 1909.4188, p-val < .0001
+
+Model Results:
+
+estimate      se     zval    pval   ci.lb   ci.ub      
+  0.0744  0.0071  10.4179  <.0001  0.0604  0.0884  *** 
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+=== Pooled r (back-transformed) ===
+r = 0.0743, 95% CI [0.0603, 0.0882]
+I² = 87.9%
+τ² = 0.0101, Q(df=287) = 1909.42, p = 0.0000
+
+=== Three-level structure ===
+Studies with multiple effects: 46 (eligible for 3-level)
+
+=== Three-level Random-Effects ===
+
+Multivariate Meta-Analysis Model (k = 288; method: REML)
+
+Variance Components:
+
+            estim    sqrt  nlvls  fixed              factor 
+sigma^2.1  0.0014  0.0368    238     no            study_id 
+sigma^2.2  0.0087  0.0935    288     no  study_id/effect_id 
+
+Test for Heterogeneity:
+Q(df = 287) = 1909.4188, p-val < .0001
+
+Model Results:
+
+estimate      se     zval    pval   ci.lb   ci.ub      
+  0.0743  0.0073  10.2371  <.0001  0.0601  0.0886  *** 
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+Pooled r (3-level) = 0.0742
+
+=== ICRV Moderator Test ===
+Q_M = 17.42, df = 4, p = 0.0016
+
+Mean r by ICRV group:
+  Group FR: k=3, r=0.3122
+  Group I: k=139, r=0.0796
+  Group II: k=25, r=0.0640
+  Group III: k=91, r=0.0687
+  Group MX: k=30, r=0.0540
+
+=== Publication Bias Tests ===
+Egger's regression test: z = 1.849, p = 0.0644
+Begg–Mazumdar rank test: tau = -0.134, p = 0.0007
+Warning message:
+In cor.test.default(yi.star, vi, method = "kendall", exact = exact) :
+  Cannot compute exact p-value with ties
+Trim-and-fill: 58 imputed, adjusted z = 0.0348
+Adjusted r = 0.0348
