@@ -6,7 +6,7 @@ on:
       queue_file:
         description: 'Extraction queue CSV (in p6/tools/results/)'
         required: true
-        default: 'extraction_queue_pdf_20260522.csv'
+        default: 'extraction_queue_20260520.csv'
       manifest_file:
         description: 'Unpaywall OA manifest CSV (in p6/tools/results/). Leave empty to auto-use latest.'
         required: false
@@ -106,7 +106,7 @@ jobs:
           done = sum(1 for r in rows if r.get('fulltext_screening_decision','')=='Y' and r.get('converted_r','').strip())
           pct  = round(done/y*100,1) if y else 0
           print('| Metric | Count |')
-          print('|--------|-------| ')
+          print('|--------|-------|')
           print(f'| Y papers total | {y} |')
           print(f'| r filled | {done} ({pct}%) |')
           print(f'| r still needed | {y-done} |')
