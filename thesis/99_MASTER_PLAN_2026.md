@@ -98,24 +98,18 @@
 - **Target journal:** International Business Review (IBR) — ABS-3, Elsevier
 - **Submission portal:** editorialmanager.com/ibr
 - **Files đã có:**
-  - `p6/submission/ibr_package/01_manuscript_blinded.docx` (k=238, K=288)
+  - `p6/submission/ibr_package/01_manuscript_blinded.docx` (k=259, K=309)
   - `p6/submission/ibr_package/02_title_page.docx`
   - `p6/submission/ibr_package/03_cover_letter.docx`
   - Figures: 5 PNG + PDF (forest plot, funnel plot, moderator plots)
   - OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)
 
-**⚠️ Vấn đề cần quyết định trước khi nộp:**
+**✅ k≥250 ĐÃ ĐẠT (k=259, K=309) — Mục tiêu OSF preregistration hoàn thành:**
+- Kết quả cập nhật: r̄=0.074 [0.060, 0.088], I²=61.2% (L2=L3=30.6%), Q_M(ICRV)=10.16* (p=.038)
+- Publication bias: Egger b₀=0.077 (p<.001); trim-and-fill r_adj=0.035 [0.019, 0.051] (k_imputed=58)
+- Sẵn sàng nộp IBR với k=259
 
-**Lựa chọn A — Nộp ngay với k=238 (ĐƯỢC, defensible):**
-- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho IBR meta-analysis
-- Kết quả đã ổn định: r̄=0.074 [0.060, 0.088], I²=62.4%, Q_M(ICRV)=17.35**
-- Rủi ro: Reviewer có thể hỏi về 782 papers đang chờ L2
-
-**Lựa chọn B — Chờ L2 extraction xong, nộp với k≥250 (LÝ TƯỞNG nhưng tốn thêm 2–3 tháng):**
-- Mục tiêu ban đầu k≥250 từ OSF preregistration
-- Cần hoàn thành L2 extraction 435 papers trước
-
-> **Khuyến nghị:** Nếu bảo vệ luận án trong năm 2026, chọn **Lựa chọn A** — nộp ngay với k=238, ghi chú "additional studies under extraction per OSF protocol" trong manuscript.
+> **Khuyến nghị:** Nộp ngay với k=259 — đã vượt ngưỡng 200+ và đáp ứng OSF preregistration target k≥250.
 
 **✅ NCS quyết định A hay B, rồi:**
 - Nếu A: Đăng nhập editorialmanager.com/ibr, upload, submit (45 phút)
@@ -195,10 +189,10 @@
 | Chương | File | Kích thước | Trạng thái thực tế |
 |--------|------|-----------|-------------------|
 | Chương 1 — Giới thiệu | `chuong_1_gioi_thieu_vi.md` | 29K | 🟡 Draft hoàn chỉnh, cần final polish |
-| Chương 2 — TQTL | `chuong_2_tong_quan_tai_lieu_vi.md` | 50K | 🟡 Draft hoàn chỉnh, cần update P6 k=238 refs |
+| Chương 2 — TQTL | `chuong_2_tong_quan_tai_lieu_vi.md` | 50K | 🟡 Draft hoàn chỉnh, P6 đã update k=259 |
 | Chương 3 — Phương pháp | `chuong_3_phuong_phap_vi.md` | 41K | 🟡 Draft hoàn chỉnh, phương trình đầy đủ |
 | Chương 4 — Kết quả | `chuong_4_ket_qua_vi.md` | 32K | 🔴 Cần bổ sung kết quả P6 update sau L2 |
-| Chương 5 — Kết luận | `chuong_5_ket_luan_de_xuat_vi.md` | 34K | 🟡 Draft hoàn chỉnh, k=238 stats đã đúng |
+| Chương 5 — Kết luận | `chuong_5_ket_luan_de_xuat_vi.md` | 34K | 🟡 Draft hoàn chỉnh, k=259 stats đã cập nhật |
 
 ### Chương 1 — Giới thiệu (29K) 🟡
 **Nội dung đã có:** Background, research gap, research questions, contribution, structure
@@ -213,6 +207,7 @@
 **Nội dung đã có:** Uppsala, RBV, Institutional Theory, Upper Echelons, Digital Capability Lens, ICRV framework, meta-analysis review
 **✅ Claude đã làm (19–20/05/2026):**
 - ✅ Cập nhật §2.3.2 với k=238 baseline (r̄=0.074) — commit 1fa2cf0
+- ✅ Cập nhật k=259/K=309, I²=61.2% (L2=L3=30.6%), pub.bias — commit 22d8056
 - ✅ Thêm subsections P7/P8 literature gap vào §2.4 + fix CDCM expansion — commit 1e7f2c8
 **NCS cần làm:**
 - Kiểm tra tất cả citations có trong `thesis/04_references_apa7.md`
@@ -230,15 +225,15 @@
 ### Chương 4 — Kết quả (32K) 🔴
 **Nội dung đã có:** Kết quả P3/P4/P5/P7/P8 (bảng số liệu, turning points)
 **Vấn đề:** Kết quả P6 meta-analysis trong chương này sẽ cần update nếu NCS chọn Lựa chọn B (chờ L2 xong)
-**✅ Claude đã kiểm tra (20/05/2026):** k=238, Q_M=17.35, turning points — tất cả nhất quán với manuscript.
+**✅ Claude đã cập nhật (23/05/2026):** k=259/K=309, Q_M=10.16* (p=.038), I²=61.2% (L2=L3=30.6%) — nhất quán với manuscript EN — commit 22d8056.
 **NCS cần làm:**
-- Nếu chọn Lựa chọn A (submit P6 k=238 ngay): Chương 4 gần hoàn chỉnh, chỉ cần đọc lại lần cuối
-- Nếu chọn Lựa chọn B: Chờ L2 xong, update Tables 4.2–4.4 với k mới
-- **Thời gian (Lựa chọn A):** 2–3 giờ đọc lại; **(Lựa chọn B):** + 2–3 tháng
+- Đọc lại Chương 4 lần cuối, kiểm tra Table H5 (đã cập nhật k=Frontier 4, SIDS 3)
+- Inter-coder reliability §4.3 (Table 3.1): cần double-coding ~52 studies sau L2
+- **Thời gian:** 2–3 giờ đọc lại
 
 ### Chương 5 — Kết luận và Đề xuất (34K) 🟡
 **Nội dung đã có:** Tóm tắt kết quả, đóng góp lý thuyết/thực tiễn, hạn chế, hướng tương lai
-**Stats đã đúng:** k=238, r=0.074, I²=62.4%, Q_M=17.35
+**Stats đã cập nhật:** k=259/K=309, r=0.074 [0.060, 0.088], I²=61.2% (L2=L3=30.6%), Q_M(ICRV)=10.16* (p=.038)
 **✅ Claude đã làm (20/05/2026):**
 - ✅ §5.5.1 đã có đầy đủ DAI measurement constraint (website-only Tier-1) — đã kiểm tra
 - ✅ §5.6.1 đã đủ P3–P8 summary — đã kiểm tra
@@ -354,7 +349,7 @@ Tháng 5–6/2026 (NGAY BÂY):
   ✅ Nộp P4 (MIR)            — 1 ngày  
   ✅ Nộp P5 (IJOEM)          — 1 ngày
   ✅ Nộp P7 (JIBS)           — 1 ngày
-  ✅ Nộp P6 với k=238 (IBR)  — 1 ngày  [nếu chọn Lựa chọn A]
+  ✅ Nộp P6 với k=259 (IBR)  — 1 ngày  [k≥250 đã đạt, sẵn sàng nộp]
   ✅ Xác nhận P8 status       — 30 phút
   ✅ Nộp CD1 cho GVHD        — 1 ngày in + họp
 
@@ -390,17 +385,17 @@ Tháng 12/2026:
 | P3 (JABS) | **95%** | Click Submit |
 | P4 (MIR) | **95%** | Click Submit |
 | P5 (IJOEM) | **95%** | Click Submit |
-| P6 (IBR) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
+| P6 (IBR) | **95%** | Submit với k=259 (k≥250 đạt rồi) |
 | P7 (JIBS) | **95%** | Click Submit |
 | P8 (World Dev) | **90%** | Xác nhận status, submit nếu chưa |
 | CD1 | **90%** | In + nộp GVHD |
 | CD2 | **90%** | In + nộp GVHD |
-| Luận án Ch.1 | **85%** | Polish + format CTU |
-| Luận án Ch.2 | **85%** | Update P6 k=238 refs |
+| Luận án Ch.1 | **90%** | Polish + format CTU |
+| Luận án Ch.2 | **90%** | k=259 đã update — cần đọc lại lần cuối |
 | Luận án Ch.3 | **88%** | Add inter-coder section |
-| Luận án Ch.4 | **80%** | Phụ thuộc P6 decision |
-| Luận án Ch.5 | **88%** | Final polish |
+| Luận án Ch.4 | **88%** | k=259 đã update — đọc lại lần cuối |
+| Luận án Ch.5 | **90%** | k=259 đã update — final polish |
 
 ---
 
-*Cập nhật: 20/05/2026 | Lưu tại: `thesis/99_MASTER_PLAN_2026.md`*
+*Cập nhật: 23/05/2026 | Lưu tại: `thesis/99_MASTER_PLAN_2026.md`*
