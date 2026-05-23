@@ -6,11 +6,11 @@ on:
       queue_file:
         description: 'Extraction queue CSV (in p6/tools/results/)'
         required: true
-        default: 'extraction_queue_v2_20260521.csv'
+        default: 'extraction_queue_20260520.csv'
       manifest_file:
-        description: 'OA manifest CSV (leave blank to auto-detect latest oa_manifest_*.csv)'
+        description: 'OA manifest CSV (oa or s2, leave blank to skip)'
         required: false
-        default: ''
+        default: 'oa_manifest_20260520.csv'
       limit:
         description: 'Max papers per run (0 = all, start with 50)'
         required: false
@@ -62,17 +62,9 @@ jobs:
           if [ -z "$LIMIT" ]; then LIMIT="50"; fi
 
           MANIFEST_FLAG=""
-          MANIFEST_INPUT="${{ github.event.inputs.manifest_file }}"
-          if [ -n "$MANIFEST_INPUT" ] && [ -f "p6/tools/results/$MANIFEST_INPUT" ]; then
-            MANIFEST_FLAG="--manifest p6/tools/results/$MANIFEST_INPUT"
-          else
-            LATEST_MANIFEST=$(ls p6/tools/results/oa_manifest_*.csv 2>/dev/null | sort | tail -1)
-            if [ -n "$LATEST_MANIFEST" ]; then
-              echo "Auto-detected manifest: $LATEST_MANIFEST"
-              MANIFEST_FLAG="--manifest $LATEST_MANIFEST"
-            else
-              echo "No OA manifest found — proceeding without PDF links"
-            fi
+          MANIFEST_PATH="p6/tools/results/${{ github.event.inputs.manifest_file }}"
+          if [ -n "${{ github.event.inputs.manifest_file }}" ] && [ -f "$MANIFEST_PATH" ]; then
+            MANIFEST_FLAG="--manifest $MANIFEST_PATH"
           fi
 
           python3 p6/tools/59_groq_extract_r.py \
@@ -132,12 +124,12 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin claude/edit-vietnamese-academic-standards-xcAmn 2>&1 || true
           git add p6/tools/results/fulltext_to_extraction_tracker_v3.csv || true
           git add p6/tools/results/groq_extract_log_*.csv || true
-          git diff --cached --quiet && echo "Nothing to commit." || \
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
             git commit -m "feat(p6): Groq r-extraction batch [$(date +%Y%m%d)]"
-          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
-            echo "Push failed (exit $?). Trying --force-with-lease..."
-            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
-              echo "Force push also failed. Tracker changes saved in artifacts."
-          }
+            git push origin claude/edit-vietnamese-academic-standards-xcAmn
+          fi
