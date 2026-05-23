@@ -42,7 +42,7 @@ try:
 except ImportError:
     print("ERROR: pip install requests"); sys.exit(1)
 
-# ─── Configuration ───────────────────────────────────────────────────────────────────────────────
+# ─── Configuration ────────────────────────────────────────────────────────────
 MODEL       = "claude-haiku-4-5-20251001"   # fast + cheap for batch extraction
 MAX_TOKENS  = 512
 PDF_TEXT_CHARS = 12_000   # chars sent to Claude (≈ first 4–6 pages)
@@ -64,7 +64,7 @@ TASK:
 4. Note whether the relationship is linear or nonlinear (U-shape, inverted-U).
 
 RESPOND in this exact JSON format (no markdown, no prose outside JSON):
-{
+{{
   "converted_r": <float or null>,
   "conversion_formula": "<direct|beta|t_to_r|F_to_r|not_found>",
   "sample_size_n": <integer or null>,
@@ -74,7 +74,7 @@ RESPOND in this exact JSON format (no markdown, no prose outside JSON):
   "curve_type": "<linear|inverted_u|u_shape|other|unknown>",
   "turning_point": <float or null>,
   "notes": "<brief 1-line extraction note>"
-}
+}}
 
 If no I→P relationship can be found, set converted_r to null and \
 conversion_formula to "not_found".
@@ -85,7 +85,7 @@ PAPER EXCERPT:
 ---
 """
 
-# ─── Helpers ───────────────────────────────────────────────────────────────────────────────────
+# ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def pdf_text(pdf_path: Path) -> str:
     try:
@@ -148,7 +148,7 @@ def seq_from_filename(name: str) -> str | None:
     return m.group(1) if m else None
 
 
-# ─── Main ───────────────────────────────────────────────────────────────────────────────────
+# ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Claude API batch r-extraction")
@@ -172,7 +172,7 @@ def main():
 
     manifest = load_manifest(args.manifest or None)
 
-    # ── Load queue ──────────────────────────────────────────────────────────────────
+    # ── Load queue ──────────────────────────────────────────────────────────
     queue_path = Path(args.queue)
     if not queue_path.exists():
         print(f"ERROR: Queue file not found: {queue_path}"); sys.exit(1)
@@ -180,9 +180,12 @@ def main():
     with open(queue_path, newline="", encoding="utf-8") as f:
         queue_rows = list(csv.DictReader(f))
 
-    # Filter: Y decision, no r yet
+    # Filter: Y decision, no r yet.
+    # Curated queue files (e.g. extraction_queue_pdf_*.csv) omit the
+    # fulltext_screening_decision column — all rows are pre-filtered to Y.
+    # Default to "Y" so those files work without modification.
     pending = [r for r in queue_rows
-               if r.get("fulltext_screening_decision", "").strip() == "Y"
+               if r.get("fulltext_screening_decision", "Y").strip() != "N"
                and not r.get("converted_r", "").strip()]
 
     if args.limit > 0:
@@ -191,7 +194,7 @@ def main():
     print(f"Queue: {len(queue_rows)} total | {len(pending)} pending (limit={args.limit})",
           flush=True)
 
-    # ── Load tracker ─────────────────────────────────────────────────────────────────────
+    # ── Load tracker ─────────────────────────────────────────────────────────
     tracker_path = Path(args.tracker)
     if not tracker_path.exists():
         print(f"ERROR: Tracker not found: {tracker_path}"); sys.exit(1)
@@ -203,7 +206,7 @@ def main():
     # Build lookup: seq → tracker row
     seq_index = {r.get("seq", "").strip(): r for r in tracker_rows}
 
-    # ── Process papers ───────────────────────────────────────────────────────────────────
+    # ── Process papers ────────────────────────────────────────────────────────
     log_entries = []
     updated = 0
     skipped_manual = 0
@@ -311,7 +314,7 @@ def main():
             print(f"  progress: {i}/{len(pending)} | extracted={updated} "
                   f"no_pdf={no_pdf} not_found={not_found}", flush=True)
 
-    # ── Write tracker ──────────────────────────────────────────────────────────────────────
+    # ── Write tracker ────────────────────────────────────────────────────────
     if not args.dry_run and updated:
         with open(tracker_path, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -321,7 +324,7 @@ def main():
     elif args.dry_run:
         print(f"\nDRY RUN — tracker NOT modified ({updated} would be updated)")
 
-    # ── Write log ───────────────────────────────────────────────────────────────────────────────
+    # ── Write log ─────────────────────────────────────────────────────────────
     log_path = Path(args.log)
     log_path.parent.mkdir(parents=True, exist_ok=True)
     log_cols = ["seq", "doi", "title", "status", "converted_r", "conversion_formula",
@@ -331,7 +334,7 @@ def main():
         w.writeheader()
         w.writerows(log_entries)
 
-    # ── Summary ──────────────────────────────────────────────────────────────────────────────────
+    # ── Summary ───────────────────────────────────────────────────────────────
     print(f"\n=== CLAUDE r-EXTRACTION SUMMARY ===")
     print(f"Papers attempted: {len(pending)}")
     print(f"r extracted:      {updated}" + (" (DRY RUN)" if args.dry_run else ""))
