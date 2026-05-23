@@ -108,7 +108,7 @@ EXCLUDE (N) if:
 
 1. Update `prescreen_flag` → `include_flag` for reviewed rows (Y/N confirmed)
 2. For Y papers: fill `r`, `n`, `icrv`, `doi_type`, `fp_type` from full text
-3. Run `python3 p6/tools/10_merge_new_studies.py` to merge new Y papers into k=238 database
+3. Run `python3 p6/tools/10_merge_new_studies.py` to merge new Y papers into k=259 database
 4. For the remaining ~394 Pre-Y cases: same extraction process for r and n
 5. Run `p6/tools/compute_reliability.R` after 20% subsample double-coded
 
