@@ -2,7 +2,7 @@
 
 > **NCS**: Đỗ Thùy Hương · **HD**: PGS.TS. Phan Anh Tú
 >
-> **Phiên bản hoàn thiện P6 v2.5 (24/05/2026)** — MARA confirmed k=278, K=328 (database v2, merged + harmonized + normalized). r̄=0.076 [0.063, 0.089]; I²=65.9% (L2=57.1% ≫ L3=8.8%). ICRV Q_M(4)=9.46 (p=.051) marginal/KHÔNG (do ô Frontier thưa K=4 chi phối); cDAI Q_M(2)=0.23 NS; DPL Q_M(2)=0.47 NS. Begg τ=−0.119 (p=.001) và trim-and-fill k_imputed=58, adj r=0.041 [0.030, 0.052] cho thấy bất đối xứng; Egger b=0.434 (p=.059) chỉ ở mức biên. Fail-safe N=81,712.
+> **Phiên bản hoàn thiện P6 v2.5 (24/05/2026)** — MARA confirmed k=278, K=328 (database v2, merged + harmonized + normalized). r̄=0.076 [0.063, 0.089]; I²=65.9% (L2=57.1% ≫ L3=8.8%). ICRV Q_M(4)=9.46 (p=.051) — có ý nghĩa ở mức 10% (không phải 5%), do ô Frontier thưa K=4 chi phối; cDAI Q_M(2)=0.23 NS; DPL Q_M(2)=0.47 NS. Begg τ=−0.119 (p=.001) và trim-and-fill k_imputed=58, adj r=0.041 [0.030, 0.052] cho thấy bất đối xứng; Egger b=0.434 (p=.059) chỉ ở mức biên. Fail-safe N=81,712.
 >
 > **Database**: `p6/p6_primary_studies_apa7.md` (S001–S237+) · `p6/p6_study_database_coded.md`
 >
@@ -348,7 +348,7 @@ Pooled effect trong coded baseline hiện tại là $\hat{r}=0.076$, 95% CI [0.0
 
 **Kết quả thực tế từ `p6_real_mara.py` (k=278, K=328)**:
 
-Phân tích subgroup ICRV 5-regime: $Q_M = 9.46$ ($df = 4$, $p = .051$) — biên, KHÔNG có ý nghĩa và KHÔNG cho thấy gradient đơn điệu:
+Phân tích subgroup ICRV 5-regime: $Q_M = 9.46$ ($df = 4$, $p = .051$) — có ý nghĩa ở mức 10% (không phải 5%), KHÔNG cho thấy gradient đơn điệu:
 
 **Bảng 4.2 — Kết quả ICRV 5-regime subgroup (actual MARA)**:
 
@@ -451,7 +451,7 @@ Kết quả three-level MARA tích hợp trực tiếp với Conditional Digital
 
 **P5 Trung Quốc** (Regime II): DAI retained as control only; TCI là level-shifter ($\beta_z=+0.260 \to +0.426$, Paternoster $p=.011$) — consistent với CDCM dự đoán TCI > DAI ở Regime II.
 
-**Implication meta-analytic**: cả ba moderator bối cảnh đều **không** giải thích được dị biệt — ICRV biên không có ý nghĩa ($Q_M=9.46$, $p=.051$) và chênh lệch nhỏ có được chỉ do ô Frontier thưa (K=4) chi phối; cDAI ($Q_M=0.23$) và DPL ($Q_M=0.47$) hoàn toàn null. Điều đáng chú ý hơn là dị biệt tập trung **trong** nghiên cứu (L2 = 57.1%) hơn hẳn giữa nghiên cứu (L3 = 8.8%): các CDCM-style contingency ở cấp quốc gia (cDAI × ICRV) về mặt cấu trúc khó giải quyết được phương sai vốn nằm bên trong từng nghiên cứu. Hiệu ứng I→P vẫn dương nhưng nhỏ ($\bar{r}=0.076$; cận dưới hiệu chỉnh $\bar{r}_{adj}=0.041$).
+**Implication meta-analytic**: cả ba moderator bối cảnh đều **không** giải thích được dị biệt — ICRV có ý nghĩa biên ở mức 10% ($Q_M=9.46$, $p=.051$; không đạt mức 5%) và chênh lệch này chỉ do ô Frontier thưa (K=4) chi phối; cDAI ($Q_M=0.23$) và DPL ($Q_M=0.47$) hoàn toàn null. Điều đáng chú ý hơn là dị biệt tập trung **trong** nghiên cứu (L2 = 57.1%) hơn hẳn giữa nghiên cứu (L3 = 8.8%): các CDCM-style contingency ở cấp quốc gia (cDAI × ICRV) về mặt cấu trúc khó giải quyết được phương sai vốn nằm bên trong từng nghiên cứu. Hiệu ứng I→P vẫn dương nhưng nhỏ ($\bar{r}=0.076$; cận dưới hiệu chỉnh $\bar{r}_{adj}=0.041$).
 
 ### 5.2 Hàm ý lý thuyết
 
@@ -459,7 +459,7 @@ Kết quả three-level MARA tích hợp trực tiếp với Conditional Digital
 
 **Đóng góp 2 — Publication bias vừa phải, không quyết định**: các chỉ báo phân kỳ — Begg ($\tau=-0.119$, $p=.001$) và trim-and-fill ($k_{imputed}=58$, $\bar{r}_{adj}=0.041$) cho thấy bất đối xứng trái, trong khi Egger chỉ ở mức biên ($p=.059$) và fail-safe N rất lớn (81.712). Đọc cùng nhau, bằng chứng chỉ ra mức **phóng đại vừa phải** của trung bình đã công bố, không phải một artifact toàn diện: $\bar{r}_{adj}\approx0.041$ nên được hiểu là cận dưới bảo thủ của một hiệu ứng dương nhỏ nhưng thực, chứ không phải point estimate. Cách đọc tiết chế này tự nó là một đóng góp, hiệu chỉnh lại lối diễn giải "bias chi phối" mà một kiểm định đơn lẻ có thể gợi ra.
 
-**Đóng góp 3 — Không moderator nào được xác nhận**: ICRV biên không có ý nghĩa ($Q_M=9.46$, $p=.051$) và chênh lệch duy nhất là do ô Frontier thưa (K=4) chứ không phải gradient thể chế đơn điệu; cDAI và DPL hoàn toàn null. Cần thêm nghiên cứu ở Frontier/SIDS — và quan trọng hơn là các moderator cấp nghiên cứu — trước khi có thể kết luận.
+**Đóng góp 3 — Chỉ ICRV đạt ý nghĩa biên**: ICRV có ý nghĩa ở mức 10% ($Q_M=9.46$, $p=.051$; không đạt 5%) và chênh lệch duy nhất là do ô Frontier thưa (K=4) chứ không phải gradient thể chế đơn điệu; cDAI và DPL hoàn toàn null. Cần thêm nghiên cứu ở Frontier/SIDS — và quan trọng hơn là các moderator cấp nghiên cứu — trước khi có thể kết luận.
 
 ### 5.3 Hàm ý thực tiễn và chính sách
 
@@ -471,7 +471,7 @@ Kết quả three-level MARA tích hợp trực tiếp với Conditional Digital
 
 **Cho nhà hoạch định chính sách**:
 - Bằng chứng thiên lệch ở mức vừa phải/hỗn hợp (Begg có ý nghĩa, Egger biên; $k_{imp}=58$) gợi ý một số negative findings về I→P chưa được công bố — cần khuyến khích công bố kết quả null
-- Gradient thể chế ICRV phẳng (không có ý nghĩa, $p=.051$) không biện minh cho việc coi chất lượng thể chế là yếu tố quyết định chính của hiệu quả xuất khẩu; chương trình xúc tiến nên nhắm vào năng lực doanh nghiệp ít nhất ngang bằng cải cách thể chế
+- Gradient thể chế ICRV phẳng (chỉ có ý nghĩa biên ở mức 10%, $p=.051$) không biện minh cho việc coi chất lượng thể chế là yếu tố quyết định chính của hiệu quả xuất khẩu; chương trình xúc tiến nên nhắm vào năng lực doanh nghiệp ít nhất ngang bằng cải cách thể chế
 - SIDS/Frontier cần hỗ trợ đặc biệt và cần thêm nghiên cứu trước khi kết luận
 
 ### 5.4 Hạn chế
@@ -490,7 +490,7 @@ Nghiên cứu này cập nhật và nâng cấp phân tích tổng hợp về qu
 
 Về phương pháp, đây là meta-analysis đầu tiên trong literature I→P áp dụng three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) để phân tách heterogeneity thành ba cấp — một cải tiến quan trọng so với single-level pooling truyền thống. Quan trọng nhất, phân rã cho thấy dị biệt tập trung ở cấp **within-study** ($I^2_{(2)}=57.1\%$) hơn hẳn between-study ($I^2_{(3)}=8.8\%$): nguồn chính của heterogeneity I→P là các lựa chọn phân tích bên trong từng nghiên cứu, không phải khác biệt bối cảnh quốc gia.
 
-Về lý thuyết, kết quả thực tế từ MARA (k=278, K=328) cho thấy **không moderator nào được xác nhận**: Hm2 (ICRV gradient) biên không có ý nghĩa ($Q_M=9.46$, $p=.051$) và chênh lệch duy nhất do ô Frontier thưa (K=4) chi phối; Hm3 (cDAI amplification) không được ủng hộ ($Q_M=0.23$, $p=.893$); Hm4 (DPL evolution) không được ủng hộ ($Q_M=0.47$, $p=.789$). Bằng chứng thiên lệch công bố ở mức vừa phải/hỗn hợp — trim-and-fill $k_{imputed}=58$, adjusted $\bar{r}=0.041$ (vs. unadjusted 0.076), Begg có ý nghĩa nhưng Egger chỉ ở mức biên. Hiệu ứng vẫn dương nhưng nhỏ.
+Về lý thuyết, kết quả thực tế từ MARA (k=278, K=328) cho thấy **chỉ ICRV đạt ý nghĩa biên**: Hm2 (ICRV gradient) có ý nghĩa ở mức 10% ($Q_M=9.46$, $p=.051$; không đạt 5%) và chênh lệch duy nhất do ô Frontier thưa (K=4) chi phối; Hm3 (cDAI amplification) không được ủng hộ ($Q_M=0.23$, $p=.893$); Hm4 (DPL evolution) không được ủng hộ ($Q_M=0.47$, $p=.789$). Bằng chứng thiên lệch công bố ở mức vừa phải/hỗn hợp — trim-and-fill $k_{imputed}=58$, adjusted $\bar{r}=0.041$ (vs. unadjusted 0.076), Begg có ý nghĩa nhưng Egger chỉ ở mức biên. Hiệu ứng vẫn dương nhưng nhỏ.
 
 Về thực tiễn, kết quả gợi ý rằng doanh nghiệp không nên kỳ vọng I→P premium lớn tự động — lợi ích thực tế (cận dưới $\bar{r}_{adj}\approx0.041$) là khiêm tốn và **không** được khuếch đại bởi bối cảnh thể chế hay digital adoption cấp quốc gia. Nhà hoạch định chính sách cần khuyến khích công bố kết quả null để giảm thiên lệch trong literature.
 
