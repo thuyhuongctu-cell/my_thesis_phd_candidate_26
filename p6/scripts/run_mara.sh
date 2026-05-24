@@ -14,21 +14,23 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 P6_DIR="$(dirname "$SCRIPT_DIR")"
 
-DATA_CSV="$P6_DIR/data/p6_study_database.csv"
+BASE_CSV="$P6_DIR/data/p6_study_database.csv"        # v1 base corpus (from markdown)
+DATA_CSV="$P6_DIR/data/p6_study_database_v2.csv"     # canonical merged DB (v1 + extractions)
+[[ -f "$DATA_CSV" ]] || DATA_CSV="$BASE_CSV"         # fall back to v1 if v2 absent
+export P6_DB="$DATA_CSV"                              # consumed by p6_real_mara.py
 
 echo "=== Step 1: Study database ==="
-# The committed CSV (k=238, K=288) is the authoritative coded dataset. The coded
-# markdown now contains all 238 studies, so --parse reproduces k=238/K=288 with
-# byte-identical MARA tables; parsing is kept opt-in only so the curated CSV
-# (effect id E288 for S238) is not overwritten by accident.
-if [[ "${1:-}" == "--parse" || ! -f "$DATA_CSV" ]]; then
-  echo "Parsing markdown -> CSV"
+# v1 (k=238, K=288) is the original coded corpus parsed from the markdown.
+# v2 (p6_study_database_v2.csv) = v1 + merged r-extractions (see 42_merge_*.py)
+# and is the canonical analysis DB. --parse only regenerates the v1 base corpus;
+# it never touches v2, so a merged DB is not overwritten by accident.
+if [[ "${1:-}" == "--parse" || ! -f "$BASE_CSV" ]]; then
+  echo "Parsing markdown -> $BASE_CSV"
   python3 "$SCRIPT_DIR/p6_parse_database.py" \
     --input  "$P6_DIR/p6_study_database_coded.md" \
-    --output "$DATA_CSV"
-else
-  echo "Using existing $DATA_CSV (pass --parse to regenerate from markdown)"
+    --output "$BASE_CSV"
 fi
+echo "Analysis DB: $DATA_CSV"
 
 echo ""
 echo "=== Step 2: Run three-level MARA ==="
