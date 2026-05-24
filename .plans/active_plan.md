@@ -107,3 +107,36 @@ Per the user's decision, no new skills were installed. The uploaded archives are
 mostly software/integration tools (yt-dlp, FinceptTerminal, cybersecurity,
 discord/imessage, squad-dev) not suited to academic-paper work; the repo already
 carries appropriate academic-writing skills.
+
+## Automated r-extraction for missing studies (v3 tracker)
+
+The "missing studies" are the screened-IN candidates in
+`p6/tools/results/fulltext_to_extraction_tracker_v3.csv` (654 marked Y; only ~3
+have an effect size, ~651 still need `r`/`n`). Effect sizes must be extracted
+from each paper's full text, so they cannot be filled in this session (no PDFs,
+no API key, restricted network). Extraction runs as a GitHub Actions workflow.
+
+Fixes made so the extraction loop runs on **this** branch:
+- `groq_extract_r.yml`, `claude_api_extract_r.yml`, `mara_run.yml`: replaced the
+  hardcoded `claude/edit-vietnamese-academic-standards-xcAmn` checkout/push refs
+  with `${{ github.ref_name }}` (run on whatever branch dispatches them).
+- Repointed the default inputs from the missing `extraction_queue_pdf_20260522.csv`
+  / `oa_manifest_merged.csv` to the present `extraction_queue_y_20260520.csv`
+  (654 rows) and `oa_manifest_20260520.csv`.
+
+### How to run it
+1. Add repo secret `GROQ_API_KEY` (free at console.groq.com) — or
+   `ANTHROPIC_API_KEY` for the Claude-API extractor.
+2. GitHub → Actions → **"Groq r-Extraction (P6 — Free API)"** → Run workflow,
+   selecting branch `claude/papers-6-deploy-skills-2JzRB`. Start with `limit=50`,
+   `dry_run=false`.
+3. The job downloads OA PDFs (via the manifest), extracts `r`/`n` with Groq, and
+   commits the filled rows back to `fulltext_to_extraction_tracker_v3.csv` on
+   this branch. Repeat (increase `limit`) until the backlog is cleared.
+4. Merge the tracker into the analysis CSV (`42_merge_tracker_to_database.py`),
+   then re-run `p6/scripts/run_mara.sh` (or the `mara_run` workflow) to refresh
+   tables/figures.
+
+Note: the 8 search/discovery workflows (wos/scopus/semantic_scholar/unpaywall/
+doi/abstract/p6_full_search) are still pinned to the old branch; they find new
+candidates rather than extract `r`, so they were left untouched for this task.

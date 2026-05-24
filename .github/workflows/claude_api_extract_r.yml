@@ -6,7 +6,7 @@ on:
       queue_file:
         description: 'Extraction queue CSV (in p6/tools/results/)'
         required: true
-        default: 'extraction_queue_pdf_20260522.csv'
+        default: 'extraction_queue_y_20260520.csv'
       manifest_file:
         description: 'Unpaywall OA manifest CSV (in p6/tools/results/). Leave empty to auto-use latest.'
         required: false
@@ -31,7 +31,7 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v4
         with:
-          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          ref: ${{ github.ref_name }}
           token: ${{ github.token }}
           fetch-depth: 0
 
@@ -145,8 +145,8 @@ jobs:
           git add p6/tools/results/claude_extract_log_*.csv || true
           git diff --cached --quiet && echo "Nothing to commit." || \
             git commit -m "feat(p6): Claude API r-extraction batch [$(date +%Y%m%d)]"
-          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
+          git push origin "HEAD:${{ github.ref_name }}" || {
             echo "Push failed (exit $?). Trying --force-with-lease..."
-            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
+            git push --force-with-lease origin "HEAD:${{ github.ref_name }}" || \
               echo "Force push also failed. Tracker changes saved in artifacts."
           }

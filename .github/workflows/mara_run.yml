@@ -23,7 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: claude/edit-vietnamese-academic-standards-xcAmn
+          ref: ${{ github.ref_name }}
           fetch-depth: 1
 
       - name: Check minimum ready_for_r (tracker mode only)
@@ -99,8 +99,8 @@ jobs:
           git add p6/tools/results/mara_runs/ || true
           git diff --cached --quiet && echo "Nothing to commit" || \
             git commit -m "data(p6/mara): MARA output run #${{ github.run_number }} mode=${{ github.event.inputs.mode || 'database' }} [$(date +%Y%m%d)]"
-          git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
+          git push origin "HEAD:${{ github.ref_name }}" || {
             echo "Push failed (exit $?). Trying --force-with-lease..."
-            git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
+            git push --force-with-lease origin "HEAD:${{ github.ref_name }}" || \
               echo "Force push also failed. Results in artifacts."
           }
