@@ -137,6 +137,33 @@ Fixes made so the extraction loop runs on **this** branch:
    then re-run `p6/scripts/run_mara.sh` (or the `mara_run` workflow) to refresh
    tables/figures.
 
+### Post-extraction runbook (verified, no code changes needed)
+
+The merge → MARA chain was checked end-to-end against the live files:
+- The Groq/Claude extractor sets `ready_for_r=1` on every row it fills, so those
+  rows become merge-eligible automatically.
+- `42_merge_tracker_to_database.py` filters to `decision==Y` + `ready_for_r==1`
+  + `converted_r` filled + `seq>435`. Of the 651 studies needing `r`, **605 are
+  seq>435 (merge-eligible)**; the 46 with seq≤435 are the original coded corpus
+  already in the database and are correctly skipped.
+- The 18 columns the merge emits match the database schema exactly (verified), and
+  it dedups new rows against the existing k=288 by DOI and author+year, backing up
+  `p6_study_database.csv` before writing.
+
+Run, once the tracker has been filled by the extraction workflow:
+```bash
+# 1. Preview what would merge (no writes)
+python3 p6/tools/42_merge_tracker_to_database.py --dry-run
+
+# 2. Merge for real (auto-backs up the DB; guard requires >=50 ready rows)
+python3 p6/tools/42_merge_tracker_to_database.py
+
+# 3. Re-run the meta-analysis on the MERGED csv.
+#    IMPORTANT: do NOT pass --parse — that regenerates the CSV from the
+#    markdown corpus (k=238/K=288) and would discard the merged rows.
+bash p6/scripts/run_mara.sh
+```
+
 Note: the 8 search/discovery workflows (wos/scopus/semantic_scholar/unpaywall/
 doi/abstract/p6_full_search) are still pinned to the old branch; they find new
 candidates rather than extract `r`, so they were left untouched for this task.
