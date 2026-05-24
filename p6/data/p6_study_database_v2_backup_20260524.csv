@@ -322,3 +322,9 @@ PA2020,PA2020,P.A.,2020,-0.021,263,,,,II,2,H,FOL,OTHER,COMP,1,0,source:scopus | 
 R2012,R2012,R.,2012,0.155,194,,,,MX,0,H,FOL,OTHER,COMP,1,1,source:scopus | ICRV=0 auto-default; verify from full text | MANUAL(Claude PDF):,0.15626,0.005236,3,10.1080/09603107.2011.626396
 A2002,A2002,A.,2002,0.094,600,,,,MX,0,M,SPN,OTHER,ACC,1,1,source:scopus | ICRV=0 auto-default; verify from full text | MANUAL(Claude PDF):,0.09428,0.001675,2,10.1016/s0897-3660(02)15016-1
 M2001,M2001,M.,2001,0.1,1684,,,,II,2,M,SPN,OTHER,COMP,1,0,source:scopus | MANUAL(Claude PDF): LiM2001 corr DOI-ROA=.10,0.10034,0.000595,2,10.1016/s1474-7979(01)11020-3
+Koh2009,Koh2009,Koh,2009,0.35,119,TO_EXTRACT,,,I,1,M,SPN,DEGREE OF INTERNATIONALIZATION/MULTINATIONALITY,COMP,1,0,sample_size; effect_size; statistic; performance_measure; intl_operationalizatio,0.36544,0.008621,2,10.1016/j.ijhm.2009.04.002
+Morgan2021,Morgan2021,Morgan,2021,-0.01,6391,TO_EXTRACT,,,MX,0,H,FOL,EXPORT INTENSITY,COMP,1,0,sample_size; effect_size; statistic; performance_measure; intl_operationalizatio,-0.01,0.000157,3,10.1057/s41267-020-00360-8
+BanyAriffin2016,BanyAriffin2016,Bany-Ariffin,2016,0.132,83,,,,II,2,H,FOL,OTHER,COMP,1,0,source:multi | MANUAL(Claude PDF): BanyAriffin2016 intl-div->TobinQ r=.132**,0.13277,0.0125,3,10.1108/ribs-01-2014-0016
+FuertesCallen2019,FuertesCallen2019,Fuertes-Callen,2019,-0.018,26205,,,,I,1,H,FOL,FSTS,GROWTH,1,0,source:multi | RE-INCLUDED (user PDF) + MANUAL(Claude PDF): FuertesCallen2019 ex,-0.018,3.8e-05,3,10.3846/jbem.2019.6928
+Forte2021,Forte2021,Forte,2021,0.09,8343,,,,MX,0,H,FOL,OTHER,COMP,1,0,source:multi | ICRV=0 auto-default; verify from full text | RE-INCLUDED (user PD,0.09024,0.00012,3,10.1108/mf-04-2020-0162
+C2022,C2022,C.,2022,0.008,210,,,,II,2,H,FOL,OTHER,ACC,1,0,source:scopus | RE-INCLUDED (user PDF) + MANUAL(Claude PDF): Adam2022 intl-div->,0.008,0.004831,3,10.15728/bbr.2022.19.4.1
