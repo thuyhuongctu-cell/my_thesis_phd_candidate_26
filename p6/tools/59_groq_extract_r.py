@@ -160,25 +160,30 @@ def load_manifest(manifest_path: str | None) -> dict:
     return out
 
 
-def ask_groq(client: Groq, text: str, model: str) -> dict:
-    """Send excerpt to Groq and parse JSON response."""
+def ask_groq(client: Groq, text: str, model: str, max_retries: int = 5) -> dict:
+    """Send excerpt to Groq and parse JSON response, retrying on rate limits."""
     prompt = EXTRACTION_PROMPT.format(text=text)
-    try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=MAX_TOKENS,
-            temperature=0.1,   # low temp for structured extraction
-        )
-        raw = response.choices[0].message.content.strip()
-        # Strip markdown code fences if present
-        raw = re.sub(r"^```(?:json)?\s*", "", raw)
-        raw = re.sub(r"\s*```$", "", raw)
-        result = json.loads(raw)
-        return result
-    except Exception as e:
-        return {"converted_r": None, "conversion_formula": "error",
-                "sample_size_n": None, "notes": f"Groq error: {e}"}
+    for attempt in range(max_retries + 1):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=MAX_TOKENS,
+                temperature=0.1,   # low temp for structured extraction
+            )
+            raw = response.choices[0].message.content.strip()
+            # Strip markdown code fences if present
+            raw = re.sub(r"^```(?:json)?\s*", "", raw)
+            raw = re.sub(r"\s*```$", "", raw)
+            return json.loads(raw)
+        except Exception as e:
+            msg = str(e)
+            # Groq free tier throttles by tokens/min; back off and retry on 429.
+            if ("429" in msg or "rate limit" in msg.lower()) and attempt < max_retries:
+                time.sleep(min(5 * (2 ** attempt), 60))
+                continue
+            return {"converted_r": None, "conversion_formula": "error",
+                    "sample_size_n": None, "notes": f"Groq error: {e}"}
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
