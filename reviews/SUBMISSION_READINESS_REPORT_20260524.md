@@ -59,8 +59,11 @@
 - 🟠 DOI placeholder: Agarwal et al. (2026), Barattieri et al. (2026) "[DOI pending]".
 - 🟠 Heckman: thiếu exclusion restriction; cite Wolfolds & Siegel (2019).
 
-### P4 Singapore (MIR) — CÓ ĐIỀU KIỆN
-- 🔴 **Turning point 82% vs 88,6%:** dòng 192 (β₁=2,652/β₂=−1,705 → 77,8%c +mean ≈82%) KHÁC dòng 253 (84,1%c → 88,6%). **Hai bộ hệ số khác nhau — cần xác định bộ M2 chính thức.**
+### P4 Singapore (MIR) — CÓ ĐIỀU KIỆN  ⚠️ ĐÃ RE-RUN, cần tác giả chốt spec
+- 🔴 **Turning point — đã re-run trên dữ liệu thật (24/05):** Chạy `do/03_run_models_R.R` trên `data_wbes/analysis/pooled_wbes_6waves.csv` (SGP_2023, N=623) cho **M2: β₁=3,642 (p<,001), β₂=−2,630 (p=,002), TP=76,4%, inverted-U CÓ ý nghĩa** (LM supported). KHÁC hẳn manuscript: §4.2 ghi β₁=2,652/β₂=−1,705 (p=,068, NS) → 82%; abstract/Hình ghi 88,6%.
+  **Nguyên nhân:** pooled CSV **không có biến ngành (sector)**, nên không tái lập được M2 *có sector FE* của manuscript. Bản rút gọn (không sector FE) cho inverted-U có ý nghĩa ở 76,4%; bản manuscript (có sector FE, từ raw .dta) cho 82%/88,6% với β₂ không có ý nghĩa.
+  **→ Hệ quả narrative:** nếu spec cuối cho β₂ có ý nghĩa (như bản rút gọn), khung "saturation/positive-null/không xác định được inverted-U" của P4 đang **bán rẻ kết quả** — thực ra là inverted-U xác nhận ở ~76%. Tác giả PHẢI chạy lại M2 *full sector-FE* trên raw Singapore .dta, chốt MỘT turning point, và quyết định khung diễn giải. **Tôi không tự đổi** (3 giá trị xung đột, spec không tái lập được từ pooled CSV).
+- Manuscript ghi exporters n≈84 (regression complete-case) vs raw FSTS>0 N=111 — kiểm tra lại khi re-run.
 - 🟠 Hệ số tương tác DAI: Bảng 2 = −1,167† vs §4.4 = −1,177 (p=.083).
 - 🟠 Nhãn cột Bảng 2 (M0,M2,M5,M6,M7,M4,M8) không khớp stack phương trình M0–M8.
 - 🟠 Cite Teece (2007) "Dynamic Capabilities" trên đường H3/DAI → rủi ro đọc DAI như dynamic capability; nên đổi sang ngôn ngữ coordination-platform.
