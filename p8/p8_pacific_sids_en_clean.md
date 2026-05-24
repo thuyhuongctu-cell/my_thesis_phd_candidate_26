@@ -348,15 +348,15 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 | Economy | N (firms) | Exporters | Exporter % | Mean FSTS | Waves |
 |---|---|---|---|---|---|
-| Fiji | — | — | — | — | — |
-| Kiribati | — | — | — | — | — |
-| Papua New Guinea | — | — | — | — | — |
-| Samoa | — | — | — | — | — |
-| Solomon Islands | — | — | — | — | — |
-| Timor-Leste | — | — | — | — | — |
-| Tonga | — | — | — | — | — |
-| Vanuatu | — | — | — | — | — |
-| Comoros | — | — | — | — | — |
+| Fiji | 165 | 46 | 27.9% | 0.109 | 2009–2025 |
+| Kiribati | 114 | 3 | 2.6% | 0.011 | 2025 |
+| Papua New Guinea | 141 | 20 | 14.2% | 0.028 | 2015–2024 |
+| Samoa | 131 | 24 | 18.3% | 0.051 | 2023 |
+| Solomon Islands | 107 | 10 | 9.3% | 0.040 | 2025 |
+| Timor-Leste | 393 | 53 | 13.5% | 0.104 | 2009–2021 |
+| Tonga | 144 | 13 | 9.0% | 0.044 | 2024 |
+| Vanuatu | 157 | 16 | 10.2% | 0.037 | 2009–2023 |
+| Comoros | 117 | 2 | 1.7% | 0.011 | 2025 |
 | **Total** | **1,469** | **187** | **12.7%** | **0.060** | 2009–2025 |
 
 *Note: Country-level breakdowns are available in the replication archive (`p8/replication/`). Total N reflects analysis sample (non-missing ln_LP and FSTS). Wave coverage varies by country.*

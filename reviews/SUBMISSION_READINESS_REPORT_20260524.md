@@ -87,7 +87,7 @@
 - 🟠 **Đóng góp lý thuyết cho 4\*:** hiện là "new context + bigger N" → rủi ro desk-reject; cần nêu rõ cơ chế lý thuyết MỚI (ICRV-contingent TP shifting, DAI×ICRV).
 
 ### P8 SIDS (World Development) — CÓ ĐIỀU KIỆN
-- 🔴 **Bảng 1 rỗng** (chỉ có dòng Total) — desk-reject; cần điền số theo từng nước.
+- ✅ **Bảng 1 ĐÃ ĐIỀN** (24/05): tính từ `data_wbes/p7/p7_pooled_clean.csv` (filter `icrv_label=="SIDS_small"`), khớp tổng N=1.469/exporters=187/12,7%/FSTS=0,060. 9 nước: Fiji(165), Kiribati(114), PNG(141), Samoa(131), Solomon(107), Timor-Leste(393), Tonga(144), Vanuatu(157), Comoros(117).
 - 🔴 Mâu thuẫn mẫu: Comoros (không phải Pacific) trong "Pacific SIDS"; Micronesia (dòng 59) không có trong danh sách 9 nước.
 - 🟠 Số học: β=−0,404 trên ln(LP) ≈ −33%, không phải −40,4%.
 - 🟠 Logic turning point §4.3 tự mâu thuẫn (0,712 < 0,80 nhưng nói "outside sample").
