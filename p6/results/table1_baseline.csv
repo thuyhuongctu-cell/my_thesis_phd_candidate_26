@@ -1,2 +1,2 @@
 model,K_effects,k_studies,z_pooled,r_pooled,r_ci_lo,r_ci_hi,pval,sigma2_study,sigma2_effect,I2_total,I2_between,I2_within,Q_total,Q_df,Q_pval
-Baseline three-level,326,276,0.0754,0.075,0.062,0.089,0,0.0015,0.00952,65.7,9,56.8,2815.68,325,0
+Baseline three-level,328,278,0.0755,0.075,0.062,0.089,0,0.00149,0.00946,65.6,8.9,56.7,2847.17,327,0
