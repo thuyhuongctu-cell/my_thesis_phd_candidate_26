@@ -120,8 +120,6 @@ S92,S92,Feng et al.,2019,0.029,170,China,2012,2017,III,2,L,FOL,EXP,ACC,1,0,,0.02
 S93,S93,Juniati et al.,2019,0.37,300,Indonesia,2012,2017,III,2,L,FOL,EXP,ACC,1,0,Indonesia firms,0.38842,0.003367,3,
 S94,S94_e1,Lee et al.,2019,-0.015,91,Korea,2013,2017,I,1,M,FOL,FSTS,ACC,1,0,2 effects,-0.015,0.011364,3,
 S94,S94_e2,Lee et al.,2019,-0.09,91,Korea,2013,2017,I,1,M,FOL,FSTS,ACC,1,0,2 effects,-0.09024,0.011364,3,
-S95,S95,Meyer et al.,2019,0.52,18,Multi,2013,2017,MX,0,M,FOL,COMP,ACC,1,0,Small n; caution,0.57634,0.066667,3,
-S96,S96,Tashman et al.,2019,0.41,17,USA/CSR,2012,2017,I,1,H,FOL,FSTS,ACC,1,0,CSR mod.; small n,0.43561,0.071429,3,
 S97,S97_e1,Woo et al.,2019,0.19,107,Korea,2013,2017,I,1,H,FOL,FSTS,ACC,1,0,,0.19234,0.009615,3,
 S97,S97_e2,Woo et al.,2019,0.19,107,Korea,2013,2017,I,1,H,FOL,FSTS,ACC,1,0,,0.19234,0.009615,3,
 S98,S98_e1,Kim et al.,2020,0.013,236,Korea,2013,2018,I,1,H,FOL,FSTS,ACC,1,0,2 effects,0.013,0.004292,3,
@@ -288,7 +286,7 @@ S236,S236,Barłożewski & Trąpczyński (2021a),,-0.1,97,Poland,2014,2019,MX,0,M
 S237,S237,Barłożewski & Trąpczyński (2021b),,-0.04,304,Poland,2014,2019,MX,0,M,FOL,FSTS,ACC,1,0,OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.),-0.04002,0.003322,3,
 S238,E288,Srividhya et al.,2024,0.13,992,India,2005,2021,III,2,M,SPN,FSTS,ACC,1,0,"WoS-arm S0129; JEI 2024 v39(2); r=0.13** Table3 DOI-ROA corr experienced BGs; n≈992 firm-yr (72 firms, PROWESS 2005-2021); doi:10.11130/jei.2024033",0.13074,0.001011,2,
 N239,N239_e1,Yu,2005,0.315,170,Taiwan,,,I,1,,SPN,COMP,ACC,1,0,E1: MNC(linear)->ROS r=0.315 t=4.222 df=162; E2: MNC^2->ROS r=-0.407 t=-5.667 df,0.32609,0.005988,2,10.1504/ijtm.2005.006007
-N240,N240_e1,Gerpott,2005,-0.61,60,Europe,,,MX,0,,SPN,COMP,ACC,1,0,sample_size; effect_size; statistic; performance_measure; intl_operationalizatio,-0.70892,0.017544,2,10.1016/j.telpol.2005.06.003
+N240,N240_e1,Gerpott,2005,0.06,60,Europe,,,MX,0,,SPN,COMP,ACC,1,0,Gerpott&Jakopin2005 FR/FS->ROA/ROS/EBITDA near-zero ns (corrected from erroneous -0.61),-0.70892,0.017544,2,10.1016/j.telpol.2005.06.003
 N241,N241_e1,Bougheas,2018,0.083,1040,Europe,,,I,1,,PRE,EXP,ACC,1,0,sample_size; effect_size; statistic; performance_measure; intl_operationalizatio,0.08319,0.000964,1,10.1080/1351847x.2017.1421246
 N242,N242_e1,Love,2009,0.144,149,TO_EXTRACT,,,I,1,,SPN,EXP,LAB,1,0,sample_size; effect_size; statistic; performance_measure; intl_operationalizatio,0.14501,0.006849,2,10.1016/j.ibusrev.2009.08.002
 N243,N243_e1,Sharma,2018,0.131,6993,India,,,III,3,,FOL,EXP,LAB,1,0,sample_size; effect_size; statistic; performance_measure; intl_operationalizatio,0.13176,0.000143,3,10.1016/j.qref.2017.11.015
