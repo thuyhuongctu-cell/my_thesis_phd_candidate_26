@@ -272,7 +272,7 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 
 - **Biến năng suất lao động (LP)**: `LP = ln(doanh thu bán hàng hàng năm PPP / số lao động toàn thời gian)`. Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để kiểm soát ngoại lai, và được điều chỉnh theo sức mua tương đương (PPP) nhằm đảm bảo tính so sánh xuyên quốc gia.
 
-- **Biến FSTS (Foreign Trade Sales to Total Sales)**: `FSTS = (d3b + d3c) / 100`, trong đó d3b là tỷ lệ doanh thu xuất khẩu trực tiếp và d3c là tỷ lệ doanh thu xuất khẩu gián tiếp. Quan sát thiếu FSTS được gán bằng 0 nếu doanh nghiệp không xuất khẩu (d3a = "Không"); gán missing nếu không trả lời.
+- **Biến FSTS (Foreign Sales to Total Sales)**: `FSTS = d3c / 100`, trong đó d3c là tỷ lệ doanh thu xuất khẩu trực tiếp trên tổng doanh thu (nhất quán với định nghĩa trong CĐ2 và các bản thảo P3–P5/P7/P8). Quan sát thiếu FSTS được gán bằng 0 nếu doanh nghiệp không xuất khẩu (d3a = "Không"); gán missing nếu không trả lời.
 
 - **Biến TCI (Technological Capability Index)**: Trung bình chuẩn hóa z của tối thiểu 3 trong 4 thành phần: ISO (b8), R&D (h8), đổi mới sản phẩm (h1), công nghệ nước ngoài (e6). Yêu cầu ≥3 non-missing để tính tổng hợp.
 
@@ -280,7 +280,7 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 
 **Hài hòa hóa xuyên ba thế hệ schema**: World Bank Enterprise Surveys trải qua ba thế hệ schema trong giai đoạn nghiên cứu. Thế hệ 1 — PICS3/MENA-WBES (2009–2012, n=14.171): bảng hỏi PICS3 cho khu vực Đông Nam Á và Trung Á. Thế hệ 2 — Standardized (2013–2017, n=24.564): áp dụng đồng nhất xuyên toàn cầu từ 2013. Thế hệ 3 — BREADY/BEE/EAP Core (2018–2025, n=62.450): tích hợp thanh toán điện tử, điện toán đám mây, ngân hàng di động vào các module bổ sung, gây **đứt gãy schema** quan sát được: Ấn Độ FSTS sụt 7,7%→2,7% trong đợt 2025.
 
-**Nguyên tắc minh bạch dữ liệu** (Aguinis et al., 2019): chuyên đề trình bày rõ (i) định nghĩa tổng thể (47 nền kinh tế châu Á và Thái Bình Dương, phân tách 41 và 7); (ii) quy trình lấy mẫu (lấy mẫu chính thức WBES); (iii) lý giải quy mô mẫu (pool 101.185); (iv) xử lý giá trị thiếu (FSTS = d3b + d3c, winsorize 1/99); (v) xây dựng biến; (vi) độ tin cậy và giá trị (TCI đa thành phần; DAI đơn thành phần Spec 1, đa thành phần Spec 2); (vii) phương pháp ước lượng (mô tả trong CĐ1; OLS và biến công cụ trong CĐ2); (viii) khoa học mở.
+**Nguyên tắc minh bạch dữ liệu** (Aguinis et al., 2019): chuyên đề trình bày rõ (i) định nghĩa tổng thể (47 nền kinh tế châu Á và Thái Bình Dương, phân tách 41 và 7); (ii) quy trình lấy mẫu (lấy mẫu chính thức WBES); (iii) lý giải quy mô mẫu (pool 101.185); (iv) xử lý giá trị thiếu (FSTS = d3c/100, winsorize 1/99); (v) xây dựng biến; (vi) độ tin cậy và giá trị (TCI đa thành phần; DAI đơn thành phần Spec 1, đa thành phần Spec 2); (vii) phương pháp ước lượng (mô tả trong CĐ1; OLS và biến công cụ trong CĐ2); (viii) khoa học mở.
 
 **Hệ thống phòng thủ ba tầng cho đứt gãy schema BREADY 2025**: Đợt 2025 (n=17.053 doanh nghiệp, 16,9% pool; bao gồm Nepal 2025 BREADY Micro n=1.740) sử dụng schema mới BREADY gây biến động bất thường: Ấn Độ FSTS giảm từ 7,7% xuống 2,7%; R&D nhiều nước tăng đột biến do hiệu ứng bảng hỏi chứ không phải thực tế. Ba đề xuất phương pháp: (3a) biến giả `Post_BREADY_2024` hấp thụ hiệu ứng schema tĩnh; (3b) mô hình neo (anchor model) — chạy hồi quy với dữ liệu đến 2024, khóa hệ số, kiểm định ổn định với dữ liệu đầy đủ bằng Chow test; (3c) panel hậu đại dịch độc lập — tách 2025 thành tập xác thực ngoài mẫu cho kỷ nguyên hậu COVID và AI.
 
