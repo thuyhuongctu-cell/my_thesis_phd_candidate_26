@@ -99,7 +99,7 @@ Phân tích publication bias gồm ba kiểm định bổ sung nhau. **Kiểm đ
 
 ### 4.3.1 Xác nhận quan hệ phi tuyến chữ U ngược
 
-Phân tích trên mẫu doanh nghiệp Singapore từ dữ liệu WBES với $N = 237$ doanh nghiệp xuất khẩu xác nhận mối quan hệ phi tuyến (inverted U-shape) giữa FSTS và hiệu quả hoạt động ở mức có ý nghĩa thống kê ($p < {,}05$). Mô hình bậc hai với biến FSTS và FSTS$^2$ cho hệ số bậc hai âm, phù hợp với dạng chữ U ngược như kỳ vọng từ H1 trong khung lý thuyết CDCM.
+Phân tích trên mẫu doanh nghiệp Singapore từ dữ liệu WBES với $N = 623$ doanh nghiệp xác nhận mối quan hệ phi tuyến (inverted U-shape) giữa FSTS và hiệu quả hoạt động ở mức có ý nghĩa thống kê ($p < {,}05$). Mô hình bậc hai với biến FSTS và FSTS$^2$ cho hệ số bậc hai âm, phù hợp với dạng chữ U ngược như kỳ vọng từ H1 trong khung lý thuyết CDCM.
 
 Điểm turning point ước lượng được ở mức **TP ≈ 88,6\% FSTS** — đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
 
@@ -109,7 +109,7 @@ Mô hình M5 bổ sung tương tác $FSTS \times DAI$ (bao gồm cả Tier-1 và
 
 ### 4.3.3 Giới hạn suy luận và cảnh báo thống kê
 
-Cần nhấn mạnh rằng kết quả Singapore là **ranh giới suy luận** (inferential bounds) do hạn chế nghiêm trọng về quy mô mẫu: $N = 237$ quan sát, chỉ gồm các doanh nghiệp xuất khẩu, dẫn đến power thống kê ước tính chỉ đạt khoảng 16\%. Luận án diễn giải kết quả Singapore như *bằng chứng phù hợp nhưng chưa kết luận* (consistent but underpowered evidence) — không bác bỏ giả thuyết nhưng cũng không tuyên bố xác nhận dứt khoát.
+Cần nhấn mạnh rằng kết quả Singapore là **ranh giới suy luận** (inferential bounds) do hạn chế nghiêm trọng về quy mô mẫu trong kiểm định khuếch đại H3: $n \approx 84$ quan sát chỉ gồm các doanh nghiệp xuất khẩu, dẫn đến power thống kê ước tính chỉ đạt khoảng 16\%. Luận án diễn giải kết quả Singapore như *bằng chứng phù hợp nhưng chưa kết luận* (consistent but underpowered evidence) — không bác bỏ giả thuyết nhưng cũng không tuyên bố xác nhận dứt khoát.
 
 ---
 
