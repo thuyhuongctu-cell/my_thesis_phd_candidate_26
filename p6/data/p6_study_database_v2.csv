@@ -327,3 +327,5 @@ BanyAriffin2016,BanyAriffin2016,Bany-Ariffin,2016,0.132,83,,,,II,2,H,FOL,OTHER,C
 Lana2017,Lana2017,Lana,2017,0.038,450,,,,MX,0,H,FOL,OTHER,COMP,1,1,source:multi | ICRV=0 auto-default; verify from full text | MANUAL(Claude PDF): ,0.03802,0.002237,3,10.1108/cg-05-2016-0110
 Fonfria2014,Fonfria2014,Fonfria,2014,0.143,2268,,,,I,1,H,FOL,OTHER,COMP,1,1,source:multi | MANUAL(Claude PDF): Fonfria&DuchBrown2014 exporter->labor product,0.14399,0.000442,3,10.1080/10242694.2013.857460
 Phan2020,Phan2020,Phan,2020,-0.011,131,,,,MX,0,H,FOL,OTHER,COMP,1,0,source:multi | ICRV=0 auto-default; verify from full text | MANUAL(Claude PDF): ,-0.011,0.007812,3,10.5267/j.dsl.2020.7.001
+Altomonte2016,Altomonte2016,Altomonte,2016,0.046,5340,TO_EXTRACT,,,MX,0,H,FOL,EXPORT INTENSITY,PROD,1,1,doi; sample_size; effect_size; statistic; performance_measure; intl_operationali,0.04603,0.000187,3,10.1080/10438599.2015.1076203
+Parra2015,Parra2015,Parra,2015,0.128,1978,,,,II,2,H,FOL,OTHER,COMP,1,1,source:multi | MANUAL(Claude PDF): Parra&MartinezZarzoso2015 Egypt export-premiu,0.12871,0.000506,3,10.5018/economics-ejournal.ja.2015-38
