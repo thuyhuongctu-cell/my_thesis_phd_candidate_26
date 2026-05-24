@@ -2,7 +2,7 @@
 """
 42_merge_tracker_to_database.py — Merge extraction tracker v3 → study database
 
-Maps fulltext_to_extraction_tracker_v3.csv (58 cols) to p6_study_database.csv (18 cols).
+Maps fulltext_to_extraction_tracker_v3.csv (58 cols) to p6_study_database_v2.csv (22 cols).
 Only merges rows where:
   - fulltext_screening_decision == 'Y'
   - ready_for_r == '1'
@@ -29,9 +29,9 @@ except ImportError:
     def fuzzy_ratio(a, b): return 100 * SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 DEFAULT_TRACKER  = "p6/tools/results/fulltext_to_extraction_tracker_v3.csv"
-DEFAULT_DATABASE = "p6/data/p6_study_database.csv"
-DEFAULT_OUTPUT   = "p6/data/p6_study_database.csv"   # overwrites in-place
-DEFAULT_BACKUP   = f"p6/data/p6_study_database_backup_{date.today().strftime('%Y%m%d')}.csv"
+DEFAULT_DATABASE = "p6/data/p6_study_database_v2.csv"
+DEFAULT_OUTPUT   = "p6/data/p6_study_database_v2.csv"   # canonical merged DB (22 cols)
+DEFAULT_BACKUP   = f"p6/data/p6_study_database_v2_backup_{date.today().strftime('%Y%m%d')}.csv"
 MIN_READY        = 50   # minimum ready_for_r=1 before allowing merge
 
 # ── Column mappings ──────────────────────────────────────────────────────────
@@ -44,8 +44,8 @@ ICRV_INT_TO_STD = {
     "1": "1", "2": "2", "3": "3", "4": "4", "5": "5", "6": "6", "0": "0"
 }
 
-# dpl integer → legacy string
-DPL_TO_LEGACY = {"1": "PRE", "2": "EARLY", "3": "PLATFORM"}
+# dpl integer → v2 label scheme (PRE / SPN / FOL), matching p6_study_database_v2
+DPL_TO_LEGACY = {"1": "PRE", "2": "SPN", "3": "FOL"}
 
 # fp_type → database ACC / MKT / PROD / COMP
 FP_MAP = {
@@ -135,6 +135,10 @@ def tracker_row_to_db(row: dict, study_id: str, effect_idx: int) -> dict:
     except:
         cdai = ""
 
+    # Derived effect-size columns required by p6_study_database_v2 (metafor inputs)
+    z_val = fisher_z(r_val)
+    vi_val = 1.0 / (n_val - 3) if n_val > 3 else ""
+
     return {
         "study_id":   study_id,
         "effect_id":  effect_id,
@@ -154,6 +158,10 @@ def tracker_row_to_db(row: dict, study_id: str, effect_idx: int) -> dict:
         "include_flag": "1",
         "is_estimated": IS_ESTIMATED.get(formula, "1"),
         "notes":      row.get("notes_for_extractor", "")[:80],
+        "fisher_z":   str(round(z_val, 5)),
+        "vi":         str(round(vi_val, 6)) if vi_val != "" else "",
+        "dpl_std":    dpl_int,
+        "doi":        row.get("doi", "").strip(),
     }
 
 
@@ -192,8 +200,12 @@ def main():
         db_rows = list(csv.DictReader(f))
     db_fieldnames = list(db_rows[0].keys())
 
-    # Build DOI index from existing
+    # Build DOI index from existing (v2 `doi` column + legacy "doi:" in notes)
     doi_index = {
+        r["doi"].strip().lower()
+        for r in db_rows
+        if r.get("doi", "").strip()
+    } | {
         r.get("notes", "").split("doi:")[1].strip().lower()
         for r in db_rows
         if "doi:" in r.get("notes", "").lower()

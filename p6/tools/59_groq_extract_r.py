@@ -46,7 +46,7 @@ except ImportError:
 # ─── Configuration ────────────────────────────────────────────────────────────
 DEFAULT_MODEL  = "llama-3.3-70b-versatile"
 MAX_TOKENS     = 512
-PDF_TEXT_CHARS = 10_000   # Groq has token limits; keep slightly shorter than Claude
+PDF_TEXT_CHARS = 16_000   # ~4k tokens: head + results window, safe for Groq free tier
 
 EXTRACTION_PROMPT = """\
 You are a meta-analysis research assistant. Extract the main \
@@ -91,19 +91,56 @@ PAPER EXCERPT:
 def pdf_text(pdf_path: Path) -> str:
     try:
         with pdfplumber.open(pdf_path) as pdf:
-            pages = [p.extract_text() or "" for p in pdf.pages]
-        return "\n".join(pages)[:PDF_TEXT_CHARS]
+            full = "\n".join(p.extract_text() or "" for p in pdf.pages)
     except Exception:
         return ""
+    if len(full) <= PDF_TEXT_CHARS:
+        return full
+    # Long paper: effect sizes live in the results/correlation tables, which a
+    # naive head-truncation misses. Keep the head (abstract/intro/methods) plus
+    # a window anchored where results statistics usually start.
+    half = PDF_TEXT_CHARS // 2
+    head = full[:half]
+    low = full.lower()
+    anchor = -1
+    for kw in ("correlation", "table 2", "table 3", "regression results", "results"):
+        anchor = low.find(kw, half)
+        if anchor != -1:
+            break
+    if anchor == -1:
+        anchor = len(full) // 2
+    tail = full[anchor:anchor + half]
+    return head + "\n...\n" + tail
 
 
 def download_pdf(url: str, dest: Path) -> bool:
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; meta-analysis-research)"}
     try:
-        r = requests.get(url, timeout=30,
-                         headers={"User-Agent": "Mozilla/5.0 meta-analysis research"})
-        if r.status_code == 200 and b"%PDF" in r.content[:8]:
+        r = requests.get(url, timeout=30, allow_redirects=True, headers=headers)
+        if r.status_code != 200:
+            return False
+        ctype = r.headers.get("Content-Type", "").lower()
+        head = r.content[:1024]
+        # Accept by magic bytes anywhere near the start OR by Content-Type;
+        # many OA hosts serve valid PDFs without %PDF at byte 0.
+        if b"%PDF" in head or "application/pdf" in ctype:
             dest.write_bytes(r.content)
             return True
+        # Landing page: try to find a direct PDF link and fetch it once.
+        if "text/html" in ctype:
+            m = re.search(rb'href=["\']([^"\']+\.pdf[^"\']*)["\']', r.content, re.I)
+            if m:
+                pdf_url = m.group(1).decode("utf-8", "ignore")
+                if pdf_url.startswith("/"):
+                    from urllib.parse import urljoin
+                    pdf_url = urljoin(r.url, pdf_url)
+                r2 = requests.get(pdf_url, timeout=30, allow_redirects=True, headers=headers)
+                if r2.status_code == 200 and (
+                    b"%PDF" in r2.content[:1024]
+                    or "application/pdf" in r2.headers.get("Content-Type", "").lower()
+                ):
+                    dest.write_bytes(r2.content)
+                    return True
     except Exception:
         pass
     return False
@@ -123,25 +160,30 @@ def load_manifest(manifest_path: str | None) -> dict:
     return out
 
 
-def ask_groq(client: Groq, text: str, model: str) -> dict:
-    """Send excerpt to Groq and parse JSON response."""
+def ask_groq(client: Groq, text: str, model: str, max_retries: int = 3) -> dict:
+    """Send excerpt to Groq and parse JSON response, retrying on rate limits."""
     prompt = EXTRACTION_PROMPT.format(text=text)
-    try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            max_tokens=MAX_TOKENS,
-            temperature=0.1,   # low temp for structured extraction
-        )
-        raw = response.choices[0].message.content.strip()
-        # Strip markdown code fences if present
-        raw = re.sub(r"^```(?:json)?\s*", "", raw)
-        raw = re.sub(r"\s*```$", "", raw)
-        result = json.loads(raw)
-        return result
-    except Exception as e:
-        return {"converted_r": None, "conversion_formula": "error",
-                "sample_size_n": None, "notes": f"Groq error: {e}"}
+    for attempt in range(max_retries + 1):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=MAX_TOKENS,
+                temperature=0.1,   # low temp for structured extraction
+            )
+            raw = response.choices[0].message.content.strip()
+            # Strip markdown code fences if present
+            raw = re.sub(r"^```(?:json)?\s*", "", raw)
+            raw = re.sub(r"\s*```$", "", raw)
+            return json.loads(raw)
+        except Exception as e:
+            msg = str(e)
+            # Groq free tier throttles by tokens/min; brief backoff then retry.
+            if ("429" in msg or "rate limit" in msg.lower()) and attempt < max_retries:
+                time.sleep(min(8 * (2 ** attempt), 30))
+                continue
+            return {"converted_r": None, "conversion_formula": "error",
+                    "sample_size_n": None, "notes": f"Groq error: {e}"}
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
@@ -212,6 +254,10 @@ def main():
     no_pdf = 0
     no_text = 0
     not_found = 0
+    api_errors = 0
+    auth_failed = False
+    consecutive_rl = 0   # consecutive rate-limit failures (quota-exhaustion signal)
+    quota_exhausted = False
 
     for i, qrow in enumerate(pending, 1):
         seq   = str(qrow.get("seq", "")).strip()
@@ -248,7 +294,7 @@ def main():
         if not pdf_path:
             no_pdf += 1
             log["status"] = "NO_PDF"
-            log["notes"] = "PDF not in dir and no OA URL"
+            log["notes"] = "no PDF: download failed (paywall/landing page) or no OA URL"
             log_entries.append(log)
             continue
 
@@ -269,6 +315,18 @@ def main():
         conv  = result.get("conversion_formula", "not_found")
         n_val = result.get("sample_size_n")
 
+        # LLMs often return numbers as strings ("0.34") or placeholders
+        # ("N/A", null); coerce safely so round() never crashes the run.
+        try:
+            s = str(r_val).strip().lower()
+            r_val = float(r_val) if r_val is not None and s not in ("", "null", "none", "n/a", "na") else None
+        except (TypeError, ValueError):
+            r_val = None
+        try:
+            n_val = int(float(n_val)) if n_val not in (None, "", "null") else None
+        except (TypeError, ValueError):
+            n_val = None
+
         log["converted_r"]        = str(round(r_val, 4)) if r_val is not None else ""
         log["conversion_formula"] = conv
         log["sample_size_n"]      = str(n_val) if n_val else ""
@@ -279,6 +337,29 @@ def main():
         log["notes"]              = str(result.get("notes") or "")[:120]
 
         if r_val is None:
+            note = str(result.get("notes") or "")
+            if conv == "error" or note.startswith("Groq error"):
+                api_errors += 1
+                log["status"] = "API_ERROR"
+                log_entries.append(log)
+                # A 401 affects every call — abort now instead of burning the batch.
+                if "401" in note or "invalid api key" in note.lower():
+                    auth_failed = True
+                    print(f"\nFATAL: Groq rejected the API key (401 Invalid API Key).",
+                          flush=True)
+                    break
+                # Persistent 429s after retries => rate/daily quota exhausted.
+                # Stop early instead of grinding for an hour; re-run later.
+                if "429" in note or "rate limit" in note.lower():
+                    consecutive_rl += 1
+                    if consecutive_rl >= 6:
+                        quota_exhausted = True
+                        print("\nGroq rate/daily limit reached — stopping early. "
+                              "Re-run later to continue from here.", flush=True)
+                        break
+                print(f"  [{i}/{len(pending)}] seq={seq} — API error: {note[:70]}", flush=True)
+                continue
+            consecutive_rl = 0
             not_found += 1
             log["status"] = "NOT_FOUND"
             log_entries.append(log)
@@ -286,6 +367,7 @@ def main():
             continue
 
         log["status"] = "EXTRACTED"
+        consecutive_rl = 0
         log_entries.append(log)
 
         # Update tracker (never overwrite manual work)
@@ -341,8 +423,15 @@ def main():
     print(f"No PDF:           {no_pdf}")
     print(f"No text (scan):   {no_text}")
     print(f"No I→P coeff:     {not_found}")
+    print(f"API errors:       {api_errors}")
     print(f"Skipped (manual): {skipped_manual}")
     print(f"Log:              {log_path}")
+
+    if auth_failed:
+        print("\nFATAL: the Groq API key is invalid (401). No papers could be"
+              " processed.\nGet a fresh key at console.groq.com, set it via the"
+              " GROQ_API_KEY secret or the\ngroq_api_key run input, then re-run.")
+        sys.exit(1)
     print(f"\nNEXT: Review GROQ: entries in notes_for_extractor, then set ready_for_r=1")
 
 

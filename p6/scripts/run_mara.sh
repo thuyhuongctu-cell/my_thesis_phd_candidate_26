@@ -14,24 +14,50 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 P6_DIR="$(dirname "$SCRIPT_DIR")"
 
-echo "=== Step 1: Parse study database ==="
-python3 "$SCRIPT_DIR/p6_parse_database.py" \
-  --input  "$P6_DIR/p6_study_database_coded.md" \
-  --output "$P6_DIR/data/p6_study_database.csv"
+BASE_CSV="$P6_DIR/data/p6_study_database.csv"        # v1 base corpus (from markdown)
+DATA_CSV="$P6_DIR/data/p6_study_database_v2.csv"     # canonical merged DB (v1 + extractions)
+[[ -f "$DATA_CSV" ]] || DATA_CSV="$BASE_CSV"         # fall back to v1 if v2 absent
+export P6_DB="$DATA_CSV"                              # consumed by p6_real_mara.py
+
+echo "=== Step 1: Study database ==="
+# v1 (k=238, K=288) is the original coded corpus parsed from the markdown.
+# v2 (p6_study_database_v2.csv) = v1 + merged r-extractions (see 42_merge_*.py)
+# and is the canonical analysis DB. --parse only regenerates the v1 base corpus;
+# it never touches v2, so a merged DB is not overwritten by accident.
+if [[ "${1:-}" == "--parse" || ! -f "$BASE_CSV" ]]; then
+  echo "Parsing markdown -> $BASE_CSV"
+  python3 "$SCRIPT_DIR/p6_parse_database.py" \
+    --input  "$P6_DIR/p6_study_database_coded.md" \
+    --output "$BASE_CSV"
+fi
+echo "Analysis DB: $DATA_CSV"
 
 echo ""
-echo "=== Step 2: Run MARA (R required) ==="
-
+echo "=== Step 2: Run three-level MARA ==="
+# Prefer R/metafor (reference); fall back to Docker, then the pure-Python port.
+# The Python port reproduces the R results tables byte-for-byte (validated).
+mkdir -p "$P6_DIR/results"
+docker_ready() { command -v docker &>/dev/null && docker info &>/dev/null; }
 if command -v Rscript &>/dev/null; then
+  echo "Using local Rscript + metafor"
   Rscript "$SCRIPT_DIR/p6_real_mara.R" 2>&1 | tee "$P6_DIR/results/mara_output.txt"
-else
-  echo "Rscript not found. Running via Docker..."
+elif docker_ready; then
+  echo "Rscript not found. Running via Docker (rocker/tidyverse)..."
   docker run --rm \
     -v "$P6_DIR":/analysis/p6 \
     -w /analysis \
     rocker/tidyverse:4.3.2 \
     Rscript /analysis/p6/scripts/p6_real_mara.R 2>&1 | tee "$P6_DIR/results/mara_output.txt"
+else
+  echo "Neither Rscript nor a running Docker daemon found."
+  echo "Using pure-Python port (no R needed)."
+  python3 "$SCRIPT_DIR/p6_real_mara.py" 2>&1 | tee "$P6_DIR/results/mara_output.txt"
 fi
+
+echo ""
+echo "=== Step 3: Regenerate manuscript figures ==="
+python3 "$SCRIPT_DIR/generate_p6_figures.py" 2>&1 | tee -a "$P6_DIR/results/mara_output.txt" || \
+  echo "Figure generation skipped (matplotlib unavailable)."
 
 echo ""
 echo "=== Pipeline complete ==="
