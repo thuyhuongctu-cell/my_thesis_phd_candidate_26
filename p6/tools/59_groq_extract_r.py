@@ -160,7 +160,7 @@ def load_manifest(manifest_path: str | None) -> dict:
     return out
 
 
-def ask_groq(client: Groq, text: str, model: str, max_retries: int = 5) -> dict:
+def ask_groq(client: Groq, text: str, model: str, max_retries: int = 3) -> dict:
     """Send excerpt to Groq and parse JSON response, retrying on rate limits."""
     prompt = EXTRACTION_PROMPT.format(text=text)
     for attempt in range(max_retries + 1):
@@ -178,9 +178,9 @@ def ask_groq(client: Groq, text: str, model: str, max_retries: int = 5) -> dict:
             return json.loads(raw)
         except Exception as e:
             msg = str(e)
-            # Groq free tier throttles by tokens/min; back off and retry on 429.
+            # Groq free tier throttles by tokens/min; brief backoff then retry.
             if ("429" in msg or "rate limit" in msg.lower()) and attempt < max_retries:
-                time.sleep(min(5 * (2 ** attempt), 60))
+                time.sleep(min(8 * (2 ** attempt), 30))
                 continue
             return {"converted_r": None, "conversion_formula": "error",
                     "sample_size_n": None, "notes": f"Groq error: {e}"}
@@ -256,6 +256,8 @@ def main():
     not_found = 0
     api_errors = 0
     auth_failed = False
+    consecutive_rl = 0   # consecutive rate-limit failures (quota-exhaustion signal)
+    quota_exhausted = False
 
     for i, qrow in enumerate(pending, 1):
         seq   = str(qrow.get("seq", "")).strip()
@@ -346,8 +348,18 @@ def main():
                     print(f"\nFATAL: Groq rejected the API key (401 Invalid API Key).",
                           flush=True)
                     break
+                # Persistent 429s after retries => rate/daily quota exhausted.
+                # Stop early instead of grinding for an hour; re-run later.
+                if "429" in note or "rate limit" in note.lower():
+                    consecutive_rl += 1
+                    if consecutive_rl >= 6:
+                        quota_exhausted = True
+                        print("\nGroq rate/daily limit reached — stopping early. "
+                              "Re-run later to continue from here.", flush=True)
+                        break
                 print(f"  [{i}/{len(pending)}] seq={seq} — API error: {note[:70]}", flush=True)
                 continue
+            consecutive_rl = 0
             not_found += 1
             log["status"] = "NOT_FOUND"
             log_entries.append(log)
@@ -355,6 +367,7 @@ def main():
             continue
 
         log["status"] = "EXTRACTED"
+        consecutive_rl = 0
         log_entries.append(log)
 
         # Update tracker (never overwrite manual work)
