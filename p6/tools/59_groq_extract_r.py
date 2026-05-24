@@ -46,7 +46,7 @@ except ImportError:
 # ─── Configuration ────────────────────────────────────────────────────────────
 DEFAULT_MODEL  = "llama-3.3-70b-versatile"
 MAX_TOKENS     = 512
-PDF_TEXT_CHARS = 10_000   # Groq has token limits; keep slightly shorter than Claude
+PDF_TEXT_CHARS = 16_000   # ~4k tokens: head + results window, safe for Groq free tier
 
 EXTRACTION_PROMPT = """\
 You are a meta-analysis research assistant. Extract the main \
@@ -91,10 +91,26 @@ PAPER EXCERPT:
 def pdf_text(pdf_path: Path) -> str:
     try:
         with pdfplumber.open(pdf_path) as pdf:
-            pages = [p.extract_text() or "" for p in pdf.pages]
-        return "\n".join(pages)[:PDF_TEXT_CHARS]
+            full = "\n".join(p.extract_text() or "" for p in pdf.pages)
     except Exception:
         return ""
+    if len(full) <= PDF_TEXT_CHARS:
+        return full
+    # Long paper: effect sizes live in the results/correlation tables, which a
+    # naive head-truncation misses. Keep the head (abstract/intro/methods) plus
+    # a window anchored where results statistics usually start.
+    half = PDF_TEXT_CHARS // 2
+    head = full[:half]
+    low = full.lower()
+    anchor = -1
+    for kw in ("correlation", "table 2", "table 3", "regression results", "results"):
+        anchor = low.find(kw, half)
+        if anchor != -1:
+            break
+    if anchor == -1:
+        anchor = len(full) // 2
+    tail = full[anchor:anchor + half]
+    return head + "\n...\n" + tail
 
 
 def download_pdf(url: str, dest: Path) -> bool:
@@ -269,7 +285,7 @@ def main():
         if not pdf_path:
             no_pdf += 1
             log["status"] = "NO_PDF"
-            log["notes"] = "PDF not in dir and no OA URL"
+            log["notes"] = "no PDF: download failed (paywall/landing page) or no OA URL"
             log_entries.append(log)
             continue
 
