@@ -22,7 +22,7 @@ if [[ "$1" != "--no-templates" ]]; then
     /tmp/pandoc_default.docx "${TEMPLATES}"
 fi
 
-PANDOC_VI="pandoc -f gfm -t docx --reference-doc=${THESIS_REF}"
+PANDOC_VI="pandoc -f gfm -t docx --resource-path=.:thesis --reference-doc=${THESIS_REF}"
 PANDOC_EN="pandoc -f gfm -t docx --reference-doc=${PAPER_REF}"
 
 mkdir -p "${DIST}"/{chuyen_de_1/source_md,luan_an/source_md,manuscripts/vi,manuscripts/en}
@@ -48,10 +48,14 @@ for f in chuong_1_gioi_thieu_vi chuong_2_tong_quan_tai_lieu_vi chuong_3_phuong_p
 done
 
 echo "[3] Vietnamese manuscripts..."
-# P3: no inline figures — build directly
-[ -f "${SCRIPT_DIR}/p3/submission/p3_vietnam_vi.md" ] && \
-  ${PANDOC_VI} "${SCRIPT_DIR}/p3/submission/p3_vietnam_vi.md" \
+# P3: figures in p3/figures/vietnam/ — run from p3/ dir so relative paths resolve
+[ -f "${SCRIPT_DIR}/p3/submission/p3_vietnam_vi.md" ] && (
+  cd "${SCRIPT_DIR}/p3" && \
+  pandoc -f gfm -t docx --resource-path=. \
+    --reference-doc="${THESIS_REF}" \
+    submission/p3_vietnam_vi.md \
     -o "${DIST}/manuscripts/vi/p3_vietnam_vi.docx"
+)
 # P4: figures in p4/figures/ — run from p4/ dir so relative paths resolve
 [ -f "${SCRIPT_DIR}/p4/submission/p4_singapore_vi.md" ] && (
   cd "${SCRIPT_DIR}/p4" && \
