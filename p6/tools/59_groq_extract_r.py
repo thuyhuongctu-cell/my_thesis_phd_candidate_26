@@ -269,6 +269,18 @@ def main():
         conv  = result.get("conversion_formula", "not_found")
         n_val = result.get("sample_size_n")
 
+        # LLMs often return numbers as strings ("0.34") or placeholders
+        # ("N/A", null); coerce safely so round() never crashes the run.
+        try:
+            s = str(r_val).strip().lower()
+            r_val = float(r_val) if r_val is not None and s not in ("", "null", "none", "n/a", "na") else None
+        except (TypeError, ValueError):
+            r_val = None
+        try:
+            n_val = int(float(n_val)) if n_val not in (None, "", "null") else None
+        except (TypeError, ValueError):
+            n_val = None
+
         log["converted_r"]        = str(round(r_val, 4)) if r_val is not None else ""
         log["conversion_formula"] = conv
         log["sample_size_n"]      = str(n_val) if n_val else ""
