@@ -1,7 +1,7 @@
 analysis,K,r_est,r_ci_lo,r_ci_hi
-Main analysis,329,0.075,0.061,0.088
-Confirmed r only,276,0.076,0.06,0.093
-Exclude n < 30,327,0.074,0.061,0.087
-ACC performance,252,0.075,0.06,0.091
-FSTS measure,142,0.06,0.042,0.078
-DL estimator,329,0.073,0.062,0.084
+Main analysis,325,0.075,0.062,0.089
+Confirmed r only,272,0.078,0.061,0.094
+Exclude n < 30,323,0.075,0.061,0.089
+ACC performance,251,0.076,0.06,0.091
+FSTS measure,141,0.061,0.043,0.079
+DL estimator,325,0.074,0.063,0.086
