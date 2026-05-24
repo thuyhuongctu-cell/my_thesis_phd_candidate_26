@@ -70,22 +70,22 @@ Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biế
 
 ### 4.2.1 Chỉ số hiệu ứng tổng hợp
 
-Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu gồm $k = 238$ nghiên cứu với tổng cộng hàng trăm cặp effect-size đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}074$, với khoảng tin cậy 95% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
+Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu gồm $k = 259$ nghiên cứu, $K = 309$ effect sizes từ 49 nền kinh tế, đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}074$, với khoảng tin cậy 95% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
 
-Đặc biệt đáng lưu ý, kết quả P6 hoàn toàn nhất quán với baseline meta-analysis đã công bố tại hội nghị ICBEF 2024 của Đỗ và Phan (2024), với $k = 113$ nghiên cứu và $r = 0{,}07$ — sự hội tụ này tạo ra bằng chứng chéo vững chắc khi mở rộng pool lên gần gấp đôi số nghiên cứu.
+Đặc biệt đáng lưu ý, kết quả P6 hoàn toàn nhất quán với baseline meta-analysis đã công bố tại hội nghị ICBEF 2024 của Do và Phan (2024), với $k = 113$ nghiên cứu và $r = 0{,}07$ — sự hội tụ này tạo ra bằng chứng chéo vững chắc khi mở rộng pool lên gần gấp đôi số nghiên cứu.
 
 ### 4.2.2 Phân tích dị biệt ba tầng
 
-Kết quả quan trọng nhất của phân tích MARA không phải là giá trị điểm của $r$ mà là cấu trúc của dị biệt ($I^2$). Tổng $I^2 = 62{,}4\%$, cho thấy mức dị biệt đáng kể trong tập hợp 238 nghiên cứu không phải do sai số lấy mẫu. Quan trọng hơn, khi phân tách theo cấu trúc ba tầng:
+Kết quả quan trọng nhất của phân tích MARA không phải là giá trị điểm của $r$ mà là cấu trúc của dị biệt ($I^2$). Tổng $I^2 = 61{,}2\%$, cho thấy mức dị biệt đáng kể trong tập hợp 259 nghiên cứu không phải do sai số lấy mẫu. Quan trọng hơn, khi phân tách theo cấu trúc ba tầng:
 
-- **Tầng 2** (between-effect within-study, tức dị biệt giữa các effect-size trong cùng một nghiên cứu): chiếm $54{,}1\%$ tổng phương sai — đây là nguồn dị biệt chủ đạo.
-- **Tầng 3** (between-study, tức dị biệt giữa các nghiên cứu): chỉ chiếm $8{,}4\%$.
+- **Tầng 2** (between-effect within-study, tức dị biệt giữa các effect-size trong cùng một nghiên cứu): chiếm $30{,}6\%$ tổng phương sai.
+- **Tầng 3** (between-study, tức dị biệt giữa các nghiên cứu): cũng chiếm $30{,}6\%$ — phân bổ đều nhau.
 
-Phát hiện này có hàm ý lý thuyết sâu sắc: heterogeneity trong I→P literature xuất phát chủ yếu từ sự biến thiên **bên trong các nghiên cứu** (ví dụ: cùng một mẫu doanh nghiệp nhưng dùng các thước đo khác nhau cho cùng cấu trúc cho ra kết quả khác nhau), chứ không phải giữa các nghiên cứu với nhau. Điều này gợi ý rằng sự không nhất quán trong literature I→P phần lớn là vấn đề **đo lường và bối cảnh**, không phải là bằng chứng về sự thiếu nhất quán thực sự trong quan hệ nhân quả giữa quốc tế hóa và hiệu quả.
+Phát hiện này có hàm ý lý thuyết sâu sắc: heterogeneity trong I→P literature phân bổ **đều giữa trong và giữa các nghiên cứu**, cho thấy cả lựa chọn đo lường (bên trong nghiên cứu) lẫn bối cảnh quốc gia thực chất (giữa các nghiên cứu) đều đóng góp bằng nhau. Điều này gợi ý rằng publication bias — không chỉ sự khác biệt thể chế hay số hoá — là nguồn gốc chủ yếu của heterogeneity quan sát được.
 
 ### 4.2.3 Điều tiết bởi chế độ thể chế — ICRV moderation
 
-Kiểm định điều tiết bằng nhóm chế độ thể chế ICRV (Institutional Context Regime Variation) cho kết quả có ý nghĩa thống kê: $Q_M = 17{,}35$, $df = 4$, $p = {,}002$. Điều này xác nhận rằng chế độ thể chế — được phân loại thành sáu nhóm từ Advanced Innovation-Driven (Nhóm I: Singapore, Hong Kong, Đài Loan, Hàn Quốc) đến SIDS Thái Bình Dương (Nhóm VI) — là moderator có ý nghĩa thực sự cho mối quan hệ tổng hợp I→P trong văn liệu. Kiểm định $Q_M$ vượt ngưỡng tới hạn ($p = {,}002$), hàm ý rằng sự khác biệt giữa các nhóm ICRV không thể giải thích bằng sai số lấy mẫu.
+Kiểm định điều tiết bằng nhóm chế độ thể chế ICRV (Institutional Context Regime Variation) cho kết quả có ý nghĩa thống kê: $Q_M = 10{,}16$, $df = 4$, $p = {,}038$. Điều này xác nhận rằng chế độ thể chế — được phân loại thành sáu nhóm từ Advanced Innovation-Driven (Nhóm I: Singapore, Hong Kong, Đài Loan, Hàn Quốc) đến SIDS Thái Bình Dương (Nhóm VI) — là moderator có ý nghĩa thống kê cho mối quan hệ tổng hợp I→P trong văn liệu. Kiểm định $Q_M$ vượt ngưỡng tới hạn ($p = {,}038$), tuy nhiên gradient đơn điệu E1a/E1b chưa xác nhận được do $k$ thấp tại Frontier ($k = 4$) và SIDS ($k = 3$).
 
 Gradient theo ICRV hiện diện rõ ràng trong kết quả: các nền kinh tế Advanced Innovation-Driven có hiệu ứng I→P lớn hơn so với các nền kinh tế Frontier hay SIDS. Kết quả này nhất quán với cơ chế lý thuyết từ Institutional Theory — môi trường thể chế chất lượng cao tạo điều kiện để doanh nghiệp chuyển hóa quốc tế hóa thành hiệu quả dễ dàng hơn (North, 1990; Marano et al., 2016).
 
@@ -99,9 +99,9 @@ Phân tích publication bias gồm ba kiểm định bổ sung nhau. **Kiểm đ
 
 ### 4.3.1 Xác nhận quan hệ phi tuyến chữ U ngược
 
-Phân tích trên mẫu doanh nghiệp Singapore từ dữ liệu WBES với $N = 237$ doanh nghiệp xuất khẩu xác nhận mối quan hệ phi tuyến (inverted U-shape) giữa FSTS và hiệu quả hoạt động ở mức có ý nghĩa thống kê ($p < {,}05$). Mô hình bậc hai với biến FSTS và FSTS$^2$ cho hệ số bậc hai âm, phù hợp với dạng chữ U ngược như kỳ vọng từ H1 trong khung lý thuyết CDCM.
+Phân tích trên mẫu doanh nghiệp Singapore từ dữ liệu WBES với $N = 623$ doanh nghiệp xác nhận mối quan hệ phi tuyến (inverted U-shape) giữa FSTS và hiệu quả hoạt động ở mức có ý nghĩa thống kê ($p < {,}05$). Mô hình bậc hai với biến FSTS và FSTS$^2$ cho hệ số bậc hai âm, phù hợp với dạng chữ U ngược như kỳ vọng từ H1 trong khung lý thuyết CDCM.
 
-Điểm turning point ước lượng được ở mức **TP ≈ 88,6\% FSTS** — đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
+Điểm turning point ước lượng được ở mức **TP ≈ 82\% FSTS** — đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
 
 ### 4.3.2 Điều tiết bởi Digital Adoption Index (DAI)
 
@@ -109,7 +109,7 @@ Mô hình M5 bổ sung tương tác $FSTS \times DAI$ (bao gồm cả Tier-1 và
 
 ### 4.3.3 Giới hạn suy luận và cảnh báo thống kê
 
-Cần nhấn mạnh rằng kết quả Singapore là **ranh giới suy luận** (inferential bounds) do hạn chế nghiêm trọng về quy mô mẫu: $N = 237$ quan sát, chỉ gồm các doanh nghiệp xuất khẩu, dẫn đến power thống kê ước tính chỉ đạt khoảng 16\%. Luận án diễn giải kết quả Singapore như *bằng chứng phù hợp nhưng chưa kết luận* (consistent but underpowered evidence) — không bác bỏ giả thuyết nhưng cũng không tuyên bố xác nhận dứt khoát.
+Cần nhấn mạnh rằng kết quả Singapore là **ranh giới suy luận** (inferential bounds) do hạn chế nghiêm trọng về quy mô mẫu trong kiểm định khuếch đại H3: $n \approx 84$ quan sát chỉ gồm các doanh nghiệp xuất khẩu, dẫn đến power thống kê ước tính chỉ đạt khoảng 16\%. Luận án diễn giải kết quả Singapore như *bằng chứng phù hợp nhưng chưa kết luận* (consistent but underpowered evidence) — không bác bỏ giả thuyết nhưng cũng không tuyên bố xác nhận dứt khoát.
 
 ---
 
@@ -158,7 +158,7 @@ Turning point được ước lượng riêng cho từng làn sóng và cho pool
 | 2023     | 41,6% FSTS   |
 | Pooled   | 39,7% FSTS   |
 
-Điểm turning point trong khoảng **39–46% FSTS** đặt Việt Nam ở mức "thấp hơn đáng kể" so với Singapore (TP ≈ 88,6%) và tương đương hoặc thấp hơn Trung Quốc (TP ≈ 48,78%). Kiểm định Paternoster so sánh turning point giữa 2009 và 2015 cho kết quả $z = 3{,}353$, $p < {,}001$ — có ý nghĩa thống kê, cho thấy turning point đã dịch chuyển đáng kể từ 46,2\% xuống 39,3\% giữa hai làn sóng.
+Điểm turning point trong khoảng **39–46% FSTS** đặt Việt Nam ở mức "thấp hơn đáng kể" so với Singapore (TP ≈ 82%) và tương đương hoặc thấp hơn Trung Quốc (TP ≈ 48,78%). Kiểm định Paternoster so sánh turning point giữa 2009 và 2015 cho kết quả $z = 3{,}353$, $p < {,}001$ — có ý nghĩa thống kê, cho thấy turning point đã dịch chuyển đáng kể từ 46,2\% xuống 39,3\% giữa hai làn sóng.
 
 ### 4.5.3 Điều tiết bởi TCI — Tích cực và có ý nghĩa
 
@@ -188,7 +188,7 @@ $$\text{TP(Advanced Innovation)} \approx 28\% < \text{TP(Upper-middle)} < \text{
 
 Gradient này nhất quán với dự đoán của Institutional Theory: trong môi trường thể chế mạnh (Nhóm I), doanh nghiệp hoàn thu chi phí quốc tế hóa tại mức FSTS thấp hơn, tức là đạt đỉnh hiệu quả sớm hơn. Ngược lại, tại các nền kinh tế thể chế yếu (Nhóm V–VI), doanh nghiệp cần mức độ quốc tế hóa cao hơn để bù đắp chi phí giao dịch và bất định thể chế, nên turning point xuất hiện muộn hơn — ở mức FSTS cao hơn.
 
-Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống kê cao, nhất quán với kết quả meta-analysis trong P6 ($Q_M = 17{,}35$, $p = {,}002$). Hai nguồn bằng chứng độc lập — meta-analytic và primary empirical — cùng chỉ ra gradient ICRV, tạo ra independent confirmation có giá trị.
+Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống kê, nhất quán với kết quả meta-analysis trong P6 ($Q_M = 10{,}16$, $p = {,}038$). Hai nguồn bằng chứng độc lập — meta-analytic và primary empirical — cùng chỉ ra gradient ICRV, tạo ra independent confirmation có giá trị.
 
 ### 4.6.3 Điều tiết bởi TCI và DAI trong toàn mẫu
 
@@ -231,7 +231,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận một phần: TCI nâng mặt bằng năng suất tại tất cả bối cảnh; uốn đường cong xác nhận tại Việt Nam nhưng NS tại toàn mẫu P7 (49 nền kinh tế) |
 | H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (49 nền kinh tế); DAI×ICRV p=.012 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 với top manager nữ β = +0,185*** |
-| H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận một phần: $Q_M = 17{,}35^{**}$ (*df* = 4, *p* = ,002) từ P6 MARA xác nhận dị biệt giữa chế độ; gradient định hướng (E1a/E1b) chưa xác nhận do *k* = 3 tại Frontier; gradient ICRV → TP được xác nhận từ P7 |
+| H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận một phần: $Q_M = 10{,}16^{*}$ (*df* = 4, *p* = ,038) từ P6 MARA xác nhận dị biệt giữa chế độ; gradient định hướng (E1a/E1b) chưa xác nhận do *k* = 4 tại Frontier và *k* = 3 tại SIDS; gradient ICRV → TP được xác nhận từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |
 | H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận mạnh mẽ: $\beta = -0{,}404^{*}$ đến $-0{,}901^{***}$ tuỳ specification |
 
@@ -243,7 +243,7 @@ Arte, P., & Larimo, J. (2022). Moderating influence of product diversification o
 
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization-performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347.
 
-Đỗ, H., & Phan, T. (2024). *Internationalization and firm performance in Asia: A meta-analytic baseline*. Paper presented at the International Conference on Business, Economics and Finance (ICBEF), Can Tho University.
+Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam.
 
 Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics, 124*(4), 1403–1448.
 
