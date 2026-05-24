@@ -249,6 +249,8 @@ def main():
     no_pdf = 0
     no_text = 0
     not_found = 0
+    api_errors = 0
+    auth_failed = False
 
     for i, qrow in enumerate(pending, 1):
         seq   = str(qrow.get("seq", "")).strip()
@@ -328,6 +330,19 @@ def main():
         log["notes"]              = str(result.get("notes") or "")[:120]
 
         if r_val is None:
+            note = str(result.get("notes") or "")
+            if conv == "error" or note.startswith("Groq error"):
+                api_errors += 1
+                log["status"] = "API_ERROR"
+                log_entries.append(log)
+                # A 401 affects every call — abort now instead of burning the batch.
+                if "401" in note or "invalid api key" in note.lower():
+                    auth_failed = True
+                    print(f"\nFATAL: Groq rejected the API key (401 Invalid API Key).",
+                          flush=True)
+                    break
+                print(f"  [{i}/{len(pending)}] seq={seq} — API error: {note[:70]}", flush=True)
+                continue
             not_found += 1
             log["status"] = "NOT_FOUND"
             log_entries.append(log)
@@ -390,8 +405,15 @@ def main():
     print(f"No PDF:           {no_pdf}")
     print(f"No text (scan):   {no_text}")
     print(f"No I→P coeff:     {not_found}")
+    print(f"API errors:       {api_errors}")
     print(f"Skipped (manual): {skipped_manual}")
     print(f"Log:              {log_path}")
+
+    if auth_failed:
+        print("\nFATAL: the Groq API key is invalid (401). No papers could be"
+              " processed.\nGet a fresh key at console.groq.com, set it via the"
+              " GROQ_API_KEY secret or the\ngroq_api_key run input, then re-run.")
+        sys.exit(1)
     print(f"\nNEXT: Review GROQ: entries in notes_for_extractor, then set ready_for_r=1")
 
 
