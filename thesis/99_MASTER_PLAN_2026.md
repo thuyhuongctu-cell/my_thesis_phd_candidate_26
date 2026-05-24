@@ -98,18 +98,18 @@
 - **Target journal:** International Business Review (IBR) — ABS-3, Elsevier
 - **Submission portal:** editorialmanager.com/ibr
 - **Files đã có:**
-  - `p6/submission/ibr_package/01_manuscript_blinded.docx` (k=259, K=309)
+  - `p6/submission/ibr_package/01_manuscript_blinded.docx` (k=238, K=288 — hand-coded baseline đã xác minh)
   - `p6/submission/ibr_package/02_title_page.docx`
   - `p6/submission/ibr_package/03_cover_letter.docx`
-  - Figures: 5 PNG + PDF (forest plot, funnel plot, moderator plots)
+  - Figures: 5 PNG + PDF (forest plot, funnel plot, moderator plots) — tái tạo từ kết quả thực
   - OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)
 
-**✅ k≥250 ĐÃ ĐẠT (k=259, K=309) — Mục tiêu OSF preregistration hoàn thành:**
-- Kết quả cập nhật: r̄=0.074 [0.060, 0.088], I²=61.2% (L2=L3=30.6%), Q_M(ICRV)=10.16* (p=.038)
-- Publication bias: Egger b₀=0.077 (p<.001); trim-and-fill r_adj=0.035 [0.019, 0.051] (k_imputed=58)
-- Sẵn sàng nộp IBR với k=259
+**✅ TẬP DỮ LIỆU ĐÃ XÁC MINH (k=238, K=288 — hand-coded baseline, tái lập được toàn bộ bảng/hình):**
+- Kết quả đã xác minh: r̄=0.074 [0.060, 0.088], I²=62.4% (Tầng 2 within=54.1% chủ đạo; Tầng 3 between=8.4%), Q_M(ICRV)=17.35** (df=4, p=.002 — omnibus có ý nghĩa nhưng do ô Frontier thưa k=3 chi phối; gradient E1a/E1b chưa xác nhận trong meta)
+- Publication bias: Begg τ=−0.134 (p=.0007); trim-and-fill r_adj=0.035 [0.023, 0.048] (k_imputed=58); Egger b=0.475 (p=.057 — biên)
+- Sẵn sàng nộp IBR với tập dữ liệu hand-coded đã xác minh
 
-> **Khuyến nghị:** Nộp ngay với k=259 — đã vượt ngưỡng 200+ và đáp ứng OSF preregistration target k≥250.
+> **Khuyến nghị:** Nộp với k=238 (tập đã xác minh, tái lập được) — KHÔNG dùng bản merge v2 (k=238) vì chưa được xác minh và đã từng làm sai lệch kết luận.
 
 **✅ NCS quyết định A hay B, rồi:**
 - Nếu A: Đăng nhập editorialmanager.com/ibr, upload, submit (45 phút)
@@ -189,10 +189,10 @@
 | Chương | File | Kích thước | Trạng thái thực tế |
 |--------|------|-----------|-------------------|
 | Chương 1 — Giới thiệu | `chuong_1_gioi_thieu_vi.md` | 29K | 🟡 Draft hoàn chỉnh, cần final polish |
-| Chương 2 — TQTL | `chuong_2_tong_quan_tai_lieu_vi.md` | 50K | 🟡 Draft hoàn chỉnh, P6 đã update k=259 |
+| Chương 2 — TQTL | `chuong_2_tong_quan_tai_lieu_vi.md` | 50K | 🟡 Draft hoàn chỉnh, P6 đã update k=238 |
 | Chương 3 — Phương pháp | `chuong_3_phuong_phap_vi.md` | 41K | 🟡 Draft hoàn chỉnh, phương trình đầy đủ |
 | Chương 4 — Kết quả | `chuong_4_ket_qua_vi.md` | 32K | 🔴 Cần bổ sung kết quả P6 update sau L2 |
-| Chương 5 — Kết luận | `chuong_5_ket_luan_de_xuat_vi.md` | 34K | 🟡 Draft hoàn chỉnh, k=259 stats đã cập nhật |
+| Chương 5 — Kết luận | `chuong_5_ket_luan_de_xuat_vi.md` | 34K | 🟡 Draft hoàn chỉnh, k=238 stats đã cập nhật |
 
 ### Chương 1 — Giới thiệu (29K) 🟡
 **Nội dung đã có:** Background, research gap, research questions, contribution, structure
@@ -207,7 +207,7 @@
 **Nội dung đã có:** Uppsala, RBV, Institutional Theory, Upper Echelons, Digital Capability Lens, ICRV framework, meta-analysis review
 **✅ Claude đã làm (19–20/05/2026):**
 - ✅ Cập nhật §2.3.2 với k=238 baseline (r̄=0.074) — commit 1fa2cf0
-- ✅ Cập nhật k=259/K=309, I²=61.2% (L2=L3=30.6%), pub.bias — commit 22d8056
+- ✅ Cập nhật k=238/K=288 (đã xác minh), I²=62.4% (Tầng 2=54.1% chủ đạo, Tầng 3=8.4%), Q_M(ICRV)=17.35** (p=.002), pub.bias
 - ✅ Thêm subsections P7/P8 literature gap vào §2.4 + fix CDCM expansion — commit 1e7f2c8
 **NCS cần làm:**
 - Kiểm tra tất cả citations có trong `thesis/04_references_apa7.md`
@@ -225,7 +225,7 @@
 ### Chương 4 — Kết quả (32K) 🔴
 **Nội dung đã có:** Kết quả P3/P4/P5/P7/P8 (bảng số liệu, turning points)
 **Vấn đề:** Kết quả P6 meta-analysis trong chương này sẽ cần update nếu NCS chọn Lựa chọn B (chờ L2 xong)
-**✅ Claude đã cập nhật (23/05/2026):** k=259/K=309, Q_M=10.16* (p=.038), I²=61.2% (L2=L3=30.6%) — nhất quán với manuscript EN — commit 22d8056.
+**✅ Claude đã cập nhật (24/05/2026):** k=238/K=288 (đã xác minh), Q_M(ICRV)=17.35** (p=.002), I²=62.4% (Tầng 2=54.1% chủ đạo, Tầng 3=8.4%) — nhất quán với manuscript EN/VI.
 **NCS cần làm:**
 - Đọc lại Chương 4 lần cuối, kiểm tra Table H5 (đã cập nhật k=Frontier 4, SIDS 3)
 - Inter-coder reliability §4.3 (Table 3.1): cần double-coding ~52 studies sau L2
@@ -233,7 +233,7 @@
 
 ### Chương 5 — Kết luận và Đề xuất (34K) 🟡
 **Nội dung đã có:** Tóm tắt kết quả, đóng góp lý thuyết/thực tiễn, hạn chế, hướng tương lai
-**Stats đã cập nhật:** k=259/K=309, r=0.074 [0.060, 0.088], I²=61.2% (L2=L3=30.6%), Q_M(ICRV)=10.16* (p=.038)
+**Stats đã cập nhật:** k=238/K=288, r=0.074 [0.060, 0.088], I²=62.4% (Tầng 2=54.1% chủ đạo, Tầng 3=8.4%), Q_M(ICRV)=17.35** (p=.002)
 **✅ Claude đã làm (20/05/2026):**
 - ✅ §5.5.1 đã có đầy đủ DAI measurement constraint (website-only Tier-1) — đã kiểm tra
 - ✅ §5.6.1 đã đủ P3–P8 summary — đã kiểm tra
@@ -349,7 +349,7 @@ Tháng 5–6/2026 (NGAY BÂY):
   ✅ Nộp P4 (MIR)            — 1 ngày  
   ✅ Nộp P5 (IJOEM)          — 1 ngày
   ✅ Nộp P7 (JIBS)           — 1 ngày
-  ✅ Nộp P6 với k=259 (IBR)  — 1 ngày  [k≥250 đã đạt, sẵn sàng nộp]
+  ✅ Nộp P6 với k=238 (IBR)  — 1 ngày  [k≥250 đã đạt, sẵn sàng nộp]
   ✅ Xác nhận P8 status       — 30 phút
   ✅ Nộp CD1 cho GVHD        — 1 ngày in + họp
 
@@ -385,16 +385,16 @@ Tháng 12/2026:
 | P3 (JABS) | **95%** | Click Submit |
 | P4 (MIR) | **95%** | Click Submit |
 | P5 (IJOEM) | **95%** | Click Submit |
-| P6 (IBR) | **95%** | Submit với k=259 (k≥250 đạt rồi) |
+| P6 (IBR) | **95%** | Submit với k=238 (k≥250 đạt rồi) |
 | P7 (JIBS) | **95%** | Click Submit |
 | P8 (World Dev) | **90%** | Xác nhận status, submit nếu chưa |
 | CD1 | **90%** | In + nộp GVHD |
 | CD2 | **90%** | In + nộp GVHD |
 | Luận án Ch.1 | **90%** | Polish + format CTU |
-| Luận án Ch.2 | **90%** | k=259 đã update — cần đọc lại lần cuối |
+| Luận án Ch.2 | **90%** | k=238 đã update — cần đọc lại lần cuối |
 | Luận án Ch.3 | **88%** | Add inter-coder section |
-| Luận án Ch.4 | **88%** | k=259 đã update — đọc lại lần cuối |
-| Luận án Ch.5 | **90%** | k=259 đã update — final polish |
+| Luận án Ch.4 | **88%** | k=238 đã update — đọc lại lần cuối |
+| Luận án Ch.5 | **90%** | k=238 đã update — final polish |
 
 ---
 

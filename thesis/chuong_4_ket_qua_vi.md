@@ -70,24 +70,24 @@ Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biế
 
 ### 4.2.1 Chỉ số hiệu ứng tổng hợp
 
-Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu gồm $k = 259$ nghiên cứu, $K = 309$ effect sizes từ 49 nền kinh tế, đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}074$, với khoảng tin cậy 95% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
+Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu đã xác minh (hand-coded baseline) gồm $k = 238$ nghiên cứu, $K = 288$ effect sizes từ 49 nền kinh tế, đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}074$, với khoảng tin cậy 95% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
 
 Đặc biệt đáng lưu ý, kết quả P6 hoàn toàn nhất quán với baseline meta-analysis đã công bố tại hội nghị ICBEF 2024 của Do và Phan (2024), với $k = 113$ nghiên cứu và $r = 0{,}07$ — sự hội tụ này tạo ra bằng chứng chéo vững chắc khi mở rộng pool lên gần gấp đôi số nghiên cứu.
 
 ### 4.2.2 Phân tích dị biệt ba tầng
 
-Kết quả quan trọng nhất của phân tích MARA không phải là giá trị điểm của $r$ mà là cấu trúc của dị biệt ($I^2$). Tổng $I^2 = 61{,}2\%$, cho thấy mức dị biệt đáng kể trong tập hợp 259 nghiên cứu không phải do sai số lấy mẫu. Quan trọng hơn, khi phân tách theo cấu trúc ba tầng:
+Kết quả quan trọng nhất của phân tích MARA không phải là giá trị điểm của $r$ mà là cấu trúc của dị biệt ($I^2$). Tổng $I^2 = 62{,}4\%$, cho thấy mức dị biệt đáng kể trong tập hợp 238 nghiên cứu không phải do sai số lấy mẫu. Quan trọng hơn, khi phân tách theo cấu trúc ba tầng:
 
-- **Tầng 2** (between-effect within-study, tức dị biệt giữa các effect-size trong cùng một nghiên cứu): chiếm $30{,}6\%$ tổng phương sai.
-- **Tầng 3** (between-study, tức dị biệt giữa các nghiên cứu): cũng chiếm $30{,}6\%$ — phân bổ đều nhau.
+- **Tầng 2** (between-effect within-study, tức dị biệt giữa các effect-size trong cùng một nghiên cứu): chiếm $54{,}1\%$ tổng phương sai ($\sigma^2_{(2)} = 0{,}00874$).
+- **Tầng 3** (between-study, tức dị biệt giữa các nghiên cứu): chỉ chiếm $8{,}4\%$ ($\sigma^2_{(3)} = 0{,}00135$).
 
-Phát hiện này có hàm ý lý thuyết sâu sắc: heterogeneity trong I→P literature phân bổ **đều giữa trong và giữa các nghiên cứu**, cho thấy cả lựa chọn đo lường (bên trong nghiên cứu) lẫn bối cảnh quốc gia thực chất (giữa các nghiên cứu) đều đóng góp bằng nhau. Điều này gợi ý rằng publication bias — không chỉ sự khác biệt thể chế hay số hoá — là nguồn gốc chủ yếu của heterogeneity quan sát được.
+Phát hiện này có hàm ý lý thuyết sâu sắc: heterogeneity trong I→P literature **chủ yếu nằm ở trong từng nghiên cứu** (Tầng 2, gấp khoảng sáu lần Tầng 3), cho thấy các lựa chọn phương pháp bên trong nghiên cứu — cách đo lường DOI/hiệu quả, đặc tả mô hình, mẫu con — chứ không phải sự khác biệt bối cảnh quốc gia ổn định giữa các nghiên cứu, là nguồn chính của dị biệt quan sát được. Đây là thông tin mà phân tích meta đơn tầng không thể cung cấp.
 
 ### 4.2.3 Điều tiết bởi chế độ thể chế — ICRV moderation
 
-Kiểm định điều tiết bằng nhóm chế độ thể chế ICRV (Institutional Context Regime Variation) cho kết quả có ý nghĩa thống kê: $Q_M = 10{,}16$, $df = 4$, $p = {,}038$. Điều này xác nhận rằng chế độ thể chế — được phân loại thành sáu nhóm từ Advanced Innovation-Driven (Nhóm I: Singapore, Hong Kong, Đài Loan, Hàn Quốc) đến SIDS Thái Bình Dương (Nhóm VI) — là moderator có ý nghĩa thống kê cho mối quan hệ tổng hợp I→P trong văn liệu. Kiểm định $Q_M$ vượt ngưỡng tới hạn ($p = {,}038$), tuy nhiên gradient đơn điệu E1a/E1b chưa xác nhận được do $k$ thấp tại Frontier ($k = 4$) và SIDS ($k = 3$).
+Kiểm định điều tiết bằng nhóm chế độ thể chế ICRV (Institutional Context Regime Variation) cho kết quả có ý nghĩa thống kê: $Q_M = 17{,}35$, $df = 4$, $p = {,}002$. Kiểm định omnibus liên nhóm này xác nhận rằng hiệu ứng tổng hợp I→P **khác biệt** giữa các chế độ thể chế (H1 được hỗ trợ). Tuy nhiên, sự khác biệt KHÔNG hình thành một gradient đơn điệu theo chiều kỳ vọng (E1a: Advanced lớn nhất; E1b: Frontier nhỏ nhất): phần lớn giá trị $Q_M$ đến từ ô Frontier nhỏ nhưng có hiệu ứng cao bất thường ($k = 3$; $\bar{r} = 0{,}349$, chịu ảnh hưởng của một outlier — Pouresmaeili et al., 2018, $r = 0{,}69$), trong khi các nhóm đông quan sát lại có hiệu ứng gần như tương đương (Advanced-Innovation $\bar{r} = 0{,}079$, $k = 139$; Emerging $\bar{r} = 0{,}069$, $k = 91$; Upper-middle $\bar{r} = 0{,}065$, $k = 25$; Mixed/đa quốc gia $\bar{r} = 0{,}053$, $k = 30$).
 
-Gradient theo ICRV hiện diện rõ ràng trong kết quả: các nền kinh tế Advanced Innovation-Driven có hiệu ứng I→P lớn hơn so với các nền kinh tế Frontier hay SIDS. Kết quả này nhất quán với cơ chế lý thuyết từ Institutional Theory — môi trường thể chế chất lượng cao tạo điều kiện để doanh nghiệp chuyển hóa quốc tế hóa thành hiệu quả dễ dàng hơn (North, 1990; Marano et al., 2016).
+Vì vậy, các Exploratory Propositions E1a/E1b về gradient đơn điệu **chưa được xác nhận** trong meta-analysis; bằng chứng về gradient thể chế (turning point giảm dần theo chất lượng thể chế) được thiết lập chủ yếu từ phân tích dữ liệu sơ cấp toàn mẫu của Nghiên cứu P7 (49 nền kinh tế), trong khi P6 chỉ xác nhận rằng các chế độ thể chế **có** khác biệt thống kê. Việc kết luận chắc chắn về gradient trong meta-analysis đòi hỏi $k$ lớn hơn nhiều ở các ô Frontier và SIDS.
 
 ### 4.2.4 Kiểm định publication bias
 
@@ -188,7 +188,7 @@ $$\text{TP(Advanced Innovation)} \approx 28\% < \text{TP(Upper-middle)} < \text{
 
 Gradient này nhất quán với dự đoán của Institutional Theory: trong môi trường thể chế mạnh (Nhóm I), doanh nghiệp hoàn thu chi phí quốc tế hóa tại mức FSTS thấp hơn, tức là đạt đỉnh hiệu quả sớm hơn. Ngược lại, tại các nền kinh tế thể chế yếu (Nhóm V–VI), doanh nghiệp cần mức độ quốc tế hóa cao hơn để bù đắp chi phí giao dịch và bất định thể chế, nên turning point xuất hiện muộn hơn — ở mức FSTS cao hơn.
 
-Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống kê, nhất quán với kết quả meta-analysis trong P6 ($Q_M = 10{,}16$, $p = {,}038$). Hai nguồn bằng chứng độc lập — meta-analytic và primary empirical — cùng chỉ ra gradient ICRV, tạo ra independent confirmation có giá trị.
+Kiểm định điều tiết tổng thể $Q_M$ về ICRV trong P7 có ý nghĩa thống kê, và kiểm định omnibus liên nhóm trong meta-analysis P6 cũng có ý nghĩa ($Q_M = 17{,}35$, $df = 4$, $p = {,}002$). Hai nguồn bằng chứng độc lập đều xác nhận rằng chế độ thể chế **tạo ra khác biệt** trong quan hệ I→P; tuy nhiên, hình dạng gradient đơn điệu (turning point giảm dần theo chất lượng thể chế) được thiết lập từ phân tích primary của P7, trong khi P6 — với các ô Frontier/SIDS thưa — chỉ xác nhận sự khác biệt liên nhóm. Sự bổ trợ giữa hai nguồn này tạo ra independent confirmation có giá trị về vai trò điều tiết của thể chế.
 
 ### 4.6.3 Điều tiết bởi TCI và DAI trong toàn mẫu
 
@@ -231,7 +231,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận một phần: TCI nâng mặt bằng năng suất tại tất cả bối cảnh; uốn đường cong xác nhận tại Việt Nam nhưng NS tại toàn mẫu P7 (49 nền kinh tế) |
 | H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (49 nền kinh tế); DAI×ICRV p=.012 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 với top manager nữ β = +0,185*** |
-| H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận một phần: $Q_M = 10{,}16^{*}$ (*df* = 4, *p* = ,038) từ P6 MARA xác nhận dị biệt giữa chế độ; gradient định hướng (E1a/E1b) chưa xác nhận do *k* = 4 tại Frontier và *k* = 3 tại SIDS; gradient ICRV → TP được xác nhận từ P7 |
+| H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận một phần: $Q_M = 17{,}35$ (*df* = 4, *p* = ,002) từ P6 MARA xác nhận dị biệt liên nhóm; gradient định hướng (E1a/E1b) chưa xác nhận trong meta do ô Frontier thưa (*k* = 3) chi phối $Q_M$; gradient ICRV → TP được xác nhận từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |
 | H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận mạnh mẽ: $\beta = -0{,}404^{*}$ đến $-0{,}901^{***}$ tuỳ specification |
 

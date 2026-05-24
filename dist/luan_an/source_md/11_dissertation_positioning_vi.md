@@ -318,7 +318,7 @@ heterogeneity?
 ✅ P3 Vietnam — Nhóm IV (Lower_mid_transition), inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
 ✅ P4 Singapore — Advanced I, inverted-U (TP ~82% FSTS), DAI Tier-1+2 moderation (draft → MIR)
 ✅ P5 China temporal 2012–2024 (manuscript complete → IJOEM)
-✅ P6 Meta-analysis three-level MARA k=259/K=309 (manuscript complete → IBR — International Business Review; r=0.074, I²=61.2% [L2=L3=30.6%], ICRV Q_M=10.16*)
+✅ P6 Meta-analysis three-level MARA k=238/K=288 (manuscript complete → IBR — International Business Review; r=0.074, I²=62.4% [within L2=54.1%, between L3=8.4%], ICRV omnibus Q_M=17.35**, p=.002)
 ✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → JIBS; N=84,910, TP≈36%, DAI moderation p<.01)
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 

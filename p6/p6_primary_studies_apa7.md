@@ -482,7 +482,7 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
   - ✅ S-116 → **S236** (r=−0.10); S-117 → **S237** (r=−0.04)
 - Phần 3: 16 ứng viên (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 → **S238** (r=−0.029); 15 còn lại cần PDF
 - Phần 4: 10 ứng viên (2 Nhóm A + 8 Nhóm B) — **HOÀN THÀNH**: Autio (2000) và Knight & Cavusgil (2004) đã đánh giá là **LOẠI TRỪ** (PICO không thoả — không phải DOI→FP)
-- forest_data.csv: **309 data rows, k=259 studies** (S238 mới nhất từ formal search; pool mở rộng sau WoS/Scopus 2026)
+- forest_data.csv: **288 data rows, k=238 studies** (hand-coded baseline đã xác minh — tái lập được toàn bộ bảng/hình trong bản thảo P6)
 - ✅ **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC → MKT.
 
 ---

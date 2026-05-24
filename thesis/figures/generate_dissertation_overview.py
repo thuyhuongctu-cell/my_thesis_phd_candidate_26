@@ -56,7 +56,7 @@ box(ax, 3.5, 5.15, 2.3, 0.9, "P3 Vietnam\nJABS (ABS-2)\nICRV-3 Emerging\nTP≈39
 box(ax, 3.5, 3.75, 2.3, 0.95, "P8 Pacific SIDS\nWorld Development\nICRV-5/6 Frontier\nForced Penalty (no TP)", C_EXT, 7.0)
 
 # Synthesis
-box(ax, 6.9, 6.55, 2.3, 1.05, "P6 Meta-analysis\nIBR (ABS-3)\nk=259, K=309\nr̄=0,074  I²=61,2%\nICRV mod. p=,038", C_SYN, 7.2)
+box(ax, 6.9, 6.55, 2.3, 1.05, "P6 Meta-analysis\nIBR (ABS-3)\nk=238, K=288\nr̄=0,074  I²=62,4%\nICRV Q_M p=,002", C_SYN, 7.2)
 box(ax, 6.9, 4.7, 2.3, 1.05, "P7 Đa quốc gia\nJIBS (ABS-4*)\n49 nền KT, N≈85k\nTP≈36% (28%→55%\ntheo ICRV)", C_SYN, 7.2)
 
 # Integration
@@ -108,7 +108,7 @@ ax.text(8, 1.42, 'thể chế càng yếu → turning point càng muộn; ở SI
 ax.text(0.5, 0.75, "Mũi tên: dòng bằng chứng/đóng góp.  ", fontsize=7.6, color="#666")
 ax.text(0.5, 0.45, "Màu: ⬤ nền tảng  ⬤ thực nghiệm quốc gia  ⬤ tổng hợp  ⬤ tích hợp (CĐ)  ⬤ luận án  ⬤ bối cảnh cực biên (SIDS)",
         fontsize=7.6, color="#666")
-ax.text(15.5, 0.45, "k=259/K=309 · 24/05/2026", fontsize=7.2, color="#999", ha="right")
+ax.text(15.5, 0.45, "P6 k=238/K=288 (đã xác minh) · 24/05/2026", fontsize=7.2, color="#999", ha="right")
 
 plt.tight_layout()
 fig.savefig("thesis/figures/dissertation_linkage_map.png", dpi=200, bbox_inches="tight")
@@ -180,11 +180,119 @@ axR.set_ylim(-1.0, 1.2); axR.set_xlim(0, 100)
 axR.grid(alpha=0.25, ls=":")
 axR.legend(loc="lower left", fontsize=8, framealpha=0.9)
 
-fig.suptitle("Tổng hợp Kết quả: Quan hệ Quốc tế hóa–Hiệu quả theo Bối cảnh Thể chế (P3–P8, k=259)",
+fig.suptitle("Tổng hợp Kết quả: Quan hệ Quốc tế hóa–Hiệu quả theo Bối cảnh Thể chế (P3–P8; P6 k=238)",
              fontsize=13, weight="bold", y=1.00)
 plt.tight_layout()
 fig.savefig("thesis/figures/results_synthesis.png", dpi=200, bbox_inches="tight")
 plt.close(fig)
 
+# ============================================================
+# FIGURE 3 — COMPREHENSIVE RESEARCH PORTFOLIO SCORECARD
+# Tổng hợp toàn bộ: P1–P8 + meta-analysis ICBEF 2025 + book chapter
+#                    + 2 chuyên đề + 5 chương luận án
+# ============================================================
+def card(ax, x, y, w, h, title, venue, stat, fc, tcol="white"):
+    p = FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.01,rounding_size=0.018",
+                       linewidth=1.1, edgecolor=INK, facecolor=fc, zorder=3)
+    ax.add_patch(p)
+    ax.text(x + 0.08, y + h - 0.17, title, ha="left", va="top",
+            fontsize=8.6, color=tcol, weight="bold", zorder=4)
+    ax.text(x + 0.08, y + h - 0.40, venue, ha="left", va="top",
+            fontsize=6.7, color=tcol, style="italic", zorder=4)
+    ax.text(x + 0.08, y + 0.07, stat, ha="left", va="bottom",
+            fontsize=6.5, color=tcol, zorder=4, linespacing=1.2)
+
+fig, ax = plt.subplots(figsize=(16.5, 10.4))
+ax.set_xlim(0, 16.5); ax.set_ylim(0, 10.4); ax.axis("off")
+
+ax.text(8.25, 10.05, "Bức tranh tổng thể chương trình nghiên cứu tiến sĩ: Quốc tế hóa → Hiệu quả Doanh nghiệp ở Châu Á–Thái Bình Dương",
+        ha="center", fontsize=14.5, weight="bold", color=INK)
+ax.text(8.25, 9.68, "11 đầu ra nghiên cứu (4 đã công bố · 6 bản thảo đang xét · 1 meta-analysis ba tầng) + 2 chuyên đề + 5 chương luận án — NCS Đỗ Thùy Hương",
+        ha="center", fontsize=9.2, color="#555", style="italic")
+
+# ---- BAND 1: ĐÃ CÔNG BỐ ----
+ax.add_patch(FancyBboxPatch((0.35, 7.65), 15.8, 1.65, boxstyle="round,pad=0.02,rounding_size=0.02",
+             linewidth=0, facecolor="#eeeeee", zorder=1))
+ax.text(0.5, 9.18, "① ĐÃ CÔNG BỐ (nền tảng & cấu phần đã xuất bản)", fontsize=10, weight="bold", color="#444")
+cw, ch = 3.78, 1.18
+card(ax, 0.5,  7.78, cw, ch, "P1 — VEFR (2026)", "Đã công bố · Vietnam Econ. & Fin. Review",
+     "Firm performance heterogeneity\n17 nền KT mới nổi châu Á · WBES", C_FOUND)
+card(ax, 4.45, 7.78, cw, ch, "P2 — JFAR (2026)", "Đã công bố · J. Finance & Accounting Res.",
+     "SME chế tạo Trung Quốc\nquan hệ I→P phi tuyến (cubic)", C_FOUND)
+card(ax, 8.40, 7.78, cw, ch, "Meta-analysis ICBEF", "Đã công bố · Kỷ yếu ICBEF (2024)",
+     "Baseline meta-analysis\nk=113, K=200 · r=0,07 · I²=87,9%", "#7e7e7e")
+card(ax, 12.35,7.78, cw, ch, "Book chapter — IntechOpen", "Đã công bố · IntechOpen (2025)",
+     "Firms in India · 380 DN WBES\nvai trò ban lãnh đạo (top mgmt)", "#7e7e7e")
+
+# ---- BAND 2: ĐANG XÉT — THỰC NGHIỆM QUỐC GIA / ĐA QUỐC GIA ----
+ax.add_patch(FancyBboxPatch((0.35, 4.95), 15.8, 2.55, boxstyle="round,pad=0.02,rounding_size=0.02",
+             linewidth=0, facecolor="#e8f0fb", zorder=1))
+ax.text(0.5, 7.36, "② BẢN THẢO ĐANG XÉT DUYỆT — bằng chứng thực nghiệm theo chế độ thể chế ICRV (mạnh → yếu)",
+        fontsize=10, weight="bold", color="#1a4e8a")
+cw2, ch2 = 3.02, 1.12
+card(ax, 0.5,  6.10, cw2, ch2, "P4 — Singapore", "Đang xét · MIR (ABS-3)",
+     "ICRV-I Advanced · N≈2.094\nTP≈82% · DAI khuếch đại", C_EMP)
+card(ax, 3.66, 6.10, cw2, ch2, "P5 — Trung Quốc", "Đang xét · IJOEM (ABS-1)",
+     "2012/2024 · N≈1.940\nTP≈48,8% · ổn định thời gian", C_EMP)
+card(ax, 6.82, 6.10, cw2, ch2, "P3 — Việt Nam", "Đang xét · JABS (ABS-1)",
+     "ICRV-III Emerging · inverted-U\nTP≈40% FSTS · TCI level-shifter", C_EMP)
+card(ax, 9.98, 6.10, cw2, ch2, "P7 — 49 nền kinh tế", "Đang xét · JIBS (ABS-4*)",
+     "N≈84.910 · TP≈36%\n(28%→55% theo ICRV) · DAI×ICRV", C_SYN)
+card(ax, 13.14,6.10, cw2, ch2, "P8 — Pacific SIDS", "Đang xét · World Development (ABS-4*)",
+     "9 SIDS · Forced Penalty (FIP)\nβ_FSTS=−0,404 · không có TP", C_EXT)
+
+# P6 (synthesis) — wide highlighted card
+card(ax, 0.5, 5.05, 9.55, 0.95, "P6 — Meta-analysis ba tầng (đóng góp tổng hợp trung tâm)",
+     "Đang xét · International Business Review (ABS-3) · tập hand-coded đã XÁC MINH",
+     "k=238 · K=288 · r̄=0,074 [0,060; 0,088] · I²=62,4% (within L2=54,1% chủ đạo; between L3=8,4%) · "
+     "ICRV omnibus Q_M=17,35 (df=4, p=,002) · cDAI & DPL n.s. · publication bias: Begg τ=−0,134 (p=,0007), trim-and-fill r_adj=0,035",
+     C_SYN)
+
+# ---- BAND 3: TÍCH HỢP (chuyên đề) ----
+card(ax, 10.30, 5.05, 2.78, 0.95, "CĐ1 — Chuyên đề 1 (CTU)", "Tích hợp · phân tích pool mô tả",
+     "101.185 DN · 47 nền KT\nICRV 6 nhóm", C_INT)
+card(ax, 13.36, 5.05, 2.79, 0.95, "CĐ2 — Chuyên đề 2 (CTU)", "Tích hợp · khung lý thuyết CDCM",
+     "H1–H6 · M0–M7\nmeta + thực nghiệm", C_INT)
+
+# ---- BAND 4: LUẬN ÁN 5 CHƯƠNG ----
+ax.add_patch(FancyBboxPatch((0.35, 3.30), 15.8, 1.35, boxstyle="round,pad=0.02,rounding_size=0.02",
+             linewidth=0, facecolor="#f1ecf7", zorder=1))
+ax.text(0.5, 4.50, "③ LUẬN ÁN — 5 CHƯƠNG (tổng hợp toàn bộ bằng chứng P3–P8 + chuyên đề vào khung CDCM)",
+        fontsize=10, weight="bold", color=C_THESIS)
+chs2 = [("Ch.1\nGiới thiệu", "gap · câu hỏi NC · đóng góp"),
+        ("Ch.2\nTổng quan", "Uppsala·RBV·Thể chế·CDCM·ICRV"),
+        ("Ch.3\nPhương pháp", "WBES harmonization · M0–M11"),
+        ("Ch.4\nKết quả", "P3–P8 · meta P6 k=238"),
+        ("Ch.5\nKết luận", "gradient ICRV · FIP · hàm ý")]
+cw3 = 3.02
+for i, (ct, cs) in enumerate(chs2):
+    cx = 0.5 + i * (cw3 + 0.13)
+    card(ax, cx, 3.45, cw3, 0.86, ct.replace("\n", " — "), "", cs, C_THESIS)
+
+# ---- UNIFYING FINDING + provenance ----
+ax.add_patch(FancyBboxPatch((0.35, 1.55), 15.8, 1.45, boxstyle="round,pad=0.02,rounding_size=0.02",
+             linewidth=1.3, edgecolor="#bf6000", facecolor="#fff3e0", zorder=1))
+ax.text(8.25, 2.78, "PHÁT HIỆN HỢP NHẤT TOÀN LUẬN ÁN", ha="center", fontsize=10.5, weight="bold", color="#bf6000")
+ax.text(8.25, 2.34, '"Không tồn tại một mức quốc tế hóa tối ưu duy nhất — điểm uốn (turning point) của quan hệ I→P phụ thuộc chất lượng thể chế (ICRV):',
+        ha="center", fontsize=10, style="italic", weight="bold", color=INK)
+ax.text(8.25, 1.98, 'thể chế càng mạnh → đạt đỉnh hiệu quả ở mức FSTS thấp hơn; ở SIDS thể chế cực yếu, quốc tế hóa cưỡng bức gây bất lợi (Forced Internationalization Penalty)."',
+        ha="center", fontsize=10, style="italic", weight="bold", color=INK)
+ax.text(8.25, 1.68, "Construct dùng chung: FSTS (cường độ xuất khẩu) · TCI (năng lực công nghệ) · DAI/cDAI (áp dụng số) · ICRV (chế độ thể chế)",
+        ha="center", fontsize=8, color="#7a4a00")
+
+# Legend / provenance
+ax.text(0.5, 1.15, "Màu: ⬤ nền tảng/đã công bố   ⬤ thực nghiệm quốc gia   ⬤ tổng hợp (meta/đa quốc gia)   ⬤ tích hợp (chuyên đề)   ⬤ luận án   ⬤ bối cảnh cực biên (SIDS)",
+        fontsize=7.8, color="#666")
+ax.text(0.5, 0.82, "11 đầu ra nghiên cứu = 4 đã công bố (P1, P2, meta ICBEF, book chapter) + 6 bản thảo đang xét (P3–P8) · 2 chuyên đề · 5 chương luận án.",
+        fontsize=7.8, color="#666")
+ax.text(0.5, 0.52, "P6 báo cáo trên TẬP HAND-CODED ĐÃ XÁC MINH (k=238/K=288) — tái lập được toàn bộ bảng/hình; không dùng dữ liệu chưa kiểm chứng.",
+        fontsize=7.8, color="#666", weight="bold")
+ax.text(16.15, 0.52, "Cập nhật 24/05/2026", fontsize=7.4, color="#999", ha="right")
+
+plt.tight_layout()
+fig.savefig("thesis/figures/portfolio_overview.png", dpi=200, bbox_inches="tight")
+plt.close(fig)
+
 print("Saved: thesis/figures/dissertation_linkage_map.png")
 print("Saved: thesis/figures/results_synthesis.png")
+print("Saved: thesis/figures/portfolio_overview.png")

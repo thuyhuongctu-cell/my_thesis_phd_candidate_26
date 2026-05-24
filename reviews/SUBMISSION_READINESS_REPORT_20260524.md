@@ -2,9 +2,9 @@
 **Ngày:** 24/05/2026 · **Phạm vi:** CĐ1, CĐ2; P3–P8; 5 chương luận án
 **Phương pháp:** 6 reviewer song song dùng các skill `academic-manuscript-submission-checker`, `academic-paper-reviewer`, `phd-dissertation-review`, `three-level-meta-analysis`, `vietnamese-academic-glossary-editor`.
 
-> **Nguồn dữ liệu chuẩn (canonical) đã xác minh từ `p6_study_database_v2.csv`:**
-> **k = 259 nghiên cứu · K = 309 effect sizes · r̄ = 0,074 [0,060; 0,088] · I² = 61,2% · ICRV Q_M = 10,16 (p = ,038) · DPL NS**
-> (Con số I²=91,9% trong mô tả PR cũ là *stale* — giá trị đúng là 61,2%, nhất quán giữa manuscript P6 và luận án.)
+> **CẬP NHẬT 24/05/2026 (sau khi hoàn nguyên về tập đã xác minh):** Nguồn dữ liệu chuẩn (canonical) là tập **hand-coded đã xác minh** `p6_study_database.csv` (KHÔNG dùng bản merge v2 k=259 vì chưa kiểm chứng và đã từng làm sai lệch kết luận):
+> **k = 238 nghiên cứu · K = 288 effect sizes · r̄ = 0,074 [0,060; 0,088] · I² = 62,4% (within L2 = 54,1% chủ đạo; between L3 = 8,4%) · ICRV omnibus Q_M = 17,35 (df = 4, p = ,002) · cDAI & DPL NS**
+> (Engine `p6_real_mara.py` tái lập được toàn bộ bảng/hình từ tập này. Các con số k=259/I²=61,2%/Q_M=10,16 trong các bản trước đây đã được thay thế.)
 
 ---
 
@@ -77,7 +77,7 @@
 - 🔴 Bảng 3.1 ICR (κ/ICC) rỗng [TBD].
 - 🟠 Hai bảng ICRV (4.1 vs 4.2) cho phân bố regime khác nhau cùng K=309.
 - 🟠 Thiếu danh mục 259 nghiên cứu primary (IBR yêu cầu, thường ở phụ lục).
-- ✅ I²=61,2% là ĐÚNG (không phải lỗi); OSF ID đúng.
+- ⚠️ [LỖI THỜI] Bản review này từng ghi I²=61,2%; giá trị đã xác minh hiện tại là **I²=62,4% (within L2=54,1%, between L3=8,4%)** trên tập k=238. OSF ID đúng.
 
 ### P7 Multi-country (JIBS, ABS-4*) — CHƯA SẴN SÀNG
 - 🔴 **Hệ số M10 mâu thuẫn:** Bảng 3 (ICRV=+0,729, FSTS×ICRV=+1,636…) vs §4.6 (+0,763, +1,762…). Cùng model, số khác.
@@ -100,7 +100,7 @@
 
 ### CĐ2 — SẴN SÀNG (nhẹ)
 - 🟠 Đoạn P6/P7 (dòng 920–922) dùng dấu thập phân Anh (0.344; p<.05) lẫn với dấu phẩy Việt — cần đồng bộ.
-- ✅ k=259/K=309 đúng; H3 reframe điều kiện đúng; DAI đúng nhãn; Hạn chế 3 phần đủ.
+- ⚠️ [LỖI THỜI] Bản review này từng ghi k=259/K=309; tập đã xác minh hiện tại là **k=238/K=288**. H3 reframe điều kiện đúng; DAI đúng nhãn; Hạn chế 3 phần đủ.
 
 ### Luận án 5 chương — CÓ ĐIỀU KIỆN (đã sửa Ch5)
 - 🔴 **N Singapore 237 (Ch4) vs 623 (Ch3)** — làm rõ 623=tổng, 237=exporters.
