@@ -31,7 +31,7 @@ CANONICAL = {
     # P4 Singapore
     "p4_n":                {"values": ["N = 623", "N=623", "623 firm"], "wrong": ["N=632", "N=613"], "label": "P4 N=623"},
     "p4_n_m8":             {"values": ["N = 617", "N=617", "617"], "wrong": ["N=671", "N=716"], "label": "P4 M8 N=617"},
-    "p4_tp":               {"values": ["88\\.6", "88.6%"], "wrong": ["86.8", "88.9"], "label": "P4 turning point ~88.6%"},
+    "p4_tp":               {"values": ["82% FSTS", "FSTS = 82", "TP ≈ 82"], "wrong": ["88.6%", "88,6%", "86.8", "88.9"], "label": "P4 turning point ~82% FSTS (corrected from stale 88.6)"},
     "p4_lm":               {"values": ["p.*\\.303", "p = .303", "p=.303"], "wrong": [], "label": "P4 Lind-Mehlum p=.303"},
     # P5 China
     "p5_n_2012":           {"values": ["2,610", "2.610", "N.*2,610"], "wrong": ["2,601", "2,160"], "label": "P5 N=2,610 (2012)"},

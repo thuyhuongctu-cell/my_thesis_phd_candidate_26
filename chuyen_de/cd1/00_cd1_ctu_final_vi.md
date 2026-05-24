@@ -655,7 +655,7 @@ Tám phát hiện từ đợt 2025: (1) Ấn Độ FSTS sụt 5 điểm phần t
 
 #### 2.3.7.1 Singapore (Advanced đổi mới sáng tạo dẫn dắt — n=623, đợt 2023)
 
-FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất 1,03. **Biên trên** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo nghiên cứu Singapore (Mar, Đỗ & Phan, 2026 — MIR under review): R² hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119 (p=0,005); điểm uốn ~88,6%.
+FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất 1,03. **Biên trên** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo nghiên cứu Singapore (Mar, Đỗ & Phan, 2026 — MIR under review): R² hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119 (p=0,005); điểm uốn ~82%.
 
 **Bối cảnh hệ sinh thái 2025/2026**: Singapore xếp **hạng 2 toàn cầu** trong Innovators Business Environment Index 2026 (StartupBlink, 2026); hạng 4 toàn cầu trong Global Startup Ecosystem Index 2025 với tăng trưởng hệ sinh thái 44,9%; hạng 3 thế giới trong Khảo sát Chính phủ điện tử Liên Hiệp Quốc 2024. Sáng kiến **Smart Nation 2.0** (2024) với 3 trụ cột: Tin tưởng — Tăng trưởng — Cộng đồng.
 
@@ -837,7 +837,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 Tám kết luận từ 101.185 doanh nghiệp, 47 nền kinh tế, 108 cặp quốc gia–năm, 14 sóng WBES 2009–2025:
 
-**KL1 — Phi tuyến xuyên chế độ thể chế là quy luật**: U ngược tại Emerging (Việt Nam điểm uốn 39–46%; Trung Quốc điểm uốn 47–49%); gần tuyến tính tại Advanced (Singapore điểm uốn 88,6%); chi phí buộc phải tại SIDS.
+**KL1 — Phi tuyến xuyên chế độ thể chế là quy luật**: U ngược tại Emerging (Việt Nam điểm uốn 39–46%; Trung Quốc điểm uốn 47–49%); gần tuyến tính tại Advanced (Singapore điểm uốn 82%); chi phí buộc phải tại SIDS.
 
 **KL2 — TCI là dịch chuyển mức phổ quát, DAI là khuếch đại phụ thuộc bối cảnh**: TCI dương ở mọi nhóm; DAI đổi dấu theo nhóm ICRV — đây là nội hàm cốt lõi của CDCM.
 

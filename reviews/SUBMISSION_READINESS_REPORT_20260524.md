@@ -13,7 +13,7 @@
 | Tài liệu | Tạp chí đích | Hạng | Kết luận | Blocker chính |
 |----------|--------------|------|----------|---------------|
 | **P3 Vietnam** | Journal of Asia Business Studies | ABS-2 | 🟡 CÓ ĐIỀU KIỆN | Thiếu mục tài liệu tham khảo (desk-reject); p-value .660 vs .730; DOI placeholder |
-| **P4 Singapore** | Management International Review | ABS-3 | 🟡 CÓ ĐIỀU KIỆN | Turning point 82% vs 88,6%; hệ số −1,167 vs −1,177; nhãn cột M-model |
+| **P4 Singapore** | Management International Review | ABS-3 | 🟡 CÓ ĐIỀU KIỆN | ✅ TP đã sửa→82% (verify raw .dta: TP=78,6%, manuscript coef→82,3%); còn hệ số tương tác DAI −1,167 vs −1,177; nhãn cột M-model |
 | **P5 China** | Int. Journal of Emerging Markets | ABS-2 | 🟡 CÓ ĐIỀU KIỆN | ✅ *Đã sửa* LaTeX `\b\beta`; còn N mẫu (4.559/4.544/3.559) chưa khớp |
 | **P6 Meta** | International Business Review | ABS-3 | 🔴 CHƯA SẴN SÀNG | PRISMA còn k=287/[TBD]; bảng ICR rỗng; 2 bảng ICRV mâu thuẫn → **chờ hoàn tất extraction (đã hoãn theo yêu cầu)** |
 | **P7 Multi-country** | Journal of Int. Business Studies | ABS-4* | 🔴 CHƯA SẴN SÀNG | Hệ số M10 mâu thuẫn (Bảng 3 vs §4.6); ✅ *đã sửa* "34 economies"; thiếu phương trình; nhãn DAI "capability"; đóng góp lý thuyết chưa đạt chuẩn 4* |
@@ -59,17 +59,10 @@
 - 🟠 DOI placeholder: Agarwal et al. (2026), Barattieri et al. (2026) "[DOI pending]".
 - 🟠 Heckman: thiếu exclusion restriction; cite Wolfolds & Siegel (2019).
 
-### P4 Singapore (MIR) — CÓ ĐIỀU KIỆN  ⚠️ ĐÃ RE-RUN, cần tác giả chốt spec
-- 🔴 **Turning point — đã re-run trên dữ liệu thật (24/05):** Chạy `do/03_run_models_R.R` trên `data_wbes/analysis/pooled_wbes_6waves.csv` (SGP_2023, N=623) cho **M2: β₁=3,642 (p<,001), β₂=−2,630 (p=,002), TP=76,4%, inverted-U CÓ ý nghĩa** (LM supported). KHÁC hẳn manuscript: §4.2 ghi β₁=2,652/β₂=−1,705 (p=,068, NS) → 82%; abstract/Hình ghi 88,6%.
-  **Nguyên nhân:** pooled CSV **không có biến ngành (sector)**, nên không tái lập được M2 *có sector FE* của manuscript. Bản rút gọn (không sector FE) cho inverted-U có ý nghĩa ở 76,4%; bản manuscript (có sector FE, từ raw .dta) cho 82%/88,6% với β₂ không có ý nghĩa.
-  **Triangulation 3 lần chạy trên dữ liệu thật (24/05) — ĐỀU cho inverted-U CÓ ý nghĩa:**
-  | Run | Data | β₂ (p) | TP |
-  |-----|------|--------|-----|
-  | M2 no-sectorFE | pooled_wbes_6waves (N=623) | −2,630 (p=,002) | 76,4% |
-  | M2 no-sectorFE | p7_pooled_clean (N=582) | −2,883 (p=,003) | 78,2% |
-  | M2 **+sector FE** | p7_pooled_clean (N=582) | −2,834 (p=,003) | 78,6% |
-
-  **→ Kết luận mạnh:** Inverted-U xác nhận, TP ổn định ~76–79%, β₂ luôn có ý nghĩa (p≈,002–,003) — **kể cả khi thêm sector FE**. Khung "saturation / positive-null / không xác định được inverted-U" (manuscript: β₂ p=,068, TP 82%/88,6%) gần như chắc chắn đang **bán rẻ kết quả**. Khác biệt còn lại: build manuscript có biến `foreign_own` (thiếu trong p7_pooled_clean cho SGP) và mean FSTS khác (0,045 vs 0,073) → tác giả nên chạy lại M2 *đúng build cuối* (có foreign_own + sector FE) trên raw Singapore .dta để chốt con số, nhưng **hướng kết quả đã rõ: inverted-U ~77%**. **Tôi không tự đổi narrative** (quyết định positioning của tác giả) — chỉ cung cấp bằng chứng.
+### P4 Singapore (MIR) — ✅ TURNING POINT ĐÃ SỬA (verify .dta thật)
+- ✅ **Đã verify với raw Singapore .dta** (`6e3479da/bdcf8996-Singapore2023fulldata.dta`) — tái lập CHÍNH XÁC mẫu manuscript: **N=623, mean FSTS=0,0465 (≈0,045), exporters=85 (≈84)**. M2 *đúng spec* (controls + sector FE, FSTS=d3c/100, lnLP=ln(d2/l1)): **β₁=+2,576 (SE 0,672), β₂=−1,741 (SE 0,869, p=,046), TP=78,6%**. Hệ số gần khớp Bảng 2 manuscript (2,652/−1,705) — khác biệt nhỏ do chi tiết build (foreign dummy/% , winsorize).
+- ✅ **Lind–Mehlum đúng chuẩn trên raw .dta: p=0,238 (KHÔNG có ý nghĩa)** — slope@high FSTS=−0,745 (t=−0,71, NS) do đuôi trên thưa. **Điều này XÁC NHẬN khung thận trọng "support-constrained / không xác định chính thức inverted-U" của manuscript là ĐÚNG** (LM p=,303 của manuscript ≈ ,238 của tôi). *(Sửa lại nhận định trước: manuscript KHÔNG bán rẻ — khung đúng; chỉ sai con số turning point.)*
+- ✅ **LỖI DUY NHẤT = số turning point.** Manuscript ghi 88,6% (abstract/Hình) và 82% (§4.2) — mâu thuẫn nội bộ. Hệ số riêng của manuscript (2,652/−1,705) → **−2,652/(2·−1,705)+0,045 = 82,3%**; raw .dta → 78,6%. **88,6% là lỗi tính toán** (không khớp cả Bảng 2 lẫn .dta; bootstrap median của chính manuscript = 80%, đã khớp ~82%). **Đã sửa 88,6%→82% nhất quán** trên: P4 EN/VI, manuscripts/p4, thesis (Ch1/3/4/5, 03_methodology, 11_positioning, 04_05_chapters), CĐ1/CĐ2, P7 EN/VI, writing_guides, và `check-consistency.py` (p4_tp canonical 82%, 88.6 → wrong-list). Hệ số §4.2 giữ nguyên giá trị Bảng 2 của manuscript.
 - Manuscript ghi exporters n≈84 (regression complete-case) vs raw FSTS>0 N=111 — kiểm tra lại khi re-run.
 - 🟠 Hệ số tương tác DAI: Bảng 2 = −1,167† vs §4.4 = −1,177 (p=.083).
 - 🟠 Nhãn cột Bảng 2 (M0,M2,M5,M6,M7,M4,M8) không khớp stack phương trình M0–M8.

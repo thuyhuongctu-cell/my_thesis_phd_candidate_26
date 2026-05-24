@@ -50,7 +50,7 @@ for hx, ht, hc in heads:
 box(ax, 0.5, 7.4, 2.2, 0.95, "P1 + P2\nICBEF 2024\n(k=113, r=0,07)\nbaseline + CDCM", C_FOUND, 7.3)
 
 # Empirical country studies (by ICRV regime)
-box(ax, 3.5, 7.55, 2.3, 0.9, "P4 Singapore\nMIR (ABS-3)\nICRV-1 Advanced\nTP≈88,6% (saturation)", C_EMP, 7.0)
+box(ax, 3.5, 7.55, 2.3, 0.9, "P4 Singapore\nMIR (ABS-3)\nICRV-1 Advanced\nTP≈82% (saturation)", C_EMP, 7.0)
 box(ax, 3.5, 6.35, 2.3, 0.9, "P5 China\nIJOEM (ABS-2)\nICRV-2 Upper-mid\nTP≈48,8% (stable)", C_EMP, 7.0)
 box(ax, 3.5, 5.15, 2.3, 0.9, "P3 Vietnam\nJABS (ABS-2)\nICRV-3 Emerging\nTP≈39,7% (inverted-U)", C_EMP, 7.0)
 box(ax, 3.5, 3.75, 2.3, 0.95, "P8 Pacific SIDS\nWorld Development\nICRV-5/6 Frontier\nForced Penalty (no TP)", C_EXT, 7.0)
@@ -121,7 +121,7 @@ fig, (axL, axR) = plt.subplots(1, 2, figsize=(15, 6.4))
 
 # ---- Panel A: turning-point gradient by ICRV regime ----
 # Country study points (ICRV regime -> turning point %)
-pts = [("P4 Singapore", 1, 88.6, "saturation\n(support-constrained)", C_EMP),
+pts = [("P4 Singapore", 1, 82.0, "saturation\n(support-constrained)", C_EMP),
        ("P5 China", 2, 48.8, "stable over time", C_EMP),
        ("P3 Vietnam", 3, 39.7, "inverted-U", C_EMP),
        ("P7 pooled", 2.5, 36.0, "49 economies", C_SYN)]

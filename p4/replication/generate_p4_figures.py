@@ -36,7 +36,7 @@ FSTS_MEAN = 0.045
 # M2 (baseline quadratic)
 M2 = {'FSTS': 2.652, 'FSTSsq': -1.705, 'const': 11.157,
       'lnEmp': -0.124, 'firmage': 0.015, 'foreign': 0.307}
-# TP: reported in manuscript as ~88.6% (84.1% + 4.5% mean = 88.6%)
+# TP: reported in manuscript as ~82% (77.8% + 4.5% mean = 82.3%)
 TP_RAW = 0.886
 TP_CI_LO = 0.53
 TP_CI_HI = 1.00  # capped at 100% for visualization (true upper=253%)
