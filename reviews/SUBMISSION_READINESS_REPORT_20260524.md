@@ -36,6 +36,21 @@
 
 ---
 
+## 2b. Đã sửa thêm — lượt "Điều chỉnh" (24/05, đối chiếu replication tables + .dta)
+
+| # | File | Sửa | Nguồn xác minh |
+|---|------|-----|----------------|
+| 6 | `p7` §4.6 | M10: ICRV +0,763→**+0,729** (exp 115%→107%); FSTS×ICRV +1,762→**+1,636**; FSTS²×ICRV −2,746→**−2,501** | `p7_coefs_all_models.csv` (text lệch, Bảng 3 đúng) |
+| 7 | `p8` §4.x | "40,4% thấp hơn" → **"≈33% (exp(−0,404)−1)"**; "Micronesia" (ngoài mẫu) → **"Tonga"** | `p8_R_coefs.csv` β=−0,404; danh sách 9 nước |
+| 8 | `p3` refs | Thêm 5 entry: Barney 1991, Hitt et al. 1997, Johanson & Vahlne 1977+2009, World Bank 2025b/2025c; sửa Vernon 1979 → *Oxford Bulletin…* | desk-reject fix |
+| 9 | `cd2` | Dấu thập phân Anh → Việt ở đoạn P6/P7 (84.910; 0,344; p=,038…) — giá trị giữ nguyên | — |
+| 10 | `thesis ch1` | SIDS "6–8"/"6" → **9** (khớp mẫu P8) | P8 = 9 nước |
+| 11 | `thesis ch4` | Singapore N=237 → **623** (full); power 16% thuộc subsample exporters **n≈84** | P4 manuscript |
+
+**Cập nhật matrix:** P3 nâng từ 🟡 (đã hết blocker reference) → còn p-value .660/.730 + DOI placeholder. P7 đỡ một blocker (M10 đã khớp). P8 đỡ (arithmetic + Micronesia). Luận án đỡ (N Singapore + SIDS). CĐ2 sạch decimal.
+
+---
+
 ## 3. Còn lại — cần tác giả quyết định / cần dữ liệu gốc
 
 ### P3 Vietnam (JABS) — CÓ ĐIỀU KIỆN
