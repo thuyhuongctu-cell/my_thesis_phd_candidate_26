@@ -1,0 +1,117 @@
+seq,doi,title,status,converted_r,conversion_formula,sample_size_n,t_value,p_value,effect_direction,curve_type,notes
+221,10.3390/su152115652,Examining the Impact of Internationalization and C,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+277,10.1007/s10799-018-0287-2,"The impact of technology capability, human resourc",EXTRACTED,0.295,beta,79,,0.1,+,linear,Internationalization experience has a weakly positive effect on sales growth
+87,10.1016/j.ibusrev.2014.12.006,"Country specific advantage, firm specific advantag",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+120,10.3846/16111699.2012.668860,"FIRM SIZE, TECHNOLOGICAL CAPABILITY, EXPORTS AND E",NOT_FOUND,,not_found,99,,,,unknown,No direct internationalization → firm performance relationship found
+176,10.3390/su17041576,"Does Maintaining Resources, Diversification, and I",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+197,10.1016/j.heliyon.2024.e33492,"Environmental, social and governance performance: ",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+266,10.1016/j.jwb.2019.04.002,Outward FDI and profitability of emerging economy ,EXTRACTED,0.11,beta,7784,,0.011,+,linear,FDI positively influences firm profitability
+286,10.3390/admsci8040064,Internationalization and Performance of Vietnamese,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+301,10.1371/journal.pone.0162175,EO-Performance relationships in Reverse Internatio,EXTRACTED,0.356,beta,200,,0.001,+,linear,Proactiveness has a significant direct positive contribution to firm performance
+313,10.1017/mor.2015.32,Internationalization and Performance of Chinese Fa,NOT_FOUND,,not_found,225,,,,unknown,No direct internationalization → firm performance coefficient reported
+475,10.3390/su12145508,A Patulous Progress: International Entrepreneurshi,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+48,10.1177/1069031x20988260,Internationalizing the Coopetition Construct: Quad,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+463,10.1108/imr-02-2024-0039,Finding the sweet spot: effects of exporting on th,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+250,10.1002/tie.22192,The post-acquisition performance of cross-border m,NOT_FOUND,,not_found,1340,,,,unknown,No direct internationalization → firm performance relationship found
+181,10.5755/j01.ee.36.3.31403,The Impact of Internationalization on Firm Perform,NOT_FOUND,,not_found,591,,,,unknown,No direct internationalization → firm performance relationship coefficient found
+533,10.11130/jei.2024033,Internationalization at Inception: Insights from t,EXTRACTED,0.13,direct,,,0.01,+,inverted_u,Correlation between DOI and ROA
+36,10.1007/s11575-022-00473-2,Economies of Scale: The Rationale Behind the Multi,NOT_FOUND,,not_found,3876,,,,unknown,No direct I→P relationship coefficient found
+54,10.1002/smj.3087,"Does it pay to be a multinational? A large-sample,",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+167,10.1108/jfbm-08-2025-0226,Navigating global waters: performance outcomes of ,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+196,10.1002/csr.2894,Analysis the nexus between internationalization an,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+218,10.3390/su15032003,Dancing with Giants: A Unified Framework for Coope,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+220,10.1016/j.jretai.2023.07.005,Internationalization and digitalization: Their dif,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+245,10.37725/mgmt.v24i1.4507,Pre-Internationalization and Performance Condition,EXTRACTED,0.05,beta,522,,,+,linear,Age at internationalization coefficient from Table 4
+248,10.1002/jae.2837,Productivity effects of internationalisation throu,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+272,10.1016/j.ijhm.2019.03.007,Internationalization and hotel performance: Agglom,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+310,10.3846/16111699.2012.720600,"Internationalisation, cultural distance and countr",NOT_FOUND,,not_found,403,,,,nonlinear,No direct internationalization → firm performance coefficient found
+461,10.1108/mbr-04-2025-0104,"The performance effects of ""added cultural distanc",EXTRACTED,0.224,beta,109,,0.01,+,inverted_u,Inverted U-shaped curve with positive slope at lower ACD levels and negative slope at higher ACD levels
+462,10.1111/1477-8947.12525,"Clean, competitive, and productive? The impact of ",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+466,10.1108/ijm-03-2023-0150,Exporting is a team sport: the link between manage,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+209,10.1177/21582440241229561,Internationalization and Organizational Resilience,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+614,10.1057/palgrave.jibs.8400268,Linking FDI motivation and host economy productivi,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+686,10.1111/j.1540-6520.2009.00365.x,The Impact of Interorganizational Imitation on New,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+824,10.1177/0149206311398135,Geographic and Product Diversification in Charitab,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+845,10.1007/s11187-011-9395-7,The effect of institutional quality on firm export,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+906,10.3846/20294913.2013.869513,"OWNERSHIP, TECHNOLOGICAL CAPABILITIES AND EXPORTS ",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1012,10.1007/s10290-015-0224-y,"Foreign market experience, learning by hiring and ",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1032,10.5018/economics-ejournal.ja.2015-38,Imported Inputs and Egyptian Exports: Exploring th,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1036,10.1002/tie.21722,Are Firms in Developing Countries in Spider Webs o,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1049,10.7202/1036613ar,. Maximizing the Benefits of Internationalization:,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1061,10.1080/00036846.2015.1122733,"Interrelationship among foreign presence, domestic",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1147,10.1108/ribs-01-2014-0016,International diversification and firm's value: ev,NOT_FOUND,,not_found,,,,+,unknown,No specific coefficient or statistic reported for internationalization → firm performance relationship
+1226,10.15678/eber.2018.060203,"Export Intensity, Geographic Diversification and t",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1258,10.1177/0266242618775169,Disentangling the effects of post-entry speed of i,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1260,10.1016/j.jbusres.2018.02.025,International diversification and firm performance,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1358,10.1177/0973174119839878,International Trade and Productivity Growth in Ind,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1429,10.1016/j.heliyon.2019.e02664,"Geographical diversification, firm size and profit",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1433,10.1111/twec.12892,"Trading activities, productivity and markups: Evid",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1434,10.13106/jafeb.2019.vol6.no4.37,Export Performance and Stock Return: A Case of Fis,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1435,10.1016/j.gfj.2018.02.001,Foreign acquisitions and firm performance: The mod,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1478,10.1016/j.jhtm.2020.01.002,"Family involvement, internationalisation and perfo",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1540,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between int,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1542,10.1177/2340944420916332,The combined effects of product and geographical d,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1550,10.1007/s10290-020-00398-8,Global value chains and technology transfer: new e,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1551,10.1177/0007650318816957,When Does Corporate Social Performance Pay for Int,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1554,10.13106/jafeb.2020.vol7.no11.357,The S-Shaped Relationship Between internationaliza,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1655,10.1002/gsj.1416,Speed of institutional change and subsidiary perfo,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1706,10.1111/1467-8551.12566,Exporting by Private Equity-Backed Portfolio Compa,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1721,10.1108/imr-01-2021-0003,Eyes open and hands on: market knowledge and marke,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1722,10.1111/ajae.12292,Markups and export behavior: Firm-level evidence f,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1767,10.1108/emjb-09-2021-0129,Do domestic market characteristics influence firms,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1790,10.1007/s11575-022-00470-5,"The Relationship Between Timing, Speed, and Perfor",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1888,10.22146/gamaijb.65565,The Relationship Between Export Market Orientation,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1892,10.3390/economies11020068,Slack Resources and Export Intensity: New Empirica,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1894,10.3390/su15043522,How Organizational Resources and Managerial Featur,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1918,10.1080/07421222.2023.2172770,Blood and Water: Information Technology Investment,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1921,10.1007/s13132-023-01378-7,On the Direct and Indirect Effects of ICT on SMEs ,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+1930,10.1002/mde.3936,"Internationalisation, employment generation and wa",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1964,10.1016/j.jwb.2023.101500,The interplay of international alliance and subsid,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1985,10.1111/1467-8551.12786,The Effect of Foreign Divestment on Subsequent Fir,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+1996,10.51599/are.2023.09.04.05,FINANCIAL PERFORMANCE DETERMINANTS OF UKRAINIAN AG,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2008,10.1108/cr-02-2023-0017,The comparison of RBV-based competitiveness of Hun,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2013,10.1080/23311975.2024.2315658,Financial and marketing approach to export perform,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2020,10.1002/bsd2.365,Does internationalization and board diversity affe,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2025,10.1504/ijesb.2020.10032033,Does industry experience positively moderate the q,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2032,10.1002/agr.21947,Determining the influence of belonging to a wine p,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2039,10.3390/ijfs12020047,International Diversification and Stock-Price Cras,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2041,10.1002/tie.22396,"Foreign Ownership, Board of Directors, and Environ",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2049,10.1080/23311975.2024.2375410,The mediating roles of cost leadership and cost fo,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2053,10.1108/sampj-09-2023-0687,"Balancing people, planet and profit: export strate",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2101,10.1007/s10290-024-00567-z,Internationalisation as a boost for many firms: ev,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2111,10.22146/gamaijb.74896,Learning Orientation and Export Performance in Nig,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2116,10.3390/economies13010005,Can the Succession Plan for Family Business Achiev,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2118,10.21272/mmi.2024.4-08,Diverse Leadership and Firm Success: The Role of T,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2121,10.1111/1467-8268.70001,'Learning to Export' and 'Learning By Exporting': ,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2122,10.3390/su17031022,Effects and Determinants of Implementing Digital C,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2146,10.30798/makuiibf.1510554,The Importance of Resource-based View Related Abil,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2149,10.1002/ijfe.3167,"Corporate ESG Performance, Ownership Structure and",NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2153,10.1017/jwe.2025.7,"Wine, markups, and export behavior: Evidence from ",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2175,10.1002/tie.70001,Linking Dynamic Capabilities to Export Performance,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2199,10.1108/jaee-01-2025-0028,Determinants of risk reporting practices in Saudi ,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2246,10.3390/info17010045,Ceasing Export Activities: A Dynamic Analysis of P,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2282,10.1007/s13132-026-03199-w,"Digital Transformation, Internationalization and P",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2288,10.3390/info16070544,Being (Not) Successful in Internationalisation Aft,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2289,10.46661/rev.metodoscuant.econ.empresa.10640,Internationalization and financial performance in ,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2290,10.28934/jwee25.12.pp198-216,Gender Perspectives on SME International Trade and,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2292,10.47836/ijeam.19.2.03,The Impact of Digital Technology Adoption and Inte,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2304,10.33094/ijaefa.v18i1.1362,Mediating role of competitiveness between process ,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2307,10.14254/2071-8330.2024/17-2/13,"ESG disclosure, firm internationalization, and fir",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2308,10.2478/amns-2024-1203,Analysis of Executive Compensation Management Stra,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2342,10.38094/jastt302133,A Strategy for the Growth and Internationalization,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2350,10.24310/ejfbejfb.v11i2.10591,The role of family firms' heterogeneity on the int,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2363,10.5267/j.ac.2020.9.006,The moderating effects of managers’ experience and,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2374,10.33094/8.2017.2019.51.31.38,Influence of Companies’ Governance Process on Sust,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2378,10.1556/204.2019.41.1.4,"Survival, growth, and performance of Hungarian int",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2389,10.12660/joscmv11n1p53-63,Internationalization patterns and their effects on,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2394,10.35808/ersj/1104,"Financial assistance, marketing assistance and exp",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2411,10.1590/0370-44672014690102,Interconnecting financial performance and internat,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2423,10.1002/tie.21649,Do Foreign Firms in China Incur a Liability of For,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2424,10.1162/adev_a_00032,The Dragon is flying west: Micro-level evidence of,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2440,10.1080/00036846.2012.665597,"Location, internationalization and performance of ",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2447,10.4000/rei.5613,The impact of foreign R&D activities on the Mnc'S ,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2450,10.1080/09603107.2011.626396,Multinationality and the performance of IPOs,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2470,10.1002/smj.855,Research notes and commentaries the performance im,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2514,10.1111/j.0950-0804.2004.00228.x,How domestic and foreign firms differ and why does,NO_PDF,,,,,,,,no PDF: download failed (paywall/landing page) or no OA URL
+2515,10.1111/j.1467-9396.2004.00473.x,"Entry, expansion, and intensity in the US export b",API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
+2533,10.1556/aoecon.51.2000-2001.3.4,Foreign capital and economic development in Hungar,API_ERROR,,error,,,,,,Groq error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organizat
