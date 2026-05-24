@@ -98,12 +98,33 @@ def pdf_text(pdf_path: Path) -> str:
 
 
 def download_pdf(url: str, dest: Path) -> bool:
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; meta-analysis-research)"}
     try:
-        r = requests.get(url, timeout=30,
-                         headers={"User-Agent": "Mozilla/5.0 meta-analysis research"})
-        if r.status_code == 200 and b"%PDF" in r.content[:8]:
+        r = requests.get(url, timeout=30, allow_redirects=True, headers=headers)
+        if r.status_code != 200:
+            return False
+        ctype = r.headers.get("Content-Type", "").lower()
+        head = r.content[:1024]
+        # Accept by magic bytes anywhere near the start OR by Content-Type;
+        # many OA hosts serve valid PDFs without %PDF at byte 0.
+        if b"%PDF" in head or "application/pdf" in ctype:
             dest.write_bytes(r.content)
             return True
+        # Landing page: try to find a direct PDF link and fetch it once.
+        if "text/html" in ctype:
+            m = re.search(rb'href=["\']([^"\']+\.pdf[^"\']*)["\']', r.content, re.I)
+            if m:
+                pdf_url = m.group(1).decode("utf-8", "ignore")
+                if pdf_url.startswith("/"):
+                    from urllib.parse import urljoin
+                    pdf_url = urljoin(r.url, pdf_url)
+                r2 = requests.get(pdf_url, timeout=30, allow_redirects=True, headers=headers)
+                if r2.status_code == 200 and (
+                    b"%PDF" in r2.content[:1024]
+                    or "application/pdf" in r2.headers.get("Content-Type", "").lower()
+                ):
+                    dest.write_bytes(r2.content)
+                    return True
     except Exception:
         pass
     return False
