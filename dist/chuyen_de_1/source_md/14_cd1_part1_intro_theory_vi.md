@@ -55,7 +55,7 @@ Chuyên đề này thực hiện phân tích mô tả – chẩn đoán (descrip
 
 Phương pháp chủ đạo là thống kê mô tả đa chiều, kết hợp đồ thị, bảng so sánh xuyên quốc gia – xuyên ngành và phân tích hai biến (bivariate). Hiệu quả hoạt động kinh doanh được tiếp cận theo bốn chiều: năng suất lao động, lợi nhuận và biên lợi nhuận, tăng trưởng, đổi mới sáng tạo và cấu trúc doanh nghiệp.
 
-Kết quả cho thấy hiệu quả doanh nghiệp châu Á có **phân tán (dispersion)** lớn và không hội tụ. Bảy tiểu cảnh điển hình tồn tại đồng thời (Singapore – Vùng Vịnh Saudi/Qatar/Kuwait – Việt Nam – Trung Quốc – Emerging Asia – Mongolia — sáu tiểu cảnh trong scope chính; SIDS Thái Bình Dương — tiểu cảnh boundary case) với điểm mạnh hiệu quả khác nhau. Tương quan giữa các yếu tố giải thích sơ bộ với hiệu quả thay đổi dấu và cường độ giữa các nhóm thể chế, gợi ý sự cần thiết của các mô hình phi tuyến và điều tiết trong các nghiên cứu tiếp theo. Chuyên đề phát hiện **phân nhóm con Advanced** (innovation- so với resource-driven) trong scope chính và xác nhận pattern **chi phí buộc phải quốc tế hóa (forced internationalization penalty)** ở 7 SIDS Thái Bình Dương boundary case — đóng góp định hướng cho luận án và Chuyên đề tiến sĩ số 2.
+Kết quả cho thấy hiệu quả doanh nghiệp châu Á có **phân tán (dispersion)** lớn và không hội tụ. Bảy tiểu cảnh điển hình tồn tại đồng thời (Singapore – Vùng Vịnh Saudi/Qatar/Kuwait – Việt Nam – Trung Quốc – Emerging Asia – Mongolia — sáu tiểu cảnh trong scope chính; SIDS Thái Bình Dương — tiểu cảnh boundary case) với điểm mạnh hiệu quả khác nhau. Tương quan giữa các yếu tố giải thích sơ bộ với hiệu quả thay đổi dấu và cường độ giữa các nhóm thể chế, gợi ý sự cần thiết của các mô hình phi tuyến và điều tiết trong các nghiên cứu tiếp theo. Chuyên đề phát hiện **phân nhóm con Advanced** (innovation- so với resource-driven) trong scope chính và xác nhận pattern **gánh nặng quốc tế hóa bắt buộc (forced internationalization penalty)** ở 7 SIDS Thái Bình Dương boundary case — đóng góp định hướng cho luận án và Chuyên đề tiến sĩ số 2.
 
 **Từ khóa**: hiệu quả doanh nghiệp; châu Á; WBES; thực trạng; năng suất lao động; doanh nghiệp vừa và nhỏ; phân nhóm con Advanced; trường hợp biên SIDS Thái Bình Dương.
 
@@ -191,7 +191,7 @@ Cụ thể, chuyên đề kết hợp ba kỹ thuật: (a) thống kê mô tả 
 
 **Một đóng góp boundary case mở rộng (SIDS Pacific)**:
 
-(5) **Trường hợp biên (boundary case) chi phí buộc phải quốc tế hóa (forced internationalization penalty)** ở **7 SIDS Thái Bình Dương** (Briguglio, 1995; Bertram, 2006) — bằng chứng firm-level đầu tiên trong văn liệu IB cho hiện tượng này (xem §5.7). Kiribati 2025 là extreme nhất với FSTS 1,03%, FDI 0,7%, website 18,7%. **Đóng góp này vượt scope chính của tiêu đề luận án nhưng làm sáng tỏ điều kiện biên của lý thuyết Uppsala** (Johanson & Vahlne, 1977) — minh họa qua tương phản. Chi tiết phân tích cho SIDS Pacific tách thành bản thảo P8 riêng (Đỗ & Phan, đang chuẩn bị, target *World Development*).
+(5) **Trường hợp biên (boundary case) gánh nặng quốc tế hóa bắt buộc (forced internationalization penalty)** ở **7 SIDS Thái Bình Dương** (Briguglio, 1995; Bertram, 2006) — bằng chứng firm-level đầu tiên trong văn liệu IB cho hiện tượng này (xem §5.7). Kiribati 2025 là extreme nhất với FSTS 1,03%, FDI 0,7%, website 18,7%. **Đóng góp này vượt scope chính của tiêu đề luận án nhưng làm sáng tỏ điều kiện biên của lý thuyết Uppsala** (Johanson & Vahlne, 1977) — minh họa qua tương phản. Chi tiết phân tích cho SIDS Pacific tách thành bản thảo P8 riêng (Đỗ & Phan, đang chuẩn bị, target *World Development*).
 
 ### 1.6 Kết cấu chuyên đề
 
@@ -205,7 +205,7 @@ Chuyên đề gồm bảy chương: Ch.1 Giới thiệu; Ch.2 Cơ sở lý luậ
 
 ### §2.6 ĐIỀU KIỆN BIÊN CHO U-CURVE LU & BEAMISH (2004)
 
-NotebookLM podcast 06/05/2026 *Bẫy đo lường số hóa Châu Á* khuyến nghị: việc nhét khái niệm "chi phí buộc phải quốc tế hóa SIDS Pacific" vào §4.4 file 15 làm mờ ranh giới giữa hai loại điều tiết thể chế — (i) thể chế **điều tiết cường độ lợi nhuận** từ quốc tế hóa (U-curve operating); (ii) thể chế **quyết định sự tồn tại của quy luật U-curve** (boundary case). Cần thiết lập 3 điều kiện cấu trúc cho U-curve từ sớm trong Chương 2 thì khi Chương 4–5 phân tích sự thất bại, mảnh ghép sẽ hoàn hảo. SIDS Pacific là trường hợp **đường cong U ngược (Lu & Beamish, 2004) bị biến dạng thành đường cong đảo ngược** — không phải dị biệt ngẫu nhiên mà là điều kiện biên (boundary condition — Bello & Kostova, 2012) của lý thuyết.
+NotebookLM podcast 06/05/2026 *Bẫy đo lường số hóa Châu Á* khuyến nghị: việc nhét khái niệm "gánh nặng quốc tế hóa bắt buộc SIDS Pacific" vào §4.4 file 15 làm mờ ranh giới giữa hai loại điều tiết thể chế — (i) thể chế **điều tiết cường độ lợi nhuận** từ quốc tế hóa (U-curve operating); (ii) thể chế **quyết định sự tồn tại của quy luật U-curve** (boundary case). Cần thiết lập 3 điều kiện cấu trúc cho U-curve từ sớm trong Chương 2 thì khi Chương 4–5 phân tích sự thất bại, mảnh ghép sẽ hoàn hảo. SIDS Pacific là trường hợp **đường cong U ngược (Lu & Beamish, 2004) bị biến dạng thành đường cong đảo ngược** — không phải dị biệt ngẫu nhiên mà là điều kiện biên (boundary condition — Bello & Kostova, 2012) của lý thuyết.
 
 **Ba điều kiện cấu trúc bắt buộc cho U-curve vận hành** (theoretical foundation cho Chương 4–5 file 15/16 + CĐ2 H6):
 

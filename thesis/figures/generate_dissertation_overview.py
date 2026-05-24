@@ -275,7 +275,7 @@ ax.add_patch(FancyBboxPatch((0.35, 1.55), 15.8, 1.45, boxstyle="round,pad=0.02,r
 ax.text(8.25, 2.78, "PHÁT HIỆN HỢP NHẤT TOÀN LUẬN ÁN", ha="center", fontsize=10.5, weight="bold", color="#bf6000")
 ax.text(8.25, 2.34, '"Không tồn tại một mức quốc tế hóa tối ưu duy nhất — điểm uốn (turning point) của quan hệ I→P phụ thuộc chất lượng thể chế (ICRV):',
         ha="center", fontsize=10, style="italic", weight="bold", color=INK)
-ax.text(8.25, 1.98, 'thể chế càng mạnh → đạt đỉnh hiệu quả ở mức FSTS thấp hơn; ở SIDS thể chế cực yếu, quốc tế hóa cưỡng bức gây bất lợi (Forced Internationalization Penalty)."',
+ax.text(8.25, 1.98, 'thể chế càng mạnh → đạt đỉnh hiệu quả ở mức FSTS thấp hơn; ở SIDS thể chế cực yếu, quốc tế hóa gây bất lợi — gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty)."',
         ha="center", fontsize=10, style="italic", weight="bold", color=INK)
 ax.text(8.25, 1.68, "Construct dùng chung: FSTS (cường độ xuất khẩu) · TCI (năng lực công nghệ) · DAI/cDAI (áp dụng số) · ICRV (chế độ thể chế)",
         ha="center", fontsize=8, color="#7a4a00")

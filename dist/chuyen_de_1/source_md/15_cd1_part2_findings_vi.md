@@ -246,7 +246,7 @@ Chương 4 cung cấp bức tranh thực trạng đa chiều dựa trên **101.1
 
 **Hàm ý cho CĐ2 và luận án**:
 
-(a) **Hệ giả thuyết H1–H6**: H1 phi tuyến; H2 TCI điều tiết; H3 DAI có điều kiện; H4 phân nhóm con thể chế (5+8 phân nhóm con); H5 cụm tài nguyên; H6 chi phí buộc phải quốc tế hóa (**7 SIDS gồm Kiribati extreme**).
+(a) **Hệ giả thuyết H1–H6**: H1 phi tuyến; H2 TCI điều tiết; H3 DAI có điều kiện; H4 phân nhóm con thể chế (5+8 phân nhóm con); H5 cụm tài nguyên; H6 gánh nặng quốc tế hóa bắt buộc (**7 SIDS gồm Kiribati extreme**).
 
 (b) **8 phân nhóm con với hiệu ứng cố định** cho CĐ2.
 

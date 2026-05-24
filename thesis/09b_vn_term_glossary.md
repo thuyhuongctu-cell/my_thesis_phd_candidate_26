@@ -82,7 +82,7 @@
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
 | 31 | boundary case | trường hợp biên | trường hợp biên (boundary case) | trường hợp biên |
-| 32 | forced internationalization penalty | chi phí quốc tế hóa bắt buộc | chi phí quốc tế hóa bắt buộc (forced internationalization penalty) | chi phí QTH bắt buộc |
+| 32 | forced internationalization penalty | gánh nặng quốc tế hóa bắt buộc | gánh nặng quốc tế hóa bắt buộc (forced internationalization penalty) | gánh nặng QTH bắt buộc |
 | 33 | leapfrog / digital leapfrog | nhảy vọt công nghệ số | nhảy vọt công nghệ số (digital leapfrog) | nhảy vọt số |
 | 34 | sub-grouping | phân nhóm con | phân nhóm con (sub-grouping) | phân nhóm con |
 | 35 | internationalization-performance (I-P) relationship | mối quan hệ quốc tế hóa-hiệu quả kinh doanh | mối quan hệ quốc tế hóa-hiệu quả kinh doanh (I-P) | mối quan hệ I-P |

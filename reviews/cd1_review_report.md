@@ -116,7 +116,7 @@ Grep trong 3 files: ~12 instances cần đổi.
 ### M2 — H1–H6 không có directional specification trong CĐ1
 
 **Vị trí**: §4.7 (file 15) và §7.3.4 (file 16) liệt kê H1-H6 chỉ bằng labels:
-> "H1 phi tuyến; H2 TCI điều tiết; H3 DAI có điều kiện; H4 phân nhóm con thể chế; H5 cụm tài nguyên; H6 chi phí buộc phải quốc tế hóa"
+> "H1 phi tuyến; H2 TCI điều tiết; H3 DAI có điều kiện; H4 phân nhóm con thể chế; H5 cụm tài nguyên; H6 gánh nặng quốc tế hóa bắt buộc"
 
 **Vấn đề**: Không có formal hypothesis statements với (a) predicted sign, (b) named mechanism, (c) operationalization linkage.
 
