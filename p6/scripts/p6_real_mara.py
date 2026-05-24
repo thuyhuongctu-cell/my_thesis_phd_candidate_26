@@ -32,15 +32,9 @@ import numpy as np
 from scipy.optimize import minimize_scalar, minimize
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-# Canonical DB is the merged v2 (k=259+, superset of v1); fall back to v1 if
-# v2 is absent. Override with the P6_DB env var.
 _DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
-DATA_FILE = (
-    os.environ.get("P6_DB")
-    or (os.path.join(_DATA_DIR, "p6_study_database_v2.csv")
-        if os.path.exists(os.path.join(_DATA_DIR, "p6_study_database_v2.csv"))
-        else os.path.join(_DATA_DIR, "p6_study_database.csv"))
-)
+# Verified analytic dataset = the hand-coded corpus (k=238). Override with P6_DB.
+DATA_FILE = os.environ.get("P6_DB") or os.path.join(_DATA_DIR, "p6_study_database.csv")
 RESULTS_DIR = os.path.join(SCRIPT_DIR, "..", "results")
 
 ICRV_LEVELS = ["I", "II", "III", "FR", "MX"]
