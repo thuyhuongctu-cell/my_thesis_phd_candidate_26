@@ -17,10 +17,10 @@ P6_DIR="$(dirname "$SCRIPT_DIR")"
 DATA_CSV="$P6_DIR/data/p6_study_database.csv"
 
 echo "=== Step 1: Study database ==="
-# The committed CSV (k=238, K=288) is the authoritative coded dataset that the
-# manuscript and validated results depend on. Re-parsing the markdown is only
-# done on explicit request (--parse) or when the CSV is missing, to avoid
-# silently regressing the dataset.
+# The committed CSV (k=238, K=288) is the authoritative coded dataset. The coded
+# markdown now contains all 238 studies, so --parse reproduces k=238/K=288 with
+# byte-identical MARA tables; parsing is kept opt-in only so the curated CSV
+# (effect id E288 for S238) is not overwritten by accident.
 if [[ "${1:-}" == "--parse" || ! -f "$DATA_CSV" ]]; then
   echo "Parsing markdown -> CSV"
   python3 "$SCRIPT_DIR/p6_parse_database.py" \

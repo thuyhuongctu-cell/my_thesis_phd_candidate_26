@@ -66,17 +66,19 @@ The authoritative dataset is **k = 238 studies, K = 288 effects**
 branch, and `table1_baseline.csv` (K=288, k=238) matches on both. The manuscript
 consistently reports k=238 / K=288.
 
-`p6_parse_database.py` parses the human-readable coded markdown
-(`p6_study_database_coded.md`) to k=237 / K=287 because that markdown documents
-study rows **S01-S237 only**. The 238th study — **S238, Srividhya et al. (2024),
-India business groups, FSTS to ROA, r=0.13, n=992** — was added directly to the
-analysis CSV (effect E288) from the WoS-arm search. The markdown's own
-19/05/2026 update note records this decision. So 237/287 is the markdown-tabulated
-subset; 238/288 is the correct analysis count.
+`p6_parse_database.py` now parses the coded markdown
+(`p6_study_database_coded.md`) to **k = 238 / K = 288**: the S238 row
+(**Srividhya et al. 2024**, India business groups, FSTS to ROA, r=0.13, n=992,
+ICRV=III, cDAI=M, DPL=SPN) was added to the coded table, so the markdown is now
+a complete source. Parsing the markdown and running the MARA reproduces
+`table1_baseline.csv` .. `table5_sensitivity.csv` **byte-identically** to the
+committed authoritative dataset. (The committed
+`p6/data/p6_study_database.csv` is left untouched — it keeps the curated effect
+id `E288` for S238; the markdown-derived CSV labels it `S238`, which does not
+affect any REML result.)
 
-Consequence: re-parsing the markdown would drop S238 and regress the dataset to
-237/287, which is why `run_mara.sh` no longer parses by default (use `--parse`
-only after S238 has been written into the coded markdown tables).
+`run_mara.sh` still leaves parsing opt-in (`--parse`) so the curated CSV is not
+overwritten by accident, but parsing is now verified safe (reproduces 238/288).
 
 ## Cross-paper survey
 

@@ -388,14 +388,15 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S235 | Freixanet & Rialp (2021) GSJ | +0.08 (est.) | 1,500 | Spain | ~2008–16 | II | M | FOL | EXP | MIX | GSJ; I→P with innovation mediator (distinct from S101 EMJ) |
 | S236 | Barłożewski & Trąpczyński (2021a) | −0.10 | 97 | Poland | ~2014–19 | MX | M | SPN | FSTS | ACC | EBER 9; exporter subsample n=97; r confirmed (see S195 for full-sample n=200 est.) |
 | S237 | Barłożewski & Trąpczyński (2021b) | −0.04 | 304 | Poland | ~2014–19 | MX | M | FOL | FSTS | ACC | OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.) |
+| S238 | Srividhya et al. (2024) | +0.13 | 992 | India | ~2005–21 | III | M | SPN | FSTS | ACC | WoS-arm S0129; JEI 2024 v39(2); DOI-ROA corr experienced BGs; n≈992 firm-yr (72 firms, PROWESS 2005–2021); doi:10.11130/jei.2024033 |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 237 studies S01–S237; S238 added to forest_data directly → total k = 238, K = 288 in MARA)
+## 5. Tóm tắt Phân phối Moderator (k = 238 studies S01–S238; K = 288 effects in MARA)
 
-> *Cập nhật 16/05/2026: k=237. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). S238 = Cho & Lee (2018) confirmed duplicate of S85 (same paper, same r=−0.029, same n=232; removed — cDAI corrected to H at S85). Table rows S01–S237 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` để có số liệu chính xác theo effect.*
+> *Cập nhật 16/05/2026: k=237. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). Table rows S01–S237 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` để có số liệu chính xác theo effect.*
 >
-> *Cập nhật 19/05/2026: S238 (Srividhya & Vidya 2024 — India BG, FSTS→ROA, r=0.13, n=992, ICRV=III, cDAI=M, DPL=SPN) thêm trực tiếp vào `forest_data.csv` (E288) từ WoS arm search. Coded database này vẫn cover S01–S237 (k=237); `forest_data.csv` hiện có K=288 rows và k=238 unique study_ids.*
+> *Cập nhật 19/05/2026: S238 (Srividhya et al. 2024 — India BG, FSTS→ROA, r=0.13, n=992, ICRV=III, cDAI=M, DPL=SPN) đã được thêm vào bảng coded ở trên (trước đây chỉ nằm trong `forest_data.csv` như effect E288 từ WoS arm search). Coded database hiện cover đầy đủ S01–S238 (k=238); `p6_parse_database.py` nay sinh ra đúng K=288 rows / k=238 unique study_ids, khớp với `forest_data.csv`.*
 >
 > **Ghi chú về chênh lệch K: MetaEssentials vs forest_data (16/05/2026)**
 >
