@@ -56,7 +56,7 @@ We define the **Forced Internationalization Penalty (FIP)** as the monotone nega
 
 ### 2.3 The SIDS Context and Survival-Based Internationalization
 
-Pacific SIDS economies exhibit all three violated prerequisites in extreme form. With populations ranging from 94,000 (Micronesia) to 10 million (Papua New Guinea, the largest in our sample), domestic markets cannot sustain manufacturing or service firms at minimum efficient scale. Read (2004) demonstrated that the smallest island economies have effectively no choice architecture for export abstention — firms either export or exit. We term this pattern *survival-based internationalization*: not strategic expansion but structural compulsion.
+Pacific SIDS economies exhibit all three violated prerequisites in extreme form. With populations ranging from roughly 100,000 (Tonga) to 10 million (Papua New Guinea, the largest in our sample), domestic markets cannot sustain manufacturing or service firms at minimum efficient scale. Read (2004) demonstrated that the smallest island economies have effectively no choice architecture for export abstention — firms either export or exit. We term this pattern *survival-based internationalization*: not strategic expansion but structural compulsion.
 
 Under survival-based internationalization, FSTS — the standard measure of internationalization intensity — no longer indexes voluntary commitment to foreign markets; it proxies the *degree of domestic market inadequacy*. Firms with higher FSTS are not necessarily those with superior international capabilities; they may simply face more acute domestic market constraints. This reinterpretation of FSTS in the SIDS context generates a novel empirical prediction:
 
@@ -146,7 +146,7 @@ Table 2 reports the main regression results. **M1**, the linear FSTS specificati
 
 β(FSTS_c) = **−0.404**, SE = 0.188, t = −2.152, p = **.032**
 
-This coefficient is statistically significant at the conventional 5% level and substantively meaningful: a one-unit increase in FSTS (a move from no exports to full-export orientation) is associated with a 40.4% lower labor productivity. This supports **Hypothesis 1**: internationalization intensity is negatively associated with performance in Pacific SIDS.
+This coefficient is statistically significant at the conventional 5% level and substantively meaningful: a one-unit increase in FSTS (a move from no exports to full-export orientation) is associated with approximately 33% lower labor productivity (exp(−0.404) − 1 ≈ −33%). This supports **Hypothesis 1**: internationalization intensity is negatively associated with performance in Pacific SIDS.
 
 The M0 baseline (controls only, no FSTS) yields an R² of 0.7992; adding FSTS_c in M1 marginally increases R² to 0.8001 — indicating that, conditional on country and year fixed effects, FSTS explains limited additional variance but in a consistently negative direction.
 
