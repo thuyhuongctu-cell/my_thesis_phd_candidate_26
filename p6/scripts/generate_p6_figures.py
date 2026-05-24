@@ -1,8 +1,9 @@
 """
 P6 Meta-Analysis — Publication figure generation (updated with real MARA results).
 
-Reads from p6/results/table*.csv and p6/results/forest_data.csv.
-All values come from p6_real_mara.R run on k=237, K=287 actual database.
+Reads from p6/results/table*.csv, forest_data.csv, loo_data.csv, and
+funnel_imputed.csv. All values come from the MARA pipeline (p6_real_mara.py
+/ p6_real_mara.R) run on the k=238, K=288 coded database.
 
 Figures produced:
   Figure 2 — ICRV 5-regime forest plot          → figures/figure2_icrv_forest.png
@@ -50,6 +51,8 @@ icrv_rows = _load_csv("table2_icrv.csv")
 dpl_rows  = _load_csv("table4_dpl.csv")
 sens_rows = _load_csv("table5_sensitivity.csv")
 forest_rows = _load_csv("forest_data.csv")
+loo_rows = _load_csv("loo_data.csv")
+imputed_rows = _load_csv("funnel_imputed.csv")
 
 # ── Academic style (grayscale, serif) ─────────────────────────────────────────
 plt.rcParams.update({
@@ -236,49 +239,36 @@ def figure3_dpl_phase():
 
 # ── Figure 4: Leave-One-Out Sensitivity Scatter ───────────────────────────────
 def figure4_sensitivity():
-    """Leave-one-out sensitivity scatter using real forest_data.
+    """Leave-one-out sensitivity scatter from real loo_data.csv.
 
-    Each point = r after removing that study. Range [0.071, 0.075].
-    No study reverses direction (0/287).
+    Each point = pooled r after removing one study (two-level REML).
     """
-    # Simulate LOO from real r_i values (consistent with R's leave1out)
-    r_vals = np.array([float(row["r_i"]) for row in forest_rows])
-    n_vals = np.array([float(row["n"])   for row in forest_rows])
-
-    # Weight-based LOO approximation: remove study i, recalculate weighted mean
-    # Using precision weights: w_i = 1/(1/(n-3)) = n-3
-    w = n_vals - 3
-    w_total = w.sum()
-    w_sum_r = (w * r_vals).sum()
-
-    loo_r = np.array([
-        (w_sum_r - w[i] * r_vals[i]) / (w_total - w[i])
-        for i in range(len(r_vals))
-    ])
-    loo_r = np.clip(loo_r, 0.060, 0.090)
-
-    study_idx = np.arange(1, len(r_vals) + 1)
+    loo_r = np.array([float(row["r_pooled"]) for row in loo_rows])
+    study_idx = np.arange(1, len(loo_r) + 1)
+    lo, hi = loo_r.min(), loo_r.max()
+    n_reverse = int((loo_r < 0).sum())
 
     fig, ax = plt.subplots(figsize=(9, 4))
     ax.scatter(study_idx, loo_r, color="gray", s=12, alpha=0.6, zorder=3)
 
     ax.axhline(POOLED_R, color="black", linewidth=1.0, linestyle="--",
                label=f"Three-level estimate r = {POOLED_R:.3f}")
-    ax.axhline(0.071, color="black", linewidth=0.7, linestyle=":",
-               alpha=0.5, label="LOO range [0.071, 0.075]")
-    ax.axhline(0.075, color="black", linewidth=0.7, linestyle=":",
-               alpha=0.5)
+    ax.axhline(lo, color="black", linewidth=0.7, linestyle=":",
+               alpha=0.5, label=f"LOO range [{lo:.3f}, {hi:.3f}]")
+    ax.axhline(hi, color="black", linewidth=0.7, linestyle=":", alpha=0.5)
 
-    ax.set_xlabel(f"Effect index (1 – {K_EFFECTS})", fontsize=10)
-    ax.set_ylabel("Pooled r after effect removed", fontsize=10)
-    ax.set_xlim(0, K_EFFECTS + 5)
-    ax.set_ylim(0.055, 0.095)
+    n_studies = len(loo_r)
+    ax.set_xlabel(f"Study index (1 – {n_studies})", fontsize=10)
+    ax.set_ylabel("Pooled r after study removed", fontsize=10)
+    ax.set_xlim(0, n_studies + 5)
+    ax.set_ylim(min(0.055, lo - 0.01), max(0.095, hi + 0.01))
     ax.legend(fontsize=8.5, loc="upper right")
     ax.text(0.02, 0.05,
-            f"0 / {K_EFFECTS} effects reverse direction   |   Range: [0.071, 0.075]",
+            f"{n_reverse} / {n_studies} studies reverse direction   |   "
+            f"Range: [{lo:.3f}, {hi:.3f}]",
             transform=ax.transAxes, fontsize=8.5, va="bottom", style="italic")
     ax.set_title(
-        f"Figure 4. Leave-One-Out Sensitivity Analysis (K = {K_EFFECTS} effects)",
+        f"Figure 4. Leave-One-Out Sensitivity Analysis (k = {n_studies} studies)",
         fontsize=11, fontweight="bold", pad=8)
     fig.tight_layout()
     _save(fig, "figure4_sensitivity")
@@ -286,22 +276,19 @@ def figure4_sensitivity():
 
 # ── Figure 5: Funnel Plot with Trim-and-Fill ──────────────────────────────────
 def figure5_funnel_plot():
-    """Funnel plot using real forest_data r_i values + k=57 imputed studies.
+    """Funnel plot from real forest_data + real trim-and-fill imputed points.
 
-    Trim-and-fill: k_imputed=57, adj_r=0.035 [0.018, 0.051].
-    Egger: b=0.487, p=.052 (marginal).
-    Begg: tau=-0.132, p=.001.
+    Trim-and-fill (metafor L0, left side): k=58 imputed, adj r=0.035 [0.019, 0.051].
+    Egger: b=0.475, p=.057.  Begg: tau=-0.134, p=.0007.
     """
     r_obs  = np.array([float(row["r_i"]) for row in forest_rows])
     n_obs  = np.array([float(row["n"])   for row in forest_rows])
     se_obs = np.sqrt(1.0 / (n_obs - 3))
 
-    # Simulate k=57 trim-and-fill imputed studies on the left
-    rng = np.random.default_rng(seed=2026)
-    k_imputed = 57
-    r_imp  = rng.uniform(-0.25, 0.00, size=k_imputed)
-    n_imp  = rng.uniform(50, 400, size=k_imputed)
-    se_imp = np.sqrt(1.0 / (n_imp - 3))
+    # Real trim-and-fill imputed studies (reflected, from funnel_imputed.csv)
+    r_imp  = np.array([float(row["r_imputed"]) for row in imputed_rows])
+    se_imp = np.array([float(row["se"])        for row in imputed_rows])
+    k_imputed = len(r_imp)
 
     adj_r    = 0.035
     se_range = np.linspace(0, 0.28, 200)
@@ -330,14 +317,14 @@ def figure5_funnel_plot():
     ax.set_ylabel("Standard error (SE)", fontsize=10)
 
     ax.text(0.98, 0.04,
-            f"Egger: b = 0.487, p = .052\nBegg: τ = −0.132, p = .001",
+            f"Egger: b = 0.475, p = .057\nBegg: τ = −0.134, p = .0007",
             transform=ax.transAxes, fontsize=8.5,
             va="bottom", ha="right", style="italic")
 
     ax.legend(fontsize=8.5, loc="upper right")
     ax.set_title(
         "Figure 5. Funnel Plot with Trim-and-Fill Correction\n"
-        f"k = {k_imputed} imputed; adj. r = {adj_r:.3f} [0.018, 0.051]",
+        f"k = {k_imputed} imputed; adj. r = {adj_r:.3f} [0.019, 0.051]",
         fontsize=11, fontweight="bold", pad=8)
     fig.tight_layout()
     _save(fig, "figure5_funnel_plot")
