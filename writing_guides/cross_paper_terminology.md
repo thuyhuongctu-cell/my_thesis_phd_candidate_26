@@ -120,7 +120,7 @@ The thesis distinguishes three export participation concepts:
 *Note: Old R-script estimates (wstrict filter, N=36,137) are superseded by finalized manuscript results (Stata, N=84,910 M2). Group-level TPs from M10 ICRV-moderation model.*
 
 **Full term:** Institutional Context Regime Variation (ICRV)
-**Vietnamese:** Biến thể chế độ bối cảnh thể chế (ICRV)
+**Vietnamese:** Biến thiên chế độ bối cảnh thể chế (ICRV)
 **First mention:** "institutional context regime (Institutional Context Regime Variation — ICRV)"
 **Subsequent:** "ICRV" or "bối cảnh thể chế"
 
@@ -135,7 +135,7 @@ The thesis distinguishes three export participation concepts:
 ## 7. CDCM Framework
 
 **Full term:** Context-Contingent Digital-and-Capability Model (CDCM)
-**Vietnamese:** Mô hình kỹ thuật số và năng lực có điều kiện theo bối cảnh (CDCM)
+**Vietnamese:** Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh (CDCM)
 **First mention:** "digital-and-capability model (Context-Contingent Digital-and-Capability Model — CDCM)"
 **Subsequent:** "CDCM"
 

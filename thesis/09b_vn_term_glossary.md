@@ -44,15 +44,15 @@
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
 | 11 | Technological Capability Index (TCI) | Chỉ số năng lực công nghệ | Chỉ số năng lực công nghệ (Technological Capability Index — TCI) | TCI / năng lực công nghệ |
-| 12 | Digital Adoption Index (DAI) | Chỉ số năng lực số | Chỉ số năng lực số (Digital Adoption Index — DAI) | DAI / năng lực số |
+| 12 | Digital Adoption Index (DAI) | Mức độ áp dụng số | Mức độ áp dụng số (Digital Adoption Index — DAI) | DAI / áp dụng số |
 | 13 | Foreign Sales to Total Sales (FSTS) | Tỷ lệ doanh số quốc tế | Tỷ lệ doanh số quốc tế trên tổng doanh số (Foreign Sales to Total Sales — FSTS) | FSTS / cường độ quốc tế hóa |
 | 14 | Institutional Capability-Resource Vitality (ICRV) | Phân loại thể chế năng lực-nguồn lực | Phân loại thể chế năng lực-nguồn lực (Institutional Capability-Resource Vitality — ICRV) | ICRV / phân loại thể chế ICRV |
 | 15 | Total Factor Productivity (TFP) | Năng suất nhân tố tổng hợp | Năng suất nhân tố tổng hợp (Total Factor Productivity — TFP) | TFP / năng suất tổng hợp |
 | 16 | Return on Assets (ROA) | Tỷ suất sinh lời trên tài sản | Tỷ suất sinh lời trên tài sản (Return on Assets — ROA) | ROA |
 | 17 | World Governance Indicators (WGI) | Chỉ số quản trị thế giới | Chỉ số quản trị thế giới (World Governance Indicators — WGI) | WGI |
 | 18 | ICRV sub-regime | Nhóm con thể chế ICRV | Nhóm con thể chế ICRV (ICRV sub-regime) | nhóm ICRV I/II/III/IV/V/VI |
-| 19 | Tier-1 digital presence | Sự hiện diện số cơ bản / Năng lực số tầng 1 | Sự hiện diện số cơ bản (Tier-1 digital presence) | Tier-1 / sự hiện diện số cơ bản |
-| 20 | Tier-2 digital adoption | Năng lực số tầng 2 | Năng lực số tầng 2 (Tier-2 digital adoption) | Tier-2 |
+| 19 | Tier-1 digital presence | Sự hiện diện số cơ bản / Áp dụng số tầng 1 | Sự hiện diện số cơ bản (Tier-1 digital presence) | Tier-1 / sự hiện diện số cơ bản |
+| 20 | Tier-2 digital adoption | Áp dụng số tầng 2 | Áp dụng số tầng 2 (Tier-2 digital adoption) | Tier-2 |
 
 ---
 

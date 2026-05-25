@@ -105,7 +105,7 @@ Sau lần đầu, dùng **tiếng Việt thuần** cho các lần tiếp theo tr
 | Lần đầu | Các lần sau |
 |---------|------------|
 | "Chỉ số năng lực công nghệ (Technological Capability Index — TCI)" | "TCI" hoặc "năng lực công nghệ" |
-| "Chỉ số năng lực số (Digital Adoption Index — DAI)" | "DAI" hoặc "năng lực số" |
+| "Mức độ áp dụng số (Digital Adoption Index — DAI)" | "DAI" hoặc "năng lực số" |
 | "Tỷ lệ doanh số nước ngoài trên tổng doanh số (Foreign Sales to Total Sales — FSTS)" | "FSTS" hoặc "cường độ quốc tế hóa" |
 | "Phân loại thể chế theo nhóm năng lực-nguồn lực (Institutional Capability-Resource Vitality — ICRV)" | "ICRV" hoặc "phân loại thể chế ICRV" |
 | "Khảo sát Môi trường Kinh doanh Doanh nghiệp (World Bank Enterprise Survey — WBES)" | "WBES" hoặc "khảo sát WBES" |
@@ -213,7 +213,7 @@ Nếu ý tưởng phức tạp cần diễn đạt dài hơn, **tách thành 2-3
 |-----------|------------------------------|------------------|
 | FSTS | "xuất khẩu", "tỷ lệ XK", "cường độ XK", "quốc tế hóa" | "cường độ quốc tế hóa (FSTS)" → sau đó "FSTS" |
 | I-P relationship | "quan hệ I-P", "quốc tế hóa-hiệu quả", "kết quả quốc tế hóa" | "mối quan hệ quốc tế hóa-hiệu quả kinh doanh (I-P)" |
-| DAI | "số hóa", "công nghệ số", "chuyển đổi số", "năng lực số" | "năng lực số (DAI)" → sau đó "DAI" |
+| DAI | "số hóa", "công nghệ số", "chuyển đổi số", "năng lực số" | "áp dụng số (DAI)" → sau đó "DAI" |
 | TCI | "công nghệ", "năng lực kỹ thuật", "khả năng công nghệ" | "năng lực công nghệ (TCI)" → sau đó "TCI" |
 | WBES data | "số liệu WBES", "dữ liệu khảo sát", "mẫu WB" | "dữ liệu WBES" |
 
