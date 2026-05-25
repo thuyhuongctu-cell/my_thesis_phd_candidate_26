@@ -4,8 +4,8 @@
 *Dịch thuật: Claude AI theo chuẩn văn phong học thuật CTU (09b_vn_term_glossary.md v1.4)*
 *Ngày: 17/05/2026*
 
-**Đỗ Thùy Hương** · Khoa Kinh tế, Đại học Cần Thơ · huongp1323001@gstudent.ctu.edu.vn · ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)
-**Phan Anh Tú** *(Tác giả liên hệ)* · Khoa Kinh tế, Đại học Cần Thơ · patu@ctu.edu.vn · ORCID: [0000-0003-0667-3137](https://orcid.org/0000-0003-0667-3137)
+**Đỗ Thùy Hương**, Khoa Kinh tế, Đại học Cần Thơ, huongp1323001@gstudent.ctu.edu.vn, ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)
+**Phan Anh Tú** *(Tác giả liên hệ)*, Khoa Kinh tế, Đại học Cần Thơ, patu@ctu.edu.vn, ORCID: [0000-0003-0667-3137](https://orcid.org/0000-0003-0667-3137)
 
 *Nộp đăng: International Journal of Emerging Markets (IJOEM)*
 
@@ -17,7 +17,7 @@
 
 **Bảng biểu:** 3 (Bảng 1 thống kê mô tả theo đợt khảo sát; Bảng 2 mô hình ngưỡng chính M2; Bảng 3 đặc tả điều tiết ba chiều với kiểm định F đồng thời).
 
-**Hình:** 4 (Hình 1 mô hình khái niệm; Hình 2 ước lượng điểm ngưỡng kèm khoảng tin cậy 95%; Hình 3 đường cong I→P dự báo theo đợt khảo sát; Hình 4 hệ số dịch chuyển mức nền theo năng lực).
+**Hình:** 4 (Hình 1 mô hình khái niệm; Hình 2 ước lượng điểm ngưỡng kèm khoảng tin cậy 95%; Hình 3 đường cong I-P dự báo theo đợt khảo sát; Hình 4 hệ số dịch chuyển mức nền theo năng lực).
 
 ---
 
@@ -97,7 +97,7 @@ Lý thuyết năng lực động (Teece, 2007) và văn liệu năng lực công
 
 ![Hình 1: Mô hình khái niệm](figures/p5_china/figure_1_conceptual_model.png)
 
-> **Hình 1.** Mô hình khái niệm: cường độ quốc tế hóa (FSTS), năng lực công nghệ (TCI_full) và đợt khảo sát theo thời gian là các yếu tố quyết định năng suất lao động log. Các mũi tên điều tiết nét đứt phản ánh các phân tích cơ chế khám phá được đánh giá trong §4.5.
+> **Hình 1.** Mô hình khái niệm: cường độ quốc tế hóa (FSTS), năng lực công nghệ (TCI_full) và đợt khảo sát theo thời gian là các yếu tố quyết định năng suất lao động log. Các mũi tên điều tiết nét đứt phản ánh các phân tích cơ chế khám phá được đánh giá trong Mục 4.5.
 
 ---
 
@@ -107,7 +107,7 @@ Lý thuyết năng lực động (Teece, 2007) và văn liệu năng lực công
 
 Tập dữ liệu phân tích kết hợp hai đợt khảo sát của WBES cho Trung Quốc: 2012 (bản phát hành đầy đủ, 2.700 doanh nghiệp; World Bank, 2013) và 2024 (2.189 doanh nghiệp; World Bank, 2025). Sau khi xóa danh sách theo tập trọng tâm (doanh thu, số lao động, cường độ xuất khẩu) và xử lý các mã không phản hồi WBES -9 và -7 thành khuyết (cùng với mã từ chối -8 bổ sung của 2024), các mẫu phân tích là 2.619 doanh nghiệp ở 2012, 1.940 doanh nghiệp ở 2024, và 4.559 quan sát doanh nghiệp-năm trong mẫu gộp. Mẫu 2024 nhỏ hơn 2012 (N = 1.940 so với N = 2.619, −26%) do kết hợp: (i) thiết kế lại lấy mẫu WBES giữa các đợt; (ii) loại trừ có hệ thống doanh nghiệp nhà nước trong công cụ 2024; và (iii) khả năng thoát khỏi thị trường của các doanh nghiệp được khảo sát năm 2012. Sự hao hụt này không ngẫu nhiên về hướng — WBES 2024 ưu tiên SME chế tạo tư nhân — và phân tích của chúng tôi được giới hạn rõ ràng cho doanh nghiệp tư nhân, giảm thiểu sai lệch thành phần.
 
-Mẫu phân tích được rút từ khung doanh nghiệp tư nhân WBES rộng cho Trung Quốc thay vì một mẫu con chỉ-chế-tạo; các doanh nghiệp trong dịch vụ, bán lẻ, IT và xây dựng được bao gồm cùng chế tạo vì chiến lược nhận dạng của bản thảo phụ thuộc vào khung doanh nghiệp tư nhân WBES đầy đủ trong đó kết quả ngưỡng được ước lượng. Nghiên cứu kiểm soát thành phần ngành thông qua các biến giả phân tầng ISIC (`a4a`). Một kiểm định vững giới hạn mẫu vào các doanh nghiệp chế tạo (mã ISIC Rev 3.1 15–38 ở 2012 và mã ISIC Rev 4 10–33 ở 2024) được báo cáo trong §4.6.
+Mẫu phân tích được rút từ khung doanh nghiệp tư nhân WBES rộng cho Trung Quốc thay vì một mẫu con chỉ-chế-tạo; các doanh nghiệp trong dịch vụ, bán lẻ, IT và xây dựng được bao gồm cùng chế tạo vì chiến lược nhận dạng của bản thảo phụ thuộc vào khung doanh nghiệp tư nhân WBES đầy đủ trong đó kết quả ngưỡng được ước lượng. Nghiên cứu kiểm soát thành phần ngành thông qua các biến giả phân tầng ISIC (`a4a`). Một kiểm định vững giới hạn mẫu vào các doanh nghiệp chế tạo (mã ISIC Rev 3.1 15–38 ở 2012 và mã ISIC Rev 4 10–33 ở 2024) được báo cáo trong Mục 4.6.
 
 **Ghi chú tái lập.** Các mẫu tập trọng tâm — chỉ giữ các doanh nghiệp có doanh thu, số lao động và cường độ xuất khẩu không khuyết (`lnLP`, `FSTS`, `FSTS²`) — là 2.619 doanh nghiệp ở 2012, 1.940 doanh nghiệp ở 2024, và 4.559 quan sát doanh nghiệp-năm trong mẫu gộp. Các mẫu hồi quy (*sample_base*), bổ sung yêu cầu `lnEmp`, tuổi doanh nghiệp và chỉ báo sở hữu nước ngoài không khuyết, là **2.610 (2012), 1.934 (2024) và 4.544 (gộp)** — đây là N được báo cáo xuyên suốt bài báo (tóm tắt, Bảng 1, Bảng 2). Các mã không phản hồi của Ngân hàng Thế giới (−9 và −7 ở 2012; −9, −8 và −7 ở 2024) được mã hóa lại thành khuyết trên tất cả biến trọng tâm. Các chỉ số tổng hợp `TCI_full` và `DAI_core` được chuẩn hóa z trong cùng đợt trước khi gộp. Chúng tôi đã xác minh các cỡ mẫu phân tích, ước lượng điểm ngưỡng (49,4% ở 2012, 47,2% ở 2024, 48,8% gộp), kết quả bằng nhau xuyên đợt Paternoster, và các kiểm định F đồng thời cho dịch chuyển xuyên đợt và điều tiết theo năng lực trong một tái lập Python độc lập của ống dẫn Stata.
 
@@ -236,7 +236,7 @@ F1 tương ứng với H2a so với H2b (dịch chuyển xuyên đợt so với 
 
 ### 4.5 Phân tích cơ chế: áp dụng số
 
-DAI_core (own-website) dương và có ý nghĩa ở cả hai đợt (β_z ≈ +0,10 ở 2012, p = ,002; +0,12 ở 2024, p < ,001) khi được đưa vào như biến kiểm soát trong M2. Một mô hình khám phá cơ chế riêng biệt (M7) kiểm định liệu DAI_core có trung gian cho mối quan hệ TCI_full → lnLP qua con đường trung gian tuần tự (TCI_full → DAI_core → lnLP). Ước lượng hiệu ứng gián tiếp bootstrap (n = 1.000 lần rút) cho hiệu ứng gián tiếp nhỏ nhưng dương (2012: +0,018, KTC 95% [0,004; 0,039]; 2024: +0,022, KTC 95% [0,007; 0,043]), nhất quán với đọc trung gian một phần. Tuy nhiên, vì DAI_core là biến đại diện nhị phân đơn lẻ và vì WBES không cho phép quy nhân quả, phân tích này mang tính khám phá và được báo cáo như "phác thảo cơ chế mô tả" thay vì tuyên bố nhận dạng nhân quả (Antonakis et al., 2010; Shaver, 2020).
+DAI_core (own-website) dương và có ý nghĩa ở cả hai đợt (β_z ≈ +0,10 ở 2012, p = ,002; +0,12 ở 2024, p < ,001) khi được đưa vào như biến kiểm soát trong M2. Một mô hình khám phá cơ chế riêng biệt (M7) kiểm định liệu DAI_core có trung gian cho mối quan hệ TCI_full đến lnLP qua con đường trung gian tuần tự (TCI_full đến DAI_core đến lnLP). Ước lượng hiệu ứng gián tiếp bootstrap (n = 1.000 lần rút) cho hiệu ứng gián tiếp nhỏ nhưng dương (2012: +0,018, KTC 95% [0,004; 0,039]; 2024: +0,022, KTC 95% [0,007; 0,043]), nhất quán với đọc trung gian một phần. Tuy nhiên, vì DAI_core là biến đại diện nhị phân đơn lẻ và vì WBES không cho phép quy nhân quả, phân tích này mang tính khám phá và được báo cáo như "phác thảo cơ chế mô tả" thay vì tuyên bố nhận dạng nhân quả (Antonakis et al., 2010; Shaver, 2020).
 
 ### 4.6 Kiểm định vững
 
@@ -266,15 +266,15 @@ Kết quả null về điều tiết — F2 = 3,26, p = ,039, không vượt qua
 
 Phát hiện này nhất quán với Avenyo et al. (2021), những người tìm thấy rằng năng lực sản xuất ảnh hưởng đến mức hiệu quả xuất khẩu nhưng không đến hình dạng của đường cong xuất khẩu–năng suất trong các doanh nghiệp chế tạo châu Phi. Sự tương đồng đáng chú ý: năng lực có thể là dịch chuyển mức nền toàn cầu nhưng không phải điều tiết độ cong toàn cầu qua các bối cảnh kinh tế mới nổi.
 
-Kết quả null của TCI về điều tiết độ cong ở Trung Quốc nhất quán với P4 Singapore (nơi TCI chỉ hoạt động như yếu tố tăng cường năng suất trực tiếp mà không điều tiết độ dốc I→P). Mô hình này nổi lên ở hai nền kinh tế thể chế khác biệt: Trung Quốc (chuyển đổi mới nổi/Cận trên trung) và Singapore (đổi mới tiên tiến). Cách diễn giải dự phòng Biến thiên chế độ thể chế (Institutional Context Regime Variation — ICRV) gợi ý rằng điều tiết TCI về độ cong có thể tập trung ở các nền kinh tế chuyển đổi với thị trường phân mảnh (P3 Việt Nam: có ý nghĩa; khoảng trống thể chế tạo ra hấp thụ không đồng đều về lợi tức TCI). Phát hiện cấu thành đặc tả thể chế xác định khi nào TCI quan trọng cho độ dốc so với giá trị chặn.
+Kết quả null của TCI về điều tiết độ cong ở Trung Quốc nhất quán với P4 Singapore (nơi TCI chỉ hoạt động như yếu tố tăng cường năng suất trực tiếp mà không điều tiết độ dốc I-P). Mô hình này nổi lên ở hai nền kinh tế thể chế khác biệt: Trung Quốc (chuyển đổi mới nổi/Cận trên trung) và Singapore (đổi mới tiên tiến). Cách diễn giải dự phòng Biến thiên chế độ thể chế (Institutional Context Regime Variation — ICRV) gợi ý rằng điều tiết TCI về độ cong có thể tập trung ở các nền kinh tế chuyển đổi với thị trường phân mảnh (P3 Việt Nam: có ý nghĩa; khoảng trống thể chế tạo ra hấp thụ không đồng đều về lợi tức TCI). Phát hiện cấu thành đặc tả thể chế xác định khi nào TCI quan trọng cho độ dốc so với giá trị chặn.
 
 ### 5.3 Áp dụng số như kiểm soát nền
 
-DAI_core (own-website) đi vào dương và có ý nghĩa ở cả hai đợt nhưng không thêm sức giải thích về độ cong hình chữ U ngược ngoài TCI_full. Phác thảo cơ chế (§4.5) gợi ý con đường trung gian một phần (TCI → DAI → lnLP), nhưng hiệu ứng nhỏ và các giả định nhận dạng không được đáp ứng đầy đủ với một mặt cắt ngang đơn đợt. Cách diễn giải đúng là hiện diện số là yếu tố bổ sung cho năng suất thay vì construct năng lực trong bối cảnh này. Các nhà nghiên cứu muốn thao tác hóa năng lực số trong công việc dựa trên WBES trong tương lai nên xem xét chỉ số tổng hợp phong phú hơn (Verhoef et al., 2021; Vial, 2019) khi các mục số nhiều mục trở nên có sẵn qua các đợt.
+DAI_core (own-website) đi vào dương và có ý nghĩa ở cả hai đợt nhưng không thêm sức giải thích về độ cong hình chữ U ngược ngoài TCI_full. Phác thảo cơ chế (Mục 4.5) gợi ý con đường trung gian một phần (TCI đến DAI đến lnLP), nhưng hiệu ứng nhỏ và các giả định nhận dạng không được đáp ứng đầy đủ với một mặt cắt ngang đơn đợt. Cách diễn giải đúng là hiện diện số là yếu tố bổ sung cho năng suất thay vì construct năng lực trong bối cảnh này. Các nhà nghiên cứu muốn thao tác hóa năng lực số trong công việc dựa trên WBES trong tương lai nên xem xét chỉ số tổng hợp phong phú hơn (Verhoef et al., 2021; Vial, 2019) khi các mục số nhiều mục trở nên có sẵn qua các đợt.
 
 ### 5.4 Hạn chế
 
-Bốn giới hạn suy luận cần lưu ý. Thứ nhất, vì dữ liệu WBES là mặt cắt ngang trong mỗi đợt và khớp panel qua 2012 và 2024 không thể thực hiện do ẩn danh hóa WBES, phân tích ổn định theo thời gian không thể diễn giải là thay đổi trong doanh nghiệp; nó so sánh các mặt cắt ngang đại diện dân số, và các tuyên bố nhân quả dọc đòi hỏi thiết kế panel được khớp như trong một số bổ sung WBES theo quốc gia (Hitt et al., 1997). Thứ hai, năng suất lao động (log doanh thu/lao động) lẫn lộn xu hướng tiền lương và đào sâu vốn, nên các kết luận về hiệu quả sản xuất thay vì tỷ lệ doanh thu-trên-nhân viên vẫn mang tính thận trọng; kiểm định vững TFP Levinsohn–Petrin (§4.6) giải quyết một phần mối lo này, dù nó đưa vào các giả định hàm sản xuất riêng (Shaver, 2020). Thứ ba, tổng hợp TCI_full dựa trên các mục WBES tự khai, đưa vào sai lệch phương pháp chung trong mỗi đợt; công việc trong tương lai có thể đối chiếu với dữ liệu hành chính bằng sáng chế hoặc đăng ký chứng nhận để kiểm tra tính hiệu lực của chỉ số. Thứ tư, biến đại diện nhị phân đơn lẻ DAI_core không thể hỗ trợ kết luận mạnh về năng lực số như một construct; cần chỉ số nhiều mục (Verhoef et al., 2021) để kiểm định đường dẫn trung gian TCI–DAI một cách nghiêm ngặt.
+Bốn giới hạn suy luận cần lưu ý. Thứ nhất, vì dữ liệu WBES là mặt cắt ngang trong mỗi đợt và khớp panel qua 2012 và 2024 không thể thực hiện do ẩn danh hóa WBES, phân tích ổn định theo thời gian không thể diễn giải là thay đổi trong doanh nghiệp; nó so sánh các mặt cắt ngang đại diện dân số, và các tuyên bố nhân quả dọc đòi hỏi thiết kế panel được khớp như trong một số bổ sung WBES theo quốc gia (Hitt et al., 1997). Thứ hai, năng suất lao động (log doanh thu/lao động) lẫn lộn xu hướng tiền lương và đào sâu vốn, nên các kết luận về hiệu quả sản xuất thay vì tỷ lệ doanh thu-trên-nhân viên vẫn mang tính thận trọng; kiểm định vững TFP Levinsohn–Petrin (Mục 4.6) giải quyết một phần mối lo này, dù nó đưa vào các giả định hàm sản xuất riêng (Shaver, 2020). Thứ ba, tổng hợp TCI_full dựa trên các mục WBES tự khai, đưa vào sai lệch phương pháp chung trong mỗi đợt; công việc trong tương lai có thể đối chiếu với dữ liệu hành chính bằng sáng chế hoặc đăng ký chứng nhận để kiểm tra tính hiệu lực của chỉ số. Thứ tư, biến đại diện nhị phân đơn lẻ DAI_core không thể hỗ trợ kết luận mạnh về năng lực số như một construct; cần chỉ số nhiều mục (Verhoef et al., 2021) để kiểm định đường dẫn trung gian TCI–DAI một cách nghiêm ngặt.
 
 ### 5.5 Nghiên cứu tương lai
 

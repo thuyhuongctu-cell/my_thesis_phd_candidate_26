@@ -41,13 +41,13 @@ Identification, Screening, Eligibility, Inclusion theo hướng dẫn PRISMA 202
 
 ### 3.3.1 Nguồn dữ liệu
 
-Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế châu Á và Pacific** trong giai đoạn **2009-2025** (101.185 doanh nghiệp · 108 cặp quốc gia × năm · 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011).
+Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế châu Á và Pacific** trong giai đoạn **2009-2025** (101.185 doanh nghiệp, 108 cặp quốc gia × năm, 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011).
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (Do & Phan, 2026a).
 
 **Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong các nghiên cứu về quan hệ I-P, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Do & Phan, 2026b).
 
-> **Ghi chú về trọng số khảo sát (survey sampling weights):** WBES cung cấp sampling weights để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng sampling weights* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết (mechanism testing) chứ không phải ước lượng mô tả đại diện tổng thể (population-representative descriptive estimation), trong bối cảnh này, không áp dụng weights là thực hành chuẩn trong các nghiên cứu IB sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Fixed effects ở cấp country-year đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng weights có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng survey weights cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem §3.5).
+> **Ghi chú về trọng số khảo sát (survey sampling weights):** WBES cung cấp sampling weights để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng sampling weights* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết (mechanism testing) chứ không phải ước lượng mô tả đại diện tổng thể (population-representative descriptive estimation), trong bối cảnh này, không áp dụng weights là thực hành chuẩn trong các nghiên cứu IB sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Fixed effects ở cấp country-year đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng weights có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng survey weights cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem Mục 3.5).
 
 ### 3.3.2 Đo lường biến phụ thuộc, Hiệu quả hoạt động
 
@@ -242,22 +242,22 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 > lnNSLD_i = α + γ₁ lnLD_i + γ₂ TuoiDN_i + γ₃ SoHuuNN_i + δ_s + ε_i
 
 > M1 (Tuyến tính FSTS):
-> lnNSLD_i = α + $\beta_1$ CDDXK_c_i + γ·X_i + δ_s + ε_i
+> lnNSLD_i = α + $\beta_1$ CDDXK_c_i + γ, X_i + δ_s + ε_i
 
 > M2 (Bậc hai FSTS, kiểm định H1):
-> lnNSLD_i = α + $\beta_1$ CDDXK_c_i + $\beta_2$ C$\text{DDXK}_c^2$_i + γ·X_i + δ_s + ε_i
+> lnNSLD_i = α + $\beta_1$ CDDXK_c_i + $\beta_2$ C$\text{DDXK}_c^2$_i + γ, X_i + δ_s + ε_i
 > H1: $\beta_1$ > 0, $\beta_2$ < 0; TP* = −$\beta_1$/(2$\beta_2$) $\approx$ 88,6% FSTS [CI bootstrap [53%, 253%]]
 > Lưu ý: Lind-Mehlum p = 0,303, không bác bỏ tuyến tính trong phạm vi dữ liệu quan sát; đây là kết quả thông tin tích cực theo khung bão hòa (saturation framework)
 
 > M3 (+ NLCN, H1-TCI trực tiếp):
-> lnNSLD_i = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + γ·X + δ_s + ε
+> lnNSLD_i = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + γ, X + δ_s + ε
 
 > M4 (+ CSS trực tiếp):
-> lnNSLD_i = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z + γ·X + δ_s + ε
+> lnNSLD_i = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z + γ, X + δ_s + ε
 
 > M5 (Mô hình đầy đủ, kiểm định H3):
 > lnNSLD_i = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z
-> + $\beta_5$(CDDXK_c × CSS_z) + $\beta_6$(C$\text{DDXK}_c^2$ × CSS_z) + γ·X + δ_s + ε
+> + $\beta_5$(CDDXK_c × CSS_z) + $\beta_6$(C$\text{DDXK}_c^2$ × CSS_z) + γ, X + δ_s + ε
 > H3: $\beta_6$ > 0, DAI khuếch đại lợi nhuận I-P ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
 > Kết quả: $\beta_6$ = +3,119 (p = 0,005) trong mẫu đầy đủ; $\beta_6$ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê $\approx$ 16%)
 
@@ -295,19 +295,19 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 > lnNSLD_it = α + γ₁ lnLD_it + γ₂ TuoiDN_it + γ₃ SoHuuNN_it + δ_s + λ_t + ε_it
 
 > M1 (Tuyến tính FSTS):
-> lnNSLD_it = α + $\beta_1$ CDDXK_c_it + γ·X_it + δ_s + λ_t + ε_it
+> lnNSLD_it = α + $\beta_1$ CDDXK_c_it + γ, X_it + δ_s + λ_t + ε_it
 
 > M2 (Bậc hai FSTS, kiểm định H1):
-> lnNSLD_it = α + $\beta_1$ CDDXK_c_it + $\beta_2$ C$\text{DDXK}_c^2$_it + γ·X_it + δ_s + λ_t + ε_it
+> lnNSLD_it = α + $\beta_1$ CDDXK_c_it + $\beta_2$ C$\text{DDXK}_c^2$_it + γ, X_it + δ_s + λ_t + ε_it
 > H1: $\beta_1$ > 0, $\beta_2$ < 0; TP* = −$\beta_1$/(2$\beta_2$), điểm uốn 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
 > Kiểm định ổn định cấu trúc: Paternoster (1998) z-test: z(FSTS) = +0,82 (p = 0,412); z($\text{FSTS}^2$) = −0,61 (p = 0,545), không bác bỏ bình đẳng hệ số giữa hai sóng
 
 > M3 (+ NLCN trực tiếp, H2 level-shift):
-> lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + γ·X + δ_s + λ_t + ε
+> lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + γ, X + δ_s + λ_t + ε
 > Kết quả: $\beta_3$ = +0,28 (2012, p < 0,001), +0,43 (2024, p < 0,001), TCI là "bộ tăng mức" (level-shifter), không điều tiết độ cong
 
 > M4 (+ CSS trực tiếp):
-> lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z + γ·X + δ_s + λ_t + ε
+> lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z + γ, X + δ_s + λ_t + ε
 
 > M5 (Kiểm định ổn định xuyên sóng, H2b):
 > Ước lượng M2 riêng biệt cho 2012 và 2024, sau đó áp dụng:
@@ -317,7 +317,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 > M6 (Điều tiết ba chiều, kiểm định H3/H4a/H4b):
 > lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z
 > + $\beta_5$(CDDXK_c × NLCN_z) + $\beta_6$(C$\text{DDXK}_c^2$ × NLCN_z)
-> + $\beta_7$(CDDXK_c × wave) + $\beta_8$(C$\text{DDXK}_c^2$ × wave) + γ·X + δ_s + λ_t + ε
+> + $\beta_7$(CDDXK_c × wave) + $\beta_8$(C$\text{DDXK}_c^2$ × wave) + γ, X + δ_s + λ_t + ε
 > F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng lực), F3 (dịch chuyển điều kiện)
 > Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017), H4b (null capability-curvature moderation) được chấp nhận
 
@@ -419,7 +419,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 
 ---
 
-#### 3.4.5.5 Mô hình cụ thể, Nghiên cứu 8: Pacific SIDS (N = 1.469, Nhóm VI)
+### 3.4.5.5 Mô hình cụ thể, Nghiên cứu 8: Pacific SIDS (N = 1.469, Nhóm VI)
 
 Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế Pacific SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros) từ các sóng WBES 2009-2025. Đây là nhóm thể chế ICRV Nhóm VI, cấp thấp nhất trong phân loại 6 chế độ, đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
 
@@ -532,7 +532,7 @@ Winsorization 1% và 5% đối với labor productivity và employment, áp dụ
 |---|---|---|
 | Mixed design | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **47 châu Á + Pacific economies** trong một luận án |
 | Meta-analysis 1982-2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng coverage, bổ sung digital và 6 sub-regime ICRV moderators |
-| Pool empirical | Do & Phan (2026a), 17 nước châu Á mới nổi | Mở rộng từ 17 lên **47 nước** với 101.185 doanh nghiệp · 108 cặp quốc gia × năm |
+| Pool empirical | Do & Phan (2026a), 17 nước châu Á mới nổi | Mở rộng từ 17 lên **47 nước** với 101.185 doanh nghiệp, 108 cặp quốc gia × năm |
 | Labor productivity DV | Bloom et al. (2012); Hsieh & Klenow (2009); Do & Phan (2026a) | Lập luận rõ về firm performance đa chiều trong bối cảnh WBES |
 | FSTS + $\text{FSTS}^2$ + $\text{FSTS}^3$ | Lu & Beamish (2004); Hitt et al. (1997); Do & Phan (2026g) | Đưa vào cùng three-way moderation framework |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Non-overlapping construct purity protocol cho WBES; digital shield mở rộng (Do & Phan, 2026a) |
