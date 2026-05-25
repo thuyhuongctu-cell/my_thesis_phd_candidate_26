@@ -126,6 +126,9 @@
 | 55 | market dynamism | năng động thị trường | năng động thị trường (market dynamism) | năng động thị trường |
 | 56 | institutional quality | chất lượng thể chế | chất lượng thể chế (institutional quality) | chất lượng thể chế |
 | 57 | institutional scaffolding | khung thể chế hỗ trợ | khung thể chế hỗ trợ (institutional scaffolding) | khung thể chế hỗ trợ |
+| 58 | firm population | tổng thể doanh nghiệp | tổng thể doanh nghiệp (firm population) | tổng thể doanh nghiệp |
+| 59 | observation window | giai đoạn quan sát | giai đoạn quan sát (observation window) | giai đoạn quan sát |
+| 60 | identifying variation | biến số nhận dạng | biến số nhận dạng (identifying variation) | biến số nhận dạng |
 | 57 | hygiene factor | nhân tố vệ sinh / nhân tố nền tảng | nhân tố nền tảng (hygiene factor) | nhân tố nền tảng |
 | 58 | super-linear coordination cost | chi phí phối hợp siêu tuyến | chi phí phối hợp siêu tuyến (super-linear coordination cost) | chi phí phối hợp siêu tuyến |
 
