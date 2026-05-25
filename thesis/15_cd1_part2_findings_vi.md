@@ -220,7 +220,7 @@ Nhảy vọt số (digital leapfrog): website tăng +20–43 đpt ở Frontier, 
 
 ### 4.7 Tổng hợp Chương 4 (mở rộng D4 — 10 kết luận chính)
 
-Chương 4 cung cấp bức tranh thực trạng đa chiều dựa trên **101.185 doanh nghiệp ở 47 nền kinh tế châu Á và Thái Bình Dương (108 cặp QG×năm) trong giai đoạn 2009–2025** từ nhóm dữ liệu WBES sau hài hòa. Đây là phạm vi rộng nhất từng có cho nghiên cứu I→P trong văn liệu IB, mở rộng từ 17 nước châu Á mới nổi (Đỗ & Phan, 2026 — VEFR) khoảng 2,5 lần.
+Chương 4 cung cấp bức tranh thực trạng đa chiều dựa trên **101.185 doanh nghiệp ở 47 nền kinh tế châu Á và Thái Bình Dương (108 cặp QG×năm) trong giai đoạn 2009–2025** từ nhóm dữ liệu WBES sau hài hòa. Đây là phạm vi rộng nhất từng có cho nghiên cứu I→P trong các nghiên cứu IB, mở rộng từ 17 nước châu Á mới nổi (Đỗ & Phan, 2026 — VEFR) khoảng 2,5 lần.
 
 **Mười kết luận chính**:
 
@@ -260,7 +260,7 @@ Chương 4 cung cấp bức tranh thực trạng đa chiều dựa trên **101.1
 
 > **Nguồn chuẩn**: World Bank (n.d.). *Tài liệu tóm tắt: Các chỉ số khảo sát doanh nghiệp Enterprise Surveys* (file 04 v2.5 Section L). Cross-cite glossary v1.2 Nhóm 6 #53-54 (commit e9a73ae) + Nhóm 7 #64-66 (commit beb47d3).
 
-WBES đo lường tham nhũng qua **3 chỉ số riêng biệt** — phân biệt rõ giữa **hành vi chủ thể** (subject behavior — hối lộ vs tham ô) và **mức độ phổ biến** (incidence vs depth). Sự phân biệt này quan trọng cho phân tích chính sách: hối lộ và tham ô có nguyên nhân + giải pháp khác nhau, dù đôi khi gộp chung dưới label "tham nhũng" trong văn liệu chính sách Việt Nam.
+WBES đo lường tham nhũng qua **3 chỉ số riêng biệt** — phân biệt rõ giữa **hành vi chủ thể** (subject behavior — hối lộ vs tham ô) và **mức độ phổ biến** (incidence vs depth). Sự phân biệt này quan trọng cho phân tích chính sách: hối lộ và tham ô có nguyên nhân + giải pháp khác nhau, dù đôi khi gộp chung dưới label "tham nhũng" trong các nghiên cứu chính sách Việt Nam.
 
 **Bảng 4.7.5**. *Phân biệt 3 chỉ số tham nhũng WBES — định nghĩa chính thức + cách đo + ngưỡng cảnh báo.*
 

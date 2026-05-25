@@ -203,7 +203,7 @@ Trong bối cảnh đó, hệ thống thông tin về hiệu quả doanh nghiệ
 
 **Mục tiêu cụ thể**:
 
-1. Hệ thống hóa khái niệm và đa chiều đo lường hiệu quả hoạt động kinh doanh trong văn liệu hiện hành;
+1. Hệ thống hóa khái niệm và đa chiều đo lường hiệu quả hoạt động kinh doanh trong các nghiên cứu hiện hành;
 2. Đề xuất khung phân loại 6 phân nhóm con ICRV cho 47 nền kinh tế;
 3. Phân tích thực trạng đa chiều hiệu quả doanh nghiệp ở 41 nước châu Á (phạm vi chính) và so sánh với 7 SIDS Pacific (trường hợp biên);
 4. Nhận diện đặc điểm và yếu tố giải thích sơ bộ cho dị biệt hiệu quả giữa các phân nhóm;
@@ -248,9 +248,9 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 **Bốn đóng góp phạm vi chính (41 nước châu Á)**:
 
-(1) **Bức tranh thực trạng đa chiều** cho hiệu quả doanh nghiệp châu Á 2009–2025, phạm vi rộng nhất trong văn liệu kinh doanh quốc tế hiện hành (Wu et al., 2022 dừng ở 2020; Arte & Larimo, 2022 dừng ở 2019).
+(1) **Bức tranh thực trạng đa chiều** cho hiệu quả doanh nghiệp châu Á 2009–2025, phạm vi rộng nhất trong các nghiên cứu kinh doanh quốc tế hiện hành (Wu et al., 2022 dừng ở 2020; Arte & Larimo, 2022 dừng ở 2019).
 
-(2) **Phân nhóm con Advanced** (innovation-driven so với resource-driven), phát hiện lý thuyết mới chưa có trong văn liệu hiện hành. Tỷ số phân tán Singapore (1,03) so với Vùng Vịnh (0,49) ≈ 2,1 lần phản ánh hai cơ chế tăng trưởng hoàn toàn khác nhau.
+(2) **Phân nhóm con Advanced** (innovation-driven so với resource-driven), phát hiện lý thuyết mới chưa có trong các nghiên cứu hiện hành. Tỷ số phân tán Singapore (1,03) so với Vùng Vịnh (0,49) ≈ 2,1 lần phản ánh hai cơ chế tăng trưởng hoàn toàn khác nhau.
 
 (3) **Nhảy vọt số** ở Frontier và Emerging châu Á 2018–2025, mở rộng pattern từ 17 nước lên 47 nước. Phân tách Tier-1 (website nhị phân, đã bão hòa ở Advanced) và Tier-2 (tổng hợp đa thành phần, đang phát triển ở Emerging/Frontier).
 
@@ -258,7 +258,7 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 **Một đóng góp trường hợp biên mở rộng (SIDS Pacific)**:
 
-(5) **Chi phí buộc phải quốc tế hóa** ở 7 SIDS Thái Bình Dương (Briguglio, 1995; Bertram, 2006), bằng chứng cấp doanh nghiệp đầu tiên trong văn liệu kinh doanh quốc tế. Kiribati 2025 là trường hợp cực đoan nhất với FSTS 1,03%, FDI 0,7%, website 18,7%.
+(5) **Chi phí buộc phải quốc tế hóa** ở 7 SIDS Thái Bình Dương (Briguglio, 1995; Bertram, 2006), bằng chứng cấp doanh nghiệp đầu tiên trong các nghiên cứu kinh doanh quốc tế. Kiribati 2025 là trường hợp cực đoan nhất với FSTS 1,03%, FDI 0,7%, website 18,7%.
 
 ---
 
@@ -304,7 +304,7 @@ Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gi
 
 Hiệu quả doanh nghiệp trong chuyên đề này được đo lường theo **bốn chiều** tương ứng với bốn nhóm biến WBES:
 
-**Chiều 1, Năng suất lao động**. Biến đo lường chính: LP = ln(doanh thu hàng năm PPP / số lao động toàn thời gian). Đây là **thước đo chính** xuyên suốt phân tích, được lựa chọn vì: (a) có thể tính cho hầu hết các nền kinh tế trong pool; (b) không bị nhiễu bởi cơ cấu thuế và chính sách chuyển giá quốc gia; (c) có giá trị tham chiếu rõ ràng trong văn liệu quốc tế (Hsieh & Klenow, 2009, 2014).
+**Chiều 1, Năng suất lao động**. Biến đo lường chính: LP = ln(doanh thu hàng năm PPP / số lao động toàn thời gian). Đây là **thước đo chính** xuyên suốt phân tích, được lựa chọn vì: (a) có thể tính cho hầu hết các nền kinh tế trong pool; (b) không bị nhiễu bởi cơ cấu thuế và chính sách chuyển giá quốc gia; (c) có giá trị tham chiếu rõ ràng trong các nghiên cứu quốc tế (Hsieh & Klenow, 2009, 2014).
 
 **Chiều 2, Lợi nhuận và biên lợi nhuận**. Biến đo lường: (a) tỷ suất lợi nhuận hoạt động từ câu hỏi WBES về doanh thu sau chi phí lao động; (b) chỉ số gián tiếp qua khả năng tái đầu tư. Hạn chế: nhiều doanh nghiệp trong WBES không tiết lộ lợi nhuận cụ thể, chiều này mang tính hỗ trợ thay vì chủ đạo.
 
@@ -314,7 +314,7 @@ Hiệu quả doanh nghiệp trong chuyên đề này được đo lường theo 
 
 #### 2.3.1.3 Năm meta-analysis lớn về quan hệ quốc tế hóa – hiệu quả (1980–2024)
 
-Văn liệu về quan hệ quốc tế hóa – hiệu quả là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế. Năm meta-analysis lớn cung cấp nền tảng thực nghiệm:
+Quan hệ quốc tế hóa – hiệu quả là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế. Năm meta-analysis lớn cung cấp nền tảng thực nghiệm:
 
 **(1) Bausch & Krist (2007)**: Tổng hợp **68 nghiên cứu** giai đoạn 1980–2005. Hệ số tương quan trung bình r=0,045, tích cực nhưng nhỏ. Phát hiện chính: đo lường quốc tế hóa và hiệu quả rất không đồng nhất giữa các nghiên cứu, hạn chế khả năng so sánh. Khoảng trống: ít nghiên cứu châu Á mới nổi.
 
@@ -803,7 +803,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **KT4, Dị biệt theo thời gian ba giai đoạn 2009–2025 chưa được tổng hợp**: Bằng chứng từ kiểm định Paternoster cho thấy bất ổn định tham số quan trọng giữa ba giai đoạn.
 
-**KT5, SIDS Pacific như trường hợp biên lý thuyết của thuyết Uppsala**: Chi phí buộc phải quốc tế hóa tại 7 SIDS không khớp với bất kỳ dạng hàm quốc tế hóa – hiệu quả nào trong văn liệu. Cần khung kết hợp MIRAB và Briguglio (1995) và quan điểm dựa trên nguồn lực.
+**KT5, SIDS Pacific như trường hợp biên lý thuyết của thuyết Uppsala**: Chi phí buộc phải quốc tế hóa tại 7 SIDS không khớp với bất kỳ dạng hàm quốc tế hóa – hiệu quả nào trong các nghiên cứu. Cần khung kết hợp MIRAB và Briguglio (1995) và quan điểm dựa trên nguồn lực.
 
 #### 2.3.9.3 Hàm ý lý thuyết
 
