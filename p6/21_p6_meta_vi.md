@@ -313,7 +313,7 @@ $$I^2_{(2)} = \frac{\hat{\sigma}^2_{(2)}}{\hat{\sigma}^2_{(2)} + \hat{\sigma}^2_
 $$\hat{r}_{3L} = 0.074,\quad 95\%\ CI\ [0.060,\ 0.088],\quad p < .001$$
 $$Q_{total} = 1{,}909.42\ (df=287,\ p<.001)$$
 
-Pooled effect trong coded baseline hiện tại là $\hat{r}=0.074$, 95% CI [0.060, 0.088] (three-level REML), $Q=1909.42$ ($df=287$, $p<.001$). $I^2_{total}=62.4\%$, phân tách thành $I^2_{within}=54.1\%$ (Level 2, within-study) và $I^2_{between}=8.4\%$ (Level 3, between-study). Con số này consistent với $r=0.07$ từ baseline MetaEssentials — chuyển đổi sang mô hình ba cấp không phóng đại pooled estimate. Lưu ý: DerSimonian–Laird 2-level cho CI [0.061, 0.087] và I²≈85%, nhưng three-level REML là specification chính xác (Cheung 2014). Phần lớn heterogeneity nằm ở Level 2 (within-study variance) hơn là between-study, điều này hàm ý publication bias có thể là nguồn variance quan trọng hơn context (→ §4.6).
+Pooled effect trong coded baseline hiện tại là $\hat{r}=0.074$, 95% CI [0.060, 0.088] (three-level REML), $Q=1909.42$ ($df=287$, $p<.001$). $I^2_{total}=62.4\%$, phân tách thành $I^2_{within}=54.1\%$ (Level 2, within-study) và $I^2_{between}=8.4\%$ (Level 3, between-study). Con số này consistent với $r=0.07$ từ baseline MetaEssentials — chuyển đổi sang mô hình ba cấp không phóng đại pooled estimate. Lưu ý: DerSimonian–Laird 2-level cho CI [0.061, 0.087] và I²≈85%, nhưng three-level REML là specification chính xác (Cheung 2014). Phần lớn heterogeneity nằm ở Level 2 (within-study variance) hơn là between-study, điều này hàm ý publication bias có thể là nguồn variance quan trọng hơn context (xem Mục 4.6).
 
 **Bảng 4.1 — Kết quả baseline** (đã xác nhận từ ICBEF 2025):
 
@@ -538,7 +538,7 @@ Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home count
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review, 80*(2), 355–361.
 
-Đỗ, T. H., & Phan, A. T. (2024). Internationalization and firm performance: A meta-analysis review. In *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489). College of Economics, Can Tho University. \[ICBEF 2025\]
+Đỗ, T. H., & Phan, A. T. (2024). Internationalization and firm performance: A meta-analysis review. In *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489). School of Economics, Can Tho University. \[ICBEF 2025\]
 
 Đỗ, T. H., & Phan, A. T. (2026). Firm performance heterogeneity in emerging Asia: A multi-country enterprise survey analysis. *Vietnam Economic Forum Review*. \[P1, published\]
 
@@ -682,4 +682,4 @@ Diễn giải: sơ đồ trên là **current PRISMA audit state**, không phải
 
 ---
 
-*Bản thảo v2.4 (24/05/2026). NCS: Đỗ Thùy Hương. HD: PGS.TS. Phan Anh Tú. Trường Đại học Cần Thơ. Khoa Kinh tế. Chuyên ngành: Quản trị kinh doanh. Kết quả §4 từ `p6_real_mara.py`/`p6_real_mara.R` (K=288, k=238, coded baseline đã xác minh). Database canonical: `p6/data/p6_study_database.csv` (k=238, K=288 effect sizes, hand-coded baseline). Coding database: `p6/p6_study_database_coded.md`; APA citations: `p6/p6_primary_studies_apa7.md`; canonical tracker v3: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv`. OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN). Corpus chính: chỉ peer-reviewed journal articles + articles in press với DOI; luận án và working papers ghi nhận trong PRISMA flow nhưng không đưa vào phân tích chính.*
+*Bản thảo v2.4 (24/05/2026). NCS: Đỗ Thùy Hương. HD: PGS.TS. Phan Anh Tú. Trường Đại học Cần Thơ. Khoa Kinh tế. Chuyên ngành: Quản trị kinh doanh. Kết quả Mục 4 từ `p6_real_mara.py`/`p6_real_mara.R` (K=288, k=238, coded baseline đã xác minh). Database canonical: `p6/data/p6_study_database.csv` (k=238, K=288 effect sizes, hand-coded baseline). Coding database: `p6/p6_study_database_coded.md`; APA citations: `p6/p6_primary_studies_apa7.md`; canonical tracker v3: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv`. OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN). Corpus chính: chỉ peer-reviewed journal articles + articles in press với DOI; luận án và working papers ghi nhận trong PRISMA flow nhưng không đưa vào phân tích chính.*
