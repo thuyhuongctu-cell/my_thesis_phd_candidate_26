@@ -1,0 +1,73 @@
+%% Sơ đồ tổng quan luận án — NCS Đỗ Thùy Hương (CTU)
+%% Bản nháp 25/05/2026 — vui lòng hiệu chỉnh tiêu đề/trạng thái cho chính xác
+graph TB
+    LA(["LUẬN ÁN TIẾN SĨ<br/>Ảnh hưởng của quốc tế hóa đến hiệu quả<br/>hoạt động kinh doanh của doanh nghiệp ở Châu Á<br/>NCS Đỗ Thùy Hương — GVHD: PGS.TS. Phan Anh Tú"])
+
+    LA --> LT["1 · Nền tảng lý thuyết"]
+    LA --> CD["2 · Hai chuyên đề"]
+    LA --> BB["3 · Hệ thống bài báo P1–P10"]
+    LA --> RM["4 · Lộ trình"]
+
+    LT --> ICRV["Khung ICRV<br/>phân loại thể chế theo WGI Rule of Law"]
+    LT --> URITD["URIT+D<br/>Uppsala · RBV · Institutional ·<br/>Upper Echelons · Digital Lens"]
+
+    CD --> CD1["Chuyên đề 1<br/>Thực trạng HQHĐKD của DN ở Châu Á<br/>GVHD: TS. Nguyễn Minh Cảnh"]
+    CD --> CD2["Chuyên đề 2<br/>Xây dựng mô hình NC — H1–H6 · M0–M7<br/>GVHD: PGS.TS. Phan Anh Tú"]
+    URITD -.-> CD2
+
+    subgraph G1 ["Tổng quan và tổng hợp"]
+      P1["P1 · Tổng quan Châu Á<br/>Vietnam Economic and Financial Review<br/>Đã xuất bản — 02/2026"]
+      P6["P6 · Phân tích tổng hợp meta · k=172<br/>→ Management International Review<br/>Đang hoàn thiện — PRISMA"]
+    end
+
+    subgraph G2 ["Nghiên cứu đơn quốc gia"]
+      P2["P2 · DNNVV Trung Quốc<br/>Journal of Finance and Accounting Research<br/>Đã chấp nhận — 04/2026"]
+      P3["P3 · Singapore — Capability Ceiling<br/>→ International Business Review<br/>Chuẩn bị nộp — v24"]
+      P4["P4 · Việt Nam — Digital Paradox Lifecycle<br/>→ JIEM, special issue<br/>Đang phản biện — nộp 04/2026"]
+      P5["P5 · Trung Quốc — DOI Neutrality<br/>→ Asia Pacific Journal of Management<br/>Đang hoàn thiện"]
+    end
+
+    subgraph G3 ["Đo lường và đa quốc gia"]
+      P7["P7 · Đo lường FDCI formative<br/>→ World Development<br/>Bản v7 FINAL"]
+      P8["P8 · Flagship 25 quốc gia<br/>→ Journal of International Business Studies<br/>Đang triển khai"]
+    end
+
+    subgraph G4 ["Biên giới và SIDS"]
+      P9["P9 · Quốc đảo Thái Bình Dương SIDS<br/>→ World Development<br/>Kế hoạch"]
+      P10["P10 · Thị trường biên Châu Á<br/>→ World Development / JWB<br/>Kế hoạch"]
+    end
+
+    BB --> G1
+    BB --> G2
+    BB --> G3
+    BB --> G4
+
+    ICRV -.->|"phân loại theo thể chế"| G2
+    ICRV -.->|"triệt tiêu hiệu ứng theo vùng"| P8
+    P1 -.->|"India: Dual Substitution"| ICRV
+
+    RM --> M1["30/05/2026 · Nộp đề cương luận án"]
+    M1 --> M2["08–09/2026 · Bảo vệ chuyên đề"]
+    M2 --> M3["2027 · Bảo vệ luận án — cần xác nhận"]
+
+    classDef thesis fill:#0b3d6b,stroke:#062744,color:#ffffff,stroke-width:2px;
+    classDef branch fill:#f1f3f5,stroke:#343a40,color:#212529,stroke-width:1px;
+    classDef pub fill:#d4edda,stroke:#155724,color:#0b2e14;
+    classDef acc fill:#cfe2ff,stroke:#084298,color:#06214f;
+    classDef rev fill:#ffe2b8,stroke:#9c5b00,color:#3d2400;
+    classDef prep fill:#fff3cd,stroke:#856404,color:#3d3000;
+    classDef plan fill:#e9ecef,stroke:#495057,color:#212529;
+    classDef theory fill:#e7e0ff,stroke:#4b2ea0,color:#23104f;
+    classDef essay fill:#d8f3f0,stroke:#0f6b63,color:#053b36;
+    classDef mile fill:#fde2e4,stroke:#9d2235,color:#4a0d18;
+
+    class LA thesis;
+    class LT,CD,BB,RM branch;
+    class P1 pub;
+    class P2 acc;
+    class P4 rev;
+    class P3,P5,P6,P7 prep;
+    class P8,P9,P10 plan;
+    class ICRV,URITD theory;
+    class CD1,CD2 essay;
+    class M1,M2,M3 mile;

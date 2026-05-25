@@ -1,0 +1,73 @@
+%% Dissertation overview — PhD Candidate Do Thuy Huong (CTU)
+%% Draft 25/05/2026 — please correct titles/statuses as needed
+graph TB
+    LA(["DOCTORAL DISSERTATION<br/>The Effect of Internationalization on<br/>Firm Business Performance in Asia<br/>PhD Candidate: Do Thuy Huong — Supervisor: Assoc. Prof. Phan Anh Tu"])
+
+    LA --> LT["1 · Theoretical Foundation"]
+    LA --> CD["2 · Two Specialty Essays"]
+    LA --> BB["3 · Paper System P1–P10"]
+    LA --> RM["4 · Roadmap"]
+
+    LT --> ICRV["ICRV Framework<br/>regimes classified by WGI Rule of Law"]
+    LT --> URITD["URIT+D<br/>Uppsala · RBV · Institutional ·<br/>Upper Echelons · Digital Lens"]
+
+    CD --> CD1["Specialty Essay 1<br/>State of firm performance in Asia<br/>Advisor: Dr. Nguyen Minh Canh"]
+    CD --> CD2["Specialty Essay 2<br/>Research model — H1–H6 · M0–M7<br/>Advisor: Assoc. Prof. Phan Anh Tu"]
+    URITD -.-> CD2
+
+    subgraph G1 ["Overview and Synthesis"]
+      P1["P1 · Asia Overview<br/>Vietnam Economic and Financial Review<br/>Published — 02/2026"]
+      P6["P6 · Meta-analysis · k=172<br/>→ Management International Review<br/>In progress — PRISMA"]
+    end
+
+    subgraph G2 ["Single-Economy Studies"]
+      P2["P2 · Chinese SMEs<br/>Journal of Finance and Accounting Research<br/>Accepted — 04/2026"]
+      P3["P3 · Singapore — Capability Ceiling<br/>→ International Business Review<br/>Pre-submission — v24"]
+      P4["P4 · Vietnam — Digital Paradox Lifecycle<br/>→ JIEM, special issue<br/>Under review — submitted 04/2026"]
+      P5["P5 · China — DOI Neutrality<br/>→ Asia Pacific Journal of Management<br/>In progress"]
+    end
+
+    subgraph G3 ["Measurement and Multi-Country"]
+      P7["P7 · FDCI measurement, formative<br/>→ World Development<br/>v7 FINAL"]
+      P8["P8 · 25-country flagship<br/>→ Journal of International Business Studies<br/>In development"]
+    end
+
+    subgraph G4 ["Frontier and SIDS"]
+      P9["P9 · Pacific SIDS<br/>→ World Development<br/>Planned"]
+      P10["P10 · Asian frontier markets<br/>→ World Development / JWB<br/>Planned"]
+    end
+
+    BB --> G1
+    BB --> G2
+    BB --> G3
+    BB --> G4
+
+    ICRV -.->|"classified by institutional regime"| G2
+    ICRV -.->|"regime cancellation of effects"| P8
+    P1 -.->|"India: Dual Substitution"| ICRV
+
+    RM --> M1["30 May 2026 · Submit dissertation outline (CTU)"]
+    M1 --> M2["Aug–Sep 2026 · Specialty essay defense"]
+    M2 --> M3["2027 · Dissertation defense — to confirm"]
+
+    classDef thesis fill:#0b3d6b,stroke:#062744,color:#ffffff,stroke-width:2px;
+    classDef branch fill:#f1f3f5,stroke:#343a40,color:#212529,stroke-width:1px;
+    classDef pub fill:#d4edda,stroke:#155724,color:#0b2e14;
+    classDef acc fill:#cfe2ff,stroke:#084298,color:#06214f;
+    classDef rev fill:#ffe2b8,stroke:#9c5b00,color:#3d2400;
+    classDef prep fill:#fff3cd,stroke:#856404,color:#3d3000;
+    classDef plan fill:#e9ecef,stroke:#495057,color:#212529;
+    classDef theory fill:#e7e0ff,stroke:#4b2ea0,color:#23104f;
+    classDef essay fill:#d8f3f0,stroke:#0f6b63,color:#053b36;
+    classDef mile fill:#fde2e4,stroke:#9d2235,color:#4a0d18;
+
+    class LA thesis;
+    class LT,CD,BB,RM branch;
+    class P1 pub;
+    class P2 acc;
+    class P4 rev;
+    class P3,P5,P6,P7 prep;
+    class P8,P9,P10 plan;
+    class ICRV,URITD theory;
+    class CD1,CD2 essay;
+    class M1,M2,M3 mile;

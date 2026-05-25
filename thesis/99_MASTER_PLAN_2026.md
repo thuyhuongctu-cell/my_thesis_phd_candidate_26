@@ -4,6 +4,9 @@
 **Đề tài:** Quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp ở Châu Á  
 **Người hướng dẫn:** PGS.TS. Phan Anh Tú | **Đơn vị:** Trường Kinh tế, ĐH Cần Thơ
 
+> **Sơ đồ tổng quan luận án (minh họa):** [`figures/dissertation_roadmap_vi.mermaid`](figures/dissertation_roadmap_vi.mermaid) · bản tiếng Anh: [`figures/dissertation_roadmap_en.mermaid`](figures/dissertation_roadmap_en.mermaid).
+> *Lưu ý: sơ đồ chỉ mang tính minh họa; cách đánh số và tiêu đề bài báo theo các file thực tế trong kho mới là chuẩn (ví dụ P3 = Việt Nam, P4 = Singapore, P7 = capstone 49 nền kinh tế → JIBS).*
+
 ---
 
 ## PHẦN I — TRẠNG THÁI HIỆN TẠI (SNAPSHOT 20/05/2026)
