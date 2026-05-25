@@ -36,7 +36,7 @@
 | Corresponding author | **Yes** |
 | Position | Associate Professor (PGS.TS.) |
 | Institution | School of Economics, Can Tho University (CTU) |
-| Institution (Vietnamese) | Khoa Kinh tế, Trường Đại học Cần Thơ |
+| Institution (Vietnamese) | Trường Kinh tế, Trường Đại học Cần Thơ |
 | Address | Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam |
 | Email | patu@ctu.edu.vn |
 | ORCID | 0000-0003-0667-3137 |

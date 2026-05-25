@@ -1,128 +1,79 @@
 #!/bin/bash
-# Build CTU-formatted DOCX from dissertation Markdown sources.
-# Output: dist/chuyen_de_1/, dist/luan_an/, dist/manuscripts/
+# Build CTU-formatted DOCX + PDF deliverables from dissertation Markdown sources.
+# Output: dist/downloads/  (thesis chapters, CĐ1/CĐ2, P3-P8 manuscripts, references)
 #
-# Prerequisites: pandoc >= 3.0, python3 python-docx
-#   pip install python-docx
+# Pipeline notes:
+#   - DOCX uses pandoc's `markdown` reader (NOT gfm) so $...$ and \begin{equation}
+#     render as native Word equations (OMML). yaml_metadata_block is disabled so a
+#     leading `---` is treated as a horizontal rule, not YAML front matter.
+#   - PDF uses XeLaTeX with FreeSerif (full Vietnamese + math + ✓/✗ glyph coverage).
 #
-# Usage: bash build_ctu_docx.sh [--no-templates]
+# Prerequisites: pandoc >= 3.0, xelatex (texlive-xetex), fonts-freefont-ttf,
+#   python3 (+ python-docx only if rebuilding reference templates).
+#
+# Usage: bash build_ctu_docx.sh              # uses existing templates in templates/
+#        bash build_ctu_docx.sh --templates  # also rebuild CTU reference .docx
 
-set -e
+set -u
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 TEMPLATES="${SCRIPT_DIR}/templates"
-DIST="${SCRIPT_DIR}/dist"
+DIST="${SCRIPT_DIR}/dist/downloads"
 THESIS_REF="${TEMPLATES}/ctu_thesis_reference.docx"
 PAPER_REF="${TEMPLATES}/ctu_paper_reference.docx"
 
-# Build reference templates unless --no-templates passed
-if [[ "$1" != "--no-templates" ]]; then
+READER="markdown-yaml_metadata_block"
+PDF_OPTS=(--pdf-engine=xelatex -V mainfont="FreeSerif" -V geometry:margin=2.5cm -V fontsize=12pt)
+
+if [[ "${1:-}" == "--templates" ]]; then
   echo "[0] Building CTU reference templates..."
   pandoc -o /tmp/pandoc_default.docx --print-default-data-file reference.docx
   python3 ~/.claude/skills/ctu-thesis-dossier-build/scripts/build_ctu_reference.py \
-    /tmp/pandoc_default.docx "${TEMPLATES}"
+    /tmp/pandoc_default.docx "${TEMPLATES}" || echo "  (skill missing; using existing templates)"
 fi
 
-PANDOC_VI="pandoc -f gfm -t docx --reference-doc=${THESIS_REF}"
-PANDOC_EN="pandoc -f gfm -t docx --reference-doc=${PAPER_REF}"
+mkdir -p "${DIST}/manuscripts_vi" "${DIST}/manuscripts_en"
 
-mkdir -p "${DIST}"/{chuyen_de_1/source_md,luan_an/source_md,manuscripts/vi,manuscripts/en}
+# build <output_basename> <source_md> <reference_doc> <resource_path>
+build() {
+  local name="$1" md="$2" ref="$3" rp="$4"
+  [ -f "$md" ] || { echo "  SKIP (missing): $md"; return; }
+  pandoc -f "$READER" -t docx --resource-path="$rp" --reference-doc="$ref" \
+    "$md" -o "${DIST}/${name}.docx" 2>/dev/null \
+    && echo "  docx: ${name}.docx" || echo "  ERR docx: ${name}"
+  pandoc -f "$READER" "${PDF_OPTS[@]}" --resource-path="$rp" \
+    "$md" -o "${DIST}/${name}.pdf" 2>/dev/null \
+    && echo "  pdf : ${name}.pdf" || echo "  ERR pdf : ${name}"
+}
 
-echo "[1] CĐ1 (14/15/16)..."
-${PANDOC_VI} thesis/14_cd1_part1_intro_theory_vi.md   -o "${DIST}/chuyen_de_1/14_part1_intro_theory.docx"
-${PANDOC_VI} thesis/15_cd1_part2_findings_vi.md        -o "${DIST}/chuyen_de_1/15_part2_findings.docx"
-${PANDOC_VI} thesis/16_cd1_part3_cases_conclusion_vi.md -o "${DIST}/chuyen_de_1/16_part3_cases_conclusion.docx"
-cp thesis/14_cd1_part1_intro_theory_vi.md thesis/15_cd1_part2_findings_vi.md \
-   thesis/16_cd1_part3_cases_conclusion_vi.md "${DIST}/chuyen_de_1/source_md/"
+echo "[1] Chuyên đề (CĐ1, CĐ2)..."
+build "CD1_chuyen_de_1" "${SCRIPT_DIR}/chuyen_de/cd1/00_cd1_ctu_final_vi.md" "$THESIS_REF" "${SCRIPT_DIR}/chuyen_de/cd1"
+build "CD2_chuyen_de_2" "${SCRIPT_DIR}/chuyen_de/cd2/00_cd2_ctu_final_vi.md" "$THESIS_REF" "${SCRIPT_DIR}/chuyen_de/cd2"
 
-echo "[2] Luận án thesis files (source/draft)..."
-for f in 00_optimal_plan_vi 01_chapter_outline_vi 02_theoretical_framework_vi 03_methodology_vi 04_05_chapters_results_discussion_vi 04_references_apa7 11_dissertation_positioning_vi; do
-  [ -f "thesis/${f}.md" ] && ${PANDOC_VI} "thesis/${f}.md" -o "${DIST}/luan_an/${f}.docx" && \
-    cp "thesis/${f}.md" "${DIST}/luan_an/source_md/"
+echo "[2] Luận án 5 chương..."
+for f in chuong_1_gioi_thieu chuong_2_tong_quan_tai_lieu chuong_3_phuong_phap chuong_4_ket_qua chuong_5_ket_luan_de_xuat; do
+  build "$f" "${SCRIPT_DIR}/thesis/${f}_vi.md" "$THESIS_REF" "${SCRIPT_DIR}/thesis"
 done
 
-echo "[2b] Luận án 5 chương theo khung CTU..."
-mkdir -p "${DIST}/luan_an_ctu/source_md"
-for f in chuong_1_gioi_thieu_vi chuong_2_tong_quan_tai_lieu_vi chuong_3_phuong_phap_vi chuong_4_ket_qua_vi chuong_5_ket_luan_de_xuat_vi; do
-  [ -f "thesis/${f}.md" ] && ${PANDOC_VI} "thesis/${f}.md" -o "${DIST}/luan_an_ctu/${f}.docx" && \
-    cp "thesis/${f}.md" "${DIST}/luan_an_ctu/source_md/"
-done
+echo "[3] Bản thảo tiếng Việt (P3-P8)..."
+build "manuscripts_vi/p3_vietnam_vi"      "${SCRIPT_DIR}/p3/submission/p3_vietnam_vi.md"   "$THESIS_REF" "${SCRIPT_DIR}/p3"
+build "manuscripts_vi/p4_singapore_vi"    "${SCRIPT_DIR}/p4/submission/p4_singapore_vi.md" "$THESIS_REF" "${SCRIPT_DIR}/p4"
+build "manuscripts_vi/p5_china_vi"        "${SCRIPT_DIR}/p5/submission/p5_china_vi.md"     "$THESIS_REF" "${SCRIPT_DIR}/p5"
+build "manuscripts_vi/p6_meta_vi"         "${SCRIPT_DIR}/p6/21_p6_meta_vi.md"              "$THESIS_REF" "${SCRIPT_DIR}/p6"
+build "manuscripts_vi/p7_capstone_vi"     "${SCRIPT_DIR}/p7/submission/jibs_package/p7_capstone_vi.md" "$THESIS_REF" "${SCRIPT_DIR}/p7:${SCRIPT_DIR}/p7/figures"
+build "manuscripts_vi/p8_pacific_sids_vi" "${SCRIPT_DIR}/p8/submission/world_development_package/p8_pacific_sids_vi.md" "$THESIS_REF" "${SCRIPT_DIR}/p8:${SCRIPT_DIR}/p8/figures"
 
-echo "[3] Vietnamese manuscripts..."
-# P3: no inline figures — build directly
-[ -f "${SCRIPT_DIR}/p3/submission/p3_vietnam_vi.md" ] && \
-  ${PANDOC_VI} "${SCRIPT_DIR}/p3/submission/p3_vietnam_vi.md" \
-    -o "${DIST}/manuscripts/vi/p3_vietnam_vi.docx"
-# P4: figures in p4/figures/ — run from p4/ dir so relative paths resolve
-[ -f "${SCRIPT_DIR}/p4/submission/p4_singapore_vi.md" ] && (
-  cd "${SCRIPT_DIR}/p4" && \
-  pandoc -f gfm -t docx --resource-path=. \
-    --reference-doc="${THESIS_REF}" \
-    submission/p4_singapore_vi.md \
-    -o "${DIST}/manuscripts/vi/p4_singapore_vi.docx"
-)
-# P5: figures in p5/figures/ — run from p5/ dir
-[ -f "${SCRIPT_DIR}/p5/submission/p5_china_vi.md" ] && (
-  cd "${SCRIPT_DIR}/p5" && \
-  pandoc -f gfm -t docx --resource-path=. \
-    --reference-doc="${THESIS_REF}" \
-    submission/p5_china_vi.md \
-    -o "${DIST}/manuscripts/vi/p5_china_vi.docx"
-)
+echo "[4] Bản thảo tiếng Anh (P3-P8)..."
+build "manuscripts_en/p3_vietnam_en"      "${SCRIPT_DIR}/p3/p3_vietnam_en_clean.md"   "$PAPER_REF" "${SCRIPT_DIR}/p3"
+build "manuscripts_en/p4_singapore_en"    "${SCRIPT_DIR}/p4/p4_singapore_en_clean.md" "$PAPER_REF" "${SCRIPT_DIR}/p4"
+build "manuscripts_en/p5_china_en"        "${SCRIPT_DIR}/p5/p5_china_en_clean.md"     "$PAPER_REF" "${SCRIPT_DIR}/p5"
+build "manuscripts_en/p6_meta_en"         "${SCRIPT_DIR}/p6/p6_meta_manuscript_en.md" "$PAPER_REF" "${SCRIPT_DIR}/p6"
+build "manuscripts_en/p7_capstone_en"     "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md"  "$PAPER_REF" "${SCRIPT_DIR}/p7"
+build "manuscripts_en/p8_pacific_sids_en" "${SCRIPT_DIR}/p8/p8_pacific_sids_en_clean.md" "$PAPER_REF" "${SCRIPT_DIR}/p8"
 
-echo "[4] English manuscripts..."
-# P3: figures in p3/figures/vietnam/ — run from p3/ dir so relative paths resolve
-[ -f "${SCRIPT_DIR}/p3/p3_vietnam_en_clean.md" ] && (
-  cd "${SCRIPT_DIR}/p3" && \
-  pandoc -f gfm -t docx --resource-path=. \
-    --reference-doc="${PAPER_REF}" \
-    p3_vietnam_en_clean.md \
-    -o "${DIST}/manuscripts/en/p3_vietnam_en_clean.docx"
-)
-# P4: figures in p4/figures/
-[ -f "${SCRIPT_DIR}/p4/p4_singapore_en_clean.md" ] && (
-  cd "${SCRIPT_DIR}/p4" && \
-  pandoc -f gfm -t docx --resource-path=. \
-    --reference-doc="${PAPER_REF}" \
-    p4_singapore_en_clean.md \
-    -o "${DIST}/manuscripts/en/p4_singapore_en_clean.docx"
-)
-# P5: figures in p5/figures/
-[ -f "${SCRIPT_DIR}/p5/p5_china_en_clean.md" ] && (
-  cd "${SCRIPT_DIR}/p5" && \
-  pandoc -f gfm -t docx --resource-path=. \
-    --reference-doc="${PAPER_REF}" \
-    p5_china_en_clean.md \
-    -o "${DIST}/manuscripts/en/p5_china_en_clean.docx"
-)
-# P6: meta-analysis manuscript — figures in p6/figures/ — run from p6/ dir
-[ -f "${SCRIPT_DIR}/p6/p6_meta_manuscript_en.md" ] && (
-  cd "${SCRIPT_DIR}/p6" && \
-  pandoc -f gfm -t docx --resource-path=. \
-    --reference-doc="${PAPER_REF}" \
-    p6_meta_manuscript_en.md \
-    -o "${DIST}/manuscripts/en/p6_meta_en_clean.docx"
-)
-# P7: capstone multi-country (no figures)
-[ -f "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md" ] && \
-  ${PANDOC_EN} "${SCRIPT_DIR}/p7/p7_capstone_en_clean.md" \
-    -o "${DIST}/manuscripts/en/p7_capstone_en_clean.docx"
-# P8: Pacific SIDS boundary condition (no inline figures)
-[ -f "${SCRIPT_DIR}/p8/p8_pacific_sids_en_clean.md" ] && \
-  ${PANDOC_EN} "${SCRIPT_DIR}/p8/p8_pacific_sids_en_clean.md" \
-    -o "${DIST}/manuscripts/en/p8_pacific_sids_en_clean.docx"
+echo "[5] Tài liệu tham khảo..."
+build "04_references_apa7" "${SCRIPT_DIR}/thesis/04_references_apa7.md" "$THESIS_REF" "${SCRIPT_DIR}/thesis"
 
 echo ""
 echo "=== Build complete ==="
-find "${DIST}" -name "*.docx" | wc -l
-echo "DOCX files in dist/"
-echo ""
-echo "Verify CĐ1 margin:"
-python3 -c "
-from docx import Document
-d = Document('${DIST}/chuyen_de_1/14_part1_intro_theory.docx')
-s = d.sections[0]
-print(f'  left={s.left_margin.cm:.1f}cm right={s.right_margin.cm:.1f}cm top={s.top_margin.cm:.1f}cm bottom={s.bottom_margin.cm:.1f}cm')
-from docx.shared import Pt
-style = d.styles[\"Normal\"]
-print(f'  font={style.font.name} size={style.font.size.pt if style.font.size else \"(inherited)\"}pt')
-"
+echo "DOCX: $(find "${DIST}" -name '*.docx' | wc -l)  |  PDF: $(find "${DIST}" -name '*.pdf' | wc -l)"
+echo "Output: ${DIST}/"
