@@ -243,7 +243,7 @@ Pirlea, A. F., Wadhwa, D., Mahler, D., Serajuddin, U., Welch, M., Thudt, A., & L
 
 *Các entry dưới đây được thêm để giải quyết 85 warnings từ format-apa7.py. DOIs đã verify từ bản thảo gốc.*
 
-Author, C., & Author, C. B. (2026). Self-citation blinded for anonymous peer review. *Management International Review, under review*. *(Placeholder — replace with real P4 Singapore citation after review decision.)*
+Mar, K. S., Đỗ, T. H., & Phan, A. T. (2026). Institutional completeness and the internationalization-performance relationship: Capability ceiling and dual substitution evidence from Singapore. *Management International Review* (under review).
 
 Banerjee, A. V., & Duflo, E. (2014). Do firms want to borrow more? Testing credit constraints using a directed lending program. *Review of Economic Studies, 81*(2), 572-607. https://doi.org/10.1093/restud/rdt046
 

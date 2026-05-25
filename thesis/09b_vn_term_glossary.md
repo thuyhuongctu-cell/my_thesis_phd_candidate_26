@@ -1,7 +1,7 @@
 # 09b — Bảng thuật ngữ Anh-Việt thống nhất cho CĐ1, CĐ2, và Luận án
 
 **NCS:** Đỗ Thùy Hương — Trường Đại học Cần Thơ  
-**Hướng dẫn khoa học:** TS. Nguyễn Minh Cảnh  
+**Hướng dẫn khoa học:** PGS.TS. Phan Anh Tú  
 **Phiên bản:** v1.2 (08/05/2026 — bao gồm Nhóm 1-8)  
 **Tổng số mục:** 68 thuật ngữ  
 **Lưu ý:** Phụ lục H trong CĐ1 là bản rút gọn 50 mục cốt lõi (Nhóm 1-5 + lựa chọn từ Nhóm 6-8).
@@ -39,14 +39,14 @@
 
 ## Nhóm 2 — Chỉ số và cấu trúc đo lường (Construct & Index)
 
-*Áp dụng cho: Toàn bộ CĐ1 và các paper P3 Singapore, P4 Việt Nam, P5 Trung Quốc.*
+*Áp dụng cho: Toàn bộ CĐ1 và các paper P3 Việt Nam, P4 Singapore, P5 Trung Quốc.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
 | 11 | Technological Capability Index (TCI) | Chỉ số năng lực công nghệ | Chỉ số năng lực công nghệ (Technological Capability Index — TCI) | TCI / năng lực công nghệ |
-| 12 | Digital Adoption Index (DAI) | Chỉ số năng lực số | Chỉ số năng lực số (Digital Adoption Index — DAI) | DAI / năng lực số |
-| 13 | Foreign Sales to Total Sales (FSTS) | Tỷ lệ doanh số quốc tế | Tỷ lệ doanh số quốc tế trên tổng doanh số (Foreign Sales to Total Sales — FSTS) | FSTS / cường độ quốc tế hóa |
-| 14 | Institutional Capability-Resource Vitality (ICRV) | Phân loại thể chế năng lực-nguồn lực | Phân loại thể chế năng lực-nguồn lực (Institutional Capability-Resource Vitality — ICRV) | ICRV / phân loại thể chế ICRV |
+| 12 | Digital Adoption Index (DAI) | Chỉ số chấp nhận số | Chỉ số chấp nhận số (Digital Adoption Index — DAI) | DAI / chấp nhận số |
+| 13 | Foreign Sales to Total Sales (FSTS) | Tỷ lệ doanh thu xuất khẩu | Tỷ lệ doanh thu xuất khẩu trên tổng doanh thu (Foreign Sales to Total Sales — FSTS) | FSTS / cường độ quốc tế hóa |
+| 14 | Institutional Context Regime Variation (ICRV) | Biến thiên chế độ bối cảnh thể chế | Biến thiên chế độ bối cảnh thể chế (Institutional Context Regime Variation — ICRV) | ICRV / phân loại thể chế ICRV |
 | 15 | Total Factor Productivity (TFP) | Năng suất nhân tố tổng hợp | Năng suất nhân tố tổng hợp (Total Factor Productivity — TFP) | TFP / năng suất tổng hợp |
 | 16 | Return on Assets (ROA) | Tỷ suất sinh lời trên tài sản | Tỷ suất sinh lời trên tài sản (Return on Assets — ROA) | ROA |
 | 17 | World Governance Indicators (WGI) | Chỉ số quản trị thế giới | Chỉ số quản trị thế giới (World Governance Indicators — WGI) | WGI |
