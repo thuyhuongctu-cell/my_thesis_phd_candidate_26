@@ -18,7 +18,7 @@
 
 ## Abstract
 Purpose. This study revisits the internationalisation–performance relationship in an emerging
-market and examines how technological capability and foundational digital adoption are associated with firms' productivity under conditions of institutional and digital transition. Focusing
+market and traces how technological capability and foundational digital adoption relate to firms' productivity under conditions of institutional and digital transition. Focusing
 on Vietnam, it asks whether export intensity is nonlinearly associated with labour productivity
 and whether technological capability and foundational digital adoption play distinct roles across
 survey waves.
@@ -31,9 +31,8 @@ Findings, The productivity benefits of internationalisation are concentrated pri
 
 
 Originality/value. The study contributes to research on emerging markets by distinguishing
-foreign-technology / standards capability from foundational digital adoption and by showing
-that pooled digital effects can mask substantial temporal heterogeneity. The findings suggest
-that the productivity relevance of basic digital adoption is context-sensitive and wave-specific
+foreign-technology / standards capability from foundational digital adoption and by showing how
+pooled digital effects can mask substantial temporal heterogeneity. On this evidence, the productivity relevance of basic digital adoption is context-sensitive and wave-specific
 rather than uniformly stable across stages of internationalisation.
 
 Keywords: internationalisation–performance; emerging markets; digital adoption; technological capability; Vietnam; firm productivity.
@@ -74,31 +73,25 @@ Vietnam offers an analytically valuable setting for revisiting the international
 
 In such settings,
 
-internationalisation should not be assumed to generate a simple linear performance premium.
-Firms may gain access to larger markets, benefit from learning, and diversify revenue streams,
-but they may also face rising coordination costs, information-processing burdens, and organisational strain as their foreign involvement deepens (Wright et al., 2005; Cuervo-Cazurra and
+internationalisation does not lend itself to the assumption of a simple linear performance premium.
+Foreign involvement opens access to larger markets, learning, and diversified revenue, yet it also brings rising coordination costs, heavier information-processing burdens, and organisational strain as that involvement deepens (Wright et al., 2005; Cuervo-Cazurra and
 Genc, 2008; Wu et al., 2016).
-This tension lies at the heart of the I–P literature. A long tradition of research has argued
-that internationalisation can improve performance at lower and intermediate levels through scale,
-learning, and diversification, while also generating diminishing or negative returns at higher levels
-because of complexity and coordination burdens. Meta-analytic evidence strongly supports the
-view that nonlinearity is a central feature of this relationship rather than an empirical anomaly
+This tension lies at the heart of the I–P literature. A long tradition of work holds that internationalisation improves performance at lower and intermediate levels through scale,
+learning, and diversification, while complexity and coordination burdens drag returns toward zero or below them at higher levels. Meta-analytic evidence indicates that this nonlinearity is a central feature of the relationship, not an empirical anomaly
 (Vernon, 1979; Lu and Beamish, 2004; Hennart, 2007; Coviello et al., 2017; Marano et al., 2016).
-Digitalisation adds a further layer of complexity to this debate.
+Digitalisation layers a further complication onto this debate.
 
 Digital tools can reduce
 
-communication frictions, accelerate transactions, and support coordination across borders. Yet
-those benefits do not arise automatically. Their realised value depends on whether firms possess
-the organisational depth, absorptive capacity, and complementary routines needed to translate
+communication frictions, speed transactions, and support cross-border coordination, but the benefits do not arrive automatically. Their realised value depends on whether a firm holds
+the organisational depth, absorptive capacity, and complementary routines needed to convert
 digital adoption into productivity gains (Cohen and Levinthal, 1990; Vial, 2019; Verhoef et al.,
-2021; Stallkamp and Schotter, 2021; Petricevic and Teece, 2019). For this reason, digital capability should not be treated as a universally beneficial resource whose payoff is constant across
+2021; Stallkamp and Schotter, 2021; Petricevic and Teece, 2019). Digital capability, then, is poorly described as a universally beneficial resource whose payoff stays constant across
 firms and over time.
-The Vietnamese setting makes this issue especially important. Because firms are embedded
-in an economy undergoing capability upgrading and digital transition, both the benefits of
-internationalisation and the payoff from digitalisation may vary across stages of development.
-This raises a central question for the present study: does digital capability in Vietnam function
-as a stable performance-enhancing asset, or does it operate as a stage-contingent resource whose
+The Vietnamese setting makes this issue especially pointed. Firms here are embedded
+in an economy that is upgrading capability and passing through digital transition at the same time, so both the gains from
+internationalisation and the payoff from digitalisation may shift across stages of development. The central question for this study follows directly: does digital capability in Vietnam behave
+as a stable performance-enhancing asset, or as a stage-contingent resource whose
 value changes over the lifecycle of internationalisation?
 Three institutional turning points shape the observation window. Vietnam acceded to the
 World Trade Organization in early 2007, which opened the period preceding the 2009 wave and
@@ -114,33 +107,33 @@ of internationalisation pressure and digital infrastructure availability, which 
 
 
 lifecycle reading testable rather than purely conceptual.
-These shifts are not cosmetic. The composition of the exporter cohort itself evolves across
-the three waves: the share of firms reporting any positive direct-export intensity declines as
-services and FDI-linked supply-chain firms enter the sample, while the average level of foundational digital adoption rises with the diffusion of websites, electronic payment systems, and
-digital transaction interfaces. Reading the I–P relationship and the digital-adoption channel as
-fixed structural facts across this fourteen-year window misses the fact that the underlying firm
+These shifts are not cosmetic. The exporter cohort itself changes composition across
+the three waves: the share of firms reporting any positive direct-export intensity falls as
+services and FDI-linked supply-chain firms enter the sample, while average foundational digital adoption rises with the diffusion of websites, electronic payment systems, and
+digital transaction interfaces. To read the I–P relationship and the digital-adoption channel as
+fixed structural facts across this fourteen-year window is to miss that the underlying firm
 population, the binding coordination costs, and the institutional scaffolding for cross-border
 trade all change materially.
 
 ### 1.2 Research gap
 This study addresses three gaps that remain unresolved in the existing literature.
 
-One gap concerns how digitalisation is theorised. Existing work often treats it as a broadly positive resource without paying sufficient attention to temporal and contextual variation in its payoff. Such a treatment risks implying that digital adoption produces a relatively stable performance premium across firms and across stages of economic transition (Strange and Zucchella, 2017; Goldfarb and Tucker, 2019). In reality, digitalisation may generate uneven returns because firms differ in scale, routines, and complementary capability.
+One gap concerns how digitalisation is theorised. Much existing work treats it as a broadly positive resource and pays little attention to temporal and contextual variation in its payoff. That treatment risks implying a relatively stable performance premium across firms and across stages of economic transition (Strange and Zucchella, 2017; Goldfarb and Tucker, 2019). The returns are more likely to be uneven, since firms differ in scale, routines, and complementary capability.
 
-A second gap lies in construct clarity: the distinction between technological capability and digital adoption remains underdeveloped. Technological capability refers to deeper firm-internal stocks of learning, problem-solving, process improvement, and innovation capacity (Lall, 1992). Foundational digital adoption, by contrast, reflects a more basic layer of digital readiness and digitally enabled interfaces or transaction mechanisms (Bharadwaj et al., 2013; Verhoef et al., 2021; Hanelt et al., 2021; Brouthers et al., 2016). Although these constructs are related, they should not be treated as interchangeable. Collapsing them into a single umbrella variable can reduce construct clarity and blur the mechanisms linking digitalisation to performance.
+A second gap concerns construct clarity. The distinction between technological capability and digital adoption remains underdeveloped. Technological capability refers to deeper firm-internal stocks of learning, problem-solving, process improvement, and innovation capacity (Lall, 1992); foundational digital adoption reflects a more basic layer of digital readiness and digitally enabled interfaces or transaction mechanisms (Bharadwaj et al., 2013; Verhoef et al., 2021; Hanelt et al., 2021; Brouthers et al., 2016). The two are related, but treating them as interchangeable, and collapsing them into a single umbrella variable, blurs the mechanisms that link digitalisation to performance.
 
-The remaining gap is methodological. Pooled estimates may obscure substantial lifecycle heterogeneity. In a setting such as Vietnam, where firms and institutions pass through distinct stages of transition, the role of internationalisation, technological capability, and digital adoption may vary considerably across survey waves. A pooled model is useful for identifying average effects, but it is insufficient if the underlying relationships shift across time. A design that combines pooled and wave-specific analysis is therefore necessary to determine whether the observed effects are stable or stage contingent.
+The remaining gap is methodological. Pooled estimates can obscure substantial lifecycle heterogeneity. Where firms and institutions pass through distinct stages of transition, as in Vietnam, the roles of internationalisation, technological capability, and digital adoption may vary considerably across survey waves. A pooled model identifies average effects well enough, but it falls short once the underlying relationships shift over time. A design that combines pooled and wave-specific analysis is therefore needed to determine whether the observed effects are stable or stage contingent.
 
 Recent meta-analytic work reinforces this concern. Pisani, Garcia-Bernardo, and Heemskerk (2020, SMJ) demonstrate that the inverted-U relationship between internationalisation and performance weakens substantially, and sometimes disappears, under more rigorous identification in cross-national pooled samples, suggesting that aggregation across heterogeneous institutional contexts inflates apparent functional-form regularity. Wu, Fan, and Chen (2022, MIR) extend this argument by showing in a meta-analysis of emerging-market multinationals (EMNEs) that institutional context moderates I–P effect sizes more powerfully than firm-level capability variables. Taken together, these findings imply that within-country longitudinal designs, which hold institutional context constant while varying time, provide a more credible test of whether the inverted-U is an artefact of cross-national pooling or a genuine relationship that persists as the institutional environment evolves. Vietnam's three-wave WBES panel (2009, 2015, 2023) provides exactly this design.
 
 ### 1.3 Contribution
 This study makes four contributions to the literature.
 
-It first refines the I–P debate by showing that the Vietnamese evidence supports a nonlinear relationship, but that the salience and visibility of that relationship vary across time. Rather than treating nonlinearity as a fixed structural fact that appears identically in every period, the analysis shows that the I–P curve must be read in conjunction with the broader capability environment.
+It first refines the I–P debate. The Vietnamese evidence supports a nonlinear relationship, but the salience and visibility of that relationship vary across time. Nonlinearity, on this reading, is not a fixed structural fact that appears identically in every period; the I–P curve has to be read alongside the broader capability environment.
 
-The study also improves construct validity by separating technological capability from foundational digital adoption. This distinction matters theoretically because deeper capability stocks and basic digital enablement may generate performance through different channels. It also matters empirically because the two constructs do not exhibit identical patterns across the Vietnamese waves.
+The study also improves construct validity by separating technological capability from foundational digital adoption. The distinction matters theoretically, because deeper capability stocks and basic digital enablement may drive performance through different channels, and empirically, because the two constructs do not trace identical patterns across the Vietnamese waves.
 
-A further contribution is a lifecycle interpretation of digital internationalisation. The evidence suggests that digital capability is neither a universally stable premium nor a uniformly ineffective resource. Instead, it is an uneven and stage-dependent source of performance heterogeneity. This perspective helps explain why pooled average effects may coexist with substantial wave-specific differences.
+A further contribution is a lifecycle reading of digital internationalisation. The evidence points to digital capability as neither a universally stable premium nor a uniformly ineffective resource; it is an uneven, stage-dependent source of performance heterogeneity — which helps explain how pooled average effects coexist with substantial wave-specific differences.
 
 A final, contextual contribution is that Vietnam's empirical pattern provides a participation-and-intensity decomposition showing that the robustly identified inverted-U (turning point 39–46 % FSTS) is driven primarily by the participation margin: within the exporter subsample, intensity variation yields flat to diminishing returns (Panel H), qualifying the conventional reading of the inverted-U pattern. The divergence between this pattern and those documented in digitally advanced economies, where the coordination-cost mechanism is attenuated by comprehensive digital infrastructure, points toward institution-level mechanisms as candidate moderators of I–P curve location. This within-context evidence anchors the digitally transitional end of the institutional spectrum.
 
@@ -149,21 +142,20 @@ The remainder of the paper is organised as follows. Section 2 develops the theor
 
 ## 2. Theory and hypotheses
 ### 2.1 Internationalisation and firm performance
-The relationship between internationalisation and firm performance is unlikely to be linear in
-a transitional economy such as Vietnam. Foreign expansion can improve performance through
-greater market reach, diversification, and learning from external environments. Firms may use
-internationalisation to spread fixed costs, access new customers, and acquire knowledge that
+In a transitional economy such as Vietnam, the relationship between internationalisation and firm performance is unlikely to be linear. Foreign expansion can lift performance through
+greater market reach, diversification, and learning from external environments; firms use
+internationalisation to spread fixed costs, reach new customers, and acquire knowledge that
 supports operational improvement.
-At the same time, deeper international involvement often generates coordination costs and
-organisational burdens. Firms must manage multiple markets, reconcile diverse customer demands, process more information, and sustain greater managerial control. As foreign expansion
-intensifies, these costs may grow faster than the benefits, producing diminishing returns or
+Deeper international involvement, at the same time, tends to generate coordination costs and
+organisational burdens. A firm must manage multiple markets, reconcile diverse customer demands, process more information, and sustain tighter managerial control. As foreign expansion
+intensifies, these costs may outgrow the benefits, producing diminishing returns or
 even a decline in performance. This basic logic underpins the classic nonlinear view of the I–P
 relationship (Contractor, 2007; Hennart, 2011; Marano et al., 2016). Process accounts of internationalisation, including the updated Uppsala framework, similarly emphasise that performance
 gains and adjustment costs unfold incrementally as firms accumulate market knowledge and
 commitment (Vahlne and Johanson, 2017; Knight and Liesch, 2016).
-This argument is especially plausible in Vietnam because firms operate under uneven capability conditions. Some firms may convert foreign expansion into learning and scale advantages,
-whereas others may encounter organisational strain sooner. The relevant expectation is therefore
-not a uniformly positive slope, but a nonlinear relationship in which gains from internationalisation become progressively more difficult to sustain.
+This argument carries particular weight in Vietnam, where firms operate under uneven capability conditions. Some convert foreign expansion into learning and scale advantages;
+others meet organisational strain sooner. What we expect, then, is
+not a uniformly positive slope, but a nonlinear relationship in which the gains from internationalisation become progressively harder to sustain.
 Two opposing forces underpin the curvature.
 
 On the upside, increasing direct-export in-
@@ -1127,20 +1119,18 @@ Notes.
 
 ## 5. Discussion
 ### 5.1 Reinterpreting digital capability in Vietnam
-The central implication of the findings is that foundational digital adoption in Vietnam should
-not be interpreted as a universal and temporally stable productivity premium. Although both
-$\tilde{\mathrm{TCI}}$ and $\tilde{\mathrm{DAI}}$ are positive on average in pooled specifications, their empirical roles differ
-materially across waves and across identification strategies (Vahlne, 2020; Stallkamp and Schotter, 2021). This means that website-based digital adoption is not simply a constant background
-advantage; it is a context-sensitive and stage-dependent source of performance heterogeneity.
+The findings carry one central implication: foundational digital adoption in Vietnam should
+not be read as a universal, temporally stable productivity premium. $\tilde{\mathrm{TCI}}$ and $\tilde{\mathrm{DAI}}$ are both positive on average in the pooled specifications, yet their empirical roles diverge
+materially across waves and across identification strategies (Vahlne, 2020; Stallkamp and Schotter, 2021). Website-based digital adoption, then, is no constant background
+advantage; it is a context-sensitive, stage-dependent source of performance heterogeneity.
 
 The negative sign on the $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ interaction in 2023, where DAI productivity relevance attenuates at higher export intensities, is consistent with the Tier-1 boundary of the construct: a website alone cannot manage the transaction density of high-export-intensity operations without electronic-payment and process-integration support. This contrasts with settings where the same construct includes Tier 2 transaction-enabling items, where higher export intensity could instead amplify the productivity return to digital adoption.
-This interpretation helps reconcile the coexistence of positive pooled effects and uneven wavespecific results. The pooled model captures the average tendency for stronger capability to be
-associated with better performance. The wave-specific models show that this tendency is not
-equally strong in every phase. The value of digital capability therefore depends on where firms
-stand in the broader lifecycle of internationalisation and transition.
+This reading helps reconcile the coexistence of positive pooled effects with uneven wave-specific results. The pooled model captures the average tendency for stronger capability to track better performance; the wave-specific models show that this tendency is not
+equally strong in every phase. The value of digital capability thus depends on where a firm
+stands in the broader lifecycle of internationalisation and transition.
 
 ### 5.2 Why the distinction between TCI and DAI matters
-The results strengthen the theoretical case for separating foreign-technology / standards capability from foundational digital adoption. The PSM and IV evidence in 4.5 (Panels J and K)
+The results strengthen the theoretical case for keeping foreign-technology / standards capability apart from foundational digital adoption. The PSM and IV evidence in 4.5 (Panels J and K)
 makes the distinction sharper (Karna et al., 2016).
 
 TCI is robust under both matching and
@@ -1175,9 +1165,9 @@ documented under matched comparison but not under exogenous instrumental variati
 
 
 
-supports a more careful approach to digitalisation in international-business research, one that
-distinguishes between basic digital enablement (easily contaminated by selection on observables)
-and broader technological depth (more identification-robust), rather than collapsing them into
+argues for a more careful treatment of digitalisation in international-business research — one that
+distinguishes basic digital enablement (easily contaminated by selection on observables)
+from broader technological depth (more identification-robust), rather than collapsing them into
 a single label.
 
 ### 5.3 The significance of the 2015 dip
@@ -1261,9 +1251,9 @@ distinction is especially important in transitional economies, where firms move 
 stages of capability development.
 
 ### 5.6 Policy implications
-We frame the policy reading as tentative considerations rather than directive prescriptions. The
+The policy reading here is offered as tentative consideration, not directive prescription. The
 associational nature of the evidence, the breadth of the wave-specific heterogeneity, and the
-single-economy scope all weigh against converting the findings into firm policy targets. With
+single-economy scope all weigh against converting these findings into firm policy targets. With
 those caveats kept explicit, three considerations follow for Vietnam's trade and digital-economy
 policy design.
 First, export-promotion instruments designed around a uniformly positive internationalisation premium will overshoot in transitional periods such as the 2015 wave, when capability
@@ -1291,9 +1281,9 @@ derstate its long-run productivity contribution; a programme assessed against a 
 takes the lifecycle structure seriously will couple short-window outcome measurement with sustained measurement of the capability and infrastructure environment in which firms operate.
 
 ## 6. Limitations and future research
-The findings should be read against five limitations. First and most fundamentally, the WBES
-microdata are repeated cross-sections rather than a true firm panel. Within-firm change over
-time cannot be identified, and time-invariant unobserved heterogeneity cannot be netted out at
+The findings should be read against five limitations. The first and most fundamental is that the WBES
+microdata are repeated cross-sections, not a true firm panel. Within-firm change over
+time cannot be identified, nor can time-invariant unobserved heterogeneity be netted out at
 the firm level. The associational language used throughout the paper reflects this constraint and
 should not be relaxed in any reader's interpretation of the results.
 Second, $\tilde{\mathrm{DAI}}$ captures only a foundational, Tier-1-style layer of digital adoption centred
@@ -1326,14 +1316,14 @@ Sixth, the analysis is limited to Vietnam as a single transitional economy at a 
 
 
 ## 7. Conclusion
-This study revisits the internationalisation–performance relationship in Vietnam by distinguishing foreign-technology / standards capability from foundational digital adoption and by comparing pooled with wave-specific evidence.
+This study revisits the internationalisation–performance relationship in Vietnam, distinguishing foreign-technology / standards capability from foundational digital adoption and comparing pooled with wave-specific evidence.
 
 The findings show that the internationalisation–
 
 performance relationship is non-monotonic in the full sample, but that this pattern is driven
 primarily by a participation-and-intensity structure rather than by strong within-exporter curvature alone.
-The results also show that the two capability domains should not be treated as interchangeable. Technological capability is comparatively stable and identification-robust across specifications, whereas foundational digital adoption is more wave-sensitive and only exhibits withinsample detectable moderation in 2023. The broader implication is that the productivity relevance
-of basic digital adoption in a transitional economy is real but uneven, and that pooled averages
+The results also show that the two capability domains are not interchangeable. Technological capability is comparatively stable and identification-robust across specifications, whereas foundational digital adoption is more wave-sensitive and shows within-sample detectable moderation only in 2023. The broader implication follows: in a transitional economy the productivity relevance
+of basic digital adoption is real but uneven, and pooled averages
 can conceal important temporal heterogeneity in when and how digital adoption matters.
 
 ## Conflict of interest
