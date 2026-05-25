@@ -35,7 +35,7 @@
 | Role in papers | Second author; supervisor |
 | Corresponding author | **Yes** |
 | Position | Associate Professor (PGS.TS.) |
-| Institution | College of Economics, Can Tho University (CTU) |
+| Institution | School of Economics, Can Tho University (CTU) |
 | Institution (Vietnamese) | Khoa Kinh tế, Trường Đại học Cần Thơ |
 | Address | Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam |
 | Email | patu@ctu.edu.vn |

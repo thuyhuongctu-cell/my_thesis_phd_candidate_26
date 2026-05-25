@@ -538,7 +538,7 @@ Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home count
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review, 80*(2), 355–361.
 
-Đỗ, T. H., & Phan, A. T. (2024). Internationalization and firm performance: A meta-analysis review. In *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489). College of Economics, Can Tho University. \[ICBEF 2025\]
+Đỗ, T. H., & Phan, A. T. (2024). Internationalization and firm performance: A meta-analysis review. In *Proceedings of the 6th International Conference on Economics, Business, and Finance* (Vol. 2, pp. 469–489). School of Economics, Can Tho University. \[ICBEF 2025\]
 
 Đỗ, T. H., & Phan, A. T. (2026). Firm performance heterogeneity in emerging Asia: A multi-country enterprise survey analysis. *Vietnam Economic Forum Review*. \[P1, published\]
 

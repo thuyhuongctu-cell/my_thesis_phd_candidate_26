@@ -390,5 +390,5 @@ Sector-level production function coefficients used to construct alternative TFP-
 
 ---
 
-*Corresponding author: Phan Anh Tu, College of Economics, Can Tho University, patu@ctu.edu.vn, ORCID: 0000-0003-0667-3137*  
+*Corresponding author: Phan Anh Tu, School of Economics, Can Tho University, patu@ctu.edu.vn, ORCID: 0000-0003-0667-3137*  
 *First author: Do Thuy Huong, Vinh Long University of Technology Education, huongdt@vlute.edu.vn, ORCID: 0000-0002-7711-2487*
