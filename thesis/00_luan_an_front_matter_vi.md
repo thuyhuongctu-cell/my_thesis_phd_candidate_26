@@ -84,6 +84,27 @@ NĂM 2026
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
+# TRANG XÁC NHẬN CỦA HỘI ĐỒNG {.unnumbered}
+
+Luận án tiến sĩ "Quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp ở Châu Á"
+do nghiên cứu sinh Đỗ Thùy Hương thực hiện dưới sự hướng dẫn khoa học của PGS.TS. Phan Anh Tú,
+đã được Hội đồng đánh giá luận án tiến sĩ cấp Trường thông qua.
+
+*[Phần xác nhận và chữ ký của Chủ tịch Hội đồng cùng các thành viên được hoàn thiện sau buổi bảo
+vệ, theo mẫu Phụ lục 3b của Quy định 1799/2021.]*
+
+&nbsp;
+
+::: {custom-style="Author"}
+Cần Thơ, ngày … tháng … năm ……
+
+Chủ tịch Hội đồng
+:::
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
 # LỜI CẢM ƠN {.unnumbered}
 
 Nghiên cứu sinh trân trọng cảm ơn PGS.TS. Phan Anh Tú đã tận tình hướng dẫn trong suốt
@@ -177,6 +198,30 @@ Nghiên cứu sinh
 
 ```{=openxml}
 <w:p><w:fldSimple w:instr=' TOC \o &quot;1-3&quot; \h \z \u '><w:r><w:t xml:space="preserve">[Trong Word: bôi chọn dòng này rồi nhấn F9 (Update Field) để tạo mục lục tự động từ các đề mục chương/mục.]</w:t></w:r></w:fldSimple></w:p>
+```
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
+::: {custom-style="Title"}
+**DANH SÁCH BẢNG**
+:::
+
+```{=openxml}
+<w:p><w:fldSimple w:instr=' TOC \h \z \c &quot;Bảng&quot; '><w:r><w:t xml:space="preserve">[Trong Word: nhấn F9 để tạo danh sách bảng từ chú thích (caption) có nhãn "Bảng".]</w:t></w:r></w:fldSimple></w:p>
+```
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
+
+::: {custom-style="Title"}
+**DANH SÁCH HÌNH**
+:::
+
+```{=openxml}
+<w:p><w:fldSimple w:instr=' TOC \h \z \c &quot;Hình&quot; '><w:r><w:t xml:space="preserve">[Trong Word: nhấn F9 để tạo danh sách hình từ chú thích (caption) có nhãn "Hình".]</w:t></w:r></w:fldSimple></w:p>
 ```
 
 ```{=openxml}
