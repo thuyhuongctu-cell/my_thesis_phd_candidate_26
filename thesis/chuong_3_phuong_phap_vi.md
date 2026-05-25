@@ -413,7 +413,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 | lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
 | TuoiDN | b5 | năm_khảo_sát − b5 | Control (tuổi DN) |
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0-1) | Control (sở hữu) |
-| δ_ct |, | country × year FE | Fixed effects |
+| δ_ct | - | country × year FE | Fixed effects |
 
 *Ghi chú: Mẫu phân tích giảm dần từ N = 84.910 (M2), 38.342 (M3, thêm kiểm soát), 29.840 (M11, thêm manager + ICRV + three-way). DAI P7 là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu, khác với P3 Vietnam (Tier-1 only) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10-M11.*
 
@@ -470,10 +470,10 @@ $$\beta_3\ (NLCN\_z):\ p = {,}495\ \text{NS};\ \beta_4\ (CSS\_z):\ p = {,}402\ \
 
 | Specification | β(CDDXK_c) | SE | p |
 |---|---|---|---|
-| M1 country+year FE (N = 1.469) | −0,404 |, | ,032 |
-| Year FE only (không country FE) | −1,236 |, | < ,001 |
-| Bivariate (không controls) | −1,596 |, | < ,001 |
-| Exporters-only (N = 187) | −0,901 |, | ,027 |
+| M1 country+year FE (N = 1.469) | −0,404 | - | ,032 |
+| Year FE only (không country FE) | −1,236 | - | < ,001 |
+| Bivariate (không controls) | −1,596 | - | < ,001 |
+| Exporters-only (N = 187) | −0,901 | - | ,027 |
 
 *Hệ số âm nhất quán qua 4 specification xác nhận FIP không phải do selection bias hay outlier.*
 

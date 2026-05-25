@@ -23,12 +23,12 @@ Phân tích mô tả trên pool 101.185 doanh nghiệp từ 47 nền kinh tế c
 | Phân nhóm con ICRV | n (ước tính) | sd log LP | FSTS (%) | Xuất khẩu (%) | FDI$\geq$10% (%) |
 |---|---|---|---|---|---|
 | Nhóm I, Advanced đổi mới (SG, HK, KOR, TWN, ISR) | ~4.220 | **1,03** | 10,2 | 23,0 | 11,1 |
-| Nhóm II, Advanced tài nguyên (GCC) | ~1.932 | **0,49** | ~3 | ~8 |, |
+| Nhóm II, Advanced tài nguyên (GCC) | ~1.932 | **0,49** | ~3 | ~8 | - |
 | Nhóm III, Upper-middle (CHN, MYS, THA, KAZ...) | ~16.693 | 1,29 | 10,3 | 21,7 | 8,4 |
 | Nhóm IV, Emerging (VNM, IDN, PHL, IND...) | ~47.803 | 1,24 | 8,6 | 15,5 | 4,7 |
 | Nhóm V, Frontier (BGD, PAK, LAO, KHM...) | ~28.678 | 1,36 | 10,1 | 16,6 | 5,9 |
 | Nhóm VI, SIDS Thái Bình Dương (FJI, PNG, SLB...) | ~1.371 | 1,32 | 6,3 | 16,3 | 23,5 |
-| **Tổng** | **101.185** |, |, |, |, |
+| **Tổng** | **101.185** | - | - | - | - |
 
 *Nguồn: Phân tích của tác giả từ World Bank Enterprise Surveys (WBES), 2009-2025.*
 
