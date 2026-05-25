@@ -20,7 +20,7 @@ Phân tích mô tả trên pool 101.185 doanh nghiệp từ 47 nền kinh tế c
 
 **Bảng 4.1.** *Phân tán năng suất lao động và đặc điểm quốc tế hóa theo phân nhóm con ICRV (n = 101.185 doanh nghiệp, 2009–2025).*
 
-| Phân nhóm con ICRV | n (ước tính) | sd log LP | FSTS (%) | Xuất khẩu (%) | FDI≥10% (%) |
+| Phân nhóm con ICRV | n (ước tính) | sd log LP | FSTS (%) | Xuất khẩu (%) | FDI$\geq$10% (%) |
 |---|---|---|---|---|---|
 | Nhóm I, Advanced đổi mới (SG, HK, KOR, TWN, ISR) | ~4.220 | **1,03** | 10,2 | 23,0 | 11,1 |
 | Nhóm II, Advanced tài nguyên (GCC) | ~1.932 | **0,49** | ~3 | ~8 |, |
@@ -32,7 +32,7 @@ Phân tích mô tả trên pool 101.185 doanh nghiệp từ 47 nền kinh tế c
 
 *Nguồn: Phân tích của tác giả từ World Bank Enterprise Surveys (WBES), 2009–2025.*
 
-Phát hiện quan trọng nhất từ thực trạng mô tả là sự phân biệt nội bộ trong nhóm Advanced: tỷ số phân tán giữa nhóm đổi mới sáng tạo dẫn dắt (Singapore, Hàn Quốc, Đài Loan, sd ≈ 1,03) và nhóm tài nguyên dẫn dắt (Saudi Arabia, Qatar, Kuwait, sd ≈ 0,49) xấp xỉ 2,1 lần, phản ánh hai cơ chế tăng trưởng và phân phối hoàn toàn khác nhau. Phân nhóm con tài nguyên dẫn dắt có độ phân tán năng suất thấp nhất toàn bộ pool, biểu hiện của kinh tế nhà nước tô (rentier economy) nơi phân phối lại từ xuất khẩu dầu mỏ thu hẹp khoảng cách năng suất giữa doanh nghiệp, nhưng không nhất thiết phản ánh hiệu quả doanh nghiệp đáng kể. Điều này gợi ý rằng việc gộp hai loại Advanced vào một nhóm duy nhất (như các nghiên cứu trước thường làm) sẽ che khuất cơ chế quan trọng này.
+Phát hiện quan trọng nhất từ thực trạng mô tả là sự phân biệt nội bộ trong nhóm Advanced: tỷ số phân tán giữa nhóm đổi mới sáng tạo dẫn dắt (Singapore, Hàn Quốc, Đài Loan, sd $\approx$ 1,03) và nhóm tài nguyên dẫn dắt (Saudi Arabia, Qatar, Kuwait, sd $\approx$ 0,49) xấp xỉ 2,1 lần, phản ánh hai cơ chế tăng trưởng và phân phối hoàn toàn khác nhau. Phân nhóm con tài nguyên dẫn dắt có độ phân tán năng suất thấp nhất toàn bộ pool, biểu hiện của kinh tế nhà nước tô (rentier economy) nơi phân phối lại từ xuất khẩu dầu mỏ thu hẹp khoảng cách năng suất giữa doanh nghiệp, nhưng không nhất thiết phản ánh hiệu quả doanh nghiệp đáng kể. Điều này gợi ý rằng việc gộp hai loại Advanced vào một nhóm duy nhất (như các nghiên cứu trước thường làm) sẽ che khuất cơ chế quan trọng này.
 
 ### 4.1.2 Thực trạng quốc tế hóa, phân cực tham gia xuất khẩu
 
@@ -101,7 +101,7 @@ Phân tích publication bias gồm ba kiểm định bổ sung nhau. **Kiểm đ
 
 Phân tích trên mẫu doanh nghiệp Singapore từ dữ liệu WBES với $N = 237$ doanh nghiệp xuất khẩu xác nhận mối quan hệ phi tuyến (inverted U-shape) giữa FSTS và hiệu quả hoạt động ở mức có ý nghĩa thống kê ($p < {,}05$). Mô hình bậc hai với biến FSTS và FSTS$^2$ cho hệ số bậc hai âm, phù hợp với dạng chữ U ngược như kỳ vọng từ H1 trong khung lý thuyết CDCM.
 
-Điểm turning point ước lượng được ở mức **TP ≈ 88,6\% FSTS**, đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
+Điểm turning point ước lượng được ở mức **TP $\approx$ 88,6\% FSTS**, đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
 
 ### 4.3.2 Điều tiết bởi Digital Adoption Index (DAI)
 
@@ -158,7 +158,7 @@ Turning point được ước lượng riêng cho từng làn sóng và cho pool
 | 2023     | 41,6% FSTS   |
 | Pooled   | 39,7% FSTS   |
 
-Điểm turning point trong khoảng **39–46% FSTS** đặt Việt Nam ở mức "thấp hơn đáng kể" so với Singapore (TP ≈ 88,6%) và tương đương hoặc thấp hơn Trung Quốc (TP ≈ 48,78%). Kiểm định Paternoster so sánh turning point giữa 2009 và 2015 cho kết quả $z = 3{,}353$, $p < {,}001$, có ý nghĩa thống kê, cho thấy turning point đã dịch chuyển đáng kể từ 46,2\% xuống 39,3\% giữa hai làn sóng.
+Điểm turning point trong khoảng **39–46% FSTS** đặt Việt Nam ở mức "thấp hơn đáng kể" so với Singapore (TP $\approx$ 88,6%) và tương đương hoặc thấp hơn Trung Quốc (TP $\approx$ 48,78%). Kiểm định Paternoster so sánh turning point giữa 2009 và 2015 cho kết quả $z = 3{,}353$, $p < {,}001$, có ý nghĩa thống kê, cho thấy turning point đã dịch chuyển đáng kể từ 46,2\% xuống 39,3\% giữa hai làn sóng.
 
 ### 4.5.3 Điều tiết bởi TCI, Tích cực và có ý nghĩa
 
