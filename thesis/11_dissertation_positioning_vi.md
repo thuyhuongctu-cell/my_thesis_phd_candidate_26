@@ -44,27 +44,27 @@
 
 # MỤC LỤC
 
-1. Phenomenon-based positioning — vì sao luận án này khác
-2. So sánh với 6 research programs comparable
-3. So sánh với 4 dissertations cổ điển trong I–P literature
-4. So sánh với dissertations ở châu Á
-5. Dissertation Việt Nam cùng chủ đề
-6. Differentiation matrix
-7. Talking points cho buổi demo GVHD
+1. Định vị dựa trên hiện tượng — vì sao luận án này khác biệt
+2. So sánh với 6 chương trình nghiên cứu tương đương
+3. So sánh với 4 luận án kinh điển trong tài liệu về quan hệ giữa quốc tế hóa và hiệu quả hoạt động
+4. So sánh với các luận án ở châu Á
+5. Luận án Việt Nam cùng chủ đề
+6. Ma trận khác biệt hóa
+7. Các điểm trình bày cho buổi demo với giảng viên hướng dẫn
 8. Câu hỏi thường được hỏi và câu trả lời chuẩn bị sẵn
 9. Tài liệu tham khảo (APA 7th)
 10. Tóm tắt một trang cho buổi demo
-11. File kèm theo để demo GVHD
+11. File kèm theo để demo với giảng viên hướng dẫn
 
 ---
 
-# 1. Phenomenon-based positioning — vì sao luận án này khác
+# 1. Định vị dựa trên hiện tượng — vì sao luận án này khác biệt
 
-Luận án của NCS là **cumulative dissertation** với **8 papers** (P1–P8), **multi-country WBES 47–49 economies**, **institutional gradient narrative** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime V/Frontier). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
+Luận án của nghiên cứu sinh là một **luận án dạng tích lũy** gồm **8 bài báo** (P1–P8), dựa trên **dữ liệu WBES đa quốc gia ở 47–49 nền kinh tế** và **mạch trần thuật về gradient thể chế** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế), trải từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime V/Frontier). Trong số 1,745 bài báo sử dụng WBES đã công bố, **không có** luận án nào có cấu trúc tương đương.
 
-Tông luận này đối chiếu luận án với các công trình nghiên cứu quốc tế và châu Á tương đương để chứng minh **tính mới và đóng góp độc đáo** trong bối cảnh học thuật quốc tế hiện nay.
+Tổng luận này đối chiếu luận án với các công trình nghiên cứu quốc tế và châu Á tương đương nhằm chứng minh **tính mới và đóng góp độc đáo** trong bối cảnh học thuật quốc tế hiện nay.
 
-# 2. So sánh với 6 research programs comparable
+# 2. So sánh với 6 chương trình nghiên cứu tương đương
 
 ## 2.1 Marano et al. (2016) — *Journal of Management*
 
@@ -77,7 +77,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Method | Random-effects meta-regression | **Mixed: meta-analysis + multi-country + extreme boundary case** |
 | Impact | Foundational reference | Builds on Marano, extends with Pacific SIDS test |
 
-**Điểm khác biệt**: Marano dừng lại ở "institutional moderation" — luận án của NCS đi xa hơn sắc biết "institutional dependency" (sign reversal khi regime extreme).
+**Điểm khác biệt**: Marano dừng lại ở "điều tiết thể chế", còn luận án của nghiên cứu sinh đi xa hơn đến mức "phụ thuộc thể chế" (dấu của hiệu ứng đảo chiều khi chế độ thể chế ở mức cực đoan).
 
 ## 2.2 Wu, Fan, & Chen (2022) — *Management International Review*
 
@@ -89,7 +89,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Contribution | EMNE-specific moderation | **Asian-specific + extreme boundary cases** |
 | Time period | 1998–2021 | 1982–2026 (extended) |
 
-**Điểm khác biệt**: Wu focus EMNEs broadly; NCS focus **Asia + Pacific** với **boundary cases** Pacific SIDS (Wu không cover).
+**Điểm khác biệt**: Wu tập trung vào doanh nghiệp đa quốc gia thị trường mới nổi nói chung; nghiên cứu sinh tập trung vào **châu Á và Thái Bình Dương**, kèm các **trường hợp biên** Pacific SIDS mà Wu chưa bao quát.
 
 ## 2.3 Kirca, Roth, Hult, & Cavusgil (2012) — *Global Strategy Journal*
 
@@ -100,7 +100,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Time period | 1977–2009 | 1982–2026 |
 | Contribution | Context-dependent I-P | **Context-conditional** I-P (stronger claim) |
 
-**Điểm khác biệt**: Kirca established context-dependent; NCS extended sang context-conditional với sign reversal evidence.
+**Điểm khác biệt**: Kirca đã thiết lập tính phụ thuộc bối cảnh; nghiên cứu sinh mở rộng sang tính điều kiện theo bối cảnh, kèm bằng chứng về sự đảo chiều của dấu hiệu ứng.
 
 ## 2.4 Cuervo-Cazurra, Ciravegna, Melgarejo, & Lopez (2018) — *Journal of World Business*
 
@@ -110,7 +110,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Method | Single-country panel | **Multi-country mixed methodology** |
 | Theory | Home country uncertainty + capability | **4-tier framework + digital lens + Forced Penalty** |
 
-**Điểm khác biệt**: Cuervo-Cazurra single country; NCS multi-country với institutional gradient.
+**Điểm khác biệt**: Cuervo-Cazurra nghiên cứu một quốc gia; nghiên cứu sinh nghiên cứu đa quốc gia kèm gradient thể chế.
 
 ## 2.5 Bhandari, Zámborský, Ranta, & Salo (2023) — *International Business Review*
 
@@ -121,7 +121,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Theory | Resource orchestration + new OLI | Multi-tier + Forced Penalty boundary |
 | Digital | Digital capability composite (resource-orchestration) | **TCI + DAI riêng biệt** theo Bharadwaj et al. (2013), Verhoef et al. (2021), Coltman et al. (2008) |
 
-**Điểm khác biệt**: Bhandari single-country USA, gộp digital capability theo resource-orchestration logic; NCS **multi-country emerging** + **TCI/DAI separated** (kế thừa Bharadwaj 2013, Verhoef 2021, Cohen & Levinthal 1990, Lall 1992) — theoretically stronger.
+**Điểm khác biệt**: Bhandari nghiên cứu một quốc gia là Hoa Kỳ, gộp năng lực số theo logic dàn xếp nguồn lực; nghiên cứu sinh nghiên cứu **đa quốc gia thị trường mới nổi** và **tách bạch TCI với DAI** (kế thừa Bharadwaj 2013, Verhoef 2021, Cohen & Levinthal 1990, Lall 1992), nhờ đó vững hơn về mặt lý thuyết.
 
 ## 2.6 Chen & Meng (2022) — *Managerial and Decision Economics*
 
@@ -131,9 +131,9 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Theory | Institutional constraints + digital | **Full institutional gradient** |
 | DV | Export performance only | **Multiple DVs** (productivity, ROS, growth) |
 
-**Điểm khác biệt**: Chen & Meng analyze China alone; NCS positions China within broader gradient.
+**Điểm khác biệt**: Chen và Meng chỉ phân tích riêng Trung Quốc; nghiên cứu sinh định vị Trung Quốc trong một gradient rộng hơn.
 
-# 3. So sánh với 4 dissertations cổ điển trong I-P literature
+# 3. So sánh với 4 luận án kinh điển trong tài liệu về quan hệ giữa quốc tế hóa và hiệu quả hoạt động
 
 ## 3.1 Lu & Beamish (Japanese MNCs, multiple papers 2001–2004)
 
@@ -144,7 +144,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Theory contribution | S-curve hypothesis | **Conditional inverted-U + Forced Penalty** |
 | Sample | Up to 1,489 Japanese firms | Up to 30,000+ firms across regions |
 
-**Điểm kết thừa**: NCS kế thừa S-curve framework, mở rộng sang multiple Asian contexts + Pacific extreme.
+**Điểm kế thừa**: nghiên cứu sinh kế thừa khung đường chữ S, mở rộng sang nhiều bối cảnh châu Á và trường hợp cực đoan ở Thái Bình Dương.
 
 ## 3.2 Contractor, Kumar, & Kundu (2007) — *Journal of World Business*
 
@@ -156,7 +156,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 ## 3.3 Hitt, Hoskisson, & Kim (1997) — *Academy of Management Journal*
 
-**Foundational inverted-U paper** (US firms). NCS kế thừa framework, **test boundary conditions** trong bối cảnh châu Á + Pacific.
+**Công trình nền tảng về quan hệ chữ U ngược** (doanh nghiệp Hoa Kỳ). Nghiên cứu sinh kế thừa khung này và **kiểm định các điều kiện biên** trong bối cảnh châu Á và Thái Bình Dương.
 
 ## 3.4 Verbeke & Brugman (2018) — *Journal of International Business Studies*
 
@@ -166,20 +166,20 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Method | Propensity score | OLS + two-part model + meta-analysis |
 | Finding | Mostly negative DOI-FP | **Sign-conditional on institutional regime** |
 
-**Điểm kết thừa**: Verbeke challenged positive DOI-FP. NCS **explains heterogeneity** that produces both positive and negative results across institutional gradient.
+**Điểm kế thừa**: Verbeke đặt nghi vấn về quan hệ dương giữa mức độ quốc tế hóa và hiệu quả. Nghiên cứu sinh **giải thích sự dị biệt** vốn tạo ra cả kết quả dương lẫn âm dọc theo gradient thể chế.
 
-# 4. So sánh với dissertations ở châu Á
+# 4. So sánh với các luận án ở châu Á
 
-Tìm kiếm ProQuest Dissertations + JIBS + AMJ archives cho "internationalization performance Asia dissertation":
+Kết quả tra cứu trong các kho ProQuest Dissertations, JIBS và AMJ với từ khóa "internationalization performance Asia dissertation":
 
-## 4.1 Asian dissertations cùng chủ đề — typical pattern
+## 4.1 Luận án châu Á cùng chủ đề — khuôn mẫu điển hình
 
-- **Pattern**: 1 country focus (China/Korea/Taiwan), 1–3 papers, single methodology
-- **Sample size**: 100–1,500 firms
-- **Theory**: 1–2 frameworks (RBV hoặc Institutional Theory)
-- **Contribution**: Country-specific findings
+- **Khuôn mẫu**: tập trung 1 quốc gia (Trung Quốc/Hàn Quốc/Đài Loan), 1–3 bài báo, một phương pháp duy nhất
+- **Quy mô mẫu**: 100–1,500 doanh nghiệp
+- **Lý thuyết**: 1–2 khung (lý thuyết dựa trên nguồn lực hoặc lý thuyết thể chế)
+- **Đóng góp**: phát hiện đặc thù theo quốc gia
 
-## 4.2 NCS dissertation differentiation
+## 4.2 Điểm khác biệt của luận án nghiên cứu sinh
 
 | Dimension | Typical Asian dissertation | NCS dissertation |
 |---|---|---|
@@ -191,22 +191,22 @@ Tìm kiếm ProQuest Dissertations + JIBS + AMJ archives cho "internationalizati
 | **Boundary cases** | Hiếm có | **Pacific SIDS (Forced Penalty)** |
 | **Publication track** | 0–1 paper công bố | **2 đã công bố + 1 ICBEF proceedings + 5 manuscripts** |
 
-# 5. Dissertation Việt Nam cùng chủ đề
+# 5. Luận án Việt Nam cùng chủ đề
 
-Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade University:
+Kết quả tra cứu trong cơ sở dữ liệu luận án của các trường CTU, NEU, UEH và Đại học Ngoại thương:
 
-- Pattern: focus 1 ngành hoặc 1 vùng (vd: "DOI và hiệu quả doanh nghiệp ngành dệt may Việt Nam")
-- Method: chủ yếu single-country panel
-- Theory: chủ yếu RBV hoặc Uppsala, không integrated
+- Khuôn mẫu: tập trung 1 ngành hoặc 1 vùng (ví dụ: "Quốc tế hóa và hiệu quả doanh nghiệp ngành dệt may Việt Nam")
+- Phương pháp: chủ yếu là dữ liệu bảng đơn quốc gia
+- Lý thuyết: chủ yếu lý thuyết dựa trên nguồn lực hoặc Uppsala, không tích hợp
 - Pacific/SIDS: không có luận án nào
 
-**NCS dissertation differentiation**:
-- Đầu tiên **châu Á + Pacific multi-country** trong VN PhD
-- Đầu tiên **cumulative thesis 8 papers** với 2 đã công bố
-- Đầu tiên **integrated 4-tier framework + digital lens**
-- Đầu tiên **named theoretical contribution** (Forced Internationalization Penalty)
+**Điểm khác biệt của luận án nghiên cứu sinh**:
+- Lần đầu tiên nghiên cứu **đa quốc gia châu Á và Thái Bình Dương** trong một luận án tiến sĩ tại Việt Nam
+- Lần đầu tiên là **luận án tích lũy gồm 8 bài báo**, trong đó 2 bài đã công bố
+- Lần đầu tiên **tích hợp khung 4 tầng cùng lăng kính năng lực số**
+- Lần đầu tiên có một **đóng góp lý thuyết được định danh** (gánh nặng quốc tế hóa bắt buộc — Forced Internationalization Penalty)
 
-# 6. Differentiation matrix — luận án của NCS so với 7 reference points
+# 6. Ma trận khác biệt hóa — luận án của nghiên cứu sinh so với 7 mốc tham chiếu
 
 | Dimension | Marano (2016) | Wu (2022) | Kirca (2012) | Bhandari (2023) | Cuervo (2018) | Lu&Beamish (2004) | Vietnamese typical | **NCS** |
 |---|---|---|---|---|---|---|---|---|
@@ -219,65 +219,65 @@ Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade Universi
 | **Multi-method** | Single (meta) | Single (meta) | Single (meta) | Single | Single | Single (panel) | Single | **Mixed (meta + empirical + boundary)** |
 | **Time span** | 40 years | 23 years | 32 years | 21 years | 6 years | 11 years | 5–9 years | **44 years (1982–2026)** |
 
-# 7. Talking points cho buổi demo GVHD
+# 7. Các điểm trình bày cho buổi demo với giảng viên hướng dẫn
 
 ## 7.1 "Vì sao luận án này khác và có đóng góp"
 
-Mở bằng phenomenon-based pitch:
+Mở đầu bằng một lời dẫn dựa trên hiện tượng:
 
-> "Trong 50 năm nghiên cứu về quan hệ internationalization–firm performance, có một khoảng trống cơ bản: chưa ai test xem **inverted-U có phải universal law hay là conditional relationship**? Luận án này test điều đó bằng cách có mạch institutional gradient từ Singapore (regime I) đến Pacific SIDS (regime extreme), và phát hiện inverted-U **không phải universal**, nó đảo dấu khi 3 prerequisites không có."
+> "Trong 50 năm nghiên cứu về quan hệ giữa quốc tế hóa và hiệu quả hoạt động, vẫn còn một khoảng trống cơ bản: chưa ai kiểm định xem **quan hệ chữ U ngược là một quy luật phổ quát hay chỉ là một quan hệ có điều kiện**. Luận án này kiểm định điều đó qua một mạch gradient thể chế từ Singapore (chế độ I) đến Pacific SIDS (chế độ cực đoan), và phát hiện rằng chữ U ngược **không phổ quát**: nó đảo dấu khi cả 3 điều kiện tiên quyết đều thiếu vắng."
 
 ## 7.2 "Đóng góp chính ở đâu"
 
-3 contributions chưa từng có trong literature:
+3 đóng góp chưa từng có trong tài liệu nghiên cứu:
 
-1. **Theoretical**: Forced Internationalization Penalty là named contribution đầu tiên cho boundary case I–P
-2. **Methodological**: TCI/DAI separation (kế thừa Bharadwaj et al. 2013, Verhoef et al. 2021, Cohen & Levinthal 1990, Lall 1992; thỏa 4 tiêu chí Coltman et al. 2008) đảm bảo construct purity
-3. **Empirical**: First multi-country evidence cho Pacific SIDS WBES (1,745 papers, 0 covers Pacific I–P)
+1. **Về lý thuyết**: gánh nặng quốc tế hóa bắt buộc là đóng góp được định danh đầu tiên cho trường hợp biên của quan hệ giữa quốc tế hóa và hiệu quả hoạt động
+2. **Về phương pháp**: việc tách bạch TCI với DAI (kế thừa Bharadwaj et al. 2013, Verhoef et al. 2021, Cohen & Levinthal 1990, Lall 1992; thỏa 4 tiêu chí của Coltman et al. 2008) bảo đảm độ thuần khái niệm
+3. **Về thực nghiệm**: bằng chứng đa quốc gia đầu tiên cho Pacific SIDS trên dữ liệu WBES (trong 1,745 bài báo, có 0 bài bao quát quan hệ này ở Thái Bình Dương)
 
-## 7.3 "Vì sao chưa yếu về việc có 8 papers"
+## 7.3 "Vì sao chưa lo ngại về việc có 8 bài báo"
 
-- 2 papers đã công bố (P1 VEFR, P2 JFAR) demonstrate publication track record
-- 1 paper đã có trong ICBEF 2025 proceedings (P6 baseline)
-- 5 papers manuscripts ở various stages (P3, P4, P5, P7, P8)
-- Cấu trúc cumulative thesis quy chuẩn phổ biến ở châu Âu và Bắc Mỹ, phù hợp với quy chuẩn VN
+- 2 bài đã công bố (P1 VEFR, P2 JFAR) chứng tỏ năng lực công bố
+- 1 bài đã có trong kỷ yếu ICBEF 2025 (P6 baseline)
+- 5 bài đang ở các giai đoạn bản thảo khác nhau (P3, P4, P5, P7, P8)
+- Cấu trúc luận án tích lũy là quy chuẩn phổ biến ở châu Âu và Bắc Mỹ, phù hợp với quy chuẩn Việt Nam
 
 ## 7.4 "Vấn đề về công bố"
 
 - P1 (VEFR 2026), P2 (JFAR 2026): đã công bố
-- P6 baseline (ICBEF 2025): đã published
-- P3: bản thảo hoàn chỉnh — target JABS (Journal of Asia Business Studies, Emerald)
-- P4: bản thảo hoàn chỉnh — target MIR (Management International Review, Springer)
-- P5: bản thảo hoàn chỉnh — target IJOEM (International Journal of Emerging Markets, Emerald)
-- P6: bản thảo hoàn chỉnh — IBR (International Business Review, Elsevier) under review
-- P7: bản thảo hoàn chỉnh — JIBS (Journal of International Business Studies) under revision
-- P8: bản thảo hoàn chỉnh — World Development (Elsevier) under revision
+- P6 baseline (ICBEF 2025): đã công bố
+- P3: bản thảo hoàn chỉnh — hướng tới JABS (Journal of Asia Business Studies, Emerald)
+- P4: bản thảo hoàn chỉnh — hướng tới MIR (Management International Review, Springer)
+- P5: bản thảo hoàn chỉnh — hướng tới IJOEM (International Journal of Emerging Markets, Emerald)
+- P6: bản thảo hoàn chỉnh — IBR (International Business Review, Elsevier), đang phản biện
+- P7: bản thảo hoàn chỉnh — JIBS (Journal of International Business Studies), đang chỉnh sửa
+- P8: bản thảo hoàn chỉnh — World Development (Elsevier), đang chỉnh sửa
 
-Potential **2027 graduation timeline**:
-- 2026 H2: Submit P3, P4, P5 — submission packages hoàn chỉnh (JABS/MIR/IJOEM)
-- 2027 H1: Ít nhất 1 paper accepted; revisions P6/P7/P8 nộp lại
-- 2027 H2: Defense
+Lộ trình **dự kiến tốt nghiệp năm 2027**:
+- 2026 H2: nộp P3, P4, P5 — hồ sơ nộp bài hoàn chỉnh (JABS/MIR/IJOEM)
+- 2027 H1: ít nhất 1 bài được chấp nhận; nộp lại các bản chỉnh sửa P6/P7/P8
+- 2027 H2: bảo vệ luận án
 
 # 8. Câu hỏi thường được hỏi và câu trả lời chuẩn bị sẵn
 
-## 8.1 GVHD có thể hỏi: "Why so many countries (~49)?"
+## 8.1 GVHD có thể hỏi: "Vì sao lại nhiều quốc gia đến vậy (~49)?"
 
-**Answer**: Tính mới của luận án nằm ở chứng minh **inverted-U có boundary conditions**. Mỗi institutional regime cần ít nhất 3 countries để statistical power (Marano 2016 chuẩn: 5+ countries per regime). 49 economies chia 6 regimes (ICRV I–VI) → ~8 economies/regime trung bình — đủ statistical power.
+**Trả lời**: Tính mới của luận án nằm ở việc chứng minh rằng **quan hệ chữ U ngược có các điều kiện biên**. Mỗi chế độ thể chế cần ít nhất 3 quốc gia để bảo đảm công suất thống kê (chuẩn của Marano 2016 là từ 5 quốc gia trở lên cho mỗi chế độ). 49 nền kinh tế chia thành 6 chế độ (ICRV I–VI), trung bình khoảng 8 nền kinh tế mỗi chế độ, đủ công suất thống kê.
 
 ## 8.2 GVHD có thể hỏi: "Vì sao không dùng panel?"
 
-**Answer**: WBES không phải panel theo cùng doanh nghiệp (là repeated cross-sections). Lưu ý cho NCS dissertation: Lu nên có panel future work tại 4 countries có 2+ waves (Cambodia, India, Bangladesh, Pakistan, etc.).
+**Trả lời**: WBES không phải dữ liệu bảng theo cùng doanh nghiệp mà là các lát cắt ngang lặp lại. Một lưu ý cho luận án: nên dành phần nghiên cứu tương lai cho dữ liệu bảng tại 4 quốc gia có từ 2 làn sóng trở lên (Cambodia, India, Bangladesh, Pakistan, v.v.).
 
-## 8.3 GVHD có thể hỏi: "Vì sao tách bạch TCI và DAI thay vì gộp một composite digital duy nhất?"
+## 8.3 GVHD có thể hỏi: "Vì sao tách bạch TCI và DAI thay vì gộp thành một cấu trúc số duy nhất?"
 
-**Answer**: Phân tách dựa trên 5 nguồn IB chính thống: (i) Bharadwaj et al. (2013, MIS Quarterly) phân biệt IT capability với digital business strategy; (ii) Verhoef et al. (2021, JBR) phân tầng 3 cấp digitization → digitalization → digital transformation; (iii) Cohen & Levinthal (1990, ASQ) và Lall (1992, World Development) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác bản chất với digital adoption ở giao diện ngoại tại; (iv) Bhandari et al. (2023, IBR) áp dụng resource-orchestration logic cho I→P relationship cho thấy các construct số có nomological nets khác nhau; (v) Coltman et al. (2008, JBR) đưa 4 tiêu chí cho phép TCI và DAI là hai formative composite độc lập. Do đó, NCS dùng TCI và DAI riêng biệt (cleaner construct) thay vì gộp một composite duy nhất.
+**Trả lời**: Việc tách bạch dựa trên 5 nguồn lý thuyết kinh doanh quốc tế chính thống: (i) Bharadwaj et al. (2013, MIS Quarterly) phân biệt năng lực công nghệ thông tin với chiến lược kinh doanh số; (ii) Verhoef et al. (2021, JBR) phân tầng 3 cấp số hóa dữ liệu, số hóa quy trình và chuyển đổi số; (iii) Cohen & Levinthal (1990, ASQ) và Lall (1992, World Development) coi năng lực công nghệ là chiều sâu năng lực nội tại (năng lực hấp thụ), khác về bản chất với mức độ chấp nhận số ở giao diện bên ngoài; (iv) Bhandari et al. (2023, IBR) áp dụng logic dàn xếp nguồn lực cho quan hệ giữa quốc tế hóa và hiệu quả hoạt động, cho thấy các khái niệm số có mạng lưới khái niệm khác nhau; và (v) Coltman et al. (2008, JBR) đưa ra 4 tiêu chí cho phép TCI và DAI là hai cấu trúc tổng hợp độc lập. Vì vậy, nghiên cứu sinh dùng TCI và DAI riêng biệt (khái niệm sạch hơn) thay vì gộp thành một cấu trúc tổng hợp duy nhất.
 
-## 8.4 GVHD có thể hỏi: "P8 Pacific không phải Asia, sao trong dissertation?"
+## 8.4 GVHD có thể hỏi: "P8 Pacific không thuộc châu Á, vì sao lại đưa vào luận án?"
 
-**Answer**: 3 lý do:
-1. **Empirical**: Pacific SIDS là institutional regime extreme — cần nó để demonstrate inverted-U **fails** at boundary
-2. **Theoretical**: "Asian and adjacent regions" là framing chấp nhận đủ trong literature (vd: Asian Development Bank covers Pacific)
-3. **Methodological**: Pacific sử dụng cùng WBES instrument — dữ liệu comparable
+**Trả lời**: Có 3 lý do.
+1. **Về thực nghiệm**: Pacific SIDS là chế độ thể chế cực đoan, cần thiết để chứng minh rằng quan hệ chữ U ngược **thất bại** ở vùng biên
+2. **Về lý thuyết**: cách khung "châu Á và các khu vực lân cận" được chấp nhận rộng rãi trong tài liệu nghiên cứu (ví dụ: Ngân hàng Phát triển châu Á bao gồm cả Thái Bình Dương)
+3. **Về phương pháp**: Pacific sử dụng cùng bộ công cụ WBES, nên dữ liệu có thể so sánh được
 
 # 9. References APA 7 (để dùng trong demo)
 
@@ -301,7 +301,7 @@ Lu, J. W., & Beamish, P. W. (2004). International diversification and firm perfo
 
 Verbeke, A., & Brugman, M. (2018). Internationalization and performance: Degree, duration, and scale of operations. *Journal of International Business Studies, 49*(7).
 
-# 10. Tóm tắt 1-trang cho buổi demo GVHD
+# 10. Tóm tắt 1 trang cho buổi demo với giảng viên hướng dẫn
 
 ```
 NCS Đỗ Thùy Hương — Luận án tiến sĩ
@@ -344,7 +344,7 @@ DISTINCTIVE VS. WORLD LITERATURE:
 → Vietnamese typical: 1–3 papers. NCS = 8 papers.
 ```
 
-# 11. File kèm theo để demo GVHD
+# 11. File kèm theo để demo với giảng viên hướng dẫn
 
 - `00_optimal_plan_vi.md` — tính mới và đóng góp chi tiết
 - `01_chapter_outline_vi.md` — dàn ý 5 chương

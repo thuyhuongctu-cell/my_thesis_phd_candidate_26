@@ -2,22 +2,22 @@
 
 File này trình bày thiết kế nghiên cứu, nguồn dữ liệu, đo lường biến, mô hình phân tích và kiểm định độ vững. Mỗi thành phần đều được giải thích theo hai loại cơ sở:
 
-- **Cơ sở kế thừa**: phương pháp đã được công nhận trong literature, kèm citation APA 7th.
-- **Đóng góp mới/điều chỉnh**: những điểm mà luận án cải tiến hoặc tổ chức mới, kèm lập luận rõ ràng.
+- **Cơ sở kế thừa**: phương pháp đã được công nhận trong tài liệu nghiên cứu, kèm trích dẫn theo chuẩn APA 7th.
+- **Đóng góp mới/điều chỉnh**: những điểm mà luận án này cải tiến hoặc tổ chức lại, kèm lập luận rõ ràng.
 
 ## 1. Thiết kế nghiên cứu tổng thể
 
 ### 1.1 Loại thiết kế
 
-Luận án sử dụng **mixed synthesis-empirical design** gồm hai phase bổ sung cho nhau. Phase thứ nhất là meta-analysis tổng hợp literature để trả lời RQ1, còn phase thứ hai là phân tích thực nghiệm doanh nghiệp đa quốc gia để trả lời RQ2–RQ4. Hai phase đối thoại hai chiều: meta cung cấp baseline và gợi ý moderator cần kiểm định, còn empirical cung cấp bằng chứng bổ sung cho meta về bối cảnh châu Á và Pacific.
+Luận án này sử dụng **thiết kế hỗn hợp tổng hợp-thực nghiệm** (mixed synthesis-empirical design) gồm hai giai đoạn bổ sung cho nhau. Giai đoạn thứ nhất là phân tích tổng hợp tài liệu nghiên cứu nhằm trả lời câu hỏi nghiên cứu RQ1; giai đoạn thứ hai là phân tích thực nghiệm doanh nghiệp đa quốc gia nhằm trả lời RQ2–RQ4. Hai giai đoạn này đối thoại theo hai chiều: phân tích tổng hợp cung cấp mức tham chiếu và gợi ý các yếu tố điều tiết cần kiểm định, còn phân tích thực nghiệm cung cấp bằng chứng bổ sung cho phần tổng hợp ở bối cảnh châu Á và Thái Bình Dương.
 
 **Cơ sở kế thừa**: Mixed design kết hợp meta và primary data đã được áp dụng trong quản trị chiến lược và IB (Borenstein et al., 2009; Hunter & Schmidt, 2004; Combs et al., 2011).
 
-**Đóng góp mới**: Áp dụng mixed design cho một luận án duy nhất về internationalization–firm performance trong bối cảnh châu Á và Pacific với **47 nền kinh tế** là thiết kế hiếm gặp; đa số các luận án IB chỉ làm một trong hai phase. Quy mô 47 nước/101.185 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ pool 17 nước trong Đỗ và Phan (2026 — VEFR).
+**Đóng góp mới**: Việc áp dụng thiết kế hỗn hợp cho một luận án duy nhất về quan hệ giữa quốc tế hóa và hiệu quả hoạt động trong bối cảnh châu Á và Thái Bình Dương với **47 nền kinh tế** là một thiết kế hiếm gặp; phần lớn các luận án kinh doanh quốc tế chỉ thực hiện một trong hai giai đoạn. Quy mô 47 nước/101.185 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ tập 17 nước trong Đỗ và Phan (2026 — VEFR).
 
 ### 1.2 Quy trình nghiên cứu
 
-Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và meta-analysis trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành meta-analysis cập nhật 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **47 nền kinh tế châu Á và Pacific** sau khi hòa hợp 3 thế hệ schema (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết.
+Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và các phân tích tổng hợp trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành phân tích tổng hợp cập nhật giai đoạn 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **47 nền kinh tế châu Á và Thái Bình Dương** sau khi hòa hợp 3 thế hệ lược đồ (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết.
 
 ## 2. Phase 1: Meta-analysis 1982–2026
 
