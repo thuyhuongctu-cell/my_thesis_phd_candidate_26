@@ -22,7 +22,12 @@ THESIS_REF="${TEMPLATES}/ctu_thesis_reference.docx"
 PAPER_REF="${TEMPLATES}/ctu_paper_reference.docx"
 
 READER="markdown-yaml_metadata_block"
-PDF_OPTS=(--pdf-engine=xelatex -V mainfont="FreeSerif" -V geometry:margin=2.5cm -V fontsize=12pt)
+# CTU Decision 1799/2021: A4, Times New Roman 13pt, left 3cm / others 2cm, line spacing 1.2.
+# scrartcl allows the non-standard 13pt; TeX Gyre Termes is a Times-metric font (texlive).
+PDF_OPTS=(--pdf-engine=xelatex -V documentclass=scrartcl -V fontsize=13pt \
+  -V mainfont="Liberation Serif" \
+  -V geometry:"a4paper,left=3cm,right=2cm,top=2cm,bottom=2cm" \
+  -V linestretch=1.2)
 
 if [[ "${1:-}" == "--templates" ]]; then
   echo "[0] Building CTU reference templates..."
