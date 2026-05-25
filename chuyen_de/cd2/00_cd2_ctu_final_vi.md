@@ -295,15 +295,15 @@ Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết c
 
 | Khung | Phi tuyến I-P | TCI | DAI | Đặc điểm QL | Thể chế (Inst.) | Temporal | Phân nhóm | SIDS |
 |-------|--------------|-----|-----|-------------|-----------------|----------|-----------|------|
-| Bausch & Krist (2007) | ✗ (không kiểm định hệ thống) | Partial (R&D proxy) | ✗ | ✗ | ✓ (GDP, văn hóa) | ✗ | ✗ | ✗ |
-| Kirca et al. (2012) | ✗ | ✓ (R&D proxy) | ✗ | ✗ | Partial | ✗ | Partial (ngành) | ✗ |
-| Marano et al. (2016) | ✓ (TP $\pm$15% FSTS) | ✗ | ✗ | ✗ | ✓ (cốt lõi) | ✗ | ✗ | ✗ |
-| Banalieva & Dhanaraj (2019) | Partial | ✗ | ✓ (cốt lõi) | ✗ | Partial | Partial | ✗ | ✗ |
-| Wu, Wood & Khan (2022) | ✓ (TP thấp hơn EMNE) | Partial (absorptive capacity) | ✗ | ✗ | ✓ | ✓ (20 năm) | ✓ (EMNE/DMNE) | ✗ |
-| Đỗ & Phan (2026, JFAR) | ✓ (bậc ba / S-curve) | - | - | - | - | - | - | - |
-| **CĐ2 (luận án này)** | **✓ (H1: chữ U ngược + S-curve)** | **✓ (H2: nhân quả IV)** | **✓ (H3: CDCM phân biệt)** | **✓ (H4a-H4c)** | **✓ (H5: ICRV 6 nhóm)** | **✓ (H6: 3 giai đoạn)** | **✓ (Nhóm I đến VI)** | **✓ (Nhóm VI FIP)** |
+| Bausch & Krist (2007) | Không (không kiểm định hệ thống) | Partial (R&D proxy) | Không | Không | Có (GDP, văn hóa) | Không | Không | Không |
+| Kirca et al. (2012) | Không | Có (R&D proxy) | Không | Không | Partial | Không | Partial (ngành) | Không |
+| Marano et al. (2016) | Có (TP $\pm$15% FSTS) | Không | Không | Không | Có (cốt lõi) | Không | Không | Không |
+| Banalieva & Dhanaraj (2019) | Partial | Không | Có (cốt lõi) | Không | Partial | Partial | Không | Không |
+| Wu, Wood & Khan (2022) | Có (TP thấp hơn EMNE) | Partial (absorptive capacity) | Không | Không | Có | Có (20 năm) | Có (EMNE/DMNE) | Không |
+| Đỗ & Phan (2026, JFAR) | Có (bậc ba / S-curve) | - | - | - | - | - | - | - |
+| **CĐ2 (luận án này)** | **Có (H1: chữ U ngược + S-curve)** | **Có (H2: nhân quả IV)** | **Có (H3: CDCM phân biệt)** | **Có (H4a-H4c)** | **Có (H5: ICRV 6 nhóm)** | **Có (H6: 3 giai đoạn)** | **Có (Nhóm I đến VI)** | **Có (Nhóm VI FIP)** |
 
-*Ghi chú: ✓ = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; ✗ = không bao gồm; - = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
+*Ghi chú: Có = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; Không = không bao gồm; - = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
 
 ##### Bằng chứng châu Á từ ba bản thảo đồng hành
 

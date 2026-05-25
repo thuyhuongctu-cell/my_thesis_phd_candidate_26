@@ -20,7 +20,7 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 >
 > **Phiên bản 2.9 (16/05/2026 — WB Working Papers từ upload 11 PDFs)**: Bổ sung **Section T mới** (5 entries) từ đánh giá 11 PDFs upload ngày 16/05/2026: (i) Agarwal, Barattieri & Mattoo (2026) WPS11352 — Vietnam firm LP tăng theo export demand shock; (ii) Barattieri, Mattoo & Signoret (2026) WPS11354 — Vietnam trade liberalization → +2.9%/yr productivity; (iii) Geginat & Ramalho (2015) WPS7460 — electricity quality & firm performance 183 countries (P8/CD1); (iv) Kim, Kumar, Ramalho & Russell (2026) WPS11279 — institutional capacity framework for ICRV (CD2/thesis); (v) Mahler, Serajuddin, Wadhwa & Yonzan (2026) WPS11350 — world slowest development pace 75 yrs, SIDS ≥100 yrs from standards (P8). **Disambiguation**: "Mahler, Serajuddin, Wadhwa & Yonzan (2026)" = WPS11350 ≠ "Mahler, Wang & Weber (2026)" = Atlas chapter (Section P). In-text citations added: P3 §5 (Agarwal + Barattieri), P8 §1 (Mahler et al. 2026b), CD2 §3.3 Tầng 3 (Kim et al. 2026).
 >
-> **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **✓ RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
+> **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
 
 > **Note**: Sections A, B, C, E, H, I, J, M, N, O giữ nguyên từ v2.1-v2.4 trừ phần entries mới được đánh dấu **(Mới v2.x)**.
 
@@ -40,7 +40,7 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 
 (Giữ nguyên từ v2.1 — Contractor et al. 2003, Gomes & Ramaswamy 1999, Grant 1987, Hitt et al. 1997 và 2006, Kim et al. 1989, Lu & Beamish 2004, Sullivan 1994. Tổng 8 entries.)
 
-> **✓ RESOLVED v2.5 — Audit Warning 1**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415, 07/05/2026): 4 occurrences trong §1.1, §2.6, Bảng 2.6.1 đã updated. Lu & Beamish (2004) AMJ S-curve DOI 10.2307/20159604 đã có sẵn Section B từ v2.1.
+> **RESOLVED v2.5 — Audit Warning 1**: Lin & Beamish (2005) → Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415, 07/05/2026): 4 occurrences trong §1.1, §2.6, Bảng 2.6.1 đã updated. Lu & Beamish (2004) AMJ S-curve DOI 10.2307/20159604 đã có sẵn Section B từ v2.1.
 
 ## C. Meta-analyses về I-P relationship
 
@@ -455,7 +455,7 @@ Mahler, D. G., Serajuddin, U., Wadhwa, D., & Yonzan, N. (2026, April). *The worl
 
 ### Audit warnings status (cập nhật v2.5)
 
-**✓ RESOLVED v2.5 — WARNING 1 (Lin & Beamish 2005)**: Hoàn tất file 14 v3.8 (commit e2f8415, 07/05/2026) — replace 4 occurrences với Lu & Beamish (2004).
+**RESOLVED v2.5 — WARNING 1 (Lin & Beamish 2005)**: Hoàn tất file 14 v3.8 (commit e2f8415, 07/05/2026) — replace 4 occurrences với Lu & Beamish (2004).
 
 **WARNING 2 — Gambacorta et al. (2025) BIS** *(pending)*: Citation trong file 16 §7.3.1 (3)(e) sectoral AI exposure cần verify trên trang BIS Working Papers. Có thể trong reference list của ADB ADO Special Topic April 2026 — NCS cần cross-check.
 
