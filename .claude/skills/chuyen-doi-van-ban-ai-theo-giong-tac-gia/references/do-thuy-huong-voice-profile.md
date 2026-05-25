@@ -66,6 +66,27 @@ into the candidate's voice.
 - **Sentence shape in VI:** influenced by English academic structure (longer, multi-clause)
   rather than short traditional Vietnamese sentences, but stays grammatical and clear.
 
+## Maturation directive (thesis register)
+
+The thesis must read as a **matured** version of this voice, not a replica of the
+earlier conference/journal work. Elevate while keeping the fingerprints above:
+
+- **Tighter logical chain.** Every paragraph should carry an explicit argumentative
+  move — set up a tension, then resolve or motivate it ("không phải X, mà là Y";
+  "Chính … cho phép …"; "Hệ quả là …"; "Ba pattern này đặt ra một yêu cầu lý thuyết …").
+  Avoid descriptive list-paragraphs that merely state facts without an inferential link.
+- **Claims earn their evidence.** Each non-trivial assertion is backed by an APA 7
+  citation or an internal cross-reference to P2–P5 / CĐ1 results. Do not add naked
+  generalisations.
+- **APA 7 throughout.** Parenthetical (Author, year); narrative "Author (year) …";
+  multi-citation clusters alphabetised and semicolon-separated; ampersand inside
+  parentheses, "và" in running Vietnamese text.
+- **Higher abstraction control.** Move from observation to mechanism to implication —
+  the register of a doctoral candidate positioning a contribution, not a student
+  summarising literature.
+- **Same content, sharper form.** Never alter statistics, citations, hypotheses, or
+  model specifications; maturation is in argumentation and phrasing only.
+
 ## Top 5 distinctive features (apply these first)
 
 1. Contrast-and-extend positioning against prior literature in nearly every claim.
