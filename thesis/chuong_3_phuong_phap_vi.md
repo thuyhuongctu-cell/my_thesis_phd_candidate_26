@@ -10,7 +10,7 @@
 
 ### 3.1.1 Loại thiết kế
 
-Luận án sử dụng **mixed synthesis-empirical design** gồm hai phase bổ sung cho nhau. Phase thứ nhất là meta-analysis tổng hợp các nghiên cứu để trả lời RQ1, còn phase thứ hai là phân tích thực nghiệm doanh nghiệp đa quốc gia để trả lời RQ2-RQ4. Hai phase đối thoại hai chiều: meta cung cấp baseline và gợi ý moderator cần kiểm định, còn empirical cung cấp bằng chứng bổ sung cho meta về bối cảnh châu Á và Pacific.
+Luận án sử dụng **thiết kế kết hợp tổng hợp và thực nghiệm (mixed synthesis-empirical design)** gồm hai giai đoạn bổ sung cho nhau. Giai đoạn thứ nhất là phân tích tổng hợp các nghiên cứu để trả lời RQ1; giai đoạn thứ hai là phân tích thực nghiệm doanh nghiệp đa quốc gia để trả lời RQ2-RQ4. Hai giai đoạn đối thoại hai chiều: phân tích tổng hợp cung cấp nền tảng và gợi ý các yếu tố điều tiết cần kiểm định, còn phân tích thực nghiệm cung cấp bằng chứng bổ sung về bối cảnh châu Á và Thái Bình Dương.
 
 **Cơ sở kế thừa**: Mixed design kết hợp meta và primary data đã được áp dụng trong quản trị chiến lược và IB (Borenstein et al., 2009; Hunter & Schmidt, 2004; Combs et al., 2011).
 

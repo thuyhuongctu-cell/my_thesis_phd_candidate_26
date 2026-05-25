@@ -96,7 +96,7 @@ Bước sang giai đoạn thứ hai, từ cuối thập niên 1990 đến đầu
 
 Đến giai đoạn thứ ba, từ cuối thập niên 2000 đến nay, trọng tâm dịch chuyển sang các yếu tố điều tiết, tức những điều kiện bối cảnh làm thay đổi hình dạng, cường độ hoặc dấu của quan hệ I-P. Các yếu tố điều tiết được khảo sát gồm đặc điểm quốc gia nguồn (Marano et al., 2016), đặc điểm ngành (Kirca et al., 2012), năng lực lãnh đạo cấp cao (Hsu et al., 2013) và năng lực số (Bhandari et al., 2023; Wu et al., 2022). Sự chuyển dịch này phản ánh một nhận thức ngày càng sâu sắc: không tồn tại quan hệ I-P phổ quát, mà kết quả quốc tế hóa luôn phụ thuộc vào điều kiện cụ thể của từng doanh nghiệp, ngành và quốc gia (Arte & Larimo, 2022).
 
-### 2.3.2 Bằng chứng meta-analytic
+### 2.3.2 Bằng chứng từ phân tích tổng hợp
 
 Bước tiến phương pháp luận đáng kể nhất của giai đoạn gần đây là sự ra đời của các phân tích tổng hợp về quan hệ I-P. Chúng cho phép gộp và định lượng kết quả từ hàng trăm nghiên cứu thực nghiệm riêng lẻ, nhờ đó lọc bớt nhiễu mà từng mẫu nghiên cứu đơn lẻ gây ra. Khi đặt cạnh nhau, các phân tích tổng hợp chính phác họa một bức tranh nhất quán ở kết luận tổng thể nhưng phức tạp ở cơ chế.
 
