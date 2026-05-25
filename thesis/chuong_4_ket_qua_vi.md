@@ -81,7 +81,7 @@ Kết quả quan trọng nhất của phân tích MARA không phải là giá tr
 - **Tầng 2** (between-effect within-study, tức dị biệt giữa các effect-size trong cùng một nghiên cứu): chiếm $54{,}1\%$ tổng phương sai, đây là nguồn dị biệt chủ đạo.
 - **Tầng 3** (between-study, tức dị biệt giữa các nghiên cứu): chỉ chiếm $8{,}4\%$.
 
-Phát hiện này có hàm ý lý thuyết sâu sắc: heterogeneity trong I–P literature xuất phát chủ yếu từ sự biến thiên **bên trong các nghiên cứu** (ví dụ: cùng một mẫu doanh nghiệp nhưng dùng các thước đo khác nhau cho cùng cấu trúc cho ra kết quả khác nhau), chứ không phải giữa các nghiên cứu với nhau. Điều này gợi ý rằng sự không nhất quán trong literature I–P phần lớn là vấn đề **đo lường và bối cảnh**, không phải là bằng chứng về sự thiếu nhất quán thực sự trong quan hệ nhân quả giữa quốc tế hóa và hiệu quả.
+Phát hiện này có hàm ý lý thuyết sâu sắc: heterogeneity trong các nghiên cứu I–P xuất phát chủ yếu từ sự biến thiên **bên trong các nghiên cứu** (ví dụ: cùng một mẫu doanh nghiệp nhưng dùng các thước đo khác nhau cho cùng cấu trúc cho ra kết quả khác nhau), chứ không phải giữa các nghiên cứu với nhau. Điều này gợi ý rằng sự không nhất quán trong các nghiên cứu I–P phần lớn là vấn đề **đo lường và bối cảnh**, không phải là bằng chứng về sự thiếu nhất quán thực sự trong quan hệ nhân quả giữa quốc tế hóa và hiệu quả.
 
 ### 4.2.3 Điều tiết bởi chế độ thể chế, ICRV moderation
 
@@ -217,9 +217,9 @@ Mô hình M2 bổ sung FSTS$^2$ không cho kết quả có ý nghĩa thống kê
 
 ### 4.7.3 Giải thích cơ chế Forced Internationalization Penalty
 
-Luận án đặt tên cho hiện tượng này là **Forced Internationalization Penalty (FIP)**, gánh nặng quốc tế hóa bắt buộc, một construct lý thuyết mới chưa có trong literature IB trước đây. Cơ chế giải thích gồm ba yếu tố cấu trúc đặc thù của SIDS: (1) thị trường nội địa quá nhỏ, buộc doanh nghiệp SIDS xuất khẩu không phải vì có lợi thế cạnh tranh mà vì nhu cầu nội địa không đủ để duy trì hoạt động; (2) chi phí hậu cần và tiếp cận thị trường cực cao do vị trí địa lý xa xôi và phân tán; và (3) thiếu hỗ trợ thể chế và năng lực xuất khẩu.
+Luận án đặt tên cho hiện tượng này là **Forced Internationalization Penalty (FIP)**, gánh nặng quốc tế hóa bắt buộc, một construct lý thuyết mới chưa có trong các nghiên cứu IB trước đây. Cơ chế giải thích gồm ba yếu tố cấu trúc đặc thù của SIDS: (1) thị trường nội địa quá nhỏ, buộc doanh nghiệp SIDS xuất khẩu không phải vì có lợi thế cạnh tranh mà vì nhu cầu nội địa không đủ để duy trì hoạt động; (2) chi phí hậu cần và tiếp cận thị trường cực cao do vị trí địa lý xa xôi và phân tán; và (3) thiếu hỗ trợ thể chế và năng lực xuất khẩu.
 
-Kết quả FIP là đóng góp lý thuyết gốc của luận án, lần đầu tiên được ghi nhận và đặt tên trong literature internationalization–firm performance cho khu vực Thái Bình Dương.
+Kết quả FIP là đóng góp lý thuyết gốc của luận án, lần đầu tiên được ghi nhận và đặt tên trong các nghiên cứu internationalization–firm performance cho khu vực Thái Bình Dương.
 
 ---
 

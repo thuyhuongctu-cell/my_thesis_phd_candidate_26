@@ -10,7 +10,7 @@
 
 ### 3.1.1 Loại thiết kế
 
-Luận án sử dụng **mixed synthesis-empirical design** gồm hai phase bổ sung cho nhau. Phase thứ nhất là meta-analysis tổng hợp literature để trả lời RQ1, còn phase thứ hai là phân tích thực nghiệm doanh nghiệp đa quốc gia để trả lời RQ2–RQ4. Hai phase đối thoại hai chiều: meta cung cấp baseline và gợi ý moderator cần kiểm định, còn empirical cung cấp bằng chứng bổ sung cho meta về bối cảnh châu Á và Pacific.
+Luận án sử dụng **mixed synthesis-empirical design** gồm hai phase bổ sung cho nhau. Phase thứ nhất là meta-analysis tổng hợp các nghiên cứu để trả lời RQ1, còn phase thứ hai là phân tích thực nghiệm doanh nghiệp đa quốc gia để trả lời RQ2–RQ4. Hai phase đối thoại hai chiều: meta cung cấp baseline và gợi ý moderator cần kiểm định, còn empirical cung cấp bằng chứng bổ sung cho meta về bối cảnh châu Á và Pacific.
 
 **Cơ sở kế thừa**: Mixed design kết hợp meta và primary data đã được áp dụng trong quản trị chiến lược và IB (Borenstein et al., 2009; Hunter & Schmidt, 2004; Combs et al., 2011).
 
@@ -45,15 +45,15 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (Do & Phan, 2026a).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Do & Phan, 2026b).
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong các nghiên cứu về quan hệ I–P, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Do & Phan, 2026b).
 
-> **Ghi chú về trọng số khảo sát (survey sampling weights):** WBES cung cấp sampling weights để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng sampling weights* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết (mechanism testing) chứ không phải ước lượng mô tả đại diện tổng thể (population-representative descriptive estimation), trong bối cảnh này, không áp dụng weights là thực hành chuẩn trong literature IB sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Fixed effects ở cấp country-year đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng weights có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng survey weights cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem §3.5).
+> **Ghi chú về trọng số khảo sát (survey sampling weights):** WBES cung cấp sampling weights để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng sampling weights* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết (mechanism testing) chứ không phải ước lượng mô tả đại diện tổng thể (population-representative descriptive estimation), trong bối cảnh này, không áp dụng weights là thực hành chuẩn trong các nghiên cứu IB sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Fixed effects ở cấp country-year đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng weights có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng survey weights cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem §3.5).
 
 ### 3.3.2 Đo lường biến phụ thuộc, Hiệu quả hoạt động
 
 **Biến chính**: Labor productivity đo bằng $\ln(\text{annual sales} / \text{permanent full-time employees})$.
 
-**Cơ sở kế thừa**: Labor productivity được sử dụng rộng rãi trong nghiên cứu WBES và trong literature về firm productivity (Bloom et al., 2012; Hsieh & Klenow, 2009). Chỉ tiêu này đã được vận hành hóa thành công trong bài thực trạng emerging Asia (Do & Phan, 2026a).
+**Cơ sở kế thừa**: Labor productivity được sử dụng rộng rãi trong nghiên cứu WBES và trong các nghiên cứu về firm productivity (Bloom et al., 2012; Hsieh & Klenow, 2009). Chỉ tiêu này đã được vận hành hóa thành công trong bài thực trạng emerging Asia (Do & Phan, 2026a).
 
 **Lập luận chọn**: WBES không phải bộ financial statement đầy đủ, nên labor productivity phù hợp hơn ROA/ROE/ROS trong bối cảnh đa quốc gia. Ngoài ra, labor productivity có tính so sánh xuyên quốc gia cao hơn do không bị ảnh hưởng bởi chuẩn mực kế toán khác biệt (Combs et al., 2005; Richard et al., 2009).
 
@@ -65,7 +65,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 **Biến chính**: Foreign Sales To Total Sales (FSTS), đo bằng tỷ lệ doanh thu xuất khẩu trên tổng doanh thu. Mô hình có cả $FSTS$, $FSTS^2$, và $FSTS^3$ để kiểm định phi tuyến S-curve / cubic.
 
-**Cơ sở kế thừa**: FSTS là thước đo internationalization phổ biến nhất trong I–P literature (Sullivan, 1994; Hitt et al., 2006). Việc bổ sung $FSTS^2$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Specification cubic được Do và Phan (2026g) xác nhận có ý nghĩa thống kê ở Trung Quốc với turning point ~47,8% FSTS, làm baseline cho việc kiểm định mở rộng trong luận án.
+**Cơ sở kế thừa**: FSTS là thước đo internationalization phổ biến nhất trong các nghiên cứu I–P (Sullivan, 1994; Hitt et al., 2006). Việc bổ sung $FSTS^2$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Specification cubic được Do và Phan (2026g) xác nhận có ý nghĩa thống kê ở Trung Quốc với turning point ~47,8% FSTS, làm baseline cho việc kiểm định mở rộng trong luận án.
 
 ### 3.3.4 Đo lường biến điều tiết
 
