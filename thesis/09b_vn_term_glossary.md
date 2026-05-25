@@ -125,6 +125,7 @@
 | 54 | technology dynamism | năng động công nghệ | năng động công nghệ (technology dynamism) | năng động công nghệ |
 | 55 | market dynamism | năng động thị trường | năng động thị trường (market dynamism) | năng động thị trường |
 | 56 | institutional quality | chất lượng thể chế | chất lượng thể chế (institutional quality) | chất lượng thể chế |
+| 57 | institutional scaffolding | khung thể chế hỗ trợ | khung thể chế hỗ trợ (institutional scaffolding) | khung thể chế hỗ trợ |
 | 57 | hygiene factor | nhân tố vệ sinh / nhân tố nền tảng | nhân tố nền tảng (hygiene factor) | nhân tố nền tảng |
 | 58 | super-linear coordination cost | chi phí phối hợp siêu tuyến | chi phí phối hợp siêu tuyến (super-linear coordination cost) | chi phí phối hợp siêu tuyến |
 
