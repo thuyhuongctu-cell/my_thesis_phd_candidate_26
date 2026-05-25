@@ -298,6 +298,8 @@ Richard, O. C., Kirby, S. L., & Chadwick, K. (2019). The impact of racial and ge
 
 Scott, W. R. (2008). *Institutions and organizations: Ideas and interests* (3rd ed.). Sage.
 
+Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? The international strategies of digital platform firms. *Global Strategy Journal, 11*(1), 58–80. https://doi.org/10.1002/gsj.1336
+
 UNCTAD. (2023). *World investment report 2023: Investing in sustainable energy for all*. United Nations.
 
 Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
