@@ -170,7 +170,7 @@ Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượn
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
 - **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu điều chỉnh trung bình trong sóng (mean-centred)
-- **CDDXK_c²_it** = FSTS_c²_it: bình phương cường độ xuất khẩu điều chỉnh
+- **C$\text{DDXK}_c^2$_it** = $\text{FSTS}_c^2$_it: bình phương cường độ xuất khẩu điều chỉnh
 - **NLCN_z_it** = TCI_z_it: năng lực công nghệ (chuẩn hoá z trong sóng)
 - **CSS_z_it** = DAI_z_it: chỉ số số hoá cơ sở, Tier-1 (chuẩn hoá z trong sóng)
 - **lnLD, TuoiDN, SoHuuNuocNgoai**: kiểm soát quy mô, tuổi, sở hữu
@@ -214,7 +214,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 | lnNSLD | d2, l1 | ln(d2 / l1): ln(doanh thu PPP / lao động thường xuyên) | Biến phụ thuộc |
 | CDDXK | d3c | d3c / 100: cường độ xuất khẩu trực tiếp (0–1) | Biến độc lập |
 | CDDXK_c | d3c | CDDXK − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
-| CDDXK_c² | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
+| C$\text{DDXK}_c^2$ | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
 | NLCN_z | b8, e6 | z-std trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
 | CSS_z | c22b | z-std trong sóng của c22b₀₁: hiện diện website | Số hoá Tier-1 (H4 thăm dò) |
 | lnLD | l1 | ln(l1): log số lao động thường xuyên | Kiểm soát: quy mô doanh nghiệp |
@@ -229,7 +229,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 
 - **lnNSLD_i** = lnLP_i: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
 - **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
-- **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; CDDXK_c² là bình phương
+- **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; C$\text{DDXK}_c^2$ là bình phương
 - **NLCN_z_i** = TCI_z_i: năng lực công nghệ, z-std của trung bình(b8₀₁, e6₀₁)
 - **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2**, z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm e-payment hai chiều (Tier-2)
 - **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự P3
@@ -242,24 +242,24 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 > lnNSLD_i = α + γ₁ lnLD_i + γ₂ TuoiDN_i + γ₃ SoHuuNN_i + δ_s + ε_i
 
 > M1 (Tuyến tính FSTS):
-> lnNSLD_i = α + β₁ CDDXK_c_i + γ·X_i + δ_s + ε_i
+> lnNSLD_i = α + $\beta_1$ CDDXK_c_i + γ·X_i + δ_s + ε_i
 
 > M2 (Bậc hai FSTS, kiểm định H1):
-> lnNSLD_i = α + β₁ CDDXK_c_i + β₂ CDDXK_c²_i + γ·X_i + δ_s + ε_i
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) $\approx$ 88,6% FSTS [CI bootstrap [53%, 253%]]
+> lnNSLD_i = α + $\beta_1$ CDDXK_c_i + $\beta_2$ C$\text{DDXK}_c^2$_i + γ·X_i + δ_s + ε_i
+> H1: $\beta_1$ > 0, $\beta_2$ < 0; TP* = −$\beta_1$/(2$\beta_2$) $\approx$ 88,6% FSTS [CI bootstrap [53%, 253%]]
 > Lưu ý: Lind–Mehlum p = 0,303, không bác bỏ tuyến tính trong phạm vi dữ liệu quan sát; đây là kết quả thông tin tích cực theo khung bão hòa (saturation framework)
 
 > M3 (+ NLCN, H1-TCI trực tiếp):
-> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + γ·X + δ_s + ε
+> lnNSLD_i = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + γ·X + δ_s + ε
 
 > M4 (+ CSS trực tiếp):
-> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z + γ·X + δ_s + ε
+> lnNSLD_i = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z + γ·X + δ_s + ε
 
 > M5 (Mô hình đầy đủ, kiểm định H3):
-> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
->            + β₅(CDDXK_c × CSS_z) + β₆(CDDXK_c² × CSS_z) + γ·X + δ_s + ε
-> H3: β₆ > 0, DAI khuếch đại lợi nhuận I–P ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
-> Kết quả: β₆ = +3,119 (p = 0,005) trong mẫu đầy đủ; β₆ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê $\approx$ 16%)
+> lnNSLD_i = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z
+>            + $\beta_5$(CDDXK_c × CSS_z) + $\beta_6$(C$\text{DDXK}_c^2$ × CSS_z) + γ·X + δ_s + ε
+> H3: $\beta_6$ > 0, DAI khuếch đại lợi nhuận I–P ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
+> Kết quả: $\beta_6$ = +3,119 (p = 0,005) trong mẫu đầy đủ; $\beta_6$ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê $\approx$ 16%)
 
 **Bảng định nghĩa biến, Nghiên cứu 4 (Singapore):**
 
@@ -267,7 +267,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 |---|---|---|---|
 | lnNSLD | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
 | CDDXK_c | d3c | FSTS − mean(FSTS): centred | Biến độc lập |
-| CDDXK_c² | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
+| C$\text{DDXK}_c^2$ | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
 | NLCN_z | b8, e6 | z-std của TB(b8₀₁, e6₀₁) | Năng lực công nghệ (H2) |
 | CSS_z | c22b, k33, k38 | z-std của TB(c22b₀₁, k33₀₁, k38₀₁), **Tier-1+2** | Số hoá Tier-1+2 (H3) |
 | lnLD | l1 | ln(l1) | Quy mô doanh nghiệp |
@@ -295,29 +295,29 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 > lnNSLD_it = α + γ₁ lnLD_it + γ₂ TuoiDN_it + γ₃ SoHuuNN_it + δ_s + λ_t + ε_it
 
 > M1 (Tuyến tính FSTS):
-> lnNSLD_it = α + β₁ CDDXK_c_it + γ·X_it + δ_s + λ_t + ε_it
+> lnNSLD_it = α + $\beta_1$ CDDXK_c_it + γ·X_it + δ_s + λ_t + ε_it
 
 > M2 (Bậc hai FSTS, kiểm định H1):
-> lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + γ·X_it + δ_s + λ_t + ε_it
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂), điểm uốn 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
-> Kiểm định ổn định cấu trúc: Paternoster (1998) z-test: z(FSTS) = +0,82 (p = 0,412); z(FSTS²) = −0,61 (p = 0,545), không bác bỏ bình đẳng hệ số giữa hai sóng
+> lnNSLD_it = α + $\beta_1$ CDDXK_c_it + $\beta_2$ C$\text{DDXK}_c^2$_it + γ·X_it + δ_s + λ_t + ε_it
+> H1: $\beta_1$ > 0, $\beta_2$ < 0; TP* = −$\beta_1$/(2$\beta_2$), điểm uốn 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
+> Kiểm định ổn định cấu trúc: Paternoster (1998) z-test: z(FSTS) = +0,82 (p = 0,412); z($\text{FSTS}^2$) = −0,61 (p = 0,545), không bác bỏ bình đẳng hệ số giữa hai sóng
 
 > M3 (+ NLCN trực tiếp, H2 level-shift):
-> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + γ·X + δ_s + λ_t + ε
-> Kết quả: β₃ = +0,28 (2012, p < 0,001), +0,43 (2024, p < 0,001), TCI là "bộ tăng mức" (level-shifter), không điều tiết độ cong
+> lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + γ·X + δ_s + λ_t + ε
+> Kết quả: $\beta_3$ = +0,28 (2012, p < 0,001), +0,43 (2024, p < 0,001), TCI là "bộ tăng mức" (level-shifter), không điều tiết độ cong
 
 > M4 (+ CSS trực tiếp):
-> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z + γ·X + δ_s + λ_t + ε
+> lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z + γ·X + δ_s + λ_t + ε
 
 > M5 (Kiểm định ổn định xuyên sóng, H2b):
 > Ước lượng M2 riêng biệt cho 2012 và 2024, sau đó áp dụng:
 > $z = \dfrac{\hat{\beta}_{1,2012} - \hat{\beta}_{1,2024}}{\sqrt{SE^2_{1,2012} + SE^2_{1,2024}}}$
-> (Paternoster et al., 1998), tương tự cho $\beta_2$ (FSTS²)
+> (Paternoster et al., 1998), tương tự cho $\beta_2$ ($\text{FSTS}^2$)
 
 > M6 (Điều tiết ba chiều, kiểm định H3/H4a/H4b):
-> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
->             + β₅(CDDXK_c × NLCN_z) + β₆(CDDXK_c² × NLCN_z)
->             + β₇(CDDXK_c × wave) + β₈(CDDXK_c² × wave) + γ·X + δ_s + λ_t + ε
+> lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z
+>             + $\beta_5$(CDDXK_c × NLCN_z) + $\beta_6$(C$\text{DDXK}_c^2$ × NLCN_z)
+>             + $\beta_7$(CDDXK_c × wave) + $\beta_8$(C$\text{DDXK}_c^2$ × wave) + γ·X + δ_s + λ_t + ε
 > F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng lực), F3 (dịch chuyển điều kiện)
 > Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017), H4b (null capability-curvature moderation) được chấp nhận
 
@@ -327,7 +327,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 |---|---|---|---|
 | lnNSLD | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
 | CDDXK_c | d3c | FSTS − mean_wave(FSTS) | Biến độc lập |
-| CDDXK_c² | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
+| C$\text{DDXK}_c^2$ | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
 | NLCN_z | b8, e6, b4, b7a | z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁), TCI toàn diện | Năng lực công nghệ (H2) |
 | CSS_z | c22b | c22b₀₁, **Tier-1 đơn biến** (binary) | Số hoá Tier-1 mỏng (kiểm soát) |
 | lnLD | l1 | ln(l1) | Quy mô doanh nghiệp |
@@ -346,7 +346,7 @@ Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử d
 
 - **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực), biến phụ thuộc
 - **CDDXK_c_it**: cường độ xuất khẩu mean-centred, FSTS_c = (d3c/100) − mean_pool(FSTS)
-- **CDDXK_c²_it**: CDDXK_c bình phương, kiểm định phi tuyến
+- **C$\text{DDXK}_c^2$_it**: CDDXK_c bình phương, kiểm định phi tuyến
 - **NLCN_z_it**: năng lực công nghệ z-standardised, TCI_z = z-std(b8, e6)
 - **CSS_z_it**: chỉ số số hoá z-standardised, DAI_z = z-std(website + e-pay, Tier 1+2: c22b/e1, k33)
 - **KNQLy_it**: kinh nghiệm nhà quản lý trong ngành (năm, b7)
@@ -404,7 +404,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 |---------|-----------|-----------|---------|
 | lnNSLD | d2/n3, l1 | ln(doanh thu/lao động) | Biến phụ thuộc |
 | CDDXK_c | d3c | (d3c/100) − mean_pool(FSTS): centred | Biến độc lập (I) |
-| CDDXK_c² | d3c | CDDXK_c bình phương | I, phi tuyến |
+| C$\text{DDXK}_c^2$ | d3c | CDDXK_c bình phương | I, phi tuyến |
 | NLCN_z | b8, e6 | z-std(cert chất lượng + CN nước ngoài) | Năng lực công nghệ |
 | CSS_z | c22b/e1, k33 | z-std(website + e-payment): Tier 1+2 | Số hoá (DAI) |
 | KNQLy | b7 | năm kinh nghiệm nhà quản lý trong ngành | Quản trị |
@@ -431,7 +431,7 @@ Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced 
 |---------|----------------|---------|-----------|
 | lnNSLD | Log năng suất lao động | d2, l1 | ln(doanh thu PPP / lao động thường trực) |
 | CDDXK_c | Cường độ xuất khẩu (điều chỉnh) | d3c | (d3c/100) − mean_wave(FSTS): centred theo sóng |
-| CDDXK_c² | CDDXK_c bình phương | d3c | CDDXK_c × CDDXK_c |
+| C$\text{DDXK}_c^2$ | CDDXK_c bình phương | d3c | CDDXK_c × CDDXK_c |
 | NLCN_z | Năng lực công nghệ | b8, e6 | z-std(trung bình cert chất lượng + CN nước ngoài) |
 | CSS_z | Chỉ số số hoá (Tier-1) | c22b | z-std(website binary): **chỉ Tier-1, không dynamic** |
 | lnLD | Log quy mô lao động | l1 | ln(lao động thường trực) |
@@ -454,7 +454,7 @@ $$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \gamma \cdot X_{it} + \delta_c 
 
 $$\beta_1 = -0{,}404,\ p = {,}032\ (\text{country+year FE, N} = 1{.}469) \Rightarrow \textbf{FIP xác nhận}$$
 
-M2, Kiểm định phi tuyến: thêm CDDXK_c²
+M2, Kiểm định phi tuyến: thêm C$\text{DDXK}_c^2$
 
 $$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
@@ -483,7 +483,7 @@ $$\beta_3\ (NLCN\_z):\ p = {,}495\ \text{NS};\ \beta_4\ (CSS\_z):\ p = {,}402\ \
 |---------|-----------|-----------|---------|
 | lnNSLD | d2, l1 | ln(doanh thu PPP / lao động) | Biến phụ thuộc |
 | CDDXK_c | d3c | (d3c/100) − mean_wave: centred | Biến độc lập (I) |
-| CDDXK_c² | d3c | CDDXK_c bình phương | I, kiểm định phi tuyến |
+| C$\text{DDXK}_c^2$ | d3c | CDDXK_c bình phương | I, kiểm định phi tuyến |
 | NLCN_z | b8, e6 | z-std(cert + CN nước ngoài) | Năng lực công nghệ |
 | CSS_z | c22b | z-std(website binary): Tier-1 only | Số hoá, proxy tĩnh |
 | lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
@@ -534,7 +534,7 @@ Winsorization 1% và 5% đối với labor productivity và employment, áp dụ
 | Meta-analysis 1982–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng coverage, bổ sung digital và 6 sub-regime ICRV moderators |
 | Pool empirical | Do & Phan (2026a), 17 nước châu Á mới nổi | Mở rộng từ 17 lên **47 nước** với 101.185 doanh nghiệp · 108 cặp quốc gia × năm |
 | Labor productivity DV | Bloom et al. (2012); Hsieh & Klenow (2009); Do & Phan (2026a) | Lập luận rõ về firm performance đa chiều trong bối cảnh WBES |
-| FSTS + FSTS² + FSTS³ | Lu & Beamish (2004); Hitt et al. (1997); Do & Phan (2026g) | Đưa vào cùng three-way moderation framework |
+| FSTS + $\text{FSTS}^2$ + $\text{FSTS}^3$ | Lu & Beamish (2004); Hitt et al. (1997); Do & Phan (2026g) | Đưa vào cùng three-way moderation framework |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Non-overlapping construct purity protocol cho WBES; digital shield mở rộng (Do & Phan, 2026a) |
 | Lind–Mehlum U-test | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng country sample và multi-country |
 | Three-way moderation | Aiken & West (1991); Dawson (2014) | digital × institutional × manager mới cho châu Á và Pacific |

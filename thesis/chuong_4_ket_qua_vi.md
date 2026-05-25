@@ -192,7 +192,7 @@ Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống
 
 ### 4.6.3 Điều tiết bởi TCI và DAI trong toàn mẫu
 
-- **TCI**: có ý nghĩa thống kê dương trên toàn mẫu, một đơn vị độ lệch chuẩn tăng TCI nâng năng suất lao động khoảng 41% (exp(0,344)−1). Tuy nhiên, các tương tác FSTS×TCI và FSTS²×TCI **không có ý nghĩa** trong mẫu 49 nền kinh tế đa dạng thể chế. H2 **được xác nhận một phần**: TCI là yếu tố nâng mặt bằng năng suất nhất quán, nhưng vai trò uốn hình dạng đường cong I–P chỉ xuất hiện trong bối cảnh quốc gia cụ thể (P3 Việt Nam), không phổ quát xuyên toàn mẫu.
+- **TCI**: có ý nghĩa thống kê dương trên toàn mẫu, một đơn vị độ lệch chuẩn tăng TCI nâng năng suất lao động khoảng 41% (exp(0,344)−1). Tuy nhiên, các tương tác FSTS×TCI và $\text{FSTS}^2$×TCI **không có ý nghĩa** trong mẫu 49 nền kinh tế đa dạng thể chế. H2 **được xác nhận một phần**: TCI là yếu tố nâng mặt bằng năng suất nhất quán, nhưng vai trò uốn hình dạng đường cong I–P chỉ xuất hiện trong bối cảnh quốc gia cụ thể (P3 Việt Nam), không phổ quát xuyên toàn mẫu.
 - **DAI**: có ý nghĩa thống kê toàn mẫu, hiệu ứng trực tiếp $\hat{\beta}(\text{DAI}) = +0{,}155$ ($p < {,}001$) tương ứng lợi thế năng suất ~17% cho doanh nghiệp có website. Quan trọng hơn, cả hai tương tác điều tiết đều có ý nghĩa: $\hat{\beta}(\text{FSTS} \times \text{DAI}) = -0{,}614$ ($p < {,}001$) và $\hat{\beta}(\text{FSTS}^2 \times \text{DAI}) = +0{,}766$ ($p < {,}01$). Pattern âm rồi dương này cho thấy doanh nghiệp DAI cao có đường cong I–P phẳng hơn nhưng dịch lên, tổn thất hiệu suất ít hơn khi quốc tế hóa cao. Tương tác DAI×ICRV ($p = {,}012$) xác nhận vai trò của DAI mạnh hơn ở các môi trường thể chế yếu hơn (nhất quán với CDCM).
 
 ---
