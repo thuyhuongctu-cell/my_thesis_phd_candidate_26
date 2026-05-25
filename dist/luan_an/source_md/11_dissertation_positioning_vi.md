@@ -195,7 +195,7 @@ Tìm kiếm ProQuest Dissertations + JIBS + AMJ archives cho "internationalizati
 
 Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade University:
 
-- Pattern: focus 1 ngành hoặc 1 vùng (vd: "DOI và hiệu quả doanh nghiệp ngành dệt may Việt Nam")
+- Pattern: focus 1 ngành hoặc 1 vùng (vd: "DOI và hiệu quả hoạt động kinh doanh ngành dệt may Việt Nam")
 - Method: chủ yếu single-country panel
 - Theory: chủ yếu RBV hoặc Uppsala, không integrated
 - Pacific/SIDS: không có luận án nào

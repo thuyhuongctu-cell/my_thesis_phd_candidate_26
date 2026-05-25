@@ -1,4 +1,4 @@
-# P6 — Quốc tế hóa và hiệu quả hoạt động doanh nghiệp: Phân tích tổng hợp hồi quy ba cấp 1977–2026
+# P6 — Quốc tế hóa và hiệu quả hoạt động kinh doanh: Phân tích tổng hợp hồi quy ba cấp 1977–2026
 
 > **NCS**: Đỗ Thùy Hương · **HD**: PGS.TS. Phan Anh Tú
 >
@@ -12,7 +12,7 @@
 
 ## Tóm tắt có cấu trúc
 
-**Background**: Quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động doanh nghiệp (I→P) là chủ đề được phân tích tổng hợp nhiều nhất trong kinh doanh quốc tế, song mức heterogeneity vẫn rất cao ($I^2=87.92\%$) và ba khoảng trống chưa được lấp đầy: (1) vai trò điều tiết của áp dụng số cấp quốc gia (cDAI); (2) dị biệt thể chế theo 6 nhóm ICRV trong châu Á và Pacific; (3) tiến trình Vòng đời Nghịch lý Số (DPL) qua ba giai đoạn trước/trong/sau mốc 2009.
+**Background**: Quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động kinh doanh (I→P) là chủ đề được phân tích tổng hợp nhiều nhất trong kinh doanh quốc tế, song mức heterogeneity vẫn rất cao ($I^2=87.92\%$) và ba khoảng trống chưa được lấp đầy: (1) vai trò điều tiết của áp dụng số cấp quốc gia (cDAI); (2) dị biệt thể chế theo 6 nhóm ICRV trong châu Á và Pacific; (3) tiến trình Vòng đời Nghịch lý Số (DPL) qua ba giai đoạn trước/trong/sau mốc 2009.
 
 **Methods**: Phân tích tổng hợp hồi quy ba cấp (three-level meta-analytic regression analysis — MARA) theo Cheung (2014) và Van den Noortgate et al. (2013), sử dụng `metafor` (R). Pool $k=238$ nghiên cứu sơ cấp (từ tìm kiếm hệ thống trên WoS và Scopus [1977–2026] + backward citation scan 5 meta-analyses trước + hand-search), $K=288$ effect sizes từ 49 nền kinh tế. Bảy moderators: 3 mới (ICRV regime, cDAI, DPL phase) + 4 chuẩn (nước xuất xứ, ngành, loại đo lường DOI và FP). Tiền đăng ký OSF (https://osf.io/z37kn) trước khi trích xuất effect sizes; độ tin cậy liên coder Cohen's $\kappa \geq 0.70$ trên 20% mẫu double-coded.
 
@@ -26,7 +26,7 @@
 
 ### 1.1 Quan hệ I→P — Chủ đề được phân tích tổng hợp nhiều nhất trong IB
 
-Quan hệ giữa mức độ quốc tế hóa (internationalization) và hiệu quả hoạt động doanh nghiệp (firm performance — I→P) đã thu hút hơn 40 năm nghiên cứu thực nghiệm và là chủ đề meta-analyzed nhiều nhất trong kinh doanh quốc tế. Tính đến năm 2026, không dưới sáu phân tích tổng hợp lớn đã cố gắng xác định hướng và độ lớn của hiệu ứng này (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Wu et al., 2022; Arte & Larimo, 2022). Nghịch lý là mặc dù có lượng bằng chứng phong phú, không đồng thuận nào xuất hiện: hiệu ứng tổng hợp dương nhưng rất nhỏ, còn mức heterogeneity luôn ở mức cao, hàm ý rằng bối cảnh — không phải hướng tổng hợp — mới là nhân tố quyết định (Bausch & Krist, 2007; Kirca et al., 2012).
+Quan hệ giữa mức độ quốc tế hóa (internationalization) và hiệu quả hoạt động kinh doanh (firm performance — I→P) đã thu hút hơn 40 năm nghiên cứu thực nghiệm và là chủ đề meta-analyzed nhiều nhất trong kinh doanh quốc tế. Tính đến năm 2026, không dưới sáu phân tích tổng hợp lớn đã cố gắng xác định hướng và độ lớn của hiệu ứng này (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Wu et al., 2022; Arte & Larimo, 2022). Nghịch lý là mặc dù có lượng bằng chứng phong phú, không đồng thuận nào xuất hiện: hiệu ứng tổng hợp dương nhưng rất nhỏ, còn mức heterogeneity luôn ở mức cao, hàm ý rằng bối cảnh — không phải hướng tổng hợp — mới là nhân tố quyết định (Bausch & Krist, 2007; Kirca et al., 2012).
 
 Phân tích tổng hợp của Đỗ và Phan (2024, ICBEF 2025) với $k=113$ nghiên cứu và 200 effect sizes xác nhận pattern này: hiệu ứng tổng hợp $r=0.07$ ($p<.001$) nhưng $I^2=87.92\%$, cho thấy phần lớn variance không thể giải thích bằng heterogeneity ngẫu nhiên. Đây là xuất phát điểm cho P6 UPDATED: thay vì chỉ cập nhật pool size, nghiên cứu này tập trung vào **ba khoảng trống lý thuyết còn chưa được lấp đầy** bởi bất kỳ meta-analysis I→P nào trước đây.
 

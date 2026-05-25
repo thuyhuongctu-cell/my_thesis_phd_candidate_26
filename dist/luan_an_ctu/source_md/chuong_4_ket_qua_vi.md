@@ -14,7 +14,7 @@ Chương 4 trình bày toàn bộ kết quả nghiên cứu của luận án the
 
 ## 4.1 Thực trạng quốc tế hóa và hiệu quả hoạt động kinh doanh tại châu Á
 
-### 4.1.1 Bức tranh tổng thể về hiệu quả doanh nghiệp châu Á
+### 4.1.1 Bức tranh tổng thể về hiệu quả hoạt động kinh doanh châu Á
 
 Phân tích mô tả trên pool 101.185 doanh nghiệp từ 47 nền kinh tế châu Á và Thái Bình Dương trong giai đoạn 2009–2025 cho thấy bức tranh hiệu quả hoạt động kinh doanh có sự phân tán lớn và không hội tụ. Năng suất lao động — đo bằng ln(doanh thu/lao động) — có độ lệch chuẩn dao động từ 0,49 (Advanced tài nguyên dẫn dắt) đến 1,36 (Frontier), với tỷ số P90/P10 tăng đơn điệu theo chiều từ nhóm thể chế cao đến nhóm thể chế thấp.
 
@@ -32,7 +32,7 @@ Phân tích mô tả trên pool 101.185 doanh nghiệp từ 47 nền kinh tế c
 
 *Nguồn: Phân tích của tác giả từ World Bank Enterprise Surveys (WBES), 2009–2025.*
 
-Phát hiện quan trọng nhất từ thực trạng mô tả là sự phân biệt nội bộ trong nhóm Advanced: tỷ số phân tán giữa nhóm đổi mới sáng tạo dẫn dắt (Singapore, Hàn Quốc, Đài Loan — sd ≈ 1,03) và nhóm tài nguyên dẫn dắt (Saudi Arabia, Qatar, Kuwait — sd ≈ 0,49) xấp xỉ 2,1 lần, phản ánh hai cơ chế tăng trưởng và phân phối hoàn toàn khác nhau. Phân nhóm con tài nguyên dẫn dắt có độ phân tán năng suất thấp nhất toàn bộ pool — biểu hiện của kinh tế nhà nước tô (rentier economy) nơi phân phối lại từ xuất khẩu dầu mỏ thu hẹp khoảng cách năng suất giữa doanh nghiệp, nhưng không nhất thiết phản ánh hiệu quả doanh nghiệp đáng kể. Điều này gợi ý rằng việc gộp hai loại Advanced vào một nhóm duy nhất (như các nghiên cứu trước thường làm) sẽ che khuất cơ chế quan trọng này.
+Phát hiện quan trọng nhất từ thực trạng mô tả là sự phân biệt nội bộ trong nhóm Advanced: tỷ số phân tán giữa nhóm đổi mới sáng tạo dẫn dắt (Singapore, Hàn Quốc, Đài Loan — sd ≈ 1,03) và nhóm tài nguyên dẫn dắt (Saudi Arabia, Qatar, Kuwait — sd ≈ 0,49) xấp xỉ 2,1 lần, phản ánh hai cơ chế tăng trưởng và phân phối hoàn toàn khác nhau. Phân nhóm con tài nguyên dẫn dắt có độ phân tán năng suất thấp nhất toàn bộ pool — biểu hiện của kinh tế nhà nước tô (rentier economy) nơi phân phối lại từ xuất khẩu dầu mỏ thu hẹp khoảng cách năng suất giữa doanh nghiệp, nhưng không nhất thiết phản ánh hiệu quả hoạt động kinh doanh đáng kể. Điều này gợi ý rằng việc gộp hai loại Advanced vào một nhóm duy nhất (như các nghiên cứu trước thường làm) sẽ che khuất cơ chế quan trọng này.
 
 ### 4.1.2 Thực trạng quốc tế hóa — phân cực tham gia xuất khẩu
 
@@ -62,7 +62,7 @@ Hiện tượng tương quan âm giữa DAI Tier-1 và năng suất trong nhóm 
 
 ### 4.1.4 Bốn rào cản cấu trúc ảnh hưởng đến quốc tế hóa và hiệu quả
 
-Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biến nhất ảnh hưởng đến khả năng quốc tế hóa và hiệu quả doanh nghiệp tại châu Á: (i) tiếp cận tài chính hạn chế — đặc biệt nghiêm trọng ở Frontier và Emerging; (ii) thiếu hụt lao động có kỹ năng; (iii) cạnh tranh từ doanh nghiệp phi chính thức; và (iv) nguồn cung điện không đáng tin cậy. Bốn rào cản này hình thành "institutional voids" (Khanna & Palepu, 2010) tạo ra chi phí giao dịch bổ sung cho doanh nghiệp khi mở rộng hoạt động ra ngoài biên giới. Sự hiện diện đồng thời của nhiều voids tại Frontier và SIDS giải thích tại sao quan hệ I→P ở các nhóm này yếu hoặc âm.
+Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biến nhất ảnh hưởng đến khả năng quốc tế hóa và hiệu quả hoạt động kinh doanh tại châu Á: (i) tiếp cận tài chính hạn chế — đặc biệt nghiêm trọng ở Frontier và Emerging; (ii) thiếu hụt lao động có kỹ năng; (iii) cạnh tranh từ doanh nghiệp phi chính thức; và (iv) nguồn cung điện không đáng tin cậy. Bốn rào cản này hình thành "institutional voids" (Khanna & Palepu, 2010) tạo ra chi phí giao dịch bổ sung cho doanh nghiệp khi mở rộng hoạt động ra ngoài biên giới. Sự hiện diện đồng thời của nhiều voids tại Frontier và SIDS giải thích tại sao quan hệ I→P ở các nhóm này yếu hoặc âm.
 
 ---
 
@@ -117,7 +117,7 @@ Cần nhấn mạnh rằng kết quả Singapore là **ranh giới suy luận** 
 
 ### 4.4.1 Xác nhận quan hệ phi tuyến và turning point
 
-Phân tích hai giai đoạn trên dữ liệu WBES Trung Quốc (Nhóm III — Upper-middle) giai đoạn 2012–2024 xác nhận dạng quan hệ phi tuyến chữ U ngược giữa FSTS và hiệu quả hoạt động doanh nghiệp. Điểm turning point được ước lượng tại:
+Phân tích hai giai đoạn trên dữ liệu WBES Trung Quốc (Nhóm III — Upper-middle) giai đoạn 2012–2024 xác nhận dạng quan hệ phi tuyến chữ U ngược giữa FSTS và hiệu quả hoạt động kinh doanh. Điểm turning point được ước lượng tại:
 
 - **Năm 2012**: TP = 49,37% FSTS
 - **Năm 2024**: TP = 47,19% FSTS
@@ -209,7 +209,7 @@ Phân tích P8 tập trung vào chín quốc gia SIDS Thái Bình Dương (Pacif
 
 $$\hat{\beta}(\text{FSTS}_c) = -0{,}404, \quad SE = 0{,}188, \quad p = {,}032^{*}$$
 
-Hệ số hồi quy âm và có ý nghĩa thống kê, nghĩa là tại các nền kinh tế SIDS, quốc tế hóa càng cao thì hiệu quả hoạt động doanh nghiệp càng **thấp hơn** — quan hệ âm đơn điệu. Trong mẫu chỉ gồm doanh nghiệp xuất khẩu (exporters-only), hệ số âm còn mạnh hơn:
+Hệ số hồi quy âm và có ý nghĩa thống kê, nghĩa là tại các nền kinh tế SIDS, quốc tế hóa càng cao thì hiệu quả hoạt động kinh doanh càng **thấp hơn** — quan hệ âm đơn điệu. Trong mẫu chỉ gồm doanh nghiệp xuất khẩu (exporters-only), hệ số âm còn mạnh hơn:
 
 $$\hat{\beta}(\text{FSTS}_c) = -0{,}901, \quad SE = 0{,}398, \quad p = {,}027^{*}$$
 

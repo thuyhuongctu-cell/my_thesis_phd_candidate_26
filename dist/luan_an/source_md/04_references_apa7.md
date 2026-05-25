@@ -132,7 +132,7 @@ Pangarkar, N. (2008). Internationalization and performance of small- and medium-
 
 ## K. WBES references và báo cáo Việt Nam (cập nhật v2.5 — bổ sung 4 entries từ batch upload 5 PDFs 07/05/2026)
 
-CIEM. (2023). *Báo cáo Năng lực cạnh tranh và hiệu quả doanh nghiệp Việt Nam 2023* [Central Institute for Economic Management]. Nhà xuất bản Khoa học và Kỹ thuật.
+CIEM. (2023). *Báo cáo Năng lực cạnh tranh và hiệu quả hoạt động kinh doanh Việt Nam 2023* [Central Institute for Economic Management]. Nhà xuất bản Khoa học và Kỹ thuật.
 
 Tran, T. B., & Pham, T. H. (2024). Tác động của FDI đến năng suất doanh nghiệp Việt Nam: Phân tích đa thế hệ điều tra. *Tạp chí Kinh tế và Phát triển, 311*, 24–38.
 

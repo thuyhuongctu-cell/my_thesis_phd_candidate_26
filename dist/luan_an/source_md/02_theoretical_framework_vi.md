@@ -22,7 +22,7 @@ Trong bối cảnh đương đại, RBV được mở rộng bằng dynamic capa
 
 ### 2.3 Institutional Theory
 
-Institutional Theory (North, 1990; Scott, 1995; Khanna & Palepu, 2010) cho rằng thể chế tạo ra cấu trúc khuyến khích, chi phí giao dịch và mức bất định khác nhau giữa các quốc gia, do đó cả chiến lược quốc tế hóa và hiệu quả của nó đều phụ thuộc vào môi trường thể chế của nơi doanh nghiệp hoạt động. Ở emerging markets, **institutional voids** — tức thiếu hụt các thể chế trung gian hỗ trợ giao dịch thị trường — tạo ra chi phí tăng thêm và dị biệt hiệu quả doanh nghiệp (Khanna & Palepu, 2010; Peng, 2003).
+Institutional Theory (North, 1990; Scott, 1995; Khanna & Palepu, 2010) cho rằng thể chế tạo ra cấu trúc khuyến khích, chi phí giao dịch và mức bất định khác nhau giữa các quốc gia, do đó cả chiến lược quốc tế hóa và hiệu quả của nó đều phụ thuộc vào môi trường thể chế của nơi doanh nghiệp hoạt động. Ở emerging markets, **institutional voids** — tức thiếu hụt các thể chế trung gian hỗ trợ giao dịch thị trường — tạo ra chi phí tăng thêm và dị biệt hiệu quả hoạt động kinh doanh (Khanna & Palepu, 2010; Peng, 2003).
 
 Marano et al. (2016) cung cấp meta-analytic evidence cho thấy home country institutions điều tiết mối quan hệ internationalization–performance, trong khi Cuervo-Cazurra et al. (2018) chỉ ra rằng home country uncertainty tạo ra năng lực quản lý bất định ở doanh nghiệp emerging market. Trong luận án, Institutional Theory cung cấp nền lý thuyết cho giả thuyết về vai trò điều tiết của institutional obstacles và cơ chế "digital shield effect". Để vận hành hóa tầng thể chế đa cấp, luận án áp dụng khung **ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế)** phân loại 47 nền kinh tế thành 6 sub-regime: Advanced Innovation-Driven (Singapore), Advanced Resource-Driven (GCC), Upper-middle, Emerging, Frontier, và Pacific SIDS — mở rộng từ phân loại thể chế của Khanna và Palepu (2010) và WGI (Kaufmann et al., 2011).
 
@@ -76,7 +76,7 @@ Cơ sở lý thuyết: Lu và Beamish (2004) với S-curve hypothesis; Contracto
 
 ### H1b: Điều kiện biên — Gánh nặng quốc tế hóa bắt buộc (FIP) tại Pacific SIDS
 
-**H1b**: Tại các nền kinh tế Pacific SIDS (ICRV Nhóm VI), quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động doanh nghiệp là **âm đơn điệu** (không có turning point trong phạm vi dữ liệu), phản ánh gánh nặng quốc tế hóa bắt buộc (FIP) nơi ba điều kiện cấu trúc đồng thời bị vi phạm: thị trường nội địa quá nhỏ, chi phí thương mại cực cao, và thiếu hỗ trợ thể chế.
+**H1b**: Tại các nền kinh tế Pacific SIDS (ICRV Nhóm VI), quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động kinh doanh là **âm đơn điệu** (không có turning point trong phạm vi dữ liệu), phản ánh gánh nặng quốc tế hóa bắt buộc (FIP) nơi ba điều kiện cấu trúc đồng thời bị vi phạm: thị trường nội địa quá nhỏ, chi phí thương mại cực cao, và thiếu hỗ trợ thể chế.
 
 Cơ sở lý thuyết: North (1990) với Institutional Theory; Williamson (1985) với transaction cost theory; Khanna và Palepu (2010) với institutional voids; Lall (2004) với SIDS structural constraints. H1b là **boundary condition** của H1: H1 áp dụng khi các điều kiện cấu trúc tối thiểu được đáp ứng; H1b áp dụng khi các điều kiện đó đồng thời thất bại.
 

@@ -272,7 +272,7 @@ Skill framework gợi ý: P8 có **hai tầng** cần được đặt tên riên
 > *"Firms in SIDS engage in **survival-based internationalization** — not as a strategic choice for growth but as a structural imperative. We term the performance consequence of this pattern the **Forced Internationalization Penalty (FIP)**: a monotone negative relationship between internationalization intensity and firm performance..."*
 
 **Cách dùng trong luận án (tiếng Việt)**:
-> *"Doanh nghiệp tại SIDS thực hiện **quốc tế hóa bắt buộc** — không phải là lựa chọn chiến lược để tăng trưởng mà là mệnh lệnh cấu trúc do thị trường nội địa quá nhỏ. Luận án đặt tên cho hệ quả hiệu quả của hiện tượng này là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**: quan hệ âm đơn điệu giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp..."*
+> *"Doanh nghiệp tại SIDS thực hiện **quốc tế hóa bắt buộc** — không phải là lựa chọn chiến lược để tăng trưởng mà là mệnh lệnh cấu trúc do thị trường nội địa quá nhỏ. Luận án đặt tên cho hệ quả hiệu quả của hiện tượng này là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**: quan hệ âm đơn điệu giữa cường độ quốc tế hóa và hiệu quả hoạt động kinh doanh..."*
 
 ### 8.5 Template giới thiệu trong bài báo (World Development, English)
 
@@ -299,7 +299,7 @@ with no observable turning point within the range of observed FSTS values
 Luận án đặt tên cho hiện tượng quan sát được tại 9 nền kinh tế SIDS Thái Bình 
 Dương là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — 
 FIP)**, định nghĩa là quan hệ âm đơn điệu giữa cường độ quốc tế hóa (FSTS) và 
-hiệu quả doanh nghiệp trong bối cảnh ba điều kiện tiên quyết của quan hệ chữ U 
+hiệu quả hoạt động kinh doanh trong bối cảnh ba điều kiện tiên quyết của quan hệ chữ U 
 ngược thông thường đồng thời không được đáp ứng: (1) thị trường nội địa không đủ 
 quy mô để duy trì hoạt động doanh nghiệp; (2) chi phí thương mại quá cao so với 
 giá trị xuất khẩu tiềm năng; và (3) thiếu hỗ trợ thể chế cho hoạt động quốc tế 

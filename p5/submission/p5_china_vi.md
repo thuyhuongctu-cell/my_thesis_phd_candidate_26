@@ -23,7 +23,7 @@
 
 ## Tóm tắt
 
-**Mục đích** — Nghiên cứu này xem xét liệu mối quan hệ hình chữ U ngược giữa cường độ quốc tế hóa (Foreign Sales to Total Sales — FSTS) và hiệu quả doanh nghiệp tư nhân Trung Quốc là bền vững về cấu trúc hay đặc thù theo đợt khảo sát, đồng thời kiểm định vai trò của Chỉ số năng lực công nghệ (Technological Capability Index — TCI_full) trong việc định hình mối quan hệ này qua một thập kỷ thay đổi cấu trúc.
+**Mục đích** — Nghiên cứu này xem xét liệu mối quan hệ hình chữ U ngược giữa cường độ quốc tế hóa (Foreign Sales to Total Sales — FSTS) và hiệu quả hoạt động kinh doanh tư nhân Trung Quốc là bền vững về cấu trúc hay đặc thù theo đợt khảo sát, đồng thời kiểm định vai trò của Chỉ số năng lực công nghệ (Technological Capability Index — TCI_full) trong việc định hình mối quan hệ này qua một thập kỷ thay đổi cấu trúc.
 
 **Thiết kế/Phương pháp/Cách tiếp cận** — Dữ liệu vi mô Khảo sát Doanh nghiệp Ngân hàng Thế giới (World Bank Enterprise Survey — WBES) cho Trung Quốc (2012, N = 2.610; 2024, N = 1.934; gộp N = 4.544; mẫu đủ quan sát sau xóa danh sách theo biến kiểm soát) được dùng để ước lượng các mô hình bậc hai với tương tác xuyên đợt và tương tác năng lực; kiểm định z của Paternoster (1998) và kiểm định F đồng thời đánh giá tính ổn định theo thời gian.
 
@@ -33,7 +33,7 @@
 
 **Từ khóa:** quốc tế hóa–hiệu quả; cường độ quốc tế hóa; ổn định ngưỡng; năng lực công nghệ; áp dụng số; doanh nghiệp tư nhân Trung Quốc; Khảo sát Doanh nghiệp Ngân hàng Thế giới.
 
-**Phân loại JEL:** F23 (công ty đa quốc gia; kinh doanh quốc tế); O33 (thay đổi công nghệ: lựa chọn và hậu quả); D22 (hành vi doanh nghiệp: phân tích thực nghiệm); L25 (hiệu quả doanh nghiệp); O53 (nghiên cứu quốc gia toàn nền kinh tế: châu Á bao gồm Trung Đông).
+**Phân loại JEL:** F23 (công ty đa quốc gia; kinh doanh quốc tế); O33 (thay đổi công nghệ: lựa chọn và hậu quả); D22 (hành vi doanh nghiệp: phân tích thực nghiệm); L25 (hiệu quả hoạt động kinh doanh); O53 (nghiên cứu quốc gia toàn nền kinh tế: châu Á bao gồm Trung Đông).
 
 **Loại bài:** Bài báo nghiên cứu.
 
@@ -55,7 +55,7 @@
 
 ## 1. Giới thiệu
 
-Mối quan hệ giữa quốc tế hóa và hiệu quả doanh nghiệp (I–P) là mối quan tâm trọng tâm của nghiên cứu kinh doanh quốc tế trong ba thập kỷ qua (Hitt, Hoskisson và Kim, 1997; Lu và Beamish, 2004; Bausch và Krist, 2007). Các meta-phân tích ghi nhận dạng hình chữ U ngược là xu hướng trung tâm (Schwens et al., 2018; Marano et al., 2016), trong khi một dòng nghiên cứu song song nhấn mạnh bối cảnh thể chế (Kirca et al., 2012), năng lực động (Teece, 2007) và chuyển đổi số (Nambisan, Wright và Feldman, 2019; Vial, 2019) là các điều kiện điều tiết. Tuy nhiên, hầu hết các nghiên cứu dựa trên mẫu đa quốc gia, dùng tỷ lệ xuất khẩu trên doanh thu gộp làm thước đo quốc tế hóa và thu thập dữ liệu hiệu quả tại một thời điểm mặt cắt ngang đơn lẻ (Shaver, 2020). Hai câu hỏi còn ít được khám phá là: (a) liệu dạng hình chữ U ngược có ổn định theo thời gian trong một bối cảnh thể chế nhất định không; và (b) liệu năng lực công nghệ của nền kinh tế mới nổi có tái định hình độ cong đó không.
+Mối quan hệ giữa quốc tế hóa và hiệu quả hoạt động kinh doanh (I–P) là mối quan tâm trọng tâm của nghiên cứu kinh doanh quốc tế trong ba thập kỷ qua (Hitt, Hoskisson và Kim, 1997; Lu và Beamish, 2004; Bausch và Krist, 2007). Các meta-phân tích ghi nhận dạng hình chữ U ngược là xu hướng trung tâm (Schwens et al., 2018; Marano et al., 2016), trong khi một dòng nghiên cứu song song nhấn mạnh bối cảnh thể chế (Kirca et al., 2012), năng lực động (Teece, 2007) và chuyển đổi số (Nambisan, Wright và Feldman, 2019; Vial, 2019) là các điều kiện điều tiết. Tuy nhiên, hầu hết các nghiên cứu dựa trên mẫu đa quốc gia, dùng tỷ lệ xuất khẩu trên doanh thu gộp làm thước đo quốc tế hóa và thu thập dữ liệu hiệu quả tại một thời điểm mặt cắt ngang đơn lẻ (Shaver, 2020). Hai câu hỏi còn ít được khám phá là: (a) liệu dạng hình chữ U ngược có ổn định theo thời gian trong một bối cảnh thể chế nhất định không; và (b) liệu năng lực công nghệ của nền kinh tế mới nổi có tái định hình độ cong đó không.
 
 Trung Quốc cung cấp một bối cảnh đặc biệt thuận lợi. WBES đã thực hiện cùng một công cụ khảo sát cốt lõi vào năm 2012 và 2024, tạo ra dữ liệu vi mô có thể so sánh như panel bao phủ một thập kỷ thay đổi cấu trúc — nâng cấp chế tạo, tái định hướng xuất khẩu theo sáng kiến Vành đai và Con đường, lan tỏa nền tảng số và cú sốc COVID-19. Sử dụng hai đợt khảo sát này, nghiên cứu giải quyết hai câu hỏi nghiên cứu:
 
@@ -75,7 +75,7 @@ Phần còn lại của bài báo được tổ chức như sau. Mục 2 phát t
 
 Lý luận lý thuyết chủ đạo cho hình chữ U ngược dựa trên lợi tức giảm dần của quốc tế hóa: tiếp xúc xuất khẩu ban đầu tạo ra lợi ích học hỏi, quy mô và đa dạng hóa (Johanson và Vahlne, 1977; Helpman, Melitz và Yeaple, 2004), nhưng vượt qua ngưỡng, chi phí phối hợp, tính phức tạp quản trị và phân tán nguồn lực làm xói mòn hiệu quả ròng (Hitt et al., 1997; Lu và Beamish, 2004; Pierce và Aguinis, 2013). Đối với doanh nghiệp tư nhân Trung Quốc, cường độ quốc tế hóa lên đến khoảng 40–60% gắn với các hiệu ứng học hỏi qua xuất khẩu (Wagner, 2007), trong khi các tỷ lệ cao hơn phơi bày doanh nghiệp trước rủi ro tỷ giá, ràng buộc tín dụng (Manova, 2013; Niepmann và Schmidt-Eisenlohr, 2017) và phụ thuộc vào chuỗi giá trị toàn cầu (Kano, Tsang và Yeung, 2020). Nhất quán với logic này:
 
-> **H1:** Trong bối cảnh doanh nghiệp tư nhân Trung Quốc, khi cường độ quốc tế hóa tăng từ mức không, hiệu quả doanh nghiệp (năng suất lao động log) trước tiên tăng rồi sau đó giảm — vì tiếp xúc xuất khẩu sớm tạo ra lợi ích học hỏi, quy mô và đa dạng hóa (Johanson và Vahlne, 1977; Wagner, 2007), trong khi vượt qua ngưỡng, chi phí phối hợp và phân tán nguồn lực xói mòn lợi tức ròng (Hitt et al., 1997; Pierce và Aguinis, 2013) — sao cho mối quan hệ FSTS–lnLP tuân theo dạng hình chữ U ngược (bậc hai) trước khi cường độ quốc tế hóa vượt qua điểm tối ưu chi phí-lợi ích.
+> **H1:** Trong bối cảnh doanh nghiệp tư nhân Trung Quốc, khi cường độ quốc tế hóa tăng từ mức không, hiệu quả hoạt động kinh doanh (năng suất lao động log) trước tiên tăng rồi sau đó giảm — vì tiếp xúc xuất khẩu sớm tạo ra lợi ích học hỏi, quy mô và đa dạng hóa (Johanson và Vahlne, 1977; Wagner, 2007), trong khi vượt qua ngưỡng, chi phí phối hợp và phân tán nguồn lực xói mòn lợi tức ròng (Hitt et al., 1997; Pierce và Aguinis, 2013) — sao cho mối quan hệ FSTS–lnLP tuân theo dạng hình chữ U ngược (bậc hai) trước khi cường độ quốc tế hóa vượt qua điểm tối ưu chi phí-lợi ích.
 
 ### 2.2 Ổn định theo thời gian của độ cong I–P
 
