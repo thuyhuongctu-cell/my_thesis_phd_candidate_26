@@ -251,7 +251,7 @@ Phương pháp ước lượng chính: OLS với HC1 robust standard errors (Lon
 
 ##### Năm dạng hàm của quan hệ I–P
 
-Các nghiên cứu IB đã ghi nhận không dưới năm dạng hàm khác nhau trong quan hệ giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp. Sự đa dạng này không phải ngẫu nhiên mà phản ánh tính phụ thuộc ngữ cảnh của hiệu ứng quốc tế hóa.
+Các nghiên cứu IB không hội tụ về một dạng hàm duy nhất cho quan hệ I–P mà ghi nhận ít nhất năm dạng riêng biệt. Chính sự tồn tại song song của năm dạng này, chứ không phải bản thân từng dạng, mới là dữ kiện cần được giải thích: chúng phản ánh việc hiệu ứng quốc tế hóa thay đổi theo bối cảnh năng lực, thể chế, và giai đoạn số hóa.
 
 Dạng hàm thứ nhất, tuyến tính. Các nghiên cứu sớm như Hsu và Boggs (2003) và Geringer và cộng sự (1989) tìm thấy mối quan hệ tuyến tính dương: hiệu quả tăng đơn điệu theo mức độ quốc tế hóa. Logic nền tảng là lợi ích quy mô, đa dạng hóa doanh thu, và tiếp cận thị trường lớn hơn. Đây là kết quả đặc thù của các mẫu với FSTS thấp hoặc phân tán hẹp.
 
@@ -277,7 +277,7 @@ Bảng 2.2. Năm dạng hàm I–P, cơ chế, và bối cảnh xuất hiện.
 
 ##### Năm tổng quan định lượng lớn (1980–2024)
 
-Năm tổng quan định lượng lớn cung cấp bức tranh tổng thể về quan hệ I–P.
+Năm tổng quan định lượng quy mô lớn trải dài giai đoạn 1980–2024 hội tụ về một kết luận chung, hiệu ứng I–P dương nhưng nhỏ và dị biệt cao, song mỗi tổng quan đều để lại đúng những khoảng trống mà chuyên đề này nhắm tới.
 
 Bausch và Krist (2007) phân tích 68 nghiên cứu (1980–2005) và tìm thấy trung bình r = 0,045 (không đáng kể), nhưng với biến động cao (SD = 0,21), cho thấy các biến điều tiết quan trọng hơn hiệu ứng trung bình. Phương pháp: meta-regression với 8 biến điều tiết gồm quy mô doanh nghiệp, cường độ R&D, loại ngành, GDP quốc gia, khoảng cách văn hóa, phạm vi địa lý, và hai thước đo hiệu quả. Phát hiện chính: không tồn tại một hiệu ứng trung bình đơn nhất; các biến điều tiết thể chế và văn hóa giải thích lượng phương sai lớn hơn đáng kể so với biến điều tiết cấp doanh nghiệp. Hạn chế: thiếu đại diện châu Á (chỉ 8/68 nghiên cứu), không kiểm định phi tuyến có hệ thống.
 
