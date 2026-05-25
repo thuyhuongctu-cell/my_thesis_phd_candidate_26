@@ -85,7 +85,7 @@
 | 32 | forced internationalization penalty | gánh nặng quốc tế hóa bắt buộc | gánh nặng quốc tế hóa bắt buộc (forced internationalization penalty) | gánh nặng QTH bắt buộc |
 | 33 | leapfrog / digital leapfrog | nhảy vọt công nghệ số | nhảy vọt công nghệ số (digital leapfrog) | nhảy vọt số |
 | 34 | sub-grouping | phân nhóm con | phân nhóm con (sub-grouping) | phân nhóm con |
-| 35 | internationalization-performance (I-P) relationship | mối quan hệ quốc tế hóa-hiệu quả kinh doanh | mối quan hệ quốc tế hóa-hiệu quả kinh doanh (I-P) | mối quan hệ I-P |
+| 35 | internationalization–performance (I–P) relationship | mối quan hệ quốc tế hóa–hiệu quả | mối quan hệ quốc tế hóa–hiệu quả (internationalization–performance — I–P) | mối quan hệ I–P |
 | 35a | firm performance | hiệu quả hoạt động kinh doanh của doanh nghiệp | hiệu quả hoạt động kinh doanh của doanh nghiệp (firm performance) | Lần đầu dùng dạng đầy đủ; sau lần đầu rút gọn "hiệu quả hoạt động kinh doanh" |
 | 36 | resource diversion trap (RDT) | bẫy chuyển hướng nguồn lực | bẫy chuyển hướng nguồn lực (resource diversion trap — RDT) | bẫy RDT |
 | 37 | rentier state | nhà nước tô nhượng / kinh tế tô nhượng | nhà nước tô nhượng (rentier state) | nhà nước tô nhượng |

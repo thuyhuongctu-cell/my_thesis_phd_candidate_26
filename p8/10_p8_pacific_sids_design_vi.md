@@ -58,17 +58,17 @@ P8 áp dụng khung 4 tầng nhưng với **outcome ngược**:
 
 | Tầng | Mainland Asia (P3-P7) | Pacific SIDS (P8) |
 |---|---|---|
-| **Thể chế** | Voids selective, moderates I-P | Voids comprehensive, **disables** I-P benefits |
-| **Năng lực doanh nghiệp** | Capabilities shift inverted-U up | Capabilities raise productivity but **không moderate** I-P |
-| **Top manager** | Gender + experience moderate I-P | (Limited variation in small SIDS samples) |
+| **Thể chế** | Voids selective, moderates I–P | Voids comprehensive, **disables** I–P benefits |
+| **Năng lực doanh nghiệp** | Capabilities shift inverted-U up | Capabilities raise productivity but **không moderate** I–P |
+| **Top manager** | Gender + experience moderate I–P | (Limited variation in small SIDS samples) |
 | **Huình dyạng quan hệ** | Inverted-U / S-curve / vanishing | **Reversed slope** |
 
 ### 2.3 Theoretical contribution — boundary conditions
 
 P8 chuứng minh inverted-U paradigm cyó **structural prerequisites**, mu1edf ruộng tu1eeb "institutional moderation" (Marano et al. 2016) sang "institutional dependency":
 
-- **Marano et al. (2016)**: institutional quality **moderates** I-P relationship intensity
-- **P8 (Forced Penalty)**: institutional regime **determines** existence and **sign** of I-P relationship
+- **Marano et al. (2016)**: institutional quality **moderates** I–P relationship intensity
+- **P8 (Forced Penalty)**: institutional regime **determines** existence and **sign** of I–P relationship
 
 → Move from variation in **degree** to variation in **kind**.
 

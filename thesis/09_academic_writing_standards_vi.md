@@ -124,7 +124,7 @@ Nếu ý tưởng phức tạp cần diễn đạt dài hơn, **tách thành 2-3
 > "Dựa trên phân tích dữ liệu WBES từ 101,185 doanh nghiệp thuộc 47 nền kinh tế châu Á trong 6 đợt khảo sát từ 2009 đến 2025, nghiên cứu này phát hiện rằng mối quan hệ giữa cường độ quốc tế hóa và hiệu quả hoạt động kinh doanh không phải là tuyến tính đơn giản mà biểu hiện dưới dạng đường cong phi tuyến phức tạp với điểm ngưỡng thay đổi tùy theo nhóm thể chế, trình độ công nghệ, và mức độ số hóa của doanh nghiệp."
 
 **Sau biên tập (2 câu, mỗi câu ≤35 từ):**
-> "Phân tích dữ liệu WBES gồm 101,185 doanh nghiệp thuộc 47 nền kinh tế châu Á (2009-2025) cho thấy mối quan hệ cường độ quốc tế hóa-hiệu quả kinh doanh mang dạng phi tuyến. Điểm uốn thay đổi tùy theo nhóm thể chế, trình độ công nghệ, và mức độ số hóa của doanh nghiệp."
+> "Phân tích dữ liệu WBES gồm 101,185 doanh nghiệp thuộc 47 nền kinh tế châu Á (2009-2025) cho thấy mối quan hệ cường độ quốc tế hóa–hiệu quả mang dạng phi tuyến. Điểm uốn thay đổi tùy theo nhóm thể chế, trình độ công nghệ, và mức độ số hóa của doanh nghiệp."
 
 ---
 
@@ -212,7 +212,7 @@ Nếu ý tưởng phức tạp cần diễn đạt dài hơn, **tách thành 2-3
 | Khái niệm | Các biến thể không nhất quán | Thuật ngữ chuẩn |
 |-----------|------------------------------|------------------|
 | FSTS | "xuất khẩu", "tỷ lệ XK", "cường độ XK", "quốc tế hóa" | "cường độ quốc tế hóa (FSTS)" → sau đó "FSTS" |
-| I-P relationship | "quan hệ I-P", "quốc tế hóa-hiệu quả", "kết quả quốc tế hóa" | "mối quan hệ quốc tế hóa-hiệu quả kinh doanh (I-P)" |
+| I–P relationship | "quan hệ I–P", "quốc tế hóa–hiệu quả", "kết quả quốc tế hóa" | "mối quan hệ quốc tế hóa–hiệu quả (I–P)" |
 | DAI | "số hóa", "công nghệ số", "chuyển đổi số", "năng lực số" | "áp dụng số (DAI)" → sau đó "DAI" |
 | TCI | "công nghệ", "năng lực kỹ thuật", "khả năng công nghệ" | "năng lực công nghệ (TCI)" → sau đó "TCI" |
 | WBES data | "số liệu WBES", "dữ liệu khảo sát", "mẫu WB" | "dữ liệu WBES" |

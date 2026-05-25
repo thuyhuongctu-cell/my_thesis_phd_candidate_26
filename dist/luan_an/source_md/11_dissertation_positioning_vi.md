@@ -72,7 +72,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 |---|---|---|
 | Loại nghiên cứu | Single meta-analysis paper | **Cumulative dissertation 8 papers** |
 | Sample | 170 studies, 32 countries, 1972–2012 | 47–49 economies WBES + 113 studies meta + Pacific SIDS |
-| Theory | Home country institutions moderates I-P | **Institutional gradient + 3 prerequisites theory** |
+| Theory | Home country institutions moderates I–P | **Institutional gradient + 3 prerequisites theory** |
 | Contribution | Institutional quality moderates degree of effect | **Inverted-U is conditional, not universal** — sign reversal in extreme regimes |
 | Method | Random-effects meta-regression | **Mixed: meta-analysis + multi-country + extreme boundary case** |
 | Impact | Foundational reference | Builds on Marano, extends with Pacific SIDS test |
@@ -85,7 +85,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 |---|---|---|
 | Loại nghiên cứu | Single meta-analysis paper | Cumulative dissertation |
 | Sample | 218 effect sizes, 186 studies, EMNEs | 47–49 economies WBES + meta-analysis + SIDS |
-| Theory | Government quality moderates EMNE I-P | Multi-tier framework (4 layers + digital lens) |
+| Theory | Government quality moderates EMNE I–P | Multi-tier framework (4 layers + digital lens) |
 | Contribution | EMNE-specific moderation | **Asian-specific + extreme boundary cases** |
 | Time period | 1998–2021 | 1982–2026 (extended) |
 
@@ -98,7 +98,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Sample | 154 samples, 47,849 firms | 47–49 economy WBES |
 | Method | Meta-analytic review | Mixed methodology |
 | Time period | 1977–2009 | 1982–2026 |
-| Contribution | Context-dependent I-P | **Context-conditional** I-P (stronger claim) |
+| Contribution | Context-dependent I–P | **Context-conditional** I–P (stronger claim) |
 
 **Điểm khác biệt**: Kirca established context-dependent; NCS extended sang context-conditional với sign reversal evidence.
 
@@ -133,7 +133,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 **Điểm khác biệt**: Chen & Meng analyze China alone; NCS positions China within broader gradient.
 
-# 3. So sánh với 4 dissertations cổ điển trong I-P literature
+# 3. So sánh với 4 dissertations cổ điển trong I–P literature
 
 ## 3.1 Lu & Beamish (Japanese MNCs, multiple papers 2001–2004)
 
@@ -335,7 +335,7 @@ TÍNH MỚI:
 1. Forced Internationalization Penalty — named contribution
 2. Multi-tier framework integrated (4 layers + digital lens)
 3. TCI/DAI separation (kế thừa Bharadwaj 2013, Verhoef 2021, Coltman 2008)
-4. First WBES study Pacific SIDS in I-P literature
+4. First WBES study Pacific SIDS in I–P literature
 
 DISTINCTIVE VS. WORLD LITERATURE:
 → Marano (2016): Single meta. NCS = mixed.

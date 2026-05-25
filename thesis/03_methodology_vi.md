@@ -478,7 +478,7 @@ Exporters-only (N = 187 nhà xuất khẩu):
 
 *Ghi chú: N giảm trong M3 (1.469 → 526) do missing values của biến NLCN_z và CSS_z. Chiều β(CDDXK_c) nhất quán âm trong tất cả mô hình. Country FE hấp thụ phần lớn phương sai (R² tăng từ 0,511 lên 0,800 khi thêm country FE), phù hợp với bối cảnh heterogeneity cực cao giữa các nền kinh tế SIDS. DAI là Tier-1 proxy (website) — không phải năng lực số động.*
 
-**Đóng góp lý thuyết từ Nghiên cứu 8**: FIP là **boundary condition** của mô hình inverted-U: khi 3 điều kiện tiên quyết cấu trúc đồng thời không được đáp ứng — (1) thị trường nội địa khả thi, (2) chi phí thương mại chấp nhận được, (3) thể chế hỗ trợ trao đổi quốc tế — quan hệ I→P chuyển từ inverted-U thành đường thẳng âm đơn điệu không có điểm ngưỡng. Chuyển dịch lý thuyết từ "institutional moderation of I-P intensity" (Marano et al., 2016) sang "institutional determination of I-P sign".
+**Đóng góp lý thuyết từ Nghiên cứu 8**: FIP là **boundary condition** của mô hình inverted-U: khi 3 điều kiện tiên quyết cấu trúc đồng thời không được đáp ứng — (1) thị trường nội địa khả thi, (2) chi phí thương mại chấp nhận được, (3) thể chế hỗ trợ trao đổi quốc tế — quan hệ I→P chuyển từ inverted-U thành đường thẳng âm đơn điệu không có điểm ngưỡng. Chuyển dịch lý thuyết từ "institutional moderation of I–P intensity" (Marano et al., 2016) sang "institutional determination of I–P sign".
 
 ---
 

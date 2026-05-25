@@ -249,11 +249,11 @@ NotebookLM critique 08/05/2026 (đối chiếu hai bản thảo của tác giả
 
 CDCM hợp nhất phát hiện Singapore P3 (Mar et al., 2026) + Việt Nam P4 (Đỗ & Phan, 2026 — *APJM*) thành một khung xuyên quốc gia 3 chiều:
 
-**(a) Hình dáng đường cong I-P (Internationalization-Performance)**: Việt Nam → Inverted-U rõ nét, điểm ngưỡng (TP) ≈ 39-46% FSTS xuyên 3 wave 2009-2023; Lind-Mehlum p<0,013. Singapore → tuyến tính dương + bậc hai nhẹ, TP ≈ 82% FSTS (vùng dữ liệu thưa, 3,2% firms vượt 70% FSTS); Lind-Mehlum p=0,303 KHÔNG xác nhận.
+**(a) Hình dáng đường cong I–P (Internationalization-Performance)**: Việt Nam → Inverted-U rõ nét, điểm ngưỡng (TP) ≈ 39-46% FSTS xuyên 3 wave 2009-2023; Lind-Mehlum p<0,013. Singapore → tuyến tính dương + bậc hai nhẹ, TP ≈ 82% FSTS (vùng dữ liệu thưa, 3,2% firms vượt 70% FSTS); Lind-Mehlum p=0,303 KHÔNG xác nhận.
 
 **(b) Cơ chế DAI**: Việt Nam (Tier 1 = website only) → **stage-contingent**: mạnh 2009 → vô tác dụng 2015 → phục hồi 2023 nhưng tương tác DAI×FSTS mang dấu âm (β=-0,912, p=,043) ở mức xuất khẩu cao → Tier 1 trở thành **điểm nghẽn**. Singapore (Tier 1+2 = website + e-payment) → **conditional scaling**: tương tác DAI×FSTS² dương mạnh (β=3,119, p=,005) → Tier 1+2 trở thành **đòn bẩy** ở xuất khẩu cao.
 
-**(c) Vai trò TCI (Năng lực công nghệ)**: Việt Nam — *scarce advantage* giúp doanh nghiệp vượt rào cản quốc tế hóa (TCIz IV β=1,639, p<,001 robust 2SLS — Đỗ & Phan, 2026 — *APJM*). Singapore — *hygiene factor* nâng cao productivity floor nhưng KHÔNG điều tiết I-P curve.
+**(c) Vai trò TCI (Năng lực công nghệ)**: Việt Nam — *scarce advantage* giúp doanh nghiệp vượt rào cản quốc tế hóa (TCIz IV β=1,639, p<,001 robust 2SLS — Đỗ & Phan, 2026 — *APJM*). Singapore — *hygiene factor* nâng cao productivity floor nhưng KHÔNG điều tiết I–P curve.
 
 **Lý giải xuyên quốc gia — Institutional Transaction Costs (TCE Coase-Williamson, mở rộng Banalieva & Dhanaraj 2019)**: Ở Việt Nam, hạ tầng thương mại số yếu khiến chi phí điều phối xuyên biên giới tăng vọt ở mức xuất khẩu trung bình (TP 39-46%). Ở Singapore, hạ tầng số + logistics đã hấp thụ phần lớn chi phí này, đẩy ranh giới quá tải (overload) về vùng FSTS cực cao (~82%).
 

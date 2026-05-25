@@ -9,7 +9,7 @@
 
 **Tạp chí mục tiêu**: Tạp chí Phát triển Thế giới (World Development)
 
-**Từ khóa**: quan hệ quốc tế hóa–hiệu quả doanh nghiệp; Quốc đảo nhỏ đang phát triển; quốc tế hóa bắt buộc; khoảng trống thể chế; kinh tế Thái Bình Dương; năng suất lao động
+**Từ khóa**: quan hệ quốc tế hóa–hiệu quả; Quốc đảo nhỏ đang phát triển; quốc tế hóa bắt buộc; khoảng trống thể chế; kinh tế Thái Bình Dương; năng suất lao động
 
 ---
 
@@ -110,7 +110,7 @@ Trong bối cảnh châu Á đại lục và các bối cảnh thể chế khác
 
 Trong bối cảnh FIP, cơ chế điều tiết này có thể bị suy giảm. Nếu quan hệ I→P âm xuất phát từ các điều kiện cấu trúc (thị trường nội địa không khả thi, chi phí thương mại cực cao, khoảng trống thể chế) thay vì từ sự phức tạp tổ chức, thì các năng lực cấp doanh nghiệp giải quyết sự phức tạp tổ chức sẽ không chuyển hướng quan hệ này. Một doanh nghiệp SIDS với năng lực công nghệ vượt trội vẫn phải đối mặt với mức khuếch đại chi phí thương mại 30–210%; một doanh nghiệp SIDS có trang web vẫn phải đối mặt với sự vắng mặt của các trung gian tài chính có chức năng cho tài trợ thương mại. Cơ chế cấu trúc tạo ra FIP hoạt động ở mức độ mà các năng lực cấp doanh nghiệp không thể dễ dàng bù đắp.
 
-**Giả thuyết 2 (Giả thuyết null năng lực)**: Trong SIDS Thái Bình Dương, Chỉ số năng lực công nghệ (TCI) và Chỉ số áp dụng số (DAI) không điều tiết có ý nghĩa thống kê quan hệ quốc tế hóa–hiệu quả doanh nghiệp.
+**Giả thuyết 2 (Giả thuyết null năng lực)**: Trong SIDS Thái Bình Dương, Chỉ số năng lực công nghệ (TCI) và Chỉ số áp dụng số (DAI) không điều tiết có ý nghĩa thống kê quan hệ quốc tế hóa–hiệu quả.
 
 *Lưu ý*: H2 được phát biểu là giả thuyết với kỳ vọng null dựa trên cơ chế lý thuyết FIP, không phải là lập luận về năng lực thống kê. Cách đặt vấn đề này theo hướng dẫn phương pháp của Haans, Pieters, và He (2016) về việc đặt giả thuyết cho kết quả null vì lý do có cơ sở lý thuyết.
 
