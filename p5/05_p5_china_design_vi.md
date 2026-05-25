@@ -87,7 +87,7 @@ $\ln(LP) = \ln(\text{annual sales} / \text{permanent full-time employees})$
 
 ### 6.2 Biến độc lập
 
-- $FSTS$: tỉ lệ doanh thu xuất khẩu trên tổng doanh thu.
+- $FSTS$: tỉ lệ doanh số quốc tế trên tổng doanh số.
 - $FSTS^2$: bình phương của FSTS để kiểm định phi tuyến.
 - $Year_{2024}$: dummy = 1 nếu wave 2024, = 0 nếu wave 2012.
 

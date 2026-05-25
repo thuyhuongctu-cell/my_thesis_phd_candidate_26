@@ -249,7 +249,7 @@ NotebookLM critique 08/05/2026 (đối chiếu hai bản thảo của tác giả
 
 CDCM hợp nhất phát hiện Singapore P3 (Mar et al., 2026) + Việt Nam P4 (Đỗ & Phan, 2026 — *APJM*) thành một khung xuyên quốc gia 3 chiều:
 
-**(a) Hình dáng đường cong I-P (Internationalization-Performance)**: Việt Nam → Inverted-U rõ nét, điểm uốn (TP) ≈ 39-46% FSTS xuyên 3 wave 2009-2023; Lind-Mehlum p<0,013. Singapore → tuyến tính dương + bậc hai nhẹ, TP ≈ 82% FSTS (vùng dữ liệu thưa, 3,2% firms vượt 70% FSTS); Lind-Mehlum p=0,303 KHÔNG xác nhận.
+**(a) Hình dáng đường cong I-P (Internationalization-Performance)**: Việt Nam → Inverted-U rõ nét, điểm ngưỡng (TP) ≈ 39-46% FSTS xuyên 3 wave 2009-2023; Lind-Mehlum p<0,013. Singapore → tuyến tính dương + bậc hai nhẹ, TP ≈ 82% FSTS (vùng dữ liệu thưa, 3,2% firms vượt 70% FSTS); Lind-Mehlum p=0,303 KHÔNG xác nhận.
 
 **(b) Cơ chế DAI**: Việt Nam (Tier 1 = website only) → **stage-contingent**: mạnh 2009 → vô tác dụng 2015 → phục hồi 2023 nhưng tương tác DAI×FSTS mang dấu âm (β=-0,912, p=,043) ở mức xuất khẩu cao → Tier 1 trở thành **điểm nghẽn**. Singapore (Tier 1+2 = website + e-payment) → **conditional scaling**: tương tác DAI×FSTS² dương mạnh (β=3,119, p=,005) → Tier 1+2 trở thành **đòn bẩy** ở xuất khẩu cao.
 
@@ -261,7 +261,7 @@ CDCM hợp nhất phát hiện Singapore P3 (Mar et al., 2026) + Việt Nam P4 (
 - **Specification 1** (Tier 1-only website, full pool 2009-2025): expected hệ số DAI âm hoặc null ở Advanced phân nhóm innovation-driven do bão hòa Tier 1 (xem §1.5 contribution #3 + §4.4.5 ICT exclusion test file 15);
 - **Specification 2** (Tier 1+2 multi-component, BREADY 2018+ wave): expected positive coefficient + interaction với FSTS² dương ở Advanced — replication pattern Singapore P3;
 - **Robustness check #10** (mới): cross-validation construct boundary — chạy Spec 2 chỉ ở 41 nước có đủ Tier 1+2 data (BREADY+ wave); confirm rằng pattern Singapore-style emerges khi có composite digital adoption metric;
-- **Hạn chế minh bạch (Limitations)**: WBES không quan sát Tier 3 (ERP/CRM) và Tier 4 (AI). Đề xuất nghiên cứu tương lai sử dụng panel data đo trực tiếp các hệ thống ERP/AI để xác định ranh giới giữa "đòn bẩy" (lever) và "điểm nghẽn" (bottleneck) của số hóa theo cấp tầng và cường độ xuất khẩu.
+- **Hạn chế minh bạch (Limitations)**: WBES không quan sát Tier 3 (ERP/CRM) và Tier 4 (AI). Đề xuất nghiên cứu tương lai sử dụng panel data đo trực tiếp các hệ thống ERP/AI để xác định ranh giới giữa "đòn bẩy" (lever) và "điểm nghẽn" (bottleneck) của số hóa theo cấp tầng và cường độ quốc tế hóa.
 
 **Tham chiếu**: Verhoef et al. (2021); Bharadwaj et al. (2013); Brynjolfsson & McAfee (2014); Mar et al. (2026 — P3 Singapore manuscript, *MIR* under review); Đỗ & Phan (2026 — P4 Việt Nam — *APJM*); NotebookLM (08/05/2026, *Digital Scaling and Performance in Singapore's Global Firms*); Coase (1937); Williamson (1985); Banalieva & Dhanaraj (2019).
 

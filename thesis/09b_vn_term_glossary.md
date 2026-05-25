@@ -70,7 +70,7 @@
 | 26 | random effects (RE) | hiệu ứng ngẫu nhiên | hiệu ứng ngẫu nhiên (random effects — RE) | RE |
 | 27 | endogeneity | nội sinh | vấn đề nội sinh (endogeneity) | nội sinh |
 | 28 | instrumental variable (IV) | biến công cụ | biến công cụ (instrumental variable — IV) | biến IV / biến công cụ |
-| 29 | turning point (TP) | điểm uốn | điểm uốn (turning point — TP) | TP / điểm uốn |
+| 29 | turning point (TP) | điểm ngưỡng | điểm ngưỡng (turning point — TP) | TP / điểm ngưỡng |
 | 30 | inverted-U curve | đường cong U-ngược | đường cong U-ngược (inverted-U curve) | đường cong U-ngược |
 
 ---

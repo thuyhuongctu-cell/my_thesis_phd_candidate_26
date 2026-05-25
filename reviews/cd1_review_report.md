@@ -121,7 +121,7 @@ Grep trong 3 files: ~12 instances cần đổi.
 **Vấn đề**: Không có formal hypothesis statements với (a) predicted sign, (b) named mechanism, (c) operationalization linkage.
 
 **Hành động**: Viết đầy đủ H1-H6 với format. Ví dụ:
-> **H1 (phi tuyến)**: FSTS→log năng suất có dạng inverted-U: β₁>0 (FSTS), β₂<0 (FSTS²); dựa trên Lu & Beamish (2004) — bằng chứng §6.1: điểm uốn VN ~39–46%, TQ ~47–49%.
+> **H1 (phi tuyến)**: FSTS→log năng suất có dạng inverted-U: β₁>0 (FSTS), β₂<0 (FSTS²); dựa trên Lu & Beamish (2004) — bằng chứng §6.1: điểm ngưỡng VN ~39–46%, TQ ~47–49%.
 
 ---
 

@@ -381,7 +381,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 Phát hiện trung tâm của luận án có thể được tóm tắt trong một luận điểm ngắn gọn:
 
-> **"Không có một mức độ quốc tế hóa tối ưu duy nhất — điểm uốn phụ thuộc vào thể chế, và trong điều kiện thể chế cực yếu, quốc tế hóa có thể gây ra bất lợi hiệu quả thay vì lợi ích."**
+> **"Không có một mức độ quốc tế hóa tối ưu duy nhất — điểm ngưỡng phụ thuộc vào thể chế, và trong điều kiện thể chế cực yếu, quốc tế hóa có thể gây ra bất lợi hiệu quả thay vì lợi ích."**
 
 Bằng chứng từ 238 nghiên cứu (P6) và 84.910 doanh nghiệp tại 49 nền kinh tế châu Á và Thái Bình Dương (P7) đều chỉ đến kết luận này. Quan hệ I→P không phải là một đường cong phổ quát mà là một **họ đường cong phụ thuộc bối cảnh** (family of context-dependent curves), với turning point là hàm số **giảm dần** của chất lượng thể chế theo ICRV — thể chế mạnh hơn → turning point thấp hơn (FSTS thấp hơn để đạt đỉnh hiệu quả).
 

@@ -60,7 +60,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 ### 3.3 Đo lường biến độc lập — Quốc tế hóa
 
-**Biến chính**: Foreign Sales To Total Sales (FSTS), đo bằng tỷ lệ doanh thu xuất khẩu trên tổng doanh thu. Mô hình có cả $FSTS$, $FSTS^2$, và $FSTS^3$ để kiểm định phi tuyến S-curve / cubic.
+**Biến chính**: Foreign Sales To Total Sales (FSTS), đo bằng tỷ lệ doanh số quốc tế trên tổng doanh số. Mô hình có cả $FSTS$, $FSTS^2$, và $FSTS^3$ để kiểm định phi tuyến S-curve / cubic.
 
 **Cơ sở kế thừa**: FSTS là thước đo internationalization phổ biến nhất trong I–P literature (Sullivan, 1994; Hitt et al., 2006). Việc bổ sung $FSTS^2$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Specification cubic được Đỗ và Phan (2026 — JFAR) xác nhận có ý nghĩa thống kê ở Trung Quốc với turning point ~47,8% FSTS, làm baseline cho việc kiểm định mở rộng trong luận án.
 
@@ -166,8 +166,8 @@ Nếu $\beta_4$ hoặc $\beta_5$ có ý nghĩa, hình dạng đường quan hệ
 Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượng riêng theo từng sóng khảo sát (2009, 2015, 2023) và gộp pooled. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
-- **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu điều chỉnh trung bình trong sóng (mean-centred)
-- **CDDXK_c²_it** = FSTS_c²_it: bình phương cường độ xuất khẩu điều chỉnh
+- **CDDXK_c_it** = FSTS_c_it: cường độ quốc tế hóa điều chỉnh trung bình trong sóng (mean-centred)
+- **CDDXK_c²_it** = FSTS_c²_it: bình phương cường độ quốc tế hóa điều chỉnh
 - **NLCN_z_it** = TCI_z_it: năng lực công nghệ (chuẩn hoá z trong sóng)
 - **CSS_z_it** = DAI_z_it: chỉ số số hoá cơ sở — Tier-1 (chuẩn hoá z trong sóng)
 - **lnLD, TuoiDN, SoHuuNuocNgoai**: kiểm soát quy mô, tuổi, sở hữu
@@ -209,7 +209,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 | Ký hiệu | Biến WBES | Cách tính | Vai trò |
 |---|---|---|---|
 | lnNSLD | d2, l1 | ln(d2 / l1): ln(doanh thu PPP / lao động thường xuyên) | Biến phụ thuộc |
-| CDDXK | d3c | d3c / 100: cường độ xuất khẩu trực tiếp (0–1) | Biến độc lập |
+| CDDXK | d3c | d3c / 100: cường độ quốc tế hóa trực tiếp (0–1) | Biến độc lập |
 | CDDXK_c | d3c | CDDXK − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
 | CDDXK_c² | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
 | NLCN_z | b8, e6 | z-std trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
@@ -225,7 +225,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N = 623). Thiết kế đơn sóng, không có thành phần λ_t. Ký hiệu tiếng Việt:
 
 - **lnNSLD_i** = lnLP_i: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
-- **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
+- **CDDXK_i** = FSTS_i: cường độ quốc tế hóa trực tiếp (d3c / 100)
 - **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; CDDXK_c² là bình phương
 - **NLCN_z_i** = TCI_z_i: năng lực công nghệ — z-std của trung bình(b8₀₁, e6₀₁)
 - **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2** — z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm e-payment hai chiều (Tier-2)
@@ -255,7 +255,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 > M5 (Mô hình đầy đủ — kiểm định H3):
 > lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
 >            + β₅(CDDXK_c × CSS_z) + β₆(CDDXK_c² × CSS_z) + γ·X + δ_s + ε
-> H3: β₆ > 0 — DAI khuếch đại lợi nhuận I→P ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
+> H3: β₆ > 0 — DAI khuếch đại lợi nhuận I→P ở cường độ quốc tế hóa cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
 > Kết quả: β₆ = +3,119 (p = 0,005) trong mẫu đầy đủ; β₆ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê ≈ 16%)
 
 **Bảng định nghĩa biến — Nghiên cứu 4 (Singapore):**
@@ -280,7 +280,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: N = 1.934; pooled N = 4.544). Thiết kế đa sóng không panel (217 doanh nghiệp xuất hiện cả hai sóng tạo thành "panel core" được sử dụng cho cluster-robust SE). Ký hiệu tiếng Việt:
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (biến phụ thuộc)
-- **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
+- **CDDXK_c_it** = FSTS_c_it: cường độ quốc tế hóa centred theo trung bình sóng
 - **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện — z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn P3
 - **CSS_z_it** = DAI_core_it: chỉ số số hoá cơ bản — chỉ c22b₀₁ (Tier-1 mỏng, single-item binary)
 - **lnLD_it**, **TuoiDN_it**, **SoHuuNN_it**: biến kiểm soát
@@ -296,7 +296,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 > M2 (Bậc hai FSTS — kiểm định H1):
 > lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + γ·X_it + δ_s + λ_t + ε_it
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) — điểm uốn 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
+> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) — điểm ngưỡng 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
 > Kiểm định ổn định cấu trúc: Paternoster (1998) z-test: z(FSTS) = +0,82 (p = 0,412); z(FSTS²) = −0,61 (p = 0,545) → không bác bỏ bình đẳng hệ số giữa hai sóng
 
 > M3 (+ NLCN trực tiếp — H2 level-shift):
@@ -342,7 +342,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **49 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 84.910 (M0–M2) đến N = 29.840 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực) — biến phụ thuộc
-- **CDDXK_c_it**: cường độ xuất khẩu mean-centred — FSTS_c = (d3c/100) − mean_pool(FSTS)
+- **CDDXK_c_it**: cường độ quốc tế hóa mean-centred — FSTS_c = (d3c/100) − mean_pool(FSTS)
 - **CDDXK_c²_it**: CDDXK_c bình phương — kiểm định phi tuyến
 - **NLCN_z_it**: năng lực công nghệ z-standardised — TCI_z = z-std(b8, e6)
 - **CSS_z_it**: chỉ số số hoá z-standardised — DAI_z = z-std(website + e-pay, Tier 1+2: c22b/e1, k33)
@@ -423,7 +423,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 | Ký hiệu | Biến WBES | Cách tính | Vai trò |
 |---|---|---|---|
 | lnNSLD | d2, l1 | ln(d2/l1): ln(doanh thu PPP/lao động) | Biến phụ thuộc |
-| CDDXK | d3c | d3c/100 | Cường độ xuất khẩu (FSTS) |
+| CDDXK | d3c | d3c/100 | Cường độ quốc tế hóa (FSTS) |
 | CDDXK_c | d3c | CDDXK − trung bình_wave(CDDXK): trung tâm hóa | Biến độc lập chính |
 | NLCN_z | b8, e6 | z-std(mean(b8, e6)): chứng nhận + công nghệ nước ngoài | Năng lực công nghệ (TCI) |
 | CSS_z | c22b | z-std(c22b): website (Tier-1 proxy, static) | Chỉ số số hoá (DAI, Tier-1) |
@@ -440,11 +440,11 @@ lnNSLD_it = α + γ₁ lnLD_it + γ₂ TuoiDN_it + γ₃ SoHuuNN_it + δ_c + λ_
 
 M1 (Tuyến tính — kiểm định H1 FIP):
 lnNSLD_it = α + β₁ CDDXK_c_it + γ·X_it + δ_c + λ_t + ε_it
-→ **H1 FIP: β₁ < 0, không có điểm uốn** [β₁ = −0,404, SE = 0,188, p = .032*]
+→ **H1 FIP: β₁ < 0, không có điểm ngưỡng** [β₁ = −0,404, SE = 0,188, p = .032*]
 
 M2 (Phi tuyến — kiểm định hình dạng đường cong):
 lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + γ·X_it + δ_c + λ_t + ε_it
-→ β₁ và β₂ đều không có ý nghĩa thống kê → xác nhận quan hệ âm đơn điệu, không có điểm uốn
+→ β₁ và β₂ đều không có ý nghĩa thống kê → xác nhận quan hệ âm đơn điệu, không có điểm ngưỡng
 
 M3 (+ Năng lực — kiểm định H2 null):
 lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + β₃ NLCN_z_it + β₄ CSS_z_it + γ·X_it + δ_c + λ_t + ε_it
@@ -466,19 +466,19 @@ Exporters-only (N = 187 nhà xuất khẩu):
 
 **Kết quả chính**:
 
-**Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)** được xác nhận: quan hệ âm đơn điệu giữa cường độ xuất khẩu và năng suất lao động tại 9 nền kinh tế Pacific SIDS, không có điểm uốn trong phạm vi dữ liệu quan sát (CDDXK trung bình = 0,060).
+**Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)** được xác nhận: quan hệ âm đơn điệu giữa cường độ quốc tế hóa và năng suất lao động tại 9 nền kinh tế Pacific SIDS, không có điểm ngưỡng trong phạm vi dữ liệu quan sát (CDDXK trung bình = 0,060).
 
 | Mô hình | N | β(CDDXK_c) | SE | p | Kết luận |
 |---|---|---|---|---|---|
 | M1 (country+year FE) | 1.469 | −0,404 | 0,188 | .032* | **FIP xác nhận** |
-| M2 (phi tuyến) | 1.469 | n.s. | — | .265 | Không có điểm uốn |
+| M2 (phi tuyến) | 1.469 | n.s. | — | .265 | Không có điểm ngưỡng |
 | M3 (+ năng lực, N giảm) | 526 | −0,974 | 0,850 | .252 | FIP giữ chiều âm |
 | M_yearFE | 1.469 | −1,236 | 0,269 | <.001*** | Vững |
 | Exporters-only | 187 | −0,901 | 0,398 | .027* | Vững |
 
 *Ghi chú: N giảm trong M3 (1.469 → 526) do missing values của biến NLCN_z và CSS_z. Chiều β(CDDXK_c) nhất quán âm trong tất cả mô hình. Country FE hấp thụ phần lớn phương sai (R² tăng từ 0,511 lên 0,800 khi thêm country FE), phù hợp với bối cảnh heterogeneity cực cao giữa các nền kinh tế SIDS. DAI là Tier-1 proxy (website) — không phải năng lực số động.*
 
-**Đóng góp lý thuyết từ Nghiên cứu 8**: FIP là **boundary condition** của mô hình inverted-U: khi 3 điều kiện tiên quyết cấu trúc đồng thời không được đáp ứng — (1) thị trường nội địa khả thi, (2) chi phí thương mại chấp nhận được, (3) thể chế hỗ trợ trao đổi quốc tế — quan hệ I→P chuyển từ inverted-U thành đường thẳng âm đơn điệu không có điểm uốn. Chuyển dịch lý thuyết từ "institutional moderation of I-P intensity" (Marano et al., 2016) sang "institutional determination of I-P sign".
+**Đóng góp lý thuyết từ Nghiên cứu 8**: FIP là **boundary condition** của mô hình inverted-U: khi 3 điều kiện tiên quyết cấu trúc đồng thời không được đáp ứng — (1) thị trường nội địa khả thi, (2) chi phí thương mại chấp nhận được, (3) thể chế hỗ trợ trao đổi quốc tế — quan hệ I→P chuyển từ inverted-U thành đường thẳng âm đơn điệu không có điểm ngưỡng. Chuyển dịch lý thuyết từ "institutional moderation of I-P intensity" (Marano et al., 2016) sang "institutional determination of I-P sign".
 
 ---
 

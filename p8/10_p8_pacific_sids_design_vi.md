@@ -219,7 +219,7 @@ Khi giới thiệu dissertation, nêu:
 | **Rõ ràng** | "Forced" = structural compulsion; "Penalty" = negative performance outcome — người đọc ngay lập tức hiểu chiều âm | ✅ Đạt |
 | **Ngắn gọn** | 3 từ (không kể FIP) — trong phạm vi 2–5 từ lý tưởng | ✅ Đạt |
 | **Phân biệt** | "Forced" phân biệt với voluntary internationalization; "Penalty" phân biệt với generic "costs" | ✅ Đạt |
-| **Độ chính xác** | "Forced" = không thể không xuất khẩu (thị trường nội địa quá nhỏ); "Penalty" = tác động âm trên hiệu quả, không phải điểm uốn | ✅ Đạt |
+| **Độ chính xác** | "Forced" = không thể không xuất khẩu (thị trường nội địa quá nhỏ); "Penalty" = tác động âm trên hiệu quả, không phải điểm ngưỡng | ✅ Đạt |
 | **Dễ nhớ** | FIP là viết tắt 3 chữ rõ ràng, không gây nhầm lẫn | ✅ Đạt |
 | **Tìm kiếm** | "Forced Internationalization Penalty" chưa được sử dụng trong IB literature trước P8 | ✅ Đạt |
 

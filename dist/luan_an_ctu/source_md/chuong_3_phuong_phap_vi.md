@@ -63,7 +63,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 ### 3.3.3 Đo lường biến độc lập — Quốc tế hóa
 
-**Biến chính**: Foreign Sales To Total Sales (FSTS), đo bằng tỷ lệ doanh thu xuất khẩu trên tổng doanh thu. Mô hình có cả $FSTS$, $FSTS^2$, và $FSTS^3$ để kiểm định phi tuyến S-curve / cubic.
+**Biến chính**: Foreign Sales To Total Sales (FSTS), đo bằng tỷ lệ doanh số quốc tế trên tổng doanh số. Mô hình có cả $FSTS$, $FSTS^2$, và $FSTS^3$ để kiểm định phi tuyến S-curve / cubic.
 
 **Cơ sở kế thừa**: FSTS là thước đo internationalization phổ biến nhất trong I–P literature (Sullivan, 1994; Hitt et al., 2006). Việc bổ sung $FSTS^2$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Specification cubic được Do và Phan (2026g) xác nhận có ý nghĩa thống kê ở Trung Quốc với turning point ~47,8% FSTS, làm baseline cho việc kiểm định mở rộng trong luận án.
 
@@ -169,8 +169,8 @@ Nếu $\beta_4$ hoặc $\beta_5$ có ý nghĩa, hình dạng đường quan hệ
 Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượng riêng theo từng sóng khảo sát (2009, 2015, 2023) và gộp pooled. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
-- **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu điều chỉnh trung bình trong sóng (mean-centred)
-- **CDDXK_c²_it** = FSTS_c²_it: bình phương cường độ xuất khẩu điều chỉnh
+- **CDDXK_c_it** = FSTS_c_it: cường độ quốc tế hóa điều chỉnh trung bình trong sóng (mean-centred)
+- **CDDXK_c²_it** = FSTS_c²_it: bình phương cường độ quốc tế hóa điều chỉnh
 - **NLCN_z_it** = TCI_z_it: năng lực công nghệ (chuẩn hoá z trong sóng)
 - **CSS_z_it** = DAI_z_it: chỉ số số hoá cơ sở — Tier-1 (chuẩn hoá z trong sóng)
 - **lnLD, TuoiDN, SoHuuNuocNgoai**: kiểm soát quy mô, tuổi, sở hữu
@@ -212,7 +212,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 | Ký hiệu | Biến WBES | Cách tính | Vai trò |
 |---|---|---|---|
 | lnNSLD | d2, l1 | ln(d2 / l1): ln(doanh thu PPP / lao động thường xuyên) | Biến phụ thuộc |
-| CDDXK | d3c | d3c / 100: cường độ xuất khẩu trực tiếp (0–1) | Biến độc lập |
+| CDDXK | d3c | d3c / 100: cường độ quốc tế hóa trực tiếp (0–1) | Biến độc lập |
 | CDDXK_c | d3c | CDDXK − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
 | CDDXK_c² | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
 | NLCN_z | b8, e6 | z-std trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
@@ -228,7 +228,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N = 623). Thiết kế đơn sóng, không có thành phần λ_t. Ký hiệu tiếng Việt:
 
 - **lnNSLD_i** = lnLP_i: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
-- **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
+- **CDDXK_i** = FSTS_i: cường độ quốc tế hóa trực tiếp (d3c / 100)
 - **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; CDDXK_c² là bình phương
 - **NLCN_z_i** = TCI_z_i: năng lực công nghệ — z-std của trung bình(b8₀₁, e6₀₁)
 - **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2** — z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm e-payment hai chiều (Tier-2)
@@ -258,7 +258,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 > M5 (Mô hình đầy đủ — kiểm định H3):
 > lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
 >            + β₅(CDDXK_c × CSS_z) + β₆(CDDXK_c² × CSS_z) + γ·X + δ_s + ε
-> H3: β₆ > 0 — DAI khuếch đại lợi nhuận I→P ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
+> H3: β₆ > 0 — DAI khuếch đại lợi nhuận I→P ở cường độ quốc tế hóa cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
 > Kết quả: β₆ = +3,119 (p = 0,005) trong mẫu đầy đủ; β₆ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê ≈ 16%)
 
 **Bảng định nghĩa biến — Nghiên cứu 4 (Singapore):**
@@ -283,7 +283,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: N = 1.934; pooled N = 4.544). Thiết kế đa sóng không panel (217 doanh nghiệp xuất hiện cả hai sóng tạo thành "panel core" được sử dụng cho cluster-robust SE). Ký hiệu tiếng Việt:
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (biến phụ thuộc)
-- **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
+- **CDDXK_c_it** = FSTS_c_it: cường độ quốc tế hóa centred theo trung bình sóng
 - **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện — z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn P3
 - **CSS_z_it** = DAI_core_it: chỉ số số hoá cơ bản — chỉ c22b₀₁ (Tier-1 mỏng, single-item binary)
 - **lnLD_it**, **TuoiDN_it**, **SoHuuNN_it**: biến kiểm soát
@@ -299,7 +299,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 > M2 (Bậc hai FSTS — kiểm định H1):
 > lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + γ·X_it + δ_s + λ_t + ε_it
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) — điểm uốn 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
+> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) — điểm ngưỡng 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
 > Kiểm định ổn định cấu trúc: Paternoster (1998) z-test: z(FSTS) = +0,82 (p = 0,412); z(FSTS²) = −0,61 (p = 0,545) → không bác bỏ bình đẳng hệ số giữa hai sóng
 
 > M3 (+ NLCN trực tiếp — H2 level-shift):
@@ -345,7 +345,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **49 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 84.910 (M0–M2) đến N = 29.840 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực) — biến phụ thuộc
-- **CDDXK_c_it**: cường độ xuất khẩu mean-centred — FSTS_c = (d3c/100) − mean_pool(FSTS)
+- **CDDXK_c_it**: cường độ quốc tế hóa mean-centred — FSTS_c = (d3c/100) − mean_pool(FSTS)
 - **CDDXK_c²_it**: CDDXK_c bình phương — kiểm định phi tuyến
 - **NLCN_z_it**: năng lực công nghệ z-standardised — TCI_z = z-std(b8, e6)
 - **CSS_z_it**: chỉ số số hoá z-standardised — DAI_z = z-std(website + e-pay, Tier 1+2: c22b/e1, k33)
@@ -430,7 +430,7 @@ Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced 
 | Ký hiệu | Tên tiếng Việt | Mã WBES | Cách tính |
 |---------|----------------|---------|-----------|
 | lnNSLD | Log năng suất lao động | d2, l1 | ln(doanh thu PPP / lao động thường trực) |
-| CDDXK_c | Cường độ xuất khẩu (điều chỉnh) | d3c | (d3c/100) − mean_wave(FSTS): centred theo sóng |
+| CDDXK_c | Cường độ quốc tế hóa (điều chỉnh) | d3c | (d3c/100) − mean_wave(FSTS): centred theo sóng |
 | CDDXK_c² | CDDXK_c bình phương | d3c | CDDXK_c × CDDXK_c |
 | NLCN_z | Năng lực công nghệ | b8, e6 | z-std(trung bình cert chất lượng + CN nước ngoài) |
 | CSS_z | Chỉ số số hoá (Tier-1) | c22b | z-std(website binary): **chỉ Tier-1, không dynamic** |
@@ -448,7 +448,7 @@ M0 — Baseline kiểm soát:
 
 $$lnNSLD_{it} = \alpha + \gamma_1 lnLD_{it} + \gamma_2 TuoiDN_{it} + \gamma_3 SoHuuNN_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
-M1 — Kiểm định FIP (H1b): thêm cường độ xuất khẩu tuyến tính
+M1 — Kiểm định FIP (H1b): thêm cường độ quốc tế hóa tuyến tính
 
 $$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 

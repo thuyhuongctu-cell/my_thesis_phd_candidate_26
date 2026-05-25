@@ -10,7 +10,7 @@
 
 ### 5.1 Singapore (Advanced đổi mới sáng tạo dẫn dắt — innovation-driven, n=623, đợt 2023)
 
-FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất (sd log) 1,03. **Biên trên (upper boundary)** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo bài báo P3 (Singapore — MIR): mô hình M8 cho R² hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119; điểm uốn (turning point) ở mức ~85%.
+FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất (sd log) 1,03. **Biên trên (upper boundary)** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo bài báo P3 (Singapore — MIR): mô hình M8 cho R² hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119; điểm ngưỡng (turning point) ở mức ~85%.
 
 ### 5.2 Saudi Arabia, Qatar và Kuwait (Advanced tài nguyên dẫn dắt — resource-driven, n=1.632, 3 đợt năm 2025)
 
@@ -43,19 +43,19 @@ FSTS 23,2% → 17,9% → 16,1% (suy giảm); doanh nghiệp xuất khẩu 37,1% 
 
 ### 5.4 Trung Quốc (n=4.889)
 
-FSTS 10,9% → 8,8%; FDI ≥10% chiếm 6,0%. Quan hệ FSTS – năng suất là đường cong bậc hai (inverted-U) với điểm uốn 49,4% (2012) / 47,2% (2024) — bền vững theo kiểm định Paternoster (Đỗ & Phan, 2026 — *IJOEM*). **Cập nhật v3.1c**: Wang, Huang và Hong (2024 — *IRFA*) phân tích 80% bank risk models ở PRC phụ thuộc dominant tech providers — **concentration risk** trong digital ecosystem PRC.
+FSTS 10,9% → 8,8%; FDI ≥10% chiếm 6,0%. Quan hệ FSTS – năng suất là đường cong bậc hai (inverted-U) với điểm ngưỡng 49,4% (2012) / 47,2% (2024) — bền vững theo kiểm định Paternoster (Đỗ & Phan, 2026 — *IJOEM*). **Cập nhật v3.1c**: Wang, Huang và Hong (2024 — *IRFA*) phân tích 80% bank risk models ở PRC phụ thuộc dominant tech providers — **concentration risk** trong digital ecosystem PRC.
 
-**Khung Zombie firms PRC — lý giải bổ sung cho điểm uốn bậc hai (inverted-U) ~49%**: Theo NotebookLM (07/05/2026 *Tariff Mỹ + Vietnam Macro Deep + Zombie Firms*) và văn liệu Caballero, Hoshi và Kashyap (2008 — *American Economic Review*), khái niệm **"doanh nghiệp xác sống" (zombie firms)** chỉ những doanh nghiệp tồn tại nhờ tín dụng ưu đãi hoặc trợ cấp ngầm, không tạo lợi nhuận thực + không khấu hao bình thường. Trong bối cảnh PRC sau 2015 (chiến dịch khử rủi ro tài chính + supply-side structural reform), tỷ lệ zombie firms ở các SOE + ngành thừa năng lực sản xuất (steel, coal, real estate, shipbuilding) vẫn cao bất chấp các đợt thắt chặt.
+**Khung Zombie firms PRC — lý giải bổ sung cho điểm ngưỡng bậc hai (inverted-U) ~49%**: Theo NotebookLM (07/05/2026 *Tariff Mỹ + Vietnam Macro Deep + Zombie Firms*) và văn liệu Caballero, Hoshi và Kashyap (2008 — *American Economic Review*), khái niệm **"doanh nghiệp xác sống" (zombie firms)** chỉ những doanh nghiệp tồn tại nhờ tín dụng ưu đãi hoặc trợ cấp ngầm, không tạo lợi nhuận thực + không khấu hao bình thường. Trong bối cảnh PRC sau 2015 (chiến dịch khử rủi ro tài chính + supply-side structural reform), tỷ lệ zombie firms ở các SOE + ngành thừa năng lực sản xuất (steel, coal, real estate, shipbuilding) vẫn cao bất chấp các đợt thắt chặt.
 
 **Ba cơ chế zombie firms làm méo TFP tổng thể PRC**:
 
-(i) **Chậm đào thải** (slow exit): Doanh nghiệp xác sống không phá sản → vẫn chiếm dụng vốn vay ngân hàng + đất đai + lao động — kéo dài chu kỳ phân bổ sai nguồn lực (Hsieh & Klenow, 2009 channel). Trong WBES PRC pool, một số firms zombie có FSTS cao (cố xuất khẩu để duy trì doanh thu) nhưng năng suất thực thấp → góp phần kéo điểm uốn bậc hai về phía ~49%.
+(i) **Chậm đào thải** (slow exit): Doanh nghiệp xác sống không phá sản → vẫn chiếm dụng vốn vay ngân hàng + đất đai + lao động — kéo dài chu kỳ phân bổ sai nguồn lực (Hsieh & Klenow, 2009 channel). Trong WBES PRC pool, một số firms zombie có FSTS cao (cố xuất khẩu để duy trì doanh thu) nhưng năng suất thực thấp → góp phần kéo điểm ngưỡng bậc hai về phía ~49%.
 
 (ii) **Cản trở entry** (entry barrier): SME mới không thể chiếm thị phần vì zombie firms vẫn occupy thị trường nội địa với giá dumping. Liên kết §5.5 Emerging Asia: Việt Nam + Indonesia + India tránh được zombie effect nhờ market discipline mạnh hơn → entry rate cao + creative destruction (Schumpeter, 1942) hoạt động tốt hơn.
 
 (iii) **Concentration risk + zombie hybrid**: Wang/Huang/Hong (2024) finding (80% bank risk models PRC dependent on dominant tech providers) **kết hợp** với zombie firms structure tạo ra rủi ro hệ thống — nếu fintech provider lock-in fails + zombie firms massively default đồng thời → systemic banking crisis. Đây là rủi ro mới cho China-exposed Vietnamese exporters.
 
-**Hàm ý cho CĐ2**: bổ sung **biến `Zombie_Firm_Indicator_PRC`** (proxy: firms với ROA <0 trong 3 năm liên tiếp + tăng nợ vay) để test xem điểm uốn bậc hai ~49% có shifted khi loại zombie firms khỏi PRC subsample. Robustness check #7 (zombie-excluded re-estimation) — bổ sung sau Manufacturing-only / ICT-excluded / Tourism-separated SIDS / Construction-tested Gulf / Mining-excluded resource / Sector composition adjustment.
+**Hàm ý cho CĐ2**: bổ sung **biến `Zombie_Firm_Indicator_PRC`** (proxy: firms với ROA <0 trong 3 năm liên tiếp + tăng nợ vay) để test xem điểm ngưỡng bậc hai ~49% có shifted khi loại zombie firms khỏi PRC subsample. Robustness check #7 (zombie-excluded re-estimation) — bổ sung sau Manufacturing-only / ICT-excluded / Tourism-separated SIDS / Construction-tested Gulf / Mining-excluded resource / Sector composition adjustment.
 
 ### 5.5 Tổng hợp Emerging Asia (n=42.278) — bổ sung India case (v3.2)
 
@@ -119,12 +119,12 @@ PICs có 4 trụ cột MIRAB (Bertram, 2006): (1) khu vực công chủ đạo (
 
 | Chiều | **Việt Nam (Emerging, n=2.958, 3 wave)** | **Singapore (Advanced innovation, n=623, 1 wave)** |
 |---|---|---|
-| **Hình dáng I-P curve** | **Inverted-U rõ nét** — điểm uốn (TP) ≈ 39-46% FSTS xuyên 3 wave 2009-2023; Lind-Mehlum p<0,013 | **Tuyến tính dương + bậc hai nhẹ** — TP ≈ 82% FSTS (vùng dữ liệu thưa, 3,2% firms vượt 70% FSTS); Lind-Mehlum p=0,303 KHÔNG xác nhận |
+| **Hình dáng I-P curve** | **Inverted-U rõ nét** — điểm ngưỡng (TP) ≈ 39-46% FSTS xuyên 3 wave 2009-2023; Lind-Mehlum p<0,013 | **Tuyến tính dương + bậc hai nhẹ** — TP ≈ 82% FSTS (vùng dữ liệu thưa, 3,2% firms vượt 70% FSTS); Lind-Mehlum p=0,303 KHÔNG xác nhận |
 | **Cơ chế DAI** | **Stage-contingent** (Tier 1 = website only): mạnh 2009 → null 2015 → âm 2023 (β=-0,912, p=,043) ở DAI×FSTS → **điểm nghẽn ở xuất khẩu cao** | **Conditional scaling** (Tier 1+2 = website + e-payment): DAI×FSTS² β=3,119 p=,005 dương mạnh → **đòn bẩy ở xuất khẩu cao** |
 | **2SLS DAI robustness** | β co về 0,02, p=,94 → **không xác lập nhân quả** (Đỗ & Phan, 2026 — *APJM*) | (chưa kiểm định IV) |
 | **Vai trò TCI** | **Scarce advantage** — TCIz IV β=1,639 p<,001 robust 2SLS; điều tiết làm phẳng I-P curve (3/4 mô hình significant) | **Hygiene factor** — direct β=0,168 p<,001 nhưng KHÔNG điều tiết I-P curve significantly |
 
-**Lý giải Institutional Transaction Costs (TCE)**: Ở Việt Nam, hạ tầng thương mại số yếu (Tier 1 only) khiến chi phí điều phối xuyên biên giới (cross-border coordination cost) tăng vọt theo siêu tuyến tính (super-linearly — Brynjolfsson & McAfee, 2014) ở mức xuất khẩu trung bình → đẩy điểm uốn (TP) về vùng FSTS thấp 39-46%. Ở Singapore, hạ tầng số (Tier 1+2: website + e-payment + integrated logistics) đã hấp thụ phần lớn chi phí này → đẩy ranh giới quá tải (overload boundary) về vùng FSTS cực cao ~82%. Vì vậy **bằng chứng "đường cong U ngược nghẹt thở" của Lu & Beamish (2004) chỉ vận hành ở các nước có institutional transaction costs trung bình-cao** — nơi chi phí điều phối phi tuyến đủ tạo turnaround point trong vùng FSTS observed; ở các nước có hạ tầng số trưởng thành, U-curve được "kéo dãn" về phía cực đoan và có thể không quan sát được trong dữ liệu thực tế.
+**Lý giải Institutional Transaction Costs (TCE)**: Ở Việt Nam, hạ tầng thương mại số yếu (Tier 1 only) khiến chi phí điều phối xuyên biên giới (cross-border coordination cost) tăng vọt theo siêu tuyến tính (super-linearly — Brynjolfsson & McAfee, 2014) ở mức xuất khẩu trung bình → đẩy điểm ngưỡng (TP) về vùng FSTS thấp 39-46%. Ở Singapore, hạ tầng số (Tier 1+2: website + e-payment + integrated logistics) đã hấp thụ phần lớn chi phí này → đẩy ranh giới quá tải (overload boundary) về vùng FSTS cực cao ~82%. Vì vậy **bằng chứng "đường cong U ngược nghẹt thở" của Lu & Beamish (2004) chỉ vận hành ở các nước có institutional transaction costs trung bình-cao** — nơi chi phí điều phối phi tuyến đủ tạo turnaround point trong vùng FSTS observed; ở các nước có hạ tầng số trưởng thành, U-curve được "kéo dãn" về phía cực đoan và có thể không quan sát được trong dữ liệu thực tế.
 
 **Hàm ý cho khung CDCM (Context-Contingent Digital-and-Capability Model)**: Khung này dự đoán trong CĐ2 + luận án 5 chương: (a) **41 nước châu Á** sẽ có một continuum institutional transaction costs từ Singapore (cực thấp) → Việt Nam/Indonesia (trung bình) → Mongolia/Pakistan/Bangladesh (cao); (b) Điểm uốn TP của I-P curve sẽ correlate ngược với mức trưởng thành hạ tầng số quốc gia (đo qua DAI Tier 1+2 trung bình quốc gia); (c) Vai trò TCI sẽ chuyển từ scarce advantage (ở các nước transaction cost cao) sang hygiene factor (ở các nước transaction cost thấp) — confirm giả thuyết H7 (industry × institutional dynamism interaction) của Kafouros et al. (2023). Đây là **đóng góp lý thuyết MỚI** cho luận án — replication CDCM xuyên 41 nước châu Á.
 
