@@ -412,7 +412,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 
 | Nhóm ICRV | Tên nhóm | Quốc gia | n_firms (ước tính) |
 |---|---|---|---|
-| **I** | Advanced — innovation-driven | Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel | ~4.220 |
+| **I** | Advanced — innovation-driven | Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel | ~4.708 |
 | **II** | Advanced — resource-driven | Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei | ~1.932 |
 | **III** | Upper-middle | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia | ~16.693 |
 | **IV** | Emerging | Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ | ~47.803 |
@@ -420,7 +420,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 | **VI** | SIDS Pacific (boundary) | Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati | ~1.371 |
 | **Tổng** | | 47 nền kinh tế | **101.185** |
 
-*Ghi chú: n_firms là phân bố xấp xỉ theo pool 101.185; tổng 5 nhóm chính (I–V) = 99.814 (phạm vi chính 41 nước châu Á); SIDS Nhóm VI = 1.371 (1,4% pool).*
+*Ghi chú: n_firms là phân bố theo pool 101.185; tổng 5 nhóm chính (I–V) = 99.814 (phạm vi chính 41 nước châu Á); SIDS Nhóm VI = 1.371 (1,4% pool). Nhóm Advanced (I + II = 6.640) lấy từ pool WBES đã hài hòa hóa; tỷ lệ innovation/resource là xấp xỉ, hao hụt do thiếu dữ liệu năng suất chi tiết ở Bảng 2.3.3.1 (mẫu phân tích Advanced gộp = 5.921).*
 
 #### 2.3.2.4 Đặc điểm các nhóm ICRV
 
