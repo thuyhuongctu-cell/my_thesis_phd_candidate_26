@@ -466,11 +466,11 @@ H1-H3 và H5 là xác nhận (dấu rõ, $\geq$2 bằng chứng neo đậu từ 
 
 Cơ sở lý thuyết: Mô hình Uppsala (Johanson & Vahlne, 1977) đề xuất quốc tế hóa diễn ra theo ba giai đoạn với tốc độ và đặc điểm chi phí-lợi ích khác nhau. Contractor và cộng sự (2003) và Lu và Beamish (2004) hình thức hóa ba giai đoạn thành S-curve: giai đoạn học tập tốn kém; giai đoạn hái quả; giai đoạn quá mức. Với các doanh nghiệp vừa và nhỏ châu Á trong WBES, giai đoạn đầu ngắn, do đó dạng chữ U ngược (H1 bậc hai, M1) có thể mạnh hơn S-curve đầy đủ (H1 bậc ba, M2).
 
-Điểm uốn khác nhau theo chế độ và giảm dần theo chiều thể chế mạnh hơn: Nhóm I có **điểm uốn thấp nhất (~28%, P7 toàn mẫu)**, thể chế mạnh giúp doanh nghiệp đạt đỉnh hiệu suất ở mức FSTS thấp hơn; Nhóm III có điểm uốn trung bình (47-49%); Nhóm IV có điểm uốn trung bình-thấp (39-46%); Nhóm V có điểm uốn cao (~50-55%). Nhóm VI có pattern gánh nặng bắt buộc, không có chữ U ngược điển hình. Lưu ý: P4 Singapore (TP ~82%) là ngoại lệ đơn quốc gia với LM p = 0,303 (không có ý nghĩa), không đại diện cho mẫu Nhóm I trong P7.
+Điều mà chế độ thể chế chi phối một cách có hệ thống là **độ cong (concavity / biên độ)** của hình chữ U ngược, chứ không phải một gradient điểm uốn đơn điệu: độ cong sâu dần khi chất lượng thể chế suy giảm, làm hình phạt sau đỉnh gay gắt hơn ở các chế độ thể chế yếu và phẳng dần về gần tuyến tính ở chế độ tiên tiến (Nhóm I). Điểm uốn theo nhóm là không đồng nhất (khoảng 16–50% FSTS, cụm quanh ~40%) và không dịch chuyển đơn điệu; ở cấp đơn quốc gia, các neo đậu quan sát được gồm Nhóm III (47-49%) và Nhóm IV (39-46%), còn Nhóm VI có pattern gánh nặng bắt buộc, không có chữ U ngược điển hình. Lưu ý: P4 Singapore (TP ~82%) là ngoại lệ đơn quốc gia với LM p = 0,303 (không có ý nghĩa), không đại diện cho mẫu Nhóm I trong P7.
 
 Bằng chứng neo đậu: P3 Việt Nam (Nhóm IV): Lind-Mehlum p < 0,001 (tổng hợp), điểm uốn 39-46%. P5 Trung Quốc (Nhóm III): Lind-Mehlum xác nhận hai sóng, điểm uốn 47-49%. P4 Singapore (Nhóm I): Lind-Mehlum p = 0,303, chủ yếu dương, điểm uốn ~82% (gần trần).
 
-H1: Quan hệ giữa cường độ quốc tế hóa (FSTS) và hiệu quả doanh nghiệp (ln LP) có dạng phi tuyến, với $\beta_1$(FSTS) > 0 và $\beta_2$($\text{FSTS}^2$) < 0, phản ánh chữ U ngược ở phần lớn các chế độ ICRV. Điểm uốn **giảm** theo gradient ICRV: **thấp nhất ở Nhóm I (~28%)**, tăng dần qua Nhóm III (~47-49%), Nhóm IV (~39-46%), Nhóm V (~50-55%), với Nhóm VI có pattern gánh nặng bắt buộc (không có điểm uốn). Thể chế càng mạnh, doanh nghiệp đạt đỉnh hiệu suất xuất khẩu ở mức cường độ thấp hơn.
+H1: Quan hệ giữa cường độ quốc tế hóa (FSTS) và hiệu quả doanh nghiệp (ln LP) có dạng phi tuyến, với $\beta_1$(FSTS) > 0 và $\beta_2$($\text{FSTS}^2$) < 0, phản ánh chữ U ngược ở phần lớn các chế độ ICRV. **Độ cong (concavity / biên độ)** sâu dần theo gradient ICRV khi chất lượng thể chế suy giảm: gần tuyến tính ở Nhóm I và cong sâu hơn ở các nhóm thể chế yếu, với Nhóm VI có pattern gánh nặng bắt buộc (không có điểm uốn). Điểm uốn theo nhóm là không đồng nhất (cụm quanh ~40%) và không dịch chuyển đơn điệu; thể chế càng yếu, hình phạt sau đỉnh cho quốc tế hóa quá mức càng gay gắt.
 
 H1a (biên tham gia): Bước chuyển từ không xuất khẩu (FSTS = 0) sang xuất khẩu (FSTS > 0) tạo ra mức tăng năng suất lao động đáng kể và dương, tác động tham gia thị trường xuất khẩu là động lực chính của hiệu ứng I-P.
 
@@ -528,18 +528,18 @@ Phạm vi kiểm định: H4a-H4b là biến đại diện (proxy) cho cơ chế
 
 Cơ sở lý thuyết: Institutional Theory (North, 1990; Khanna & Palepu, 2010) cho rằng thể chế quy định chi phí giao dịch, rủi ro hợp đồng, và khả năng tiếp cận thị trường, tất cả ảnh hưởng đến hiệu quả của quốc tế hóa. Ba cơ chế độc lập giải thích tại sao thể chế tốt hơn tạo ra điểm uốn cao hơn: (A) thực thi hợp đồng, giảm chi phí đại diện trong chuỗi cung ứng quốc tế; (B) phát triển thị trường tài chính, cho phép huy động vốn cho vốn lưu động quốc tế; (C) chất lượng quy định, giảm gánh nặng tuân thủ cho doanh nghiệp xuất khẩu. Kafouros và cộng sự (2023) ước tính: 1% cải thiện trong WGI Regulatory Quality tương đương với +2-3% FSTS trong điểm uốn.
 
-Dự đoán điểm uốn theo nhóm ICRV:
+Dự đoán độ cong và điểm uốn theo nhóm ICRV (điểm uốn theo nhóm không đồng nhất, cụm quanh ~40% và không dịch chuyển đơn điệu; điều dịch chuyển có hệ thống là độ cong / biên độ):
 
-| ICRV Nhóm | Điểm uốn dự kiến | Cơ sở |
+| ICRV Nhóm | Độ cong dự kiến / neo đậu điểm uốn | Cơ sở |
 |-----------|------------------|-------|
-| Nhóm I (tiên tiến đổi mới) | **Đường cong phẳng/gần tuyến tính (P7 toàn mẫu)** | P7 pooled (N=82.302): độ cong nông nhất, gần tuyến tính ở nhóm tiên tiến (điểm uốn cụm quanh ~40%); P4 Singapore TP ~82% là ngoại lệ đơn quốc gia (LM p = 0,303, không có ý nghĩa) |
+| Nhóm I (tiên tiến đổi mới) | **Độ cong nông nhất, đường cong phẳng/gần tuyến tính (P7 toàn mẫu)** | P7 pooled (N=82.302): độ cong nông nhất, gần tuyến tính ở nhóm tiên tiến (điểm uốn cụm quanh ~40%); P4 Singapore TP ~82% là ngoại lệ đơn quốc gia (LM p = 0,303, không có ý nghĩa) |
 | Nhóm II (tiên tiến tài nguyên) | Không xác định / yếu dương | FDI/tài nguyên chiếm ưu thế |
-| Nhóm III (trung bình cao) | ~45-55% FSTS | P5 Trung Quốc TP 47-49% |
-| Nhóm IV (đang nổi) | ~35-46% FSTS | P3 Việt Nam TP 39-46% |
-| Nhóm V (cận biên) | ~20-35% FSTS | Khoảng trống thể chế dẫn đến trần thấp |
+| Nhóm III (trung bình cao) | Độ cong trung bình; neo đơn quốc gia ~45-55% FSTS | P5 Trung Quốc TP 47-49% |
+| Nhóm IV (đang nổi) | Độ cong trung bình-mạnh; neo đơn quốc gia ~35-46% FSTS | P3 Việt Nam TP 39-46% |
+| Nhóm V (cận biên) | Độ cong sâu nhất, hình phạt sau đỉnh gay gắt | Khoảng trống thể chế làm khuếch đại chi phí giao dịch sau đỉnh |
 | Nhóm VI (SIDS) | Không có TP / gánh nặng bắt buộc | Quốc tế hóa bắt buộc |
 
-H5: Hiệu ứng điều tiết của chế độ thể chế (ICRV) lên quan hệ I-P có dạng gradient: cùng một mức FSTS, doanh nghiệp ở Nhóm I đạt hiệu quả cao nhất; gradient giảm dần qua Nhóm II đến V; Nhóm VI có pattern gánh nặng bắt buộc. Điểm uốn **giảm đơn điệu** theo gradient từ Nhóm V (~50-55%) xuống Nhóm I (~28%), thể chế càng mạnh, doanh nghiệp đạt đỉnh hiệu suất ở mức FSTS **thấp hơn**, phản ánh chi phí giao dịch thấp và năng lực điều phối cao trong bối cảnh thể chế vững mạnh.
+H5: Hiệu ứng điều tiết của chế độ thể chế (ICRV) lên quan hệ I-P có dạng gradient: cùng một mức FSTS, doanh nghiệp ở Nhóm I đạt hiệu quả cao nhất; gradient giảm dần qua Nhóm II đến V; Nhóm VI có pattern gánh nặng bắt buộc. **Độ cong (concavity / biên độ)** của hình chữ U ngược sâu dần theo gradient khi chất lượng thể chế suy giảm, từ gần tuyến tính ở Nhóm I đến cong sâu ở Nhóm V; điểm uốn theo nhóm không đồng nhất (cụm quanh ~40%) và không dịch chuyển đơn điệu. Thể chế càng yếu, hình phạt sau đỉnh cho quốc tế hóa quá mức càng gay gắt, phản ánh chi phí giao dịch cao và năng lực điều phối hạn chế trong bối cảnh thể chế yếu.
 
 ##### H6, Tính không đồng nhất theo thời gian
 
@@ -663,7 +663,7 @@ Kỳ vọng: $\beta_4$(FSTS×exp_manager) > 0 [H4a]; $\beta_4$(FSTS×educ_manage
 
 Mục đích: kiểm định H5, gradient ICRV và gánh nặng bắt buộc (Nhóm VI).
 Nhóm tham chiếu: Nhóm I (tiên tiến đổi mới).
-Kỳ vọng: điểm uốn giảm dần theo j (Nhóm II đến VI); Nhóm VI có β(FSTS×ICRV_VI) $\leq$ 0.
+Kỳ vọng: độ cong (concavity / biên độ) sâu dần theo j khi chất lượng thể chế suy giảm, tức $|\beta_2|$ tăng dần (Nhóm II đến VI), trong khi điểm uốn theo nhóm không dịch chuyển đơn điệu; Nhóm VI có β(FSTS×ICRV_VI) $\leq$ 0.
 Lưu ý: Country FE bị omit trong M6 do ICRV_j là biến cấp quốc gia bất biến theo thời gian, thay bằng Year FE + Region FE (6 vùng).
 
 ##### M7, Điều tiết ba chiều tổng lực (kiểm định H2 + H3 + H6 đồng thời)
@@ -919,7 +919,7 @@ Chuyên đề này đặt nền tảng lý thuyết và thực nghiệm cho năm
 
 **Hướng 1, P6: Tổng quan định lượng ba tầng (three-level MARA, IBR under review):** Bản thảo P6 đã hoàn thành, mở rộng ICBEF 2025 baseline (Đỗ & Phan, 2024, k=113) lên **k=238** (K=288 effect sizes, 45 nền kinh tế) với hệ thống tìm kiếm PRISMA 2020 trên Web of Science + Scopus (1977-2026). Ba biến điều tiết mới: (i) cDAI, mức độ số hóa cấp quốc gia; (ii) ICRV 6 nhóm; (iii) DPL phase. Kết quả MARA xác nhận: pooled *r*=0,074 (CI [0,060; 0,088]), $I^2$=62,4%; ICRV Q_M=17,35 (p = 0,002), H1 điều tiết thể chế được hỗ trợ; cDAI và DPL không có ý nghĩa (H2, H3 không được hỗ trợ). Phát hiện chính: publication bias xác nhận qua Begg-Mazumdar τ=−0,134 (p < 0,001), trim-and-fill k=58 imputed, *r*_adj=0,035, pooled effect thực tế thấp hơn khoảng 50% so với ước lượng thô. Đóng góp của P6 trong khuôn khổ CD2: xác nhận gradient ICRV tổng thể (Q_M có ý nghĩa) nhưng không đủ k ở mỗi nhóm để xác nhận đường gradient đơn điệu E1a/E1b.
 
-**Hướng 2, P7: Kiểm định H1-H6 toàn pool 45 nền kinh tế (JIBS, under revision):** P7 đã hoàn thành, N = 82.302-98.658 doanh nghiệp, 45 nền kinh tế châu Á và Thái Bình Dương, 98 country-year waves, 6 nhóm ICRV. Kết quả xác nhận: H1 (phi tuyến) TP$\approx$36%; H2 TCI level effect β$\approx$+0.344 (p < 0,05); H3 DAI universal level effect β = +0,155 (p < 0,001) + cả hai curvature interactions; H5 ICRV gradient, TP **giảm** từ SIDS/Frontier (~55%) xuống Advanced Innovation (~28%); DAI×ICRV p = 0,049 (digital shield strongest khi thể chế yếu). P3 (Nhóm IV), P4 (Nhóm I), P5 (Nhóm III) cung cấp neo đậu cross-context đã được xác nhận bởi pooled 49-economy results.
+**Hướng 2, P7: Kiểm định H1-H6 toàn pool 45 nền kinh tế (JIBS, under revision):** P7 đã hoàn thành, N = 82.302-98.658 doanh nghiệp, 45 nền kinh tế châu Á và Thái Bình Dương, 98 country-year waves, 6 nhóm ICRV. Kết quả xác nhận: H1 (phi tuyến) TP$\approx$36%; H2 TCI level effect β$\approx$+0.344 (p < 0,05); H3 DAI universal level effect β = +0,155 (p < 0,001) + cả hai curvature interactions; H5 ICRV gradient ở dạng độ cong (concavity / biên độ): hình chữ U ngược cong sâu hơn ở SIDS/Frontier và phẳng dần về gần tuyến tính ở Advanced Innovation, điểm uốn theo nhóm không đồng nhất và không dịch chuyển đơn điệu (tương tác M10 có ý nghĩa); DAI×ICRV p = 0,049 (digital shield strongest khi thể chế yếu). P3 (Nhóm IV), P4 (Nhóm I), P5 (Nhóm III) cung cấp neo đậu cross-context đã được xác nhận bởi pooled 49-economy results.
 
 **Hướng 3, P8: SIDS Thái Bình Dương, gánh nặng bắt buộc (World Development, under revision):** P8 đã hoàn thành, N=1.469 doanh nghiệp, 9 nước SIDS (Nhóm VI ICRV: Fiji, Kiribati, PNG, Samoa, Solomon Islands, Tonga, Vanuatu + Comoros + Timor-Leste), β(FSTS_c)=−0,404* xác nhận Forced Internationalization Penalty: quan hệ âm đơn điệu không có turning point, nhất quán với giả thuyết gánh nặng bắt buộc (Briguglio, 1995; Bertram, 2006). Khoảng trống H1b trong CD2 đã được lấp đầy bởi P8.
 

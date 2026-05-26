@@ -10,7 +10,7 @@
 
 ### 5.1 Singapore (Advanced đổi mới sáng tạo dẫn dắt — innovation-driven, n=623, đợt 2023)
 
-FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất (sd log) là 1,03. Đây là **biên trên (upper boundary)** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo bài báo P3 (Singapore — MIR), mô hình M8 cho R² hiệu chỉnh bằng 0,196, tương tác FSTS² × DAI bằng 3,119, với điểm uốn (turning point) ở mức khoảng 85%.
+FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất (sd log) là 1,03. Đây là **biên trên (upper boundary)** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo bài báo P4 (Singapore — MIR), mô hình M8 cho R² hiệu chỉnh bằng 0,196, tương tác FSTS² × DAI bằng 3,119, với điểm uốn (turning point) ở mức khoảng 85%.
 
 ### 5.2 Saudi Arabia, Qatar và Kuwait (Advanced tài nguyên dẫn dắt — resource-driven, n=1.632, 3 đợt năm 2025)
 
@@ -23,7 +23,9 @@ FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5
 
 Năm phát hiện: (1) đặc trưng **nhà nước tô (rentier state)** theo Beblawi (1987), Hertog (2010), Hvidt (2013); (2) **phân bổ sai nguồn lực đảo chiều** so với Hsieh & Klenow (2009); (3) Kuwait Vision 2035 với R&D 20,7%; (4) **thiên lệch của DAI đơn thành phần**; (5) **phân nhóm con (sub-grouping) Advanced**, trong đó innovation-driven so với resource-driven là một dạng biến thể chế kiểu Varieties of Capitalism (Hall & Soskice, 2001). **Bối cảnh xung đột Trung Đông 2026**: IMF (2026, April) hạ mạnh dự báo tăng trưởng Saudi Arabia từ khoảng 4,5% xuống 3,1% do giảm sản lượng dầu; ADB (2026, April), trong báo cáo *Asian Development Outlook April 2026: The Middle East Conflict Challenges Resilience in Asia and the Pacific*, dự báo Pacific 3,4%, Đông Nam Á 4,7% và Việt Nam 7,0%, qua đó củng cố luận điểm về dị biệt giữa Advanced innovation và resource.
 
-### 5.3 Việt Nam (n=3.077, 3 đợt khảo sát) — cập nhật v3.4 với ADB Vietnam Outlook 2026
+### 5.3 Việt Nam (n=3.077, 3 đợt khảo sát) — cập nhật với ADB Vietnam Outlook 2026
+
+> **Ghi chú đối chiếu cỡ mẫu (n)**: Việt Nam có **n=3.077 doanh nghiệp** tổng cộng trong nhóm dữ liệu WBES (toàn bộ doanh nghiệp Việt Nam trong pool), trong khi **n=2.958 doanh nghiệp** là mẫu phụ đủ biến cho phân tích hồi quy (complete-case sample — sau khi loại các quan sát thiếu dữ liệu log năng suất, FSTS, TCI hoặc DAI). Chênh lệch 119 doanh nghiệp (3,9% mẫu) phản ánh dữ liệu khuyết (missing data) ở một số biến giải thích, không phải sai lệch số liệu. Các thống kê mô tả cấp quốc gia trong Mục 5.3 và Bảng 5.1 dùng n=3.077; các hệ số hồi quy và đối chiếu CDCM (Bảng 6.1.2, file 15 §4.4.5.1) dùng n=2.958.
 
 FSTS suy giảm dần qua các đợt, từ 23,2% còn 17,9% rồi 16,1%; doanh nghiệp xuất khẩu giảm từ 37,1% xuống 23,8%; ISO 17–23%; R&D 6,1% (đợt 2023). Đây là pattern **kinh tế hai tầng (two-tier economy)**, nơi doanh nghiệp FDI hướng xuất khẩu hiệu quả cao đan xen với doanh nghiệp nội địa năng suất thấp (CIEM, 2023; Tran & Pham, 2024).
 
@@ -37,15 +39,15 @@ FSTS suy giảm dần qua các đợt, từ 23,2% còn 17,9% rồi 16,1%; doanh 
 
 (iii) **Bốn trụ cột tăng trưởng**: (a) **đầu tư công** với gói 800.000 tỷ VND giải ngân ưu tiên cho hạ tầng giao thông, năng lượng sạch và chuyển đổi số chính phủ; (b) **chính sách tiền tệ nới lỏng**, khi Ngân hàng Nhà nước duy trì lãi suất tái cấp vốn thấp và mở rộng tín dụng có chọn lọc cho SME cùng manufacturing; (c) **FDI inflows** với $2,4 tỷ commitment qua 18 dự án chiến lược (fintech, năng lượng sạch, logistics, semiconductor packaging); (d) **xuất khẩu**, duy trì hơn 30% kim ngạch sang Mỹ (đối tác lớn nhất) đồng thời đa dạng hóa qua CPTPP, RCEP và ACFTA.
 
-(iv) **Năm rủi ro chính**: (a) **gián đoạn chuỗi cung ứng toàn cầu** do Trung Đông, chip shortage và vận tải biển; (b) **chính sách thuế quan Mỹ 2026**, với thuế 10% tạm thời và nguy cơ tăng lên 15% (xem Lớp 7 ở Mục 1.1 file 14 v3.11); (c) **thanh khoản nội địa**, khi tỷ lệ nợ doanh nghiệp trên GDP cao (khoảng 120%); (d) **nợ xấu hệ thống ngân hàng**, đặc biệt từ bất động sản; (e) **trái phiếu doanh nghiệp yếu** sau khủng hoảng Tân Hoàng Minh và Vạn Thịnh Phát 2022-2024, đòi hỏi củng cố niềm tin nhà đầu tư trái phiếu trong nước.
+(iv) **Năm rủi ro chính**: (a) **gián đoạn chuỗi cung ứng toàn cầu** do Trung Đông, chip shortage và vận tải biển; (b) **chính sách thuế quan Mỹ 2026**, với thuế 10% tạm thời và nguy cơ tăng lên 15% (xem Lớp 7 ở Mục 1.1 file 14); (c) **thanh khoản nội địa**, khi tỷ lệ nợ doanh nghiệp trên GDP cao (khoảng 120%); (d) **nợ xấu hệ thống ngân hàng**, đặc biệt từ bất động sản; (e) **trái phiếu doanh nghiệp yếu** sau khủng hoảng Tân Hoàng Minh và Vạn Thịnh Phát 2022-2024, đòi hỏi củng cố niềm tin nhà đầu tư trái phiếu trong nước.
 
 **Hàm ý cho CĐ2**: bổ sung **biến `Vietnam_HighValue_FDI_2026`** để đo bước chuyển từ assembly sang higher-value của FDI manufacturing, dùng làm kiểm định cho **H7 về tương tác industry × institutional dynamism** (Kafouros et al., 2023). Bổ sung thêm **biến `Vietnam_Sector_Mix_2026`** (3 cấp: công nghiệp, dịch vụ, nông nghiệp) làm control variable trong robustness check #6 (sector composition adjustment).
 
 ### 5.4 Trung Quốc (n=4.889)
 
-FSTS giảm từ 10,9% xuống 8,8%; FDI ≥10% chiếm 6,0%. Quan hệ giữa FSTS và năng suất có dạng đường cong bậc hai (inverted-U), với điểm uốn 49,4% (2012) và 47,2% (2024), bền vững theo kiểm định Paternoster (Đỗ & Phan, 2026 — *IJOEM*). **Cập nhật v3.1c**: Wang, Huang và Hong (2024 — *IRFA*) cho thấy 80% bank risk models ở PRC phụ thuộc vào dominant tech providers, tạo nên **concentration risk** trong digital ecosystem của PRC.
+FSTS giảm từ 10,9% xuống 8,8%; FDI ≥10% chiếm 6,0%. Quan hệ giữa FSTS và năng suất có dạng đường cong bậc hai (inverted-U), với điểm uốn 49,4% (2012) và 47,2% (2024), bền vững theo kiểm định Paternoster (Đỗ & Phan, 2026 — *IJOEM*). Wang, Huang và Hong (2024 — *IRFA*) cho thấy 80% bank risk models ở PRC phụ thuộc vào dominant tech providers, tạo nên **concentration risk** trong digital ecosystem của PRC.
 
-**Khung Zombie firms PRC — lý giải bổ sung cho điểm uốn bậc hai (inverted-U) ~49%**: Theo NotebookLM (07/05/2026 *Tariff Mỹ + Vietnam Macro Deep + Zombie Firms*) và nghiên cứu của Caballero, Hoshi và Kashyap (2008 — *American Economic Review*), khái niệm **"doanh nghiệp xác sống" (zombie firms)** chỉ những doanh nghiệp tồn tại nhờ tín dụng ưu đãi hoặc trợ cấp ngầm, không tạo lợi nhuận thực + không khấu hao bình thường. Trong bối cảnh PRC sau 2015 (chiến dịch khử rủi ro tài chính + supply-side structural reform), tỷ lệ zombie firms ở các SOE + ngành thừa năng lực sản xuất (steel, coal, real estate, shipbuilding) vẫn cao bất chấp các đợt thắt chặt.
+**Khung Zombie firms PRC — lý giải bổ sung cho điểm uốn bậc hai (inverted-U) ~49%**: Theo nghiên cứu của Caballero, Hoshi và Kashyap (2008 — *American Economic Review*) cùng ghi chú phân tích nội bộ của tác giả (2026), khái niệm **"doanh nghiệp xác sống" (zombie firms)** chỉ những doanh nghiệp tồn tại nhờ tín dụng ưu đãi hoặc trợ cấp ngầm, không tạo lợi nhuận thực + không khấu hao bình thường. Trong bối cảnh PRC sau 2015 (chiến dịch khử rủi ro tài chính + supply-side structural reform), tỷ lệ zombie firms ở các SOE + ngành thừa năng lực sản xuất (steel, coal, real estate, shipbuilding) vẫn cao bất chấp các đợt thắt chặt.
 
 **Ba cơ chế zombie firms làm méo TFP tổng thể PRC**:
 
@@ -57,11 +59,11 @@ FSTS giảm từ 10,9% xuống 8,8%; FDI ≥10% chiếm 6,0%. Quan hệ giữa F
 
 **Hàm ý cho CĐ2**: bổ sung **biến `Zombie_Firm_Indicator_PRC`** (proxy: firm có ROA dưới 0 trong 3 năm liên tiếp kèm tăng nợ vay) để kiểm tra xem điểm uốn bậc hai khoảng 49% có dịch chuyển khi loại zombie firms khỏi PRC subsample hay không. Đây là robustness check #7 (zombie-excluded re-estimation), bổ sung sau các kiểm định Manufacturing-only, ICT-excluded, Tourism-separated SIDS, Construction-tested Gulf, Mining-excluded resource và Sector composition adjustment.
 
-### 5.5 Tổng hợp Emerging Asia (n=42.278) — bổ sung India case (v3.2)
+### 5.5 Tổng hợp Emerging Asia (n=42.278) — bổ sung trường hợp Ấn Độ
 
 FSTS 7,6%; FDI ≥10% chiếm 4,4%; tỷ lệ doanh nghiệp có R&D dương là 16%. Phân tán nội bộ lớn (sd log 2,18), phản ánh dị biệt rộng xuyên 7 nước Emerging.
 
-**Trường hợp Ấn Độ — chứng cứ lan tỏa công nghệ (technology spillovers) (NEW v3.2)**: Sikdar và Mukhopadhyay (2026 — *Asian Development Review, 43*(1), pp.37-75) thực hiện nghiên cứu panel trên **4.293 doanh nghiệp Ấn Độ giai đoạn 2006-2019**. Nghiên cứu này phát hiện rằng FDI là kênh **lan tỏa ngang (horizontal spillover)** quan trọng nhất; doanh nghiệp lớn và hiệu quả cao thu nhận lan tỏa (capture spillovers) nhiều nhất; **dòng vốn FDI vào (FDI inflows)** tăng từ $1,705M (1990-2000) lên $42,396M (2012-2022); chi tiêu R&D trì trệ ở mức 0,7% GDP; và **đơn đăng ký sáng chế của cư dân (resident patent filing)** tăng +11,9% mỗi năm trong 2012-2022.
+**Trường hợp Ấn Độ — chứng cứ lan tỏa công nghệ (technology spillovers)**: Sikdar và Mukhopadhyay (2026 — *Asian Development Review, 43*(1), pp.37-75) thực hiện nghiên cứu panel trên **4.293 doanh nghiệp Ấn Độ giai đoạn 2006-2019**. Nghiên cứu này phát hiện rằng FDI là kênh **lan tỏa ngang (horizontal spillover)** quan trọng nhất; doanh nghiệp lớn và hiệu quả cao thu nhận lan tỏa (capture spillovers) nhiều nhất; **dòng vốn FDI vào (FDI inflows)** tăng từ $1,705M (1990-2000) lên $42,396M (2012-2022); chi tiêu R&D trì trệ ở mức 0,7% GDP; và **đơn đăng ký sáng chế của cư dân (resident patent filing)** tăng +11,9% mỗi năm trong 2012-2022.
 
 ### 5.6 Mongolia — từ lời nguyền tài nguyên đến chuyển đổi critical minerals (n=1.905, 4 đợt 2009–2025)
 
@@ -71,7 +73,7 @@ FSTS đình trệ ở mức 4-6%; FDI ≥10% giảm rõ từ **7,2% xuống 3,2%
 
 ![Hình 5.6.1 — Mongolia: Evolution 2009–2025 (4 đợt khảo sát WBES)](figures/fig_5_6_mongolia_evolution.png)
 
-### 5.7 SIDS Thái Bình Dương (7 nước — cập nhật v3.1, n=1.371)
+### 5.7 SIDS Thái Bình Dương (7 nước, n=1.371)
 
 **Bảy nước**: Fiji (FJI), Papua New Guinea (PNG), Solomon Islands (SLB), Tonga (TON), Vanuatu (VUT), Samoa (WSM) và **Kiribati (KIR, bổ sung năm 2025)**. Tổng n=1.371. FSTS 6,3%; FDI ≥10% đạt **23,5%**; đổi mới sản phẩm **41,5%**; website **58,9%**. Đây là pattern **thích nghi trong điều kiện ràng buộc (adaptation under constraint)**.
 
@@ -87,7 +89,7 @@ PICs vận hành trên 4 trụ cột MIRAB (Bertram, 2006): (1) khu vực công 
 
 | Chỉ số | Singapore | Việt Nam | Trung Quốc | Em Asia | Mongolia | SIDS Thái Bình Dương¹ | Saudi+Qatar+Kuwait |
 |---|---|---|---|---|---|---|---|
-| n_firms | 623 | 3.077 | 4.889 | 42.278 | 1.905 | **1.371 (v3.1)** | 1.632 |
+| n_firms | 623 | 3.077 | 4.889 | 42.278 | 1.905 | **1.371** | 1.632 |
 | FSTS (%) | 7,1 | 19,1 | 9,9 | 7,6 | **5,0** | 6,3 | **2,4** |
 | FDI ≥10% (%) | **31,5** | 11,4 | 6,0 | 4,4 | **4,7** | 23,5 | **11,5** |
 | R&D dương (%) | 7,5 | **3,1** | **39,4** | 16 | **20,8** | 11,8 | **3,1** |
@@ -98,7 +100,7 @@ PICs vận hành trên 4 trụ cột MIRAB (Bertram, 2006): (1) khu vực công 
 
 ## CHƯƠNG 6 — CÁC YẾU TỐ GIẢI THÍCH SƠ BỘ
 
-**Bảng 6.1**. *Hệ số tương quan Pearson (n=101.185 — v3.1).*
+**Bảng 6.1**. *Hệ số tương quan Pearson (n=101.185).*
 
 | Yếu tố | Advanced | Upper-middle | Emerging | Frontier | SIDS |
 |---|---|---|---|---|---|
@@ -109,11 +111,11 @@ PICs vận hành trên 4 trụ cột MIRAB (Bertram, 2006): (1) khu vực công 
 
 **Sáu phát hiện chính**: (1) FDI dương mạnh ở SIDS (+0,222); (2) FDI âm ở Advanced; (3) FSTS dương ở Advanced, phù hợp Uppsala và OLI; (4) TCI dương ở SIDS và Advanced; (5) DAI âm ở Advanced do Tier-1 saturation; (6) đảo dấu cross-regime, phản ánh institutional moderation.
 
-**Cảnh báo schema BREADY 2025 (v3.3)**: bảng 6.1 có thể bị nhiễu schema effect, cần kiểm chứng qua hệ thống "triple-defense" ở Mục 4.11 file 15.
+**Cảnh báo schema BREADY 2025**: bảng 6.1 có thể bị nhiễu schema effect, cần kiểm chứng qua hệ thống "triple-defense" ở Mục 4.11 file 15.
 
-**Lý giải dị biệt cross-regime qua Xu (2024) de jure-de facto (v3.3)**: khoảng cách giữa formal và enforcement giải thích cho việc FDI đảo dấu giữa Emerging và Advanced.
+**Lý giải dị biệt cross-regime qua Xu (2024) de jure-de facto**: khoảng cách giữa formal và enforcement giải thích cho việc FDI đảo dấu giữa Emerging và Advanced.
 
-**Lý giải bổ sung — Institutional Transaction Costs xuyên quốc gia (khung TCE Coase-Williamson, mở rộng từ Banalieva & Dhanaraj 2019)**: Việc đối chiếu hai bản thảo P3 Singapore (Mar et al., 2026 — *MIR*) và P4 Việt Nam (Đỗ & Phan, 2026 — *APJM*) cho thấy dị biệt cross-regime trong Bảng 6.1 không chỉ phản ánh chất lượng thể chế formal mà còn phản ánh **chi phí giao dịch thể chế (institutional transaction costs)**, vốn đo lường hạ tầng thương mại, logistics và năng lực hấp thụ chi phí điều phối xuyên biên giới (cross-border coordination cost absorption). Khung CDCM (Mục 2.7 file 14 v3.13) hợp nhất 3 chiều xuyên quốc gia như sau:
+**Lý giải bổ sung — Institutional Transaction Costs xuyên quốc gia (khung TCE Coase-Williamson, mở rộng từ Banalieva & Dhanaraj 2019)**: Việc đối chiếu hai bản thảo P4 Singapore (Mar et al., 2026 — *MIR*) và P3 Việt Nam (Đỗ & Phan, 2026 — *APJM*) cho thấy dị biệt cross-regime trong Bảng 6.1 không chỉ phản ánh chất lượng thể chế formal mà còn phản ánh **chi phí giao dịch thể chế (institutional transaction costs)**, vốn đo lường hạ tầng thương mại, logistics và năng lực hấp thụ chi phí điều phối xuyên biên giới (cross-border coordination cost absorption). Khung CDCM (Mục 2.7 file 14) hợp nhất 3 chiều xuyên quốc gia như sau:
 
 **Bảng 6.1.2**. *Đối chiếu I-P curve + cơ chế DAI/TCI giữa Việt Nam vs Singapore — bằng chứng cho khung CDCM.*
 
@@ -128,9 +130,9 @@ PICs vận hành trên 4 trụ cột MIRAB (Bertram, 2006): (1) khu vực công 
 
 **Hàm ý cho khung CDCM (Context-Contingent Digital Capability Model)**: Khung này đưa ra ba dự đoán cho CĐ2 và luận án 5 chương. Một là **41 nước châu Á** sẽ tạo thành một continuum institutional transaction costs, trải từ Singapore (cực thấp), qua Việt Nam và Indonesia (trung bình), đến Mongolia, Pakistan và Bangladesh (cao). Hai là điểm uốn TP của đường cong I-P sẽ tương quan ngược với mức trưởng thành hạ tầng số quốc gia (đo qua DAI Tier 1+2 trung bình quốc gia). Ba là vai trò của TCI sẽ chuyển từ scarce advantage (ở các nước transaction cost cao) sang hygiene factor (ở các nước transaction cost thấp), qua đó xác nhận giả thuyết H7 về tương tác industry × institutional dynamism của Kafouros et al. (2023). Đây là **đóng góp lý thuyết MỚI** cho luận án, tức việc lặp lại CDCM xuyên 41 nước châu Á.
 
-**Tham chiếu**: Coase (1937); Williamson (1985); Brynjolfsson & McAfee (2014); Banalieva & Dhanaraj (2019); Kafouros et al. (2023); Mar et al. (2026 — P3 Singapore manuscript, *MIR* under review); Đỗ & Phan (2026 — P4 Việt Nam — *APJM*); NotebookLM (08/05/2026, *Digital Scaling and Performance in Singapore's Global Firms*); Mục 2.7 file 14 v3.13 (Khung 4-Tier Verhoef + CDCM).
+**Tham chiếu**: Coase (1937); Williamson (1985); Brynjolfsson & McAfee (2014); Banalieva & Dhanaraj (2019); Kafouros et al. (2023); Mar et al. (2026 — P4 Singapore manuscript, *MIR* under review); Đỗ & Phan (2026 — P3 Việt Nam — *APJM*); Mục 2.7 file 14 (Khung 4-Tier Verhoef + CDCM).
 
-**Hiệu ứng đẩy nhanh giao hàng và bất định chính sách thuế quan trong khung ICRV (front-loading effect và tariff uncertainty)**: Theo NotebookLM (07/05/2026), bất định chính sách thuế quan Mỹ 2026 (xem Lớp 7 ở Mục 1.1 file 14 v3.11) tạo ra **hiệu ứng đẩy nhanh giao hàng (front-loading effect)**, khi doanh nghiệp xuất khẩu Việt Nam đẩy nhanh giao hàng ngắn hạn nhằm tận dụng cửa sổ thuế thấp 10% trước khi mức thuế tăng lên 15% trong nửa cuối 2026. Hậu quả là doanh thu xuất khẩu tăng ngắn hạn trong 2025 (đóng góp vào GDP 8,0%) nhưng lại làm giảm đà tăng trưởng 2026-2027 do hợp đồng tương lai bị "ăn trước". Trong khung ICRV, việc đẩy nhanh giao hàng cộng với bất định chính sách vận hành như một **cú sốc ngoại sinh (exogenous shock)** đảo dấu hệ số FSTS giữa hai nhóm. Với (a) **nhóm Emerging có năng lực FDI cao** (doanh nghiệp FDI sản xuất chế biến tại Việt Nam), khả năng đẩy nhanh và phòng ngừa rủi ro tốt khiến tương quan FSTS với năng suất dương mạnh trong ngắn hạn 2025, rồi đảo chiều âm trong 2026-2027 do **cạn kiệt đơn hàng tương lai (exhaustion of forward orders)**. Với (b) **nhóm Emerging có năng lực FDI thấp** (doanh nghiệp nội địa SME thiếu **tồn kho dự phòng (buffer inventory)**), việc không thể đẩy nhanh giao hàng khiến tương quan FSTS với năng suất yếu hoặc âm ở cả 2 giai đoạn. Về **sự phân hóa giữa doanh nghiệp lớn và SME**: tập đoàn lớn hấp thụ chi phí thuế quan qua đa thị trường và phòng ngừa tài chính (financial hedging), trong khi SME phải chọn giữa tự hấp thụ chi phí (giảm biên lợi nhuận) hoặc chuyển giá cho khách hàng (mất đơn hàng). Hàm ý cho CĐ2 là bổ sung **biến `Tariff_Front_Loading_2025_2026`** (proxy: tỷ trọng xuất khẩu sang Mỹ nhân với thời điểm giao hàng quý 1-2 năm 2026) vào kiểm định độ vững (robustness check) #8 về đẩy nhanh giao hàng được hiệu chỉnh (front-loading-adjusted re-estimation).
+**Hiệu ứng đẩy nhanh giao hàng và bất định chính sách thuế quan trong khung ICRV (front-loading effect và tariff uncertainty)**: Theo ghi chú phân tích nội bộ của tác giả (2026), bất định chính sách thuế quan Mỹ 2026 (xem Lớp 7 ở Mục 1.1 file 14) tạo ra **hiệu ứng đẩy nhanh giao hàng (front-loading effect)**, khi doanh nghiệp xuất khẩu Việt Nam đẩy nhanh giao hàng ngắn hạn nhằm tận dụng cửa sổ thuế thấp 10% trước khi mức thuế tăng lên 15% trong nửa cuối 2026. Hậu quả là doanh thu xuất khẩu tăng ngắn hạn trong 2025 (đóng góp vào GDP 8,0%) nhưng lại làm giảm đà tăng trưởng 2026-2027 do hợp đồng tương lai bị "ăn trước". Trong khung ICRV, việc đẩy nhanh giao hàng cộng với bất định chính sách vận hành như một **cú sốc ngoại sinh (exogenous shock)** đảo dấu hệ số FSTS giữa hai nhóm. Với (a) **nhóm Emerging có năng lực FDI cao** (doanh nghiệp FDI sản xuất chế biến tại Việt Nam), khả năng đẩy nhanh và phòng ngừa rủi ro tốt khiến tương quan FSTS với năng suất dương mạnh trong ngắn hạn 2025, rồi đảo chiều âm trong 2026-2027 do **cạn kiệt đơn hàng tương lai (exhaustion of forward orders)**. Với (b) **nhóm Emerging có năng lực FDI thấp** (doanh nghiệp nội địa SME thiếu **tồn kho dự phòng (buffer inventory)**), việc không thể đẩy nhanh giao hàng khiến tương quan FSTS với năng suất yếu hoặc âm ở cả 2 giai đoạn. Về **sự phân hóa giữa doanh nghiệp lớn và SME**: tập đoàn lớn hấp thụ chi phí thuế quan qua đa thị trường và phòng ngừa tài chính (financial hedging), trong khi SME phải chọn giữa tự hấp thụ chi phí (giảm biên lợi nhuận) hoặc chuyển giá cho khách hàng (mất đơn hàng). Hàm ý cho CĐ2 là bổ sung **biến `Tariff_Front_Loading_2025_2026`** (proxy: tỷ trọng xuất khẩu sang Mỹ nhân với thời điểm giao hàng quý 1-2 năm 2026) vào kiểm định độ vững (robustness check) #8 về đẩy nhanh giao hàng được hiệu chỉnh (front-loading-adjusted re-estimation).
 
 ### 6.1 Pattern giới tính trong quản lý + sở hữu — bằng chứng EAP châu Á dẫn đầu
 
@@ -159,33 +161,31 @@ Sáu quan sát: (a) **EAP dẫn đầu — nghịch lý giới châu Á**: EAP c
 
 ## CHƯƠNG 7 — KHOẢNG TRỐNG THỰC TIỄN VÀ KẾT LUẬN
 
-### 7.1 Khoảng trống nghiên cứu thực tiễn (5 khoảng trống — v3.2)
+### 7.1 Khoảng trống nghiên cứu thực tiễn (năm khoảng trống)
 
-(Giữ nguyên — xem commit 7738953 + b3306e1.)
+Chuyên đề xác định năm khoảng trống thực tiễn (empirical gap) định hướng cho CĐ2 và luận án. **Một là** thiếu một tổng hợp mô tả đa chiều, cập nhật đến 2025, xuyên 47 nền kinh tế châu Á và Thái Bình Dương; các nghiên cứu hiện hành dừng ở phạm vi hẹp hơn và mốc thời gian sớm hơn (Wu et al., 2022 dừng ở 2020; Arte & Larimo, 2022 dừng ở 2019). **Hai là** thiếu phân nhóm con (sub-grouping) trong nhóm Advanced — phân biệt đổi mới sáng tạo dẫn dắt so với tài nguyên dẫn dắt — vốn bị che giấu khi gộp chung. **Ba là** thiếu phân tách hai tầng đo lường số hóa (Tier-1 Digital Presence so với Tier-1+2 Digital Transformation), dẫn tới ngộ nhận về dấu của hệ số DAI. **Bốn là** thiếu khung lý giải đa tầng cho hiện tượng đảo dấu cross-regime của các yếu tố giải thích. **Năm là** thiếu bằng chứng firm-level cho chi phí buộc phải quốc tế hóa (forced internationalization penalty) ở các nền kinh tế đảo nhỏ biên.
 
-### 7.2 Kết luận chính (8 kết luận)
+### 7.2 Kết luận chính (tám kết luận)
 
-(Giữ nguyên — xem commit b3306e1.)
+Tám kết luận chính của chuyên đề: **(1)** hiệu quả doanh nghiệp châu Á phân tán lớn và không hội tụ, với phân tán năng suất nội bộ tăng đơn điệu khi chất lượng phân nhóm con thể chế suy giảm (Advanced 0,86 đến Frontier 1,36); **(2)** nhóm Advanced không đồng nhất, tách thành đổi mới sáng tạo dẫn dắt so với tài nguyên dẫn dắt (tỷ số phân tán ≈ 2,1 lần); **(3)** nhóm Emerging tách thành ba phân nhóm con với FSTS phân tầng 5,0%–7,2%–13,2%; **(4)** nhảy vọt số (digital leapfrog) diễn ra ở Frontier, Emerging và SIDS, nhưng hệ số âm DAI ở Advanced là biểu hiện giả tạo do bão hòa Tier-1; **(5)** quốc tế hóa là hiện tượng phân cực (trung vị FSTS = 0%); **(6)** quan hệ FSTS–năng suất phi tuyến dạng chữ U ngược với điểm uốn đặc thù quốc gia (Việt Nam ≈ 39–46%, Trung Quốc ≈ 47–49%, Singapore ≈ 82%); **(7)** SIDS Thái Bình Dương biên — đặc biệt Kiribati cực đoan — minh họa sự sụp đổ của đường cong U và chi phí buộc phải quốc tế hóa; **(8)** toàn bộ pattern được dựng trên pipeline tái lập được cho ba thế hệ schema WBES. Các kết luận này cùng định hướng cho **tám phân nhóm con** hiệu ứng cố định và sáu giả thuyết H1–H6 của CĐ2 (xem Mục 4.7 file 15).
 
 ### 7.3 Hàm ý cho luận án và Chuyên đề 2
 
 #### 7.3.1 Hàm ý lý thuyết
 
-(Giữ nguyên từ v3.3 — 5 evidence; AIPI; digital theatre warning. Xem commit cc33ed4.)
+Chuyên đề cung cấp năm tuyến bằng chứng lý thuyết cho luận án. **Một là** bằng chứng tồn tại (existence evidence) cho quan hệ chữ U ngược FSTS–năng suất (H1) qua các điểm uốn đơn quốc gia. **Hai là** phát hiện phân nhóm con Advanced (innovation- so với resource-driven) như một dạng biến thể chế kiểu Varieties of Capitalism (Hall & Soskice, 2001). **Ba là** khung Năng lực số phụ thuộc bối cảnh (CDCM) hợp nhất phát hiện Việt Nam và Singapore, đặt trên khung 4 tầng của Verhoef et al. (2021). **Bốn là** lý giải hiện tượng đảo dấu cross-regime qua khoảng cách de jure–de facto (Xu, 2024) và chi phí giao dịch thể chế (Coase, 1937; Williamson, 1985). **Năm là** thiết lập điều kiện biên của lý thuyết Uppsala (Johanson & Vahlne, 1977) qua trường hợp SIDS biên. Chuyên đề cảnh báo nguy cơ "digital theatre" (Verhoef et al., 2021) — số hóa hình thức không chuyển thành năng suất — và lưu ý mức độ sẵn sàng AI không đồng đều theo Chỉ số Sẵn sàng AI (AI Preparedness Index) giữa các phân nhóm con.
 
-#### 7.3.2 Hàm ý phương pháp luận (mở rộng v3.3)
+#### 7.3.2 Hàm ý phương pháp luận
 
-(Giữ nguyên từ v3.3 — 5 hàm ý + triple-defense system. Xem commit cc33ed4.)
+Năm hàm ý phương pháp luận cho CĐ2: **(1)** dùng hiệu ứng cố định theo **tám phân nhóm con** (liệt kê ở Mục 4.7(b) file 15) thay cho một hệ số chung, để nắm dị biệt cross-regime; **(2)** áp dụng lựa chọn hai giai đoạn (2-stage selection) vì quốc tế hóa phân cực mạnh (trung vị FSTS = 0%); **(3)** tách hai đặc tả mô hình — Spec 1 (Tier-1, full pool) và Spec 2 (Tier-1+2, BREADY 2018+) — để phân biệt biểu hiện giả tạo bão hòa khỏi hiệu ứng thực; **(4)** triển khai hệ thống cô lập "triple-defense" (biến giả Post_BREADY_2024, mô hình neo, panel hậu đại dịch độc lập — Mục 4.11 file 15) để chống đứt gãy schema 2025; **(5)** đưa khung industry FE 9 ngành cùng các kiểm định mẫu con (Mục 7.3.4) vào thiết kế nhận diện. Bộ tám kiểm định độ vững cốt lõi ở Mục 7.3.4 vận hành hóa các hàm ý này.
 
-#### 7.3.3 Hàm ý chính sách cho doanh nghiệp Việt Nam và khu vực (mở rộng v3.5c từ 6 lên **8 hàm ý** + v3.7 thêm hàm ý **(9) Hedging strategy** = **9 hàm ý**)
+#### 7.3.3 Hàm ý chính sách cho doanh nghiệp Việt Nam và khu vực (chín hàm ý)
 
-> **Cập nhật v3.5c**: Mở rộng (7) Migration labor partnership Pacific + (8) NEW Chính sách số hóa Asia.
-> **Cập nhật v3.7**: Mở rộng (9) Hedging strategy 4 nguyên tắc.
-> **Hàm ý (1)-(6)** giữ nguyên từ v3.2 — 6 hàm ý chính sách + 4 đề xuất GVC cho Việt Nam (commit 7738953).
+> Chín hàm ý chính sách gồm: (1)–(6) sáu hàm ý chính sách cùng bốn đề xuất tái định vị chuỗi giá trị (GVC) cho Việt Nam; (7) hợp tác di chuyển lao động Thái Bình Dương; (8) chính sách số hóa châu Á cho SME; (9) chiến lược phòng ngừa (hedging) bốn nguyên tắc. Dưới đây trình bày các hàm ý (7)–(9).
 
 **(7) Migration labor partnership Pacific cho Việt Nam — bài học từ PLMS Australia + RSE New Zealand**
 
-> **Bằng chứng nền tảng**: Mục 5.7.5 file 16 v3.5a (PICs macro context); Bertram (2006) MIRAB model — file 04 v2.5 Section N.
+> **Bằng chứng nền tảng**: Mục 5.7.5 file 16 (PICs macro context); Bertram (2006) MIRAB model.
 
 Bốn đề xuất cụ thể cho doanh nghiệp + nhà hoạch định chính sách Việt Nam:
 
@@ -193,13 +193,13 @@ Bốn đề xuất cụ thể cho doanh nghiệp + nhà hoạch định chính s
 
 (b) **Học mô hình RSE** *(New Zealand Recognised Seasonal Employer)*: New Zealand RSE chỉ áp dụng cho viticulture (vườn nho) + horticulture (vườn cây ăn quả) + fishing — work permits 7 tháng/năm. Việt Nam hợp tác với NZ để mở **Aquaculture + Coffee + Cashew Skills Exchange** — leveraging chuyên môn Việt Nam trong các ngành này.
 
-(c) **Cơ chế remittance corridor digital**: Theo NotebookLM 06/05/2026, remittances từ RSE của Vanuatu chiếm 15-20% GDP, chứng minh tính hiệu quả của mô hình "labor mobility cộng digital remittance". Việt Nam có thể hợp tác với Wise, Western Union hoặc MoMo để **giảm phí remittance từ khoảng 7% xuống dưới 3%** cho lao động Việt ở Australia và New Zealand, qua đó tiết kiệm hàng trăm triệu USD mỗi năm. Điều này liên kết với FDI commitment $2,4B có fintech focus ở Mục 5.3 (a).
+(c) **Cơ chế remittance corridor digital**: Theo ghi chú phân tích nội bộ của tác giả (2026), remittances từ RSE của Vanuatu chiếm 15-20% GDP, chứng minh tính hiệu quả của mô hình "labor mobility cộng digital remittance". Việt Nam có thể hợp tác với Wise, Western Union hoặc MoMo để **giảm phí remittance từ khoảng 7% xuống dưới 3%** cho lao động Việt ở Australia và New Zealand, qua đó tiết kiệm hàng trăm triệu USD mỗi năm. Điều này liên kết với FDI commitment $2,4B có fintech focus ở Mục 5.3 (a).
 
 (d) **Skills upgrading approach để tránh brain drain**: Migration labor có nguy cơ brain drain nếu chỉ low-skilled. Việt Nam cần đầu tư technical education + ngoại ngữ trước khi gửi đi, theo mô hình Korea Employment Permit System (EPS) — tập trung vào ngành cao kỹ + đảm bảo lao động return có vốn + kỹ năng để khởi nghiệp tại Việt Nam (return migration channel).
 
 **(8) Chính sách số hóa Asia cho SME Việt Nam — bài học từ Singapore/Korea/Japan/Trung Quốc**
 
-> **Bằng chứng nền tảng**: Mục 6.2 về Innovation U-curve digital (commit b3306e1); Bảng 4.4 file 15 (Website Việt Nam 47% thấp hơn EAP average 58,9%); Mục 5.4 về concentration risk của Trung Quốc theo Wang/Huang/Hong (2024).
+> **Bằng chứng nền tảng**: Mục 6.2 về Innovation U-curve digital; Bảng 4.4 file 15 (Website Việt Nam 47% thấp hơn EAP average 58,9%); Mục 5.4 về concentration risk của Trung Quốc theo Wang/Huang/Hong (2024).
 
 Bốn lộ trình số hóa cho SME Việt Nam tham khảo:
 
@@ -220,7 +220,7 @@ Bốn lộ trình số hóa cho SME Việt Nam tham khảo:
 
 **(9) Hedging strategy — đa dạng hóa thị trường + buffer inventory + higher-value FDI partnership + financial hedging**
 
-> **Bằng chứng nền tảng**: Lớp 7 ở Mục 1.1 file 14 v3.11 (bất định chính sách thuế quan Mỹ 2026); Mục 6 v3.7 (front-loading effect và tariff uncertainty); Mục 5.3 v3.6 (5 rủi ro Việt Nam).
+> **Bằng chứng nền tảng**: Lớp 7 ở Mục 1.1 file 14 (bất định chính sách thuế quan Mỹ 2026); Mục 6 (front-loading effect và tariff uncertainty); Mục 5.3 (năm rủi ro Việt Nam).
 
 Trong bối cảnh Mỹ chiếm xấp xỉ 30% kim ngạch xuất khẩu Việt Nam và bất định chính sách thuế quan 2026 gây áp lực kép (front-loading + trì hoãn đầu tư + phân hóa lớn vs SME), doanh nghiệp Việt Nam cần **hedging strategy 4 nguyên tắc**:
 
@@ -251,17 +251,57 @@ Trong bối cảnh Mỹ chiếm xấp xỉ 30% kim ngạch xuất khẩu Việt 
 
 **Hàm ý cho CĐ2**: bổ sung **biến `Hedging_Capability_Index`** (proxy: market diversification HHI + buffer inventory days + forex hedging ratio + multi-currency invoicing %) để test xem doanh nghiệp có hedging capability cao có productivity payoff dài hạn ổn định hơn không (vs short-term boost rồi exhaustion). Robustness check #9 (hedging-adjusted) — bổ sung sau front-loading-adjusted (#8).
 
-#### 7.3.4 Hàm ý cho Chuyên đề 2 và luận án
+#### 7.3.4 Hàm ý cho Chuyên đề 2 và luận án — tám kiểm định độ vững cốt lõi
 
-(Giữ nguyên từ v3.3 — 8 robustness checks. Xem commit cc33ed4.)
+Phân tích mô tả của CĐ1 phát hiện một số biểu hiện giả tạo thống kê (statistical artifact) — đặc biệt hệ số âm DAI ở Advanced do bão hòa Tier-1, đứt gãy schema BREADY 2025, và dị biệt nội bộ phân nhóm con — đòi hỏi CĐ2 phải kiểm chứng kết quả qua một bộ kiểm định độ vững (robustness check) có hệ thống. Dưới đây là **tám kiểm định độ vững cốt lõi** mà mô hình kiểm định của CĐ2 cần thực hiện, mỗi kiểm định gắn với một mối đe dọa nội tại cụ thể được CĐ1 nhận diện:
+
+1. **Mẫu phụ chỉ ngành chế biến chế tạo (Manufacturing-only subsample)**. Ước lượng lại mô hình chính chỉ trên các doanh nghiệp ngành C (ISIC Rev. 4), tách thêm high-tech so với low-tech theo phân loại Kafouros et al. (2023). Mục đích: kiểm tra xem quan hệ chữ U ngược FSTS–năng suất (H1) có ổn định khi loại trừ dị biệt cơ cấu ngành dịch vụ và khai khoáng hay không. Đe dọa được xử lý: nhiễu cơ cấu ngành (Bảng 4.8.1).
+
+2. **Kiểm định loại trừ ICT (ICT exclusion test)**. Loại các doanh nghiệp mã ISIC J (58–63) khỏi phân nhóm con Advanced đổi mới sáng tạo dẫn dắt rồi ước lượng lại hệ số DAI. Mục đích: xác nhận rằng hệ số âm DAI −0,129 ở Advanced trong Spec 1 là biểu hiện giả tạo do bão hòa Tier-1 chứ không phải hiệu ứng kinh tế thực (H3). Bằng chứng CĐ1 (Mục 4.4.5 file 15): hệ số âm biến mất sau khi loại ICT.
+
+3. **Tách ngành du lịch và khách sạn cho SIDS (Tourism/Hotels separation)**. Tách riêng các doanh nghiệp ISIC I (55–56) ở SIDS Thái Bình Dương để kiểm tra xem tỷ lệ FDI ≥10% cao bất thường ở SIDS (23,5%, Bảng 4.5) có do du lịch dẫn dắt bởi doanh nghiệp đa quốc gia hay không. Mục đích: cô lập trường hợp biên H6 khỏi nhiễu ngành dịch vụ du lịch.
+
+4. **Mẫu phụ ngành xây dựng — kiểm định Vùng Vịnh (Construction subsample test)**. Ước lượng lại trên ngành F (41–43) ở nhóm Advanced tài nguyên dẫn dắt, nơi xây dựng theo dự án chiếm tỷ trọng cao. Mục đích: kiểm tra logic nhà nước tô và phân tán hẹp ở Vùng Vịnh (H5) có bị chi phối bởi cơ cấu ngành xây dựng hay không.
+
+5. **Loại trừ ngành khai khoáng khỏi cụm tài nguyên (Mining-excluded re-estimation)**. Loại ngành B (05–09) khỏi các phân nhóm con tài nguyên dẫn dắt (Vùng Vịnh, Mongolia). Mục đích: phân biệt hiệu ứng cụm tài nguyên cấp thể chế (H5) khỏi hiệu ứng đặc thù ngành khai khoáng.
+
+6. **Mô hình neo cô lập đứt gãy schema BREADY 2025 (Anchor model)**. Quy trình ba bước khóa hệ số neo ước lượng từ dữ liệu đến 2024 rồi tái ước lượng với dữ liệu đầy đủ 2009–2025, kèm kiểm định ổn định hệ số (Wald, Chow) và tỷ số hệ số (xem Mục 4.11.2 file 15). Mục đích: bảo đảm cấu trúc bảng hỏi BREADY 2025 không làm đảo chiều ý nghĩa thống kê cốt lõi của H1–H3.
+
+7. **Tương tác động học ngành × chất lượng thể chế (Industry × institutional dynamism)**. Kiểm định các số hạng tương tác `tech_dynamism × institutional_quality` (kỳ vọng dấu dương) và `market_dynamism × institutional_quality` (kỳ vọng dấu âm) theo Kafouros et al. (2023). Mục đích: lặp lại (replicate) phát hiện CEE của Kafouros trong bối cảnh châu Á và cung cấp bằng chứng cho giả thuyết bổ trợ H7 của CĐ2.
+
+8. **Đối chiếu ranh giới đo lường (Construct-boundary cross-validation)**. Chạy Spec 2 (DAI Tier-1+2 đa thành phần) chỉ ở các nền kinh tế có đủ dữ liệu BREADY+ để kiểm tra xem pattern kiểu Singapore — tương tác DAI × FSTS² dương — có xuất hiện khi dùng chỉ số số hóa tổ hợp hay không (xem Bảng 4.4.5.1 file 15). Mục đích: kiểm chứng khung CDCM và xác lập ranh giới giữa "đòn bẩy" (lever) và "điểm nghẽn" (bottleneck) của số hóa theo cấp tầng.
+
+**Các kiểm định mở rộng theo bối cảnh (supplementary)**: ngoài tám kiểm định cốt lõi trên, các tiểu cảnh điển hình của Chương 5 và lý giải Chương 6 gợi ý thêm một số kiểm định bổ trợ đặc thù — điều chỉnh theo cơ cấu ngành (sector composition adjustment, Mục 5.3), loại doanh nghiệp xác sống khỏi mẫu phụ Trung Quốc (zombie-excluded re-estimation, Mục 5.4), hiệu chỉnh theo hiệu ứng đẩy nhanh giao hàng (front-loading-adjusted, Mục 6), điều chỉnh theo năng lực phòng ngừa (hedging-adjusted, Mục 7.3.3) và panel xác thực hậu đại dịch độc lập (Mục 4.11.3 file 15). Các kiểm định bổ trợ này phục vụ những câu hỏi đặc thù quốc gia hoặc đặc thù bối cảnh 2026, không thay thế tám kiểm định cốt lõi mang tính cấu trúc.
 
 ### 7.4 Hạn chế của chuyên đề
 
-(Giữ nguyên từ v3.2 — 7 hạn chế.)
+Chuyên đề thừa nhận bảy hạn chế cần được diễn giải như những **giới hạn suy luận (inferential bounds)** đặt ra ranh giới cho mọi kết luận, đồng thời định hướng cho thiết kế của CĐ2, P6 và luận án. Việc nêu rõ các hạn chế này từ giai đoạn mô tả nhằm phòng tránh "overclaiming" và bảo đảm tính minh bạch theo chuẩn Aguinis et al. (2019).
+
+1. **Bão hòa DAI Tier-1 ở các nền kinh tế tiên tiến**. Trong Spec 1, biến số hóa chỉ là website nhị phân (Tier-1 Digital Presence). Vì website đã bão hòa từ trước 2018 ở Singapore, Hong Kong, Hàn Quốc, Đài Loan và Israel, biến này không còn khả năng phân biệt (discriminate) năng suất giữa các doanh nghiệp ở Advanced; hệ số âm −0,129 do đó là biểu hiện giả tạo đo lường chứ không phải bằng chứng "số hóa làm giảm năng suất". Suy luận về "năng lực số" trong CĐ1 phải giới hạn ở phạm vi Áp dụng số nền tảng (Foundational Digital Adoption), không mở rộng thành "Digital Transformation" (Tier-3/4 không quan sát được trong WBES).
+
+2. **Hiệu ứng schema BREADY trong đợt khảo sát 2025**. Đợt 2025 (n=17.107, 16,9% pool) dùng bảng hỏi BREADY khác hai thế hệ trước, gây những dịch chuyển đo lường phi kinh tế — điển hình FSTS Ấn Độ rơi từ 7,7% xuống 2,7% và R&D nhiều nước tăng vọt do hiệu ứng bảng hỏi (questionnaire effect). Mọi so sánh chuỗi thời gian có dữ liệu 2025 phải được đọc với dè dặt cho tới khi áp dụng hệ thống cô lập "triple-defense" (Mục 4.11 file 15); Nepal 2025 bị để n/a vì schema chưa thống nhất.
+
+3. **Thiết kế cắt ngang gộp (pooled cross-sectional), không phải bảng (panel) thực thụ**. Pool 101.185 doanh nghiệp là tập hợp cắt ngang lặp lại (repeated cross-section) chứ không theo dõi cùng một doanh nghiệp qua thời gian. Do đó CĐ1 không thể nhận diện hiệu ứng trong-doanh-nghiệp (within-firm) hay thiết lập quan hệ nhân quả; mọi tương quan ở Chương 6 là mô tả và có thể bị nhiễu bởi yếu tố không quan sát được. Việc nhận diện nhân quả (IV, panel) được dành cho CĐ2.
+
+4. **Loại trừ bốn ngành và giới hạn vũ trụ khảo sát WBES**. WBES loại trừ tiện ích công cộng, dịch vụ chính phủ, chăm sóc sức khỏe và dịch vụ tài chính, đồng thời chỉ khảo sát doanh nghiệp chính thức có ít nhất 5 lao động. Vì vậy các pattern của CĐ1 không suy rộng được sang khu vực phi chính thức, vi doanh nghiệp (dưới 5 lao động) hay bốn ngành loại trừ — một giới hạn đặc biệt quan trọng ở Frontier và SIDS nơi khu vực phi chính thức lớn.
+
+5. **Tính dị thể của pool (pool heterogeneity) qua ba thế hệ khung dữ liệu**. Pool hài hòa ba thế hệ schema (PICS3, Standardized, Standardized 2018+/BREADY) với định nghĩa biến không hoàn toàn đồng nhất; mẫu phụ đủ dữ liệu năng suất (86.457) loại bỏ không đồng đều giữa các phân nhóm con (Frontier mất 34,2%, xem ghi chú Bảng 4.1). Sự dị thể này hạn chế độ chính xác của các so sánh tuyệt đối xuyên thế hệ schema, dù không làm thay đổi các pattern định hướng (directional patterns).
+
+6. **Số liệu giới tính là ước tính theo phân nhóm con, chưa tính trực tiếp từ biến gốc**. Bảng 4.5.6 (file 15) trình bày tỷ lệ nữ quản lý cấp cao và nữ sở hữu dưới dạng khoảng ước tính (range estimate) tổng hợp theo phân nhóm con ICRV, chưa tính chính xác từ biến WBES `b7a`/`b4` ở cấp doanh nghiệp. Vì vậy các nhận định về giới (Mục 4.5.6 và 6.1) mang tính gợi mở; trị số chính xác sẽ được tính lại trong giai đoạn hoàn thiện và dùng làm biến kiểm soát/điều tiết trong CĐ2.
+
+7. **Thiếu bằng chứng cường độ (magnitude evidence) — chờ P6**. CĐ1 cung cấp *bằng chứng tồn tại* (existence evidence) cho H1–H6 qua thống kê mô tả và các điểm uốn đơn quốc gia (Việt Nam, Trung Quốc, Singapore), nhưng chưa cung cấp *bằng chứng cường độ* — tức quy mô hiệu ứng gộp (pooled effect size) chuẩn hóa và khoảng tin cậy xuyên 47 nền kinh tế. Bằng chứng cường độ này phụ thuộc vào bài báo tổng hợp định lượng P6 (đang chuẩn bị, phương pháp PRISMA 2020). Cho tới khi P6 hoàn thành, mọi phát biểu về độ lớn hiệu ứng tổng hợp phải được trình bày như giả định cần kiểm chứng, không phải kết luận đã xác lập.
 
 ### 7.5 Kế hoạch hoàn thiện
 
-(Giữ nguyên từ v3.1a — 4 giai đoạn từ 6/2026 đến 9/2026.)
+Chuyên đề được hoàn thiện theo bốn giai đoạn nối tiếp từ tháng 6/2026 đến tháng 9/2026, mỗi giai đoạn xử lý một nhóm hạn chế nêu ở Mục 7.4 và bổ sung phần còn để ngỏ trong các phụ lục:
+
+- **Giai đoạn 1 (tháng 6/2026) — Hoàn thiện dữ liệu và đo lường gốc**. Tính lại trực tiếp các trị số P90/P10 và P75/P25 cho Bảng 4.1 (xử lý hạn chế 5), tính chính xác số liệu giới tính từ biến `b7a`/`b4` (hạn chế 6), quy đổi năng suất sang USD PPP, và chốt số doanh nghiệp Indonesia và Philippines trong phân rã Bảng 4.9 (xử lý C5). Đầu ra: Bảng 4.1, 4.5.6 và 4.9 với số liệu hoàn chỉnh thay cho các ô "(cập nhật GĐ1)" và ước tính khoảng.
+
+- **Giai đoạn 2 (tháng 7/2026) — Bảng mô tả cấp ngành và cô lập schema**. Xây dựng các bảng mô tả cấp ngành theo khung 9 ngành ISIC (Bảng 4.8.1), triển khai hệ thống "triple-defense" cô lập đứt gãy schema BREADY 2025 (xử lý hạn chế 2) và tạo 11 hình minh họa từ `generate_figures.py`. Đầu ra: phụ lục cấp ngành và bộ hình hoàn chỉnh.
+
+- **Giai đoạn 3 (tháng 8/2026) — Mở rộng phụ lục và đối chiếu chéo**. Mở rộng Phụ lục B–G, đối chiếu chéo (cross-validate) toàn bộ pool với baseline 17 nước của Đỗ & Phan (2026 — VEFR) để kiểm tra tính nhất quán (xử lý hạn chế 5), và hoàn tất gói tái lập (replication package) mở. Đầu ra: phụ lục đầy đủ và gói tái lập công khai.
+
+- **Giai đoạn 4 (tháng 9/2026) — Tích hợp với CĐ2 và rà soát cuối**. Tích hợp định hướng H1–H6 và tám kiểm định độ vững cốt lõi (Mục 7.3.4) vào thiết kế CĐ2, rà soát nhất quán số liệu và nhãn xuyên ba phần, và chuẩn bị bản nộp Hội đồng. Đầu ra: bản chuyên đề hoàn chỉnh sẵn sàng bảo vệ, đồng bộ với mô hình kiểm định của CĐ2.
 
 ---
 
