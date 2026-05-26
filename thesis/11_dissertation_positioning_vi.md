@@ -229,7 +229,7 @@ Mở đầu bằng một lời dẫn dựa trên hiện tượng:
 
 ## 7.2 "Đóng góp chính ở đâu"
 
-3 đóng góp chưa từng có trong tài liệu nghiên cứu:
+Trục thống nhất của toàn luận án là **bản đồ địa hình xuất khẩu chiến lược (strategic export topography)**, trên đó ICRV vận hành như một **bộ lọc chi phí giao dịch (transaction cost filter)** tương tác với mức độ chấp nhận số: chính trục này gắn kết tám bài báo thành một lập luận liền mạch, từ phá ảo ảnh bằng chứng (P6) đến vẽ bản đồ gradient (P7) và kiểm chứng từng vùng địa hình (P3–P5, P8). Trên nền trục đó, 3 đóng góp chưa từng có trong tài liệu nghiên cứu:
 
 1. **Về lý thuyết**: gánh nặng quốc tế hóa bắt buộc là đóng góp được định danh đầu tiên cho trường hợp biên của quan hệ giữa quốc tế hóa và hiệu quả hoạt động
 2. **Về phương pháp**: việc tách bạch TCI với DAI (kế thừa Bharadwaj et al. 2013, Verhoef et al. 2021, Cohen & Levinthal 1990, Lall 1992; thỏa 4 tiêu chí của Coltman et al. 2008) bảo đảm độ thuần khái niệm
