@@ -1165,9 +1165,7 @@ and may be shared to the extent permitted by the data-access terms.
 Generative AI tools were used during manuscript preparation to assist with language editing,
 structure suggestions, and the assembly of the replication package documentation.
 
-All con-
-
-ceptual framing, hypothesis development, empirical analysis, results interpretation, and final
+All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final
 wording were authored by the human authors, who take full responsibility for the content of the
 publication.
 

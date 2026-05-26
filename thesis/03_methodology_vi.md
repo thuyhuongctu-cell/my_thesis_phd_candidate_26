@@ -339,7 +339,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 ### 4.5.4 Mô hình cụ thể — Nghiên cứu 7 (Đa quốc gia châu Á, WBES 2003–2025)
 
-Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **45 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 82.302 (M0–M2) đến N = 28.500 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
+Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **45 nền kinh tế châu Á và Thái Bình Dương** (98 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 82.302 (M0–M2) đến N = 28.500 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực) — biến phụ thuộc
 - **CDDXK_c_it**: cường độ xuất khẩu mean-centred — FSTS_c = (d3c/100) − mean_pool(FSTS)
