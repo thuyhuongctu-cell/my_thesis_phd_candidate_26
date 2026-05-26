@@ -49,3 +49,6 @@ __pycache__/
 # P6 downloaded PDFs (too large for git — store locally)
 p6/pdfs/
 dist/*.zip
+
+# Build-generated figure test artifact (regenerated each build)
+dist/submission/figures/**/.test_small
