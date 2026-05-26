@@ -123,8 +123,7 @@ học tập và nghiên cứu.
 
 Luận án phân tích ảnh hưởng của quốc tế hóa đến hiệu quả hoạt động kinh doanh của doanh
 nghiệp ở châu Á và khu vực lân cận, dựa trên dữ liệu vi mô Khảo sát Doanh nghiệp của Ngân
-hàng Thế giới (World Bank Enterprise Survey). Nghiên cứu sử dụng khung Biến thiên chế độ thể
-chế và tổn thương nguồn lực (Institutional Capability and Resource Vulnerability — ICRV) để
+hàng Thế giới (World Bank Enterprise Survey). Nghiên cứu sử dụng khung Biến thiên chế độ bối cảnh thể chế (Institutional Context Regime Variation — ICRV) để
 giải thích vì sao mối quan hệ quốc tế hóa–hiệu quả thay đổi giữa các nền kinh tế. Hệ thống công
 trình gồm một phân tích tổng hợp ba tầng, các nghiên cứu đơn quốc gia (Việt Nam, Singapore,
 Trung Quốc), một nghiên cứu đa quốc gia trên 49 nền kinh tế, và một trường hợp biên là các
@@ -150,7 +149,7 @@ số; châu Á; Khảo sát Doanh nghiệp Ngân hàng Thế giới.
 
 This dissertation examines how internationalization affects firm business performance across
 Asian and neighbouring economies, drawing on firm-level microdata from the World Bank Enterprise
-Survey. It applies the Institutional Capability and Resource Vulnerability (ICRV) framework to
+Survey. It applies the Institutional Context Regime Variation (ICRV) framework to
 explain why the internationalization–performance relationship varies across economies. The body of
 work comprises a three-level meta-analysis, single-economy studies (Vietnam, Singapore, China), a
 multi-economy study spanning 49 economies, and a boundary case of Pacific Small Island Developing
@@ -235,7 +234,7 @@ Nghiên cứu sinh
 | WBES | World Bank Enterprise Survey | Khảo sát Doanh nghiệp Ngân hàng Thế giới |
 | I–P | Internationalization–Performance | Quốc tế hóa–Hiệu quả |
 | FSTS | Foreign Sales to Total Sales | Cường độ xuất khẩu |
-| ICRV | Institutional Capability and Resource Vulnerability | Biến thiên chế độ thể chế và tổn thương nguồn lực |
+| ICRV | Institutional Context Regime Variation | Biến thiên chế độ bối cảnh thể chế |
 | TCI | Technological Capability Index | Chỉ số năng lực công nghệ |
 | DAI | Digital Adoption Index | Chỉ số áp dụng số |
 | cDAI | Country-level Digital Adoption | Áp dụng số cấp quốc gia |
