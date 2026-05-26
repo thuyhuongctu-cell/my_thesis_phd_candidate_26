@@ -532,7 +532,7 @@ Dự đoán điểm uốn theo nhóm ICRV:
 
 | ICRV Nhóm | Điểm uốn dự kiến | Cơ sở |
 |-----------|------------------|-------|
-| Nhóm I (tiên tiến đổi mới) | **~28% FSTS (P7 toàn mẫu)** | P7 pooled (N=82.302): TP ~28% (thấp nhất); P4 Singapore TP ~82% là ngoại lệ đơn quốc gia (LM p = 0,303, không có ý nghĩa) |
+| Nhóm I (tiên tiến đổi mới) | **Đường cong phẳng/gần tuyến tính (P7 toàn mẫu)** | P7 pooled (N=82.302): độ cong nông nhất, gần tuyến tính ở nhóm tiên tiến (điểm uốn cụm quanh ~40%); P4 Singapore TP ~82% là ngoại lệ đơn quốc gia (LM p = 0,303, không có ý nghĩa) |
 | Nhóm II (tiên tiến tài nguyên) | Không xác định / yếu dương | FDI/tài nguyên chiếm ưu thế |
 | Nhóm III (trung bình cao) | ~45-55% FSTS | P5 Trung Quốc TP 47-49% |
 | Nhóm IV (đang nổi) | ~35-46% FSTS | P3 Việt Nam TP 39-46% |

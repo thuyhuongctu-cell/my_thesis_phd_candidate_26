@@ -128,7 +128,7 @@ The thesis distinguishes three export participation concepts:
 
 **Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (`Lower_mid_transition`; Vietnam = Group 4 of 6), **P4→Nhóm I** (`Advanced_innovation`; Singapore), **P5→Nhóm III** (`Upper_mid`; China), **P7→all 6 groups (cross-regime)**, **P8→Nhóm VI** (`SIDS_small`). Note: "Frontier V" is NOT a valid dissertation-internal label for Vietnam; correct label is "Nhóm IV" or "ICRV Group 4 (Lower_mid_transition)".
 
-**Institutional gradient in P7 results (key cross-paper narrative — CRITICAL direction):** The ICRV gradient is empirically confirmed in P7 — Advanced_innovation shows the **LOWEST** TP (~28%) while Frontier shows the **HIGHEST** TP (~55%). The gradient is monotone: as institutional quality decreases (Advanced → Frontier), the turning point increases. This means in stronger-institution contexts, firms reach performance peak at lower export intensity; in weaker-institution contexts, they need higher FSTS to overcome transaction costs before reaching peak performance. SIDS_small (Nhóm VI) is the exception: FIP (Forced Internationalization Penalty) — monotone negative, no turning point. DAI×ICRV (p=.012): digital adoption delivers stronger per-unit returns in weaker institutional environments ("digital shield").
+**Institutional gradient in P7 results (key cross-paper narrative — CRITICAL direction):** The ICRV gradient is empirically confirmed in P7 — Advanced_innovation shows the **LOWEST** TP (~28%) while Frontier shows the **HIGHEST** TP (~55%). The gradient is monotone: as institutional quality decreases (Advanced → Frontier), the turning point increases. This means in stronger-institution contexts, firms reach performance peak at lower export intensity; in weaker-institution contexts, they need higher FSTS to overcome transaction costs before reaching peak performance. SIDS_small (Nhóm VI) is the exception: FIP (Forced Internationalization Penalty) — monotone negative, no turning point. DAI×ICRV (p=.049): digital adoption delivers stronger per-unit returns in weaker institutional environments ("digital shield").
 
 ---
 
@@ -186,7 +186,7 @@ Result: F(2, 36132) = 7.38, p = .0006***
 
 **DAI level effect (universal):** β = +0.155 (p < .001) — DAI raises the performance floor across all ICRV regimes.
 
-**DAI×ICRV institutional contingency:** p = .012 — DAI's moderating effect is **stronger in weak-institution contexts** (Frontier/SIDS), not only in Advanced. This is the "digital shield" mechanism: DAI compensates for institutional deficiencies rather than amplifying existing advantages. Do NOT write "DAI only significant in Advanced contexts."
+**DAI×ICRV institutional contingency:** p = .049 — DAI's moderating effect is **stronger in weak-institution contexts** (Frontier/SIDS), not only in Advanced. This is the "digital shield" mechanism: DAI compensates for institutional deficiencies rather than amplifying existing advantages. Do NOT write "DAI only significant in Advanced contexts."
 
 **Interpretation:** DAI is a *situational resource*: the level effect is universal; the moderating mechanism (compression vs amplification of the I→P curve) depends on ICRV regime. This is analytically distinct from TCI (foundational capability with universal level + curvature effects).
 
@@ -280,7 +280,7 @@ For use in thesis integration chapter and §6 Discussion cross-referencing:
 
 **ICRV gradient direction (CRITICAL):** TP **DECREASES** as institutional quality increases. Advanced Innovation (~28%) has the LOWEST TP; Frontier/SIDS (~55%) has the HIGHEST. This means stronger institutions → firms reach performance optimum at lower export intensity. Weaker institutions → firms need higher FSTS before costs exceed benefits. Do NOT write "threshold increases with institutional development."
 
-**Cross-paper narrative:** Results demonstrate an ICRV-contingent internationalization–performance gradient. The inverted-U is universal across non-SIDS regimes, but the turning point **decreases** with institutional quality: Frontier ~50–55%, Emerging ~44–50%, Advanced Innovation ~28%. DAI×ICRV (p=.012) confirms the "digital shield" compensatory mechanism — DAI delivers **stronger** per-unit returns in weaker institutional environments. Pacific SIDS (Nhóm VI) constitute a structural exception (Forced Internationalization Penalty), not overextension.
+**Cross-paper narrative:** Results demonstrate an ICRV-contingent internationalization–performance gradient. The inverted-U is universal across non-SIDS regimes, but the turning point **decreases** with institutional quality: Frontier ~50–55%, Emerging ~44–50%, Advanced Innovation ~28%. DAI×ICRV (p=.049) confirms the "digital shield" compensatory mechanism — DAI delivers **stronger** per-unit returns in weaker institutional environments. Pacific SIDS (Nhóm VI) constitute a structural exception (Forced Internationalization Penalty), not overextension.
 
 ---
 
