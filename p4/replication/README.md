@@ -73,5 +73,16 @@ Singapore replication:
 - `tables/table_psm_balance.csv` carries no country marker; provenance unverified — left
   in place for review.
 
+### Turning-point reconciliation (R cross-check vs finalized manuscript)
+The bundled R turning-point estimate for Singapore (`SGP2023_full_M2` ≈ 76.4% FSTS in
+`tables/p4_R_turning_points.csv`) differs by a few percentage points from the finalized
+manuscript value (~82% FSTS). This reflects specification/sample differences between this
+secondary R check and the primary Stata estimation (and, per the note above, the Singapore
+CSVs were not fully regenerated from raw DTA in this environment). The **manuscript turning
+point is the authoritative estimate**. In any case the turning point is imprecisely located
+in a sparsely populated upper tail (bootstrap CI [53%, 253%]) and the Lind–Mehlum test does
+not formally confirm an inverted-U there, so the exact point estimate is not load-bearing for
+the paper's conclusions.
+
 ### Citation
 Please cite the manuscript and the World Bank Enterprise Surveys when using this replication package.
