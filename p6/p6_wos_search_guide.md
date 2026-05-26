@@ -273,7 +273,7 @@ Với mỗi bài **mới** (chưa có trong forest_data.csv):
 | r | [giá trị r] |
 | doi_type | EXP / FDI / GEO / COMP |
 | fp_type | ACC / MKT / LAB / MIX |
-| icrv | I / II / III / FR / MX |
+| icrv | I / II / III / FR / SIDS / MX |
 | cdai | H / M / L |
 | dpl_phase | PRE / SPN / FOL |
 

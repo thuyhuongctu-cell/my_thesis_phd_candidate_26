@@ -295,7 +295,7 @@ Author's own publications and papers from known research groups working on I→P
 | Sample size n | Integer | — |
 | DOI measure type | Categorical | EXP / FDI / COUNT / COMP |
 | FP measure type | Categorical | ROA / PROD / COMP / MIX |
-| ICRV regime | Categorical | I / II / III / IV / V / MX |
+| ICRV regime | Categorical | I / II / III / FR / SIDS / MX |
 | cDAI level | Categorical | H / M / L |
 | DPL phase | Categorical | PRE / SPN / FOL |
 
