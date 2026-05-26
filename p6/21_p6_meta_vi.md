@@ -52,6 +52,8 @@ Thứ ba, **tiến trình Vòng đời Nghịch lý Số** (Digital Paradox Life
 
 **Định nghĩa**: ICRV 6-regime phân loại nước xuất xứ theo WGI Rule of Law với thresholds $+0.80$ và $-0.50$ thành sáu mã: Regime I (Advanced-Innovation, WGI $> +0.80$), Regime II (Upper-middle, $0 \leq$ WGI $\leq +0.80$), Regime III (Emerging, $-0.50 <$ WGI $< 0$), Frontier (FR, WGI $< -0.50$), SIDS (Quốc đảo Thái Bình Dương — tương ứng Nhóm VI trong khung ICRV của luận án, boundary case), và Mixed/đa quốc gia (MX, nghiên cứu trải $\geq 2$ regime). Trong corpus hiện tại, ô SIDS không có nghiên cứu đạt chuẩn ($k = 0$), nên kiểm định thực nghiệm chạy trên 5 ô có dữ liệu (xem Mục 4.3).
 
+**Đối chiếu đánh số với hệ chuẩn ICRV 6-regime của luận án**: do corpus meta toàn cầu gộp một số chế độ, P6 dùng đánh số gọn. Bảng đối chiếu: P6 Nhóm I ≡ Nhóm I luận án (Advanced-Innovation); P6 Nhóm II (Upper-middle) ≡ Nhóm III luận án; P6 Nhóm III (Emerging) ≡ Nhóm IV luận án; FR (Frontier) ≡ Nhóm V; SIDS ≡ Nhóm VI. Nhóm II luận án (Advanced Resource-Driven/GCC) không tách riêng trong corpus P6 (các nghiên cứu GCC gộp vào MX hoặc không đủ chuẩn PICO); MX là mã đa quốc gia mang tính phương pháp, không có tương ứng trong hệ I–VI.
+
 **Khoảng trống**: Marano et al. (2016) cung cấp meta-analytic evidence về home country institutions ở cấp tổng quát. Khanna và Palepu (2010) phân tích institutional voids. North (1990) thiết lập nền lý thuyết. Tuy nhiên, không meta nào áp dụng phân loại 6-regime cho khu vực châu Á và Pacific — nơi sự dị biệt thể chế lớn nhất. Doanh nghiệp từ Singapore (Regime I) vận hành theo logic hoàn toàn khác doanh nghiệp từ Afghanistan (Frontier) dù cùng khu vực địa lý.
 
 **Giả thuyết**: Hiệu ứng I→P có gradient rõ rệt theo ICRV regime, với turning point thấp nhất ở Regime I (thể chế tốt, DAI bão hòa) và forced penalty tại SIDS (Đỗ & Phan, 2026 — P8).
@@ -360,7 +362,7 @@ Phân tích subgroup trên 5 ô ICRV có dữ liệu (trong khung 6 mã; ô SIDS
 | MX — Mixed/multi-country | 30 | 0.053 | [0.012, 0.094] |
 | FR — Frontier (Bangladesh, Myanmar…) | 3 | 0.349 | [0.218, 0.468] |
 
-*Ghi chú*: FR ($\bar{r}=0.349$) là **bất thường** do Pouresmaeili et al. (2018) $r=0.69$ chiếm ưu thế ($k=3$ quá nhỏ, không đáng tin cậy). Gradient I>III>II>MX không theo chiều kỳ vọng; Hm2 chỉ "partially supported" do FR anomaly. SIDS không có đủ effect sizes trong pool hiện tại để phân tích subgroup riêng.
+*Ghi chú*: FR ($\bar{r}=0.349$) là **bất thường** do Pouresmaeili et al. (2018) $r=0.69$ chiếm ưu thế ($k=3$ quá nhỏ, không đáng tin cậy). Gradient I>III>II>MX không theo chiều kỳ vọng; Hm2 chỉ "partially supported" do FR anomaly. SIDS không có đủ effect sizes trong pool hiện tại để phân tích subgroup riêng. Đối chiếu hệ chuẩn luận án: P6 II ≡ luận án III, P6 III ≡ luận án IV, FR ≡ V, SIDS ≡ VI (xem Mục 1.4).
 
 ### 4.4 Phân tích moderator: cDAI
 
