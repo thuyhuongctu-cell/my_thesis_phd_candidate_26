@@ -435,7 +435,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 | V, Frontier | <-0,50 | <$1k–$3k | Tự cấp + phi chính thức | Thấp-trung bình | ~1,36 | Yếu; voids thể chế dẫn đến đổi mới bằng nguồn lực hạn chế |
 | VI, SIDS | Đặc biệt | $1k–$8k | MIRAB + du lịch | Rất thấp (1-12%) | ~1,32 | Chi phí buộc phải quốc tế hóa, U-curve không vận hành |
 
-*Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, tháng 7). Pattern WBES từ phân tích Chương 4 và Đỗ & Phan (2026, VEFR, JABS, JFAR, MIR under review).*
+*Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, tháng 7). Pattern WBES từ phân tích Chương 4 và Đỗ & Phan.*
 
 ---
 
@@ -655,7 +655,7 @@ Tám phát hiện từ đợt 2025: (1) Ấn Độ FSTS sụt 5 điểm phần t
 
 #### 2.3.7.1 Singapore (Advanced đổi mới sáng tạo dẫn dắt, n=623, đợt 2023)
 
-FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất 1,03. **Biên trên** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo nghiên cứu Singapore (Mar, Đỗ & Phan, 2026, MIR under review): $R^2$ hiệu chỉnh = 0,196; tương tác $\text{FSTS}^2$ × DAI = 3,119 (p = 0,005); điểm uốn ~82%.
+FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất 1,03. **Biên trên** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo nghiên cứu Singapore: $R^2$ hiệu chỉnh = 0,196; tương tác $\text{FSTS}^2$ × DAI = 3,119 (p = 0,005); điểm uốn ~82%.
 
 **Bối cảnh hệ sinh thái 2025/2026**: Singapore xếp **hạng 2 toàn cầu** trong Innovators Business Environment Index 2026 (StartupBlink, 2026); hạng 4 toàn cầu trong Global Startup Ecosystem Index 2025 với tăng trưởng hệ sinh thái 44,9%; hạng 3 thế giới trong Khảo sát Chính phủ điện tử Liên Hiệp Quốc 2024. Sáng kiến **Smart Nation 2.0** (2024) với 3 trụ cột: Tin tưởng, Tăng trưởng, Cộng đồng.
 
@@ -933,7 +933,7 @@ Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting para
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review, 80*(2), 355-361.
 
-Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Journal of Asia Business Studies* (under review).
+Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Journal of Asia Business Studies*.
 
 Hall, P. A., & Soskice, D. (Eds.). (2001). *Varieties of capitalism: The institutional foundations of comparative advantage*. Oxford University Press.
 
@@ -957,7 +957,7 @@ Kirca, A. H., Hult, G. T. M., Deligonul, S., Perryy, M. Z., & Cavusgil, S. T. (2
 
 Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598-609.
 
-Mar, J., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review* (under review).
+Mar, J., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review*.
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship. *Journal of Management, 42*(5), 1075-1110.
 

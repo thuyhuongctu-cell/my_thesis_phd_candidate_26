@@ -110,7 +110,7 @@ Spec 1 (full coverage 2009–2025) dùng biến nhị phân duy nhất (`website
 
 #### 4.4.5.1 Đối chiếu DAI xuyên quốc gia — Singapore (Tier 1+2) vs Việt Nam (Tier 1 only)
 
-> **Bằng chứng nền tảng**: §2.7 file 14 (Khung 4-Tier Verhoef + CDCM); P4 Singapore manuscript (Mar et al., 2026 — *MIR*); P3 Việt Nam (Đỗ & Phan, 2026 — *APJM*).
+> **Bằng chứng nền tảng**: §2.7 file 14 (Khung 4-Tier Verhoef + CDCM); phân tích Singapore; phân tích Việt Nam.
 
 Ghi chú phân tích nội bộ của tác giả (2026) chỉ ra một **tương phản cốt lõi** giữa hai bản thảo: Singapore (Tier 1+2 = website + e-payment) cho hệ số tương tác DAI×FSTS² **dương mạnh** (β=3,119, p=,005), trong khi Việt Nam (Tier 1 = website only) cho tương tác DAI×FSTS **âm** ở wave 2023 (β=-0,912, p=,043). Đây không phải mâu thuẫn ngẫu nhiên mà là **bằng chứng cho khung CDCM** — giá trị của công cụ số phụ thuộc độ tương thích giữa cấp độ số hóa và mật độ giao dịch quốc tế:
 
@@ -127,7 +127,7 @@ Ghi chú phân tích nội bộ của tác giả (2026) chỉ ra một **tương
 
 *Ghi chú cỡ mẫu: Việt Nam n=2.958 là mẫu phụ đủ biến hồi quy (complete-case), nhỏ hơn tổng n=3.077 doanh nghiệp Việt Nam trong pool (chênh 119 doanh nghiệp, 3,9%) do dữ liệu khuyết ở một số biến giải thích — xem ghi chú đối chiếu cỡ mẫu tại §5.3 file 16.*
 
-**Hàm ý cho lập luận §4.4.5 hiện hành**: Hệ số âm DAI ở Advanced trong Spec 1 (-0,129) không chỉ là *artifact của Tier-1 saturation* (đã lập luận ở §4.4.5) mà còn phản ánh **gãy đổ đo lường** (measurement break) khi Tier 1 không đủ sức quản lý giao dịch ở xuất khẩu cao. Khi mở rộng sang Tier 1+2 (Spec 2 với e-payment), hệ số dương mạnh emerges — replication pattern Singapore P4.
+**Hàm ý cho lập luận §4.4.5 hiện hành**: Hệ số âm DAI ở Advanced trong Spec 1 (-0,129) không chỉ là *artifact của Tier-1 saturation* (đã lập luận ở §4.4.5) mà còn phản ánh **gãy đổ đo lường** (measurement break) khi Tier 1 không đủ sức quản lý giao dịch ở xuất khẩu cao. Khi mở rộng sang Tier 1+2 (Spec 2 với e-payment), hệ số dương mạnh emerges — replication pattern Singapore phân tích Singapore.
 
 **Đề xuất phương pháp luận cho CĐ2** *(robustness check #10)*: Cross-validation construct boundary — chạy Spec 2 chỉ ở 41 nước có đủ Tier 1+2 data (BREADY+ wave); confirm rằng pattern Singapore-style (DAI × FSTS² dương) emerges khi có composite digital adoption metric. Nếu confirm → đóng góp lý thuyết mạnh cho CDCM (Đỗ & Phan, 2026 mở rộng từ APJM sang luận án). Nếu không confirm → cần Tier 3 (ERP/CRM) hoặc Tier 4 (AI) để nắm cơ chế thực sự — hàm ý cho data collection tương lai (limitations §7.3.4 file 16).
 
@@ -252,7 +252,7 @@ Chương 4 cung cấp bức tranh thực trạng đa chiều dựa trên **101.1
 
 **Hàm ý cho CĐ2 và luận án**:
 
-(a) **Hệ giả thuyết H1–H6 (phát biểu hình thức)**. Mỗi giả thuyết nêu rõ dấu dự đoán, cơ chế lý thuyết được định danh và liên kết vận hành hóa với bằng chứng mô tả của CĐ1. Đây là *existence evidence* (bằng chứng tồn tại) của CĐ1; *magnitude evidence* (bằng chứng cường độ) sẽ do mô hình kiểm định của CĐ2 và P6 bổ sung.
+(a) **Hệ giả thuyết H1–H6 (phát biểu hình thức)**. Mỗi giả thuyết nêu rõ dấu dự đoán, cơ chế lý thuyết được định danh và liên kết vận hành hóa với bằng chứng mô tả của CĐ1. Đây là *existence evidence* (bằng chứng tồn tại) của CĐ1; *magnitude evidence* (bằng chứng cường độ) sẽ do mô hình kiểm định của CĐ2 và phân tích tổng hợp bổ sung.
 
 - **H1 (Quan hệ quốc tế hóa–năng suất phi tuyến)**: Quan hệ giữa cường độ xuất khẩu (FSTS) và log năng suất có dạng chữ U ngược (inverted-U): hệ số bậc nhất β₁ > 0 và hệ số bậc hai β₂ < 0. Cơ chế là chi phí điều phối xuyên biên giới tăng phi tuyến vượt một ngưỡng tối ưu (Lu & Beamish, 2004), khuếch đại bởi chi phí giao dịch thể chế (Coase, 1937; Williamson, 1985). Vận hành hóa: FSTS = `d3b + d3c`, FSTS² là bình phương đã trung tâm hóa; kiểm định Lind–Mehlum cho điểm uốn nội miền. Bằng chứng CĐ1 (Mục 6.1.2): điểm uốn Việt Nam ≈ 39–46% (Lind–Mehlum p < 0,013), Trung Quốc ≈ 47,2–49,4% (kiểm định Paternoster bền vững).
 

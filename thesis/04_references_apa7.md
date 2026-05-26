@@ -243,8 +243,6 @@ Pirlea, A. F., Wadhwa, D., Mahler, D., Serajuddin, U., Welch, M., Thudt, A., & L
 
 *Các entry dưới đây được thêm để giải quyết 85 warnings từ format-apa7.py. DOIs đã verify từ bản thảo gốc.*
 
-Mar, K. S., Đỗ, T. H., & Phan, A. T. (2026). Institutional completeness and the internationalization-performance relationship: Capability ceiling and dual substitution evidence from Singapore. *Management International Review* (under review).
-
 Banerjee, A. V., & Duflo, E. (2014). Do firms want to borrow more? Testing credit constraints using a directed lending program. *Review of Economic Studies, 81*(2), 572-607. https://doi.org/10.1093/restud/rdt046
 
 Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99-120. https://doi.org/10.1177/014920639101700108
@@ -314,8 +312,6 @@ Lu, J. W., & Beamish, P. W. (2004). International diversification and firm perfo
 MacKinnon, J. G., & White, H. (1985). Some heteroskedasticity-consistent covariance matrix estimators with improved finite sample properties. *Journal of Econometrics, 29*(3), 305-325. https://doi.org/10.1016/0304-4076(85)90158-7
 
 Manova, K. (2013). Credit constraints, heterogeneous firms, and international trade. *Review of Economic Studies, 80*(2), 711-744. https://doi.org/10.1093/restud/rds036
-
-Mar, T. T., Do, T. H., & Phan, A. T. (2026). *Digital adoption and the internationalization-performance curve: Evidence from Singapore firms* [Manuscript under review]. *Management International Review*.
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075-1110. https://doi.org/10.1177/0149206315624963
 
@@ -417,7 +413,7 @@ Mahler, D. G., Serajuddin, U., Wadhwa, D., & Yonzan, N. (2026, April). *The worl
 
 - Dùng in-text citation theo author-date.
 - 3+ tác giả: dùng *et al.* ngay từ trích dẫn đầu tiên.
-- Trích dẫn công trình của tác giả luận án: dùng suffix năm chuẩn APA 7 — "Do và Phan (2026a)", "Do và Phan (2026g)", v.v. (P1=2026a, P2=2026g, P3=2026e, P5=2026f, P6=2026c, P7=2026d, P8=2026b; P4=Mar et al., 2026).
+- Trích dẫn công trình **đã công bố** của tác giả luận án: dùng suffix năm chuẩn APA 7 — "Do và Phan (2026a)" (*Vietnam Economic & Financial Review*) và "Do và Phan (2026b)" (*Journal of Finance & Accounting Research*). Các phân tích quốc gia/đa quốc gia thành phần (Việt Nam, Singapore, Trung Quốc, tổng hợp, đa quốc gia, SIDS) **chưa xuất bản** nên được trình bày trực tiếp như phân tích của chính luận án, không trích dẫn như nguồn đã công bố.
 - Trích dẫn báo cáo quốc tế thường niên: dùng dạng "IMF (2026, April)" hoặc "ADB (2026, April)".
 - **Trích dẫn ADB Vietnam Outlook 2026 (v2.5)**: dùng dạng "ADB (2026, April — Vietnam Outlook)" để phân biệt với ADO April 2026 cùng năm.
 - **Trích dẫn IFC Blueprint (v2.5)**: dùng dạng "IFC (n.d. — PSD Blueprint)" hoặc "IFC (Private Sector Development Blueprint)" cho rõ.
@@ -767,19 +763,9 @@ Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
 
 Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam.
 
-Do, T. H., & Phan, A. T. (2026a). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic & Financial Review*, *2*(1), 111-115. *(P1 — VEFR, đã công bố.)*
+Do, T. H., & Phan, A. T. (2026a). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic & Financial Review*, *2*(1), 111-115.
 
-Do, T. H., & Phan, A. T. (2026b). *Forced internationalization penalty: Firm performance in Pacific small island developing states* [Manuscript under review]. *World Development*. *(P8 — Pacific SIDS, World Development under review.)*
-
-Do, T. H., & Phan, A. T. (2026c). *Institutional context, digital adoption, and the internationalization-performance relationship: A three-level meta-analysis* [Manuscript under review]. *International Business Review*. *(P6 — Meta-analysis, IBR under review.)*
-
-Do, T. H., & Phan, A. T. (2026d). *Internationalization and firm performance across 49 Asian and Pacific economies: Institutional regimes, digital capabilities, and managerial characteristics as contingency factors* [Manuscript under revision]. *Journal of International Business Studies*. *(P7 — Đa quốc gia 45 nền kinh tế, JIBS under revision.)*
-
-Do, T. H., & Phan, A. T. (2026e). *Revisiting the internationalisation-performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript under review]. *Journal of Asia Business Studies*. *(P3 — Việt Nam, JABS under review.)*
-
-Do, T. H., & Phan, A. T. (2026f). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Manuscript under review]. *International Journal of Emerging Markets*. *(P5 — Trung Quốc, IJOEM under review.)*
-
-Do, T. H., & Phan, A. T. (2026g). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research*, *39*(2), 287-291. *(P2 — JFAR, đã công bố.)*
+Do, T. H., & Phan, A. T. (2026b). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research*, *39*(2), 287-291.
 
 ### Phương pháp kinh tế lượng + Meta-analysis (Section J mở rộng)
 

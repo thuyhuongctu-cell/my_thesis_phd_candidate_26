@@ -44,7 +44,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (Đỗ & Phan, 2026 — VEFR).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript).
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Đỗ & Phan, 2026 — phân tích SIDS Thái Bình Dương manuscript).
 
 ### 3.2 Đo lường biến phụ thuộc — Hiệu quả hoạt động
 
@@ -87,7 +87,7 @@ Luận án phân biệt rõ hai construct:
 
 #### 3.4.3 Top manager characteristics (kiểm soát quản trị nội sinh H4)
 
-**Biến kiểm soát**: top manager experience (năm kinh nghiệm), top manager education, top manager gender (female / male). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (P3/P4/P5). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ.
+**Biến kiểm soát**: top manager experience (năm kinh nghiệm), top manager education, top manager gender (female / male). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (phân tích Việt Nam, Singapore và Trung Quốc). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ.
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
@@ -228,8 +228,8 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 - **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
 - **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; CDDXK_c² là bình phương
 - **NLCN_z_i** = TCI_z_i: năng lực công nghệ — z-std của trung bình(b8₀₁, e6₀₁)
-- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2** — z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm e-payment hai chiều (Tier-2)
-- **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự P3
+- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2** — z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác phân tích Việt Nam ở chỗ bao gồm e-payment hai chiều (Tier-2)
+- **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự phân tích Việt Nam
 - **δ_s**: sector fixed effects (ISIC 1-chữ số)
 - **IMR_i** = nghịch đảo tỷ lệ Mills từ mô hình probit tham gia xuất khẩu (kiểm tra độ nhạy Heckman)
 
@@ -281,7 +281,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (biến phụ thuộc)
 - **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
-- **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện — z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn P3
+- **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện — z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn phân tích Việt Nam
 - **CSS_z_it** = DAI_core_it: chỉ số số hoá cơ bản — chỉ c22b₀₁ (Tier-1 mỏng, single-item binary)
 - **lnLD_it**, **TuoiDN_it**, **SoHuuNN_it**: biến kiểm soát
 - **δ_s**: sector fixed effects; **λ_t**: wave fixed effects (pooled)
@@ -333,7 +333,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 | δ_s | ISIC sector | Sector FE | Hiệu ứng cố định ngành |
 | λ_t | wave (2012/2024) | Wave FE (chỉ pooled) | Hiệu ứng cố định thời kỳ |
 
-*Ghi chú: 217 doanh nghiệp xuất hiện cả hai sóng ("panel core") tạo thêm nhận dạng biến thiên trong mẫu trong khi clustered SE theo idstd xử lý tương quan nội nhóm. DAI Trung Quốc chỉ là Tier-1 đơn biến — không đủ để kiểm định CDCM; hàm ý chính sách và lý thuyết khác với P4 Singapore (Tier-1+2).*
+*Ghi chú: 217 doanh nghiệp xuất hiện cả hai sóng ("panel core") tạo thêm nhận dạng biến thiên trong mẫu trong khi clustered SE theo idstd xử lý tương quan nội nhóm. DAI Trung Quốc chỉ là Tier-1 đơn biến — không đủ để kiểm định CDCM; hàm ý chính sách và lý thuyết khác với phân tích Singapore (Tier-1+2).*
 
 ---
 
@@ -389,7 +389,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} IC
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
 $$\text{H5: } |\beta_2|\text{ (độ cong) tăng khi ICRV tăng (thể chế yếu hơn): } CDDXK\_c^2 \times ICRV < 0;\ \text{điểm uốn không dịch chuyển đơn điệu}$$
 
-**M11** (full three-way — kiểm định H7-P7):
+**M11** (full three-way — kiểm định H7-phân tích đa quốc gia):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
 $$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
@@ -413,7 +413,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |
 | δ_ct | — | country × year FE | Fixed effects |
 
-*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2) → 38.342 (M3, thêm kiểm soát) → 28.500 (M11, thêm manager + ICRV + three-way). DAI P7 là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với P3 Vietnam (Tier-1 only) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
+*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2) → 38.342 (M3, thêm kiểm soát) → 28.500 (M11, thêm manager + ICRV + three-way). DAI phân tích đa quốc gia là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với phân tích Việt Nam Vietnam (Tier-1 only) và đồng nhất với phân tích Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
 
 ### 4.5.5 Mô hình cụ thể — Nghiên cứu 8 (Pacific SIDS, WBES 2009–2025)
 

@@ -94,7 +94,7 @@ Cơ sở lý thuyết: Verhoef et al. (2021) với khung chuyển đổi số; S
 
 ### H4 (kiểm soát quản trị nội sinh): Đặc điểm nhà quản trị cấp cao
 
-**H4 (kiểm soát quản trị nội sinh)**: Kinh nghiệm, học vấn và giới tính nữ của nhà quản trị cấp cao được đưa vào như nhóm biến kiểm soát quản trị nội sinh nâng mặt bằng hiệu quả doanh nghiệp, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Việc kiểm soát các đặc điểm này, thay vì nâng chúng thành trục điều tiết, khóa chặt thiên lệch nội sinh phát sinh từ năng lực và sự đa dạng giới của nhà quản trị, qua đó bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ. Các đặc điểm này vẫn được ước lượng trong các mô hình thực nghiệm, song với tư cách biến kiểm soát; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (P3/P4/P5).
+**H4 (kiểm soát quản trị nội sinh)**: Kinh nghiệm, học vấn và giới tính nữ của nhà quản trị cấp cao được đưa vào như nhóm biến kiểm soát quản trị nội sinh nâng mặt bằng hiệu quả doanh nghiệp, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Việc kiểm soát các đặc điểm này, thay vì nâng chúng thành trục điều tiết, khóa chặt thiên lệch nội sinh phát sinh từ năng lực và sự đa dạng giới của nhà quản trị, qua đó bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ. Các đặc điểm này vẫn được ước lượng trong các mô hình thực nghiệm, song với tư cách biến kiểm soát; ký hiệu H4 được giữ nguyên để bảo đảm tính nhất quán giữa các phân tích quốc gia của luận án.
 
 Cơ sở lý thuyết: Hambrick và Mason (1984) với lý thuyết tầng lớp lãnh đạo; Hsu et al. (2013) với đặc điểm của tổng giám đốc trong quốc tế hóa của doanh nghiệp nhỏ và vừa; Post và Byron (2015) với tỷ lệ nữ trong hội đồng quản trị và hiệu quả doanh nghiệp.
 
@@ -115,7 +115,7 @@ Cơ sở lý thuyết: Wu et al. (2022) với phân tích tổng hợp hai mươ
 | Giả thuyết | Cuộc đối thoại kiểm định chính | Phase phân tích |
 |---|---|---|
 | H1 | Mô hình quadratic với $FSTS$ và $FSTS^2$; Lind–Mehlum U-test | Country-level và multi-country |
-| H1b | Mô hình M1 tuyến tính tại SIDS; Lind–Mehlum U-test (NS); exporters-only robustness | Pacific SIDS (P8) |
+| H1b | Mô hình M1 tuyến tính tại SIDS; Lind–Mehlum U-test (NS); exporters-only robustness | Pacific SIDS |
 | H2 | Tương tác $FSTS \times TCI$ trong hồi quy | Country-level và multi-country |
 | H3 | Tương tác $FSTS \times DAI$ và $FSTS^2 \times DAI$ | Country-level và multi-country |
 | H4 (kiểm soát quản trị nội sinh) | $Manager_{exp}$, $Manager_{educ}$, $Manager_{gender}$ đưa vào ở dạng số hạng chính (kiểm soát mức); số hạng tương tác chỉ báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm | Multi-country (do dữ liệu quy mô lớn) |

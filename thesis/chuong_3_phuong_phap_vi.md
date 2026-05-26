@@ -45,9 +45,9 @@ Luận án sử dụng bộ Khảo sát Doanh nghiệp của Ngân hàng Thế g
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu kinh doanh quốc tế về thị trường mới nổi (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng châu Á mới nổi với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (Do & Phan, 2026a).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Thái Bình Dương**, với 6 chế độ con ICRV (Tiên tiến đổi mới, Tiên tiến dựa vào tài nguyên, Thu nhập trung bình cao, Mới nổi, Cận biên, Quốc đảo nhỏ Thái Bình Dương). Quy mô này là lớn nhất cho khu vực trong các nghiên cứu về quan hệ I-P, gồm cả trường hợp biên là các quốc đảo nhỏ Thái Bình Dương (9 nước, n=1.469, mẫu phân tích sau khi lọc dữ liệu khuyết) cho phép kiểm định gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty; Do & Phan, 2026b).
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Thái Bình Dương**, với 6 chế độ con ICRV (Tiên tiến đổi mới, Tiên tiến dựa vào tài nguyên, Thu nhập trung bình cao, Mới nổi, Cận biên, Quốc đảo nhỏ Thái Bình Dương). Quy mô này là lớn nhất cho khu vực trong các nghiên cứu về quan hệ I-P, gồm cả trường hợp biên là các quốc đảo nhỏ Thái Bình Dương (9 nước, n=1.469, mẫu phân tích sau khi lọc dữ liệu khuyết) cho phép kiểm định gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty) trong phân tích các quốc đảo nhỏ Thái Bình Dương (SIDS) của luận án.
 
-> **Ghi chú về trọng số khảo sát:** WBES cung cấp trọng số khảo sát để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng trọng số khảo sát* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết chứ không phải ước lượng mô tả đại diện tổng thể, trong bối cảnh này, không áp dụng trọng số là thực hành chuẩn trong các nghiên cứu kinh doanh quốc tế sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Hiệu ứng cố định ở cấp quốc gia–năm đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng trọng số có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng trọng số khảo sát cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem Mục 3.5).
+> **Ghi chú về trọng số khảo sát:** WBES cung cấp trọng số khảo sát để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng trọng số khảo sát* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết chứ không phải ước lượng mô tả đại diện tổng thể, trong bối cảnh này, không áp dụng trọng số là thực hành chuẩn trong các nghiên cứu kinh doanh quốc tế sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Hiệu ứng cố định ở cấp quốc gia–năm đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng trọng số có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng trọng số khảo sát cho từng quốc gia riêng lẻ (phân tích Việt Nam, Singapore và Trung Quốc của luận án) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem Mục 3.5).
 
 ### 3.3.2 Đo lường biến phụ thuộc, Hiệu quả hoạt động
 
@@ -65,7 +65,7 @@ Luận án sử dụng bộ Khảo sát Doanh nghiệp của Ngân hàng Thế g
 
 **Biến chính**: tỷ lệ doanh thu xuất khẩu trên tổng doanh thu (Foreign Sales to Total Sales, FSTS). Mô hình có cả $FSTS$, $FSTS^2$ và $FSTS^3$ để kiểm định phi tuyến dạng S và dạng bậc ba.
 
-**Cơ sở kế thừa**: FSTS là thước đo quốc tế hóa phổ biến nhất trong các nghiên cứu I-P (Sullivan, 1994; Hitt et al., 2006). Việc bổ sung $FSTS^2$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Đặc tả bậc ba được Do và Phan (2026g) xác nhận có ý nghĩa thống kê ở Trung Quốc với điểm uốn ~47,8% FSTS, làm mốc nền cho việc kiểm định mở rộng trong luận án.
+**Cơ sở kế thừa**: FSTS là thước đo quốc tế hóa phổ biến nhất trong các nghiên cứu I-P (Sullivan, 1994; Hitt et al., 2006). Việc bổ sung $FSTS^2$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Đặc tả bậc ba được Do và Phan (2026b) xác nhận có ý nghĩa thống kê ở Trung Quốc với điểm uốn ~47,8% FSTS, làm mốc nền cho việc kiểm định mở rộng trong luận án.
 
 ### 3.3.4 Đo lường biến điều tiết
 
@@ -90,7 +90,7 @@ Luận án phân biệt rõ hai khái niệm:
 
 #### Đặc điểm nhà quản trị cấp cao (kiểm soát quản trị nội sinh H4)
 
-**Biến kiểm soát**: kinh nghiệm nhà quản trị cấp cao (số năm), học vấn nhà quản trị cấp cao, giới tính nhà quản trị cấp cao (nữ/nam). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (P3/P4/P5). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.
+**Biến kiểm soát**: kinh nghiệm nhà quản trị cấp cao (số năm), học vấn nhà quản trị cấp cao, giới tính nhà quản trị cấp cao (nữ/nam). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các phân tích đơn quốc gia đồng hành của luận án. Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
@@ -132,7 +132,7 @@ Nếu $\beta_1 > 0$ và $\beta_2 < 0$, quan hệ chữ U ngược được xác 
 
 $$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 FSTS_i^3 + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
-**Cơ sở kế thừa**: Lu và Beamish (2004), Hitt et al. (1997), Contractor et al. (2003); Do và Phan (2026g) cho đặc tả bậc ba ở Trung Quốc với điểm uốn ~47,8% FSTS.
+**Cơ sở kế thừa**: Lu và Beamish (2004), Hitt et al. (1997), Contractor et al. (2003); Do và Phan (2026b) cho đặc tả bậc ba ở Trung Quốc với điểm uốn ~47,8% FSTS.
 
 **Kiểm định U của Lind-Mehlum** (Lind & Mehlum, 2010; Haans et al., 2016) để xác nhận chặt chữ U ngược: kiểm định độ dốc dương ở bên trái và độ dốc âm ở bên phải của miền $FSTS$.
 
@@ -160,7 +160,7 @@ $$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 Y_{2024,i} +
 
 Nếu $\beta_4$ hoặc $\beta_5$ có ý nghĩa, hình dạng đường quan hệ đã dịch chuyển giữa hai mốc thời gian.
 
-**Cơ sở kế thừa**: Wu et al. (2022) với diễn tiến hai mươi năm; Xiao et al. (2013) với các điều kiện bối cảnh riêng của Trung Quốc; Do và Phan (2026g) làm mốc nền bậc ba 2012.
+**Cơ sở kế thừa**: Wu et al. (2022) với diễn tiến hai mươi năm; Xiao et al. (2013) với các điều kiện bối cảnh riêng của Trung Quốc; Do và Phan (2026b) làm mốc nền bậc ba 2012.
 
 **Đóng góp mới**: áp dụng cho Trung Quốc 2012 và 2024 để kiểm định tính ổn định của điểm uốn bậc ba (~47,8% FSTS) sau hơn một thập kỷ chuyển đổi số.
 
@@ -231,8 +231,8 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 - **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
 - **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; C$\text{DDXK}_c^2$ là bình phương
 - **NLCN_z_i** = TCI_z_i: năng lực công nghệ, z-std của trung bình(b8₀₁, e6₀₁)
-- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2**, z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm thanh toán điện tử hai chiều (Tier-2)
-- **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự P3
+- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2**, z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác với phân tích Việt Nam ở chỗ bao gồm thanh toán điện tử hai chiều (Tier-2)
+- **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự phân tích Việt Nam
 - **δ_s**: hiệu ứng cố định ngành (ISIC 1 chữ số)
 - **IMR_i** = nghịch đảo tỷ lệ Mills từ mô hình probit tham gia xuất khẩu (kiểm tra độ nhạy Heckman)
 
@@ -284,7 +284,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (biến phụ thuộc)
 - **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
-- **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện, z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn P3
+- **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện, z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn phân tích Việt Nam
 - **CSS_z_it** = DAI_core_it: chỉ số số hoá cơ bản, chỉ c22b₀₁ (Tier-1 mỏng, đơn biến nhị phân)
 - **lnLD_it**, **TuoiDN_it**, **SoHuuNN_it**: biến kiểm soát
 - **δ_s**: hiệu ứng cố định ngành; **λ_t**: hiệu ứng cố định sóng (chỉ mẫu gộp)
@@ -336,7 +336,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 | δ_s | ngành ISIC | hiệu ứng cố định ngành | Hiệu ứng cố định ngành |
 | λ_t | sóng (2012/2024) | hiệu ứng cố định sóng (chỉ mẫu gộp) | Hiệu ứng cố định thời kỳ |
 
-*Ghi chú: 217 doanh nghiệp xuất hiện cả hai sóng (nhóm lõi xuất hiện hai sóng) tạo thêm nhận dạng biến thiên trong mẫu, trong khi sai số chuẩn gom cụm theo idstd xử lý tương quan nội nhóm. DAI Trung Quốc chỉ là Tier-1 đơn biến, không đủ để kiểm định CDCM; hàm ý chính sách và lý thuyết khác với P4 Singapore (Tier-1+2).*
+*Ghi chú: 217 doanh nghiệp xuất hiện cả hai sóng (nhóm lõi xuất hiện hai sóng) tạo thêm nhận dạng biến thiên trong mẫu, trong khi sai số chuẩn gom cụm theo idstd xử lý tương quan nội nhóm. DAI Trung Quốc chỉ là Tier-1 đơn biến, không đủ để kiểm định CDCM; hàm ý chính sách và lý thuyết khác với phân tích Singapore (Tier-1+2).*
 
 ---
 
@@ -392,7 +392,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} IC
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
 $$\text{H5: } |\beta_2|\text{ (độ cong) tăng khi ICRV tăng (thể chế yếu hơn): } CDDXK\_c^2 \times ICRV < 0;\ \text{điểm uốn không dịch chuyển đơn điệu}$$
 
-**M11** (full three-way, kiểm định H7-P7):
+**M11** (full three-way, kiểm định H7-phân tích đa quốc gia):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
 $$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
@@ -416,7 +416,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0-1) | Kiểm soát (sở hữu) |
 | δ_ct | - | hiệu ứng cố định quốc gia × năm | Hiệu ứng cố định |
 
-*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2), 38.342 (M3, thêm kiểm soát), 28.500 (M11, thêm nhà quản trị + ICRV + tương tác ba chiều). DAI P7 là Tier 1+2 khi k33 có mặt, chỉ Tier-1 khi thiếu, khác với P3 Việt Nam (chỉ Tier-1) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (số nguyên), không phải biến giả, nhằm giữ N đủ lớn trong M10-M11.*
+*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2), 38.342 (M3, thêm kiểm soát), 28.500 (M11, thêm nhà quản trị + ICRV + tương tác ba chiều). DAI phân tích đa quốc gia là Tier 1+2 khi k33 có mặt, chỉ Tier-1 khi thiếu, khác với phân tích Việt Nam (chỉ Tier-1) và đồng nhất với phân tích Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (số nguyên), không phải biến giả, nhằm giữ N đủ lớn trong M10-M11.*
 
 ---
 
@@ -424,7 +424,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,
 
 Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế quốc đảo nhỏ Thái Bình Dương (Pacific SIDS)** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros) từ các sóng WBES 2009-2025. Đây là nhóm thể chế ICRV Nhóm VI, cấp thấp nhất trong phân loại 6 chế độ, đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
 
-Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**, mối quan hệ quốc tế hóa-hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3-P7. Lind-Mehlum U-test không bác bỏ đơn điệu (p >,10), xác nhận không có điểm quay.
+Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**, mối quan hệ quốc tế hóa-hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở phân tích Việt Nam-phân tích đa quốc gia. Lind-Mehlum U-test không bác bỏ đơn điệu (p >,10), xác nhận không có điểm quay.
 
 **Ký hiệu biến (đối chiếu tiếng Việt và mã WBES):**
 
@@ -443,7 +443,7 @@ Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced 
 
 *Ghi chú: CSS_z (DAI) là proxy tĩnh Tier-1 (website nhị phân c22b). WBES không thu thập đủ thang đo cho số hoá động tại các đảo nhỏ, KHÔNG gọi là "năng lực số hoá động".*
 
-**Chuỗi mô hình M0-M3 (P8):**
+**Chuỗi mô hình M0-M3 (SIDS):**
 
 M0, Cơ sở (biến kiểm soát):
 
@@ -535,11 +535,11 @@ Winsor hóa 1% và 5% đối với năng suất lao động và số lao động
 | Phân tích tổng hợp 1982-2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng phạm vi, bổ sung biến điều tiết số hóa và 6 chế độ con ICRV |
 | Mẫu gộp thực nghiệm | Do & Phan (2026a), 17 nước châu Á mới nổi | Mở rộng từ 17 lên **47 nước** với 101.185 doanh nghiệp, 108 cặp quốc gia × năm |
 | Biến phụ thuộc năng suất lao động | Bloom et al. (2012); Hsieh & Klenow (2009); Do & Phan (2026a) | Lập luận rõ về hiệu quả hoạt động đa chiều trong bối cảnh WBES |
-| FSTS + $\text{FSTS}^2$ + $\text{FSTS}^3$ | Lu & Beamish (2004); Hitt et al. (1997); Do & Phan (2026g) | Đưa vào cùng khung điều tiết ba chiều |
+| FSTS + $\text{FSTS}^2$ + $\text{FSTS}^3$ | Lu & Beamish (2004); Hitt et al. (1997); Do & Phan (2026b) | Đưa vào cùng khung điều tiết ba chiều |
 | TCI và DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Quy trình bảo đảm tính thuần nhất khái niệm không chồng lấn cho WBES; lá chắn số mở rộng (Do & Phan, 2026a) |
 | Kiểm định U Lind-Mehlum | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng mẫu quốc gia và đa quốc gia |
 | Điều tiết trọng tâm số hóa × thể chế | Aiken & West (1991); Dawson (2014) | DAI × ICRV, mới cho châu Á và Thái Bình Dương; đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh |
-| Tính không đồng nhất theo thời gian | Wu et al. (2022); Xiao et al. (2013); Do & Phan (2026g) | Kiểm định ổn định Trung Quốc 2012-2024 (điểm uốn ~47,8% FSTS) |
+| Tính không đồng nhất theo thời gian | Wu et al. (2022); Xiao et al. (2013); Do & Phan (2026b) | Kiểm định ổn định Trung Quốc 2012-2024 (điểm uốn ~47,8% FSTS) |
 | Sai số chuẩn vững | Long & Ervin (2000); White (1980) | Chuẩn |
 | Thiên lệch công bố | Egger et al. (1997); Begg & Mazumdar (1994) | Chuẩn |
 
