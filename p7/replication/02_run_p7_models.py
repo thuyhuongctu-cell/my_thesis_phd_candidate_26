@@ -119,6 +119,15 @@ def main():
     print(f"Loading {data_path}")
     df = pd.read_csv(data_path)
     print(f"  Raw rows: {len(df):,}")
+
+    # Scope: 49 Asian & Pacific economies. Exclude economies that sit outside
+    # the Asia-Pacific frame but appear in the harmonised WBES pool:
+    # Turkey & Azerbaijan (Europe & Central Asia); Comoros (Sub-Saharan Africa).
+    out_of_scope = {"Turkey", "Azerbaijan", "Comoros"}
+    n_before = len(df)
+    df = df[~df["country"].isin(out_of_scope)].copy()
+    print(f"  Dropped out-of-scope economies {sorted(out_of_scope)}: "
+          f"-{n_before - len(df):,} rows -> {len(df):,} rows")
     print(f"  Countries: {df['country'].nunique()}")
     print(f"  Country-years: {df.groupby(['country','year']).ngroups}")
 
