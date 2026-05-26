@@ -702,10 +702,10 @@ A significant z confirms the ICRV regime gradient in DAI moderation.
 | File | Rows | Scope | Notes |
 |------|------|-------|-------|
 | `data_wbes/analysis/pooled_wbes_6waves.csv` | 8,589 | P3/P4/P5 countries only (Vietnam, Singapore, China) | Working dataset for empirical papers |
-| `data_wbes/p7/p7_pooled_clean.csv` | 102,332 total; 91,982 non-panel | Full Asia-Pacific WBES scope (49 economies, 102 country-waves) | P7 / CD1 / CD2 full pool |
+| `data_wbes/p7/p7_pooled_clean.csv` | 102,332 total; 98,658 non-panel | Full Asia-Pacific WBES scope (45 economies, 102 country-waves) | P7 / CD1 / CD2 full pool |
 
 **Discrepancy note**: CD1/CD2 manuscripts cite "101,185 firms · 108 country-year pairs ·
-14 survey waves · 47 economies." The current `p7_pooled_clean.csv` has 91,982 non-panel
-firms across 49 economies and 102 country-waves. This discrepancy reflects data updates
+14 survey waves · 47 economies." The current `p7_pooled_clean.csv` has 98,658 non-panel
+firms across 45 economies and 102 country-waves. This discrepancy reflects data updates
 since the CD manuscripts were drafted. When CD1/CD2 are submitted for defence, the pool
 statistics should be re-verified against the final locked P7 dataset.

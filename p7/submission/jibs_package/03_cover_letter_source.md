@@ -10,7 +10,7 @@ Palgrave Macmillan / Academy of International Business
 
 Dear Editor-in-Chief,
 
-We are pleased to submit the above manuscript for consideration for publication in the *Journal of International Business Studies* (JIBS). The manuscript presents the largest WBES-based test of the internationalization–performance (I–P) relationship in Asia and the Pacific, spanning 84,910 firm-observations from 49 economies and 102 country-year waves (2003–2025), and addresses how institutional regime quality, digital adoption, technological capability, and managerial characteristics jointly determine the shape of the I–P function.
+We are pleased to submit the above manuscript for consideration for publication in the *Journal of International Business Studies* (JIBS). The manuscript presents the largest WBES-based test of the internationalization–performance (I–P) relationship in Asia and the Pacific, spanning 82,302 firm-observations from 45 economies and 98 country-year waves (2003–2025), and addresses how institutional regime quality, digital adoption, technological capability, and managerial characteristics jointly determine the shape of the I–P function.
 
 **Relevance to JIBS**
 

@@ -773,7 +773,7 @@ Do, T. H., & Phan, A. T. (2026b). *Forced internationalization penalty: Firm per
 
 Do, T. H., & Phan, A. T. (2026c). *Institutional context, digital adoption, and the internationalization-performance relationship: A three-level meta-analysis* [Manuscript under review]. *International Business Review*. *(P6 — Meta-analysis, IBR under review.)*
 
-Do, T. H., & Phan, A. T. (2026d). *Internationalization and firm performance across 49 Asian and Pacific economies: Institutional regimes, digital capabilities, and managerial characteristics as contingency factors* [Manuscript under revision]. *Journal of International Business Studies*. *(P7 — Đa quốc gia 49 nền kinh tế, JIBS under revision.)*
+Do, T. H., & Phan, A. T. (2026d). *Internationalization and firm performance across 49 Asian and Pacific economies: Institutional regimes, digital capabilities, and managerial characteristics as contingency factors* [Manuscript under revision]. *Journal of International Business Studies*. *(P7 — Đa quốc gia 45 nền kinh tế, JIBS under revision.)*
 
 Do, T. H., & Phan, A. T. (2026e). *Revisiting the internationalisation-performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript under review]. *Journal of Asia Business Studies*. *(P3 — Việt Nam, JABS under review.)*
 

@@ -342,7 +342,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 ### 3.4.5.4 Mô hình cụ thể, Nghiên cứu 7 (Đa quốc gia châu Á, WBES 2003-2025)
 
-Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **49 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003-2025). Mẫu phân tích toàn phần đạt N = 84.910 (M0-M2) đến N = 29.840 (M11 đầy đủ). Thiết kế OLS phân cấp với sai số chuẩn vững HC1, gom cụm theo quốc gia–năm. Ký hiệu tiếng Việt:
+Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **45 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003-2025). Mẫu phân tích toàn phần đạt N = 82.302 (M0-M2) đến N = 28.500 (M11 đầy đủ). Thiết kế OLS phân cấp với sai số chuẩn vững HC1, gom cụm theo quốc gia–năm. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực), biến phụ thuộc
 - **CDDXK_c_it**: cường độ xuất khẩu điều chỉnh trung bình, FSTS_c = (d3c/100) − mean_pool(FSTS)
@@ -415,7 +415,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0-1) | Kiểm soát (sở hữu) |
 | δ_ct | - | hiệu ứng cố định quốc gia × năm | Hiệu ứng cố định |
 
-*Ghi chú: Mẫu phân tích giảm dần từ N = 84.910 (M2), 38.342 (M3, thêm kiểm soát), 29.840 (M11, thêm nhà quản trị + ICRV + tương tác ba chiều). DAI P7 là Tier 1+2 khi k33 có mặt, chỉ Tier-1 khi thiếu, khác với P3 Việt Nam (chỉ Tier-1) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (số nguyên), không phải biến giả, nhằm giữ N đủ lớn trong M10-M11.*
+*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2), 38.342 (M3, thêm kiểm soát), 28.500 (M11, thêm nhà quản trị + ICRV + tương tác ba chiều). DAI P7 là Tier 1+2 khi k33 có mặt, chỉ Tier-1 khi thiếu, khác với P3 Việt Nam (chỉ Tier-1) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (số nguyên), không phải biến giả, nhằm giữ N đủ lớn trong M10-M11.*
 
 ---
 

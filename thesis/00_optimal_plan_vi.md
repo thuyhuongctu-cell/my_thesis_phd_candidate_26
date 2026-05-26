@@ -33,7 +33,7 @@ Một đóng góp lý thuyết đặc biệt là **tái định vị Uppsala mod
 
 ### 2.2 Tính mới về phương pháp
 
-Luận án kết hợp **meta-analytic synthesis** (cập nhật 1982–2026, pool K=288 / k=238 baseline, mục tiêu k≥250 sau formal search) với **multi-country empirical analysis** sử dụng dữ liệu vi mô của các nền kinh tế châu Á (101.185 doanh nghiệp · 108 cặp quốc gia × năm · giai đoạn 2009–2025) từ World Bank Enterprise Surveys, kế thừa và mở rộng từ pool 17 nước châu Á mới nổi đã được tác giả công bố trước đó (Đỗ & Phan, 2026 — VEFR). Pool đầy đủ bao gồm 47–49 nền kinh tế châu Á và Thái Bình Dương (bao gồm 6–8 nền kinh tế Pacific SIDS) trong phạm vi đề tài chính thức. Thiết kế nghiên cứu mixed synthesis-empirical này hiếm gặp trong literature IB về châu Á và cho phép đối thoại đồng thời giữa bằng chứng tổng hợp ở cấp literature và bằng chứng thực nghiệm trực tiếp ở cấp doanh nghiệp (Borenstein et al., 2009; Hunter & Schmidt, 2004).
+Luận án kết hợp **meta-analytic synthesis** (cập nhật 1982–2026, pool K=288 / k=238 baseline, mục tiêu k≥250 sau formal search) với **multi-country empirical analysis** sử dụng dữ liệu vi mô của các nền kinh tế châu Á (101.185 doanh nghiệp · 108 cặp quốc gia × năm · giai đoạn 2009–2025) từ World Bank Enterprise Surveys, kế thừa và mở rộng từ pool 17 nước châu Á mới nổi đã được tác giả công bố trước đó (Đỗ & Phan, 2026 — VEFR). Pool đầy đủ bao gồm 45 nền kinh tế châu Á và Thái Bình Dương (bao gồm 6–8 nền kinh tế Pacific SIDS) trong phạm vi đề tài chính thức. Thiết kế nghiên cứu mixed synthesis-empirical này hiếm gặp trong literature IB về châu Á và cho phép đối thoại đồng thời giữa bằng chứng tổng hợp ở cấp literature và bằng chứng thực nghiệm trực tiếp ở cấp doanh nghiệp (Borenstein et al., 2009; Hunter & Schmidt, 2004).
 
 ### 2.3 Tính mới về thực nghiệm
 
@@ -78,7 +78,7 @@ Luận án tập trung vào các nền kinh tế châu Á với 6 sub-regime ICR
 
 - **Đối tượng nghiên cứu**: mối quan hệ giữa quốc tế hóa và hiệu quả hoạt động của doanh nghiệp ở Châu Á, cùng các yếu tố điều tiết thuộc ba tầng (thể chế, năng lực, quản trị) cộng với lớp digital.
 - **Đơn vị phân tích**: doanh nghiệp cấp vi mô (firm-level).
-- **Phạm vi không gian**: 47–49 nền kinh tế châu Á và Thái Bình Dương có dữ liệu WBES, tổ chức theo **6 sub-regime ICRV** (I: Advanced innovation-driven, II: Advanced resource-driven, III: Upper-middle, IV: Emerging, V: Frontier, VI: Pacific SIDS). P8 mở rộng thêm bằng phân tích chuyên sâu các nền kinh tế Nhóm VI (SIDS) để kiểm định forced internationalization penalty (Đỗ & Phan, 2026). Nhật Bản hiện chưa có dữ liệu WBES phù hợp nên không thuộc empirical scope.
+- **Phạm vi không gian**: 45 nền kinh tế châu Á và Thái Bình Dương có dữ liệu WBES, tổ chức theo **6 sub-regime ICRV** (I: Advanced innovation-driven, II: Advanced resource-driven, III: Upper-middle, IV: Emerging, V: Frontier, VI: Pacific SIDS). P8 mở rộng thêm bằng phân tích chuyên sâu các nền kinh tế Nhóm VI (SIDS) để kiểm định forced internationalization penalty (Đỗ & Phan, 2026). Nhật Bản hiện chưa có dữ liệu WBES phù hợp nên không thuộc empirical scope.
 - **Phạm vi thời gian**: literature pool 1982–2026 cho meta-analysis; WBES 2009–2025 (16 năm × 14 mốc khảo sát, 108 cặp quốc gia × năm) cho phase thực nghiệm.
 
 ## 5. Nguồn dữ liệu và bản thảo nội bộ

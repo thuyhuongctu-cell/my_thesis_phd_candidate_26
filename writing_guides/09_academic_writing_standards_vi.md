@@ -22,7 +22,7 @@ Cộng với APA 7th + PRISMA 2020 đã có trong các file trước.
 - **P4**: Singapore — *Management International Review* (MIR, Springer) (submission ready)
 - **P5**: China temporal evolution 2012–2024 — *International Journal of Organizational and Emotional Management* (IJOEM, Emerald) (submission ready)
 - **P6**: Meta-analysis update — *International Business Review* (IBR, Elsevier) (in progress)
-- **P7**: Asian capstone (47–49 economies) — *JIBS* (under revision)
+- **P7**: Asian capstone (47–45 economies) — *JIBS* (under revision)
 - **P8**: Pacific SIDS Forced Internationalization Penalty — *World Development* (đang submit)
 
 ### B. Luận án tiếng Việt (CTU 5 chương)

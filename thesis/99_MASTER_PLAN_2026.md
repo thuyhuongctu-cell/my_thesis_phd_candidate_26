@@ -5,7 +5,7 @@
 **Người hướng dẫn:** PGS.TS. Phan Anh Tú | **Đơn vị:** Trường Kinh tế, ĐH Cần Thơ
 
 > **Sơ đồ tổng quan luận án (minh họa):** [`figures/dissertation_roadmap_vi.mermaid`](figures/dissertation_roadmap_vi.mermaid) · bản tiếng Anh: [`figures/dissertation_roadmap_en.mermaid`](figures/dissertation_roadmap_en.mermaid).
-> *Lưu ý: sơ đồ chỉ mang tính minh họa; cách đánh số và tiêu đề bài báo theo các file thực tế trong kho mới là chuẩn (ví dụ P3 = Việt Nam, P4 = Singapore, P7 = capstone 49 nền kinh tế → JIBS).*
+> *Lưu ý: sơ đồ chỉ mang tính minh họa; cách đánh số và tiêu đề bài báo theo các file thực tế trong kho mới là chuẩn (ví dụ P3 = Việt Nam, P4 = Singapore, P7 = capstone 45 nền kinh tế → JIBS).*
 
 ---
 
@@ -126,14 +126,14 @@
 
 ---
 
-### P7 — Multi-Country Capstone (49 economies) 🟢 SẴN SÀNG NỘP
+### P7 — Multi-Country Capstone (45 economies) 🟢 SẴN SÀNG NỘP
 - **Target journal:** Journal of International Business Studies (JIBS) — ABS-4*, FT-50
 - **Submission portal:** mc.manuscriptcentral.com/jibs
 - **Files đã có:**
   - `p7/submission/jibs_package/01_manuscript_blinded.docx`
   - `p7/submission/jibs_package/02_title_page.docx`
   - `p7/submission/jibs_package/03_cover_letter.docx`
-- **Nội dung bài:** N=84,910–91,982, 49 economies, M0–M11, TP≈36% (LM p<.001)
+- **Nội dung bài:** N=82,302–98,658, 45 economies, M0–M11, TP≈37% (LM p<.001)
 - **Dữ liệu:** `data_wbes/p7/p7_pooled_clean.csv` (24MB)
 
 **⚠️ Lưu ý:**

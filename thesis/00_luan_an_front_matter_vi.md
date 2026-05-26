@@ -126,7 +126,7 @@ nghiệp ở châu Á và khu vực lân cận, dựa trên dữ liệu vi mô K
 hàng Thế giới (World Bank Enterprise Survey). Nghiên cứu sử dụng khung Biến thiên chế độ bối cảnh thể chế (Institutional Context Regime Variation — ICRV) để
 giải thích vì sao mối quan hệ quốc tế hóa–hiệu quả thay đổi giữa các nền kinh tế. Hệ thống công
 trình gồm một phân tích tổng hợp ba tầng, các nghiên cứu đơn quốc gia (Việt Nam, Singapore,
-Trung Quốc), một nghiên cứu đa quốc gia trên 49 nền kinh tế, và một trường hợp biên là các
+Trung Quốc), một nghiên cứu đa quốc gia trên 45 nền kinh tế, và một trường hợp biên là các
 quốc đảo nhỏ đang phát triển Thái Bình Dương.
 
 Kết quả cho thấy quan hệ quốc tế hóa–hiệu quả có dạng chữ U ngược về hình thức, song điểm tối
@@ -152,7 +152,7 @@ Asian and neighbouring economies, drawing on firm-level microdata from the World
 Survey. It applies the Institutional Context Regime Variation (ICRV) framework to
 explain why the internationalization–performance relationship varies across economies. The body of
 work comprises a three-level meta-analysis, single-economy studies (Vietnam, Singapore, China), a
-multi-economy study spanning 49 economies, and a boundary case of Pacific Small Island Developing
+multi-economy study spanning 45 economies, and a boundary case of Pacific Small Island Developing
 States.
 
 The findings indicate that the internationalization–performance relationship is universal in its

@@ -99,7 +99,7 @@ Hệ thống mười (10) công trình của nghiên cứu sinh gắn với nộ
 
 8. Đỗ Thùy Hương, & Phan Anh Tú. *Institutional context, digital adoption, and the I–P relationship: A three-level meta-analysis* [P6]. (International Business Review)
 
-9. Đỗ Thùy Hương, & Phan Anh Tú. *Where internationalization pays: ... across 49 economies* [P7]. (Journal of International Business Studies)
+9. Đỗ Thùy Hương, & Phan Anh Tú. *Where internationalization pays: ... across 45 economies* [P7]. (Journal of International Business Studies)
 
 10. Đỗ Thùy Hương, & Phan Anh Tú. *Forced internationalization penalty: Pacific SIDS* [P8]. (World Development)
 

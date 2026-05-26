@@ -358,7 +358,7 @@ def p7_conceptual_model():
             fontsize=7.5, style='italic')
 
     ax.text(0.50, 0.01,
-            'Controls: ln(Employees), Firm Age, Foreign Ownership | Country-Year FE | N=84,910–29,840; 49 economies',
+            'Controls: ln(Employees), Firm Age, Foreign Ownership | Country-Year FE | N=82,302–28,500; 45 economies',
             ha='center', va='bottom', fontsize=7.5, color='#555555')
 
     legend_els = [
@@ -431,7 +431,7 @@ def p7_icrv_gradient():
             transform=ax2.transAxes, fontsize=7, color='#555555')
 
     fig.suptitle('Figure 2. Institutional Gradient in I-P Relationship — P7 Multi-Country Asia\n'
-                 '(N=84,910–91,982; 49 economies; country-year FE)', fontsize=10, y=1.01)
+                 '(N=82,302–98,658; 45 economies; country-year FE)', fontsize=10, y=1.01)
     fig.tight_layout()
     save(fig, os.path.join(fig_dir('p7'), 'figure_2_icrv_gradient.png'))
 
@@ -521,7 +521,7 @@ def p8_fip_curve():
     ax.plot(x * 100, y_biv,    color='#888888', ls='dashdot', lw=1.4,
             label='M_bivariate: β=−1.596***')
     ax.plot(x * 100, y_hyp,    color='#aaaaaa', ls='dotted',  lw=1.4,
-            label='Reference: inverted-U\n(P3 pooled TP≈36%)', alpha=0.7)
+            label='Reference: inverted-U\n(P3 pooled TP≈37%)', alpha=0.7)
 
     ax.axhline(0, color='#cccccc', lw=0.8)
     ax.set_xlabel('Export Intensity — FSTS (%)', fontsize=11)

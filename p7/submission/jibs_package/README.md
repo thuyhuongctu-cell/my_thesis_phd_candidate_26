@@ -49,11 +49,11 @@
 | Abstract | ~250 words |
 | Tables | 3 (in Appendix A) + Appendix B reference |
 | Figures | 0 (results in tables) |
-| Observations | 84,910 (M2) → 29,840 (M11) |
+| Observations | 82,302 (M2) → 28,500 (M11) |
 | Economies | 49 (41 Asian + 8 Pacific SIDS boundary) |
 | Country-year waves | 102 (2003–2025) |
-| Baseline turning point | 36.4% FSTS (Lind–Mehlum p < .001) |
-| M11 turning point | 34.6% FSTS (p = .002) |
+| Baseline turning point | 37.1% FSTS (Lind–Mehlum p < .001) |
+| M11 turning point | 25.7% FSTS (p = .002) |
 
 ---
 

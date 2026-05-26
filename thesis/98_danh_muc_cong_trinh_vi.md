@@ -26,7 +26,7 @@ Hệ thống mười (10) công trình của nghiên cứu sinh gắn với nộ
 
 8. Đỗ Thùy Hương, & Phan Anh Tú. *Institutional context, digital adoption, and the internationalization–performance relationship: A three-level meta-analysis* [P6]. (Đang nộp — International Business Review)
 
-9. Đỗ Thùy Hương, & Phan Anh Tú. *Where internationalization pays: Institutional regime and digital capability as joint determinants of the performance optimum across 49 economies* [P7]. (Đang nộp — Journal of International Business Studies)
+9. Đỗ Thùy Hương, & Phan Anh Tú. *Where internationalization pays: Institutional regime and digital capability as joint determinants of the performance optimum across 45 economies* [P7]. (Đang nộp — Journal of International Business Studies)
 
 10. Đỗ Thùy Hương, & Phan Anh Tú. *Forced internationalization penalty: Firm performance in Pacific Small Island Developing States* [P8]. (Đang nộp — World Development)
 
