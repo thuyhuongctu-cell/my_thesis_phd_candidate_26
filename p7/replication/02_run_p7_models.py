@@ -120,17 +120,16 @@ def main():
     df = pd.read_csv(data_path)
     print(f"  Raw rows: {len(df):,}")
 
-    # Scope: Asia-Pacific defined by the World Bank's operational regions —
-    # East Asia & Pacific (EAP) + South Asia (SAR) + the West-Asian part of
-    # Middle East, North Africa, Afghanistan & Pakistan (MENAAP). Economies the
-    # World Bank files under Europe & Central Asia (ECA) or Sub-Saharan Africa
-    # (AFR) are outside this frame and dropped, even where they appear in the
-    # harmonised WBES pool. ECA: Turkey, Azerbaijan, Armenia, Georgia, Cyprus,
-    # Kazakhstan, Kyrgyz Rep., Tajikistan, Turkmenistan, Uzbekistan. AFR: Comoros.
+    # Scope: a geographical definition of Asia (UN M.49 macro-regions — East,
+    # Southeast, South, Central and West Asia) plus the Pacific. To keep the
+    # frame internally consistent we drop every economy that straddles the
+    # Europe/Asia boundary: the transcontinental South Caucasus (Armenia,
+    # Azerbaijan, Georgia), Turkey, and Cyprus — all of which the World Bank
+    # files under Europe & Central Asia. Comoros (Sub-Saharan Africa) is also
+    # dropped. Central Asia and the West-Asian Gulf/Levant are retained as
+    # undisputed parts of the Asian landmass.
     out_of_scope = {
-        "Turkey", "Azerbaijan", "Armenia", "Georgia", "Cyprus",
-        "Kazakhstan", "KyrgyzRepublic", "Tajikistan", "Turkmenistan", "Uzbekistan",
-        "Comoros",
+        "Turkey", "Azerbaijan", "Armenia", "Georgia", "Cyprus", "Comoros",
     }
     n_before = len(df)
     df = df[~df["country"].isin(out_of_scope)].copy()
