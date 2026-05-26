@@ -475,7 +475,7 @@ resolves, (3) what methodological advance enables this resolution.
 | Paper | Core finding | Prior ambiguity resolved | Methodological advance |
 |-------|-------------|------------------------|----------------------|
 | P3 Vietnam | TP ≈ 12–13% FSTS; TCI positive; DAI null in 2009/2015, positive in 2023 | Whether CDCM holds in Frontier regime | First 3-wave Vietnam test; Paternoster z-test for coefficient stability |
-| P4 Singapore | TP ≈ 88.6% FSTS; DAI amplification at high FSTS; Heckman IMR confirms pattern | Whether DAI amplification is strongest in Advanced regime (CDCM Group I prediction) | Exporters-only identification; DAI Tier-1+2 composite; bootstrapped TP CI |
+| P4 Singapore | TP ≈ 82% FSTS; DAI amplification at high FSTS; Heckman IMR confirms pattern | Whether DAI amplification is strongest in Advanced regime (CDCM Group I prediction) | Exporters-only identification; DAI Tier-1+2 composite; bootstrapped TP CI |
 | P5 China | TP ≈ 48–49% FSTS; TCI positive; DAI binary (website) null; 2012→2024 shift | Whether CDCM holds in Upper-Middle Transition regime; DPL phase shift | 2-wave cross-cohort comparison; Paternoster cross-wave z-test |
 | P6 meta | r̄ = 0.07, I² = 88%; ICRV gradient confirmed; cDAI positive; DPL phase inflection | Conflation of institutional context with capability effects in prior meta-analyses | Three-level MARA with 3 new moderators; ICRV as continuous regime moderator |
 

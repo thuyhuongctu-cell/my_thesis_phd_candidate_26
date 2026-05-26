@@ -331,7 +331,7 @@ would resolve [specific ambiguity] by [mechanism of resolution].
 
 > First, the cross-sectional structure of WBES precludes causal identification of the FSTS–productivity association. HC1 robust standard errors and country-year fixed effects control for observable heterogeneity, but reverse causality — more productive firms self-selecting into exporting — cannot be ruled out within the OLS framework. The IV specification (Panel K) partially addresses this, but first-stage F-statistics near the weak-instrument threshold (F = 34.6 for DAI, F = 22.1 for TCI) counsel caution. Future work with randomized export promotion programs as natural instruments would provide cleaner identification.
 
-> Second, single-economy scope limits generalizability. The turning points estimated here (39–46% FSTS) apply to Vietnamese firms operating under ICRV Regime III institutional conditions (WGI Rule of Law ≈ −0.4). Firms in ICRV Regime I (Singapore, WGI > +1.5) are documented to exhibit turning points near 88.6% (P4) — a fivefold difference that underscores the institutional contingency of I–P curvature. Readers should not generalize the specific turning-point estimates beyond settings with comparable institutional distance profiles.
+> Second, single-economy scope limits generalizability. The turning points estimated here (39–46% FSTS) apply to Vietnamese firms operating under ICRV Regime III institutional conditions (WGI Rule of Law ≈ −0.4). Firms in ICRV Regime I (Singapore, WGI > +1.5) are documented to exhibit turning points near 82% (P4) — a marked difference that underscores the institutional contingency of I–P curvature. Readers should not generalize the specific turning-point estimates beyond settings with comparable institutional distance profiles.
 
 ---
 
@@ -488,7 +488,7 @@ The IV specification (§3.6) addresses this concern using [instrument].
 |-------------|-----------|---------|
 | Design choice | "Cross-sectional WBES data preclude causal identification; IV partially addresses this (F = 34.6)" | "Cross-sectional data is a limitation" |
 | Avoidable flaw | Thừa nhận và giải thích bước để xử lý | Giả vờ không có |
-| Scope constraint | "Turning points apply to ICRV III settings (WGI ≈ −0.4); ICRV I contexts yield different estimates (P4: TP ≈ 88.6%)" | "Results may not generalize" |
+| Scope constraint | "Turning points apply to ICRV III settings (WGI ≈ −0.4); ICRV I contexts yield different estimates (P4: TP ≈ 82%)" | "Results may not generalize" |
 
 #### Kết luận (Writing Tips §VIII — 5-6 đoạn chặt):
 1. Tóm tắt kết quả chính

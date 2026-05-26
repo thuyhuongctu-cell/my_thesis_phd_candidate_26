@@ -316,7 +316,7 @@ heterogeneity?
 ✅ P1 Emerging Asia 17 economies (VEFR 2026)
 ✅ P2 China SMEs (JFAR 2026)
 ✅ P3 Vietnam — Nhóm IV (Lower_mid_transition), inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
-✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft → MIR)
+✅ P4 Singapore — Advanced I, inverted-U (TP ~82% FSTS), DAI Tier-1+2 moderation (draft → MIR)
 ✅ P5 China temporal 2012–2024 (manuscript complete → IJOEM)
 ✅ P6 Meta-analysis three-level MARA k=238 (manuscript complete → IBR — International Business Review; r=0.074, I²=62.4%, ICRV Q_M=17.35**)
 ✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → JIBS; N=84,910, TP≈36%, DAI moderation p<.01)
@@ -324,7 +324,7 @@ heterogeneity?
 
 INSTITUTIONAL GRADIENT:
 Vietnam (Nhóm IV — Lower_mid_transition*)  → Inverted-U, TP ~39–46% FSTS (low optimum, lower-middle transition constraint)
-Singapore (Advanced I)               → Inverted-U, TP ~88.6% FSTS (wide CI [53–253%], support-constrained)
+Singapore (Advanced I)               → Inverted-U, TP ~82% FSTS (wide CI [53–253%], support-constrained)
 China (Upper-middle III)             → Inverted-U, TP ~47–49% FSTS (stable 2012→2024, Paternoster z=0.82)
 Asian capstone (all 6 ICRV groups)  → Heterogeneous moderation; P7 TP~36%, DAI≠TCI
 Pacific SIDS (SIDS_small / VI)       → REVERSED slope (Forced Penalty), β(FSTS_c)=−0.404 (p=.032*); exporters-only β=−0.901 (p=.027*); year-FE-only β=−1.236 (p<.001***) [R replication, N=1,469, 9 SIDS countries, 2009–2025]

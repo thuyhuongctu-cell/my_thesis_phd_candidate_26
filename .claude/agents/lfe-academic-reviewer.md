@@ -29,7 +29,7 @@ python3 scripts/academic_language_check.py p3/p3_vietnam_en_clean.md
 ### 2. Statistical anchors (manual cross-check)
 Verify these exact values appear in the correct paper:
 - P3: β(TCI_pooled) = 0.179; TP = 39.7% pooled; Paternoster z = 3.353; N = 2,958
-- P4: DAI×FSTS² = +3.119 (p = .005); TP ≈ 88.6%; N = 623
+- P4: DAI×FSTS² = +3.119 (p = .005); TP ≈ 82%; N = 623
 - P5: TP_2012 = 49.4%; TP_2024 = 47.2%; Paternoster p = .545; N = 4,559
 
 ### 3. Citation consistency (via script)

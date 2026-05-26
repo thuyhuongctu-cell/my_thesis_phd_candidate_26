@@ -101,7 +101,7 @@ Phân tích publication bias gồm ba kiểm định bổ sung nhau. **Kiểm đ
 
 Phân tích trên mẫu doanh nghiệp Singapore từ dữ liệu WBES với $N = 237$ doanh nghiệp xuất khẩu xác nhận mối quan hệ phi tuyến (inverted U-shape) giữa FSTS và hiệu quả hoạt động ở mức có ý nghĩa thống kê ($p < {,}05$). Mô hình bậc hai với biến FSTS và FSTS$^2$ cho hệ số bậc hai âm, phù hợp với dạng chữ U ngược như kỳ vọng từ H1 trong khung lý thuyết CDCM.
 
-Điểm turning point ước lượng được ở mức **TP ≈ 88,6\% FSTS** — đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
+Điểm turning point ước lượng được ở mức **TP ≈ 82\% FSTS** — đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
 
 ### 4.3.2 Điều tiết bởi Digital Adoption Index (DAI)
 
@@ -158,7 +158,7 @@ Turning point được ước lượng riêng cho từng làn sóng và cho pool
 | 2023     | 41,6% FSTS   |
 | Pooled   | 39,7% FSTS   |
 
-Điểm turning point trong khoảng **39–46% FSTS** đặt Việt Nam ở mức "thấp hơn đáng kể" so với Singapore (TP ≈ 88,6%) và tương đương hoặc thấp hơn Trung Quốc (TP ≈ 48,78%). Kiểm định Paternoster so sánh turning point giữa 2009 và 2015 cho kết quả $z = 3{,}353$, $p < {,}001$ — có ý nghĩa thống kê, cho thấy turning point đã dịch chuyển đáng kể từ 46,2\% xuống 39,3\% giữa hai làn sóng.
+Điểm turning point trong khoảng **39–46% FSTS** đặt Việt Nam ở mức "thấp hơn đáng kể" so với Singapore (TP ≈ 82%) và tương đương hoặc thấp hơn Trung Quốc (TP ≈ 48,78%). Kiểm định Paternoster so sánh turning point giữa 2009 và 2015 cho kết quả $z = 3{,}353$, $p < {,}001$ — có ý nghĩa thống kê, cho thấy turning point đã dịch chuyển đáng kể từ 46,2\% xuống 39,3\% giữa hai làn sóng.
 
 ### 4.5.3 Điều tiết bởi TCI — Tích cực và có ý nghĩa
 

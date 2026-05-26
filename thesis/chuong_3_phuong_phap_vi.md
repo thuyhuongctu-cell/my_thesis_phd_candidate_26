@@ -246,7 +246,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 
 > M2 (Bậc hai FSTS, kiểm định H1):
 > lnNSLD_i = α + $\beta_1$ CDDXK_c_i + $\beta_2$ C$\text{DDXK}_c^2$_i + γ, X_i + δ_s + ε_i
-> H1: $\beta_1$ > 0, $\beta_2$ < 0; TP* = −$\beta_1$/(2$\beta_2$) $\approx$ 88,6% FSTS [CI bootstrap [53%, 253%]]
+> H1: $\beta_1$ > 0, $\beta_2$ < 0; TP* = −$\beta_1$/(2$\beta_2$) + trung bình mẫu $\approx$ 82% FSTS [CI bootstrap [53%, 253%]]
 > Lưu ý: Lind-Mehlum p = 0,303, không bác bỏ tuyến tính trong phạm vi dữ liệu quan sát; đây là kết quả thông tin tích cực theo khung bão hòa (saturation framework)
 
 > M3 (+ NLCN, H1-TCI trực tiếp):
