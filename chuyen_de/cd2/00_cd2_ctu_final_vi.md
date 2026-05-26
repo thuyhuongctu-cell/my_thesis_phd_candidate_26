@@ -284,7 +284,7 @@ Bausch và Krist (2007) phân tích 68 nghiên cứu (1980-2005) và tìm thấy
 
 Kirca và cộng sự (2012) tổng hợp 180 nghiên cứu với 824 cỡ hiệu ứng, tìm thấy mối quan hệ dương trung bình nhưng với điều tiết đáng kể từ loại hình quốc tế hóa, thước đo hiệu quả, và thuộc tính doanh nghiệp. Cường độ R&D là biến điều tiết cấp doanh nghiệp mạnh nhất (β_meta = +0,12, p < 0,001). Hạn chế: thiếu bằng chứng từ châu Á và thị trường mới nổi; không có biến số; không bao gồm SIDS hay nền kinh tế cận biên.
 
-Marano và cộng sự (2016) phân tích 333 nghiên cứu với cách tiếp cận tập trung vào thể chế. Phát hiện chính: chất lượng thể chế quốc gia xuất xứ có thể dịch chuyển điểm uốn $\pm$15% FSTS, đây là nền tảng quan trọng nhất ủng hộ gradient ICRV trong H5. Hạn chế: không phân tách TCI và DAI; không có dữ liệu sau 2015; không bao gồm quốc đảo nhỏ.
+Marano và cộng sự (2016) phân tích 333 nghiên cứu với cách tiếp cận tập trung vào thể chế. Phát hiện chính: bối cảnh thể chế quốc gia xuất xứ điều tiết đáng kể mối quan hệ I-P, củng cố cơ sở cho H5 (điều tiết theo chế độ thể chế ICRV) — trong nghiên cứu này được vận hành hóa như sự thay đổi *độ cong (concavity)* của đường cong theo chất lượng thể chế, chứ không phải sự dịch chuyển đơn điệu của điểm uốn. Hạn chế: không phân tách TCI và DAI; không có dữ liệu sau 2015; không bao gồm quốc đảo nhỏ.
 
 Wu, Wood và Khan (2022) tổng hợp 20 năm bằng chứng từ doanh nghiệp đa quốc gia thị trường mới nổi, tìm thấy điểm uốn thấp hơn so với doanh nghiệp từ nền kinh tế phát triển khoảng 12-18% FSTS do khoảng cách năng lực hấp thụ. Hạn chế: không kiểm định giai đoạn số hóa; không sử dụng dữ liệu vi mô WBES; không phân biệt TCI và DAI.
 
