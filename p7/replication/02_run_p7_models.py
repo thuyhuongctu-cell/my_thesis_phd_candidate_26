@@ -120,9 +120,13 @@ def main():
     df = pd.read_csv(data_path)
     print(f"  Raw rows: {len(df):,}")
 
-    # Scope: 49 Asian & Pacific economies. Exclude economies that sit outside
-    # the Asia-Pacific frame but appear in the harmonised WBES pool:
-    # Turkey & Azerbaijan (Europe & Central Asia); Comoros (Sub-Saharan Africa).
+    # Scope: 48 Asian & Pacific economies. Drop economies present in the
+    # harmonised WBES pool but outside the ADB regional classification that
+    # bounds the Asia-Pacific frame: Turkey & Azerbaijan (World Bank Europe &
+    # Central Asia) and Comoros (Sub-Saharan Africa). Central Asian and South
+    # Caucasus economies the WB also files under ECA (Kazakhstan, Kyrgyz Rep.,
+    # Tajikistan, Turkmenistan, Uzbekistan, Armenia, Georgia) are retained as
+    # emerging-Asia under the ADB frame. See wbes_asia_country_scope.md (§4).
     out_of_scope = {"Turkey", "Azerbaijan", "Comoros"}
     n_before = len(df)
     df = df[~df["country"].isin(out_of_scope)].copy()
