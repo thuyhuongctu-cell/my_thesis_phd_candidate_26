@@ -617,6 +617,8 @@ Carr, J. C., Haggard, K. S., Hmieleski, K. M., & Zahra, S. A. (2010). A study of
 
 Chen, H., & Hsu, C. (2010). Internationalization, resource allocation and firm performance. *Industrial Marketing Management, 39*(7), 1103-1110. https://doi.org/10.1016/j.indmarman.2009.10.001
 
+Coviello, N., Kano, L., & Liesch, P. W. (2017). Adapting the Uppsala model to a modern world: Macro-context and microfoundations. *Journal of International Business Studies, 48*(9), 1151-1164. https://doi.org/10.1057/s41267-017-0120-x
+
 Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2017). Home country uncertainty and the internationalization-performance relationship: Building an uncertainty management capability. *Journal of World Business, 53*(2), 209-221. https://doi.org/10.1016/j.jwb.2017.11.002
 
 Da Cunha, H. M., Amal, M., Floriani, D. E., & Fleury, M. T. L. (2023). Firm internationalization approaches and performance: The moderating role of the home country's formal institutions. *International Journal of Emerging Markets*. https://doi.org/10.1108/ijoem-08-2021-1299
@@ -690,6 +692,8 @@ Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014). Culture and entrepreneurial orie
 Falahat, M., Ramayah, T., Soto-Acosta, P., & Lee, Y.-Y. (2020). SMEs internationalization: The role of product innovation, market intelligence, pricing and marketing communication capabilities as drivers of SMEs' international performance. *Technological Forecasting and Social Change, 152*, Article 119908. https://doi.org/10.1016/j.techfore.2020.119908
 
 Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evolution. *Global Strategy Journal, 10*(2), 239-250. https://doi.org/10.1002/gsj.1383
+
+Vahlne, J.-E., & Johanson, J. (2017). From internationalization to evolution: The Uppsala model at 40 years. *Journal of International Business Studies, 48*(9), 1087-1102. https://doi.org/10.1057/s41267-017-0107-7
 
 ## U. P6 Meta-Analysis + Supplementary References v3.0 (17/05/2026)
 
