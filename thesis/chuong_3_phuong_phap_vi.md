@@ -45,9 +45,9 @@ Luận án sử dụng bộ Khảo sát Doanh nghiệp của Ngân hàng Thế g
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu kinh doanh quốc tế về thị trường mới nổi (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng châu Á mới nổi với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (Do & Phan, 2026a).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Thái Bình Dương**, với 6 chế độ con ICRV (Tiên tiến đổi mới, Tiên tiến dựa vào tài nguyên, Thu nhập trung bình cao, Mới nổi, Cận biên, Quốc đảo nhỏ Thái Bình Dương). Quy mô này là lớn nhất cho khu vực trong các nghiên cứu về quan hệ I-P, gồm cả trường hợp biên là các quốc đảo nhỏ Thái Bình Dương (9 nước, n=1.469, mẫu phân tích sau khi lọc dữ liệu khuyết) cho phép kiểm định gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty) trong phân tích các quốc đảo nhỏ Thái Bình Dương (SIDS) của luận án.
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Thái Bình Dương**, với 6 chế độ con ICRV (Tiên tiến đổi mới, Tiên tiến dựa vào tài nguyên, Thu nhập trung bình cao, Mới nổi, Cận biên, Quốc đảo nhỏ Thái Bình Dương). Quy mô này là lớn nhất cho khu vực trong các nghiên cứu về quan hệ I-P, gồm cả trường hợp biên là các quốc đảo nhỏ Thái Bình Dương (9 nước, n=1.469, mẫu phân tích sau khi lọc dữ liệu khuyết) cho phép kiểm định gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty; Do & Phan, 2026b).
 
-> **Ghi chú về trọng số khảo sát:** WBES cung cấp trọng số khảo sát để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng trọng số khảo sát* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết chứ không phải ước lượng mô tả đại diện tổng thể, trong bối cảnh này, không áp dụng trọng số là thực hành chuẩn trong các nghiên cứu kinh doanh quốc tế sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Hiệu ứng cố định ở cấp quốc gia–năm đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng trọng số có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng trọng số khảo sát cho từng quốc gia riêng lẻ (phân tích Việt Nam, Singapore và Trung Quốc của luận án) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem Mục 3.5).
+> **Ghi chú về trọng số khảo sát:** WBES cung cấp trọng số khảo sát để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng trọng số khảo sát* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết chứ không phải ước lượng mô tả đại diện tổng thể, trong bối cảnh này, không áp dụng trọng số là thực hành chuẩn trong các nghiên cứu kinh doanh quốc tế sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Hiệu ứng cố định ở cấp quốc gia–năm đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng trọng số có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng trọng số khảo sát cho từng quốc gia riêng lẻ (phân tích Việt Nam, Singapore và Trung Quốc) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem Mục 3.5).
 
 ### 3.3.2 Đo lường biến phụ thuộc, Hiệu quả hoạt động
 
@@ -90,7 +90,7 @@ Luận án phân biệt rõ hai khái niệm:
 
 #### Đặc điểm nhà quản trị cấp cao (kiểm soát quản trị nội sinh H4)
 
-**Biến kiểm soát**: kinh nghiệm nhà quản trị cấp cao (số năm), học vấn nhà quản trị cấp cao, giới tính nhà quản trị cấp cao (nữ/nam). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các phân tích đơn quốc gia đồng hành của luận án. Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.
+**Biến kiểm soát**: kinh nghiệm nhà quản trị cấp cao (số năm), học vấn nhà quản trị cấp cao, giới tính nhà quản trị cấp cao (nữ/nam). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (phân tích Việt Nam, Singapore và Trung Quốc). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
@@ -231,7 +231,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 - **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
 - **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; C$\text{DDXK}_c^2$ là bình phương
 - **NLCN_z_i** = TCI_z_i: năng lực công nghệ, z-std của trung bình(b8₀₁, e6₀₁)
-- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2**, z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác với phân tích Việt Nam ở chỗ bao gồm thanh toán điện tử hai chiều (Tier-2)
+- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2**, z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác phân tích Việt Nam ở chỗ bao gồm thanh toán điện tử hai chiều (Tier-2)
 - **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự phân tích Việt Nam
 - **δ_s**: hiệu ứng cố định ngành (ISIC 1 chữ số)
 - **IMR_i** = nghịch đảo tỷ lệ Mills từ mô hình probit tham gia xuất khẩu (kiểm tra độ nhạy Heckman)
@@ -371,7 +371,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot 
 
 **M5** (M3 + hiệu ứng cố định quốc gia–năm, kiểm định vững mạnh nhất):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot X_{it} + \delta_{ct} + \varepsilon_{it}$$
-$$\text{AdjR}^2 = {,}677; \quad TP \approx 40\%$$
+$$\text{AdjR}^2 = {,}671; \quad TP \approx 39{,}5\%$$
 
 **M7** (M3 + điều tiết NLCN, kiểm định H2):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z$$
@@ -384,7 +384,7 @@ $$\text{H3: } \hat\beta_7 < 0\ (p < {,}001);\ \hat\beta_8 > 0\ (p < {,}01) \righ
 
 **M9** (M8 + đặc điểm nhà quản lý như kiểm soát quản trị nội sinh H4):
 $$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
-$$\hat\beta_{10} = +0{,}185^{***} \text{ (nhà quản trị cấp cao là nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~17–20\% xuyên bối cảnh)}$$
+$$\hat\beta_{10} = +0{,}202^{***} \text{ (nhà quản trị cấp cao là nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~22\% xuyên bối cảnh)}$$
 $$\text{Số hạng } \beta_9, \beta_{10} \text{ là kiểm soát mức; số hạng tương tác } \beta_{11} \text{ chỉ là chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.}$$
 
 **M10** (M3 + điều tiết ICRV, kiểm định H5):
@@ -416,7 +416,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0-1) | Kiểm soát (sở hữu) |
 | δ_ct | - | hiệu ứng cố định quốc gia × năm | Hiệu ứng cố định |
 
-*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2), 38.342 (M3, thêm kiểm soát), 28.500 (M11, thêm nhà quản trị + ICRV + tương tác ba chiều). DAI phân tích đa quốc gia là Tier 1+2 khi k33 có mặt, chỉ Tier-1 khi thiếu, khác với phân tích Việt Nam (chỉ Tier-1) và đồng nhất với phân tích Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (số nguyên), không phải biến giả, nhằm giữ N đủ lớn trong M10-M11.*
+*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2), 36.772 (M3, thêm kiểm soát), 28.500 (M11, thêm nhà quản trị + ICRV + tương tác ba chiều). DAI phân tích đa quốc gia là Tier 1+2 khi k33 có mặt, chỉ Tier-1 khi thiếu, khác với phân tích Việt Nam (chỉ Tier-1) và đồng nhất với phân tích Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (số nguyên), không phải biến giả, nhằm giữ N đủ lớn trong M10-M11.*
 
 ---
 

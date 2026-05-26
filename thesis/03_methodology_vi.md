@@ -368,7 +368,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot 
 
 **M5** (M3 + country-year FE — kiểm định vững mạnh nhất):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot X_{it} + \delta_{ct} + \varepsilon_{it}$$
-$$\text{AdjR}^2 = {,}677; \quad TP \approx 40\%$$
+$$\text{AdjR}^2 = {,}671; \quad TP \approx 39{,}5\%$$
 
 **M7** (M3 + điều tiết NLCN — kiểm định H2):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z$$
@@ -381,7 +381,7 @@ $$\text{H3: } \hat\beta_7 < 0\ (p < {,}001);\ \hat\beta_8 > 0\ (p < {,}01) \righ
 
 **M9** (M8 + đặc điểm nhà quản lý như kiểm soát quản trị nội sinh H4):
 $$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
-$$\hat\beta_{10} = +0{,}185^{***} \text{ (top manager nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~17–20\% cross-context)}$$
+$$\hat\beta_{10} = +0{,}202^{***} \text{ (top manager nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~22\% cross-context)}$$
 $$\text{Số hạng } \beta_9, \beta_{10} \text{ là kiểm soát mức; } \beta_{11} \text{ chỉ là chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.}$$
 
 **M10** (M3 + điều tiết ICRV — kiểm định H5):
@@ -413,7 +413,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |
 | δ_ct | — | country × year FE | Fixed effects |
 
-*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2) → 38.342 (M3, thêm kiểm soát) → 28.500 (M11, thêm manager + ICRV + three-way). DAI phân tích đa quốc gia là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với phân tích Việt Nam Vietnam (Tier-1 only) và đồng nhất với phân tích Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
+*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2) → 36.772 (M3, thêm kiểm soát) → 28.500 (M11, thêm manager + ICRV + three-way). DAI phân tích đa quốc gia là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với phân tích Việt Nam Vietnam (Tier-1 only) và đồng nhất với phân tích Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
 
 ### 4.5.5 Mô hình cụ thể — Nghiên cứu 8 (Pacific SIDS, WBES 2009–2025)
 
