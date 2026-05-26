@@ -126,7 +126,7 @@ Phân tích P7 là kiểm định quy mô lớn nhất của luận án, kết h
 
 $$\text{TP(M5)} = 40{,}0\% \text{ FSTS} \quad (p_{\text{LM}} < {,}001)$$
 
-Điểm uốn dao động nhất quán trong dải 33,8–40,0% FSTS qua M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều M11 ($\text{TP} = 25{,}7\%$, $p_{\text{LM}} = {,}026$, $N = 28.500$).
+Điểm uốn dao động nhất quán trong dải 34,1–39,5% FSTS qua M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều M11 ($\text{TP} = 25{,}7\%$, $p_{\text{LM}} = {,}026$, $N = 28.500$).
 
 ### 4.5.2 Gradient ICRV — Xác nhận H5
 
@@ -373,7 +373,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **P6** (IBR under review, Đỗ & Phan, 2026): meta-analysis ba tầng mở rộng $k = 238$, $r = 0{,}074$, $I^2 = 62{,}4\%$ (54,1\% tầng 2 + 8,4\% tầng 3), ICRV moderation $Q_M = 17{,}35^{**}$ ($df = 4$, $p = {,}002$).
 
-- **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu châu Á và Thái Bình Dương $N = 82.302$ (M2) / $38.342$ (M3–M5 với controls), TP = 36,4–40,0% (M11 đầy đủ: TP = 25,7%, $p_\text{LM} = {,}026$), gradient ICRV xác nhận (độ cong sâu dần khi thể chế yếu đi; điểm uốn ~40%), TCI nâng mặt bằng phổ quát (+45%/SD), DAI điều tiết đường cong có ý nghĩa toàn mẫu và mạnh hơn tại thể chế yếu (DAI×ICRV $p = {,}049$).
+- **P7** (JIBS under revision, Đỗ & Phan, 2026): kiểm định toàn mẫu châu Á và Thái Bình Dương $N = 82.302$ (M2) / $38.342$ (M3–M5 với controls), TP = 34,1–39,5% (M11 đầy đủ: TP = 25,7%, $p_\text{LM} = {,}026$), gradient ICRV xác nhận (độ cong sâu dần khi thể chế yếu đi; điểm uốn ~40%), TCI nâng mặt bằng phổ quát (+45%/SD), DAI điều tiết đường cong có ý nghĩa toàn mẫu và mạnh hơn tại thể chế yếu (DAI×ICRV $p = {,}049$).
 
 - **P8** (World Development under revision, Đỗ & Phan, 2026): phân tích SIDS Thái Bình Dương, $N = 1.469$, $\beta(\text{FSTS}_c) = -0{,}404^{*}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
 
