@@ -88,9 +88,9 @@ Luận án phân biệt rõ hai khái niệm:
 
 **Cơ sở kế thừa**: Khanna và Palepu (2010) với khoảng trống thể chế; North (1990) với phân tích thể chế; Marano et al. (2016) với bằng chứng từ phân tích tổng hợp về các biến điều tiết thể chế.
 
-#### Đặc điểm nhà quản trị cấp cao
+#### Đặc điểm nhà quản trị cấp cao (kiểm soát quản trị nội sinh H4)
 
-**Biến chính**: kinh nghiệm nhà quản trị cấp cao (số năm), giới tính nhà quản trị cấp cao (nữ/nam).
+**Biến kiểm soát**: kinh nghiệm nhà quản trị cấp cao (số năm), học vấn nhà quản trị cấp cao, giới tính nhà quản trị cấp cao (nữ/nam). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (P3/P4/P5). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
@@ -148,11 +148,11 @@ với $M_i$ là biến điều tiết (TCI hoặc DAI).
 
 $$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 D_i + \beta_4 I_i + \beta_5 M_i + \sum \text{interactions} + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
-với $D$ = số hóa, $I$ = thể chế, $M$ = nhà quản trị.
+với $D$ = số hóa (DAI), $I$ = thể chế (ICRV) là hai nhân tố điều tiết trọng tâm, và $M$ = đặc điểm nhà quản trị được đưa vào như khối kiểm soát quản trị nội sinh.
 
 **Cơ sở kế thừa**: chuẩn về điều tiết trong quản trị chiến lược (Aiken & West, 1991; Dawson, 2014).
 
-**Đóng góp mới**: điều tiết ba chiều số hóa × thể chế × nhà quản trị trong bối cảnh châu Á và Thái Bình Dương với 47 nước chưa được kiểm định trước đây.
+**Đóng góp mới**: điều tiết trọng tâm số hóa × thể chế (DAI × ICRV) trong bối cảnh châu Á và Thái Bình Dương với 47 nước chưa được kiểm định trước đây, với đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh nhằm bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ.
 
 ### 3.4.5 Mô hình tính không đồng nhất theo thời gian (H6)
 
@@ -382,21 +382,22 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 $$+ \beta_7 (CDDXK\_c \times CSS\_z) + \beta_8 (CDDXK\_c^2 \times CSS\_z) + \gamma \cdot X + \varepsilon$$
 $$\text{H3: } \hat\beta_7 < 0\ (p < {,}001);\ \hat\beta_8 > 0\ (p < {,}01) \rightarrow \text{DAI nén sườn tăng, giảm nhẹ sườn giảm}$$
 
-**M9** (M8 + đặc điểm nhà quản lý, kiểm định H4):
+**M9** (M8 + đặc điểm nhà quản lý như kiểm soát quản trị nội sinh H4):
 $$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
-$$\hat\beta_{10} = +0{,}185^{***} \text{ (nhà quản trị cấp cao là nữ: lợi thế hiệu quả ~17–20\% xuyên bối cảnh)}$$
+$$\hat\beta_{10} = +0{,}185^{***} \text{ (nhà quản trị cấp cao là nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~17–20\% xuyên bối cảnh)}$$
+$$\text{Số hạng } \beta_9, \beta_{10} \text{ là kiểm soát mức; số hạng tương tác } \beta_{11} \text{ chỉ là chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.}$$
 
 **M10** (M3 + điều tiết ICRV, kiểm định H5):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} ICRV_j$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
-$$\text{H5: } TP \text{ tăng khi ICRV tăng (thể chế yếu hơn): Group I} \approx 28\%,\ \text{Group V–VI} \approx 55\%$$
+$$\text{H5: } |\beta_2|\text{ (độ cong) tăng khi ICRV tăng (thể chế yếu hơn): } CDDXK\_c^2 \times ICRV < 0;\ \text{điểm uốn không dịch chuyển đơn điệu}$$
 
 **M11** (full three-way, kiểm định H7-P7):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
 $$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
 $$+ \beta_{14}(CDDXK\_c \times CSS\_z \times ICRV) + \beta_9 KNQLy + \beta_{10} NQL\_nu + \gamma \cdot X + \delta_{ct} + \varepsilon$$
-$$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,}6\%,\ \text{LM } p = {,}002$$
+$$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,}7\%,\ \text{LM } p = {,}026$$
 
 **Bảng định nghĩa biến, Nghiên cứu 7 (đa quốc gia)**
 
@@ -537,7 +538,7 @@ Winsor hóa 1% và 5% đối với năng suất lao động và số lao động
 | FSTS + $\text{FSTS}^2$ + $\text{FSTS}^3$ | Lu & Beamish (2004); Hitt et al. (1997); Do & Phan (2026g) | Đưa vào cùng khung điều tiết ba chiều |
 | TCI và DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Quy trình bảo đảm tính thuần nhất khái niệm không chồng lấn cho WBES; lá chắn số mở rộng (Do & Phan, 2026a) |
 | Kiểm định U Lind-Mehlum | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng mẫu quốc gia và đa quốc gia |
-| Điều tiết ba chiều | Aiken & West (1991); Dawson (2014) | số hóa × thể chế × nhà quản trị, mới cho châu Á và Thái Bình Dương |
+| Điều tiết trọng tâm số hóa × thể chế | Aiken & West (1991); Dawson (2014) | DAI × ICRV, mới cho châu Á và Thái Bình Dương; đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh |
 | Tính không đồng nhất theo thời gian | Wu et al. (2022); Xiao et al. (2013); Do & Phan (2026g) | Kiểm định ổn định Trung Quốc 2012-2024 (điểm uốn ~47,8% FSTS) |
 | Sai số chuẩn vững | Long & Ervin (2000); White (1980) | Chuẩn |
 | Thiên lệch công bố | Egger et al. (1997); Begg & Mazumdar (1994) | Chuẩn |

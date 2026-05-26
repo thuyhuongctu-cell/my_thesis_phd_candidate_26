@@ -85,9 +85,9 @@ Luận án phân biệt rõ hai construct:
 
 **Cơ sở kế thừa**: Khanna và Palepu (2010) với institutional voids; North (1990) với institutional analysis; Marano et al. (2016) với meta-analytic evidence về institutional moderators.
 
-#### 3.4.3 Top manager characteristics
+#### 3.4.3 Top manager characteristics (kiểm soát quản trị nội sinh H4)
 
-**Biến chính**: top manager experience (năm kinh nghiệm), top manager gender (female / male).
+**Biến kiểm soát**: top manager experience (năm kinh nghiệm), top manager education, top manager gender (female / male). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (P3/P4/P5). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ.
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
@@ -145,11 +145,11 @@ với $M_i$ là moderator (TCI hoặc DAI).
 
 $$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 D_i + \beta_4 I_i + \beta_5 M_i + \sum \text{interactions} + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
-với $D$ = digital, $I$ = institutional, $M$ = manager.
+với $D$ = digital (DAI), $I$ = institutional (ICRV) là hai nhân tố điều tiết trọng tâm, và $M$ = manager được đưa vào như khối kiểm soát quản trị nội sinh.
 
 **Cơ sở kế thừa**: chuẩn moderation trong quản trị chiến lược (Aiken & West, 1991; Dawson, 2014).
 
-**Đóng góp mới**: three-way moderation digital × institutional × manager trong bối cảnh châu Á và Pacific với 47 nước chưa được kiểm định trước đây.
+**Đóng góp mới**: focal moderation digital × institutional (DAI × ICRV) trong bối cảnh châu Á và Pacific với 47 nước chưa được kiểm định trước đây, với đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh nhằm bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ.
 
 ### 4.5 Mô hình temporal heterogeneity (H6)
 
@@ -379,21 +379,22 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 $$+ \beta_7 (CDDXK\_c \times CSS\_z) + \beta_8 (CDDXK\_c^2 \times CSS\_z) + \gamma \cdot X + \varepsilon$$
 $$\text{H3: } \hat\beta_7 < 0\ (p < {,}001);\ \hat\beta_8 > 0\ (p < {,}01) \rightarrow \text{DAI nén sườn tăng, giảm nhẹ sườn giảm}$$
 
-**M9** (M8 + đặc điểm nhà quản lý — kiểm định H4):
+**M9** (M8 + đặc điểm nhà quản lý như kiểm soát quản trị nội sinh H4):
 $$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
-$$\hat\beta_{10} = +0{,}185^{***} \text{ (top manager nữ: lợi thế hiệu quả ~17–20\% cross-context)}$$
+$$\hat\beta_{10} = +0{,}185^{***} \text{ (top manager nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~17–20\% cross-context)}$$
+$$\text{Số hạng } \beta_9, \beta_{10} \text{ là kiểm soát mức; } \beta_{11} \text{ chỉ là chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.}$$
 
 **M10** (M3 + điều tiết ICRV — kiểm định H5):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} ICRV_j$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
-$$\text{H5: } TP \text{ tăng khi ICRV tăng (thể chế yếu hơn): Group I} \approx 28\%,\ \text{Group V–VI} \approx 55\%$$
+$$\text{H5: } |\beta_2|\text{ (độ cong) tăng khi ICRV tăng (thể chế yếu hơn): } CDDXK\_c^2 \times ICRV < 0;\ \text{điểm uốn không dịch chuyển đơn điệu}$$
 
 **M11** (full three-way — kiểm định H7-P7):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
 $$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
 $$+ \beta_{14}(CDDXK\_c \times CSS\_z \times ICRV) + \beta_9 KNQLy + \beta_{10} NQL\_nu + \gamma \cdot X + \delta_{ct} + \varepsilon$$
-$$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,}6\%,\ \text{LM } p = {,}002$$
+$$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,}7\%,\ \text{LM } p = {,}026$$
 
 **Bảng định nghĩa biến — Nghiên cứu 7 (đa quốc gia)**
 
@@ -523,7 +524,7 @@ Winsorization 1% và 5% đối với labor productivity và employment, áp dụ
 | FSTS + FSTS² + FSTS³ | Lu & Beamish (2004); Hitt et al. (1997); Đỗ & Phan (2026 — JFAR) | Đưa vào cùng three-way moderation framework |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Non-overlapping construct purity protocol cho WBES; digital shield mở rộng (Đỗ & Phan, 2026 — VEFR) |
 | Lind–Mehlum U-test | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng country sample và multi-country |
-| Three-way moderation | Aiken & West (1991); Dawson (2014) | digital × institutional × manager mới cho châu Á và Pacific |
+| Focal moderation digital × institutional | Aiken & West (1991); Dawson (2014) | DAI × ICRV mới cho châu Á và Pacific; manager characteristics giữ vai trò kiểm soát quản trị nội sinh |
 | Temporal heterogeneity | Wu et al. (2022); Xiao et al. (2013); Đỗ & Phan (2026 — JFAR) | China 2012–2024 stability test (turning point ~47,8% FSTS) |
 | Robust SE | Long & Ervin (2000); White (1980) | Chuẩn |
 | Publication bias | Egger et al. (1997); Begg & Mazumdar (1994) | Chuẩn |

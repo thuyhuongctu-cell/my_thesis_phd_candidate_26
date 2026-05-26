@@ -126,7 +126,7 @@ Phân tích P7 là kiểm định quy mô lớn nhất của luận án, kết h
 
 $$\text{TP(M5)} = 40{,}0\% \text{ FSTS} \quad (p_{\text{LM}} < {,}001)$$
 
-Điểm uốn dao động nhất quán trong dải 33,8–40,0% FSTS qua M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều M11 ($\text{TP} = 34{,}6\%$, $p_{\text{LM}} = {,}002$, $N = 28.500$).
+Điểm uốn dao động nhất quán trong dải 33,8–40,0% FSTS qua M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều M11 ($\text{TP} = 25{,}7\%$, $p_{\text{LM}} = {,}026$, $N = 28.500$).
 
 ### 4.5.2 Gradient ICRV — Xác nhận H5
 
@@ -194,7 +194,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án, lần đầ
 | H1 (Phi tuyến chữ U ngược) | I→P có dạng inverted-U | Xác nhận tại Singapore, Trung Quốc, Việt Nam, và toàn mẫu P7 (ngoại trừ SIDS) |
 | H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận một phần: TCI nâng mặt bằng năng suất tại tất cả bối cảnh; uốn đường cong xác nhận tại Việt Nam nhưng NS tại toàn mẫu P7 (45 nền kinh tế) |
 | H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (45 nền kinh tế); DAI×ICRV p=.049 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
-| H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 nhưng không được tổng kết trong chương này do phạm vi |
+| H4 (kiểm soát quản trị nội sinh) | Kinh nghiệm/giới tính nhà quản trị nâng mặt bằng (kiểm soát quản trị nội sinh, không điều tiết độ cong) | Hiệu ứng mức trong P7 (nhà quản trị nữ β=+0,185***); đưa vào như biến kiểm soát quản trị nội sinh nhằm bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ |
 | H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận mạnh mẽ: $Q_M = 17{,}35^{**}$ ($df = 4$, $p = {,}002$) từ P6 MARA và gradient ICRV từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |
 | H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận mạnh mẽ: $\beta = -0{,}404^{*}$ đến $-1{,}236^{***}$ tuỳ specification |
@@ -353,7 +353,7 @@ Bên cạnh đó, có thể vận dụng các phương pháp nhận dạng nhân
 
 Một hướng nữa là mở rộng phân tích FIP tại SIDS bằng các công cụ đo lường và dữ liệu bảng thực sự (theo dõi cùng doanh nghiệp qua nhiều năm), nhằm kiểm định xem FIP là trạng thái cấu trúc dài hạn hay chỉ là giai đoạn tạm thời khi doanh nghiệp SIDS mới bắt đầu xuất khẩu.
 
-Sau cùng, cần kiểm định vai trò của đặc điểm nhà quản trị cấp cao (H4 — kinh nghiệm, giới tính) trong từng bối cảnh ICRV riêng biệt, đặc biệt ở bối cảnh Frontier và SIDS nơi tầng năng lực và thể chế yếu hơn: liệu đặc điểm nhà quản trị có thể bù đắp một phần cho những thiếu hụt đó hay không?
+Sau cùng, trong luận án này đặc điểm nhà quản trị cấp cao (H4 — kinh nghiệm, học vấn, giới tính) được đưa vào như khối kiểm soát quản trị nội sinh chứ không phải nhân tố điều tiết trọng tâm; một hướng nghiên cứu tương lai là tách riêng và kiểm định khả năng điều tiết theo bối cảnh của các đặc điểm này trong từng chế độ ICRV, đặc biệt ở bối cảnh Frontier và SIDS nơi tầng năng lực và thể chế yếu hơn, để xem liệu chất lượng quản trị có thể bù đắp một phần cho những thiếu hụt đó hay không.
 
 ---
 
