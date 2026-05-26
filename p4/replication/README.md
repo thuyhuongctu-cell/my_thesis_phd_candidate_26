@@ -54,21 +54,24 @@ From the manuscript (OLS, HC1 robust SEs; analytic sample N = 623 / 617 with con
 > inverted-U interpretation is not formally identified (the *digital saturation
 > paradox* discussion in the manuscript).
 
-### Known Issues — Stray Vietnam Artifacts (do **not** use for P4)
-This folder currently also contains files that belong to the **P3 Vietnam** package
-and were copied here by mistake. They are **not** part of the Singapore replication
-and should be regenerated from the Singapore pipeline above (or removed) before the
-package is finalised. No data has been deleted in this commit.
+### Cleanup Notes — Stray Vietnam Artifacts Removed
+Several files belonging to the **P3 Vietnam** package had been copied into this folder
+by mistake. They have been removed or renamed so this folder cleanly represents the
+Singapore replication:
 
-- `p4_singapore_replication.py` — misnamed: its header reads "P4 Vietnam" and it
-  loads the Vietnam 2009/2015/2023 DTA files. This is the Vietnam Python script, not
-  the Singapore pipeline.
-- The following `tables/*.csv` contain Vietnam rows (`VNM2009/VNM2015/VNM2023/VNMpooled`)
-  rather than `SGP2023`, and are stale Vietnam outputs:
-  `table_1_descriptives.csv`, `table_lind_mehlum.csv`, `joint_tests_main_models.csv`,
-  `selection_checks.csv`, `table_3_robustness.csv`, `table_density_around_tp.csv`,
-  `table_oster_bounds.csv`, `table_paternoster.csv`, `tables/coefs_main_models.csv`.
-- `tables/table_psm_balance.csv` carries no country marker; provenance unverified.
+- **Removed** nine Vietnam-data CSVs from `tables/` (they carried `VNM*` / 2009–2015–2023
+  rows with N = 989/956/1013, not `SGP2023`): `coefs_main_models.csv`,
+  `joint_tests_main_models.csv`, `selection_checks.csv`, `table_1_descriptives.csv`,
+  `table_3_robustness.csv`, `table_density_around_tp.csv`, `table_lind_mehlum.csv`,
+  `table_oster_bounds.csv`, `table_paternoster.csv`. Their Singapore equivalents must be
+  regenerated from the do-file pipeline above (raw WBES Singapore 2023 DTA required;
+  not bundled in this environment).
+- **Renamed** `p4_singapore_replication.py` → `misplaced_vietnam_replication.py`. Its
+  content is an exact byte-for-byte duplicate of the root `replication/p4_vietnam_replication.py`
+  (loads Vietnam 2009/2015/2023 DTA). It is **not** the Singapore pipeline and is kept
+  only for traceability.
+- `tables/table_psm_balance.csv` carries no country marker; provenance unverified — left
+  in place for review.
 
 ### Citation
 Please cite the manuscript and the World Bank Enterprise Surveys when using this replication package.
