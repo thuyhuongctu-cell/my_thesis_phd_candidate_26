@@ -371,7 +371,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot 
 
 **M5** (M3 + hiệu ứng cố định quốc gia–năm, kiểm định vững mạnh nhất):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot X_{it} + \delta_{ct} + \varepsilon_{it}$$
-$$\text{AdjR}^2 = {,}677; \quad TP \approx 40\%$$
+$$\text{AdjR}^2 = {,}671; \quad TP \approx 39{,}5\%$$
 
 **M7** (M3 + điều tiết NLCN, kiểm định H2):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z$$
@@ -384,7 +384,7 @@ $$\text{H3: } \hat\beta_7 < 0\ (p < {,}001);\ \hat\beta_8 > 0\ (p < {,}01) \righ
 
 **M9** (M8 + đặc điểm nhà quản lý như kiểm soát quản trị nội sinh H4):
 $$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
-$$\hat\beta_{10} = +0{,}185^{***} \text{ (nhà quản trị cấp cao là nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~17–20\% xuyên bối cảnh)}$$
+$$\hat\beta_{10} = +0{,}202^{***} \text{ (nhà quản trị cấp cao là nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~22\% xuyên bối cảnh)}$$
 $$\text{Số hạng } \beta_9, \beta_{10} \text{ là kiểm soát mức; số hạng tương tác } \beta_{11} \text{ chỉ là chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.}$$
 
 **M10** (M3 + điều tiết ICRV, kiểm định H5):
@@ -416,7 +416,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0-1) | Kiểm soát (sở hữu) |
 | δ_ct | - | hiệu ứng cố định quốc gia × năm | Hiệu ứng cố định |
 
-*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2), 38.342 (M3, thêm kiểm soát), 28.500 (M11, thêm nhà quản trị + ICRV + tương tác ba chiều). DAI P7 là Tier 1+2 khi k33 có mặt, chỉ Tier-1 khi thiếu, khác với P3 Việt Nam (chỉ Tier-1) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (số nguyên), không phải biến giả, nhằm giữ N đủ lớn trong M10-M11.*
+*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2), 36.772 (M3, thêm kiểm soát), 28.500 (M11, thêm nhà quản trị + ICRV + tương tác ba chiều). DAI P7 là Tier 1+2 khi k33 có mặt, chỉ Tier-1 khi thiếu, khác với P3 Việt Nam (chỉ Tier-1) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (số nguyên), không phải biến giả, nhằm giữ N đủ lớn trong M10-M11.*
 
 ---
 
