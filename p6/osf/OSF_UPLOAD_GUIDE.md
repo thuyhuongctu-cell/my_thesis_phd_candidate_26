@@ -48,6 +48,11 @@
   Prereg đông cứng giữ nguyên sơ đồ v1.0. Codebook ↔ dữ liệu ↔ bản thảo nay nhất quán.
 
 ## ⛔ TẠM GIỮ — chưa tải lên cho tới khi hoàn tất
+- **Chạy lại `4_Analysis_Code/p6_real_mara.R` (cần R + metafor) để TÁI TẠO `5_Results/table2_icrv.csv`,
+  `table3_cdai.csv`, `table4_dpl.csv`.** Cột `QM` trong các CSV hiện tại là test "tất cả nhóm = 0"
+  (128.22 / 105.34 / 104.67), KHÔNG khớp Q_M between-group mà bản thảo báo cáo (17.35 / 1.23 / 0.56).
+  Script đã được sửa để tính đúng (mô hình có hệ số chặn `m1b/m2b/m3b`); chỉ còn thiếu bước chạy lại
+  ở máy có R. Trước khi có CSV mới, **trị số trong bản thảo là chuẩn**. (Xem `PREREG_CONSISTENCY_AUDIT.md` §4b.)
 - Dataset **pool mở rộng** + thư mục `p6/scripts/.../results/updated/` (formal-search k≥250 đang chạy).
 - File tracker đang làm dở: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv` (WIP, ~2.467 dòng).
 - **Bảng độ tin cậy liên-mã hóa** (inter-coder reliability — Bảng 3.1 hiện còn `[TBD]`).

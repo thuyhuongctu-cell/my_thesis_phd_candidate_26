@@ -136,6 +136,16 @@ m1 <- rma.mv(
 )
 print(m1)
 
+# Between-regime moderator test (with intercept; prereg form ~ factor(icrv)).
+# m1's no-intercept Q_M tests "all means = 0"; the manuscript's H1 between-regime
+# Q_M (does the effect differ across regimes) requires the with-intercept model.
+m1b <- rma.mv(
+  yi = yi, V = vi,
+  mods   = ~ icrv_f,
+  random = ~ 1 | study_id / effect_id,
+  data   = dat, method = "REML"
+)
+
 # ICRV coefficients back-transformed
 icrv_levels <- rownames(m1$beta)
 cat("\nICRV regime effects (r scale):\n")
@@ -146,12 +156,12 @@ for (i in seq_len(nrow(m1$beta))) {
               k_i,
               print_r(m1$beta[i], m1$ci.lb[i], m1$ci.ub[i], m1$pval[i])))
 }
-cat(sprintf("\nOmnibus Q_M(%d) = %.2f, p = %.4f\n\n",
-            m1$QMdf[1], m1$QM, m1$QMp))
+cat(sprintf("\nBetween-regime Q_M(%d) = %.2f, p = %.4f\n\n",
+            m1b$QMdf[1], m1b$QM, m1b$QMp))
 
 # ── MODEL 2: cDAI Level ───────────────────────────────────────────────────────
 cat("─────────────────────────────────────────────────────────────\n")
-cat("MODEL 2: cDAI Digital Adoption Moderation (H1)\n")
+cat("MODEL 2: cDAI Digital Adoption Moderation (H3)\n")
 cat("─────────────────────────────────────────────────────────────\n")
 
 m2_cat <- rma.mv(
@@ -162,6 +172,14 @@ m2_cat <- rma.mv(
 )
 print(m2_cat)
 
+# Between-tier moderator test (with intercept; matches manuscript cDAI Q_M)
+m2b <- rma.mv(
+  yi = yi, V = vi,
+  mods   = ~ cdai_f,
+  random = ~ 1 | study_id / effect_id,
+  data   = dat, method = "REML"
+)
+
 cdai_levs <- rownames(m2_cat$beta)
 cat("\ncDAI level effects (r scale):\n")
 for (i in seq_len(nrow(m2_cat$beta))) {
@@ -171,8 +189,8 @@ for (i in seq_len(nrow(m2_cat$beta))) {
               k_i,
               print_r(m2_cat$beta[i], m2_cat$ci.lb[i], m2_cat$ci.ub[i], m2_cat$pval[i])))
 }
-cat(sprintf("\nOmnibus Q_M(%d) = %.2f, p = %.4f\n\n",
-            m2_cat$QMdf[1], m2_cat$QM, m2_cat$QMp))
+cat(sprintf("\nBetween-tier Q_M(%d) = %.2f, p = %.4f\n\n",
+            m2b$QMdf[1], m2b$QM, m2b$QMp))
 
 # Also as linear trend
 m2_lin <- rma.mv(
@@ -186,7 +204,7 @@ cat(sprintf("cDAI linear trend: b = %.4f, p = %.4f\n\n",
 
 # ── MODEL 3: DPL Phase ────────────────────────────────────────────────────────
 cat("─────────────────────────────────────────────────────────────\n")
-cat("MODEL 3: DPL Phase Moderation (H3)\n")
+cat("MODEL 3: DPL Phase Moderation (H2)\n")
 cat("─────────────────────────────────────────────────────────────\n")
 
 m3 <- rma.mv(
@@ -197,6 +215,14 @@ m3 <- rma.mv(
 )
 print(m3)
 
+# Between-phase moderator test (with intercept; matches manuscript DPL Q_M)
+m3b <- rma.mv(
+  yi = yi, V = vi,
+  mods   = ~ dpl_f,
+  random = ~ 1 | study_id / effect_id,
+  data   = dat, method = "REML"
+)
+
 dpl_levs <- rownames(m3$beta)
 cat("\nDPL phase effects (r scale):\n")
 for (i in seq_len(nrow(m3$beta))) {
@@ -206,8 +232,8 @@ for (i in seq_len(nrow(m3$beta))) {
               k_i,
               print_r(m3$beta[i], m3$ci.lb[i], m3$ci.ub[i], m3$pval[i])))
 }
-cat(sprintf("\nOmnibus Q_M(%d) = %.2f, p = %.4f\n\n",
-            m3$QMdf[1], m3$QM, m3$QMp))
+cat(sprintf("\nBetween-phase Q_M(%d) = %.2f, p = %.4f\n\n",
+            m3b$QMdf[1], m3b$QM, m3b$QMp))
 
 # ── MODEL 4: Combined Moderators ──────────────────────────────────────────────
 cat("─────────────────────────────────────────────────────────────\n")
@@ -391,8 +417,8 @@ icrv_rows <- lapply(seq_len(nrow(m1$beta)), function(i) {
     r_ci_lo   = round(z2r(m1$ci.lb[i]), 3),
     r_ci_hi   = round(z2r(m1$ci.ub[i]), 3),
     pval      = round(m1$pval[i], 4),
-    QM        = round(m1$QM, 2),
-    QM_pval   = round(m1$QMp, 4)
+    QM        = round(m1b$QM, 2),
+    QM_pval   = round(m1b$QMp, 4)
   )
 })
 tbl2 <- do.call(rbind, icrv_rows)
@@ -412,8 +438,8 @@ cdai_rows <- lapply(seq_len(nrow(m2_cat$beta)), function(i) {
   )
 })
 tbl3 <- do.call(rbind, cdai_rows)
-tbl3$QM      <- round(m2_cat$QM, 2)
-tbl3$QM_pval <- round(m2_cat$QMp, 4)
+tbl3$QM      <- round(m2b$QM, 2)
+tbl3$QM_pval <- round(m2b$QMp, 4)
 write_csv(tbl3, file.path(results_dir, "table3_cdai.csv"))
 cat("Saved: table3_cdai.csv\n")
 
@@ -430,8 +456,8 @@ dpl_rows <- lapply(seq_len(nrow(m3$beta)), function(i) {
   )
 })
 tbl4 <- do.call(rbind, dpl_rows)
-tbl4$QM      <- round(m3$QM, 2)
-tbl4$QM_pval <- round(m3$QMp, 4)
+tbl4$QM      <- round(m3b$QM, 2)
+tbl4$QM_pval <- round(m3b$QMp, 4)
 write_csv(tbl4, file.path(results_dir, "table4_dpl.csv"))
 cat("Saved: table4_dpl.csv\n")
 
