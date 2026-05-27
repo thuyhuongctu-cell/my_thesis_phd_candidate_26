@@ -162,7 +162,7 @@ Read together, these four boundary conditions establish that (a) the upper-tail 
 
 ## 4 Results
 ### 4.1 Descriptive statistics
-Table 1 reports descriptive statistics and pairwise correlations for the analytic sample. Mean log labour productivity is 11.42 with a standard deviation of 1.18, while mean FSTS is 0.045 with a standard deviation of 0.144, confirming that most firms in the sample are domestically oriented. TCI and DAI are positively correlated at r = 0.31, which is consistent with the idea that technologically stronger firms are somewhat more digitally active, but the correlation is far from high enough to justify collapsing the two constructs into a single measure. Both TCI and DAI are positively correlated with labour productivity, and DAI also shows a modest positive correlation with export intensity.
+Table 1 reports descriptive statistics and pairwise correlations for the analytic sample. Mean log labour productivity is 11.42 with a standard deviation of 1.18, while mean FSTS is 0.045 with a standard deviation of 0.144, confirming that most firms in the sample are domestically oriented. TCI and DAI are positively correlated at r = .31, which is consistent with the idea that technologically stronger firms are somewhat more digitally active, but the correlation is far from high enough to justify collapsing the two constructs into a single measure. Both TCI and DAI are positively correlated with labour productivity, and DAI also shows a modest positive correlation with export intensity.
 Table 1. Descriptive statistics and pairwise correlations.
 
 | Panel A: Descriptive Statistics (N = 623) |
