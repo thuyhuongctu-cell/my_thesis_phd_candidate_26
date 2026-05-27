@@ -43,7 +43,7 @@
 ## E. Hồ sơ bản quyền MAIDA (tiếng Việt) 🧑
 | # | Việc | Trạng thái | Owner |
 |---|---|---|---|
-| E1 | Điền thông tin cá nhân trong `maida_copyright/00_mo_ta_tac_pham_vi.md`: họ tên, ngày sinh, CCCD, địa chỉ, SĐT, email, ngày hoàn thành, năm © | Placeholder `[Điền…]` | 🧑 (dữ liệu cá nhân) |
+| E1 | Hồ sơ MAIDA: ✅ **mô tả tác phẩm đã viết lại chuẩn học thuật** (v2.0: cơ sở tri thức meta-analysis + nguyên lý human-in-the-loop + định vị trung thực với luận án) + thêm `p6/tools/maida/CITATION.cff`. **Còn lại 🧑:** điền thông tin cá nhân (họ tên/ngày sinh/CCCD/địa chỉ/SĐT/email/ngày hoàn thành/năm ©) — dữ liệu chỉ bạn có | Một phần xong | 🧑 (dữ liệu cá nhân) |
 
 ## F. Các paper khác trong dossier (tham chiếu MASTER_PLAN) 🧑
 | # | Việc | Owner |

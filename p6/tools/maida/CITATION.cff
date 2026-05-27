@@ -1,0 +1,43 @@
+# Citation File Format 1.2.0 — https://citation-file-format.github.io
+# Proprietary, research-use-only software (no SPDX license field set by design).
+cff-version: 1.2.0
+message: "If you use M-AIDA in academic work, please cite it as below."
+type: software
+title: "M-AIDA: Meta-Analysis Intelligent Data Assistant"
+version: 7.0.0
+abstract: >-
+  M-AIDA is a knowledge-driven, human-in-the-loop research software for
+  extracting effect sizes from primary studies for meta-analysis in
+  international business, specifically the internationalization–performance
+  (I–P) relationship. A large-language-model pipeline produces draft
+  extractions with confidence scores and converts t / F / beta statistics to
+  Pearson r (Borenstein et al., 2009; Peterson & Brown, 2005); every record
+  must be verified and overridden as needed by a Principal Investigator and
+  then irreversibly locked (audit trail) before it can enter the analysis
+  dataset. Automation reduces extraction time; the human investigator
+  guarantees validity. Built on the authors' meta-analysis methodology and the
+  dissertation's ICRV / cDAI / DPL moderator framework.
+authors:
+  - family-names: "Đỗ"
+    given-names: "Thị Thúy Hương"
+    orcid: "https://orcid.org/0000-0002-7711-2487"
+    affiliation: "College of Economics, Can Tho University, Vietnam"
+  - family-names: "Phan"
+    given-names: "Anh Tú"
+    orcid: "https://orcid.org/0000-0003-0667-3137"
+    affiliation: "College of Economics, Can Tho University, Vietnam"
+keywords:
+  - meta-analysis
+  - international business
+  - internationalization and firm performance
+  - effect-size extraction
+  - human-in-the-loop
+  - responsible AI in research
+  - research software
+repository-code: "https://github.com/thuyhuongctu-cell/my_thesis_phd_candidate_26"
+# date-released and copyright-registration number to be filled once finalized:
+# date-released: "YYYY-MM-DD"
+# identifiers:
+#   - type: other
+#     value: "COV Copyright Registration No. <to be assigned>"
+#     description: "Cục Bản quyền Tác giả Việt Nam"

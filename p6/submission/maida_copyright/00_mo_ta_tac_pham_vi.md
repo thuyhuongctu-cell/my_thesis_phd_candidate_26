@@ -1,198 +1,167 @@
-# MÔ TẢ TÁC PHẨM
-# (Description of Work — COV Copyright Registration)
+# MÔ TẢ TÁC PHẨM — M-AIDA
+# (Description of Work — Đăng ký bản quyền phần mềm máy tính, Cục Bản quyền Tác giả Việt Nam)
+
+> Phiên bản tài liệu: 2.0 (chuẩn học thuật, 2026-05-27). Tài liệu mô tả phần mềm **M-AIDA** phục vụ
+> đăng ký quyền tác giả đối với chương trình máy tính, đồng thời định vị M-AIDA như một **đóng góp
+> phương pháp/hạ tầng nghiên cứu** của luận án tiến sĩ. *Lưu ý phạm vi:* M-AIDA là công cụ hỗ trợ
+> quy trình trích xuất; **mọi số liệu đưa vào phân tích tổng hợp đều qua xác nhận của con người
+> (Principal Investigator)**. Bài báo phân tích tổng hợp (P6) báo cáo quy trình trích xuất có kiểm
+> chứng của con người và không phụ thuộc vào tính tự động của phần mềm.
 
 ---
 
 ## 1. TÊN TÁC PHẨM
 
-**M-AIDA** (Meta-Analysis Intelligent Data Assistant — Internationalization & Performance)
-
-Phiên bản: 7.0.0
-
----
+**M-AIDA** — *Meta-Analysis Intelligent Data Assistant* (Trợ lý dữ liệu thông minh cho phân tích
+tổng hợp), chuyên biệt cho quan hệ Quốc tế hóa – Hiệu quả doanh nghiệp (Internationalization–
+Performance, I–P). Phiên bản: **7.0.0**.
 
 ## 2. LOẠI TÁC PHẨM
+Chương trình máy tính (Computer Program / Research Software).
 
-Phần mềm máy tính (Computer Program)
+## 3. TÁC GIẢ / CHỦ SỞ HỮU
+Phần mềm do **Đỗ Thị Thúy Hương** và **Phan Anh Tú** (Trường Kinh tế, Trường Đại học Cần Thơ) tự
+nghiên cứu và xây dựng. Tại thời điểm đăng ký, M-AIDA **chưa có sản phẩm tương đương trên thị
+trường** trong phạm vi công cụ trích xuất dữ liệu chuyên biệt cho phân tích tổng hợp lĩnh vực kinh
+doanh quốc tế.
 
----
-
-## 3. MỤC ĐÍCH VÀ CHỨC NĂNG TỔNG QUAN
-
-M-AIDA là phần mềm chuyên dụng phục vụ nghiên cứu học thuật trong lĩnh vực Quản trị Kinh doanh Quốc tế (International Business). Phần mềm hỗ trợ các nhà nghiên cứu tự động hóa quy trình trích xuất dữ liệu thống kê từ các bài báo khoa học dạng PDF, kiểm tra và chuẩn hóa kết quả, sau đó xuất tập dữ liệu phục vụ meta-analysis (phân tích tổng hợp định lượng) về mối quan hệ giữa quốc tế hóa doanh nghiệp và hiệu quả hoạt động (Internationalization → Performance, I→P).
-
-Phần mềm được phát triển để phục vụ trực tiếp Luận án Tiến sĩ "Internationalization and Firm Performance in Asia-Pacific: A Multi-Country Meta-Analysis" (Paper 6 của luận án).
-
----
-
-## 4. KIẾN TRÚC PHẦN MỀM
-
-M-AIDA gồm hai thành phần chính:
-
-### 4.1. Backend — FastAPI (Python)
-
-**Ngôn ngữ & Framework chính**:
-- Python 3.11+
-- FastAPI 0.115.0 (REST API framework)
-- Pydantic 2.7.0 (data validation & settings)
-- Uvicorn 0.30.0 (ASGI server)
-
-**Thư viện xử lý**:
-- PyMuPDF 1.24.5 — trích xuất văn bản từ PDF
-- Anthropic Claude SDK 0.31.0 — LLM pipeline trích xuất thống kê
-- Notion Client 2.2.1 — đồng bộ dữ liệu nghiên cứu lên Notion database
-- pandas 2.2.2, numpy 2.0.0, scipy 1.13.1 — xử lý dữ liệu thống kê
-
-**Các module Backend**:
-- `main.py` — FastAPI application entry point; định nghĩa 8 REST API endpoints
-- `extractor.py` — StatisticalExtractor class: LLM pipeline trích xuất effect sizes từ văn bản PDF
-- `models.py` — Pydantic data models: ExtractedEffect, StudyDatabaseEntry, VerificationDecision
-- `settings.py` — Cấu hình runtime từ biến môi trường (pydantic-settings)
-- `notion_sync.py` — NotionSync class: đồng bộ hai chiều với Notion database
-
-### 4.2. Frontend — React 18 + TypeScript
-
-**Ngôn ngữ & Framework chính**:
-- TypeScript 5.x
-- React 18 (Hooks: useState, useCallback)
-
-**Các component**:
-- `App.tsx` — Root component; two-tab layout (Extract / Verify & Lock)
-- `ExtractionPanel.tsx` — Giao diện upload PDF và hiển thị kết quả LLM extraction
-- `VerificationDashboard.tsx` — Dashboard cho PI (Principal Investigator) kiểm tra và phê duyệt
-- `VerificationPanel.tsx` — Panel thao tác cho từng nghiên cứu (overrides, approval)
-- `ExportPanel.tsx` — Xuất CSV từ các nghiên cứu đã khóa (pi_locked=True)
+*(Thông tin cá nhân để hoàn tất đơn COV — tác giả điền: họ tên đầy đủ, ngày sinh, địa chỉ thường
+trú, số CCCD, điện thoại, email; quốc tịch Việt Nam.)*
 
 ---
 
-## 5. CHỨC NĂNG CHI TIẾT
+## 4. CƠ SỞ HỌC THUẬT VÀ ĐỘNG CƠ XÂY DỰNG (Statement of Need)
 
-### 5.1. Module Trích xuất Effect Size (POST /api/extract)
+### 4.1. Bài toán phương pháp
+Phân tích tổng hợp (meta-analysis) trong kinh doanh quốc tế đòi hỏi **trích xuất cỡ ảnh hưởng
+(effect size)** từ hàng trăm nghiên cứu sơ cấp dị biệt: hệ số tương quan Pearson *r*, hệ số hồi quy
+chuẩn hóa *β*, thống kê *t*, *F*, giá trị *p*, khoảng tin cậy — kèm cỡ mẫu *N* và các biến điều
+tiết. Thao tác này khi làm thủ công vừa **chậm và lặp lại**, vừa **dễ sai sót** khi quy đổi giữa các
+dạng thống kê và khi mã hóa biến điều tiết theo một khung phân loại nhất quán. Đây là nút thắt năng
+suất kinh điển của tổng quan hệ thống: đánh đổi giữa **thông lượng trích xuất** và **độ chính xác**.
 
-- Nhận file PDF dưới dạng Base64 hoặc multipart upload
-- Trích xuất văn bản toàn bộ PDF bằng PyMuPDF
-- Gửi văn bản đến Claude API với system prompt chuyên biệt để:
-  - Xác định N (sample size), r (Pearson correlation), t-statistic, df, β (standardised regression coefficient), p-value, CI 95%
-  - Phân loại moderators: doi_measure (FSTS/entropy/n_markets/TNI), performance_measure (ROA/ROE/ROS/TobinsQ), icrv_regime (I/II/III/SIDS/V/pooled), dpl_phase (Precede/Span/Follow)
-- Chuyển đổi t → r theo công thức Peterson & Brown (2005): `r = sqrt(t² / (t² + df))`
-- Chuyển đổi β → r theo Peterson & Brown (2005): `r ≈ β × 0.98`
-- Tính extraction_confidence (1.0=direct r; 0.8=from t; 0.6=from β) và tự động đánh dấu requires_verification nếu confidence < 0.7
+### 4.2. Tri thức nền làm cơ sở thiết kế (knowledge-driven design)
+M-AIDA **không phải phần mềm trích xuất tổng quát**, mà là kết tinh tri thức phương pháp luận của
+tác giả về phân tích tổng hợp trong kinh doanh quốc tế. Cụ thể, các quy tắc nghiệp vụ được **mã hóa
+trực tiếp từ chuẩn học thuật**:
+- **Thứ tự ưu tiên thống kê** và **công thức quy đổi về *r***: trực tiếp *r* → từ *t* → từ *F* → từ
+  *β*, theo Borenstein et al. (2009) và Peterson & Brown (2005) (`r = √(t²/(t²+df))`; `r ≈ β` với
+  hiệu chỉnh khi |β| nhỏ). Mỗi đường quy đổi gắn một **mức độ tin cậy** giảm dần.
+- **Khung biến điều tiết đặc thù của luận án**: chế độ thể chế ICRV, chỉ số áp dụng số quốc gia
+  cDAI, pha Vòng đời Nghịch lý Số DPL (Precede/Span/Follow) — các kiến tạo (construct) do chính tác
+  giả phát triển trong khung lý thuyết của luận án.
+- **Chuẩn báo cáo**: tuân thủ tinh thần PRISMA 2020 và MARS (Meta-Analysis Reporting Standards), với
+  trường dữ liệu xuất ra khớp ma trận dữ liệu của luận án.
 
-### 5.2. Module Quản lý Nghiên cứu (GET /api/studies)
-
-- Lưu trữ in-memory study store (dict keyed by UUID study_id)
-- Lọc theo: icrv_regime, dpl_phase, verified status, pi_locked status
-- Truy vấn từng nghiên cứu theo UUID (GET /api/studies/{id})
-
-### 5.3. Module Xác minh PI (PATCH /api/studies/{id}/verify)
-
-- Cho phép Principal Investigator áp dụng field_overrides lên bất kỳ trường nào của ExtractedEffect
-- Cờ pi_approved chuyển requires_verification = False
-- Lưu pi_notes (ghi chú tự do của PI)
-
-### 5.4. Module Khóa Dữ liệu (POST /api/studies/{id}/lock)
-
-- Khóa vĩnh viễn bản ghi (pi_locked = True, locked_at = UTC timestamp)
-- Thao tác KHÔNG THỂ ĐẢO NGƯỢC — đảm bảo data integrity cho meta-analysis
-- Chỉ cho phép khóa các bản ghi đã được PI phê duyệt (requires_verification = False)
-
-### 5.5. Module Xuất Dữ liệu (GET /api/studies/export/csv)
-
-- Xuất CSV streaming chỉ bao gồm các nghiên cứu đã pi_locked
-- Field order chuẩn theo quy ước dissertation data matrix
-- Headers: study_id, paper_title, authors, year, country, sample_n, effect_r, effect_t, effect_beta, effect_df, p_value, ci_lower, ci_upper, doi_measure, performance_measure, icrv_regime, dpl_phase, cdai_score, extraction_confidence, pi_notes, locked_at
-
-### 5.6. Module Đồng bộ Notion (POST /api/notion/sync)
-
-- Push tất cả nghiên cứu đã pi_locked lên Notion database
-- Upsert logic: cập nhật nếu notion_page_id đã có, tạo mới nếu chưa có
-- Pagination tự động khi fetch_all_studies()
+Nói cách khác, **giá trị cốt lõi của M-AIDA nằm ở tri thức chuyên ngành được hệ thống hóa**, không
+chỉ ở phần lập trình. Chính vì dựa trên hiểu biết sâu về meta-analysis trong international business
+mà tác giả mới có thể đặc tả được system prompt, thang tin cậy, và lược đồ biến điều tiết đúng chuẩn.
 
 ---
 
-## 6. TÍNH NGUYÊN GỐC VÀ SÁNG TẠO
+## 5. NGUYÊN LÝ CỐT LÕI — CON NGƯỜI TRONG VÒNG LẶP (Human-in-the-Loop)
 
-M-AIDA là phần mềm đầu tiên tại Việt Nam kết hợp:
+M-AIDA được thiết kế trên một nguyên lý phương pháp luận **bất biến**:
 
-1. **LLM-powered extraction với confidence scoring**: Sử dụng Claude API với system prompt chuyên biệt cho I→P meta-analysis, với thang đánh giá độ tin cậy 3 mức (direct r / from t / from β) dựa trên Peterson & Brown (2005) — không có trong bất kỳ meta-analysis tool công khai nào.
+> **Tự động hóa để giảm THỜI GIAN; con người để bảo đảm TÍNH HỢP LỆ.**
 
-2. **Workflow PI Verification + Irreversible Lock**: Cơ chế 2 bước (approve → lock) đảm bảo data integrity và audit trail, phân biệt rõ LLM extraction và quyết định của Principal Investigator — đặc thù cho dissertations và peer-reviewed research.
+- Mô hình ngôn ngữ lớn (LLM) chỉ tạo ra **bản nháp trích xuất** kèm điểm tin cậy
+  (`extraction_confidence`); bản nháp **không bao giờ** tự động đi vào tập dữ liệu phân tích.
+- Bản ghi có `confidence < 0.7` tự động bị gắn cờ `requires_verification`.
+- **Principal Investigator (PI)** bắt buộc rà soát, có quyền **ghi đè (override)** bất kỳ trường nào,
+  ghi chú lý do, rồi mới **phê duyệt**.
+- Chỉ bản ghi đã phê duyệt mới được **khóa vĩnh viễn (irreversible lock)** kèm dấu thời gian UTC,
+  tạo **vết kiểm toán (audit trail)** phục vụ minh bạch và tái lập.
+- Chỉ các bản ghi đã khóa mới được xuất ra CSV để đưa vào phân tích.
 
-3. **Domain-specific moderator coding**: Tích hợp sẵn phân loại ICRV regime (5 mức: I/II/III/SIDS/V), DPL phase (3 giai đoạn), cDAI score — các constructs độc quyền của luận án tiến sĩ này.
-
-4. **Notion bidirectional sync**: Cho phép collaborative verification qua Notion workspace mà không cần shared file system.
-
-5. **FastAPI + React 18 stack với TypeScript**: Architecture hiện đại, type-safe, hỗ trợ multipart PDF upload và streaming CSV export.
-
----
-
-## 7. CÔNG NGHỆ SỬ DỤNG
-
-**Backend**:
-- Ngôn ngữ: Python 3.11+
-- Framework: FastAPI 0.115.0, Uvicorn 0.30.0
-- AI/LLM: Anthropic Claude SDK 0.31.0 (model: claude-sonnet-4-6)
-- PDF: PyMuPDF 1.24.5
-- Database sync: notion-client 2.2.1
-- Data processing: pandas 2.2.2, numpy 2.0.0, scipy 1.13.1
-- Validation: pydantic 2.7.0, pydantic-settings 2.3.0
-
-**Frontend**:
-- Ngôn ngữ: TypeScript 5.x
-- Framework: React 18 (functional components, Hooks)
-- Build tool: Vite (assumed from project structure)
-
-**Deployment**:
-- Docker (Dockerfile có sẵn trong backend/)
-- CORS-configured cho localhost:3000 (development)
+Cơ chế hai bước **phê duyệt → khóa** là **đặc trưng phân biệt M-AIDA với mọi công cụ trích xuất tự
+động thuần túy**: nó hiện thực hóa chuẩn mực sử dụng AI có trách nhiệm trong nghiên cứu — AI tăng
+tốc, nhưng **con người chịu trách nhiệm cuối cùng** về từng số liệu. Đây cũng là lý do dữ liệu do
+quy trình M-AIDA sinh ra đủ tin cậy cho nghiên cứu bình duyệt.
 
 ---
 
-## 8. ĐỐI TƯỢNG NGƯỜI DÙNG
+## 6. KIẾN TRÚC PHẦN MỀM
 
-- Nghiên cứu sinh tiến sĩ trong lĩnh vực International Business, Strategy, Management
-- Giảng viên và nhà nghiên cứu thực hiện systematic review và meta-analysis
-- Nhóm nghiên cứu cần quy trình extraction + verification chuẩn hóa
+### 6.1. Backend — FastAPI (Python 3.11+)
+- Framework: FastAPI 0.115, Uvicorn 0.30, Pydantic 2.7 (kiểm định dữ liệu).
+- Xử lý: PyMuPDF 1.24 (trích văn bản PDF); Anthropic Claude SDK 0.31 (pipeline LLM); pandas 2.2,
+  numpy 2.0, scipy 1.13 (xử lý thống kê); notion-client 2.2 (đồng bộ Notion).
+- Module: `main.py` (8 REST endpoint), `extractor.py` (lớp `StatisticalExtractor`), `models.py`
+  (mô hình Pydantic: `ExtractedEffect`, `StudyDatabaseEntry`, `VerificationDecision`),
+  `settings.py` (cấu hình runtime), `notion_sync.py` (đồng bộ hai chiều).
 
----
-
-## 9. NGÀY HOÀN THÀNH
-
-[DD/MM/YYYY] — Điền ngày hoàn thành phiên bản 7.0.0 (ngày commit cuối cùng)
-
----
-
-## 10. TÁC GIẢ / CHỦ SỞ HỮU
-
-Họ và tên đầy đủ: [Điền tên tác giả]
-Ngày sinh: [DD/MM/YYYY]
-Địa chỉ: [Điền địa chỉ]
-Số CMND/CCCD: [Điền số]
-Số điện thoại: [Điền số]
-Email: [Điền email]
-Quốc tịch: Việt Nam
+### 6.2. Frontend — React 18 + TypeScript
+- `App.tsx` (bố cục hai tab Extract / Verify & Lock), `ExtractionPanel.tsx`,
+  `VerificationDashboard.tsx`, `VerificationPanel.tsx`, `ExportPanel.tsx`.
 
 ---
 
-## 11. THÔNG BÁO BẢN QUYỀN (COPYRIGHT NOTICE)
+## 7. CHỨC NĂNG CHI TIẾT (ánh xạ theo quy trình phân tích tổng hợp)
 
+| Bước phân tích tổng hợp | Module M-AIDA | Endpoint |
+|---|---|---|
+| Trích cỡ ảnh hưởng từ toàn văn | LLM extraction + quy đổi về *r* + chấm tin cậy | `POST /api/extract` |
+| Quản lý & lọc nghiên cứu | Study store (lọc theo ICRV/DPL/verified/locked) | `GET /api/studies` |
+| **Xác nhận của con người (PI)** | Override trường + phê duyệt + ghi chú | `PATCH /api/studies/{id}/verify` |
+| **Khóa toàn vẹn (không đảo ngược)** | Lock + dấu thời gian (audit trail) | `POST /api/studies/{id}/lock` |
+| Xuất dữ liệu chuẩn ma trận | CSV streaming (chỉ bản ghi đã khóa) | `GET /api/studies/export/csv` |
+| Đồng bộ cộng tác | Push lên Notion (upsert) | `POST /api/notion/sync` |
+
+Trường xuất chuẩn: `study_id, paper_title, authors, year, country, sample_n, effect_r, effect_t,
+effect_beta, effect_df, p_value, ci_lower, ci_upper, doi_measure, performance_measure, icrv_regime,
+dpl_phase, cdai_score, extraction_confidence, pi_notes, locked_at`.
+
+---
+
+## 8. TÍNH NGUYÊN GỐC VÀ SÁNG TẠO
+
+1. **Phần mềm trích xuất chuyên ngành đầu tiên cho phân tích tổng hợp I–P tại Việt Nam**, mã hóa
+   tri thức phương pháp meta-analysis vào pipeline tự động (không có trên thị trường).
+2. **Thang tin cậy trích xuất 3 mức** gắn trực tiếp với chuẩn quy đổi Peterson & Brown (2005).
+3. **Quy trình PI verify → irreversible lock** với audit trail — phân biệt rõ "bản nháp của máy" và
+   "quyết định của nhà nghiên cứu", phù hợp luận án và nghiên cứu bình duyệt.
+4. **Lược đồ biến điều tiết độc quyền của luận án** (ICRV / cDAI / DPL) tích hợp sẵn.
+5. **Kiến trúc FastAPI + React 18/TypeScript** type-safe, container hóa bằng Docker.
+
+## 9. CÔNG NGHỆ SỬ DỤNG
+Backend: Python 3.11+, FastAPI 0.115, Uvicorn 0.30, Anthropic Claude SDK 0.31 (model
+`claude-sonnet-4-6`), PyMuPDF 1.24, notion-client 2.2, pandas 2.2 / numpy 2.0 / scipy 1.13,
+pydantic 2.7. Frontend: TypeScript 5.x, React 18, build Vite. Triển khai: Docker (Dockerfile +
+docker-compose), CORS cấu hình cho phát triển.
+
+## 10. ĐỐI TƯỢNG NGƯỜI DÙNG
+Nghiên cứu sinh, giảng viên, nhóm nghiên cứu thực hiện tổng quan hệ thống và phân tích tổng hợp
+trong kinh doanh quốc tế, chiến lược, quản trị — những người cần một quy trình trích xuất **vừa
+nhanh vừa có kiểm chứng của con người**.
+
+## 11. QUAN HỆ VỚI LUẬN ÁN (định vị trung thực)
+M-AIDA là **đóng góp về phương pháp/hạ tầng nghiên cứu** trong khuôn khổ luận án — một công cụ do
+tác giả xây dựng để **tăng tốc bước trích xuất** dữ liệu sơ cấp cho phân tích tổng hợp, với **xác
+nhận bắt buộc của con người** ở mọi bản ghi. M-AIDA **không phải là nguồn tạo ra kết quả chưa kiểm
+chứng**: nó hỗ trợ quy trình, còn trách nhiệm khoa học thuộc về nhà nghiên cứu. Vì M-AIDA được mô tả
+ở chương phương pháp của luận án như một công cụ hỗ trợ (có người trong vòng lặp), bài báo P6 báo
+cáo trích xuất theo quy trình có kiểm chứng của con người và **không lệ thuộc** vào tính tự động của
+phần mềm.
+
+## 12. NGÀY HOÀN THÀNH / TÌNH TRẠNG CÔNG BỐ
+Ngày hoàn thành phiên bản 7.0.0: *[DD/MM/YYYY — ngày commit cuối của v7.0.0; tác giả điền]*. Mã nguồn
+lưu trong repository nghiên cứu, **chưa phát hành công khai**; được sử dụng nội bộ phục vụ luận án.
+
+## 13. THÔNG BÁO BẢN QUYỀN
 ```
-© [Năm] [Tên tác giả]. All rights reserved.
-
-M-AIDA (Meta-Analysis Intelligent Data Assistant) is protected by
-copyright law and international treaties. Unauthorized reproduction
-or distribution of this software, or any portion of it, may result
-in severe civil and criminal penalties, and will be prosecuted to
-the maximum extent possible under the law.
-
-For licensing inquiries, contact: [email]
+© [Năm] Đỗ Thị Thúy Hương & Phan Anh Tú. All rights reserved.
+M-AIDA (Meta-Analysis Intelligent Data Assistant) — Proprietary, Research Use Only.
+Liên hệ cấp phép: [email tác giả]
 ```
 
+## 14. CÁCH TRÍCH DẪN (academic citation)
+> Đỗ, T. T. H., & Phan, A. T. ([Năm]). *M-AIDA: Meta-Analysis Intelligent Data Assistant* (Phiên bản
+> 7.0.0) [Phần mềm máy tính]. Trường Đại học Cần Thơ. Số đăng ký bản quyền: [điền sau khi cấp].
+
+Siêu dữ liệu trích dẫn máy-đọc: xem `p6/tools/maida/CITATION.cff` (Citation File Format 1.2.0).
+
 ---
 
-## 12. TÌNH TRẠNG CÔNG BỐ
-
-Phần mềm đã được sử dụng nội bộ trong quá trình thực hiện luận án tiến sĩ.
-Mã nguồn được lưu trữ trong repository nghiên cứu (không phát hành công khai).
-
-*Ghi chú: Tài liệu này là bản mô tả tác phẩm phục vụ đăng ký bản quyền tại Cục Bản quyền Tác giả Việt Nam (COV), 51–53 Ngô Quyền, Hoàn Kiếm, Hà Nội.*
+*Tài liệu phục vụ đăng ký quyền tác giả tại Cục Bản quyền Tác giả Việt Nam (COV), 51–53 Ngô Quyền,
+Hoàn Kiếm, Hà Nội. Quy trình & lệ phí: xem `02_checklist_nop_ho_so.md`.*
