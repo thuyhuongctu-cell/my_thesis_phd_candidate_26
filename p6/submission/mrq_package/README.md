@@ -9,9 +9,9 @@
 
 > **Retargeted from International Business Review → Management Review Quarterly** (2026-05-27).
 > MRQ specialises in meta-analyses and accommodates comprehensive length (no rigid word cap),
-> which fits this manuscript without trimming. The `.docx` artifacts in this folder still carry
-> IBR-specific wording and **must be rebuilt** from the updated markdown sources before submission
-> (see "Rebuild needed" below).
+> which fits this manuscript without trimming. `01_manuscript_blinded.docx` has been **rebuilt**
+> (MRQ-targeted, blinded; via `scripts/build_p6_blinded_docx.sh`). The **title page and cover
+> letter** still carry IBR wording and must be updated before submission (see "Rebuild status").
 
 ---
 
@@ -75,11 +75,15 @@
 
 ---
 
-## Rebuild needed (after retarget)
+## Rebuild status (after retarget)
 
-The `.docx` files were generated for IBR. Before submitting to MRQ, rebuild from sources:
-- `01_manuscript_blinded.docx` ← regenerate from `p6/p6_meta_manuscript_en.md` (now MRQ-targeted, blinded).
-- `02_title_page.docx` and `03_cover_letter.docx` ← update salutation/journal name to *Management Review Quarterly* (no markdown source exists; edit directly or recreate).
+- [x] `01_manuscript_blinded.docx` — **rebuilt** MRQ-targeted & blinded (1.4 MB, 5 figures embedded)
+  via `bash scripts/build_p6_blinded_docx.sh`. Verified: no author tokens, "Can Tho University"
+  absent from body, PI mention anonymised to "the first author".
+- [ ] `02_title_page.docx` — update target-journal line to *Management Review Quarterly* (no
+  markdown source; edit `.docx` directly or recreate).
+- [ ] `03_cover_letter.docx` — update salutation/journal name to *Management Review Quarterly*
+  (Springer Editorial Manager); currently addressed to IBR.
 
 ---
 
