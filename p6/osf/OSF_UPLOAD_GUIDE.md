@@ -41,6 +41,13 @@
 4. Thiết lập **License**: Settings → CC-BY 4.0 (tài liệu/mã) ; cân nhắc CC0 cho dataset.
 5. Bấm **Make Public** khi sẵn sàng công khai (preregistration đã active sẵn).
 
+## ⛔ CHẶN UPLOAD — phải sửa trước (xem `PREREG_CONSISTENCY_AUDIT.md`)
+- **Codebook đang LỖI THỜI:** `3_Data/codebook.md` vẫn ghi sơ đồ ICRV/DPL theo bản
+  preregistration cũ (regime 4 = Resource/GCC, "multi-country → code 2", DPL = bins năm), **mâu
+  thuẫn trực tiếp** với dữ liệu thực tế (`I/II/III/MX/FR` và `PRE/SPN/FOL`). Phải đồng bộ codebook
+  về sơ đồ cuối trong bản thảo §2 (v1.1) **trước khi** công khai gói, nếu không reviewer/độc giả
+  OSF sẽ thấy codebook ≠ dữ liệu.
+
 ## ⛔ TẠM GIỮ — chưa tải lên cho tới khi hoàn tất
 - Dataset **pool mở rộng** + thư mục `p6/scripts/.../results/updated/` (formal-search k≥250 đang chạy).
 - File tracker đang làm dở: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv` (WIP, ~2.467 dòng).
