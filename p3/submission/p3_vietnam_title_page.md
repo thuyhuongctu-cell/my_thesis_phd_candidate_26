@@ -7,7 +7,7 @@
 
 **Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption**
 
-*Target journal:* Journal of Asia Business Studies (JABS), Emerald Publishing
+*Target journal:* Asia Pacific Journal of Management (APJM), Springer
 
 *Submission date:* 15 May 2026
 

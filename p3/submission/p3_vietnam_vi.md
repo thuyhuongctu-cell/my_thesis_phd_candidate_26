@@ -3,7 +3,7 @@
 **Đỗ Thùy Hương**, Trường Kinh tế, Trường Đại học Cần Thơ, huongp1323001@gstudent.ctu.edu.vn, ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)  
 **Phan Anh Tú** *(Tác giả liên hệ)*, Trường Kinh tế, Trường Đại học Cần Thơ, patu@ctu.edu.vn, ORCID: [0000-0003-0667-3137](https://orcid.org/0000-0003-0667-3137)
 
-*Tạp chí mục tiêu: Journal of Asia Business Studies (JABS), Emerald Publishing*
+*Tạp chí mục tiêu: Asia Pacific Journal of Management (APJM), Springer*
 
 **Phân loại bản thảo:** Bài báo nghiên cứu.
 

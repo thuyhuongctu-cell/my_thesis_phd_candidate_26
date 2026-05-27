@@ -1,9 +1,9 @@
-# JABS Submission Package
-## Journal of Asia Business Studies — Emerald Publishing
+# APJM Submission Package
+## Asia Pacific Journal of Management — Springer
 
 **Manuscript:** "Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption"
 
-**Submission date:** 15 May 2026
+**Submission date:** 27 May 2026
 
 **Authors:** Đỗ Thùy Hương & Phan Anh Tú (Can Tho University)
 
@@ -25,12 +25,12 @@
 
 ---
 
-## JABS Submission Checklist
+## APJM Submission Checklist
 
-### ScholarOne Manuscripts (mc.manuscriptcentral.com/jabs)
+### Editorial Manager (https://www.editorialmanager.com/apjm/)
 
-- [ ] Register / log in to ScholarOne
-- [ ] Select "Author" → "Submit New Manuscript"
+- [ ] Register / log in to Editorial Manager
+- [ ] Select "Submit New Manuscript"
 - [ ] **Manuscript type:** Research Article
 - [ ] **Title:** Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption
 - [ ] **Keywords** (6): internationalisation–performance; emerging markets; digital adoption; technological capability; Vietnam; threshold durability
