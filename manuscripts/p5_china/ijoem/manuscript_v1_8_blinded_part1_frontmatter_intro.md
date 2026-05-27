@@ -1,6 +1,6 @@
 # The Export Intensity–Performance Relationship in Chinese Private Firms: A Threshold-Stability Perspective
 
-*v1.8 (BLINDED), submission to Asia Pacific Journal of Management (APJM) [or alternative target, see SUBMISSION_TARGETS.md]*
+*v1.8 (BLINDED), submission to International Journal of Emerging Markets (IJOEM)*
 
 *2026-05-04 (Tier-C reference verification revision)*
 

@@ -368,4 +368,4 @@ Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internati
 
 ---
 
-*Gói tái lập: xem thư mục `p5-china/` trong kho lưu trữ của tác giả liên hệ (tên được ẩn để xem xét mù), bao gồm các thư mục con `do/`, `python/`, `audit/`, `results/` và `apjm/`. Mã tái lập đầy đủ (Stata + Python), bảng kiểm tra, hệ số M0–M8, kết quả điều tiết ba chiều, xác minh trích dẫn và kịch bản vẽ hình được ghi lại trong README kho lưu trữ.*
+*Gói tái lập: xem thư mục `p5-china/` trong kho lưu trữ của tác giả liên hệ (tên được ẩn để xem xét mù), bao gồm các thư mục con `do/`, `python/`, `audit/`, `results/` và `ijoem/`. Mã tái lập đầy đủ (Stata + Python), bảng kiểm tra, hệ số M0–M8, kết quả điều tiết ba chiều, xác minh trích dẫn và kịch bản vẽ hình được ghi lại trong README kho lưu trữ.*

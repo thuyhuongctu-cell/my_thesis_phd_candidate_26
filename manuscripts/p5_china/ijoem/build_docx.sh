@@ -3,7 +3,7 @@
 #
 # Generates manuscript_v1_8_blinded.docx with all 4 figures embedded inline.
 # Output: manuscript_v1_8_blinded.docx (~770 KB) ready for journal upload
-# (APJM "Manuscript" slot — double-blind review).
+# (IJOEM "Manuscript" slot — double-blind review).
 #
 # This is the BLINDED version of the manuscript:
 #   - Self-citations (Do & Tu, 2025 / 2026) replaced with "Author Citation"
@@ -16,7 +16,7 @@
 #   Ubuntu:   apt install pandoc graphviz && pip install matplotlib numpy
 #   Windows:  download pandoc-windows.msi + graphviz-windows.exe + pip install matplotlib numpy
 #
-# Usage (from p5-china/apjm/):
+# Usage (from p5-china/ijoem/):
 #   bash build_docx.sh
 #
 
@@ -74,7 +74,7 @@ if command -v pandoc &>/dev/null; then
     -o "${OUTPUT}"
   echo ""
   echo "BUILD COMPLETE: ${OUTPUT} ($(du -h "${OUTPUT}" | cut -f1))"
-  echo "  Upload to APJM 'Manuscript' (blinded) slot."
+  echo "  Upload to IJOEM 'Manuscript' (blinded) slot."
   echo "  Title page (with author info) goes in separate slot — see submission/01_title_page.md"
   echo ""
   echo "  Verification:"
@@ -83,7 +83,7 @@ if command -v pandoc &>/dev/null; then
   echo "  - 3 tables (descriptives, M2 main, three-way moderation)"
   echo "  - 4 figures embedded (conceptual, threshold forest, predicted curves, level-shift bars)"
   echo "  - All empirical claims verified against data (see CLAIMS_AUDIT.md)"
-  echo "  - All Tier-C references verified (see VERIFICATION_RESULTS.md)"
+  echo "  - All references verified (see CITATION_AUDIT.md)"
   echo ""
   echo "  Final blinding verification (run before upload):"
   echo "    grep -nE \"(Do & Tu|huongctu|Class-AI-Agent)\" manuscript_v1_8_blinded_part*.md"

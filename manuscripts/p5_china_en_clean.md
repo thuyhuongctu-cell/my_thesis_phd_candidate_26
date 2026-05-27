@@ -2,7 +2,7 @@
 
 *v1.9 (BLINDED), submission to International Journal of Emerging Markets (IJOEM)*
 
-*2026-05-06 (v1.9 biên tập: blind self-cites for APJM submission — ICBEF 2025, JFAR 2026, VEFR 2026; add Highlights + JEL + Manuscript classification; remove cross-references to unsubmitted companion working papers on Vietnam and Singapore)*
+*2026-05-06 (v1.9 biên tập: blind self-cites for IJOEM submission — ICBEF 2025, JFAR 2026, VEFR 2026; add Highlights + JEL + Manuscript classification; remove cross-references to unsubmitted companion working papers on Vietnam and Singapore)*
 
 ---
 
@@ -540,4 +540,4 @@ Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internati
 
 ---
 
-*Replication package: see `p5-china/` directory in the corresponding author's repository (handle withheld for blind review), including `do/`, `python/`, `audit/`, `results/`, and `apjm/` subfolders. The complete v1.8 manuscript is assembled from six section parts (`apjm/manuscript_v1_8_blinded_part{1,2,3,4,5,6}_*.md`) per the build script `apjm/build_docx.sh`. Full replication code (Stata + Python), audit tables, M0–M8 coefficients, three-way moderation results, citation verification (`apjm/VERIFICATION_RESULTS.md`), and figure-rendering scripts are documented in the repository README.*
+*Replication package: see `p5-china/` directory in the corresponding author's repository (handle withheld for blind review), including `do/`, `python/`, `audit/`, `results/`, and `ijoem/` subfolders. The complete v1.8 manuscript is assembled from the section parts (`ijoem/manuscript_v1_8_blinded_part{1,2,3,4,5,6,7}_*.md`) per the build script `ijoem/build_docx.sh`. Full replication code (Stata + Python), audit tables, M0–M8 coefficients, three-way moderation results, citation verification (`ijoem/CITATION_AUDIT.md`), and figure-rendering scripts are documented in the repository README.*

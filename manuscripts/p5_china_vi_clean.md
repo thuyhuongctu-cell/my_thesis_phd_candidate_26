@@ -2,7 +2,7 @@
 
 *v1.9 (BLINDED), nộp tới International Journal of Emerging Markets (IJOEM)*
 
-*2026-05-06 (v1.9 biên tập: blind self-cites for APJM submission — ICBEF 2025, JFAR 2026, VEFR 2026; bổ sung Highlights + JEL + Phân loại bản thảo; loại bỏ tham chiếu chéo tới các working paper đồng hành chưa nộp về Việt Nam và Singapore)*
+*2026-05-06 (v1.9 biên tập: blind self-cites for IJOEM submission — ICBEF 2025, JFAR 2026, VEFR 2026; bổ sung Highlights + JEL + Phân loại bản thảo; loại bỏ tham chiếu chéo tới các working paper đồng hành chưa nộp về Việt Nam và Singapore)*
 
 ---
 
