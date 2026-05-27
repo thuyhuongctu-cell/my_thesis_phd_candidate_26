@@ -80,10 +80,14 @@
 - [x] `01_manuscript_blinded.docx` — **rebuilt** MRQ-targeted & blinded (1.4 MB, 5 figures embedded)
   via `bash scripts/build_p6_blinded_docx.sh`. Verified: no author tokens, "Can Tho University"
   absent from body, PI mention anonymised to "the first author".
-- [ ] `02_title_page.docx` — update target-journal line to *Management Review Quarterly* (no
-  markdown source; edit `.docx` directly or recreate).
-- [ ] `03_cover_letter.docx` — update salutation/journal name to *Management Review Quarterly*
-  (Springer Editorial Manager); currently addressed to IBR.
+- [x] `02_title_page.docx` — **rebuilt** from `02_title_page.md` (MRQ; k=238/K=288, 5 tables, 5
+  figures, OSF link added; CRediT/affiliations/ORCIDs preserved).
+- [x] `03_cover_letter.docx` — **rebuilt** from `03_cover_letter.md` (addressed to MRQ Editors-in-Chief;
+  rewritten to match the current manuscript — global corpus, honest null moderators, publication-bias
+  headline). **Replaces the prior IBR cover letter, which described an obsolete version with
+  contradictory results** (I² > 80%, 65% between-study, significant ICRV gradient/cDAI, Asia-Pacific,
+  k=235/385). Markdown sources `02_title_page.md` / `03_cover_letter.md` are the canonical sources;
+  rebuild all three with `bash scripts/build_p6_blinded_docx.sh`.
 
 ---
 

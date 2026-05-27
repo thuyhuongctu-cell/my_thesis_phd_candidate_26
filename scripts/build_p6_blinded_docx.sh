@@ -61,3 +61,16 @@ pandoc \
   --highlight-style tango \
   "$TMP" -o "$OUT"
 echo "       $(du -h "$OUT" | cut -f1) written"
+
+# --- Title page + cover letter (un-blinded author files; markdown sources) ---
+for part in 02_title_page 03_cover_letter; do
+  PART_SRC="p6/submission/mrq_package/${part}.md"
+  PART_OUT="p6/submission/mrq_package/${part}.docx"
+  if [[ -f "$PART_SRC" ]]; then
+    echo "[docx] $part -> $PART_OUT"
+    pandoc --from "gfm+tex_math_dollars" --to docx \
+      --reference-doc "$TEMPLATE" --highlight-style tango \
+      "$PART_SRC" -o "$PART_OUT"
+    echo "       $(du -h "$PART_OUT" | cut -f1) written"
+  fi
+done
