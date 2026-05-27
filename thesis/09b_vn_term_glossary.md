@@ -2,8 +2,8 @@
 
 **NCS:** Đỗ Thùy Hương — Trường Đại học Cần Thơ  
 **Hướng dẫn khoa học:** PGS.TS. Phan Anh Tú  
-**Phiên bản:** v1.2 (08/05/2026 — bao gồm Nhóm 1-8)  
-**Tổng số mục:** 68 thuật ngữ  
+**Phiên bản:** v1.3 (27/05/2026 — bao gồm Nhóm 1-9)  
+**Tổng số mục:** 75 thuật ngữ  
 **Lưu ý:** Phụ lục H trong CĐ1 là bản rút gọn 50 mục cốt lõi (Nhóm 1-5 + lựa chọn từ Nhóm 6-8).
 
 ---
@@ -182,6 +182,22 @@
 
 ---
 
+## Nhóm 9 — Thuật ngữ khung lý thuyết CDCM (đồng bộ phản biện 2026)
+
+*Áp dụng cho: Khung lý thuyết (Ch.2, CĐ2 §2.3), Kết quả và Thảo luận (Ch.4-5).*
+
+| STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
+|-----|-----------|------------------|-------------------|------------------------|
+| 69 | Digital-for-institutional substitution | Thay thế số cho thể chế | cơ chế thay thế số cho thể chế (digital-for-institutional substitution; nhãn gợi hình "lá chắn số" / Digital Shield) | thay thế số cho thể chế |
+| 70 | Context-dependent capability | Năng lực phụ thuộc bối cảnh | năng lực phụ thuộc bối cảnh (context-dependent capability) | năng lực phụ thuộc bối cảnh |
+| 71 | Level-shifter | Nâng mặt bằng năng suất | hiệu ứng nâng mặt bằng (level-shifter) | nâng mặt bằng |
+| 72 | Structural boundary | Ranh giới cấu trúc | ranh giới cấu trúc (structural boundary) | ranh giới cấu trúc |
+| 73 | Entry cliff | Vách đá gia nhập | hiệu ứng vách đá gia nhập (entry cliff) | vách đá gia nhập |
+| 74 | Forced internationalization penalty | Gánh nặng quốc tế hóa bắt buộc | gánh nặng quốc tế hóa bắt buộc (forced internationalization penalty — FIP) | FIP |
+| 75 | Concavity (inverted-U) | Độ cong (chữ U ngược) | độ cong của đường cong chữ U ngược (concavity) | độ cong |
+
+---
+
 ## Lịch sử phiên bản
 
 | Phiên bản | Ngày | Nội dung thay đổi |
@@ -189,6 +205,7 @@
 | v1.0 | 08/05/2026 | Tạo mới — Nhóm 1-5 (50 mục cơ bản, Phase 1) |
 | v1.1 | 08/05/2026 | Bổ sung Nhóm 6 (lý thuyết IB nâng cao từ Xu 2024 + Kafouros 2023) |
 | v1.2 | 08/05/2026 | Bổ sung Nhóm 7 (WBES methodology) + Nhóm 8 (kinh tế vĩ mô) + Phụ lục Hán-Việt |
+| v1.3 | 27/05/2026 | Bổ sung Nhóm 9 (khung CDCM sau phản biện): chuẩn hóa "thay thế số cho thể chế" (thay "lá chắn số" làm thuật ngữ chính), "năng lực phụ thuộc bối cảnh" (thay "mở rộng tình huống") |
 
 ---
 

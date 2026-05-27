@@ -167,7 +167,7 @@ Chương 4 trình bày kết quả ở ba cấp độ: meta-analysis, country-le
 ### 4.4 Phân tích moderation và boundary case
 
 - Vai trò điều tiết của thể chế (khoảng trống thể chế, rào cản kinh doanh, nhóm con chế độ ICRV).
-- Vai trò điều tiết của các cấu trúc số (năng lực công nghệ TCI so với áp dụng số DAI): kiểm định tính không chồng lấn (non-overlapping) và hiệu ứng lá chắn số (digital shield) mở rộng (Đỗ & Phan, 2026 — VEFR).
+- Vai trò điều tiết của các cấu trúc số (năng lực công nghệ TCI so với áp dụng số DAI): kiểm định tính không chồng lấn (non-overlapping) và hiệu ứng thay thế số cho thể chế (digital shield) mở rộng (Đỗ & Phan, 2026 — VEFR).
 - Vai trò điều tiết của top manager characteristics (experience, gender) (Hambrick & Mason, 1984; Hsu et al., 2013).
 - **Boundary case Pacific SIDS adjacent** (9 nước, n=2.038 (toàn pool SIDS_small) / n=1.469 (mẫu phân tích sau lọc missing)): forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript). Kiribati 2025 (n=150) được bổ sung là SIDS cực đoan nhất (FSTS 1,03%, FDI 0,7%, website 18,7%).
 

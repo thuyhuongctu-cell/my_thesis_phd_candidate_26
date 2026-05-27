@@ -78,7 +78,7 @@ Luận án phân biệt rõ hai khái niệm:
 
 **Nguyên tắc không chồng lấn**: TCI và DAI không chia sẻ thành phần nào để bảo đảm tính thuần nhất khái niệm. Đặc biệt, cấp phép công nghệ nước ngoài thuộc TCI chứ không đồng thời tính vào DAI.
 
-**Cơ sở kế thừa**: Bhandari et al. (2023) phân biệt số hóa, quốc tế hóa và năng lực theo logic điều phối nguồn lực; Verhoef et al. (2021) phân biệt ba cấp độ (số hóa dữ liệu, số hóa quy trình, chuyển đổi số). Khuôn mẫu "hiệu ứng lá chắn số" được Do và Phan (2026a) phát hiện trên 17 nước châu Á mới nổi.
+**Cơ sở kế thừa**: Bhandari et al. (2023) phân biệt số hóa, quốc tế hóa và năng lực theo logic điều phối nguồn lực; Verhoef et al. (2021) phân biệt ba cấp độ (số hóa dữ liệu, số hóa quy trình, chuyển đổi số). Khuôn mẫu "hiệu ứng thay thế số cho thể chế" được Do và Phan (2026a) phát hiện trên 17 nước châu Á mới nổi.
 
 **Đóng góp mới**: Đưa ra **quy trình hòa hợp đo lường** trong bối cảnh WBES, đảm bảo tính thuần nhất khái niệm ở 47 nền kinh tế châu Á và Thái Bình Dương, với quy trình hòa hợp ba thế hệ lược đồ dữ liệu. Phân tách TCI và DAI dựa theo: (i) Bharadwaj et al. (2013), năng lực CNTT và chiến lược kinh doanh số có mạng lưới quan hệ khái niệm khác nhau; (ii) phân tầng ba cấp của Verhoef et al. (2021): số hóa dữ liệu, số hóa quy trình, chuyển đổi số; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi năng lực công nghệ là chiều sâu năng lực nội tại (năng lực hấp thụ), khác về bản chất với áp dụng số ở giao diện ngoại tại; (iv) logic điều phối nguồn lực của Bhandari et al. (2023) cho quan hệ I-P; và (v) bốn tiêu chí của chỉ số tổng hợp dạng cấu thành theo Coltman et al. (2008), đảm bảo TCI và DAI là hai chỉ số tổng hợp độc lập.
 
@@ -190,7 +190,7 @@ H1: $\beta_1 > 0$ và $\beta_2 < 0$; điểm quay $TP^* = -\beta_1 / (2\beta_2)$
 **M3, Điều tiết NLCN (kiểm định H2):**
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4(CDDXK\_c \times NLCN\_z) + \beta_5(CDDXK\_c^2 \times NLCN\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
-**M4, Điều tiết CSS/DAI (H4 thăm dò):**
+**M4, Điều tiết CSS/DAI (H3, thăm dò):**
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z + \beta_4(CDDXK\_c \times CSS\_z) + \beta_5(CDDXK\_c^2 \times CSS\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
 **M5, NLCN trực tiếp (không tương tác):**
@@ -216,7 +216,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 | CDDXK_c | d3c | CDDXK − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
 | C$\text{DDXK}_c^2$ | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định chữ U ngược (H1) |
 | NLCN_z | b8, e6 | z-std trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
-| CSS_z | c22b | z-std trong sóng của c22b₀₁: hiện diện website | Số hoá Tier-1 (H4 thăm dò) |
+| CSS_z | c22b | z-std trong sóng của c22b₀₁: hiện diện website | Số hoá Tier-1 (H3, thăm dò) |
 | lnLD | l1 | ln(l1): log số lao động thường xuyên | Kiểm soát: quy mô doanh nghiệp |
 | TuoiDN | b5 | năm khảo sát − b5: số năm hoạt động | Kiểm soát: tuổi doanh nghiệp |
 | SoHuuNN | b2b | 1 nếu b2b > 0: có vốn nước ngoài | Kiểm soát: hình thức sở hữu |
@@ -314,12 +314,12 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 > $z = \dfrac{\hat{\beta}_{1,2012} - \hat{\beta}_{1,2024}}{\sqrt{SE^2_{1,2012} + SE^2_{1,2024}}}$
 > (Paternoster et al., 1998), tương tự cho $\beta_2$ ($\text{FSTS}^2$)
 
-> M6 (Điều tiết ba chiều, kiểm định H3/H4a/H4b):
+> M6 (Điều tiết ba chiều, kiểm định điều tiết DAI bậc nhất và bậc hai (H3)):
 > lnNSLD_it = α + $\beta_1$ CDDXK_c + $\beta_2$ C$\text{DDXK}_c^2$ + $\beta_3$ NLCN_z + $\beta_4$ CSS_z
 > + $\beta_5$(CDDXK_c × NLCN_z) + $\beta_6$(C$\text{DDXK}_c^2$ × NLCN_z)
 > + $\beta_7$(CDDXK_c × wave) + $\beta_8$(C$\text{DDXK}_c^2$ × wave) + γ, X + δ_s + λ_t + ε
 > F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng lực), F3 (dịch chuyển điều kiện)
-> Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017), H4b (không điều tiết năng lực–độ cong) được chấp nhận
+> Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017), kết luận không có điều tiết năng lực–độ cong được chấp nhận
 
 **Bảng định nghĩa biến, Nghiên cứu 5 (Trung Quốc):**
 
@@ -536,7 +536,7 @@ Winsor hóa 1% và 5% đối với năng suất lao động và số lao động
 | Mẫu gộp thực nghiệm | Do & Phan (2026a), 17 nước châu Á mới nổi | Mở rộng từ 17 lên **47 nước** với 101.185 doanh nghiệp, 108 cặp quốc gia × năm |
 | Biến phụ thuộc năng suất lao động | Bloom et al. (2012); Hsieh & Klenow (2009); Do & Phan (2026a) | Lập luận rõ về hiệu quả hoạt động đa chiều trong bối cảnh WBES |
 | FSTS + $\text{FSTS}^2$ + $\text{FSTS}^3$ | Lu & Beamish (2004); Hitt et al. (1997); Do & Phan (2026b) | Đưa vào cùng khung điều tiết ba chiều |
-| TCI và DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Quy trình bảo đảm tính thuần nhất khái niệm không chồng lấn cho WBES; lá chắn số mở rộng (Do & Phan, 2026a) |
+| TCI và DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Quy trình bảo đảm tính thuần nhất khái niệm không chồng lấn cho WBES; thay thế số cho thể chế mở rộng (Do & Phan, 2026a) |
 | Kiểm định U Lind-Mehlum | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng mẫu quốc gia và đa quốc gia |
 | Điều tiết trọng tâm số hóa × thể chế | Aiken & West (1991); Dawson (2014) | DAI × ICRV, mới cho châu Á và Thái Bình Dương; đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh |
 | Tính không đồng nhất theo thời gian | Wu et al. (2022); Xiao et al. (2013); Do & Phan (2026b) | Kiểm định ổn định Trung Quốc 2012-2024 (điểm uốn ~47,8% FSTS) |
