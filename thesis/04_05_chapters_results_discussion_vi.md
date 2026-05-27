@@ -1,5 +1,12 @@
 # CHƯƠNG 4: KẾT QUẢ NGHIÊN CỨU
 
+> ⚠️ **BẢN NHÁP CŨ — ĐÃ ĐƯỢC THAY THẾ (SUPERSEDED, 2026-05-27).** Đây là bản gộp Kết quả + Thảo luận
+> đời đầu. Phiên bản chính thức của luận án là **5 chương riêng**: dùng `chuong_4_ket_qua_vi.md`
+> (Kết quả) và `chuong_5_ket_luan_de_xuat_vi.md` (Kết luận) làm nguồn chuẩn. Giữ file này chỉ để
+> tham chiếu lịch sử; **không trích dẫn/biên tập** cho bản nộp. Lưu ý: cách diễn đạt khung H5 ở đây
+> (viện dẫn Q_M=17,35 của P6 như "xác nhận gradient") là bản cũ — bản chuẩn `chuong_4` ghi đúng rằng
+> P6 chỉ xác nhận các chế độ *khác biệt*, còn gradient/độ cong do phân tích thực nghiệm (P7) xác lập.
+
 ---
 
 ## Giới thiệu chương
