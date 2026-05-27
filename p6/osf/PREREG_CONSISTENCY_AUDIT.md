@@ -68,7 +68,7 @@ the codebook.
 `p6/tools/p6_extraction_codebook.md` (copied into `upload_package/3_Data/codebook.md`) still
 documents the *pre-registration-era* ICRV (§4.1) and DPL coding. If uploaded next to
 `p6_study_database_baseline.csv` (which uses `I/II/III/MX/FR` and `PRE/SPN/FOL`), an OSF reader or
-IBR reviewer comparing the two would find a **direct contradiction** (e.g., codebook regime 4 =
+a reviewer comparing the two would find a **direct contradiction** (e.g., codebook regime 4 =
 "Resource/GCC" and "multi-country → code 2", but the data has no such coding and uses a standalone
 `MX`). **Do not publish the package until the codebook is reconciled** to the manuscript §2 scheme
 (the authoritative final definition).

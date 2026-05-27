@@ -98,19 +98,19 @@
 ---
 
 ### P6 — Three-Level Meta-Analysis I→P Asia-Pacific 🟡 CẦN 1 BƯỚC
-- **Target journal:** International Business Review (IBR) — ABS-3, Elsevier
-- **Submission portal:** editorialmanager.com/ibr
-- **Files đã có:**
-  - `p6/submission/ibr_package/01_manuscript_blinded.docx` (k=238, K=288)
-  - `p6/submission/ibr_package/02_title_page.docx`
-  - `p6/submission/ibr_package/03_cover_letter.docx`
+- **Target journal:** Management Review Quarterly (MRQ) — Springer, Scopus Q1 (retargeted from IBR, 2026-05-27)
+- **Submission portal:** Springer Editorial Manager (link.springer.com → Management Review Quarterly → Submit)
+- **Files đã có** (`.docx` cần rebuild lại cho MRQ — xem `mrq_package/README.md`):
+  - `p6/submission/mrq_package/01_manuscript_blinded.docx` (k=238, K=288)
+  - `p6/submission/mrq_package/02_title_page.docx`
+  - `p6/submission/mrq_package/03_cover_letter.docx`
   - Figures: 5 PNG + PDF (forest plot, funnel plot, moderator plots)
   - OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)
 
 **⚠️ Vấn đề cần quyết định trước khi nộp:**
 
 **Lựa chọn A — Nộp ngay với k=238 (ĐƯỢC, defensible):**
-- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho IBR meta-analysis
+- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho meta-analysis
 - Kết quả đã ổn định: r̄=0.074 [0.060, 0.088], I²=62.4%, Q_M(ICRV)=17.35**
 - Rủi ro: Reviewer có thể hỏi về 782 papers đang chờ L2
 
@@ -357,7 +357,7 @@ Tháng 5–6/2026 (NGAY BÂY):
   ✅ Nộp P4 (MIR)            — 1 ngày  
   ✅ Nộp P5 (IJOEM)          — 1 ngày
   ✅ Nộp P7 (JIBS)           — 1 ngày
-  ✅ Nộp P6 với k=238 (IBR)  — 1 ngày  [nếu chọn Lựa chọn A]
+  ✅ Nộp P6 với k=238 (MRQ)  — 1 ngày  [nếu chọn Lựa chọn A]
   ✅ Xác nhận P8 status       — 30 phút
   ✅ Nộp CD1 cho GVHD        — 1 ngày in + họp
 
@@ -393,7 +393,7 @@ Tháng 12/2026:
 | P3 (JABS) | **95%** | Click Submit |
 | P4 (MIR) | **95%** | Click Submit |
 | P5 (IJOEM) | **95%** | Click Submit |
-| P6 (IBR) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
+| P6 (MRQ) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
 | P7 (JIBS) | **95%** | Click Submit |
 | P8 (World Dev) | **90%** | Xác nhận status, submit nếu chưa |
 | CD1 | **90%** | In + nộp GVHD |

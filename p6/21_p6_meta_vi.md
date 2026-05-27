@@ -6,7 +6,7 @@
 >
 > **Database**: `p6/p6_primary_studies_apa7.md` (S001–S237+) · `p6/p6_study_database_coded.md`
 >
-> **Dự kiến submit**: *International Business Review* hoặc *Journal of World Business* (sau khi hoàn thành WoS/Scopus formal search + phân tích `metafor`).
+> **Dự kiến submit**: *Management Review Quarterly* (Springer, Scopus Q1; đổi từ IBR 2026-05-27) — chấp nhận baseline k=238, độ dài linh hoạt.
 
 ---
 

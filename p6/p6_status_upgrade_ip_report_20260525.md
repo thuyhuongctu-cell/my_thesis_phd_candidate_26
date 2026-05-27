@@ -33,7 +33,7 @@
 ### A5. Thông điệp khoa học & hạn chế hiện tại
 - Đóng góp: meta-analysis ba tầng đầu tiên của I→P kiểm định đồng thời ICRV, cDAI, DPL.
 - **Hạn chế then chốt**: ba giả thuyết điều tiết có bằng chứng yếu/chưa xác nhận; sai lệch xuất bản đáng kể. Phát hiện tái định khung "câu đố dị biệt": phương sai chưa giải thích của I→P có thể phản ánh **lựa chọn phía xuất bản** nhiều hơn là điều tiết thể chế/số.
-- **Trạng thái nộp**: tập hand-coded (k = 238) đã xác minh, tái lập được toàn bộ bảng/hình → sẵn sàng nộp **International Business Review (IBR)**; hồ sơ trong `p6/submission/ibr_package/`.
+- **Trạng thái nộp**: tập hand-coded (k = 238) đã xác minh, tái lập được toàn bộ bảng/hình → đích nộp **Management Review Quarterly (MRQ, Springer Q1)** (đổi từ IBR, 2026-05-27); hồ sơ trong `p6/submission/mrq_package/` (docx cần rebuild cho MRQ).
 
 ---
 

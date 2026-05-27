@@ -3,7 +3,7 @@
 
 > **Version**: v1.0 (2026-05-16)  
 > **Standard**: PRISMA 2020 (Page et al., 2021; *BMJ* 372:n71)  
-> **Target journal**: *International Business Review*  
+> **Target journal**: *Management Review Quarterly* (Springer; retargeted from IBR 2026-05-27)  
 > **Manuscript file**: `p6/p6_meta_manuscript_en.md`  
 >
 > **Status legend**:  
@@ -52,7 +52,7 @@
 | 12 | **Effect measures**: Specify the effect measure(s) used in the synthesis (e.g., risk ratio, mean difference). | §3.5: "All Pearson's *r* values are transformed to Fisher's *z* prior to analysis… back-transformed to *r* for interpretability"; conversion hierarchy β→r, t→r, F→r specified | ✅ |
 | 13 | **Synthesis methods**: Describe planned methods for synthesising results, including heterogeneity quantification (e.g., *I*²) and any other statistical models. | §3.5: Three-level MARA specified; REML via `rma.mv`; heterogeneity decomposition formulas for *I*²_(2) and *I*²_(3); moderator omnibus *Q*_M test; Holm–Bonferroni pairwise correction | ✅ |
 | 14 | **Reporting bias assessment**: Describe planned methods to investigate reporting biases (e.g., publication bias). | §3.6: Four complementary tests — Egger's weighted regression, Begg–Mazumdar rank correlation, trim-and-fill, Orwin's FSN; plus PET-PEESE meta-regression | ✅ |
-| 15 | **Certainty assessment**: Describe any methods used to assess the certainty (or confidence) of the body of evidence. | Not addressed. GRADE is rarely applied in IB meta-analysis; reviewers may not require it. Consider: "The certainty of the synthesized evidence was assessed using the adapted GRADE approach for meta-analyses (Murad et al., 2016), classifying evidence as high/moderate/low/very low based on heterogeneity, publication bias, precision, and directness." | ❌ Optional but add if IBR reviewers request |
+| 15 | **Certainty assessment**: Describe any methods used to assess the certainty (or confidence) of the body of evidence. | Not addressed. GRADE is rarely applied in IB meta-analysis; reviewers may not require it. Consider: "The certainty of the synthesized evidence was assessed using the adapted GRADE approach for meta-analyses (Murad et al., 2016), classifying evidence as high/moderate/low/very low based on heterogeneity, publication bias, precision, and directness." | ❌ Optional but add if MRQ reviewers request |
 
 ---
 
@@ -67,7 +67,7 @@
 | 19 | **Results of individual studies**: Present results from each study — at minimum, effect estimate for each synthesis outcome. | Forest plots in Figures 1–2 show individual study r-values; supplementary `forest_data.csv` | ✅ |
 | 20 | **Results of syntheses**: Present the results of all syntheses (pooled r, CI, heterogeneity, moderator results). | §4.2 Baseline, §4.3 Moderator analyses (Tables 2–4), §4.4 Publication bias | ✅ |
 | 21 | **Reporting biases**: Present the results of assessments of reporting biases (publication bias). | §4.5: Egger's *p*, trim-fill adjusted *r*, Orwin's FSN, PET-PEESE results | ✅ |
-| 22 | **Certainty of evidence**: Present assessments of certainty/confidence in each synthesis. | Not addressed (see Item 15). | ❌ Add if required by IBR |
+| 22 | **Certainty of evidence**: Present assessments of certainty/confidence in each synthesis. | Not addressed (see Item 15). | ❌ Add if required by MRQ |
 
 ---
 
@@ -90,7 +90,7 @@
 | 28* | **Competing interests**: Declare any competing interests among the reviewers. | §Competing Interests: "The authors declare no conflict of interest." | ✅ Complete |
 | 29* | **Data availability**: Report where the data, analytic code, and other materials associated with the review can be accessed. | §Data Availability: "The coded study database (forest_data.csv), R analysis scripts (metafor), and the OSF pre-registration protocol are available from the corresponding author upon reasonable request. The PRISMA 2020 checklist is provided as supplementary material." | ✅ Complete |
 
-> *Items 28–29 are sometimes listed as part of a 29-item extension in PRISMA 2020 guidance; include regardless as IBR requires them.*
+> *Items 28–29 are sometimes listed as part of a 29-item extension in PRISMA 2020 guidance; include regardless as the target journal requires them.*
 
 ---
 
@@ -105,14 +105,14 @@
 
 > **Updated 2026-05-20 (v2.4)**: Item 17 updated — canonical working file changed to `fulltext_to_extraction_tracker_v2.csv` (435×58 cols, superset tracker with workflow tracking columns; extraction_priority built-in; 0 ICRV/DPL empty); extraction template → `meta_analysis_extraction_ready_v1_1.csv`. v2.3 (19/05/2026): Active instrument `extraction_worklist_v12_20260519.csv`, Y=435/N=100/UNSURE=0. v2.2: v4 (UNSURE=92); v2.1: v3 (UNSURE=96); v2.0: v2 (UNSURE=105); v1.9: R8 3Y+7N. Scopus arm pending.
 
-### Action list before IBR submission
+### Action list before MRQ submission
 
 1. ~~**Abstract screening (10 UNSURE)**~~ **✅ COMPLETED (R8, 19/05/2026)**: All 10 UNSURE resolved via WebSearch abstract pass — 3Y (S0129, S0240, S0683) + 7N. PRISMA counts finalized for WoS arm. Scopus arm pending.
 2. **Scopus search**: Run on CTU campus network; parse with `02_parse_scopus_export.py`; merge with `03_deduplicate_merge.py` to get final n_unique (Item 6)
 3. **OA PDF download**: Run `30_oa_check_and_download.py --input results/fulltext_to_extraction_tracker_v2.csv --email <your_email>` locally (server blocks Unpaywall/OpenAlex) → downloads OA PDFs for 310 `1_DOI_FIRST` studies in the Y=435 priority pool
 4. **Effect-size extraction**: Fill `fulltext_to_extraction_tracker_v2.csv` for all 435 Y-flagged candidates — workflow columns (`pdf_found`, `fulltext_screening_decision`, `converted_r`, `fisher_z`, `variance_z`) + moderator columns (`icrv`, `cdai`, `dpl`). Priority A: 310 `1_DOI_FIRST`. Priority B: 125 `2_NO_DOI_MANUAL`. Conversion formulas: `r=sqrt(t²/(t²+df))`, `fisher_z=0.5*ln((1+r)/(1-r))`, `variance_z=1/(n-3)`. Validate with `11_validate_and_convert_extraction.py` → merge with `10_merge_new_studies.py` → update k in manuscript
 5. **Item 17**: Run `p6_mara_updated.R` after merge → auto-generates Table S1 (`forest_data.csv`) with all k study characteristics
-6. **Items 15, 22** (GRADE certainty): Add brief paragraph in §3 and §4 if IBR reviewers request — template: "Certainty assessed using adapted GRADE framework (Murad et al., 2016): high heterogeneity (I²=62%) and potential publication bias reduce certainty to *moderate*."
+6. **Items 15, 22** (GRADE certainty): Add brief paragraph in §3 and §4 if MRQ reviewers request — template: "Certainty assessed using adapted GRADE framework (Murad et al., 2016): high heterogeneity (I²=62%) and potential publication bias reduce certainty to *moderate*."
 
 ---
 

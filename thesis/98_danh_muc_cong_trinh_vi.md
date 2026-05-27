@@ -24,7 +24,7 @@ Hệ thống mười (10) công trình của nghiên cứu sinh gắn với nộ
 
 7. Đỗ Thùy Hương, & Phan Anh Tú. *The internationalization–performance relationship across two WBES waves in China (2012–2024)* [P5]. (Đang nộp — International Journal of Emerging Markets)
 
-8. Đỗ Thùy Hương, & Phan Anh Tú. *Institutional context, digital adoption, and the internationalization–performance relationship: A three-level meta-analysis* [P6]. (Đang nộp — International Business Review)
+8. Đỗ Thùy Hương, & Phan Anh Tú. *Institutional context, digital adoption, and the internationalization–performance relationship: A three-level meta-analysis* [P6]. (Đang chuẩn bị nộp — Management Review Quarterly)
 
 9. Đỗ Thùy Hương, & Phan Anh Tú. *Where internationalization pays: Institutional regime and digital capability as joint determinants of the performance optimum across 45 economies* [P7]. (Đang nộp — Journal of International Business Studies)
 

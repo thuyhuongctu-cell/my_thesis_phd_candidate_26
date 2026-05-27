@@ -58,7 +58,7 @@
 - Dataset **pool mở rộng** + thư mục `p6/scripts/.../results/updated/` (formal-search k≥250 đang chạy).
 - File tracker đang làm dở: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv` (WIP, ~2.467 dòng).
 - **Bảng độ tin cậy liên-mã hóa** (inter-coder reliability — Bảng 3.1 hiện còn `[TBD]`).
-- **Bản thảo / preprint** P6: chỉ đăng sau khi nộp IBR (tránh xung đột chính sách preprint của tạp chí).
+- **Bản thảo / preprint** P6: chỉ đăng sau khi nộp Management Review Quarterly (tránh xung đột chính sách preprint của tạp chí).
 - **KHÔNG** tải file PDF toàn văn của các nghiên cứu gốc (vi phạm bản quyền) — chỉ metadata/effect-size.
 
 ## Checklist trước khi public

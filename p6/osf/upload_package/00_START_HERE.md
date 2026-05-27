@@ -4,7 +4,7 @@
 
 - **Authors:** Đỗ Thùy Hương (corresponding) · Phan Anh Tú — Can Tho University, Vietnam
 - **OSF project:** https://osf.io/z37kn · **Registration DOI:** 10.17605/OSF.IO/Z37KN
-- **Preregistered:** 2026-05-18 · **Target journal:** *International Business Review* (Elsevier)
+- **Preregistered:** 2026-05-18 · **Target journal:** *Management Review Quarterly* (Springer)
 
 ---
 
