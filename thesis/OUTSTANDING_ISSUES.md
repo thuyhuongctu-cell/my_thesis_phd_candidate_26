@@ -12,7 +12,7 @@
 ## A. Thượng nguồn — Formal-search expansion (chặn nhiều việc khác) 🌐
 | # | Việc | Trạng thái | Owner |
 |---|---|---|---|
-| A1 | Resolve ~1.065 UNSURE → L2 full-text screening → trích effect-size từ PDF → merge → DB final (mục tiêu k≥250) | Đang dở (tracker 2.467 dòng) | 🌐 cần truy cập WoS/Scopus + PDF bản quyền |
+| A1 | Resolve ~1.065 UNSURE → L2 full-text screening → trích effect-size từ PDF → merge → DB final (mục tiêu k≥250) | Screening + extraction-queue (654 dòng) **đã dựng**; nút thắt = trích r/n từ PDF. **Đã thử API mở 2026-05-27 → chặn 403; repo không có PDF gốc** → không tiến được trong môi trường này (xem `p6/tools/FORMAL_SEARCH_STATUS.md`) | 🌐 cần máy mạng-mở / thư viện CTU + PDF |
 | A2 | Sau A1: điền **final k/K + PRISMA exclusion counts** (manuscript dòng 171/603/713; `p6_prisma_flow.md` các `[TBD]`) | Chờ A1 | 🤖 sau khi có A1 |
 | A3 | **Inter-coder reliability — Bảng 3.1** (κ categorical, ICC cDAI) hiện toàn `[TBD]` | Chưa làm | 🌐 cần coder thứ 2 |
 | A4 | Sau A1–A3: **điều chỉnh lại 5 chương** theo P6 mở rộng (provisional → final); khi đó khung H5 có thể tự khớp | Chờ A1–A3 | 🤖+🧑 |
