@@ -1115,7 +1115,7 @@ not be read as a universal, temporally stable productivity premium. $\tilde{\mat
 materially across waves and across identification strategies (Vahlne, 2020; Stallkamp and Schotter, 2021). Website-based digital adoption, then, is no constant background
 advantage; it is a context-sensitive, stage-dependent source of performance heterogeneity.
 
-The negative sign on the $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ interaction in 2023, where DAI productivity relevance attenuates at higher export intensities, is consistent with the Tier-1 boundary of the construct: a website alone cannot manage the transaction density of high-export-intensity operations without electronic-payment and process-integration support. This contrasts with settings where the same construct includes Tier 2 transaction-enabling items, where higher export intensity could instead amplify the productivity return to digital adoption.
+The negative sign on the $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ interaction in 2023, where DAI productivity relevance attenuates at higher export intensities, is best read not as a data artefact of Tier-1-only measurement but as a theoretically meaningful result about the nature of foundational digital adoption in a transitional market. By 2023, a website in Vietnam has become a saturated hygiene factor, a minimum threshold credential so widely diffused across the firm population that it carries little cross-firm variance and therefore cannot differentiate performance or bend the I–P curve. On this reading, digital adoption is a context-dependent, contingent resource rather than a universal asset: it can reshape the export-intensity curve only above a depth threshold, where a firm shifts from merely digitising information (Tier 1, a website) to integrating digital tools into its processes (Tier 2, electronic payment and supply-chain integration). A website alone cannot manage the transaction density of high-export-intensity operations without this deeper integration, which is precisely why its marginal contribution attenuates rather than amplifies as coordination demands rise. The null moderation in Vietnam is thus consistent with, rather than contradicted by, settings in which the construct also captures Tier 2 transaction-enabling items and higher export intensity amplifies the productivity return to digital adoption. The companion Singapore study, where digital adoption is measured at Tier 1+2 and the moderation is a strong amplification, set against the Tier-1-only null documented here, provides sharp empirical evidence for this depth-threshold thesis: the two findings are mutually consistent expressions of a single contingency, not a contradiction.
 This reading helps reconcile the coexistence of positive pooled effects with uneven wave-specific results. The pooled model captures the average tendency for stronger capability to track better performance; the wave-specific models show that this tendency is not
 equally strong in every phase. The value of digital capability thus depends on where a firm
 stands in the broader lifecycle of internationalisation and transition.
@@ -1278,11 +1278,19 @@ time cannot be identified, nor can time-invariant unobserved heterogeneity be ne
 the firm level. The associational language used throughout the paper reflects this constraint and
 should not be relaxed in any reader's interpretation of the results.
 Second, $\tilde{\mathrm{DAI}}$ captures only a foundational, Tier-1-style layer of digital adoption centred
-on website presence, rather than digitally integrated organisational capability. The $\mathrm{DAI}_{\text{rich}}$
+on website presence, rather than digitally integrated organisational capability. We are careful not
+to read this as a flaw that hollows out the null moderation result. In a transitional market such as
+Vietnam, Tier-1 adoption has by 2023 become a saturated minimum threshold, so widely diffused
+that it carries little cross-firm variance; a construct anchored there is therefore well placed to
+reveal exactly the theoretical point that foundational digital presence cannot, on its own, bend the
+I–P curve. The depth-threshold logic this implies, that only a shift from digitising information to
+integrating digital tools into processes (Tier 2) can reshape the curve, remains an interpretive
+claim rather than a within-WBES identified one. The $\mathrm{DAI}_{\text{rich}}$
 extension for the 2023 wave shows that the conditional pattern survives when richer items are
-available, but a panel of digitally integrated firms with deeper measurement would tighten the
-construct further and allow a sharper test of whether deeper digital integration exhibits a more
-stable productivity channel.
+available, and the companion Singapore study, where Tier 1+2 adoption coincides with strong
+amplification, is consistent with the same threshold. A panel of digitally integrated firms with
+deeper cross-wave measurement would allow a sharper, directly identified test of whether digital
+integration above the threshold exhibits a more stable and curve-reshaping productivity channel.
 Third, the analysis is conducted on a single transitional economy. Vietnam is informative
 precisely because its institutional and digital environment shifted noticeably across the 2009–
 2023 observation window, but the lifecycle pattern documented here may not generalise without
