@@ -3,6 +3,12 @@
 
 > Protocol based on `meta-analysis-extraction-workflow` skill + MARS (Meta-Analysis Reporting Standards)
 > Applied to: 782 new WoS candidates (post-L2 screening)
+>
+> **Version 1.1 (2026-05-27)** — supersedes v1.0 (2026-05-18, prereg-era draft). The ICRV (§4.1)
+> and DPL (§4.3) coding schemes were reconciled to the final operationalisation actually used in
+> the analysed dataset and reported in the manuscript (§2). The original prereg/v1.0 schemes are
+> retained in the frozen OSF preregistration; the changes are disclosed in the manuscript's
+> "Deviations from preregistration" statement.
 
 ---
 
@@ -84,18 +90,30 @@ If study tests U-shape (FSTS + FSTS²):
 
 ## 4. Moderator Coding
 
-### 4.1 ICRV — Institutional Context-Resource Vulnerability (6 regimes)
+### 4.1 ICRV — Institutional Context-Resource Vulnerability (final scheme)
 
-| Code | Label | Examples |
-|---|---|---|
-| 1 | Advanced Market | USA, UK, Germany, Japan, Australia, Canada |
-| 2 | Emerging Market | China, India, Brazil, Turkey, Mexico, Indonesia |
-| 3 | Transition Economy | Poland, Czech Republic, Hungary, Russia, Ukraine |
-| 4 | Resource-Rich / GCC | Saudi Arabia, UAE, Qatar, Kuwait, Nigeria, Kazakhstan |
-| 5 | Small Island / SIDS | Singapore, Malta, Mauritius, Caribbean states |
-| 6 | Frontier / LDC | Bangladesh, Ethiopia, Myanmar, Cambodia |
+Six codes, classified by World Bank WGI Rule-of-Law score (2023 vintage), validated against the
+IMF World Economic Outlook country classification. Five codes are populated in the corpus; the
+Pacific-SIDS code is defined a priori but returns zero qualifying studies.
 
-Multi-country studies: code dominant context; if mixed → code "2" (emerging) as conservative
+| Code | Label | WGI Rule of Law | Examples |
+|---|---|---|---|
+| `I` | Advanced-Innovation | > +0.80 | Singapore, Hong Kong, South Korea, Japan, Taiwan, Australia |
+| `II` | Upper-Middle | 0 < WGI ≤ +0.80 | China, Malaysia, Thailand |
+| `III` | Emerging | −0.50 < WGI ≤ 0 | Vietnam, India, Philippines |
+| `FR` | Frontier / LDC | ≤ −0.50 | Bangladesh, Myanmar, Pakistan |
+| `SIDS` | Pacific small-island developing states | — | Fiji, Samoa, Tonga (k = 0 in corpus) |
+| `MX` | Multi-country pooled (≥ 2 regimes) | — | samples with no single modal-country regime ≥ 60% |
+
+**Country-assignment rule.** Single-country samples → that country's regime. Multi-country
+samples → the modal country's regime **if one country contributes ≥ 60% of the sample**;
+otherwise code `MX` (cross-regime). *(Note: v1.0 instead folded multi-country into "emerging"; the
+standalone `MX` category is a post-registration refinement — see manuscript "Deviations".)*
+
+**Crosswalk to the dissertation's canonical six-regime ICRV:** P6 `I` ≡ Regime I (Advanced-
+Innovation); P6 `II` (Upper-Middle) ≡ Regime III; P6 `III` (Emerging) ≡ Regime IV; `FR` ≡ Regime V;
+`SIDS` ≡ Regime VI. The dissertation's Regime II (Advanced Resource-Driven / GCC) is not separately
+populated here, and `MX` has no I–VI equivalent.
 
 ### 4.2 cDAI — Country Digital Adoption Index (continuous, 0–1)
 
@@ -104,15 +122,19 @@ Source: ITU / World Bank Digital Adoption Index for sample country-year midpoint
 - Code `cdai_source` = "ITU_2023" or "WB_DAI"
 - If unavailable: leave blank, code `cdai_missing = 1`
 
-### 4.3 DPL — Digital Platform Lifecycle Phase
+### 4.3 DPL — Digital Paradox Lifecycle Phase (final scheme)
 
-| Code | Phase | Years |
+Coded by the position of the study's **data-collection period** relative to the 2009 digital
+productivity inflection point (Brynjolfsson et al., 2021; David, 1990), not by publication year.
+
+| Code | Phase | Data-period rule |
 |---|---|---|
-| 1 | Pre-digital | Before 2000 |
-| 2 | Early digital | 2000–2009 |
-| 3 | Platform era | 2010–2026 |
+| `PRE` | Precede | data collected predominantly before 2009 |
+| `SPN` | Span | data spanning the transitional 2005–2014 window |
+| `FOL` | Follow | data collected predominantly after 2014 |
 
-Code based on **data midpoint year** (not publication year)
+*(v1.0 instead used publication-year bins 1 = pre-2000 / 2 = 2000–2009 / 3 = 2010–2026; the
+Precede/Span/Follow construct is a post-registration refinement — see manuscript "Deviations".)*
 
 ### 4.4 DOI measure type
 
@@ -168,9 +190,9 @@ new_studies <- data.frame(
   country        = "CHN",
   sample_start   = 2010,
   sample_end     = 2019,
-  icrv           = 2,           # Emerging market
+  icrv           = "II",        # Upper-Middle (CHN); see 4.1
   cdai           = 0.62,
-  dpl            = 3,           # Platform era
+  dpl            = "FOL",       # Follow (data 2010-2019, post-2014); see 4.3
   doi_type       = "fsts",
   fp_type        = "roa",
   is_estimated   = 0,

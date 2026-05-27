@@ -8,8 +8,11 @@
 
 ## Verdict
 - **Manuscript ↔ data: CONSISTENT.** ✅ No action.
-- **Prereg ↔ final operationalisation: DEVIATIONS (legitimate, but need explicit disclosure).** ⚠️
-- **Codebook ↔ data/manuscript: INCONSISTENT (stale).** ❌ Must reconcile before OSF upload.
+- **Prereg ↔ final operationalisation: DEVIATIONS (legitimate).** ✅ RESOLVED — manuscript now
+  carries an explicit "Deviations from pre-registration" statement (§3.1, PRISMA Item 24c).
+- **Codebook ↔ data/manuscript: was stale.** ✅ RESOLVED — codebook bumped to v1.1 (ICRV + DPL
+  reconciled to the manuscript §2 scheme) and re-copied into `upload_package/3_Data/codebook.md`.
+- **Prereg record:** unchanged (frozen). OSF package no longer blocked.
 
 ---
 
