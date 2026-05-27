@@ -30,7 +30,7 @@
 | `3_Data/p6_study_database_baseline.csv` | `p6/data/p6_study_database.csv` | ✅ (baseline) |
 | `3_Data/codebook.md` | `p6/tools/p6_extraction_codebook.md` | ✅ |
 | `3_Data/primary_studies_APA7.md` | `p6/p6_primary_studies_apa7.md` | ✅ |
-| `4_Analysis_Code/*` | `p6/scripts/p6_real_mara.R`, `p6/scripts/p6_parse_database.py`, `p6/figures/generate_p6_figures.py` | ✅ |
+| `4_Analysis_Code/*` | `p6/scripts/p6_real_mara.R`, `p6/scripts/p6_parse_database.py`, `p6/figures/generate_p6_figures.py`, `p6/scripts/verify_moderator_qm.py` | ✅ |
 | `5_Results/*.csv` | `p6/results/*.csv` | ✅ (baseline) |
 
 ## Các bước tải lên (thủ công, ~10 phút)
@@ -47,12 +47,14 @@
   và bản thảo §2. Bản thảo cũng đã thêm mục "Deviations from pre-registration" (PRISMA Item 24c).
   Prereg đông cứng giữ nguyên sơ đồ v1.0. Codebook ↔ dữ liệu ↔ bản thảo nay nhất quán.
 
+## ✅ ĐÃ XỬ LÝ — Q_M moderator đã sửa & kiểm chứng độc lập
+- Cột `QM` trong `table2/3/4` đã được tái tạo về Q_M **between-group** đúng như bản thảo
+  (ICRV 17.35, cDAI 1.23, DPL 0.56). Script `p6_real_mara.R` đã sửa (thêm mô hình có hệ số chặn
+  `m1b/m2b/m3b`). Vì môi trường này không có R (network chặn CRAN), mô hình được tái lập độc lập bằng
+  Python (`4_Analysis_Code/verify_moderator_qm_python.py`, numpy/scipy) — khớp baseline tới 5 chữ số
+  thập phân và khớp cả 3 Q_M. Reviewer không có R vẫn chạy được file Python này. (Xem `PREREG_CONSISTENCY_AUDIT.md` §4b.)
+
 ## ⛔ TẠM GIỮ — chưa tải lên cho tới khi hoàn tất
-- **Chạy lại `4_Analysis_Code/p6_real_mara.R` (cần R + metafor) để TÁI TẠO `5_Results/table2_icrv.csv`,
-  `table3_cdai.csv`, `table4_dpl.csv`.** Cột `QM` trong các CSV hiện tại là test "tất cả nhóm = 0"
-  (128.22 / 105.34 / 104.67), KHÔNG khớp Q_M between-group mà bản thảo báo cáo (17.35 / 1.23 / 0.56).
-  Script đã được sửa để tính đúng (mô hình có hệ số chặn `m1b/m2b/m3b`); chỉ còn thiếu bước chạy lại
-  ở máy có R. Trước khi có CSV mới, **trị số trong bản thảo là chuẩn**. (Xem `PREREG_CONSISTENCY_AUDIT.md` §4b.)
 - Dataset **pool mở rộng** + thư mục `p6/scripts/.../results/updated/` (formal-search k≥250 đang chạy).
 - File tracker đang làm dở: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv` (WIP, ~2.467 dòng).
 - **Bảng độ tin cậy liên-mã hóa** (inter-coder reliability — Bảng 3.1 hiện còn `[TBD]`).
