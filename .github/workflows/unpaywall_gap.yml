@@ -91,18 +91,27 @@ jobs:
             echo "Gap manifest not found -- skipping merge"
           fi
 
-      - name: Show summary
+      - name: Show summary (robust CSV parse)
         run: |
-          GAP="p6/tools/results/${{ github.event.inputs.output_file }}"
-          TOTAL=$(tail -n +2 "$GAP" 2>/dev/null | wc -l || echo 0)
-          OA=$(tail -n +2 "$GAP" 2>/dev/null | awk -F',' '{print $7}' | grep -c "True" || true)
-          PDF=$(tail -n +2 "$GAP" 2>/dev/null | awk -F',' '{print $9}' | grep -vc "^$" || true)
-          echo "## Unpaywall Gap Fill Results" >> $GITHUB_STEP_SUMMARY
-          echo "| Metric | Count |" >> $GITHUB_STEP_SUMMARY
-          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Gap papers queried | $TOTAL |" >> $GITHUB_STEP_SUMMARY
-          echo "| OA available | $OA |" >> $GITHUB_STEP_SUMMARY
-          echo "| PDF URLs found | $PDF |" >> $GITHUB_STEP_SUMMARY
+          # Use Python csv to count correctly — awk -F',' miscounts because
+          # title/journal fields contain commas, which shifts columns.
+          python3 - "p6/tools/results/${{ github.event.inputs.output_file }}" <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import csv, sys
+          path = sys.argv[1]
+          try:
+              rows = list(csv.DictReader(open(path, encoding="utf-8")))
+          except FileNotFoundError:
+              print("## Unpaywall Gap Fill Results\n\n**Output file not found:**", path); raise SystemExit(0)
+          truthy = lambda v: str(v).strip().lower() in ("true", "1", "yes")
+          oa  = sum(1 for r in rows if truthy(r.get("is_oa", "")))
+          pdf = sum(1 for r in rows if (r.get("pdf_url") or "").strip())
+          print("## Unpaywall Gap Fill Results\n")
+          print("| Metric | Count |")
+          print("|--------|-------|")
+          print(f"| Gap papers queried | {len(rows)} |")
+          print(f"| OA available | {oa} |")
+          print(f"| PDF URLs found | {pdf} |")
+          PY
 
       - name: Commit results
         run: |
