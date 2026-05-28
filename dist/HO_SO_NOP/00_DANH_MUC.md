@@ -36,6 +36,7 @@
 | Nhất quán số liệu cốt lõi (50 file) | `check-consistency.py` | ✅ 0 vấn đề |
 | Trích dẫn ↔ tài liệu tham khảo APA7 | `format-apa7.py` | ✅ 297 mục, mọi citation đều có entry |
 | Ngôn ngữ học thuật (6 bài báo EN) | `academic_language_check.py` | ✅ 0 lỗi |
+| Thuật ngữ song ngữ VI (6 bài báo) | `audit_vn_glossary.py` | ✅ 0 thuật ngữ dịch sai; theo glossary chuẩn v1.4 (chính tả hiện đại "hóa", "áp dụng số") |
 | Đồng bộ DOCX/PDF với bản nguồn | so khớp commit | ✅ toàn bộ deliverable đã build lại từ source mới nhất |
 
 ## Ghi chú phiên cập nhật gần nhất (P6 — meta-analysis)

@@ -23,13 +23,15 @@ from pathlib import Path
 
 GLOSSARY: list[tuple[str, str, str]] = [
     # (English term, expected VN, optional alternative-VN to flag as wrong)
-    ("internationalisation",  "quốc tế hoá",                            ""),
-    ("internationalization",  "quốc tế hoá",                            ""),
-    ("firm performance",      "hiệu quả hoạt động kinh doanh của doanh nghiệp", "hiệu quả hoạt động doanh nghiệp"),
+    # VN terms follow the canonical bilingual glossary v1.4
+    # (writing_guides/09b_vn_term_glossary.md); modern orthography (hóa).
+    ("internationalisation",  "quốc tế hóa",                            ""),
+    ("internationalization",  "quốc tế hóa",                            ""),
+    ("firm performance",      "hiệu quả doanh nghiệp",                  ""),
     ("labour productivity",   "năng suất lao động",                     ""),
     ("export intensity",      "cường độ xuất khẩu",                     ""),
     ("technological capability", "năng lực công nghệ",                  ""),
-    ("digital adoption",      "áp dụng công nghệ số",                   ""),
+    ("digital adoption",      "áp dụng số",                             ""),
     ("structural durability", "tính bền vững cấu trúc",                 ""),
     ("environmental shift",   "dịch chuyển môi trường",                 ""),
     ("inverted U-shape",      "hình chữ U ngược",                       ""),
@@ -46,7 +48,7 @@ GLOSSARY: list[tuple[str, str, str]] = [
     ("Heckman two-step",      "mô hình Heckman hai bước",               ""),
     ("propensity-score matching", "đối sánh điểm xu hướng",             ""),
     ("listwise deletion",     "loại bỏ theo dòng",                      ""),
-    ("z-standardisation",     "chuẩn hoá theo z",                       ""),
+    ("z-standardisation",     "chuẩn hóa theo z",                       ""),
     ("formative composite",   "chỉ số hợp thành cấu thành",             ""),
 ]
 
@@ -80,16 +82,47 @@ def _read(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+# Vietnamese tone-placement variants: "old style" puts the tone mark on the
+# second vowel of oa/oe/uy (hoá, thuỷ); modern standard puts it on the main
+# vowel (hóa, thủy). Normalise both directions to one canonical form so the
+# glossary matches regardless of which convention a document uses.
+_VN_ORTHO = {
+    "oà": "òa", "oá": "óa", "oả": "ỏa", "oã": "õa", "oạ": "ọa",
+    "oè": "òe", "oé": "óe", "oẻ": "ỏe", "oẽ": "õe", "oẹ": "ọe",
+    "uỳ": "ùy", "uý": "úy", "uỷ": "ủy", "uỹ": "ũy", "uỵ": "ụy",
+}
+
+
+def _vn_norm(s: str) -> str:
+    for old, new in _VN_ORTHO.items():
+        s = s.replace(old, new)
+    return s
+
+
+def _en_spelling_tolerant(en_term: str) -> str:
+    """Escape an English glossary term and allow British/American -is/-iz
+    spelling variants (internationalisation == internationalization)."""
+    pat = re.escape(en_term)
+    pat = pat.replace("isation", "i[sz]ation").replace("ization", "i[sz]ation")
+    pat = pat.replace("ise", "i[sz]e").replace("ize", "i[sz]e")
+    return pat
+
+
 def find_pairs(text: str, en_term: str, vn_term: str) -> dict:
     """Count VN term occurrences and whether at least one first-mention
     bilingual pattern 'VN (EN)' or 'VN (EN, ABBR)' appears."""
-    vn_count = len(re.findall(re.escape(vn_term), text))
-    # First-mention bilingual: VN term followed by ( ... en_term ... )
+    text_n = _vn_norm(text)
+    vn_n = _vn_norm(vn_term)
+    vn_count = len(re.findall(re.escape(vn_n), text_n))
+    # First-mention bilingual: VN term followed by ( ... en_term ... ).
+    # EN matching tolerates British/American spelling so the same gloss
+    # satisfies both -isation and -ization glossary rows; VN is orthography-
+    # normalised so hoá/hóa etc. match.
     fm_pat = re.compile(
-        re.escape(vn_term) + r"\s*\([^)]*" + re.escape(en_term) + r"[^)]*\)",
+        re.escape(vn_n) + r"\s*\([^)]*" + _en_spelling_tolerant(en_term) + r"[^)]*\)",
         re.IGNORECASE,
     )
-    has_first_mention = bool(fm_pat.search(text))
+    has_first_mention = bool(fm_pat.search(text_n))
     return {"vn_count": vn_count, "has_first_mention": has_first_mention}
 
 
@@ -179,10 +212,16 @@ def render(report: dict) -> str:
 
 
 def main() -> int:
+    # The deliverable VI sources that build into the submission bundle
+    # (build_ctu_docx.sh [3]). Earlier this pointed at the stale
+    # manuscripts/*_vi_clean.md set, which is not in the bundle.
     files = [
-        Path("manuscripts/p3_vietnam_vi_clean.md"),
-        Path("manuscripts/p4_singapore_vi_clean.md"),
-        Path("manuscripts/p5_china_vi_clean.md"),
+        Path("p3/submission/p3_vietnam_vi.md"),
+        Path("p4/submission/p4_singapore_vi.md"),
+        Path("p5/submission/p5_china_vi.md"),
+        Path("p6/21_p6_meta_vi.md"),
+        Path("p7/submission/jibs_package/p7_capstone_vi.md"),
+        Path("p8/submission/world_development_package/p8_pacific_sids_vi.md"),
     ]
     n_fail = 0
     for f in files:
