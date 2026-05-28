@@ -45,6 +45,16 @@ Before delivering prose:
 - Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
 - Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
 
+## Academic & Structured-Document Exception
+
+When the prose is a **peer-reviewed academic manuscript** (or thesis), apply the rules above but KEEP these — removing them harms correctness:
+- **Scientific hedging** ("may", "suggests", "appears", "is consistent with") — required for honest claims.
+- **Conventional methods passive** ("data were extracted", "models were estimated").
+- **Citations, statistical notation, numbers, section references, equations** — never reword.
+- **En dashes** in ranges/compounds (2009–2025, I–P) and hyphens in technical terms.
+
+**Em dashes (Rule 6) in Markdown documents:** only remove em dashes in **prose sentences**. Leave em dashes that are structural — headings (`#`), table rows/labels (`|`), figure/table captions (`![`, `*Figure`, `*Table`, `*Note`), and citation-internal labels. Never touch en dashes (`–`). In practice, most em dashes in a manuscript are structural; converting them blindly breaks formatting.
+
 ## Scoring
 
 Rate 1-10 on each dimension:
