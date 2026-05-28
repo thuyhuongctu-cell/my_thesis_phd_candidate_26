@@ -347,8 +347,117 @@ def render_p5_china(path: Path):
     print(f"  wrote {path}")
 
 
+def render_dissertation_unified(path: Path):
+    """Unified dissertation conceptual model (CDCM).
+    Context-Contingent Digital-and-Capability Model integrating
+    all five moderating conditions across P3-P8.
+    Three moderator ellipses (TCI, ICRV, DAI) each send a moderation
+    arrow (dashed, X-mark) to the FSTS–performance relationship arrow.
+    DAI×ICRV substitution is shown by a double-headed dashed line.
+    Upper Echelons controls (H4) in a bottom box with dashed arrow to DV.
+    """
+    fig, ax = setup_axes(width=11.5, height=7.6)
+
+    # Title
+    ax.text(5, 7.38,
+            "Unified Conceptual Model — Internationalization & Firm Performance",
+            ha="center", va="center", fontsize=TITLE_SIZE, fontweight="bold")
+
+    # Theory strip
+    ax.text(5, 6.92,
+            "Theoretical anchors:  Uppsala · RBV · Institutional Theory · "
+            "Upper Echelons · Digital Capability (CDCM)",
+            ha="center", va="center", fontsize=LABEL_SIZE - 1, fontstyle="italic")
+
+    # IVs (left — observed)
+    add_box(ax, 1.6, 4.60, 2.0, 0.55, "FSTS", bold=True)
+    add_box(ax, 1.6, 3.72, 2.0, 0.55, r"FSTS$^2$", bold=True)
+    ax.text(1.6, 5.05, "inverted-U  (turning pt ≈ 36%)",
+            ha="center", va="center", fontsize=7, fontstyle="italic", color="#555555")
+
+    # DV (right)
+    add_box(ax, 8.85, 4.16, 2.3, 0.95,
+            "ln(LP)\nFirm Performance", bold=True)
+
+    # --- Main arrows IV → DV ---
+    # H1a: FSTS → ln(LP)
+    add_arrow(ax, (2.60, 4.60), (7.70, 4.32),
+              label="H1a  (+)",
+              label_pos="mid", label_offset=(0, 0.22))
+    # H1b: FSTS² → ln(LP)
+    add_arrow(ax, (2.60, 3.72), (7.70, 4.00),
+              label="H1b  (−)",
+              label_pos="mid", label_offset=(0, -0.23))
+    # H1b SIDS/FIP boundary condition note
+    ax.text(4.15, 3.35,
+            "H1b boundary: SIDS/FIP → negative monotonic",
+            ha="center", va="center", fontsize=7, fontstyle="italic", color="#444444")
+
+    # --- TCI moderator (top centre, level-shift) ---
+    add_ellipse(ax, 5.0, 6.35, 2.6, 0.70,
+                "TCI\n(Technological Capability)", italic=True)
+    add_mod_arrow(ax, (5.0, 6.00), (5.0, 4.32),
+                  label="H2  (level-shift ↑)")
+
+    # --- ICRV moderator (bottom-left, concavity/amplitude) ---
+    add_ellipse(ax, 2.35, 1.90, 2.55, 0.70,
+                "ICRV\n(Institutional Regime I–VI)", italic=True)
+    add_mod_arrow(ax, (2.35, 2.25), (3.45, 4.14),
+                  label="H5  (concavity/amplitude)")
+
+    # --- DAI moderator (bottom-right, context-contingent) ---
+    add_ellipse(ax, 7.65, 1.90, 2.55, 0.70,
+                "DAI\n(Digital Adoption)", italic=True)
+    add_mod_arrow(ax, (7.65, 2.25), (6.55, 4.14),
+                  label="H3  (context-contingent)")
+
+    # --- DAI × ICRV substitution (double-headed dashed line) ---
+    a_sub = FancyArrowPatch(
+        (3.63, 1.90), (6.37, 1.90),
+        arrowstyle="<->,head_width=4.5,head_length=7",
+        linewidth=1.0,
+        color="black",
+        linestyle="--",
+        shrinkA=2,
+        shrinkB=2,
+    )
+    ax.add_patch(a_sub)
+    ax.text(5.0, 1.50,
+            r"DAI$\times$ICRV  substitution ($p$ = .049)",
+            ha="center", va="center", fontsize=LABEL_SIZE - 1, fontstyle="italic")
+
+    # --- Upper Echelons controls (bottom) ---
+    add_box(ax, 5.0, 0.55, 8.8, 0.52,
+            "Upper Echelons Controls (H4):  "
+            "Manager Experience  ·  Education  ·  Female",
+            fontsize=LABEL_SIZE - 1, italic=True)
+    add_arrow(ax, (9.3, 0.81), (9.3, 3.68), dashed=True, curve=0.12)
+
+    # Caption
+    fig.text(
+        0.5, -0.04,
+        "Hình 2.1 / Figure 2.1.  Unified Conceptual Model (CDCM — Context-Contingent "
+        "Digital-and-Capability Model) integrating P3–P8. Rectangles denote observed "
+        "variables; ellipses denote latent formative composites. H1a (+) and H1b (−) "
+        "jointly specify the inverted-U export-intensity–performance relationship "
+        "(turning point ≈ 36%; H1b boundary: SIDS/FIP — negative monotonic). "
+        "H2 TCI raises the curve (level-shift). H3 DAI reshapes the curve in a "
+        "context-contingent manner. H5 ICRV deepens concavity/amplitude under weak "
+        "institutions. The double-headed dashed arrow denotes digital-for-institutional "
+        "substitution (DAI×ICRV interaction, p = .049). Upper Echelons manager "
+        "characteristics enter as controls (H4). Source: authors' own elaboration.",
+        ha="center", va="top", fontsize=LABEL_SIZE - 1, fontstyle="italic",
+        wrap=True,
+    )
+
+    plt.savefig(path, dpi=DPI, bbox_inches="tight", pad_inches=0.3)
+    plt.close(fig)
+    print(f"  wrote {path}")
+
+
 def main():
     base = Path(__file__).resolve().parent.parent / "manuscripts" / "figures"
+    thesis_figs = Path(__file__).resolve().parent.parent / "thesis" / "figures"
     targets = [
         ("P3 Vietnam",
          base / "p3_vietnam" / "figure_1_conceptual_model.png",
@@ -359,6 +468,9 @@ def main():
         ("P5 China",
          base / "p5_china" / "figure_1_conceptual_model.png",
          render_p5_china),
+        ("Dissertation Unified (CDCM)",
+         thesis_figs / "figure_conceptual_model_unified.png",
+         render_dissertation_unified),
     ]
     for label, path, fn in targets:
         path.parent.mkdir(parents=True, exist_ok=True)
