@@ -37,7 +37,7 @@ from pathlib import Path
 TRUSTED_ENRICH = {"verified", "title_match", "title_corrected"}
 OUT_FIELDS = [
     "study_id", "author", "year", "final_doi", "source", "confidence",
-    "ref_doi", "openalex_doi", "openalex_status", "corpus_doi", "n_sources_agree",
+    "ref_doi", "tracker_doi", "openalex_doi", "openalex_status", "corpus_doi", "n_sources_agree",
 ]
 
 
@@ -56,7 +56,7 @@ def to_int(y):
 
 
 def parse_references(path: Path, fold):
-    """One record per DOI-bearing line: (surname, year, doi, title)."""
+    """One record per DOI-bearing line: (surname, year, doi)."""
     refs = []
     if not path.exists():
         return refs
@@ -69,18 +69,33 @@ def parse_references(path: Path, fold):
         head = re.sub(r"^[\*\s>\-]+", "", line)
         first = re.split(r"[,(]", head)[0].strip()
         surname = fold(first.split()[-1]) if first.split() else ""
-        refs.append({
-            "surname": surname,
-            "year": int(ym.group(1)),
-            "doi": dm.group(1).rstrip(").,*").lower(),
-        })
+        refs.append({"surname": surname, "year": int(ym.group(1)),
+                     "doi": dm.group(1).rstrip(").,*").lower()})
     return refs
+
+
+def parse_tracker(paths, fold):
+    """Extraction-tracker CSVs (authors='Last, First; Last2, First2', year, doi)."""
+    recs = []
+    for p in paths or []:
+        if not Path(p).exists():
+            continue
+        for r in csv.DictReader(open(p, encoding="utf-8")):
+            doi = (r.get("doi") or "").replace("https://doi.org/", "").strip().lower()
+            if not doi:
+                continue
+            first = (r.get("authors") or "").split(";")[0]
+            surname = fold(first.split(",")[0].strip())
+            recs.append({"surname": surname, "year": to_int(r.get("year")), "doi": doi})
+    return recs
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", required=True)
     ap.add_argument("--references", required=True)
+    ap.add_argument("--tracker", nargs="*", default=[],
+                    help="extraction tracker CSV(s) with authors/year/doi")
     ap.add_argument("--enriched", default="")
     ap.add_argument("--corpus-matches", default="")
     ap.add_argument("--apa", default="")
@@ -92,6 +107,7 @@ def main():
     fold, surname = mod.fold, mod.surname
 
     refs = parse_references(Path(args.references), fold)
+    tracker = parse_tracker(args.tracker, fold)
 
     enrich = {}
     if args.enriched and Path(args.enriched).exists():
@@ -120,6 +136,10 @@ def main():
                     if sn and r["surname"] == sn and sy and abs(r["year"] - sy) <= 1}
         ref_doi = next(iter(ref_dois)) if len(ref_dois) == 1 else ""
 
+        trk_dois = {t["doi"] for t in tracker
+                    if sn and t["surname"] == sn and sy and t["year"] and abs(t["year"] - sy) <= 1}
+        trk_doi = next(iter(trk_dois)) if len(trk_dois) == 1 else ""
+
         e = enrich.get(sid, {})
         oa_status = e.get("verify_status", "")
         oa_doi = (e.get("oa_doi") or "").strip().lower() if oa_status in TRUSTED_ENRICH else ""
@@ -130,21 +150,22 @@ def main():
         corpus_cand = (cm.get("corpus_doi") or "").strip().lower() if cm_conf == "candidate_unique" else ""
 
         votes = {}
-        for d in (ref_doi, oa_doi, corpus_doi):
+        for d in (ref_doi, trk_doi, oa_doi, corpus_doi):
             if d:
                 votes[d] = votes.get(d, 0) + 1
-        trusted_set = {ref_doi, oa_doi, corpus_doi} - {""}
+        trusted_set = {ref_doi, trk_doi, oa_doi, corpus_doi} - {""}
         final_doi, source, confidence, n_agree = "", "", "none", 0
         if votes:
             if len(trusted_set) > 1:
-                # sources disagree -> prefer the thesis reference list (authoritative)
-                final_doi = ref_doi or oa_doi or corpus_doi
+                # sources disagree -> prefer reference list, then extraction tracker
+                final_doi = ref_doi or trk_doi or oa_doi or corpus_doi
                 confidence, n_agree = "review", votes.get(final_doi, 1)
             else:
                 final_doi, n_agree = max(votes.items(), key=lambda kv: kv[1])
                 confidence = "high" if n_agree >= 2 else "medium"
             source = "+".join(name for name, d in
-                              (("references", ref_doi), ("openalex", oa_doi), ("corpus", corpus_doi))
+                              (("references", ref_doi), ("tracker", trk_doi),
+                               ("openalex", oa_doi), ("corpus", corpus_doi))
                               if d == final_doi)
         elif corpus_cand:
             final_doi, source, confidence, n_agree = corpus_cand, "corpus_suggested", "suggested", 1
@@ -155,8 +176,8 @@ def main():
         rows.append({
             "study_id": sid, "author": s.get("author", ""), "year": s.get("year", ""),
             "final_doi": final_doi, "source": source, "confidence": confidence,
-            "ref_doi": ref_doi, "openalex_doi": oa_doi, "openalex_status": oa_status,
-            "corpus_doi": corpus_doi, "n_sources_agree": n_agree,
+            "ref_doi": ref_doi, "tracker_doi": trk_doi, "openalex_doi": oa_doi,
+            "openalex_status": oa_status, "corpus_doi": corpus_doi, "n_sources_agree": n_agree,
         })
 
     out = Path(args.out)
@@ -171,7 +192,7 @@ def main():
     print(f"  studies: {len(rows)} | resolved with a DOI: {resolved}")
     for c in ("high", "medium", "review", "suggested", "none"):
         print(f"    {c:9}: {tally.get(c, 0)}")
-    print(f"  reference list parsed: {len(refs)} DOI lines")
+    print(f"  references: {len(refs)} DOI lines | tracker: {len(tracker)} DOI rows")
 
 
 if __name__ == "__main__":
