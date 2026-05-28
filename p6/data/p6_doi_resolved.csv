@@ -1,0 +1,239 @@
+study_id,author,year,final_doi,source,confidence,ref_doi,openalex_doi,openalex_status,corpus_doi,n_sources_agree
+S01,Siddharthan & Lall,1982,10.1111/j.1468-0084.1982.mp44001001.x,references+openalex,high,10.1111/j.1468-0084.1982.mp44001001.x,10.1111/j.1468-0084.1982.mp44001001.x,verified,,2
+S02,Grant,1987,,,none,,,author_year_guess,,0
+S03,Sambharya,1995,,,none,,,not_found,,0
+S04,McDougall & Oviatt,1996,10.1016/0883-9026(95)00081-x,references+openalex+corpus,high,10.1016/0883-9026(95)00081-x,10.1016/0883-9026(95)00081-x,verified,10.1016/0883-9026(95)00081-x,3
+S05,Tallman & Li,1996,10.2307/256635,references,medium,10.2307/256635,,author_year_guess,,1
+S06,Hitt et al.,1997,10.2307/256948,references,medium,10.2307/256948,,author_year_guess,,1
+S07,Wan,1998,,,none,,,author_year_guess,,0
+S08,Gomes & Ramaswamy,1999,,,none,,,not_found,,0
+S09,Li,2001,,,none,,,author_year_guess,,0
+S10,Qian,2002,10.1016/s0883-9026(01)00079-5,references,review,10.1016/s0883-9026(01)00079-5,10.1016/s0883-9026(01)00080-5,title_match,,1
+S11,Capar & Kotabe,2003,10.1057/palgrave.jibs.8400036,references+openalex,high,10.1057/palgrave.jibs.8400036,10.1057/palgrave.jibs.8400036,verified,,2
+S12,Hsu & Boggs,2003,10.1108/1525383x200300015,references,medium,10.1108/1525383x200300015,,author_year_guess,,1
+S13,Ruigrok & Wagner,2003,,,none,,,title_match,,0
+S14,Majocchi & Zucchella,2003,10.1177/0266242603021003001,references,medium,10.1177/0266242603021003001,,not_found,,1
+S15,Carpenter & Sanders,2004,10.1016/j.jm.2004.02.001,references+openalex+corpus,high,10.1016/j.jm.2004.02.001,10.1016/j.jm.2004.02.001,verified,10.1016/j.jm.2004.02.001,3
+S16,Kim et al.,2004,,,none,,,author_year_guess,,0
+S17,Lu & Beamish,2004,10.2307/20159604,references,medium,10.2307/20159604,,author_year_guess,,1
+S18,Thomas & Eden,2004,10.1108/1525383x200400005,references+openalex,high,10.1108/1525383x200400005,10.1108/1525383x200400005,verified,,2
+S19,Chiao et al.,2006,10.1007/s11187-005-5604-6,references+openalex+corpus,high,10.1007/s11187-005-5604-6,10.1007/s11187-005-5604-6,verified,10.1007/s11187-005-5604-6,3
+S20,Elango,2006,10.1108/1525383x200600015,references,medium,10.1108/1525383x200600015,,doi_mismatch_check,,1
+S21,Hsu,2006,,,none,,,author_year_guess,,0
+S22,Thomas,2006,10.1016/j.jbusres.2005.09.008,references,review,10.1016/j.jbusres.2005.09.008,10.1016/j.jbusres.2005.08.008,title_corrected,,1
+S23,Chari et al.,2007,10.1016/j.jwb.2007.02.007,references,review,10.1016/j.jwb.2007.02.007,10.1016/j.jwb.2007.02.004,title_corrected,,1
+S24,Fortanier et al.,2007,10.5465/ambpp.2007.26508474,references,medium,10.5465/ambpp.2007.26508474,,author_year_guess,,1
+S25,Kumar & Gaur,2007,10.1002/tie.20217,openalex+corpus,high,,10.1002/tie.20217,title_match,10.1002/tie.20217,2
+S26,Ruigrok et al.,2007,10.1007/s11575-007-0020-6,openalex+corpus,high,10.1007/s11575-007-0015-4,10.1007/s11575-007-0020-6,title_match,10.1007/s11575-007-0020-6,2
+S27,Richter,2007,,,none,,,not_found,,0
+S28,Vilas-Boas & González,2007,10.1300/j037v16n01_07,openalex,medium,,10.1300/j037v16n01_07,title_match,,1
+S29,Bae et al.,2008,10.1108/1525383x200800003,references+openalex,high,10.1108/1525383x200800003,10.1108/1525383x200800003,verified,,2
+S30,Brock & Yaffe,2008,10.1016/j.ibusrev.2008.08.001,references,review,10.1016/j.ibusrev.2008.08.001,10.1016/j.ibusrev.2008.07.003,title_corrected,,1
+S31,Kumar & Singh,2008,10.1002/tie.20217,openalex+corpus,high,,10.1002/tie.20217,title_match,10.1002/tie.20217,2
+S32,Pangarkar,2008,,,none,,,author_year_guess,,0
+S33,Qian et al.,2008,,,none,,,author_year_guess,,0
+S34,Garbe & Richter,2009,10.1016/j.intman.2009.01.003,references,medium,10.1016/j.intman.2009.01.003,,doi_mismatch_check,,1
+S35,Gaur & Kumar,2009,10.1111/j.1467-8551.2007.00558.x,openalex+corpus,high,10.1111/j.1467-8551.2008.00558.x,10.1111/j.1467-8551.2007.00558.x,title_match,10.1111/j.1467-8551.2007.00558.x,2
+S36,Pattnaik & Elango,2009,10.1108/1525383x200900010,openalex+corpus,high,10.1108/1525383x200900012,10.1108/1525383x200900010,title_corrected,10.1108/1525383x200900010,2
+S37,Ciszewska-Mlinaric & Mlinaric,2010,10.2478/v10051-010-0017-y,references,medium,10.2478/v10051-010-0017-y,,doi_mismatch_check,,1
+S38,Chao & Kumar,2010,10.1016/j.jwb.2009.04.005,references+openalex,high,10.1016/j.jwb.2009.04.005,10.1016/j.jwb.2009.04.005,verified,,2
+S39,Chen & Hsu,2010,10.1016/j.indmarman.2009.10.001,references,medium,10.1016/j.indmarman.2009.10.001,,author_year_guess,,1
+S40,Pan et al.,2010,,,none,,,not_found,,0
+S41,Nielsen,2010,,,none,,,not_found,,0
+S42,Chiao & Yang,2011,10.1504/ijesb.2011.043273,references,medium,10.1504/ijesb.2011.043273,,author_year_guess,,1
+S43,Endo & Ozaki,2011,10.1057/abm.2011.27,references,medium,10.1057/abm.2011.27,,doi_mismatch_check,,1
+S44,Lin et al.,2011,10.1016/j.intman.2010.12.004,references,medium,10.1016/j.intman.2010.12.004,,author_year_guess,,1
+S45,Zhang & Toppinen,2011,,,none,,,author_year_guess,,0
+S46,Assaf et al.,2012,10.1016/j.ijhm.2011.05.003,references,medium,10.1016/j.ijhm.2011.05.003,,doi_mismatch_check,,1
+S47,Almodóvar,2012,10.1108/15253831211286246,corpus,medium,,,doi_mismatch_check,10.1108/15253831211286246,1
+S48,Chang et al.,2012,,,none,,,author_year_guess,,0
+S49,Chen & Tan,2012,,,none,,,author_year_guess,,0
+S50,Li et al.,2012,,,none,,,author_year_guess,,0
+S51,Pan & Tsai,2012,,,none,,,not_found,,0
+S52,Polat & Mutlu,2012,10.1108/09699981211205849,references,medium,10.1108/09699981211205849,,author_year_guess,,1
+S53,Tsao & Chen,2012,,references_ambiguous,review,,,not_found,,0
+S54,Fernhaber,2013,10.1016/j.jbusvent.2012.05.002,references+openalex,high,10.1016/j.jbusvent.2012.05.002,10.1016/j.jbusvent.2012.05.002,verified,,2
+S55,Hsu et al.,2013,10.1016/j.jwb.2012.06.001,references,medium,10.1016/j.jwb.2012.06.001,,author_year_guess,,1
+S56,Lee,2013,,references_ambiguous,review,,,author_year_guess,,0
+S57,Tsao & Lien,2013,,references_ambiguous,review,,,not_found,,0
+S58,Xiao et al.,2013,,,none,,,author_year_guess,,0
+S59,De Jong & van Houten,2014,,,none,,,author_year_guess,,0
+S60,Hilmersson,2014,10.1177/0266242613485778,references,review,10.1177/0266242613485778,10.1177/0266242613497744,title_match,,1
+S61,Graves & Shan,2014,10.1177/0894486513510534,references,review,10.1177/0894486513510534,10.1177/0894486513491588,title_match,,1
+S62,Lee et al.,2014,10.1108/ijchm-09-2012-0173,corpus,medium,,,author_year_guess,10.1108/ijchm-09-2012-0173,1
+S63,Zhou & Wu,2014,10.1016/j.jwb.2013.04.003,references,review,10.1016/j.jwb.2013.04.003,10.1016/j.jwb.2013.10.001,title_corrected,,1
+S64,Nguyen & Rugman,2015,,,none,,,author_year_guess,,0
+S65,Ren et al.,2015,,,none,,,author_year_guess,,0
+S66,Chen et al.,2015,,,none,,,author_year_guess,,0
+S67,Da Huo & Hung,2015,,,none,,,author_year_guess,,0
+S68,Benito-Osorio et al.,2015,10.1016/j.ibusrev.2015.03.003,references,medium,10.1016/j.ibusrev.2015.03.003,,doi_mismatch_check,,1
+S69,Altaf & Shah,2016,,,none,,,author_year_guess,,0
+S70,Assaf et al.,2016,10.1016/j.annals.2015.12.008,references,medium,10.1016/j.annals.2015.12.008,,doi_mismatch_check,,1
+S71,Berry & Kaul,2016,10.1002/smj.2429,references,review,10.1002/smj.2429,,doi_mismatch_check,10.1002/smj.2567,1
+S72,Brida et al.,2016,10.1108/ijchm-10-2014-0517,references,medium,10.1108/ijchm-10-2014-0517,,author_year_guess,,1
+S73,Cantele et al.,2016,,,none,,,author_year_guess,,0
+S74,Miller et al.,2016,10.1016/j.ibusrev.2015.12.003,openalex+corpus,high,10.1016/j.ibusrev.2015.12.001,10.1016/j.ibusrev.2015.12.003,title_corrected,10.1016/j.ibusrev.2015.12.003,2
+S75,Mohr & Batsakis,2016,10.1007/s11575-016-0284-9,openalex+corpus,high,10.1007/s11575-016-0284-7,10.1007/s11575-016-0284-9,title_match,10.1007/s11575-016-0284-9,2
+S76,Upadhyayula et al.,2016,10.1108/jibr-10-2015-0087,references,medium,10.1108/jibr-10-2015-0087,,author_year_guess,,1
+S77,Borda et al.,2017,10.1016/j.jbusres.2016.11.021,references,review,10.1016/j.jbusres.2016.11.021,10.1016/j.jbusres.2016.11.006,title_match,,1
+S78,Buckley & Tian,2017,,,none,,,not_found,,0
+S79,Ganvir & Dwivedi,2017,10.1108/sajbs-03-2016-0020,references,medium,10.1108/sajbs-03-2016-0020,,author_year_guess,,1
+S80,Jin et al.,2017,,,none,,,author_year_guess,,0
+S81,Nosi et al.,2017,10.7433/s102.2017.04,references,medium,10.7433/s102.2017.04,,doi_mismatch_check,,1
+S82,Purkayastha et al.,2017,10.1016/j.jwb.2018.03.006,references,review,10.1016/j.jwb.2018.03.006,10.1016/j.jwb.2016.11.004,title_corrected,,1
+S83,Abdi & Aulakh,2018,10.1057/s41267-017-0117-9,references,review,10.1057/s41267-017-0117-9,,not_found,10.1057/s41267-018-0146-8,1
+S84,Booltink & Saka-Helmhout,2018,10.1111/jsbm.12393,references,medium,10.1111/jsbm.12393,,doi_mismatch_check,,1
+S85,Cho & Lee,2018,10.1108/mrr-06-2017-0175,references,medium,10.1108/mrr-06-2017-0175,,author_year_guess,,1
+S86,Pouresmaeili et al.,2018,10.1504/ijbg.2018.095267,references,medium,10.1504/ijbg.2018.095267,,author_year_guess,,1
+S87,Hojnik et al.,2018,10.1080/1331677x.2018.1504673,references,review,10.1080/1331677x.2018.1504673,,author_year_guess,10.1016/j.jclepro.2017.10.111,1
+S88,Thi Ngoc Huynh et al.,2018,,,none,,,author_year_guess,,0
+S89,Velez-Calle et al.,2018,10.1108/ijoem-11-2016-0298,references,medium,10.1108/ijoem-11-2016-0298,,doi_mismatch_check,,1
+S90,Zhou,2018,10.1080/00036846.2017.1321839,references,medium,10.1080/00036846.2017.1321839,,doi_mismatch_check,,1
+S91,Sun et al.,2018,10.1016/j.jbusres.2018.08.014,references,medium,10.1016/j.jbusres.2018.08.014,,author_year_guess,,1
+S92,Feng et al.,2019,,,none,,,author_year_guess,,0
+S93,Juniati et al.,2019,,,none,,,author_year_guess,,0
+S94,Lee et al.,2019,10.18178/ijtef.2019.10.3.645,references,medium,10.18178/ijtef.2019.10.3.645,,author_year_guess,,1
+S95,Meyer et al.,2019,,,none,,,not_found,,0
+S96,Tashman et al.,2019,10.1057/s41267-018-0197-4,references,medium,10.1057/s41267-018-0197-4,,author_year_guess,,1
+S97,Woo et al.,2019,,,none,,,author_year_guess,,0
+S98,Kim et al.,2020,,,none,,,author_year_guess,,0
+S99,Phan et al.,2020,10.5267/j.dsl.2020.7.001,references,medium,10.5267/j.dsl.2020.7.001,,author_year_guess,,1
+S100,Tu et al.,2020,,,none,,,author_year_guess,,0
+S101,Freixanet & Rialp,2021,10.1002/gsj.1412,references,medium,10.1002/gsj.1412,,author_year_guess,,1
+S102,Kongkaew et al.,2021,,,none,,,author_year_guess,,0
+S103,Nath et al.,2021,,,none,,,author_year_guess,,0
+S104,Tu et al.,2021,,,none,,,not_found,,0
+S105,Tu,2021,,,none,,,not_found,,0
+S106,Tu & Anh,2021,,,none,,,not_found,,0
+S107,Song & Lee,2021,,,none,,,author_year_guess,,0
+S108,Wei & Lin,2021,10.1155/2021/5528972,references,medium,10.1155/2021/5528972,,author_year_guess,,1
+S109,Purkayastha & Gupta,2022,,references_ambiguous,review,,,doi_mismatch_check,,0
+S110,Putri & Pan,2022,10.1080/23311975.2022.2079802,references,medium,10.1080/23311975.2022.2079802,,author_year_guess,,1
+S111,Daniels & Bracker,1989,,,none,,,doi_mismatch_check,,0
+S112,"Geringer, Beamish & daCosta",1989,,,none,,,doi_mismatch_check,,0
+S113,"Kim, Hwang & Burgers",1993,,,none,,,doi_mismatch_check,,0
+S114,Sullivan,1994,,,none,,,doi_mismatch_check,,0
+S115,Ramaswamy,1995,,,none,,,doi_mismatch_check,,0
+S116,Delios & Beamish,1999,,,none,,,doi_mismatch_check,,0
+S117,Lu & Beamish,2001,,,none,,,doi_mismatch_check,,0
+S118,"Contractor, Kundu & Hsu",2003,,,none,,,doi_mismatch_check,,0
+S119,"Bloodgood, Sapienza & Almeida",1996,,,none,,,doi_mismatch_check,,0
+S120,Pangarkar & Yuan,2009,,,none,,,doi_mismatch_check,,0
+S121,"Gaur, Kumar & Singh",2014,,,none,,,doi_mismatch_check,,0
+S122,Luo & Tung,2015,,,none,,,doi_mismatch_check,,0
+S123,"García-García, García-Canal & Guillén",2017,,,none,,,not_found,,0
+S124,"Klier, Schwens, Zapkau & Dikova",2017,,,none,,,doi_mismatch_check,,0
+S125,Arte & Larimo,2022,10.1016/j.jbusres.2021.09.060,references,medium,10.1016/j.jbusres.2021.09.060,,doi_mismatch_check,,1
+S126,"Schmuck, Lagerström & Sallis",2022,10.1007/s11575-022-00464-3,references,medium,10.1007/s11575-022-00464-3,,doi_mismatch_check,,1
+S127,"Bhandari, Zámborský, Ranta & Salo",2023,,,none,,,doi_mismatch_check,,0
+S128,Kafouros et al.,2023,10.1002/gsj.1479,references,medium,10.1002/gsj.1479,,author_year_guess,,1
+S129,"Freixanet, Renart & Segarra-Blasco",2022,10.1002/gsj.1412,references,medium,10.1002/gsj.1412,,doi_mismatch_check,,1
+S130,"Shin, Kim & Seol",2022,,,none,,,doi_mismatch_check,,0
+S131,Dobbs & Hamilton,2007,,,none,,,doi_mismatch_check,,0
+S132,Almodovar & Rugman,2014,10.1111/1467-8551.12048,references,medium,10.1111/1467-8551.12048,,not_found,,1
+S133,"Lin, Liu & Cheng",2011,10.1016/j.intman.2010.12.004,references,medium,10.1016/j.intman.2010.12.004,,doi_mismatch_check,,1
+S134,Pinheiro-Alves,2011,,,none,,,not_found,,0
+S135,Guo et al.,2020,,,none,,,doi_mismatch_check,,0
+S136,"Hitt, Hoskisson & Kim",1997,10.2307/256948,references,medium,10.2307/256948,,doi_mismatch_check,,1
+S137,Gomes & Ramaswamy,1999,,,none,,,not_found,,0
+S138,Tallman & Li,1996,10.2307/256635,references,medium,10.2307/256635,,author_year_guess,,1
+S139,"Aulakh, Kotabe & Teegen",2000,,,none,,,author_year_guess,,0
+S140,"Kotabe, Srinivasan & Aulakh",2002,,,none,,,author_year_guess,,0
+S141,"Denis, Denis & Yost",2002,,,none,,,not_found,,0
+S142,Gomez-Mejia & Palich,1997,,,none,,,not_found,,0
+S143,Chang & Wang,2007,,,none,,,not_found,,0
+S144,Pangarkar,2008,,,none,,,author_year_guess,,0
+S145,"Zahra, Ireland & Hitt",2000,,,none,,,author_year_guess,,0
+S146,Oh & Contractor,2012,,,none,,,author_year_guess,,0
+S147,"Qian, Li, Li & Qian",2008,,,none,,,author_year_guess,,0
+S148,Elango & Pattnaik,2007,10.1108/1525383x200600015,references,medium,10.1108/1525383x200600015,,author_year_guess,,1
+S149,Filatotchev & Piesse,2009,10.1016/j.ibusrev.2010.01.005,corpus,medium,,,author_year_guess,10.1016/j.ibusrev.2010.01.005,1
+S150,"Geringer, Tallman & Olsen",2000,,,none,,,not_found,,0
+S151,Michel & Shaked,1986,,,none,,,author_year_guess,,0
+S152,Morck & Yeung,1991,,,none,,,not_found,,0
+S153,Wan & Hoskisson,2003,,,none,,,author_year_guess,,0
+S154,"Yiu, Lau & Bruton",2007,,,none,,,author_year_guess,,0
+S155,"Luo, Zhao & Du",2005,,,none,,,author_year_guess,,0
+S156,"Bobillo, López-Iturriaga & Tejerina-Gaite",2010,,,none,,,author_year_guess,,0
+S157,Boehe & Cruz,2010,,,none,,,author_year_guess,,0
+S158,Singh & Gaur,2009,,,none,,,author_year_guess,,0
+S159,Fernández-Olmos & Díez-Vial,2015,,,none,,,not_found,,0
+S160,Lu & Beamish,2006,,,none,,,author_year_guess,,0
+S161,"Contractor, Kumar & Kundu",2007,,,none,,,not_found,,0
+S162,Oh & Sohl,2017,,,none,,,author_year_guess,,0
+S163,Ogasavara & Hoshino,2007,,,none,,,not_found,,0
+S164,"Gao, Murray, Kotabe & Lu",2010,,,none,,,author_year_guess,,0
+S165,Doukas & Kan,2006,,,none,,,author_year_guess,,0
+S166,Castellacci,2015,,,none,,,author_year_guess,,0
+S167,Reuber & Fischer,1997,,,none,,,author_year_guess,,0
+S168,"Zhou, Wu & Luo",2007,,,none,,,author_year_guess,,0
+S169,"Isobe, Makino & Montgomery",2000,,,none,,,author_year_guess,,0
+S170,Shan & Song,1997,,,none,,,not_found,,0
+S171,"Buckley, Dunning & Pearce",1978,,,none,,,author_year_guess,,0
+S172,"Oesterle, Richta & Fisch",2013,,,none,,,author_year_guess,,0
+S173,"Nguyen, Almodóvar & Martínez-Noya",2018,,,none,,,author_year_guess,,0
+S174,"Ogasavara, Hoshino & Alberton",2016,,,none,,,author_year_guess,,0
+S175,Jo & Roth,2015,,,none,,,author_year_guess,,0
+S176,Khattak & Shah,2022,,,none,,,author_year_guess,,0
+S177,Lee & Yoon,2022,,,none,,,author_year_guess,,0
+S178,Lin & Liu,2022,,,none,,,author_year_guess,,0
+S179,"Chen, Zhang & Li",2022,,,none,,,author_year_guess,,0
+S180,Wang & Xiang,2022,,,none,,,author_year_guess,,0
+S181,Nguyen & Dinh,2022,,,none,,,author_year_guess,,0
+S182,Vo & Nguyen,2021,,,none,,,author_year_guess,,0
+S183,Kim & Kim,2023,,,none,,,author_year_guess,,0
+S184,Borkakoti & Dua,2023,,,none,,,author_year_guess,,0
+S185,Li & Li,2023,10.1016/j.ibusrev.2021.101953,references,medium,10.1016/j.ibusrev.2021.101953,,author_year_guess,,1
+S186,"Torres, Kunc & O'Shannassy",2022,,,none,,,not_found,,0
+S187,Cho & Lee,2023,,,none,,,author_year_guess,,0
+S188,Do & Phan,2025,,,none,,,author_year_guess,,0
+S189,Do & Phan,2026,,,none,,,author_year_guess,,0
+S190,"Phan, Ninh & Do",2021,10.5267/j.dsl.2020.7.001,references,medium,10.5267/j.dsl.2020.7.001,,author_year_guess,,1
+S191,Phan et al.,2021,10.5267/j.dsl.2020.7.001,references,medium,10.5267/j.dsl.2020.7.001,,author_year_guess,,1
+S192,Tu & Huynh,2021,,,none,,,not_found,,0
+S193,García-Sánchez & Rama,2024,,,none,,,author_year_guess,,0
+S194,Godbole,2024,,,none,,,author_year_guess,,0
+S195,Barłożewski & Trąpczyński (2021a),,,,none,,,not_found,,0
+S196,Barłożewski & Trąpczyński (2021b),,,,none,,,not_found,,0
+S197,Calabrese & Manello,2018,10.1016/j.jpolmod.2018.01.008,references,medium,10.1016/j.jpolmod.2018.01.008,,author_year_guess,,1
+S198,Cao et al.,2022,10.1371/journal.pone.0263674,references,medium,10.1371/journal.pone.0263674,,author_year_guess,,1
+S199,Carr et al.,2010,10.1002/sej.90,references,medium,10.1002/sej.90,,author_year_guess,,1
+S200,Chen & Hsu,2010,10.1016/j.indmarman.2009.10.001,references,medium,10.1016/j.indmarman.2009.10.001,,author_year_guess,,1
+S201,Cuervo-Cazurra et al.,2017,10.1016/j.jwb.2017.11.002,references+corpus,high,10.1016/j.jwb.2017.11.002,,author_year_guess,10.1016/j.jwb.2017.11.002,2
+S202,Da Cunha et al.,2023,,,none,,,author_year_guess,,0
+S203,Debicki et al.,2020,10.1108/ccsm-04-2019-0075,references,medium,10.1108/ccsm-04-2019-0075,,author_year_guess,,1
+S204,Dikova & Veselova,2020,10.1017/mor.2020.39,references,medium,10.1017/mor.2020.39,,author_year_guess,,1
+S205,Elango,2012,10.1002/tie.21491,references,medium,10.1002/tie.21491,,author_year_guess,,1
+S206,Espinosa-Méndez & Jara,2021,10.1080/02102412.2021.1886453,references,medium,10.1080/02102412.2021.1886453,,not_found,,1
+S207,Fu,2024,10.1016/j.frl.2024.105721,references,medium,10.1016/j.frl.2024.105721,,not_found,,1
+S208,Khatua et al.,2024,10.1007/s10843-023-00345-2,references,medium,10.1007/s10843-023-00345-2,,not_found,,1
+S209,Lin et al.,2011,10.1016/j.intman.2010.12.004,references,medium,10.1016/j.intman.2010.12.004,,author_year_guess,,1
+S210,Manotas & Gonzalez-Perez,2020,10.1108/cr-03-2019-0028,references,medium,10.1108/cr-03-2019-0028,,author_year_guess,,1
+S211,Olmos & Díez-Vial,2015,10.1108/ejm-06-2012-0365,references,medium,10.1108/ejm-06-2012-0365,,author_year_guess,,1
+S212,"Phan, Tran & Lu",2020,10.5267/j.dsl.2020.7.001,references,medium,10.5267/j.dsl.2020.7.001,,author_year_guess,,1
+S213,Purkayastha et al.,2024,10.1016/j.intman.2024.101122,references,medium,10.1016/j.intman.2024.101122,,author_year_guess,,1
+S214,Purkayastha et al.,2021,,references_ambiguous,review,,,author_year_guess,,0
+S215,Rienda & Andreu,2021,10.24310/ejfbejfb.v11i2.10591,references,medium,10.24310/ejfbejfb.v11i2.10591,,author_year_guess,,1
+S216,Schmuck et al. (2022a),,,,none,,,author_year_guess,,0
+S217,Singla & George,2013,10.1016/j.jbusres.2013.05.041,references,medium,10.1016/j.jbusres.2013.05.041,,author_year_guess,,1
+S218,Sun et al.,2019,10.1016/j.jbusres.2018.08.014,references,medium,10.1016/j.jbusres.2018.08.014,,author_year_guess,,1
+S219,Tongurai & Vithessonthi,2022,10.1016/j.gfj.2022.100721,references,medium,10.1016/j.gfj.2022.100721,,not_found,,1
+S220,Tsionas & Tzeremes,2021,10.1111/1467-8551.12560,references,medium,10.1111/1467-8551.12560,,author_year_guess,,1
+S221,Vithessonthi & Racela,2016,10.1016/j.mulfin.2015.12.001,references,medium,10.1016/j.mulfin.2015.12.001,,not_found,,1
+S222,Wang et al.,2020,10.1061/(asce)me.1943-5479.0000736,references,medium,10.1061/(asce)me.1943-5479.0000736,,author_year_guess,,1
+S223,Wei & Lin,2021,10.1155/2021/5528972,references,medium,10.1155/2021/5528972,,author_year_guess,,1
+S224,Xiao et al.,2013,,,none,,,author_year_guess,,0
+S225,Xiong et al.,2024,10.1016/j.frl.2024.106247,references,medium,10.1016/j.frl.2024.106247,,author_year_guess,,1
+S226,Zeng et al.,2009,10.1108/00251740910938939,references,medium,10.1108/00251740910938939,,author_year_guess,,1
+S227,Ahsan & Sinha,2022,10.1108/ccsm-07-2021-0119,references,medium,10.1108/ccsm-07-2021-0119,,author_year_guess,,1
+S228,Ruzzier & Ruzzier,2014,10.3846/16111699.2012.745812,references,medium,10.3846/16111699.2012.745812,,author_year_guess,,1
+S229,Azman et al.,2022,10.1061/(asce)me.1943-5479.0000985,references,medium,10.1061/(asce)me.1943-5479.0000985,,author_year_guess,,1
+S230,Bhandari et al.,2023,,,none,,,author_year_guess,,0
+S231,Hosseini et al.,2018,10.1016/j.forpol.2018.09.013,references,medium,10.1016/j.forpol.2018.09.013,,author_year_guess,,1
+S232,Huang & Marciano,2020,10.2991/aebmr.k.200127.085,references,medium,10.2991/aebmr.k.200127.085,,author_year_guess,,1
+S233,Kayaci,2022,10.37880/cumuiibf.1077104,references,medium,10.37880/cumuiibf.1077104,,not_found,,1
+S234,Yip et al.,2000,10.1509/jimk.8.3.10.19635,references,medium,10.1509/jimk.8.3.10.19635,,author_year_guess,,1
+S235,Freixanet & Rialp,2021,10.1002/gsj.1412,references,medium,10.1002/gsj.1412,,author_year_guess,,1
+S236,Barłożewski & Trąpczyński (2021a),,,,none,,,not_found,,0
+S237,Barłożewski & Trąpczyński (2021b),,,,none,,,not_found,,0
+S238,Srividhya et al.,2024,,,none,,,author_year_guess,,0
