@@ -96,9 +96,13 @@ def study_num(study_id: str) -> int | None:
 
 def surname(author_field: str) -> str:
     """First author's surname, lowercased. Handles 'Siddharthan & Lall',
-    'Capar, N., & Kotabe, M.', 'Van den Noortgate, W.'."""
+    'Capar, N., & Kotabe, M.', 'Chiao et al.', 'Hitt et al.'."""
     a = (author_field or "").split("&")[0].split(";")[0].strip()
-    a = a.split(",")[0].strip()  # 'Capar, N.' -> 'Capar'
+    a = re.sub(r"\bet\s+al\.?", "", a, flags=re.IGNORECASE).strip()
+    if "," in a:
+        a = a.split(",")[0].strip()   # 'Capar, N.' -> 'Capar'
+    elif a.split():
+        a = a.split()[0]              # 'Chiao et al.' -> 'Chiao'
     return a.lower()
 
 
