@@ -69,7 +69,7 @@ S67,Da Huo & Hung,2015,author_year_guess,10.1590/0102-311x00133213,10.17230/ad-m
 S68,Benito-Osorio et al.,2015,doi_mismatch_check,10.1016/j.ibusrev.2015.03.003,,,,,0,,no_corpus_match,no
 S69,Altaf & Shah,2016,author_year_guess,10.18632/oncotarget.6961,10.1016/j.psrb.2016.05.002,Internationalization and firm performance of Indian firms: Does product diversity matter?,Pacific Science Review B Humanities and Social Sciences,2015,1,0.3,candidate_unique,no
 S70,Assaf et al.,2016,doi_mismatch_check,10.1016/j.annals.2015.12.008,,,,,0,,no_corpus_match,no
-S71,Berry & Kaul,2016,doi_mismatch_check,10.1002/smj.2429,10.1002/smj.2567,Replicating the multinationality‐performance relationship: Is there an S‐curve?,Strategic Management Journal,2016,1,0.0,candidate_unique,no
+S71,Berry & Kaul,2016,doi_mismatch_check,10.1002/smj.2429,10.1002/smj.2567,Replicating the multinationality‐performance relationship: Is there an S‐curve?,Strategic Management Journal,2016,1,1.0,confirmed_title,no
 S72,Brida et al.,2016,author_year_guess,,10.1016/j.tmp.2015.12.016,The inverted-U relationship between the degree of internationalization and the performance: The case of Spanish hotel chains,Tourism Management Perspectives,2016,1,0.17,candidate_unique,no
 S73,Cantele et al.,2016,author_year_guess,10.1242/jcs.183244,,,,,0,,no_corpus_match,no
 S74,Miller et al.,2016,title_corrected,10.1016/j.ibusrev.2015.12.003,10.1016/j.ibusrev.2015.12.003,"International intensity, diversity, and distance: Unpacking the internationalization–performance relationship",International Business Review,2015,1,1.0,confirmed_title,yes

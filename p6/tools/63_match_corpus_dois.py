@@ -28,6 +28,7 @@ Usage:
 import argparse
 import csv
 import importlib.util
+import re
 from pathlib import Path
 
 CONFIRM_OVERLAP = 0.60
@@ -74,20 +75,61 @@ def main():
         for r in csv.DictReader(open(args.enriched, encoding="utf-8")):
             enrich[r["study_id"]] = r
 
-    corpus = []
-    for cf in args.corpus:
+    def load_csv(cf):
+        rows = []
         with open(cf, encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
                 doi = (r.get("doi") or "").replace("https://doi.org/", "").strip().lower()
                 if not doi:
                     continue
-                corpus.append({
+                rows.append({
                     "doi": doi,
                     "title": r.get("display_name") or "",
                     "authors_folded": fold(r.get("authorships.author.display_name") or ""),
                     "year": to_int(r.get("publication_year")),
                     "journal": r.get("primary_location.source.display_name") or "",
                 })
+        return rows
+
+    def load_ris(cf):
+        rows, cur = [], None
+        def flush(c):
+            if c and (c["doi"] or c["title"]):
+                rows.append({
+                    "doi": c["doi"].replace("https://doi.org/", "").strip().lower(),
+                    "title": c["title"],
+                    "authors_folded": fold(" | ".join(c["authors"])),
+                    "year": c["year"],
+                    "journal": c["journal"],
+                })
+        for line in open(cf, encoding="utf-8", errors="replace"):
+            tag, val = line[:6], line[6:].strip()
+            if tag == "TY  -":
+                flush(cur); cur = {"authors": [], "title": "", "year": None, "doi": "", "journal": ""}
+            elif cur is None:
+                continue
+            elif tag in ("TI  -", "T1  -"):
+                cur["title"] = val
+            elif tag == "AU  -":
+                cur["authors"].append(val)
+            elif tag in ("PY  -", "Y1  -"):
+                m = re.search(r"\d{4}", val); cur["year"] = int(m.group()) if m else None
+            elif tag == "DO  -":
+                cur["doi"] = val
+            elif tag in ("T2  -", "JO  -", "JF  -") and not cur["journal"]:
+                cur["journal"] = val
+            elif tag == "ER  -":
+                flush(cur); cur = None
+        flush(cur)
+        return rows
+
+    corpus, seen_doi = [], set()
+    for cf in args.corpus:
+        rows = load_ris(cf) if cf.lower().endswith(".ris") else load_csv(cf)
+        for r in rows:
+            if r["doi"] and r["doi"] not in seen_doi:
+                seen_doi.add(r["doi"])
+                corpus.append(r)
 
     seen, studies = set(), []
     for r in csv.DictReader(open(args.db, encoding="utf-8")):

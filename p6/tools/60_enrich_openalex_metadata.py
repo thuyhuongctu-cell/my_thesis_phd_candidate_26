@@ -143,9 +143,16 @@ def parse_apa(apa_path: Path) -> dict[int, dict]:
         doi_m = APA_DOI.search(rest)
         title_m = APA_TITLE.search(rest)
         journal_m = APA_JOURNAL.search(rest)
+        if title_m:
+            title = title_m.group(1).strip()
+        else:
+            # fallback: text after '(year).' up to the journal italics or DOI link
+            ym = APA_YEAR.search(rest)
+            after = rest[ym.end():] if ym else ""
+            title = re.split(r"\s*\*|\s+https?://", after, 1)[0].strip().rstrip(".").strip()
         out[num] = {
             "candidate_doi": norm_doi(doi_m.group(1)) if doi_m else "",
-            "title": title_m.group(1).strip() if title_m else "",
+            "title": title,
             "journal": journal_m.group(1).strip() if journal_m else "",
         }
     return out
