@@ -8,7 +8,7 @@
 
 ## Abstract
 
-The conventional inverted-U between internationalization intensity and firm performance rests on three structural prerequisites: a viable domestic market, manageable trade costs, and functional institutions. When all three are absent at once, as in Pacific Small Island Developing States (SIDS), the non-linear pattern collapses into a monotone negative relationship, which we term the Forced Internationalization Penalty (FIP): not a transient phase-1 learning cost, but a persistent structural condition arising from the compulsion to export despite systemic disadvantage. Using World Bank Enterprise Survey data from 1,469 firms across nine Pacific SIDS (2009–2025), internationalization intensity is robustly negatively associated with labour productivity (β = −0.404, p = .032, country-and-year fixed effects) with no quadratic curvature. Technological capability and digital adoption, significant moderators in mainland Asia, are null here. These findings reframe the inverted-U as conditional rather than universal and identify boundary conditions for institutional moderation theory.
+The conventional inverted-U between internationalization intensity and firm performance rests on three structural prerequisites: a viable domestic market, manageable trade costs, and functional institutions. When all three are absent at once, as in Pacific Small Island Developing States (SIDS), the non-linear pattern collapses into a monotone negative relationship, which we term the Forced Internationalization Penalty (FIP): not a transient phase-1 learning cost, but a persistent structural condition arising from the compulsion to export despite systemic disadvantage. Using World Bank Enterprise Survey data from 1,469 firms across nine Pacific SIDS (2009–2025), internationalization intensity is robustly negatively associated with labour productivity ($\beta$ = −0.404, p = .032, country-and-year fixed effects) with no quadratic curvature. Technological capability and digital adoption, significant moderators in mainland Asia, are null here. These findings reframe the inverted-U as conditional rather than universal and identify boundary conditions for institutional moderation theory.
 
 ---
 
@@ -86,11 +86,11 @@ We use pooled data from the World Bank Enterprise Survey (WBES), drawing waves c
 
 **Dependent variable.** Log labor productivity (ln_LP) is constructed as the natural logarithm of sales revenue per permanent worker, expressed in constant purchasing-power-parity-adjusted USD: ln(d2/l1). This measure has been used extensively in enterprise-level productivity studies (Goedhuys & Sleuwaegen, 2013; World Bank, 2020). Of the 1,469 analysis observations, 187 (12.7%) are exporters with FSTS > 0.
 
-**Internationalization intensity.** Following the methodology of Haans et al. (2016) and Contractor et al. (2003), we construct FSTS (Foreign Sales to Total Sales) from WBES item d3c (percentage of sales exported), divided by 100. For the main models, FSTS is mean-centered at the wave level: FSTS_c = FSTS − mean_wave(FSTS), yielding a mean FSTS of 0.060 (SD unreported due to small exporter subsample). Mean-centering suppresses cross-wave level differences while preserving within-wave variation, following standard practice for studies examining FSTS curvature (Haans et al., 2016).
+**Internationalization intensity.** Following the methodology of Haans et al. (2016) and Contractor et al. (2003), we construct FSTS (Foreign Sales to Total Sales) from WBES item d3c (percentage of sales exported), divided by 100. For the main models, FSTS is mean-centered at the wave level: $\text{FSTS}_c$ = FSTS − mean_wave(FSTS), yielding a mean FSTS of 0.060 (SD unreported due to small exporter subsample). Mean-centering suppresses cross-wave level differences while preserving within-wave variation, following standard practice for studies examining FSTS curvature (Haans et al., 2016).
 
-**Technological capability index (TCI_z).** Following Lall (1992) and Goedhuys and Sleuwaegen (2013), TCI is constructed from two WBES items: b8 (internationally recognized quality certification, binary) and e6 (licensing of foreign technology, binary). TCI_z is the z-standardized mean of these two indicators.
+**Technological capability index ($\text{TCI}_z$).** Following Lall (1992) and Goedhuys and Sleuwaegen (2013), TCI is constructed from two WBES items: b8 (internationally recognized quality certification, binary) and e6 (licensing of foreign technology, binary). $\text{TCI}_z$ is the z-standardized mean of these two indicators.
 
-**Digital adoption index (DAI_z).** DAI is measured using WBES item c22b (firm has an operational website, binary). This is a Tier-1 proxy capturing *foundational website adoption*, the first step of digital presence. It is appropriate for the SIDS context where advanced digital infrastructure is limited, only 5% of low-income country populations had basic digital skills in 2023, and high-income economies account for 77% of global data center capacity (Mahler, Wang, & Weber, 2026). DAI_z is the z-standardized value. We do not claim to measure dynamic digital capability, which would require multi-tiered indicators unavailable in WBES for this sample.
+**Digital adoption index ($\text{DAI}_z$).** DAI is measured using WBES item c22b (firm has an operational website, binary). This is a Tier-1 proxy capturing *foundational website adoption*, the first step of digital presence. It is appropriate for the SIDS context where advanced digital infrastructure is limited, only 5% of low-income country populations had basic digital skills in 2023, and high-income economies account for 77% of global data center capacity (Mahler, Wang, & Weber, 2026). $\text{DAI}_z$ is the z-standardized value. We do not claim to measure dynamic digital capability, which would require multi-tiered indicators unavailable in WBES for this sample.
 
 **Control variables.** Firm size is the natural logarithm of the number of permanent workers (ln_size, from l1). Firm age is survey year minus year of establishment (b5). Foreign ownership (foreign_own_pct) is the percentage of firm equity held by foreign entities (b2b). These are standard controls in enterprise-level I-P research (Hitt et al., 1997; Lu & Beamish, 2004).
 
@@ -110,25 +110,25 @@ We use pooled data from the World Bank Enterprise Survey (WBES), drawing waves c
 | δ_c | a4a/a4b | Country fixed effects (9 SIDS economies) | Absorbs time-invariant country heterogeneity: institutional quality, remoteness, trade costs |
 | λ_t | wave | Wave-year fixed effects (2009, 2015, 2016, 2018, 2019, 2022, 2023, 2024, 2025) | Absorbs common time trends |
 
-*Notes.* b8 and e6 are recoded from WBES response codes (1 = yes, 2 = no) to binary (1/0). c22b is recoded similarly. TCI_z and DAI_z are standardised across the full pooled sample. PPP conversion uses World Bank ICP deflators matched to survey year. FSTS_c is centred within each country-year wave so that turning-point estimates are not confounded by cross-wave composition shifts (Haans et al., 2016). DAI captures only Tier-1 static website presence; Tier-2 (e-payment) and Tier-3 (cloud/ERP) indicators are unavailable for these WBES waves.
+*Notes.* b8 and e6 are recoded from WBES response codes (1 = yes, 2 = no) to binary (1/0). c22b is recoded similarly. $\text{TCI}_z$ and $\text{DAI}_z$ are standardised across the full pooled sample. PPP conversion uses World Bank ICP deflators matched to survey year. $\text{FSTS}_c$ is centred within each country-year wave so that turning-point estimates are not confounded by cross-wave composition shifts (Haans et al., 2016). DAI captures only Tier-1 static website presence; Tier-2 (e-payment) and Tier-3 (cloud/ERP) indicators are unavailable for these WBES waves.
 
 ### 3.3 Model Sequence
 
 We estimate four model families to test H1 and H2:
 
 **M0 (controls baseline)**:
-ln_LP_it = α + γ₁ ln_size_it + γ₂ firm_age_it + γ₃ foreign_own_pct_it + δ_c + λ_t + ε_it
+ln_LP_it = $\alpha$ + $\gamma$₁ ln_size_it + $\gamma$₂ firm_age_it + $\gamma$₃ foreign_own_pct_it + δ_c + $\lambda$_t + $\epsilon$_it
 
 **M1 (linear FSTS, FIP test)**:
-ln_LP_it = α + β₁ FSTS_c_it + γ·X_it + δ_c + λ_t + ε_it
+ln_LP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$_it + $\gamma$·X_it + δ_c + $\lambda$_t + $\epsilon$_it
 
 **M2 (quadratic FSTS, curvature test)**:
-ln_LP_it = α + β₁ FSTS_c_it + β₂ FSTS_c²_it + γ·X_it + δ_c + λ_t + ε_it
+ln_LP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$_it + $\beta_2$ $\text{FSTS}_c^2$_it + $\gamma$·X_it + δ_c + $\lambda$_t + $\epsilon$_it
 
 **M3 (capabilities, moderation null test)**:
-ln_LP_it = α + β₁ FSTS_c_it + β₂ FSTS_c²_it + β₃ TCI_z_it + β₄ DAI_z_it + γ·X_it + δ_c + λ_t + ε_it
+ln_LP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$_it + $\beta_2$ $\text{FSTS}_c^2$_it + $\beta_3$ $\text{TCI}_z$_it + $\beta_4$ $\text{DAI}_z$_it + $\gamma$·X_it + δ_c + $\lambda$_t + $\epsilon$_it
 
-where δ_c denotes country fixed effects, λ_t wave-year fixed effects, and X the vector of control variables. Country fixed effects absorb time-invariant country-level heterogeneity (institutional quality, trade costs, geographic remoteness) that would otherwise confound the FSTS coefficient.
+where δ_c denotes country fixed effects, $\lambda$_t wave-year fixed effects, and X the vector of control variables. Country fixed effects absorb time-invariant country-level heterogeneity (institutional quality, trade costs, geographic remoteness) that would otherwise confound the FSTS coefficient.
 
 We also estimate two additional robustness specifications: M_yearFE (year fixed effects only, no country fixed effects) and M_bivariate (no controls), to assess the sensitivity of the FIP estimate to different modeling assumptions.
 
@@ -140,35 +140,35 @@ All regressions are estimated by OLS with heteroscedasticity-robust standard err
 
 ### 4.1 Sample Description and Preliminary Evidence
 
-The analysis sample spans 1,469 firms across nine Pacific SIDS economies. Table 1 reports country-level summary statistics. Exporter representation is thin across all economies (overall 12.7%), consistent with the SIDS structural constraint: most firms operate predominantly in the domestic market despite its limitations. Mean FSTS across the full sample is 0.060, reflecting the low-but-non-zero export engagement of SIDS firms. The country fixed effects absorb substantial variance: R² increases from 0.511 (year FE only) to 0.799 (country + year FE) when country indicators are added, confirming that 95% of explained productivity variance is between-country, a feature consistent with extreme between-country heterogeneity in institutional quality, geographic remoteness, and economic structure.
+The analysis sample spans 1,469 firms across nine Pacific SIDS economies. Table 1 reports country-level summary statistics. Exporter representation is thin across all economies (overall 12.7%), consistent with the SIDS structural constraint: most firms operate predominantly in the domestic market despite its limitations. Mean FSTS across the full sample is 0.060, reflecting the low-but-non-zero export engagement of SIDS firms. The country fixed effects absorb substantial variance: $R^2$ increases from 0.511 (year FE only) to 0.799 (country + year FE) when country indicators are added, confirming that 95% of explained productivity variance is between-country, a feature consistent with extreme between-country heterogeneity in institutional quality, geographic remoteness, and economic structure.
 
 ### 4.2 Main Results: Forced Internationalization Penalty (H1)
 
 Table 2 reports the main regression results. **M1**, the linear FSTS specification with country and year fixed effects, yields:
 
-β(FSTS_c) = **−0.404**, SE = 0.188, t = −2.152, p = **.032**
+$\beta$($\text{FSTS}_c$) = **−0.404**, SE = 0.188, t = −2.152, p = **.032**
 
 This coefficient is statistically significant at the conventional 5% level and substantively meaningful: a one-unit increase in FSTS (a move from no exports to full-export orientation) is associated with a 40.4% lower labor productivity. This supports **Hypothesis 1**: internationalization intensity is negatively associated with performance in Pacific SIDS.
 
-The M0 baseline (controls only, no FSTS) yields an R² of 0.7992, and adding FSTS_c in M1 marginally increases R² to 0.8001, which indicates that, conditional on country and year fixed effects, FSTS explains limited additional variance but does so in a consistently negative direction.
+The M0 baseline (controls only, no FSTS) yields an $R^2$ of 0.7992, and adding $\text{FSTS}_c$ in M1 marginally increases $R^2$ to 0.8001, which indicates that, conditional on country and year fixed effects, FSTS explains limited additional variance but does so in a consistently negative direction.
 
-Control variable results in M1 are consistent with established evidence: firm age is positively associated with productivity (β = +0.009, p = .052); foreign ownership shows a marginally negative association (β = −0.006, p = .056), perhaps reflecting thin foreign investment efficiency in SIDS contexts; firm size is positive but non-significant (β = +0.082, p = .242).
+Control variable results in M1 are consistent with established evidence: firm age is positively associated with productivity ($\beta$ = +0.009, p = .052); foreign ownership shows a marginally negative association ($\beta$ = −0.006, p = .056), perhaps reflecting thin foreign investment efficiency in SIDS contexts; firm size is positive but non-significant ($\beta$ = +0.082, p = .242).
 
 ### 4.3 Monotone Negative Form: No Curvature (H1, quadratic null)
 
-**M2** introduces the quadratic term FSTS_c² to test whether the negative I-P relationship is eventually reversed, i.e., whether there is any inverted-U pattern with the positive portion below our data range.
+**M2** introduces the quadratic term $\text{FSTS}_c^2$ to test whether the negative I-P relationship is eventually reversed, i.e., whether there is any inverted-U pattern with the positive portion below our data range.
 
 The results are:
-β(FSTS_c) = −0.925, SE = 0.828, p = .265 (n.s.)
-β(FSTS_c²) = +0.649, SE = 0.980, p = .508 (n.s.)
+$\beta$($\text{FSTS}_c$) = −0.925, SE = 0.828, p = .265 (n.s.)
+$\beta$($\text{FSTS}_c^2$) = +0.649, SE = 0.980, p = .508 (n.s.)
 
 Both the linear and quadratic terms lose significance when entered jointly, indicating high collinearity between the two terms in this low-FSTS sample (mean FSTS = 0.060). Importantly, the positive quadratic coefficient would imply a U-shape rather than inverted-U, a reversal of the conventional form that is itself consistent with FIP (the relationship is monotonically negative with no upward turning point within the observed range).
 
 Following Haans et al. (2016), we evaluate the four necessary conditions for a curvature relationship. All four must hold for an inverted-U to be confirmed; here, all four *fail*, which is the expected signature of FIP:
 
-- **C1** (positive slope at low FSTS): β(FSTS_c) = −0.925 (*p* = .265), **not significant and negative in sign**; no ascending limb at low FSTS values
-- **C2** (negative curvature β₂ < 0): β(FSTS_c²) = +0.649 (*p* = .508), **not significant; positive sign indicates U-shape, not inverted-U**
-- **C3** (turning point within data range): TP* = −(−0.925) / (2 × 0.649) = 0.712, **implied turning point lies outside the observed sample maximum (FSTS_max ≈ 0.80, but neither β₁ nor β₂ is statistically significant)**
+- **C1** (positive slope at low FSTS): $\beta$($\text{FSTS}_c$) = −0.925 (*p* = .265), **not significant and negative in sign**; no ascending limb at low FSTS values
+- **C2** (negative curvature $\beta_2$ < 0): $\beta$($\text{FSTS}_c^2$) = +0.649 (*p* = .508), **not significant; positive sign indicates U-shape, not inverted-U**
+- **C3** (turning point within data range): TP* = −(−0.925) / (2 $\times$ 0.649) = 0.712, **implied turning point lies outside the observed sample maximum ($\text{FSTS}_m$ax $\approx$ 0.80, but neither $\beta_1$ nor $\beta_2$ is statistically significant)**
 - **C4** (Lind–Mehlum utest, Lind & Mehlum, 2010): utest *p* = .941, **fails to reject the null of monotone negative relationship; no inverted-U detected**
 
 The pattern is **monotone negative**: consistent with H1 and the FIP structural mechanism. There is no turning point within the observed FSTS range (0–1).
@@ -179,36 +179,36 @@ We examine three additional specifications to assess the robustness of the FIP r
 
 **Specification M_yearFE (year fixed effects only)**: Removing country fixed effects, which might absorb too much structural variation, yields a substantially larger negative effect:
 
-β(FSTS) = **−1.236**, SE = 0.269, t = −4.594, p = **<.001**
+$\beta$(FSTS) = **−1.236**, SE = 0.269, t = −4.594, p = **<.001**
 
 This larger coefficient reflects the additional between-country variation in the FSTS–performance relationship. The FIP result strengthens considerably, confirming that country-level structural disadvantages compound firm-level FIP.
 
 **Specification M_bivariate**: A bivariate regression of ln_LP on FSTS (no controls) yields:
 
-β(FSTS) = **−1.596**, SE = 0.263, t = −6.062, p = **<.001**
+$\beta$(FSTS) = **−1.596**, SE = 0.263, t = −6.062, p = **<.001**
 
 The monotone negative pattern persists without any conditioning on firm characteristics, further confirming the robustness of FIP.
 
 **Exporters-only subsample** (N = 187): Among the 187 active exporters (FSTS > 0), the negative effect is:
 
-β(FSTS_c) = **−0.901**, SE = 0.398, p = **.027**
+$\beta$($\text{FSTS}_c$) = **−0.901**, SE = 0.398, p = **.027**
 
 This result is critical: even among firms that have successfully engaged in exporting, higher export intensity is associated with lower productivity. This rules out a simple selection explanation (e.g., that only low-productivity firms are excluded from exporting, driving the pooled negative correlation). Among actual exporters, intensifying exports further worsens performance, which is the hallmark of the FIP mechanism rather than of adverse selection.
 
 ### 4.5 Capability Null Results (H2)
 
-**M3** introduces TCI_z and DAI_z as additional regressors to test H2. Neither variable achieves statistical significance:
+**M3** introduces $\text{TCI}_z$ and $\text{DAI}_z$ as additional regressors to test H2. Neither variable achieves statistical significance:
 
-β(TCI_z) = +0.058, SE = 0.085, p = .495 (n.s.)
-β(DAI_z) = +0.062, SE = 0.073, p = .402 (n.s.)
+$\beta$($\text{TCI}_z$) = +0.058, SE = 0.085, p = .495 (n.s.)
+$\beta$($\text{DAI}_z$) = +0.062, SE = 0.073, p = .402 (n.s.)
 
-The FIP coefficient (FSTS_c) remains negative but loses significance in M3 (β = −0.974, p = .252), likely reflecting the substantially reduced sample (N = 526 for M3, versus N = 1,469 for M1, due to missing capability variables). The direction of the FSTS_c coefficient remains negative and numerically larger in M3, consistent with FIP; the significance loss is attributable to power reduction from the subsample restriction.
+The FIP coefficient ($\text{FSTS}_c$) remains negative but loses significance in M3 ($\beta$ = −0.974, p = .252), likely reflecting the substantially reduced sample (N = 526 for M3, versus N = 1,469 for M1, due to missing capability variables). The direction of the $\text{FSTS}_c$ coefficient remains negative and numerically larger in M3, consistent with FIP; the significance loss is attributable to power reduction from the subsample restriction.
 
-These results are consistent with H2 (non-moderation): technological capability (TCI_z: β = +0.058, SE = 0.085, p = .495) and digital adoption (DAI_z: β = +0.062, SE = 0.073, p = .402) do not statistically significantly moderate the I-P relationship in Pacific SIDS, consistent with the FIP mechanism overwhelming capability effects in structurally constrained SIDS economies. The positive point estimates for TCI_z and DAI_z, while small and non-significant, are consistent with the interpretation that capabilities raise productivity levels in general (as found in mainland Asian contexts: Goedhuys & Sleuwaegen, 2013; Teece, 2007) but cannot modify the structural negativity of the FSTS–performance relationship that FIP describes.
+These results are consistent with H2 (non-moderation): technological capability ($\text{TCI}_z$: $\beta$ = +0.058, SE = 0.085, p = .495) and digital adoption ($\text{DAI}_z$: $\beta$ = +0.062, SE = 0.073, p = .402) do not statistically significantly moderate the I-P relationship in Pacific SIDS, consistent with the FIP mechanism overwhelming capability effects in structurally constrained SIDS economies. The positive point estimates for $\text{TCI}_z$ and $\text{DAI}_z$, while small and non-significant, are consistent with the interpretation that capabilities raise productivity levels in general (as found in mainland Asian contexts: Goedhuys & Sleuwaegen, 2013; Teece, 2007) but cannot modify the structural negativity of the FSTS–performance relationship that FIP describes.
 
 ### 4.6 Summary
 
-Table 2 summarizes the full coefficient matrix. The FIP pattern is confirmed: (i) a statistically significant negative linear FSTS–performance relationship (M1: β = −0.404, p = .032); (ii) no significant quadratic curvature or turning point (M2: both FSTS_c and FSTS_c² non-significant); (iii) robustly negative across four specifications (M_yearFE: β = −1.236, p < .001; M_bivariate: β = −1.596, p < .001; exporters-only: β = −0.901, p = .027); and (iv) null capability moderation (M3: TCI_z p = .495; DAI_z p = .402).
+Table 2 summarizes the full coefficient matrix. The FIP pattern is confirmed: (i) a statistically significant negative linear FSTS–performance relationship (M1: $\beta$ = −0.404, p = .032); (ii) no significant quadratic curvature or turning point (M2: both $\text{FSTS}_c$ and $\text{FSTS}_c^2$ non-significant); (iii) robustly negative across four specifications (M_yearFE: $\beta$ = −1.236, p < .001; M_bivariate: $\beta$ = −1.596, p < .001; exporters-only: $\beta$ = −0.901, p = .027); and (iv) null capability moderation (M3: $\text{TCI}_z$ p = .495; $\text{DAI}_z$ p = .402).
 
 ---
 
@@ -234,13 +234,13 @@ The finding connects to the broader question of boundary conditions in IB theory
 
 ### 5.3 The Capability Null: Institutional Determination vs. Moderation
 
-The null results for TCI_z and DAI_z in M3 add a second dimension to the FIP theory. In mainland Asian contexts, including Vietnam, Singapore, China, and multi-country samples, technological capability and digital adoption are statistically significant moderators of the I-P relationship (Goedhuys & Sleuwaegen, 2013; Teece, 2007). Why, then, are they null in SIDS?
+The null results for $\text{TCI}_z$ and $\text{DAI}_z$ in M3 add a second dimension to the FIP theory. In mainland Asian contexts, including Vietnam, Singapore, China, and multi-country samples, technological capability and digital adoption are statistically significant moderators of the I-P relationship (Goedhuys & Sleuwaegen, 2013; Teece, 2007). Why, then, are they null in SIDS?
 
 The FIP mechanism provides the answer. Capabilities moderate *organizational complexity costs* on the descending portion of the inverted-U, but FIP operates at a structural, pre-organizational level. A SIDS firm with ISO 9001 certification (high TCI) still faces the same 30–210% trade cost amplifications; a SIDS firm with a functioning website (DAI = 1) still faces absent trade finance institutions. Capabilities that act as powerful moderators within the structural prerequisites framework become ineffective once those prerequisites do not hold.
 
 This is consistent with the resource-based view's emphasis on context-dependency (Barney, 1991): resources generate value only within institutional environments that support appropriability. Teece's (2007) dynamic capabilities framework similarly assumes functioning market mechanisms. In their absence, dynamic capabilities may be "trapped" inside the firm, unable to translate into performance advantages through international market transactions.
 
-The positive though non-significant point estimates for TCI_z and DAI_z suggest that capabilities do raise general productivity levels, consistent with their role in the broader literature, yet they cannot modify the negative directionality of the FSTS–performance relationship in the SIDS structural context. This nuance, that capabilities help the level and not the slope, may be a productive direction for future SIDS research.
+The positive though non-significant point estimates for $\text{TCI}_z$ and $\text{DAI}_z$ suggest that capabilities do raise general productivity levels, consistent with their role in the broader literature, yet they cannot modify the negative directionality of the FSTS–performance relationship in the SIDS structural context. This nuance, that capabilities help the level and not the slope, may be a productive direction for future SIDS research.
 
 ### 5.4 Policy Implications: The Antigua and Barbuda Agenda
 
@@ -270,7 +270,7 @@ Fourth, **generalizability beyond Pacific SIDS**: FIP is theorized to arise when
 
 ## 6. Conclusions
 
-This study introduced the Forced Internationalization Penalty (FIP), the monotone negative effect of internationalization intensity on firm performance when three structural prerequisites of the inverted-U relationship are absent at once: a viable domestic market, manageable trade costs, and functional institutional support. Using WBES data from 1,469 firms across nine Pacific SIDS economies, we find robust support for FIP across four empirical specifications (β = −0.404, p = .032 in the primary country-and-year fixed-effects model; β = −1.236, p < .001 without country fixed effects; β = −0.901, p = .027 in the exporters-only subsample). The quadratic term is not significant, which confirms the monotone negative form with no observable turning point. Technological capability and digital adoption, both significant in mainland Asian contexts, are null in the SIDS environment, consistent with the FIP theoretical mechanism.
+This study introduced the Forced Internationalization Penalty (FIP), the monotone negative effect of internationalization intensity on firm performance when three structural prerequisites of the inverted-U relationship are absent at once: a viable domestic market, manageable trade costs, and functional institutional support. Using WBES data from 1,469 firms across nine Pacific SIDS economies, we find robust support for FIP across four empirical specifications ($\beta$ = −0.404, p = .032 in the primary country-and-year fixed-effects model; $\beta$ = −1.236, p < .001 without country fixed effects; $\beta$ = −0.901, p = .027 in the exporters-only subsample). The quadratic term is not significant, which confirms the monotone negative form with no observable turning point. Technological capability and digital adoption, both significant in mainland Asian contexts, are null in the SIDS environment, consistent with the FIP theoretical mechanism.
 
 These findings contribute to IB theory in two ways. First, they help reorient the discourse on institutional effects from "institutional moderation of I-P intensity" toward "institutional determination of I-P sign," which establishes the inverted-U as conditional on structural prerequisites rather than universal. FIP and conventional theory are best understood as the two poles of one continuum: internationalization-to-scale, where exporting optimizes margins and the turning point is very late, and internationalization-to-survive, where firms are compelled to export despite profit-eroding logistics costs and the curve collapses to a monotone negative line. The SIDS case is valuable not because it is exotic but because it is the singularity at which the standard model breaks down and thereby reveals the prerequisites it silently assumes; FIP names that limiting regime and supplies a general boundary condition for institutional moderation theory. Second, they extend the application of "forced internationalization" beyond the SME literature into the performance-outcome domain, providing a theoretically defined and empirically grounded construct, FIP, that future research can build upon.
 
@@ -384,7 +384,7 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 *Note: Coefficients reported with heteroscedasticity-robust standard errors in parentheses. Country fixed effects absorbed in M0–M3. \*\*\* p < .001; \*\* p < .01; \* p < .05; . p < .10.*
 
-*Forced Internationalization Penalty (FIP): Confirmed, β(FSTS_c) = −0.404, p = .032 (M1).*
+*Forced Internationalization Penalty (FIP): Confirmed, $\beta$($\text{FSTS}_c$) = −0.404, p = .032 (M1).*
 
 ### Table 3. Robustness: Exporters-Only Subsample (N = 187)
 
@@ -395,4 +395,4 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 | M_yearFE full sample | −1.236 | 0.269 | <.001*** | Negative |
 | M_bivariate | −1.596 | 0.263 | <.001*** | Negative |
 
-*Note: Penalty confirmed in all specifications. Exporters-only result (β = −0.901) addresses adverse selection concern: among active exporters, intensifying exports further worsens performance.*
+*Note: Penalty confirmed in all specifications. Exporters-only result ($\beta$ = −0.901) addresses adverse selection concern: among active exporters, intensifying exports further worsens performance.*

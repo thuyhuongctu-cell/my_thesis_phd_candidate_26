@@ -26,7 +26,7 @@
 ## Tiêu chuẩn áp dụng
 
 - **Luận án + chương + tóm tắt + chuyên đề (tiếng Việt):** định dạng CTU theo Quyết định 1799/2021 (A4, Times/Liberation Serif 13pt, lề 3-2-2-2 cm, giãn dòng 1,2).
-- **Bài báo tiếng Anh (P3–P8):** chuẩn Scopus/WoS (ký hiệu chuẩn hóa, ngôn ngữ học thuật).
+- **Bài báo tiếng Anh (P3–P8):** chuẩn Scopus/WoS — biến số/ký hiệu thống kê định dạng LaTeX (β → $\beta$, R² → $R^2$, FSTS_c² × DAI_z → $\text{FSTS}_c^2 \times \text{DAI}_z$), không còn ký hiệu Unicode rời trong câu văn, không mũi tên (→ thay bằng chữ); ngôn ngữ học thuật đã kiểm.
 - **Tài liệu tham khảo:** APA 7th (297 mục, đã đối chiếu chéo với mọi trích dẫn inline).
 
 ## Trạng thái rà soát (kiểm bằng công cụ trong `scripts/`)
