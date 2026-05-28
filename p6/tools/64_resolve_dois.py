@@ -37,7 +37,8 @@ from pathlib import Path
 TRUSTED_ENRICH = {"verified", "title_match", "title_corrected"}
 OUT_FIELDS = [
     "study_id", "author", "year", "final_doi", "source", "confidence",
-    "ref_doi", "tracker_doi", "openalex_doi", "openalex_status", "corpus_doi", "n_sources_agree",
+    "ref_doi", "tracker_doi", "openalex_doi", "openalex_status", "corpus_doi",
+    "retrieval_doi", "n_sources_agree",
 ]
 
 
@@ -98,6 +99,8 @@ def main():
                     help="extraction tracker CSV(s) with authors/year/doi")
     ap.add_argument("--enriched", default="")
     ap.add_argument("--corpus-matches", default="")
+    ap.add_argument("--retrieval", default="",
+                    help="study_id-keyed retrieval master CSV (doi_verified_or_candidate, retrieval_status)")
     ap.add_argument("--apa", default="")
     ap.add_argument("--out", required=True)
     ap.add_argument("--module", default=str(Path(__file__).with_name("60_enrich_openalex_metadata.py")))
@@ -118,6 +121,13 @@ def main():
     if args.corpus_matches and Path(args.corpus_matches).exists():
         for r in csv.DictReader(open(args.corpus_matches, encoding="utf-8")):
             corpus[r["study_id"]] = r
+
+    retrieval = {}
+    if args.retrieval and Path(args.retrieval).exists():
+        for r in csv.DictReader(open(args.retrieval, encoding="utf-8")):
+            doi = (r.get("doi_verified_or_candidate") or "").strip().lower()
+            if doi:
+                retrieval[r["study_id"]] = {"doi": doi, "status": (r.get("retrieval_status") or "").strip()}
 
     seen, studies = set(), []
     for r in csv.DictReader(open(args.db, encoding="utf-8")):
@@ -172,12 +182,23 @@ def main():
         elif len(ref_dois) > 1:
             confidence, source = "review", "references_ambiguous"
 
+        # retrieval master (study_id-keyed) — fills studies no other source covered
+        rm = retrieval.get(sid, {})
+        rm_doi = rm.get("doi", "")
+        if not final_doi and rm_doi:
+            final_doi, n_agree = rm_doi, 1
+            if rm.get("status", "").lower().startswith("verified"):
+                source, confidence = "retrieval_verified", "medium"
+            else:
+                source, confidence = "retrieval_candidate", "suggested"
+
         tally[confidence] = tally.get(confidence, 0) + 1
         rows.append({
             "study_id": sid, "author": s.get("author", ""), "year": s.get("year", ""),
             "final_doi": final_doi, "source": source, "confidence": confidence,
             "ref_doi": ref_doi, "tracker_doi": trk_doi, "openalex_doi": oa_doi,
-            "openalex_status": oa_status, "corpus_doi": corpus_doi, "n_sources_agree": n_agree,
+            "openalex_status": oa_status, "corpus_doi": corpus_doi,
+            "retrieval_doi": rm_doi, "n_sources_agree": n_agree,
         })
 
     out = Path(args.out)

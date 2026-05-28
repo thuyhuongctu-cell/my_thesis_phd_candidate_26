@@ -41,11 +41,12 @@ bibliographic metadata (DOI + provenance) appended.
 
 ## Coverage (current)
 
-- **155 / 238 studies carry a DOI** (184 of 288 effect rows).
-  - high 22 · medium 74 · review 42 · suggested 21
-- **79 studies pending** — listed in `p6_doi_todo_79.csv` for manual completion.
-  Many are recent working papers, books, or dissertations that may legitimately
-  have no DOI.
+- **193 / 238 studies carry a DOI** (234 of 288 effect rows).
+  - high 22 · medium 84 · review 42 · suggested 49
+- **45 studies pending** — listed in `p6_doi_todo.csv` (41 with no DOI in any
+  source, plus a few ambiguous). The `suggested` tier (corpus + retrieval
+  candidates) should be spot-checked before publication; some recent working
+  papers, books, or dissertations may legitimately have no DOI.
 
 ## How DOIs were resolved
 
@@ -61,6 +62,9 @@ each study by exact first-author surname + year (±1) and cross-validated:
    `tools/README_openalex.md`.
 4. **OpenAlex topic-corpus exports** (`tools/results/openalex_corpus*`) — works
    matched by author + year, confirmed by title overlap.
+5. **Full-text retrieval master** (`p6_retrieval_master_79.csv`) — study_id-keyed
+   DOIs for studies not covered above; `Verified DOI / publisher page located`
+   entries are trusted (medium), `DOI candidate` entries are `suggested`.
 
 Pipeline scripts: `tools/60_enrich_openalex_metadata.py` (verify/enrich),
 `tools/63_match_corpus_dois.py` (corpus match), `tools/64_resolve_dois.py`
