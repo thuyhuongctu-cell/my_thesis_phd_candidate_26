@@ -65,7 +65,7 @@ except ImportError:
 
 OPENALEX_WORKS = "https://api.openalex.org/works"
 RATE_WAIT = 0.2  # ~5 req/sec, comfortably within the polite-pool limit
-TITLE_OVERLAP_MIN = 0.60  # min Jaccard-ish token overlap to accept a title match
+TITLE_OVERLAP_MIN = 0.50  # min score (token overlap, +0.20 if author also matches) to accept a title match
 SELECT_FIELDS = ",".join([
     "id", "doi", "display_name", "publication_year",
     "authorships", "primary_location", "cited_by_count", "open_access",
@@ -254,22 +254,45 @@ def lookup_by_doi(doi: str) -> dict | None:
     return flatten(rec) if rec else None
 
 
-def search_by_title(title: str, year: str) -> dict | None:
-    flt = f"title.search:{title}"
+def _year_filter(year: str) -> str:
     if year.isdigit():
         y = int(year)
-        flt += f",publication_year:{y - 1}-{y + 1}"
-    params = base_params() | {"filter": flt, "per-page": 5}
-    data = get_json(OPENALEX_WORKS, params)
-    if not data:
+        return f"publication_year:{y - 1}-{y + 1}"
+    return ""
+
+
+def search_by_title(title: str, year: str, want_author: str = "") -> dict | None:
+    """Find a work by title. Two passes (precise title.search, then broader
+    full-text search=), 25 results each, year +/-1. The best match is chosen by
+    token overlap, boosted when an author surname also matches — so a correct
+    paper with a slightly different indexed title still wins over same-topic
+    decoys."""
+    if not title:
         return None
-    best, best_ov = None, 0.0
-    for rec in data.get("results", []):
-        ov = title_overlap(title, rec.get("display_name", ""))
-        if ov > best_ov:
-            best, best_ov = flatten(rec), ov
-    if best and best_ov >= TITLE_OVERLAP_MIN:
-        best["_title_overlap"] = round(best_ov, 2)
+    yf = _year_filter(year)
+    recs: list[dict] = []
+    # pass 1 — precise title search
+    p = base_params() | {"filter": f"title.search:{title}" + (f",{yf}" if yf else ""), "per-page": 25}
+    d = get_json(OPENALEX_WORKS, p)
+    if d:
+        recs += d.get("results", [])
+    # pass 2 — broader search (title + abstract); helps when the title is indexed differently
+    p = base_params() | {"search": title, "per-page": 25}
+    if yf:
+        p["filter"] = yf
+    d = get_json(OPENALEX_WORKS, p)
+    if d:
+        recs += d.get("results", [])
+
+    best, best_score = None, 0.0
+    for rec in recs:
+        flat = flatten(rec)
+        ov = title_overlap(title, flat["oa_title"])
+        score = ov + (0.20 if want_author and author_matches(want_author, flat) else 0.0)
+        if score > best_score:
+            flat["_title_overlap"] = round(ov, 2)
+            best, best_score = flat, score
+    if best and best_score >= TITLE_OVERLAP_MIN:
         return best
     return None
 
@@ -280,8 +303,8 @@ def search_by_author_year(author: str, year: str) -> dict | None:
         return None
     params = base_params() | {
         "search": sn,
-        "filter": f"publication_year:{year}",
-        "per-page": 5,
+        "filter": _year_filter(year),
+        "per-page": 25,
     }
     data = get_json(OPENALEX_WORKS, params)
     if not data:
@@ -361,12 +384,12 @@ def main():
             # match)? The APA knowledge-based fallback fabricated some DOIs — try
             # to recover the correct paper by its title before giving up.
             if hit and cand_title and not author_matches(s["author"], hit):
-                alt = search_by_title(cand_title, s["year"])
+                alt = search_by_title(cand_title, s["year"], s["author"])
                 time.sleep(RATE_WAIT)
                 if alt and author_matches(s["author"], alt):
                     hit, method = alt, "title_corrected"
         if not hit and cand_title:
-            hit = search_by_title(cand_title, s["year"]); method = "title"
+            hit = search_by_title(cand_title, s["year"], s["author"]); method = "title"
             time.sleep(RATE_WAIT)
         if not hit:
             hit = search_by_author_year(s["author"], s["year"]); method = "author_year"
