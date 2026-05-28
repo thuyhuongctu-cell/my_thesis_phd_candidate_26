@@ -22,6 +22,13 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: write
+    # Pass dispatch inputs through env (never interpolate ${{ inputs }} directly
+    # into a run: script — GitHub expands it before the shell, enabling command
+    # injection). Reference them only as quoted "$VARS" below.
+    env:
+      GAP_FILE: ${{ github.event.inputs.gap_file }}
+      OUTPUT_FILE: ${{ github.event.inputs.output_file }}
+      DELAY: ${{ github.event.inputs.delay }}
 
     steps:
       - name: Checkout branch
@@ -38,20 +45,32 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Validate inputs
+        run: |
+          # Filenames only (no path separators, no parent escapes); numeric delay.
+          for f in "$GAP_FILE" "$OUTPUT_FILE"; do
+            case "$f" in
+              */*|*..*) echo "Filename input must not contain a path, got: $f"; exit 1 ;;
+            esac
+          done
+          case "$DELAY" in
+            ''|*[!0-9.]*) echo "delay must be numeric, got: $DELAY"; exit 1 ;;
+          esac
+
       - name: Verify inputs and environment
         run: |
           echo "=== Environment check ==="
-          echo "Gap input file : p6/tools/results/${{ github.event.inputs.gap_file }}"
-          echo "Output file    : p6/tools/results/${{ github.event.inputs.output_file }}"
-          echo "Delay          : ${{ github.event.inputs.delay }}"
+          echo "Gap input file : p6/tools/results/$GAP_FILE"
+          echo "Output file    : p6/tools/results/$OUTPUT_FILE"
+          echo "Delay          : $DELAY"
           echo ""
           echo "=== Input file check ==="
-          ls -lh "p6/tools/results/${{ github.event.inputs.gap_file }}" || {
+          ls -lh "p6/tools/results/$GAP_FILE" || {
             echo "ERROR: Gap input file not found!"
             ls p6/tools/results/ | head -20
             exit 1
           }
-          echo "Input rows: $(tail -n +2 "p6/tools/results/${{ github.event.inputs.gap_file }}" | wc -l)"
+          echo "Input rows: $(tail -n +2 "p6/tools/results/$GAP_FILE" | wc -l)"
           echo ""
           echo "=== Existing OA manifests ==="
           ls p6/tools/results/oa_manifest_*.csv 2>/dev/null || echo "(none found)"
@@ -64,19 +83,19 @@ jobs:
         run: |
           echo "=== Querying Unpaywall ==="
           python3 p6/tools/39_query_unpaywall.py \
-            --input  "p6/tools/results/${{ github.event.inputs.gap_file }}" \
-            --output "p6/tools/results/${{ github.event.inputs.output_file }}" \
+            --input  "p6/tools/results/$GAP_FILE" \
+            --output "p6/tools/results/$OUTPUT_FILE" \
             --priority "1_DOI_FIRST" \
-            --delay  "${{ github.event.inputs.delay }}"
+            --delay  "$DELAY"
           echo ""
           echo "=== Output file ==="
-          ls -lh "p6/tools/results/${{ github.event.inputs.output_file }}" || echo "WARNING: output file not created"
-          ROWS=$(tail -n +2 "p6/tools/results/${{ github.event.inputs.output_file }}" 2>/dev/null | wc -l || echo 0)
+          ls -lh "p6/tools/results/$OUTPUT_FILE" || echo "WARNING: output file not created"
+          ROWS=$(tail -n +2 "p6/tools/results/$OUTPUT_FILE" 2>/dev/null | wc -l || echo 0)
           echo "Rows written: $ROWS"
 
       - name: Merge gap manifest into full manifest
         run: |
-          GAP="p6/tools/results/${{ github.event.inputs.output_file }}"
+          GAP="p6/tools/results/$OUTPUT_FILE"
           if [ -f "$GAP" ]; then
             echo "=== Merging manifests ==="
             ls p6/tools/results/oa_manifest_*.csv 2>/dev/null || echo "(no existing manifests)"
@@ -95,7 +114,7 @@ jobs:
         run: |
           # Use Python csv to count correctly — awk -F',' miscounts because
           # title/journal fields contain commas, which shifts columns.
-          python3 - "p6/tools/results/${{ github.event.inputs.output_file }}" <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          python3 - "p6/tools/results/$OUTPUT_FILE" <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import csv, sys
           path = sys.argv[1]
           try:
@@ -118,11 +137,11 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           echo "Remote: $(git remote get-url origin 2>/dev/null || echo unknown)"
-          git add "p6/tools/results/${{ github.event.inputs.output_file }}" || true
+          git add "p6/tools/results/$OUTPUT_FILE" || true
           git add p6/tools/results/oa_manifest_merged.csv || true
           git status --short
           git diff --cached --quiet && echo "Nothing to commit." || \
-            git commit -m "feat(p6): Unpaywall gap fill - ${{ github.event.inputs.gap_file }} [$(date +%Y%m%d)]"
+            git commit -m "feat(p6): Unpaywall gap fill - $GAP_FILE [$(date +%Y%m%d)]"
           git push origin claude/edit-vietnamese-academic-standards-xcAmn || {
             echo "Push failed (exit $?). Trying with --force-with-lease..."
             git push --force-with-lease origin claude/edit-vietnamese-academic-standards-xcAmn || \
