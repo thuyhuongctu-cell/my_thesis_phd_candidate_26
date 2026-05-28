@@ -1,0 +1,239 @@
+study_id,author,year,enrich_status,enrich_doi,corpus_doi,corpus_title,corpus_journal,corpus_year,n_candidates,title_overlap,match_confidence,agrees_enrich
+S01,Siddharthan & Lall,1982,verified,10.1111/j.1468-0084.1982.mp44001001.x,,,,,0,,no_corpus_match,no
+S02,Grant,1987,author_year_guess,,,,,,0,,no_corpus_match,no
+S03,Sambharya,1995,not_found,,,,,,0,,no_corpus_match,no
+S04,McDougall & Oviatt,1996,verified,10.1016/0883-9026(95)00081-x,10.1016/0883-9026(95)00081-x,"New venture internationalization, strategic change, and performance: A follow-up study",Journal of Business Venturing,1996,1,1.0,confirmed_title,yes
+S05,Tallman & Li,1996,author_year_guess,10.2307/40157567,10.2307/256635,EFFECTS OF INTERNATIONAL DIVERSITY AND PRODUCT DIVERSITY ON THE PERFORMANCE OF MULTINATIONAL FIRMS.,Academy of Management Journal,1996,2,0.0,candidate_multi,no
+S06,Hitt et al.,1997,author_year_guess,10.5465/amr.1998.533223,,,,,0,,no_corpus_match,no
+S07,Wan,1998,author_year_guess,,,,,,0,,no_corpus_match,no
+S08,Gomes & Ramaswamy,1999,not_found,,,,,,0,,no_corpus_match,no
+S09,Li,2001,author_year_guess,10.1149/1.1467947,10.2139/ssrn.305119,Firms' Clustering and South-Eastern-Europe Export Performance: Lessons from the Italian Experience,SSRN Electronic Journal,2002,2,0.0,candidate_multi,no
+S10,Qian,2002,title_match,10.1016/s0883-9026(01)00080-5,,,,,0,,no_corpus_match,no
+S11,Capar & Kotabe,2003,verified,10.1057/palgrave.jibs.8400036,,,,,0,,no_corpus_match,no
+S12,Hsu & Boggs,2003,author_year_guess,10.1097/00003081-200206000-00004,10.1108/1525383x200300015,Internationalization and Performance: Traditional Measures and Their Decomposition,Multinational Business Review,2003,1,0.0,candidate_unique,no
+S13,Ruigrok & Wagner,2003,title_match,,,,,,0,,no_corpus_match,no
+S14,Majocchi & Zucchella,2003,not_found,,10.1177/02662426030213001,Internationalization and Performance,International Small Business Journal Researching Entrepreneurship,2003,1,0.38,candidate_unique,no
+S15,Carpenter & Sanders,2004,verified,10.1016/j.jm.2004.02.001,10.1016/j.jm.2004.02.001,The Effects of Top Management Team Pay and Firm Internationalization on MNC Performance,Journal of Management,2004,1,1.0,confirmed_title,yes
+S16,Kim et al.,2004,author_year_guess,10.1177/0363546504272687,10.21739/ibr.2005.12.9.2.381,A Study on the Relationship Between Multinationality and Firm Performance,INTERNATIONAL BUSINESS REVIEW,2005,1,0.0,candidate_unique,no
+S17,Lu & Beamish,2004,author_year_guess,10.1016/s0012-821x(04)00012-3,10.2139/ssrn.2125834,Introduction to the Volume 'Local Economies and Internationalization in Italy',SSRN Electronic Journal,2003,2,0.0,candidate_multi,no
+S18,Thomas & Eden,2004,verified,10.1108/1525383x200400005,,,,,0,,no_corpus_match,no
+S19,Chiao et al.,2006,verified,10.1007/s11187-005-5604-6,10.1007/s11187-005-5604-6,"Performance, Internationalization, and Firm-specific Advantages of SMEs in a Newly-Industrialized Economy",Small Business Economics,2006,1,1.0,confirmed_title,yes
+S20,Elango,2006,doi_mismatch_check,10.1108/1525383x200600015,10.1108/1525383x200600002,An Empirical Analysis of the Internationalization‐Performance Relationship Across Emerging Market Firms,Multinational Business Review,2006,1,0.5,candidate_unique,no
+S21,Hsu,2006,author_year_guess,10.1145/1066340.1066343,10.1016/j.omega.2006.06.004,Internationalization and performance: The moderating effects of organizational learning,Omega,2006,2,0.0,candidate_multi,no
+S22,Thomas,2006,title_corrected,10.1016/j.jbusres.2005.08.008,,,,,0,,no_corpus_match,no
+S23,Chari et al.,2007,title_corrected,10.1016/j.jwb.2007.02.004,,,,,0,,no_corpus_match,no
+S24,Fortanier et al.,2007,author_year_guess,,,,,,0,,no_corpus_match,no
+S25,Kumar & Gaur,2007,title_match,10.1002/tie.20217,10.1002/tie.20217,Internationalization and performance of Indian pharmaceutical firms,Thunderbird International Business Review,2008,6,0.83,confirmed_title,yes
+S26,Ruigrok et al.,2007,title_match,10.1007/s11575-007-0020-6,10.1007/s11575-007-0020-6,The internationalization-performance relationship at Swiss firms: A test of the S-shape and extreme degrees of internationalization,Management International Review,2007,1,1.0,confirmed_title,yes
+S27,Richter,2007,not_found,,,,,,0,,no_corpus_match,no
+S28,Vilas-Boas & González,2007,title_match,10.1300/j037v16n01_07,,,,,0,,no_corpus_match,no
+S29,Bae et al.,2008,verified,10.1108/1525383x200800003,10.1016/j.ribaf.2008.03.004,"Internationalization, product development and performance outcomes: A comparative study of 10 countries",Research in International Business and Finance,2008,1,0.22,candidate_unique,no
+S30,Brock & Yaffe,2008,title_corrected,10.1016/j.ibusrev.2008.07.003,,,,,0,,no_corpus_match,no
+S31,Kumar & Singh,2008,title_match,10.1002/tie.20217,10.1002/tie.20217,Internationalization and performance of Indian pharmaceutical firms,Thunderbird International Business Review,2008,6,1.0,confirmed_title,yes
+S32,Pangarkar,2008,author_year_guess,10.1159/000325530,10.1016/j.jwb.2007.11.009,Internationalization and performance of small- and medium-sized enterprises,Journal of World Business,2007,1,0.0,candidate_unique,no
+S33,Qian et al.,2008,author_year_guess,10.1103/physrevlett.101.089704,,,,,0,,no_corpus_match,no
+S34,Garbe & Richter,2009,doi_mismatch_check,10.1016/j.intman.2009.01.003,,,,,0,,no_corpus_match,no
+S35,Gaur & Kumar,2009,title_match,10.1111/j.1467-8551.2007.00558.x,10.1111/j.1467-8551.2007.00558.x,"International Diversification, Business Group Affiliation and Firm Performance: Empirical Evidence from India<sup>*</sup>",British Journal of Management,2008,3,0.92,confirmed_title,yes
+S36,Pattnaik & Elango,2009,title_corrected,10.1108/1525383x200900010,10.1108/1525383x200900010,The Impact of Firm Resources on the Internationalization and Performance Relationship: A Study of Indian Manufacturing Firms,Multinational Business Review,2009,1,1.0,confirmed_title,yes
+S37,Ciszewska-Mlinaric & Mlinaric,2010,doi_mismatch_check,10.2478/v10051-010-0017-y,,,,,0,,no_corpus_match,no
+S38,Chao & Kumar,2010,verified,10.1016/j.jwb.2009.04.005,,,,,0,,no_corpus_match,no
+S39,Chen & Hsu,2010,author_year_guess,10.1021/cr1001645,10.1016/j.jwb.2010.10.022,Region effects in the internationalization–performance relationship in Chinese firms,Journal of World Business,2010,4,0.0,candidate_multi,no
+S40,Pan et al.,2010,not_found,,10.5897/ajbm.9000363,Internationalization and firm performance: Exploring the moderating effects of regional diversification,AFRICAN JOURNAL OF BUSINESS MANAGEMENT,2010,1,0.0,candidate_unique,no
+S41,Nielsen,2010,not_found,,10.1108/s1571-5027(2010)00000230028,A multilevel approach to understanding the multinationality–performance relationship,Advances in international management,2010,1,0.0,candidate_unique,no
+S42,Chiao & Yang,2011,author_year_guess,10.1038/nature11011,,,,,0,,no_corpus_match,no
+S43,Endo & Ozaki,2011,doi_mismatch_check,10.1057/abm.2011.27,,,,,0,,no_corpus_match,no
+S44,Lin et al.,2011,author_year_guess,10.1016/j.tourman.2010.01.018,10.2139/ssrn.1692583,Internationalization Strategy and Performance of Small and Medium Sized Enterprises,SSRN Electronic Journal,2010,6,0.0,candidate_multi,no
+S45,Zhang & Toppinen,2011,author_year_guess,,10.1505/ifor.13.1.96,Internationalization and financial performance in the global forest industry,The International Forestry Review,2011,1,0.0,candidate_unique,no
+S46,Assaf et al.,2012,doi_mismatch_check,10.1016/j.ijhm.2011.05.003,10.1016/j.jretai.2011.11.005,Internationalization and Performance of Retail Firms: A Bayesian Dynamic Model,Journal of Retailing,2012,1,0.25,candidate_unique,no
+S47,Almodóvar,2012,doi_mismatch_check,10.1111/1467-8551.12048,10.1108/15253831211286246,The international performance of standardizing and customizing Spanish firms,Multinational Business Review,2012,1,0.62,confirmed_title,no
+S48,Chang et al.,2012,author_year_guess,10.1126/science.1234414,10.1016/j.intman.2012.12.003,Internationalization and Performance of Firms in China: Moderating Effects of Governance Structure and the Degree of Centralized Control,Journal of International Management,2013,1,0.0,candidate_unique,no
+S49,Chen & Tan,2012,author_year_guess,10.1142/s021812741103060x,10.1016/j.jwb.2012.06.001,Internationalization and firm performance of SMEs: The moderating effects of CEO attributes,Journal of World Business,2012,9,0.0,candidate_multi,no
+S50,Li et al.,2012,author_year_guess,10.1039/c1ee01598b,10.1016/j.ibusrev.2013.03.001,Upstream internationalization process: Roles of social capital in creating exploratory capability and market performance,International Business Review,2013,35,0.0,candidate_multi,no
+S51,Pan & Tsai,2012,not_found,,10.1016/j.ibusrev.2012.01.006,Learning by exporting: Lessons from high-technology SMEs,International Business Review,2012,1,0.0,candidate_unique,no
+S52,Polat & Mutlu,2012,author_year_guess,10.16951/iibd.64620,,,,,0,,no_corpus_match,no
+S53,Tsao & Chen,2012,not_found,,,,,,0,,no_corpus_match,no
+S54,Fernhaber,2013,verified,10.1016/j.jbusvent.2012.05.002,,,,,0,,no_corpus_match,no
+S55,Hsu et al.,2013,author_year_guess,10.1038/nature12289,10.1016/j.jwb.2012.06.001,Internationalization and firm performance of SMEs: The moderating effects of CEO attributes,Journal of World Business,2012,5,0.0,candidate_multi,no
+S56,Lee,2013,author_year_guess,10.1126/science.1228604,10.1108/ijchm-09-2012-0173,A synergy effect of internationalization and firm size on performance,International Journal of Contemporary Hospitality Management,2013,5,0.38,candidate_multi,no
+S57,Tsao & Lien,2013,not_found,,,,,,0,,no_corpus_match,no
+S58,Xiao et al.,2013,author_year_guess,10.3109/13880209.2012.761243,10.1016/j.intman.2012.12.003,Internationalization and Performance of Firms in China: Moderating Effects of Governance Structure and the Degree of Centralized Control,Journal of International Management,2013,5,0.0,candidate_multi,no
+S59,De Jong & van Houten,2014,author_year_guess,10.1038/nprot.2013.084,10.1108/ijchm-09-2012-0173,A synergy effect of internationalization and firm size on performance,International Journal of Contemporary Hospitality Management,2013,37,0.0,candidate_multi,no
+S60,Hilmersson,2014,title_match,10.1177/0266242613497744,,,,,0,,no_corpus_match,no
+S61,Graves & Shan,2014,title_match,10.1177/0894486513491588,,,,,0,,no_corpus_match,no
+S62,Lee et al.,2014,author_year_guess,10.1007/s10894-014-9683-8,10.1108/ijchm-09-2012-0173,A synergy effect of internationalization and firm size on performance,International Journal of Contemporary Hospitality Management,2013,5,0.75,confirmed_title,no
+S63,Zhou & Wu,2014,title_corrected,10.1016/j.jwb.2013.10.001,10.1509/jim.13.0131,Entrepreneurial Strategic Posture and Performance in Foreign Markets: The Critical Role of International Learning Effort,Journal of International Marketing,2014,1,0.31,candidate_unique,no
+S64,Nguyen & Rugman,2015,author_year_guess,10.9734/ijpss/2015/18573,10.1017/mor.2016.13,Rethinking the Literature on the Performance of Chinese Multinational Enterprises,Management and Organization Review,2016,1,0.0,candidate_unique,no
+S65,Ren et al.,2015,author_year_guess,10.1007/s12275-015-5046-z,10.1371/journal.pone.0162175,EO-Performance relationships in Reverse Internationalization by Chinese Global Startup OEMs: Social Networks and Strategic Flexibility,PLoS ONE,2016,7,0.0,candidate_multi,no
+S66,Chen et al.,2015,author_year_guess,10.1016/j.ijrefrig.2014.09.008,10.1016/j.jclepro.2015.12.105,The linkages between internationalization and environmental strategies of multinational construction firms,Journal of Cleaner Production,2016,9,0.0,candidate_multi,no
+S67,Da Huo & Hung,2015,author_year_guess,10.1590/0102-311x00133213,10.17230/ad-minister.29.1,Internationalization and firm performance in Chindia: a meta-analytic review,AD-minister,2016,36,0.0,candidate_multi,no
+S68,Benito-Osorio et al.,2015,doi_mismatch_check,10.1016/j.ibusrev.2015.03.003,,,,,0,,no_corpus_match,no
+S69,Altaf & Shah,2016,author_year_guess,10.18632/oncotarget.6961,10.1016/j.psrb.2016.05.002,Internationalization and firm performance of Indian firms: Does product diversity matter?,Pacific Science Review B Humanities and Social Sciences,2015,1,0.3,candidate_unique,no
+S70,Assaf et al.,2016,doi_mismatch_check,10.1016/j.annals.2015.12.008,,,,,0,,no_corpus_match,no
+S71,Berry & Kaul,2016,doi_mismatch_check,10.1002/smj.2429,10.1002/smj.2567,Replicating the multinationality‐performance relationship: Is there an S‐curve?,Strategic Management Journal,2016,1,0.0,candidate_unique,no
+S72,Brida et al.,2016,author_year_guess,,10.1016/j.tmp.2015.12.016,The inverted-U relationship between the degree of internationalization and the performance: The case of Spanish hotel chains,Tourism Management Perspectives,2016,1,0.17,candidate_unique,no
+S73,Cantele et al.,2016,author_year_guess,10.1242/jcs.183244,,,,,0,,no_corpus_match,no
+S74,Miller et al.,2016,title_corrected,10.1016/j.ibusrev.2015.12.003,10.1016/j.ibusrev.2015.12.003,"International intensity, diversity, and distance: Unpacking the internationalization–performance relationship",International Business Review,2015,1,1.0,confirmed_title,yes
+S75,Mohr & Batsakis,2016,title_match,10.1007/s11575-016-0284-9,10.1007/s11575-016-0284-9,Internationalization Speed and Firm Performance: A Study of the Market-Seeking Expansion of Retail MNEs,Management International Review,2016,1,1.0,confirmed_title,yes
+S76,Upadhyayula et al.,2016,author_year_guess,10.1039/c5sc90020d,,,,,0,,no_corpus_match,no
+S77,Borda et al.,2017,title_match,10.1016/j.jbusres.2016.11.006,,,,,0,,no_corpus_match,no
+S78,Buckley & Tian,2017,not_found,,,,,,0,,no_corpus_match,no
+S79,Ganvir & Dwivedi,2017,author_year_guess,10.1007/s11666-017-0682-y,10.1108/ijoem-12-2014-0207,Internationalization and performance of Indian born globals,International Journal of Emerging Markets,2017,1,0.38,candidate_unique,no
+S80,Jin et al.,2017,author_year_guess,10.1016/j.agrformet.2018.03.002,10.1371/journal.pone.0162175,EO-Performance relationships in Reverse Internationalization by Chinese Global Startup OEMs: Social Networks and Strategic Flexibility,PLoS ONE,2016,4,0.0,candidate_multi,no
+S81,Nosi et al.,2017,doi_mismatch_check,10.7433/s102.2017.04,10.14596/pisb.243,No need to choose between innovation and internationalization: when pursuing two strategies at a time leads to firm superior performance,Use Siena air (University of Siena),2017,1,0.27,candidate_unique,no
+S82,Purkayastha et al.,2017,title_corrected,10.1016/j.jwb.2016.11.004,10.1007/s10490-016-9489-5,Business group heterogeneity and the internationalization-performance relationship: Evidence from Indian business groups,Asia Pacific Journal of Management,2016,4,0.58,candidate_multi,no
+S83,Abdi & Aulakh,2018,not_found,,10.1057/s41267-018-0146-8,"Internationalization and performance: Degree, duration, and scale of operations",Journal of International Business Studies,2018,1,0.78,confirmed_title,no
+S84,Booltink & Saka-Helmhout,2018,doi_mismatch_check,10.1111/jsbm.12393,10.1177/0266242617707566,The effects of R&amp;D intensity and internationalization on the performance of non-high-tech SMEs,International Small Business Journal Researching Entrepreneurship,2017,1,0.55,candidate_unique,no
+S85,Cho & Lee,2018,author_year_guess,10.1016/s1470-2045(18)30578-3,10.1007/s11575-019-00381-y,Age Matters: The Contingency of Economic Distance and Economic Freedom in Emerging Market Firm’s Cross-Border M&amp;A Performance,Management International Review,2019,7,0.0,candidate_multi,no
+S86,Pouresmaeili et al.,2018,author_year_guess,10.2147/tcrm.s138000,,,,,0,,no_corpus_match,no
+S87,Hojnik et al.,2018,author_year_guess,10.17323/2500-2597.2017.3.103.111,10.1016/j.jclepro.2017.10.111,Internationalization and economic performance: The mediating role of eco-innovation,Journal of Cleaner Production,2017,1,0.78,confirmed_title,no
+S88,Thi Ngoc Huynh et al.,2018,author_year_guess,10.1039/c9nj03556g,10.3390/jrfm12030144,"Internationalization, Strategic Slack Resources, and Firm Performance: The Case Study of Vietnamese Enterprises",Journal of risk and financial management,2019,6,0.0,candidate_multi,no
+S89,Velez-Calle et al.,2018,doi_mismatch_check,10.1108/ijoem-11-2016-0298,,,,,0,,no_corpus_match,no
+S90,Zhou,2018,doi_mismatch_check,10.1080/00036846.2017.1321839,10.1108/cms-04-2017-0098,Internationalization and performance: evidence from Chinese firms,Chinese Management Studies,2018,2,0.25,candidate_multi,no
+S91,Sun et al.,2018,author_year_guess,10.1111/nph.15796,10.1057/s41267-018-0166-4,Network centrality and organizational aspirations: A behavioral interaction in the context of international strategic alliances,Journal of International Business Studies,2018,7,0.0,candidate_multi,no
+S92,Feng et al.,2019,author_year_guess,10.18653/v1/2020.findings-emnlp.139,10.1108/ijoem-10-2019-0824,EMNC technological competence creation: key mechanisms and innovative performance,International Journal of Emerging Markets,2020,3,0.0,candidate_multi,no
+S93,Juniati et al.,2019,author_year_guess,,,,,,0,,no_corpus_match,no
+S94,Lee et al.,2019,author_year_guess,10.18653/v1/n19-1423,10.1177/1938965520958703,The Effect of Internationalization on Firm Performance: A Moderating Role of Heterogeneity in TMTs’ Nationality,Cornell Hospitality Quarterly,2020,10,0.5,candidate_multi,no
+S95,Meyer et al.,2019,not_found,,10.18461/ijfsd.v10i4.22,Internationalization Strategies in the German Dairy Industry and their Influence on the Economic Performance of Firms,International journal on food system dynamics,2019,1,0.0,candidate_unique,no
+S96,Tashman et al.,2019,author_year_guess,,10.1016/j.ibusrev.2019.03.003,Firm-specific assets and the internationalization–performance relationship in the U.S. movie studio industry,International Business Review,2019,1,0.21,candidate_unique,no
+S97,Woo et al.,2019,author_year_guess,10.1136/ejhpharm-2018-001515,10.3390/joitmc5030052,Intangible Resources and Internationalization for the Innovation Performance of Chinese High-Tech Firms,Journal of Open Innovation Technology Market and Complexity,2019,6,0.0,candidate_multi,no
+S98,Kim et al.,2020,author_year_guess,10.1002/mp.13784,10.3390/joitmc5030052,Intangible Resources and Internationalization for the Innovation Performance of Chinese High-Tech Firms,Journal of Open Innovation Technology Market and Complexity,2019,8,0.0,candidate_multi,no
+S99,Phan et al.,2020,author_year_guess,10.5751/es-12625-260319,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,10,0.0,candidate_multi,no
+S100,Tu et al.,2020,author_year_guess,10.2147/ijwh.s205231,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,13,0.0,candidate_multi,no
+S101,Freixanet & Rialp,2021,author_year_guess,10.5093/anyes2022a15,10.1002/gsj.1412,"Disentangling the relationship between internationalization, incremental and radical innovation, and firm performance",Global Strategy Journal,2021,2,0.0,candidate_multi,no
+S102,Kongkaew et al.,2021,author_year_guess,10.1038/s41598-020-79237-7,10.3390/ijfs9030037,Moderating Effects of Founders’ Role on the Influence of Internationalization on IPO Performance of Listed Companies in Thailand,International Journal of Financial Studies,2021,1,0.17,candidate_unique,no
+S103,Nath et al.,2021,author_year_guess,10.7324/jabb.2022.105ed,10.17762/ijnpme.v10i03.127,Data Mining in Product Cycle Prediction of Company Mergers,International Journal of New Practices in Management and Engineering,2022,4,0.0,candidate_multi,no
+S104,Tu et al.,2021,not_found,,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,17,0.0,candidate_multi,no
+S105,Tu,2021,not_found,,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,17,0.0,candidate_multi,no
+S106,Tu & Anh,2021,not_found,,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,17,0.0,candidate_multi,no
+S107,Song & Lee,2021,author_year_guess,10.1038/s41562-022-01410-x,10.7275/x78z-g422,Impacts of COVID-19 on the U.S. Restaurant Industry from the Global Perspective,Scholarworks (University of Massachusetts Amherst),2021,7,0.0,candidate_multi,no
+S108,Wei & Lin,2021,author_year_guess,10.1016/j.jhydrol.2020.125287,10.1155/2021/5528972,The Relationship between Extent of Internationalization and Firm Performance (Taiwan 1992–2017),Mathematical Problems in Engineering,2021,9,0.0,candidate_multi,no
+S109,Purkayastha & Gupta,2022,doi_mismatch_check,10.1016/j.ibusrev.2021.101968,10.1007/s10490-022-09809-w,Business group affiliation and entrepreneurial orientation: Contingent effect of level of internationalization and firm’s performance,Asia Pacific Journal of Management,2022,1,0.5,candidate_unique,no
+S110,Putri & Pan,2022,author_year_guess,10.34305/jmc.v1i02.266,,,,,0,,no_corpus_match,no
+S111,Daniels & Bracker,1989,doi_mismatch_check,10.1017/mor.2020.39,,,,,0,,no_corpus_match,no
+S112,"Geringer, Beamish & daCosta",1989,doi_mismatch_check,10.2991/aebmr.k.200127.085,,,,,0,,no_corpus_match,no
+S113,"Kim, Hwang & Burgers",1993,doi_mismatch_check,10.1108/cr-03-2019-0028,,,,,0,,no_corpus_match,no
+S114,Sullivan,1994,doi_mismatch_check,10.5267/j.dsl.2020.7.001,,,,,0,,no_corpus_match,no
+S115,Ramaswamy,1995,doi_mismatch_check,10.1061/(asce)me.1943-5479.0000736,,,,,0,,no_corpus_match,no
+S116,Delios & Beamish,1999,doi_mismatch_check,10.15678/eber.2021.090206,,,,,0,,no_corpus_match,no
+S117,Lu & Beamish,2001,doi_mismatch_check,10.24136/oc.2021.003,10.1002/smj.184,The internationalization and performance of SMEs,Strategic Management Journal,2001,1,0.2,candidate_unique,no
+S118,"Contractor, Kundu & Hsu",2003,doi_mismatch_check,10.1111/1467-8551.12560,,,,,0,,no_corpus_match,no
+S119,"Bloodgood, Sapienza & Almeida",1996,doi_mismatch_check,10.1155/2021/5528972,,,,,0,,no_corpus_match,no
+S120,Pangarkar & Yuan,2009,doi_mismatch_check,10.1371/journal.pone.0263674,,,,,0,,no_corpus_match,no
+S121,"Gaur, Kumar & Singh",2014,doi_mismatch_check,10.1007/s11575-022-00464-3,10.1007/s11575-015-0240-0,International Diversification of Emerging Market Firms: The Role of Ownership Structure and Group Affiliation,Management International Review,2015,1,0.17,candidate_unique,no
+S122,Luo & Tung,2015,doi_mismatch_check,10.2307/1556420,10.1016/j.jwb.2015.06.001,How valuable is information and communication technology? A study of emerging economy enterprises,Journal of World Business,2015,1,0.06,candidate_unique,no
+S123,"García-García, García-Canal & Guillén",2017,not_found,,10.1016/j.jwb.2016.09.005,Rapid internationalization and long-term performance: The knowledge link,Journal of World Business,2016,1,0.1,candidate_unique,no
+S124,"Klier, Schwens, Zapkau & Dikova",2017,doi_mismatch_check,10.2307/1556406,,,,,0,,no_corpus_match,no
+S125,Arte & Larimo,2022,doi_mismatch_check,10.1016/j.jwb.2006.08.004,10.1111/caje.12626,Internationalization strategies of multi‐product firms: The role of technology,Canadian Journal of Economics/Revue canadienne d économique,2022,2,0.14,candidate_multi,no
+S126,"Schmuck, Lagerström & Sallis",2022,doi_mismatch_check,10.1111/1540-8520.271003,10.1007/s11575-022-00464-3,Turning the Tables: The Relationship Between Performance and Multinationality,Management International Review,2022,1,0.18,candidate_unique,no
+S127,"Bhandari, Zámborský, Ranta & Salo",2023,doi_mismatch_check,10.1016/j.ibusrev.2010.02.003,10.1016/j.intman.2022.100927,Internationalization of R&amp;D and Innovation Performance in the Pharma Industry,Journal of International Management,2022,2,0.44,candidate_multi,no
+S128,Kafouros et al.,2023,author_year_guess,10.1111/jpim.12623,,,,,0,,no_corpus_match,no
+S129,"Freixanet, Renart & Segarra-Blasco",2022,doi_mismatch_check,10.3390/jrfm12030144,10.1002/gsj.1412,"Disentangling the relationship between internationalization, incremental and radical innovation, and firm performance",Global Strategy Journal,2021,2,0.36,candidate_multi,no
+S130,"Shin, Kim & Seol",2022,doi_mismatch_check,10.1080/00472778.2021.1955124,10.35611/jkt.2021.25.7.1,Degree of Internationalization and Performance of High-tech Small and Mediumsized Enterprises: Evidence from Korea,Journal of Korea Trade,2021,2,0.17,candidate_multi,no
+S131,Dobbs & Hamilton,2007,doi_mismatch_check,10.1016/j.gfj.2022.100753,,,,,0,,no_corpus_match,no
+S132,Almodovar & Rugman,2014,not_found,,,,,,0,,no_corpus_match,no
+S133,"Lin, Liu & Cheng",2011,doi_mismatch_check,10.1007/s40821-024-00276-5,10.1016/j.intman.2010.12.004,The internationalization and performance of a firm: Moderating effect of a firm's behavior,Journal of International Management,2011,6,0.5,candidate_multi,no
+S134,Pinheiro-Alves,2011,not_found,,,,,,0,,no_corpus_match,no
+S135,Guo et al.,2020,doi_mismatch_check,10.1007/s10668-026-07324-2,10.5465/ambpp.2019.14007abstract,The Technological Competence Creation of EMNCs: Key Mechanisms and Innovative Performance,Academy of Management Proceedings,2019,2,0.27,candidate_multi,no
+S136,"Hitt, Hoskisson & Kim",1997,doi_mismatch_check,10.2478/foli-2025-0014,,,,,0,,no_corpus_match,no
+S137,Gomes & Ramaswamy,1999,not_found,,,,,,0,,no_corpus_match,no
+S138,Tallman & Li,1996,author_year_guess,10.2307/40157567,10.2307/256635,EFFECTS OF INTERNATIONAL DIVERSITY AND PRODUCT DIVERSITY ON THE PERFORMANCE OF MULTINATIONAL FIRMS.,Academy of Management Journal,1996,2,0.0,candidate_multi,no
+S139,"Aulakh, Kotabe & Teegen",2000,author_year_guess,,,,,,0,,no_corpus_match,no
+S140,"Kotabe, Srinivasan & Aulakh",2002,author_year_guess,,,,,,0,,no_corpus_match,no
+S141,"Denis, Denis & Yost",2002,not_found,,,,,,0,,no_corpus_match,no
+S142,Gomez-Mejia & Palich,1997,not_found,,,,,,0,,no_corpus_match,no
+S143,Chang & Wang,2007,not_found,,10.1057/palgrave.abm.9200228,"International Expansion Path, Speed, Product Diversification and Performance Among Emerging-Market MNEs: Evidence from Asia-Pacific Multinational Companies",Asian Business & Management,2007,1,0.0,candidate_unique,no
+S144,Pangarkar,2008,author_year_guess,10.1159/000325530,10.1016/j.jwb.2007.11.009,Internationalization and performance of small- and medium-sized enterprises,Journal of World Business,2007,1,0.0,candidate_unique,no
+S145,"Zahra, Ireland & Hitt",2000,author_year_guess,10.5465/amr.2000.3363324,,,,,0,,no_corpus_match,no
+S146,Oh & Contractor,2012,author_year_guess,10.5194/acp-12-1541-2012,10.1007/s10290-012-0145-y,Using export market performance to evaluate regional preferential policies in China,Review of World Economics,2013,7,0.0,candidate_multi,no
+S147,"Qian, Li, Li & Qian",2008,author_year_guess,10.1103/physrevlett.101.089704,,,,,0,,no_corpus_match,no
+S148,Elango & Pattnaik,2007,author_year_guess,10.1016/j.niox.2006.01.008,10.1108/1525383x200600002,An Empirical Analysis of the Internationalization‐Performance Relationship Across Emerging Market Firms,Multinational Business Review,2006,1,0.0,candidate_unique,no
+S149,Filatotchev & Piesse,2009,author_year_guess,10.1016/j.ibusrev.2010.01.005,10.1016/j.ibusrev.2010.01.005,Integrating contemporary finance and international business research,International Business Review,2010,1,0.0,confirmed_crosscheck,yes
+S150,"Geringer, Tallman & Olsen",2000,not_found,,,,,,0,,no_corpus_match,no
+S151,Michel & Shaked,1986,author_year_guess,10.2307/2026493,,,,,0,,no_corpus_match,no
+S152,Morck & Yeung,1991,not_found,,,,,,0,,no_corpus_match,no
+S153,Wan & Hoskisson,2003,author_year_guess,10.1016/j.jep.2004.04.008,,,,,0,,no_corpus_match,no
+S154,"Yiu, Lau & Bruton",2007,author_year_guess,10.1109/tem.2007.900784,10.1057/palgrave.jibs.8400364,The performance implications of relationship banking during macroeconomic expansion and contraction: a study of Japanese banks' social relationships and overseas expansion,Journal of International Business Studies,2008,1,0.0,candidate_unique,no
+S155,"Luo, Zhao & Du",2005,author_year_guess,10.1109/tie.2004.825344,,,,,0,,no_corpus_match,no
+S156,"Bobillo, López-Iturriaga & Tejerina-Gaite",2010,author_year_guess,10.1182/blood-2009-07-231449,,,,,0,,no_corpus_match,no
+S157,Boehe & Cruz,2010,author_year_guess,10.1590/s1413-23112011000100004,,,,,0,,no_corpus_match,no
+S158,Singh & Gaur,2009,author_year_guess,,10.1002/tie.20217,Internationalization and performance of Indian pharmaceutical firms,Thunderbird International Business Review,2008,2,0.0,candidate_multi,no
+S159,Fernández-Olmos & Díez-Vial,2015,not_found,,,,,,0,,no_corpus_match,no
+S160,Lu & Beamish,2006,author_year_guess,10.1007/s00410-006-0128-x,10.1057/palgrave.jibs.8400282,Internationalization and the performance of born-global SMEs: the mediating role of social networks,Journal of International Business Studies,2007,2,0.0,candidate_multi,no
+S161,"Contractor, Kumar & Kundu",2007,not_found,,10.1016/j.jwb.2007.06.003,Nature of the relationship between international expansion and performance: The case of emerging market firms,Journal of World Business,2007,1,0.0,candidate_unique,no
+S162,Oh & Sohl,2017,author_year_guess,10.1021/acsenergylett.7b00206,10.1007/s11575-016-0284-9,Internationalization Speed and Firm Performance: A Study of the Market-Seeking Expansion of Retail MNEs,Management International Review,2016,14,0.0,candidate_multi,no
+S163,Ogasavara & Hoshino,2007,not_found,,,,,,0,,no_corpus_match,no
+S164,"Gao, Murray, Kotabe & Lu",2010,author_year_guess,10.1038/ncomms1583,,,,,0,,no_corpus_match,no
+S165,Doukas & Kan,2006,author_year_guess,,,,,,0,,no_corpus_match,no
+S166,Castellacci,2015,author_year_guess,10.1016/j.jbankfin.2014.05.013,,,,,0,,no_corpus_match,no
+S167,Reuber & Fischer,1997,author_year_guess,10.2307/3870267,,,,,0,,no_corpus_match,no
+S168,"Zhou, Wu & Luo",2007,author_year_guess,10.4324/9781841697178,10.1057/palgrave.jibs.8400282,Internationalization and the performance of born-global SMEs: the mediating role of social networks,Journal of International Business Studies,2007,1,0.0,candidate_unique,no
+S169,"Isobe, Makino & Montgomery",2000,author_year_guess,10.1021/ja015888l,,,,,0,,no_corpus_match,no
+S170,Shan & Song,1997,not_found,,,,,,0,,no_corpus_match,no
+S171,"Buckley, Dunning & Pearce",1978,author_year_guess,10.2307/3727132,,,,,0,,no_corpus_match,no
+S172,"Oesterle, Richta & Fisch",2013,author_year_guess,10.3217/zfhe-9-05/02,10.4337/9780857936790.00011,Using quantitative longitudinal data to analyse the relationship between firms' internationalization and performance,Edward Elgar Publishing eBooks,2013,1,0.0,candidate_unique,no
+S173,"Nguyen, Almodóvar & Martínez-Noya",2018,author_year_guess,10.18653/v1/n18-2053,10.3390/jrfm12030144,"Internationalization, Strategic Slack Resources, and Firm Performance: The Case Study of Vietnamese Enterprises",Journal of risk and financial management,2019,4,0.0,candidate_multi,no
+S174,"Ogasavara, Hoshino & Alberton",2016,author_year_guess,10.18568/1980-4865.11349-63,,,,,0,,no_corpus_match,no
+S175,Jo & Roth,2015,author_year_guess,10.1097/md.0000000000001144,10.1111/jsbm.12241,SME Networks and International Performance: Unveiling the Significance of Foreign Market Entry Mode,Journal of Small Business Management,2016,16,0.0,candidate_multi,no
+S176,Khattak & Shah,2022,author_year_guess,10.31703/glr.2023(viii-ii).33,,,,,0,,no_corpus_match,no
+S177,Lee & Yoon,2022,author_year_guess,10.59327/ipcc/ar6-9789291691647,10.1016/j.ibusrev.2022.102053,Entry mode diversity and closing commercial deals with international customers: The moderating role of advanced servitization,International Business Review,2022,7,0.0,candidate_multi,no
+S178,Lin & Liu,2022,author_year_guess,10.1109/tim.2023.3244811,10.1155/2021/5528972,The Relationship between Extent of Internationalization and Firm Performance (Taiwan 1992–2017),Mathematical Problems in Engineering,2021,21,0.0,candidate_multi,no
+S179,"Chen, Zhang & Li",2022,author_year_guess,10.1016/j.cnsns.2021.106067,10.5539/jms.v12n2p67,Financial Performance and Characteristics: A Comparison of Born Global and Gradual Internationalization Firms in China,Journal of Management and Sustainability,2022,22,0.0,candidate_multi,no
+S180,Wang & Xiang,2022,author_year_guess,10.1109/tfuzz.2021.3098339,10.1016/j.jwb.2021.101306,Outward FDI and Innovation Performance of Chinese Firms: Why Can Home-Grown Political Ties Be A Liability?,Journal of World Business,2021,11,0.0,candidate_multi,no
+S181,Nguyen & Dinh,2022,author_year_guess,10.1080/09669582.2021.1884689,,,,,0,,no_corpus_match,no
+S182,Vo & Nguyen,2021,author_year_guess,10.1038/s41586-020-2488-1,10.57110/jeb.v1i2.4497,A 21-Year Review of Research on the Effect of Internationalization on Firm Financial Performance and Research Agenda,VNU JOURNAL OF ECONOMICS AND BUSINESS,2021,6,0.0,candidate_multi,no
+S183,Kim & Kim,2023,author_year_guess,10.3390/metabo12121166,10.5539/jms.v12n2p67,Financial Performance and Characteristics: A Comparison of Born Global and Gradual Internationalization Firms in China,Journal of Management and Sustainability,2022,8,0.0,candidate_multi,no
+S184,Borkakoti & Dua,2023,author_year_guess,10.1016/j.sbi.2022.102526,,,,,0,,no_corpus_match,no
+S185,Li & Li,2023,author_year_guess,10.1038/s41586-022-05627-8,10.1371/journal.pone.0263674,The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from china,PLoS ONE,2022,86,0.0,candidate_multi,no
+S186,"Torres, Kunc & O'Shannassy",2022,not_found,,10.1057/s41267-022-00580-0,The link between foreign institutional owners and multinational enterprises’ environmental outcomes,Journal of International Business Studies,2023,1,0.0,candidate_unique,no
+S187,Cho & Lee,2023,author_year_guess,10.1016/j.ymben.2022.03.009,10.33168/jsms.2023.0223,Entrepreneurial Orientation and MSMEs Internationalization: The mediating role of Politicisation,Journal of System and Management Sciences,2023,1,0.0,candidate_unique,no
+S188,Do & Phan,2025,author_year_guess,10.1016/s1473-3099(24)00141-5,10.5772/intechopen.1011012,Internationalization and Firm Performance of Firms in India: The Role of Top Management,"Business, management and economics",2025,20,0.0,candidate_multi,no
+S189,Do & Phan,2026,author_year_guess,10.1038/s41586-025-08688-7,10.5772/intechopen.1011012,Internationalization and Firm Performance of Firms in India: The Role of Top Management,"Business, management and economics",2025,15,0.0,candidate_multi,no
+S190,"Phan, Ninh & Do",2021,author_year_guess,10.5751/es-12625-260319,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,7,0.0,candidate_multi,no
+S191,Phan et al.,2021,author_year_guess,10.5751/es-12625-260319,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,7,0.0,candidate_multi,no
+S192,Tu & Huynh,2021,not_found,,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,17,0.0,candidate_multi,no
+S193,García-Sánchez & Rama,2024,author_year_guess,10.1519/jsc.0000000000005208,,,,,0,,no_corpus_match,no
+S194,Godbole,2024,author_year_guess,10.18632/oncotarget.28455,10.1002/bsd2.365,Does internationalization and board diversity affect family firms' sustainable performance? Empirical evidence from an emerging economy,Business Strategy & Development,2024,1,0.0,candidate_unique,no
+S195,Barłożewski & Trąpczyński (2021a),,not_found,,,,,,0,,no_corpus_match,no
+S196,Barłożewski & Trąpczyński (2021b),,not_found,,,,,,0,,no_corpus_match,no
+S197,Calabrese & Manello,2018,author_year_guess,10.1007/s12079-018-0497-8,10.1016/j.jpolmod.2018.01.008,Firm internationalization and performance: Evidence for designing policies,Journal of Policy Modeling,2018,1,0.0,candidate_unique,no
+S198,Cao et al.,2022,author_year_guess,10.1002/advs.202100241,10.1371/journal.pone.0263674,The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from china,PLoS ONE,2022,1,0.0,candidate_unique,no
+S199,Carr et al.,2010,author_year_guess,10.1016/j.revpalbo.2011.12.005,10.5771/0935-9915-2010-3-353,Managerial Cultural Intelligence and Small Business in Canada,management revue,2010,1,0.0,candidate_unique,no
+S200,Chen & Hsu,2010,author_year_guess,10.1021/cr1001645,10.1016/j.jwb.2010.10.022,Region effects in the internationalization–performance relationship in Chinese firms,Journal of World Business,2010,4,0.0,candidate_multi,no
+S201,Cuervo-Cazurra et al.,2017,author_year_guess,10.1016/j.jwb.2017.11.002,10.1016/j.jwb.2017.11.002,Home country uncertainty and the internationalization-performance relationship: Building an uncertainty management capability,Journal of World Business,2017,1,0.0,confirmed_crosscheck,yes
+S202,Da Cunha et al.,2023,author_year_guess,10.12820/rbafs.27e0248,10.1016/j.ibusrev.2023.102135,"Digitalization, internationalization, and firm performance: A resource-orchestration perspective on new OLI advantages",International Business Review,2023,40,0.0,candidate_multi,no
+S203,Debicki et al.,2020,author_year_guess,10.3389/fneur.2021.757219,10.1108/ccsm-04-2019-0075,Internationalization and family firm performance,Cross Cultural & Strategic Management,2020,1,0.0,candidate_unique,no
+S204,Dikova & Veselova,2020,author_year_guess,10.3390/pr9050779,10.1017/mor.2020.39,Performance Effects of Internationalization: Contingency Theory Analysis of Russian Internationalized Firms,Management and Organization Review,2020,1,0.0,candidate_unique,no
+S205,Elango,2012,author_year_guess,10.1186/1735-2746-9-35,10.1002/tie.21491,How Industry Dynamics Influence the Internationalization–Performance Relationship: Evidence From Technology‐Intensive Firms,Thunderbird International Business Review,2012,2,0.0,candidate_multi,no
+S206,Espinosa-Méndez & Jara,2021,not_found,,,,,,0,,no_corpus_match,no
+S207,Fu,2024,not_found,,10.2139/ssrn.4592758,Conceptual Framework on Internet Born Global's Internationalization,SSRN Electronic Journal,2023,4,0.0,candidate_multi,no
+S208,Khatua et al.,2024,not_found,,10.1007/s10843-023-00345-2,The internationalization and performance of INVs: Liability or learning advantages of newness?,Journal of International Entrepreneurship,2024,1,0.0,candidate_unique,no
+S209,Lin et al.,2011,author_year_guess,10.1016/j.tourman.2010.01.018,10.2139/ssrn.1692583,Internationalization Strategy and Performance of Small and Medium Sized Enterprises,SSRN Electronic Journal,2010,6,0.0,candidate_multi,no
+S210,Manotas & Gonzalez-Perez,2020,author_year_guess,10.29375/01237047.2796,10.1108/cr-03-2019-0028,Internationalization and performance of small and medium-sized enterprises from emerging economies,Competitiveness Review An International Business Journal incorporating Journal of Global Competitiveness,2020,1,0.0,candidate_unique,no
+S211,Olmos & Díez-Vial,2015,author_year_guess,10.1039/c4cp01963f,10.1108/ejm-06-2012-0365,Internationalization pathways and the performance of SMEs,European Journal of Marketing,2015,1,0.0,candidate_unique,no
+S212,"Phan, Tran & Lu",2020,author_year_guess,10.5751/es-12625-260319,10.5267/j.dsl.2020.7.001,The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon,Decision Science Letters,2020,10,0.0,candidate_multi,no
+S213,Purkayastha et al.,2024,author_year_guess,10.18653/v1/2023.emnlp-demo.13,10.1016/j.intman.2024.101122,Role of resource investment management and strategic resource deployment capabilities in internationalization-performance relationship,Journal of International Management,2024,1,0.0,candidate_unique,no
+S214,Purkayastha et al.,2021,author_year_guess,10.17161/randa.v27i3.14901,10.1007/s10490-022-09809-w,Business group affiliation and entrepreneurial orientation: Contingent effect of level of internationalization and firm’s performance,Asia Pacific Journal of Management,2022,2,0.0,candidate_multi,no
+S215,Rienda & Andreu,2021,author_year_guess,10.1016/j.jes.2022.02.013,10.1108/ijchm-10-2020-1141,"The impact of knowledge management on the internationalization, organizational ambidexterity and performance of Spanish hotel chains",International Journal of Contemporary Hospitality Management,2021,2,0.0,candidate_multi,no
+S216,Schmuck et al. (2022a),,author_year_guess,10.1080/17524032.2023.2237693,,,,,0,,no_corpus_match,no
+S217,Singla & George,2013,author_year_guess,10.1609/aaai.v28i1.9068,10.1016/j.jbusres.2013.05.041,Internationalization and performance: A contextual analysis of Indian firms,Journal of Business Research,2013,1,0.0,candidate_unique,no
+S218,Sun et al.,2019,author_year_guess,10.1111/nph.15796,10.1057/s41267-018-0166-4,Network centrality and organizational aspirations: A behavioral interaction in the context of international strategic alliances,Journal of International Business Studies,2018,10,0.0,candidate_multi,no
+S219,Tongurai & Vithessonthi,2022,not_found,,,,,,0,,no_corpus_match,no
+S220,Tsionas & Tzeremes,2021,author_year_guess,10.2139/ssrn.4064916,10.1111/1467-8551.12560,The Degree of Internationalization and Firm Productivity: Empirical Evidence from Large Multinationals,British Journal of Management,2021,1,0.0,candidate_unique,no
+S221,Vithessonthi & Racela,2016,not_found,,10.2139/ssrn.2703930,"Capital Investment, Internationalization, and Firm Performance: Evidence from Southeast Asian Countries",SSRN Electronic Journal,2015,2,0.0,candidate_multi,no
+S222,Wang et al.,2020,author_year_guess,10.1016/s2213-2600(20)30076-x,10.1016/j.jwb.2021.101306,Outward FDI and Innovation Performance of Chinese Firms: Why Can Home-Grown Political Ties Be A Liability?,Journal of World Business,2021,7,0.0,candidate_multi,no
+S223,Wei & Lin,2021,author_year_guess,10.1016/j.jhydrol.2020.125287,10.1155/2021/5528972,The Relationship between Extent of Internationalization and Firm Performance (Taiwan 1992–2017),Mathematical Problems in Engineering,2021,9,0.0,candidate_multi,no
+S224,Xiao et al.,2013,author_year_guess,10.3109/13880209.2012.761243,10.1016/j.intman.2012.12.003,Internationalization and Performance of Firms in China: Moderating Effects of Governance Structure and the Degree of Centralized Control,Journal of International Management,2013,5,0.0,candidate_multi,no
+S225,Xiong et al.,2024,author_year_guess,10.5281/zenodo.17798744,10.1016/j.frl.2024.106247,Internationalization speed and corporate long-term performance: Exploring the inverted U-shaped relationship,Finance research letters,2024,1,0.0,candidate_unique,no
+S226,Zeng et al.,2009,author_year_guess,10.1038/ng.601,10.1108/00251740910938939,Relationships between business factors and performance in internationalization,Management Decision,2009,1,0.0,candidate_unique,no
+S227,Ahsan & Sinha,2022,author_year_guess,10.1016/s0140-6736(21)01852-3,10.1016/j.ibusrev.2022.102032,"Strategic agility of SMEs in emerging economies: Antecedents, consequences and boundary conditions",International Business Review,2022,2,0.0,candidate_multi,no
+S228,Ruzzier & Ruzzier,2014,author_year_guess,10.1016/j.cretres.2014.09.011,,,,,0,,no_corpus_match,no
+S229,Azman et al.,2022,author_year_guess,10.18848/2327-7971/cgp/v28i01/15-26,,,,,0,,no_corpus_match,no
+S230,Bhandari et al.,2023,author_year_guess,10.61093/hem.2024.2-10,10.1016/j.ibusrev.2023.102135,"Digitalization, internationalization, and firm performance: A resource-orchestration perspective on new OLI advantages",International Business Review,2023,2,0.0,candidate_multi,no
+S231,Hosseini et al.,2018,author_year_guess,10.1061/(asce)he.1943-5584.0001503,10.1016/j.forpol.2018.09.013,A combined focused industry and company size investigation of the internationalization-performance relationship: The case of small and medium-sized enterprises (SMEs) within the Swedish wood manufacturing industry,Forest Policy and Economics,2018,1,0.0,candidate_unique,no
+S232,Huang & Marciano,2020,author_year_guess,10.1007/s10346-020-01491-7,10.2991/aebmr.k.200127.085,Interdependence Relationship of Internationalization—Performance in Manufacturing Firms Listed in Indonesia Stock Exchange and Chinese Stock Exchanges,,2020,5,0.0,candidate_multi,no
+S233,Kayaci,2022,not_found,,,,,,0,,no_corpus_match,no
+S234,Yip et al.,2000,author_year_guess,,,,,,0,,no_corpus_match,no
+S235,Freixanet & Rialp,2021,author_year_guess,10.5093/anyes2022a15,10.1002/gsj.1412,"Disentangling the relationship between internationalization, incremental and radical innovation, and firm performance",Global Strategy Journal,2021,2,0.0,candidate_multi,no
+S236,Barłożewski & Trąpczyński (2021a),,not_found,,,,,,0,,no_corpus_match,no
+S237,Barłożewski & Trąpczyński (2021b),,not_found,,,,,,0,,no_corpus_match,no
+S238,Srividhya et al.,2024,author_year_guess,10.1039/d3ya00100h,10.11130/jei.2024033,Internationalization at Inception: Insights from the Indian Textile Industry's Born Globals,Journal of Economic Integration,2024,1,0.0,candidate_unique,no
