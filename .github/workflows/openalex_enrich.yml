@@ -32,9 +32,16 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: write
+    # Pass dispatch inputs through env (never interpolate ${{ inputs }} directly
+    # into a run: script — GitHub expands it before the shell, enabling command
+    # injection). Reference them only as quoted "$VARS" below.
     env:
       OPENALEX_MAILTO: huongdt@vlute.edu.vn
       OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}   # optional; only if your account needs it
+      DB_FILE: ${{ github.event.inputs.db_file }}
+      APA_FILE: ${{ github.event.inputs.apa_file }}
+      OUTPUT_FILE: ${{ github.event.inputs.output_file }}
+      MAX_STUDIES: ${{ github.event.inputs.max_studies }}
 
     steps:
       - name: Checkout working branch
@@ -50,6 +57,18 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
+
+      - name: Validate inputs
+        run: |
+          case "$MAX_STUDIES" in
+            ''|*[!0-9]*) echo "max_studies must be a non-negative integer, got: $MAX_STUDIES"; exit 1 ;;
+          esac
+          # Confine file inputs to the repo (no absolute paths, no parent escapes).
+          for f in "$DB_FILE" "$APA_FILE" "$OUTPUT_FILE"; do
+            case "$f" in
+              /*|*..*) echo "Path input must be repo-relative, got: $f"; exit 1 ;;
+            esac
+          done
 
       - name: Smoke-test OpenAlex reachability
         run: |
@@ -70,22 +89,22 @@ jobs:
 
       - name: Verify inputs
         run: |
-          ls -lh "${{ github.event.inputs.db_file }}"
-          test -f "${{ github.event.inputs.apa_file }}" && ls -lh "${{ github.event.inputs.apa_file }}" || echo "(APA file not found — candidate DOIs/titles will be empty)"
-          echo "DB unique rows: $(tail -n +2 "${{ github.event.inputs.db_file }}" | cut -d, -f1 | sort -u | wc -l)"
+          ls -lh "$DB_FILE"
+          test -f "$APA_FILE" && ls -lh "$APA_FILE" || echo "(APA file not found — candidate DOIs/titles will be empty)"
+          echo "DB unique rows: $(tail -n +2 "$DB_FILE" | cut -d, -f1 | sort -u | wc -l)"
 
       - name: Run OpenAlex enrichment
         run: |
           python3 p6/tools/60_enrich_openalex_metadata.py \
-            --db  "${{ github.event.inputs.db_file }}" \
-            --apa "${{ github.event.inputs.apa_file }}" \
-            --out "${{ github.event.inputs.output_file }}" \
-            --max "${{ github.event.inputs.max_studies }}"
+            --db  "$DB_FILE" \
+            --apa "$APA_FILE" \
+            --out "$OUTPUT_FILE" \
+            --max "$MAX_STUDIES"
 
       - name: Job summary (robust CSV parse)
         if: always()
         run: |
-          python3 - "${{ github.event.inputs.output_file }}" <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          python3 - "$OUTPUT_FILE" <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import csv, sys, collections
           path = sys.argv[1]
           try:
@@ -110,7 +129,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          OUT="${{ github.event.inputs.output_file }}"
+          OUT="$OUTPUT_FILE"
           LOG="${OUT%.*}.log.jsonl"
           git add "$OUT" "$LOG" 2>/dev/null || true
           git status --short
