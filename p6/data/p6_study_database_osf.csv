@@ -27,9 +27,9 @@ S19,S19,Chiao et al.,2006,0.056,1419,Taiwan,1998,2002,I,1,L,PRE,EXP,ACC,1,0,Taiw
 S20,S20_e1,Elango,2006,0.125,326,USA,1998,2003,I,1,L,PRE,FSTS,MIX,1,0,MBR 2 subsamples,,,,no,doi_mismatch_check
 S20,S20_e2,Elango,2006,0.226,393,USA,1998,2003,I,1,L,PRE,FSTS,MIX,1,0,MBR 2 subsamples,,,,no,doi_mismatch_check
 S21,S21,Hsu,2006,0.369,255,Taiwan,1999,2003,I,1,L,PRE,FSTS,ACC,1,0,,,,,no,not_found
-S22,S22,Thomas,2006,0.027,386,Mexico,1999,2003,III,3,L,PRE,EXP,ACC,1,0,Mexico firms,,,,no,doi_mismatch_check
-S23,S23_e1,Chari et al.,2007,0.25,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,,,,no,doi_mismatch_check
-S23,S23_e2,Chari et al.,2007,0.37,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,,,,no,doi_mismatch_check
+S22,S22,Thomas,2006,0.027,386,Mexico,1999,2003,III,3,L,PRE,EXP,ACC,1,0,Mexico firms,10.1016/j.jbusres.2005.08.008,Journal of Business Research,138,yes,title_corrected
+S23,S23_e1,Chari et al.,2007,0.25,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,10.1016/j.jwb.2007.02.004,Journal of World Business,67,yes,title_corrected
+S23,S23_e2,Chari et al.,2007,0.37,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,10.1016/j.jwb.2007.02.004,Journal of World Business,67,yes,title_corrected
 S24,S24,Fortanier et al.,2007,0.1,332,Multi,2000,2004,MX,0,L,PRE,FSTS,ACC,1,0,Host-country focus,,,,no,not_found
 S25,S25,Kumar & Gaur,2007,0.343,240,India,2000,2004,III,3,L,PRE,GEO,ACC,1,0,Indian groups,10.1002/tie.20217,Thunderbird International Business Review,85,yes,title_match
 S26,S26,Ruigrok et al.,2007,-0.138,87,Switzerland,2000,2004,I,1,L,PRE,FSTS,ACC,1,0,Swiss firms,10.1007/s11575-007-0020-6,Management International Review,225,yes,title_match
@@ -37,8 +37,8 @@ S27,S27,Richter,2007,-0.058,85,Germany,2000,2004,I,1,L,PRE,FSTS,ACC,1,0,,,,,no,n
 S28,S28_e1,Vilas-Boas & González,2007,-0.13,291,Spain,2000,2004,II,2,L,PRE,EXP,ACC,1,0,Spanish firms,10.1300/j037v16n01_07,Journal of Euromarketing,19,yes,title_match
 S28,S28_e2,Vilas-Boas & González,2007,0.17,291,Spain,2000,2004,II,2,L,PRE,EXP,ACC,1,0,Spanish firms,10.1300/j037v16n01_07,Journal of Euromarketing,19,yes,title_match
 S29,S29,Bae et al.,2008,0.06,672,Korea,2001,2005,I,1,L,PRE,FSTS,ACC,1,0,5 effects,10.1108/1525383x200800003,Multinational Business Review,73,yes,verified
-S30,S30_e1,Brock & Yaffe,2008,-0.04,89,Israel,2001,2005,I,1,L,PRE,GEO,ACC,1,0,4 effects,,,,no,doi_mismatch_check
-S30,S30_e2,Brock & Yaffe,2008,0.08,89,Israel,2001,2005,I,1,L,PRE,GEO,ACC,1,0,4 effects,,,,no,doi_mismatch_check
+S30,S30_e1,Brock & Yaffe,2008,-0.04,89,Israel,2001,2005,I,1,L,PRE,GEO,ACC,1,0,4 effects,10.1016/j.ibusrev.2008.07.003,International Business Review,51,yes,title_corrected
+S30,S30_e2,Brock & Yaffe,2008,0.08,89,Israel,2001,2005,I,1,L,PRE,GEO,ACC,1,0,4 effects,10.1016/j.ibusrev.2008.07.003,International Business Review,51,yes,title_corrected
 S31,S31_e1,Kumar & Singh,2008,-0.145,75,India,2001,2005,III,3,L,PRE,EXP,LAB,1,0,India mfg,10.1002/tie.20217,Thunderbird International Business Review,85,yes,title_match
 S31,S31_e2,Kumar & Singh,2008,-0.3,75,India,2001,2005,III,3,L,PRE,EXP,LAB,1,0,India mfg,10.1002/tie.20217,Thunderbird International Business Review,85,yes,title_match
 S32,S32_e1,Pangarkar,2008,0.247,94,Singapore,2001,2005,I,1,L,PRE,FSTS,ACC,1,0,Singapore listed,,,,no,author_year_guess
@@ -46,7 +46,7 @@ S32,S32_e2,Pangarkar,2008,0.286,94,Singapore,2001,2005,I,1,L,PRE,FSTS,ACC,1,0,Si
 S33,S33,Qian et al.,2008,0.232,189,USA/Multi,2001,2005,I,1,L,PRE,GEO,ACC,1,0,,,,,no,author_year_guess
 S34,S34,Garbe & Richter,2009,-0.085,85,Germany,2002,2006,I,1,L,PRE,FSTS,ACC,1,0,3 effects,,,,no,doi_mismatch_check
 S35,S35,Gaur & Kumar,2009,-0.075,240,India,2002,2006,III,3,L,PRE,GEO,ACC,1,0,India business groups,,,,no,not_found
-S36,S36,Pattnaik & Elango,2009,-0.02,787,India,2002,2006,III,3,L,PRE,EXP,ACC,1,0,India exporters,,,,no,doi_mismatch_check
+S36,S36,Pattnaik & Elango,2009,-0.02,787,India,2002,2006,III,3,L,PRE,EXP,ACC,1,0,India exporters,10.1108/1525383x200900010,Multinational Business Review,42,yes,title_corrected
 S37,S37,Ciszewska-Mlinaric & Mlinaric,2010,0.133,67,Poland,2004,2008,II,2,L,SPN,EXP,ACC,1,0,Polish SMEs 6 eff,,,,no,doi_mismatch_check
 S38,S38,Chao & Kumar,2010,0.169,500,Multi,2004,2007,MX,0,L,SPN,COMP,ACC,1,0,Inst.distance mod,10.1016/j.jwb.2009.04.005,Journal of World Business,263,yes,verified
 S39,S39,Chen & Hsu,2010,0.164,224,Taiwan,2004,2008,I,1,L,SPN,FSTS,ACC,1,0,,,,,no,author_year_guess
@@ -84,7 +84,7 @@ S60,S60_e2,Hilmersson,2014,0.16,180,Sweden/SME,2008,2012,I,1,M,SPN,COMP,ACC,1,0,
 S60,S60_e3,Hilmersson,2014,0.27,180,Sweden/SME,2008,2012,I,1,M,SPN,COMP,ACC,1,0,3 effects,10.1177/0266242613497744,International Small Business Journal Researching Entrepreneurship,127,yes,title_match
 S61,S61,Graves & Shan,2014,-0.07,4217,Australia,2007,2012,I,1,M,SPN,FSTS,ACC,1,0,Large sample,10.1177/0894486513491588,Family Business Review,91,yes,title_match
 S62,S62,Lee et al.,2014,0.383,279,Korea SME,2008,2012,I,1,M,SPN,EXP,ACC,1,0,Korean SMEs,,,,no,author_year_guess
-S63,S63,Zhou & Wu,2014,0.15,376,China,2007,2012,III,3,L,SPN,EXP,ACC,1,0,China tech,,,,no,doi_mismatch_check
+S63,S63,Zhou & Wu,2014,0.15,376,China,2007,2012,III,3,L,SPN,EXP,ACC,1,0,China tech,10.1016/j.jwb.2013.10.001,Journal of World Business,166,yes,title_corrected
 S64,S64,Nguyen & Rugman,2015,0.2175,101,Vietnam,2009,2013,III,3,L,SPN,FSTS,ACC,1,0,4 effects,,,,no,author_year_guess
 S65,S65,Ren et al.,2015,0.09,176,China,2009,2013,III,3,L,SPN,EXP,ACC,1,0,,,,,no,author_year_guess
 S66,S66,Chen et al.,2015,-0.038,118,Taiwan,2009,2013,I,1,M,SPN,FSTS,ACC,1,0,,,,,no,author_year_guess
@@ -105,7 +105,7 @@ S79,S79,Ganvir & Dwivedi,2017,0.0455,411,India,2010,2015,III,3,L,SPN,EXP,ACC,1,0
 S80,S80_e1,Jin et al.,2017,-0.02,401,China,2010,2015,III,3,L,SPN,EXP,ACC,1,0,,,,,no,not_found
 S80,S80_e2,Jin et al.,2017,-0.03,401,China,2010,2015,III,3,L,SPN,EXP,ACC,1,0,,,,,no,not_found
 S81,S81,Nosi et al.,2017,0.305,169,Italy SME,2010,2015,II,2,L,SPN,EXP,ACC,1,0,Niche exporters,,,,no,doi_mismatch_check
-S82,S82,Purkayastha et al.,2017,0.029,185,India,2010,2015,III,3,L,SPN,FSTS,ACC,1,0,India conglomerates,,,,no,doi_mismatch_check
+S82,S82,Purkayastha et al.,2017,0.029,185,India,2010,2015,III,3,L,SPN,FSTS,ACC,1,0,India conglomerates,10.1016/j.jwb.2016.11.004,Journal of World Business,91,yes,title_corrected
 S83,S83,Abdi & Aulakh,2018,0.09,2620,Multi/Emg,2010,2015,MX,0,M,SPN,FSTS,ACC,1,0,JIBS emerging mkt,,,,no,not_found
 S84,S84,Booltink & Saka-Helmhout,2018,-0.048,947,Multi,2010,2015,MX,0,M,SPN,OTH,ACC,1,0,R&D mod.,,,,no,doi_mismatch_check
 S85,S85,Cho & Lee,2018,-0.029,232,Korea,2010,2015,I,1,H,SPN,FSTS,ACC,1,0,"Family firms Korea; cDAI=H (Korea advanced digital, post-2010; corrected from M)",,,,no,author_year_guess
