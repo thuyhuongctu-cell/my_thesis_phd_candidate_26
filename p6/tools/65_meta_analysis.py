@@ -320,6 +320,29 @@ def main():
         w_.writerow(["loo", "r_range", f"{rmin[1]:.4f}..{rmax[1]:.4f}",
                      f"min drop {rmin[0]}; max drop {rmax[0]}"])
 
+    # ICRV moderator robustness (dedicated file; does NOT touch the canonical
+    # tables). The full omnibus is carried by the 3-study Frontier (FR) regime;
+    # re-testing on the core regimes shows the between-regime moderation is fragile.
+    def icrv_omnibus(rws, levels):
+        grp = groups_by_study(rws)
+        yy = np.array([r["z"] for r in rws]); vv = np.array([r["v"] for r in rws])
+        present = [lv for lv in levels if any(r["icrv"] == lv for r in rws)]
+        Xm, others = design_factor(rws, "icrv", present)
+        return qm_test(fit_mv(yy, vv, Xm, grp), len(others))
+    qm_f, df_f, p_f = icrv_omnibus(rows, ["I", "II", "III", "FR", "MX"])
+    no_fr = [r for r in rows if r["icrv"] != "FR"]
+    qm_d, df_d, p_d = icrv_omnibus(no_fr, ["I", "II", "III", "MX"])
+    print("\n=== ICRV DROP-FR SENSITIVITY ===")
+    print(f"  full Q_M={qm_f:.2f} df={df_f} (p={p_f:.4g}) -> "
+          f"core Q_M={qm_d:.2f} df={df_d} (p={p_d:.4g})  [FR k=3 drives omnibus]")
+    with open(out / "table_icrv_dropFR_sensitivity.csv", "w", newline="", encoding="utf-8") as fh:
+        w_ = csv.writer(fh)
+        w_.writerow(["model", "regimes", "K", "QM", "QM_df", "QM_pval", "note"])
+        w_.writerow(["full", "I/II/III/FR/MX", len(rows), round(qm_f, 2), df_f, round(p_f, 4),
+                     "omnibus significant on full sample"])
+        w_.writerow(["drop_FR", "I/II/III/MX", len(no_fr), round(qm_d, 2), df_d, round(p_d, 4),
+                     "FR (k=3, r=.349) removed; core regimes ns -> moderation not robust"])
+
     # forest data
     with open(out / "forest_data.csv", "w", newline="", encoding="utf-8") as fh:
         w_ = csv.writer(fh)

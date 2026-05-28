@@ -14,6 +14,7 @@
 | I² total / L3 / L2 | 62.4 / 8.4 / 54.1 | 62.4 / 8.4 / 54.1 | ✓ |
 | Q (total) | 1909.42 (df 287) | 1909.42 (df 287) | ✓ |
 | ICRV Q_M | 17.35 (df 4, p = .002) | 17.35 (df 4, p = .0017) | ✓ |
+| ICRV Q_M — drop-FR sensitivity (k=3 Frontier removed) | — (new) | 1.49 (df 3, p = .68) → omnibus **not robust** | new |
 | cDAI Q_M | 1.23 (df 2, p = .541) | 1.23 (df 2, p = .541) | ✓ |
 | DPL Q_M | 0.56 (df 2, p = .755) | 0.56 (df 2, p = .755) | ✓ |
 | ICRV cell means (I/II/III/FR/MX) | .079/.065/.069/.349/.053 | identical | ✓ |
@@ -55,6 +56,10 @@ Outputs match the curated `table1_baseline.csv`, `table2_icrv.csv`,
 `table3_cdai.csv`, `table4_dpl.csv`, and `forest_data.csv`. The curated
 `table5_sensitivity.csv` (subgroup robustness) is retained as the canonical
 file; the script's diagnostics block reproduces its rows (see table above).
+The script also writes `table_icrv_dropFR_sensitivity.csv`, recording the ICRV
+omnibus with and without the 3-study Frontier cell (full Q_M = 17.35 → core
+Q_M = 1.49, p = .68). This uses the same MARA machinery that reproduces the
+ICRV omnibus exactly (17.35), so the drop-FR result is on validated footing.
 
 ## Notes
 

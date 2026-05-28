@@ -35,7 +35,7 @@
 ## D. Nhất quán luận án 🤖/🧑
 | # | Việc | Trạng thái | Owner |
 |---|---|---|---|
-| D1 | **Khung H5**: chương tổng hợp viện dẫn Q_M=17,35 của P6 như "xác nhận gradient"; nên ghi "P6 xác nhận *các chế độ khác biệt*, gradient/độ cong do **P7 thực nghiệm** xác lập" | Chờ bạn quyết (a/b/c) — *khuyến nghị HOÃN tới A4 vì P6 mở rộng có thể tự khớp* | 🤖 (sau xác nhận) |
+| D1 | **Khung H5**: chương tổng hợp viện dẫn Q_M=17,35 của P6 như "xác nhận gradient" | ✅ **Đã xử lý**: thêm kiểm định nhạy cảm drop-FR (Q_M=1,49, p=,68) vào script/table5 + manuscript EN/VI + chuong_2/chuong_4; reframe "moderation thể chế cấp văn liệu không robust → tính ngữ cảnh bộc lộ qua tương tác có điều kiện cấp doanh nghiệp (P7)" | 🤖 |
 | D2 | File nháp `04_05_chapters_results_discussion_vi.md` trùng lặp với `chuong_4/5` | ✅ **Đã đánh dấu SUPERSEDED** (banner đầu file; không xóa để giữ tham chiếu script/plan) | — |
 | D3 | Front matter: trang xác nhận Hội đồng + chữ ký | Hoàn thiện **sau buổi bảo vệ** | 🧑 |
 | — | ~~Nhãn phạm vi meta = toàn cầu~~ · ~~đối chiếu số P6~~ · ~~retarget IBR→MRQ~~ | ✅ **Đã xong** phiên này | — |

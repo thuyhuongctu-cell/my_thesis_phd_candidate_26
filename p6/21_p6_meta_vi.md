@@ -2,7 +2,7 @@
 
 > **NCS**: Đỗ Thùy Hương · **HD**: PGS.TS. Phan Anh Tú
 >
-> **Phiên bản hoàn thiện P6 v2.4 (24/05/2026)** — MARA trên coded baseline đã xác minh k=238, K=288. r̄=0.074 [0.060, 0.088]; I²=62.4% (L2 within=54.1%, L3 between=8.4%). ICRV Q_M(4)=17.35 (p=.002) omnibus có ý nghĩa (gradient E1a/E1b không đơn điệu); cDAI Q_M(2)=1.23 (p=.541) NS; DPL Q_M(2)=0.56 (p=.755) NS. Egger b=0.475 (SE=0.250, p=.057); Begg τ=−0.134 (p=.0007); trim-and-fill k_imputed=58, adj r=0.035 [0.023, 0.048]. Fail-safe N=45,848 (criterion 5k+10=1,200).
+> **Phiên bản hoàn thiện P6 v2.4 (24/05/2026)** — MARA trên coded baseline đã xác minh k=238, K=288. r̄=0.074 [0.060, 0.088]; I²=62.4% (L2 within=54.1%, L3 between=8.4%). ICRV Q_M(4)=17.35 (p=.002) omnibus có ý nghĩa nhưng KHÔNG bền vững — bỏ ô Frontier (k=3) → Q_M(3)=1.49 (p=.68) NS; cDAI Q_M(2)=1.23 (p=.541) NS; DPL Q_M(2)=0.56 (p=.755) NS. Egger b=0.475 (SE=0.250, p=.057); Begg τ=−0.134 (p=.0007); trim-and-fill k_imputed=58, adj r=0.035 [0.023, 0.048]. Fail-safe N=45,848 (criterion 5k+10=1,200).
 >
 > **Database**: `p6/p6_primary_studies_apa7.md` (S001–S237+) · `p6/p6_study_database_coded.md`
 >
@@ -16,7 +16,7 @@
 
 **Methods**: Phân tích tổng hợp hồi quy ba cấp (three-level meta-analytic regression analysis — MARA) theo Cheung (2014) và Van den Noortgate et al. (2013), sử dụng `metafor` (R). Pool $k=238$ nghiên cứu sơ cấp (từ tìm kiếm hệ thống trên WoS và Scopus [1977–2026] + backward citation scan 5 meta-analyses trước + hand-search), $K=288$ effect sizes từ 49 nền kinh tế. Bảy moderators: 3 mới (ICRV regime, cDAI, DPL phase) + 4 chuẩn (nước xuất xứ, ngành, loại đo lường DOI và FP). Tiền đăng ký OSF (https://osf.io/z37kn) trước khi trích xuất effect sizes; độ tin cậy liên coder Cohen's $\kappa \geq 0.70$ trên 20% mẫu double-coded.
 
-**Results**: Hiệu ứng tổng hợp baseline three-level MARA: $\hat{r}_{3L}=0.074$ ($95\%$ CI $[0.060, 0.088]$, $p<.001$), $K=288$, $k=238$. Dị biệt ($I^2=62.4\%$) chủ yếu nằm ở trong-nghiên-cứu L2 (54.1%) hơn là giữa-nghiên-cứu L3 (8.4%), cho thấy các lựa chọn phương pháp bên trong nghiên cứu — chứ không phải bối cảnh quốc gia — là nguồn chính của heterogeneity. Moderator ICRV: $Q_M=17.35$ ($df=4$, $p=.002$) — kiểm định omnibus liên nhóm CÓ ý nghĩa (các regime khác biệt), nhưng không có gradient đơn điệu E1a/E1b do $Q_M$ bị chi phối bởi ô Frontier nhỏ (k=3). cDAI KHÔNG điều tiết đáng kể ($Q_M=1.23$, $df=2$, $p=.541$, Hm3 không được ủng hộ). DPL phase KHÔNG có hiệu ứng đáng kể ($Q_M=0.56$, $df=2$, $p=.755$, Hm4 không được ủng hộ). Thiên lệch công bố: Egger $b=0.475$ ($SE=0.250$, $p=.057$); Begg $\tau=-0.134$ ($p=.0007$); trim-and-fill $k_{imputed}=58$, $\bar{r}_{adj}=0.035$ $[0.023, 0.048]$ — **phát hiện chính**. Fail-safe N = 45,848 (tiêu chuẩn 5k+10=1,200: robust).
+**Results**: Hiệu ứng tổng hợp baseline three-level MARA: $\hat{r}_{3L}=0.074$ ($95\%$ CI $[0.060, 0.088]$, $p<.001$), $K=288$, $k=238$. Dị biệt ($I^2=62.4\%$) chủ yếu nằm ở trong-nghiên-cứu L2 (54.1%) hơn là giữa-nghiên-cứu L3 (8.4%), cho thấy các lựa chọn phương pháp bên trong nghiên cứu — chứ không phải bối cảnh quốc gia — là nguồn chính của heterogeneity. Moderator ICRV: $Q_M=17.35$ ($df=4$, $p=.002$) — kiểm định omnibus liên nhóm CÓ ý nghĩa trên toàn mẫu nhưng KHÔNG bền vững: toàn bộ ý nghĩa do ô Frontier nhỏ (k=3) tạo ra, và kiểm định nhạy cảm bỏ ô này trên 4 regime đông dữ liệu (I/II/III/MX) đưa omnibus về không có ý nghĩa ($Q_M=1.49$, $df=3$, $p=.68$) — ngang với cDAI/DPL; không có gradient đơn điệu E1a/E1b. cDAI KHÔNG điều tiết đáng kể ($Q_M=1.23$, $df=2$, $p=.541$, Hm3 không được ủng hộ). DPL phase KHÔNG có hiệu ứng đáng kể ($Q_M=0.56$, $df=2$, $p=.755$, Hm4 không được ủng hộ). Thiên lệch công bố: Egger $b=0.475$ ($SE=0.250$, $p=.057$); Begg $\tau=-0.134$ ($p=.0007$); trim-and-fill $k_{imputed}=58$, $\bar{r}_{adj}=0.035$ $[0.023, 0.048]$ — **phát hiện chính**. Fail-safe N = 45,848 (tiêu chuẩn 5k+10=1,200: robust).
 
 **Discussion**: Kết quả tích hợp với Mô hình Điều tiết Số Có điều kiện (CDCM) từ P3 (Việt Nam), P4 (Singapore), P5 (Trung Quốc), xác nhận rằng DAI là conditional scaling resource, không phải uniform premium. Ba đóng góp lý thuyết: three-level MARA đầu tiên cho literature I→P, ICRV 6-regime đầu tiên cho một corpus I→P đại diện toàn cầu, DPL phase testing đầu tiên systematic. Các moderator số và thời gian cấp quốc gia không có ý nghĩa (cDAI, DPL) được diễn giải qua **Thuyết Bất tương thích Khung năng lực (Capability–Context Mismatch)**: bối cảnh số vĩ mô là vô hiệu đối với quan hệ I→P nếu không đi kèm năng lực số ở cấp doanh nghiệp (vi mô) — môi trường vĩ mô không thể thay thế cho năng lực vi mô vốn là thứ thực sự chuyển hóa nó.
 
@@ -350,7 +350,7 @@ Pooled effect trong coded baseline hiện tại là $\hat{r}=0.074$, 95% CI [0.0
 
 **Kết quả thực tế từ `p6_real_mara.R` (k=238, K=288)**:
 
-Phân tích subgroup trên 5 ô ICRV có dữ liệu (trong khung 6 mã; ô SIDS/Nhóm VI rỗng): $Q_M = 17.35$ ($df = 4$, $p = .002$) — kiểm định omnibus liên nhóm CÓ ý nghĩa thống kê (xác nhận rằng hiệu ứng I→P khác biệt giữa các regime thể chế), nhưng sự khác biệt KHÔNG hình thành một gradient đơn điệu theo chiều kỳ vọng E1a/E1b — phần lớn $Q_M$ do ô Frontier nhỏ, hiệu ứng cao tạo ra:
+Phân tích subgroup trên 5 ô ICRV có dữ liệu (trong khung 6 mã; ô SIDS/Nhóm VI rỗng): $Q_M = 17.35$ ($df = 4$, $p = .002$) — kiểm định omnibus liên nhóm CÓ ý nghĩa thống kê trên toàn mẫu, nhưng KHÔNG bền vững. Toàn bộ ý nghĩa do ô Frontier nhỏ, hiệu ứng cao (k=3) tạo ra: kiểm định nhạy cảm bỏ ô Frontier, ước lượng lại trên 4 regime đông dữ liệu (I/II/III/MX, K=285), đưa moderation liên nhóm về $Q_M = 1.49$ ($df = 3$, $p = .68$) — không có ý nghĩa và ngang bằng với cDAI/DPL. Sự khác biệt vì vậy KHÔNG hình thành một gradient đơn điệu theo chiều kỳ vọng E1a/E1b:
 
 **Bảng 4.2 — Kết quả ICRV regime subgroup, 5 ô có dữ liệu (actual MARA)**:
 
@@ -362,7 +362,7 @@ Phân tích subgroup trên 5 ô ICRV có dữ liệu (trong khung 6 mã; ô SIDS
 | MX — Mixed/multi-country | 30 | 0.053 | [0.012, 0.094] |
 | FR — Frontier (Bangladesh, Myanmar…) | 3 | 0.349 | [0.218, 0.468] |
 
-*Ghi chú*: FR ($\bar{r}=0.349$) là **bất thường** do Pouresmaeili et al. (2018) $r=0.69$ chiếm ưu thế ($k=3$ quá nhỏ, không đáng tin cậy). Gradient I>III>II>MX không theo chiều kỳ vọng; Hm2 chỉ "partially supported" do FR anomaly. SIDS không có đủ effect sizes trong pool hiện tại để phân tích subgroup riêng. Đối chiếu hệ chuẩn luận án: P6 II ≡ luận án III, P6 III ≡ luận án IV, FR ≡ V, SIDS ≡ VI (xem Mục 1.4).
+*Ghi chú*: FR ($\bar{r}=0.349$) là **bất thường** do Pouresmaeili et al. (2018) $r=0.69$ chiếm ưu thế ($k=3$ quá nhỏ, không đáng tin cậy). Gradient I>III>II>MX không theo chiều kỳ vọng; moderation ICRV KHÔNG bền vững (bỏ ô FR → Q_M=1.49, p=.68, NS). SIDS không có đủ effect sizes trong pool hiện tại để phân tích subgroup riêng. Đối chiếu hệ chuẩn luận án: P6 II ≡ luận án III, P6 III ≡ luận án IV, FR ≡ V, SIDS ≡ VI (xem Mục 1.4).
 
 ### 4.4 Phân tích moderator: cDAI
 
@@ -453,7 +453,7 @@ Kết quả three-level MARA tích hợp trực tiếp với Conditional Digital
 
 **P5 Trung Quốc** (Regime II): DAI retained as control only; TCI là level-shifter ($\beta_z=+0.260 \to +0.426$, Paternoster $p=.011$) — consistent với CDCM dự đoán TCI > DAI ở Regime II.
 
-**Implication meta-analytic**: Kiểm định omnibus ICRV liên nhóm CÓ ý nghĩa ($Q_M=17.35$, $p=.002$; Hm2 ở khía cạnh "các regime khác biệt" được ủng hộ), nhưng KHÔNG hình thành gradient đơn điệu — FR anomaly (k=3) là nguồn chính của $Q_M$, nên propositions khám phá E1a/E1b không được xác nhận. cDAI và DPL đều không có ý nghĩa. Phát hiện chính là thiên lệch công bố: $\bar{r}_{adj}=0.035$ vs. unadjusted 0.074. Hàm ý: I→P effect nhỏ hơn kỳ vọng khi điều chỉnh publication bias.
+**Implication meta-analytic**: Kiểm định omnibus ICRV liên nhóm CÓ ý nghĩa trên toàn mẫu ($Q_M=17.35$, $p=.002$) nhưng KHÔNG bền vững: FR anomaly (k=3) là nguồn chính của $Q_M$, bỏ ô này thì omnibus về không có ý nghĩa ($Q_M=1.49$, $p=.68$). Vì vậy moderation thể chế trực tiếp ở cấp literature là yếu/không robust, và propositions khám phá E1a/E1b không được xác nhận. cDAI và DPL đều không có ý nghĩa. Phát hiện chính là thiên lệch công bố: $\bar{r}_{adj}=0.035$ vs. unadjusted 0.074. Hàm ý: I→P effect nhỏ hơn kỳ vọng khi điều chỉnh publication bias.
 
 ### 5.2 Hàm ý lý thuyết
 
@@ -461,7 +461,7 @@ Kết quả three-level MARA tích hợp trực tiếp với Conditional Digital
 
 **Đóng góp 2 — Publication bias đáng kể**: Trim-and-fill $k_{imputed}=58$ và $\bar{r}_{adj}=0.035$ chỉ ra rằng I→P literature có thiên lệch công bố đáng kể. Adjusted estimate vẫn dương và có ý nghĩa ($p < .001$) nhưng chỉ bằng 47% của unadjusted. Đây là đóng góp quan trọng nhất của P6: đặt ra câu hỏi về mức độ đáng tin cậy của các tổng hợp trước đây.
 
-**Đóng góp 3 — ICRV moderation có ý nghĩa nhưng không đơn điệu**: Kiểm định omnibus $Q_M=17.35$ ($p=.002$) CÓ ý nghĩa thống kê — các regime thể chế khác biệt — nhưng FR anomaly (k=3) là driver chính, nên không có gradient ICRV đơn điệu từ data thực tế; cần thêm studies ở Frontier và SIDS để adjudicate propositions E1a/E1b.
+**Đóng góp 3 — ICRV moderation có ý nghĩa trên toàn mẫu nhưng KHÔNG bền vững**: Kiểm định omnibus $Q_M=17.35$ ($p=.002$) CÓ ý nghĩa trên toàn mẫu, nhưng FR anomaly (k=3) là driver duy nhất — kiểm định nhạy cảm bỏ ô này đưa $Q_M=1.49$ ($df=3$, $p=.68$), không có ý nghĩa. Không có moderation thể chế trực tiếp robust ở cấp literature; tính ngữ cảnh thể chế chỉ bộc lộ ở cấp doanh nghiệp qua tương tác có điều kiện (CDCM). Cần thêm studies ở Frontier và SIDS để adjudicate propositions E1a/E1b.
 
 ### 5.3 Hàm ý thực tiễn và chính sách
 
@@ -473,7 +473,7 @@ Kết quả three-level MARA tích hợp trực tiếp với Conditional Digital
 
 **Cho nhà hoạch định chính sách**:
 - Publication bias lớn (k_imp=58) gợi ý nhiều negative findings về I→P không được công bố — cần incentivize null result publication
-- Cải thiện institutional quality vẫn là yếu tố quan trọng (kiểm định ICRV omnibus có ý nghĩa, p=.002)
+- Cải thiện institutional quality vẫn quan trọng, song bằng chứng meta cấp literature về moderation thể chế trực tiếp là yếu (ICRV omnibus không bền vững khi bỏ ô Frontier, Q_M=1.49, p=.68); tác động thể chế bộc lộ rõ hơn ở cấp doanh nghiệp qua tương tác có điều kiện (CDCM)
 - SIDS cần hỗ trợ đặc biệt — forced internationalization penalty không thể giải quyết chỉ bằng digital adoption
 
 ### 5.4 Hạn chế
@@ -492,7 +492,7 @@ Nghiên cứu này cập nhật và nâng cấp phân tích tổng hợp về qu
 
 Về phương pháp, đây là meta-analysis đầu tiên trong literature I→P áp dụng three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) để phân tách heterogeneity thành các cấp lồng nhau — một cải tiến quan trọng so với single-level pooling truyền thống. Kết quả cho thấy tổng $I^2=62.4\%$ chủ yếu nằm ở within-study variance (Level 2, 54.1%) hơn là between-study (Level 3, 8.4%), xác nhận rằng **các lựa chọn phương pháp bên trong nghiên cứu** — chứ không phải khác biệt bối cảnh quốc gia — là nguồn chính của heterogeneity I→P.
 
-Về lý thuyết, kết quả thực tế từ MARA (k=238, K=288) cho thấy: kiểm định omnibus ICRV (Hm2) CÓ ý nghĩa (Q_M=17.35, p=.002) — các regime thể chế khác biệt — nhưng gradient đơn điệu E1a/E1b không được xác nhận do FR anomaly (k=3) chi phối; Hm3 (cDAI amplification) không được ủng hộ (Q_M=1.23, p=.541); Hm4 (DPL evolution) không được ủng hộ (Q_M=0.56, p=.755). **Phát hiện chính**: thiên lệch công bố đáng kể — trim-and-fill $k_{imputed}=58$, adjusted $\bar{r}=0.035$ (vs. unadjusted 0.074). Adjusted estimate vẫn dương nhưng nhỏ hơn nhiều so với literature thường báo cáo.
+Về lý thuyết, kết quả thực tế từ MARA (k=238, K=288) cho thấy: kiểm định omnibus ICRV (Hm2) CÓ ý nghĩa trên toàn mẫu (Q_M=17.35, p=.002) nhưng KHÔNG bền vững — bỏ ô Frontier (k=3) thì về không có ý nghĩa (Q_M=1.49, p=.68) — nên moderation thể chế trực tiếp không được xác nhận robust và gradient đơn điệu E1a/E1b cũng không; Hm3 (cDAI amplification) không được ủng hộ (Q_M=1.23, p=.541); Hm4 (DPL evolution) không được ủng hộ (Q_M=0.56, p=.755). **Phát hiện chính**: thiên lệch công bố đáng kể — trim-and-fill $k_{imputed}=58$, adjusted $\bar{r}=0.035$ (vs. unadjusted 0.074). Adjusted estimate vẫn dương nhưng nhỏ hơn nhiều so với literature thường báo cáo.
 
 Về thực tiễn, kết quả gợi ý rằng doanh nghiệp không nên kỳ vọng automatic I→P premium lớn — lợi ích thực tế ($\bar{r}_{adj}=0.035$) modest và phụ thuộc vào bối cảnh thể chế (ICRV). Nhà hoạch định chính sách cần incentivize publication of null findings để giảm bias trong literature.
 

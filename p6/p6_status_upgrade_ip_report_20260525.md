@@ -22,7 +22,7 @@
 ### A3. Kiểm định ba giả thuyết điều tiết
 | Yếu tố điều tiết | Thống kê | Kết luận |
 |---|---|---|
-| **ICRV** (6 mã; 5 ô có dữ liệu, ô SIDS/Nhóm VI k = 0) | Q_M = 17,35 (df = 4, p = ,002) | Omnibus **có ý nghĩa**, NHƯNG bị chi phối bởi ô Frontier thưa (k = 3); **gradient định hướng E1a/E1b CHƯA xác nhận** |
+| **ICRV** (6 mã; 5 ô có dữ liệu, ô SIDS/Nhóm VI k = 0) | Q_M = 17,35 (df = 4, p = ,002); **drop-FR: Q_M = 1,49 (df = 3, p = ,68)** | Omnibus **có ý nghĩa trên toàn mẫu nhưng KHÔNG bền vững** — bỏ ô Frontier thưa (k = 3) thì về NS; **moderation thể chế trực tiếp không robust; gradient E1a/E1b CHƯA xác nhận** |
 | **cDAI** (áp dụng số cấp quốc gia) | Q_M = 1,23 (p = ,541) | Không có ý nghĩa |
 | **DPL** (giai đoạn Digital Paradox Lifecycle) | Q_M = 0,56 (p = ,755) | Không có ý nghĩa |
 

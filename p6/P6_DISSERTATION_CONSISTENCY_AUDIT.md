@@ -11,7 +11,8 @@
 
 ## 1. Numbers check — PASSED ✅
 The verified P6 values (r = .074; 95% CI [.060, .088]; I² = 62.4% = 54.1% L2 + 8.4% L3;
-ICRV Q_M = 17.35, df = 4, p = .002; cDAI Q_M = 1.23, p = .541 ns; DPL Q_M = 0.56, p = .755 ns;
+ICRV Q_M = 17.35, df = 4, p = .002 — **but NOT robust: drop-FR core-regime Q_M = 1.49, df = 3,
+p = .68** (see table5_sensitivity.csv); cDAI Q_M = 1.23, p = .541 ns; DPL Q_M = 0.56, p = .755 ns;
 trim-and-fill k = 58 → r = .035, ~53%; Begg p = .0007; fail-safe N = 45,848; FR r̄ = .349, K = 3)
 appear **correctly** in:
 - `thesis/chuong_2_tong_quan_tai_lieu_vi.md` (§ lit-review backbone, line ~178) — incl. the correct
@@ -36,12 +37,16 @@ Two consistent-but-differently-pitched framings coexist:
 
 Both can be true if H5 is defined as "institutions moderate I-P" (the **empirical/P7** confirms the
 concavity gradient at p < .001; P6 confirms only that **regimes differ**, not a monotone gradient).
-**Recommendation (candidate's call, not auto-edited):** where the meta-analysis (P6) is cited for
-H5, state its contribution precisely — "P6 confirms regime *heterogeneity* (Q_M significant); the
-monotone gradient/concavity mechanism is established by the multi-country empirical analysis (P7)."
-This removes any appearance that P6 confirms a gradient its own results decline to support. Note
-`04_05_chapters_results_discussion_vi.md` appears to overlap `chuong_4_*` + `chuong_5_*`; confirm
-which is the canonical chapter file before editing to avoid divergent copies.
+**RESOLVED (2026-05-28).** A drop-FR sensitivity test was added to the meta-analysis pipeline
+(`65_meta_analysis.py` → `table_icrv_dropFR_sensitivity.csv`): removing the 3-study Frontier cell collapses the
+ICRV omnibus from Q_M = 17.35 (p = .002) to **Q_M = 1.49 (df = 3, p = .68)**, i.e., not robust and on
+a par with cDAI/DPL. The manuscripts (EN + VI), `chuong_2`, and `chuong_4` were revised so P6 is cited
+precisely: the literature-level main-effect moderation (institutional **and** digital) is weak/not
+robust, and the institutional contingency is established by the firm-level **conditional interaction**
+(FSTS×ICRV, FSTS²×ICRV, p < .001) in the multi-country empirical analysis (P7). This converts the
+moderator nulls from an apparent weakness into the gap that motivates the dissertation's conditional
+specification. The superseded `04_05_chapters_results_discussion_vi.md` (banner-marked, not for
+submission) was left as-is by design.
 
 ## 3. Scope label — "Asia-Pacific" vs "global/49 economies" ℹ️
 Some dissertation lines label the meta-analysis corpus "châu Á và Thái Bình Dương." The P6
