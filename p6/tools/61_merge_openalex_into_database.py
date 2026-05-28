@@ -23,7 +23,7 @@ import csv
 from pathlib import Path
 
 # Statuses whose DOI we trust enough to publish.
-TRUSTED = {"verified", "title_match"}
+TRUSTED = {"verified", "title_match", "title_corrected"}
 ADDED_COLS = ["oa_doi", "oa_journal", "oa_cited_by", "doi_verified", "oa_match_status"]
 
 

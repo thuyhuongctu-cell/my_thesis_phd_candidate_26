@@ -119,7 +119,7 @@ jobs:
           print("|--------|-------|")
           print(f"| Studies processed | {len(rows)} |")
           print(f"| Resolved OpenAlex DOI | {with_doi} |")
-          for st in ("verified", "title_match", "doi_mismatch_check", "author_year_guess", "not_found"):
+          for st in ("verified", "title_match", "title_corrected", "doi_mismatch_check", "author_year_guess", "not_found"):
               print(f"| {st} | {by.get(st, 0)} |")
           print(f"| **Needs manual check** | **{manual}** |")
           PY

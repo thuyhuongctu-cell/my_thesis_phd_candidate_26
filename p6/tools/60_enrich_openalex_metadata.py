@@ -357,6 +357,14 @@ def main():
         if cand_doi:
             hit = lookup_by_doi(cand_doi); method = "doi"
             time.sleep(RATE_WAIT)
+            # The candidate DOI resolved, but to the WRONG paper (author doesn't
+            # match)? The APA knowledge-based fallback fabricated some DOIs — try
+            # to recover the correct paper by its title before giving up.
+            if hit and cand_title and not author_matches(s["author"], hit):
+                alt = search_by_title(cand_title, s["year"])
+                time.sleep(RATE_WAIT)
+                if alt and author_matches(s["author"], alt):
+                    hit, method = alt, "title_corrected"
         if not hit and cand_title:
             hit = search_by_title(cand_title, s["year"]); method = "title"
             time.sleep(RATE_WAIT)
@@ -385,6 +393,11 @@ def main():
                     row["verify_status"] = "doi_mismatch_check"
                     row["needs_manual_check"] = "yes"
                     counts["doi_mismatch"] += 1
+            elif method == "title_corrected":
+                # candidate DOI was wrong; oa_doi now holds the correct one
+                row["verify_status"] = "title_corrected"
+                row["needs_manual_check"] = "no"
+                counts["title"] += 1
             elif method == "title":
                 row["verify_status"] = "title_match"
                 row["needs_manual_check"] = "no" if author_ok else "yes"
