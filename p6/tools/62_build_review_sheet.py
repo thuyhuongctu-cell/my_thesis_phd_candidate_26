@@ -30,7 +30,7 @@ MAILTO = "huongdt@vlute.edu.vn"
 
 OUT_FIELDS = [
     "study_id", "author", "year", "verify_status",
-    "candidate_doi", "oa_doi_returned", "oa_title_returned", "apa_title",
+    "candidate_doi", "oa_doi_returned", "oa_title_returned", "oa_author_returned", "apa_title",
     "search_openalex_web", "search_openalex_api", "search_scholar",
     "correct_doi", "decision", "notes",
 ]
@@ -107,6 +107,7 @@ def main():
             "candidate_doi": r.get("candidate_doi", ""),
             "oa_doi_returned": r.get("oa_doi", ""),
             "oa_title_returned": r.get("oa_title", ""),
+            "oa_author_returned": r.get("oa_first_author", ""),
             "apa_title": title,
             "search_openalex_web": web,
             "search_openalex_api": api,

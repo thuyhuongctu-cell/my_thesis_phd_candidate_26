@@ -74,7 +74,7 @@ SELECT_FIELDS = ",".join([
 OUTPUT_FIELDS = [
     "study_id", "author", "year",
     "candidate_doi", "oa_doi", "oa_id",
-    "oa_title", "oa_year", "oa_journal",
+    "oa_title", "oa_year", "oa_journal", "oa_first_author",
     "cited_by_count", "is_oa", "oa_url",
     "match_method", "title_overlap", "verify_status", "needs_manual_check",
 ]
@@ -347,7 +347,7 @@ def main():
             "study_id": s["study_id"], "author": s["author"], "year": s["year"],
             "candidate_doi": cand_doi,
             "oa_doi": "", "oa_id": "", "oa_title": "", "oa_year": "",
-            "oa_journal": cand.get("journal", ""),
+            "oa_journal": cand.get("journal", ""), "oa_first_author": "",
             "cited_by_count": "", "is_oa": "", "oa_url": "",
             "match_method": "", "title_overlap": "",
             "verify_status": "", "needs_manual_check": "no",
@@ -368,6 +368,7 @@ def main():
             row.update({k: hit[k] for k in (
                 "oa_doi", "oa_id", "oa_title", "oa_year",
                 "oa_journal", "cited_by_count", "is_oa", "oa_url") if hit.get(k) != ""})
+            row["oa_first_author"] = hit.get("_first_author", "")
             row["match_method"] = method
             row["title_overlap"] = hit.get("_title_overlap", "")
 
