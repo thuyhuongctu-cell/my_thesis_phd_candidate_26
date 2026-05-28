@@ -13,60 +13,60 @@ S07,S07,Wan,1998,0.13,64,Hong Kong,1990,1995,I,1,L,PRE,GEO,ACC,1,0,APJM,,,none
 S08,S08_e1,Gomes & Ramaswamy,1999,0.149,95,USA,1989,1995,I,1,L,PRE,FSTS,ACC,1,0,JIBS; inverted-U,,,none
 S08,S08_e2,Gomes & Ramaswamy,1999,-0.45,95,USA,1989,1995,I,1,L,PRE,FSTS,ACC,1,0,JIBS; inverted-U,,,none
 S09,S09,Li,2001,0.07,1684,Multi,1993,1997,MX,0,L,PRE,GEO,ACC,1,0,JIE,,,none
-S10,S10,Qian,2002,0.43,71,USA/Multi,1996,1999,I,1,L,PRE,COMP,ACC,1,0,JBV,,,review
+S10,S10,Qian,2002,0.43,71,USA/Multi,1996,1999,I,1,L,PRE,COMP,ACC,1,0,JBV,10.1016/s0883-9026(01)00079-5,references,review
 S11,S11,Capar & Kotabe,2003,0.341,81,Germany,1996,1999,I,1,L,PRE,FSTS,ACC,1,0,Services JIBS,10.1057/palgrave.jibs.8400036,references+openalex,high
 S12,S12,Hsu & Boggs,2003,0.4435,118,Taiwan,1996,2001,I,1,L,PRE,FSTS,ACC,1,0,8 effects,10.1108/1525383x200300015,references,medium
 S13,S13,Ruigrok & Wagner,2003,-0.1425,252,Germany,1993,2000,I,1,L,PRE,FSTS,ACC,1,0,JIBS; 4 effects,,,none
 S14,S14_e1,Majocchi & Zucchella,2003,0.06,220,Italy,1997,2000,II,2,L,PRE,EXP,ACC,1,0,Italian SMEs,10.1177/0266242603021003001,references,medium
 S14,S14_e2,Majocchi & Zucchella,2003,0.11,220,Italy,1997,2000,II,2,L,PRE,EXP,ACC,1,0,Italian SMEs,10.1177/0266242603021003001,references,medium
 S15,S15,Carpenter & Sanders,2004,0.27,224,USA,1997,2000,I,1,L,PRE,FSTS,ACC,1,0,Upper Echelons,10.1016/j.jm.2004.02.001,references+openalex+corpus,high
-S16,S16,Kim et al.,2004,-0.0355,295,Korea,1997,2001,I,1,L,PRE,GEO,ACC,1,0,Korean firms 4 eff,,,none
+S16,S16,Kim et al.,2004,-0.0355,295,Korea,1997,2001,I,1,L,PRE,GEO,ACC,1,0,Korean firms 4 eff,10.21739/ibr.2005.12.9.2.381,corpus_suggested,suggested
 S17,S17,Lu & Beamish,2004,-0.06,1489,Japan,1986,1997,I,1,L,PRE,GEO,ACC,1,0,SMJ; S-curve,10.2307/20159604,references,medium
 S18,S18,Thomas & Eden,2004,0.08,151,USA,1998,2002,I,1,L,PRE,FSTS,ACC,1,0,MBR; 4 effects,10.1108/1525383x200400005,references+openalex,high
 S19,S19,Chiao et al.,2006,0.056,1419,Taiwan,1998,2002,I,1,L,PRE,EXP,ACC,1,0,Taiwan SMEs,10.1007/s11187-005-5604-6,references+openalex+corpus,high
 S20,S20_e1,Elango,2006,0.125,326,USA,1998,2003,I,1,L,PRE,FSTS,MIX,1,0,MBR 2 subsamples,10.1108/1525383x200600015,references,medium
 S20,S20_e2,Elango,2006,0.226,393,USA,1998,2003,I,1,L,PRE,FSTS,MIX,1,0,MBR 2 subsamples,10.1108/1525383x200600015,references,medium
 S21,S21,Hsu,2006,0.369,255,Taiwan,1999,2003,I,1,L,PRE,FSTS,ACC,1,0,,,,none
-S22,S22,Thomas,2006,0.027,386,Mexico,1999,2003,III,3,L,PRE,EXP,ACC,1,0,Mexico firms,,,review
-S23,S23_e1,Chari et al.,2007,0.25,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,,,review
-S23,S23_e2,Chari et al.,2007,0.37,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,,,review
+S22,S22,Thomas,2006,0.027,386,Mexico,1999,2003,III,3,L,PRE,EXP,ACC,1,0,Mexico firms,10.1016/j.jbusres.2005.09.008,references,review
+S23,S23_e1,Chari et al.,2007,0.25,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,10.1016/j.jwb.2007.02.007,references,review
+S23,S23_e2,Chari et al.,2007,0.37,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,10.1016/j.jwb.2007.02.007,references,review
 S24,S24,Fortanier et al.,2007,0.1,332,Multi,2000,2004,MX,0,L,PRE,FSTS,ACC,1,0,Host-country focus,10.5465/ambpp.2007.26508474,references,medium
 S25,S25,Kumar & Gaur,2007,0.343,240,India,2000,2004,III,3,L,PRE,GEO,ACC,1,0,Indian groups,10.1002/tie.20217,openalex+corpus,high
-S26,S26,Ruigrok et al.,2007,-0.138,87,Switzerland,2000,2004,I,1,L,PRE,FSTS,ACC,1,0,Swiss firms,10.1007/s11575-007-0020-6,openalex+corpus,high
+S26,S26,Ruigrok et al.,2007,-0.138,87,Switzerland,2000,2004,I,1,L,PRE,FSTS,ACC,1,0,Swiss firms,10.1007/s11575-007-0015-4,references,review
 S27,S27,Richter,2007,-0.058,85,Germany,2000,2004,I,1,L,PRE,FSTS,ACC,1,0,,,,none
 S28,S28_e1,Vilas-Boas & González,2007,-0.13,291,Spain,2000,2004,II,2,L,PRE,EXP,ACC,1,0,Spanish firms,10.1300/j037v16n01_07,openalex,medium
 S28,S28_e2,Vilas-Boas & González,2007,0.17,291,Spain,2000,2004,II,2,L,PRE,EXP,ACC,1,0,Spanish firms,10.1300/j037v16n01_07,openalex,medium
 S29,S29,Bae et al.,2008,0.06,672,Korea,2001,2005,I,1,L,PRE,FSTS,ACC,1,0,5 effects,10.1108/1525383x200800003,references+openalex,high
-S30,S30_e1,Brock & Yaffe,2008,-0.04,89,Israel,2001,2005,I,1,L,PRE,GEO,ACC,1,0,4 effects,,,review
-S30,S30_e2,Brock & Yaffe,2008,0.08,89,Israel,2001,2005,I,1,L,PRE,GEO,ACC,1,0,4 effects,,,review
+S30,S30_e1,Brock & Yaffe,2008,-0.04,89,Israel,2001,2005,I,1,L,PRE,GEO,ACC,1,0,4 effects,10.1016/j.ibusrev.2008.08.001,references,review
+S30,S30_e2,Brock & Yaffe,2008,0.08,89,Israel,2001,2005,I,1,L,PRE,GEO,ACC,1,0,4 effects,10.1016/j.ibusrev.2008.08.001,references,review
 S31,S31_e1,Kumar & Singh,2008,-0.145,75,India,2001,2005,III,3,L,PRE,EXP,LAB,1,0,India mfg,10.1002/tie.20217,openalex+corpus,high
 S31,S31_e2,Kumar & Singh,2008,-0.3,75,India,2001,2005,III,3,L,PRE,EXP,LAB,1,0,India mfg,10.1002/tie.20217,openalex+corpus,high
-S32,S32_e1,Pangarkar,2008,0.247,94,Singapore,2001,2005,I,1,L,PRE,FSTS,ACC,1,0,Singapore listed,,,none
-S32,S32_e2,Pangarkar,2008,0.286,94,Singapore,2001,2005,I,1,L,PRE,FSTS,ACC,1,0,Singapore listed,,,none
+S32,S32_e1,Pangarkar,2008,0.247,94,Singapore,2001,2005,I,1,L,PRE,FSTS,ACC,1,0,Singapore listed,10.1016/j.jwb.2007.11.009,corpus_suggested,suggested
+S32,S32_e2,Pangarkar,2008,0.286,94,Singapore,2001,2005,I,1,L,PRE,FSTS,ACC,1,0,Singapore listed,10.1016/j.jwb.2007.11.009,corpus_suggested,suggested
 S33,S33,Qian et al.,2008,0.232,189,USA/Multi,2001,2005,I,1,L,PRE,GEO,ACC,1,0,,,,none
 S34,S34,Garbe & Richter,2009,-0.085,85,Germany,2002,2006,I,1,L,PRE,FSTS,ACC,1,0,3 effects,10.1016/j.intman.2009.01.003,references,medium
-S35,S35,Gaur & Kumar,2009,-0.075,240,India,2002,2006,III,3,L,PRE,GEO,ACC,1,0,India business groups,10.1111/j.1467-8551.2007.00558.x,openalex+corpus,high
-S36,S36,Pattnaik & Elango,2009,-0.02,787,India,2002,2006,III,3,L,PRE,EXP,ACC,1,0,India exporters,10.1108/1525383x200900010,openalex+corpus,high
+S35,S35,Gaur & Kumar,2009,-0.075,240,India,2002,2006,III,3,L,PRE,GEO,ACC,1,0,India business groups,10.1111/j.1467-8551.2008.00558.x,references,review
+S36,S36,Pattnaik & Elango,2009,-0.02,787,India,2002,2006,III,3,L,PRE,EXP,ACC,1,0,India exporters,10.1108/1525383x200900012,references,review
 S37,S37,Ciszewska-Mlinaric & Mlinaric,2010,0.133,67,Poland,2004,2008,II,2,L,SPN,EXP,ACC,1,0,Polish SMEs 6 eff,10.2478/v10051-010-0017-y,references,medium
 S38,S38,Chao & Kumar,2010,0.169,500,Multi,2004,2007,MX,0,L,SPN,COMP,ACC,1,0,Inst.distance mod,10.1016/j.jwb.2009.04.005,references+openalex,high
 S39,S39,Chen & Hsu,2010,0.164,224,Taiwan,2004,2008,I,1,L,SPN,FSTS,ACC,1,0,,10.1016/j.indmarman.2009.10.001,references,medium
-S40,S40_e1,Pan et al.,2010,0.05,332,China/Multi,2004,2008,III,3,L,SPN,FSTS,ACC,1,0,,,,none
-S40,S40_e2,Pan et al.,2010,0.07,332,China/Multi,2004,2008,III,3,L,SPN,FSTS,ACC,1,0,,,,none
-S41,S41,Nielsen,2010,0.09,165,Denmark,2003,2008,I,1,L,SPN,FSTS,ACC,1,0,Danish firms,,,none
+S40,S40_e1,Pan et al.,2010,0.05,332,China/Multi,2004,2008,III,3,L,SPN,FSTS,ACC,1,0,,10.5897/ajbm.9000363,corpus_suggested,suggested
+S40,S40_e2,Pan et al.,2010,0.07,332,China/Multi,2004,2008,III,3,L,SPN,FSTS,ACC,1,0,,10.5897/ajbm.9000363,corpus_suggested,suggested
+S41,S41,Nielsen,2010,0.09,165,Denmark,2003,2008,I,1,L,SPN,FSTS,ACC,1,0,Danish firms,10.1108/s1571-5027(2010)00000230028,corpus_suggested,suggested
 S42,S42,Chiao & Yang,2011,-0.022,3194,Taiwan,2004,2009,I,1,L,SPN,FSTS,ACC,1,0,Large sample,10.1504/ijesb.2011.043273,references,medium
 S43,S43,Endo & Ozaki,2011,-0.054,316,Japan,2004,2009,I,1,L,SPN,FSTS,ACC,1,0,Japanese firms,10.1057/abm.2011.27,references,medium
 S44,S44,Lin et al.,2011,-0.1,179,Taiwan,2005,2009,I,1,L,SPN,FSTS,ACC,1,0,,10.1016/j.intman.2010.12.004,references,medium
-S45,S45_e1,Zhang & Toppinen,2011,0.25,50,China,2005,2009,III,3,L,SPN,EXP,ACC,1,0,Forestry sector,,,none
-S45,S45_e2,Zhang & Toppinen,2011,0.31,50,China,2005,2009,III,3,L,SPN,EXP,ACC,1,0,Forestry sector,,,none
+S45,S45_e1,Zhang & Toppinen,2011,0.25,50,China,2005,2009,III,3,L,SPN,EXP,ACC,1,0,Forestry sector,10.1505/ifor.13.1.96,corpus_suggested,suggested
+S45,S45_e2,Zhang & Toppinen,2011,0.31,50,China,2005,2009,III,3,L,SPN,EXP,ACC,1,0,Forestry sector,10.1505/ifor.13.1.96,corpus_suggested,suggested
 S46,S46,Assaf et al.,2012,-0.29,43,Multi/Hotels,2005,2010,MX,0,L,SPN,FSTS,ACC,1,0,Hotel industry,10.1016/j.ijhm.2011.05.003,references,medium
 S47,S47,Almodóvar,2012,0.018,1067,Spain,2005,2010,II,2,L,SPN,EXP,ACC,1,0,Spanish mfg,10.1108/15253831211286246,corpus,medium
-S48,S48,Chang et al.,2012,0.18,335,Taiwan,2006,2010,I,1,L,SPN,FSTS,ACC,1,0,,,,none
+S48,S48,Chang et al.,2012,0.18,335,Taiwan,2006,2010,I,1,L,SPN,FSTS,ACC,1,0,,10.1016/j.intman.2012.12.003,corpus_suggested,suggested
 S49,S49_e1,Chen & Tan,2012,-0.011,887,China,2006,2010,III,3,L,SPN,EXP,ACC,1,0,3 effects,,,none
 S49,S49_e2,Chen & Tan,2012,0.171,887,China,2006,2010,III,3,L,SPN,EXP,ACC,1,0,3 effects,,,none
 S49,S49_e3,Chen & Tan,2012,0.24,887,China,2006,2010,III,3,L,SPN,EXP,ACC,1,0,3 effects,,,none
 S50,S50,Li et al.,2012,0.135,278,China,2006,2010,III,3,L,SPN,GEO,ACC,1,0,,,,none
-S51,S51_e1,Pan & Tsai,2012,0.05,281,Taiwan,2006,2010,I,1,L,SPN,FSTS,ACC,1,0,Family firms,,,none
-S51,S51_e2,Pan & Tsai,2012,0.07,281,Taiwan,2006,2010,I,1,L,SPN,FSTS,ACC,1,0,Family firms,,,none
+S51,S51_e1,Pan & Tsai,2012,0.05,281,Taiwan,2006,2010,I,1,L,SPN,FSTS,ACC,1,0,Family firms,10.1016/j.ibusrev.2012.01.006,corpus_suggested,suggested
+S51,S51_e2,Pan & Tsai,2012,0.07,281,Taiwan,2006,2010,I,1,L,SPN,FSTS,ACC,1,0,Family firms,10.1016/j.ibusrev.2012.01.006,corpus_suggested,suggested
 S52,S52,Polat & Mutlu,2012,0.266,103,Turkey,2006,2010,III,3,L,SPN,EXP,ACC,1,0,Turkish firms,10.1108/09699981211205849,references,medium
 S53,S53_e1,Tsao & Chen,2012,0.096,790,Taiwan,2006,2010,I,1,L,SPN,FSTS,ACC,1,0,Family firm 2 eff,,,review
 S53,S53_e2,Tsao & Chen,2012,0.122,790,Taiwan,2006,2010,I,1,L,SPN,FSTS,ACC,1,0,Family firm 2 eff,,,review
@@ -79,38 +79,38 @@ S57,S57_e1,Tsao & Lien,2013,0.033,776,Taiwan,2007,2011,I,1,M,SPN,FSTS,ACC,1,0,Fa
 S57,S57_e2,Tsao & Lien,2013,0.068,776,Taiwan,2007,2011,I,1,M,SPN,FSTS,ACC,1,0,Family firms 2 eff,,,review
 S58,S58,Xiao et al.,2013,-0.034,114398,China,2004,2008,III,3,L,SPN,EXP,LAB,1,0,Large sample; WBES?,,,none
 S59,S59,De Jong & van Houten,2014,0.22,568,Netherlands,2007,2011,I,1,M,SPN,GEO,ACC,1,0,,,,none
-S60,S60_e1,Hilmersson,2014,0.04,180,Sweden/SME,2008,2012,I,1,M,SPN,COMP,ACC,1,0,3 effects,,,review
-S60,S60_e2,Hilmersson,2014,0.16,180,Sweden/SME,2008,2012,I,1,M,SPN,COMP,ACC,1,0,3 effects,,,review
-S60,S60_e3,Hilmersson,2014,0.27,180,Sweden/SME,2008,2012,I,1,M,SPN,COMP,ACC,1,0,3 effects,,,review
-S61,S61,Graves & Shan,2014,-0.07,4217,Australia,2007,2012,I,1,M,SPN,FSTS,ACC,1,0,Large sample,,,review
+S60,S60_e1,Hilmersson,2014,0.04,180,Sweden/SME,2008,2012,I,1,M,SPN,COMP,ACC,1,0,3 effects,10.1177/0266242613485778,references,review
+S60,S60_e2,Hilmersson,2014,0.16,180,Sweden/SME,2008,2012,I,1,M,SPN,COMP,ACC,1,0,3 effects,10.1177/0266242613485778,references,review
+S60,S60_e3,Hilmersson,2014,0.27,180,Sweden/SME,2008,2012,I,1,M,SPN,COMP,ACC,1,0,3 effects,10.1177/0266242613485778,references,review
+S61,S61,Graves & Shan,2014,-0.07,4217,Australia,2007,2012,I,1,M,SPN,FSTS,ACC,1,0,Large sample,10.1177/0894486513510534,references,review
 S62,S62,Lee et al.,2014,0.383,279,Korea SME,2008,2012,I,1,M,SPN,EXP,ACC,1,0,Korean SMEs,10.1108/ijchm-09-2012-0173,corpus,medium
-S63,S63,Zhou & Wu,2014,0.15,376,China,2007,2012,III,3,L,SPN,EXP,ACC,1,0,China tech,,,review
-S64,S64,Nguyen & Rugman,2015,0.2175,101,Vietnam,2009,2013,III,3,L,SPN,FSTS,ACC,1,0,4 effects,,,none
+S63,S63,Zhou & Wu,2014,0.15,376,China,2007,2012,III,3,L,SPN,EXP,ACC,1,0,China tech,10.1016/j.jwb.2013.04.003,references,review
+S64,S64,Nguyen & Rugman,2015,0.2175,101,Vietnam,2009,2013,III,3,L,SPN,FSTS,ACC,1,0,4 effects,10.1017/mor.2016.13,corpus_suggested,suggested
 S65,S65,Ren et al.,2015,0.09,176,China,2009,2013,III,3,L,SPN,EXP,ACC,1,0,,,,none
 S66,S66,Chen et al.,2015,-0.038,118,Taiwan,2009,2013,I,1,M,SPN,FSTS,ACC,1,0,,,,none
 S67,S67,Da Huo & Hung,2015,0.01,316,Taiwan,2009,2013,I,1,M,SPN,FSTS,ACC,1,0,,,,none
 S68,S68,Benito-Osorio et al.,2015,-0.09,2748,Spain,2007,2012,II,2,L,SPN,EXP,ACC,1,0,Spanish mfg large,10.1016/j.ibusrev.2015.03.003,references,medium
-S69,S69,Altaf & Shah,2016,0.08,180,Pakistan,2009,2014,FR,6,L,SPN,EXP,ACC,1,0,Pakistan firms,,,none
+S69,S69,Altaf & Shah,2016,0.08,180,Pakistan,2009,2014,FR,6,L,SPN,EXP,ACC,1,0,Pakistan firms,10.1016/j.psrb.2016.05.002,corpus_suggested,suggested
 S70,S70,Assaf et al.,2016,0.009,68,Multi/Hotels,2009,2014,MX,0,L,SPN,FSTS,ACC,1,0,Hotels replication,10.1016/j.annals.2015.12.008,references,medium
-S71,S71,Berry & Kaul,2016,0.04,2023,Multi,2005,2012,MX,0,M,SPN,FSTS,MIX,1,0,Replication study,,,review
+S71,S71,Berry & Kaul,2016,0.04,2023,Multi,2005,2012,MX,0,M,SPN,FSTS,MIX,1,0,Replication study,10.1002/smj.2429,references,review
 S72,S72,Brida et al.,2016,-0.032,82,Italy,2009,2014,II,2,L,SPN,FSTS,ACC,1,0,Italy hotels,10.1108/ijchm-10-2014-0517,references,medium
 S73,S73,Cantele et al.,2016,0.04,1231,Italy,2009,2014,II,2,L,SPN,EXP,ACC,1,0,Italian SMEs,,,none
-S74,S74,Miller et al.,2016,-0.0635,2692,Multi,2005,2013,MX,0,M,SPN,COMP,MIX,1,0,3 effects,10.1016/j.ibusrev.2015.12.003,openalex+corpus,high
-S75,S75_e1,Mohr & Batsakis,2016,0.03,110,Multi,2008,2014,MX,0,M,SPN,FSTS,ACC,1,0,Internation speed,10.1007/s11575-016-0284-9,openalex+corpus,high
-S75,S75_e2,Mohr & Batsakis,2016,0.05,110,Multi,2008,2014,MX,0,M,SPN,FSTS,ACC,1,0,Internation speed,10.1007/s11575-016-0284-9,openalex+corpus,high
+S74,S74,Miller et al.,2016,-0.0635,2692,Multi,2005,2013,MX,0,M,SPN,COMP,MIX,1,0,3 effects,10.1016/j.ibusrev.2015.12.001,references,review
+S75,S75_e1,Mohr & Batsakis,2016,0.03,110,Multi,2008,2014,MX,0,M,SPN,FSTS,ACC,1,0,Internation speed,10.1007/s11575-016-0284-7,references,review
+S75,S75_e2,Mohr & Batsakis,2016,0.05,110,Multi,2008,2014,MX,0,M,SPN,FSTS,ACC,1,0,Internation speed,10.1007/s11575-016-0284-7,references,review
 S76,S76,Upadhyayula et al.,2016,0.354,98,India,2009,2014,III,3,L,SPN,EXP,ACC,1,0,India board,10.1108/jibr-10-2015-0087,references,medium
-S77,S77,Borda et al.,2017,0.04,103,Latin America,2010,2015,III,3,L,SPN,FSTS,ACC,1,0,Latin Am.,,,review
+S77,S77,Borda et al.,2017,0.04,103,Latin America,2010,2015,III,3,L,SPN,FSTS,ACC,1,0,Latin Am.,10.1016/j.jbusres.2016.11.021,references,review
 S78,S78,Buckley & Tian,2017,-0.031,221,China,2010,2015,III,3,L,SPN,FSTS,ACC,1,0,China MNEs,,,none
 S79,S79,Ganvir & Dwivedi,2017,0.0455,411,India,2010,2015,III,3,L,SPN,EXP,ACC,1,0,India 3 effects,10.1108/sajbs-03-2016-0020,references,medium
 S80,S80_e1,Jin et al.,2017,-0.02,401,China,2010,2015,III,3,L,SPN,EXP,ACC,1,0,,,,none
 S80,S80_e2,Jin et al.,2017,-0.03,401,China,2010,2015,III,3,L,SPN,EXP,ACC,1,0,,,,none
 S81,S81,Nosi et al.,2017,0.305,169,Italy SME,2010,2015,II,2,L,SPN,EXP,ACC,1,0,Niche exporters,10.7433/s102.2017.04,references,medium
-S82,S82,Purkayastha et al.,2017,0.029,185,India,2010,2015,III,3,L,SPN,FSTS,ACC,1,0,India conglomerates,,,review
-S83,S83,Abdi & Aulakh,2018,0.09,2620,Multi/Emg,2010,2015,MX,0,M,SPN,FSTS,ACC,1,0,JIBS emerging mkt,,,review
+S82,S82,Purkayastha et al.,2017,0.029,185,India,2010,2015,III,3,L,SPN,FSTS,ACC,1,0,India conglomerates,10.1016/j.jwb.2018.03.006,references,review
+S83,S83,Abdi & Aulakh,2018,0.09,2620,Multi/Emg,2010,2015,MX,0,M,SPN,FSTS,ACC,1,0,JIBS emerging mkt,10.1057/s41267-017-0117-9,references,review
 S84,S84,Booltink & Saka-Helmhout,2018,-0.048,947,Multi,2010,2015,MX,0,M,SPN,OTH,ACC,1,0,R&D mod.,10.1111/jsbm.12393,references,medium
 S85,S85,Cho & Lee,2018,-0.029,232,Korea,2010,2015,I,1,H,SPN,FSTS,ACC,1,0,"Family firms Korea; cDAI=H (Korea advanced digital, post-2010; corrected from M)",10.1108/mrr-06-2017-0175,references,medium
 S86,S86,Pouresmaeili et al.,2018,0.69,226,Iran,2011,2016,FR,6,L,SPN,EXP,ACC,1,0,Iran SMEs high r,10.1504/ijbg.2018.095267,references,medium
-S87,S87,Hojnik et al.,2018,0.035,267,Slovenia,2010,2015,I,1,M,SPN,EXP,ACC,1,0,Slovenia; 7 eff,,,review
+S87,S87,Hojnik et al.,2018,0.035,267,Slovenia,2010,2015,I,1,M,SPN,EXP,ACC,1,0,Slovenia; 7 eff,10.1080/1331677x.2018.1504673,references,review
 S88,S88,Thi Ngoc Huynh et al.,2018,-0.051,12704,Vietnam,2009,2015,III,3,L,SPN,EXP,LAB,1,0,WBES-based,,,none
 S89,S89_e1,Velez-Calle et al.,2018,-0.14,147,Latin America,2011,2016,III,3,L,SPN,FSTS,ACC,1,0,Latin Am. MNEs,10.1108/ijoem-11-2016-0298,references,medium
 S89,S89_e2,Velez-Calle et al.,2018,0.05,147,Latin America,2011,2016,III,3,L,SPN,FSTS,ACC,1,0,Latin Am. MNEs,10.1108/ijoem-11-2016-0298,references,medium
@@ -120,7 +120,7 @@ S92,S92,Feng et al.,2019,0.029,170,China,2012,2017,III,3,L,FOL,EXP,ACC,1,0,,,,no
 S93,S93,Juniati et al.,2019,0.37,300,Indonesia,2012,2017,III,3,L,FOL,EXP,ACC,1,0,Indonesia firms,,,none
 S94,S94_e1,Lee et al.,2019,-0.015,91,Korea,2013,2017,I,1,M,FOL,FSTS,ACC,1,0,2 effects,10.18178/ijtef.2019.10.3.645,references,medium
 S94,S94_e2,Lee et al.,2019,-0.09,91,Korea,2013,2017,I,1,M,FOL,FSTS,ACC,1,0,2 effects,10.18178/ijtef.2019.10.3.645,references,medium
-S95,S95,Meyer et al.,2019,0.52,18,Multi,2013,2017,MX,0,M,FOL,COMP,ACC,1,0,Small n; caution,,,none
+S95,S95,Meyer et al.,2019,0.52,18,Multi,2013,2017,MX,0,M,FOL,COMP,ACC,1,0,Small n; caution,10.18461/ijfsd.v10i4.22,corpus_suggested,suggested
 S96,S96,Tashman et al.,2019,0.41,17,USA/CSR,2012,2017,I,1,H,FOL,FSTS,ACC,1,0,CSR mod.; small n,10.1057/s41267-018-0197-4,references,medium
 S97,S97_e1,Woo et al.,2019,0.19,107,Korea,2013,2017,I,1,H,FOL,FSTS,ACC,1,0,,,,none
 S97,S97_e2,Woo et al.,2019,0.19,107,Korea,2013,2017,I,1,H,FOL,FSTS,ACC,1,0,,,,none
@@ -131,7 +131,7 @@ S99,S99_e2,Phan et al.,2020,-0.152,285,Vietnam,2013,2018,III,3,L,FOL,EXP,LAB,1,0
 S100,S100,Tu et al.,2020,-0.021,263,China/Taiwan,2013,2018,III,3,L,FOL,EXP,ACC,1,0,,,,none
 S101,S101_e1,Freixanet & Rialp,2021,0.066,1064,Spain,2013,2018,II,2,M,FOL,EXP,ACC,1,0,Spain SMEs,10.1002/gsj.1412,references,medium
 S101,S101_e2,Freixanet & Rialp,2021,0.087,1064,Spain,2013,2018,II,2,M,FOL,EXP,ACC,1,0,Spain SMEs,10.1002/gsj.1412,references,medium
-S102,S102,Kongkaew et al.,2021,0.059,80,Thailand,2014,2018,III,3,L,FOL,EXP,ACC,1,0,Thailand SMEs,,,none
+S102,S102,Kongkaew et al.,2021,0.059,80,Thailand,2014,2018,III,3,L,FOL,EXP,ACC,1,0,Thailand SMEs,10.3390/ijfs9030037,corpus_suggested,suggested
 S103,S103,Nath et al.,2021,0.196,73,India/Multi,2014,2018,III,3,L,FOL,EXP,ACC,1,0,,,,none
 S104,S104,Tu et al.,2021,-0.093,131,Vietnam,2014,2019,III,3,L,FOL,FSTS,ACC,1,0,,,,none
 S105,S105,Tu,2021,-0.056,189,Vietnam,2013,2018,III,3,L,FOL,EXP,LAB,1,0,WBES-based,,,none
@@ -139,7 +139,7 @@ S106,S106,Tu & Anh,2021,-0.051,90,Vietnam,2014,2018,III,3,L,FOL,EXP,ACC,1,0,,,,n
 S107,S107_e1,Song & Lee,2021,0.05,44,Korea,2014,2019,I,1,H,FOL,FSTS,ACC,1,0,,,,none
 S107,S107_e2,Song & Lee,2021,0.14,70,Korea,2014,2019,I,1,H,FOL,FSTS,ACC,1,0,,,,none
 S108,S108,Wei & Lin,2021,0.04,2175,China,2014,2019,III,3,L,FOL,EXP,ACC,1,0,Large sample,10.1155/2021/5528972,references,medium
-S109,S109,Purkayastha & Gupta,2022,0.04,419,India,2015,2020,III,3,L,FOL,FSTS,ACC,1,0,India family groups,,,review
+S109,S109,Purkayastha & Gupta,2022,0.04,419,India,2015,2020,III,3,L,FOL,FSTS,ACC,1,0,India family groups,10.1007/s10490-022-09809-w,corpus_suggested,suggested
 S110,S110_e1,Putri & Pan,2022,0.003,407,Indonesia,2015,2020,III,3,L,FOL,EXP,ACC,1,0,Indonesia mfg,10.1080/23311975.2022.2079802,references,medium
 S110,S110_e2,Putri & Pan,2022,0.012,407,Indonesia,2015,2020,III,3,L,FOL,EXP,ACC,1,0,Indonesia mfg,10.1080/23311975.2022.2079802,references,medium
 S111,S111,Daniels & Bracker,1989,0.05,32,USA,1980,1986,I,1,L,PRE,FSTS,ACC,1,0,MIR; profit vs. intl,,,none
@@ -148,13 +148,13 @@ S113,S113,"Kim, Hwang & Burgers",1993,0.035,85,USA,1984,1989,I,1,L,PRE,COMP,ACC,
 S114,S114,Sullivan,1994,0.09,74,USA,1986,1991,I,1,L,PRE,COMP,ACC,1,0,JIBS; DOI measurement,,,none
 S115,S115,Ramaswamy,1995,0.07,180,USA,1985,1991,I,1,L,PRE,GEO,ACC,1,0,JIBS; multinationality,,,none
 S116,S116,Delios & Beamish,1999,0.09,399,Japan,1986,1997,I,1,L,PRE,GEO,ACC,1,0,SMJ; Japanese firms,,,none
-S117,S117,Lu & Beamish,2001,0.09,1489,Japan SMEs,1986,1997,I,1,L,PRE,GEO,ACC,1,0,SMJ; Japanese SMEs,,,none
+S117,S117,Lu & Beamish,2001,0.09,1489,Japan SMEs,1986,1997,I,1,L,PRE,GEO,ACC,1,0,SMJ; Japanese SMEs,10.1002/smj.184,corpus_suggested,suggested
 S118,S118,"Contractor, Kundu & Hsu",2003,0.07,103,Multi/Service,1993,1999,I,1,L,PRE,FSTS,ACC,1,0,JIBS; S-curve; 3 samples,,,none
 S119,S119,"Bloodgood, Sapienza & Almeida",1996,0.05,61,USA,1988,1993,I,1,L,PRE,EXP,ACC,1,0,EME; new ventures,,,none
 S120,S120,Pangarkar & Yuan,2009,0.12,150,Singapore/Asia,2003,2007,I,1,L,PRE,FSTS,ACC,1,0,JIM; Singapore/HK,,,none
-S121,S121,"Gaur, Kumar & Singh",2014,0.09,240,India,2007,2012,III,3,L,SPN,GEO,ACC,1,0,JWB; India institutions,,,none
-S122,S122,Luo & Tung,2015,0.11,285,China,2008,2013,III,3,L,SPN,GEO,ACC,1,0,China EMNEs,,,none
-S123,S123,"García-García, García-Canal & Guillén",2017,0.15,2256,Spain/Multi,2005,2014,II,2,M,SPN,GEO,ACC,1,0,BJM; rapid intl,,,none
+S121,S121,"Gaur, Kumar & Singh",2014,0.09,240,India,2007,2012,III,3,L,SPN,GEO,ACC,1,0,JWB; India institutions,10.1007/s11575-015-0240-0,corpus_suggested,suggested
+S122,S122,Luo & Tung,2015,0.11,285,China,2008,2013,III,3,L,SPN,GEO,ACC,1,0,China EMNEs,10.1016/j.jwb.2015.06.001,corpus_suggested,suggested
+S123,S123,"García-García, García-Canal & Guillén",2017,0.15,2256,Spain/Multi,2005,2014,II,2,M,SPN,GEO,ACC,1,0,BJM; rapid intl,10.1016/j.jwb.2016.09.005,corpus_suggested,suggested
 S124,S124,"Klier, Schwens, Zapkau & Dikova",2017,0.08,350,Multi,2005,2014,MX,0,M,SPN,COMP,ACC,1,0,JMS; resources meta-reg,,,none
 S125,S125,Arte & Larimo,2022,0.115,1200,Multi/Europe,2005,2018,MX,0,M,FOL,COMP,MIX,1,0,JBR; product div mod,10.1016/j.jbusres.2021.09.060,references,medium
 S126,S126,"Schmuck, Lagerström & Sallis",2022,0.06,500,Sweden/Multi,2010,2018,I,1,H,FOL,FSTS,ACC,1,0,MIR; reverse causality,10.1007/s11575-022-00464-3,references,medium
@@ -177,9 +177,9 @@ S139,S139_e2,"Aulakh, Kotabe & Teegen",2000,0.17,163,EME,1990,1996,III,3,L,PRE,E
 S140,S140,"Kotabe, Srinivasan & Aulakh",2002,0.07,167,USA,1985,1993,I,1,L,PRE,GEO,ACC,1,0,JIBS; R&D moderates,,,none
 S141,S141,"Denis, Denis & Yost",2002,-0.06,3659,USA,1984,1997,I,1,L,PRE,GEO,MKT,1,0,JF; global vs industrial div,,,none
 S142,S142,Gomez-Mejia & Palich,1997,-0.08,356,Multi,1985,1994,I,1,L,PRE,COMP,ACC,1,0,JIBS; cultural distance negative,,,none
-S143,S143_e1,Chang & Wang,2007,0.05,150,Taiwan,1996,2003,I,1,L,PRE,FSTS,ACC,1,0,JWB; product × intl div,,,none
-S143,S143_e2,Chang & Wang,2007,0.18,150,Taiwan,1996,2003,I,1,L,PRE,FSTS,ACC,1,0,JWB; product × intl div,,,none
-S144,S144,Pangarkar,2008,0.08,150,Singapore,2001,2004,I,1,M,SPN,GEO,ACC,1,0,JWB; SME Singapore,,,none
+S143,S143_e1,Chang & Wang,2007,0.05,150,Taiwan,1996,2003,I,1,L,PRE,FSTS,ACC,1,0,JWB; product × intl div,10.1057/palgrave.abm.9200228,corpus_suggested,suggested
+S143,S143_e2,Chang & Wang,2007,0.18,150,Taiwan,1996,2003,I,1,L,PRE,FSTS,ACC,1,0,JWB; product × intl div,10.1057/palgrave.abm.9200228,corpus_suggested,suggested
+S144,S144,Pangarkar,2008,0.08,150,Singapore,2001,2004,I,1,M,SPN,GEO,ACC,1,0,JWB; SME Singapore,10.1016/j.jwb.2007.11.009,corpus_suggested,suggested
 S145,S145_e1,"Zahra, Ireland & Hitt",2000,0.22,321,USA,1991,1994,I,1,L,PRE,GEO,ACC,1,0,AMJ; new ventures INV,,,none
 S145,S145_e2,"Zahra, Ireland & Hitt",2000,0.31,321,USA,1991,1994,I,1,L,PRE,GEO,ACC,1,0,AMJ; new ventures INV,,,none
 S146,S146_e1,Oh & Contractor,2012,-0.04,144,Global,2003,2007,I,1,M,FOL,FSTS,ACC,1,0,JIBS; territorial + product mod,,,none
@@ -193,7 +193,7 @@ S151,S151,Michel & Shaked,1986,0.08,60,USA,1975,1983,I,1,L,PRE,GEO,ACC,1,0,JIBS;
 S152,S152,Morck & Yeung,1991,0.04,1644,USA,1978,1988,I,1,L,PRE,GEO,MKT,1,0,JB; Tobin's Q intangibles,,,none
 S153,S153_e1,Wan & Hoskisson,2003,0.09,244,Multi,1988,1997,I,1,L,PRE,GEO,ACC,1,0,AMJ; home country institutions,,,none
 S153,S153_e2,Wan & Hoskisson,2003,0.13,244,Multi,1988,1997,I,1,L,PRE,GEO,ACC,1,0,AMJ; home country institutions,,,none
-S154,S154,"Yiu, Lau & Bruton",2007,0.14,83,China,1998,2003,III,3,L,PRE,GEO,MIX,1,0,JIBS; EMNEs capabilities,,,none
+S154,S154,"Yiu, Lau & Bruton",2007,0.14,83,China,1998,2003,III,3,L,PRE,GEO,MIX,1,0,JIBS; EMNEs capabilities,10.1057/palgrave.jibs.8400364,corpus_suggested,suggested
 S155,S155,"Luo, Zhao & Du",2005,0.22,207,China,1998,2003,III,3,L,PRE,FSTS,ACC,1,0,IMR; e-commerce speed,,,none
 S156,S156_e1,"Bobillo, López-Iturriaga & Tejerina-Gaite",2010,0.06,1096,Europe,1993,2003,I,1,M,SPN,FSTS,ACC,1,0,IBR; competitive advantages,,,none
 S156,S156_e2,"Bobillo, López-Iturriaga & Tejerina-Gaite",2010,0.09,1096,Europe,1993,2003,I,1,M,SPN,FSTS,ACC,1,0,IBR; competitive advantages,,,none
@@ -203,8 +203,8 @@ S159,S159_e1,Fernández-Olmos & Díez-Vial,2015,0.12,261,Spain,2004,2011,I,1,H,F
 S159,S159_e2,Fernández-Olmos & Díez-Vial,2015,0.19,261,Spain,2004,2011,I,1,H,FOL,FSTS,ACC,1,0,EMJ; Iberian ham sector,,,none
 S160,S160_e1,Lu & Beamish,2006,-0.09,1489,Japan SMEs,1986,1999,I,1,L,PRE,FSTS,ACC,1,0,JIE; SME growth vs profitability,,,none
 S160,S160_e2,Lu & Beamish,2006,0.09,1489,Japan SMEs,1986,1999,I,1,L,PRE,FSTS,ACC,1,0,JIE; SME growth vs profitability,,,none
-S161,S161_e1,"Contractor, Kumar & Kundu",2007,-0.33,103,India,1998,2002,III,3,L,PRE,FSTS,ACC,1,0,JWB; EME S-curve services,,,none
-S161,S161_e2,"Contractor, Kumar & Kundu",2007,0.44,103,India,1998,2002,III,3,L,PRE,FSTS,ACC,1,0,JWB; EME S-curve services,,,none
+S161,S161_e1,"Contractor, Kumar & Kundu",2007,-0.33,103,India,1998,2002,III,3,L,PRE,FSTS,ACC,1,0,JWB; EME S-curve services,10.1016/j.jwb.2007.06.003,corpus_suggested,suggested
+S161,S161_e2,"Contractor, Kumar & Kundu",2007,0.44,103,India,1998,2002,III,3,L,PRE,FSTS,ACC,1,0,JWB; EME S-curve services,10.1016/j.jwb.2007.06.003,corpus_suggested,suggested
 S162,S162,Oh & Sohl,2017,0.08,139,USA,2003,2010,I,1,H,FOL,FSTS,ACC,1,0,MIR; turbulence moderates,,,none
 S163,S163,Ogasavara & Hoshino,2007,0.09,88,Japan,1995,2002,I,1,L,PRE,FDI,ACC,1,0,IBR; Japan subs in Brazil,,,none
 S164,S164,"Gao, Murray, Kotabe & Lu",2010,0.13,105,China,2000,2005,III,3,M,SPN,FSTS,ACC,1,0,JIBS; strategy tripod China,,,none
@@ -213,12 +213,12 @@ S166,S166_e1,Castellacci,2015,0.1,3498,LatAm,2006,2011,III,3,M,FOL,EXP,LAB,1,0,I
 S166,S166_e2,Castellacci,2015,0.16,3498,LatAm,2006,2011,III,3,M,FOL,EXP,LAB,1,0,IBR; institutional voids,,,none
 S167,S167_e1,Reuber & Fischer,1997,0.14,49,Canada,1989,1993,I,1,L,PRE,GEO,ACC,1,0,JIBS; management intl exp SME,,,none
 S167,S167_e2,Reuber & Fischer,1997,0.28,49,Canada,1989,1993,I,1,L,PRE,GEO,ACC,1,0,JIBS; management intl exp SME,,,none
-S168,S168,"Zhou, Wu & Luo",2007,0.19,195,China,2000,2004,III,3,L,PRE,FSTS,ACC,1,0,JIBS; born-global social network,,,none
+S168,S168,"Zhou, Wu & Luo",2007,0.19,195,China,2000,2004,III,3,L,PRE,FSTS,ACC,1,0,JIBS; born-global social network,10.1057/palgrave.jibs.8400282,corpus_suggested,suggested
 S169,S169_e1,"Isobe, Makino & Montgomery",2000,0.09,164,Japan/China,1989,1996,I,1,L,PRE,FDI,ACC,1,0,AMJ; JV resource commitment,,,none
 S169,S169_e2,"Isobe, Makino & Montgomery",2000,0.15,164,Japan/China,1989,1996,I,1,L,PRE,FDI,ACC,1,0,AMJ; JV resource commitment,,,none
 S170,S170,Shan & Song,1997,0.22,176,USA,1985,1991,I,1,L,PRE,GEO,MKT,1,0,JIBS; biotech FDI technology,,,none
 S171,S171,"Buckley, Dunning & Pearce",1978,0.08,370,Multi,1962,1972,I,1,L,PRE,GEO,ACC,1,0,WA; earliest study in pool,,,none
-S172,S172,"Oesterle, Richta & Fisch",2013,0.06,312,Germany,2000,2008,I,1,M,SPN,GEO,ACC,1,0,IBR; ownership structure,,,none
+S172,S172,"Oesterle, Richta & Fisch",2013,0.06,312,Germany,2000,2008,I,1,M,SPN,GEO,ACC,1,0,IBR; ownership structure,10.4337/9780857936790.00011,corpus_suggested,suggested
 S173,S173_e1,"Nguyen, Almodóvar & Martínez-Noya",2018,0.13,187,Multi,2005,2012,I,1,H,FOL,FSTS,ACC,1,0,IBR; intra-regional sales,,,none
 S173,S173_e2,"Nguyen, Almodóvar & Martínez-Noya",2018,0.21,187,Multi,2005,2012,I,1,H,FOL,FSTS,ACC,1,0,IBR; intra-regional sales,,,none
 S174,S174,"Ogasavara, Hoshino & Alberton",2016,0.11,148,Brazil,2006,2012,III,3,M,FOL,GEO,ACC,1,0,MBR; intl experience Brazil,,,none
@@ -234,15 +234,15 @@ S182,S182,Vo & Nguyen,2021,0.06,212,Vietnam non-state,2015,2019,III,3,M,FOL,EXP,
 S183,S183,Kim & Kim,2023,0.12,276,Korea conglomerate,2015,2020,I,1,H,FOL,FSTS,MIX,1,0,JWB; digital transformation mod,,,none
 S184,S184,Borkakoti & Dua,2023,0.09,421,India mfg,2015,2020,III,3,M,FOL,FSTS,ACC,1,0,JQE; manufacturing sector,,,none
 S185,S185,Li & Li,2023,0.13,1243,China digital,2016,2021,III,3,H,FOL,FSTS,MKT,1,0,PBFJ; digital economy listed,10.1016/j.ibusrev.2021.101953,references,medium
-S186,S186,"Torres, Kunc & O'Shannassy",2022,0.13,198,Multi SME,2014,2020,MX,0,H,FOL,COMP,ACC,1,0,IBR; dynamic capability SME,,,none
-S187,S187,Cho & Lee,2023,0.14,204,Korea SME digital,2016,2021,I,1,H,FOL,FSTS,ACC,1,0,APJM; digital capability SME,,,none
+S186,S186,"Torres, Kunc & O'Shannassy",2022,0.13,198,Multi SME,2014,2020,MX,0,H,FOL,COMP,ACC,1,0,IBR; dynamic capability SME,10.1057/s41267-022-00580-0,corpus_suggested,suggested
+S187,S187,Cho & Lee,2023,0.14,204,Korea SME digital,2016,2021,I,1,H,FOL,FSTS,ACC,1,0,APJM; digital capability SME,10.33168/jsms.2023.0223,corpus_suggested,suggested
 S188,S188,Do & Phan,2025,-0.045,380,India mfg,2013,2018,III,3,M,FOL,FSTS,ACC,1,0,IntechOpen; India WBES; FGLS; ROS; manager moderator; r confirmed Table 3,,,none
 S189,S189,Do & Phan,2026,0.07,4290,China mfg SME,2012,2024,III,3,H,FOL,FSTS,LAB,1,1,JFAR; WBES China 2012+2024; inverted-U TP=47.8%; β₁=+1.704,,,none
 S190,S190,"Phan, Ninh & Do",2021,-0.04,263,Turkey mfg,2013,2016,II,2,M,SPN,FSTS,ACC,1,1,IntechOpen; WBES Turkey; FGLS; manager experience moderator,10.5267/j.dsl.2020.7.001,references,medium
 S191,S191,Phan et al.,2021,0.05,131,Poland mfg-svc,2013,2016,I,1,M,SPN,FSTS,ACC,1,1,IntechOpen; WBES Poland; inverted-U; female manager + fin.obstacles mods,10.5267/j.dsl.2020.7.001,references,medium
 S192,S192,Tu & Huynh,2021,0.03,90,Ecuador mfg,2003,2017,MX,0,L,SPN,FSTS,ACC,1,1,RWE 12(1); panel; inverse S-curve; LatAm context,,,none
 S193,S193,García-Sánchez & Rama,2024,0.09,267,Spain mfg,2010,2017,II,2,H,SPN,FSTS,ACC,1,1,EBR 14(4); Bayesian; heterogeneous firm-level effects,,,none
-S194,S194,Godbole,2024,0.08,120,India listed family,2015,2022,III,3,M,FOL,COMP,MIX,1,1,BSD 7(3); NIFTY500 family firms; GMM; financial+innovation,,,none
+S194,S194,Godbole,2024,0.08,120,India listed family,2015,2022,III,3,M,FOL,COMP,MIX,1,1,BSD 7(3); NIFTY500 family firms; GMM; financial+innovation,10.1002/bsd2.365,corpus_suggested,suggested
 S195,S195,Barłożewski & Trąpczyński (2021a),,0.06,200,Poland,2014,2019,I,1,M,FOL,FSTS,ACC,1,1,"EBER 9; full-sample n=200; see S236 for exporter-subsample (n=97, confirmed r)",,,none
 S196,S196,Barłożewski & Trąpczyński (2021b),,0.04,200,Poland,2014,2019,I,1,M,FOL,FSTS,ACC,1,1,"OC 12; full-sample n=200; see S237 for larger-sample (n=304, confirmed r)",,,none
 S197,S197,Calabrese & Manello,2018,0.08,300,Italy,2005,2015,II,2,M,SPN,FSTS,ACC,1,1,JPM; Italy policy evidence,10.1016/j.jpolmod.2018.01.008,references,medium
@@ -286,4 +286,4 @@ S234,S234,Yip et al.,2000,0.06,150,Multi,1992,1998,MX,0,L,PRE,COMP,ACC,1,1,JIM; 
 S235,S235,Freixanet & Rialp,2021,0.08,1500,Spain,2008,2016,II,2,M,FOL,EXP,MIX,1,1,GSJ; I→P with innovation mediator (distinct from S101 EMJ),10.1002/gsj.1412,references,medium
 S236,S236,Barłożewski & Trąpczyński (2021a),,-0.1,97,Poland,2014,2019,MX,0,M,SPN,FSTS,ACC,1,0,EBER 9; exporter subsample n=97; r confirmed (see S195 for full-sample n=200 est.),,,none
 S237,S237,Barłożewski & Trąpczyński (2021b),,-0.04,304,Poland,2014,2019,MX,0,M,FOL,FSTS,ACC,1,0,OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.),,,none
-S238,E288,Srividhya et al.,2024,0.13,992,India,2005,2021,III,3,M,SPN,FSTS,ACC,1,0,"WoS-arm S0129; JEI 2024 v39(2); r=0.13** Table3 DOI-ROA corr experienced BGs; n≈992 firm-yr (72 firms, PROWESS 2005-2021); doi:10.11130/jei.2024033",,,none
+S238,E288,Srividhya et al.,2024,0.13,992,India,2005,2021,III,3,M,SPN,FSTS,ACC,1,0,"WoS-arm S0129; JEI 2024 v39(2); r=0.13** Table3 DOI-ROA corr experienced BGs; n≈992 firm-yr (72 firms, PROWESS 2005-2021); doi:10.11130/jei.2024033",10.11130/jei.2024033,corpus_suggested,suggested

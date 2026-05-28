@@ -125,26 +125,29 @@ def main():
         oa_doi = (e.get("oa_doi") or "").strip().lower() if oa_status in TRUSTED_ENRICH else ""
 
         cm = corpus.get(sid, {})
-        corpus_doi = (cm.get("corpus_doi") or "").strip().lower() \
-            if cm.get("match_confidence", "").startswith("confirmed") else ""
+        cm_conf = cm.get("match_confidence", "")
+        corpus_doi = (cm.get("corpus_doi") or "").strip().lower() if cm_conf.startswith("confirmed") else ""
+        corpus_cand = (cm.get("corpus_doi") or "").strip().lower() if cm_conf == "candidate_unique" else ""
 
-        # tally agreement among the DOIs we trust from each source
         votes = {}
         for d in (ref_doi, oa_doi, corpus_doi):
             if d:
                 votes[d] = votes.get(d, 0) + 1
+        trusted_set = {ref_doi, oa_doi, corpus_doi} - {""}
         final_doi, source, confidence, n_agree = "", "", "none", 0
         if votes:
-            final_doi, n_agree = max(votes.items(), key=lambda kv: kv[1])
-            srcs = [name for name, d in
-                    (("references", ref_doi), ("openalex", oa_doi), ("corpus", corpus_doi)) if d == final_doi]
-            source = "+".join(srcs)
-            if n_agree >= 2:
-                confidence = "high"
-            elif len({ref_doi, oa_doi, corpus_doi} - {""}) > 1:
-                confidence = "review"          # sources disagree
+            if len(trusted_set) > 1:
+                # sources disagree -> prefer the thesis reference list (authoritative)
+                final_doi = ref_doi or oa_doi or corpus_doi
+                confidence, n_agree = "review", votes.get(final_doi, 1)
             else:
-                confidence = "medium"
+                final_doi, n_agree = max(votes.items(), key=lambda kv: kv[1])
+                confidence = "high" if n_agree >= 2 else "medium"
+            source = "+".join(name for name, d in
+                              (("references", ref_doi), ("openalex", oa_doi), ("corpus", corpus_doi))
+                              if d == final_doi)
+        elif corpus_cand:
+            final_doi, source, confidence, n_agree = corpus_cand, "corpus_suggested", "suggested", 1
         elif len(ref_dois) > 1:
             confidence, source = "review", "references_ambiguous"
 
@@ -166,8 +169,8 @@ def main():
     resolved = sum(1 for r in rows if r["final_doi"])
     print(f"DOI resolution written: {out}")
     print(f"  studies: {len(rows)} | resolved with a DOI: {resolved}")
-    for c in ("high", "medium", "review", "none"):
-        print(f"    {c:7}: {tally.get(c, 0)}")
+    for c in ("high", "medium", "review", "suggested", "none"):
+        print(f"    {c:9}: {tally.get(c, 0)}")
     print(f"  reference list parsed: {len(refs)} DOI lines")
 
 
