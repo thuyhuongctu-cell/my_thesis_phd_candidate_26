@@ -1,0 +1,610 @@
+# Instincts generated from https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+# Generated: 2026-05-28T17:41:39.257Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-commit-conventional
+trigger: "when writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Commit Conventional
+
+## Action
+
+Use conventional commit format with prefixes: style, build, fix, docs, chore
+
+## Evidence
+
+- 100 commits analyzed
+- Detected conventional commit pattern
+- Examples: fix(p4): correct FSTS×DAI M8 interaction coefficient to -1.177 in tables, refactor(p7): reposition capstone for JIBS around jointly-determined optimum
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Commit Length
+
+## Action
+
+Write moderate-length commit messages (~71 characters)
+
+## Evidence
+
+- Average commit message length: 71 chars
+- Based on 100 commits
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Naming Files
+
+## Action
+
+Use snake_case naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: snake_case
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-workflow-feature-development
+trigger: "when implementing a new feature"
+confidence: 0.75
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Workflow Feature Development
+
+## Action
+
+Follow the feature-development workflow:
+1. Add feature implementation
+2. Add tests for feature
+3. Update documentation
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~5x per month
+- Files: 
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-workflow-refactoring
+trigger: "when refactoring code"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Workflow Refactoring
+
+## Action
+
+Follow the refactoring workflow:
+1. Ensure tests pass before refactor
+2. Refactor code structure
+3. Verify tests still pass
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: src/**/*
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-workflow-deep-author-voice-transformation
+trigger: "when doing deep author voice transformation"
+confidence: 0.7
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Workflow Deep Author Voice Transformation
+
+## Action
+
+Follow the deep-author-voice-transformation workflow:
+1. Apply author-voice transformation skill to relevant manuscript files (EN and/or VI).
+2. Normalize variable notation and Scopus/WoS symbols as needed.
+3. Update both source manuscripts and distribution copies.
+4. Regenerate deliverables (docx/pdf) if required.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~4x per month
+- Files: dist/manuscripts/en/source_md/*_en_clean.md, dist/manuscripts/vi/source_md/*_vi.md, manuscripts/*_en_clean.md
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-workflow-terminology-and-glossary-standardization
+trigger: "when doing terminology and glossary standardization"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Workflow Terminology And Glossary Standardization
+
+## Action
+
+Follow the terminology-and-glossary-standardization workflow:
+1. Identify non-standard or literal translations in manuscript files.
+2. Replace with standardized terms as per the glossary or terminology skill.
+3. Add or update glossary entries to reflect new or corrected terms.
+4. Regenerate affected deliverables (docx/pdf) if needed.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: p3/submission/p3_vietnam_vi.md, thesis/09b_vn_term_glossary.md, chuyen_de/cd1/00_cd1_ctu_final_vi.md
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-workflow-statistical-notation-and-math-normalization
+trigger: "when doing statistical notation and math normalization"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Workflow Statistical Notation And Math Normalization
+
+## Action
+
+Follow the statistical-notation-and-math-normalization workflow:
+1. Run scripts to harmonize statistical notation (e.g., p-values, betas, decimal separators).
+2. Convert Unicode math operators and inline coefficients/exponents to LaTeX math.
+3. Replace non-standard symbols (arrows, en-dashes, etc.) with standard equivalents.
+4. Regenerate deliverables (docx/pdf) as needed.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: chuyen_de/cd1/00_cd1_ctu_final_vi.md, chuyen_de/cd2/00_cd2_ctu_final_vi.md, thesis/chuong_*_vi.md
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-workflow-build-and-distribute-docx-pdf-deliverables
+trigger: "when doing build and distribute docx pdf deliverables"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Workflow Build And Distribute Docx Pdf Deliverables
+
+## Action
+
+Follow the build-and-distribute-docx-pdf-deliverables workflow:
+1. Run build script (build_ctu_docx.sh) to generate docx and pdf files from markdown sources.
+2. Ensure LaTeX math renders as native equations in Word and PDF.
+3. Place deliverables in dist/downloads/ and relevant dist/ subfolders.
+4. Verify output for errors or missing glyphs.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: build_ctu_docx.sh, dist/downloads/*.docx, dist/downloads/*.pdf
+
+---
+id: MY_THESIS_PHD_CANDIDATE_26-workflow-reference-list-and-glossary-corrections
+trigger: "when doing reference list and glossary corrections"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# MY_THESIS_PHD_CANDIDATE_26 Workflow Reference List And Glossary Corrections
+
+## Action
+
+Follow the reference-list-and-glossary-corrections workflow:
+1. Identify missing or incorrect references/glossary entries.
+2. Add or correct entries in the reference list and glossary.
+3. Regenerate reference deliverables (docx/pdf) if needed.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: thesis/04_references_apa7.md, thesis/09b_vn_term_glossary.md, dist/downloads/04_references_apa7.docx
+
+---
+id: my_thesis_phd_candidate_26-instinct-file-naming
+trigger: "When creating or renaming a file in the repository"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct File Naming
+
+## Action
+
+Use snake_case for file names
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.files
+- Seen in files: scripts/fix_format.py, thesis/chuong_1_gioi_thieu_vi.md
+
+---
+id: my_thesis_phd_candidate_26-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Function Naming
+
+## Action
+
+Use camelCase for function names
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.functions
+
+---
+id: my_thesis_phd_candidate_26-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Class Naming
+
+## Action
+
+Use PascalCase for class names
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.classes
+
+---
+id: my_thesis_phd_candidate_26-instinct-constant-naming
+trigger: "When defining a constant"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Constant Naming
+
+## Action
+
+Use SCREAMING_SNAKE_CASE for constant names
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.constants
+
+---
+id: my_thesis_phd_candidate_26-instinct-import-style
+trigger: "When importing modules in Python code"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Import Style
+
+## Action
+
+Use relative imports
+
+## Evidence
+
+- Pattern in codeStyle.importStyle
+
+---
+id: my_thesis_phd_candidate_26-instinct-export-style
+trigger: "When exporting functions or classes from a module"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in codeStyle.exportStyle
+
+---
+id: my_thesis_phd_candidate_26-instinct-test-location
+trigger: "When adding or updating tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Test Location
+
+## Action
+
+Place test files in a separate test directory
+
+## Evidence
+
+- Pattern in architecture.folderStructure.testLocation
+
+---
+id: my_thesis_phd_candidate_26-instinct-test-before-refactor
+trigger: "Before refactoring code"
+confidence: 0.85
+domain: testing
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Test Before Refactor
+
+## Action
+
+Ensure all existing tests pass
+
+## Evidence
+
+- Refactoring workflow commitSequence: Ensure tests pass before refactor
+
+---
+id: my_thesis_phd_candidate_26-instinct-test-after-refactor
+trigger: "After refactoring code"
+confidence: 0.85
+domain: testing
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Test After Refactor
+
+## Action
+
+Verify that all tests still pass
+
+## Evidence
+
+- Refactoring workflow commitSequence: Verify tests still pass
+
+---
+id: my_thesis_phd_candidate_26-instinct-git-commit-format
+trigger: "When making a git commit"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Git Commit Format
+
+## Action
+
+Use conventional commit format: <type>(<scope>): <description>
+
+## Evidence
+
+- Pattern in commits.type: conventional
+- Examples: fix(p4): correct FSTS×DAI M8 interaction coefficient...
+
+---
+id: my_thesis_phd_candidate_26-instinct-git-commit-length
+trigger: "When writing a commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Git Commit Length
+
+## Action
+
+Keep the commit message concise (average ~70 characters)
+
+## Evidence
+
+- Pattern in commits.averageLength: 71
+
+---
+id: my_thesis_phd_candidate_26-instinct-deep-author-voice-transformation
+trigger: "When preparing a manuscript or thesis chapter for submission or review"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Deep Author Voice Transformation
+
+## Action
+
+Apply the author-voice transformation skill to relevant manuscript files and normalize variable notation and Scopus/WoS symbols
+
+## Evidence
+
+- Workflow: deep-author-voice-transformation
+- Commits: style(p3): apply author voice to manuscripts (EN/VI), data unchanged
+
+---
+id: my_thesis_phd_candidate_26-instinct-terminology-glossary-standardization
+trigger: "When inconsistent or awkward terminology is detected in manuscripts, or after reviewer feedback"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Terminology Glossary Standardization
+
+## Action
+
+Replace non-standard terms with standardized glossary terms and update the glossary as needed
+
+## Evidence
+
+- Workflow: terminology-and-glossary-standardization
+- Commits: Add or update glossary entries to reflect new or corrected terms
+
+---
+id: my_thesis_phd_candidate_26-instinct-statistical-notation-normalization
+trigger: "When preparing documents for submission or after a standards review"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Statistical Notation Normalization
+
+## Action
+
+Run scripts to harmonize statistical notation and math symbols in manuscript files
+
+## Evidence
+
+- Workflow: statistical-notation-and-math-normalization
+- Scripts: scripts/fix_stat_notation.py, scripts/fix_math_operators.py
+
+---
+id: my_thesis_phd_candidate_26-instinct-build-deliverables
+trigger: "When manuscript or thesis source files are updated, or after major formatting/notation/voice passes"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Build Deliverables
+
+## Action
+
+Run build script to generate and distribute .docx and .pdf deliverables, ensuring equation rendering and no missing glyphs
+
+## Evidence
+
+- Workflow: build-and-distribute-docx-pdf-deliverables
+- Files: build_ctu_docx.sh, dist/downloads/*.docx
+
+---
+id: my_thesis_phd_candidate_26-instinct-reference-glossary-corrections
+trigger: "When references are cited but missing from the reference list, or glossary metadata errors are found"
+confidence: 0.85
+domain: workflow
+source: repo-analysis
+source_repo: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26
+---
+
+# My_thesis_phd_candidate_26 Instinct Reference Glossary Corrections
+
+## Action
+
+Add or correct entries in the reference list and glossary, and regenerate reference deliverables if needed
+
+## Evidence
+
+- Workflow: reference-list-and-glossary-corrections
+- Files: thesis/04_references_apa7.md, thesis/09b_vn_term_glossary.md
+
