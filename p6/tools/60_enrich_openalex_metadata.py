@@ -55,6 +55,7 @@ import re
 import sys
 import time
 import datetime
+import unicodedata
 from pathlib import Path
 
 try:
@@ -200,12 +201,32 @@ def get_json(url: str, params: dict, attempts: int = 3) -> dict | None:
     return None
 
 
+def fold(s: str) -> str:
+    """Lowercase + strip diacritics so 'Çapar' matches 'Capar', 'Lundström'
+    matches 'Lundstrom'. OpenAlex author names carry accents the DB does not."""
+    s = unicodedata.normalize("NFKD", s or "")
+    return "".join(c for c in s if not unicodedata.combining(c)).lower()
+
+
+def author_matches(study_author: str, hit: dict) -> bool:
+    """True if the study's first-author surname appears among ANY OpenAlex
+    author on the record (diacritic-insensitive). Matching against all authors
+    (not just position 0) avoids false 'mismatch' flags from name-order or
+    multi-author differences, while a genuinely wrong DOI — whose author list
+    shares no surname — is still rejected."""
+    sn = fold(surname(study_author))
+    if not sn:
+        return True
+    return sn in fold(hit.get("_all_authors", ""))
+
+
 def flatten(rec: dict) -> dict:
     doi = norm_doi(rec.get("doi") or "")
     auths = rec.get("authorships") or []
     loc = rec.get("primary_location") or {}
     src = loc.get("source") or {}
     oa = rec.get("open_access") or {}
+    author_names = [a.get("author", {}).get("display_name", "") or "" for a in auths]
     return {
         "oa_id": rec.get("id", ""),
         "oa_doi": doi,
@@ -215,8 +236,8 @@ def flatten(rec: dict) -> dict:
         "cited_by_count": rec.get("cited_by_count", 0),
         "is_oa": oa.get("is_oa", False),
         "oa_url": oa.get("oa_url", "") or "",
-        "_first_author": (auths[0].get("author", {}).get("display_name", "")
-                          if auths else ""),
+        "_first_author": author_names[0] if author_names else "",
+        "_all_authors": " | ".join(author_names),
     }
 
 
@@ -259,7 +280,7 @@ def search_by_author_year(author: str, year: str) -> dict | None:
         return None
     for rec in data.get("results", []):
         flat = flatten(rec)
-        if sn in flat["_first_author"].lower():
+        if fold(sn) in fold(flat["_all_authors"]):
             return flat
     return None
 
@@ -345,8 +366,7 @@ def main():
             exp_year = s["year"] if s["year"].isdigit() else ""
             year_ok = (not exp_year) or (str(hit["oa_year"]) == exp_year) \
                 or abs(int(hit["oa_year"] or 0) - int(exp_year or 0)) <= 1
-            sn = surname(s["author"])
-            author_ok = (not sn) or (sn in hit["_first_author"].lower())
+            author_ok = author_matches(s["author"], hit)
 
             if method == "doi":
                 if year_ok and author_ok:
