@@ -10,17 +10,17 @@ Palgrave Macmillan / Academy of International Business
 
 Dear Editor-in-Chief,
 
-We are pleased to submit the above manuscript for consideration for publication in the *Journal of International Business Studies* (JIBS). The manuscript presents the largest WBES-based test of the internationalization–performance (I–P) relationship in Asia and the Pacific, spanning 84,910 firm-observations from 49 economies and 102 country-year waves (2003–2025), and addresses how institutional regime quality, digital adoption, technological capability, and managerial characteristics jointly determine the shape of the I–P function.
+We are pleased to submit the above manuscript for consideration for publication in the *Journal of International Business Studies* (JIBS). The manuscript presents the largest WBES-based test of the internationalization–performance (I–P) relationship in Asia and the Pacific, spanning 82,302 firm-observations from 45 economies and 98 country-year waves (2003–2025), and addresses how institutional regime quality, digital adoption, technological capability, and managerial characteristics jointly determine the shape of the I–P function.
 
 **Relevance to JIBS**
 
 The study speaks directly to JIBS's sustained interest in context-contingent I–P theory and the boundary conditions of established models. We make three contributions that align with the journal's editorial priorities.
 
-*First*, we provide large-sample, multi-regime confirmation of the inverted-U I–P hypothesis at a turning point of approximately 36% export intensity, robust across all eleven hierarchical models and confirmed by the Lind–Mehlum (2010) test (p < .001). The sample spans all six Institutional Capability and Resource Vulnerability (ICRV) regime groups — from advanced innovation-driven economies (Singapore, Korea, Taiwan, Israel, Cyprus, Hong Kong) to Pacific Small Island Developing States (Vanuatu, Solomon Islands, Fiji, Tonga, Timor-Leste) — providing cross-regime generalizability not achievable in single-country or narrow-region designs. This resolves a long-standing ambiguity in the Asian I–P literature, which has reported positive, inverted-U, and null relationships for individual economies without a unified empirical framework.
+*First*, we provide large-sample, multi-regime confirmation of the inverted-U I–P hypothesis at a turning point of approximately 36% export intensity, robust across all eleven hierarchical models and confirmed by the Lind–Mehlum (2010) test (p < .001). The sample spans all six Institutional Context Regime Variation (ICRV) regime groups — from advanced innovation-driven economies (Singapore, Korea, Taiwan, Israel, Cyprus, Hong Kong) to Pacific Small Island Developing States (Vanuatu, Solomon Islands, Fiji, Tonga, Timor-Leste) — providing cross-regime generalizability not achievable in single-country or narrow-region designs. This resolves a long-standing ambiguity in the Asian I–P literature, which has reported positive, inverted-U, and null relationships for individual economies without a unified empirical framework.
 
 *Second*, we document that digital adoption (DAI; Tier 1+2 WBES proxy: website presence and electronic payment) is the primary capability factor that *reshapes* the I–P curve: DAI both raises the performance level and generates significant FSTS×DAI and FSTS²×DAI interactions (p < .001 and p < .01 respectively) that compress ascending-limb gains and attenuate performance decline at high export intensities. Technological capability (TCI) is a performance level-shifter but does not reshape the curve across this institutionally heterogeneous sample — a contrast with TCI's role in within-country designs (P3 Vietnam, P5 China in our companion papers) that illuminates when capability translates into curve moderation. These findings contribute to JIBS's emerging literature on digital transformation in international business.
 
-*Third*, we demonstrate that institutional regime (ICRV) moderates both slope and curvature of the I–P function, with DAI×ICRV interactions (p = .012) indicating regime-contingent digital complementarity. This operationalises institutional theory's prediction (North, 1990; Stallkamp & Schotter, 2021) that digital capabilities yield stronger per-unit returns where formal institutions are weaker — providing the first large-sample test of this regime-contingent digital effect across six institutional tiers simultaneously.
+*Third*, we demonstrate that institutional regime (ICRV) moderates both slope and curvature of the I–P function, with DAI×ICRV interactions (p = .049) indicating regime-contingent digital complementarity. This operationalises institutional theory's prediction (North, 1990; Stallkamp & Schotter, 2021) that digital capabilities yield stronger per-unit returns where formal institutions are weaker — providing the first large-sample test of this regime-contingent digital effect across six institutional tiers simultaneously.
 
 **Originality and Scope**
 
@@ -47,7 +47,7 @@ Vinh Long University of Technology Education (VLUTE), Vietnam
 Email: huongdt@vlute.edu.vn | ORCID: 0000-0002-7711-2487
 
 **PGS.TS. Phan Anh Tú (Phan Anh Tu)**
-Associate Professor, College of Economics
+Associate Professor, School of Economics
 Can Tho University (CTU), Vietnam
 *Corresponding author*
 Email: patu@ctu.edu.vn | ORCID: 0000-0003-0667-3137

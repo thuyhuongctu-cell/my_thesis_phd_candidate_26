@@ -1,7 +1,7 @@
 # Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption
 
-**Do Thuy Huong** · College of Economics, Can Tho University · huongp1323001@gstudent.ctu.edu.vn · ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)  
-**Phan Anh Tu** *(Corresponding author)* · College of Economics, Can Tho University · patu@ctu.edu.vn · ORCID: [0000-0003-0667-3137](https://orcid.org/0000-0003-0667-3137)
+**Do Thuy Huong** · School of Economics, Can Tho University · huongp1323001@gstudent.ctu.edu.vn · ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)  
+**Phan Anh Tu** *(Corresponding author)* · School of Economics, Can Tho University · patu@ctu.edu.vn · ORCID: [0000-0003-0667-3137](https://orcid.org/0000-0003-0667-3137)
 
 *Target journal: Journal of Asia Business Studies (JABS), Emerald Publishing*
 
@@ -16,13 +16,13 @@
 ---
 
 ## Abstract
-Purpose — This study revisits the internationalisation–performance relationship in Vietnam across three survey waves, testing whether technological capability moderates export-intensity effects and how a Tier-1 digital indicator evolves across institutional generations.
+Purpose — This study revisits the internationalisation–performance relationship in Vietnam across three survey waves, testing whether technological capability moderates export-intensity effects and tracing how a Tier-1 digital indicator evolves across institutional generations.
 
 Design/methodology/approach — Three waves of World Bank Enterprise Survey data (Vietnam 2009, 2015, 2023; N = 2,958) underpin wave-specific and pooled OLS models with HC1 standard errors, quadratic export-intensity terms, and capability interactions. TCI (quality certification, foreign-licensed technology) is the primary construct; a single-item website indicator (Tier-1 only) is retained as a digital-presence control.
 
-Findings — An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46% — a durable 7-percentage-point band across 14 years of institutional change. The nonlinearity reflects a participation-margin effect (Helpman, Melitz & Yeaple, 2004): re-estimated on the exporter-only sub-sample, the quadratic term loses significance (β = −0.200, p = .660). TCI is positively associated with productivity in all waves (pooled β = 0.179, p < .001) and moderates the I–P curvature. The website indicator follows a Tier-1 proxy-obsolescence trajectory: positive in 2009, null in 2015, and negatively interactive with export intensity in 2023.
+Findings — An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46% — a 7-percentage-point band that stays durable across 14 years of institutional change. The nonlinearity traces to a participation-margin effect (Helpman, Melitz & Yeaple, 2004): re-estimated on the exporter-only sub-sample, the quadratic term loses significance (β = −0.200, p = .660). TCI is positively associated with productivity in all waves (pooled β = 0.179, p < .001) and moderates the I–P curvature, while the website indicator follows a Tier-1 proxy-obsolescence trajectory: positive in 2009, null in 2015, and negatively interactive with export intensity in 2023.
 
-Originality/value — The study finds that the conventional inverted-U in zero-inflated emerging-market settings reflects a performance gap at the export-participation barrier rather than a continuous intensity-saturation curve; pooled digital coefficients on a Tier-1 binary mask progressive proxy obsolescence. The evidence that the threshold cluster (39–46% FSTS band) is institutionally embedded rather than firm-specific shifts the debate from 'does internationalization help?' to 'under what institutional conditions does the threshold shift?'
+Originality/value — In zero-inflated emerging-market settings, the study finds, the conventional inverted-U reflects a performance gap at the export-participation barrier rather than a continuous intensity-saturation curve, and pooled digital coefficients on a Tier-1 binary mask progressive proxy obsolescence. Because the threshold cluster (39–46% FSTS band) is institutionally embedded rather than firm-specific, the debate moves from 'does internationalization help?' to 'under what institutional conditions does the threshold shift?'
 
 Keywords: internationalisation–performance; emerging markets; technological capability; threshold durability; Vietnam; firm productivity.
 
@@ -54,27 +54,19 @@ between 39 and 46 % of direct-export intensity.
 Vietnam offers an analytically valuable setting for revisiting the internationalisation–performance
 (I–P) relationship because firms expand abroad under conditions of institutional transition, uneven capability accumulation, and rapidly changing digital infrastructure.
 
-In such settings, internationalisation should not be assumed to generate a simple linear performance premium.
-Firms may gain access to larger markets, benefit from learning, and diversify revenue streams,
-but they may also face rising coordination costs, information-processing burdens, and organisational strain as their foreign involvement deepens (Wright et al., 2005; Cuervo-Cazurra and
+In such settings, internationalisation does not lend itself to the assumption of a simple linear performance premium.
+Foreign involvement opens access to larger markets, learning, and diversified revenue, yet it also brings rising coordination costs, heavier information-processing burdens, and organisational strain as that involvement deepens (Wright et al., 2005; Cuervo-Cazurra and
 Genc, 2008; Wu et al., 2016).
-This tension lies at the heart of the I–P literature. A long tradition of research has argued
-that internationalisation can improve performance at lower and intermediate levels through scale,
-learning, and diversification, while also generating diminishing or negative returns at higher levels
-because of complexity and coordination burdens. Meta-analytic evidence strongly supports the
-view that nonlinearity is a central feature of this relationship rather than an empirical anomaly
+This tension lies at the heart of the I–P literature. A long tradition of work holds that internationalisation improves performance at lower and intermediate levels through scale,
+learning, and diversification, while complexity and coordination burdens drag returns toward zero or below them at higher levels. Meta-analytic evidence indicates that this nonlinearity is a central feature of the relationship, not an empirical anomaly
 (Vernon, 1979; Lu and Beamish, 2004; Hennart, 2007; Coviello et al., 2017; Marano et al., 2016).
-Digitalisation adds a further layer of complexity to this debate. Digital tools can reduce communication frictions, accelerate transactions, and support coordination across borders. Yet
-those benefits do not arise automatically. Their realised value depends on whether firms possess
-the organisational depth, absorptive capacity, and complementary routines needed to translate
-digital adoption into productivity gains (Cohen and Levinthal, 1990; Vial, 2019; Verhoef et al.,
-2021; Stallkamp and Schotter, 2021; Petricevic and Teece, 2019). For this reason, digital capability should not be treated as a universally beneficial resource whose payoff is constant across
+Digitalisation layers a further complication onto this debate. Digital tools can cut communication frictions, speed transactions, and support cross-border coordination, but the benefits do not arrive automatically. Their realised value depends on whether a firm holds the organisational depth, absorptive capacity, and complementary routines needed to convert digital adoption into productivity gains (Cohen and Levinthal, 1990; Vial, 2019; Verhoef et al.,
+2021; Stallkamp and Schotter, 2021; Petricevic and Teece, 2019). Digital capability, then, is poorly described as a universally beneficial resource whose payoff stays constant across
 firms and over time.
-The Vietnamese setting makes this issue especially important. Because firms are embedded
-in an economy undergoing capability upgrading and digital transition, both the benefits of
-internationalisation and the payoff from digitalisation may vary across stages of development.
-This raises a central question for the present study: does digital capability in Vietnam function
-as a stable performance-enhancing asset, or does it operate as a stage-contingent resource whose
+The Vietnamese setting makes this issue especially pointed. Firms here are embedded
+in an economy that is upgrading capability and passing through digital transition at the same time, so both the gains from
+internationalisation and the payoff from digitalisation may shift across stages of development. The central question for this study follows directly: does digital capability in Vietnam behave
+as a stable performance-enhancing asset, or as a stage-contingent resource whose
 value changes over the lifecycle of internationalisation?
 Three institutional turning points shape the observation window. Vietnam acceded to the
 World Trade Organization in early 2007, which opened the period preceding the 2009 wave and
@@ -90,91 +82,57 @@ of internationalisation pressure and digital infrastructure availability, which 
 
 
 lifecycle reading testable rather than purely conceptual.
-These shifts are not cosmetic. The composition of the exporter cohort itself evolves across
-the three waves: the share of firms reporting any positive direct-export intensity declines as
-services and FDI-linked supply-chain firms enter the sample, while the average level of foundational digital adoption rises with the diffusion of websites, electronic payment systems, and
-digital transaction interfaces. Reading the I–P relationship and the digital-adoption channel as
-fixed structural facts across this fourteen-year window misses the fact that the underlying firm
+These shifts are not cosmetic. The exporter cohort itself changes composition across
+the three waves: the share of firms reporting any positive direct-export intensity falls as
+services and FDI-linked supply-chain firms enter the sample, while average foundational digital adoption rises with the diffusion of websites, electronic payment systems, and
+digital transaction interfaces. To read the I–P relationship and the digital-adoption channel as
+fixed structural facts across this fourteen-year window is to miss that the underlying firm
 population, the binding coordination costs, and the institutional scaffolding for cross-border
 trade all change materially.
 
 A central empirical regularity that emerges from this design is that the inverted-U observed in the full sample is fundamentally driven by the participation margin — the productivity gap between firms that cross from non-exporting to any positive export intensity — rather than by saturation of coordination costs within the exporter subsample. Once participation is netted out, the within-exporter intensity curvature is statistically indistinguishable from flat. The Vietnamese pattern therefore reads as a *step function across the export-entry threshold* in a transitional economy, not as a continuous saturation curve in the meta-analytic sense documented in developed-market samples. We treat this step-function structure as a headline empirical contribution rather than as an ancillary robustness probe, because it locates the productivity-relevant friction at the participation margin where institutional and capability constraints bind hardest in a transitional setting.
 
 ### 1.2 Research gap
-Three gaps motivate this study.
+This study addresses three gaps that remain unresolved in the existing literature.
 
-First, existing work often treats digitalisation as a broadly
+One gap concerns how digitalisation is theorised. Much existing work treats it as a broadly positive resource and pays little attention to temporal and contextual variation in its payoff. That treatment risks implying a relatively stable performance premium across firms and across stages of economic transition (Strange and Zucchella, 2017; Goldfarb and Tucker, 2019). The returns are more likely to be uneven, since firms differ in scale, routines, and complementary capability.
 
-positive resource without paying sufficient attention to temporal and contextual variation in its
-payoff. Such a treatment risks implying that digital adoption produces a relatively stable performance premium across firms and across stages of economic transition (Strange and Zucchella,
-2017; Goldfarb and Tucker, 2019). In reality, digitalisation may generate uneven returns because
-firms differ in scale, routines, and complementary capability.
-Second, the distinction between technological capability and digital adoption remains underdeveloped. Technological capability refers to deeper firm-internal stocks of learning, problemsolving, process improvement, and innovation capacity (Lall, 1992). Foundational digital adoption, by contrast, reflects a more basic layer of digital readiness and digitally enabled interfaces
-or transaction mechanisms (Bharadwaj et al., 2013; Verhoef et al., 2021; Hanelt et al., 2021;
-Brouthers et al., 2016). Although these constructs are related, they should not be treated as
-interchangeable. Collapsing them into a single umbrella variable can reduce construct clarity
-and blur the mechanisms linking digitalisation to performance.
-Third, pooled estimates may obscure substantial lifecycle heterogeneity. In a setting such
-as Vietnam, where firms and institutions pass through distinct stages of transition, the role of
-internationalisation, technological capability, and digital adoption may vary considerably across
-survey waves. A pooled model is useful for identifying average effects, but it is insufficient if
-the underlying relationships shift across time. A design that combines pooled and wave-specific
-analysis is therefore necessary to determine whether the observed effects are stable or stage
-contingent.
+A second gap concerns construct clarity. The distinction between technological capability and digital adoption remains underdeveloped. Technological capability refers to deeper firm-internal stocks of learning, problem-solving, process improvement, and innovation capacity (Lall, 1992); foundational digital adoption reflects a more basic layer of digital readiness and digitally enabled interfaces or transaction mechanisms (Bharadwaj et al., 2013; Verhoef et al., 2021; Hanelt et al., 2021; Brouthers et al., 2016). The two are related, but treating them as interchangeable, and collapsing them into a single umbrella variable, blurs the mechanisms that link digitalisation to performance.
+
+The remaining gap is methodological. Pooled estimates can obscure substantial lifecycle heterogeneity. Where firms and institutions pass through distinct stages of transition, as in Vietnam, the roles of internationalisation, technological capability, and digital adoption may vary considerably across survey waves. A pooled model identifies average effects well enough, but it falls short once the underlying relationships shift over time. A design that combines pooled and wave-specific analysis is therefore needed to determine whether the observed effects are stable or stage contingent.
 
 Recent meta-analytic work reinforces this concern. Pisani, Garcia-Bernardo, and Heemskerk (2020, SMJ) find that the inverted-U relationship between internationalisation and performance weakens substantially — and sometimes disappears — under more rigorous identification in cross-national pooled samples, suggesting that aggregation across heterogeneous institutional contexts inflates apparent functional-form regularity. Wu, Fan, and Chen (2022, MIR) extend this argument by showing in a meta-analysis of emerging-market multinationals (EMNEs) that institutional context moderates I–P effect sizes more powerfully than firm-level capability variables. Taken together, these findings imply that within-country longitudinal designs — which hold institutional context constant while varying time — provide a more credible test of whether the inverted-U is an artefact of cross-national pooling or a genuine relationship that persists as the institutional environment evolves. Vietnam's three-wave WBES panel (2009, 2015, 2023) provides exactly this design. Vietnam's macroeconomic and trade profile at the close of the observation window corroborates the transitional setting: GDP growth reached 7.09% in 2024, FDI inflows were US$20.17 billion (4.23% of GDP), and the export structure shifted substantially toward machinery and electronics — at 45.8% of total trade value, displacing the historically dominant textiles cluster — reflecting a structural upgrade in production capability that proceeded in parallel with the three survey waves (World Bank, 2025c).
 
 ### 1.3 Contribution
-This study makes three contributions to the literature.
+This study makes four contributions to the literature.
 
-First, it refines the I–P debate by
+It first refines the I–P debate. The Vietnamese evidence supports a nonlinear relationship, but the salience and visibility of that relationship vary across time. Nonlinearity, on this reading, is not a fixed structural fact that appears identically in every period; the I–P curve has to be read alongside the broader capability environment.
 
-showing that the Vietnamese evidence supports a nonlinear relationship, but that the salience
-and visibility of that relationship vary across time. Rather than treating nonlinearity as a fixed
-structural fact that appears identically in every period, the analysis suggests that the I–P curve
-must be read in conjunction with the broader capability environment.
-Second, the study improves construct validity by separating technological capability from
-foundational digital adoption. This distinction matters theoretically because deeper capability
-stocks and basic digital enablement may generate performance through different channels.
+The study also improves construct validity by separating technological capability from foundational digital adoption. The distinction matters theoretically, because deeper capability stocks and basic digital enablement may drive performance through different channels, and empirically, because the two constructs do not trace identical patterns across the Vietnamese waves.
 
+A further contribution is a cross-wave, stage-dependency reading of digital internationalisation. The WBES data are repeated cross-sections rather than a firm panel, so within-firm trajectories cannot be observed directly; even so, the cross-wave evidence points to digital capability as neither a universally stable premium nor a uniformly ineffective resource. It appears instead as an uneven, snapshot-contingent source of performance heterogeneity across institutional phases — which helps explain how pooled average effects coexist with substantial wave-specific differences.
 
-It
-
-
-also matters empirically because the two constructs do not exhibit identical patterns across the
-Vietnamese waves.
-Third, the study introduces a cross-wave, stage-dependency interpretation of digital internationalisation. Because the WBES data are repeated cross-sections rather than a firm panel, within-firm trajectories cannot be directly observed; the cross-wave evidence nonetheless suggests that digital capability is neither a universally stable premium nor a uniformly ineffective resource. Instead, it appears as an uneven and snapshot-contingent source of performance heterogeneity across institutional phases. This perspective helps explain why pooled average effects may coexist with substantial wave-specific differences.
-
-A fourth contribution reframes the inverted-U itself: the Vietnamese evidence suggests that the robustly identified turning point (39–46 % FSTS) emerges as a *step function across the export-participation barrier* rather than as a continuous coordination-cost saturation curve. The decomposition is sharp: re-fitted on the exporter-only sub-sample, the quadratic FSTS term collapses to a non-significant β = -0.200 (p = .660), and only ~1.0 % of pooled firms occupy the ±5 percentage-point neighbourhood of the turning point. This locates the productivity-relevant friction at the participation margin — where institutional, capability, and sunk-cost barriers bind hardest in a transitional economy — rather than within the intensity tail where conventional Uppsala-style coordination-cost arguments operate. The within-exporter flatness is consistent with the view that, once a Vietnamese firm has absorbed the fixed costs of crossing into international markets, additional intensity does not by itself trigger a coordination-cost saturation strong enough to reverse the productivity gain. This step-function reading qualifies the conventional inverted-U interpretation and points toward participation-margin frictions, rather than intensity-margin saturation, as the dominant binding mechanism in transitional-economy I–P dynamics. The divergence between this pattern and those documented in digitally advanced economies, where the coordination-cost mechanism is attenuated by comprehensive digital infrastructure, anchors the digitally transitional end of the institutional spectrum and motivates institution-level mechanisms as candidate moderators of I–P curve location.
+The final contribution reframes the inverted-U itself: the Vietnamese evidence suggests that the robustly identified turning point (39–46 % FSTS) emerges as a *step function across the export-participation barrier* rather than as a continuous coordination-cost saturation curve. The decomposition is sharp: re-fitted on the exporter-only sub-sample, the quadratic FSTS term collapses to a non-significant β = -0.200 (p = .660), and only ~1.0 % of pooled firms occupy the ±5 percentage-point neighbourhood of the turning point. This locates the productivity-relevant friction at the participation margin — where institutional, capability, and sunk-cost barriers bind hardest in a transitional economy — rather than within the intensity tail where conventional Uppsala-style coordination-cost arguments operate. The within-exporter flatness is consistent with the view that, once a Vietnamese firm has absorbed the fixed costs of crossing into international markets, additional intensity does not by itself trigger a coordination-cost saturation strong enough to reverse the productivity gain. This step-function reading qualifies the conventional inverted-U interpretation and points toward participation-margin frictions, rather than intensity-margin saturation, as the dominant binding mechanism in transitional-economy I–P dynamics. The divergence between this pattern and those documented in digitally advanced economies, where the coordination-cost mechanism is attenuated by comprehensive digital infrastructure, anchors the digitally transitional end of the institutional spectrum and motivates institution-level mechanisms as candidate moderators of I–P curve location.
 
 ### 1.4 Roadmap
-The remainder of the paper is organised as follows. Section 2 develops the theoretical framework
-and hypotheses.
-
-Section 3 describes the data, variables, and empirical strategy.
-
-Section 4
-
-presents the results. Section 5 discusses the theoretical and managerial implications. Section 6
-concludes.
+The remainder of the paper is organised as follows. Section 2 develops the theoretical framework and hypotheses, and Section 3 describes the data, variables, and empirical strategy. Section 4 presents the results, Section 5 discusses the theoretical and managerial implications, and Section 6 concludes.
 
 ## 2. Theory and hypotheses
 ### 2.1 Internationalisation and firm performance
-The relationship between internationalisation and firm performance is unlikely to be linear in
-a transitional economy such as Vietnam. Foreign expansion can improve performance through
-greater market reach, diversification, and learning from external environments. Firms may use
-internationalisation to spread fixed costs, access new customers, and acquire knowledge that
+In a transitional economy such as Vietnam, the relationship between internationalisation and firm performance is unlikely to be linear. Foreign expansion can lift performance through
+greater market reach, diversification, and learning from external environments; firms use
+internationalisation to spread fixed costs, reach new customers, and acquire knowledge that
 supports operational improvement.
-At the same time, deeper international involvement often generates coordination costs and
-organisational burdens. Firms must manage multiple markets, reconcile diverse customer demands, process more information, and sustain greater managerial control. As foreign expansion
-intensifies, these costs may grow faster than the benefits, producing diminishing returns or
+Deeper international involvement, at the same time, tends to generate coordination costs and
+organisational burdens. A firm must manage multiple markets, reconcile diverse customer demands, process more information, and sustain tighter managerial control. As foreign expansion
+intensifies, these costs may outgrow the benefits, producing diminishing returns or
 even a decline in performance. This basic logic underpins the classic nonlinear view of the I–P
 relationship (Contractor, 2007; Hennart, 2011; Marano et al., 2016). Process accounts of internationalisation, including the updated Uppsala framework, similarly emphasise that performance
 gains and adjustment costs unfold incrementally as firms accumulate market knowledge and
 commitment (Vahlne and Johanson, 2017; Knight and Liesch, 2016).
-This argument is especially plausible in Vietnam because firms operate under uneven capability conditions. Some firms may convert foreign expansion into learning and scale advantages,
-whereas others may encounter organisational strain sooner. The relevant expectation is therefore
-not a uniformly positive slope, but a nonlinear relationship in which gains from internationalisation become progressively more difficult to sustain.
+This argument carries particular weight in Vietnam, where firms operate under uneven capability conditions. Some convert foreign expansion into learning and scale advantages;
+others meet organisational strain sooner. What we expect, then, is
+not a uniformly positive slope, but a nonlinear relationship in which the gains from internationalisation become progressively harder to sustain.
 Two opposing forces underpin the curvature.
 
 On the upside, increasing direct-export in-
@@ -387,9 +345,9 @@ moves from basic digital presence toward a transaction-enabling digital-adoption
 it is treated as a measurement-depth robustness check rather than as the primary specification
 because k33 and k38 are unavailable in the 2009 and 2015 waves.
 
-**Construct-tier scope note.** The DAI_z construct in this paper (Tier 1 only: website binary c22b) is constrained by the WBES Vietnam instrument: only the website-presence binary is carried comparably across the 2009 / 2015 / 2023 waves, whereas richer Tier-2 transaction-enabling items such as electronic-payment intensity (k33, k38) appear only in the 2023 wave. The Vietnam Tier-1-only indicator (FSTS_c × DAI_z = −0.912, p = .043) is best read as construct-tier obsolescence: Tier-1 website presence has become a minimum-threshold credential in Vietnam's maturing digital environment and no longer differentiates firms' cross-border coordination capacity at high export intensity. The DAI_rich robustness composite available in the 2023 wave (Tier 1+2, §4.5 Panel B) provides within-wave sensitivity analysis on this scope-limitation question, but cross-wave comparability limits its use as the primary measure.
+**Construct-tier scope note.** The DAI_z construct in this paper (Tier 1 only: website binary c22b) is constrained by the WBES Vietnam instrument: only the website-presence binary is carried comparably across the 2009 / 2015 / 2023 waves, whereas richer Tier-2 transaction-enabling items such as electronic-payment intensity (k33, k38) appear only in the 2023 wave. The Vietnam Tier-1-only indicator (FSTS_c × DAI_z = −0.912, p = .043) is best read as construct-tier obsolescence: Tier-1 website presence has become a minimum-threshold credential in Vietnam's maturing digital environment and no longer differentiates firms' cross-border coordination capacity at high export intensity. The DAI_rich robustness composite available in the 2023 wave (Tier 1+2, Section 4.5 Panel B) provides within-wave sensitivity analysis on this scope-limitation question, but cross-wave comparability limits its use as the primary measure.
 
-**Tier-1-only DAI as a deliberate boundary condition.** The restriction of DAI_z to the website-presence binary (c22b) across the 2009, 2015, and 2023 waves is a deliberate boundary condition imposed by WBES data availability, not a methodological weakness or a proxy approximation. The 2009 and 2015 waves offer only the website presence indicator (Tier 1), while the 2023 wave includes payment digitization items (k33, k38; Tier 2). This tiered measurement captures institutional evolution in digital infrastructure: Tier-1 only in waves with incomplete WBES coverage reflects the actual state of digital adoption instrumentation at that time, not a deficiency of the present study's measurement strategy. Retaining a single harmonised Tier-1 indicator across all three waves is the methodologically conservative choice that preserves cross-wave comparability; the alternative — using a richer composite for 2023 only — would introduce a wave-specific construct-shift that could be mistaken for a structural change in the I–P relationship. The DAI_rich robustness extension (§4.5 Panel B) applies the 2023-wave Tier-2 items precisely as a within-wave sensitivity probe to assess whether the headline moderation pattern survives under a richer construct while acknowledging the cross-wave comparability cost.
+**Tier-1-only DAI as a deliberate boundary condition.** The restriction of DAI_z to the website-presence binary (c22b) across the 2009, 2015, and 2023 waves is a deliberate boundary condition imposed by WBES data availability, not a methodological weakness or a proxy approximation. The 2009 and 2015 waves offer only the website presence indicator (Tier 1), while the 2023 wave includes payment digitization items (k33, k38; Tier 2). This tiered measurement captures institutional evolution in digital infrastructure: Tier-1 only in waves with incomplete WBES coverage reflects the actual state of digital adoption instrumentation at that time, not a deficiency of the present study's measurement strategy. Retaining a single harmonised Tier-1 indicator across all three waves is the methodologically conservative choice that preserves cross-wave comparability; the alternative — using a richer composite for 2023 only — would introduce a wave-specific construct-shift that could be mistaken for a structural change in the I–P relationship. The DAI_rich robustness extension (Section 4.5 Panel B) applies the 2023-wave Tier-2 items precisely as a within-wave sensitivity probe to assess whether the headline moderation pattern survives under a richer construct while acknowledging the cross-wave comparability cost.
 
 Controls are standard. Firm size lnEmp = ln(l1). Firm age FirmAge = survey year minus b5 (year established). Foreign ownership ForeignOwned = 1 if b2b (percentage of equity owned by private foreign individuals or firms) > 0. Sector fixed effects use the first digit of a4b (broad ISIC code) for the 2009 and 2015 waves and the first digit of a4a for the 2023 wave, where a4b is not in the public release. Pooled specifications add wave fixed effects to absorb broad period differences in the productivity baseline.
 
@@ -411,7 +369,7 @@ Table 1 summarises all variables used in the M0–M8 sequence, their WBES source
 | δ_s | a4b / a4a | 1-digit ISIC sector (a4b for 2009/2015; a4a for 2023) | Sector fixed effects |
 | λ_t | wave | wave indicator: 2009, 2015, 2023 (pooled models only) | Period fixed effects |
 
-*Notes.* b8 and e6 are recoded from WBES 1/2 to binary 1/0 before composite construction (1 = has certification / foreign-licensed technology; 2 → 0). c22b is recoded similarly (1 = has website; 2 → 0). TCI_z and DAI_z are standardised within each wave independently so that coefficients are comparable in magnitude across waves. Turning-point formula: TP* = −β₁ / (2β₂); the Lind–Mehlum (2010) utest formally confirms inverted-U shape by rejecting monotonicity at p < .05 in all specifications. PPP conversion applied to d2 using World Bank ICP deflators matched to survey year.
+*Notes.* b8 and e6 are recoded from WBES 1/2 to binary 1/0 before composite construction (1 = has certification / foreign-licensed technology; 2 to 0). c22b is recoded similarly (1 = has website; 2 to 0). TCI_z and DAI_z are standardised within each wave independently so that coefficients are comparable in magnitude across waves. Turning-point formula: TP* = −β₁ / (2β₂); the Lind–Mehlum (2010) utest formally confirms inverted-U shape by rejecting monotonicity at p < .05 in all specifications. PPP conversion applied to d2 using World Bank ICP deflators matched to survey year.
 
 A note on missing-code handling. The WBES instrument codes do-not-know and refused
 
@@ -458,9 +416,9 @@ All models are estimated by OLS with HC1 heteroscedasticity-consistent standard 
 
 ### 3.4 Identification and Endogeneity Strategy
 
-A central identification concern in I→P research is that exporters self-select into foreign markets on the basis of characteristics — productivity, financial resilience, managerial quality — that also predict labour productivity independently of their export decision (Wagner, 2007; Wooldridge, 2010). Three design features address this concern.
+A central identification concern in I–P research is that exporters self-select into foreign markets on the basis of characteristics — productivity, financial resilience, managerial quality — that also predict labour productivity independently of their export decision (Wagner, 2007; Wooldridge, 2010). Three design features address this concern.
 
-*Heckman two-step correction.* A probit selection equation with industry × region × wave fixed effects predicts the probability of positive export participation; the implied inverse Mills ratio (IMR) is included as an additional regressor in the main outcome equation. The IMR coefficient is interpreted as a direct test of residual selection bias: a statistically insignificant IMR indicates that the OLS estimate is not materially contaminated by unobserved positive selection into exporting (Certo et al., 2016; Heckman, 1979). Results are reported as Panel E in §4.5.
+*Heckman two-step correction.* A probit selection equation with industry × region × wave fixed effects predicts the probability of positive export participation; the implied inverse Mills ratio (IMR) is included as an additional regressor in the main outcome equation. The IMR coefficient is interpreted as a direct test of residual selection bias: a statistically insignificant IMR indicates that the OLS estimate is not materially contaminated by unobserved positive selection into exporting (Certo et al., 2016; Heckman, 1979). Results are reported as Panel E in Section 4.5.
 
 *Instrumental-variable estimation.* Leave-one-out sector × region × wave peer-adoption rates serve as instruments for DAI and TCI. The instrument captures the digital and technological adoption decisions of peer firms in the same sector and region in the same survey wave, which are plausibly correlated with a focal firm's adoption but unlikely to affect the focal firm's labour productivity except through the adoption channel — satisfying approximate exclusion conditional on sector-wave cells. First-stage F-statistics of 22–35 are well above the Staiger–Stock (1997) threshold of 10, confirming instrument relevance.
 
@@ -532,16 +490,16 @@ The 2023 wave is where the digital-moderation signal emerges most sharply. M2 ag
 productivity contribution of basic digital presence attenuates and may amplify rather than relieve
 coordination burdens, consistent with the view that website-level adoption alone is insufficient
 when deeper transaction-enabling and process-integrating digital capability is still maturing.
-A complementary interpretation, consistent with the 2SLS null for instrumented DAI (β=0.018, p=.942; §4.5 Panel K), is proxy obsolescence: by 2023, website presence (Tier 1, c22b) has become a minimum-threshold credential rather than a capability differentiator in Vietnam's maturing digital environment. Firms with and without websites are no longer meaningfully distinguished in their cross-border coordination capacity at the DAI tier that c22b captures. This interpretation predicts the negative DAI×FSTS interaction without requiring that "digital adoption is bad" — instead, the instrument has lost its discriminatory power as Tier 1 adoption has diffused to near-universal levels (49.8% in 2023 vs 42.5% in 2009). The DAI_rich composite (Tier 1+2; §4.5 Panel B, 2023 only) provides a within-wave test of whether the sign shifts when transaction-enabling Tier-2 items (electronic-payment intensity) are added; future analyses extending Tier-2 indicators cross-wave would strengthen this within-WBES sensitivity check.
+A complementary interpretation, consistent with the 2SLS null for instrumented DAI (β=0.018, p=.942; Section 4.5 Panel K), is proxy obsolescence: by 2023, website presence (Tier 1, c22b) has become a minimum-threshold credential rather than a capability differentiator in Vietnam's maturing digital environment. Firms with and without websites are no longer meaningfully distinguished in their cross-border coordination capacity at the DAI tier that c22b captures. This interpretation predicts the negative DAI×FSTS interaction without requiring that "digital adoption is bad" — instead, the instrument has lost its discriminatory power as Tier 1 adoption has diffused to near-universal levels (49.8% in 2023 vs 42.5% in 2009). The DAI_rich composite (Tier 1+2; Section 4.5 Panel B, 2023 only) provides a within-wave test of whether the sign shifts when transaction-enabling Tier-2 items (electronic-payment intensity) are added; future analyses extending Tier-2 indicators cross-wave would strengthen this within-WBES sensitivity check.
 Taken together, the wave-specific results trace two wave-specific associations consistent with
 stage contingency. Foreign-technology / standards capability is positive across all three waves
-with a modestly attenuating magnitude (TCI_z = 0.215 → 0.128 → 0.123) but with moderation
+with a modestly attenuating magnitude (TCI_z = 0.215 to 0.128 to 0.123) but with moderation
 
 
 
 that survives in the 2009, 2023 and pooled panels. Website-based digital presence follows a nonmonotonic trajectory — strong in 2009 (β = 0.175 ***), null in 2015 (β = -0.044 n.s.), and
 re-emerging in 2023 (β = 0.095 *) — and its moderation channel materialises only in 2023.
-The Paternoster cross-wave z-tests reported in §4.5 indicate that the 2009-to-2015 fall in DAI
+The Paternoster cross-wave z-tests reported in Section 4.5 indicate that the 2009-to-2015 fall in DAI
 (z = 3.353, p < .001) and the 2015-to-2023 recovery (z = -2.051, p = .040) are statistically
 distinguishable.
 
@@ -636,7 +594,7 @@ than in strong within-exporter curvature alone.
 
 The institutional-context interpretation is reinforced by within-Vietnam cross-wave stability of the threshold itself. The pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is structurally durable across three WBES waves spanning 14 years of major institutional change — WTO accession (2007), the Global Financial Crisis (2008–2009), the deepening of the EU–Vietnam and CPTPP trade frameworks (2018–2020), the COVID-19 supply-chain disruption (2020–2022), and the diffusion of digital-payment and e-commerce infrastructure. The fact that the inverted-U turning point clusters within a narrow ~7-percentage-point band despite these macro-environmental shifts is consistent with institutional transaction costs binding through deep firm-level constraints — coordination capacity, contract enforcement, and trade-finance access — that change more slowly than the wider operating environment. This within-WBES cross-wave evidence complements the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022 — MIR; Marano et al., 2016).
 
-H2 is supported: the positive TCI_z direct coefficient (pooled β = 0.179, p < .001) is statistically significant in all three wave-specific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), and statistically distinguishable TCI moderation appears in three of four panels (M3 joint p = .040, .713, .027 and .003). The baseline DAI_z control reports a positive pooled level association (β = 0.078, p = .004) but with substantial wave-to-wave variability — strong in 2009 (β = 0.175, p < .001), null in 2015 (β = -0.044, p = .377), and re-emerging in 2023 (β = 0.095, p = .038). Because DAI_z indexes only Tier-1 website presence and is not formalised as a primary hypothesis in this paper, this wave variation is reported descriptively rather than as a hypothesis test. The Paternoster cross-wave z-tests (§4.5, Panel F) indicate that the 2009-to-2015 fall (z = 3.353, p < .001) and the 2015-to-2023 recovery (z = -2.051, p = .040) are both statistically distinguishable shifts in the descriptive Tier-1 series.
+H2 is supported: the positive TCI_z direct coefficient (pooled β = 0.179, p < .001) is statistically significant in all three wave-specific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), and statistically distinguishable TCI moderation appears in three of four panels (M3 joint p = .040, .713, .027 and .003). The baseline DAI_z control reports a positive pooled level association (β = 0.078, p = .004) but with substantial wave-to-wave variability — strong in 2009 (β = 0.175, p < .001), null in 2015 (β = -0.044, p = .377), and re-emerging in 2023 (β = 0.095, p = .038). Because DAI_z indexes only Tier-1 website presence and is not formalised as a primary hypothesis in this paper, this wave variation is reported descriptively rather than as a hypothesis test. The Paternoster cross-wave z-tests (Section 4.5, Panel F) indicate that the 2009-to-2015 fall (z = 3.353, p < .001) and the 2015-to-2023 recovery (z = -2.051, p = .040) are both statistically distinguishable shifts in the descriptive Tier-1 series.
 H4 receives limited exploratory support. The DAI joint moderation test is null in
 2009 (M4 p = .825), null in 2015 (M4 p = .125) and reaches the edge of significance
 in 2023 with the individual interaction FSTS_c × DAI_z = -0.912 (p = .043) and
@@ -722,13 +680,13 @@ turning-point magnitude.
 
 #### Robustness to Endogeneity and Selection
 
-Three complementary approaches address selection and endogeneity concerns. A note on the selection structure is warranted before presenting the checks. Exporters self-select into foreign markets, so the OLS estimates reflect both selection and treatment effects. As a boundary condition, exporter participation rates declined from 28.4% (2009) to 18.8% (2023) — consistent with servicification of the economy and the gradual exit of marginal exporters — which itself attenuates the threat of a constant positive-selection story across waves. A Heckman two-stage check confirms this reading: Heckman two-step corrections (Panel E) yield insignificant inverse-Mills ratios across all waves (all |λ| < 0.84, p > .25 in each wave), indicating no detectable selection bias on the exporter subsample. The inverse Mills ratio coefficient does not materially change FSTS coefficient estimates across waves, suggesting that selection bias is limited in this context and that the participation-margin productivity gap documented in §4.4 reflects a genuine performance discontinuity rather than an artefact of positive selection into exporting. Propensity-score matching (Panel J) corroborates the average H2 TCI association and the baseline DAI_z level association without imposing linearity: ATT estimates for foreign-technology / certification status (0.609–0.637, p < .001) and for website ownership (0.298–0.321, p < .001) are substantively consistent with the OLS results, though the latter is best read as a descriptive Tier-1 selection-corrected association rather than a capability test. Full matching-balance diagnostics and ATT estimates are reported in Online Appendix Table A.
+Three complementary approaches address selection and endogeneity concerns. A note on the selection structure is warranted before presenting the checks. Exporters self-select into foreign markets, so the OLS estimates reflect both selection and treatment effects. As a boundary condition, exporter participation rates declined from 28.4% (2009) to 18.8% (2023) — consistent with servicification of the economy and the gradual exit of marginal exporters — which itself attenuates the threat of a constant positive-selection story across waves. A Heckman two-stage check confirms this reading: Heckman two-step corrections (Panel E) yield insignificant inverse-Mills ratios across all waves (all |λ| < 0.84, p > .25 in each wave), indicating no detectable selection bias on the exporter subsample. The inverse Mills ratio coefficient does not materially change FSTS coefficient estimates across waves, suggesting that selection bias is limited in this context and that the participation-margin productivity gap documented in Section 4.4 reflects a genuine performance discontinuity rather than an artefact of positive selection into exporting. Propensity-score matching (Panel J) corroborates the average H2 TCI association and the baseline DAI_z level association without imposing linearity: ATT estimates for foreign-technology / certification status (0.609–0.637, p < .001) and for website ownership (0.298–0.321, p < .001) are substantively consistent with the OLS results, though the latter is best read as a descriptive Tier-1 selection-corrected association rather than a capability test. Full matching-balance diagnostics and ATT estimates are reported in Online Appendix Table A.
 
 Two-stage least-squares estimation using leave-one-out sector × region × wave peer-adoption rates as instruments (Panel K; first-stage F-statistics 22–35, well above the Staiger–Stock threshold) returns an instrumented DAI estimate of 0.018 (p = .942) and an instrumented TCI estimate of 1.639 (p < .001). The null 2SLS DAI coefficient is a key robustness result: it indicates that website presence does not plausibly cause productivity improvements in 2023 Vietnam, reinforcing the Tier 1 proxy obsolescence interpretation of the negative DAI×FSTS interaction. The strongly positive instrumented TCI coefficient (β=1.639, p<.001 — substantially larger than the OLS estimate, consistent with attenuation-bias correction) further indicates that foreign-technology and standards capability is the robust productivity-relevant mechanism in this institutional setting. The instrument set (peer-adoption rates within sector × region × wave cells) satisfies relevance (strong first stage) and approximate exclusion (peer-adoption rates are unlikely to affect individual firm productivity through channels other than DAI adoption, conditional on sector-wave cells). Oster (2019) δ-stability bounds (assuming R_max = 1.3 × R_controlled) indicate that no focal coefficient changes sign or collapses to zero under plausible magnitudes of unobserved selection. Full 2SLS first-stage results and Oster bound calculations are reported in Online Appendix Table B.
 
 Measurement-sensitivity probes indicate that core inferences do not depend on composite construction. Enriching TCI with R&D and product-innovation items (Panel A) attenuates the TCI coefficient modestly but does not alter qualitative conclusions. The enriched DAI_rich composite (Tier 1–2, Panel B) yields directionally consistent moderation in 2023 with weaker significance. Micro-firm exclusion (Panel D) preserves the inverted-U and TCI associations. Paternoster et al. cross-wave z-tests (Panel F) indicate that the DAI cross-wave shift is statistically distinguishable while curvature parameters share a common pooled magnitude. Panel-level estimates are reported in Online Appendix Tables C–F.
 
-Multiple-testing caveat. 4.5 reports four narrative panels (G, H, I, F) and three robustness families (endogeneity/selection, measurement sensitivity) across multiple focal terms. We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. Our substantive inferences in §5 rely on the pattern across panels and the directional consistency of the focal estimates rather than on the significance of any single robustness panel.
+Multiple-testing caveat. 4.5 reports four narrative panels (G, H, I, F) and three robustness families (endogeneity/selection, measurement sensitivity) across multiple focal terms. We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. Our substantive inferences in Section 5 rely on the pattern across panels and the directional consistency of the focal estimates rather than on the significance of any single robustness panel.
 
 Table 4 collates the robustness panels documented in 4.5 in a single overview to ease crosscomparison.
 Table LM reports the implied turning points of the inverted-U specification (M2) and the
@@ -940,7 +898,7 @@ K. IV / 2SLS — TCI_z
 First-stage F = 22.1
 (strong)
 Oster (2019) δ = 1 bounds
-2,958 FSTSc 0.92 → 0.61; FSTSc2 −2.21 → −1.17; No sign change; focal findTCI 0.14 → 0.19; DAI 0.07 → 0.08
+2,958 FSTSc 0.92 to 0.61; FSTSc2 −2.21 to −1.17; No sign change; focal findTCI 0.14 to 0.19; DAI 0.07 to 0.08
 ings stable
 ∗
 
@@ -993,23 +951,21 @@ Table 5: Implied turning points of the inverted-U (M2 specification).
 
 ## 5. Discussion
 
-The results should first be located against the meta-analytic baseline. Wu, Fan, and Chen (2022, MIR) establish a positive average I–P relationship for emerging-market multinationals — a useful macro-level anchor, but one that aggregates across institutional contexts in which the functional form may vary substantially. Country-level heterogeneity in the I–P curve shape remains under-specified in that meta-analysis. Vietnam — as a single-party transitional economy with rapid but uneven digital infrastructure uptake — provides a critical test of whether the pooled meta-level estimate masks functional-form nonlinearity at the within-country level. The present evidence is consistent with that concern: the inverted-U is robust within Vietnam but is driven predominantly by a participation-margin step rather than by within-exporter saturation, a structure that pooling across exporters and non-exporters in cross-country meta-analyses would tend to inflate into an apparent continuous curvature. The within-Vietnam temporal durability of the threshold (39–46 % band sustained across 14 years) additionally indicates that institutional context — held constant in this single-country design — may stabilise the curve shape in a way that cross-country designs cannot isolate. Our finding of a reproducible inverted-U at FSTS ≈ 39–46% in Vietnam, despite the cross-national skepticism articulated by Pisani, Garcia-Bernardo, and Heemskerk (2020, SMJ), is consistent with the view that single-country institutional contexts retain functional-form heterogeneity that pooled cross-national samples obscure through aggregation. The ascending-limb mechanism receives independent corroboration from matched firm-level customs panel evidence: Vietnamese firms that absorbed a positive US demand shock over 2018–2020 expanded exports to both US and non-US destinations and recorded commensurate gains in labour productivity, with demand-driven export expansion explaining 68.5 per cent of the observed domestic value-added ratio increase over the same period (Agarwal, Barattieri, & Mattoo, 2026). This corroboration strengthens the interpretation that moderate export intensity generates genuine productivity gains in Vietnamese firms — not merely a compositional artefact of positive selection into exporting.
+The results are best located first against the meta-analytic baseline. Wu, Fan, and Chen (2022, MIR) establish a positive average I–P relationship for emerging-market multinationals — a useful macro-level anchor, though one that aggregates across institutional contexts in which the functional form may vary substantially. That meta-analysis leaves country-level heterogeneity in the I–P curve shape under-specified. Vietnam, a single-party transitional economy with rapid but uneven digital infrastructure uptake, offers a critical test of whether the pooled meta-level estimate masks functional-form nonlinearity at the within-country level. The present evidence speaks to that concern: the inverted-U is robust within Vietnam, yet a participation-margin step drives it rather than within-exporter saturation — a structure that pooling exporters and non-exporters in cross-country meta-analyses tends to inflate into an apparent continuous curvature. The within-Vietnam temporal durability of the threshold (39–46 % band sustained across 14 years) additionally indicates that institutional context — held constant in this single-country design — may stabilise the curve shape in a way that cross-country designs cannot isolate. Our finding of a reproducible inverted-U at FSTS ≈ 39–46% in Vietnam, despite the cross-national skepticism articulated by Pisani, Garcia-Bernardo, and Heemskerk (2020, SMJ), is consistent with the view that single-country institutional contexts retain functional-form heterogeneity that pooled cross-national samples obscure through aggregation. The ascending-limb mechanism receives independent corroboration from matched firm-level customs panel evidence: Vietnamese firms that absorbed a positive US demand shock over 2018–2020 expanded exports to both US and non-US destinations and recorded commensurate gains in labour productivity, with demand-driven export expansion explaining 68.5 per cent of the observed domestic value-added ratio increase over the same period (Agarwal, Barattieri, & Mattoo, 2026). This corroboration strengthens the interpretation that moderate export intensity generates genuine productivity gains in Vietnamese firms — not merely a compositional artefact of positive selection into exporting.
 
 ### 5.1 Reinterpreting the baseline website-presence indicator in Vietnam
-The central implication of the descriptive DAI_z findings is that baseline website presence in Vietnam should
-not be interpreted as a universal and temporally stable productivity premium, nor as evidence on dynamic digital capability. Although both
-TCI_z and DAI_z are positive on average in pooled specifications, their empirical roles differ
-materially across waves and across identification strategies (Vahlne, 2020; Stallkamp and Schotter, 2021). Within the constraint of a Tier-1 binary website indicator, the pattern is that
-website ownership is not a constant background advantage; it is a context-sensitive marker whose productivity association attenuates under instrumental-variable identification and varies sharply across the 2009 / 2015 / 2023 waves.
+The descriptive DAI_z findings carry one central implication: baseline website presence in Vietnam should
+not be read as a universal, temporally stable productivity premium, nor as evidence on dynamic digital capability. TCI_z and DAI_z are both positive on average in the pooled specifications, yet their empirical roles diverge
+materially across waves and across identification strategies (Vahlne, 2020; Stallkamp and Schotter, 2021). Within the limits of a Tier-1 binary website indicator, what emerges is that
+website ownership is no constant background advantage; it is a context-sensitive marker whose productivity association attenuates under instrumental-variable identification and varies sharply across the 2009 / 2015 / 2023 waves.
 
 The negative sign on the FSTS_c × DAI_z interaction in 2023 — where DAI productivity relevance attenuates at higher export intensities — is consistent with the Tier-1 boundary of the construct: a website alone cannot manage the transaction density of high-export-intensity operations without electronic-payment and process-integration support. This contrasts with settings where the same construct includes Tier 2 transaction-enabling items, where higher export intensity could instead amplify the productivity return to digital adoption.
-This interpretation helps reconcile the coexistence of positive pooled effects and uneven wavespecific results. The pooled model captures the average tendency for stronger capability to be
-associated with better performance. The wave-specific models reveal that this tendency is not
-equally strong in every phase. The value of digital capability therefore depends on where firms
-stand in the broader trajectory of internationalisation and transition, as captured in repeated cross-sectional snapshots rather than within-firm longitudinal records.
+This reading helps reconcile the coexistence of positive pooled effects with uneven wave-specific results. The pooled model captures the average tendency for stronger capability to track better performance; the wave-specific models show that this tendency is not
+equally strong in every phase. The value of digital capability thus depends on where a firm
+stands in the broader trajectory of internationalisation and transition — as seen in repeated cross-sectional snapshots rather than within-firm longitudinal records.
 
 ### 5.2 Why the distinction between TCI and baseline DAI matters
-The results strengthen the methodological case for separating foreign-technology / standards capability from a baseline website-presence indicator and for not conflating the two under a single "digital adoption" or "digital transformation" label. The PSM and IV evidence in 4.5 (Panels J and K)
+The results strengthen the methodological case for keeping foreign-technology / standards capability apart from a baseline website-presence indicator, rather than folding the two into a single "digital adoption" or "digital transformation" label. The PSM and IV evidence in 4.5 (Panels J and K)
 makes the distinction sharper (Karna et al., 2016).
 
 TCI is robust under both matching and
@@ -1045,9 +1001,9 @@ documented under matched comparison but not under exogenous instrumental variati
 
 
 
-supports a more careful approach to digitalisation in international-business research, one that
-distinguishes between basic digital enablement (easily contaminated by selection on observables)
-and broader technological depth (more identification-robust), rather than collapsing them into
+argues for a more careful treatment of digitalisation in international-business research — one that
+distinguishes basic digital enablement (easily contaminated by selection on observables)
+from broader technological depth (more identification-robust), rather than collapsing them into
 a single label.
 
 ### 5.3 The significance of the 2015 dip
@@ -1067,9 +1023,8 @@ view proxy obsolescence and stage contingency as mutually exclusive: both can be
 jointly. We flag the proxy-obsolescence reading because it is not testable within the cross-wavecomparable WBES instrument and future work using waves with richer Tier 2–3 digital items
 is needed to disentangle the two channels.
 
-The 2015 pattern is best interpreted not as an anomaly, but as a wave-specific compression of
-the foundational digital-adoption channel under transitional infrastructure conditions. It shows
-that even when the nonlinear I–P structure becomes clearer, the direct payoff from website-based
+The 2015 pattern is best read not as an anomaly, but as a wave-specific compression of
+the foundational digital-adoption channel under transitional infrastructure conditions. Even where the nonlinear I–P structure becomes clearer, the direct payoff from website-based
 digital presence can compress to a null. This reading is institutionally plausible, but it should
 not be treated as a formally identified explanation of the coefficient pattern. Firms may pass
 through a transitional stage in which export expansion remains important but the productivity
@@ -1111,7 +1066,7 @@ phase, even when the curvature parameters of the I–P relationship themselves r
 indistinguishable across waves.
 
 ### 5.4 Managerial implications
-The managerial implication is not that firms should invest less in digitalisation. Rather, it is that the *composition* of capability investment should change with the firm's position relative to two empirically anchored thresholds: the export-participation barrier (FSTS = 0 → FSTS > 0) and the inverted-U turning-point band at 39–46 % FSTS. Read together, the step-function structure at the participation margin and the Tier-1 saturation of website-based digital presence imply a threshold-conditioned capital-allocation map for Vietnamese SME managers — one that translates the wave-specific coefficient patterns into stage-appropriate priorities.
+The managerial implication is not that firms should invest less in digitalisation. Rather, it is that the *composition* of capability investment should change with the firm's position relative to two empirically anchored thresholds: the export-participation barrier (FSTS = 0 to FSTS > 0) and the inverted-U turning-point band at 39–46 % FSTS. Read together, the step-function structure at the participation margin and the Tier-1 saturation of website-based digital presence imply a threshold-conditioned capital-allocation map for Vietnamese SME managers — one that translates the wave-specific coefficient patterns into stage-appropriate priorities.
 
 *Stage 1 — Pre-export and low-intensity firms (FSTS = 0 or FSTS < ~30 %).* The dominant productivity-relevant action at this stage is crossing the participation barrier, not optimising digital presence per se. Foundational website adoption and basic e-payment connectivity remain useful as low-cost legitimacy signals to potential foreign buyers, but their productivity contribution is bounded by the Tier-1 ceiling of the WBES instrument and by the diffusion-driven attenuation of c22b informational content documented in the descriptive evidence. Capital expenditure on incremental website redesign or marketing-digital extensions at this stage delivers limited marginal productivity return relative to investment that loosens the fixed-cost barriers to first export participation: foreign-market intelligence, ISO-style quality certification, and entry-cost financing.
 
@@ -1124,9 +1079,9 @@ The *2015 dip* in DAI direct association is interpretable through this lens as w
 Two cross-cutting principles emerge. First, managers should avoid conflating basic digital adoption with deeper technological capability — the constructs do not behave identically across periods or under identification-robust estimation, and Tier-1 digital expenditure does not substitute for the foreign-technology, standards, and process-integration investments that the TCI channel reflects. Second, allocation decisions should be staged against the empirically identified thresholds rather than against generic digital-transformation prescriptions: investment in incremental Tier-1 presence at high export intensity may absorb scarce capital with limited productivity return, while investment in TCI-channel capability around the 39–46 % band corresponds to where the cross-wave evidence is most consistent with a productivity-enhancing effect. The threshold-conditioned framing translates the step-function and Tier-1 saturation findings into actionable allocation guidance without overstating the causal status of the cross-sectional coefficients.
 
 ### 5.5 Policy implications
-We frame the policy reading as tentative considerations rather than directive prescriptions. The
+The policy reading here is offered as tentative consideration, not directive prescription. The
 associational nature of the evidence, the breadth of the wave-specific heterogeneity, and the
-single-economy scope all weigh against converting the findings into firm policy targets. With
+single-economy scope all weigh against converting these findings into firm policy targets. With
 those caveats kept explicit, three considerations follow for Vietnam's trade and digital-economy
 policy design.
 First, export-promotion instruments designed around a uniformly positive internationalisation premium will overshoot in transitional periods such as the 2015 wave, when capability
@@ -1154,8 +1109,8 @@ derstate its long-run productivity contribution; a programme assessed against a 
 takes the wave-specific structural differences seriously will couple short-window outcome measurement with sustained measurement of the capability and infrastructure environment in which firms operate. In the Vietnamese context, the World Bank (2025b) *Taking Stock* update identifies the cultivation of high-tech industrial talent as a binding constraint mediating digital and capability investment into sustainable productivity gains — reinforcing the argument that policy evaluation in transitional settings must monitor the capability environment, not adoption rates alone. At the macro level, Vietnam's service trade liberalization over 2008–2016 raised service-sector productivity by an average of 2.9 per cent per year and manufacturing productivity by 3.1 per cent per year (Barattieri, Mattoo, & Signoret, 2026), suggesting that the ascending limb documented in the WBES microdata reflects in part the economy-wide gains from trade opening that firm-level capability investments convert into sustained productivity advantage.
 
 ## 6. Limitations and future research
-The findings should be read against five limitations. First and most fundamentally, the WBES
-microdata are repeated cross-sections rather than a true firm panel. This design cannot identify within-firm trajectories over time, and time-invariant unobserved heterogeneity cannot be netted out at the firm level — which means causal attribution for any estimated coefficient remains unavailable. The associational language used throughout the paper reflects this constraint and should not be relaxed in any reader's interpretation of the results. The appropriate analytical remedy is a matched-firm longitudinal panel combining WBES waves with administrative registry data or customs records, which would allow difference-in-differences or fixed-effects identification of the participation-margin productivity jump; Wooldridge (2010) provides the relevant identification framework for such designs.
+The findings should be read against five limitations. The first and most fundamental is that the WBES
+microdata are repeated cross-sections, not a true firm panel. This design cannot identify within-firm trajectories over time, nor net out time-invariant unobserved heterogeneity at the firm level, so causal attribution for any estimated coefficient remains out of reach. The associational language used throughout the paper reflects this constraint and should not be relaxed in any reader's interpretation of the results. The appropriate analytical remedy is a matched-firm longitudinal panel combining WBES waves with administrative registry data or customs records, which would allow difference-in-differences or fixed-effects identification of the participation-margin productivity jump; Wooldridge (2010) provides the relevant identification framework for such designs.
 
 Second, DAI_z captures only a foundational, Tier-1-style layer of digital adoption centred on website presence, rather than digitally integrated organisational capability. This means the present analysis cannot conclude whether deeper digital integration — Tier 2 electronic-payment intensity, Tier 3 ERP-linked supply-chain digitisation, or Tier 4 data-driven operations — exhibits a more stable or differently shaped productivity channel than the website-presence binary documents here. The appropriate remedy is a panel of digitally integrated firms measured with Tier 2–4 indicators (electronic-payment intensity k33/k38, ERP adoption, platform integration), applying the construct-tier hierarchy of Verhoef et al. (2021) to assign each indicator to its correct layer before entering it in the I–P model.
 
@@ -1165,38 +1120,29 @@ precisely because its institutional and digital environment shifted noticeably a
 modification to economies whose digital infrastructure or export composition follows a different
 trajectory.
 
-Fourth, the cross-wave evidence is uneven in statistical strength.
-
-The Paternoster et al.
-
-(1998) z-tests indicate that the drop in DAI_z between 2009 and 2015 (z = 3.353, p < .001)
+Fourth, the cross-wave evidence is uneven in statistical strength. The Paternoster et al. (1998) z-tests indicate that the drop in DAI_z between 2009 and 2015 (z = 3.353, p < .001)
 and its recovery between 2015 and 2023 (z = -2.051, p = .040) are statistically distinguishable,
 but most other cross-wave coefficient differences sit at marginal or non-significant magnitudes.
 The cross-wave comparison therefore rests primarily on the directional consistency of the wave-specific estimates and on the concentration of the digital signal in 2023, rather than on uniformly
 significant pairwise coefficient differences across all focal terms. Sharper identification of the digital channel is achievable by exploiting the exogenous timing of Vietnam's National Digital Transformation Programme (launched June 2020; Prime Minister of Vietnam, 2020) as a policy instrument in a difference-in-differences design that contrasts pre- and post-NDTP firm cohorts within the same WBES sampling frame.
 
-Fifth, the sector fixed effects in the main models are intentionally broad to keep the crosswave specification comparable.
-
-Section 4.5 Panel G addresses one natural extension by re-
-
-estimating the pooled M2 / M7 / M8 specifications on manufacturing (sector1 ∈ {1, 2, 3}; N =
-1,854) versus non-manufacturing (sector1 ∈ {4, 5, 6, 7}; N = 1,104) subsets, and finds that the
+Fifth, the sector fixed effects in the main models are intentionally broad to keep the crosswave specification comparable. Section 4.5 Panel G addresses one natural extension by re-estimating the pooled M2 / M7 / M8 specifications on manufacturing (sector1 ∈ {1, 2, 3}; N = 1,854) versus non-manufacturing (sector1 ∈ {4, 5, 6, 7}; N = 1,104) subsets, and finds that the
 digital-adoption channel operates primarily in manufacturing while the technological-capability
 channel is present in both. Finer industry-level mechanisms — for example, contrasting digitally
 intensive services with traditional services, or contrasting export-oriented with domestically
 oriented manufacturing sub-sectors — would benefit from a research design that exploits richer
 industry classification than the WBES one-digit codes allow.
 
-Sixth, the analysis is limited to Vietnam as a single transitional economy at a particular stage of its digital and institutional development. Understanding how the DAI moderation pattern documented here — negative at high export intensity under Tier-1-only adoption — compares with patterns in other emerging markets at different institutional stages, or with patterns in digitally advanced economies where the same interaction is predicted to be positive, requires cross-setting comparative designs that systematically vary institutional transaction costs and digital infrastructure quality. Such designs would also allow more direct tests of the context-contingent framing developed in §2.1.
+Sixth, the analysis is limited to Vietnam as a single transitional economy at a particular stage of its digital and institutional development. Understanding how the DAI moderation pattern documented here — negative at high export intensity under Tier-1-only adoption — compares with patterns in other emerging markets at different institutional stages, or with patterns in digitally advanced economies where the same interaction is predicted to be positive, requires cross-setting comparative designs that systematically vary institutional transaction costs and digital infrastructure quality. Such designs would also allow more direct tests of the context-contingent framing developed in Section 2.1.
 
 
 
 ## 7. Conclusion
-This study revisits the internationalisation–performance relationship in Vietnam by treating foreign-technology / standards capability as the primary capability construct and by retaining a single-item website-presence indicator only as a baseline digital-presence control. It compares pooled with wave-specific evidence across the 2009 / 2015 / 2023 WBES waves to evaluate the structural durability of the I–P threshold and the wave-level identification robustness of each capability dimension.
+This study revisits the internationalisation–performance relationship in Vietnam, treating foreign-technology / standards capability as the primary capability construct and retaining a single-item website-presence indicator only as a baseline digital-presence control. Comparing pooled with wave-specific evidence across the 2009 / 2015 / 2023 WBES waves lets it weigh the structural durability of the I–P threshold against the wave-level identification robustness of each capability dimension.
 
-The findings indicate that the internationalisation–performance relationship is non-monotonic in the full sample, that the pattern is driven primarily by a participation-and-intensity structure rather than by strong within-exporter curvature alone, and — critically — that the inverted-U turning point is structurally durable: the threshold range clusters within a narrow ~7-percentage-point band (39.3–46.2 %) across 14 years of major institutional change, including WTO accession, the Global Financial Crisis, the COVID-19 supply-chain disruption, and the diffusion of digital-payment infrastructure. This durability is consistent with deep firm-level constraints — coordination capacity, contract enforcement, and trade-finance access — that change more slowly than the wider operating environment.
+The findings indicate that the internationalisation–performance relationship is non-monotonic in the full sample, that a participation-and-intensity structure drives the pattern rather than strong within-exporter curvature alone, and — critically — that the inverted-U turning point is structurally durable. The threshold range clusters within a narrow ~7-percentage-point band (39.3–46.2 %) across 14 years of major institutional change: WTO accession, the Global Financial Crisis, the COVID-19 supply-chain disruption, and the diffusion of digital-payment infrastructure. Such durability points to deep firm-level constraints — coordination capacity, contract enforcement, and trade-finance access — that move more slowly than the wider operating environment.
 
-The results also suggest that technological capability and the baseline website-presence indicator should not be treated as interchangeable, and that conflating them under a single "digital adoption" or "digital transformation" label would obscure their differing identification properties. Technological capability is comparatively stable and identification-robust across specifications. The baseline DAI_z control is more wave-sensitive and attenuates to a null under instrumental-variable estimation, consistent with Tier-1 proxy obsolescence as website ownership diffuses to near-universal levels in the Vietnamese firm population. Within the constraint of a single binary website indicator, this paper makes no claim about dynamic digital capability moderation; any such test awaits richer Tier 2–4 indicators not currently available cross-wave in the WBES Vietnam instrument.
+The results also suggest that technological capability and the baseline website-presence indicator are not interchangeable, and that conflating them under a single "digital adoption" or "digital transformation" label would obscure their differing identification properties. Technological capability is comparatively stable and identification-robust across specifications; the baseline DAI_z control is more wave-sensitive and attenuates to a null under instrumental-variable estimation, consistent with Tier-1 proxy obsolescence as website ownership diffuses to near-universal levels in the Vietnamese firm population. Within the constraint of a single binary website indicator, this paper makes no claim about dynamic digital capability moderation; any such test awaits richer Tier 2–4 indicators that are not currently available cross-wave in the WBES Vietnam instrument.
 
 ## Conflict of interest
 The authors declare no conflict of interest.

@@ -4,6 +4,9 @@
 **Đề tài:** Quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp ở Châu Á  
 **Người hướng dẫn:** PGS.TS. Phan Anh Tú | **Đơn vị:** Trường Kinh tế, ĐH Cần Thơ
 
+> **Sơ đồ tổng quan luận án (minh họa):** [`figures/dissertation_roadmap_vi.mermaid`](figures/dissertation_roadmap_vi.mermaid) · bản tiếng Anh: [`figures/dissertation_roadmap_en.mermaid`](figures/dissertation_roadmap_en.mermaid).
+> *Lưu ý: sơ đồ chỉ mang tính minh họa; cách đánh số và tiêu đề bài báo theo các file thực tế trong kho mới là chuẩn (ví dụ P3 = Việt Nam, P4 = Singapore, P7 = capstone 45 nền kinh tế → JIBS).*
+
 ---
 
 ## PHẦN I — TRẠNG THÁI HIỆN TẠI (SNAPSHOT 20/05/2026)
@@ -95,19 +98,19 @@
 ---
 
 ### P6 — Three-Level Meta-Analysis I→P Asia-Pacific 🟡 CẦN 1 BƯỚC
-- **Target journal:** International Business Review (IBR) — ABS-3, Elsevier
-- **Submission portal:** editorialmanager.com/ibr
-- **Files đã có:**
-  - `p6/submission/ibr_package/01_manuscript_blinded.docx` (k=238, K=288)
-  - `p6/submission/ibr_package/02_title_page.docx`
-  - `p6/submission/ibr_package/03_cover_letter.docx`
+- **Target journal:** Management Review Quarterly (MRQ) — Springer, Scopus Q1 (retargeted from IBR, 2026-05-27)
+- **Submission portal:** Springer Editorial Manager (link.springer.com → Management Review Quarterly → Submit)
+- **Files đã có** (`.docx` cần rebuild lại cho MRQ — xem `mrq_package/README.md`):
+  - `p6/submission/mrq_package/01_manuscript_blinded.docx` (k=238, K=288)
+  - `p6/submission/mrq_package/02_title_page.docx`
+  - `p6/submission/mrq_package/03_cover_letter.docx`
   - Figures: 5 PNG + PDF (forest plot, funnel plot, moderator plots)
   - OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)
 
 **⚠️ Vấn đề cần quyết định trước khi nộp:**
 
 **Lựa chọn A — Nộp ngay với k=238 (ĐƯỢC, defensible):**
-- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho IBR meta-analysis
+- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho meta-analysis
 - Kết quả đã ổn định: r̄=0.074 [0.060, 0.088], I²=62.4%, Q_M(ICRV)=17.35**
 - Rủi ro: Reviewer có thể hỏi về 782 papers đang chờ L2
 
@@ -123,14 +126,14 @@
 
 ---
 
-### P7 — Multi-Country Capstone (49 economies) 🟢 SẴN SÀNG NỘP
+### P7 — Multi-Country Capstone (45 economies) 🟢 SẴN SÀNG NỘP
 - **Target journal:** Journal of International Business Studies (JIBS) — ABS-4*, FT-50
 - **Submission portal:** mc.manuscriptcentral.com/jibs
 - **Files đã có:**
   - `p7/submission/jibs_package/01_manuscript_blinded.docx`
   - `p7/submission/jibs_package/02_title_page.docx`
   - `p7/submission/jibs_package/03_cover_letter.docx`
-- **Nội dung bài:** N=84,910–91,982, 49 economies, M0–M11, TP≈36% (LM p<.001)
+- **Nội dung bài:** N=82,302–98,658, 45 economies, M0–M11, TP≈37% (LM p<.001)
 - **Dữ liệu:** `data_wbes/p7/p7_pooled_clean.csv` (24MB)
 
 **⚠️ Lưu ý:**
@@ -354,7 +357,7 @@ Tháng 5–6/2026 (NGAY BÂY):
   ✅ Nộp P4 (MIR)            — 1 ngày  
   ✅ Nộp P5 (IJOEM)          — 1 ngày
   ✅ Nộp P7 (JIBS)           — 1 ngày
-  ✅ Nộp P6 với k=238 (IBR)  — 1 ngày  [nếu chọn Lựa chọn A]
+  ✅ Nộp P6 với k=238 (MRQ)  — 1 ngày  [nếu chọn Lựa chọn A]
   ✅ Xác nhận P8 status       — 30 phút
   ✅ Nộp CD1 cho GVHD        — 1 ngày in + họp
 
@@ -390,7 +393,7 @@ Tháng 12/2026:
 | P3 (JABS) | **95%** | Click Submit |
 | P4 (MIR) | **95%** | Click Submit |
 | P5 (IJOEM) | **95%** | Click Submit |
-| P6 (IBR) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
+| P6 (MRQ) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
 | P7 (JIBS) | **95%** | Click Submit |
 | P8 (World Dev) | **90%** | Xác nhận status, submit nếu chưa |
 | CD1 | **90%** | In + nộp GVHD |

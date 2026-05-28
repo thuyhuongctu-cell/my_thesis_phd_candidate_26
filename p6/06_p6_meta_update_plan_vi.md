@@ -25,7 +25,7 @@ Bài "Internationalization and firm performance: A meta-analysis review" đượ
 - **Coverage**: 1977–2022 → 1982–2026.
 - **Pool**: 113 baseline + bổ sung (ước lượng tham khảo ~130–172, MASTER ~269; **không bắt buộc phải đạt**).
 - **Method**: random-effects pooled → **three-level MARA** với nested effect sizes.
-- **Moderators mới**: **cDAI**, **ICRV 5-regime**, **DPL phase** (đây là đóng góp chính).
+- **Moderators mới**: **cDAI**, **ICRV 6-regime**, **DPL phase** (đây là đóng góp chính).
 - **Software**: chuyển từ MetaEssentials sang `metafor` (R) hoặc `pymetaR` (Python).
 
 ### 0.5 Vì sao lineage quan trọng
@@ -79,7 +79,7 @@ Giữ nguyên 7 tiêu chí include + 6 tiêu chí exclude.
 
 ### Gap 2: Asian institutional heterogeneity
 
-Áp dụng **ICRV 5-regime classification** theo WGI Rule of Law thresholds $+0.80$ và $-0.50$ (Khanna & Palepu, 2010; North, 1990; Do & Phan, 2025).
+Áp dụng **ICRV 6-regime classification** theo WGI Rule of Law thresholds $+0.80$ và $-0.50$ (Khanna & Palepu, 2010; North, 1990; Do & Phan, 2025).
 
 ### Gap 3: Digital Paradox Lifecycle (DPL)
 
@@ -184,7 +184,7 @@ Lấy `P6_OSF_Preregistration_Template.md`, fill ngay với:
 
 - Meta-analysis đầu tiên trên DOI–FP sử dụng **three-level MARA**.
 - Lần đầu kiểm định **cDAI** như country-level moderator.
-- Lần đầu opérer **ICRV 5-regime classification**.
+- Lần đầu vận hành **ICRV 6-regime classification**.
 
 ### 7.2 Theoretical
 

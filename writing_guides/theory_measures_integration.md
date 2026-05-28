@@ -475,7 +475,7 @@ resolves, (3) what methodological advance enables this resolution.
 | Paper | Core finding | Prior ambiguity resolved | Methodological advance |
 |-------|-------------|------------------------|----------------------|
 | P3 Vietnam | TP ≈ 12–13% FSTS; TCI positive; DAI null in 2009/2015, positive in 2023 | Whether CDCM holds in Frontier regime | First 3-wave Vietnam test; Paternoster z-test for coefficient stability |
-| P4 Singapore | TP ≈ 88.6% FSTS; DAI amplification at high FSTS; Heckman IMR confirms pattern | Whether DAI amplification is strongest in Advanced regime (CDCM Group I prediction) | Exporters-only identification; DAI Tier-1+2 composite; bootstrapped TP CI |
+| P4 Singapore | TP ≈ 82% FSTS; DAI amplification at high FSTS; Heckman IMR confirms pattern | Whether DAI amplification is strongest in Advanced regime (CDCM Group I prediction) | Exporters-only identification; DAI Tier-1+2 composite; bootstrapped TP CI |
 | P5 China | TP ≈ 48–49% FSTS; TCI positive; DAI binary (website) null; 2012→2024 shift | Whether CDCM holds in Upper-Middle Transition regime; DPL phase shift | 2-wave cross-cohort comparison; Paternoster cross-wave z-test |
 | P6 meta | r̄ = 0.07, I² = 88%; ICRV gradient confirmed; cDAI positive; DPL phase inflection | Conflation of institutional context with capability effects in prior meta-analyses | Three-level MARA with 3 new moderators; ICRV as continuous regime moderator |
 
@@ -702,10 +702,10 @@ A significant z confirms the ICRV regime gradient in DAI moderation.
 | File | Rows | Scope | Notes |
 |------|------|-------|-------|
 | `data_wbes/analysis/pooled_wbes_6waves.csv` | 8,589 | P3/P4/P5 countries only (Vietnam, Singapore, China) | Working dataset for empirical papers |
-| `data_wbes/p7/p7_pooled_clean.csv` | 102,332 total; 91,982 non-panel | Full Asia-Pacific WBES scope (49 economies, 102 country-waves) | P7 / CD1 / CD2 full pool |
+| `data_wbes/p7/p7_pooled_clean.csv` | 102,332 total; 98,658 non-panel | Full Asia-Pacific WBES scope (45 economies, 102 country-waves) | P7 / CD1 / CD2 full pool |
 
 **Discrepancy note**: CD1/CD2 manuscripts cite "101,185 firms · 108 country-year pairs ·
-14 survey waves · 47 economies." The current `p7_pooled_clean.csv` has 91,982 non-panel
-firms across 49 economies and 102 country-waves. This discrepancy reflects data updates
+14 survey waves · 47 economies." The current `p7_pooled_clean.csv` has 98,658 non-panel
+firms across 45 economies and 102 country-waves. This discrepancy reflects data updates
 since the CD manuscripts were drafted. When CD1/CD2 are submitted for defence, the pool
 statistics should be re-verified against the final locked P7 dataset.

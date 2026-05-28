@@ -1,0 +1,21 @@
+study_id,author,year,candidate_doi,oa_doi,oa_id,oa_title,oa_year,oa_journal,cited_by_count,is_oa,oa_url,match_method,title_overlap,verify_status,needs_manual_check
+S01,Siddharthan & Lall,1982,10.1111/j.1468-0084.1982.mp44001001.x,10.1111/j.1468-0084.1982.mp44001001.x,https://openalex.org/W3167250294,THE RECENT GROWTH OF THE LARGEST US MULTINATIONALS<sup>*</sup>,1982,Oxford Bulletin of Economics and Statistics,151,False,,doi,,verified,no
+S02,Grant,1987,,,,,,,,,,,,not_found,yes
+S03,Sambharya,1995,,,,,,,,,,,,not_found,yes
+S04,McDougall & Oviatt,1996,10.1016/0883-9026(95)00081-x,10.1016/0883-9026(95)00081-x,https://openalex.org/W2042672056,"New venture internationalization, strategic change, and performance: A follow-up study",1996,Journal of Business Venturing,711,False,,doi,,verified,no
+S05,Tallman & Li,1996,,,,,,,,,,,,not_found,yes
+S06,Hitt et al.,1997,,,,,,,,,,,,not_found,yes
+S07,Wan,1998,,,,,,,,,,,,not_found,yes
+S08,Gomes & Ramaswamy,1999,,,,,,,,,,,,not_found,yes
+S09,Li,2001,,,,,,,,,,,,not_found,yes
+S10,Qian,2002,10.1016/s0883-9026(01)00079-5,,,,,Journal of Business Venturing,,,,,,not_found,yes
+S11,Capar & Kotabe,2003,10.1057/palgrave.jibs.8400036,10.1057/palgrave.jibs.8400036,https://openalex.org/W2062934299,The relationship between international diversification and performance in service firms,2003,Journal of International Business Studies,678,False,,doi,,doi_mismatch_check,yes
+S12,Hsu & Boggs,2003,,,,,,,,,,,,not_found,yes
+S13,Ruigrok & Wagner,2003,,,https://openalex.org/W1537599416,Internationalization and Performance: An Organizational Learning Perspective,2003,Alexandria (UniSG) (University of St.Gallen),610,False,,title,1.0,title_match,no
+S14,Majocchi & Zucchella,2003,10.1177/0266242603021003001,,,,,International Small Business Journal,,,,,,not_found,yes
+S15,Carpenter & Sanders,2004,10.1016/j.jm.2004.02.001,10.1016/j.jm.2004.02.001,https://openalex.org/W2119134459,The Effects of Top Management Team Pay and Firm Internationalization on MNC Performance,2004,Journal of Management,274,False,,doi,,verified,no
+S16,Kim et al.,2004,,,,,,,,,,,,not_found,yes
+S17,Lu & Beamish,2004,,10.1016/s0012-821x(04)00012-3,https://openalex.org/W1871734886,The 176Lu decay constant determined by Lu–Hf and U–Pb isotope systematics of Precambrian mafic intrusions,2004,Earth and Planetary Science Letters,2718,False,,author_year,,author_year_guess,yes
+S18,Thomas & Eden,2004,10.1108/1525383x200400005,10.1108/1525383x200400005,https://openalex.org/W1974263639,What is the Shape of the Multinationality‐Performance Relationship?,2004,Multinational Business Review,341,False,,doi,,verified,no
+S19,Chiao et al.,2006,10.1007/s11187-005-5604-6,10.1007/s11187-005-5604-6,https://openalex.org/W2104637076,"Performance, Internationalization, and Firm-specific Advantages of SMEs in a Newly-Industrialized Economy",2006,Small Business Economics,187,False,,doi,,doi_mismatch_check,yes
+S20,Elango,2006,10.1108/1525383x200600015,10.1108/1525383x200600015,https://openalex.org/W2088428587,International Channels of Distribution: A Classification System for Analyzing Research Studies,2006,Multinational Business Review,9,False,,doi,,doi_mismatch_check,yes

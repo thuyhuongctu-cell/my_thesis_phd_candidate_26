@@ -101,7 +101,7 @@ Phân tích publication bias gồm ba kiểm định bổ sung nhau. **Kiểm đ
 
 Phân tích trên mẫu doanh nghiệp Singapore từ dữ liệu WBES với $N = 237$ doanh nghiệp xuất khẩu xác nhận mối quan hệ phi tuyến (inverted U-shape) giữa FSTS và hiệu quả hoạt động ở mức có ý nghĩa thống kê ($p < {,}05$). Mô hình bậc hai với biến FSTS và FSTS$^2$ cho hệ số bậc hai âm, phù hợp với dạng chữ U ngược như kỳ vọng từ H1 trong khung lý thuyết CDCM.
 
-Điểm turning point ước lượng được ở mức **TP ≈ 88,6\% FSTS** — đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
+Điểm turning point ước lượng được ở mức **TP ≈ 82\% FSTS** — đây là điểm turning point cao nhất trong tất cả các bối cảnh ICRV được phân tích trong luận án. Khoảng tin cậy của turning point rộng (CI: [53\%, 253\%]), phản ánh hạn chế về quy mô mẫu và thống kê chính xác, nhưng điểm ước lượng trung tâm cho thấy rằng doanh nghiệp Singapore có thể duy trì đà tăng trưởng hiệu quả khi quốc tế hóa ở mức độ rất cao trước khi đạt đỉnh và suy giảm.
 
 ### 4.3.2 Điều tiết bởi Digital Adoption Index (DAI)
 
@@ -158,7 +158,7 @@ Turning point được ước lượng riêng cho từng làn sóng và cho pool
 | 2023     | 41,6% FSTS   |
 | Pooled   | 39,7% FSTS   |
 
-Điểm turning point trong khoảng **39–46% FSTS** đặt Việt Nam ở mức "thấp hơn đáng kể" so với Singapore (TP ≈ 88,6%) và tương đương hoặc thấp hơn Trung Quốc (TP ≈ 48,78%). Kiểm định Paternoster so sánh turning point giữa 2009 và 2015 cho kết quả $z = 3{,}353$, $p < {,}001$ — có ý nghĩa thống kê, cho thấy turning point đã dịch chuyển đáng kể từ 46,2\% xuống 39,3\% giữa hai làn sóng.
+Điểm turning point trong khoảng **39–46% FSTS** đặt Việt Nam ở mức "thấp hơn đáng kể" so với Singapore (TP ≈ 82%) và tương đương hoặc thấp hơn Trung Quốc (TP ≈ 48,78%). Kiểm định Paternoster so sánh turning point giữa 2009 và 2015 cho kết quả $z = 3{,}353$, $p < {,}001$ — có ý nghĩa thống kê, cho thấy turning point đã dịch chuyển đáng kể từ 46,2\% xuống 39,3\% giữa hai làn sóng.
 
 ### 4.5.3 Điều tiết bởi TCI — Tích cực và có ý nghĩa
 
@@ -174,11 +174,11 @@ Mô hình M5 với tương tác $FSTS \times DAI$ (chỉ bao gồm Tier-1 DAI do
 
 ### 4.6.1 Mẫu và mô hình chính
 
-Phân tích P7 là kiểm định quy mô lớn nhất của luận án, kết hợp tất cả các bối cảnh ICRV trong khu vực châu Á và Thái Bình Dương với **$N = 84.910$ quan sát** (mô hình M2 — quadratic FSTS không có biến kiểm soát). Khi bổ sung đầy đủ biến kiểm soát, mẫu hồi quy giảm xuống $N = 38.342$ quan sát (M3–M5), phản ánh missing data trong biến sở hữu nước ngoài và tuổi doanh nghiệp ở các nền kinh tế nhỏ và sóng WBES sớm. Mô hình M5 với country fixed effects và year fixed effects — cấu hình mạnh nhất về kiểm soát phương sai không quan sát ($\text{adjR}^2 = {,}677$) — ước lượng turning point tổng thể (pooled):
+Phân tích P7 là kiểm định quy mô lớn nhất của luận án, kết hợp tất cả các bối cảnh ICRV trong khu vực châu Á và Thái Bình Dương với **$N = 82.302$ quan sát** (mô hình M2 — quadratic FSTS không có biến kiểm soát). Khi bổ sung đầy đủ biến kiểm soát, mẫu hồi quy giảm xuống $N = 38.342$ quan sát (M3–M5), phản ánh missing data trong biến sở hữu nước ngoài và tuổi doanh nghiệp ở các nền kinh tế nhỏ và sóng WBES sớm. Mô hình M5 với country fixed effects và year fixed effects — cấu hình mạnh nhất về kiểm soát phương sai không quan sát ($\text{adjR}^2 = {,}677$) — ước lượng turning point tổng thể (pooled):
 
 $$\text{TP(M5)} = 40{,}0\% \text{ FSTS} \quad (p_{\text{LM}} < {,}001)$$
 
-Turning point dao động nhất quán trong dải hẹp 33,8–40,0% FSTS qua tất cả các đặc tả M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều đầy đủ M11 ($\text{TP} = 34{,}6\%$, $p_{\text{LM}} = {,}002$, $N = 29.840$). Tính nhất quán này bác bỏ giả thuyết rằng chữ U ngược chỉ là artefact của mẫu nhỏ hay thiếu biến kiểm soát.
+Turning point dao động nhất quán trong dải hẹp 33,8–40,0% FSTS qua tất cả các đặc tả M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều đầy đủ M11 ($\text{TP} = 34{,}6\%$, $p_{\text{LM}} = {,}002$, $N = 28.500$). Tính nhất quán này bác bỏ giả thuyết rằng chữ U ngược chỉ là artefact của mẫu nhỏ hay thiếu biến kiểm soát.
 
 ### 4.6.2 Gradient ICRV — Xác nhận H5
 
@@ -192,8 +192,8 @@ Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống
 
 ### 4.6.3 Điều tiết bởi TCI và DAI trong toàn mẫu
 
-- **TCI**: có ý nghĩa thống kê dương trên toàn mẫu — một đơn vị độ lệch chuẩn tăng TCI nâng năng suất lao động khoảng 41% (exp(0,344)−1). Tuy nhiên, các tương tác FSTS×TCI và FSTS²×TCI **không có ý nghĩa** trong mẫu 49 nền kinh tế đa dạng thể chế. H2 **được xác nhận một phần**: TCI là yếu tố nâng mặt bằng năng suất nhất quán, nhưng vai trò uốn hình dạng đường cong I→P chỉ xuất hiện trong bối cảnh quốc gia cụ thể (P3 Việt Nam), không phổ quát xuyên toàn mẫu.
-- **DAI**: có ý nghĩa thống kê toàn mẫu — hiệu ứng trực tiếp $\hat{\beta}(\text{DAI}) = +0{,}155$ ($p < {,}001$) tương ứng lợi thế năng suất ~17% cho doanh nghiệp có website. Quan trọng hơn, cả hai tương tác điều tiết đều có ý nghĩa: $\hat{\beta}(\text{FSTS} \times \text{DAI}) = -0{,}614$ ($p < {,}001$) và $\hat{\beta}(\text{FSTS}^2 \times \text{DAI}) = +0{,}766$ ($p < {,}01$). Pattern âm rồi dương này cho thấy doanh nghiệp DAI cao có đường cong I→P phẳng hơn nhưng dịch lên — tổn thất hiệu suất ít hơn khi quốc tế hóa cao. Tương tác DAI×ICRV ($p = {,}012$) xác nhận vai trò của DAI mạnh hơn ở các môi trường thể chế yếu hơn (nhất quán với CDCM).
+- **TCI**: có ý nghĩa thống kê dương trên toàn mẫu — một đơn vị độ lệch chuẩn tăng TCI nâng năng suất lao động khoảng 41% (exp(0,344)−1). Tuy nhiên, các tương tác FSTS×TCI và FSTS²×TCI **không có ý nghĩa** trong mẫu 45 nền kinh tế đa dạng thể chế. H2 **được xác nhận một phần**: TCI là yếu tố nâng mặt bằng năng suất nhất quán, nhưng vai trò uốn hình dạng đường cong I→P chỉ xuất hiện trong bối cảnh quốc gia cụ thể (P3 Việt Nam), không phổ quát xuyên toàn mẫu.
+- **DAI**: có ý nghĩa thống kê toàn mẫu — hiệu ứng trực tiếp $\hat{\beta}(\text{DAI}) = +0{,}155$ ($p < {,}001$) tương ứng lợi thế năng suất ~17% cho doanh nghiệp có website. Quan trọng hơn, cả hai tương tác điều tiết đều có ý nghĩa: $\hat{\beta}(\text{FSTS} \times \text{DAI}) = -0{,}614$ ($p < {,}001$) và $\hat{\beta}(\text{FSTS}^2 \times \text{DAI}) = +0{,}766$ ($p < {,}01$). Pattern âm rồi dương này cho thấy doanh nghiệp DAI cao có đường cong I→P phẳng hơn nhưng dịch lên — tổn thất hiệu suất ít hơn khi quốc tế hóa cao. Tương tác DAI×ICRV ($p = {,}049$) xác nhận vai trò của DAI mạnh hơn ở các môi trường thể chế yếu hơn (nhất quán với CDCM).
 
 ---
 
@@ -228,8 +228,8 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | Giả thuyết | Nội dung | Kết quả |
 |---|---|---|
 | H1 (Phi tuyến chữ U ngược) | I→P có dạng inverted-U | Xác nhận tại Singapore, Trung Quốc, Việt Nam, và toàn mẫu P7 (ngoại trừ SIDS) |
-| H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận một phần: TCI nâng mặt bằng năng suất tại tất cả bối cảnh; uốn đường cong xác nhận tại Việt Nam nhưng NS tại toàn mẫu P7 (49 nền kinh tế) |
-| H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (49 nền kinh tế); DAI×ICRV p=.012 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
+| H2 (TCI điều tiết dương) | TCI khuếch đại I→P | Xác nhận một phần: TCI nâng mặt bằng năng suất tại tất cả bối cảnh; uốn đường cong xác nhận tại Việt Nam nhưng NS tại toàn mẫu P7 (45 nền kinh tế) |
+| H3 (DAI điều tiết) | DAI thay đổi độ dốc I→P | Xác nhận: DAI có level effect phổ quát (β=+0,155***) và cả hai curvature interactions có ý nghĩa trong P7 (45 nền kinh tế); DAI×ICRV p=.049 — "digital shield" mạnh nhất khi thể chế yếu; null tại Việt Nam (Tier-1 only) là kết quả tương thích do hạn chế đo lường |
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 với top manager nữ β = +0,185*** |
 | H5 (ICRV gradient) | Thể chế điều tiết gradient I→P | Xác nhận một phần: $Q_M = 17{,}35^{**}$ (*df* = 4, *p* = ,002) từ P6 MARA xác nhận dị biệt giữa chế độ; gradient định hướng (E1a/E1b) chưa xác nhận do *k* = 3 tại Frontier; gradient ICRV → TP được xác nhận từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I→P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |

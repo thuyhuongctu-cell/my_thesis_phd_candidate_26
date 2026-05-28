@@ -7,7 +7,7 @@
 
 **Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption**
 
-*Target journal:* Journal of Asia Business Studies (JABS), Emerald Publishing
+*Target journal:* Asia Pacific Journal of Management (APJM), Springer
 
 *Submission date:* 15 May 2026
 
@@ -20,7 +20,7 @@
 **Đỗ Thùy Hương** (Do Thuy Huong)
 
 - **Position:** PhD Candidate
-- **Affiliation:** College of Economics, Can Tho University (CTU)
+- **Affiliation:** School of Economics, Can Tho University (CTU)
 - **Address:** Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
 - **Email:** huongp1323001@gstudent.ctu.edu.vn
 - **ORCID:** 0000-0002-7711-2487 (https://orcid.org/0000-0002-7711-2487)
@@ -31,7 +31,7 @@
 **Phan Anh Tú** (Phan Anh Tu)
 
 - **Title:** Associate Professor (PGS.TS.)
-- **Affiliation:** College of Economics, Can Tho University (CTU)
+- **Affiliation:** School of Economics, Can Tho University (CTU)
 - **Address:** Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
 - **Email:** patu@ctu.edu.vn
 - **ORCID:** 0000-0003-0667-3137 (https://orcid.org/0000-0003-0667-3137)

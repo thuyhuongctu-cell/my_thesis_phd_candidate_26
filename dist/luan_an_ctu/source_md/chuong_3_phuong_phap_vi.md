@@ -244,7 +244,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 
 > M2 (Bậc hai FSTS — kiểm định H1):
 > lnNSLD_i = α + β₁ CDDXK_c_i + β₂ CDDXK_c²_i + γ·X_i + δ_s + ε_i
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) ≈ 88,6% FSTS [CI bootstrap [53%, 253%]]
+> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) ≈ 82% FSTS [CI bootstrap [53%, 253%]]
 > Lưu ý: Lind–Mehlum p = 0,303 — không bác bỏ tuyến tính trong phạm vi dữ liệu quan sát; đây là kết quả thông tin tích cực theo khung bão hòa (saturation framework)
 
 > M3 (+ NLCN — H1-TCI trực tiếp):
@@ -340,7 +340,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 ### 3.4.5.4 Mô hình cụ thể — Nghiên cứu 7 (Đa quốc gia châu Á, WBES 2003–2025)
 
-Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **49 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 84.910 (M0–M2) đến N = 29.840 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
+Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **45 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 82.302 (M0–M2) đến N = 28.500 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực) — biến phụ thuộc
 - **CDDXK_c_it**: cường độ xuất khẩu mean-centred — FSTS_c = (d3c/100) − mean_pool(FSTS)
@@ -413,7 +413,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |
 | δ_ct | — | country × year FE | Fixed effects |
 
-*Ghi chú: Mẫu phân tích giảm dần từ N = 84.910 (M2) → 38.342 (M3, thêm kiểm soát) → 29.840 (M11, thêm manager + ICRV + three-way). DAI P7 là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với P3 Vietnam (Tier-1 only) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
+*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2) → 38.342 (M3, thêm kiểm soát) → 28.500 (M11, thêm manager + ICRV + three-way). DAI P7 là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với P3 Vietnam (Tier-1 only) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
 
 ---
 

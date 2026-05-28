@@ -2,22 +2,22 @@
 
 File này trình bày thiết kế nghiên cứu, nguồn dữ liệu, đo lường biến, mô hình phân tích và kiểm định độ vững. Mỗi thành phần đều được giải thích theo hai loại cơ sở:
 
-- **Cơ sở kế thừa**: phương pháp đã được công nhận trong literature, kèm citation APA 7th.
-- **Đóng góp mới/điều chỉnh**: những điểm mà luận án cải tiến hoặc tổ chức mới, kèm lập luận rõ ràng.
+- **Cơ sở kế thừa**: phương pháp đã được công nhận trong tài liệu nghiên cứu, kèm trích dẫn theo chuẩn APA 7th.
+- **Đóng góp mới/điều chỉnh**: những điểm mà luận án này cải tiến hoặc tổ chức lại, kèm lập luận rõ ràng.
 
 ## 1. Thiết kế nghiên cứu tổng thể
 
 ### 1.1 Loại thiết kế
 
-Luận án sử dụng **mixed synthesis-empirical design** gồm hai phase bổ sung cho nhau. Phase thứ nhất là meta-analysis tổng hợp literature để trả lời RQ1, còn phase thứ hai là phân tích thực nghiệm doanh nghiệp đa quốc gia để trả lời RQ2–RQ4. Hai phase đối thoại hai chiều: meta cung cấp baseline và gợi ý moderator cần kiểm định, còn empirical cung cấp bằng chứng bổ sung cho meta về bối cảnh châu Á và Pacific.
+Luận án này sử dụng **thiết kế hỗn hợp tổng hợp-thực nghiệm** (mixed synthesis-empirical design) gồm hai giai đoạn bổ sung cho nhau. Giai đoạn thứ nhất là phân tích tổng hợp tài liệu nghiên cứu nhằm trả lời câu hỏi nghiên cứu RQ1; giai đoạn thứ hai là phân tích thực nghiệm doanh nghiệp đa quốc gia nhằm trả lời RQ2–RQ4. Hai giai đoạn này đối thoại theo hai chiều: phân tích tổng hợp cung cấp mức tham chiếu và gợi ý các yếu tố điều tiết cần kiểm định, còn phân tích thực nghiệm cung cấp bằng chứng bổ sung cho phần tổng hợp ở bối cảnh châu Á và Thái Bình Dương.
 
 **Cơ sở kế thừa**: Mixed design kết hợp meta và primary data đã được áp dụng trong quản trị chiến lược và IB (Borenstein et al., 2009; Hunter & Schmidt, 2004; Combs et al., 2011).
 
-**Đóng góp mới**: Áp dụng mixed design cho một luận án duy nhất về internationalization–firm performance trong bối cảnh châu Á và Pacific với **47 nền kinh tế** là thiết kế hiếm gặp; đa số các luận án IB chỉ làm một trong hai phase. Quy mô 47 nước/101.185 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ pool 17 nước trong Đỗ và Phan (2026 — VEFR).
+**Đóng góp mới**: Việc áp dụng thiết kế hỗn hợp cho một luận án duy nhất về quan hệ giữa quốc tế hóa và hiệu quả hoạt động trong bối cảnh châu Á và Thái Bình Dương với **47 nền kinh tế** là một thiết kế hiếm gặp; phần lớn các luận án kinh doanh quốc tế chỉ thực hiện một trong hai giai đoạn. Quy mô 47 nước/101.185 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ tập 17 nước trong Đỗ và Phan (2026 — VEFR).
 
 ### 1.2 Quy trình nghiên cứu
 
-Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và meta-analysis trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành meta-analysis cập nhật 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **47 nền kinh tế châu Á và Pacific** sau khi hòa hợp 3 thế hệ schema (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết.
+Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và các phân tích tổng hợp trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành phân tích tổng hợp cập nhật giai đoạn 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **47 nền kinh tế châu Á và Thái Bình Dương** sau khi hòa hợp 3 thế hệ lược đồ (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết.
 
 ## 2. Phase 1: Meta-analysis 1982–2026
 
@@ -44,7 +44,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế ch
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (Đỗ & Phan, 2026 — VEFR).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Đỗ & Phan, 2026 — P8 manuscript).
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Đỗ & Phan, 2026 — phân tích SIDS Thái Bình Dương manuscript).
 
 ### 3.2 Đo lường biến phụ thuộc — Hiệu quả hoạt động
 
@@ -85,9 +85,9 @@ Luận án phân biệt rõ hai construct:
 
 **Cơ sở kế thừa**: Khanna và Palepu (2010) với institutional voids; North (1990) với institutional analysis; Marano et al. (2016) với meta-analytic evidence về institutional moderators.
 
-#### 3.4.3 Top manager characteristics
+#### 3.4.3 Top manager characteristics (kiểm soát quản trị nội sinh H4)
 
-**Biến chính**: top manager experience (năm kinh nghiệm), top manager gender (female / male).
+**Biến kiểm soát**: top manager experience (năm kinh nghiệm), top manager education, top manager gender (female / male). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (phân tích Việt Nam, Singapore và Trung Quốc). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ.
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
@@ -145,11 +145,11 @@ với $M_i$ là moderator (TCI hoặc DAI).
 
 $$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 D_i + \beta_4 I_i + \beta_5 M_i + \sum \text{interactions} + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
-với $D$ = digital, $I$ = institutional, $M$ = manager.
+với $D$ = digital (DAI), $I$ = institutional (ICRV) là hai nhân tố điều tiết trọng tâm, và $M$ = manager được đưa vào như khối kiểm soát quản trị nội sinh.
 
 **Cơ sở kế thừa**: chuẩn moderation trong quản trị chiến lược (Aiken & West, 1991; Dawson, 2014).
 
-**Đóng góp mới**: three-way moderation digital × institutional × manager trong bối cảnh châu Á và Pacific với 47 nước chưa được kiểm định trước đây.
+**Đóng góp mới**: focal moderation digital × institutional (DAI × ICRV) trong bối cảnh châu Á và Pacific với 47 nước chưa được kiểm định trước đây, với đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh nhằm bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ.
 
 ### 4.5 Mô hình temporal heterogeneity (H6)
 
@@ -187,7 +187,7 @@ H1: $\beta_1 > 0$ và $\beta_2 < 0$; điểm quay $TP^* = -\beta_1 / (2\beta_2)$
 **M3 — Điều tiết NLCN (kiểm định H2):**
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4(CDDXK\_c \times NLCN\_z) + \beta_5(CDDXK\_c^2 \times NLCN\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
-**M4 — Điều tiết CSS/DAI (H4 thăm dò):**
+**M4 — Điều tiết CSS/DAI (H3, thăm dò):**
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z + \beta_4(CDDXK\_c \times CSS\_z) + \beta_5(CDDXK\_c^2 \times CSS\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
 **M5 — NLCN trực tiếp (không tương tác):**
@@ -213,7 +213,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 | CDDXK_c | d3c | CDDXK − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
 | CDDXK_c² | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
 | NLCN_z | b8, e6 | z-std trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
-| CSS_z | c22b | z-std trong sóng của c22b₀₁: hiện diện website | Số hoá Tier-1 (H4 thăm dò) |
+| CSS_z | c22b | z-std trong sóng của c22b₀₁: hiện diện website | Số hoá Tier-1 (H3, thăm dò) |
 | lnLD | l1 | ln(l1): log số lao động thường xuyên | Kiểm soát: quy mô doanh nghiệp |
 | TuoiDN | b5 | năm khảo sát − b5: số năm hoạt động | Kiểm soát: tuổi doanh nghiệp |
 | SoHuuNN | b2b | 1 nếu b2b > 0: có vốn nước ngoài | Kiểm soát: hình thức sở hữu |
@@ -228,8 +228,8 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 - **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
 - **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; CDDXK_c² là bình phương
 - **NLCN_z_i** = TCI_z_i: năng lực công nghệ — z-std của trung bình(b8₀₁, e6₀₁)
-- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2** — z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm e-payment hai chiều (Tier-2)
-- **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự P3
+- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tier-1+2** — z-std của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác phân tích Việt Nam ở chỗ bao gồm e-payment hai chiều (Tier-2)
+- **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự phân tích Việt Nam
 - **δ_s**: sector fixed effects (ISIC 1-chữ số)
 - **IMR_i** = nghịch đảo tỷ lệ Mills từ mô hình probit tham gia xuất khẩu (kiểm tra độ nhạy Heckman)
 
@@ -243,7 +243,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 
 > M2 (Bậc hai FSTS — kiểm định H1):
 > lnNSLD_i = α + β₁ CDDXK_c_i + β₂ CDDXK_c²_i + γ·X_i + δ_s + ε_i
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) ≈ 88,6% FSTS [CI bootstrap [53%, 253%]]
+> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) ≈ 82% FSTS [CI bootstrap [53%, 253%]]
 > Lưu ý: Lind–Mehlum p = 0,303 — không bác bỏ tuyến tính trong phạm vi dữ liệu quan sát; đây là kết quả thông tin tích cực theo khung bão hòa (saturation framework)
 
 > M3 (+ NLCN — H1-TCI trực tiếp):
@@ -281,7 +281,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (biến phụ thuộc)
 - **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
-- **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện — z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn P3
+- **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện — z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁); mở rộng hơn phân tích Việt Nam
 - **CSS_z_it** = DAI_core_it: chỉ số số hoá cơ bản — chỉ c22b₀₁ (Tier-1 mỏng, single-item binary)
 - **lnLD_it**, **TuoiDN_it**, **SoHuuNN_it**: biến kiểm soát
 - **δ_s**: sector fixed effects; **λ_t**: wave fixed effects (pooled)
@@ -311,12 +311,12 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 > z = (β̂₁,2012 − β̂₁,2024) / √(SE²₁,2012 + SE²₁,2024)
 > (Paternoster et al., 1998) — tương tự cho β₂ (FSTS²)
 
-> M6 (Điều tiết ba chiều — kiểm định H3/H4a/H4b):
+> M6 (Điều tiết ba chiều — kiểm định điều tiết DAI bậc nhất và bậc hai (H3)):
 > lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
 >             + β₅(CDDXK_c × NLCN_z) + β₆(CDDXK_c² × NLCN_z)
 >             + β₇(CDDXK_c × wave) + β₈(CDDXK_c² × wave) + γ·X + δ_s + λ_t + ε
 > F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng lực), F3 (dịch chuyển điều kiện)
-> Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017) → H4b (null capability-curvature moderation) được chấp nhận
+> Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017) → điều tiết năng lực–độ cong không có ý nghĩa (null capability-curvature moderation)
 
 **Bảng định nghĩa biến — Nghiên cứu 5 (Trung Quốc):**
 
@@ -333,13 +333,13 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 | δ_s | ISIC sector | Sector FE | Hiệu ứng cố định ngành |
 | λ_t | wave (2012/2024) | Wave FE (chỉ pooled) | Hiệu ứng cố định thời kỳ |
 
-*Ghi chú: 217 doanh nghiệp xuất hiện cả hai sóng ("panel core") tạo thêm nhận dạng biến thiên trong mẫu trong khi clustered SE theo idstd xử lý tương quan nội nhóm. DAI Trung Quốc chỉ là Tier-1 đơn biến — không đủ để kiểm định CDCM; hàm ý chính sách và lý thuyết khác với P4 Singapore (Tier-1+2).*
+*Ghi chú: 217 doanh nghiệp xuất hiện cả hai sóng ("panel core") tạo thêm nhận dạng biến thiên trong mẫu trong khi clustered SE theo idstd xử lý tương quan nội nhóm. DAI Trung Quốc chỉ là Tier-1 đơn biến — không đủ để kiểm định CDCM; hàm ý chính sách và lý thuyết khác với phân tích Singapore (Tier-1+2).*
 
 ---
 
 ### 4.5.4 Mô hình cụ thể — Nghiên cứu 7 (Đa quốc gia châu Á, WBES 2003–2025)
 
-Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **49 nền kinh tế châu Á và Thái Bình Dương** (102 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 84.910 (M0–M2) đến N = 29.840 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
+Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **45 nền kinh tế châu Á và Thái Bình Dương** (98 cặp quốc gia × năm, 2003–2025). Mẫu phân tích toàn phần đạt N = 82.302 (M0–M2) đến N = 28.500 (M11 full). Thiết kế hierarchical OLS với HC1 robust standard errors, clustered theo country-year. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực) — biến phụ thuộc
 - **CDDXK_c_it**: cường độ xuất khẩu mean-centred — FSTS_c = (d3c/100) − mean_pool(FSTS)
@@ -368,7 +368,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot 
 
 **M5** (M3 + country-year FE — kiểm định vững mạnh nhất):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot X_{it} + \delta_{ct} + \varepsilon_{it}$$
-$$\text{AdjR}^2 = {,}677; \quad TP \approx 40\%$$
+$$\text{AdjR}^2 = {,}671; \quad TP \approx 39{,}5\%$$
 
 **M7** (M3 + điều tiết NLCN — kiểm định H2):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z$$
@@ -379,21 +379,22 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 $$+ \beta_7 (CDDXK\_c \times CSS\_z) + \beta_8 (CDDXK\_c^2 \times CSS\_z) + \gamma \cdot X + \varepsilon$$
 $$\text{H3: } \hat\beta_7 < 0\ (p < {,}001);\ \hat\beta_8 > 0\ (p < {,}01) \rightarrow \text{DAI nén sườn tăng, giảm nhẹ sườn giảm}$$
 
-**M9** (M8 + đặc điểm nhà quản lý — kiểm định H4):
+**M9** (M8 + đặc điểm nhà quản lý như kiểm soát quản trị nội sinh H4):
 $$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
-$$\hat\beta_{10} = +0{,}185^{***} \text{ (top manager nữ: lợi thế hiệu quả ~17–20\% cross-context)}$$
+$$\hat\beta_{10} = +0{,}202^{***} \text{ (top manager nữ: hiệu ứng nâng mặt bằng, lợi thế hiệu quả ~22\% cross-context)}$$
+$$\text{Số hạng } \beta_9, \beta_{10} \text{ là kiểm soát mức; } \beta_{11} \text{ chỉ là chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.}$$
 
 **M10** (M3 + điều tiết ICRV — kiểm định H5):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} ICRV_j$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
-$$\text{H5: } TP \text{ tăng khi ICRV tăng (thể chế yếu hơn): Group I} \approx 28\%,\ \text{Group V–VI} \approx 55\%$$
+$$\text{H5: } |\beta_2|\text{ (độ cong) tăng khi ICRV tăng (thể chế yếu hơn): } CDDXK\_c^2 \times ICRV < 0;\ \text{điểm uốn không dịch chuyển đơn điệu}$$
 
-**M11** (full three-way — kiểm định H7-P7):
+**M11** (full three-way — kiểm định H7-phân tích đa quốc gia):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
 $$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
 $$+ \beta_{14}(CDDXK\_c \times CSS\_z \times ICRV) + \beta_9 KNQLy + \beta_{10} NQL\_nu + \gamma \cdot X + \delta_{ct} + \varepsilon$$
-$$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,}6\%,\ \text{LM } p = {,}002$$
+$$\text{DAI} \times \text{ICRV: } p = {,}049^*;\ \text{three-way NS};\ TP = 25{,}7\%,\ \text{LM } p = {,}026$$
 
 **Bảng định nghĩa biến — Nghiên cứu 7 (đa quốc gia)**
 
@@ -412,7 +413,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |
 | δ_ct | — | country × year FE | Fixed effects |
 
-*Ghi chú: Mẫu phân tích giảm dần từ N = 84.910 (M2) → 38.342 (M3, thêm kiểm soát) → 29.840 (M11, thêm manager + ICRV + three-way). DAI P7 là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với P3 Vietnam (Tier-1 only) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
+*Ghi chú: Mẫu phân tích giảm dần từ N = 82.302 (M2) → 36.772 (M3, thêm kiểm soát) → 28.500 (M11, thêm manager + ICRV + three-way). DAI phân tích đa quốc gia là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu — khác với phân tích Việt Nam Vietnam (Tier-1 only) và đồng nhất với phân tích Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
 
 ### 4.5.5 Mô hình cụ thể — Nghiên cứu 8 (Pacific SIDS, WBES 2009–2025)
 
@@ -523,7 +524,7 @@ Winsorization 1% và 5% đối với labor productivity và employment, áp dụ
 | FSTS + FSTS² + FSTS³ | Lu & Beamish (2004); Hitt et al. (1997); Đỗ & Phan (2026 — JFAR) | Đưa vào cùng three-way moderation framework |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Non-overlapping construct purity protocol cho WBES; digital shield mở rộng (Đỗ & Phan, 2026 — VEFR) |
 | Lind–Mehlum U-test | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng country sample và multi-country |
-| Three-way moderation | Aiken & West (1991); Dawson (2014) | digital × institutional × manager mới cho châu Á và Pacific |
+| Focal moderation digital × institutional | Aiken & West (1991); Dawson (2014) | DAI × ICRV mới cho châu Á và Pacific; manager characteristics giữ vai trò kiểm soát quản trị nội sinh |
 | Temporal heterogeneity | Wu et al. (2022); Xiao et al. (2013); Đỗ & Phan (2026 — JFAR) | China 2012–2024 stability test (turning point ~47,8% FSTS) |
 | Robust SE | Long & Ervin (2000); White (1980) | Chuẩn |
 | Publication bias | Egger et al. (1997); Begg & Mazumdar (1994) | Chuẩn |

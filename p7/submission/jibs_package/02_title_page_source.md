@@ -31,7 +31,7 @@
 **Phan Anh Tú** (Phan Anh Tu)
 
 - **Title:** Associate Professor (PGS.TS.)
-- **Affiliation:** College of Economics, Can Tho University (CTU)
+- **Affiliation:** School of Economics, Can Tho University (CTU)
 - **Address:** Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
 - **Email:** patu@ctu.edu.vn
 - **ORCID:** 0000-0003-0667-3137 (https://orcid.org/0000-0003-0667-3137)
@@ -80,7 +80,7 @@ This research received no specific grant from any funding agency in the public, 
 
 ## Data Availability Statement
 
-The data that support the findings of this study are from the World Bank Enterprise Surveys (WBES) and are available from the World Bank Enterprise Surveys portal (www.enterprisesurveys.org), subject to registration and compliance with the World Bank Enterprise Surveys Data Access Protocol. The harmonised multi-economy panel used in this analysis covers 49 economies and 102 country-year waves (WBES 2003–2025). Replication materials and the harmonised dataset are available from the corresponding author upon reasonable request and to the extent permitted by the data-access terms.
+The data that support the findings of this study are from the World Bank Enterprise Surveys (WBES) and are available from the World Bank Enterprise Surveys portal (www.enterprisesurveys.org), subject to registration and compliance with the World Bank Enterprise Surveys Data Access Protocol. The harmonised multi-economy panel used in this analysis covers 45 economies and 98 country-year waves (WBES 2003–2025). Replication materials and the harmonised dataset are available from the corresponding author upon reasonable request and to the extent permitted by the data-access terms.
 
 ---
 
@@ -100,7 +100,7 @@ Generative AI tools were used during manuscript preparation to assist with langu
 | Figures | 0 (results in tables only) |
 | Keywords | internationalization–performance; inverted-U; institutional regime; digital adoption; ICRV; Asia-Pacific |
 | JEL codes | F23, O33, L25, O53 |
-| Data source | World Bank Enterprise Surveys (49 economies, 102 waves, 2003–2025) |
+| Data source | World Bank Enterprise Surveys (45 economies, 102 waves, 2003–2025) |
 | Software | R 4.3 / Stata 17 (estimation); Python 3.12 (replication checks and data harmonization) |
-| Observations | 84,910 (M2 baseline) — 29,840 (M11 full model) |
+| Observations | 82,302 (M2 baseline) — 28,500 (M11 full model) |
 | Economies | 49 (41 Asian + 8 Pacific SIDS boundary cases) |

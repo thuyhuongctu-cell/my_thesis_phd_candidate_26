@@ -106,18 +106,18 @@ The thesis distinguishes three export participation concepts:
 | Frontier (low-income) | Nhóm V | Regime V | `Emerging` | Afghanistan; Nepal; Cambodia; Laos; Myanmar; Bhutan; Jordan; Kyrgyz Rep.; etc. |
 | SIDS | Nhóm VI | SIDS (separate) | `SIDS_small` | Pacific SIDS (P8): Fiji, Kiribati, Solomon Islands, Maldives |
 
-**P7 pooled-sample sizes by ICRV group (finalized — JIBS under revision, N=84,910–91,982):**
+**P7 pooled-sample sizes by ICRV group (finalized — JIBS under revision, N=82,302–98,658):**
 
-| Group | N firms (approx) | TP (finalized Stata) | FSTS–LP shape |
-|-------|---------|-------------------|---------------|
-| Advanced_innovation (Nhóm I) | ~4,700 | **~28%** (LOWEST) | Inverted-U |
-| Advanced_resource (Nhóm II) | ~2,300 | ~33–38% | Inverted-U |
-| Upper_mid (Nhóm III) | ~14,000 | ~38–44% | Inverted-U |
-| Emerging / Lower_mid_transition (Nhóm IV) | ~69,000 | ~44–50% | Inverted-U*** |
-| Frontier (Nhóm V) | ~1,900 | **~50–55%** (HIGHEST) | Inverted-U |
-| SIDS_small (Nhóm VI) | ~1,900 | No TP | **Monotone negative (FIP)** |
+| Group | N firms (approx) | FSTS–LP shape (within-group) |
+|-------|---------|---------------|
+| Advanced_innovation (Nhóm I) | ~3,400 | Inverted-U (shallow) |
+| Advanced_resource (Nhóm II) | ~1,800 | Inverted-U |
+| Upper_mid (Nhóm III) | ~8,500 | Flat / near-linear |
+| Emerging / Lower_mid_transition (Nhóm IV) | ~45,500 | Inverted-U |
+| Frontier (Nhóm V) | ~12,800 | Flat / near-linear |
+| SIDS_small (Nhóm VI) | ~1,400 | **Monotone negative (FIP)** |
 
-*Note: Old R-script estimates (wstrict filter, N=36,137) are superseded by finalized manuscript results (Stata, N=84,910 M2). Group-level TPs from M10 ICRV-moderation model.*
+*Note: Under the final geographical-Asia scope (N=82,302, M2), the robust institutional-moderation result is the significant M10 interaction (FSTS×ICRV β=+1.85, FSTS²×ICRV β=−2.93, both p<.001): the inverted-U's **concavity deepens as institutional quality declines** — sharper in weaker-institution regimes, flatter/near-linear in advanced ones. Per-group turning points are heterogeneous (~16–50%) and do NOT form a clean monotonic 28%→55% gradient; the earlier peak-migration table is superseded. Sub-sample group estimates are noisy; the pooled interaction is the reliable inference. (M11 confirms the inverted-U at TP=25.7%, LM p=.026; DAI×ICRV p=.049.)*
 
 **Full term:** Institutional Context Regime Variation (ICRV)
 **Vietnamese:** Biến thể chế độ bối cảnh thể chế (ICRV)
@@ -128,7 +128,7 @@ The thesis distinguishes three export participation concepts:
 
 **Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (`Lower_mid_transition`; Vietnam = Group 4 of 6), **P4→Nhóm I** (`Advanced_innovation`; Singapore), **P5→Nhóm III** (`Upper_mid`; China), **P7→all 6 groups (cross-regime)**, **P8→Nhóm VI** (`SIDS_small`). Note: "Frontier V" is NOT a valid dissertation-internal label for Vietnam; correct label is "Nhóm IV" or "ICRV Group 4 (Lower_mid_transition)".
 
-**Institutional gradient in P7 results (key cross-paper narrative — CRITICAL direction):** The ICRV gradient is empirically confirmed in P7 — Advanced_innovation shows the **LOWEST** TP (~28%) while Frontier shows the **HIGHEST** TP (~55%). The gradient is monotone: as institutional quality decreases (Advanced → Frontier), the turning point increases. This means in stronger-institution contexts, firms reach performance peak at lower export intensity; in weaker-institution contexts, they need higher FSTS to overcome transaction costs before reaching peak performance. SIDS_small (Nhóm VI) is the exception: FIP (Forced Internationalization Penalty) — monotone negative, no turning point. DAI×ICRV (p=.012): digital adoption delivers stronger per-unit returns in weaker institutional environments ("digital shield").
+**Institutional gradient in P7 results (key cross-paper narrative — CRITICAL direction):** Under the final geographical-Asia scope (N=82,302), the ICRV moderation is empirically confirmed through the significant M10 interaction (FSTS×ICRV β=+1.85, FSTS²×ICRV β=−2.93, both p<.001), but it operates on the curve's **concavity (amplitude), not as a clean monotone turning-point gradient**. The inverted-U's concavity **deepens as institutional quality declines** — a pronounced, sharply concave inverted-U in weaker-institution regimes (steeper post-peak penalty) and a flatter, near-linear profile in advanced ones. Per-group turning points are heterogeneous (~16–50%) and cluster near ~40%; they do NOT form the earlier "~28% (Advanced) → ~55% (Frontier)" monotone gradient, which is superseded and must not be repeated. SIDS_small (Nhóm VI) is the structural exception: FIP (Forced Internationalization Penalty) — monotone negative, no turning point. DAI×ICRV (p=.049): digital adoption delivers stronger per-unit returns in weaker institutional environments ("digital shield").
 
 ---
 
@@ -160,19 +160,18 @@ The CDCM posits that TCI's moderating effect on the FSTS–performance inverted-
 **Standard sentence form:**
 > "The Forced Internationalization Penalty (gánh nặng quốc tế hóa bắt buộc) — a monotone negative FSTS–labour productivity relationship observed among Pacific SIDS firms — reflects structural dependence on export revenue in resource-scarce, aid-dependent economies (β = −0.404, p = .032, M1 country+year FE), as distinct from the inverted-U overextension threshold documented for larger continental economies."
 
-**Do NOT conflate** with: the downward arm of the inverted-U in continental economies. That arm still shows positive-then-declining LP (TP ≈ 28–55%, varying by ICRV regime — Advanced ~28%, Frontier ~55%); the SIDS penalty shows a negative slope from FSTS = 0.
+**Do NOT conflate** with: the downward arm of the inverted-U in continental economies. That arm still shows positive-then-declining LP (turning point clustering near ~40% FSTS; the concavity is sharper in weaker-institution regimes and flatter, even near-linear, in advanced ones); the SIDS penalty shows a negative slope from FSTS = 0.
 
 ### Asian Capstone Turning Points (P7)
 
-Key empirical anchors (N = 84,910–91,982 firms, 49 economies, 102 country-year waves):
+Key empirical anchors (N = 82,302–98,658 firms, 45 economies, 98 country-year waves):
 
 | Model | Turning Point | Notes |
 |-------|--------------|-------|
-| M5 (controls + country-year FE) | **40.0% FSTS** | adjR² = .677 |
-| M11 (full three-way moderation) | **34.6% FSTS** | LM p = .002; DAI×ICRV p = .012 |
-| ICRV: Advanced_innovation (Group I) | **~28% FSTS** | Stronger institutions → earlier peak |
-| ICRV: Emerging/Upper-middle (Group III–IV) | **~40–50% FSTS** | Mid-range gradient |
-| ICRV: Frontier/SIDS (Group V–VI) | **~55% FSTS** | Weaker institutions → later peak |
+| M2 (baseline) | **37.1% FSTS** | LM p < .001 |
+| M5 (controls + country-year FE) | **39.5% FSTS** | adjR² = .671 |
+| M11 (full three-way moderation) | **25.7% FSTS** | LM p = .026; DAI×ICRV p = .049 |
+| ICRV moderation (M10) | concavity deepens as institutions weaken | FSTS×ICRV β=+1.85, FSTS²×ICRV β=−2.93 (both p<.001); per-group turning points cluster ~40%, no clean monotonic gradient |
 | P8 Pacific SIDS | monotone negative | No TP — FIP confirmed |
 
 **When citing P7 turning points**, always specify which model and whether country FE is included. The no-FE turning point (M2: 8.1%) is spurious and should not be reported in isolation.
@@ -187,7 +186,7 @@ Result: F(2, 36132) = 7.38, p = .0006***
 
 **DAI level effect (universal):** β = +0.155 (p < .001) — DAI raises the performance floor across all ICRV regimes.
 
-**DAI×ICRV institutional contingency:** p = .012 — DAI's moderating effect is **stronger in weak-institution contexts** (Frontier/SIDS), not only in Advanced. This is the "digital shield" mechanism: DAI compensates for institutional deficiencies rather than amplifying existing advantages. Do NOT write "DAI only significant in Advanced contexts."
+**DAI×ICRV institutional contingency:** p = .049 — DAI's moderating effect is **stronger in weak-institution contexts** (Frontier/SIDS), not only in Advanced. This is the "digital shield" mechanism: DAI compensates for institutional deficiencies rather than amplifying existing advantages. Do NOT write "DAI only significant in Advanced contexts."
 
 **Interpretation:** DAI is a *situational resource*: the level effect is universal; the moderating mechanism (compression vs amplification of the I→P curve) depends on ICRV regime. This is analytically distinct from TCI (foundational capability with universal level + curvature effects).
 
@@ -266,22 +265,22 @@ For use in thesis integration chapter and §6 Discussion cross-referencing:
 | P4 Singapore | Advanced I | TP ≈ 76–89% (wide CI) | Predominantly positive | ✓ saturation |
 | P5 China | Upper-mid III (2 waves) | TP ≈ 47.5% | Inverted-U | ✓ Paternoster p=.831 |
 | P6 Meta-analysis | All regimes (k=238) | r = 0.074, I² = 62.4%, Q_M=17.35 (df=4, p=.002) | Positive mean | ✓ ICRV Q-mod |
-| P7 Capstone | 49 economies (6 ICRV) | TP ≈ **36%** (M2–M5: 36.4–40.0%; M11 full: TP=34.6%, LM p=.002, N=29,840); N=84,910–91,982 | Inverted-U | ✓ ICRV Q-mod; DAI×ICRV p=.012 |
+| P7 Capstone | 45 economies (6 ICRV) | TP ≈ **37%** (M2: 37.1%, M5: 39.5%; M11 full: TP=25.7%, LM p=.026, N=28,500); N=82,302–98,658 | Inverted-U | ✓ ICRV Q-mod; DAI×ICRV p=.049 |
 | P8 Pacific SIDS | Nhóm VI | β(FSTS_c) = −0.404 (p=.032, country+year FE, N=1,469) | **NEGATIVE (FIP)** | ✓ Penalty |
 
-**ICRV subgroup TPs (P7 finalized — JIBS under revision):**
+**ICRV subgroup shapes (P7, geographical-Asia scope):**
 
-| ICRV Group | TP | Shape | Notes |
-|-----------|-----|-------|-------|
-| Advanced Innovation (Nhóm I) | **~28%** | Inverted-U | Singapore, HK, Korea, Taiwan — TP lowest |
-| Advanced Resource / Upper-mid (Nhóm II–III) | ~35–42% | Inverted-U | China, Malaysia, Thailand, Kazakhstan... |
-| Emerging / Lower-mid (Nhóm IV) | ~44–50% | Inverted-U | India, Vietnam, Indonesia, Philippines... |
-| Frontier (Nhóm V) | **~50–55%** | Inverted-U | Afghanistan, Nepal, Cambodia, Bhutan... |
-| Pacific SIDS (Nhóm VI) | No TP | **Negative (FIP)** | β(FSTS_c)=−0.404* — monotone penalty |
+| ICRV Group | Within-group shape | Notes |
+|-----------|-------|-------|
+| Advanced Innovation (Nhóm I) | Inverted-U (shallow) | Singapore, HK, Korea, Taiwan — flattest, near-linear |
+| Advanced Resource / Upper-mid (Nhóm II–III) | Mixed / flat | China, Malaysia, Thailand, Kazakhstan... |
+| Emerging / Lower-mid (Nhóm IV) | Inverted-U | India, Vietnam, Indonesia, Philippines... |
+| Frontier (Nhóm V) | Flat / near-linear | Afghanistan, Nepal, Cambodia, Bhutan... |
+| Pacific SIDS (Nhóm VI) | **Negative (FIP)** | β(FSTS_c)=−0.404* — monotone penalty |
 
-**ICRV gradient direction (CRITICAL):** TP **DECREASES** as institutional quality increases. Advanced Innovation (~28%) has the LOWEST TP; Frontier/SIDS (~55%) has the HIGHEST. This means stronger institutions → firms reach performance optimum at lower export intensity. Weaker institutions → firms need higher FSTS before costs exceed benefits. Do NOT write "threshold increases with institutional development."
+**ICRV gradient direction (CRITICAL):** The institutional regime governs the inverted-U's **concavity (amplitude), NOT a monotone turning-point gradient.** Concavity deepens as institutional quality declines — a sharply concave inverted-U (steeper post-peak penalty) in weaker-institution regimes and a flatter, near-linear profile in advanced ones. Per-group turning points are heterogeneous (~16–50%, clustering ~40%) and noisy at the sub-sample level; the reliable inference is the pooled M10 interaction (FSTS×ICRV β=+1.85, FSTS²×ICRV β=−2.93, both p<.001). Do NOT write "turning point increases/decreases monotonically with institutional development," and do NOT reuse the superseded "~28%→~55%" gradient.
 
-**Cross-paper narrative:** Results demonstrate an ICRV-contingent internationalization–performance gradient. The inverted-U is universal across non-SIDS regimes, but the turning point **decreases** with institutional quality: Frontier ~50–55%, Emerging ~44–50%, Advanced Innovation ~28%. DAI×ICRV (p=.012) confirms the "digital shield" compensatory mechanism — DAI delivers **stronger** per-unit returns in weaker institutional environments. Pacific SIDS (Nhóm VI) constitute a structural exception (Forced Internationalization Penalty), not overextension.
+**Cross-paper narrative:** Results demonstrate an ICRV-contingent internationalization–performance relationship. The inverted-U is universal in form across non-SIDS regimes, but its **sharpness (concavity) is institutionally contingent** — pronounced where institutions are weak, flat/near-linear where they are advanced — while digital capability reshapes the curve and relocates its effective optimum. DAI×ICRV (p=.049) confirms the "digital shield" compensatory mechanism — DAI delivers **stronger** per-unit returns in weaker institutional environments. Pacific SIDS (Nhóm VI) constitute a structural exception (Forced Internationalization Penalty), not overextension.
 
 ---
 

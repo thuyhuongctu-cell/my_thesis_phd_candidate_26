@@ -119,6 +119,22 @@ def main():
     print(f"Loading {data_path}")
     df = pd.read_csv(data_path)
     print(f"  Raw rows: {len(df):,}")
+
+    # Scope: a geographical definition of Asia (UN M.49 macro-regions — East,
+    # Southeast, South, Central and West Asia) plus the Pacific. To keep the
+    # frame internally consistent we drop every economy that straddles the
+    # Europe/Asia boundary: the transcontinental South Caucasus (Armenia,
+    # Azerbaijan, Georgia), Turkey, and Cyprus — all of which the World Bank
+    # files under Europe & Central Asia. Comoros (Sub-Saharan Africa) is also
+    # dropped. Central Asia and the West-Asian Gulf/Levant are retained as
+    # undisputed parts of the Asian landmass.
+    out_of_scope = {
+        "Turkey", "Azerbaijan", "Armenia", "Georgia", "Cyprus", "Comoros",
+    }
+    n_before = len(df)
+    df = df[~df["country"].isin(out_of_scope)].copy()
+    print(f"  Dropped out-of-scope economies {sorted(out_of_scope)}: "
+          f"-{n_before - len(df):,} rows -> {len(df):,} rows")
     print(f"  Countries: {df['country'].nunique()}")
     print(f"  Country-years: {df.groupby(['country','year']).ngroups}")
 

@@ -2,16 +2,16 @@
 # build_submission_package.sh
 #
 # Build journal-ready submission artefacts for P3 (APJM), P4 (MIR), and
-# P5 (APJM):
+# P5 (IJOEM):
 #   - DOCX  via pandoc + ctu_paper_reference.docx (TNR 12pt, 2.5cm, 1.15 line)
 #   - TEX   via pandoc + templates/springer_paper.tex (Springer-compatible
 #           article class; APA7 references via natbib)
 #   - PDF   via pdflatex on the .tex (optional, falls back gracefully)
 #
 # - P3, P4, and P5 all build from their single-file clean Markdown sources
-#   under manuscripts/. The 7-part APJM split for P5 lives under
-#   manuscripts/p5_china/apjm/ and shares the same content (modulo figure
-#   embeds); it is preserved for the original APJM build_docx.sh workflow.
+#   under manuscripts/. The 7-part IJOEM split for P5 lives under
+#   manuscripts/p5_china/ijoem/ and shares the same content (modulo figure
+#   embeds); it is preserved for the original IJOEM build_docx.sh workflow.
 #
 # Outputs land under dist/submission/ (gitignored).
 #
@@ -85,7 +85,7 @@ build_one() {
 
 build_one "p3_vietnam"      "manuscripts/p3_vietnam_en_clean.md"   "APJM"
 build_one "p4_singapore"    "manuscripts/p4_singapore_en_clean.md" "MIR"
-build_one "p5_china"        "manuscripts/p5_china_en_clean.md"     "APJM"
+build_one "p5_china"        "manuscripts/p5_china_en_clean.md"     "IJOEM"
 
 # Vietnamese translations (academic VN versions for CTU / thesis dossier).
 # Use the CTU thesis reference template (TNR 13pt, 1.5 line spacing,
@@ -169,4 +169,4 @@ echo ""
 echo "Upload to each journal's manuscript slot:"
 echo "  P3 -> APJM  : $OUT_DIR/p3_vietnam_APJM.{docx,tex,pdf}"
 echo "  P4 -> MIR   : $OUT_DIR/p4_singapore_MIR.{docx,tex,pdf}"
-echo "  P5 -> APJM  : $OUT_DIR/p5_china_APJM.{docx,tex,pdf}"
+echo "  P5 -> IJOEM : $OUT_DIR/p5_china_IJOEM.{docx,tex,pdf}"
