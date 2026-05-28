@@ -1,0 +1,123 @@
+name: OpenAlex Metadata Enrich (P6)
+
+# Runs 60_enrich_openalex_metadata.py on a CI runner (which has internet),
+# since the Claude Code sandbox blocks egress to api.openalex.org.
+# NOTE: for the "Run workflow" button to appear, this file must also exist on
+# the default branch (main), like the other p6 workflows. It checks out and
+# commits to the QuiLM working branch.
+
+on:
+  workflow_dispatch:
+    inputs:
+      db_file:
+        description: 'Canonical study database CSV (k=238)'
+        required: true
+        default: 'p6/data/p6_study_database.csv'
+      apa_file:
+        description: 'APA7 file with candidate DOIs/titles'
+        required: true
+        default: 'p6/p6_primary_studies_apa7.md'
+      output_file:
+        description: 'Enriched output CSV path'
+        required: true
+        default: 'p6/data/p6_openalex_enriched.csv'
+      max_studies:
+        description: 'Cap studies this run (0 = all)'
+        required: false
+        default: '0'
+
+jobs:
+  openalex-enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    env:
+      OPENALEX_MAILTO: huongdt@vlute.edu.vn
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}   # optional; only if your account needs it
+
+    steps:
+      - name: Checkout working branch
+        uses: actions/checkout@v4
+        with:
+          ref: claude/vietnamese-academic-standards-QuiLM
+          token: ${{ github.token }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Smoke-test OpenAlex reachability
+        run: |
+          python3 - <<'PY'
+          import os, requests
+          params = {"select": "id,doi,publication_year"}
+          if os.environ.get("OPENALEX_MAILTO"):  params["mailto"]  = os.environ["OPENALEX_MAILTO"]
+          if os.environ.get("OPENALEX_API_KEY"): params["api_key"] = os.environ["OPENALEX_API_KEY"]
+          url = "https://api.openalex.org/works/https://doi.org/10.1057/palgrave.jibs.8400036"
+          r = requests.get(url, params=params, timeout=30)
+          print("HTTP", r.status_code)
+          if r.status_code != 200:
+              print("Body:", r.text[:300])
+              raise SystemExit("OpenAlex not reachable / key required — aborting before the full run.")
+          d = r.json()
+          print("OK:", d.get("id"), d.get("publication_year"))
+          PY
+
+      - name: Verify inputs
+        run: |
+          ls -lh "${{ github.event.inputs.db_file }}"
+          test -f "${{ github.event.inputs.apa_file }}" && ls -lh "${{ github.event.inputs.apa_file }}" || echo "(APA file not found — candidate DOIs/titles will be empty)"
+          echo "DB unique rows: $(tail -n +2 "${{ github.event.inputs.db_file }}" | cut -d, -f1 | sort -u | wc -l)"
+
+      - name: Run OpenAlex enrichment
+        run: |
+          python3 p6/tools/60_enrich_openalex_metadata.py \
+            --db  "${{ github.event.inputs.db_file }}" \
+            --apa "${{ github.event.inputs.apa_file }}" \
+            --out "${{ github.event.inputs.output_file }}" \
+            --max "${{ github.event.inputs.max_studies }}"
+
+      - name: Job summary (robust CSV parse)
+        if: always()
+        run: |
+          python3 - "${{ github.event.inputs.output_file }}" <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import csv, sys, collections
+          path = sys.argv[1]
+          try:
+              rows = list(csv.DictReader(open(path, encoding="utf-8")))
+          except FileNotFoundError:
+              print("## OpenAlex Enrichment\n\n**Output file not found:**", path); raise SystemExit(0)
+          by = collections.Counter(r.get("verify_status", "") for r in rows)
+          manual = sum(1 for r in rows if r.get("needs_manual_check") == "yes")
+          with_doi = sum(1 for r in rows if (r.get("oa_doi") or "").strip())
+          print("## OpenAlex Metadata Enrichment\n")
+          print("| Metric | Count |")
+          print("|--------|-------|")
+          print(f"| Studies processed | {len(rows)} |")
+          print(f"| Resolved OpenAlex DOI | {with_doi} |")
+          for st in ("verified", "title_match", "doi_mismatch_check", "author_year_guess", "not_found"):
+              print(f"| {st} | {by.get(st, 0)} |")
+          print(f"| **Needs manual check** | **{manual}** |")
+          PY
+
+      - name: Commit results to working branch
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          OUT="${{ github.event.inputs.output_file }}"
+          LOG="${OUT%.*}.log.jsonl"
+          git add "$OUT" "$LOG" 2>/dev/null || true
+          git status --short
+          git diff --cached --quiet && echo "Nothing to commit." || \
+            git commit -m "feat(p6): OpenAlex metadata enrichment [$(date +%Y%m%d)]"
+          git push origin claude/vietnamese-academic-standards-QuiLM || {
+            echo "Push failed (exit $?). Retrying with --force-with-lease..."
+            git push --force-with-lease origin claude/vietnamese-academic-standards-QuiLM || \
+              echo "Push failed. Check branch protection rules."
+          }
