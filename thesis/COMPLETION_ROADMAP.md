@@ -20,12 +20,19 @@
 | 1.2 | Nộp các paper khác theo MASTER_PLAN: P8→World Dev, P3→APJM, P4→MIR, P5→IJOEM | — | 🧑 |
 | 1.3 | Điền thông tin cá nhân vào hồ sơ MAIDA → nộp Cục Bản quyền (COV) | — | 🧑 |
 
-> ⚠️ **Chặn nộp P6 (1.1):** manuscript còn `[TBD]` ở **Bảng 3.1 (inter-coder reliability)** và **PRISMA
-> final counts**. Phải xử lý một trong hai hướng trước khi nộp:
-> - (a) Hoàn tất GĐ2–GĐ3 (formal-search + coder thứ 2) rồi điền số thật; hoặc
-> - (b) **Quyết định nộp trên corpus hiện tại k=238/K=288**: bỏ phần "PRISMA search đang tiến hành",
->   trình bày k=238 là corpus cuối (hand-search + backward citation), và hoặc có ICR trên mẫu đã code
->   hoặc nêu rõ giới hạn single-coder. ← **cần bạn quyết (🧑); tôi 🤖 thực thi việc viết lại sau khi chọn.**
+> ✅ **Hướng (b) ĐÃ THỰC HIỆN (2026-05-28):** manuscript được reframe — corpus phân tích là **k=238/K=288
+> (Path A: backward/forward citation tracking 5 anchor meta + hand-search)**; WoS/Scopus database search
+> được trình bày là **Path B — mở rộng đã đăng ký, trích xuất đang tiến hành, KHÔNG thuộc effect đang
+> phân tích**. Đã gỡ mọi `[TBD]` "pending extraction" ở PRISMA narrative + Appendix A; abstract sửa lại
+> đúng provenance (không còn quy k=238 cho WoS/Scopus search). **Không bịa số** — các số 238/288/497/478/19
+> lấy từ `p6_prisma_flow.md`.
+>
+> ⚠️ **Còn lại trước khi nộp P6:**
+> - **Bảng 3.1 ICR** vẫn `[TBD]` (theo bạn chọn "giữ, xử lý sau") — cần coder thứ 2 hoặc quyết trình bày
+>   single-coder như giới hạn. Đây là việc duy nhất còn chặn 1.1.
+> - **🧑 cần xác minh sự thật:** §3.2 hiện ghi "two independent screeners… third reviewer" và §3.3.2 ghi
+>   "both coders independently coded". Nếu thực tế là **PI + script** (single), hai câu này phải sửa cho
+>   đúng (tôi 🤖 sửa sau khi bạn xác nhận) — tránh khẳng định quy trình chưa thực sự diễn ra.
 
 ## GIAI ĐOẠN 2 — Formal-search expansion (nút thắt lớn nhất) 🌐
 **Mục tiêu:** k=238 → k≥250, mở khoá final counts + ICR + điều chỉnh chương.
