@@ -45,4 +45,4 @@ Bổ sung kiểm định độ vững **drop-Frontier** cho điều tiết thể
 
 ---
 
-*Tổng: 53 tệp. Bộ hồ sơ này tự chứa, không phụ thuộc tệp ngoài thư mục.*
+*Tổng: 55 tệp. Bộ hồ sơ này tự chứa, không phụ thuộc tệp ngoài thư mục. Mọi DOCX/PDF được dựng lại từ bản nguồn mới nhất; chương 2 và CĐ2 đã nhúng mô hình khái niệm thống nhất CDCM (Hình 2.1).*
