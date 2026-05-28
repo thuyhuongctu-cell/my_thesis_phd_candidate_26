@@ -11,7 +11,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 B="dist/HO_SO_NOP"; DL="dist/downloads"
 
-rm -rf "$B"
+# Rebuild content subfolders but preserve the hand-maintained manifest.
+rm -rf "$B"/0[1-6]_*
 mkdir -p "$B/01_LUAN_AN" "$B/02_TOM_TAT" "$B/03_CHUYEN_DE" \
          "$B/04_BAI_BAO_VI" "$B/05_BAI_BAO_EN" "$B/06_DU_LIEU_OSF_P6"
 
