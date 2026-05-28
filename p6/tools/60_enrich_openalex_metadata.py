@@ -161,10 +161,18 @@ def load_studies(db_path: Path) -> list[dict]:
             if not sid or sid in seen:
                 continue
             seen.add(sid)
+            author = (row.get("author") or "").strip()
+            year = (row.get("year") or "").strip()
+            if not year.isdigit():
+                # a few Group-B rows carry the year only inside the author
+                # string, e.g. "Barłożewski & Trąpczyński (2021b)"
+                m = re.search(r"\((\d{4})", author)
+                if m:
+                    year = m.group(1)
             studies.append({
                 "study_id": sid,
-                "author": (row.get("author") or "").strip(),
-                "year": (row.get("year") or "").strip(),
+                "author": author,
+                "year": year,
             })
     return studies
 
