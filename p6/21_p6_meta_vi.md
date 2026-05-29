@@ -14,7 +14,7 @@
 
 **Background**: Quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động kinh doanh (I→P) là chủ đề được phân tích tổng hợp nhiều nhất trong kinh doanh quốc tế, song mức heterogeneity vẫn rất cao ($I^2=87.92\%$) và ba khoảng trống chưa được lấp đầy: (1) vai trò điều tiết của áp dụng số cấp quốc gia (cDAI); (2) dị biệt thể chế theo 6 nhóm ICRV trên phạm vi toàn cầu; (3) tiến trình Vòng đời Nghịch lý Số (DPL) qua ba giai đoạn trước/trong/sau mốc 2009.
 
-**Methods**: Phân tích tổng hợp hồi quy ba cấp (three-level meta-analytic regression analysis — MARA) theo Cheung (2014) và Van den Noortgate et al. (2013), sử dụng `metafor` (R). Pool $k=238$ nghiên cứu sơ cấp (từ tìm kiếm hệ thống trên WoS và Scopus [1977–2026] + backward citation scan 5 meta-analyses trước + hand-search), $K=288$ effect sizes từ 49 nền kinh tế. Bảy moderators: 3 mới (ICRV regime, cDAI, DPL phase) + 4 chuẩn (nước xuất xứ, ngành, loại đo lường DOI và FP). Tiền đăng ký OSF (https://osf.io/z37kn) trước khi trích xuất effect sizes; độ tin cậy liên coder Cohen's $\kappa \geq 0.70$ trên 20% mẫu double-coded.
+**Methods**: Phân tích tổng hợp hồi quy ba cấp (three-level meta-analytic regression analysis — MARA) theo Cheung (2014) và Van den Noortgate et al. (2013), sử dụng `metafor` (R). Pool $k=238$ nghiên cứu sơ cấp (từ tìm kiếm hệ thống trên WoS và Scopus [1977–2026] + backward citation scan 5 meta-analyses trước + hand-search), $K=288$ effect sizes từ 49 nền kinh tế. Bảy moderators: 3 mới (ICRV regime, cDAI, DPL phase) + 4 chuẩn (nước xuất xứ, ngành, loại đo lường DOI và FP). Tiền đăng ký OSF (https://osf.io/z37kn) trước khi trích xuất effect sizes. Trích xuất do một coder (tác giả thứ nhất) thực hiện, có hiệu chỉnh protocol trên mẫu pilot và đối soát double-entry với PDF gốc; hạn chế single-coder được nêu minh bạch ở phần Hạn chế.
 
 **Results**: Hiệu ứng tổng hợp baseline three-level MARA: $\hat{r}_{3L}=0.074$ ($95\%$ CI $[0.060, 0.088]$, $p<.001$), $K=288$, $k=238$. Dị biệt ($I^2=62.4\%$) chủ yếu nằm ở trong-nghiên-cứu L2 (54.1%) hơn là giữa-nghiên-cứu L3 (8.4%), cho thấy các lựa chọn phương pháp bên trong nghiên cứu — chứ không phải bối cảnh quốc gia — là nguồn chính của heterogeneity. Moderator ICRV: $Q_M=17.35$ ($df=4$, $p=.002$) — kiểm định omnibus liên nhóm CÓ ý nghĩa trên toàn mẫu nhưng KHÔNG bền vững: toàn bộ ý nghĩa do ô Frontier nhỏ (k=3) tạo ra, và kiểm định nhạy cảm bỏ ô này trên 4 regime đông dữ liệu (I/II/III/MX) đưa omnibus về không có ý nghĩa ($Q_M=1.49$, $df=3$, $p=.68$) — ngang với cDAI/DPL; không có gradient đơn điệu E1a/E1b. cDAI KHÔNG điều tiết đáng kể ($Q_M=1.23$, $df=2$, $p=.541$, Hm3 không được ủng hộ). DPL phase KHÔNG có hiệu ứng đáng kể ($Q_M=0.56$, $df=2$, $p=.755$, Hm4 không được ủng hộ). Thiên lệch công bố: Egger $b=0.475$ ($SE=0.250$, $p=.057$); Begg $\tau=-0.134$ ($p=.0007$); trim-and-fill $k_{imputed}=58$, $\bar{r}_{adj}=0.035$ $[0.023, 0.048]$ — **phát hiện chính**. Fail-safe N = 45,848 (tiêu chuẩn 5k+10=1,200: robust).
 
@@ -70,7 +70,7 @@ Thứ ba, **tiến trình Vòng đời Nghịch lý Số** (Digital Paradox Life
 
 Nghiên cứu này đóng góp theo ba trục:
 
-**Methodological**: (1) Phân tích tổng hợp hồi quy ba cấp — three-level MARA theo Cheung (2014) và Van den Noortgate et al. (2013) — đầu tiên trong literature I→P, phân tách heterogeneity thành ba cấp (sampling error, within-study, between-study); (2) Tiền đăng ký OSF trước khi trích xuất effect sizes mới để đảm bảo transparency; (3) Inter-coder reliability với Cohen's $\kappa \geq 0.7$ trên 20% double-coded subset.
+**Methodological**: (1) Phân tích tổng hợp hồi quy ba cấp — three-level MARA theo Cheung (2014) và Van den Noortgate et al. (2013) — đầu tiên trong literature I→P, phân tách heterogeneity thành ba cấp (sampling error, within-study, between-study); (2) Tiền đăng ký OSF trước khi trích xuất effect sizes mới để đảm bảo transparency.
 
 **Theoretical**: (4) Kiểm định ICRV 6-regime đầu tiên áp dụng cho một corpus I→P đại diện toàn cầu (k=238, 49 nền kinh tế; 5/6 nhóm có dữ liệu) như moderator của I→P, lấp đầy khoảng trống của Marano et al. (2016); (5) Kiểm định cDAI đầu tiên ở cấp quốc gia như meta-analytic moderator, lấp đầy khoảng trống của Bhandari et al. (2023); (6) Kiểm định DPL phase đầu tiên systematic như temporal moderator, lấp đầy khoảng trống của Brynjolfsson et al. (2021).
 
@@ -179,7 +179,7 @@ OSF preregistration xác định trước: câu hỏi nghiên cứu, tiêu chí 
 | DOI measure type | Categorical | FSTS/export dummy/FDI intensity/composite | Study information |
 | FP measure type | Categorical | Accounting/Market/Labor productivity/Composite | Study information |
 
-**Inter-coder reliability**: Double-code 20% sample (≈26 studies) với coder thứ hai (RA hoặc peer). Tính Cohen's $\kappa$ riêng cho ICRV, cDAI, DPL. Target $\kappa \geq 0.70$. Resolve disagreements qua discussion; document trong Appendix C.
+**Chất lượng mã hóa**: Trích xuất và mã hóa moderator do một coder (tác giả thứ nhất) thực hiện theo protocol Phụ lục B, có hiệu chỉnh trên mẫu pilot 10 studies và đối soát double-entry (nhập lại `r`, `n` và mã moderator, so với PDF gốc). Do single-coder nên không tính được Cohen's $\kappa$; hạn chế này nêu ở phần Hạn chế (xem §3.7).
 
 ### 3.4 Three-level MARA — mô hình toán học
 
@@ -244,13 +244,11 @@ Funnel plot kiểm tra visually. Nếu asymmetry có ý nghĩa, report cả unad
 5. **cDAI proxy**: So sánh kết quả khi dùng ITU DDI vs WB DAI
 6. **Effect size metric**: Chạy lại với $r$ trực tiếp thay vì Fisher's $z$
 
-### 3.7 Inter-coder reliability
+### 3.7 Chất lượng mã hóa và hạn chế single-coder
 
-**Protocol**: Coder 1 (NCS) code tất cả 234 studies. Coder 2 (RA hoặc peer) double-code ngẫu nhiên 47 studies (20%). Tính Cohen's $\kappa$ riêng cho: (a) ICRV regime (5 nhóm), (b) cDAI quartile (3 nhóm), (c) DPL phase (3 nhóm).
+**Quy trình**: Toàn bộ trích xuất effect size và mã hóa moderator do một coder (tác giả thứ nhất) thực hiện theo protocol Phụ lục B. Để bảo đảm chất lượng: (i) hiệu chỉnh protocol trên mẫu pilot 10 studies, ghi lại các quy tắc quyết định khó trước khi trích xuất toàn bộ; (ii) đối soát double-entry — nhập lại `r`, `n` và mã moderator rồi so với PDF gốc để bắt lỗi sao chép; (iii) các moderator neo vào bảng tham chiếu ngoài (ICRV từ WGI Rule of Law, cDAI từ WB/ITU, DPL từ năm dữ liệu trung vị) có thể tái lập máy móc từ giá trị nguồn, cho phép kiểm chứng độc lập.
 
-**Target**: $\kappa \geq 0.70$ cho cả ba moderator. Nếu $\kappa < 0.70$: (i) thảo luận để resolve disagreements, (ii) refine coding protocol, (iii) double-code thêm 20 studies, (iv) re-calculate.
-
-**Ngưỡng diễn giải**: $\kappa = 0.61-0.80$ (substantial), $\kappa > 0.80$ (almost perfect) — Landis & Koch (1977).
+**Hạn chế**: Do chỉ có một coder, không tính được Cohen's $\kappa$ (κ đòi hỏi hai coder độc lập) và các quyết định mã hóa không được cross-validate. Đây là hạn chế được nêu minh bạch; bổ sung double-coding để báo cáo reliability là ưu tiên cho đợt formal-search mở rộng.
 
 ---
 
@@ -502,7 +500,7 @@ P6 UPDATED cung cấp baseline tổng hợp đầy đủ nhất cho Chương 4.1
 
 ## Ghi chú hoàn thiện P6 v2.0 — tình trạng dữ liệu ngày 19/05/2026
 
-Bản này đã chuyển P6 từ trạng thái manuscript có nhiều `[TBD]` sang bản **có thể dùng để bảo vệ/trao đổi với GVHD** theo nguyên tắc: số liệu chưa được xác nhận hoặc giữ ở dạng `[TBD]`, hoặc — nếu cần điền giá trị tạm để minh họa — **phải đánh dấu rõ là provisional (ký hiệu †) kèm ghi chú thay thế và đường dẫn theo dõi**; tuyệt đối không trình bày số chưa xác nhận như kết quả thật. Hiện Bảng 3.1 (độ tin cậy liên mã hóa viên) dùng giá trị κ/ICC tạm có dấu † theo nguyên tắc này, chờ thay bằng đầu ra thật của `p6/tools/compute_reliability.R` (xem `p6/PROVISIONAL_VALUES_TODO.md`). Các thông tin đã xác nhận gồm: WoS arm n = 2,180; WoS after dedup n = 2,179; L1 advanced n = 782; L1 excluded n = 1,397; L2 Y/title-eligible n = 565 (345+135+30+25+15+4+8+0+3); active extraction worklist v9 n = 535 (R8 WebSearch pass 19/05/2026: 3Y+7N resolved từ 10 UNSURE còn lại — tất cả UNSURE đã được giải quyết, còn 0); coded baseline + S0129: k = 238, K = 288, N = 258,557. Những phần còn pending được ghi đúng bản chất: Scopus, OpenAlex/supplementary databases, và full-text extraction cho worklist mở rộng.
+Bản này đã chuyển P6 từ trạng thái manuscript có nhiều `[TBD]` sang bản **có thể dùng để bảo vệ/trao đổi với GVHD** theo nguyên tắc: số liệu chưa được xác nhận thì giữ ở dạng `[TBD]`; tuyệt đối không trình bày số chưa xác nhận như kết quả thật. Phần độ tin cậy liên mã hóa viên (Cohen's $\kappa$) đã được **gỡ bỏ** vì nghiên cứu do một coder thực hiện (κ đòi hỏi hai coder độc lập); thay vào đó báo cáo quy trình double-entry và nêu hạn chế single-coder minh bạch (xem §3.3.2 EN / §3.7 VI). Các thông tin đã xác nhận gồm: WoS arm n = 2,180; WoS after dedup n = 2,179; L1 advanced n = 782; L1 excluded n = 1,397; L2 Y/title-eligible n = 565 (345+135+30+25+15+4+8+0+3); active extraction worklist v9 n = 535 (R8 WebSearch pass 19/05/2026: 3Y+7N resolved từ 10 UNSURE còn lại — tất cả UNSURE đã được giải quyết, còn 0); coded baseline + S0129: k = 238, K = 288, N = 258,557. Những phần còn pending được ghi đúng bản chất: Scopus, OpenAlex/supplementary databases, và full-text extraction cho worklist mở rộng.
 
 Về mặt học thuật, P6 hiện có ba lớp bằng chứng riêng biệt: (1) **coded baseline** dùng để chạy MARA và báo cáo kết quả; (2) **formal-search expansion pool** dùng để mở rộng số nghiên cứu sau khi tải full-text; và (3) **PRISMA audit trail** dùng để chứng minh quá trình nhận diện/sàng lọc theo PRISMA 2020. Khi có full PDF cho các records trong worklist, chỉ cần cập nhật `r`, `n`, `sample period`, `DOI measure`, `FP measure`, rồi rerun `p6/scripts/p6_three_level_mara.R` để thay thế kết quả baseline.
 
