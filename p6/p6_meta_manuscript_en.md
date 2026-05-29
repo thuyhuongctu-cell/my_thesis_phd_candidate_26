@@ -264,18 +264,18 @@ The following pre-registered robustness checks evaluate the sensitivity of the m
 
 *k* = 238 studies (coded), *K* = 288 effect sizes (working database, pre-formal-search).
 
-**Table 3.1, Inter-coder reliability statistics** *(20% double-coded subsample, k = [TBD] studies; to be completed post-formal-search)*
+**Table 3.1, Inter-coder reliability statistics** *(20% double-coded subsample, k = 47 studies; **PROVISIONAL — illustrative placeholder values pending completion of double-coding; see note**)*
 
 | Moderator | Variable type | Statistic | Value | Threshold | Met? |
 |-----------|--------------|-----------|-------|-----------|------|
-| ICRV regime | Categorical (6) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
-| DPL phase | Categorical (3) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
-| Industry sector | Categorical (3) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
-| DOI measure | Categorical (4) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
-| Performance measure | Categorical (4) | Cohen's κ | [TBD] | ≥ 0.70 | [TBD] |
-| cDAI score | Continuous (0–1) | ICC(2,1) | [TBD] | ≥ 0.80 | [TBD] |
+| ICRV regime | Categorical (6) | Cohen's κ | 0.87 † | ≥ 0.70 | Yes † |
+| DPL phase | Categorical (3) | Cohen's κ | 0.84 † | ≥ 0.70 | Yes † |
+| Industry sector | Categorical (3) | Cohen's κ | 0.90 † | ≥ 0.70 | Yes † |
+| DOI measure | Categorical (4) | Cohen's κ | 0.82 † | ≥ 0.70 | Yes † |
+| Performance measure | Categorical (4) | Cohen's κ | 0.85 † | ≥ 0.70 | Yes † |
+| cDAI score | Continuous (0–1) | ICC(2,1) | 0.93 † | ≥ 0.80 | Yes † |
 
-*Note.* Target threshold: $\kappa \geq 0.70$ (Landis & Koch, 1977) for all categorical moderators and ICC(2,1) $\geq$ 0.80 for cDAI. Final values to be reported after the 20% random subsample coding is complete. Protocol for resolving Regime II/III boundary disagreements: PI lookup of WGI Rule of Law vintage scores.
+*Note.* **† PROVISIONAL illustrative value entered during drafting — NOT yet computed from data. Each † value (and the k = 47 subsample size) must be replaced with the actual output of `p6/tools/compute_reliability.R` once the 20% double-coding is complete; remove the † markers and this warning at that point. Tracking: `p6/PROVISIONAL_VALUES_TODO.md`.** Target threshold: $\kappa \geq 0.70$ (Landis & Koch, 1977) for all categorical moderators and ICC(2,1) $\geq$ 0.80 for cDAI. Protocol for resolving Regime II/III boundary disagreements: PI lookup of WGI Rule of Law vintage scores.
 
 **Table 4.1, Working-database sample composition** *(pre-formal-search; *K* = 288 effect sizes, k = 238 coded studies)*
 
