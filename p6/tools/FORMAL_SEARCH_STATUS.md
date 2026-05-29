@@ -31,7 +31,7 @@
 3. **Merge** các dòng ready vào `p6/data/p6_study_database.csv` (script `42_merge_tracker_to_database.py`),
    gán moderator ICRV/cDAI/DPL còn thiếu, rồi chạy lại `p6/scripts/p6_real_mara.R` (hoặc
    `verify_moderator_qm.py`) → cập nhật k/K + bảng.
-4. **Inter-coder reliability** (Bảng 3.1): coder thứ 2 mã 20% mẫu → κ/ICC.
+4. **Chất lượng mã hóa**: single-coder (không tính κ — đã gỡ Bảng 3.1); đối soát double-entry r/n + mã moderator với PDF gốc. Double-coding để báo κ là việc của đợt mở rộng nếu có coder thứ 2.
 
 ## 4. Ước lượng thực tế
 - Trần lý thuyết nếu trích hết queue: 238 + tối đa ~210 ⇒ có thể vượt k≥250 **nếu** một phần đáng kể

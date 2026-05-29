@@ -69,7 +69,7 @@
 
 - [x] OSF pre-registration completed (z37kn; deviations disclosed, Methods §3.1)
 - [ ] PRISMA 2020 checklist final counts (Appendix A — pending formal search)
-- [ ] Inter-coder reliability κ ≥ 0.70 reported (Table 3.1 — pending second coder)
+- [x] Single-coder design disclosed (no inter-coder κ; deviation note + Limitations); coding quality via pilot calibration + double-entry verification (§3.3.2)
 - [x] `metafor` R package documented; moderator Q_M independently verified (`verify_moderator_qm.py`)
 - [x] Publication bias diagnostics (Egger, Begg, trim-and-fill) reported in §4.4
 

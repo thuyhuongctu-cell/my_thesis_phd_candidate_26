@@ -7,8 +7,8 @@
 ## Bối cảnh quan trọng
 - OSF là **bản ghi mở, KHÔNG ẩn danh** → giữ nguyên tên tác giả (khác với bản nộp tạp chí phải ẩn).
 - Dữ liệu/kết quả trong gói là **pool baseline (k=238 / K=288)** đã đăng ký và phân tích xong.
-  Phần mở rộng formal-search (mục tiêu k≥250) và độ tin cậy liên-mã hóa (inter-coder) **đang làm dở** →
-  xem mục "TẠM GIỮ" bên dưới.
+  Phần mở rộng formal-search (mục tiêu k≥250) **đang làm dở** → xem mục "TẠM GIỮ" bên dưới.
+  Độ tin cậy liên-mã hóa (κ) **không áp dụng**: nghiên cứu single-coder, đã nêu deviation trong bản thảo.
 
 ## Cấu trúc gói (`p6/osf/upload_package/`)
 ```
@@ -57,7 +57,6 @@
 ## ⛔ TẠM GIỮ — chưa tải lên cho tới khi hoàn tất
 - Dataset **pool mở rộng** + thư mục `p6/scripts/.../results/updated/` (formal-search k≥250 đang chạy).
 - File tracker đang làm dở: `p6/tools/results/fulltext_to_extraction_tracker_v3.csv` (WIP, ~2.467 dòng).
-- **Bảng độ tin cậy liên-mã hóa** (inter-coder reliability — Bảng 3.1 hiện còn `[TBD]`).
 - **Bản thảo / preprint** P6: chỉ đăng sau khi nộp Management Review Quarterly (tránh xung đột chính sách preprint của tạp chí).
 - **KHÔNG** tải file PDF toàn văn của các nghiên cứu gốc (vi phạm bản quyền) — chỉ metadata/effect-size.
 

@@ -206,24 +206,15 @@ new_studies <- escalc(measure="COR", ri=r, ni=n, data=new_studies)
 
 ---
 
-## 7. Inter-Coder Reliability Protocol
+## 7. Coding Quality and Verification (single-coder)
 
-Per PRISMA-MARA guidelines: 20% random subsample double-coded
+This study was coded by a single coder (the first author); the prereg's double-coded inter-coder reliability protocol (Cohen's κ / ICC) was therefore not executed — see the manuscript "Deviations from pre-registration" note. Coding quality is instead supported by:
 
-**Target statistics:**
-- Continuous (r, n): ICC(2,1) ≥ 0.80
-- Categorical (icrv, doi_type, fp_type): Cohen's κ ≥ 0.70
+- **Pilot calibration**: protocol calibrated on 10 studies; ambiguous decision rules refined and documented before full extraction.
+- **Double-entry verification**: numeric inputs (r, n) and categorical moderator codes re-entered and reconciled against the source PDF to catch transcription errors.
+- **Reproducible external-table codes**: ICRV (WGI Rule of Law lookup), cDAI (World Bank/ITU indices), and DPL (median data year) are mechanically reproducible from documented source values, enabling independent verification.
 
-```r
-library(irr)
-# For continuous: ICC
-icc(cbind(coder1_r, coder2_r), model="twoway", type="agreement")
-
-# For categorical: kappa
-kappa2(cbind(coder1_icrv, coder2_icrv))
-```
-
-Disagreements: resolve via discussion; if unresolvable, senior author decides.
+A dual-coded reliability check is a stated priority for the planned formal-search expansion.
 
 ---
 

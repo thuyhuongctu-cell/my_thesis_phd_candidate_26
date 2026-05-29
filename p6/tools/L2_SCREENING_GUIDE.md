@@ -207,7 +207,7 @@ Ghi vào `notes_for_extractor`: `E1=ROA, E2=TobinQ`
 |-----|----------|
 | `ready_for_r` | Đặt = `1` khi có đủ: `converted_r`, `sample_size_n`, `icrv`, `dpl`, `fp_type` |
 | `extracted_by` | Tên người trích xuất |
-| `checked_by` | Tên người kiểm tra (double-coding 20%) |
+| `checked_by` | Tên người đối soát double-entry (so r/n + mã với PDF gốc) |
 
 ---
 
@@ -229,7 +229,8 @@ print(f'Remaining: {len(new_y)-done}')
 # Sau khi extraction xong: chạy MARA
 Rscript p6/tools/meta_r_scripts/00_mara_starter_20260520.R
 
-# Chọn 20% subsample cho double-coding
+# (CHỈ KHI có coder thứ 2 cho đợt mở rộng) Chọn 20% subsample cho double-coding.
+# Nghiên cứu hiện tại là single-coder → bước này KHÔNG áp dụng (xem deviation trong bản thảo).
 python3 p6/tools/09_select_reliability_subsample.py \
   --input  p6/tools/results/fulltext_to_extraction_tracker_v3.csv \
   --output p6/tools/results/reliability_subsample.csv \
@@ -252,10 +253,9 @@ python3 p6/tools/09_select_reliability_subsample.py \
    - r̄, I², τ², Q
    - Moderator tables (ICRV, DPL, cDAI)
 
-4. Inter-coder reliability (κ ≥ 0.70):
-   python3 p6/tools/09_select_reliability_subsample.py
-   → Double-code 20% independently
-   → Rscript p6/tools/compute_reliability.R
+4. Kiểm tra chất lượng mã hóa (single-coder — không tính κ):
+   → Double-entry: nhập lại r, n và mã moderator, đối soát với PDF gốc
+   → Hạn chế single-coder nêu ở manuscript §3.3.2 / §3.7
 ```
 
 ---

@@ -544,19 +544,17 @@ pool hiện tại. Những studies tiềm năng còn thiếu (cần xác minh):
 
 ---
 
-## 9. Coding Summary cho Inter-coder Reliability
+## 9. Coding Summary — Chất lượng mã hóa (single-coder)
 
-### Double-code subset (20% = 27 studies)
+Nghiên cứu do một coder (tác giả thứ nhất) thực hiện; giao thức double-code/κ trong tiền đăng ký **không được thực thi** (không có coder thứ hai) và được nêu là deviation trong bản thảo. Chất lượng mã hóa bảo đảm bằng đối soát **double-entry**: nhập lại `r`, `n` và mã moderator rồi so với PDF gốc. Mẫu ưu tiên đối soát (stratified theo regime và DPL phase):
 
-Chọn ngẫu nhiên stratified theo regime và DPL phase:
+| Batch | n | Studies |
+|-------|---|---------|
+| Batch 1 | 9 | S06, S17, S22, S35, S58, S71, S88, S109, S126 |
+| Batch 2 | 9 | S10, S25, S47, S63, S82, S97, S115, S118, S127 |
+| Batch 3 | 9 | S14, S31, S53, S69, S92, S107, S121, S125, S128 |
 
-| Batch | n | Studies | Coder 2 target date |
-|-------|---|---------|---------------------|
-| Batch 1 | 9 | S06, S17, S22, S35, S58, S71, S88, S109, S126 | Tuần 3 |
-| Batch 2 | 9 | S10, S25, S47, S63, S82, S97, S115, S118, S127 | Tuần 4 |
-| Batch 3 | 9 | S14, S31, S53, S69, S92, S107, S121, S125, S128 | Tuần 5 |
-
-**Target**: Cohen's κ ≥ 0.70 cho mỗi trong 3 moderator (ICRV, cDAI, DPL).
+Bổ sung double-coding để báo cáo κ là ưu tiên cho đợt formal-search mở rộng (nếu có coder thứ 2).
 
 ---
 

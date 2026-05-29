@@ -15,10 +15,12 @@ sizes** (1982–2026), with the full three-level meta-analytic model already est
 (pooled r̄ = 0.074, 95% CI [0.060, 0.088]; total I² = 62.4%).
 
 A **formal WoS + Scopus search** to expand the pool to the preregistered target (**k ≥ 250**)
-and the **20% double-coded inter-coder reliability** assessment are **in progress**; the
-final expanded dataset, reliability statistics, and the manuscript preprint will be added to
-this project once complete. Treat the data and results here as the **baseline snapshot**, not
-the final analysis.
+is **in progress**; the final expanded dataset and the manuscript preprint will be added to
+this project once complete. The registered 20% double-coded inter-coder reliability protocol
+was **not executed** — coding was single-coder (no second coder available), so no κ/ICC
+statistics are reported; this is disclosed as a deviation in the manuscript, and a dual-coded
+check is planned for the expansion. Treat the data and results here as the **baseline
+snapshot**, not the final analysis.
 
 ---
 

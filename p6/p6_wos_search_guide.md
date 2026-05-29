@@ -292,7 +292,7 @@ Với mỗi bài **mới** (chưa có trong forest_data.csv):
 - [ ] Bài mới đã thêm vào `forest_data.csv`
 - [ ] Bài mới đã thêm vào `p6_primary_studies_apa7.md`
 - [ ] k và K mới đã cập nhật trong `21_p6_meta_vi.md` và `p6_meta_manuscript_en.md`
-- [ ] Inter-coder κ ≥ 0.80 đã kiểm tra trên 20% mẫu ngẫu nhiên
+- [x] Single-coder: đối soát double-entry r/n + mã moderator với PDF gốc (không tính κ — đã nêu deviation)
 
 ---
 

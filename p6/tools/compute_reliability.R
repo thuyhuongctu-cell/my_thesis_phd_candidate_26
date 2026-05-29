@@ -1,5 +1,10 @@
 # compute_reliability.R — Inter-coder reliability for P6 meta-analysis
 #
+# NOT USED IN THE CURRENT STUDY: P6 is single-coder, so no inter-coder
+# reliability is reported (disclosed as a pre-registration deviation in the
+# manuscript). This script is dormant tooling, retained only for the planned
+# formal-search expansion IF a second independent coder becomes available.
+#
 # Computes Cohen's kappa (categorical) and ICC (continuous) from the
 # double-coded reliability subsample.
 #
@@ -113,4 +118,4 @@ cat("--- Interpretation guide ---\n")
 cat("  κ ≥ 0.70 = acceptable for categorical coding (Landis & Koch, 1977)\n")
 cat("  ICC ≥ 0.80 = good agreement for continuous coding (Cicchetti, 1994)\n")
 cat("  If below threshold: re-calibrate codebook, reconcile, re-code subsample\n")
-cat("\nReport to manuscript §3.4 (inter-coder reliability section)\n")
+cat("\n(Only relevant if a second coder joins the formal-search expansion;\n the current single-coder study reports no inter-coder reliability.)\n")

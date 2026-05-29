@@ -2,6 +2,11 @@
 10_select_reliability_subsample.py
 Select a stratified random 20% subsample of Y records for inter-coder reliability.
 
+NOT USED IN THE CURRENT STUDY: P6 is single-coder, so no inter-coder reliability
+is reported (disclosed as a pre-registration deviation in the manuscript). This
+is dormant tooling, retained only for the planned formal-search expansion IF a
+second independent coder becomes available.
+
 Stratification: DPL phase (1/2/3) × priority (High/Medium/Low)
 Target: κ ≥ 0.70 for categorical fields, ICC ≥ 0.80 for r
 

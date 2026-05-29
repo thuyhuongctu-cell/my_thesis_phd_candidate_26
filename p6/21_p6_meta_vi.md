@@ -144,6 +144,8 @@ Kết quả đã xác nhận cho WoS arm: WoS = 2,180 records, ngày search/API 
 
 OSF preregistration xác định trước: câu hỏi nghiên cứu, tiêu chí inclusion/exclusion, coding protocol 7 moderators, kế hoạch phân tích three-level MARA.
 
+**Sai lệch so với tiền đăng ký (PRISMA 2020, Item 24c)**: Bản tiền đăng ký (§8.3) cam kết double-code 20% mẫu với hai coder độc lập, target Cohen's $\kappa \geq 0.70$ (categorical) và ICC $\geq 0.80$ (continuous). Trên thực tế không có coder thứ hai, nên toàn bộ trích xuất và mã hóa do một coder (tác giả thứ nhất) thực hiện. Do đó **không báo cáo** chỉ số inter-coder reliability; chất lượng mã hóa được bảo đảm bằng hiệu chỉnh protocol trên mẫu pilot và đối soát double-entry với PDF gốc (§3.7). Bản tiền đăng ký đông cứng trên OSF giữ nguyên cam kết gốc; sai lệch này được nêu minh bạch tại đây. Bổ sung double-coding để báo cáo κ là ưu tiên cho đợt formal-search mở rộng.
+
 ### 3.2 Tiêu chí inclusion/exclusion
 
 **Inclusion** (7 tiêu chí):

@@ -2,6 +2,11 @@
 """
 09_select_reliability_subsample.py — Select 20% stratified reliability subsample.
 
+NOT USED IN THE CURRENT STUDY: P6 is single-coder, so no inter-coder reliability
+is reported (disclosed as a pre-registration deviation in the manuscript). This
+is dormant tooling, retained only for the planned formal-search expansion IF a
+second independent coder becomes available.
+
 Input:  fulltext_to_extraction_tracker_v3.csv (after ready_for_r=1 rows exist)
 Output: reliability_subsample_YYYYMMDD.csv — stratified by DPL x ICRV
 

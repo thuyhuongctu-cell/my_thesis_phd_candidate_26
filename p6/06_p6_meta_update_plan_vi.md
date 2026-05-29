@@ -145,7 +145,7 @@ Bỏ bớt cho versión dễ thuức hiện: sample size, publication year, digi
 - **cDAI level**: lấy ITU DDI hoặc WB Digital Adoption Index theo country-year, classify high/medium/low
 - **DPL phase**: mã hóa precede/span/follow theo mốc 2009
 - ~3–4 tuần nếu có RA giúp; 5–6 tuần nếu solo
-- **Inter-coder reliability**: double-code 20% subset, tính Cohen's $\kappa \geq 0.7$
+- **Chất lượng mã hóa**: single-coder → đối soát double-entry r/n + mã moderator với PDF gốc (không tính κ; double-coding nếu có coder thứ 2)
 
 ### Tuần 7–8: Convert MetaEssentials → `metafor`
 
@@ -209,7 +209,7 @@ Lấy `P6_OSF_Preregistration_Template.md`, fill ngay với:
 | Trùng lặp sample | Coding "sample_id" đồng nhất; chỉ giữ effect size có trọng số cao nhất |
 | Inconsistency với bản 2023 sau khi tái chạy `metafor` | Document trong appendix; giải thích (estimator, data updates, v.v.) |
 | Three-level MARA fails to converge với k nhỏ | Fallback two-level random-effects với cluster-robust SE |
-| Inter-coder reliability thấp cho 3 moderator mới | Double-code 20% subset, target Cohen's $\kappa \geq 0.7$ |
+| Sai sót mã hóa 3 moderator mới (single-coder) | Đối soát double-entry với PDF gốc; mã neo bảng ngoài (WGI/WB-ITU/DPL) tái lập độc lập |
 
 ## 9. Kết nối với các file khác trong `/thesis/`
 
@@ -294,22 +294,18 @@ Liệt kê công việc cụ thể cho từng tuần. NCS có thể cập nhật
 
 ### Tuần 3 — Recode batch 1 (40 studies)
 
-- [ ] Coder 1 (NCS): 40 studies — ICRV + cDAI + DPL
-- [ ] Coder 2 (RA nếu có): double-code 8/40 (20%)
-- [ ] Tính Cohen's $\kappa$ cho double-coded subset
-- [ ] Resolve disagreements
+- [ ] Coder (NCS): 40 studies — ICRV + cDAI + DPL
+- [ ] Double-entry verify 8/40: nhập lại + đối soát PDF gốc
 
 ### Tuần 4 — Recode batch 2 (40 studies)
 
-- [ ] Coder 1: 40 studies
-- [ ] Coder 2: double-code 8/40
-- [ ] $\kappa$ check
+- [ ] Coder: 40 studies
+- [ ] Double-entry verify 8/40
 
 ### Tuần 5 — Recode batch 3 (40 studies)
 
-- [ ] Coder 1: 40 studies
-- [ ] Coder 2: double-code 8/40
-- [ ] $\kappa$ check
+- [ ] Coder: 40 studies
+- [ ] Double-entry verify 8/40
 - [ ] Tuần này có thể gồm re-extract effect sizes cho ~10 studies khó
 
 ### Tuần 6 — Recode batch 4 (bổ sung) + verify hoàn thiện

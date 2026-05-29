@@ -276,12 +276,12 @@ Author's own publications and papers from known research groups working on I→P
 
 ---
 
-## 4. Inter-Coder Reliability Protocol
+## 4. Coding Quality and Verification (single-coder)
 
-- **Primary coder**: Đỗ Thùy Hương
-- **Second coder**: [Research assistant / HD Phan Anh Tú — 20% random sample]
-- **Target κ**: ≥ 0.80 for all 7 moderator variables
-- **Disagreement resolution**: Discussion; if unresolved → third coder
+- **Coder**: Đỗ Thùy Hương (sole coder; first author)
+- **Reliability**: the prereg's 20% double-coded κ/ICC protocol was not executed — no second coder was available. No inter-coder statistics are reported (disclosed as a deviation in the manuscript).
+- **Quality safeguards**: pilot calibration (10 studies) + double-entry verification of r, n and moderator codes against source PDFs; external-table codes (WGI/WB-ITU/DPL) are independently reproducible.
+- **Planned**: dual-coded reliability check during the formal-search expansion.
 
 **Variables coded** (7 moderators + study descriptors):
 
