@@ -45,7 +45,7 @@ Hai khái niệm này không đồng nhất và có thể vận hành khác nhau
 
 ## 4. Mô hình khái niệm tích hợp
 
-```
+```text
           INSTITUTIONAL CONTEXT                  TOP MANAGER
           (ICRV 6 sub-regime:                  CHARACTERISTICS
            voids, obstacles,                   (experience, gender)
@@ -102,7 +102,7 @@ Cơ sở lý thuyết: Hambrick và Mason (1984) với lý thuyết tầng lớp
 
 ### H5: Điều tiết bởi bối cảnh thể chế
 
-**H5**: Chất lượng thể chế theo khung ICRV (6 chế độ con từ Advanced Innovation-Driven đến Pacific SIDS) điều tiết tác động của các trở ngại thể chế lên hiệu quả hoạt động trong quá trình quốc tế hóa, với mức độ chấp nhận số đóng vai trò năng lực số bù đắp một phần cho khoảng trống thể chế. Cường độ điều tiết giảm dần theo gradient ICRV, từ nhóm Frontier đến nhóm Advanced.
+**H5**: Chất lượng thể chế theo khung ICRV (6 chế độ con từ Advanced Innovation-Driven đến Pacific SIDS) điều tiết tác động của các trở ngại thể chế lên hiệu quả hoạt động trong quá trình quốc tế hóa, với mức độ chấp nhận số đóng vai trò năng lực số bù đắp một phần cho khoảng trống thể chế. Cường độ điều tiết giảm dần theo dải biến thiên (gradient) ICRV, từ nhóm Frontier đến nhóm Advanced.
 
 Cơ sở lý thuyết: North (1990) với thể chế và hiệu quả kinh tế; Khanna và Palepu (2010) với khoảng trống thể chế; Marano et al. (2016) với bằng chứng tổng hợp về thể chế quốc gia gốc trong quan hệ giữa quốc tế hóa và hiệu quả hoạt động.
 
@@ -117,7 +117,7 @@ Cơ sở lý thuyết: Wu et al. (2022) với phân tích tổng hợp hai mươ
 | Giả thuyết | Cuộc đối thoại kiểm định chính | Phase phân tích |
 |---|---|---|
 | H1 | Mô hình quadratic với $FSTS$ và $FSTS^2$; Lind–Mehlum U-test | Country-level và multi-country |
-| H1b | Mô hình M1 tuyến tính tại SIDS; Lind–Mehlum U-test (NS); exporters-only robustness | Pacific SIDS |
+| H1b | Mô hình M1 tuyến tính tại SIDS; Lind–Mehlum U-test (NS); kiểm định vững chỉ trên nhóm xuất khẩu (exporters-only) | Pacific SIDS |
 | H2 | Tương tác $FSTS \times TCI$ trong hồi quy | Country-level và multi-country |
 | H3 | Tương tác $FSTS \times DAI$ và $FSTS^2 \times DAI$ | Country-level và multi-country |
 | H4 (kiểm soát quản trị nội sinh) | $Manager_{exp}$, $Manager_{educ}$, $Manager_{gender}$ đưa vào ở dạng số hạng chính (kiểm soát mức); số hạng tương tác chỉ báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm | Multi-country (do dữ liệu quy mô lớn) |
