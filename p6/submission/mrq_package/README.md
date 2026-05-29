@@ -25,8 +25,8 @@
 | `figures/figure_1_conceptual_model.png` | Conceptual model — three-level MARA with ICRV, cDAI, DPL | Figure 1 |
 | `figures/figure2_icrv_forest.png` | ICRV 5-regime forest plot with 95% CI | Figure 2 |
 | `figures/figure3_dpl_phase.png` | DPL phase moderation — I-P effect by digital epoch | Figure 3 |
-| `figures/figure4_sensitivity.png` | Leave-one-out sensitivity range | Figure 4 |
-| `figures/figure5_funnel_plot.png` | Funnel plot with trim-and-fill imputed studies | Figure 5 |
+| `figures/figure4_funnel_plot.png` | Funnel plot with trim-and-fill imputed studies | Figure 4 |
+| `figures/figure5_sensitivity.png` | Leave-one-out sensitivity range | Figure 5 |
 
 ---
 

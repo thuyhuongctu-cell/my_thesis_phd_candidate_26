@@ -107,7 +107,7 @@ Bustamante et al. (2022) provide the closest prior evidence: they find that nati
 
 Given the history of selective reporting in IB meta-analyses (Borenstein et al., 2021), we test publication bias as a formal null hypothesis:
 
-**Hypothesis 4 (H4, Publication bias):** Selective reporting of statistically significant positive I-P results is expected to inflate the raw pooled effect relative to the true underlying population effect, because positive results are more likely to be published in the I-P literature (Borenstein et al., 2021; Dickersin, 1990). Three directional predictions follow: (H4a) Funnel-plot asymmetry tests (Egger's regression intercept, Begg's rank correlation) are expected to be statistically significant, indicating that smaller-sample studies show disproportionately large positive effects relative to the regression-estimated pooled mean; (H4b) Duval and Tweedie's (2000) trim-and-fill procedure is expected to impute missing studies on the left side of the funnel (suppressed null/negative results) and produce a bias-adjusted pooled estimate (*r̄*_adj) that is smaller than the raw estimate but remains positive (*r̄*_adj > 0); (H4c) Orwin's (1983) fail-safe N is expected to substantially exceed the threshold of 2,000 studies required to reduce the pooled effect to a negligible level, confirming that the positive I-P effect is not an artifact of publication bias alone.
+**Hypothesis 4 (H4, Publication bias):** Selective reporting of statistically significant positive I-P results is expected to inflate the raw pooled effect relative to the true underlying population effect, because positive results are more likely to be published in the I-P literature (Borenstein et al., 2021; Dickersin, 1990). Three directional predictions follow: (H4a) Funnel-plot asymmetry tests (Egger's regression intercept, Begg's rank correlation) are expected to be statistically significant, indicating that smaller-sample studies show disproportionately large positive effects relative to the regression-estimated pooled mean; (H4b) Duval and Tweedie's (2000) trim-and-fill procedure is expected to impute missing studies on the left side of the funnel (suppressed null/negative results) and produce a bias-adjusted pooled estimate (*r̄*_adj) that is smaller than the raw estimate but remains positive (*r̄*_adj > 0); (H4c) the fail-safe N is expected to substantially exceed Rosenthal's (1991) tolerance criterion of 5*k* + 10 (here 1,200), confirming that the positive I-P effect is not an artifact of publication bias alone.
 
 ### 2.6 Conceptual Model
 
@@ -207,7 +207,7 @@ Seven moderators were coded for each effect size: four standard moderators repli
 **Novel moderators** (3):
 5. *ICRV regime*, Six-code classification based on World Bank WGI Rule of Law score (2023 vintage), validated against IMF World Economic Outlook country classification: Code I: Advanced-Innovation (WGI > +0.80; e.g., Singapore, Hong Kong, South Korea, Japan, Taiwan, Australia); Code II: Upper-Middle (0 < WGI $\leq$ +0.80; e.g., China, Malaysia, Thailand); Code III: Emerging (−0.50 < WGI $\leq$ 0; e.g., Vietnam, India, Philippines); Code FR: Frontier/LDC (WGI $\leq$ −0.50; e.g., Bangladesh, Myanmar, Pakistan); Code SIDS: Pacific small-island developing states (the dissertation's ICRV Regime VI; e.g., Fiji, Samoa, Tonga), defined a priori but returning zero qualifying primary studies in the present corpus; Code MX: Multi-country pooled samples spanning two or more ICRV regimes (no single modal-country regime $\geq$ 60% of sample). Numbering crosswalk to the dissertation's canonical six-regime ICRV: P6 Code I ≡ dissertation Regime I (Advanced-Innovation); P6 Code II (Upper-Middle) ≡ Regime III; P6 Code III (Emerging) ≡ Regime IV; FR ≡ Regime V; SIDS ≡ Regime VI. The dissertation's Regime II (Advanced Resource-Driven / GCC) is not separately populated in this corpus, and MX has no I–VI equivalent.
 6. *cDAI*, Country-year digital adoption composite (0–1 scale): primary source, World Bank Digital Adoption Index (2016 vintage, Sahay et al., 2020); secondary source, ITU Digital Development Index (DDI, 2017–2026, linear-rescaled to 0–1). Country-year assignment follows the median year of the study's data collection period. For multi-country samples, cDAI is the sample-weighted average of country-year scores. Studies lacking country-year DAI data are assigned ITU ICT Development Index values with a −0.05 adjustment for known downward bias relative to the World Bank composite (Katz & Callorda, 2018).
-7. *DPL phase*, "Precede": data collection predominantly prior to 2009 (median data year < 2009); "Span": data collection spans 2005–2014 or cannot be classified as predominantly Precede or Follow; "Follow": data collection predominantly post-2014 (median data year $\geq$ 2015). Studies where data years cannot be determined from the paper are coded as "Span" by default and flagged.
+7. *DPL phase*, classified by the study's median data-collection year: "Precede" (median $\leq$ 2008), "Span" (median 2009–2013), "Follow" (median $\geq$ 2014). Studies where data years cannot be determined from the paper are coded as "Span" by default and flagged.
 
 ### 3.5 Statistical Model: Three-Level MARA
 
@@ -277,15 +277,17 @@ The following pre-registered robustness checks evaluate the sensitivity of the m
 | cDAI High (H) | 38 | — |
 | cDAI Medium (M) | 76 | — |
 | cDAI Low (L) | 174 | — |
-| DPL Precede (PRE, ≤2008) | 103 | — |
-| DPL Span (SPN, 2009–2013) | 120 | — |
-| DPL Follow (FOL, ≥2014) | 86 | — |
+| DPL Precede (PRE, median data year ≤2008) | 100 | — |
+| DPL Span (SPN, median 2009–2013) | 108 | — |
+| DPL Follow (FOL, median ≥2014) | 80 | — |
 | By DOI type: FSTS | 138 | — |
 | By DOI type: GEO | 50 | — |
 | By DOI type: EXP | 65 | — |
 | By DOI type: COMP | 31 | — |
-| By FP type: ACC (accounting) | 246 | — |
-| By FP type: MKT (market-based) | 16 | — |
+| By DOI type: FDI | 3 | — |
+| By DOI type: OTH | 1 | — |
+| By FP type: ACC (accounting) | 247 | — |
+| By FP type: MKT (market-based) | 15 | — |
 | By FP type: LAB (labour productivity) | 12 | — |
 | By FP type: MIX | 14 | — |
 
@@ -356,9 +358,9 @@ The three cDAI subgroup means are all significantly positive (*p* < .001) but do
 
 | DPL Phase | Definition | *k* | *r̄* | 95% CI | Δ vs. PRE |
 |-----------|-----------|-----|-----|--------|-----------|
-| Precede (PRE) | Sample data predominantly ≤ 2008 | 100 | 0.082 | [0.057, 0.107] | — |
-| Span (SPN) | Sample spans the 2009 inflection | 108 | 0.069 | [0.046, 0.091] | b = −0.013, n.s. |
-| Follow (FOL) | Sample data predominantly ≥ 2014 | 80 | 0.073 | [0.046, 0.100] | b = −0.009, n.s. |
+| Precede (PRE) | Median data year ≤ 2008 | 100 | 0.082 | [0.057, 0.107] | — |
+| Span (SPN) | Median data year 2009–2013 | 108 | 0.069 | [0.046, 0.091] | b = −0.013, n.s. |
+| Follow (FOL) | Median data year ≥ 2014 | 80 | 0.073 | [0.046, 0.100] | b = −0.009, n.s. |
 
 Pairwise comparisons: PRE vs. FOL (*z* = 0.46, *p* = .645); PRE vs. SPN (*z* = 0.78, *p* = .434); FOL vs. SPN (*z* = 0.28, *p* = .782). No pairwise difference approaches significance.
 
@@ -382,9 +384,9 @@ H4 **supported**: multiple indicators consistently detect publication bias, thou
 
 The trim-and-fill correction (*k* = 58 imputed, adj. *r* = 0.035) is the most conservative bias-corrected estimate and represents a meaningful reduction from the raw *r* = 0.074. Together with the substantial unexplained heterogeneity ($I^2$ = 62.4%) and non-significant moderator tests (Sections 4.3–4.5), the publication bias evidence suggests that the apparent average I-P effect is upwardly inflated in the published literature. The true population effect may be closer to *r* $\approx$ 0.035.
 
-![Figure 5: Funnel plot with trim-and-fill imputed studies](figures/figure5_funnel_plot.png)
+![Figure 4: Funnel plot with trim-and-fill imputed studies](figures/figure4_funnel_plot.png)
 
-*Figure 5.* Funnel plot of effect sizes against standard errors. Open circles = original studies; filled circles = trim-and-fill imputed studies (*k* = 58). Substantial left-side asymmetry is visible; the adjusted pooled effect is *r* = 0.035.
+*Figure 4.* Funnel plot of effect sizes against standard errors. Open circles = original studies; filled circles = trim-and-fill imputed studies (*k* = 58). Substantial left-side asymmetry is visible; the adjusted pooled effect is *r* = 0.035.
 
 ### 4.7 Robustness
 
@@ -401,9 +403,9 @@ The trim-and-fill correction (*k* = 58 imputed, adj. *r* = 0.035) is the most co
 
 The baseline *r* = 0.074 is robust across all sensitivity checks. The leave-one-out range [0.071, 0.075] confirms no single study drives the result. The DL two-level estimator gives an identical point estimate (0.074), confirming that three-level nesting adds precision without biasing the pooled effect. The FSTS-only restriction (*r̄* = 0.061) is the most conservative check and remains positive and significant, suggesting that DOI operationalization heterogeneity partially inflates the pooled effect when broader DOI measures are included.
 
-![Figure 4: Leave-one-out sensitivity, pooled *r̄* range across leave-one-out iterations](figures/figure4_sensitivity.png)
+![Figure 5: Leave-one-out sensitivity, pooled *r̄* range across leave-one-out iterations](figures/figure5_sensitivity.png)
 
-*Figure 4.* Leave-one-out sensitivity analysis. Each point is the pooled *r̄* with 95% CI after removing one study. The narrow range confirms no single study drives the results.
+*Figure 5.* Leave-one-out sensitivity analysis. Each point is the pooled *r̄* with 95% CI after removing one study. The narrow range confirms no single study drives the results.
 
 ---
 
@@ -505,6 +507,7 @@ Cooper, H. (2010). *Research synthesis and meta-analysis: A step-by-step approac
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review, 80*(2), 355–361.
 
+Dickersin, K. (1990). The existence of publication bias and risk factors for its occurrence. *JAMA, 263*(10), 1385–1389. https://doi.org/10.1001/jama.1990.03440100097014
 
 Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF).
 
@@ -520,8 +523,6 @@ Helpman, E., Melitz, M. J., & Yeaple, S. R. (2004). Export versus FDI with heter
 
 Jacquemin, A. P., & Berry, C. H. (1979). Entropy measure of diversification and corporate growth. *Journal of Industrial Economics, 27*(4), 359–369.
 
-Jensen, M. C., & Meckling, W. H. (1976). Theory of the firm: Managerial behavior, agency costs and ownership structure. *Journal of Financial Economics, 3*(4), 305–360.
-
 Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm: A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32.
 
 Katz, R., & Callorda, F. (2018). *The economic contribution of broadband, digitization and ICT regulation*. ITU Telecommunication Development Sector.
@@ -534,17 +535,15 @@ Kraus, S., Breier, M., Lim, W. M., Dabić, M., Kumar, S., Kanbach, D., Mukherjee
 
 Kogut, B., & Zander, U. (1993). Knowledge of the firm and the evolutionary theory of the multinational corporation. *Journal of International Business Studies, 24*(4), 625–645.
 
-Lakens, D., Scheel, A. M., & Isager, P. M. (2020). Equivalence testing for psychological research: A tutorial. *Advances in Methods and Practices in Psychological Science, 1*(2), 259–269.
-
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110.
 
 North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
 
 Orwin, R. G. (1983). A fail-safe N for effect size in meta-analysis. *Journal of Educational Statistics, 8*(2), 157–159.
 
-Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
+Sahay, R., Eriksson von Allmen, U., Lahreche, A., Khera, P., Ogawa, S., Bazarbash, M., & Beaton, K. (2020). *The promise of fintech: Financial inclusion in the post COVID-19 era* (Departmental Paper No. 20/09). International Monetary Fund. https://doi.org/10.5089/9781513512242.087
 
-Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866.
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
 
 Peng, M. W., Wang, D. Y. L., & Jiang, Y. (2008). An institution-based view of international business strategy: A focus on emerging economies. *Journal of International Business Studies, 39*(5), 920–936.
 
@@ -729,7 +728,7 @@ Final k/K will increase further as new L2 extraction from 2,032 new candidates
 |-----------|-------------|-------------|
 | ICRV regime | Categorical (6 codes) | WGI Rule of Law, 2023 vintage: I > +0.80; II: 0–+0.80; III: −0.50–0; FR: < −0.50; SIDS: Pacific island state (≡ Regime VI, k = 0 in corpus); MX: multi-country (≥ 2 regimes) |
 | cDAI | Continuous (0–1) | World Bank DAI score or ITU DDI score, country-year, standardized. If unavailable: ITU ICT Development Index (substitute) |
-| DPL phase | Categorical (3) | Precede: data year < 2009; Span: data spans 2005–2014; Follow: data year > 2014 |
+| DPL phase | Categorical (3) | By median data year: Precede ≤ 2008; Span 2009–2013; Follow ≥ 2014 |
 | Country of origin | Categorical (ISO) | First author's sample country; multi-country = "pooled" |
 | Industry | Categorical (3) | SIC: manufacturing (20–39), services (40–89), mixed/unspecified |
 | DOI measure | Categorical (4) | FSTS; Entropy; Number-of-markets; Transnationality index (UNCTAD) |

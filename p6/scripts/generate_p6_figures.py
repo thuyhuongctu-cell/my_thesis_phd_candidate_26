@@ -7,8 +7,8 @@ All values come from p6_real_mara.R run on k=237, K=287 actual database.
 Figures produced:
   Figure 2 — ICRV 5-regime forest plot          → figures/figure2_icrv_forest.png
   Figure 3 — DPL phase bar chart                 → figures/figure3_dpl_phase.png
-  Figure 4 — Leave-one-out sensitivity scatter   → figures/figure4_sensitivity.png
-  Figure 5 — Funnel plot with trim-and-fill       → figures/figure5_funnel_plot.png
+  Figure 4 — Funnel plot with trim-and-fill       → figures/figure4_funnel_plot.png
+  Figure 5 — Leave-one-out sensitivity scatter   → figures/figure5_sensitivity.png
 
 Style: academic grayscale, 300 DPI, Times New Roman-like serif font.
 
@@ -234,8 +234,8 @@ def figure3_dpl_phase():
     _save(fig, "figure3_dpl_phase")
 
 
-# ── Figure 4: Leave-One-Out Sensitivity Scatter ───────────────────────────────
-def figure4_sensitivity():
+# ── Figure 5: Leave-One-Out Sensitivity Scatter ───────────────────────────────
+def figure5_sensitivity():
     """Leave-one-out sensitivity scatter using real forest_data.
 
     Each point = r after removing that study. Range [0.071, 0.075].
@@ -278,19 +278,19 @@ def figure4_sensitivity():
             f"0 / {K_EFFECTS} effects reverse direction   |   Range: [0.071, 0.075]",
             transform=ax.transAxes, fontsize=8.5, va="bottom", style="italic")
     ax.set_title(
-        f"Figure 4. Leave-One-Out Sensitivity Analysis (K = {K_EFFECTS} effects)",
+        f"Figure 5. Leave-One-Out Sensitivity Analysis (K = {K_EFFECTS} effects)",
         fontsize=11, fontweight="bold", pad=8)
     fig.tight_layout()
-    _save(fig, "figure4_sensitivity")
+    _save(fig, "figure5_sensitivity")
 
 
-# ── Figure 5: Funnel Plot with Trim-and-Fill ──────────────────────────────────
-def figure5_funnel_plot():
-    """Funnel plot using real forest_data r_i values + k=57 imputed studies.
+# ── Figure 4: Funnel Plot with Trim-and-Fill ──────────────────────────────────
+def figure4_funnel_plot():
+    """Funnel plot using real forest_data r_i values + k=58 imputed studies.
 
-    Trim-and-fill: k_imputed=57, adj_r=0.035 [0.018, 0.051].
-    Egger: b=0.487, p=.052 (marginal).
-    Begg: tau=-0.132, p=.001.
+    Trim-and-fill: k_imputed=58, adj_r=0.035 [0.023, 0.048].
+    Egger: b=0.475, p=.057 (marginal).
+    Begg: tau=-0.134, p=.0007.
     """
     r_obs  = np.array([float(row["r_i"]) for row in forest_rows])
     n_obs  = np.array([float(row["n"])   for row in forest_rows])
@@ -298,7 +298,7 @@ def figure5_funnel_plot():
 
     # Simulate k=57 trim-and-fill imputed studies on the left
     rng = np.random.default_rng(seed=2026)
-    k_imputed = 57
+    k_imputed = 58
     r_imp  = rng.uniform(-0.25, 0.00, size=k_imputed)
     n_imp  = rng.uniform(50, 400, size=k_imputed)
     se_imp = np.sqrt(1.0 / (n_imp - 3))
@@ -330,17 +330,17 @@ def figure5_funnel_plot():
     ax.set_ylabel("Standard error (SE)", fontsize=10)
 
     ax.text(0.98, 0.04,
-            f"Egger: b = 0.487, p = .052\nBegg: τ = −0.132, p = .001",
+            f"Egger: b = 0.475, p = .057\nBegg: τ = −0.134, p = .0007",
             transform=ax.transAxes, fontsize=8.5,
             va="bottom", ha="right", style="italic")
 
     ax.legend(fontsize=8.5, loc="upper right")
     ax.set_title(
-        "Figure 5. Funnel Plot with Trim-and-Fill Correction\n"
-        f"k = {k_imputed} imputed; adj. r = {adj_r:.3f} [0.018, 0.051]",
+        "Figure 4. Funnel Plot with Trim-and-Fill Correction\n"
+        f"k = {k_imputed} imputed; adj. r = {adj_r:.3f} [0.023, 0.048]",
         fontsize=11, fontweight="bold", pad=8)
     fig.tight_layout()
-    _save(fig, "figure5_funnel_plot")
+    _save(fig, "figure4_funnel_plot")
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
@@ -350,6 +350,6 @@ if __name__ == "__main__":
           f"k = {K_STUDIES}, K = {K_EFFECTS}, I² = {I2_TOTAL}%\n")
     figure2_icrv_forest()
     figure3_dpl_phase()
-    figure4_sensitivity()
-    figure5_funnel_plot()
+    figure4_funnel_plot()
+    figure5_sensitivity()
     print("\nDone. 8 files written (PNG + PDF for each figure).")
