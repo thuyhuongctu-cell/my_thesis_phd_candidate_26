@@ -20,7 +20,7 @@
 
 ## 1. What matches (no action)
 - **Baseline numbers** identical across manuscript, dataset, results: k = 238 / K = 288,
-  r̄ = 0.074 [0.060, 0.088], I² = 62.4% (L2 = 54.1%, L3 = 8.4%).
+  r̄ = 0.074 [0.060, 0.088], I² = 87.8% (L2 = 76.1%, L3 = 11.8%).
 - **Hypothesis numbering** consistent: H1 = ICRV between-regime (confirmed, Q_M = 17.35, df = 4,
   p = .002); H2 = DPL phase (Q_M = 0.56, p = .755, ns); H3 = cDAI (Q_M = 1.23, p = .541, ns);
   H4 = publication bias (planned in prereg §9.3, elevated to a labelled hypothesis — acceptable).

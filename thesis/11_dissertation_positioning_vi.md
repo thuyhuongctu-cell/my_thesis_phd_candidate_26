@@ -318,7 +318,7 @@ heterogeneity?
 ✅ phân tích Việt Nam Vietnam — Nhóm IV (Lower_mid_transition), inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
 ✅ phân tích Singapore — Advanced I, inverted-U (TP ~82% FSTS), DAI Tier-1+2 moderation (draft → MIR)
 ✅ phân tích Trung Quốc China temporal 2012–2024
-✅ phân tích tổng hợp Meta-analysis three-level MARA k=238 (r=0.074, I²=62.4%, ICRV Q_M=17.35**)
+✅ phân tích tổng hợp Meta-analysis three-level MARA k=238 (r=0.074, I²=87.8%, ICRV Q_M=17.35**)
 ✅ phân tích đa quốc gia Asian capstone TCI+DAI multi-country (N=82,302, TP≈37%, DAI moderation p<.01)
 ✅ phân tích SIDS Thái Bình Dương Pacific SIDS Forced Penalty (REVISED, submit World Development)
 

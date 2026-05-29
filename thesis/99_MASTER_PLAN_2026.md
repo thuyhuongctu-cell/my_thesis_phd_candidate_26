@@ -111,7 +111,7 @@
 
 **Lựa chọn A — Nộp ngay với k=238 (ĐƯỢC, defensible):**
 - k=238 đã vượt ngưỡng 200+ thường yêu cầu cho meta-analysis
-- Kết quả đã ổn định: r̄=0.074 [0.060, 0.088], I²=62.4%, Q_M(ICRV)=17.35**
+- Kết quả đã ổn định: r̄=0.074 [0.060, 0.088], I²=87.8%, Q_M(ICRV)=17.35**
 - Rủi ro: Reviewer có thể hỏi về 782 papers đang chờ L2
 
 **Lựa chọn B — Chờ L2 extraction xong, nộp với k≥250 (LÝ TƯỞNG nhưng tốn thêm 2–3 tháng):**
@@ -241,7 +241,7 @@
 
 ### Chương 5 — Kết luận và Đề xuất (34K) 🟡
 **Nội dung đã có:** Tóm tắt kết quả, đóng góp lý thuyết/thực tiễn, hạn chế, hướng tương lai
-**Stats đã đúng:** k=238, r=0.074, I²=62.4%, Q_M=17.35
+**Stats đã đúng:** k=238, r=0.074, I²=87.8%, Q_M=17.35
 **✅ Claude đã làm (20/05/2026):**
 - ✅ §5.5.1 đã có đầy đủ DAI measurement constraint (website-only Tier-1) — đã kiểm tra
 - ✅ §5.6.1 đã đủ P3–P8 summary — đã kiểm tra

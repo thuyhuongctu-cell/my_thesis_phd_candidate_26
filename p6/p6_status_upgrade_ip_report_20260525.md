@@ -16,7 +16,7 @@
 
 ### A2. Kết quả nền (baseline)
 - Hiệu ứng gộp **r̄ = 0,074** (95% CI [0,060, 0,088], p < ,001).
-- Dị biệt **I² = 62,4%** (Tầng 2 trong-nghiên-cứu 54,1% — chủ đạo; Tầng 3 giữa-nghiên-cứu 8,4%).
+- Dị biệt **I² = 87,8%** (Tầng 2 trong-nghiên-cứu 76,1% — chủ đạo; Tầng 3 giữa-nghiên-cứu 11,8%).
 - Tái lập và mở rộng mốc ICBEF 2025 (r = 0,07, k = 113).
 
 ### A3. Kiểm định ba giả thuyết điều tiết

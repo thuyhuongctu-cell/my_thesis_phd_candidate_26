@@ -264,7 +264,7 @@ For use in thesis integration chapter and §6 Discussion cross-referencing:
 | P3 Vietnam | Frontier IV (3 waves) | TP ≈ 34.5% (R); 39.7% (Stata) | Inverted-U | ✓ |
 | P4 Singapore | Advanced I | TP ≈ 76–89% (wide CI) | Predominantly positive | ✓ saturation |
 | P5 China | Upper-mid III (2 waves) | TP ≈ 47.5% | Inverted-U | ✓ Paternoster p=.831 |
-| P6 Meta-analysis | All regimes (k=238) | r = 0.074, I² = 62.4%, Q_M=17.35 (df=4, p=.002) | Positive mean | ✓ ICRV Q-mod |
+| P6 Meta-analysis | All regimes (k=238) | r = 0.074, I² = 87.8%, Q_M=17.35 (df=4, p=.002) | Positive mean | ✓ ICRV Q-mod |
 | P7 Capstone | 45 economies (6 ICRV) | TP ≈ **37%** (M2: 37.1%, M5: 39.5%; M11 full: TP=25.7%, LM p=.026, N=28,500); N=82,302–98,658 | Inverted-U | ✓ ICRV Q-mod; DAI×ICRV p=.049 |
 | P8 Pacific SIDS | Nhóm VI | β(FSTS_c) = −0.404 (p=.032, country+year FE, N=1,469) | **NEGATIVE (FIP)** | ✓ Penalty |
 

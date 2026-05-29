@@ -12,7 +12,7 @@
 
 These files correspond to the **registered baseline pool**: **k = 238 studies / K = 288 effect
 sizes** (1982–2026), with the full three-level meta-analytic model already estimated
-(pooled r̄ = 0.074, 95% CI [0.060, 0.088]; total I² = 62.4%).
+(pooled r̄ = 0.074, 95% CI [0.060, 0.088]; total I² = 87.8%).
 
 A **formal WoS + Scopus search** to expand the pool to the preregistered target (**k ≥ 250**)
 is **in progress**; the final expanded dataset and the manuscript preprint will be added to

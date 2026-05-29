@@ -14,7 +14,7 @@ We are pleased to submit the above manuscript for consideration in *Management R
 
 **Key contributions.**
 
-First, this is the first three-level MARA applied to the I-P literature. Decomposing total heterogeneity (*I*² = 62.4%) shows that the dominant share is *within*-study (Level-2 *I*² = 54.1%) rather than *between*-study (Level-3 *I*² = 8.4%) — evidence that effect-size dispersion is driven more by within-paper design variation than by between-country contextual differences, which reframes how the field should interpret I-P heterogeneity.
+First, this is the first three-level MARA applied to the I-P literature. Decomposing total heterogeneity (*I*² = 87.8%) shows that the dominant share is *within*-study (Level-2 *I*² = 76.1%) rather than *between*-study (Level-3 *I*² = 11.8%) — evidence that effect-size dispersion is driven more by within-paper design variation than by between-country contextual differences, which reframes how the field should interpret I-P heterogeneity.
 
 Second, this is the first pre-registered meta-analytic test of ICRV institutional regime, national digital adoption (cDAI), and Digital Paradox Lifecycle phase as moderators of I-P. The hypothesized contingencies are largely *not* supported: the ICRV between-regime test is statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but reflects single- versus multi-country study composition rather than a monotone institutional gradient, while cDAI (*Q*_M = 1.23, *p* = .541) and DPL phase (*Q*_M = 0.56, *p* = .755) are non-significant. These transparent null results bound the conditions under which country-level digital and institutional contingencies could operate.
 

@@ -18,10 +18,10 @@ Một điểm đáng lưu ý là kết quả phân tích tổng hợp hoàn toà
 
 ### 4.1.2 Phân tích dị biệt ba tầng
 
-Kết quả quan trọng nhất của phân tích MARA không nằm ở giá trị điểm của $r$ mà ở cấu trúc của dị biệt ($I^2$). Tổng $I^2 = 62{,}4\%$ cho thấy mức dị biệt đáng kể trong tập hợp 238 nghiên cứu không bắt nguồn từ sai số lấy mẫu. Quan trọng hơn, khi phân tách theo cấu trúc ba tầng:
+Kết quả quan trọng nhất của phân tích MARA không nằm ở giá trị điểm của $r$ mà ở cấu trúc của dị biệt ($I^2$). Tổng $I^2 = 87{,}8\%$ cho thấy mức dị biệt đáng kể trong tập hợp 238 nghiên cứu không bắt nguồn từ sai số lấy mẫu. Quan trọng hơn, khi phân tách theo cấu trúc ba tầng:
 
-- **Tầng 2** (dị biệt giữa các mức độ ảnh hưởng trong cùng một nghiên cứu): chiếm $54{,}1\%$ tổng phương sai, đây là nguồn dị biệt chủ đạo.
-- **Tầng 3** (dị biệt giữa các nghiên cứu với nhau): chỉ chiếm $8{,}4\%$.
+- **Tầng 2** (dị biệt giữa các mức độ ảnh hưởng trong cùng một nghiên cứu): chiếm $76{,}1\%$ tổng phương sai, đây là nguồn dị biệt chủ đạo.
+- **Tầng 3** (dị biệt giữa các nghiên cứu với nhau): chỉ chiếm $11{,}8\%$.
 
 Phát hiện này mang hàm ý lý thuyết sâu sắc. Dị biệt trong tài liệu nghiên cứu về quan hệ giữa quốc tế hóa và hiệu quả hoạt động chủ yếu xuất phát từ biến thiên **bên trong từng nghiên cứu** (chẳng hạn cùng một mẫu doanh nghiệp nhưng dùng các thước đo khác nhau cho cùng một khái niệm lại cho kết quả khác nhau), chứ không phải từ sự khác biệt giữa các nghiên cứu. Điều này gợi ý rằng tính không nhất quán trong tài liệu nghiên cứu phần lớn là vấn đề **đo lường và bối cảnh**, chứ không phải bằng chứng về sự thiếu nhất quán thực sự trong quan hệ nhân quả giữa quốc tế hóa và hiệu quả.
 
@@ -249,7 +249,7 @@ Quan hệ âm đơn điệu này khác về bản chất so với quan hệ phi 
 
 Hiệu ứng tổng hợp $r = 0{,}074$ (phân tích tổng hợp) nhất quán hoàn toàn với $r = 0{,}07$ từ phân tích tổng hợp tham chiếu đã công bố tại hội nghị ICBEF 2024 (Đỗ & Phan, 2024). Sự hội tụ này đáng chú ý vì phân tích tổng hợp mở rộng tập nghiên cứu lên $k = 238$ so với $k = 113$, đồng thời áp dụng cấu trúc ba tầng phức tạp hơn. Tính vững của hiệu ứng tổng hợp khi mở rộng tập nghiên cứu là bằng chứng về độ ổn định của ước lượng tham chiếu.
 
-Tuy nhiên, đóng góp của phân tích tổng hợp so với mức tham chiếu không nằm ở giá trị $r$ tổng hợp mà ở cấu trúc dị biệt: việc phân tách $I^2 = 62{,}4\%$ thành 54,1\% ở tầng 2 và 8,4\% ở tầng 3 là thông tin mới mà phân tích tổng hợp đơn tầng không thể cung cấp. Phát hiện này làm thay đổi hiểu biết về nguồn gốc của dị biệt trong tài liệu nghiên cứu: vấn đề chủ yếu là **đo lường bên trong từng nghiên cứu**, chứ không phải sự bất đồng căn bản giữa các nghiên cứu.
+Tuy nhiên, đóng góp của phân tích tổng hợp so với mức tham chiếu không nằm ở giá trị $r$ tổng hợp mà ở cấu trúc dị biệt: việc phân tách $I^2 = 87{,}8\%$ thành 76,1\% ở tầng 2 và 11,8\% ở tầng 3 là thông tin mới mà phân tích tổng hợp đơn tầng không thể cung cấp. Phát hiện này làm thay đổi hiểu biết về nguồn gốc của dị biệt trong tài liệu nghiên cứu: vấn đề chủ yếu là **đo lường bên trong từng nghiên cứu**, chứ không phải sự bất đồng căn bản giữa các nghiên cứu.
 
 ### 5.2.2 Vượt qua Lu và Beamish (2004) và Contractor et al. (2003)
 
@@ -377,7 +377,7 @@ Luận án này được xây dựng trên tám nghiên cứu bổ sung cho nhau
 
 - **phân tích Trung Quốc**: phân tích Trung Quốc 2012–2024 (Upper-middle), xác nhận inverted-U ổn định theo thời gian (TP ≈ 48,78\%, Paternoster $z = 0{,}82$, $p = {,}412$).
 
-- **phân tích tổng hợp**: meta-analysis ba tầng mở rộng $k = 238$, $r = 0{,}074$, $I^2 = 62{,}4\%$ (54,1\% tầng 2 + 8,4\% tầng 3), ICRV moderation $Q_M = 17{,}35^{**}$ ($df = 4$, $p = {,}002$).
+- **phân tích tổng hợp**: meta-analysis ba tầng mở rộng $k = 238$, $r = 0{,}074$, $I^2 = 87{,}8\%$ (76,1\% tầng 2 + 11,8\% tầng 3), ICRV moderation $Q_M = 17{,}35^{**}$ ($df = 4$, $p = {,}002$).
 
 - **phân tích đa quốc gia**: kiểm định toàn mẫu châu Á và Thái Bình Dương $N = 82.302$ (M2) / $36.772$ (M3–M5 với controls), TP = 34,1–39,5% (M11 đầy đủ: TP = 25,7%, $p_\text{LM} = {,}026$), gradient ICRV xác nhận (độ cong sâu dần khi thể chế yếu đi; điểm uốn ~40%), TCI nâng mặt bằng phổ quát (+45%/SD), DAI điều tiết đường cong có ý nghĩa toàn mẫu và mạnh hơn tại thể chế yếu (DAI×ICRV $p = {,}049$).
 

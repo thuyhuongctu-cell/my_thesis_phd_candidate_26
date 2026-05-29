@@ -59,7 +59,7 @@
 | Studies (k) | 238 (verified baseline) |
 | Effect sizes (K) | 288 (pre-formal-search baseline) |
 | Baseline pooled r | .074 (95% CI [.060, .088]) |
-| I² total | 62.4% |
+| I² total | 87.8% |
 | Moderator tests | ICRV Q_M(4) = 17.35, p = .002; cDAI Q_M(2) = 1.23, p = .541; DPL Q_M(2) = 0.56, p = .755 |
 | Publication bias | trim-and-fill k = 58, adjusted r = .035 |
 

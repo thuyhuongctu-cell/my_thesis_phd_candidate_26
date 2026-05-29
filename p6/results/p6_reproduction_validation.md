@@ -11,7 +11,7 @@
 | Pooled r (baseline) | .074 [.060, .088] | .0742 [.060, .088] | ✓ |
 | σ² between-study (L3) | 0.00135 | 0.00135 | ✓ |
 | σ² within-study (L2) | 0.00874 | 0.00874 | ✓ |
-| I² total / L3 / L2 | 62.4 / 8.4 / 54.1 | 62.4 / 8.4 / 54.1 | ✓ |
+| I² total / L3 / L2 | 87.8 / 11.8 / 76.1 | 87.8 / 11.8 / 76.1 | ✓ |
 | Q (total) | 1909.42 (df 287) | 1909.42 (df 287) | ✓ |
 | ICRV Q_M | 17.35 (df 4, p = .002) | 17.35 (df 4, p = .0017) | ✓ |
 | ICRV Q_M — drop-FR sensitivity (k=3 Frontier removed) | — (new) | 1.49 (df 3, p = .68) → omnibus **not robust** | new |

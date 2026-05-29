@@ -143,8 +143,8 @@ def typical_v(v):
 
 def i2_decomp(fit, d: Data):
     """Two conventions for the 'typical' sampling variance s^2:
-      - mean_v : arithmetic mean of v_i  (what the manuscript/table1 used -> 62.4%)
-      - HT     : Higgins-Thompson / metafor diag(P) formula  (-> ~87.8%)
+      - HT     : Higgins-Thompson / metafor diag(P) formula (manuscript -> 87.8%)
+      - mean_v : arithmetic mean of v_i  (prior draft convention -> 62.4%)
     They differ sharply here because a few enormous-n studies (n up to 114k)
     collapse the HT typical variance. We report both and flag the convention.
     """
@@ -346,16 +346,17 @@ def main():
           f"95% CI [{fmt(base['r_lo'],3)}, {fmt(base['r_hi'],3)}]  p={base['p']:.2e}")
     print(f"  sigma2_within (L2) = {fmt(base['s2_within'],5)}   "
           f"sigma2_between (L3) = {fmt(base['s2_between'],5)}")
-    print(f"  I2 [mean-v convention, = manuscript] total = {fmt(base['I2_total'],1)}%  "
-          f"(L2 {fmt(base['I2_within_L2'],1)}%, L3 {fmt(base['I2_between_L3'],1)}%)")
-    print(f"  I2 [Higgins-Thompson / metafor-standard] total = {fmt(base['I2_total_HT'],1)}%  "
+    print(f"  I2 [Higgins-Thompson / metafor-standard, = manuscript] total = {fmt(base['I2_total_HT'],1)}%  "
           f"(L2 {fmt(base['I2_within_HT'],1)}%, L3 {fmt(base['I2_between_HT'],1)}%)")
+    print(f"  I2 [mean-v convention, prior draft] total = {fmt(base['I2_total'],1)}%  "
+          f"(L2 {fmt(base['I2_within_L2'],1)}%, L3 {fmt(base['I2_between_L3'],1)}%)")
     print(f"  Q_total = {fmt(base['Q'],2)}  df={base['Q_df']}  p={base['Q_p']:.2e}")
     recon += [
         ("pooled_r", base["r"], 0.074), ("ci_lo", base["r_lo"], 0.060),
-        ("ci_hi", base["r_hi"], 0.088), ("I2_total", base["I2_total"], 62.4),
-        ("I2_within_L2", base["I2_within_L2"], 54.1),
-        ("I2_between_L3", base["I2_between_L3"], 8.4),
+        ("ci_hi", base["r_hi"], 0.088),
+        ("I2_total_HT", base["I2_total_HT"], 87.8),
+        ("I2_within_HT_L2", base["I2_within_HT"], 76.1),
+        ("I2_between_HT_L3", base["I2_between_HT"], 11.8),
         ("sigma2_within", base["s2_within"], 0.00874),
         ("sigma2_between", base["s2_between"], 0.00135),
         ("Q_total", base["Q"], 1909.42),

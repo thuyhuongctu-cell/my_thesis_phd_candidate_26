@@ -10,7 +10,7 @@
 - **Scope label: minor.** ℹ️ See §3.
 
 ## 1. Numbers check — PASSED ✅
-The verified P6 values (r = .074; 95% CI [.060, .088]; I² = 62.4% = 54.1% L2 + 8.4% L3;
+The verified P6 values (r = .074; 95% CI [.060, .088]; I² = 87.8% = 76.1% L2 + 11.8% L3;
 ICRV Q_M = 17.35, df = 4, p = .002 — **but NOT robust: drop-FR core-regime Q_M = 1.49, df = 3,
 p = .68** (see table5_sensitivity.csv); cDAI Q_M = 1.23, p = .541 ns; DPL Q_M = 0.56, p = .755 ns;
 trim-and-fill k = 58 → r = .035, ~53%; Begg p = .0007; fail-safe N = 45,848; FR r̄ = .349, K = 3)
@@ -19,12 +19,22 @@ appear **correctly** in:
   "single- vs multi-country composition" hedge on Q_M.
 - `thesis/chuong_4_ket_qua_vi.md` (lines ~107–131) — incl. cDAI/DPL **correctly reported as
   non-significant**, the Frontier cell flagged as fragile (K = 3, one outlier), and ~53% bias.
-- `thesis/tom_tat_noi_dung_vi.md` (lines ~81, 277) — full split 54.1/8.4, trim-fill, fail-safe N.
+- `thesis/tom_tat_noi_dung_vi.md` (lines ~81, 277) — full split 76.1/11.8, trim-fill, fail-safe N.
 
-**The obsolete/contradictory numbers (I² > 80%, 65% between-study, Q_M = 18.4, Advanced r̄ = 0.21,
-Frontier −0.02, cDAI β = .089 "significant", J-curve, k = 235 / ~385, Asia-Pacific-only) were
-isolated to the old IBR cover letter / title page and have been fixed** (mrq_package rebuild). None
-leaked into the dissertation body.
+**The obsolete/contradictory numbers (an old mis-attribution of heterogeneity to the between-study
+level ≈ 65% L3, Q_M = 18.4, Advanced r̄ = 0.21, Frontier −0.02, cDAI β = .089 "significant", J-curve,
+k = 235 / ~385, Asia-Pacific-only) were isolated to the old IBR cover letter / title page and have
+been fixed** (mrq_package rebuild). None leaked into the dissertation body.
+
+> **I² convention update (2026-05-29).** Total $I^2$ was revised from 62.4% (arithmetic-mean-of-$v_i$
+> "typical variance" convention, prior draft) to **87.8%** (Higgins–Thompson typical-variance
+> estimator, the `metafor` multilevel default), with the decomposition revised from 54.1%/8.4% to
+> **76.1% L2 / 11.8% L3**. An independent Python re-analysis (`scripts/p6_reanalysis.py`) reproduces
+> all headline statistics from `data/p6_study_database.csv` (20/20 metrics; see
+> `results/reanalysis_reconciliation.csv`). The within-study-dominant story (L2 ≈ 6× L3) is
+> unchanged; only the magnitude and the typical-variance convention changed. The three-level total
+> (87.8%) is now essentially identical to the single-level ICBEF baseline (87.92%), with the
+> three-level model contributing the correct partition across levels rather than a different total.
 
 ## 2. Framing nuance — ICRV "gradient confirmed" vs "regimes differ" ⚠️
 Two consistent-but-differently-pitched framings coexist:

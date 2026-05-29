@@ -61,7 +61,7 @@
 - **KHÔNG** tải file PDF toàn văn của các nghiên cứu gốc (vi phạm bản quyền) — chỉ metadata/effect-size.
 
 ## Checklist trước khi public
-- [ ] Mọi số trong `5_Results/` khớp với bản thảo baseline (k=238/K=288, r̄=0.074, I²=62.4%).
+- [ ] Mọi số trong `5_Results/` khớp với bản thảo baseline (k=238/K=288, r̄=0.074, I²=87.8%).
 - [ ] `00_START_HERE.md` nêu rõ trạng thái "baseline; mở rộng đang tiến hành".
 - [ ] Tên tác giả + email đúng (bản ghi mở, không ẩn danh).
 - [ ] License đã đặt.
