@@ -208,7 +208,7 @@ Bằng chứng từ 238 nghiên cứu trong phân tích tổng hợp phân tích
 
 ### 5.6.3 Ý nghĩa đối với lý thuyết và thực tiễn
 
-Về lý thuyết, luận án đóng góp vào ba dòng nghiên cứu. Với dòng phân tích tổng hợp về quan hệ I-P, luận án phân tách cấu trúc dị biệt và cho thấy điều tiết thể chế trực tiếp ở cấp văn liệu là yếu/không bền vững, trong khi vai trò điều tiết của ICRV chỉ bộc lộ robust ở cấp doanh nghiệp qua tương tác có điều kiện. Với dòng nghiên cứu về năng lực số, luận án làm rõ rằng DAI là nguồn lực tình huống chứ không phải năng lực nền tảng. Và với dòng nghiên cứu về quốc tế hóa và các nền kinh tế đảo nhỏ, luận án đặt tên cùng cung cấp bằng chứng đầu tiên cho FIP.
+Về lý thuyết, luận án đóng góp vào ba dòng nghiên cứu. Với dòng phân tích tổng hợp về quan hệ I-P, luận án phân tách cấu trúc dị biệt và cho thấy điều tiết thể chế trực tiếp ở cấp văn liệu là yếu/không bền vững, trong khi vai trò điều tiết của ICRV chỉ bộc lộ vững chắc ở cấp doanh nghiệp qua tương tác có điều kiện. Với dòng nghiên cứu về năng lực số, luận án làm rõ rằng DAI là nguồn lực tình huống chứ không phải năng lực nền tảng. Và với dòng nghiên cứu về quốc tế hóa và các nền kinh tế đảo nhỏ, luận án đặt tên cùng cung cấp bằng chứng đầu tiên cho FIP.
 
 Về thực tiễn, luận án tạo cơ sở để nhà hoạch định chính sách và nhà quản trị doanh nghiệp ở từng bối cảnh ICRV hiệu chỉnh chiến lược quốc tế hóa cho phù hợp. Bài học từ Singapore hay Nhật Bản không nên áp dụng máy móc vào bối cảnh Việt Nam hay các nền kinh tế đảo nhỏ; thay vào đó, sự phụ thuộc bối cảnh cần được nhìn nhận như một nguyên lý căn bản trong hoạch định chiến lược quốc tế hóa.
 
