@@ -83,34 +83,40 @@ quy trình M-AIDA sinh ra đủ tin cậy cho nghiên cứu bình duyệt.
 
 ## 6. KIẾN TRÚC PHẦN MỀM
 
-### 6.1. Backend — FastAPI (Python 3.11+)
-- Framework: FastAPI 0.115, Uvicorn 0.30, Pydantic 2.7 (kiểm định dữ liệu).
-- Xử lý: PyMuPDF 1.24 (trích văn bản PDF); Anthropic Claude SDK 0.31 (pipeline LLM); pandas 2.2,
-  numpy 2.0, scipy 1.13 (xử lý thống kê); notion-client 2.2 (đồng bộ Notion).
-- Module: `main.py` (8 REST endpoint), `extractor.py` (lớp `StatisticalExtractor`), `models.py`
-  (mô hình Pydantic: `ExtractedEffect`, `StudyDatabaseEntry`, `VerificationDecision`),
-  `settings.py` (cấu hình runtime), `notion_sync.py` (đồng bộ hai chiều).
+M-AIDA v7.0 là **ứng dụng web một tệp (single-file), chạy hoàn toàn phía trình duyệt
+(client-side), không yêu cầu máy chủ, cơ sở dữ liệu ngoài hay khóa API**. Toàn bộ giao diện và
+logic xử lý nằm trong một tệp `MAIDA_intake.html` (HTML5 + JavaScript ES2017+), kèm thư viện
+PDF.js nạp từ CDN để đọc tệp PDF. Lựa chọn kiến trúc này nhằm tối đa hóa tính khả chuyển, khả
+năng tái lập và bảo mật dữ liệu (mọi dữ liệu lưu cục bộ trên trình duyệt, không truyền ra ngoài).
 
-### 6.2. Frontend — React 18 + TypeScript
-- `App.tsx` (bố cục hai tab Extract / Verify & Lock), `ExtractionPanel.tsx`,
-  `VerificationDashboard.tsx`, `VerificationPanel.tsx`, `ExportPanel.tsx`.
+Bốn lớp chức năng trong cùng một tệp:
+- **Lớp giao diện (Frontend):** bảng điều khiển học thuật ba khối — (01) Nạp tài liệu, (02) Ứng
+  viên trích xuất, (03) Dataset đã kiểm chứng — dựng thuần HTML/CSS, không framework.
+- **Lớp trích xuất (Extraction Engine):** hai chế độ — (i) `ruleExtract` theo biểu thức chính
+  quy (regular expression), chạy ngoại tuyến hoàn toàn; (ii) `aiExtract` dùng mô hình ngôn ngữ
+  lớn Claude qua API artifact `window.claude.complete` (trong môi trường claude.ai, không cần
+  khóa API); ngoài môi trường đó hệ thống tự chuyển về chế độ quy tắc.
+- **Lớp đọc tài liệu (PDF.js):** hàm `readPdf` rút văn bản trực tiếp từ PDF phi cấu trúc, ngay
+  trên trình duyệt.
+- **Lớp kiểm chứng & lưu trữ:** `renderCands`, `accept`, `renderDS`, `persist`, `loadStore` —
+  hiện thực quy trình human-in-the-loop; dữ liệu đã khóa lưu cục bộ (`window.storage` hoặc bộ
+  nhớ phiên), kết xuất CSV/JSON bằng `exportCSV` và trình tải JSON.
 
 ---
 
 ## 7. CHỨC NĂNG CHI TIẾT (ánh xạ theo quy trình phân tích tổng hợp)
 
-| Bước phân tích tổng hợp | Module M-AIDA | Endpoint |
+| Bước phân tích tổng hợp | Hàm/khối M-AIDA | Khối giao diện |
 |---|---|---|
-| Trích cỡ ảnh hưởng từ toàn văn | LLM extraction + quy đổi về *r* + chấm tin cậy | `POST /api/extract` |
-| Quản lý & lọc nghiên cứu | Study store (lọc theo ICRV/DPL/verified/locked) | `GET /api/studies` |
-| **Xác nhận của con người (PI)** | Override trường + phê duyệt + ghi chú | `PATCH /api/studies/{id}/verify` |
-| **Khóa toàn vẹn (không đảo ngược)** | Lock + dấu thời gian (audit trail) | `POST /api/studies/{id}/lock` |
-| Xuất dữ liệu chuẩn ma trận | CSV streaming (chỉ bản ghi đã khóa) | `GET /api/studies/export/csv` |
-| Đồng bộ cộng tác | Push lên Notion (upsert) | `POST /api/notion/sync` |
+| Nạp PDF/văn bản + siêu dữ liệu | `readPdf` (PDF.js), ô nhập tác giả/năm/quốc gia | 01 · Nạp tài liệu |
+| Trích cỡ ảnh hưởng từ toàn văn | `aiExtract` (Claude) / `ruleExtract` (offline) + quy đổi về *r* | 02 · Ứng viên trích xuất |
+| **Xác nhận của con người (PI)** | `renderCands` + `accept` (hiệu chỉnh trường, kiểm chứng từng mục) | 02 → 03 |
+| **Khóa toàn vẹn** | `accept` ghi bản ghi trạng thái `LOCK` kèm dấu thời gian (audit trail) | 03 · Dataset đã kiểm chứng |
+| Xuất dữ liệu chuẩn ma trận | `exportCSV` / trình tải JSON (chỉ bản ghi đã kiểm chứng) | 03 · nút Kết xuất |
 
-Trường xuất chuẩn: `study_id, paper_title, authors, year, country, sample_n, effect_r, effect_t,
-effect_beta, effect_df, p_value, ci_lower, ci_upper, doi_measure, performance_measure, icrv_regime,
-dpl_phase, cdai_score, extraction_confidence, pi_notes, locked_at`.
+Trường xuất chuẩn (CSV): `study_id, effect_id, author, year, country, r, n, fisher_z, measure,
+moderator, p, source`. Cấu trúc này tương thích với phần mềm phân tích tổng hợp tiêu chuẩn
+(metafor, CMA) và khớp ma trận dữ liệu của luận án.
 
 ---
 
@@ -122,13 +128,15 @@ dpl_phase, cdai_score, extraction_confidence, pi_notes, locked_at`.
 3. **Quy trình PI verify → irreversible lock** với audit trail — phân biệt rõ "bản nháp của máy" và
    "quyết định của nhà nghiên cứu", phù hợp luận án và nghiên cứu bình duyệt.
 4. **Lược đồ biến điều tiết độc quyền của luận án** (ICRV / cDAI / DPL) tích hợp sẵn.
-5. **Kiến trúc FastAPI + React 18/TypeScript** type-safe, container hóa bằng Docker.
+5. **Kiến trúc một-tệp client-side** không máy chủ: khả chuyển, tái lập và bảo mật cao (dữ liệu
+   không rời trình duyệt), phù hợp nộp kèm hồ sơ bản quyền dưới dạng một bản sao mã nguồn tự chứa.
 
 ## 9. CÔNG NGHỆ SỬ DỤNG
-Backend: Python 3.11+, FastAPI 0.115, Uvicorn 0.30, Anthropic Claude SDK 0.31 (model
-`claude-sonnet-4-6`), PyMuPDF 1.24, notion-client 2.2, pandas 2.2 / numpy 2.0 / scipy 1.13,
-pydantic 2.7. Frontend: TypeScript 5.x, React 18, build Vite. Triển khai: Docker (Dockerfile +
-docker-compose), CORS cấu hình cho phát triển.
+Một tệp `MAIDA_intake.html`: HTML5, JavaScript (ES2017+), CSS thuần (không framework); thư viện
+**PDF.js 3.11** (đọc PDF) nạp từ CDN; trích xuất AI dùng **Claude** qua API artifact
+`window.claude.complete` (model do môi trường claude.ai cung cấp, không nhúng khóa API trong mã
+nguồn). Không sử dụng máy chủ, cơ sở dữ liệu ngoài, hay bước biên dịch; chạy trực tiếp trên mọi
+trình duyệt hiện đại.
 
 ## 10. ĐỐI TƯỢNG NGƯỜI DÙNG
 Nghiên cứu sinh, giảng viên, nhóm nghiên cứu thực hiện tổng quan hệ thống và phân tích tổng hợp
@@ -160,6 +168,28 @@ Liên hệ cấp phép: [email tác giả]
 > 7.0.0) [Phần mềm máy tính]. Trường Đại học Cần Thơ. Số đăng ký bản quyền: [điền sau khi cấp].
 
 Siêu dữ liệu trích dẫn máy-đọc: xem `p6/tools/maida/CITATION.cff` (Citation File Format 1.2.0).
+
+---
+
+## PHỤ LỤC — DANH MỤC TỆP MÃ NGUỒN NỘP KÈM
+
+Chương trình được phân phối dưới dạng **một tệp mã nguồn độc lập, tự chứa** toàn bộ giao diện và
+logic xử lý, chạy trực tiếp trên trình duyệt. Bản sao điện tử của tệp này được nộp kèm hồ sơ.
+
+| Thuộc tính | Giá trị |
+|---|---|
+| Tên tệp | `MAIDA_intake.html` (`p6/tools/maida/`) |
+| Dung lượng | 23.285 byte (≈ 22,7 KB) |
+| Số dòng mã | 260 dòng |
+| Số hàm chính | 18 hàm |
+| Mã băm SHA-256 | `bd74600cc909e396daf0b33549debd081b6c990904f96a5976e9186c2e18d696` |
+| Ngôn ngữ | HTML5 + JavaScript (ES2017+); thư viện PDF.js 3.11 |
+
+Các nhóm hàm chính: **quy đổi đại lượng** (`t2r`, `beta2r`, `f2r`, `clampR`, `z`); **trích xuất**
+(`ruleExtract` ngoại tuyến, `aiExtract` qua Claude artifact); **đọc tài liệu** (`readPdf`);
+**kiểm chứng & quản lý dữ liệu** (`renderCands`, `accept`, `renderDS`, `persist`, `loadStore`);
+**kết xuất** (`exportCSV`, trình tải JSON). Mã băm SHA-256 cho phép đối chiếu tính toàn vẹn của
+bản sao điện tử nộp kèm với phiên bản gốc.
 
 ---
 

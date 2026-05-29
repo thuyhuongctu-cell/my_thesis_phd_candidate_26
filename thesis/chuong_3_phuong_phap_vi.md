@@ -37,6 +37,20 @@ Phân tích tổng hợp trong kinh doanh quốc tế đã được thiết lậ
 
 Bốn bước Nhận diện, Sàng lọc, Đủ điều kiện và Đưa vào theo hướng dẫn PRISMA 2020 (Page et al., 2021). Tiêu chí đưa vào: nghiên cứu thực nghiệm ở cấp doanh nghiệp, có đo lường quốc tế hóa và hiệu quả hoạt động, có đủ thống kê để tính độ lớn hiệu ứng (Pearson $r$, $\beta$, thống kê $t$).
 
+### 3.2.4 Công cụ trích xuất dữ liệu M-AIDA và chuỗi quy đổi hiệu ứng
+
+Bước trích xuất độ lớn hiệu ứng từ hàng trăm nghiên cứu sơ cấp dị biệt vừa chậm vừa dễ sai sót khi quy đổi giữa các dạng thống kê. Để tối ưu hóa khâu này mà vẫn bảo đảm tính chính xác khoa học, luận án phát triển và sử dụng **M-AIDA (Meta-Analysis Intelligent Data Assistant)**, một công cụ trích xuất bán tự động chuyên biệt cho quan hệ I-P do tác giả xây dựng (đã lập hồ sơ đăng ký quyền tác giả tại Cục Bản quyền Tác giả Việt Nam). M-AIDA vận hành theo nguyên lý **con người trong vòng lặp (human-in-the-loop)**: mô hình ngôn ngữ lớn hoặc bộ quy tắc biểu thức chính quy chỉ tạo ra *bản nháp* trích xuất kèm đoạn trích nguồn nguyên văn; nghiên cứu sinh chủ trì bắt buộc rà soát, hiệu chỉnh và xác nhận từng đại lượng, sau đó bản ghi mới được **khóa** kèm dấu thời gian để bảo đảm vết kiểm toán và khả năng tái lập. Tự động hóa rút ngắn thời gian, còn con người chịu trách nhiệm cuối cùng về tính hợp lệ của từng số liệu; do đó kết quả phân tích tổng hợp không lệ thuộc vào tính tự động của phần mềm.
+
+Khi hệ số tương quan Pearson $r$ không được báo cáo trực tiếp, M-AIDA áp dụng chuỗi quy đổi theo thứ tự ưu tiên về độ chính xác thống kê (Borenstein et al., 2009):
+
+| Bước | Công thức quy đổi về $r$ | Nguồn |
+|------|--------------------------|-------|
+| (i) | $r = \sqrt{t^2 / (t^2 + df)}$, giữ dấu theo chiều hệ số | Cohen (1988) |
+| (ii) | $r_{\text{partial}} = 0{,}98 \times \beta$ (từ hệ số hồi quy chuẩn hóa) | Peterson & Brown (2005) |
+| (iii) | $r = \sqrt{F / (F + df_2)}$, với $df_1 = 1$ | Rosenthal (1994) |
+
+Nghiên cứu chỉ báo cáo $\beta$ chưa chuẩn hóa mà không kèm thống kê $t$ và $df$ bị loại khỏi mẫu, trừ khi giá trị $p$ cho phép tối thiểu phân loại chiều hướng. Mọi $r$ sau đó được biến đổi sang thang Fisher $z = \tfrac{1}{2}\ln[(1+r)/(1-r)]$ để ổn định phương sai trước khi gộp (Hedges & Olkin, 1985); mọi giá trị $|r| \geq 1$ đều bị loại. Quy trình mã hóa và độ tin cậy liên mã hóa viên (Cohen's $\kappa \geq 0{,}70$) được trình bày chi tiết trong bài báo phân tích tổng hợp thành phần (P6).
+
 ## 3.3 Giai đoạn 2: Phân tích thực nghiệm đa quốc gia
 
 ### 3.3.1 Nguồn dữ liệu
