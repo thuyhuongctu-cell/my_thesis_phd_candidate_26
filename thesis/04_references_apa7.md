@@ -788,3 +788,17 @@ Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indica
 Peng, M. W. (2003). Institutional transitions and strategic choices. *Academy of Management Review, 28*(2), 275–296. https://doi.org/10.5465/amr.2003.9416341
 
 Teece, D. J. (1986). Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. *Research Policy, 15*(6), 285–305. https://doi.org/10.1016/0048-7333(86)90027-2
+
+## W. Cơ sở lý luận tự động hóa trích xuất tổng quan hệ thống (M-AIDA) — Bổ sung v3.2 (29/05/2026)
+
+> Năm entries này làm nền tảng phương pháp luận cho Mục 3.2.4 (công cụ M-AIDA): biện minh cho việc dùng trích xuất bán tự động có người trong vòng lặp. Tất cả đã được xác minh DOI.
+
+Gartlehner, G., Kahwati, L., Hilscher, R., Thomas, I., Kugley, S., Crotty, K., & Viswanathan, M. (2024). Data extraction for evidence synthesis using a large language model: A proof-of-concept study. *Research Synthesis Methods, 15*(4), 576–589. https://doi.org/10.1002/jrsm.1710 *(Mới v3.2 — LLM Claude trích xuất đạt độ chính xác cao; nhấn mạnh cộng hưởng người–LLM, nền tảng cho thiết kế human-in-the-loop của M-AIDA.)*
+
+Jonnalagadda, S. R., Goyal, P., & Huffman, M. D. (2015). Automating data extraction in systematic reviews: A systematic review. *Systematic Reviews, 4*(1), 78. https://doi.org/10.1186/s13643-015-0066-7 *(Mới v3.2 — tổng quan riêng về tự động hóa khâu trích xuất dữ liệu.)*
+
+Marshall, I. J., & Wallace, B. C. (2019). Toward systematic review automation: A practical guide to using machine learning tools in research synthesis. *Systematic Reviews, 8*(1), 163. https://doi.org/10.1186/s13643-019-1074-9 *(Mới v3.2 — hướng dẫn thực hành dùng machine learning trong tổng hợp bằng chứng.)*
+
+Mathes, T., Klaßen, P., & Pieper, D. (2017). Frequency of data extraction errors and methods to increase data extraction quality: A methodological review. *BMC Medical Research Methodology, 17*(1), 152. https://doi.org/10.1186/s12874-017-0431-4 *(Mới v3.2 — tỷ lệ lỗi trích xuất thủ công lên tới 50%; biện minh nhu cầu công cụ + kiểm chứng.)*
+
+Tsafnat, G., Glasziou, P., Choong, M. K., Dunn, A., Galgani, F., & Coiera, E. (2014). Systematic review automation technologies. *Systematic Reviews, 3*(1), 74. https://doi.org/10.1186/2046-4053-3-74 *(Mới v3.2 — khảo sát nền tảng các công nghệ tự động hóa tổng quan hệ thống.)*
