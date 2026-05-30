@@ -260,7 +260,7 @@ Funnel plot kiểm tra visually. Nếu asymmetry có ý nghĩa, report cả unad
 
 **Baseline ICBEF 2025**: $k=113$ studies, 200 effect sizes, coverage 1977–2022. Geographic distribution: châu Á (42%), đa quốc gia (28%), Tây (US/Europe, 30%). Industry: manufacturing (54%), services (31%), mixed (15%).
 
-**P6 UPDATED coded baseline**: $k=238$ studies, $K=288$ effect sizes, tổng cỡ mẫu cộng gộp $N=258,557$ firm-observations, coverage năm công bố 1978–2022. Đây là database đã có effect size và có thể dùng ngay cho three-level MARA; formal-search expansion pool từ WoS/Scopus được quản lý riêng trong worklist extraction.
+**P6 UPDATED coded baseline**: $k=238$ studies, $K=288$ effect sizes, tổng cỡ mẫu cộng gộp $N=258,557$ firm-observations, coverage năm công bố 1978–2026. Đây là database đã có effect size và có thể dùng ngay cho three-level MARA; formal-search expansion pool từ WoS/Scopus được quản lý riêng trong worklist extraction.
 
 **PRISMA flow hiện tại** (xem Phụ lục A và `p6/p6_prisma_flow.md`):
 - Identified from WoS: n = 2,180 records (API/search date: 18/05/2026); Scopus/OpenAlex/supplementary databases pending.
