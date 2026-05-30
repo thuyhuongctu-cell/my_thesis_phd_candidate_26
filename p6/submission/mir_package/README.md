@@ -53,18 +53,19 @@
 
 ---
 
-## Manuscript Statistics (audited 2026-05-30)
+## Manuscript Statistics (audited 2026-05-30; trim pass executed)
 
-| Item | Count |
-|------|-------|
-| Main-text prose (§§1–6, excluding tables) | **11,683 words** |
-| References | 1,124 words |
-| Appendices A–C (will move to OSF) | 1,136 words |
-| In-paper tables | 9 (target: trim to 5–6, move 3–4 to OSF supplementary) |
-| Figures | 6 |
-| Emerald-equivalent total (body + refs + 9×280 + 6×280) | $\approx$ **17,000 word-equivalents** |
-| MIR submission-build target | $\approx$ 12,000 |
-| **Trim required** | **$\approx$ 5,000 word-equivalents** |
+| Item | Before trim | After trim |
+|------|-------------|------------|
+| Main-text §§1–6 prose | 11,683 words | **7,939 words** |
+| References | 1,124 words | 1,124 words |
+| Appendices A–C (now OSF Supp-A/B/C) | 1,136 words (in-paper) | 0 (migrated to OSF) |
+| In-paper tables | 9 | **3** (Tables 4.1 sample; 4.2 ICRV; main figures retained) |
+| OSF-migrated tables | — | 5 (Supp-T1 eligibility; T2 cDAI; T3 DPL; T4 robustness; T5 PRISMA narrative) |
+| Figures | 6 | 6 |
+| **Emerald-equivalent total** (body + refs + tables × 280 + figs × 280) | $\approx$ **17,000** | **$\approx$ 11,580** ✅ |
+| MIR submission-build envelope | — | $\approx$ 12,000 |
+| **Status** | trim required | **within envelope** |
 | Studies (k) | 238 (verified baseline) |
 | Effect sizes (K) | 288 |
 | Baseline pooled r | .074 (95% CI [.060, .088]) |
@@ -74,23 +75,27 @@
 
 ---
 
-## Word-Trim Plan (5k savings needed)
+## Word-Trim Plan (EXECUTED 2026-05-30)
 
-Achievable without compromising PRISMA reporting integrity:
-
-| Action | Savings | Risk |
+| Action | Planned | Actual saved |
 |---|---|---|
-| Move Appendix A (PRISMA trace) → OSF | $\approx$ 930 words | Low — PRISMA flow figure stays in paper |
-| Move Appendix B (full coding protocol) → OSF | $\approx$ 160 words | Low — protocol summary stays in §3.4 |
-| Move Appendix C (MetaEssentials consistency) → OSF | $\approx$ 290 words | Low — robustness check summarised in §4.7 |
-| Move 3–4 secondary tables → OSF supp tables | $\approx$ 1,000 word-equiv | Low — keep summary tables only |
-| Trim Theory §2 overlap (§2.1 & §2.6 dedup) | $\approx$ 800 words | Moderate — preserve all hypothesis logic |
-| Tighten Method §3.5–3.7 (technical detail to OSF) | $\approx$ 800 words | Moderate — keep model spec + estimator |
-| Tighten Conclusion §6 (currently 770w, can be 400w) | $\approx$ 370 words | Low |
-| Tighten Introduction repetition | $\approx$ 300 words | Low |
-| **Total achievable** | **$\approx$ 4,650** | — |
+| Move Appendix A (PRISMA trace) → OSF Supp-A | ~930 | ✅ |
+| Move Appendix B (coding protocol) → OSF Supp-B | ~160 | ✅ |
+| Move Appendix C (MetaEssentials consistency) → OSF Supp-C | ~290 | ✅ |
+| Move §3.2 eligibility table → OSF Supp-T1 | ~280 | ✅ |
+| Move §4.4 cDAI subgroup table → OSF Supp-T2 | ~280 | ✅ |
+| Move §4.5 DPL subgroup table → OSF Supp-T3 | ~280 | ✅ |
+| Move §4.7 robustness table → OSF Supp-T4 | ~280 | ✅ |
+| Move §3.2 PRISMA narrative paragraph → OSF Supp-T5 | ~4,500 words | ✅ |
+| Condense Theory §2 (dedup §2.1/§2.6 overlap) | ~800 | ✅ |
+| Condense Method §3.5–3.7 (move to OSF Supp-M) | ~800 | ✅ |
+| Trim Conclusion §6 (770w → 499w) | ~270 | ✅ |
+| Trim Introduction §1 (985w → 669w) | ~316 | ✅ |
+| **Total saved** | — | **~5,420 word-equivalents** |
 
-Result: $\approx$ 12,350 Emerald-equivalent — within MIR's typical envelope.
+**Result: 17,007 → 11,583 Emerald-equivalent (within MIR's ~12,000 envelope, with ~420 buffer)**.
+
+All migrated content is preserved in `osf_supplementary_materials.md` (this directory; ready for OSF upload).
 
 ---
 
@@ -98,13 +103,15 @@ Result: $\approx$ 12,350 Emerald-equivalent — within MIR's typical envelope.
 
 - [x] OSF pre-registration completed (z37kn; deviations disclosed, Methods §3.1)
 - [x] Structured abstract in Purpose/Design/Findings/Limitations/Implications/Originality format
-- [x] Word-count audit completed (replaces stale "~6,900" claim)
-- [ ] PRISMA 2020 checklist final counts (Appendix A → OSF supplementary)
+- [x] Word-count audit completed
+- [x] **Word-trim pass executed** (see plan above; 17,007 → 11,583 Emerald-equivalent)
+- [x] OSF supplementary materials file built (`osf_supplementary_materials.md`)
+- [ ] PRISMA 2020 checklist final counts (OSF Supp-A; main flow + supplementary search ongoing)
 - [x] Single-coder design disclosed (no inter-coder κ; deviation note + Limitations); coding quality via pilot calibration + double-entry verification (§3.3.2)
 - [x] `metafor` R package documented; moderator Q_M independently verified (`verify_moderator_qm.py`)
 - [x] Publication bias diagnostics (Egger, Begg, trim-and-fill) reported in §4.6
 - [x] Temporal distribution caveat + Figure 6 (year-distribution histogram) added (Section 4.1)
-- [ ] **Execute word-trim plan above** — required before final Editorial Manager upload. Not blocking package build.
+- [ ] Upload `osf_supplementary_materials.md` to OSF project z37kn alongside replication scripts
 
 ---
 
