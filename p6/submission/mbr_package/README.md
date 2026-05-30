@@ -1,5 +1,12 @@
-# MBR Submission Package
+# MBR Submission Package — DEMOTED TO BACKUP (2026-05-30)
 ## Multinational Business Review — Emerald (Scopus Q2; ABS-2; IB-focused)
+
+> **STATUS: Backup target.** Primary is now `mir_package/` (Management International Review,
+> ABS-3, Springer Q1) after word-count audit revealed the manuscript is $\approx$ 11,700 prose
+> words / $\approx$ 17,000 Emerald-equivalent — nearly double MBR's $\approx$ 8,000-word cap.
+> Submitting to MBR would require near-halving the paper, which is incompatible with PRISMA
+> reporting integrity for a meta-analysis. This package is kept as a *fast-decision backup*
+> (2–3 months) in case MIR rejects without R&R; a substantial trim pass would be required first.
 
 **Manuscript:** "Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis"
 

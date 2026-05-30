@@ -3,8 +3,8 @@
 **Đỗ Thị Thúy Hương** · Can Tho University / Huong Do Thi Thuy
 **Phan Anh Tú** · Can Tho University
 
-*Manuscript prepared for: Multinational Business Review (MBR; Emerald, Scopus Q2, ABS-2)*
-*Version 1.1, May 2026 (target journal submission: Q3 2026)*
+*Manuscript prepared for: Management International Review (MIR; Springer, Scopus Q1, ABS-3)*
+*Version 1.2, May 2026 (target journal submission: Q3 2026)*
 
 ---
 
@@ -771,5 +771,5 @@ Final k/K will increase further as new L2 extraction from 2,032 new candidates
 
 ---
 
-*Word count (main text, excluding tables, references, appendices): $\approx$ 6,900 words.*
-*Target journal: Multinational Business Review (Emerald; Scopus Q2, ABS-2). MBR accommodates IB-focused meta-analyses up to 8,000 words total (including refs and appendices); main-text streamlining and appendix migration to OSF supplementary materials are planned for the submission build to meet this cap. Analyses use the verified baseline corpus (k = 238 studies, K = 288 effect sizes); the formal WoS/Scopus search expansion is ongoing and will be incorporated at revision. Effect-size coding follows the standardized protocol (Appendix B; full coded database lodged on OSF).*
+*Word count (main text prose, excluding tables, references, appendices): $\approx$ 11,700 words. Emerald-effective total (body + references + 9 tables × 280 + 6 figures × 280): $\approx$ 17,000 word-equivalents.*
+*Target journal: Management International Review (MIR; Springer, Scopus Q1, ABS-3). MIR accommodates substantive IB-focused meta-analyses up to $\approx$ 12,000 words total; the submission build migrates Appendices A–C and a subset of tables to OSF supplementary materials, with light streamlining of Theory §2 overlap and Method §3.5–3.7 to meet this cap. Analyses use the verified baseline corpus (k = 238 studies, K = 288 effect sizes); the formal WoS/Scopus search expansion is ongoing and will be incorporated at revision. Effect-size coding follows the standardized protocol (Appendix B; full coded database lodged on OSF).*

@@ -1,5 +1,11 @@
-# MRQ Submission Package
+# MRQ Submission Package — DEMOTED TO BACKUP (2026-05-30)
 ## Management Review Quarterly — Springer (Scopus Q1; systematic reviews & meta-analyses)
+
+> **STATUS: Backup target.** Primary is now `mir_package/` (Management International Review,
+> ABS-3, Springer Q1). MRQ remains a strong backup because it has no rigid word cap
+> and specialises in meta-analyses — useful if MIR rejects on word-count grounds or if
+> the trim-to-12k pass is not completed in time for the Q3 2026 window. MRQ would not
+> require any trim of the current $\approx$ 17,000 Emerald-equivalent manuscript.
 
 **Manuscript:** "Does Country Context Shape the Internationalization–Performance Link? A Three-Level Meta-Analytic Investigation of Digital Adoption, Institutional Regimes, and the Digital Paradox Lifecycle"
 
