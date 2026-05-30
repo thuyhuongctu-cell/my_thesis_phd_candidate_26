@@ -22,9 +22,11 @@
 
 | File | Description | Submits as |
 |------|-------------|------------|
-| `01_manuscript_blinded.docx` | Main manuscript — author info removed | Manuscript (blinded) |
+| `01_manuscript_blinded.docx` | Main manuscript (EN) — author info removed | Manuscript (blinded) |
+| `01_manuscript_blinded_vi.docx` | Vietnamese version (blinded) for committee defense and supervisor review — NOT for journal submission | Local academic record |
 | `02_title_page.docx` | Title page with author details, CRediT, data availability | Title page |
 | `03_cover_letter.docx` | Cover letter to Editors-in-Chief | Cover letter |
+| `osf_supplementary_materials.md` | Supp-A through Supp-M (full PRISMA flow, coding protocol, all OSF-migrated tables) | OSF upload |
 | `figures/figure_1_conceptual_model.png` | Conceptual model — three-level MARA with ICRV, cDAI, DPL | Figure 1 |
 | `figures/figure2_icrv_forest.png` | ICRV 5-regime forest plot with 95% CI | Figure 2 |
 | `figures/figure3_dpl_phase.png` | DPL phase moderation — I-P effect by digital epoch | Figure 3 |
