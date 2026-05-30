@@ -1,0 +1,33 @@
+study_id,effect_id,author,year,r,n,country,sample_start,sample_end,icrv,icrv_std,cdai,dpl,doi_type,fp_type,include_flag,is_estimated,notes,_sample_stratum
+S27,S27,Richter,2007,-0.058,85,Germany,2000,2004,I,1,L,PRE,FSTS,ACC,1,0,,I
+S04,S04,McDougall & Oviatt,1996,-0.03,62,USA,1988,1993,I,1,L,PRE,EXP,ACC,1,0,New ventures,I
+S107,S107_e1,Song & Lee,2021,0.05,44,Korea,2014,2019,I,1,H,FOL,FSTS,ACC,1,0,,I
+S87,S87,Hojnik et al.,2018,0.035,267,Slovenia,2010,2015,I,1,M,SPN,EXP,ACC,1,0,Slovenia; 7 eff,I
+S61,S61,Graves & Shan,2014,-0.07,4217,Australia,2007,2012,I,1,M,SPN,FSTS,ACC,1,0,Large sample,I
+S34,S34,Garbe & Richter,2009,-0.085,85,Germany,2002,2006,I,1,L,PRE,FSTS,ACC,1,0,3 effects,I
+S23,S23_e2,Chari et al.,2007,0.37,131,USA,2000,2004,I,1,L,PRE,COMP,MIX,1,0,JWB 2 effects,I
+S20,S20_e1,Elango,2006,0.125,326,USA,1998,2003,I,1,L,PRE,FSTS,MIX,1,0,MBR 2 subsamples,I
+S153,S153_e2,Wan & Hoskisson,2003,0.13,244,Multi,1988,1997,I,1,L,PRE,GEO,ACC,1,0,AMJ; home country institutions,I
+S05,S05_e2,Tallman & Li,1996,0.19,192,USA,1987,1991,I,1,L,PRE,GEO,ACC,1,0,AMJ,I
+S05,S05_e1,Tallman & Li,1996,0.01,192,USA,1987,1991,I,1,L,PRE,GEO,ACC,1,0,AMJ,I
+S20,S20_e2,Elango,2006,0.226,393,USA,1998,2003,I,1,L,PRE,FSTS,MIX,1,0,MBR 2 subsamples,I
+S68,S68,Benito-Osorio et al.,2015,-0.09,2748,Spain,2007,2012,II,2,L,SPN,EXP,ACC,1,0,Spanish mfg large,II
+S72,S72,Brida et al.,2016,-0.032,82,Italy,2009,2014,II,2,L,SPN,FSTS,ACC,1,0,Italy hotels,II
+S190,S190,"Phan, Ninh & Do",2021,-0.04,263,Turkey mfg,2013,2016,II,2,M,SPN,FSTS,ACC,1,1,IntechOpen; WBES Turkey; FGLS; manager experience moderator,II
+S211,S211,Olmos & Díez-Vial,2015,0.07,200,Spain,2004,2010,II,2,M,SPN,EXP,ACC,1,1,EJM; SME intl paths Spain,II
+S14,S14_e1,Majocchi & Zucchella,2003,0.06,220,Italy,1997,2000,II,2,L,PRE,EXP,ACC,1,0,Italian SMEs,II
+S194,S194,Godbole,2024,0.08,120,India listed family,2015,2022,III,3,M,FOL,COMP,MIX,1,1,BSD 7(3); NIFTY500 family firms; GMM; financial+innovation,III
+S82,S82,Purkayastha et al.,2017,0.029,185,India,2010,2015,III,3,L,SPN,FSTS,ACC,1,0,India conglomerates,III
+S221,S221,Vithessonthi & Racela,2016,0.05,400,Thailand,2000,2013,III,3,M,SPN,FSTS,ACC,1,1,JMFM; short/long-run Thailand,III
+S229,S229,Azman et al.,2022,0.09,200,Malaysia,2010,2020,III,3,H,FOL,COMP,LAB,1,1,JMgmtEng; Malaysia construction,III
+S188,S188,Do & Phan,2025,-0.045,380,India mfg,2013,2018,III,3,M,FOL,FSTS,ACC,1,0,IntechOpen; India WBES; FGLS; ROS; manager moderator; r confirmed Table 3,III
+S157,S157,Boehe & Cruz,2010,0.18,168,Brazil,2000,2006,III,3,L,SPN,EXP,ACC,1,0,JBE; CSR differentiation,III
+S89,S89_e2,Velez-Calle et al.,2018,0.05,147,Latin America,2011,2016,III,3,L,SPN,FSTS,ACC,1,0,Latin Am. MNEs,III
+S164,S164,"Gao, Murray, Kotabe & Lu",2010,0.13,105,China,2000,2005,III,3,M,SPN,FSTS,ACC,1,0,JIBS; strategy tripod China,III
+S206,S206,Espinosa-Méndez & Jara,2021,0.04,150,Chile,2009,2018,III,3,M,FOL,GEO,ACC,1,1,SJFC; Chile family firm,III
+S69,S69,Altaf & Shah,2016,0.08,180,Pakistan,2009,2014,FR,6,L,SPN,EXP,ACC,1,0,Pakistan firms,FR
+S86,S86,Pouresmaeili et al.,2018,0.69,226,Iran,2011,2016,FR,6,L,SPN,EXP,ACC,1,0,Iran SMEs high r,FR
+S212,S212,"Phan, Tran & Lu",2020,0.03,90,Cameroon,2013,2018,FR,6,L,SPN,FSTS,ACC,1,1,DSL; W-shaped Cameroon,FR
+S75,S75_e2,Mohr & Batsakis,2016,0.05,110,Multi,2008,2014,MX,0,M,SPN,FSTS,ACC,1,0,Internation speed,MX
+S230,S230,Bhandari et al.,2023,0.1,300,Multi,2014,2022,MX,0,H,FOL,FSTS,MKT,1,1,IBR; digitalization OLI,MX
+S234,S234,Yip et al.,2000,0.06,150,Multi,1992,1998,MX,0,L,PRE,COMP,ACC,1,1,JIM; newly internationalizing firms,MX
