@@ -1,0 +1,14 @@
+{
+  "tracker_total": 2510,
+  "y_eligible": 785,
+  "n_excluded_total": 1722,
+  "unsure": 3,
+  "y_with_doi": 741,
+  "y_with_pdf": 133,
+  "y_ready_for_r": 27,
+  "baseline_coded_k": 238,
+  "baseline_coded_K": 288,
+  "extraction_pending": 547,
+  "auto_fetchable_upper_bound": 503,
+  "manual_required": 44
+}

@@ -12,8 +12,8 @@ This document collects the methodological appendices and secondary tables migrat
 
 ## Supp-A. PRISMA 2020 Flow Diagram and Screening Trace
 
-> **This flow documents two paths. Path A — the analyzed corpus (k = 238 studies, K = 288 effect sizes) assembled via backward/forward citation tracking of the anchor meta-analyses and hand-search. Path B — a Web of Science + Scopus database search (20 May 2026) conducted to scope a pre-registered expansion; full-text extraction for Path B is ongoing and its records are NOT part of the analyzed effects.**
-> Follows PRISMA 2020 (Page et al., 2021). Numbers marked ✓ are confirmed. Path A (analyzed corpus): supplementary records screened $\approx$ 497 (backward citation scan of anchor meta-analyses $\approx$ 478 + hand-search n = 19) to included k = 238, K = 288.
+> **This flow documents two paths. Path A — the analyzed corpus (k = 238 studies, K = 288 effect sizes) assembled via backward/forward citation tracking of the anchor meta-analyses and hand-search; extraction COMPLETE. Path B — a Web of Science + Scopus database search (20 May 2026); 785 Y records identified through 8-round L2 screening, with 547 records pending full-text extraction (scheduled for revision/Round 2). Path B records are NOT part of the analyzed effects in the current article.**
+> Follows PRISMA 2020 (Page et al., 2021). Numbers marked ✓ are confirmed against tracker v3 (snapshot 30 May 2026). Path A (analyzed corpus): supplementary records screened $\approx$ 497 (backward citation scan of anchor meta-analyses $\approx$ 478 + hand-search n = 19) to included k = 238, K = 288. **See `figure_prisma_2020_flow.png` (manuscript Figure 7) for the visual two-path diagram and `prisma_extraction_pipeline_status.md` for the current Path-B extraction-pipeline status report.**
 
 ```
 IDENTIFICATION
@@ -257,6 +257,74 @@ Level-2 title screen of 782 records (18 May 2026) yielded 345 Y, 35 N, 402 UNSUR
 Total L2 Y (WoS arm) = 565 (= 345 + 135 + 30 + 25 + 15 + 4 + 8 + 0 + 3). Active extraction pool: 535 reviewed; eligible for extraction = 435 (rule-based pre-screen v5: Y = 435 [81.3%], N = 100 [18.7%], UNSURE = 0). Canonical working file: `fulltext_to_extraction_tracker_v3.csv` (2,467 rows × 58 cols). Status snapshot (21 May 2026): Y = 674, N = 728, UNSURE = 1,065 pending Semantic Scholar abstract retrieval; ready_for_r = 3 (sequences 477, 1549, 1753). ICRV auto-coding via affiliation detection (`51_icrv_from_s2_affiliations.py`) resolved 17 of 370 blank-ICRV Y papers; 267 remain pending manual assignment or full-text review.
 
 The analyzed corpus for the present article is *k* = 238 / *K* = 288 from anchor-meta-analysis citation tracking and hand-search; the database-search screening above belongs to a pre-registered expansion whose full-text extraction is ongoing and is not part of the analyzed effects.
+
+---
+
+## Supp-T6. Path B Extraction Pool — Composition (snapshot 30 May 2026)
+
+### Year distribution of 785 Y records pending or partially complete
+| Period | Count | Pct |
+|---|---|---|
+| < 1990 | 5 | 0.6% |
+| 1990–1999 | 12 | 1.5% |
+| 2000–2009 | 105 | 13.4% |
+| 2010–2019 | 326 | 41.5% |
+| 2020–2026 | 337 | 42.9% |
+
+The pending pool is concentrated in the 2010–2026 window (84.5%), which would substantially strengthen DPL Follow-phase representation (currently *K* = 80) and Span-phase representation (currently *K* = 108) once extracted.
+
+### Preliminary ICRV classification (affiliation auto-detection only)
+| ICRV code | Count | Note |
+|---|---|---|
+| 0 (unclassified, pending manual review) | 389 | Largest group; requires sample-country verification |
+| 1 (Advanced-Innovation) | 181 | Would add to current Path A *K* = 139 |
+| 2 (Upper-middle) | 139 | 5.5× expansion potential vs. current *K* = 25 |
+| 3 (Emerging) | 67 | Would add to current Path A *K* = 91 |
+| 6 (Pacific SIDS) | **6** | **Currently *K* = 0 in Path A — most consequential** |
+| 4 (Frontier/LDC) | 3 | Currently *K* = 3 in Path A |
+
+The Pacific-SIDS auto-detection of 6 records is the most consequential preliminary finding: it suggests the SIDS regime (currently *K* = 0) may be populatable, directly addressing the manuscript's §5.4 (a)(1) limitation.
+
+### Top journals in pending Y pool (n = 15)
+| Journal | n |
+|---|---|
+| International Business Review | 28 |
+| Management International Review | 18 |
+| Journal of International Business Studies | 15 |
+| Journal of Business Research | 14 |
+| Global Strategy Journal | 13 |
+| Journal of International Management | 12 |
+| Multinational Business Review | 12 |
+| Journal of World Business | 11 |
+| International Marketing Review | 11 |
+| European Journal of International Management | 11 |
+| International Journal of Emerging Markets | 10 |
+| Review of International Business and Strategy | 10 |
+| Thunderbird International Business Review | 10 |
+| Strategic Management Journal | 10 |
+| Journal of Korea Trade | 9 |
+
+These are the field's anchor IB journals; their inclusion would substantially raise corpus quality and quartile mix at Round 2.
+
+### Full-text retrieval status
+| Status | Count | Pct of 785 Y |
+|---|---|---|
+| Records with DOI (auto-fetch eligible) | 741 | 94.4% |
+| PDFs retrieved locally | 133 | 16.9% |
+| Extraction-ready data populated | 27 | 3.4% |
+| **Pending full-text extraction (785 Y minus 238 Path A overlap)** | **547** | 69.7% |
+
+### Estimated effort to complete Path B extraction
+| Estimate | Value |
+|---|---|
+| Records pending | 547 |
+| Per-paper effort (effect size + 7 moderators + double-entry) | 30–60 min |
+| Total reviewer-hours | 270–550 hours |
+| Single reviewer @ 20 h/week | 14–28 weeks (~3–6 months) |
+| With inter-coder reliability (20% double-coded, Cohen's κ ≥ 0.70) | + 1 month |
+
+### Implication for current submission
+At Round 2 with Path B extraction complete, *k* would plausibly rise from 238 to ~600–700 (if 60–70% of pending records survive full-text review), powering definitive tests of (i) H1 ICRV gradient with a populated Frontier/SIDS cell, (ii) H4 publication-bias estimate at scale, and (iii) the cDAI × DPL interaction at higher per-cell density.
 
 ---
 
