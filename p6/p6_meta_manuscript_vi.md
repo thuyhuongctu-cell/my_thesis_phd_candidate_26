@@ -4,13 +4,13 @@
 **Phan Anh Tú**, Trường Đại học Cần Thơ
 
 *Bản thảo chuẩn bị nộp: Management International Review (MIR; Springer, Scopus Q1, ABS-3)*
-*Phiên bản 1.2, tháng 5/2026 (mục tiêu nộp tạp chí: Q3 2026)*
+*Phiên bản 1.3, tháng 5/2026 (mục tiêu nộp tạp chí: Q3 2026; v1.3 đồng bộ với các sửa chữa adversarial-review)*
 
 ---
 
 ## Tóm tắt
 
-**Mục đích.** Nghiên cứu này báo cáo phân tích tổng hợp hồi quy ba cấp (three-level meta-analytic regression analysis — MARA) đầu tiên về quan hệ quốc tế hóa, hiệu quả hoạt động kinh doanh (I-P) nhằm kiểm định liệu áp dụng số cấp quốc gia (country-level digital adoption — cDAI), chế độ bối cảnh thể chế (institutional context regime — ICRV), và giai đoạn Vòng đời Nghịch lý Số (Digital Paradox Lifecycle — DPL) có điều tiết quan hệ này trên một corpus đại diện toàn cầu hay không.
+**Mục đích.** Nghiên cứu này báo cáo phân tích tổng hợp hồi quy ba cấp (three-level meta-analytic regression analysis — MARA) đầu tiên về quan hệ quốc tế hóa, hiệu quả hoạt động kinh doanh (I-P) nhằm kiểm định liệu áp dụng số cấp quốc gia (country-level digital adoption — cDAI), chế độ bối cảnh thể chế (institutional context regime — ICRV), và giai đoạn Vòng đời Nghịch lý Số (Digital Paradox Lifecycle — DPL) có điều tiết quan hệ này trên một corpus đa dạng địa lý (nghiêng về kinh tế Tiên tiến) hay không.
 
 **Thiết kế/phương pháp/cách tiếp cận.** Tuân theo PRISMA 2020, tổng quan hệ thống kết hợp truy ngược và truy xuôi trích dẫn của năm meta-analysis neo cùng với hand-search đã tập hợp một corpus phân tích gồm *k* = 238 nghiên cứu và *K* = 288 cỡ hiệu ứng từ 49 nền kinh tế; bổ sung tìm kiếm cơ sở dữ liệu Web of Science và Scopus (1977–2026) được thực hiện để xác định phạm vi cho phần mở rộng đã tiền đăng ký, hiện đang trong quá trình trích xuất toàn văn. MARA ba cấp phân tách dị biệt trong-nghiên-cứu và giữa-nghiên-cứu bằng gói *metafor*, với tiền đăng ký các giả thuyết và kế hoạch phân tích trên OSF.
 
@@ -42,7 +42,7 @@ Quan hệ giữa mức độ quốc tế hóa của doanh nghiệp và hiệu qu
 
 Bài viết này giải quyết cả ba khoảng trống thông qua tìm kiếm hệ thống mở rộng cơ sở ICBEF 2025 từ *k* = 113 lên *k* = 238 (49 nền kinh tế; *K* = 288 cỡ hiệu ứng), kết hợp MARA ba cấp phân tách dị biệt vượt khả năng của các mô hình hiệu ứng ngẫu nhiên thông thường.
 
-**Đóng góp.** *Về phương pháp*: (1) MARA ba cấp đầu tiên cho tài liệu I-P; (2) tìm kiếm hệ thống đầu tiên tuân thủ PRISMA 2020 kèm tiền đăng ký OSF cho chủ đề này; (3) phân tách dị biệt trong-nghiên-cứu và giữa-nghiên-cứu đầu tiên cho I-P. *Về lý thuyết*: (4) kiểm định meta-analytic đầu tiên về khung ICRV 6 chế độ trên corpus I-P đại diện toàn cầu (5 trong 6 chế độ có dữ liệu; Chế độ VI Pacific-SIDS không có nghiên cứu đủ tiêu chuẩn); (5) kiểm định chính thức đầu tiên về cDAI với vai trò biến điều tiết cấp quốc gia về hạ tầng số của I-P; (6) kiểm định đầu tiên về giai đoạn DPL với vai trò biến điều tiết thời gian qua MARA ba cấp. Việc không xác nhận E1a/E1b, H2 và H3, hiện tượng Frontier dị thường, và mức hiệu chỉnh thiên lệch công bố đáng kể, bản thân chúng là thông tin có giá trị, định nghĩa giới hạn điều kiện mà các biến điều tiết này có thể hoạt động và thúc đẩy cách diễn giải *Bất tương thích Năng lực, Bối cảnh*: một bối cảnh số vĩ mô là vô hiệu đối với I-P trừ khi đi kèm năng lực số ở cấp doanh nghiệp.
+**Đóng góp.** *Về phương pháp*: (1) MARA ba cấp đầu tiên cho tài liệu I-P; (2) tìm kiếm hệ thống tuân thủ PRISMA 2020 kèm tiền đăng ký OSF cho chủ đề này. *Về lý thuyết*: (3) kiểm định meta-analytic chính thức đầu tiên về ICRV 6 chế độ, cDAI cấp quốc gia, và giai đoạn DPL với vai trò biến điều tiết trên corpus 49 nền kinh tế đa dạng địa lý (nghiêng về Tiên tiến). Việc không xác nhận E1a/E1b, H2 và H3, hiện tượng Frontier dị thường, và mức hiệu chỉnh thiên lệch công bố đáng kể, bản thân chúng là thông tin có giá trị, định nghĩa giới hạn điều kiện mà các biến điều tiết này có thể hoạt động.
 
 **Các phát hiện chính.** Cơ sở *r* = 0.074 (*k* = 238, *K* = 288) tái lập cơ sở ICBEF 2025. ICRV toàn mẫu *Q*_M = 17.35 (*p* = .002) nhưng drop-Frontier *Q*_M = 1.49 (*p* = .68); H1 yếu, E1a/E1b không xác nhận. cDAI (*Q*_M = 1.23, *p* = .541) và DPL (*Q*_M = 0.56, *p* = .755) không có ý nghĩa; H2/H3 không được ủng hộ. Phát hiện chủ chốt là thiên lệch công bố (H4 xác nhận): trim-and-fill ước lệ *k* = 58 nghiên cứu thiếu và cắt hiệu ứng tổng hợp từ *r* = 0.074 xuống *r* = 0.035, mức suy giảm khoảng 53% (Begg *p* < .001; Egger *p* = .057 ở vùng giáp ranh, chúng tôi diễn giải biên độ này như tín hiệu định hướng mạnh chứ không phải ước lượng điểm đã ổn định). Phân tách dị biệt gán phần lớn $I^2$ = 87.8% cho phương sai trong-nghiên-cứu (Cấp 2, 76.1%) thay vì khác biệt giữa các quốc gia (Cấp 3, 11.8%).
 
@@ -488,5 +488,5 @@ Lưu đồ PRISMA 2020 đầy đủ với cả Đường A (corpus phân tích, 
 
 ---
 
-*Số từ (văn bản chính Mục 1–6, loại trừ bảng, tài liệu tham khảo, các bảng trong bài, và tài liệu bổ sung OSF): $\approx$ 8,400 từ tiếng Việt. Tổng submission-build (thân bài + tài liệu tham khảo + 3 bảng trong bài × 280 + 6 hình × 280): $\approx$ 12,000 word-equivalents.*
+*Số từ (văn bản chính Mục 1–6, loại trừ bảng, tài liệu tham khảo, các bảng trong bài, và tài liệu bổ sung OSF): $\approx$ 8,400 từ tiếng Việt. Tổng submission-build (thân bài + tài liệu tham khảo + 3 bảng trong bài × 280 + 7 hình × 280): $\approx$ 12,000 word-equivalents. Phiên bản v1.3 đồng bộ với EN v1.3 — bao gồm đoạn nghịch lý thiên lệch công bố (§5.2), điều kiện construct-validity cho cDAI (§4.4), §4.3 mở đầu bằng kết quả drop-Frontier, và sai lệch tiền đăng ký thứ 5 đã được công bố (§3.1).*
 *Tạp chí mục tiêu: Management International Review (MIR; Springer, Scopus Q1, ABS-3). Các phụ lục phương pháp mở rộng (lưu đồ PRISMA 2020; giao thức mã hóa 7 biến điều tiết; kiểm tra nhất quán MetaEssentials so với `metafor`), các tiêu chí đủ tiêu chuẩn chi tiết, các bảng phụ nhóm cDAI và DPL, bảng kiểm tra tính vững đầy đủ, tự sự sàng lọc PRISMA Mục 3.2, và các ghi chú phương pháp mở rộng được di chuyển sang OSF dưới dạng Supp-A đến Supp-M (https://osf.io/z37kn). Phân tích sử dụng corpus cơ sở đã xác minh (k = 238 nghiên cứu, K = 288 cỡ hiệu ứng); mở rộng tìm kiếm WoS/Scopus chính thức đang tiến hành và sẽ được tích hợp ở giai đoạn revision. Mã hóa cỡ hiệu ứng tuân theo giao thức chuẩn hóa tóm tắt trong Mục 3.4 và chi tiết trong Supp-B.*
