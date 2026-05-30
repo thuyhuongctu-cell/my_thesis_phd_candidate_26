@@ -45,13 +45,19 @@ The authors gratefully acknowledge the World Bank Enterprise Survey team for pro
 
 ## Funding
 
-[Confirm funding source with authors — e.g., Vietnam Ministry of Education and Training research grant, or Can Tho University research fund]
+[Confirm funding source with authors. If no funding was received, replace this paragraph with: "This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors."]
 
 ---
 
 ## Conflict of Interest
 
 The authors declare no conflict of interest.
+
+---
+
+## Use of Generative AI in the Writing Process
+
+In accordance with Elsevier's policy on the use of generative AI and AI-assisted technologies in scientific writing, the authors disclose that generative AI tools were used during manuscript preparation to assist with language editing, structure suggestions, and the assembly of the replication package documentation. All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human authors, who take full responsibility for the content of the publication. No AI-generated content has been incorporated into the manuscript text without human review and revision.
 
 ---
 
