@@ -262,6 +262,10 @@ Funnel plot kiểm tra visually. Nếu asymmetry có ý nghĩa, report cả unad
 
 **P6 UPDATED coded baseline**: $k=238$ studies, $K=288$ effect sizes, tổng cỡ mẫu cộng gộp $N=258,557$ firm-observations, coverage năm công bố 1978–2026. Đây là database đã có effect size và có thể dùng ngay cho three-level MARA; formal-search expansion pool từ WoS/Scopus được quản lý riêng trong worklist extraction.
 
+**Phân bố theo năm công bố** (xem Hình 6 — `p6/figures/figure6_year_distribution.png`): mẫu lệch phải về post-2000, phản ánh đặc điểm phát triển của field. Giai đoạn 1978–1989 chỉ 6 nghiên cứu (2,6%; mật độ 0,5/năm); 1990–1999 18 nghiên cứu (7,7%; 1,8/năm); 2000–2009 54 nghiên cứu (23,2%; 5,4/năm); 2010–2019 92 nghiên cứu (39,5%; 9,2/năm); 2020–2022 46 nghiên cứu (19,7%; 15,3/năm); 2023–2026 17 nghiên cứu (7,3%). Tổng 138 nghiên cứu giai đoạn 2010–2022 chiếm 59% mẫu. Hệ quả: main-effect MARA và $I^2$ vẫn vững vì pooled across full corpus, song bất kỳ phân tích sub-period nào trước 1990 đều underpowered và time-trend moderation chỉ nên diễn giải hạn chế ở giai đoạn 2000–2022.
+
+**Lưu ý chất lượng dữ liệu**: 5 effect sizes có trường `year` để trống do nguồn gốc không rõ năm công bố (S195, S196, S236, S237 — Barłożewski & Trąpczyński 2021a/b, EBER 9 / OC 12; S216 — Schmuck et al. 2022a, MIR), chiếm $\approx 1{,}7\%$ tổng $K$. Năm xuất bản đã được xác minh ở `notes` nhưng chưa fill vào cột `year`; chưa ảnh hưởng MARA chính (không có moderator năm trong baseline), cần điền trước khi chạy phân tích time-trend.
+
 **PRISMA flow hiện tại** (xem Phụ lục A và `p6/p6_prisma_flow.md`):
 - Identified from WoS: n = 2,180 records (API/search date: 18/05/2026); Scopus/OpenAlex/supplementary databases pending.
 - After WoS deduplication: n = 2,179 records (1 duplicate removed).
