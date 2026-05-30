@@ -95,9 +95,9 @@ Generative AI tools were used during manuscript preparation to assist with langu
 | Item | Detail |
 |---|---|
 | Paper type | Research article |
-| Word count (main text) | Approximately 6,500 words |
-| Tables | 3 (inline) |
-| Figures | 5 (inline) |
+| Word count (main text) | Approximately 8,500 words |
+| Tables | 12 (inline; including hierarchical regression Table 2, marginal-effects Table 4, robustness Table 3, plus 9 supplementary tables for descriptive statistics and Sections 4.5 diagnostics) |
+| Figures | 10 (inline; conceptual model Figure 1, DAI marginal-effects Figure 2, predicted I–P curve Figure 3, plus 7 supplementary diagnostic figures) |
 | Keywords | internationalisation–performance relationship; digital adoption; technological capability; export intensity; labour productivity; Singapore |
 | JEL codes | F23, O33, L25, O53 |
 | Data source | World Bank Enterprise Survey (Singapore 2023) |
