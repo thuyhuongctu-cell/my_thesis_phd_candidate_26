@@ -3,16 +3,28 @@
 **Đỗ Thị Thúy Hương** · Can Tho University / Huong Do Thi Thuy
 **Phan Anh Tú** · Can Tho University
 
-*Manuscript prepared for: Management Review Quarterly (Springer; Scopus Q1, systematic reviews & meta-analyses)*
-*Version 1.0, May 2026 (target journal submission: Q4 2026)*
+*Manuscript prepared for: Multinational Business Review (MBR; Emerald, Scopus Q2, ABS-2)*
+*Version 1.1, May 2026 (target journal submission: Q3 2026)*
 
 ---
 
 ## Abstract
 
-This study reports the first three-level meta-analytic regression analysis (MARA) of the internationalization–performance (I-P) relationship to test whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate it. Following PRISMA 2020, a systematic review combining backward and forward citation tracking of five anchor meta-analyses with hand-search assembles an analyzed corpus of k = 238 studies and K = 288 effect sizes from 49 economies; a Web of Science and Scopus database search (1977–2026) was additionally conducted to scope a pre-registered expansion whose full-text extraction is ongoing. Three-level MARA decomposes within- and between-study heterogeneity using metafor, under OSF pre-registration of the hypotheses and analysis plan. The baseline pooled effect is r = .074 (95% CI [.060, .088], p < .001; $I^2$ = 87.8%). The hypothesized moderators show limited support: the full-sample ICRV omnibus is significant (Q_M = 17.35, df = 4, p = .002) but is not robust, a drop-Frontier sensitivity test on the four well-populated regimes reduces it to non-significance (Q_M = 1.49, p = .68), while cDAI and DPL moderation are non-significant throughout. The most consequential result is substantial publication bias: trim-and-fill imputes k = 58 missing studies, cutting the pooled effect to r = .035 (95% CI [.023, .048]), an implied ~53% attenuation (Begg p < .001; Egger p = .057). These findings reframe the heterogeneity puzzle: unexplained variance in I-P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
+**Purpose.** This study reports the first three-level meta-analytic regression analysis (MARA) of the internationalization–performance (I-P) relationship to test whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate it across a globally representative corpus.
 
-**Keywords:** internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; ICRV; Digital Paradox Lifecycle; global
+**Design/methodology/approach.** Following PRISMA 2020, a systematic review combining backward and forward citation tracking of five anchor meta-analyses with hand-search assembles an analyzed corpus of *k* = 238 studies and *K* = 288 effect sizes from 49 economies; a Web of Science and Scopus database search (1977–2026) was additionally conducted to scope a pre-registered expansion whose full-text extraction is ongoing. Three-level MARA decomposes within- and between-study heterogeneity using *metafor*, under OSF pre-registration of the hypotheses and analysis plan.
+
+**Findings.** The baseline pooled effect is *r* = .074 (95% CI [.060, .088], *p* < .001; *I*² = 87.8%). The hypothesized moderators show limited support: the full-sample ICRV omnibus is significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but is not robust — a drop-Frontier sensitivity test on the four well-populated regimes reduces it to non-significance (*Q*_M = 1.49, *p* = .68); cDAI and DPL moderation are non-significant throughout. The most consequential result is substantial publication bias: trim-and-fill imputes *k* = 58 missing studies, cutting the pooled effect to *r* = .035 (95% CI [.023, .048]), an implied ~53% attenuation (Begg *p* < .001; Egger *p* = .057).
+
+**Research limitations/implications.** Sparse Frontier (*K* = 3) and SIDS (*K* = 0) cells limit power for between-regime tests; single-coder extraction precludes inter-coder reliability statistics. These findings reframe the heterogeneity puzzle: unexplained variance in I-P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
+
+**Practical implications.** Managers should not expect automatic performance gains from internationalization: the bias-corrected pooled effect (*r* = .035) is substantially smaller than published estimates suggest. National digital infrastructure alone does not amplify I-P returns; firm-level digital capability appears more decisive.
+
+**Originality/value.** This is the first three-level MARA of the I-P literature, the first pre-registered meta-analytic test of cDAI, ICRV regime, and DPL phase as moderators, and the first systematic quantification of publication-bias attenuation in this 40-year evidence base.
+
+**Keywords:** internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; publication bias
+
+**Paper type:** Research paper (meta-analysis)
 
 ---
 
@@ -759,5 +771,5 @@ Final k/K will increase further as new L2 extraction from 2,032 new candidates
 
 ---
 
-*Word count (excluding tables, references, appendices): $\approx$ 6,900 words*
-*Target journal: Management Review Quarterly (Springer; Scopus Q1), which specialises in systematic reviews and meta-analyses and accommodates comprehensive length. Analyses use the verified baseline corpus (k = 238 studies, K = 288 effect sizes); the formal WoS/Scopus search expansion is ongoing and will be incorporated at revision. Effect-size coding follows the standardized protocol (Appendix B).*
+*Word count (main text, excluding tables, references, appendices): $\approx$ 6,900 words.*
+*Target journal: Multinational Business Review (Emerald; Scopus Q2, ABS-2). MBR accommodates IB-focused meta-analyses up to 8,000 words total (including refs and appendices); main-text streamlining and appendix migration to OSF supplementary materials are planned for the submission build to meet this cap. Analyses use the verified baseline corpus (k = 238 studies, K = 288 effect sizes); the formal WoS/Scopus search expansion is ongoing and will be incorporated at revision. Effect-size coding follows the standardized protocol (Appendix B; full coded database lodged on OSF).*
