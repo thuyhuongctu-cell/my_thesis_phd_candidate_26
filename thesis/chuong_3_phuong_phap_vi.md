@@ -37,13 +37,15 @@ Phân tích tổng hợp trong kinh doanh quốc tế đã được thiết lậ
 
 Bốn bước Nhận diện, Sàng lọc, Đủ điều kiện và Đưa vào theo hướng dẫn PRISMA 2020 (Page et al., 2021). Tiêu chí đưa vào: nghiên cứu thực nghiệm ở cấp doanh nghiệp, có đo lường quốc tế hóa và hiệu quả hoạt động, có đủ thống kê để tính độ lớn hiệu ứng (Pearson $r$, $\beta$, thống kê $t$).
 
-### 3.2.4 Công cụ trích xuất dữ liệu M-AIDA và chuỗi quy đổi hiệu ứng
+### 3.2.4 Quy trình trích xuất dữ liệu hỗ trợ bằng mô hình ngôn ngữ lớn và chuỗi quy đổi hiệu ứng
 
-**Cơ sở lý luận.** Trích xuất dữ liệu là một trong những khâu tốn công và dễ sai sót của tổng quan hệ thống: rà soát phương pháp luận của Mathes và cộng sự (2017) ghi nhận tỷ lệ lỗi trích xuất có thể lên tới 50%, và những lỗi này có thể tác động đến ước lượng độ lớn hiệu ứng, qua đó ảnh hưởng đến độ tin cậy của kết luận phân tích tổng hợp. Nhằm giảm gánh nặng thủ công và sai số đó, một hướng phương pháp luận về **tự động hóa tổng quan hệ thống (systematic review automation)** đã hình thành và dần được hệ thống hóa (Tsafnat et al., 2014; Marshall & Wallace, 2019), trong đó tự động hóa khâu trích xuất dữ liệu được khảo sát riêng như một hướng khả thi (Jonnalagadda et al., 2015). Các hướng dẫn phương pháp luận nhấn mạnh rằng tự động hóa chỉ nên đóng vai **hỗ trợ** chứ không thay thế phán đoán của nhà nghiên cứu — tức nguyên lý **con người trong vòng lặp (human-in-the-loop)**. Bằng chứng gần đây ủng hộ cách tiếp cận này: nghiên cứu thử nghiệm (proof-of-concept) của Gartlehner và cộng sự (2024) bước đầu cho thấy một mô hình ngôn ngữ lớn (Claude) có thể hỗ trợ trích xuất dữ liệu cho tổng hợp bằng chứng với độ chính xác hứa hẹn, đồng thời nhấn mạnh rằng chính **sự cộng hưởng giữa chuyên môn của con người và mô hình ngôn ngữ lớn** mới là yếu tố nâng cao chất lượng và hiệu suất trích xuất. Thiết kế của M-AIDA được xây dựng nhất quán với các khuyến nghị này.
+**Bối cảnh phương pháp luận.** Trích xuất dữ liệu trong tổng quan hệ thống là khâu tốn công và dễ sai sót; rà soát của Mathes và cộng sự (2017) ghi nhận lỗi trích xuất có thể đáng kể và ảnh hưởng tới ước lượng độ lớn hiệu ứng. Hướng *tự động hóa tổng quan hệ thống* đã hình thành để giảm gánh nặng này (Tsafnat et al., 2014; Marshall & Wallace, 2019), trong đó tự động hóa riêng khâu trích xuất dữ liệu được khảo sát có hệ thống bởi Jonnalagadda và cộng sự (2015). Các hướng dẫn phương pháp luận nhất quán nhấn mạnh rằng tự động hóa chỉ đóng vai **hỗ trợ** chứ không thay thế phán đoán của nhà nghiên cứu — nguyên lý **con người trong vòng lặp (human-in-the-loop, HITL)**. Bằng chứng thử nghiệm gần đây từ Gartlehner và cộng sự (2024) cho thấy mô hình ngôn ngữ lớn có thể hỗ trợ trích xuất bằng chứng với độ chính xác hứa hẹn khi áp dụng cùng giám sát chuyên môn.
 
-Trên nền tảng đó, luận án phát triển và sử dụng **M-AIDA (Meta-Analysis Intelligent Data Assistant)**, một công cụ trích xuất bán tự động cho quan hệ I-P do tác giả xây dựng (đã lập hồ sơ đăng ký quyền tác giả tại Cục Bản quyền Tác giả Việt Nam). M-AIDA vận hành theo nguyên lý **con người trong vòng lặp (human-in-the-loop)**: mô hình ngôn ngữ lớn hoặc bộ quy tắc biểu thức chính quy chỉ tạo ra *bản nháp* trích xuất kèm đoạn trích nguồn nguyên văn; nghiên cứu sinh chủ trì rà soát, hiệu chỉnh và xác nhận từng đại lượng, sau đó bản ghi mới được **khóa** kèm dấu thời gian, tạo vết kiểm toán cho từng quyết định trích xuất. Tự động hóa nhằm rút ngắn thời gian, còn con người giữ trách nhiệm cuối cùng về tính hợp lệ của từng số liệu; nhờ vậy, kết quả phân tích tổng hợp không phụ thuộc vào mức độ tự động hóa của phần mềm. Vì bước trích xuất bằng mô hình ngôn ngữ lớn không mang tính tất định — cùng một đầu vào có thể cho kết quả khác nhau — khả năng tái lập của nghiên cứu không dựa trên việc chạy lại công cụ mà dựa trên tập dữ liệu đã được kiểm chứng và khóa, công bố công khai trên OSF (https://osf.io/z37kn).
+**Quy trình trích xuất.** Luận án vận hành một quy trình trích xuất ba bước theo HITL: (1) **Bản nháp tự động** — một mô hình ngôn ngữ lớn (xem Supplement S-MAIDA cho cấu hình mô hình, prompt template và phiên bản) hoặc bộ quy tắc biểu thức chính quy đọc PDF nguồn và đề xuất bản nháp gồm cỡ mẫu $N$, hệ số hiệu ứng (Pearson $r$, $\beta$, $t$, $F$), bậc tự do, vị trí trang/bảng, kèm đoạn trích nguyên văn. (2) **Rà soát thủ công** — nghiên cứu sinh đối chiếu từng đại lượng với PDF nguồn, hiệu chỉnh nếu cần và xác nhận; mọi sửa đổi được ghi vết. (3) **Khóa bản ghi** — sau xác nhận, bản ghi được khóa kèm dấu thời gian, tạo vết kiểm toán cho từng quyết định trích xuất. Vai trò của tự động hóa là rút ngắn thời gian; trách nhiệm cuối cùng về tính hợp lệ của mỗi số liệu vẫn thuộc về nghiên cứu sinh, do đó kết luận phân tích tổng hợp không phụ thuộc vào mức độ tự động hóa của bước nháp.
 
-Khi hệ số tương quan Pearson $r$ không được báo cáo trực tiếp, M-AIDA áp dụng chuỗi quy đổi theo thứ tự ưu tiên về độ chính xác thống kê (Borenstein et al., 2009):
+**Đánh giá chất lượng và tính tái lập.** Để xác minh chất lượng quy trình, một tập gold-standard gồm các nghiên cứu được trích xuất hoàn toàn thủ công bởi một mã hóa viên độc lập làm tham chiếu; bản nháp tự động được so sánh với tham chiếu này trên các đại lượng cốt lõi ($N$, $r$/$\beta$, $df$). Các chỉ số tin cậy (Cohen's $\kappa$ cho mã phân loại; phần trăm đồng nhất số trong khoảng dung sai 5% cho đại lượng số) và phân tích lỗi theo loại đại lượng được báo cáo trong Supplement S-MAIDA. Vì bước nháp bằng mô hình ngôn ngữ lớn không mang tính tất định, tính tái lập của nghiên cứu được bảo đảm không phải qua việc chạy lại bước nháp mà qua tập dữ liệu đã rà soát và khóa, công bố công khai trên OSF (https://osf.io/z37kn) cùng codebook và quy trình mã hóa.
+
+**Chuỗi quy đổi về $r$.** Khi Pearson $r$ không được báo cáo trực tiếp, áp dụng chuỗi quy đổi theo thứ tự ưu tiên về độ chính xác thống kê (Borenstein et al., 2009):
 
 | Bước | Công thức quy đổi về $r$ | Nguồn |
 |------|--------------------------|-------|
@@ -67,21 +69,13 @@ Luận án sử dụng bộ Khảo sát Doanh nghiệp của Ngân hàng Thế g
 
 ### 3.3.2 Đo lường biến phụ thuộc, Hiệu quả hoạt động
 
-**Biến chính**: Năng suất lao động, đo bằng $\ln(\text{doanh thu năm} / \text{lao động toàn thời gian thường xuyên})$.
+Biến phụ thuộc chính là **năng suất lao động**, đo bằng $\ln(\text{doanh thu năm} / \text{lao động toàn thời gian thường xuyên})$. Chỉ tiêu này được sử dụng rộng rãi trong các nghiên cứu WBES và năng suất doanh nghiệp (Bloom et al., 2012; Hsieh & Klenow, 2009) và đã được vận hành hóa trong bài thực trạng châu Á mới nổi (Do & Phan, 2026a).
 
-**Cơ sở kế thừa**: Năng suất lao động được sử dụng rộng rãi trong nghiên cứu WBES và trong các nghiên cứu về năng suất doanh nghiệp (Bloom et al., 2012; Hsieh & Klenow, 2009). Chỉ tiêu này đã được vận hành hóa thành công trong bài thực trạng châu Á mới nổi (Do & Phan, 2026a).
-
-**Lập luận chọn**: WBES không phải bộ báo cáo tài chính đầy đủ, nên năng suất lao động phù hợp hơn ROA/ROE/ROS trong bối cảnh đa quốc gia. Ngoài ra, năng suất lao động có tính so sánh xuyên quốc gia cao hơn do không bị ảnh hưởng bởi chuẩn mực kế toán khác biệt (Combs et al., 2005; Richard et al., 2009).
-
-**Biến kiểm định độ vững**: ROS, tăng trưởng doanh thu, tăng trưởng lao động, $\ln$(doanh thu năm).
-
-**Đóng góp mới**: lập luận rõ ràng rằng hiệu quả hoạt động là khái niệm đa chiều và việc lựa chọn thước đo phải phù hợp với bối cảnh dữ liệu (xem `02_theoretical_framework_vi.md`).
+Lựa chọn năng suất lao động thay vì ROA/ROE/ROS phản ánh hai đặc điểm của dữ liệu: WBES không phải bộ báo cáo tài chính đầy đủ, và năng suất lao động có tính so sánh xuyên quốc gia cao hơn do không bị ảnh hưởng bởi chuẩn mực kế toán khác biệt (Combs et al., 2005; Richard et al., 2009). Hiệu quả hoạt động là khái niệm đa chiều, do đó kiểm định độ vững sử dụng các thước đo thay thế (ROS, tăng trưởng doanh thu, tăng trưởng lao động, $\ln$ doanh thu năm) để xác nhận kết quả không phụ thuộc vào lựa chọn cụ thể (xem `02_theoretical_framework_vi.md` cho lập luận đa chiều).
 
 ### 3.3.3 Đo lường biến độc lập, Quốc tế hóa
 
-**Biến chính**: tỷ lệ doanh thu xuất khẩu trên tổng doanh thu (Foreign Sales to Total Sales, FSTS). Mô hình có cả $FSTS$, $FSTS^2$ và $FSTS^3$ để kiểm định phi tuyến dạng S và dạng bậc ba.
-
-**Cơ sở kế thừa**: FSTS là thước đo quốc tế hóa phổ biến nhất trong các nghiên cứu I-P (Sullivan, 1994; Hitt et al., 2006). Việc bổ sung $FSTS^2$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Đặc tả bậc ba được Do và Phan (2026b) xác nhận có ý nghĩa thống kê ở Trung Quốc với điểm uốn ~47,8% FSTS, làm mốc nền cho việc kiểm định mở rộng trong luận án.
+Biến độc lập chính là tỷ lệ doanh thu xuất khẩu trên tổng doanh thu (Foreign Sales to Total Sales, FSTS), thước đo phổ biến nhất trong các nghiên cứu I-P (Sullivan, 1994; Hitt et al., 2006). Mô hình đưa vào cả $FSTS$, $FSTS^2$ và $FSTS^3$ để kiểm định phi tuyến dạng U ngược và dạng bậc ba. Đặc tả bậc hai đã được sử dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997); đặc tả bậc ba được Do và Phan (2026b) xác nhận có ý nghĩa thống kê ở Trung Quốc với điểm uốn $\approx$ 47,8% FSTS, làm mốc nền cho kiểm định mở rộng trong luận án.
 
 ### 3.3.4 Đo lường biến điều tiết
 
@@ -96,7 +90,7 @@ Luận án phân biệt rõ hai khái niệm:
 
 **Cơ sở kế thừa**: Bhandari et al. (2023) phân biệt số hóa, quốc tế hóa và năng lực theo logic điều phối nguồn lực; Verhoef et al. (2021) phân biệt ba cấp độ (số hóa dữ liệu, số hóa quy trình, chuyển đổi số). Khuôn mẫu "hiệu ứng thay thế số cho thể chế" được Do và Phan (2026a) phát hiện trên 17 nước châu Á mới nổi.
 
-**Đóng góp mới**: Đưa ra **quy trình hòa hợp đo lường** trong bối cảnh WBES, đảm bảo tính thuần nhất khái niệm ở 47 nền kinh tế châu Á và Thái Bình Dương, với quy trình hòa hợp ba thế hệ lược đồ dữ liệu. Phân tách TCI và DAI dựa theo: (i) Bharadwaj et al. (2013), năng lực CNTT và chiến lược kinh doanh số có mạng lưới quan hệ khái niệm khác nhau; (ii) phân tầng ba cấp của Verhoef et al. (2021): số hóa dữ liệu, số hóa quy trình, chuyển đổi số; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi năng lực công nghệ là chiều sâu năng lực nội tại (năng lực hấp thụ), khác về bản chất với áp dụng số ở giao diện ngoại tại; (iv) logic điều phối nguồn lực của Bhandari et al. (2023) cho quan hệ I-P; và (v) bốn tiêu chí của chỉ số tổng hợp dạng cấu thành theo Coltman et al. (2008), đảm bảo TCI và DAI là hai chỉ số tổng hợp độc lập.
+**Đóng góp mới**: Quy trình hòa hợp đo lường trong bối cảnh WBES bảo đảm tính thuần nhất khái niệm ở 47 nền kinh tế châu Á và Thái Bình Dương sau khi hòa hợp ba thế hệ lược đồ dữ liệu. Cơ sở phân tách TCI và DAI là sự khác biệt về bản chất của hai khái niệm: năng lực công nghệ (TCI) phản ánh chiều sâu năng lực nội tại của doanh nghiệp, gần với truyền thống năng lực hấp thụ (Cohen & Levinthal, 1990; Lall, 1992), trong khi áp dụng số (DAI) phản ánh mức độ triển khai công cụ số ở giao diện ngoại tại theo phân tầng ba cấp của Verhoef et al. (2021). Cách phân tách này nhất quán với phân biệt khái niệm giữa năng lực CNTT và chiến lược kinh doanh số (Bharadwaj et al., 2013), với logic điều phối nguồn lực cho quan hệ I-P (Bhandari et al., 2023), và với bốn tiêu chí xây dựng chỉ số tổng hợp dạng cấu thành (Coltman et al., 2008) — bảo đảm TCI và DAI là hai chỉ số tổng hợp độc lập.
 
 #### Biến thể chế
 
@@ -106,7 +100,7 @@ Luận án phân biệt rõ hai khái niệm:
 
 #### Đặc điểm nhà quản trị cấp cao (kiểm soát quản trị nội sinh H4)
 
-**Biến kiểm soát**: kinh nghiệm nhà quản trị cấp cao (số năm), học vấn nhà quản trị cấp cao, giới tính nhà quản trị cấp cao (nữ/nam). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (phân tích Việt Nam, Singapore và Trung Quốc). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.
+**Biến kiểm soát**: kinh nghiệm nhà quản trị cấp cao (số năm), học vấn nhà quản trị cấp cao, giới tính nhà quản trị cấp cao (nữ/nam). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả riêng phần của tương tác Thể chế × Công nghệ, không bị nhiễu bởi đặc điểm quản trị, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (phân tích Việt Nam, Singapore và Trung Quốc). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ, không phải bằng chứng điều tiết trọng tâm.
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
@@ -114,9 +108,7 @@ Luận án phân biệt rõ hai khái niệm:
 
 ### 3.3.5 Biến kiểm soát
 
-$\ln$ số lao động, tuổi doanh nghiệp, biến giả sở hữu nước ngoài, biến giả ngành, hiệu ứng cố định quốc gia, hiệu ứng cố định năm.
-
-**Cơ sở kế thừa**: chuẩn trong nghiên cứu WBES và kinh doanh quốc tế (Aterido et al., 2011; Ayyagari et al., 2011).
+Bộ biến kiểm soát chuẩn cho nghiên cứu WBES và kinh doanh quốc tế (Aterido et al., 2011; Ayyagari et al., 2011) gồm: $\ln$ số lao động, tuổi doanh nghiệp, biến giả sở hữu nước ngoài, biến giả ngành, hiệu ứng cố định quốc gia, và hiệu ứng cố định năm.
 
 ## 3.4 Mô hình phân tích
 
@@ -168,7 +160,7 @@ với $D$ = số hóa (DAI), $I$ = thể chế (ICRV) là hai nhân tố điều
 
 **Cơ sở kế thừa**: chuẩn về điều tiết trong quản trị chiến lược (Aiken & West, 1991; Dawson, 2014).
 
-**Đóng góp mới**: điều tiết trọng tâm số hóa × thể chế (DAI × ICRV) trong bối cảnh châu Á và Thái Bình Dương với 47 nước chưa được kiểm định trước đây, với đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh nhằm bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ.
+**Đóng góp mới**: điều tiết trọng tâm số hóa × thể chế (DAI × ICRV) trong bối cảnh châu Á và Thái Bình Dương với 47 nước chưa được kiểm định trước đây, với đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh nhằm bảo vệ tính nhân quả riêng phần của tương tác Thể chế × Công nghệ, không bị nhiễu bởi đặc điểm quản trị.
 
 ### 3.4.5 Mô hình tính không đồng nhất theo thời gian (H6)
 
