@@ -1,5 +1,5 @@
 **Đỗ Thùy Hương**
-Viet Nam — Latvia University of Technology and Economics / Can Tho University
+School of Economics, Can Tho University (CTU)
 Can Tho, Viet Nam
 
 15 May 2026
@@ -14,7 +14,7 @@ Dear Editor-in-Chief,
 
 We are pleased to submit our manuscript, **"Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States"**, for consideration for publication in *World Development*.
 
-**Research question and contribution.** The internationalization–performance (I-P) relationship is conventionally modelled as an inverted-U: firms benefit from international expansion up to a threshold, after which coordination costs erode performance. We demonstrate that this paradigm does not hold in Pacific Small Island Developing States (SIDS). Using World Bank Enterprise Survey data from **1,469 firms across nine Pacific SIDS economies** (2009–2025), we find a **monotone negative** relationship between internationalization intensity and labor productivity, with no statistically significant turning point. We introduce the concept of the **Forced Internationalization Penalty (FIP)** — defined as the persistent negative I-P relationship that emerges when three structural prerequisites of the inverted-U are simultaneously absent: (1) a viable domestic market, (2) manageable trade costs, and (3) functional institutional support for international market access.
+**Research question and contribution.** The internationalization–performance (I-P) relationship is conventionally modelled as an inverted-U: firms benefit from international expansion up to a threshold, after which coordination costs erode performance. We demonstrate that this paradigm does not hold in Pacific Small Island Developing States (SIDS). Using World Bank Enterprise Survey data from **1,469 firms across nine Pacific SIDS economies** (2009–2025), we find a **monotone negative** relationship between internationalization intensity and labor productivity, with no statistically significant turning point. We label this firm-level outcome the **Forced Internationalization Penalty (FIP)** — the persistent negative I-P relationship that emerges when the three structural prerequisites of the inverted-U documented in the foundational SIDS literature (Briguglio, 1995; Bertram, 2006 MIRAB; Briguglio et al., 2009) are simultaneously absent: (1) a viable domestic market, (2) manageable trade costs, and (3) functional institutional support for international market access. Our contribution is the firm-level operationalization of these macro-level SIDS constraints and the demonstration that they leave a recoverable firm-level signature in the sign of the FSTS coefficient.
 
 **Three principal contributions** distinguish this manuscript from existing literature:
 
@@ -32,11 +32,11 @@ We look forward to your consideration.
 
 Sincerely,
 
-**Đỗ Thùy Hương**
-Corresponding Author
-[email] | ORCID: [ORCID]
+**Đỗ Thùy Hương** (Do Thuy Huong)
+School of Economics, Can Tho University (CTU), Viet Nam
+Email: huongp1323001@gstudent.ctu.edu.vn | ORCID: 0000-0002-7711-2487
 
-**Phan Anh Tú**
-Co-author
-Can Tho University
-[email] | ORCID: [ORCID]
+**PGS.TS. Phan Anh Tú** (Phan Anh Tu) *(Corresponding author)*
+Associate Professor, School of Economics
+Can Tho University (CTU), Viet Nam
+Email: patu@ctu.edu.vn | ORCID: 0000-0003-0667-3137

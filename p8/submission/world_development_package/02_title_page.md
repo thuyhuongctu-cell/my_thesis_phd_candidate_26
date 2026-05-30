@@ -2,16 +2,23 @@
 
 ## Authors
 
-**Đỗ Thùy Hương** (corresponding author)
-Viet Nam — Latvia University of Technology and Economics (VLUTE) / Can Tho University
-Email: [author email]
-ORCID: [ORCID]
+**Đỗ Thị Thúy Hương** (Do Thi Thuy Huong)
+*First Author*
+PhD Candidate, School of Economics, Can Tho University (CTU)
+Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
+Email: huongp1323001@gstudent.ctu.edu.vn
+ORCID: 0000-0002-7711-2487
 
-**Phan Anh Tú**
-Can Tho University, School of Economics
-Can Tho, Viet Nam
-Email: [author email]
-ORCID: [ORCID]
+**PGS.TS. Phan Anh Tú** (Phan Anh Tu)
+*Corresponding Author*
+Associate Professor, School of Economics, Can Tho University (CTU)
+Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
+Email: patu@ctu.edu.vn
+ORCID: 0000-0003-0667-3137
+
+> **Note:** If the first author wishes to record a second institutional
+> affiliation (e.g., VLUTE), add it to this title page and update the
+> corresponding-author designation before submission.
 
 ---
 
