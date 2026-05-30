@@ -23,7 +23,7 @@
 
 **Design/methodology/approach**: World Bank Enterprise Survey microdata for China (2012, N = 2,610; 2024, N = 1,934; pooled N = 4,544; complete-case sample after listwise deletion on control variables) are used to estimate quadratic models with cross-wave and capability interactions; Paternoster (1998) z-tests and joint F-tests assess temporal stability.
 
-**Findings**: Turning points remain within a tight range (49.4% in 2012, 47.2% in 2024, 48.8% pooled) with overlapping confidence intervals. Paternoster tests do not reject coefficient equality across waves (FSTS z = +0.82, p = .412; FSTS² z = −0.61, p = .545), supporting H2b (structural durability) over H2a (environmental shift). Technological capability is robustly associated with productivity in both waves (β_z = +0.28 in 2012, +0.43 in 2024; both p < .001) but does not robustly moderate the I–P curvature. A single-item digital-presence proxy is positively associated with productivity but is retained as a baseline control, not a capability construct.
+**Findings**: Turning points remain within a tight range (49.4% in 2012, 47.2% in 2024, 48.8% pooled) with overlapping confidence intervals. Paternoster tests do not reject coefficient equality across waves (FSTS z = +0.82, p = .412; $\text{FSTS}^2$ z = −0.61, p = .545), supporting H2b (structural durability) over H2a (environmental shift). Technological capability is robustly associated with productivity in both waves ($\beta$_z = +0.28 in 2012, +0.43 in 2024; both p < .001) but does not robustly moderate the I–P curvature. A single-item digital-presence proxy is positively associated with productivity but is retained as a baseline control, not a capability construct.
 
 **Originality/value**: Despite substantial structural change between 2012 and 2024, the Chinese I–P trade-off is durably structural rather than wave-specific. The study recasts the inverted-U threshold from a sample-specific regularity into an enduring structural feature, reinforced by null capability-curvature moderation. The within-country temporal-stability evidence complements broader meta-analytic literature on emerging-Asia I–P heterogeneity by holding institutional context constant while varying time.
 
@@ -38,9 +38,9 @@
 ## Highlights
 
 - The internationalisation–performance relationship in Chinese private firms is **robustly inverted-U** in both 2012 (turning point 49.4 %) and 2024 (turning point 47.2 %) waves, with overlapping 95 % delta-method confidence intervals.
-- **Temporal stability** tests (Paternoster 1998 z-tests) do not reject coefficient equality across waves (FSTS z = +0.82, p = .412; FSTS² z = −0.61, p = .545), supporting structural durability over environment-driven curvature shift.
-- **Technological capability** (TCI_full) is a robust positive predictor of productivity in both waves (β_z = +0.28 in 2012 and +0.43 in 2024) but does not significantly moderate the curvature of the I–P relationship.
-- A **digital adoption index** (DAI_core: own-website) is positively associated with productivity as a baseline control; it is not a theoretically grounded capability construct in this paper.
+- **Temporal stability** tests (Paternoster 1998 z-tests) do not reject coefficient equality across waves (FSTS z = +0.82, p = .412; $\text{FSTS}^2$ z = −0.61, p = .545), supporting structural durability over environment-driven curvature shift.
+- **Technological capability** ($\text{TCI}_f$ull) is a robust positive predictor of productivity in both waves ($\beta$_z = +0.28 in 2012 and +0.43 in 2024) but does not significantly moderate the curvature of the I–P relationship.
+- A **digital adoption index** ($\text{DAI}_c$ore: own-website) is positively associated with productivity as a baseline control; it is not a theoretically grounded capability construct in this paper.
 - The inverted-U threshold recasts from a sample artifact to a **durable structural regularity** in the Chinese private-firm context, with the threshold centred around 48 % export intensity regardless of decade.
 
 ---
@@ -53,9 +53,9 @@ China offers an unusually clean setting. The World Bank Enterprise Survey (WBES)
 
 > **RQ1:** Is the inverted-U I–P relationship in Chinese private firms consistent in curvature and turning-point location across the 2012 and 2024 WBES waves?
 
-> **RQ2:** Does technological capability (TCI_full) moderate the curvature of the I–P relationship, and does that moderation change across waves?
+> **RQ2:** Does technological capability ($\text{TCI}_f$ull) moderate the curvature of the I–P relationship, and does that moderation change across waves?
 
-This study contributes to the I–P literature in three ways. It provides the first within-country, two-wave test of threshold stability for China using WBES data, and it operationalises technological capability through a validated composite index (TCI_full) rather than single-item proxies. The null moderation finding then recasts capability’s role from a curvature-shaper to a level-shifter, with implications for the boundary conditions of the inverted-U.
+This study contributes to the I–P literature in three ways. It provides the first within-country, two-wave test of threshold stability for China using WBES data, and it operationalises technological capability through a validated composite index ($\text{TCI}_f$ull) rather than single-item proxies. The null moderation finding then recasts capability’s role from a curvature-shaper to a level-shifter, with implications for the boundary conditions of the inverted-U.
 
 The remainder of the paper is organised as follows. Section 2 develops the theoretical framework and hypotheses. Section 3 describes data, variables, and methods. Section 4 presents results. Section 5 discusses implications, limitations, and future directions.
 
@@ -71,11 +71,11 @@ The dominant theoretical rationale for the inverted-U rests on diminishing retur
 
 ### 2.2 Temporal Stability of the I–P Curvature
 
-Between 2012 and 2024, China’s export environment shifted substantially: bilateral trade friction with advanced economies, BRI-driven diversification toward emerging markets, and COVID-19 disruption. Environmental-shift arguments (Hitt et al., 1997; Xiao et al., 2013) predict that the inverted-U threshold’s position and curvature will be sensitive to structural context, generating a “wave-specific” pattern (H2a). Structural-durability arguments (Bausch and Krist, 2007; Marano et al., 2016) suggest that the β₁ (FSTS) and β₂ (FSTS²) coefficients will remain statistically indistinguishable across waves (H2b).
+Between 2012 and 2024, China’s export environment shifted substantially: bilateral trade friction with advanced economies, BRI-driven diversification toward emerging markets, and COVID-19 disruption. Environmental-shift arguments (Hitt et al., 1997; Xiao et al., 2013) predict that the inverted-U threshold’s position and curvature will be sensitive to structural context, generating a “wave-specific” pattern (H2a). Structural-durability arguments (Bausch and Krist, 2007; Marano et al., 2016) suggest that the $\beta_1$ (FSTS) and $\beta_2$ ($\text{FSTS}^2$) coefficients will remain statistically indistinguishable across waves (H2b).
 
-> **H2a:** When China's export environment shifts substantially between 2012 and 2024, the I–P curvature coefficients (β₁, β₂) will differ significantly across waves, because structural shocks such as trade friction, BRI reorientation, and COVID-19 alter the cost-benefit calculus of internationalisation (Hitt et al., 1997; Xiao et al., 2013), until the turning-point location and curvature reflect the prevailing macroeconomic and institutional regime (environmental-shift prediction).
+> **H2a:** When China's export environment shifts substantially between 2012 and 2024, the I–P curvature coefficients ($\beta_1$, $\beta_2$) will differ significantly across waves, because structural shocks such as trade friction, BRI reorientation, and COVID-19 alter the cost-benefit calculus of internationalisation (Hitt et al., 1997; Xiao et al., 2013), until the turning-point location and curvature reflect the prevailing macroeconomic and institutional regime (environmental-shift prediction).
 
-> **H2b:** When China's institutional framework governing export costs and coordination remains structurally intact across decades, the I–P curvature coefficients (β₁, β₂) will not differ significantly across waves, because the fundamental tension between learning-by-exporting gains and coordination-cost escalation is anchored to firm-level resource constraints rather than the macro environment (Bausch and Krist, 2007; Marano et al., 2016), so that the turning-point remains within a stable range regardless of the wave (structural-durability prediction).
+> **H2b:** When China's institutional framework governing export costs and coordination remains structurally intact across decades, the I–P curvature coefficients ($\beta_1$, $\beta_2$) will not differ significantly across waves, because the fundamental tension between learning-by-exporting gains and coordination-cost escalation is anchored to firm-level resource constraints rather than the macro environment (Bausch and Krist, 2007; Marano et al., 2016), so that the turning-point remains within a stable range regardless of the wave (structural-durability prediction).
 
 ### 2.3 Technological Capability as a Moderator
 
@@ -85,11 +85,11 @@ Dynamic-capabilities theory (Teece, 2007) and the technological-capabilities lit
 
 > **H4a:** Within a single WBES wave, when technological capability varies across firms, it moderates the I–P curvature cross-sectionally, because capability may either extend or attenuate export-learning returns depending on the absorptive-capacity level of each firm (Lall, 1992; Avenyo et al., 2021), before that cross-sectional moderation effect dissipates in the pooled specification.
 
-> **H4b:** When technological capability is examined across both waves and in the pooled specification, it does not significantly moderate the I–P curvature, because capability operates primarily as a level-shifter of productivity rather than a curvature-moderator (Avenyo et al., 2021), such that neither the turning-point location nor the slope coefficients vary systematically with TCI_full in either wave or the pooled model.
+> **H4b:** When technological capability is examined across both waves and in the pooled specification, it does not significantly moderate the I–P curvature, because capability operates primarily as a level-shifter of productivity rather than a curvature-moderator (Avenyo et al., 2021), such that neither the turning-point location nor the slope coefficients vary systematically with $\text{TCI}_f$ull in either wave or the pooled model.
 
 ![Figure 1: Conceptual model](figures/p5_china/figure_1_conceptual_model.png)
 
-> **Figure 1.** Conceptual model: internationalisation intensity (FSTS), technological capability (TCI_full), and temporal wave as determinants of log labour productivity. The dashed moderation arrows reflect exploratory mechanism analyses evaluated in Section 4.5.
+> **Figure 1.** Conceptual model: internationalisation intensity (FSTS), technological capability ($\text{TCI}_f$ull), and temporal wave as determinants of log labour productivity. The dashed moderation arrows reflect exploratory mechanism analyses evaluated in Section 4.5.
 
 ---
 
@@ -101,7 +101,7 @@ The analytic dataset combines two waves of the World Bank Enterprise Survey for 
 
 The analytic sample is drawn from the broader private‑firm WBES frame for China rather than a manufacturing‑only subsample; firms in services, retail, IT, and construction are included alongside manufacturing because the manuscript’s identification strategy depends on the full WBES private‑firm frame in which the threshold result is estimated. We control for sectoral composition through ISIC stratum dummies (`a4a`). A robustness check restricting the sample to manufacturing firms (ISIC Rev 3.1 codes 15-38 in 2012 and ISIC Rev 4 codes 10-33 in 2024) is reported in Section 4.6.
 
-**Replication note.** The focal-set samples, retaining only firms with non-missing sales, employees, and export intensity (`lnLP`, `FSTS`, `FSTS²`), are 2,619 firms in 2012, 1,940 firms in 2024, and 4,559 firm-year observations in the pooled dataset. The regression samples (*sample_base*), which additionally require non-missing `lnEmp`, firm age, and the foreign-ownership indicator, are **2,610 (2012), 1,934 (2024), and 4,544 (pooled)**: these are the N reported throughout the paper (abstract, Table 1, Table 2). World Bank nonresponse codes (−9 and −7 in 2012; −9, −8, and −7 in 2024) are recoded as missing on all focal variables. Composite indices `TCI_full` and `DAI_core` are within‑wave z‑standardised before pooling. We have verified the analytic sample sizes, turning‑point estimates (49.4 % in 2012, 47.2 % in 2024, 48.8 % pooled), Paternoster cross‑wave equality results, and the joint F-tests for cross-wave shift and capability moderation in an independent Python replication of the Stata pipeline.
+**Replication note.** The focal-set samples, retaining only firms with non-missing sales, employees, and export intensity (`lnLP`, `FSTS`, `$\text{FSTS}^2$`), are 2,619 firms in 2012, 1,940 firms in 2024, and 4,559 firm-year observations in the pooled dataset. The regression samples (*sample_base*), which additionally require non-missing `lnEmp`, firm age, and the foreign-ownership indicator, are **2,610 (2012), 1,934 (2024), and 4,544 (pooled)**: these are the N reported throughout the paper (abstract, Table 1, Table 2). World Bank nonresponse codes (−9 and −7 in 2012; −9, −8, and −7 in 2024) are recoded as missing on all focal variables. Composite indices `$\text{TCI}_f$ull` and `$\text{DAI}_c$ore` are within‑wave z‑standardised before pooling. We have verified the analytic sample sizes, turning‑point estimates (49.4 % in 2012, 47.2 % in 2024, 48.8 % pooled), Paternoster cross‑wave equality results, and the joint F-tests for cross-wave shift and capability moderation in an independent Python replication of the Stata pipeline.
 
 **Sample scope and non-response filtering.** The 2024 analytic sample (N = 1,940) is constructed from the full WBES private-firm frame with stricter non-response filtering than the 2012 wave. In 2024, WBES introduced a new non-response code −8 (refusal) in addition to the standard −9 (don’t know) and −7 (not applicable) codes used in 2012. The focal-set listwise deletion (sales + employees + export intensity non-missing) retains 1,940 of 2,189 firms (88.6 %). By contrast, the controls-inclusive listwise deletion used in the regression models (sample_base: additionally requiring non-missing lnEmp, firmage, foreigndummy) reduces the 2024 wave to 1,934 observations and the pooled sample to 4,544. Turning-point estimates (47.2 % in 2024) and Paternoster z-tests are invariant across the two sample definitions.
 
@@ -111,11 +111,11 @@ The analytic sample is drawn from the broader private‑firm WBES frame for Chin
 
 **Independent variable.** Export intensity (FSTS) = proportion of sales exported directly (`e1` / `d2`), bounded [0,1]. We retain the raw proportion (not percentage) for continuity of interpretation and turning-point comparability across waves. Firms reporting zero direct exports (FSTS = 0) are retained; the turning-point is identified within the full sample.
 
-**Quadratic term.** FSTS² = FSTS × FSTS; included in all regression models to capture inverted-U curvature.
+**Quadratic term.** $\text{FSTS}^2$ = $\text{FSTS} \times \text{FSTS}$; included in all regression models to capture inverted-U curvature.
 
-**Technological Capability Index (TCI_full).** A composite of four WBES items: (a) R&D expenditure > 0 (`k8`, binary); (b) firm has an internationally recognised quality certification (`b7`, binary); (c) proportion of workforce with at least a university degree (`l9`, continuous); and (d) proportion of workforce receiving formal training in the last year (`l10`, continuous). Items are standardised within-wave and averaged (minimum 3 of 4 items non-missing). TCI_full is within-wave z-standardised before pooling.
+**Technological Capability Index ($\text{TCI}_f$ull).** A composite of four WBES items: (a) R&D expenditure > 0 (`k8`, binary); (b) firm has an internationally recognised quality certification (`b7`, binary); (c) proportion of workforce with at least a university degree (`l9`, continuous); and (d) proportion of workforce receiving formal training in the last year (`l10`, continuous). Items are standardised within-wave and averaged (minimum 3 of 4 items non-missing). $\text{TCI}_f$ull is within-wave z-standardised before pooling.
 
-**Digital Adoption Index (DAI_core).** A binary indicator of whether the firm has its own website (`c22b`). While a richer digital-adoption composite is possible, cross-wave item comparability is limited; `c22b` is available and identically defined in both waves. DAI_core is treated as a baseline control rather than a theoretically-grounded capability construct.
+**Digital Adoption Index ($\text{DAI}_c$ore).** A binary indicator of whether the firm has its own website (`c22b`). While a richer digital-adoption composite is possible, cross-wave item comparability is limited; `c22b` is available and identically defined in both waves. $\text{DAI}_c$ore is treated as a baseline control rather than a theoretically-grounded capability construct.
 
 **Controls.** (a) Log number of employees (lnEmp) to control for firm size; (b) firm age in years; (c) binary foreign-ownership indicator (`b2b`, > 10 % foreign equity); (d) ISIC 2-digit industry stratum dummies.
 
@@ -134,14 +134,14 @@ The analytic sample is drawn from the broader private‑firm WBES frame for Chin
 | ISIC FE | a4a | ISIC 2-digit stratum dummies | Sector fixed effects |
 | wave | — | 0 = 2012, 1 = 2024 | Wave indicator (pooled only) |
 
-*Note.* TCI_full uses a richer 4-item composite than TCI_z in P3/P4 (2-item: quality cert + foreign technology adoption). DAI_core = Tier-1 proxy (website binary c22b), equivalent to DAI_z in P3. FSTS is not mean-centred (unlike FSTS_c in P3/P4); the turning-point formula TP = −β₁/(2β₂) is invariant to centring.
+*Note.* $\text{TCI}_f$ull uses a richer 4-item composite than $\text{TCI}_z$ in P3/P4 (2-item: quality cert + foreign technology adoption). $\text{DAI}_c$ore = Tier-1 proxy (website binary c22b), equivalent to $\text{DAI}_z$ in P3. FSTS is not mean-centred (unlike $\text{FSTS}_c$ in P3/P4); the turning-point formula TP = −$\beta_1$/(2$\beta_2$) is invariant to centring.
 
 
 ### 3.3 Estimation Strategy
 
-All models are estimated by OLS with Eicker–Huber–White heteroskedasticity-consistent (HC1) standard errors (MacKinnon and White, 1985), clustered on firm identifier (`idstd`) in the pooled specification. Among the pooled 4,559 observations, 217 firms appear in both the 2012 and 2024 waves (the 'panel core'), enabling within-firm variation estimates via cluster-robust standard errors on firm identifiers. This panel core, though modest in size relative to the full sample, provides additional identification leverage unavailable in single-wave studies. The main specification (M2) includes FSTS, FSTS², lnEmp, firmage, and foreigndummy.
+All models are estimated by OLS with Eicker–Huber–White heteroskedasticity-consistent (HC1) standard errors (MacKinnon and White, 1985), clustered on firm identifier (`idstd`) in the pooled specification. Among the pooled 4,559 observations, 217 firms appear in both the 2012 and 2024 waves (the 'panel core'), enabling within-firm variation estimates via cluster-robust standard errors on firm identifiers. This panel core, though modest in size relative to the full sample, provides additional identification leverage unavailable in single-wave studies. The main specification (M2) includes FSTS, $\text{FSTS}^2$, lnEmp, firmage, and foreigndummy.
 
-Turning-point estimates are derived by the delta method: TP = −β₁ / (2β₂), with 95 % CIs computed via the delta-method gradient. Lind and Mehlum (2010) criteria—significant positive slope at the left bound (FSTS = 0) and significant negative slope at the right bound (FSTS = 1)—are verified for each wave.
+Turning-point estimates are derived by the delta method: TP = −$\beta_1$ / (2$\beta_2$), with 95 % CIs computed via the delta-method gradient. Lind and Mehlum (2010) criteria—significant positive slope at the left bound (FSTS = 0) and significant negative slope at the right bound (FSTS = 1)—are verified for each wave.
 
 Cross-wave coefficient equality is assessed using the Paternoster, Brame, Mazerolle and Piquero (1998) z-test:
 
@@ -161,42 +161,42 @@ $$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \gamma \cdot X_{it} + \varepsilon_{
 
 $$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
 
-Turning point: TP\* = −β₁ / (2β₂); Lind–Mehlum (2010) criteria verified for each wave.
+Turning point: TP\* = −$\beta_1$ / (2$\beta_2$); Lind–Mehlum (2010) criteria verified for each wave.
 
-**M3** (TCI_full level effect, tests H3 direct):
+**M3** ($\text{TCI}_f$ull level effect, tests H3 direct):
 
 $$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI\_full_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
 
-**M4** (TCI_full curvature moderation, tests H3 interaction):
+**M4** ($\text{TCI}_f$ull curvature moderation, tests H3 interaction):
 
 $$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI\_full_{it} + \beta_4 (FSTS \times TCI\_full)_{it} + \beta_5 (FSTS^2 \times TCI\_full)_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
 
-**M5** (DAI_core direct, tests H4 digital baseline):
+**M5** ($\text{DAI}_c$ore direct, tests H4 digital baseline):
 
 $$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI\_full_{it} + \beta_4 DAI\_core_{it} + \gamma \cdot X_{it} + \varepsilon_{it}$$
 
 where X_it = {lnEmp_it, FirmAge_it, ForeignDummy_it, ISIC sector FE}; HC1 robust SE; clustered on firm identifier (idstd) in pooled specifications.
 
-**Selection and endogeneity.** Exporters self-select, firms with higher productivity are more likely to begin exporting (Melitz, 2003). WBES cross-sectional waves preclude within-firm IV identification; no valid exclusion restriction was found at the aggregate China-wave level. Following Wolfolds and Siegel (2019), OLS is retained as the primary estimator because an invalid instrument induces more bias than no correction. Reverse causality would bias β₁ upward (superior performers choose more exports), making the estimated positive FSTS slope an upper bound. The primary robustness against this concern is that (a) the turning-point estimate depends on the sign and magnitude of β₂, which is less susceptible to selection-direction bias than β₁, and (b) the structural stability of the inverted-U across two independent waves with distinct selection contexts (Paternoster z = +0.82, p = .412) supports the robustness of the shape estimate. Future work using Heckman two-step correction with industry-level export participation rates as exclusion restrictions (Shaver, 2020) would strengthen causal identification.
+**Selection and endogeneity.** Exporters self-select, firms with higher productivity are more likely to begin exporting (Melitz, 2003). WBES cross-sectional waves preclude within-firm IV identification; no valid exclusion restriction was found at the aggregate China-wave level. Following Wolfolds and Siegel (2019), OLS is retained as the primary estimator because an invalid instrument induces more bias than no correction. Reverse causality would bias $\beta_1$ upward (superior performers choose more exports), making the estimated positive FSTS slope an upper bound. The primary robustness against this concern is that (a) the turning-point estimate depends on the sign and magnitude of $\beta_2$, which is less susceptible to selection-direction bias than $\beta_1$, and (b) the structural stability of the inverted-U across two independent waves with distinct selection contexts (Paternoster z = +0.82, p = .412) supports the robustness of the shape estimate. Future work using Heckman two-step correction with industry-level export participation rates as exclusion restrictions (Shaver, 2020) would strengthen causal identification.
 
-Capability moderation is tested via a pooled OLS model (M6) with wave × FSTS × TCI interaction terms and three joint F-tests (F1: cross-wave curvature shift; F2: within-wave capability moderation; F3: capability-conditioned cross-wave shift). Significance is evaluated at α = .05 two-tailed with Bonferroni-corrected threshold α* = .017 for the three jointly-assessed hypotheses.
+Capability moderation is tested via a pooled OLS model (M6) with wave $\times$ $\text{FSTS} \times \text{TCI}$ interaction terms and three joint F-tests (F1: cross-wave curvature shift; F2: within-wave capability moderation; F3: capability-conditioned cross-wave shift). Significance is evaluated at $\alpha$ = .05 two-tailed with Bonferroni-corrected threshold $\alpha$* = .017 for the three jointly-assessed hypotheses.
 
 **M6 (Three-way moderation, capability-conditioned cross-wave shift):**
 
-$$\ln LP_{it} = \alpha + \b\beta_1 FSTS_{it} + \b\beta_2 FSTS^2_{it} + \b\beta_3 TCI_{it} + \b\beta_4 \text{wave}_t$$
-$$+ \b\beta_5 (FSTS \times TCI)_{it} + \b\beta_6 (FSTS^2 \times TCI)_{it}$$
-$$+ \b\beta_7 (FSTS \times \text{wave})_{it} + \b\beta_8 (FSTS^2 \times \text{wave})_{it}$$
-$$+ \b\beta_9 (FSTS \times TCI \times \text{wave})_{it} + \beta_{10} (FSTS^2 \times TCI \times \text{wave})_{it}$$
-$$+ \gamma \cdot X_{it} + \v\varepsilon_{it}$$
+$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI_{it} + \beta_4 \text{wave}_t$$
+$$+ \beta_5 (FSTS \times TCI)_{it} + \beta_6 (FSTS^2 \times TCI)_{it}$$
+$$+ \beta_7 (FSTS \times \text{wave})_{it} + \beta_8 (FSTS^2 \times \text{wave})_{it}$$
+$$+ \beta_9 (FSTS \times TCI \times \text{wave})_{it} + \beta_{10} (FSTS^2 \times TCI \times \text{wave})_{it}$$
+$$+ \gamma \cdot X_{it} + \varepsilon_{it}$$
 
 where wave_t ∈ {0 = 2012, 1 = 2024}; X_it = {lnEmp, FirmAge, ForeignDummy, ISIC sector FE}; clustered HC1 SE on firm identifier (idstd).
 
 Three joint F-tests map onto H2a/H2b, H3, and H4a/H4b:
-- **F1** (cross-wave curvature shift): H₀: β₇ = β₈ = 0   [H2b null, turning point stable across waves]
-- **F2** (within-wave capability moderation): H₀: β₅ = β₆ = 0   [H3 null, TCI does not moderate I–P curve shape]
-- **F3** (capability-conditioned cross-wave shift): H₀: β₉ = β₁₀ = 0   [H4b null, TCI × wave shift is zero]
+- **F1** (cross-wave curvature shift): H₀: $\beta_7$ = $\beta_8$ = 0   [H2b null, turning point stable across waves]
+- **F2** (within-wave capability moderation): H₀: $\beta_5$ = $\beta_6$ = 0   [H3 null, TCI does not moderate I–P curve shape]
+- **F3** (capability-conditioned cross-wave shift): H₀: $\beta_9$ = $\beta_1$₀ = 0   [H4b null, TCI $\times$ wave shift is zero]
 
-Results: F1 = 2.24, p = .107 (NOT rejected); F2 = 3.26, p = .039 (marginal; does not survive Bonferroni α* = .017); F3 = 0.27, p = .760 (NOT rejected). Consistent with H2b (structural durability) and H4b (null capability-curvature moderation).
+Results: F1 = 2.24, p = .107 (NOT rejected); F2 = 3.26, p = .039 (marginal; does not survive Bonferroni $\alpha$* = .017); F3 = 0.27, p = .760 (NOT rejected). Consistent with H2b (structural durability) and H4b (null capability-curvature moderation).
 
 ---
 
@@ -204,7 +204,7 @@ Results: F1 = 2.24, p = .107 (NOT rejected); F2 = 3.26, p = .039 (marginal; does
 
 ### 4.1 Descriptive Statistics
 
-Table 1 summarises the main analytic sample (sample_base) by wave. The 2012 wave (N = 2,610) has mean log labour productivity of 12.52 (SD 1.19) and mean export intensity of 5.2 %, with 19.4 % of firms reporting any positive direct-export intensity. The 2024 wave (N = 1,934) shows mean log labour productivity of 13.01 (SD 1.35), an upward level shift of 0.49 log units, and mean export intensity of 3.6 %, with 12.4 % of firms reporting any positive direct-export intensity. The decline in the share of exporters between 2012 and 2024 is consistent with broader evidence of Chinese private-firm retreat from direct export markets. TCI_full is available for 1,639 firms in 2012 (63 %) and 1,920 firms in 2024 (99 %), reflecting a significant improvement in WBES coverage of innovation-related items in the 2024 wave. DAI_core (own-website) is available for all sample_base observations.
+Table 1 summarises the main analytic sample (sample_base) by wave. The 2012 wave (N = 2,610) has mean log labour productivity of 12.52 (SD 1.19) and mean export intensity of 5.2 %, with 19.4 % of firms reporting any positive direct-export intensity. The 2024 wave (N = 1,934) shows mean log labour productivity of 13.01 (SD 1.35), an upward level shift of 0.49 log units, and mean export intensity of 3.6 %, with 12.4 % of firms reporting any positive direct-export intensity. The decline in the share of exporters between 2012 and 2024 is consistent with broader evidence of Chinese private-firm retreat from direct export markets. $\text{TCI}_f$ull is available for 1,639 firms in 2012 (63 %) and 1,920 firms in 2024 (99 %), reflecting a significant improvement in WBES coverage of innovation-related items in the 2024 wave. $\text{DAI}_c$ore (own-website) is available for all sample_base observations.
 
 **Table 1.** Descriptive statistics for sample_base by wave
 
@@ -223,13 +223,13 @@ Means with standard deviations in parentheses. Conditional on FSTS > 0, mean FST
 
 ### 4.2 Main Threshold Results
 
-Table 2 presents the main OLS results (M2 specification) for each wave and the pooled sample. FSTS carries a positive coefficient in both waves (2012: β = +1.28, SE = 0.38, p = .001; 2024: β = +1.19, SE = 0.46, p = .010), and FSTS² carries a negative coefficient in both waves (2012: β = −1.53, SE = 0.42, p < .001; 2024: β = −1.58, SE = 0.50, p = .002); this positive linear and negative quadratic pattern is consistent with an inverted-U relationship in both waves, consistent with H1. Following Haans, Pieters, and He (2016), all four formal conditions for a genuine inverted-U are satisfied in both waves. For the 2012 wave: (C1) β₁ = +1.28 (p = .001), confirming a positive ascending limb; (C2) β₂ = −1.53 (p < .001), confirming concavity; (C3) the turning point TP* = 49.4% lies within the observed FSTS range [0%, 100%]; and (C4) the marginal effect is positive at the lower data bound (FSTS ≈ 0%) and negative at the upper bound (FSTS ≈ 100%), with opposite signs confirmed by the Lind–Mehlum (2010) u-test. These four conditions hold equivalently for the 2024 wave (β₁ = +1.19, β₂ = −1.58, TP* = 47.2%, LM p < .001) and the pooled specification.
+Table 2 presents the main OLS results (M2 specification) for each wave and the pooled sample. FSTS carries a positive coefficient in both waves (2012: $\beta$ = +1.28, SE = 0.38, p = .001; 2024: $\beta$ = +1.19, SE = 0.46, p = .010), and $\text{FSTS}^2$ carries a negative coefficient in both waves (2012: $\beta$ = −1.53, SE = 0.42, p < .001; 2024: $\beta$ = −1.58, SE = 0.50, p = .002); this positive linear and negative quadratic pattern is consistent with an inverted-U relationship in both waves, consistent with H1. Following Haans, Pieters, and He (2016), all four formal conditions for a genuine inverted-U are satisfied in both waves. For the 2012 wave: (C1) $\beta_1$ = +1.28 (p = .001), confirming a positive ascending limb; (C2) $\beta_2$ = −1.53 (p < .001), confirming concavity; (C3) the turning point TP* = 49.4% lies within the observed FSTS range [0%, 100%]; and (C4) the marginal effect is positive at the lower data bound (FSTS $\approx$ 0%) and negative at the upper bound (FSTS $\approx$ 100%), with opposite signs confirmed by the Lind–Mehlum (2010) u-test. These four conditions hold equivalently for the 2024 wave ($\beta_1$ = +1.19, $\beta_2$ = −1.58, TP* = 47.2%, LM p < .001) and the pooled specification.
 
-Turning-point estimates are 49.4 % (95 % CI: 43.1–55.7 %) in 2012 and 47.2 % (95 % CI: 40.8–53.6 %) in 2024. The CIs overlap substantially, consistent with temporal stability. The equality of FSTS coefficients across waves is not rejected (Paternoster z = +0.82, p = .412), and similarly for FSTS² (z = −0.61, p = .545); neither linear nor quadratic coefficient differs significantly between waves. These estimates are consistent with the interpretation that the inverted-U curvature is structurally durable: the 12-year interval spanning China's WTO consolidation and digital transformation does not appear to shift the underlying cost-benefit inflection in internationalisation–productivity returns. The non-significant Paternoster z-statistics for both FSTS (β₁ shift: z = +0.82, p = .412) and FSTS² (β₂ shift: z = −0.61, p = .545) are consistent with H2b (structural durability) over H2a (environmental shift), indicating that neither the linear nor the quadratic coefficient differs significantly between waves at the 0.05 level.
+Turning-point estimates are 49.4 % (95 % CI: 43.1–55.7 %) in 2012 and 47.2 % (95 % CI: 40.8–53.6 %) in 2024. The CIs overlap substantially, consistent with temporal stability. The equality of FSTS coefficients across waves is not rejected (Paternoster z = +0.82, p = .412), and similarly for $\text{FSTS}^2$ (z = −0.61, p = .545); neither linear nor quadratic coefficient differs significantly between waves. These estimates are consistent with the interpretation that the inverted-U curvature is structurally durable: the 12-year interval spanning China's WTO consolidation and digital transformation does not appear to shift the underlying cost-benefit inflection in internationalisation–productivity returns. The non-significant Paternoster z-statistics for both FSTS ($\beta_1$ shift: z = +0.82, p = .412) and $\text{FSTS}^2$ ($\beta_2$ shift: z = −0.61, p = .545) are consistent with H2b (structural durability) over H2a (environmental shift), indicating that neither the linear nor the quadratic coefficient differs significantly between waves at the 0.05 level.
 
-The pooled model (N = 4,544) yields FSTS β = +1.24 (p < .001) and FSTS² β = −1.55 (p < .001), with turning point at 48.8 % (95 % CI: 44.2–53.4 %).
+The pooled model (N = 4,544) yields FSTS $\beta$ = +1.24 (p < .001) and $\text{FSTS}^2$ $\beta$ = −1.55 (p < .001), with turning point at 48.8 % (95 % CI: 44.2–53.4 %).
 
-**Table 2.** Main OLS results: M2 specification (lnLP ~ FSTS + FSTS² + lnEmp + firmage + foreigndummy)
+**Table 2.** Main OLS results: M2 specification (lnLP ~ FSTS + $\text{FSTS}^2$ + lnEmp + firmage + foreigndummy)
 
 | Coefficient | 2012 (N = 2,610) | 2024 (N = 1,934) | Pooled (N = 4,544) |
 |---|---|---|---|
@@ -245,7 +245,7 @@ The pooled model (N = 4,544) yields FSTS β = +1.24 (p < .001) and FSTS² β = �
 | F-statistic | 28.4*** | 22.7*** | 48.3*** |
 
 Coefficients with HC1-robust standard errors in parentheses. * p < .05; ** p < .01; *** p < .001.
-PATERNOSTER TESTS (FSTS): z = +0.82, p = .412; (FSTS²): z = −0.61, p = .545. Approximate 95% CIs for cross-wave coefficient differences (Δβ ± 1.96 × |Δβ|/|z|, using rounded table values as proxy): FSTS Δβ₁ ≈ +0.09, 95% CI ≈ [−0.13, +0.31]; FSTS² Δβ₂ ≈ −0.05, 95% CI ≈ [−0.21, +0.11]. Both CIs include zero, consistent with non-rejection at α = .05. Exact Δβ and SE values available in replication materials.
+PATERNOSTER TESTS (FSTS): z = +0.82, p = .412; ($\text{FSTS}^2$): z = −0.61, p = .545. Approximate 95% CIs for cross-wave coefficient differences ($\Delta$$\beta$ $\pm$ 1.96 $\times$ |$\Delta$$\beta$|/|z|, using rounded table values as proxy): FSTS $\Delta$$\beta_1$ $\approx$ +0.09, 95% CI $\approx$ [−0.13, +0.31]; $\text{FSTS}^2$ $\Delta$$\beta_2$ $\approx$ −0.05, 95% CI $\approx$ [−0.21, +0.11]. Both CIs include zero, consistent with non-rejection at $\alpha$ = .05. Exact $\Delta$$\beta$ and SE values available in replication materials.
 
 ![Figure 2: Turning-point estimates with 95% CIs by wave (China)](figures/p5_china/figure_2_turning_points.png)
 
@@ -261,9 +261,9 @@ Figure 3 plots the predicted log labour productivity as a function of FSTS for e
 
 ### 4.4 Capability Moderation
 
-Table 3 presents the three-way moderation specification (M6) with joint F-tests. The F-tests yield: F1 (cross-wave curvature shift) = 2.24, p = .107 (NOT rejected at α = .05); F2 (capability moderation within-wave) = 3.26, p = .039 (marginal, not surviving Bonferroni correction at α* = .017); F3 (capability-conditioned cross-wave shift) = 0.27, p = .760 (NOT rejected). These results are more consistent with H4b (null capability-curvature moderation) than with H3 and H4a.
+Table 3 presents the three-way moderation specification (M6) with joint F-tests. The F-tests yield: F1 (cross-wave curvature shift) = 2.24, p = .107 (NOT rejected at $\alpha$ = .05); F2 (capability moderation within-wave) = 3.26, p = .039 (marginal, not surviving Bonferroni correction at $\alpha$* = .017); F3 (capability-conditioned cross-wave shift) = 0.27, p = .760 (NOT rejected). These results are more consistent with H4b (null capability-curvature moderation) than with H3 and H4a.
 
-However, the direct effects of TCI_full are positive and significant in both waves (β_z = +0.28 in 2012, p < .001; +0.43 in 2024, p < .001), indicating that technological capability is a robust level-shifter of productivity, not a curvature-moderator. Figure 4 summarises the direct-effect pattern.
+However, the direct effects of $\text{TCI}_f$ull are positive and significant in both waves ($\beta$_z = +0.28 in 2012, p < .001; +0.43 in 2024, p < .001), indicating that technological capability is a robust level-shifter of productivity, not a curvature-moderator. Figure 4 summarises the direct-effect pattern.
 
 **Table 3.** Three-way moderation specification: pooled estimates and joint F-tests
 
@@ -289,15 +289,15 @@ F1 corresponds to H2a vs H2b (cross-wave shift vs structural durability); F2 to 
 
 ![Figure 4: TCI and DAI direct-effect coefficients by wave (China, standardised OLS)](figures/p5_china/figure_4_level_shifts.png)
 
-> **Figure 4.** Direct level‑shift coefficients of technological capability (TCI_full) and digital adoption (DAI_core) by wave for Chinese private firms. Error bars are 95 % HC1-robust confidence intervals. Both TCI_full and DAI_core show positive and significant associations in both waves.
+> **Figure 4.** Direct level‑shift coefficients of technological capability ($\text{TCI}_f$ull) and digital adoption ($\text{DAI}_c$ore) by wave for Chinese private firms. Error bars are 95 % HC1-robust confidence intervals. Both $\text{TCI}_f$ull and $\text{DAI}_c$ore show positive and significant associations in both waves.
 
 ### 4.5 Mechanism Analysis: Digital Adoption
 
-DAI_core (own-website) is positive and significant in both waves (β_z ≈ +0.10 in 2012, p = .002; +0.12 in 2024, p < .001) when entered as a control in M2. A separate mechanism-exploration model (M7) tests whether DAI_core mediates the TCI_full-to-lnLP relationship via a sequential mediation path (TCI_full to DAI_core to lnLP). Bootstrap indirect-effect estimates (n = 1,000 draws) yield small but positive indirect effects (2012: +0.018, 95 % CI [0.004, 0.039]; 2024: +0.022, 95 % CI [0.007, 0.043]), consistent with a partial-mediation reading. However, because DAI_core is a single-item binary proxy and because the WBES does not allow attribution of causality, this analysis is exploratory and reported as a “descriptive mechanism sketch” rather than a causal identification claim (Antonakis et al., 2010; Shaver, 2020).
+$\text{DAI}_c$ore (own-website) is positive and significant in both waves ($\beta$_z $\approx$ +0.10 in 2012, p = .002; +0.12 in 2024, p < .001) when entered as a control in M2. A separate mechanism-exploration model (M7) tests whether $\text{DAI}_c$ore mediates the $\text{TCI}_f$ull-to-lnLP relationship via a sequential mediation path ($\text{TCI}_f$ull to $\text{DAI}_c$ore to lnLP). Bootstrap indirect-effect estimates (n = 1,000 draws) yield small but positive indirect effects (2012: +0.018, 95 % CI [0.004, 0.039]; 2024: +0.022, 95 % CI [0.007, 0.043]), consistent with a partial-mediation reading. However, because $\text{DAI}_c$ore is a single-item binary proxy and because the WBES does not allow attribution of causality, this analysis is exploratory and reported as a “descriptive mechanism sketch” rather than a causal identification claim (Antonakis et al., 2010; Shaver, 2020).
 
 ### 4.6 Robustness Checks
 
-**Manufacturing subsample.** Restricting to manufacturing firms (ISIC Rev 3.1 codes 15–38 in 2012; ISIC Rev 4 codes 10–33 in 2024) yields turning points of 48.1 % (2012) and 46.4 % (2024), within the confidence intervals of the full-sample estimates. Paternoster z-tests remain non-significant (FSTS z = +0.61, p = .542; FSTS² z = −0.44, p = .660).
+**Manufacturing subsample.** Restricting to manufacturing firms (ISIC Rev 3.1 codes 15–38 in 2012; ISIC Rev 4 codes 10–33 in 2024) yields turning points of 48.1 % (2012) and 46.4 % (2024), within the confidence intervals of the full-sample estimates. Paternoster z-tests remain non-significant (FSTS z = +0.61, p = .542; $\text{FSTS}^2$ z = −0.44, p = .660).
 
 **Alternative performance measure.** Using log total factor productivity (TFP, estimated via a Levinsohn–Petrin proxy on the WBES production function items) as the dependent variable, the inverted-U is preserved with a turning point of 47.9 % in 2012 and 45.7 % in 2024. Paternoster tests remain non-significant.
 
@@ -305,7 +305,7 @@ DAI_core (own-website) is positive and significant in both waves (β_z ≈ +0.10
 
 **Sample boundary sensitivity.** Re-running M2 with (a) exclusion of firms with FSTS = 0, (b) winsorising FSTS at 95th percentile, and (c) using alternative non-response exclusion rules (excluding only −9 codes) all preserve the inverted-U curvature; turning-point estimates shift by less than 2 percentage points.
 
-**Additional controls.** Adding ISIC 2-digit industry fixed effects (not reported in Table 2 for parsimony) does not alter the main findings; FSTS and FSTS² remain significant with the same sign pattern.
+**Additional controls.** Adding ISIC 2-digit industry fixed effects (not reported in Table 2 for parsimony) does not alter the main findings; FSTS and $\text{FSTS}^2$ remain significant with the same sign pattern.
 
 ---
 
@@ -319,7 +319,7 @@ For Chinese private firms, the threshold around 48 % export intensity operates
 
 ### 5.2 Technological Capability as Level-Shifter
 
-The null moderation finding (F2 = 3.26, p = .039, which does not survive Bonferroni correction at α* = .017, and is consistent with H4b) has a precise interpretation. TCI_full raises the productivity intercept in both waves (β_z = +0.28 in 2012, +0.43 in 2024) but does not shift the turning-point location or change the curvature. This pattern is inconsistent with H3 (rightward turning-point shift for high-capability firms) and marginally consistent with H4a only under a non-Bonferroni threshold (F2 p = .039). The finding recasts the role of technological capability from a curvature-moderator to a “level-shifter”: capability elevates performance at every export-intensity level but does not allow firms to safely exceed the threshold. The direct-effect strengthening from +0.28 to +0.43 (standardised) between 2012 and 2024 is consistent with the hypothesis that digital and knowledge capital became more complementary to productivity during this period (Nambisan et al., 2019; Volberda et al., 2021), but the mechanism remains exploratory.
+The null moderation finding (F2 = 3.26, p = .039, which does not survive Bonferroni correction at $\alpha$* = .017, and is consistent with H4b) has a precise interpretation. $\text{TCI}_f$ull raises the productivity intercept in both waves ($\beta$_z = +0.28 in 2012, +0.43 in 2024) but does not shift the turning-point location or change the curvature. This pattern is inconsistent with H3 (rightward turning-point shift for high-capability firms) and marginally consistent with H4a only under a non-Bonferroni threshold (F2 p = .039). The finding recasts the role of technological capability from a curvature-moderator to a “level-shifter”: capability elevates performance at every export-intensity level but does not allow firms to safely exceed the threshold. The direct-effect strengthening from +0.28 to +0.43 (standardised) between 2012 and 2024 is consistent with the hypothesis that digital and knowledge capital became more complementary to productivity during this period (Nambisan et al., 2019; Volberda et al., 2021), but the mechanism remains exploratory.
 
 This finding is consistent with Avenyo et al. (2021), who find that productive capabilities affect export performance levels but not the shape of the export–productivity curve in African manufacturing firms. The parallel is noteworthy: capability may be a universal level-shifter but not a universal curvature-moderator across emerging economy contexts.
 
@@ -327,21 +327,21 @@ The null TCI moderation of curvature in China is consistent with P4 Singapore (w
 
 ### 5.3 Digital Adoption as Baseline Control
 
-DAI_core (own-website) enters positively and significantly in both waves but does not add explanatory power to the inverted-U curvature beyond TCI_full. The mechanism sketch (Section 4.5) suggests a partial mediation pathway (TCI to DAI to lnLP), but the effect is small and the identification assumptions are not fully met with a single-wave cross-section. The correct interpretation is that digital presence is a complement to productivity rather than a capability construct in this setting. Researchers seeking to operationalise digital capability in future WBES-based work should consider a richer composite (Verhoef et al., 2021; Vial, 2019) once multi-item digital items become available across waves.
+$\text{DAI}_c$ore (own-website) enters positively and significantly in both waves but does not add explanatory power to the inverted-U curvature beyond $\text{TCI}_f$ull. The mechanism sketch (Section 4.5) suggests a partial mediation pathway (TCI to DAI to lnLP), but the effect is small and the identification assumptions are not fully met with a single-wave cross-section. The correct interpretation is that digital presence is a complement to productivity rather than a capability construct in this setting. Researchers seeking to operationalise digital capability in future WBES-based work should consider a richer composite (Verhoef et al., 2021; Vial, 2019) once multi-item digital items become available across waves.
 
 ### 5.4 Limitations
 
-Four inferential bounds apply. Because WBES data are cross-sectional within each wave and panel matching across 2012 and 2024 is not possible due to WBES anonymisation, the temporal stability analysis cannot be interpreted as within-firm change; it compares population-representative cross-sections, and longitudinal causal claims require matched-panel designs such as those available in some country-specific WBES supplements (Hitt et al., 1997). Labour productivity (log sales/employees) further conflates wage trends and capital deepening, so conclusions about productive efficiency rather than revenue-per-employee ratios remain tentative; the Levinsohn–Petrin TFP robustness check (Section 4.6) partially addresses this concern, though it introduces its own production-function assumptions (Shaver, 2020). A third bound is that the TCI_full composite relies on self-reported WBES items, which introduces common-method bias within each wave; future work could triangulate with administrative patent or certification registry data to validate the composite. The single-item DAI_core binary proxy, finally, cannot support strong conclusions about digital capability as a construct; a multi-item composite (Verhoef et al., 2021) would be needed to test the TCI–DAI mediation pathway rigorously.
+Five inferential bounds apply. Because WBES data are cross-sectional within each wave and panel matching across 2012 and 2024 is not possible due to WBES anonymisation, the temporal stability analysis cannot be interpreted as within-firm change; it compares population-representative cross-sections, and longitudinal causal claims require matched-panel designs such as those available in some country-specific WBES supplements (Hitt et al., 1997). Labour productivity (log sales/employees) further conflates wage trends and capital deepening, so conclusions about productive efficiency rather than revenue-per-employee ratios remain tentative; the Levinsohn–Petrin TFP robustness check (Section 4.6) partially addresses this concern, though it introduces its own production-function assumptions (Shaver, 2020). A third bound is that the $\text{TCI}_f$ull composite relies on self-reported WBES items, which introduces common-method bias within each wave; future work could triangulate with administrative patent or certification registry data to validate the composite. The single-item $\text{DAI}_c$ore binary proxy, finally, cannot support strong conclusions about digital capability as a construct; a multi-item composite (Verhoef et al., 2021) would be needed to test the TCI–DAI mediation pathway rigorously. Fifth, all variable construction and harmonization decisions across the two waves were made by the present author group; while these decisions are mechanically reproducible from the documented WBES item-code mappings, no formal inter-coder reliability check on the harmonization choices themselves has been performed. The harmonization protocol is openly available in the replication package.
 
 ### 5.5 Future Research
 
-Several directions emerge from this study. Future work should use WBES panel data (where available for other countries) to test within-firm temporal dynamics of the I–P threshold. The level-shift strengthening of TCI_full between waves also invites investigation of the mechanisms by which technological capability became more productivity-enhancing between 2012 and 2024, while the digital-capability proxy could be enriched using WBES’s emerging e-commerce and platform-sales items (available in some country waves), enabling a more rigorous test of the TCI–DAI mediation pathway. Readers should note that a companion analysis examines a manufacturing-only extraction and GVC-position moderator using the same WBES waves; the present manuscript focuses on the full private-firm frame and threshold stability.
+Several directions emerge from this study. Future work should use WBES panel data (where available for other countries) to test within-firm temporal dynamics of the I–P threshold. The level-shift strengthening of $\text{TCI}_f$ull between waves also invites investigation of the mechanisms by which technological capability became more productivity-enhancing between 2012 and 2024, while the digital-capability proxy could be enriched using WBES’s emerging e-commerce and platform-sales items (available in some country waves), enabling a more rigorous test of the TCI–DAI mediation pathway. Readers should note that a companion analysis examines a manufacturing-only extraction and GVC-position moderator using the same WBES waves; the present manuscript focuses on the full private-firm frame and threshold stability.
 
 ---
 
 ## 6. Conclusion
 
-This study asked whether the inverted-U I–P relationship in Chinese private firms is structurally durable or wave-specific, and whether technological capability moderates the curvature. Using WBES microdata for China (2012 and 2024), we find that the turning points (49.4 % and 47.2 %) are statistically indistinguishable across waves (Paternoster z-tests: FSTS z = +0.82, p = .412; FSTS² z = −0.61, p = .545), supporting H2b (structural durability). Technological capability is a robust positive level-shifter of productivity (β_z = +0.28 in 2012, +0.43 in 2024; both p < .001) but does not significantly moderate the inverted-U curvature (F2 = 3.26, p = .039, not surviving Bonferroni correction; consistent with H4b), challenging dynamic-capabilities arguments that capability extends the performance-enhancing range of internationalisation. The result recasts the inverted-U threshold from a sample-specific regularity to an enduring structural feature of the Chinese private-firm I–P relationship, with implications for both theory and managerial practice.
+This study asked whether the inverted-U I–P relationship in Chinese private firms is structurally durable or wave-specific, and whether technological capability moderates the curvature. Using WBES microdata for China (2012 and 2024), we find that the turning points (49.4 % and 47.2 %) are statistically indistinguishable across waves (Paternoster z-tests: FSTS z = +0.82, p = .412; $\text{FSTS}^2$ z = −0.61, p = .545), supporting H2b (structural durability). Technological capability is a robust positive level-shifter of productivity ($\beta$_z = +0.28 in 2012, +0.43 in 2024; both p < .001) but does not significantly moderate the inverted-U curvature (F2 = 3.26, p = .039, not surviving Bonferroni correction; consistent with H4b), challenging dynamic-capabilities arguments that capability extends the performance-enhancing range of internationalisation. The result recasts the inverted-U threshold from a sample-specific regularity to an enduring structural feature of the Chinese private-firm I–P relationship, with implications for both theory and managerial practice.
 
 ---
 
