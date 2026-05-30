@@ -41,10 +41,7 @@ P8 không trùng với P3–P5 (single mainland Asian) và với P7 (mainland mu
 
 ### 2.1 Forced Internationalization Penalty — named contribution
 
-Khái niệm **Forced Internationalization Penalty** là **named theoretical contribution** của P8, giống như:
-- Lu & Beamish (2004) với "S-curve"
-- Contractor et al. (2003) với "three-stage theory"
-- Bartlett & Ghoshal (1989) với "transnational solution"
+Khái niệm **Forced Internationalization Penalty (FIP)** là tên gọi mà luận án đề xuất cho hệ quả hiệu quả của các ràng buộc cấu trúc SIDS đã được phân tích trong dòng nghiên cứu nền tảng (Briguglio, 1995; mô hình MIRAB của Bertram, 2006; Briguglio et al., 2009). Bản thân ba ràng buộc cấu trúc không phải mới; đóng góp của luận án là (i) chính thức kết nối ba ràng buộc với dấu của hệ số FSTS trong hồi quy I-P ở cấp doanh nghiệp, (ii) cung cấp ước lượng định lượng đầu tiên (β = −0.404, p = .032) trên dữ liệu WBES, và (iii) đặt FIP làm điều kiện biên rõ ràng cho mô hình chữ U ngược. Trong dòng tên gọi của các construct IB như "S-curve" (Lu & Beamish, 2004), "three-stage theory" (Contractor et al., 2003), và "transnational solution" (Bartlett & Ghoshal, 1989), FIP là một construct phụ thuộc dòng SIDS literature chứ không phải một contender độc lập.
 
 Forced Penalty xảy ra khi 3 prerequisites của inverted-U đều **không được đáp ứng**:
 
@@ -221,7 +218,7 @@ Khi giới thiệu dissertation, nêu:
 | **Phân biệt** | "Forced" phân biệt với voluntary internationalization; "Penalty" phân biệt với generic "costs" | ✅ Đạt |
 | **Độ chính xác** | "Forced" = không thể không xuất khẩu (thị trường nội địa quá nhỏ); "Penalty" = tác động âm trên hiệu quả, không phải điểm uốn | ✅ Đạt |
 | **Dễ nhớ** | FIP là viết tắt 3 chữ rõ ràng, không gây nhầm lẫn | ✅ Đạt |
-| **Tìm kiếm** | "Forced Internationalization Penalty" chưa được sử dụng trong IB literature trước P8 | ✅ Đạt |
+| **Tìm kiếm** | Cụm "Forced Internationalization Penalty" với nghĩa quan hệ I-P âm đơn điệu trong SIDS không xuất hiện như construct được đặt tên trước P8 (dù 3 ràng buộc cấu trúc đã được Briguglio 1995 / Bertram 2006 phân tích) | ✅ Đạt với rào đón |
 
 **Kết luận**: Tên tiếng Anh **"Forced Internationalization Penalty (FIP)"** đạt đầy đủ 6 tiêu chí — GIỮ NGUYÊN.
 
@@ -303,12 +300,16 @@ hiệu quả doanh nghiệp trong bối cảnh ba điều kiện tiên quyết c
 ngược thông thường đồng thời không được đáp ứng: (1) thị trường nội địa không đủ 
 quy mô để duy trì hoạt động doanh nghiệp; (2) chi phí thương mại quá cao so với 
 giá trị xuất khẩu tiềm năng; và (3) thiếu hỗ trợ thể chế cho hoạt động quốc tế 
-hóa. FIP là **construct lý thuyết mới** chưa được định danh trong literature kinh 
-doanh quốc tế — không phải giai đoạn "phase 1" tạm thời của lý thuyết ba giai 
-đoạn (Contractor et al., 2003), mà là trạng thái bất lợi cấu trúc dài hạn: không 
-có turning point trong phạm vi dữ liệu SIDS (β = −0,404, p = ,032; xác nhận qua 
-bốn specification). Đây là đóng góp lý thuyết gốc của luận án, có ý nghĩa đặc biệt 
-đối với các mô hình phi tuyến phổ quát trong literature I→P.
+hóa. FIP nối tiếp dòng nghiên cứu nền tảng về SIDS (Briguglio, 1995; mô hình MIRAB 
+của Bertram, 2006) — ba ràng buộc cấu trúc đã được phân tích trong literature 
+SIDS trước. Đóng góp của luận án trong tên gọi này là kết nối formal ba ràng 
+buộc với dấu của hệ số FSTS trong hồi quy I-P ở cấp doanh nghiệp, cùng với 
+ước lượng định lượng đầu tiên trên dữ liệu WBES SIDS (β = −0,404, p = ,032; 
+xác nhận qua bốn specification). Không phải giai đoạn "phase 1" tạm thời của 
+lý thuyết ba giai đoạn (Contractor et al., 2003), mà là trạng thái bất lợi cấu 
+trúc dài hạn: không có turning point trong phạm vi dữ liệu SIDS. Đây là đóng 
+góp lý thuyết của luận án, có ý nghĩa đặc biệt đối với việc định nghĩa rõ ràng 
+điều kiện biên cho các mô hình phi tuyến trong literature I→P.
 ```
 
 ### 8.7 Checklist kiểm tra cuối cùng
