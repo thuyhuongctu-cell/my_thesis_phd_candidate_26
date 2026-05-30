@@ -15,13 +15,13 @@
 
 ## Tóm Tắt
 
-Giả thuyết hình chữ U ngược giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp (I→P) dựa trên ba điều kiện tiền đề cấu trúc: thị trường nội địa khả thi, chi phí thương mại có thể quản lý được, và hỗ trợ thể chế có chức năng. Chúng tôi lập luận rằng khi cả ba điều kiện này đồng thời vắng mặt — như ở các Quốc đảo nhỏ đang phát triển (Small Island Developing States — SIDS) ở Thái Bình Dương — mô hình phi tuyến tính kỳ vọng sụp đổ thành quan hệ âm đơn điệu mà chúng tôi gọi là **Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**.
+Giả thuyết hình chữ U ngược giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp (I-P) dựa trên ba điều kiện tiền đề cấu trúc: thị trường nội địa khả thi, chi phí thương mại có thể quản lý được, và hỗ trợ thể chế có chức năng. Chúng tôi lập luận rằng khi cả ba điều kiện này đồng thời vắng mặt — như ở các Quốc đảo nhỏ đang phát triển (Small Island Developing States — SIDS) ở Thái Bình Dương — mô hình phi tuyến tính kỳ vọng sụp đổ thành quan hệ âm đơn điệu mà chúng tôi gọi là **Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**.
 
 Không giống như độ dốc giảm ở giai đoạn 1 trong lý thuyết quốc tế hóa ba giai đoạn, FIP không phải là chi phí học hỏi tạm thời với điểm ngưỡng cuối cùng. FIP là điều kiện cấu trúc bền vững phát sinh từ sự bắt buộc phải xuất khẩu bất chấp những bất lợi hệ thống.
 
 Sử dụng dữ liệu Khảo sát Doanh nghiệp của Ngân hàng Thế giới (World Bank Enterprise Survey — WBES) từ 1.469 doanh nghiệp thuộc chín nền kinh tế SIDS Thái Bình Dương (2009–2025), chúng tôi phát hiện rằng cường độ quốc tế hóa có quan hệ âm và vững chắc với năng suất lao động (β = −0,404, p = 0,032 trong mô hình hiệu ứng cố định quốc gia-năm; β = −1,236, p < 0,001 khi không có hiệu ứng cố định quốc gia), không có độ cong bậc hai có ý nghĩa thống kê.
 
-Năng lực công nghệ và mức độ áp dụng số — cả hai đều là biến điều tiết có ý nghĩa trong bối cảnh châu Á đại lục — không có ý nghĩa thống kê trong môi trường SIDS. Kết quả này phù hợp với cơ chế FIP: khi các điều kiện tiền đề cấu trúc vắng mặt, năng lực cấp doanh nghiệp không thể chuyển hướng quan hệ I→P sang vùng dương.
+Năng lực công nghệ và mức độ áp dụng số — cả hai đều là biến điều tiết có ý nghĩa trong bối cảnh châu Á đại lục — không có ý nghĩa thống kê trong môi trường SIDS. Kết quả này phù hợp với cơ chế FIP: khi các điều kiện tiền đề cấu trúc vắng mặt, năng lực cấp doanh nghiệp không thể chuyển hướng quan hệ I-P sang vùng dương.
 
 Các phát hiện này tái định khung giả thuyết hình chữ U ngược từ một quy luật thực nghiệm phổ quát thành một quan hệ có điều kiện, xác định các điều kiện biên cho lý thuyết điều tiết thể chế, và có hàm ý trực tiếp cho Chương trình nghị sự Antigua và Barbuda dành cho SIDS.
 
@@ -29,11 +29,11 @@ Các phát hiện này tái định khung giả thuyết hình chữ U ngược 
 
 ## Điểm Nổi Bật (Highlights)
 
-- FIP được định nghĩa là quan hệ âm đơn điệu của I→P khi ba điều kiện tiền đề cấu trúc đồng thời vắng mặt.
+- FIP được định nghĩa là quan hệ âm đơn điệu của I-P khi ba điều kiện tiền đề cấu trúc đồng thời vắng mặt.
 - Bằng chứng từ 1.469 doanh nghiệp thuộc 9 nền kinh tế SIDS Thái Bình Dương (2009–2025).
 - β(FSTS_c) = −0,404* — âm và có ý nghĩa thống kê; Lind–Mehlum xác nhận quan hệ âm đơn điệu.
 - Không tìm thấy điểm ngưỡng trong phạm vi quan sát — khác biệt hoàn toàn với hình chữ U ngược thông thường.
-- Năng lực công nghệ (TCI) và áp dụng số (DAI) không điều tiết được quan hệ I→P trong môi trường SIDS.
+- Năng lực công nghệ (TCI) và áp dụng số (DAI) không điều tiết được quan hệ I-P trong môi trường SIDS.
 - Hàm ý chính sách: chiến lược thúc đẩy xuất khẩu cần đi kèm can thiệp cấu trúc giải quyết chi phí thương mại, thị trường nội địa, và phát triển thể chế.
 
 ---
@@ -42,29 +42,29 @@ Các phát hiện này tái định khung giả thuyết hình chữ U ngược 
 
 ### 1.1 Bối Cảnh và Vấn Đề Nghiên Cứu
 
-Quan hệ giữa quốc tế hóa và hiệu quả doanh nghiệp (I→P) là một trong những quy luật thực nghiệm gây tranh luận nhiều nhất trong nghiên cứu kinh doanh quốc tế (international business — IB). Các phân tích tổng hợp nhất quán báo cáo tác động dương tích cực trung bình (Kirca et al., 2011; Bausch & Krist, 2007), nhưng phương sai giữa các nghiên cứu rất lớn và không đồng nhất — đây là lời mời để khảo sát các *điều kiện* mà dưới đó quốc tế hóa giúp ích hoặc gây hại cho hiệu quả doanh nghiệp (Verbeke & Brugman, 2018).
+Quan hệ giữa quốc tế hóa và hiệu quả doanh nghiệp (I-P) là một trong những quy luật thực nghiệm gây tranh luận nhiều nhất trong nghiên cứu kinh doanh quốc tế (international business — IB). Các phân tích tổng hợp nhất quán báo cáo tác động dương tích cực trung bình (Kirca et al., 2011; Bausch & Krist, 2007), nhưng phương sai giữa các nghiên cứu rất lớn và không đồng nhất — đây là lời mời để khảo sát các *điều kiện* mà dưới đó quốc tế hóa giúp ích hoặc gây hại cho hiệu quả doanh nghiệp (Verbeke & Brugman, 2018).
 
 Giải pháp lý thuyết chủ đạo giả định dạng hàm hình chữ U ngược (Lu & Beamish, 2004): quốc tế hóa ban đầu cải thiện hiệu quả thông qua kinh tế quy mô, học hỏi, và đa dạng hóa thị trường; sau đó, vượt qua một ngưỡng nhất định, chi phí phối hợp và độ phức tạp tổ chức làm xói mòn những lợi ích này. Contractor, Kundu và Hsu (2003) mở rộng điều này thành đường cong S ba giai đoạn, trong đó ngay cả độ dốc giảm ban đầu ở giai đoạn 1 cũng chỉ là tạm thời và cuối cùng nhường chỗ cho lợi ích ròng.
 
-Cả hai khung lý thuyết đều chia sẻ một giả định nền tảng chung: môi trường thể chế, trong khi có thể điều tiết *cường độ* của quan hệ I→P, không làm thay đổi hình dạng cơ bản hay dấu hiệu của quan hệ đó.
+Cả hai khung lý thuyết đều chia sẻ một giả định nền tảng chung: môi trường thể chế, trong khi có thể điều tiết *cường độ* của quan hệ I-P, không làm thay đổi hình dạng cơ bản hay dấu hiệu của quan hệ đó.
 
 Bài báo này thách thức giả định đó. Chúng tôi lập luận rằng một số điều kiện cấu trúc — đặc trưng của các Quốc đảo nhỏ đang phát triển (SIDS) — loại bỏ các điều kiện tiền đề mà logic hình chữ U ngược phụ thuộc vào, thay thế mô hình phi tuyến tính kỳ vọng bằng quan hệ âm đơn điệu. Chúng tôi gọi hiện tượng này là **Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**: tác động âm bền vững của cường độ quốc tế hóa lên hiệu quả doanh nghiệp trong các bối cảnh mà ba điều kiện tiền đề cấu trúc đồng thời vắng mặt.
 
 ### 1.2 Bối Cảnh SIDS và Lý Do Chọn
 
-SIDS đại diện cho bối cảnh có tính cực đoan về lý thuyết nhưng lại thiếu hụt về mặt nghiên cứu thực nghiệm trong lĩnh vực I→P. Các nền kinh tế này được đặc trưng bởi thị trường nội địa cực nhỏ (Tonga: 104.000 dân; Kiribati: 121.000 dân), cô lập địa lý cực đoan làm khuếch đại chi phí thương mại lên 30–210% (Winters & Martins, 2004), và khoảng trống thể chế toàn diện hạn chế khả năng chiếm đoạt lợi nhuận của doanh nghiệp từ các hoạt động quốc tế (Briguglio, 1995; Khanna & Palepu, 2010).
+SIDS đại diện cho bối cảnh có tính cực đoan về lý thuyết nhưng lại thiếu hụt về mặt nghiên cứu thực nghiệm trong lĩnh vực I-P. Các nền kinh tế này được đặc trưng bởi thị trường nội địa cực nhỏ (Tonga: 104.000 dân; Kiribati: 121.000 dân), cô lập địa lý cực đoan làm khuếch đại chi phí thương mại lên 30–210% (Winters & Martins, 2004), và khoảng trống thể chế toàn diện hạn chế khả năng chiếm đoạt lợi nhuận của doanh nghiệp từ các hoạt động quốc tế (Briguglio, 1995; Khanna & Palepu, 2010).
 
 Theo dõi hệ thống gần đây trên 121.249 điểm dữ liệu phát triển xác nhận rằng các điều kiện này đã ngày càng trầm trọng hơn: tiến độ giai đoạn 2020–2025 là chậm nhất từ trước đến nay trên 15 trong số 26 tiêu chuẩn được theo dõi, với SIDS và châu Phi cận Sahara bị ảnh hưởng không cân xứng (Pirlea et al., 2026). Phân tích đa chỉ số độc lập trên sáu chiều phát triển — nghèo đói, tuổi thọ, giáo dục, bình đẳng giới, khí hậu, và điện — cho thấy thế giới đang phát triển với tốc độ chậm nhất trong 75 năm qua, với 54 nền kinh tế còn hơn một thế kỷ nữa mới đạt tiêu chuẩn nước phát triển theo quỹ đạo hiện tại, và SIDS chiếm tỷ lệ không cân xứng trong nhóm này (Mahler, Serajuddin, Wadhwa, & Yonzan, 2026).
 
-Điều quan trọng là các doanh nghiệp ở SIDS không *chọn* quốc tế hóa như một chiến lược tăng trưởng; đối với nhiều doanh nghiệp, xuất khẩu là mệnh lệnh cấu trúc được quy định bởi sự bất khả thi của việc đạt quy mô hiệu quả tối thiểu trong nước. Sự bắt buộc này — quốc tế hóa vì sinh tồn — thay đổi cơ bản logic của quan hệ I→P.
+Điều quan trọng là các doanh nghiệp ở SIDS không *chọn* quốc tế hóa như một chiến lược tăng trưởng; đối với nhiều doanh nghiệp, xuất khẩu là mệnh lệnh cấu trúc được quy định bởi sự bất khả thi của việc đạt quy mô hiệu quả tối thiểu trong nước. Sự bắt buộc này — quốc tế hóa vì sinh tồn — thay đổi cơ bản logic của quan hệ I-P.
 
 ### 1.3 Đóng Góp của Bài Báo
 
-Bài báo này có ba đóng góp vào văn liệu IB. Thứ nhất, chúng tôi giới thiệu và định nghĩa lý thuyết FIP như một điều kiện biên của mô hình hình chữ U ngược, phân biệt nó với các khái niệm liền kề bao gồm chi phí giai đoạn 1 trong lý thuyết ba giai đoạn (Contractor et al., 2003), Trách nhiệm ngoại lai (Liability of Foreignness — Zaheer, 1995), và khởi nghiệp bắt buộc (necessity entrepreneurship — Sarasvathy et al., 2014).
+Bài báo này có ba đóng góp vào các nghiên cứu IB. Thứ nhất, chúng tôi giới thiệu và định nghĩa lý thuyết FIP như một điều kiện biên của mô hình hình chữ U ngược, phân biệt nó với các khái niệm liền kề bao gồm chi phí giai đoạn 1 trong lý thuyết ba giai đoạn (Contractor et al., 2003), Trách nhiệm ngoại lai (Liability of Foreignness — Zaheer, 1995), và khởi nghiệp bắt buộc (necessity entrepreneurship — Sarasvathy et al., 2014).
 
-Thứ hai, chúng tôi cung cấp bằng chứng thực nghiệm từ 1.469 doanh nghiệp thuộc chín nền kinh tế SIDS Thái Bình Dương bằng dữ liệu WBES — phân tích I→P cấp doanh nghiệp toàn diện nhất tại SIDS Thái Bình Dương cho đến nay.
+Thứ hai, chúng tôi cung cấp bằng chứng thực nghiệm từ 1.469 doanh nghiệp thuộc chín nền kinh tế SIDS Thái Bình Dương bằng dữ liệu WBES — phân tích I-P cấp doanh nghiệp toàn diện nhất tại SIDS Thái Bình Dương cho đến nay.
 
-Thứ ba, chúng tôi ghi lại rằng năng lực cấp doanh nghiệp (Chỉ số năng lực công nghệ — TCI, Chỉ số áp dụng số — DAI) không có khả năng vượt qua FIP, chuyển hướng cuộc thảo luận lý thuyết từ "điều tiết thể chế của quan hệ I→P" (Marano, Tallman, & Teece, 2016) sang "quyết định thể chế về dấu của quan hệ I→P."
+Thứ ba, chúng tôi ghi lại rằng năng lực cấp doanh nghiệp (Chỉ số năng lực công nghệ — TCI, Chỉ số áp dụng số — DAI) không có khả năng vượt qua FIP, chuyển hướng cuộc thảo luận lý thuyết từ "điều tiết thể chế của quan hệ I-P" (Marano, Tallman, & Teece, 2016) sang "quyết định thể chế về dấu của quan hệ I-P."
 
 Các phát hiện có hàm ý chính sách trực tiếp theo Chương trình nghị sự Antigua và Barbuda dành cho SIDS (United Nations General Assembly, 2024), cho thấy các chiến lược dựa trên tăng trưởng xuất khẩu có thể không phù hợp một cách hệ thống với thực tế cấu trúc của các vi kinh tế Thái Bình Dương.
 
@@ -74,15 +74,15 @@ Các phát hiện có hàm ý chính sách trực tiếp theo Chương trình ng
 
 ### 2.1 Mô Hình Hình Chữ U Ngược và Các Điều Kiện Tiền Đề Cấu Trúc
 
-Giả thuyết hình chữ U ngược trong nghiên cứu I→P xuất phát từ logic chi phí-lợi ích: khi doanh nghiệp mở rộng sang thị trường nước ngoài, các tác động dương ban đầu (kinh tế quy mô, thu nhận kiến thức, đa dạng hóa thị trường) ban đầu chiếm ưu thế, nhưng vượt qua một ngưỡng nhất định, độ phức tạp tổ chức ngày càng tăng, chi phí phối hợp, và trách nhiệm ngoại lai đảo ngược quỹ đạo hiệu quả (Lu & Beamish, 2004; Hitt, Hoskisson, & Kim, 1997). Điểm ngưỡng — thường được ước tính trong khoảng 30% đến 70% doanh số nước ngoài trên tổng doanh số (cường độ xuất khẩu — Foreign Sales to Total Sales — FSTS) — đại diện cho điểm tại đó chi phí biên bằng lợi ích biên của quốc tế hóa tiếp theo.
+Giả thuyết hình chữ U ngược trong nghiên cứu I-P xuất phát từ logic chi phí-lợi ích: khi doanh nghiệp mở rộng sang thị trường nước ngoài, các tác động dương ban đầu (kinh tế quy mô, thu nhận kiến thức, đa dạng hóa thị trường) ban đầu chiếm ưu thế, nhưng vượt qua một ngưỡng nhất định, độ phức tạp tổ chức ngày càng tăng, chi phí phối hợp, và trách nhiệm ngoại lai đảo ngược quỹ đạo hiệu quả (Lu & Beamish, 2004; Hitt, Hoskisson, & Kim, 1997). Điểm ngưỡng — thường được ước tính trong khoảng 30% đến 70% doanh số nước ngoài trên tổng doanh số (cường độ xuất khẩu — Foreign Sales to Total Sales — FSTS) — đại diện cho điểm tại đó chi phí biên bằng lợi ích biên của quốc tế hóa tiếp theo.
 
 Logic này dựa trên, một cách ngầm định, ba điều kiện tiền đề cấu trúc hiếm khi được phát biểu nhưng thường được thỏa mãn trong các mẫu nghiên cứu IB chính lưu:
 
-**Điều kiện tiền đề 1: Thị trường nội địa khả thi.** Logic hình chữ U ngược giả định rằng doanh nghiệp có căn cứ nội địa hoạt động cung cấp doanh thu, tài nguyên, và học hỏi tổ chức trước và trong quá trình quốc tế hóa (Johanson & Vahlne, 1977; 2009). Khi thị trường nội địa không khả thi — quá nhỏ để hỗ trợ quy mô hiệu quả tối thiểu cho ngay cả các hoạt động cơ bản — doanh nghiệp bị ép buộc về mặt cấu trúc phải xuất khẩu bất kể sự sẵn sàng chiến lược hay năng lực. Giả định "lựa chọn xuất khẩu" làm cơ sở cho hầu hết các mô hình I→P bị phá vỡ.
+**Điều kiện tiền đề 1: Thị trường nội địa khả thi.** Logic hình chữ U ngược giả định rằng doanh nghiệp có căn cứ nội địa hoạt động cung cấp doanh thu, tài nguyên, và học hỏi tổ chức trước và trong quá trình quốc tế hóa (Johanson & Vahlne, 1977; 2009). Khi thị trường nội địa không khả thi — quá nhỏ để hỗ trợ quy mô hiệu quả tối thiểu cho ngay cả các hoạt động cơ bản — doanh nghiệp bị ép buộc về mặt cấu trúc phải xuất khẩu bất kể sự sẵn sàng chiến lược hay năng lực. Giả định "lựa chọn xuất khẩu" làm cơ sở cho hầu hết các mô hình I-P bị phá vỡ.
 
 **Điều kiện tiền đề 2: Chi phí thương mại có thể quản lý được.** Mô hình tiêu chuẩn giả định rằng, ít nhất ban đầu, doanh thu xuất khẩu vượt chi phí xuất khẩu, cho phép một giai đoạn lợi nhuận quốc tế hóa ròng dương. Ở các nền kinh tế bị cô lập về địa lý, chi phí thương mại có thể cực cao đến mức điều kiện này bị vi phạm ngay cả ở cường độ xuất khẩu nhỏ. Winters và Martins (2004) ghi lại mức phí bù chi phí thương mại từ 30–210% cho các nền kinh tế nhỏ xa xôi, phần lớn độc lập với hiệu quả doanh nghiệp hay lựa chọn chiến lược.
 
-**Điều kiện tiền đề 3: Hỗ trợ thể chế có chức năng.** Cả lý thuyết thể chế (Scott, 1995; North, 1990) và văn liệu khoảng trống thể chế (Khanna & Palepu, 2010; Doh et al., 2017) đều coi chất lượng thể chế hỗ trợ thị trường là biến điều tiết cường độ quan hệ I→P. Điều này giả định rằng thể chế biến thiên trên một thang liên tục nơi tồn tại một mức hỗ trợ chức năng nhất định ngay cả ở mức thấp nhất. Khoảng trống thể chế toàn diện — thiếu vắng các trung gian tài chính, thực thi hợp đồng không đáng tin cậy, hạ tầng thuận lợi thương mại hạn chế — không chỉ làm suy yếu đường cong hình chữ U ngược; chúng có thể loại bỏ hoàn toàn cơ chế tạo ra lợi nhuận dương từ quốc tế hóa.
+**Điều kiện tiền đề 3: Hỗ trợ thể chế có chức năng.** Cả lý thuyết thể chế (Scott, 1995; North, 1990) và các nghiên cứu khoảng trống thể chế (Khanna & Palepu, 2010; Doh et al., 2017) đều coi chất lượng thể chế hỗ trợ thị trường là biến điều tiết cường độ quan hệ I-P. Điều này giả định rằng thể chế biến thiên trên một thang liên tục nơi tồn tại một mức hỗ trợ chức năng nhất định ngay cả ở mức thấp nhất. Khoảng trống thể chế toàn diện — thiếu vắng các trung gian tài chính, thực thi hợp đồng không đáng tin cậy, hạ tầng thuận lợi thương mại hạn chế — không chỉ làm suy yếu đường cong hình chữ U ngược; chúng có thể loại bỏ hoàn toàn cơ chế tạo ra lợi nhuận dương từ quốc tế hóa.
 
 ### 2.2 Gánh Nặng Quốc Tế Hóa Bắt Buộc: Định Nghĩa Lý Thuyết
 
@@ -106,9 +106,9 @@ Trong quốc tế hóa vì sinh tồn, FSTS — thước đo tiêu chuẩn của
 
 ### 2.4 Vai Trò của Năng Lực Cấp Doanh Nghiệp
 
-Trong bối cảnh châu Á đại lục và các bối cảnh thể chế khác, năng lực cấp doanh nghiệp điều tiết quan hệ I→P. Chỉ số năng lực công nghệ (Technological Capability Index — TCI) (Lall, 1992; Goedhuys & Sleuwaegen, 2013) và Chỉ số áp dụng số (Digital Adoption Index — DAI) (Teece, 2007) được chứng minh là dịch chuyển đường cong I→P lên phía trên — cho phép doanh nghiệp đạt hiệu quả tốt hơn ở bất kỳ mức độ quốc tế hóa nào — và thay đổi điểm ngưỡng. Cơ chế lý thuyết là các năng lực làm giảm chi phí phức tạp tổ chức ở phần giảm dần của hình chữ U ngược.
+Trong bối cảnh châu Á đại lục và các bối cảnh thể chế khác, năng lực cấp doanh nghiệp điều tiết quan hệ I-P. Chỉ số năng lực công nghệ (Technological Capability Index — TCI) (Lall, 1992; Goedhuys & Sleuwaegen, 2013) và Chỉ số áp dụng số (Digital Adoption Index — DAI) (Teece, 2007) được chứng minh là dịch chuyển đường cong I-P lên phía trên — cho phép doanh nghiệp đạt hiệu quả tốt hơn ở bất kỳ mức độ quốc tế hóa nào — và thay đổi điểm ngưỡng. Cơ chế lý thuyết là các năng lực làm giảm chi phí phức tạp tổ chức ở phần giảm dần của hình chữ U ngược.
 
-Trong bối cảnh FIP, cơ chế điều tiết này có thể bị suy giảm. Nếu quan hệ I→P âm xuất phát từ các điều kiện cấu trúc (thị trường nội địa không khả thi, chi phí thương mại cực cao, khoảng trống thể chế) thay vì từ sự phức tạp tổ chức, thì các năng lực cấp doanh nghiệp giải quyết sự phức tạp tổ chức sẽ không chuyển hướng quan hệ này. Một doanh nghiệp SIDS với năng lực công nghệ vượt trội vẫn phải đối mặt với mức khuếch đại chi phí thương mại 30–210%; một doanh nghiệp SIDS có trang web vẫn phải đối mặt với sự vắng mặt của các trung gian tài chính có chức năng cho tài trợ thương mại. Cơ chế cấu trúc tạo ra FIP hoạt động ở mức độ mà các năng lực cấp doanh nghiệp không thể dễ dàng bù đắp.
+Trong bối cảnh FIP, cơ chế điều tiết này có thể bị suy giảm. Nếu quan hệ I-P âm xuất phát từ các điều kiện cấu trúc (thị trường nội địa không khả thi, chi phí thương mại cực cao, khoảng trống thể chế) thay vì từ sự phức tạp tổ chức, thì các năng lực cấp doanh nghiệp giải quyết sự phức tạp tổ chức sẽ không chuyển hướng quan hệ này. Một doanh nghiệp SIDS với năng lực công nghệ vượt trội vẫn phải đối mặt với mức khuếch đại chi phí thương mại 30–210%; một doanh nghiệp SIDS có trang web vẫn phải đối mặt với sự vắng mặt của các trung gian tài chính có chức năng cho tài trợ thương mại. Cơ chế cấu trúc tạo ra FIP hoạt động ở mức độ mà các năng lực cấp doanh nghiệp không thể dễ dàng bù đắp.
 
 **Giả thuyết 2 (Giả thuyết null năng lực)**: Trong SIDS Thái Bình Dương, Chỉ số năng lực công nghệ (TCI) và Chỉ số áp dụng số (DAI) không điều tiết có ý nghĩa thống kê quan hệ quốc tế hóa–hiệu quả doanh nghiệp.
 
@@ -134,7 +134,7 @@ Chúng tôi đưa vào tất cả các quan sát doanh nghiệp-năm từ các n
 
 **Chỉ số áp dụng số (Digital Adoption Index — DAI_z).** DAI được đo bằng mục WBES c22b (doanh nghiệp có trang web hoạt động, nhị phân). Đây là proxy Tầng 1 nắm bắt *sự hiện diện trang web nền tảng* — bước đầu tiên của sự hiện diện số. Thước đo này phù hợp với bối cảnh SIDS nơi hạ tầng số tiên tiến còn hạn chế — chỉ 5% dân số các nước thu nhập thấp có kỹ năng số cơ bản vào năm 2023, và các nền kinh tế thu nhập cao chiếm 77% công suất trung tâm dữ liệu toàn cầu (Mahler, Wang, & Weber, 2026). DAI_z là giá trị chuẩn hóa z. Chúng tôi không nhận định rằng mình đang đo năng lực số động, vì điều này đòi hỏi các chỉ số đa tầng không có sẵn trong WBES cho mẫu này.
 
-**Biến kiểm soát.** Quy mô doanh nghiệp là logarithm tự nhiên của số lao động thường xuyên (ln_size, từ l1). Tuổi doanh nghiệp là năm khảo sát trừ năm thành lập (b5). Tỷ lệ sở hữu nước ngoài (foreign_own_pct) là tỷ lệ phần trăm vốn chủ sở hữu doanh nghiệp do các thực thể nước ngoài nắm giữ (b2b). Đây là các biến kiểm soát tiêu chuẩn trong nghiên cứu I→P cấp doanh nghiệp (Hitt et al., 1997; Lu & Beamish, 2004).
+**Biến kiểm soát.** Quy mô doanh nghiệp là logarithm tự nhiên của số lao động thường xuyên (ln_size, từ l1). Tuổi doanh nghiệp là năm khảo sát trừ năm thành lập (b5). Tỷ lệ sở hữu nước ngoài (foreign_own_pct) là tỷ lệ phần trăm vốn chủ sở hữu doanh nghiệp do các thực thể nước ngoài nắm giữ (b2b). Đây là các biến kiểm soát tiêu chuẩn trong nghiên cứu I-P cấp doanh nghiệp (Hitt et al., 1997; Lu & Beamish, 2004).
 
 *Bảng 0: Định nghĩa biến và cách xây dựng từ WBES.*
 
@@ -162,13 +162,13 @@ Chúng tôi ước tính bốn họ mô hình để kiểm định H1 và H2:
 ln_LP_it = α + γ₁ ln_size_it + γ₂ firm_age_it + γ₃ foreign_own_pct_it + δ_c + λ_t + ε_it
 
 **M1 (FSTS tuyến tính — kiểm định FIP)**:
-ln_LP_it = α + β₁ FSTS_c_it + γ·X_it + δ_c + λ_t + ε_it
+ln_LP_it = α + β₁ FSTS_c_it + γ, X_it + δ_c + λ_t + ε_it
 
 **M2 (FSTS bậc hai — kiểm định độ cong)**:
-ln_LP_it = α + β₁ FSTS_c_it + β₂ FSTS_c²_it + γ·X_it + δ_c + λ_t + ε_it
+ln_LP_it = α + β₁ FSTS_c_it + β₂ FSTS_c²_it + γ, X_it + δ_c + λ_t + ε_it
 
 **M3 (năng lực — kiểm định null điều tiết)**:
-ln_LP_it = α + β₁ FSTS_c_it + β₂ FSTS_c²_it + β₃ TCI_z_it + β₄ DAI_z_it + γ·X_it + δ_c + λ_t + ε_it
+ln_LP_it = α + β₁ FSTS_c_it + β₂ FSTS_c²_it + β₃ TCI_z_it + β₄ DAI_z_it + γ, X_it + δ_c + λ_t + ε_it
 
 trong đó δ_c biểu thị hiệu ứng cố định quốc gia, λ_t hiệu ứng cố định đợt-năm, và X vector biến kiểm soát. Hiệu ứng cố định quốc gia hấp thụ tính không đồng nhất cấp quốc gia bất biến theo thời gian (chất lượng thể chế, chi phí thương mại, sự xa xôi địa lý) mà nếu không sẽ làm nhiễu hệ số FSTS.
 
@@ -208,7 +208,7 @@ Kết quả biến kiểm soát trong M1 nhất quán với bằng chứng đã 
 
 ### 4.3 Dạng Âm Đơn Điệu: Không Có Độ Cong (H1 — null bậc hai)
 
-**M2** đưa vào hạng tử bậc hai FSTS_c² để kiểm tra liệu quan hệ I→P âm có cuối cùng bị đảo ngược hay không — tức là liệu có mô hình hình chữ U ngược nào với phần dương nằm dưới phạm vi dữ liệu của chúng tôi không.
+**M2** đưa vào hạng tử bậc hai FSTS_c² để kiểm tra liệu quan hệ I-P âm có cuối cùng bị đảo ngược hay không — tức là liệu có mô hình hình chữ U ngược nào với phần dương nằm dưới phạm vi dữ liệu của chúng tôi không.
 
 Kết quả là:
 β(FSTS_c) = −0,925, SE = 0,828, p = 0,265 (không có ý nghĩa)
@@ -256,7 +256,7 @@ Kết quả này rất quan trọng: ngay cả trong số các doanh nghiệp đ
 
 Hệ số FIP (FSTS_c) vẫn âm nhưng mất ý nghĩa thống kê trong M3 (β = −0,974, p = 0,252), có khả năng phản ánh mẫu giảm đáng kể (N = 526 cho M3, so với N = 1.469 cho M1, do các biến năng lực bị thiếu). Chiều hướng của hệ số FSTS_c vẫn âm và về số học lớn hơn trong M3, nhất quán với FIP; sự mất ý nghĩa thống kê có thể quy cho việc giảm năng lực thống kê từ hạn chế mẫu con.
 
-Các kết quả này nhất quán với H2 (không điều tiết): Chỉ số năng lực công nghệ (TCI_z: β = +0,058, SE = 0,085, p = 0,495) và Chỉ số áp dụng số (DAI_z: β = +0,062, SE = 0,073, p = 0,402) không điều tiết có ý nghĩa thống kê quan hệ I→P trong SIDS Thái Bình Dương. Điều này nhất quán với cơ chế FIP áp đảo các tác động năng lực trong các nền kinh tế SIDS bị ràng buộc về mặt cấu trúc.
+Các kết quả này nhất quán với H2 (không điều tiết): Chỉ số năng lực công nghệ (TCI_z: β = +0,058, SE = 0,085, p = 0,495) và Chỉ số áp dụng số (DAI_z: β = +0,062, SE = 0,073, p = 0,402) không điều tiết có ý nghĩa thống kê quan hệ I-P trong SIDS Thái Bình Dương. Điều này nhất quán với cơ chế FIP áp đảo các tác động năng lực trong các nền kinh tế SIDS bị ràng buộc về mặt cấu trúc.
 
 Lưu ý quan trọng: Trong bối cảnh SIDS, DAI không phát huy hiệu quả do hạ tầng số hạn chế. Chúng tôi không gọi đây là "năng lực số động" mà chỉ là proxy sự hiện diện trang web nền tảng Tầng 1. Các ước lượng điểm dương — mặc dù nhỏ và không có ý nghĩa thống kê — cho TCI_z và DAI_z nhất quán với diễn giải rằng các năng lực nâng cao mức năng suất chung (như thấy trong các bối cảnh châu Á đại lục: Goedhuys & Sleuwaegen, 2013; Teece, 2007) nhưng không thể điều chỉnh tính âm cấu trúc của quan hệ FSTS–hiệu quả mà FIP mô tả.
 
@@ -270,29 +270,29 @@ Bảng 2 tóm tắt ma trận hệ số đầy đủ. Mô hình FIP được xá
 
 ### 5.1 FIP như Điều Kiện Biên của Mô Hình Hình Chữ U Ngược
 
-Phát hiện trung tâm của chúng tôi là quan hệ I→P hình chữ U ngược không thỏa mãn trong SIDS Thái Bình Dương. Thay vì mô hình phi tuyến tính với giai đoạn dương, chúng tôi quan sát quan hệ âm đơn điệu tồn tại qua bốn đặc tả mô hình hóa và mạnh hơn trong số các nhà xuất khẩu thực sự so với toàn mẫu. Điều này không nhất quán với dự báo hình chữ U ngược (Lu & Beamish, 2004) và đường cong S ba giai đoạn (Contractor et al., 2003), cả hai đều dự báo ít nhất một phạm vi nào đó của quan hệ quốc tế hóa–hiệu quả dương.
+Phát hiện trung tâm của chúng tôi là quan hệ I-P hình chữ U ngược không thỏa mãn trong SIDS Thái Bình Dương. Thay vì mô hình phi tuyến tính với giai đoạn dương, chúng tôi quan sát quan hệ âm đơn điệu tồn tại qua bốn đặc tả mô hình hóa và mạnh hơn trong số các nhà xuất khẩu thực sự so với toàn mẫu. Điều này không nhất quán với dự báo hình chữ U ngược (Lu & Beamish, 2004) và đường cong S ba giai đoạn (Contractor et al., 2003), cả hai đều dự báo ít nhất một phạm vi nào đó của quan hệ quốc tế hóa–hiệu quả dương.
 
 Khái niệm FIP giải thích sự đảo ngược này thông qua logic các điều kiện tiền đề cấu trúc bị vi phạm. Khi không có thị trường nội địa khả thi, FSTS không phải là biến lựa chọn chiến lược mà là sự cần thiết sinh tồn — các doanh nghiệp không thể tích lũy tài nguyên căn cứ nội địa và năng lực tổ chức để tài trợ và duy trì quốc tế hóa có lợi nhuận. Khi chi phí thương mại khuếch đại "chi phí kinh doanh" của doanh thu xuất khẩu lên 30–210% (Winters & Martins, 2004), kinh tế học biên của xuất khẩu là âm ngay từ đầu. Khi khoảng trống thể chế là toàn diện — thiếu vắng các trung gian tài trợ thương mại, thực thi hợp đồng không đáng tin cậy, hạ tầng tiêu chuẩn hạn chế — các doanh nghiệp không thể chiếm đoạt lợi ích học hỏi và quy mô mà lý thuyết quốc tế hóa hứa hẹn.
 
-Điều này tái định khung hình chữ U ngược từ một quy luật thực nghiệm phổ quát thành một quan hệ *có điều kiện*: nó thỏa mãn khi và bởi vì các điều kiện tiền đề cấu trúc được thỏa mãn. Phát hiện của văn liệu hiện có rằng chất lượng thể chế *điều tiết* quan hệ I→P (Marano et al., 2016) là trường hợp đặc biệt của một quan hệ lý thuyết tổng quát hơn: khi các điều kiện thể chế vượt qua ngưỡng cấu trúc từ "điều tiết yếu hơn" sang "điều kiện tiền đề bị vi phạm," dấu — không chỉ biên độ — của quan hệ I→P đảo ngược.
+Điều này tái định khung hình chữ U ngược từ một quy luật thực nghiệm phổ quát thành một quan hệ *có điều kiện*: nó thỏa mãn khi và bởi vì các điều kiện tiền đề cấu trúc được thỏa mãn. Phát hiện của các nghiên cứu hiện có rằng chất lượng thể chế *điều tiết* quan hệ I-P (Marano et al., 2016) là trường hợp đặc biệt của một quan hệ lý thuyết tổng quát hơn: khi các điều kiện thể chế vượt qua ngưỡng cấu trúc từ "điều tiết yếu hơn" sang "điều kiện tiền đề bị vi phạm," dấu — không chỉ biên độ — của quan hệ I-P đảo ngược.
 
 ### 5.2 Định Vị Lý Thuyết: Từ Mức Độ Sang Loại
 
-FIP đại diện cho sự chuyển dịch định tính trong cách chúng tôi khái niệm hóa các tác động thể chế lên quan hệ I→P. Hầu hết các lý thuyết hóa trước đây coi các tác động thể chế là các điều chỉnh liên tục của hình dạng và vị trí đường cong hình chữ U ngược: chất lượng thể chế cao hơn dịch chuyển FSTS tối ưu lên phía trên, mở rộng phạm vi dương, hoặc nâng cao mức hiệu quả đỉnh (Marano et al., 2016; Hitt et al., 1997). Đây là sự thay đổi về *mức độ*.
+FIP đại diện cho sự chuyển dịch định tính trong cách chúng tôi khái niệm hóa các tác động thể chế lên quan hệ I-P. Hầu hết các lý thuyết hóa trước đây coi các tác động thể chế là các điều chỉnh liên tục của hình dạng và vị trí đường cong hình chữ U ngược: chất lượng thể chế cao hơn dịch chuyển FSTS tối ưu lên phía trên, mở rộng phạm vi dương, hoặc nâng cao mức hiệu quả đỉnh (Marano et al., 2016; Hitt et al., 1997). Đây là sự thay đổi về *mức độ*.
 
-Các phát hiện của chúng tôi chỉ ra một sự thay đổi về *loại*: ở cực đoan của phổ thể chế — nơi tất cả ba điều kiện tiền đề cấu trúc đồng thời vắng mặt — hình thức hàm I→P không phải là hình chữ U ngược được sửa đổi mà là một mô hình định tính khác (quan hệ âm đơn điệu). Điều này mở rộng vốn từ lý thuyết của nghiên cứu IB vượt ra ngoài "điều tiết cường độ" sang "điều tiết sự tồn tại" của quan hệ I→P.
+Các phát hiện của chúng tôi chỉ ra một sự thay đổi về *loại*: ở cực đoan của phổ thể chế — nơi tất cả ba điều kiện tiền đề cấu trúc đồng thời vắng mặt — hình thức hàm I-P không phải là hình chữ U ngược được sửa đổi mà là một mô hình định tính khác (quan hệ âm đơn điệu). Điều này mở rộng vốn từ lý thuyết của nghiên cứu IB vượt ra ngoài "điều tiết cường độ" sang "điều tiết sự tồn tại" của quan hệ I-P.
 
-Phát hiện này kết nối với câu hỏi rộng hơn về điều kiện biên trong lý thuyết IB (Verbeke & Brugman, 2018; Hennart, 2007). Nếu các lý thuyết I→P chính lưu được rút ra từ các mẫu nền kinh tế nơi các điều kiện tiền đề cấu trúc được thỏa mãn rộng rãi, những lý thuyết đó có thể không áp dụng một cách hệ thống cho bối cảnh SIDS — không chỉ cần điều chỉnh, mà đại diện cho một chế độ lý thuyết định tính khác. FIP cung cấp một nhãn hiệu có cơ sở lý thuyết cho chế độ thay thế đó.
+Phát hiện này kết nối với câu hỏi rộng hơn về điều kiện biên trong lý thuyết IB (Verbeke & Brugman, 2018; Hennart, 2007). Nếu các lý thuyết I-P chính lưu được rút ra từ các mẫu nền kinh tế nơi các điều kiện tiền đề cấu trúc được thỏa mãn rộng rãi, những lý thuyết đó có thể không áp dụng một cách hệ thống cho bối cảnh SIDS — không chỉ cần điều chỉnh, mà đại diện cho một chế độ lý thuyết định tính khác. FIP cung cấp một nhãn hiệu có cơ sở lý thuyết cho chế độ thay thế đó.
 
 ### 5.3 Null Năng Lực: Quyết Định Thể Chế vs. Điều Tiết
 
-Kết quả null cho TCI_z và DAI_z trong M3 thêm chiều thứ hai vào lý thuyết FIP. Trong các bối cảnh châu Á đại lục — Việt Nam, Singapore, Trung Quốc, và các mẫu đa quốc gia — Chỉ số năng lực công nghệ (TCI) và Chỉ số áp dụng số (DAI) là các biến điều tiết có ý nghĩa thống kê của quan hệ I→P (Goedhuys & Sleuwaegen, 2013; Teece, 2007). Tại sao chúng null trong SIDS?
+Kết quả null cho TCI_z và DAI_z trong M3 thêm chiều thứ hai vào lý thuyết FIP. Trong các bối cảnh châu Á đại lục — Việt Nam, Singapore, Trung Quốc, và các mẫu đa quốc gia — Chỉ số năng lực công nghệ (TCI) và Chỉ số áp dụng số (DAI) là các biến điều tiết có ý nghĩa thống kê của quan hệ I-P (Goedhuys & Sleuwaegen, 2013; Teece, 2007). Tại sao chúng null trong SIDS?
 
 Cơ chế FIP cung cấp câu trả lời: các năng lực điều tiết *chi phí phức tạp tổ chức* ở phần giảm dần của hình chữ U ngược, nhưng cơ chế FIP hoạt động ở mức độ cấu trúc, tiền-tổ chức. Một doanh nghiệp SIDS với chứng nhận ISO 9001 (TCI cao) vẫn phải đối mặt với mức khuếch đại chi phí thương mại 30–210% như nhau; một doanh nghiệp SIDS có trang web hoạt động (DAI = 1) vẫn phải đối mặt với các thể chế tài trợ thương mại vắng mặt. Các năng lực là các biến điều tiết mạnh trong khuôn khổ điều kiện tiền đề cấu trúc trở nên kém hiệu quả khi những điều kiện tiền đề đó không thỏa mãn.
 
 Điều này nhất quán với sự nhấn mạnh của quan điểm dựa trên nguồn lực về tính phụ thuộc bối cảnh (Barney, 1991): các nguồn lực tạo ra giá trị chỉ trong các môi trường thể chế hỗ trợ khả năng chiếm đoạt. Khung năng lực động của Teece (2007) tương tự giả định các cơ chế thị trường hoạt động; khi vắng mặt chúng, các năng lực động có thể bị "mắc kẹt" trong doanh nghiệp, không thể chuyển hóa thành lợi thế hiệu quả thông qua các giao dịch thị trường quốc tế.
 
-Các ước lượng điểm dương — mặc dù không có ý nghĩa thống kê — cho TCI_z và DAI_z gợi ý rằng các năng lực nâng cao mức năng suất chung (nhất quán với vai trò của chúng trong văn liệu rộng hơn), nhưng không thể điều chỉnh tính âm hướng của quan hệ FSTS–hiệu quả trong bối cảnh cấu trúc SIDS. Sự tinh tế này — các năng lực giúp mức, không phải độ dốc — có thể là một hướng nghiên cứu SIDS trong tương lai có tiềm năng.
+Các ước lượng điểm dương — mặc dù không có ý nghĩa thống kê — cho TCI_z và DAI_z gợi ý rằng các năng lực nâng cao mức năng suất chung (nhất quán với vai trò của chúng trong các nghiên cứu rộng hơn), nhưng không thể điều chỉnh tính âm hướng của quan hệ FSTS–hiệu quả trong bối cảnh cấu trúc SIDS. Sự tinh tế này — các năng lực giúp mức, không phải độ dốc — có thể là một hướng nghiên cứu SIDS trong tương lai có tiềm năng.
 
 ### 5.4 Hàm Ý Chính Sách: Chương Trình Nghị Sự Antigua và Barbuda
 
@@ -326,7 +326,7 @@ Chúng tôi giới thiệu Gánh nặng quốc tế hóa bắt buộc (Forced In
 
 Sử dụng dữ liệu WBES từ 1.469 doanh nghiệp thuộc chín nền kinh tế SIDS Thái Bình Dương, chúng tôi tìm thấy hỗ trợ vững chắc cho FIP trên bốn đặc tả thực nghiệm (β = −0,404, p = 0,032 trong mô hình hiệu ứng cố định quốc gia-năm chính; β = −1,236, p < 0,001 không có hiệu ứng cố định quốc gia; β = −0,901, p = 0,027 trong mẫu con chỉ nhà xuất khẩu). Hạng tử bậc hai không có ý nghĩa thống kê, xác nhận dạng âm đơn điệu — không có điểm ngưỡng trong phạm vi quan sát. Chỉ số năng lực công nghệ (TCI) và Chỉ số áp dụng số (DAI) — có ý nghĩa thống kê trong các bối cảnh châu Á đại lục — null trong môi trường SIDS, nhất quán với cơ chế lý thuyết FIP.
 
-Các phát hiện này đóng góp vào lý thuyết IB theo hai cách. Thứ nhất, chúng giúp định hướng lại diễn ngôn về các tác động thể chế từ "điều tiết thể chế cường độ I→P" sang "quyết định thể chế dấu I→P," gợi ý rằng hình chữ U ngược có thể có điều kiện trên các điều kiện tiền đề cấu trúc thay vì áp dụng rộng rãi trên các bối cảnh. Thứ hai, chúng mở rộng ứng dụng "quốc tế hóa bắt buộc" vượt ra ngoài văn liệu SME sang lĩnh vực kết quả hiệu quả, cung cấp một cấu trúc có định nghĩa lý thuyết và cơ sở thực nghiệm (FIP) mà nghiên cứu trong tương lai có thể xây dựng trên.
+Các phát hiện này đóng góp vào lý thuyết IB theo hai cách. Thứ nhất, chúng giúp định hướng lại diễn ngôn về các tác động thể chế từ "điều tiết thể chế cường độ I-P" sang "quyết định thể chế dấu I-P," gợi ý rằng hình chữ U ngược có thể có điều kiện trên các điều kiện tiền đề cấu trúc thay vì áp dụng rộng rãi trên các bối cảnh. Thứ hai, chúng mở rộng ứng dụng "quốc tế hóa bắt buộc" vượt ra ngoài các nghiên cứu SME sang lĩnh vực kết quả hiệu quả, cung cấp một cấu trúc có định nghĩa lý thuyết và cơ sở thực nghiệm (FIP) mà nghiên cứu trong tương lai có thể xây dựng trên.
 
 Đối với chương trình nghị sự chính sách phát triển thế giới, FIP gợi ý rằng các chiến lược thúc đẩy xuất khẩu trong SIDS đòi hỏi các can thiệp cấu trúc bổ sung giải quyết chi phí thương mại, khả năng khả thi của thị trường nội địa thông qua hội nhập khu vực, và phát triển thể chế có mục tiêu — không chỉ tăng cường hoạt động xuất khẩu như vậy.
 
@@ -433,8 +433,8 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 | ln_size | +0,080 (0,070) | +0,082 (0,070) | +0,084 (0,070) | +0,062 (0,070) | +0,247* (0,097) | — |
 | firm_age | +0,009* (0,005) | +0,009. (0,005) | +0,009. (0,005) | +0,010* (0,005) | +0,047*** (0,009) | — |
 | foreign_own_pct | −0,006. (0,003) | −0,006. (0,003) | −0,006. (0,003) | −0,006. (0,003) | −0,006* (0,003) | — |
-| Hiệu ứng cố định Quốc gia | ✓ | ✓ | ✓ | ✓ | — | — |
-| Hiệu ứng cố định Năm | ✓ | ✓ | ✓ | ✓ | ✓ | — |
+| Hiệu ứng cố định Quốc gia | Có | Có | Có | Có | — | — |
+| Hiệu ứng cố định Năm | Có | Có | Có | Có | Có | — |
 | N | 1.469 | 1.469 | 1.469 | 526 | 1.469 | 1.469 |
 | R² | 0,799 | 0,800 | 0,800 | — | 0,512 | — |
 
