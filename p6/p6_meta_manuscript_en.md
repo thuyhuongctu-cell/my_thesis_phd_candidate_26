@@ -293,6 +293,10 @@ The following pre-registered robustness checks evaluate the sensitivity of the m
 
 *Note:* Counts from working database (`p6/results/forest_data.csv`, K=288 rows, k=238 unique study IDs, updated 23/05/2026). ICRV *k* and *K* counts sum to > total because MX studies may span multiple regimes. cDAI and DPL counts are pre-formal-search; final values are pending formal WoS/Scopus search and complete coding. Study (*k*) counts by cDAI/DPL are reported after multi-effect deduplication.
 
+**Temporal distribution of the corpus.** The sample is right-skewed toward post-2000 publications, reflecting the field's growth trajectory (Figure 6). The 1978–1989 period contributes only 6 studies (2.6%; density 0.5/year); 1990–1999 contributes 18 studies (7.7%; 1.8/year); 2000–2009 contributes 54 studies (23.2%; 5.4/year); 2010–2019 contributes 92 studies (39.5%; 9.2/year); 2020–2022 contributes 46 studies (19.7%; 15.3/year); and 2023–2026 contributes 17 studies (7.3%). The 2010–2022 window dominates with 138 studies (59% of the corpus). Implication: the main-effect MARA and $I^2$ estimates remain valid because they pool across the full corpus, but any sub-period analysis before 1990 is underpowered, and time-trend moderation interpretations should be confined to the 2000–2022 window where annual density supports stable subgroup estimates.
+
+![Figure 6. Distribution of primary studies by publication year (k = 238). The corpus is right-skewed toward post-2000 publications, with the 2010–2022 window accounting for 59% of the studies. Sparse pre-1990 density precludes a separate early-period subgroup; DPL phase boundaries (2009, 2014) are anchored to digital-coordination diffusion landmarks rather than to within-corpus density.](figures/figure6_year_distribution.png)
+
 ### 4.2 Baseline Three-Level Model
 
 **ICBEF 2025 single-level baseline (MetaEssentials 1.5, k = 113):**
@@ -674,7 +678,7 @@ Records screened at L2 (title):                      n =   782
       criteria applied via web-sourced abstracts for all 10 remaining):
     Resolved Y (S0129, S0240, S0683):                n =     3
     Resolved N (wrong I measure/DV/focal unit):      n =     7
-    Still UNSURE:                                    n =     0  ← ALL RESOLVED ✓
+    Still UNSURE:                                    n =     0  (all resolved) ✓
 
   Total L2 Y (WoS arm):                             n =   565  ✓
     (= 345 L2 Y + 135 R1 + 30 R2 + 25 R3 + 15 R4 + 4 R5 + 8 R6 + 0 R7 + 3 R8)
@@ -683,7 +687,7 @@ Records screened at L2 (title):                      n =   782
       title-pattern analysis for 92 unresolved prescreen flags):
     Y (include for extraction):                       n =    41  ✓
     N (exclude from extraction priority):             n =    51
-    Still UNSURE:                                     n =     0  ← ALL RESOLVED ✓
+    Still UNSURE:                                     n =     0  (all resolved) ✓
   Extraction pool prescreen: Y=435 (81.3%), N=100 (18.7%), UNSURE=0
 
 ELIGIBILITY — Deduplication vs. Prior Database
