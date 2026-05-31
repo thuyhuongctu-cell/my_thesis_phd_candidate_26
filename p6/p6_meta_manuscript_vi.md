@@ -10,13 +10,13 @@
 
 ## Tóm tắt
 
-**Mục đích.** Phân tích tổng hợp hồi quy ba cấp (MARA) đầu tiên về quan hệ quốc tế hóa–hiệu quả (I-P) nhằm kiểm định liệu áp dụng số cấp quốc gia (cDAI), chế độ bối cảnh thể chế (ICRV), và giai đoạn Vòng đời Nghịch lý Số (DPL) có điều tiết quan hệ này trên một corpus đa dạng địa lý hay không.
+**Mục đích.** Phân tích tổng hợp hồi quy ba cấp (MARA) đầu tiên về quan hệ quốc tế hóa–hiệu quả (I-P) nhằm kiểm định liệu áp dụng số cấp quốc gia (cDAI), chế độ bối cảnh thể chế (ICRV), và giai đoạn Vòng đời Nghịch lý Số (DPL) có điều tiết quan hệ này hay không.
 
-**Thiết kế/phương pháp/cách tiếp cận.** Tuân theo PRISMA 2020, truy ngược–truy xuôi trích dẫn của năm meta-analysis neo cùng hand-search đã tập hợp corpus phân tích *k* = 238 nghiên cứu và *K* = 288 cỡ hiệu ứng từ 49 nền kinh tế. MARA ba cấp qua gói *metafor* phân tách dị biệt trong và giữa nghiên cứu, với tiền đăng ký trên OSF.
+**Thiết kế/phương pháp/cách tiếp cận.** Truy ngược–truy xuôi PRISMA 2020 của năm meta-analysis neo cùng hand-search tập hợp *k* = 238 nghiên cứu, *K* = 288 cỡ hiệu ứng từ 49 nền kinh tế. MARA ba cấp qua *metafor* với tiền đăng ký OSF; sáu kiểm định thiên lệch ước lượng khoảng hiệu ứng hiệu chỉnh.
 
-**Kết quả chính.** Hiệu ứng tổng hợp *r* = .074 (95% CI [.060, .088], *p* < .001; *I*² = 87.8%). Omnibus ICRV trên toàn mẫu có ý nghĩa (*Q*_M = 17.35, *p* = .002) nhưng không bền vững: drop-Frontier đưa về *Q*_M = 1.49 (*p* = .68); cDAI và DPL không có ý nghĩa. Trim-and-fill ước lệ *k* = 58 nghiên cứu thiếu, cắt *r* xuống .035 — suy giảm khoảng 53% (Begg *p* < .001).
+**Kết quả chính.** Hiệu ứng tổng hợp *r* = .074 (95% CI [.060, .088], *p* < .001; *I*² = 87.8%). Omnibus ICRV trên toàn mẫu *Q*_M = 17.35 (*p* = .002) không bền vững: drop-Frontier đưa về *Q*_M = 1.49 (*p* = .68); cDAI và DPL không có ý nghĩa. Sáu kiểm định bao quát ước lượng hiệu ứng hiệu chỉnh: trim-and-fill ước lệ *k* = 58 nghiên cứu thiếu và cắt *r* xuống .035 (mức điều chỉnh mạnh); PET-PEESE cho *r* = .061; mô hình lựa chọn ba tham số Vevea-Hedges cho *r* = .077 với bằng chứng chọn lọc có ý nghĩa thống kê (LRT *p* = .002, Begg *p* < .001). Ước lượng đã hiệu chỉnh nên được đọc như khoảng [.035, .077] thay vì một điểm.
 
-**Tính nguyên gốc/giá trị.** MARA ba cấp đầu tiên và kiểm định meta-analytic tiền đăng ký đầu tiên về cDAI/ICRV/DPL trong tài liệu I-P; lượng hóa hệ thống đầu tiên về mức suy giảm do thiên lệch công bố trong cơ sở bằng chứng 40 năm này.
+**Tính nguyên gốc/giá trị.** MARA ba cấp đầu tiên và kiểm định meta-analytic tiền đăng ký đầu tiên về cDAI/ICRV/DPL trong tài liệu I-P; ước lượng đa phương pháp đầu tiên về khoảng suy giảm do thiên lệch công bố trong cơ sở bằng chứng 40 năm này.
 
 **Từ khóa:** quan hệ quốc tế hóa–hiệu quả; phân tích tổng hợp; mô hình ba cấp; áp dụng số; bối cảnh thể chế; thiên lệch công bố
 

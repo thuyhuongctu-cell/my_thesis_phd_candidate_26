@@ -10,13 +10,13 @@
 
 ## Abstract
 
-**Purpose.** First three-level meta-analytic regression analysis (MARA) of the internationalization–performance (I-P) relationship testing whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate it across a geographically diverse corpus.
+**Purpose.** First three-level meta-analytic regression analysis (MARA) of the internationalization–performance (I-P) relationship testing whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate it.
 
-**Design/methodology/approach.** Following PRISMA 2020, backward and forward citation tracking of five anchor meta-analyses with hand-search assembles an analyzed corpus of *k* = 238 studies and *K* = 288 effect sizes from 49 economies. Three-level MARA via *metafor* decomposes within- and between-study heterogeneity under OSF pre-registration.
+**Design/methodology/approach.** PRISMA 2020 backward and forward citation tracking of five anchor meta-analyses with hand-search assembles *k* = 238 studies, *K* = 288 effect sizes from 49 economies. Three-level MARA via *metafor* under OSF pre-registration; six bias tests bound the corrected effect.
 
-**Findings.** Pooled effect *r* = .074 (95% CI [.060, .088], *p* < .001; *I*² = 87.8%). The full-sample ICRV omnibus is significant (*Q*_M = 17.35, *p* = .002) but not robust: drop-Frontier sensitivity yields *Q*_M = 1.49 (*p* = .68); cDAI and DPL moderation are non-significant. Trim-and-fill imputes *k* = 58 missing studies, cutting *r* to .035 — a ~53% attenuation (Begg *p* < .001).
+**Findings.** Pooled *r* = .074 (95% CI [.060, .088], *p* < .001; *I*² = 87.8%). Full-sample ICRV omnibus *Q*_M = 17.35 (*p* = .002) is not robust: drop-Frontier yields *Q*_M = 1.49 (*p* = .68); cDAI and DPL are non-significant. Six bias tests bound the bias-corrected effect: trim-and-fill imputes *k* = 58 and cuts *r* to .035; PET-PEESE yields *r* = .061; Vevea-Hedges selection model returns *r* = .077 with model-based selection evidence (LRT *p* = .002). True effect is best read as interval [.035, .077], not a point.
 
-**Originality/value.** First three-level MARA and first pre-registered cDAI/ICRV/DPL meta-test in the I-P literature; first systematic quantification of publication-bias attenuation in this 40-year evidence base.
+**Originality/value.** First three-level MARA and first pre-registered cDAI/ICRV/DPL meta-test in the I-P literature; first multi-method bounding of publication-bias attenuation in this 40-year base.
 
 **Keywords:** internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; publication bias
 
