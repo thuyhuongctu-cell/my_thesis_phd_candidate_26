@@ -1,7 +1,6 @@
 # Bối cảnh thể chế, áp dụng số và quan hệ quốc tế hóa–hiệu quả hoạt động kinh doanh: Phân tích tổng hợp ba cấp
 
-**Đỗ Thị Thúy Hương**, Trường Đại học Cần Thơ / Huong Do Thi Thuy
-**Phan Anh Tú**, Trường Đại học Cần Thơ
+*Thông tin tác giả đã được ẩn để phục vụ đánh giá mù*
 
 *Bản thảo chuẩn bị nộp: Management International Review (MIR; Springer, Scopus Q1, ABS-3)*
 *Phiên bản 1.3, tháng 5/2026 (mục tiêu nộp tạp chí: Q3 2026; v1.3 đồng bộ với các sửa chữa adversarial-review)*
@@ -28,7 +27,7 @@
 
 Quan hệ giữa mức độ quốc tế hóa của doanh nghiệp và hiệu quả hoạt động kinh doanh của doanh nghiệp đó, "quan hệ I-P", là chủ đề được phân tích tổng hợp nhiều nhất trong nghiên cứu kinh doanh quốc tế. Qua bốn thập kỷ với sáu phân tích tổng hợp lớn (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Wu et al., 2022; Arte & Larimo, 2022), các hiệu ứng tổng hợp dương vẫn nhất quán nhỏ trong khi $I^2$ thường xuyên vượt 80%, cho thấy bối cảnh, chứ không phải một cơ chế phổ quát, mới chi phối kết quả. Việc quốc tế hóa có cải thiện hiệu quả doanh nghiệp hay không định hình quyết định đầu tư, chính sách xúc tiến xuất khẩu, và chiến lược doanh nghiệp trong nền kinh tế toàn cầu kết nối (Hitt et al., 2006; Lu & Beamish, 2004), nhưng bức tranh tổng thể vẫn chưa rõ ràng.
 
-Điểm xuất phát của nghiên cứu này là cơ sở ICBEF 2025 (Do & Phan, 2024): *k* = 113 nghiên cứu, *r* tổng hợp = 0.07 (*p* < .001), $I^2$ = 87.92%. Cơ sở đó xác nhận hiệu ứng trung bình dương nhưng để lại khoảng 70% phương sai chưa giải thích được sau khi áp dụng các biến điều tiết chuẩn (quốc gia xuất xứ, ngành, loại đo lường hiệu quả). Ba biến điều tiết có cơ sở lý thuyết vững chắc, vắng mặt trong tất cả phân tích tổng hợp trước, thúc đẩy phần mở rộng hiện tại.
+Điểm xuất phát của nghiên cứu này là cơ sở ICBEF 2025 (Author Citation, 2024 — ICBEF): *k* = 113 nghiên cứu, *r* tổng hợp = 0.07 (*p* < .001), $I^2$ = 87.92%. Cơ sở đó xác nhận hiệu ứng trung bình dương nhưng để lại khoảng 70% phương sai chưa giải thích được sau khi áp dụng các biến điều tiết chuẩn (quốc gia xuất xứ, ngành, loại đo lường hiệu quả). Ba biến điều tiết có cơ sở lý thuyết vững chắc, vắng mặt trong tất cả phân tích tổng hợp trước, thúc đẩy phần mở rộng hiện tại.
 
 **Khoảng trống 1, cDAI.** Áp dụng số cấp quốc gia đã được đề xuất như một yếu tố bối cảnh khuếch đại lợi thế cạnh tranh ở cấp doanh nghiệp (Stallkamp & Schotter, 2021; Verhoef et al., 2021), nhưng chưa có phân tích tổng hợp nào kiểm định liệu môi trường hạ tầng số quốc gia có điều tiết liên kết I-P hay không.
 
@@ -314,11 +313,11 @@ Hiệu chỉnh trim-and-fill (*k* = 58 ước lệ, *r* đã điều chỉnh = 0
 
 ### 5.1 Khớp với bằng chứng cấp quốc gia
 
-Cơ sở meta-analytic (*r* = 0.074, *k* = 238, 49 nền kinh tế) nhất quán với bằng chứng cấp quốc gia từ toàn corpus nghiên cứu toàn cầu, bao gồm các nghiên cứu sơ cấp châu Á-Thái Bình Dương làm nền tảng cho cơ sở ICBEF 2025 (Do & Phan, 2024). Hiệu ứng tổng hợp dương và có ý nghĩa, xác nhận rằng các doanh nghiệp xuất khẩu mạnh có xu hướng vượt trội hơn các đối thủ tập trung nội địa ngay cả sau khi điều chỉnh quy mô doanh nghiệp, tuổi và ngành.
+Cơ sở meta-analytic (*r* = 0.074, *k* = 238, 49 nền kinh tế) nhất quán với bằng chứng cấp quốc gia từ toàn corpus nghiên cứu toàn cầu, bao gồm các nghiên cứu sơ cấp châu Á-Thái Bình Dương làm nền tảng cho cơ sở ICBEF 2025 (Author Citation, 2024 — ICBEF). Hiệu ứng tổng hợp dương và có ý nghĩa, xác nhận rằng các doanh nghiệp xuất khẩu mạnh có xu hướng vượt trội hơn các đối thủ tập trung nội địa ngay cả sau khi điều chỉnh quy mô doanh nghiệp, tuổi và ngành.
 
 **Bối cảnh Tiên tiến Sáng tạo (Chế độ I, *K* = 139; *r̄* = 0.079, 95% CI [0.059, 0.099]):** Trung bình nhóm Tiên tiến Sáng tạo (*r̄* = 0.079) là ô đơn quốc gia đông dữ liệu nhất và định hướng nhất quán với lý thuyết bổ trợ thể chế: thực thi hợp đồng mạnh, bảo vệ sở hữu trí tuệ và rủi ro ngoại lai thấp (Zaheer, 1995) cho phép doanh nghiệp duy trì quốc tế hóa năng suất mà không có các phạt chi phí phối hợp thấy được trong các môi trường yếu hơn (North, 1990; Peng et al., 2008). Nó nằm hơi trên cơ sở tổng hợp (*r* = 0.074) nhưng khoảng tin cậy của nó chồng lấp thoải mái với các chế độ đông dữ liệu khác.
 
-**Bối cảnh Mới nổi (Chế độ III, *K* = 91; *r̄* = 0.069, 95% CI [0.045, 0.093]):** Ô Mới nổi đông dữ liệu và cho ước lượng dương đáng tin cậy (*r̄* = 0.069) thống kê không phân biệt được với trung bình Tiên tiến Sáng tạo, trực tiếp trái với thứ tự tiên tiến-trên-mới-nổi mà E1a dự đoán. Một phân tích nghiên cứu sơ cấp đồng hành bởi nhóm tác giả hiện tại (Do và Phan, 2025) trên 380 doanh nghiệp WBES Ấn Độ ghi nhận hệ số DOI tổng hợp âm với kinh nghiệm quản lý và lãnh đạo top-management nữ là các yếu tố điều tiết dương, một mẫu hình nhất quán với cách diễn giải nguồn-lực-bù-trừ-cấp-doanh-nghiệp được thảo luận trong §5.2; chúng tôi ghi nhận sự chồng lấp này để đánh dấu chứ không che giấu, mối liên kết với chương trình nghiên cứu sơ cấp rộng hơn của chúng tôi.
+**Bối cảnh Mới nổi (Chế độ III, *K* = 91; *r̄* = 0.069, 95% CI [0.045, 0.093]):** Ô Mới nổi đông dữ liệu và cho ước lượng dương đáng tin cậy (*r̄* = 0.069) thống kê không phân biệt được với trung bình Tiên tiến Sáng tạo, trực tiếp trái với thứ tự tiên tiến-trên-mới-nổi mà E1a dự đoán. Một phân tích nghiên cứu sơ cấp đồng hành bởi nhóm tác giả hiện tại (Tác giả ẩn danh, 2025 — IntechOpen) trên 380 doanh nghiệp WBES Ấn Độ ghi nhận hệ số DOI tổng hợp âm với kinh nghiệm quản lý và lãnh đạo top-management nữ là các yếu tố điều tiết dương, một mẫu hình nhất quán với cách diễn giải nguồn-lực-bù-trừ-cấp-doanh-nghiệp được thảo luận trong §5.2; chúng tôi ghi nhận sự chồng lấp này để đánh dấu chứ không che giấu, mối liên kết với chương trình nghiên cứu sơ cấp rộng hơn của chúng tôi.
 
 **Bối cảnh Frontier (Chế độ FR, *K* = 3; *r̄* = 0.349, 95% CI [0.218, 0.468]):** Ước lượng Frontier *K* = 3 cao bất thường và bao gồm một nghiên cứu outlier (Pouresmaeili et al., 2018, *r* = 0.69, *n* = 226 doanh nghiệp sản xuất Iran). Ô này là người đóng góp đơn lẻ lớn nhất cho omnibus *Q*_M có ý nghĩa, nhưng trên chỉ ba hiệu ứng nó không thể diễn giải là hiệu ứng I-P Frontier đáng tin cậy, và ước lượng điểm cao (không phải thấp) của nó trực tiếp trái với nền Frontier mà E1b dự đoán. Hiệu ứng I-P Frontier thực tế có thể là không, dương, hoặc âm, cần *K* lớn hơn đáng kể.
 
@@ -403,9 +402,9 @@ David, P. A. (1990). The dynamo and the computer: An historical perspective on t
 
 Dickersin, K. (1990). The existence of publication bias and risk factors for its occurrence. *JAMA, 263*(10), 1385–1389. https://doi.org/10.1001/jama.1990.03440100097014
 
-Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF).
+Author Citation (2024, December). [Author details removed for blind review.]
 
-Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+Author Citation (2025). [Author details removed for blind review.]
 
 Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis. *Biometrics, 56*(2), 455–463.
 

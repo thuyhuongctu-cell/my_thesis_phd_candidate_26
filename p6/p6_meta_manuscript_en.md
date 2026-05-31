@@ -1,7 +1,6 @@
 # Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis
 
-**Đỗ Thị Thúy Hương**, Can Tho University / Huong Do Thi Thuy
-**Phan Anh Tú**, Can Tho University
+*Author details removed for blind review*
 
 *Manuscript prepared for: Management International Review (MIR; Springer, Scopus Q1, ABS-3)*
 *Version 1.3, May 2026 (target journal submission: Q3 2026; v1.3 incorporates adversarial-review fixes)*
@@ -28,7 +27,7 @@
 
 The relationship between a firm's degree of internationalization and its performance, the "I-P relationship", is the most meta-analyzed question in international business. Over four decades and six major meta-analyses (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Wu et al., 2022; Arte & Larimo, 2022), pooled positive effects are consistently small yet $I^2$ regularly exceeds 80%, signalling that context, not a universal mechanism, drives outcomes. Whether internationalization improves firm performance shapes investment decisions, export-promotion policy, and firm strategy in an interconnected global economy (Hitt et al., 2006; Lu & Beamish, 2004), yet the record remains inconclusive.
 
-The present study's starting point is the ICBEF 2025 baseline (Do & Phan, 2024): *k* = 113 studies, pooled *r* = 0.07 (*p* < .001), $I^2$ = 87.92%. That baseline confirmed the positive average effect but left approximately 70% of variance unexplained after the standard moderators (country of origin, industry, performance measure). Three theoretically grounded moderators, absent from all prior meta-analyses, motivate the present extension.
+The present study's starting point is the ICBEF 2025 baseline (Author Citation, 2024 — ICBEF): *k* = 113 studies, pooled *r* = 0.07 (*p* < .001), $I^2$ = 87.92%. That baseline confirmed the positive average effect but left approximately 70% of variance unexplained after the standard moderators (country of origin, industry, performance measure). Three theoretically grounded moderators, absent from all prior meta-analyses, motivate the present extension.
 
 **Gap 1, cDAI.** Country-level digital adoption has been proposed as a contextual amplifier of firm-level competitive advantages (Stallkamp & Schotter, 2021; Verhoef et al., 2021), yet no meta-analysis has tested whether the national digital infrastructure environment moderates the I-P link.
 
@@ -135,7 +134,7 @@ Two independent screeners applied the eligibility criteria below in two stages (
 
 #### 3.3.1 Effect-Size Extraction Protocol
 
-Statistical parameters were extracted manually from the full text of each eligible study by the primary coder (PI: Đỗ Thùy Hương), using the standardized coding form specified in Appendix B. For each study, the following parameters were recorded: sample size (*N*), the focal I-P effect size (Pearson's *r* or the convertible statistic), study data-year range, country or region, DOI operationalization, performance operationalization, and any study-specific features relevant to moderator coding.
+Statistical parameters were extracted manually from the full text of each eligible study by the primary coder (PI; identity withheld for blind review), using the standardized coding form specified in Appendix B. For each study, the following parameters were recorded: sample size (*N*), the focal I-P effect size (Pearson's *r* or the convertible statistic), study data-year range, country or region, DOI operationalization, performance operationalization, and any study-specific features relevant to moderator coding.
 
 **Effect-size conversion hierarchy.** When Pearson's *r* was not reported directly, the following conversion sequence was applied in order of statistical precision: (i) *r* from *t*-statistic: $r = \sqrt{t^2 / (t^2 + df)}$ (Cohen, 1988); (ii) *r*_partial from standardized regression $\beta$: *r*_partial = $\beta$ $\times$ 0.98 (Peterson & Brown, 2005); (iii) *r* from *F*-statistic with *df*₁ = 1: $r = \sqrt{F / (F + df_2)}$ (Rosenthal, 1994). Studies reporting only unstandardized $\beta$ without an associated *t*-statistic and *df* were excluded from the meta-analytic sample unless the *p*-value allowed at minimum a directional classification.
 
@@ -318,11 +317,11 @@ The baseline *r* = 0.074 is robust across all sensitivity checks: confirmed-*r*-
 
 ### 5.1 Alignment with Country-Level Evidence
 
-The meta-analytic baseline (*r* = 0.074, *k* = 238, 49 economies) is consistent with country-level evidence from across the global study corpus, including the Asia-Pacific primary studies underlying the ICBEF 2025 baseline (Do & Phan, 2024). The pooled effect is positive and significant, confirming that export-intensive firms tend to outperform domestically focused peers even after adjusting for firm size, age, and industry.
+The meta-analytic baseline (*r* = 0.074, *k* = 238, 49 economies) is consistent with country-level evidence from across the global study corpus, including the Asia-Pacific primary studies underlying the ICBEF 2025 baseline (Author Citation, 2024 — ICBEF). The pooled effect is positive and significant, confirming that export-intensive firms tend to outperform domestically focused peers even after adjusting for firm size, age, and industry.
 
 **Advanced-Innovation contexts (Regime I, *K* = 139; *r̄* = 0.079, 95% CI [0.059, 0.099]):** The Advanced-Innovation group mean (*r̄* = 0.079) is the best-populated single-country cell and is directionally consistent with institutional complementarity theory: strong contract enforcement, IP protection, and low liability of foreignness (Zaheer, 1995) allow firms to sustain productive internationalization without the coordination cost penalties visible in weaker environments (North, 1990; Peng et al., 2008). It sits marginally above the pooled baseline (*r* = 0.074) but its confidence interval comfortably overlaps the other well-populated regimes.
 
-**Emerging contexts (Regime III, *K* = 91; *r̄* = 0.069, 95% CI [0.045, 0.093]):** The Emerging cell is well-populated and yields a reliable positive estimate (*r̄* = 0.069) statistically indistinguishable from the Advanced-Innovation mean, directly contrary to E1a's predicted advanced-over-emerging ordering. A companion primary-study analysis by the present author group (Do & Phan, 2025) on 380 Indian WBES firms documents a negative aggregate DOI coefficient with manager experience and female top-management leadership as positive moderating factors, a pattern consistent with the firm-level-compensating-resources interpretation discussed in §5.2; we note this overlap to flag, rather than conceal, the link to our wider primary-study programme.
+**Emerging contexts (Regime III, *K* = 91; *r̄* = 0.069, 95% CI [0.045, 0.093]):** The Emerging cell is well-populated and yields a reliable positive estimate (*r̄* = 0.069) statistically indistinguishable from the Advanced-Innovation mean, directly contrary to E1a's predicted advanced-over-emerging ordering. A companion primary-study analysis by the present author group (Author Citation, 2025 — IntechOpen) on 380 Indian WBES firms documents a negative aggregate DOI coefficient with manager experience and female top-management leadership as positive moderating factors, a pattern consistent with the firm-level-compensating-resources interpretation discussed in §5.2; we note this overlap to flag, rather than conceal, the link to our wider primary-study programme.
 
 **Frontier contexts (Regime FR, *K* = 3; *r̄* = 0.349, 95% CI [0.218, 0.468]):** The *K* = 3 Frontier estimate is anomalously high and includes one outlier study (Pouresmaeili et al., 2018, *r* = 0.69, *n* = 226 Iranian manufacturing firms). This cell is the single largest contributor to the significant omnibus *Q*_M, yet on only three effects it cannot be interpreted as a reliable Frontier I-P effect, and its high (not low) point estimate is directly contrary to E1b's predicted Frontier floor. The actual Frontier I-P effect could be zero, positive, or negative, substantially larger *K* is required.
 
@@ -406,9 +405,9 @@ David, P. A. (1990). The dynamo and the computer: An historical perspective on t
 
 Dickersin, K. (1990). The existence of publication bias and risk factors for its occurrence. *JAMA, 263*(10), 1385–1389. https://doi.org/10.1001/jama.1990.03440100097014
 
-Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF).
+Author Citation (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. International conference on sustainable development in economics, business, and finance (ICBEF). [Author details removed for blind review.]
 
-Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+Author Citation (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. [Author details removed for blind review.]
 
 Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis. *Biometrics, 56*(2), 455–463.
 
