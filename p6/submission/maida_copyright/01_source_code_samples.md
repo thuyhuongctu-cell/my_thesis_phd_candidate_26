@@ -21,10 +21,10 @@ M-AIDA: Meta-Analysis Intelligent Data Assistant
         Internationalization & Performance Research Pipeline
 =============================================================================
 Version   : 7.0.0
-Copyright : © [Năm] Đỗ Thị Thúy Hương & Phan Anh Tú. All rights reserved.
+Copyright : © 2026 Đỗ Thị Thúy Hương & Phan Anh Tú. All rights reserved.
 Authors   : Đỗ Thị Thúy Hương (Primary Investigator); Phan Anh Tú
 Unit      : College of Economics, Can Tho University (CTU), Vietnam
-Created   : [DD/MM/YYYY]
+Created   : 29/05/2026
 License   : Proprietary — Research Use Only
 
 Protected by copyright law. Unauthorized reproduction, distribution,

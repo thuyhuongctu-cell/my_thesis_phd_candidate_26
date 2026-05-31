@@ -89,6 +89,42 @@ logic xử lý nằm trong một tệp `MAIDA_intake.html` (HTML5 + JavaScript E
 PDF.js nạp từ CDN để đọc tệp PDF. Lựa chọn kiến trúc này nhằm tối đa hóa tính khả chuyển, khả
 năng tái lập và bảo mật dữ liệu (mọi dữ liệu lưu cục bộ trên trình duyệt, không truyền ra ngoài).
 
+### 6.1 PHẦN DO TÁC GIẢ TỰ XÂY DỰNG (phạm vi yêu cầu bảo hộ)
+
+Phần mã nguồn nguyên gốc của tác giả, được yêu cầu bảo hộ trong hồ sơ đăng ký này, bao gồm:
+
+1. **Logic trích xuất bằng quy tắc (`ruleExtract`)**: bộ biểu thức chính quy (regular expressions)
+   tự thiết kế để nhận diện cỡ mẫu *N*, hệ số tương quan *r*, thống kê *t*(df), *F*(1,df₂) và hệ
+   số hồi quy chuẩn hóa β trong văn bản học thuật tiếng Anh chuyên ngành kinh doanh quốc tế.
+2. **Chuỗi quy đổi hiệu ứng** (`t2r`, `beta2r`, `f2r`, `clampR`, `z`): triển khai cụ thể chuỗi
+   chuyển đổi t→r (Cohen, 1988), β→r với hệ số 0,98 (Peterson & Brown, 2005), F→r (Rosenthal,
+   1994) và Fisher z (Hedges & Olkin, 1985) bằng JavaScript thuần.
+3. **Giao diện người-trong-vòng-lặp (HITL)**: thiết kế kiến trúc bốn-bước (Nạp PDF → Đề xuất tự
+   động → Rà soát thủ công → Khóa bản ghi) cùng UI/UX, layout, color palette và typography đặc
+   thù cho ngữ cảnh phân tích tổng hợp.
+4. **Cơ chế khóa và vết kiểm toán (audit trail)**: thuật toán đảm bảo tính bất biến của bản ghi
+   đã xác nhận (immutability) — mọi sửa đổi phải tạo phiên bản mới với timestamp.
+5. **Ontology trích xuất**: cấu trúc dữ liệu `study_id, effect_id, author, year, country, r, n,
+   fisher_z, measure, moderator, p, source` được định nghĩa cho nghiên cứu quan hệ Quốc tế hóa –
+   Hiệu quả doanh nghiệp.
+6. **Mô-đun kết xuất CSV/JSON**: chỉ kết xuất các bản ghi đã được người dùng xác nhận và khóa.
+
+### 6.2 THƯ VIỆN VÀ TÀI NGUYÊN BÊN THỨ BA (không yêu cầu bảo hộ; chỉ liên kết / tham chiếu)
+
+Theo Điều 14.2 Luật Sở hữu trí tuệ, các thành phần sau **không thuộc phạm vi bảo hộ** mà tác giả
+yêu cầu trong hồ sơ này; tác giả công khai sử dụng chúng với giấy phép tương ứng:
+
+| Tên | Vai trò trong M-AIDA | Nhà phát hành | Giấy phép | Phương thức tích hợp |
+|---|---|---|---|---|
+| PDF.js v3.11.174 | Bộ phân tích PDF phía trình duyệt; trích xuất văn bản từ tệp PDF | Mozilla Foundation | Apache License 2.0 | Liên kết CDN (cdnjs.cloudflare.com); không sao chép mã nguồn vào tệp M-AIDA |
+| Claude artifact API (`window.claude.complete`) | Lời gọi tùy chọn cho bản nháp trích xuất bằng AI khi M-AIDA chạy trong môi trường claude.ai; tự động chuyển sang chế độ quy tắc offline khi không có | Anthropic, PBC | Anthropic Usage Policy | Lời gọi runtime; không nhúng khóa API; không phải dịch vụ thuộc tác giả |
+| Google Fonts (Fraunces, Newsreader, Spline Sans Mono) | Phông chữ hiển thị giao diện | Google LLC | SIL Open Font License 1.1 | Liên kết CSS (`fonts.googleapis.com`) |
+
+Tác giả **không yêu cầu quyền tác giả đối với mã nguồn của PDF.js, thư viện Claude của Anthropic,
+hay phông chữ Google**. Khi gỡ bỏ tất cả các thành phần bên thứ ba này, phần mã của riêng tác giả
+trong `MAIDA_intake.html` vẫn vận hành được ở chế độ trích xuất bằng quy tắc offline, và đó là
+phạm vi yêu cầu bảo hộ.
+
 Bốn lớp chức năng trong cùng một tệp:
 - **Lớp giao diện (Frontend):** bảng điều khiển học thuật ba khối — (01) Nạp tài liệu, (02) Ứng
   viên trích xuất, (03) Dataset đã kiểm chứng — dựng thuần HTML/CSS, không framework.
@@ -153,19 +189,27 @@ cáo trích xuất theo quy trình có kiểm chứng của con người và **k
 phần mềm.
 
 ## 12. NGÀY HOÀN THÀNH / TÌNH TRẠNG CÔNG BỐ
-Ngày hoàn thành phiên bản 7.0.0: *[DD/MM/YYYY — ngày commit cuối của v7.0.0; tác giả điền]*. Mã nguồn
-lưu trong repository nghiên cứu, **chưa phát hành công khai**; được sử dụng nội bộ phục vụ luận án.
+Ngày hoàn thành phiên bản 7.0.0: **29/05/2026** (commit cuối của `MAIDA_intake.html` trong repository
+nghiên cứu của tác giả). Tình trạng công bố tại thời điểm nộp hồ sơ: tác giả **chọn 1 trong 2 ô** dưới
+đây và đánh dấu ô tương ứng trên Tờ khai Cục Bản quyền:
+
+- [ ] **Đã công bố**: Mã nguồn lưu công khai tại repository
+  `https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26/tree/main/p6/tools/maida`
+  từ ngày 29/05/2026. (Chọn ô này nếu repository GitHub đang ở chế độ public tại thời điểm nộp.)
+- [ ] **Chưa công bố**: Mã nguồn lưu trong repository nghiên cứu nội bộ phục vụ luận án; sẽ công bố
+  sau khi nhận Giấy chứng nhận đăng ký quyền tác giả. (Chọn ô này nếu repository GitHub đang ở chế
+  độ private tại thời điểm nộp; trong trường hợp này khuyến nghị giữ private cho đến khi nhận cert.)
 
 ## 13. THÔNG BÁO BẢN QUYỀN
 ```
-© [Năm] Đỗ Thị Thúy Hương & Phan Anh Tú. All rights reserved.
+© 2026 Đỗ Thị Thúy Hương & Phan Anh Tú. All rights reserved.
 M-AIDA (Meta-Analysis Intelligent Data Assistant) — Proprietary, Research Use Only.
-Liên hệ cấp phép: [email tác giả]
+Liên hệ cấp phép: huongp1323001@gstudent.ctu.edu.vn
 ```
 
 ## 14. CÁCH TRÍCH DẪN (academic citation)
-> Đỗ, T. T. H., & Phan, A. T. ([Năm]). *M-AIDA: Meta-Analysis Intelligent Data Assistant* (Phiên bản
-> 7.0.0) [Phần mềm máy tính]. Trường Đại học Cần Thơ. Số đăng ký bản quyền: [điền sau khi cấp].
+> Đỗ, T. T. H., & Phan, A. T. (2026). *M-AIDA: Meta-Analysis Intelligent Data Assistant* (Phiên bản
+> 7.0.0) [Phần mềm máy tính]. Trường Đại học Cần Thơ. Số đăng ký bản quyền: *[điền sau khi cấp]*.
 
 Siêu dữ liệu trích dẫn máy-đọc: xem `p6/tools/maida/CITATION.cff` (Citation File Format 1.2.0).
 
