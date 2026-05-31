@@ -241,6 +241,11 @@ The third limitation is one of measurement: the estimated digital-adoption effec
 ## Data Availability Statement
 The data analyzed in this study are from the World Bank Enterprise Survey (WBES) Singapore 2023 wave, publicly available at https://www.enterprisesurveys.org. Analysis scripts to replicate the results are available from the corresponding author on reasonable request.
 
+## Acknowledgements
+We thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the data. The user of the data acknowledges that the original collector of the data, the authorised distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors and do not necessarily represent the views of the World Bank Group, its Executive Directors, or the governments they represent.
+
+The authors received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors for the research, authorship, or publication of this article. The authors declare no conflicts of interest.
+
 ---
 
 ## References

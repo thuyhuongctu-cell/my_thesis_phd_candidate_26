@@ -10,19 +10,15 @@
 
 ## Tóm tắt
 
-**Mục đích.** Nghiên cứu này báo cáo phân tích tổng hợp hồi quy ba cấp (three-level meta-analytic regression analysis — MARA) đầu tiên về quan hệ quốc tế hóa, hiệu quả hoạt động kinh doanh (I-P) nhằm kiểm định liệu áp dụng số cấp quốc gia (country-level digital adoption — cDAI), chế độ bối cảnh thể chế (institutional context regime — ICRV), và giai đoạn Vòng đời Nghịch lý Số (Digital Paradox Lifecycle — DPL) có điều tiết quan hệ này trên một corpus đa dạng địa lý (nghiêng về kinh tế Tiên tiến) hay không.
+**Mục đích.** Phân tích tổng hợp hồi quy ba cấp (MARA) đầu tiên về quan hệ quốc tế hóa–hiệu quả (I-P) nhằm kiểm định liệu áp dụng số cấp quốc gia (cDAI), chế độ bối cảnh thể chế (ICRV), và giai đoạn Vòng đời Nghịch lý Số (DPL) có điều tiết quan hệ này trên một corpus đa dạng địa lý hay không.
 
-**Thiết kế/phương pháp/cách tiếp cận.** Tuân theo PRISMA 2020, tổng quan hệ thống kết hợp truy ngược và truy xuôi trích dẫn của năm meta-analysis neo cùng với hand-search đã tập hợp một corpus phân tích gồm *k* = 238 nghiên cứu và *K* = 288 cỡ hiệu ứng từ 49 nền kinh tế; bổ sung tìm kiếm cơ sở dữ liệu Web of Science và Scopus (1977–2026) được thực hiện để xác định phạm vi cho phần mở rộng đã tiền đăng ký, hiện đang trong quá trình trích xuất toàn văn. MARA ba cấp phân tách dị biệt trong-nghiên-cứu và giữa-nghiên-cứu bằng gói *metafor*, với tiền đăng ký các giả thuyết và kế hoạch phân tích trên OSF.
+**Thiết kế/phương pháp/cách tiếp cận.** Tuân theo PRISMA 2020, truy ngược–truy xuôi trích dẫn của năm meta-analysis neo cùng hand-search đã tập hợp corpus phân tích *k* = 238 nghiên cứu và *K* = 288 cỡ hiệu ứng từ 49 nền kinh tế. MARA ba cấp qua gói *metafor* phân tách dị biệt trong và giữa nghiên cứu, với tiền đăng ký trên OSF.
 
-**Kết quả chính.** Hiệu ứng tổng hợp cơ sở đạt *r* = .074 (95% CI [.060, .088], *p* < .001; *I*² = 87.8%). Các biến điều tiết được giả thuyết chỉ nhận được hỗ trợ hạn chế: kiểm định omnibus ICRV trên toàn mẫu có ý nghĩa (*Q*_M = 17.35, *df* = 4, *p* = .002) nhưng không bền vững, kiểm định nhạy cảm drop-Frontier trên bốn chế độ đông dữ liệu đưa nó về không có ý nghĩa (*Q*_M = 1.49, *p* = .68); điều tiết cDAI và DPL đều không có ý nghĩa. Kết quả có hệ quả lớn nhất là thiên lệch công bố đáng kể: trim-and-fill ước lệ *k* = 58 nghiên cứu thiếu, cắt giảm hiệu ứng tổng hợp xuống *r* = .035 (95% CI [.023, .048]), mức suy giảm khoảng 53% (Begg *p* < .001; Egger *p* = .057).
+**Kết quả chính.** Hiệu ứng tổng hợp *r* = .074 (95% CI [.060, .088], *p* < .001; *I*² = 87.8%). Omnibus ICRV trên toàn mẫu có ý nghĩa (*Q*_M = 17.35, *p* = .002) nhưng không bền vững: drop-Frontier đưa về *Q*_M = 1.49 (*p* = .68); cDAI và DPL không có ý nghĩa. Trim-and-fill ước lệ *k* = 58 nghiên cứu thiếu, cắt *r* xuống .035 — suy giảm khoảng 53% (Begg *p* < .001).
 
-**Hạn chế/hàm ý nghiên cứu.** Các ô Frontier (*K* = 3) và SIDS (*K* = 0) thưa thớt làm giới hạn công lực kiểm định giữa các chế độ; trích xuất một coder không cho phép tính các thống kê độ tin cậy giữa các coder. Những phát hiện này định nghĩa lại câu đố dị biệt: phương sai chưa giải thích được trong I-P có thể phản ánh sự chọn lọc của khâu công bố nhiều hơn là các yếu tố thể chế hay kỹ thuật số, đòi hỏi sao chép tiền đăng ký với cỡ mẫu liên-chế-độ lớn hơn.
+**Tính nguyên gốc/giá trị.** MARA ba cấp đầu tiên và kiểm định meta-analytic tiền đăng ký đầu tiên về cDAI/ICRV/DPL trong tài liệu I-P; lượng hóa hệ thống đầu tiên về mức suy giảm do thiên lệch công bố trong cơ sở bằng chứng 40 năm này.
 
-**Hàm ý thực tiễn.** Các nhà quản trị không nên kỳ vọng lợi ích hiệu quả tự động từ quốc tế hóa: hiệu ứng tổng hợp đã hiệu chỉnh thiên lệch (*r* = .035) nhỏ hơn đáng kể so với các ước lượng đã công bố. Riêng cơ sở hạ tầng số quốc gia không khuếch đại lợi nhuận I-P; năng lực số ở cấp doanh nghiệp tỏ ra quyết định hơn.
-
-**Tính nguyên gốc/giá trị.** Đây là MARA ba cấp đầu tiên cho tài liệu I-P, là kiểm định meta-analytic tiền đăng ký đầu tiên về cDAI, chế độ ICRV và giai đoạn DPL với vai trò biến điều tiết, và là lượng hóa hệ thống đầu tiên về mức suy giảm do thiên lệch công bố trong cơ sở bằng chứng 40 năm này.
-
-**Từ khóa:** quan hệ quốc tế hóa, hiệu quả hoạt động kinh doanh; phân tích tổng hợp; mô hình ba cấp; áp dụng số; bối cảnh thể chế; thiên lệch công bố
+**Từ khóa:** quan hệ quốc tế hóa–hiệu quả; phân tích tổng hợp; mô hình ba cấp; áp dụng số; bối cảnh thể chế; thiên lệch công bố
 
 **Loại bài:** Bài nghiên cứu (phân tích tổng hợp)
 

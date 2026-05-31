@@ -306,6 +306,11 @@ Cuối cùng, tác động áp dụng số ước lượng nên được diễn 
 ## Tuyên bố về tính sẵn có của dữ liệu
 Dữ liệu được phân tích trong nghiên cứu này lấy từ đợt khảo sát Singapore 2023 của Khảo sát Doanh nghiệp của Ngân hàng Thế giới (WBES), công khai tại https://www.enterprisesurveys.org. Các tập lệnh phân tích để tái lập kết quả có sẵn từ tác giả liên hệ theo yêu cầu hợp lý.
 
+## Lời cảm ơn
+Chúng tôi cảm ơn Đơn vị Phân tích Doanh nghiệp của Nhóm Chỉ số Toàn cầu thuộc Khối Kinh tế Phát triển của Ngân hàng Thế giới vì đã cung cấp dữ liệu. Người sử dụng dữ liệu xác nhận rằng người thu thập dữ liệu gốc, nhà phân phối dữ liệu được uỷ quyền, và cơ quan tài trợ liên quan không chịu trách nhiệm về việc sử dụng dữ liệu hoặc về các diễn giải hay suy luận dựa trên các sử dụng đó. Các phát hiện, diễn giải, và kết luận được trình bày trong bài báo này hoàn toàn thuộc về các tác giả và không nhất thiết đại diện cho quan điểm của Nhóm Ngân hàng Thế giới, các Giám đốc Điều hành của họ, hoặc các chính phủ mà họ đại diện.
+
+Các tác giả không nhận được bất kỳ khoản tài trợ cụ thể nào từ bất kỳ cơ quan tài trợ nào trong khu vực công, thương mại, hoặc phi lợi nhuận cho nghiên cứu, tác giả, hoặc xuất bản bài báo này. Các tác giả tuyên bố không có xung đột lợi ích.
+
 ---
 
 ## Tài liệu tham khảo
