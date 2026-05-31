@@ -26,20 +26,35 @@ Phần mềm do **Đỗ Thị Thúy Hương** (Nghiên cứu sinh chuyên ngành
 tế, Trường Đại học Cần Thơ) và **PGS.TS. Phan Anh Tú** (Người hướng dẫn khoa học, Trường Kinh tế,
 Trường Đại học Cần Thơ) tự nghiên cứu và xây dựng trong khuôn khổ luận án tiến sĩ.
 
-### 3.2 Chủ sở hữu — *Tác giả chọn 1 trong 3 mô hình dưới đây sau khi consult Phòng KHCN CTU*
+### 3.2 Chủ sở hữu
 
-> **Lưu ý quan trọng:** Vì Trường Đại học Cần Thơ là cơ sở cấp bằng PhD của Đỗ Thị Thúy Hương,
-> chủ sở hữu chính thức của M-AIDA phải được xác định theo quy chế sở hữu trí tuệ của Nhà trường
-> (Điều 27.2 Luật SHTT 2005). Trước khi nộp hồ sơ, tác giả cần xin văn bản xác nhận từ Phòng
-> Khoa học Công nghệ CTU. Xem `04_phan_tich_chu_so_huu_va_ctu.md` để biết quy trình và template
-> thư xin ý kiến.
+**Áp dụng Điều 27.1 Luật SHTT 2005 (sđ 2022):** *"Tác giả là chủ sở hữu quyền tác giả đối với tác
+phẩm do mình tự sáng tạo bằng thời gian, tài chính và cơ sở vật chất - kỹ thuật của mình."*
 
-- [ ] **Mô hình A** — Đồng chủ sở hữu cá nhân (áp dụng nếu CTU xác nhận không claim ownership):
-  Đỗ Thị Thúy Hương + Phan Anh Tú.
-- [ ] **Mô hình B** — Đồng chủ sở hữu cá nhân + Nhà trường (khuyến nghị nếu chưa rõ chính sách):
-  Đỗ Thị Thúy Hương + Phan Anh Tú + Trường Đại học Cần Thơ.
-- [ ] **Mô hình C** — Trường Đại học Cần Thơ là chủ sở hữu duy nhất; hai tác giả giữ quyền nhân
-  thân theo Điều 19 (áp dụng nếu CTU yêu cầu sole ownership).
+Phần mềm M-AIDA v7.0 được phát triển hoàn toàn bằng nguồn lực cá nhân của (các) tác giả; **không
+sử dụng kinh phí, học bổng, máy chủ hay cơ sở vật chất chuyên dụng của Trường Đại học Cần Thơ
+hoặc bất kỳ tổ chức nào khác**. Các Quyết định của Trường Đại học Cần Thơ liên quan đến nghiên cứu
+sinh (số 3010/QĐ-ĐHCT ngày 23/6/2023, số 4768/QĐ-ĐHCT ngày 15/10/2024, số 4769/QĐ-ĐHCT ngày
+15/10/2024) chỉ giao đề tài học thuật, KHÔNG giao nhiệm vụ phát triển phần mềm; do đó Điều 27.2
+Luật SHTT về "tổ chức giao nhiệm vụ sáng tạo" không áp dụng.
+
+**Chủ sở hữu** — *Tác giả tick MỘT ô dưới đây sau khi confirm với PGS.TS. Phan Anh Tú về
+đóng góp lập trình:*
+
+- [ ] **Phương án A.1** (NCS solo, mặc định nếu Phan Anh Tú KHÔNG trực tiếp lập trình):
+  **Đỗ Thị Thúy Hương** là chủ sở hữu duy nhất. PGS.TS. Phan Anh Tú được ghi nhận trong
+  Acknowledgements với vai trò Người hướng dẫn khoa học của luận án.
+- [ ] **Phương án A.2** (đồng chủ sở hữu, nếu Phan Anh Tú có trực tiếp đóng góp code/design):
+  **Đỗ Thị Thúy Hương + PGS.TS. Phan Anh Tú** đồng chủ sở hữu cá nhân, theo tỷ lệ thỏa thuận
+  riêng giữa hai tác giả (thông thường ghi 50/50 trừ khi có văn bản thỏa thuận khác).
+
+**Bằng chứng pháp lý đính kèm hồ sơ:**
+1. Quyết định 3010/QĐ-ĐHCT (Công nhận NCS) — không có điều khoản IP
+2. Quyết định 4768/QĐ-ĐHCT (Giao chuyên đề) — không có điều khoản IP
+3. Quyết định 4769/QĐ-ĐHCT (Điều chỉnh tên luận án) — không có điều khoản IP
+4. Bản cam đoan của NCS về nguồn lực cá nhân (xem `06_cam_doan_nguon_luc_ca_nhan.md`)
+5. Email thông báo Phòng KHCN CTU (xem `04_phan_tich_chu_so_huu_va_ctu.md` Section 9 — short
+   email version)
 
 Tại thời điểm đăng ký, M-AIDA **chưa có sản phẩm tương đương trên thị trường** trong phạm vi
 công cụ trích xuất dữ liệu chuyên biệt cho phân tích tổng hợp lĩnh vực kinh doanh quốc tế.
