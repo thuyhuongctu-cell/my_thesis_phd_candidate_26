@@ -20,10 +20,29 @@ Performance, I–P). Phiên bản: **7.0.0**.
 Chương trình máy tính (Computer Program / Research Software).
 
 ## 3. TÁC GIẢ / CHỦ SỞ HỮU
-Phần mềm do **Đỗ Thị Thúy Hương** và **Phan Anh Tú** (Trường Kinh tế, Trường Đại học Cần Thơ) tự
-nghiên cứu và xây dựng. Tại thời điểm đăng ký, M-AIDA **chưa có sản phẩm tương đương trên thị
-trường** trong phạm vi công cụ trích xuất dữ liệu chuyên biệt cho phân tích tổng hợp lĩnh vực kinh
-doanh quốc tế.
+
+### 3.1 Tác giả
+Phần mềm do **Đỗ Thị Thúy Hương** (Nghiên cứu sinh chuyên ngành Quản trị Kinh doanh, Trường Kinh
+tế, Trường Đại học Cần Thơ) và **PGS.TS. Phan Anh Tú** (Người hướng dẫn khoa học, Trường Kinh tế,
+Trường Đại học Cần Thơ) tự nghiên cứu và xây dựng trong khuôn khổ luận án tiến sĩ.
+
+### 3.2 Chủ sở hữu — *Tác giả chọn 1 trong 3 mô hình dưới đây sau khi consult Phòng KHCN CTU*
+
+> **Lưu ý quan trọng:** Vì Trường Đại học Cần Thơ là cơ sở cấp bằng PhD của Đỗ Thị Thúy Hương,
+> chủ sở hữu chính thức của M-AIDA phải được xác định theo quy chế sở hữu trí tuệ của Nhà trường
+> (Điều 27.2 Luật SHTT 2005). Trước khi nộp hồ sơ, tác giả cần xin văn bản xác nhận từ Phòng
+> Khoa học Công nghệ CTU. Xem `04_phan_tich_chu_so_huu_va_ctu.md` để biết quy trình và template
+> thư xin ý kiến.
+
+- [ ] **Mô hình A** — Đồng chủ sở hữu cá nhân (áp dụng nếu CTU xác nhận không claim ownership):
+  Đỗ Thị Thúy Hương + Phan Anh Tú.
+- [ ] **Mô hình B** — Đồng chủ sở hữu cá nhân + Nhà trường (khuyến nghị nếu chưa rõ chính sách):
+  Đỗ Thị Thúy Hương + Phan Anh Tú + Trường Đại học Cần Thơ.
+- [ ] **Mô hình C** — Trường Đại học Cần Thơ là chủ sở hữu duy nhất; hai tác giả giữ quyền nhân
+  thân theo Điều 19 (áp dụng nếu CTU yêu cầu sole ownership).
+
+Tại thời điểm đăng ký, M-AIDA **chưa có sản phẩm tương đương trên thị trường** trong phạm vi
+công cụ trích xuất dữ liệu chuyên biệt cho phân tích tổng hợp lĩnh vực kinh doanh quốc tế.
 
 *(Thông tin cá nhân để hoàn tất đơn COV — tác giả điền: họ tên đầy đủ, ngày sinh, địa chỉ thường
 trú, số CCCD, điện thoại, email; quốc tịch Việt Nam.)*

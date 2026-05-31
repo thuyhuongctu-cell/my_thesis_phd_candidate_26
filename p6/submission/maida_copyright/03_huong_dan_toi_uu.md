@@ -1,10 +1,12 @@
 # M-AIDA — Hướng tối ưu để đăng ký SHTT (Path of Minimum Friction)
 
-**Mục tiêu:** Lấy Giấy chứng nhận đăng ký quyền tác giả đối với chương trình máy tính (Điều 14.1.m + Điều 22 Luật SHTT 2005, sđ 2022) cho M-AIDA v7.0 trong **6 tuần** với rủi ro tối thiểu.
+**⚠️ CẬP NHẬT 31/05/2026:** Vì **CTU là cơ sở cấp bằng PhD của NCS**, hồ sơ chủ sở hữu CẦN consult với Phòng KHCN CTU trước khi nộp. Xem chi tiết tại `04_phan_tich_chu_so_huu_va_ctu.md` để chọn 1 trong 3 ownership models + template thư xin ý kiến CTU.
 
-**Quyết định kiến trúc đã chọn:**
+**Mục tiêu:** Lấy Giấy chứng nhận đăng ký quyền tác giả đối với chương trình máy tính (Điều 14.1.m + Điều 22 Luật SHTT 2005, sđ 2022) cho M-AIDA v7.0 trong **8-10 tuần** (bao gồm 2-4 tuần consult CTU) với rủi ro tối thiểu.
+
+**Quyết định kiến trúc đã chọn (TENTATIVE — confirm sau khi consult CTU):**
 - ✅ Đồng tác giả: Đỗ Thị Thúy Hương + Phan Anh Tú (giữ status quo trong CITATION.cff)
-- ✅ Chủ sở hữu: hai tác giả (CTU không tham gia owner để tránh thủ tục IP của trường)
+- ⏳ **Chủ sở hữu**: CHỜ phản hồi CTU — có thể là Model A (2 tác giả cá nhân), Model B (2 tác giả + CTU), hoặc Model C (CTU sole). Mặc định khuyến nghị **Model B** vì NCS đang trong giai đoạn PhD.
 - ✅ Loại tác phẩm: Chương trình máy tính
 - ✅ Hình thức công bố: NCS quyết định public/private GitHub tại thời điểm nộp (xem §12 của `00_mo_ta_tac_pham_vi.md`)
 - ✅ Phạm vi bảo hộ: Chỉ phần mã do tác giả viết (xem §6.1 mô tả tác phẩm); third-party (PDF.js, Claude API, Google Fonts) đã loại trừ ở §6.2
@@ -56,9 +58,33 @@ Thông tin cá nhân pháp lý — không nên đặt trong repo public; điền
 
 ---
 
-## QUY TRÌNH 6 TUẦN
+## QUY TRÌNH 8-10 TUẦN (sau khi bổ sung CTU consultation)
 
-### Tuần 1: Chuẩn bị hồ sơ in ấn
+### Tuần 1-2: Consult CTU (BƯỚC MỚI — BẮT BUỘC)
+
+**Trước khi làm gì:**
+- [ ] Đọc `04_phan_tich_chu_so_huu_va_ctu.md` để hiểu 3 ownership models
+- [ ] In template thư xin ý kiến CTU (Section 9 trong file 04)
+- [ ] Điền thông tin NCS vào thư
+
+**Tuần 1 (Mon-Wed):**
+- [ ] Gửi thư xin ý kiến đến **Phòng Khoa học Công nghệ CTU** (đồng kính gửi supervisor)
+- [ ] Đồng thời send email tóm tắt + attach `00_mo_ta_tac_pham_vi.docx` để Phòng KHCN có context
+- [ ] Liên hệ supervisor Phan Anh Tú để consult ý kiến cá nhân về CTU practice
+
+**Tuần 1-2 (Thu-Fri):**
+- [ ] Đợi phản hồi từ CTU (thường 5-10 ngày làm việc)
+- [ ] Nếu CTU không phản hồi sau 7 ngày: follow up qua email + điện thoại
+- [ ] Ghi nhận phản hồi của CTU bằng văn bản (giấy hoặc email)
+
+**Quyết định cuối Tuần 2:**
+- 🅰️ Nếu CTU không claim → tiếp Model A (2 tác giả cá nhân đồng chủ sở hữu)
+- 🅱️ Nếu CTU yêu cầu co-ownership → Model B (3 chủ sở hữu, có CTU); cần chữ ký đại diện CTU
+- 🅲️ Nếu CTU yêu cầu sole owner → Model C; CTU đứng tên nộp, NCS chỉ là tác giả
+
+→ Tùy theo Model, sửa `00_mo_ta_tac_pham_vi.md` mục Chủ sở hữu trước khi in nộp.
+
+### Tuần 3: Chuẩn bị hồ sơ in ấn
 
 **Ngày 1-2 (NCS):**
 - [ ] Confirm với supervisor Phan Anh Tú: gửi `00_mo_ta_tac_pham_vi.md` + `01_source_code_samples.md` + CITATION.cff để anh xem; xin chữ ký đồng ý
