@@ -58,7 +58,7 @@ Vietnam offers an analytically valuable setting for revisiting the international
 In such settings, internationalisation does not lend itself to the assumption of a simple linear performance premium.
 Foreign involvement opens access to larger markets, learning, and diversified revenue, yet it also brings rising coordination costs, heavier information-processing burdens, and organisational strain as that involvement deepens (Wright et al., 2005; Cuervo-Cazurra and
 Genc, 2008; Wu et al., 2016).
-This tension lies at the heart of the I–P literature. A long tradition of work holds that internationalisation improves performance at lower and intermediate levels through scale,
+This tension is central to the I–P literature. A long tradition of work holds that internationalisation improves performance at lower and intermediate levels through scale,
 learning, and diversification, while complexity and coordination burdens drag returns toward zero or below them at higher levels. Meta-analytic evidence indicates that this nonlinearity is a central feature of the relationship, not an empirical anomaly
 (Vernon, 1979; Lu and Beamish, 2004; Hennart, 2007; Coviello et al., 2017; Marano et al., 2016).
 Digitalisation layers a further complication onto this debate. Digital tools can cut communication frictions, speed transactions, and support cross-border coordination, but the benefits do not arrive automatically. Their realised value depends on whether a firm holds the organisational depth, absorptive capacity, and complementary routines needed to convert digital adoption into productivity gains (Cohen and Levinthal, 1990; Vial, 2019; Verhoef et al.,
