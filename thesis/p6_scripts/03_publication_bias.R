@@ -70,6 +70,9 @@ cat("Funnel plot saved to p6_funnel_plot.png\n")
 # ============================================================
 cat("\n=== PET-PEESE ===\n")
 
+# Define SE for study-level aggregated data
+study_agg$sei <- sqrt(study_agg$vi)
+
 m_pet <- rma(yi, vi, mods = ~ sei, data = study_agg, method = "REML")
 pet_intercept <- coef(m_pet)[1]
 pet_p         <- m_pet$pval[1]
@@ -89,17 +92,58 @@ if (pet_p < 0.05) {
 }
 cat(sprintf("PET-PEESE bias-corrected pooled ES: %.3f\n", pet_peese_estimate))
 
+# Caveat: with high heterogeneity (I^2 > 80%), PET-PEESE estimates can be
+# biased toward null (Stanley & Doucouliagos, 2014). Report alongside
+# trim-and-fill as a directional sensitivity, not a point estimate.
+
+# ============================================================
+# APPROACH 4: Vevea-Hedges 3-parameter step-function selection model
+# (Vevea & Hedges 1995; Hedges & Vevea 1996; Vevea & Woods 2005)
+# Model-based bias correction: estimates the publication selection function
+# directly, complementing the non-parametric trim-and-fill.
+# ============================================================
+cat("\n=== Vevea-Hedges step-function selection model ===\n")
+
+# Use metafor::selmodel with type="stepfun" and standard p-value cutpoints.
+# Steps: (0, .025] one-tailed significant positive, (.025, .500] non-significant,
+# (.500, 1.0] one-tailed significant negative.
+# Weights are relative; w[1] = 1 (reference category for significant positives).
+m_baseline_studyagg <- rma(yi, vi, data = study_agg, method = "REML")
+vh_result <- tryCatch(
+  selmodel(m_baseline_studyagg, type = "stepfun", alternative = "greater",
+           steps = c(.025, .500)),
+  error = function(e) { cat("  [warn] selmodel failed:", conditionMessage(e), "\n"); NULL }
+)
+if (!is.null(vh_result)) {
+  vh_intercept <- coef(vh_result)$beta[1]
+  vh_lb <- vh_result$ci.lb
+  vh_ub <- vh_result$ci.ub
+  cat(sprintf("Vevea-Hedges adjusted pooled ES: %.3f [%.3f, %.3f]\n",
+              vh_intercept, vh_lb, vh_ub))
+  cat(sprintf("Selection weights: w[<.025]=1.000 (ref); w[.025-.500]=%.3f; w[>.500]=%.3f\n",
+              coef(vh_result)$delta[1], coef(vh_result)$delta[2]))
+  vh_lrt_p <- pchisq(vh_result$LRT, df = vh_result$LRTdf, lower.tail = FALSE)
+  cat(sprintf("Likelihood-ratio test vs. no-selection model: chi2=%.2f, df=%d, p=%.4f\n",
+              vh_result$LRT, vh_result$LRTdf, vh_lrt_p))
+} else {
+  vh_intercept <- NA
+}
+
 # ============================================================
 # SUMMARY TABLE
 # ============================================================
 cat("\n=== Publication Bias Summary ===\n")
-cat(sprintf("%-30s %s\n", "Method", "Bias-corrected ES"))
-cat(sprintf("%-30s %.3f\n", "Baseline (three-level)", readRDS("p6_baseline_results.rds")$m0$b))
-cat(sprintf("%-30s %.3f\n", "Egger (intercept)", coef(m_egger)[1]))
-cat(sprintf("%-30s %.3f\n", "Trim-and-fill", tf_result$b))
-cat(sprintf("%-30s %.3f\n", "PET-PEESE", pet_peese_estimate))
+cat(sprintf("%-32s %s\n", "Method", "Bias-corrected ES"))
+cat(sprintf("%-32s %.3f\n", "Baseline (three-level)", readRDS("p6_baseline_results.rds")$m0$b))
+cat(sprintf("%-32s %.3f\n", "Egger (intercept)", coef(m_egger)[1]))
+cat(sprintf("%-32s %.3f\n", "Trim-and-fill", tf_result$b))
+cat(sprintf("%-32s %.3f\n", "PET-PEESE", pet_peese_estimate))
+if (!is.na(vh_intercept)) {
+  cat(sprintf("%-32s %.3f\n", "Vevea-Hedges selection", vh_intercept))
+}
 
 saveRDS(list(m_egger = m_egger, tf_result = tf_result,
-             m_pet = m_pet, pet_peese_estimate = pet_peese_estimate),
+             m_pet = m_pet, pet_peese_estimate = pet_peese_estimate,
+             vh_result = vh_result),
         "p6_pubias_results.rds")
 cat("\nPublication bias results saved to p6_pubias_results.rds\n")
