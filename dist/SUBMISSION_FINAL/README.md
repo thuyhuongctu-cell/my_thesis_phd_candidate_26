@@ -22,18 +22,44 @@ SUBMISSION_FINAL/
 
 ---
 
-## 📚 Mỗi paper folder chứa
+## 📚 Mỗi paper folder chứa (chuẩn 5 thành phần)
 
 | File | Nội dung | Format |
 |---|---|---|
 | `01_manuscript_blinded.docx` | Bản thảo đã ẩn danh tác giả (cho reviewer) | DOCX, CTU paper template (TNR 12pt, 2.5cm margin, 1.15 line) |
 | `02_title_page.docx` | Trang bìa tác giả (gửi editor riêng) | DOCX, full author info + affiliation |
 | `03_cover_letter.docx` | Thư gửi editor | DOCX, signed |
-| `figures/` (nếu có) | Hình vẽ tách rời | PNG/SVG 300 DPI |
+| **`<paper>_replication_data.xlsx`** | **Variables mã hoá + regression results + figure data** | **Excel 5-sheet workbook** |
+| `figures/` | Hình vẽ từ kết quả hồi quy | PNG 300 DPI |
+| `README.md` | Per-paper checklist + sheet structure | Markdown |
 
 **Riêng P6** còn có:
 - `01_manuscript_blinded_vi.docx` — bản dịch tiếng Việt (cho thư viện CTU)
 - `osf_supplementary_materials.md` — manifest tài liệu phụ trên OSF z37kn
+
+### 📊 Excel replication workbook — cấu trúc chuẩn
+
+Mỗi file `<paper>_replication_data.xlsx` có 5 sheet:
+
+| Sheet | Nội dung |
+|---|---|
+| `00_README` | Generation date, source repo, sheet index |
+| `01_Variable_Codebook` | Mỗi biến: tên, label, định nghĩa, source WBES item, role (DV/IV/Mod/Ctrl), type |
+| `02_Regression_Coefficients` | Hệ số chính: β, SE, p, 95% CI cho mọi terms qua mọi model specifications |
+| `03_Turning_Points` | Điểm uốn (turning points) ước lượng + 95% bootstrap CI (nếu có) |
+| `04_Robustness` | Sensitivity tests, alternative specifications, auxiliary tables |
+| `05_Figure_Data` | Source data cho mỗi figure (one block per figure, để reviewer reproduce) |
+
+**Số dòng codebook + regression rows mỗi paper:**
+
+| Paper | Codebook rows | Regression coef rows | Turning points | Figures |
+|---|---:|---:|---:|---:|
+| P3 Vietnam | 22 | 227 | 4 | 6 |
+| P4 Singapore | 22 | ~50 | — | 3 |
+| P5 China | 25 (extra: D2024, WC_k3, k30) | ~80 | 3 | 4 |
+| P6 Meta | 29 (extra: r, N, vi, yi, ICRV_meta, cDAI, DPL) | ~150 (forest data) | — | 7 |
+| P7 Capstone | 22 | ~300 (M0-M11) | 6 | 2 |
+| P8 SIDS | 22 | ~40 | — | 2 |
 
 ---
 
