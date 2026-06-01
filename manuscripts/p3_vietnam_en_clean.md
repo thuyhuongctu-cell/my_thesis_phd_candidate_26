@@ -17,13 +17,20 @@
 ---
 
 ## Abstract
-Purpose, This study revisits the internationalisation–performance relationship in Vietnam across three survey waves, testing whether technological capability moderates export-intensity effects and tracing how a Tier-1 digital indicator evolves across institutional generations.
 
-Design/methodology/approach, Three waves of World Bank Enterprise Survey (Vietnam 2009, 2015, 2023; N = 2,958) underpin wave-specific and pooled OLS models with HC1 standard errors, quadratic FSTS terms, and capability interactions. TCI (quality certification, foreign-licensed technology) is the primary construct; a Tier-1 website indicator serves as digital-presence control.
+**Purpose.** This study revisits the internationalisation–performance relationship in Vietnam across three survey waves, testing whether technological capability moderates export-intensity effects and tracing how a Tier-1 digital indicator evolves across institutional generations.
 
-Findings, An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46%, a band that stays durable over 14 years. The nonlinearity traces to a participation-margin effect: restricted to exporters, the quadratic term loses significance. TCI positively moderates productivity and the I–P curvature across waves, while the website indicator follows a proxy-obsolescence trajectory: positive in 2009, null in 2015, negatively interactive in 2023.
+**Design/methodology/approach.** Three waves of the World Bank Enterprise Survey (Vietnam 2009, 2015, 2023; N = 2,958) underpin wave-specific and pooled OLS models with HC1 robust standard errors, quadratic FSTS terms, and capability interactions. The Technological Capability Index (TCI: quality certification, foreign-licensed technology) is the primary construct; a Tier-1 website-presence indicator serves as the digital-adoption control. Lind–Mehlum U-tests verify the inverted-U; Paternoster z-tests evaluate cross-wave coefficient equality.
 
-Originality/value, In this zero-inflated setting the inverted-U reflects a participation-barrier effect rather than intensity saturation, and pooled Tier-1 coefficients mask progressive proxy obsolescence. Because the turning-point cluster (39–46% FSTS) is institutionally embedded, the debate moves from 'does internationalisation help?' to 'under what institutional conditions does the threshold shift?'
+**Findings.** An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46% — a band that stays durable over 14 years of institutional change. The nonlinearity traces to a participation-margin effect: restricted to exporters, the quadratic term loses significance ($\beta$ = −0.200, p = .660). TCI positively moderates productivity and the I–P curvature across waves, while the website indicator follows a proxy-obsolescence trajectory: positive in 2009, null in 2015, negatively interactive in 2023.
+
+**Research limitations/implications.** The repeated-cross-section design supports associational inference only; within-firm causal identification is not possible. The 217 panel firms common to 2012 and 2024 are under-utilised here and identified as a target for future panel-based work. Findings on the website indicator reflect a single binary measure; richer Tier-2/3 digital instruments are needed for cleaner capability-moderation tests.
+
+**Practical implications.** For Vietnamese SMEs, the 39–46% FSTS band defines a bounded operating range within which export expansion remains productivity-enhancing; expansion beyond this band requires complementary capability investment. For policy makers under Decision 749/QĐ-TTg (National Digital Transformation Programme to 2030), Tier-1 website-presence indicators have saturated and are no longer useful as policy targets; the next phase of programme design must shift to Tier-2/3 digital capabilities (e-commerce platforms, ERP, AI-augmented operations).
+
+**Social implications.** The participation-margin reading of the I-P inverted-U reframes Vietnamese SME export-promotion design from "internationalise to grow" to "build prerequisites first, then internationalise within the bounded range" — with direct implications for the equity of MOIT export-support disbursements across firm size and digital-readiness segments.
+
+**Originality/value.** In this zero-inflated setting the inverted-U reflects a participation-barrier step function rather than intensity saturation, and pooled Tier-1 digital coefficients mask progressive proxy obsolescence. Because the turning-point cluster (39–46% FSTS) is institutionally embedded, the debate moves from "does internationalisation help?" to "under what institutional conditions does the threshold shift?" — qualifying rather than overturning the cross-national I-P skepticism of Pisani, Garcia-Bernardo and Heemskerk (2020, Strategic Management Journal).
 
 Keywords: internationalisation–performance; emerging markets; technological capability; threshold durability; Vietnam; firm productivity.
 
@@ -537,11 +544,11 @@ tables/table_lind_mehlum.csv (Table LM source), tables/table_3_robustness.csv (T
 
 
 ## References
-Agarwal, R., Barattieri, A., & Mattoo, A. (2026). *Demand shocks, export expansion, and firm-level productivity: Evidence from Vietnamese manufacturers* [World Bank Policy Research Working Paper]. The World Bank. [DOI pending; verify and add upon assignment before submission]
+Agarwal, R., Barattieri, A., & Mattoo, A. (2026). *Demand shocks, export expansion, and firm-level productivity: Evidence from Vietnamese manufacturers* (World Bank Policy Research Working Paper, forthcoming). The World Bank.
 Aguinis, H., Hill, N. S., & Bailey, J. R. (2021). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693. https://doi.org/10.1177/1094428119836485
 Antonakis, J., Bendahan, S., Jacquart, P., & Lalive, R. (2010). On making causal claims: A review and recommendations. *The Leadership Quarterly, 21*(6), 1086–1120. https://doi.org/10.1016/j.leaqua.2010.10.010
 Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387. https://doi.org/10.1057/s41267-019-00243-7
-Barattieri, A., Mattoo, A., & Signoret, J. E. (2026). *Service trade liberalization and productivity growth: Micro-evidence from Vietnam, 2008–2016* [World Bank Policy Research Working Paper]. The World Bank. [DOI pending; verify and add upon assignment before submission]
+Barattieri, A., Mattoo, A., & Signoret, J. E. (2026). *Service trade liberalization and productivity growth: Micro-evidence from Vietnam, 2008–2016* (World Bank Policy Research Working Paper, forthcoming). The World Bank.
 Bernard, A. B., Jensen, J. B., Redding, S. J., & Schott, P. K. (2007). Firms in international trade. *Journal of Economic Perspectives, 21*(3), 105–130. https://doi.org/10.1257/jep.21.3.105
 Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/misq/2013/37:2.3
 Brouthers, K. D., Geisser, K. D., & Rothlauf, F. (2016). Explaining the internationalization of iBusiness firms. *Journal of International Business Studies, 47*(5), 513–534. https://doi.org/10.1057/jibs.2015.20

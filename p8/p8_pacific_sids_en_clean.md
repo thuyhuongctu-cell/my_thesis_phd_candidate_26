@@ -18,7 +18,25 @@
 
 ## Abstract
 
-The conventional inverted-U between internationalization intensity and firm performance rests on three structural prerequisites: a viable domestic market, manageable trade costs, and functional institutions. When all three are absent at once, as in Pacific Small Island Developing States (SIDS), the non-linear pattern collapses into a monotone negative relationship, which we term the Forced Internationalization Penalty (FIP): not a transient phase-1 learning cost, but a persistent structural condition arising from the compulsion to export despite systemic disadvantage. Using World Bank Enterprise Survey data from 1,469 firms across nine Pacific SIDS (2009–2025), internationalization intensity is robustly negatively associated with labour productivity ($\beta$ = −0.404, p = .032, country-and-year fixed effects) with no quadratic curvature. Technological capability and digital adoption, significant moderators in mainland Asia, are null here. These findings reframe the inverted-U as conditional rather than universal and identify boundary conditions for institutional moderation theory.
+**Purpose.** This study tests whether the canonical inverted-U between internationalization intensity and firm performance survives in Pacific Small Island Developing States (SIDS), and develops the Forced Internationalization Penalty (FIP) as a structural boundary condition on the inverted-U framework.
+
+**Design/methodology/approach.** Using World Bank Enterprise Survey microdata from 1,469 firms across nine Pacific SIDS (2009–2025; 187 exporters), we estimate four OLS specifications with country-and-year fixed effects, year-only fixed effects, an exporters-only subsample, and a Heckman selection correction. The FSTS coefficient on labour productivity is the focal parameter; quadratic curvature is tested via Lind–Mehlum U-tests.
+
+**Findings.** Internationalization intensity is robustly negatively associated with labour productivity in Pacific SIDS ($\beta$ = −0.404, p = .032, primary specification; $\beta$ = −1.236, p < .001, year-FE only; $\beta$ = −0.901, p = .027, exporters-only). The quadratic FSTS term is null in every specification, with no observable turning point in the data range. Technological capability and digital adoption — significant moderators in mainland Asia — are null here. The three structural prerequisites of the inverted-U (viable domestic market, manageable trade costs, functional institutions) are simultaneously absent, producing the FIP signature.
+
+**Research limitations/implications.** Sample power is constrained at 187 exporters; the exporter-pool finding should be read as directional. The FIP framework opens a research agenda on whether other extreme-developing contexts (landlocked LDCs, post-conflict economies) exhibit comparable boundary conditions.
+
+**Practical implications.** The findings caution against export-intensity targets in Pacific SIDS export-promotion programmes; complementary structural reforms (trade-cost reduction, institutional capacity-building) are prerequisites for any positive I-P returns.
+
+**Social implications.** Under the Antigua and Barbuda Agenda for SIDS (UN General Assembly, 2024), the findings recalibrate sustainable-development policy expectations: SIDS firms cannot be expected to "internationalize their way out of" structural constraints; export-led-growth strategies premised on the inverted-U may systematically misallocate development assistance.
+
+**Originality/value.** The paper provides the first firm-level operationalization of the SIDS macro-vulnerability framework (Briguglio, 1995; Bertram, 2006; Briguglio et al., 2009) and shifts the theoretical conversation from "institutional moderation of I-P intensity" to "institutional determination of I-P sign" — a qualitative, not merely quantitative, departure. Of 1,745 published WBES-based IB studies, zero have covered Pacific SIDS at the firm level.
+
+**Keywords:** forced internationalization; small island developing states; firm performance; institutional voids; Pacific economies; labour productivity.
+
+**JEL classification:** F23 (multinational firms; international business); O17 (formal and informal sectors; shadow economy; institutional arrangements); O56 (economywide country studies: Oceania); D22 (firm behaviour: empirical analysis); F14 (empirical studies of trade).
+
+**Paper type:** Research paper.
 
 ---
 
