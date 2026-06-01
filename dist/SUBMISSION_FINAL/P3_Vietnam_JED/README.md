@@ -45,7 +45,7 @@
   - [ ] Anonymous main manuscript with title page submitted separately
 - [ ] Verify blinded manuscript has no author identifiers (already verified)
 - [ ] Confirm declarations: conflict of interest, funding, data availability, AI use
-- [ ] Submit via ScholarOne: https://mc.manuscriptcentral.com/jed
+- [ ] **Submission URL — XÁC NHẬN TRƯỚC**: Email `submission@ktpt.edu.vn` HOẶC portal `https://js.ktpt.edu.vn` (NEU OJS). KHÔNG dùng `mc.manuscriptcentral.com/jed` — URL đó là Sage's *Journal of Environment and Development*.
 
 ## 🔗 Related materials
 

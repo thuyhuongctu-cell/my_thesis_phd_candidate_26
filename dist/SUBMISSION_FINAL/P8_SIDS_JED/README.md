@@ -42,7 +42,7 @@
 - [ ] Verify blinded manuscript has no author identifiers (already verified)
 - [ ] Confirm declarations: conflict of interest, funding, data availability, AI use
 - [ ] Confirm §6 includes Vietnam / ASEAN policy relevance (per JED editorial preference)
-- [ ] Submit via ScholarOne: https://mc.manuscriptcentral.com/jed
+- [ ] **Submission URL — XÁC NHẬN TRƯỚC**: Email `submission@ktpt.edu.vn` HOẶC portal `https://js.ktpt.edu.vn` (NEU OJS). KHÔNG dùng `mc.manuscriptcentral.com/jed` — URL đó là Sage's *Journal of Environment and Development*.
 
 ## 🔗 Related materials
 

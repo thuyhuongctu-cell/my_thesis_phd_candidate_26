@@ -29,9 +29,23 @@
 
 ## JED Submission Checklist
 
-### ScholarOne (https://mc.manuscriptcentral.com/jed)
+### Submission portal — XÁC NHẬN TRƯỚC KHI ĐĂNG KÝ
 
-- [ ] Register / log in to ScholarOne Manuscripts
+⚠️ **CẢNH BÁO**: URL `mc.manuscriptcentral.com/jed` KHÔNG phải JED Emerald — nó dẫn đến Sage's "Journal of Environment and Development" (tạp chí khác).
+
+**Đường nộp đúng cho JED Emerald (NEU)**:
+
+- **Email chính thống**: `submission@ktpt.edu.vn`
+- **Portal NEU OJS**: https://js.ktpt.edu.vn (cùng hệ thống cho cả VI + EN edition)
+- **Emerald journal page** (verify URL submission mới nhất): https://www.emeraldgrouppublishing.com/journal/jed → tìm link "Submit your paper"
+- **Liên hệ editorial office**: Building A1, NEU, 207 Giai Phong, Hai Bà Trưng, Hà Nội · +84 (0)24.36280280 ext. 6407
+
+**Workflow đề xuất**:
+1. Email submission@ktpt.edu.vn để xác nhận URL ScholarOne chính xác (nếu có)
+2. Hoặc submit qua email theo guideline: cover page + blinded manuscript trong 2 file Word riêng
+
+- [ ] Xác nhận URL submission qua email submission@ktpt.edu.vn trước khi đăng ký account
+- [ ] Register / log in to confirmed submission portal
 - [ ] Select "Submit a Manuscript"
 - [ ] **Manuscript type:** Research Article
 - [ ] **Title:** Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption

@@ -23,9 +23,13 @@
 
 ---
 
-## JED Submission Checklist (ScholarOne)
+## JED Submission Checklist
 
-- [ ] Log in to ScholarOne Manuscripts: https://mc.manuscriptcentral.com/jed
+⚠️ **Đường nộp đúng**: Email `submission@ktpt.edu.vn` HOẶC portal `https://js.ktpt.edu.vn` (NEU OJS).
+URL `mc.manuscriptcentral.com/jed` KHÔNG phải JED Emerald — đó là Sage's "Journal of Environment and Development".
+
+- [ ] Xác nhận URL submission qua email `submission@ktpt.edu.vn` trước khi register
+- [ ] Register / log in tại portal đã confirm
 - [ ] Select "Submit a Manuscript"
 - [ ] **Manuscript type:** Research Article
 - [ ] **Title:** Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States
