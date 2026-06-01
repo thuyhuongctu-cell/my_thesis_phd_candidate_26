@@ -16,10 +16,10 @@
 | Role in papers | First author |
 | Corresponding author | No |
 | Position | PhD Candidate |
-| Institution | Vĩnh Long University of Technology Education (VLUTE) |
-| Institution (Vietnamese) | Trường Đại học Kỹ thuật – Công nghệ Vĩnh Long |
-| Address | 73 Nguyễn Huệ, Phường 2, TP. Vĩnh Long, Tỉnh Vĩnh Long, Vietnam |
-| Email | huongdt@vlute.edu.vn |
+| Institution | School of Economics, Can Tho University (CTU) |
+| Institution (Vietnamese) | Trường Kinh tế, Trường Đại học Cần Thơ |
+| Address | Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam |
+| Email | thuyhuongctu@gmail.com |
 | ORCID | 0000-0002-7711-2487 |
 | ORCID URL | https://orcid.org/0000-0002-7711-2487 |
 

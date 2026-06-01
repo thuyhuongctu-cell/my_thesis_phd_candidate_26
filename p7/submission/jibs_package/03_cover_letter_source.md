@@ -42,9 +42,9 @@ We hope the manuscript will be of interest to JIBS's readership and look forward
 Yours sincerely,
 
 **Đỗ Thùy Hương (Do Thuy Huong)**
-PhD Candidate
-Vinh Long University of Technology Education (VLUTE), Vietnam
-Email: huongdt@vlute.edu.vn | ORCID: 0000-0002-7711-2487
+PhD Candidate, School of Economics
+Can Tho University (CTU), Vietnam
+Email: thuyhuongctu@gmail.com | ORCID: 0000-0002-7711-2487
 
 **PGS.TS. Phan Anh Tú (Phan Anh Tu)**
 Associate Professor, School of Economics

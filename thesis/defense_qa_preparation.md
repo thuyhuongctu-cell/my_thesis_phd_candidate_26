@@ -2,7 +2,7 @@
 
 **Candidate:** Đỗ Thùy Hương (Do Thuy Huong)
 **Supervisor:** PGS.TS. Phan Anh Tú
-**Institution:** College of Economics, Can Tho University (CTU)
+**Institution:** School of Economics, Can Tho University (CTU)
 **Defense window:** Q3-Q4 2026
 **Document purpose:** Anticipated examiner questions with prepared responses. To be rehearsed before defense and refined based on supervisor feedback. Internal preparation document; not for committee distribution.
 
@@ -177,9 +177,9 @@ Brief answer (if uploaded by defense date): "Yes, the deposit at https://osf.io/
 
 ## Tier 4 — Adversarial probes (be ready, but rare)
 
-### Q4.1: "Vietnam Latvia University of Technology — bạn có affiliation kép. Có conflict of interest không?"
+### Q4.1: "Affiliation đơn lẻ trên toàn portfolio — có conflict of interest không?"
 
-Brief answer: VLUTE is my primary employer institution; CTU is my doctoral institution. Both affiliations are disclosed in the relevant papers' title pages. There is no commercial conflict — both are public Vietnamese higher-education institutions with no financial stake in the research findings.
+Brief answer: All six papers (P3–P8) declare a single author affiliation — School of Economics, Can Tho University (CTU) — matching the doctoral institution at which this dissertation is defended. There is no commercial conflict of interest; the supervisor (PGS.TS. Phan Anh Tú) and candidate share the same institutional unit. Funding statements disclose that no specific grant supports the research, consistent with the Điều 27.1 ownership analysis in M-AIDA SHTT documentation.
 
 ### Q4.2: "Pisani et al. (2020) trong P3 §1.2 — kết quả của họ liên quan thế nào đến claim của bạn?"
 

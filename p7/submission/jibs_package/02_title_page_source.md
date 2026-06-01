@@ -20,9 +20,9 @@
 **Đỗ Thùy Hương** (Do Thuy Huong)
 
 - **Position:** PhD Candidate
-- **Affiliation:** Vinh Long University of Technology Education (VLUTE)
-- **Address:** 73 Nguyễn Huệ, Phường 2, TP. Vĩnh Long, Vĩnh Long, Vietnam
-- **Email:** huongdt@vlute.edu.vn
+- **Affiliation:** School of Economics, Can Tho University (CTU)
+- **Address:** Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
+- **Email:** thuyhuongctu@gmail.com
 - **ORCID:** 0000-0002-7711-2487 (https://orcid.org/0000-0002-7711-2487)
 - **Role:** First author
 

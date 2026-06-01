@@ -14,16 +14,16 @@ Submission: Q3 2026
 **First Author**
 Đỗ Thùy Hương (Do Thuy Huong)
 Position: PhD Candidate
-Affiliation: College of Economics, Can Tho University (CTU)
+Affiliation: School of Economics, Can Tho University (CTU)
 Address: Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
-Email: huongp1323001@gstudent.ctu.edu.vn
+Email: thuyhuongctu@gmail.com
 ORCID: 0000-0002-7711-2487 (https://orcid.org/0000-0002-7711-2487)
 Role: First author
 
 **Second Author (Corresponding Author)**
 Phan Anh Tú (Phan Anh Tu)
 Title: Associate Professor (PGS.TS.)
-Affiliation: College of Economics, Can Tho University (CTU)
+Affiliation: School of Economics, Can Tho University (CTU)
 Address: Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
 Email: patu@ctu.edu.vn
 ORCID: 0000-0003-0667-3137 (https://orcid.org/0000-0003-0667-3137)

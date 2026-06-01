@@ -6,7 +6,7 @@
 *First Author*
 PhD Candidate, School of Economics, Can Tho University (CTU)
 Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
-Email: huongp1323001@gstudent.ctu.edu.vn
+Email: thuyhuongctu@gmail.com
 ORCID: 0000-0002-7711-2487
 
 **PGS.TS. Phan Anh Tú** (Phan Anh Tu)
@@ -15,10 +15,6 @@ Associate Professor, School of Economics, Can Tho University (CTU)
 Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
 Email: patu@ctu.edu.vn
 ORCID: 0000-0003-0667-3137
-
-> **Note:** If the first author wishes to record a second institutional
-> affiliation (e.g., VLUTE), add it to this title page and update the
-> corresponding-author designation before submission.
 
 ---
 

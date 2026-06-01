@@ -1,6 +1,6 @@
 # The Export Intensity–Performance Relationship in Chinese Private Firms: A Threshold-Stability Perspective
 
-**Do Thuy Huong** · School of Economics, Can Tho University · huongp1323001@gstudent.ctu.edu.vn · ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)  
+**Do Thuy Huong** · School of Economics, Can Tho University · thuyhuongctu@gmail.com · ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)  
 **Phan Anh Tu** *(Corresponding author)* · School of Economics, Can Tho University · patu@ctu.edu.vn · ORCID: [0000-0003-0667-3137](https://orcid.org/0000-0003-0667-3137)
 
 *Submission: International Journal of Emerging Markets (IJOEM)*

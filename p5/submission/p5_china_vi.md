@@ -4,7 +4,7 @@
 *Dịch thuật: Claude AI theo chuẩn văn phong học thuật CTU (09b_vn_term_glossary.md v1.4)*
 *Ngày: 17/05/2026*
 
-**Đỗ Thùy Hương**, Trường Kinh tế, Đại học Cần Thơ, huongp1323001@gstudent.ctu.edu.vn, ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)
+**Đỗ Thùy Hương**, Trường Kinh tế, Đại học Cần Thơ, thuyhuongctu@gmail.com, ORCID: [0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)
 **Phan Anh Tú** *(Tác giả liên hệ)*, Trường Kinh tế, Đại học Cần Thơ, patu@ctu.edu.vn, ORCID: [0000-0003-0667-3137](https://orcid.org/0000-0003-0667-3137)
 
 *Nộp đăng: International Journal of Emerging Markets (IJOEM)*

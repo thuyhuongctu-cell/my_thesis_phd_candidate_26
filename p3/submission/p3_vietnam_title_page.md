@@ -22,7 +22,7 @@
 - **Position:** PhD Candidate
 - **Affiliation:** School of Economics, Can Tho University (CTU)
 - **Address:** Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
-- **Email:** huongp1323001@gstudent.ctu.edu.vn
+- **Email:** thuyhuongctu@gmail.com
 - **ORCID:** 0000-0002-7711-2487 (https://orcid.org/0000-0002-7711-2487)
 - **Role:** First author
 

@@ -34,7 +34,7 @@ Sincerely,
 
 **Đỗ Thùy Hương** (Do Thuy Huong)
 School of Economics, Can Tho University (CTU), Viet Nam
-Email: huongp1323001@gstudent.ctu.edu.vn | ORCID: 0000-0002-7711-2487
+Email: thuyhuongctu@gmail.com | ORCID: 0000-0002-7711-2487
 
 **PGS.TS. Phan Anh Tú** (Phan Anh Tu) *(Corresponding author)*
 Associate Professor, School of Economics

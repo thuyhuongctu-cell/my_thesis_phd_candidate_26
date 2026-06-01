@@ -42,7 +42,7 @@ Yours sincerely,
 **Đỗ Thùy Hương (Do Thuy Huong)**
 PhD Candidate
 School of Economics, Can Tho University (CTU), Vietnam
-Email: huongp1323001@gstudent.ctu.edu.vn | ORCID: 0000-0002-7711-2487
+Email: thuyhuongctu@gmail.com | ORCID: 0000-0002-7711-2487
 
 **PGS.TS. Phan Anh Tú (Phan Anh Tu)**
 Associate Professor, School of Economics
