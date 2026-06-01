@@ -6,6 +6,16 @@
 
 ---
 
+## Highlights
+
+- First firm-level test of the Forced Internationalization Penalty in Pacific SIDS.
+- Internationalization is monotone-negative for productivity (β = −0.404, p = .032).
+- The quadratic term is null: no observable turning point in the data range.
+- Technological capability and digital adoption do not override the penalty.
+- Shift I–P framing from institutional moderation to institutional determination.
+
+---
+
 ## Abstract
 
 The conventional inverted-U between internationalization intensity and firm performance rests on three structural prerequisites: a viable domestic market, manageable trade costs, and functional institutions. When all three are absent at once, as in Pacific Small Island Developing States (SIDS), the non-linear pattern collapses into a monotone negative relationship, which we term the Forced Internationalization Penalty (FIP): not a transient phase-1 learning cost, but a persistent structural condition arising from the compulsion to export despite systemic disadvantage. Using World Bank Enterprise Survey data from 1,469 firms across nine Pacific SIDS (2009–2025), internationalization intensity is robustly negatively associated with labour productivity ($\beta$ = −0.404, p = .032, country-and-year fixed effects) with no quadratic curvature. Technological capability and digital adoption, significant moderators in mainland Asia, are null here. These findings reframe the inverted-U as conditional rather than universal and identify boundary conditions for institutional moderation theory.
@@ -275,6 +285,32 @@ This study introduced the Forced Internationalization Penalty (FIP), the monoton
 These findings contribute to IB theory in two ways. First, they help reorient the discourse on institutional effects from "institutional moderation of I-P intensity" toward "institutional determination of I-P sign," which establishes the inverted-U as conditional on structural prerequisites rather than universal. FIP and conventional theory are best understood as the two poles of one continuum: internationalization-to-scale, where exporting optimizes margins and the turning point is very late, and internationalization-to-survive, where firms are compelled to export despite profit-eroding logistics costs and the curve collapses to a monotone negative line. The SIDS case is valuable not because it is exotic but because it is the singularity at which the standard model breaks down and thereby reveals the prerequisites it silently assumes; FIP names that limiting regime and supplies a general boundary condition for institutional moderation theory. Second, they extend the application of "forced internationalization" beyond the SME literature into the performance-outcome domain, providing a theoretically defined and empirically grounded construct, FIP, that future research can build upon.
 
 For the world development policy agenda, FIP suggests that export promotion strategies in SIDS require complementary structural interventions. These should address trade costs, domestic market viability through regional integration, and targeted institutional development, rather than the intensification of export activity on its own.
+
+---
+
+## Acknowledgements
+
+Source: World Bank Enterprise Surveys (WBES), www.enterprisesurveys.org. We thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the data. The user of the data acknowledges that the original collector of the data, the authorised distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses. The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors and do not necessarily represent the views of the World Bank Group, its Executive Directors, or the governments they represent.
+
+## Funding
+
+The authors received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors for the research, authorship, or publication of this article.
+
+## Declaration of Competing Interests
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## CRediT Author Statement
+
+*Author 1 (corresponding):* Conceptualization, Methodology, Data curation, Formal analysis, Writing — original draft. *Author 2:* Conceptualization, Methodology, Writing — review & editing, Supervision. (Full author identities provided in separate Title Page; CRediT terms per Brand et al., 2015.)
+
+## Declaration of Generative AI and AI-Assisted Technologies
+
+During the preparation of this work the authors used large-language-model assistants to support: (i) language polishing of draft prose at the sentence level; (ii) consistency checking of statistical notation and APA 7 reference formatting; and (iii) preliminary screening of WBES variable codes against the harmonisation protocol. After using these tools, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article. No AI tool was used for analytic decisions, hypothesis development, or interpretation of empirical results.
+
+## Data Availability Statement
+
+The World Bank Enterprise Survey microdata used in this study are publicly available at https://www.enterprisesurveys.org (accessed during May 2025–April 2026 for the nine Pacific SIDS waves analysed). The harmonisation protocol, derived variable construction code, and replication scripts that reproduce the regression results reported in §4 are available from the corresponding author on reasonable request; a fully anonymised replication archive will be deposited on OSF upon acceptance.
 
 ---
 
