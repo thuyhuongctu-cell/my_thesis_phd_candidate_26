@@ -4,7 +4,7 @@
 
 *27 May 2026*
 
-*Target journal: Asia Pacific Journal of Management (APJM), Springer*
+*Target journal: Journal of Economics and Development (JED), Emerald Publishing on behalf of National Economics University (NEU)*
 
 **Manuscript classification:** research article.
 

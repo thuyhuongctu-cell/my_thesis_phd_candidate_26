@@ -71,7 +71,9 @@ Applies to all empirical papers (P3 Vietnam, P4 Singapore, P5 China, P6 meta-ana
 
 | Paper | Journal | Status | Cover letter | Title page |
 |---|---|---|---|---|
-| P3 Vietnam | JABS (Journal of Asia Business Studies, Emerald) | Submission ready | p3_vietnam_cover_letter.md/.docx | p3_vietnam_title_page.md/.docx |
+| P3 Vietnam | JED (Journal of Economics and Development, Emerald on behalf of NEU) | Submission ready | p3_vietnam_cover_letter.md/.docx | p3_vietnam_title_page.md/.docx |
 | P4 Singapore | MIR (Management International Review, Springer) | Submission ready | p4_singapore_cover_letter.md/.docx | p4_singapore_title_page.md/.docx |
 | P5 China | IJOEM (International Journal of Emerging Markets, Emerald) | Submission ready | p5_china_cover_letter.md/.docx | p5_china_title_page.md/.docx |
-| P6 Meta-analysis | IBR (International Business Review, Elsevier) | In preparation | p6_ibr_cover_letter.md | — |
+| P6 Meta-analysis | MIR (Management International Review, Springer) | Submission ready | mir_package/03_cover_letter.md | mir_package/02_title_page.md |
+| P7 Capstone | JIBS (Journal of International Business Studies, Wiley) | Submission ready | jibs_package/03_cover_letter_source.md | jibs_package/02_title_page_source.md |
+| P8 Pacific SIDS | JED (Journal of Economics and Development, Emerald on behalf of NEU) | Submission ready | jed_package/03_cover_letter.md | jed_package/02_title_page.md |

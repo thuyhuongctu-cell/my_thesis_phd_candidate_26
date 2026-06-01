@@ -1,13 +1,13 @@
-# World Development Submission Package
+# JED Submission Package
 ## P8 — Forced Internationalization Penalty in Pacific SIDS
 
 **Manuscript:** "Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States"
 
-**Target journal:** World Development — Elsevier (ABS-4*, IF ~6.0)
+**Target journal:** Journal of Economics and Development (JED) — Emerald Publishing on behalf of National Economics University, Vietnam (Scopus + WoS indexed; IF 4.3; CiteScore 8.5; Diamond OA — no APC)
 
-**Authors:** Đỗ Thùy Hương (VLUTE / Can Tho University) & Phan Anh Tú (Can Tho University)
+**Authors:** Đỗ Thùy Hương & PGS.TS. Phan Anh Tú (School of Economics, Can Tho University)
 
-**Target submission:** Q3 2026 (revision of submitted version)
+**Target submission:** 1 June 2026
 
 ---
 
@@ -23,10 +23,10 @@
 
 ---
 
-## World Development Submission Checklist (Editorial Manager)
+## JED Submission Checklist (ScholarOne)
 
-- [ ] Log in to Editorial Manager: editorialmanager.com/worlddev
-- [ ] Select "Submit New Manuscript" or "Submit Revision"
+- [ ] Log in to ScholarOne Manuscripts: https://mc.manuscriptcentral.com/jed
+- [ ] Select "Submit a Manuscript"
 - [ ] **Manuscript type:** Research Article
 - [ ] **Title:** Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States
 - [ ] **Abstract:** ~200 words (provided in manuscript)
@@ -34,13 +34,22 @@
 - [ ] Upload `01_manuscript_blinded.docx` → Main Document (anonymous)
 - [ ] Upload `02_title_page.docx` → Title Page (with author info)
 - [ ] Upload `03_cover_letter.docx` → Cover Letter
-- [ ] Confirm corresponding author (Đỗ Thùy Hương or Phan Anh Tú)
+- [ ] Confirm corresponding author = Phan Anh Tú (patu@ctu.edu.vn)
 - [ ] Confirm manuscript not under review elsewhere
 - [ ] Conflict of interest statement: None
 - [ ] Data availability: WBES microdata publicly available at enterprisesurveys.worldbank.org; harmonised datasets available from authors on request
 - [ ] Ethics statement: Not required (secondary data, publicly available)
-- [ ] Funding: [confirm with authors]
+- [ ] Funding: None — self-funded research; declared in title page
 - [ ] Suggested reviewers (optional): scholars in SIDS economics, IB performance, WBES-based research, institutional voids
+- [ ] (Optional) Run Paperpal Preflight check before final submit
+
+### JED Editorial Notes
+
+- JED is Diamond Open Access — **no Article Processing Charge** (NEU funds publication)
+- Average review time ~10 weeks
+- ISSN 1859-0020 (print) / e-ISSN 2632-5330
+- Scopus + Web of Science indexed since December 2023
+- Editorial scope alignment: **developing-country focus** — Pacific SIDS as the most extreme developing-country tail provides a novel boundary-case contribution
 
 ---
 
@@ -64,14 +73,15 @@
 
 ## Pre-submission Checklist
 
-- [ ] Word count within World Development limit (~12,000 words including references)
-- [ ] References formatted per APA 7th (World Development uses APA)
-- [ ] All tables formatted per World Development style (numbered, captioned)
+- [ ] Word count comfortably within JED submission norms (~7,500 < ~10,000 typical)
+- [ ] References formatted per APA 7th (JED accepts APA)
+- [ ] All tables formatted per Emerald style (numbered, captioned, in-text placement)
 - [ ] Statistical reporting: β ± SE, t-statistic, p-values (not stars alone)
 - [ ] Lind–Mehlum test result noted for quadratic null
 - [ ] FIP defined formally in §2.2 with 3-prerequisite framework
 - [ ] Antigua and Barbuda Agenda cited (UN General Assembly, 2024)
 - [ ] DAI described as Tier-1 proxy (website only) — NOT dynamic digital capability
+- [ ] Vietnam / ASEAN policy relevance section added to §6 (per JED editorial preference)
 
 ---
 

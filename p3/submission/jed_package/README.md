@@ -1,11 +1,13 @@
-# APJM Submission Package
-## Asia Pacific Journal of Management — Springer
+# JED Submission Package
+## Journal of Economics and Development — Emerald Publishing (on behalf of NEU)
 
 **Manuscript:** "Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption"
 
-**Submission date:** 27 May 2026
+**Target journal:** Journal of Economics and Development (JED) — Emerald Publishing on behalf of National Economics University, Vietnam (Scopus + WoS indexed; IF 4.3; CiteScore 8.5; Diamond OA — no APC)
 
-**Authors:** Đỗ Thùy Hương & Phan Anh Tú (Can Tho University)
+**Submission date (planned):** 1 June 2026
+
+**Authors:** Đỗ Thùy Hương & PGS.TS. Phan Anh Tú (School of Economics, Can Tho University)
 
 ---
 
@@ -25,19 +27,19 @@
 
 ---
 
-## APJM Submission Checklist
+## JED Submission Checklist
 
-### Editorial Manager (https://www.editorialmanager.com/apjm/)
+### ScholarOne (https://mc.manuscriptcentral.com/jed)
 
-- [ ] Register / log in to Editorial Manager
-- [ ] Select "Submit New Manuscript"
+- [ ] Register / log in to ScholarOne Manuscripts
+- [ ] Select "Submit a Manuscript"
 - [ ] **Manuscript type:** Research Article
 - [ ] **Title:** Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption
 - [ ] **Keywords** (6): internationalisation–performance; emerging markets; digital adoption; technological capability; Vietnam; threshold durability
 - [ ] **JEL codes:** F23, O33, D22, L25, O53
 - [ ] **Abstract** (250 words): paste from `01_manuscript_blinded.docx`
-- [ ] Upload `01_manuscript_blinded.docx` → Manuscript
-- [ ] Upload `02_title_page.docx` → Title Page
+- [ ] Upload `01_manuscript_blinded.docx` → Main Manuscript (anonymous)
+- [ ] Upload `02_title_page.docx` → Title Page (non-anonymous)
 - [ ] Upload `03_cover_letter.docx` → Cover Letter
 - [ ] Upload `figures/figure_1_conceptual_model.png` → Figure 1
 - [ ] Upload `figures/figure_2a.png` → Figure 2a
@@ -45,10 +47,18 @@
 - [ ] Upload `figures/figure_2c.png` → Figure 2c
 - [ ] Upload `figures/figure_2d.png` → Figure 2d
 - [ ] Upload `figures/figure_3_moderator_marginals.png` → Figure 3
-- [ ] Confirm co-author details (Phan Anh Tú as corresponding author)
+- [ ] Confirm corresponding author = Phan Anh Tú (patu@ctu.edu.vn)
 - [ ] Confirm no conflict of interest
 - [ ] Confirm no prior publication / simultaneous submission
 - [ ] Confirm data availability statement included in title page
+- [ ] (Optional) Run Paperpal Preflight check before final submit
+
+### JED Editorial Notes
+
+- JED is Diamond Open Access — **no Article Processing Charge** (NEU funds publication)
+- Average review time ~10 weeks
+- ISSN 1859-0020 (print) / e-ISSN 2632-5330
+- Scopus and Web of Science indexed since December 2023
 
 ---
 
@@ -67,6 +77,6 @@
 
 ## Source Files (for revision)
 
-Main markdown source: `p3/p3_vietnam_en_clean.md`  
-Vietnamese version: `p3/submission/p3_vietnam_vi.md`  
+Main markdown source: `p3/p3_vietnam_en_clean.md`
+Vietnamese version: `p3/submission/p3_vietnam_vi.md`
 Replication: `p3/replication/`

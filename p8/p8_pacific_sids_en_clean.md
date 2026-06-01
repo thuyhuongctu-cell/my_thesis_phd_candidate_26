@@ -1,6 +1,6 @@
 # Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States
 
-**Target journal**: World Development
+**Target journal**: Journal of Economics and Development (JED), Emerald Publishing on behalf of National Economics University (NEU)
 
 **Keywords**: internationalization–performance relationship; small island developing states; forced internationalization; institutional voids; Pacific economies; labor productivity
 

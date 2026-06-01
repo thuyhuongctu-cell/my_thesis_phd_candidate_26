@@ -1,5 +1,11 @@
 # Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States
 
+*Target journal:* Journal of Economics and Development (JED), Emerald Publishing on behalf of National Economics University (NEU)
+
+*Submission date:* 1 June 2026
+
+---
+
 ## Authors
 
 **Đỗ Thùy Hương** (Do Thuy Huong)
@@ -53,7 +59,7 @@ The authors declare no conflict of interest.
 
 ## Use of Generative AI in the Writing Process
 
-In accordance with Elsevier's policy on the use of generative AI and AI-assisted technologies in scientific writing, the authors disclose that generative AI tools were used during manuscript preparation to assist with language editing, structure suggestions, and the assembly of the replication package documentation. All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human authors, who take full responsibility for the content of the publication. No AI-generated content has been incorporated into the manuscript text without human review and revision.
+In accordance with Emerald's policy on the use of generative AI and AI-assisted technologies in scientific writing, the authors disclose that generative AI tools were used during manuscript preparation to assist with language editing, structure suggestions, and the assembly of the replication package documentation. All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human authors, who take full responsibility for the content of the publication. No AI-generated content has been incorporated into the manuscript text without human review and revision.
 
 ---
 

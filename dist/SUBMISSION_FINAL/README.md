@@ -13,12 +13,12 @@
 SUBMISSION_FINAL/
 ├── README.md                                       ← Master index (file này)
 │
-├── P3_Vietnam_APJM/                                → Asia Pacific Journal of Management (Springer)
+├── P3_Vietnam_JED/                                 → Journal of Economics and Development (Emerald, NEU)
 ├── P4_Singapore_MIR/                               → Management International Review (Springer)
 ├── P5_China_IJOEM/                                 → International Journal of Emerging Markets (Emerald)
 ├── P6_Meta_MIR/                                    → Management International Review (Springer)
 ├── P7_Capstone_JIBS/                               → Journal of International Business Studies (Wiley)
-├── P8_SIDS_WorldDevelopment/                       → World Development (Elsevier)
+├── P8_SIDS_JED/                                    → Journal of Economics and Development (Emerald, NEU)
 │
 ├── CD1_ChuyenDe_1/                                 → Chuyên đề Tiến sĩ số 1 (đã bảo vệ)
 ├── CD2_ChuyenDe_2/                                 → Chuyên đề Tiến sĩ số 2 (đã bảo vệ)
@@ -98,12 +98,12 @@ Mỗi file `<paper>_replication_data.xlsx` có 5 sheet:
 
 | Hạng mục | Đối tượng | Trạng thái | Verdict |
 |---|---|---|---|
-| **P3 Vietnam** | APJM (Springer, Q1, ABS-3) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
+| **P3 Vietnam** | JED (Emerald/NEU, Scopus, IF 4.3) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
 | **P4 Singapore** | MIR (Springer, Q1, ABS-3) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
 | **P5 China** | IJOEM (Emerald, Q1) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
 | **P6 Meta** | MIR (Springer, Q1, ABS-3) | Blinded clean, 10/12 (0 critical) | ✅ SẴN SÀNG NỘP* |
 | **P7 Capstone** | JIBS (Wiley, Q1, ABS-4*) | Blinded clean, 11/12 (1 FP)** | ✅ SẴN SÀNG NỘP |
-| **P8 SIDS** | World Development (Elsevier, Q1) | Blinded clean | ✅ SẴN SÀNG NỘP |
+| **P8 SIDS** | JED (Emerald/NEU, Scopus, IF 4.3) | Blinded clean | ✅ SẴN SÀNG NỘP |
 | **CD1** | Hội đồng CTU | Đã bảo vệ, 16,584 từ | ✅ ARCHIVED |
 | **CD2** | Hội đồng CTU | Đã bảo vệ, 24,078 từ; bounded-interval framing | ✅ ARCHIVED |
 | **Ch1-Ch5** | Hội đồng bảo vệ luận án CTU | Đã apply top-1% IB reviewer fixes; bounded P6 framing | ✅ Defense-ready Q3-Q4 2026 |
@@ -162,13 +162,13 @@ Mỗi file `<paper>_replication_data.xlsx` có 5 sheet:
 
 P7 reference M-AIDA trong §3.2.4; tốt nhất nộp sau khi có Giấy chứng nhận SHTT để thêm footnote.
 
-### Ưu tiên 3: P8 World Development
+### Ưu tiên 3: P8 SIDS → JED
 
-P8 độc lập, không có blocker. Có thể nộp ngay.
+P8 độc lập, không có blocker. Có thể nộp ngay JED (Emerald/NEU) — fit "developing countries focus" của JED rất mạnh.
 
-### Ưu tiên 4: P3 APJM + P5 IJOEM
+### Ưu tiên 4: P3 → JED + P5 → IJOEM
 
-Cả hai sẵn sàng. Có thể nộp song song với các paper khác (không có editor-conflict).
+Cả hai sẵn sàng. P3 → JED (NEU connection) và P5 → IJOEM có thể nộp song song. Lưu ý JED là Scopus + WoS (IF 4.3, Diamond OA) — tính 2 bài Scopus cho CTĐT 14 TC.
 
 ---
 
@@ -204,7 +204,7 @@ python3 scripts/check-consistency.py
 ### Chưa làm (yêu cầu của từng tạp chí cụ thể, NCS điều chỉnh khi submit):
 - ⏳ **JIBS:** Yêu cầu "Authors' Information File" riêng — chưa tách
 - ⏳ **MIR:** Yêu cầu line numbers trong manuscript — pandoc chưa add
-- ⏳ **APJM:** Yêu cầu running header trên mỗi trang — chưa add
+- ⏳ **JED:** Khuyến nghị chạy Paperpal Preflight (Emerald AI compliance check) trước submit; structured abstract Purpose/Design/Findings/Originality theo Emerald house style
 - ⏳ **Some journals:** Word file phải có sub-extension `.doc` (legacy) — chưa convert
 
 NCS nên kiểm tra "Instructions for Authors" cụ thể của từng tạp chí trước khi nộp.
