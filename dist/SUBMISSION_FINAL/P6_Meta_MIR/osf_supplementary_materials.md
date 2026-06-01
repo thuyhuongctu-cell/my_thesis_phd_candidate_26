@@ -4,7 +4,7 @@
 
 **OSF project:** https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)
 
-**Authors:** Đỗ Thị Thúy Hương; Phan Anh Tú
+**Authors:** Đỗ Thùy Hương; Phan Anh Tú
 
 This document collects the methodological appendices and secondary tables migrated from the main manuscript to meet the MIR word-count envelope. The main manuscript references each item by tag (Supp-A, Supp-B, Supp-C, Supp-T1, Supp-T2, Supp-T3).
 

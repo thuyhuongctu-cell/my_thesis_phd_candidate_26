@@ -111,7 +111,7 @@ Coder thứ 2 điền độc lập (không xem `gold_standard_manual_filled.csv`
 ### Bước 5.1: Truy cập OSF z37kn
 URL: https://osf.io/z37kn
 
-Đăng nhập với account của bạn (Phan Anh Tú hoặc Đỗ Thị Thúy Hương — bất kỳ ai là project administrator).
+Đăng nhập với account của bạn (Phan Anh Tú hoặc Đỗ Thùy Hương — bất kỳ ai là project administrator).
 
 ### Bước 5.2: Tạo folder structure trên OSF
 

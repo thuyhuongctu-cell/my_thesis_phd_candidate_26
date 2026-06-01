@@ -22,7 +22,7 @@ Chương trình máy tính (Computer Program / Research Software).
 ## 3. TÁC GIẢ / CHỦ SỞ HỮU
 
 ### 3.1 Tác giả
-Phần mềm do **Đỗ Thị Thúy Hương** (Nghiên cứu sinh chuyên ngành Quản trị Kinh doanh, Trường Kinh
+Phần mềm do **Đỗ Thùy Hương** (Nghiên cứu sinh chuyên ngành Quản trị Kinh doanh, Trường Kinh
 tế, Trường Đại học Cần Thơ) và **PGS.TS. Phan Anh Tú** (Người hướng dẫn khoa học, Trường Kinh tế,
 Trường Đại học Cần Thơ) tự nghiên cứu và xây dựng trong khuôn khổ luận án tiến sĩ.
 
@@ -42,10 +42,10 @@ Luật SHTT về "tổ chức giao nhiệm vụ sáng tạo" không áp dụng.
 đóng góp lập trình:*
 
 - [ ] **Phương án A.1** (NCS solo, mặc định nếu Phan Anh Tú KHÔNG trực tiếp lập trình):
-  **Đỗ Thị Thúy Hương** là chủ sở hữu duy nhất. PGS.TS. Phan Anh Tú được ghi nhận trong
+  **Đỗ Thùy Hương** là chủ sở hữu duy nhất. PGS.TS. Phan Anh Tú được ghi nhận trong
   Acknowledgements với vai trò Người hướng dẫn khoa học của luận án.
 - [ ] **Phương án A.2** (đồng chủ sở hữu, nếu Phan Anh Tú có trực tiếp đóng góp code/design):
-  **Đỗ Thị Thúy Hương + PGS.TS. Phan Anh Tú** đồng chủ sở hữu cá nhân, theo tỷ lệ thỏa thuận
+  **Đỗ Thùy Hương + PGS.TS. Phan Anh Tú** đồng chủ sở hữu cá nhân, theo tỷ lệ thỏa thuận
   riêng giữa hai tác giả (thông thường ghi 50/50 trừ khi có văn bản thỏa thuận khác).
 
 **Bằng chứng pháp lý đính kèm hồ sơ:**
@@ -236,13 +236,13 @@ nghiên cứu của tác giả). Tình trạng công bố tại thời điểm n
 
 ## 13. THÔNG BÁO BẢN QUYỀN
 ```
-© 2026 Đỗ Thị Thúy Hương & Phan Anh Tú. All rights reserved.
+© 2026 Đỗ Thùy Hương & Phan Anh Tú. All rights reserved.
 M-AIDA (Meta-Analysis Intelligent Data Assistant) — Proprietary, Research Use Only.
 Liên hệ cấp phép: huongp1323001@gstudent.ctu.edu.vn
 ```
 
 ## 14. CÁCH TRÍCH DẪN (academic citation)
-> Đỗ, T. T. H., & Phan, A. T. (2026). *M-AIDA: Meta-Analysis Intelligent Data Assistant* (Phiên bản
+> Đỗ, T. H., & Phan, A. T. (2026). *M-AIDA: Meta-Analysis Intelligent Data Assistant* (Phiên bản
 > 7.0.0) [Phần mềm máy tính]. Trường Đại học Cần Thơ. Số đăng ký bản quyền: *[điền sau khi cấp]*.
 
 Siêu dữ liệu trích dẫn máy-đọc: xem `p6/tools/maida/CITATION.cff` (Citation File Format 1.2.0).

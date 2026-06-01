@@ -1,6 +1,6 @@
 # Defense Q&A Preparation Document
 
-**Candidate:** Đỗ Thị Thúy Hương (Do Thi Thuy Huong)
+**Candidate:** Đỗ Thùy Hương (Do Thuy Huong)
 **Supervisor:** PGS.TS. Phan Anh Tú
 **Institution:** College of Economics, Can Tho University (CTU)
 **Defense window:** Q3-Q4 2026

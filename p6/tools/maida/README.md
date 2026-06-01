@@ -1,6 +1,6 @@
 # M-AIDA v7.0 — Meta-Analysis Intelligent Data Assistant
 
-Developed at the College of Economics, Can Tho University, by Đỗ Thị Thúy Hương (PI) and
+Developed at the College of Economics, Can Tho University, by Đỗ Thùy Hương (PI) and
 Phan Anh Tú. Purpose-built for IB meta-analysis: semi-automated effect-size extraction from
 academic PDFs with human-in-the-loop PI verification and an immutable data lock.
 
@@ -46,5 +46,5 @@ All *r* are then Fisher-transformed `z = ½·ln[(1+r)/(1−r)]`; any |r| ≥ 1 i
 
 ## Citation
 
-Đỗ, T. T. H., & Phan, A. T. (2026). *M-AIDA v7.0: Meta-Analysis Intelligent Data Assistant*
+Đỗ, T. H., & Phan, A. T. (2026). *M-AIDA v7.0: Meta-Analysis Intelligent Data Assistant*
 [Computer software]. Can Tho University. See `CITATION.cff`.

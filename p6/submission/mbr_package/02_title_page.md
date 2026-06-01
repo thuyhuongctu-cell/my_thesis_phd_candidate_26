@@ -12,7 +12,7 @@ Submission: Q3 2026
 ## Authors
 
 **First Author**
-Đỗ Thị Thúy Hương (Do Thi Thuy Huong)
+Đỗ Thùy Hương (Do Thuy Huong)
 Position: PhD Candidate
 Affiliation: College of Economics, Can Tho University (CTU)
 Address: Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam
@@ -31,7 +31,7 @@ Role: Corresponding author
 
 ## CRediT Author Contributions
 
-| Contribution role | Đỗ Thị Thúy Hương | Phan Anh Tú |
+| Contribution role | Đỗ Thùy Hương | Phan Anh Tú |
 |---|---|---|
 | Conceptualization | Lead | Supporting |
 | Data curation | Lead | — |

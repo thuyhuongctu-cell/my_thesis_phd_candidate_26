@@ -1,6 +1,6 @@
 # Luận án Tiến sĩ — 5 Chương Tiếng Việt
 
-**Tác giả:** Đỗ Thị Thúy Hương · NCS Mã số P1323001 · Khóa 2023.1
+**Tác giả:** Đỗ Thùy Hương · NCS Mã số P1323001 · Khóa 2023.1
 **Ngành:** Quản trị Kinh doanh (mã 9340101)
 **Đơn vị đào tạo:** Trường Kinh tế, Trường Đại học Cần Thơ
 **Người hướng dẫn:** PGS.TS. Phan Anh Tú

@@ -1,6 +1,6 @@
 # Báo cáo Hoàn thành & Chất lượng Học thuật — Danh mục Luận án
 
-**Tác giả:** Đỗ Thị Thúy Hương (NCS) · **GVHD:** PGS.TS. Phan Anh Tú
+**Tác giả:** Đỗ Thùy Hương (NCS) · **GVHD:** PGS.TS. Phan Anh Tú
 **Cơ sở đào tạo:** Trường Kinh tế, Đại học Cần Thơ (CTU)
 **Ngày báo cáo:** 30/05/2026
 **Nhánh kiểm tra:** `claude/vietnamese-academic-standards-QuiLM` @ `d48d15a`

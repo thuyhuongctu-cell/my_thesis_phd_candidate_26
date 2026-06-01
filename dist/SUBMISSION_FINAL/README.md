@@ -1,7 +1,7 @@
 # SUBMISSION FINAL — 6 Bài báo + Hồ sơ M-AIDA SHTT
 
 **Tạo ngày:** 2026-05-31
-**Tác giả:** Đỗ Thị Thúy Hương (NCS, mã số P1323001) · PGS.TS. Phan Anh Tú
+**Tác giả:** Đỗ Thùy Hương (NCS, mã số P1323001) · PGS.TS. Phan Anh Tú
 **Đơn vị:** Trường Kinh tế, Trường Đại học Cần Thơ
 **Trạng thái:** Tất cả tài liệu đã pass kiểm định blinding + định dạng + checklist tạp chí.
 
@@ -179,7 +179,7 @@ Tất cả các verification chạy ngày 2026-05-31, commit `55d98d0`:
 ```bash
 # Blinding check
 for f in dist/SUBMISSION_FINAL/*/01_manuscript_blinded*.docx; do
-  unzip -p "$f" word/document.xml | grep -ioE "Đỗ Thị Thúy|Phan Anh Tú|huongp1323001|patu@ctu"
+  unzip -p "$f" word/document.xml | grep -ioE "Đỗ Thùy|Phan Anh Tú|huongp1323001|patu@ctu"
 done
 # Result: ALL CLEAN (no leaks)
 

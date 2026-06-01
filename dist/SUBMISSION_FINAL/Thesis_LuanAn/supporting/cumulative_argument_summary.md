@@ -1,6 +1,6 @@
 # Cumulative Argument Summary — Dissertation Portfolio
 
-**Author:** Đỗ Thị Thúy Hương (Do Thi Thuy Huong)
+**Author:** Đỗ Thùy Hương (Do Thuy Huong)
 **Supervisor:** PGS.TS. Phan Anh Tú
 **Institution:** Can Tho University (CTU), Vietnam
 **Defense window:** Q3-Q4 2026

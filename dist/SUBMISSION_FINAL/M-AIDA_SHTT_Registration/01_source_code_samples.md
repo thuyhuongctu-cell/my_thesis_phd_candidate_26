@@ -21,8 +21,8 @@ M-AIDA: Meta-Analysis Intelligent Data Assistant
         Internationalization & Performance Research Pipeline
 =============================================================================
 Version   : 7.0.0
-Copyright : © 2026 Đỗ Thị Thúy Hương & Phan Anh Tú. All rights reserved.
-Authors   : Đỗ Thị Thúy Hương (Primary Investigator); Phan Anh Tú
+Copyright : © 2026 Đỗ Thùy Hương & Phan Anh Tú. All rights reserved.
+Authors   : Đỗ Thùy Hương (Primary Investigator); Phan Anh Tú
 Unit      : College of Economics, Can Tho University (CTU), Vietnam
 Created   : 29/05/2026
 License   : Proprietary — Research Use Only
@@ -286,11 +286,11 @@ document.getElementById('btnJSON').onclick=()=>dl(JSON.stringify(DS,null,2),'mai
 document.getElementById('btnReset').onclick=()=>{if(confirm('Xoá toàn bộ dataset đã kiểm chứng?')){DS=[];renderDS();persist();}};
 document.getElementById('foot').innerHTML=
  `<b>M-AIDA Core System v7.0</b> — Meta-Analysis Intelligent Data Assistant · Automated Statistical Extraction Engine for Meta-Analysis Research.<br>`+
- `<b>Authorship.</b> PhD Candidate Đỗ Thị Thúy Hương — Primary Investigator (School of Economics, CTU); Assoc. Prof. Dr. Phan Anh Tú — Research Supervisor (School of Economics, CTU).<br>`+
+ `<b>Authorship.</b> PhD Candidate Đỗ Thùy Hương — Primary Investigator (School of Economics, CTU); Assoc. Prof. Dr. Phan Anh Tú — Research Supervisor (School of Economics, CTU).<br>`+
  `<b>Workflow.</b> "Institutional Integrity Secured": AI/rule preliminary extraction → PI human-in-the-loop verification → data finalized &amp; locked only after authorized manual confirmation.<br>`+
  `<b>Effect-size conversion hierarchy (§3.3.1):</b> (i) r from t: r = √(t²/(t²+df)) (Cohen 1988); (ii) r_partial from standardized β: r = 0.98·β (Peterson &amp; Brown 2005); (iii) r from F (df₁=1): r = √(F/(F+df₂)) (Rosenthal 1994).<br>`+
  `Rule extraction &amp; PDF parsing run fully client-side; AI extraction uses Claude inside the claude.ai artifact. Verified data is stored locally — it never leaves the browser.<br>`+
- `<b>© 2026 Đỗ Thị Thúy Hương &amp; Phan Anh Tú. All rights reserved. This software is the intellectual property of the authors and the School of Economics, Can Tho University (CTU).</b>`;
+ `<b>© 2026 Đỗ Thùy Hương &amp; Phan Anh Tú. All rights reserved. This software is the intellectual property of the authors and the School of Economics, Can Tho University (CTU).</b>`;
 renderCands();loadStore();
 </script></body></html>
 

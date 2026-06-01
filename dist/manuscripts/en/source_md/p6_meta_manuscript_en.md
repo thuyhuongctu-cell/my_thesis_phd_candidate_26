@@ -1,6 +1,6 @@
 # Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis
 
-**Đỗ Thị Thúy Hương** · Can Tho University / Huong Do Thi Thuy
+**Đỗ Thùy Hương** · Can Tho University / Huong Do Thuy
 **Phan Anh Tú** · Can Tho University
 
 *Manuscript prepared for: Management Review Quarterly (Springer; Scopus Q1, systematic reviews & meta-analyses)*

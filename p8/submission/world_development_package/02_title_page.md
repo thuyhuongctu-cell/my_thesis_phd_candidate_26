@@ -2,7 +2,7 @@
 
 ## Authors
 
-**Đỗ Thị Thúy Hương** (Do Thi Thuy Huong)
+**Đỗ Thùy Hương** (Do Thuy Huong)
 *First Author*
 PhD Candidate, School of Economics, Can Tho University (CTU)
 Khu II, Đường 3/2, Ninh Kiều, Cần Thơ, Vietnam

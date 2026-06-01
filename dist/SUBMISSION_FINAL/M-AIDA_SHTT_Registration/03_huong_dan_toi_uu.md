@@ -5,7 +5,7 @@
 **Mục tiêu:** Lấy Giấy chứng nhận đăng ký quyền tác giả đối với chương trình máy tính (Điều 14.1.m + Điều 22 Luật SHTT 2005, sđ 2022) cho M-AIDA v7.0 trong **8-10 tuần** (bao gồm 2-4 tuần consult CTU) với rủi ro tối thiểu.
 
 **Quyết định kiến trúc đã chọn (TENTATIVE — confirm sau khi consult CTU):**
-- ✅ Đồng tác giả: Đỗ Thị Thúy Hương + Phan Anh Tú (giữ status quo trong CITATION.cff)
+- ✅ Đồng tác giả: Đỗ Thùy Hương + Phan Anh Tú (giữ status quo trong CITATION.cff)
 - ⏳ **Chủ sở hữu**: CHỜ phản hồi CTU — có thể là Model A (2 tác giả cá nhân), Model B (2 tác giả + CTU), hoặc Model C (CTU sole). Mặc định khuyến nghị **Model B** vì NCS đang trong giai đoạn PhD.
 - ✅ Loại tác phẩm: Chương trình máy tính
 - ✅ Hình thức công bố: NCS quyết định public/private GitHub tại thời điểm nộp (xem §12 của `00_mo_ta_tac_pham_vi.md`)
@@ -32,7 +32,7 @@ Thông tin cá nhân pháp lý — không nên đặt trong repo public; điền
 
 ### Trong tờ khai chính thức (mẫu của Cục BQTG, lấy tại 51-53 Ngô Quyền hoặc trực tuyến):
 
-| Trường | Đỗ Thị Thúy Hương | Phan Anh Tú |
+| Trường | Đỗ Thùy Hương | Phan Anh Tú |
 |---|---|---|
 | Họ tên đầy đủ | (đã có) | (đã có) |
 | Ngày sinh (DD/MM/YYYY) | ⬜ | ⬜ |
@@ -178,7 +178,7 @@ Thông tin cá nhân pháp lý — không nên đặt trong repo public; điền
 ## TÌNH HUỐNG VƯỚNG MẮC + GIẢI PHÁP
 
 ### Q1: Supervisor không đồng ý đứng tên tác giả software?
-→ Sửa CITATION.cff + mô tả tác phẩm thành solo (Đỗ Thị Thúy Hương). Phan Anh Tú có thể được ghi nhận trong §"Acknowledgements" của mô tả tác phẩm thay vì authors. Mất thêm 1 tuần.
+→ Sửa CITATION.cff + mô tả tác phẩm thành solo (Đỗ Thùy Hương). Phan Anh Tú có thể được ghi nhận trong §"Acknowledgements" của mô tả tác phẩm thay vì authors. Mất thêm 1 tuần.
 
 ### Q2: CTU đòi đứng tên chủ sở hữu?
 → Tham vấn Phòng KHCN của CTU. Hai phương án:

@@ -42,7 +42,7 @@ We hope the manuscript will be of interest to MBR's readership and look forward 
 
 Yours sincerely,
 
-Đỗ Thị Thúy Hương (Do Thi Thuy Huong)
+Đỗ Thùy Hương (Do Thuy Huong)
 PhD Candidate, College of Economics, Can Tho University (CTU), Vietnam
 Email: huongp1323001@gstudent.ctu.edu.vn | ORCID: 0000-0002-7711-2487
 
