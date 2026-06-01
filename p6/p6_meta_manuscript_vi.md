@@ -27,7 +27,7 @@
 
 Quan hệ giữa mức độ quốc tế hóa của doanh nghiệp và hiệu quả hoạt động kinh doanh của doanh nghiệp đó, "quan hệ I-P", là chủ đề được phân tích tổng hợp nhiều nhất trong nghiên cứu kinh doanh quốc tế. Qua bốn thập kỷ với sáu phân tích tổng hợp lớn (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Wu et al., 2022; Arte & Larimo, 2022), các hiệu ứng tổng hợp dương vẫn nhất quán nhỏ trong khi $I^2$ thường xuyên vượt 80%, cho thấy bối cảnh, chứ không phải một cơ chế phổ quát, mới chi phối kết quả. Việc quốc tế hóa có cải thiện hiệu quả doanh nghiệp hay không định hình quyết định đầu tư, chính sách xúc tiến xuất khẩu, và chiến lược doanh nghiệp trong nền kinh tế toàn cầu kết nối (Hitt et al., 2006; Lu & Beamish, 2004), nhưng bức tranh tổng thể vẫn chưa rõ ràng.
 
-Điểm xuất phát của nghiên cứu này là cơ sở ICBEF 2025 (Author Citation, 2024 — ICBEF): *k* = 113 nghiên cứu, *r* tổng hợp = 0.07 (*p* < .001), $I^2$ = 87.92%. Cơ sở đó xác nhận hiệu ứng trung bình dương nhưng để lại khoảng 70% phương sai chưa giải thích được sau khi áp dụng các biến điều tiết chuẩn (quốc gia xuất xứ, ngành, loại đo lường hiệu quả). Ba biến điều tiết có cơ sở lý thuyết vững chắc, vắng mặt trong tất cả phân tích tổng hợp trước, thúc đẩy phần mở rộng hiện tại.
+Điểm xuất phát của nghiên cứu này là cơ sở ICBEF 2025 (Tác giả ẩn danh, 2024 — ICBEF): *k* = 113 nghiên cứu, *r* tổng hợp = 0.07 (*p* < .001), $I^2$ = 87.92%. Cơ sở đó xác nhận hiệu ứng trung bình dương nhưng để lại khoảng 70% phương sai chưa giải thích được sau khi áp dụng các biến điều tiết chuẩn (quốc gia xuất xứ, ngành, loại đo lường hiệu quả). Ba biến điều tiết có cơ sở lý thuyết vững chắc, vắng mặt trong tất cả phân tích tổng hợp trước, thúc đẩy phần mở rộng hiện tại.
 
 **Khoảng trống 1, cDAI.** Áp dụng số cấp quốc gia đã được đề xuất như một yếu tố bối cảnh khuếch đại lợi thế cạnh tranh ở cấp doanh nghiệp (Stallkamp & Schotter, 2021; Verhoef et al., 2021), nhưng chưa có phân tích tổng hợp nào kiểm định liệu môi trường hạ tầng số quốc gia có điều tiết liên kết I-P hay không.
 
@@ -313,7 +313,7 @@ Hiệu chỉnh trim-and-fill (*k* = 58 ước lệ, *r* đã điều chỉnh = 0
 
 ### 5.1 Khớp với bằng chứng cấp quốc gia
 
-Cơ sở meta-analytic (*r* = 0.074, *k* = 238, 49 nền kinh tế) nhất quán với bằng chứng cấp quốc gia từ toàn corpus nghiên cứu toàn cầu, bao gồm các nghiên cứu sơ cấp châu Á-Thái Bình Dương làm nền tảng cho cơ sở ICBEF 2025 (Author Citation, 2024 — ICBEF). Hiệu ứng tổng hợp dương và có ý nghĩa, xác nhận rằng các doanh nghiệp xuất khẩu mạnh có xu hướng vượt trội hơn các đối thủ tập trung nội địa ngay cả sau khi điều chỉnh quy mô doanh nghiệp, tuổi và ngành.
+Cơ sở meta-analytic (*r* = 0.074, *k* = 238, 49 nền kinh tế) nhất quán với bằng chứng cấp quốc gia từ toàn corpus nghiên cứu toàn cầu, bao gồm các nghiên cứu sơ cấp châu Á-Thái Bình Dương làm nền tảng cho cơ sở ICBEF 2025 (Tác giả ẩn danh, 2024 — ICBEF). Hiệu ứng tổng hợp dương và có ý nghĩa, xác nhận rằng các doanh nghiệp xuất khẩu mạnh có xu hướng vượt trội hơn các đối thủ tập trung nội địa ngay cả sau khi điều chỉnh quy mô doanh nghiệp, tuổi và ngành.
 
 **Bối cảnh Tiên tiến Sáng tạo (Chế độ I, *K* = 139; *r̄* = 0.079, 95% CI [0.059, 0.099]):** Trung bình nhóm Tiên tiến Sáng tạo (*r̄* = 0.079) là ô đơn quốc gia đông dữ liệu nhất và định hướng nhất quán với lý thuyết bổ trợ thể chế: thực thi hợp đồng mạnh, bảo vệ sở hữu trí tuệ và rủi ro ngoại lai thấp (Zaheer, 1995) cho phép doanh nghiệp duy trì quốc tế hóa năng suất mà không có các phạt chi phí phối hợp thấy được trong các môi trường yếu hơn (North, 1990; Peng et al., 2008). Nó nằm hơi trên cơ sở tổng hợp (*r* = 0.074) nhưng khoảng tin cậy của nó chồng lấp thoải mái với các chế độ đông dữ liệu khác.
 
@@ -402,9 +402,9 @@ David, P. A. (1990). The dynamo and the computer: An historical perspective on t
 
 Dickersin, K. (1990). The existence of publication bias and risk factors for its occurrence. *JAMA, 263*(10), 1385–1389. https://doi.org/10.1001/jama.1990.03440100097014
 
-Author Citation (2024, December). [Author details removed for blind review.]
+Tác giả ẩn danh (2024, December). [Thông tin tác giả đã ẩn để đánh giá mù.]
 
-Author Citation (2025). [Author details removed for blind review.]
+Tác giả ẩn danh (2025). [Thông tin tác giả đã ẩn để đánh giá mù.]
 
 Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis. *Biometrics, 56*(2), 455–463.
 

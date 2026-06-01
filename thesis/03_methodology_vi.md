@@ -87,7 +87,7 @@ Luận án phân biệt rõ hai construct:
 
 #### 3.4.3 Top manager characteristics (kiểm soát quản trị nội sinh H4)
 
-**Biến kiểm soát**: top manager experience (năm kinh nghiệm), top manager education, top manager gender (female / male). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (phân tích Việt Nam, Singapore và Trung Quốc). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ.
+**Biến kiểm soát**: top manager experience (năm kinh nghiệm), top manager education, top manager gender (female / male). Ba biến này được đưa vào như nhóm biến kiểm soát quản trị nội sinh, ở dạng số hạng chính nâng mặt bằng hiệu quả, không phải nhân tố điều tiết trọng tâm định hình độ cong của đường quan hệ I-P. Để tăng tính nhận dạng riêng phần (partial identification) của tương tác Thể chế × Công nghệ, các đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) được đưa vào như biến kiểm soát quản trị nội sinh, không phải nhân tố điều tiết trọng tâm của đường cong I-P; ký hiệu H4 được giữ nguyên để tương thích với các bản thảo đồng hành (phân tích Việt Nam, Singapore và Trung Quốc). Số hạng tương tác với FSTS chỉ được báo cáo như chẩn đoán phụ trợ.
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
@@ -149,7 +149,7 @@ với $D$ = digital (DAI), $I$ = institutional (ICRV) là hai nhân tố điều
 
 **Cơ sở kế thừa**: chuẩn tác động điều tiết (moderation) trong quản trị chiến lược (Aiken & West, 1991; Dawson, 2014).
 
-**Đóng góp mới**: tác động điều tiết trọng tâm số × thể chế (DAI × ICRV) trong bối cảnh châu Á và Pacific với 47 nước chưa được kiểm định trước đây, với đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh nhằm bảo vệ tính nhân quả thuần khiết của tương tác Thể chế × Công nghệ.
+**Đóng góp mới**: tác động điều tiết trọng tâm số × thể chế (DAI × ICRV) trong bối cảnh châu Á và Pacific với 47 nước chưa được kiểm định trước đây, với đặc điểm nhà quản trị giữ vai trò kiểm soát quản trị nội sinh nhằm tăng tính nhận dạng riêng phần (partial identification) của tương tác Thể chế × Công nghệ.
 
 ### 4.5 Mô hình dị biệt theo thời gian (temporal heterogeneity) (H6)
 
