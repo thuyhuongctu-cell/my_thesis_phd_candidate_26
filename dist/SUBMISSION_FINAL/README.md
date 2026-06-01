@@ -11,13 +11,44 @@
 
 ```
 SUBMISSION_FINAL/
-├── P3_Vietnam_APJM/                    → Asia Pacific Journal of Management (Springer)
-├── P4_Singapore_MIR/                   → Management International Review (Springer)
-├── P5_China_IJOEM/                     → International Journal of Emerging Markets (Emerald)
-├── P6_Meta_MIR/                        → Management International Review (Springer)
-├── P7_Capstone_JIBS/                   → Journal of International Business Studies (Wiley)
-├── P8_SIDS_WorldDevelopment/           → World Development (Elsevier)
-└── M-AIDA_SHTT_Registration/           → Hồ sơ đăng ký quyền tác giả phần mềm tại Cục BQTG
+├── README.md                                       ← Master index (file này)
+│
+├── P3_Vietnam_APJM/                                → Asia Pacific Journal of Management (Springer)
+├── P4_Singapore_MIR/                               → Management International Review (Springer)
+├── P5_China_IJOEM/                                 → International Journal of Emerging Markets (Emerald)
+├── P6_Meta_MIR/                                    → Management International Review (Springer)
+├── P7_Capstone_JIBS/                               → Journal of International Business Studies (Wiley)
+├── P8_SIDS_WorldDevelopment/                       → World Development (Elsevier)
+│
+├── CD1_ChuyenDe_1/                                 → Chuyên đề Tiến sĩ số 1 (đã bảo vệ)
+├── CD2_ChuyenDe_2/                                 → Chuyên đề Tiến sĩ số 2 (đã bảo vệ)
+│
+├── Thesis_LuanAn/                                  → 5 chương luận án + tài liệu phụ trợ
+│   ├── chuong_1_gioi_thieu.{docx,pdf}
+│   ├── chuong_2_tong_quan_tai_lieu.{docx,pdf}
+│   ├── chuong_3_phuong_phap.{docx,pdf}
+│   ├── chuong_4_ket_qua.{docx,pdf}
+│   ├── chuong_5_ket_luan_de_xuat.{docx,pdf}
+│   └── supporting/
+│       ├── cumulative_argument_summary.md         ← 1-page defense briefing
+│       ├── defense_qa_preparation.md              ← Q&A cho phản biện
+│       ├── wbes_harmonization_protocol.md         ← Protocol WBES
+│       ├── supplement_s_maida_vi.md               ← Phụ lục M-AIDA
+│       ├── 04_references_apa7.md                  ← Tài liệu tham khảo APA 7
+│       └── 09b_vn_term_glossary.md                ← Glossary thuật ngữ VN
+│
+└── M-AIDA_SHTT_Registration/                       → Hồ sơ đăng ký quyền tác giả phần mềm
+    ├── 00_mo_ta_tac_pham_vi.{docx,md}
+    ├── 01_source_code_samples.{docx,md}
+    ├── 02_checklist_nop_ho_so.md
+    ├── 03_huong_dan_toi_uu.md
+    ├── 04_phan_tich_chu_so_huu_va_ctu.{docx,md}
+    ├── 05_evidence_quyet_dinh_CTU.{docx,md}
+    ├── 06_cam_doan_nguon_luc_ca_nhan.{docx,md}
+    └── evidence_ctu/
+        ├── 3010_qd_cong_nhan_ncs.md (OCR)
+        ├── 4768_qd_giao_chuyen_de.md (OCR)
+        └── 4769_qd_dieu_chinh_ten_lats.md (OCR)
 ```
 
 ---
@@ -65,14 +96,18 @@ Mỗi file `<paper>_replication_data.xlsx` có 5 sheet:
 
 ## ✅ Verification matrix
 
-| Paper | Tạp chí | Blinding | Word count | Checklist | Verdict |
-|---|---|---|---|---|---|
-| **P3 Vietnam** | APJM (Springer, Q1, ABS-3) | ✅ Clean | 6,800 words | **12/12** | ✅ SẴN SÀNG NỘP |
-| **P4 Singapore** | MIR (Springer, Q1, ABS-3) | ✅ Clean | 8,500 words | **12/12** | ✅ SẴN SÀNG NỘP |
-| **P5 China** | IJOEM (Emerald, Q1) | ✅ Clean | 7,200 words | **12/12** | ✅ SẴN SÀNG NỘP |
-| **P6 Meta** | MIR (Springer, Q1, ABS-3) | ✅ Clean | 8,939 words | **10/12** (0 critical) | ✅ SẴN SÀNG NỘP* |
-| **P7 Capstone** | JIBS (Wiley, Q1, ABS-4*) | ✅ Clean | 8,776 words | **11/12** (1 FP)** | ✅ SẴN SÀNG NỘP |
-| **P8 SIDS** | World Development (Elsevier, Q1) | ✅ Clean | 7,296 words | N/A (no template) | ✅ SẴN SÀNG NỘP |
+| Hạng mục | Đối tượng | Trạng thái | Verdict |
+|---|---|---|---|
+| **P3 Vietnam** | APJM (Springer, Q1, ABS-3) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
+| **P4 Singapore** | MIR (Springer, Q1, ABS-3) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
+| **P5 China** | IJOEM (Emerald, Q1) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
+| **P6 Meta** | MIR (Springer, Q1, ABS-3) | Blinded clean, 10/12 (0 critical) | ✅ SẴN SÀNG NỘP* |
+| **P7 Capstone** | JIBS (Wiley, Q1, ABS-4*) | Blinded clean, 11/12 (1 FP)** | ✅ SẴN SÀNG NỘP |
+| **P8 SIDS** | World Development (Elsevier, Q1) | Blinded clean | ✅ SẴN SÀNG NỘP |
+| **CD1** | Hội đồng CTU | Đã bảo vệ, 16,584 từ | ✅ ARCHIVED |
+| **CD2** | Hội đồng CTU | Đã bảo vệ, 24,078 từ; bounded-interval framing | ✅ ARCHIVED |
+| **Ch1-Ch5** | Hội đồng bảo vệ luận án CTU | Đã apply top-1% IB reviewer fixes; bounded P6 framing | ✅ Defense-ready Q3-Q4 2026 |
+| **M-AIDA SHTT** | Cục Bản quyền Tác giả VN | Hồ sơ 95% sẵn sàng (chỉ chờ NCS điền CCCD) | ⏳ Chờ nộp |
 
 *P6 — 2 cảnh báo "WB Acknowledgement" là false positive (P6 là meta-analysis, không dùng WBES trực tiếp)
 **P7 — 1 cảnh báo "affiliation" false positive (từ tên tài liệu Cho et al. 2023 trong reference list)
