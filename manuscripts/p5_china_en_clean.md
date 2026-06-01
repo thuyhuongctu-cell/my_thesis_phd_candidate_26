@@ -448,6 +448,19 @@ Source: World Bank Enterprise Surveys, www.enterprisesurveys.org. We thank the E
 
 The authors received no specific grant from any funding agency in the public, commercial, or not‑for‑profit sectors for the research, authorship, or publication of this article. The authors declare no conflicts of interest.
 
+
+## Conflict of Interest
+The authors declare no conflict of interest.
+
+## Funding
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Data Availability Statement
+The data that support the findings of this study are from the World Bank Enterprise Surveys (WBES) China 2012 and 2024 waves, publicly available via the World Bank Enterprise Surveys portal (https://www.enterprisesurveys.org), subject to registration and compliance with the WBES Data Access Protocol. Replication materials—including the harmonisation protocol across the two waves, variable-construction code, model specifications, and computational outputs—are available from the corresponding author on reasonable request and may be shared to the extent permitted by the WBES data-access terms.
+
+## Use of Generative AI in the Writing Process
+Generative AI tools were used during manuscript preparation to assist with language editing, consistency checking of statistical notation across the two-wave harmonisation, and assembly of replication-package documentation. All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human authors, who take full responsibility for the content of the publication.
+
 ---
 
 ## References

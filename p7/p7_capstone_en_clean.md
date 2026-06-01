@@ -272,6 +272,19 @@ The microdata analysed in this study are publicly available from the World Bank 
 
 ---
 
+
+## Conflict of Interest
+The authors declare no conflict of interest.
+
+## Funding
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Acknowledgements
+We thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the underlying WBES data covering 45 Asian and Pacific economies (98 country-year waves). The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors and do not necessarily represent the views of the World Bank Group, its Executive Directors, or the governments they represent.
+
+## Use of Generative AI in the Writing Process
+Generative AI tools were used during manuscript preparation to assist with language editing, consistency checking of statistical notation across the M0–M11 model ladder, formatting of the reference list, and assembly of replication-package documentation. All conceptual framing (including the CDCM framework and ICRV regime construct), hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human authors, who take full responsibility for the content of the publication.
+
 ## References
 
 Aiken, L. S., & West, S. G. (1991). *Multiple regression: Testing and interpreting interactions*. Sage.

@@ -246,6 +246,16 @@ We thank the Enterprise Analysis Unit of the Development Economics Global Indica
 
 The authors received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors for the research, authorship, or publication of this article. The authors declare no conflicts of interest.
 
+
+## Conflict of Interest
+The authors declare no conflict of interest.
+
+## Funding
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Use of Generative AI in the Writing Process
+Generative AI tools were used during manuscript preparation to assist with language editing, consistency checking of statistical notation, and assembly of replication-package documentation. All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human authors, who take full responsibility for the content of the publication.
+
 ---
 
 ## References

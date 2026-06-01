@@ -363,6 +363,13 @@ H1 receives only fragile support: the full-sample ICRV omnibus is significant (*
 
 ---
 
+
+## Acknowledgements
+We thank the authors of the 238 primary studies whose effect sizes are aggregated here; without their original data collection this meta-analysis would not be possible. We also acknowledge methodological guidance from the published works of Borenstein et al. (2021) and Vevea & Woods (2005). For primary studies drawing on World Bank Enterprise Surveys, we thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the underlying data infrastructure that enabled multi-country effect-size extraction.
+
+## Use of Generative AI in the Writing Process
+Generative AI tools were used during manuscript preparation to assist with language editing, consistency checking of statistical notation across six bias-test methods, formatting of the reference list, and assembly of replication-package documentation. All conceptual framing, hypothesis development, meta-analytic model specification, results interpretation, and final wording were authored by the human authors, who take full responsibility for the content of the publication.
+
 ## Funding
 
 This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
