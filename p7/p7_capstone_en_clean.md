@@ -430,7 +430,7 @@ Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationaliz
 | N | 82,302 | 36,481 | 36,372 | 34,228 | 30,360 |
 | Adj R² | .002 | .028 | .033 | .042 | .039 |
 
-*Note.* HC1 robust SEs. *** p < .001, ** p < .01, * p < .05, † p < .10. Controls (female_owner, foreign_own_pct, firm_age, ln_size) included in M7–M10 but not reported for space. M11 (N=28,500, Adj$R^2$=.057, TP=25.7%, LM p=.026): $\text{DAI} \times \text{ICRV}$=+0.052*, three-way $\text{FSTS} \times \text{DAI} \times \text{ICRV}$=−0.016 (NS), mgr_experience=+0.022***, FSTS$\times$mgr=+0.007 (NS), mgr_female=+0.210***, female_owner=+0.122**.
+*Note.* HC1 robust SEs. *** p < .001, ** p < .01, * p < .05, † p < .10. Controls (female_owner, foreign_own_pct, firm_age, ln_size) included in M7–M10 but not reported for space. M11 (N=28,500, Adj$R^2$=.057, TP=25.7%, LM p = .026): $\text{DAI} \times \text{ICRV}$=+0.052*, three-way $\text{FSTS} \times \text{DAI} \times \text{ICRV}$=−0.016 (NS), mgr_experience=+0.022***, FSTS$\times$mgr=+0.007 (NS), mgr_female=+0.210***, female_owner=+0.122**.
 
 ---
 
