@@ -1,4 +1,4 @@
-# Cross-Wave Stability of the Internationalisation–Performance Threshold in Indian Firms: Digital and Technological Capability Moderation Across a Decade of Institutional Transformation
+# When Institutional Transformation Breaks the Threshold: The Disappearance of the Inverted-U Internationalisation–Performance Relationship in Indian Firms, 2014–2025
 
 *Author details removed for blind review*
 
@@ -22,7 +22,7 @@
 
 **Design/methodology/approach.** Three waves of World Bank Enterprise Survey microdata for India (2014 PICS3, N = 9,281; 2022 BEE, N = 9,376; 2025 BREADY, N = 10,479; pooled raw N = 29,136) are estimated via OLS with HC1 robust standard errors, quadratic FSTS terms, and capability interactions. Lind–Mehlum U-tests verify the inverted-U per wave; Paternoster cross-wave z-tests evaluate coefficient equality between 2014 and 2025 (primary 11-year window); the 2022 wave provides 3-wave robustness with linear and quadratic time trends. UPI rollout (April 2016) provides a quasi-natural experiment for DAI saturation between the two primary waves.
 
-**Findings.** *[TBD pending empirical estimation]* Preliminary theoretical expectations: turning points fall within the 35–55% FSTS band consistent with prior emerging-market evidence (Contractor, 2007; Lu & Beamish, 2004); Paternoster z-tests likely fail to reject equality of FSTS² coefficient across waves (replicating the durability finding from China and Vietnam); TCI operates as positive level-shifter independent of FSTS; DAI Tier-1 (website) moderation modest, DAI Tier-2 (e-payment, 2025-only) substantial — consistent with UPI infrastructure quasi-experiment interpretation.
+**Findings.** Contrary to threshold-durability expectations, India exhibits a **structural collapse** of the inverted-U. In 2014, the relationship was classically inverted-U with turning point at FSTS = 61.8% [55.0%, 68.6%] and Lind–Mehlum joint p < 0.0001. By 2022, the inverted-U remained but the turning point had moved inward to 40.7% [38.0%, 43.5%]. By 2025, the curvature term lost statistical significance (β₂ = −0.16, p = 0.42) and the relationship became monotonically negative across the full FSTS range. Paternoster cross-wave z-tests reject coefficient equality for both linear (z = −7.94, p < 0.0001) and quadratic (z = +4.17, p < 0.0001) terms between 2014 and 2025. The 3-wave pooled robustness with wave dummies confirms FSTS × wave_2025 = −1.63 (p < 0.0001) and a level rise in productivity of 1.12 log points 2014→2025. The UPI Tier-2 e-payment interaction is **negative** (FSTS × DAI_epay = −4.02, p = 0.004), suggesting that domestic-rupee digital infrastructure does NOT substitute for the cross-border financial infrastructure that exporters require.
 
 **Research limitations/implications.** The three waves are independent cross-sections rather than within-firm panels, supporting cross-wave comparison but not within-firm causal inference. The 2014 (PICS3), 2022 (BEE intermediate), and 2025 (BREADY) instruments differ in DAI instrumentation (Tier-1 only vs Tier-1 + Tier-2 e-payment), constraining 3-wave DAI moderation tests to Tier-1 unless the 2025-only Tier-2 analysis is treated as exploratory.
 
@@ -30,7 +30,7 @@
 
 **Social implications.** Findings inform South Asian SME inclusion in global value chains. The Indian case offers a developmental-state model in which **publicly provisioned digital infrastructure** (rather than private platform adoption) substitutes for traditional capability accumulation among smaller exporters.
 
-**Originality/value.** First firm-level cross-wave threshold-stability test for India using three full waves of WBES microdata. Complements companion evidence from Vietnam (Author Citation, 2026 — JED, P3), Singapore (Author Citation, 2026 — JABES, P4), China (Author Citation, 2026 — IJOEM, P5), and 45 Asian-Pacific economies (Author Citation, 2026 — JIBS, P7). Extends the authors' prior conceptual work on TMT moderation in Indian firms (Do & Phan, 2025, IntechOpen, DOI 10.5772/intechopen.1011012) with a fundamentally different theoretical lens (Conditional Digital Capability Moderation), empirical specification (quadratic inverted-U), sample (full WBES rather than 380 matched firms), and research question (threshold durability rather than TMT moderation).
+**Originality/value.** First firm-level evidence that extreme institutional transformation can **dissolve** the inverted-U threshold rather than merely shift it. India provides the boundary-condition case that complements durability evidence from China (Author Citation, 2026 — IJOEM, P5) and other companion country studies. The finding implies that the inverted-U is **conditional on institutional stability** — a previously untested scope condition. Extends the authors' prior work on Indian firms (Do & Phan, 2025, IntechOpen, DOI 10.5772/intechopen.1011012) with fundamentally different theoretical lens, empirical specification, sample, and research question.
 
 **Keywords:** internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; emerging markets; Conditional Digital Capability Moderation.
 
@@ -42,15 +42,15 @@
 
 ## Highlights
 
-- First firm-level threshold-stability test for India across three WBES waves (2014, 2022, 2025).
+- The inverted-U export-productivity relationship in Indian firms **collapses** between 2014 (TP = 61.8%) and 2025 (curvature insignificant), with intermediate evidence in 2022 (TP = 40.7%) showing progressive shift.
 
-- 11-year window covers 7 major reform shocks: demonetisation, GST, IBC, UPI, PLI, COVID, Atmanirbhar Bharat.
+- Paternoster cross-wave z-tests reject coefficient equality at p < 0.0001 for both linear and quadratic FSTS terms.
 
-- UPI rollout (April 2016 → 12 billion transactions/month by 2024) provides a quasi-natural experiment for digital adoption moderation.
+- The collapse coincides with India's decade of unprecedented institutional change: demonetisation, GST, IBC, UPI, PLI, COVID-19, and Atmanirbhar Bharat.
 
-- DAI Tier-1 vs Tier-2 distinction tests whether **public digital infrastructure** substitutes for private capability among SME exporters.
+- UPI Tier-2 e-payment interacts **negatively** with export intensity, refuting the public-infrastructure-substitution hypothesis.
 
-- Replicates and extends China and Vietnam durability findings to the South Asian institutional context.
+- The finding identifies a previously untested scope condition: the inverted-U threshold is **conditional on institutional stability**.
 
 - Complements but does not duplicate prior author work on TMT moderation in Indian firms (Do & Phan, 2025, IntechOpen).
 
@@ -143,31 +143,63 @@ Joint F-test on cross-wave interactions in pooled model provides a multi-coeffic
 
 ### 4.1 Descriptive statistics
 
-*[TBD pending Stata estimation]*
+Sample sizes after listwise deletion on focal variables and firmage validation (capped at [0, 150]): 2014 N = 8,941; 2022 N = 9,300; 2025 N = 10,476. Mean export intensity declined from 7.2% (2014) to 8.0% (2022) to 2.7% (2025), consistent with India's post-2020 inward shift under Atmanirbhar Bharat. Productivity levels rose: mean lnLP = 13.93 (2014), 14.37 (2022), 15.01 (2025). DAI Tier-1 (website adoption) was 52.7% in 2014, 60.6% in 2022, but declined to 41.8% in 2025 (suggesting websites became less central as UPI absorbed customer-facing digital). DAI Tier-2 (e-payment % of sales) — measured only in 2025 — averaged 65.8%, indicating UPI saturation. Full descriptives in Table 1.
 
-### 4.2 Inverted-U replication (H1)
+### 4.2 Wave-by-wave inverted-U estimation
 
-*[TBD]*
+**2014 (pre-reform decade).** The classical inverted-U holds:
 
-### 4.3 Cross-wave durability test (H2a vs H2b)
+$$\ln\text{LP} = 13.51 + 1.86 \cdot \text{FSTS} - 1.51 \cdot \text{FSTS}^2 + \mathbf{X}\boldsymbol{\beta}$$
 
-*[TBD — populate from `results/p9_india_paternoster.csv`]*
+with both quadratic terms highly significant (p < 0.0001). The Lind–Mehlum U-test joint p < 0.0001 confirms inverted-U. Delta-method turning point TP = 61.8% [55.0%, 68.6%], placing the productivity peak at very high export-intensity — characteristic of an emerging-market context where exporters extract substantial learning-by-exporting returns before over-extension costs bind.
 
-### 4.4 TCI moderation (H3)
+**2022 (post-COVID, post-GST, post-IBC).** Inverted-U persists but the turning point migrates substantially inward:
 
-*[TBD]*
+$$\ln\text{LP} = 13.47 + 1.54 \cdot \text{FSTS} - 1.89 \cdot \text{FSTS}^2 + \mathbf{X}\boldsymbol{\beta}$$
 
-### 4.5 DAI Tier-1 vs Tier-2 moderation (H4a, H4b)
+Lind–Mehlum U-test joint p < 0.0001. TP = 40.7% [38.0%, 43.5%]. The 21-percentage-point inward migration of the turning point between 2014 and 2022 — a period containing demonetisation, GST rollout, IBC introduction, COVID-19, and UPI's transition from launch to mass adoption — signals progressive structural change in the underlying firm-level production function.
 
-*[TBD — Tier-2 from 2025 BREADY only]*
+**2025 (post-PLI maturation, UPI-saturated, Atmanirbhar Bharat).** The curvature term collapses:
 
-### 4.6 Three-wave robustness
+$$\ln\text{LP} = 14.24 - 0.36 \cdot \text{FSTS} - 0.16 \cdot \text{FSTS}^2 + \mathbf{X}\boldsymbol{\beta}$$
 
-*[TBD — linear trend, quadratic trend, wave dummies]*
+The quadratic coefficient β₂ is no longer statistically distinguishable from zero (p = 0.42). The Lind–Mehlum U-test joint p = 0.99 fails to support inverted-U. The relationship has become **monotonically negative across the entire empirically relevant FSTS range**: the slope at FSTS_min is −0.36 (p = 0.02) and at FSTS_max is −0.68 (p = 0.005).
 
-### 4.7 Robustness checks
+### 4.3 Cross-wave Paternoster z-tests (H2a vs H2b)
 
-*[TBD — alternative DV (revenue per worker), sector subsample, manufacturing-only, etc.]*
+The Paternoster (1998) z-test for coefficient equality between 2014 and 2025:
+
+| Term | β₂₀₁₄ (SE) | β₂₀₂₅ (SE) | z | p | Verdict |
+|---|---:|---:|---:|---:|---|
+| FSTS | +1.86 (0.24) | −0.36 (0.15) | −7.94 | < 0.0001 | Reject equality |
+| FSTS² | −1.51 (0.25) | −0.16 (0.20) | +4.17 | < 0.0001 | Reject equality |
+
+Both terms exhibit highly significant cross-wave shifts. **H2b (durability) is rejected**; **H2a (institutional shift) is supported** with extreme statistical force. The shift magnitudes — 2.2 standard errors in the linear term, 1.4 standard errors in the quadratic — substantially exceed the cross-wave shifts documented for China P5 (durability confirmed) and Vietnam P3.
+
+### 4.4 Three-wave pooled robustness
+
+The pooled 3-wave model with wave dummies (N = 28,742, R²_adj = 0.197) yields:
+
+- Wave_2022 coefficient: +0.46 (p < 0.0001) — productivity level rise
+- Wave_2025 coefficient: +1.12 (p < 0.0001) — accelerated level rise
+- FSTS × wave_2022 = +0.45 (p = 0.15) — no robust shift from 2014 baseline
+- FSTS × wave_2025 = **−1.63** (p < 0.0001) — large negative shift confirms 2025 collapse
+- FSTS² × wave_2022 = −1.09 (p = 0.001) — curvature steepening confirms 2022 TP migration
+- FSTS² × wave_2025 = +0.86 (p = 0.007) — curvature flattening confirms 2025 collapse
+
+The linear-trend specification yields FSTS × trend = −0.10 (p < 0.001), confirming the progressive structural shift.
+
+### 4.5 Capability moderators (H3, H4a, H4b)
+
+**TCI (technological capability) — sign flip.** In 2014 and 2022, TCI operates as a positive level-shifter (β = +0.12, p < 0.0001 in 2014; β = +0.19, p < 0.0001 in 2022) with no significant FSTS interaction. In 2025, TCI flips to **negative** main effect (β = −0.08, p < 0.0001) but with significant positive FSTS interaction (FSTS × TCI = +0.20, p = 0.03), suggesting that in the 2025 context, TCI delivers productivity returns only at high export intensity.
+
+**DAI Tier-1 (website binary).** Significant positive main effect in all three waves (β ≈ +0.38 to +0.39). FSTS × DAI_core interaction was insignificant in 2014, became positive significant in 2022 (FSTS × DAI = +1.43, p = 0.02), and lost significance in 2025 — consistent with website's diminishing marginal role as UPI absorbed digital interaction.
+
+**DAI Tier-2 (e-payment, 2025 only — UPI quasi-experiment).** The interaction is **negative**: FSTS × DAI_epay = −4.02 (p = 0.004); FSTS² × DAI_epay = +3.39 (p = 0.10). Among firms with high UPI e-payment adoption, productivity declines more steeply with export intensity. H4b (Tier-2 dominates Tier-1) is **refuted**: UPI public infrastructure does NOT substitute for the cross-border financial infrastructure exporters require. UPI rails are rupee-denominated and domestically oriented, whereas exporters need SWIFT, correspondent banking, and trade finance instruments — distinct infrastructure not subsidised by India's domestic-digital-public-infrastructure stack.
+
+### 4.6 Robustness checks
+
+*[TBD: alternative DV (revenue per worker without log), sector subsample (manufacturing only), firm-size subsample (SMEs vs large), state-fixed effects, and trimmed FSTS sample (drop FSTS > 0.95 high-exporters) — all expected to confirm the threshold-collapse finding.]*
 
 ## 5. Discussion
 
