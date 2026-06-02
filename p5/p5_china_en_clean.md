@@ -223,29 +223,28 @@ Means with standard deviations in parentheses. Conditional on FSTS > 0, mean FST
 
 ### 4.2 Main Threshold Results
 
-Table 2 presents the main OLS results (M2 specification) for each wave and the pooled sample. FSTS carries a positive coefficient in both waves (2012: $\beta$ = +1.28, SE = 0.38, p =.001; 2024: $\beta$ = +1.19, SE = 0.46, p =.010), and $\text{FSTS}^2$ carries a negative coefficient in both waves (2012: $\beta$ = −1.53, SE = 0.42, p <.001; 2024: $\beta$ = −1.58, SE = 0.50, p =.002); this positive linear and negative quadratic pattern is consistent with an inverted-U relationship in both waves, consistent with H1. Following Haans, Pieters, and He (2016), all four formal conditions for a genuine inverted-U are satisfied in both waves. For the 2012 wave: (C1) $\beta_1$ = +1.28 (p =.001), confirming a positive ascending limb; (C2) $\beta_2$ = −1.53 (p <.001), confirming concavity; (C3) the turning point TP* = 49.4% lies within the observed FSTS range [0%, 100%]; and (C4) the marginal effect is positive at the lower data bound (FSTS $\approx$ 0%) and negative at the upper bound (FSTS $\approx$ 100%), with opposite signs confirmed by the Lind–Mehlum (2010) u-test. These four conditions hold equivalently for the 2024 wave ($\beta_1$ = +1.19, $\beta_2$ = −1.58, TP* = 47.2%, LM p <.001) and the pooled specification.
+Table 2 presents the main OLS results (M2 specification) for each wave and the pooled sample. FSTS carries a positive coefficient in both waves (2012: $\beta$ = +2.065, SE = 0.379, p <.001; 2024: $\beta$ = +1.498, SE = 0.578, p =.010), and $\text{FSTS}^2$ carries a negative coefficient in both waves (2012: $\beta$ = −2.092, SE = 0.435, p <.001; 2024: $\beta$ = −1.587, SE = 0.712, p =.026); this positive linear and negative quadratic pattern is consistent with an inverted-U relationship in both waves, consistent with H1. Following Haans, Pieters, and He (2016), all four formal conditions for a genuine inverted-U are satisfied in both waves. For the 2012 wave: (C1) $\beta_1$ = +2.065 (p <.001), confirming a positive ascending limb; (C2) $\beta_2$ = −2.092 (p <.001), confirming concavity; (C3) the turning point TP* = 49.4% lies within the observed FSTS range [0%, 100%]; and (C4) the marginal effect is positive at the lower data bound (FSTS $\approx$ 0%) and negative at the upper bound (FSTS $\approx$ 100%), with opposite signs confirmed by the Lind–Mehlum (2010) u-test. These four conditions hold equivalently for the 2024 wave ($\beta_1$ = +1.498, $\beta_2$ = −1.587, TP* = 47.2%, LM p <.001) and the pooled specification.
 
-Turning-point estimates are 49.4 % (95 % CI: 43.1–55.7 %) in 2012 and 47.2 % (95 % CI: 40.8–53.6 %) in 2024. The CIs overlap substantially, consistent with temporal stability. The equality of FSTS coefficients across waves is not rejected (Paternoster z = +0.82, p =.412), and similarly for $\text{FSTS}^2$ (z = −0.61, p =.545); neither linear nor quadratic coefficient differs significantly between waves. These estimates are consistent with the interpretation that the inverted-U curvature is structurally durable: the 12-year interval spanning China's WTO consolidation and digital transformation does not appear to shift the underlying cost-benefit inflection in internationalisation–productivity returns. The non-significant Paternoster z-statistics for both FSTS ($\beta_1$ shift: z = +0.82, p =.412) and $\text{FSTS}^2$ ($\beta_2$ shift: z = −0.61, p =.545) are consistent with H2b (structural durability) over H2a (environmental shift), indicating that neither the linear nor the quadratic coefficient differs significantly between waves at the 0.05 level.
+Turning-point estimates are 49.4 % (95 % CI: 43.2–55.6 %) in 2012 and 47.2 % (95 % CI: 34.5–59.9 %) in 2024. The CIs overlap substantially, consistent with temporal stability. The equality of FSTS coefficients across waves is not rejected (Paternoster z = +0.82, p =.412), and similarly for $\text{FSTS}^2$ (z = −0.61, p =.545); neither linear nor quadratic coefficient differs significantly between waves. These estimates are consistent with the interpretation that the inverted-U curvature is structurally durable: the 12-year interval spanning China's WTO consolidation and digital transformation does not appear to shift the underlying cost-benefit inflection in internationalisation–productivity returns. The non-significant Paternoster z-statistics for both FSTS ($\beta_1$ shift: z = +0.82, p =.412) and $\text{FSTS}^2$ ($\beta_2$ shift: z = −0.61, p =.545) are consistent with H2b (structural durability) over H2a (environmental shift), indicating that neither the linear nor the quadratic coefficient differs significantly between waves at the 0.05 level.
 
-The pooled model (N = 4,544) yields FSTS $\beta$ = +1.24 (p <.001) and $\text{FSTS}^2$ $\beta$ = −1.55 (p <.001), with turning point at 48.8 % (95 % CI: 44.2–53.4 %).
+The pooled model (N = 4,544) yields FSTS $\beta$ = +1.784 (p <.001) and $\text{FSTS}^2$ $\beta$ = −1.829 (p <.001), with turning point at 48.8 % (95 % CI: 42.7–54.9 %).
 
 **Table 2.** Main OLS results: M2 specification (lnLP ~ FSTS + $\text{FSTS}^2$ + lnEmp + firmage + foreigndummy)
 
 | Coefficient | 2012 (N = 2,610) | 2024 (N = 1,934) | Pooled (N = 4,544) |
 |---|---|---|---|
-| Intercept | +12.79 (0.090) *** | +12.38 (0.084) *** | +12.58 (0.067) *** |
-| FSTS | +1.28 (0.379) *** | +1.19 (0.461) ** | +1.24 (0.290) *** |
-| FSTS² | −1.53 (0.420) *** | −1.58 (0.503) *** | −1.55 (0.330) *** |
-| lnEmp | +0.31 (0.025) *** | +0.39 (0.031) *** | +0.35 (0.019) *** |
-| firmage | +0.007 (0.003) * | +0.010 (0.003) *** | +0.009 (0.002) *** |
-| foreigndummy | +0.24 (0.109) ** | +0.18 (0.147) | +0.21 (0.086) ** |
-| **Turning point (TP)** | **49.4 %** | **47.2 %** | **48.8 %** |
-| 95 % CI (delta method) | [43.1, 55.7] | [40.8, 53.6] | [44.2, 53.4] |
-| R² |.142 |.179 |.158 |
-| F-statistic | 28.4*** | 22.7*** | 48.3*** |
+| Intercept | +12.793 (0.090) *** | +12.376 (0.084) *** | +12.296 (0.066) *** |
+| FSTS | +2.065 (0.379) *** | +1.498 (0.578) ** | +1.784 (0.320) *** |
+| FSTS² | −2.092 (0.435) *** | −1.587 (0.712) * | −1.829 (0.375) *** |
+| lnEmp | −0.102 (0.023) *** | +0.118 (0.023) *** | +0.005 (0.016) |
+| firmage | +0.008 (0.004) * | +0.012 (0.003) *** | +0.012 (0.002) *** |
+| foreigndummy | +0.112 (0.095) | +0.257 (0.119) ** | +0.217 (0.074) ** |
+| **Turning point (TP)** | **49.4 %** | **47.2 %** | **48.8 %** |
+| 95 % CI (delta method) | [43.2, 55.6] | [34.5, 59.9] | [42.7, 54.9] |
+| R² (within) | .033 | .084 | .061 |
 
-Coefficients with HC1-robust standard errors in parentheses. * p <.05; ** p <.01; *** p <.001.
-PATERNOSTER TESTS (FSTS): z = +0.82, p =.412; ($\text{FSTS}^2$): z = −0.61, p =.545. Approximate 95% CIs for cross-wave coefficient differences ($\Delta$$\beta$ $\pm$ 1.96 $\times$ |$\Delta$$\beta$|/|z|, using rounded table values as proxy): FSTS $\Delta$$\beta_1$ $\approx$ +0.09, 95% CI $\approx$ [−0.13, +0.31]; $\text{FSTS}^2$ $\Delta$$\beta_2$ $\approx$ −0.05, 95% CI $\approx$ [−0.21, +0.11]. Both CIs include zero, consistent with non-rejection at $\alpha$ =.05. Exact $\Delta$$\beta$ and SE values available in replication materials.
+Coefficients with HC1-robust standard errors in parentheses; the pooled column reports `idstd`-clustered SE (217 firms appear in both waves; remaining observations are singletons, so the clustering correction approximates HC1). Significance: * p <.05; ** p <.01; *** p <.001. Turning points use the delta-method 95 % CI on TP = −β₁ / (2β₂). Replication: `p5/replication/python/full_models.py` with output in `results/summary.md`.
+PATERNOSTER TESTS (FSTS): z = +0.82, p =.412; ($\text{FSTS}^2$): z = −0.61, p =.545. Both p-values exceed conventional thresholds, supporting non-rejection of cross-wave coefficient equality. Exact $\Delta$$\beta$ and SE values are reported in the replication output `results/summary.md`.
 
 ![Figure 2: Turning-point estimates with 95% CIs by wave (China)](figures/p5_china/figure_2_turning_points.png)
 
