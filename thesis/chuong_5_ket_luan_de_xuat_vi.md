@@ -54,6 +54,9 @@ Quan hệ âm đơn điệu này khác về bản chất với quan hệ phi tuy
 
 ---
 
+
+**Ấn Độ và điều kiện biên phạm vi áp dụng của khung CDCM.** Phát hiện ngưỡng phá vỡ tại Ấn Độ (P9' India) qua giai đoạn 2014–2025 bổ sung một điều kiện biên quan trọng cho khung CDCM. Trong khi quan hệ U ngược được khung dự đoán giả định môi trường thể chế ổn định, sự sụp đổ độ cong tại đợt 2025 dưới áp lực tích lũy của bãi bỏ tiền mặt, GST, IBC, UPI, PLI, COVID-19 và Atmanirbhar Bharat cho thấy bản thân khung CDCM cũng cần điều kiện ổn định thể chế làm tiền đề. Khung này không khẳng định U ngược là quan hệ phổ quát mà là quan hệ có điều kiện. Sự bác bỏ giả thuyết phổ quát của Tier-2 thay thế Tier-1 (qua tương tác âm $\beta = -4{,}02$, $p = {,}004$ tại Ấn Độ) cũng tinh chỉnh đề xuất phụ trợ của khung: hạ tầng số công cộng chỉ thay thế năng lực số tư nhân khi hai loại hạ tầng có cùng định hướng mục đích. UPI hỗ trợ giao dịch nội địa hiệu quả nhưng không thay thế hạ tầng tài chính xuyên biên giới (SWIFT, ngân hàng đại lý, tài trợ thương mại) mà doanh nghiệp xuất khẩu yêu cầu.
+
 ## 5.2 So sánh với nghiên cứu trước đây
 
 ### 5.2.1 Nhất quán với nền tảng ICBEF 2024
