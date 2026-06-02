@@ -3,7 +3,7 @@
    Purpose: Estimate M0–M8 on three waves + pooled
             Lind-Mehlum utest, delta-method turning-point CI
             Paternoster z-test for cross-wave coefficient stability
-   Author: Đỗ Thị Thúy Hương
+   Author: Đỗ Thùy Hương
    Date: May 2026
 
    Input:  data/vietnam_2009_analytic.dta

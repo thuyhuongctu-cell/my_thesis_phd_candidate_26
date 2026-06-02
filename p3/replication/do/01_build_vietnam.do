@@ -1,7 +1,7 @@
 /* ============================================================
    P3 Vietnam WBES Build Script
    Purpose: Build analytic dataset from WBES Vietnam 2009/2015/2023
-   Author: Đỗ Thị Thúy Hương
+   Author: Đỗ Thùy Hương
    Date: May 2026
 
    Output: vietnam_2009_analytic.dta

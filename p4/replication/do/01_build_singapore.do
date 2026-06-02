@@ -1,7 +1,7 @@
 /* ============================================================
    P4 Singapore — 01_build_singapore.do
    Purpose: Build analytic dataset from WBES Singapore 2023
-   Author: Đỗ Thị Thúy Hương
+   Author: Đỗ Thùy Hương
    Date: May 2026
 
    Input:  $data/Singapore_2023.dta  (WBES BREADY schema)

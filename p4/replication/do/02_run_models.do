@@ -3,7 +3,7 @@
    Purpose: Estimate M0–M5 on Singapore 2023 analytic sample
             Lind-Mehlum utest, delta-method turning-point CI
             Heckman IMR selection check (exporters vs non-exporters)
-   Author: Đỗ Thị Thúy Hương
+   Author: Đỗ Thùy Hương
    Date: May 2026
 
    Input:  data/singapore_2023_analytic.dta
