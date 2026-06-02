@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # build_submission_package.sh
 #
-# Build journal-ready submission artefacts for P3 (JED), P4 (MIR), and
+# Build journal-ready submission artefacts for P3 (JED), P4 (JABES), and
 # P5 (IJOEM):
 #   - DOCX  via pandoc + ctu_paper_reference.docx (TNR 12pt, 2.5cm, 1.15 line)
 #   - TEX   via pandoc + templates/springer_paper.tex (Springer-compatible
@@ -84,7 +84,7 @@ build_one() {
 }
 
 build_one "p3_vietnam"      "manuscripts/p3_vietnam_en_clean.md"   "JED"
-build_one "p4_singapore"    "manuscripts/p4_singapore_en_clean.md" "MIR"
+build_one "p4_singapore"    "manuscripts/p4_singapore_en_clean.md" "JABES"
 build_one "p5_china"        "manuscripts/p5_china_en_clean.md"     "IJOEM"
 
 # Vietnamese translations (academic VN versions for CTU / thesis dossier).
@@ -168,5 +168,5 @@ fi
 echo ""
 echo "Upload to each journal's manuscript slot:"
 echo "  P3 -> JED   : $OUT_DIR/p3_vietnam_JED.{docx,tex,pdf}"
-echo "  P4 -> MIR   : $OUT_DIR/p4_singapore_MIR.{docx,tex,pdf}"
+echo "  P4 -> JABES : $OUT_DIR/p4_singapore_JABES.{docx,tex,pdf}"
 echo "  P5 -> IJOEM : $OUT_DIR/p5_china_IJOEM.{docx,tex,pdf}"

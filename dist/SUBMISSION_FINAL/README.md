@@ -14,7 +14,7 @@ SUBMISSION_FINAL/
 ├── README.md                                       ← Master index (file này)
 │
 ├── P3_Vietnam_JED/                                 → Journal of Economics and Development (Emerald, NEU)
-├── P4_Singapore_MIR/                               → Management International Review (Springer)
+├── P4_Singapore_JABES/                             → Journal of Asian Business and Economic Studies (Emerald, UEH)
 ├── P5_China_IJOEM/                                 → International Journal of Emerging Markets (Emerald)
 ├── P6_Meta_MIR/                                    → Management International Review (Springer)
 ├── P7_Capstone_JIBS/                               → Journal of International Business Studies (Wiley)
@@ -99,7 +99,7 @@ Mỗi file `<paper>_replication_data.xlsx` có 5 sheet:
 | Hạng mục | Đối tượng | Trạng thái | Verdict |
 |---|---|---|---|
 | **P3 Vietnam** | JED (Emerald/NEU, Scopus, IF 4.3) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
-| **P4 Singapore** | MIR (Springer, Q1, ABS-3) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
+| **P4 Singapore** | JABES (Emerald/UEH, Scopus Q1, IF 3.9, Diamond OA) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
 | **P5 China** | IJOEM (Emerald, Q1) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
 | **P6 Meta** | MIR (Springer, Q1, ABS-3) | Blinded clean, 10/12 (0 critical) | ✅ SẴN SÀNG NỘP* |
 | **P7 Capstone** | JIBS (Wiley, Q1, ABS-4*) | Blinded clean, 11/12 (1 FP)** | ✅ SẴN SÀNG NỘP |

@@ -7,9 +7,9 @@
 
 **Technological Capability, Digital Adoption, and the Internationalisation–Performance Relationship: A Firm-Level Study of Singapore**
 
-*Target journal:* Management International Review (MIR)
+*Target journal:* Journal of Asian Business and Economic Studies (JABES), Emerald Publishing on behalf of University of Economics Ho Chi Minh City (UEH)
 
-*Submission date:* 10 May 2026
+*Submission date:* 2 June 2026
 
 ---
 
