@@ -21,6 +21,39 @@
 | 4 | **Word reduction 21K → ~9,500 words** | 🔴 CRITICAL | 12-16h | Section budgets per reviewer recommendation below |
 | 5 | **TP rescaling documentation** | 🔴 HIGH | 1h | TP=39.7% claim vs mechanical β=−0.984/(2×−1.909)=25.8%; need explicit "FSTSc centring + back-translation to FSTS share" math note in §3.5 |
 
+
+
+## Word Reduction Progress (Phase A2, 2026-06-02)
+
+| Section | Pre-A2 | Current | Cut | Target |
+|---|---:|---:|---:|---:|
+| Abstract | 429w | **276w** | -153 | 240w (close) |
+| §2 Theory | 2,959w | **1,004w** | -1,955 | 1,200w ✓ |
+| §1 Introduction | 1,707w | 1,707w | 0 | 900w (-807 still needed) |
+| §4 Results | 3,869w | 3,869w | 0 | 2,500w (-1,369 still needed) |
+| §5 Discussion | 3,024w | 3,024w | 0 | 1,800w (-1,224 still needed) |
+| **TOTAL** | **21,372w** | **19,259w** | **-2,113** | **~9,500w (need -9,759 more)** |
+
+## Phase A2 status
+
+✅ **§2 Theory cut from 2,959 → 1,004 words** (66% reduction):
+- H1/H2 justification blocks collapsed to 1 paragraph + 1-line hypothesis
+- Conceptual model "Note:" condensed (350w → 80w in caption)
+- Two-mechanism Mechanism A/B detail removed from §2.4
+- Verbose lit review tightened
+
+✅ **Abstract cut from 429 → 276 words** (36% reduction):
+- Social implications block removed (was redundant with Practical)
+- Tightened Methods + Findings paragraphs
+- Word count now within Emerald 250w cap (close at 276)
+
+⏳ **Remaining for NCS** (~9,800 words still to cut):
+- §1 Introduction (cut ~800w): merge §1.2 gap + §1.3 contribution into single block
+- §4 Results (cut ~1,400w): move §4.5 robustness panels A-K to Online Appendix
+- §5 Discussion (cut ~1,200w): consolidate §5.1 + §5.2 redundancy
+- §6 Limitations (cut ~200w)
+- Highlights block (250w): fold into abstract
+
 ## Word reduction plan (per reviewer)
 
 | Section | Current narrative | TARGET | Cut |
