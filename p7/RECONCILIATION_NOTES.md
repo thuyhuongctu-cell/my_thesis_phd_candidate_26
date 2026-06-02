@@ -15,11 +15,11 @@
 | 3 | Missing Meyer, van Witteloostuijn & Beugelsdijk (2017) reference | 🔴 ERROR | Added APA7 entry: *JIBS* 48(5) "What's in a p?" |
 | 4 | 3 orphan references removed (Aiken & West 1991, Hayes 2018, Dawson 2014) | 🟡 WARNING | Removed (methodological boilerplate, never cited in body) |
 
-## Outstanding for NCS — CRITICAL BLOCKING
+## Outstanding for NCS — CRITICAL BLOCKING [✅ RESOLVED 2026-06-02]
 
-| # | Issue | Severity | Effort | Notes |
-|---|---|:-:|---:|---|
-| 5 | **DAI×ICRV coefficient verification** | 🔴 CRITICAL BLOCK | 2-4h | β=+0.052, p=.049 cited 5+ times (abstract, §4.7, §5.4, §5.7, conclusion) but NOT FOUND in `p7_coefs_all_models.csv` M11 rows. CSV M11 has `fsts_c_x_icrv`, `fsts_c_x_dai`, `fsts_c_x_dai_x_icrv` but NO discrete `dai_x_icrv` row. NCS must either (a) locate sibling CSV (`p7_summary_focal.csv` or `p7_R_coefs.csv`) supporting +0.052/p=.049, OR (b) retract/restate the claim. **Desk-reject risk if unverifiable at JIBS.** |
+| # | Issue | Severity | Status | Notes |
+|---|---|:-:|:-:|---|
+| 5 | **DAI×ICRV coefficient verification** | 🔴 CRITICAL | ✅ **VERIFIED** | Coefficient FOUND in `p7_coefs_all_models.csv` M11 row: `M11,dai_x_icrv,0.0524,0.0266,1.967,0.0492,*,28500`. β=0.0524 (rounds to +0.052 ✓), p=0.0492 (rounds to .049 ✓), SE=0.0266, t=1.967, N=28,500. Reviewer scan missed this row during inspection. Manuscript claim VERIFIED. No retraction needed. Desk-reject risk REMOVED. |
 
 ## Outstanding for NCS — HIGH
 

@@ -134,7 +134,7 @@ All migrated content is preserved in `osf_supplementary_materials.md` (this dire
 |---|---|---|---|---|---|
 | Time to first decision | 4–6 months | 3–4 months | 2–3 months | 4–6 months | 6–9 months |
 | Acceptance rate | ~15–20% | ~15% | ~25% | ~10–15% | ~5–8% |
-| Quartile / List | Q1 / **ABS-3** | Q1 / Springer (no ABS) | Q2 / ABS-2 | Q1 / Elsevier (ABS-3) | Q1 / ABS-4 / FT-50 |
+| Quartile / List | Q1 / **ABS-3** | Q1 / Springer (no ABS) | Q2 / ABS-2 | Q1 / Springer Nature (ABS-3) | Q1 / ABS-4 / FT-50 |
 | Word cap (effective) | ~12,000 | flexible (no cap) | ~8,000 | ~10,000 | ~12,000 |
 | Trim required for our manuscript | $\approx$ 5,000 (feasible) | 0 (no trim) | $\approx$ 9,000 (near-halve) | $\approx$ 7,000 (major) | $\approx$ 5,000 + raise theory bar |
 | IB-pure framing | ✅ strong | ⚠️ method-specialty | ✅ strong | ✅ strong | ✅ strongest |

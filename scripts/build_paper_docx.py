@@ -19,7 +19,7 @@ PAPERS = {
     "p3": ("p3/p3_vietnam_en_clean.md",   "p3/submission/jed_package/01_manuscript_blinded.docx"),
     "p4": ("p4/p4_singapore_en_clean.md", "p4/submission/jabes_package/01_manuscript_blinded.docx"),
     "p5": ("p5/p5_china_en_clean.md",     "p5/submission/ijoem_package/01_manuscript_blinded.docx"),
-    "p6": ("p6/p6_meta_manuscript_en.md", "p6/submission/ibr_package/01_manuscript_blinded.docx"),
+    "p6": ("p6/p6_meta_manuscript_en.md", "p6/submission/mir_package/01_manuscript_blinded.docx"),
     "p7": ("p7/p7_capstone_en_clean.md",  "p7/submission/jibs_package/01_manuscript_blinded.docx"),
     "p8": ("p8/p8_pacific_sids_en_clean.md","p8/submission/jed_package/01_manuscript_blinded.docx"),
     "p9_india": ("p9_india/p9_india_en_clean.md","p9_india/submission/mir_package/01_manuscript_blinded.docx"),
