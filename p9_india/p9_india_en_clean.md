@@ -167,7 +167,7 @@ Joint F-test on cross-wave interactions in pooled model provides a multi-coeffic
 
 ### 4.1 Descriptive statistics
 
-Sample sizes after listwise deletion on focal variables and firmage validation (capped at [0, 150]): 2014 N = 8,941; 2022 N = 9,300; 2025 N = 10,476. Mean export intensity declined from 7.2 % (2014) to 8.0 % (2022) to 2.7 % (2025), consistent with India's post-2020 inward shift under Atmanirbhar Bharat. Productivity levels rose: mean lnLP = 13.93 (2014), 14.37 (2022), 15.01 (2025). DAI Tier-1 (website adoption) was 52.7 % in 2014, 60.6 % in 2022, but declined to 41.8 % in 2025, suggesting that websites became less central as UPI absorbed customer-facing digital interaction. DAI Tier-2 (e-payment share) — measured only in 2025 — averaged 65.8 %, indicating UPI saturation. Full descriptives are reported in Table 1.
+Sample sizes after listwise deletion on focal variables and firmage validation (capped at [0, 150]): 2014 N = 8,941; 2022 N = 9,300; 2025 N = 10,476. Mean export intensity declined from 7.2 % (2014) to 8.0 % (2022) to 2.7 % (2025), consistent with India's post-2020 inward shift under Atmanirbhar Bharat. Productivity levels rose: mean lnLP = 13.93 (2014), 14.37 (2022), 15.01 (2025). DAI Tier-1 (website adoption) was 52.7 % in 2014, 60.6 % in 2022, but declined to 41.8 % in 2025, suggesting that websites became less central as UPI absorbed customer-facing digital interaction. DAI Tier-2 (e-payment share), measured only in 2025, averaged 65.8 per cent, indicating UPI saturation. Full descriptives are reported in Table 1.
 
 **[Insert Table 1 about here.]**
 
@@ -262,7 +262,7 @@ A potential endogeneity concern deserves explicit acknowledgement. Among firms i
 
 The Technological Capability Index operates as a positive level-shifter in 2014 (β = +0.12, p < 0.0001) and 2022 (β = +0.19, p < 0.0001), supporting H3a. In 2025, the TCI main effect flips to negative (β = −0.08, p < 0.0001) and the FSTS × TCI interaction becomes positive and significant (β = +0.20, p = 0.03), supporting H3b. The pattern is consistent with the Mizik and Jacobson (2003) strategic emphasis trade-off. When policy incentives redirect technological capability investment toward domestic manufacturing (PLI), firms accumulating TCI primarily for domestic ends experience competing demands on the same internal resources. This suppresses the productivity returns that TCI delivered when capability accumulation was indifferent to export orientation. The positive FSTS × TCI interaction in 2025 indicates that TCI continues to deliver returns specifically to firms that maintain high export orientation. This is the subset for whom capability investment remains export-aligned. The result reinforces the broader institutional argument that under unprecedented strategic redirection, even firm-level capability constructs behave differently.
 
-### 5.4 Policy implications — corrected from the threshold-collapse evidence
+### 5.4 Policy implications corrected from the threshold-collapse evidence
 
 For Indian SME export-promotion policy, the empirical disappearance of the inverted-U turning point in 2025 requires recalibration of any prior policy benchmarks. Export-intensity targets calibrated to the 2014 productivity peak (FSTS ≈ 60 per cent) or to the 2022 productivity peak (FSTS ≈ 41 per cent) are no longer empirically defensible for the 2025 institutional environment. The post-2025 policy question is not "what is the optimal export intensity?" but "under what institutional conditions does an optimum re-emerge?" Restoring institutional predictability is logically prior to setting export-intensity targets. This includes stable tariff schedules, predictable input-import policy, and stable cross-border financial infrastructure.
 
@@ -312,7 +312,7 @@ This research received no specific grant from any funding agency in the public, 
 
 ## Data Availability Statement
 
-WBES India 2014, 2022, and 2025 microdata are publicly available via https://www.enterprisesurveys.org subject to World Bank registration. Replication materials — including the harmonisation protocol across PICS3, BEE intermediate, and BREADY schemas, Stata do files, variable-construction code, and model specifications — are available from the corresponding author upon reasonable request and may be shared to the extent permitted by the WBES Data Access Protocol.
+WBES India 2014, 2022, and 2025 microdata are publicly available via https://www.enterprisesurveys.org subject to World Bank registration. Replication materials are available from the corresponding author upon reasonable request and may be shared to the extent permitted by the WBES Data Access Protocol. These materials include the harmonisation protocol across PICS3, BEE intermediate, and BREADY schemas, Stata do files, variable-construction code, and model specifications.
 
 ## Use of Generative AI in the Writing Process
 
