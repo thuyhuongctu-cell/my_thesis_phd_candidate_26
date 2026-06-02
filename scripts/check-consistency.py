@@ -55,7 +55,6 @@ DEFAULT_PATTERNS = [
     "p3/*.md",
     "p4/*.md",
     "p5/*.md",
-    "p5/versions/apjm/*.md",
     "p6/*.md",
     "chuyen_de/cd1/*.md",
     "chuyen_de/cd2/*.md",

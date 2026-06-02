@@ -38,7 +38,7 @@
 - [ ] Confirm word count meets journal cap (see master README in parent folder)
 - [ ] Confirm format-specific requirements:
   - [ ] Line numbers (some journals)
-  - [ ] Running header (APJM)
+  - [ ] Running header (IJOEM)
   - [ ] Separate authors' information file (JIBS)
   - [ ] Title page submitted separately from manuscript
 - [ ] Verify blinded manuscript has no author identifiers (already verified)

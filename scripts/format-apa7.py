@@ -21,10 +21,7 @@ DEFAULT_REFS_FILE = "thesis/04_references_apa7.md"
 MANUSCRIPT_PATTERNS = [
     "p3/p3_vietnam_en_clean.md",
     "p4/p4_singapore_en_clean.md",
-    "p5/versions/apjm/manuscript_v1_8_blinded_part1_frontmatter_intro.md",
-    "p5/versions/apjm/manuscript_v1_8_blinded_part2_theory.md",
-    "p5/versions/apjm/manuscript_v1_8_blinded_part3_data_methods.md",
-    "p5/versions/apjm/manuscript_v1_8_blinded_part4_results.md",
+    "p5/p5_china_en_clean.md",
     "chuyen_de/cd1/14_cd1_part1_intro_theory_vi.md",
     "chuyen_de/cd1/15_cd1_part2_findings_vi.md",
     "chuyen_de/cd1/16_cd1_part3_cases_conclusion_vi.md",
