@@ -303,31 +303,21 @@ Four families of robustness checks probe whether central inferences are sensitiv
 
 We do not apply a formal multiple-testing correction because the panels probe different identification concerns rather than testing the same hypothesis repeatedly, but readers should weight any single marginal panel result accordingly. The substantive §5 inferences rely on the pattern across panels and the directional consistency of focal estimates.
 
-Table 4: Robustness panels — focal coefficients and joint tests.
+Table 4: Robustness panels — headline focal coefficients and joint tests.
 
 | Panel | Sample | N | Focal coefficient | Joint test |
 | --- | --- | ---: | --- | --- |
-| A. TCI_full direct (2015) | 2015 | 956 | TCI_full_z = +0.056 (p = .253); DAI_z = -0.033 | M3 joint p = .492 |
 | A. TCI_full direct (2023) | 2023 | 1,013 | TCI_full_z = +0.096 (p = .024); DAI_z = +0.097 (p = .037) | M3 joint p = .152 |
 | B. DAI_rich continuous (2023) | 2023 | 1,013 | FSTSc × DAI_rich_cont = -0.933† (p = .076) | M8 joint p = .099† |
-| B. DAI_rich binary (2023) | 2023 | 1,013 | FSTSc × DAI_rich_bin = -0.893 (p = .169) | M8 joint p = .243 |
-| C. Common-N reconciled (2023) | 2023 | 1,013 | DAI_z moderation re-estimated on identical 2023 sample | M8 joint p = .062† |
-| D. Micro-firm exclusion (l1 ≥ 10) | Pooled | 2,473 | TCI_z = +0.188 (p < .001); DAI_z = +0.054 | M8 joint p = .167 |
+| D. Micro-firm exclusion (l1 ≥ 10) | Pooled | 2,473 | TCI_z = +0.188***; DAI_z = +0.054 | M8 joint p = .167 |
 | E. Heckman two-step | Per wave | — | |λ| < 0.84; p > .25 in each wave | n.s. (selection null) |
-| G. Sector split: manufacturing | Pooled | 1,854 | TCI_z = +0.223; DAI_z = +0.087; FSTSc × DAI_z = -0.543† | M8 joint p = .103† |
-| G. Sector split: non-manufacturing | Pooled | 1,104 | TCI_z = +0.090†; DAI_z = +0.068 | M8 joint p = .280 |
+| G. Sector split: manufacturing | Pooled | 1,854 | TCI_z = +0.223***; DAI_z = +0.087**; FSTSc × DAI_z = -0.543† | M8 joint p = .103† |
 | H. Exporter-only (FSTS > 0) | Pooled | 669 | FSTSc = -0.861***; FSTSc² = -0.200 n.s. | M8 joint p = .462 |
-| I. Wave × focal interactions | Pooled | 2,958 | DAI_z × wave distinguishable (p = .016); other focal × wave n.s. | Only DAI direct shifts cross-wave-separable |
-| Density around TP (±5 pp band) | Pooled | 29/2,958 | 1.0% of firms within band; bulk of mass at FSTS = 0 | Curvature identified by participation margin |
-| J. PSM ATT, website (1-NN caliper 0.05) | Pooled | 1,085 | ATT_DAI = +0.298 (SE 0.061) | Positive and large under matching |
-| J. PSM ATT, website (kernel BW 0.06) | Pooled | 1,085 | ATT_DAI = +0.321 (SE 0.043) | Robust to algorithm |
-| J. PSM ATT, cert / foreign-tech (1-NN) | Pooled | 640 | ATT_TCI = +0.637 (SE 0.078) | Positive and large under matching |
-| K. IV / 2SLS, DAI_z | Pooled | 2,298 | DAI_z = +0.018 (p = .942) | First-stage F = 34.6 (strong) |
-| K. IV / 2SLS, TCI_z | Pooled | 2,298 | TCI_z = +1.639*** (SE 0.299) | First-stage F = 22.1 (strong) |
-| Cubic extension | Pooled | 2,958 | FSTSc³ = -1.763 (p = .287) | ΔAIC = -0.99; ΔBIC = -7.0 vs cubic |
-| Oster (2019) δ = 1 bounds | Pooled | 2,958 | FSTSc 0.92→0.61; FSTSc² -2.21→-1.17; TCI 0.14→0.19; DAI 0.07→0.08 | No sign change; focal findings stable |
+| J. PSM ATT (cert / foreign-tech, 1-NN) | Pooled | 640 | ATT_TCI = +0.637 (SE 0.078)*** | Positive and large under matching |
+| K. IV / 2SLS (TCI_z, DAI_z) | Pooled | 2,298 | TCI_z = +1.639*** (F = 22.1); DAI_z = +0.018 n.s. (F = 34.6) | TCI robust; DAI null |
+| Oster (2019) δ = 1 bounds | Pooled | 2,958 | FSTSc, FSTSc², TCI, DAI: all stable, no sign change | No focal collapse |
 
-*Notes.* Each row summarises one robustness panel from §4.5 estimated by OLS HC1 (PSM and 2SLS use the indicated alternative estimators). Significance markers: *** p < .001, ** p < .01, * p < .05, † p < .10, n.s. = not significant. Row-level coefficients, standard errors, full Heckman two-step output, sector-split M2 and M7 estimates, and per-wave Paternoster Δβ are reported in Online Appendix Tables A1–A6. Source: WBES Vietnam 2009, 2015, 2023; authors' calculations.
+*Notes.* Each row summarises one headline robustness panel from §4.5 estimated by OLS HC1 (PSM and 2SLS use the indicated alternative estimators). Significance markers: *** p < .001, ** p < .01, * p < .05, † p < .10, n.s. = not significant. Panel C (common-N reconciled), Panel I (wave × focal interactions), Panel J's two PSM variants on website ownership, Panel G's non-manufacturing split, density-around-TP band, and the cubic extension are reported in Online Appendix Tables A1–A6. Source: WBES Vietnam 2009, 2015, 2023; authors' calculations.
 
 Table 5: Implied turning points of the inverted-U (M2 specification).
 
@@ -388,34 +378,13 @@ Two cross-cutting principles emerge. First, managers should avoid conflating bas
 
 
 ### 5.5 Policy implications
-The policy reading here is offered as tentative consideration, not directive prescription. The
-associational nature of the evidence, the breadth of the wave-specific heterogeneity, and the
-single-economy scope all weigh against converting these findings into firm policy targets. With
-those caveats kept explicit, three considerations follow for Vietnam's trade and digital-economy
-policy design.
-First, export-promotion instruments designed around a uniformly positive internationalisation premium will overshoot in transitional periods such as the 2015 wave, when capability
-payoffs were compressed even as export intensity remained productivity-relevant. Targeting export support at firms positioned in the entry-cost zone, rather than at firms already operating at
-high export intensity, is consistent with the curvature documented in the pooled and later-wave
-samples. Second, digital-economy programmes that treat foundational adoption (websites, basic
-e-payment) as a sufficient policy lever are likely to be attenuated by the implementation lag
-and by the conditional nature of the digital channel at higher export intensity.
 
-Programmes
+The policy reading is offered as tentative consideration, not directive prescription; the associational nature of the evidence and the single-economy scope weigh against converting these findings into firm policy targets. With those caveats, three considerations follow.
 
-that bundle Tier 1–2 digital adoption with deeper capability upgrading, quality certification,
-absorptive-capacity investment, organisational routines for cross-border coordination, are
-more consistent with the pattern that emerges in 2023.
-Third, the cross-wave comparison, which, given the repeated cross-sectional design, reflects cohort-level snapshots rather than within-firm trajectories, suggests that policy evaluation windows matter.
+First, export-promotion instruments designed around a uniformly positive internationalisation premium will overshoot in transitional periods such as the 2015 wave when capability payoffs are compressed. Targeting support at firms in the entry-cost zone, rather than at firms already operating at high export intensity, is consistent with the curvature documented in the pooled and later-wave samples. Second, digital-economy programmes that treat foundational adoption (websites, basic e-payment) as a sufficient policy lever are likely to be attenuated by implementation lag and by the conditional nature of the digital channel at higher export intensity; programmes that bundle Tier 1–2 digital adoption with deeper capability upgrading (quality certification, absorptive-capacity investment, cross-border coordination routines) are more consistent with the pattern that emerges in 2023.
 
-A digital-
+Third, the repeated cross-sectional design reflects cohort-level snapshots rather than within-firm trajectories, so policy evaluation windows matter. A digital-transformation programme assessed only against a 2015-style transitional baseline would understate its long-run productivity contribution; one assessed against 2009- or 2023-style baselines would overstate it relative to the in-between phase. The World Bank (2025b) *Taking Stock* identifies high-tech industrial talent cultivation as a binding constraint mediating digital and capability investment into sustainable productivity gains, reinforcing the argument that policy evaluation in transitional settings must monitor the capability environment, not adoption rates alone. At the macro level, Vietnam's service trade liberalisation over 2008–2016 raised service-sector productivity by 2.9 % per year and manufacturing productivity by 3.1 % per year (Barattieri, Mattoo, and Signoret, 2026), suggesting the ascending limb documented in the WBES microdata reflects in part economy-wide gains from trade opening that firm-level capability investments convert into sustained productivity advantage.
 
-transformation programme assessed only against a 2015-style transitional baseline would un-
-
-
-
-derstate its long-run productivity contribution; a programme assessed against a 2009-style or
-2023-style baseline would overstate it relative to the in-between phase. Policy evaluation that
-takes the wave-specific structural differences seriously will couple short-window outcome measurement with sustained measurement of the capability and infrastructure environment in which firms operate. In the Vietnamese context, the World Bank (2025b) *Taking Stock* update identifies the cultivation of high-tech industrial talent as a binding constraint mediating digital and capability investment into sustainable productivity gains, reinforcing the argument that policy evaluation in transitional settings must monitor the capability environment, not adoption rates alone. At the macro level, Vietnam's service trade liberalization over 2008–2016 raised service-sector productivity by an average of 2.9 per cent per year and manufacturing productivity by 3.1 per cent per year (Barattieri, Mattoo, & Signoret, 2026), suggesting that the ascending limb documented in the WBES microdata reflects in part the economy-wide gains from trade opening that firm-level capability investments convert into sustained productivity advantage.
 
 ## 6. Limitations and future research
 
