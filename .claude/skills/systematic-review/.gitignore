@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Outputs locales (no deben acabar en el repo)
+Publicaciones/
+prisma_output/
+
+# Revisiones sistemáticas reales: datos de equipos, emails, ORCID, estudios no publicados.
+# NUNCA deben publicarse en el repo público. Carpeta de trabajo local exclusivamente.
+REVISIONES SISTEMÁTICAS/
+*.xlsx
+*.docx
+master_corpus.json
+project_state.json
+project_config.yaml
+raw_*.json
+raw_*.ris
+*.png.local

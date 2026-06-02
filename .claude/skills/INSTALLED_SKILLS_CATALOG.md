@@ -1,8 +1,8 @@
 # Installed Skills Catalog
 
-*Updated: 2026-06-02 — added 5 skills from Auto-Empirical-Research-Skills (AERS) repo*
+*Updated: 2026-06-02 — added 9 WoS/PRISMA skills (literature review + systematic review)*
 
-## Total: 26 skills (21 existing + 5 newly added)
+## Total: 35 skills (26 prior + 9 newly added)
 
 ## Existing skills (21)
 
@@ -78,6 +78,54 @@ For each paper in Phase A1, recommended skill sequence:
 For empirical pipeline:
 - **empirical-analysis-R-pipeline** (NEW) — useful for P6 meta-analysis verification or any R-based work
 
+## NEW: WoS / PRISMA literature-review skills (9, installed 2026-06-02)
+
+These 9 skills cover Web of Science search, paper detail extraction, BibTeX → literature matrix conversion, chart generation, and full PRISMA 2020 systematic-review automation. They support the **CĐ1 Tổng luận tài liệu** and **P6 meta-analysis** workflows.
+
+### Search + paper-detail layer (5 skills)
+- **wos-search** — Search WoS by topic / author / title / DOI; supports edition + database filtering. Requires Chrome DevTools MCP + WoS institutional login.
+- **wos-paper-detail** — Get full metadata for a paper by WoS ID (e.g., WOS:000779183600001).
+- **wos-parse-results** — Internal helper used by other WoS skills to parse results pages / API responses.
+- **wos-navigate-pages** — Navigate / paginate / "load more" on the WoS results page.
+- **wos-export** — Export citations from a WoS result set (BibTeX / RIS / CSV).
+- **wos-download** — Download PDFs of WoS hits where the institution has access.
+
+### Literature-matrix + chart layer (2 skills)
+- **wos-review-matrix** — Convert WoS BibTeX exports to thematic literature-review matrix (Markdown + CSV) + Word DOCX literature review with GB/T 7714-2015 references. *Caveat for our portfolio: outputs GB/T 7714 references; project uses APA7 (thesis/04_references_apa7.md). Use the matrix output but regenerate the reference list via scripts/format-apa7.py.*
+- **wos-review-workflow** — Self-contained chart-generation workflow with bundled Python + map shapefiles. 7 chart types (yearly bar, collaboration bar, chord, world map, keyword bar, keyword pie, wordcloud) from a WoS Excel export. Useful for the P6 meta-analysis descriptive figures and the CĐ1 Tổng luận tài liệu visualisation block.
+
+### Full-pipeline layer (1 skill)
+- **systematic-review** — PRISMA 2020 systematic review pipeline. Heavily automated: search strategy, multi-source consolidation (PubMed + Semantic Scholar + OpenAlex + Consensus + WoS/Embase), CrossRef DOI verification, dedup, two-pass screening, RoB, meta-analysis with R metafor, PRISMA 2020 diagram, PROSPERO draft, PRISMA-trAIce checklist. Requires multiple MCPs (PubMed, Consensus, Zotero) for full automation.
+
+## Where each WoS/PRISMA skill applies in the portfolio
+
+| Skill | CĐ1 Tổng luận | P6 Meta | P3–P9 | Notes |
+|---|:-:|:-:|:-:|---|
+| wos-search | ✅ | ✅ | — | Needs Chrome + WoS login (local env) |
+| wos-paper-detail / parse / navigate / export / download | ✅ | ✅ | — | Companion to wos-search |
+| wos-review-matrix | ✅ | ✅ | — | Needs a large WoS BibTeX export (200–500+ hits); the existing `references/p*.bib` are small *cited-references* exports, not search exports |
+| wos-review-workflow | — | ✅ | — | Needs a WoS Excel export; could regenerate P6 yearly / collaboration / world-map figures |
+| systematic-review | — | ✅ | — | Heaviest dependency footprint; useful if redoing P6 with PRISMA-trAIce AI-disclosure checklist |
+
+## Skills NOT installed from this upload batch
+
+- **ECC (Everything Claude Code)** — 30 agents / 135 skills / 60 commands mega-plugin. Too broad and generic for the dissertation context; would clutter `.claude/skills/` with non-academic dev tools.
+- **VoxCPM** — Voice TTS library; not relevant for dissertation text work.
+- **WBES-DATA-VIEWER** — Mislabelled despite the alluring name; this is for "Web-Based Energy Scheduling" (power-grid data), NOT World Bank Enterprise Survey.
+- **global-reports** — Documentation repo (README + CODE_OF_CONDUCT + CONTRIBUTING only); no skill artifacts.
+- **awesome-resources** — Community awesome-list; not a skill.
+
+## Why none of the 9 new skills could be auto-applied to the repo in this session
+
+The dissertation portfolio repo does not contain the inputs these skills expect:
+
+- No WoS-export `.xls(x)` files in `p6/` (wos-review-workflow input)
+- The existing `references/p*.bib` files are post-writing cited-references exports (~10–50 entries each), not raw WoS search exports (200–500+) that wos-review-matrix is designed to process
+- This remote container does not have Chrome DevTools MCP + WoS institutional login (CTU credentials), nor PubMed / Consensus / Zotero MCPs that systematic-review's full automation requires
+
+To actually use any of these skills, the NCS should run them locally on the laptop where Chrome + the CTU WoS institutional login + Zotero are available. The skills are installed and registered; the moment the appropriate inputs (WoS BibTeX or Excel exports) appear in the repo, they become applicable.
+
 ## Sources
-- All 5 new skills from https://github.com/thuyhuongctu-cell/Auto-Empirical-Research-Skills (AERS, 50+ skills repo)
-- License: CC BY-SA 4.0 (preserved)
+- 5 AERS skills (2026-06-02 prior session): https://github.com/thuyhuongctu-cell/Auto-Empirical-Research-Skills
+- 9 WoS/PRISMA skills (this session): wos-search-skill, wos-review-skill, wos-review-matrix-skill, systematic-review-skill, wos-skills (bundle) — all user-uploaded zips
+- Licenses: MIT (wos-* + systematic-review), CC BY-SA 4.0 (AERS) — all preserved.

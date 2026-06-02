@@ -1,0 +1,4 @@
+interface:
+  display_name: "WoS Literature Review Matrix"
+  short_description: "Convert Web of Science exports to review matrices and DOCX literature reviews."
+  default_prompt: "Use $wos-review-matrix to create a thematic literature review matrix from Web of Science metadata."
