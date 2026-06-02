@@ -61,7 +61,7 @@
 
 | Item | Count |
 |------|-------|
-| Word count (main text) | ~8,500 words |
+| Word count (main text) | ~13,791 words (over JABES cap, reduction to ≤12,000 pending) |
 | Abstract | ≤250 words (structured Emerald format) |
 | Tables | 12 (will reduce to 5–6 inline + supplementary online) |
 | Figures | 10 (will reduce to 4–6 inline + supplementary online) |
