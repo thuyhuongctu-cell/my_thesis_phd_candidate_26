@@ -127,42 +127,16 @@ This structure provides sufficient variation to compare direct effects and condi
 across stages.
 
 ### 3.2 Variables
-Firm performance is measured by log labour productivity (lnLP). Internationalisation is measured by direct-export intensity (FSTS), mean-centred within wave ($\text{FSTS}_c$) and squared ($\text{FSTS}_c^2$) so that linear and quadratic terms can be entered jointly to test for nonlinearity. The analysis uses two distinct capability constructs. The Technological Capability Index ($\text{TCI}_z$) is interpreted narrowly as a foreign-technology and standards capability measure, 
-international quality certification and foreign-licensed technology, that proxies a firm's exposure to external technological standards rather than the full Cohen-Levinthal absorptive-capacity
-stock (Lall, 1992; Cohen and Levinthal, 1990). The Digital Adoption Index ($\text{DAI}_z$) is interpreted narrowly as website-based digital presence, foundational website adoption, and not
-as a measure of transaction-level digital integration or digital transformation (Bharadwaj et al.,
-2013; Verhoef et al., 2021; Nambisan et al., 2019). Each composite is z-standardised within wave
 
+Firm performance is measured by log labour productivity lnLP = ln(d2/l1), where d2 is total annual sales (PPP-adjusted using World Bank ICP deflators) and l1 is permanent full-time employees. Internationalisation is FSTS = d3c / 100, mean-centred within wave (FSTSc) and squared (FSTSc²) so linear and quadratic terms can be entered jointly to test for nonlinearity.
 
+The analysis uses two distinct capability constructs to avoid the common conflation of technological capability with digital adoption. The **Technological Capability Index (TCI_z)** is the within-wave standardised mean of b8 (internationally recognised quality certification) and e6 (foreign-licensed technology), each recoded from WBES 1/2 to 1/0 binary. It is interpreted narrowly as a foreign-technology and standards capability measure proxying a firm's exposure to external technological standards rather than the full Cohen–Levinthal absorptive-capacity stock (Lall, 1992; Cohen and Levinthal, 1990). The **Digital Adoption Index (DAI_z)** is the within-wave standardised website-presence indicator c22b, recoded from 1/2 to 1/0. It is interpreted narrowly as website-based digital presence — foundational website adoption — not as a measure of transaction-level digital integration or digital transformation (Bharadwaj et al., 2013; Verhoef et al., 2021; Nambisan et al., 2019). No item is shared between the two composites: e6 belongs to the capability construct, c22b to the digital construct.
 
-so that the reported coefficients are comparable in magnitude. This separation is deliberate because the study is interested in whether the two domains exhibit different empirical roles, while
-keeping the construct labels tight against what the underlying WBES items actually measure.
-Item-level construction is as follows. The outcome is lnLP = ln(d2 / l1), where d2 is total annual sales and l1 is permanent full-time employees. Internationalisation is FSTS = d3c / 100, mean-centred within wave ($\text{FSTS}_c$) and squared ($\text{FSTS}_c^2$). The primary Technological Capability Index ($\text{TCI}_z$) is the within-wave standardised mean of b8 (internationally recognised
-quality certification) and e6 (foreign-licensed technology), each recoded from WBES 1/2 to 1/0
-binary form.
+Two enriched composites are used in §4.5 robustness panels where item availability allows. TCI_full adds h1 (new or significantly improved product) and h8 (R&D expenditure indicator) to the TCI items in 2015 and 2023. DAI_rich, constructed only for 2023, extends c22b with k33 (share of sales received via electronic payment) and k38 (share of supplier payments made via electronic payment), in both continuous (k33/100, k38/100) and binary (k33 > 0, k38 > 0) variants. DAI_rich moves from basic digital presence toward a transaction-enabling digital-adoption construct, but is treated as a measurement-depth robustness check rather than as the primary specification because k33 and k38 are unavailable in 2009 and 2015.
 
-The primary Digital Adoption Index ($\text{DAI}_z$) is the within-wave standardised website-presence indicator c22b, recoded from 1/2 to 1/0. Under this revised primary specification, no item is shared between the TCI and DAI composites, e6 belongs exclusively to the
-capability construct, while c22b alone is a harmonised cross-wave proxy for basic digital
-presence. Cross-wave-comparable transaction-level digital items are absent from the 2009 and
-2015 instruments, so $\text{DAI}_z$ should be interpreted as a Tier 1–2 digital-adoption measure rather
-than as a fully integrated digital-capability construct (Bharadwaj et al., 2013; Verhoef et al.,
-2021).
-Two enriched composites are used in the 4.5 robustness panel where item availability allows.
-$\text{TCI}_f$ull adds h1 (introduced new or significantly improved product) and h8 (R&D expenditure
-indicator) to the TCI items in 2015 and 2023, where h1 and h8 are present. $\text{DAI}_r$ich, constructed only for 2023, extends the website-presence indicator with k33 (share of sales received
-via electronic payment) and k38 (share of supplier payments made via electronic payment), in
-both continuous (k33 / 100, k38 / 100) and binary (k33 > 0, k38 > 0) variants. $\text{DAI}_r$ich thus
-moves from basic digital presence toward a transaction-enabling digital-adoption construct, but
-it is treated as a measurement-depth robustness check rather than as the primary specification
-because k33 and k38 are unavailable in the 2009 and 2015 waves.
+**Tier-1-only DAI as a deliberate cross-wave boundary condition.** Restricting DAI_z to the website-presence binary (c22b) across all three waves is a deliberate boundary condition imposed by WBES data availability, not a methodological weakness. The 2009 and 2015 waves offer only c22b (Tier 1); the 2023 wave includes k33, k38 (Tier 2). Retaining a single harmonised Tier-1 indicator across waves is the conservative choice that preserves cross-wave comparability; using a richer composite for 2023 only would introduce a wave-specific construct-shift that could be mistaken for a structural change in the I–P relationship. The negative 2023 interaction (FSTSc × DAI_z = -0.912, p = .043) is best read as construct-tier obsolescence: Tier-1 website presence has become a minimum-threshold credential in Vietnam's maturing digital environment and no longer differentiates firms' cross-border coordination capacity at high export intensity. The DAI_rich extension (§4.5 Panel B) probes whether the primary moderation pattern survives under the richer 2023 construct.
 
-**Construct-tier scope note.** The $\text{DAI}_z$ construct in this paper (Tier 1 only: website binary c22b) is constrained by the WBES Vietnam instrument: only the website-presence binary is carried comparably across the 2009 / 2015 / 2023 waves, whereas richer Tier-2 transaction-enabling items such as electronic-payment intensity (k33, k38) appear only in the 2023 wave. The Vietnam Tier-1-only indicator ($\text{FSTS}_c \times \text{DAI}_z$ = −0.912, p =.043) is best read as construct-tier obsolescence: Tier-1 website presence has become a minimum-threshold credential in Vietnam's maturing digital environment and no longer differentiates firms' cross-border coordination capacity at high export intensity. The $\text{DAI}_r$ich robustness composite available in the 2023 wave (Tier 1+2, Section 4.5 Panel B) provides within-wave sensitivity analysis on this scope-limitation question, but cross-wave comparability limits its use as the primary measure.
-
-**Tier-1-only DAI as a deliberate boundary condition.** The restriction of $\text{DAI}_z$ to the website-presence binary (c22b) across the 2009, 2015, and 2023 waves is a deliberate boundary condition imposed by WBES data availability, not a methodological weakness or a proxy approximation. The 2009 and 2015 waves offer only the website presence indicator (Tier 1), while the 2023 wave includes payment digitization items (k33, k38; Tier 2). This tiered measurement captures institutional evolution in digital infrastructure: Tier-1 only in waves with incomplete WBES coverage reflects the actual state of digital adoption instrumentation at that time, not a deficiency of the present study's measurement strategy. Retaining a single harmonised Tier-1 indicator across all three waves is the methodologically conservative choice that preserves cross-wave comparability; the alternative, using a richer composite for 2023 only, would introduce a wave-specific construct-shift that could be mistaken for a structural change in the I–P relationship. The $\text{DAI}_r$ich robustness extension (Section 4.5 Panel B) applies the 2023-wave Tier-2 items precisely as a within-wave sensitivity probe to assess whether the primary moderation pattern survives under a richer construct while acknowledging the cross-wave comparability cost.
-
-Controls are standard. Firm size lnEmp = ln(l1). Firm age FirmAge = survey year minus b5 (year established). Foreign ownership ForeignOwned = 1 if b2b (percentage of equity owned by private foreign individuals or firms) > 0. Sector fixed effects use the first digit of a4b (broad ISIC code) for the 2009 and 2015 waves and the first digit of a4a for the 2023 wave, where a4b is not in the public release. Pooled specifications add wave fixed effects to absorb broad period differences in the productivity baseline.
-
-Table 1 summarises all variables used in the M0–M8 sequence, their WBES source items, construction rules, and theoretical roles.
+Controls are standard: firm size lnEmp = ln(l1); firm age FirmAge = survey year minus b5; foreign ownership ForeignOwned = 1 if b2b > 0; sector FE use the first digit of a4b (2009/2015) or a4a (2023); pooled specifications add wave FE. WBES non-response codes (−9) are treated as missing before any composite is built; listwise deletion is applied on the focal variable set. Analytic samples are 989 (2009), 956 (2015), 1,013 (2023), pooled N = 2,958.
 
 *Table 1: Variable definitions and WBES construction.*
 
@@ -178,52 +152,28 @@ Table 1 summarises all variables used in the M0–M8 sequence, their WBES source
 | FirmAge | b5 | survey_year − b5: years since establishment | Control: firm age |
 | ForeignOwned | b2b | 1 if b2b > 0: any foreign equity ownership | Control: ownership type |
 | δ_s | a4b / a4a | 1-digit ISIC sector (a4b for 2009/2015; a4a for 2023) | Sector fixed effects |
-| λ_t | wave | wave indicator: 2009, 2015, 2023 (pooled models only) | Period fixed effects |
+| λ_t | wave | wave indicator: 2009, 2015, 2023 (pooled only) | Period fixed effects |
 
-*Notes.* b8 and e6 are recoded from WBES 1/2 to binary 1/0 before composite construction (1 = has certification / foreign-licensed technology; 2 to 0). c22b is recoded similarly (1 = has website; 2 to 0). $\text{TCI}_z$ and $\text{DAI}_z$ are standardised within each wave independently so that coefficients are comparable in magnitude across waves. Turning-point formula: TP* = −$\beta_1$ / (2$\beta_2$); the Lind–Mehlum (2010) utest formally confirms inverted-U shape by rejecting monotonicity at p <.05 in all specifications. PPP conversion applied to d2 using World Bank ICP deflators matched to survey year.
-
-A note on missing-code handling. The WBES instrument codes do-not-know and refused
-
-responses as -9. This study treats -9 as missing before any composite is built and apply listwise deletion
-on the focal variable set (lnLP, lnEmp, FirmAge, ForeignOwned, FSTS, $\text{TCI}_z$, $\text{DAI}_z$,
-sector1). The resulting analytic samples are 989, 956, and 1,013 observations for 2009, 2015,
-and 2023 respectively; pooled N is 2,958.
+*Notes.* b8 and e6 recoded WBES 1/2 to 1/0 (1 = has certification / foreign-licensed technology). c22b recoded similarly. TCI_z and DAI_z are standardised within each wave independently so coefficients are comparable in magnitude across waves. Turning-point formula: TP* = −β₁ / (2β₂); the Lind–Mehlum (2010) u-test formally confirms inverted-U shape by rejecting monotonicity at p < .05 in all specifications. PPP conversion applied to d2 using World Bank ICP deflators matched to survey year.
 
 ### 3.3 Model sequence
-The empirical strategy follows a nested sequence of models, all estimated by ordinary least squares with HC1 robust standard errors. A control model establishes the baseline. A linear internationalisation model then introduces $\text{FSTS}_c$. A nonlinear model adds the quadratic term $\text{FSTS}_c^2$ to test for curvature. Additional models introduce $\text{TCI}_z$ and $\text{DAI}_z$ separately, first in specifications that allow interaction terms with $\text{FSTS}_c$ and $\text{FSTS}_c^2$, and then in direct-effect specifications. The final full model includes the nonlinear internationalisation terms, both direct capability measures, and the interaction terms involving digital adoption. This design separates three analytical questions. First, is the I–P relationship nonlinear? Second, are $\text{TCI}_z$ and $\text{DAI}_z$ directly associated with performance? Third, does the role of foundational digital adoption become more conditional as export intensity rises? Throughout, results are described as associations rather than effects, consistent with the inferential limits of repeated-cross-section data (Antonakis et al., 2010; Wooldridge, 2010).
 
-The nested model sequence is specified formally as follows. Let lnLP_it denote log labour productivity for firm *i* in wave *t*, $\text{FSTS}_c$_it the within-wave mean-centred export intensity, and **X**_it the vector of controls (lnEmp, FirmAge, ForeignOwned); δ_s denotes sector fixed effects and $\lambda$_t wave fixed effects (pooled specifications only):
+The empirical strategy follows a nested OLS sequence with HC1 robust standard errors. M0 establishes the baseline controls; M1 introduces FSTSc; M2 adds the quadratic FSTSc² to test H1; M3 adds TCI moderation (tests H2); M4 adds DAI moderation (exploratory H4); M5 and M6 add TCI and DAI as direct effects only; M7 combines both direct effects without interactions; M8 is the full model (dual-direct + DAI moderation). The sequence separates three analytical questions: is the I–P relationship nonlinear? Are TCI_z and DAI_z directly associated with productivity? Does the role of foundational digital adoption become more conditional as export intensity rises? Results are described as associations rather than effects, consistent with the inferential limits of repeated-cross-section data (Antonakis et al., 2010; Wooldridge, 2010).
 
-**M0, Baseline controls:**
-lnLP_it = $\alpha$ + $\gamma$₁ lnEmp_it + $\gamma$₂ FirmAge_it + $\gamma$₃ ForeignOwned_it + δ_s + [$\lambda$_t] + $\epsilon$_it
+Let lnLP_it denote log labour productivity for firm *i* in wave *t*, **X**_it the vector of controls (lnEmp, FirmAge, ForeignOwned), δ_s sector FE, λ_t wave FE (pooled only). The eight specifications are:
 
-**M1, Linear internationalisation:**
-lnLP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$_it + $\gamma$·**X**_it + δ_s + [$\lambda$_t] + $\epsilon$_it
+**M0 (baseline):** lnLP_it = α + γ·**X**_it + δ_s + [λ_t] + ε_it
+**M1 (linear):** ... + β₁ FSTSc
+**M2 (quadratic, tests H1):** ... + β₁ FSTSc + β₂ FSTSc² ; H1 requires β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂), confirmed by Lind–Mehlum (2010) u-test
+**M3 (TCI moderation, tests H2):** ... + β₃ TCI_z + β₄(FSTSc × TCI_z) + β₅(FSTSc² × TCI_z)
+**M4 (DAI moderation, exploratory H4):** ... + β₃ DAI_z + β₄(FSTSc × DAI_z) + β₅(FSTSc² × DAI_z)
+**M5 (TCI direct only):** quadratic + β₃ TCI_z
+**M6 (DAI direct only):** quadratic + β₃ DAI_z
+**M7 (dual-direct, no interactions):** quadratic + β₃ TCI_z + β₄ DAI_z
+**M8 (full):** quadratic + β₃ TCI_z + β₄ DAI_z + β₅(FSTSc × DAI_z) + β₆(FSTSc² × DAI_z)
 
-**M2, Quadratic internationalisation (tests H1 inverted-U):**
-lnLP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$_it + $\beta_2$ $\text{FSTS}_c^2$_it + $\gamma$·**X**_it + δ_s + [$\lambda$_t] + $\epsilon$_it
+The M0–M8 sequence is estimated wave-by-wave (2009, 2015, 2023) and on the pooled three-wave file, yielding four sets of estimates.
 
-H1 requires $\beta_1$ > 0 and $\beta_2$ < 0; the implied turning point is TP* = −$\beta_1$ / (2$\beta_2$), confirmed by the Lind–Mehlum (2010) utest.
-
-**M3, TCI moderation (tests H2):**
-lnLP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$ + $\beta_2$ $\text{FSTS}_c^2$ + $\beta_3$ $\text{TCI}_z$ + $\beta_4$($\text{FSTS}_c \times \text{TCI}_z$) + $\beta_5$($\text{FSTS}_c^2 \times \text{TCI}_z$) + $\gamma$·**X** + δ_s + [$\lambda$_t] + $\epsilon$
-
-**M4, DAI moderation (exploratory H4):**
-lnLP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$ + $\beta_2$ $\text{FSTS}_c^2$ + $\beta_3$ $\text{DAI}_z$ + $\beta_4$($\text{FSTS}_c \times \text{DAI}_z$) + $\beta_5$($\text{FSTS}_c^2 \times \text{DAI}_z$) + $\gamma$·**X** + δ_s + [$\lambda$_t] + $\epsilon$
-
-**M5, TCI direct only:**
-lnLP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$ + $\beta_2$ $\text{FSTS}_c^2$ + $\beta_3$ $\text{TCI}_z$ + $\gamma$·**X** + δ_s + [$\lambda$_t] + $\epsilon$
-
-**M6, DAI direct only:**
-lnLP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$ + $\beta_2$ $\text{FSTS}_c^2$ + $\beta_3$ $\text{DAI}_z$ + $\gamma$·**X** + δ_s + [$\lambda$_t] + $\epsilon$
-
-**M7, Dual-direct, no interactions:**
-lnLP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$ + $\beta_2$ $\text{FSTS}_c^2$ + $\beta_3$ $\text{TCI}_z$ + $\beta_4$ $\text{DAI}_z$ + $\gamma$·**X** + δ_s + [$\lambda$_t] + $\epsilon$
-
-**M8, Full model (dual-direct + DAI moderation):**
-lnLP_it = $\alpha$ + $\beta_1$ $\text{FSTS}_c$ + $\beta_2$ $\text{FSTS}_c^2$ + $\beta_3$ $\text{TCI}_z$ + $\beta_4$ $\text{DAI}_z$ + $\beta_5$($\text{FSTS}_c \times \text{DAI}_z$) + $\beta_6$($\text{FSTS}_c^2 \times \text{DAI}_z$) + $\gamma$·**X** + δ_s + [$\lambda$_t] + $\epsilon$
-
-All models are estimated by OLS with HC1 heteroscedasticity-consistent standard errors. Wave fixed effects ($\lambda$_t) are included in pooled specifications only. The M0–M8 sequence is estimated wave-by-wave and jointly on the pooled three-wave file, yielding four sets of estimates (2009, 2015, 2023, pooled).
 
 ### 3.4 Identification and Endogeneity Strategy
 
@@ -468,32 +418,14 @@ derstate its long-run productivity contribution; a programme assessed against a 
 takes the wave-specific structural differences seriously will couple short-window outcome measurement with sustained measurement of the capability and infrastructure environment in which firms operate. In the Vietnamese context, the World Bank (2025b) *Taking Stock* update identifies the cultivation of high-tech industrial talent as a binding constraint mediating digital and capability investment into sustainable productivity gains, reinforcing the argument that policy evaluation in transitional settings must monitor the capability environment, not adoption rates alone. At the macro level, Vietnam's service trade liberalization over 2008–2016 raised service-sector productivity by an average of 2.9 per cent per year and manufacturing productivity by 3.1 per cent per year (Barattieri, Mattoo, & Signoret, 2026), suggesting that the ascending limb documented in the WBES microdata reflects in part the economy-wide gains from trade opening that firm-level capability investments convert into sustained productivity advantage.
 
 ## 6. Limitations and future research
-The findings should be read against five limitations. The first and most fundamental is that the WBES
-microdata are repeated cross-sections, not a true firm panel. This design cannot identify within-firm trajectories over time, nor net out time-invariant unobserved heterogeneity at the firm level, so causal attribution for any estimated coefficient remains out of reach. The associational language used throughout the paper reflects this constraint and should not be relaxed in any reader's interpretation of the results. The appropriate analytical remedy is a matched-firm longitudinal panel combining WBES waves with administrative registry data or customs records, which would allow difference-in-differences or fixed-effects identification of the participation-margin productivity jump; Wooldridge (2010) provides the relevant identification framework for such designs.
 
-Second, $\text{DAI}_z$ captures only a foundational, Tier-1-style layer of digital adoption centred on website presence, rather than digitally integrated organisational capability. This means the present analysis cannot conclude whether deeper digital integration, Tier 2 electronic-payment intensity, Tier 3 ERP-linked supply-chain digitisation, or Tier 4 data-driven operations, exhibits a more stable or differently shaped productivity channel than the website-presence binary documents here. The appropriate remedy is a panel of digitally integrated firms measured with Tier 2–4 indicators (electronic-payment intensity k33/k38, ERP adoption, platform integration), applying the construct-tier hierarchy of Verhoef et al. (2021) to assign each indicator to its correct layer before entering it in the I–P model.
+The findings should be read against four limitations. First, the WBES microdata are repeated cross-sections, not a true firm panel, so within-firm trajectories cannot be identified and time-invariant unobserved heterogeneity at the firm level cannot be netted out. Causal attribution for any estimated coefficient therefore remains out of reach; the associational language used throughout reflects this constraint. The appropriate remedy is a matched-firm longitudinal panel combining WBES waves with administrative registry or customs records, which would allow difference-in-differences or fixed-effects identification of the participation-margin productivity jump (Wooldridge, 2010).
 
-Third, the analysis is conducted on a single transitional economy. Vietnam is informative
-precisely because its institutional and digital environment shifted noticeably across the 2009–
-2023 observation window, but the cross-wave pattern documented here may not generalise without
-modification to economies whose digital infrastructure or export composition follows a different
-trajectory.
+Second, DAI_z captures only a foundational Tier-1 layer of digital adoption centred on website presence, rather than digitally integrated organisational capability. The analysis cannot conclude whether deeper digital integration (Tier 2 electronic-payment intensity, Tier 3 ERP-linked supply-chain digitisation, Tier 4 data-driven operations) exhibits a more stable or differently shaped productivity channel. The remedy is a panel measured with Tier 2–4 indicators (k33/k38, ERP adoption, platform integration), applying the Verhoef et al. (2021) tier hierarchy.
 
-Fourth, the cross-wave evidence is uneven in statistical strength. The Paternoster et al. (1998) z-tests indicate that the drop in $\text{DAI}_z$ between 2009 and 2015 (z = 3.353, p <.001)
-and its recovery between 2015 and 2023 (z = -2.051, p =.040) are statistically distinguishable,
-but most other cross-wave coefficient differences sit at marginal or non-significant magnitudes.
-The cross-wave comparison therefore rests primarily on the directional consistency of the wave-specific estimates and on the concentration of the digital signal in 2023, rather than on uniformly
-significant pairwise coefficient differences across all focal terms. Sharper identification of the digital channel is achievable by exploiting the exogenous timing of Vietnam's National Digital Transformation Programme (launched June 2020; Prime Minister of Vietnam, 2020) as a policy instrument in a difference-in-differences design that contrasts pre- and post-NDTP firm cohorts within the same WBES sampling frame.
+Third, the analysis covers a single transitional economy at a specific stage of digital and institutional development. How the negative high-FSTS DAI moderation observed here compares with patterns in other emerging markets at different institutional stages, or with digitally advanced economies where the same interaction is predicted positive, requires cross-setting comparative designs that systematically vary institutional transaction costs and digital infrastructure quality. Such designs would allow more direct tests of the context-contingent framing in §2.1.
 
-Fifth, the sector fixed effects in the main models are intentionally broad to keep the crosswave specification comparable. Section 4.5 Panel G addresses one natural extension by re-estimating the pooled M2 / M7 / M8 specifications on manufacturing (sector1 ∈ {1, 2, 3}; N = 1,854) versus non-manufacturing (sector1 ∈ {4, 5, 6, 7}; N = 1,104) subsets, and finds that the
-digital-adoption channel operates primarily in manufacturing while the technological-capability
-channel is present in both. Finer industry-level mechanisms, for example, contrasting digitally
-intensive services with traditional services, or contrasting export-oriented with domestically
-oriented manufacturing sub-sectors, would benefit from a research design that exploits richer
-industry classification than the WBES one-digit codes allow.
-
-Sixth, the analysis is limited to Vietnam as a single transitional economy at a particular stage of its digital and institutional development. Understanding how the DAI moderation pattern documented here, negative at high export intensity under Tier-1-only adoption, compares with patterns in other emerging markets at different institutional stages, or with patterns in digitally advanced economies where the same interaction is predicted to be positive, requires cross-setting comparative designs that systematically vary institutional transaction costs and digital infrastructure quality. Such designs would also allow more direct tests of the context-contingent framing developed in Section 2.1.
-
+Fourth, the cross-wave evidence is uneven in statistical strength. The Paternoster et al. (1998) z-tests indicate that the 2009-to-2015 fall in DAI_z (z = 3.353, p < .001) and its 2015-to-2023 recovery (z = -2.051, p = .040) are distinguishable, but most other cross-wave coefficient differences sit at marginal or non-significant magnitudes; the cross-wave comparison rests on directional consistency rather than uniformly significant pairwise differences. Sharper identification is achievable by exploiting the exogenous timing of Vietnam's National Digital Transformation Programme (launched June 2020; Prime Minister of Vietnam, 2020) as a policy instrument in a difference-in-differences design contrasting pre- and post-NDTP cohorts within the same WBES sampling frame. Finer industry-level mechanisms, beyond the broad ISIC one-digit sector FE retained for cross-wave comparability and the §4.5 Panel G manufacturing / non-manufacturing split, would benefit from a design exploiting richer industry classification than WBES one-digit codes allow.
 
 
 ## 7. Conclusion
