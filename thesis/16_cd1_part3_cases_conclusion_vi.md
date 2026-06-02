@@ -71,7 +71,7 @@ FSTS đình trệ ở mức 4-6%; FDI ≥10% giảm rõ từ **7,2% xuống 3,2%
 
 **Bước ngoặt 2026: chuyển đổi critical minerals (ADB, 2026, May)**: Mongolia nằm ở giao điểm chiến lược của **11 critical minerals** (Cu, Li, Mo, Mn, Co, Ni, W, REE, v.v.). Cu exports đạt 1,69 Mt (2024), tương đương 22,1% tổng xuất khẩu. Oyu Tolgoi đặt mục tiêu 500.000 tấn mỗi năm trong 2028-2036. Trung Quốc giữ vị thế áp đảo về chế biến với 100% graphite, 90% Mn và 70% Co. CĐ2 sẽ bổ sung biến `Critical_Minerals_Exposure`.
 
-![Hình 5.6.1 — Mongolia: Evolution 2009–2025 (4 đợt khảo sát WBES)](figures/fig_5_6_mongolia_evolution.png)
+![Hình 5.6.1, Mongolia: Evolution 2009–2025 (4 đợt khảo sát WBES)](figures/fig_5_6_mongolia_evolution.png)
 
 ### 5.7 SIDS Thái Bình Dương (7 nước, n=1.371)
 
@@ -117,7 +117,7 @@ PICs vận hành trên 4 trụ cột MIRAB (Bertram, 2006): (1) khu vực công 
 
 **Lý giải bổ sung: Institutional Transaction Costs xuyên quốc gia (khung TCE Coase-Williamson, mở rộng từ Banalieva & Dhanaraj 2019)**: Việc đối chiếu phân tích Singapore và phân tích Việt Nam cho thấy dị biệt cross-regime trong Bảng 6.1 không chỉ phản ánh chất lượng thể chế formal mà còn phản ánh **chi phí giao dịch thể chế (institutional transaction costs)**, vốn đo lường hạ tầng thương mại, logistics và năng lực hấp thụ chi phí điều phối xuyên biên giới (cross-border coordination cost absorption). Khung CDCM (Mục 2.7 file 14) hợp nhất 3 chiều xuyên quốc gia như sau:
 
-**Bảng 6.1.2**. *Đối chiếu I-P curve + cơ chế DAI/TCI giữa Việt Nam vs Singapore — bằng chứng cho khung CDCM.*
+**Bảng 6.1.2**. *Đối chiếu I-P curve + cơ chế DAI/TCI giữa Việt Nam vs Singapore, bằng chứng cho khung CDCM.*
 
 | Chiều | **Việt Nam (Emerging, n=2.958, 3 wave)** | **Singapore (Advanced innovation, n=623, 1 wave)** |
 |---|---|---|
@@ -136,7 +136,7 @@ PICs vận hành trên 4 trụ cột MIRAB (Bertram, 2006): (1) khu vực công 
 
 ### 6.1 Pattern giới tính trong quản lý + sở hữu — bằng chứng EAP châu Á dẫn đầu
 
-**Bảng 6.1.1**. *Pattern giới tính trong TMT + ownership — phân tầng theo khu vực địa lý.*
+**Bảng 6.1.1**. *Pattern giới tính trong TMT + ownership, phân tầng theo khu vực địa lý.*
 
 | Khu vực | % nữ TMT (cấp cao) | % nữ ownership majority | Khoảng cách (TMT – Owner) |
 |---|---|---|---|
@@ -151,7 +151,7 @@ Sáu quan sát: (a) **EAP dẫn đầu, nghịch lý giới châu Á**: EAP có 
 
 **Liên kết với Mục 4.5.6**: Chi tiết phân tầng female top manager theo ICRV sub-regime và hàm ý của biến `b7a` trong specification của CĐ2 được trình bày ở Mục 4.5.6 file 15.
 
-**Nguồn**: Carboni et al. (2024/2025 — WBES ESG indicators); World Bank (2024) *Unlocking Global Growth: Closing the Gender Gap in Business* (WBES 167 nền kinh tế); Mardones-Ibáñez (2025 — *SAGE Open*); Al-Najjar et al. (2025 — *IJHRM*).
+**Nguồn**: Carboni et al. (2024/2025, WBES ESG indicators); World Bank (2024) *Unlocking Global Growth: Closing the Gender Gap in Business* (WBES 167 nền kinh tế); Mardones-Ibáñez (2025, *SAGE Open*); Al-Najjar et al. (2025, *IJHRM*).
 
 ### 6.2 Đường cong U của innovation digital tech
 
@@ -210,11 +210,11 @@ Bốn lộ trình số hóa cho SME Việt Nam tham khảo:
 (c) **Mô hình Trung Quốc: sản xuất thông minh kèm cảnh báo rủi ro tập trung (smart manufacturing và concentration risk warning)** *(Tier-2/3 hybrid kèm cảnh báo)*: Trung Quốc dẫn đầu châu Á về **sản xuất thông minh (smart manufacturing)** với chuẩn Công nghiệp 4.0 (Industry 4.0 standards), điển hình là Foxconn Thâm Quyến, BYD và Geely. Tuy nhiên, việc **80% mô hình rủi ro ngân hàng (bank risk models) của PRC phụ thuộc vào nhà cung cấp công nghệ lớn (dominant tech providers)** (Wang/Huang/Hong, 2024, *IRFA*) tạo nên **rủi ro tập trung (concentration risk)** cao. Việt Nam cần học mặt tích cực là lộ trình sản xuất thông minh, nhưng phải **TRÁNH lệ thuộc cứng (lock-in)** vào một nhà cung cấp ngoại đơn lẻ, đồng thời đẩy mạnh **tiêu chuẩn mở (open standards)** và **mua sắm đa nhà cung cấp (multi-vendor procurement)** cho FDI sản xuất chế biến.
 
 (d) **Mô hình ưu tiên cho SME Việt Nam: digital payment + social commerce** *(Tier-1.5 Vietnamese-specific)*: Việt Nam có lợi thế đặc biệt: VietQR ecosystem + mobile payment (MoMo, ZaloPay, ViettelPay) + social commerce qua TikTok/Facebook (>200 triệu user trong khu vực). SME Việt Nam nên ưu tiên 4 layer:
-   1. **Digital payment integration**: accept mọi loại payment qua VietQR (đã miễn phí 100%, không như credit card 2-3%)
-   2. **Social commerce optimization**: Facebook Live + TikTok Shop là kênh bán hàng chính cho retail SME
-   3. **Cross-border e-commerce**: Shopee Asia Pacific + Amazon Vietnam Sellers Program để xuất khẩu micro
-   4. **Cloud + basic AI tools**: Google Workspace + Microsoft 365 + Make.com automation
-   Tựu trung, đây là mức **Tier-1.5**, vượt website thụ động (Tier-1) nhưng chưa đến full-stack AI (Tier-2/3), phù hợp với pattern thực tế của Việt Nam và mức R&D 6,1%.
+ 1. **Digital payment integration**: accept mọi loại payment qua VietQR (đã miễn phí 100%, không như credit card 2-3%)
+ 2. **Social commerce optimization**: Facebook Live + TikTok Shop là kênh bán hàng chính cho retail SME
+ 3. **Cross-border e-commerce**: Shopee Asia Pacific + Amazon Vietnam Sellers Program để xuất khẩu micro
+ 4. **Cloud + basic AI tools**: Google Workspace + Microsoft 365 + Make.com automation
+ Tựu trung, đây là mức **Tier-1.5**, vượt website thụ động (Tier-1) nhưng chưa đến full-stack AI (Tier-2/3), phù hợp với pattern thực tế của Việt Nam và mức R&D 6,1%.
 
 **Hàm ý cho CĐ2**: bổ sung **biến `Digital_Tier_Vietnam`** với 4 cấp (Tier-1 website, Tier-1.5 digital payment cộng social commerce, Tier-2 productive AI, Tier-3 full-stack AI) nhằm kiểm tra xem mỗi tier có productivity payoff khác nhau hay không. Kỳ vọng đặt ra là Tier-1 không tăng thêm productivity vì đã saturated; Tier-1.5 tăng productivity ở các nền kinh tế do SME dẫn dắt (VN, IDN, PHL); Tier-2 tăng productivity ở Manufacturing; còn Tier-3 tăng productivity ở ICT và Finance.
 
@@ -225,29 +225,29 @@ Bốn lộ trình số hóa cho SME Việt Nam tham khảo:
 Trong bối cảnh Mỹ chiếm xấp xỉ 30% kim ngạch xuất khẩu Việt Nam và bất định chính sách thuế quan 2026 gây áp lực kép (front-loading + trì hoãn đầu tư + phân hóa lớn vs SME), doanh nghiệp Việt Nam cần **hedging strategy 4 nguyên tắc**:
 
 (a) **Đa dạng hóa thị trường: giảm phụ thuộc Mỹ ~30% qua 5 hành lang thay thế**:
-   1. **RCEP** (Regional Comprehensive Economic Partnership): 15 thành viên gồm ASEAN+5 (China, Japan, Korea, Australia, New Zealand), tổng GDP $26 ngàn tỷ, đối trọng lớn với Mỹ
-   2. **CPTPP** (Comprehensive and Progressive Trans-Pacific Partnership): 11 thành viên (Singapore, Japan, Australia, NZ, Mexico, Canada, Chile, Peru, Brunei, Malaysia, Việt Nam), phân khúc cao cấp + dịch vụ
-   3. **ACFTA** (ASEAN-China Free Trade Area): đặc biệt cho electronics + textiles + agricultural
-   4. **GCC partnership** (Gulf Cooperation Council, gồm Saudi/Qatar/UAE/Kuwait/Bahrain/Oman): đa dạng hóa sang Trung Đông sau xung đột giảm áp lực
-   5. **India trade corridor**: thông qua India-Vietnam Comprehensive Strategic Partnership 2024, thị trường 1,4 tỷ dân tăng nhanh
-   
-   Mục tiêu là giảm tỷ trọng xuất khẩu sang Mỹ từ 30% xuống còn 22-25% trong 2026-2030.
+ 1. **RCEP** (Regional Comprehensive Economic Partnership): 15 thành viên gồm ASEAN+5 (China, Japan, Korea, Australia, New Zealand), tổng GDP $26 ngàn tỷ, đối trọng lớn với Mỹ
+ 2. **CPTPP** (Comprehensive and Progressive Trans-Pacific Partnership): 11 thành viên (Singapore, Japan, Australia, NZ, Mexico, Canada, Chile, Peru, Brunei, Malaysia, Việt Nam), phân khúc cao cấp + dịch vụ
+ 3. **ACFTA** (ASEAN-China Free Trade Area): đặc biệt cho electronics + textiles + agricultural
+ 4. **GCC partnership** (Gulf Cooperation Council, gồm Saudi/Qatar/UAE/Kuwait/Bahrain/Oman): đa dạng hóa sang Trung Đông sau xung đột giảm áp lực
+ 5. **India trade corridor**: thông qua India-Vietnam Comprehensive Strategic Partnership 2024, thị trường 1,4 tỷ dân tăng nhanh
+ 
+ Mục tiêu là giảm tỷ trọng xuất khẩu sang Mỹ từ 30% xuống còn 22-25% trong 2026-2030.
 
 (b) **Lập kế hoạch đẩy nhanh giao hàng + tồn kho dự phòng (front-loading planning + buffer inventory)**, đối phó với bất định chính sách thuế quan:
-   - **Lập kế hoạch đẩy nhanh giao hàng (front-load planning)**: doanh nghiệp xuất khẩu lớn lập kế hoạch giao hàng quý 1-2 2026 để tận dụng cửa sổ thuế 10%, KHÔNG vi phạm quy tắc chống bán phá giá (anti-dumping rules) vì là phản ứng chính sách (policy response)
-   - **Tồn kho dự phòng (buffer inventory)** ở thị trường Mỹ: duy trì **kho ngoại quan (warehouse)** với 60-90 ngày tồn kho để chống chịu gián đoạn ngắn hạn
-   - **Tái cấu trúc hợp đồng (contract restructuring)**: chuyển sang hợp đồng định giá bằng USD (USD-denominated contracts) với **điều khoản tối huệ quốc (Most-Favored-Nation, MFN clauses)** để bảo vệ trước thay đổi thuế quan có hiệu lực hồi tố (retroactive tariff changes)
+ - **Lập kế hoạch đẩy nhanh giao hàng (front-load planning)**: doanh nghiệp xuất khẩu lớn lập kế hoạch giao hàng quý 1-2 2026 để tận dụng cửa sổ thuế 10%, KHÔNG vi phạm quy tắc chống bán phá giá (anti-dumping rules) vì là phản ứng chính sách (policy response)
+ - **Tồn kho dự phòng (buffer inventory)** ở thị trường Mỹ: duy trì **kho ngoại quan (warehouse)** với 60-90 ngày tồn kho để chống chịu gián đoạn ngắn hạn
+ - **Tái cấu trúc hợp đồng (contract restructuring)**: chuyển sang hợp đồng định giá bằng USD (USD-denominated contracts) với **điều khoản tối huệ quốc (Most-Favored-Nation, MFN clauses)** để bảo vệ trước thay đổi thuế quan có hiệu lực hồi tố (retroactive tariff changes)
 
 (c) **Higher-value FDI partnership thay cho assembly**, học từ GVC re-positioning ở Mục 5.3 (d):
-   - **TRÁNH** assembly-only FDI (low value-added, high tariff vulnerability) như assembly mass-production của Foxconn hay Samsung;
-   - **ƯU TIÊN** R&D và design FDI partnership, chẳng hạn mô hình Singapore Pacific Tech Park hay Korean semiconductor packaging tại Hà Nội;
-   - **Mục tiêu**: tăng value-added per export USD từ khoảng 30% hiện tại lên 45-50% trong 2026-2030, phù hợp với Vietnam_HighValue_FDI_2026 (xem hàm ý CĐ2 ở Mục 5.3).
+ - **TRÁNH** assembly-only FDI (low value-added, high tariff vulnerability) như assembly mass-production của Foxconn hay Samsung;
+ - **ƯU TIÊN** R&D và design FDI partnership, chẳng hạn mô hình Singapore Pacific Tech Park hay Korean semiconductor packaging tại Hà Nội;
+ - **Mục tiêu**: tăng value-added per export USD từ khoảng 30% hiện tại lên 45-50% trong 2026-2030, phù hợp với Vietnam_HighValue_FDI_2026 (xem hàm ý CĐ2 ở Mục 5.3).
 
 (d) **Phòng ngừa tài chính cho rủi ro tỷ giá USD/VND (financial hedging)**:
-   - **Phòng ngừa rủi ro ngoại hối (forex hedging)**: **hợp đồng kỳ hạn (forward contracts)** + **hoán đổi tiền tệ (currency swaps)** cho doanh nghiệp xuất khẩu trên 1 triệu USD/năm
-   - **Khoản phải thu đa tiền tệ (multi-currency receivables)**: lập **hóa đơn đa tiền tệ (multi-currency invoicing)** với tỷ lệ 30% EUR + 30% JPY + 40% USD để giảm phơi nhiễm USD (dollar exposure)
-   - **Hợp tác phòng ngừa giữa các ngân hàng (bank consortium hedging)**: Vietcombank + BIDV + Techcombank lập hợp tác cung cấp sản phẩm phòng ngừa chi phí thấp cho SME (~0,5-1% giá trị danh nghĩa, notional vs 1,5-2% hiện tại)
-   - **Phòng ngừa thông qua công nghệ tài chính (fintech-enabled hedging)**: tận dụng MoMo + ZaloPay + ViettelPay với nhà cung cấp thanh khoản đặt tại Singapore (Singapore-based liquidity providers: Wise, Currencycloud)
+ - **Phòng ngừa rủi ro ngoại hối (forex hedging)**: **hợp đồng kỳ hạn (forward contracts)** + **hoán đổi tiền tệ (currency swaps)** cho doanh nghiệp xuất khẩu trên 1 triệu USD/năm
+ - **Khoản phải thu đa tiền tệ (multi-currency receivables)**: lập **hóa đơn đa tiền tệ (multi-currency invoicing)** với tỷ lệ 30% EUR + 30% JPY + 40% USD để giảm phơi nhiễm USD (dollar exposure)
+ - **Hợp tác phòng ngừa giữa các ngân hàng (bank consortium hedging)**: Vietcombank + BIDV + Techcombank lập hợp tác cung cấp sản phẩm phòng ngừa chi phí thấp cho SME (~0,5-1% giá trị danh nghĩa, notional vs 1,5-2% hiện tại)
+ - **Phòng ngừa thông qua công nghệ tài chính (fintech-enabled hedging)**: tận dụng MoMo + ZaloPay + ViettelPay với nhà cung cấp thanh khoản đặt tại Singapore (Singapore-based liquidity providers: Wise, Currencycloud)
 
 **Hàm ý cho CĐ2**: bổ sung **biến `Hedging_Capability_Index`** (proxy: market diversification HHI + buffer inventory days + forex hedging ratio + multi-currency invoicing %) để test xem doanh nghiệp có hedging capability cao có productivity payoff dài hạn ổn định hơn không (vs short-term boost rồi exhaustion). Robustness check #9 (hedging-adjusted), bổ sung sau front-loading-adjusted (#8).
 

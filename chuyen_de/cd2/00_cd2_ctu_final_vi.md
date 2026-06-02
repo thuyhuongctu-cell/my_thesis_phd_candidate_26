@@ -42,7 +42,7 @@ Tôi xin cam đoan chuyên đề tiến sĩ số 2 với tiêu đề "Xây dựn
 
 ## TÓM TẮT
 
-Chuyên đề này xây dựng mô hình nghiên cứu lý thuyết và thực nghiệm về ảnh hưởng của quốc tế hóa đến hiệu quả hoạt động kinh doanh của các doanh nghiệp ở các quốc gia châu Á trong giai đoạn 2009-2025. Khung lý thuyết tích hợp bốn tầng, Uppsala Model (Johanson & Vahlne, 1977, 2009), Resource-Based View (Barney, 1991; Wernerfelt, 1984), Institutional Theory (North, 1990; Khanna & Palepu, 2010; Peng, 2003) và Upper Echelons Theory (Hambrick & Mason, 1984; Hambrick, 2007), kết hợp với Foundational Digital Adoption Framework (Banalieva & Dhanaraj, 2019; Verhoef et al., 2021; Stallkamp & Schotter, 2021) làm nền tảng lý thuyết. Bốn truyền thống này không vận hành song song mà hội tụ quanh một trục tổ chức duy nhất: chế độ thể chế ICRV hoạt động như một bộ lọc chi phí giao dịch (transaction cost filter) xác định một bản đồ địa hình xuất khẩu chiến lược (strategic export topography), trong đó RBV (TCI, DAI) là các tấm lá chắn cấp doanh nghiệp, Uppsala mô tả sự di chuyển dọc theo địa hình, còn Upper Echelons đi vào như biến kiểm soát nội sinh về chất lượng quản trị. Lược khảo năm dạng hàm quan hệ quốc tế hóa–hiệu quả (internationalization–performance — I–P) gồm tuyến tính, chữ U ngược, S-curve, M-curve, và chi phí buộc phải quốc tế hóa (forced penalty), cùng năm phân tích tổng hợp (meta-analysis) lớn giai đoạn 1980-2024, cho thấy khoảng trống thực nghiệm trong việc kiểm định đồng thời phi tuyến và tác động điều tiết đa tầng ở châu Á. Hệ giả thuyết H1-H6 được phát triển: H1 phi tuyến dạng chữ U ngược hoặc S-curve; H2 năng lực công nghệ (Technological Capability Index — TCI) điều tiết tích cực; H3a-H3b năng lực số (Digital Adoption Index — DAI) điều tiết phụ thuộc chế độ thể chế: có điều kiện ở nhóm đang nổi/cận biên (Emerging/Frontier) (H3a, dương trong OLS nhưng phụ thuộc bối cảnh và có thể null trong kiểm định nhân quả) và có điều kiện/null ở nhóm tiên tiến (Advanced) (H3b), phân biệt với TCI; H4 (kiểm soát quản trị nội sinh) đưa đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) vào như nhóm biến kiểm soát quản trị nội sinh, không phải biến điều tiết (moderator) trọng tâm, nhằm khóa chặt thiên lệch nội sinh phát sinh từ năng lực và sự đa dạng giới của nhà quản trị và tăng tính nhận dạng riêng phần (partial identification) của tương tác Thể chế × Công nghệ; H5 thể chế nội địa điều tiết theo dải biến thiên (gradient) ICRV sáu nhóm; H6 tính không đồng nhất theo thời gian. Bốn biến điều tiết trọng tâm của khung là TCI (H2), DAI (H3), chế độ thể chế ICRV (H5), và thời gian (H6). Tám mô hình thực nghiệm M0-M7 được đặc tả, từ mức cơ sở (baseline) tuyến tính đến mô hình điều tiết ba chiều cấp luận án. Chiến lược nhận dạng đa tầng và kế hoạch kiểm định độ vững toàn diện được thiết kế cho nhóm dữ liệu (pool) 101.185 doanh nghiệp ở 47 nền kinh tế châu Á và Thái Bình Dương, bao gồm 108 cặp quốc gia-năm qua 14 mốc khảo sát WBES giai đoạn 2009-2025. Bốn đóng góp chính: (i) khung tích hợp 4 tầng kết hợp Foundational Digital Adoption Framework chưa có tương đương cho châu Á; (ii) tách bạch TCI và DAI theo Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh (CDCM); (iii) mô hình M7 điều tiết ba chiều; (iv) phân loại nhánh tiên tiến (Advanced) thành tiên tiến đổi mới sáng tạo dẫn dắt (ICRV Nhóm I) và tiên tiến tài nguyên dẫn dắt (ICRV Nhóm II). Ba phân tích quốc gia đồng hành trong chuỗi luận án, phân tích Việt Nam và Singapore, và phân tích Trung Quốc, cung cấp bằng chứng quốc gia cụ thể kiểm định H1-H6 và xác nhận tính khả nghiệm của mô hình đề xuất.
+Chuyên đề này xây dựng mô hình nghiên cứu lý thuyết và thực nghiệm về ảnh hưởng của quốc tế hóa đến hiệu quả hoạt động kinh doanh của các doanh nghiệp ở các quốc gia châu Á trong giai đoạn 2009-2025. Khung lý thuyết tích hợp bốn tầng, Uppsala Model (Johanson & Vahlne, 1977, 2009), Resource-Based View (Barney, 1991; Wernerfelt, 1984), Institutional Theory (North, 1990; Khanna & Palepu, 2010; Peng, 2003) và Upper Echelons Theory (Hambrick & Mason, 1984; Hambrick, 2007), kết hợp với Foundational Digital Adoption Framework (Banalieva & Dhanaraj, 2019; Verhoef et al., 2021; Stallkamp & Schotter, 2021) làm nền tảng lý thuyết. Bốn truyền thống này không vận hành song song mà hội tụ quanh một trục tổ chức duy nhất: chế độ thể chế ICRV hoạt động như một bộ lọc chi phí giao dịch (transaction cost filter) xác định một bản đồ địa hình xuất khẩu chiến lược (strategic export topography), trong đó RBV (TCI, DAI) là các tấm lá chắn cấp doanh nghiệp, Uppsala mô tả sự di chuyển dọc theo địa hình, còn Upper Echelons đi vào như biến kiểm soát nội sinh về chất lượng quản trị. Lược khảo năm dạng hàm quan hệ quốc tế hóa–hiệu quả (internationalization–performance, I–P) gồm tuyến tính, chữ U ngược, S-curve, M-curve, và chi phí buộc phải quốc tế hóa (forced penalty), cùng năm phân tích tổng hợp (meta-analysis) lớn giai đoạn 1980-2024, cho thấy khoảng trống thực nghiệm trong việc kiểm định đồng thời phi tuyến và tác động điều tiết đa tầng ở châu Á. Hệ giả thuyết H1-H6 được phát triển: H1 phi tuyến dạng chữ U ngược hoặc S-curve; H2 năng lực công nghệ (Technological Capability Index, TCI) điều tiết tích cực; H3a-H3b năng lực số (Digital Adoption Index, DAI) điều tiết phụ thuộc chế độ thể chế: có điều kiện ở nhóm đang nổi/cận biên (Emerging/Frontier) (H3a, dương trong OLS nhưng phụ thuộc bối cảnh và có thể null trong kiểm định nhân quả) và có điều kiện/null ở nhóm tiên tiến (Advanced) (H3b), phân biệt với TCI; H4 (kiểm soát quản trị nội sinh) đưa đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính) vào như nhóm biến kiểm soát quản trị nội sinh, không phải biến điều tiết (moderator) trọng tâm, nhằm khóa chặt thiên lệch nội sinh phát sinh từ năng lực và sự đa dạng giới của nhà quản trị và tăng tính nhận dạng riêng phần (partial identification) của tương tác Thể chế × Công nghệ; H5 thể chế nội địa điều tiết theo dải biến thiên (gradient) ICRV sáu nhóm; H6 tính không đồng nhất theo thời gian. Bốn biến điều tiết trọng tâm của khung là TCI (H2), DAI (H3), chế độ thể chế ICRV (H5), và thời gian (H6). Tám mô hình thực nghiệm M0-M7 được đặc tả, từ mức cơ sở (baseline) tuyến tính đến mô hình điều tiết ba chiều cấp luận án. Chiến lược nhận dạng đa tầng và kế hoạch kiểm định độ vững toàn diện được thiết kế cho nhóm dữ liệu (pool) 101.185 doanh nghiệp ở 47 nền kinh tế châu Á và Thái Bình Dương, bao gồm 108 cặp quốc gia-năm qua 14 mốc khảo sát WBES giai đoạn 2009-2025. Bốn đóng góp chính: (i) khung tích hợp 4 tầng kết hợp Foundational Digital Adoption Framework chưa có tương đương cho châu Á; (ii) tách bạch TCI và DAI theo Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh (CDCM); (iii) mô hình M7 điều tiết ba chiều; (iv) phân loại nhánh tiên tiến (Advanced) thành tiên tiến đổi mới sáng tạo dẫn dắt (ICRV Nhóm I) và tiên tiến tài nguyên dẫn dắt (ICRV Nhóm II). Ba phân tích quốc gia đồng hành trong chuỗi luận án, phân tích Việt Nam và Singapore, và phân tích Trung Quốc, cung cấp bằng chứng quốc gia cụ thể kiểm định H1-H6 và xác nhận tính khả nghiệm của mô hình đề xuất.
 
 Từ khóa: quốc tế hóa; hiệu quả hoạt động kinh doanh; châu Á; mô hình phi tuyến; điều tiết; áp dụng số; thể chế; Upper Echelons; ICRV.
 
@@ -61,29 +61,29 @@ Keywords: internationalization; firm performance; Asia; nonlinear models; modera
 Phần 2, Nội dung chuyên đề
 
 2.1 Đặt vấn đề
-  2.1.1 Giới thiệu
-  2.1.2 Mục tiêu
-  2.1.3 Nội dung
-  2.1.4 Giới hạn của chuyên đề
-  2.1.5 Ý nghĩa
+ 2.1.1 Giới thiệu
+ 2.1.2 Mục tiêu
+ 2.1.3 Nội dung
+ 2.1.4 Giới hạn của chuyên đề
+ 2.1.5 Ý nghĩa
 
 2.2 Phương pháp nghiên cứu
 
 2.3 Kết quả và thảo luận
-  2.3.1 Tổng quan tài liệu về quan hệ quốc tế hóa và hiệu quả kinh doanh
-  2.3.2 Khung lý thuyết tích hợp 4 tầng
-  2.3.3 Khung khái niệm và mô hình nghiên cứu đề xuất
-  2.3.4 Hệ giả thuyết nghiên cứu (H1-H6)
-  2.3.5 Thiết kế mô hình thực nghiệm (M0-M7)
-  2.3.6 Dữ liệu và chiến lược nhận dạng nhân quả
-  2.3.7 Kế hoạch kiểm định độ vững
-  2.3.8 Thảo luận: đóng góp lý thuyết và thực tiễn
+ 2.3.1 Tổng quan tài liệu về quan hệ quốc tế hóa và hiệu quả kinh doanh
+ 2.3.2 Khung lý thuyết tích hợp 4 tầng
+ 2.3.3 Khung khái niệm và mô hình nghiên cứu đề xuất
+ 2.3.4 Hệ giả thuyết nghiên cứu (H1-H6)
+ 2.3.5 Thiết kế mô hình thực nghiệm (M0-M7)
+ 2.3.6 Dữ liệu và chiến lược nhận dạng nhân quả
+ 2.3.7 Kế hoạch kiểm định độ vững
+ 2.3.8 Thảo luận: đóng góp lý thuyết và thực tiễn
 
 2.4 Kết luận và đề xuất
-  2.4.1 Kết luận
-  2.4.2 Hàm ý quản trị: lộ trình chiến lược ba giai đoạn
-  2.4.3 Hạn chế nghiên cứu
-  2.4.4 Hướng nghiên cứu tiếp theo
+ 2.4.1 Kết luận
+ 2.4.2 Hàm ý quản trị: lộ trình chiến lược ba giai đoạn
+ 2.4.3 Hạn chế nghiên cứu
+ 2.4.4 Hướng nghiên cứu tiếp theo
 
 Tài liệu tham khảo
 
@@ -180,7 +180,7 @@ Hình 2.2. Khung khái niệm tích hợp CĐ2, chi tiết với bằng chứng 
 
 Trong hơn nửa thế kỷ qua, quốc tế hóa vẫn là một trong những chiến lược phát triển then chốt của doanh nghiệp, song bằng chứng về hiệu quả mà nó mang lại vẫn chưa thống nhất. Các nghiên cứu trong lĩnh vực kinh doanh quốc tế (international business, IB) đã ghi nhận năm dạng hàm mô tả quan hệ giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp: tuyến tính (Hsu & Boggs, 2003), chữ U ngược (Gomes & Ramaswamy, 1999; Hitt et al., 1997), S-curve (Lu & Beamish, 2004; Contractor et al., 2003), M-curve (Riahi-Belkaoui, 1998), và chi phí buộc phải quốc tế hóa (forced penalty) (Glaum & Oesterle, 2007). Sự phân tán này không phải là mâu thuẫn cần loại bỏ, mà là biểu hiện của tính phụ thuộc bối cảnh: cùng một mức cường độ xuất khẩu có thể trở thành lợi thế hoặc gánh nặng, tùy theo (1) năng lực doanh nghiệp, (2) chất lượng thể chế quốc gia, và (3) giai đoạn phát triển số (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu, Wood & Khan, 2022).
 
-Châu Á giai đoạn 2009-2025 cung cấp một phòng thí nghiệm tự nhiên hiếm có để kiểm định quan hệ quốc tế hóa–hiệu quả (internationalization–performance — I-P), bởi khu vực này dung chứa đồng thời ít nhất sáu chế độ thể chế khác biệt theo khung phân loại ICRV. Chính sự đồng tồn tại của các chế độ này, trong cùng một khoảng thời gian và trên cùng một nguồn dữ liệu chuẩn hóa, cho phép phân tách hiệu ứng thể chế khỏi hiệu ứng thời kỳ, điều mà các nghiên cứu đơn quốc gia không thể thực hiện. Sáu chế độ bao gồm: nhóm tiên tiến đổi mới sáng tạo dẫn dắt (ICRV Nhóm I) gồm Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel; nhóm tiên tiến tài nguyên dẫn dắt (ICRV Nhóm II) gồm Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei; nhóm trung bình cao (ICRV Nhóm III) gồm Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia; nhóm đang nổi (ICRV Nhóm IV) gồm Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ; nhóm cận biên (ICRV Nhóm V) gồm 17 nền kinh tế; và nhóm quốc đảo nhỏ Thái Bình Dương (ICRV Nhóm VI) gồm 7 nền kinh tế đảo nhỏ. Tổng cộng 47 nền kinh tế tạo thành 108 cặp quốc gia-năm qua 14 mốc khảo sát.
+Châu Á giai đoạn 2009-2025 cung cấp một phòng thí nghiệm tự nhiên hiếm có để kiểm định quan hệ quốc tế hóa–hiệu quả (internationalization–performance, I-P), bởi khu vực này dung chứa đồng thời ít nhất sáu chế độ thể chế khác biệt theo khung phân loại ICRV. Chính sự đồng tồn tại của các chế độ này, trong cùng một khoảng thời gian và trên cùng một nguồn dữ liệu chuẩn hóa, cho phép phân tách hiệu ứng thể chế khỏi hiệu ứng thời kỳ, điều mà các nghiên cứu đơn quốc gia không thể thực hiện. Sáu chế độ bao gồm: nhóm tiên tiến đổi mới sáng tạo dẫn dắt (ICRV Nhóm I) gồm Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel; nhóm tiên tiến tài nguyên dẫn dắt (ICRV Nhóm II) gồm Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei; nhóm trung bình cao (ICRV Nhóm III) gồm Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia; nhóm đang nổi (ICRV Nhóm IV) gồm Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ; nhóm cận biên (ICRV Nhóm V) gồm 17 nền kinh tế; và nhóm quốc đảo nhỏ Thái Bình Dương (ICRV Nhóm VI) gồm 7 nền kinh tế đảo nhỏ. Tổng cộng 47 nền kinh tế tạo thành 108 cặp quốc gia-năm qua 14 mốc khảo sát.
 
 Song song với sự đa dạng thể chế đó, châu Á đang trải qua một làn sóng chuyển đổi số chưa từng có tiền lệ trong giai đoạn 2018-2025. Sự bùng nổ của hạ tầng số và trí tuệ nhân tạo từ năm 2023 không chỉ là một biến ngoại sinh, mà đã tái định hình chính cơ chế qua đó năng lực số chi phối quan hệ giữa quốc tế hóa và hiệu quả doanh nghiệp (Banalieva & Dhanaraj, 2019; Verhoef et al., 2021; Yang, Zhao & Wei, 2025). Hệ quả là bất kỳ mô hình I-P nào cho châu Á đương đại cũng cần nội sinh hóa yếu tố số thay vì xem nó như một biến kiểm soát thuần túy.
 
@@ -417,7 +417,7 @@ Khung khái niệm được xây dựng theo quy trình năm bước (Whetten, 1
 
 ![Hình 2.1: Khung khái niệm tích hợp CĐ2](figures/hinh_2_1_khung_khai_niem.png)
 
-*Hình 2.1.* Mô hình khái niệm thống nhất luận án (CDCM — Context-Contingent Digital-and-Capability Model). Hình chữ nhật biểu thị biến quan sát được; hình ellipse biểu thị cấu trúc tiềm ẩn (TCI, ICRV, DAI). H1a (+) và H1b (−) xác định quan hệ phi tuyến chữ U ngược (điểm uốn ≈ 36%; H1b điều kiện biên: SIDS/FIP âm đơn điệu). H2 TCI nâng mặt bằng hiệu quả. H3 DAI tái định hình đường cong phụ thuộc bối cảnh. H5 ICRV chi phối độ cong/biên độ. Mũi tên hai chiều đứt nét biểu thị thay thế số–thể chế (DAI×ICRV, $p$ = ,049). Kiểm soát Bậc trên (H4) đưa vào như biến kiểm soát quản trị nội sinh. *Nguồn: tác giả tự xây dựng.*
+*Hình 2.1.* Mô hình khái niệm thống nhất luận án (CDCM — Context-Contingent Digital-and-Capability Model). Hình chữ nhật biểu thị biến quan sát được; hình ellipse biểu thị cấu trúc tiềm ẩn (TCI, ICRV, DAI). H1a (+) và H1b (−) xác định quan hệ phi tuyến chữ U ngược (điểm uốn ≈ 36%; H1b điều kiện biên: SIDS/FIP âm đơn điệu). H2 TCI nâng mặt bằng hiệu quả. H3 DAI tái định hình đường cong phụ thuộc bối cảnh. H5 ICRV chi phối độ cong/biên độ. Mũi tên hai chiều đứt nét biểu thị thay thế số–thể chế (DAI×ICRV, $p$ =,049). Kiểm soát Bậc trên (H4) đưa vào như biến kiểm soát quản trị nội sinh. *Nguồn: tác giả tự xây dựng.*
 
 Mũi tên liền nét biểu thị tác động trực tiếp (H1: quan hệ phi tuyến I-P). Mũi tên đứt nét biểu thị tác động điều tiết. H1-H6 tương ứng với các giả thuyết phát triển trong Mục 2.3.4. Biến phụ thuộc (ln(Labour Productivity)) được xác định duy nhất ở cực phải. Biến độc lập (FSTS, $\text{FSTS}^2$_c, $\text{FSTS}^3$_c) ở cực trái. Sơ đồ phân biệt rõ hai loại nhân tố. Bốn nhân tố điều tiết trọng tâm (focal moderators) nằm trong tầng điều tiết được giả thuyết hóa, phân theo hai cấp: cấp doanh nghiệp (TCI, H2, và DAI, H3) và cấp quốc gia (chế độ thể chế ICRV, H5, và giai đoạn thời gian, H6). Đặc điểm nhà quản trị (kinh nghiệm, học vấn, giới tính, H4) KHÔNG nằm trong tầng điều tiết trọng tâm mà được trình bày cùng nhóm biến kiểm soát quản trị nội sinh, nhằm khóa chặt thiên lệch nội sinh từ năng lực và sự đa dạng giới của nhà quản trị và tăng tính nhận dạng riêng phần (partial identification) của tương tác Thể chế × Công nghệ. Các biến kiểm soát khác (ln(emp), firm_age, foreign_own, sector/country/year FE) được đưa vào mô hình thực nghiệm nhưng không hiển thị trong sơ đồ để đơn giản hóa trình bày. Mỗi tầng lý thuyết cung cấp cơ chế nhân quả riêng biệt: Uppsala giải thích đường cong I-P; RBV biện minh cho H2 (TCI điều tiết trọng tâm); Foundational Digital Adoption Framework (CDCM) biện minh cho H3 (DAI điều tiết trọng tâm); Institutional Theory biện minh cho H5 (điều tiết trọng tâm); Upper Echelons cung cấp cơ sở cho khối kiểm soát quản trị nội sinh H4. Bằng chứng neo đậu từ phân tích Việt Nam và Singapore và phân tích Trung Quốc của luận án xác nhận tính khả nghiệm trước khi áp dụng cho toàn pool 101.185 doanh nghiệp.
 
@@ -619,8 +619,8 @@ Lựa chọn mô hình: so sánh M1 và M2 bằng AIC, BIC, và F-test $\beta_3$
 
 \begin{align}
 \ln(\mathrm{LP})_i &= \underbrace{\beta_0 + \beta_1\,\mathit{FSTS}_{c,i} + \beta_2\,\mathit{FSTS}_{c,i}^{2}}_{M1} \notag \\
-  &\quad + \beta_3 \cdot \mathrm{TCI}_i + \beta_4 \cdot (\mathit{FSTS}_{c,i} \times \mathrm{TCI}_i) + \beta_5 \cdot (\mathit{FSTS}_{c,i}^{2} \times \mathrm{TCI}_i) \notag \\
-  &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
+ &\quad + \beta_3 \cdot \mathrm{TCI}_i + \beta_4 \cdot (\mathit{FSTS}_{c,i} \times \mathrm{TCI}_i) + \beta_5 \cdot (\mathit{FSTS}_{c,i}^{2} \times \mathrm{TCI}_i) \notag \\
+ &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
 \label{eq:M3}
 \end{align}
 
@@ -632,8 +632,8 @@ Kiểm định: F-test ($\beta_4$ = $\beta_5$ = 0) = kiểm định tác động
 
 \begin{align}
 \ln(\mathrm{LP})_i &= \underbrace{\text{M1}}_{\text{cơ sở}} \notag \\
-  &\quad + \beta_3 \cdot \mathrm{DAI}_i + \beta_4 \cdot (\mathit{FSTS}_{c,i} \times \mathrm{DAI}_i) + \beta_5 \cdot (\mathit{FSTS}_{c,i}^{2} \times \mathrm{DAI}_i) \notag \\
-  &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
+ &\quad + \beta_3 \cdot \mathrm{DAI}_i + \beta_4 \cdot (\mathit{FSTS}_{c,i} \times \mathrm{DAI}_i) + \beta_5 \cdot (\mathit{FSTS}_{c,i}^{2} \times \mathrm{DAI}_i) \notag \\
+ &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
 \label{eq:M4}
 \end{align}
 
@@ -645,8 +645,8 @@ Lưu ý IV: trong mẫu con Nhóm IV, nếu có biến công cụ hợp lệ, ch
 
 \begin{align}
 \ln(\mathrm{LP})_i &= \underbrace{\text{M1}}_{\text{cơ sở}} \notag \\
-  &\quad + \beta_3 \cdot \mathit{Manager}_i + \beta_4 \cdot (\mathit{FSTS}_{c,i} \times \mathit{Manager}_i) \notag \\
-  &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
+ &\quad + \beta_3 \cdot \mathit{Manager}_i + \beta_4 \cdot (\mathit{FSTS}_{c,i} \times \mathit{Manager}_i) \notag \\
+ &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
 \label{eq:M5}
 \end{align}
 
@@ -657,10 +657,10 @@ Kỳ vọng (mức kiểm soát): δ_exp > 0 [H4a]; δ_educ > 0 [H4b]; gender_ma
 
 \begin{align}
 \ln(\mathrm{LP})_i &= \underbrace{\text{M1}}_{\text{cơ sở}} \notag \\
-  &\quad + \sum_{j=2}^{6} \Bigl[\beta_{3j} \cdot \mathrm{ICRV}_{j,i}
-      + \beta_{4j} \cdot (\mathit{FSTS}_{c,i} \times \mathrm{ICRV}_{j,i})
-      + \beta_{5j} \cdot (\mathit{FSTS}_{c,i}^{2} \times \mathrm{ICRV}_{j,i})\Bigr] \notag \\
-  &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \delta_t + \varepsilon_i
+ &\quad + \sum_{j=2}^{6} \Bigl[\beta_{3j} \cdot \mathrm{ICRV}_{j,i}
+ + \beta_{4j} \cdot (\mathit{FSTS}_{c,i} \times \mathrm{ICRV}_{j,i})
+ + \beta_{5j} \cdot (\mathit{FSTS}_{c,i}^{2} \times \mathrm{ICRV}_{j,i})\Bigr] \notag \\
+ &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \delta_t + \varepsilon_i
 \label{eq:M6}
 \end{align}
 
@@ -673,18 +673,18 @@ Lưu ý: hiệu ứng cố định quốc gia (country FE) bị loại trong M6 
 
 \begin{align}
 \ln(\mathrm{LP})_i
-  &= \beta_0 + \beta_1\,\mathit{FSTS}_{c,i} + \beta_2\,\mathit{FSTS}_{c,i}^{2}
-     + \beta_3\,\mathrm{TCI}_i + \beta_4\,\mathrm{DAI}_i \notag \\
-  &\quad + \beta_5\,(\mathit{FSTS}_{c,i} \times \mathrm{TCI}_i)
-     + \beta_6\,(\mathit{FSTS}_{c,i}^{2} \times \mathrm{TCI}_i) \notag \\
-  &\quad + \beta_7\,(\mathit{FSTS}_{c,i} \times \mathrm{DAI}_i)
-     + \beta_8\,(\mathit{FSTS}_{c,i}^{2} \times \mathrm{DAI}_i) \notag \\
-  &\quad + \beta_9\,(\mathit{FSTS}_{c,i} \times \mathrm{TCI}_i \times \mathrm{DAI}_i) \notag \\
-  &\quad + \beta_{10}\,(\mathit{FSTS}_{c,i} \times YB_{2013\text{-}17,i})
-     + \beta_{11}\,(\mathit{FSTS}_{c,i}^{2} \times YB_{2013\text{-}17,i}) \notag \\
-  &\quad + \beta_{12}\,(\mathit{FSTS}_{c,i} \times YB_{2018\text{-}25,i})
-     + \beta_{13}\,(\mathit{FSTS}_{c,i}^{2} \times YB_{2018\text{-}25,i}) \notag \\
-  &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
+ &= \beta_0 + \beta_1\,\mathit{FSTS}_{c,i} + \beta_2\,\mathit{FSTS}_{c,i}^{2}
+ + \beta_3\,\mathrm{TCI}_i + \beta_4\,\mathrm{DAI}_i \notag \\
+ &\quad + \beta_5\,(\mathit{FSTS}_{c,i} \times \mathrm{TCI}_i)
+ + \beta_6\,(\mathit{FSTS}_{c,i}^{2} \times \mathrm{TCI}_i) \notag \\
+ &\quad + \beta_7\,(\mathit{FSTS}_{c,i} \times \mathrm{DAI}_i)
+ + \beta_8\,(\mathit{FSTS}_{c,i}^{2} \times \mathrm{DAI}_i) \notag \\
+ &\quad + \beta_9\,(\mathit{FSTS}_{c,i} \times \mathrm{TCI}_i \times \mathrm{DAI}_i) \notag \\
+ &\quad + \beta_{10}\,(\mathit{FSTS}_{c,i} \times YB_{2013\text{-}17,i})
+ + \beta_{11}\,(\mathit{FSTS}_{c,i}^{2} \times YB_{2013\text{-}17,i}) \notag \\
+ &\quad + \beta_{12}\,(\mathit{FSTS}_{c,i} \times YB_{2018\text{-}25,i})
+ + \beta_{13}\,(\mathit{FSTS}_{c,i}^{2} \times YB_{2018\text{-}25,i}) \notag \\
+ &\quad + \boldsymbol{\gamma}'\mathbf{X}_i + \alpha_j + \delta_t + \varepsilon_i
 \label{eq:M7}
 \end{align}
 
@@ -1118,33 +1118,33 @@ gen cluster_id = country_iso3 + "_" + string(sector_main)
 
 * === M1 với cluster SE (kiểm định H1) ===
 reg ln_lp fsts_c fsts_c2 ln_emp firm_age foreign_own i.country i.year, ///
-    vce(cluster cluster_id)
+ vce(cluster cluster_id)
 
 * === M2 với cluster SE (kiểm định H2: TCI) ===
 reg ln_lp fsts_c fsts_c2 tci_z c.fsts_c#c.tci_z ///
-    ln_emp firm_age foreign_own i.country i.year, ///
-    vce(cluster cluster_id)
+ ln_emp firm_age foreign_own i.country i.year, ///
+ vce(cluster cluster_id)
 
 * === M3 với cluster SE (kiểm định H3: DAI) ===
 reg ln_lp fsts_c fsts_c2 dai_z c.fsts_c#c.dai_z c.fsts_c2#c.dai_z ///
-    ln_emp firm_age foreign_own i.country i.year, ///
-    vce(cluster cluster_id)
+ ln_emp firm_age foreign_own i.country i.year, ///
+ vce(cluster cluster_id)
 
 * === M5 với cluster SE (kiểm định H4a-H4c) ===
 * H4a: kinh nghiệm
 reg ln_lp fsts_c fsts_c2 exp_manager c.fsts_c#c.exp_manager ///
-    ln_emp firm_age foreign_own i.country i.year, ///
-    vce(cluster cluster_id)
+ ln_emp firm_age foreign_own i.country i.year, ///
+ vce(cluster cluster_id)
 
 * H4b: học vấn
 reg ln_lp fsts_c fsts_c2 educ_manager c.fsts_c#c.educ_manager ///
-    ln_emp firm_age foreign_own i.country i.year, ///
-    vce(cluster cluster_id)
+ ln_emp firm_age foreign_own i.country i.year, ///
+ vce(cluster cluster_id)
 
 * H4c: giới tính (exploratory, two-sided, không đặt kỳ vọng)
 reg ln_lp fsts_c fsts_c2 gender_manager c.fsts_c#c.gender_manager ///
-    ln_emp firm_age foreign_own i.country i.year, ///
-    vce(cluster cluster_id)
+ ln_emp firm_age foreign_own i.country i.year, ///
+ vce(cluster cluster_id)
 
 * === Lind-Mehlum utest sau mỗi mô hình có $\text{FSTS}^2$ ===
 * (cài đặt: ssc install utest)
