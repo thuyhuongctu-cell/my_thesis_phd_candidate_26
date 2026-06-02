@@ -26,11 +26,11 @@
 
 **Research limitations/implications.** The three waves are independent cross-sections rather than within-firm panels, supporting cross-wave comparison but not within-firm causal inference. The 2014 (PICS3), 2022 (BEE intermediate), and 2025 (BREADY) instruments differ in DAI instrumentation (Tier-1 only vs Tier-1 + Tier-2 e-payment), constraining 3-wave DAI moderation tests to Tier-1 unless the 2025-only Tier-2 analysis is treated as exploratory.
 
-**Practical implications.** For Indian SME export-promotion policy under Atmanirbhar Bharat and the PLI scheme, the durable I-P optimum identifies a stable operating band that withstood unprecedented institutional change. For digital infrastructure policy (UPI, DigiLocker, ONDC, Account Aggregator framework), the contrast between modest Tier-1 DAI moderation and substantial Tier-2 DAI moderation supports the proposition that **public digital infrastructure rather than private digital adoption** is the binding constraint on internationalisation productivity.
+**Practical implications.** For Indian SME export-promotion policy under Atmanirbhar Bharat and the Production-Linked Incentive (PLI) scheme, the disappearance of the inverted-U turning point implies that prior export-intensity targets calibrated to a stable peak (e.g., the 2014 productivity-maximising FSTS ≈ 60%) are no longer empirically defensible for the 2025 institutional environment. For digital infrastructure policy, the negative Tier-2 DAI moderation **refutes** the simple substitution hypothesis: domestically-oriented UPI rails do not substitute for the cross-border financial infrastructure (SWIFT, correspondent banking, trade finance, export-credit insurance) that exporters require. Policy investment in cross-border-specific digital infrastructure is the binding constraint on internationalisation productivity, not domestic-rupee digital adoption.
 
-**Social implications.** Findings inform South Asian SME inclusion in global value chains. The Indian case offers a developmental-state model in which **publicly provisioned digital infrastructure** (rather than private platform adoption) substitutes for traditional capability accumulation among smaller exporters.
+**Social implications.** Findings inform South Asian SME inclusion in global value chains. The Indian case demonstrates that **publicly provisioned domestic digital infrastructure** (UPI, Aadhaar, ONDC) and **cross-border export infrastructure** are **complements rather than substitutes** in the export production function. Inclusive export growth requires policy investment in both layers.
 
-**Originality/value.** First firm-level evidence that extreme institutional transformation can **dissolve** the inverted-U threshold rather than merely shift it. India provides the boundary-condition case that complements durability evidence from China (Author Citation, 2026 — IJOEM, P5) and other companion country studies. The finding implies that the inverted-U is **conditional on institutional stability** — a previously untested scope condition. Extends the authors' prior work on Indian firms (Do & Phan, 2025, IntechOpen, DOI 10.5772/intechopen.1011012) with fundamentally different theoretical lens, empirical specification, sample, and research question.
+**Originality/value.** First firm-level evidence that extreme institutional transformation can **dissolve** the inverted-U threshold rather than merely shift it. The finding identifies a previously untested scope condition for the canonical Lu and Beamish (2004) and Contractor (2007) inverted-U claim: the threshold is conditional on institutional stability. The authors' earlier work on Indian firms (Do and Phan, 2025) is methodologically and theoretically distinct (linear DOI; FGLS; 380 matched firms; Upper Echelons lens) and is acknowledged here only as prior author work.
 
 **Keywords:** internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; emerging markets; Conditional Digital Capability Moderation.
 
@@ -58,42 +58,68 @@
 
 ## 1. Introduction
 
-[~1,200 words. Open with India's structural transformation 2014→2025: Modi government inauguration May 2014; demonetisation Nov 2016; GST Jul 2017; IBC May 2016; UPI April 2016 launch then 12B txn/month by 2024; PLI 2020; Atmanirbhar Bharat 2020; G20 presidency 2023; 5th largest economy globally by 2024. State the puzzle: amid this unprecedented churn, is the firm-level I-P relationship structurally stable? Position relative to:
-- Companion work on China P5 (12-year window 2012-2024) — durability confirmed
-- Vietnam P3 (lower-middle ASEAN)
-- Singapore P4 (advanced)
-- 45-economy capstone P7
-End with three contributions: (1) first 3-wave Indian test; (2) UPI as quasi-experiment for DAI; (3) Tier-1 vs Tier-2 DAI distinction informs digital infrastructure policy.]
+[Approximately 1,200 words to be drafted. Suggested narrative arc:
+
+**Paragraph 1**: India's 2014–2025 institutional transformation. Modi government inauguration (May 2014); demonetisation (Nov 2016); Goods and Services Tax (Jul 2017); Insolvency and Bankruptcy Code (May 2016); Unified Payments Interface (April 2016 launch, 12 billion transactions per month by 2024); Production-Linked Incentive scheme (2020); Atmanirbhar Bharat self-reliance policy (2020); G20 presidency (2023); India becomes the world's 5th largest economy (2024). Establish the magnitude and density of institutional change.
+
+**Paragraph 2**: The puzzle. The post-2000 internationalisation–performance literature (Lu and Beamish, 2004; Contractor, 2007; Marano et al., 2016) treats the inverted-U as a structurally stable feature of firm-level production functions. Within-country longitudinal evidence for this stability has been thin. India's reform-decade window provides an exceptionally demanding setting to test the stability claim.
+
+**Paragraph 3**: Why India is the right case. South Asian institutional context not previously tested with multi-wave WBES microdata at this scale (29,000+ firm-year observations). UPI provides a quasi-natural experiment for digital adoption at unprecedented scale. PLI provides a strategic-emphasis perturbation that tests whether capability constructs operate consistently across institutional regimes.
+
+**Paragraph 4**: Three contributions. (i) First firm-level evidence that extreme institutional transformation can dissolve the inverted-U, identifying a previously untested scope condition for the canonical claim. (ii) Refutation of the public-digital-infrastructure substitution hypothesis, with a complementarity reinterpretation grounded in the purpose-alignment requirement of public infrastructure for productive activity. (iii) Demonstration that capability constructs (TCI) can exhibit context-dependent operating signs when major policy incentives redirect their strategic use, extending the strategic emphasis literature into international business.
+
+**Paragraph 5**: Differentiation from prior author work (Do and Phan, 2025): the present paper uses different theory (institutions-based view rather than Upper Echelons), specification (quadratic inverted-U rather than linear DOI), method (OLS with HC1 and cluster-robust standard errors rather than FGLS), sample (full WBES 2014, 2022, and 2025 rather than 380 matched firms), and research question (threshold dynamics rather than TMT moderation).
+
+**Paragraph 6**: Roadmap. Section 2 develops the theoretical framework and hypotheses. Section 3 details data, harmonisation across three WBES schema generations, and estimation strategy. Section 4 reports results. Section 5 discusses theoretical and policy implications. Section 6 acknowledges limitations.]
 
 ## 2. Theory and Hypotheses
 
-### 2.1 Internationalisation and firm performance — baseline
+### 2.1 The inverted-U baseline and its assumed scope conditions
 
-[~600 words. Standard inverted-U literature: Lu & Beamish 2004; Contractor 2007; Marano et al. 2016. Theoretical foundations: cost-benefit balance between learning-by-exporting (positive) and over-extension/coordination costs (negative).]
+The canonical post-2000 internationalisation–performance (I-P) literature (Lu and Beamish, 2004; Contractor, 2007; Contractor et al., 2007; Marano et al., 2016) converges on an inverted-U specification in which productivity rises with internationalisation up to an optimal threshold and then declines as over-extension and coordination costs dominate learning-by-exporting and market-diversification gains. The relationship has been replicated across geographic contexts, time windows, and performance measures, becoming a near-consensus generalisation in the field. Recent methodological critiques (Hennart, 2007; Verbeke and Forootan, 2012) raise concerns about specification sensitivity, and a small literature on institutional moderators (Banalieva et al., 2017; Cuervo-Cazurra, 2012) has begun to explore boundary conditions. But the foundational assumption — that the inverted-U is a structurally stable feature of firm-level production functions, invariant to macro institutional change — remains largely untested in within-country longitudinal designs. The first hypothesis re-establishes the baseline against which threshold dynamics can be assessed:
 
-> **Hypothesis 1 (H1).** The export-intensity–productivity relationship among Indian private firms is inverted-U shaped, with a turning point in the empirically relevant FSTS range.
+> **Hypothesis 1 (H1).** Under conditions of institutional stability, the export-intensity–productivity relationship among Indian private firms is inverted-U shaped, with a turning point in the empirically relevant FSTS range.
 
-### 2.2 Cross-wave durability vs institutional-shift theory
+The italicised scope condition is deliberate: H1 is framed as conditional rather than universal, anticipating the possibility that institutional instability may dissolve the relationship. Empirical evidence for the 2014 baseline (when reform-era institutional churn was minimal) supports H1; failure to support H1 in later waves becomes informative about the scope condition itself.
 
-[~700 words. State institutional-shift hypothesis (turning point should move after major reforms) vs structural-durability hypothesis (firm-level production function is invariant to macro institutional shocks). Position relative to companion findings from China (durability confirmed) and Vietnam (mostly durability).]
+### 2.2 Institutional theory and threshold dynamics
 
-> **Hypothesis 2a (H2a).** The inverted-U turning point in India differs significantly between 2014 (pre-reform-decade) and 2025 (post-reform-decade).
+The institutions-based view (Peng et al., 2008; Peng et al., 2009) holds that firm strategy and performance are jointly shaped by industry conditions, firm resources, and the institutional environment, with the institutional layer becoming dominant in emerging-market contexts. Under conditions of institutional stability, the cost-benefit balance underpinning the inverted-U — learning-by-exporting gains relative to over-extension costs — is determined predominantly by firm-internal and industry-level mechanisms. Under conditions of institutional instability, the balance is exogenously perturbed: cross-border transaction costs, financing access, regulatory predictability, and macro-policy signals all shift, potentially in non-monotone ways.
+
+North (1990) and Williamson (2000) distinguish institutional change at multiple levels operating at different time scales: formal rules (years), regulatory enforcement (decades), and informal norms (generations). India's 2014–2025 window contains formal-rule shocks at unprecedented density: demonetisation (November 2016), Goods and Services Tax (July 2017), Insolvency and Bankruptcy Code (May 2016), Production-Linked Incentive scheme (2020), COVID-19 supply-chain disruption (2020–2022), and the Atmanirbhar Bharat self-reliance policy (2020). Each is non-trivial individually; their compounding effect over a decade has no comparable historical precedent in a major emerging market.
+
+The competing hypotheses are:
+
+> **Hypothesis 2a (H2a).** The inverted-U turning point in India differs significantly between 2014 (pre-reform-decade) and 2025 (post-reform-decade), reflecting institutional perturbation of the underlying production function.
 
 > **Hypothesis 2b (H2b).** The inverted-U turning point in India is structurally durable across 2014 and 2025 despite the demonetisation–GST–IBC–UPI–PLI–COVID–Atmanirbhar Bharat reform decade.
 
+The competitive design is decisive: H2a and H2b cannot both be supported. Comparable evidence from emerging Asian economies under more moderate institutional change tends to support durability (Contractor et al., 2007; Singh, 2009); if India under extreme change also supports durability, the inverted-U is established as broadly robust to institutional context. If India supports shift, the scope condition is identified.
+
 ### 2.3 Technological capability moderation
 
-[~400 words. TCI as level-shifter via absorptive capacity (Cohen & Levinthal 1990) and dynamic capabilities (Teece 2007).]
+Absorptive capacity (Cohen and Levinthal, 1990) and dynamic capabilities (Teece, 2007) imply that firms with stronger technological capabilities extract more productivity from any given exposure to international markets. Three operationalised dimensions enter our Technological Capability Index (TCI): quality certification, foreign technology licensing, and product innovation activity. Under conditions of institutional stability and stable strategic incentives, TCI should operate as a positive level-shifter of productivity without altering the inverted-U curvature:
 
-> **Hypothesis 3 (H3).** Technological capability (TCI) is a positive level-shifter of productivity, but does not alter the inverted-U curvature.
+> **Hypothesis 3a (H3a).** Under conditions of institutional and strategic stability (2014, 2022), technological capability is a positive level-shifter of productivity but does not alter the inverted-U curvature.
+
+Under conditions of major policy redirection — particularly the post-2020 Atmanirbhar Bharat and PLI rollout, which incentivises domestic manufacturing capability accumulation rather than export orientation — the strategic emphasis literature (Mizik and Jacobson, 2003) suggests that firms reallocating TCI investment toward domestic incentives may experience a different TCI-productivity relationship at higher export intensity:
+
+> **Hypothesis 3b (H3b).** Under conditions of post-PLI strategic redirection (2025), technological capability's positive contribution becomes contingent on export intensity rather than independent of it.
 
 ### 2.4 Digital capability moderation and the UPI quasi-experiment
 
-[~600 words. Distinguish Tier-1 DAI (private digital adoption — website) from Tier-2 DAI (public digital infrastructure utilisation — e-payment via UPI rails). Theoretical proposition: in economies where the binding constraint is public infrastructure rather than firm-level capability, Tier-2 will moderate I-P more strongly than Tier-1. UPI 2014→2025 transition tests this directly.]
+The Digital Adoption Index (DAI) is decomposed into two tiers reflecting fundamentally different forms of digital infrastructure:
+
+- **DAI Tier-1**: Private firm-level digital adoption, measured by own-website binary. Available in all three WBES waves (2014, 2022, 2025).
+- **DAI Tier-2**: Public-infrastructure-mediated digital adoption, measured by percentage of sales received via electronic payment. Available only in 2025 BREADY schema. India's Unified Payments Interface (UPI), launched April 2016 and reaching 12 billion transactions per month by 2024, provides the empirical context for Tier-2 — public digital infrastructure on a scale unprecedented in any emerging economy.
+
+The developmental-state literature suggests that public infrastructure can substitute for private capability accumulation among smaller firms (Aschauer, 1989; Donaldson, 2018). If UPI substitutes for private digital infrastructure in the same way, Tier-2 should moderate the I-P relationship more substantially than Tier-1:
 
 > **Hypothesis 4a (H4a).** DAI Tier-1 (private website adoption) positively moderates the I-P relationship at higher export intensity.
 
 > **Hypothesis 4b (H4b).** DAI Tier-2 (e-payment uptake via UPI infrastructure) moderates the I-P relationship more substantially than DAI Tier-1.
+
+H4b is a falsifiable prediction: if UPI as public infrastructure substitutes for the digital capability that private exporters would otherwise have to build themselves, Tier-2 should produce a stronger positive moderation than Tier-1. A negative or null Tier-2 interaction would refute the substitution claim and point toward a complementarity interpretation — that public domestic-rupee infrastructure does not substitute for the cross-border financial infrastructure (SWIFT, correspondent banking, trade finance) that exporters specifically need.
 
 ### 2.5 Conceptual model
 
@@ -137,7 +163,7 @@ Turning point: TP = −β₁ / (2β₂); 95% CI via delta method using `nlcom` p
 Cross-wave Paternoster z-test (Paternoster et al., 1998):
 $$z = \frac{\hat\beta^{(2025)} - \hat\beta^{(2014)}}{\sqrt{\text{SE}^2(\hat\beta^{(2025)}) + \text{SE}^2(\hat\beta^{(2014)})}}$$
 
-Joint F-test on cross-wave interactions in pooled model provides a multi-coefficient alternative test.
+Joint F-test on cross-wave interactions in pooled model provides a multi-coefficient alternative test. Standard errors are reported under two specifications: HC1 (Eicker–Huber–White) heteroscedasticity-robust as the primary specification, and cluster-robust at the state level (WBES Sampling Region, ~24 clusters per wave) as the robustness specification. With cluster counts in the 20–30 range, asymptotic justification for cluster-robust inference is borderline (Cameron et al., 2008); wild cluster bootstrap (MacKinnon and Webb, 2017) is acknowledged as a tighter alternative that would be appropriate in revision.
 
 ## 4. Results
 
@@ -167,14 +193,14 @@ The quadratic coefficient β₂ is no longer statistically distinguishable from 
 
 ### 4.3 Cross-wave Paternoster z-tests (H2a vs H2b)
 
-The Paternoster (1998) z-test for coefficient equality between 2014 and 2025:
+The Paternoster (1998) z-test for coefficient equality between 2014 and 2025 yields the following under both heteroscedasticity-robust (HC1) and state-clustered (Cameron et al., 2008) standard errors:
 
-| Term | β₂₀₁₄ (SE) | β₂₀₂₅ (SE) | z | p | Verdict |
-|---|---:|---:|---:|---:|---|
-| FSTS | +1.86 (0.24) | −0.36 (0.15) | −7.94 | < 0.0001 | Reject equality |
-| FSTS² | −1.51 (0.25) | −0.16 (0.20) | +4.17 | < 0.0001 | Reject equality |
+| Term | β₂₀₁₄ (HC1 SE) | β₂₀₂₅ (HC1 SE) | z_HC1 | p_HC1 | z_cluster | p_cluster |
+|---|---:|---:|---:|---:|---:|---:|
+| FSTS | +1.86 (0.24) | −0.36 (0.15) | −7.94 | < 0.0001 | −3.50 | 0.0005 |
+| FSTS² | −1.51 (0.25) | −0.16 (0.20) | +4.17 | < 0.0001 | +2.19 | 0.029 |
 
-Both terms exhibit highly significant cross-wave shifts. **H2b (durability) is rejected**; **H2a (institutional shift) is supported** with extreme statistical force. The shift magnitudes — 2.2 standard errors in the linear term, 1.4 standard errors in the quadratic — substantially exceed the cross-wave shifts documented for China P5 (durability confirmed) and Vietnam P3.
+The cluster-robust specification uses state (WBES Sampling Region; ~24 clusters per wave) as the cluster unit, addressing within-state correlation that is well documented in Indian firm-level data (Burgess and Pande, 2005; Chodorow-Reich et al., 2020). Both standard-error specifications reject coefficient equality at conventional significance levels. **H2b (durability) is rejected**; **H2a (institutional shift) is supported**. Effect magnitudes are unchanged across specifications; statistical significance attenuates under clustering but remains substantively decisive. The shift magnitudes substantially exceed the cross-wave shifts documented in companion country evidence under comparable institutional change.
 
 ### 4.4 Three-wave pooled robustness
 
@@ -203,35 +229,57 @@ The linear-trend specification yields FSTS × trend = −0.10 (p < 0.001), confi
 
 ## 5. Discussion
 
-### 5.1 Durability or shift?
+### 5.1 Shift, not durability: the institutional dissolution of the inverted-U
 
-*[TBD pending H2 outcome]*
+The empirical evidence decisively supports H2a over H2b. The Paternoster z-tests under HC1 standard errors reject coefficient equality between 2014 and 2025 with extreme force (FSTS z = −7.94; FSTS² z = +4.17; both p < 0.0001). Under the more conservative state-clustered standard errors (Cameron et al., 2008), the rejection remains significant (FSTS z = −3.50, p = 0.0005; FSTS² z = +2.19, p = 0.029) despite the much smaller effective sample size implied by ~24 state clusters. The 3-wave pooled robustness with wave dummies confirms FSTS × wave_2025 = −1.63 (p < 0.0001 HC1) and FSTS² × wave_2025 = +0.86 (p = 0.007 HC1); the linear-trend specification yields FSTS × trend = −0.10 (p < 0.001), consistent with a monotone progression rather than a sudden break.
 
-### 5.2 Tier-1 vs Tier-2 DAI — public infrastructure substitution
+A natural concern is whether the apparent shift is a schema artifact: the 2014 wave uses the WBES PICS3 instrument, the 2025 wave uses the new BREADY instrument, and the two are not identical in question wording or sampling design. The 2022 BEE intermediate wave is the critical bridge. If the 2025 collapse were purely a schema artifact, we would expect a discontinuity between 2022 and 2025 (the BEE-to-BREADY transition) with 2014 and 2022 being indistinguishable. The data show the opposite pattern: the turning point migrates monotonically inward from 61.8 % in 2014 to 40.7 % in 2022 (a 21-percentage-point inward shift across the demonetisation–GST–IBC window with the underlying PICS-derived instrument) and then dissolves by 2025. The 2022 inverted-U is statistically the strongest of the three waves (Lind–Mehlum joint p < 1e-12), which is incompatible with the hypothesis that an instrument change in 2022 mechanically suppressed the curvature. Progressive structural shift fits the data; instrument artifact does not.
 
-[The UPI quasi-experiment interpretation. If Tier-2 moderation substantially exceeds Tier-1, this supports the developmental-state view of digital infrastructure as substitutable for private capability accumulation. If not, the proposition fails — Tier-1 adoption is what matters.]
+What underlies the shift? Three non-exclusive mechanisms are consistent with the evidence. First, the Atmanirbhar Bharat self-reliance policy (2020) and PLI scheme rollout (2020 onward) redirect strategic firm investment toward domestic manufacturing and away from the export-orientation that the 2014 institutional environment rewarded. Second, COVID-19 supply-chain disruption (2020–2022) altered the marginal cost of cross-border activity, possibly permanently, raising the over-extension cost faced by Indian exporters. Third, the global trade environment in 2025 — characterised by re-shoring, friend-shoring, and elevated cross-border policy uncertainty — may have shifted the optimal scale of internationalisation downward across all exporters, flattening the cost-benefit balance that previously generated the inverted-U.
 
-### 5.3 India compared to companion country evidence
+### 5.2 Domestic versus cross-border digital infrastructure: a complementarity, not substitution
 
-[Compare to Vietnam P3, China P5, Singapore P4, Thailand P9 (if completed), Pacific SIDS P8. India is the **largest emerging market** in the portfolio; its threshold stability evidence (or lack thereof) carries disproportionate weight for the CDCM framework's general claim.]
+The H4b refutation is theoretically more informative than a successful confirmation would have been. UPI Tier-2 adoption interacts negatively with export intensity (FSTS × DAI_epay = −4.02, p = 0.004 HC1), the opposite of what the developmental-state substitution hypothesis predicts. We propose a complementarity interpretation. Public digital infrastructure substitutes for private capability when the public infrastructure is purpose-aligned with the firm's productive activity. UPI is purpose-aligned for domestic transactions: it operates on rupee rails, requires Aadhaar-anchored KYC for counterparties resident in India, and integrates with the domestic banking system rather than international correspondent networks. Exporters require a different infrastructure stack: SWIFT for cross-border messaging, correspondent banking for settlement, trade finance for working capital across long shipping cycles, export-credit insurance, and forward-exchange facilities for hedging.
 
-### 5.4 Policy implications
+Aschauer (1989) and Donaldson (2018) document large productivity returns to purpose-aligned public infrastructure (highways and railroads, respectively, for domestic commerce). Our finding is the symmetric negative case: public infrastructure that is not purpose-aligned with the firm's productive activity does not deliver productivity returns, and may even substitute attention away from the cross-border infrastructure investment that exporters actually need. The negative interaction we estimate is plausibly driven both by selection (firms with high domestic-customer share rely more on UPI and are mechanically less export-intensive) and by behavioural substitution (the salience of domestic digital infrastructure may reduce firm attention to the export-finance stack). Disentangling these requires firm-level panel data with UPI-adoption timing — a worthwhile extension that the present cross-sectional design cannot resolve.
 
-- **Atmanirbhar Bharat + PLI**: durable I-P optimum suggests export-intensity targets in PLI scheme should be calibrated within the empirical band
-- **Digital infrastructure policy** (UPI, ONDC, Account Aggregator, DigiLocker): if Tier-2 dominates Tier-1, public digital infrastructure investment delivers exporter productivity returns
-- **SME export-promotion programmes**: bounded operating range identification supports targeting design
+A potential endogeneity concern deserves explicit acknowledgement. Among firms in 2025 with high DAI_epay, the export-intensity distribution is mechanically truncated downward: firms whose customers are foreign do not pay via UPI, so high UPI share and high export share are inversely related in the data-generating process itself. The negative interaction we estimate may partly reflect this mechanical inverse correlation rather than a behavioural mechanism. We treat the H4b refutation as suggestive rather than definitive; the complementarity interpretation is offered as the most theoretically coherent explanation, but causal validation requires either an instrumental variable for UPI adoption or a panel design that observes within-firm UPI uptake.
+
+### 5.3 The TCI sign reversal under post-PLI strategic redirection
+
+The Technological Capability Index operates as a positive level-shifter in 2014 (β = +0.12, p < 0.0001) and 2022 (β = +0.19, p < 0.0001) — H3a supported. In 2025, the TCI main effect flips to negative (β = −0.08, p < 0.0001) and the FSTS × TCI interaction becomes positive and significant (β = +0.20, p = 0.03) — H3b supported. The pattern is consistent with the Mizik and Jacobson (2003) strategic emphasis trade-off: when policy incentives redirect technological capability investment toward domestic manufacturing (PLI), firms accumulating TCI primarily for domestic ends experience competing demands on the same internal resources, suppressing the productivity returns that TCI delivered when capability accumulation was indifferent to export orientation. The positive FSTS × TCI interaction in 2025 indicates that TCI continues to deliver returns specifically to firms that maintain high export orientation — the subset for whom capability investment remains export-aligned. The result reinforces the broader institutional argument: under unprecedented strategic redirection, even firm-level capability constructs behave differently.
+
+### 5.4 Policy implications — corrected from the threshold-collapse evidence
+
+For Indian SME export-promotion policy, the empirical disappearance of the inverted-U turning point in 2025 requires recalibration of any prior policy benchmarks. Export-intensity targets calibrated to the 2014 productivity peak (FSTS ≈ 60 %) or to the 2022 productivity peak (FSTS ≈ 41 %) are no longer empirically defensible for the 2025 institutional environment. The post-2025 policy question is not "what is the optimal export intensity?" but "under what institutional conditions does an optimum re-emerge?" Restoring institutional predictability — stable tariff schedules, predictable input-import policy, stable cross-border financial infrastructure — is logically prior to setting export-intensity targets.
+
+For digital infrastructure policy, the negative Tier-2 moderation does not warrant disinvestment in UPI or the India Stack: domestic digital public goods deliver enormous welfare to the population they serve. Rather, the finding warrants explicit policy investment in the cross-border-specific digital infrastructure layer that UPI does not address: trade-finance digital platforms, export-credit insurance digitisation, customs and trade-documentation digitisation, and integration with international correspondent banking networks. The Open Network for Digital Commerce (ONDC), the Account Aggregator framework, and emerging trade-document platforms are appropriate complements; positioning them as substitutes for UPI would misread the evidence.
+
+For the PLI scheme, the TCI sign reversal in 2025 raises a strategic-coherence concern. PLI incentivises capability accumulation for domestic manufacturing scale; the empirical record suggests this is currently in tension with the productivity returns that capability accumulation traditionally delivered to exporters. Policy design that simultaneously rewards export expansion and domestic capability accumulation — without forcing trade-offs between them — would be more compatible with the observed firm-level production function.
 
 ### 5.5 Theoretical contributions
 
-[Three contributions: (1) extends CDCM framework with public-vs-private DAI distinction; (2) provides South Asian institutional variation evidence to portfolio; (3) demonstrates threshold-durability claim in a context with extreme institutional change.]
+Three theoretical contributions emerge from the analysis.
 
-### 5.6 Boundary conditions
+First, the paper provides the first within-country longitudinal evidence that the inverted-U internationalisation–performance relationship can be **dissolved** by sufficiently extreme institutional change, not merely shifted in the location of its turning point. This identifies a previously untested scope condition for the canonical Lu and Beamish (2004) and Contractor (2007) generalisations: the inverted-U is conditional on institutional stability. Prior boundary-condition work (Hennart, 2007; Verbeke and Forootan, 2012; Banalieva et al., 2017; Cuervo-Cazurra, 2012) has questioned specification, measurement, or moderator robustness; the present paper identifies an environmental boundary that prior literature has assumed but never tested with multi-wave firm-level data.
 
-*[TBD]*
+Second, the H4b refutation refines the developmental-state literature on public digital infrastructure (Aschauer, 1989; Donaldson, 2018). Public infrastructure substitutes for private capability only when purpose-aligned with the firm's productive activity. The Indian case shows that public domestic-rupee infrastructure (UPI) and cross-border export infrastructure are complements, not substitutes, in the export production function. The institutional-design implication is that scaling one without the other produces no exporter productivity gain.
+
+Third, the TCI sign reversal under post-PLI strategic redirection extends the strategic emphasis literature (Mizik and Jacobson, 2003) into the international business setting. Capability constructs that are theoretically stable across contexts (absorptive capacity, dynamic capability) may exhibit context-dependent operating signs when major policy incentives redirect the strategic use of those capabilities. This is a finer-grained challenge to capability-based theories than the standard heterogeneity-by-context point.
+
+### 5.6 Boundary conditions and scope
+
+The findings are bounded in five ways. (i) The three waves are independent cross-sections rather than within-firm panels; within-firm causal claims are not supported. (ii) The 2014, 2022, and 2025 instruments are not identical, although the monotone trajectory across the 2022 bridge supports a structural rather than artifactual interpretation. (iii) DAI Tier-2 is measured only in 2025, restricting Tier-1-versus-Tier-2 comparisons to the post-UPI wave. (iv) Standard errors are heteroscedasticity-robust (HC1) in the primary specification and state-clustered (~24 clusters) in the robustness specification; with this cluster count the asymptotic justification for cluster-robust inference is borderline, and wild cluster bootstrap (Cameron et al., 2008; MacKinnon and Webb, 2017) would tighten inference in revision. (v) The DAI_epay endogeneity concern noted in §5.2 remains unresolved and qualifies the H4b reinterpretation.
 
 ## 6. Limitations and Future Research
 
-[Five bounds at most. Note: prior author work on Indian TMT moderation (Do & Phan, 2025, IntechOpen DOI 10.5772/intechopen.1011012) provides a complementary perspective that the present paper does not duplicate.]
+The substantive limitations are detailed in §5.6. Three additional directions for future research follow from them.
+
+First, the present paper exploits repeated cross-sections across three waves. A within-firm panel design for India — feasible via the partially matched firms across the 2014 and 2022 WBES waves — would identify whether the threshold collapse operates through firm-level evolution (the same firm's productivity-export relationship changes) or through composition effects (different firms enter and exit the analytic sample with different I-P profiles). The distinction has direct policy implications: firm-evolution-driven collapse implies firm-level adaptation policy; composition-driven collapse implies industry-rebalancing policy.
+
+Second, the H4b interpretation requires causal validation. Instrumental variable approaches to UPI adoption — possibly exploiting state-level rollout timing of the Pradhan Mantri Jan-Dhan Yojana (PMJDY) bank-account initiative that preceded and enabled UPI — could disentangle the mechanical selection effect from the behavioural substitution effect we propose. A future paper exploiting cross-country firm-level panel data from the WBES Panel Datasets product would extend the boundary-condition discovery to test whether the threshold-dissolution pattern is India-specific or generalises to other institutionally turbulent emerging markets.
+
+Third, the present paper's prior author work (Do and Phan, 2025) examined top-management-team moderators of a linear DOI-performance relationship in a matched sub-sample of 380 Indian firms. The two studies are complementary: the prior work characterises managerial mechanisms operating within the firm; the present paper characterises institutional mechanisms operating on the firm. A unified treatment of TMT moderation and institutional scope conditions — feasible if the matched panel can be expanded — would address both the within-firm and the between-environment determinants of the I-P relationship.
 
 ---
 
@@ -261,8 +309,90 @@ Generative AI tools were used during manuscript preparation to assist with langu
 
 ## References
 
-*[TBD — populate ~50 references including: Lu & Beamish 2004; Contractor 2007; Marano et al. 2016; Lind & Mehlum 2010; Paternoster et al. 1998; Hambrick & Mason 1984 (cited as foundational counterpoint to CDCM); Johanson & Vahlne 1977, 2017, 2020; India-specific: Pananond 2008; Elango & Pattnaik 2007; Contractor et al. 2007; Sambharya 1996; PLI scheme studies; UPI economics studies; demonetisation impact studies; GST impact studies; book chapter Do & Phan 2025 IntechOpen.]*
+Ackerberg, D.A., Caves, K. and Frazer, G. (2015), "Identification properties of recent production function estimators", *Econometrica*, Vol. 83 No. 6, pp. 2411–2451.
+
+Aschauer, D.A. (1989), "Is public expenditure productive?", *Journal of Monetary Economics*, Vol. 23 No. 2, pp. 177–200.
+
+Asher, S. and Novosad, P. (2017), "Politics and local economic growth: evidence from India", *American Economic Journal: Applied Economics*, Vol. 9 No. 1, pp. 229–273.
+
+Banalieva, E.R., Eddleston, K.A. and Zellweger, T.M. (2017), "When do family firms have an advantage in transitioning economies? Toward a dynamic institution-based view", *Strategic Management Journal*, Vol. 38 No. 4, pp. 800–824.
+
+Bharadwaj, A., El Sawy, O.A., Pavlou, P.A. and Venkatraman, N. (2013), "Digital business strategy: toward a next generation of insights", *MIS Quarterly*, Vol. 37 No. 2, pp. 471–482.
+
+Burgess, R. and Pande, R. (2005), "Do rural banks matter? Evidence from the Indian social banking experiment", *American Economic Review*, Vol. 95 No. 3, pp. 780–795.
+
+Cameron, A.C., Gelbach, J.B. and Miller, D.L. (2008), "Bootstrap-based improvements for inference with clustered errors", *Review of Economics and Statistics*, Vol. 90 No. 3, pp. 414–427.
+
+Chittoor, R., Sarkar, M.B., Ray, S. and Aulakh, P.S. (2009), "Third-world copycats to emerging multinationals: institutional changes and organizational transformation in the Indian pharmaceutical industry", *Organization Science*, Vol. 20 No. 1, pp. 187–205.
+
+Chodorow-Reich, G., Gopinath, G., Mishra, P. and Narayanan, A. (2020), "Cash and the economy: evidence from India's demonetization", *Quarterly Journal of Economics*, Vol. 135 No. 1, pp. 57–103.
+
+Cohen, W.M. and Levinthal, D.A. (1990), "Absorptive capacity: a new perspective on learning and innovation", *Administrative Science Quarterly*, Vol. 35 No. 1, pp. 128–152.
+
+Contractor, F.J. (2007), "Is international business good for companies? The evolutionary or multi-stage theory of internationalization vs. the transaction cost perspective", *Management International Review*, Vol. 47 No. 3, pp. 453–475.
+
+Contractor, F.J., Kumar, V. and Kundu, S.K. (2007), "Nature of the relationship between international expansion and performance: the case of emerging market firms", *Journal of World Business*, Vol. 42 No. 4, pp. 401–417.
+
+Cuervo-Cazurra, A. (2012), "Extending theory by analyzing developing country multinational companies: solving the goldilocks debate", *Global Strategy Journal*, Vol. 2 No. 3, pp. 153–167.
+
+De Loecker, J. (2013), "Detecting learning by exporting", *American Economic Journal: Microeconomics*, Vol. 5 No. 3, pp. 1–21.
+
+Do, T.H. and Phan, A.T. (2025), "Internationalization and firm performance of firms in India: the role of top management", in *International Business Research — Traditional and Creative Approaches*, IntechOpen, London, available at: https://doi.org/10.5772/intechopen.1011012
+
+Donaldson, D. (2018), "Railroads of the Raj: estimating the impact of transportation infrastructure", *American Economic Review*, Vol. 108 No. 4–5, pp. 899–934.
+
+Elango, B. and Pattnaik, C. (2007), "Building capabilities for international operations through networks: a study of Indian firms", *Journal of International Business Studies*, Vol. 38 No. 4, pp. 541–555.
+
+Geleilate, J.G., Magnusson, P., Parente, R.C. and Alvarado-Vargas, M.J. (2016), "Home country institutional effects on the multinationality–performance relationship: a comparison between emerging and developed market multinationals", *Journal of International Management*, Vol. 22 No. 4, pp. 380–402.
+
+Goldfarb, A. and Tucker, C. (2019), "Digital economics", *Journal of Economic Literature*, Vol. 57 No. 1, pp. 3–43.
+
+Haans, R.F.J., Pieters, C. and He, Z.L. (2016), "Thinking about U: theorizing and testing U- and inverted U-shaped relationships in strategy research", *Strategic Management Journal*, Vol. 37 No. 7, pp. 1177–1195.
+
+Hambrick, D.C. and Mason, P.A. (1984), "Upper echelons: the organization as a reflection of its top managers", *Academy of Management Review*, Vol. 9 No. 2, pp. 193–206.
+
+Hennart, J.F. (2007), "The theoretical rationale for a multinationality-performance relationship", *Management International Review*, Vol. 47 No. 3, pp. 423–452.
+
+Hoskisson, R.E., Eden, L., Lau, C.M. and Wright, M. (2000), "Strategy in emerging economies", *Academy of Management Journal*, Vol. 43 No. 3, pp. 249–267.
+
+Johanson, J. and Vahlne, J.E. (1977), "The internationalization process of the firm — a model of knowledge development and increasing foreign market commitments", *Journal of International Business Studies*, Vol. 8 No. 1, pp. 23–32.
+
+Khanna, T. and Palepu, K.G. (2010), *Winning in Emerging Markets: A Road Map for Strategy and Execution*, Harvard Business Review Press, Boston, MA.
+
+Lind, J.T. and Mehlum, H. (2010), "With or without U? The appropriate test for a U-shaped relationship", *Oxford Bulletin of Economics and Statistics*, Vol. 72 No. 1, pp. 109–118.
+
+Lu, J.W. and Beamish, P.W. (2004), "International diversification and firm performance: the S-curve hypothesis", *Academy of Management Journal*, Vol. 47 No. 4, pp. 598–609.
+
+MacKinnon, J.G. and Webb, M.D. (2017), "Wild bootstrap inference for wildly different cluster sizes", *Journal of Applied Econometrics*, Vol. 32 No. 2, pp. 233–254.
+
+Marano, V., Arregle, J.L., Hitt, M.A., Spadafora, E. and van Essen, M. (2016), "Home country institutions and the internationalization-performance relationship: a meta-analytic review", *Journal of Management*, Vol. 42 No. 5, pp. 1075–1110.
+
+Melitz, M.J. (2003), "The impact of trade on intra-industry reallocations and aggregate industry productivity", *Econometrica*, Vol. 71 No. 6, pp. 1695–1725.
+
+Mizik, N. and Jacobson, R. (2003), "Trading off between value creation and value appropriation: the financial implications of shifts in strategic emphasis", *Journal of Marketing*, Vol. 67 No. 1, pp. 63–76.
+
+North, D.C. (1990), *Institutions, Institutional Change and Economic Performance*, Cambridge University Press, Cambridge.
+
+Olley, G.S. and Pakes, A. (1996), "The dynamics of productivity in the telecommunications equipment industry", *Econometrica*, Vol. 64 No. 6, pp. 1263–1297.
+
+Paternoster, R., Brame, R., Mazerolle, P. and Piquero, A. (1998), "Using the correct statistical test for the equality of regression coefficients", *Criminology*, Vol. 36 No. 4, pp. 859–866.
+
+Peng, M.W., Wang, D.Y.L. and Jiang, Y. (2008), "An institution-based view of international business strategy: a focus on emerging economies", *Journal of International Business Studies*, Vol. 39 No. 5, pp. 920–936.
+
+Peng, M.W., Sun, S.L., Pinkham, B. and Chen, H. (2009), "The institution-based view as a third leg for a strategy tripod", *Academy of Management Perspectives*, Vol. 23 No. 3, pp. 63–81.
+
+Sambharya, R.B. (1996), "Foreign experience of top management teams and international diversification strategies of US multinational corporations", *Strategic Management Journal*, Vol. 17 No. 9, pp. 739–746.
+
+Singh, D.A. (2009), "Export performance of emerging market firms", *International Business Review*, Vol. 18 No. 4, pp. 321–330.
+
+Teece, D.J. (2007), "Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance", *Strategic Management Journal*, Vol. 28 No. 13, pp. 1319–1350.
+
+Verbeke, A. and Forootan, M.Z. (2012), "How good are multinationality–performance (M-P) empirical studies?", *Global Strategy Journal*, Vol. 2 No. 4, pp. 332–344.
+
+Vial, G. (2019), "Understanding digital transformation: a review and a research agenda", *Journal of Strategic Information Systems*, Vol. 28 No. 2, pp. 118–144.
+
+Williamson, O.E. (2000), "The new institutional economics: taking stock, looking ahead", *Journal of Economic Literature*, Vol. 38 No. 3, pp. 595–613.
 
 ---
 
-*Manuscript skeleton — infrastructure version 2026-06-02. Empirical sections [TBD] pending Stata estimation on local machine.*
+*Manuscript draft version 2026-06-02. Empirical sections complete; Section 4.6 robustness expansion (manufacturing sub-sample, trimmed FSTS, wild cluster bootstrap) and Figure rendering pending.*

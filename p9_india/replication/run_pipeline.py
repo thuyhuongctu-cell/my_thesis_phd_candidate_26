@@ -54,6 +54,9 @@ def build_wave(path: Path, wave_year: int) -> pd.DataFrame:
     df, _ = pyreadstat.read_dta(path)
     cols = set(df.columns)
 
+    # State cluster (Sampling Region a2) — for cluster-robust SE
+    state = df["a2"] if "a2" in cols else pd.Series([np.nan] * len(df))
+
     # Sales: prefer d2 (PICS3/BEE); fallback to n3 (BREADY)
     sales = df["d2"] if "d2" in cols else df["n3"]
     workers = df["l1"]
@@ -106,6 +109,7 @@ def build_wave(path: Path, wave_year: int) -> pd.DataFrame:
 
     out = pd.DataFrame({
         "wave": wave_year,
+        "state": state,
         "lnLP": lnLP,
         "FSTS": FSTS,
         "FSTSsq": FSTSsq,
@@ -134,6 +138,16 @@ def build_wave(path: Path, wave_year: int) -> pd.DataFrame:
 def ols_hc1(y: pd.Series, X: pd.DataFrame) -> sm.regression.linear_model.RegressionResultsWrapper:
     X_const = sm.add_constant(X, has_constant="add")
     return sm.OLS(y, X_const, missing="drop").fit(cov_type="HC1")
+
+
+def ols_cluster(y: pd.Series, X: pd.DataFrame, groups: pd.Series) -> sm.regression.linear_model.RegressionResultsWrapper:
+    """OLS with cluster-robust SE on `groups` (e.g., state)."""
+    X_const = sm.add_constant(X, has_constant="add")
+    common = X_const.index.intersection(y.index).intersection(groups.index)
+    common = common[y.loc[common].notna() & X_const.loc[common].notna().all(axis=1) & groups.loc[common].notna()]
+    return sm.OLS(y.loc[common], X_const.loc[common]).fit(
+        cov_type="cluster", cov_kwds={"groups": groups.loc[common].astype(int)}
+    )
 
 
 def lind_mehlum(res, x_name: str, x2_name: str, x_min: float, x_max: float) -> dict:
@@ -230,14 +244,18 @@ def run_wave(wave_year: int, raw_file: Path) -> tuple[pd.DataFrame, dict]:
     M1 = ols_hc1(df_base["lnLP"], df_base[["FSTS"] + CONTROLS])
     M2 = ols_hc1(df_base["lnLP"], df_base[["FSTS", "FSTSsq"] + CONTROLS])
 
+    # M2 with state-cluster SE (Cameron-Gelbach-Miller 2008 robust to within-state correlation)
+    M2_cluster = ols_cluster(df_base["lnLP"], df_base[["FSTS", "FSTSsq"] + CONTROLS], df_base["state"])
+    n_clusters = df_base["state"].nunique()
+
     # Lind-Mehlum U-test
     ut = lind_mehlum(M2, "FSTS", "FSTSsq", df_base["FSTS"].min(), df_base["FSTS"].max())
     tp = turning_point(M2, "FSTS", "FSTSsq")
 
     print(f"\n  M2 main: lnLP = α + β1·FSTS + β2·FSTS² + controls")
-    print(f"    β1 (FSTS)   = {M2.params['FSTS']:>+8.4f} (SE {M2.bse['FSTS']:.4f}, p={M2.pvalues['FSTS']:.4f})")
-    print(f"    β2 (FSTSsq) = {M2.params['FSTSsq']:>+8.4f} (SE {M2.bse['FSTSsq']:.4f}, p={M2.pvalues['FSTSsq']:.4f})")
-    print(f"    R²(adj)     = {M2.rsquared_adj:.4f}    N = {int(M2.nobs):,}")
+    print(f"    β1 (FSTS)   = {M2.params['FSTS']:>+8.4f} (SE_HC1 {M2.bse['FSTS']:.4f}, p={M2.pvalues['FSTS']:.4f}) | SE_cluster = {M2_cluster.bse['FSTS']:.4f} (p={M2_cluster.pvalues['FSTS']:.4f})")
+    print(f"    β2 (FSTSsq) = {M2.params['FSTSsq']:>+8.4f} (SE_HC1 {M2.bse['FSTSsq']:.4f}, p={M2.pvalues['FSTSsq']:.4f}) | SE_cluster = {M2_cluster.bse['FSTSsq']:.4f} (p={M2_cluster.pvalues['FSTSsq']:.4f})")
+    print(f"    R²(adj)     = {M2.rsquared_adj:.4f}    N = {int(M2.nobs):,}    Clusters = {n_clusters}")
     print(f"\n  Lind-Mehlum U-test (FSTS range [{df_base['FSTS'].min():.2f}, {df_base['FSTS'].max():.2f}]):")
     print(f"    Slope at FSTS_min = {ut['slope_at_min']:>+8.4f}  (p={ut['p_low']:.4f})")
     print(f"    Slope at FSTS_max = {ut['slope_at_max']:>+8.4f}  (p={ut['p_high']:.4f})")
@@ -278,8 +296,10 @@ def run_wave(wave_year: int, raw_file: Path) -> tuple[pd.DataFrame, dict]:
         print(f"    FSTSsq×DAI_epay = {M4b.params['FSTSsq_x_DAIepay']:>+8.4f} (p={M4b.pvalues['FSTSsq_x_DAIepay']:.4f})")
 
     return df, {
-        "M0": M0, "M1": M1, "M2": M2, "M3": M3, "M4": M4, "M4b": M4b,
+        "M0": M0, "M1": M1, "M2": M2, "M2_cluster": M2_cluster,
+        "M3": M3, "M4": M4, "M4b": M4b,
         "utest": ut, "tp": tp, "n_base": len(df_base), "n_full": len(df_full),
+        "n_clusters": n_clusters,
     }
 
 
@@ -357,13 +377,35 @@ def main():
                         "ci_low_pct": t["ci_low"] * 100, "ci_high_pct": t["ci_high"] * 100})
     pd.DataFrame(tp_rows).to_csv(OUT_RES / "p9_india_turning_points.csv", index=False)
 
-    # Paternoster
+    # Paternoster — HC1 SE
     pd.DataFrame([
         {"term": "FSTS",   "b_2014": res[2014]["M2"].params["FSTS"],   "se_2014": res[2014]["M2"].bse["FSTS"],
          "b_2025": res[2025]["M2"].params["FSTS"],   "se_2025": res[2025]["M2"].bse["FSTS"],   "z_pat": z_FSTS,  "p_pat": p_FSTS},
         {"term": "FSTSsq", "b_2014": res[2014]["M2"].params["FSTSsq"], "se_2014": res[2014]["M2"].bse["FSTSsq"],
          "b_2025": res[2025]["M2"].params["FSTSsq"], "se_2025": res[2025]["M2"].bse["FSTSsq"], "z_pat": z_FSTS2, "p_pat": p_FSTS2},
     ]).to_csv(OUT_RES / "p9_india_paternoster.csv", index=False)
+
+    # Paternoster — cluster-robust SE (Cameron-Gelbach-Miller 2008)
+    z_FSTS_cl, p_FSTS_cl = paternoster_z(
+        res[2014]["M2_cluster"].params["FSTS"], res[2014]["M2_cluster"].bse["FSTS"],
+        res[2025]["M2_cluster"].params["FSTS"], res[2025]["M2_cluster"].bse["FSTS"],
+    )
+    z_FSTS2_cl, p_FSTS2_cl = paternoster_z(
+        res[2014]["M2_cluster"].params["FSTSsq"], res[2014]["M2_cluster"].bse["FSTSsq"],
+        res[2025]["M2_cluster"].params["FSTSsq"], res[2025]["M2_cluster"].bse["FSTSsq"],
+    )
+    pd.DataFrame([
+        {"term": "FSTS",   "b_2014": res[2014]["M2_cluster"].params["FSTS"],   "se_2014": res[2014]["M2_cluster"].bse["FSTS"],
+         "b_2025": res[2025]["M2_cluster"].params["FSTS"],   "se_2025": res[2025]["M2_cluster"].bse["FSTS"],   "z_pat": z_FSTS_cl,  "p_pat": p_FSTS_cl,
+         "n_clusters_2014": res[2014]["n_clusters"], "n_clusters_2025": res[2025]["n_clusters"]},
+        {"term": "FSTSsq", "b_2014": res[2014]["M2_cluster"].params["FSTSsq"], "se_2014": res[2014]["M2_cluster"].bse["FSTSsq"],
+         "b_2025": res[2025]["M2_cluster"].params["FSTSsq"], "se_2025": res[2025]["M2_cluster"].bse["FSTSsq"], "z_pat": z_FSTS2_cl, "p_pat": p_FSTS2_cl,
+         "n_clusters_2014": res[2014]["n_clusters"], "n_clusters_2025": res[2025]["n_clusters"]},
+    ]).to_csv(OUT_RES / "p9_india_paternoster_cluster.csv", index=False)
+
+    print(f"\n  Paternoster z (CLUSTER-ROBUST, state-level, ~24 clusters):")
+    print(f"    FSTS    z_cluster = {z_FSTS_cl:>+6.3f}, p = {p_FSTS_cl:.4f}")
+    print(f"    FSTSsq  z_cluster = {z_FSTS2_cl:>+6.3f}, p = {p_FSTS2_cl:.4f}")
 
     # U-test
     pd.DataFrame([
