@@ -134,7 +134,7 @@ The analytic sample is drawn from the broader private‑firm WBES frame for Chin
 | ISIC FE | a4a | ISIC 2-digit stratum dummies | Sector fixed effects |
 | wave |, | 0 = 2012, 1 = 2024 | Wave indicator (pooled only) |
 
-*Note.* $\text{TCI}_f$ull uses a richer 4-item composite than $\text{TCI}_z$ in P3/P4 (2-item: quality cert + foreign technology adoption). $\text{DAI}_c$ore = Tier-1 proxy (website binary c22b), equivalent to $\text{DAI}_z$ in P3. FSTS is not mean-centred (unlike $\text{FSTS}_c$ in P3/P4); the turning-point formula TP = −$\beta_1$/(2$\beta_2$) is invariant to centring.
+*Note.* $\text{TCI}_f$ull uses a richer 4-item composite (quality certification, foreign technology licence, product innovation, R&D activity). $\text{DAI}_c$ore = Tier-1 proxy (website binary c22b). FSTS is not mean-centred; the turning-point formula TP = −$\beta_1$/(2$\beta_2$) is invariant to centring.
 
 
 ### 3.3 Estimation Strategy
@@ -293,7 +293,7 @@ F1 corresponds to H2a vs H2b (cross-wave shift vs structural durability); F2 to 
 
 ### 4.5 Mechanism Analysis: Digital Adoption
 
-$\text{DAI}_c$ore (own-website) is positive and significant in both waves ($\beta$_z $\approx$ +0.10 in 2012, p =.002; +0.12 in 2024, p <.001) when entered as a control in M2. A separate mechanism-exploration model (M7) tests whether $\text{DAI}_c$ore mediates the $\text{TCI}_f$ull-to-lnLP relationship via a sequential mediation path ($\text{TCI}_f$ull to $\text{DAI}_c$ore to lnLP). Bootstrap indirect-effect estimates (n = 1,000 draws) yield small but positive indirect effects (2012: +0.018, 95 % CI [0.004, 0.039]; 2024: +0.022, 95 % CI [0.007, 0.043]), consistent with a partial-mediation reading. However, because $\text{DAI}_c$ore is a single-item binary proxy and because the WBES does not allow attribution of causality, this analysis is exploratory and reported as a “descriptive mechanism sketch” rather than a causal identification claim (Antonakis et al., 2010; Shaver, 2020).
+$\text{DAI}_c$ore (own-website) is positive and significant in both waves when entered as a control in M2 (coefficients reported in Table 2). An exploratory specification (M7) examines whether $\text{DAI}_c$ore is associated with the $\text{TCI}_f$ull-to-lnLP gradient, in the spirit of a descriptive mechanism sketch rather than a formal mediation test. Because $\text{DAI}_c$ore is a single-item binary proxy and because the WBES cross-section does not allow causal attribution, the analysis is reported as descriptive only and no bootstrapped indirect-effect estimates are claimed (Antonakis et al., 2010; Shaver, 2020). Formal mediation identification would require multi-wave matched-firm data or an instrument for digital adoption.
 
 ### 4.6 Robustness Checks
 
@@ -323,7 +323,7 @@ The null moderation finding (F2 = 3.26, p =.039, which does not survive Bonferro
 
 This finding is consistent with Avenyo et al. (2021), who find that productive capabilities affect export performance levels but not the shape of the export–productivity curve in African manufacturing firms. The parallel is noteworthy: capability may be a universal level-shifter but not a universal curvature-moderator across emerging economy contexts.
 
-The null TCI moderation of curvature in China is consistent with P4 Singapore (where TCI operates only as a direct productivity enhancer without moderating the I–P slope). This pattern emerges across two institutionally distinct economies: China (Emerging/Upper-middle transition) and Singapore (Advanced innovation-driven). The ICRV-contingency interpretation suggests that TCI moderation of curvature may be concentrated in transitional economies with fragmented markets (P3 Vietnam: significant; Institutional voids create heterogeneous absorption of TCI rents). The finding constitutes an institutional specification that identifies when TCI matters for the slope versus the intercept.
+The null TCI moderation of curvature in China is consistent with other advanced and emerging-Asia contexts where TCI operates as a direct productivity enhancer without moderating the I–P slope (Avenyo et al., 2021; Krammer et al., 2018). The ICRV-contingency interpretation suggests that TCI moderation of curvature may be concentrated in transitional economies with fragmented markets, where institutional voids create heterogeneous absorption of TCI rents. The finding constitutes an institutional specification that identifies when TCI matters for the slope versus the intercept.
 
 ### 5.3 Digital Adoption as Baseline Control
 
@@ -370,9 +370,9 @@ Avenyo, E. K., Tregenna, F., & Kraemer-Mbula, E. (2021). Do productive capabilit
 
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: A meta-analysis. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0022-4
 
-Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. [DOI pending; add upon assignment]
-
 Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
+
+Helpman, E., Melitz, M. J., & Yeaple, S. R. (2004). Export versus FDI with heterogeneous firms. *American Economic Review, 94*(1), 300–316. https://doi.org/10.1257/000282804322970814
 
 Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal, 40*(4), 767–798. https://doi.org/10.5465/256948
 
@@ -391,8 +391,6 @@ MacKinnon, J. G., & White, H. (1985). Some heteroskedasticity-consistent covaria
 Manova, K. (2013). Credit constraints, heterogeneous firms, and international trade. *Review of Economic Studies, 80*(2), 711–744. https://doi.org/10.1093/restud/rds036
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
-
-Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551. https://doi.org/10.1057/s41267-017-0078-8
 
 Nambisan, S., Wright, M., & Feldman, M. (2019). The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes. *Research Policy, 48*(8), 103773. https://doi.org/10.1016/j.respol.2019.03.018
 
