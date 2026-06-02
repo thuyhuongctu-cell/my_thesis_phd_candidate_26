@@ -118,7 +118,9 @@ H4b is a falsifiable prediction. If UPI as public infrastructure substitutes for
 
 ### 2.5 Conceptual model
 
-[Figure 1 placeholder — render via academic-conceptual-model-diagram skill]
+The conceptual model integrating H1 to H4b is summarised in Figure 1. The institutional scope condition forms an outer contextual frame that determines whether the inverted-U baseline holds (under stability) or dissolves (under shift). Within this frame, technological and digital capabilities moderate the relationship via three distinct pathways. Control variables (firm size, age, foreign ownership, and state fixed effects) condition the estimation but are not the focus of theoretical interest.
+
+**[Insert Figure 1 about here.]**
 
 ## 3. Data and Methods
 
