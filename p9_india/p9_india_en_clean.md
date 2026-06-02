@@ -167,7 +167,9 @@ Joint F-test on cross-wave interactions in pooled model provides a multi-coeffic
 
 ### 4.1 Descriptive statistics
 
-Sample sizes after listwise deletion on focal variables and firmage validation (capped at [0, 150]): 2014 N = 8,941; 2022 N = 9,300; 2025 N = 10,476. Mean export intensity declined from 7.2% (2014) to 8.0% (2022) to 2.7% (2025), consistent with India's post-2020 inward shift under Atmanirbhar Bharat. Productivity levels rose: mean lnLP = 13.93 (2014), 14.37 (2022), 15.01 (2025). DAI Tier-1 (website adoption) was 52.7% in 2014, 60.6% in 2022, but declined to 41.8% in 2025 (suggesting websites became less central as UPI absorbed customer-facing digital). DAI Tier-2 (e-payment % of sales) — measured only in 2025 — averaged 65.8%, indicating UPI saturation. Full descriptives in Table 1.
+Sample sizes after listwise deletion on focal variables and firmage validation (capped at [0, 150]): 2014 N = 8,941; 2022 N = 9,300; 2025 N = 10,476. Mean export intensity declined from 7.2 % (2014) to 8.0 % (2022) to 2.7 % (2025), consistent with India's post-2020 inward shift under Atmanirbhar Bharat. Productivity levels rose: mean lnLP = 13.93 (2014), 14.37 (2022), 15.01 (2025). DAI Tier-1 (website adoption) was 52.7 % in 2014, 60.6 % in 2022, but declined to 41.8 % in 2025, suggesting that websites became less central as UPI absorbed customer-facing digital interaction. DAI Tier-2 (e-payment share) — measured only in 2025 — averaged 65.8 %, indicating UPI saturation. Full descriptives are reported in Table 1.
+
+**[Insert Table 1 about here.]**
 
 ### 4.2 Wave-by-wave inverted-U estimation
 
@@ -187,7 +189,9 @@ Lind–Mehlum U-test joint p < 0.0001. TP = 40.7% [38.0%, 43.5%]. The 21-percent
 
 $$\ln\text{LP} = 14.24 - 0.36 \cdot \text{FSTS} - 0.16 \cdot \text{FSTS}^2 + \mathbf{X}\boldsymbol{\beta}$$
 
-The quadratic coefficient β₂ is no longer statistically distinguishable from zero (p = 0.42). The Lind–Mehlum U-test joint p = 0.99 fails to support inverted-U. The relationship has become **monotonically negative across the entire empirically relevant FSTS range**: the slope at FSTS_min is −0.36 (p = 0.02) and at FSTS_max is −0.68 (p = 0.005).
+The quadratic coefficient β₂ is no longer statistically distinguishable from zero (p = 0.42). The Lind–Mehlum U-test joint p = 0.99 fails to support inverted-U. The relationship has become **monotonically negative across the entire empirically relevant FSTS range**: the slope at FSTS_min is −0.36 (p = 0.02) and at FSTS_max is −0.68 (p = 0.005). Wave-by-wave M2 estimates are reported in Table 2. The three wave-specific predicted curves are visualised in Figure 2.
+
+**[Insert Table 2 and Figure 2 about here.]**
 
 ### 4.3 Cross-wave Paternoster z-tests (H2a vs H2b)
 
@@ -198,7 +202,9 @@ The Paternoster (1998) z-test for coefficient equality between 2014 and 2025 yie
 | FSTS | +1.86 (0.24) | −0.36 (0.15) | −7.94 | < 0.0001 | −3.50 | 0.0005 |
 | FSTS² | −1.51 (0.25) | −0.16 (0.20) | +4.17 | < 0.0001 | +2.19 | 0.029 |
 
-The cluster-robust specification uses state (WBES Sampling Region; ~24 clusters per wave) as the cluster unit, addressing within-state correlation that is well documented in Indian firm-level data (Burgess and Pande, 2005; Chodorow-Reich et al., 2020). Both standard-error specifications reject coefficient equality at conventional significance levels. **H2b (durability) is rejected**; **H2a (institutional shift) is supported**. Effect magnitudes are unchanged across specifications; statistical significance attenuates under clustering but remains substantively decisive. The shift magnitudes substantially exceed the cross-wave shifts documented in companion country evidence under comparable institutional change.
+The cluster-robust specification uses state (WBES Sampling Region; ~24 clusters per wave) as the cluster unit, addressing within-state correlation that is well documented in Indian firm-level data (Burgess and Pande, 2005; Chodorow-Reich et al., 2020). Both standard-error specifications reject coefficient equality at conventional significance levels. **H2b (durability) is rejected**; **H2a (institutional shift) is supported**. Effect magnitudes are unchanged across specifications; statistical significance attenuates under clustering but remains substantively decisive. Figure 3 visualises the turning-point estimates with 95 % delta-method confidence intervals for the 2014 and 2022 waves and the 2025 collapse.
+
+**[Insert Figure 3 about here.]**
 
 ### 4.4 Three-wave pooled robustness
 
@@ -219,7 +225,9 @@ The linear-trend specification yields FSTS × trend = −0.10 (p < 0.001), confi
 
 **DAI Tier-1 (website binary).** Significant positive main effect in all three waves (β ≈ +0.38 to +0.39). FSTS × DAI_core interaction was insignificant in 2014, became positive significant in 2022 (FSTS × DAI = +1.43, p = 0.02), and lost significance in 2025 — consistent with website's diminishing marginal role as UPI absorbed digital interaction.
 
-**DAI Tier-2 (e-payment, 2025 only — UPI quasi-experiment).** The interaction is **negative**: FSTS × DAI_epay = −4.02 (p = 0.004); FSTS² × DAI_epay = +3.39 (p = 0.10). Among firms with high UPI e-payment adoption, productivity declines more steeply with export intensity. H4b (Tier-2 dominates Tier-1) is **refuted**: UPI public infrastructure does NOT substitute for the cross-border financial infrastructure exporters require. UPI rails are rupee-denominated and domestically oriented, whereas exporters need SWIFT, correspondent banking, and trade finance instruments — distinct infrastructure not subsidised by India's domestic-digital-public-infrastructure stack.
+**DAI Tier-2 (e-payment, 2025 only — UPI quasi-experiment).** The interaction is **negative**: FSTS × DAI_epay = −4.02 (p = 0.004); FSTS² × DAI_epay = +3.39 (p = 0.10). Among firms with high UPI e-payment adoption, productivity declines more steeply with export intensity. H4b (Tier-2 dominates Tier-1) is **refuted**: UPI public infrastructure does NOT substitute for the cross-border financial infrastructure exporters require. UPI rails are rupee-denominated and domestically oriented, whereas exporters need SWIFT, correspondent banking, and trade finance instruments — distinct infrastructure not subsidised by India's domestic-digital-public-infrastructure stack. The full capability-moderation estimates are reported in Table 4. The temporal relationship between UPI rollout and the WBES survey waves is visualised in Figure 4.
+
+**[Insert Table 4 and Figure 4 about here.]**
 
 ### 4.6 Robustness checks
 
@@ -235,7 +243,9 @@ We re-estimate the M2 specification on five alternative sub-samples and one alte
 
 **(R4) Alternative dependent variable.** Replacing ln(labour productivity) with standardised labour productivity in levels (sales-per-worker, z-standardised within wave to manage scale) yields TP = 54.4 % in 2014 (with Lind–Mehlum joint test borderline at p = 0.048), TP = 41.5 % in 2022 (inverted-U supported), and collapsed curvature in 2025 (β₂ = +0.03, p = 0.90). The 2022 pattern is robust to the level-vs-log specification; the 2014 inverted-U weakens at the boundary; the 2025 collapse is preserved.
 
-**Summary across robustness specifications.** Of the five specifications applied to the headline cross-wave shift finding, four (R1, R2, R3b, R4) confirm the qualitative pattern of inverted-U presence in 2014 and 2022 with disappearance in 2025; the fifth (R3a) confirms presence in 2022 and disappearance in 2025 but reveals that the 2014 inverted-U is concentrated in larger firms rather than universal across firm sizes. The cross-wave Paternoster z-tests are robust to manufacturing-only sub-sampling. Full robustness output is reported in Online Appendix B.
+**Summary across robustness specifications.** Of the five specifications applied to the headline cross-wave shift finding, four (R1, R2, R3b, R4) confirm the qualitative pattern of inverted-U presence in 2014 and 2022 with disappearance in 2025; the fifth (R3a) confirms presence in 2022 and disappearance in 2025 but reveals that the 2014 inverted-U is concentrated in larger firms rather than universal across firm sizes. The cross-wave Paternoster z-tests are robust to manufacturing-only sub-sampling. Full robustness output is reported in Table 5.
+
+**[Insert Table 5 about here.]**
 
 ## 5. Discussion
 
