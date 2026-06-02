@@ -4,19 +4,19 @@
 
 ## Abstract
 
-**Purpose.** This study examines how technological capability and foundational digital adoption relate to the internationalization–performance (I-P) relationship among firms in Singapore, treating Singapore as a boundary-case test at the advanced-economy ceiling of the institutional spectrum.
+**Purpose.** Examines how technological capability and foundational digital adoption relate to the I-P relationship in Singapore, treated as a boundary-case test at the advanced-economy ceiling.
 
-**Design/methodology/approach.** Drawing on World Bank Enterprise Survey microdata for Singapore 2023, the analysis distinguishes a Technological Capability Index (TCI) from a Digital Adoption Index (DAI) at the Tier 1–2 level. Wave-specific OLS with HC1 robust standard errors, quadratic FSTS terms, and capability $\times$ FSTS interactions test the I-P functional form and the two capability moderation channels.
+**Design/methodology/approach.** WBES Singapore 2023 (N = 623; DAI subsample N = 617). OLS with HC1 robust SEs, quadratic FSTS, and capability $\times$ FSTS interactions. Separates a Technological Capability Index from a Tier 1–2 Digital Adoption Index.
 
-**Findings.** Within the observed export-intensity range, the I-P relationship is better characterised as predominantly positive with mild quadratic curvature than as a formally identified inverted-U; the fitted turning point sits at $\mathrm{FSTS}\approx 82\%$ in a sparsely populated upper tail. Technological capability is positively associated with labour productivity, with no statistically distinguishable TCI moderation. Foundational digital adoption shows no uniform productivity premium, but a robust positive DAI $\times \mathrm{FSTS}^2$ interaction ($\beta$ = +3.119, p = .005) indicates that its productivity association strengthens at higher export intensity.
+**Findings.** Within the observed FSTS range the I-P relationship is predominantly positive with mild curvature; the fitted turning point sits at $\mathrm{FSTS}\approx 82\%$ in a sparse upper tail. TCI is positive without significant moderation. DAI has no uniform productivity premium but a robust positive $\mathrm{FSTS}^2 \times \mathrm{DAI}$ interaction ($\beta$ = +3.119, p = .005).
 
-**Research limitations/implications.** Single-wave Singapore cross-section limits causal claims to associations; the high-export tail is sparsely populated ($\approx$3% of firms above 50% FSTS), constraining inference on the right-side decline. Findings should be read as boundary-case evidence for digitally advanced economies rather than a general claim.
+**Research limitations/implications.** Single-wave cross-section; the high-export tail is sparse ($\approx$3% above 50% FSTS).
 
-**Practical implications.** In digitally saturated economies like Singapore, Tier 1–2 digital tools (websites, electronic payment) function as hygiene factors domestically but become scaling levers under cross-border coordination demands. Singaporean export-promotion programmes (Enterprise Singapore, IMDA) should treat foundational digital adoption as an export-readiness condition rather than a productivity premium per se, and prioritise Tier 3–4 capabilities (ERP integration, AI-enabled operations) for productivity uplift across the firm population.
+**Practical implications.** In digitally saturated economies, Tier 1–2 tools are hygiene factors domestically but scaling levers under cross-border demands. Enterprise Singapore / IMDA should treat DAI as export-readiness, prioritising Tier 3–4 for uplift.
 
-**Social implications.** The conditional-resource reading of foundational digital adoption recalibrates expectations under Singapore's Smart Nation Agenda: digital diffusion alone is insufficient for productivity convergence; complementary export-orientation policies are needed for digital investments to translate into broad-based firm-level productivity gains.
+**Social implications.** Under Singapore's Smart Nation Agenda, digital diffusion alone is insufficient for productivity convergence.
 
-**Originality/value.** This is the first firm-level WBES-based test that separates TCI (capability depth) from DAI (digital interfaces) within the same Singapore sample and identifies a *digital saturation paradox*: in digitally mature economies, the conditional digital complementarity mechanism is most legible precisely because domestic saturation removes the uniform-premium effect and leaves only the export-contingent signal. The findings qualify rather than overturn the conventional nonlinear I-P literature and complement cross-Asian threshold-stability evidence (companion studies on Vietnam, China, and Pacific SIDS).
+**Originality/value.** First firm-level test separating TCI from DAI in Singapore, identifying a *digital saturation paradox*: conditional digital complementarity is most legible where saturation removes the uniform-premium effect.
 
 **Keywords:** internationalisation–performance; digital adoption; technological capability; export intensity; labour productivity; Singapore; advanced Asian economies.
 

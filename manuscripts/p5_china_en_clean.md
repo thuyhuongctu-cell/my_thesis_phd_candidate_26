@@ -20,19 +20,19 @@
 
 ## Abstract
 
-**Purpose.** This study examines whether the inverted-U relationship between export intensity and firm performance among Chinese private firms is structurally durable or wave-specific, and clarifies the roles of technological capability and foundational digital adoption.
+**Purpose.** Examines whether the inverted-U between export intensity and firm performance among Chinese private firms is structurally durable or wave-specific, and clarifies the roles of technological capability and Tier-1 digital adoption.
 
-**Design/methodology/approach.** Drawing on World Bank Enterprise Survey microdata for China (2012, N = 2,610; 2024, N = 1,934; pooled N = 4,544), we estimate quadratic models with full cross-wave and capability interactions.
+**Design/methodology/approach.** WBES China 2012 (N = 2,610) and 2024 (N = 1,934); pooled N = 4,544. Quadratic models with cross-wave and capability interactions.
 
-**Findings.** Paternoster z-tests do not reject cross-wave equality (FSTS z = +0.82, p = .412; $\text{FSTS}^2$ z = −0.61, p = .545); the pooled joint F-test is null (F(2, 3,558) = 2.24, p = .107). Turning points remain in a tight 47–49 % band (49.4 % in 2012; 47.2 % in 2024; 48.8 % pooled) with overlapping CIs. Technological capability is robustly productivity-enhancing in both waves ($\beta_z$ = +0.28 and +0.43, p < .001) and a Tier-1 website proxy is positive in 2024 and pooled, but neither moderates curvature (capability×curvature F = 3.26, p = .039 marginal; three-way F = 0.27, p = .760).
+**Findings.** Paternoster z-tests do not reject equality (FSTS z = +0.82, p = .412; $\text{FSTS}^2$ z = −0.61, p = .545); joint F-test null (p = .107). Turning points remain at 47–49% with overlapping CIs. TCI is robustly positive ($\beta_z$ = +0.28 and +0.43); Tier-1 website proxy positive in 2024; neither moderates curvature (three-way F = 0.27, p = .760).
 
-**Research limitations/implications.** The repeated cross-section design supports associational inference only; within-firm causal identification is not possible. The 217 panel firms common to both waves are under-utilised here and identified as a target for future panel-based extensions. Tier-1 digital indicators saturate the data; richer Tier-2/3 instruments are needed for stronger moderation tests.
+**Research limitations/implications.** Repeated cross-sections support associational inference; Tier-1 digital indicators saturate the data.
 
-**Practical implications.** For Chinese private firms, the 47–49% FSTS turning-point band is *structurally durable* across the 12-year window, indicating that long-horizon investment planning can treat this threshold as a stable benchmark rather than a moving target. The null capability moderation suggests that productivity-driven export-intensity expansion strategies should not rely on technology investment alone to push the threshold; complementary structural factors (market access, trade finance) drive threshold location.
+**Practical implications.** The 47–49% band is *structurally durable* across 12 years — a stable benchmark for long-horizon planning. Capability investment alone does not move the threshold; complementary trade-finance and market-access factors do.
 
-**Social implications.** The threshold-durability finding has implications for China's Belt and Road Initiative and dual-circulation economic policy: the firm-level optimum export-intensity range is institutionally embedded and stable, suggesting policy efforts to push average export intensity above the durable threshold may misallocate productive capacity. Cross-country evidence in companion work indicates these patterns may generalise to other Asian emerging economies.
+**Social implications.** For China's Belt and Road and dual-circulation policy: pushing above the durable threshold may misallocate productive capacity.
 
-**Originality/value.** Structural durability (H2b) is confirmed over environmental shift (H2a): despite substantial structural change between 2012 and 2024 (post-GFC trade re-equilibration, China–US tariff escalation, COVID-19, digital infrastructure maturation), the Chinese I–P trade-off is durably structural rather than wave-specific. The within-country temporal-stability finding informs the cross-country meta-analytic heterogeneity puzzle: institutional context, not within-country evolution, may drive most observed effect-size variation.
+**Originality/value.** H2b (structural durability) is confirmed over H2a (environmental shift) despite 12 years of substantial change. Informs the cross-country meta-analytic heterogeneity puzzle.
 
 **Keywords:** internationalisation–performance; export intensity; threshold stability; technological capability; digital adoption; Chinese private firms; World Bank Enterprise Survey.
 

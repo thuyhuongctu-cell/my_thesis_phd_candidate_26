@@ -19,6 +19,8 @@
 
 **Keywords:** internationalization–performance; meta-analysis; three-level model; digital adoption; institutional context; publication bias
 
+**JEL classification:** F23 (multinational firms; international business); C83 (survey methods; sampling methods); O33 (technological change: choices and consequences); D22 (firm behaviour: empirical analysis); L25 (firm performance).
+
 **Paper type:** Research paper (meta-analysis)
 
 ---

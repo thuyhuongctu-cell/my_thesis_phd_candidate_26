@@ -18,19 +18,19 @@
 
 ## Abstract
 
-**Purpose.** This study revisits the internationalisation–performance relationship in Vietnam across three survey waves, testing whether technological capability moderates export-intensity effects and tracing how a Tier-1 digital indicator evolves across institutional generations.
+**Purpose.** Revisits the internationalisation–performance (I-P) relationship in Vietnam across three survey waves, testing whether technological capability moderates export-intensity effects and how a Tier-1 digital indicator evolves across institutional generations.
 
-**Design/methodology/approach.** Three waves of the World Bank Enterprise Survey (Vietnam 2009, 2015, 2023; N = 2,958) underpin wave-specific and pooled OLS models with HC1 robust standard errors, quadratic FSTS terms, and capability interactions. The Technological Capability Index (TCI: quality certification, foreign-licensed technology) is the primary construct; a Tier-1 website-presence indicator serves as the digital-adoption control. Lind–Mehlum U-tests verify the inverted-U; Paternoster z-tests evaluate cross-wave coefficient equality.
+**Design/methodology/approach.** Three WBES waves (Vietnam 2009, 2015, 2023; N = 2,958); wave-specific and pooled OLS with HC1 robust SEs, quadratic FSTS, and capability interactions. Lind–Mehlum U-tests and Paternoster z-tests assess the inverted-U and cross-wave equality.
 
-**Findings.** An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46% — a band that stays durable over 14 years of institutional change. The nonlinearity traces to a participation-margin effect: restricted to exporters, the quadratic term loses significance ($\beta$ = −0.200, p = .660). TCI positively moderates productivity and the I–P curvature across waves, while the website indicator follows a proxy-obsolescence trajectory: positive in 2009, null in 2015, negatively interactive in 2023.
+**Findings.** Inverted-U holds in all waves with turning points at 39–46% — durable over 14 years. The nonlinearity is a participation-margin step: in the exporters-only subsample the quadratic loses significance ($\beta$ = −0.200, p = .660). TCI is positive across waves; the website indicator shows proxy obsolescence (positive 2009, null 2015, negatively interactive 2023).
 
-**Research limitations/implications.** The repeated-cross-section design supports associational inference only; within-firm causal identification is not possible. The 217 panel firms common to 2012 and 2024 are under-utilised here and identified as a target for future panel-based work. Findings on the website indicator reflect a single binary measure; richer Tier-2/3 digital instruments are needed for cleaner capability-moderation tests.
+**Research limitations/implications.** Repeated cross-sections support associational inference only; Tier-1 single-binary measurement constrains moderation tests.
 
-**Practical implications.** For Vietnamese SMEs, the 39–46% FSTS band defines a bounded operating range within which export expansion remains productivity-enhancing; expansion beyond this band requires complementary capability investment. For policy makers under Decision 749/QĐ-TTg (National Digital Transformation Programme to 2030), Tier-1 website-presence indicators have saturated and are no longer useful as policy targets; the next phase of programme design must shift to Tier-2/3 digital capabilities (e-commerce platforms, ERP, AI-augmented operations).
+**Practical implications.** 39–46% FSTS is a bounded operating range for Vietnamese SMEs; Tier-1 website indicators have saturated under Decision 749/QĐ-TTg — programmes should shift to Tier-2/3 capabilities.
 
-**Social implications.** The participation-margin reading of the I-P inverted-U reframes Vietnamese SME export-promotion design from "internationalise to grow" to "build prerequisites first, then internationalise within the bounded range" — with direct implications for the equity of MOIT export-support disbursements across firm size and digital-readiness segments.
+**Social implications.** Reframes SME export-promotion from "internationalise to grow" to "build prerequisites first," with implications for MOIT export-support equity.
 
-**Originality/value.** In this zero-inflated setting the inverted-U reflects a participation-barrier step function rather than intensity saturation, and pooled Tier-1 digital coefficients mask progressive proxy obsolescence. Because the turning-point cluster (39–46% FSTS) is institutionally embedded, the debate moves from "does internationalisation help?" to "under what institutional conditions does the threshold shift?" — qualifying rather than overturning the cross-national I-P skepticism of Pisani, Garcia-Bernardo and Heemskerk (2020, Strategic Management Journal).
+**Originality/value.** The inverted-U here is a participation-barrier step function; Tier-1 coefficients mask proxy obsolescence. The 39–46% band qualifies — not overturns — Pisani et al. (2020, SMJ).
 
 Keywords: internationalisation–performance; emerging markets; technological capability; threshold durability; Vietnam; firm productivity.
 
@@ -41,20 +41,16 @@ O53 (economywide country studies: Asia including Middle East).
 Paper type: Research paper.
 
 ## Highlights
- The internationalisation–performance relationship in Vietnamese firms is robustly nonlinear: the Lind–Mehlum test rejects monotonicity in all three waves (2009 p = .006, 2015 p
-= .009, 2023 p = .013) and in the pooled sample (p < .001), with turning points clustered
-between 39 and 46 % of direct-export intensity.
 
- Technological capability is the primary capability construct: $\text{TCI}_z$ is the within-wave standardised mean of quality certification and foreign-licensed technology. A single-item website-presence indicator ($\text{DAI}_z$, Tier 1 only) is retained as a baseline digital-presence control given the WBES Vietnam measurement constraint; the two share no items.
+- Inverted-U export-intensity threshold holds in Vietnamese firms across 3 waves (2009/2015/2023).
 
- $\text{TCI}_z$ is positively associated with productivity in all three waves ($\beta$ = 0.215, 0.128, 0.123) and pooled ($\beta$ = 0.179, p < .001), and moderates the curvature in three of four panels (M3 joint p = .040, .713, .027 and .003).
+- Turning points cluster at 39–46 % FSTS — a band durable through 14 years of institutional change.
 
- The inverted-U turning point is structurally durable across waves: range 39.3–46.2 % across 2009 / 2015 / 2023 (pooled 39.7 %), a ~7-percentage-point band sustained through WTO accession (2007), the Global Financial Crisis (2008–2009), CPTPP/EVFTA implementation (2018–2020), the COVID-19 disruption (2020–2022), and the diffusion of digital-payment infrastructure.
+- The nonlinearity is a step function across the export-participation barrier, not within-exporter saturation.
 
- **The inverted-U is fundamentally a step function across the export-participation barrier rather than a continuous within-exporter saturation curve**: re-fitted on the exporter-only sub-sample (FSTS > 0; pooled N = 669), the quadratic FSTS term loses significance ($\beta$ = -0.200, p = .660); only ~1.0 % of pooled firms sit within $\pm$5 percentage-points of the turning point. The productivity-relevant friction in a transitional economy binds at the participation margin, not within-exporter intensity.
+- TCI is positively associated with productivity and moderates curvature in three of four panels.
 
- The baseline website-presence indicator is descriptively positive in 2009 ($\beta$ = 0.175), null in 2015 ($\beta$ = -0.044), and positive in 2023 ($\beta$ = 0.095); the negative $\text{DAI} \times \text{FSTS}$ interaction observed only in 2023 ($\text{FSTS}_c \times \text{DAI}_z$ = -0.912, p = .043) is read as Tier-1 proxy obsolescence as website ownership diffuses to near-universal levels (49.8 % in 2023 vs 42.5 % in 2009), not as evidence on dynamic digital capability moderation.
-
+- Tier-1 website indicator follows proxy-obsolescence: positive 2009, null 2015, negatively interactive 2023.
 
 
 ## 1. Introduction

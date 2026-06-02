@@ -18,19 +18,19 @@
 
 ## Abstract
 
-**Purpose.** This study tests whether the canonical inverted-U between internationalization intensity and firm performance survives in Pacific Small Island Developing States (SIDS), and develops the Forced Internationalization Penalty (FIP) as a structural boundary condition on the inverted-U framework.
+**Purpose.** Tests whether the canonical inverted-U survives in Pacific Small Island Developing States (SIDS) and develops the Forced Internationalization Penalty (FIP) as a structural boundary condition.
 
-**Design/methodology/approach.** Using World Bank Enterprise Survey microdata from 1,469 firms across nine Pacific SIDS (2009–2025; 187 exporters), we estimate four OLS specifications with country-and-year fixed effects, year-only fixed effects, an exporters-only subsample, and a Heckman selection correction. The FSTS coefficient on labour productivity is the focal parameter; quadratic curvature is tested via Lind–Mehlum U-tests.
+**Design/methodology/approach.** WBES from 1,469 firms across nine Pacific SIDS (2009–2025; 187 exporters). Four OLS specifications: country-and-year FE; year-only FE; exporters-only; Heckman selection. Lind–Mehlum tests for quadratic curvature.
 
-**Findings.** Internationalization intensity is robustly negatively associated with labour productivity in Pacific SIDS ($\beta$ = −0.404, p = .032, primary specification; $\beta$ = −1.236, p < .001, year-FE only; $\beta$ = −0.901, p = .027, exporters-only). The quadratic FSTS term is null in every specification, with no observable turning point in the data range. Technological capability and digital adoption — significant moderators in mainland Asia — are null here. The three structural prerequisites of the inverted-U (viable domestic market, manageable trade costs, functional institutions) are simultaneously absent, producing the FIP signature.
+**Findings.** Internationalisation is robustly negatively associated with productivity ($\beta$ = −0.404, p = .032; −1.236, p < .001; −0.901, p = .027 across specifications). Quadratic FSTS null in every specification — no turning point. TCI and DAI moderators null. The three structural prerequisites (viable home market, manageable trade costs, functional institutions) are simultaneously absent.
 
-**Research limitations/implications.** Sample power is constrained at 187 exporters; the exporter-pool finding should be read as directional. The FIP framework opens a research agenda on whether other extreme-developing contexts (landlocked LDCs, post-conflict economies) exhibit comparable boundary conditions.
+**Research limitations/implications.** Power constrained at 187 exporters; opens research on other extreme-developing contexts (landlocked LDCs, post-conflict economies).
 
-**Practical implications.** The findings caution against export-intensity targets in Pacific SIDS export-promotion programmes; complementary structural reforms (trade-cost reduction, institutional capacity-building) are prerequisites for any positive I-P returns.
+**Practical implications.** Cautions against export-intensity targets in Pacific SIDS programmes; complementary structural reforms are prerequisites for positive I-P returns.
 
-**Social implications.** Under the Antigua and Barbuda Agenda for SIDS (UN General Assembly, 2024), the findings recalibrate sustainable-development policy expectations: SIDS firms cannot be expected to "internationalize their way out of" structural constraints; export-led-growth strategies premised on the inverted-U may systematically misallocate development assistance.
+**Social implications.** Under the Antigua and Barbuda Agenda (UNGA 2024), SIDS firms cannot "internationalise their way out of" structural constraints.
 
-**Originality/value.** The paper provides the first firm-level operationalization of the SIDS macro-vulnerability framework (Briguglio, 1995; Bertram, 2006; Briguglio et al., 2009) and shifts the theoretical conversation from "institutional moderation of I-P intensity" to "institutional determination of I-P sign" — a qualitative, not merely quantitative, departure. Of 1,745 published WBES-based IB studies, zero have covered Pacific SIDS at the firm level.
+**Originality/value.** First firm-level operationalisation of the SIDS macro-vulnerability framework. Shifts the debate from "institutional moderation of I-P intensity" to "institutional determination of I-P sign." Of 1,745 WBES-based IB studies, zero covered Pacific SIDS.
 
 **Keywords:** forced internationalization; small island developing states; firm performance; institutional voids; Pacific economies; labour productivity.
 
