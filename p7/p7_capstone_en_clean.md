@@ -24,7 +24,7 @@ The same export-intensity decision that lifts a firm in one economy depresses it
 
 This paper addresses that gap. This study pools 98,658 firm-observations from 45 Asian and Pacific economies spanning 2003–2025, harmonised from the World Bank Enterprise Survey (WBES); after imposing non-missing productivity and export-intensity requirements, the baseline estimation sample is 82,302 firm-observations (falling to 28,500 in the fully specified model M11). The sample spans all six ICRV regime groups, from advanced innovation-driven economies (Singapore, Korea, Taiwan, HongKong, Israel) to Pacific Small Island Developing States (Vanuatu, Solomon Islands, Fiji, Tonga, Samoa, Kiribati, Papua New Guinea, Timor-Leste) and Gulf advanced-resource economies (Bahrain, Kuwait, Qatar, Brunei, Saudi Arabia), classified through the Institutional Context Regime Variation (ICRV) framework that anchors a broader multi-country research programme of which this study is part.
 
-The contributions of this study are theoretical, not merely empirical. First, this study advances a *relocated-optimum* account of the I–P relationship: the inverted-U is universal in form, but its curvature is endogenous to the institutional regime, deepening as institutional quality declines (confirmed across specifications at N = 82,302–28,500; M11: TP = 25.7%, Lind–Mehlum p =.026). This reframes the long-running "is it an inverted-U?" debate as a question about the *determinants of the optimum's location*, and reconciles otherwise conflicting country evidence within a single curve. Second, this study theorises and test *digital-for-institutional substitution*: the curve-reshaping potency of digital adoption is significantly greater where formal institutions are weaker ($\text{DAI} \times \text{ICRV}$, p =.049), positioning foundational digital capability as a partial substitute for institutional infrastructure in converting exports into performance, a multi-economy extension of the institutional-voids logic (Khanna & Palepu, 1997) into the digital domain. Third, this study formalises the Institutional Context Regime Variation (ICRV) framework as a firm-relevant contingency construct that orders economies jointly by institutional capability and exposure to resource vulnerability, and show that it predicts both the slope and the curvature of the I–P function, distinguishing the curve-*relocating* role of institutions (H5) from the level-*shifting* role of firm capabilities such as technological capability (TCI). Taken together, these contributions move the multi-country I–P literature from cataloguing heterogeneous effects toward a parsimonious, jointly-determined account of when and where internationalization pays.
+The contributions of this study are theoretical, not merely empirical. First, this study advancess a *relocated-optimum* account of the I–P relationship: the inverted-U is universal in form, but its curvature is endogenous to the institutional regime, deepening as institutional quality declines (confirmed across specifications at N = 82,302–28,500; M11: TP = 25.7%, Lind–Mehlum p =.026). This reframes the long-running "is it an inverted-U?" debate as a question about the *determinants of the optimum's location*, and reconciles otherwise conflicting country evidence within a single curve. Second, this study theorises and tests *digital-for-institutional substitution*: the curve-reshaping potency of digital adoption is significantly greater where formal institutions are weaker ($\text{DAI} \times \text{ICRV}$, p =.049), positioning foundational digital capability as a partial substitute for institutional infrastructure in converting exports into performance, a multi-economy extension of the institutional-voids logic (Khanna & Palepu, 1997) into the digital domain. Third, this study formalises the Institutional Context Regime Variation (ICRV) framework as a firm-relevant contingency construct that orders economies jointly by institutional capability and exposure to resource vulnerability, and shows that it predicts both the slope and the curvature of the I–P function, distinguishing the curve-*relocating* role of institutions (H5) from the level-*shifting* role of firm capabilities such as technological capability (TCI). Taken together, these contributions move the multi-country I–P literature from cataloguing heterogeneous effects toward a parsimonious, jointly-determined account of when and where internationalization pays.
 
 The remainder of the paper is organised as follows. Section 2 develops the theoretical framework and formal hypotheses. Section 3 describes data and methods. Section 4 presents results. Section 5 discusses implications and limitations. Section 6 concludes.
 
@@ -291,8 +291,6 @@ Generative AI tools were used during manuscript preparation to assist with langu
 
 ## References
 
-Aiken, L. S., & West, S. G. (1991). *Multiple regression: Testing and interpreting interactions*. Sage.
-
 Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120. https://doi.org/10.1177/014920639101700108
 
 Buchhave, H., Nguyen, C. V., Vu, C., Nguyen, G. T., & Zumbyte, I. (2026). *Care for growth: Making industrial jobs work for women in Viet Nam* (Policy Summary Note). World Bank Group & Australian Aid.
@@ -315,8 +313,6 @@ Contractor, F. J., Kumar, V., & Kundu, S. K. (2007). Nature of the relationship 
 
 Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home country uncertainty and the internationalization-performance relationship: Building an uncertainty management capability. *Journal of World Business, 53*(2), 209–221. https://doi.org/10.1016/j.jwb.2017.11.003
 
-Dawson, J. F. (2014). Moderation in management research: What, why, when, and how. *Journal of Business and Psychology, 29*(1), 1–19. https://doi.org/10.1007/s10869-013-9308-7
-
 Authors. (2024). *Internationalization and firm performance: A meta-analysis for Asia-Pacific economies*. Paper presented at an international conference on business, economics, and finance. [Author details removed for blind review.]
 
 Gomes, L., & Ramaswamy, K. (1999). An empirical examination of the form of the relationship between multinationality and performance. *Journal of International Business Studies, 30*(1), 173–187. https://doi.org/10.1057/palgrave.jibs.8490065
@@ -328,8 +324,6 @@ Hall, P. A., & Soskice, D. (2001). *Varieties of capitalism: The institutional f
 Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of Management Review, 32*(2), 334–343. https://doi.org/10.5465/amr.2007.24345254
 
 Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
-
-Hayes, A. F. (2018). *Introduction to mediation, moderation, and conditional process analysis: A regression-based approach* (2nd ed.). Guilford Press.
 
 International Finance Corporation. (2022, December). *Mind the gaps: Women in leadership in Viet Nam's banking sector*. IFC, World Bank Group.
 
@@ -348,6 +342,8 @@ Long, J. S., & Ervin, L. H. (2000). Using heteroscedasticity consistent standard
 Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
 
 Marano, V., Tashman, P., & Kostova, T. (2016). Escaping the iron cage: Liabilities of origin and CSR reporting of emerging market multinational enterprises. *Journal of International Business Studies, 47*(3), 386–408. https://doi.org/10.1057/jibs.2016.7
+
+Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551. https://doi.org/10.1057/s41267-017-0078-8
 
 Mondal, A., Gupta, S., & Ray, S. (2022). Family ownership, governance, and internationalization: Evidence from India. *Journal of Business Research, 138*, 423–434.
 
