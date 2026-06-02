@@ -47,14 +47,14 @@
 
 | Item | Count |
 |------|-------|
-| Word count (main text) | ~9,000 words |
+| Word count (main text) | 11,129 words |
 | Abstract | ~300 words |
 | Tables | 5 (+ appendices) |
 | Figures | 5 |
 | Studies (k) | 238 |
 | Effect sizes | 288 (pre-formal-search baseline) |
-| Baseline pooled r | 0.075 (95% CI [0.061, 0.089]) |
-| I² total | 62.4% |
+| Baseline pooled r | 0.074 (95% CI [0.060, 0.088]) |
+| I² total | 87.8% (I²₍₂₎ = 76.1%, I²₍₃₎ = 11.8%) |
 
 ---
 
@@ -74,3 +74,28 @@ Main markdown: `p6/p6_meta_manuscript_en.md`
 Study database: `p6/p6_study_database_coded.md`
 R scripts: `p6/scripts/`
 Replication: `p6/tools/`
+
+
+---
+
+## ⚠ TARGET JOURNAL — under review (2026-06-02)
+
+Per lfe-academic-reviewer Phase A1: package directory is `ibr_package/` but
+manuscript header (line 5) says MIR; PRISMA checklist says MRQ. Three-way
+contradiction must be resolved before submission. Default per NCS preference:
+**MIR (Management International Review, Springer, Scopus Q1, ABS-3)** —
+matches manuscript header and Emerald-vs-Springer abstract format better.
+
+If MIR confirmed:
+- Rename package folder to `mir_package/`
+- Update cover letter to EiC Wiley → Springer Nature
+- Update keywords/JEL for MIR (no JEL required) and PRISMA position
+
+If MRQ confirmed (Management Review Quarterly):
+- Convert structured abstract to MRQ format (typically structured)
+- MRQ word cap ~12,000 — OK
+- MRQ is Springer ABS-1, more receptive to single-coder mitigations
+
+If IBR retained:
+- Convert structured abstract to IBR unstructured narrative
+- Cite Hunter-Schmidt + Geyskens (2009) (standard IB meta-analysis refs)
