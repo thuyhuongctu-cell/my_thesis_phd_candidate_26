@@ -333,96 +333,43 @@ negative $\text{FSTS}_c \times \text{DAI}_z$ interaction suggests that this cond
 higher export intensity rather than uniformly across the export-intensity range.
 
 ### 4.2 Pooled findings
-The pooled estimates are consistent with a nonlinear internationalisation–performance relationship on average. In the pooled M2 specification, the linear $\text{FSTS}_c$ term is positive ($\beta$ = 0.984, p <.001) and the quadratic $\text{FSTS}_c^2$ term is negative ($\beta$ = -1.909, p <.001); the Lind–Mehlum test rejects monotonicity at p <.001 with an estimated turning point at 39.7 per cent of direct-export intensity. Following Haans, Pieters, and He (2016), all four formal conditions for a genuine inverted-U are met: (C1) $\beta_1$ = +0.984 (p <.001), confirming a positive ascending limb; (C2) $\beta_2$ = −1.909 (p <.001), confirming concavity; (C3) TP* = −$\beta_1$/(2$\beta_2$) = 39.7% falls within the observed FSTS range [0%, 100%]; and (C4) the predicted marginal return of internationalisation is positive at the lower data bound (FSTS = 0%, slope $\approx$ +1.52) and negative at the upper data bound (FSTS = 100%, slope $\approx$ −2.30), with opposite signs confirmed by the Lind–Mehlum (2010) u-test (p <.001 binding). The curvature persists in the full M8 specification ($\text{FSTS}_c$ $\beta$ = 0.845, p =.006; $\text{FSTS}_c^2$ $\beta$ = -1.650, p <.001); the positive linear and negative quadratic coefficients are jointly consistent with the inverted-U pattern, consistent with H1 and aligning with the meta-analytic evidence on the nonlinear shape of internationalisation returns in emerging-market firms (Marano et al., 2016).
-*Table 4b, Marginal effect of internationalisation on ln(labour productivity) at selected FSTS values (pooled M2, N = 2,958)*
 
-| FSTS level | FSTSc (centred) | Marginal effect dy/dFSTS | Direction |
-|---|---|---|---|
-| 10% | −0.039 | +1.13 | Positive (ascending) |
-| 20% | +0.061 | +0.75 | Positive (ascending) |
-| 30% | +0.161 | +0.37 | Positive, declining |
-| **39.7%** | **+0.258** | **0.00** | **Turning point (TP*)** |
-| 50% | +0.361 | −0.39 | Negative (descending) |
-| 60% | +0.461 | −0.78 | Negative |
-| 70% | +0.561 | −1.16 | Negative |
+The pooled estimates confirm a nonlinear I–P relationship on average. In pooled M2, the linear FSTSc term is positive (β = +0.984, p < .001) and the quadratic FSTSc² term is negative (β = -1.909, p < .001); the Lind–Mehlum test rejects monotonicity at p < .001 with an estimated turning point at 39.7 % of direct-export intensity. All four Haans, Pieters and He (2016) conditions for a genuine inverted-U are met (positive ascending limb, concavity, TP inside the observed FSTS range, and opposite-sign slopes at the data boundaries: +1.52 at FSTS = 0 and -2.30 at FSTS = 100 %, confirmed by the Lind–Mehlum endpoint test). The curvature persists in the full M8 specification (FSTSc β = +0.845, p = .006; FSTSc² β = -1.650, p < .001), consistent with H1 and with meta-analytic evidence on the nonlinear shape of internationalisation returns in emerging-market firms (Marano et al., 2016).
 
-*Note:* Marginal effect = $\beta_1$ + 2$\beta_2$ $\times$ (FSTS − mean_FSTS) where $\beta_1$ = 0.984, $\beta_2$ = −1.909, mean_FSTS $\approx$ 13.9%. SEs omitted pending full covariance matrix; the Lind–Mehlum u-test (p <.001) indicates that slopes at the data boundaries (FSTS=0: +1.52; FSTS=100%: −2.30) are jointly inconsistent with monotonicity.
+Both capability dimensions are positively associated with productivity on average. In pooled M7, TCI_z is positive (β = +0.179, p < .001) and DAI_z is positive (β = +0.078, p = .004). In M8, the TCI_z coefficient is essentially unchanged (β = +0.184, p < .001), while the DAI_z direct coefficient becomes statistically indistinguishable from zero (β = +0.032, p = .537) once the interaction terms are entered, consistent with the §4.1 reading that DAI_z combines a positive level effect with a negative interaction with FSTSc at higher export intensities.
 
-The pooled evidence suggests that both technological capability and basic digital adoption are positively associated with firm performance on average. In the pooled M7 dual-direct specification, $\text{TCI}_z$ is positive ($\beta$ = 0.179, p <.001), and $\text{DAI}_z$ is positive and significant ($\beta$ = 0.078, p =.004). In the full M8 specification, the $\text{TCI}_z$ coefficient is essentially unchanged ($\beta$ = 0.184, p <.001), while the $\text{DAI}_z$ direct coefficient becomes statistically indistinguishable from zero ($\beta$ = 0.032, p =.537) once the interaction terms are entered.
-This sensitivity is consistent with the interpretation that $\text{DAI}_z$ combines a positive level effect
-with a negative interaction with $\text{FSTS}_c$ at higher export intensities, precisely the pattern
-
-
-
-documented in 4.1 for the 2023 wave.
-The pooled interaction terms involving $\text{DAI}_z$ carry a marginal joint signal. The linear interaction is negative but not individually significant ($\text{FSTS}_c \times \text{DAI}_z$ = -0.448, p =.116), and the quadratic interaction is positive but not significant ($\text{FSTS}_c^2 \times \text{DAI}_z$ = 0.460, p =.276). The joint Wald test does not reach conventional significance (M8 joint p =.083). This pooled signal
-is driven primarily by the 2023 wave: the M4 joint moderation test on DAI is null in 2009 (p =
-.825) and 2015 (p =.125), and remains above the.05 threshold in 2023 (M4 joint p =.102;
-M8 joint p =.062). Pooled estimates therefore understate the timing of the DAI moderation
-channel: the channel is concentrated in the most recent wave rather than uniformly distributed
-across the 2009–2023 window.
-Technological-capability moderation, by contrast, is more uniformly distributed. The M3 joint test on $\text{FSTS}_c \times \text{TCI}_z$ and $\text{FSTS}_c^2 \times \text{TCI}_z$ is statistically distinguishable from zero in three of four panels (2009 p =.040, 2023 p =.027, pooled p =.004) and null only in 2015 (p =.713). Pooled, the linear interaction is negative ($\text{FSTS}_c \times \text{TCI}_z$ = -0.587, p =.004) and the quadratic is positive ($\text{FSTS}_c^2 \times \text{TCI}_z$ = 0.640, p =.031), indicating that the
-
-inverted-U flattens for high-capability firms rather than shifting in level. This is consistent with
-the absorptive-capacity reading in which firms with deeper capability stocks extract productivity
-gains across a wider range of export intensities than less capable peers (Cohen and Levinthal,
-1990; Lall, 1992).
-If the analysis stopped at pooled estimation, one might conclude that digitalisation provides
-a broadly positive but structurally simple performance premium.
-
-The wave-specific evidence suggests that this conclusion would be incomplete.
-
-The positive pooled average coexists with
-
-substantial temporal heterogeneity, and the conditional role of digital adoption emerges more
-clearly only in the later wave.
+The pooled DAI interaction terms carry a marginal joint signal: FSTSc × DAI_z = -0.448 (p = .116), FSTSc² × DAI_z = +0.460 (p = .276), M8 joint p = .083. This pooled signal is driven primarily by the 2023 wave; the M4 joint moderation test is null in 2009 (p = .825) and 2015 (p = .125), and reaches the .062 edge of significance in 2023 (M8 joint). Pooled estimates therefore understate the timing of the DAI moderation channel, which is concentrated in the most recent wave rather than uniformly distributed across 2009–2023. Technological-capability moderation, by contrast, is more uniformly distributed: M3 joint is statistically distinguishable from zero in three of four panels (2009 p = .040, 2023 p = .027, pooled p = .004) and null only in 2015 (p = .713). Pooled, FSTSc × TCI_z = -0.587 (p = .004) and FSTSc² × TCI_z = +0.640 (p = .031), indicating that the inverted-U flattens for high-capability firms rather than shifting in level — consistent with the absorptive-capacity reading in which firms with deeper capability stocks extract productivity gains across a wider range of export intensities (Cohen and Levinthal, 1990; Lall, 1992).
 
 ![Figure 2a: Wave 2009, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2a.png)
 
-*Figure 2a.* Predicted ln(labour productivity) as a function of FSTS for the 2009 wave (M2). Shaded band = 95% CI. Turning point $\approx$ 46% FSTS (Lind-Mehlum p =.006).
+*Figure 2a.* Predicted ln(labour productivity) as a function of FSTS for the 2009 wave (M2). Shaded band = 95% CI. Turning point ≈ 46% FSTS (Lind-Mehlum p = .006).
 
 ![Figure 2b: Wave 2015, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2b.png)
 
-*Figure 2b.* Predicted ln(labour productivity) as a function of FSTS for the 2015 wave (M2). Turning point $\approx$ 39% FSTS (Lind-Mehlum p =.009).
+*Figure 2b.* Predicted ln(labour productivity) as a function of FSTS for the 2015 wave (M2). Turning point ≈ 39% FSTS (Lind-Mehlum p = .009).
 
 ![Figure 2c: Wave 2023, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2c.png)
 
-*Figure 2c.* Predicted ln(labour productivity) as a function of FSTS for the 2023 wave (M2). Turning point $\approx$ 42% FSTS (Lind-Mehlum p =.013).
+*Figure 2c.* Predicted ln(labour productivity) as a function of FSTS for the 2023 wave (M2). Turning point ≈ 42% FSTS (Lind-Mehlum p = .013).
 
-![Figure 2d: Pooled (2009+2015+2023), predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2d.png)
+![Figure 2d: Pooled, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2d.png)
 
-*Figure 2d.* Predicted ln(labour productivity) as a function of FSTS for the pooled sample (M2). Turning point $\approx$ 40% FSTS (Lind-Mehlum p <.001).
+*Figure 2d.* Predicted ln(labour productivity) as a function of FSTS for the pooled sample (M2). Turning point ≈ 40% FSTS (Lind-Mehlum p < .001).
 
 ### 4.3 Interpretation of the hypothesis tests
-H1 receives qualified support. The Lind–Mehlum test rejects the monotonicity null
-in all three waves (2009 p =.006, 2015 p =.009, 2023 p =.013) and in the pooled
-sample (p <.001), and the implied turning points are tightly clustered between 39.3
-per cent (2015) and 46.2 per cent (2009) of direct-export intensity, with the pooled estimate at 39.7 per cent. At the same time, exporter-only models (4.5, Panel H) show
-that this curvature weakens substantially once the participation margin is netted out.
-The most defensible interpretation is therefore that the full-sample inverted-U reflects
-a combined participation-and-intensity structure, with the productivity-relevant contrast concentrated primarily at the transition from non-exporting to exporting rather
-than in strong within-exporter curvature alone.
 
-The institutional-context interpretation is reinforced by within-Vietnam cross-wave stability of the threshold itself. The pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is structurally durable across three WBES waves spanning 14 years of major institutional change, WTO accession (2007), the Global Financial Crisis (2008–2009), the deepening of the EU–Vietnam and CPTPP trade frameworks (2018–2020), the COVID-19 supply-chain disruption (2020–2022), and the diffusion of digital-payment and e-commerce infrastructure. The fact that the inverted-U turning point clusters within a narrow ~7-percentage-point band despite these macro-environmental shifts is consistent with institutional transaction costs binding through deep firm-level constraints, coordination capacity, contract enforcement, and trade-finance access, that change more slowly than the wider operating environment. This within-WBES cross-wave evidence complements the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022, MIR; Marano et al., 2016).
+H1 receives qualified support. The Lind–Mehlum test rejects monotonicity in all three waves (p = .006, .009, .013) and pooled (p < .001); implied turning points cluster tightly between 39.3 % (2015) and 46.2 % (2009), with the pooled estimate at 39.7 %. Exporter-only models (§4.5 Panel H), however, attenuate this curvature substantially once the participation margin is netted out. The most defensible reading is that the full-sample inverted-U reflects a combined participation-and-intensity structure, with the productivity-relevant contrast concentrated primarily at the non-exporter-to-exporter transition rather than within-exporter intensity curvature.
 
-H2 is supported: the positive $\text{TCI}_z$ direct coefficient (pooled $\beta$ = 0.179, p <.001) is statistically significant in all three wave-specific periods (2009 p <.001; 2015 p =.010; 2023 p =.006), and statistically distinguishable TCI moderation appears in three of four panels (M3 joint p =.040,.713,.027 and.003). The baseline $\text{DAI}_z$ control reports a positive pooled level association ($\beta$ = 0.078, p =.004) but with substantial wave-to-wave variability, strong in 2009 ($\beta$ = 0.175, p <.001), null in 2015 ($\beta$ = -0.044, p =.377), and re-emerging in 2023 ($\beta$ = 0.095, p =.038). Because $\text{DAI}_z$ indexes only Tier-1 website presence and is not formalised as a primary hypothesis in this paper, this wave variation is reported descriptively rather than as a hypothesis test. The Paternoster cross-wave z-tests (Section 4.5, Panel F) indicate that the 2009-to-2015 fall (z = 3.353, p <.001) and the 2015-to-2023 recovery (z = -2.051, p =.040) are both statistically distinguishable shifts in the descriptive Tier-1 series.
-H4 receives limited exploratory support. The DAI joint moderation test is null in
-2009 (M4 p =.825), null in 2015 (M4 p =.125) and reaches the edge of significance
-in 2023 with the individual interaction $\text{FSTS}_c \times \text{DAI}_z$ = -0.912 (p =.043) and
-the joint test at M4 p =.102, M8 p =.062. The pooled M8 joint test (p =.083)
-is also above the.05 threshold (p =.083), driven by the 2023 wave rather than by a stable
-cross-period moderation. The formal pooled wave $\times$ focal interaction test (Panel I)
-does not detect cross-wave differences in the $\text{FSTS} \times \text{DAI}$ moderation terms. We
-therefore interpret the evidence as suggestive of wave-specific conditionality rather
-than as confirmation of a stable cross-wave moderation pattern: 2023 is the only
-wave in which the digital moderation is within-sample detectable, and the finding is
-treated as exploratory.
+The cross-wave stability of the threshold reinforces the institutional-context interpretation. The pooled TP of 39.7 % (range 39.3–46.2 % across waves) is structurally durable across 14 years of major institutional change — WTO accession (2007), the Global Financial Crisis (2008–2009), CPTPP/EU–Vietnam FTA frameworks (2018–2020), the COVID-19 supply-chain disruption (2020–2022), and the diffusion of digital-payment and e-commerce infrastructure. That the inverted-U turning point clusters within a narrow ~7-pp band despite these macro-environmental shifts is consistent with institutional transaction costs (coordination capacity, contract enforcement, trade-finance access) binding through firm-level constraints that evolve more slowly than the wider operating environment (Wu, Fan and Chen, 2022; Marano et al., 2016).
 
-Following Haans, Pieters, and He (2016), this study distinguishes two types of moderation for curvilinear I–P relationships. Type I moderation flattens or steepens one slope of the inverted-U (i.e., the linear $\text{FSTS} \times \text{DAI}$ interaction is significant while $\text{FSTS}^2 \times \text{DAI}$ is not): the moderator shifts the position of the turning point but preserves the inverted-U shape. Type II moderation flips the shape of the curve (i.e., $\text{FSTS}^2 \times \text{DAI}$ is significant): high versus low moderator values produce qualitatively different functional forms. The 2023 DAI evidence fits Type I: the significant linear interaction $\text{FSTS}_c \times \text{DAI}_z$ = −0.912 (p =.043) indicates that digital adoption attenuates the positive slope at low export intensity, pulling the turning point inward, while the $\text{FSTS}^2 \times \text{DAI}$ interaction remains insignificant, confirming that the inverted-U shape is preserved. Type II moderation, digital capability reversing the curvature for high-adopter firms, is not supported in the Vietnam sample.
+H2 is supported. The positive TCI_z direct coefficient (pooled β = +0.179, p < .001) is statistically significant in all three wave-specific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), and TCI moderation is statistically distinguishable in three of four panels (M3 joint p = .040, .713, .027, .003). The baseline DAI_z control reports a positive pooled level association (β = +0.078, p = .004) with substantial wave-to-wave variability — strong in 2009 (β = +0.175, p < .001), null in 2015 (β = -0.044, p = .377), and re-emerging in 2023 (β = +0.095, p = .038). Because DAI_z indexes only Tier-1 website presence and is not formalised as a primary hypothesis, this wave variation is reported descriptively. The Paternoster cross-wave z-tests (§4.5 Panel F) indicate that the 2009-to-2015 fall (z = 3.353, p < .001) and the 2015-to-2023 recovery (z = -2.051, p = .040) are both statistically distinguishable shifts in the descriptive Tier-1 series.
+
+H4 receives limited exploratory support. The DAI joint moderation test is null in 2009 (M4 p = .825) and 2015 (M4 p = .125), and reaches the edge of significance in 2023 with the individual interaction FSTSc × DAI_z = -0.912 (p = .043) and the joint at M4 p = .102, M8 p = .062. The pooled M8 joint (p = .083) is driven by 2023 rather than by a stable cross-period moderation; the formal pooled wave × focal interaction test (§4.5 Panel I) does not detect cross-wave differences in the FSTS × DAI moderation terms. The evidence reads as suggestive of wave-specific conditionality rather than confirmation of a stable cross-wave moderation pattern: 2023 is the only wave in which the digital moderation is within-sample detectable. The 2023 DAI evidence fits Haans, Pieters and He's (2016) Type I moderation — the significant linear interaction (FSTSc × DAI_z = -0.912, p = .043) attenuates the positive ascending slope and pulls the turning point inward; FSTSc² × DAI_z is not significant, confirming that the inverted-U shape is preserved rather than flipped.
 
 ![Figure 3: Moderator marginal effects, TCI and DAI interactions with FSTS (Vietnam)](figures/vietnam/figure_3_moderator_marginals.png)
 
-*Figure 3.* Marginal effects of $\text{TCI}_z$ and $\text{DAI}_z$ on ln(labour productivity) across FSTS levels (M7/M8). TCI shows a stable positive level-shift across waves; DAI moderation is wave-specific, with the 2023 interaction showing attenuation at high FSTS (Type I moderation: slope-flattening, shape preserved).
+*Figure 3.* Marginal effects of TCI_z and DAI_z on ln(labour productivity) across FSTS levels (M7/M8). TCI shows a stable positive level-shift across waves; DAI moderation is wave-specific, with the 2023 interaction showing attenuation at high FSTS (Type I moderation: slope-flattening, shape preserved).
+
 
 ### 4.4 Main empirical pattern: participation $\times$ intensity
 Before reading the table that follows, this study anchors the reader in the two-margin structure introduced in 2.1. The full-sample inverted-U is informative about the joint participation-andintensity pattern, but its curvature is identified primarily through the participation margin: only
