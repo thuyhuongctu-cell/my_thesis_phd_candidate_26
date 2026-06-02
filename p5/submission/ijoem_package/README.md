@@ -61,7 +61,7 @@
 
 | Item | Count |
 |------|-------|
-| Word count (main text) | ~9,500 words |
+| Word count (main text) | ~7,235 words |
 | Abstract | ≤250 words (structured Emerald format) |
 | Tables | 3 (descriptives, M2 main model, 3-way moderation specification) |
 | Figures | 4 |
@@ -80,8 +80,11 @@
 - [ ] Statistical reporting: β ± SE, p; Paternoster z-test results explicit
 - [ ] H2a vs H2b competing-hypothesis framing in §2-§3 explicit
 - [ ] Lind–Mehlum U-test result reported for each wave
-- [ ] Three-country triangulation referenced (companion P3 Vietnam, P4 Singapore via JABES)
 - [ ] Verify blinded manuscript has no author identifiers
+- [x] **Coefficient reconciliation complete** (2026-06-02): Table 2 + §4.2 prose updated to canonical Python replication values (see `p5/COEFFICIENT_RECONCILIATION_TODO.md`)
+- [x] **Blind-review violations removed**: §5.2 no longer references companion papers by name
+- [x] **Orphan references removed**: Meyer (2017), Do & Phan (2026) removed from References; Helpman, Melitz, Yeaple (2004) added
+- [x] **§4.5 bootstrap mediation claim reframed** as descriptive only (no unsupported indirect-effect estimates)
 
 ---
 
