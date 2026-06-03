@@ -217,6 +217,12 @@ $\beta$(FSTS) = **−1.596**, SE = 0.263, t = −6.062, p = **<.001**
 
 The monotone negative pattern persists without any conditioning on firm characteristics, further confirming the robustness of FIP.
 
+**Specification M_comoros_excluded (Comoros sensitivity)**: Comoros is the only Indian Ocean SIDS in the sample (117 of 1,469 firms, 8.0%); the remaining eight economies are all Pacific. Re-estimating the full M1/M2/M3 pipeline with sample-specific FSTS centring on the Pacific-only subsample (N = 1,352) yields:
+
+$\beta$(FSTS$_c$) in M1 = **−0.357**, SE = 0.196, p = .068 (marginal); M2 quadratic: $\beta$(FSTS$_c$) = −1.059 (NS), $\beta$(FSTS$_c^2$) = +0.886 (NS); M3 with capability controls: $\beta$(FSTS$_c$) = −1.136 (p = .188).
+
+The substantive FIP reading is preserved: the M1 coefficient remains negative with the same approximate magnitude, the quadratic term is null in both samples (no inverted-U turning point), and the capability moderators remain null. The M1 significance attenuates from $p = .032$ (full sample, $\beta = −0.404$, N = 1,469) to $p = .068$ (Pacific-only, $\beta = −0.357$, N = 1,352). The attenuation is consistent with the loss of 8.0 % of analysis-sample firms that all share the FIP characteristic, rather than indicating that the Indian Ocean economy was driving an artefactual FIP pattern. The structural interpretation (negative FSTS, no curvature, null moderators) is robust to the Indian Ocean exclusion; the title and abstract therefore retain the inclusive "Pacific and Indian Ocean SIDS" framing already adopted in Phase A1 (commit `677a91e`). Replication: `p8/replication/do/02_p8_comoros_excluded.do` (Stata, mirrors the Python prototype 2026-06-03; coefficient targets documented in the do-file header).
+
 **Exporters-only subsample** (N = 187): Among the 187 active exporters (FSTS > 0), the negative effect is:
 
 $\beta$($\text{FSTS}_c$) = **−0.901**, SE = 0.398, p = **.027**

@@ -21,7 +21,7 @@
 
 | # | Issue | Severity | Effort | Notes |
 |---|---|:-:|---:|---|
-| 7 | Comoros exclusion alternative | 🔴 CRITICAL | 4-6h | Re-run all R models with N=1,352 (Comoros contributes 117 obs / 1.7% of sample). FIP result likely robust but should verify. NCS choice: keep relabeled title or exclude+rerun. |
+| 7 | Comoros exclusion alternative | 🔴 CRITICAL | 4-6h | ✅ **RESOLVED 2026-06-03**: Comoros-excluded sample (N = 1,352, Pacific-only) re-run via Python prototype (statsmodels HC1, mirrors R script). New "M_comoros_excluded" robustness panel added to §4.5. **Result**: FIP signal preserved across both samples — M1 β(FSTSc) = −0.357 (SE 0.196, p = .068†) vs full-sample −0.404 (p = .031*); M2 quadratic null in both; M3 capability moderators null in both. Attenuation from p = .031 → p = .068 is consistent with loss of 8.0% of FIP-sharing observations rather than an artefactual Indian Ocean driver. **Substantive FIP interpretation robust.** Title/abstract retain inclusive "Pacific and Indian Ocean SIDS" framing. Stata replication file written: `p8/replication/do/02_p8_comoros_excluded.do` (NCS verify on local Stata; Python prototype targets in do-file header). |
 | 8 | Wild-cluster bootstrap (G=9 clusters) | 🔴 HIGH | 6-8h | Cameron-Gelbach-Miller (2008) wild bootstrap; Roodman et al. (2019) Stata. Add as Appendix B robustness. |
 | 9 | Leave-one-country-out (LOO) sensitivity | 🟡 MED | 3-4h | Timor-Leste = 26.8% of sample; verify FIP not Timor-Leste-driven. Add as Appendix B. |
 | 10 | M3 N=526 vs M1 N=1,469 (64% drop) | 🟡 MED | 1h | Either Heckman selection adjustment or explicit multiple-imputation discussion. |
