@@ -1,13 +1,16 @@
 # Lộ trình hoàn thành chương trình tiến sĩ — bản đồ tuần tự
 
-> Lập 2026-05-28. Bổ trợ cho `OUTSTANDING_ISSUES.md` (bảng việc chi tiết). File này sắp xếp việc
-> theo **trình tự + phụ thuộc + chủ thể**, để biết làm gì trước, cái gì khoá cái gì.
-> Owner: 🤖 = tôi (trong repo) · 🧑 = bạn · 🌐 = cần nguồn ngoài (PDF / mạng-mở / coder / tài khoản).
+> **Cập nhật 2026-06-03 (post commit `0e9a0e0`).** Lập 2026-05-28; updated end of finalization session với 12+ commits resolving 6 strategic groups (PROJECT_SELF_CRITIQUE B/C/D/G/H/I). Bổ trợ cho `OUTSTANDING_ISSUES.md` (bảng việc) và `PROJECT_SELF_CRITIQUE.md` (10-group strategic tracker).
+> Owner: 🤖 = tôi (trong repo) · 🧑 = NCS · 🌐 = nguồn ngoài (PDF / mạng-mở / coder / tài khoản).
 
-## Trạng thái nền (đã xong phiên này)
-- ✅ 5 chương + tóm tắt + CĐ1 viết xong, đã humanize (gỡ em-dash văn xuôi; số liệu/bảng/trích dẫn nguyên vẹn).
-- ✅ 6 bản thảo tiếng Anh P3–P8 qua stop-slop; khung H5 ở `chuong_5` đã khớp `chuong_4` và bản P6 (P6 = "các chế độ khác biệt"; P7 = hình dạng gradient/độ cong).
-- ✅ Gói nộp MRQ dựng xong; hồ sơ bản quyền MAIDA (mô tả + CITATION.cff) chuẩn học thuật.
+## Trạng thái nền (post-session 2026-06-03)
+- ✅ 5 chương + tóm tắt + CĐ1 + CĐ2 viết xong, humanized, em-dash count 0 trong inserts mới.
+- ✅ 7 bản thảo tiếng Anh P3–P9' qua stop-slop + humanizer; CIMT–ICRV–CDCM hierarchy nhất quán xuyên 15 anchor files (Ch.1/2/5 + CĐ1/CĐ2 + tomtat + cumulative + defense + 4 papers + cover + refs + README + M-AIDA).
+- ✅ 7 submission packages structurally complete (manuscript + title + cover + figures + README + replication). All blind-clean: 0/11 author-identifier hits.
+- ✅ Word counts: P3 11597 / P4 12096 / P5 7238 / P6 11384 / P7 12085 / P8 8784 / P9' 8424 — toàn bộ within journal caps với ≥200w buffer.
+- ✅ M-AIDA v2.1 description synced với CIMT framing; SHA-256 file integrity confirmed; supplement warning banner enforced.
+- ✅ 4 ADRs documented (`docs/adr/`) cho journal switches.
+- ⚪ NCS-side outstanding: Stata local exec / OSF Path B (k≈600-700) / κ second coder / supplement_s_maida [TO FILL] fields.
 
 ---
 

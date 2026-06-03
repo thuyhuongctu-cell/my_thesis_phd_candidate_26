@@ -1,11 +1,23 @@
 # Rà soát toàn bộ việc cần triển khai — P6 & Luận án
 
-> Lập ngày 2026-05-27. Nguồn: tổng hợp các audit trong phiên (PREREG / DISSERTATION / OSF guide),
-> quét `[TBD]`/placeholder toàn repo, và MASTER_PLAN.
-> **Bối cảnh:** luận án 5 chương (`chuong_1`…`chuong_5`) đang viết *tạm* theo P6 hiện tại
-> (k=238/K=288); sẽ điều chỉnh khi P6 mở rộng thật.
+> **Cập nhật 2026-06-03 (post commit `0e9a0e0`).** Phần lớn các mục dưới đây *đã được giải quyết hoặc cập nhật* trong loạt 12+ commits của session `claude/vietnamese-academic-standards-QuiLM`. Tracking chính thức cho 10 nhóm vấn đề chiến lược đã chuyển sang `PROJECT_SELF_CRITIQUE.md` (file đó luôn được cập nhật trước). File này giữ lại như *snapshot lịch sử* + checklist hành chính cuối cho NCS.
 >
-> Phân loại owner: 🤖 = tôi làm được trong repo · 🧑 = chỉ bạn · 🌐 = chặn bởi nguồn ngoài (DB/PDF/coder/tài khoản)
+> **Trạng thái tổng quan (post-session):**
+> - ✅ 7/7 papers submission-ready với blind compliance + word caps + figures embedded (P3, P4, P5, P6, P7 với hình; P8 text-only correct; P9' figures = NCS-side render)
+> - ✅ Khung lý thuyết phân tầng CIMT–ICRV–CDCM nhất quán xuyên 15 anchor files
+> - ✅ M-AIDA system synced v2.1 + supplement warning + 45/47 reconciliation
+> - ✅ 4 ADRs cho journal switches (`docs/adr/`)
+> - ⚪ 4 NCS-side dependencies: Stata local exec / OSF Path B / κ recruit / personal CCCD data
+>
+> **Tham chiếu chính (cập nhật mới nhất):**
+> - `thesis/PROJECT_SELF_CRITIQUE.md` — 10-group strategic tracker với status từng nhóm
+> - `.github/PR_REVIEW_CHECKLIST.md` — 6-section pre-merge audit
+> - `docs/adr/` — 4 ADRs cho journal switches
+> - `thesis/CIMT_REALITY_AND_TOP_1PCT_SCHOLAR_REVIEW.md` — final CIMT resolution
+>
+> **Bối cảnh dưới đây giữ nguyên** từ phiên 2026-05-27: luận án 5 chương (`chuong_1`…`chuong_5`) viết theo P6 hiện tại (k=238/K=288); sẽ điều chỉnh khi P6 mở rộng formal-search (Path B).
+>
+> Phân loại owner: 🤖 = tôi làm được trong repo · 🧑 = chỉ NCS · 🌐 = chặn bởi nguồn ngoài (DB/PDF/coder/tài khoản)
 
 ---
 
