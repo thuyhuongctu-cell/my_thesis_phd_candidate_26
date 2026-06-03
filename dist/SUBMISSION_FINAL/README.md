@@ -50,7 +50,7 @@ dist/SUBMISSION_FINAL/
 | 6 | **P8_SIDS_JED** | Journal of Economics and Development (Emerald, NEU) | Q1 | 8,683 | ✅ READY |
 | 7 | **P9_India_MIR** | Management International Review (Springer) hoặc IJOEM | Q1 | 8,424 | ✅ READY |
 
-★ P6 retargeted từ MIR → APJM trong commit `1061efa` per stronger geographic + theoretical fit. P6 + P7 dùng **cơ chế tích hợp năng lực-thể chế** (integrated capability-institution mechanism, synthesising rent protection + LoF attenuation + institutional-void amplification) làm theoretical contribution chung, neo trên ICRV taxonomy.
+★ P6 retargeted từ MIR → APJM trong commit `1061efa` per stronger geographic + theoretical fit. P6 + P7 dùng **Capability–Institution Mismatch Theory (CIMT)** — middle-range integrative framework do luận án phát triển (Merton 1968; Whetten 1989; Corley & Gioia 2011), tích hợp 3 kênh đã được khẳng định (rent protection + LoF attenuation + institutional-void amplification) — làm theoretical contribution chung. Cấu trúc phân tầng trong Ch.2 §2.5 của luận án: **CIMT = mechanism (umbrella) | ICRV = taxonomy | CDCM = observable signature** (chi tiết §2.5.1–2.5.4 tại `thesis/chuong_2_tong_quan_tai_lieu_vi.md`).
 
 ---
 

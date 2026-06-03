@@ -1,10 +1,33 @@
 # Dissertation Theoretical Foundations & P9' India — Critical Scholarly Review
 
 **NCS:** Đỗ Thùy Hương · **Supervisor:** PGS.TS. Phan Anh Tú
-**Document date:** 2026-06-03 (post commit `76d2a28`)
+**Document date:** 2026-06-03 (post commit `76d2a28`; final resolution post commit `a3cae9f` + reframing in Ch.2 §2.5)
 **Reviewer perspective:** Top-1% International Business scholar, simulated adversarial review
 
 > **Purpose:** Trả lời 3 câu hỏi học thuật của NCS: (1) CIMT có phải lý thuyết có thật không? (2) So sánh lý thuyết cũ vs lý thuyết mới? (3) Tác động của P9' India vs không có P9'? Cuối cùng: review tài liệu trong vai trò scholar top-1% IB với APA 7th citations.
+
+---
+
+## FINAL RESOLUTION (2026-06-03, post Ch.2 §2.5 reframing)
+
+Sau khi review thêm hai vòng AI advisor (Pat Thomson/Whetten template + §2.5 Vietnamese draft) và scholar-review nội bộ, NCS quyết định **giữ tên CIMT** nhưng với *cấu trúc và framing hoàn toàn khác* so với phiên bản ban đầu — giải quyết được cả hai mối lo:
+
+| Mối lo ban đầu | Cách giải quyết trong v1.6 (CIMT-restored middle-range) |
+|---|---|
+| CIMT bị reviewer coi là "theory inflation" / hậu kỳ | §2.5.1 (Ch.2) định nghĩa CIMT *tường minh* là middle-range integrative framework theo Merton (1968), Whetten (1989), Corley & Gioia (2011); không tuyên bố thay thế RBV hay institutional theory |
+| 3 framework ICRV/CDCM/CIMT chồng lấn ngang hàng | Cấu trúc phân tầng: **CIMT = mechanism (umbrella)**, **ICRV = taxonomy**, **CDCM = observable signature** — giải quyết đúng "framework overlap" mà AI #2 đã chỉ ra |
+| CĐ1/CĐ2 + Ch.2 luận án không có CIMT | §2.5 mới (8 subsections) nội hóa CIMT vào Ch.2 luận án; CĐ1/CĐ2 đứng độc lập làm chuyên đề chuyên sâu, không buộc phải refer back đến CIMT |
+| Reviewer cho rằng CIMT chưa qua Whetten test | §2.5.1 viết explicit Whetten what/how/why + Corley-Gioia originality/utility; cốt lõi đóng góp = *tích hợp* 3 kênh đã được khẳng định thành một mechanism testable |
+| Cross-paper inconsistency P6/P7 vs CĐ/luận án | P6 §2.2 + P7 §2.1 dùng tên CIMT explicitly; cover letter APJM tham chiếu CIMT; abstract P7 + keywords P7 đã restore CIMT |
+
+**Files updated trong final resolution:**
+- `thesis/chuong_2_tong_quan_tai_lieu_vi.md` §2.5 — chèn 4 subsections mới (2.5.1 CIMT, 2.5.2 ICRV, 2.5.3 CDCM, 2.5.4 Cấu trúc phân tầng) trước §2.5.5 (gaps); renumber subsections 2.5.5–2.5.8
+- `p6/p6_meta_manuscript_en.md` §2.2 — title đổi sang "Capability–Institution Mismatch Theory (CIMT): A Middle-Range Integrative Framework"
+- `p7/p7_capstone_en_clean.md` §2.1 — title đổi sang "Capability–Institution Mismatch Theory (CIMT): three channels of capability–institution interaction"; abstract Originality/value + keywords restore CIMT; §5.1 opening restore CIMT
+- `p6/submission/apjm_package/03_cover_letter.md` — contribution #1 reframed quanh "first three-level meta-analytic test of CIMT"
+- `thesis/04_references_apa7.md` — bổ sung Merton (1968), Whetten (1989), Corley & Gioia (2011)
+
+Kết luận: CIMT vẫn không phải lý thuyết kinh điển có sẵn (luận điểm dưới đây của tài liệu này vẫn ĐÚNG), nhưng *vị thế lý thuyết của CIMT trong luận án v1.6* được tái định nghĩa là middle-range integrative framework do luận án phát triển — đây là kiểu đóng góp *được Whetten 1989 và Corley-Gioia 2011 công nhận là hợp lệ*, và nhiều luận án Q1 đã đi theo cách này.
 
 ---
 

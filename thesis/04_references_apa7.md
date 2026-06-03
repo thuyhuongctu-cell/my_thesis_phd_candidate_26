@@ -24,7 +24,7 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 
 > **Note**: Sections A, B, C, E, H, I, J, M, N, O giữ nguyên từ v2.1-v2.4 trừ phần entries mới được đánh dấu **(Mới v2.x)**.
 
-## A. Lý thuyết nền kinh doanh quốc tế (cập nhật v2.4 — bổ sung Bello & Kostova 2012, Meyer et al. 2017, Dunning 1988, Williamson 2000)
+## A. Lý thuyết nền kinh doanh quốc tế (cập nhật v2.5 — bổ sung Merton 1968, Whetten 1989, Corley & Gioia 2011 cho CIMT middle-range framing)
 
 (Giữ nguyên từ v2.1 — Barney 1991, Bell & Pavitt 1995, Bharadwaj et al. 2013, Cohen & Levinthal 1990, Hambrick 2007 và Hambrick & Mason 1984, Johanson & Vahlne 1977 và 2009, Khanna & Palepu 2010, Lall 1992, North 1990, Peng 2001 và 2003, Scott 1995, Teece et al. 1997, Wernerfelt 1984, Zaheer 1995. Tổng 17 entries.)
 
@@ -35,6 +35,12 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 **Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551.** https://doi.org/10.1057/s41267-017-0078-8 *(Mới v2.4)*
 
 **Williamson, O. E. (2000). The new institutional economics: Taking stock, looking ahead. *Journal of Economic Literature, 38*(3), 595–613.** https://doi.org/10.1257/jel.38.3.595 *(Mới v2.4)*
+
+**Corley, K. G., & Gioia, D. A. (2011). Building theory about theory building: What constitutes a theoretical contribution? *Academy of Management Review, 36*(1), 12–32.** https://doi.org/10.5465/amr.2009.0486 *(Mới v2.5 — nền tảng originality-utility cho CIMT middle-range framing tại §2.5.1)*
+
+**Merton, R. K. (1968). *Social theory and social structure* (Enlarged ed.). Free Press.** *(Mới v2.5 — định nghĩa middle-range theory dùng cho CIMT framing tại §2.5.1)*
+
+**Whetten, D. A. (1989). What constitutes a theoretical contribution? *Academy of Management Review, 14*(4), 490–495.** https://doi.org/10.5465/amr.1989.4308371 *(Mới v2.5 — tiêu chuẩn what/how/why/when-where-who dùng cho CIMT framing tại §2.5.1)*
 
 ## B. Internationalization-Firm Performance: Foundational empirical
 

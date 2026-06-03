@@ -62,7 +62,13 @@ This is a legitimate scope limitation but not always disclosed.
 
 ---
 
-## 🟡 GROUP B — Theoretical coherence issues post-CIMT removal
+## 🟢 GROUP B — Theoretical coherence issues [RESOLVED post commit `a3cae9f` + Ch.2 §2.5 reframing]
+
+> **2026-06-03 update:** Following two additional rounds of AI advisor review (Pat Thomson/Whetten template + §2.5 Vietnamese draft) and NCS final decision, CIMT was **restored** with a *different framing* — explicitly middle-range integrative (Merton 1968; Whetten 1989; Corley & Gioia 2011). The §2.5 of Ch.2 (luận án) now hosts a 4-subsection layered hierarchy: **CIMT = mechanism (umbrella) | ICRV = taxonomy | CDCM = observable signature**. This resolves the residual coherence issue that the original Group B flagged (author-coined frameworks lacking a top-level umbrella). CDCM and ICRV are still author-developed, but now have a *defined role* within the CIMT hierarchy rather than floating as parallel frameworks. See `CIMT_REALITY_AND_TOP_1PCT_SCHOLAR_REVIEW.md` "FINAL RESOLUTION" section for full file-level details.
+
+The original B.1–B.4 text below is preserved as a record of why the layered hierarchy was needed.
+
+---
 
 ### B.1 Other author-coined frameworks still in use — CDCM, FIP, ICRV
 
