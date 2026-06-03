@@ -2,7 +2,21 @@
 
 **Phụ lục bổ sung cho Chương 3, Mục 3.2.4 (Quy trình trích xuất dữ liệu hỗ trợ bằng mô hình ngôn ngữ lớn).**
 
-> **HƯỚNG DẪN ĐIỀN:** File này là khung phụ lục bắt buộc trước khi nộp định bản. Các trường gắn nhãn `[TO FILL]` cần nghiên cứu sinh điền dữ liệu thực tế từ log hệ thống và đánh giá gold-standard. Không công bố trước khi mọi trường `[TO FILL]` đã có giá trị xác minh được.
+> ⚠️ **TRẠNG THÁI: TEMPLATE — NCS CẦN ĐIỀN TRƯỚC KHI NỘP DEFENSE / SUBMIT P6.**
+>
+> File này hiện ở dạng *khung* (template) với các trường `[TO FILL]` chưa có giá trị thực tế. Đây *không phải nội dung bịa hay nội dung giả định* — các trường yêu cầu dữ liệu *log thực tế* từ phiên trích xuất M-AIDA và đánh giá *gold-standard* mà chỉ NCS truy cập được. Trước khi nộp định bản (defense hoặc P6 submission), NCS phải điền đầy đủ:
+> - §S-MAIDA.1: Cấu hình LLM (model, version, provider, temperature, ngày bắt đầu/kết thúc) — từ log API
+> - §S-MAIDA.2: Prompt template thực tế đã dùng — từ M-AIDA source / NCS notes
+> - §S-MAIDA.4: Cỡ tập gold-standard + chiến lược chọn mẫu + người trích xuất tham chiếu
+> - §S-MAIDA.5: Inter-rater agreement metrics (Cohen's κ hoặc Krippendorff's α)
+> - §S-MAIDA.6: Error rate phân tích (false positive / false negative / mismatch)
+>
+> Tham chiếu chéo: Chương 3 §3.2.4 + P6 §3.2 đều giả định Supplement S-MAIDA đã hoàn tất. Trạng thái template hiện tại là *nguy cơ desk-reject* nếu P6 nộp APJM trước khi điền xong, đồng thời là *nguy cơ phản biện* tại defense về độ tin cậy của quy trình trích xuất.
+>
+> **Đối chiếu nhất quán với hệ thống M-AIDA:**
+> - Phiên bản phần mềm: M-AIDA v7.0.0 (SHA-256: `bd74600cc909e396daf0b33549debd081b6c990904f96a5976e9186c2e18d696`)
+> - Corpus cuối: k = 238 nghiên cứu / K = 288 cỡ hiệu ứng (`p6_study_database.csv` trên OSF z37kn)
+> - Khung moderator P6: ICRV / cDAI / DPL — ánh xạ vào khung phân tầng CIMT–ICRV–CDCM tại Chương 2 §2.5
 
 ---
 

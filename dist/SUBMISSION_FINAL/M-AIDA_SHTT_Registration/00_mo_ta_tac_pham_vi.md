@@ -1,7 +1,7 @@
 # MÔ TẢ TÁC PHẨM — M-AIDA
 # (Description of Work — Đăng ký bản quyền phần mềm máy tính, Cục Bản quyền Tác giả Việt Nam)
 
-> Phiên bản tài liệu: 2.0 (chuẩn học thuật, 2026-05-27). Tài liệu mô tả phần mềm **M-AIDA** phục vụ
+> Phiên bản tài liệu: 2.1 (cập nhật 2026-06-03 sau khi luận án chính thức hóa khung lý thuyết phân tầng CIMT–ICRV–CDCM ở Chương 2 §2.5). Tài liệu mô tả phần mềm **M-AIDA** phục vụ
 > đăng ký quyền tác giả đối với chương trình máy tính, đồng thời định vị M-AIDA như một **đóng góp
 > phương pháp/hạ tầng nghiên cứu** của luận án tiến sĩ. *Lưu ý phạm vi:* M-AIDA là công cụ hỗ trợ
 > quy trình trích xuất; **mọi số liệu đưa vào phân tích tổng hợp đều qua xác nhận của con người
@@ -82,8 +82,15 @@ trực tiếp từ chuẩn học thuật**:
   *β*, theo Borenstein et al. (2009) và Peterson & Brown (2005) (`r = √(t²/(t²+df))`; `r ≈ β` với
   hiệu chỉnh khi |β| nhỏ). Mỗi đường quy đổi gắn một **mức độ tin cậy** giảm dần.
 - **Khung biến điều tiết đặc thù của luận án**: chế độ thể chế ICRV, chỉ số áp dụng số quốc gia
-  cDAI, pha Vòng đời Nghịch lý Số DPL (Precede/Span/Follow) — các kiến tạo (construct) do chính tác
-  giả phát triển trong khung lý thuyết của luận án.
+  cDAI, pha Vòng đời Nghịch lý Số DPL (Precede/Span/Follow). Đây là **bộ ba moderator cấp meta-analytic**
+  mà bài báo P6 dùng để kiểm định khung lý thuyết phân tầng CIMT–ICRV–CDCM của luận án (Chương 2
+  §2.5.1–2.5.4): ICRV vận hành lớp taxonomy thể chế (45 nền kinh tế × 6 chế độ con); cDAI và DPL
+  vận hành lớp signature số hóa (CDCM) ở độ phân giải meta-analytic (cấp quốc gia × thời gian, vì
+  độ phân giải doanh nghiệp không trích xuất được từ các bài báo gốc). Cơ chế trung tâm CIMT
+  (Capability–Institution Mismatch Theory) tích hợp ba kênh đã khẳng định trong văn liệu IB (rent
+  protection, LoF attenuation, institutional-void amplification) được kiểm định gián tiếp qua mối
+  quan hệ giữa ba moderator này. Các kiến tạo (construct) ICRV / cDAI / DPL do chính tác giả phát
+  triển trong khuôn khổ luận án.
 - **Chuẩn báo cáo**: tuân thủ tinh thần PRISMA 2020 và MARS (Meta-Analysis Reporting Standards), với
   trường dữ liệu xuất ra khớp ma trận dữ liệu của luận án.
 
@@ -197,7 +204,7 @@ moderator, p, source`. Cấu trúc này tương thích với phần mềm phân 
 2. **Thang tin cậy trích xuất 3 mức** gắn trực tiếp với chuẩn quy đổi Peterson & Brown (2005).
 3. **Quy trình PI verify → irreversible lock** với audit trail — phân biệt rõ "bản nháp của máy" và
    "quyết định của nhà nghiên cứu", phù hợp luận án và nghiên cứu bình duyệt.
-4. **Lược đồ biến điều tiết độc quyền của luận án** (ICRV / cDAI / DPL) tích hợp sẵn.
+4. **Lược đồ biến điều tiết độc quyền của luận án** (ICRV / cDAI / DPL) tích hợp sẵn, vận hành ở độ phân giải meta-analytic cho khung phân tầng CIMT–ICRV–CDCM (Chương 2 §2.5 luận án).
 5. **Kiến trúc một-tệp client-side** không máy chủ: khả chuyển, tái lập và bảo mật cao (dữ liệu
    không rời trình duyệt), phù hợp nộp kèm hồ sơ bản quyền dưới dạng một bản sao mã nguồn tự chứa.
 
