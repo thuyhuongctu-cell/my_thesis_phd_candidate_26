@@ -2,8 +2,8 @@
 
 *Author details removed for blind review*
 
-*Manuscript prepared for: Management International Review (MIR; Springer, Scopus Q1, ABS-3)*
-*Version 1.3, May 2026 (target journal submission: Q3 2026; v1.3 incorporates adversarial-review fixes)*
+*Manuscript prepared for: Asia Pacific Journal of Management (APJM; Springer Nature, Scopus Q1, ABS-3)*
+*Version 1.4, June 2026 (target journal: APJM; v1.4 retargets from MIR to APJM per stronger geographic and theoretical fit; preserves CIMT theoretical framing developed in v1.3)*
 
 ---
 
@@ -509,4 +509,4 @@ The complete PRISMA 2020 flow diagram with both Path A (analyzed corpus, *k* = 2
 ---
 
 *Word count (main text Sections 1–6 prose, excluding tables, references, in-paper tables, and OSF supplementary materials): $\approx$ 8,040 words. Submission-build total (body + references + 3 in-paper tables × 280 + 7 figures × 280): $\approx$ 11,966 word-equivalents, within MIR's $\approx$ 12,000-word envelope. Revision v1.3 addresses the publication-bias paradox (Section 5.2), construct-validity restriction of cDAI (Section 4.4), drop-Frontier-led ICRV framing (Section 4.3), and a fifth disclosed pre-registration deviation (Section 3.1).*
-*Target journal: Management International Review (MIR; Springer, Scopus Q1, ABS-3). Extended methodological appendices (PRISMA 2020 flow; 7-moderator coding protocol; MetaEssentials-vs-`metafor` consistency check), the detailed eligibility criteria, the cDAI and DPL subgroup tables, the full robustness-checks table, the Section 3.2 PRISMA screening narrative, and extended methodological notes are migrated to OSF as Supp-A through Supp-M (https://osf.io/z37kn). Analyses use the verified baseline corpus (k = 238 studies, K = 288 effect sizes); the formal WoS/Scopus search expansion is ongoing and will be incorporated at revision. Effect-size coding follows the standardized protocol summarized in Section 3.4 and detailed in Supp-B.*
+*Target journal: Asia Pacific Journal of Management (APJM; Springer Nature, Scopus Q1, ABS-3). Extended methodological appendices (PRISMA 2020 flow; 7-moderator coding protocol; MetaEssentials-vs-`metafor` consistency check), the detailed eligibility criteria, the cDAI and DPL subgroup tables, the full robustness-checks table, the Section 3.2 PRISMA screening narrative, and extended methodological notes are migrated to OSF as Supp-A through Supp-M (https://osf.io/z37kn; OSF pre-registration DOI: 10.17605/OSF.IO/Z37KN; the pre-registration body is journal-agnostic and remains the same across target-journal exploration). Analyses use the verified baseline corpus (k = 238 studies, K = 288 effect sizes); the formal WoS/Scopus search expansion (Path B) is pre-registered for follow-up replication on a corpus of k ≈ 600–700 and is not a condition on the validity of the present findings. Effect-size coding follows the standardized protocol summarized in Section 3.4 and detailed in Supp-B.*
