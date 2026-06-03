@@ -18,8 +18,8 @@
 
 | # | Issue | Severity | Effort | Notes |
 |---|---|:-:|---:|---|
-| 4 | **Word reduction 21K → ~9,500 words** | 🔴 CRITICAL | 12-16h | Section budgets per reviewer recommendation below |
-| 5 | **TP rescaling documentation** | 🔴 HIGH | 1h | TP=39.7% claim vs mechanical β=−0.984/(2×−1.909)=25.8%; need explicit "FSTSc centring + back-translation to FSTS share" math note in §3.5 |
+| 4 | **Word reduction 21K → ~9,500 words** | 🔴 CRITICAL | 12-16h | ✅ **RESOLVED 2026-06-03** in Phase A2 session: P3 file 19,307 → 11,852w (-39%); narrative §1–§7 9,418w (within 318w of 9,100w target, within 3.4% of reviewer target). 12+ commits on `claude/vietnamese-academic-standards-QuiLM`; canonical numerics preserved at every step; check-consistency.py + format-apa7.py clean at every checkpoint. Robustness panel detail migrated to new `p3/online_appendix.md`. |
+| 5 | **TP rescaling documentation** | 🔴 HIGH | 1h | ✅ **RESOLVED 2026-06-03**: explicit "FSTSc centring + back-translation to FSTS share" math note added to §3.2 Table 1 footnote — TP*_c = -β₁/(2β₂) = -0.984/(2·-1.909) = +0.258 on the centred scale; TP_FSTS = TP*_c + mean_FSTS = 0.258 + 0.139 = 0.397 (39.7 %) on the raw FSTS scale. Wave-specific TPs follow the same back-translation using each wave's own mean. |
 
 
 

@@ -154,7 +154,7 @@ Controls are standard: firm size lnEmp = ln(l1); firm age FirmAge = survey year 
 | δ_s | a4b / a4a | 1-digit ISIC sector (a4b for 2009/2015; a4a for 2023) | Sector fixed effects |
 | λ_t | wave | wave indicator: 2009, 2015, 2023 (pooled only) | Period fixed effects |
 
-*Notes.* b8 and e6 recoded WBES 1/2 to 1/0 (1 = has certification / foreign-licensed technology). c22b recoded similarly. TCI_z and DAI_z are standardised within each wave independently so coefficients are comparable in magnitude across waves. Turning-point formula: TP* = −β₁ / (2β₂); the Lind–Mehlum (2010) u-test formally confirms inverted-U shape by rejecting monotonicity at p < .05 in all specifications. PPP conversion applied to d2 using World Bank ICP deflators matched to survey year.
+*Notes.* b8 and e6 recoded WBES 1/2 to 1/0 (1 = has certification / foreign-licensed technology). c22b recoded similarly. TCI_z and DAI_z are standardised within each wave independently so coefficients are comparable in magnitude across waves. Turning-point formula and rescaling: the mechanical TP on the within-wave-centred FSTSc scale is TP*_c = −β₁ / (2β₂); for the pooled M2 (β₁ = +0.984, β₂ = -1.909) this gives TP*_c = +0.258. Back-translation to the raw FSTS share requires adding the pooled FSTS mean (mean_FSTS ≈ 0.139) so the reported TP on the raw FSTS scale is TP_FSTS = TP*_c + mean_FSTS = 0.258 + 0.139 = 0.397 (i.e., 39.7 %). Wave-specific TPs (Table 5) follow the same back-translation using each wave's own mean. The Lind–Mehlum (2010) u-test formally confirms inverted-U shape by rejecting monotonicity at p < .05 in all specifications. PPP conversion applied to d2 using World Bank ICP deflators matched to survey year.
 
 ### 3.3 Model sequence
 
