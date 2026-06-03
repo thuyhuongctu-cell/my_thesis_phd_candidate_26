@@ -234,6 +234,22 @@ Verbeke, A., & Brugman, M. (2018). Triple-testing the quality of multinationalit
 
 Winters, L. A., & Martins, P. M. G. (2004). When comparative advantage is not enough: Business costs in small remote economies. *World Trade Review, 3*(3), 347–383.
 
+Pustejovsky, J. E., & Tipton, E. (2022). Meta-analysis with robust variance estimation: Expanding the range of working models. *Prevention Science, 23*(3), 425–438. https://doi.org/10.1007/s11121-021-01246-3
+
+Terrin, N., Schmid, C. H., Lau, J., & Olkin, I. (2003). Adjusting for publication bias in the presence of heterogeneity. *Statistics in Medicine, 22*(13), 2113–2126. https://doi.org/10.1002/sim.1461
+
+Tipton, E. (2015). Small sample adjustments for robust variance estimation with meta-regression. *Psychological Methods, 20*(3), 375–393. https://doi.org/10.1037/met0000011
+
+Valentine, J. C., Pigott, T. D., & Rothstein, H. R. (2010). How many studies do you need? A primer on statistical power for meta-analysis. *Journal of Educational and Behavioral Statistics, 35*(2), 215–247. https://doi.org/10.3102/1076998609346961
+
+Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414
+
+Chodorow-Reich, G., Gopinath, G., Mishra, P., & Narayanan, A. (2020). Cash and the economy: Evidence from India's demonetization. *Quarterly Journal of Economics, 135*(1), 57–103. https://doi.org/10.1093/qje/qjz027
+
+MacKinnon, J. G., & Webb, M. D. (2017). Wild bootstrap inference for wildly different cluster sizes. *Journal of Applied Econometrics, 32*(2), 233–254. https://doi.org/10.1002/jae.2508
+
+Mizik, N., & Jacobson, R. (2003). Trading off between value creation and value appropriation: The financial implications of shifts in strategic emphasis. *Journal of Marketing, 67*(1), 63–76. https://doi.org/10.1509/jmkg.67.1.63.18595
+
 **Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–65.** https://doi.org/10.1093/oxfordjournals.cje.a035301 *(Mới v2.4)*
 
 
