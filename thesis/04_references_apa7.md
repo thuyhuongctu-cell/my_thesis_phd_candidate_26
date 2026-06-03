@@ -250,6 +250,14 @@ MacKinnon, J. G., & Webb, M. D. (2017). Wild bootstrap inference for wildly diff
 
 Mizik, N., & Jacobson, R. (2003). Trading off between value creation and value appropriation: The financial implications of shifts in strategic emphasis. *Journal of Marketing, 67*(1), 63–76. https://doi.org/10.1509/jmkg.67.1.63.18595
 
+Hoskisson, R. E., Eden, L., Lau, C. M., & Wright, M. (2000). Strategy in emerging economies. *Academy of Management Journal, 43*(3), 249–267. https://doi.org/10.2307/1556394
+
+Hoskisson, R. E., Wright, M., Filatotchev, I., & Peng, M. W. (2013). Emerging multinationals from mid-range economies: The influence of institutions and factor markets. *Journal of Management Studies, 50*(7), 1295–1321. https://doi.org/10.1111/j.1467-6486.2012.01085.x
+
+Whitley, R. (1999). *Divergent capitalisms: The social structuring and change of business systems*. Oxford University Press.
+
+Wright, M., Filatotchev, I., Hoskisson, R. E., & Peng, M. W. (2005). Strategy research in emerging economies: Challenging the conventional wisdom. *Journal of Management Studies, 42*(1), 1–33. https://doi.org/10.1111/j.1467-6486.2005.00487.x
+
 **Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–65.** https://doi.org/10.1093/oxfordjournals.cje.a035301 *(Mới v2.4)*
 
 
