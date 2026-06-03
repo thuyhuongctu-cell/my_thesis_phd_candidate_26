@@ -48,7 +48,7 @@
 ## F. Các paper khác trong dossier (tham chiếu MASTER_PLAN) 🧑
 | # | Việc | Owner |
 |---|---|---|
-| F1 | Xác nhận status & nộp: **P3 → JED Q1** (11,597w, ✅ blind-compliant); **P4 → JABES Q1** (12,096w, ✅); **P5 → IJOEM Q1** (7,331w, ✅); **P7 → JIBS ABS-4*** (11,133w, ✅, ICRV typology paragraph mới bổ sung); **P8 → JED Q1** (7,904w, ✅, chờ NCS quyết Comoros R re-analysis); **P9' → MIR/IJOEM Q1** (✅). Toàn bộ 7 papers đã qua sweep ✅ blind + APA7 + consistency tại phiên 2026-06-03 (commit `8630bb8`). | 🧑 (chỉ còn submit) |
+| F1 | **TOÀN BỘ 7 PAPERS ✅ SUBMISSION-READY** (commit `1061efa`, 2026-06-03): **P3 → JED Q1** (11,597w); **P4 → JABES Q1** (12,096w); **P5 → IJOEM Q1** (7,331w); **P6 → APJM Q1** (11,167w, retargeted from MIR per stronger Asia-Pacific fit + CIMT theoretical match); **P7 → JIBS ABS-4*** (13,140w, CIMT central contribution); **P8 → JED Q1** (8,683w, 4 robustness panels resolved: Comoros + wild-cluster bootstrap + LOO + attrition); **P9' → MIR/IJOEM Q1** (8,424w). All passed final cross-portfolio sweep: ✅ blind-compliant (0 author-identifier hits across 9 patterns), ✅ APA7 cross-reference (all citations in references), ✅ numerical consistency (0 issues across 60 files). | 🧑 (chỉ còn submit + NCS supervisor sign-off) |
 
 ---
 

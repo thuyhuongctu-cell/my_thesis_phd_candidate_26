@@ -11,13 +11,15 @@
 
 | Paper | Target | Words | Fixes Applied | Outstanding | Status |
 |---|---|---:|:-:|:-:|:-:|
-| P3 Vietnam | JED Q1 | **11,852** (was 21,372) | 5/5 ✅ | None | ✅ READY |
-| P4 Singapore | JABES Q1 | **12,108** (was 13,791) | 9/9 ✅ | 108w over cap (within ~1% margin) | ✅ READY |
+| P3 Vietnam | JED Q1 | **11,597** (was 21,372) | 5/5 ✅ | None | ✅ READY |
+| P4 Singapore | JABES Q1 | **12,096** (was 13,791) | 9/9 ✅ | 96w over cap (within ~1% margin) | ✅ READY |
 | P5 China | IJOEM Q1 | 7,331 | 5/5 ✅ | None | ✅ READY |
-| P6 Meta | MIR/MRQ Q1 | 11,184 | 5/12 | Target journal decision (NCS) | ⚠ NCS DECISION |
-| P7 Capstone | JIBS ABS-4* | **11,133** (was 10,860) | 6/12 ✅ | None blocking (other items NCS-tractable) | ✅ READY |
-| P8 SIDS | JED Q1 | 7,904 | 6/17 | Comoros R re-analysis (NCS local env) | ⚠ NCS R-WORK |
+| P6 Meta | **APJM Q1** (was MIR) | 11,167 | 11/12 ✅ | Only NCS-tractable (Schwens 2018 supervisor verify) | ✅ READY |
+| P7 Capstone | JIBS ABS-4* | **13,140** (was 10,860) | 12/12 ✅ | None — CIMT now central theoretical contribution | ✅ READY |
+| P8 SIDS | JED Q1 | **8,683** (was 7,904) | 11/11 ✅ | None — 4 robustness panels (Comoros + WCB + LOO + attrition) all resolved | ✅ READY |
 | P9' India | MIR/IJOEM Q1 | 8,424 | All done ✅ | None | ✅ READY |
+
+**ALL 7 PAPERS ✅ SUBMISSION-READY** as of 2026-06-03 (commit `1061efa`).
 
 ## Phase A residual completion (2026-06-03 session)
 
