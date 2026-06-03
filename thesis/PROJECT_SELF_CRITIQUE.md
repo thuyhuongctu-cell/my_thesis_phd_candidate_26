@@ -346,9 +346,19 @@ These should have been clarified but I proceeded with assumptions.
 
 ---
 
-## 🟠 GROUP I — Strategic positioning issues
+## 🟢 GROUP I — Strategic positioning issues [RESOLVED post commit-this-session]
 
-### I.1 Multiple journal target switches signal uncertain positioning
+> **2026-06-03 update:** Four ADRs (Architecture Decision Records) added to `docs/adr/` documenting the rationale for each major journal-target decision. Concerns flagged by Group I (undocumented journal switches; IBR exclusion without justification; pattern of moves signalling uncertainty) are addressed.
+>
+> ADRs added:
+> - **[ADR-001](../docs/adr/ADR-001-p5-apjm-to-ijoem.md)** — P5 retarget APJM → IJOEM (word-count fit + freed APJM slot)
+> - **[ADR-002](../docs/adr/ADR-002-p6-mbr-mir-apjm.md)** — P6 journey MBR → MIR → APJM (contribution-profile + geographic-fit chain)
+> - **[ADR-003](../docs/adr/ADR-003-p9-thailand-to-india.md)** — P9 Thailand → India scope switch + MIR target (WBES coverage + UPI quasi-experiment + book-chapter disclosure)
+> - **[ADR-004](../docs/adr/ADR-004-p7-ibr-exclusion.md)** — IBR explicitly excluded portfolio-wide (operational grounds: PRISMA tolerance + abstract format + portal familiarity + review-cycle uncertainty)
+>
+> Each ADR follows MADR-inspired format (Context → Decision → Consequences → Verification → Related). Each cites the triggering commit. Committee defense Q&A about "why did you switch from X to Y?" now has a documented answer.
+
+### I.1 [pre-session draft] Multiple journal target switches signal uncertain positioning
 
 - P3: APJM → JABES → JED (3 targets)
 - P4: MIR → IBR → JABES (3 targets)
