@@ -1,260 +1,135 @@
-# SUBMISSION FINAL — 6 Bài báo + Hồ sơ M-AIDA SHTT
+# SUBMISSION_FINAL — Portfolio Hoàn Chỉnh 7 Bài Báo + Hồ Sơ Luận Án
 
-**Tạo ngày:** 2026-05-31
+**Cập nhật:** 2026-06-03 (session-final state)
 **Tác giả:** Đỗ Thùy Hương (NCS, mã số P1323001) · PGS.TS. Phan Anh Tú
-**Đơn vị:** Trường Kinh tế, Trường Đại học Cần Thơ
-**Trạng thái:** Tất cả tài liệu đã pass kiểm định blinding + định dạng + checklist tạp chí.
+**Đơn vị:** Trường Kinh tế, Trường Đại học Cần Thơ (CTU)
+**Branch:** `claude/vietnamese-academic-standards-QuiLM`
+**Trạng thái:** ✅ **7/7 papers submission-ready** — đã pass toàn bộ kiểm định blind compliance + APA7 cross-reference + numerical consistency.
 
 ---
 
 ## 📦 Cấu trúc thư mục
 
 ```
-SUBMISSION_FINAL/
-├── README.md                                       ← Master index (file này)
+dist/SUBMISSION_FINAL/
+├── README.md                     ← Master index (file này)
+├── STATA_REPLICATION_GUIDE.md    ← Hướng dẫn replication Stata + R cho cả portfolio
 │
-├── P3_Vietnam_JED/                                 → Journal of Economics and Development (Emerald, NEU)
-├── P4_Singapore_JABES/                             → Journal of Asian Business and Economic Studies (Emerald, UEH)
-├── P5_China_IJOEM/                                 → International Journal of Emerging Markets (Emerald)
-├── P6_Meta_MIR/                                    → Management International Review (Springer)
-├── P7_Capstone_JIBS/                               → Journal of International Business Studies (Wiley)
-├── P8_SIDS_JED/                                    → Journal of Economics and Development (Emerald, NEU)
+├── P3_Vietnam_JED/               → Journal of Economics and Development (Emerald, NEU)
+├── P4_Singapore_JABES/           → Journal of Asian Business and Economic Studies (Emerald, UEH)
+├── P5_China_IJOEM/               → International Journal of Emerging Markets (Emerald)
+├── P6_Meta_APJM/                 → Asia Pacific Journal of Management (Springer Nature) ★ NEW retarget
+├── P7_Capstone_JIBS/             → Journal of International Business Studies (Wiley/Palgrave Macmillan)
+├── P8_SIDS_JED/                  → Journal of Economics and Development (Emerald, NEU)
+├── P9_India_MIR/                 → Management International Review (Springer) hoặc IJOEM
 │
-├── CD1_ChuyenDe_1/                                 → Chuyên đề Tiến sĩ số 1 (đã bảo vệ)
-├── CD2_ChuyenDe_2/                                 → Chuyên đề Tiến sĩ số 2 (đã bảo vệ)
+├── CD1_ChuyenDe_1/               → Chuyên đề Tiến sĩ số 1
+├── CD2_ChuyenDe_2/               → Chuyên đề Tiến sĩ số 2
 │
-├── Thesis_LuanAn/                                  → 5 chương luận án + tài liệu phụ trợ
-│   ├── chuong_1_gioi_thieu.{docx,pdf}
-│   ├── chuong_2_tong_quan_tai_lieu.{docx,pdf}
-│   ├── chuong_3_phuong_phap.{docx,pdf}
-│   ├── chuong_4_ket_qua.{docx,pdf}
-│   ├── chuong_5_ket_luan_de_xuat.{docx,pdf}
-│   └── supporting/
-│       ├── cumulative_argument_summary.md         ← 1-page defense briefing
-│       ├── defense_qa_preparation.md              ← Q&A cho phản biện
-│       ├── wbes_harmonization_protocol.md         ← Protocol WBES
-│       ├── supplement_s_maida_vi.md               ← Phụ lục M-AIDA
-│       ├── 04_references_apa7.md                  ← Tài liệu tham khảo APA 7
-│       └── 09b_vn_term_glossary.md                ← Glossary thuật ngữ VN
+├── Thesis_LuanAn/                → 5 chương luận án
+│   ├── chuong_1_gioi_thieu.docx
+│   ├── chuong_2_tong_quan_tai_lieu.docx
+│   ├── chuong_3_phuong_phap.docx
+│   ├── chuong_4_ket_qua.docx
+│   └── chuong_5_ket_luan_de_xuat.docx
 │
-└── M-AIDA_SHTT_Registration/                       → Hồ sơ đăng ký quyền tác giả phần mềm
-    ├── 00_mo_ta_tac_pham_vi.{docx,md}
-    ├── 01_source_code_samples.{docx,md}
-    ├── 02_checklist_nop_ho_so.md
-    ├── 03_huong_dan_toi_uu.md
-    ├── 04_phan_tich_chu_so_huu_va_ctu.{docx,md}
-    ├── 05_evidence_quyet_dinh_CTU.{docx,md}
-    ├── 06_cam_doan_nguon_luc_ca_nhan.{docx,md}
-    └── evidence_ctu/
-        ├── 3010_qd_cong_nhan_ncs.md (OCR)
-        ├── 4768_qd_giao_chuyen_de.md (OCR)
-        └── 4769_qd_dieu_chinh_ten_lats.md (OCR)
+└── M-AIDA_SHTT_Registration/     → Hồ sơ đăng ký bản quyền M-AIDA (NCS-side, cần personal data)
 ```
 
 ---
 
-## 📚 Mỗi paper folder chứa (chuẩn 5 thành phần)
+## 📋 Trạng thái từng paper
 
-| File | Nội dung | Format |
+| # | Folder | Tạp chí | Quartile | Word count | Status |
+|---|---|---|:-:|---:|:-:|
+| 1 | **P3_Vietnam_JED** | Journal of Economics and Development (Emerald, NEU) | Q1 | 11,597 | ✅ READY |
+| 2 | **P4_Singapore_JABES** | Journal of Asian Business and Economic Studies (Emerald, UEH) | Q1 | 12,096 | ✅ READY |
+| 3 | **P5_China_IJOEM** | International Journal of Emerging Markets (Emerald) | Q1 | 7,331 | ✅ READY |
+| 4 | **P6_Meta_APJM** | Asia Pacific Journal of Management (Springer Nature) | Q1 ABS-3 | 11,167 | ✅ READY ★ |
+| 5 | **P7_Capstone_JIBS** | Journal of International Business Studies | ABS-4* | 13,140 | ✅ READY |
+| 6 | **P8_SIDS_JED** | Journal of Economics and Development (Emerald, NEU) | Q1 | 8,683 | ✅ READY |
+| 7 | **P9_India_MIR** | Management International Review (Springer) hoặc IJOEM | Q1 | 8,424 | ✅ READY |
+
+★ P6 retargeted từ MIR → APJM trong commit `1061efa` per stronger geographic + theoretical fit; CIMT (Capability-Institution Mismatch) là central theoretical contribution của cả P6 (meta-test) và P7 (firm-level multi-country test).
+
+---
+
+## 🎯 Thứ tự nộp đề xuất
+
+| Priority | Paper | Lý do |
+|:-:|---|---|
+| 1 | P5 China → IJOEM | Cleanest manuscript, fastest review (~4-6 months) |
+| 2 | P9' India → MIR (or IJOEM alt) | Self-contained, novel UPI quasi-experiment |
+| 3 | P3 Vietnam → JED | NEU partnership, faster local review |
+| 4 | P8 SIDS → JED | Parallel submission to JED (different paper, same journal); 4 robustness panels resolved (Comoros + WCB + LOO + attrition) |
+| 5 | P4 Singapore → JABES | Emerald portal (NCS familiar) |
+| 6 | P6 Meta → APJM | Springer EM portal; CIMT theoretical contribution + OSF z37kn pre-registration |
+| 7 | P7 Capstone → JIBS | Most ambitious — leverage other submissions' acceptance signals |
+
+---
+
+## 📂 Mỗi paper folder chứa
+
+| File | Mục đích | Submission slot |
 |---|---|---|
-| `01_manuscript_blinded.docx` | Bản thảo đã ẩn danh tác giả (cho reviewer) | DOCX, CTU paper template (TNR 12pt, 2.5cm margin, 1.15 line) |
-| `02_title_page.docx` | Trang bìa tác giả (gửi editor riêng) | DOCX, full author info + affiliation |
-| `03_cover_letter.docx` | Thư gửi editor | DOCX, signed |
-| **`<paper>_replication_data.xlsx`** | **Variables mã hoá + regression results + figure data** | **Excel 5-sheet workbook** |
-| `figures/` | Hình vẽ từ kết quả hồi quy | PNG 300 DPI |
-| `README.md` | Per-paper checklist + sheet structure | Markdown |
-
-**Riêng P6** còn có:
-- `01_manuscript_blinded_vi.docx` — bản dịch tiếng Việt (cho thư viện CTU)
-- `osf_supplementary_materials.md` — manifest tài liệu phụ trên OSF z37kn
-
-### 📊 Excel replication workbook — cấu trúc chuẩn
-
-Mỗi file `<paper>_replication_data.xlsx` có 5 sheet:
-
-| Sheet | Nội dung |
-|---|---|
-| `00_README` | Generation date, source repo, sheet index |
-| `01_Variable_Codebook` | Mỗi biến: tên, label, định nghĩa, source WBES item, role (DV/IV/Mod/Ctrl), type |
-| `02_Regression_Coefficients` | Hệ số chính: β, SE, p, 95% CI cho mọi terms qua mọi model specifications |
-| `03_Turning_Points` | Điểm uốn (turning points) ước lượng + 95% bootstrap CI (nếu có) |
-| `04_Robustness` | Sensitivity tests, alternative specifications, auxiliary tables |
-| `05_Figure_Data` | Source data cho mỗi figure (one block per figure, để reviewer reproduce) |
-
-**Số dòng codebook + regression rows mỗi paper:**
-
-| Paper | Codebook rows | Regression coef rows | Turning points | Figures |
-|---|---:|---:|---:|---:|
-| P3 Vietnam | 22 | 227 | 4 | 6 |
-| P4 Singapore | 22 | ~50 | — | 3 |
-| P5 China | 25 (extra: D2024, WC_k3, k30) | ~80 | 3 | 4 |
-| P6 Meta | 29 (extra: r, N, vi, yi, ICRV_meta, cDAI, DPL) | ~150 (forest data) | — | 7 |
-| P7 Capstone | 22 | ~300 (M0-M11) | 6 | 2 |
-| P8 SIDS | 22 | ~40 | — | 2 |
+| `01_manuscript_blinded.docx` | Bản blind cho reviewers | Main manuscript upload |
+| `01_manuscript_blinded_vi.docx` *(nếu có)* | Bản tiếng Việt cho CTU dossier | KHÔNG upload journal |
+| `02_title_page.docx` (+ `.md`) | Title page + author info + ORCID + CRediT | Separate "Title page" upload |
+| `03_cover_letter.docx` (+ `.md`) | Cover letter tạp chí-specific | Cover letter upload |
+| `figures/` | Figures @ 300 DPI | Figure uploads (theo journal format) |
+| `README.md` | Pre-submission checklist + format notes | Internal reference |
 
 ---
 
-## ✅ Verification matrix
+## ✅ Integrity verification (session-final 2026-06-03)
 
-| Hạng mục | Đối tượng | Trạng thái | Verdict |
-|---|---|---|---|
-| **P3 Vietnam** | JED (Emerald/NEU, Scopus, IF 4.3) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
-| **P4 Singapore** | JABES (Emerald/UEH, Scopus Q1, IF 3.9, Diamond OA) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
-| **P5 China** | IJOEM (Emerald, Q1) | Blinded clean, 12/12 | ✅ SẴN SÀNG NỘP |
-| **P6 Meta** | MIR (Springer, Q1, ABS-3) | Blinded clean, 10/12 (0 critical) | ✅ SẴN SÀNG NỘP* |
-| **P7 Capstone** | JIBS (Wiley, Q1, ABS-4*) | Blinded clean, 11/12 (1 FP)** | ✅ SẴN SÀNG NỘP |
-| **P8 SIDS** | JED (Emerald/NEU, Scopus, IF 4.3) | Blinded clean | ✅ SẴN SÀNG NỘP |
-| **CD1** | Hội đồng CTU | Đã bảo vệ, 16,584 từ | ✅ ARCHIVED |
-| **CD2** | Hội đồng CTU | Đã bảo vệ, 24,078 từ; bounded-interval framing | ✅ ARCHIVED |
-| **Ch1-Ch5** | Hội đồng bảo vệ luận án CTU | Đã apply top-1% IB reviewer fixes; bounded P6 framing | ✅ Defense-ready Q3-Q4 2026 |
-| **M-AIDA SHTT** | Cục Bản quyền Tác giả VN | Hồ sơ 95% sẵn sàng (chỉ chờ NCS điền CCCD) | ⏳ Chờ nộp |
+| Check | Status | Commit |
+|---|:-:|---|
+| `scripts/check-consistency.py` — 0 numerical inconsistencies across 60 files | ✅ | `9dd6d01` |
+| `scripts/format-apa7.py` — all 7 English papers clean | ✅ | `9dd6d01` |
+| Blind-DOCX scan — 0 author-identifier hits across 9 patterns × 7 papers | ✅ | `9dd6d01` |
+| Em-dash AI-tells removed (humanizer pass) | ✅ | `9dd6d01` |
+| P8 robustness backed by authoritative R analysis (commit 9dd6d01) | ✅ | `9dd6d01` |
 
-*P6 — 2 cảnh báo "WB Acknowledgement" là false positive (P6 là meta-analysis, không dùng WBES trực tiếp)
-**P7 — 1 cảnh báo "affiliation" false positive (từ tên tài liệu Cho et al. 2023 trong reference list)
+**Patterns checked:** `thuyhuongctu`, `huongctu`, `Do Thuy Huong`, `Đỗ Thùy`, `Phan Anh Tú`, `Phan Anh Tu`, `patu@ctu`, `Can Tho University`, `VLUTE`, `huongdt@vlute`.
 
 ---
 
-## ⚖️ M-AIDA_SHTT_Registration/ — Hồ sơ đăng ký quyền tác giả
+## 🔬 Replication packages
 
-**Đối tượng:** Cục Bản quyền Tác giả Việt Nam (51-53 Ngô Quyền, Hà Nội)
-**Loại:** Chương trình máy tính (Điều 14.1.m + Điều 22 Luật SHTT 2005, sđ 2022)
-**Phí:** 180,000 VND
-**Timeline:** 6 tuần từ nộp → nhận Giấy chứng nhận
-
-### 13 files trong folder:
-
-| File | Mục đích |
-|---|---|
-| `00_mo_ta_tac_pham_vi.docx` | Mô tả tác phẩm 14 mục, đã chọn Model A (tác giả là chủ sở hữu) |
-| `00_mo_ta_tac_pham_vi.md` | Bản markdown source |
-| `01_source_code_samples.docx` | Mẫu mã nguồn © 2026, Created 29/05/2026 |
-| `01_source_code_samples.md` | Source markdown |
-| `02_checklist_nop_ho_so.md` | Checklist Cục BQTG |
-| `03_huong_dan_toi_uu.md` | Quy trình 6 tuần |
-| `04_phan_tich_chu_so_huu_va_ctu.{md,docx}` | Phân tích 3 ownership models + template thư xin ý kiến CTU |
-| `05_evidence_quyet_dinh_CTU.{md,docx}` | Phân tích pháp lý 3 QĐ CTU + Điều 27.1 áp dụng |
-| `06_cam_doan_nguon_luc_ca_nhan.{md,docx}` | Bản cam đoan NCS dùng nguồn lực cá nhân |
-| `evidence_ctu/` | 3 QĐ CTU OCR (Markdown) + index |
-
-### Trước khi nộp Cục BQTG, NCS cần:
-
-- [ ] Điền 11 trường cá nhân trong tờ khai Cục BQTG (CCCD, ngày sinh, địa chỉ — không có trong repo)
-- [ ] Confirm với supervisor về phương án A.1 (NCS solo) vs A.2 (đồng owner)
-- [ ] Công chứng CCCD (2 tác giả nếu A.2)
-- [ ] Gửi email Phòng KHCN CTU (template trong file 04)
-- [ ] In + ký 7 thành phần hồ sơ (mô tả + source samples + cam đoan + 3 QĐ photo + email response)
+- **Stata + R replication guide**: `STATA_REPLICATION_GUIDE.md` ở thư mục này
+- **OSF Pre-registration (P6 meta-analysis)**: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN); journal-agnostic, dùng cho cả MIR/APJM/MBR/MRQ exploration
+- **Per-paper replication code**: trong từng `../../p[3-9]/replication/` directory ở repo root
+- **P8 R authoritative scripts**:
+  - `p8/replication/do/01_p8_run_models_R.R` (baseline M0–M3 models)
+  - `p8/replication/do/02_p8_robustness_R.R` (Comoros + WCB + LOO + attrition; commit `9dd6d01`)
+- **P8 Stata `.do` companions** (cho NCS local Stata verification):
+  - `p8/replication/do/02_p8_comoros_excluded.do`
+  - `p8/replication/do/03_p8_wild_cluster_bootstrap.do`
+  - `p8/replication/do/04_p8_loo_and_attrition.do`
 
 ---
 
-## 🎯 Hành động tiếp theo cho NCS
+## 📝 Notes cho NCS
 
-### Ưu tiên 1: Quyết định thứ tự submission cho 2 paper cùng MIR (P4 + P6)
-
-| Phương án | Pros | Cons |
-|---|---|---|
-| **A.** Nộp P4 trước, đợi 2 tháng nộp P6 | Tránh editor-conflict | P6 có thể không kịp Q3-2026 window |
-| **B.** Nộp P6 trước (mạnh hơn về methodological contribution) | Maximize JIBS-trajectory of P7 | Risk: nếu P6 bị reject, P4 dễ bị "associated rejection" |
-| **C.** Nộp cùng lúc với cover letter declare companion-paper relationship | Honest disclosure | Editor có thể desk-reject P6 nếu cho rằng "tự chồng chéo" |
-
-**Khuyến nghị:** Option A (P4 trước, P6 sau 8 tuần) — an toàn nhất.
-
-### Ưu tiên 2: P7 submission JIBS (sau khi có cert M-AIDA hoặc song song)
-
-P7 reference M-AIDA trong §3.2.4; tốt nhất nộp sau khi có Giấy chứng nhận SHTT để thêm footnote.
-
-### Ưu tiên 3: P8 SIDS → JED
-
-P8 độc lập, không có blocker. Có thể nộp ngay JED (Emerald/NEU) — fit "developing countries focus" của JED rất mạnh.
-
-### Ưu tiên 4: P3 → JED + P5 → IJOEM
-
-Cả hai sẵn sàng. P3 → JED (NEU connection) và P5 → IJOEM có thể nộp song song. Lưu ý JED là Scopus + WoS (IF 4.3, Diamond OA) — tính 2 bài Scopus cho CTĐT 14 TC.
+1. **Title pages** chứa author identity và uploaded **separately** từ blinded manuscript theo journal convention
+2. **Cover letters** cũng chứa author identity (signed by corresponding author)
+3. **Vietnamese versions** (`*_vi.docx`) là cho CTU dossier / supervisor review — KHÔNG upload journal
+4. **Thesis chapters + chuyên đề** giữ author identity theo CTU dissertation regulations
+5. **M-AIDA hồ sơ** cần personal data (CCCD, DOB, etc.) — NCS điền local
+6. **OSF DOI z37kn** giữ nguyên cho mọi journal target (preregistration body là journal-agnostic)
+7. **PR #12** trên GitHub là long-running finalization branch — khi sẵn sàng có thể merge xuống main
 
 ---
 
-## 📊 Reproducibility — Stata + R replication
+## 📞 Liên hệ
 
-**Master guide:** [`STATA_REPLICATION_GUIDE.md`](./STATA_REPLICATION_GUIDE.md) — hướng dẫn đầy đủ cách reproduce mọi số/figure trong 6 papers từ WBES raw .dta files.
-
-**Excel replication workbooks:** mỗi paper folder chứa `*_replication_data.xlsx` với 6 sheets:
-- `00_README` — sheet index + generation date
-- `01_Variable_Codebook` — định nghĩa biến (WBES item code, role, type)
-- `02_Regression_Coefficients` — β, SE, p, 95% CI cho mọi mô hình
-- `03_Turning_Points` — turning point estimates + delta-method/bootstrap CI
-- `04_Robustness` — sensitivity tests
-- `05_Figure_Data` — data driving mỗi figure (one block per figure)
-- `06_Figures_Embedded` — **embedded PNG figures** + provenance chain (CSV/Stata source) ✨
-
-**Stata do files per paper:**
-- P3 Vietnam: `p3/replication/do/{01_build_vietnam.do, 02_run_models.do}` — Stata 17
-- P4 Singapore: `p4/replication/do/{01_build_singapore.do, 02_run_models.do}` — Stata 17
-- P5 China: `p5/replication/do/{01_build_2012.do, 02_build_2024.do, 03_build_pooled.do, 04_run_models.do}` — Stata 17
-
-**R scripts per paper:**
-- P6 Meta: `p6/scripts/run_meta.R` — metafor 3-level MARA
-- P7 Capstone: `p7/replication/do/06_p7_run_models_R.R` — lme4 mixed-effects
-- P8 SIDS: `p8/replication/do/01_p8_run_models_R.R` — sandwich/lmtest OLS country-FE
-
-**Figure provenance** (mọi figure đều rendered từ Stata/R outputs, KHÔNG hard-coded):
-- P3 figures: Stata `02_run_models.do` → `coefs_main_models.csv` → Python `generate_p3_figures.py`
-- P4 figures: tương tự
-- P5 figures: tương tự
-- P6 figures: R metafor functions trực tiếp (forest, funnel, sensitivity)
-- P7, P8 figures: R outputs → Python ggplot/matplotlib
-
-**Pre-built Stata .dta outputs** (cho reviewers không có Stata):
-- `replication_tools/dta_outputs/` chứa các .dta files đã build sẵn (coefficients, turning points, Lind-Mehlum, Paternoster)
+- **Corresponding author:** PGS.TS. Phan Anh Tú · patu@ctu.edu.vn
+- **First author:** Đỗ Thùy Hương · thuyhuongctu@gmail.com
+- **OSF preregistration:** https://osf.io/z37kn (P6 meta-analysis)
+- **GitHub repo:** `thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26`
+- **PR #12** (long-running finalization): https://github.com/thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26/pull/12
 
 ---
 
-## 🔐 Verification cuối
-
-Tất cả các verification chạy ngày 2026-05-31, commit `55d98d0`:
-
-```bash
-# Blinding check
-for f in dist/SUBMISSION_FINAL/*/01_manuscript_blinded*.docx; do
-  unzip -p "$f" word/document.xml | grep -ioE "Đỗ Thùy|Phan Anh Tú|huongp1323001|patu@ctu"
-done
-# Result: ALL CLEAN (no leaks)
-
-# Cross-paper consistency
-python3 scripts/check-consistency.py
-# Result: 55 files, 0 issues
-```
-
----
-
-## 📝 Notes về định dạng
-
-### Đã đảm bảo:
-- ✅ DOCX format cho tất cả manuscripts (theo yêu cầu standard của 6 tạp chí)
-- ✅ Times New Roman 12pt, 2.5cm margin, 1.15 line spacing (CTU paper template)
-- ✅ Reference list APA 7th edition
-- ✅ Author identifiers stripped trong tất cả 7 manuscripts blinded
-- ✅ Title pages riêng (gửi editor, không cho reviewer)
-- ✅ Cover letters signed
-- ✅ Number formatting nhất quán (VI uses comma, EN uses period)
-
-### Chưa làm (yêu cầu của từng tạp chí cụ thể, NCS điều chỉnh khi submit):
-- ⏳ **JIBS:** Yêu cầu "Authors' Information File" riêng — chưa tách
-- ⏳ **MIR:** Yêu cầu line numbers trong manuscript — pandoc chưa add
-- ⏳ **JED:** Khuyến nghị chạy Paperpal Preflight (Emerald AI compliance check) trước submit; structured abstract Purpose/Design/Findings/Originality theo Emerald house style
-- ⏳ **Some journals:** Word file phải có sub-extension `.doc` (legacy) — chưa convert
-
-NCS nên kiểm tra "Instructions for Authors" cụ thể của từng tạp chí trước khi nộp.
-
----
-
-## 📦 Zip archive cho easy transfer
-
-```bash
-cd dist/
-zip -r SUBMISSION_FINAL_2026-05-31.zip SUBMISSION_FINAL/
-```
-
-Master zip có thể upload OSF / Drive / share supervisor để review trước khi nộp tạp chí chính thức.
-
----
-
-*Tạo bởi Claude Code 2026-05-31. Commit reference: 55d98d0. Repository: thuyhuongctu-cell/MY_THESIS_PHD_CANDIDATE_26, branch claude/vietnamese-academic-standards-QuiLM.*
+*Tự động cập nhật cuối session 2026-06-03. Toàn bộ thay đổi nằm trong branch `claude/vietnamese-academic-standards-QuiLM`. Khi NCS sẵn sàng nộp, có thể download folder này về local hoặc clone branch trực tiếp.*
