@@ -257,7 +257,7 @@ Mô hình khái niệm của luận án vận hành theo logic đa tầng: quan 
 
 Bên cạnh các cơ chế điều tiết, mô hình còn có một yếu tố động thái quan trọng: hình dạng phi tuyến của quan hệ I-P, cụ thể là điểm uốn của đường chữ U ngược, không cố định theo thời gian. Nó có thể dịch chuyển khi bối cảnh thể chế và năng lực doanh nghiệp thay đổi theo chiều dọc, biểu hiện rõ nhất ở các nền kinh tế chuyển đổi nhanh.
 
-![Hình 2.1: Mô hình khái niệm thống nhất, CDCM](figures/figure_conceptual_model_unified.png)
+![Hình 2.1: Mô hình khái niệm thống nhất - khung phân tầng CIMT-ICRV-CDCM](figures/figure_conceptual_model_cimt_layered.png)
 
 *Hình 2.1.* Mô hình khái niệm thống nhất — Quốc tế hóa và Hiệu quả doanh nghiệp dưới khung phân tầng CIMT–ICRV–CDCM. **CIMT** vận hành như cơ chế bao trùm với ba kênh (rent protection, LoF attenuation, institutional-void amplification); **ICRV** là taxonomy thể chế đo qua hai trục (institutional capability × resource vulnerability); **CDCM** là biểu hiện thực nghiệm cấp doanh nghiệp dưới điều kiện số hóa. Hình chữ nhật biểu thị biến quan sát được; hình ellipse biểu thị cấu trúc tiềm ẩn (TCI, ICRV, DAI). H1a (+) và H1b (−) xác định quan hệ phi tuyến chữ U ngược (điểm uốn ≈ 36%; điều kiện biên H1b: SIDS/FIP âm đơn điệu). H2 năng lực công nghệ TCI nâng mặt bằng hiệu quả (level-shift). H3 DAI tái định hình đường cong phụ thuộc bối cảnh. H5 ICRV chi phối độ cong/biên độ trong môi trường thể chế yếu (operationalise cơ chế institutional-void amplification của CIMT). Mũi tên hai chiều đứt nét biểu thị thay thế số–thể chế (DAI×ICRV, $p$ =,049) — *observable signature* của CIMT mà CDCM dự đoán. Kiểm soát Bậc trên (H4) đặc điểm nhà quản trị đưa vào như biến kiểm soát quản trị nội sinh. *Nguồn: tác giả tự xây dựng.*
 

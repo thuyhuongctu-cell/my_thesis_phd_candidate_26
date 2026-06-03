@@ -347,6 +347,211 @@ def render_p5_china(path: Path):
     print(f"  wrote {path}")
 
 
+def render_dissertation_cimt_layered(path: Path):
+    """Layered CIMT-ICRV-CDCM conceptual model for the dissertation
+    (Chapter 2 §2.5.1-2.5.4).
+
+    Three explicit layers stacked vertically:
+      Layer 1 (top) — CIMT umbrella mechanism with its 3 channels
+      Layer 2 (middle) — ICRV institutional taxonomy
+      Layer 3 (bottom) — CDCM observable signature + I-P relationship
+    """
+    fig, ax = setup_axes(width=12.5, height=9.5)
+
+    # Title
+    ax.text(6.25, 9.30,
+            "Dissertation Conceptual Model — Layered CIMT-ICRV-CDCM Framework",
+            ha="center", va="center", fontsize=TITLE_SIZE, fontweight="bold")
+    ax.text(6.25, 8.95,
+            "Capability-Institution Mismatch Theory (CIMT, middle-range) "
+            "operationalised through ICRV taxonomy and CDCM firm-level signature",
+            ha="center", va="center", fontsize=LABEL_SIZE - 1, fontstyle="italic")
+
+    # ===== LAYER 1: CIMT umbrella mechanism =====
+    layer1_rect = FancyBboxPatch(
+        (0.4, 6.95), 11.7, 1.55,
+        boxstyle="round,pad=0.05,rounding_size=0.10",
+        facecolor="#F4F4F4", edgecolor="black", linewidth=1.0,
+    )
+    ax.add_patch(layer1_rect)
+    ax.text(0.65, 8.30, "LAYER 1\nMechanism",
+            ha="left", va="center", fontsize=8, fontstyle="italic",
+            color="#444444")
+
+    # CIMT umbrella box
+    add_box(ax, 6.25, 8.20, 5.4, 0.55,
+            "CIMT — Capability-Institution Mismatch Theory",
+            bold=True)
+    ax.text(6.25, 7.78,
+            "(middle-range integrative framework; Merton 1968; "
+            "Whetten 1989; Corley & Gioia 2011)",
+            ha="center", va="center", fontsize=7, fontstyle="italic",
+            color="#444444")
+
+    # 3 channels under CIMT
+    add_box(ax, 2.40, 7.25, 2.3, 0.40,
+            "Rent protection\n(Kogut & Zander 1993; Zaheer 1995)",
+            fontsize=7)
+    add_box(ax, 6.25, 7.25, 2.3, 0.40,
+            "LoF attenuation\n(Peng et al. 2008; Zaheer 1995)",
+            fontsize=7)
+    add_box(ax, 10.10, 7.25, 2.3, 0.40,
+            "Institutional-void amplification\n(Khanna & Palepu 1997, 2010)",
+            fontsize=7)
+
+    # Arrows from CIMT box to 3 channels
+    for cx in (2.40, 6.25, 10.10):
+        a = FancyArrowPatch(
+            (6.25, 7.92), (cx, 7.50),
+            arrowstyle="-|>,head_width=3.0,head_length=5",
+            linewidth=0.8, color="#666666",
+            shrinkA=2, shrinkB=2,
+        )
+        ax.add_patch(a)
+
+    # ===== LAYER 2: ICRV taxonomy =====
+    layer2_rect = FancyBboxPatch(
+        (0.4, 5.20), 11.7, 1.50,
+        boxstyle="round,pad=0.05,rounding_size=0.10",
+        facecolor="#FAFAFA", edgecolor="black", linewidth=1.0,
+    )
+    ax.add_patch(layer2_rect)
+    ax.text(0.65, 5.95, "LAYER 2\nTaxonomy",
+            ha="left", va="center", fontsize=8, fontstyle="italic",
+            color="#444444")
+
+    add_box(ax, 6.25, 6.30, 5.4, 0.50,
+            "ICRV — Institutional Context Regime Variation\n"
+            "(2 axes: institutional capability × resource vulnerability)",
+            bold=True)
+
+    # 6 regime sub-groups
+    regimes = [
+        (1.60, "Group I\nAdv. innov.\n(Singapore)"),
+        (3.50, "Group II\nAdv. resource\n(GCC)"),
+        (5.40, "Group III\nUpper-mid\n(China)"),
+        (7.30, "Group IV\nEmerging\n(Vietnam)"),
+        (9.20, "Group V\nFrontier\n(Bangladesh)"),
+        (11.10, "Group VI\nSIDS\n(Fiji, Vanuatu)"),
+    ]
+    for cx, label in regimes:
+        add_box(ax, cx, 5.55, 1.65, 0.55, label, fontsize=6.5)
+
+    # ===== LAYER 3: CDCM signature + I-P relationship =====
+    layer3_rect = FancyBboxPatch(
+        (0.4, 0.20), 11.7, 4.75,
+        boxstyle="round,pad=0.05,rounding_size=0.10",
+        facecolor="#FCFCFC", edgecolor="black", linewidth=1.0,
+    )
+    ax.add_patch(layer3_rect)
+    ax.text(0.65, 2.60, "LAYER 3\nSignature",
+            ha="left", va="center", fontsize=8, fontstyle="italic",
+            color="#444444")
+
+    # CDCM header
+    add_box(ax, 6.25, 4.55, 6.0, 0.45,
+            "CDCM — Context-Contingent Digital Capability Model\n"
+            "(observable signature at firm-level under digital conditions)",
+            bold=True, fontsize=8.5)
+
+    # IVs (left)
+    add_box(ax, 2.20, 3.30, 2.0, 0.50, "FSTS", bold=True)
+    add_box(ax, 2.20, 2.45, 2.0, 0.50, r"FSTS$^2$", bold=True)
+    ax.text(2.20, 3.78, "(inverted-U, TP ≈ 36%)",
+            ha="center", va="center", fontsize=7, fontstyle="italic",
+            color="#555555")
+
+    # DV (right)
+    add_box(ax, 9.90, 2.92, 2.20, 0.95,
+            "ln(LP)\nFirm Performance", bold=True)
+
+    # H1a / H1b arrows
+    add_arrow(ax, (3.20, 3.30), (8.80, 3.10),
+              label="H1a (+)", label_pos="mid", label_offset=(0, 0.20))
+    add_arrow(ax, (3.20, 2.45), (8.80, 2.78),
+              label="H1b (−)", label_pos="mid", label_offset=(0, -0.20))
+
+    # H1b SIDS boundary note
+    ax.text(6.00, 2.15,
+            "H1b boundary: SIDS/FIP → negative monotonic",
+            ha="center", va="center", fontsize=7, fontstyle="italic",
+            color="#555555")
+
+    # TCI moderator (top center)
+    add_ellipse(ax, 6.00, 4.05, 2.3, 0.45,
+                "TCI (Technological Capability)", italic=True, fontsize=8)
+    add_mod_arrow(ax, (6.00, 3.83), (6.00, 3.05), label="H2 (level↑)")
+
+    # DAI moderator (bottom)
+    add_ellipse(ax, 6.00, 1.20, 2.3, 0.45,
+                "DAI (Digital Adoption)", italic=True, fontsize=8)
+    add_mod_arrow(ax, (6.00, 1.43), (6.00, 2.78), label="H3 (curve)")
+
+    # DAI × ICRV substitution arrow (signature link to Layer 2)
+    a_sub = FancyArrowPatch(
+        (6.00, 0.97), (6.25, 5.30),
+        arrowstyle="<->,head_width=4.5,head_length=7",
+        linewidth=0.9, color="black", linestyle="--",
+        connectionstyle="arc3,rad=0.30",
+        shrinkA=2, shrinkB=2,
+    )
+    ax.add_patch(a_sub)
+    ax.text(3.80, 1.20,
+            r"DAI$\times$ICRV substitution (p=.049)",
+            ha="center", va="center", fontsize=7, fontstyle="italic")
+
+    # Upper Echelons controls (bottom strip)
+    add_box(ax, 6.25, 0.45, 11.0, 0.40,
+            "Upper Echelons Controls (H4):  Manager Experience  ·  Education  ·  Female",
+            fontsize=8, italic=True)
+
+    # ===== Inter-layer arrows =====
+    # Channel 3 (institutional-void amplification) -> ICRV Groups V/VI (visual link)
+    a_link1 = FancyArrowPatch(
+        (10.10, 7.05), (10.15, 6.80),
+        arrowstyle="-|>,head_width=3.0,head_length=5",
+        linewidth=0.8, color="#888888",
+        shrinkA=2, shrinkB=2,
+    )
+    ax.add_patch(a_link1)
+
+    # ICRV regime gradient -> CDCM (Layer 2 -> Layer 3)
+    a_link2 = FancyArrowPatch(
+        (6.25, 5.30), (6.25, 5.00),
+        arrowstyle="-|>,head_width=3.5,head_length=6",
+        linewidth=1.0, color="black",
+        shrinkA=2, shrinkB=2,
+    )
+    ax.add_patch(a_link2)
+
+    # H5 label (ICRV moderates curvature via CDCM signature)
+    ax.text(7.60, 5.05,
+            "H5 (ICRV concavity/amplitude)",
+            ha="left", va="center", fontsize=7, fontstyle="italic",
+            color="#444444")
+
+    # Caption
+    fig.text(
+        0.5, -0.02,
+        "Figure 2.1.  Layered CIMT-ICRV-CDCM conceptual model integrating "
+        "the dissertation portfolio. Layer 1 (top): Capability-Institution Mismatch "
+        "Theory (CIMT) as the umbrella mechanism, synthesising three established "
+        "channels — rent protection, LoF attenuation, institutional-void amplification. "
+        "Layer 2 (middle): ICRV institutional taxonomy across 6 regime sub-groups "
+        "(Groups I-VI). Layer 3 (bottom): CDCM observable signature at the firm "
+        "level — H1 inverted-U (TP ≈ 36%) with H1b boundary at SIDS/FIP; "
+        "H2 TCI level-shift; H3 DAI curve-reshaping; H5 ICRV moderates concavity; "
+        "DAI×ICRV digital-for-institutional substitution (p = .049); H4 Upper "
+        "Echelons as endogenous control. Source: authors' own elaboration.",
+        ha="center", va="top", fontsize=LABEL_SIZE - 1, fontstyle="italic",
+        wrap=True,
+    )
+
+    plt.savefig(path, dpi=DPI, bbox_inches="tight", pad_inches=0.3)
+    plt.close(fig)
+    print(f"  wrote {path}")
+
+
 def render_dissertation_unified(path: Path):
     """Unified dissertation conceptual model (CDCM).
     Context-Contingent Digital-and-Capability Model integrating
@@ -468,9 +673,12 @@ def main():
         ("P5 China",
          base / "p5_china" / "figure_1_conceptual_model.png",
          render_p5_china),
-        ("Dissertation Unified (CDCM)",
+        ("Dissertation Unified (CDCM legacy)",
          thesis_figs / "figure_conceptual_model_unified.png",
          render_dissertation_unified),
+        ("Dissertation Layered (CIMT-ICRV-CDCM)",
+         thesis_figs / "figure_conceptual_model_cimt_layered.png",
+         render_dissertation_cimt_layered),
     ]
     for label, path, fn in targets:
         path.parent.mkdir(parents=True, exist_ok=True)
