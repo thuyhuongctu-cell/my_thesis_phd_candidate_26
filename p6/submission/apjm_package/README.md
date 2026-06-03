@@ -45,7 +45,7 @@ The OSF pre-registration DOI **10.17605/OSF.IO/Z37KN** is journal-agnostic and r
 ## Why APJM (not MIR / IBR / MRQ)
 
 - **Geographic fit:** APJM's scope ("management research in the Asia-Pacific") matches P6's 45-economy Asian and Pacific corpus and the ICRV institutional taxonomy directly.
-- **Theoretical fit:** APJM has published institutional-view research (Peng 2003) and welcomes the Capability-Institution Mismatch (CIMT) theoretical contribution as an Asian-Pacific institutional-contingency advance.
+- **Theoretical fit:** APJM has published institutional-view research (Peng 2003) and welcomes the integrated capability–institution mechanism (synthesising rent protection, LoF attenuation, and institutional-void amplification under the ICRV gradient) as an Asian-Pacific institutional-contingency advance.
 - **Methodological tolerance:** APJM accepts pre-registered single-coder meta-analyses when the single-coder limitation is transparently disclosed and mitigated (P6 has 5 documented mitigations).
 - **Submission velocity:** APJM review timeline (~6–8 months) is materially faster than MIR (~8–12 months) at similar Q1 / ABS-3 status.
 - **NCS exclusion:** IBR was explicitly excluded by the corresponding author.

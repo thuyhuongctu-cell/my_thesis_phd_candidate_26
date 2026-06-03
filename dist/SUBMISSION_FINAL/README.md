@@ -50,7 +50,7 @@ dist/SUBMISSION_FINAL/
 | 6 | **P8_SIDS_JED** | Journal of Economics and Development (Emerald, NEU) | Q1 | 8,683 | ✅ READY |
 | 7 | **P9_India_MIR** | Management International Review (Springer) hoặc IJOEM | Q1 | 8,424 | ✅ READY |
 
-★ P6 retargeted từ MIR → APJM trong commit `1061efa` per stronger geographic + theoretical fit; CIMT (Capability-Institution Mismatch) là central theoretical contribution của cả P6 (meta-test) và P7 (firm-level multi-country test).
+★ P6 retargeted từ MIR → APJM trong commit `1061efa` per stronger geographic + theoretical fit. P6 + P7 dùng **cơ chế tích hợp năng lực-thể chế** (integrated capability-institution mechanism, synthesising rent protection + LoF attenuation + institutional-void amplification) làm theoretical contribution chung, neo trên ICRV taxonomy.
 
 ---
 
@@ -63,7 +63,7 @@ dist/SUBMISSION_FINAL/
 | 3 | P3 Vietnam → JED | NEU partnership, faster local review |
 | 4 | P8 SIDS → JED | Parallel submission to JED (different paper, same journal); 4 robustness panels resolved (Comoros + WCB + LOO + attrition) |
 | 5 | P4 Singapore → JABES | Emerald portal (NCS familiar) |
-| 6 | P6 Meta → APJM | Springer EM portal; CIMT theoretical contribution + OSF z37kn pre-registration |
+| 6 | P6 Meta → APJM | Springer EM portal; integrated capability-institution mechanism + OSF z37kn pre-registration |
 | 7 | P7 Capstone → JIBS | Most ambitious — leverage other submissions' acceptance signals |
 
 ---
