@@ -112,7 +112,7 @@ Spec 1 (full coverage 2009–2025) dùng biến nhị phân duy nhất (`website
 
 > **Bằng chứng nền tảng**: §2.7 file 14 (Khung 4-Tier Verhoef + CDCM); phân tích Singapore; phân tích Việt Nam.
 
-Ghi chú phân tích nội bộ của tác giả (2026) chỉ ra một **tương phản cốt lõi** giữa hai bản thảo: Singapore (Tier 1+2 = website + e-payment) cho hệ số tương tác DAI×FSTS² **dương mạnh** (β=3,119, p=,005), trong khi Việt Nam (Tier 1 = website only) cho tương tác DAI×FSTS **âm** ở wave 2023 (β=-0,912, p=,043). Đây không phải mâu thuẫn ngẫu nhiên mà là **bằng chứng cho khung CDCM**. Giá trị của công cụ số phụ thuộc độ tương thích giữa cấp độ số hóa và mật độ giao dịch quốc tế:
+Ghi chú phân tích nội bộ của tác giả (2026) chỉ ra một **tương phản cốt lõi** giữa hai bản thảo: Singapore (Tier 1+2 = website + e-payment) cho hệ số tương tác DAI×FSTS² **dương mạnh** (β=3,119, p=,005), trong khi Việt Nam (Tier 1 = website only) cho tương tác DAI×FSTS **âm** ở wave 2023 (β=-0,912, p=,043). Đây không phải mâu thuẫn ngẫu nhiên mà là **bằng chứng cho khung CDCM**, tức observable signature của CIMT (kênh institutional-void amplification) trong điều kiện số hóa, theo định vị phân tầng tại luận án Chương 2 §2.5. Giá trị của công cụ số phụ thuộc độ tương thích giữa cấp độ số hóa và mật độ giao dịch quốc tế:
 
 **Bảng 4.4.5.1**. *Đối chiếu cơ chế DAI giữa hai bối cảnh thể chế (CDCM application).*
 

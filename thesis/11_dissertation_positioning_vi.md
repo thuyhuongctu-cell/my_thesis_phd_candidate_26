@@ -60,7 +60,7 @@
 
 # 1. Định vị dựa trên hiện tượng — vì sao luận án này khác biệt
 
-Luận án của nghiên cứu sinh là một **luận án tích hợp nhiều tuyến phân tích**, dựa trên **dữ liệu WBES đa quốc gia ở 45 nền kinh tế** và **mạch trần thuật về gradient thể chế** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế), trải từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime V/Frontier). Trong số 1,745 bài báo sử dụng WBES đã công bố, **không có** luận án nào có cấu trúc tương đương.
+Luận án của nghiên cứu sinh là một **luận án tích hợp nhiều tuyến phân tích** dưới khung lý thuyết phân tầng ba lớp **CIMT–ICRV–CDCM** (Chương 2 §2.5): cơ chế trung tâm **CIMT (Capability–Institution Mismatch Theory)** tích hợp ba kênh đã khẳng định trong văn liệu IB (rent protection, LoF attenuation, institutional-void amplification); taxonomy **ICRV (Institutional Context Regime Variation)** phân loại 45 nền kinh tế (mẫu hồi quy) / 47 nền kinh tế (mẫu mô tả) trên hai trục (institutional capability × resource vulnerability) thành 6 chế độ con, trải từ Singapore (ICRV Regime I, Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime VI); signature **CDCM (Context-Contingent Digital Capability Model)** cung cấp bằng chứng thực nghiệm cấp doanh nghiệp dưới điều kiện số hóa. Trong số 1,745 bài báo sử dụng WBES đã công bố, **không có** luận án nào có cấu trúc tương đương.
 
 Tổng luận này đối chiếu luận án với các công trình nghiên cứu quốc tế và châu Á tương đương nhằm chứng minh **tính mới và đóng góp độc đáo** trong bối cảnh học thuật quốc tế hiện nay.
 

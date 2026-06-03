@@ -182,9 +182,20 @@
 
 ---
 
-## Nhóm 9 — Thuật ngữ khung lý thuyết CDCM (đồng bộ phản biện 2026)
+## Nhóm 9 — Thuật ngữ khung lý thuyết phân tầng CIMT–ICRV–CDCM (đồng bộ session 2026-06-03)
 
-*Áp dụng cho: Khung lý thuyết (Ch.2, CĐ2 §2.3), Kết quả và Thảo luận (Ch.4-5).*
+*Áp dụng cho: Khung lý thuyết (Ch.2 §2.5, CĐ2 §1 + §3.5), Kết quả và Thảo luận (Ch.4-5), Defense Q&A (Q2.1).*
+
+> Khung phân tầng ba lớp do luận án phát triển: **CIMT** = cơ chế trung tâm (umbrella mechanism) tầm trung theo Merton (1968), Whetten (1989), Corley & Gioia (2011); **ICRV** = taxonomy phân loại 45–47 nền kinh tế thành 6 chế độ con; **CDCM** = biểu hiện thực nghiệm (observable signature) cấp doanh nghiệp dưới điều kiện số hóa.
+
+| STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
+|-----|-----------|------------------|-------------------|------------------------|
+| 68a | Capability–Institution Mismatch Theory (CIMT) | Lý thuyết Bất tương thích Năng lực–Thể chế | Lý thuyết Bất tương thích Năng lực–Thể chế (Capability–Institution Mismatch Theory, CIMT) | CIMT |
+| 68b | Rent protection (CIMT channel 1) | Bảo vệ tô (kênh CIMT thứ nhất) | bảo vệ tô (rent protection; Kogut & Zander, 1993; Zaheer, 1995) | rent protection |
+| 68c | Liability-of-foreignness attenuation (CIMT channel 2) | Suy giảm gánh nặng người nước ngoài (kênh CIMT thứ hai) | suy giảm gánh nặng người nước ngoài (LoF attenuation; Peng et al., 2008; Zaheer, 1995) | LoF attenuation |
+| 68d | Institutional-void amplification (CIMT channel 3) | Khuếch đại khoảng trống thể chế (kênh CIMT thứ ba) | khuếch đại khoảng trống thể chế (institutional-void amplification; Khanna & Palepu, 1997, 2010) | institutional-void amplification |
+| 68e | Middle-range integrative framework | Khung tích hợp tầm trung | khung tích hợp tầm trung (middle-range integrative framework; Merton, 1968) | khung tầm trung |
+| 68f | Observable signature | Biểu hiện quan sát được | biểu hiện quan sát được (observable signature) ở cấp doanh nghiệp | signature |
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
