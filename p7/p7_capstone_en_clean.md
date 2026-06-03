@@ -90,6 +90,14 @@ This prediction is consistent with the digital-complementarity strand of institu
 
 > **H6:** The ICRV institutional regime moderates the digital-adoption curve-reshaping effect: digital adoption's compressive effect on the I–P ascending limb and its buffering effect at high FSTS (H3) are stronger in weaker institutional environments (higher ICRV group number), where digital infrastructure provides greater competitive differentiation in cross-border market access.
 
+![Figure 1: Conceptual model, relocated-optimum + digital-for-institutional substitution across 45 Asian and Pacific economies](figures/figure_1_conceptual_model.png)
+
+*Figure 1.* Conceptual model integrating the six hypotheses developed in §2. The inverted-U I–P relationship (H1) is universal in *form* but its *optimum* is jointly determined by two axes: the Institutional Context Regime Variation (ICRV) regime (H5 *relocates* the turning point along the FSTS axis, deepening concavity as institutional quality declines) and digital capability (H3 reshapes the curve; H6 amplifies this reshaping where institutions are weaker — the *digital-for-institutional substitution* hypothesis). Firm capabilities enter on a second axis: technological capability (H2) operates as a curve *amplifier* and managerial characteristics (H4) lift the performance *level* without reshaping the curve. The contrast between optimum-relocating forces (ICRV + DAI) and firm-capability forces (TCI + managerial) is the analytical spine of the model. Data: WBES, 45 economies, 2003–2025, N = 82,302 firm-observations (M2) → 28,500 (M11 fully specified).
+
+![Figure 2: ICRV regime gradient, distribution of 45 economies across the six institutional groups](figures/figure_2_icrv_gradient.png)
+
+*Figure 2.* ICRV gradient. Distribution of the 45 Asian and Pacific economies in the analytic sample across the six ICRV groups, ordered by combined institutional capability (formal-institutional quality per WGI Rule of Law) and resource vulnerability (exposure to external shocks and narrow factor endowments). Group I (Advanced innovation-driven: Singapore, Korea, Taiwan, HongKong, Israel) → Group VI (SIDS and small open economies: Vanuatu, Solomon Islands, Timor-Leste, Fiji, Tonga, Samoa, Kiribati, Papua New Guinea). Higher ICRV group numbers denote weaker institutions. The gradient is used in H5 (deepening concavity → relocated optimum) and H6 (regime-contingent digital effects). Group classification anchored on World Bank WGI thresholds (+0.80 / -0.50 cut-offs) and validated against the broader research programme's ICRV codebook.
+
 ---
 
 ## 3. Data and Methods

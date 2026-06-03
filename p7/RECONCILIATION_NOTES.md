@@ -30,7 +30,7 @@
 | 8 | Sample attrition 82,302 → 28,500 (65% drop) not addressed | 🟡 MEDIUM | 2h | Add comparison table of dropped vs retained firm characteristics OR Heckman lambda from Vietnam companion (P3). |
 | 9 | ICRV coding reliability not validated | 🟡 MEDIUM | 2h | Provide WGI correlation OR codebook reference. Limitations honestly flags as future work. |
 | 10 | Country-clustered SE robustness column missing | 🟡 MEDIUM | 1h | 98 country-year clusters; HC1 preferred but reviewers likely demand cluster-robust as additional column. |
-| 11 | Conceptual model figure missing | 🟡 MEDIUM | 30min | JIBS typically expects 1-2 conceptual figures; need "relocated-optimum logic" diagram. |
+| 11 | Conceptual model figure missing | 🟡 MEDIUM | 30min | ✅ **RESOLVED 2026-06-03**: 2 conceptual figures inserted at end of §2 (after H6) — Figure 1: Conceptual model showing the H1–H6 integration (universal inverted-U form + ICRV-relocated optimum + digital-for-institutional substitution + firm-capability level shifters); Figure 2: ICRV regime gradient showing distribution of 45 economies across Groups I–VI. PNG files (`p7/figures/figure_1_conceptual_model.png` 207 KB; `figure_2_icrv_gradient.png` 474 KB) were already in `p7/figures/` from earlier rendering; just needed manuscript-side insertion + caption. P7 DOCX size: 42 KB (text-only) → 627 KB (with embedded figures), JIBS-expected. |
 | 12 | Abstract conversion to structured Purpose/Design/Findings/Originality | 🟡 LOW | 30min | JIBS doesn't mandate structured, but most accepted papers use it. README claims structured. |
 
 ## 10 orphan references (4 cleaned in this session, 6 remaining)
