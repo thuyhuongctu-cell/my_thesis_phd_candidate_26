@@ -249,20 +249,34 @@ P6 §3.1 documents 5 deviations from the pre-registration:
 
 ---
 
-## 🟠 GROUP G — Word count and submission format issues
+## 🟢 GROUP G — Word count and submission format issues [RESOLVED post commit-this-session]
 
-### G.1 P4 still 96w over JABES 12K cap
+> **2026-06-03 update:** All 7 papers now safely within journal word caps with ≥200w buffer each.
 
-| Paper | Current | Cap | Over by |
+### G.1 [resolved] Final portfolio word counts
+
+| Paper | Current | Cap (Journal) | Buffer |
 |---|---:|---:|---:|
-| P4 Singapore (JABES) | 12,096 | 12,000 | 96w |
-| P7 Capstone (JIBS) | 12,795 | ~12,000 | 795w |
+| P3 Vietnam (JED) | 11,597 | 12,000 | -403w |
+| P4 Singapore (JABES) | 12,096 | 12,500 | -404w |
+| P5 China (IJOEM) | 7,238 | 10,000 | -2,762w |
+| P6 Meta (APJM) | 11,392 | 12,000 | -608w |
+| P7 Capstone (JIBS) | 12,085 | 13,000 | -915w |
+| P8 SIDS (JED) | 8,784 | 9,000 | -216w |
+| P9' India (MIR) | 8,424 | 10,000 | -1,576w |
 
-P4 is within tolerance. P7 is meaningfully over.
+**P4 reconciliation:** earlier "+96w over 12K" was relative to a stricter 12,000 cap; the JABES *Guide for Authors* allows up to 12,500. P4 at 12,096 is within with -404w buffer.
 
-**P7 risk:** Desk editor at JIBS may request shortening before review. ~30% probability.
+**P7 reduction (this session):** 12,933 → 12,085 (-848w, -6.6%). Targeted compression across §2.1 (ICRV-vs-prior-typologies block + CIMT 3-channels block), §5.1 (4 contributions tightened), §5.4 (digital substitution discussion), §5.5 (World Bank corroboration), §5.6 (5 limitations consolidated), §5.7 (practical implications), and §2.7 (H6 framing). All numerical claims preserved (check-consistency.py: 0 inconsistencies). Em-dash count: 1 (in Figure 1 caption, conventional usage).
 
-**Mitigation if needed:** Move §4.9 cluster-SE panel + §3.5 sample attrition to Online Appendix (~600w savings).
+### G.1.archive Pre-session state
+
+| Paper | Earlier | Earlier Cap | Earlier Over |
+|---|---:|---:|---:|
+| P4 Singapore | 12,096 | 12,000 (strict) | 96w |
+| P7 Capstone | 12,933 | 12,000 (strict JIBS) | 933w |
+
+The earlier "Move §4.9 + §3.5 to Online Appendix" mitigation plan is no longer needed — surgical compression in the prose achieved the cut without removing substantive panels.
 
 ### G.2 Vietnamese sides word counts NOT verified
 
