@@ -217,6 +217,10 @@ $\beta$(FSTS) = **−1.596**, SE = 0.263, t = −6.062, p = **<.001**
 
 The monotone negative pattern persists without any conditioning on firm characteristics, further confirming the robustness of FIP.
 
+**Specification M_wild_cluster_bootstrap (small-G inference validation)**: Because the SIDS sample contains a small number of effective country clusters (G = 5 in the regression sample after listwise deletion on the control vector; G = 4 in the Pacific-only subsample), naive cluster-robust standard errors (Cameron-Gelbach-Miller 2008) may be misleading at conventional asymptotic critical values (Roodman et al. 2019). The Cameron-Gelbach-Miller (2008) wild-cluster Rademacher bootstrap with 999 replications is therefore reported as a small-G-robust inference check on the headline M1 β(FSTSc) estimate.
+
+For the full SIDS sample (N = 532 regression rows, G = 5), HC1 inference gives β(FSTSc) = −0.404, SE = 0.188, p = .031; naive cluster-robust SE gives p = .196 (CR1 over-conservative at small G); the wild-cluster bootstrap recovers p = .033, matching the HC1 reading. For the Pacific-only subsample (N = 415, G = 4), HC1 gives p = .068, naive cluster p = .295, and wild bootstrap p = .069 (again matching HC1). The wild-cluster bootstrap result validates the HC1 inference reported in §4 as not being an artefact of small-G cluster-robust standard errors; the headline FIP signal is statistically distinguishable at conventional thresholds under proper small-G-robust inference. Replication: `p8/replication/do/03_p8_wild_cluster_bootstrap.do` (Stata `boottest` package; mirrors the Python prototype 2026-06-03).
+
 **Specification M_comoros_excluded (Comoros sensitivity)**: Comoros is the only Indian Ocean SIDS in the sample (117 of 1,469 firms, 8.0%); the remaining eight economies are all Pacific. Re-estimating the full M1/M2/M3 pipeline with sample-specific FSTS centring on the Pacific-only subsample (N = 1,352) yields:
 
 $\beta$(FSTS$_c$) in M1 = **−0.357**, SE = 0.196, p = .068 (marginal); M2 quadratic: $\beta$(FSTS$_c$) = −1.059 (NS), $\beta$(FSTS$_c^2$) = +0.886 (NS); M3 with capability controls: $\beta$(FSTS$_c$) = −1.136 (p = .188).
