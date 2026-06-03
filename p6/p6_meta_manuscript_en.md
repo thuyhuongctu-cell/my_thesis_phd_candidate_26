@@ -496,7 +496,7 @@ Wernerfelt, B. (1984). A resource-based view of the firm. *Strategic Management 
 
 World Bank. (2023). *Worldwide Governance Indicators*. https://info.worldbank.org/governance/wgi/
 
-Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationalization and innovation performance of emerging market enterprises: The role of host-country institutional development. *Journal of World Business, 52*(2), 192–203.
+Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: Evidence from a meta-analysis. *International Business Review, 31*(2), 101920. https://doi.org/10.1016/j.ibusrev.2021.101920
 
 Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Management Journal, 38*(2), 341–363.
 

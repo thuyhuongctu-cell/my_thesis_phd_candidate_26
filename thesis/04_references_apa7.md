@@ -258,6 +258,12 @@ Whitley, R. (1999). *Divergent capitalisms: The social structuring and change of
 
 Wright, M., Filatotchev, I., Hoskisson, R. E., & Peng, M. W. (2005). Strategy research in emerging economies: Challenging the conventional wisdom. *Journal of Management Studies, 42*(1), 1–33. https://doi.org/10.1111/j.1467-6486.2005.00487.x
 
+Vernon, R. (1971). *Sovereignty at bay: The multinational spread of US enterprises*. Basic Books.
+
+Rugman, A. M. (1976). Risk reduction by international diversification. *Journal of International Business Studies, 7*(2), 75–80. https://doi.org/10.1057/palgrave.jibs.8490702
+
+Hitt, M. A., Tihanyi, L., Miller, T., & Connelly, B. (2006). International diversification: Antecedents, outcomes, and moderators. *Journal of Management, 32*(6), 831–867. https://doi.org/10.1177/0149206306293575
+
 **Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–65.** https://doi.org/10.1093/oxfordjournals.cje.a035301 *(Mới v2.4)*
 
 
