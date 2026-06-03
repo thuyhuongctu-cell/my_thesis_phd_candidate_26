@@ -6,6 +6,8 @@ File này trình bày khung lý thuyết tích hợp đa tầng của luận án
 
 Tài liệu nghiên cứu về quan hệ giữa quốc tế hóa và hiệu quả hoạt động của doanh nghiệp đã trải qua nhiều thập kỷ nhưng vẫn chưa đạt được đồng thuận, dù ở phương diện lý thuyết hay thực nghiệm. Các phân tích tổng hợp (meta-analysis) cho thấy tác động chung là dương nhưng nhỏ, trong khi mức dị biệt (heterogeneity) lại rất cao. Điều này hàm ý rằng quan hệ nói trên khó có thể được giải thích đầy đủ bằng một lý thuyết đơn lẻ (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022). Xuất phát từ đó, luận án này tiếp cận vấn đề bằng một **khung giải thích tích hợp đa tầng**: bốn lý thuyết kinh điển của kinh doanh quốc tế được kết hợp với một lớp mở rộng về năng lực số nhằm phản ánh quá trình chuyển đổi số và bối cảnh trí tuệ nhân tạo đương đại.
 
+Khung này được vận hành hóa trong luận án dưới dạng một **cấu trúc phân tầng ba lớp CIMT–ICRV–CDCM** (chi tiết tại Chương 2 §2.5.1–2.5.4): (i) **CIMT (Capability–Institution Mismatch Theory)** là cơ chế lý thuyết bao trùm tầm trung (Merton, 1968; Whetten, 1989; Corley & Gioia, 2011), tích hợp ba kênh đã được khẳng định trong văn liệu (rent protection [Kogut & Zander, 1993]; liability-of-foreignness attenuation [Peng et al., 2008; Zaheer, 1995]; institutional-void amplification [Khanna & Palepu, 2010]) để giải thích vì sao hiệu quả I-P thay đổi khi năng lực doanh nghiệp lệch pha với môi trường thể chế; (ii) **ICRV** là taxonomy phân loại 45 nền kinh tế thành sáu chế độ con (sub-regime), trả lời câu hỏi *ở đâu* mismatch xảy ra mạnh hay yếu; (iii) **CDCM** là biểu hiện thực nghiệm (observable signature) ở cấp doanh nghiệp dưới điều kiện số hóa, cung cấp bằng chứng kiểm định được cho mechanism + taxonomy. Bốn lý thuyết nền trình bày dưới đây (§2) cung cấp các trực giác cốt lõi cho ba kênh CIMT, lớp mở rộng năng lực số (§3) cung cấp ngôn ngữ vận hành cho CDCM, còn mô hình khái niệm tích hợp (§4) và hệ giả thuyết H1–H6 (§5) là sự operationalisation cụ thể của khung phân tầng vào thiết kế kiểm định thực nghiệm.
+
 ## 2. Bốn lý thuyết nền
 
 ### 2.1 Mô hình quốc tế hóa Uppsala (Uppsala Internationalization Model)
@@ -42,6 +44,12 @@ Trong luận án này, lăng kính năng lực số đóng vai trò mở rộng 
 - **Mức độ chấp nhận số (digital adoption)**: mức độ áp dụng các công cụ số bề mặt (website, thư điện tử, thanh toán điện tử, bán hàng trực tuyến).
 
 Hai khái niệm này không đồng nhất và có thể vận hành khác nhau trong quan hệ giữa quốc tế hóa và hiệu quả hoạt động (Bhandari et al., 2023; Bustamante et al., 2022; Chen & Meng, 2022).
+
+## 3.5 Vị thế của lớp năng lực số trong khung phân tầng CIMT–ICRV–CDCM
+
+Đặt vào khung phân tầng đã giới thiệu ở §1, lớp năng lực số (§3) không đứng độc lập mà cung cấp ngôn ngữ vận hành cho lớp thứ ba, tức *signature CDCM*. CDCM trong luận án này được hiểu là *biểu hiện thực nghiệm* (observable signature) của logic mismatch CIMT trong điều kiện số hóa, đặc biệt là cơ chế *institutional-void amplification* (kênh thứ ba của CIMT). Khi thể chế yếu, năng lực số có thể đóng vai trò *nguồn lực thay thế một phần* cho hạ tầng thể chế thiếu hụt; khi thể chế mạnh, năng lực số phát huy vai trò *khuếch đại* lợi thế đã có. Hai vai trò này không phải hai mảnh lý thuyết tách rời mà là hai pha quan sát được của cùng một cơ chế mismatch, tùy theo vị trí của doanh nghiệp trên dải ICRV. Bằng chứng kinh tế lượng từ bài báo capstone đa quốc gia (P7), với tương tác $\text{DAI} \times \text{ICRV}$ cho β = +0,052 và p = ,049 ở mô hình M11, chính là *cross-economy footprint* của cơ chế institutional-void amplification trong dữ liệu firm-level WBES, đúng signature mà CIMT dự đoán.
+
+Việc đặt CDCM vào vị trí *signature* (thay vì *theory ngang hàng với CIMT*) giải đáp một câu hỏi phản biện quan trọng: nếu CIMT đã giải thích digital substitution thì tại sao còn cần CDCM như một khung riêng? Câu trả lời là CDCM không phải framework cạnh tranh, mà là *lớp operationalisation* của một phần cơ chế CIMT ở cấp doanh nghiệp với các biến số có thể đo lường được trong dữ liệu WBES (DAI Tier-1, DAI Tier-1+2, TCI). Cách định vị này đảm bảo tính nhất quán xuyên CĐ1 (nơi CDCM được phát triển từ đối chiếu Việt Nam–Singapore), CĐ2 (nơi CDCM được mở rộng thành khung kiểm định H1–H6) và Chương 2 luận án (nơi CDCM được nhúng vào kiến trúc CIMT–ICRV–CDCM ba lớp).
 
 ## 4. Mô hình khái niệm tích hợp
 
