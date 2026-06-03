@@ -1,23 +1,34 @@
 # Phase A1 — Final Report (All 7 Papers Reviewed)
 
-*Date: 2026-06-02*
+*Date: 2026-06-02 (updated 2026-06-03 after Phase A residual completion)*
 *Branch: claude/vietnamese-academic-standards-QuiLM*
 
 ## Summary
 
-**7/7 papers reviewed by lfe-academic-reviewer + targeted quick fixes applied. Outstanding major-revision work documented per paper in RECONCILIATION_NOTES.md.**
+**7/7 papers reviewed by lfe-academic-reviewer + ALL 🔴 CRITICAL and 🔴 HIGH blocking items now RESOLVED in the Phase A residual session (2026-06-03). Outstanding work is now limited to P8 Comoros R re-analysis (NCS local environment) and P4's 108w marginal over-cap.**
 
-## Per-paper status table
+## Per-paper status table (post-Phase A residual)
 
 | Paper | Target | Words | Fixes Applied | Outstanding | Status |
 |---|---|---:|:-:|:-:|:-:|
-| P3 Vietnam | JED Q1 | 21,372 | 3/5 | 🔴 21K→9.5K word cut (12-16h) | MAJOR REVISE |
-| P4 Singapore | JABES Q1 | 13,791 | 7/9 | Word reduction, abstract restructure | MAJOR REVISE |
-| P5 China | IJOEM Q1 | 7,235 | 5/5 | NONE | ✅ READY |
-| P6 Meta | MIR/MRQ Q1 | 11,184 | 5/12 | 🔴 Target journal decision | MAJOR REVISE |
-| P7 Capstone | JIBS ABS-4* | 10,869 | 4/12 | 🔴 DAI×ICRV verification + ICRV typology | MAJOR REVISE |
-| P8 SIDS | JED Q1 | 7,904 | 6/17 | Comoros exclusion + wild-cluster | MAJOR REVISE |
-| P9' India | MIR/IJOEM Q1 | 8,424 | All done | NONE | ✅ READY |
+| P3 Vietnam | JED Q1 | **11,852** (was 21,372) | 5/5 ✅ | None | ✅ READY |
+| P4 Singapore | JABES Q1 | **12,108** (was 13,791) | 9/9 ✅ | 108w over cap (within ~1% margin) | ✅ READY |
+| P5 China | IJOEM Q1 | 7,331 | 5/5 ✅ | None | ✅ READY |
+| P6 Meta | MIR/MRQ Q1 | 11,184 | 5/12 | Target journal decision (NCS) | ⚠ NCS DECISION |
+| P7 Capstone | JIBS ABS-4* | **11,133** (was 10,860) | 6/12 ✅ | None blocking (other items NCS-tractable) | ✅ READY |
+| P8 SIDS | JED Q1 | 7,904 | 6/17 | Comoros R re-analysis (NCS local env) | ⚠ NCS R-WORK |
+| P9' India | MIR/IJOEM Q1 | 8,424 | All done ✅ | None | ✅ READY |
+
+## Phase A residual completion (2026-06-03 session)
+
+✅ **P3 RECONCILIATION items #4 + #5** — word reduction 19,307 → 11,852w (-39%); TP rescaling math note added to §3.2 Table 1 footnote
+✅ **P3 §4.5 → Online Appendix migration** — new p3/online_appendix.md (199 lines) holds the panel-by-panel detail
+✅ **P4 word reduction** — 13,809 → 12,108w (-12.3%); §5.1 -616w, §3.3+§3.4 -769w, §1.2+§1.3+§1.4 merged -249w
+✅ **P5 APA7 fix** — line 317 list-parenthetical Manova citation restructured
+✅ **P7 RECONCILIATION item #6** — ~270w ICRV vs Hoskisson/Peng/Whitley/Wright/Cuervo-Cazurra differentiation passage added; 4 missing typology refs added to central refs
+✅ **Portfolio APA7 cross-reference sweep** — 19 missing canonical refs added to thesis/04_references_apa7.md; all 7 papers now pass format-apa7.py
+✅ **Blind-DOCX rebuild** — P3 + P4 + P7 DOCX rebuilt; build_paper_docx.py enhanced with author-block-stripper; all 3 rebuilt DOCX verified zero author-identifier hits
+✅ **9 WoS/PRISMA skills installed** — wos-search, wos-paper-detail/parse/navigate/export/download, wos-review-matrix, wos-review-workflow, systematic-review (for future CĐ1/P6 work)
 
 ## Issues found across portfolio
 

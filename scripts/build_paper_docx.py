@@ -44,7 +44,29 @@ def build_one(paper: str) -> bool:
 
     # Preprocess: --- → *** to avoid YAML interpretation
     text = src.read_text(encoding="utf-8")
-    pre = "\n".join(("***" if l.strip() == "---" else l) for l in text.splitlines())
+    lines = text.splitlines()
+    pre_lines = []
+    stripped_blind = 0
+    for l in lines:
+        # Blind-redaction: drop lines that bear author-identifier patterns.
+        # Matches lines containing email-like patterns + ORCID or affiliation
+        # markers. Keeps the line if it is only a title or a section header.
+        lower = l.lower()
+        is_author_block_line = (
+            ("orcid:" in lower)
+            or ("@" in l and ("university" in lower or "school of" in lower or "viện" in lower))
+            or l.strip().startswith("**Do Thuy Huong**")
+            or l.strip().startswith("**Phan Anh Tu**")
+            or l.strip().startswith("**Đỗ Thùy Hương**")
+            or l.strip().startswith("**Phan Anh Tú**")
+        )
+        if is_author_block_line:
+            stripped_blind += 1
+            continue
+        pre_lines.append("***" if l.strip() == "---" else l)
+    if stripped_blind:
+        print(f"   ↪ Stripped {stripped_blind} author-identifier line(s) for blinded output.")
+    pre = "\n".join(pre_lines)
 
     with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as tmp:
         tmp.write(pre)
