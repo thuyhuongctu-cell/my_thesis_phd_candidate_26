@@ -17,7 +17,7 @@
 | Bước | Việc | Phụ thuộc | Owner |
 |---|---|---|---|
 | 1.1 | **Nộp P6 → MRQ** (Springer Editorial Manager): manuscript_blinded + title_page + cover_letter + 5 hình | xem ⚠️ chặn dưới | 🧑 |
-| 1.2 | Nộp các paper khác theo MASTER_PLAN: P8→World Dev, P3→APJM, P4→MIR, P5→IJOEM | — | 🧑 |
+| 1.2 | Nộp các paper khác (current target journals, all ✅ submission-ready post-2026-06-03): **P3 → JED Q1** (11,597w); **P4 → JABES Q1** (12,096w); **P5 → IJOEM Q1** (7,331w); **P7 → JIBS ABS-4*** (11,133w); **P8 → JED Q1** (7,904w, optional: NCS quyết Comoros R re-run); **P9' → MIR/IJOEM Q1**. Toàn bộ 7 papers đã pass blind + APA7 + consistency sweep. | — | 🧑 |
 | 1.3 | Điền thông tin cá nhân vào hồ sơ MAIDA → nộp Cục Bản quyền (COV) | — | 🧑 |
 
 > ✅ **Hướng (b) ĐÃ THỰC HIỆN (2026-05-28):** manuscript được reframe — corpus phân tích là **k=238/K=288

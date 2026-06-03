@@ -48,7 +48,7 @@
 ## F. Các paper khác trong dossier (tham chiếu MASTER_PLAN) 🧑
 | # | Việc | Owner |
 |---|---|---|
-| F1 | Xác nhận status & nộp: P8 (World Dev), P3 (APJM), P4 (MIR), P5 (IJOEM) | 🧑 |
+| F1 | Xác nhận status & nộp: **P3 → JED Q1** (11,597w, ✅ blind-compliant); **P4 → JABES Q1** (12,096w, ✅); **P5 → IJOEM Q1** (7,331w, ✅); **P7 → JIBS ABS-4*** (11,133w, ✅, ICRV typology paragraph mới bổ sung); **P8 → JED Q1** (7,904w, ✅, chờ NCS quyết Comoros R re-analysis); **P9' → MIR/IJOEM Q1** (✅). Toàn bộ 7 papers đã qua sweep ✅ blind + APA7 + consistency tại phiên 2026-06-03 (commit `8630bb8`). | 🧑 (chỉ còn submit) |
 
 ---
 
