@@ -175,30 +175,13 @@ Let lnLP_it denote log labour productivity for firm *i* in wave *t*, **X**_it th
 The M0–M8 sequence is estimated wave-by-wave (2009, 2015, 2023) and on the pooled three-wave file, yielding four sets of estimates.
 
 
-### 3.4 Identification and Endogeneity Strategy
+### 3.4 Identification, endogeneity, and reproducibility
 
-A central identification concern in I–P research is that exporters self-select into foreign markets on the basis of characteristics, productivity, financial resilience, managerial quality, that also predict labour productivity independently of their export decision (Wagner, 2007; Wooldridge, 2010). Three design features address this concern.
+Three design features address the central identification concern that exporters self-select on characteristics also predicting productivity (Wagner, 2007; Wooldridge, 2010). First, a Heckman two-step correction with a probit selection equation (industry × region × wave FE) includes the implied inverse Mills ratio as an additional regressor; a statistically insignificant IMR indicates the OLS estimate is not materially contaminated by unobserved positive selection (Certo et al., 2016; Heckman, 1979). Results appear as §4.5 Panel E. Second, leave-one-out sector × region × wave peer-adoption rates instrument DAI and TCI; the instrument captures sector-region peer adoption that is plausibly correlated with focal-firm adoption but unlikely to affect productivity except through the adoption channel, satisfying approximate exclusion conditional on sector-wave cells (first-stage F = 22–35, well above the Staiger–Stock (1997) threshold of 10). Third, Oster (2019) δ-stability bounds (R²_max = 1.3 × R²_controlled) are computed for each focal coefficient; no coefficient changes sign or collapses to zero under plausible unobserved selection. The repeated-cross-section structure (three non-overlapping firm samples) precludes within-firm fixed-effects estimation; identification relies on these three complementary approaches rather than panel differencing. All inferences are described as associations with the selection-robustness caveats noted above (Antonakis et al., 2010; Shaver, 2020).
 
-*Heckman two-step correction.* A probit selection equation with industry $\times$ region $\times$ wave fixed effects predicts the probability of positive export participation; the implied inverse Mills ratio (IMR) is included as an additional regressor in the main outcome equation. The IMR coefficient is interpreted as a direct test of residual selection bias: a statistically insignificant IMR indicates that the OLS estimate is not materially contaminated by unobserved positive selection into exporting (Certo et al., 2016; Heckman, 1979). Results are reported as Panel E in Section 4.5.
+The full pipeline is implemented as a 10-step Stata blueprint distributed with the manuscript. Build steps 01–04 clean each WBES wave and append a pooled file with within-wave centring and z-standardisation reapplied; estimation steps 05–09 cover the M0–M8 sequence, Lind–Mehlum turning-point checks, Heckman probes, Paternoster cross-wave z-tests, and the §4.5 robustness panels; export step 10 writes the manuscript-facing tables and Figure 2 directly from stored estimates. Rerunning from a fresh clone reproduces every reported coefficient; the manuscript prose is the object that adjusts when the rerun drifts (Aguinis et al., 2021; Shaver, 2020).
 
-*Instrumental-variable estimation.* Leave-one-out sector $\times$ region $\times$ wave peer-adoption rates serve as instruments for DAI and TCI. The instrument captures the digital and technological adoption decisions of peer firms in the same sector and region in the same survey wave, which are plausibly correlated with a focal firm's adoption but unlikely to affect the focal firm's labour productivity except through the adoption channel, satisfying approximate exclusion conditional on sector-wave cells. First-stage F-statistics of 22–35 are well above the Staiger–Stock (1997) threshold of 10, confirming instrument relevance.
 
-*Oster (2019) coefficient-stability bounds.* Assuming $R^2$_max = 1.3 $\times$ $R^2$_controlled, the Oster δ-stability bound is computed for each focal coefficient. No coefficient changes sign or collapses to zero under plausible magnitudes of unobserved selection, confirming that omitted-variable bias cannot account for the main findings.
-
-The repeated-cross-section data structure (three non-overlapping surveys of different firms) precludes within-firm fixed-effects estimation; the identification strategy therefore relies on the three complementary approaches above rather than panel differencing. All inferences are described as associations with the selection-robustness caveats noted above, consistent with the inferential conventions for cross-sectional WBES data (Antonakis et al., 2010; Shaver, 2020).
-
-### 3.5 Replication and reproducibility
-The full pipeline is implemented as a 10-step Stata blueprint distributed with the manuscript.
-The build steps (01–04) clean each WBES wave, harmonise the focal variable set, and append
-the three waves into a pooled file with within-wave centring and z-standardisation reapplied.
-Estimation steps (05–09) cover the M0–M8 nested sequence, the Lind–Mehlum turning-point
-check, manual Heckman selection probes, Paternoster et al. (1998) cross-wave z-tests, and the
-robustness panels described in 4.5. The export step (10) writes the manuscript-facing tables
-and Figure 2 directly from the stored estimates.
-
-Rerunning the pipeline from a fresh clone reproduces every coefficient reported below; the manuscript text rather than the do-file output is
-the object that adjusts when the rerun drifts from the prose. Throughout, this study follows current bestpractice recommendations on data preparation, transparency, and the cumulative interpretation
-of associational evidence (Aguinis et al., 2021; Shaver, 2020).
 
 ## 4. Results
 Table 2 reports analytic-sample summary statistics by wave. Three patterns stand out
@@ -277,17 +260,10 @@ H4 receives limited exploratory support. The DAI joint moderation test is null i
 *Figure 3.* Marginal effects of TCI_z and DAI_z on ln(labour productivity) across FSTS levels (M7/M8). TCI shows a stable positive level-shift across waves; DAI moderation is wave-specific, with the 2023 interaction showing attenuation at high FSTS (Type I moderation: slope-flattening, shape preserved).
 
 
-### 4.4 Main empirical pattern: participation $\times$ intensity
-Before reading the table that follows, this study anchors the reader in the two-margin structure introduced in 2.1. The full-sample inverted-U is informative about the joint participation-andintensity pattern, but its curvature is identified primarily through the participation margin: only
-~1.0 % of pooled firms sit within $\pm$5 percentage-points of the wave-specific turning points (see
-4.5 density check), and the bulk of mass lies at FSTS = 0. When the analysis re-fits M2 / M7 / M8 on
-the exporter-only sub-sample (FSTS > 0; pooled N = 669, 4.5 Panel H), the linear $\text{FSTS}_c$ term is negative ($\beta$ = -0.861, p <.001) but the quadratic term is not significant ($\text{FSTS}_c^2$ $\beta$ = -0.200, p =.660, M8 joint p =.462). H1a (participation margin) is therefore the dominant
-productivity-relevant margin in this dataset; the within-exporter intensity curvature claimed by
-H1b weakens once participation is netted out. This study retains the full-sample inverted-U as the primary empirical regularity, but interpret it explicitly through the dual-mechanism lens: most of the
-productivity differential lies between non-exporters and exporters, with limited additional curvature within the exporter subsample. Table 2 therefore reads as a description of the combined
-participation $\times$ intensity pattern rather than as a structural statement about within-exporter
-intensity curvature.
-Table 3 summarises the directional interpretation of the focal coefficients from the full specifications by wave and for the pooled sample.
+### 4.4 Main empirical pattern: participation × intensity
+
+The full-sample inverted-U is identified primarily through the participation margin: only ~1.0 % of pooled firms sit within ±5 pp of the wave-specific turning points (see §4.5 density check), and the bulk of mass lies at FSTS = 0. Re-fitting M2/M7/M8 on the exporter-only sub-sample (FSTS > 0; pooled N = 669, §4.5 Panel H) yields a negative linear FSTSc (β = -0.861, p < .001) but a non-significant quadratic (FSTSc² β = -0.200, p = .660; M8 joint p = .462). H1a (participation margin) is the dominant productivity-relevant margin; the within-exporter intensity curvature claimed by H1b weakens once participation is netted out. Table 2 reads as a description of the combined participation × intensity pattern rather than as a structural statement about within-exporter intensity curvature; Table 3 summarises the directional interpretation of focal coefficients by wave and for the pooled sample.
+
 
 ### 4.5 Robustness
 
