@@ -42,7 +42,7 @@ Rehearse the **anchor answers** until they are fluent. The **backup material** i
 
 **Why this question:** Standard adversarial probe at top-tier defenses. The committee tests whether the portfolio is one coherent contribution or eight overlapping fragments.
 
-**Anchor answer:** *"Mỗi bài tách bạch một điều kiện lý thuyết — một quốc gia một vị trí thể chế (P3 Việt Nam IV/V, P4 Singapore I, P5 Trung Quốc III), một cohort thời gian (P3 ba sóng, P5 hai sóng), một tổng hợp meta-analytic toàn cầu (P6), một mở rộng đa quốc gia toàn mẫu (P7), và một điều kiện biên cực đoan (P8 SIDS). Ba dự đoán cumulative của khung CDCM — độ cong thay đổi theo ICRV, DAI là nguồn lực có điều kiện, và thiên lệch công bố + điều tiết bối cảnh là hai mảnh giải thích cùng cần thiết — chỉ kiểm định được khi kết hợp các bài; bỏ một bài là mất một bậc tự do mà các bài khác không bù được."*
+**Anchor answer:** *"Mỗi bài tách bạch một điều kiện lý thuyết — một quốc gia một vị trí thể chế (P3 Việt Nam IV/V, P4 Singapore I, P5 Trung Quốc III), một cohort thời gian (P3 ba sóng, P5 hai sóng), một tổng hợp meta-analytic toàn cầu (P6), một mở rộng đa quốc gia toàn mẫu (P7), và một điều kiện biên cực đoan (P8 SIDS). Ba dự đoán cumulative của khung CIMT–ICRV–CDCM — độ cong I-P thay đổi theo regime ICRV (taxonomy layer); DAI là observable signature của CIMT khi capability gặp institutional gap; và thiên lệch công bố + điều tiết bối cảnh là hai mảnh giải thích cùng cần thiết — chỉ kiểm định được khi kết hợp các bài; bỏ một bài là mất một bậc tự do mà các bài khác không bù được."*
 
 **Backup material:**
 - Refer to `cumulative_argument_summary.md` §3 for the three combined-design predictions
@@ -115,11 +115,11 @@ Rehearse the **anchor answers** until they are fluent. The **backup material** i
 
 ## Tier 2 — Highly likely questions (rehearse main points)
 
-### Q2.1: "Khung CDCM có phải là lý thuyết mới hay chỉ là tổng hợp các lý thuyết hiện có?" / "Is CDCM a new theory or just a synthesis of existing theories?"
+### Q2.1: "Khung lý thuyết CIMT–ICRV–CDCM có phải là lý thuyết mới hay chỉ là tổng hợp?" / "Is the CIMT–ICRV–CDCM framework a new theory or just a synthesis?"
 
-**Anchor answer:** *"CDCM được đề xuất như khung tổ chức tích hợp (integrative organizing framework), không phải lý thuyết mới. Nó kết hợp năm nguồn lý thuyết — Uppsala, RBV, lý thuyết thể chế, lý thuyết Bậc trên, và lăng kính số — vào một mô hình empirical kiểm định được. Đóng góp không phải tạo lý thuyết mới mà là tích hợp các tầng đã nghiên cứu rời rạc thành một mô hình có thể adjudicate giữa các dự đoán cạnh tranh trên cùng một bộ dữ liệu đa quốc gia."*
+**Anchor answer:** *"Luận án sử dụng khung phân tầng ba lớp được phát triển trong §2.5.1–2.5.4 của Chương 2. Lớp một, **CIMT (Capability–Institution Mismatch Theory)**, được đề xuất như **cơ chế lý thuyết tầm trung (middle-range integrative framework)** theo nghĩa của Merton (1968), đáp ứng tiêu chuẩn what/how/why của Whetten (1989) và tiêu chuẩn originality–utility của Corley & Gioia (2011). CIMT không tuyên bố thay thế RBV hay institutional theory mà tích hợp ba kênh đã được khẳng định trong văn liệu IB — rent protection (Kogut & Zander, 1993; Zaheer, 1995), liability-of-foreignness attenuation (Peng et al., 2008), institutional-void amplification (Khanna & Palepu, 2010) — thành một mechanism duy nhất kiểm định được đồng thời. Lớp hai, **ICRV**, là **taxonomy** phân loại 45 nền kinh tế trên hai trục (institutional capability × resource vulnerability), không phải lý thuyết song song. Lớp ba, **CDCM**, là **biểu hiện thực nghiệm cấp doanh nghiệp** dưới điều kiện số hóa — tức observable signature của CIMT khi mismatch tương tác với năng lực số. Đóng góp lý thuyết của luận án không phải tạo grand theory mới, mà là *tích hợp ba lớp đã nghiên cứu rời rạc thành một khung phân tầng có thể adjudicate giữa các dự đoán cạnh tranh trên cùng một bộ dữ liệu đa quốc gia* — đây là kiểu đóng góp được Whetten (1989) và Corley & Gioia (2011) công nhận là incremental but valid theoretical contribution."*
 
-Refer to Ch2 §2.5.1 (fixed during top-1% review pass).
+Refer to Ch.2 §2.5.1–2.5.4 (CIMT-restored middle-range hierarchy, commit `32315c5`).
 
 ---
 
