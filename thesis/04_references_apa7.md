@@ -212,6 +212,28 @@ Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: 
 
 Wooldridge, J. M. (2010). *Econometric analysis of cross section and panel data* (2nd ed.). MIT Press.
 
+Gelman, A., & Carlin, J. (2014). Beyond power calculations: Assessing Type S (sign) and Type M (magnitude) errors. *Perspectives on Psychological Science, 9*(6), 641–651. https://doi.org/10.1177/1745691614551642
+
+Khanna, T., & Palepu, K. (1997). Why focused strategies may be wrong for emerging markets. *Harvard Business Review, 75*(4), 41–51.
+
+Richard, O. C., Kirby, S. L., & Chadwick, K. (2019). The impact of racial and gender diversity in management on firm performance: An assessment of different conceptual and measurement approaches. *Journal of Applied Social Psychology, 39*(7), 1571–1599.
+
+United Nations Statistics Division. (2024). *Standard country or area codes for statistical use (M49)*. United Nations. https://unstats.un.org/unsd/methodology/m49/
+
+World Bank. (2022). *Enterprise surveys: Sampling methodology*. World Bank Group. https://www.enterprisesurveys.org
+
+Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18.
+
+Goedhuys, M., & Sleuwaegen, L. (2013). The impact of international standards certification on the performance of firms in less developed countries. *World Development, 46*, 87–101.
+
+Sarasvathy, S. D., Kumar, K., York, J. G., & Bhagavatula, S. (2014). An effectual approach to international entrepreneurship: Overlaps, challenges, and provocative possibilities. *Entrepreneurship Theory and Practice, 38*(1), 71–93.
+
+United Nations General Assembly. (2024). *The Antigua and Barbuda Agenda for Small Island Developing States: A renewed declaration for resilient prosperity* (A/RES/78/317). United Nations.
+
+Verbeke, A., & Brugman, M. (2018). Triple-testing the quality of multinationality–performance research: An internalization theory perspective. *Journal of International Business Studies, 49*(7), 801–822.
+
+Winters, L. A., & Martins, P. M. G. (2004). When comparative advantage is not enough: Business costs in small remote economies. *World Trade Review, 3*(3), 347–383.
+
 **Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–65.** https://doi.org/10.1093/oxfordjournals.cje.a035301 *(Mới v2.4)*
 
 
