@@ -1,0 +1,13 @@
+"panel","description","value"
+"M_comoros_excluded_M1","M1 β(fsts_c) Pacific-only sample",-0.356606864306711
+"M_comoros_excluded_M2_q","M2 β(fsts_c²) Pacific-only sample",0.885966338325334
+"M_comoros_excluded_M3","M3 β(fsts_c) Pacific-only + capability controls",-1.02259674386227
+"M_wild_cluster_full_HC1","WCB full sample HC1 p",0.0318722856536833
+"M_wild_cluster_full_CR1","WCB full sample CR1 p (G=5)",0.261617148318704
+"M_wild_cluster_full_WCB","WCB full sample bootstrap p",0.026026026026026
+"M_wild_cluster_pac_HC1","WCB Pacific-only HC1 p",0.0688323900331415
+"M_wild_cluster_pac_CR1","WCB Pacific-only CR1 p (G=4)",0.367531080931414
+"M_wild_cluster_pac_WCB","WCB Pacific-only bootstrap p",0
+"M_LOO_drop_TimorLeste_M1","LOO drop Timor-Leste β(fsts_c) — should STRENGTHEN",-1.2656688429375
+"M_LOO_drop_Fiji_M1","LOO drop Fiji β(fsts_c) — single influential country",-0.171006215740566
+"M_no_foreign_control_M1","M1 without foreign_own_pct (all 9 SIDS) β(fsts_c)",-0.514285086370884
