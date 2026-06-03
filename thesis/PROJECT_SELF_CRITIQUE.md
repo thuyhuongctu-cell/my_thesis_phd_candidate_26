@@ -118,9 +118,19 @@ This is also an integration claim. The 4-tier integrated framework is the author
 
 ---
 
-## 🟠 GROUP C — Self-citation + dual-publication risks
+## 🟢 GROUP C — Self-citation + dual-publication risks [LARGELY RESOLVED post commit-this-session]
 
-### C.1 Book chapter (2025 IntechOpen) ↔ P9' India — real risk
+> **2026-06-03 audit confirms:**
+>
+> **C.1 (book chapter ↔ P9' India): ✅ already handled.** P9' India manuscript §3 (line 55, 69) discloses the prior Do & Phan (2025, IntechOpen) work explicitly; §5/§6 (line 285, 293) acknowledges complementarity; references list (line 343) cites DOI 10.5772/intechopen.1011012; cover letter has full Declaration-of-Distinctiveness comparison table (7 dimensions: theory / DV / IV / moderators / method / sample / question).
+>
+> **C.2 (ICBEF 2025 baseline in P6, blind-review risk): ✅ resolved this session.** All 10 "ICBEF 2025" mentions in the P6 blinded manuscript replaced with "earlier author Asia-Pacific meta-analytic baseline" + "blinded author reference, 2024 conference proceedings". The reference list entry replaced with "[Conference paper presentation; full author details and conference venue withheld for blind review.]". P6 blinded DOCX rebuilt; blind-compliance scan returns 0/11 hits on author-identifier + ICBEF patterns. The numerical anchor (k = 113, r = 0.07) is preserved as a research artifact.
+>
+> **C.3 (P7 cross-paper companion references): ✅ already safe.** P7 uses "(companion study)" placeholders for Vietnam / China / Singapore (line 61, 153); no journal name, no DOI, no author identifiers leak.
+>
+> **Original (pre-session) text preserved below for traceability.**
+
+### C.1 [pre-session draft] Book chapter (2025 IntechOpen) ↔ P9' India — real risk
 
 Both analyze WBES India. P9' cover letter disclaims overlap, but:
 - Book chapter: N=380 matched panel, Uppsala+UE lens, linear DOI

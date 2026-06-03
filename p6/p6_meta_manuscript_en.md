@@ -29,7 +29,7 @@
 
 The relationship between a firm's degree of internationalization and its performance, the "I-P relationship", is the most meta-analyzed question in international business. Over four decades and six major meta-analyses (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Wu et al., 2022; Arte & Larimo, 2022), pooled positive effects are consistently small yet $I^2$ regularly exceeds 80%, signalling that context, not a universal mechanism, drives outcomes. Whether internationalization improves firm performance shapes investment decisions, export-promotion policy, and firm strategy in an interconnected global economy (Hitt et al., 2006; Lu & Beamish, 2004), yet the record remains inconclusive.
 
-The present study's starting point is the ICBEF 2025 baseline (Author Citation, 2024, ICBEF): *k* = 113 studies, pooled *r* = 0.07 (*p* <.001), $I^2$ = 87.92%. That baseline confirmed the positive average effect but left approximately 70% of variance unexplained after the standard moderators (country of origin, industry, performance measure). Three theoretically grounded moderators, absent from all prior meta-analyses, motivate the present extension.
+The present study's starting point is an earlier author-presented Asia-Pacific meta-analytic baseline (blinded author reference, 2024 conference proceedings): *k* = 113 studies, pooled *r* = 0.07 (*p* <.001), $I^2$ = 87.92%. That baseline confirmed the positive average effect but left approximately 70% of variance unexplained after the standard moderators (country of origin, industry, performance measure). Three theoretically grounded moderators, absent from all prior meta-analyses, motivate the present extension.
 
 **Gap 1, cDAI.** Country-level digital adoption has been proposed as a contextual amplifier of firm-level competitive advantages (Stallkamp & Schotter, 2021; Verhoef et al., 2021), yet no meta-analysis has tested whether the national digital infrastructure environment moderates the I-P link.
 
@@ -37,11 +37,11 @@ The present study's starting point is the ICBEF 2025 baseline (Author Citation, 
 
 **Gap 3, DPL phase.** Brynjolfsson et al. (2021) identified 2009 as a productivity inflection in the digital era (the "dynamo analogy" for AI; David, 1990). Studies drawing on data from before, spanning, or after this threshold should yield systematically different I-P effects if digital platforms reshape internationalization economics; this temporal moderator has never been systematically coded.
 
-This paper addresses all three gaps through a systematic search expanding the ICBEF 2025 baseline from *k* = 113 to *k* = 238 (49 economies; *K* = 288 effect sizes), combined with three-level MARA that decomposes heterogeneity beyond what conventional random-effects models allow.
+This paper addresses all three gaps through a systematic search expanding the earlier author baseline from *k* = 113 to *k* = 238 (49 economies; *K* = 288 effect sizes), combined with three-level MARA that decomposes heterogeneity beyond what conventional random-effects models allow.
 
 **Contributions.** *Methodologically*: (1) the first three-level MARA of the I-P literature; (2) PRISMA-2020-compliant search with OSF pre-registration. *Theoretically*: (3) the first formal meta-analytic test of ICRV institutional regime, country-level digital adoption (cDAI), and Digital Paradox Lifecycle (DPL) phase as moderators of I-P, on a geographically diverse (though Advanced-economy-skewed) corpus of 49 economies. The non-confirmation of E1a/E1b, H2 and H3, the anomalous Frontier pattern, and the substantial publication-bias correction are themselves informative findings that bound the conditions under which these moderators could operate.
 
-**Key findings.** Baseline *r* = 0.074 (*k* = 238, *K* = 288) replicates the ICBEF 2025 baseline. ICRV full-sample *Q*_M = 17.35 (*p* =.002) but drop-Frontier *Q*_M = 1.49 (*p* =.68); H1 fragile, E1a/E1b not confirmed. cDAI (*Q*_M = 1.23, *p* =.541) and DPL (*Q*_M = 0.56, *p* =.755) non-significant; H2/H3 not supported. The principal finding is publication bias (H4 confirmed): trim-and-fill imputes *k* = 58 missing studies and cuts the pooled effect from *r* = 0.074 to *r* = 0.035, a ~53% attenuation (Begg *p* <.001; Egger *p* =.057 borderline, this study frames the magnitude as a strong directional signal rather than a settled point estimate). Heterogeneity decomposition assigns the bulk of $I^2$ = 87.8% to within-study variance (Level 2, 76.1%) rather than between-country differences (Level 3, 11.8%).
+**Key findings.** Baseline *r* = 0.074 (*k* = 238, *K* = 288) replicates the earlier author baseline. ICRV full-sample *Q*_M = 17.35 (*p* =.002) but drop-Frontier *Q*_M = 1.49 (*p* =.68); H1 fragile, E1a/E1b not confirmed. cDAI (*Q*_M = 1.23, *p* =.541) and DPL (*Q*_M = 0.56, *p* =.755) non-significant; H2/H3 not supported. The principal finding is publication bias (H4 confirmed): trim-and-fill imputes *k* = 58 missing studies and cuts the pooled effect from *r* = 0.074 to *r* = 0.035, a ~53% attenuation (Begg *p* <.001; Egger *p* =.057 borderline, this study frames the magnitude as a strong directional signal rather than a settled point estimate). Heterogeneity decomposition assigns the bulk of $I^2$ = 87.8% to within-study variance (Level 2, 76.1%) rather than between-country differences (Level 3, 11.8%).
 
 **Organization.** Section 2 develops the theoretical framework and hypotheses; Section 3 describes the systematic search, coding, and three-level MARA specification; Section 4 presents results; Section 5 discusses theoretical and practical implications; Section 6 concludes.
 
@@ -226,10 +226,10 @@ Six pre-registered checks evaluate sensitivity to modelling choices: (1) two-lev
 
 ### 4.2 Baseline Three-Level Model
 
-**ICBEF 2025 single-level baseline (MetaEssentials 1.5, k = 113):**
+**Earlier author single-level baseline (MetaEssentials 1.5, k = 113):**
 
-$$\bar{r}_{ICBEF} = 0.07 \quad (95\%\ \text{CI}: [0.05, 0.09]),\ p <.001$$
-$$I^2_{ICBEF} = 87.92\%,\quad Q_{between} = 1{,}247.3\ (df = 112,\ p <.001)$$
+$$\bar{r}_{\text{earlier}} = 0.07 \quad (95\%\ \text{CI}: [0.05, 0.09]),\ p <.001$$
+$$I^2_{\text{earlier}} = 87.92\%,\quad Q_{between} = 1{,}247.3\ (df = 112,\ p <.001)$$
 
 **Three-level decomposition** (three-level REML, k = 238 studies, K = 288 effects):
 
@@ -243,7 +243,7 @@ $$I^2_{ICBEF} = 87.92\%,\quad Q_{between} = 1{,}247.3\ (df = 112,\ p <.001)$$
 | Pooled *r̂*_3L | 0.074 (95% CI [0.060, 0.088]) |
 | *Q*_total | 1,909.42 (*df* = 287, *p* <.001) |
 
-The three-level pooled estimate (*r̂* = 0.074) is consistent with the ICBEF 2025 single-level baseline (*r* = 0.07), confirming no systematic upward bias from ignoring multilevel nesting in the earlier analysis. The decomposition is dominated by the within-study level: effect-to-effect variation within the same study (Level 2, $I^2_{(2)}$ = 76.1%) is roughly six times the between-study contribution (Level 3, $I^2_{(3)}$ = 11.8%). Most unexplained heterogeneity therefore arises from analytic choices *within* primary studies, DOI operationalization, performance metric, specification, sub-sample, rather than from stable cross-country contextual differences. Total $I^2$ = 87.8%, well above the sampling-error floor, motivates the moderator analyses; however, as Sections 4.3–4.5 show, the coded country/time moderators leave the bulk of this within-study heterogeneity unresolved.
+The three-level pooled estimate (*r̂* = 0.074) is consistent with the earlier author single-level baseline (*r* = 0.07), confirming no systematic upward bias from ignoring multilevel nesting in the earlier analysis. The decomposition is dominated by the within-study level: effect-to-effect variation within the same study (Level 2, $I^2_{(2)}$ = 76.1%) is roughly six times the between-study contribution (Level 3, $I^2_{(3)}$ = 11.8%). Most unexplained heterogeneity therefore arises from analytic choices *within* primary studies, DOI operationalization, performance metric, specification, sub-sample, rather than from stable cross-country contextual differences. Total $I^2$ = 87.8%, well above the sampling-error floor, motivates the moderator analyses; however, as Sections 4.3–4.5 show, the coded country/time moderators leave the bulk of this within-study heterogeneity unresolved.
 
 ### 4.3 ICRV Regime Moderation (H1)
 
@@ -319,7 +319,7 @@ The baseline *r* = 0.074 is robust across all sensitivity checks: confirmed-*r*-
 
 ### 5.1 Alignment with Country-Level Evidence
 
-The meta-analytic baseline (*r* = 0.074, *k* = 238, 49 economies) is consistent with country-level evidence from across the global study corpus, including the Asia-Pacific primary studies underlying the ICBEF 2025 baseline (Author Citation, 2024, ICBEF). The pooled effect is positive and significant, confirming that export-intensive firms tend to outperform domestically focused peers even after adjusting for firm size, age, and industry.
+The meta-analytic baseline (*r* = 0.074, *k* = 238, 49 economies) is consistent with country-level evidence from across the global study corpus, including the Asia-Pacific primary studies underlying the earlier author baseline (blinded reference, 2024 conference proceedings). The pooled effect is positive and significant, confirming that export-intensive firms tend to outperform domestically focused peers even after adjusting for firm size, age, and industry.
 
 **Advanced-Innovation contexts (Regime I, *K* = 139; *r̄* = 0.079, 95% CI [0.059, 0.099]):** The Advanced-Innovation group mean (*r̄* = 0.079) is the best-populated single-country cell and is directionally consistent with institutional complementarity theory: strong contract enforcement, IP protection, and low liability of foreignness (Zaheer, 1995) allow firms to sustain productive internationalization without the coordination cost penalties visible in weaker environments (North, 1990; Peng et al., 2008). It sits marginally above the pooled baseline (*r* = 0.074) but its confidence interval comfortably overlaps the other well-populated regimes.
 
@@ -331,7 +331,7 @@ The meta-analytic baseline (*r* = 0.074, *k* = 238, 49 economies) is consistent 
 
 ### 5.2 Theoretical Contributions
 
-**Contribution 1: A three-level decomposition of I-P heterogeneity.** Extending the ICBEF 2025 Asia-Pacific baseline (*k* = 113) to *k* = 238 studies from 49 economies (*K* = 288 effects), the three-level MARA correctly partitions within-study and between-study variance and shows that within-study design heterogeneity (Level-2 *I*² = 76.1%) accounts for roughly six times the between-country share (Level-3 *I*² = 11.8%). The baseline *r* = 0.074 replicates prior estimates and is robust across seven sensitivity checks. Marano et al.'s (2016) earlier institutional-moderator finding remains the canonical reference; the present analysis does not overturn it but adds the three-level decomposition and the formal moderator tests below.
+**Contribution 1: A three-level decomposition of I-P heterogeneity.** Extending the earlier author Asia-Pacific baseline (*k* = 113) to *k* = 238 studies from 49 economies (*K* = 288 effects), the three-level MARA correctly partitions within-study and between-study variance and shows that within-study design heterogeneity (Level-2 *I*² = 76.1%) accounts for roughly six times the between-country share (Level-3 *I*² = 11.8%). The baseline *r* = 0.074 replicates prior estimates and is robust across seven sensitivity checks. Marano et al.'s (2016) earlier institutional-moderator finding remains the canonical reference; the present analysis does not overturn it but adds the three-level decomposition and the formal moderator tests below.
 
 **Contribution 2: Pre-registered moderator tests of ICRV, cDAI, and DPL.** This is the first formal test of these three moderators in a three-level MARA. All three return null or fragile results: ICRV core-regime *Q*_M = 1.49 (*p* =.68); cDAI *Q*_M = 1.23 (*p* =.541); DPL *Q*_M = 0.56 (*p* =.755). These nulls set theoretically informative bounds rather than confirming substantive moderation: the *k* = 238 sample lacks adequate between-regime variation in diagnostic cells (Frontier *K* = 3; Upper-middle *K* = 25; SIDS *K* = 0). A *Capability–Context Mismatch* interpretation, that macro digital context is inert without firm-level digital capability to translate it, is consistent with the cDAI null, but is offered as a post-hoc proposition for confirmatory replication rather than as a finding of this study.
 
@@ -357,7 +357,7 @@ Three limitations bound the inferences available from this study:
 
 ## 6. Conclusion
 
-This paper presents the first three-level MARA of the internationalization–performance (I-P) relationship on a globally representative corpus (*k* = 238 studies, *K* = 288 effects, 49 economies), extending the ICBEF 2025 Asia-Pacific baseline (*k* = 113) and introducing three previously untested moderators, ICRV institutional regime, country-level digital adoption (cDAI), and Digital Paradox Lifecycle (DPL) phase. The pooled effect (*r* = 0.074, 95% CI [0.060, 0.088], $I^2$ = 87.8%) is small, positive, and robust across seven sensitivity checks.
+This paper presents the first three-level MARA of the internationalization–performance (I-P) relationship on a globally representative corpus (*k* = 238 studies, *K* = 288 effects, 49 economies), extending the earlier author Asia-Pacific baseline (*k* = 113) and introducing three previously untested moderators, ICRV institutional regime, country-level digital adoption (cDAI), and Digital Paradox Lifecycle (DPL) phase. The pooled effect (*r* = 0.074, 95% CI [0.060, 0.088], $I^2$ = 87.8%) is small, positive, and robust across seven sensitivity checks.
 
 H1 receives only fragile support: the full-sample ICRV omnibus is significant (*Q*_M = 17.35, *p* =.002) but collapses to non-significance once the 3-study Frontier cell is removed (*Q*_M = 1.49, *p* =.68). The directional gradient (E1a/E1b) and the cDAI (*Q*_M = 1.23, *p* =.541) and DPL (*Q*_M = 0.56, *p* =.755) hypotheses are not confirmed at current sample sizes. The most substantive finding is publication bias (H4 confirmed): trim-and-fill imputes *k* = 58 missing studies, reducing the bias-corrected effect to *r* = 0.035 (95% CI [0.023, 0.048]), a ~53% attenuation. The I-P field's published literature appears to over-represent positive findings, and the true average performance return to internationalization may sit closer to *r* ≈ 0.035 than to the 0.07–0.10 range commonly cited. The heterogeneity puzzle remains largely unresolved, but the three-level decomposition reframes it: within-study variance (Level 2, 76.1%) is the dominant source, not between-country differences (Level 3, 11.8%), methodological choices within papers contribute substantially more to dispersion than cross-country institutional contexts.
 
@@ -414,7 +414,7 @@ David, P. A. (1990). The dynamo and the computer: An historical perspective on t
 
 Dickersin, K. (1990). The existence of publication bias and risk factors for its occurrence. *JAMA, 263*(10), 1385–1389. https://doi.org/10.1001/jama.1990.03440100097014
 
-Author Citation (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. International conference on sustainable development in economics, business, and finance (ICBEF). [Author details removed for blind review.]
+Blinded author reference (2024). [Conference paper presentation; full author details and conference venue withheld for blind review.]
 
 Author Citation (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. [Author details removed for blind review.]
 
