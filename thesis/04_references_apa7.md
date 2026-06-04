@@ -126,6 +126,8 @@ Pangarkar, N. (2008). Internationalization and performance of small- and medium-
 
 (Giữ nguyên từ v2.1.)
 
+**OECD. (2026). *OECD MAGIC Database of Industrial Subsidies* (June 2026 edition). OECD Publishing, Paris.** https://doi.org/10.1787/ce94f33b-en *(Mới v2.6 — June 2026 industrial-subsidy context: subsidies at 1.3% of firm revenue (USD 108B, 2024) — second-highest since 2008-09; Chinese firms receive 3–8× OECD-firm support; critically, subsidies increase market share but NOT productivity, validating the dissertation's choice of labour productivity as the primary DV)*
+
 ## I. Productivity literature
 
 (Giữ nguyên từ v2.1 — Bloom, Sadun & Van Reenen 2012; Cusolito & Maloney 2018; Hsieh & Klenow 2009 và 2014.)
