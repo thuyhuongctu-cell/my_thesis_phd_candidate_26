@@ -128,6 +128,12 @@ Pangarkar, N. (2008). Internationalization and performance of small- and medium-
 
 **OECD. (2026). *OECD MAGIC Database of Industrial Subsidies* (June 2026 edition). OECD Publishing, Paris.** https://doi.org/10.1787/ce94f33b-en *(Mới v2.6 — June 2026 industrial-subsidy context: subsidies at 1.3% of firm revenue (USD 108B, 2024) — second-highest since 2008-09; Chinese firms receive 3–8× OECD-firm support; critically, subsidies increase market share but NOT productivity, validating the dissertation's choice of labour productivity as the primary DV)*
 
+**OECD. (2026). *OECD Economic Outlook, Volume 2026 Issue 1: Under Pressure*. OECD Publishing, Paris.** https://doi.org/10.1787/2d1956f0-en *(Mới v2.7 — June 2026 macroeconomic context: confirms persistent geopolitical pressure, trade tariff escalation, and uneven recovery across Asia-Pacific — substantiates the dissertation's framing of ICRV regime heterogeneity as a contemporary policy-relevant lens)*
+
+**Verbeke, A. (2026). The future of international business strategy research. *International Business Review, 35*(2026), Article 102596.** https://doi.org/10.1016/j.ibusrev.2026.102596 *(Mới v2.7 — articulates New Internalization Theory (NIT): 6-stage recursive model adding bounded reliability as complement to bounded rationality, positioning resource bundling as the central value-creation mechanism, with Political License to Operate (PLO) + AI as cross-cutting parameters. Directly extends Uppsala / RBV / Institutional theory triad that anchors the dissertation's CIMT framework)*
+
+**Hutzschenreuter, T., Kleindienst, I., Sengupta, A. S., & Verbeke, A. (2026). The performance effects of "added cultural distance" in multinational expansion paths: Generalizable and contextual determinants. *Multinational Business Review*.** https://doi.org/10.1108/MBR-04-2025-0104 *(Mới v2.7 — 109 Indian MNEs post-1991 liberalization, periods 6–31 years. Finds moderate added cultural distance (ACD) enhances performance up to a threshold (inverted-U) — direct parallel to P9' India threshold-stability finding (TP ≈ 39–46%) and confirms the dissertation's H1 inverted-U claim outside the German baseline)*
+
 ## I. Productivity literature
 
 (Giữ nguyên từ v2.1 — Bloom, Sadun & Van Reenen 2012; Cusolito & Maloney 2018; Hsieh & Klenow 2009 và 2014.)
