@@ -1,5 +1,8 @@
 # CHUYÊN ĐỀ TIẾN SĨ SỐ 1 — BẢN NHÁP ĐẦY ĐỦ (PHẦN 2: CHƯƠNG 4 — THỰC TRẠNG TỪ WBES)
 
+> ⚠️ **SUPERSEDED 2026-06-04** — Nội dung file này đã được restructure từ CHƯƠNG sang MỤC theo chuẩn CTU QĐ 1799 và merge vào `thesis/cd1_chuyen_de_1_thuc_trang_FP_vi.md`. File này giữ lại làm tham chiếu lịch sử (preserve git history); KHÔNG sử dụng để build DOCX nộp.
+
+
 > Tiếp nối `thesis/14_cd1_part1_intro_theory_vi.md`.
 > Phần 3 (Chương 5–7 + TLTK): `thesis/16_cd1_part3_cases_conclusion_vi.md`.
 > Bảng thuật ngữ Anh-Việt: `thesis/09b_vn_term_glossary.md`.

@@ -1,5 +1,8 @@
 # CHUYÊN ĐỀ TIẾN SĨ SỐ 1 — BẢN NHÁP ĐẦY ĐỦ (PHẦN 1: BÌA, TÓM TẮT, CHƯƠNG 1–3)
 
+> ⚠️ **SUPERSEDED 2026-06-04** — Nội dung file này đã được restructure từ CHƯƠNG sang MỤC theo chuẩn CTU QĐ 1799 và merge vào `thesis/cd1_chuyen_de_1_thuc_trang_FP_vi.md`. File này giữ lại làm tham chiếu lịch sử (preserve git history); KHÔNG sử dụng để build DOCX nộp.
+
+
 > Căn cứ Quyết định số 4768/QĐ-ĐHCT ngày 15/10/2024 (giao chuyên đề); Quyết định số 4769/QĐ-ĐHCT ngày 15/10/2024 (tên luận án: "Châu Á").
 > Outline tham chiếu: `thesis/12_chuyen_de_1_outline_vi.md`.
 > Phần 2: `thesis/15_cd1_part2_findings_vi.md` · Phần 3: `thesis/16_cd1_part3_cases_conclusion_vi.md`.
