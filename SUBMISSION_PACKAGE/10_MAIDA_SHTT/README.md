@@ -93,7 +93,7 @@ Tất cả `r` được Fisher-transform `z = ½·ln[(1+r)/(1−r)]`; bất kỳ
 ### Bước nộp:
 1. NCS điền personal data (CCCD, DOB, địa chỉ thường trú) vào các form `00_mo_ta_tac_pham_vi.docx` + `06_cam_doan_nguon_luc_ca_nhan.docx`
 2. In + ký các form `00`, `01`, `06` + đính kèm `evidence_ctu/`
-3. Nộp tại Cục Bản quyền (số 33 Ngọc Hà, Ba Đình, Hà Nội) hoặc nộp online qua https://cov.gov.vn
+3. Nộp tại Cục Bản quyền Tác giả (COV). **⚠️ Gọi 024.3823.6663 hoặc kiểm tra website cov.gov.vn xác nhận địa chỉ trụ sở hiện tại trước khi đi** (xem `AUDIT_REPORT.md` Issue 1 — dossier hiện ghi *51–53 Ngô Quyền, Hoàn Kiếm, Hà Nội* nhưng COV có thể đã chuyển sang *33 Ngọc Hà, Ba Đình, Hà Nội*; cần verify). VPĐD phía Nam: 170 Nguyễn Đình Chiểu, P.6, Q.3, TP.HCM. Nộp online qua DVC quốc gia (https://dichvucong.gov.vn).
 
 ### Lưu ý chủ sở hữu (`04_phan_tich_chu_so_huu_va_ctu.docx`):
 - **PI**: Đỗ Thùy Hương (đồng sở hữu 70%)
