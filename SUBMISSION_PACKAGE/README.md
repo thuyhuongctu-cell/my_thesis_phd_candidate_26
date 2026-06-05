@@ -29,7 +29,9 @@ SUBMISSION_PACKAGE/
 ├── 08_Paper_P8_SIDS_JED/              → Journal of Economics and Development
 ├── 09_Paper_P9_India_MIR/             → Management International Review (or IJOEM)
 │
-└── 10_MAIDA_SHTT/                     → Hồ sơ đăng ký bản quyền M-AIDA
+└── 10_MAIDA_SHTT/                     → Hệ thống M-AIDA v7.0 (artifact) + Hồ sơ SHTT
+    ├── system/                        → MAIDA_intake.html (web app 23 KB) + CITATION.cff
+    └── (00–06) + evidence_ctu/        → Hồ sơ đăng ký bản quyền tác giả
 ```
 
 ---
@@ -60,7 +62,7 @@ SUBMISSION_PACKAGE/
 
 | # | Folder | Loại | Trạng thái |
 |---|---|---|:-:|
-| 10 | `10_MAIDA_SHTT/` | Hồ sơ đăng ký bản quyền M-AIDA | ✅ READY (cần personal data NCS điền local) |
+| 10 | `10_MAIDA_SHTT/` | **Hệ thống M-AIDA v7.0** (`system/MAIDA_intake.html`) + hồ sơ đăng ký bản quyền | ✅ READY (cần personal data NCS điền local) |
 
 ---
 
