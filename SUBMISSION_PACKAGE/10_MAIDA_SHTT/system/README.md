@@ -4,6 +4,21 @@ Developed at the College of Economics, Can Tho University, by Đỗ Thùy Hươn
 Phan Anh Tú. Purpose-built for IB meta-analysis: semi-automated effect-size extraction from
 academic PDFs with human-in-the-loop PI verification and an immutable data lock.
 
+## Scope (read this first)
+
+> **M-AIDA is a data-EXTRACTION tool, not a meta-analysis COMPUTATION tool.**
+
+It reads PDFs, locates reported statistics (`N, r, t, F, β, df, p`), converts non-`r`
+statistics to Pearson's `r` and Fisher's `z`, then exports a verified-and-locked dataset.
+The pooled effect size, heterogeneity (`Q`, `τ²`, `I²`), publication-bias diagnostics,
+moderator regression, and sensitivity analyses are computed downstream in dedicated
+meta-analysis software (R `metafor`, CMA), **not** in M-AIDA. M-AIDA produces the input
+file; the meta-analysis runs in those packages.
+
+For the P6 meta-analysis (k=238), the downstream pipeline is documented in
+`STATA_REPLICATION_GUIDE.md` and uses R `metafor` REML + Knapp–Hartung + Vevea–Hedges
+3-parameter selection model + RVE robustness.
+
 ## System Architecture
 
 Single-file web application (`MAIDA_intake.html`) — runs entirely client-side in the browser,

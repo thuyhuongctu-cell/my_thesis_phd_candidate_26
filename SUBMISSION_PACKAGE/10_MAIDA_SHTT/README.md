@@ -36,7 +36,24 @@
 
 ## ⚙️ Hệ thống M-AIDA v7.0 (`system/`)
 
-**Architecture:** Single-file web app, client-side only, no server, no API key.
+### Phạm vi (scope statement — quan trọng)
+
+> **M-AIDA là công cụ TRÍCH XUẤT tham số thống kê + QUY ĐỔI sang Pearson *r* / Fisher *z*; KHÔNG phải công cụ TÍNH TOÁN phân tích tổng hợp.**
+
+| M-AIDA LÀM | M-AIDA KHÔNG LÀM |
+|---|---|
+| ✅ Đọc PDF → text (PDF.js) | ❌ Pooled effect size (random/fixed effects) |
+| ✅ Trích xuất `N, r, t, F, β, df, p` từ văn bản học thuật | ❌ Heterogeneity statistics (`Q`, `τ²`, `I²`) |
+| ✅ Quy đổi `t/β/F → r` theo Cohen (1988), Peterson & Brown (2005), Rosenthal (1994) | ❌ Forest plot, funnel plot |
+| ✅ Fisher-z transform `z = ½·ln[(1+r)/(1−r)]` | ❌ Publication bias tests (Egger, trim-and-fill, Vevea-Hedges) |
+| ✅ Human-in-the-loop PI verification + irreversible lock + audit trail | ❌ Moderator regression / meta-regression |
+| ✅ Export CSV/JSON sẵn sàng nạp vào metafor (R) / CMA | ❌ Sensitivity analysis (leave-one-out, drop-frontier) |
+
+Tính toán meta-analysis cho P6 (k=238) được thực hiện bằng **R `metafor` package** (random-effects REML estimator + Knapp-Hartung adjustment + Vevea-Hedges 3-parameter selection model + RVE), KHÔNG bằng M-AIDA. M-AIDA chỉ cung cấp **input dataset** cho pipeline R.
+
+### Architecture
+
+Single-file web app, client-side only, no server, no API key.
 
 ```
 MAIDA_intake.html  (HTML5 + JavaScript ES2017+)
