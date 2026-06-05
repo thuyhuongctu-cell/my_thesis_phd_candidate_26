@@ -236,6 +236,17 @@
 | 3 | CĐ1 "8 phân nhóm con" vs "6 ICRV sub-regimes" footnote | Need NCS confirm whether 8 is methodological or theoretical extension |
 | 4 | CĐ1 APJM citation tag accuracy | Needs cross-reference verification with submission files |
 
+### 📋 SECOND-PASS RESOLUTION 2026-06-05 — 4/4 deferred items resolved
+
+| # | File | Resolution |
+|---|---|---|
+| 1 | CĐ1 L660 Bảng 4.10 Kiribati FSTS cell | ✅ Corrected `1,0` → `1,03` (matches §2.3.2.7 and narrative throughout) |
+| 2 | CĐ1 31× `et al.` → `ctv.` VN narrative | ✅ Global pass: 31 → 0 `et al.` / +31 `ctv.` (all instances were in VN prose pre-L1046; reference list untouched per APA7 spec) |
+| 3 | CĐ1 L556 §2.3.1.7 footnote 6 ICRV vs 8 estimation | ✅ Added explicit "Phân biệt hai khái niệm" footnote distinguishing 6 canonical ICRV taxonomy from 8 estimation subgroups (Emerging tách 3) |
+| 4 | CĐ1 APJM citation tag (3× sites) | ✅ L275 + L855: "Đỗ & Phan (2026, phân tích Việt Nam, *APJM*)" → "Đỗ & Phan (2026a, *VEFR*)"; L419: "(Đỗ & Phan, 2026 mở rộng từ APJM sang luận án)" → "(Đỗ & Phan, 2026a/2026b mở rộng sang luận án)". Verify: `grep -c APJM` = 0 |
+
+**Final stats (post 2nd pass)**: CĐ1 26,302 words (-719 from compaction of redundant tags). Zero APJM/et al. residuals. Review cycle complete.
+
 ### Final stats
 
 - **CĐ1**: 26,149 → 27,021 words (+872 from rewrite + cross-ref fixes)
