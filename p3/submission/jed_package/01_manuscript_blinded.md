@@ -24,9 +24,7 @@ Originality/value — The inverted-U in this zero-inflated setting reflects a pa
 
 Keywords: internationalisation–performance; emerging markets; technological capability; threshold durability; Vietnam; firm productivity.
 
-JEL classification: F23 (multinational firms; international business); O33 (technological change:
-choices and consequences); D22 (firm behaviour: empirical analysis); L25 (firm performance);
-O53 (economywide country studies: Asia including Middle East).
+JEL classification: F23, O33, D22, L25, O53.
 
 Paper type: Research paper.
 
@@ -343,7 +341,7 @@ Controls: lnEmp, FirmAge, ForeignOwned, sector FE [+ wave FE]
 
 *Figure 1.* Conceptual model for Paper 3 (Vietnam).
 
-*Note:* Solid arrows represent hypothesised direct and curvilinear effects. Dashed arrows represent moderating effects. The independent variable — internationalisation intensity (FSTS, centred FSTS_c and FSTS_c²) — is placed at left; the dependent variable — firm performance, measured as ln(labour productivity) = ln(annual revenue PPP / permanent workers) — is placed at right, following left-to-right causal flow convention. H1 (inverted-U nonlinearity: β₁ > 0, β₂ < 0) is grounded in the Uppsala model (Johanson & Vahlne, 1977, 2009) and coordination-cost theory (Hitt et al., 1997). H2 specifies technological capability (TCI_z, Resource-Based View: Barney, 1991) as a level-shifting direct effect and secondary moderator on the FSTS–performance curve; instrument: industry-level TCI mean (causal IV identification). H4 treats website-based digital adoption (DAI_z, Tier-1 only) as an exploratory probe of the Digital Capability Lens (Banalieva & Dhanaraj, 2019); measurement constraint acknowledged — single binary indicator across 2009/2015/2023 waves limits inferential strength. (+) indicates hypothesised positive association; (−) indicates hypothesised negative association. Control variables (ln firm size, firm age, foreign ownership, broad-sector fixed effects, wave fixed effects) enter additively in all models but are omitted from the figure for clarity. ICRV context: Vietnam — Nhóm IV (Lower_mid_transition, ICRV Group 4 of 6; lower-middle-income transition economy; WGI Rule of Law ≈ −0.09 in 2023, World Bank). Data: WBES 2009, 2015, 2023; N = 2,958 (pooled), n_wave = 989/956/1,013.
+*Note:* Solid arrows represent hypothesised direct and curvilinear effects. Dashed arrows represent moderating effects. The independent variable — internationalisation intensity (FSTS, centred FSTS_c and FSTS_c²) — is placed at left; the dependent variable — firm performance, measured as ln(labour productivity) = ln(annual revenue PPP / permanent workers) — is placed at right, following left-to-right causal flow convention. H1 (inverted-U nonlinearity: β₁ > 0, β₂ < 0) is grounded in the Uppsala model (Johanson and Vahlne, 1977, 2009) and coordination-cost theory (Hitt et al., 1997). H2 specifies technological capability (TCI_z, Resource-Based View: Barney, 1991) as a level-shifting direct effect and secondary moderator on the FSTS–performance curve; instrument: industry-level TCI mean (causal IV identification). H4 treats website-based digital adoption (DAI_z, Tier-1 only) as an exploratory probe of the Digital Capability Lens (Banalieva and Dhanaraj, 2019); measurement constraint acknowledged — single binary indicator across 2009/2015/2023 waves limits inferential strength. (+) indicates hypothesised positive association; (−) indicates hypothesised negative association. Control variables (ln firm size, firm age, foreign ownership, broad-sector fixed effects, wave fixed effects) enter additively in all models but are omitted from the figure for clarity. ICRV context: Vietnam — Nhóm IV (Lower_mid_transition, ICRV Group 4 of 6; lower-middle-income transition economy; WGI Rule of Law ≈ −0.09 in 2023, World Bank). Data: WBES 2009, 2015, 2023; N = 2,958 (pooled), n_wave = 989/956/1,013.
 
 ## 3. Data, variables, and empirical strategy
 ### 3.1 Data structure
@@ -634,7 +632,7 @@ The most defensible interpretation is therefore that the full-sample inverted-U 
 a combined participation-and-intensity structure, with the productivity-relevant contrast concentrated primarily at the transition from non-exporting to exporting rather
 than in strong within-exporter curvature alone.
 
-The institutional-context interpretation is reinforced by within-Vietnam cross-wave stability of the threshold itself. The pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is structurally durable across three WBES waves spanning 14 years of major institutional change — WTO accession (2007), the Global Financial Crisis (2008–2009), the deepening of the EU–Vietnam and CPTPP trade frameworks (2018–2020), the COVID-19 supply-chain disruption (2020–2022), and the diffusion of digital-payment and e-commerce infrastructure. The fact that the inverted-U turning point clusters within a narrow ~7-percentage-point band despite these macro-environmental shifts is consistent with institutional transaction costs binding through deep firm-level constraints — coordination capacity, contract enforcement, and trade-finance access — that change more slowly than the wider operating environment. This within-WBES cross-wave evidence complements the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022 — MIR; Marano et al., 2016).
+The institutional-context interpretation is reinforced by within-Vietnam cross-wave stability of the threshold itself. The pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is structurally durable across three WBES waves spanning 14 years of major institutional change — WTO accession (2007), the Global Financial Crisis (2008–2009), the deepening of the EU–Vietnam and CPTPP trade frameworks (2018–2020), the COVID-19 supply-chain disruption (2020–2022), and the diffusion of digital-payment and e-commerce infrastructure. The fact that the inverted-U turning point clusters within a narrow ~7-percentage-point band despite these macro-environmental shifts is consistent with institutional transaction costs binding through deep firm-level constraints — coordination capacity, contract enforcement, and trade-finance access — that change more slowly than the wider operating environment. This within-WBES cross-wave evidence complements the institutional-context channel identified in meta-analyses of the I–P relationship (Wu *et al.*, 2022; Marano *et al.*, 2016).
 
 H2 is supported: the positive TCI_z direct coefficient (pooled β = 0.179, p < .001) is statistically significant in all three wave-specific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), and statistically distinguishable TCI moderation appears in three of four panels (M3 joint p = .040, .713, .027 and .003). The baseline DAI_z control reports a positive pooled level association (β = 0.078, p = .004) but with substantial wave-to-wave variability — strong in 2009 (β = 0.175, p < .001), null in 2015 (β = -0.044, p = .377), and re-emerging in 2023 (β = 0.095, p = .038). Because DAI_z indexes only Tier-1 website presence and is not formalised as a primary hypothesis in this paper, this wave variation is reported descriptively rather than as a hypothesis test. The Paternoster cross-wave z-tests (§4.5, Panel F) indicate that the 2009-to-2015 fall (z = 3.353, p < .001) and the 2015-to-2023 recovery (z = -2.051, p = .040) are both statistically distinguishable shifts in the descriptive Tier-1 series.
 H4 receives limited exploratory support. The DAI joint moderation test is null in
@@ -989,11 +987,11 @@ Table 5: Implied turning points of the inverted-U (M2 specification).
 | 2009 vs. 2023 | z=0.09 (p=0.926) | z=0.14 (p=0.888) | z=1.42 (p=0.155) | z=1.28 (p=0.201) |
 | 2015 vs. 2023 | z=0.66 (p=0.509) | z=-0.84 (p=0.400) | z=0.07 (p=0.947) | z=-2.05 (p=0.040) |
 
-*Notes.* Cross-wave coefficient equality tests following Paternoster et al. (1998). Failure to reject indicates coefficient stability across waves. FSTSc and FSTSc² comparisons support wave-specific heterogeneity in TCI and DAI direct effects but not in the I–P curvature parameters. Turning points (already reported in Table 5 above) are derived from M2 (lnLP = β₀ + β₁ FSTS_c + β₂ FSTS_c² + controls + sector FE [+ wave FE in pooled]) back-transformed to the raw FSTS scale; 95% CI uses the delta method; Lind–Mehlum p-values follow the Sasabuchi-style endpoint test (Lind & Mehlum, 2010). Source: WBES Vietnam 2009, 2015, 2023; authors' calculations.
+*Notes.* Cross-wave coefficient equality tests following Paternoster et al. (1998). Failure to reject indicates coefficient stability across waves. FSTSc and FSTSc² comparisons support wave-specific heterogeneity in TCI and DAI direct effects but not in the I–P curvature parameters. Turning points (already reported in Table 5 above) are derived from M2 (lnLP = β₀ + β₁ FSTS_c + β₂ FSTS_c² + controls + sector FE [+ wave FE in pooled]) back-transformed to the raw FSTS scale; 95% CI uses the delta method; Lind–Mehlum p-values follow the Sasabuchi-style endpoint test (Lind and Mehlum, 2010). Source: WBES Vietnam 2009, 2015, 2023; authors' calculations.
 
 ## 5. Discussion
 
-The results should first be located against the meta-analytic baseline. Wu, Fan, and Chen (2022, MIR) establish a positive average I–P relationship for emerging-market multinationals — a useful macro-level anchor, but one that aggregates across institutional contexts in which the functional form may vary substantially. Country-level heterogeneity in the I–P curve shape remains under-specified in that meta-analysis. Vietnam — as a single-party transitional economy with rapid but uneven digital infrastructure uptake — provides a critical test of whether the pooled meta-level estimate masks functional-form nonlinearity at the within-country level. The present evidence is consistent with that concern: the inverted-U is robust within Vietnam but is driven predominantly by a participation-margin step rather than by within-exporter saturation, a structure that pooling across exporters and non-exporters in cross-country meta-analyses would tend to inflate into an apparent continuous curvature. The within-Vietnam temporal durability of the threshold (39–46 % band sustained across 14 years) additionally indicates that institutional context — held constant in this single-country design — may stabilise the curve shape in a way that cross-country designs cannot isolate. Our finding of a reproducible inverted-U at FSTS ≈ 39–46% in Vietnam, despite the cross-national skepticism articulated by Pisani, Garcia-Bernardo, and Heemskerk (2020, SMJ), is consistent with the view that single-country institutional contexts retain functional-form heterogeneity that pooled cross-national samples obscure through aggregation. The ascending-limb mechanism receives independent corroboration from matched firm-level customs panel evidence: Vietnamese firms that absorbed a positive US demand shock over 2018–2020 expanded exports to both US and non-US destinations and recorded commensurate gains in labour productivity, with demand-driven export expansion explaining 68.5 per cent of the observed domestic value-added ratio increase over the same period (Agarwal, Barattieri, & Mattoo, 2026). This corroboration strengthens the interpretation that moderate export intensity generates genuine productivity gains in Vietnamese firms — not merely a compositional artefact of positive selection into exporting.
+The results should first be located against the meta-analytic baseline. Wu, Fan, and Chen (2022, MIR) establish a positive average I–P relationship for emerging-market multinationals — a useful macro-level anchor, but one that aggregates across institutional contexts in which the functional form may vary substantially. Country-level heterogeneity in the I–P curve shape remains under-specified in that meta-analysis. Vietnam — as a single-party transitional economy with rapid but uneven digital infrastructure uptake — provides a critical test of whether the pooled meta-level estimate masks functional-form nonlinearity at the within-country level. The present evidence is consistent with that concern: the inverted-U is robust within Vietnam but is driven predominantly by a participation-margin step rather than by within-exporter saturation, a structure that pooling across exporters and non-exporters in cross-country meta-analyses would tend to inflate into an apparent continuous curvature. The within-Vietnam temporal durability of the threshold (39–46 % band sustained across 14 years) additionally indicates that institutional context — held constant in this single-country design — may stabilise the curve shape in a way that cross-country designs cannot isolate. Our finding of a reproducible inverted-U at FSTS ≈ 39–46% in Vietnam, despite the cross-national skepticism articulated by Pisani, Garcia-Bernardo, and Heemskerk (2020, SMJ), is consistent with the view that single-country institutional contexts retain functional-form heterogeneity that pooled cross-national samples obscure through aggregation. The ascending-limb mechanism receives independent corroboration from matched firm-level customs panel evidence: Vietnamese firms that absorbed a positive US demand shock over 2018–2020 expanded exports to both US and non-US destinations and recorded commensurate gains in labour productivity, with demand-driven export expansion explaining 68.5 per cent of the observed domestic value-added ratio increase over the same period (Agarwal *et al.*, 2026). This corroboration strengthens the interpretation that moderate export intensity generates genuine productivity gains in Vietnamese firms — not merely a compositional artefact of positive selection into exporting.
 
 ### 5.1 Reinterpreting the baseline website-presence indicator in Vietnam
 The central implication of the descriptive DAI_z findings is that baseline website presence in Vietnam should
@@ -1151,7 +1149,7 @@ transformation programme assessed only against a 2015-style transitional baselin
 
 derstate its long-run productivity contribution; a programme assessed against a 2009-style or
 2023-style baseline would overstate it relative to the in-between phase. Policy evaluation that
-takes the wave-specific structural differences seriously will couple short-window outcome measurement with sustained measurement of the capability and infrastructure environment in which firms operate. In the Vietnamese context, the World Bank (2025b) *Taking Stock* update identifies the cultivation of high-tech industrial talent as a binding constraint mediating digital and capability investment into sustainable productivity gains — reinforcing the argument that policy evaluation in transitional settings must monitor the capability environment, not adoption rates alone. At the macro level, Vietnam's service trade liberalization over 2008–2016 raised service-sector productivity by an average of 2.9 per cent per year and manufacturing productivity by 3.1 per cent per year (Barattieri, Mattoo, & Signoret, 2026), suggesting that the ascending limb documented in the WBES microdata reflects in part the economy-wide gains from trade opening that firm-level capability investments convert into sustained productivity advantage.
+takes the wave-specific structural differences seriously will couple short-window outcome measurement with sustained measurement of the capability and infrastructure environment in which firms operate. In the Vietnamese context, the World Bank (2025b) *Taking Stock* update identifies the cultivation of high-tech industrial talent as a binding constraint mediating digital and capability investment into sustainable productivity gains — reinforcing the argument that policy evaluation in transitional settings must monitor the capability environment, not adoption rates alone. At the macro level, Vietnam's service trade liberalization over 2008–2016 raised service-sector productivity by an average of 2.9 per cent per year and manufacturing productivity by 3.1 per cent per year (Barattieri *et al.*, 2026), suggesting that the ascending limb documented in the WBES microdata reflects in part the economy-wide gains from trade opening that firm-level capability investments convert into sustained productivity advantage.
 
 ## 6. Limitations and future research
 The findings should be read against five limitations. First and most fundamentally, the WBES
@@ -1213,15 +1211,13 @@ restricts redistribution of the original .dta files to third parties, the author
 the raw survey files. Replication materials, including variable-construction details, model specifications, and computational outputs, are available from the authors upon reasonable request
 and may be shared to the extent permitted by the data-access terms.
 
+## Ethics statement
+This study uses secondary, de-identified, firm-level data from the World Bank Enterprise Surveys. It does not involve human participants, identifiable personal data, animals, or biological samples, and therefore did not require institutional ethical approval. The research was conducted in accordance with the data-access terms of the World Bank Enterprise Surveys.
+
 ## Use of generative AI in the writing process
-Generative AI tools were used during manuscript preparation to assist with language editing,
-structure suggestions, and the assembly of the replication package documentation.
+During the preparation of this work, the author(s) used generative AI-assisted tools solely for copy-editing — to improve the clarity, grammar, and structure of the author(s)' own original text. No generative AI was used to create or draft new substantive content. In accordance with the journal's policy, the author(s) will specify the exact name and version of the AI tool(s) used at the point of submission. [Author: insert tool name and version.]
 
-All con-
-
-ceptual framing, hypothesis development, empirical analysis, results interpretation, and final
-wording were authored by the human authors, who take full responsibility for the content of the
-publication.
+All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human author(s), who take full responsibility for the content of the publication.
 
 
 
@@ -1244,58 +1240,120 @@ tables/table_lind_mehlum.csv (Table LM source), tables/table_3_robustness.csv (T
 
 
 ## References
-Agarwal, R., Barattieri, A., & Mattoo, A. (2026). *Demand shocks, export expansion, and firm-level productivity: Evidence from Vietnamese manufacturers* [World Bank Policy Research Working Paper]. The World Bank. [DOI pending; verify and add upon assignment before submission]
-Aguinis, H., Hill, N. S., & Bailey, J. R. (2021). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693. https://doi.org/10.1177/1094428119836485
-Antonakis, J., Bendahan, S., Jacquart, P., & Lalive, R. (2010). On making causal claims: A review and recommendations. *The Leadership Quarterly, 21*(6), 1086–1120. https://doi.org/10.1016/j.leaqua.2010.10.010
-Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387. https://doi.org/10.1057/s41267-019-00243-7
-Barattieri, A., Mattoo, A., & Signoret, J. E. (2026). *Service trade liberalization and productivity growth: Micro-evidence from Vietnam, 2008–2016* [World Bank Policy Research Working Paper]. The World Bank. [DOI pending; verify and add upon assignment before submission]
-Bernard, A. B., Jensen, J. B., Redding, S. J., & Schott, P. K. (2007). Firms in international trade. *Journal of Economic Perspectives, 21*(3), 105–130. https://doi.org/10.1257/jep.21.3.105
-Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/misq/2013/37:2.3
-Brouthers, K. D., Geisser, K. D., & Rothlauf, F. (2016). Explaining the internationalization of iBusiness firms. *Journal of International Business Studies, 47*(5), 513–534. https://doi.org/10.1057/jibs.2015.20
-Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. *American Economic Journal: Macroeconomics, 13*(1), 333–372. https://doi.org/10.1257/mac.20180386
-Certo, S. T., Busenbark, J. R., Woo, H.-S., & Semadeni, M. (2016). Sample selection bias and Heckman models in strategic management research. *Strategic Management Journal, 37*(13), 2639–2657. https://doi.org/10.1002/smj.2475
-Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
-Contractor, F. J. (2007). Is international business good for companies? The evolutionary or multi-stage theory of internationalization vs. the transaction cost perspective. *Management International Review, 47*(3), 453–475. https://doi.org/10.1007/s11575-007-0024-2
-Coviello, N., Kano, L., & Liesch, P. W. (2017). Adapting the Uppsala model to a modern world: Macro-context and microfoundations. *Journal of International Business Studies, 48*(9), 1151–1164. https://doi.org/10.1057/s41267-017-0120-x
-Cuervo-Cazurra, A., & Genc, M. (2008). Transforming disadvantages into advantages: Developing-country MNEs in the least developed countries. *Journal of International Business Studies, 39*(6), 957–979. https://doi.org/10.1057/palgrave.jibs.8400390
-Eisenhardt, K. M., & Martin, J. A. (2000). Dynamic capabilities: What are they? *Strategic Management Journal, 21*(10–11), 1105–1121. https://doi.org/10.1002/1097-0266(200010/11)21:10/11%3C1105::AID-SMJ133%3E3.0.CO;2-E
-Goldfarb, A., & Tucker, C. (2019). Digital economics. *Journal of Economic Literature, 57*(1), 3–43. https://doi.org/10.1257/jel.20171452
-Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
-Hanelt, A., Bohnsack, R., Marz, D., & Antunes Marante, C. (2021). A systematic review of the literature on digital transformation: Insights and implications for strategy and organizational change. *Journal of Management Studies, 58*(5), 1159–1197. https://doi.org/10.1111/joms.12639
-Heckman, J. J. (1979). Sample selection bias as a specification error. *Econometrica, 47*(1), 153–161. https://doi.org/10.2307/1912352
-Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0023-3
-Hennart, J.-F. (2011). A theoretical assessment of the empirical literature on the impact of multinationality on performance. *Global Strategy Journal, 1*(1–2), 135–151. https://doi.org/10.1002/gsj.8
-International Telecommunication Union. (2026). *World Telecommunication/ICT Indicators Database* [Data set]. Retrieved May 9, 2026, from https://www.itu.int/en/ITU-D/Statistics/Pages/publications/wtid.aspx
-Karna, A., Richter, A., & Riesenkampff, E. (2016). Revisiting the role of the environment in the capabilities–financial performance relationship: A meta-analysis. *Strategic Management Journal, 37*(6), 1154–1173. https://doi.org/10.1002/smj.2379
-Knight, G. A., & Liesch, P. W. (2016). Internationalization: From incremental to born global. *Journal of World Business, 51*(1), 93–102. https://doi.org/10.1016/j.jwb.2015.08.011
-Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
-Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
-Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
-Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
-Nambisan, S., Wright, M., & Feldman, M. (2019). The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes. *Research Policy, 48*(8), 103773. https://doi.org/10.1016/j.respol.2019.03.018
-Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. *Journal of Business & Economic Statistics, 37*(2), 187–204. https://doi.org/10.1080/07350015.2016.1227711
-Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866. https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
-Petricevic, O., & Teece, D. J. (2019). The structural reshaping of globalization: Implications for strategic sectors, profiting from innovation, and the multinational enterprise. *Journal of International Business Studies, 50*(9), 1487–1512. https://doi.org/10.1057/s41267-019-00269-x
-Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
-Prime Minister of Vietnam. (2020, June 3). *Decision No. 749/QD-TTg approving the "National Digital Transformation Programme by 2025, with orientations towards 2030"* [Policy document]. Retrieved May 9, 2026, from https://english.luatvietnam.vn/decision-no-749-qd-ttg-on-approving-the-national-digital-transformation-program-until-2025-with-a-vision-184241-doc1.html
-Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. https://doi.org/10.1177/0149206319846272
-Staiger, D., & Stock, J. H. (1997). Instrumental variables regression with weak instruments. *Econometrica, 65*(3), 557–586. https://doi.org/10.2307/2171753
-Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? The international strategies of digital platform firms. *Global Strategy Journal, 11*(1), 58–80. https://doi.org/10.1002/gsj.1336
-Strange, R., & Zucchella, A. (2017). Industry 4.0, global value chains and international business. *Multinational Business Review, 25*(3), 174–184. https://doi.org/10.1108/MBR-05-2017-0028
-Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. *Strategic Management Journal, 28*(13), 1319–1350. https://doi.org/10.1002/smj.640
-Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evolution. *Global Strategy Journal, 10*(2), 239–250. https://doi.org/10.1002/gsj.1375
-Vahlne, J.-E., & Johanson, J. (2017). From internationalization to evolution: The Uppsala model at 40 years. *Journal of International Business Studies, 48*(9), 1087–1102. https://doi.org/10.1057/s41267-017-0107-7
-Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
-Vernon, R. (1979). The product cycle hypothesis in a new international environment. *Bulletin of Economics and Statistics, 41*(4), 255–267. https://doi.org/10.1111/j.1468-0084.1979.mp41004002.x
-Vial, G. (2019). Understanding digital transformation: A review and a research agenda. *Journal of Strategic Information Systems, 28*(2), 118–144. https://doi.org/10.1016/j.jsis.2019.01.003
-Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy, 30*(1), 60–82. https://doi.org/10.1111/j.1467-9701.2007.00872.x
-Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
-Wolfolds, S. E., & Siegel, J. (2019). Misaccounting for endogeneity: The peril of relying on the Heckman two-step method without a valid instrument. *Strategic Management Journal, 40*(3), 432–462. https://doi.org/10.1002/smj.2995
-Wooldridge, J. M. (2010). *Econometric analysis of cross section and panel data* (2nd ed.). MIT Press.
-World Bank. (2010). *Vietnam Enterprise Survey 2009: Data file*. Enterprise Surveys, World Bank Group. Retrieved May 9, 2026, from https://www.enterprisesurveys.org/en/enterprisesurveys
-World Bank. (2016). *Vietnam Enterprise Survey 2015: Data file*. Enterprise Surveys, World Bank Group. Retrieved May 9, 2026, from https://www.enterprisesurveys.org/en/enterprisesurveys
-World Bank. (2024). *Vietnam Enterprise Survey 2023: Data file*. Enterprise Surveys, World Bank Group. Retrieved May 9, 2026, from https://www.enterprisesurveys.org/en/enterprisesurveys
-World Bank. (2026). *World Development Indicators* [Data set]. Retrieved May 9, 2026, from https://databank.worldbank.org/source/world-development-indicators
-Wright, M., Filatotchev, I., Hoskisson, R. E., & Peng, M. W. (2005). Strategy research in emerging economies: Challenging the conventional wisdom. *Journal of Management Studies, 42*(1), 1–33. https://doi.org/10.1111/j.1467-6486.2005.00487.x
-Wu, F., Fan, D., & Chen, L. (2022). Untangling the internationalization–performance relationship in emerging-economy multinationals: A meta-analytic review. *Management International Review, 62*(2), 203–243. https://doi.org/10.1007/s11575-022-00466-1
-Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2016). Internationalization and innovation performance of emerging market enterprises: The role of host-country institutional development. *Journal of World Business, 51*(2), 251–263. https://doi.org/10.1016/j.jwb.2015.09.001
+Agarwal, R., Barattieri, A. and Mattoo, A. (2026), "Demand shocks, export expansion, and firm-level productivity: evidence from Vietnamese manufacturers", working paper, The World Bank, Washington, DC. [DOI pending; verify and add upon assignment before submission]
+
+Aguinis, H., Hill, N.S. and Bailey, J.R. (2021), "Best practices in data collection and preparation: recommendations for reviewers, editors, and authors", *Organizational Research Methods*, Vol. 24 No. 4, pp.678-693, https://doi.org/10.1177/1094428119836485
+
+Antonakis, J., Bendahan, S., Jacquart, P. and Lalive, R. (2010), "On making causal claims: a review and recommendations", *The Leadership Quarterly*, Vol. 21 No. 6, pp.1086-1120, https://doi.org/10.1016/j.leaqua.2010.10.010
+
+Banalieva, E.R. and Dhanaraj, C. (2019), "Internalization theory for the digital economy", *Journal of International Business Studies*, Vol. 50 No. 8, pp.1372-1387, https://doi.org/10.1057/s41267-019-00243-7
+
+Barattieri, A., Mattoo, A. and Signoret, J.E. (2026), "Service trade liberalization and productivity growth: micro-evidence from Vietnam, 2008-2016", working paper, The World Bank, Washington, DC. [DOI pending; verify and add upon assignment before submission]
+
+Barney, J. (1991), "Firm resources and sustained competitive advantage", *Journal of Management*, Vol. 17 No. 1, pp.99-120, https://doi.org/10.1177/014920639101700108
+
+Bernard, A.B., Jensen, J.B., Redding, S.J. and Schott, P.K. (2007), "Firms in international trade", *Journal of Economic Perspectives*, Vol. 21 No. 3, pp.105-130, https://doi.org/10.1257/jep.21.3.105
+
+Bharadwaj, A., El Sawy, O.A., Pavlou, P.A. and Venkatraman, N. (2013), "Digital business strategy: toward a next generation of insights", *MIS Quarterly*, Vol. 37 No. 2, pp.471-482, https://doi.org/10.25300/misq/2013/37:2.3
+
+Brouthers, K.D., Geisser, K.D. and Rothlauf, F. (2016), "Explaining the internationalization of iBusiness firms", *Journal of International Business Studies*, Vol. 47 No. 5, pp.513-534, https://doi.org/10.1057/jibs.2015.20
+
+Brynjolfsson, E., Rock, D. and Syverson, C. (2021), "The productivity J-curve: how intangibles complement general purpose technologies", *American Economic Journal: Macroeconomics*, Vol. 13 No. 1, pp.333-372, https://doi.org/10.1257/mac.20180386
+
+Certo, S.T., Busenbark, J.R., Woo, H.-S. and Semadeni, M. (2016), "Sample selection bias and Heckman models in strategic management research", *Strategic Management Journal*, Vol. 37 No. 13, pp.2639-2657, https://doi.org/10.1002/smj.2475
+
+Cohen, W.M. and Levinthal, D.A. (1990), "Absorptive capacity: a new perspective on learning and innovation", *Administrative Science Quarterly*, Vol. 35 No. 1, pp.128-152, https://doi.org/10.2307/2393553
+
+Contractor, F.J. (2007), "Is international business good for companies? The evolutionary or multi-stage theory of internationalization vs. the transaction cost perspective", *Management International Review*, Vol. 47 No. 3, pp.453-475, https://doi.org/10.1007/s11575-007-0024-2
+
+Coviello, N., Kano, L. and Liesch, P.W. (2017), "Adapting the Uppsala model to a modern world: macro-context and microfoundations", *Journal of International Business Studies*, Vol. 48 No. 9, pp.1151-1164, https://doi.org/10.1057/s41267-017-0120-x
+
+Cuervo-Cazurra, A. and Genc, M. (2008), "Transforming disadvantages into advantages: developing-country MNEs in the least developed countries", *Journal of International Business Studies*, Vol. 39 No. 6, pp.957-979, https://doi.org/10.1057/palgrave.jibs.8400390
+
+Eisenhardt, K.M. and Martin, J.A. (2000), "Dynamic capabilities: what are they?", *Strategic Management Journal*, Vol. 21 No. 10-11, pp.1105-1121, https://doi.org/10.1002/1097-0266(200010/11)21:10/11<1105::AID-SMJ133>3.0.CO;2-E
+
+Goldfarb, A. and Tucker, C. (2019), "Digital economics", *Journal of Economic Literature*, Vol. 57 No. 1, pp.3-43, https://doi.org/10.1257/jel.20171452
+
+Haans, R.F.J., Pieters, C. and He, Z.-L. (2016), "Thinking about U: theorizing and testing U- and inverted U-shaped relationships in strategy research", *Strategic Management Journal*, Vol. 37 No. 7, pp.1177-1195, https://doi.org/10.1002/smj.2399
+
+Hanelt, A., Bohnsack, R., Marz, D. and Antunes Marante, C. (2021), "A systematic review of the literature on digital transformation: insights and implications for strategy and organizational change", *Journal of Management Studies*, Vol. 58 No. 5, pp.1159-1197, https://doi.org/10.1111/joms.12639
+
+Heckman, J.J. (1979), "Sample selection bias as a specification error", *Econometrica*, Vol. 47 No. 1, pp.153-161, https://doi.org/10.2307/1912352
+
+Hennart, J.-F. (2007), "The theoretical rationale for a multinationality-performance relationship", *Management International Review*, Vol. 47 No. 3, pp.423-452, https://doi.org/10.1007/s11575-007-0023-3
+
+Hennart, J.-F. (2011), "A theoretical assessment of the empirical literature on the impact of multinationality on performance", *Global Strategy Journal*, Vol. 1 No. 1-2, pp.135-151, https://doi.org/10.1002/gsj.8
+
+Hitt, M.A., Hoskisson, R.E. and Kim, H. (1997), "International diversification: effects on innovation and firm performance in product-diversified firms", *Academy of Management Journal*, Vol. 40 No. 4, pp.767-798, https://doi.org/10.2307/256948
+
+International Telecommunication Union (2026), *World Telecommunication/ICT Indicators Database* [data set], available at: https://www.itu.int/en/ITU-D/Statistics/Pages/publications/wtid.aspx (accessed 9 May 2026).
+
+Johanson, J. and Vahlne, J.-E. (1977), "The internationalization process of the firm: a model of knowledge development and increasing foreign market commitments", *Journal of International Business Studies*, Vol. 8 No. 1, pp.23-32, https://doi.org/10.1057/palgrave.jibs.8490676
+
+Johanson, J. and Vahlne, J.-E. (2009), "The Uppsala internationalization process model revisited: from liability of foreignness to liability of outsidership", *Journal of International Business Studies*, Vol. 40 No. 9, pp.1411-1431, https://doi.org/10.1057/jibs.2009.24
+
+Karna, A., Richter, A. and Riesenkampff, E. (2016), "Revisiting the role of the environment in the capabilities-financial performance relationship: a meta-analysis", *Strategic Management Journal*, Vol. 37 No. 6, pp.1154-1173, https://doi.org/10.1002/smj.2379
+
+Knight, G.A. and Liesch, P.W. (2016), "Internationalization: from incremental to born global", *Journal of World Business*, Vol. 51 No. 1, pp.93-102, https://doi.org/10.1016/j.jwb.2015.08.011
+
+Lall, S. (1992), "Technological capabilities and industrialization", *World Development*, Vol. 20 No. 2, pp.165-186, https://doi.org/10.1016/0305-750X(92)90097-F
+
+Lind, J.T. and Mehlum, H. (2010), "With or without U? The appropriate test for a U-shaped relationship", *Oxford Bulletin of Economics and Statistics*, Vol. 72 No. 1, pp.109-118, https://doi.org/10.1111/j.1468-0084.2009.00569.x
+
+Lu, J.W. and Beamish, P.W. (2004), "International diversification and firm performance: the S-curve hypothesis", *Academy of Management Journal*, Vol. 47 No. 4, pp.598-609, https://doi.org/10.2307/20159604
+
+Marano, V., Arregle, J.-L., Hitt, M.A., Spadafora, E. and van Essen, M. (2016), "Home country institutions and the internationalization-performance relationship: a meta-analytic review", *Journal of Management*, Vol. 42 No. 5, pp.1075-1110, https://doi.org/10.1177/0149206315624963
+
+Nambisan, S., Wright, M. and Feldman, M. (2019), "The digital transformation of innovation and entrepreneurship: progress, challenges and key themes", *Research Policy*, Vol. 48 No. 8, p.103773, https://doi.org/10.1016/j.respol.2019.03.018
+
+Oster, E. (2019), "Unobservable selection and coefficient stability: theory and evidence", *Journal of Business & Economic Statistics*, Vol. 37 No. 2, pp.187-204, https://doi.org/10.1080/07350015.2016.1227711
+
+Paternoster, R., Brame, R., Mazerolle, P. and Piquero, A. (1998), "Using the correct statistical test for the equality of regression coefficients", *Criminology*, Vol. 36 No. 4, pp.859-866, https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
+
+Petricevic, O. and Teece, D.J. (2019), "The structural reshaping of globalization: implications for strategic sectors, profiting from innovation, and the multinational enterprise", *Journal of International Business Studies*, Vol. 50 No. 9, pp.1487-1512, https://doi.org/10.1057/s41267-019-00269-x
+
+Pisani, N., Garcia-Bernardo, J. and Heemskerk, E. (2020), "Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality-performance relationship", *Strategic Management Journal*, Vol. 41 No. 1, pp.152-172, https://doi.org/10.1002/smj.3087
+
+Prime Minister of Vietnam (2020), "Decision No. 749/QD-TTg approving the 'National Digital Transformation Programme by 2025, with orientations towards 2030'", available at: https://english.luatvietnam.vn/decision-no-749-qd-ttg-on-approving-the-national-digital-transformation-program-until-2025-with-a-vision-184241-doc1.html (accessed 9 May 2026).
+
+Shaver, J.M. (2020), "Causal identification through a cumulative body of research in the study of strategy and organizations", *Journal of Management*, Vol. 46 No. 7, pp.1244-1256, https://doi.org/10.1177/0149206319846272
+
+Staiger, D. and Stock, J.H. (1997), "Instrumental variables regression with weak instruments", *Econometrica*, Vol. 65 No. 3, pp.557-586, https://doi.org/10.2307/2171753
+
+Stallkamp, M. and Schotter, A.P.J. (2021), "Platforms without borders? The international strategies of digital platform firms", *Global Strategy Journal*, Vol. 11 No. 1, pp.58-80, https://doi.org/10.1002/gsj.1336
+
+Strange, R. and Zucchella, A. (2017), "Industry 4.0, global value chains and international business", *Multinational Business Review*, Vol. 25 No. 3, pp.174-184, https://doi.org/10.1108/MBR-05-2017-0028
+
+Teece, D.J. (2007), "Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance", *Strategic Management Journal*, Vol. 28 No. 13, pp.1319-1350, https://doi.org/10.1002/smj.640
+
+Vahlne, J.-E. (2020), "Development of the Uppsala model of internationalization process: from internationalization to evolution", *Global Strategy Journal*, Vol. 10 No. 2, pp.239-250, https://doi.org/10.1002/gsj.1375
+
+Vahlne, J.-E. and Johanson, J. (2017), "From internationalization to evolution: the Uppsala model at 40 years", *Journal of International Business Studies*, Vol. 48 No. 9, pp.1087-1102, https://doi.org/10.1057/s41267-017-0107-7
+
+Verhoef, P.C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J.Q., Fabian, N. and Haenlein, M. (2021), "Digital transformation: a multidisciplinary reflection and research agenda", *Journal of Business Research*, Vol. 122, pp.889-901, https://doi.org/10.1016/j.jbusres.2019.09.022
+
+Vernon, R. (1979), "The product cycle hypothesis in a new international environment", *Oxford Bulletin of Economics and Statistics*, Vol. 41 No. 4, pp.255-267, https://doi.org/10.1111/j.1468-0084.1979.mp41004002.x
+
+Vial, G. (2019), "Understanding digital transformation: a review and a research agenda", *Journal of Strategic Information Systems*, Vol. 28 No. 2, pp.118-144, https://doi.org/10.1016/j.jsis.2019.01.003
+
+Wagner, J. (2007), "Exports and productivity: a survey of the evidence from firm-level data", *The World Economy*, Vol. 30 No. 1, pp.60-82, https://doi.org/10.1111/j.1467-9701.2007.00872.x
+
+Williamson, O.E. (1985), *The Economic Institutions of Capitalism*, Free Press, New York, NY.
+
+Wolfolds, S.E. and Siegel, J. (2019), "Misaccounting for endogeneity: the peril of relying on the Heckman two-step method without a valid instrument", *Strategic Management Journal*, Vol. 40 No. 3, pp.432-462, https://doi.org/10.1002/smj.2995
+
+Wooldridge, J.M. (2010), *Econometric Analysis of Cross Section and Panel Data*, 2nd ed., MIT Press, Cambridge, MA.
+
+World Bank (2010), *Vietnam Enterprise Survey 2009: Data File*, Enterprise Surveys, World Bank Group, available at: https://www.enterprisesurveys.org/en/enterprisesurveys (accessed 9 May 2026).
+
+World Bank (2016), *Vietnam Enterprise Survey 2015: Data File*, Enterprise Surveys, World Bank Group, available at: https://www.enterprisesurveys.org/en/enterprisesurveys (accessed 9 May 2026).
+
+World Bank (2024), *Vietnam Enterprise Survey 2023: Data File*, Enterprise Surveys, World Bank Group, available at: https://www.enterprisesurveys.org/en/enterprisesurveys (accessed 9 May 2026).
+
+World Bank (2026), *World Development Indicators* [data set], available at: https://databank.worldbank.org/source/world-development-indicators (accessed 9 May 2026).
+
+Wright, M., Filatotchev, I., Hoskisson, R.E. and Peng, M.W. (2005), "Strategy research in emerging economies: challenging the conventional wisdom", *Journal of Management Studies*, Vol. 42 No. 1, pp.1-33, https://doi.org/10.1111/j.1467-6486.2005.00487.x
+
+Wu, F., Fan, D. and Chen, L. (2022), "Untangling the internationalization-performance relationship in emerging-economy multinationals: a meta-analytic review", *Management International Review*, Vol. 62 No. 2, pp.203-243, https://doi.org/10.1007/s11575-022-00466-1
+
+Wu, J., Wang, C., Hong, J., Piperopoulos, P. and Zhuo, S. (2016), "Internationalization and innovation performance of emerging market enterprises: the role of host-country institutional development", *Journal of World Business*, Vol. 51 No. 2, pp.251-263, https://doi.org/10.1016/j.jwb.2015.09.001

@@ -20,10 +20,8 @@ The Roles of Technological Capability and Foundational Digital Adoption."
 ## Conformance check
 - Structured abstract (Purpose / Design / Findings / Originality), ~247 words — within Emerald's 250-word limit. ✓
 - Keywords, JEL codes, article classification, highlights. ✓
-- Main text ≈ 6,800 words (excl. abstract/refs/tables); within typical Emerald limits. ✓
-- **Reference style:** manuscript is currently **APA 7th**. Emerald's default house style is **Harvard**,
-  though APA 7th is increasingly accepted. ⚠️ Confirm JED's accepted style in the author guidelines /
-  Paperpal Preflight at submission; convert APA→Harvard only if required.
+- ⚠️ **Article length:** JED caps articles at **8,500 words INCLUDING everything**; current ≈ 20,975. Condensation required — see `JED_COMPLIANCE.md`.
+- **Reference style:** ✅ converted to **Emerald Harvard** (59 entries; 4 missing refs added). In-text `&`→`and`/`et al.` done.
 - Two World Bank working-paper references have "[DOI pending]" placeholders — verify/add DOIs before upload.
 
 ## Note
