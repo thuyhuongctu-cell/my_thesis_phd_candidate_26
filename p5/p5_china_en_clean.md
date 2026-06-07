@@ -183,10 +183,10 @@ Capability moderation is tested via a pooled OLS model (M6) with wave × FSTS ×
 
 **M6 (Three-way moderation — capability-conditioned cross-wave shift):**
 
-$$\ln LP_{it} = \alpha + \b\beta_1 FSTS_{it} + \b\beta_2 FSTS^2_{it} + \b\beta_3 TCI_{it} + \b\beta_4 \text{wave}_t$$
-$$+ \b\beta_5 (FSTS \times TCI)_{it} + \b\beta_6 (FSTS^2 \times TCI)_{it}$$
-$$+ \b\beta_7 (FSTS \times \text{wave})_{it} + \b\beta_8 (FSTS^2 \times \text{wave})_{it}$$
-$$+ \b\beta_9 (FSTS \times TCI \times \text{wave})_{it} + \beta_{10} (FSTS^2 \times TCI \times \text{wave})_{it}$$
+$$\ln LP_{it} = \alpha + \beta_1 FSTS_{it} + \beta_2 FSTS^2_{it} + \beta_3 TCI_{it} + \beta_4 \text{wave}_t$$
+$$+ \beta_5 (FSTS \times TCI)_{it} + \beta_6 (FSTS^2 \times TCI)_{it}$$
+$$+ \beta_7 (FSTS \times \text{wave})_{it} + \beta_8 (FSTS^2 \times \text{wave})_{it}$$
+$$+ \beta_9 (FSTS \times TCI \times \text{wave})_{it} + \beta_{10} (FSTS^2 \times TCI \times \text{wave})_{it}$$
 $$+ \gamma \cdot X_{it} + \v\varepsilon_{it}$$
 
 where wave_t ∈ {0 = 2012, 1 = 2024}; X_it = {lnEmp, FirmAge, ForeignDummy, ISIC sector FE}; clustered HC1 SE on firm identifier (idstd).
