@@ -27,6 +27,30 @@ Luận án nghiên cứu mối quan hệ **Quốc tế hóa – Hiệu quả doa
 
 ---
 
+## 0b. TRẠNG THÁI TRIỂN KHAI SỬA CHỮA (cập nhật 2026-06-07)
+
+Các mục bắt buộc đã được triển khai trên **cả** nguồn build `thesis/` và bản `dist/luan_an_ctu/source_md/`:
+
+| Mục | Nội dung | Trạng thái |
+|---|---|---|
+| **M1** | Đồng bộ số liệu: **49** nền kinh tế · **102** cặp quốc gia-năm · **91.982** DN · **9 "SIDS"**; chuẩn hóa k=studies; Bảng 4.1 tính lại theo dataset (96.415 phân loại ICRV) + chú thích N | ✅ Hoàn tất (đối chiếu `p7_pooled_clean.csv` + P7 capstone EN; con số chốt theo NCS xác nhận) |
+| **M2** | Thêm phần đầu luận án `00_phan_dau_vi.md` (bìa, cam đoan, tóm tắt VN/EN, danh mục từ viết tắt, danh mục bảng/hình, danh mục công trình) + nối vào build | ✅ Hoàn tất (một số mục để placeholder: tên HD, tiêu đề chính thức — NCS xác nhận) |
+| **M3** | Hình 2.1 (mô hình khái niệm CDCM) + Hình 4.x (họ đường cong I–P theo ICRV + FIP), 300 DPI, nhúng vào Ch2/Ch4 | ✅ Hoàn tất |
+| **M4** | Bổ sung Combs (2005, 2011) & Richard et al. (2009) vào danh mục | ✅ Một phần (còn: hợp nhất TLTK cho luận án + citation-check hai chiều) |
+| **M5** | Bảng 2.1 ánh xạ P3–P8 ↔ chương ↔ H; ghi chú giả thuyết con; làm rõ "H7-P7"; xác nhận "P9" là dương tính giả | ✅ Hoàn tất |
+
+### M6 (PHÁT HIỆN MỚI — Major): Hai nguồn luận án phân kỳ
+`thesis/chuong_*.md` (nguồn build) và `dist/luan_an_ctu/source_md/chuong_*.md` (bản sinh) **đã phân kỳ về nội dung**: bản `thesis/` mới hơn (có thêm §5.4.4 — hàm ý chính sách ĐBSCL; dùng trích dẫn APA dạng "Do & Phan, 2026e"; romanize "Do"), bản `dist/` dùng "Đỗ & Phan (2026 — JABS under review)". → **Cần NCS chọn một nguồn chuẩn duy nhất** (khuyến nghị: `thesis/` vì là nguồn build) và **tái sinh `dist/` bằng `build_ctu_docx.sh`** (cần cài `pandoc`). Hiện các sửa M1–M5 đã áp **đồng thời lên cả hai** để không mất đồng bộ.
+
+### Còn lại (chưa làm — cần quyết định/định hướng của NCS):
+- **N-items (N1–N13):** endogeneity/IV mô hình chính; sửa diễn giải TP Singapore (CI vượt 100%) & publication bias (Egger NS); Việt hóa thuật ngữ; ký hiệu mũi tên "I→P"; disclosure thesis-by-publication. 
+- **M4 đầy đủ:** hợp nhất một danh mục TLTK cho luận án 5 chương + chạy citation-check hai chiều.
+- **Đồng bộ hồ sơ nộp:** CD2 Phụ lục A đang ghi "47 nền kinh tế" → cập nhật về 49 cho khớp luận án.
+- **Năm dữ liệu 2003 vs 2009:** P7 capstone EN ghi 2003–2025 (có Oman 2003) nhưng luận án ghi 2009–2025 — cần thống nhất hoặc chú thích.
+- **Nhãn nhóm ICRV:** dataset gán Nhóm IV="Lower_mid_transition", V="Emerging"; luận án dùng IV="Emerging", V="Frontier" — đã giữ theo luận án (thành viên khớp), nhưng nên thống nhất nhãn một lần.
+
+---
+
 ## 1. ĐIỂM MẠNH (cần giữ và phát huy)
 
 1. **Đóng góp lý thuyết gốc, có thể đặt tên (nameable contribution).** FIP (gánh nặng quốc tế hóa bắt buộc) tại Pacific SIDS là một *boundary condition* mới, có biện minh lý thuyết 3 điều kiện cấu trúc và bằng chứng thực nghiệm nhất quán qua 4 specification (β từ −0,404 đến −1,596). Đây là loại đóng góp mà reviewer Q1 (JIBS, JWB, World Development) đánh giá cao.
