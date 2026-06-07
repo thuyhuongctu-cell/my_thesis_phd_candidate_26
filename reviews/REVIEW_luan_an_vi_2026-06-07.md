@@ -39,7 +39,14 @@ Các mục bắt buộc đã được triển khai trên **cả** nguồn build 
 | **M4** | Bổ sung Combs (2005, 2011) & Richard et al. (2009) vào danh mục | ✅ Một phần (còn: hợp nhất TLTK cho luận án + citation-check hai chiều) |
 | **M5** | Bảng 2.1 ánh xạ P3–P8 ↔ chương ↔ H; ghi chú giả thuyết con; làm rõ "H7-P7"; xác nhận "P9" là dương tính giả | ✅ Hoàn tất |
 
-### M6 (PHÁT HIỆN MỚI — Major): Hai nguồn luận án phân kỳ
+### Cập nhật vòng 2 (theo chỉ đạo NCS)
+- **Bỏ toàn bộ self-citation chưa công bố trong LUẬN ÁN:** mọi `Do/Đỗ & Phan (2026a–g)` và `Mar et al. (2026)` (= P4) được thay bằng nhãn nội bộ **P1–P8** (đây là nội dung nghiên cứu của chính luận án, không trích dẫn tác giả–năm). Gỡ 9 entry tự thân khỏi danh mục TLTK; chuyển hồ sơ công bố sang phần đầu, **tách rõ Đã công bố (ICBEF 2024, P1-VEFR, P2-JFAR) vs Đang bình duyệt (P3–P8)** + ghi chú liêm chính.
+- **Bỏ §5.4.4 (ĐBSCL)** — nội dung suy luận chưa chắc chắn.
+- **Chốt một nguồn chuẩn:** `dist/luan_an_ctu/source_md/` đã đồng bộ **byte-identical** với `thesis/`. → **M6 ĐÃ XỬ LÝ.**
+- **Build DOCX:** cài `pandoc 3.1.3`, dựng lại `dist/luan_an_ctu/*.docx` (gồm `00_phan_dau_vi.docx` + 2 hình nhúng) bằng `bash build_ctu_docx.sh --no-templates`.
+- **Kiểm tra papers (P3–P8):** các manuscript nộp **KHÔNG** trích dẫn bài chưa công bố; mọi self-citation đều trỏ tới công trình đã công bố (ICBEF 2024; chương sách IntechOpen 2025 có DOI; JFAR 2026 advance-online) → **hợp lệ, không cần sửa.**
+
+### M6 (đã xử lý — trước đây Major): Hai nguồn luận án phân kỳ
 `thesis/chuong_*.md` (nguồn build) và `dist/luan_an_ctu/source_md/chuong_*.md` (bản sinh) **đã phân kỳ về nội dung**: bản `thesis/` mới hơn (có thêm §5.4.4 — hàm ý chính sách ĐBSCL; dùng trích dẫn APA dạng "Do & Phan, 2026e"; romanize "Do"), bản `dist/` dùng "Đỗ & Phan (2026 — JABS under review)". → **Cần NCS chọn một nguồn chuẩn duy nhất** (khuyến nghị: `thesis/` vì là nguồn build) và **tái sinh `dist/` bằng `build_ctu_docx.sh`** (cần cài `pandoc`). Hiện các sửa M1–M5 đã áp **đồng thời lên cả hai** để không mất đồng bộ.
 
 ### Còn lại (chưa làm — cần quyết định/định hướng của NCS):
