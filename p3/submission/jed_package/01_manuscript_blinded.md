@@ -1215,11 +1215,7 @@ and may be shared to the extent permitted by the data-access terms.
 This study uses secondary, de-identified, firm-level data from the World Bank Enterprise Surveys. It does not involve human participants, identifiable personal data, animals, or biological samples, and therefore did not require institutional ethical approval. The research was conducted in accordance with the data-access terms of the World Bank Enterprise Surveys.
 
 ## Use of generative AI in the writing process
-During the preparation of this work, the author(s) used generative AI-assisted tools solely for copy-editing — to improve the clarity, grammar, and structure of the author(s)' own original text. No generative AI was used to create or draft new substantive content. In accordance with the journal's policy, the author(s) will specify the exact name and version of the AI tool(s) used at the point of submission. [Author: insert tool name and version.]
-
-All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human author(s), who take full responsibility for the content of the publication.
-
-
+In preparing this manuscript, the author(s) used Grammarly, a writing-assistance tool, to help correct spelling, grammar, and punctuation in the author(s)' own original text. No generative artificial-intelligence tool was used to generate, draft, or create any substantive content, analysis, or interpretation. All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were produced by the human author(s), who take full responsibility for the content of the publication.
 
 ## Acknowledgements
 

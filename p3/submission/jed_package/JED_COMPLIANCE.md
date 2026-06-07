@@ -20,10 +20,10 @@ Submission: ScholarOne (corresponding author). First decision target: 60 days. D
 | 10 | **Headings:** L1 bold, sub-headings medium italics | ⚠️ styling | Apply in final docx (Word styles). |
 | 11 | **Supplementary files:** host extensive/non-critical tables/appendices on Insight; name `Supplementary_…`; must be self-styled (not copy-edited) | ✅ **DONE** | `Supplementary_material` = Panels A–K, Figures 2a–2d, marginal-effect table, extended notes. |
 | 12 | **Anonymity:** no author names anywhere incl. figures/captions; refer to own work in 3rd person; own unpublished work not in ref list | ✅ mostly | Author block & acknowledgements removed; verify figure captions + no first-person self-citation. |
-| 13 | **AI policy:** copy-editing only permitted; GenAI content generation forbidden; disclose tool name + version | ✅ revised | Disclosure rewritten to copy-editing framing; placeholder for author to insert exact tool name+version. |
+| 13 | **AI policy:** copy-editing only permitted; GenAI content generation forbidden; disclose tool name + version | ✅ **DONE** | Discloses **Grammarly** (writing-assistance, spelling/grammar/punctuation only); states no generative-AI content. No placeholder remaining. |
 | 14 | **Ethics statement** (where appropriate) | ✅ added | Secondary, de-identified firm-level WBES data; no human-participant approval required. |
 | 15 | **Conflict of interest / Funding** declared | ✅ | Present |
-| 16 | **Data citation + DOIs** for datasets/code (TOP guidelines) | ⚠️ | Two World Bank working papers carry `[DOI pending]` — verify/add before upload. |
+| 16 | **Data citation + DOIs** for datasets/code (TOP guidelines) | ✅ (condensed) | Condensed `_8500` drops the two `[DOI pending]` working papers; all dataset sources have stable URLs. (Full-length version still cites them.) |
 | 17 | **Biographies/acknowledgements** in separate file | ✅ | In title page / removed from blinded MS |
 | 18 | **ORCID** at submission | ✅ | Both authors have ORCIDs (on title page) |
 
