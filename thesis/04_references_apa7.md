@@ -713,8 +713,6 @@ Contractor, F. J. (2012). Why do multinational firms exist? A theory note about 
 
 Cooper, H. (2010). *Research synthesis and meta-analysis: A step-by-step approach* (4th ed.). Sage.
 
-Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam.
-
 Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of Management Review, 32*(2), 334–343. https://doi.org/10.5465/amr.2007.24345254
 
 Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
@@ -762,22 +760,6 @@ Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
 > Các entries dưới đây được thêm từ audit format-apa7 toàn bộ 5 chương luận án (20/05/2026). Gồm: 3 self-citations mới (P6 IBR, P7 JIBS, P8 World Dev), 8 entries từ "Giữ nguyên" blocks chưa được expand, và 2 auxiliary entries.
 
 ### Công trình của tác giả luận án — Cập nhật Section M
-
-Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam.
-
-Do, T. H., & Phan, A. T. (2026a). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic & Financial Review*, *2*(1), 111–115. *(P1 — VEFR, đã công bố.)*
-
-Do, T. H., & Phan, A. T. (2026b). *Forced internationalization penalty: Firm performance in Pacific small island developing states* [Manuscript under review]. *World Development*. *(P8 — Pacific SIDS, World Development under review.)*
-
-Do, T. H., & Phan, A. T. (2026c). *Institutional context, digital adoption, and the internationalization–performance relationship: A three-level meta-analysis* [Manuscript under review]. *International Business Review*. *(P6 — Meta-analysis, IBR under review.)*
-
-Do, T. H., & Phan, A. T. (2026d). *Internationalization and firm performance across 49 Asian and Pacific economies: Institutional regimes, digital capabilities, and managerial characteristics as contingency factors* [Manuscript under revision]. *Journal of International Business Studies*. *(P7 — Đa quốc gia 49 nền kinh tế, JIBS under revision.)*
-
-Do, T. H., & Phan, A. T. (2026e). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript under review]. *Journal of Asia Business Studies*. *(P3 — Việt Nam, JABS under review.)*
-
-Do, T. H., & Phan, A. T. (2026f). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Manuscript under review]. *International Journal of Emerging Markets*. *(P5 — Trung Quốc, IJOEM under review.)*
-
-Do, T. H., & Phan, A. T. (2026g). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research*, *39*(2), 287–291. *(P2 — JFAR, đã công bố.)*
 
 ### Phương pháp kinh tế lượng + Meta-analysis (Section J mở rộng)
 

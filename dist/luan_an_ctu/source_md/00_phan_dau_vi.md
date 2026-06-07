@@ -132,18 +132,25 @@ Key findings: (1) the I–P relationship is inverted-U shaped, but the turning p
 
 ---
 
-## DANH MỤC CÔNG TRÌNH ĐÃ CÔNG BỐ CỦA NGHIÊN CỨU SINH
+## DANH MỤC CÔNG TRÌNH CỦA NGHIÊN CỨU SINH LIÊN QUAN ĐẾN LUẬN ÁN
 
-Luận án được phát triển gắn với chuỗi công trình khoa học sau của nghiên cứu sinh (NCS xác nhận và cập nhật trạng thái công bố chính thức tại thời điểm bảo vệ):
+Luận án được phát triển gắn với chuỗi nghiên cứu thành phần (ký hiệu nội bộ P1–P8) của nghiên cứu sinh. Các công trình được phân tách rõ theo trạng thái công bố.
 
-1. Đỗ, T. H., & Phan, A. T. (2024). *Internationalization and firm performance in Asia: A meta-analytic baseline.* Kỷ yếu Hội nghị ICBEF 2024, Trường Đại học Cần Thơ. *(Cơ sở meta-analysis baseline — P1/P2.)*
-2. Bài nghiên cứu Việt Nam (bối cảnh chuyển đổi thu nhập trung bình thấp) — *(P3; trạng thái: đang bình duyệt).* 
-3. Bài nghiên cứu Singapore (bối cảnh thể chế tiên tiến–đổi mới) — *(P4; trạng thái: đang bình duyệt).* 
-4. Bài nghiên cứu Trung Quốc 2012–2024 (bối cảnh upper-middle) — *(P5; trạng thái: đang bình duyệt).* 
-5. Bài meta-analysis ba tầng mở rộng 1982–2026 — *(P6; trạng thái: đang bình duyệt).* 
-6. Bài kiểm định toàn mẫu châu Á và Thái Bình Dương (capstone, 49 nền kinh tế) — *(P7; trạng thái: đang chỉnh sửa theo phản biện).* 
-7. Bài trường hợp biên SIDS — gánh nặng quốc tế hóa bắt buộc (FIP) — *(P8; trạng thái: đang chỉnh sửa theo phản biện).* 
+**A. Đã công bố (peer-reviewed)**
 
-*Ghi chú: Tên tạp chí cụ thể và trạng thái (đã chấp nhận/đang bình duyệt) cần được NCS điền chính xác và cập nhật. Theo quy định về liêm chính học thuật, các bài đang bình duyệt không được diễn giải như bằng chứng đã được bình duyệt ở những luận điểm then chốt của luận án.*
+1. Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam. *(Cơ sở baseline meta-analysis — P1/P2.)*
+2. Do, T. H., & Phan, A. T. (2026). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic & Financial Review, 2*(1), 111–115. *(P1.)*
+3. Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 39*(2), 287–291. *(P2.)*
+
+**B. Bản thảo đang trong quá trình bình duyệt (CHƯA công bố)**
+
+4. Nghiên cứu thành phần P3 — Việt Nam (bối cảnh chuyển đổi thu nhập trung bình thấp). *[Bản thảo đang bình duyệt.]*
+5. Nghiên cứu thành phần P4 — Singapore (bối cảnh thể chế tiên tiến–đổi mới). *[Bản thảo đang bình duyệt.]*
+6. Nghiên cứu thành phần P5 — Trung Quốc 2012–2024 (bối cảnh upper-middle). *[Bản thảo đang bình duyệt.]*
+7. Nghiên cứu thành phần P6 — Meta-analysis ba tầng mở rộng 1982–2026. *[Bản thảo đang bình duyệt.]*
+8. Nghiên cứu thành phần P7 — Kiểm định toàn mẫu 49 nền kinh tế châu Á và Thái Bình Dương (capstone). *[Bản thảo đang chỉnh sửa theo phản biện.]*
+9. Nghiên cứu thành phần P8 — Trường hợp biên SIDS, gánh nặng quốc tế hóa bắt buộc (FIP). *[Bản thảo đang chỉnh sửa theo phản biện.]*
+
+*Ghi chú về liêm chính học thuật: Theo định hướng luận án kết hợp công trình thành phần, các nghiên cứu P1–P8 là một phần nội dung nghiên cứu của chính luận án; do đó trong các chương, chúng được dẫn chiếu bằng nhãn nội bộ (P1–P8) thay vì trích dẫn tác giả–năm. Các bản thảo ở mục B CHƯA được công bố/bình duyệt chính thức, không được diễn giải như bằng chứng đã qua bình duyệt độc lập; tên tạp chí mục tiêu chỉ được nêu chính thức sau khi bài được chấp nhận. NCS cập nhật trạng thái tại thời điểm bảo vệ.*
 
 ---

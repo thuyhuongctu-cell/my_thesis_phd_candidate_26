@@ -74,7 +74,7 @@ Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biế
 
 Phân tích meta-analytic tổng hợp ba tầng (three-level multilevel meta-analysis — MARA) được tiến hành trên tập dữ liệu gồm $k = 238$ nghiên cứu với tổng cộng hàng trăm cặp effect-size đa dạng theo vùng địa lý, giai đoạn và phương pháp. Kết quả cho thấy hiệu ứng tổng hợp (pooled correlation) là $r = 0{,}074$, với khoảng tin cậy 95% dương và có ý nghĩa thống kê. Giá trị $r$ này khẳng định bức tranh tổng quát từ các meta-analyses trước đây của Bausch và Krist (2007), Kirca et al. (2012), Marano et al. (2016) và Arte và Larimo (2022): mối quan hệ tổng hợp giữa quốc tế hóa và hiệu quả hoạt động là dương nhưng có biên độ khiêm tốn.
 
-Đặc biệt đáng lưu ý, kết quả P6 hoàn toàn nhất quán với baseline meta-analysis đã công bố tại hội nghị ICBEF 2024 của Đỗ và Phan (2024), với $k = 113$ nghiên cứu và $r = 0{,}07$ — sự hội tụ này tạo ra bằng chứng chéo vững chắc khi mở rộng pool lên gần gấp đôi số nghiên cứu.
+Đặc biệt đáng lưu ý, kết quả P6 hoàn toàn nhất quán với baseline meta-analysis đã công bố tại hội nghị ICBEF 2024, với $k = 113$ nghiên cứu và $r = 0{,}07$ — sự hội tụ này tạo ra bằng chứng chéo vững chắc khi mở rộng pool lên gần gấp đôi số nghiên cứu.
 
 ### 4.2.2 Phân tích dị biệt ba tầng
 
@@ -250,7 +250,7 @@ Arte, P., & Larimo, J. (2022). Moderating influence of product diversification o
 
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization-performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347.
 
-Đỗ, H., & Phan, T. (2024). *Internationalization and firm performance in Asia: A meta-analytic baseline*. Paper presented at the International Conference on Business, Economics and Finance (ICBEF), Can Tho University.
+Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam.
 
 Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics, 124*(4), 1403–1448.
 
