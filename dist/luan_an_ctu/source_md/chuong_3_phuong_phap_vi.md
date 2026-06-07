@@ -41,7 +41,7 @@ Identification → Screening → Eligibility → Inclusion theo hướng dẫn P
 
 ### 3.3.1 Nguồn dữ liệu
 
-Luận án sử dụng World Bank Enterprise Surveys cho **49 nền kinh tế châu Á và Pacific** trong giai đoạn **2009–2025** (91.982 doanh nghiệp · 102 cặp quốc gia × năm · 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011).
+Luận án sử dụng World Bank Enterprise Surveys cho **49 nền kinh tế châu Á và Pacific** trong giai đoạn **2003–2025** (91.982 doanh nghiệp · 102 cặp quốc gia × năm · 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011).
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (nghiên cứu thành phần P1).
 
@@ -80,7 +80,7 @@ Luận án phân biệt rõ hai construct:
 
 **Cơ sở kế thừa**: Bhandari et al. (2023) phân biệt digitalization, internationalization và capability theo resource-orchestration logic; Verhoef et al. (2021) phân biệt three stages (digitization, digitalization, digital transformation). Pattern "digital shield effect" được nghiên cứu thành phần P1 phát hiện trên 17 nước châu Á mới nổi.
 
-**Đóng góp mới**: Đưa ra **measurement harmonization protocol** trong bối cảnh WBES, đảm bảo construct purity ở 49 nền kinh tế châu Á và Pacific, với pipeline hòa hợp 3 thế hệ schema. Phân tách TCI và DAI theo (i) Bharadwaj et al. (2013) — IT capability vs digital business strategy có nomological nets khác nhau; (ii) phân tầng 3 cấp của Verhoef et al. (2021) — digitization, digitalization, digital transformation; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác về bản chất với digital adoption ở giao diện ngoại tại; (iv) resource-orchestration logic của Bhandari et al. (2023) cho I→P relationship; và (v) 4 tiêu chí formative composite của Coltman et al. (2008) — đảm bảo TCI và DAI là hai composite độc lập.
+**Đóng góp mới**: Đưa ra **measurement harmonization protocol** trong bối cảnh WBES, đảm bảo construct purity ở 49 nền kinh tế châu Á và Pacific, với pipeline hòa hợp 3 thế hệ schema. Phân tách TCI và DAI theo (i) Bharadwaj et al. (2013) — IT capability vs digital business strategy có nomological nets khác nhau; (ii) phân tầng 3 cấp của Verhoef et al. (2021) — digitization, digitalization, digital transformation; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác về bản chất với digital adoption ở giao diện ngoại tại; (iv) resource-orchestration logic của Bhandari et al. (2023) cho I–P relationship; và (v) 4 tiêu chí formative composite của Coltman et al. (2008) — đảm bảo TCI và DAI là hai composite độc lập.
 
 #### Biến thể chế
 
@@ -258,7 +258,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 > M5 (Mô hình đầy đủ — kiểm định H3):
 > lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
 >            + β₅(CDDXK_c × CSS_z) + β₆(CDDXK_c² × CSS_z) + γ·X + δ_s + ε
-> H3: β₆ > 0 — DAI khuếch đại lợi nhuận I→P ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
+> H3: β₆ > 0 — DAI khuếch đại lợi nhuận I–P ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
 > Kết quả: β₆ = +3,119 (p = 0,005) trong mẫu đầy đủ; β₆ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê ≈ 16%)
 
 **Bảng định nghĩa biến — Nghiên cứu 4 (Singapore):**
@@ -421,7 +421,7 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 
 #### 3.4.5.5 Mô hình cụ thể — Nghiên cứu 8: SIDS (N = 1.469, Nhóm VI)
 
-Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
+Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros) từ các sóng WBES 2003–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
 
 Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)** — mối quan hệ quốc tế hóa–hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3–P7. Lind–Mehlum U-test không bác bỏ đơn điệu (p > ,10), xác nhận không có điểm quay.
 

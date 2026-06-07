@@ -58,7 +58,7 @@ Phạm vi không gian chính của nghiên cứu bao gồm **49 nền kinh tế 
 
 ### 1.5.3 Phạm vi thời gian
 
-Phạm vi thời gian của nghiên cứu có hai mức. Đối với phase meta-analysis, luận án tổng hợp literature trong giai đoạn 1982–2026, bao quát toàn bộ chương trình nghiên cứu về quan hệ I–P từ khi các nghiên cứu thực nghiệm đầu tiên xuất hiện đến thời điểm hoàn thành luận án. Đối với phase phân tích thực nghiệm đa quốc gia, luận án sử dụng dữ liệu WBES trong giai đoạn 2009–2025, bao gồm 91.982 doanh nghiệp với 102 cặp quốc gia-năm trải qua 14 mốc khảo sát. Dữ liệu WBES từ ba thế hệ schema (PICS3 giai đoạn 2009–2012, Standardized giai đoạn 2013–2017, và BREADY/BEE giai đoạn 2018–2025) đã được hòa hợp để đảm bảo tính nhất quán trong đo lường biến qua các wave khảo sát.
+Phạm vi thời gian của nghiên cứu có hai mức. Đối với phase meta-analysis, luận án tổng hợp literature trong giai đoạn 1982–2026, bao quát toàn bộ chương trình nghiên cứu về quan hệ I–P từ khi các nghiên cứu thực nghiệm đầu tiên xuất hiện đến thời điểm hoàn thành luận án. Đối với phase phân tích thực nghiệm đa quốc gia, luận án sử dụng dữ liệu WBES trong giai đoạn 2003–2025, bao gồm 91.982 doanh nghiệp với 102 cặp quốc gia-năm trải qua 14 mốc khảo sát. Dữ liệu WBES từ ba thế hệ schema (PICS3 giai đoạn 2009–2012, Standardized giai đoạn 2013–2017, và BREADY/BEE giai đoạn 2018–2025) đã được hòa hợp để đảm bảo tính nhất quán trong đo lường biến qua các wave khảo sát.
 
 ---
 
