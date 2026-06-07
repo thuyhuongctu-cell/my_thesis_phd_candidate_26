@@ -391,7 +391,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} IC
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
 $$\text{H5: } TP \text{ tăng khi ICRV tăng (thể chế yếu hơn): Group I} \approx 28\%,\ \text{Group V–VI} \approx 55\%$$
 
-**M11** (full three-way — kiểm định H7-P7):
+**M11** (full three-way — kiểm định tương tác tổng hợp ba chiều, tổng hợp H3 và H5; P7):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
 $$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
