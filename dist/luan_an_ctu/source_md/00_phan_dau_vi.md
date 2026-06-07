@@ -126,7 +126,9 @@ Key findings: (1) the I–P relationship is inverted-U shaped, but the turning p
 
 ## DANH MỤC HÌNH
 
-*(Cần bổ sung — xem mục M3 báo cáo phản biện: Hình 2.1 — Mô hình khái niệm khung CDCM; Hình minh họa họ đường cong I–P theo gradient ICRV. Các hình mô tả khác đặt tại `thesis/figures/`.)*
+- Hình 2.1. Khung khái niệm tích hợp đa tầng CDCM (Chương 2)
+- Hình 4.x. Họ đường cong I–P phụ thuộc chế độ thể chế ICRV (Chương 4)
+- Các hình mô tả bổ sung (phân bố pool, mật độ năng suất, v.v.) đặt tại `thesis/figures/`.
 
 ---
 

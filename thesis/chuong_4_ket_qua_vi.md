@@ -192,6 +192,11 @@ Gradient này nhất quán với dự đoán của Institutional Theory: trong m
 
 Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống kê cao, nhất quán với kết quả meta-analysis trong P6 ($Q_M = 17{,}35$, $p = {,}002$). Hai nguồn bằng chứng độc lập — meta-analytic và primary empirical — cùng chỉ ra gradient ICRV, tạo ra independent confirmation có giá trị.
 
+
+![Hình 4.x. Họ đường cong I–P phụ thuộc chế độ thể chế ICRV](figures/fig_4_x_ip_curves_icrv_gradient.png)
+
+**Hình 4.x.** *Họ đường cong I–P phụ thuộc chế độ thể chế ICRV.* Các đường chữ U ngược có cùng độ cao đỉnh nhưng điểm uốn (turning point) dịch dần sang phải khi chất lượng thể chế giảm (từ ≈28% ở Nhóm I đến ≈55% ở Nhóm V–VI); riêng nhóm SIDS (Nhóm VI) quan hệ chuyển sang âm đơn điệu không có điểm uốn (FIP, H1b). *Nguồn: minh họa của tác giả từ kết quả P6–P8.*
+
 ### 4.6.3 Điều tiết bởi TCI và DAI trong toàn mẫu
 
 - **TCI**: có ý nghĩa thống kê dương trên toàn mẫu — một đơn vị độ lệch chuẩn tăng TCI nâng năng suất lao động khoảng 41% (exp(0,344)−1). Tuy nhiên, các tương tác FSTS×TCI và FSTS²×TCI **không có ý nghĩa** trong mẫu 49 nền kinh tế đa dạng thể chế. H2 **được xác nhận một phần**: TCI là yếu tố nâng mặt bằng năng suất nhất quán, nhưng vai trò uốn hình dạng đường cong I→P chỉ xuất hiện trong bối cảnh quốc gia cụ thể (P3 Việt Nam), không phổ quát xuyên toàn mẫu.

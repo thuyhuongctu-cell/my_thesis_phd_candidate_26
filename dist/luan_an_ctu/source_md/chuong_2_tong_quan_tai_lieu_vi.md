@@ -148,6 +148,11 @@ Tầng cá nhân — đặc điểm nhà quản trị cấp cao — bao gồm ki
 
 Ngoài các cơ chế điều tiết, mô hình còn bao gồm một yếu tố động thái quan trọng: hình dạng phi tuyến của quan hệ I–P (turning point của inverted-U) không cố định theo thời gian mà có thể thay đổi khi bối cảnh thể chế và năng lực doanh nghiệp thay đổi theo chiều dọc, đặc biệt rõ rệt ở các nền kinh tế chuyển đổi nhanh như Trung Quốc.
 
+
+![Hình 2.1. Khung khái niệm tích hợp đa tầng CDCM cho quan hệ Quốc tế hóa–Hiệu quả tại châu Á](figures/fig_2_1_cdcm_conceptual_model.png)
+
+**Hình 2.1.** *Khung khái niệm tích hợp đa tầng CDCM.* Mũi tên liền thể hiện tác động trực tiếp (H1 — quan hệ phi tuyến chữ U ngược); mũi tên đứt thể hiện tác động điều tiết của ba tầng (thể chế ICRV — H5; năng lực số TCI/DAI — H2, H3; đặc điểm nhà quản trị — H4); mũi tên chấm thể hiện điều kiện biên FIP (H1b) tại nhóm SIDS. Biến kiểm soát không thể hiện để giữ rõ ràng. *Nguồn: tác giả xây dựng dựa trên Uppsala, RBV, lý thuyết thể chế, lý thuyết thượng tầng quản trị và digital capability lens.*
+
 ### 2.5.2 Giả thuyết H1: Phi tuyến chữ U ngược
 
 Trên cơ sở lý thuyết từ Uppsala về chi phí thâm nhập giai đoạn đầu, RBV về lợi thế cạnh tranh tích lũy ở giai đoạn trung, và lý thuyết chi phí giao dịch về sự phức tạp điều phối ở giai đoạn mở rộng quá mức, giả thuyết H1 được phát biểu như sau. Quan hệ giữa mức độ quốc tế hóa và hiệu quả hoạt động của các doanh nghiệp ở các quốc gia châu Á có dạng phi tuyến chữ U ngược, với một điểm turning point tối ưu trước khi chi phí điều phối và bất định vượt qua lợi ích từ mở rộng thị trường quốc tế. Cơ sở lý thuyết trực tiếp bao gồm mô hình S-curve của Lu và Beamish (2004), lý thuyết ba giai đoạn của Contractor et al. (2003), và bằng chứng inverted-U ban đầu của Hitt et al. (1997).
