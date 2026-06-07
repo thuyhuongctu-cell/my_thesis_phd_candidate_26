@@ -17,8 +17,16 @@ The Roles of Technological Capability and Foundational Digital Adoption."
 | `02_title_page.(md/docx)` | Separate title page: authors, CRediT, declarations |
 | `03_cover_letter.(md/docx)` | Cover letter to the JED Editor-in-Chief |
 | `figures/vietnam/` | Source figures (Figure 1, Figure 2, Figure 3 in main text; 2a–2d in supplement) |
+| `01_manuscript_vi.(md/docx)` | **Full Vietnamese translation** (dissertation/bilingual record; glossary-controlled terms; numbers/citations kept in English) |
 | `JED_COMPLIANCE.md` | Requirement-by-requirement compliance report |
 | `CONDENSATION_PLAN_JED.md` | The section-by-section condensation plan that was executed |
+
+## Replication / figures (in `p3/replication/`)
+| File | Purpose |
+|---|---|
+| `P3_results_workbook.xlsx` | Consolidated workbook: coefficients (M0–M8), Tables II/III, turning points, Fig 2 & Fig 3 curve data with native Excel charts — built from `coefs_main_models.csv` |
+| `do/03_make_figures.do` | Stata script regenerating Figure 2 (inverted-U by wave + pooled) and Figure 3 (TCI/DAI moderator marginals) from the built `.dta` |
+| `do/01_build_vietnam.do`, `do/02_run_models.do` | Build the analytic/pooled `.dta` and estimate M0–M8 |
 
 > The **full-length** version is retained as `01_manuscript_blinded.(md/docx)` for reference; do **not** submit it to JED (it exceeds 8,500 words).
 
