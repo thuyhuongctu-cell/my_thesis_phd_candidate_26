@@ -263,6 +263,10 @@ Buckley, P. J., Clegg, L. J., Cross, A. R., Liu, X., Voss, H., & Zheng, P. (2007
 
 Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
 
+Combs, J. G., Crook, T. R., & Shook, C. L. (2005). The dimensionality of organizational performance and its implications for strategic management research. In D. J. Ketchen & D. D. Bergh (Eds.), *Research methodology in strategy and management* (Vol. 2, pp. 259–286). Emerald. https://doi.org/10.1016/S1479-8387(05)02011-4
+
+Combs, J. G., Ketchen, D. J., Crook, T. R., & Roth, P. L. (2011). Assessing cumulative evidence within “macro” research: Why meta-analysis should be preferred over vote counting. *Journal of Management Studies, 48*(1), 178–197. https://doi.org/10.1111/j.1467-6486.2009.00899.x
+
 Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank. https://doi.org/10.1596/978-1-4648-1219-6
 
 Demir, B., & Javorcik, B. (2018). Don't throw in the towel, throw in trade credit! *Journal of International Economics, 111*, 177–189. https://doi.org/10.1016/j.jinteco.2018.01.008
@@ -328,6 +332,8 @@ Pierce, J. R., & Aguinis, H. (2013). The too-much-of-a-good-thing effect in mana
 Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. *Academy of Management Journal, 58*(5), 1546–1571. https://doi.org/10.5465/amj.2013.0319
 
 Riahi-Belkaoui, A. (1998). The effects of the degree of internationalization on firm performance. *International Business Review, 7*(3), 315–321. https://doi.org/10.1016/S0969-5931(98)00013-4
+
+Richard, P. J., Devinney, T. M., Yip, G. S., & Johnson, G. (2009). Measuring organizational performance: Towards methodological best practice. *Journal of Management, 35*(3), 718–804. https://doi.org/10.1177/0149206308330560
 
 Suurmond, R., van Rhee, H., & Hak, T. (2017). Introduction, comparison, and validation of Meta-Essentials: A free and simple tool for meta-analysis. *Research Synthesis Methods, 8*(4), 537–553. https://doi.org/10.1002/jrsm.1260
 
