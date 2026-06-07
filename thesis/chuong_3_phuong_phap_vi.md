@@ -14,11 +14,11 @@ Luận án sử dụng **mixed synthesis-empirical design** gồm hai phase bổ
 
 **Cơ sở kế thừa**: Mixed design kết hợp meta và primary data đã được áp dụng trong quản trị chiến lược và IB (Borenstein et al., 2009; Hunter & Schmidt, 2004; Combs et al., 2011).
 
-**Đóng góp mới**: Áp dụng mixed design cho một luận án duy nhất về internationalization–firm performance trong bối cảnh châu Á và Pacific với **47 nền kinh tế** là thiết kế hiếm gặp; đa số các luận án IB chỉ làm một trong hai phase. Quy mô 47 nước/101.185 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ pool 17 nước trong Do và Phan (2026a).
+**Đóng góp mới**: Áp dụng mixed design cho một luận án duy nhất về internationalization–firm performance trong bối cảnh châu Á và Pacific với **49 nền kinh tế** là thiết kế hiếm gặp; đa số các luận án IB chỉ làm một trong hai phase. Quy mô 49 nước/91.982 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ pool 17 nước trong Do và Phan (2026a).
 
 ### 3.1.2 Quy trình nghiên cứu
 
-Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và meta-analysis trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành meta-analysis cập nhật 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **47 nền kinh tế châu Á và Pacific** sau khi hòa hợp 3 thế hệ schema (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết.
+Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và meta-analysis trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành meta-analysis cập nhật 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **49 nền kinh tế châu Á và Pacific** sau khi hòa hợp 3 thế hệ schema (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết.
 
 ## 3.2 Phase 1 — Meta-analysis 1982–2026
 
@@ -41,11 +41,11 @@ Identification → Screening → Eligibility → Inclusion theo hướng dẫn P
 
 ### 3.3.1 Nguồn dữ liệu
 
-Luận án sử dụng World Bank Enterprise Surveys cho **47 nền kinh tế châu Á và Pacific** trong giai đoạn **2009–2025** (101.185 doanh nghiệp · 108 cặp quốc gia × năm · 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011).
+Luận án sử dụng World Bank Enterprise Surveys cho **49 nền kinh tế châu Á và Pacific** trong giai đoạn **2009–2025** (91.982 doanh nghiệp · 102 cặp quốc gia × năm · 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011).
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (Do & Phan, 2026a).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **47 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, Pacific SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Do & Phan, 2026b).
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **49 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (Do & Phan, 2026b).
 
 > **Ghi chú về trọng số khảo sát (survey sampling weights):** WBES cung cấp sampling weights để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng sampling weights* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết (mechanism testing) chứ không phải ước lượng mô tả đại diện tổng thể (population-representative descriptive estimation) — trong bối cảnh này, không áp dụng weights là thực hành chuẩn trong literature IB sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Fixed effects ở cấp country-year đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng weights có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng survey weights cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem §3.5).
 
@@ -80,7 +80,7 @@ Luận án phân biệt rõ hai construct:
 
 **Cơ sở kế thừa**: Bhandari et al. (2023) phân biệt digitalization, internationalization và capability theo resource-orchestration logic; Verhoef et al. (2021) phân biệt three stages (digitization, digitalization, digital transformation). Pattern "digital shield effect" được Do và Phan (2026a) phát hiện trên 17 nước châu Á mới nổi.
 
-**Đóng góp mới**: Đưa ra **measurement harmonization protocol** trong bối cảnh WBES, đảm bảo construct purity ở 47 nền kinh tế châu Á và Pacific, với pipeline hòa hợp 3 thế hệ schema. Phân tách TCI và DAI theo (i) Bharadwaj et al. (2013) — IT capability vs digital business strategy có nomological nets khác nhau; (ii) phân tầng 3 cấp của Verhoef et al. (2021) — digitization, digitalization, digital transformation; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác về bản chất với digital adoption ở giao diện ngoại tại; (iv) resource-orchestration logic của Bhandari et al. (2023) cho I→P relationship; và (v) 4 tiêu chí formative composite của Coltman et al. (2008) — đảm bảo TCI và DAI là hai composite độc lập.
+**Đóng góp mới**: Đưa ra **measurement harmonization protocol** trong bối cảnh WBES, đảm bảo construct purity ở 49 nền kinh tế châu Á và Pacific, với pipeline hòa hợp 3 thế hệ schema. Phân tách TCI và DAI theo (i) Bharadwaj et al. (2013) — IT capability vs digital business strategy có nomological nets khác nhau; (ii) phân tầng 3 cấp của Verhoef et al. (2021) — digitization, digitalization, digital transformation; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác về bản chất với digital adoption ở giao diện ngoại tại; (iv) resource-orchestration logic của Bhandari et al. (2023) cho I→P relationship; và (v) 4 tiêu chí formative composite của Coltman et al. (2008) — đảm bảo TCI và DAI là hai composite độc lập.
 
 #### Biến thể chế
 
@@ -152,7 +152,7 @@ với $D$ = digital, $I$ = institutional, $M$ = manager.
 
 **Cơ sở kế thừa**: chuẩn moderation trong quản trị chiến lược (Aiken & West, 1991; Dawson, 2014).
 
-**Đóng góp mới**: three-way moderation digital × institutional × manager trong bối cảnh châu Á và Pacific với 47 nước chưa được kiểm định trước đây.
+**Đóng góp mới**: three-way moderation digital × institutional × manager trong bối cảnh châu Á và Pacific với 49 nước chưa được kiểm định trước đây.
 
 ### 3.4.5 Mô hình temporal heterogeneity (H6)
 
@@ -419,9 +419,9 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 
 ---
 
-#### 3.4.5.5 Mô hình cụ thể — Nghiên cứu 8: Pacific SIDS (N = 1.469, Nhóm VI)
+#### 3.4.5.5 Mô hình cụ thể — Nghiên cứu 8: SIDS (N = 1.469, Nhóm VI)
 
-Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế Pacific SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
+Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
 
 Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)** — mối quan hệ quốc tế hóa–hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3–P7. Lind–Mehlum U-test không bác bỏ đơn điệu (p > ,10), xác nhận không có điểm quay.
 
@@ -477,7 +477,7 @@ $$\beta_3\ (NLCN\_z):\ p = {,}495\ \text{NS};\ \beta_4\ (CSS\_z):\ p = {,}402\ \
 
 *Hệ số âm nhất quán qua 4 specification xác nhận FIP không phải do selection bias hay outlier.*
 
-**Bảng định nghĩa biến — Nghiên cứu 8 (Pacific SIDS)**
+**Bảng định nghĩa biến — Nghiên cứu 8 (SIDS)**
 
 | Ký hiệu | WBES item | Cách tính | Vai trò |
 |---------|-----------|-----------|---------|
@@ -532,7 +532,7 @@ Winsorization 1% và 5% đối với labor productivity và employment, áp dụ
 |---|---|---|
 | Mixed design | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **47 châu Á + Pacific economies** trong một luận án |
 | Meta-analysis 1982–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng coverage, bổ sung digital và 6 sub-regime ICRV moderators |
-| Pool empirical | Do & Phan (2026a) — 17 nước châu Á mới nổi | Mở rộng từ 17 → **47 nước** với 101.185 doanh nghiệp · 108 cặp quốc gia × năm |
+| Pool empirical | Do & Phan (2026a) — 17 nước châu Á mới nổi | Mở rộng từ 17 → **49 nước** với 91.982 doanh nghiệp · 102 cặp quốc gia × năm |
 | Labor productivity DV | Bloom et al. (2012); Hsieh & Klenow (2009); Do & Phan (2026a) | Lập luận rõ về firm performance đa chiều trong bối cảnh WBES |
 | FSTS + FSTS² + FSTS³ | Lu & Beamish (2004); Hitt et al. (1997); Do & Phan (2026g) | Đưa vào cùng three-way moderation framework |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Non-overlapping construct purity protocol cho WBES; digital shield mở rộng (Do & Phan, 2026a) |

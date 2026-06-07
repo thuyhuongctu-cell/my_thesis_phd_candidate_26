@@ -42,7 +42,7 @@ done
 
 echo "[2b] Luận án 5 chương theo khung CTU..."
 mkdir -p "${DIST}/luan_an_ctu/source_md"
-for f in chuong_1_gioi_thieu_vi chuong_2_tong_quan_tai_lieu_vi chuong_3_phuong_phap_vi chuong_4_ket_qua_vi chuong_5_ket_luan_de_xuat_vi; do
+for f in 00_phan_dau_vi chuong_1_gioi_thieu_vi chuong_2_tong_quan_tai_lieu_vi chuong_3_phuong_phap_vi chuong_4_ket_qua_vi chuong_5_ket_luan_de_xuat_vi; do
   [ -f "thesis/${f}.md" ] && ${PANDOC_VI} "thesis/${f}.md" -o "${DIST}/luan_an_ctu/${f}.docx" && \
     cp "thesis/${f}.md" "${DIST}/luan_an_ctu/source_md/"
 done
