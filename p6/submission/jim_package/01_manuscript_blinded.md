@@ -6,7 +6,7 @@ IF ≈ 5.5, ABS-3)* *Version 1.0, May 2026 (target journal submission: Q4
 
 ## Abstract
 
-We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I→P) relationship, testing three theoretically motivated moderators that prior meta-analyses have not examined. A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 238 studies with *K* = 288 effect sizes. The three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study and between-study components using `metafor` in R, with OSF pre-registration preceding effect-size extraction and inter-coder reliability κ ≥ 0.70 on a 20% double-coded subsample. The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.5% (within-study 54.1%; between-study 8.4%), replicating and extending prior baselines. The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient, whereas cDAI (*Q*_M = 1.34, *p* = .513) and DPL phase (*Q*_M = 0.62, *p* = .734) are non-significant. Substantial publication bias is detected: trim-and-fill imputes *k* = 57 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.018, 0.051]), positive but attenuated. This first three-level MARA of I→P, spanning 49 economies, reframes the heterogeneity puzzle: unexplained variance in I→P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
+We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I→P) relationship, testing three theoretically motivated moderators that prior meta-analyses have not examined. A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 238 studies with *K* = 288 effect sizes. The three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study and between-study components using `metafor` in R, with the analysis plan registered on OSF (transparency registration) and inter-coder reliability κ ≥ 0.70 on a 20% double-coded subsample. The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.5% (within-study 54.1%; between-study 8.4%), replicating and extending prior baselines. The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient, whereas cDAI (*Q*_M = 1.34, *p* = .513) and DPL phase (*Q*_M = 0.62, *p* = .734) are non-significant. Substantial publication bias is detected: trim-and-fill imputes *k* = 57 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.018, 0.051]), positive but attenuated. This first three-level MARA of I→P, spanning 49 economies, reframes the heterogeneity puzzle: unexplained variance in I→P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
 
 
 **Keywords:** internationalization–performance; meta-analysis;
@@ -77,7 +77,7 @@ random-effects models allow.
 **Contributions.** We make three methodological and three theoretical
 contributions: *(Methodological)*: (1) First three-level MARA for the
 I→P literature; (2) first PRISMA-2020-compliant systematic search with
-OSF pre-registration for this topic; (3) first application of
+OSF registration for this topic; (3) first application of
 between-study *vs.* within-study heterogeneity decomposition to I→P.
 *(Theoretical)*: (4) First meta-analytic test of an ICRV 5-regime
 framework applied to a globally representative I→P corpus (*k* = 238, 49
@@ -541,8 +541,7 @@ Business Review* (IBR, Elsevier, IF ≈ 5.5).
 
 The methodological approach follows the APA Meta-Analysis Reporting
 Standards (Cooper, 2010) and the PRISMA 2020 statement (Page et al.,
-2021). Pre-registration on the Open Science Framework (OSF) preceded all
-effect-size extraction activities; the registration document specifies
+2021). The analysis plan was registered on the Open Science Framework (OSF) as a transparency registration (the working corpus had already been assembled at the time of registration); the registration document specifies
 the search protocol, eligibility criteria, coding rules for all seven
 moderators, and the planned statistical analyses. Three-level
 meta-analytic regression analysis (MARA) was selected over conventional
@@ -596,11 +595,9 @@ aligns with the earliest empirical test of the I→P relationship (Vernon,
 1971; Rugman, 1976), ensuring no pioneering study is systematically
 excluded.
 
-**OSF pre-registration.** The full protocol, including the search
+**OSF registration.** The full protocol, including the search
 string, eligibility decision rules, moderator coding instructions, and
-planned metafor model specifications, was registered on OSF prior to
-database access. The registration identifier will be inserted at
-acceptance; the protocol document is available from the corresponding
+planned metafor model specifications, is registered on OSF (DOI: [insert OSF DOI at submission]). Because the corpus had already been assembled, this is a transparency registration of the analysis plan rather than a data-blind pre-registration; the protocol document is available from the corresponding
 author.
 
 ### 3.2 Eligibility Criteria and Study Selection
@@ -886,7 +883,7 @@ small-study bias.
 
 ### 3.7 Robustness Checks
 
-The following pre-registered robustness checks evaluate the sensitivity
+The following pre-specified robustness checks evaluate the sensitivity
 of the main findings to modelling choices, sample restrictions, and
 alternative operationalizations:
 
@@ -1301,7 +1298,7 @@ adj. *r* = 0.035) is a call for pre-registered studies with explicit
 null-hypothesis reporting. Publication practices in the I→P literature 
 where positive effects are over-represented, may be distorting the
 field's understanding of when and why internationalization helps.
-Pre-registration on OSF and adoption of three-level MARA with
+OSF registration and adoption of three-level MARA with
 trim-and-fill correction should become standard in future I→P
 meta-analyses.
 
@@ -1409,7 +1406,7 @@ strings, Appendix B) would expand Frontier *k* from 3 to potentially
 20–40 studies, enabling a meaningful test of the ICRV Frontier cell.
 Second, a pre-registered replication of the ICRV, cDAI, and DPL
 moderator hypotheses, with explicit power analysis for each regime cell
-and OSF pre-registration, would provide a definitive test of whether
+and OSF registration, would provide a definitive test of whether
 these moderators reach significance in a *k* ≥ 400 corpus. Third, the
 substantial publication bias finding (*k* = 57 imputed, adj. *r* =
 0.035) motivates a dedicated publication bias audit: surveying I→P
@@ -1429,7 +1426,7 @@ The authors declare no conflict of interest.
 ## Data Availability
 
 The coded study database (`forest_data.csv`), R analysis scripts
-(`metafor`), and the OSF pre-registration protocol are available from
+(`metafor`), and the OSF registration protocol are available from
 the corresponding author upon reasonable request. The PRISMA 2020
 checklist is provided as supplementary material.
 

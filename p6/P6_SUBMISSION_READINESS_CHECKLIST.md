@@ -30,7 +30,7 @@ Table 3.1 reports κ/ICC as `[TBD]`. A meta-analysis claiming reliable moderator
 
 - [ ] Create the OSF project, upload the protocol, the analysis code, and the (locked) data dictionary.
 - [ ] Fill the 3 placeholders (authors/affiliation, registration date, project DOI).
-- [ ] Replace the manuscript's "registration identifier will be inserted at acceptance" with the **actual OSF DOI/URL** (Methods §3 and the data-availability statement).
+- [ ] Replace the `[insert OSF DOI at submission]` placeholder (already in all four packages) with the **actual OSF DOI/URL** (Methods §3 and the data-availability statement).
 - [ ] Because effect-size extraction is already complete, register honestly as a **retrospective/transparency registration** (or "registered after data collection"); do not imply a priori timing that did not occur.
 
 ## 4. AI-use disclosure (M-AIDA)  ✅ done — author to confirm scope
@@ -55,3 +55,5 @@ Per the audit (B2): publication bias halves the pooled effect (r 0.074 → 0.035
 
 ### Bottom line
 P6's *analysis* is done and internally consistent. The blockers are **PRISMA flow + ICR reporting** (items 1–2) and the **OSF DOI** (item 3) — all have tooling in the repo and require the author to run them and paste outputs. The AI disclosure (item 4) is fixed pending a one-line scope confirmation. Do not submit P6 with `[TBD]` placeholders.
+
+- [x] **Manuscript OSF wording corrected (integrity):** removed the false claim that pre-registration *preceded* extraction; all four packages now state an honest **transparency registration** of the analysis plan with a `[insert OSF DOI at submission]` placeholder, and 'pre-registered robustness checks' → 'pre-specified'. The full ready-to-submit OSF content is `p6/osf/P6_OSF_Preregistration_Template.md` (+ .docx).
