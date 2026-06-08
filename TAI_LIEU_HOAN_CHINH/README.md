@@ -25,7 +25,7 @@ Mỗi bản thảo gồm **DOCX + PDF** (kèm bản nguồn Markdown); các côn
 | **P3_Vietnam_JABS** | Việt Nam — I–P phi tuyến; TCI/DAI | Journal of Asia Business Studies |
 | **P4_Singapore_MIR** | Singapore — khuếch đại DAI; M8 = −1.177 | Management International Review |
 | **P5_China_IJOEM** | Trung Quốc 2012/2024; N = 2.610/1.934/4.544 | International Journal of Emerging Markets |
-| **P6_MetaAnalysis_IBR** | Phân tích tổng hợp ba tầng; k = 238, K = 288 | International Business Review |
+| **P6_MetaAnalysis_IBR** | Phân tích tổng hợp ba tầng; k = 238, K = 288 (MARA chính thức 19/05/2026) | International Business Review |
 | **P7_Capstone49_JIBS** | 49 nền kinh tế — điểm tối ưu đồng xác định | Journal of International Business Studies |
 | **P8_PacificSIDS_WorldDev** | SIDS Thái Bình Dương — chi phí quốc tế hóa buộc | World Development |
 

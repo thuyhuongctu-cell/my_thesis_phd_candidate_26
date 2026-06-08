@@ -1,6 +1,8 @@
 # IJOEM Submission Package
 ## International Journal of Emerging Markets — Emerald Publishing
 
+> **🎯 Backup journal (nếu IJOEM từ chối):** *Chinese Management Studies* (CMS, Emerald, ABS-1). Lý do: match chặt scope quốc gia đơn (Trung Quốc) + WBES microdata + threshold-stability framing; CMS thường xuyên publish nghiên cứu moderation về DN tư nhân Trung Quốc và mềm hơn với null TCI-moderation so với IJOEM.
+
 **Manuscript:** "Technological Capability, Digital Adoption, and Internationalization Performance in China: Evidence from Two WBES Waves"
 
 **Submission date:** 10 May 2026

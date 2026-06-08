@@ -1,6 +1,8 @@
 # JIBS Submission Package
 ## Journal of International Business Studies — Palgrave Macmillan / AIB (ABS-4*)
 
+> **🎯 Backup journal (nếu JIBS từ chối):** *International Business Review* (IBR, Elsevier, ABS-3). Lý do: IBR là bước xuống tự nhiên — quý large-N cross-country empirics, đón nhận tốt WBES-based work hơn JIBS, nhưng vẫn là top-cited IB Q1; institutional-moderator + digital-capability complementarity + H1–H6 hierarchical model fit IBR's profile chính xác; xác suất chấp nhận cao hơn nhiều cho cross-sectional design không IV identification.
+
 **Manuscript:** "Internationalisation and Firm Performance across 49 Asian and Pacific Economies: Institutional Regimes, Digital Capabilities, and Managerial Characteristics as Contingency Factors"
 
 **Target submission:** Q3 2026
