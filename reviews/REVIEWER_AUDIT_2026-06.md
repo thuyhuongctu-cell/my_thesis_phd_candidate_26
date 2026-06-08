@@ -79,3 +79,19 @@ P8 analyses **nine** economies (Fiji, Kiribati, PNG, Samoa, Solomon Is., Timor-L
 3. **B2** (P6 reframing toward the publication-bias finding).
 4. **D-note** (reconcile CD monograph statistics or add data-update note).
 5. **E** items — strengthen robustness/caveats per target-journal expectations.
+
+---
+
+## UPDATE 2026-06-08b — P8 re-scoped to 7 Pacific SIDS (author decision)
+
+**Decision:** restrict P8 to genuine Pacific Island SIDS, dropping **Comoros** (Indian Ocean, not Pacific) and **Timor-Leste** (larger half-island SE-Asian state, not a Pacific micro-island). Final set = Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu — matching the monograph definition; criterion is definitional, not p-value-driven.
+
+**Method:** the author's own R pipeline (`p8/replication/do/01_p8_run_models_R.R`) was run with a 2-country exclusion filter. It was first validated to reproduce the original 9-economy results exactly (M1 β=−0.4038, p=.032; M2, M_yearFE, M_bivariate, exporters, M3 all matched the manuscript). 7-economy outputs archived in `p8/replication/reanalysis_7pacific/`.
+
+**Result (7 Pacific SIDS, N=959; exporters 132/13.8%):**
+- M1 (country+year FE): β(FSTS_c) = **−1.339, p < .001** (was −0.404, p=.032) — FIP strengthens.
+- M2: β₁=−2.177 (n.s.), β₂=+1.125 (n.s.) — monotone negative, no inverted-U.
+- M3 (N=205): FSTS_c=−2.979 (p=.056); **TCI_z=+0.299, p=.003** (now a significant level effect); DAI_z=+0.094 (n.s.).
+- M_yearFE: β=−3.351, p<.001; M_bivariate: β=−0.864, **p=.050** (now marginal); exporters-only (N=26): β=−1.176, **p=.130 (n.s., underpowered)**.
+
+**Honest reframing applied to the manuscript:** the bivariate and exporters-only specifications are now weaker/marginal (vs. the 9-economy version), so the selection-ruling-out claim was softened; the FIP inference now rests on the fixed-effects models (M1, M_yearFE). All three P8 packages (jid, world_development, ejdr), the dissertation abstract, and the positioning doc were updated to seven Pacific SIDS. CD1 carries a data-update footnote.

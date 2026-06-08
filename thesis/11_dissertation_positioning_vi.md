@@ -327,7 +327,7 @@ Vietnam (Nhóm IV — Lower_mid_transition*)  → Inverted-U, TP ~39–46% FSTS 
 Singapore (Advanced I)               → Inverted-U, TP ~88.6% FSTS (wide CI [53–253%], support-constrained)
 China (Upper-middle III)             → Inverted-U, TP ~47–49% FSTS (stable 2012→2024, Paternoster z=0.82)
 Asian capstone (all 6 ICRV groups)  → Heterogeneous moderation; P7 TP~36%, DAI≠TCI
-Pacific SIDS (SIDS_small / VI)       → REVERSED slope (Forced Penalty), β(FSTS_c)=−0.404 (p=.032*); exporters-only β=−0.901 (p=.027*); year-FE-only β=−1.236 (p<.001***) [R replication, N=1,469, 9 SIDS countries, 2009–2025]
+Pacific SIDS (SIDS_small / VI)       → REVERSED slope (Forced Penalty), β(FSTS_c)=−1.339 (p<.001***); exporters-only β=−1.176 (p=.130, n.s.); year-FE-only β=−3.351 (p<.001***) [R replication, N=959, 7 Pacific SIDS, 2009–2025]
 
 *Vietnam = Nhóm IV (Lower_mid_transition, Group 4/6) nhất quán trong toàn bộ luận án (P7 code: ICRV_MAP["Vietnam"]=4; data registry: Group IV). Nhãn "Frontier V" trước đây trong bản thảo P3 đã được sửa thành "Nhóm IV" — nhóm V (Emerging trong P7) là Afghanistan, Nepal, Cambodia, v.v. WGI Rule of Law Việt Nam: ~−0,66 (2009), ~−0,09 (2023), nguồn World Bank.
 
