@@ -53,3 +53,27 @@ open http://localhost:3000
 
 Do, T. H. (2025). *M-AIDA v7.0: Meta-Analysis Intelligent Data Assistant* [Software].  
 Can Tho University. https://github.com/thuyhuongctu-cell/maida-core
+
+---
+
+## Authorship, license, and research-integrity note
+
+**Author / copyright:** Đỗ Thùy Hương (Do Thuy Huong), College of Economics, Can Tho University.
+M-AIDA was developed by the author to support effect-size extraction for Paper 6 of the doctoral
+dissertation. It is the basis of a Vietnam Copyright Office (COV) software-copyright registration.
+
+**Role of AI (research-integrity disclosure):** M-AIDA uses a large language model (Anthropic Claude)
+to *propose* candidate effect sizes and statistical conversions from study text. It is a
+**human-in-the-loop** tool: every proposed value must be independently verified, corrected if needed,
+and permanently locked by the Principal Investigator (`pi_locked`) before it enters the analysis
+database. The LLM does not select studies, decide eligibility, run the meta-analysis, or write any
+interpretive content. This use is disclosed in the Paper 6 manuscript's AI-use statement, consistent
+with MOST Circular guidance (Điều 16) and Emerald/Elsevier AI policies.
+
+**Security:** copy `backend/.env.example` to `backend/.env` and supply your own keys; never commit a
+real `.env` (it is git-ignored).
+
+> Maintenance note: the `cdai_score` field in `backend/extractor.py` is labelled "Cultural Distance
+> Asymmetry Index" — a legacy label from an earlier design. Paper 6 operationalises **cDAI =
+> country Digital Adoption Index** (World Bank DAI / ITU DDI). Align this label before public release
+> so the tool matches the manuscript construct.

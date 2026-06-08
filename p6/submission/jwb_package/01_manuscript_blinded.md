@@ -682,7 +682,7 @@ completed.
 
 #### 3.3.1 Effect-Size Extraction Protocol
 
-Statistical parameters were extracted manually from the full text of
+Statistical parameters were extracted from the full text of
 each eligible study by the primary coder (PI: Đỗ Thùy Hương), using the
 standardized coding form specified in Appendix B. For each study, the
 following parameters were recorded: sample size (*N*), the focal I→P
@@ -1468,7 +1468,7 @@ checklist is provided as supplementary material.
 
 ## Declaration of Generative AI and AI-Assisted Technologies in the Writing Process
 
-During the preparation of this work, the author(s) used Grammarly, a writing-assistance tool, in order to correct spelling, grammar, and punctuation in the author(s)' own original text. No generative artificial-intelligence tool was used to generate, draft, or create any substantive content, analysis, or interpretation. After using this tool, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.
+During the preparation of this work, the authors used two software aids, each under full human control and verification. First, a purpose-built large-language-model-assisted tool (M-AIDA, using Anthropic Claude) was used to assist effect-size extraction and statistical conversion from the primary studies; every value proposed by the tool was independently checked, corrected where necessary, and permanently locked by the Principal Investigator before entry into the analysis database. Second, Grammarly was used to correct spelling, grammar, and punctuation in the authors' own text. No generative AI tool selected studies, made eligibility decisions, performed the statistical analysis, or generated any interpretive or written content; the authors reviewed all outputs and take full responsibility for the content of the publication.
 
 ## References
 
