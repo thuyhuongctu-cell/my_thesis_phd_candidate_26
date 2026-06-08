@@ -391,6 +391,7 @@ Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of co
 
 Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
 
+Nielsen, S. (2010). Top management team internationalization and firm performance: The mediating role of foreign market entry. *Management International Review, 50*(2), 185–206. https://doi.org/10.1007/s11575-010-0029-0
 North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
 
 Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. https://doi.org/10.1177/0149206319846272
@@ -647,6 +648,7 @@ Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and perform
 
 Olmos, M. F., & Díez-Vial, I. (2015). Internationalization pathways and the performance of SMEs. *European Journal of Marketing, 49*(3/4), 420–443. https://doi.org/10.1108/ejm-06-2012-0365
 
+Phan, A. T., Do, T. H., & Phan, M. T. (2020). The moderating effects of managers' experience and gender on internationalization and firm performance of manufacturing enterprises in Turkey. *Accounting, 6*(7), 1209–1216. https://doi.org/10.5267/j.ac.2020.9.006
 Phan, A. T., Tran, T. M., & Lu, T. M. (2020). The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon. *Decision Science Letters, 9*(4), 573–580. https://doi.org/10.5267/j.dsl.2020.7.001
 
 Purkayastha, A., Karna, A., Sharma, S., & Bhadra, D. (2024). Role of resource investment management and strategic resource deployment capabilities in internationalization-performance relationship. *Journal of International Management, 30*(3), Article 101122. https://doi.org/10.1016/j.intman.2024.101122

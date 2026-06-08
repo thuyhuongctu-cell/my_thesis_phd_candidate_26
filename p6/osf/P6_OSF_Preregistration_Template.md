@@ -9,6 +9,11 @@
 
 ---
 
+> **⚠️ Alignment note (resolve before registering):** This template must be reconciled with the final manuscript before OSF submission. Known mismatches to fix:
+> - **DPL** is here called "Digital Platform Lifecycle" with phases pre-2000 / 2000–2009 / 2010–2026, but the manuscript uses **"Digital Paradox Lifecycle"** with phases **Precede (<2009) / Span (2005–2014) / Follow (>2014)**. Use the manuscript definitions.
+> - **ICRV** is here described as "6 regime groups"; the manuscript's H1 uses the **5-regime** scheme (I, II, III, FR, MX). Use the manuscript scheme.
+> - Insert the **OSF project DOI/URL and registration date** once registered, and update the manuscript's Methods §3 accordingly.
+
 ## 1. Study Title
 
 Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis

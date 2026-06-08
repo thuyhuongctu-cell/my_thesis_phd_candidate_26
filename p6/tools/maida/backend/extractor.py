@@ -61,7 +61,7 @@ Also classify the study on these moderators when determinable from the text:
 - performance_measure : one of ROA | ROE | ROS | TobinsQ | composite | other
 - icrv_regime    : one of I | II | III | SIDS | V | pooled
 - dpl_phase      : one of Precede | Span | Follow
-- cdai_score     : float 0–10 if Cultural Distance Asymmetry Index is mentioned
+- cdai_score     : float 0–1, country Digital Adoption Index (World Bank DAI / ITU DDI) if reported
 
 Return a single JSON object — no markdown, no prose — with exactly these keys:
 {

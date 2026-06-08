@@ -179,7 +179,7 @@ Phân biệt rõ với H2, DAI không có chiều sâu năng lực tổ chức n
 
 ### 2.5.5 Giả thuyết H4: Điều tiết bởi đặc điểm nhà quản trị cấp cao
 
-Dựa trên Upper Echelons Theory (Hambrick & Mason, 1984; Hambrick, 2007), quyết định chiến lược quốc tế hóa và khả năng chuyển hóa nó thành hiệu quả phụ thuộc vào đặc điểm nhận thức và kinh nghiệm của nhà quản trị. Giả thuyết H4 được phát biểu như sau. Kinh nghiệm quản trị và giới tính nữ của nhà quản trị cấp cao làm mạnh hơn tác động tích cực của quốc tế hóa lên hiệu quả hoạt động, thông qua cơ chế nâng cao nhận thức chiến lược quốc tế và quản trị rủi ro thận trọng hơn trong quá trình mở rộng quốc tế. Cơ sở lý thuyết bao gồm Hambrick và Mason (1984), Hsu et al. (2013), và Post và Byron (2015).
+Dựa trên Upper Echelons Theory (Hambrick & Mason, 1984; Hambrick, 2007), quyết định chiến lược quốc tế hóa và khả năng chuyển hóa nó thành hiệu quả phụ thuộc vào đặc điểm nhận thức và kinh nghiệm của nhà quản trị. Giả thuyết H4 được phát biểu như sau. Kinh nghiệm quản trị và giới tính nữ của nhà quản trị cấp cao làm mạnh hơn tác động tích cực của quốc tế hóa lên hiệu quả hoạt động, thông qua cơ chế nâng cao nhận thức chiến lược quốc tế và quản trị rủi ro thận trọng hơn trong quá trình mở rộng quốc tế. Cơ sở lý thuyết bao gồm Hambrick và Mason (1984), Hsu et al. (2013), và Post và Byron (2015); bằng chứng thực nghiệm ở cấp doanh nghiệp cho thấy kinh nghiệm và giới tính của nhà quản trị có thể điều tiết quan hệ quốc tế hóa–hiệu quả (Phan, Do, & Phan, 2020).
 
 ### 2.5.6 Giả thuyết H5: Điều tiết bởi bối cảnh thể chế (ICRV)
 
