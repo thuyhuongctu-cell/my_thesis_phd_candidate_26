@@ -1,4 +1,4 @@
-# Cover Letter — International Business Review
+# Cover Letter, International Business Review
 
 Dear Editors,
 

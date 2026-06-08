@@ -1,5 +1,5 @@
 # Author Title Page
-## (Submitted separately from the blinded manuscript — not for review)
+## (Submitted separately from the blinded manuscript, not for review)
 
 ---
 
@@ -44,17 +44,17 @@
 | Contribution Role | Đỗ Thùy Hương | Phan Anh Tú |
 |---|---|---|
 | Conceptualization | Lead | Supporting |
-| Data curation | Lead | — |
+| Data curation | Lead |, |
 | Formal analysis | Lead | Supporting |
-| Funding acquisition | — | — |
+| Funding acquisition |, |, |
 | Investigation | Lead | Supporting |
 | Methodology | Lead | Supporting |
-| Project administration | Lead | — |
-| Resources | — | Supporting |
-| Software | Lead | — |
-| Supervision | — | Lead |
+| Project administration | Lead |, |
+| Resources |, | Supporting |
+| Software | Lead |, |
+| Supervision |, | Lead |
 | Validation | Supporting | Lead |
-| Visualization | Lead | — |
+| Visualization | Lead |, |
 | Writing – original draft | Lead | Supporting |
 | Writing – review & editing | Lead | Lead |
 

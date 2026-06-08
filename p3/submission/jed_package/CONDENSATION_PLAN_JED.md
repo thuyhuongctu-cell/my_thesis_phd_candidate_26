@@ -1,4 +1,4 @@
-# Kế hoạch rút gọn P3 → ≤ 8.500 từ cho JED (Emerald) — CHỜ DUYỆT
+# Kế hoạch rút gọn P3 → ≤ 8.500 từ cho JED (Emerald), CHỜ DUYỆT
 
 Hiện tại: **20.975 từ** (kể cả mọi thứ). Mục tiêu JED: **≤ 8.500 từ** (gồm abstract, references, toàn bộ chữ trong bảng, hình, phụ lục).
 Nguyên tắc: **không thay đổi bất kỳ số liệu/kết quả nào**; chỉ cô đọng diễn đạt, gộp ý trùng, và **chuyển nội dung robustness/chi tiết sang Supplementary (host trên Emerald Insight)**.

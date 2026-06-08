@@ -1,7 +1,7 @@
-# JED (Emerald) — Compliance Report & Action Plan
+# JED (Emerald), Compliance Report & Action Plan
 
 Source: official JED author guidelines (Emerald), reviewed 2026-06-07.
-Journal: *Journal of Economics and Development* — NEU / Emerald. Diamond OA (no APC).
+Journal: *Journal of Economics and Development*, NEU / Emerald. Diamond OA (no APC).
 Submission: ScholarOne (corresponding author). First decision target: 60 days. Double-anonymous.
 
 ## Requirement-by-requirement status
@@ -9,7 +9,7 @@ Submission: ScholarOne (corresponding author). First decision target: 60 days. D
 | # | JED requirement (verbatim/paraphrased) | Status | Notes |
 |---|---|---|---|
 | 1 | **File format:** MS Word (PDF optional, not alone) | ✅ | `.docx` provided |
-| 2 | **Article length: max 8,500 words INCLUDING all text — abstract, references, all text in tables, figures, appendices** | ✅ **RESOLVED** | Condensed `01_manuscript_blinded_8500` (7,868) + `04_tables` (632) = **8,500**. Robustness moved to Supplementary (Insight, not counted). Full-length version retained separately. |
+| 2 | **Article length: max 8,500 words INCLUDING all text, abstract, references, all text in tables, figures, appendices** | ✅ **RESOLVED** | Condensed `01_manuscript_blinded_8500` (7,868) + `04_tables` (632) = **8,500**. Robustness moved to Supplementary (Insight, not counted). Full-length version retained separately. |
 | 3 | **Structured abstract** (Purpose/Design/Findings/Originality mandatory; ≤250 words incl. keywords & classification) | ✅ | Body 192 words; +keywords+JEL+type ≈ 210. 4 headings present. |
 | 4 | **Keywords:** up to 12 | ✅ | 6 supplied |
 | 5 | **Article classification:** Research paper | ✅ | Stated |
@@ -54,7 +54,7 @@ Notes:
 - Ethics statement added; broken "con-ceptual" hyphenation fixed.
 
 ## Remaining (needs author decision / further work)
-1. **Condense to ≤8,500** (content decision — what stays vs. supplementary).
+1. **Condense to ≤8,500** (content decision, what stays vs. supplementary).
 2. Extract tables to a **separate file**, Roman numerals.
 3. Supply **high-res figure files**; verify captions are anonymous.
 4. Verify/add the two **working-paper DOIs**.

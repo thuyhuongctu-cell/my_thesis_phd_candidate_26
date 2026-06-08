@@ -1,4 +1,4 @@
-# Cover Letter — Multinational Business Review
+# Cover Letter, Multinational Business Review
 
 Dear Editors,
 

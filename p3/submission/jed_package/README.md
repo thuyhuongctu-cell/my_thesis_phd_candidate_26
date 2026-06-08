@@ -1,17 +1,17 @@
-# JED Submission Package — P3 (Vietnam) — ENGLISH (Emerald)
+# JED Submission Package, P3 (Vietnam), ENGLISH (Emerald)
 
 **Target journal:** Journal of Economics and Development (JED)
-— National Economics University / **Emerald Publishing**
+,  National Economics University / **Emerald Publishing**
 (https://www.emeraldgrouppublishing.com/journal/jed)
 Diamond Open Access (no APC); Scopus; WoS. Submission via Emerald/ScholarOne by the corresponding author.
 
 **Manuscript:** "Revisiting the Internationalisation–Performance Relationship in an Emerging Market:
 The Roles of Technological Capability and Foundational Digital Adoption."
 
-## Submission files (use the `_8500` set — built to JED's author guidelines)
+## Submission files (use the `_8500` set, built to JED's author guidelines)
 | File | Purpose |
 |---|---|
-| `01_manuscript_blinded_8500.(md/docx)` | **Condensed, anonymised manuscript** — meets JED's 8,500-word cap (incl. all text in tables/refs) |
+| `01_manuscript_blinded_8500.(md/docx)` | **Condensed, anonymised manuscript**, meets JED's 8,500-word cap (incl. all text in tables/refs) |
 | `04_tables.(md/docx)` | Tables I–III in a **separate file**, Roman numerals (per JED) |
 | `Supplementary_material.(md/docx)` | Online supplement (Insight): full robustness Panels A–K, Figures 2a–2d, marginal-effect table, extended notes |
 | `02_title_page.(md/docx)` | Separate title page: authors, CRediT, declarations |
@@ -24,23 +24,24 @@ The Roles of Technological Capability and Foundational Digital Adoption."
 ## Replication / figures (in `p3/replication/`)
 | File | Purpose |
 |---|---|
-| `P3_results_workbook.xlsx` | Consolidated workbook: coefficients (M0–M8), Tables II/III, turning points, Fig 2 & Fig 3 curve data with native Excel charts — built from `coefs_main_models.csv` |
+| `P3_results_workbook.xlsx` | Consolidated workbook: coefficients (M0–M8), Tables II/III, turning points, Fig 2 & Fig 3 curve data with native Excel charts, built from `coefs_main_models.csv` |
 | `do/03_make_figures.do` | Stata script regenerating Figure 2 (inverted-U by wave + pooled) and Figure 3 (TCI/DAI moderator marginals) from the built `.dta` |
 | `do/01_build_vietnam.do`, `do/02_run_models.do` | Build the analytic/pooled `.dta` and estimate M0–M8 |
 
 > The **full-length** version is retained as `01_manuscript_blinded.(md/docx)` for reference; do **not** submit it to JED (it exceeds 8,500 words).
 
 ## Word count (JED cap: 8,500 incl. everything)
-- Condensed manuscript `01_manuscript_blinded_8500.md`: **7,868 words**
+- Condensed manuscript `01_manuscript_blinded_8500.md`: **7,845 words**
 - Tables file `04_tables.md`: **632 words**
-- **Combined: 8,500 / 8,500** ✓ (Supplementary Material is hosted on Insight and does not count.)
+- **Combined: 8,477 / 8,500** ✓ (Supplementary Material is hosted on Insight and does not count.)
+- Both the condensed and full-length manuscripts are now **em-dash-free** (anti-AI language pass).
 
 ## Conformance to JED author guidelines
 - ✅ MS Word; structured abstract (Purpose/Design/Findings/Originality), ≤250 words; ≤12 keywords; JEL; Research paper.
 - ✅ References in **Emerald Harvard** (55 entries; in-text `and`/`*et al.*`); citations and reference list cross-checked for completeness.
 - ✅ Tables in a **separate file**, Roman numerals, with `[Insert Table … about here]` markers in the text.
 - ✅ Robustness/appendix material moved to **Supplementary Material** (Insight) to meet the word cap.
-- ✅ Ethics statement (secondary, de-identified WBES firm data — no approval required); AI-usage disclosure aligned to Emerald policy (copy-editing only; author to insert tool name/version).
+- ✅ Ethics statement (secondary, de-identified WBES firm data, no approval required); AI-usage disclosure aligned to Emerald policy (copy-editing only; author to insert tool name/version).
 - ✅ Anonymised (author block/acknowledgements removed; no author names in figure captions).
 
 ## Before upload (author actions)

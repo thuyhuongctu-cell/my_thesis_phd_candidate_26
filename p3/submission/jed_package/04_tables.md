@@ -1,4 +1,4 @@
-# Tables — submitted as a separate file (JED requirement)
+# Tables, submitted as a separate file (JED requirement)
 
 *Position of each table is marked in the main text as "[Insert Table I about here]", etc. Tables are numbered in Roman numerals. lnLP = log labour productivity; FSTS = direct-export intensity; TCI_z, DAI_z = within-wave z-standardised composites; HC1 robust standard errors throughout.*
 
@@ -23,7 +23,7 @@
 
 ---
 
-**Table II.** Analytic-sample summary statistics by wave — mean (SD).
+**Table II.** Analytic-sample summary statistics by wave, mean (SD).
 
 | Variable | 2009 (N=989) | 2015 (N=956) | 2023 (N=1,013) | Pooled (N=2,958) |
 |---|---|---|---|---|
@@ -54,6 +54,6 @@
 | TCI moderation, M3 joint p | .040 | .713 | .027 | .003 |
 | FSTS_c × DAI_z (M8) | n.s. | n.s. | −0.912** | −0.448 |
 | DAI moderation, M8 joint p | .700 | .093 | .062 | .083 |
-| Exporter-only FSTS_c² (Panel H) | — | — | — | −0.200 (p=.660) |
+| Exporter-only FSTS_c² (Panel H) |, |, |, | −0.200 (p=.660) |
 
 *Notes.* β reported; full SEs and the M0–M8 sequence are in the replication package. Exporter-only sub-sample pooled N = 669; its non-significant quadratic term indicates the full-sample inverted-U is driven by the participation margin. Robustness panels (A–K): Supplementary Material.

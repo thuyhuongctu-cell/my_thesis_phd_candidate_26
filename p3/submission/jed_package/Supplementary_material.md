@@ -8,17 +8,17 @@
 
 ## S1. Extended mechanism note (referenced in §2.4)
 
-**Two parallel mechanisms behind any later-wave DAI compression.** Any negative DAI × FSTS interaction observed in the later waves can be read through two complementary mechanisms that this paper treats as jointly operating rather than mutually exclusive. *Mechanism A — stage-dependent coordination complexity*: at high export intensity, the marginal coordination demand of additional cross-border transactions exceeds what a single Tier-1 website indicator can support; the binding friction is the absence of deeper Tier 2–3 process-integration, payment, and logistics digitisation rather than the website itself. *Mechanism B — construct obsolescence under population diffusion*: as website ownership diffuses toward the near-universal upper bound (49.8 % by 2023, vs 42.5 % in 2009), the c22b indicator increasingly functions as an organisational hygiene marker rather than a differentiating capability signal, so its measured association with productivity attenuates without any structural change in the underlying coordination mechanism. The two readings are not antagonistic: they correspond to different sources of the same empirical pattern — Mechanism A predicts compression conditional on export intensity within any wave where Tier-1 infrastructure is the binding constraint, while Mechanism B predicts compression across waves as the indicator loses cross-sectional information content. The 2009 / 2015 / 2023 design used in this paper cannot fully separate the two channels within the WBES Tier-1 instrument, and we treat both readings as legitimate within the limits of the available data. This framing matters for theoretical positioning: it locates DAI compression in a transitional-economy context where the construct is bounded by survey instrumentation rather than by the underlying digital-transformation phenomenon, and it pre-empts an interpretation of any null or sign-shifting result on H4 as evidence against dynamic digital capability moderation.
+**Two parallel mechanisms behind any later-wave DAI compression.** Any negative DAI × FSTS interaction observed in the later waves can be read through two complementary mechanisms that this paper treats as jointly operating rather than mutually exclusive. *Mechanism A, stage-dependent coordination complexity*: at high export intensity, the marginal coordination demand of additional cross-border transactions exceeds what a single Tier-1 website indicator can support; the binding friction is the absence of deeper Tier 2–3 process-integration, payment, and logistics digitisation rather than the website itself. *Mechanism B, construct obsolescence under population diffusion*: as website ownership diffuses toward the near-universal upper bound (49.8 % by 2023, vs 42.5 % in 2009), the c22b indicator increasingly functions as an organisational hygiene marker rather than a differentiating capability signal, so its measured association with productivity attenuates without any structural change in the underlying coordination mechanism. The two readings are not antagonistic: they correspond to different sources of the same empirical pattern, Mechanism A predicts compression conditional on export intensity within any wave where Tier-1 infrastructure is the binding constraint, while Mechanism B predicts compression across waves as the indicator loses cross-sectional information content. The 2009 / 2015 / 2023 design used in this paper cannot fully separate the two channels within the WBES Tier-1 instrument, and we treat both readings as legitimate within the limits of the available data. This framing matters for theoretical positioning: it locates DAI compression in a transitional-economy context where the construct is bounded by survey instrumentation rather than by the underlying digital-transformation phenomenon, and it pre-empts an interpretation of any null or sign-shifting result on H4 as evidence against dynamic digital capability moderation.
 
 ## S2. Construct-tier scope notes (referenced in §2.3 and §3.2)
 
 **Construct-tier scope note.** The DAI_z construct in this paper (Tier 1 only: website binary c22b) is constrained by the WBES Vietnam instrument: only the website-presence binary is carried comparably across the 2009 / 2015 / 2023 waves, whereas richer Tier-2 transaction-enabling items such as electronic-payment intensity (k33, k38) appear only in the 2023 wave. The Vietnam Tier-1-only indicator (FSTS_c × DAI_z = −0.912, p = .043) is best read as construct-tier obsolescence: Tier-1 website presence has become a minimum-threshold credential in Vietnam's maturing digital environment and no longer differentiates firms' cross-border coordination capacity at high export intensity. The DAI_rich robustness composite available in the 2023 wave (Tier 1+2, §4.5 Panel B) provides within-wave sensitivity analysis on this scope-limitation question, but cross-wave comparability limits its use as the primary measure.
 
-**Tier-1-only DAI as a deliberate boundary condition.** The restriction of DAI_z to the website-presence binary (c22b) across the 2009, 2015, and 2023 waves is a deliberate boundary condition imposed by WBES data availability, not a methodological weakness or a proxy approximation. The 2009 and 2015 waves offer only the website presence indicator (Tier 1), while the 2023 wave includes payment digitization items (k33, k38; Tier 2). This tiered measurement captures institutional evolution in digital infrastructure: Tier-1 only in waves with incomplete WBES coverage reflects the actual state of digital adoption instrumentation at that time, not a deficiency of the present study's measurement strategy. Retaining a single harmonised Tier-1 indicator across all three waves is the methodologically conservative choice that preserves cross-wave comparability; the alternative — using a richer composite for 2023 only — would introduce a wave-specific construct-shift that could be mistaken for a structural change in the I–P relationship. The DAI_rich robustness extension (§4.5 Panel B) applies the 2023-wave Tier-2 items precisely as a within-wave sensitivity probe to assess whether the headline moderation pattern survives under a richer construct while acknowledging the cross-wave comparability cost.
+**Tier-1-only DAI as a deliberate boundary condition.** The restriction of DAI_z to the website-presence binary (c22b) across the 2009, 2015, and 2023 waves is a deliberate boundary condition imposed by WBES data availability, not a methodological weakness or a proxy approximation. The 2009 and 2015 waves offer only the website presence indicator (Tier 1), while the 2023 wave includes payment digitization items (k33, k38; Tier 2). This tiered measurement captures institutional evolution in digital infrastructure: Tier-1 only in waves with incomplete WBES coverage reflects the actual state of digital adoption instrumentation at that time, not a deficiency of the present study's measurement strategy. Retaining a single harmonised Tier-1 indicator across all three waves is the methodologically conservative choice that preserves cross-wave comparability; the alternative, using a richer composite for 2023 only, would introduce a wave-specific construct-shift that could be mistaken for a structural change in the I–P relationship. The DAI_rich robustness extension (§4.5 Panel B) applies the 2023-wave Tier-2 items precisely as a within-wave sensitivity probe to assess whether the headline moderation pattern survives under a richer construct while acknowledging the cross-wave comparability cost.
 
 ## S3. Pooled marginal effects of internationalisation (referenced in §4.2)
 
-*Table 4b — Marginal effect of internationalisation on ln(labour productivity) at selected FSTS values (pooled M2, N = 2,958)*
+*Table 4b, Marginal effect of internationalisation on ln(labour productivity) at selected FSTS values (pooled M2, N = 2,958)*
 
 | FSTS level | FSTSc (centred) | Marginal effect dy/dFSTS | Direction |
 |---|---|---|---|
@@ -34,19 +34,19 @@
 
 ## S4. Wave-specific predicted-productivity figures (Figures 2a–2d, referenced in §4.2)
 
-![Figure 2a: Wave 2009 — predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2a.png)
+![Figure 2a: Wave 2009, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2a.png)
 
 *Figure 2a.* Predicted ln(labour productivity) as a function of FSTS for the 2009 wave (M2). Shaded band = 95% CI. Turning point ≈ 46% FSTS (Lind-Mehlum p = .006).
 
-![Figure 2b: Wave 2015 — predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2b.png)
+![Figure 2b: Wave 2015, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2b.png)
 
 *Figure 2b.* Predicted ln(labour productivity) as a function of FSTS for the 2015 wave (M2). Turning point ≈ 39% FSTS (Lind-Mehlum p = .009).
 
-![Figure 2c: Wave 2023 — predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2c.png)
+![Figure 2c: Wave 2023, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2c.png)
 
 *Figure 2c.* Predicted ln(labour productivity) as a function of FSTS for the 2023 wave (M2). Turning point ≈ 42% FSTS (Lind-Mehlum p = .013).
 
-![Figure 2d: Pooled (2009+2015+2023) — predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2d.png)
+![Figure 2d: Pooled (2009+2015+2023), predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2d.png)
 
 *Figure 2d.* Predicted ln(labour productivity) as a function of FSTS for the pooled sample (M2). Turning point ≈ 40% FSTS (Lind-Mehlum p < .001).
 
@@ -55,9 +55,9 @@
 ### 4.5 Robustness
 Four families of robustness checks examine whether central inferences are sensitive to measurement choices, sector composition, export-participation structure, and endogeneity. The panels below are estimated on the same OLS HC1 design as the main models.
 
-Panel G — Sector split (manufacturing versus non-manufacturing). To test whether the digital and capability channels operate uniformly across the broad sectoral composition of the
+Panel G, Sector split (manufacturing versus non-manufacturing). To test whether the digital and capability channels operate uniformly across the broad sectoral composition of the
 Vietnamese exporter cohort, we re-estimate the pooled M2 / M7 / M8 specifications separately
-on manufacturing firms (sector1 ∈ {1, 2, 3} — ISIC 15–37, N = 1,854) and non-manufacturing
+on manufacturing firms (sector1 ∈ {1, 2, 3}, ISIC 15–37, N = 1,854) and non-manufacturing
 firms (utilities, construction, wholesale and retail, transport, finance and other services; sector1
 
 ∈ {4, 5, 6, 7}; N = 1,104).
@@ -72,7 +72,7 @@ operates broadly while the digital channel remains specific to the manufacturing
 Substantively, this pattern is consistent with the view that basic digital adoption interacts with
 cross-border production-coordination demands more strongly in tradable-goods sectors than in
 service-oriented or domestically oriented sectors of the Vietnamese economy.
-Panel H — Exporter-only sub-sample (FSTS > 0). Because the exporter share is 28.4 %,
+Panel H, Exporter-only sub-sample (FSTS > 0). Because the exporter share is 28.4 %,
 20.7 % and 18.8 % across waves, the inverted-U fitted on the full sample is partly identified by
 the participation margin between FSTS = 0 and FSTS > 0. We re-fit M2 / M7 / M8 on the
 exporter-only sub-sample (N ≈ 281 in 2009, 198 in 2015, 190 in 2023, and 669 pooled). The
@@ -85,12 +85,12 @@ variable in Vietnamese WBES data, with limited mass between the participation ma
 the implied turning point. The substantive H1 claim is therefore best read as a non-monotonic
 association between participation-and-intensity in exporting and productivity, not as a strict
 within-exporter intensity-curvature claim.
-Panel I — Pooled wave × focal interaction test. To formally test whether the wave-specific
+Panel I, Pooled wave × focal interaction test. To formally test whether the wave-specific
 patterns of curvature and moderation are statistically separable from the pooled estimates, we
 re-estimate the pooled M8 with a saturated set of wave interactions on the focal terms (FSTS_c × wave, FSTS_c² × wave, DAI_z × wave, TCI_z × wave). The joint Wald tests indicate that only DAI_z × wave is statistically distinguishable from the pooled average (joint p = .016); the FSTS_c, FSTS_c² and TCI_z direct-effect cross-wave differences are not statistically separable (all joint p > .25), and the FSTS_c × DAI_z and FSTS_c² × DAI_z cross-wave differences are not separable either (joint p > .55). This formal test is consistent with the descriptive Paternoster
 result: only the DAI direct shifts are cross-wave-distinguishable, while the curvature parameters
 and the FSTS × DAI moderation terms share a common pooled magnitude across waves.
-Functional form check — cubic extension. To test whether an S-curve (cubic) specification better captures the I–P pattern, we augment the pooled M2 with a cubic term FSTS_c³. The cubic coefficient is not statistically significant (β = −1.763, p = .287), and model-fit criteria favour the quadratic: AIC decreases by 0.99 and BIC decreases by 7.0 when moving from the cubic back to the quadratic specification. The cubic term does not alter the turning-point estimate or any focal coefficient substantively. The simpler inverted-U (M2) is therefore preferred over the S-curve on both inferential and parsimony grounds.
+Functional form check, cubic extension. To test whether an S-curve (cubic) specification better captures the I–P pattern, we augment the pooled M2 with a cubic term FSTS_c³. The cubic coefficient is not statistically significant (β = −1.763, p = .287), and model-fit criteria favour the quadratic: AIC decreases by 0.99 and BIC decreases by 7.0 when moving from the cubic back to the quadratic specification. The cubic term does not alter the turning-point estimate or any focal coefficient substantively. The simpler inverted-U (M2) is therefore preferred over the S-curve on both inferential and parsimony grounds.
 
 Density-around-turning-point check. We also report the within-sample mass of firms in the curvature zone. Defining a ±5 percentage-point band around the wave-specific turning point (TP), the share of firms with FSTS within the band is 0.6 % (6 of 989) in 2009, 1.2 % (11 of
 
@@ -107,9 +107,9 @@ turning-point magnitude.
 
 #### Robustness to Endogeneity and Selection
 
-Three complementary approaches address selection and endogeneity concerns. A note on the selection structure is warranted before presenting the checks. Exporters self-select into foreign markets, so the OLS estimates reflect both selection and treatment effects. As a boundary condition, exporter participation rates declined from 28.4% (2009) to 18.8% (2023) — consistent with servicification of the economy and the gradual exit of marginal exporters — which itself attenuates the threat of a constant positive-selection story across waves. A Heckman two-stage check confirms this reading: Heckman two-step corrections (Panel E) yield insignificant inverse-Mills ratios across all waves (all |λ| < 0.84, p > .25 in each wave), indicating no detectable selection bias on the exporter subsample. The inverse Mills ratio coefficient does not materially change FSTS coefficient estimates across waves, suggesting that selection bias is limited in this context and that the participation-margin productivity gap documented in §4.4 reflects a genuine performance discontinuity rather than an artefact of positive selection into exporting. Propensity-score matching (Panel J) corroborates the average H2 TCI association and the baseline DAI_z level association without imposing linearity: ATT estimates for foreign-technology / certification status (0.609–0.637, p < .001) and for website ownership (0.298–0.321, p < .001) are substantively consistent with the OLS results, though the latter is best read as a descriptive Tier-1 selection-corrected association rather than a capability test. Full matching-balance diagnostics and ATT estimates are reported in Online Appendix Table A.
+Three complementary approaches address selection and endogeneity concerns. A note on the selection structure is warranted before presenting the checks. Exporters self-select into foreign markets, so the OLS estimates reflect both selection and treatment effects. As a boundary condition, exporter participation rates declined from 28.4% (2009) to 18.8% (2023), consistent with servicification of the economy and the gradual exit of marginal exporters, which itself attenuates the threat of a constant positive-selection story across waves. A Heckman two-stage check confirms this reading: Heckman two-step corrections (Panel E) yield insignificant inverse-Mills ratios across all waves (all |λ| < 0.84, p > .25 in each wave), indicating no detectable selection bias on the exporter subsample. The inverse Mills ratio coefficient does not materially change FSTS coefficient estimates across waves, suggesting that selection bias is limited in this context and that the participation-margin productivity gap documented in §4.4 reflects a genuine performance discontinuity rather than an artefact of positive selection into exporting. Propensity-score matching (Panel J) corroborates the average H2 TCI association and the baseline DAI_z level association without imposing linearity: ATT estimates for foreign-technology / certification status (0.609–0.637, p < .001) and for website ownership (0.298–0.321, p < .001) are substantively consistent with the OLS results, though the latter is best read as a descriptive Tier-1 selection-corrected association rather than a capability test. Full matching-balance diagnostics and ATT estimates are reported in Online Appendix Table A.
 
-Two-stage least-squares estimation using leave-one-out sector × region × wave peer-adoption rates as instruments (Panel K; first-stage F-statistics 22–35, well above the Staiger–Stock threshold) returns an instrumented DAI estimate of 0.018 (p = .942) and an instrumented TCI estimate of 1.639 (p < .001). The null 2SLS DAI coefficient is a key robustness result: it indicates that website presence does not plausibly cause productivity improvements in 2023 Vietnam, reinforcing the Tier 1 proxy obsolescence interpretation of the negative DAI×FSTS interaction. The strongly positive instrumented TCI coefficient (β=1.639, p<.001 — substantially larger than the OLS estimate, consistent with attenuation-bias correction) further indicates that foreign-technology and standards capability is the robust productivity-relevant mechanism in this institutional setting. The instrument set (peer-adoption rates within sector × region × wave cells) satisfies relevance (strong first stage) and approximate exclusion (peer-adoption rates are unlikely to affect individual firm productivity through channels other than DAI adoption, conditional on sector-wave cells). Oster (2019) δ-stability bounds (assuming R_max = 1.3 × R_controlled) indicate that no focal coefficient changes sign or collapses to zero under plausible magnitudes of unobserved selection. Full 2SLS first-stage results and Oster bound calculations are reported in Online Appendix Table B.
+Two-stage least-squares estimation using leave-one-out sector × region × wave peer-adoption rates as instruments (Panel K; first-stage F-statistics 22–35, well above the Staiger–Stock threshold) returns an instrumented DAI estimate of 0.018 (p = .942) and an instrumented TCI estimate of 1.639 (p < .001). The null 2SLS DAI coefficient is a key robustness result: it indicates that website presence does not plausibly cause productivity improvements in 2023 Vietnam, reinforcing the Tier 1 proxy obsolescence interpretation of the negative DAI×FSTS interaction. The strongly positive instrumented TCI coefficient (β=1.639, p<.001, substantially larger than the OLS estimate, consistent with attenuation-bias correction) further indicates that foreign-technology and standards capability is the robust productivity-relevant mechanism in this institutional setting. The instrument set (peer-adoption rates within sector × region × wave cells) satisfies relevance (strong first stage) and approximate exclusion (peer-adoption rates are unlikely to affect individual firm productivity through channels other than DAI adoption, conditional on sector-wave cells). Oster (2019) δ-stability bounds (assuming R_max = 1.3 × R_controlled) indicate that no focal coefficient changes sign or collapses to zero under plausible magnitudes of unobserved selection. Full 2SLS first-stage results and Oster bound calculations are reported in Online Appendix Table B.
 
 Measurement-sensitivity probes indicate that core inferences do not depend on composite construction. Enriching TCI with R&D and product-innovation items (Panel A) attenuates the TCI coefficient modestly but does not alter qualitative conclusions. The enriched DAI_rich composite (Tier 1–2, Panel B) yields directionally consistent moderation in 2023 with weaker significance. Micro-firm exclusion (Panel D) preserves the inverted-U and TCI associations. Paternoster et al. cross-wave z-tests (Panel F) indicate that the DAI cross-wave shift is statistically distinguishable while curvature parameters share a common pooled magnitude. Panel-level estimates are reported in Online Appendix Tables C–F.
 
@@ -305,22 +305,22 @@ focal × wave n.s.
 cross-wave-separable
 Density around TP (±5 pp band) 29 / 2,958 1.0% of firms within band; bulk of mass at Curvature identified by parFSTS = 0
 ticipation margin
-J. PSM ATT — website (1-NN, 1,085 ATT_DAI = 0.298 (SE 0.061)
+J. PSM ATT, website (1-NN, 1,085 ATT_DAI = 0.298 (SE 0.061)
 Positive and large under
 caliper 0.05)
 matching
-J. PSM ATT — website (kernel 1,085 ATT_DAI = 0.321 (SE 0.043)
+J. PSM ATT, website (kernel 1,085 ATT_DAI = 0.321 (SE 0.043)
 Robust to algorithm
 BW 0.06)
-J. PSM ATT — cert / foreign-tech 640 ATT_TCI = 0.637 (SE 0.078)
+J. PSM ATT, cert / foreign-tech 640 ATT_TCI = 0.637 (SE 0.078)
 Positive and large under
 (1-NN)
 matching
-K. IV / 2SLS — DAI_z
+K. IV / 2SLS, DAI_z
 2,298 DAI_z = 0.018 (p = .942) n.s.
 First-stage F = 34.6
 (strong)
-K. IV / 2SLS — TCI_z
+K. IV / 2SLS, TCI_z
 2,298 TCI_z = 1.639 (SE 0.299)
 First-stage F = 22.1
 (strong)

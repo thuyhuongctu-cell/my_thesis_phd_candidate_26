@@ -1,4 +1,4 @@
-# Cover Letter — Journal of International Management
+# Cover Letter, Journal of International Management
 
 Dear Editors,
 

@@ -1,4 +1,4 @@
-# Cover Letter — Journal of International Development
+# Cover Letter, Journal of International Development
 
 Dear Editors,
 
