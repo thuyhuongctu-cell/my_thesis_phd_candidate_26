@@ -189,7 +189,11 @@ Mason, 1984). Manager experience reduces coordination errors in
 cross-border operations; female top management is associated with
 stakeholder orientation, relationship capital, and risk management, all
 relevant in institutionally heterogeneous export markets (Richard et
-al., 2019). We expect both to raise the performance level for any given
+al., 2019). Firm-level evidence on manufacturing exporters shows that
+manager experience and gender can moderate the
+internationalization–performance relationship (Phan et al., 2020), and
+top-management-team internationalization shapes performance through
+foreign-market entry (Nielsen, 2010). We expect both to raise the performance level for any given
 FSTS. However, given the breadth of the multi-country sample, firm-level
 managerial differences are unlikely to systematically reshape the
 aggregate FSTS–performance curve, whose shape is primarily determined by
@@ -806,12 +810,22 @@ Mondal, A., Gupta, S., & Ray, S. (2022). Family ownership, governance,
 and internationalization: Evidence from India. *Journal of Business
 Research, 138*, 423–434.
 
+Nielsen, S. (2010). Top management team internationalization and firm
+performance: The mediating role of foreign market entry. *Management
+International Review, 50*(2), 185–206.
+https://doi.org/10.1007/s11575-010-0029-0
+
 North, D. C. (1990). *Institutions, institutional change and economic
 performance*. Cambridge University Press.
 
 Pangarkar, N. (2008). Internationalization and performance of small- and
 medium-sized enterprises. *Journal of World Business, 43*(4), 475–485.
 <https://doi.org/10.1016/j.jwb.2007.11.009>
+
+Phan, A. T., Do, T. H., & Phan, M. T. (2020). The moderating effects of
+managers' experience and gender on internationalization and firm
+performance of manufacturing enterprises in Turkey. *Accounting, 6*(7),
+1209–1216. https://doi.org/10.5267/j.ac.2020.9.006
 
 Richard, O. C., Kirby, S. L., & Chadwick, K. (2019). The impact of
 racial and gender diversity in management on firm performance: An
