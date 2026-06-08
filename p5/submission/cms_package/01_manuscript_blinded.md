@@ -690,7 +690,7 @@ more productivity-enhancing between 2012 and 2024. Third, the
 digital-capability proxy could be enriched using WBES’s emerging
 e-commerce and platform-sales items (available in some country waves),
 enabling a more rigorous test of the TCI–DAI mediation pathway. Readers
-should note that a companion analysis (Đỗ & Phan, 2026) examines a
+should note that a companion analysis (Đỗ and Phan, 2026) examines a
 manufacturing-only extraction and GVC-position moderator using the same
 WBES waves; the present manuscript focuses on the full private-firm
 frame and threshold stability.
@@ -749,41 +749,41 @@ analysis, or manuscript content creation.
 
 ## References
 
-Antonakis, J., Bendahan, S., Jacquart, P., & Lalive, R. (2010). On
+Antonakis, J., Bendahan, S., Jacquart, P., and Lalive, R. (2010). On
 making causal claims: A review and recommendations. *The Leadership
 Quarterly, 21*(6), 1086–1120.
 <https://doi.org/10.1016/j.leaqua.2010.10.010>
 
-Avenyo, E. K., Tregenna, F., & Kraemer-Mbula, E. (2021). Do productive
+Avenyo, E. K., Tregenna, F., and Kraemer-Mbula, E. (2021). Do productive
 capabilities affect export performance? Evidence from African firms.
 *European Journal of Development Research, 33*(2), 304–329.
 <https://doi.org/10.1057/s41287-021-00364-6>
 
-Bausch, A., & Krist, M. (2007). The effect of context-related moderators
+Bausch, A., and Krist, M. (2007). The effect of context-related moderators
 on the internationalization–performance relationship: A meta-analysis.
 *Management International Review, 47*(3), 423–452.
 <https://doi.org/10.1007/s11575-007-0022-4>
 
-Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese
+Do, T. H., and Phan, A. T. (2026). Unveiling the impact of Chinese
 manufacturing SMEs' internationalization on performance. *Journal of
 Finance and Accounting Research*. Advance online publication.
 
-Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U:
+Haans, R. F. J., Pieters, C., and He, Z.-L. (2016). Thinking about U:
 Theorizing and testing U- and inverted U-shaped relationships in
 strategy research. *Strategic Management Journal, 37*(7), 1177–1195.
 <https://doi.org/10.1002/smj.2399>
 
-Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International
+Hitt, M. A., Hoskisson, R. E., and Kim, H. (1997). International
 diversification: Effects on innovation and firm performance in
 product-diversified firms. *Academy of Management Journal, 40*(4),
 767–798. <https://doi.org/10.5465/256948>
 
-Kano, L., Tsang, E. W. K., & Yeung, H. W.-C. (2020). Global value
+Kano, L., Tsang, E. W. K., and Yeung, H. W.-C. (2020). Global value
 chains: A review of the multi-disciplinary literature. *Journal of
 International Business Studies, 51*(4), 577–622.
 <https://doi.org/10.1057/s41267-020-00304-2>
 
-Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The
+Kirca, A. H., Roth, K., Hult, G. T. M., and Cavusgil, S. T. (2012). The
 role of context in the multinationality–performance relationship: A
 meta-analytic review. *Global Strategy Journal, 2*(2), 108–121.
 <https://doi.org/10.1111/j.2042-5805.2012.01028.x>
@@ -792,16 +792,16 @@ Lall, S. (1992). Technological capabilities and industrialization.
 *World Development, 20*(2), 165–186.
 <https://doi.org/10.1016/0305-750X(92)90097-F>
 
-Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate
+Lind, J. T., and Mehlum, H. (2010). With or without U? The appropriate
 test for a U-shaped relationship. *Oxford Bulletin of Economics and
 Statistics, 72*(1), 109–118.
 <https://doi.org/10.1111/j.1468-0084.2009.00569.x>
 
-Lu, J. W., & Beamish, P. W. (2004). International diversification and
+Lu, J. W., and Beamish, P. W. (2004). International diversification and
 firm performance: The S-curve hypothesis. *Academy of Management
 Journal, 47*(4), 598–609. <https://doi.org/10.5465/20159604>
 
-MacKinnon, J. G., & White, H. (1985). Some heteroskedasticity-consistent
+MacKinnon, J. G., and White, H. (1985). Some heteroskedasticity-consistent
 covariance matrix estimators with improved finite sample properties.
 *Journal of Econometrics, 29*(3), 305–325.
 <https://doi.org/10.1016/0304-4076(85)90158-7>
@@ -810,32 +810,32 @@ Manova, K. (2013). Credit constraints, heterogeneous firms, and
 international trade. *Review of Economic Studies, 80*(2), 711–744.
 <https://doi.org/10.1093/restud/rds036>
 
-Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M.
+Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., and van Essen, M.
 (2016). Home country institutions and the
 internationalization–performance relationship: A meta-analytic review.
 *Journal of Management, 42*(5), 1075–1110.
 <https://doi.org/10.1177/0149206315624963>
 
-Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's
+Meyer, K. E., van Witteloostuijn, A., and Beugelsdijk, S. (2017). What's
 in a p? Reassessing best practices for conducting and reporting
 hypothesis-testing research. *Journal of International Business Studies,
 48*(5), 535–551. <https://doi.org/10.1057/s41267-017-0078-8>
 
-Nambisan, S., Wright, M., & Feldman, M. (2019). The digital
+Nambisan, S., Wright, M., and Feldman, M. (2019). The digital
 transformation of innovation and entrepreneurship: Progress, challenges
 and key themes. *Research Policy, 48*(8), 103773.
 <https://doi.org/10.1016/j.respol.2019.03.018>
 
-Niepmann, F., & Schmidt-Eisenlohr, T. (2017). International trade, risk
+Niepmann, F., and Schmidt-Eisenlohr, T. (2017). International trade, risk
 and the role of banks. *Journal of International Economics, 107*,
 111–126. <https://doi.org/10.1016/j.jinteco.2017.03.007>
 
-Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using
+Paternoster, R., Brame, R., Mazerolle, P., and Piquero, A. (1998). Using
 the correct statistical test for the equality of regression
 coefficients. *Criminology, 36*(4), 859–866.
 <https://doi.org/10.1111/j.1745-9125.1998.tb01268.x>
 
-Pierce, J. R., & Aguinis, H. (2013). The too-much-of-a-good-thing effect
+Pierce, J. R., and Aguinis, H. (2013). The too-much-of-a-good-thing effect
 in management. *Journal of Management, 39*(2), 313–338.
 <https://doi.org/10.1177/0149206311410060>
 
@@ -856,7 +856,7 @@ Management Journal, 28*(13), 1319–1350.
 <https://doi.org/10.1002/smj.640>
 
 Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J.
-Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A
+Q., Fabian, N., and Haenlein, M. (2021). Digital transformation: A
 multidisciplinary reflection and research agenda. *Journal of Business
 Research, 122*, 889–901. <https://doi.org/10.1016/j.jbusres.2019.09.022>
 
@@ -880,7 +880,7 @@ Bank Enterprise Surveys. <https://www.enterprisesurveys.org>
 World Bank. (2025). *China Enterprise Survey 2024* \[Data file\]. World
 Bank Enterprise Surveys. <https://www.enterprisesurveys.org>
 
-Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013).
+Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., and Chung, J. (2013).
 Internationalization and performance of firms in China: Moderating
 effects of governance structure and the degree of centralized control.
 *Journal of International Management, 19*(2), 118–137.

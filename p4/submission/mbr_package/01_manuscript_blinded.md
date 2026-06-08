@@ -107,7 +107,7 @@ extent to which they adopt basic digital interfaces and
 transaction-enabling systems. These two domains should not be collapsed
 into a single umbrella construct, because technological capability
 reflects firm-internal capability depth grounded in resource-based and
-absorptive-capacity logic (Barney 1991; Cohen & Levinthal 1990; Lall
+absorptive-capacity logic (Barney 1991; Cohen and Levinthal 1990; Lall
 1992), whereas digital adoption reflects participation in digitally
 enabled transactions and interfaces that may be more contingent on the
 surrounding digital ecosystem (Bharadwaj et al. 2013; Verhoef et al.
@@ -392,7 +392,7 @@ Hypothesis 3 (H3). In Singapore, when firms operate at higher export
 intensity, the association between digital adoption (DAI) and firm
 performance becomes more positive because foundational digital tools
 reduce cross-border coordination costs super-linearly rather than
-proportionally (coordination platform mechanism: Stallkamp & Schotter
+proportionally (coordination platform mechanism: Stallkamp and Schotter
 2021; Barney 1991), with the amplification effect becoming detectable
 only beyond the export-intensity threshold at which transaction volume
 justifies intensive use of digital interfaces and electronic-payment
@@ -439,7 +439,7 @@ enters as a direct level-shift to firm performance. H2: DAI (Tier-1+2:
 website + e-payment) exhibits a non-uniform positive direct effect,
 varying across export intensity. H3: DAI amplifies I→P performance
 returns at high FSTS, the primary contingency hypothesis (coordination
-platform mechanism: Stallkamp & Schotter, 2021; Dynamic Capabilities:
+platform mechanism: Stallkamp and Schotter, 2021; Dynamic Capabilities:
 Teece, 2007). The Heckman two-step IMR sensitivity check controls
 exporter selection bias but is not displayed in the figure. (+) denotes
 positive association. Control variables (ln firm size, age, foreign
@@ -578,7 +578,7 @@ indicator for at least 10% foreign equity. Broad sector indicators
 distinguish manufacturing, retail, and other services and absorb
 sector-level heterogeneity in productivity, export propensity, and
 technology-adoption norms. Manager experience, originally motivated by
-the upper-echelons framework (Hambrick & Mason 1984) and initially
+the upper-echelons framework (Hambrick and Mason 1984) and initially
 considered as a control, was dropped after variance-inflation
 diagnostics indicated problematic collinearity with firm size.
 
@@ -802,7 +802,7 @@ diffused, the attenuation of the classic coordination-cost mechanism is
 consistent with the saturation hypothesis underlying H3 rather than
 constituting a failure of the inverted-U framework. The interpretive
 force of this null is sharpened by an equivalence-test framing (Lakens,
-Scheel, & Isager, 2018): with the observed FSTS range bounded
+Scheel, and Isager, 2018): with the observed FSTS range bounded
 essentially at the 70th percentile of the distribution, the L–M test is
 statistically underpowered to distinguish "no inverted-U" from
 "inverted-U whose right-side decline has been pushed into the unobserved
@@ -979,7 +979,7 @@ relationship between export intensity and labour productivity with 95%
 confidence bands from the canonical quadratic specification (M2). The
 implied turning point occurs near FSTS = 88.6% on the original scale
 (−β₁/2β₂ on mean-centered FSTS ≈ 84.1%; adding back the sample mean of
-0.045 gives ≈ 88.6%, Aiken & West, 1991), but its 95% percentile
+0.045 gives ≈ 88.6%, Aiken and West, 1991), but its 95% percentile
 cluster-bootstrap confidence interval (5, 000 replications) spans \[53%,
 253%\] (median 80%, IQR \[68%, 102%\]); the inverted-U shape is
 recovered in 96.3% of bootstrap replications, but its precise location
@@ -1183,7 +1183,7 @@ setting.
 
 Influential conceptual work on digital internationalization has proposed
 frameworks for platform boundaries and internalization in digital
-settings (Banalieva & Dhanaraj, 2019; Stallkamp & Schotter, 2021), but
+settings (Banalieva and Dhanaraj, 2019; Stallkamp and Schotter, 2021), but
 firm-level empirical evidence on how foundational digital adoption
 interacts with export intensity within a single digitally advanced
 economy remains limited. The present findings provide one such data
@@ -1409,16 +1409,16 @@ upon reasonable request.
 
 ## References
 
-Aguinis, H., Beaty, J. C., Boik, R. J., & Pierce, C. A. (2005). Effect
+Aguinis, H., Beaty, J. C., Boik, R. J., and Pierce, C. A. (2005). Effect
 size and power in assessing moderating effects of categorical variables
 using multiple regression: A 30-year review. *Journal of Applied
 Psychology, 90*(1), 94–107. <https://doi.org/10.1037/0021-9010.90.1.94>
-Aiken, L. S., & West, S. G. (1991). *Multiple regression: Testing and
+Aiken, L. S., and West, S. G. (1991). *Multiple regression: Testing and
 interpreting interactions*. Sage. Antonakis, J., Bendahan, S., Jacquart,
-P., & Lalive, R. (2010). On making causal claims: A review and
+P., and Lalive, R. (2010). On making causal claims: A review and
 recommendations. *The Leadership Quarterly, 21*(6), 1086–1120.
 <https://doi.org/10.1016/j.leaqua.2010.10.010> Avenyo, E. K., Tregenna,
-F., & Kraemer-Mbula, E. (2021). Do productive capabilities affect export
+F., and Kraemer-Mbula, E. (2021). Do productive capabilities affect export
 performance? Microeconomic evidence from sub-Saharan Africa. *The
 European Journal of Development Research, 33*(2), 304–329.
 <https://doi.org/10.1057/s41287-020-00328-2> Banalieva, E. R., &
@@ -1427,18 +1427,18 @@ Dhanaraj, C. (2019). Internalization theory for the digital economy.
 <https://doi.org/10.1057/s41267-019-00243-7> Barney, J. (1991). Firm
 resources and sustained competitive advantage. *Journal of Management,
 17*(1), 99–120. <https://doi.org/10.1177/014920639101700108> Bharadwaj,
-A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital
+A., El Sawy, O. A., Pavlou, P. A., and Venkatraman, N. (2013). Digital
 business strategy: Toward a next generation of insights. *MIS Quarterly,
 37*(2), 471–482. <https://doi.org/10.25300/MISQ/2013/37:2.3>
-Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity
+Brynjolfsson, E., Rock, D., and Syverson, C. (2021). The productivity
 J-curve: How intangibles complement general purpose technologies.
 *American Economic Journal: Macroeconomics, 13*(1), 333–372.
 <https://doi.org/10.1257/mac.20180386> Cohen, J. (1988). *Statistical
 power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum.
-Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new
+Cohen, W. M., and Levinthal, D. A. (1990). Absorptive capacity: A new
 perspective on learning and innovation. *Administrative Science
 Quarterly, 35*(1), 128–152. <https://doi.org/10.2307/2393553> Coltman,
-T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative
+T., Devinney, T. M., Midgley, D. F., and Venaik, S. (2008). Formative
 versus reflective measurement models: Two applications of formative
 measurement. *Journal of Business Research, 61*(12), 1250–1262.
 <https://doi.org/10.1016/j.jbusres.2008.01.013> Contractor, F. J.
@@ -1446,44 +1446,44 @@ measurement. *Journal of Business Research, 61*(12), 1250–1262.
 or multi-stage theory of internationalization vs. the transaction cost
 perspective. *Management International Review, 47*(3), 453–475.
 <https://doi.org/10.1007/s11575-007-0024-2> Contractor, F. J., Kundu, S.
-K., & Hsu, C.-C. (2003). A three-stage theory of international
+K., and Hsu, C.-C. (2003). A three-stage theory of international
 expansion: The link between multinationality and performance in the
 service sector. *Journal of International Business Studies, 34*(1),
 5–18. <https://doi.org/10.1057/palgrave.jibs.8400003> Haans, R. F. J.,
-Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and
+Pieters, C., and He, Z.-L. (2016). Thinking about U: Theorizing and
 testing U- and inverted U-shaped relationships in strategy research.
 *Strategic Management Journal, 37*(7), 1177–1195.
-<https://doi.org/10.1002/smj.2399> Hambrick, D. C., & Mason, P. A.
+<https://doi.org/10.1002/smj.2399> Hambrick, D. C., and Mason, P. A.
 (1984). Upper echelons: The organization as a reflection of its top
 managers. *Academy of Management Review, 9*(2), 193–206.
 <https://doi.org/10.5465/amr.1984.4277628> Hitt, M. A., Hoskisson, R.
-E., & Kim, H. (1997). International diversification: Effects on
+E., and Kim, H. (1997). International diversification: Effects on
 innovation and firm performance in product-diversified firms. *Academy
 of Management Journal, 40*(4), 767–798. <https://doi.org/10.5465/256948>
-Krammer, S. M. S., Strange, R., & Lashitew, A. (2018). The export
+Krammer, S. M. S., Strange, R., and Lashitew, A. (2018). The export
 performance of emerging economy firms. *International Business Review,
 27*(1), 218–230. <https://doi.org/10.1016/j.ibusrev.2017.07.003> Lakens,
-D., Scheel, A. M., & Isager, P. M. (2018). Equivalence testing for
+D., Scheel, A. M., and Isager, P. M. (2018). Equivalence testing for
 psychological research: A tutorial. *Advances in Methods and Practices
 in Psychological Science, 1*(2), 259–269.
 <https://doi.org/10.1177/2515245918770963> Lall, S. (1992).
 Technological capabilities and industrialization. *World Development,
 20*(2), 165–186. <https://doi.org/10.1016/0305-750X(92)90097-F> Lind, J.
-T., & Mehlum, H. (2010). With or without U? The appropriate test for a
+T., and Mehlum, H. (2010). With or without U? The appropriate test for a
 U-shaped relationship. *Oxford Bulletin of Economics and Statistics,
 72*(1), 109–118. <https://doi.org/10.1111/j.1468-0084.2009.00569.x> Lu,
-J. W., & Beamish, P. W. (2004). International diversification and firm
+J. W., and Beamish, P. W. (2004). International diversification and firm
 performance: The S-curve hypothesis. *Academy of Management Journal,
 47*(4), 598–609. <https://doi.org/10.5465/20159604> MacKinnon, J. G., &
 White, H. (1985). Some heteroskedasticity-consistent covariance matrix
 estimators with improved finite sample properties. *Journal of
 Econometrics, 29*(3), 305–325.
 <https://doi.org/10.1016/0304-4076(85)90158-7> Marano, V., Arregle,
-J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country
+J.-L., Hitt, M. A., Spadafora, E., and van Essen, M. (2016). Home country
 institutions and the internationalization-performance relationship: A
 meta-analytic review. *Journal of Management, 42*(5), 1075–1110.
 <https://doi.org/10.1177/0149206315624963> Meyer, K. E., van
-Witteloostuijn, A., & Beugelsdijk, S. (2017). What’s in a p? Reassessing
+Witteloostuijn, A., and Beugelsdijk, S. (2017). What’s in a p? Reassessing
 best practices for conducting and reporting hypothesis-testing research.
 *Journal of International Business Studies, 48*(5), 535–551.
 <https://doi.org/10.1057/s41267-017-0078-8> O’Brien, R. M. (2007). A
@@ -1492,7 +1492,7 @@ caution regarding rules of thumb for variance inflation factors.
 <https://doi.org/10.1007/s11135-006-9018-6> Peng, M. W. (2003).
 Institutional transitions and strategic choices. *Academy of Management
 Review, 28*(2), 275–296. <https://doi.org/10.5465/amr.2003.9416341>
-Peng, M. W., Wang, D. Y. L., & Jiang, Y. (2008). An institution-based
+Peng, M. W., Wang, D. Y. L., and Jiang, Y. (2008). An institution-based
 view of international business strategy: A focus on emerging economies.
 *Journal of International Business Studies, 39*(5), 920–936.
 <https://doi.org/10.1057/palgrave.jibs.8400377> Rugman, A. M., &
@@ -1502,14 +1502,14 @@ multinational enterprises. *Journal of International Business Studies,
 M. (2020). Causal identification through a cumulative body of research
 in the study of strategy and organizations. *Journal of Management,
 46*(6), 1244–1256. <https://doi.org/10.1177/0149206319846272> Stallkamp,
-M., & Schotter, A. P. J. (2021). Platforms without borders? The
+M., and Schotter, A. P. J. (2021). Platforms without borders? The
 international strategies of digital platform firms. *Global Strategy
 Journal, 11*(1), 58–80. <https://doi.org/10.1002/gsj.1336> Verhoef, P.
 C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian,
-N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary
+N., and Haenlein, M. (2021). Digital transformation: A multidisciplinary
 reflection and research agenda. *Journal of Business Research, 122*,
 889–901. <https://doi.org/10.1016/j.jbusres.2019.09.022> Wolfolds, S.
-E., & Siegel, J. (2019). Misaccounting for endogeneity: The peril of
+E., and Siegel, J. (2019). Misaccounting for endogeneity: The peril of
 relying on the Heckman two-step method without a valid instrument.
 *Strategic Management Journal, 40*(3), 432–462.
 <https://doi.org/10.1002/smj.2995>
