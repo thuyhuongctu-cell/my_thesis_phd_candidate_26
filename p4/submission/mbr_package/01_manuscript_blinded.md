@@ -16,27 +16,14 @@ figures): approximately 8, 500 words.
 
 ## Abstract
 
-This study examines how technological capability (TCI) and digital
-adoption (DAI) are associated with the internationalization–performance
-relationship among firms in Singapore, a boundary-case test at the
-advanced-economy ceiling of the ICRV spectrum, where digital
-infrastructure is near-universally diffused. Using World Bank Enterprise
-Survey microdata (Singapore 2023, N = 623), the analysis separates
-firm-internal capability depth (TCI) from foundational digital
-interfaces and transaction-enabling mechanisms (DAI).
+**Purpose:** This study examines how technological capability (TCI) and foundational digital adoption (DAI) relate to the internationalization–performance (I–P) relationship among firms in Singapore, a boundary-case test at the advanced-economy ceiling of the institutional-context (ICRV) spectrum, where digital infrastructure is near-universally diffused.
 
-Three findings emerge. First, the I–P relationship within the observed
-export-intensity range is better characterized as predominantly positive
-with mild quadratic curvature than as an inverted-U; the implied turning
-point lies in a sparsely populated upper tail. Second, TCI is positively
-associated with labour productivity, but no TCI moderation of the I–P
-curve is detected. Third, DAI does not produce a uniform productivity
-premium; instead, its productivity association becomes more positive
-only at higher export intensity, with the clearest signal in the
-high-export tail. These findings suggest that foundational digital
-adoption functions as a contingent scaling resource, its productivity
-relevance activates under cross-border coordination demands, rather
-than as a firm-wide productivity advantage.
+**Design/methodology/approach:** Using World Bank Enterprise Survey microdata (Singapore 2023, N = 623), the analysis separates firm-internal capability depth (TCI) from foundational digital interfaces and transaction-enabling mechanisms (DAI), estimating quadratic export-intensity models of labour productivity with capability interactions.
+
+**Findings:** Three findings emerge. First, within the observed export-intensity range the I–P relationship is better characterized as predominantly positive with mild quadratic curvature than as an inverted-U, with the implied turning point in a sparsely populated upper tail. Second, TCI is positively associated with labour productivity, but no TCI moderation of the I–P curve is detected. Third, DAI does not produce a uniform productivity premium; its productivity association becomes more positive only at higher export intensity, with the clearest signal in the high-export tail.
+
+**Originality/value:** At the advanced-economy ceiling, foundational digital adoption functions as a contingent scaling resource whose productivity relevance activates under cross-border coordination demands, rather than as a firm-wide productivity advantage. The boundary-case design clarifies *when*, rather than *whether*, digital adoption matters for internationalizing firms.
+
 
 **Keywords:** internationalization–performance relationship; digital
 adoption; technological capability; export intensity; labour

@@ -24,20 +24,20 @@ capability level-shift coefficients).
 
 ## Abstract
 
-**Purpose**, This study examines whether the inverted-U relationship
+**Purpose:** This study examines whether the inverted-U relationship
 between export intensity and firm performance among Chinese private
 firms is structurally durable or wave-specific, and tests how
 technological capability shapes this relationship across a decade of
 structural change.
 
-**Design/methodology/approach**, World Bank Enterprise Survey microdata
+**Design/methodology/approach:** World Bank Enterprise Survey microdata
 for China (2012, N = 2, 610; 2024, N = 1, 934; pooled N = 4, 544;
 complete-case sample after listwise deletion on control variables) are
 used to estimate quadratic models with cross-wave and capability
 interactions; Paternoster (1998) z-tests and joint F-tests assess
 temporal stability.
 
-**Findings**, Turning points remain within a tight range (49.4% in
+**Findings:** Turning points remain within a tight range (49.4% in
 2012, 47.2% in 2024, 48.8% pooled) with overlapping confidence
 intervals. Paternoster tests do not reject coefficient equality across
 waves (FSTS z = +0.82, p = .412; FSTS² z = −0.61, p = .545), supporting
@@ -48,7 +48,7 @@ not robustly moderate the I–P curvature. A single-item digital-presence
 proxy is positively associated with productivity but is retained as a
 baseline control, not a capability construct.
 
-**Originality/value**, Despite substantial structural change between
+**Originality/value:** Despite substantial structural change between
 2012 and 2024, the Chinese I–P trade-off is durably structural rather
 than wave-specific. The study recasts the inverted-U threshold from a
 sample-specific regularity into an enduring structural feature,

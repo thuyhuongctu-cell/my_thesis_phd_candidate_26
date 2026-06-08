@@ -6,41 +6,8 @@ IF ≈ 5.5, ABS-3)* *Version 1.0, May 2026 (target journal submission: Q4
 
 ## Abstract
 
-**Purpose:** We conduct a three-level meta-analytic regression analysis
-(MARA) examining whether country-level digital adoption (cDAI),
-institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL)
-phase moderate the internationalization–performance (I→P) relationship 
-three theoretically motivated moderators that prior meta-analyses have
-not examined. **Design/methodology/approach:** A systematic search
-following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026)
-identifies *k* = 237 studies with *K* = 287 effect sizes. Three-level
-MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes
-heterogeneity into within-study (*Level 2*) and between-study (*Level
-3*) components using `metafor` in R. Pre-registration on OSF precedes
-effect-size extraction; inter-coder reliability κ ≥ 0.70 on 20%
-double-coded subsample. **Findings:** The baseline pooled effect is *r*
-= 0.074 (95% CI \[0.060, 0.088\], *p* \< .001) with *I*² = 62.5%
-(within-study 54.1%; between-study 8.4%), replicating and extending the
-ICBEF 2025 baseline (*r* = 0.07, *k* = 113). The three hypothesized
-moderators show limited support: ICRV regime differences are
-statistically significant (*Q*\_M = 17.35, *df* = 4, *p* = .002) but
-driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* =
-0.35) rather than a monotone institutional gradient; cDAI and DPL phase
-moderation are not statistically significant (*Q*\_M = 1.34, *p* = .513
-and *Q*\_M = 0.62, *p* = .734, respectively) in the current *k* = 237
-sample. Substantial publication bias is detected: trim-and-fill imputes
-*k* = 57 missing studies, reducing the adjusted pooled effect to *r* =
-0.035 (95% CI \[0.018, 0.051\]), positive but attenuated.
-**Originality/value:** This is the first three-level MARA of I→P drawing
-on *k* = 237 studies from 49 economies globally, and the first to
-formally test ICRV, cDAI, and DPL phase as moderators. The ICRV
-between-regime Q_M test confirms H1 (Q_M = 17.35, *p* = .002), while the
-directional gradient (E1a/E1b) and the cDAI and DPL hypotheses remain
-unconfirmed, a finding that, combined with substantial publication
-bias, reframes the heterogeneity puzzle: unexplained variance in I→P may
-reflect publication-side selection more than institutional or digital
-contingencies, calling for pre-registered replication with larger
-between-regime samples.
+We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I→P) relationship, testing three theoretically motivated moderators that prior meta-analyses have not examined. A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 237 studies with *K* = 287 effect sizes. The three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study and between-study components using `metafor` in R, with OSF pre-registration preceding effect-size extraction and inter-coder reliability κ ≥ 0.70 on a 20% double-coded subsample. The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.5% (within-study 54.1%; between-study 8.4%), replicating and extending prior baselines. The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient, whereas cDAI (*Q*_M = 1.34, *p* = .513) and DPL phase (*Q*_M = 0.62, *p* = .734) are non-significant. Substantial publication bias is detected: trim-and-fill imputes *k* = 57 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.018, 0.051]), positive but attenuated. This first three-level MARA of I→P, spanning 49 economies, reframes the heterogeneity puzzle: unexplained variance in I→P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
+
 
 **Keywords:** internationalization–performance; meta-analysis;
 three-level model; digital adoption; institutional context; ICRV;

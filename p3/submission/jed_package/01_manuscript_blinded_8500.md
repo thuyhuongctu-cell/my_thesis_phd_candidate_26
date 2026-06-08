@@ -3,13 +3,13 @@
 *[Blinded manuscript for double-anonymous review. Author identities, affiliations, and acknowledgements are supplied in the separate Title Page. Tables are supplied in a separate file (Tables I–III); robustness analyses are supplied as online Supplementary Material.]*
 
 ## Abstract
-Purpose: This study revisits the internationalisation–performance relationship in Vietnam across three survey waves, testing whether technological capability moderates export-intensity effects and how a Tier-1 digital indicator evolves across institutional generations.
+**Purpose:** This study revisits the internationalisation–performance relationship in Vietnam across three survey waves, testing whether technological capability moderates export-intensity effects and how a Tier-1 digital indicator evolves across institutional generations.
 
-Design/methodology/approach: Three waves of World Bank Enterprise Survey (Vietnam 2009, 2015, 2023; N = 2,958) underpin wave-specific and pooled OLS models with HC1 standard errors, quadratic FSTS terms, and capability interactions. TCI (quality certification, foreign-licensed technology) is the primary construct; a Tier-1 website indicator serves as digital-presence control.
+**Design/methodology/approach:** Three waves of World Bank Enterprise Survey (Vietnam 2009, 2015, 2023; N = 2,958) underpin wave-specific and pooled OLS models with HC1 standard errors, quadratic FSTS terms, and capability interactions. TCI (quality certification, foreign-licensed technology) is the primary construct; a Tier-1 website indicator serves as digital-presence control.
 
-Findings: An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46%, a durable band over 14 years. The nonlinearity reflects a participation-margin effect: on exporters only, the quadratic term loses significance. TCI positively moderates productivity and the I–P curvature across waves. The website indicator follows a proxy-obsolescence trajectory: positive in 2009, null in 2015, negatively interactive in 2023.
+**Findings:** An inverted-U between export intensity and labour productivity holds across all three waves, with turning points clustered between 39% and 46%, a durable band over 14 years. The nonlinearity reflects a participation-margin effect: on exporters only, the quadratic term loses significance. TCI positively moderates productivity and the I–P curvature across waves. The website indicator follows a proxy-obsolescence trajectory: positive in 2009, null in 2015, negatively interactive in 2023.
 
-Originality/value: The inverted-U in this zero-inflated setting reflects a participation-barrier effect rather than intensity saturation; pooled Tier-1 coefficients mask progressive proxy obsolescence. The institutionally embedded turning-point cluster (39–46% FSTS) shifts the debate from 'does internationalisation help?' to 'under what institutional conditions does the threshold shift?'
+**Originality/value:** The inverted-U in this zero-inflated setting reflects a participation-barrier effect rather than intensity saturation; pooled Tier-1 coefficients mask progressive proxy obsolescence. The institutionally embedded turning-point cluster (39–46% FSTS) shifts the debate from 'does internationalisation help?' to 'under what institutional conditions does the threshold shift?'
 
 Keywords: internationalisation–performance; emerging markets; technological capability; threshold durability; Vietnam; firm productivity.
 
