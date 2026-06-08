@@ -134,7 +134,7 @@ Kết quả thực nghiệm cung cấp **hướng dẫn thực tế** cho nhà q
 
 ### 5.4.3 Đề xuất đặc biệt cho SIDS — Tránh Bẫy Quốc Tế Hóa Bắt Buộc
 
-Phát hiện FIP tại chín quốc gia SIDS có hàm ý chính sách cụ thể và cấp bách. Hiện tại, nhiều chương trình phát triển quốc tế và viện trợ thương mại cho SIDS tập trung vào khuyến khích xuất khẩu như một chiến lược tăng trưởng. Kết quả FIP đặt câu hỏi về hiệu quả của chiến lược này khi thiếu nền tảng năng lực tương ứng.
+Phát hiện FIP tại bảy quốc gia Pacific SIDS có hàm ý chính sách cụ thể và cấp bách. Hiện tại, nhiều chương trình phát triển quốc tế và viện trợ thương mại cho SIDS tập trung vào khuyến khích xuất khẩu như một chiến lược tăng trưởng. Kết quả FIP đặt câu hỏi về hiệu quả của chiến lược này khi thiếu nền tảng năng lực tương ứng.
 
 Thay vào đó, hàm ý chính sách là: **không phải xuất khẩu nhiều hơn, mà phải xuất khẩu tốt hơn**. Cụ thể, ưu tiên nên là: (i) xây dựng hạ tầng logistics và kết nối (giảm chi phí cố định của xuất khẩu); (ii) phát triển năng lực doanh nghiệp thông qua TCI (chứ không chỉ DAI bề mặt); (iii) thiết kế chương trình hỗ trợ xuất khẩu có chọn lọc tập trung vào doanh nghiệp đã có đủ năng lực để hưởng lợi, thay vì khuyến khích đại trà. Nói tóm lại, tránh "bẫy quốc tế hóa bắt buộc" bằng cách đảm bảo rằng các can thiệp chính sách xây dựng năng lực trước khi thúc đẩy mở rộng thị trường.
 

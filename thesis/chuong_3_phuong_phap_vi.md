@@ -496,6 +496,12 @@ $$\beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (C
 
 ---
 
+#### 3.4.5.6 Mô hình cụ thể, Nghiên cứu 9: Ấn Độ, độ bền ngưỡng qua chuyển đổi thể chế (P9)
+
+Nghiên cứu 9 sử dụng ba đợt Khảo sát Doanh nghiệp Ngân hàng Thế giới cho Ấn Độ (2014 PICS3, $N_{phân tích} = 8.941$; 2022 BEE, $N_{phân tích} = 9.300$; 2025 BREADY, $N_{phân tích} = 10.476$; mẫu gộp $N = 28.717$), pool đơn quốc gia lớn nhất của luận án. Ấn Độ thuộc Nhóm III ICRV (Emerging); cửa sổ 2014–2025 bao trùm chuỗi cú sốc thể chế (bãi bỏ tiền mặt 2016, GST 2017, IBC 2016, UPI 2016, PLI và Atmanirbhar Bharat 2020, COVID-19), tạo điều kiện stress-test cho giả thuyết bền vững ngưỡng.
+
+Mô hình ước lượng OLS với sai số chuẩn vững HC1, gồm số hạng FSTS bậc nhất và bậc hai (centred theo đợt) cùng các tương tác năng lực (TCI, DAI). Ba kiểm định bổ sung: (i) Lind–Mehlum U-test xác nhận U ngược theo từng đợt; (ii) z-test Paternoster (1998) so sánh hệ số giữa 2014 và 2025 (cửa sổ 11 năm chính), báo cáo cả sai số chuẩn HC1 và cụm theo bang; (iii) đặc tả gộp ba đợt với biến giả/xu thế đợt khảo sát làm kiểm định độ vững. Việc UPI ra mắt tháng 4/2016 cung cấp thí nghiệm gần tự nhiên cho bão hòa DAI; riêng đợt 2025 (BREADY) bổ sung chỉ báo Tier-2 (`k33`, tỷ trọng doanh thu qua thanh toán điện tử) cho phép kiểm định điều tiết DAI Tier-2, được xử lý như phân tích thăm dò vì chỉ có ở một đợt.
+
 ### 3.4.6 Sai số chuẩn
 
 Tất cả các mô hình đều sử dụng HC1/HC3 robust standard errors (Long & Ervin, 2000; White, 1980) để xử lý heteroscedasticity. Đối với multi-country, bổ sung clustered SE theo country.
