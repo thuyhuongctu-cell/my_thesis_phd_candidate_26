@@ -191,7 +191,8 @@ stakeholder orientation, relationship capital, and risk management, all
 relevant in institutionally heterogeneous export markets (Richard et
 al., 2019). Firm-level evidence on manufacturing exporters shows that
 manager experience and gender can moderate the
-internationalization–performance relationship (Phan et al., 2020), and
+internationalization–performance relationship (Phan et al., 2020; Do &
+Phan, 2025), and
 top-management-team internationalization shapes performance through
 foreign-market entry (Nielsen, 2010). We expect both to raise the performance level for any given
 FSTS. However, given the breadth of the multi-country sample, firm-level
@@ -755,6 +756,12 @@ Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U:
 Theorizing and testing U- and inverted U-shaped relationships in
 strategy research. *Strategic Management Journal, 37*(7), 1177–1195.
 <https://doi.org/10.1002/smj.2399>
+
+Do, T. H., & Phan, A. T. (2025). Internationalization and firm
+performance of firms in India: The role of top management. In M.
+Bartekova (Ed.), *International business research: Traditional and
+creative approaches*. IntechOpen.
+https://doi.org/10.5772/intechopen.1011012
 
 Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of
 Management Review, 32*(2), 334–343.

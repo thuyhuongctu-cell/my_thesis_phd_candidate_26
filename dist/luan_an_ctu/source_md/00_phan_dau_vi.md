@@ -139,17 +139,18 @@ Luận án được phát triển gắn với chuỗi nghiên cứu thành phầ
 **A. Đã công bố (peer-reviewed)**
 
 1. Do, T. H., & Phan, A. T. (2024, December). *Internationalization and firm performance: A meta-analysis review* [Paper presentation]. The Sixth International Conference on Sustainable Development in Economics, Business, and Finance (ICBEF), Can Tho University, Vietnam. *(Cơ sở baseline meta-analysis — P1/P2.)*
-2. Do, T. H., & Phan, A. T. (2026). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic & Financial Review, 2*(1), 111–115. *(P1.)*
-3. Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 39*(2), 287–291. *(P2.)*
+2. Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012 *(Chương sách bình duyệt — bằng chứng country-level India về vai trò điều tiết của đặc điểm nhà quản trị cấp cao; gắn với tầng thượng tầng quản trị/H4 của luận án.)*
+3. Do, T. H., & Phan, A. T. (2026). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic & Financial Review, 2*(1), 111–115. *(P1.)*
+4. Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 39*(2), 287–291. *(P2.)*
 
 **B. Bản thảo đang trong quá trình bình duyệt (CHƯA công bố)**
 
-4. Nghiên cứu thành phần P3 — Việt Nam (bối cảnh chuyển đổi thu nhập trung bình thấp). *[Bản thảo đang bình duyệt.]*
-5. Nghiên cứu thành phần P4 — Singapore (bối cảnh thể chế tiên tiến–đổi mới). *[Bản thảo đang bình duyệt.]*
-6. Nghiên cứu thành phần P5 — Trung Quốc 2012–2024 (bối cảnh upper-middle). *[Bản thảo đang bình duyệt.]*
-7. Nghiên cứu thành phần P6 — Meta-analysis ba tầng mở rộng 1982–2026. *[Bản thảo đang bình duyệt.]*
-8. Nghiên cứu thành phần P7 — Kiểm định toàn mẫu 49 nền kinh tế châu Á và Thái Bình Dương (capstone). *[Bản thảo đang chỉnh sửa theo phản biện.]*
-9. Nghiên cứu thành phần P8 — Trường hợp biên SIDS, gánh nặng quốc tế hóa bắt buộc (FIP). *[Bản thảo đang chỉnh sửa theo phản biện.]*
+5. Nghiên cứu thành phần P3 — Việt Nam (bối cảnh chuyển đổi thu nhập trung bình thấp). *[Bản thảo đang bình duyệt.]*
+6. Nghiên cứu thành phần P4 — Singapore (bối cảnh thể chế tiên tiến–đổi mới). *[Bản thảo đang bình duyệt.]*
+7. Nghiên cứu thành phần P5 — Trung Quốc 2012–2024 (bối cảnh upper-middle). *[Bản thảo đang bình duyệt.]*
+8. Nghiên cứu thành phần P6 — Meta-analysis ba tầng mở rộng 1982–2026. *[Bản thảo đang bình duyệt.]*
+9. Nghiên cứu thành phần P7 — Kiểm định toàn mẫu 49 nền kinh tế châu Á và Thái Bình Dương (capstone). *[Bản thảo đang chỉnh sửa theo phản biện.]*
+10. Nghiên cứu thành phần P8 — Trường hợp biên SIDS, gánh nặng quốc tế hóa bắt buộc (FIP). *[Bản thảo đang chỉnh sửa theo phản biện.]*
 
 *Ghi chú về liêm chính học thuật: Theo định hướng luận án kết hợp công trình thành phần, các nghiên cứu P1–P8 là một phần nội dung nghiên cứu của chính luận án; do đó trong các chương, chúng được dẫn chiếu bằng nhãn nội bộ (P1–P8) thay vì trích dẫn tác giả–năm. Các bản thảo ở mục B CHƯA được công bố/bình duyệt chính thức, không được diễn giải như bằng chứng đã qua bình duyệt độc lập; tên tạp chí mục tiêu chỉ được nêu chính thức sau khi bài được chấp nhận. NCS cập nhật trạng thái tại thời điểm bảo vệ.*
 

@@ -296,4 +296,4 @@ Sau khi NCS chạy script và có `wbes_p7_pool.dta`:
 - World Bank. (2026). *Indicator Descriptions*. WBES Documentation.
 - Kaufmann, D., Kraay, A., & Mastruzzi, M. (2010). The worldwide governance indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law, 3*(2), 220–246.
 - Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets*. Harvard Business Press.
-- Do, T. H., & Tu, P. A. (2025). Internationalization and firm performance of firms in India: The role of top management. IntechOpen.
+- Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. IntechOpen.
