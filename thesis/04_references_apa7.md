@@ -58,6 +58,7 @@ Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, 
 
 Bustamante, C. V., Mingo, S., & Matusik, S. F. (2022). Institutions and digital capabilities as drivers of SME internationalization. *IEEE Transactions on Engineering Management, 71*, 1–14.
 
+Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414
 Chen, J., & Meng, Q. (2022). Institutional constraints and exporting of emerging-market firms. *Managerial and Decision Economics, 43*(5), 1706–1720.
 
 Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home country uncertainty and the internationalization–performance relationship. *Journal of World Business, 53*(2), 209–221.
@@ -319,6 +320,7 @@ Manova, K. (2013). Credit constraints, heterogeneous firms, and international tr
 
 Mar, T. T., Do, T. H., & Phan, A. T. (2026). *Digital adoption and the internationalization–performance curve: Evidence from Singapore firms* [Manuscript under review]. *Management International Review*.
 
+MacKinnon, J. G., & Webb, M. D. (2017). Wild bootstrap inference for wildly different cluster sizes. *Journal of Applied Econometrics, 32*(2), 233–254. https://doi.org/10.1002/jae.2508
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
 
 Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551. https://doi.org/10.1057/s41267-017-0078-8
@@ -392,6 +394,7 @@ Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of co
 Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
 
 Nielsen, S. (2010). Top management team internationalization and firm performance: The mediating role of foreign market entry. *Management International Review, 50*(2), 185–206. https://doi.org/10.1007/s11575-010-0029-0
+Mizik, N., & Jacobson, R. (2003). Trading off between value creation and value appropriation: The financial implications of shifts in strategic emphasis. *Journal of Marketing, 67*(1), 63–76. https://doi.org/10.1509/jmkg.67.1.63.18595
 North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
 
 Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. https://doi.org/10.1177/0149206319846272
@@ -709,6 +712,7 @@ Briguglio, L. (1995). Small island developing states and their economic vulnerab
 
 Cameron, A. C., & Miller, D. L. (2015). A practitioner's guide to cluster-robust inference. *Journal of Human Resources, 50*(2), 317–372. https://doi.org/10.3368/jhr.50.2.317
 
+Chodorow-Reich, G., Gopinath, G., Mishra, P., & Narayanan, A. (2020). Cash and the economy: Evidence from India's demonetization. *Quarterly Journal of Economics, 135*(1), 57–103. https://doi.org/10.1093/qje/qjz027
 Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum.
 
 Contractor, F. J. (2012). Why do multinational firms exist? A theory note about the effect of multinational expansion on performance and recent methodological critiques. *Global Strategy Journal, 2*(4), 318–331. https://doi.org/10.1111/j.2042-5805.2012.01043.x

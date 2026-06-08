@@ -230,7 +230,33 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 
 ---
 
-## 4.8 Tổng hợp kết quả theo hệ giả thuyết
+## 4.8 Kết quả bối cảnh biến động thể chế cực đoan: Ấn Độ, 2014–2025 (P9)
+
+Phân tích trên ba đợt WBES Ấn Độ (2014 PICS3, $N_{phân tích} = 8.941$; 2022 BEE, $N_{phân tích} = 9.300$; 2025 BREADY, $N_{phân tích} = 10.476$) cho mẫu gộp $N = 28.717$, lớn nhất trong các nghiên cứu đơn quốc gia của luận án. Khoảng thời gian 2014–2025 bao trùm một loạt cú sốc thể chế chưa từng có trong lịch sử Ấn Độ hiện đại: bãi bỏ tiền mặt tháng 11/2016, ban hành Luật Phá sản và Mất khả năng thanh toán (IBC) tháng 5/2016, áp dụng Thuế Hàng hóa và Dịch vụ (GST) tháng 7/2017, ra mắt Giao diện Thanh toán Hợp nhất (UPI) tháng 4/2016 đạt mức 12 tỷ giao dịch/tháng năm 2024, triển khai sáng kiến Sản xuất tại Ấn Độ và chương trình Liên kết Khuyến khích Sản xuất (PLI) năm 2020, cùng chính sách Tự chủ Ấn Độ (Atmanirbhar Bharat) định hướng lại chiến lược quốc gia theo hướng nội địa hóa giai đoạn 2020.
+
+Kết quả thực nghiệm cho thấy một dạng phá vỡ ngưỡng (threshold collapse) không quan sát được ở bất kỳ bối cảnh quốc gia nào khác trong portfolio. Đợt 2014 ghi nhận quan hệ U ngược cổ điển với hệ số bậc nhất dương ($\beta_1 = +1{,}865$, $p < {,}001$) và bậc hai âm ($\beta_2 = -1{,}508$, $p < {,}001$), điểm uốn ước lượng tại $TP = 61{,}8\%$ FSTS (khoảng tin cậy delta-method 95\%: $[55{,}0\%; 68{,}6\%]$), Lind–Mehlum xác nhận đường cong U ngược ở mức $p < {,}001$. Đợt 2022, sau ba cú sốc thể chế đầu tiên (bãi bỏ tiền mặt, GST, IBC), đường cong U ngược vẫn duy trì nhưng điểm uốn đã dịch chuyển đáng kể vào trong: $\beta_1 = +1{,}542$, $\beta_2 = -1{,}893$, $TP = 40{,}7\%$ (khoảng tin cậy 95\%: $[38{,}0\%; 43{,}5\%]$). Đợt 2025, hệ số bậc hai mất ý nghĩa thống kê ($\beta_2 = -0{,}160$, $p = {,}420$), quan hệ trở thành đơn điệu âm trên toàn dải cường độ xuất khẩu thực tế.
+
+Kiểm định Paternoster so sánh hệ số giữa 2014 và 2025 bác bỏ giả thuyết cân bằng với cường độ cực mạnh: $z(\text{FSTS}) = -7{,}94$, $p < {,}0001$ và $z(\text{FSTS}^2) = +4{,}17$, $p < {,}0001$ dưới sai số chuẩn HC1; dưới sai số chuẩn cụm theo bang (cluster-robust, $G = 24$ bang), kết quả vẫn có ý nghĩa thống kê: $z(\text{FSTS}) = -3{,}50$, $p = {,}001$ và $z(\text{FSTS}^2) = +2{,}19$, $p = {,}029$. Đặc tả gộp ba đợt với biến giả đợt khảo sát xác nhận sự dịch chuyển có hệ thống: $\beta(\text{FSTS} \times \text{wave}\_2025) = -1{,}63$ ($p < {,}0001$), cho thấy độ dốc đường cong I-P đã thay đổi căn bản giữa 2014 và 2025.
+
+**Bảng 4.3.** *Điểm uốn theo đợt khảo sát, Ấn Độ.*
+
+| Đợt khảo sát | $N$ phân tích | Điểm uốn (TP) | Lind–Mehlum | Nhận xét |
+|---|---|---|---|---|
+| 2014 (PICS3) | 8.941 | 61,8% FSTS | $p < {,}001$ | U ngược cổ điển |
+| 2022 (BEE) | 9.300 | 40,7% FSTS | $p < {,}001$ | U ngược, TP dịch trong |
+| 2025 (BREADY) | 10.476 | Không xác định | $p = {,}99$ | Đường cong sụp đổ |
+
+*Nguồn: phân tích Ấn Độ (Đỗ & Phan, 2026, bản thảo đang chuẩn bị nộp tạp chí MIR).*
+
+Phát hiện ngưỡng phá vỡ ở Ấn Độ trái ngược trực tiếp với kết quả Trung Quốc cũng thuộc chế độ thu nhập trung bình cao (Nhóm III ICRV), nơi điểm uốn được chứng minh là bền vững cấu trúc qua 12 năm tăng trưởng tích lũy (P5 China: $TP = 49{,}4\%$ năm 2012 so với $TP = 47{,}2\%$ năm 2024, Paternoster $z = +{0,}82$, $p = {,}412$ chấp nhận giả thuyết cân bằng). Sự đối lập này cho thấy bền vững ngưỡng không phải đặc tính phổ quát của chế độ thể chế ICRV III mà phụ thuộc vào mức độ và tốc độ thay đổi thể chế tích lũy trong cửa sổ quan sát.
+
+Vai trò của TCI tại Ấn Độ cho thấy hiện tượng đảo dấu (sign flip) chưa từng quan sát ở các bối cảnh quốc gia khác. Năm 2014, hiệu ứng trực tiếp TCI dương đáng kể ($\beta = +0{,}12$, $p < {,}001$), năm 2022 tiếp tục dương và mạnh hơn ($\beta = +0{,}19$, $p < {,}001$), nhưng năm 2025 đảo sang âm ($\beta = -0{,}08$, $p < {,}001$) đi kèm tương tác FSTS$\times$TCI dương ($\beta = +0{,}20$, $p = {,}03$). Diễn giải nhất quán nhất với khung Mizik và Jacobson (2003) về đánh đổi chú trọng chiến lược (strategic emphasis trade-off): khi chính sách PLI và Atmanirbhar Bharat sau 2020 chuyển hướng năng lực công nghệ sang sản xuất nội địa, đầu tư TCI của doanh nghiệp định hướng nội địa cạnh tranh nguồn lực với hoạt động xuất khẩu, làm triệt tiêu lợi ích năng suất TCI vốn quan sát được khi tích lũy năng lực không thiên kiến giữa nội địa và xuất khẩu.
+
+Vai trò của DAI tại Ấn Độ làm rõ một sự tinh chỉnh lý thuyết quan trọng cho khung CDCM. Tại đợt 2025, ngoài chỉ báo Tier-1 (trang web) chung cho cả ba đợt, WBES BREADY cung cấp thêm chỉ báo Tier-2 (tỷ trọng doanh thu nhận qua thanh toán điện tử, biến `k33`) làm bối cảnh thí nghiệm gần tự nhiên cho hạ tầng số công cộng UPI. Tương tác DAI Tier-2 với cường độ xuất khẩu lại âm và có ý nghĩa thống kê: $\text{FSTS} \times \text{DAI}_{Tier-2} = -4{,}02$, $p = {,}004$, ngược với dự đoán phụ phẩm cộng hưởng năng lực số công cộng. Diễn giải cộng hưởng (complementarity reading): hạ tầng số công cộng UPI vận hành trên đường ray rupee nội địa và yêu cầu KYC Aadhaar cho đối tác cư trú tại Ấn Độ; doanh nghiệp xuất khẩu cần hạ tầng tài chính xuyên biên giới khác hẳn (SWIFT, ngân hàng đại lý, tài trợ thương mại, bảo hiểm tín dụng xuất khẩu) mà UPI không thể thay thế. Phát hiện này cho thấy hạ tầng công cộng số chỉ thay thế năng lực tư nhân khi hai loại hạ tầng có cùng định hướng mục đích, không phải thay thế phổ quát cho mọi hoạt động sản xuất doanh nghiệp.
+
+---
+
+## 4.9 Tổng hợp kết quả theo hệ giả thuyết
 
 | Giả thuyết | Nội dung | Kết quả |
 |---|---|---|
@@ -241,6 +267,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | H5 (ICRV gradient) | Thể chế điều tiết gradient I–P | Xác nhận một phần: $Q_M = 17{,}35^{**}$ (*df* = 4, *p* = ,002) từ P6 MARA xác nhận dị biệt giữa chế độ; gradient định hướng (E1a/E1b) chưa xác nhận do *k* = 3 tại Frontier; gradient ICRV → TP được xác nhận từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I–P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |
 | H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận: $\beta = -1{,}339^{***}$ (M1, country+year FE) đến $-3{,}351^{***}$ (year-FE); exporters-only NS do mẫu nhỏ (N=26) |
+| H1c (Tan biến ngưỡng — Ấn Độ, P9) | Ngưỡng U ngược *tan biến* dưới biến động thể chế cực đoan 2014–2025 | Xác nhận tại Ấn Độ: TP 61,8% (2014) → 40,7% (2022) → tan biến (2025, $\beta_2$ NS); Paternoster $z = -7{,}94$, $p < {,}0001$; tương tác DAI Tier-2 (UPI) âm ($-4{,}02$, $p = {,}004$) |
 
 ---
 
