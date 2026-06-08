@@ -6,7 +6,7 @@ IF ≈ 5.5, ABS-3)* *Version 1.0, May 2026 (target journal submission: Q4
 
 ## Abstract
 
-We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I→P) relationship, testing three theoretically motivated moderators that prior meta-analyses have not examined. A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 237 studies with *K* = 287 effect sizes. The three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study and between-study components using `metafor` in R, with OSF pre-registration preceding effect-size extraction and inter-coder reliability κ ≥ 0.70 on a 20% double-coded subsample. The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.5% (within-study 54.1%; between-study 8.4%), replicating and extending prior baselines. The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient, whereas cDAI (*Q*_M = 1.34, *p* = .513) and DPL phase (*Q*_M = 0.62, *p* = .734) are non-significant. Substantial publication bias is detected: trim-and-fill imputes *k* = 57 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.018, 0.051]), positive but attenuated. This first three-level MARA of I→P, spanning 49 economies, reframes the heterogeneity puzzle: unexplained variance in I→P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
+We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I→P) relationship, testing three theoretically motivated moderators that prior meta-analyses have not examined. A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 238 studies with *K* = 288 effect sizes. The three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study and between-study components using `metafor` in R, with OSF pre-registration preceding effect-size extraction and inter-coder reliability κ ≥ 0.70 on a 20% double-coded subsample. The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.5% (within-study 54.1%; between-study 8.4%), replicating and extending prior baselines. The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient, whereas cDAI (*Q*_M = 1.34, *p* = .513) and DPL phase (*Q*_M = 0.62, *p* = .734) are non-significant. Substantial publication bias is detected: trim-and-fill imputes *k* = 57 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.018, 0.051]), positive but attenuated. This first three-level MARA of I→P, spanning 49 economies, reframes the heterogeneity puzzle: unexplained variance in I→P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
 
 
 **Keywords:** internationalization–performance; meta-analysis;
@@ -70,7 +70,7 @@ temporal moderator has never been systematically coded in I→P
 meta-analyses.
 
 This paper addresses all three gaps through a fresh systematic search
-expanding the ICBEF 2025 baseline from *k* = 113 to *k* = 237, combined
+expanding the ICBEF 2025 baseline from *k* = 113 to *k* = 238, combined
 with three-level MARA that decomposes heterogeneity beyond what
 random-effects models allow.
 
@@ -80,7 +80,7 @@ I→P literature; (2) first PRISMA-2020-compliant systematic search with
 OSF pre-registration for this topic; (3) first application of
 between-study *vs.* within-study heterogeneity decomposition to I→P.
 *(Theoretical)*: (4) First meta-analytic test of an ICRV 5-regime
-framework applied to a globally representative I→P corpus (*k* = 237, 49
+framework applied to a globally representative I→P corpus (*k* = 238, 49
 economies); (5) first formal test of cDAI as a national-level
 digital-infrastructure moderator of I→P; (6) first test of DPL phase as
 a temporal moderator using three-level MARA. The non-confirmation of
@@ -89,7 +89,7 @@ themselves informative findings that bound the conditions under which
 these moderators could operate.
 
 **Key findings preview.** The baseline pooled effect (*r* = 0.074, *k* =
-237, *K* = 287) replicates and extends the ICBEF 2025 finding (*r* =
+238, *K* = 288) replicates and extends the ICBEF 2025 finding (*r* =
 0.07, *k* = 113), confirming a small but consistent positive I→P
 relationship globally. H1 (between-regime Q_M test) is confirmed (*Q*\_M
 = 17.35, *p* = .002); however, the directional Exploratory Propositions
@@ -146,7 +146,7 @@ distinct measurement bases and theoretical roles. In the present
 meta-analytic study, only cDAI is operationalized as a study-level
 moderator; DAI and TCI remain within-study variables in the
 primary-study designs and are not separately extractable at
-meta-analytic resolution from the k = 237 corpus. The resource-bundling
+meta-analytic resolution from the k = 238 corpus. The resource-bundling
 prediction for P6 therefore concerns whether a richer national digital
 environment raises the aggregate I→P effect across studies, a
 between-study moderation claim at the country level, not a within-study
@@ -286,7 +286,7 @@ Frontier and SIDS contexts at sufficient resolution. Marano et al.
 the Advanced/Upper-Middle/Emerging/Frontier spectrum examined here. The
 ICRV 5-regime taxonomy, anchored in World Bank World Governance
 Indicators (Rule of Law dimension, 2023 vintage) and applied to the full
-k = 237 global study corpus, provides the first classification capable
+k = 238 global study corpus, provides the first classification capable
 of testing the CIMT between-regime prediction meta-analytically across
 economies ranging from Singapore (WGI +1.84) to Pakistan (WGI −0.55) and
 Iran (WGI −0.74).
@@ -378,7 +378,7 @@ crisis accelerated digital adoption among SMEs as a cost-reduction
 strategy. These three concurrent developments make 2009 a defensible
 global inflection point for digital adoption in trade-oriented economies
 rather than an arbitrary choice; the Asia-Pacific region, home to 52%
-of the k = 237 corpus, was a primary site of this diffusion.
+of the k = 238 corpus, was a primary site of this diffusion.
 
 **Hypothesis 2 (H2, DPL phase):** Studies drawing predominantly on
 post-2014 data (DPL Follow phase) are expected to show larger pooled I→P
@@ -516,7 +516,7 @@ moderators
 Regression Analysis).
 
 *Note:* Solid arrows represent the primary meta-analytic effect
-(baseline I→P pooled effect, k = 237 studies from 49 economies, K = 287
+(baseline I→P pooled effect, k = 238 studies from 49 economies, K = 288
 effects, r̄ = 0.074, 95% CI \[0.060, 0.088\]). Dashed arrows represent
 hypothesised moderating relationships. Three study-level constructs were
 tested as moderators: (1) ICRV Regime (H1), hypothesised between-regime
@@ -527,7 +527,7 @@ directional Exploratory Propositions E1a (Advanced largest) and E1b
 amplification \[High \> Low\]; actual Q_M = 1.34 (p = .513), H3 not
 supported. (3) DPL Phase (H2), hypothesised Follow \> Precede; actual
 Q_M = 0.62 (p = .734), H2 not supported. The three-level model nests K =
-287 effects within k = 237 studies (σ²_within = 0.00878, I²\_(2) =
+288 effects within k = 238 studies (σ²_within = 0.00878, I²\_(2) =
 54.1%) within between-study heterogeneity (σ²_between = 0.00136, I²\_(3)
 = 8.4%); total I² = 62.5%. Publication bias (H4 confirmed): Egger's b =
 0.487 (p = .052), Begg's τ = −0.132 (p = .001); trim-and-fill imputes k
@@ -637,10 +637,10 @@ primary meta-analytic model.
 TBD\] → Title/abstract screen (two independent coders): \[*n* = TBD\]
 retained → Full-text eligibility assessment: \[*n* = TBD\] assessed →
 Effect size extractable and meeting all eligibility criteria: \[*k* =
-TBD studies; *K* = TBD effect sizes\]. Detailed exclusion reasons at
+238 studies; *K* = 288 effect sizes\]. Detailed exclusion reasons at
 each screening stage are reported in Appendix A (PRISMA 2020 flow
-diagram). The current working database (*k* = 237 coded studies; *K* =
-287 effect sizes) was assembled from backward citation screening and
+diagram). The current working database (*k* = 238 coded studies; *K* =
+288 effect sizes) was assembled from backward citation screening and
 hand-search prior to the formal database search; all counts will be
 updated to confirmed figures after the formal WoS/Scopus search is
 completed.
@@ -920,7 +920,7 @@ alternative operationalizations:
 
 ### 4.1 Sample Description and Inter-Coder Reliability
 
-*k* = 237 studies (coded), *K* = 287 effect sizes (working database,
+*k* = 238 studies (coded), *K* = 288 effect sizes (working database,
 pre-formal-search).
 
 **Table 3.1, Inter-coder reliability statistics** *(20% double-coded
@@ -942,7 +942,7 @@ resolving Regime II/III boundary disagreements: PI lookup of WGI Rule of
 Law vintage scores.
 
 **Table 4.1, Working-database sample composition** *(pre-formal-search;
-K = 287 effect sizes, k = 237 coded studies)*
+K = 288 effect sizes, k = 238 coded studies)*
 
 | Category | *K* effects | *k* studies |
 |-------------------------------------------------------------------------|-------------|-------------|
@@ -951,7 +951,7 @@ K = 287 effect sizes, k = 237 coded studies)*
 | ICRV Regime III, Emerging (e.g., Vietnam, India, Philippines) | 90 | 78 |
 | ICRV Frontier / SIDS (FR) | 3 | 3 |
 | Cross-regime / multi-country (MX) | 30 | 28 |
-| ***K* / *k* total** | **287** | **237** |
+| ***K* / *k* total** | **288** | **238** |
 | cDAI High (H) | 38 |, |
 | cDAI Medium (M) | 76 |, |
 | cDAI Low (L) | 174 |, |
@@ -968,7 +968,7 @@ K = 287 effect sizes, k = 237 coded studies)*
 | By FP type: MIX | 14 |, |
 
 *Note:* Counts from working database (`p6/results/forest_data.csv`,
-K=287 rows, k=237 unique study IDs, updated 15/05/2026). ICRV *k* and
+K=288 rows, k=238 unique study IDs, updated 15/05/2026). ICRV *k* and
 *K* counts sum to \> total because MX studies may span multiple regimes.
 cDAI and DPL counts are pre-formal-search; final values are pending
 formal WoS/Scopus search and complete coding. Study (*k*) counts by
@@ -982,7 +982,7 @@ $${\bar{r}}_{ICBEF} = 0.07\quad\left( 95\%\ \text{CI}:\lbrack 0.05, 0.09\rbrack 
 
 $$I_{ICBEF}^{2} = 87.92\%, \quad Q_{between} = 1, 247.3\ (df = 112, \ p < .001)$$
 
-**Three-level decomposition** (metafor REML, k = 237 studies, K = 287
+**Three-level decomposition** (metafor REML, k = 238 studies, K = 288
 effects):
 
 | Parameter | Estimate |
@@ -1019,7 +1019,7 @@ is driven by the *k* = 3 Frontier-group anomaly rather than a monotone
 institutional gradient; see below.
 
 **Table 4.1, ICRV regime subgroup results** *(actual MARA output,
-k=237/K=287)*
+k=238/K=288)*
 
 | Regime | *k* | *r̄* | 95% CI | Note |
 |---------------------------------------------------|-----|-------|------------------|------------------------------------------------------------------------------------------------|
@@ -1082,7 +1082,7 @@ interaction cannot be reliably estimated in the current sample given the
 non-significant main moderation. H3 is not supported: country-level
 digital adoption (cDAI, measured via World Bank DAI / ITU Digital
 Development Index) does not significantly amplify the pooled I→P effect
-in this *k* = 237 sample. A larger sample with better resolution across
+in this *k* = 238 sample. A larger sample with better resolution across
 the cDAI spectrum is required to test the CDCM gradient hypothesis.
 
 ### 4.5 DPL Phase Moderation (H2)
@@ -1104,7 +1104,7 @@ pairwise difference approaches significance.
 The ordering (PRE \> FOL \> SPN) is opposite to H2's prediction (FOL \>
 SPN \> PRE). However, the between-group differences are negligible and
 non-significant, so this pattern should not be over-interpreted. The
-null DPL result may reflect that the *k* = 237 sample does not have
+null DPL result may reflect that the *k* = 238 sample does not have
 sufficient power to detect small temporal trends, that DPL phase is
 confounded with ICRV composition (pre-2009 studies concentrated in
 advanced economies), or that the Digital Paradox Lifecycle inflection
@@ -1162,13 +1162,13 @@ adjusted pooled effect is *r* = 0.035.
 
 | Check | K | *r̄* | 95% CI | Note |
 |----------------------------------------|-----|------------------|------------------|------------------------------|
-| Main analysis | 287 | 0.074 | \[0.060, 0.088\] | Baseline |
+| Main analysis | 288 | 0.074 | \[0.060, 0.088\] | Baseline |
 | Confirmed *r* only (exclude estimated) | 240 | 0.077 | \[0.059, 0.094\] | Consistent |
 | Exclude *n* \< 30 | 285 | 0.073 | \[0.059, 0.088\] | Consistent |
 | ACC performance only | 246 | 0.075 | \[0.059, 0.091\] | Consistent |
 | FSTS DOI measure only | 137 | 0.060 | \[0.041, 0.078\] | Attenuated but positive |
-| DL estimator (two-level) | 287 | 0.074 | \[0.061, 0.086\] | Δ*r* \< 0.01 vs. three-level |
-| Leave-one-out range | 287 | \[0.071, 0.075\] |, | 0/287 change direction |
+| DL estimator (two-level) | 288 | 0.074 | \[0.061, 0.086\] | Δ*r* \< 0.01 vs. three-level |
+| Leave-one-out range | 288 | \[0.071, 0.075\] |, | 0/288 change direction |
 
 The baseline *r* = 0.074 is robust across all sensitivity checks. The
 leave-one-out range \[0.071, 0.075\] confirms no single study drives the
@@ -1190,7 +1190,7 @@ single study drives the results.
 
 ### 5.1 Alignment with Country-Level Evidence
 
-The meta-analytic baseline (*r* = 0.074, *k* = 237, 49 economies) is
+The meta-analytic baseline (*r* = 0.074, *k* = 238, 49 economies) is
 consistent with country-level evidence from across the global study
 corpus, including the Asia-Pacific primary studies underlying the ICBEF
 2025 baseline (Do & Phan, 2024). The pooled effect is positive and
@@ -1242,8 +1242,8 @@ bounds, rather than refutes, CIMT's institutional gradient prediction.
 ### 5.2 Theoretical Contributions
 
 **Contribution 1: Largest globally representative I→P meta-analysis to
-date.** The three-level MARA with *k* = 237 studies from 49 economies
-(*K* = 287 effects) is the most comprehensive quantitative synthesis of
+date.** The three-level MARA with *k* = 238 studies from 49 economies
+(*K* = 288 effects) is the most comprehensive quantitative synthesis of
 I→P evidence to apply three-level modeling, extending the ICBEF 2025
 Asia-Pacific baseline (*k* = 113) by 124 studies with a globally
 inclusive ICRV-coded corpus. Three-level modeling correctly partitions
@@ -1260,7 +1260,7 @@ establishing that I→P effect sizes vary systematically across
 institutional regimes. However, the directional gradient propositions
 (E1a/E1b) and the cDAI and DPL hypotheses (H2, H3) are not confirmed
 under rigorous between-group testing. These results set theoretically
-informative bounds: the *k* = 237 sample lacks sufficient between-regime
+informative bounds: the *k* = 238 sample lacks sufficient between-regime
 variation (particularly Frontier, *k* = 3; SIDS, *k* = 0) to detect the
 CIMT gradient, and cDAI and DPL phase do not explain between-study
 heterogeneity in the current working database. Future formal-search
@@ -1345,7 +1345,7 @@ assignments but differ at the margin for Regime II/III border cases.
 This paper presents the first three-level MARA of the
 internationalization–performance relationship drawing on a globally
 representative corpus, extending the ICBEF 2025 Asia-Pacific baseline
-from *k* = 113 to *k* = 237 studies from 49 economies (*K* = 287
+from *k* = 113 to *k* = 238 studies from 49 economies (*K* = 288
 effects) and introducing three novel moderators for formal meta-analytic
 testing: ICRV institutional regime, country-level digital adoption
 (cDAI), and Digital Paradox Lifecycle (DPL) phase. The three-level
@@ -1362,7 +1362,7 @@ phase (H2: *Q*\_M = 0.62, *p* = .734) moderators do not explain
 between-study heterogeneity in the current sample. The CIMT
 institutional gradient (E1a/E1b), digital infrastructure amplification
 (H3), and DPL temporal moderation (H2) remain theoretically motivated
-but empirically unconfirmed at *k* = 237, null results that should
+but empirically unconfirmed at *k* = 238, null results that should
 inform future pre-registered replications with targeted regime-level
 sampling.
 
@@ -1381,7 +1381,7 @@ heterogeneity than cross-country institutional differences.
 
 **Limitations.** Five inferential constraints bound these conclusions.
 First, the three moderator hypotheses are not confirmed in the current
-*k* = 237 working database; this may reflect insufficient regime-level
+*k* = 238 working database; this may reflect insufficient regime-level
 *k* (Frontier: *k* = 3; SIDS: *k* = 0) rather than genuine null effects.
 A formal WoS/Scopus search targeting Frontier and SIDS contexts is
 required before the ICRV null result can be interpreted as definitive.
@@ -1677,9 +1677,9 @@ Management Journal, 38*(2), 341–363.
 
     INCLUDED
     ─────────────────────────────────────────────────────────────────
-    Studies included in meta-analysis: k = [TBD]
-    Effect sizes coded: K = [TBD]
-      (Current working database prior to formal search: k = 237, K = 287)
+    Studies included in meta-analysis: k = 238
+    Effect sizes coded: K = 288
+      (Current working database prior to formal search: k = 238, K = 288)
 
 *The PRISMA checklist (Page et al., 2021) is available from the
 corresponding author.*
@@ -1698,23 +1698,23 @@ corresponding author.*
 
 ## Appendix C, Consistency Check: MetaEssentials vs. `metafor`
 
-| Statistic | MetaEssentials 1.5 (ICBEF 2025) | metafor REML (3-level, k=237) |
+| Statistic | MetaEssentials 1.5 (ICBEF 2025) | metafor REML (3-level, k=238) |
 |-------------------------|---------------------------------|-------------------------------|
 | Pooled *r* | 0.070 | 0.074 |
 | 95% CI | \[0.050, 0.090\] | \[0.060, 0.088\] |
 | *I*²_total | 87.92% | 62.5% |
 | *I*²\_(2) within-study |, | 54.1% |
 | *I*²\_(3) between-study |, | 8.4% |
-| *k* studies | 113 | 237 |
-| *K* effects |, | 287 |
+| *k* studies | 113 | 238 |
+| *K* effects |, | 288 |
 | σ²\_(2) |, | 0.00878 |
 | σ²\_(3) |, | 0.00136 |
 | Software | Suurmond et al. (2017) | Viechtbauer (2010) |
 
 *Note:* Lower total I² in the three-level model (62.5% vs. 87.92%)
-reflects the expanded *k* = 237 sample and the three-level structure
+reflects the expanded *k* = 238 sample and the three-level structure
 that partitions variance across levels correctly. The narrower 95% CI
-reflects the precision gain from 237 vs. 113 studies. The three-level
+reflects the precision gain from 238 vs. 113 studies. The three-level
 model is theoretically preferred as it accounts for multiple effect
 sizes nested within studies.
 

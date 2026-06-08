@@ -18,5 +18,5 @@ Target: **Journal of International Management** (Elsevier · Q1). Tier in submis
 - [x] Em-dash-free (anti-AI language pass)
 - [ ] Move appendices to supplementary material
 
-> Cover-letter counts verified against the manuscript: *k* = 237 studies, *K* = 287 effect sizes.
+> Cover-letter counts verified against the manuscript: *k* = 238 studies, *K* = 288 effect sizes.
 > A condensed ≤10,000-word variant for the APJM fallback is in `p6/submission/apjm_package/`.

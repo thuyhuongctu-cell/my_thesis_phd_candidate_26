@@ -4,7 +4,7 @@ Dear Editors,
 
 We are pleased to submit our manuscript, **"Does Country Context Shape the Internationalization–Performance Link? A Three-Level Meta-Analytic Investigation of Digital Adoption, Institutional Regimes, and the Digital Paradox Lifecycle,"** for consideration in *Journal of International Management (JIM)*.
 
-We synthesize the I–P literature through a three-level meta-analysis of 287 effect sizes from 237 studies, modelling country-context, institutional-regime, and digital-adoption moderators (including a Digital Paradox Lifecycle).
+We synthesize the I–P literature through a three-level meta-analysis of 288 effect sizes from 238 studies, modelling country-context, institutional-regime, and digital-adoption moderators (including a Digital Paradox Lifecycle).
 
 This study matches the Journal of International Management's interest in rigorous international-management research, including literature syntheses and meta-analyses. We believe it offers a clear contribution and a good fit for your readership.
 

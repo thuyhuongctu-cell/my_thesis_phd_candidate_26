@@ -41,7 +41,7 @@
     ─────────────────────────────────────────────────────────────────
     Studies included in meta-analysis: k = [TBD]
     Effect sizes coded: K = [TBD]
-      (Current working database prior to formal search: k = 237, K = 287)
+      (Current working database prior to formal search: k = 238, K = 288)
 
 *The PRISMA checklist (Page et al., 2021) is available from the
 corresponding author.*
@@ -60,23 +60,23 @@ corresponding author.*
 
 ## Appendix C, Consistency Check: MetaEssentials vs. `metafor`
 
-| Statistic | MetaEssentials 1.5 (ICBEF 2025) | metafor REML (3-level, k=237) |
+| Statistic | MetaEssentials 1.5 (ICBEF 2025) | metafor REML (3-level, k=238) |
 |-------------------------|---------------------------------|-------------------------------|
 | Pooled *r* | 0.070 | 0.074 |
 | 95% CI | \[0.050, 0.090\] | \[0.060, 0.088\] |
 | *I*²_total | 87.92% | 62.5% |
 | *I*²\_(2) within-study |, | 54.1% |
 | *I*²\_(3) between-study |, | 8.4% |
-| *k* studies | 113 | 237 |
-| *K* effects |, | 287 |
+| *k* studies | 113 | 238 |
+| *K* effects |, | 288 |
 | σ²\_(2) |, | 0.00878 |
 | σ²\_(3) |, | 0.00136 |
 | Software | Suurmond et al. (2017) | Viechtbauer (2010) |
 
 *Note:* Lower total I² in the three-level model (62.5% vs. 87.92%)
-reflects the expanded *k* = 237 sample and the three-level structure
+reflects the expanded *k* = 238 sample and the three-level structure
 that partitions variance across levels correctly. The narrower 95% CI
-reflects the precision gain from 237 vs. 113 studies. The three-level
+reflects the precision gain from 238 vs. 113 studies. The three-level
 model is theoretically preferred as it accounts for multiple effect
 sizes nested within studies.
 

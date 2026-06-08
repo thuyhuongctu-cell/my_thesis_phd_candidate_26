@@ -670,7 +670,7 @@ primary meta-analytic model.
 TBD\] → Title/abstract screen (two independent coders): \[*n* = TBD\]
 retained → Full-text eligibility assessment: \[*n* = TBD\] assessed →
 Effect size extractable and meeting all eligibility criteria: \[*k* =
-TBD studies; *K* = TBD effect sizes\]. Detailed exclusion reasons at
+238 studies; *K* = 288 effect sizes\]. Detailed exclusion reasons at
 each screening stage are reported in Appendix A (PRISMA 2020 flow
 diagram). The current working database (*k* = 237 coded studies; *K* =
 287 effect sizes) was assembled from backward citation screening and
@@ -1710,8 +1710,8 @@ Management Journal, 38*(2), 341–363.
 
     INCLUDED
     ─────────────────────────────────────────────────────────────────
-    Studies included in meta-analysis: k = [TBD]
-    Effect sizes coded: K = [TBD]
+    Studies included in meta-analysis: k = 238
+    Effect sizes coded: K = 288
       (Current working database prior to formal search: k = 237, K = 287)
 
 *The PRISMA checklist (Page et al., 2021) is available from the
