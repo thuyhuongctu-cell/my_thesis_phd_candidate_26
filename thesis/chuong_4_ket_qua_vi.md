@@ -208,17 +208,17 @@ Kiểm định điều tiết tổng thể $Q_M$ về ICRV có ý nghĩa thống
 
 ### 4.7.1 Đặc điểm mẫu SIDS
 
-Phân tích P8 tập trung vào chín quốc gia SIDS (Pacific Small Island Developing States — Nhóm VI) với tổng $N = 1.469$ doanh nghiệp, trong đó chỉ $N_{\text{exporters}} = 187$ (chiếm 12,7\% mẫu). Tỷ lệ doanh thu xuất khẩu trung bình rất thấp: mean FSTS = 0,060 (6,0\%).
+Phân tích P8 tập trung vào bảy quốc gia Pacific SIDS (Pacific Small Island Developing States — Nhóm VI) với tổng $N = 959$ doanh nghiệp, trong đó chỉ $N_{\text{exporters}} = 132$ (chiếm 13,8\% mẫu). Tỷ lệ doanh thu xuất khẩu trung bình rất thấp: mean FSTS = 0,048 (4,8\%).
 
 ### 4.7.2 Hiệu ứng âm đơn điệu — Forced Internationalization Penalty (FIP)
 
 Đây là phát hiện nổi bật nhất và khác biệt nhất của luận án so với toàn bộ kết quả từ các bối cảnh ICRV khác. Mô hình M1 với country fixed effects và year fixed effects cho:
 
-$$\hat{\beta}(\text{FSTS}_c) = -0{,}404, \quad SE = 0{,}188, \quad p = {,}032^{*}$$
+$$\hat{\beta}(\text{FSTS}_c) = -1{,}339, \quad SE = 0{,}386, \quad p < {,}001^{***}$$
 
-Hệ số hồi quy âm và có ý nghĩa thống kê, nghĩa là tại các nền kinh tế SIDS, quốc tế hóa càng cao thì hiệu quả hoạt động doanh nghiệp càng **thấp hơn** — quan hệ âm đơn điệu. Trong mẫu chỉ gồm doanh nghiệp xuất khẩu (exporters-only), hệ số âm còn mạnh hơn:
+Hệ số hồi quy âm và có ý nghĩa thống kê, nghĩa là tại các nền kinh tế SIDS, quốc tế hóa càng cao thì hiệu quả hoạt động doanh nghiệp càng **thấp hơn** — quan hệ âm đơn điệu. Trong mẫu chỉ gồm doanh nghiệp xuất khẩu (exporters-only, N = 26 — rất nhỏ), hệ số vẫn âm nhưng không đạt ý nghĩa thống kê (thiếu công suất):
 
-$$\hat{\beta}(\text{FSTS}_c) = -0{,}901, \quad SE = 0{,}398, \quad p = {,}027^{*}$$
+$$\hat{\beta}(\text{FSTS}_c) = -1{,}176, \quad p = {,}130\ (\text{NS})$$
 
 Mô hình M2 bổ sung FSTS$^2$ không cho kết quả có ý nghĩa thống kê, xác nhận quan hệ là **đơn điệu** (monotone decline) — không có turning point trong phạm vi dữ liệu.
 
@@ -240,7 +240,7 @@ Kết quả FIP là đóng góp lý thuyết gốc của luận án — lần đ
 | H4 (Nhà quản trị điều tiết) | Kinh nghiệm/giới tính nhà quản trị | Kết quả hỗn hợp — báo cáo trong P7 với top manager nữ β = +0,185*** |
 | H5 (ICRV gradient) | Thể chế điều tiết gradient I–P | Xác nhận một phần: $Q_M = 17{,}35^{**}$ (*df* = 4, *p* = ,002) từ P6 MARA xác nhận dị biệt giữa chế độ; gradient định hướng (E1a/E1b) chưa xác nhận do *k* = 3 tại Frontier; gradient ICRV → TP được xác nhận từ P7 |
 | H6 (Temporal heterogeneity) | Hình dạng I–P thay đổi theo thời gian | Không xác nhận tại Trung Quốc ($F = 1{,}83$, $p = {,}176$); TP dịch chuyển tại Việt Nam giữa 2009 và 2015 |
-| H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận mạnh mẽ: $\beta = -0{,}404^{*}$ đến $-0{,}901^{***}$ tuỳ specification |
+| H1b (FIP — SIDS boundary condition) | Quan hệ âm đơn điệu tại SIDS | Xác nhận: $\beta = -1{,}339^{***}$ (M1, country+year FE) đến $-3{,}351^{***}$ (year-FE); exporters-only NS do mẫu nhỏ (N=26) |
 
 ---
 

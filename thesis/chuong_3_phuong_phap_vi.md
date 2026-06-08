@@ -45,7 +45,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **49 nền kinh tế ch
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (nghiên cứu thành phần P1).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **49 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case SIDS (9 nước, n=1.469 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (nghiên cứu thành phần P8).
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **49 nền kinh tế châu Á và Pacific**, với 6 sub-regime ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Emerging, Frontier, SIDS). Quy mô này là lớn nhất cho khu vực trong literature internationalization–performance, gồm cả boundary case Pacific SIDS (7 nước, n=959 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced internationalization penalty (nghiên cứu thành phần P8).
 
 > **Ghi chú về trọng số khảo sát (survey sampling weights):** WBES cung cấp sampling weights để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng sampling weights* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết (mechanism testing) chứ không phải ước lượng mô tả đại diện tổng thể (population-representative descriptive estimation) — trong bối cảnh này, không áp dụng weights là thực hành chuẩn trong literature IB sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) Fixed effects ở cấp country-year đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng weights có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng survey weights cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem §3.5).
 
@@ -419,9 +419,9 @@ $$\text{DAI} \times \text{ICRV: } p = {,}012^*;\ \text{three-way NS};\ TP = 34{,
 
 ---
 
-#### 3.4.5.5 Mô hình cụ thể — Nghiên cứu 8: SIDS (N = 1.469, Nhóm VI)
+#### 3.4.5.5 Mô hình cụ thể — Nghiên cứu 8: Pacific SIDS (N = 959, Nhóm VI)
 
-Nghiên cứu 8 phân tích mẫu gồm **N = 1.469 doanh nghiệp** tại **9 nền kinh tế SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Vanuatu, Comoros) từ các sóng WBES 2003–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **187 doanh nghiệp có hoạt động xuất khẩu** (12,7%), phản ánh cấu trúc thị trường đảo nhỏ.
+Nghiên cứu 8 phân tích mẫu gồm **N = 959 doanh nghiệp** tại **7 nền kinh tế Pacific SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI — cấp thấp nhất trong phân loại 6 chế độ — đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **132 doanh nghiệp có hoạt động xuất khẩu** (13,8%), phản ánh cấu trúc thị trường đảo nhỏ.
 
 Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)** — mối quan hệ quốc tế hóa–hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3–P7. Lind–Mehlum U-test không bác bỏ đơn điệu (p > ,10), xác nhận không có điểm quay.
 
@@ -452,7 +452,7 @@ M1 — Kiểm định FIP (H1b): thêm cường độ xuất khẩu tuyến tín
 
 $$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
-$$\beta_1 = -0{,}404,\ p = {,}032\ (\text{country+year FE, N} = 1{.}469) \Rightarrow \textbf{FIP xác nhận}$$
+$$\beta_1 = -1{,}339,\ p < {,}001\ (\text{country+year FE, N} = 959) \Rightarrow \textbf{FIP xác nhận}$$
 
 M2 — Kiểm định phi tuyến: thêm CDDXK_c²
 
@@ -464,18 +464,18 @@ M3 — Kiểm định năng lực điều tiết (H2 null cho SIDS):
 
 $$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \beta_3 NLCN\_z_{it} + \beta_4 CSS\_z_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
-$$\beta_3\ (NLCN\_z):\ p = {,}495\ \text{NS};\ \beta_4\ (CSS\_z):\ p = {,}402\ \text{NS} \Rightarrow \text{H2 bị bác bỏ tại Nhóm VI}$$
+$$\beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (CSS\_z):\ p = {,}285\ \text{NS} \Rightarrow \text{TCI nâng mặt bằng năng suất; không có moderator uốn đường cong (H2 moderation null)}$$
 
 **Phân tích độ vững (robustness checks):**
 
 | Specification | β(CDDXK_c) | SE | p |
 |---|---|---|---|
-| M1 country+year FE (N = 1.469) | −0,404 | — | ,032 |
-| Year FE only (không country FE) | −1,236 | — | < ,001 |
-| Bivariate (không controls) | −1,596 | — | < ,001 |
-| Exporters-only (N = 187) | −0,901 | — | ,027 |
+| M1 country+year FE (N = 959) | −1,339 | 0,386 | < ,001 |
+| Year FE only (không country FE) | −3,351 | 0,808 | < ,001 |
+| Bivariate (không controls) | −0,864 | 0,441 | ,050 |
+| Exporters-only (N = 26) | −1,176 | 0,763 | ,130 (NS) |
 
-*Hệ số âm nhất quán qua 4 specification xác nhận FIP không phải do selection bias hay outlier.*
+*Hệ số âm nhất quán về dấu qua các specification; suy luận FIP dựa chủ yếu vào các mô hình fixed-effects (M1, year-FE), trong khi exporters-only (N=26) thiếu công suất thống kê.*
 
 **Bảng định nghĩa biến — Nghiên cứu 8 (SIDS)**
 
