@@ -40,9 +40,6 @@ Tôi xin cam đoan chuyên đề tiến sĩ số 2 với tiêu đề "Xây dựn
 
 ---
 
-## TUYÊN BỐ VỀ SỬ DỤNG TRÍ TUỆ NHÂN TẠO
-
-Trong quá trình thực hiện chuyên đề, tác giả có sử dụng công cụ hỗ trợ viết Grammarly (dịch vụ trực tuyến, truy cập trong giai đoạn 2025–2026) với phạm vi duy nhất là rà soát chính tả, ngữ pháp và dấu câu cho phần văn bản do chính tác giả viết. Không có nội dung khoa học, ý tưởng, dữ liệu, kết quả phân tích hay diễn giải nào được tạo ra hoàn toàn bởi trí tuệ nhân tạo. Tác giả không sử dụng trí tuệ nhân tạo để tạo dữ liệu, hình ảnh hay tài liệu tham khảo. Trí tuệ nhân tạo chỉ đóng vai trò công cụ hỗ trợ; tác giả chịu trách nhiệm cuối cùng và hoàn toàn về toàn bộ nội dung của chuyên đề. (Tuân thủ Điều 16, Hướng dẫn về liêm chính khoa học và đạo đức nghề nghiệp trong nghiên cứu khoa học và phát triển công nghệ ban hành kèm theo Quyết định của Bộ trưởng Bộ Khoa học và Công nghệ.)
 
 ## TÓM TẮT
 
