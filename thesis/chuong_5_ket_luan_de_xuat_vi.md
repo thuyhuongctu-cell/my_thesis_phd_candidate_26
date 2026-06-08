@@ -184,7 +184,7 @@ Luận án này được xây dựng trên chín nghiên cứu bổ sung cho nha
 
 - **P8**: phân tích bảy nền kinh tế đảo nhỏ đang phát triển Thái Bình Dương (Pacific SIDS), $N = 959$, $\beta(\text{FSTS}_c) = -1{,}339^{***}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
 
-- **P9** (đã công bố tại IntechOpen 2025): phân tích Ấn Độ (Emerging, 380 doanh nghiệp WBES, ước lượng FGLS, dữ liệu đến 2025), với hệ số DOI tổng hợp âm và kinh nghiệm nhà quản trị cùng lãnh đạo nữ cấp cao là các yếu tố điều tiết dương — bằng chứng country-level cho tầng thượng tầng quản trị (H4).
+- **P9**: phân tích Ấn Độ qua ba đợt WBES 2014–2025 (~29.000 doanh nghiệp), kiểm định độ bền ngưỡng I–P qua thập kỷ chuyển đổi thể chế. Phát hiện sự *tan biến* điểm uốn chữ U ngược: TP = 61,8% (2014) → 40,7% (2022) → mất ý nghĩa độ cong (2025: β₂ = −0,16, p = ,42), kèm tương tác DAI Tier-2 (UPI) âm — bằng chứng đầu tiên rằng chuyển đổi thể chế cực mạnh có thể hòa tan (chứ không chỉ dịch chuyển) ngưỡng. Đích MIR/IJOEM; kế thừa công trình tiền đề Do & Phan (2025, IntechOpen).
 
 ### 5.6.2 Phát hiện trung tâm
 
