@@ -18,13 +18,19 @@
 
 ## Abstract
 
-**Purpose.** This study examines whether the inverted-U relationship between export intensity and firm productivity among Indian private firms is structurally durable across the 2014 to 2025 institutional and digital transformation decade (demonetisation, GST, IBC, UPI, PLI, Atmanirbhar Bharat), and whether technological and digital capabilities moderate the threshold.
+**Purpose.** This study examines whether the inverted-U relationship between export intensity and firm productivity among Indian private firms is structurally durable across the 2014–2025 institutional and digital transformation decade, and whether technological and digital capabilities moderate the threshold.
 
-**Design/methodology/approach.** Three World Bank Enterprise Survey waves for India (2014 PICS3, 2022 BEE, 2025 BREADY; analytic N = 28,717) are estimated by OLS with HC1 robust standard errors, quadratic FSTS terms, and capability interactions. Lind–Mehlum U-tests verify the inverted-U per wave; Paternoster z-tests evaluate 2014-versus-2025 coefficient equality; the 2022 wave provides 3-wave robustness; UPI rollout (April 2016) supplies a quasi-experiment for digital saturation.
+**Design/methodology/approach.** Three World Bank Enterprise Survey waves (2014, 2022, 2025; analytic N = 28,717) are estimated by OLS with HC1 errors, quadratic FSTS terms and capability interactions; Lind–Mehlum U-tests and Paternoster cross-wave z-tests assess curvature and coefficient equality, exploiting the 2016 UPI rollout as a quasi-experiment.
 
-**Findings.** The inverted-U structurally collapses. The turning point migrates from FSTS = 61.8 per cent (2014) to 40.7 per cent (2022); by 2025 the curvature term is insignificant (β₂ = −0.16, p = 0.42) and the relationship is monotonically negative. Paternoster z-tests reject coefficient equality for the linear (z = −7.94) and quadratic (z = +4.17) terms (both p < 0.0001). The UPI Tier-2 e-payment interaction is negative (FSTS × DAI_epay = −4.02, p = 0.004), indicating domestic-rupee digital infrastructure does not substitute for the cross-border financial infrastructure exporters require.
+**Findings.** The inverted-U collapses: the turning point migrates from 61.8% FSTS (2014) to 40.7% (2022), and by 2025 curvature is insignificant (β₂ = −0.16, p = 0.42). Paternoster z-tests reject coefficient equality (linear z = −7.94; quadratic z = +4.17; both p < 0.0001). The UPI Tier-2 e-payment interaction is negative (FSTS × DAI_epay = −4.02, p = 0.004).
 
-**Originality/value.** This provides the first firm-level evidence that extreme institutional transformation can dissolve, rather than relocate, the inverted-U threshold, identifying a previously untested scope condition for the Lu and Beamish (2004) claim: the threshold is conditional on institutional stability. The authors' earlier work (Do and Phan, 2025; linear DOI, FGLS, 380 matched firms) is acknowledged as prior author work.
+**Research limitations/implications.** The waves are independent cross-sections, supporting cross-wave comparison but not within-firm causal inference; Tier-2 adoption is observed only in 2025.
+
+**Practical implications.** Fixed export-intensity targets are no longer empirically defensible for 2025; the binding constraint on exporter productivity is cross-border-specific digital infrastructure, not domestic UPI rails.
+
+**Social implications.** Inclusive South Asian SME participation in global value chains requires both domestic (UPI, Aadhaar, ONDC) and cross-border digital infrastructure, which are complements rather than substitutes.
+
+**Originality/value.** This provides the first firm-level evidence that extreme institutional transformation can dissolve, rather than relocate, the inverted-U threshold, identifying a previously untested scope condition: the threshold is conditional on institutional stability.
 
 **Keywords:** internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; emerging markets; Conditional Digital Capability Moderation.
 
