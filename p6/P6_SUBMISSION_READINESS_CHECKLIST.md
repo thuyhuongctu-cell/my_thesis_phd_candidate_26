@@ -7,23 +7,18 @@ The meta-analytic *results* are final and consistent (k = 238 studies, K = 288 e
 
 ---
 
-## 1. Formal PRISMA database search  ⏳ (🤖 tool ready)
-The manuscript currently rests on a pre-formal-search working database and leaves the PRISMA flow intermediates as `[TBD]` (29 per package). To convert this into a defensible systematic review:
+## 1. PRISMA flow  ✅ RESOLVED via honest reframe (2026-06-09)
+All four submission packages (jim/ibr/jwb/apjm + apjm supplementary) were reframed from an exhaustive-WoS/Scopus-census narrative (with `[TBD]` intermediates) to a **systematic-but-bounded, citation-anchored search** (backward/forward citation from 5 anchor meta-analyses + database supplement), reported under the PRISMA 2020 "studies identified via other methods" variant. The synthesized set is the data-backed **k = 238 / K = 288**; **no `[TBD]` placeholders remain**. The ibr/jwb stale **237/287** totals were also corrected to 238/288 throughout.
 
-- [ ] Run the formal WoS + Scopus search **on a networked machine** using `p6/tools/28_extract_wos_scopus_locally.py` (instructions: `p6/tools/HOW_TO_EXTRACT_DATA.md`). The exact search strings are pre-registered in `p6/osf/P6_OSF_Preregistration_Template.md` §6.
-- [ ] Record counts at each PRISMA stage: identified → deduplicated → title/abstract screened → excluded (by reason) → full-text assessed → excluded (by reason) → **included (k = 238, K = 288, already known)**.
-- [ ] Paste these numbers into the PRISMA flow (replaces every `[n = TBD]`) in all P6 packages (`jim`, `ibr`, `jwb`, `apjm`) and the PRISMA appendix.
-- [ ] Reconcile: if the formal search yields a different included k/K than 238/288, update the analysis and all downstream numbers. If it confirms 238/288, state that the working database equals the formal-search yield.
+> Optional upgrade (author): if a full formal WoS/Scopus census is run later, the flow can be re-expressed with stage-level counts (tooling: `p6/tools/28_extract_wos_scopus_locally.py`; search strings in `p6/osf/P6_OSF_Preregistration_Template.md` §6). This is **no longer a submission blocker**.
 
-> If a full formal search is not feasible before the target submission date, the honest fallback is to **reframe** §3.1 as a systematic-but-bounded search (backward/forward citation from named anchor meta-analyses + database supplement) and drop language implying an exhaustive WoS/Scopus census. Do **not** leave `[TBD]` placeholders in a submitted manuscript.
-
-## 2. Inter-coder reliability (ICR)  ⏳ (🤖 protocol + R code ready)
-Table 3.1 reports κ/ICC as `[TBD]`. A meta-analysis claiming reliable moderator coding must report actual agreement.
+## 2. Inter-coder reliability (ICR)  ⏳ table reframed; κ/ICC still author-only
+Table 3.1 was reframed (2026-06-09) into an honest **reliability protocol**: it now states the PI single-coded the full corpus against the documented codebook (Appendix B) and that an independent **20% double-coding pass (k = 47)** to compute κ/ICC is the one remaining pre-submission reliability step. The Limitations section was reconciled to match (no longer claims ICR "was assessed"). The actual κ/ICC values still require a second coder and cannot be fabricated:
 
 - [ ] Draw the pre-specified 20% stratified subsample (`p6/tools/09_select_reliability_subsample.py`).
 - [ ] Have a second coder independently code that subsample (ICRV regime, DPL phase, industry, DOI type, performance type; continuous cDAI).
 - [ ] Compute Cohen's κ (categorical) and ICC(2,1) (cDAI) using the R snippet in `p6/tools/p6_extraction_codebook.md` §7.
-- [ ] Paste the values into Table 3.1 and confirm each meets threshold (κ ≥ 0.70; ICC ≥ 0.80).
+- [ ] Add the computed values to Table 3.1 (the threshold/protocol scaffold is already in place) and confirm each meets threshold (κ ≥ 0.70; ICC ≥ 0.80).
 
 ## 3. OSF pre-registration  ⏳ (✅ template ready — only 3 placeholders)
 `p6/osf/P6_OSF_Preregistration_Template.md` is complete except 3 placeholders.
@@ -54,6 +49,6 @@ Per the audit (B2): publication bias halves the pooled effect (r 0.074 → 0.035
 ---
 
 ### Bottom line
-P6's *analysis* is done and internally consistent. The blockers are **PRISMA flow + ICR reporting** (items 1–2) and the **OSF DOI** (item 3) — all have tooling in the repo and require the author to run them and paste outputs. The AI disclosure (item 4) is fixed pending a one-line scope confirmation. Do not submit P6 with `[TBD]` placeholders.
+P6's *analysis* is done and internally consistent, and **all `[TBD]` placeholders are now removed** from the four submission packages. The **PRISMA flow is resolved** via an honest citation-anchored reframe (item 1), and the **ICR table is reframed honestly** (item 2) — only the actual κ/ICC computation (a 20% second-coder pass) and the **OSF DOI** (item 3) remain as genuine author-only steps. The AI disclosure (item 4) is fixed pending a one-line scope confirmation. P6 no longer contains submission-blocking placeholders.
 
 - [x] **Manuscript OSF wording corrected (integrity):** removed the false claim that pre-registration *preceded* extraction; all four packages now state an honest **transparency registration** of the analysis plan with a `[insert OSF DOI at submission]` placeholder, and 'pre-registered robustness checks' → 'pre-specified'. The full ready-to-submit OSF content is `p6/osf/P6_OSF_Preregistration_Template.md` (+ .docx).

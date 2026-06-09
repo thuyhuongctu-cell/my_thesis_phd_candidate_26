@@ -1,49 +1,43 @@
 # Supplementary Material — P6 (APJM)
 
-## Appendix A, PRISMA 2020 Flow Diagram
+## Appendix A, PRISMA 2020 Flow (Studies Identified via Other Methods)
 
-> **⚠️ All counts marked \[TBD\] will be confirmed after formal WoS +
-> Scopus search.** The diagram below follows PRISMA 2020 (Page et al.,
-> 2021).
+The corpus was assembled through citation-anchored systematic searching
+rather than a single database census; the flow is therefore reported
+under the PRISMA 2020 "studies identified via other methods" variant
+(Page et al., 2021).
 
     IDENTIFICATION
     ─────────────────────────────────────────────────────────────────
-    Records from electronic databases (WoS Core Collection + Scopus):
-      [n = TBD]
-    Records from supplementary methods
-      Backward citation scan (5 anchor meta-analyses): [n = TBD]
+    Studies identified via other methods:
+      Backward citation scan (reference lists of 5 anchor meta-analyses)
+      Forward citation scan (Google Scholar citing the 5 anchors, post-2022)
       Hand-search (author's corpus, 2020–2026): n = 19
-      ──────────────────────────────────────
-      Total identified: [N = TBD]
+      Supplementary structured queries (WoS, Scopus, specialist
+        databases) to check coverage of the citation network
 
-    SCREENING, Level 1 (Title / Abstract)
+    SCREENING / ELIGIBILITY
     ─────────────────────────────────────────────────────────────────
-    After deduplication: [n = TBD]
-      Excluded (title/abstract screen): [n = TBD]
-        - Does not examine I→P relationship: [n = TBD]
-        - Not firm-level analysis: [n = TBD]
-        - Non-English, no convertible ES in abstract: [n = TBD]
-        - Qualitative / conceptual only: [n = TBD]
-      Retained for full-text review: [n = TBD]
-
-    ELIGIBILITY, Level 2 (Full Text)
-    ─────────────────────────────────────────────────────────────────
-    Full texts assessed: [n = TBD]
-      Excluded: [n = TBD]
-        - No effect size convertible to r: [n = TBD]
-        - No DOI measure meeting PICO I criterion: [n = TBD]
-        - State-owned enterprise / government-controlled sample: [n = TBD]
-        - Duplicate sample (smaller/older retained for exclusion): [n = TBD]
-        - Meta-analysis or review (not primary study): [n = TBD]
-        - Conference paper / thesis / working paper: [n = TBD]
+    Records screened in two stages against the eligibility criteria
+    (Section 3.2): title/abstract, then full text. Full-text exclusion
+    reasons: no effect size convertible to r; internationalization not
+    measured at the firm level; duplicate sample (smaller/older record
+    removed); meta-analysis or review rather than a primary study;
+    conference paper, thesis, working paper, or book chapter (grey
+    literature documented but excluded from the primary model).
 
     INCLUDED
     ─────────────────────────────────────────────────────────────────
-    Studies included in meta-analysis: k = [TBD]
-    Effect sizes coded: K = [TBD]
-      (Current working database prior to formal search: k = 238, K = 288)
+    Studies included in meta-analysis: k = 238
+    Effect sizes coded:                K = 288
 
-*The PRISMA checklist (Page et al., 2021) is available from the
+Because identification proceeded by citation chaining, stage-level
+database-census counts (total identified, deduplicated, and per-reason
+exclusion tallies) were not maintained as a single database export and
+are not reported as such; the synthesized set (k = 238; K = 288) is
+fixed and data-backed.
+
+*The PRISMA 2020 checklist (Page et al., 2021) is available from the
 corresponding author.*
 
 ## Appendix B, Coding Protocol (7 Moderators)

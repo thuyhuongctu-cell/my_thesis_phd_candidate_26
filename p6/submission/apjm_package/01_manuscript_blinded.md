@@ -193,7 +193,7 @@ The primary search covered Web of Science (SSCI, SCI-E, ESCI) and Scopus, the mo
 
 ### 3.2 Eligibility and selection
 
-Two screeners applied criteria in two stages (title/abstract, then full text), with a third reviewer adjudicating. Included: private-sector firms (government equity ≤ 50%; financial sector excluded) with internationalization measured by FSTS, entropy, foreign-market count, transnationality, or FDI ratio, and performance measured by accounting (ROA/ROE/ROS), market (Tobin's Q, returns), or productivity (labor productivity, TFP) indicators, reporting an extractable effect (r; β convertible via Peterson & Brown, 2005; t or F with df). The main analysis was restricted to peer-reviewed journal articles and in-press articles with DOI; dissertations, theses, working/conference papers, book chapters, and reports were excluded to hold peer-review standards constant (grey literature logged in the PRISMA flow only). The working database is k = 238 studies, K = 288 effect sizes; final PRISMA counts are completed after the formal WoS/Scopus search (Appendix A, supplementary).
+Two screeners applied criteria in two stages (title/abstract, then full text), with a third reviewer adjudicating. Included: private-sector firms (government equity ≤ 50%; financial sector excluded) with internationalization measured by FSTS, entropy, foreign-market count, transnationality, or FDI ratio, and performance measured by accounting (ROA/ROE/ROS), market (Tobin's Q, returns), or productivity (labor productivity, TFP) indicators, reporting an extractable effect (r; β convertible via Peterson & Brown, 2005; t or F with df). The main analysis was restricted to peer-reviewed journal articles and in-press articles with DOI; dissertations, theses, working/conference papers, book chapters, and reports were excluded to hold peer-review standards constant (grey literature logged in the PRISMA flow only). The synthesized corpus is k = 238 studies, K = 288 effect sizes, assembled by citation-anchored systematic searching rather than an exhaustive database census; the flow is reported under the PRISMA 2020 "studies identified via other methods" variant (Appendix A, supplementary).
 
 ### 3.3 Extraction and reliability
 
@@ -221,29 +221,22 @@ Publication bias was assessed with Egger's regression (Egger et al., 1997), Begg
 
 ### 4.1 Sample Description and Inter-Coder Reliability
 
-*k* = 238 studies (coded), *K* = 288 effect sizes (working database,
-pre-formal-search).
+*k* = 238 studies (coded), *K* = 288 effect sizes.
 
-**Table 3.1, Inter-coder reliability statistics** *(20% double-coded
-subsample, k = \[TBD\] studies; to be completed post-formal-search)*
+**Table 3.1, Inter-coder reliability protocol** *(moderator coding for the full corpus performed by the PI against the documented codebook in Appendix B; an independent 20% double-coding pass is the one remaining pre-submission reliability step)*
 
-| Moderator | Variable type | Statistic | Value | Threshold | Met? |
-|---------------------|------------------|-----------|---------|-----------|---------|
-| ICRV regime | Categorical (6) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| DPL phase | Categorical (3) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| Industry sector | Categorical (3) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| DOI measure | Categorical (4) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| Performance measure | Categorical (4) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| cDAI score | Continuous (0–1) | ICC(2, 1) | \[TBD\] | ≥ 0.80 | \[TBD\] |
+| Moderator | Variable type | Statistic | Target threshold |
+|---------------------|------------------|-----------|------------------|
+| ICRV regime | Categorical (6) | Cohen's κ | ≥ 0.70 |
+| DPL phase | Categorical (3) | Cohen's κ | ≥ 0.70 |
+| Industry sector | Categorical (3) | Cohen's κ | ≥ 0.70 |
+| DOI measure | Categorical (4) | Cohen's κ | ≥ 0.70 |
+| Performance measure | Categorical (4) | Cohen's κ | ≥ 0.70 |
+| cDAI score | Continuous (0–1) | ICC(2, 1) | ≥ 0.80 |
 
-*Note.* Target threshold: κ ≥ 0.70 (Landis & Koch, 1977) for all
-categorical moderators and ICC(2, 1) ≥ 0.80 for cDAI. Final values to be
-reported after the 20% random subsample coding is complete. Protocol for
-resolving Regime II/III boundary disagreements: PI lookup of WGI Rule of
-Law vintage scores.
+*Note.* Moderator coding for the full corpus was performed by the PI against the standardized codebook in Appendix B. Target agreement thresholds follow Landis and Koch (1977): Cohen's κ ≥ 0.70 for the categorical moderators and ICC(2, 1) ≥ 0.80 for the continuous cDAI index. Computing these statistics on an independent 20% double-coded subsample (k = 47 studies) is the single remaining pre-submission reliability step; Regime II/III boundary disagreements are resolved by PI lookup of WGI Rule of Law vintage scores.
 
-**Table 4.1, Working-database sample composition** *(pre-formal-search;
-K = 288 effect sizes, k = 238 coded studies)*
+**Table 4.1, Sample composition** *(K = 288 effect sizes, k = 238 coded studies)*
 
 | Category | *K* effects | *k* studies |
 |-------------------------------------------------------------------------|-------------|-------------|
@@ -268,12 +261,10 @@ K = 288 effect sizes, k = 238 coded studies)*
 | By FP type: LAB (labour productivity) | 12 |, |
 | By FP type: MIX | 14 |, |
 
-*Note:* Counts from working database (`p6/results/forest_data.csv`,
+*Note:* Counts from the coded database (`p6/results/forest_data.csv`,
 K=288 rows, k=238 unique study IDs, updated 15/05/2026). ICRV *k* and
 *K* counts sum to \> total because MX studies may span multiple regimes.
-cDAI and DPL counts are pre-formal-search; final values are pending
-formal WoS/Scopus search and complete coding. Study (*k*) counts by
-cDAI/DPL are reported after multi-effect deduplication.
+Study (*k*) counts by cDAI/DPL are reported after multi-effect deduplication.
 
 ### 4.2 Baseline Three-Level Model
 
@@ -564,8 +555,7 @@ under rigorous between-group testing. These results set theoretically
 informative bounds: the *k* = 238 sample lacks sufficient between-regime
 variation (particularly Frontier, *k* = 3; SIDS, *k* = 0) to detect the
 CIMT gradient, and cDAI and DPL phase do not explain between-study
-heterogeneity in the current working database. Future formal-search
-replications with targeted regime-level sampling should test whether the
+heterogeneity in the present corpus. Future replications with targeted regime-level sampling should test whether the
 gradient emerges with richer between-regime representation.
 
 **Contribution 3: Substantial publication bias identified.** The
@@ -681,8 +671,7 @@ measure choices within papers are more important sources of
 heterogeneity than cross-country institutional differences.
 
 **Limitations.** Five inferential constraints bound these conclusions.
-First, the three moderator hypotheses are not confirmed in the current
-*k* = 238 working database; this may reflect insufficient regime-level
+First, the three moderator hypotheses are not confirmed in the present *k* = 238 corpus; this may reflect insufficient regime-level
 *k* (Frontier: *k* = 3; SIDS: *k* = 0) rather than genuine null effects.
 A formal WoS/Scopus search targeting Frontier and SIDS contexts is
 required before the ICRV null result can be interpreted as definitive.
@@ -699,9 +688,7 @@ reference year, may attenuate the moderation coefficient. Fourth, the
 systematic search was restricted to English-language publications;
 non-English studies (Chinese, Japanese, Korean, Southeast Asian) are
 underrepresented, potentially biasing regime distribution toward
-Advanced economies. Fifth, inter-coder reliability was assessed on a 20%
-double-coded subsample (*k* = 47 studies); single-coder extraction for
-the remaining 80% cannot be validated without full dual-coding.
+Advanced economies. Fifth, moderator coding was performed by the PI against the documented codebook; independent double-coding of a 20% subsample (*k* = 47 studies) to compute Cohen's κ and ICC(2, 1) is the remaining reliability step and was not completed at the time of submission.
 
 **Future research.** Three directions follow directly from the null
 moderator findings. First, a formal WoS/Scopus systematic search

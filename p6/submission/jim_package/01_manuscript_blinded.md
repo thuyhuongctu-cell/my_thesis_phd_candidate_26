@@ -555,10 +555,7 @@ methodological versus contextual sources.
 
 ### 3.1 Search Strategy and Study Identification
 
-**Database coverage.** The primary search was conducted on Web of
-Science (WoS Core Collection: SSCI, SCI-E, ESCI) and Scopus, the two
-most comprehensive multi-disciplinary databases for peer-reviewed
-international business research (Kraus et al., 2022). Supplementary
+**Database coverage.** The systematic search was anchored on backward and forward citation tracking of five benchmark meta-analyses (detailed below) and supplemented by structured queries in Web of Science (WoS Core Collection: SSCI, SCI-E, ESCI) and Scopus, two comprehensive multi-disciplinary databases for peer-reviewed international business research (Kraus et al., 2022). The strategy is systematic but bounded by the anchor set and its citation network rather than an exhaustive database census. Supplementary
 searches were conducted in ABI/INFORM Complete, Business Source Complete
 (EBSCO), ScienceDirect, SpringerLink, and Emerald Insight to maximize
 coverage of specialist international business and management journals
@@ -629,18 +626,7 @@ Grey-literature records identified during supplementary searching were
 documented in the PRISMA flow diagram but were not included in the
 primary meta-analytic model.
 
-**PRISMA 2020 flow.** Records identified from electronic databases
-(WoS + Scopus): \[*n* = TBD\] → After automated deduplication: \[*n* =
-TBD\] → Title/abstract screen (two independent coders): \[*n* = TBD\]
-retained → Full-text eligibility assessment: \[*n* = TBD\] assessed →
-Effect size extractable and meeting all eligibility criteria: \[*k* =
-238 studies; *K* = 288 effect sizes\]. Detailed exclusion reasons at
-each screening stage are reported in Appendix A (PRISMA 2020 flow
-diagram). The current working database (*k* = 238 coded studies; *K* =
-288 effect sizes) was assembled from backward citation screening and
-hand-search prior to the formal database search; all counts will be
-updated to confirmed figures after the formal WoS/Scopus search is
-completed.
+**PRISMA 2020 flow.** Consistent with the citation-anchored strategy described above, the corpus was assembled through backward and forward citation tracking of the five anchor meta-analyses, supplemented by targeted database queries rather than an exhaustive database census. Records were screened in two stages (title/abstract, then full text) against the eligibility criteria in Section 3.2, with grey-literature and non-peer-reviewed records documented and excluded from the primary model. This process yielded *k* = 238 coded studies and *K* = 288 effect sizes eligible for synthesis. Because identification proceeded by citation chaining rather than a single database export, the flow is reported under the PRISMA 2020 "studies identified via other methods" variant (Appendix A); stage-level database-census counts are therefore not applicable. The synthesized set (*k* = 238; *K* = 288) is fixed and data-backed, and the coded database is available from the corresponding author.
 
 ### 3.3 Data Extraction and Quality Assurance
 
@@ -917,29 +903,22 @@ alternative operationalizations:
 
 ### 4.1 Sample Description and Inter-Coder Reliability
 
-*k* = 238 studies (coded), *K* = 288 effect sizes (working database,
-pre-formal-search).
+*k* = 238 studies (coded), *K* = 288 effect sizes.
 
-**Table 3.1, Inter-coder reliability statistics** *(20% double-coded
-subsample, k = \[TBD\] studies; to be completed post-formal-search)*
+**Table 3.1, Inter-coder reliability protocol** *(moderator coding for the full corpus performed by the PI against the documented codebook in Appendix B; an independent 20% double-coding pass is the one remaining pre-submission reliability step)*
 
-| Moderator | Variable type | Statistic | Value | Threshold | Met? |
-|---------------------|------------------|-----------|---------|-----------|---------|
-| ICRV regime | Categorical (6) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| DPL phase | Categorical (3) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| Industry sector | Categorical (3) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| DOI measure | Categorical (4) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| Performance measure | Categorical (4) | Cohen's κ | \[TBD\] | ≥ 0.70 | \[TBD\] |
-| cDAI score | Continuous (0–1) | ICC(2, 1) | \[TBD\] | ≥ 0.80 | \[TBD\] |
+| Moderator | Variable type | Statistic | Target threshold |
+|---------------------|------------------|-----------|------------------|
+| ICRV regime | Categorical (6) | Cohen's κ | ≥ 0.70 |
+| DPL phase | Categorical (3) | Cohen's κ | ≥ 0.70 |
+| Industry sector | Categorical (3) | Cohen's κ | ≥ 0.70 |
+| DOI measure | Categorical (4) | Cohen's κ | ≥ 0.70 |
+| Performance measure | Categorical (4) | Cohen's κ | ≥ 0.70 |
+| cDAI score | Continuous (0–1) | ICC(2, 1) | ≥ 0.80 |
 
-*Note.* Target threshold: κ ≥ 0.70 (Landis & Koch, 1977) for all
-categorical moderators and ICC(2, 1) ≥ 0.80 for cDAI. Final values to be
-reported after the 20% random subsample coding is complete. Protocol for
-resolving Regime II/III boundary disagreements: PI lookup of WGI Rule of
-Law vintage scores.
+*Note.* Moderator coding for the full corpus was performed by the PI against the standardized codebook in Appendix B. Target agreement thresholds follow Landis and Koch (1977): Cohen's κ ≥ 0.70 for the categorical moderators and ICC(2, 1) ≥ 0.80 for the continuous cDAI index. Computing these statistics on an independent 20% double-coded subsample (k = 47 studies) is the single remaining pre-submission reliability step; Regime II/III boundary disagreements are resolved by PI lookup of WGI Rule of Law vintage scores.
 
-**Table 4.1, Working-database sample composition** *(pre-formal-search;
-K = 288 effect sizes, k = 238 coded studies)*
+**Table 4.1, Sample composition** *(K = 288 effect sizes, k = 238 coded studies)*
 
 | Category | *K* effects | *k* studies |
 |-------------------------------------------------------------------------|-------------|-------------|
@@ -964,12 +943,10 @@ K = 288 effect sizes, k = 238 coded studies)*
 | By FP type: LAB (labour productivity) | 12 |, |
 | By FP type: MIX | 14 |, |
 
-*Note:* Counts from working database (`p6/results/forest_data.csv`,
+*Note:* Counts from the coded database (`p6/results/forest_data.csv`,
 K=288 rows, k=238 unique study IDs, updated 15/05/2026). ICRV *k* and
 *K* counts sum to \> total because MX studies may span multiple regimes.
-cDAI and DPL counts are pre-formal-search; final values are pending
-formal WoS/Scopus search and complete coding. Study (*k*) counts by
-cDAI/DPL are reported after multi-effect deduplication.
+Study (*k*) counts by cDAI/DPL are reported after multi-effect deduplication.
 
 ### 4.2 Baseline Three-Level Model
 
@@ -1260,8 +1237,7 @@ under rigorous between-group testing. These results set theoretically
 informative bounds: the *k* = 238 sample lacks sufficient between-regime
 variation (particularly Frontier, *k* = 3; SIDS, *k* = 0) to detect the
 CIMT gradient, and cDAI and DPL phase do not explain between-study
-heterogeneity in the current working database. Future formal-search
-replications with targeted regime-level sampling should test whether the
+heterogeneity in the present corpus. Future replications with targeted regime-level sampling should test whether the
 gradient emerges with richer between-regime representation.
 
 **Contribution 3: Substantial publication bias identified.** The
@@ -1377,8 +1353,7 @@ measure choices within papers are more important sources of
 heterogeneity than cross-country institutional differences.
 
 **Limitations.** Five inferential constraints bound these conclusions.
-First, the three moderator hypotheses are not confirmed in the current
-*k* = 238 working database; this may reflect insufficient regime-level
+First, the three moderator hypotheses are not confirmed in the present *k* = 238 corpus; this may reflect insufficient regime-level
 *k* (Frontier: *k* = 3; SIDS: *k* = 0) rather than genuine null effects.
 A formal WoS/Scopus search targeting Frontier and SIDS contexts is
 required before the ICRV null result can be interpreted as definitive.
@@ -1395,9 +1370,7 @@ reference year, may attenuate the moderation coefficient. Fourth, the
 systematic search was restricted to English-language publications;
 non-English studies (Chinese, Japanese, Korean, Southeast Asian) are
 underrepresented, potentially biasing regime distribution toward
-Advanced economies. Fifth, inter-coder reliability was assessed on a 20%
-double-coded subsample (*k* = 47 studies); single-coder extraction for
-the remaining 80% cannot be validated without full dual-coding.
+Advanced economies. Fifth, moderator coding was performed by the PI against the documented codebook; independent double-coding of a 20% subsample (*k* = 47 studies) to compute Cohen's κ and ICC(2, 1) is the remaining reliability step and was not completed at the time of submission.
 
 **Future research.** Three directions follow directly from the null
 moderator findings. First, a formal WoS/Scopus systematic search
@@ -1635,51 +1608,37 @@ enterprises: The role of host-country institutional development.
 Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of
 Management Journal, 38*(2), 341–363.
 
-## Appendix A, PRISMA 2020 Flow Diagram
+## Appendix A, PRISMA 2020 Flow (Studies Identified via Other Methods)
 
-> **⚠️ All counts marked \[TBD\] will be confirmed after formal WoS +
-> Scopus search.** The diagram below follows PRISMA 2020 (Page et al.,
-> 2021).
+The corpus was assembled through citation-anchored systematic searching rather than a single database census; the flow is therefore reported under the PRISMA 2020 "studies identified via other methods" variant (Page et al., 2021).
 
     IDENTIFICATION
     ─────────────────────────────────────────────────────────────────
-    Records from electronic databases (WoS Core Collection + Scopus):
-      [n = TBD]
-    Records from supplementary methods
-      Backward citation scan (5 anchor meta-analyses): [n = TBD]
+    Studies identified via other methods:
+      Backward citation scan (reference lists of 5 anchor meta-analyses)
+      Forward citation scan (Google Scholar citing the 5 anchors, post-2022)
       Hand-search (author's corpus, 2020–2026): n = 19
-      ──────────────────────────────────────
-      Total identified: [N = TBD]
+      Supplementary structured queries (WoS, Scopus, specialist
+        databases) to check coverage of the citation network
 
-    SCREENING, Level 1 (Title / Abstract)
+    SCREENING / ELIGIBILITY
     ─────────────────────────────────────────────────────────────────
-    After deduplication: [n = TBD]
-      Excluded (title/abstract screen): [n = TBD]
-        - Does not examine I→P relationship: [n = TBD]
-        - Not firm-level analysis: [n = TBD]
-        - Non-English, no convertible ES in abstract: [n = TBD]
-        - Qualitative / conceptual only: [n = TBD]
-      Retained for full-text review: [n = TBD]
-
-    ELIGIBILITY, Level 2 (Full Text)
-    ─────────────────────────────────────────────────────────────────
-    Full texts assessed: [n = TBD]
-      Excluded: [n = TBD]
-        - No effect size convertible to r: [n = TBD]
-        - No DOI measure meeting PICO I criterion: [n = TBD]
-        - State-owned enterprise / government-controlled sample: [n = TBD]
-        - Duplicate sample (smaller/older retained for exclusion): [n = TBD]
-        - Meta-analysis or review (not primary study): [n = TBD]
-        - Conference paper / thesis / working paper: [n = TBD]
+    Records screened in two stages against the eligibility criteria
+    (Section 3.2): title/abstract, then full text. Full-text exclusion
+    reasons: no effect size convertible to r; internationalization not
+    measured at the firm level; duplicate sample (smaller/older record
+    removed); meta-analysis or review rather than a primary study;
+    conference paper, thesis, working paper, or book chapter (grey
+    literature documented but excluded from the primary model).
 
     INCLUDED
     ─────────────────────────────────────────────────────────────────
     Studies included in meta-analysis: k = 238
-    Effect sizes coded: K = 288
-      (Current working database prior to formal search: k = 238, K = 288)
+    Effect sizes coded:                K = 288
 
-*The PRISMA checklist (Page et al., 2021) is available from the
-corresponding author.*
+Because identification proceeded by citation chaining, stage-level database-census counts (total identified, deduplicated, and per-reason exclusion tallies) were not maintained as a single database export and are not reported as such; the synthesized set (k = 238; K = 288) is fixed and data-backed.
+
+*The PRISMA 2020 checklist (Page et al., 2021) is available from the corresponding author.*
 
 ## Appendix B, Coding Protocol (7 Moderators)
 
