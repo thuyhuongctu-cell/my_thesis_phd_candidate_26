@@ -5,7 +5,7 @@
 **Manuscript classification:** research article.
 
 **Word count** (main text, excluding abstract, references, tables and
-figures): approximately 8, 500 words.
+figures): approximately 8,500 words.
 
 **Tables:** 12 \| **Figures:** 10
 
@@ -782,7 +782,7 @@ is positive and statistically significant (β = +2.652, SE = 0.691, p \<
 .068). The fitted curve therefore implies a turning point in the upper
 tail of the export-intensity distribution, near FSTS = 82% on the
 original scale, but that point is imprecisely located and falls in a
-sparsely populated region of the data. The 5, 000-replication bootstrap
+sparsely populated region of the data. The 5,000-replication bootstrap
 recovers an inverted-U shape frequently (96.3% of replications), yet the
 corresponding 95% percentile confidence interval for the turning point
 is wide (\[53%, 253%\]), and the Lind–Mehlum test does not formally
@@ -975,7 +975,7 @@ confidence bands from the canonical quadratic specification (M2). The
 implied turning point occurs near FSTS = 88.6% on the original scale
 (−β₁/2β₂ on mean-centered FSTS ≈ 84.1%; adding back the sample mean of
 0.045 gives ≈ 88.6%, Aiken & West, 1991), but its 95% percentile
-cluster-bootstrap confidence interval (5, 000 replications) spans \[53%,
+cluster-bootstrap confidence interval (5,000 replications) spans \[53%,
 253%\] (median 80%, IQR \[68%, 102%\]); the inverted-U shape is
 recovered in 96.3% of bootstrap replications, but its precise location
 is only loosely identified. The shaded red vertical band marks the
@@ -1134,9 +1134,9 @@ consistent with the digital saturation paradox outlined in the
 introduction. Their measurable return surfaces only when the scaling
 demands of high export intensity justify intensive use of digital
 interfaces and transaction systems. The scale of Singapore's innovation
-ecosystem, 25, 000 attendees and record 6, 800 startup applications from
+ecosystem, 25,000 attendees and record 6,800 startup applications from
 150 markets at the 2025 Singapore Week of Innovation and Technology
-(Enterprise Singapore, 2025), and 22, 000 delegates from 110 regions at
+(Enterprise Singapore, 2025), and 22,000 delegates from 110 regions at
 the Asia Tech x Singapore summit co-organised by the Infocomm Media
 Development Authority (IMDA, 2025), confirming that Singapore's
 advanced digital maturity extends well beyond the Tier 1–2 foundational
@@ -1512,7 +1512,7 @@ relying on the Heckman two-step method without a valid instrument.
 *Additional contextual sources (cited in §1.1 and §5.1)*
 
 Enterprise Singapore. (2025, November). *SWITCH 2025 concludes 10th
-anniversary milestone with record 25, 000 attendees* \[Press release\].
+anniversary milestone with record 25,000 attendees* \[Press release\].
 Enterprise Singapore.
 <https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2025/november/mr05225_switch-2025-concludes-10th-anniversary-milestone-with-record-25000-attendees-strengthens-position-as-premiere-platform-for-deep-tech-innovation>
 

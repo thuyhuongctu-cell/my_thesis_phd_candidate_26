@@ -1,7 +1,5 @@
 # Internationalization and Firm Performance across 49 Asian and Pacific Economies: Institutional Regimes, Digital Capabilities, and Managerial Characteristics as Contingency Factors
 
-**Version:** Working manuscript (May 2026)  
-**Status:** Empirical results complete; under revision for submission
 
 ## Abstract
 

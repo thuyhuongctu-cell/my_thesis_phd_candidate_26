@@ -7,7 +7,7 @@
 **Manuscript classification:** research article.
 
 **Word count** (main text excluding abstract, references, tables and
-figures): approximately 7, 200 words.
+figures): approximately 7,200 words.
 
 **Tables:** 3 (Table 1 descriptives by wave; Table 2 main threshold
 model M2; Table 3 three-way moderation specification with joint
@@ -26,7 +26,7 @@ technological capability shapes this relationship across a decade of
 structural change.
 
 **Design/methodology/approach**, World Bank Enterprise Survey microdata
-for China (2012, N = 2, 610; 2024, N = 1, 934; pooled N = 4, 544;
+for China (2012, N = 2,610; 2024, N = 1,934; pooled N = 4,544;
 complete-case sample after listwise deletion on control variables) are
 used to estimate quadratic models with cross-wave and capability
 interactions; Paternoster (1998) z-tests and joint F-tests assess
@@ -236,13 +236,13 @@ Figure 1: Conceptual model
 ### 3.1 Data
 
 The analytic dataset combines two waves of the World Bank Enterprise
-Survey for China: 2012 (full release, 2, 700 firms; World Bank, 2013) and
-2024 (2, 189 firms; World Bank, 2025). After listwise deletion on the
+Survey for China: 2012 (full release, 2,700 firms; World Bank, 2013) and
+2024 (2,189 firms; World Bank, 2025). After listwise deletion on the
 focal set (sales, employees, export intensity) and treatment of WBES
 non‑response codes -9 and -7 as missing (and the additional 2024 refusal
-code -8), the analytic samples are 2, 619 firms in 2012, 1, 940 firms in
-2024, and 4, 559 firm‑year observations in the pooled sample. The 2024
-sample is smaller than 2012 (N = 1, 940 vs N = 2, 619, −26%) due to a
+code -8), the analytic samples are 2,619 firms in 2012, 1,940 firms in
+2024, and 4,559 firm‑year observations in the pooled sample. The 2024
+sample is smaller than 2012 (N = 1,940 vs N = 2,619, −26%) due to a
 combination of: (i) WBES sampling redesign between waves; (ii)
 systematic exclusion of state-owned enterprises in the 2024 instrument;
 and (iii) potential market exit among firms surveyed in 2012. This
@@ -262,11 +262,11 @@ in §4.6.
 
 **Replication note.** The focal-set samples, retaining only firms with
 non-missing sales, employees, and export intensity (`lnLP`, `FSTS`,
-`FSTS²`), are 2, 619 firms in 2012, 1, 940 firms in 2024, and 4, 559
+`FSTS²`), are 2,619 firms in 2012, 1,940 firms in 2024, and 4,559
 firm-year observations in the pooled dataset. The regression samples
 (*sample_base*), which additionally require non-missing `lnEmp`, firm
-age, and the foreign-ownership indicator, are **2, 610 (2012), 1, 934
-(2024), and 4, 544 (pooled)**, these are the N reported throughout the
+age, and the foreign-ownership indicator, are **2,610 (2012), 1,934
+(2024), and 4,544 (pooled)**, these are the N reported throughout the
 paper (abstract, Table 1, Table 2). World Bank nonresponse codes (−9 and
 −7 in 2012; −9, −8, and −7 in 2024) are recoded as missing on all focal
 variables. Composite indices `TCI_full` and `DAI_core` are within‑wave
@@ -277,16 +277,16 @@ for cross-wave shift and capability moderation in an independent Python
 replication of the Stata pipeline.
 
 **Sample scope and non-response filtering.** The 2024 analytic sample (N
-= 1, 940) is constructed from the full WBES private-firm frame with
+= 1,940) is constructed from the full WBES private-firm frame with
 stricter non-response filtering than the 2012 wave. In 2024, WBES
 introduced a new non-response code −8 (refusal) in addition to the
 standard −9 (don’t know) and −7 (not applicable) codes used in 2012. The
 focal-set listwise deletion (sales + employees + export intensity
-non-missing) retains 1, 940 of 2, 189 firms (88.6 %). By contrast, the
+non-missing) retains 1,940 of 2,189 firms (88.6 %). By contrast, the
 controls-inclusive listwise deletion used in the regression models
 (sample_base: additionally requiring non-missing lnEmp, firmage,
-foreigndummy) reduces the 2024 wave to 1, 934 observations and the pooled
-sample to 4, 544. Turning-point estimates (47.2 % in 2024) and
+foreigndummy) reduces the 2024 wave to 1,934 observations and the pooled
+sample to 4,544. Turning-point estimates (47.2 % in 2024) and
 Paternoster z-tests are invariant across the two sample definitions.
 
 ### 3.2 Measures
@@ -333,7 +333,7 @@ dummies.
 All models are estimated by OLS with Eicker–Huber–White
 heteroskedasticity-consistent (HC1) standard errors (MacKinnon and
 White, 1985), clustered on firm identifier (`idstd`) in the pooled
-specification. Among the pooled 4, 559 observations, 217 firms appear in
+specification. Among the pooled 4,559 observations, 217 firms appear in
 both the 2012 and 2024 waves (the 'panel core'), enabling within-firm
 variation estimates via cluster-robust standard errors on firm
 identifiers. This panel core, though modest in size relative to the full
@@ -368,22 +368,22 @@ three jointly-assessed hypotheses.
 ### 4.1 Descriptive Statistics
 
 Table 1 summarises the main analytic sample (sample_base) by wave. The
-2012 wave (N = 2, 610) has mean log labour productivity of 12.52 (SD
+2012 wave (N = 2,610) has mean log labour productivity of 12.52 (SD
 1.19) and mean export intensity of 5.2 %, with 19.4 % of firms reporting
-any positive direct-export intensity. The 2024 wave (N = 1, 934) shows
+any positive direct-export intensity. The 2024 wave (N = 1,934) shows
 mean log labour productivity of 13.01 (SD 1.35), an upward level shift
 of 0.49 log units, and mean export intensity of 3.6 %, with 12.4 % of
 firms reporting any positive direct-export intensity. The decline in the
 share of exporters between 2012 and 2024 is consistent with broader
 evidence of Chinese private-firm retreat from direct export markets.
-TCI_full is available for 1, 639 firms in 2012 (63 %) and 1, 920 firms in
+TCI_full is available for 1,639 firms in 2012 (63 %) and 1,920 firms in
 2024 (99 %), reflecting a significant improvement in WBES coverage of
 innovation-related items in the 2024 wave. DAI_core (own-website) is
 available for all sample_base observations.
 
 **Table 1.** Descriptive statistics for sample_base by wave
 
-| Variable | 2012 (N = 2, 610) | 2024 (N = 1, 934) |
+| Variable | 2012 (N = 2,610) | 2024 (N = 1,934) |
 |----------------------------------------|------------------|------------------|
 | ln(LP), log labour productivity | 12.52 (1.19) | 13.01 (1.35) |
 | FSTS, export intensity | 0.052 (0.143) | 0.036 (0.119) |
@@ -391,8 +391,8 @@ available for all sample_base observations.
 | lnEmp, log employees | 4.19 (1.14) | 3.95 (1.06) |
 | Firm age (years) | 11.8 (8.4) | 16.1 (9.2) |
 | Foreign ownership \> 10 % | 5.8 % | 3.7 % |
-| TCI_full nonmissing (≥ 3 of 4 items) | N = 1, 639 | N = 1, 920 |
-| DAI_core nonmissing (c22b own-website) | N = 2, 610 | N = 1, 934 |
+| TCI_full nonmissing (≥ 3 of 4 items) | N = 1,639 | N = 1,920 |
+| DAI_core nonmissing (c22b own-website) | N = 2,610 | N = 1,934 |
 
 Means with standard deviations in parentheses. Conditional on FSTS \> 0,
 mean FSTS is 0.269 in 2012 and 0.289 in 2024, indicating that
@@ -435,14 +435,14 @@ are consistent with H2b (structural durability) over H2a (environmental
 shift), indicating that neither the linear nor the quadratic coefficient
 differs significantly between waves at the 0.05 level.
 
-The pooled model (N = 4, 544) yields FSTS β = +1.24 (p \< .001) and FSTS²
+The pooled model (N = 4,544) yields FSTS β = +1.24 (p \< .001) and FSTS²
 β = −1.55 (p \< .001), with turning point at 48.8 % (95 % CI:
 44.2–53.4 %).
 
 **Table 2.** Main OLS results: M2 specification (lnLP ~ FSTS + FSTS² +
 lnEmp + firmage + foreigndummy)
 
-| Coefficient | 2012 (N = 2, 610) | 2024 (N = 1, 934) | Pooled (N = 4, 544) |
+| Coefficient | 2012 (N = 2,610) | 2024 (N = 1,934) | Pooled (N = 4,544) |
 |------------------------|-----------------------|-----------------------|-----------------------|
 | Intercept | +12.79 (0.090) \*\*\* | +12.38 (0.084) \*\*\* | +12.58 (0.067) \*\*\* |
 | FSTS | +1.28 (0.379) \*\*\* | +1.19 (0.461) \*\* | +1.24 (0.290) \*\*\* |
@@ -514,11 +514,11 @@ joint F-tests
 | FSTS × wave_2024 × Tech | −0.376 (0.898) | .675 | |
 | FSTS² × wave_2024 × Tech | +0.249 (1.076) | .817 | |
 | **Joint F-tests** | | | |
-| F1: (FSTS × wave_2024, FSTS² × wave_2024) = 0 | F(2, 3, 558) = 2.24 | **.107** | NOT rejected |
-| F2: (FSTS × Tech, FSTS² × Tech) = 0 | F(2, 3, 558) = 3.26 | **.039** | marginal |
-| F3: (FSTS × wave_2024 × Tech, FSTS² × wave_2024 × Tech) = 0 | F(2, 3, 558) = 0.27 | **.760** | NOT rejected |
+| F1: (FSTS × wave_2024, FSTS² × wave_2024) = 0 | F(2, 3,558) = 2.24 | **.107** | NOT rejected |
+| F2: (FSTS × Tech, FSTS² × Tech) = 0 | F(2, 3,558) = 3.26 | **.039** | marginal |
+| F3: (FSTS × wave_2024 × Tech, FSTS² × wave_2024 × Tech) = 0 | F(2, 3,558) = 0.27 | **.760** | NOT rejected |
 
-N = 3, 559 (sample_full). Cluster-robust SE on idstd. Controls (lnEmp,
+N = 3,559 (sample_full). Cluster-robust SE on idstd. Controls (lnEmp,
 firmage, foreigndummy) included. F1 corresponds to H2a vs H2b
 (cross-wave shift vs structural durability); F2 to H4a cross-sectional
 curvature moderation; F3 to capability-conditioned dynamic moderation.
@@ -539,7 +539,7 @@ DAI_core (own-website) is positive and significant in both waves (β_z ≈
 control in M2. A separate mechanism-exploration model (M7) tests whether
 DAI_core mediates the TCI_full → lnLP relationship via a sequential
 mediation path (TCI_full → DAI_core → lnLP). Bootstrap indirect-effect
-estimates (n = 1, 000 draws) yield small but positive indirect effects
+estimates (n = 1,000 draws) yield small but positive indirect effects
 (2012: +0.018, 95 % CI \[0.004, 0.039\]; 2024: +0.022, 95 % CI \[0.007,
 0.043\]), consistent with a partial-mediation reading. However, because
 DAI_core is a single-item binary proxy and because the WBES does not

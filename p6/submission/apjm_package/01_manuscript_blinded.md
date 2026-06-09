@@ -272,7 +272,7 @@ Study (*k*) counts by cDAI/DPL are reported after multi-effect deduplication.
 
 $${\bar{r}}_{ICBEF} = 0.07\quad\left( 95\%\ \text{CI}:\lbrack 0.05, 0.09\rbrack \right), \ p < .001$$
 
-$$I_{ICBEF}^{2} = 87.92\%, \quad Q_{between} = 1, 247.3\ (df = 112, \ p < .001)$$
+$$I_{ICBEF}^{2} = 87.92\%, \quad Q_{between} = 1,247.3\ (df = 112, \ p < .001)$$
 
 **Three-level decomposition** (metafor REML, k = 238 studies, K = 288
 effects):
@@ -285,7 +285,7 @@ effects):
 | *I*²\_(3) between-study | 8.4% |
 | *I*²_total | 62.5% |
 | Pooled *r̂*\_3L | 0.074 (95% CI \[0.060, 0.088\]) |
-| *Q*\_total | 1, 895.58 (*df* = 286, *p* \< .001) |
+| *Q*\_total | 1,895.58 (*df* = 286, *p* \< .001) |
 
 The three-level pooled estimate (*r̂* = 0.074) is consistent with the
 ICBEF 2025 single-level baseline (*r* = 0.07), confirming no systematic
@@ -430,9 +430,9 @@ adjusted pooled *r̄* = 0.035 (95% CI \[0.018, 0.051\]), a conservative
 lower bound. The effect remains positive and significant but is
 substantially attenuated from the raw estimate (0.074 → 0.035).
 
-**Fail-safe *N*** (Rosenthal, 1991): *N* = 44, 782, far exceeding the
-criterion of 5*k* + 10 = 1, 195; even under extreme publication
-suppression assumptions, a trivially small effect would require 44, 782
+**Fail-safe *N*** (Rosenthal, 1991): *N* = 44,782, far exceeding the
+criterion of 5*k* + 10 = 1,195; even under extreme publication
+suppression assumptions, a trivially small effect would require 44,782
 unpublished null studies, implausible.
 
 The trim-and-fill correction (*k* = 57 imputed, adj. *r* = 0.035) is the

@@ -1,7 +1,5 @@
 # Internationalization and Firm Performance across 49 Asian and Pacific Economies: Institutional Regimes, Digital Capabilities, and Managerial Characteristics as Contingency Factors
 
-**Version:** Working manuscript (May 2026)  
-**Status:** Empirical results complete; under revision for submission
 
 ## Abstract
 
@@ -9,7 +7,7 @@ We examine whether the internationalization–performance (I–P)
 relationship holds across a large and institutionally diverse set of
 Asian and Pacific economies and identify the conditions under which
 firms convert export intensity into productive performance. Using
-microdata from 91, 982 firms across 49 economies and 102 country-year
+microdata from 91,982 firms across 49 economies and 102 country-year
 waves of the World Bank Enterprise Survey (2003–2025), spanning all six
 Institutional Capability and Resource Vulnerability (ICRV) regime
 groups, we estimate a hierarchical set of OLS models with HC1 robust
@@ -50,7 +48,7 @@ context as a moderator (Marano et al., 2016; Kirca et al., 2012), but
 empirical tests simultaneously across institutionally diverse Asian
 economies remain rare.
 
-This paper addresses that gap. We pool 91, 982 firm-observations from 49
+This paper addresses that gap. We pool 91,982 firm-observations from 49
 Asian and Pacific economies spanning 2003–2025, harmonised from the
 World Bank Enterprise Survey (WBES). Our sample spans all six ICRV
 regime groups, from advanced innovation-driven economies (Singapore,
@@ -65,7 +63,7 @@ programme of which this study is part.
 Our contributions are threefold. First, we provide the largest
 WBES-based test of the inverted-U I–P hypothesis in Asia, confirming a
 turning point at approximately 36% foreign sales intensity across all
-specifications (N = 84, 910–29, 840), robust even in the full three-way
+specifications (N = 84,910–29,840), robust even in the full three-way
 moderation model (M11: TP=34.6%, LM p=.002). Second, we document that
 digital adoption (DAI) is the primary capability moderator that reshapes
 the I–P curve, generating significant curve compression effects
@@ -284,7 +282,7 @@ West Asia (Armenia, Bahrain, Cyprus, Iraq, Israel, Jordan, Kuwait,
 Lebanon, Oman, Qatar, Saudi Arabia, Yemen), and Pacific/SIDS (Fiji,
 Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu).
 
-The final analytical dataset contains 91, 982 firm-observations (before
+The final analytical dataset contains 91,982 firm-observations (before
 applying outcome and FSTS non-missing requirements). Oman's available
 data (2003 vintage) predates the digital-capability variables used in
 M6–M11; it contributes to M2 but drops from M3+ due to missing controls.
@@ -357,11 +355,11 @@ p-value and individual coefficient p-values.
 
 ### 3.4 Sample Sizes
 
-The analytic sample for M2 (outcome + FSTS non-missing) is N = 84, 910.
-Adding controls reduces the sample to N = 38, 342 (M3); country-year FE
+The analytic sample for M2 (outcome + FSTS non-missing) is N = 84,910.
+Adding controls reduces the sample to N = 38,342 (M3); country-year FE
 model M5 uses the same sample. TCI-moderation models (M6, M7) use N ≈
-38, 051; adding DAI (M8) N ≈ 37, 940; manager models (M9) N ≈ 35, 568;
-ICRV-moderation (M10) N ≈ 31, 928; full three-way (M11) N ≈ 29, 840. The
+38,051; adding DAI (M8) N ≈ 37,940; manager models (M9) N ≈ 35,568;
+ICRV-moderation (M10) N ≈ 31,928; full three-way (M11) N ≈ 29,840. The
 drop from M2 to M3/M5 reflects missingness in control variables
 (primarily foreign ownership and firm age), which is more prevalent in
 smaller economies and early WBES waves.
@@ -903,17 +901,17 @@ China. *Journal of World Business, 54*(4), 305–320.
 
 | Model | N | Adj R² | Turning point (%) | LM p | Key additions |
 |-------|--------|--------|-------------------|--------|-----------------------------------|
-| M0 | 84, 910 | .000 |, |, | FSTS linear |
-| M1 | 84, 910 | .000 |, |, | FSTS + controls (no quadratic) |
-| M2 | 84, 910 | .003 | **36.4** | \<.001 | FSTS + FSTS² |
-| M3 | 38, 342 | .015 | **33.8** | \<.001 | M2 + controls |
-| M5 | 38, 342 | .677 | **40.0** | \<.001 | M3 + country-year FE |
-| M6 | 38, 051 | .024 | 32.7 | \<.001 | M3 + TCI (main only) |
-| M7 | 38, 051 | .025 | **33.9** | \<.001 | M6 + FSTS×TCI, FSTS²×TCI |
-| M8 | 37, 940 | .030 | **33.8** | \<.001 | M7 + DAI + FSTS×DAI, FSTS²×DAI |
-| M9 | 35, 568 | .035 | **36.1** | \<.001 | M8 + manager + interactions |
-| M10 | 31, 928 | .049 |, | n.s. | M8 + ICRV + FSTS×ICRV, FSTS²×ICRV |
-| M11 | 29, 840 | .067 | **34.6** | .002 | M10 + three-way DAI×ICRV×FSTS |
+| M0 | 84,910 | .000 |, |, | FSTS linear |
+| M1 | 84,910 | .000 |, |, | FSTS + controls (no quadratic) |
+| M2 | 84,910 | .003 | **36.4** | \<.001 | FSTS + FSTS² |
+| M3 | 38,342 | .015 | **33.8** | \<.001 | M2 + controls |
+| M5 | 38,342 | .677 | **40.0** | \<.001 | M3 + country-year FE |
+| M6 | 38,051 | .024 | 32.7 | \<.001 | M3 + TCI (main only) |
+| M7 | 38,051 | .025 | **33.9** | \<.001 | M6 + FSTS×TCI, FSTS²×TCI |
+| M8 | 37,940 | .030 | **33.8** | \<.001 | M7 + DAI + FSTS×DAI, FSTS²×DAI |
+| M9 | 35,568 | .035 | **36.1** | \<.001 | M8 + manager + interactions |
+| M10 | 31,928 | .049 |, | n.s. | M8 + ICRV + FSTS×ICRV, FSTS²×ICRV |
+| M11 | 29,840 | .067 | **34.6** | .002 | M10 + three-way DAI×ICRV×FSTS |
 
 *Note.* Turning point confirmed by Lind–Mehlum (2010) test (LM p). M10
 turning point not identified because ICRV interactions shift the
@@ -937,12 +935,12 @@ SEs throughout.
 | ICRV_group |, |, |, |, | +0.729\*\*\* |
 | FSTS×ICRV |, |, |, |, | +1.636\*\*\* |
 | FSTS²×ICRV |, |, |, |, | −2.501\*\*\* |
-| N | 84, 910 | 38, 051 | 37, 940 | 35, 568 | 31, 928 |
+| N | 84,910 | 38,051 | 37,940 | 35,568 | 31,928 |
 | Adj R² | .003 | .025 | .030 | .035 | .049 |
 
 *Note.* HC1 robust SEs. \*\*\* p \< .001, \*\* p \< .01, \* p \< .05, †
 p \< .10. Controls (female_owner, foreign_own_pct, firm_age, ln_size)
-included in M7–M10 but not reported for space. M11 (N=29, 840,
+included in M7–M10 but not reported for space. M11 (N=29,840,
 AdjR²=.067, TP=34.6%, LM p=.002): DAI×ICRV=+0.060\*, three-way
 FSTS×DAI×ICRV=−0.001 (NS), mgr_experience=+0.009\*\*, FSTS×mgr=−0.019†,
 mgr_female=+0.187\*\*\*, female_owner=+0.128\*\*.

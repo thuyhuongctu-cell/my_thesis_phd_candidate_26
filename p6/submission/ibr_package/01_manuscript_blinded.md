@@ -534,7 +534,7 @@ trim-and-fill procedure is expected to impute missing studies on the
 left side of the funnel (suppressed null/negative results) and produce a
 bias-adjusted pooled estimate (*r̄*\_adj) that is smaller than the raw
 estimate but remains positive (*r̄*\_adj \> 0); (H4c) Orwin's (1983)
-fail-safe N is expected to substantially exceed the threshold of 2, 000
+fail-safe N is expected to substantially exceed the threshold of 2,000
 studies required to reduce the pooled effect to a negligible level,
 confirming that the positive I→P effect is not an artifact of
 publication bias alone.
@@ -563,7 +563,7 @@ Q_M = 0.62 (p = .734), H2 not supported. The three-level model nests K =
 54.1%) within between-study heterogeneity (σ²_between = 0.00136, I²\_(3)
 = 8.4%); total I² = 62.5%. Publication bias (H4 confirmed): Egger's b =
 0.487 (p = .052), Begg's τ = −0.132 (p = .001); trim-and-fill imputes k
-= 57 studies, adjusted r = 0.035; fail-safe N = 44, 782. Abbreviations:
+= 57 studies, adjusted r = 0.035; fail-safe N = 44,782. Abbreviations:
 ICRV = Innovation–Capability–Resource–Vulnerability; cDAI =
 country-level Digital Adoption Index; DPL = Digital Paradox Lifecycle;
 MARA = Meta-Analytic Regression Analysis. Target journal: *International
@@ -986,7 +986,7 @@ Study (*k*) counts by cDAI/DPL are reported after multi-effect deduplication.
 
 $${\bar{r}}_{ICBEF} = 0.07\quad\left( 95\%\ \text{CI}:\lbrack 0.05, 0.09\rbrack \right), \ p < .001$$
 
-$$I_{ICBEF}^{2} = 87.92\%, \quad Q_{between} = 1, 247.3\ (df = 112, \ p < .001)$$
+$$I_{ICBEF}^{2} = 87.92\%, \quad Q_{between} = 1,247.3\ (df = 112, \ p < .001)$$
 
 **Three-level decomposition** (metafor REML, k = 238 studies, K = 288
 effects):
@@ -999,7 +999,7 @@ effects):
 | *I*²\_(3) between-study | 8.4% |
 | *I*²_total | 62.5% |
 | Pooled *r̂*\_3L | 0.074 (95% CI \[0.060, 0.088\]) |
-| *Q*\_total | 1, 895.58 (*df* = 286, *p* \< .001) |
+| *Q*\_total | 1,895.58 (*df* = 286, *p* \< .001) |
 
 The three-level pooled estimate (*r̂* = 0.074) is consistent with the
 ICBEF 2025 single-level baseline (*r* = 0.07), confirming no systematic
@@ -1144,9 +1144,9 @@ adjusted pooled *r̄* = 0.035 (95% CI \[0.018, 0.051\]), a conservative
 lower bound. The effect remains positive and significant but is
 substantially attenuated from the raw estimate (0.074 → 0.035).
 
-**Fail-safe *N*** (Rosenthal, 1991): *N* = 44, 782, far exceeding the
-criterion of 5*k* + 10 = 1, 195; even under extreme publication
-suppression assumptions, a trivially small effect would require 44, 782
+**Fail-safe *N*** (Rosenthal, 1991): *N* = 44,782, far exceeding the
+criterion of 5*k* + 10 = 1,195; even under extreme publication
+suppression assumptions, a trivially small effect would require 44,782
 unpublished null studies, implausible.
 
 The trim-and-fill correction (*k* = 57 imputed, adj. *r* = 0.035) is the
@@ -1694,4 +1694,4 @@ reflects the precision gain from 238 vs. 113 studies. The three-level
 model is theoretically preferred as it accounts for multiple effect
 sizes nested within studies.
 
-*Word count (excluding tables, references, appendices): ≈ 6, 900 words*
+*Word count (excluding tables, references, appendices): ≈ 6,900 words*

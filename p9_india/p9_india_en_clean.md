@@ -151,7 +151,7 @@ Joint F-test on cross-wave interactions in pooled model provides a multi-coeffic
 
 ### 4.1 Descriptive statistics
 
-Sample sizes after listwise deletion on focal variables and firmage validation (capped at [0, 150]): 2014 N = 8,941; 2022 N = 9,300; 2025 N = 10,476. Mean export intensity declined from 7.2 % (2014) to 8.0 % (2022) to 2.7 % (2025), consistent with India's post-2020 inward shift under Atmanirbhar Bharat. Productivity levels rose: mean lnLP = 13.93 (2014), 14.37 (2022), 15.01 (2025). DAI Tier-1 (website adoption) was 52.7 % in 2014, 60.6 % in 2022, but declined to 41.8 % in 2025, suggesting that websites became less central as UPI absorbed customer-facing digital interaction. DAI Tier-2 (e-payment share), measured only in 2025, averaged 65.8 per cent. This level of e-payment uptake reflects UPI saturation. Full descriptives are reported in Table 1.
+Sample sizes after listwise deletion on focal variables and firmage validation (capped at [0,150]): 2014 N = 8,941; 2022 N = 9,300; 2025 N = 10,476. Mean export intensity declined from 7.2 % (2014) to 8.0 % (2022) to 2.7 % (2025), consistent with India's post-2020 inward shift under Atmanirbhar Bharat. Productivity levels rose: mean lnLP = 13.93 (2014), 14.37 (2022), 15.01 (2025). DAI Tier-1 (website adoption) was 52.7 % in 2014, 60.6 % in 2022, but declined to 41.8 % in 2025, suggesting that websites became less central as UPI absorbed customer-facing digital interaction. DAI Tier-2 (e-payment share), measured only in 2025, averaged 65.8 per cent. This level of e-payment uptake reflects UPI saturation. Full descriptives are reported in Table 1.
 
 **[Insert Table 1 about here.]**
 
@@ -367,5 +367,3 @@ Verbeke, A. and Forootan, M.Z. (2012), "How good are multinationality–performa
 Williamson, O.E. (2000), "The new institutional economics: taking stock, looking ahead", *Journal of Economic Literature*, Vol. 38 No. 3, pp. 595–613.
 
 ---
-
-*Manuscript draft version 2026-06-02. Empirical sections complete; Section 4.6 robustness expansion (manufacturing sub-sample, trimmed FSTS, wild cluster bootstrap) and Figure rendering pending.*
