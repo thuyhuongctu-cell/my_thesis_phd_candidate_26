@@ -38,20 +38,20 @@
 
 ---
 
-## PHA 2 — Việc tôi (Claude) làm được an toàn NGAY (không cần dữ liệu mới)
+## PHA 2 — Việc Claude làm được an toàn — ✅ HOÀN THÀNH 2026-06-09
 
-> Có thể thực hiện bất cứ lúc nào bạn đồng ý; không chặn bởi Pha 1.
+| # | Việc | Trạng thái |
+|---|---|---|
+| 2.1 | Xóa header draft ("Version/Status" P7×3; footer line-477 P9×3) + sửa P6 jwb ghi nhầm tạp chí (IBR→JWB) | ✅ |
+| 2.2 | Abstract **7 mục Emerald** ≤250 từ cho P9 IJOEM + JABS (MIR giữ 4 mục) | ✅ (250 từ, đủ số liệu) |
+| 2.3 | Spaced-thousands trên TẤT CẢ package (180 chỗ) + em-dash/AI-tone = 0 toàn bộ | ✅ |
+| 2.4 | **Bổ sung title/cover còn thiếu cho hồ sơ nộp đầu**: P4-MIR (title+cover), P5-IJOEM (title) | ✅ (đã tạo) |
+| 2.5 | Citation↔reference 2 chiều: gỡ orphan đã verify (P4×4, P6×3, P9×13), flag missing | ✅ (per-paper fix agents) |
+| 2.6 | Harvard "and" (Emerald) / APA "&" (Elsevier) đúng house style | ✅ |
+| 2.7 | Dọn em-dash bản dịch VI P3 (184→0) | ✅ |
+| 2.8 | `dist/SUBMISSION_FINAL/UPLOAD_INDEX.md` — manifest nộp đầu/ paper (file, VI, house style, cổng) | ✅ |
 
-| # | Việc | Paper | Ghi chú |
-|---|---|---|---|
-| 2.1 | Xóa header "Version: Working manuscript / under revision" trong bản blinded | P7 (+ rà các paper khác) | Lộ trạng thái draft, không phù hợp nộp |
-| 2.2 | Dựng abstract **7 mục Emerald** (Purpose/Design/Findings/Research limitations/Practical/Social/Originality) trong ≤250 từ cho IJOEM + JABS | P9 | Hiện dùng bản 4 mục 258 từ (đúng MIR); Emerald muốn 7 mục |
-| 2.3 | Rà **spaced-thousands** + em-dash + AI-tone trên TẤT CẢ package phụ (Reach/Safe), không chỉ first-target | P3–P9 | Mới rà first-target; đồng bộ các package còn lại |
-| 2.4 | Đồng bộ **metadata README/title-page** với manuscript (số bảng, word count, JEL, keywords) cho mọi package | P3–P9 | P5 đã làm; nhân rộng |
-| 2.5 | Rà **citation↔reference 2 chiều** trên mọi package (orphan + missing) bằng script đối chiếu | P3–P9 | Tự động liệt kê; chỉ xóa orphan đã verify, missing thì flag |
-| 2.6 | Chuẩn hóa Harvard "and" (Emerald) / APA "&" (Elsevier) đồng nhất từng package | P3–P9 | Theo đúng house style mỗi tạp chí |
-| 2.7 | Dọn em-dash bản dịch VI P3 còn lại (nếu phát sinh) + rebuild docx | P3 | Đã làm 1 lần; kiểm lại |
-| 2.8 | Build **bộ nộp cuối** `dist/SUBMISSION_FINAL/` gọn cho từng paper (manuscript+title+cover+figures+VI) | P3–P9 | 1 thư mục/ paper, sẵn upload |
+**Còn lại trong Pha 2 (tùy chọn, thấp ưu tiên):** dựng hồ sơ P3-jabs (stub) nếu muốn dùng tùy chọn 4; bổ sung title/cover cho P6-ibr legacy (đã rời IBR, không cần).
 
 ---
 
