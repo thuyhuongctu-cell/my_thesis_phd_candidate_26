@@ -351,7 +351,7 @@ the models separately by wave makes it possible to observe whether relationships
 time specific, while pooled estimation identifies average effects across the broader period.
 The effective estimation sample varies across model specifications because of missing values in
 the capability variables. In the full wave-specific models, the usable samples are 989 observations
-for 2009, 956 for 2015, and 1,013 for 2023. The pooled full model contains 2,958 observations.
+for 2009,956 for 2015, and 1,013 for 2023. The pooled full model contains 2,958 observations.
 This structure provides sufficient variation to compare direct effects and conditional patterns
 across stages.
 
@@ -415,7 +415,7 @@ A note on missing-code handling. The WBES instrument codes do-not-know and refus
 
 responses as -9. We treat -9 as missing before any composite is built and apply listwise deletion
 on the focal variable set (lnLP, lnEmp, FirmAge, ForeignOwned, FSTS, TCI_z, DAI_z,
-sector1). The resulting analytic samples are 989, 956, and 1,013 observations for 2009, 2015,
+sector1). The resulting analytic samples are 989,956, and 1,013 observations for 2009, 2015,
 and 2023 respectively; pooled N is 2,958.
 
 ### 3.3 Model sequence
@@ -688,7 +688,7 @@ service-oriented or domestically oriented sectors of the Vietnamese economy.
 Panel H, Exporter-only sub-sample (FSTS > 0). Because the exporter share is 28.4 %,
 20.7 % and 18.8 % across waves, the inverted-U fitted on the full sample is partly identified by
 the participation margin between FSTS = 0 and FSTS > 0. We re-fit M2 / M7 / M8 on the
-exporter-only sub-sample (N ≈ 281 in 2009, 198 in 2015, 190 in 2023, and 669 pooled). The
+exporter-only sub-sample (N ≈ 281 in 2009,198 in 2015,190 in 2023, and 669 pooled). The
 pooled exporter-only specification yields a negative linear FSTS_c term (β = -0.861, p < .001)
 but a non-significant quadratic term (FSTS_c² β = -0.200, p = .660), and the joint M8 test of the curvature plus moderation block is not significant (joint F p = .462). The wave-specific exporteronly estimates are similarly noisier and individually weaker than the full-sample counterparts.
 We read this as showing that the inverted-U documented in the main specification is meaningfully
@@ -909,7 +909,7 @@ M8 joint p = .167 n.s.
 G. Manufacturing (sector1 1,854 TCI_z = 0.223 ; DAI_z = 0.087 ; M8 joint p = .103 †
 ∈ {1, 2, 3})
 FSTS_c × DAI_z = −0.543 †
-H. Exporter-only (FSTS > 0, 669 FSTS_c = −0.861 ; FSTS_c² = −0.200 M8 joint p = .462 n.s.
+H. Exporter-only (FSTS > 0,669 FSTS_c = −0.861 ; FSTS_c² = −0.200 M8 joint p = .462 n.s.
 pooled)
 n.s.
 I. Wave × focal interaction 2,958 DAI_z × wave detectable (p = .016); other Only DAI direct shifts

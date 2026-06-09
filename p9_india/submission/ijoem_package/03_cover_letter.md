@@ -8,7 +8,7 @@ Emerald Publishing
 
 Dear Editor-in-Chief,
 
-We are pleased to submit the above manuscript for consideration for publication in the *International Journal of Emerging Markets* (IJOEM). The manuscript presents an empirical study of the internationalisation–performance (I-P) threshold using three waves of World Bank Enterprise Survey microdata for India (2014 PICS3, N = 9,281; 2022 BEE, N = 9,376; 2025 BREADY, N = 10,479; pooled raw N = 29,136; pooled analytic N = 28,717). The 2014–2025 window spans India's unprecedented institutional and digital transformation decade: demonetisation 2016, Goods and Services Tax 2017, Insolvency and Bankruptcy Code 2016, Unified Payments Interface (UPI) launch 2016 and saturation 2024, Production-Linked Incentive scheme 2020, COVID-19 2020–2022, and the Atmanirbhar Bharat self-reliance policy 2020.
+We are pleased to submit the above manuscript for consideration for publication in the *International Journal of Emerging Markets* (IJOEM). The manuscript presents an empirical study of the internationalisation–performance (I-P) threshold using three waves of World Bank Enterprise Survey microdata for India (2014 PICS3, N = 9,281; 2022 BEE, N = 9,376; 2025 BREADY, N = 10,479; pooled raw N = 29,136; pooled analytic N = 28,717). The 2014–2025 window spans India's exceptional institutional and digital transformation decade: demonetisation 2016, Goods and Services Tax 2017, Insolvency and Bankruptcy Code 2016, Unified Payments Interface (UPI) launch 2016 and saturation 2024, Production-Linked Incentive scheme 2020, COVID-19 2020–2022, and the Atmanirbhar Bharat self-reliance policy 2020.
 
 **Relevance to IJOEM**
 

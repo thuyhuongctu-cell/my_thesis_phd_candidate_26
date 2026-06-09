@@ -4,7 +4,7 @@
 
 ## Manuscript Title
 
-**Cross-Wave Stability of the Internationalisation–Performance Threshold in Indian Firms: Digital and Technological Capability Moderation Across a Decade of Institutional Transformation**
+**When Institutional Transformation Breaks the Threshold: The Disappearance of the Inverted-U Internationalisation–Performance Relationship in Indian Firms, 2014–2025**
 
 *Target journal:* Management International Review (MIR), Springer Nature (Scopus Q1; IF 6.0+; ABS-3)
 

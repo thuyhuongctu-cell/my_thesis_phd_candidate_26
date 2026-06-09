@@ -700,7 +700,7 @@ confidence bands from the canonical quadratic specification (M2). The
 implied turning point occurs near FSTS = 88.6% on the original scale
 (−β₁/2β₂ on mean-centered FSTS ≈ 84.1%; adding back the sample mean of
 0.045 gives ≈ 88.6%, Aiken and West, 1991), but its 95% percentile
-cluster-bootstrap confidence interval (5, 000 replications) spans \[53%,
+cluster-bootstrap confidence interval (5,000 replications) spans \[53%,
 253%\] (median 80%, IQR \[68%, 102%\]); the inverted-U shape is
 recovered in 96.3% of bootstrap replications, but its precise location
 is only loosely identified. The shaded red vertical band marks the
@@ -859,9 +859,9 @@ consistent with the digital saturation paradox outlined in the
 introduction. Their measurable return surfaces only when the scaling
 demands of high export intensity justify intensive use of digital
 interfaces and transaction systems. The scale of Singapore's innovation
-ecosystem, 25, 000 attendees and record 6, 800 startup applications from
+ecosystem, 25,000 attendees and record 6,800 startup applications from
 150 markets at the 2025 Singapore Week of Innovation and Technology
-(Enterprise Singapore, 2025), and 22, 000 delegates from 110 regions at
+(Enterprise Singapore, 2025), and 22,000 delegates from 110 regions at
 the Asia Tech x Singapore summit co-organised by the Infocomm Media
 Development Authority (IMDA, 2025), confirming that Singapore's
 advanced digital maturity extends well beyond the Tier 1–2 foundational
@@ -1029,7 +1029,7 @@ relying on the Heckman two-step method without a valid instrument.
 *Additional contextual sources (cited in §1.1 and §5.1)*
 
 Enterprise Singapore. (2025, November). *SWITCH 2025 concludes 10th
-anniversary milestone with record 25, 000 attendees* \[Press release\].
+anniversary milestone with record 25,000 attendees* \[Press release\].
 Enterprise Singapore.
 <https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2025/november/mr05225_switch-2025-concludes-10th-anniversary-milestone-with-record-25000-attendees-strengthens-position-as-premiere-platform-for-deep-tech-innovation>
 
