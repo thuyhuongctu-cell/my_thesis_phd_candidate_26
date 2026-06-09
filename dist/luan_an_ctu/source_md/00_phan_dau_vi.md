@@ -153,12 +153,6 @@ Luận án được phát triển gắn với chuỗi nghiên cứu thành phầ
 10. Nghiên cứu thành phần P8 — Trường hợp biên SIDS, gánh nặng quốc tế hóa bắt buộc (FIP). *[Bản thảo đang chỉnh sửa theo phản biện.]*
 11. Nghiên cứu thành phần P9 — Ấn Độ: độ bền ngưỡng I–P qua thập kỷ chuyển đổi thể chế 2014–2025 (ba đợt WBES, ~29.000 doanh nghiệp; phát hiện sự *tan biến* điểm uốn chữ U ngược dưới áp lực cải cách thể chế và bão hòa hạ tầng số UPI). Đích: Management International Review (Springer)/IJOEM. *[Bản thảo đang bình duyệt.]*
 
-**C. Công trình liên quan khác đã công bố (cùng hướng quốc tế hóa–hiệu quả, được trích dẫn trong luận án)**
-
-12. Phan, A. T., Do, T. H., & Phan, M. T. (2020). The moderating effects of managers' experience and gender on internationalization and firm performance of manufacturing enterprises in Turkey. *Accounting, 6*(7), 1209–1216. https://doi.org/10.5267/j.ac.2020.9.006 *(Thổ Nhĩ Kỳ — bài báo **phát triển từ luận văn thạc sĩ của NCS**; điều tiết của kinh nghiệm và giới tính nhà quản trị lên I–P; 5 trích dẫn; được trích ở H4.)*
-13. Le, K. N., Do, T. H., & Phan, A. T. (2021). Internationalization and Turkish manufacturing firm performance: Does managerial personality matter? *[Tên ấn phẩm — NCS xác nhận]*. *(Thổ Nhĩ Kỳ — tính cách nhà quản trị.)*
-14. Phan, A. T., Van Song, N., Van Tien, D., Van Ha, T., Tiep, N. C., Thang, D. Q., et al. (2021). The moderating effects of the manager's characteristics and financial obstacles on internationalization and firm performance in Poland. *PalArch's Journal of Archaeology of Egypt/Egyptology, 18*(4), 4063–4081. *(Ba Lan — đặc điểm nhà quản trị và rào cản tài chính điều tiết I–P; 2 trích dẫn; được trích ở H4. NCS bổ sung đầy đủ danh sách tác giả từ bản gốc — Google Scholar rút gọn bằng "…".)*
-
 *Ghi chú về liêm chính học thuật: Theo định hướng luận án kết hợp công trình thành phần, các nghiên cứu P1–P9 là một phần nội dung nghiên cứu của chính luận án; do đó trong các chương, chúng được dẫn chiếu bằng nhãn nội bộ (P1–P9) thay vì trích dẫn tác giả–năm. Các bản thảo ở mục B CHƯA được công bố/bình duyệt chính thức, không được diễn giải như bằng chứng đã qua bình duyệt độc lập; tên tạp chí mục tiêu chỉ được nêu chính thức sau khi bài được chấp nhận. NCS cập nhật trạng thái tại thời điểm bảo vệ.*
 
 ---

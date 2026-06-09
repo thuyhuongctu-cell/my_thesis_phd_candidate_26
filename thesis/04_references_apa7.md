@@ -308,7 +308,6 @@ Lall, S. (1992). Technological capabilities and industrialization. *World Develo
 
 Li, Y., Liu, Y., & Qian, C. (2022). Digitalization, internationalization, and firm performance: Evidence from Chinese manufacturing firms. *International Business Review, 31*(3), 101953. https://doi.org/10.1016/j.ibusrev.2021.101953
 
-Le, K. N., Do, T. H., & Phan, A. T. (2021). Internationalization and Turkish manufacturing firm performance: Does managerial personality matter? *[Publication outlet to be confirmed by the author].*
 Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
 
 Long, J. S., & Ervin, L. H. (2000). Using heteroscedasticity consistent standard errors in the linear regression model. *The American Statistician, 54*(3), 217–224. https://doi.org/10.1080/00031305.2000.10474549
