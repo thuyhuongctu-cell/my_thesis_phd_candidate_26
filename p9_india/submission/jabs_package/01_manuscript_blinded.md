@@ -450,6 +450,8 @@ Hennart, J.F. (2007), "The theoretical rationale for a multinationality-performa
 
 Hutzschenreuter, T., Kleindienst, I., Sarkar Sengupta, A. and Verbeke, A. (2026), "The performance effects of 'added cultural distance' in multinational expansion paths: generalizable and contextual determinants", *Multinational Business Review*, available at: https://doi.org/10.1108/mbr-04-2025-0104
 
+Hutzschenreuter, T. and Voll, J.C. (2008), "Performance effects of ‘added cultural distance’ in the path of international expansion", *Journal of International Business Studies*, Vol. 39 No. 1, pp. 53–70.
+
 Johanson, J. and Vahlne, J.E. (1977), "The internationalization process of the firm, a model of knowledge development and increasing foreign market commitments", *Journal of International Business Studies*, Vol. 8 No. 1, pp. 23–32.
 
 Lind, J.T. and Mehlum, H. (2010), "With or without U? The appropriate test for a U-shaped relationship", *Oxford Bulletin of Economics and Statistics*, Vol. 72 No. 1, pp. 109–118.
