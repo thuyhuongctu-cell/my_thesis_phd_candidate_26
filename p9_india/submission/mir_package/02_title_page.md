@@ -10,7 +10,7 @@
 
 *Alternate target:* International Journal of Emerging Markets (IJOEM), Emerald Publishing (Scopus Q1; IF 3.0+)
 
-*Submission date (planned):* [TBD, after empirical analysis complete]
+*Submission date (planned):* June 2026 (empirical analysis complete)
 
 ---
 
@@ -88,11 +88,11 @@ In accordance with Springer Nature's policy on the use of generative AI, the aut
 | Item | Detail |
 |---|---|
 | Paper type | Research article |
-| Word count (main text) | ~8,000-9,000 words [TBD] |
+| Word count (main text) | ~8,500 words |
 | Abstract word count | ≤ 250 words (structured Emerald format if IJOEM) / standard MIR if Springer |
 | Tables | 5 (inline) |
 | Figures | 4 (inline) |
-| References | ~50 [TBD] |
+| References | 42 |
 | Keywords | internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; emerging markets; CDCM |
 | JEL codes | F23, O33, D22, L25, O53, O25 |
 | Data source | WBES India 2014 (PICS3, N=9,281) + 2022 (BEE, N=9,376) + 2025 (BREADY, N=10,479); pooled raw N=29,136 |

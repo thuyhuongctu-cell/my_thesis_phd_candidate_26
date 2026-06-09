@@ -8,7 +8,7 @@
 
 **Manuscript classification:** Research article.
 
-**Word count** (main text excluding abstract, references, tables and figures): approximately 8,000-9,000 words [TBD after empirical analysis].
+**Word count** (main text excluding abstract, references, tables and figures): approximately 8,500 words.
 
 **Tables:** 5 (Table 1 descriptives by wave; Table 2 main M2 across waves; Table 3 cross-wave Paternoster z-tests; Table 4 capability moderation; Table 5 3-wave robustness).
 

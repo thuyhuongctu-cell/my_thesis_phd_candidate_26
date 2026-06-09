@@ -1,4 +1,4 @@
-[Submission date, fill in after empirical analysis complete]
+[Date of submission]
 
 The Editor-in-Chief
 *Management International Review*
@@ -49,7 +49,7 @@ This manuscript is original, has not been published previously, and is not under
 **Manuscript Classification**
 
 - Paper type: Research article
-- Word count (main text): ~8,000-9,000 words [TBD]
+- Word count (main text): ~8,500 words
 - Tables: 5; Figures: 4
 - Keywords: internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; emerging markets; Conditional Digital Capability Moderation
 - JEL classification: F23, O33, D22, L25, O53, O25

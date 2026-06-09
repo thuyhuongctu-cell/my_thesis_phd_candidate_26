@@ -7,7 +7,7 @@
 **Primary target journal:** Management International Review (MIR), Springer Nature (Scopus Q1; IF 6.0+; ABS-3)
 **Alternate target:** International Journal of Emerging Markets (IJOEM), Emerald Publishing (Scopus Q1; IF 3.0+)
 
-**Status:** ⚠ **DRAFT INFRASTRUCTURE, Empirical analysis pending**
+**Status:** ✅ **Empirical analysis complete** — manuscript, tables, and figures finalised; pending author-only pre-submission steps (iThenticate, OSF/replication-workbook, portal upload).
 
 **Authors:** Đỗ Thùy Hương & PGS.TS. Phan Anh Tú (School of Economics, Can Tho University)
 
@@ -46,17 +46,19 @@ All three India WBES waves extracted to `data_wbes/raw_dta/`:
 
 ---
 
-## ⚠ Status: TBD items
+## Status: completed vs. author-only remaining
 
-Following items pending NCS running Stata analysis:
-- [ ] Run `replication/do/01_build_india.do` to build analytic .dta files for all 3 waves
-- [ ] Run `replication/do/02_run_models.do` to estimate M0..M5 + Lind-Mehlum + Paternoster z
-- [ ] Fill in Findings section in `p9_india_en_clean.md` with actual coefficient values
-- [ ] Render figures from CSV outputs (use existing P5 China template)
-- [ ] Finalize abstract Findings + Originality/value sentences based on actual results
-- [ ] Run iThenticate similarity check against book chapter
-- [ ] Build Excel replication workbook
-- [ ] Decide final target: MIR vs IJOEM (recommend MIR primary, IJOEM backup)
+Analysis pipeline complete:
+- [x] Build analytic samples for all 3 waves (`replication/data/india_{2014,2022,2025}_analytic.csv`)
+- [x] Estimate M0..M5 + Lind–Mehlum U-test + Paternoster cross-wave z (`replication/results/`)
+- [x] Findings section filled with actual coefficient values (manuscript §Results)
+- [x] Render all four figures (`replication/figures/` → copied into `figures/`)
+- [x] Finalise abstract Findings + Originality/value from actual results
+- [x] Target decided: **MIR primary, IJOEM backup**
+
+Author-only remaining (cannot be automated):
+- [ ] Run iThenticate similarity check against the book chapter
+- [ ] Build Excel replication workbook (add P9 India entry to PAPERS dict)
 
 ---
 
@@ -64,14 +66,14 @@ Following items pending NCS running Stata analysis:
 
 | File | Description | Status |
 |------|-------------|--------|
-| `01_manuscript_blinded.docx` | Main manuscript anonymised | ⏳ TBD |
-| `02_title_page.docx` | Title page non-anonymous | ✓ Draft ready |
-| `03_cover_letter.docx` | Cover letter to MIR EiC | ✓ Draft ready |
+| `01_manuscript_blinded_full.md` | Main manuscript anonymised (real results) | ✓ Complete |
+| `02_title_page.docx` | Title page non-anonymous | ✓ Ready |
+| `03_cover_letter.docx` | Cover letter to MIR EiC | ✓ Ready |
 | `BOOK_CHAPTER_DIFFERENTIATION.md` | Self-plagiarism management memo | ✓ Complete |
-| `figures/figure_1_conceptual_model.png` | Conceptual model | ⏳ TBD |
-| `figures/figure_2_predicted_curves.png` | I-P curves by wave | ⏳ TBD |
-| `figures/figure_3_turning_points.png` | Turning points + 95% CI | ⏳ TBD |
-| `figures/figure_4_upi_timeline.png` | UPI quasi-experiment timeline | ⏳ TBD |
+| `figures/figure_1_conceptual_model.png` | Conceptual model | ✓ Complete |
+| `figures/figure_2_predicted_curves.png` | I-P curves by wave | ✓ Complete |
+| `figures/figure_3_turning_points.png` | Turning points + 95% CI | ✓ Complete |
+| `figures/figure_4_upi_timeline.png` | UPI quasi-experiment timeline | ✓ Complete |
 
 ---
 
@@ -100,16 +102,17 @@ Following items pending NCS running Stata analysis:
 
 | Item | Value |
 |------|-------|
-| Word count (main text, target) | ~8,000-9,000 words |
+| Word count (main text) | ~8,500 words |
 | Abstract | ≤ 250 words |
 | Tables | 5 |
 | Figures | 4 |
-| Firms (2014 wave) | 9,281 raw / [TBD] complete-core |
-| Firms (2022 wave) | 9,376 raw / [TBD] complete-core |
-| Firms (2025 wave) | 10,479 raw / [TBD] complete-core |
+| Firms (2014 wave) | 9,281 raw / 8,941 complete-core |
+| Firms (2022 wave) | 9,376 raw / 9,300 complete-core |
+| Firms (2025 wave) | 10,479 raw / 10,476 complete-core |
 | Pooled raw N | 29,136 |
+| Pooled analytic N | 28,717 |
 | ICRV context | Lower-Middle (Group IV), same as Vietnam P3 |
-| Primary result | [TBD pending estimation] |
+| Primary result | Threshold dissolution: inverted-U in 2014 (TP 61.8%) and 2022 (TP 40.7%) collapses to a monotone-negative slope in 2025 (curvature p = .42); Paternoster cross-wave z rejects coefficient equality (FSTS z = −7.94; FSTS² z = +4.17, both p < .0001) |
 | Prior author work | Do & Phan 2025 IntechOpen DOI 10.5772/intechopen.1011012 |
 
 ---
@@ -155,4 +158,4 @@ do 02_run_models.do       // Estimate M0..M5 + tests
 
 ---
 
-*Generated 2026-06-02 (infrastructure only, empirical analysis pending NCS Stata run).*
+*Updated 2026-06-09 (empirical analysis complete: results, tables, and figures finalised).*
