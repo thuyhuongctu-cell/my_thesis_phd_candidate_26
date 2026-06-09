@@ -53,7 +53,7 @@ internationalization from a strategy available primarily to large
 multinationals into a competitive consideration for firms across size
 classes and geographies (Dunning, 2000; Johanson & Vahlne, 2009;
 Kafouros et al., 2012). Against this backdrop, the question of whether
-internationalization improves firm performance is not merely academic 
+internationalization improves firm performance is not merely academic;
 it shapes investment decisions, government export promotion policy, and
 the strategic priorities of firms navigating an increasingly
 interconnected global economy (Hitt et al., 2006; Lu & Beamish, 2004).
@@ -227,7 +227,7 @@ Publication bias was assessed with Egger's regression (Egger et al., 1997), Begg
 
 | Moderator | Variable type | Statistic | Value | Target threshold |
 |---------------------|------------------|-----------|-------|------------------|
-| ICRV regime | Categorical (6) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
+| ICRV regime | Categorical (5) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
 | DPL phase | Categorical (3) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
 | Industry sector | Categorical (3) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
 | DOI measure | Categorical (4) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
@@ -240,7 +240,7 @@ Publication bias was assessed with Egger's regression (Egger et al., 1997), Begg
 
 | Category | *K* effects | *k* studies |
 |-------------------------------------------------------------------------|-------------|-------------|
-| ICRV Regime I, Advanced (e.g., Korea, Japan, Singapore, HK, Australia) | 140 | 108 |
+| ICRV Regime I, Advanced (e.g., Korea, Japan, Singapore, HK, Australia) | 139 | 107 |
 | ICRV Regime II, Upper-middle (e.g., China, Malaysia, Thailand) | 25 | 21 |
 | ICRV Regime III, Emerging (e.g., Vietnam, India, Philippines) | 90 | 78 |
 | ICRV Frontier / SIDS (FR) | 3 | 3 |
@@ -375,7 +375,7 @@ non-significant main moderation. H3 is not supported: country-level
 digital adoption (cDAI, measured via World Bank DAI / ITU Digital
 Development Index) does not significantly amplify the pooled I→P effect
 in this *k* = 238 sample. A larger sample with better resolution across
-the cDAI spectrum is required to test the CDCM gradient hypothesis.
+the cDAI spectrum is required to test the cDAI amplification (H3) gradient hypothesis.
 
 ### 4.5 DPL Phase Moderation (H2)
 
@@ -589,7 +589,7 @@ market-specific learning, not by the assumption that
 
 **For researchers:** The substantial publication bias (*k* = 57 imputed,
 adj. *r* = 0.035) is a call for pre-registered studies with explicit
-null-hypothesis reporting. Publication practices in the I→P literature 
+null-hypothesis reporting. Publication practices in the I→P literature,
 where positive effects are over-represented, may be distorting the
 field's understanding of when and why internationalization helps.
 OSF registration and adoption of three-level MARA with
@@ -803,10 +803,6 @@ Jacquemin, A. P., & Berry, C. H. (1979). Entropy measure of
 diversification and corporate growth. *Journal of Industrial Economics,
 27*(4), 359–369.
 
-Jensen, M. C., & Meckling, W. H. (1976). Theory of the firm: Managerial
-behavior, agency costs and ownership structure. *Journal of Financial
-Economics, 3*(4), 305–360.
-
 Johanson, J., & Vahlne, J.-E. (1977). The internationalization process
 of the firm: A model of knowledge development and increasing foreign
 market commitments. *Journal of International Business Studies, 8*(1),
@@ -835,10 +831,6 @@ Kogut, B., & Zander, U. (1993). Knowledge of the firm and the
 evolutionary theory of the multinational corporation. *Journal of
 International Business Studies, 24*(4), 625–645.
 
-Lakens, D., Scheel, A. M., & Isager, P. M. (2020). Equivalence testing
-for psychological research: A tutorial. *Advances in Methods and
-Practices in Psychological Science, 1*(2), 259–269.
-
 Landis, J. R., & Koch, G. G. (1977). The measurement of observer
 agreement for categorical data. *Biometrics, 33*(1), 159–174.
 
@@ -859,10 +851,6 @@ S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu,
 M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D.
 (2021). The PRISMA 2020 statement: An updated guideline for reporting
 systematic reviews. *BMJ, 372*, n71. <https://doi.org/10.1136/bmj.n71>
-
-Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using
-the correct statistical test for the equality of regression
-coefficients. *Criminology, 36*(4), 859–866.
 
 Peng, M. W., Wang, D. Y. L., & Jiang, Y. (2008). An institution-based
 view of international business strategy: A focus on emerging economies.

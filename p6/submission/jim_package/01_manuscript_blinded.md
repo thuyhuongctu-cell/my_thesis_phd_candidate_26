@@ -23,7 +23,7 @@ internationalization from a strategy available primarily to large
 multinationals into a competitive consideration for firms across size
 classes and geographies (Dunning, 2000; Johanson & Vahlne, 2009;
 Kafouros et al., 2012). Against this backdrop, the question of whether
-internationalization improves firm performance is not merely academic 
+internationalization improves firm performance is not merely academic;
 it shapes investment decisions, government export promotion policy, and
 the strategic priorities of firms navigating an increasingly
 interconnected global economy (Hitt et al., 2006; Lu & Beamish, 2004).
@@ -168,7 +168,7 @@ exploit economies of scale without the institutional friction that
 truncates these returns in weaker institutional environments. The ICRV
 gradient hypothesis (H1) thus derives directly from institutional
 theory: the expected I→P effect should decline monotonically from
-Advanced-Innovation (Regime I) to Frontier (Regime V) as institutional
+Advanced-Innovation (Regime I) to Frontier (Regime FR) as institutional
 quality falls and coordination costs rise.
 
 **Organizational Learning Theory.** Johanson and Vahlne's (1977, 2009)
@@ -181,7 +181,7 @@ digital platforms enable firms to monitor foreign market conditions
 without the physical presence that prior eras required (Stallkamp &
 Schotter, 2021). The DPL Follow phase (post-2014) is the period in which
 these digital learning channels reach sufficient maturity and
-penetration to systematically compress the experiential learning curve 
+penetration to systematically compress the experiential learning curve,
 predicting that I→P effects are largest in studies drawing on data from
 this period (H2). The Span phase captures the transitional period in
 which digital tools were diffusing but had not yet reached the maturity
@@ -271,7 +271,7 @@ invest in substitute governance mechanisms (relationship capital,
 political connections, informal contracts) that absorb managerial
 attention and reduce the net productivity returns to
 internationalization (Khanna & Palepu, 2010). As institutional quality
-declines across the ICRV spectrum (Regime II → III → SIDS/V), these
+declines across the ICRV spectrum (Regime II → III → FR), these
 substitute governance costs accumulate, progressively depressing the I→P
 effect toward zero and potentially negative territory.
 
@@ -741,7 +741,7 @@ and three novel moderators introduced in the present study.
     market-based (Tobin's Q, stock return); productivity-based (labor
     productivity, TFP); composite (mixed)
 
-**Novel moderators** (3): 5. *ICRV regime*, Six-code classification
+**Novel moderators** (3): 5. *ICRV regime*, Five-code classification
 based on World Bank WGI Rule of Law score (2023 vintage), validated
 against IMF World Economic Outlook country classification: Code I:
 Advanced-Innovation (WGI \> +0.80; e.g., Singapore, Hong Kong, South
@@ -795,8 +795,8 @@ reported in the same paper).
 $$\delta_{j} = \mu + \mathbf{X}_{j}\mathbf{\beta} + w_{j}, \quad w_{j} \sim \mathcal{N}\left( 0, \, \sigma_{(3)}^{2} \right)$$
 
 where **X**\_j is the (*J* × *p*) matrix of study-level moderators (ICRV
-regime dummy vector \[*d*\_I, *d*\_II, *d*\_III, *d*\_SIDS, with Regime
-V as reference\]; continuous cDAI score; DPL phase dummy vector
+regime dummy vector \[*d*\_II, *d*\_III, *d*\_FR, *d*\_MX, with Regime
+I (Advanced-Innovation) as reference\]; continuous cDAI score; DPL phase dummy vector
 \[*d*\_Span, *d*\_Follow, with Precede as reference\]; plus the four
 standard moderators as controls), **β** is the (*p* × 1) coefficient
 vector of primary interest, and *w*\_j is the residual between-study
@@ -909,7 +909,7 @@ alternative operationalizations:
 
 | Moderator | Variable type | Statistic | Value | Target threshold |
 |---------------------|------------------|-----------|-------|------------------|
-| ICRV regime | Categorical (6) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
+| ICRV regime | Categorical (5) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
 | DPL phase | Categorical (3) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
 | Industry sector | Categorical (3) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
 | DOI measure | Categorical (4) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
@@ -922,7 +922,7 @@ alternative operationalizations:
 
 | Category | *K* effects | *k* studies |
 |-------------------------------------------------------------------------|-------------|-------------|
-| ICRV Regime I, Advanced (e.g., Korea, Japan, Singapore, HK, Australia) | 140 | 108 |
+| ICRV Regime I, Advanced (e.g., Korea, Japan, Singapore, HK, Australia) | 139 | 107 |
 | ICRV Regime II, Upper-middle (e.g., China, Malaysia, Thailand) | 25 | 21 |
 | ICRV Regime III, Emerging (e.g., Vietnam, India, Philippines) | 90 | 78 |
 | ICRV Frontier / SIDS (FR) | 3 | 3 |
@@ -1057,7 +1057,7 @@ non-significant main moderation. H3 is not supported: country-level
 digital adoption (cDAI, measured via World Bank DAI / ITU Digital
 Development Index) does not significantly amplify the pooled I→P effect
 in this *k* = 238 sample. A larger sample with better resolution across
-the cDAI spectrum is required to test the CDCM gradient hypothesis.
+the cDAI spectrum is required to test the cDAI amplification (H3) gradient hypothesis.
 
 ### 4.5 DPL Phase Moderation (H2)
 
@@ -1271,7 +1271,7 @@ market-specific learning, not by the assumption that
 
 **For researchers:** The substantial publication bias (*k* = 57 imputed,
 adj. *r* = 0.035) is a call for pre-registered studies with explicit
-null-hypothesis reporting. Publication practices in the I→P literature 
+null-hypothesis reporting. Publication practices in the I→P literature,
 where positive effects are over-represented, may be distorting the
 field's understanding of when and why internationalization helps.
 OSF registration and adoption of three-level MARA with
@@ -1485,10 +1485,6 @@ Jacquemin, A. P., & Berry, C. H. (1979). Entropy measure of
 diversification and corporate growth. *Journal of Industrial Economics,
 27*(4), 359–369.
 
-Jensen, M. C., & Meckling, W. H. (1976). Theory of the firm: Managerial
-behavior, agency costs and ownership structure. *Journal of Financial
-Economics, 3*(4), 305–360.
-
 Johanson, J., & Vahlne, J.-E. (1977). The internationalization process
 of the firm: A model of knowledge development and increasing foreign
 market commitments. *Journal of International Business Studies, 8*(1),
@@ -1517,10 +1513,6 @@ Kogut, B., & Zander, U. (1993). Knowledge of the firm and the
 evolutionary theory of the multinational corporation. *Journal of
 International Business Studies, 24*(4), 625–645.
 
-Lakens, D., Scheel, A. M., & Isager, P. M. (2020). Equivalence testing
-for psychological research: A tutorial. *Advances in Methods and
-Practices in Psychological Science, 1*(2), 259–269.
-
 Landis, J. R., & Koch, G. G. (1977). The measurement of observer
 agreement for categorical data. *Biometrics, 33*(1), 159–174.
 
@@ -1541,10 +1533,6 @@ S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu,
 M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D.
 (2021). The PRISMA 2020 statement: An updated guideline for reporting
 systematic reviews. *BMJ, 372*, n71. <https://doi.org/10.1136/bmj.n71>
-
-Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using
-the correct statistical test for the equality of regression
-coefficients. *Criminology, 36*(4), 859–866.
 
 Peng, M. W., Wang, D. Y. L., & Jiang, Y. (2008). An institution-based
 view of international business strategy: A focus on emerging economies.
@@ -1644,7 +1632,7 @@ Because identification proceeded by citation chaining, stage-level database-cens
 
 | Moderator | Variable Type | Coding Rule |
 |-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------|
-| ICRV regime | Categorical (6 codes) | WGI Rule of Law, 2023 vintage: I \> +0.80; II: 0–+0.80; III: −0.50–0; SIDS: island state; V: \< −0.50 |
+| ICRV regime | Categorical (5 codes) | WGI Rule of Law, 2023 vintage: I (Advanced-Innovation) \> +0.80; II (Upper-Middle): 0–+0.80; III (Emerging): −0.50–0; FR (Frontier/SIDS): \< −0.50 or small island state; MX: multi-country pooled (no modal regime ≥ 60%) |
 | cDAI | Continuous (0–1) | World Bank DAI score or ITU DDI score, country-year, standardized. If unavailable: ITU ICT Development Index (substitute) |
 | DPL phase | Categorical (3) | Precede: data year \< 2009; Span: data spans 2005–2014; Follow: data year \> 2014 |
 | Country of origin | Categorical (ISO) | First author's sample country; multi-country = "pooled" |

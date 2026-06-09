@@ -8,11 +8,11 @@ Emerald Publishing
 
 Dear Editor-in-Chief,
 
-We are pleased to submit the above manuscript for consideration for publication in the *International Journal of Emerging Markets* (IJOEM). The manuscript presents an empirical study of the export intensity–performance relationship across two waves of World Bank Enterprise Survey data for Chinese private manufacturing firms (2012 and 2024), with a focus on the stability of nonlinear turning points and the moderating roles of technological capability and digital adoption.
+We are pleased to submit the above manuscript for consideration for publication in the *International Journal of Emerging Markets* (IJOEM). The manuscript presents an empirical study of the export intensity–performance relationship across two waves of World Bank Enterprise Survey data for Chinese private firms (the full WBES private-firm frame, spanning manufacturing, services, retail, IT, and construction; 2012 and 2024), with a focus on the stability of nonlinear turning points and the moderating roles of technological capability and digital adoption.
 
 **Relevance to IJOEM**
 
-The study contributes directly to IJOEM's core interest in firm-level dynamics in emerging markets. China's private manufacturing sector represents one of the largest and most institutionally complex emerging-market contexts for I–P research, and the cross-wave design (2012 and 2024) allows the study to test whether the curvilinear I–P relationship is structurally durable or wave-specific across a decade of China's institutional and digital transition, a question of direct relevance to IJOEM's readership. The study also advances understanding of how foundational digital adoption and technological capability operate in China relative to less and more advanced emerging economies.
+The study contributes directly to IJOEM's core interest in firm-level dynamics in emerging markets. China's private sector represents one of the largest and most institutionally complex emerging-market contexts for I–P research, and the cross-wave design (2012 and 2024) allows the study to test whether the curvilinear I–P relationship is structurally durable or wave-specific across a decade of China's institutional and digital transition, a question of direct relevance to IJOEM's readership. The study also advances understanding of how foundational digital adoption and technological capability operate in China relative to less and more advanced emerging economies.
 
 **Key Contributions**
 
@@ -29,10 +29,10 @@ This manuscript is original, has not been published previously, and is not under
 **Manuscript Classification**
 
 Paper type: Research article
-Word count (main text, excluding abstract, references, tables, and figures): approximately 6,600 words
+Word count (main text, excluding abstract, references, tables, and figures): approximately 7,200 words
 Tables: 3; Figures: 4
-Keywords: export intensity; firm performance; technological capability; digital adoption; China; emerging markets
-JEL classification: F23, O33, L25, O53, P31
+Keywords: internationalisation–performance; export intensity; threshold stability; technological capability; digital adoption; Chinese private firms; World Bank Enterprise Survey
+JEL classification: F23, O33, D22, L25, O53
 
 We hope the manuscript will be of interest to IJOEM's readership and look forward to the review process.
 

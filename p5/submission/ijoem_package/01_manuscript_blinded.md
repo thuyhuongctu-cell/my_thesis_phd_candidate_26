@@ -332,14 +332,14 @@ dummies.
 
 All models are estimated by OLS with Eicker–Huber–White
 heteroskedasticity-consistent (HC1) standard errors (MacKinnon and
-White, 1985), clustered on firm identifier (`idstd`) in the pooled
-specification. Among the pooled 4,559 observations, 217 firms appear in
-both the 2012 and 2024 waves (the 'panel core'), enabling within-firm
-variation estimates via cluster-robust standard errors on firm
-identifiers. This panel core, though modest in size relative to the full
-sample, provides additional identification leverage unavailable in
-single-wave studies. The main specification (M2) includes FSTS, FSTS²,
-lnEmp, firmage, and foreigndummy.
+White, 1985). The two WBES China waves are independent, repeated
+cross-sections rather than a matched firm-level panel: WBES
+anonymisation precludes linking individual firms across the 2012 and
+2024 waves (see §5.4). The pooled specification therefore stacks the two
+cross-sections and reports HC1-robust standard errors; cross-wave
+comparisons rest on the Paternoster coefficient-equality tests rather
+than on within-firm variation. The main specification (M2) includes
+FSTS, FSTS², lnEmp, firmage, and foreigndummy.
 
 Turning-point estimates are derived by the delta method: TP = −β₁ /
 (2β₂), with 95 % CIs computed via the delta-method gradient. Lind and
@@ -768,10 +768,19 @@ Theorizing and testing U- and inverted U-shaped relationships in
 strategy research. *Strategic Management Journal, 37*(7), 1177–1195.
 <https://doi.org/10.1002/smj.2399>
 
+Helpman, E., Melitz, M. J., and Yeaple, S. R. (2004). Export versus FDI
+with heterogeneous firms. *American Economic Review, 94*(1), 300–316.
+<https://doi.org/10.1257/000282804322970814>
+
 Hitt, M. A., Hoskisson, R. E., and Kim, H. (1997). International
 diversification: Effects on innovation and firm performance in
 product-diversified firms. *Academy of Management Journal, 40*(4),
 767–798. <https://doi.org/10.5465/256948>
+
+Johanson, J., and Vahlne, J.-E. (1977). The internationalization process
+of the firm: A model of knowledge development and increasing foreign
+market commitments. *Journal of International Business Studies, 8*(1),
+23–32. <https://doi.org/10.1057/palgrave.jibs.8490676>
 
 Kano, L., Tsang, E. W. K., and Yeung, H. W.-C. (2020). Global value
 chains: A review of the multi-disciplinary literature. *Journal of
@@ -811,11 +820,6 @@ internationalization–performance relationship: A meta-analytic review.
 *Journal of Management, 42*(5), 1075–1110.
 <https://doi.org/10.1177/0149206315624963>
 
-Meyer, K. E., van Witteloostuijn, A., and Beugelsdijk, S. (2017). What's
-in a p? Reassessing best practices for conducting and reporting
-hypothesis-testing research. *Journal of International Business Studies,
-48*(5), 535–551. <https://doi.org/10.1057/s41267-017-0078-8>
-
 Nambisan, S., Wright, M., and Feldman, M. (2019). The digital
 transformation of innovation and entrepreneurship: Progress, challenges
 and key themes. *Research Policy, 48*(8), 103773.
@@ -834,7 +838,7 @@ Pierce, J. R., and Aguinis, H. (2013). The too-much-of-a-good-thing effect
 in management. *Journal of Management, 39*(2), 313–338.
 <https://doi.org/10.1177/0149206311410060>
 
-Schwens, C., Zapkau, F. B., Bierwerth, M., Isidor, R., Knight, G., &
+Schwens, C., Zapkau, F. B., Bierwerth, M., Isidor, R., Knight, G., and
 Kabst, R. (2018). International entrepreneurship: A meta-analysis on the
 internationalization and performance relationship. *Entrepreneurship
 Theory and Practice, 42*(5), 734–768.
@@ -859,7 +863,7 @@ Vial, G. (2019). Understanding digital transformation: A review and a
 research agenda. *The Journal of Strategic Information Systems, 28*(2),
 118–144. <https://doi.org/10.1016/j.jsis.2019.01.003>
 
-Volberda, H. W., Khanagha, S., Baden-Fuller, C., Mihalache, O. R., &
+Volberda, H. W., Khanagha, S., Baden-Fuller, C., Mihalache, O. R., and
 Birkinshaw, J. (2021). Strategizing in a digital world: Overcoming
 cognitive barriers, reconfiguring routines and introducing new
 organizational forms. *Long Range Planning, 54*(5), 102110.
