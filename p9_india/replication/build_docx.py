@@ -39,7 +39,7 @@ INSERTIONS = {
     "[Insert Table 2 and Figure 2 about here.]": [
         ("TABLE", TABLES_DIR / "table_2_main_m2.md", None),
         ("FIGURE", FIGURES_DIR / "figure_2_predicted_curves.png",
-         "Figure 2. Wave-specific predicted I-P relationship — India 2014, 2022, 2025."),
+         "Figure 2. Wave-specific predicted I-P relationship: India 2014, 2022, 2025."),
     ],
     "[Insert Figure 3 about here.]": [
         ("FIGURE", FIGURES_DIR / "figure_3_turning_points.png",
