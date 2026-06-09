@@ -5,7 +5,7 @@
 
 **Submission date:** 10 May 2026
 
-**Authors:** Đỗ Thùy Hương & Phan Anh Tú (Can Tho University)
+**Authors:** Đỗ Thùy Hương and Phan Anh Tú (Can Tho University)
 
 ---
 
@@ -30,7 +30,7 @@
 - [ ] **Manuscript type:** Research Article
 - [ ] **Title:** as above
 - [ ] **Abstract:** ~200 words (from manuscript)
-- [ ] **Keywords** (5–6): internationalization–performance; China; temporal stability; technological capability; WBES; structural durability
+- [ ] **Keywords** (5–6): internationalisation–performance; export intensity; threshold stability; technological capability; digital adoption; Chinese private firms; World Bank Enterprise Survey
 - [ ] Upload `01_manuscript_blinded.docx` → Manuscript
 - [ ] Upload `02_title_page.docx` → Title Page / Author Information
 - [ ] Upload `03_cover_letter.docx` → Cover Letter
@@ -45,8 +45,8 @@
 
 | Item | Count |
 |------|-------|
-| Word count (main text) | ~6,500 words |
-| Tables | 4 |
+| Word count (main text) | ~7,200 words |
+| Tables | 3 |
 | Figures | 4 |
 | Data | WBES China 2012 (N = 2,610) + 2024 (N = 1,934) |
 | ICRV context | Upper-Middle Transition (Group III) |

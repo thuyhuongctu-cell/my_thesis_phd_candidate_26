@@ -170,7 +170,7 @@ Krammer et al. 2018). We therefore hypothesize: Hypothesis 1 (H1). In
 Singapore's advanced-economy context, when firms invest more deeply in
 R&D, innovation, technology licensing, and quality certification, labour
 productivity is higher because technological capability raises the
-firm's operational efficiency and learning routines (Lall 1992; Cohen &
+firm's operational efficiency and learning routines (Lall 1992; Cohen and
 Levinthal 1990), before any additional moderation of the I–P curve shape
 is considered.
 
@@ -364,7 +364,7 @@ The focal internationalization variable is FSTS, defined as the
 proportion of annual sales derived from direct exports and rescaled to
 the \[0, 1\] interval. FSTS is mean-centered before squaring in order to
 mitigate multicollinearity between the linear and quadratic terms (Aiken
-& West 1991). In the final specifications, variance inflation factors
+and West 1991). In the final specifications, variance inflation factors
 remain below 3, indicating that multicollinearity is not a material
 concern (O’Brien 2007).
 
@@ -536,7 +536,7 @@ Two-tailed significance levels are reported as follows: p \< .10, p \<
 
 ### 4.2 The I–P relationship: primarily monotonic with mild curvature
 
-In the baseline quadratic specification (Model M2), the linear FSTS term is positive and significant (β = +2.652, SE = 0.691, p < .001) and the squared term is negative (β = −1.705, SE = 0.931, p = .068). The fitted curve implies a turning point in the upper tail (near FSTS = 82% on the original scale) that is imprecisely located in a sparsely populated region. A 5,000-replication bootstrap recovers an inverted-U in 96.3% of replications, but the 95% percentile CI for the turning point is wide ([53%, 253%]), and the Lind–Mehlum test does not formally confirm an inverted-U (p = .303).
+In the baseline quadratic specification (Model M2), the linear FSTS term is positive and significant (β = +2.652, SE = 0.691, p < .001) and the squared term is negative (β = −1.705, SE = 0.931, p = .068). The fitted curve implies a turning point in the upper tail (near FSTS = 88.6% on the original scale) that is imprecisely located in a sparsely populated region. A 5,000-replication bootstrap recovers an inverted-U in 96.3% of replications, but the 95% percentile CI for the turning point is wide ([53%, 253%]), and the Lind–Mehlum test does not formally confirm an inverted-U (p = .303).
 
 This null is itself informative. Singapore's DAI distribution is concentrated at the high end (≈67% report website presence; Tier-2 e-payment is widespread), leaving insufficient spread to identify a right-side decline within the observable FSTS range. Under an equivalence-test framing (Lakens, Scheel, and Isager 2018), with observed FSTS bounded near the 70th percentile, the test cannot distinguish "no inverted-U" from "an inverted-U whose decline lies in the unobserved upper tail"; both readings are consistent with a predominantly positive association across the supported range. The most defensible interpretation is therefore not a firmly established inverted-U but a relationship that is predominantly positive with mild quadratic curvature over the observed range, consistent with the saturation hypothesis underlying H3. Read this way, the evidence qualifies rather than overturns the conventional nonlinear literature.
 
@@ -587,7 +587,7 @@ in parentheses.
 | | | | (0.040) | | (0.041) | | (0.041) |
 | DAI (z) | | | | +0.104\*\* | +0.077\* | +0.046 | +0.019 |
 | | | | | (0.038) | (0.039) | (0.045) | (0.050) |
-| FSTS × DAI | | | | | | -1.144 | -1.167† |
+| FSTS × DAI | | | | | | -1.144 | -1.177† |
 | | | | | | | (0.702) | (0.686) |
 | FSTS² × DAI | | | | | | +3.098\*\* | +3.119\*\* |
 | | | | | | | (1.088) | (1.124) |
@@ -926,14 +926,11 @@ size and power in assessing moderating effects of categorical variables
 using multiple regression: A 30-year review. *Journal of Applied
 Psychology, 90*(1), 94–107. <https://doi.org/10.1037/0021-9010.90.1.94>
 Aiken, L. S., and West, S. G. (1991). *Multiple regression: Testing and
-interpreting interactions*. Sage. Antonakis, J., Bendahan, S., Jacquart,
-P., and Lalive, R. (2010). On making causal claims: A review and
-recommendations. *The Leadership Quarterly, 21*(6), 1086–1120.
-<https://doi.org/10.1016/j.leaqua.2010.10.010> Avenyo, E. K., Tregenna,
+interpreting interactions*. Sage. Avenyo, E. K., Tregenna,
 F., and Kraemer-Mbula, E. (2021). Do productive capabilities affect export
 performance? Microeconomic evidence from sub-Saharan Africa. *The
 European Journal of Development Research, 33*(2), 304–329.
-<https://doi.org/10.1057/s41287-020-00328-2> Banalieva, E. R., &
+<https://doi.org/10.1057/s41287-020-00328-2> Banalieva, E. R., and
 Dhanaraj, C. (2019). Internalization theory for the digital economy.
 *Journal of International Business Studies, 50*(8), 1372–1387.
 <https://doi.org/10.1057/s41267-019-00243-7> Barney, J. (1991). Firm
@@ -941,11 +938,9 @@ resources and sustained competitive advantage. *Journal of Management,
 17*(1), 99–120. <https://doi.org/10.1177/014920639101700108> Bharadwaj,
 A., El Sawy, O. A., Pavlou, P. A., and Venkatraman, N. (2013). Digital
 business strategy: Toward a next generation of insights. *MIS Quarterly,
-37*(2), 471–482. <https://doi.org/10.25300/MISQ/2013/37:2.3>
-Brynjolfsson, E., Rock, D., and Syverson, C. (2021). The productivity
-J-curve: How intangibles complement general purpose technologies.
-*American Economic Journal: Macroeconomics, 13*(1), 333–372.
-<https://doi.org/10.1257/mac.20180386> Cohen, J. (1988). *Statistical
+37*(2), 471–482. <https://doi.org/10.25300/MISQ/2013/37:2.3> Coase, R. H. (1937). The nature
+of the firm. *Economica, 4*(16), 386–405.
+<https://doi.org/10.1111/j.1468-0335.1937.tb00002.x> Cohen, J. (1988). *Statistical
 power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum.
 Cohen, W. M., and Levinthal, D. A. (1990). Absorptive capacity: A new
 perspective on learning and innovation. *Administrative Science
@@ -953,11 +948,7 @@ Quarterly, 35*(1), 128–152. <https://doi.org/10.2307/2393553> Coltman,
 T., Devinney, T. M., Midgley, D. F., and Venaik, S. (2008). Formative
 versus reflective measurement models: Two applications of formative
 measurement. *Journal of Business Research, 61*(12), 1250–1262.
-<https://doi.org/10.1016/j.jbusres.2008.01.013> Contractor, F. J.
-(2007). Is international business good for companies? The evolutionary
-or multi-stage theory of internationalization vs. the transaction cost
-perspective. *Management International Review, 47*(3), 453–475.
-<https://doi.org/10.1007/s11575-007-0024-2> Contractor, F. J., Kundu, S.
+<https://doi.org/10.1016/j.jbusres.2008.01.013> Contractor, F. J., Kundu, S.
 K., and Hsu, C.-C. (2003). A three-stage theory of international
 expansion: The link between multinationality and performance in the
 service sector. *Journal of International Business Studies, 34*(1),
@@ -986,19 +977,11 @@ U-shaped relationship. *Oxford Bulletin of Economics and Statistics,
 72*(1), 109–118. <https://doi.org/10.1111/j.1468-0084.2009.00569.x> Lu,
 J. W., and Beamish, P. W. (2004). International diversification and firm
 performance: The S-curve hypothesis. *Academy of Management Journal,
-47*(4), 598–609. <https://doi.org/10.5465/20159604> MacKinnon, J. G., &
-White, H. (1985). Some heteroskedasticity-consistent covariance matrix
-estimators with improved finite sample properties. *Journal of
-Econometrics, 29*(3), 305–325.
-<https://doi.org/10.1016/0304-4076(85)90158-7> Marano, V., Arregle,
+47*(4), 598–609. <https://doi.org/10.5465/20159604> Marano, V., Arregle,
 J.-L., Hitt, M. A., Spadafora, E., and van Essen, M. (2016). Home country
 institutions and the internationalization-performance relationship: A
 meta-analytic review. *Journal of Management, 42*(5), 1075–1110.
-<https://doi.org/10.1177/0149206315624963> Meyer, K. E., van
-Witteloostuijn, A., and Beugelsdijk, S. (2017). What’s in a p? Reassessing
-best practices for conducting and reporting hypothesis-testing research.
-*Journal of International Business Studies, 48*(5), 535–551.
-<https://doi.org/10.1057/s41267-017-0078-8> O’Brien, R. M. (2007). A
+<https://doi.org/10.1177/0149206315624963> O’Brien, R. M. (2007). A
 caution regarding rules of thumb for variance inflation factors.
 *Quality & Quantity, 41*(5), 673–690.
 <https://doi.org/10.1007/s11135-006-9018-6> Peng, M. W. (2003).
@@ -1007,20 +990,19 @@ Review, 28*(2), 275–296. <https://doi.org/10.5465/amr.2003.9416341>
 Peng, M. W., Wang, D. Y. L., and Jiang, Y. (2008). An institution-based
 view of international business strategy: A focus on emerging economies.
 *Journal of International Business Studies, 39*(5), 920–936.
-<https://doi.org/10.1057/palgrave.jibs.8400377> Rugman, A. M., &
-Verbeke, A. (2004). A perspective on regional and global strategies of
-multinational enterprises. *Journal of International Business Studies,
-35*(1), 3–18. <https://doi.org/10.1057/palgrave.jibs.8400073> Shaver, J.
-M. (2020). Causal identification through a cumulative body of research
-in the study of strategy and organizations. *Journal of Management,
-46*(6), 1244–1256. <https://doi.org/10.1177/0149206319846272> Stallkamp,
+<https://doi.org/10.1057/palgrave.jibs.8400377> Stallkamp,
 M., and Schotter, A. P. J. (2021). Platforms without borders? The
 international strategies of digital platform firms. *Global Strategy
-Journal, 11*(1), 58–80. <https://doi.org/10.1002/gsj.1336> Verhoef, P.
+Journal, 11*(1), 58–80. <https://doi.org/10.1002/gsj.1336> Teece, D. J. (2007). Explicating
+dynamic capabilities: The nature and microfoundations of (sustainable)
+enterprise performance. *Strategic Management Journal, 28*(13),
+1319–1350. <https://doi.org/10.1002/smj.640> Verhoef, P.
 C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian,
 N., and Haenlein, M. (2021). Digital transformation: A multidisciplinary
 reflection and research agenda. *Journal of Business Research, 122*,
-889–901. <https://doi.org/10.1016/j.jbusres.2019.09.022> Wolfolds, S.
+889–901. <https://doi.org/10.1016/j.jbusres.2019.09.022> Williamson, O. E.
+(1985). *The economic institutions of capitalism*. Free Press.
+Wolfolds, S.
 E., and Siegel, J. (2019). Misaccounting for endogeneity: The peril of
 relying on the Heckman two-step method without a valid instrument.
 *Strategic Management Journal, 40*(3), 432–462.

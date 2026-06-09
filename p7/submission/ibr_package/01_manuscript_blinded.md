@@ -22,9 +22,17 @@ the performance level and significantly reshapes the I–P curve: firms
 with higher DAI experience compressed ascending-limb returns at low FSTS
 and attenuated performance decline at high FSTS (FSTS×DAI p \< .01;
 FSTS²×DAI p \< .01 in M8–M9). Institutional regime (ICRV) moderates both
-slope and curvature. Managerial experience and female top management
-improve performance; experience additionally moderates the curve shape
-in the full specification. These findings offer a parsimonious
+slope and curvature, shifting the turning point from approximately 28%
+in advanced-institution economies to approximately 55% in
+weaker-institution economies, and the regime-contingent digital effect
+(DAI×ICRV) is significant (p = .012), indicating stronger per-unit
+digital returns where institutions are weaker. Managerial experience and
+female top management improve performance; experience marginally
+moderates the curve shape (p = .053) in the full specification. Across
+six formal hypotheses (H1–H6) we therefore test the curve, two
+capability moderators (TCI, DAI), managerial characteristics, the
+institutional-regime turning-point shift, and regime-contingent digital
+effects. These findings offer a parsimonious
 resolution to Asian I–P heterogeneity: the relationship is universally
 inverted-U, but regime quality and digital capability jointly determine
 where the turning point falls.
@@ -54,7 +62,7 @@ This paper addresses that gap. We pool 91,982 firm-observations from 49
 Asian and Pacific economies spanning 2003–2025, harmonised from the
 World Bank Enterprise Survey (WBES). Our sample spans all six ICRV
 regime groups, from advanced innovation-driven economies (Singapore,
-Korea, Taiwan, HongKong, Israel, Cyprus) to Pacific Small Island
+Korea, Taiwan, Hong Kong, Israel, Cyprus) to Pacific Small Island
 Developing States (Vanuatu, Solomon Islands, Fiji, Tonga, Samoa,
 Kiribati, Papua New Guinea, Timor-Leste) and Gulf advanced-resource
 economies (Bahrain, Kuwait, Qatar, Brunei, Saudi Arabia, Oman) 
@@ -92,7 +100,7 @@ Vahlne, 1977, 2009) describes internationalization as a sequential
 process in which firms accumulate experiential knowledge, progressively
 reducing psychic distance and coordination costs. The Resource-Based
 View (Barney, 1991; Wernerfelt, 1984) positions firm-level capabilities
- technological, digital, and managerial, as the mediating mechanism
+(technological, digital, and managerial) as the mediating mechanism
 linking export exposure to performance outcomes. Institutional Theory
 (North, 1990; Scott, 2008) directs attention to how country-level formal
 and informal institutions shape the cost structure of cross-border
@@ -131,8 +139,8 @@ inverted-U to emerge at an intermediate turning point.
 ### 2.3 Technological Capability as a Curve Amplifier (H2)
 
 Technological capability, operationalised as a composite of quality
-certification, foreign-technology adoption, process innovation, and R&D
- raises absorptive capacity (Cohen & Levinthal, 1990), enabling firms
+certification, foreign-technology adoption, process innovation, and R&D,
+raises absorptive capacity (Cohen & Levinthal, 1990), enabling firms
 to extract greater performance value per unit of export exposure.
 Critically, we expect TCI to operate as a *curve amplifier*: at low
 export intensities, high-TCI firms gain more per unit of
@@ -236,8 +244,8 @@ The Context-Contingent Digital Capability Model (CDCM) developed in this
 dissertation programme predicts that the I–P curve-reshaping role of
 digital adoption is not uniform across institutional environments. In
 institutionally advanced economies (ICRV Group I–II), digital
-infrastructure is near-universal and close to the competitive baseline 
-the marginal performance differentiation from website and e-payment
+infrastructure is near-universal and close to the competitive baseline,
+so the marginal performance differentiation from website and e-payment
 adoption is accordingly lower. In institutionally weaker economies (ICRV
 Group IV–VI), digital adoption remains differentiating: digital market
 access tools lower the liability-of-foreignness cost and provide
@@ -275,7 +283,7 @@ random-sample survey of formal private-sector enterprises conducted
 periodically across over 130 countries. We use microdata from 49 Asian
 and Pacific economies across 102 country-year waves spanning 2003–2025.
 This coverage encompasses six UN M.49 Asian sub-regions: East Asia
-(China, HongKong, Korea, Mongolia, Taiwan), Southeast Asia (Brunei,
+(China, Hong Kong, Korea, Mongolia, Taiwan), Southeast Asia (Brunei,
 Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore,
 Thailand, Timor-Leste, Vietnam), South Asia (Afghanistan, Bangladesh,
 Bhutan, India, Maldives, Nepal, Pakistan, Sri Lanka), Central Asia
@@ -448,7 +456,7 @@ statistically significant (β = +0.155, p \< .001), consistent with
 approximately a 17% performance premium for digitally active firms
 (exp(0.155) − 1 ≈ 17%). Strikingly, both DAI interaction terms are
 statistically significant in M8: FSTS×DAI = −0.614 (p \< .001, \*\*\*)
-and FSTS²×DAI = +0.766 (p = .001, \*\*). The interaction pattern 
+and FSTS²×DAI = +0.766 (p = .001, \*\*). The interaction pattern,
 negative FSTS×DAI and positive FSTS²×DAI, means that high-DAI firms
 experience a flatter, shifted I–P curve: lower productivity gains per
 unit of FSTS at low export intensities (sunk adoption costs, or
@@ -460,7 +468,7 @@ result strengthens further in M9 with manager controls: FSTS×DAI =
 The inverted-U is maintained in both specifications (M8: TP = 33.8%; M9:
 TP = 36.1%).
 
-**H3 is supported.** DAI raises firm performance by approximately 16%
+**H3 is supported.** DAI raises firm performance by approximately 17%
 and significantly reshapes the I–P curve, compressing the ascending
 limb and attenuating the performance decline at high FSTS, even before
 controlling for managerial characteristics. This is the primary
@@ -492,19 +500,19 @@ replication.
 
 *Table 2, Model M10.*
 
-The ICRV group main effect (β = +0.763, p \< .001) indicates that 
+The ICRV group main effect (β = +0.729, p \< .001) indicates that,
 controlling for TCI, DAI, and firm characteristics, each step up the
 ICRV scale (from Group I to VI, i.e., from stronger to weaker
-institutions) is associated with approximately a 115% higher labour
-productivity level (exp(0.763) − 1 ≈ 115%). This counter-intuitive
+institutions) is associated with approximately a 107% higher labour
+productivity level (exp(0.729) − 1 ≈ 107%). This counter-intuitive
 *positive* ICRV coefficient reflects that nominal sales-per-worker is
 higher in economies with lower price levels (typical of
 frontier/emerging economies), and country-year fixed effects were not
 included in M10 to preserve the institutional regime as the key
 moderator of interest.
 
-More relevant for H5 are the interaction terms: FSTS×ICRV (β = +1.762, p
-\< .001) and FSTS²×ICRV (β = −2.746, p \< .001). These indicate that the
+More relevant for H5 are the interaction terms: FSTS×ICRV (β = +1.636, p
+\< .001) and FSTS²×ICRV (β = −2.501, p \< .001). These indicate that the
 ascending slope of the I–P curve is steeper in weaker-institution
 economies (higher ICRV group), but so is the descending slope, meaning
 that the inverted-U peak occurs at lower export intensities in
@@ -637,7 +645,7 @@ cross-sectional design: the term "performance" throughout refers to a
 contemporaneous association between FSTS and labour productivity in a
 given survey year, not a panel-tracked causal effect. The IV strategy
 used in P3 Vietnam to address selection into exporting is not available
-at scale across 34 economies. Second, the DAI measure is limited to Tier
+at scale across 49 economies. Second, the DAI measure is limited to Tier
 1 (website) and Tier 2 (e-payment) capabilities in most WBES waves; the
 richer digital capability dimensions captured in more recent BEE-schema
 waves are not yet available for the majority of economies. Third, the
@@ -693,9 +701,6 @@ During the preparation of this work, the author(s) used Grammarly, a writing-ass
 
 ## References
 
-Aiken, L. S., & West, S. G. (1991). *Multiple regression: Testing and
-interpreting interactions*. Sage.
-
 Barney, J. (1991). Firm resources and sustained competitive advantage.
 *Journal of Management, 17*(1), 99–120.
 <https://doi.org/10.1177/014920639101700108>
@@ -727,21 +732,6 @@ theory of international expansion: The link between multinationality and
 performance in the service sector. *Journal of International Business
 Studies, 34*(1), 5–18. <https://doi.org/10.1057/palgrave.jibs.8400003>
 
-Contractor, F. J., Kumar, V., & Kundu, S. K. (2007). Nature of the
-relationship between international expansion and performance: The case
-of emerging market firms. *Journal of World Business, 42*(4), 401–417.
-<https://doi.org/10.1016/j.jwb.2007.06.003>
-
-Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018).
-Home country uncertainty and the internationalization-performance
-relationship: Building an uncertainty management capability. *Journal of
-World Business, 53*(2), 209–221.
-<https://doi.org/10.1016/j.jwb.2017.11.003>
-
-Dawson, J. F. (2014). Moderation in management research: What, why,
-when, and how. *Journal of Business and Psychology, 29*(1), 1–19.
-<https://doi.org/10.1007/s10869-013-9308-7>
-
 Đỗ, T. H., & Phan, A. T. (2024). *Internationalization and firm
 performance: A meta-analysis for Asia-Pacific economies*. Paper
 presented at the International Conference on Business, Economics, and
@@ -770,10 +760,6 @@ Management Review, 32*(2), 334–343.
 Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization
 as a reflection of its top managers. *Academy of Management Review,
 9*(2), 193–206. <https://doi.org/10.5465/amr.1984.4277628>
-
-Hayes, A. F. (2018). *Introduction to mediation, moderation, and
-conditional process analysis: A regression-based approach* (2nd ed.).
-Guilford Press.
 
 International Finance Corporation. (2022, December). *Mind the gaps:
 Women in leadership in Viet Nam's banking sector*. IFC, World Bank
@@ -842,6 +828,10 @@ of Applied Social Psychology, 39*(7), 1571–1599.
 Scott, W. R. (2008). *Institutions and organizations: Ideas and
 interests* (3rd ed.). Sage.
 
+Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders?
+The international strategies of digital platform firms. *Global Strategy
+Journal, 11*(1), 58–80. <https://doi.org/10.1002/gsj.1336>
+
 UNCTAD. (2023). *World investment report 2023: Investing in sustainable
 energy for all*. United Nations.
 
@@ -876,10 +866,6 @@ World Bank Group, Fiscal Policy and Growth Viet Nam Team.
 World Bank. (2024, December). *Viet Nam economy snapshot: Justice*
 (Prosperity Data360). World Bank Group.
 <https://www.worldbank.org/ext/en/country/vietnam>
-
-Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022).
-Internationalization and innovation of business groups: Evidence from
-China. *Journal of World Business, 54*(4), 305–320.
 
 ## Appendix A: Model Sequence
 
