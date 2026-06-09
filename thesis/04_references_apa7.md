@@ -308,6 +308,7 @@ Lall, S. (1992). Technological capabilities and industrialization. *World Develo
 
 Li, Y., Liu, Y., & Qian, C. (2022). Digitalization, internationalization, and firm performance: Evidence from Chinese manufacturing firms. *International Business Review, 31*(3), 101953. https://doi.org/10.1016/j.ibusrev.2021.101953
 
+Le, K. N., Do, T. H., & Phan, A. T. (2021). Internationalization and Turkish manufacturing firm performance: Does managerial personality matter? *[Publication outlet to be confirmed by the author].*
 Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
 
 Long, J. S., & Ervin, L. H. (2000). Using heteroscedasticity consistent standard errors in the linear regression model. *The American Statistician, 54*(3), 217–224. https://doi.org/10.1080/00031305.2000.10474549
@@ -651,6 +652,7 @@ Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and perform
 
 Olmos, M. F., & Díez-Vial, I. (2015). Internationalization pathways and the performance of SMEs. *European Journal of Marketing, 49*(3/4), 420–443. https://doi.org/10.1108/ejm-06-2012-0365
 
+Phan, A. T., Van Song, N., Van Tien, D., Van Ha, T., Tiep, N. C., Thang, D. Q., et al. (2021). The moderating effects of the manager's characteristics and financial obstacles on internationalization and firm performance in Poland. *PalArch's Journal of Archaeology of Egypt/Egyptology, 18*(4), 4063–4081.
 Phan, A. T., Do, T. H., & Phan, M. T. (2020). The moderating effects of managers' experience and gender on internationalization and firm performance of manufacturing enterprises in Turkey. *Accounting, 6*(7), 1209–1216. https://doi.org/10.5267/j.ac.2020.9.006
 Phan, A. T., Tran, T. M., & Lu, T. M. (2020). The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon. *Decision Science Letters, 9*(4), 573–580. https://doi.org/10.5267/j.dsl.2020.7.001
 
