@@ -252,7 +252,7 @@ Về **Điều kiện tiên quyết 3** (thể chế vận hành được): phá
 
 Một số hạn chế giới hạn cách diễn giải các phát hiện của chúng tôi.
 
-Thứ nhất, **cấu trúc gộp mặt cắt ngang**: trong khi chúng tôi gộp qua nhiều đợt khảo sát quốc gia-năm (2009–2025), ít nền kinh tế SIDS có nhiều hơn một đợt WBES (xem Bảng 1), làm hạn chế nhận dạng panel cho các tác động nhân quả. Ước lượng FIP chủ yếu được nhận dạng từ biến thiên mặt cắt ngang của FSTS trong các ô quốc gia-năm. Công việc tương lai sử dụng dữ liệu panel, nơi có sẵn cho Fiji và Papua New Guinea (hai nền kinh tế có hai đợt khảo sát), có thể củng cố nhận dạng nhân quả.
+Thứ nhất, **cấu trúc gộp mặt cắt ngang**: trong khi chúng tôi gộp qua nhiều đợt khảo sát quốc gia-năm (2009–2025), ít nền kinh tế SIDS có nhiều hơn một đợt WBES (xem Bảng 1), làm hạn chế nhận dạng panel cho các tác động nhân quả. Ước lượng FIP chủ yếu được nhận dạng từ biến thiên mặt cắt ngang của FSTS trong các ô quốc gia-năm. Công việc tương lai sử dụng dữ liệu panel, nơi có sẵn cho Fiji, Papua New Guinea và Vanuatu (ba nền kinh tế có hai đợt khảo sát), có thể củng cố nhận dạng nhân quả.
 
 Thứ hai, **đo lường FSTS trong các bối cảnh xuất khẩu mỏng**: với FSTS trung bình 0,048 và chỉ 13,8% nhà xuất khẩu, phân phối FSTS lệch phải mạnh. Các ước lượng hệ số trong M2 có thể nhạy cảm với một nhóm nhỏ giá trị ngoại lai FSTS cao; các kết quả bậc hai không có ý nghĩa nên được diễn giải thận trọng. Công việc tương lai có thể sử dụng hồi quy phân vị hoặc giới hạn cực trị (winsorize) để đánh giá độ nhạy phân phối.
 
@@ -344,16 +344,16 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 | Nền kinh tế | N (doanh nghiệp) | Nhà xuất khẩu | % nhà xuất khẩu | FSTS trung bình | Đợt khảo sát |
 |------------------|-----------|-----------|------------|-----------|-----------|
-| Fiji |, |, |, |, |, |
-| Kiribati |, |, |, |, |, |
-| Papua New Guinea |, |, |, |, |, |
-| Samoa |, |, |, |, |, |
-| Solomon Islands |, |, |, |, |, |
-| Tonga |, |, |, |, |, |
-| Vanuatu |, |, |, |, |, |
+| Fiji | 165 | 46 | 27,9% | 0,109 | 2009, 2025 |
+| Kiribati | 114 | 3 | 2,6% | 0,011 | 2025 |
+| Papua New Guinea | 141 | 20 | 14,2% | 0,028 | 2015, 2024 |
+| Samoa | 131 | 24 | 18,3% | 0,051 | 2023 |
+| Solomon Islands | 107 | 10 | 9,3% | 0,040 | 2025 |
+| Tonga | 144 | 13 | 9,0% | 0,044 | 2024 |
+| Vanuatu | 157 | 16 | 10,2% | 0,037 | 2009, 2023 |
 | **Tổng** | **959** | **132** | **13,8%** | **0,048** | 2009–2025 |
 
-*Ghi chú: Các phân tích chi tiết ở cấp quốc gia có sẵn trong kho lưu trữ tái lập (*`p8/replication/`*). Tổng N phản ánh mẫu phân tích (ln_LP và FSTS không khuyết). Phạm vi đợt khảo sát biến thiên theo quốc gia.*
+*Ghi chú: N phản ánh mẫu phân tích (doanh nghiệp có ln năng suất lao động và FSTS không khuyết). Nhà xuất khẩu là doanh nghiệp có FSTS > 0; FSTS trung bình tính trên toàn bộ doanh nghiệp, kể cả phi xuất khẩu. Fiji, Papua New Guinea và Vanuatu có hai đợt WBES; bốn nền kinh tế còn lại có một đợt.*
 
 ### Bảng 2. Kết quả hồi quy: Cường độ quốc tế hóa và năng suất lao động
 

@@ -267,7 +267,7 @@ On **Prerequisite 3** (functional institutions): targeted institutional developm
 
 Several limitations bound the interpretation of our findings.
 
-First, **cross-sectional pooled structure**: while we pool across multiple country-year waves (2009–2025), few SIDS economies have more than one WBES wave (see Table 1), limiting panel identification of causal effects. The FIP estimate is primarily identified from cross-sectional variation in FSTS within country-year cells. Future work using panel data, where available for Fiji and Papua New Guinea, which have two waves, could strengthen causal identification.
+First, **cross-sectional pooled structure**: while we pool across multiple country-year waves (2009–2025), few SIDS economies have more than one WBES wave (see Table 1), limiting panel identification of causal effects. The FIP estimate is primarily identified from cross-sectional variation in FSTS within country-year cells. Future work using panel data, where available for Fiji, Papua New Guinea, and Vanuatu, which have two waves, could strengthen causal identification.
 
 Second, **FSTS measurement in thin-export contexts**: with mean FSTS of
 0.048 and only 13.8% exporters, the FSTS distribution is highly
@@ -365,16 +365,16 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 
 | Economy | N (firms) | Exporters | Exporter % | Mean FSTS | Waves |
 |------------------|-----------|-----------|------------|-----------|-----------|
-| Fiji |, |, |, |, |, |
-| Kiribati |, |, |, |, |, |
-| Papua New Guinea |, |, |, |, |, |
-| Samoa |, |, |, |, |, |
-| Solomon Islands |, |, |, |, |, |
-| Tonga |, |, |, |, |, |
-| Vanuatu |, |, |, |, |, |
+| Fiji | 165 | 46 | 27.9% | 0.109 | 2009, 2025 |
+| Kiribati | 114 | 3 | 2.6% | 0.011 | 2025 |
+| Papua New Guinea | 141 | 20 | 14.2% | 0.028 | 2015, 2024 |
+| Samoa | 131 | 24 | 18.3% | 0.051 | 2023 |
+| Solomon Islands | 107 | 10 | 9.3% | 0.040 | 2025 |
+| Tonga | 144 | 13 | 9.0% | 0.044 | 2024 |
+| Vanuatu | 157 | 16 | 10.2% | 0.037 | 2009, 2023 |
 | **Total** | **959** | **132** | **13.8%** | **0.048** | 2009–2025 |
 
-*Note: Per-country breakdowns (N, exporter count, exporter %, mean FSTS, wave coverage) are not yet populated. The current replication outputs (*`p8/replication/reanalysis_7pacific/p8_R_summary.csv`*) report only pooled totals (N = 959; exporters = 132; 13.8%; mean FSTS = 0.048); a per-country descriptives file has not been generated. [AUTHOR ACTION REQUIRED: generate country-level summary statistics from the analysis sample and fill the seven rows below before submission.] Total N reflects analysis sample (non-missing ln_LP and FSTS). Wave coverage varies by country.*
+*Note: N reflects the analysis sample (firms with non-missing ln labour productivity and FSTS). Exporters are firms with FSTS > 0; mean FSTS is computed over all firms, including non-exporters. Fiji, Papua New Guinea, and Vanuatu have two WBES waves; the remaining four economies have one.*
 
 ### Table 2. Regression Results: Internationalization Intensity and Labor Productivity
 
