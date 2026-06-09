@@ -20,7 +20,27 @@
 
 ---
 
-## PHA 1 — Cổng dữ liệu/phân tích (chỉ NCS/GVHD; CHẶN nộp paper liên quan)
+## PHA 1 — Cổng dữ liệu/phân tích — CẬP NHẬT 2026-06-09 (đã đóng phần lớn)
+
+> Cập nhật sau vòng hoàn thiện P8 + P3/P4/P5/P9.
+
+| # | Việc | Paper | Trạng thái |
+|---|---|---|---|
+| 1.1 | Mã hóa kép 20% (k=47) → κ/ICC | P6 | ⏳ **NCS/GVHD** (đường găng) |
+| 1.2 | Đăng ký OSF → DOI | P6 | ⏳ **NCS** |
+| 1.3 | Chạy lại Q_M cho 3 lệch off-by-one | P6 | ⏳ **NCS** |
+| 1.4 | Bảng 1 thống kê theo nước (7 SIDS) | P8 | ✅ **XONG** — tính từ `data_wbes/p7/p7_pooled_clean.csv` (tái tạo N=959 chính xác), điền 3 package + clean_en + VI |
+| 1.5 | Minh bạch estimation N=209 vs 959 | P8 | ✅ **XONG** — đã ghi rõ trong abstract + §4; sửa nhãn TCI; thêm ref Mahler |
+| 1.6 | p exporter-only + ref World Bank 2025b/c | P3 | ✅ **Không cần sửa** — .660 nhất quán; WB 2025b/c đã có trong reflist (review over-flag) |
+| 1.7 | Ref Leon (2004) + làm rõ 18%/N=84 | P4 | ⚠️ 18%/N=84 ✅ đã làm rõ (=complete-case của ~18% exporter); **Leon (2004) ⏳ NCS bổ sung** (không có trong repo) |
+| 1.8 | Đối chiếu TP R↔Stata (47.6 vs 49.4) | P5 | ✅ **Không cần sửa** — 49.4% khớp pipeline chuẩn `results_coefs.csv` (FSTS 2.065/FSTS² −2.092 → 49.4%); file R turning_points là phụ/lỗi |
+| 1.9 | Ref Hutzschenreuter & Voll (2008) | P9 | ✅ **XONG** — thêm entry JIBS 39(1), 53–70 (3 manuscript + clean_en) |
+
+**Pha 1 còn lại = chỉ P6 (1.1–1.3) + P4 Leon ref (1.7).** P8 đã hoàn thiện hoàn toàn.
+
+---
+
+## PHA 1 (gốc) — Cổng dữ liệu/phân tích (chỉ NCS/GVHD; CHẶN nộp paper liên quan)
 
 > Đây là các việc tôi **không thể** làm vì cần dữ liệu gốc/coder thứ hai/đăng ký bên ngoài. Hoàn thành trước khi nộp paper tương ứng.
 
