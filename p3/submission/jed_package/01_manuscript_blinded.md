@@ -265,8 +265,7 @@ The 5 discussion takes this proxy obsolescence reading seriously as one altern
 stage-contingency story.
 Following Verhoef et al. (2021), digital capability can be located on a four-tier hierarchy: Tier
 1, digital presence (websites, e-mail); Tier 2, digital communication and basic e-commerce;
-Tier 3, digital process integration (electronic payment, supply-chain digitisation); Tier 4 , 
-dynamic digital capability (data-driven decision-making, AI integration). The primary DAI_z
+Tier 3, digital process integration (electronic payment, supply-chain digitisation); Tier 4, dynamic digital capability (data-driven decision-making, AI integration). The primary DAI_z
 
 
 
@@ -279,8 +278,6 @@ Because DAI_z is anchored at Tier 1 (website presence only), the construct is no
 Given that DAI_z reduces to a single binary item, c22b (own-website presence), it captures Tier-1 digital presence rather than dynamic digital capability. By 2023, website ownership has diffused to near half of the Vietnamese firm population (49.8 % in 2023 vs 42.5 % in 2009) and increasingly functions as an organisational hygiene factor rather than a marker of digital strategy. **Accordingly, DAI_z is not formalised as a primary hypothesis-bearing construct in this paper.** It is retained in all specifications as a baseline digital-presence control to absorb website-ownership variance, and its level association with productivity is reported descriptively. Any future test of digital capability moderation would require richer Tier 2–4 indicators (electronic-payment intensity, ERP integration, e-commerce platform adoption, AI-augmented operations) that are not available cross-wave in the WBES Vietnam instrument.
 
 **Note on hypothesis numbering.** Because DAI_z is not advanced as a primary hypothesis in this study, no H3 is formulated in the present paper. The exploratory digital moderation probe that follows (§2.4) is designated H4 to preserve alignment with the broader dissertation framework, in which H3 conventionally corresponds to institutional moderation in multi-country papers (P5 China, P7 Multi-country). Readers expecting H1–H2–H3–H4 sequencing should note this deliberate gap and the rationale above.
-
-**WBES-scope caveat.** Because the WBES Vietnam instrument carries only the website-presence binary (c22b) comparably across the 2009 / 2015 / 2023 waves, this paper does not attempt to test higher-tier digital-transformation mechanisms such as data-driven decision-making, AI integration, or ERP-based process digitisation. Any descriptive coefficient on DAI_z should be read as reflecting baseline digital-presence variation, not dynamic digital capability. This caveat shields the present analysis from over-claiming on the limited Tier-1 information that a single binary website indicator can provide.
 
 ### 2.4 Stage-contingent digital value
 Because the WBES Vietnam instrument cannot identify Tier 2–4 digital capability across waves, the present paper does not advance a primary digital-transformation claim. The following discussion frames a *secondary, exploratory probe* of whether the Tier-1 website indicator interacts with export intensity differently across waves, read as a within-WBES sensitivity check on Tier-1 baseline behaviour, not as a hypothesis test of dynamic digital capability. The exploratory claim is that even baseline digital presence may be stage contingent in scope:
@@ -356,8 +353,7 @@ This structure provides sufficient variation to compare direct effects and condi
 across stages.
 
 ### 3.2 Variables
-Firm performance is measured by log labour productivity (lnLP). Internationalisation is measured by direct-export intensity (FSTS), mean-centred within wave (FSTS_c) and squared (FSTS_c²) so that linear and quadratic terms can be entered jointly to test for nonlinearity. The analysis uses two distinct capability constructs. The Technological Capability Index (TCI_z) is interpreted narrowly as a foreign-technology and standards capability measure , 
-international quality certification and foreign-licensed technology, that proxies a firm's exposure to external technological standards rather than the full Cohen-Levinthal absorptive-capacity
+Firm performance is measured by log labour productivity (lnLP). Internationalisation is measured by direct-export intensity (FSTS), mean-centred within wave (FSTS_c) and squared (FSTS_c²) so that linear and quadratic terms can be entered jointly to test for nonlinearity. The analysis uses two distinct capability constructs. The Technological Capability Index (TCI_z) is interpreted narrowly as a foreign-technology and standards capability measure (namely international quality certification and foreign-licensed technology) that proxies a firm's exposure to external technological standards rather than the full Cohen-Levinthal absorptive-capacity
 stock (Lall, 1992; Cohen and Levinthal, 1990). The Digital Adoption Index (DAI_z) is interpreted narrowly as website-based digital presence, foundational website adoption, and not
 as a measure of transaction-level digital integration or digital transformation (Bharadwaj et al.,
 2013; Verhoef et al., 2021; Nambisan et al., 2019). Each composite is z-standardised within wave
@@ -384,8 +380,6 @@ both continuous (k33 / 100, k38 / 100) and binary (k33 > 0, k38 > 0) variants. D
 moves from basic digital presence toward a transaction-enabling digital-adoption construct, but
 it is treated as a measurement-depth robustness check rather than as the primary specification
 because k33 and k38 are unavailable in the 2009 and 2015 waves.
-
-**Construct-tier scope note.** The DAI_z construct in this paper (Tier 1 only: website binary c22b) is constrained by the WBES Vietnam instrument: only the website-presence binary is carried comparably across the 2009 / 2015 / 2023 waves, whereas richer Tier-2 transaction-enabling items such as electronic-payment intensity (k33, k38) appear only in the 2023 wave. The Vietnam Tier-1-only indicator (FSTS_c × DAI_z = −0.912, p = .043) is best read as construct-tier obsolescence: Tier-1 website presence has become a minimum-threshold credential in Vietnam's maturing digital environment and no longer differentiates firms' cross-border coordination capacity at high export intensity. The DAI_rich robustness composite available in the 2023 wave (Tier 1+2, §4.5 Panel B) provides within-wave sensitivity analysis on this scope-limitation question, but cross-wave comparability limits its use as the primary measure.
 
 **Tier-1-only DAI as a deliberate boundary condition.** The restriction of DAI_z to the website-presence binary (c22b) across the 2009, 2015, and 2023 waves is a deliberate boundary condition imposed by WBES data availability, not a methodological weakness or a proxy approximation. The 2009 and 2015 waves offer only the website presence indicator (Tier 1), while the 2023 wave includes payment digitization items (k33, k38; Tier 2). This tiered measurement captures institutional evolution in digital infrastructure: Tier-1 only in waves with incomplete WBES coverage reflects the actual state of digital adoption instrumentation at that time, not a deficiency of the present study's measurement strategy. Retaining a single harmonised Tier-1 indicator across all three waves is the methodologically conservative choice that preserves cross-wave comparability; the alternative, using a richer composite for 2023 only, would introduce a wave-specific construct-shift that could be mistaken for a structural change in the I–P relationship. The DAI_rich robustness extension (§4.5 Panel B) applies the 2023-wave Tier-2 items precisely as a within-wave sensitivity probe to assess whether the headline moderation pattern survives under a richer construct while acknowledging the cross-wave comparability cost.
 
@@ -521,8 +515,7 @@ The 2015 wave shows the curvature cleanly but the weakest digital channel. M2 pr
 cent of the 2009 magnitude. DAI_z loses direct salience entirely (β = -0.044, p = .377). TCI
 moderation is null in this wave (M3 joint p = .713), and DAI moderation is at best marginal
 (M4 joint p = .125; M8 joint p = .093). Read as a phase characterisation, 2015 looks like a wave
-in which the I–P curvature is unusually sharp while the digital channel compresses entirely , 
-consistent with the productivity J-curve account in which firms invest in basic digital tools before
+in which the I–P curvature is unusually sharp while the digital channel compresses entirely, consistent with the productivity J-curve account in which firms invest in basic digital tools before
 complementary organisational adjustments produce measurable productivity gains (Brynjolfsson
 et al., 2021).
 The 2023 wave is where the digital-moderation signal emerges most sharply. M2 again indicates a clear inverted-U (FSTS_c β = 0.962, p = .039; FSTS_c² β = -1.686, p = .008; Lind–Mehlum p = .013). In the dual-direct M7, both capability dimensions are positive and significant (TCI_z β = 0.123, p = .006; DAI_z β = 0.095, p = .038). When the DAI interaction terms are added in M8, the linear interaction is negative and individually significant (FSTS_c × DAI_z = -0.912, p = .043), the quadratic interaction is positive but does not reach conventional significance (FSTS_c² × DAI_z = 1.043, p = .099), and the joint test is above the .05 threshold (M4 joint p = .102; M8 joint p = .062). The substantive reading is that, by 2023, basic digital adoption becomes more conditional on export intensity: as exporters move beyond moderate FSTS levels, the
@@ -1024,8 +1017,7 @@ foreign-technology / standards capability behaves like a more identification-rob
 selection-sensitive marker of performance heterogeneity.
 The DAI_rich extension reported in 4.5 Panel B reinforces the construct interpretation
 rather than weakening it. Although the primary DAI_z anchored on c22b (website presence) is
-by 2023 close to a Tier-1 baseline indicator, the DAI_rich extension available only in 2023 , 
-combining c22b with electronic-payment shares (k33, k38), produces a similarly directioned
+by 2023 close to a Tier-1 baseline indicator, the DAI_rich extension available only in 2023 (combining c22b with electronic-payment shares k33, k38) produces a similarly directioned
 and a moderation pattern in the same direction (FSTS_c × DAI_rich_cont_z = -0.93, M8 joint
 p = .099). Whether digital adoption is measured by the thin Tier-1 website indicator or by the
 deeper Tier-2 / 3 transaction items, the 2023 moderation pattern goes in the same direction. This
@@ -1336,8 +1328,6 @@ Wagner, J. (2007), "Exports and productivity: a survey of the evidence from firm
 
 Williamson, O.E. (1985), *The Economic Institutions of Capitalism*, Free Press, New York, NY.
 
-Wolfolds, S.E. and Siegel, J. (2019), "Misaccounting for endogeneity: the peril of relying on the Heckman two-step method without a valid instrument", *Strategic Management Journal*, Vol. 40 No. 3, pp.432-462, https://doi.org/10.1002/smj.2995
-
 Wooldridge, J.M. (2010), *Econometric Analysis of Cross Section and Panel Data*, 2nd ed., MIT Press, Cambridge, MA.
 
 World Bank (2010), *Vietnam Enterprise Survey 2009: Data File*, Enterprise Surveys, World Bank Group, available at: https://www.enterprisesurveys.org/en/enterprisesurveys (accessed 9 May 2026).
@@ -1345,6 +1335,10 @@ World Bank (2010), *Vietnam Enterprise Survey 2009: Data File*, Enterprise Surve
 World Bank (2016), *Vietnam Enterprise Survey 2015: Data File*, Enterprise Surveys, World Bank Group, available at: https://www.enterprisesurveys.org/en/enterprisesurveys (accessed 9 May 2026).
 
 World Bank (2024), *Vietnam Enterprise Survey 2023: Data File*, Enterprise Surveys, World Bank Group, available at: https://www.enterprisesurveys.org/en/enterprisesurveys (accessed 9 May 2026).
+
+World Bank (2025b), *Viet Nam Economic Update: Nurturing High-Tech Talents* (Taking Stock, September 2025), World Bank Group, Washington, DC.
+
+World Bank (2025c), *Viet Nam Economy Snapshot: Finance, Competitiveness and Innovation* (Prosperity Data360), World Bank Group, available at: https://www.worldbank.org/ext/en/country/vietnam (accessed 9 May 2026).
 
 World Bank (2026), *World Development Indicators* [data set], available at: https://databank.worldbank.org/source/world-development-indicators (accessed 9 May 2026).
 

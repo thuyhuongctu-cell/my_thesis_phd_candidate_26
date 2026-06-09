@@ -40,20 +40,20 @@
 
 ---
 
-**Table III.** Focal coefficients by wave and pooled (OLS, HC1). Significance: *** p<.01, ** p<.05, * p<.10.
+**Table III.** Focal coefficients by wave and pooled (OLS, HC1). Significance: *** p<.001, ** p<.01, * p<.05, † p<.10.
 
 | Term | 2009 | 2015 | 2023 | Pooled |
 |---|---|---|---|---|
-| FSTS_c (M2) | 1.045** | 1.159** | 0.962** | 0.984*** |
-| FSTS_c² (M2) | −1.774*** | −2.115*** | −1.686*** | −1.909*** |
+| FSTS_c (M2) | 1.045* | 1.159* | 0.962* | 0.984*** |
+| FSTS_c² (M2) | −1.774** | −2.115** | −1.686** | −1.909*** |
 | Lind–Mehlum p | .006 | .009 | .013 | <.001 |
-| Turning point (% FSTS) | 46.2 | 39.3 | 42.0 | 39.7 |
-| TCI_z direct (M7) | 0.215*** | 0.128*** | 0.123*** | 0.179*** |
-| DAI_z direct (M7) | 0.175*** | −0.044 | 0.095** | 0.078*** |
-| FSTS_c × TCI_z (M3) | −0.579* | n.s. | (sig.) | −0.587*** |
+| Turning point (% FSTS) | 46.2 | 39.3 | 41.6 | 39.7 |
+| TCI_z direct (M7) | 0.215*** | 0.128* | 0.123** | 0.179*** |
+| DAI_z direct (M7) | 0.175*** | −0.044 | 0.095* | 0.078** |
+| FSTS_c × TCI_z (M3) | −0.579† | n.s. | (sig.) | −0.587** |
 | TCI moderation, M3 joint p | .040 | .713 | .027 | .003 |
-| FSTS_c × DAI_z (M8) | n.s. | n.s. | −0.912** | −0.448 |
+| FSTS_c × DAI_z (M8) | n.s. | n.s. | −0.912* | −0.448 |
 | DAI moderation, M8 joint p | .700 | .093 | .062 | .083 |
-| Exporter-only FSTS_c² (Panel H) |, |, |, | −0.200 (p=.660) |
+| Exporter-only FSTS_c² (Panel H) | — | — | — | −0.200 (p=.660) |
 
 *Notes.* β reported; full SEs and the M0–M8 sequence are in the replication package. Exporter-only sub-sample pooled N = 669; its non-significant quadratic term indicates the full-sample inverted-U is driven by the participation margin. Robustness panels (A–K): Supplementary Material.
