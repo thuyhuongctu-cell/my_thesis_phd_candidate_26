@@ -176,7 +176,7 @@ FSTS OR "foreign sales to total sales" AND Asia
 **Giai đoạn 1 — Title/Abstract Screening**:
 - 2 reviewers độc lập sàng lọc tất cả records theo PICOS
 - Bất đồng → thảo luận → đồng thuận (hoặc reviewer thứ 3)
-- Độ tin cậy giữa các reviewer: tính Cohen's κ (mục tiêu: κ ≥ 0.80)
+- Độ tin cậy giữa hai tác giả (mã hóa độc lập): tính Cohen's κ (ngưỡng: κ ≥ 0,70, Landis & Koch 1977)
 
 **Giai đoạn 2 — Full-Text Review**:
 - Đọc toàn văn tất cả bài đã qua Stage 1

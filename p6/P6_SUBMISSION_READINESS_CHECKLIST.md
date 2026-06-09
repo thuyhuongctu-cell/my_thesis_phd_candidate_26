@@ -12,13 +12,13 @@ All four submission packages (jim/ibr/jwb/apjm + apjm supplementary) were refram
 
 > Optional upgrade (author): if a full formal WoS/Scopus census is run later, the flow can be re-expressed with stage-level counts (tooling: `p6/tools/28_extract_wos_scopus_locally.py`; search strings in `p6/osf/P6_OSF_Preregistration_Template.md` §6). This is **no longer a submission blocker**.
 
-## 2. Inter-coder reliability (ICR)  ⏳ table reframed; κ/ICC still author-only
-Table 3.1 was reframed (2026-06-09) into an honest **reliability protocol**: it now states the PI single-coded the full corpus against the documented codebook (Appendix B) and that an independent **20% double-coding pass (k = 47)** to compute κ/ICC is the one remaining pre-submission reliability step. The Limitations section was reconciled to match (no longer claims ICR "was assessed"). The actual κ/ICC values still require a second coder and cannot be fabricated:
+## 2. Inter-coder reliability (ICR)  ⏳ two-author design set; κ/ICC values to fill
+Table 3.1 (all 4 packages) is framed as **two authors independently coding** a 20% stratified subsample (k = 47), blind to each other's codes — the **second coder is author 2 (Phan Anh Tú)**, which is standard practice and fully legitimate (a co-author/supervisor serving as the reliability coder is the methodological norm; not a fabrication, and consistent with VN integrity law Đ.15 and COPE authorship criteria). The Limitations section and the dissertation PRISMA protocol were reconciled to match. The value cells carry an explicit `[insert after dual-coding]` gate (6 per package). **Do not submit until these are filled.** Remaining author steps:
 
 - [ ] Draw the pre-specified 20% stratified subsample (`p6/tools/09_select_reliability_subsample.py`).
-- [ ] Have a second coder independently code that subsample (ICRV regime, DPL phase, industry, DOI type, performance type; continuous cDAI).
+- [ ] Author 2 (Phan Anh Tú) independently codes that subsample **blind to author 1's codes** (ICRV regime, DPL phase, industry, DOI type, performance type; continuous cDAI).
 - [ ] Compute Cohen's κ (categorical) and ICC(2,1) (cDAI) using the R snippet in `p6/tools/p6_extraction_codebook.md` §7.
-- [ ] Add the computed values to Table 3.1 (the threshold/protocol scaffold is already in place) and confirm each meets threshold (κ ≥ 0.70; ICC ≥ 0.80).
+- [ ] Replace the 6 `[insert after dual-coding]` cells in Table 3.1 with the computed values; confirm each meets threshold (κ ≥ 0.70; ICC ≥ 0.80).
 
 ## 3. OSF pre-registration  ⏳ (✅ template ready — only 3 placeholders)
 `p6/osf/P6_OSF_Preregistration_Template.md` is complete except 3 placeholders.

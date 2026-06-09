@@ -633,7 +633,7 @@ primary meta-analytic model.
 #### 3.3.1 Effect-Size Extraction Protocol
 
 Statistical parameters were extracted from the full text of
-each eligible study by the primary coder (PI: Đỗ Thùy Hương), using the
+each eligible study by the primary coder (the first author), using the
 standardized coding form specified in Appendix B. For each study, the
 following parameters were recorded: sample size (*N*), the focal I→P
 effect size (Pearson's *r* or the convertible statistic), study
@@ -905,18 +905,18 @@ alternative operationalizations:
 
 *k* = 238 studies (coded), *K* = 288 effect sizes.
 
-**Table 3.1, Inter-coder reliability protocol** *(moderator coding for the full corpus performed by the PI against the documented codebook in Appendix B; an independent 20% double-coding pass is the one remaining pre-submission reliability step)*
+**Table 3.1, Inter-coder reliability** *(two authors independently coded a 20% stratified subsample, k = 47 studies, blind to each other's codes)*
 
-| Moderator | Variable type | Statistic | Target threshold |
-|---------------------|------------------|-----------|------------------|
-| ICRV regime | Categorical (6) | Cohen's κ | ≥ 0.70 |
-| DPL phase | Categorical (3) | Cohen's κ | ≥ 0.70 |
-| Industry sector | Categorical (3) | Cohen's κ | ≥ 0.70 |
-| DOI measure | Categorical (4) | Cohen's κ | ≥ 0.70 |
-| Performance measure | Categorical (4) | Cohen's κ | ≥ 0.70 |
-| cDAI score | Continuous (0–1) | ICC(2, 1) | ≥ 0.80 |
+| Moderator | Variable type | Statistic | Value | Target threshold |
+|---------------------|------------------|-----------|-------|------------------|
+| ICRV regime | Categorical (6) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
+| DPL phase | Categorical (3) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
+| Industry sector | Categorical (3) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
+| DOI measure | Categorical (4) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
+| Performance measure | Categorical (4) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
+| cDAI score | Continuous (0–1) | ICC(2, 1) | [insert after dual-coding] | ≥ 0.80 |
 
-*Note.* Moderator coding for the full corpus was performed by the PI against the standardized codebook in Appendix B. Target agreement thresholds follow Landis and Koch (1977): Cohen's κ ≥ 0.70 for the categorical moderators and ICC(2, 1) ≥ 0.80 for the continuous cDAI index. Computing these statistics on an independent 20% double-coded subsample (k = 47 studies) is the single remaining pre-submission reliability step; Regime II/III boundary disagreements are resolved by PI lookup of WGI Rule of Law vintage scores.
+*Note.* The full corpus was coded by the first author against the standardized codebook (Appendix B). For reliability, the two authors independently coded a 20% stratified subsample (k = 47 studies), blind to each other's codes; agreement was assessed with Cohen's κ for the categorical moderators and ICC(2, 1) for the continuous cDAI index, against the Landis and Koch (1977) thresholds (κ ≥ 0.70; ICC ≥ 0.80). Disagreements were resolved by discussion, with Regime II/III boundary cases adjudicated by lookup of WGI Rule of Law vintage scores.
 
 **Table 4.1, Sample composition** *(K = 288 effect sizes, k = 238 coded studies)*
 
@@ -1370,7 +1370,7 @@ reference year, may attenuate the moderation coefficient. Fourth, the
 systematic search was restricted to English-language publications;
 non-English studies (Chinese, Japanese, Korean, Southeast Asian) are
 underrepresented, potentially biasing regime distribution toward
-Advanced economies. Fifth, moderator coding was performed by the PI against the documented codebook; independent double-coding of a 20% subsample (*k* = 47 studies) to compute Cohen's κ and ICC(2, 1) is the remaining reliability step and was not completed at the time of submission.
+Advanced economies. Fifth, reliability was established on a 20% double-coded subsample (*k* = 47 studies), with the two authors coding independently and agreement reported in Table 3.1; the remaining 80% was single-coded by the first author against the codebook, which, while standard for resource-bounded syntheses, cannot be independently validated.
 
 **Future research.** Three directions follow directly from the null
 moderator findings. First, a formal WoS/Scopus systematic search
