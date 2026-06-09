@@ -3,7 +3,7 @@
 ## Authors
 
 **Đỗ Thùy Hương** (corresponding author)
-Viet Nam — Latvia University of Technology and Economics (VLUTE) / Can Tho University
+Vietnam–Latvia University of Technology and Economics (VLUTE) / Can Tho University
 Email: [author email]
 ORCID: [ORCID]
 
@@ -23,8 +23,8 @@ ORCID: [ORCID]
 | Methodology | ✓ | ✓ |
 | Data curation | ✓ | |
 | Formal analysis | ✓ | |
-| Writing — original draft | ✓ | |
-| Writing — review & editing | ✓ | ✓ |
+| Writing – original draft | ✓ | |
+| Writing – review & editing | ✓ | ✓ |
 | Supervision | | ✓ |
 | Funding acquisition | | ✓ |
 
@@ -32,13 +32,13 @@ ORCID: [ORCID]
 
 ## Acknowledgements
 
-The authors gratefully acknowledge the World Bank Enterprise Survey team for providing publicly available firm-level data. This research uses WBES waves 2009–2025 for nine Pacific Small Island Developing States economies.
+The authors gratefully acknowledge the World Bank Enterprise Survey team for providing publicly available firm-level data. This research uses WBES waves 2009–2025 for seven Pacific Small Island Developing States economies.
 
 ---
 
 ## Funding
 
-[Confirm funding source with authors — e.g., Vietnam Ministry of Education and Training research grant, or Can Tho University research fund]
+[Confirm funding source with authors – e.g., Vietnam Ministry of Education and Training research grant, or Can Tho University research fund]
 
 ---
 
