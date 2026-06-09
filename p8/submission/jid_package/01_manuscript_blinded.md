@@ -5,7 +5,7 @@ island developing states; forced internationalization; institutional voids; Paci
 
 ## Abstract
 
-The conventional inverted-U relationship between internationalization intensity and firm performance rests on three structural prerequisites: a viable domestic market, manageable trade costs, and functional institutional support. We argue that when all three are simultaneously absent, as in Pacific Small Island Developing States (SIDS), the expected non-linear pattern collapses into a monotone negative relationship that we term the **Forced Internationalization Penalty (FIP)**. Unlike the downward phase-1 slope in three-stage internationalization theory, FIP is not a transient learning cost with an eventual turning point; it is a persistent structural condition arising from the compulsion to export despite systemic disadvantages. Using World Bank Enterprise Survey data from 959 firms across seven Pacific SIDS economies (2009–2025), we find that internationalization intensity is robustly and negatively associated with labor productivity (β = −1.339, p \< .001 in the country-and-year fixed-effects specification; β = −3.351, p \< .001 without country fixed effects), with no significant quadratic curvature. Neither technological capability nor digital adoption moderates the negative export–performance slope in the SIDS environment, although technological capability does raise the overall productivity level, consistent with the FIP mechanism: when structural prerequisites are absent, firm-level capabilities cannot redirect the I-P relationship toward positive territory. The findings reframe the inverted-U paradigm as conditional rather than universal, identify boundary conditions for institutional moderation theory, and carry direct implications for the Antigua and Barbuda Agenda for SIDS.
+The conventional inverted-U relationship between internationalization intensity and firm performance rests on three structural prerequisites: a viable domestic market, manageable trade costs, and functional institutional support. We argue that when all three are simultaneously absent, as in Pacific Small Island Developing States (SIDS), the expected non-linear pattern collapses into a monotone negative relationship that we term the **Forced Internationalization Penalty (FIP)**. Unlike the downward phase-1 slope in three-stage internationalization theory, FIP is not a transient learning cost with an eventual turning point; it is a persistent structural condition arising from the compulsion to export despite systemic disadvantages. Using World Bank Enterprise Survey data from 959 firms across seven Pacific SIDS economies (2009–2025), we find that internationalization intensity is robustly and negatively associated with labor productivity (β = −1.339, p \< .001 in the country-and-year fixed-effects specification; β = −3.351, p \< .001 without country fixed effects; estimation N = 209 complete cases, from the full analysis sample of N = 959), with no significant quadratic curvature. Neither technological capability nor digital adoption moderates the negative export–performance slope in the SIDS environment, although technological capability does raise the overall productivity level, consistent with the FIP mechanism: when structural prerequisites are absent, firm-level capabilities cannot redirect the I-P relationship toward positive territory. The findings reframe the inverted-U paradigm as conditional rather than universal, identify boundary conditions for institutional moderation theory, and carry direct implications for the Antigua and Barbuda Agenda for SIDS.
 
 ## 1. Introduction
 
@@ -148,7 +148,7 @@ The analysis sample spans 959 firms across seven Pacific SIDS economies. Table 1
 
 Table 2 reports the main regression results. **M1**, the linear FSTS specification with country and year fixed effects, yields:
 
-β(FSTS_c) = **−1.339**, SE = 0.386, t = −3.47, p = **\<.001**
+β(FSTS_c) = **−1.339**, SE = 0.386, t = −3.47, p = **\<.001** (estimation N = 209 complete cases; full analysis sample N = 959)
 
 This coefficient is statistically significant at the conventional 5% level and substantively meaningful: a one-unit increase in FSTS is associated with markedly lower labor productivity (a large negative log-point shift; given the thin, low-FSTS support this should be read as directional rather than a precise point elasticity). This supports **Hypothesis 1**: internationalization intensity is negatively associated with performance in Pacific SIDS.
 
@@ -208,7 +208,7 @@ The exporter subsample with complete controls is very small (N = 26), so this sp
 **M3** introduces TCI_z and DAI_z as additional regressors to test H2.
 Technological capability is positively and significantly associated with productivity, whereas digital adoption is not:
 
-β(TCI_z) = +0.299, SE = 0.099, p = .003 (n.s.) β(DAI_z) = +0.094, SE =
+β(TCI_z) = +0.299, SE = 0.099, p = .003 β(DAI_z) = +0.094, SE =
 0.088, p = .285 (n.s.)
 
 The FIP coefficient (FSTS_c) remains negative and marginally significant in M3 (β = −2.979, p = .056), likely reflecting the substantially reduced sample (N = 205 for M3, versus N = 209 for M1, both reflecting attrition from the 959-firm analysis sample due to missing control and capability variables). The direction of the FSTS_c coefficient remains negative and numerically larger in M3, consistent with FIP; the significance loss is attributable to power reduction from the subsample restriction.
@@ -331,6 +331,8 @@ Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a 
 
 Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609.
 
+Mahler, D. G., Serajuddin, U., Wadhwa, D., & Yonzan, N. (2026, April). *The world is developing at its slowest pace in 75 years* (Policy Research Working Paper No. 11350). World Bank Group.
+
 Mahler, D., Wang, H., & Weber, M. (2026, May). Inequalities in use of and exposure to artificial intelligence. In *Atlas of Global Development 2026*. World Bank Data360. World Bank Group. <https://data360.worldbank.org/en/int/atlas/artificial-intelligence>
 
 Marano, V., Tallman, S., & Teece, D. J. (2016). The context of innovation and the innovation of context. *Journal of Leadership & Organizational Studies, 23*(4), 421–428.
@@ -372,8 +374,7 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 | Vanuatu |, |, |, |, |, |
 | **Total** | **959** | **132** | **13.8%** | **0.048** | 2009–2025 |
 
-*Note: Country-level breakdowns are available in the replication archive
-(*`p8/replication/`*). Total N reflects analysis sample (non-missing ln_LP and FSTS). Wave coverage varies by country.*
+*Note: Per-country breakdowns (N, exporter count, exporter %, mean FSTS, wave coverage) are not yet populated. The current replication outputs (*`p8/replication/reanalysis_7pacific/p8_R_summary.csv`*) report only pooled totals (N = 959; exporters = 132; 13.8%; mean FSTS = 0.048); a per-country descriptives file has not been generated. [AUTHOR ACTION REQUIRED: generate country-level summary statistics from the analysis sample and fill the seven rows below before submission.] Total N reflects analysis sample (non-missing ln_LP and FSTS). Wave coverage varies by country.*
 
 ### Table 2. Regression Results: Internationalization Intensity and Labor Productivity
 
