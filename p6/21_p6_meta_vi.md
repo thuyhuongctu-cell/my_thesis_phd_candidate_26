@@ -1,3 +1,5 @@
+> ⚠️ **TÀI LIỆU LỖI THỜI (working-manuscript).** Bản dịch này theo bản thảo làm việc cũ (khung "formal WoS/Scopus search pending"). Bản dịch tiếng Việt **chính thức để nộp** của P6 (đã reframe sang tìm kiếm citation-anchored, k=238/K=288, ICR hai tác giả) là **`p6/submission/p6_meta_vi.md`**. Giữ tệp này chỉ để tham khảo lịch sử.
+
 # P6, Quốc tế hóa và hiệu quả hoạt động doanh nghiệp: Phân tích tổng hợp hồi quy ba cấp 1977–2026
 
 > **NCS**: Đỗ Thùy Hương · **HD**: PGS.TS. Phan Anh Tú
