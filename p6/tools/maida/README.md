@@ -19,6 +19,8 @@ frontend (React 18, :3000)
 # 1. Configure environment
 cp backend/.env.example backend/.env
 # Edit backend/.env: ANTHROPIC_API_KEY, NOTION_TOKEN, NOTION_DATABASE_ID
+# Model: defaults to claude-fable-5; resolution chain
+#   ANTHROPIC_MODEL > ANTHROPIC_DEFAULT_FABLE_MODEL > claude-fable-5
 
 # 2. Start with Docker Compose
 docker compose up

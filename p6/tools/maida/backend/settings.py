@@ -24,14 +24,23 @@ class Settings(BaseSettings):
     )
 
     anthropic_api_key: str = ""
-    # Claude model used for extraction; override via ANTHROPIC_MODEL env var.
-    anthropic_model: str = "claude-sonnet-4-6"
+    # Model resolution chain (project-wide convention):
+    #   ANTHROPIC_MODEL (explicit override)
+    #   -> ANTHROPIC_DEFAULT_FABLE_MODEL (project default tier)
+    #   -> "claude-fable-5"
+    anthropic_model: str = ""
+    anthropic_default_fable_model: str = "claude-fable-5"
     notion_token: str = ""
     notion_database_id: str = ""
     maida_port: int = 8765
 
     # Allowed CORS origins (comma-separated in env; pydantic-settings handles list)
     cors_origins: list[str] = ["http://localhost:3000", "http://127.0.0.1:3000"]
+
+    @property
+    def resolved_model(self) -> str:
+        """Claude model for extraction, per the project resolution chain."""
+        return self.anthropic_model or self.anthropic_default_fable_model
 
 
 _settings: Settings | None = None

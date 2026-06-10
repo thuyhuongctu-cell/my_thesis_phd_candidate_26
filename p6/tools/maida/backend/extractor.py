@@ -107,7 +107,7 @@ class StatisticalExtractor:
         effect = await extractor.extract_from_text(pdf_text, metadata)
     """
 
-    DEFAULT_MODEL = "claude-sonnet-4-6"
+    DEFAULT_MODEL = "claude-fable-5"
 
     def __init__(self, api_key: str, model: str | None = None) -> None:
         self._client = anthropic.Anthropic(api_key=api_key)
@@ -204,7 +204,9 @@ class StatisticalExtractor:
             logger.error("Anthropic API call failed: %s", exc)
             raise
 
-        raw_text = message.content[0].text.strip()
+        raw_text = next(
+            (block.text for block in message.content if block.type == "text"), ""
+        ).strip()
 
         # Strip accidental markdown fences that models sometimes emit
         if raw_text.startswith("```"):

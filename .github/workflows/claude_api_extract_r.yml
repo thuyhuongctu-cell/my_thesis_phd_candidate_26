@@ -60,6 +60,10 @@ jobs:
       - name: Run Claude API extractor
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Model resolution: ANTHROPIC_MODEL > ANTHROPIC_DEFAULT_FABLE_MODEL > script default.
+          # Set repo Variables to control; empty values fall through the chain.
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          ANTHROPIC_DEFAULT_FABLE_MODEL: ${{ vars.ANTHROPIC_DEFAULT_FABLE_MODEL }}
         run: |
           DRY_RUN_FLAG=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then

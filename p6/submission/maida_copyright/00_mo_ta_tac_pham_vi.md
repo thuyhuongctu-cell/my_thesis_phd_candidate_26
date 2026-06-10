@@ -132,7 +132,7 @@ M-AIDA là phần mềm đầu tiên tại Việt Nam kết hợp:
 **Backend**:
 - Ngôn ngữ: Python 3.11+
 - Framework: FastAPI 0.115.0, Uvicorn 0.30.0
-- AI/LLM: Anthropic Claude SDK 0.31.0 (model: claude-sonnet-4-6)
+- AI/LLM: Anthropic Claude SDK 0.31.0 (model mặc định: claude-fable-5; cấu hình qua ANTHROPIC_MODEL / ANTHROPIC_DEFAULT_FABLE_MODEL)
 - PDF: PyMuPDF 1.24.5
 - Database sync: notion-client 2.2.1
 - Data processing: pandas 2.2.2, numpy 2.0.0, scipy 1.13.1

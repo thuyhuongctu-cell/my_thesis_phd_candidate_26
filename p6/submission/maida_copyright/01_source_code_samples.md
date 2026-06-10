@@ -334,7 +334,7 @@ class StatisticalExtractor:
         )
         try:
             message = self._client.messages.create(
-                model="claude-sonnet-4-6",
+                model=self._model,  # default claude-fable-5; env-configurable
                 max_tokens=1024,
                 system=_SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": user_content}],

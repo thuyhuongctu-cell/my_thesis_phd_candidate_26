@@ -1,6 +1,6 @@
 {
-  "model": "claude-opus-4-5",
-  "context_window": 200000,
+  "model": "claude-fable-5",
+  "context_window": 1000000,
   "permissions": {
     "allow_file_read": true,
     "allow_file_write": true,
@@ -10,5 +10,8 @@
   "rules_dir": ".claude/rules",
   "commands_dir": ".claude/commands",
   "skills_dir": ".claude/skills",
-  "agents_dir": ".claude/agents"
+  "agents_dir": ".claude/agents",
+  "env": {
+    "ANTHROPIC_DEFAULT_FABLE_MODEL": "claude-fable-5"
+  }
 }

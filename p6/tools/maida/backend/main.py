@@ -81,7 +81,7 @@ def _get_extractor() -> StatisticalExtractor:
             detail="ANTHROPIC_API_KEY not configured; extraction unavailable.",
         )
     return StatisticalExtractor(
-        api_key=settings.anthropic_api_key, model=settings.anthropic_model
+        api_key=settings.anthropic_api_key, model=settings.resolved_model
     )
 
 
