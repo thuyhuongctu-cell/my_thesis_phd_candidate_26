@@ -203,6 +203,8 @@ The monotone negative pattern persists without conditioning on firm characterist
 
 The exporter subsample with complete controls is very small (N = 26), so this specification is underpowered and the coefficient is not significant; the result is directionally consistent with FIP but cannot, on its own, rule out selection. The fixed-effects evidence (M1, M_yearFE) provides the stronger basis for the FIP inference.
 
+**Sample-restriction and exclusion robustness.** Two checks confirm that the FIP estimate is not an artefact of the complete-case sample or of the seven-economy definition. First, the N = 209 estimation sample for the fully controlled model arises almost entirely from missingness on the foreign-ownership control (non-missing for only 22 per cent of firms); re-estimating M1 with country and year fixed effects but without that control recovers the full analysis sample and preserves the result (β(FSTS_c) = −0.835, p = .010, N = 950; with no controls, β = −0.769, p = .015, N = 959). The retained and dropped subsamples have near-identical mean FSTS (0.046 versus 0.049), indicating the restriction is not selected on the focal variable. Second, the penalty is present beyond the Pacific definition: estimated on the full nine-economy small-island pool that additionally includes Comoros and Timor-Leste, it remains negative and significant (β(FSTS_c) = −0.510, p = .008, N = 1,469). The seven-economy restriction therefore strengthens, but does not create, the estimate.
+
 ### 4.5 Capability Null Results (H2)
 
 **M3** introduces TCI_z and DAI_z as additional regressors to test H2.
