@@ -28,7 +28,7 @@
 |---|---|---|---|
 | 1.1 | Mã hóa kép 20% (k=47) → κ/ICC | P6 | ⏳ **NCS/GVHD** (đường găng) |
 | 1.2 | Đăng ký OSF → DOI | P6 | ⏳ **NCS** |
-| 1.3 | Chạy lại Q_M cho 3 lệch off-by-one | P6 | ⏳ **NCS** |
+| 1.3 | Chạy lại Q_M cho 3 lệch off-by-one | P6 | ✅ **XONG** — đối chiếu `p6_study_database.csv`: là **lỗi gõ count** (Regime-III 90/78→91/79; cDAI-M 75→76; DPL-Span 107→108); tổng khớp 288/238. r̄ và Q_M vốn đã tính trên dữ liệu thật ⇒ **KHÔNG cần chạy lại Q_M**. Sửa cả 4 package |
 | 1.4 | Bảng 1 thống kê theo nước (7 SIDS) | P8 | ✅ **XONG** — tính từ `data_wbes/p7/p7_pooled_clean.csv` (tái tạo N=959 chính xác), điền 3 package + clean_en + VI |
 | 1.5 | Minh bạch estimation N=209 vs 959 | P8 | ✅ **XONG** — đã ghi rõ trong abstract + §4; sửa nhãn TCI; thêm ref Mahler |
 | 1.6 | p exporter-only + ref World Bank 2025b/c | P3 | ✅ **Không cần sửa** — .660 nhất quán; WB 2025b/c đã có trong reflist (review over-flag) |
