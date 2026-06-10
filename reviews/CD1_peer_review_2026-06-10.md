@@ -93,14 +93,16 @@ Hai tổng Emerging khác nhau ~5.500. Nếu 42.278 loại Mongolia/wave nào đ
 | # | Mức | Việc | Vị trí |
 |---|---|---|---|
 | 1 | 🟥 | **Thống nhất n_firms theo nhóm ICRV** — chọn 1 bảng chuẩn (khuyến nghị Bảng 2.3.2.1 + Bảng 2.3.3.1 analytic), **sửa/bỏ Bảng A.1** | Bảng 2.3.2.1 ↔ A.1 |
-| 2 | 🟥 | Sửa "41 nước châu Á" → **40** (5 nhóm chính = 40; 40+7=47) | §2.1.2, 2.1.3, 2.1.5 |
+| 2 | 🟥 | ~~Sửa "41 nước châu Á" → **40**~~ ✅ ĐÃ SỬA 2026-06-10 (5 chỗ; 5 nhóm chính=40) | §2.1.2, 2.1.3, 2.1.5, ghi chú Bảng 2.3.2.1 |
 | 3 | 🟥 | Thống nhất **SIDS = 1.371 pool / 1.097 analytic**; sửa A.1 (2.385); làm rõ "9/52 SIDS" | §2.1.4(6), A.1 |
 | 4 | 🟥 | Chọn 1 bộ số **schema generation** (14.335/25.046/61.804 **hoặc** 14.171/24.564/62.450) | §2.1.3 vs §2.2 |
 | 5 | 🟧 | Thống nhất **tổng Emerging** (47.803 vs 42.278) | §2.3.7.5 |
 | 6 | 🟧 | Sửa **citation**: Wu Fan&Chen↔Wu Li&Selover; thêm ref **Arte & Larimo (2022)**; khớp venue Đỗ&Phan (VEFR/JABS/JFAR/MIR) 1-1 với reference list | §2.3.1.3, 254, 441, refs |
 | 7 | 🟧 | Bỏ nhãn "HC1" khỏi bảng tương quan Pearson; bổ sung hệ số DAI hậu-loại-ICT | Bảng 2.3.8.1, §2.3.4.3 |
-| 8 | 🟨 | Thống nhất Singapore TP (82% → **88,6%**); đóng khung lại mọi claim nhân quả là "theo P3/P4" | §2.3.1.6, 2.4.2.1 |
+| 8 | 🟨 | ~~Thống nhất Singapore TP (82% → **88,6%**)~~ ✅ ĐÃ SỬA 2026-06-10 (2 chỗ); đóng khung lại claim nhân quả "theo P3/P4" (còn lại) | §2.3.1.6, 2.4.2.1 |
 
 **Ước lượng:** 1 vòng revision tập trung (số liệu + citation) là đủ → sau đó **sẵn sàng nộp/bảo vệ**. Nội dung không cần viết lại.
+
+> **Đã sửa cơ học 2026-06-10 (không mơ hồ):** C2 (41→40, 5 chỗ) + Singapore TP (82→88,6%, 2 chỗ) — đồng bộ `chuyen_de/` + `dist/chuyen_de_1/source_md/` + docx. **Còn chờ NCS quyết:** C1/C3/C5 (bảng n_firms nào chuẩn), citation (Wu Fan&Chen↔Li&Selover, Arte&Larimo, venue Đỗ&Phan), nhãn HC1, đóng khung claim nhân quả.
 
 **So với review cũ (~65%):** nội dung/cấu trúc đã tốt hơn nhiều (front matter, lý luận, 7 tiểu cảnh đầy đủ); điểm nghẽn còn lại **dồn vào nhất quán bảng số + citation** — sửa cơ học, không phải sửa tư duy.
