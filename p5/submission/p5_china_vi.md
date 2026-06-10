@@ -129,7 +129,7 @@ Mẫu phân tích được rút từ khung doanh nghiệp tư nhân WBES rộng 
 
 ### 3.3 Chiến lược ước lượng
 
-Tất cả mô hình được ước lượng bằng Bình phương nhỏ nhất thông thường (Ordinary Least Squares, OLS) với sai số chuẩn vững Eicker–Huber–White (HC1) (MacKinnon và White, 1985), gom cụm theo định danh doanh nghiệp (`idstd`) trong đặc tả gộp. Trong số 4.559 quan sát gộp, 217 doanh nghiệp xuất hiện ở cả đợt 2012 và 2024 (nhóm nòng cột panel, panel core), cho phép ước lượng biến thiên trong doanh nghiệp qua sai số chuẩn cụm vững theo định danh doanh nghiệp. Nhóm nòng cột panel này, dù khiêm tốn so với toàn bộ mẫu, cung cấp đòn bẩy nhận dạng bổ sung không có được trong các nghiên cứu đơn đợt. Đặc tả chính (M2) bao gồm FSTS, FSTS², lnEmp, firmage và foreigndummy.
+Tất cả mô hình được ước lượng bằng Bình phương nhỏ nhất thông thường (Ordinary Least Squares, OLS) với sai số chuẩn vững Eicker–Huber–White (HC1) (MacKinnon và White, 1985) trong đặc tả gộp. Hai đợt khảo sát WBES Trung Quốc là các mặt cắt ngang lặp lại độc lập, không phải một panel cấp doanh nghiệp được ghép nối: cơ chế ẩn danh của WBES không cho phép liên kết từng doanh nghiệp giữa hai đợt 2012 và 2024 (xem §5.4). Các so sánh xuyên đợt dựa trên kiểm định bằng nhau hệ số Paternoster thay vì biến thiên trong doanh nghiệp. Đặc tả chính (M2) bao gồm FSTS, FSTS², lnEmp, firmage và foreigndummy.
 
 Ước lượng điểm ngưỡng được tính bằng phương pháp delta: TP = −β₁ / (2β₂), với khoảng tin cậy 95% tính theo gradient phương pháp delta. Các tiêu chí Lind và Mehlum (2010), độ dốc dương có ý nghĩa ở biên trái (FSTS = 0) và độ dốc âm có ý nghĩa ở biên phải (FSTS = 1), được kiểm tra cho từng đợt.
 

@@ -289,7 +289,7 @@ Các kiểm định độ vững định trước sau đánh giá độ nhạy c
 |---|---|---|
 | Chế độ ICRV I, Advanced (vd: Hàn Quốc, Nhật Bản, Singapore, HK, Úc) | 140 | 108 |
 | Chế độ ICRV II, Upper-middle (vd: Trung Quốc, Malaysia, Thái Lan) | 25 | 21 |
-| Chế độ ICRV III, Emerging (vd: Việt Nam, Ấn Độ, Philippines) | 90 | 78 |
+| Chế độ ICRV III, Emerging (vd: Việt Nam, Ấn Độ, Philippines) | 91 | 79 |
 | ICRV Frontier / SIDS (FR) | 3 | 3 |
 | Cross-regime / đa quốc gia (MX) | 30 | 28 |
 | ***K* / *k* tổng** | **288** | **238** |
@@ -342,7 +342,7 @@ $$I_{ICBEF}^{2} = 87.92\%, \quad Q_{between} = 1, 247.3\ (df = 112, \ p < .001)$
 |---|---|---|---|---|
 | I, Advanced-Innovation (SG, HK, KR, JP, UK, US…) | 139 | 0,079 | [0,058, 0,099] | Nhóm lớn nhất; nhìn chung nhất quán với H1 |
 | II, Upper-middle | 25 | 0,065 | [0,020, 0,109] | ns so với Nhóm I (b = −0,014, *p* = 0,581) |
-| III, Emerging (VN, IN, CN, PH…) | 90 | 0,068 | [0,044, 0,092] | ns so với Nhóm I (b = −0,011, *p* = 0,502) |
+| III, Emerging (VN, IN, CN, PH…) | 91 | 0,068 | [0,044, 0,092] | ns so với Nhóm I (b = −0,011, *p* = 0,502) |
 | FR, Frontier | 3 | 0,349 | [0,217, 0,468] | ⚠️ chỉ *k* = 3; ước lượng không đáng tin (một điểm ngoại lai: Pouresmaeili et al., *r* = 0,69, *n* = 226) |
 | MX, Đa quốc gia / Hỗn hợp | 30 | 0,053 | [0,012, 0,094] | ns so với Nhóm I (b = −0,026, *p* = 0,269) |
 
@@ -365,7 +365,7 @@ Hồi quy phân tích tổng hợp với điểm cDAI liên tục: β_cDAI = +0,
 | Nhóm cDAI | *k* | *r̄* | 95% CI | Δ so với Thấp |
 |---|---|---|---|---|
 | Thấp | 174 | 0,075 | [0,056, 0,094] | |
-| Trung bình | 75 | 0,063 | [0,036, 0,090] | b = −0,012, *p* = 0,489 |
+| Trung bình | 76 | 0,063 | [0,036, 0,090] | b = −0,012, *p* = 0,489 |
 | Cao | 38 | 0,091 | [0,052, 0,129] | b = +0,016, *p* = 0,469 |
 
 Cả ba trung bình phân nhóm cDAI đều dương có ý nghĩa (*p* < 0,001) nhưng không khác biệt có ý nghĩa với nhau. Thứ tự không đơn điệu (Thấp > Trung bình < Cao) và các tương phản nhỏ, không có ý nghĩa không hỗ trợ gradient tuyến tính dương dự đoán. Tương tác cDAI × DPL không thể ước lượng đáng tin cậy trong mẫu hiện tại do điều tiết chính không có ý nghĩa. H3 không được hỗ trợ: áp dụng số cấp quốc gia (cDAI, đo qua Chỉ số DAI của Ngân hàng Thế giới / Chỉ số Phát triển Số ITU) không khuếch đại có ý nghĩa hiệu ứng I→P tổng hợp trong mẫu *k* = 238 này. Cần một mẫu lớn hơn với độ phân giải tốt hơn qua phổ cDAI để kiểm định giả thuyết gradient CDCM.
@@ -379,7 +379,7 @@ Cả ba trung bình phân nhóm cDAI đều dương có ý nghĩa (*p* < 0,001) 
 | Giai đoạn DPL | Định nghĩa | *k* | *r̄* | 95% CI | Δ so với PRE |
 |---|---|---|---|---|---|
 | Precede (PRE) | Dữ liệu mẫu chủ yếu trước 2009 | 100 | 0,082 | [0,057, 0,107] | |
-| Span (SPN) | Mẫu bắc qua điểm uốn 2009 | 107 | 0,068 | [0,045, 0,091] | b = −0,014, *p* = 0,434 |
+| Span (SPN) | Mẫu bắc qua điểm uốn 2009 | 108 | 0,068 | [0,045, 0,091] | b = −0,014, *p* = 0,434 |
 | Follow (FOL) | Dữ liệu mẫu chủ yếu sau 2014 | 80 | 0,073 | [0,046, 0,100] | b = −0,009, *p* = 0,645 |
 
 So sánh theo cặp: PRE so với FOL (*z* = 0,46, *p* = 0,645); PRE so với SPN (*z* = 0,78, *p* = 0,434); FOL so với SPN (*z* = 0,28, *p* = 0,782). Không khác biệt theo cặp nào tiến gần ý nghĩa.

@@ -203,7 +203,7 @@ Kiểm định z Paternoster (1998) cho sự bằng nhau của hệ số giữa 
 
 ### 4.4 Kiểm định vững gộp ba đợt
 
-Mô hình gộp ba đợt với biến giả đợt (N = 28.742, R²_hiệu chỉnh = 0,197) cho kết quả sau. Hệ số Wave_2022 là +0,46 (p < 0,0001), cho thấy mức năng suất tăng. Hệ số Wave_2025 là +1,12 (p < 0,0001), cho thấy mức tăng tăng tốc. Tương tác FSTS × wave_2022 là +0,45 (p = 0,15), không cho thấy dịch chuyển vững chắc so với cơ sở 2014. Tương tác FSTS × wave_2025 là −1,63 (p < 0,0001), xác nhận sự sụp đổ độ dốc năm 2025. Tương tác FSTS² × wave_2022 là −1,09 (p = 0,001), xác nhận sự di chuyển điểm ngưỡng năm 2022 qua việc dốc hóa độ cong. Tương tác FSTS² × wave_2025 là +0,86 (p = 0,007), xác nhận sự làm phẳng độ cong năm 2025. Đặc tả xu hướng tuyến tính cho FSTS × trend = −0,10 (p < 0,001), xác nhận sự dịch chuyển cấu trúc tiệm tiến.
+Mô hình gộp ba đợt với biến giả đợt (N = 28.717, R²_hiệu chỉnh = 0,197) cho kết quả sau. Hệ số Wave_2022 là +0,46 (p < 0,0001), cho thấy mức năng suất tăng. Hệ số Wave_2025 là +1,12 (p < 0,0001), cho thấy mức tăng tăng tốc. Tương tác FSTS × wave_2022 là +0,45 (p = 0,15), không cho thấy dịch chuyển vững chắc so với cơ sở 2014. Tương tác FSTS × wave_2025 là −1,63 (p < 0,0001), xác nhận sự sụp đổ độ dốc năm 2025. Tương tác FSTS² × wave_2022 là −1,09 (p = 0,001), xác nhận sự di chuyển điểm ngưỡng năm 2022 qua việc dốc hóa độ cong. Tương tác FSTS² × wave_2025 là +0,86 (p = 0,007), xác nhận sự làm phẳng độ cong năm 2025. Đặc tả xu hướng tuyến tính cho FSTS × trend = −0,10 (p < 0,001), xác nhận sự dịch chuyển cấu trúc tiệm tiến.
 
 ### 4.5 Các biến điều tiết năng lực (H3, H4a, H4b)
 
