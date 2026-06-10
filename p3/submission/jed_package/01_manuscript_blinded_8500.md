@@ -55,7 +55,7 @@ Because the WBES Vietnam instrument cannot identify Tier 2–4 digital capabilit
 
 **H4 (exploratory probe, not a primary hypothesis).** The productivity relevance of baseline website-presence (DAI_z, Tier 1 only) may vary across phases of internationalisation and institutional transition, so any moderation of the export-intensity curve by baseline digital presence is expected to be wave-specific rather than uniformly present, with the strongest within-sample detectability anticipated in 2023. A null or sign-shifting result should be read as construct-tier obsolescence rather than as evidence against dynamic digital capability moderation.
 
-![Figure 1: Conceptual model](figures/vietnam/figure_1_conceptual_model.png)
+![Figure 1: Conceptual model](figures/figure_1_conceptual_model.png)
 
 *Figure 1.* Conceptual model: TCI, DAI, and export intensity as determinants of firm performance (Vietnam, three waves). Solid arrows denote hypothesised direct and curvilinear effects; dashed arrows denote moderating effects. Internationalisation intensity (FSTS_c, FSTS_c²) is the independent variable and ln(labour productivity) the dependent variable. H1 (inverted-U: β₁ > 0, β₂ < 0) is grounded in the Uppsala model (Johanson and Vahlne, 1977, 2009) and coordination-cost theory (Hitt *et al.*, 1997). H2 specifies technological capability (TCI_z; Resource-Based View, Barney, 1991) as a level-shifting direct effect and secondary moderator. H4 treats website-based adoption (DAI_z, Tier-1 only) as an exploratory probe of the Digital Capability Lens (Banalieva and Dhanaraj, 2019). Controls (ln firm size, firm age, foreign ownership, sector and wave fixed effects) enter additively. Data: WBES 2009, 2015, 2023; N = 2,958 (pooled), n_wave = 989/956/1,013.
 
@@ -96,7 +96,7 @@ The pooled estimates are consistent with a nonlinear I–P relationship on avera
 
 Both capability dimensions are positively associated with performance on average. In the pooled M7, TCI_z is positive (β = 0.179, p < .001) and DAI_z positive (β = 0.078, p = .004). In M8, TCI_z is essentially unchanged (β = 0.184, p < .001) while the DAI_z direct coefficient becomes indistinguishable from zero (β = 0.032, p = .537) once interactions enter, consistent with DAI_z combining a positive level effect with a negative interaction with FSTS_c at higher intensities, precisely the 2023 pattern. The pooled DAI interactions carry only a marginal joint signal (FSTS_c × DAI_z = -0.448, p = .116; FSTS_c² × DAI_z = 0.460, p = .276; M8 joint p = .083), driven primarily by the 2023 wave. Technological-capability moderation is more uniformly distributed: the M3 joint test is distinguishable from zero in three of four panels (2009 p = .040, 2023 p = .027, pooled p = .003) and null only in 2015 (p = .713); pooled, the linear interaction is negative (FSTS_c × TCI_z = -0.587, p = .003) and the quadratic positive (FSTS_c² × TCI_z = 0.640, p = .031), indicating that the inverted-U flattens for high-capability firms rather than shifting in level (Cohen and Levinthal, 1990; Lall, 1992).
 
-![Figure 2: Predicted ln(labour productivity) versus FSTS, by wave and pooled](figures/vietnam/figure_2d.png)
+![Figure 2: Predicted ln(labour productivity) versus FSTS, by wave and pooled](figures/figure_2d.png)
 
 *Figure 2.* Predicted ln(labour productivity) as a function of FSTS (M2). Turning points: ≈ 46% (2009), ≈ 39% (2015), ≈ 42% (2023), ≈ 40% (pooled); Lind–Mehlum p = .006 / .009 / .013 / <.001. Wave-specific panels (Figures 2a–2d) are provided in the Supplementary Material.
 

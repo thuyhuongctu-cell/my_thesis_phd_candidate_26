@@ -334,7 +334,7 @@ Baseline website-presence
 
 Controls: lnEmp, FirmAge, ForeignOwned, sector FE [+ wave FE]
 
-![Figure 1: Conceptual model, TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/vietnam/figure_1_conceptual_model.png)
+![Figure 1: Conceptual model, TCI, DAI, and export intensity as determinants of firm performance (Vietnam, 3-wave)](figures/figure_1_conceptual_model.png)
 
 *Figure 1.* Conceptual model for Paper 3 (Vietnam).
 
@@ -599,19 +599,19 @@ The positive pooled average coexists with
 substantial temporal heterogeneity, and the conditional role of digital adoption emerges more
 clearly only in the later wave.
 
-![Figure 2a: Wave 2009, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2a.png)
+![Figure 2a: Wave 2009, predicted ln(labour productivity) vs FSTS](figures/figure_2a.png)
 
 *Figure 2a.* Predicted ln(labour productivity) as a function of FSTS for the 2009 wave (M2). Shaded band = 95% CI. Turning point ≈ 46% FSTS (Lind-Mehlum p = .006).
 
-![Figure 2b: Wave 2015, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2b.png)
+![Figure 2b: Wave 2015, predicted ln(labour productivity) vs FSTS](figures/figure_2b.png)
 
 *Figure 2b.* Predicted ln(labour productivity) as a function of FSTS for the 2015 wave (M2). Turning point ≈ 39% FSTS (Lind-Mehlum p = .009).
 
-![Figure 2c: Wave 2023, predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2c.png)
+![Figure 2c: Wave 2023, predicted ln(labour productivity) vs FSTS](figures/figure_2c.png)
 
 *Figure 2c.* Predicted ln(labour productivity) as a function of FSTS for the 2023 wave (M2). Turning point ≈ 42% FSTS (Lind-Mehlum p = .013).
 
-![Figure 2d: Pooled (2009+2015+2023), predicted ln(labour productivity) vs FSTS](figures/vietnam/figure_2d.png)
+![Figure 2d: Pooled (2009+2015+2023), predicted ln(labour productivity) vs FSTS](figures/figure_2d.png)
 
 *Figure 2d.* Predicted ln(labour productivity) as a function of FSTS for the pooled sample (M2). Turning point ≈ 40% FSTS (Lind-Mehlum p < .001).
 
@@ -642,7 +642,7 @@ treated as exploratory.
 
 Following Haans, Pieters, and He (2016), we distinguish two types of moderation for curvilinear I–P relationships. Type I moderation flattens or steepens one slope of the inverted-U (i.e., the linear FSTS × DAI interaction is significant while FSTS² × DAI is not): the moderator shifts the position of the turning point but preserves the inverted-U shape. Type II moderation flips the shape of the curve (i.e., FSTS² × DAI is significant): high versus low moderator values produce qualitatively different functional forms. The 2023 DAI evidence fits Type I: the significant linear interaction FSTS_c × DAI_z = −0.912 (p = .043) indicates that digital adoption attenuates the positive slope at low export intensity, pulling the turning point inward, while the FSTS² × DAI interaction remains insignificant, confirming that the inverted-U shape is preserved. Type II moderation, digital capability reversing the curvature for high-adopter firms, is not supported in the Vietnam sample.
 
-![Figure 3: Moderator marginal effects, TCI and DAI interactions with FSTS (Vietnam)](figures/vietnam/figure_3_moderator_marginals.png)
+![Figure 3: Moderator marginal effects, TCI and DAI interactions with FSTS (Vietnam)](figures/figure_3_moderator_marginals.png)
 
 *Figure 3.* Marginal effects of TCI_z and DAI_z on ln(labour productivity) across FSTS levels (M7/M8). TCI shows a stable positive level-shift across waves; DAI moderation is wave-specific, with the 2023 interaction showing attenuation at high FSTS (Type I moderation: slope-flattening, shape preserved).
 
