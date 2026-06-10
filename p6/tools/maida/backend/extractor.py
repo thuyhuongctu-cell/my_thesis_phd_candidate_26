@@ -56,16 +56,27 @@ Extract ONLY the following statistics:
 - p  : reported p-value (exact or inequality, e.g. p < 0.05)
 - CI : 95 % confidence interval for r if reported
 
-Also classify the study on these moderators when determinable from the text:
-- doi_measure    : one of FSTS | entropy | n_markets | TNI
-- performance_measure : one of ROA | ROE | ROS | TobinsQ | composite | other
-- icrv_regime    : one of I | II | III | SIDS | V | pooled
-- dpl_phase      : one of Precede | Span | Follow
-- cdai_score     : float 0–1, country Digital Adoption Index (World Bank DAI / ITU DDI) if reported
+Also classify the study on these two text-determinable dimensions, and report
+the data window:
+- doi_measure : how internationalisation is measured —
+    FSTS (foreign sales/total sales) | GEO (geographic scope/country count) |
+    EXP (export intensity or exporter dummy) | FDI (outward-FDI-based) |
+    COMP (composite/entropy index, e.g. TNI) | OTH (other)
+- performance_measure : how firm performance is measured —
+    ACC (accounting: ROA/ROE/ROS) | MKT (market: Tobin's Q, stock returns) |
+    LAB (labour productivity) | MIX (composite/mixed)
+- sample_start, sample_end : first and last calendar year of the sample data
+
+Do NOT attempt to code ICRV regime, DPL phase, or cDAI: those moderators are
+assigned by the Principal Investigator from external lookup tables (World Bank
+WGI Rule of Law; World Bank DAI / ITU DDI; median data year), not from the
+paper's text.
 
 Return a single JSON object — no markdown, no prose — with exactly these keys:
 {
   "sample_n": <int|null>,
+  "sample_start": <int|null>,
+  "sample_end": <int|null>,
   "effect_r": <float|null>,
   "effect_t": <float|null>,
   "effect_beta": <float|null>,
@@ -73,11 +84,8 @@ Return a single JSON object — no markdown, no prose — with exactly these key
   "p_value": <float|null>,
   "ci_lower": <float|null>,
   "ci_upper": <float|null>,
-  "doi_measure": <"FSTS"|"entropy"|"n_markets"|"TNI"|null>,
-  "performance_measure": <"ROA"|"ROE"|"ROS"|"TobinsQ"|"composite"|"other"|null>,
-  "icrv_regime": <"I"|"II"|"III"|"SIDS"|"V"|"pooled"|null>,
-  "dpl_phase": <"Precede"|"Span"|"Follow"|null>,
-  "cdai_score": <float|null>
+  "doi_measure": <"FSTS"|"GEO"|"EXP"|"FDI"|"COMP"|"OTH"|null>,
+  "performance_measure": <"ACC"|"MKT"|"LAB"|"MIX"|null>
 }
 
 Rules:
@@ -99,8 +107,11 @@ class StatisticalExtractor:
         effect = await extractor.extract_from_text(pdf_text, metadata)
     """
 
-    def __init__(self, api_key: str) -> None:
+    DEFAULT_MODEL = "claude-sonnet-4-6"
+
+    def __init__(self, api_key: str, model: str | None = None) -> None:
         self._client = anthropic.Anthropic(api_key=api_key)
+        self._model = model or self.DEFAULT_MODEL
 
     # ------------------------------------------------------------------
     # Public interface
@@ -130,7 +141,7 @@ class StatisticalExtractor:
     def compute_r_from_t(t: float, df: int) -> float:
         """Convert a t-statistic to Pearson's r.
 
-        Formula (Peterson & Brown, 2005):
+        Formula (Cohen, 1988):
             r = sqrt( t² / (t² + df) )
 
         The sign of t is preserved in the returned r.
@@ -142,7 +153,7 @@ class StatisticalExtractor:
         Returns:
             Pearson's r in the range [-1, 1].
         """
-        # Peterson & Brown (2005): r = sqrt(t² / (t² + df))
+        # Cohen (1988): r = sqrt(t² / (t² + df))
         t_sq = t * t
         r_unsigned = math.sqrt(t_sq / (t_sq + df))
         return r_unsigned if t >= 0 else -r_unsigned
@@ -151,12 +162,15 @@ class StatisticalExtractor:
     def convert_beta_to_r(beta: float) -> float:
         """Approximate Pearson's r from a standardised regression coefficient.
 
-        Approximation (Peterson & Brown, 2005):
+        Peterson & Brown (2005) estimate r = 0.98*beta + 0.05*lambda, where
+        lambda = 1 if beta is non-negative and 0 otherwise.  This tool applies
+        the simplified form used throughout the P6 extraction protocol:
+
             r ≈ β × 0.98
 
-        This linear correction adjusts for the attenuation typically observed
-        when converting unstandardised path coefficients.  The approximation
-        performs best when |β| < 0.5.
+        which coincides exactly with Peterson & Brown for negative beta and is
+        conservative (attenuates |r| by 0.05) for positive beta.  The
+        approximation performs best when |β| < 0.5.
 
         Args:
             beta: Standardised regression coefficient (signed).
@@ -181,7 +195,7 @@ class StatisticalExtractor:
 
         try:
             message = self._client.messages.create(
-                model="claude-sonnet-4-6",
+                model=self._model,
                 max_tokens=1024,
                 system=_SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": user_content}],
@@ -221,7 +235,7 @@ class StatisticalExtractor:
             computed_r = effect_r
             confidence = CONFIDENCE_DIRECT_R
         elif effect_t is not None and effect_df is not None:
-            # Convert from t-statistic (Peterson & Brown, 2005)
+            # Convert from t-statistic (Cohen, 1988)
             computed_r = self.compute_r_from_t(effect_t, effect_df)
             confidence = CONFIDENCE_FROM_T
         elif effect_beta is not None:
@@ -235,31 +249,28 @@ class StatisticalExtractor:
 
         requires_verification = confidence < CONFIDENCE_REVIEW_THRESHOLD
 
-        # Parse moderator fields with safe casting
+        # Parse the two text-determinable moderators with safe casting
         doi_measure: DoiMeasure | None = _safe_literal(
-            raw.get("doi_measure"), ("FSTS", "entropy", "n_markets", "TNI")
+            raw.get("doi_measure"), ("FSTS", "GEO", "EXP", "FDI", "COMP", "OTH")
         )
         performance_measure: PerformanceMeasure | None = _safe_literal(
-            raw.get("performance_measure"),
-            ("ROA", "ROE", "ROS", "TobinsQ", "composite", "other"),
+            raw.get("performance_measure"), ("ACC", "MKT", "LAB", "MIX")
         )
-        icrv_regime: IcrvRegime | None = _safe_literal(
-            raw.get("icrv_regime"), ("I", "II", "III", "SIDS", "V", "pooled")
-        )
-        dpl_phase: DplPhase | None = _safe_literal(
-            raw.get("dpl_phase"), ("Precede", "Span", "Follow")
-        )
-
-        cdai_raw = raw.get("cdai_score")
-        cdai_score: float | None = (
-            float(cdai_raw) if cdai_raw is not None else None
-        )
+        # ICRV regime, DPL phase, and cDAI are PI-assigned from external lookup
+        # tables during verification; the LLM never codes them.
+        icrv_regime: IcrvRegime | None = None
+        dpl_phase: DplPhase | None = None
+        cdai_score: float | None = None
 
         p_raw = raw.get("p_value")
         p_value: float | None = float(p_raw) if p_raw is not None else None
 
         sample_n_raw = raw.get("sample_n")
         sample_n: int | None = int(sample_n_raw) if sample_n_raw is not None else None
+        start_raw = raw.get("sample_start")
+        sample_start: int | None = int(start_raw) if start_raw is not None else None
+        end_raw = raw.get("sample_end")
+        sample_end: int | None = int(end_raw) if end_raw is not None else None
 
         ci_lower_raw = raw.get("ci_lower")
         ci_upper_raw = raw.get("ci_upper")
@@ -271,6 +282,8 @@ class StatisticalExtractor:
             year=int(metadata.get("year", 0)),
             country=metadata.get("country", ""),
             sample_n=sample_n,
+            sample_start=sample_start,
+            sample_end=sample_end,
             effect_r=computed_r,
             effect_t=effect_t,
             effect_beta=effect_beta,

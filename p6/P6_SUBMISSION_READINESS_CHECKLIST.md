@@ -34,7 +34,7 @@ Table 3.1 (all 4 packages) is framed as **two authors independently coding** a 2
 - [ ] **Author to confirm scope wording.** The repo shows M-AIDA was built for P6 and an auto-extraction log exists, but the final database is consistent with PI manual coding (codebook = manual; human-style notes; tool's `cdai` label differs from the manuscript). Choose the accurate variant:
       (a) *current wording* — "used to assist extraction, all PI-verified" (if the tool's proposals were used at all); or
       (b) downgrade to — "developed and trialed; the final database was coded and verified by the PI" (if the tool's output did **not** enter the final dataset).
-- [ ] Align M-AIDA's `cdai_score` label (currently "Cultural Distance Asymmetry Index") to "country Digital Adoption Index" before publishing the code, so the tool matches the manuscript construct.
+- [x] ~~Align M-AIDA's `cdai_score` label~~ ✅ DONE 2026-06-10 (schema alignment v7.0.1): cDAI relabelled to country Digital Adoption Index (0–1); ICRV enum corrected to institutional I/II/III/FR/MX; DOI/performance enums aligned to the analysis database; ICRV/DPL/cDAI moved to PI-assigned (LLM no longer codes them); model ID configurable via ANTHROPIC_MODEL.
 
 ## 5. Honest reframing of the contribution (reviewer-facing)  ⏳
 Per the audit (B2): publication bias halves the pooled effect (r 0.074 → 0.035), and two of three novel moderators are null (the ICRV result is driven by a k = 3 Frontier cell). Before submission:

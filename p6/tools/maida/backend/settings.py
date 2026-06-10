@@ -24,6 +24,8 @@ class Settings(BaseSettings):
     )
 
     anthropic_api_key: str = ""
+    # Claude model used for extraction; override via ANTHROPIC_MODEL env var.
+    anthropic_model: str = "claude-sonnet-4-6"
     notion_token: str = ""
     notion_database_id: str = ""
     maida_port: int = 8765

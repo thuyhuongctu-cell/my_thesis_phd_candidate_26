@@ -678,7 +678,9 @@ reported directly, the following conversion sequence was applied in
 order of statistical precision: (i) *r* from *t*-statistic:
 $r = \sqrt{t^{2}/\left( t^{2} + df \right)}$ (Cohen, 1988); (ii)
 *r*\_partial from standardized regression β: *r*\_partial = β × 0.98
-(Peterson & Brown, 2005); (iii) *r* from *F*-statistic with *df*₁ = 1:
+(the simplified form of Peterson & Brown's (2005) estimator
+0.98β + 0.05λ; identical for negative β and conservative for positive
+β); (iii) *r* from *F*-statistic with *df*₁ = 1:
 $r = \sqrt{F/\left( F + df_{2} \right)}$ (Rosenthal, 1994). Studies
 reporting only unstandardized β without an associated *t*-statistic and
 *df* were excluded from the meta-analytic sample unless the *p*-value

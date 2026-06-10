@@ -80,7 +80,9 @@ def _get_extractor() -> StatisticalExtractor:
             status_code=503,
             detail="ANTHROPIC_API_KEY not configured; extraction unavailable.",
         )
-    return StatisticalExtractor(api_key=settings.anthropic_api_key)
+    return StatisticalExtractor(
+        api_key=settings.anthropic_api_key, model=settings.anthropic_model
+    )
 
 
 def _get_notion() -> NotionSync:
@@ -245,6 +247,8 @@ def export_csv() -> StreamingResponse:
         "year",
         "country",
         "sample_n",
+        "sample_start",
+        "sample_end",
         "effect_r",
         "effect_t",
         "effect_beta",

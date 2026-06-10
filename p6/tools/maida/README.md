@@ -44,7 +44,7 @@ open http://localhost:3000
 ## Extraction Workflow
 
 1. **Parse** — PDF text extracted via MuPDF, segmented into statistical regions
-2. **Identify** — LLM locates the focal I→P coefficient (not interactions/controls)
+2. **Identify** — LLM locates the focal I→P coefficient (not interactions/controls); moderators ICRV/DPL/cDAI are left blank for PI assignment from lookup tables
 3. **Convert** — Hierarchy: direct *r* → *r* from *t* → *r*_partial from β (Peterson & Brown, 2005)
 4. **Verify** — PI reviews each field; confidence < 0.70 is mandatory review
 5. **Lock** — PI data lock is cryptographically timestamped and irreversible
@@ -73,7 +73,8 @@ with MOST Circular guidance (Điều 16) and Emerald/Elsevier AI policies.
 **Security:** copy `backend/.env.example` to `backend/.env` and supply your own keys; never commit a
 real `.env` (it is git-ignored).
 
-> Maintenance note: the `cdai_score` field in `backend/extractor.py` is labelled "Cultural Distance
-> Asymmetry Index" — a legacy label from an earlier design. Paper 6 operationalises **cDAI =
-> country Digital Adoption Index** (World Bank DAI / ITU DDI). Align this label before public release
-> so the tool matches the manuscript construct.
+> Schema note (v7.0.1, 2026-06-10): the tool schema is aligned with the canonical P6 analysis
+> database — ICRV = Institutional Context Regime Variation (I/II/III/FR/MX, WGI Rule of Law);
+> cDAI = country Digital Adoption Index (0–1). ICRV, DPL, and cDAI are **PI-assigned from external
+> lookup tables during verification**; the LLM extracts only statistics, the data-year window, and
+> the two text-determinable classifications (DOI measure, performance measure).

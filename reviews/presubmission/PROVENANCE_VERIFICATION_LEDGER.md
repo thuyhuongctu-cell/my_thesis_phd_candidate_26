@@ -35,6 +35,7 @@
 | Caveat P9: FSTS mean 7.2%→2.7%; DN FSTS>50% 536→141 | P9 §6 | `p9_india/replication/data/india_*_analytic.csv` | ✅ Tính từ data replication |
 | P6 subgroup counts **91/79, 76, 108** (sửa lỗi gõ) | P6 (4 pkg) | `p6/data/p6_study_database.csv` (ground truth) | ✅ Đếm trực tiếp; tổng khớp 288/238 |
 | P3 tỷ lệ website 0.43/0.48/0.50 (cơ sở sửa "near-universal") | P3 (chỉ dùng lập luận) | `data_wbes/...` Vietnam | ✅ Tính từ data |
+| **M-AIDA schema alignment v7.0.1 (2026-06-10)** — đồng bộ tool ↔ database ↔ manuscript: ICRV sửa từ enum intensity sai (I/II/III/SIDS/V/pooled) → institutional đúng (I/II/III/FR/MX, WGI); cDAI từ "Cultural Distance 0–10" → "Digital Adoption Index 0–1"; DOI/FP enums căn theo DB (FSTS/GEO/EXP/FDI/COMP/OTH; ACC/MKT/LAB/MIX); ICRV/DPL/cDAI chuyển sang **PI-assigned** (LLM không đoán moderator — khớp mô tả §3.3 manuscript); t→r attribution sửa về Cohen (1988); β→r ghi chú rõ là dạng rút gọn của P&B 0.98β+0.05λ (4 manuscript + copyright docs). **Không đổi giá trị dữ liệu nào** — DB phân tích giữ nguyên; chỉ schema/tài liệu. | P6 (tool + 4 pkg + copyright) | đối chiếu `p6_study_database.csv` + OSF §7 | ✅ DB là chuẩn; tool đã khớp DB |
 
 ## D. ✅ NHỮNG CHỖ TÔI **TỪ CHỐI BỊA** (minh bạch — đã flag cho NCS, KHÔNG tự điền)
 
