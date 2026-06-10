@@ -93,3 +93,18 @@ Các mục **cấu trúc/membership** không phụ thuộc winsorize/biến:
 → **Raw WBES đủ 49 nước + đúng pipeline mô tả CĐ1 không có trên bất kỳ nhánh nào.** Bước 2 (re-lock số mô tả) **không thể thực thi** trong môi trường hiện tại mà không bịa.
 
 **Cần NCS:** upload trực tiếp **raw WBES đủ 49 nền** (hoặc file pool 101.185 gốc CĐ1 với đủ biến website/R&D/ISO/đổi mới/FDI + LP đã winsorize) → khi đó máy chạy re-lock đầy đủ + đồng bộ docx.
+
+---
+
+## G. KẾT LUẬN DỨT KHOÁT (2026-06-10) — raw .dta có biến đúng nhưng THIẾU 43/52 nền
+
+Đã đọc trực tiếp raw `.dta` + gộp cả 3 nhánh (main/edit/vietnamese):
+- ✅ **Raw `.dta` CHỨA đủ biến CĐ1 cần**: `h8`(R&D), `b8`(ISO), `h1`(đổi mới SP), `h5`(quy trình), `c22b`(website), `e6`(công nghệ NN), `d3c`(FSTS), `d2/l1`(LP), `b2b`(FDI). → Pipeline tái lập được NẾU có đủ raw.
+- ❌ **Chỉ commit 9/52 nền**: Azerbaijan, Cambodia, Comoros, Cyprus, India, Korea, Laos, Taiwan, Turkey.
+
+**THIẾU 43 nền raw `.dta`** (build script đã đọc cục bộ lúc dựng pool nhưng KHÔNG commit):
+Afghanistan, Armenia, Bahrain, Bangladesh, Bhutan, Brunei, China, Fiji, Georgia, HongKong, Indonesia, Iraq, Israel, Jordan, Kazakhstan, Kiribati, Kuwait, KyrgyzRepublic, Lebanon, Malaysia, Maldives, Mongolia, Myanmar, Nepal, Oman, Pakistan, PapuaNewGuinea, Philippines, Qatar, Samoa, SaudiArabia, **Singapore**, SolomonIslands, SriLanka, Tajikistan, Thailand, TimorLeste, Tonga, Turkmenistan, Uzbekistan, Vanuatu, **Vietnam**, Yemen.
+
+→ **Để re-lock CĐ1 đầy đủ:** commit/upload 43 raw `.dta` này vào `data_wbes/raw_dta/`. Khi đó tôi: mở rộng build script giữ R&D/ISO/đổi mới → dựng pool rich 49 nước → re-lock toàn bộ CĐ1+CĐ2+thesis một pass nhất quán → regenerate docx → chạy MASTER kiểm tra.
+
+**Trong khi chờ:** phần re-lock cấu trúc/membership cho CĐ2 + thesis (không cần R&D/innovation) làm được ngay từ master .dta hiện có.
