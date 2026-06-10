@@ -58,7 +58,7 @@
 | P3 | MBR | ✅ | đã sạch |
 | P4 | MIR | ✅ *(vừa bổ sung title/cover)* | đã sạch |
 | P5 | IJOEM | ✅ | đã sạch |
-| P6 | JWB | ✅ | **lớn (κ/ICC + OSF + Q_M)** |
+| P6 | JWB | ⏳ | **đường găng: κ/ICC (toolkit `p6/icr/`) + OSF DOI + 3 lệch Bảng 3.1** |
 | P7 | JIBS | ✅ | không đáng kể |
 | P8 | World Development | ✅ | đã sạch |
 | P9 | MIR | ✅ | đã sạch |
