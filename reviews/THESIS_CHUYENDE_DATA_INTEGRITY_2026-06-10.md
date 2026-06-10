@@ -50,9 +50,13 @@ Nhãn bảng Ch2 đã đổi: *"P8 — Pacific SIDS (mẫu chính 7 nước, N=9
 
 ## C. 📋 2 CHUYÊN ĐỀ
 
-### CĐ1 — "Thực trạng HĐKD doanh nghiệp ở Châu Á" (HD: TS. Nguyễn Minh Cảnh)
-- Trạng thái: `cd1_review_report.md` đánh giá **~65%, draft v3.x, cần 1–2 vòng revision** (Major + Minor).
-- ⚠️ **Số liệu dao động cần đối chiếu:** trong CĐ1 xuất hiện đồng thời "14 quốc gia", "17 nền kinh tế", "40.633", "47.803", và "49 nền". Cần xác định rõ con số nào thuộc phạm vi nào (P1 emerging-Asia = 17 nền/40.633 obs theo Ch3) và thống nhất, tránh người chấm bắt lỗi.
+### CĐ1 — "Thực trạng HĐKD doanh nghiệp ở Châu Á" (HD: TS. Nguyễn Minh Cảnh) — ✅ SỐ LIỆU NHẤT QUÁN
+- **Các con số là phạm vi khác nhau, đều được giải thích** (không phải mâu thuẫn):
+  - **47 nền / 101.185 DN** = bản khóa dữ liệu của CĐ1 (mở rộng ×2,5 từ P1 gốc *17 nước châu Á mới nổi / ~40.633 DN*, Đỗ & Phan 2026 VEFR — ghi rõ).
+  - **47.803** = nhóm Emerging; **14 quốc gia** = đợt khảo sát 2025; **17 năm** = giai đoạn 2009–2025 (KHÔNG phải "17 nền" — lỗi nhận diện ban đầu).
+  - **SIDS 1.371** = pool thô 7 nước Pacific (khớp đúng dữ liệu); N=959 = mẫu phân tích sau lọc missing.
+- **CĐ1 có sẵn ghi chú dữ liệu (dòng 41)** đối chiếu minh bạch: 47 nền/101.185 (bản khóa CĐ1) ↔ 49 nền/91.982 (luận án, sau dedup panel + chuẩn hóa lại); SIDS biên = 7 nước Pacific. → committee đọc cả hai sẽ thấy lý do khác biệt.
+- **Còn lại (chất lượng học thuật, không phải số liệu):** `cd1_review_report.md` chấm ~65%, cần 1–2 vòng revision về cấu trúc/lập luận — nếu cần, chạy `academic-paper-reviewer` trên bản hiện tại.
 
 ### CĐ2 — "Xây dựng mô hình nghiên cứu I→P" (HD: PGS.TS. Phan Anh Tú)
 - Chuyên đề khái niệm (conceptual model), trọng tâm ICRV/khung lý thuyết — không nêu nhiều số mẫu nên ít rủi ro mâu thuẫn số liệu.
@@ -64,7 +68,7 @@ Nhãn bảng Ch2 đã đổi: *"P8 — Pacific SIDS (mẫu chính 7 nước, N=9
 - **Đã làm phiên này:** kiểm tra liêm chính **số liệu** (đối chiếu văn bản ↔ data thật) cho 5 chương + quét nhanh 2 chuyên đề.
 - **Chưa làm phiên này:** review học thuật toàn diện 5 chương + CĐ (lập luận, cấu trúc, citation từng đoạn) — đã có bản 06-07; nếu cần, chạy lại `academic-paper-reviewer` trên trạng thái mới.
 
-**Việc NCS cần làm:** ~~(1) quy tắc 49-vs-52~~ ✅ GIẢI QUYẾT (Á–TBD, bỏ Comoros/Turkey/Cyprus); ~~(2) nhãn SIDS 9/7 Ch2~~ ✅ ĐÃ SỬA; (3) thống nhất số liệu CĐ1 (14/17/40.633/47.803/49) — **còn lại duy nhất**; (4) xác minh khe lệch 118 dòng trong build script (nhỏ).
+**Việc NCS cần làm:** ~~(1) quy tắc 49-vs-52~~ ✅ GIẢI QUYẾT (Á–TBD, bỏ Comoros/Turkey/Cyprus); ~~(2) nhãn SIDS 9/7 Ch2~~ ✅ ĐÃ SỬA; ~~(3) thống nhất số liệu CĐ1~~ ✅ ĐÃ NHẤT QUÁN (các phạm vi khác nhau + có ghi chú đối chiếu dòng 41); (4) xác minh khe lệch 118 dòng trong build script (nhỏ). **Số liệu toàn dự án giờ đã reconcile.**
 
 ---
 
@@ -77,4 +81,4 @@ Nhãn bảng Ch2 đã đổi: *"P8 — Pacific SIDS (mẫu chính 7 nước, N=9
 | M4 | TLTK chưa hợp nhất | ✅ `04_references_apa7.md` hợp nhất ~271 entry APA7 |
 | M5 | Hệ giả thuyết rò mã chưa định nghĩa | ✅ H1–H6/H1b + H2b/H4a-b/E1a-b định nghĩa ở Ch2 §2.5 (ghi chú ký hiệu) |
 
-→ Luận án đã từ **MAJOR REVISION** tiến tới **gần sẵn sàng**; B1+B2 đã đóng, chỉ còn thống nhất số liệu CĐ1 (C).
+→ Luận án đã từ **MAJOR REVISION** tiến tới **gần sẵn sàng**; B1+B2+C đã đóng về mặt **số liệu**. Việc còn lại chỉ là chất lượng học thuật CĐ1 (~65%) và khe lệch 118 dòng (nhỏ, build script).
