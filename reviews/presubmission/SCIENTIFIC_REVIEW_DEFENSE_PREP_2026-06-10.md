@@ -57,3 +57,36 @@
 3. Toàn bộ: chuẩn bị trả lời Q1–Q6 ở §II.
 
 **Đánh giá khoa học tổng thể:** sau vòng này, 2/4 tấn công nặng nhất (P8) đã được **bác bằng robustness từ chính dữ liệu**; 2 còn lại (P9 đuôi xuất khẩu, P6 Frontier) đã có caveat trung thực + đường phản hồi. Các paper **vững hơn đáng kể về mặt phòng thủ khoa học**, không chỉ sạch về hình thức.
+
+---
+
+## IV. ĐÀO SÂU PHẢN BIỆN P3 / P4 / P5 / P7 (data-verified, 2026-06-10)
+
+### P3 (Vietnam) — ✅ 1 lỗi thực chất ĐÃ SỬA + nền tảng vững
+**Tấn công 1 (ĐÃ SỬA):** bài tự mâu thuẫn — một chỗ ghi sở hữu website "near half (49.8%)", ba chỗ khác ghi "diffuses to **near-universal** levels" để biện minh cơ chế "proxy obsolescence/hygiene marker". **Kiểm chứng dữ liệu:** tỷ lệ website Việt Nam = 0.43→0.48→**0.50** (2009/2015/2023) — **gần một nửa, KHÔNG gần phổ quát**. Tệ hơn: ở mức ~50%, website có **phương sai phân biệt CỰC ĐẠI** (50/50), nên lập luận "hygiene marker không phân biệt" yếu nhất đúng chỗ bài viện dẫn. → Đã sửa toàn bộ "near-universal" → "roughly half of firms" + đánh dấu cách đọc obsolescence là *tentative* (5 manuscript).
+**Phòng thủ (mạnh):** Việt Nam có **support đuôi tốt** (160–211 DN có FSTS>0.4 mỗi đợt) → điểm ngưỡng 39–46% được nhận dạng thật; claim "step function / participation margin" (within-exporter quadratic null) là **framing của chính bài, được bảo vệ tốt**.
+
+### P4 (Singapore) — ⚠️ nhận dạng yếu nhưng KHAI BÁO TRUNG THỰC (không sửa)
+**Tấn công:** "Bạn không thực sự có inverted-U cho Singapore" — TP=88.6% nằm vùng cực thưa (phân vị 75 của FSTS = 0), CI bootstrap **[53%, 253%]** (gần như vô định), exporter N=84, power ≈16%.
+**Trạng thái:** bài **đã tự khai báo đầy đủ** ("descriptive rather than structurally identified", "inferential bounds"). Tính trung thực này CHÍNH LÀ phòng thủ.
+**→ Q&A:** *"P4 không tuyên bố xác nhận inverted-U Singapore; nó cung cấp inferential bounds underpowered, đã nêu rõ power 16% và CI rộng. Đóng góp là tam giác hóa CDCM (DAI là nguồn lực điều kiện ở nền KT tiên tiến), không phải điểm ngưỡng chính xác."*
+
+### P5 (China) — ⚠️ "ổn định = không bác bỏ" → ĐÃ THÊM CAVEAT
+**Tấn công:** kết luận "H2b structural durability" từ **việc KHÔNG bác bỏ** Paternoster (absence of evidence ≠ evidence of absence) — underpowered có thể giả làm "ổn định".
+**Kiểm chứng:** Paternoster z = −0.21 (lin), +0.10 (sq) — **rất nhỏ**; điểm ước lượng **gần như trùng** (TP 49.4 vs 47.2; b1 0.94 vs 1.03; b2 −1.28 vs −1.34). → consistency thật, không phải non-rejection biên.
+**Đã thêm hạn chế thứ 5 (3 package):** thừa nhận suy luận dựa trên non-rejection, cân bằng bằng các ước lượng gần trùng, đề xuất **TOST equivalence test** cho dữ liệu đa-đợt tương lai.
+
+### P7 (Capstone) — ✅ không lỗi mới; attrition đã được bài giải thích
+**Tấn công:** mô hình điều tiết M3–M11 rớt từ N=84,910 (M2) xuống **29,840–38,342** (35–45% mẫu) → kết quả điều tiết năng lực/quản trị dựa trên mẫu con chọn lọc?
+**Kiểm chứng:** bài **đã giải thích** (dòng 296, 371: "drops from M3+ due to missing controls"); **headline inverted-U (M2) chạy trên FULL N=84,910**. Biến điều tiết quản trị phủ rộng (mgr_experience 96%, mgr_female 92%); attrition đến từ bộ control đầy đủ ở M3+.
+**→ Q&A (không cần sửa):** chuẩn bị bảo vệ tính đại diện của mẫu con M8–M11; nhấn mạnh kết quả H1 (inverted-U 49 nền KT) trên toàn mẫu.
+
+---
+
+## V. KẾT LUẬN ĐÀO SÂU
+Sau khi tấn công khoa học cả 7 paper:
+- **Lỗi thực chất tìm thấy & sửa:** P8 (N=209 + 7/9-SIDS, bằng robustness), P9 (caveat đuôi xuất khẩu), P3 (near-universal), P5 (non-rejection caveat).
+- **Vốn đã vững / khai báo trung thực:** P4 (underpowered, đã nêu), P7 (attrition, đã giải thích), P3-participation-margin (support đuôi tốt).
+- **Còn lại author-only:** P6 Frontier leave-one-out; P6 κ/ICC + OSF.
+
+Các paper hiện **không chỉ sạch hình thức mà còn vững phòng thủ khoa học**: mỗi điểm yếu lớn hoặc đã được bác bằng dữ liệu, hoặc đã có caveat trung thực + đường phản hồi cho hội đồng.
