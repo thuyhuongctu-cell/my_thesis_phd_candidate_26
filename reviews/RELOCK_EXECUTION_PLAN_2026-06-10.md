@@ -76,3 +76,20 @@ Các mục **cấu trúc/membership** không phụ thuộc winsorize/biến:
 - **Bước 1 làm được ngay** (membership/tên/crosswalk + P3/P5 note + P8) — đề nghị NCS xác nhận 5 điểm membership ở Mục C để máy áp.
 - **Bước 2 (re-lock số mô tả) KHÔNG làm được trong môi trường này** vì thiếu raw WBES 49 nước + pipeline khác. NCS cần: cung cấp raw WBES (đủ 49 nền) hoặc chạy script CĐ1 trên khung 49, rồi máy đồng bộ docx + kiểm tra.
 - **Tuyệt đối không** dán số từ `p7_pooled_clean.csv` vào bảng mô tả CĐ1 (sai pipeline → sai số).
+
+
+---
+
+## F. KẾT QUẢ TÌM RAW WBES TRÊN NHÁNH edit/vietnamese (2026-06-10) — KHÔNG ĐỦ
+
+Đã quét `origin/claude/edit-vietnamese-academic-standards-xcAmn` + `origin/claude/vietnamese-academic-standards-QuiLM`:
+| Nguồn | Phủ | R&D/ISO riêng | sd LP khớp CĐ1 (~1,03)? |
+|---|---|:--:|:--:|
+| `raw_dta/*.dta` | chỉ **9 nền** | có (9 nền) | — |
+| `data_wbes/analysis/pooled_wbes_6waves.csv` | chỉ **3 nước** (CHN/SGP/VNM) | ✅ | ❌ (sd~3,82) |
+| `data_wbes/p7/p7_pooled_rich.csv` | 52 nước | ❌ (chỉ TCI/DAI tổng hợp) | ❌ |
+| `data_wbes/p7/p7_pooled_clean.csv` | 52 nước | ❌ | ❌ (sd 3,43) |
+
+→ **Raw WBES đủ 49 nước + đúng pipeline mô tả CĐ1 không có trên bất kỳ nhánh nào.** Bước 2 (re-lock số mô tả) **không thể thực thi** trong môi trường hiện tại mà không bịa.
+
+**Cần NCS:** upload trực tiếp **raw WBES đủ 49 nền** (hoặc file pool 101.185 gốc CĐ1 với đủ biến website/R&D/ISO/đổi mới/FDI + LP đã winsorize) → khi đó máy chạy re-lock đầy đủ + đồng bộ docx.
