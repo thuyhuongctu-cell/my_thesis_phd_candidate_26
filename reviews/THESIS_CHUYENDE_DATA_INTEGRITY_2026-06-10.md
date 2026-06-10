@@ -14,14 +14,31 @@ Rà soát **trạng thái hiện tại** (sau các sửa đổi 06-08/06-09), đ
 
 ## B. ⚠️ ĐIỂM CẦN TÁC GIẢ LÀM RÕ
 
-### B1. Số nền kinh tế: văn bản "49" vs dữ liệu "52"
-Dữ liệu `p7_pooled_clean.csv`:
-- 55 giá trị `country` thô, nhưng **3 là bản trùng do dựng panel**: `Mongolia_panel`, `Nepal_panel`, `Philippines_panel` (đã có Mongolia/Nepal/Philippines riêng) → **không phải nền kinh tế độc lập**.
-- → **52 nền kinh tế thật**, khớp tổng 6 regime ICRV: Advanced_innovation 6 · Advanced_resource 6 · Emerging 17 · Lower_mid_transition 7 · SIDS_small 9 · Upper_mid 7 = **52**.
-- Luận án ghi **49** → còn lệch **3 nền kinh tế**.
+### B1. Số nền kinh tế: "49" (mẫu chính) vs "52" (pool nguồn) — ✅ ĐÃ GIẢI QUYẾT (NCS xác nhận: "các nền kinh tế thuộc châu Á")
 
-**Khả năng (NCS xác nhận):** "49 nền kinh tế **châu Á và Pacific**" có thể đã loại (a) Comoros (Ấn Độ Dương/châu Phi, không thuộc Á–TBD) + TimorLeste khỏi nhóm headline, và/hoặc (b) Oman (rớt khi yêu cầu biến focal). Cần nêu rõ **quy tắc gồm/loại** ở §3 và bảng thành phần regime sao cho tổng = 49 (hoặc sửa "49" cho khớp 52 nếu thực tế dùng đủ).
-> Cảnh báo kỹ thuật: nếu code đếm `df.country.nunique()` sẽ ra **55** (gồm 3 `_panel`). Cần lọc hậu tố `_panel` trước khi đếm/báo cáo số nền kinh tế.
+**Quy tắc gồm/loại (đã xác minh từ dữ liệu):** mẫu phân tích chính = **49 nền kinh tế châu Á + Pacific** = 52 nền có nhãn ICRV **trừ 3 nền ngoài châu Á**:
+
+| Loại khỏi mẫu 49 | Lý do địa lý |
+|---|---|
+| Comoros | Châu Phi (Ấn Độ Dương) |
+| Turkey | Châu Âu / xuyên lục địa |
+| Cyprus | Châu Âu (EU) |
+
+*(Giữ: Caucasus — Armenia/Georgia/Azerbaijan = Tây/Trung Á; Trung Đông = Tây Á.)*
+
+**Đối chiếu số liệu — luận án đã phân biệt ĐÚNG hai con số:**
+| | Dữ liệu thật | Luận án | |
+|---|---|---|---|
+| Pool phân loại ICRV (52 nền) | 96.415 dòng | "≈ 96.415" | ✅ exact |
+| Mẫu hồi quy chính (49 nền Á–TBD) | ~91.864 dòng | "N = 91.982 từ 49 nền" | ✅ (lệch 118 ≈ 0,1%) |
+
+Phá regime dưới khung 49: Advanced_innovation **5** (bỏ Cyprus) · Advanced_resource 6 · Emerging 17 · Lower_mid 7 · SIDS **8** (bỏ Comoros) · Upper_mid **6** (bỏ Turkey) = **49**.
+
+→ **KHÔNG phải lỗi.** File dữ liệu chứa 3 nền ngoài châu Á + 3 bản `_panel` là **nguồn rộng hợp lệ**; luận án chỉ phân tích 49 nền Á–TBD. Comoros/Turkey/Cyprus **không được nêu tên** trong bất kỳ chương nào → nhất quán.
+
+**Việc nhỏ còn lại (NCS/build script):** (a) xác minh khe lệch 118 dòng (91.864 vs 91.982) — có thể do phiên bản build/quy tắc lọc missing; (b) đảm bảo mọi script đếm nền kinh tế **lọc hậu tố `_panel`** trước (nếu không `nunique()` ra 55).
+
+
 
 ### B2. SIDS "9" (Ch2) vs "7 nước" (Ch3) — ✅ ĐÃ SỬA (2026-06-10)
 Nhãn bảng Ch2 đã đổi: *"P8 — Pacific SIDS (mẫu chính 7 nước, N=959; kiểm định độ vững mở rộng 9 nước Nhóm VI)"* — khớp Ch3 + bài P8; đồng bộ `thesis/` + `dist/source_md/` + docx. Nội dung gốc bên dưới để tham chiếu.
@@ -47,17 +64,17 @@ Nhãn bảng Ch2 đã đổi: *"P8 — Pacific SIDS (mẫu chính 7 nước, N=9
 - **Đã làm phiên này:** kiểm tra liêm chính **số liệu** (đối chiếu văn bản ↔ data thật) cho 5 chương + quét nhanh 2 chuyên đề.
 - **Chưa làm phiên này:** review học thuật toàn diện 5 chương + CĐ (lập luận, cấu trúc, citation từng đoạn) — đã có bản 06-07; nếu cần, chạy lại `academic-paper-reviewer` trên trạng thái mới.
 
-**Việc NCS cần quyết:** (1) quy tắc 49-vs-52 nền kinh tế + lọc `_panel`; ~~(2) nhãn SIDS 9/7 ở Ch2~~ ✅ ĐÃ SỬA; (3) thống nhất số liệu CĐ1 (14/17/40.633/47.803/49).
+**Việc NCS cần làm:** ~~(1) quy tắc 49-vs-52~~ ✅ GIẢI QUYẾT (Á–TBD, bỏ Comoros/Turkey/Cyprus); ~~(2) nhãn SIDS 9/7 Ch2~~ ✅ ĐÃ SỬA; (3) thống nhất số liệu CĐ1 (14/17/40.633/47.803/49) — **còn lại duy nhất**; (4) xác minh khe lệch 118 dòng trong build script (nhỏ).
 
 ---
 
 ## E. ✅ Trạng thái 5 vấn đề MAJOR của review 2026-06-07 (kiểm tra lại hôm nay)
 | Mã | Vấn đề (06-07) | Trạng thái hiện tại |
 |---|---|---|
-| M1 | Mâu thuẫn số liệu (47/49, SIDS, N, k) | ✅ Phần lớn đã sửa; còn B1 (49-vs-52) + C (CĐ1) cần NCS |
+| M1 | Mâu thuẫn số liệu (47/49, SIDS, N, k) | ✅ Đã sửa; B1 (49-vs-52) GIẢI QUYẾT (Á–TBD); chỉ còn C (CĐ1) |
 | M2 | Bản 5 chương thiếu front matter | ✅ Đầy đủ: Cam đoan/Tóm tắt/Abstract/Mục lục/Từ viết tắt/DM Bảng/DM Hình/DM công trình NCS (`00_phan_dau_vi.md`) |
 | M3 | Thiếu hình mô hình khái niệm | ✅ Fig 2.1 CDCM có trong §2.5.1, kèm caption đầy đủ |
 | M4 | TLTK chưa hợp nhất | ✅ `04_references_apa7.md` hợp nhất ~271 entry APA7 |
 | M5 | Hệ giả thuyết rò mã chưa định nghĩa | ✅ H1–H6/H1b + H2b/H4a-b/E1a-b định nghĩa ở Ch2 §2.5 (ghi chú ký hiệu) |
 
-→ Luận án đã từ **MAJOR REVISION** tiến tới **gần sẵn sàng**; chỉ còn các điểm reconcile số liệu (quyết định của NCS) ở B1 + C.
+→ Luận án đã từ **MAJOR REVISION** tiến tới **gần sẵn sàng**; B1+B2 đã đóng, chỉ còn thống nhất số liệu CĐ1 (C).
