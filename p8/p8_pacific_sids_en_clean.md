@@ -374,7 +374,7 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 | Vanuatu | 157 | 16 | 10.2% | 0.037 | 2009, 2023 |
 | **Total** | **959** | **132** | **13.8%** | **0.048** | 2009–2025 |
 
-*Note: N reflects the analysis sample (firms with non-missing ln labour productivity and FSTS). Exporters are firms with FSTS > 0; mean FSTS is computed over all firms, including non-exporters. Fiji, Papua New Guinea, and Vanuatu have two WBES waves; the remaining four economies have one.*
+*Note: N denotes analysis-sample firm-year observations (non-missing ln labour productivity and FSTS). Exporters are firms with FSTS > 0; mean FSTS is computed over all firms, including non-exporters. Fiji, Papua New Guinea, and Vanuatu have two WBES waves; the remaining four economies have one.*
 
 ### Table 2. Regression Results: Internationalization Intensity and Labor Productivity
 

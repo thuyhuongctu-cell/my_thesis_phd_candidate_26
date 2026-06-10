@@ -660,7 +660,7 @@ identified within the supported data range, and the §4 results are
 interpreted under this support-aware framing.
 
 *(ii) Exporters-only subsample and power-bounded interaction inference.*
-The exporters-only subsample (FSTS \> 0, N = 84) is the natural setting
+The exporters-only subsample (FSTS \> 0; N = 84, the complete-case subset of the roughly 18 per cent of firms with positive exports) is the natural setting
 in which to read the intensity-margin coordination-cost mechanism, but
 is substantially underpowered for detecting the small effect-size
 moderation block (f² ≈ 0.018). At α = .05 with one numerator degree of
