@@ -205,7 +205,7 @@ Luận án được phát triển gắn với một chuỗi nghiên cứu thành
 | P5 — Trung Quốc 2012–2024 | Upper-middle (Nhóm III) | §4.4 | H1, H6 |
 | P6 — Meta-analysis ba tầng | Toàn bộ literature | §4.2 | H1, H5 |
 | P7 — Capstone đa quốc gia (49 nền kinh tế) | Toàn bộ gradient ICRV | §4.6 | H1, H2, H3, H4, H5 (và tương tác tổng hợp ba chiều) |
-| P8 — SIDS (9 nền kinh tế, Nhóm VI) | SIDS (Nhóm VI) | §4.7 | H1b (FIP) |
+| P8 — Pacific SIDS (mẫu chính 7 nước, N=959; kiểm định độ vững mở rộng 9 nước Nhóm VI) | SIDS (Nhóm VI) | §4.7 | H1b (FIP) |
 
 *Ghi chú về ký hiệu: Hệ giả thuyết của luận án gồm sáu giả thuyết trọng tâm H1–H6 và một giả thuyết điều kiện biên H1b. Trong các mô hình thực nghiệm chi tiết ở Chương 3, một số nghiên cứu thành phần sử dụng các giả thuyết con (sub-hypotheses) lồng dưới hệ giả thuyết chính của luận án, cụ thể: H2b (kiểm định tính ổn định xuyên sóng của năng lực điều tiết — thuộc P5, lồng dưới H2/H6); H4a–H4b (kiểm định điều tiết độ cong theo năng lực — thuộc P5, lồng dưới H2); tương tác tổng hợp ba chiều của P7 (lồng dưới H3 và H5); và E1a–E1b (kiểm định định hướng gradient ICRV — lồng dưới H5). Các ký hiệu con này phục vụ độ chính xác kỹ thuật của từng mô hình và không làm thay đổi hệ giả thuyết trọng tâm H1–H6/H1b của luận án.*
 

@@ -23,7 +23,10 @@ Dữ liệu `p7_pooled_clean.csv`:
 **Khả năng (NCS xác nhận):** "49 nền kinh tế **châu Á và Pacific**" có thể đã loại (a) Comoros (Ấn Độ Dương/châu Phi, không thuộc Á–TBD) + TimorLeste khỏi nhóm headline, và/hoặc (b) Oman (rớt khi yêu cầu biến focal). Cần nêu rõ **quy tắc gồm/loại** ở §3 và bảng thành phần regime sao cho tổng = 49 (hoặc sửa "49" cho khớp 52 nếu thực tế dùng đủ).
 > Cảnh báo kỹ thuật: nếu code đếm `df.country.nunique()` sẽ ra **55** (gồm 3 `_panel`). Cần lọc hậu tố `_panel` trước khi đếm/báo cáo số nền kinh tế.
 
-### B2. SIDS "9" (Ch2) vs "7 nước" (Ch3) — cả hai đúng, cần làm rõ ngữ cảnh
+### B2. SIDS "9" (Ch2) vs "7 nước" (Ch3) — ✅ ĐÃ SỬA (2026-06-10)
+Nhãn bảng Ch2 đã đổi: *"P8 — Pacific SIDS (mẫu chính 7 nước, N=959; kiểm định độ vững mở rộng 9 nước Nhóm VI)"* — khớp Ch3 + bài P8; đồng bộ `thesis/` + `dist/source_md/` + docx. Nội dung gốc bên dưới để tham chiếu.
+
+
 - Dữ liệu: regime `SIDS_small` = **9 nền kinh tế** (Comoros, Fiji, Kiribati, PNG, Samoa, Solomon, TimorLeste, Tonga, Vanuatu).
 - Bài P8 + Ch3: **mẫu chính = 7 nước Pacific**, N=959 (loại Comoros + TimorLeste); 9-nước chỉ là **robustness** (N≈1.469).
 - → Dòng bảng Ch2 *"P8 — SIDS (9 nền kinh tế, Nhóm VI)"* gán 9 cho P8 dễ gây hiểu nhầm: P8 **chính** phân tích 7 Pacific. **Đề nghị** sửa nhãn thành "Nhóm VI SIDS (regime 9 nền; P8 phân tích 7 nước Pacific, N=959)".
@@ -44,4 +47,17 @@ Dữ liệu `p7_pooled_clean.csv`:
 - **Đã làm phiên này:** kiểm tra liêm chính **số liệu** (đối chiếu văn bản ↔ data thật) cho 5 chương + quét nhanh 2 chuyên đề.
 - **Chưa làm phiên này:** review học thuật toàn diện 5 chương + CĐ (lập luận, cấu trúc, citation từng đoạn) — đã có bản 06-07; nếu cần, chạy lại `academic-paper-reviewer` trên trạng thái mới.
 
-**Việc NCS cần quyết:** (1) quy tắc 49-vs-52 nền kinh tế + lọc `_panel`; (2) nhãn SIDS 9/7 ở Ch2; (3) thống nhất số liệu CĐ1 (14/17/40.633/47.803/49).
+**Việc NCS cần quyết:** (1) quy tắc 49-vs-52 nền kinh tế + lọc `_panel`; ~~(2) nhãn SIDS 9/7 ở Ch2~~ ✅ ĐÃ SỬA; (3) thống nhất số liệu CĐ1 (14/17/40.633/47.803/49).
+
+---
+
+## E. ✅ Trạng thái 5 vấn đề MAJOR của review 2026-06-07 (kiểm tra lại hôm nay)
+| Mã | Vấn đề (06-07) | Trạng thái hiện tại |
+|---|---|---|
+| M1 | Mâu thuẫn số liệu (47/49, SIDS, N, k) | ✅ Phần lớn đã sửa; còn B1 (49-vs-52) + C (CĐ1) cần NCS |
+| M2 | Bản 5 chương thiếu front matter | ✅ Đầy đủ: Cam đoan/Tóm tắt/Abstract/Mục lục/Từ viết tắt/DM Bảng/DM Hình/DM công trình NCS (`00_phan_dau_vi.md`) |
+| M3 | Thiếu hình mô hình khái niệm | ✅ Fig 2.1 CDCM có trong §2.5.1, kèm caption đầy đủ |
+| M4 | TLTK chưa hợp nhất | ✅ `04_references_apa7.md` hợp nhất ~271 entry APA7 |
+| M5 | Hệ giả thuyết rò mã chưa định nghĩa | ✅ H1–H6/H1b + H2b/H4a-b/E1a-b định nghĩa ở Ch2 §2.5 (ghi chú ký hiệu) |
+
+→ Luận án đã từ **MAJOR REVISION** tiến tới **gần sẵn sàng**; chỉ còn các điểm reconcile số liệu (quyết định của NCS) ở B1 + C.
