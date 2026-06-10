@@ -16,7 +16,7 @@
 - Manuscript: `p4/submission/mir_package/01_manuscript_blinded.md` (.docx)
 - Title page + Cover: `p4/submission/mir_package/02_title_page.docx`, `03_cover_letter.docx` *(mới tạo 2026-06-09)*
 - Bản dịch VI: `p4/submission/p4_singapore_vi.docx`
-- ⏳ Trước nộp: thêm ref **Leon (2004)** (NCS — không có trong repo). 18%/N=84 đã làm rõ (complete-case).
+- ✅ Đã sạch: Leon (2004) đã gỡ (2026-06-10, quyết định NCS) — thay bằng Cohen (1988) + Aguinis et al. (2005) sẵn có trong reflist. 18%/N=84 đã làm rõ (complete-case).
 
 ### P5 — Trung Quốc → **IJOEM** (Emerald, Harvard)
 - Manuscript: `p5/submission/ijoem_package/01_manuscript_blinded.md` (.docx)
@@ -56,7 +56,7 @@
 | Paper | Reach | Hồ sơ đầy đủ? | Cổng còn lại |
 |---|---|:--:|---|
 | P3 | MBR | ✅ | đã sạch |
-| P4 | MIR | ✅ *(vừa bổ sung title/cover)* | nhỏ (1 ref, 1 làm rõ) |
+| P4 | MIR | ✅ *(vừa bổ sung title/cover)* | đã sạch |
 | P5 | IJOEM | ✅ | đã sạch |
 | P6 | JWB | ✅ | **lớn (κ/ICC + OSF + Q_M)** |
 | P7 | JIBS | ✅ | không đáng kể |

@@ -42,7 +42,7 @@
 |---|---|---|
 | **P6 κ/ICC** (6 ô) | Cần coder thứ hai THẬT (thầy Tú) mã hóa mù; bịa κ = ngụy tạo thống kê | Để placeholder `[insert after dual-coding]` |
 | **P6 OSF DOI** | Cần đăng ký OSF thật | Để placeholder `[insert OSF DOI at submission]` |
-| **P4 Leon (2004)** | Chỉ có comment trong do-file, không có entry đầy đủ; không chắc bài nào | Flag NCS cung cấp; **KHÔNG bịa** |
+| **P4 Leon (2004)** | Chỉ có comment trong do-file, không có entry đầy đủ; không chắc bài nào | ✅ **ĐÃ GIẢI QUYẾT (2026-06-10, quyết định NCS):** gỡ citation Leon (2004); thay bằng **Cohen (1988) + Aguinis et al. (2005)** — cả hai đã có sẵn trong reflist P4 và đúng chủ đề power analysis cho moderation. Sửa ở 3 package + clean_en + do-file; docx regenerated. Không thêm reference mới. |
 | **PRISMA census counts** (P6) | Không chạy WoS/Scopus census thật | Reframe trung thực sang citation-anchored; không điền số census |
 | **P6 leave-one-out Frontier** | metafor không có trong môi trường; không tự ý ra số rma.mv | Flag NCS chạy |
 
@@ -54,4 +54,4 @@
 - **Mọi chỗ không xác minh được** đều để placeholder/flag, **không tự điền** (mục D).
 - Ranh giới người↔máy **minh bạch hoàn toàn** và kiểm toán được.
 
-**Việc NCS cần làm để đóng sổ liêm chính:** (1) ~~xác minh Hutzschenreuter & Voll (2008)~~ ✅ ĐÃ XONG (PDF NCS cung cấp); (2) tái chạy 3 robustness P8 + Bảng 1 bằng Stata để "ký" số liệu; (3) cung cấp Leon (2004); (4) hoàn tất κ/ICC + OSF DOI.
+**Việc NCS cần làm để đóng sổ liêm chính:** (1) ~~xác minh Hutzschenreuter & Voll (2008)~~ ✅ ĐÃ XONG (PDF NCS cung cấp); (2) tái chạy 3 robustness P8 + Bảng 1 bằng Stata để "ký" số liệu; (3) ~~cung cấp Leon (2004)~~ ✅ ĐÃ XONG (NCS quyết định gỡ; thay bằng Cohen 1988 + Aguinis et al. 2005 sẵn có); (4) hoàn tất κ/ICC + OSF DOI (toolkit đã dựng tại `p6/icr/`).

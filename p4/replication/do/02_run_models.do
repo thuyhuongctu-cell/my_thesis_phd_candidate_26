@@ -305,7 +305,7 @@ di as txt "      Reference estimates: +0.660 (p=.025) at 70%; +1.818 (p=.002) at
    ============================================================ */
 di _n as result "=== EXPORTERS-ONLY SUBSAMPLE (N≈84) ==="
 di as txt "NOTE: Power ≈ 16% for interaction effects β < 1.5 SD"
-di as txt "       Results for descriptive purposes only (Leon, 2004)"
+di as txt "       Results for descriptive purposes only (Cohen, 1988)"
 
 count if exp_samp
 local n_exp = r(N)

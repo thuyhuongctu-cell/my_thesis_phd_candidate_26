@@ -671,8 +671,8 @@ confirmed in the exporter-only subsample (N = 84, power ≈ 16%), we are
 underpowered to detect interaction effects of β \< 1.5 standard
 deviations; (b) *Methodological remedy*: panel data or an exporter
 oversampling design with N ≥ 300 would enable intensity-margin
-inference; (c) power requirements for interaction testing follow Leon
-(2004). Null DAI moderation results in the exporters-only specification
+inference; (c) power requirements for interaction testing follow Cohen
+(1988) and Aguinis et al. (2005). Null DAI moderation results in the exporters-only specification
 therefore should not be interpreted as evidence against the
 conditional-scaling mechanism; conversely, the positive joint F-test
 reported in the R5 exporters-only specification (F = 6.32, p = .003, β =
