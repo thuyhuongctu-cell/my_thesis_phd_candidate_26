@@ -28,7 +28,8 @@
 
 | Số liệu | Bài | Nguồn tính | Trạng thái tái lập |
 |---|---|---|---|
-| Robustness FE bỏ foreign-ownership: **β=−0.835, p=.010, N=950**; no-control **−0.769, N=959** | P8 §4.4 | `data_wbes/p7/p7_pooled_clean.csv` qua pipeline Python | ✅ **Tái tạo chính xác**; pipeline tái hiện đúng M1 gốc (−1.339/N=209) → đáng tin. NCS chạy lại Stata để xác nhận. |
+| Robustness FE bỏ foreign-ownership: **β=−0.835, p=.010, N=950**; no-control **−0.769, N=959** | P8 §4.4 | `data_wbes/p7/p7_pooled_clean.csv` qua pipeline Python | ✅ **Tái tạo chính xác** (tái xác minh 2026-06-10); pipeline tái hiện đúng M1 gốc (−1.339/N=209), YearFE (−3.351), full-sample N=959/exporter 13.8% → đáng tin. NCS chạy lại Stata để xác nhận. |
+| Bivariate β: bản thảo dùng **R canonical −0.864 (p=.050)**; Python cross-check −0.919 (p=.043) ở duy nhất model phụ này | P8 §4.2/Table 3 | R `lm(ln~fsts)` toàn mẫu vs Python reimpl | ✅ Đối chiếu 2026-06-10. Chênh lệch chỉ 1 model phụ; cả hai âm & p≈.05 → kết luận FIP không đổi. Bản thảo trích đúng R canonical. |
 | Robustness 9-nước (gồm Comoros+Timor): **β=−0.510, p=.008, N=1469** | P8 §4.4 | như trên | ✅ Tái tạo chính xác |
 | **Bảng 1** P8 (N/exporter/FSTS theo 7 nước) | P8 (3 pkg + clean_en + VI) | `data_wbes/...` — tái tạo tổng N=959 khớp | ✅ Tính từ data thật, không bịa |
 | Caveat P9: FSTS mean 7.2%→2.7%; DN FSTS>50% 536→141 | P9 §6 | `p9_india/replication/data/india_*_analytic.csv` | ✅ Tính từ data replication |
