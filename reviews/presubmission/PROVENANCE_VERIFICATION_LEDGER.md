@@ -53,4 +53,4 @@
 - **Mọi chỗ không xác minh được** đều để placeholder/flag, **không tự điền** (mục D).
 - Ranh giới người↔máy **minh bạch hoàn toàn** và kiểm toán được.
 
-**Việc NCS cần làm để đóng sổ liêm chính:** (1) xác minh Hutzschenreuter & Voll (2008); (2) tái chạy 3 robustness P8 + Bảng 1 bằng Stata để "ký" số liệu; (3) cung cấp Leon (2004); (4) hoàn tất κ/ICC + OSF DOI.
+**Việc NCS cần làm để đóng sổ liêm chính:** (1) ~~xác minh Hutzschenreuter & Voll (2008)~~ ✅ ĐÃ XONG (PDF NCS cung cấp); (2) tái chạy 3 robustness P8 + Bảng 1 bằng Stata để "ký" số liệu; (3) cung cấp Leon (2004); (4) hoàn tất κ/ICC + OSF DOI.
