@@ -654,7 +654,7 @@ across waves.
 
 ### 5.4 Limitations
 
-Four inferential bounds apply. First, because WBES data are
+Five inferential bounds apply. First, because WBES data are
 cross-sectional within each wave and panel matching across 2012 and 2024
 is not possible due to WBES anonymisation, the temporal stability
 analysis cannot be interpreted as within-firm change; it compares
@@ -672,7 +672,7 @@ triangulate with administrative patent or certification registry data to
 validate the composite. Fourth, the single-item DAI_core binary proxy
 cannot support strong conclusions about digital capability as a
 construct; a multi-item composite (Verhoef et al., 2021) would be needed
-to test the TCI–DAI mediation pathway rigorously.
+to test the TCI–DAI mediation pathway rigorously. Fifth, the durability inference rests on a failure to reject cross-wave coefficient equality (the Paternoster tests are non-significant) rather than on a formal equivalence test; non-rejection does not by itself establish stability. The inference is nonetheless supported by the near-identical point estimates (turning points of 49.4 and 47.2 per cent; linear coefficients of 0.94 and 1.03 across the two waves) and the very small test statistics, which indicate genuine consistency rather than a borderline, underpowered non-rejection. A two-one-sided-tests equivalence procedure on future multi-wave data would place the durability claim on firmer inferential ground.
 
 ### 5.5 Future Research
 
