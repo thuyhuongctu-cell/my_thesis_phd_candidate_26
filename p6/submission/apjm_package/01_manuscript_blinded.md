@@ -242,7 +242,7 @@ Publication bias was assessed with Egger's regression (Egger et al., 1997), Begg
 |-------------------------------------------------------------------------|-------------|-------------|
 | ICRV Regime I, Advanced (e.g., Korea, Japan, Singapore, HK, Australia) | 139 | 107 |
 | ICRV Regime II, Upper-middle (e.g., China, Malaysia, Thailand) | 25 | 21 |
-| ICRV Regime III, Emerging (e.g., Vietnam, India, Philippines) | 90 | 78 |
+| ICRV Regime III, Emerging (e.g., Vietnam, India, Philippines) | 91 | 79 |
 | ICRV Frontier / SIDS (FR) | 3 | 3 |
 | Cross-regime / multi-country (MX) | 30 | 28 |
 | ***K* / *k* total** | **288** | **238** |
@@ -317,7 +317,7 @@ k=238/K=288)*
 |---------------------------------------------------|-----|-------|------------------|------------------------------------------------------------------------------------------------|
 | I, Advanced-Innovation (SG, HK, KR, JP, UK, US…) | 139 | 0.079 | \[0.058, 0.099\] | Largest group; broadly consistent with H1 |
 | II, Upper-middle | 25 | 0.065 | \[0.020, 0.109\] | ns vs. Group I (b = −0.014, *p* = .581) |
-| III, Emerging (VN, IN, CN, PH…) | 90 | 0.068 | \[0.044, 0.092\] | ns vs. Group I (b = −0.011, *p* = .502) |
+| III, Emerging (VN, IN, CN, PH…) | 91 | 0.068 | \[0.044, 0.092\] | ns vs. Group I (b = −0.011, *p* = .502) |
 | FR, Frontier | 3 | 0.349 | \[0.217, 0.468\] | ⚠️ *k* = 3 only; estimate unreliable (one outlier: Pouresmaeili et al., *r* = 0.69, *n* = 226) |
 | MX, Multi-country / Mixed | 30 | 0.053 | \[0.012, 0.094\] | ns vs. Group I (b = −0.026, *p* = .269) |
 
@@ -340,7 +340,7 @@ differences approach significance.
 
 Group I (k=139, primarily Western MNEs and Asian advanced economies)
 shows the highest reliable I→P effect (*r̄* = 0.079), and Group III
-(k=90, Emerging) shows *r̄* = 0.068, a difference of 0.011 that is
+(k=91, Emerging) shows *r̄* = 0.068, a difference of 0.011 that is
 directionally consistent with CIMT but not statistically significant
 given within-group heterogeneity. H1 (between-regime heterogeneity
 *Q*\_M significant) is confirmed, establishing that I→P effect sizes
@@ -363,7 +363,7 @@ continuous linear trend shows significant cDAI moderation.
 | cDAI Group | *k* | *r̄* | 95% CI | Δ vs. Low |
 |------------|-----|-------|------------------|------------------------|
 | Low | 174 | 0.075 | \[0.056, 0.094\] |, |
-| Medium | 75 | 0.063 | \[0.036, 0.090\] | b = −0.012, *p* = .489 |
+| Medium | 76 | 0.063 | \[0.036, 0.090\] | b = −0.012, *p* = .489 |
 | High | 38 | 0.091 | \[0.052, 0.129\] | b = +0.016, *p* = .469 |
 
 The three cDAI subgroup means are all significantly positive (*p* \<
@@ -386,7 +386,7 @@ the cDAI spectrum is required to test the cDAI amplification (H3) gradient hypot
 | DPL Phase | Definition | *k* | *r̄* | 95% CI | Δ vs. PRE |
 |---------------|-------------------------------------|-----|-------|------------------|------------------------|
 | Precede (PRE) | Sample data predominantly pre-2009 | 100 | 0.082 | \[0.057, 0.107\] |, |
-| Span (SPN) | Sample spans the 2009 inflection | 107 | 0.068 | \[0.045, 0.091\] | b = −0.014, *p* = .434 |
+| Span (SPN) | Sample spans the 2009 inflection | 108 | 0.068 | \[0.045, 0.091\] | b = −0.014, *p* = .434 |
 | Follow (FOL) | Sample data predominantly post-2014 | 80 | 0.073 | \[0.046, 0.100\] | b = −0.009, *p* = .645 |
 
 Pairwise comparisons: PRE vs. FOL (*z* = 0.46, *p* = .645); PRE vs. SPN
@@ -500,7 +500,7 @@ Peng et al., 2008). However, the magnitude is much smaller than CIMT
 predicted, and the I→III difference is not statistically significant
 (*p* = .502).
 
-**Emerging contexts (Group III, k = 90; *r̄* = 0.068):** The Emerging
+**Emerging contexts (Group III, k = 91; *r̄* = 0.068):** The Emerging
 group shows *r̄* = 0.068, directionally below the Advanced group,
 consistent with CIMT's institutional friction argument. At the
 primary-study level, Do & Phan (2025) document a negative aggregate DOI
