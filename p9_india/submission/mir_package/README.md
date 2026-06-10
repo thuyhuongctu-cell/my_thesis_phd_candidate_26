@@ -2,7 +2,7 @@
 
 ## Management International Review, Springer Nature
 
-**Manuscript:** "Cross-Wave Stability of the Internationalisation–Performance Threshold in Indian Firms: Digital and Technological Capability Moderation Across a Decade of Institutional Transformation"
+**Manuscript:** "When Institutional Transformation Breaks the Threshold: The Disappearance of the Inverted-U Internationalisation–Performance Relationship in Indian Firms, 2014–2025"
 
 **Primary target journal:** Management International Review (MIR), Springer Nature (Scopus Q1; IF 6.0+; ABS-3)
 **Alternate target:** International Journal of Emerging Markets (IJOEM), Emerald Publishing (Scopus Q1; IF 3.0+)
@@ -84,7 +84,7 @@ Author-only remaining (cannot be automated):
 - [ ] Register / log in to MIR submission portal (Springer Nature)
 - [ ] Select "Submit a Manuscript"
 - [ ] **Manuscript type:** Research Article
-- [ ] **Keywords**: internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; emerging markets; CDCM
+- [ ] **Keywords**: internationalisation–performance; export intensity; threshold stability; India; UPI; technological capability; institutional transformation; Conditional Digital Capability Moderation
 - [ ] **JEL codes:** F23, O33, D22, L25, O53, O25
 - [ ] **Abstract** (standard MIR format)
 - [ ] Upload 01_manuscript_blinded.docx → Main Manuscript (anonymous)
