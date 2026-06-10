@@ -631,10 +631,10 @@ author.
 
 ### 3.2 Eligibility Criteria and Study Selection
 
-Two independent screeners applied the eligibility criteria below in two
+The two authors independently applied the eligibility criteria below in two
 stages: (1) title and abstract screening; (2) full-text assessment.
-Disagreements at both stages were resolved by a third reviewer following
-a predetermined adjudication rule (majority decision).
+Disagreements at both stages were resolved by discussion between the two authors following
+a predetermined rule.
 
 | Criterion | Inclusion | Exclusion |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -937,7 +937,7 @@ alternative operationalizations:
 
 *k* = 238 studies (coded), *K* = 288 effect sizes.
 
-**Table 3.1, Inter-coder reliability** *(two authors independently coded a 20% stratified subsample, k = 47 studies, blind to each other's codes)*
+**Table 3.1, Inter-coder reliability** *(two authors independently code a 20% stratified subsample, k = 47 studies, blind to each other's codes)*
 
 | Moderator | Variable type | Statistic | Value | Target threshold |
 |---------------------|------------------|-----------|-------|------------------|
@@ -948,7 +948,7 @@ alternative operationalizations:
 | Performance measure | Categorical (4) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
 | cDAI score | Continuous (0–1) | ICC(2, 1) | [insert after dual-coding] | ≥ 0.80 |
 
-*Note.* The full corpus was coded by the first author against the standardized codebook (Appendix B). For reliability, the two authors independently coded a 20% stratified subsample (k = 47 studies), blind to each other's codes; agreement was assessed with Cohen's κ for the categorical moderators and ICC(2, 1) for the continuous cDAI index, against the Landis and Koch (1977) thresholds (κ ≥ 0.70; ICC ≥ 0.80). Disagreements were resolved by discussion, with Regime II/III boundary cases adjudicated by lookup of WGI Rule of Law vintage scores.
+*Note.* The full corpus is coded by the first author against the standardized codebook (Appendix B). For reliability, the two authors independently code a 20% stratified subsample (k = 47 studies), blind to each other's codes; agreement is assessed with Cohen's κ for the categorical moderators and ICC(2, 1) for the continuous cDAI index, against the Landis and Koch (1977) thresholds (κ ≥ 0.70; ICC ≥ 0.80). Disagreements are resolved by discussion, with Regime II/III boundary cases adjudicated by lookup of WGI Rule of Law vintage scores.
 
 **Table 4.1, Sample composition** *(K = 288 effect sizes, k = 238 coded studies)*
 
@@ -1402,7 +1402,7 @@ reference year, may attenuate the moderation coefficient. Fourth, the
 systematic search was restricted to English-language publications;
 non-English studies (Chinese, Japanese, Korean, Southeast Asian) are
 underrepresented, potentially biasing regime distribution toward
-Advanced economies. Fifth, reliability was established on a 20% double-coded subsample (*k* = 47 studies), with the two authors coding independently and agreement reported in Table 3.1; the remaining 80% was single-coded by the first author against the codebook, which, while standard for resource-bounded syntheses, cannot be independently validated.
+Advanced economies. Fifth, reliability is established on a 20% double-coded subsample (*k* = 47 studies), with the two authors coding independently and agreement reported in Table 3.1; the remaining 80% is single-coded by the first author against the codebook, which, while standard for resource-bounded syntheses, cannot be independently validated.
 
 **Future research.** Three directions follow directly from the null
 moderator findings. First, a formal WoS/Scopus systematic search

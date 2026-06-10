@@ -193,7 +193,7 @@ The primary search covered Web of Science (SSCI, SCI-E, ESCI) and Scopus, the mo
 
 ### 3.2 Eligibility and selection
 
-Two screeners applied criteria in two stages (title/abstract, then full text), with a third reviewer adjudicating. Included: private-sector firms (government equity ≤ 50%; financial sector excluded) with internationalization measured by FSTS, entropy, foreign-market count, transnationality, or FDI ratio, and performance measured by accounting (ROA/ROE/ROS), market (Tobin's Q, returns), or productivity (labor productivity, TFP) indicators, reporting an extractable effect (r; β convertible via Peterson & Brown, 2005; t or F with df). The main analysis was restricted to peer-reviewed journal articles and in-press articles with DOI; dissertations, theses, working/conference papers, book chapters, and reports were excluded to hold peer-review standards constant (grey literature logged in the PRISMA flow only). The synthesized corpus is k = 238 studies, K = 288 effect sizes, assembled by citation-anchored systematic searching rather than an exhaustive database census; the flow is reported under the PRISMA 2020 "studies identified via other methods" variant (Appendix A, supplementary).
+The two authors independently applied criteria in two stages (title/abstract, then full text), resolving disagreements by discussion. Included: private-sector firms (government equity ≤ 50%; financial sector excluded) with internationalization measured by FSTS, entropy, foreign-market count, transnationality, or FDI ratio, and performance measured by accounting (ROA/ROE/ROS), market (Tobin's Q, returns), or productivity (labor productivity, TFP) indicators, reporting an extractable effect (r; β convertible via Peterson & Brown, 2005; t or F with df). The main analysis was restricted to peer-reviewed journal articles and in-press articles with DOI; dissertations, theses, working/conference papers, book chapters, and reports were excluded to hold peer-review standards constant (grey literature logged in the PRISMA flow only). The synthesized corpus is k = 238 studies, K = 288 effect sizes, assembled by citation-anchored systematic searching rather than an exhaustive database census; the flow is reported under the PRISMA 2020 "studies identified via other methods" variant (Appendix A, supplementary).
 
 ### 3.3 Extraction and reliability
 
@@ -223,7 +223,7 @@ Publication bias was assessed with Egger's regression (Egger et al., 1997), Begg
 
 *k* = 238 studies (coded), *K* = 288 effect sizes.
 
-**Table 3.1, Inter-coder reliability** *(two authors independently coded a 20% stratified subsample, k = 47 studies, blind to each other's codes)*
+**Table 3.1, Inter-coder reliability** *(two authors independently code a 20% stratified subsample, k = 47 studies, blind to each other's codes)*
 
 | Moderator | Variable type | Statistic | Value | Target threshold |
 |---------------------|------------------|-----------|-------|------------------|
@@ -234,7 +234,7 @@ Publication bias was assessed with Egger's regression (Egger et al., 1997), Begg
 | Performance measure | Categorical (4) | Cohen's κ | [insert after dual-coding] | ≥ 0.70 |
 | cDAI score | Continuous (0–1) | ICC(2, 1) | [insert after dual-coding] | ≥ 0.80 |
 
-*Note.* The full corpus was coded by the first author against the standardized codebook (Appendix B). For reliability, the two authors independently coded a 20% stratified subsample (k = 47 studies), blind to each other's codes; agreement was assessed with Cohen's κ for the categorical moderators and ICC(2, 1) for the continuous cDAI index, against the Landis and Koch (1977) thresholds (κ ≥ 0.70; ICC ≥ 0.80). Disagreements were resolved by discussion, with Regime II/III boundary cases adjudicated by lookup of WGI Rule of Law vintage scores.
+*Note.* The full corpus is coded by the first author against the standardized codebook (Appendix B). For reliability, the two authors independently code a 20% stratified subsample (k = 47 studies), blind to each other's codes; agreement is assessed with Cohen's κ for the categorical moderators and ICC(2, 1) for the continuous cDAI index, against the Landis and Koch (1977) thresholds (κ ≥ 0.70; ICC ≥ 0.80). Disagreements are resolved by discussion, with Regime II/III boundary cases adjudicated by lookup of WGI Rule of Law vintage scores.
 
 **Table 4.1, Sample composition** *(K = 288 effect sizes, k = 238 coded studies)*
 
@@ -688,7 +688,7 @@ reference year, may attenuate the moderation coefficient. Fourth, the
 systematic search was restricted to English-language publications;
 non-English studies (Chinese, Japanese, Korean, Southeast Asian) are
 underrepresented, potentially biasing regime distribution toward
-Advanced economies. Fifth, reliability was established on a 20% double-coded subsample (*k* = 47 studies), with the two authors coding independently and agreement reported in Table 3.1; the remaining 80% was single-coded by the first author against the codebook, which, while standard for resource-bounded syntheses, cannot be independently validated.
+Advanced economies. Fifth, reliability is established on a 20% double-coded subsample (*k* = 47 studies), with the two authors coding independently and agreement reported in Table 3.1; the remaining 80% is single-coded by the first author against the codebook, which, while standard for resource-bounded syntheses, cannot be independently validated.
 
 **Future research.** Three directions follow directly from the null
 moderator findings. First, a formal WoS/Scopus systematic search

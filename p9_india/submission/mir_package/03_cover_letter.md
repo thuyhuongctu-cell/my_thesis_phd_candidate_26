@@ -22,7 +22,7 @@ First, this is the **first firm-level cross-wave threshold-stability test for In
 
 Second, the manuscript **decomposes the Digital Adoption Index** into Tier-1 (private website binary, available all waves) and Tier-2 (e-payment percentage via UPI rails, 2025 BREADY only). This distinction is theoretically novel and policy-relevant: if Tier-2 dominates Tier-1, the binding constraint on SME exporter productivity is **public digital infrastructure rather than private capability**, with direct implications for digital-policy investment.
 
-Third, the manuscript **replicates and extends** the threshold-durability finding documented for China (Author Citation P5, under review at IJOEM, 2026) and Vietnam (Author Citation P3, under review at JED, 2026) to the South Asian context. If India also exhibits durability under far more severe institutional change, the structural-durability claim gains substantial external validity.
+Third, the manuscript tests whether the threshold stability documented in less turbulent emerging-market settings extends to India, and finds that **it does not**: under India's far more severe institutional transformation the inverted-U threshold **dissolves rather than relocates**. This identifies an environmental scope condition, institutional stability, for the canonical inverted-U claim, a boundary that the cross-country literature has assumed but never tested with multi-wave firm-level data. Companion single-country analyses by the authors (Vietnam and China) are in preparation.
 
 **Prior Related Work, Transparent Disclosure**
 
@@ -37,7 +37,7 @@ The present manuscript is **fundamentally different**:
 | IV specification | Linear DOI | Quadratic FSTS + FSTS² |
 | Moderators | TMT experience + gender | TCI + DAI Tier-1 + DAI Tier-2 |
 | Method | FGLS panel | OLS-HC1 + Lind-Mehlum + Paternoster z |
-| Sample | 760 obs (380 matched firms) | Up to ~22,000 obs (full WBES, 3 waves) |
+| Sample | 760 obs (380 matched firms) | 28,717 analytic obs (full WBES, 3 waves) |
 | Research question | TMT moderation effect | Threshold durability + digital moderation |
 
 We have included a self-citation in the literature review acknowledging the prior work transparently. We confirm that the empirical analysis reported in the present manuscript has not been published in whole or in substantive part. A full differentiation memo is included in the replication package.
