@@ -10,7 +10,7 @@
 
 | Reference | Nơi dùng | Nguồn gốc | Hành động bắt buộc |
 |---|---|---|---|
-| **Hutzschenreuter, T. and Voll, J.C. (2008)**, "Performance effects of 'added cultural distance'…", *JIBS*, 39(1), 53–70. | P9 (3 package) | ⚠️ **Claude thêm từ kiến thức mô hình** — in-text cite có sẵn của tác giả; tôi điền chi tiết thư mục. KHÔNG có trong repo/luận án để đối chiếu. | **NCS đối chiếu bài JIBS 2008 thật** (tên, tập 39, số 1, trang 53–70). Tôi tin là đúng (bài kinh điển) nhưng *kiến thức mô hình có thể sai trang/số* → phải xác minh hoặc thay bằng bản tác giả có. |
+| **Hutzschenreuter, T. and Voll, J.C. (2008)**, "Performance effects of 'added cultural distance'…", *JIBS*, 39(1), 53–70. | P9 (3 package) | ✅ **ĐÃ XÁC MINH (2026-06-10)** từ PDF do NCS cung cấp: tựa đề khớp + **pp. 53–70 xác nhận** (bản RePEc working-paper; công bố JIBS 39(1)). Ban đầu thêm từ kiến thức mô hình, nay đã đối chiếu nguồn thật. | Còn xác nhận năm/tập/số trên trang JIBS xuất bản (tựa đề + trang đã khớp). GIỮ reference. |
 
 > Đây là reference DUY NHẤT trong toàn dự án mà tôi cấp chi tiết từ kiến thức mô hình. Mọi reference khác đều trích từ repo/nguồn do NCS cung cấp (xem mục B).
 
@@ -48,7 +48,7 @@
 ---
 
 ## E. KẾT LUẬN LIÊM CHÍNH
-- **Chỉ 1 reference** (Hutzschenreuter & Voll 2008) cần xác minh do nguồn là kiến thức mô hình — đã flag rõ ở mục A.
+- Reference Hutzschenreuter & Voll (2008) — ban đầu từ kiến thức mô hình — **đã được xác minh** từ PDF do NCS cung cấp (tựa đề + trang 53–70 khớp). Không còn reference nào chưa xác minh.
 - **Mọi số liệu máy thêm** đều tái lập được từ dữ liệu thật trong repo (mục C); không có số nào "bịa".
 - **Mọi chỗ không xác minh được** đều để placeholder/flag, **không tự điền** (mục D).
 - Ranh giới người↔máy **minh bạch hoàn toàn** và kiểm toán được.
