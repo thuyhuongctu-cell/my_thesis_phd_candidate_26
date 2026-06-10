@@ -442,7 +442,7 @@ Bảng 2.4. Mapping biến đầy đủ: khái niệm lý thuyết, biến WBES,
 | TCI | Năng lực CN nội tại | b8, h8, h1, e6 | z-mean(≥3/4 items) | β > 0 (trực tiếp) | H2 |
 | DAI | Áp dụng số nền tảng | c22b; k33/k38 | z-mean (Tier 1+2) | Phụ thuộc ngữ cảnh | H3 |
 | FSTS×TCI | Điều tiết TCI |, | tương tác | β_mod: phụ thuộc ngữ cảnh | H2 |
-| FSTS²×DAI | DAI tình huống |, | tương tác | β > 0 (Nhóm I); null (Nhóm IV, IV) | H3 |
+| FSTS²×DAI | DAI tình huống |, | tương tác | β > 0 (Nhóm I); null (Nhóm III, IV) | H3 |
 | exp_manager | Kinh nghiệm QL | b5 | năm kinh nghiệm | β > 0 (δ_exp > 0) | H4a |
 | educ_manager | Học vấn QL | b7a | thứ tự | β > 0 (δ_educ > 0) | H4b |
 | gender_manager | Giới tính QL | b7 | binary female=1 | Exploratory, two-sided | H4c |
@@ -566,7 +566,7 @@ Bảng 2.5. Hệ giả thuyết H1–H6, tóm tắt cơ chế, biến, kỳ vọ
 | H5 | Gradient ICRV | Institutional Theory | ICRV_j × FSTS | TP gradient; Nhóm VI gánh nặng tắt buộc | Phân tán LP tăng theo chế độ (CĐ1) |
 | H6 | Không đồng nhất thời gian | Thay đổi cấu trúc | Year_bucket × FSTS | β(FSTS×Year) ≠ 0 | P3 Paternoster p < 0, 001; P5 TCI p = 0, 011 |
 
-Chín giả thuyết (H1a–H1b, H2, H3a–H3b với H3c distinctiveness, H4a–H4c, H5, H6) tạo thành hệ thống logic nhất quán: H1a/H1b (phi tuyến, biên tham gia vs biên cường độ) là trọng tâm; H2 (TCI nâng mặt bằng) và H3a/H3b (DAI phụ thuộc regime) phân rã cơ chế năng lực doanh nghiệp với dấu kỳ vọng khác nhau theo ngữ cảnh; H4a–H4c (Quản trị) bổ sung tầng Upper Echelons với dấu kỳ vọng phân biệt theo đặc điểm nhà quản trị; H5 (ICRV gradient) là tầng thể chế bao trùm; H6 (Thời gian) là tầng động.
+Mười một mệnh đề con dưới sáu giả thuyết chính H1–H6 (H1a–H1b, H2, H3a–H3b với H3c distinctiveness, H4a–H4c, H5, H6) tạo thành hệ thống logic nhất quán: H1a/H1b (phi tuyến, biên tham gia vs biên cường độ) là trọng tâm; H2 (TCI nâng mặt bằng) và H3a/H3b (DAI phụ thuộc regime) phân rã cơ chế năng lực doanh nghiệp với dấu kỳ vọng khác nhau theo ngữ cảnh; H4a–H4c (Quản trị) bổ sung tầng Upper Echelons với dấu kỳ vọng phân biệt theo đặc điểm nhà quản trị; H5 (ICRV gradient) là tầng thể chế bao trùm; H6 (Thời gian) là tầng động.
 
 Tích hợp cả sáu giả thuyết trong M7 (điều tiết ba chiều) cho phép kiểm định xem TCI và DAI là bổ sung (β(TCI×DAI×FSTS) > 0) hay thay thế (β < 0) trong điều tiết I→P ở Nhóm I, câu hỏi chưa được trả lời trong bất kỳ nghiên cứu I→P nào trước đây.
 

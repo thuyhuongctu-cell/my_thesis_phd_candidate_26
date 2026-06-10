@@ -441,7 +441,7 @@ Bảng 2.4. Mapping biến đầy đủ: khái niệm lý thuyết — biến WB
 | TCI | Năng lực CN nội tại | b8, h8, h1, e6 | z-mean(≥3/4 items) | β > 0 (trực tiếp) | H2 |
 | DAI | Áp dụng số nền tảng | c22b; k33/k38 | z-mean (Tier 1+2) | Phụ thuộc ngữ cảnh | H3 |
 | FSTS×TCI | Điều tiết TCI | — | tương tác | β_mod: phụ thuộc ngữ cảnh | H2 |
-| FSTS²×DAI | DAI tình huống | — | tương tác | β > 0 (Nhóm I); null (Nhóm IV, IV) | H3 |
+| FSTS²×DAI | DAI tình huống | — | tương tác | β > 0 (Nhóm I); null (Nhóm III, IV) | H3 |
 | exp_manager | Kinh nghiệm QL | b5 | năm kinh nghiệm | β > 0 (δ_exp > 0) | H4a |
 | educ_manager | Học vấn QL | b7a | thứ tự | β > 0 (δ_educ > 0) | H4b |
 | gender_manager | Giới tính QL | b7 | binary female=1 | Exploratory, two-sided | H4c |
@@ -466,7 +466,7 @@ H1–H3 và H5 là xác nhận (dấu rõ, ≥2 bằng chứng neo đậu từ P
 
 Cơ sở lý thuyết: Mô hình Uppsala (Johanson & Vahlne, 1977) đề xuất quốc tế hóa diễn ra theo ba giai đoạn với tốc độ và đặc điểm chi phí-lợi ích khác nhau. Contractor và cộng sự (2003) và Lu và Beamish (2004) hình thức hóa ba giai đoạn thành S-curve: giai đoạn học tập tốn kém; giai đoạn hái quả; giai đoạn quá mức. Với các doanh nghiệp vừa và nhỏ châu Á trong WBES, giai đoạn đầu ngắn, do đó dạng chữ U ngược (H1 bậc hai, M1) có thể mạnh hơn S-curve đầy đủ (H1 bậc ba, M2).
 
-Điểm uốn khác nhau theo chế độ và giảm dần theo chiều thể chế mạnh hơn: Nhóm I có **điểm uốn thấp nhất (~28%, P7 toàn mẫu)** — thể chế mạnh giúp doanh nghiệp đạt đỉnh hiệu suất ở mức FSTS thấp hơn; Nhóm III có điểm uốn trung bình (47–49%); Nhóm IV có điểm uốn trung bình–thấp (39–46%); Nhóm V có điểm uốn cao (~50–55%). Nhóm VI có pattern gánh nặng tắt buộc — không có chữ U ngược điển hình. Lưu ý: P4 Singapore (TP ~88,6%) là ngoại lệ đơn quốc gia với LM p = 0,303 (không có ý nghĩa), không đại diện cho mẫu Nhóm I trong P7.
+Điểm uốn khác nhau theo chế độ và giảm dần theo chiều thể chế mạnh hơn: Nhóm I có **điểm uốn thấp nhất (~28% — regime Advanced-Innovation; P7 pooled toàn mẫu ~36%)** — thể chế mạnh giúp doanh nghiệp đạt đỉnh hiệu suất ở mức FSTS thấp hơn; Nhóm III có điểm uốn trung bình (47–49%); Nhóm IV có điểm uốn trung bình–thấp (39–46%); Nhóm V có điểm uốn cao (~50–55%). Nhóm VI có pattern gánh nặng tắt buộc — không có chữ U ngược điển hình. Lưu ý: P4 Singapore (TP ~88,6%) là ngoại lệ đơn quốc gia với LM p = 0,303 (không có ý nghĩa), không đại diện cho mẫu Nhóm I trong P7.
 
 Bằng chứng neo đậu: P3 Việt Nam (Nhóm IV): Lind–Mehlum p < 0,001 (tổng hợp), điểm uốn 39–46%. P5 Trung Quốc (Nhóm III): Lind–Mehlum xác nhận hai sóng, điểm uốn 47–49%. P4 Singapore (Nhóm I): Lind–Mehlum p = 0,303 — chủ yếu dương, điểm uốn ~88,6% (gần trần).
 
@@ -532,7 +532,7 @@ Dự đoán điểm uốn theo nhóm ICRV:
 
 | ICRV Nhóm | Điểm uốn dự kiến | Cơ sở |
 |-----------|------------------|-------|
-| Nhóm I (tiên tiến đổi mới) | **~28% FSTS (P7 toàn mẫu)** | P7 pooled (N=84,910): TP ~28% (thấp nhất); P4 Singapore TP ~88,6% là ngoại lệ đơn quốc gia (LM p = 0,303, không có ý nghĩa) |
+| Nhóm I (tiên tiến đổi mới) | **~28% FSTS (regime Advanced-Innovation; pooled toàn mẫu ~36%)** | P7 pooled (N=84,910): TP ~36%; regime Advanced-Innovation ~28% (thấp nhất); P4 Singapore TP ~88,6% là ngoại lệ đơn quốc gia (LM p = 0,303, không có ý nghĩa) |
 | Nhóm II (tiên tiến tài nguyên) | Không xác định / yếu dương | FDI/tài nguyên chiếm ưu thế |
 | Nhóm III (trung bình cao) | ~45–55% FSTS | P5 Trung Quốc TP 47–49% |
 | Nhóm IV (đang nổi) | ~35–46% FSTS | P3 Việt Nam TP 39–46% |
@@ -565,7 +565,7 @@ Bảng 2.5. Hệ giả thuyết H1–H6 — tóm tắt cơ chế, biến, kỳ v
 | H5 | Gradient ICRV | Institutional Theory | ICRV_j × FSTS | TP gradient; Nhóm VI gánh nặng tắt buộc | Phân tán LP tăng theo chế độ (CĐ1) |
 | H6 | Không đồng nhất thời gian | Thay đổi cấu trúc | Year_bucket × FSTS | β(FSTS×Year) ≠ 0 | P3 Paternoster p < 0,001; P5 TCI p = 0,011 |
 
-Chín giả thuyết (H1a–H1b, H2, H3a–H3b với H3c distinctiveness, H4a–H4c, H5, H6) tạo thành hệ thống logic nhất quán: H1a/H1b (phi tuyến — biên tham gia vs biên cường độ) là trọng tâm; H2 (TCI nâng mặt bằng) và H3a/H3b (DAI phụ thuộc regime) phân rã cơ chế năng lực doanh nghiệp với dấu kỳ vọng khác nhau theo ngữ cảnh; H4a–H4c (Quản trị) bổ sung tầng Upper Echelons với dấu kỳ vọng phân biệt theo đặc điểm nhà quản trị; H5 (ICRV gradient) là tầng thể chế bao trùm; H6 (Thời gian) là tầng động.
+Mười một mệnh đề con dưới sáu giả thuyết chính H1–H6 (H1a–H1b, H2, H3a–H3b với H3c distinctiveness, H4a–H4c, H5, H6) tạo thành hệ thống logic nhất quán: H1a/H1b (phi tuyến — biên tham gia vs biên cường độ) là trọng tâm; H2 (TCI nâng mặt bằng) và H3a/H3b (DAI phụ thuộc regime) phân rã cơ chế năng lực doanh nghiệp với dấu kỳ vọng khác nhau theo ngữ cảnh; H4a–H4c (Quản trị) bổ sung tầng Upper Echelons với dấu kỳ vọng phân biệt theo đặc điểm nhà quản trị; H5 (ICRV gradient) là tầng thể chế bao trùm; H6 (Thời gian) là tầng động.
 
 Tích hợp cả sáu giả thuyết trong M7 (điều tiết ba chiều) cho phép kiểm định xem TCI và DAI là bổ sung (β(TCI×DAI×FSTS) > 0) hay thay thế (β < 0) trong điều tiết I→P ở Nhóm I — câu hỏi chưa được trả lời trong bất kỳ nghiên cứu I→P nào trước đây.
 
