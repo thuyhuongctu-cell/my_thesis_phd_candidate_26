@@ -174,8 +174,8 @@ FSTS OR "foreign sales to total sales" AND Asia
 ### 4.1 Quy trình sàng lọc (Screening Process)
 
 **Giai đoạn 1 — Title/Abstract Screening**:
-- 2 reviewers độc lập sàng lọc tất cả records theo PICOS
-- Bất đồng → thảo luận → đồng thuận (hoặc reviewer thứ 3)
+- Hai tác giả độc lập sàng lọc tất cả records theo PICOS
+- Bất đồng được giải quyết bằng thảo luận giữa hai tác giả theo quy tắc định trước
 - Độ tin cậy giữa hai tác giả (mã hóa độc lập): tính Cohen's κ (ngưỡng: κ ≥ 0,70, Landis & Koch 1977)
 
 **Giai đoạn 2 — Full-Text Review**:

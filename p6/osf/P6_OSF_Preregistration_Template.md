@@ -34,9 +34,9 @@
 **Temporal coverage:** January 1977 – March 2026. **Language:** English (Vietnamese where a convertible effect size is confirmed).
 
 ## 5. Search strategy
-**Primary databases:** Web of Science Core Collection (SSCI/SCI-E/ESCI) and Scopus. **Supplementary:** ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight, OpenAlex. **Hand-search:** backward + forward citation tracking from five anchor meta-analyses (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Arte & Larimo, 2022).
+The corpus is assembled through a **systematic but bounded, citation-anchored strategy** rather than an exhaustive database census, and is reported under the PRISMA 2020 "studies identified via other methods" variant. The anchor set is five benchmark meta-analyses (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Arte & Larimo, 2022); their reference lists (backward citation) and forward-citation networks (Google Scholar) are screened. This is **supplemented** by targeted structured queries in Web of Science Core Collection (SSCI/SCI-E/ESCI), Scopus, and specialist databases (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight, OpenAlex) to check coverage of the citation network — these queries supplement the citation-anchored search rather than constitute a standalone census.
 
-**WoS Topic string:**
+**Supplementary query string (WoS Topic field):**
 ```
 TS=(internationaliz* OR internationalis* OR multinationality OR "degree of internationalization"
     OR "international diversification" OR "geographic diversification" OR "foreign sales" OR FSTS
@@ -48,10 +48,10 @@ AND TS=("firm performance" OR "enterprise performance" OR "corporate performance
     OR "total factor productivity" OR "firm efficiency")
 AND TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
 ```
-An equivalent Scopus `TITLE-ABS-KEY` string with `DOCTYPE(ar) AND LANGUAGE(english) AND PUBYEAR AFT 1976` is applied identically; the Scopus string was validated against a 30-paper known-item set (recall 29/30 = 97%).
+An equivalent Scopus `TITLE-ABS-KEY` string with `DOCTYPE(ar) AND LANGUAGE(english) AND PUBYEAR AFT 1976` is applied. These queries are used to supplement and cross-check the citation-anchored corpus, not as an exhaustive census.
 
 ## 6. Screening protocol
-Two independent screeners apply the criteria in two stages — (L1) title/abstract, (L2) full text — with a third reviewer adjudicating disagreements by a predetermined rule. Decisions and exclusion reasons are logged for the PRISMA 2020 flow diagram.
+The **two authors** independently apply the eligibility criteria in two stages, (L1) title/abstract and (L2) full text, resolving disagreements by discussion following a predetermined rule. Decisions and exclusion reasons are logged for the PRISMA 2020 flow diagram ("studies identified via other methods" variant).
 
 ## 7. Data extraction & coding
 **Effect-size priority order:** (1) Pearson r (as-is); (2) standardized β → r_partial = β × 0.98 (Peterson & Brown, 2005); (3) t with N → r = √[t²/(t²+df)] (Cohen, 1988); (4) F with df₁ = 1 → r = √[F/(F+df₂)] (Rosenthal, 1994). For multiple effects per study, distinct subsamples are coded as independent effects; for multiple specifications on one sample, the most fully controlled model is retained.
