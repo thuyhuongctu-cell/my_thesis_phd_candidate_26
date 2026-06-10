@@ -108,3 +108,14 @@ Afghanistan, Armenia, Bahrain, Bangladesh, Bhutan, Brunei, China, Fiji, Georgia,
 → **Để re-lock CĐ1 đầy đủ:** commit/upload 43 raw `.dta` này vào `data_wbes/raw_dta/`. Khi đó tôi: mở rộng build script giữ R&D/ISO/đổi mới → dựng pool rich 49 nước → re-lock toàn bộ CĐ1+CĐ2+thesis một pass nhất quán → regenerate docx → chạy MASTER kiểm tra.
 
 **Trong khi chờ:** phần re-lock cấu trúc/membership cho CĐ2 + thesis (không cần R&D/innovation) làm được ngay từ master .dta hiện có.
+
+---
+
+## H. ĐÃ THỰC THI — CĐ2 structural re-lock (2026-06-10, từ master .dta)
+✅ CĐ2 re-lock hoàn toàn về khung **49 nền/91.982** (canonical từ master `.dta`):
+- Bảng 2.8 + Bảng 2.11 + §2.1.1: n_firms canonical (I 4.222·II 2.269·III 13.993·IV 50.926·V 18.569·VI 1.885 = 91.864) + membership theo nhãn dữ liệu (Oman→II; Bangladesh/Pakistan→IV; Sri Lanka/Jordan→V; Timor-Leste→VI) + crosswalk tên-CĐ↔icrv_label.
+- 101.185→91.982, 47→49 toàn bộ (VN + EN abstract); 5+5+6+7+17+7→5+6+6+7+17+8.
+- P8: chính 7-Pacific/N=209/β=−1,339; robustness 9-nước.
+- Đồng bộ `chuyen_de/cd2` + `dist/source_md` + docx. **0 tham chiếu cũ còn lại.**
+
+⏳ **CĐ1 descriptive** (R&D/ISO/đổi mới/sd-LP theo nhóm) vẫn chờ 43 raw `.dta` (Mục G). CĐ2↔luận án giờ khớp; CĐ1 sẽ khớp khi có 43 file.

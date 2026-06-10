@@ -75,8 +75,8 @@ Bảng 2.8 (dòng 720-728): I~6.500 · II~8.500 · III~18.000 · IV~28.000 · V~
 |---|---|---|---|
 | 1 | 🟥 | **Sửa phát biểu gradient H5/H1**: bỏ "đơn điệu" hoặc giải thích III>IV (TP 47–49 > 39–46 dù III mạnh hơn) bằng cơ chế phụ (GVC/cấu trúc xuất khẩu), không phải chỉ "gradient thể chế" | §2.3.4 H1 (dòng 473), H5 (dòng 542) |
 | 2 | 🟥 | ~~Sửa "P7 toàn mẫu TP ~28%" → **pooled 36% / Advanced ~28%**~~ ✅ ĐÃ SỬA 2026-06-10 | §2.3.4 dòng 469, 535 |
-| 3 | 🟥 | Đồng bộ **n_firms theo ICRV** (Bảng 2.8) với bộ chuẩn CĐ1; sửa **SIDS 5.185 → 1.371** | Bảng 2.8 |
-| 4 | 🟧 | Sửa P8 mô tả: chính = 7 Pacific/N=209/β=−1,339; 9-nước/N≈1.469 là robustness; đối chiếu β | §2.4.3 Hướng 3 |
+| 3 | 🟥 | ~~Đồng bộ n_firms Bảng 2.8; SIDS 5.185→1.371~~ ✅ ĐÃ RE-LOCK 2026-06-10 (canonical 49-frame từ master .dta) | Bảng 2.8 |
+| 4 | 🟧 | ~~Sửa P8 mô tả~~ ✅ ĐÃ SỬA 2026-06-10 (chính 7-Pacific/N=209/β=−1,339; robustness 9-nước) | §2.4.3 |
 | 5 | 🟧 | ~~Chuẩn hóa đếm giả thuyết; sửa "Chín"~~ ✅ ĐÃ SỬA 2026-06-10 (→ 11 mệnh đề con dưới 6 giả thuyết chính) | dòng 568 |
 | 6 | 🟧 | Bỏ tuyên bố "nested ladder"; nêu cặp so sánh AIC/BIC hợp lệ (nhánh từ M1) | §2.3.5, Đóng góp 5 |
 | 7 | 🟧 | Sắp lại thứ tự tầng Bảng 2.1 (1→2→3→4); thêm crosswalk "tên ICRV CĐ ↔ icrv_label dữ liệu" | Bảng 2.1, §2.3.6 |
