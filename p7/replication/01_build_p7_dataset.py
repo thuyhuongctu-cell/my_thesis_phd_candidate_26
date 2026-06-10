@@ -304,6 +304,17 @@ def build_firm_record(df: pd.DataFrame, country: str, year: int, region: str) ->
     else:
         rows["tci_z"] = np.nan
 
+    # Innovation module (WBES Section H) — needed for CĐ1 Bảng 2.3.4.1
+    # h1 = introduced new/improved product (binary)
+    # h5 = introduced new/improved process (binary)
+    # h8 = spent on R&D activities last 3 yrs (binary)
+    h1 = extract_var(df, ["h1"])
+    rows["product_innov"] = recode_binary_yn(h1) if h1 is not None else np.nan
+    h5 = extract_var(df, ["h5"])
+    rows["process_innov"] = recode_binary_yn(h5) if h5 is not None else np.nan
+    h8 = extract_var(df, ["h8"])
+    rows["rd_spending"] = recode_binary_yn(h8) if h8 is not None else np.nan
+
     # Top manager
     b7 = extract_var(df, ["b7"])
     if b7 is not None:

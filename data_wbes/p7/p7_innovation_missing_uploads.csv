@@ -1,0 +1,96 @@
+country,year,n_firms,region,icrv_label
+Cyprus,2019,240,West Asia,Advanced_innovation
+HongKong,2023,598,East Asia,Advanced_innovation
+Israel,2013,483,West Asia,Advanced_innovation
+Israel,2024,388,West Asia,Advanced_innovation
+Singapore,2023,623,Southeast Asia,Advanced_innovation
+Bahrain,2024,150,West Asia,Advanced_resource
+Brunei,2025,150,Southeast Asia,Advanced_resource
+Kuwait,2025,150,West Asia,Advanced_resource
+Oman,2003,337,West Asia,Advanced_resource
+Qatar,2025,480,West Asia,Advanced_resource
+SaudiArabia,2025,1002,West Asia,Advanced_resource
+Afghanistan,2014,410,South Asia,Emerging
+Afghanistan,2025,426,South Asia,Emerging
+Bhutan,2009,250,South Asia,Emerging
+Bhutan,2015,253,South Asia,Emerging
+Bhutan,2024,155,South Asia,Emerging
+Cambodia,2013,472,Southeast Asia,Emerging
+Cambodia,2016,373,Southeast Asia,Emerging
+Cambodia,2023,519,Southeast Asia,Emerging
+Iraq,2011,756,West Asia,Emerging
+Iraq,2022,1019,West Asia,Emerging
+Jordan,2013,573,West Asia,Emerging
+Jordan,2019,601,West Asia,Emerging
+Jordan,2024,592,West Asia,Emerging
+KyrgyzRepublic,2009,235,Central Asia,Emerging
+KyrgyzRepublic,2013,270,Central Asia,Emerging
+KyrgyzRepublic,2019,360,Central Asia,Emerging
+KyrgyzRepublic,2023,354,Central Asia,Emerging
+Laos,2016,368,Southeast Asia,Emerging
+Laos,2018,332,Southeast Asia,Emerging
+Lebanon,2009,382,West Asia,Emerging
+Lebanon,2013,561,West Asia,Emerging
+Lebanon,2019,532,West Asia,Emerging
+Maldives,2025,154,South Asia,Emerging
+Myanmar,2014,632,Southeast Asia,Emerging
+Myanmar,2016,607,Southeast Asia,Emerging
+Nepal,2023,582,South Asia,Emerging
+SriLanka,2011,610,South Asia,Emerging
+SriLanka,2025,607,South Asia,Emerging
+Tajikistan,2013,359,Central Asia,Emerging
+Tajikistan,2019,352,Central Asia,Emerging
+Tajikistan,2024,364,Central Asia,Emerging
+Turkmenistan,2024,311,Central Asia,Emerging
+Uzbekistan,2013,390,Central Asia,Emerging
+Uzbekistan,2019,1239,Central Asia,Emerging
+Uzbekistan,2024,1008,Central Asia,Emerging
+Yemen,2010,477,West Asia,Emerging
+Yemen,2013,353,West Asia,Emerging
+Bangladesh,2013,1442,South Asia,Lower_mid_transition
+Bangladesh,2022,998,South Asia,Lower_mid_transition
+Indonesia,2009,1444,Southeast Asia,Lower_mid_transition
+Indonesia,2015,1320,Southeast Asia,Lower_mid_transition
+Indonesia,2023,2955,Southeast Asia,Lower_mid_transition
+Mongolia,2009,362,East Asia,Lower_mid_transition
+Mongolia,2013,360,East Asia,Lower_mid_transition
+Mongolia,2019,360,East Asia,Lower_mid_transition
+Mongolia,2025,601,East Asia,Lower_mid_transition
+Pakistan,2013,1247,South Asia,Lower_mid_transition
+Pakistan,2022,1300,South Asia,Lower_mid_transition
+Philippines,2009,2652,Southeast Asia,Lower_mid_transition
+Philippines,2015,2670,Southeast Asia,Lower_mid_transition
+Philippines,2023,1002,Southeast Asia,Lower_mid_transition
+Vietnam,2009,1053,Southeast Asia,Lower_mid_transition
+Vietnam,2015,996,Southeast Asia,Lower_mid_transition
+Vietnam,2023,1028,Southeast Asia,Lower_mid_transition
+Fiji,2009,164,Pacific,SIDS_small
+Fiji,2025,151,Pacific,SIDS_small
+Kiribati,2025,150,Pacific,SIDS_small
+PapuaNewGuinea,2015,65,Pacific,SIDS_small
+PapuaNewGuinea,2024,145,Pacific,SIDS_small
+Samoa,2023,157,Pacific,SIDS_small
+SolomonIslands,2025,150,Pacific,SIDS_small
+TimorLeste,2009,150,Southeast Asia,SIDS_small
+TimorLeste,2015,126,Southeast Asia,SIDS_small
+TimorLeste,2021,238,Southeast Asia,SIDS_small
+Tonga,2024,150,Pacific,SIDS_small
+Vanuatu,2009,128,Pacific,SIDS_small
+Vanuatu,2023,111,Pacific,SIDS_small
+Armenia,2009,374,West Asia,Upper_mid
+Armenia,2013,360,West Asia,Upper_mid
+Armenia,2020,546,West Asia,Upper_mid
+Armenia,2024,375,West Asia,Upper_mid
+China,2024,2189,East Asia,Upper_mid
+Georgia,2013,360,West Asia,Upper_mid
+Georgia,2019,581,West Asia,Upper_mid
+Georgia,2023,592,West Asia,Upper_mid
+Kazakhstan,2009,544,Central Asia,Upper_mid
+Kazakhstan,2013,600,Central Asia,Upper_mid
+Kazakhstan,2019,1446,Central Asia,Upper_mid
+Kazakhstan,2024,1013,Central Asia,Upper_mid
+Malaysia,2015,1000,Southeast Asia,Upper_mid
+Malaysia,2019,1221,Southeast Asia,Upper_mid
+Malaysia,2024,979,Southeast Asia,Upper_mid
+Thailand,2016,1000,Southeast Asia,Upper_mid
+Thailand,2025,813,Southeast Asia,Upper_mid

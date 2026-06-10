@@ -1,108 +1,108 @@
-country,year,n_firms,region,icrv_group,icrv_label
-Kazakhstan,2009,544,Central Asia,3.0,Upper_mid
-Kazakhstan,2013,600,Central Asia,3.0,Upper_mid
-Kazakhstan,2019,1446,Central Asia,3.0,Upper_mid
-Kazakhstan,2024,1013,Central Asia,3.0,Upper_mid
-KyrgyzRepublic,2009,235,Central Asia,5.0,Emerging
-KyrgyzRepublic,2013,270,Central Asia,5.0,Emerging
-KyrgyzRepublic,2019,360,Central Asia,5.0,Emerging
-KyrgyzRepublic,2023,354,Central Asia,5.0,Emerging
-Tajikistan,2013,359,Central Asia,5.0,Emerging
-Tajikistan,2019,352,Central Asia,5.0,Emerging
-Tajikistan,2024,364,Central Asia,5.0,Emerging
-Turkmenistan,2024,311,Central Asia,5.0,Emerging
-Uzbekistan,2013,390,Central Asia,5.0,Emerging
-Uzbekistan,2019,1239,Central Asia,5.0,Emerging
-Uzbekistan,2024,1008,Central Asia,5.0,Emerging
-China,2024,2189,East Asia,3.0,Upper_mid
-HongKong,2023,598,East Asia,1.0,Advanced_innovation
-Korea,2024,1518,East Asia,1.0,Advanced_innovation
-Mongolia,2009,362,East Asia,4.0,Lower_mid_transition
-Mongolia,2013,360,East Asia,4.0,Lower_mid_transition
-Mongolia,2019,360,East Asia,4.0,Lower_mid_transition
-Mongolia,2025,601,East Asia,4.0,Lower_mid_transition
-Taiwan,2024,612,East Asia,1.0,Advanced_innovation
-Comoros,2025,153,Indian Ocean SIDS,6.0,SIDS_small
-Fiji,2009,164,Pacific,6.0,SIDS_small
-Fiji,2025,151,Pacific,6.0,SIDS_small
-Kiribati,2025,150,Pacific,6.0,SIDS_small
-PapuaNewGuinea,2015,65,Pacific,6.0,SIDS_small
-PapuaNewGuinea,2024,145,Pacific,6.0,SIDS_small
-Samoa,2023,157,Pacific,6.0,SIDS_small
-SolomonIslands,2025,150,Pacific,6.0,SIDS_small
-Tonga,2024,150,Pacific,6.0,SIDS_small
-Vanuatu,2009,128,Pacific,6.0,SIDS_small
-Vanuatu,2023,111,Pacific,6.0,SIDS_small
-Afghanistan,2014,410,South Asia,5.0,Emerging
-Afghanistan,2025,426,South Asia,5.0,Emerging
-Bangladesh,2013,1442,South Asia,4.0,Lower_mid_transition
-Bangladesh,2022,998,South Asia,4.0,Lower_mid_transition
-Bhutan,2009,250,South Asia,5.0,Emerging
-Bhutan,2015,253,South Asia,5.0,Emerging
-Bhutan,2024,155,South Asia,5.0,Emerging
-India,2014,9281,South Asia,4.0,Lower_mid_transition
-India,2022,9376,South Asia,4.0,Lower_mid_transition
-India,2025,10479,South Asia,4.0,Lower_mid_transition
-Maldives,2025,154,South Asia,5.0,Emerging
-Nepal,2023,582,South Asia,5.0,Emerging
-Pakistan,2013,1247,South Asia,4.0,Lower_mid_transition
-Pakistan,2022,1300,South Asia,4.0,Lower_mid_transition
-SriLanka,2011,610,South Asia,5.0,Emerging
-SriLanka,2025,607,South Asia,5.0,Emerging
-Brunei,2025,150,Southeast Asia,2.0,Advanced_resource
-Cambodia,2013,472,Southeast Asia,5.0,Emerging
-Cambodia,2016,373,Southeast Asia,5.0,Emerging
-Cambodia,2023,519,Southeast Asia,5.0,Emerging
-Indonesia,2009,1444,Southeast Asia,4.0,Lower_mid_transition
-Indonesia,2015,1320,Southeast Asia,4.0,Lower_mid_transition
-Indonesia,2023,2955,Southeast Asia,4.0,Lower_mid_transition
-Laos,2016,368,Southeast Asia,5.0,Emerging
-Laos,2018,332,Southeast Asia,5.0,Emerging
-Laos,2024,363,Southeast Asia,5.0,Emerging
-Malaysia,2015,1000,Southeast Asia,3.0,Upper_mid
-Malaysia,2019,1221,Southeast Asia,3.0,Upper_mid
-Malaysia,2024,979,Southeast Asia,3.0,Upper_mid
-Myanmar,2014,632,Southeast Asia,5.0,Emerging
-Myanmar,2016,607,Southeast Asia,5.0,Emerging
-Philippines,2009,2652,Southeast Asia,4.0,Lower_mid_transition
-Philippines,2015,2670,Southeast Asia,4.0,Lower_mid_transition
-Philippines,2023,1002,Southeast Asia,4.0,Lower_mid_transition
-Singapore,2023,623,Southeast Asia,1.0,Advanced_innovation
-Thailand,2016,1000,Southeast Asia,3.0,Upper_mid
-Thailand,2025,813,Southeast Asia,3.0,Upper_mid
-TimorLeste,2009,150,Southeast Asia,6.0,SIDS_small
-TimorLeste,2015,126,Southeast Asia,6.0,SIDS_small
-TimorLeste,2021,238,Southeast Asia,6.0,SIDS_small
-Vietnam,2009,1053,Southeast Asia,4.0,Lower_mid_transition
-Vietnam,2015,996,Southeast Asia,4.0,Lower_mid_transition
-Vietnam,2023,1028,Southeast Asia,4.0,Lower_mid_transition
-Armenia,2009,374,West Asia,3.0,Upper_mid
-Armenia,2013,360,West Asia,3.0,Upper_mid
-Armenia,2020,546,West Asia,3.0,Upper_mid
-Armenia,2024,375,West Asia,3.0,Upper_mid
-Azerbaijan,2024,368,West Asia,5.0,Emerging
-Bahrain,2024,150,West Asia,2.0,Advanced_resource
-Cyprus,2019,240,West Asia,1.0,Advanced_innovation
-Cyprus,2024,246,West Asia,1.0,Advanced_innovation
-Georgia,2013,360,West Asia,3.0,Upper_mid
-Georgia,2019,581,West Asia,3.0,Upper_mid
-Georgia,2023,592,West Asia,3.0,Upper_mid
-Iraq,2011,756,West Asia,5.0,Emerging
-Iraq,2022,1019,West Asia,5.0,Emerging
-Israel,2013,483,West Asia,1.0,Advanced_innovation
-Israel,2024,388,West Asia,1.0,Advanced_innovation
-Jordan,2013,573,West Asia,5.0,Emerging
-Jordan,2019,601,West Asia,5.0,Emerging
-Jordan,2024,592,West Asia,5.0,Emerging
-Kuwait,2025,150,West Asia,2.0,Advanced_resource
-Lebanon,2009,382,West Asia,5.0,Emerging
-Lebanon,2013,561,West Asia,5.0,Emerging
-Lebanon,2019,532,West Asia,5.0,Emerging
-Oman,2003,337,West Asia,2.0,Advanced_resource
-Qatar,2025,480,West Asia,2.0,Advanced_resource
-SaudiArabia,2025,1002,West Asia,2.0,Advanced_resource
-Turkey,2008,1152,West Asia,3.0,Upper_mid
-Turkey,2013,1344,West Asia,3.0,Upper_mid
-Turkey,2024,1416,West Asia,3.0,Upper_mid
-Yemen,2010,477,West Asia,5.0,Emerging
-Yemen,2013,353,West Asia,5.0,Emerging
+country,year,n_firms,region,icrv_group,icrv_label,n_product_innov,n_process_innov,n_rd_spending
+Kazakhstan,2009,544,Central Asia,3.0,Upper_mid,0,0,0
+Kazakhstan,2013,600,Central Asia,3.0,Upper_mid,0,0,0
+Kazakhstan,2019,1446,Central Asia,3.0,Upper_mid,0,0,0
+Kazakhstan,2024,1013,Central Asia,3.0,Upper_mid,0,0,0
+KyrgyzRepublic,2009,235,Central Asia,5.0,Emerging,0,0,0
+KyrgyzRepublic,2013,270,Central Asia,5.0,Emerging,0,0,0
+KyrgyzRepublic,2019,360,Central Asia,5.0,Emerging,0,0,0
+KyrgyzRepublic,2023,354,Central Asia,5.0,Emerging,0,0,0
+Tajikistan,2013,359,Central Asia,5.0,Emerging,0,0,0
+Tajikistan,2019,352,Central Asia,5.0,Emerging,0,0,0
+Tajikistan,2024,364,Central Asia,5.0,Emerging,0,0,0
+Turkmenistan,2024,311,Central Asia,5.0,Emerging,0,0,0
+Uzbekistan,2013,390,Central Asia,5.0,Emerging,0,0,0
+Uzbekistan,2019,1239,Central Asia,5.0,Emerging,0,0,0
+Uzbekistan,2024,1008,Central Asia,5.0,Emerging,0,0,0
+China,2024,2189,East Asia,3.0,Upper_mid,0,0,0
+HongKong,2023,598,East Asia,1.0,Advanced_innovation,0,0,0
+Korea,2024,1518,East Asia,1.0,Advanced_innovation,1511,1511,1512
+Mongolia,2009,362,East Asia,4.0,Lower_mid_transition,0,0,0
+Mongolia,2013,360,East Asia,4.0,Lower_mid_transition,0,0,0
+Mongolia,2019,360,East Asia,4.0,Lower_mid_transition,0,0,0
+Mongolia,2025,601,East Asia,4.0,Lower_mid_transition,0,0,0
+Taiwan,2024,612,East Asia,1.0,Advanced_innovation,611,610,611
+Comoros,2025,153,Indian Ocean SIDS,6.0,SIDS_small,153,153,153
+Fiji,2009,164,Pacific,6.0,SIDS_small,0,0,0
+Fiji,2025,151,Pacific,6.0,SIDS_small,0,0,0
+Kiribati,2025,150,Pacific,6.0,SIDS_small,0,0,0
+PapuaNewGuinea,2015,65,Pacific,6.0,SIDS_small,0,0,0
+PapuaNewGuinea,2024,145,Pacific,6.0,SIDS_small,0,0,0
+Samoa,2023,157,Pacific,6.0,SIDS_small,0,0,0
+SolomonIslands,2025,150,Pacific,6.0,SIDS_small,0,0,0
+Tonga,2024,150,Pacific,6.0,SIDS_small,0,0,0
+Vanuatu,2009,128,Pacific,6.0,SIDS_small,0,0,0
+Vanuatu,2023,111,Pacific,6.0,SIDS_small,0,0,0
+Afghanistan,2014,410,South Asia,5.0,Emerging,0,0,0
+Afghanistan,2025,426,South Asia,5.0,Emerging,0,0,0
+Bangladesh,2013,1442,South Asia,4.0,Lower_mid_transition,0,0,0
+Bangladesh,2022,998,South Asia,4.0,Lower_mid_transition,0,0,0
+Bhutan,2009,250,South Asia,5.0,Emerging,0,0,0
+Bhutan,2015,253,South Asia,5.0,Emerging,0,0,0
+Bhutan,2024,155,South Asia,5.0,Emerging,0,0,0
+India,2014,9281,South Asia,4.0,Lower_mid_transition,9270,9262,9232
+India,2022,9376,South Asia,4.0,Lower_mid_transition,9372,9365,9364
+India,2025,10479,South Asia,4.0,Lower_mid_transition,10476,10474,10478
+Maldives,2025,154,South Asia,5.0,Emerging,0,0,0
+Nepal,2023,582,South Asia,5.0,Emerging,0,0,0
+Pakistan,2013,1247,South Asia,4.0,Lower_mid_transition,0,0,0
+Pakistan,2022,1300,South Asia,4.0,Lower_mid_transition,0,0,0
+SriLanka,2011,610,South Asia,5.0,Emerging,0,0,0
+SriLanka,2025,607,South Asia,5.0,Emerging,0,0,0
+Brunei,2025,150,Southeast Asia,2.0,Advanced_resource,0,0,0
+Cambodia,2013,472,Southeast Asia,5.0,Emerging,0,0,0
+Cambodia,2016,373,Southeast Asia,5.0,Emerging,0,0,0
+Cambodia,2023,519,Southeast Asia,5.0,Emerging,0,0,0
+Indonesia,2009,1444,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Indonesia,2015,1320,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Indonesia,2023,2955,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Laos,2016,368,Southeast Asia,5.0,Emerging,0,0,0
+Laos,2018,332,Southeast Asia,5.0,Emerging,0,0,0
+Laos,2024,363,Southeast Asia,5.0,Emerging,363,363,362
+Malaysia,2015,1000,Southeast Asia,3.0,Upper_mid,0,0,0
+Malaysia,2019,1221,Southeast Asia,3.0,Upper_mid,0,0,0
+Malaysia,2024,979,Southeast Asia,3.0,Upper_mid,0,0,0
+Myanmar,2014,632,Southeast Asia,5.0,Emerging,0,0,0
+Myanmar,2016,607,Southeast Asia,5.0,Emerging,0,0,0
+Philippines,2009,2652,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Philippines,2015,2670,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Philippines,2023,1002,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Singapore,2023,623,Southeast Asia,1.0,Advanced_innovation,0,0,0
+Thailand,2016,1000,Southeast Asia,3.0,Upper_mid,0,0,0
+Thailand,2025,813,Southeast Asia,3.0,Upper_mid,0,0,0
+TimorLeste,2009,150,Southeast Asia,6.0,SIDS_small,0,0,0
+TimorLeste,2015,126,Southeast Asia,6.0,SIDS_small,0,0,0
+TimorLeste,2021,238,Southeast Asia,6.0,SIDS_small,0,0,0
+Vietnam,2009,1053,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Vietnam,2015,996,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Vietnam,2023,1028,Southeast Asia,4.0,Lower_mid_transition,0,0,0
+Armenia,2009,374,West Asia,3.0,Upper_mid,0,0,0
+Armenia,2013,360,West Asia,3.0,Upper_mid,0,0,0
+Armenia,2020,546,West Asia,3.0,Upper_mid,0,0,0
+Armenia,2024,375,West Asia,3.0,Upper_mid,0,0,0
+Azerbaijan,2024,368,West Asia,5.0,Emerging,363,360,341
+Bahrain,2024,150,West Asia,2.0,Advanced_resource,0,0,0
+Cyprus,2019,240,West Asia,1.0,Advanced_innovation,0,0,0
+Cyprus,2024,246,West Asia,1.0,Advanced_innovation,246,246,246
+Georgia,2013,360,West Asia,3.0,Upper_mid,0,0,0
+Georgia,2019,581,West Asia,3.0,Upper_mid,0,0,0
+Georgia,2023,592,West Asia,3.0,Upper_mid,0,0,0
+Iraq,2011,756,West Asia,5.0,Emerging,0,0,0
+Iraq,2022,1019,West Asia,5.0,Emerging,0,0,0
+Israel,2013,483,West Asia,1.0,Advanced_innovation,0,0,0
+Israel,2024,388,West Asia,1.0,Advanced_innovation,0,0,0
+Jordan,2013,573,West Asia,5.0,Emerging,0,0,0
+Jordan,2019,601,West Asia,5.0,Emerging,0,0,0
+Jordan,2024,592,West Asia,5.0,Emerging,0,0,0
+Kuwait,2025,150,West Asia,2.0,Advanced_resource,0,0,0
+Lebanon,2009,382,West Asia,5.0,Emerging,0,0,0
+Lebanon,2013,561,West Asia,5.0,Emerging,0,0,0
+Lebanon,2019,532,West Asia,5.0,Emerging,0,0,0
+Oman,2003,337,West Asia,2.0,Advanced_resource,0,0,0
+Qatar,2025,480,West Asia,2.0,Advanced_resource,0,0,0
+SaudiArabia,2025,1002,West Asia,2.0,Advanced_resource,0,0,0
+Turkey,2008,1152,West Asia,3.0,Upper_mid,1148,0,0
+Turkey,2013,1344,West Asia,3.0,Upper_mid,1319,1317,0
+Turkey,2024,1416,West Asia,3.0,Upper_mid,1406,1401,1401
+Yemen,2010,477,West Asia,5.0,Emerging,0,0,0
+Yemen,2013,353,West Asia,5.0,Emerging,0,0,0
