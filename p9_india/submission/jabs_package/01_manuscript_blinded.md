@@ -32,7 +32,7 @@
 
 **Originality/value.** This provides the first firm-level evidence that extreme institutional transformation can dissolve, rather than relocate, the inverted-U threshold, identifying a previously untested scope condition: the threshold is conditional on institutional stability.
 
-**Keywords:** internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; emerging markets; Conditional Digital Capability Moderation.
+**Keywords:** internationalisation–performance; export intensity; threshold stability; India; UPI; technological capability; institutional transformation; Conditional Digital Capability Moderation.
 
 **JEL classification:** F23 (multinational firms; international business); O33 (technological change: choices and consequences); D22 (firm behaviour: empirical analysis); L25 (firm performance); O53 (economywide country studies: Asia); O25 (industrial policy).
 

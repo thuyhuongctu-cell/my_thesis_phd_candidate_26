@@ -31,7 +31,7 @@
 
 ### P7 — Capstone → **JIBS** (Springer, APA)
 - Manuscript: `p7/submission/jibs_package/01_manuscript_blinded.md` (.docx)
-- Title + Cover: `p7/submission/jibs_package/02_title_page_source.md`, `03_cover_letter_source.md` *(đổi tên thành 02_title_page/03_cover_letter khi upload)*
+- Title + Cover: `p7/submission/jibs_package/02_title_page.md`, `03_cover_letter.md`
 - Bản dịch VI: `p7/submission/p7_capstone_vi.docx`
 - ⏳ Trước nộp: không có cổng dữ liệu lớn; chỉ rà ref/format cuối.
 
