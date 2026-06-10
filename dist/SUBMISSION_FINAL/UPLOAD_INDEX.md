@@ -27,7 +27,7 @@
 ### P6 — Meta-analysis → **JWB** (Elsevier, APA)
 - Manuscript: `p6/submission/jwb_package/01_manuscript_blinded.md` (.docx) · Title + Cover: `…/02_title_page.docx`, `03_cover_letter.docx`
 - Bản dịch VI: `p6/submission/p6_meta_vi.docx`
-- ⏳ **Cổng chính (đường găng):** điền κ/ICC (mã hóa kép 2 tác giả) vào 6 ô `[insert after dual-coding]`; đăng ký OSF → DOI. *(Off-by-one đã sửa — lỗi gõ count, không cần chạy lại Q_M.)*
+- ⏳ **Cổng chính (đường găng):** (1) mã hóa kép — toolkit sẵn ở `p6/icr/` (rút mẫu k=47 + script κ/ICC); điền 6 ô `[insert after dual-coding]`; (2) đăng ký OSF → DOI; (3) 3 điểm lệch Bảng 3.1 ↔ database (DOI 6≠4, cDAI ordinal≠continuous, industry sector không có cột) — xem `reviews/SESSION_DELIVERABLES_2026-06-10.md` §C2. *(Off-by-one đã sửa.)*
 
 ### P7 — Capstone → **JIBS** (Springer, APA)
 - Manuscript: `p7/submission/jibs_package/01_manuscript_blinded.md` (.docx)
