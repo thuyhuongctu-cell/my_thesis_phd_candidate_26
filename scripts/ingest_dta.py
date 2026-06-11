@@ -17,54 +17,56 @@ import shutil
 import tempfile
 import zipfile
 
-# CamelCase / known multi-word country tokens -> hyphenated
-COUNTRY_FIX = {
-    "TimorLeste": "Timor-Leste",
-    "Timor": "Timor-Leste",
-    "SriLanka": "Sri-Lanka",
-    "TaiwanChina": "Taiwan-China",
-    "HongKongSARChina": "HongKong-SAR-China",
-    "KoreaRepublic": "Korea-Republic",
-    "Korearepublic": "Korea-Republic",
-    "KyrgyzRepublic": "Kyrgyz-Republic",
-    "Kyrgyzrepublic": "Kyrgyz-Republic",
-    "BruneiDarussalam": "Brunei-Darussalam",
-    "LaoPDR": "Lao-PDR",
-    "LaoInformal": "Lao-Informal",
-    "CambodiaInformal": "Cambodia-Informal",
+# Canonical country names, keyed by lowercased string with separators removed.
+COUNTRY_NORM = {
+    "timorleste": "Timor-Leste", "timor": "Timor-Leste",
+    "srilanka": "Sri-Lanka",
+    "taiwanchina": "Taiwan-China", "taiwan": "Taiwan-China",
+    "hongkongsarchina": "HongKong-SAR-China", "hongkong": "HongKong-SAR-China",
+    "korearepublic": "Korea-Republic", "korea": "Korea-Republic", "korearep": "Korea-Republic",
+    "kyrgyzrepublic": "Kyrgyz-Republic", "kyrgyz": "Kyrgyz-Republic",
+    "bruneidarussalam": "Brunei-Darussalam", "brunei": "Brunei-Darussalam",
+    "laopdr": "Lao-PDR", "lao": "Lao-PDR", "laos": "Lao-PDR",
+    "laoinformal": "Lao-Informal",
+    "cambodiainformal": "Cambodia-Informal",
+    "indiamicro": "India-Micro",
+    "vietnam": "Vietnam", "vietnam-": "Vietnam",
+    "republicofcyprus": "Cyprus", "cyprus": "Cyprus",
 }
-# suffix token normalisation (applied after the year block)
-SUFFIX_FIX = [
-    ("fulldataLongForm", "full-data-LongForm"),
-    ("ISBSfulldata", "ISBS-full-data"),
-    ("ESISfulldata", "ESIS-full-data"),
-    ("ISESfulldata", "ISES-full-data"),
-    ("Microfulldata", "Micro-full-data"),
-    ("fulldata", "full-data"),
-    ("full_data", "full-data"),
-    ("fullESN2700data", "full-ESN2700-data"),
-    ("paneldata", "panel-data"),
-    ("panel_data", "panel-data"),
-]
+SUFFIX_FIX = [("fulldata", "full-data"), ("full data", "full-data"),
+              ("paneldata", "panel-data"), ("esn2700", "ES-N2700")]
 HASH_RE = re.compile(r"^[0-9a-f]{6,}-")
 YEAR_RE = re.compile(r"((?:19|20)\d{2})")
 
 
+def _country(raw: str) -> str:
+    key = re.sub(r"[ _\-]", "", raw).lower()
+    if key in COUNTRY_NORM:
+        return COUNTRY_NORM[key]
+    # unknown: collapse separators to single dash, keep capitalisation
+    return re.sub(r"[ _]+", "-", raw.strip(" _-")) or "Unknown"
+
+
 def clean_name(raw: str, panel: bool = False) -> str:
-    base = HASH_RE.sub("", raw).replace(" ", "")
-    base = re.sub(r"\.dta$", "", base, flags=re.I)
-    m = re.match(r"^([A-Za-z]+)(.*)$", base)          # leading letters = country
-    country_raw, rest = (m.group(1), m.group(2)) if m else (base, "")
-    country = COUNTRY_FIX.get(country_raw, country_raw)
-    years = YEAR_RE.findall(rest)
+    base = HASH_RE.sub("", raw)
+    base = re.sub(r"\.dta$", "", base, flags=re.I).strip()
+    ym = YEAR_RE.search(base)
+    if ym:
+        country = _country(base[:ym.start()])
+        years = YEAR_RE.findall(base)
+        suffix = YEAR_RE.sub("", base[ym.start():])
+    else:
+        country, years, suffix = _country(base), [], ""
     year_part = "_".join(years) if years else "NA"
-    if panel:                                          # underscore style (matches existing panels)
-        return f"{country}_{year_part}.dta"
-    suffix = YEAR_RE.sub("", rest).strip("_-")         # dash style for cross-sections
+    # Auto-detect panel: 2+ year tokens and no descriptive suffix
+    suffix_clean = re.sub(r"[ _\-]+", "-", suffix).strip("-")
     for a, b in SUFFIX_FIX:
-        suffix = suffix.replace(a, b)
-    suffix = suffix.strip("_-") or "full-data"
-    return f"{country}-{year_part}-{suffix}.dta"
+        suffix_clean = re.sub(re.escape(a), b, suffix_clean, flags=re.I)
+    suffix_clean = re.sub(r"-{2,}", "-", suffix_clean).strip("-")
+    is_panel = panel or (len(years) >= 2 and suffix_clean in ("", "data", "panel-data"))
+    if is_panel:
+        return f"{country}_{year_part}.dta"
+    return f"{country}-{year_part}-{suffix_clean or 'full-data'}.dta"
 
 
 def ingest(src: str, dest: str, dry: bool) -> None:
@@ -73,19 +75,23 @@ def ingest(src: str, dest: str, dry: bool) -> None:
     # plain .dta
     for f in sorted(glob.glob(os.path.join(src, "*.dta"))):
         _place(f, clean_name(os.path.basename(f)), dest, dry, seen)
-    # panel zips
+    # every zip that holds .dta members (panel archives + bundles)
     for z in sorted(glob.glob(os.path.join(src, "*.zip"))):
-        if not re.search(r"panel", os.path.basename(z), re.I):
+        try:
+            zf = zipfile.ZipFile(z)
+        except Exception as e:
+            print(f"  ⚠ zip {os.path.basename(z)}: {e}")
             continue
-        with tempfile.TemporaryDirectory() as tmp:
-            try:
-                with zipfile.ZipFile(z) as zf:
-                    zf.extractall(tmp)
-            except Exception as e:
-                print(f"  ⚠ zip {os.path.basename(z)}: {e}")
-                continue
-            for f in glob.glob(os.path.join(tmp, "**", "*.dta"), recursive=True):
-                _place(f, clean_name(os.path.basename(f), panel=True), dest, dry, seen)
+        members = [m for m in zf.namelist() if m.lower().endswith(".dta")]
+        for m in members:
+            with tempfile.TemporaryDirectory() as tmp:
+                try:                       # extract each member alone — skip bad CRC
+                    zf.extract(m, tmp)
+                except Exception as e:
+                    print(f"  ⚠ {os.path.basename(z)}::{os.path.basename(m)}: {type(e).__name__}")
+                    continue
+                _place(os.path.join(tmp, m), clean_name(os.path.basename(m)), dest, dry, seen)
+        zf.close()
 
 
 def _place(src_path, name, dest, dry, seen):
