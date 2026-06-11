@@ -22,6 +22,12 @@
       "env": {
         "DATA360_API_BASE_URL": "https://data360api.worldbank.org"
       }
+    },
+    "oecd": {
+      "command": "node",
+      "args": [
+        "tools/mcp/OECD-MCP-main/dist/index.js"
+      ]
     }
   }
 }

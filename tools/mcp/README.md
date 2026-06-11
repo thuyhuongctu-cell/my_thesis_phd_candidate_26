@@ -44,6 +44,26 @@ này, Claude Code sẽ đề nghị bật chúng.
 - Khi không có mạng WB: dùng pipeline Python cục bộ trong `scripts/` (đủ cho
   mọi phân tích WBES của luận án vì raw .dta đã nằm trong repo).
 
+## 4. OECD MCP server (`OECD-MCP-main/`)
+Truy cập 5.000+ bộ dữ liệu thống kê OECD qua SDMX API. Đã build sẵn (`dist/`).
+- Chạy: `node tools/mcp/OECD-MCP-main/dist/index.js` (đã khai báo trong `.mcp.json` là `oecd`).
+
+## 5. TAM MCP Server (`TAM-MCP-Server-main/`)
+Một server gộp 8 nguồn: Alpha Vantage, BLS, Census, FRED, IMF, Nasdaq, OECD, World Bank.
+**Chưa kích hoạt** — cần build (`npm install && npm run build`) và cấp API keys
+(xem `.env.example`: FRED_API_KEY, BLS_API_KEY, CENSUS_API_KEY…). Kích hoạt khi NCS có keys.
+
+## 6. Công cụ kinh tế khác (`tools/econ/`)
+- `awesome-econ-ai-stuff-main/` — nguồn 17 skill kinh tế (đã cài vào `.claude/skills/`:
+  stata-regression, stata-data-cleaning, python-panel-data, r-econometrics,
+  econ-visualization, latex-tables, latex-econ-model, beamer-presentation,
+  academic-paper-writer, lit-review-assistant, research-ideation, api-data-fetcher,
+  general-equilibrium-model-builder, sdd, techdebt, code-simplifier, commit-push-pr).
+- `overleaf-sync-now-master/` — đồng bộ LaTeX cục bộ ↔ Overleaf (skill `overleaf-sync-now` đã cài).
+- `AI-research-setup-main/` — hướng dẫn cài Claude Code/Codex cho nghiên cứu kinh tế.
+- `cline-main/` — Cline (VS Code agent): KHÔNG vendor vào git (56MB; là extension cài
+  trong VS Code — xem hướng dẫn trong repo gốc github.com/cline/cline).
+
 ## Liên kết phương pháp luận
 - `thesis/phu_luc_A_hop_nhat_du_lieu_vi.md` — quy trình hợp nhất dữ liệu (Phụ lục A)
 - `.claude/skills/stata-wbes-runner/` — skill chạy Stata/Python tái lập P3–P9
