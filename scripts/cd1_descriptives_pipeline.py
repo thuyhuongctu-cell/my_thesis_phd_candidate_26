@@ -51,7 +51,7 @@ COUNTRY_MAP = {
     "Viet": "Vietnam", "VietNam": "Vietnam", "Turkiye": "Turkey",
 }
 YESNO = ["h1", "h5", "h8", "b8", "c22b", "b7a", "b4"]
-NEED = YESNO + ["j7a", "j30f", "b5", "d3b", "d3c", "l1"]
+NEED = YESNO + ["j7a", "j30f", "b5", "d3b", "d3c", "l1", "l2", "b2b"]
 
 
 def icrv_map():
@@ -127,6 +127,16 @@ def extract(path):
         yr = file_year(path)
         age = yr - d["b5"].where(d["b5"].between(1800, yr))
         out["firm_age"] = age.where((age >= 0) & (age <= 200))
+    if "b2b" in d:                        # % owned by foreign private entities
+        fo = d["b2b"].where(d["b2b"].between(0, 100))
+        out["fdi10"] = (fo >= 10).astype(float).where(fo.notna())
+    if "l1" in d:                         # SME = <100 permanent workers
+        w = d["l1"].where(d["l1"] > 0)
+        out["sme"] = (w < 100).astype(float).where(w.notna())
+        if "l2" in d:                     # employment CAGR over 3 fiscal years
+            w0 = d["l2"].where(d["l2"] > 0)
+            cagr = ((w / w0) ** (1 / 3) - 1) * 100
+            out["emp_cagr"] = cagr.where(cagr.between(-50, 100))
     if "d3b" in d or "d3c" in d:
         parts = [d[v].where(d[v].between(0, 100)) for v in ("d3b", "d3c") if v in d]
         fsts = parts[0].fillna(0)
@@ -167,12 +177,12 @@ def main():
         for v, name in [("h1", "product_innov_pct"), ("h5", "process_innov_pct"),
                         ("h8", "rd_pct"), ("b8", "iso_cert_pct"),
                         ("c22b", "website_pct"), ("b7a", "female_topmgr_pct"),
-                        ("b4", "female_owner_pct"), ("exporter", "exporter_pct"),
+                        ("b4", "female_owner_pct"), ("exporter", "exporter_pct"), ("fdi10", "fdi10_pct"), ("sme", "sme_pct"),
                         ("corr_major", "corruption_major_pct")]:
             if v in d:
                 row[name] = round(100 * d[v].mean(), 1)
         for v, name in [("fsts", "fsts_mean"), ("bribe_pct", "bribe_pct_sales_mean"),
-                        ("firm_age", "firm_age_mean")]:
+                        ("firm_age", "firm_age_mean"), ("emp_cagr", "emp_cagr_mean")]:
             if v in d:
                 row[name] = round(d[v].mean(), 1)
         stats.append(row)
