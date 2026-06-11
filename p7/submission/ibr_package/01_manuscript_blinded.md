@@ -517,7 +517,7 @@ that the inverted-U peak occurs at lower export intensities in
 stronger-institution economies (lower ICRV number), and is more
 pronounced in weaker-institution economies. Decomposing by ICRV group:
 for Group I economies (Advanced innovation-driven), the estimated
-turning point is approximately 28%; for Group V–VI (Frontier/SIDS), the
+turning point is approximately 28%; for Group V–VI (Emerging/SIDS), the
 estimated turning point is approximately 55%. This pattern is consistent
 with firms in institutionally advanced economies recouping
 internationalization costs at lower export intensities, while firms in

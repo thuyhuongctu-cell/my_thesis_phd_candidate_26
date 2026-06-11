@@ -27,7 +27,7 @@ Bài viết này xem xét liệu mối quan hệ quốc tế hóa–hiệu quả
 - DAI là nhân tố điều tiết năng lực chính định hình lại đường cong I–P; tác động nén của DAI có ý nghĩa thống kê ngay cả khi chưa kiểm soát đặc điểm nhà quản lý.
 - TCI nâng cao mức hiệu quả doanh nghiệp một cách nhất quán nhưng không định hình lại đường cong trong mẫu 49 nền kinh tế.
 - ICRV điều tiết cả độ dốc lẫn độ cong I–P; tương tác DAI×ICRV (p =, 012) cho thấy DAI mang lại lợi nhuận mạnh hơn ở môi trường thể chế yếu hơn.
-- Điểm ngưỡng TP dao động từ ~28% (Nhóm I, Advanced Innovation) đến ~55% (Nhóm V–VI, Frontier/SIDS).
+- Điểm ngưỡng TP dao động từ ~28% (Nhóm I, Advanced Innovation) đến ~55% (Nhóm V–VI, Emerging/SIDS).
 
 ---
 
@@ -175,7 +175,7 @@ Kinh nghiệm nhà quản lý (β = +0, 007, p =, 026) và nhà quản lý nữ 
 
 Tác động chính nhóm ICRV (β = +0, 763, p <, 001) cho thấy, khi kiểm soát TCI, DAI và đặc điểm doanh nghiệp, mỗi bậc tiến lên thang đo ICRV (từ Nhóm I đến Nhóm VI, tức từ thể chế mạnh hơn đến yếu hơn) tương quan với mức năng suất lao động cao hơn khoảng 115% (exp(0, 763) − 1 ≈ 115%). Hệ số ICRV *dương tính* phản trực giác này phản ánh rằng doanh số-trên-mỗi-lao-động danh nghĩa cao hơn ở các nền kinh tế có mức giá thấp hơn (điển hình của các nền kinh tế tiên phong/đang nổi), và FE quốc gia-năm không được đưa vào M10 để bảo tồn chế độ thể chế như nhân tố điều tiết trọng tâm.
 
-Liên quan hơn cho H5 là các số hạng tương tác: FSTS×ICRV (β = +1, 762, p <, 001) và FSTS²×ICRV (β = −2, 746, p <, 001). Điều này cho thấy độ dốc lên của đường cong I–P dốc hơn ở các nền kinh tế thể chế yếu hơn (nhóm ICRV cao hơn), nhưng độ dốc xuống cũng vậy, có nghĩa là đỉnh của hình chữ U ngược xảy ra ở mức cường độ xuất khẩu thấp hơn trong các nền kinh tế thể chế mạnh hơn (số ICRV thấp hơn) và rõ ràng hơn trong các nền kinh tế thể chế yếu hơn. Phân tách theo nhóm ICRV: với các nền kinh tế Nhóm I (Advanced Innovation, Đổi mới tiên tiến), điểm ngưỡng ước tính là khoảng 28%; với Nhóm V–VI (Frontier/SIDS, Tiên phong/Quốc đảo Nhỏ), điểm ngưỡng ước tính là khoảng 55%. Mẫu này nhất quán với các doanh nghiệp trong các nền kinh tế thể chế tiên tiến thu hồi chi phí quốc tế hóa ở mức cường độ xuất khẩu thấp hơn, trong khi các doanh nghiệp trong môi trường thể chế yếu hơn cần cam kết xuất khẩu lớn hơn để đạt đỉnh hiệu quả.
+Liên quan hơn cho H5 là các số hạng tương tác: FSTS×ICRV (β = +1, 762, p <, 001) và FSTS²×ICRV (β = −2, 746, p <, 001). Điều này cho thấy độ dốc lên của đường cong I–P dốc hơn ở các nền kinh tế thể chế yếu hơn (nhóm ICRV cao hơn), nhưng độ dốc xuống cũng vậy, có nghĩa là đỉnh của hình chữ U ngược xảy ra ở mức cường độ xuất khẩu thấp hơn trong các nền kinh tế thể chế mạnh hơn (số ICRV thấp hơn) và rõ ràng hơn trong các nền kinh tế thể chế yếu hơn. Phân tách theo nhóm ICRV: với các nền kinh tế Nhóm I (Advanced Innovation, Đổi mới tiên tiến), điểm ngưỡng ước tính là khoảng 28%; với Nhóm V–VI (Emerging/SIDS, Mới nổi/Quốc đảo Nhỏ), điểm ngưỡng ước tính là khoảng 55%. Mẫu này nhất quán với các doanh nghiệp trong các nền kinh tế thể chế tiên tiến thu hồi chi phí quốc tế hóa ở mức cường độ xuất khẩu thấp hơn, trong khi các doanh nghiệp trong môi trường thể chế yếu hơn cần cam kết xuất khẩu lớn hơn để đạt đỉnh hiệu quả.
 
 **H5 được ủng hộ.** Chế độ thể chế ICRV điều tiết có hệ thống cả độ dốc lẫn độ cong của hàm I–P, với thể chế mạnh hơn tương quan với đỉnh hiệu quả sớm hơn (mức FSTS thấp hơn).
 
