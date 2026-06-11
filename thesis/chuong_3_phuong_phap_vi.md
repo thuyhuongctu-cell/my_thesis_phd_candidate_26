@@ -280,7 +280,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 
 ### 3.4.5.3 Mô hình cụ thể — Nghiên cứu 5 (Trung Quốc, WBES 2012 và 2024)
 
-Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: N = 1.934; pooled N = 4.544). Thiết kế đa sóng không panel (217 doanh nghiệp xuất hiện cả hai sóng tạo thành "panel core" được sử dụng cho cluster-robust SE). Ký hiệu tiếng Việt:
+Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.619; 2024: N = 1.940; pooled N = 4.559). Thiết kế đa sóng không panel (217 doanh nghiệp xuất hiện cả hai sóng tạo thành "panel core" được sử dụng cho cluster-robust SE). Ký hiệu tiếng Việt:
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (biến phụ thuộc)
 - **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
