@@ -1,0 +1,7 @@
+group,n_firms,product_innov_pct,process_innov_pct,rd_pct,iso_cert_pct,website_pct,female_topmgr_pct,female_owner_pct,exporter_pct,corruption_major_pct,fsts_mean,bribe_pct_sales_mean,firm_age_mean
+Advanced_innovation,4222,24.3,14.7,20.5,35.0,61.7,27.5,32.5,28.4,2.9,13.4,0.2,23.0
+Advanced_resource,300,53.9,33.6,22.6,42.5,83.3,17.0,42.9,23.1,4.2,9.4,0.1,23.5
+Upper_mid,16693,26.7,18.9,21.5,31.4,56.9,26.0,42.0,21.7,8.9,10.3,0.7,15.3
+Lower_mid_transition,55675,17.1,14.7,15.5,35.9,48.3,10.8,31.2,14.3,22.7,8.1,1.7,20.1
+Emerging,16880,23.7,16.2,15.8,11.9,39.1,15.4,25.6,17.4,21.1,10.4,0.9,15.0
+SIDS_small,753,20.6,15.0,5.7,6.6,28.9,30.2,40.1,10.4,24.9,6.9,2.5,12.0
