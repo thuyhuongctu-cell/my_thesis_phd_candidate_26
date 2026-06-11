@@ -1,0 +1,234 @@
+% =====================================================================
+% P8 — The Forced Internationalization Penalty (FIP): a monotone-negative
+%       I-P boundary condition in Pacific Small Island Developing States
+% WORKING DRAFT submission framework (Springer-compatible).
+%
+% COMPILE:
+%   pdflatex p8_sids_fip.tex  (twice) ; bibtex p8_sids_fip ; pdflatex (x2)
+% NOTE: No pdflatex was available in the build environment. Uses standard
+%   `article` class (Springer sn-jnl.cls is not bundled here). Swap the
+%   class/title block for sn-jnl when submitting to a Springer journal.
+%
+% INTEGRITY NOTE: Every numeric value is verbatim from the dissertation
+%   (chuong_4_ket_qua_vi.md sec 4.7 / 4.9; methods from phu_luc_A). Full
+%   regression tables absent from the dissertation are explicit
+%   PLACEHOLDERS. No new coefficients invented.
+% =====================================================================
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}\onehalfspacing
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage{booktabs}\usepackage{array}\usepackage{tabularx}
+\usepackage{graphicx}\usepackage{float}
+\usepackage{caption}\captionsetup{font=small,labelfont=bf}
+\usepackage{microtype}\usepackage{textcomp}
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+\usepackage[round]{natbib}\bibliographystyle{apalike}
+
+\usepackage{filecontents}
+\begin{filecontents*}{p8refs.bib}
+@article{deaton1985,
+  author={Deaton, Angus}, title={Panel data from a time series of cross-sections},
+  journal={Journal of Econometrics}, volume={30}, number={1--2}, pages={109--126}, year={1985}}
+@incollection{verbeek2008,
+  author={Verbeek, Marno}, title={Pseudo-panels and repeated cross-sections},
+  booktitle={The Econometrics of Panel Data}, edition={3rd}, pages={369--383},
+  publisher={Springer}, year={2008}}
+@article{lindmehlum2010,
+  author={Lind, Jo Thori and Mehlum, Halvor},
+  title={With or without {U}? The appropriate test for a {U}-shaped relationship},
+  journal={Oxford Bulletin of Economics and Statistics}, volume={72}, number={1},
+  pages={109--118}, year={2010}}
+@article{lubeamish2004,
+  author={Lu, Jane W. and Beamish, Paul W.},
+  title={International diversification and firm performance: The {S}-curve hypothesis},
+  journal={Academy of Management Journal}, volume={47}, number={4}, pages={598--609}, year={2004}}
+@article{contractor2012,
+  author={Contractor, Farok J.},
+  title={Why do multinational firms exist? A theory note about the effect of multinational
+  expansion on performance and recent methodological critiques},
+  journal={Global Strategy Journal}, volume={2}, number={4}, pages={318--331}, year={2012}}
+@article{marano2016,
+  author={Marano, Valentina and Arregle, Jean-Luc and Hitt, Michael A. and Spadafora, Ettore
+  and Van Essen, Marc},
+  title={Home country institutions and the internationalization-performance relationship:
+  A meta-analytic review},
+  journal={Journal of Management}, volume={42}, number={5}, pages={1075--1110}, year={2016}}
+@book{khanna2010,
+  author={Khanna, Tarun and Palepu, Krishna G.},
+  title={Winning in Emerging Markets: A Road Map for Strategy and Execution},
+  publisher={Harvard Business Press}, year={2010}}
+@book{north1990,
+  author={North, Douglass C.}, title={Institutions, Institutional Change and Economic Performance},
+  publisher={Cambridge University Press}, year={1990}}
+@article{cameron2015,
+  author={Cameron, A. Colin and Miller, Douglas L.},
+  title={A practitioner's guide to cluster-robust inference},
+  journal={Journal of Human Resources}, volume={50}, number={2}, pages={317--372}, year={2015}}
+@article{aterido2011,
+  author={Aterido, Reyes and Hallward-Driemeier, Mary and Pag\'es, Carmen},
+  title={Big constraints to small firms' growth? Business environment and employment growth across firms},
+  journal={Economic Development and Cultural Change}, volume={59}, number={3}, pages={609--647}, year={2011}}
+@article{richard2009,
+  author={Richard, Pierre J. and Devinney, Timothy M. and Yip, George S. and Johnson, Gerry},
+  title={Measuring organizational performance: Towards methodological best practice},
+  journal={Journal of Management}, volume={35}, number={3}, pages={718--804}, year={2009}}
+\end{filecontents*}
+
+\title{The Forced Internationalization Penalty: A Monotone-Negative
+Boundary Condition of the Internationalization--Performance Relationship in
+Pacific Small Island Developing States}
+\author{Author details withheld for blind review}
+\date{Working draft}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent The inverted-U is the dominant template for the
+internationalization--performance (I--P) relationship, but its applicability
+to the most structurally constrained economies is untested. We examine seven
+Pacific Small Island Developing States (SIDS) using World Bank Enterprise
+Survey establishments and find that the canonical inverted-U does not hold;
+instead, internationalization and firm performance are related
+\emph{monotonically negatively}. In the main specification with country and
+year fixed effects ($N = 959$ firms; $13.8\%$ exporters; mean export intensity
+$4.8\%$), the linear export-intensity coefficient is
+$\hat{\beta}(\mathrm{FSTS}) = -1.339$ ($SE = 0.386$, $p < 0.001$). Adding a
+quadratic term yields no significant curvature, confirming a monotone decline
+with no turning point in the observed range. In the very small exporters-only
+subsample ($N = 26$) the coefficient remains negative
+($\hat{\beta} = -1.176$) but is statistically insignificant ($p = 0.130$),
+consistent with low power rather than a sign reversal. We name this pattern
+the \emph{Forced Internationalization Penalty} (FIP): firms in micro-economies
+export not from competitive advantage but because the domestic market cannot
+sustain operations, while extreme logistics costs and thin institutional
+support erode returns. FIP is, to our knowledge, the first named
+monotone-negative boundary condition of the I--P relationship for the Pacific.\\[4pt]
+\textbf{Keywords:} internationalization; firm performance; small island
+developing states; boundary condition; forced internationalization; Pacific
+\end{abstract}
+
+\section{Introduction}
+The inverted-U has become a near-default expectation for the I--P
+relationship \citep{lubeamish2004,contractor2012}. Yet the universe of firms
+underlying that consensus is dominated by larger emerging and advanced
+economies; the smallest, most peripheral economies are almost absent from the
+evidence base. This omission matters theoretically: if internationalization
+is partly \emph{forced} by domestic market insufficiency rather than chosen on
+the basis of capability, the benefits-then-costs logic that produces an
+inverted-U may not apply at all.
+
+We study seven Pacific SIDS---a setting that maximizes structural constraint:
+minute domestic markets, extreme geographic dispersion, and thin institutional
+support. The gap we address is the absence of any I--P evidence, and any
+theory, for this boundary. Our contribution is to document and name the
+\emph{Forced Internationalization Penalty} (FIP): a robust monotone-negative
+I--P relationship that inverts the standard prediction, and to specify the
+structural mechanism that generates it.
+
+\section{Theory and Hypotheses}
+In standard accounts firms internationalize to exploit a transferable
+advantage, and the inverted-U arises because expansion benefits eventually
+give way to coordination and foreignness costs
+\citep{lubeamish2004,marano2016}. Institutional and market-size conditions
+bound this logic \citep{north1990,khanna2010}. In SIDS three structural
+features invert it: (1) domestic markets too small to sustain operations,
+forcing exporting irrespective of advantage; (2) extreme logistics and
+market-access costs from remoteness and dispersion; and (3) weak institutional
+and export-capability support. Where exporting is a survival necessity rather
+than an advantage-driven choice, higher internationalization should map onto
+\emph{lower} performance throughout the observed range.
+
+\begin{description}
+\item[H1b (FIP).] In Pacific SIDS the I--P relationship is monotonically
+negative, with no interior turning point.
+\end{description}
+
+\section{Data and Methods}
+The data are World Bank Enterprise Surveys (WBES), establishment-level surveys
+under a standardized stratified design \citep{aterido2011}, treated as
+repeated cross-sections \citep{deaton1985,verbeek2008}. The SIDS analytic
+sample comprises seven Pacific economies (ICRV Group VI), $N = 959$ firms, of
+which only $N_{\text{exporters}} = 132$ ($13.8\%$) export; mean export
+intensity is $0.048$ ($4.8\%$). [These descriptives are REAL.] Labour
+productivity is $\ln(\text{sales}/\text{employees})$, standardized within
+country--year \citep{richard2009}; export intensity (FSTS) is the export share
+of sales. Following the dissertation's pooled-cross-section strategy, models
+carry country and year fixed effects, identifying the relationship from
+within-country variation; standard errors are robust and clustered by economy
+\citep{cameron2015}. We estimate a linear model (M1) and a quadratic model
+(M2) and apply the Lind--Mehlum test for any interior extremum
+\citep{lindmehlum2010}.
+
+\section{Results}
+\subsection{Monotone-negative I--P (H1b)}
+Model M1 (country and year fixed effects) gives a significant negative export
+coefficient:
+\[
+\hat{\beta}(\mathrm{FSTS}) = -1.339,\qquad SE = 0.386,\qquad p < 0.001.
+\]
+Higher internationalization is associated with \emph{lower} firm performance
+in SIDS. Adding FSTS$^2$ (model M2) produces no significant curvature,
+confirming a monotone decline with no turning point in the data range. In the
+exporters-only subsample ($N = 26$, very small) the coefficient stays negative
+but is insignificant, consistent with insufficient power:
+\[
+\hat{\beta}(\mathrm{FSTS}) = -1.176,\qquad p = 0.130\ (\text{NS}).
+\]
+[All values in this subsection are REAL.] The dissertation's hypothesis
+synthesis additionally reports the coefficient ranging to
+$-3.351$ ($p<0.001$) under a year-fixed-effects-only specification, confirming
+robustness of the negative sign across fixed-effect structures.
+
+% --------------------------------------------------------------------
+\begin{table}[H]
+\centering
+\caption{SIDS I--P specifications (full coefficients).}
+\begin{tabularx}{\textwidth}{Xccc}
+\toprule
+ & M1 (full sample) & M2 (quadratic) & Exporters-only \\
+\midrule
+\multicolumn{4}{c}{\itshape [Table P8-1 -- full coefficients from the authors'
+original output. Populate only from locked estimates.]}\\
+FSTS            & $-1.339^{***}$ & --- & $-1.176$ \\
+\ (SE)          & $(0.386)$ & --- & --- \\
+FSTS$^2$        & --- & ns & --- \\
+$p$             & $<0.001$ & --- & $0.130$ \\
+$N$             & $959$ & $959$ & $26$ \\
+Country FE / Year FE & Yes / Yes & Yes / Yes & Yes / Yes \\
+\bottomrule
+\end{tabularx}
+\end{table}
+% --------------------------------------------------------------------
+
+\section{Discussion and Conclusion}
+The SIDS evidence identifies a genuine boundary condition of the I--P
+literature. Where the inverted-U presumes internationalization is an
+advantage-driven choice, SIDS firms internationalize because their domestic
+markets are too small to sustain them; under remoteness-driven logistics costs
+and thin institutional support, additional internationalization erodes rather
+than builds performance. We label this the Forced Internationalization Penalty
+(FIP). FIP complements, rather than contradicts, the broader contingent view
+of the I--P relationship: it is the limiting case where institutional and
+market-size constraints are so severe that the ascending arm of the curve
+disappears entirely.
+
+The principal limitations are statistical power and design. The exporter
+subsample is tiny ($N = 26$), so exporters-only estimates are
+underpowered; and repeated cross-sections preclude dynamic inference. These
+caveats notwithstanding, the negative sign is consistent across fixed-effect
+structures. Future work should extend FIP to other micro-economy contexts and
+test policy levers (logistics subsidies, export-capability programs) that
+might restore an ascending arm.
+
+\bibliography{p8refs}
+
+\end{document}

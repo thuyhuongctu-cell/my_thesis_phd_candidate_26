@@ -1,0 +1,343 @@
+% =====================================================================
+% P7 — Multi-country test of the institution-contingent inverted-U
+%       in the internationalization-performance relationship
+%       (full Asia-Pacific sample, 49 economies, WBES)
+% WORKING DRAFT submission framework (Springer-compatible).
+%
+% COMPILE:
+%   pdflatex p7_multicountry.tex   (run twice)
+%   bibtex   p7_multicountry        (bibliography is embedded via filecontents)
+%   pdflatex p7_multicountry.tex
+%   pdflatex p7_multicountry.tex
+% NOTE: No pdflatex was available in the build environment, so this file
+%   ships uncompiled. It uses the standard `article` class (NOT Springer's
+%   sn-jnl class, which is not bundled here) per the note in
+%   templates/springer_paper.tex. To submit to a Springer Nature journal,
+%   swap \documentclass and the title block for sn-jnl.cls when available.
+%
+% INTEGRITY NOTE: Every numeric value below is taken verbatim from the
+%   dissertation (chuong_4_ket_qua_vi.md sec 4.6 / 4.9 and
+%   phu_luc_A_hop_nhat_du_lieu_vi.md). Full regression coefficient tables
+%   that do NOT yet exist in the dissertation are left as explicit
+%   PLACEHOLDERS marked "[Table X -- full coefficients from the authors'
+%   original output]". No new coefficients have been invented.
+% =====================================================================
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}\onehalfspacing
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}\captionsetup{font=small,labelfont=bf}
+\usepackage{microtype}
+\usepackage{textcomp}
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+\usepackage[round]{natbib}
+\bibliographystyle{apalike}
+
+% Embedded APA-style bibliography (subset relevant to P7).
+\usepackage{filecontents}
+\begin{filecontents*}{p7refs.bib}
+@article{deaton1985,
+  author={Deaton, Angus}, title={Panel data from a time series of cross-sections},
+  journal={Journal of Econometrics}, volume={30}, number={1--2}, pages={109--126}, year={1985}}
+@incollection{verbeek2008,
+  author={Verbeek, Marno}, title={Pseudo-panels and repeated cross-sections},
+  booktitle={The Econometrics of Panel Data}, edition={3rd}, pages={369--383},
+  publisher={Springer}, year={2008}}
+@article{lindmehlum2010,
+  author={Lind, Jo Thori and Mehlum, Halvor},
+  title={With or without {U}? The appropriate test for a {U}-shaped relationship},
+  journal={Oxford Bulletin of Economics and Statistics}, volume={72}, number={1},
+  pages={109--118}, year={2010}}
+@article{lubeamish2004,
+  author={Lu, Jane W. and Beamish, Paul W.},
+  title={International diversification and firm performance: The {S}-curve hypothesis},
+  journal={Academy of Management Journal}, volume={47}, number={4}, pages={598--609}, year={2004}}
+@article{contractor2012,
+  author={Contractor, Farok J.},
+  title={Why do multinational firms exist? A theory note about the effect of multinational
+  expansion on performance and recent methodological critiques},
+  journal={Global Strategy Journal}, volume={2}, number={4}, pages={318--331}, year={2012}}
+@article{marano2016,
+  author={Marano, Valentina and Arregle, Jean-Luc and Hitt, Michael A. and Spadafora, Ettore
+  and Van Essen, Marc},
+  title={Home country institutions and the internationalization-performance relationship:
+  A meta-analytic review},
+  journal={Journal of Management}, volume={42}, number={5}, pages={1075--1110}, year={2016}}
+@article{kirca2012,
+  author={Kirca, Ahmet H. and Roth, Kendall and Hult, G. Tomas M. and Cavusgil, S. Tamer},
+  title={The role of context in the multinationality-performance relationship: A meta-analytic review},
+  journal={Global Strategy Journal}, volume={2}, number={2}, pages={108--121}, year={2012}}
+@article{kaufmann2011,
+  author={Kaufmann, Daniel and Kraay, Aart and Mastruzzi, Massimo},
+  title={The Worldwide Governance Indicators: Methodology and analytical issues},
+  journal={Hague Journal on the Rule of Law}, volume={3}, number={2}, pages={220--246}, year={2011}}
+@book{khanna2010,
+  author={Khanna, Tarun and Palepu, Krishna G.},
+  title={Winning in Emerging Markets: A Road Map for Strategy and Execution},
+  publisher={Harvard Business Press}, year={2010}}
+@book{north1990,
+  author={North, Douglass C.}, title={Institutions, Institutional Change and Economic Performance},
+  publisher={Cambridge University Press}, year={1990}}
+@article{solon2015,
+  author={Solon, Gary and Haider, Steven J. and Wooldridge, Jeffrey M.},
+  title={What are we weighting for?},
+  journal={Journal of Human Resources}, volume={50}, number={2}, pages={301--316}, year={2015}}
+@article{cameron2015,
+  author={Cameron, A. Colin and Miller, Douglas L.},
+  title={A practitioner's guide to cluster-robust inference},
+  journal={Journal of Human Resources}, volume={50}, number={2}, pages={317--372}, year={2015}}
+@article{aterido2011,
+  author={Aterido, Reyes and Hallward-Driemeier, Mary and Pag\'es, Carmen},
+  title={Big constraints to small firms' growth? Business environment and employment growth across firms},
+  journal={Economic Development and Cultural Change}, volume={59}, number={3}, pages={609--647}, year={2011}}
+@article{richard2009,
+  author={Richard, Pierre J. and Devinney, Timothy M. and Yip, George S. and Johnson, Gerry},
+  title={Measuring organizational performance: Towards methodological best practice},
+  journal={Journal of Management}, volume={35}, number={3}, pages={718--804}, year={2009}}
+\end{filecontents*}
+
+\title{Institution-Contingent Turning Points in the
+Internationalization--Performance Relationship: Evidence from 49
+Asia--Pacific Economies}
+\author{Author details withheld for blind review}
+\date{Working draft}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent The internationalization--performance (I--P) relationship is
+widely theorized to follow an inverted-U, yet meta-analyses show that the
+location of its turning point is unstable across contexts. We test whether
+the formal-institution quality of the home economy systematically shifts
+the I--P turning point, using a pooled repeated cross-section of World Bank
+Enterprise Survey establishments spanning 49 Asia--Pacific economies. Labour
+productivity is standardized within country--year to neutralize currency
+artefacts, and all models carry two-way (country and year) fixed effects so
+the curvature is identified from within-country variation. In the strongest
+specification ($N=38{,}342$; adjusted $R^2 = 0.677$) the pooled turning
+point is $40.0\%$ of foreign sales to total sales, robust across all
+specifications (turning point range $33.8$--$40.0\%$) and reconfirmed in the
+full three-way moderation model ($34.6\%$). The central result is an
+institution-contingent gradient: the turning point rises monotonically from
+roughly $28\%$ in advanced-innovation economies to roughly $55\%$ in
+emerging and small-island economies, mirroring an independent meta-analytic
+moderation test ($Q_M = 17.35$, $p = 0.002$). Digital adoption flattens and
+lifts the curve, with its protective role strongest where institutions are
+weakest. Findings reconcile the conflicting I--P literature by reframing the
+turning point as an institutionally-conditioned, rather than universal,
+parameter.\\[4pt]
+\textbf{Keywords:} internationalization; firm performance; inverted-U;
+institutional quality; turning point; emerging markets; Asia--Pacific
+\end{abstract}
+
+\section{Introduction}
+The relationship between internationalization and firm performance is one of
+the most studied yet least settled questions in international business.
+Decades of work document inverted-U, S-shaped, and linear forms, and
+meta-analyses attribute much of this disagreement to unobserved contextual
+moderators rather than to genuine theoretical disagreement
+\citep{kirca2012,marano2016,contractor2012}. A recurring gap is that most
+primary studies estimate a single curve for a single economy, leaving the
+\emph{location} of the turning point---the degree of internationalization at
+which marginal returns turn negative---uncompared across institutional
+settings.
+
+This study addresses that gap directly. We assemble a large, harmonized,
+multi-country establishment sample and ask whether home-economy institutional
+quality systematically relocates the I--P turning point. Our contribution is
+threefold. First, we provide what is, to our knowledge, the largest
+single-design primary test of the inverted-U across Asia--Pacific economies,
+estimated within a unified harmonization protocol. Second, we document an
+\emph{institution-contingent gradient}: the turning point moves outward as
+institutional quality declines, a pattern predicted by institutional theory
+but rarely shown with primary firm-level data. Third, the primary gradient
+converges with an independent meta-analytic moderation result, giving the
+finding cross-method robustness.
+
+\section{Theory and Hypotheses}
+The inverted-U rests on a benefits-then-costs logic: early international
+expansion yields learning and scale economies, while further expansion incurs
+rising coordination, liability-of-foreignness, and governance costs
+\citep{lubeamish2004,contractor2012}. Institutional theory implies the
+\emph{balance point} of this trade-off is conditioned by the home
+institutional environment \citep{north1990,khanna2010,marano2016}. Where
+formal institutions are strong, firms recover the costs of expansion at lower
+exposure and so reach peak performance earlier (an earlier, lower turning
+point). Where institutions are weak, firms must internationalize more heavily
+to offset domestic transaction costs and institutional voids, pushing the
+turning point outward.
+
+\begin{description}
+\item[H1.] The I--P relationship is inverted-U shaped across the pooled
+Asia--Pacific sample.
+\item[H5.] The turning point of the inverted-U increases monotonically as
+home-economy institutional quality declines (the ICRV gradient).
+\item[H3.] Digital adoption (DAI) moderates the curvature of the I--P
+relationship, with stronger protective effects in weaker institutional
+contexts.
+\end{description}
+
+\section{Data and Methods}
+\subsection{Data source and unit of analysis}
+The primary data are World Bank Enterprise Surveys (WBES), establishment-level
+surveys collected under a standardized global instrument with stratified
+random sampling by sector, size, and region \citep{aterido2011}. The unit of
+analysis is the establishment. Because WBES draws an \emph{independent} sample
+each wave, the data are repeated cross-sections rather than a balanced panel
+\citep{deaton1985,verbeek2008}; only waves from 2006 onward (the unified
+global methodology) are retained.
+
+\subsection{Harmonization and analytic sample}
+A six-step pooling and harmonization protocol (S1--S6; full detail in the
+data appendix) screens survey types, de-duplicates country--year pairs, maps
+heterogeneous fields to a common schema, recodes WBES non-response codes
+($-9$/$-8$/$-7$) to missing, assigns institutional regimes, and applies
+listwise deletion on the focal variables. The dataflow yields a classified
+pool of $96{,}415$ firms (52 economies), an Asia--Pacific analytic frame of
+$91{,}982$ firms across 49 economies, a baseline quadratic regression sample
+of $N = 84{,}910$ (model M2), and a fully-controlled sample of $N = 38{,}342$
+(models M3--M5). [These sample sizes are REAL, taken from Appendix~A,
+Step~S5--S6.]
+
+\subsection{Measures}
+Labour productivity (the dependent variable) is $\ln(\text{annual
+sales}/\text{full-time employees})$, standardized ($z$) within each
+country--year to remove currency and price-level artefacts
+\citep{richard2009}. Internationalization intensity (FSTS) is the share of
+direct plus indirect exports in sales, bounded $[0,100]$. Technological
+capability (TCI) and digital adoption (DAI) are built from binary indicators
+(international quality certification, foreign-licensed technology, website,
+e-mail, electronic payment).
+
+\subsection{Estimation}
+We estimate a pooled cross-section with two-way fixed effects:
+\begin{equation}
+\ln(\mathrm{LP})_{ijt} = \beta_1 \mathrm{FSTS}_{ijt}
+  + \beta_2 \mathrm{FSTS}^2_{ijt}
+  + \mathbf{X}_{ijt}\boldsymbol{\gamma}
+  + \alpha_j + \tau_t + \varepsilon_{ijt},
+\end{equation}
+where $\alpha_j$ and $\tau_t$ are economy and year fixed effects. Economy
+fixed effects absorb all country-invariant heterogeneity (currency, price
+level, baseline institutions), so the curvature is identified from
+within-country variation \citep{solon2015}. The turning point is
+$\mathrm{TP} = -\beta_1/(2\beta_2)$, tested with the Lind--Mehlum (LM)
+procedure. Standard errors are heteroskedasticity-robust and clustered by
+economy \citep{cameron2015}.
+
+\section{Results}
+\subsection{Pooled inverted-U and turning point (H1)}
+The strongest specification, M5 (country and year fixed effects;
+adjusted $R^2 = 0.677$), yields a pooled turning point of
+\[
+\mathrm{TP(M5)} = 40.0\%\ \mathrm{FSTS}\qquad (p_{\mathrm{LM}} < 0.001).
+\]
+The turning point stays within a narrow band of $33.8$--$40.0\%$ FSTS across
+all specifications M2--M9, and is reconfirmed in the full three-way
+moderation model M11 ($\mathrm{TP}=34.6\%$, $p_{\mathrm{LM}}=0.002$,
+$N=29{,}840$). This consistency rules out the turning point being an artefact
+of small samples or omitted controls. [All values in this paragraph are REAL.]
+
+% --------------------------------------------------------------------
+% PLACEHOLDER: full coefficient table not present in the dissertation.
+\begin{table}[H]
+\centering
+\caption{Quadratic FSTS specifications M2--M5 (full coefficients).}
+\begin{tabularx}{\textwidth}{Xcccc}
+\toprule
+ & M2 & M3 & M4 & M5 \\
+\midrule
+\multicolumn{5}{c}{\itshape [Table P7-1 -- full coefficients from the authors'
+original output (do-file). Do NOT populate without the locked estimates.]}\\
+FSTS              & --- & --- & --- & --- \\
+FSTS$^2$          & --- & --- & --- & --- \\
+Turning point     & --- & --- & --- & $40.0\%$ \\
+$N$               & $84{,}910$ & --- & --- & $38{,}342$ \\
+Adjusted $R^2$    & --- & --- & --- & $0.677$ \\
+Country FE / Year FE & --- & --- & --- & Yes / Yes \\
+\bottomrule
+\end{tabularx}
+\end{table}
+% --------------------------------------------------------------------
+
+\subsection{The institution-contingent gradient (H5)}
+The central result is a monotone ICRV gradient in the turning point:
+\[
+\mathrm{TP}(\text{Advanced Innovation}) \approx 28\%
+  < \mathrm{TP}(\text{Upper-middle})
+  < \mathrm{TP}(\text{Emerging/SIDS}) \approx 55\%.
+\]
+Firms in strong-institution economies reach peak productivity at lower
+internationalization; firms in weak-institution economies require heavier
+internationalization to offset transaction costs and institutional
+uncertainty, so the turning point appears later. An overall ICRV moderation
+test is highly significant and converges with the dissertation's
+meta-analysis ($Q_M = 17.35$, $p = 0.002$), giving independent confirmation
+across methods. [Gradient bounds $28\%$/$55\%$ and $Q_M$ are REAL.]
+
+\subsection{Capability and digital moderation (H3)}
+TCI raises the productivity level across the sample (a one-SD increase lifts
+labour productivity by about $41\%$, $\exp(0.344)-1$), but its
+curvature interactions are not significant in the 49-economy sample, so the
+capability-shaping role of TCI is context-specific rather than universal. DAI
+shows a significant level effect ($\hat{\beta}(\mathrm{DAI}) = +0.155$,
+$p < 0.001$; about a $17\%$ productivity advantage for firms with a website)
+and significant curvature interactions
+($\hat{\beta}(\mathrm{FSTS}\times\mathrm{DAI}) = -0.614$, $p<0.001$;
+$\hat{\beta}(\mathrm{FSTS}^2\times\mathrm{DAI}) = +0.766$, $p<0.01$). The
+DAI$\times$ICRV interaction ($p = 0.012$) indicates the digital ``shield'' is
+strongest where institutions are weakest. [All coefficients in this
+paragraph are REAL.]
+
+\begin{figure}[H]
+\centering
+% Figure ships with the dissertation; path is relative to thesis/figures.
+% \includegraphics[width=.8\textwidth]{fig_4_x_ip_curves_icrv_gradient.png}
+\fbox{\parbox{.8\textwidth}{\centering\vspace{2.2cm}
+[Figure~1 -- family of inverted-U I--P curves with turning point shifting
+rightward as institutional quality declines (28\% to 55\%); SIDS curve turns
+monotone negative. Source figure:
+thesis/figures/fig\_4\_x\_ip\_curves\_icrv\_gradient.png]\vspace{2.2cm}}}
+\caption{Institution-contingent family of I--P curves (ICRV gradient).}
+\end{figure}
+
+\section{Discussion and Conclusion}
+The evidence reframes the long-standing I--P controversy. The inverted-U is
+robust, but its turning point is not a universal constant; it is an
+institutionally-conditioned parameter that moves outward as home-economy
+institutional quality falls. This reconciles inconsistent prior findings:
+studies set in different institutional contexts were, in effect, sampling
+different points of a single contingent family of curves. The convergence of
+the primary gradient with an independent meta-analytic moderation test
+strengthens the inference. Digital adoption emerges as a partial substitute
+for institutional support, flattening and lifting the curve most where
+institutions are weakest.
+
+Limitations follow from the design. Repeated cross-sections preclude firm
+trajectory tracking and dynamic causal inference; labour productivity is a
+proxy for performance; and listwise deletion reduces $N$ as controls are
+added. A data update adding Japan-2025 and new 2024--2026 waves is reserved
+for a subsequent re-estimation round; the results reported here are held on
+the locked 49-economy analytic sample. Future work should re-estimate the
+gradient on the expanded frame and probe the digital-substitution mechanism
+with finer measures.
+
+\bibliography{p7refs}
+
+\end{document}

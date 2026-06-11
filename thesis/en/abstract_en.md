@@ -1,0 +1,15 @@
+# EXTENDED ABSTRACT
+
+**Internationalization and Firm Performance in Asia: The Moderating Roles of Institutions, Digital Capability, and Top-Manager Characteristics**
+
+Đỗ Thùy Hương — Doctoral Dissertation, Can Tho University, 2026
+
+---
+
+The internationalization–firm performance (I–P) relationship is foundational to international-business research, yet decades of evidence remain unsettled: meta-analyses report a small positive pooled effect alongside extreme between-study heterogeneity, signalling dependence on boundary conditions rather than methodological noise. Arguing that such heterogeneity cannot be resolved within a single theory, this dissertation develops an integrative, multi-tier framework, Country–Digital–Capability Moderation (CDCM), joining the Uppsala model, the resource-based view, institutional theory, and upper-echelons theory with a digital-capability extension. Three moderating tiers are specified: institutional context, operationalized through a purpose-built six-group taxonomy, Institutional Context Regime Variation (ICRV); digital capability, separated into a Technological Capability Index (TCI) and a Digital Adoption Index (DAI); and top-manager characteristics.
+
+The study employs a mixed synthesis-empirical design. A three-level meta-analysis spanning 1982–2026 establishes the evidence base and identifies the principal moderators, the ICRV gradient being significant (component study P6, Q_M = 17.35). Firm-level analysis draws on World Bank Enterprise Survey (WBES) microdata for 49 Asia-Pacific economies (analytic sample of 91,982 firms, from a classification pool of 96,415 firms across 52 economies), complemented by country studies (Vietnam, Singapore, China, India) and a boundary case of seven Pacific Small Island Developing States (SIDS). Estimation uses quadratic and cubic specifications with robust standard errors, multi-way interactions, fixed effects, and the Lind–Mehlum U-test to locate turning points.
+
+Three findings stand out. First, the I–P relationship is inverted-U shaped, but its turning point shifts with institutional quality: in the pooled capstone (P7) the labour-productivity (LP) turning point lies at 40.0% foreign-sales intensity (FSTS), while the ICRV gradient runs from roughly 28% in the strongest regime (Group I) to about 55% in the weakest (Groups V–VI). Second, TCI is a foundational capability that universally shifts the performance level, whereas DAI is a situational resource that reshapes curvature and is most potent under weak institutions (a "digital shield" effect). Third, in the SIDS group the relationship collapses into a monotonically negative form with no turning point (FSTS β = −1.339, p < .001), named here the Forced Internationalization Penalty (FIP). The dissertation contributes the FIP construct, the ICRV taxonomy, and the CDCM framework to international-business theory, with context-contingent managerial and policy implications.
+
+**Keywords:** internationalization; firm performance; institutional context; digital capability; upper echelons; inverted-U relationship.
