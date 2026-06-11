@@ -16,7 +16,7 @@ Chương 4 trình bày toàn bộ kết quả nghiên cứu của luận án the
 
 ### 4.1.1 Bức tranh tổng thể về hiệu quả doanh nghiệp châu Á
 
-Phân tích mô tả trên pool 91.982 doanh nghiệp từ 49 nền kinh tế châu Á và Thái Bình Dương trong giai đoạn 2003–2025 cho thấy bức tranh hiệu quả hoạt động kinh doanh có sự phân tán lớn và không hội tụ. Năng suất lao động — đo bằng ln(doanh thu/lao động) — có độ lệch chuẩn dao động từ 0,49 (Advanced tài nguyên dẫn dắt) đến 1,36 (Nhóm V — Emerging), với tỷ số P90/P10 tăng đơn điệu theo chiều từ nhóm thể chế cao đến nhóm thể chế thấp.
+Phân tích mô tả trên pool 91.982 doanh nghiệp từ 49 nền kinh tế châu Á và Thái Bình Dương trong giai đoạn 2003–2025 cho thấy bức tranh hiệu quả hoạt động kinh doanh có sự phân tán lớn và không hội tụ. Năng suất lao động — đo bằng ln(doanh thu/lao động) — có độ lệch chuẩn dao động từ 0,49 (Advanced tài nguyên dẫn dắt) đến 1,36 (Nhóm V — Emerging), với tỷ số P90/P10 có xu hướng tăng (gần đơn điệu, với dao động giữa các Nhóm III–IV và V–VI) theo chiều từ nhóm thể chế cao đến nhóm thể chế thấp.
 
 **Bảng 4.1.** *Phân tán năng suất lao động và đặc điểm quốc tế hóa theo phân nhóm con ICRV (pool gộp WBES 2003–2025; số doanh nghiệp phân loại ICRV ≈ 96.415; mẫu phân tích hồi quy chính N = 91.982 từ 49 nền kinh tế).*
 

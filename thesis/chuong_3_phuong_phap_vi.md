@@ -190,7 +190,7 @@ H1: $\beta_1 > 0$ và $\beta_2 < 0$; điểm quay $TP^* = -\beta_1 / (2\beta_2)$
 **M3 — Điều tiết NLCN (kiểm định H2):**
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4(CDDXK\_c \times NLCN\_z) + \beta_5(CDDXK\_c^2 \times NLCN\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
-**M4 — Điều tiết CSS/DAI (H4 thăm dò):**
+**M4 — Điều tiết CSS/DAI (H3 thăm dò):**
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z + \beta_4(CDDXK\_c \times CSS\_z) + \beta_5(CDDXK\_c^2 \times CSS\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
 **M5 — NLCN trực tiếp (không tương tác):**
@@ -216,7 +216,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\
 | CDDXK_c | d3c | CDDXK − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
 | CDDXK_c² | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
 | NLCN_z | b8, e6 | z-std trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
-| CSS_z | c22b | z-std trong sóng của c22b₀₁: hiện diện website | Số hoá Tier-1 (H4 thăm dò) |
+| CSS_z | c22b | z-std trong sóng của c22b₀₁: hiện diện website | Số hoá Tier-1 (H3 thăm dò) |
 | lnLD | l1 | ln(l1): log số lao động thường xuyên | Kiểm soát: quy mô doanh nghiệp |
 | TuoiDN | b5 | năm khảo sát − b5: số năm hoạt động | Kiểm soát: tuổi doanh nghiệp |
 | SoHuuNN | b2b | 1 nếu b2b > 0: có vốn nước ngoài | Kiểm soát: hình thức sở hữu |
@@ -536,7 +536,7 @@ Winsorization 1% và 5% đối với labor productivity và employment, áp dụ
 
 | Thành phần | Cơ sở kế thừa | Đóng góp mới |
 |---|---|---|
-| Mixed design | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **47 châu Á + Pacific economies** trong một luận án |
+| Mixed design | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **49 châu Á + Pacific economies** trong một luận án |
 | Meta-analysis 1982–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng coverage, bổ sung digital và 6 sub-regime ICRV moderators |
 | Pool empirical | nghiên cứu thành phần P1 — 17 nước châu Á mới nổi | Mở rộng từ 17 → **49 nước** với 91.982 doanh nghiệp · 102 cặp quốc gia × năm |
 | Labor productivity DV | Bloom et al. (2012); Hsieh & Klenow (2009); nghiên cứu thành phần P1 | Lập luận rõ về firm performance đa chiều trong bối cảnh WBES |
