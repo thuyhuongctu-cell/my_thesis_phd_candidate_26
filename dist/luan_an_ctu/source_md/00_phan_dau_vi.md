@@ -71,15 +71,34 @@ Key findings: (1) the I–P relationship is inverted-U shaped, but the turning p
 
 ## MỤC LỤC
 
-*(Tự động cập nhật khi xuất bản; cấu trúc tóm tắt)*
+**MỞ ĐẦU** — Lời cam đoan · Lời cảm ơn · Tóm tắt · Abstract · Danh mục từ viết tắt · Danh mục bảng · Danh mục hình · Danh mục công trình
 
-- Chương 1. Giới thiệu
-- Chương 2. Cơ sở lý thuyết và tổng quan tài liệu
-- Chương 3. Phương pháp nghiên cứu
-- Chương 4. Kết quả nghiên cứu
-- Chương 5. Thảo luận và kết luận
-- Tài liệu tham khảo
-- Phụ lục
+**CHƯƠNG 1. GIỚI THIỆU**
+- 1.1 Bối cảnh nghiên cứu — 1.2 Vấn đề nghiên cứu — 1.3 Mục tiêu — 1.4 Câu hỏi nghiên cứu
+- 1.5 Đối tượng và phạm vi — 1.6 Phương pháp luận — 1.7 Giả thuyết khoa học (tóm tắt)
+- 1.8 Ý nghĩa khoa học và thực tiễn — 1.9 Tính mới — 1.10 Cấu trúc của luận án
+
+**CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ TỔNG QUAN TÀI LIỆU**
+- 2.1 Các khái niệm cốt lõi — 2.2 Các lý thuyết nền — 2.3 Tổng quan thực nghiệm
+- 2.4 Khoảng trống nghiên cứu — 2.5 Mô hình nghiên cứu và hệ giả thuyết (H1–H6, H1b, H1c) — 2.6 Tóm tắt chương
+
+**CHƯƠNG 3. PHƯƠNG PHÁP NGHIÊN CỨU**
+- 3.1 Thiết kế nghiên cứu tổng thể — 3.2 Phase 1: Meta-analysis 1982–2026 — 3.3 Phase 2: Phân tích thực nghiệm đa quốc gia
+- 3.4 Mô hình phân tích (M0–M11) — 3.5 Kiểm định độ vững — 3.6 Tóm tắt phương pháp — 3.7 Đạo đức nghiên cứu
+
+**CHƯƠNG 4. KẾT QUẢ NGHIÊN CỨU**
+- 4.1 Thực trạng quốc tế hóa và hiệu quả tại châu Á theo nhóm ICRV
+- 4.2 Meta-analysis ba tầng (P6) — 4.3 Singapore (P4) — 4.4 Trung Quốc (P5) — 4.5 Việt Nam (P3)
+- 4.6 Kiểm định toàn mẫu đa bối cảnh (P7) — 4.7 SIDS (P8) — 4.8 Ấn Độ (P9) — 4.9 Tổng hợp theo hệ giả thuyết
+
+**CHƯƠNG 5. THẢO LUẬN VÀ KẾT LUẬN**
+- 5.1 Bàn luận theo khung CDCM — 5.2 So sánh nghiên cứu trước — 5.3 Đóng góp lý thuyết
+- 5.4 Đề xuất chính sách và quản trị — 5.5 Hạn chế và hướng tương lai — 5.6 Kết luận
+
+**TÀI LIỆU THAM KHẢO** (APA 7th)
+**PHỤ LỤC A** — Quy trình hợp nhất và hài hòa hóa dữ liệu WBES đa quốc gia (S1–S6, Hình A.1)
+
+*(Số trang được sinh tự động khi xuất bản bản cuối.)*
 
 ---
 
