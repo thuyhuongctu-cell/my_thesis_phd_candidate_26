@@ -1,0 +1,70 @@
+"""Shared WBES filename canonicalization for raw .dta archive + CD1 pipeline.
+
+Parses heterogeneous WBES file names (zip-extracted "Country-YYYY-full-data.dta"
+and loose "CountryYYYYfulldata.dta") into a canonical (country, year, instrument)
+key so the archive can be deduplicated by economy-year and the pipeline can map
+every file to the master country name regardless of naming style.
+"""
+from __future__ import annotations
+import os
+import re
+
+# normalized-key (lowercase, alpha-only) -> master canonical country name
+_CANON = {
+    "afghanistan": "Afghanistan", "armenia": "Armenia", "azerbaijan": "Azerbaijan",
+    "bahrain": "Bahrain", "bangladesh": "Bangladesh", "bhutan": "Bhutan",
+    "brunei": "Brunei", "bruneidarussalam": "Brunei", "cambodia": "Cambodia",
+    "china": "China", "comoros": "Comoros", "cyprus": "Cyprus",
+    "republicofcyprus": "Cyprus", "fiji": "Fiji", "georgia": "Georgia",
+    "hongkong": "HongKong", "hongkongsarchina": "HongKong", "india": "India",
+    "indonesia": "Indonesia", "iraq": "Iraq", "israel": "Israel", "japan": "Japan",
+    "jordan": "Jordan", "kazakhstan": "Kazakhstan", "kenya": "Kenya",
+    "kiribati": "Kiribati", "korea": "Korea", "korearep": "Korea",
+    "korearepublic": "Korea", "kosovo": "Kosovo", "kuwait": "Kuwait",
+    "kyrgyzrepublic": "KyrgyzRepublic", "kyrgyzrep": "KyrgyzRepublic",
+    "lao": "Laos", "laos": "Laos", "laopdr": "Laos", "lebanon": "Lebanon",
+    "malaysia": "Malaysia", "maldives": "Maldives", "mongolia": "Mongolia",
+    "myanmar": "Myanmar", "nepal": "Nepal", "oman": "Oman", "pakistan": "Pakistan",
+    "papuanewguinea": "PapuaNewGuinea", "philippines": "Philippines",
+    "qatar": "Qatar", "samoa": "Samoa", "saudi": "SaudiArabia",
+    "saudiarabia": "SaudiArabia", "singapore": "Singapore",
+    "solomonislands": "SolomonIslands", "srilanka": "SriLanka",
+    "taiwan": "Taiwan", "taiwanchina": "Taiwan", "tajikistan": "Tajikistan",
+    "thailand": "Thailand", "timorleste": "TimorLeste", "tonga": "Tonga",
+    "turkey": "Turkey", "turkiye": "Turkey", "turkmenistan": "Turkmenistan",
+    "uzbekistan": "Uzbekistan", "vanuatu": "Vanuatu", "vietnam": "Vietnam",
+    "viet": "Vietnam", "vietname": "Vietnam", "westbankandgaza": "WestBankGaza",
+    "westbankgaza": "WestBankGaza", "yemen": "Yemen",
+}
+
+# Economies retained in the dissertation's Asia-Pacific universe (master 52-frame
+# minus the three out-of-region drops). NON_ASIA are archived-out on request.
+NON_ASIA = {"Kenya", "Kosovo", "Cyprus", "Turkey", "WestBankGaza"}
+# Comoros (African SIDS) is retained ONLY for the P8 9-economy robustness set.
+
+# instrument tags that are NOT the standard private-firm cross-section
+_NONSTANDARD = ("informal", "isbs", "ises", "micro", "expansion", "longform",
+                "esn", "esis", "panel", "tgs", "followup")
+
+
+def canon_country(raw: str) -> str | None:
+    key = re.sub(r"[^a-z]", "", raw.lower())
+    return _CANON.get(key)
+
+
+def parse(path: str):
+    """Return dict(country, year, standard, panel) or None if unparseable."""
+    name = re.sub(r"\.dta$", "", os.path.basename(path), flags=re.I)
+    name = re.sub(r"^[0-9a-f]{6,}-", "", name)            # strip upload hash prefix
+    years = re.findall(r"(?:19|20)\d{2}", name)
+    if not years:
+        return None
+    m = re.search(r"(?:19|20)\d{2}", name)
+    country = canon_country(name[:m.start()])
+    if country is None:
+        return None
+    suffix = re.sub(r"[^a-z]", "", name[m.start():].lower())
+    panel = len(years) > 1                                # multi-wave panel file
+    standard = ("fulldata" in suffix) and not any(t in suffix for t in _NONSTANDARD)
+    return {"country": country, "year": int(years[0]),
+            "standard": standard, "panel": panel}

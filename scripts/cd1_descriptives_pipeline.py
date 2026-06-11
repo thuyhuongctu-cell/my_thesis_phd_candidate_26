@@ -150,22 +150,33 @@ def extract(path):
 
 
 def main():
+    import sys
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from wbes_canon import parse
+
     icrv = icrv_map()
-    files = [f for f in sorted(glob.glob(f"{RAW}/*.dta"))
-             if is_main_cross_section(f)]
+    # dedupe by (country, year): one standard cross-section per economy-year
+    chosen: dict[tuple, str] = {}
+    for f in sorted(glob.glob(f"{RAW}/*.dta")):
+        m = parse(f)
+        if m is None or not m["standard"] or m["panel"]:
+            continue
+        if icrv.get(m["country"]) is None:
+            continue
+        key = (m["country"], m["year"])
+        if key not in chosen:                 # first wins (stable, no double-count)
+            chosen[key] = f
+
     frames = {g: [] for g in ORDER}
     econs = {g: set() for g in ORDER}
     used = 0
-    for f in files:
-        c = file_country(f)
-        g = icrv.get(c)
-        if g is None:
-            continue
+    for (country, year), f in sorted(chosen.items()):
+        g = icrv[country]
         e = extract(f)
         if e is None or e.empty:
             continue
         frames[g].append(e)
-        econs[g].add(c)
+        econs[g].add(country)
         used += 1
 
     stats, cover = [], []

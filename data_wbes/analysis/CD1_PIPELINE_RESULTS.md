@@ -1,49 +1,54 @@
 # Kết quả pipeline raw đa biến — bảng mô tả CĐ1 theo nhóm ICRV
 
-> Tái tính các chiều mô tả của CĐ1 §2.3.3–2.3.8 từ **raw WBES .dta** (84 file
-> cross-section chính), khung canonical 49 nền. Tái lập: `scripts/cd1_descriptives_pipeline.py`.
-> Outputs: `cd1_pipeline_by_icrv.csv`, `cd1_pipeline_coverage.csv`. Ngày 2026-06-11.
+> Tái tính các chiều mô tả CĐ1 §2.3.3–2.3.8 từ **raw WBES .dta** trên khung canonical
+> 49 nền, **dedupe theo nước-năm** (một cross-section chuẩn / economy-year; loại
+> panel/Informal/ISBS/ISES/Micro/expansion/TGS). Tái lập: `scripts/cd1_descriptives_pipeline.py`
+> + `scripts/wbes_canon.py`. Outputs: `cd1_pipeline_by_icrv.csv`, `cd1_pipeline_coverage.csv`.
+> Cập nhật 2026-06-11 sau khi nạp raw bổ sung (GCC + Pacific). 97 file dùng.
 
 ## A. Bảng mô tả theo nhóm ICRV (đơn vị %, trừ khi ghi khác)
 
-| Chỉ tiêu | I Adv-innov | II Adv-res¹ | III Upper-mid | IV Lower-mid | V Emerging | VI SIDS¹ |
+| Chỉ tiêu | I Adv-innov | II Adv-res | III Upper-mid | IV Lower-mid | V Emerging | VI SIDS |
 |---|--:|--:|--:|--:|--:|--:|
-| n_firms (raw) | 4.222 | 300 | 16.693 | 55.675 | 16.880 | 753 |
-| Đổi mới sản phẩm (h1) | 24,3 | 53,9 | 26,7 | 17,1 | 23,7 | 20,6 |
-| Đổi mới quy trình (h5) | 14,7 | 33,6 | 18,9 | 14,7 | 16,2 | 15,0 |
-| Chi R&D (h8) | **20,5** | 22,6 | 21,5 | 15,5 | 15,8 | **5,7** |
-| Chứng nhận ISO (b8) | **35,0** | 42,5 | 31,4 | 35,9 | 11,9 | **6,6** |
-| Website (c22b) | **61,7** | 83,3 | 56,9 | 48,3 | 39,1 | **28,9** |
-| Nữ quản lý cấp cao (b7a) | 27,5 | 17,0 | 26,0 | 10,8 | 15,4 | 30,2 |
-| Nữ trong chủ sở hữu (b4) | 32,5 | 42,9 | 42,0 | 31,2 | 25,6 | 40,1 |
-| DN xuất khẩu (FSTS>0) | **28,4** | 23,1 | 21,7 | 14,3 | 17,4 | **10,4** |
-| FSTS trung bình | 13,4 | 9,4 | 10,3 | 8,1 | 10,4 | 6,9 |
-| Tham nhũng = trở ngại lớn (j30f≥3) | **2,9** | 4,2 | 8,9 | **22,7** | 21,1 | **24,9** |
-| Hối lộ (% doanh thu, j7a) | 0,2 | 0,1 | 0,7 | 1,7 | 0,9 | 2,5 |
-| Tuổi DN trung bình (năm) | 23,0 | 23,5 | 15,3 | 20,1 | 15,0 | 12,0 |
+| n_firms (raw, dedupe) | 4.222 | 1.932 | 13.993 | 45.003 | 17.034 | 2.295 |
+| Đổi mới sản phẩm (h1) | 24,3 | 17,0 | 26,7 | 17,1 | 23,8 | **34,2** |
+| Đổi mới quy trình (h5) | 14,7 | 7,7 | 18,9 | 14,7 | 15,9 | **24,7** |
+| Chi R&D (h8) | **20,5** | 6,1 | 21,5 | 15,5 | 15,9 | 10,2 |
+| Chứng nhận ISO (b8) | **35,0** | 14,4 | 25,4 | 25,3 | 12,3 | 12,2 |
+| Website (c22b) | **61,7** | 49,7 | 53,9 | 48,3 | 39,8 | 41,5 |
+| Nữ quản lý cấp cao (b7a) | 27,5 | **4,0** | 29,1 | 10,8 | 15,2 | 30,9 |
+| Nữ trong chủ sở hữu (b4) | 32,5 | 8,9 | 38,4 | 18,2 | 25,1 | 47,4 |
+| DN xuất khẩu (FSTS>0) | **28,4** | 11,2 | 21,3 | 14,3 | 17,9 | 14,7 |
+| FDI nước ngoài ≥10% (b2b) | 10,6 | 13,3 | 8,9 | **3,1** | 7,5 | **20,0** |
+| SME (<100 lao động, l1) | 79,5 | 77,1 | 78,7 | 74,0 | 85,7 | **91,8** |
+| Tham nhũng = trở ngại lớn (j30f≥3) | **2,9** | **0,8** | 10,2 | 22,7 | 22,6 | **28,0** |
+| FSTS trung bình | 13,4 | 3,5 | 10,2 | 8,1 | 10,6 | 6,7 |
+| Hối lộ (% doanh thu, j7a) | 0,2 | 0,0 | 0,8 | 1,7 | 0,9 | 1,4 |
+| Tuổi DN trung bình (năm) | 23,0 | 18,6 | 15,7 | 20,1 | 14,9 | 17,6 |
+| CAGR việc làm (l1/l2, %) | 3,0 | 3,4 | 3,8 | 2,8 | 4,7 | **5,3** |
 
-¹ **Coverage thấp** — xem mục B; số nhóm II/VI KHÔNG đại diện cho cả nhóm.
+## B. Độ phủ nguồn raw theo nhóm (sau khi nạp bổ sung)
 
-## B. Độ phủ nguồn raw theo nhóm
-
-| Nhóm | Coverage | Thiếu |
+| Nhóm | Coverage | Thành viên / thiếu |
 |---|---|---|
-| I | **5/5** ✅ | — |
-| II | **2/6** ⚠️ (Bahrain, Brunei) | Saudi, Qatar, Kuwait, Oman |
-| III | **6/6** ✅ | — |
-| IV | **7/7** ✅ | — |
-| V | **14/17** ✅ | Maldives, Lebanon, Yemen |
-| VI | **2/8** ⚠️ (Timor-Leste, Vanuatu) | Fiji, Kiribati, PNG, Samoa, Solomon, Tonga |
+| I — Adv. đổi mới | **5/5** ✅ | HongKong, Israel, Korea, Singapore, Taiwan |
+| II — Adv. tài nguyên (GCC) | **5/6** ✅ | Bahrain, Brunei, Kuwait, Qatar, Saudi Arabia · *thiếu Oman (chỉ có bản 2003 dùng bộ biến cũ)* |
+| III — Trung bình cao | **6/6** ✅ | Armenia, China, Georgia, Kazakhstan, Malaysia, Thailand |
+| IV — Chuyển đổi TB-thấp | **7/7** ✅ | Bangladesh, India, Indonesia, Mongolia, Pakistan, Philippines, Vietnam |
+| V — Đang nổi | **15/17** ✅ | *(thiếu Lebanon, Yemen — chưa có raw)* |
+| VI — SIDS | **8/8** ✅✅ | Fiji, Kiribati, PNG, Samoa, Solomon, Timor-Leste, Tonga, Vanuatu |
 
 ## C. Diễn giải chính (gradient thể chế — hợp lệ vì toàn biến tỷ lệ/nhị phân)
 
-1. **Năng lực đổi mới giảm dần theo gradient thể chế**: R&D 20,5%→5,7%; ISO 35%→6,6%; website 61,7%→28,9% (I→VI).
-2. **Tham nhũng tăng ngược gradient**: trở ngại lớn 2,9% (I) → 22,7% (IV) → 24,9% (VI); hối lộ %doanh thu 0,2→2,5.
-3. **Quốc tế hóa**: tỷ lệ DN xuất khẩu giảm I (28,4%) → VI (10,4%) — nhất quán câu chuyện FIP: SIDS ít DN xuất khẩu nhưng những DN xuất khẩu chịu gánh nặng.
-4. Nhóm II (chỉ Bahrain+Brunei) có innovation cao bất thường (53,9%) — artifact coverage, KHÔNG dùng làm đại diện GCC.
+1. **Năng lực công nghệ nền tảng giảm theo gradient thể chế**: R&D 20,5%→ (VI) 10,2%; ISO 35,0%→12,2%; website 61,7%→41,5% (I→VI).
+2. **Tham nhũng tăng ngược gradient**: trở ngại lớn 2,9% (I) → 22,7% (IV) → 28,0% (VI); GCC thấp nhất (0,8%).
+3. **SIDS "thích nghi & nhảy vọt" — XÁC NHẬN bằng đủ 8/8 nền**: đổi mới sản phẩm CAO NHẤT mọi nhóm (34,2%), đổi mới quy trình cao nhất (24,7%), website 41,5% ngang nhóm V dù GNI thấp hơn — đổi mới bằng nguồn lực hạn chế.
+4. **GCC (II) số THẬT 5/6 nền** thay artifact 2-nền trước đây: đặc trưng dầu mỏ — R&D thấp (6,1%), nữ quản lý cấp cao rất thấp (4,0%), tham nhũng-trở-ngại thấp nhất (0,8%), FDI cao (13,3%).
+5. **SIDS FDI cao (20,0%) + SME cao nhất (91,8%)**: cấu trúc du lịch/viễn thông do MNE dẫn dắt trên nền kinh tế vi mô.
+6. **Quốc tế hóa phân cực**: DN xuất khẩu 28,4% (I) → 11,2% (II) → 14,7% (VI); FSTS trung bình thấp khắp nơi (3,5–13,4%).
 
-## D. Quyết định đồng bộ với CĐ1 (khuyến nghị)
+## D. Lưu ý phương pháp
 
-- **Nhóm I, III, IV, V** (coverage đủ): có thể đồng bộ bảng CĐ1 §2.3.4 (đổi mới/số hóa), §2.3.5 (cấu trúc), §2.3.6 (tham nhũng) bằng số pipeline — kèm chú thích "tái tính trên khung 49 nền từ raw WBES".
-- **Nhóm II, VI**: GIỮ số bản khóa mô tả CĐ1 (hoặc dùng số master cho biến có sẵn) cho tới khi có raw GCC (Saudi/Qatar/Kuwait/Oman) + Pacific (6 nền); pipeline tự cập nhật khi bổ sung file (idempotent).
-- Việc thay số vào prose CĐ1 nên do tác giả duyệt từng bảng (số cũ từ pool mô tả 101.185 khác định nghĩa).
+- **Dedupe nước-năm** loại double-count (vd Nhóm IV trước 55.675 → 45.003 sau khi gộp đúng các sóng trùng). n_firms là tổng DN của TẤT CẢ sóng khảo sát mỗi nước (khác mẫu phân tích master vì pool nhiều đợt).
+- File raw không xóa khỏi kho; dedupe chỉ ở bước đọc (idempotent). Nếu có raw Oman chuẩn / Lebanon / Yemen, chạy lại `scripts/cd1_descriptives_pipeline.py` là tự cập nhật.
+- Bảng đã đồng bộ vào CĐ1: **2.3.3.2, 2.3.4.1, 2.3.5.1**. Các bảng phân tán năng suất (2.3.3.1), temporal (2.3.6.x), tiểu cảnh (2.3.7.1), tương quan (2.3.8.x) vẫn theo bản khóa mô tả 101.185.
