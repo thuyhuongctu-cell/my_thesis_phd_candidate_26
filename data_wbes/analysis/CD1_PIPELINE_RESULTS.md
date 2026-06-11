@@ -4,28 +4,28 @@
 > 49 nền, **dedupe theo nước-năm** (một cross-section chuẩn / economy-year; loại
 > panel/Informal/ISBS/ISES/Micro/expansion/TGS). Tái lập: `scripts/cd1_descriptives_pipeline.py`
 > + `scripts/wbes_canon.py`. Outputs: `cd1_pipeline_by_icrv.csv`, `cd1_pipeline_coverage.csv`.
-> Cập nhật 2026-06-11 sau khi nạp raw bổ sung (GCC + Pacific). 98 file dùng (đủ 47/49 nền có raw; chỉ thiếu Lebanon, Yemen).
+> Cập nhật 2026-06-11 sau khi nạp raw bổ sung (GCC + Pacific). 102 file dùng — **đủ 49/49 nền có raw** (đã loại các đợt khảo sát trước 2006 theo quy ước phạm vi).
 
 ## A. Bảng mô tả theo nhóm ICRV (đơn vị %, trừ khi ghi khác)
 
 | Chỉ tiêu | I Adv-innov | II Adv-res | III Upper-mid | IV Lower-mid | V Emerging | VI SIDS |
 |---|--:|--:|--:|--:|--:|--:|
-| n_firms (raw, dedupe) | 4.222 | 2.231 | 13.993 | 45.003 | 17.034 | 2.295 |
-| Đổi mới sản phẩm (h1) | 24,3 | 17,0 | 26,7 | 17,1 | 23,8 | **34,2** |
-| Đổi mới quy trình (h5) | 14,7 | 8,6 | 18,9 | 14,7 | 15,9 | **24,7** |
-| Chi R&D (h8) | **20,5** | 7,0 | 21,5 | 15,5 | 15,9 | 10,2 |
-| Chứng nhận ISO (b8) | **35,0** | 15,2 | 25,4 | 25,3 | 12,3 | 12,2 |
-| Website (c22b) | **61,7** | 50,2 | 53,9 | 48,3 | 39,8 | 41,5 |
-| Nữ quản lý cấp cao (b7a) | 27,5 | **4,6** | 29,1 | 10,8 | 15,2 | 30,9 |
-| Nữ trong chủ sở hữu (b4) | 32,5 | 9,8 | 38,4 | 18,2 | 25,1 | 47,4 |
-| DN xuất khẩu (FSTS>0) | **28,4** | 11,7 | 21,3 | 14,3 | 17,9 | 14,7 |
-| FDI nước ngoài ≥10% (b2b) | 10,6 | 13,6 | 8,9 | **3,1** | 7,5 | **20,0** |
-| SME (<100 lao động, l1) | 79,5 | 77,4 | 78,7 | 74,0 | 85,7 | **91,8** |
-| Tham nhũng = trở ngại lớn (j30f≥3) | **2,9** | 4,4 | 10,2 | 22,7 | 22,6 | **28,0** |
+| n_firms (raw, dedupe) | 4.222 | 2.231 | 13.993 | 45.003 | 18.957 | 2.295 |
+| Đổi mới sản phẩm (h1) | 24,3 | 17,0 | 26,7 | 17,1 | 24,4 | **34,2** |
+| Đổi mới quy trình (h5) | 14,7 | 8,6 | 18,9 | 14,7 | 16,3 | **24,7** |
+| Chi R&D (h8) | **20,5** | 7,0 | 21,5 | 15,5 | 17,5 | 10,2 |
+| Chứng nhận ISO (b8) | **35,0** | 15,2 | 25,4 | 25,3 | 12,7 | 12,2 |
+| Website (c22b) | **61,7** | 50,2 | 53,9 | 48,3 | 40,9 | 41,5 |
+| Nữ quản lý cấp cao (b7a) | 27,5 | **4,6** | 29,1 | 10,8 | 13,9 | 30,9 |
+| Nữ trong chủ sở hữu (b4) | 32,5 | 9,8 | 38,4 | 18,2 | 23,8 | 47,4 |
+| DN xuất khẩu (FSTS>0) | **28,4** | 11,7 | 21,3 | 14,3 | 18,8 | 14,7 |
+| FDI nước ngoài ≥10% (b2b) | 10,6 | 13,6 | 8,9 | **3,1** | 7,1 | **20,0** |
+| SME (<100 lao động, l1) | 79,5 | 77,4 | 78,7 | 74,0 | 86,0 | **91,8** |
+| Tham nhũng = trở ngại lớn (j30f≥3) | **2,9** | 4,4 | 10,2 | 22,7 | 28,2 | **28,0** |
 | FSTS trung bình | 13,4 | 3,9 | 10,2 | 8,1 | 10,6 | 6,7 |
 | Hối lộ (% doanh thu, j7a) | 0,2 | 0,0 | 0,8 | 1,7 | 0,9 | 1,4 |
 | Tuổi DN trung bình (năm) | 23,0 | 18,5 | 15,7 | 20,1 | 14,9 | 17,6 |
-| CAGR việc làm (l1/l2, %) | 3,0 | 3,7 | 3,8 | 2,8 | 4,7 | **5,3** |
+| CAGR việc làm (l1/l2, %) | 3,0 | 3,7 | 3,8 | 2,8 | 4,5 | **5,3** |
 
 ## B. Độ phủ nguồn raw theo nhóm (sau khi nạp bổ sung)
 
@@ -35,7 +35,7 @@
 | II — Adv. tài nguyên (GCC) | **6/6** ✅ | Bahrain, Brunei, Kuwait, Oman, Qatar, Saudi Arabia |
 | III — Trung bình cao | **6/6** ✅ | Armenia, China, Georgia, Kazakhstan, Malaysia, Thailand |
 | IV — Chuyển đổi TB-thấp | **7/7** ✅ | Bangladesh, India, Indonesia, Mongolia, Pakistan, Philippines, Vietnam |
-| V — Đang nổi | **15/17** ✅ | *(thiếu Lebanon, Yemen — chưa có raw)* |
+| V — Đang nổi | **17/17** ✅ | *(đủ — gồm Lebanon, Yemen)* |
 | VI — SIDS | **8/8** ✅✅ | Fiji, Kiribati, PNG, Samoa, Solomon, Timor-Leste, Tonga, Vanuatu |
 
 ## C. Diễn giải chính (gradient thể chế — hợp lệ vì toàn biến tỷ lệ/nhị phân)
@@ -50,5 +50,5 @@
 ## D. Lưu ý phương pháp
 
 - **Dedupe nước-năm** loại double-count (vd Nhóm IV trước 55.675 → 45.003 sau khi gộp đúng các sóng trùng). n_firms là tổng DN của TẤT CẢ sóng khảo sát mỗi nước (khác mẫu phân tích master vì pool nhiều đợt).
-- File raw không xóa khỏi kho; dedupe chỉ ở bước đọc (idempotent). Nếu có raw Lebanon / Yemen, chạy lại `scripts/cd1_descriptives_pipeline.py` là tự cập nhật.
+- File raw không xóa khỏi kho; dedupe chỉ ở bước đọc (idempotent). Quy ước phạm vi: chỉ đợt khảo sát ≥2006 (WBES có bộ câu hỏi so sánh được); pre-2006 đã loại. Idempotent — chạy lại pipeline khi có raw mới.
 - Bảng đã đồng bộ vào CĐ1: **2.3.3.2, 2.3.4.1, 2.3.5.1**. Các bảng phân tán năng suất (2.3.3.1), temporal (2.3.6.x), tiểu cảnh (2.3.7.1), tương quan (2.3.8.x) vẫn theo bản khóa mô tả 101.185.

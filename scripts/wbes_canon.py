@@ -40,6 +40,7 @@ _CANON = {
 # Economies retained in the dissertation's Asia-Pacific universe (master 52-frame
 # minus the three out-of-region drops). NON_ASIA are archived-out on request.
 NON_ASIA = {"Kenya", "Kosovo", "Cyprus", "Turkey", "WestBankGaza"}
+MIN_YEAR = 2006  # pre-2006 WBES waves use a non-comparable instrument — excluded
 # Comoros (African SIDS) is retained ONLY for the P8 9-economy robustness set.
 
 # instrument tags that are NOT the standard private-firm cross-section
@@ -65,6 +66,9 @@ def parse(path: str):
         return None
     suffix = re.sub(r"[^a-z]", "", name[m.start():].lower())
     panel = len(years) > 1                                # multi-wave panel file
-    standard = ("fulldata" in suffix) and not any(t in suffix for t in _NONSTANDARD)
-    return {"country": country, "year": int(years[0]),
+    year = int(years[0])
+    # pre-2006 WBES used a non-comparable questionnaire; excluded by scope rule
+    standard = ("fulldata" in suffix) and year >= MIN_YEAR \
+        and not any(t in suffix for t in _NONSTANDARD)
+    return {"country": country, "year": year,
             "standard": standard, "panel": panel}
