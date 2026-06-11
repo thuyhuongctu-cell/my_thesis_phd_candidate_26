@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "world-bank": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "tools/mcp/world_bank_mcp_server-master",
+        "run",
+        "world_bank_mcp_server"
+      ]
+    },
+    "data360": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "tools/mcp/data360-mcp-dev",
+        "run",
+        "fastmcp",
+        "run",
+        "src/data360/server.py"
+      ]
+    }
+  }
+}
