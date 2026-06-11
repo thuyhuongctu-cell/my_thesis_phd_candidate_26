@@ -188,6 +188,8 @@ $$\text{TP(M5)} = 40{,}0\% \text{ FSTS} \quad (p_{\text{LM}} < {,}001)$$
 
 Turning point dao động nhất quán trong dải hẹp 33,8–40,0% FSTS qua tất cả các đặc tả M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều đầy đủ M11 ($\text{TP} = 34{,}6\%$, $p_{\text{LM}} = {,}002$, $N = 29.840$). Tính nhất quán này bác bỏ giả thuyết rằng chữ U ngược chỉ là artefact của mẫu nhỏ hay thiếu biến kiểm soát.
 
+**Lưu ý cập nhật dữ liệu (2026).** Sau khi P7 hoàn tất ước lượng trên mẫu phân tích 49 nền, bộ dữ liệu WBES được cập nhật bổ sung **Japan-2025** (khảo sát lần đầu, thuộc Nhóm I — nâng khung phân loại lên 50 nền/94.032 doanh nghiệp) cùng các sóng khảo sát mới 2024–2026 của 31 nền (chi tiết: `data_wbes/analysis/DATA_UPDATE_MANIFEST.md`). Các quan sát này được lưu trữ để phục vụ **vòng ước lượng lại P7 kế tiếp**; kết quả P7 báo cáo ở đây **giữ nguyên trên mẫu phân tích 49 nền đã khóa** (khớp bản thảo đang bình duyệt). Vì P7 dùng country fixed effects và Japan là một nền đơn lẻ có biến thiên quốc tế hóa thấp (FSTS trung bình 4,1%), việc bổ sung Japan dự kiến không làm thay đổi turning point của các nhóm khác mà chỉ tinh chỉnh ước lượng riêng Nhóm I; xác nhận định lượng cần do nhóm nghiên cứu chạy lại do-file gốc của P7 trên mẫu mở rộng.
+
 ### 4.6.2 Gradient ICRV — Xác nhận H5
 
 Kết quả quan trọng nhất của P7 là xác nhận **gradient ICRV**: turning point tăng dần khi chuyển từ nhóm thể chế mạnh hơn sang nhóm thể chế yếu hơn:
