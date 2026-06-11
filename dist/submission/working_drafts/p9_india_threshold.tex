@@ -1,0 +1,255 @@
+% =====================================================================
+% P9 — Threshold collapse of the inverted-U under extreme institutional
+%       turbulence: India 2014-2025 (WBES three waves)
+% WORKING DRAFT submission framework (Springer-compatible).
+%
+% COMPILE:
+%   pdflatex p9_india_threshold.tex (twice) ; bibtex p9_india_threshold ; pdflatex (x2)
+% NOTE: No pdflatex was available in the build environment. Uses standard
+%   `article` class (Springer sn-jnl.cls not bundled). Swap class/title for
+%   sn-jnl when submitting to a Springer journal (e.g. MIR).
+%
+% INTEGRITY NOTE: Every numeric value is verbatim from the dissertation
+%   (chuong_4_ket_qua_vi.md sec 4.8 / 4.9, incl. Table 4.3; methods from
+%   phu_luc_A). Full per-wave coefficient tables absent from the dissertation
+%   are explicit PLACEHOLDERS. No new coefficients invented.
+% =====================================================================
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}\onehalfspacing
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage{booktabs}\usepackage{array}\usepackage{tabularx}
+\usepackage{graphicx}\usepackage{float}
+\usepackage{caption}\captionsetup{font=small,labelfont=bf}
+\usepackage{microtype}\usepackage{textcomp}
+\usepackage[hidelinks,breaklinks=true]{hyperref}
+\usepackage[round]{natbib}\bibliographystyle{apalike}
+
+\usepackage{filecontents}
+\begin{filecontents*}{p9refs.bib}
+@article{deaton1985,
+  author={Deaton, Angus}, title={Panel data from a time series of cross-sections},
+  journal={Journal of Econometrics}, volume={30}, number={1--2}, pages={109--126}, year={1985}}
+@incollection{verbeek2008,
+  author={Verbeek, Marno}, title={Pseudo-panels and repeated cross-sections},
+  booktitle={The Econometrics of Panel Data}, edition={3rd}, pages={369--383},
+  publisher={Springer}, year={2008}}
+@article{lindmehlum2010,
+  author={Lind, Jo Thori and Mehlum, Halvor},
+  title={With or without {U}? The appropriate test for a {U}-shaped relationship},
+  journal={Oxford Bulletin of Economics and Statistics}, volume={72}, number={1},
+  pages={109--118}, year={2010}}
+@article{paternoster1998,
+  author={Paternoster, Raymond and Brame, Robert and Mazerolle, Paul and Piquero, Alex},
+  title={Using the correct statistical test for the equality of regression coefficients},
+  journal={Criminology}, volume={36}, number={4}, pages={859--866}, year={1998}}
+@article{mizik2003,
+  author={Mizik, Natalie and Jacobson, Robert},
+  title={Trading off between value creation and value appropriation: The financial implications
+  of shifts in strategic emphasis},
+  journal={Journal of Marketing}, volume={67}, number={1}, pages={63--76}, year={2003}}
+@article{hsieh2009,
+  author={Hsieh, Chang-Tai and Klenow, Peter J.},
+  title={Misallocation and manufacturing {TFP} in {China} and {India}},
+  journal={Quarterly Journal of Economics}, volume={124}, number={4}, pages={1403--1448}, year={2009}}
+@book{north1990,
+  author={North, Douglass C.}, title={Institutions, Institutional Change and Economic Performance},
+  publisher={Cambridge University Press}, year={1990}}
+@book{khanna2010,
+  author={Khanna, Tarun and Palepu, Krishna G.},
+  title={Winning in Emerging Markets: A Road Map for Strategy and Execution},
+  publisher={Harvard Business Press}, year={2010}}
+@article{cameron2015,
+  author={Cameron, A. Colin and Miller, Douglas L.},
+  title={A practitioner's guide to cluster-robust inference},
+  journal={Journal of Human Resources}, volume={50}, number={2}, pages={317--372}, year={2015}}
+@incollection{dophan2025,
+  author={Do, T. H. and Phan, A. T.},
+  title={Internationalization and firm performance of firms in {India}: The role of top management},
+  booktitle={International Business Research: Traditional and Creative Approaches},
+  editor={Bartekova, M.}, publisher={IntechOpen}, year={2025},
+  note={https://doi.org/10.5772/intechopen.1011012}}
+\end{filecontents*}
+
+\title{Threshold Collapse: How Extreme Institutional Turbulence Dissolves the
+Internationalization--Performance Inverted-U in India, 2014--2025}
+\author{Author details withheld for blind review}
+\date{Working draft}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Whether the inverted-U turning point of the
+internationalization--performance (I--P) relationship is structurally stable
+under institutional change is unknown. We exploit India's exceptional
+2014--2025 reform sequence (demonetization, the Insolvency and Bankruptcy
+Code, the Goods and Services Tax, the Unified Payments Interface, and
+Make-in-India/Atmanirbhar Bharat) as a quasi-experiment, using three World
+Bank Enterprise Survey waves (2014 PICS3, $N=8{,}941$; 2022 BEE, $N=9{,}300$;
+2025 BREADY, $N=10{,}476$; pooled $N=28{,}717$). In 2014 the relationship is a
+classic inverted-U ($\beta_1=+1.865$, $\beta_2=-1.508$, both $p<0.001$;
+turning point $61.8\%$ of export intensity). By 2022 the curve persists but
+its turning point contracts inward to $40.7\%$. By 2025 the quadratic term is
+insignificant ($\beta_2=-0.160$, $p=0.420$) and the relationship is
+monotonically negative---the threshold has dissolved. A Paternoster test
+rejects coefficient equality between 2014 and 2025 with extreme strength
+($z_{\mathrm{FSTS}}=-7.94$, $z_{\mathrm{FSTS}^2}=+4.17$; both $p<0.0001$;
+state-clustered $z=-3.50$/$+2.19$). The pattern contrasts sharply with China,
+where the turning point is structurally stable across twelve years. We
+interpret threshold collapse as evidence that I--P turning-point stability is
+not an intrinsic property of an institutional regime but depends on the pace
+and depth of cumulative institutional change.\\[4pt]
+\textbf{Keywords:} internationalization; firm performance; inverted-U;
+threshold stability; institutional turbulence; India; digital public
+infrastructure
+\end{abstract}
+
+\section{Introduction}
+The location of the I--P turning point is typically treated as a fixed
+structural parameter of a context. Whether that parameter survives rapid
+institutional change has not been tested, because few settings combine a
+large firm-level panel of cross-sections with a concentrated burst of reform.
+India 2014--2025 provides exactly that. The gap we address is the temporal
+\emph{stability} of the inverted-U threshold under extreme institutional
+turbulence. Our contribution is to document \emph{threshold collapse}: a
+turning point that contracts and then dissolves as cumulative institutional
+shocks accumulate, and to contrast it with the structurally stable Chinese
+case, showing that stability is conditional rather than regime-intrinsic. The
+study extends prior published work on India \citep{dophan2025} from a single
+cross-section to a three-wave stability test.
+
+\section{Theory and Hypotheses}
+Institutional theory holds that the costs and benefits of internationalization
+are conditioned by the institutional environment \citep{north1990,khanna2010}.
+If that environment is itself reconfigured---through monetary, tax, insolvency,
+and digital-infrastructure reform---the cost--benefit balance underlying the
+inverted-U should shift, relocating and potentially erasing the turning point.
+Where reforms raise the relative payoff of domestic orientation (for example
+production-linked incentives and self-reliance policy), the ascending arm of
+the export curve should weaken over time.
+
+\begin{description}
+\item[H1c.] Under extreme institutional turbulence the inverted-U turning
+point shifts and ultimately dissolves over time (threshold collapse).
+\end{description}
+
+\section{Data and Methods}
+The data are three WBES India waves treated as repeated cross-sections
+\citep{deaton1985,verbeek2008}: 2014 PICS3 ($N=8{,}941$), 2022 BEE
+($N=9{,}300$), and 2025 BREADY ($N=10{,}476$), pooled $N=28{,}717$. [Sample
+sizes are REAL.] The dependent variable is within-wave standardized labour
+productivity; FSTS is export intensity. Each wave is fitted with the quadratic
+specification and assessed with the Lind--Mehlum test \citep{lindmehlum2010};
+turning points are $-\beta_1/(2\beta_2)$ with delta-method confidence
+intervals. Cross-wave coefficient equality is tested with the Paternoster
+$z$ test \citep{paternoster1998} under both HC1 and state-clustered
+($G=24$ states) standard errors \citep{cameron2015}. A pooled
+specification with wave dummies and interactions confirms the systematic
+shift.
+
+\section{Results}
+\subsection{From classic inverted-U to collapse (H1c)}
+In 2014 the relationship is a classic inverted-U:
+$\beta_1=+1.865$ ($p<0.001$), $\beta_2=-1.508$ ($p<0.001$), turning point
+$\mathrm{TP}=61.8\%$ FSTS (delta-method $95\%$ CI $[55.0\%, 68.6\%]$),
+Lind--Mehlum $p<0.001$. By 2022, after the first reform cluster, the curve
+persists but its turning point contracts inward: $\beta_1=+1.542$,
+$\beta_2=-1.893$, $\mathrm{TP}=40.7\%$ (CI $[38.0\%, 43.5\%]$). By 2025 the
+quadratic term loses significance ($\beta_2=-0.160$, $p=0.420$) and the
+relationship is monotonically negative over the observed export range. [All
+values in this subsection are REAL.]
+
+\begin{table}[H]
+\centering
+\caption{Turning point by survey wave, India (REAL values from dissertation
+Table~4.3).}
+\begin{tabularx}{\textwidth}{lccX}
+\toprule
+Wave & $N$ (analytic) & Turning point & Lind--Mehlum \\
+\midrule
+2014 (PICS3)  & $8{,}941$  & $61.8\%$ FSTS & $p<0.001$ (classic inverted-U) \\
+2022 (BEE)    & $9{,}300$  & $40.7\%$ FSTS & $p<0.001$ (TP shifts inward) \\
+2025 (BREADY) & $10{,}476$ & undefined     & $p=0.99$ (curve collapses) \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Cross-wave stability tests}
+The Paternoster test rejects 2014--2025 coefficient equality with extreme
+strength: $z(\mathrm{FSTS})=-7.94$, $p<0.0001$ and
+$z(\mathrm{FSTS}^2)=+4.17$, $p<0.0001$ under HC1; under state-clustered
+standard errors ($G=24$) the result remains significant,
+$z(\mathrm{FSTS})=-3.50$ ($p=0.001$) and $z(\mathrm{FSTS}^2)=+2.19$
+($p=0.029$). The pooled specification with wave interactions confirms the
+shift, $\beta(\mathrm{FSTS}\times\mathrm{wave}\_2025)=-1.63$ ($p<0.0001$).
+The contrast with China is direct: there the turning point is structurally
+stable ($\mathrm{TP}=49.4\%$ in 2012 vs.\ $47.2\%$ in 2024; Paternoster
+$z=+0.82$, $p=0.412$). [All values in this subsection are REAL.]
+
+% --------------------------------------------------------------------
+\begin{table}[H]
+\centering
+\caption{Per-wave quadratic regressions with TCI and DAI moderators
+(full coefficients).}
+\begin{tabularx}{\textwidth}{Xccc}
+\toprule
+ & 2014 & 2022 & 2025 \\
+\midrule
+\multicolumn{4}{c}{\itshape [Table P9-2 -- full coefficients from the authors'
+original output. Populate only from locked estimates.]}\\
+FSTS         & $+1.865^{***}$ & $+1.542$ & --- \\
+FSTS$^2$     & $-1.508^{***}$ & $-1.893$ & $-0.160$ (ns) \\
+TCI (direct) & $+0.12^{***}$  & $+0.19^{***}$ & $-0.08^{***}$ \\
+FSTS$\times$TCI & --- & --- & $+0.20\ (p=0.03)$ \\
+FSTS$\times$DAI$_{\text{Tier-2}}$ & --- & --- & $-4.02\ (p=0.004)$ \\
+$N$          & $8{,}941$ & $9{,}300$ & $10{,}476$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+% --------------------------------------------------------------------
+
+\subsection{Capability and digital moderators}
+TCI shows a sign flip unobserved elsewhere: positive in 2014
+($\beta=+0.12$, $p<0.001$) and stronger in 2022 ($\beta=+0.19$, $p<0.001$),
+but negative in 2025 ($\beta=-0.08$, $p<0.001$) with a positive
+FSTS$\times$TCI interaction ($\beta=+0.20$, $p=0.03$), consistent with a
+strategic-emphasis trade-off \citep{mizik2003} as post-2020 industrial policy
+redirected capability toward domestic production. For digital adoption, the
+2025 BREADY wave adds a Tier-2 indicator (electronic-payment revenue share),
+whose interaction with export intensity is negative and significant
+($\mathrm{FSTS}\times\mathrm{DAI}_{\text{Tier-2}}=-4.02$, $p=0.004$):
+domestic-rail public digital infrastructure (UPI) does not substitute for the
+cross-border financial infrastructure exporters require. [All values in this
+subsection are REAL.]
+
+\section{Discussion and Conclusion}
+The Indian evidence shows that the I--P turning point is not an immutable
+structural constant. Under a concentrated sequence of monetary, fiscal,
+insolvency, and digital reforms, the inverted-U first contracted and then
+dissolved into a monotone-negative relationship. The contrast with the
+structurally stable Chinese case---both upper-middle-income regimes---implies
+that threshold stability is governed by the pace and depth of cumulative
+institutional change within the observation window, not by the institutional
+regime label alone. The TCI sign flip and the negative Tier-2 digital
+interaction further indicate that capability and digital effects are
+themselves policy-contingent: public digital infrastructure substitutes for
+private capability only when the two share a purpose orientation.
+
+Limitations include the repeated-cross-section design, which precludes firm
+trajectory tracking, and the inability to attribute collapse to any single
+reform within a bundled sequence. The findings nonetheless caution against
+treating any estimated turning point as a fixed planning parameter in rapidly
+reforming economies. An extended manuscript testing I--P threshold robustness
+across the three 2014--2025 waves is in preparation for MIR/IJOEM.
+
+\bibliography{p9refs}
+
+\end{document}
