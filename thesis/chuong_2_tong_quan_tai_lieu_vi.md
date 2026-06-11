@@ -36,7 +36,7 @@ Hai construct TCI và DAI không đồng nhất và vận hành theo cơ chế k
 
 Thể chế (institutions) theo North (1990) là "luật chơi" của một xã hội, bao gồm các ràng buộc chính thức (luật pháp, quy định, hợp đồng) và phi chính thức (chuẩn mực, giá trị, văn hóa ứng xử). Thể chế tạo ra cấu trúc khuyến khích và chi phí giao dịch, do đó ảnh hưởng trực tiếp đến chiến lược và kết quả kinh doanh của doanh nghiệp.
 
-Để vận hành hóa bối cảnh thể chế đa cấp và đa quốc gia trong luận án, khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) được phát triển như một công cụ phân loại có hệ thống. Khung ICRV chia 49 nền kinh tế trong phạm vi nghiên cứu thành sáu nhóm (sub-regime), dựa trên tổ hợp các chỉ số quản trị toàn cầu (World Governance Indicators — WGI) của Kaufmann et al. (2011), mức độ phát triển kinh tế, và đặc trưng cấu trúc thể chế: Nhóm I (Advanced Innovation-Driven, bao gồm Singapore, Hong Kong, Đài Loan, Hàn Quốc), Nhóm II (Advanced Resource-Driven, bao gồm các nền kinh tế vùng Vịnh), Nhóm III (Upper-middle, điển hình là Trung Quốc), Nhóm IV (Lower-middle transition, bao gồm Việt Nam và Ấn Độ), Nhóm V (Frontier), và Nhóm VI (SIDS — Small Island Developing States). Khung này mở rộng từ phân loại thể chế của Khanna và Palepu (2010) và được điều chỉnh để phản ánh thực tiễn đa dạng của châu Á và khu vực lân cận.
+Để vận hành hóa bối cảnh thể chế đa cấp và đa quốc gia trong luận án, khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) được phát triển như một công cụ phân loại có hệ thống. Khung ICRV chia 49 nền kinh tế trong phạm vi nghiên cứu thành sáu nhóm (sub-regime), dựa trên tổ hợp các chỉ số quản trị toàn cầu (World Governance Indicators — WGI) của Kaufmann et al. (2011), mức độ phát triển kinh tế, và đặc trưng cấu trúc thể chế: Nhóm I (Advanced Innovation-Driven, bao gồm Singapore, Hong Kong, Đài Loan, Hàn Quốc), Nhóm II (Advanced Resource-Driven, bao gồm các nền kinh tế vùng Vịnh), Nhóm III (Upper-middle, điển hình là Trung Quốc), Nhóm IV (Lower-middle transition, bao gồm Việt Nam và Ấn Độ), Nhóm V (Emerging), và Nhóm VI (SIDS — Small Island Developing States). Khung này mở rộng từ phân loại thể chế của Khanna và Palepu (2010) và được điều chỉnh để phản ánh thực tiễn đa dạng của châu Á và khu vực lân cận.
 
 ICRV không chỉ là một biến phân loại mà còn là một gradient thể chế liên tục — từ môi trường thể chế mạnh, ít rủi ro (Nhóm I) đến môi trường thể chế yếu, nhiều rủi ro và khoảng trống thể chế (Nhóm V và VI). Gradient này tạo ra điều kiện biên (boundary conditions) quan trọng để kiểm định khả năng tổng quát hóa của mối quan hệ I–P, đặc biệt liên quan đến giả thuyết phi tuyến.
 
@@ -200,7 +200,7 @@ Luận án được phát triển gắn với một chuỗi nghiên cứu thành
 | Nghiên cứu thành phần | Bối cảnh (nhóm ICRV) | Trình bày tại | Giả thuyết kiểm định |
 |---|---|---|---|
 | P1–P2 (meta baseline, ICBEF 2024) | Toàn cầu/châu Á | §2.3.2; §4.2 | Nền tảng cho H1, H5 |
-| P3 — Việt Nam | Emerging (Nhóm IV) | §4.5 | H1, H2, H3 |
+| P3 — Việt Nam | Lower-middle transition (Nhóm IV) | §4.5 | H1, H2, H3 |
 | P4 — Singapore | Advanced đổi mới (Nhóm I) | §4.3 | H1, H3 |
 | P5 — Trung Quốc 2012–2024 | Upper-middle (Nhóm III) | §4.4 | H1, H6 |
 | P6 — Meta-analysis ba tầng | Toàn bộ literature | §4.2 | H1, H5 |

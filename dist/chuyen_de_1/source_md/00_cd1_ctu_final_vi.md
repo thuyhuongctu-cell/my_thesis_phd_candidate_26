@@ -225,6 +225,8 @@ Trong bối cảnh đó, hệ thống thông tin về hiệu quả doanh nghiệ
 - **(iv) Đang nổi — Emerging (7 nước)**: Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ.
 - **(v) Cận biên — Frontier (17 nước)**: Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyz Republic, Turkmenistan, Afghanistan, Timor-Leste, Iraq, Lebanon, Yemen.
 
+> **Ghi chú crosswalk nhãn dữ liệu:** Tên nhóm trong chuyên đề ('Đang nổi'/'Cận biên') theo cách phân loại lý thuyết của chuyên đề trên bản khóa mô tả 47 nền/101.185 DN. Khi căn theo **nhãn dữ liệu P7** (dùng trong luận án và Chuyên đề 2), Nhóm IV mang nhãn `Lower_mid_transition` và Nhóm V mang nhãn `Emerging`, với một số nước hoán nhóm: Sri Lanka và Jordan → Nhóm V (`Emerging`); Bangladesh và Pakistan → Nhóm IV (`Lower_mid_transition`). Các số liệu mô tả theo nhóm trong chuyên đề được giữ theo bản khóa mô tả để bảo toàn tính nhất quán nội bộ; chúng sẽ được đồng bộ với nhãn dữ liệu khi re-lock với dữ liệu thô của 43 nền còn thiếu.
+
 **B. Trường hợp biên mở rộng — 7 SIDS Thái Bình Dương** (n=1.371, 1,4% pool): Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati (2025).
 
 **Phạm vi thời gian**: **2009–2025** (16 năm × 14 mốc khảo sát). Ba thế hệ schema WBES: PICS3 (2009–2012, n=14.171), Standardized (2013–2017, n=24.564), BREADY/BEE/EAP Core (2018–2025, n=62.450).
