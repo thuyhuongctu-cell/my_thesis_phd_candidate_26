@@ -107,10 +107,10 @@ Sau lần đầu, dùng **tiếng Việt thuần** cho các lần tiếp theo tr
 | "Chỉ số năng lực công nghệ (Technological Capability Index — TCI)" | "TCI" hoặc "năng lực công nghệ" |
 | "Chỉ số năng lực số (Digital Adoption Index — DAI)" | "DAI" hoặc "năng lực số" |
 | "Tỷ lệ doanh số nước ngoài trên tổng doanh số (Foreign Sales to Total Sales — FSTS)" | "FSTS" hoặc "cường độ quốc tế hóa" |
-| "Phân loại thể chế theo nhóm năng lực-nguồn lực (Institutional Capability-Resource Vitality — ICRV)" | "ICRV" hoặc "phân loại thể chế ICRV" |
+| "Phân loại thể chế theo nhóm bối cảnh thể chế (Institutional Context Regime Variation — ICRV)" | "ICRV" hoặc "phân loại thể chế ICRV" |
 | "Khảo sát Môi trường Kinh doanh Doanh nghiệp (World Bank Enterprise Survey — WBES)" | "WBES" hoặc "khảo sát WBES" |
 | "Năng suất nhân tố tổng hợp (Total Factor Productivity — TFP)" | "TFP" hoặc "năng suất tổng hợp" |
-| "Nhóm thể chế theo chỉ số năng lực-nguồn lực (ICRV sub-regime)" | "nhóm ICRV I/II/III/IV/V/VI" |
+| "Nhóm thể chế theo chỉ số bối cảnh thể chế (ICRV sub-regime)" | "nhóm ICRV I/II/III/IV/V/VI" |
 
 ---
 

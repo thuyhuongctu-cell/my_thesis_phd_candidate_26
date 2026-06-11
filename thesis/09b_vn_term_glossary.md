@@ -46,7 +46,7 @@
 | 11 | Technological Capability Index (TCI) | Chỉ số năng lực công nghệ | Chỉ số năng lực công nghệ (Technological Capability Index — TCI) | TCI / năng lực công nghệ |
 | 12 | Digital Adoption Index (DAI) | Chỉ số năng lực số | Chỉ số năng lực số (Digital Adoption Index — DAI) | DAI / năng lực số |
 | 13 | Foreign Sales to Total Sales (FSTS) | Tỷ lệ doanh số quốc tế | Tỷ lệ doanh số quốc tế trên tổng doanh số (Foreign Sales to Total Sales — FSTS) | FSTS / cường độ quốc tế hóa |
-| 14 | Institutional Capability-Resource Vitality (ICRV) | Phân loại thể chế năng lực-nguồn lực | Phân loại thể chế năng lực-nguồn lực (Institutional Capability-Resource Vitality — ICRV) | ICRV / phân loại thể chế ICRV |
+| 14 | Institutional Context Regime Variation (ICRV) | Biến thiên chế độ bối cảnh thể chế | Biến thiên chế độ bối cảnh thể chế (Institutional Context Regime Variation — ICRV) | ICRV / phân loại thể chế ICRV |
 | 15 | Total Factor Productivity (TFP) | Năng suất nhân tố tổng hợp | Năng suất nhân tố tổng hợp (Total Factor Productivity — TFP) | TFP / năng suất tổng hợp |
 | 16 | Return on Assets (ROA) | Tỷ suất sinh lời trên tài sản | Tỷ suất sinh lời trên tài sản (Return on Assets — ROA) | ROA |
 | 17 | World Governance Indicators (WGI) | Chỉ số quản trị thế giới | Chỉ số quản trị thế giới (World Governance Indicators — WGI) | WGI |
