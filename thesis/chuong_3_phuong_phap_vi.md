@@ -41,7 +41,7 @@ Identification → Screening → Eligibility → Inclusion theo hướng dẫn P
 
 ### 3.3.1 Nguồn dữ liệu
 
-Luận án sử dụng World Bank Enterprise Surveys cho **49 nền kinh tế châu Á và Pacific** trong giai đoạn **2003–2025** (91.982 doanh nghiệp · 102 cặp quốc gia × năm · 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011).
+Luận án sử dụng World Bank Enterprise Surveys cho **49 nền kinh tế châu Á và Pacific** trong giai đoạn **2003–2025** (91.982 doanh nghiệp · 102 cặp quốc gia × năm · 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011). Quy trình hợp nhất và hài hòa hóa chi tiết các bộ khảo sát quốc gia–năm thành bộ dữ liệu phân tích thống nhất (sáu bước S1–S6, xử lý tính so sánh tiền tệ, chiến lược pooled cross-section với hiệu ứng cố định hai chiều, cùng dòng dữ liệu PRISMA và mã tái lập) được trình bày đầy đủ ở **Phụ lục A**.
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (nghiên cứu thành phần P1).
 

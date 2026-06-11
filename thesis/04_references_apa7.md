@@ -131,6 +131,16 @@ Pangarkar, N. (2008). Internationalization and performance of small- and medium-
 
 **Aguinis, H., Hill, N. S., & Bailey, J. R. (2019). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693.** https://doi.org/10.1177/1094428119836485 *(Mới v2.4 — 12-point data section transparency framework.)*
 
+### Bổ sung v3.2 — Phương pháp hợp nhất dữ liệu đa quốc gia (Phụ lục A)
+
+Deaton, A. (1985). Panel data from a time series of cross-sections. *Journal of Econometrics, 30*(1–2), 109–126. https://doi.org/10.1016/0304-4076(85)90134-4 *(Cơ sở repeated cross-sections — Phụ lục A.1, A.6.)*
+
+Feenstra, R. C., Inklaar, R., & Timmer, M. P. (2015). The next generation of the Penn World Table. *American Economic Review, 105*(10), 3150–3182. https://doi.org/10.1257/aer.20130954 *(Điều chỉnh PPP cho so sánh mức xuyên quốc gia — Phụ lục A.5.)*
+
+Little, R. J. A., & Rubin, D. B. (2019). *Statistical analysis with missing data* (3rd ed.). John Wiley & Sons. https://doi.org/10.1002/9781119482260 *(Xử lý dữ liệu thiếu, listwise/MAR — Phụ lục A.9.)*
+
+Verbeek, M. (2008). Pseudo-panels and repeated cross-sections. In L. Mátyás & P. Sevestre (Eds.), *The econometrics of panel data* (3rd ed., pp. 369–383). Springer. https://doi.org/10.1007/978-3-540-75892-1_11 *(Khung lát cắt ngang lặp lại — Phụ lục A.1, A.6.)*
+
 ## K. WBES references và báo cáo Việt Nam (cập nhật v2.5 — bổ sung 4 entries từ batch upload 5 PDFs 07/05/2026)
 
 CIEM. (2023). *Báo cáo Năng lực cạnh tranh và hiệu quả doanh nghiệp Việt Nam 2023* [Central Institute for Economic Management]. Nhà xuất bản Khoa học và Kỹ thuật.
