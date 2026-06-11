@@ -194,7 +194,7 @@ Adopting multidimensional descriptive statistics, charts, cross-country–cross-
 
 Khu vực châu Á đã trở thành động lực tăng trưởng của kinh tế thế giới trong gần hai thập niên qua. Theo Asian Development Bank (ADB, 2024), châu Á đóng góp khoảng 60% tăng trưởng GDP toàn cầu giai đoạn 2010–2023, với tổng quy mô kinh tế chiếm xấp xỉ 40% GDP toàn cầu (World Bank, 2024). Bên trong khu vực, hiệu quả hoạt động của doanh nghiệp — đơn vị tế bào của nền kinh tế — là yếu tố quyết định mức độ chuyển hoá tăng trưởng quốc gia thành thịnh vượng và năng lực cạnh tranh dài hạn (Cusolito & Maloney, 2018). Vì vậy, đánh giá thực trạng hiệu quả hoạt động kinh doanh của doanh nghiệp ở châu Á có ý nghĩa lý luận lẫn chính sách.
 
-Bức tranh hiệu quả doanh nghiệp châu Á 2009–2025 được định hình bởi **bảy lớp bối cảnh đan xen**. Bốn lớp đầu gồm: hậu khủng hoảng tài chính toàn cầu 2008–2009; tái cấu trúc chuỗi giá trị toàn cầu sau chiến tranh thương mại Mỹ–Trung 2018 (UNCTAD, 2023); đại dịch COVID-19 2020–2022 (World Bank, 2023); và làn sóng chuyển đổi số tăng tốc từ 2018 (Verhoef et al., 2021; Banalieva & Dhanaraj, 2019). Lớp thứ năm là **giai đoạn AI bùng nổ và củng cố hậu COVID 2023–2025** (Stallkamp & Schotter, 2021). **Lớp thứ sáu là xung đột Trung Đông 2026** — IMF (2026, tháng 4) điều chỉnh giảm tăng trưởng toàn cầu xuống 3,1% năm 2026; ADB (2026, tháng 4) dự báo Pacific 3,4%, Đông Nam Á 4,7%, Việt Nam 7,0%. Riêng Việt Nam, ADB (2026, tháng 4) ghi nhận GDP lịch sử 2025 đạt 8,0% và cập nhật dự báo 7,2% (2026) → 7,0% (2027). **Lớp thứ bảy là bất định chính sách thuế quan Mỹ 2026** — Mỹ chiếm xấp xỉ 30% tổng kim ngạch xuất khẩu Việt Nam; thuế toàn cầu 10% tạm thời tạo áp lực kép: hiệu ứng front-loading ngắn hạn và trì hoãn đầu tư dài hạn.
+Bức tranh hiệu quả doanh nghiệp châu Á 2009–2025 được định hình bởi **bảy lớp bối cảnh đan xen**. Bốn lớp đầu gồm: hậu khủng hoảng tài chính toàn cầu 2008–2009; tái cấu trúc chuỗi giá trị toàn cầu sau chiến tranh thương mại Mỹ–Trung 2018 (UNCTAD, 2023); đại dịch COVID-19 2020–2022 (World Bank, 2023); và làn sóng chuyển đổi số tăng tốc từ 2018 (Verhoef et al., 2021; Banalieva & Dhanaraj, 2019). Lớp thứ năm là **giai đoạn AI bùng nổ và củng cố hậu COVID 2023–2025** (Stallkamp & Schotter, 2021). **Lớp thứ sáu là xung đột Trung Đông 2026** — IMF (2026, tháng 4) điều chỉnh giảm tăng trưởng toàn cầu xuống 3,1% năm 2026; ADB (2026, tháng 4) dự báo Pacific 3,4%, Đông Nam Á 4,7%, Việt Nam 7,0%. Riêng Việt Nam, ADB (2026, tháng 4) ghi nhận GDP lịch sử 2025 đạt 8,0% và cập nhật dự báo 7,2% (2026) → 7,0% (2027). **Lớp thứ bảy là bất định chính sách thuế quan Mỹ 2026** — Mỹ chiếm xấp xỉ 30% tổng kim ngạch xuất khẩu Việt Nam; thuế toàn cầu 10% tạm thời tạo áp lực kép: hiệu ứng front-loading ngắn hạn và trì hoãn đầu tư dài hạn. **Lưu ý thời điểm**: Lớp bối cảnh thứ sáu và thứ bảy (các sự kiện 2026) nằm *ngoài* cửa sổ dữ liệu phân tích của chuyên đề (2009–2025); chúng được nêu để định khung diễn giải vĩ mô và định hướng chính sách, chứ không phản ánh trong các thống kê mô tả — vốn được tính trên dữ liệu WBES đến hết 2025.
 
 Trong bối cảnh đó, hệ thống thông tin về hiệu quả doanh nghiệp châu Á còn phân mảnh. World Bank Enterprise Surveys (WBES) là cơ sở dữ liệu vi mô tin cậy nhất hiện có (World Bank Enterprise Surveys, 2025). Đỗ và Phan (2026 — VEFR) đã mở rộng phạm vi WBES đến 17 nền kinh tế châu Á mới nổi với ~40.633 doanh nghiệp. Tuy nhiên, vẫn còn ít tổng hợp xuyên 47 nền kinh tế trên giai đoạn dài 2009–2025. Chuyên đề này lấp khoảng trống thực tiễn đó bằng cách tổng hợp dữ liệu **101.185 doanh nghiệp xuyên 47 nền kinh tế × 108 cặp quốc gia × năm × 14 mốc khảo sát** — gấp 2,5 lần phạm vi của Đỗ & Phan (2026 — VEFR).
 
@@ -296,6 +296,8 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 #### 2.3.1.1 Khái niệm hiệu quả hoạt động kinh doanh
 
 Hiệu quả hoạt động kinh doanh (firm performance) là khái niệm **đa chiều** phản ánh mức độ đạt được các mục tiêu chiến lược của doanh nghiệp theo thời gian và trong bối cảnh thể chế cụ thể. Venkatraman và Ramanujam (1986) phân biệt hai tầng: (a) **hiệu quả tài chính** — doanh thu, lợi nhuận, tỷ suất sinh lợi; và (b) **hiệu quả hoạt động rộng hơn** — thị phần, đổi mới, năng suất, tăng trưởng việc làm. Lý thuyết dựa trên nguồn lực (Barney, 1991; Wernerfelt, 1984) xem hiệu quả doanh nghiệp là kết quả của việc tích lũy và khai thác **nguồn lực chiến lược** (có giá trị, hiếm, không thể sao chép, không thể thay thế — VRIN), trong khi quan điểm thể chế (North, 1990; Scott, 1995; Peng, 2001) nhấn mạnh rằng hiệu quả này bị định hình mạnh bởi **môi trường thể chế** nơi doanh nghiệp hoạt động.
+
+Vượt ra ngoài khung hai tầng của Venkatraman và Ramanujam (1986), văn liệu phương pháp luận về đo lường hiệu quả tổ chức phân biệt **ba nhóm thước đo chính** (Combs, Crook, & Shook, 2005; Richard, Devinney, Yip, & Johnson, 2009): (i) **thước đo dựa trên kế toán** (ROA, ROE, ROS) phản ánh hiệu quả tài chính lịch sử; (ii) **thước đo dựa trên thị trường tài chính** (Tobin's Q, tổng lợi nhuận cổ đông) phản ánh kỳ vọng tương lai do nhà đầu tư định giá; và (iii) **thước đo dựa trên năng suất và tăng trưởng** (năng suất lao động, tăng trưởng doanh thu và việc làm) phản ánh năng lực vận hành thực chất. Richard và cộng sự (2009) cảnh báo rằng việc dựa vào một thước đo đơn lẻ làm suy giảm hiệu lực cấu trúc (construct validity) và khuyến nghị đo lường đa nguồn, đa chiều. Trong bối cảnh dữ liệu WBES — vốn không cung cấp giá cổ phiếu nên loại trừ nhóm (ii), và có dữ liệu lợi nhuận thưa thớt làm hạn chế nhóm (i) — **năng suất lao động** (thuộc nhóm iii) là lựa chọn chủ đạo có cơ sở lý thuyết và kỹ thuật vững nhất giữa các phương án (ROA/ROS/Tobin's Q): nó so sánh được xuyên quốc gia, ít bị méo mó bởi cơ cấu vốn và chế độ thuế đặc thù từng quốc gia, và phản ánh trực tiếp năng lực chuyển hóa đầu vào thành đầu ra. Để bù đắp giới hạn của một thước đo đơn lẻ theo khuyến nghị của Combs và cộng sự (2005), chuyên đề bổ sung ba chiều hiệu quả hỗ trợ (lợi nhuận, tăng trưởng, đổi mới) được trình bày ở mục 2.3.1.2.
 
 Trong bối cảnh nghiên cứu xuyên quốc gia, khái niệm hiệu quả cần được **tiêu chuẩn hóa** để so sánh được. Theo Cusolito và Maloney (2018), **năng suất lao động** — đo bằng giá trị gia tăng trên lao động hoặc doanh thu trên lao động — là thước đo phổ biến nhất trong các nghiên cứu WBES vì: (a) tính khả dụng cao xuyên 3 thế hệ schema; (b) ít bị biến dạng bởi cơ cấu vốn hay cơ chế thuế quốc gia; (c) phản ánh trực tiếp năng lực chuyển đổi đầu vào thành đầu ra. Trong chuyên đề này, năng suất lao động được tính bằng:
 
@@ -808,6 +810,20 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **KT5 — SIDS Pacific như trường hợp biên lý thuyết của thuyết Uppsala**: Chi phí buộc phải quốc tế hóa tại 7 SIDS không khớp với bất kỳ dạng hàm quốc tế hóa – hiệu quả nào trong văn liệu. Cần khung kết hợp MIRAB và Briguglio (1995) và quan điểm dựa trên nguồn lực.
 
+**Ánh xạ khoảng trống → câu hỏi nghiên cứu cho Chuyên đề 2.** Để chính thức hóa cầu nối từ thực trạng mô tả (CĐ1) sang thiết kế kiểm định suy diễn (CĐ2), Bảng 2.3.9.1 chuyển mỗi khoảng trống thực nghiệm thành một câu hỏi nghiên cứu có mô hình/kiểm định tương ứng.
+
+**Bảng 2.3.9.1.** *Ánh xạ khoảng trống thực trạng (CĐ1) → câu hỏi nghiên cứu (CĐ2).*
+
+| Khoảng trống (CĐ1) | Câu hỏi nghiên cứu cho CĐ2 | Mô hình/kiểm định dự kiến |
+|---|---|---|
+| **KT1** — Điều tiết ba chiều TCI×DAI×FSTS chưa kiểm định đồng thời | Năng lực công nghệ và chấp nhận số đồng thời điều tiết quan hệ I–P như thế nào xuyên 6 chế độ ICRV? | Mô hình M7 tương tác ba chiều, 108 cặp quốc gia–năm |
+| **KT2** — Phân nhóm con Advanced chưa hệ thống hóa | Cơ chế innovation-driven và resource-driven khác nhau ra sao trong chuyển hóa quốc tế hóa thành hiệu quả? | Tách Nhóm I/II + kiểm định khác biệt hệ số |
+| **KT3** — Nghịch lý bão hòa số chưa xác nhận nhân quả | Hệ số DAI âm ở Advanced là bão hòa thực hay nhân quả ngược/bỏ sót biến? | Ước lượng biến công cụ (độ phủ băng thông rộng) |
+| **KT4** — Dị biệt thời gian ba giai đoạn chưa tổng hợp | Vị trí điểm uốn và độ cong I–P có ổn định qua 2009–2025 không? | Kiểm định Paternoster + tương tác thời gian |
+| **KT5** — SIDS là trường hợp biên của Uppsala | Có tồn tại bối cảnh nơi quan hệ I–P chuyển thành âm đơn điệu (FIP) không? | Hồi quy SIDS + khung MIRAB/Briguglio (1995) |
+
+*Ghi chú: Bảng này bảo đảm mỗi khoảng trống thực nghiệm rút ra từ bức tranh thực trạng được chuyển thành một câu hỏi nghiên cứu có thiết kế kiểm định cụ thể trong Chuyên đề 2, duy trì tính liên tục logic giữa hai chuyên đề.*
+
 #### 2.3.9.3 Hàm ý lý thuyết
 
 **(1) Uppsala có điều kiện — không phổ quát**: FSTS dương tại Advanced, không có ý nghĩa tại Frontier xác nhận điều kiện biên: lý thuyết Uppsala vận hành chỉ trong môi trường thể chế đủ mạnh (Williamson, 1985).
@@ -930,6 +946,8 @@ Brynjolfsson, E., & McAfee, A. (2014). *The second machine age: Work, progress, 
 
 Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152.
 
+Combs, J. G., Crook, T. R., & Shook, C. L. (2005). The dimensionality of organizational performance and its implications for strategic management research. In D. J. Ketchen & D. D. Bergh (Eds.), *Research methodology in strategy and management* (Vol. 2, pp. 259–286). Emerald. https://doi.org/10.1016/S1479-8387(05)02011-4
+
 Contractor, F. J., Kundu, S. K., & Hsu, C. C. (2003). A three-stage theory of international expansion. *Journal of International Business Studies, 34*(1), 5–18.
 
 Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank Group.
@@ -969,6 +987,8 @@ North, D. C. (1990). *Institutions, institutional change and economic performanc
 Peng, M. W. (2001). The resource-based view and international business. *Journal of Management, 27*(6), 803–829.
 
 Peng, M. W. (2003). Institutional transitions and strategic choices. *Academy of Management Review, 28*(2), 275–296.
+
+Richard, P. J., Devinney, T. M., Yip, G. S., & Johnson, G. (2009). Measuring organizational performance: Towards methodological best practice. *Journal of Management, 35*(3), 718–804. https://doi.org/10.1177/0149206308330560
 
 Sachs, J. D., & Warner, A. M. (2001). The curse of natural resources. *European Economic Review, 45*(4–6), 827–838.
 
