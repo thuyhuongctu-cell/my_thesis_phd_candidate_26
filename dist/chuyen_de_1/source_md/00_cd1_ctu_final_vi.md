@@ -228,7 +228,7 @@ Trong bối cảnh đó, hệ thống thông tin về hiệu quả doanh nghiệ
 
 **B. Trường hợp biên mở rộng, 7 SIDS Thái Bình Dương** (n=1.371, 1, 4% pool): Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati (2025).
 
-**Phạm vi thời gian**: **2009–2025** (16 năm × 14 mốc khảo sát). Ba thế hệ schema WBES: PICS3 (2009–2012, n=14.335), Standardized (2013–2017, n=25.046), BREADY/BEE/EAP Core (2018–2025, n=61.804).
+**Phạm vi thời gian**: **2009–2025** (16 năm × 14 mốc khảo sát). Ba thế hệ schema WBES: PICS3 (2009–2012, n=14.171), Standardized (2013–2017, n=24.564), BREADY/BEE/EAP Core (2018–2025, n=62.450).
 
 ### 2.1.4 Giới hạn nghiên cứu
 
@@ -1011,11 +1011,11 @@ Xu, D. (2024). De jure versus de facto institutional distance. *Global Strategy 
 | **Nhóm II, Advanced tài nguyên** | Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei | ~4.100 | 2013–2025 |
 | **Nhóm III, Upper-middle chuyển đổi** | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia | ~12.300 | 2009–2023 |
 | **Nhóm IV, Emerging chế tạo** | Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ | ~21.000 | 2009–2025 |
-| **Nhóm V, Frontier cận biên** | Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Timor-Leste, Iraq, Lebanon, Yemen | ~53.200 | 2009–2025 |
+| **Nhóm V, Frontier cận biên** | Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Timor-Leste, Iraq, Lebanon, Yemen | ~28.678 | 2009–2025 |
 | **Nhóm VI, SIDS Pacific** | Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati | ~2.385 | 2009–2025 |
 | **Tổng** | **47 nền kinh tế** | **~101.185** | **14 sóng** |
 
-*Ghi chú: n xấp xỉ do hài hòa hóa loại quan sát thiếu biến phụ thuộc. Phân bổ chính xác tại Bảng 2.3.3.1.*
+*Ghi chú: n xấp xỉ (đồng bộ với Bảng 2.3.2.1 thân bài) do hài hòa hóa loại quan sát thiếu biến phụ thuộc; phân bổ analytic chính xác tại Bảng 2.3.3.1. Bản khóa CĐ1 = 101.185/47 nền; luận án dùng bản cập nhật 96.415/52 nền phân loại (mẫu phân tích 49 nền/91.982) — sẽ re-lock đầy đủ khi có raw WBES 43 nền còn thiếu.*
 
 **Ba thế hệ schema WBES**:
 

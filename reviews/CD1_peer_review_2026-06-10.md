@@ -83,6 +83,11 @@ Hai tổng Emerging khác nhau ~5.500. Nếu 42.278 loại Mongolia/wave nào đ
 
 ---
 
+
+> **Đã sửa độc lập-lock 2026-06-10 (không cần raw):** C1/C3 (Bảng A.1 đồng bộ thân bài Bảng 2.3.2.1: I 4.220/II 1.932/III 16.693/IV 47.803/V 28.678/VI 1.371; SIDS 2.385→1.371) · C4 (thống nhất schema split 14.171/24.564/62.450) · R1.1 (bỏ nhãn HC1 sai trên bảng Pearson) · C2 (41→40) · Singapore TP (82→88,6) đã sửa trước. **Còn chờ:** re-lock số mô tả (43 raw .dta) · C5 (Emerging 47.803 vs 42.278 — cần NCS làm rõ scope) · citations (Wu Fan&Chen↔Li&Selover, Arte&Larimo, venue Đỗ&Phan — cần NCS) · đóng khung claim nhân quả "theo P3/P4".
+
+---
+
 ## 📋 EDITORIAL DECISION
 
 **Quyết định: MAJOR REVISION** (về *nhất quán số liệu nội bộ* + *citation*, KHÔNG phải về nội dung khoa học).
