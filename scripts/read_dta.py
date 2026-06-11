@@ -35,18 +35,48 @@ import pandas as pd
 
 
 def _meta_only(path: str):
-    """Return (column_names, column_labels dict, value_labels dict, n_rows)."""
+    """Return (column_names, column_labels dict, value_labels dict, n_rows).
+
+    Tries pyreadstat first; some WBES files carry string values that pyreadstat
+    cannot decode ("Unable to convert string to the requested type") — those
+    fall back to pandas' StataReader (no value labels, but schema + var labels).
+    """
     if HAVE_PYREADSTAT:
-        _, meta = pyreadstat.read_dta(path, metadataonly=True)
-        labels = dict(zip(meta.column_names, meta.column_labels))
-        return meta.column_names, labels, meta.variable_value_labels, meta.number_rows
-    # pandas fallback: read variable labels via StataReader, no value labels
-    with pd.io.stata.StataReader(path) as r:
-        cols = list(r.varlist)
-        labels = dict(zip(r.varlist, r.variable_labels().values())) \
-            if hasattr(r, "variable_labels") else {c: "" for c in cols}
-        nrows = r.nobs
-    return cols, labels, {}, nrows
+        try:
+            _, meta = pyreadstat.read_dta(path, metadataonly=True)
+            labels = dict(zip(meta.column_names, meta.column_labels))
+            return meta.column_names, labels, meta.variable_value_labels, meta.number_rows
+        except Exception:
+            pass  # fall through to pandas
+    labels = {}
+    try:
+        with pd.read_stata(path, convert_categoricals=False, iterator=True) as r:
+            labels = dict(r.variable_labels())
+            nrows = getattr(r, "nobs", None)
+            cols = list(labels.keys())
+            if nrows is None:
+                nrows = len(r.read())
+        return cols, labels, {}, nrows
+    except Exception:
+        df = pd.read_stata(path, convert_categoricals=False)
+        return list(df.columns), {c: "" for c in df.columns}, {}, len(df)
+
+
+def _read(path, usecols=None, nrows=None):
+    """Load a dataframe, pyreadstat first then pandas fallback."""
+    if HAVE_PYREADSTAT:
+        try:
+            kw = {}
+            if usecols:
+                kw["usecols"] = usecols
+            if nrows:
+                kw["row_limit"] = nrows
+            df, _ = pyreadstat.read_dta(path, **kw)
+            return df
+        except Exception:
+            pass
+    df = pd.read_stata(path, columns=usecols, convert_categoricals=False)
+    return df.head(nrows) if nrows else df
 
 
 def cmd_info(args):
