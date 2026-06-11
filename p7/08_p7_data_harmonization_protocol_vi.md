@@ -110,6 +110,8 @@ egen obstacle_idx = rowmean(b30a b30b b30c c30a c30b /* etc. */)
 
 ### 4.6 ICRV regime classification
 
+> ⚠️ **ĐÃ THAY THẾ (SUPERSEDED) — không phản ánh phân tích cuối.** Sơ đồ 5-regime mô tả ở mục này (Regime I–III theo ngưỡng WGI + SIDS=4 + Frontier=5; gộp Việt Nam/Ấn Độ/Trung Quốc vào cùng regime 2) là **bản nháp thiết kế ban đầu** và **không** phải sơ đồ thực sự dùng để tạo dữ liệu phân tích. Sơ đồ ICRV **chuẩn, thực chạy** là **6 nhóm** trong `p7/replication/01_build_p7_dataset.py` (`ICRV_MAP`/`ICRV_LABEL`), đã ghi vào `data_wbes/p7/p7_pooled_clean.csv`: 1=Advanced_innovation, 2=Advanced_resource, 3=Upper_mid, 4=Lower_mid_transition, **5=Emerging**, **6=SIDS_small** (Việt Nam/Ấn Độ=Nhóm 4; Trung Quốc=Nhóm 3; SIDS=Nhóm 6). Khối Stata bên dưới được giữ lại chỉ để truy vết lịch sử thiết kế; tham chiếu chuẩn là script Python nêu trên.
+
 Cần một lần cho mỗi country-year. Theo WGI Rule of Law:
 - `icrv_regime = 1` (Regime I) nếu WGI RoL > +0.80
 - `icrv_regime = 2` (Regime II) nếu WGI RoL trong [-0.50, +0.80]

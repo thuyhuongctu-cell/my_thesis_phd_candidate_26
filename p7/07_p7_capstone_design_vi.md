@@ -114,7 +114,7 @@ $\ln(LP) = \ln(\text{annual sales} / \text{permanent full-time employees})$, sal
 ### 6.3 Moderators (theo 4 tyầng)
 
 - **Tầng nuăng lyuực**: $TCI$ (technological capability index), $DAI$ (digital adoption index) — non-overlapping.
-- **Tuầng thyể chyế**: $ICRV_{regime}$ (cyác categorical I/II/III/SIDS/Frontier theo WGI Rule of Law thresholds), $Obstacles_{index}$ (bình quyân các business obstacles từ WBES).
+- **Tuầng thyể chyế**: $ICRV_{regime}$ (categorical **6 nhóm** I/II/III/IV/V/VI = Advanced_innovation/Advanced_resource/Upper_mid/Lower_mid_transition/Emerging/SIDS_small theo phân loại chuẩn `01_build_p7_dataset.py`; ghi chú: liệt kê 'I/II/III/SIDS/Frontier' ở bản nháp trước đã **bị thay thế**), $Obstacles_{index}$ (bình quyân các business obstacles từ WBES).
 - **Tuầng top manager**: $Manager_{experience}$ (continuous, nyăm kinh nghiyệm), $Manager_{gender}$ (binary, 1 = female).
 
 ### 6.4 Tuưuơng tyác
