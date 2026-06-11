@@ -48,3 +48,9 @@ __pycache__/
 
 # P6 downloaded PDFs (too large for git — store locally)
 p6/pdfs/
+
+# MCP server runtime artefacts (uv)
+tools/mcp/**/.venv/
+tools/mcp/**/__pycache__/
+tools/mcp/**/*.egg-info/
+tools/mcp/**/.env

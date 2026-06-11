@@ -18,7 +18,10 @@
         "fastmcp",
         "run",
         "src/data360/server.py"
-      ]
+      ],
+      "env": {
+        "DATA360_API_BASE_URL": "https://data360api.worldbank.org"
+      }
     }
   }
 }
