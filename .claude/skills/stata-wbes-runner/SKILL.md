@@ -39,6 +39,29 @@ python3 -c "import pandas,numpy,pyreadstat" 2>/dev/null && echo "python-ok"
   alternative for pooled cross-section econometrics (see skill
   `stata-khong-license-giai-phap`).
 
+## 1b. Ready-made do-files for this dissertation (run these first)
+
+| Do-file | Purpose | Locked benchmark to verify against |
+|---|---|---|
+| `scripts/stata/00_prep_data.do` | Master CSV -> `p7_analytic.dta` (49-frame, lp_z within country-year) | N ~ 75,607 |
+| `scripts/stata/p7_reestimate.do` | P7 M2/M5 reghdfe + utest + per-ICRV TP + M11 | TP(M5) = 40.0%; gradient ~28% -> ~55% |
+| `scripts/stata/p8_sids_fip.do` | P8 FIP linear M1 + robustness | beta = -1.339 (p<.001); exporters N=26 |
+
+One-time: `ssc install reghdfe ftools utest estout`. Full execution plan incl.
+benchmark-match rules: `docs/STATA_TRONG_CLAUDE_CODE.md`.
+
+## 1c. Stata-MCP route (deep Claude Code integration, local machine)
+
+If the user runs VS Code locally with Stata 17+: install the "Stata MCP"
+extension (github.com/hanlulong/stata-mcp), then register once:
+```bash
+claude mcp add --transport http stata-mcp http://localhost:4000/mcp-streamable --scope user
+```
+This exposes `stata_run_file` / `stata_run_selection` + data viewer + graph
+display directly as MCP tools — prefer it over raw batch when available.
+Alternative official bridge: pystata (`pip install stata-setup`;
+`stata_setup.config('<stata path>','mp')` then `stata.run('do file.do')`).
+
 ## 2. Run a Stata do-file in batch mode
 
 ```bash
