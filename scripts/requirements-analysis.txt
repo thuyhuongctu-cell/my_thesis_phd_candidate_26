@@ -1,0 +1,6 @@
+# Analysis deps for this repo's pipelines (pip install -r scripts/requirements-analysis.txt)
+pandas
+numpy
+pyreadstat
+matplotlib
+pyfixest>=0.60   # reghdfe-equivalent FE estimation (validated vs numpy impl 2026-06-11)
