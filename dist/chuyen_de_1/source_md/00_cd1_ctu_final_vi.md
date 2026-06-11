@@ -528,7 +528,7 @@ WBES tổ chức các chỉ số doanh nghiệp thành **5 lĩnh vực chính th
 | V — Đang nổi | 23,7 | 16,2 | 15,8 | 11,9 | 39,1 |
 | VI — SIDS² | 20,6 | 15,0 | **5,7** | **6,6** | **28,9** |
 
-*Nguồn: tái tính từ raw WBES, khung 49 nền (h1/h5/h8/b8/c22b; "Quy trình mới" theo định nghĩa h5 chuẩn — hẹp hơn bản khóa cũ). ¹Nhóm II raw 2/6 nền — innovation cao bất thường là artifact coverage (Bahrain+Brunei), không đại diện GCC. ²Nhóm VI raw 2/8 nền; bản khóa mô tả 7-Pacific trước đây ghi nhận sản phẩm mới 41,5% và website 58,9% (pattern "thích nghi và nhảy vọt số") — cần đủ raw 8 nền để phân xử.*
+*Nguồn: tái tính từ raw WBES, khung 49 nền (h1/h5/h8/b8/c22b; "Quy trình mới" theo định nghĩa h5 chuẩn — hẹp hơn bản khóa cũ). ¹Nhóm II raw 2/6 nền — innovation cao bất thường là artifact coverage (Bahrain+Brunei), không đại diện GCC; master 49-nền (đủ 6 nền GCC): website 49,7%. ²Nhóm VI raw 2/8 nền — master 49-nền (đủ 8 nền): website 45,6%; bản khóa mô tả 7-Pacific trước đây ghi nhận sản phẩm mới 41,5% và website 58,9% (pattern "thích nghi và nhảy vọt số") — cần đủ raw 8 nền để phân xử.*
 
 Theo bản khóa mô tả 7-Pacific, SIDS thể hiện pattern **thích nghi và nhảy vọt số** đáng chú ý: tỷ lệ đổi mới sản phẩm cao (41,5%) phản ánh đổi mới bằng nguồn lực hạn chế — sáng tạo không chính thức để bù đắp cho thiếu hụt nguồn lực; website 58,9% vượt nhóm Đang nổi dù GNI thấp hơn đáng kể (pipeline raw hiện mới phủ 2/8 nền Nhóm VI nên chưa phân xử được pattern này — xem ghi chú Bảng 2.3.4.1). Gradient năng lực theo pipeline 49-nền rất rõ: R&D giảm từ 20,5% (Nhóm I) xuống 5,7% (Nhóm VI); ISO 35,0%→6,6%; website 61,7%→28,9%. Phân tách rõ TCI so với DAI — kế thừa Đỗ & Phan (2026 — VEFR).
 
@@ -555,7 +555,7 @@ Spec 1 (toàn bộ 2009–2025) dùng biến nhị phân duy nhất (website có
 | V — Đang nổi | 86,2 | 17,4 | 7,4 |
 | VI — SIDS² | **96,7** | 10,4 | **16,4** |
 
-*Nguồn: tái tính từ raw WBES, khung 49 nền (SME = <100 lao động thường xuyên l1; FDI = sở hữu nước ngoài b2b ≥10%). ¹Nhóm II raw 2/6 nền. ²Nhóm VI raw 2/8 nền; bản khóa mô tả 7-Pacific: SME 88,5%, FDI 23,5%.*
+*Nguồn: tái tính từ raw WBES, khung 49 nền (SME = <100 lao động thường xuyên l1; FDI = sở hữu nước ngoài b2b ≥10%). ¹Nhóm II raw 2/6 nền; master 49-nền (đủ 6 GCC): SME 65,7%, xuất khẩu 11,1%. ²Nhóm VI raw 2/8 nền; master 49-nền (đủ 8 nền): SME 91,0%, xuất khẩu 13,4%; bản khóa mô tả 7-Pacific: SME 88,5%, FDI 23,5%.*
 
 *Hình 2.3.5.1. Stacked bar chart: Nhóm VI (SIDS) có tỷ lệ SME cao nhất (96,7% theo pipeline; 88,5% theo bản khóa 7-Pacific), Nhóm V kế tiếp (86,2%), Nhóm IV thấp nhất (74,0%).*
 
