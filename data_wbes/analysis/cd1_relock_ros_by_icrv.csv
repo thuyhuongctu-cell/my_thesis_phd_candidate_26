@@ -1,0 +1,7 @@
+group,n_firms,ros_mean,ros_median,ros_sd
+Advanced_innovation,3337,0.5127,0.5028,0.2898
+Advanced_resource,118,0.4475,0.4695,0.3353
+Upper_mid,13401,0.4497,0.4547,0.3773
+Lower_mid_transition,37792,0.3858,0.3513,0.3091
+Emerging,12523,0.2828,0.4077,1.1566
+SIDS_small,520,-0.1909,0.4736,3.4812
