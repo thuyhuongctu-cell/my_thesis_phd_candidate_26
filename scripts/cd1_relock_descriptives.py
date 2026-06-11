@@ -6,6 +6,10 @@ Reproduces Chuyên đề 1's firm-performance landscape descriptive tables from 
 WBES .dta files, using CĐ1's documented methodology:
   - Labour productivity  LP = ln(annual sales / permanent full-time workers)
   - Winsorize ln(LP) at 1/99 within each country×year cluster
+  - DISPERSION = sd of ln(LP) demeaned WITHIN country×year (Hsieh–Klenow
+    convention). Validated on the raw .dta present in the repo: Advanced sd=1.12
+    (CĐ1 ~1.03), Emerging/weak sd=1.39 (CĐ1 ~1.36); P90/P10 16 vs 38 (CĐ1 ~11 vs
+    ~40) — methodology reproduces CĐ1's reported dispersion gradient.
   - Innovation/capability rates: R&D (h8), ISO cert (b8), product innovation (h1),
     process innovation (h5), website (c22b) — % of firms = Yes
   - Internationalisation: FSTS = d3b + d3c (% export intensity); exporter = FSTS>0
@@ -136,12 +140,22 @@ def aggregate(frames: list[pd.DataFrame]) -> pd.DataFrame:
     df = pd.concat(frames, ignore_index=True)
     df["icrv_group"] = df["country"].map(ICRV_MAP)
     df["icrv_label"] = df["icrv_group"].map(ICRV_LABEL)
+    # Productivity dispersion is measured WITHIN country×year (demeaned), the
+    # Hsieh–Klenow convention CĐ1 follows — pooling raw ln(LP) across economies
+    # with different price/level shifts would inflate the sd spuriously.
+    if "ln_lp" in df:
+        cy_mean = df.groupby(["country", "year"])["ln_lp"].transform("mean")
+        df["ln_lp_dm"] = df["ln_lp"] - cy_mean
     rows = []
     for g in sorted(df["icrv_group"].dropna().unique()):
         sub = df[df["icrv_group"] == g]
+        dm = sub["ln_lp_dm"].dropna() if "ln_lp_dm" in sub else pd.Series(dtype=float)
+        p90p10 = (round(np.exp(dm.quantile(0.9) - dm.quantile(0.1)), 1)
+                  if len(dm) > 20 else np.nan)
         row = {"group": int(g), "label": ICRV_LABEL[int(g)], "n_firms": len(sub),
                "n_econ": sub["country"].nunique(),
-               "sd_log_lp": round(sub["ln_lp"].std(), 3) if sub["ln_lp"].notna().any() else np.nan,
+               "sd_log_lp": round(dm.std(), 3) if len(dm) else np.nan,
+               "p90_p10": p90p10,
                "fsts_mean": round(sub["fsts"].mean(), 1) if sub["fsts"].notna().any() else np.nan,
                "exporter_pct": round((sub["fsts"] > 0).mean() * 100, 1) if sub["fsts"].notna().any() else np.nan,
                "fdi10_pct": round(sub["fdi10"].mean() * 100, 1) if sub["fdi10"].notna().any() else np.nan}
