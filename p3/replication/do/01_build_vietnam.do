@@ -29,8 +29,8 @@ replace lnLP = . if lnLP == .
 label var lnLP "ln(Labour Productivity) — annual sales per worker"
 
 /* -- Export intensity (FSTS) -- */
-gen FSTS = d3b / 100                // foreign sales share (0–1 scale)
-replace FSTS = 0 if d3b == 0 | d3b == .
+gen FSTS = d3c / 100                // d3c = DIRECT exports (manuscript spec; d3b is INDIRECT exports)
+replace FSTS = 0 if d3c == 0 | d3c == .
 replace FSTS = . if FSTS < 0 | FSTS > 1
 label var FSTS "Export intensity (Foreign Sales / Total Sales)"
 gen FSTSsq = FSTS^2
@@ -90,8 +90,8 @@ save "$out/vietnam_2009_analytic.dta", replace
 use "$data/Vietnam_2015.dta", clear
 
 gen lnLP    = ln(d2 / b1_d) if b1_d > 0
-gen FSTS    = d3b / 100
-replace FSTS = 0 if d3b == 0 | d3b == .
+gen FSTS    = d3c / 100   // d3c = direct exports (manuscript spec)
+replace FSTS = 0 if d3c == 0 | d3c == .
 replace FSTS = . if FSTS < 0 | FSTS > 1
 gen FSTSsq  = FSTS^2
 
@@ -130,8 +130,8 @@ save "$out/vietnam_2015_analytic.dta", replace
 use "$data/Vietnam_2023.dta", clear
 
 gen lnLP    = ln(d2 / b1_d) if b1_d > 0
-gen FSTS    = d3b / 100
-replace FSTS = 0 if d3b == 0 | d3b == .
+gen FSTS    = d3c / 100   // d3c = direct exports (manuscript spec)
+replace FSTS = 0 if d3c == 0 | d3c == .
 replace FSTS = . if FSTS < 0 | FSTS > 1
 gen FSTSsq  = FSTS^2
 

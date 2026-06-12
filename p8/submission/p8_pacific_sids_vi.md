@@ -93,7 +93,7 @@ Chúng tôi sử dụng dữ liệu gộp từ Khảo sát Doanh nghiệp Ngân 
 
 **Biến phụ thuộc.** Năng suất lao động log (ln_LP) được xây dựng là logarithm tự nhiên của doanh thu bán hàng trên mỗi lao động thường xuyên, biểu thị bằng USD đã điều chỉnh theo ngang giá sức mua không đổi: ln(d2/l1). Thước đo này đã được sử dụng rộng rãi trong các nghiên cứu năng suất ở cấp doanh nghiệp (Goedhuys & Sleuwaegen, 2013; World Bank, 2020). Trong số 959 quan sát phân tích, có 132 (13,8%) là nhà xuất khẩu với FSTS > 0.
 
-**Cường độ quốc tế hóa.** Theo phương pháp của Haans et al. (2016) và Contractor et al. (2003), chúng tôi xây dựng FSTS (Foreign Sales to Total Sales) từ mục WBES d3c (tỷ lệ phần trăm doanh thu xuất khẩu), chia cho 100. Đối với các mô hình chính, FSTS được trung-tâm-hóa theo trung bình ở cấp đợt khảo sát: FSTS_c = FSTS − mean_wave(FSTS), cho ra FSTS trung bình 0,048 (độ lệch chuẩn không báo cáo do mẫu con nhà xuất khẩu nhỏ). Trung-tâm-hóa theo trung bình triệt tiêu khác biệt mức giữa các đợt trong khi giữ lại biến thiên trong cùng đợt, theo thông lệ tiêu chuẩn cho các nghiên cứu xem xét độ cong FSTS (Haans et al., 2016).
+**Cường độ quốc tế hóa.** Theo phương pháp của Haans et al. (2016) và Contractor et al. (2003), chúng tôi xây dựng FSTS (Foreign Sales to Total Sales) từ các mục WBES d3b + d3c (tỷ lệ phần trăm doanh thu từ xuất khẩu gián tiếp cộng trực tiếp), chia cho 100. Đối với các mô hình chính, FSTS được trung-tâm-hóa theo trung bình ở cấp đợt khảo sát: FSTS_c = FSTS − mean_wave(FSTS), cho ra FSTS trung bình 0,048 (độ lệch chuẩn không báo cáo do mẫu con nhà xuất khẩu nhỏ). Trung-tâm-hóa theo trung bình triệt tiêu khác biệt mức giữa các đợt trong khi giữ lại biến thiên trong cùng đợt, theo thông lệ tiêu chuẩn cho các nghiên cứu xem xét độ cong FSTS (Haans et al., 2016).
 
 **Chỉ số năng lực công nghệ (TCI_z).** Theo Lall (1992) và Goedhuys và Sleuwaegen (2013), TCI được xây dựng từ hai mục WBES: b8 (chứng nhận chất lượng được công nhận quốc tế, nhị phân) và e6 (cấp phép công nghệ nước ngoài, nhị phân). TCI_z là trung bình chuẩn hóa z của hai chỉ báo này.
 
@@ -106,9 +106,9 @@ Chúng tôi sử dụng dữ liệu gộp từ Khảo sát Doanh nghiệp Ngân 
 | Biến | Mục WBES | Cách xây dựng | Vai trò trong mô hình |
 |-----------------|--------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | ln_LP | d2, l1 | ln(doanh thu hàng năm PPP / lao động thường xuyên); giảm phát PPP dùng giảm phát ICP của Ngân hàng Thế giới theo năm khảo sát | Biến phụ thuộc, năng suất lao động log (Goedhuys & Sleuwaegen, 2013) |
-| FSTS | d3c | d3c / 100; tỷ phần tổng doanh thu từ xuất khẩu | Cường độ quốc tế hóa, thô (Haans et al., 2016) |
-| FSTS_c | d3c | FSTS − mean_wave(FSTS); trung-tâm-hóa theo trung bình cấp đợt | Cường độ quốc tế hóa, đã trung-tâm-hóa (Contractor et al., 2003) |
-| FSTS_c² | d3c | FSTS_c²; kiểm định độ cong (H1) | Số hạng bậc hai; β₂ < 0 nếu hình chữ U ngược, n.s. nếu FIP đơn điệu (Lind & Mehlum, 2010) |
+| FSTS | d3b + d3c | (d3b + d3c) / 100; tỷ phần tổng doanh thu từ xuất khẩu | Cường độ quốc tế hóa, thô (Haans et al., 2016) |
+| FSTS_c | d3b + d3c | FSTS − mean_wave(FSTS); trung-tâm-hóa theo trung bình cấp đợt | Cường độ quốc tế hóa, đã trung-tâm-hóa (Contractor et al., 2003) |
+| FSTS_c² | d3b + d3c | FSTS_c²; kiểm định độ cong (H1) | Số hạng bậc hai; β₂ < 0 nếu hình chữ U ngược, n.s. nếu FIP đơn điệu (Lind & Mehlum, 2010) |
 | TCI_z | b8, e6 | z-std(mean(b8_binary, e6_binary)); chứng nhận chất lượng + cấp phép công nghệ nước ngoài | Năng lực công nghệ, biến đại diện Tier-1; kiểm định trực tiếp + điều tiết (H2; Lall, 1992) |
 | DAI_z | c22b | z-std(c22b_binary); hiện diện website vận hành, chỉ Tier-1 | Áp dụng số, biến đại diện website nền tảng; KHÔNG phải năng lực số động (Banalieva & Dhanaraj, 2019; H2) |
 | ln_size | l1 | ln(lao động thường xuyên) | Kiểm soát, quy mô doanh nghiệp (Hitt et al., 1997) |

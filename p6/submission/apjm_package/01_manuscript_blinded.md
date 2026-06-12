@@ -16,7 +16,7 @@ MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes
 heterogeneity into within-study (*Level 2*) and between-study (*Level
 3*) components using `metafor` in R. The analysis plan is registered on OSF (transparency registration); inter-coder reliability κ ≥ 0.70 on 20%
 double-coded subsample. **Findings:** The baseline pooled effect is *r*
-= 0.074 (95% CI \[0.060, 0.088\], *p* \< .001) with *I*² = 62.5%
+= 0.074 (95% CI \[0.060, 0.088\], *p* \< .001) with *I*² = 62.4%
 (within-study 54.1%; between-study 8.4%), replicating and extending the
 ICBEF 2025 baseline (*r* = 0.07, *k* = 113). The three hypothesized
 moderators show limited support: ICRV regime differences are
@@ -130,7 +130,7 @@ and DPL phase (*Q*\_M = 0.62, *p* = .734) are non-significant (H2, H3
 not supported). The most substantive finding is publication bias (H4
 confirmed): trim-and-fill imputes *k* = 57 missing studies, reducing the
 adjusted estimate to *r* = 0.035, positive but substantially smaller
-than the raw pooled effect. The heterogeneity puzzle (*I*² = 62.5%)
+than the raw pooled effect. The heterogeneity puzzle (*I*² = 62.4%)
 remains unresolved by the tested moderators, suggesting that future
 research should test alternative theoretical contingencies or that
 between-study heterogeneity is predominantly within-paper (Level 2,
@@ -181,7 +181,7 @@ Given selective reporting in IB meta-analyses (Borenstein et al., 2021; Dickersi
 
 ### 2.6 Conceptual model
 
-*Figure 1* presents the three-level MARA with ICRV (H1), cDAI (H3), and DPL (H2) as study-level moderators of the baseline I→P pooled effect, with publication bias (H4) assessed at the synthesis level. The model nests K = 288 effects within k = 238 studies (σ²_within = 0.00878, I²₍₂₎ = 54.1%) within between-study heterogeneity (σ²_between = 0.00136, I²₍₃₎ = 8.4%); total I² = 62.5%.
+*Figure 1* presents the three-level MARA with ICRV (H1), cDAI (H3), and DPL (H2) as study-level moderators of the baseline I→P pooled effect, with publication bias (H4) assessed at the synthesis level. The model nests K = 288 effects within k = 238 studies (σ²_within = 0.00878, I²₍₂₎ = 54.1%) within between-study heterogeneity (σ²_between = 0.00136, I²₍₃₎ = 8.4%); total I² = 62.4%.
 
 ## 3. Method
 
@@ -283,7 +283,7 @@ effects):
 | σ²\_(3) between-study | 0.00136 |
 | *I*²\_(2) within-study | 54.1% |
 | *I*²\_(3) between-study | 8.4% |
-| *I*²_total | 62.5% |
+| *I*²_total | 62.4% |
 | Pooled *r̂*\_3L | 0.074 (95% CI \[0.060, 0.088\]) |
 | *Q*\_total | 1,895.58 (*df* = 286, *p* \< .001) |
 
@@ -296,7 +296,7 @@ attributable to within-paper variation in DOI operationalization,
 performance measure type, and control variable specification across
 multiple reported models. Between-study variance (Level 3, *I*²\_(3) =
 8.4%) represents country-context differences that ICRV, cDAI, and DPL
-phase were designed to explain. Total *I*² = 62.5%, indicating
+phase were designed to explain. Total *I*² = 62.4%, indicating
 substantial heterogeneity beyond sampling error, the motivation for
 moderator analysis, though the moderator analyses in §§4.3–4.5 do not
 resolve this heterogeneity significantly.
@@ -438,7 +438,7 @@ unpublished null studies, implausible.
 The trim-and-fill correction (*k* = 57 imputed, adj. *r* = 0.035) is the
 most conservative bias-corrected estimate and represents a meaningful
 reduction from the raw *r* = 0.074. Together with the substantial
-unexplained heterogeneity (*I*² = 62.5%) and non-significant moderator
+unexplained heterogeneity (*I*² = 62.4%) and non-significant moderator
 tests (§§4.3–4.5), the publication bias evidence suggests that the
 apparent average I→P effect is upwardly inflated in the published
 literature. The true population effect may be closer to *r* ≈ 0.035.
@@ -640,7 +640,7 @@ from *k* = 113 to *k* = 238 studies from 49 economies (*K* = 288
 effects) and introducing three novel moderators for formal meta-analytic
 testing: ICRV institutional regime, country-level digital adoption
 (cDAI), and Digital Paradox Lifecycle (DPL) phase. The three-level
-pooled effect (*r* = 0.074, 95% CI \[0.060, 0.088\], *I*²_total = 62.5%)
+pooled effect (*r* = 0.074, 95% CI \[0.060, 0.088\], *I*²_total = 62.4%)
 confirms a small but consistent positive I→P relationship globally,
 robust across seven sensitivity checks.
 
@@ -664,7 +664,7 @@ positive but considerably attenuated. This suggests that the I→P field's
 published literature over-represents positive results, and that the true
 average performance return to internationalization is closer to *r* ≈
 0.035 than the oft-cited figures in the 0.07–0.10 range. The
-heterogeneity puzzle (*I*² = 62.5%) remains largely unresolved, with
+heterogeneity puzzle (*I*² = 62.4%) remains largely unresolved, with
 within-study variance (Level 2, 54.1%) dominating between-study variance
 (Level 3, 8.4%), suggesting that DOI operationalization and performance
 measure choices within papers are more important sources of

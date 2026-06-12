@@ -86,7 +86,7 @@ We use pooled data from the World Bank Enterprise Survey (WBES), drawing waves c
 the natural logarithm of sales revenue per permanent worker, expressed in constant purchasing-power-parity-adjusted USD: ln(d2/l1). This measure has been used extensively in enterprise-level productivity studies (Goedhuys & Sleuwaegen, 2013; World Bank, 2020). Of the 959 analysis observations, 132 (13.8%) are exporters with FSTS \> 0.
 
 **Internationalization intensity.** Following the methodology of Haans
-et al. (2016) and Contractor et al. (2003), we construct FSTS (Foreign Sales to Total Sales) from WBES item d3c (percentage of sales exported), divided by 100. For the main models, FSTS is mean-centered at the wave level: FSTS_c = FSTS − mean_wave(FSTS), yielding a mean FSTS of 0.048 (SD unreported due to small exporter subsample). Mean-centering suppresses cross-wave level differences while preserving within-wave variation, following standard practice for studies examining FSTS curvature (Haans et al., 2016).
+et al. (2016) and Contractor et al. (2003), we construct FSTS (Foreign Sales to Total Sales) from WBES items d3b + d3c (percentage of sales from indirect plus direct exports), divided by 100. For the main models, FSTS is mean-centered at the wave level: FSTS_c = FSTS − mean_wave(FSTS), yielding a mean FSTS of 0.048 (SD unreported due to small exporter subsample). Mean-centering suppresses cross-wave level differences while preserving within-wave variation, following standard practice for studies examining FSTS curvature (Haans et al., 2016).
 
 **Technological capability index (TCI_z).** Following Lall (1992) and
 Goedhuys and Sleuwaegen (2013), TCI is constructed from two WBES items: b8 (internationally recognized quality certification, binary) and e6 (licensing of foreign technology, binary). TCI_z is the z-standardized mean of these two indicators.
@@ -102,9 +102,9 @@ of permanent workers (ln_size, from l1). Firm age is survey year minus year of e
 | Variable | WBES item(s) | Construction | Role in model |
 |-----------------|--------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | ln_LP | d2, l1 | ln(annual sales PPP / permanent workers); PPP-deflated using World Bank ICP deflators by survey year | Dependent variable, log labor productivity (Goedhuys & Sleuwaegen, 2013) |
-| FSTS | d3c | d3c / 100; proportion of total sales from exports | Internationalization intensity, raw (Haans et al., 2016) |
-| FSTS_c | d3c | FSTS − mean_wave(FSTS); wave-level mean-centred | Internationalization intensity, centred (Contractor et al., 2003) |
-| FSTS_c² | d3c | FSTS_c²; tests curvature (H1) | Quadratic term; β₂ \< 0 if inverted-U, NS if FIP monotone (Lind & Mehlum, 2010) |
+| FSTS | d3b + d3c | (d3b + d3c) / 100; proportion of total sales from exports | Internationalization intensity, raw (Haans et al., 2016) |
+| FSTS_c | d3b + d3c | FSTS − mean_wave(FSTS); wave-level mean-centred | Internationalization intensity, centred (Contractor et al., 2003) |
+| FSTS_c² | d3b + d3c | FSTS_c²; tests curvature (H1) | Quadratic term; β₂ \< 0 if inverted-U, NS if FIP monotone (Lind & Mehlum, 2010) |
 | TCI_z | b8, e6 | z-std(mean(b8_binary, e6_binary)); quality cert + foreign tech licence | Technological capability, Tier-1 proxy; direct + moderation test (H2; Lall, 1992) |
 | DAI_z | c22b | z-std(c22b_binary); operational website presence, Tier-1 only | Digital adoption, foundational website proxy; NOT dynamic digital capability (Banalieva & Dhanaraj, 2019; H2) |
 | ln_size | l1 | ln(permanent employees) | Control, firm size (Hitt et al., 1997) |

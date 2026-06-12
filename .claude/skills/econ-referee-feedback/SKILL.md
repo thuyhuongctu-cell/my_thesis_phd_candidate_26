@@ -22,7 +22,7 @@ the review protocol:
 | Replication-package / code review | `review-paper-code.md` |
 | Grant proposal review | `review-grant.md` |
 
-For this dissertation's papers (P3–P9 drafts in `dist/submission/working_drafts/`
+For this dissertation's papers (P3–P9 drafts in `p3|p4|p5|p6|p7|p8|p9_india/submission/*_package/`
 and `manuscripts/`), cross-check every number cited against the locked thesis
 values (see `reviews/SESSION_STATUS_2026-06-11.md`) before praising or
 criticising empirical magnitudes.

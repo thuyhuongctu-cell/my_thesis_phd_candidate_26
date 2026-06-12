@@ -798,3 +798,11 @@ Peng, M. W. (2003). Institutional transitions and strategic choices. *Academy of
 
 Teece, D. J. (1986). Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. *Research Policy, 15*(6), 285–305. https://doi.org/10.1016/0048-7333(86)90027-2
 Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+
+## Bổ sung v2.8 — Thao tác hóa FSTS trực tiếp/gián tiếp (Chương 3 §3.3.2, CĐ1 §2.2)
+
+Hessels, J., & Terjesen, S. (2010). Resource dependency and institutional theory perspectives on direct and indirect export choices. *Small Business Economics, 34*(2), 203–220. https://doi.org/10.1007/s11187-008-9156-4
+
+Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on export development research. *Journal of International Business Studies, 29*(3), 609–620. https://doi.org/10.1057/palgrave.jibs.8490011
+
+Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Journal of International Business Studies, 25*(2), 325–342. https://doi.org/10.1057/palgrave.jibs.8490203

@@ -12,9 +12,7 @@ waves of the World Bank Enterprise Survey (2003–2025), spanning all six
 Institutional Capability and Resource Vulnerability (ICRV) regime
 groups, we estimate a hierarchical set of OLS models with HC1 robust
 standard errors. We find robust support for an inverted-U I–P
-relationship with a turning point at approximately 36% of sales from
-exports (Lind–Mehlum test p \< .001; confirmed in M11 at TP=34.6%,
-p=.002). Technological capability (TCI) raises the performance level
+relationship with a turning point of 40.0% of sales from exports in the fully specified two-way fixed-effects model (M5; Lind–Mehlum test p \< .001; 33.8–40.0% across specifications; confirmed in M11 at TP=34.6%, p=.002). Technological capability (TCI) raises the performance level
 without reliably reshaping the curve. Digital adoption (DAI) both raises
 the performance level and significantly reshapes the I–P curve: firms
 with higher DAI experience compressed ascending-limb returns at low FSTS
@@ -69,9 +67,7 @@ Vulnerability (ICRV) framework that anchors the broader dissertation
 programme of which this study is part.
 
 Our contributions are threefold. First, we provide the largest
-WBES-based test of the inverted-U I–P hypothesis in Asia, confirming a
-turning point at approximately 36% foreign sales intensity across all
-specifications (N = 84,910–29,840), robust even in the full three-way
+WBES-based test of the inverted-U I–P hypothesis in Asia, confirming an inverted-U whose turning point is 40.0% foreign sales intensity in the fully specified model (M5), within a narrow 33.8–40.0% band across all specifications (N = 84,910–29,840), robust even in the full three-way
 moderation model (M11: TP=34.6%, LM p=.002). Second, we document that
 digital adoption (DAI) is the primary capability moderator that reshapes
 the I–P curve, generating significant curve compression effects
@@ -311,8 +307,7 @@ Sales are taken from WBES item n3 (or d2 where n3 is missing). Currency
 effects are absorbed by country-year fixed effects in M5; without FE,
 productivity levels vary in nominal terms across economies and years.
 
-**Foreign sales intensity (FSTS).** Defined as the share of sales from
-direct exports (d3c / 100), ranging from 0 to 1. We mean-centre FSTS at
+**Foreign sales intensity (FSTS).** Defined as the share of sales from direct plus indirect exports ((d3b + d3c) / 100), following the standard WBES exports definition, ranging from 0 to 1. We mean-centre FSTS at
 the sample mean for quadratic and interaction models (fsts_c); the
 quadratic term fsts_c² is computed from the centred value.
 
@@ -413,8 +408,7 @@ is also confirmed in the full three-way moderation model M11 (TP =
 specification.
 
 **H1 is supported.** The I–P relationship is robustly inverted-U in the
-pooled sample of 49 Asian and Pacific economies, with a turning point of
-approximately 36% foreign sales intensity.
+pooled sample of 49 Asian and Pacific economies, with a turning point of 40.0% foreign sales intensity in the fully specified model M5 (33.8–40.0% across specifications).
 
 ### 4.3 Technological Capability Moderation (H2)
 
@@ -560,12 +554,11 @@ interaction.
 
 ### 5.1 Resolution of Cross-Study Heterogeneity
 
-The central finding, an inverted-U with a turning point at
-approximately 36% foreign sales intensity, robust across 49 economies
+The central finding, an inverted-U with a turning point of 40.0% foreign sales intensity (M5; 33.8–40.0% across specifications), robust across 49 economies
 and six ICRV groups, offers a parsimonious resolution to apparent
 inconsistencies in the Asian I–P literature. Studies finding positive
 linear effects (Pangarkar, 2008: Singapore; Cho et al., 2023: Korea) are
-working with samples centred well below the 36% turning point; their
+working with samples centred well below the turning point; their
 firms are on the ascending limb. Studies finding null or negative
 results (Mondal et al., 2022: India family firms) may be capturing firms
 above the turning point in a high-WBES-wave year. Our ICRV moderation
@@ -656,9 +649,8 @@ estimates.
 ## 6. Conclusions
 
 We find that the inverted-U I–P relationship holds robustly across a
-49-economy, 102-wave WBES sample, with a turning point of approximately
-36% foreign sales intensity. Three conclusions are policy-relevant.
-First, for firms in the ascending phase (FSTS \< 36%), intensifying
+49-economy, 102-wave WBES sample, with a turning point of 40.0% foreign sales intensity in the fully specified model M5 (33.8–40.0% across specifications). Three conclusions are policy-relevant.
+First, for firms in the ascending phase (FSTS below the ~40% turning point), intensifying
 internationalization is productivity-enhancing; the priority is removing
 barriers to export expansion. For firms beyond the turning point, the
 constraint is not market access but coordination capacity. Second,
@@ -683,7 +675,7 @@ inverted-U becomes consequential: firms pushed above their optimal FSTS
 by earlier export commitments face amplified coordination and input-cost
 pressures. The ICRV moderation result, that Group IV firms face steeper
 descending-limb penalties, implies that Vietnamese exporters currently
-above the 36% FSTS turning point are among the most exposed to macro
+above the FSTS turning point are among the most exposed to macro
 shocks. Policies promoting digital capability adoption (DAI) can buffer
 this descent by compressing the descending limb, consistent with our
 M8/M9 estimates.

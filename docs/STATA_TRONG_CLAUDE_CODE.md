@@ -11,7 +11,7 @@
 | # | Nút thắt | File liên quan |
 |---|---|---|
 | N1 | Tái lập P7 không khớp bản công bố (thiếu spec gốc: PPP/weights/trimming) | `data_wbes/analysis/P7_REESTIMATION_NOTE.md` |
-| N2 | Bảng hệ số đầy đủ trong 3 khung paper P7/P8/P9 đang là placeholder | `dist/submission/working_drafts/*.tex` |
+| N2 | Xác thực bảng hệ số trong bản thảo P7/P8/P9 bằng chạy lại do-file trước khi nộp (bản thảo đầy đủ tại `p7|p8|p9_india/submission/*_package/`) | `scripts/stata/*.do` |
 | N3 | Re-estimate P7 + Japan-2025 + 31 sóng mới ≥2024 | `data_wbes/analysis/DATA_UPDATE_MANIFEST.md` |
 | N4 | Đồng bộ định lượng các bảng CĐ1 còn ở bản khóa (2.3.6.x, 2.3.8.x) | `CD1_PIPELINE_RESULTS.md` §D |
 
@@ -77,8 +77,8 @@ Một lần duy nhất trước khi chạy: `ssc install reghdfe ftools utest es
       - **Khớp (±1 điểm %)** → spec đúng → được phép chạy thêm Japan/sóng mới (N3) và điền bảng hệ số (N2).
       - **Lệch** → tìm do-file gốc P7, đối chiếu PPP/weights — KHÔNG thay số khóa.
 - [ ] 6. Chạy `p8_sids_fip.do` → so β với −1,339.
-- [ ] 7. Khi khớp: yêu cầu Claude Code (phiên cục bộ, có thể dùng Fable 5) điền hệ số thật
-      từ `dist/stata_out/*.csv` vào placeholder trong `dist/submission/working_drafts/*.tex`
+- [ ] 7. Khi khớp: đối chiếu hệ số từ `dist/stata_out/*.csv` với các bảng trong bản thảo
+      P7/P8/P9 (`p7|p8|p9_india/submission/*_package/01_manuscript_blinded.md`) — sửa nếu lệch —
       và cập nhật footnote Japan ở Ch4 §4.6.1 thành kết quả định lượng.
 
 ## 5. Nguồn tham khảo

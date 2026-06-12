@@ -277,7 +277,7 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 
 - **Biến năng suất lao động (LP)**: `LP = ln(doanh thu bán hàng hàng năm / số lao động toàn thời gian)` (d2/l1), tính theo nội tệ của từng nền kinh tế. Vì đơn vị tiền tệ khác nhau giữa các nước, chuyên đề tuân thủ một **nguyên tắc so sánh xuyên tiền tệ** xuyên suốt: (a) các thống kê *phân tán* được tính **trong từng cặp nền kinh tế × năm** (bất biến với đơn vị tiền tệ vì thừa số quy đổi triệt tiêu trong thang log); (b) so sánh *mức* giữa các nền kinh tế dùng chỉ số không thứ nguyên (ROS — tỷ suất sinh lời trên doanh thu); (c) trong khung ước lượng của luận án, LP được chuẩn hóa z-score trong từng cặp nền kinh tế × năm và mô hình luôn có hiệu ứng cố định quốc gia (Phụ lục A của luận án). Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để kiểm soát ngoại lai.
 
-- **Biến FSTS (Foreign Trade Sales to Total Sales)**: `FSTS = (d3b + d3c) / 100`, trong đó d3b là tỷ lệ doanh thu xuất khẩu trực tiếp và d3c là tỷ lệ doanh thu xuất khẩu gián tiếp. Quan sát thiếu FSTS được gán bằng 0 nếu doanh nghiệp không xuất khẩu (d3a = "Không"); gán missing nếu không trả lời.
+- **Biến FSTS (Foreign Sales to Total Sales)**: `FSTS = (d3b + d3c) / 100`, trong đó d3b là tỷ lệ doanh thu **xuất khẩu gián tiếp** (bán qua trung gian xuất khẩu) và d3c là tỷ lệ doanh thu **xuất khẩu trực tiếp** — theo nhãn biến chính thức của bộ công cụ WBES. Quan sát được gán FSTS = 0 nếu doanh nghiệp báo cáo toàn bộ doanh thu nội địa (d3a = 100); gán khuyết nếu không trả lời. Tổng xuất khẩu trực tiếp + gián tiếp là định nghĩa tham gia xuất khẩu chuẩn của WBES (World Bank Enterprise Surveys, 2025) và được dùng thống nhất cho thống kê mô tả của chuyên đề cũng như khung ước lượng đa quốc gia của luận án. **Ghi chú thao tác hóa**: hai nghiên cứu thành phần đơn quốc gia (P3 Việt Nam, P5 Trung Quốc) đo cường độ quốc tế hóa bằng riêng xuất khẩu trực tiếp (d3c), vì xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại — doanh nghiệp không trực tiếp tích lũy kinh nghiệm thị trường nước ngoài, nên cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất (Hessels & Terjesen, 2010; Peng & Ilinitch, 1998); trong khi tỷ trọng doanh thu xuất khẩu (FSTS) là thước đo cường độ quốc tế hóa chuẩn của văn liệu I–P (Lu & Beamish, 2001; Sullivan, 1994). Hai cách thao tác hóa trả lời hai câu hỏi bổ trợ — mức độ *tham gia* thị trường quốc tế (tổng) và mức độ *cam kết trực tiếp* của doanh nghiệp (trực tiếp) — và được ghi rõ trong phần dữ liệu của từng nghiên cứu.
 
 - **Biến TCI (Technological Capability Index)**: Trung bình chuẩn hóa z của tối thiểu 3 trong 4 thành phần: ISO (b8), R&D (h8), đổi mới sản phẩm (h1), công nghệ nước ngoài (e6). Yêu cầu ≥3 non-missing để tính tổng hợp.
 
@@ -973,6 +973,8 @@ David, P. A. (1990). The dynamo and the computer: An historical perspective on t
 
 Hall, P. A., & Soskice, D. (Eds.). (2001). *Varieties of capitalism: The institutional foundations of comparative advantage*. Oxford University Press.
 
+Hessels, J., & Terjesen, S. (2010). Resource dependency and institutional theory perspectives on direct and indirect export choices. *Small Business Economics, 34*(2), 203–220. https://doi.org/10.1007/s11187-008-9156-4
+
 Hertog, S. (2010). *Princes, brokers, and bureaucrats: Oil and the state in Saudi Arabia*. Cornell University Press.
 
 Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics, 124*(4), 1403–1448.
@@ -991,6 +993,8 @@ Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for
 
 Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality-performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121.
 
+Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*(6–7), 565–586. https://doi.org/10.1002/smj.184
+
 Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609.
 
 Mar, J., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review* (under review).
@@ -1000,6 +1004,8 @@ Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). 
 North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
 
 Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866.
+
+Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on export development research. *Journal of International Business Studies, 29*(3), 609–620. https://doi.org/10.1057/palgrave.jibs.8490011
 
 Peng, M. W. (2001). The resource-based view and international business. *Journal of Management, 27*(6), 803–829.
 
@@ -1016,6 +1022,8 @@ Sikdar, A., & Mukhopadhyay, A. (2026). Technology spillovers and firm performanc
 StartupBlink. (2026). *Global startup ecosystem index 2026*. StartupBlink Research.
 
 Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? *Global Strategy Journal, 11*(1), 58–80.
+
+Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Journal of International Business Studies, 25*(2), 325–342. https://doi.org/10.1057/palgrave.jibs.8490203
 
 Teece, D. J., Pisano, G., & Shuen, A. (1997). Dynamic capabilities and strategic management. *Strategic Management Journal, 18*(7), 509–533.
 
