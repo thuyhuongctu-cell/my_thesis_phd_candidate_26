@@ -61,7 +61,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **49 nền kinh tế ch
 
 **Biến robustness**: ROS, sales growth, employment growth, $\ln$(annual sales).
 
-**Đóng góp mới**: lập luận rõ ràng về firm performance là khái niệm đa chiều và việc lựa chọn thước đo phải phù hợp với bối cảnh dữ liệu (xem `02_theoretical_framework_vi.md`).
+**Đóng góp mới**: lập luận rõ ràng về firm performance là khái niệm đa chiều và việc lựa chọn thước đo phải phù hợp với bối cảnh dữ liệu (xem Chương 2).
 
 ### 3.3.3 Đo lường biến độc lập — Quốc tế hóa
 
