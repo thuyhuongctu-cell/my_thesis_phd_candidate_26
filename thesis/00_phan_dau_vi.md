@@ -145,7 +145,10 @@ Key findings: (1) the I–P relationship is inverted-U shaped, but the turning p
 - Bảng 2.1. Ánh xạ nghiên cứu thành phần, chương, giả thuyết (Chương 2)
 - Bảng 4.1. Phân tán năng suất lao động và đặc điểm quốc tế hóa theo phân nhóm con ICRV (Chương 4, §4.1)
 - Bảng 4.2. Đổi mới sáng tạo và chấp nhận số theo phân nhóm con ICRV (%) (Chương 4, §4.1)
-- Bảng 4.3. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, §4.8)
+- Bảng 4.3. Đặc trưng doanh nghiệp Nhật Bản 2025 so với Nhóm I (Chương 4, §4.1.5)
+- Bảng 4.4. Tiến triển 11 mô hình lồng nhau của P7: điểm uốn và độ phù hợp (Chương 4, §4.6)
+- Bảng 4.5. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, §4.8)
+- Bảng 4.6. Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm (Chương 4, §4.10)
 
 **Bảng chuyên đề (không đánh số, theo mục):**
 - Bảng định nghĩa biến, Nghiên cứu P3 Việt Nam (Chương 3, §3.4.5.1)

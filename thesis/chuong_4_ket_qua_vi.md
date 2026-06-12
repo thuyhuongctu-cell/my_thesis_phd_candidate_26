@@ -73,6 +73,31 @@ Một biểu hiện khác của bão hòa Tier-1 nằm ở tương quan giữa w
 
 Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biến nhất ảnh hưởng đến khả năng quốc tế hóa và hiệu quả doanh nghiệp tại châu Á: (i) tiếp cận tài chính hạn chế, đặc biệt nghiêm trọng ở Emerging và Lower-middle transition (Nhóm V–IV); (ii) thiếu hụt lao động có kỹ năng; (iii) cạnh tranh từ doanh nghiệp phi chính thức; và (iv) nguồn cung điện không đáng tin cậy. Bốn rào cản này hình thành "institutional voids" (Khanna & Palepu, 2010) tạo ra chi phí giao dịch bổ sung cho doanh nghiệp khi mở rộng hoạt động ra ngoài biên giới. Sự hiện diện đồng thời của nhiều voids tại Emerging và SIDS giải thích tại sao quan hệ I–P ở các nhóm này yếu hoặc âm.
 
+### 4.1.5 Nhật Bản 2025: Lần đầu tiên được khảo sát và vị trí trong khung ICRV
+
+Một sự kiện dữ liệu đáng chú ý của giai đoạn nghiên cứu là việc Nhật Bản lần đầu tiên được đưa vào Khảo sát Doanh nghiệp của Ngân hàng Thế giới năm 2025, với mẫu $N = 2.168$ doanh nghiệp. Vì là nền kinh tế tiên tiến lớn cuối cùng gia nhập bộ dữ liệu WBES, Nhật Bản cung cấp một điểm neo mô tả quý giá cho biên trên của Nhóm I (Advanced đổi mới sáng tạo dẫn dắt). Cần lưu ý về phạm vi: dữ liệu Nhật Bản 2025 đến sau khi khung ước lượng 49 nền của luận án đã được chốt, nên Nhật Bản **không** nằm trong các ước lượng kinh tế lượng đã khóa (điểm uốn P7, FIP P8, ngưỡng P9) mà được trình bày ở đây như **mô tả** và như một hướng mở rộng tự nhiên cho vòng ước lượng tiếp theo. Toàn bộ số liệu dưới đây được tính trực tiếp từ tệp vi mô gốc.
+
+**Bảng 4.3.** *Đặc trưng doanh nghiệp Nhật Bản 2025 so với Nhóm I (Advanced đổi mới).*
+
+| Chỉ tiêu | Nhật Bản 2025 | Nhóm I (5 nền) |
+|---|--:|--:|
+| n doanh nghiệp | 2.168 | 4.222 |
+| sd ln(LP) trong đợt | **0,89** | 1,04 |
+| P90/P10 năng suất | **8,3** | 12,2 |
+| FSTS trung bình (%) | 4,1 | 13,4 |
+| Doanh nghiệp xuất khẩu (%) | 16,5 | 28,4 |
+| FDI ≥ 10% (%) | **1,9** | 10,6 |
+| Website (%) | **83,8** | 61,7 |
+| R&D (%) | 21,9 | 20,5 |
+| ISO (%) | 27,7 | 35,0 |
+| Đổi mới sản phẩm (%) | 32,2 | 24,3 |
+| Nữ quản lý cấp cao (%) | **7,3** | 27,5 |
+| Tuổi doanh nghiệp trung bình (năm) | **50,4** | 23,0 |
+
+*Nguồn: tính trực tiếp từ `Japan-2025-full-data.dta` (WBES) và pool mô tả Nhóm I. FSTS = d3b + d3c.*
+
+Bốn đặc trưng nổi bật định vị Nhật Bản trong khung ICRV. Thứ nhất, **phân tán năng suất hẹp nhất**: độ lệch chuẩn ln năng suất trong đợt của Nhật (0,89) thấp hơn cả mức trung vị của Nhóm I (1,04), và tỷ số P90/P10 chỉ 8,3 lần so với 12,2 lần của Nhóm I, phản ánh một nền kinh tế tiên tiến trưởng thành với sàn năng suất cao và đồng đều. Đặc điểm này củng cố trực tiếp logic "bão hòa Tier-1" của khung CDCM: ở nền kinh tế đồng đều và số hóa cao, dư địa để hiện diện số cơ bản tạo khác biệt năng suất là rất hẹp. Thứ hai, **số hóa trưởng thành nhất**: tỷ lệ có website 83,8% là cao nhất trong toàn bộ pool, vượt xa mức 61,7% của Nhóm I. Thứ ba, **trường thọ doanh nghiệp**: tuổi trung bình 50,4 năm (so với 23,0 năm của Nhóm I) phản ánh cấu trúc doanh nghiệp lâu đời đặc thù của Nhật Bản. Thứ tư, **nghịch lý đổi mới–quốc tế hóa và khoảng cách giới**: dù cường độ R&D và đổi mới cao, cường độ quốc tế hóa cấp cơ sở lại thấp (FSTS 4,1%) cùng tỷ lệ sở hữu nước ngoài rất thấp (1,9%), cho thấy hoạt động quốc tế hóa tập trung ở các tập đoàn đa quốc gia lớn chứ không phân bố đều ở mẫu cơ sở; đồng thời tỷ lệ nữ quản lý cấp cao chỉ 7,3%, thấp hơn nhiều so với mức dẫn đầu khu vực Đông Á–Thái Bình Dương, nhất quán với văn liệu về trần kính trong quản trị doanh nghiệp Nhật Bản. Các đặc trưng này khiến Nhật Bản trở thành một trường hợp kiểm định lý tưởng cho vòng nghiên cứu tiếp theo về quan hệ I–P ở biên trên của gradient thể chế (xem §5.5).
+
 ---
 
 ## 4.2 Kết quả tổng hợp định lượng: Meta-analysis ba tầng (P6)
@@ -191,6 +216,26 @@ $$\text{TP(M5)} = 40{,}0\% \text{ FSTS} \quad (p_{\text{LM}} < {,}001)$$
 
 Turning point dao động nhất quán trong dải hẹp 33,8–40,0% FSTS qua tất cả các đặc tả M2–M9, và được xác nhận lại trong mô hình điều tiết ba chiều đầy đủ M11 ($\text{TP} = 34{,}6\%$, $p_{\text{LM}} = {,}002$, $N = 29.840$). Tính nhất quán này bác bỏ giả thuyết rằng chữ U ngược chỉ là artefact của mẫu nhỏ hay thiếu biến kiểm soát.
 
+Bảng 4.4 trình bày tiến triển 11 mô hình lồng nhau, từ đặc tả tuyến tính cơ sở (M0) đến mô hình điều tiết ba chiều đầy đủ (M11), cho thấy điểm uốn ổn định và quan hệ chữ U ngược được xác nhận bằng kiểm định Lind–Mehlum qua mọi cấu hình.
+
+**Bảng 4.4.** *Tiến triển 11 mô hình lồng nhau của P7: điểm uốn và độ phù hợp.*
+
+| Mô hình | N | adjR² | Điểm uốn | $p_{\text{LM}}$ | Đặc tả bổ sung |
+|---|--:|--:|--:|--:|---|
+| M0 | 84.910 | ,000 | — | — | FSTS tuyến tính |
+| M1 | 84.910 | ,000 | — | — | + biến kiểm soát (không bậc hai) |
+| M2 | 84.910 | ,003 | 36,4% | <,001 | + FSTS² (β₁ = +1,316; β₂ = −1,810) |
+| M3 | 38.342 | ,015 | 33,8% | <,001 | + biến kiểm soát |
+| **M5** | **38.342** | **,677** | **40,0%** | **<,001** | **+ FE nền kinh tế × năm (mô hình chính)** |
+| M6 | 38.051 | ,024 | 32,7% | <,001 | + TCI (hiệu ứng chính) |
+| M7 | 38.051 | ,025 | 33,9% | <,001 | + FSTS×TCI, FSTS²×TCI |
+| M8 | 37.940 | ,030 | 33,8% | <,001 | + DAI + FSTS×DAI, FSTS²×DAI |
+| M9 | 35.568 | ,035 | 36,1% | <,001 | + nhà quản trị + tương tác |
+| M10 | 31.928 | ,049 | — | n.s. | + ICRV + FSTS×ICRV, FSTS²×ICRV |
+| M11 | 29.840 | ,067 | 34,6% | ,002 | + ba chiều DAI×ICRV×FSTS |
+
+*Nguồn: P7 (Đỗ & Phan, 2026). Điểm uốn xác nhận bằng kiểm định Lind–Mehlum (2010). Mô hình M5 là đặc tả chính với hiệu ứng cố định hai chiều; adjR² nhảy lên ,677 phản ánh phần lớn phương sai năng suất được giải thích bởi khác biệt nền kinh tế × năm.*
+
 **Phạm vi thời gian của mẫu.** Mẫu phân tích của P7 được chốt tại 49 nền kinh tế với các đợt khảo sát đến thời điểm xây dựng bộ dữ liệu. Một số đợt khảo sát công bố sau thời điểm chốt mẫu, đáng chú ý là Nhật Bản 2025 (nền kinh tế lần đầu được WBES khảo sát, thuộc nhóm thể chế tiên tiến) và các đợt 2024–2026 của nhiều nền trong khung, nằm ngoài phạm vi ước lượng của luận án và tạo thành hướng mở rộng tự nhiên cho nghiên cứu tiếp theo (xem §5.5). Về mặt kỳ vọng, do mô hình dùng hiệu ứng cố định nền kinh tế và Nhật Bản có biến thiên quốc tế hóa thấp (FSTS trung bình khoảng 4%), việc bổ sung quan sát này nhiều khả năng chỉ tinh chỉnh ước lượng của Nhóm I mà không làm thay đổi gradient điểm uốn giữa các nhóm.
 
 ### 4.6.2 Gradient ICRV: Xác nhận H5
@@ -253,7 +298,7 @@ Kết quả thực nghiệm cho thấy một dạng phá vỡ ngưỡng (thresho
 
 Kiểm định Paternoster so sánh hệ số giữa 2014 và 2025 bác bỏ giả thuyết cân bằng với cường độ cực mạnh: $z(\text{FSTS}) = -7{,}94$, $p < {,}0001$ và $z(\text{FSTS}^2) = +4{,}17$, $p < {,}0001$ dưới sai số chuẩn HC1; dưới sai số chuẩn cụm theo bang (cluster-robust, $G = 24$ bang), kết quả vẫn có ý nghĩa thống kê: $z(\text{FSTS}) = -3{,}50$, $p = {,}001$ và $z(\text{FSTS}^2) = +2{,}19$, $p = {,}029$. Đặc tả gộp ba đợt với biến giả đợt khảo sát xác nhận sự dịch chuyển có hệ thống: $\beta(\text{FSTS} \times \text{wave}\_2025) = -1{,}63$ ($p < {,}0001$), cho thấy độ dốc đường cong I-P đã thay đổi căn bản giữa 2014 và 2025.
 
-**Bảng 4.3.** *Điểm uốn theo đợt khảo sát, Ấn Độ.*
+**Bảng 4.5.** *Điểm uốn theo đợt khảo sát, Ấn Độ.*
 
 | Đợt khảo sát | $N$ phân tích | Điểm uốn (TP) | Lind–Mehlum | Nhận xét |
 |---|---|---|---|---|
@@ -288,6 +333,24 @@ Bốn điểm hội tụ trên cho thấy các phát hiện cấp doanh nghiệp
 ---
 
 ## 4.10 Tổng hợp kết quả theo hệ giả thuyết
+
+Trước khi tổng hợp theo hệ giả thuyết, Bảng 4.6 hợp nhất các ước lượng trụ cột của bảy nghiên cứu thành phần thực nghiệm, cho phép đối chiếu trực tiếp dạng hàm, điểm uốn, vai trò của hai cấu trúc số (TCI, DAI) và quy mô mẫu xuyên các bối cảnh ICRV.
+
+**Bảng 4.6.** *Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm.*
+
+| NC | Bối cảnh (nhóm ICRV) | N | Dạng hàm I–P | Điểm uốn (FSTS) | Vai trò TCI | Vai trò DAI |
+|---|---|--:|---|---|---|---|
+| P3 | Việt Nam (IV) | 2.958 | U ngược | 39–46% | dương, có ý nghĩa (β=0,179, IV) | null (Tier-1) |
+| P4 | Singapore (I) | 623 | gần tuyến tính dương | ~88,6% (không định vị chắc) | yếu tố vệ sinh | FSTS²×DAI=+3,119** |
+| P5 | Trung Quốc (III) | 4.559 | U ngược | 47–49% (ổn định 2012–2024) | dương (+0,26→+0,43) | — |
+| P6 | Meta-analysis (toàn cầu) | k=238 | dương nhỏ | — | — | r=0,074; I²=62,4% |
+| P7 | Đa quốc gia (49 nền, I–VI) | 84.910 | U ngược | 40,0% (M5); gradient 28%→55% | nâng mặt bằng (+41%) | nâng mặt bằng + nén đường cong |
+| P8 | SIDS Pacific (VI) | 959 | âm đơn điệu (FIP) | không có | — | β(FSTS)=−1,339*** |
+| P9 | Ấn Độ (IV) | 28.717 | U ngược → sụp đổ ngưỡng | 61,8%→40,7%→tan biến | — | — |
+
+*Nguồn: tổng hợp từ các nghiên cứu thành phần P3–P9. \*\* p < ,01; \*\*\* p < ,001. Điểm uốn xác nhận bằng kiểm định Lind–Mehlum (2010). Điểm uốn P7 = 40,0% ở mô hình đầy đủ M5 (dải 33,8–40,0% giữa các đặc tả; M11 = 34,6%).*
+
+Bảng 4.6 làm nổi bật ba quy luật xuyên suốt. Thứ nhất, **dạng hàm chữ U ngược là quy luật chứ không phải ngoại lệ**, được xác nhận ở năm trong bảy nghiên cứu (P3, P5, P7, P9 và một phần P4), với hai trường hợp biên có ý nghĩa lý thuyết riêng: quan hệ âm đơn điệu tại SIDS (P8, FIP) và sự tan biến ngưỡng dưới biến động thể chế cực đoan tại Ấn Độ (P9). Thứ hai, **điểm uốn dịch theo chiều thể chế**: từ ~88,6% ở Singapore (Nhóm I) xuống 47–49% ở Trung Quốc (III) và 39–46% ở Việt Nam (IV), nhất quán với gradient toàn mẫu của P7. Thứ ba, **TCI và DAI vận hành khác nhau**: TCI nhất quán nâng mặt bằng năng suất, trong khi vai trò DAI phụ thuộc bối cảnh (nén đường cong ở thể chế yếu, khuếch đại ở Singapore), củng cố sự phân biệt cốt lõi của khung CDCM.
 
 | Giả thuyết | Nội dung | Kết quả |
 |---|---|---|
