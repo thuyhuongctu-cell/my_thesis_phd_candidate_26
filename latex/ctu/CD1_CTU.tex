@@ -1,0 +1,2955 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  13pt]{extreport}
+\usepackage{amsmath,amssymb}
+\usepackage{setspace}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{Times New Roman}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{xcolor}
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{vietnamese}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Times New Roman}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdflang={vi},
+  colorlinks=true,
+  linkcolor={black},
+  filecolor={Maroon},
+  citecolor={black},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\setstretch{1.2}
+BỘ GIÁO DỤC VÀ ĐÀO TẠO TRƯỜNG ĐẠI HỌC CẦN THƠ TRƯỜNG KINH TẾ
+
+─────────────────────────────────────────
+
+ĐỖ THÙY HƯƠNG
+
+CHUYÊN ĐỀ TIẾN SĨ SỐ 1
+
+THỰC TRẠNG VỀ HIỆU QUẢ HOẠT ĐỘNG KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU
+Á
+
+Ngành: Quản trị kinh doanh Mã ngành: 9340101 Mã nghiên cứu sinh:
+P1323001
+
+NGƯỜI HƯỚNG DẪN KHOA HỌC TS. NGUYỄN MINH CẢNH
+
+Cần Thơ, năm 2026
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{lux1eddi-cam-ux111oan}{%
+\subsection{LỜI CAM ĐOAN}\label{lux1eddi-cam-ux111oan}}
+
+Tôi xin cam đoan chuyên đề tiến sĩ số 1 với tiêu đề ``Thực trạng về hiệu
+quả hoạt động kinh doanh của các doanh nghiệp ở Châu Á'' là công trình
+nghiên cứu của riêng tôi dưới sự hướng dẫn khoa học của TS. Nguyễn Minh
+Cảnh, Trường Đại học Cần Thơ. Các kết quả phân tích, số liệu, bảng biểu,
+hình vẽ trình bày trong chuyên đề đều trung thực, có nguồn gốc rõ ràng.
+Tài liệu tham khảo được trích dẫn theo chuẩn APA 7th. Những trích dẫn từ
+các nghiên cứu khác đều được nêu rõ trong danh mục tài liệu tham khảo.
+Tôi xin chịu trách nhiệm hoàn toàn về nội dung khoa học của chuyên đề
+này.
+
+\emph{Cần Thơ, ngày \ldots{} tháng \ldots{} năm 2026}
+
+\emph{Nghiên cứu sinh}
+
+\textbf{Đỗ Thùy Hương}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{tuxf3m-tux1eaft}{%
+\subsection{TÓM TẮT}\label{tuxf3m-tux1eaft}}
+
+Chuyên đề này thực hiện phân tích mô tả -- chẩn đoán thực trạng hiệu quả
+hoạt động kinh doanh của doanh nghiệp ở \textbf{các nền kinh tế châu Á
+(phạm vi chính)} trong giai đoạn \textbf{2006--2026}, mở rộng so sánh
+với các quốc đảo nhỏ đang phát triển (SIDS) Thái Bình Dương như trường
+hợp biên. Phạm vi không gian gồm \textbf{49 nền kinh tế}, phân thành 6
+nhóm theo khung Biến thiên chế độ bối cảnh thể chế (ICRV): Advanced đổi
+mới sáng tạo dẫn dắt, Advanced tài nguyên dẫn dắt, trung bình cao,
+chuyển đổi thu nhập trung bình--thấp, đang nổi, và SIDS Thái Bình Dương
+(trường hợp biên mở rộng). Phần phân tích mô tả (Bảng 2.3.3--2.3.8) được
+tính trực tiếp từ dữ liệu vi mô World Bank Enterprise Surveys (WBES)
+trên \textbf{pool mô tả gồm 86.701 doanh nghiệp · 102 cặp nền kinh tế ×
+năm}, kế thừa và mở rộng từ pool 17 nền châu Á mới nổi
+(\textasciitilde40.633 doanh nghiệp) đã được tác giả công bố trước đó
+(Đỗ \& Phan, 2026 --- VEFR). Khung phân loại thống nhất với bộ dữ liệu
+ước lượng của luận án (khung phân tích 91.982 doanh nghiệp / 49 nền;
+pool phân loại 96.415 doanh nghiệp / 52 nền).
+
+\begin{quote}
+\emph{Ghi chú dữ liệu: Chuyên đề sử dụng hai khung dữ liệu bổ trợ, thống
+nhất về danh sách 49 nền kinh tế và nhãn nhóm ICRV. (i) \textbf{Pool mô
+tả} phục vụ toàn bộ thống kê §2.3.3--2.3.8: 86.701 doanh nghiệp · 102
+cặp nền kinh tế × năm (2006--2026), tính trực tiếp từ tệp vi mô WBES ---
+mỗi cặp nền kinh tế × năm lấy đúng một cross-section chuẩn (loại các
+điều tra phi chính thức, siêu nhỏ và panel mở rộng), chỉ nhận các đợt
+khảo sát từ 2006 trở đi khi WBES áp dụng bộ câu hỏi so sánh được toàn
+cầu. Pool này chứa đầy đủ các biến mô tả (R\&D, ISO, đổi mới, tham
+nhũng, giới) vốn không thuộc tập biến ước lượng. (ii) \textbf{Khung ước
+lượng} của luận án và Chuyên đề 2: 91.982 doanh nghiệp / 49 nền (pool
+phân loại 96.415 / 52 nền), được hợp nhất và hài hòa hóa theo quy trình
+tại Phụ lục A của luận án --- mọi kết quả kinh tế lượng được dẫn chiếu
+theo khung này. Trường hợp biên SIDS: Nhóm VI gồm 8 nền (7 Pacific +
+Timor-Leste); mẫu chính của nghiên cứu SIDS là 7 nền Pacific.}
+\end{quote}
+
+Phương pháp chủ đạo là thống kê mô tả đa chiều, kết hợp đồ thị, bảng so
+sánh xuyên quốc gia -- xuyên ngành và phân tích hai biến. Hiệu quả hoạt
+động kinh doanh được tiếp cận theo bốn chiều: năng suất lao động, lợi
+nhuận và biên lợi nhuận, tăng trưởng, đổi mới sáng tạo và cấu trúc doanh
+nghiệp.
+
+Kết quả cho thấy hiệu quả doanh nghiệp châu Á có \textbf{phân tán lớn và
+không hội tụ}. Bảy tiểu cảnh điển hình tồn tại đồng thời (Singapore --
+Vùng Vịnh Saudi/Qatar/Kuwait -- Việt Nam -- Trung Quốc -- Emerging Asia
+-- Mongolia -- SIDS Thái Bình Dương) với điểm mạnh hiệu quả khác nhau.
+Chuyên đề phát hiện \textbf{phân nhóm con Advanced} (innovation-driven
+so với resource-driven) và xác nhận pattern \textbf{chi phí buộc phải
+quốc tế hóa} ở 7 SIDS Thái Bình Dương --- đóng góp định hướng cho luận
+án và Chuyên đề tiến sĩ số 2.
+
+\textbf{Từ khóa}: hiệu quả doanh nghiệp; châu Á; WBES; thực trạng; năng
+suất lao động; doanh nghiệp vừa và nhỏ; phân nhóm con Advanced; SIDS
+Thái Bình Dương.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{abstract}{%
+\subsection{ABSTRACT}\label{abstract}}
+
+This specialty essay conducts a descriptive-diagnostic analysis of the
+firm performance landscape across \textbf{Asian economies (primary
+scope)} during \textbf{2006--2026}, with comparative extension to
+Pacific SIDS as a boundary case. The spatial scope covers \textbf{49
+economies}, classified into six sub-regimes of ICRV (Institutional
+Context Regime Variation): Advanced innovation-driven, Advanced
+resource-driven, Upper-middle, Lower-middle transition, Emerging, and
+Pacific SIDS (boundary case extension). The descriptive analysis (Tables
+2.3.3--2.3.8) is computed directly from World Bank Enterprise Surveys
+(WBES) micro-data over a descriptive pool of \textbf{86,701 firms · 102
+economy-year pairs} (one standard cross-section per economy-year, waves
+from 2006 onward), building on and extending the 17-economy pool of
+emerging Asia (\textasciitilde40,633 firms) previously published by the
+author (Do \& Phan, 2026 --- VEFR). The classification is identical to
+the dissertation's estimation dataset (analytic frame 91,982 firms / 49
+economies; classification pool 96,415 firms / 52 economies).
+
+Adopting multidimensional descriptive statistics, charts,
+cross-country--cross-industry comparison tables and bivariate analyses,
+the study examines firm performance along four axes: labor productivity,
+profitability and margins, growth, and innovation and structural
+composition. Findings indicate substantial and persistent dispersion in
+firm performance across Asian economies with no convergence pattern; six
+salient archetypes (Singapore, Saudi/Qatar/Kuwait, Vietnam, China,
+broader Emerging Asia, Mongolia --- primary scope) plus Pacific SIDS as
+boundary case coexist with distinct performance strengths; bivariate
+correlations vary in sign and magnitude across regimes, suggesting
+nonlinear and moderation models. The essay identifies a sub-grouping of
+the Advanced regime (innovation- vs resource-driven) within primary
+Asian scope and confirms the forced internationalization penalty pattern
+in 7 Pacific SIDS boundary case.
+
+\textbf{Keywords}: firm performance; Asia; WBES; landscape; labor
+productivity; SMEs; Advanced sub-grouping; Pacific SIDS boundary case.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{mux1ee5c-lux1ee5c}{%
+\subsection{MỤC LỤC}\label{mux1ee5c-lux1ee5c}}
+
+\begin{itemize}
+\tightlist
+\item
+  Lời cam đoan
+\item
+  Tóm tắt / Abstract
+\item
+  Danh mục bảng
+\item
+  Danh mục hình
+\item
+  Danh mục từ viết tắt
+\item
+  \textbf{2.1 Giới thiệu}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    2.1.1 Đặt vấn đề và tính cấp thiết
+  \item
+    2.1.2 Mục tiêu chuyên đề
+  \item
+    2.1.3 Nội dung và phạm vi nghiên cứu
+  \item
+    2.1.4 Giới hạn nghiên cứu
+  \item
+    2.1.5 Ý nghĩa khoa học và thực tiễn
+  \end{itemize}
+\item
+  \textbf{2.2 Phương pháp nghiên cứu}
+\item
+  \textbf{2.3 Nội dung nghiên cứu}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    2.3.1 Cơ sở lý luận về hiệu quả hoạt động kinh doanh
+  \item
+    2.3.2 Khung phân loại thể chế ICRV
+  \item
+    2.3.3 Thực trạng năng suất lao động và quốc tế hóa
+  \item
+    2.3.4 Đổi mới sáng tạo và năng lực số hóa
+  \item
+    2.3.5 Cấu trúc doanh nghiệp
+  \item
+    2.3.6 Biến thiên theo thời gian (2006--2026)
+  \item
+    2.3.7 Bảy tiểu cảnh điển hình
+  \item
+    2.3.8 Yếu tố giải thích sơ bộ
+  \item
+    2.3.9 Thảo luận tổng hợp
+  \end{itemize}
+\item
+  \textbf{2.4 Kết luận}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    2.4.1 Kết luận chính
+  \item
+    2.4.2 Hàm ý và đề xuất
+  \end{itemize}
+\item
+  Tài liệu tham khảo
+\item
+  Phụ lục A --- Phạm vi nhóm dữ liệu WBES
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{danh-mux1ee5c-bux1ea3ng}{%
+\subsection{DANH MỤC BẢNG}\label{danh-mux1ee5c-bux1ea3ng}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Bảng
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tiêu đề
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Trang
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Bảng 2.3.1.1 & Ma trận đối chiếu 3 trạng thái U-curve theo 3 điều kiện
+cấu trúc & 2.3 \\
+Bảng 2.3.2.1 & 49 nền kinh tế phân theo 6 nhóm ICRV & 2.3 \\
+Bảng 2.3.2.2 & Đặc điểm các nhóm ICRV (tiêu chí + đại diện + pattern dự
+kiến) & 2.3 \\
+Bảng 2.3.3.1 & Phân tán năng suất lao động trong từng đợt khảo sát theo
+nhóm ICRV & 2.3 \\
+Bảng 2.3.3.2 & FSTS, doanh nghiệp xuất khẩu và CAGR việc làm theo phân
+nhóm con & 2.3 \\
+Bảng 2.3.4.1 & Đổi mới sáng tạo và áp dụng số (\%) & 2.3 \\
+Bảng 2.3.4.2 & Khung 5 lĩnh vực chỉ số WBES & 2.3 \\
+Bảng 2.3.5.1 & Cấu trúc doanh nghiệp theo phân nhóm con (\%) & 2.3 \\
+Bảng 2.3.5.2 & Bốn rào cản hàng đầu Asia-Pacific WBES & 2.3 \\
+Bảng 2.3.6.1 & Thay đổi theo thời gian --- Δ điểm phần trăm 2018--2026
+so với 2006--2012 & 2.3 \\
+Bảng 2.3.6.2 & Phân biệt 3 chỉ số tham nhũng WBES --- Bribery vs Graft &
+2.3 \\
+Bảng 2.3.6.3 & Khung phân loại 9 ngành ISIC Rev.~4 & 2.3 \\
+Bảng 2.3.6.4 & Dị biệt nội bộ khối châu Á mới nổi (7 nền Nhóm IV--V) &
+2.3 \\
+Bảng 2.3.6.5 & 12 nền kinh tế trong đợt khảo sát 2025 & 2.3 \\
+Bảng 2.3.7.1 & Ma trận so sánh đa chiều bảy tiểu cảnh điển hình & 2.3 \\
+Bảng 2.3.8.1 & Hệ số tương quan Pearson theo 6 nhóm ICRV (pool mô tả 49
+nền) & 2.3 \\
+Bảng 2.3.8.2 & Pattern giới tính trong lãnh đạo cấp cao và sở hữu ---
+phân tầng theo khu vực & 2.3 \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{danh-mux1ee5c-huxecnh}{%
+\subsection{DANH MỤC HÌNH}\label{danh-mux1ee5c-huxecnh}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Hình
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tiêu đề
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Trang
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Hình 2.3.3.1 & Phân bố pool mô tả 86.701 doanh nghiệp (2006--2026) theo
+3 thế hệ schema WBES & 2.3 \\
+Hình 2.3.3.2 & Phân bố pool mô tả theo 6 nhóm ICRV (n=86.701 doanh
+nghiệp) & 2.3 \\
+Hình 2.3.3.3 & Phân phối năng suất chuẩn hóa trong đợt theo 6 nhóm ICRV
+(kernel density) & 2.3 \\
+Hình 2.3.4.1 & Slope chart 2006--2012 vs 2018--2026 (Δ điểm phần trăm
+theo nhóm ICRV) & 2.3 \\
+Hình 2.3.5.1 & Phân phối quy mô doanh nghiệp theo nhóm ICRV (n=86.701) &
+2.3 \\
+Hình 2.3.6.1 & Spider chart 5 chiều × 2 mốc thời gian (Advanced,
+Emerging, SIDS) & 2.3 \\
+Hình 2.3.7.1 & Mông Cổ: tiến triển 2009--2019 (3 đợt khảo sát WBES) &
+2.3 \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{danh-mux1ee5c-tux1eeb-viux1ebft-tux1eaft}{%
+\subsection{DANH MỤC TỪ VIẾT
+TẮT}\label{danh-mux1ee5c-tux1eeb-viux1ebft-tux1eaft}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Từ viết tắt
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tiếng Anh
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tiếng Việt
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+ADB & Asian Development Bank & Ngân hàng Phát triển Châu Á \\
+AIPI & AI Productivity Impact & Tác động năng suất của AI \\
+ASEAN & Association of Southeast Asian Nations & Hiệp hội các quốc gia
+Đông Nam Á \\
+BEE & Business Environment and Enterprise & --- \\
+BREADY & WBES 2018+ schema & Thế hệ bảng hỏi WBES mới từ 2018 \\
+CAGR & Compound Annual Growth Rate & Tốc độ tăng trưởng hàng năm kép \\
+CDCM & Context-Contingent Digital-and-Capability Model & Mô hình Áp dụng
+số và Năng lực phụ thuộc bối cảnh \\
+CĐ1 & Chuyên đề tiến sĩ số 1 & Specialty Essay 1 \\
+CĐ2 & Chuyên đề tiến sĩ số 2 & Specialty Essay 2 \\
+CIEM & Central Institute for Economic Management & Viện Nghiên cứu Quản
+lý Kinh tế Trung ương \\
+CRM & Customer Relationship Management & Quản lý quan hệ khách hàng \\
+DAI & Digital Adoption Index & Chỉ số áp dụng số \\
+DAI (Tier-1) & Website binary & Sự hiện diện số cơ bản \\
+DAI (Tier-2) & Website + e-payment composite & Chuyển đổi số cơ bản \\
+DPL & Digital Paradox Lifecycle & Vòng đời nghịch lý số \\
+EAP & East Asia and Pacific & Đông Á và Thái Bình Dương \\
+ECA & Europe and Central Asia & Châu Âu và Trung Á \\
+ERP & Enterprise Resource Planning & Hoạch định nguồn lực doanh
+nghiệp \\
+FDA & Foundational Digital Adoption & Áp dụng số nền tảng \\
+FDI & Foreign Direct Investment & Đầu tư trực tiếp nước ngoài \\
+FSTS & Foreign Trade Sales to Total Sales & Tỷ lệ doanh thu xuất khẩu
+trên tổng doanh thu \\
+GCC & Gulf Cooperation Council & Hội đồng Hợp tác vùng Vịnh \\
+GDP & Gross Domestic Product & Tổng sản phẩm quốc nội \\
+GNI & Gross National Income & Tổng thu nhập quốc gia \\
+GVC & Global Value Chain & Chuỗi giá trị toàn cầu \\
+HC1 & HC1 Robust Standard Errors & Sai số chuẩn vững HC1 \\
+ICRV & Institutional Context Regime Variation & Biến thiên chế độ bối
+cảnh thể chế \\
+IFC & International Finance Corporation & Tổ chức Tài chính Quốc tế \\
+IMF & International Monetary Fund & Quỹ Tiền tệ Quốc tế \\
+IPR & Intellectual Property Rights & Quyền sở hữu trí tuệ \\
+ISIC & International Standard Industrial Classification & Phân loại
+ngành kinh tế quốc tế \\
+ISO & International Organization for Standardization & Tổ chức Tiêu
+chuẩn Quốc tế \\
+IV & Instrumental Variable & Biến công cụ \\
+LP & Labor Productivity & Năng suất lao động \\
+MENA & Middle East and North Africa & Trung Đông và Bắc Phi \\
+MIRAB & Migration, Remittances, Aid, Bureaucracy & Mô hình kinh tế SIDS
+Pacific \\
+MNE & Multinational Enterprise & Doanh nghiệp đa quốc gia \\
+ODA & Official Development Assistance & Hỗ trợ phát triển chính thức \\
+OLI & Ownership-Location-Internalization & Mô hình chiết trung OLI \\
+PICS3 & WBES 2009--2012 schema & Thế hệ bảng hỏi WBES 2009--2012 \\
+PICs & Pacific Island Countries & Các quốc đảo Thái Bình Dương \\
+PLMS & Pacific Labour Mobility Scheme & Chương trình lao động di chuyển
+Thái Bình Dương \\
+PPP & Purchasing Power Parity & Ngang giá sức mua \\
+R\&D & Research and Development & Nghiên cứu và Phát triển \\
+RBV & Resource-Based View & Quan điểm dựa trên nguồn lực \\
+SIDS & Small Island Developing States & Quốc đảo nhỏ đang phát triển \\
+SME & Small and Medium Enterprise & Doanh nghiệp vừa và nhỏ \\
+TCI & Technological Capability Index & Chỉ số năng lực công nghệ \\
+TMT & Top Management Team & Nhóm quản trị cấp cao \\
+UNCTAD & United Nations Conference on Trade and Development & --- \\
+WBES & World Bank Enterprise Surveys & Điều tra doanh nghiệp của Ngân
+hàng Thế giới \\
+WGI & World Governance Indicators & Chỉ số quản trị quốc gia \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{giux1edbi-thiux1ec7u}{%
+\subsection{2.1 GIỚI THIỆU}\label{giux1edbi-thiux1ec7u}}
+
+\hypertarget{ux111ux1eb7t-vux1ea5n-ux111ux1ec1-vuxe0-tuxednh-cux1ea5p-thiux1ebft}{%
+\subsubsection{2.1.1 Đặt vấn đề và tính cấp
+thiết}\label{ux111ux1eb7t-vux1ea5n-ux111ux1ec1-vuxe0-tuxednh-cux1ea5p-thiux1ebft}}
+
+Khu vực châu Á đã trở thành động lực tăng trưởng của kinh tế thế giới
+trong gần hai thập niên qua. Theo Asian Development Bank (ADB, 2024),
+châu Á đóng góp khoảng 60\% tăng trưởng GDP toàn cầu giai đoạn
+2010--2023, với tổng quy mô kinh tế chiếm xấp xỉ 40\% GDP toàn cầu
+(World Bank, 2024). Bên trong khu vực, hiệu quả hoạt động của doanh
+nghiệp --- đơn vị tế bào của nền kinh tế --- là yếu tố quyết định mức độ
+chuyển hoá tăng trưởng quốc gia thành thịnh vượng và năng lực cạnh tranh
+dài hạn (Cusolito \& Maloney, 2018). Vì vậy, đánh giá thực trạng hiệu
+quả hoạt động kinh doanh của doanh nghiệp ở châu Á có ý nghĩa lý luận
+lẫn chính sách.
+
+Bức tranh hiệu quả doanh nghiệp châu Á 2006--2026 được định hình bởi
+\textbf{bảy lớp bối cảnh đan xen}. Bốn lớp đầu gồm: hậu khủng hoảng tài
+chính toàn cầu 2008--2009; tái cấu trúc chuỗi giá trị toàn cầu sau chiến
+tranh thương mại Mỹ--Trung 2018 (UNCTAD, 2023); đại dịch COVID-19
+2020--2022 (World Bank, 2023); và làn sóng chuyển đổi số tăng tốc từ
+2018 (Verhoef et al., 2021; Banalieva \& Dhanaraj, 2019). Lớp thứ năm là
+\textbf{giai đoạn AI bùng nổ và củng cố hậu COVID 2023--2025} (Stallkamp
+\& Schotter, 2021). \textbf{Lớp thứ sáu là xung đột Trung Đông 2026} ---
+IMF (2026, tháng 4) điều chỉnh giảm tăng trưởng toàn cầu xuống 3,1\% năm
+2026; ADB (2026, tháng 4) dự báo Pacific 3,4\%, Đông Nam Á 4,7\%, Việt
+Nam 7,0\%. Riêng Việt Nam, ADB (2026, tháng 4) ghi nhận GDP lịch sử 2025
+đạt 8,0\% và cập nhật dự báo 7,2\% (2026) → 7,0\% (2027). \textbf{Lớp
+thứ bảy là bất định chính sách thuế quan Mỹ 2026} --- Mỹ chiếm xấp xỉ
+30\% tổng kim ngạch xuất khẩu Việt Nam; thuế toàn cầu 10\% tạm thời tạo
+áp lực kép: hiệu ứng front-loading ngắn hạn và trì hoãn đầu tư dài hạn.
+\textbf{Lưu ý thời điểm}: Lớp bối cảnh thứ sáu và thứ bảy (các sự kiện
+2026) phần lớn nằm \emph{ngoài} cửa sổ dữ liệu của chuyên đề (các đợt
+khảo sát WBES từ 2006 đến đầu 2026); chúng được nêu để định khung diễn
+giải vĩ mô và định hướng chính sách, chứ không phản ánh trong các thống
+kê mô tả.
+
+Trong bối cảnh đó, hệ thống thông tin về hiệu quả doanh nghiệp châu Á
+còn phân mảnh. World Bank Enterprise Surveys (WBES) là cơ sở dữ liệu vi
+mô tin cậy nhất hiện có (World Bank Enterprise Surveys, 2025). Đỗ và
+Phan (2026 --- VEFR) đã mở rộng phạm vi WBES đến 17 nền kinh tế châu Á
+mới nổi với \textasciitilde40.633 doanh nghiệp. Tuy nhiên, vẫn còn ít
+tổng hợp xuyên \textbf{49 nền kinh tế} trên một giai đoạn dài. Chuyên đề
+này lấp khoảng trống thực tiễn đó với \textbf{pool mô tả gồm 86.701
+doanh nghiệp · 102 cặp nền kinh tế × năm (2006--2026)} --- gấp hơn 2 lần
+phạm vi của Đỗ \& Phan (2026 --- VEFR) --- và khung phân loại thống nhất
+với bộ dữ liệu ước lượng của luận án (91.982 doanh nghiệp / 49 nền; pool
+phân loại 96.415 DN / 52 nền).
+
+\textbf{Ẩn dụ minh họa --- Fiji và Singapore}: Trường hợp Fiji 2025 với
+tỷ lệ website 74,8\% vượt Singapore 66,1\% là minh chứng rõ nhất cho
+ranh giới giữa ``lý thuyết Uppsala vận hành ở điểm tối ưu'' và ``lý
+thuyết Uppsala bị biến dạng ở điều kiện biên''. Đối với Fiji và 6 SIDS
+Pacific khác, số hóa không phải công cụ tối ưu hóa chuỗi cung ứng mà là
+phương tiện sinh tồn --- dẫn vào các luận điểm về điều kiện biên của mô
+hình U-curve và tiểu cảnh điển hình SIDS Pacific trong phần 2.3.
+
+\hypertarget{mux1ee5c-tiuxeau-chuyuxean-ux111ux1ec1}{%
+\subsubsection{2.1.2 Mục tiêu chuyên
+đề}\label{mux1ee5c-tiuxeau-chuyuxean-ux111ux1ec1}}
+
+\textbf{Mục tiêu chung}: Hệ thống hóa và phân tích mô tả thực trạng hiệu
+quả hoạt động kinh doanh của các doanh nghiệp ở \textbf{49 nền kinh tế
+châu Á và Thái Bình Dương} (phạm vi chính châu Á + SIDS Thái Bình Dương
+mở rộng trường hợp biên) trong giai đoạn \textbf{2006--2026}, trên pool
+mô tả 86.701 doanh nghiệp · 102 cặp nền kinh tế × năm --- xem ghi chú dữ
+liệu ở Tóm tắt.
+
+\textbf{Mục tiêu cụ thể}:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Hệ thống hóa khái niệm và đa chiều đo lường hiệu quả hoạt động kinh
+  doanh trong văn liệu hiện hành;
+\item
+  Đề xuất khung phân loại 6 nhóm ICRV cho 49 nền kinh tế;
+\item
+  Phân tích thực trạng đa chiều hiệu quả doanh nghiệp ở 41 nền kinh tế
+  châu Á đại lục và Đông Á (phạm vi chính) và so sánh với 8 nền SIDS
+  (trường hợp biên);
+\item
+  Nhận diện đặc điểm và yếu tố giải thích sơ bộ cho dị biệt hiệu quả
+  giữa các phân nhóm;
+\item
+  Đề xuất khoảng trống thực tiễn để định hướng nghiên cứu tiếp theo.
+\end{enumerate}
+
+\hypertarget{nux1ed9i-dung-vuxe0-phux1ea1m-vi-nghiuxean-cux1ee9u}{%
+\subsubsection{2.1.3 Nội dung và phạm vi nghiên
+cứu}\label{nux1ed9i-dung-vuxe0-phux1ea1m-vi-nghiuxean-cux1ee9u}}
+
+\textbf{Đối tượng nghiên cứu}: Doanh nghiệp đang hoạt động ở các nền
+kinh tế trong pool đáp ứng tiêu chí mẫu của WBES --- chủ yếu là doanh
+nghiệp khu vực ngoài quốc doanh, có ít nhất 5 lao động, thuộc các ngành
+phi nông nghiệp.
+
+\textbf{Phạm vi không gian}:
+
+\textbf{A. Phạm vi chính --- 41 nền kinh tế châu Á}: - \textbf{(i)
+Advanced đổi mới sáng tạo dẫn dắt (5 nước)}: Singapore, Hong Kong SAR,
+Hàn Quốc, Đài Loan, Israel. - \textbf{(ii) Advanced tài nguyên dẫn dắt
+(6 nước)}: Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei, Oman. -
+\textbf{(iii) Trung bình cao --- Upper-middle (6 nước)}: Trung Quốc,
+Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia. - \textbf{(iv) Chuyển
+đổi TB--thấp --- Lower\_mid\_transition (7 nước)}: Việt Nam, Ấn Độ,
+Indonesia, Philippines, Mông Cổ, Bangladesh, Pakistan. - \textbf{(v)
+Đang nổi --- Emerging (17 nước)}: Sri Lanka, Jordan, Lào, Campuchia,
+Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan,
+Turkmenistan, Afghanistan, Azerbaijan, Iraq, Lebanon, Yemen.
+
+\begin{quote}
+\textbf{Ghi chú nhất quán nhãn nhóm:} Nhãn nhóm và danh sách thành viên
+trong §2.1.3 và Bảng 2.3.2.1 thống nhất với biến phân loại
+\texttt{icrv\_label} của bộ dữ liệu ước lượng (P7) và Chuyên đề 2: Nhóm
+IV = \texttt{Lower\_mid\_transition} (7 nền đông dân), Nhóm V =
+\texttt{Emerging} (17 nền), Nhóm VI = \texttt{SIDS\_small} (8 nền). Pool
+mô tả phủ \textbf{đủ 49/49 nền}: Nhóm I 5/5, II 6/6 (đủ khối GCC), III
+6/6, IV 7/7, V 17/17 (gồm Lebanon, Yemen), VI 8/8 (7 Pacific +
+Timor-Leste).
+\end{quote}
+
+\textbf{B. Trường hợp biên mở rộng --- Nhóm VI SIDS (8 nền, n=2.295,
+2,6\% pool)}: Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu,
+Samoa, Kiribati (2025) và Timor-Leste. Mẫu chính của nghiên cứu chuyên
+sâu SIDS là 7 nền Thái Bình Dương (n=1.781).
+
+\textbf{Phạm vi thời gian}: \textbf{2006--2026} (19 năm khảo sát, 102
+cặp nền kinh tế × năm). Ba thế hệ schema WBES trong pool mô tả:
+PICS3/tiền-Standardized (2006--2012, 18 đợt, n=8.048), Standardized
+(2013--2017, 27 đợt, n=23.940), BREADY/BEE/EAP Core (2018--2026, 57 đợt,
+n=54.713 --- chiếm 63,1\% pool).
+
+\hypertarget{giux1edbi-hux1ea1n-nghiuxean-cux1ee9u}{%
+\subsubsection{2.1.4 Giới hạn nghiên
+cứu}\label{giux1edbi-hux1ea1n-nghiuxean-cux1ee9u}}
+
+Bảy giới hạn cấu trúc được thừa nhận minh bạch:
+
+\textbf{(1) Cross-sectional không cho phép suy luận nhân quả mạnh}: WBES
+là repeated cross-sections, không phải panel cân bằng. Kết luận nhân quả
+dựa trên ước lượng biến công cụ từ nghiên cứu Việt Nam và không thể khái
+quát trực tiếp sang 49 nền kinh tế trong khung phân tích.
+
+\textbf{(2) Chỉ số áp dụng số bị giới hạn ở Tier-1 và Tier-2}: Bộ câu
+hỏi PICS3/Standardized chỉ có website nhị phân (Tier-1). BREADY có
+Tier-2 nhưng không đo Tier-3/4. Chuyên đề chỉ phát biểu về phần bù
+Tier-1/2, không phải toàn bộ phổ áp dụng số.
+
+\textbf{(3) Chỉ số TCI tổng hợp với trọng số đồng đều}: Trung bình đơn
+giản 4 thành phần (ISO, R\&D, đổi mới sản phẩm, công nghệ nước ngoài)
+chưa được xác nhận bằng phân tích nhân tố --- trọng số tối ưu có thể
+khác nhau giữa các nhóm ICRV.
+
+\textbf{(4) Thiếu một số biến lãnh đạo trong các đợt khảo sát cũ}: Biến
+kinh nghiệm quản lý và giới tính lãnh đạo không có đủ trong tất cả các
+đợt khảo sát WBES. Phân tích liên quan phải thực hiện trên mẫu con, tạo
+ra khả năng lệch chọn lọc.
+
+\textbf{(5) Không tách biệt tác động COVID-19 khỏi tác động áp dụng số}:
+Bộ câu hỏi BREADY 2018--2025 bao gồm giai đoạn gián đoạn COVID
+(2020--2022) và tăng tốc AI (2023+). Kết quả từ BREADY 2025 nên được
+giải thích là ``hậu đại dịch kết hợp tăng tốc số''.
+
+\textbf{(6) Phạm vi SIDS chưa đầy đủ}: 9/\textasciitilde52 SIDS theo
+UNCTAD (dữ liệu WBES hiện có). Tuvalu, Nauru, Marshall Islands,
+Micronesia chưa có WBES. Kết luận về chi phí quốc tế hóa buộc phải có
+thể chưa đại diện toàn bộ SIDS Pacific.
+
+\textbf{(7) Không có dữ liệu cường độ số theo ngành}: WBES không phân
+biệt chỉ số áp dụng số theo ngành. Doanh nghiệp sản xuất và dịch vụ có
+hệ số DAI Tier-1 giống nhau nhưng cường độ số thực tế khác nhau. Hiệu
+ứng cố định ngành kiểm soát được một phần nhưng không giải quyết triệt
+để vấn đề này.
+
+\hypertarget{uxfd-nghux129a-khoa-hux1ecdc-vuxe0-thux1ef1c-tiux1ec5n}{%
+\subsubsection{2.1.5 Ý nghĩa khoa học và thực
+tiễn}\label{uxfd-nghux129a-khoa-hux1ecdc-vuxe0-thux1ef1c-tiux1ec5n}}
+
+\textbf{Bốn đóng góp phạm vi chính (40 nước châu Á)}:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\item
+  \textbf{Bức tranh thực trạng đa chiều} cho hiệu quả doanh nghiệp châu
+  Á 2006--2026 --- phạm vi rộng nhất trong văn liệu kinh doanh quốc tế
+  hiện hành (Wu et al., 2022 dừng ở 2020; Arte \& Larimo, 2022 dừng ở
+  2019).
+\item
+  \textbf{Phân nhóm con Advanced} (innovation-driven so với
+  resource-driven) --- phát hiện lý thuyết mới chưa có trong văn liệu
+  hiện hành. Hai nhóm cùng mức thu nhập cao nhưng cấu trúc năng lực đối
+  lập: R\&D 20,5\% so với 7,0\%; doanh nghiệp xuất khẩu 28,4\% so với
+  11,7\%; nữ quản lý cấp cao 27,5\% so với 4,6\% --- phản ánh hai cơ chế
+  tăng trưởng hoàn toàn khác nhau.
+\item
+  \textbf{Nhảy vọt số} ở các nhóm đang nổi và chuyển đổi 2018--2026 ---
+  mở rộng pattern từ 17 nền lên 49 nền. Phân tách Tier-1 (website nhị
+  phân, tiệm cận bão hòa ở Advanced) và Tier-2 (tổng hợp đa thành phần,
+  đang phát triển ở các nhóm IV--VI).
+\item
+  \textbf{Bằng chứng cho khung lý thuyết phi tuyến và điều tiết đa tầng}
+  --- gradient cường độ rõ rệt của các hệ số tương quan xuyên 6 nhóm thể
+  chế (đặc biệt: tương quan FSTS--năng suất giảm dần từ +0,163 ở Nhóm I
+  xuống mất ý nghĩa ở SIDS) là cơ sở thực tiễn cho các giả thuyết của
+  Chuyên đề 2.
+\end{enumerate}
+
+\textbf{Một đóng góp trường hợp biên mở rộng (SIDS Pacific)}:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  \textbf{Chi phí buộc phải quốc tế hóa} ở 7 SIDS Thái Bình Dương
+  (Briguglio, 1995; Bertram, 2006) --- bằng chứng cấp doanh nghiệp đầu
+  tiên trong văn liệu kinh doanh quốc tế. Kiribati 2025 là trường hợp
+  cực đoan nhất với FSTS 1,0\%, FDI 0,7\%, website 18,7\%.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{phux1b0ux1a1ng-phuxe1p-nghiuxean-cux1ee9u}{%
+\subsection{2.2 PHƯƠNG PHÁP NGHIÊN
+CỨU}\label{phux1b0ux1a1ng-phuxe1p-nghiuxean-cux1ee9u}}
+
+Chuyên đề tiếp cận theo lối \textbf{mô tả -- chẩn đoán}, không thiết lập
+mô hình hồi quy đa biến để kiểm định nhân quả. Phương pháp kết hợp ba kỹ
+thuật: (a) thống kê mô tả đa biến (trung vị, trung bình, độ phân tán,
+kurtosis) theo phân nhóm thể chế và theo ngành; (b) trực quan hóa dữ
+liệu (heatmap, kernel density, spider chart, scatter plot --- 7 hình);
+(c) phân tích hai biến.
+
+\textbf{Nguồn dữ liệu}: World Bank Enterprise Surveys (WBES) --- cơ sở
+dữ liệu vi mô doanh nghiệp cấp quốc gia lớn nhất toàn cầu, được thiết kế
+theo phương pháp lấy mẫu xác suất phân tầng đảm bảo tính đại diện (World
+Bank Enterprise Surveys, 2025). Các bảng thống kê mô tả §2.3.3--2.3.8
+dưới đây được tính trên \textbf{pool mô tả gồm 86.701 doanh nghiệp · 49
+nền kinh tế · 102 cặp nền kinh tế × năm (2006--2026)} --- mỗi cặp nền
+kinh tế × năm lấy đúng một cross-section chuẩn, chỉ nhận đợt khảo sát từ
+2006 trở đi (xem ghi chú dữ liệu ở Tóm tắt và Phụ lục A). Khung phân
+loại thống nhất với bộ dữ liệu ước lượng của luận án: 49 nền kinh tế
+(91.982 doanh nghiệp; pool phân loại 96.415 DN / 52 nền).
+
+\textbf{Các biến đo lường chính}:
+
+\begin{itemize}
+\item
+  \textbf{Biến năng suất lao động (LP)}:
+  \texttt{LP\ =\ ln(doanh\ thu\ bán\ hàng\ hàng\ năm\ /\ số\ lao\ động\ toàn\ thời\ gian)}
+  (d2/l1), tính theo nội tệ của từng nền kinh tế. Vì đơn vị tiền tệ khác
+  nhau giữa các nước, chuyên đề tuân thủ một \textbf{nguyên tắc so sánh
+  xuyên tiền tệ} xuyên suốt: (a) các thống kê \emph{phân tán} được tính
+  \textbf{trong từng cặp nền kinh tế × năm} (bất biến với đơn vị tiền tệ
+  vì thừa số quy đổi triệt tiêu trong thang log); (b) so sánh \emph{mức}
+  giữa các nền kinh tế dùng chỉ số không thứ nguyên (ROS --- tỷ suất
+  sinh lời trên doanh thu); (c) trong khung ước lượng của luận án, LP
+  được chuẩn hóa z-score trong từng cặp nền kinh tế × năm và mô hình
+  luôn có hiệu ứng cố định quốc gia (Phụ lục A của luận án). Giá trị LP
+  được winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để kiểm
+  soát ngoại lai.
+\item
+  \textbf{Biến FSTS (Foreign Sales to Total Sales)}:
+  \texttt{FSTS\ =\ (d3b\ +\ d3c)\ /\ 100}, trong đó d3b là tỷ lệ doanh
+  thu \textbf{xuất khẩu gián tiếp} (bán qua trung gian xuất khẩu) và d3c
+  là tỷ lệ doanh thu \textbf{xuất khẩu trực tiếp} --- theo nhãn biến
+  chính thức của bộ công cụ WBES. Quan sát được gán FSTS = 0 nếu doanh
+  nghiệp báo cáo toàn bộ doanh thu nội địa (d3a = 100); gán khuyết nếu
+  không trả lời. Tổng xuất khẩu trực tiếp + gián tiếp là định nghĩa tham
+  gia xuất khẩu chuẩn của WBES (World Bank Enterprise Surveys, 2025) và
+  được dùng thống nhất cho thống kê mô tả của chuyên đề cũng như khung
+  ước lượng đa quốc gia của luận án. \textbf{Ghi chú thao tác hóa}: hai
+  nghiên cứu thành phần đơn quốc gia (P3 Việt Nam, P5 Trung Quốc) đo
+  cường độ quốc tế hóa bằng riêng xuất khẩu trực tiếp (d3c), vì xuất
+  khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại
+  --- doanh nghiệp không trực tiếp tích lũy kinh nghiệm thị trường nước
+  ngoài, nên cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất
+  (Hessels \& Terjesen, 2010; Peng \& Ilinitch, 1998); trong khi tỷ
+  trọng doanh thu xuất khẩu (FSTS) là thước đo cường độ quốc tế hóa
+  chuẩn của văn liệu I--P (Lu \& Beamish, 2001; Sullivan, 1994). Hai
+  cách thao tác hóa trả lời hai câu hỏi bổ trợ --- mức độ \emph{tham
+  gia} thị trường quốc tế (tổng) và mức độ \emph{cam kết trực tiếp} của
+  doanh nghiệp (trực tiếp) --- và được ghi rõ trong phần dữ liệu của
+  từng nghiên cứu.
+\item
+  \textbf{Biến TCI (Technological Capability Index)}: Trung bình chuẩn
+  hóa z của tối thiểu 3 trong 4 thành phần: ISO (b8), R\&D (h8), đổi mới
+  sản phẩm (h1), công nghệ nước ngoài (e6). Yêu cầu ≥3 non-missing để
+  tính tổng hợp.
+\item
+  \textbf{Biến DAI (Digital Adoption Index)}: Spec 1 (toàn bộ
+  2006--2026): website nhị phân (c22b/e8) --- \textbf{Tier-1 Sự hiện
+  diện số cơ bản}. Spec 2 (BREADY 2018+ trở lên): tổng hợp chuẩn hóa z
+  website + cường độ thanh toán điện tử (k33/k38) --- \textbf{Tier-2
+  Chuyển đổi số cơ bản}.
+\end{itemize}
+
+\textbf{Hài hòa hóa xuyên ba thế hệ schema}: World Bank Enterprise
+Surveys trải qua ba thế hệ schema trong giai đoạn nghiên cứu. Thế hệ 1
+--- PICS3/MENA-WBES (2006--2012, 18 đợt, n=8.048): bảng hỏi PICS3 cho
+khu vực Đông Nam Á và Trung Á. Thế hệ 2 --- Standardized (2013--2017, 27
+đợt, n=23.940): áp dụng đồng nhất xuyên toàn cầu từ 2013. Thế hệ 3 ---
+BREADY/BEE/EAP Core (2018--2026, 57 đợt, n=54.713): tích hợp thanh toán
+điện tử, điện toán đám mây, ngân hàng di động vào các module bổ sung,
+gây \textbf{đứt gãy schema} quan sát được: Ấn Độ FSTS sụt 7,7\%→2,7\%
+trong đợt 2025.
+
+\textbf{Nguyên tắc minh bạch dữ liệu} (Aguinis et al., 2019): chuyên đề
+trình bày rõ (i) định nghĩa tổng thể (49 nền kinh tế châu Á và Thái Bình
+Dương, phân tách 41 phạm vi chính và 8 trường hợp biên); (ii) quy trình
+lấy mẫu (lấy mẫu chính thức WBES); (iii) lý giải quy mô mẫu (pool mô tả
+86.701 DN / 102 cặp; khung ước lượng 91.982 DN; pool phân loại 96.415
+DN); (iv) xử lý giá trị thiếu (FSTS = d3b + d3c, winsorize 1/99); (v)
+xây dựng biến; (vi) độ tin cậy và giá trị (TCI đa thành phần; DAI đơn
+thành phần Spec 1, đa thành phần Spec 2); (vii) phương pháp ước lượng
+(mô tả trong CĐ1; OLS và biến công cụ trong CĐ2); (viii) khoa học mở ---
+toàn bộ bảng và hình tái lập được từ gói tái lập kèm theo luận án.
+
+\textbf{Hệ thống phòng thủ ba tầng cho đứt gãy schema BREADY 2025}: Đợt
+2025 (12 nền kinh tế, n=14.712 doanh nghiệp, 17,0\% pool) sử dụng schema
+mới BREADY gây biến động bất thường: Ấn Độ FSTS giảm từ 7,7\% xuống
+2,7\%; R\&D nhiều nước tăng đột biến do hiệu ứng bảng hỏi chứ không phải
+thực tế. Ba đề xuất phương pháp: (3a) biến giả
+\texttt{Post\_BREADY\_2024} hấp thụ hiệu ứng schema tĩnh; (3b) mô hình
+neo (anchor model) --- chạy hồi quy với dữ liệu đến 2024, khóa hệ số,
+kiểm định ổn định với dữ liệu đầy đủ bằng Chow test; (3c) panel hậu đại
+dịch độc lập --- tách 2025 thành tập xác thực ngoài mẫu cho kỷ nguyên
+hậu COVID và AI.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{nux1ed9i-dung-nghiuxean-cux1ee9u}{%
+\subsection{2.3 NỘI DUNG NGHIÊN
+CỨU}\label{nux1ed9i-dung-nghiuxean-cux1ee9u}}
+
+\hypertarget{cux1a1-sux1edf-luxfd-luux1eadn-vux1ec1-hiux1ec7u-quux1ea3-houx1ea1t-ux111ux1ed9ng-kinh-doanh}{%
+\subsubsection{2.3.1 Cơ sở lý luận về hiệu quả hoạt động kinh
+doanh}\label{cux1a1-sux1edf-luxfd-luux1eadn-vux1ec1-hiux1ec7u-quux1ea3-houx1ea1t-ux111ux1ed9ng-kinh-doanh}}
+
+\hypertarget{khuxe1i-niux1ec7m-hiux1ec7u-quux1ea3-houx1ea1t-ux111ux1ed9ng-kinh-doanh}{%
+\paragraph{2.3.1.1 Khái niệm hiệu quả hoạt động kinh
+doanh}\label{khuxe1i-niux1ec7m-hiux1ec7u-quux1ea3-houx1ea1t-ux111ux1ed9ng-kinh-doanh}}
+
+Hiệu quả hoạt động kinh doanh (firm performance) là khái niệm \textbf{đa
+chiều} phản ánh mức độ đạt được các mục tiêu chiến lược của doanh nghiệp
+theo thời gian và trong bối cảnh thể chế cụ thể. Venkatraman và
+Ramanujam (1986) phân biệt hai tầng: (a) \textbf{hiệu quả tài chính} ---
+doanh thu, lợi nhuận, tỷ suất sinh lợi; và (b) \textbf{hiệu quả hoạt
+động rộng hơn} --- thị phần, đổi mới, năng suất, tăng trưởng việc làm.
+Lý thuyết dựa trên nguồn lực (Barney, 1991; Wernerfelt, 1984) xem hiệu
+quả doanh nghiệp là kết quả của việc tích lũy và khai thác \textbf{nguồn
+lực chiến lược} (có giá trị, hiếm, không thể sao chép, không thể thay
+thế --- VRIN), trong khi quan điểm thể chế (North, 1990; Scott, 1995;
+Peng, 2001) nhấn mạnh rằng hiệu quả này bị định hình mạnh bởi
+\textbf{môi trường thể chế} nơi doanh nghiệp hoạt động.
+
+Vượt ra ngoài khung hai tầng của Venkatraman và Ramanujam (1986), văn
+liệu phương pháp luận về đo lường hiệu quả tổ chức (Combs et al., 2005;
+Richard et al., 2009) cho phép tổng hợp thành \textbf{ba nhóm thước đo
+chính}: (i) \textbf{thước đo dựa trên kế toán} (ROA, ROE, ROS) phản ánh
+hiệu quả tài chính lịch sử; (ii) \textbf{thước đo dựa trên thị trường
+tài chính} (Tobin's Q, tổng lợi nhuận cổ đông) phản ánh kỳ vọng tương
+lai do nhà đầu tư định giá; và (iii) \textbf{thước đo dựa trên năng suất
+và tăng trưởng} (năng suất lao động, tăng trưởng doanh thu và việc làm)
+phản ánh năng lực vận hành thực chất. Richard và cộng sự (2009) cảnh báo
+rằng việc dựa vào một thước đo đơn lẻ làm suy giảm hiệu lực cấu trúc
+(construct validity) và khuyến nghị đo lường đa nguồn, đa chiều. Trong
+bối cảnh dữ liệu WBES --- vốn không cung cấp giá cổ phiếu nên loại trừ
+nhóm (ii), và có dữ liệu lợi nhuận thưa thớt làm hạn chế nhóm (i) ---
+\textbf{năng suất lao động} (thuộc nhóm iii) là lựa chọn chủ đạo có cơ
+sở lý thuyết và kỹ thuật vững nhất giữa các phương án (ROA/ROS/Tobin's
+Q): nó so sánh được xuyên quốc gia, ít bị méo mó bởi cơ cấu vốn và chế
+độ thuế đặc thù từng quốc gia, và phản ánh trực tiếp năng lực chuyển hóa
+đầu vào thành đầu ra. Để bù đắp giới hạn của một thước đo đơn lẻ theo
+khuyến nghị của Combs và cộng sự (2005), chuyên đề bổ sung ba chiều hiệu
+quả hỗ trợ (lợi nhuận, tăng trưởng, đổi mới) được trình bày ở mục
+2.3.1.2.
+
+Trong bối cảnh nghiên cứu xuyên quốc gia, khái niệm hiệu quả cần được
+\textbf{tiêu chuẩn hóa} để so sánh được. Theo Cusolito và Maloney
+(2018), \textbf{năng suất lao động} --- đo bằng giá trị gia tăng trên
+lao động hoặc doanh thu trên lao động --- là thước đo phổ biến nhất
+trong các nghiên cứu WBES vì: (a) tính khả dụng cao xuyên 3 thế hệ
+schema; (b) ít bị biến dạng bởi cơ cấu vốn hay cơ chế thuế quốc gia; (c)
+phản ánh trực tiếp năng lực chuyển đổi đầu vào thành đầu ra. Trong
+chuyên đề này, năng suất lao động được tính bằng:
+
+\textbf{LP = ln(Doanh thu bán hàng hàng năm PPP / Số lao động toàn thời
+gian)}
+
+Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để
+kiểm soát ngoại lai và được điều chỉnh theo sức mua tương đương nhằm đảm
+bảo tính so sánh xuyên quốc gia (World Bank Enterprise Surveys, 2025).
+
+\hypertarget{bux1ed1n-chiux1ec1u-ux111o-lux1b0ux1eddng-hiux1ec7u-quux1ea3}{%
+\paragraph{2.3.1.2 Bốn chiều đo lường hiệu
+quả}\label{bux1ed1n-chiux1ec1u-ux111o-lux1b0ux1eddng-hiux1ec7u-quux1ea3}}
+
+Hiệu quả doanh nghiệp trong chuyên đề này được đo lường theo \textbf{bốn
+chiều} tương ứng với bốn nhóm biến WBES:
+
+\textbf{Chiều 1 --- Năng suất lao động}. Biến đo lường chính: LP =
+ln(doanh thu hàng năm PPP / số lao động toàn thời gian). Đây là
+\textbf{thước đo chính} xuyên suốt phân tích, được lựa chọn vì: (a) có
+thể tính cho hầu hết các nền kinh tế trong pool; (b) không bị nhiễu bởi
+cơ cấu thuế và chính sách chuyển giá quốc gia; (c) có giá trị tham chiếu
+rõ ràng trong văn liệu quốc tế (Hsieh \& Klenow, 2009, 2014).
+
+\textbf{Chiều 2 --- Lợi nhuận và biên lợi nhuận}. Biến đo lường: (a) tỷ
+suất lợi nhuận hoạt động từ câu hỏi WBES về doanh thu sau chi phí lao
+động; (b) chỉ số gián tiếp qua khả năng tái đầu tư. Hạn chế: nhiều doanh
+nghiệp trong WBES không tiết lộ lợi nhuận cụ thể --- chiều này mang tính
+hỗ trợ thay vì chủ đạo.
+
+\textbf{Chiều 3 --- Tăng trưởng}. Biến đo lường: (a) tốc độ tăng trưởng
+việc làm hàng năm kép giữa 3 năm trước và thời điểm khảo sát; (b) tỷ lệ
+doanh nghiệp xuất khẩu như proxy cho mở rộng thị trường. Tăng trưởng
+việc làm được ưu tiên vì: (a) ít nhạy cảm với thay đổi giá cả so với
+doanh thu; (b) phản ánh khả năng tạo việc làm bền vững --- quan trọng
+cho mục tiêu chính sách.
+
+\textbf{Chiều 4 --- Đổi mới sáng tạo và cấu trúc doanh nghiệp}. Biến đo
+lường: (a) R\&D (tỷ lệ doanh nghiệp có chi tiêu R\&D dương); (b) đổi mới
+sản phẩm mới; (c) đổi mới quy trình mới; (d) chứng nhận ISO; (e) website
+(Tier-1 Sự hiện diện số cơ bản); (f) FDI ≥10\% (cơ cấu sở hữu). Chiều
+thứ tư phản ánh \textbf{năng lực tương lai} --- khả năng duy trì hiệu
+quả trong dài hạn qua đổi mới và nâng cấp công nghệ.
+
+\hypertarget{nux103m-meta-analysis-lux1edbn-vux1ec1-quan-hux1ec7-quux1ed1c-tux1ebf-huxf3a-hiux1ec7u-quux1ea3-19802024}{%
+\paragraph{2.3.1.3 Năm meta-analysis lớn về quan hệ quốc tế hóa -- hiệu
+quả
+(1980--2024)}\label{nux103m-meta-analysis-lux1edbn-vux1ec1-quan-hux1ec7-quux1ed1c-tux1ebf-huxf3a-hiux1ec7u-quux1ea3-19802024}}
+
+Văn liệu về quan hệ quốc tế hóa → hiệu quả là một trong những dòng
+nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế. Năm
+meta-analysis lớn cung cấp nền tảng thực nghiệm:
+
+\textbf{(1) Bausch \& Krist (2007)}: Tổng hợp \textbf{68 nghiên cứu}
+giai đoạn 1980--2005. Hệ số tương quan trung bình r=0,045 --- tích cực
+nhưng nhỏ. Phát hiện chính: đo lường quốc tế hóa và hiệu quả rất không
+đồng nhất giữa các nghiên cứu, hạn chế khả năng so sánh. Khoảng trống:
+ít nghiên cứu châu Á mới nổi.
+
+\textbf{(2) Kirca et al.~(2012)}: Tổng hợp \textbf{154 mẫu} với phân
+tích điều tiết meta-analytic. Phát hiện: quan hệ quốc tế hóa → hiệu quả
+dương và có ý nghĩa thống kê; nhưng bị điều tiết bởi loại doanh nghiệp,
+phương thức đo lường, bối cảnh quốc gia. Quan trọng: các doanh nghiệp
+châu Á và các nền kinh tế mới nổi biểu hiện pattern khác biệt so với
+doanh nghiệp OECD.
+
+\textbf{(3) Marano et al.~(2016)}: Tập trung vào thể chế hóa nghiên cứu
+quốc tế hóa → hiệu quả. Phát hiện: chất lượng thể chế nước chủ nhà là
+biến điều tiết quan trọng nhất --- giải thích phần lớn phương sai không
+giải thích được trong các meta-analysis trước. Đặt nền tảng cho khung
+ICRV trong chuyên đề này.
+
+\textbf{(4) Schwens et al.~(2018)}: Tổng hợp các yếu tố điều tiết mức độ
+tác động của quốc tế hóa. Phát hiện: năng lực hấp thụ (Cohen \&
+Levinthal, 1990), chất lượng lãnh đạo, và phát triển thể chế là các biến
+điều tiết quan trọng nhất.
+
+\textbf{(5) Wu, Xu và Yang (2022)}: Cập nhật meta-analysis đến 2020, tập
+trung vào \textbf{doanh nghiệp đa quốc gia mới nổi châu Á}. Phát hiện:
+quan hệ quốc tế hóa → hiệu quả ở doanh nghiệp mới nổi châu Á có hình
+dạng U ngược rõ nét hơn so với doanh nghiệp OECD; điểm uốn thường nằm
+trong phạm vi 30--50\% FSTS.
+
+\textbf{Khoảng trống từ 5 meta-analyses}: Không một meta-analysis nào
+trong số trên có dữ liệu WBES xuyên 49 nền kinh tế với phân loại ICRV 6
+nhóm. Không có nghiên cứu nào phân biệt tường minh Tier-1 và Tier-2 áp
+dụng số như biến điều tiết riêng biệt. Khoảng trống này là nền tảng cho
+phần thảo luận về các khoảng trống nghiên cứu trong mục 2.3.9.
+
+\hypertarget{ba-khung-luxfd-thuyux1ebft-nux1ec1n}{%
+\paragraph{2.3.1.4 Ba khung lý thuyết
+nền}\label{ba-khung-luxfd-thuyux1ebft-nux1ec1n}}
+
+Ba khung lý thuyết cung cấp nền tảng giải thích cho các pattern thực
+trạng được quan sát:
+
+\textbf{Khung 1 --- Lý thuyết Uppsala} (Johanson \& Vahlne, 1977, 2009):
+Doanh nghiệp quốc tế hóa theo \textbf{lộ trình tiệm tiến}, bắt đầu từ
+các thị trường gần về tâm lý rồi mở rộng dần. Phiên bản 2009 cập nhật:
+mạng lưới quan hệ kinh doanh thay thế khoảng cách tâm lý như cơ chế dẫn
+dắt. Hàm ý cho chuyên đề: (a) pattern FSTS thấp ở SIDS Pacific (6,3\%)
+và FSTS cao liên kết FDI ở Việt Nam (23,2\%) phù hợp với đường cong học
+hỏi Uppsala; (b) các công cụ số theo Banalieva \& Dhanaraj (2019) có thể
+rút ngắn lộ trình tiệm tiến ở giai đoạn đầu --- nhưng cần Tier-2 để phát
+huy đầy đủ.
+
+\textbf{Khung 2 --- Quan điểm dựa trên nguồn lực và năng lực động}
+(Barney, 1991; Teece et al., 1997; Wernerfelt, 1984): Doanh nghiệp đạt
+lợi thế cạnh tranh bền vững thông qua nguồn lực VRIN và khả năng tái cấu
+hình năng lực theo biến động môi trường. Hàm ý cho chuyên đề: (a) TCI
+(năng lực công nghệ) là proxy cho nguồn lực khó sao chép --- giải thích
+tại sao Advanced innovation-driven (ISO 29,9\%, R\&D 16,7\%) có năng
+suất vượt trội; (b) năng lực hấp thụ (Cohen \& Levinthal, 1990) giải
+thích tại sao tác động lan tỏa FDI tích cực hơn ở Ấn Độ với R\&D 19,8\%
+so với Việt Nam 6,1\%.
+
+\textbf{Khung 3 --- Lý thuyết thể chế} (North, 1990; Scott, 1995; Peng,
+2001, 2003): Thể chế --- luật pháp, chuẩn mực, quy tắc phi chính thức
+--- định hình chi phí giao dịch và cơ hội chiến lược cho doanh nghiệp.
+Peng (2001, 2003) xây dựng \textbf{khung thể chế dựa trên giao dịch} cho
+các nền kinh tế mới nổi --- lý giải tại sao quan hệ quốc tế hóa → hiệu
+quả không đồng nhất xuyên chế độ thể chế. Hàm ý: (a) gradient cường độ
+của các hệ số tương quan FDI/FSTS/TCI/DAI xuyên 6 nhóm ICRV --- đặc biệt
+việc tương quan FSTS--năng suất giảm dần và mất ý nghĩa ở SIDS (Bảng
+2.3.8.1) --- là bằng chứng mô tả cho điều tiết thể chế; (b) Xu (2024)
+làm sâu thêm bằng phân biệt \textbf{de jure} (luật trên giấy) so với
+\textbf{de facto} (thực thi thực tế) --- giải thích tại sao Việt Nam và
+Trung Quốc có gap lớn giữa hai tầng này; (c) khung ICRV 6 nhóm là sự vận
+hành hóa Lý thuyết thể chế theo hướng này.
+
+\hypertarget{ux111iux1ec1u-kiux1ec7n-biuxean-cho-u-curve-lu-beamish-2004}{%
+\paragraph{2.3.1.5 Điều kiện biên cho U-curve Lu \& Beamish
+(2004)}\label{ux111iux1ec1u-kiux1ec7n-biuxean-cho-u-curve-lu-beamish-2004}}
+
+\textbf{Ba điều kiện cấu trúc bắt buộc cho mô hình U-curve vận hành}:
+
+\textbf{(1) Điều kiện thị trường nội địa khả thi}: Doanh nghiệp có thể
+bán hàng nội địa ở quy mô đủ để tích lũy năng lực kinh doanh trước khi
+quốc tế hóa. Điều kiện này thỏa mãn ở Singapore (5,9 triệu dân, GDP bình
+quân đầu người \textasciitilde80.000 USD), Trung Quốc (1,4 tỷ dân), Việt
+Nam (98 triệu dân) --- \textbf{không} thỏa mãn ở Kiribati (130.000 dân,
+GDP bình quân đầu người \textasciitilde1.700 USD).
+
+\textbf{(2) Điều kiện chi phí thương mại kiểm soát được}: Logistics, vận
+tải, quy định xuất nhập khẩu nằm trong khoảng kinh tế. Điều kiện này
+thỏa mãn ở châu Á đại lục --- \textbf{không} thỏa mãn đầy đủ ở SIDS
+Pacific xa hub thương mại (Fiji--Auckland 2.100 km, Kiribati--Suva 2.700
+km).
+
+\textbf{(3) Điều kiện thể chế vận hành}: Khung pháp lý, quyền sở hữu trí
+tuệ, thực thi hợp đồng, hạ tầng ngân hàng ở mức tối thiểu. Điều kiện này
+thỏa mãn ở Advanced và Trung bình cao --- \textbf{không} thỏa mãn đầy đủ
+ở SIDS cô lập (Kiribati ISO 1,4\%, FDI 0,7\%) hay các nền đang qua xung
+đột thuộc Nhóm V; nhóm Chuyển đổi TB-thấp có gap de jure--de facto lớn
+(Xu, 2024).
+
+\textbf{Bảng 2.3.1.1}. \emph{Ma trận đối chiếu 3 trạng thái U-curve theo
+3 điều kiện cấu trúc.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1250}}
+  >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2083}}
+  >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2083}}
+  >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2083}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1250}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Trạng thái
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Đại diện
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+ĐK 1 (thị trường)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+ĐK 2 (chi phí TM)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+ĐK 3 (thể chế)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Hành vi U-curve
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{A. Điểm tối ưu của U-curve} & Singapore, Hong Kong, Hàn Quốc,
+Đài Loan & ✓ & ✓ & ✓ & U-curve vận hành chuẩn --- FSTS có mức tối ưu cho
+hiệu quả tối đa \\
+\textbf{B. Bẫy chuyển hướng nguồn lực} & Việt Nam, Indonesia, Trung
+Quốc, Mông Cổ & ✓ & ✓ & ⚠ \emph{(gap de jure--de facto)} & U-curve vận
+hành nhưng có bẫy chuyển hướng nguồn lực --- cần phân biệt quy tắc hình
+thức và năng lực thực thi \\
+\textbf{C. Sụp đổ đường cong} & SIDS Pacific (Fiji, Kiribati, Tonga) & ✗
+& ✗ & ⚠--✗ & U-curve không vận hành --- quốc tế hóa là buộc phải; Fiji
+website 74,8\% \textgreater{} Singapore 66\% là minh chứng \\
+\end{longtable}
+
+\hypertarget{khung-4-tux1ea7ng-chuyux1ec3n-ux111ux1ed5i-sux1ed1-vuxe0-muxf4-huxecnh-cdcm}{%
+\paragraph{2.3.1.6 Khung 4 Tầng chuyển đổi số và Mô hình
+CDCM}\label{khung-4-tux1ea7ng-chuyux1ec3n-ux111ux1ed5i-sux1ed1-vuxe0-muxf4-huxecnh-cdcm}}
+
+\textbf{Bốn tầng bậc số hóa theo Verhoef et al.~(2021)}:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Tầng
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tên (Tiếng Việt)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Đo lường WBES
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Quan sát được?
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Tier 1} & Sự hiện diện số cơ bản & website nhị phân, email & Có
+(toàn pool 2006--2026) \\
+\textbf{Tier 2} & Giao tiếp số và thương mại cơ bản & thanh toán điện tử
+(k33, k38) & Có một phần (BREADY 2018+) \\
+\textbf{Tier 3} & Tích hợp quy trình số & ERP, CRM & Không quan sát
+được \\
+\textbf{Tier 4} & Năng lực số động & AI, platform & Không quan sát
+được \\
+\end{longtable}
+
+\textbf{Tuyên bố ranh giới đo lường}: Dữ liệu WBES của chuyên đề (pool
+mô tả 86.701 DN; khung ước lượng 91.982 DN / 49 nền) quan sát Tier 1--2,
+không Tier 3--4. Mọi lập luận về ``năng lực số'' phải hạn chế ở phạm vi
+\textbf{Áp dụng số nền tảng (Foundational Digital Adoption --- FDA)}.
+
+\textbf{Mô hình Năng lực số phụ thuộc bối cảnh (CDCM)} --- hợp nhất bằng
+chứng Singapore và Việt Nam:
+
+\textbf{(a) Hình dạng đường cong quốc tế hóa -- hiệu quả}: Việt Nam → U
+ngược, điểm uốn ≈ 39--46\% FSTS; Singapore → tuyến tính dương + bậc hai
+nhẹ, điểm uốn ≈ 88,6\% FSTS (điểm uốn này nằm sát/ngoài miền dữ liệu với
+khoảng tin cậy bootstrap rất rộng, nên được diễn giải là quan hệ
+\emph{tăng gần đơn điệu} trong miền quan sát chứ không phải một ngưỡng
+bất lợi đã định vị chắc chắn --- nhất quán với diễn giải tại luận án
+Chương 4 §4.3.1).
+
+\textbf{(b) Cơ chế DAI}: Việt Nam (Tier 1 = website only) → \textbf{phụ
+thuộc giai đoạn}: tương tác DAI×FSTS âm ở FSTS cao --- Tier 1 trở thành
+điểm nghẽn. Singapore (Tier 1+2) → \textbf{mở rộng có điều kiện}: tương
+tác DAI×FSTS² dương mạnh (β=3,119, p=0,005) --- Tier 1+2 là đòn bẩy.
+
+\textbf{(c) Vai trò TCI}: Việt Nam --- \emph{lợi thế khan hiếm} (TCI z
+biến công cụ β=1,639, p\textless0,001, ước lượng 2SLS vững). Singapore
+--- \emph{yếu tố vệ sinh} nâng sàn năng suất nhưng không điều tiết đường
+cong quốc tế hóa -- hiệu quả.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{0.0556}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\#\#\# 2.3.2 Khung phân loại thể chế ICRV \\
+\#\#\#\# 2.3.2.1 Lý do phân loại \\
+Châu Á không phải là một khối đồng nhất về thể chế. Các meta-analysis
+(Marano et al., 2016; Wu et al., 2022) đã ghi nhận rằng bối cảnh thể chế
+là biến điều tiết quan trọng nhất trong quan hệ quốc tế hóa → hiệu quả
+--- nhưng không có nghiên cứu nào thiết lập hệ thống phân loại thể chế
+toàn diện cho 49 nền kinh tế châu Á (khung phân tích). Khung phân loại
+ICRV (Institutional Context Regime Variation --- Biến thiên chế độ bối
+cảnh thể chế) được đề xuất trong chuyên đề này nhằm lấp khoảng trống đó,
+dựa trên bốn nguyên tắc: \\
+(a) \textbf{Tính phân biệt}: mỗi nhóm phải có mô hình hiệu quả doanh
+nghiệp khác biệt thực sự --- không chỉ khác nhau về mức GDP bình quân
+đầu người; \\
+(b) \textbf{Tính đại diện lý thuyết}: phân loại phải phản ánh được các
+cơ chế thể chế khác nhau --- thể chế đổi mới sáng tạo, thể chế tài
+nguyên, thể chế chuyển đổi, thể chế MIRAB --- theo Varieties of
+Capitalism (Hall \& Soskice, 2001) và Lý thuyết thể chế (North,
+1990); \\
+(c) \textbf{Tính khả dụng dữ liệu}: mỗi nhóm phải có đủ quan sát WBES để
+phân tích có ý nghĩa thống kê (tối thiểu 500 doanh nghiệp); \\
+(d) \textbf{Tính minh bạch và tái tạo}: tiêu chí phân loại phải rõ ràng
+và có thể áp dụng nhất quán. \\
+\#\#\#\# 2.3.2.2 Tiêu chí phân loại sáu nhóm \\
+\textbf{Nhóm I --- Advanced đổi mới sáng tạo dẫn dắt}: WGI Rule of Law
+\textgreater+0,80; GNI bình quân đầu người \textgreater30.000 USD
+(phương pháp Atlas WB); GDP tăng trưởng dựa trên đổi mới công nghệ, dịch
+vụ tài chính và hàm lượng tri thức cao. Bằng chứng WBES: R\&D
+\textgreater10\%, ISO \textgreater20\%, độ lệch chuẩn log năng suất
+trong đợt thấp nhất sáu nhóm (\textasciitilde1,04 --- phân tán hẹp, ít
+phân bổ sai). \\
+\textbf{Nhóm II --- Advanced tài nguyên dẫn dắt}: WGI Rule of Law trung
+bình (+0,00 → +0,50); GNI bình quân đầu người \textgreater20.000 USD;
+GDP tăng trưởng dựa trên xuất khẩu tài nguyên thiên nhiên (dầu mỏ, khí
+đốt, khoáng sản). Bằng chứng WBES: FDI cao hướng khai thác tài nguyên;
+phân tán năng suất trong đợt thấp ở các nền lớn nhất khối (Saudi Arabia
+0,49; Qatar 0,33 --- đặc trưng nhà nước tô san bằng phân phối). \\
+\textbf{Nhóm III --- Trung bình cao (Upper-middle)}: WGI Rule of Law
+0,00 → +0,80; GNI bình quân đầu người 5.000--20.000 USD; nền kinh tế
+chuyển đổi từ sản xuất sang dịch vụ, với R\&D đang tăng (đặc biệt Trung
+Quốc). Pattern WBES: FSTS sản xuất cao, doanh nghiệp xuất khẩu tăng mạnh
+giữa hai kỳ khảo sát (+12,5 điểm phần trăm). \\
+\textbf{Nhóm IV --- Chuyển đổi thu nhập trung bình--thấp (Lower-middle
+transition)}: WGI Rule of Law -0,50 → 0,00; GNI bình quân đầu người
+1.000--5.000 USD; tốc độ tăng trưởng cao nhưng gap de jure--de facto lớn
+(Xu, 2024); sản xuất FDI-driven dẫn dắt xuất khẩu ở khối ASEAN. Pattern
+WBES: FSTS phân cực cao/thấp trong nội bộ nhóm; FDI thấp nhất (3,1\%) do
+doanh nghiệp nội địa chi phối mẫu. \\
+\textbf{Nhóm V --- Đang nổi (Emerging)}: WGI Rule of Law \textless{}
+-0,50 hoặc voids thể chế lớn; GNI bình quân đầu người phần lớn
+\textless3.000 USD; gồm nhiều nền đang qua giai đoạn xung đột hoặc
+chuyển đổi sau xung đột. Pattern WBES: phân tán năng suất trong đợt cao
+nhất (sd \textasciitilde1,39; P90/P10 \textasciitilde30 lần), nhưng đổi
+mới sản phẩm khá cao (đổi mới bằng nguồn lực hạn chế). \\
+\textbf{Nhóm VI --- SIDS Thái Bình Dương (Trường hợp biên mở rộng)}: Dân
+số \textless1 triệu; cô lập địa lý \textgreater2.000 km từ hub thương
+mại; phụ thuộc ODA + remittances \textgreater{} 20\% GDP; mô hình MIRAB
+(Bertram, 2006). Pattern WBES: n=2.295 (2,6\% pool); FDI cao nhất
+(20,0\% --- do MNE du lịch/viễn thông); đổi mới sản phẩm cao nhất
+(34,2\% --- đổi mới bằng nguồn lực hạn chế); website khá cao ngoại trừ
+Kiribati (18,7\%). \\
+\#\#\#\# 2.3.2.3 Danh sách 49 nền kinh tế theo nhóm ICRV (căn theo nhãn
+dữ liệu) \\
+\textbf{Bảng 2.3.2.1}. \emph{Phân loại 49 nền kinh tế vào 6 nhóm ICRV
+theo nhãn dữ liệu \texttt{icrv\_label}, dùng thống nhất với Chuyên đề 2
+(Bảng 2.8).} \\
+\textbar{} Nhóm ICRV (icrv\_label) \textbar{} Tên nhóm \textbar{} Quốc
+gia \textbar{} N doanh nghiệp \textbar{}
+\textbar---\textbar---\textbar---\textbar:--:\textbar{} \textbar{}
+\textbf{I} --- \texttt{Advanced\_innovation} \textbar{} Advanced --- đổi
+mới sáng tạo \textbar{} Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan,
+Israel \textbar{} 4.222 \textbar{} \textbar{} \textbf{II} ---
+\texttt{Advanced\_resource} \textbar{} Advanced --- tài nguyên
+\textbar{} Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei, Oman \textbar{}
+2.269 \textbar{} \textbar{} \textbf{III} --- \texttt{Upper\_mid}
+\textbar{} Trung bình cao \textbar{} Trung Quốc, Malaysia, Thái Lan,
+Kazakhstan, Armenia, Georgia \textbar{} 13.993 \textbar{} \textbar{}
+\textbf{IV} --- \texttt{Lower\_mid\_transition} \textbar{} Chuyển đổi
+thu nhập trung bình--thấp \textbar{} Việt Nam, Ấn Độ, Indonesia,
+Philippines, Mông Cổ, Bangladesh, Pakistan \textbar{} 50.926 \textbar{}
+\textbar{} \textbf{V} --- \texttt{Emerging} \textbar{} Đang nổi
+\textbar{} Sri Lanka, Jordan, Lào, Campuchia, Myanmar, Nepal, Bhutan,
+Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan,
+Azerbaijan, Iraq, Lebanon, Yemen (17 nước) \textbar{} 18.569 \textbar{}
+\textbar{} \textbf{VI} --- \texttt{SIDS\_small} \textbar{} SIDS (trường
+hợp biên) \textbar{} Fiji, Kiribati, Papua New Guinea, Samoa, Solomon
+Islands, Tonga, Vanuatu, Timor-Leste \textbar{} 1.885 \textbar{}
+\textbar{} \textbf{Tổng} \textbar{} \textbar{} \textbf{49 nền kinh tế}
+\textbar{} \textbf{91.864} (≈91.982 mẫu phân tích) \textbar{} \\
+\emph{Ghi chú: Cột N theo khung phân tích của bộ dữ liệu ước lượng
+(91.864 quan sát phân nhóm; tổng mẫu phân tích ≈91.982). Nhãn nhóm theo
+biến phân loại \texttt{icrv\_label}, dùng thống nhất trong luận án và
+hai chuyên đề. Pool phân loại đầy đủ = 96.415 DN/52 nền (gồm Comoros,
+Turkey, Cyprus ngoài châu Á --- loại khỏi khung 49 nền). SIDS: mẫu chính
+của nghiên cứu chuyên sâu SIDS là 7 nền Pacific; kiểm định bền vững mở
+rộng 9 nền. Nhật Bản được WBES khảo sát lần đầu năm 2025 (sau thời điểm
+chốt khung phân tích) nên không thuộc khung 49 nền; đây là hướng mở rộng
+tự nhiên cho nghiên cứu tiếp theo.} \\
+\#\#\#\# 2.3.2.4 Đặc điểm các nhóm ICRV \\
+\textbf{Bảng 2.3.2.2}. \emph{Đặc điểm điển hình của 6 nhóm ICRV --- WGI,
+GNI, cơ chế tăng trưởng, pattern WBES dự kiến.} \\
+\textbar{} Nhóm \textbar{} WGI Rule of Law \textbar{} GNI/capita
+\textbar{} Cơ chế tăng trưởng \textbar{} FSTS dự kiến \textbar{} sd log
+LP (trong đợt) \textbar{} Cơ chế quốc tế hóa → hiệu quả \textbar{}
+\textbar---\textbar---\textbar---\textbar---\textbar---\textbar---\textbar---\textbar{}
+\textbar{} I --- Innovation \textbar{} \textgreater+0,80 \textbar{}
+\textgreater\$30k \textbar{} R\&D + dịch vụ tri thức \textbar{} Trung
+bình (6--15\%) \textbar{} \textasciitilde1,04 \textbar{} U ngược nhẹ /
+tuyến tính dương; điểm uốn \textasciitilde88,6\% (SG) \textbar{}
+\textbar{} II --- Resource \textbar{} +0,00→+0,50 \textbar{}
+\textgreater\$20k \textbar{} Xuất khẩu dầu/khí \textbar{} Thấp (1--4\%)
+\textbar{} \textasciitilde1,14 \textbar{} Phi tuyến suy yếu; nhà nước tô
+phân phối lại \textbar{} \textbar{} III --- Upper-mid \textbar{}
+0,00→+0,80 \textbar{} \$5k--\$20k \textbar{} Sản xuất + chuyển đổi
+\textbar{} Trung bình (8--12\%) \textbar{} \textasciitilde1,37
+\textbar{} U ngược; điểm uốn \textasciitilde47\% \textbar{} \textbar{}
+IV --- Lower-mid transition \textbar{} -0,50→0,00 \textbar{} \$1k--\$5k
+\textbar{} FDI-driven sản xuất \textbar{} Biến động (7--23\%) \textbar{}
+\textasciitilde1,31 \textbar{} U ngược; điểm uốn 39--46\% (VNM) --- bẫy
+chuyển hướng nguồn lực \textbar{} \textbar{} V --- Emerging \textbar{}
+\textless-0,50 \textbar{} \textless\$1k--\$3k \textbar{} Tự cấp + phi
+chính thức \textbar{} Thấp--trung bình \textbar{} \textasciitilde1,39
+\textbar{} Yếu; voids thể chế → đổi mới bằng nguồn lực hạn chế
+\textbar{} \textbar{} VI --- SIDS \textbar{} Đặc biệt \textbar{}
+\$1k--\$8k \textbar{} MIRAB + du lịch \textbar{} Rất thấp (1--12\%)
+\textbar{} \textasciitilde1,32 \textbar{} Chi phí buộc phải quốc tế hóa
+--- U-curve không vận hành \textbar{} \\
+\emph{Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ
+Kaufmann et al.~(2011); GNI từ World Bank (2025, tháng 7). Cột sd log
+LP: trung vị độ lệch chuẩn ln(năng suất lao động) tính trong từng đợt
+khảo sát (Bảng 2.3.3.1). Pattern quốc tế hóa → hiệu quả từ các nghiên
+cứu thành phần của luận án (Đỗ \& Phan, 2026 --- VEFR, JABS, JFAR,
+MIR).} \\
+\end{longtable}
+
+\hypertarget{thux1ef1c-trux1ea1ng-nux103ng-suux1ea5t-lao-ux111ux1ed9ng-vuxe0-quux1ed1c-tux1ebf-huxf3a}{%
+\subsubsection{2.3.3 Thực trạng năng suất lao động và quốc tế
+hóa}\label{thux1ef1c-trux1ea1ng-nux103ng-suux1ea5t-lao-ux111ux1ed9ng-vuxe0-quux1ed1c-tux1ebf-huxf3a}}
+
+\hypertarget{nguux1ed3n-dux1eef-liux1ec7u-vuxe0-cux1ea5u-truxfac-pool}{%
+\paragraph{2.3.3.1 Nguồn dữ liệu và cấu trúc
+pool}\label{nguux1ed3n-dux1eef-liux1ec7u-vuxe0-cux1ea5u-truxfac-pool}}
+
+\textbf{Phạm vi tổng hợp dữ liệu}. Pool mô tả gồm \textbf{86.701 doanh
+nghiệp}, 49 nền kinh tế, \textbf{102 cặp nền kinh tế × năm}, giai đoạn
+2006--2026 (bao gồm Kiribati 2025 --- đợt khảo sát WBES đầu tiên của nền
+kinh tế này). Tổng hợp này kế thừa và mở rộng từ pool 17 nền châu Á mới
+nổi (\textasciitilde40.633 doanh nghiệp) của Đỗ \& Phan (2026 --- VEFR),
+gấp hơn 2 lần. Phân bố theo nhóm ICRV: Nhóm IV Chuyển đổi TB-thấp 45.003
+(51,9\%), Nhóm V Đang nổi 18.957 (21,9\%), Nhóm III Trung bình cao
+13.993 (16,1\%), Nhóm I Advanced đổi mới 4.222 (4,9\%), Nhóm VI SIDS
+2.295 (2,6\%), Nhóm II Advanced tài nguyên 2.231 (2,6\%). Có \textbf{12
+nền kinh tế khảo sát năm 2025} với 14.712 doanh nghiệp (17,0\% pool);
+đợt khảo sát Nepal 2025 dùng bảng hỏi BREADY Micro (doanh nghiệp siêu
+nhỏ) --- không phải cross-section chuẩn nên không thuộc pool, chỉ được
+nhắc đến như tham chiếu.
+
+\emph{Hình 2.3.3.1. Phân bố pool mô tả 86.701 doanh nghiệp (2006--2026)
+theo 3 thế hệ schema WBES: PICS3 (2006--2012, 18 đợt, n=8.048),
+Standardized (2013--2017, 27 đợt, n=23.940), BREADY (2018--2026, 57 đợt,
+n=54.713). Các đợt 2024--2026 đóng góp 25.691 doanh nghiệp (29,6\% pool,
+30 đợt) --- phản ánh chu kỳ khảo sát WBES dày lên rõ rệt sau đại dịch.}
+
+\emph{Hình 2.3.3.2. Bar chart phân bố theo 6 nhóm ICRV: IV Chuyển đổi
+TB-thấp (45.003, 51,9\%), V Đang nổi (18.957, 21,9\%), III Trung bình
+cao (13.993, 16,1\%), I Advanced đổi mới (4.222, 4,9\%), VI SIDS (2.295,
+2,6\%), II Advanced tài nguyên (2.231, 2,6\%).}
+
+\textbf{Trường hợp biên}: Nhóm VI đủ \textbf{8/8 nền SIDS} (FJI, PNG,
+SLB, TON, VUT, WSM, KIR, TLS). Quy trình hài hòa hóa: FSTS =
+\texttt{d3b\ +\ d3c}; winsorize log năng suất ở mức 1/99 phân vị trong
+cụm quốc gia × năm.
+
+\hypertarget{phuxe2n-tuxe1n-nux103ng-suux1ea5t-lao-ux111ux1ed9ng}{%
+\paragraph{2.3.3.2 Phân tán năng suất lao
+động}\label{phuxe2n-tuxe1n-nux103ng-suux1ea5t-lao-ux111ux1ed9ng}}
+
+\textbf{Nguyên tắc đo lường.} Doanh thu WBES được báo cáo bằng
+\textbf{nội tệ} của từng nền kinh tế, nên không thể so sánh trực tiếp
+\emph{mức} log năng suất giữa các nước. Mọi thống kê phân tán ở Bảng
+2.3.3.1 vì vậy được tính \textbf{trong từng cặp nền kinh tế × năm} ---
+trên thang log, thừa số quy đổi tiền tệ là hằng số cộng và triệt tiêu
+hoàn toàn trong độ lệch chuẩn và các tỷ số phân vị --- rồi lấy trung vị
+giữa các đợt trong mỗi nhóm ICRV. Đây là thước đo phân tán hợp lệ và bất
+biến với đơn vị tiền tệ.
+
+\textbf{Bảng 2.3.3.1}. \emph{Phân tán năng suất lao động trong từng đợt
+khảo sát, theo nhóm ICRV (trung vị giữa các đợt; pool mô tả 102 cặp nền
+kinh tế × năm).}
+
+\begin{longtable}[]{@{}lrrrrr@{}}
+\toprule\noalign{}
+Nhóm ICRV & Số đợt & n\_firms & sd ln(LP) & P90/P10 & P75/P25 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+I --- Advanced đổi mới & 6 & 3.620 & \textbf{1,04} & \textbf{12,2} &
+3,5 \\
+II --- Advanced tài nguyên & 6 & 2.082 & 1,14 & 20,8 & 4,8 \\
+III --- Trung bình cao & 17 & 12.481 & 1,37 & 25,0 & 5,4 \\
+IV --- Chuyển đổi TB-thấp & 17 & 42.798 & 1,31 & 27,8 & 5,6 \\
+V --- Đang nổi & 40 & 16.595 & \textbf{1,39} & \textbf{30,3} & 5,8 \\
+VI --- SIDS & 16 & 1.916 & 1,32 & 26,3 & 5,4 \\
+\end{longtable}
+
+\emph{Ghi chú: sd, P90/P10 và P75/P25 tính trong từng đợt khảo sát (bất
+biến tiền tệ), sau đó lấy trung vị giữa các đợt của nhóm; n\_firms là số
+quan sát có năng suất hợp lệ (doanh thu và lao động dương). Trong nội bộ
+Nhóm II, các nền lớn nhất có phân tán đặc biệt hẹp (Saudi Arabia 0,49;
+Qatar 0,33) --- đặc trưng nhà nước tô; trung vị nhóm bị kéo lên bởi các
+nền nhỏ (Kuwait 1,16; Brunei 1,12). Kiribati 2025: sd 1,48 --- rộng nhất
+trong các đợt SIDS.}
+
+\emph{Hình 2.3.3.3. Đồ thị mật độ kernel của năng suất chuẩn hóa trong
+đợt cho 6 nhóm ICRV --- Nhóm I hẹp nhất (P90/P10 ≈ 12 lần), Nhóm V rộng
+nhất (≈ 30 lần).}
+
+\textbf{Ba phát hiện từ phân tán trong đợt}: (1) \textbf{Gradient thể
+chế của phân tán là thực và đơn điệu theo hướng yếu dần của thể chế}:
+doanh nghiệp ở phân vị 90 năng suất gấp doanh nghiệp ở phân vị 10 khoảng
+\textbf{12 lần} tại Nhóm I, nhưng \textbf{25--30 lần} tại Nhóm III--V
+--- nhất quán với giả thuyết phân bổ sai nguồn lực (Hsieh \& Klenow,
+2009, 2014), với lưu ý sd log năng suất lao động là proxy gián tiếp cho
+phân tán TFPR nên đây là bằng chứng mô tả phù hợp, không phải phân rã
+trực tiếp. (2) \textbf{So sánh mức giữa các nền kinh tế} dùng chỉ số
+không thứ nguyên \textbf{ROS} (tỷ suất sinh lời trên doanh thu, tính
+trên khung ước lượng của luận án): ROS trung vị giảm từ \textbf{0,50
+(Nhóm I) → 0,45 (III) → 0,35 (IV)}; Nhóm V--VI có outlier mạnh nên chỉ
+đọc trung vị (V≈0,41; VI≈0,47) --- thể chế yếu đi kèm biên lợi nhuận
+mỏng hơn, nhất quán với Lý thuyết thể chế (chi phí giao dịch cao bào mòn
+biên). (3) Suy diễn về \textbf{điều tiết thể chế} trong quan hệ quốc tế
+hóa → hiệu quả được neo vào bằng chứng suy diễn ở meta-analysis của luận
+án (\(Q_M=17{,}35\)) và gradient điểm uốn xuyên nhóm ICRV của nghiên cứu
+đa quốc gia (P7), chứ không chỉ vào thống kê mô tả.
+
+\hypertarget{thux1ef1c-trux1ea1ng-quux1ed1c-tux1ebf-huxf3a-vuxe0-tux103ng-trux1b0ux1edfng-viux1ec7c-luxe0m}{%
+\paragraph{2.3.3.3 Thực trạng quốc tế hóa và tăng trưởng việc
+làm}\label{thux1ef1c-trux1ea1ng-quux1ed1c-tux1ebf-huxf3a-vuxe0-tux103ng-trux1b0ux1edfng-viux1ec7c-luxe0m}}
+
+\textbf{Bảng 2.3.3.2}. \emph{FSTS, doanh nghiệp xuất khẩu và CAGR việc
+làm theo phân nhóm con.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Nhóm ICRV (icrv\_label)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+FSTS (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Doanh nghiệp xuất khẩu (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+CAGR việc làm (\%)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+I --- Adv. đổi mới & 13,4 & 28,4 & 3,0 \\
+II --- Adv. tài nguyên¹ & 3,9 & 11,7 & 3,7 \\
+III --- Trung bình cao & 10,2 & 21,3 & 3,8 \\
+IV --- Chuyển đổi TB-thấp & 8,1 & 14,3 & 2,8 \\
+V --- Đang nổi & 10,6 & 18,8 & 4,5 \\
+VI --- SIDS² & 6,7 & 14,7 & 5,3 \\
+\end{longtable}
+
+\emph{Nguồn: tính từ dữ liệu vi mô WBES trên pool mô tả 49 nền (FSTS =
+d3b + d3c; CAGR việc làm từ l1/l2 trên 3 năm tài khóa). ¹Nhóm II: đủ 6/6
+nền GCC (Bahrain, Brunei, Kuwait, Oman, Qatar, Saudi Arabia). ²Nhóm VI:
+đủ 8/8 nền (7 Pacific + Timor-Leste; n=2.295).}
+
+Trung vị FSTS bằng 0\% --- phân phối phân cực mạnh với chỉ khoảng
+12--28\% doanh nghiệp tham gia xuất khẩu tùy theo nhóm (cao nhất ở Nhóm
+I, thấp nhất ở Nhóm II). SIDS có tốc độ tăng trưởng việc làm hàng năm
+kép cao nhất (5,3\%), phản ánh quy mô nhỏ và tăng trưởng từ nền thấp.
+Nhóm I và V có FSTS trung bình cao nhất (13,4\% và 10,6\%) nhưng cơ chế
+xuất khẩu khác nhau: Nhóm I chủ yếu dịch vụ và hàng hóa hàm lượng tri
+thức cao; các nhóm III--V chủ yếu sản xuất theo chuỗi giá trị toàn cầu.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{ux111ux1ed5i-mux1edbi-suxe1ng-tux1ea1o-vuxe0-nux103ng-lux1ef1c-sux1ed1-huxf3a}{%
+\subsubsection{2.3.4 Đổi mới sáng tạo và năng lực số
+hóa}\label{ux111ux1ed5i-mux1edbi-suxe1ng-tux1ea1o-vuxe0-nux103ng-lux1ef1c-sux1ed1-huxf3a}}
+
+\hypertarget{khung-5-lux129nh-vux1ef1c-chux1ec9-sux1ed1-wbes}{%
+\paragraph{2.3.4.1 Khung 5 lĩnh vực chỉ số
+WBES}\label{khung-5-lux129nh-vux1ef1c-chux1ec9-sux1ed1-wbes}}
+
+WBES tổ chức các chỉ số doanh nghiệp thành \textbf{5 lĩnh vực chính
+thức}: (1) Quy định pháp lý và thuế; (2) Tài chính và tín dụng; (3) Cơ
+sở hạ tầng và khí hậu; (4) Thương mại và cạnh tranh; (5) Tham nhũng và
+phi chính thức.
+
+\textbf{Bảng 2.3.4.2}. \emph{Khung 5 lĩnh vực chỉ số WBES --- định vị
+phạm vi đo lường.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\#
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Lĩnh vực
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ví dụ chỉ số WBES
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+CĐ1 đo trực tiếp
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Hàm ý CĐ2
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+(1) & Quy định pháp lý + Thuế & Thuế thời gian (giờ/năm); Cấp phép &
+(gợi ý CĐ2) & \texttt{time\_tax\_hours},
+\texttt{tax\_inspection\_freq} \\
+(2) & Tài chính + Tín dụng & Hạn chế tín dụng; Số hóa tài chính & (gợi ý
+--- §2.3.5.2 rào cản \#1) & \texttt{credit\_constraint\_dummy} \\
+(3) & Cơ sở hạ tầng + Khí hậu & Quản lý năng lượng; Mất điện & §2.3.5.2
+rào cản \#4 & \texttt{power\_outage\_intensity} từ c30 \\
+(4) & Thương mại + Cạnh tranh & Thời gian thông quan; FSTS & FSTS đã đo
+§2.3.3 & \texttt{customs\_days} + \texttt{informal\_competition} \\
+(5) & Tham nhũng + Phi chính thức & Hối lộ (Bribery); Tham ô (Graft) &
+§2.3.6.2 & \texttt{bribery\_incidence\_pct} \\
+\end{longtable}
+
+\hypertarget{thux1ef1c-trux1ea1ng-ux111ux1ed5i-mux1edbi-suxe1ng-tux1ea1o-vuxe0-uxe1p-dux1ee5ng-sux1ed1}{%
+\paragraph{2.3.4.2 Thực trạng đổi mới sáng tạo và áp dụng
+số}\label{thux1ef1c-trux1ea1ng-ux111ux1ed5i-mux1edbi-suxe1ng-tux1ea1o-vuxe0-uxe1p-dux1ee5ng-sux1ed1}}
+
+\textbf{Bảng 2.3.4.1}. \emph{Đổi mới sáng tạo và áp dụng số (\%).}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Nhóm ICRV (icrv\_label)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Sản phẩm mới
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Quy trình mới
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+R\&D
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+ISO
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Website
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+I --- Adv. đổi mới & 24,3 & 14,7 & \textbf{20,5} & \textbf{35,0} &
+\textbf{61,7} \\
+II --- Adv. tài nguyên¹ & 17,0 & 8,6 & 7,0 & 15,2 & 50,2 \\
+III --- Trung bình cao & 26,7 & 18,9 & 21,5 & 25,4 & 53,9 \\
+IV --- Chuyển đổi TB-thấp & 17,1 & 14,7 & 15,5 & 25,3 & 48,3 \\
+V --- Đang nổi & 24,4 & 16,3 & 17,5 & 12,7 & 40,9 \\
+VI --- SIDS² & \textbf{34,2} & \textbf{24,7} & 10,2 & 12,2 & 41,5 \\
+\end{longtable}
+
+\emph{Nguồn: tính từ dữ liệu vi mô WBES trên pool mô tả 49 nền (biến
+h1/h5/h8/b8/c22b; mã 1=có, 2=không; mã âm = thiếu). ¹Nhóm II: đủ 6/6 nền
+GCC --- đặc trưng dầu mỏ: R\&D thấp (7,0\%), nữ quản lý cấp cao rất thấp
+(4,6\%), website 50,2\%. ²Nhóm VI: đủ 8/8 nền --- đổi mới sản phẩm cao
+nhất mọi nhóm (34,2\%) và website 41,5\%: pattern ``thích nghi và nhảy
+vọt số'' của SIDS.}
+
+Với dữ liệu đầy đủ 8/8 nền Nhóm VI, SIDS thể hiện pattern \textbf{thích
+nghi và nhảy vọt số} rõ nét: tỷ lệ đổi mới sản phẩm \textbf{cao nhất mọi
+nhóm (34,2\%)} phản ánh đổi mới bằng nguồn lực hạn chế --- sáng tạo
+không chính thức bù đắp thiếu hụt nguồn lực; website 41,5\% ngang nhóm
+Đang nổi dù GNI thấp hơn đáng kể. Gradient năng lực thể chế vẫn rõ ở các
+biến nền tảng: R\&D giảm từ 20,5\% (Nhóm I) xuống 10,2\% (Nhóm VI); ISO
+35,0\%→12,2\%; website 61,7\%→41,5\%. Phân tách rõ TCI so với DAI --- kế
+thừa Đỗ \& Phan (2026 --- VEFR).
+
+\hypertarget{tuxe1i-ux111ux1ecbnh-huxecnh-chux1ec9-sux1ed1-uxe1p-dux1ee5ng-sux1ed1-tier-1-sux1ef1-hiux1ec7n-diux1ec7n-sux1ed1-cux1a1-bux1ea3n}{%
+\paragraph{2.3.4.3 Tái định hình Chỉ số áp dụng số --- Tier-1 Sự hiện
+diện số cơ
+bản}\label{tuxe1i-ux111ux1ecbnh-huxecnh-chux1ec9-sux1ed1-uxe1p-dux1ee5ng-sux1ed1-tier-1-sux1ef1-hiux1ec7n-diux1ec7n-sux1ed1-cux1a1-bux1ea3n}}
+
+Spec 1 (toàn bộ 2006--2026) dùng biến nhị phân duy nhất (website
+có/không). \textbf{Hệ quả phân tích đáng chú ý}: phần bù tương quan DAI
+ở Nhóm I là thấp nhất trong sáu nhóm (+0,098 --- Bảng 2.3.8.1), trong
+khi tỷ lệ có website ở nhóm này đã đạt 61,7\%. Khi một chỉ báo nhị phân
+tiệm cận bão hòa, nó mất dần khả năng phân biệt năng suất: phương sai
+của biến co lại và phần doanh nghiệp ``không website'' còn lại ngày càng
+mang tính chọn lọc đặc thù (quy mô siêu nhỏ, ngành không cần hiện diện
+web) --- nên hệ số đo được phản ánh \textbf{giới hạn của thước đo
+Tier-1} nhiều hơn là giới hạn của số hóa.
+
+\textbf{Kiểm định loại trừ ICT (đề xuất cho Chuyên đề 2)}: so sánh hệ số
+DAI của phân nhóm Advanced trước và sau khi loại các doanh nghiệp ICT
+(ISIC J 58--63 --- nơi website là điều kiện tồn tại, không phải lựa chọn
+đầu tư) sẽ tách được phần ``bão hòa thước đo'' khỏi phần bù số thực.
+Theo logic đó, biến Spec 1 được đặt tên chính xác là \textbf{``Sự hiện
+diện số cơ bản (Tier-1)''} --- phạm vi khiêm tốn và phản ánh đúng thực
+tế đo lường.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{cux1ea5u-truxfac-doanh-nghiux1ec7p}{%
+\subsubsection{2.3.5 Cấu trúc doanh
+nghiệp}\label{cux1ea5u-truxfac-doanh-nghiux1ec7p}}
+
+\hypertarget{phuxe2n-bux1ed1-quy-muxf4-vuxe0-sux1edf-hux1eefu}{%
+\paragraph{2.3.5.1 Phân bố quy mô và sở
+hữu}\label{phuxe2n-bux1ed1-quy-muxf4-vuxe0-sux1edf-hux1eefu}}
+
+\textbf{Bảng 2.3.5.1}. \emph{Cấu trúc doanh nghiệp theo phân nhóm con
+(\%).}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Nhóm ICRV (icrv\_label) & SME & Doanh nghiệp xuất khẩu & FDI ≥10\% \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+I --- Adv. đổi mới & 79,5 & 28,4 & 10,6 \\
+II --- Adv. tài nguyên¹ & 77,4 & 11,7 & 13,6 \\
+III --- Trung bình cao & 78,7 & 21,3 & 8,9 \\
+IV --- Chuyển đổi TB-thấp & 74,0 & 14,3 & 3,1 \\
+V --- Đang nổi & 86,0 & 18,8 & 7,1 \\
+VI --- SIDS² & \textbf{91,8} & 14,7 & \textbf{20,0} \\
+\end{longtable}
+
+\emph{Nguồn: tính từ dữ liệu vi mô WBES trên pool mô tả 49 nền (SME =
+\textless100 lao động thường xuyên, biến l1; FDI = sở hữu nước ngoài
+≥10\%, biến b2b). ¹Nhóm II: đủ 6/6 nền GCC. ²Nhóm VI: đủ 8/8 nền --- SME
+cao nhất (91,8\%) và FDI cao (20,0\%, do MNE du lịch/viễn thông).}
+
+\emph{Hình 2.3.5.1. Stacked bar chart: Nhóm VI (SIDS, đủ 8/8 nền) có tỷ
+lệ SME cao nhất (91,8\%), Nhóm V kế tiếp (85,7\%), Nhóm IV thấp nhất
+(74,0\%).}
+
+Tỷ lệ FDI có dạng chữ U với cực tiểu ở Nhóm IV --- Chuyển đổi TB-thấp
+(3,1\%). SIDS có FDI cao (20,0\%) do du lịch và viễn thông được dẫn dắt
+bởi doanh nghiệp đa quốc gia. Hai mô hình FDI hoàn toàn khác nhau: (i)
+MNE hub tại Advanced (Singapore FDI 31,5\% --- doanh nghiệp đa quốc gia
+chọn Singapore làm trung tâm khu vực); (ii) du lịch/viễn thông tại SIDS
+(FDI nhắm vào khu vực không cạnh tranh với lao động địa phương).
+
+\hypertarget{bux1ed1n-ruxe0o-cux1ea3n-huxe0ng-ux111ux1ea7u-cux1ee7a-khu-vux1ef1c-tux1b0-nhuxe2n-uxe1-thuxe1i}{%
+\paragraph{2.3.5.2 Bốn rào cản hàng đầu của khu vực tư nhân
+Á-Thái}\label{bux1ed1n-ruxe0o-cux1ea3n-huxe0ng-ux111ux1ea7u-cux1ee7a-khu-vux1ef1c-tux1b0-nhuxe2n-uxe1-thuxe1i}}
+
+\textbf{Bảng 2.3.5.2}. \emph{Bốn rào cản hàng đầu Asia-Pacific WBES ---
+phân tầng theo phân nhóm con thể chế.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\#
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Rào cản
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tên chuẩn WB
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Cường độ Nhóm V--VI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Cường độ Nhóm III--IV
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Cường độ Nhóm I--II
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Lý thuyết liên kết
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+(1) & \textbf{Tiếp cận tài chính} & Credit constraint & Cao & Cao & Thấp
+& Khanna \& Palepu (2010) --- voids thể chế \\
+(2) & \textbf{Lực lượng lao động thiếu kỹ năng} & Skilled labor shortage
+& Cao & Trung bình & Thấp & Cohen \& Levinthal (1990) --- năng lực hấp
+thụ \\
+(3) & \textbf{Cạnh tranh từ doanh nghiệp phi chính thức} & Informal
+sector competition & Cao & Cao & Thấp & La Porta \& Shleifer (2008,
+2014) kinh tế ngầm \\
+(4) & \textbf{Nguồn cung điện không đáng tin cậy} & Power outages & Cao
+(đặc biệt SIDS) & Trung bình & Thấp & IFC PSD Blueprint trụ cột nguồn
+lực vận hành \\
+\end{longtable}
+
+Bốn rào cản này tạo ra bốn biến kiểm soát quan trọng cho Chuyên đề 2:
+\texttt{credit\_constraint\_dummy}, \texttt{labor\_skill\_gap},
+\texttt{informal\_competition}, \texttt{power\_outage\_intensity}. Sự
+hiện diện đồng thời của nhiều voids thể chế tại Nhóm V giải thích tại
+sao quan hệ quốc tế hóa → hiệu quả ở nhóm này yếu và không đơn điệu.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{biux1ebfn-thiuxean-theo-thux1eddi-gian-20062026}{%
+\subsubsection{2.3.6 Biến thiên theo thời gian
+(2006--2026)}\label{biux1ebfn-thiuxean-theo-thux1eddi-gian-20062026}}
+
+\hypertarget{xu-hux1b0ux1edbng-thay-ux111ux1ed5i-chuxednh}{%
+\paragraph{2.3.6.1 Xu hướng thay đổi
+chính}\label{xu-hux1b0ux1edbng-thay-ux111ux1ed5i-chuxednh}}
+
+\textbf{Bảng 2.3.6.1}. \emph{Δ điểm phần trăm khi so sánh các đợt
+2018--2026 với các đợt 2006--2012 (gộp doanh nghiệp trong từng kỳ).}
+
+\begin{longtable}[]{@{}lrrrrr@{}}
+\toprule\noalign{}
+Nhóm ICRV & Δ Website & Δ DN xuất khẩu & Δ FDI ≥10\% & Δ R\&D & Δ ISO \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+III --- Trung bình cao & +11,2 & +12,5 & +1,6 & ---¹ & +5,2 \\
+IV --- Chuyển đổi TB-thấp & \textbf{+20,6} & \textbf{−11,3} & −6,7 &
+---¹ & +3,4 \\
+V --- Đang nổi & \textbf{+21,6} & +1,5 & −2,5 & −31,6² & 0,0 \\
+VI --- SIDS & \textbf{+30,8} & −2,6 & −5,3 & ---¹ & −10,2 \\
+\end{longtable}
+
+\emph{¹ Δ R\&D chỉ tính được cho Nhóm V: biến chi R\&D (h8) không có
+trong các đợt 2006--2012 của Nhóm III, IV và VI. Nhóm I và II không có
+đợt khảo sát nào trước 2013 trong pool nên không so sánh dọc được. ² Mức
+giảm R\&D ở Nhóm V chủ yếu là hiệu ứng schema (BREADY đo R\&D khác
+PICS3), không phản ánh suy giảm đầu tư thực.}
+
+\textbf{Nhảy vọt số} là xu hướng nổi bật nhất: website tăng +21 đến +31
+điểm phần trăm ở Nhóm IV, V và VI --- phù hợp luận điểm nhảy vọt số của
+Banalieva \& Dhanaraj (2019). Ngược chiều, tỷ lệ doanh nghiệp xuất khẩu
+của Nhóm IV giảm 11,3 điểm phần trăm --- chủ yếu do đứt gãy schema tại
+Ấn Độ 2025 (FSTS đo lường thấp hơn hệ thống) cộng hưởng với cấu trúc FDI
+lắp ráp; trong khi Nhóm III tăng 12,5 điểm phần trăm theo chuỗi giá trị
+toàn cầu. FDI giảm nhẹ phổ biến ở các nhóm IV--VI.
+
+\emph{Hình 2.3.4.1. Slope chart minh họa thay đổi 5 chỉ số giữa 2 kỳ
+khảo sát cho 4 nhóm ICRV có dữ liệu hai kỳ (III--VI). Pattern nổi bật:
+website tăng mạnh ở IV/V/VI; FDI giảm nhẹ phổ biến; R\&D Nhóm V giảm
+mạnh do hiệu ứng schema.}
+
+\emph{Hình 2.3.6.1. Radar/spider chart cho 3 nhóm (III, V, VI) trên 5
+chiều (FSTS, Đổi mới sản phẩm, R\&D, Website, ISO) với 2 kỳ khảo sát
+2006--2012 vs 2018--2026.}
+
+\hypertarget{phuxe2n-biux1ec7t-3-chux1ec9-sux1ed1-tham-nhux169ng-wbes}{%
+\paragraph{2.3.6.2 Phân biệt 3 chỉ số tham nhũng
+WBES}\label{phuxe2n-biux1ec7t-3-chux1ec9-sux1ed1-tham-nhux169ng-wbes}}
+
+\textbf{Bảng 2.3.6.2}. \emph{Phân biệt 3 chỉ số tham nhũng WBES --- định
+nghĩa chính thức và cách đo.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\#
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Chỉ số
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tiếng Việt chuẩn WB
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Định nghĩa
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ngưỡng cảnh báo
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+(a-1) & \textbf{Bribery Incidence} & \textbf{Tỷ lệ hối lộ} & \% doanh
+nghiệp gặp ít nhất 1 yêu cầu hối lộ trong 6 giao dịch công &
+\textgreater20\% = báo động đỏ \\
+(a-2) & \textbf{Bribery Depth} & \textbf{Độ sâu hối lộ} & \% giao dịch
+công có hối lộ trên tổng số giao dịch công của doanh nghiệp &
+\textgreater15\% = báo động đỏ \\
+(b-1) & \textbf{Graft Index} & \textbf{Chỉ số tham ô} & Tỷ lệ hối lộ
+trong 6 giao dịch nhưng \textbf{loại trừ thanh tra thuế} &
+\textgreater10\% = báo động đỏ \\
+\end{longtable}
+
+Lý do loại trừ thanh tra thuế khỏi Graft Index: doanh nghiệp khai báo
+``phải hối lộ thanh tra thuế'' có lệch chọn lọc vì những doanh nghiệp
+trốn thuế dễ thừa nhận hơn. Loại trừ thanh tra thuế giúp Graft Index
+phản ánh \textbf{tham ô hệ thống} thay vì hành vi cá biệt.
+
+\hypertarget{khung-phuxe2n-tuxedch-cux1ea5p-nguxe0nh}{%
+\paragraph{2.3.6.3 Khung phân tích cấp
+ngành}\label{khung-phuxe2n-tuxedch-cux1ea5p-nguxe0nh}}
+
+\textbf{Bảng 2.3.6.3}. \emph{Khung phân loại 9 ngành ISIC Rev.~4, bao
+gồm cột Dynamism profile per Kafouros et al.~(2023).}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Ngành
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mã ISIC
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Đặc điểm
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Pattern dự kiến
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dynamism profile
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Sản xuất --- high-tech & C (20--21, 26--30) & Thâm dụng vốn, định hướng
+xuất khẩu & FSTS cao; R\&D cao; ISO cao & \textbf{Dynamism công nghệ
+cao} \\
+Sản xuất --- low-tech & C (10--18, 22--25, 31--33) & Thâm dụng lao động
+& FSTS trung bình; R\&D thấp & \textbf{Dynamism công nghệ thấp} \\
+Bán buôn/bán lẻ & G (45--47) & Thâm dụng lao động & FSTS thấp; website
+cao & \textbf{Dynamism thị trường cao} \\
+Du lịch/khách sạn & I (55--56) & Dịch vụ phụ thuộc du lịch & FDI cao ở
+SIDS & \textbf{Dynamism thị trường cao} \\
+Vận tải & H (49--53) & Kinh tế mạng lưới & FDI cao; ISO cao & Trung
+gian \\
+ICT & J (58--63) & Thâm dụng tri thức & R\&D cao; website
+\textasciitilde100\% & \textbf{Dynamism công nghệ cao} \\
+Xây dựng & F (41--43) & Theo dự án & FSTS thấp; FDI ở GCC &
+\textbf{Dynamism thấp} \\
+Khai khoáng & B (05--09) & Tài nguyên dẫn dắt & FDI cao; ISO ở MNE &
+\textbf{Dynamism công nghệ thấp} \\
+Tài chính & K (64--66) & Có quy chế, xuyên biên giới & FDI cao; website
+\textasciitilde100\% & \textbf{Dynamism thị trường cao} \\
+\end{longtable}
+
+Kafouros et al.~(2023) chứng minh chất lượng thể chế tương tác hai chiều
+với dynamism ngành: ở ngành dynamism công nghệ cao, thể chế tốt khuếch
+đại hiệu quả; ở ngành dynamism thị trường cao, thể chế tốt có thể làm
+yếu hiệu quả (doanh nghiệp phải nội bộ hóa chức năng). Phát hiện này gợi
+ý hướng kiểm định cho Chuyên đề 2.
+
+\hypertarget{dux1ecb-biux1ec7t-nux1ed9i-bux1ed9-khux1ed1i-chuxe2u-uxe1-mux1edbi-nux1ed5i-7-nux1ec1n-thuux1ed9c-nhuxf3m-ivv}{%
+\paragraph{2.3.6.4 Dị biệt nội bộ khối châu Á mới nổi (7 nền thuộc Nhóm
+IV--V)}\label{dux1ecb-biux1ec7t-nux1ed9i-bux1ed9-khux1ed1i-chuxe2u-uxe1-mux1edbi-nux1ed5i-7-nux1ec1n-thuux1ed9c-nhuxf3m-ivv}}
+
+Bảy nền kinh tế mới nổi đông dân nhất của khung phân tích (Việt Nam,
+Indonesia, Philippines, Ấn Độ, Mông Cổ thuộc Nhóm IV; Sri Lanka, Jordan
+thuộc Nhóm V) thường bị văn liệu gộp thành một khối ``Emerging Asia''
+đồng nhất. Dữ liệu cho thấy ba phân nhóm con khác biệt rõ:
+
+\textbf{Bảng 2.3.6.4}. \emph{Dị biệt nội bộ khối châu Á mới nổi --- số
+liệu tổng hợp pool mô tả 2006--2026 (n=43.502).}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 18\tabcolsep) * \real{0.1000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Phân nhóm con
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nền kinh tế
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+n\_firms
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+FSTS (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+DN xuất khẩu (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+FDI ≥10\% (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Website (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+R\&D (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+ISO (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+sd ln(LP)¹
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+FDI dẫn dắt SEA & VNM, IDN, PHL & 9.798 & \textbf{12,4} & 20,5 & 8,6 &
+43,0 & 6,8 & 16,0 & 1,47 \\
+Dân số lớn & IND, LKA, JOR & 32.622 & \textbf{7,1} & 13,8 & 2,0 & 51,5 &
+17,9 & 28,0 & 1,25 \\
+Tài nguyên & MNG & 1.082 & \textbf{4,7} & 9,0 & 5,7 & 43,6 & 33,7 & 14,0
+& 1,27 \\
+\textbf{Tổng 7 nền} & & \textbf{43.502} & 8,2 & 15,1 & 3,5 & 49,4 & 16,5
+& 25,1 & 1,31 \\
+\end{longtable}
+
+\emph{¹ Trung vị độ lệch chuẩn ln(năng suất lao động) tính trong từng
+đợt khảo sát (bất biến tiền tệ).}
+
+Năm phát hiện: (1) FSTS phân tầng 4,7\%--7,1\%--12,4\% bị che giấu khi
+gộp; (2) FDI chênh lệch hơn 4 lần giữa ASEAN-3 và khối dân số lớn; (3)
+cấu trúc năng lực ngược chiều --- khối FDI dẫn dắt có FSTS cao nhất
+nhưng R\&D thấp nhất (6,8\%), khối dân số lớn ngược lại (R\&D 17,9\%,
+ISO 28,0\%); (4) Mông Cổ là trường hợp biên với đặc điểm tài nguyên
+(R\&D 33,7\% nhưng FSTS chỉ 4,7\%); (5) phân tán trong đợt 1,47 so với
+1,25 --- phân tầng hai tầng rõ hơn trong mẫu con FDI dẫn dắt (Hsieh \&
+Klenow, 2009).
+
+\hypertarget{phuxe2n-tuxedch-suxe2u-ux111ux1ee3t-khux1ea3o-suxe1t-2025}{%
+\paragraph{2.3.6.5 Phân tích sâu đợt khảo sát
+2025}\label{phuxe2n-tuxedch-suxe2u-ux111ux1ee3t-khux1ea3o-suxe1t-2025}}
+
+\textbf{Bảng 2.3.6.5}. \emph{12 nền kinh tế trong đợt khảo sát 2025
+(n=14.712; xếp theo quy mô mẫu).}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1111}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Nền kinh tế
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+ISO3
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nhóm ICRV
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+n\_firms
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+FSTS (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+FDI (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+R\&D (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Website (\%)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+sd ln(LP)¹
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Ấn Độ & IND & IV & 10.479 & 2,7 & 1,9 & 2,2 & 41,8 & 0,84 \\
+Saudi Arabia & SAU & II & 1.002 & 2,7 & 9,5 & 1,7 & 30,2 &
+\textbf{0,49} \\
+Thái Lan & THA & III & 813 & 9,3 & 6,3 & 8,7 & 61,9 & 1,40 \\
+Sri Lanka & LKA & V & 607 & 16,1 & 1,8 & 4,1 & 48,8 & 1,02 \\
+Qatar & QAT & II & 480 & 2,3 & 19,4 & 0,6 & 63,3 & \textbf{0,33} \\
+Afghanistan & AFG & V & 426 & 5,9 & 1,2 & 25,1 & 47,2 & 1,48 \\
+Maldives & MDV & V & 154 & 5,8 & 4,5 & 22,4 & \textbf{73,4} & 1,38 \\
+Fiji & FJI & VI & 151 & 12,5 & 9,9 & 18,8 & \textbf{74,8} & 1,12 \\
+Brunei & BRN & II & 150 & 5,1 & 26,2 & 18,9 & \textbf{80,7} & 1,12 \\
+Kuwait & KWT & II & 150 & \textbf{0,4} & 0,0 & 20,7 & 69,3 & 1,16 \\
+Solomon Islands & SLB & VI & 150 & 4,8 & 20,0 & 11,3 & 53,3 & 1,29 \\
+\textbf{Kiribati} & \textbf{KIR} & \textbf{VI} & \textbf{150} &
+\textbf{1,0} & \textbf{0,7} & \textbf{8,0} & \textbf{18,7} &
+\textbf{1,48} \\
+\end{longtable}
+
+\emph{¹ Độ lệch chuẩn ln(năng suất lao động) trong đợt --- bất biến tiền
+tệ, so sánh được giữa các nền kinh tế. Ghi chú: đợt khảo sát Nepal 2025
+dùng bảng hỏi BREADY Micro (doanh nghiệp siêu nhỏ, n=1.740;
+\textasciitilde10\% bán ra thị trường quốc tế theo biến nhị phân
+\texttt{me1c}, 22,6\% dùng máy tính/tablet) --- bộ công cụ không tương
+đương với cross-section chuẩn nên không thuộc pool mô tả và chỉ nêu ở
+đây như tham chiếu.}
+
+Bảy phát hiện từ đợt 2025: (1) Ấn Độ FSTS sụt 5 điểm phần trăm so với
+đợt 2022 (hiệu ứng schema); (2) Thái Lan ``số hóa tăng, xuất khẩu
+giảm''; (3) Fiji website 74,8\% \textgreater{} Singapore 66,1\% (nhảy
+vọt số); (4) Vùng Vịnh + Brunei xác nhận đặc trưng Advanced tài nguyên
+dẫn dắt --- Saudi Arabia và Qatar có phân tán năng suất hẹp nhất toàn
+pool (0,49 và 0,33); (5) tỷ lệ R\&D tăng đột biến ở một số nền
+(Afghanistan 25,1\%, Kuwait 20,7\%) là dấu hiệu ước lượng quá mức do
+bảng hỏi (schema-induced overestimation) cần kiểm chứng; (6) đợt 2025 là
+tập xác thực ngoài mẫu tự nhiên cho Chuyên đề 2; (7) \textbf{Kiribati
+cực đoan --- FSTS 1,0\%, FDI 0,7\%, website 18,7\% --- đối lập hoàn toàn
+với Fiji. Dị biệt SIDS ``số hóa cao'' (FJI, MDV) so với ``cô lập nông
+thôn'' (KIR) --- Chuyên đề 2 cần tách 2 phân nhóm con SIDS.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{bux1ea3y-tiux1ec3u-cux1ea3nh-ux111iux1ec3n-huxecnh}{%
+\subsubsection{2.3.7 Bảy tiểu cảnh điển
+hình}\label{bux1ea3y-tiux1ec3u-cux1ea3nh-ux111iux1ec3n-huxecnh}}
+
+\hypertarget{singapore-advanced-ux111ux1ed5i-mux1edbi-suxe1ng-tux1ea1o-dux1eabn-dux1eaft-n623-ux111ux1ee3t-2023}{%
+\paragraph{2.3.7.1 Singapore (Advanced đổi mới sáng tạo dẫn dắt ---
+n=623, đợt
+2023)}\label{singapore-advanced-ux111ux1ed5i-mux1edbi-suxe1ng-tux1ea1o-dux1eabn-dux1eaft-n623-ux111ux1ee3t-2023}}
+
+FSTS 7,1\%; doanh nghiệp xuất khẩu 17,8\%; website 66,1\%; ISO 23,3\%;
+R\&D 7,5\%; FDI 31,5\%. Độ lệch chuẩn log năng suất trong đợt 1,08.
+\textbf{Biên trên} của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo
+nghiên cứu Singapore (Mar, Đỗ \& Phan, 2026 --- MIR under review): R²
+hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119 (p=0,005); điểm uốn
+\textasciitilde88,6\%.
+
+\textbf{Bối cảnh hệ sinh thái 2025/2026}: Singapore xếp \textbf{hạng 2
+toàn cầu} trong Innovators Business Environment Index 2026
+(StartupBlink, 2026); hạng 4 toàn cầu trong Global Startup Ecosystem
+Index 2025 với tăng trưởng hệ sinh thái 44,9\%; hạng 3 thế giới trong
+Khảo sát Chính phủ điện tử Liên Hiệp Quốc 2024. Sáng kiến \textbf{Smart
+Nation 2.0} (2024) với 3 trụ cột: Tin tưởng --- Tăng trưởng --- Cộng
+đồng.
+
+Hệ sinh thái Singapore vận hành ở Tier 3--4 --- vượt xa lớp DAI Tier
+1--2 đo trong WBES. Đây là lý do \textbf{Nghịch lý bão hòa số (Digital
+Saturation Paradox)} xuất hiện: DAI cơ bản đã trở thành yếu tố vệ sinh,
+phần bù năng suất chỉ còn đo được ở nhóm xuất khẩu cường độ cao.
+
+\hypertarget{saudi-arabia-qatar-vuxe0-kuwait-advanced-tuxe0i-nguyuxean-dux1eabn-dux1eaft-n1.632}{%
+\paragraph{2.3.7.2 Saudi Arabia, Qatar và Kuwait (Advanced tài nguyên
+dẫn dắt ---
+n=1.632)}\label{saudi-arabia-qatar-vuxe0-kuwait-advanced-tuxe0i-nguyuxean-dux1eabn-dux1eaft-n1.632}}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule\noalign{}
+Chỉ số & Saudi Arabia & Qatar & Kuwait & Singapore \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+FSTS (\%) & 2,7 & 2,3 & \textbf{0,4} & 7,1 \\
+FDI ≥10\% (\%) & 9,5 & 19,4 & 0,0 & \textbf{31,5} \\
+R\&D dương (\%) & 1,7 & 0,6 & \textbf{20,7} & 7,5 \\
+sd log năng suất¹ & \textbf{0,49} & \textbf{0,33} & 1,16 & 1,08 \\
+\end{longtable}
+
+Năm phát hiện: (1) \textbf{nhà nước tô} --- phân phối tô lợi tài nguyên
+san bằng phân tán năng suất (Beblawi, 1987; Hertog, 2010); (2)
+\textbf{phân bổ sai nguồn lực đảo chiều} so với Hsieh \& Klenow (2009)
+--- ở nhà nước tô, cơ chế phân bổ sai là bảo hộ FDI chứ không phải thiếu
+hụt thể chế; (3) Kuwait Vision 2035 với R\&D 20,7\% --- cố gắng đa dạng
+hóa đáng chú ý; (4) thiên lệch của chỉ số áp dụng số đơn thành phần khi
+áp dụng ở bối cảnh tài nguyên; (5) \textbf{phân nhóm con Advanced} ---
+bằng chứng cho sự đa dạng của chủ nghĩa tư bản (Hall \& Soskice, 2001).
+\textbf{Bối cảnh 2026}: IMF điều chỉnh giảm tăng trưởng Saudi Arabia từ
+\textasciitilde4,5\% xuống 3,1\% do xung đột Trung Đông.
+
+\hypertarget{viux1ec7t-nam-3-ux111ux1ee3t-khux1ea3o-suxe1t-200920152023-pool-muxf4-tux1ea3-n3.077-mux1eabu-phuxe2n-tuxedch-cux1ee7a-nghiuxean-cux1ee9u-viux1ec7t-nam-n2.958-cux1eadp-nhux1eadt-adb-vietnam-outlook-2026}{%
+\paragraph{2.3.7.3 Việt Nam (3 đợt khảo sát 2009/2015/2023; pool mô tả
+n=3.077, mẫu phân tích của nghiên cứu Việt Nam n=2.958) --- cập nhật ADB
+Vietnam Outlook
+2026}\label{viux1ec7t-nam-3-ux111ux1ee3t-khux1ea3o-suxe1t-200920152023-pool-muxf4-tux1ea3-n3.077-mux1eabu-phuxe2n-tuxedch-cux1ee7a-nghiuxean-cux1ee9u-viux1ec7t-nam-n2.958-cux1eadp-nhux1eadt-adb-vietnam-outlook-2026}}
+
+FSTS 23,2\% → 17,9\% → 16,1\% (suy giảm theo thời gian); doanh nghiệp
+xuất khẩu 37,1\% → 23,8\%; ISO 17--23\%; R\&D 6,1\% (2023). Pattern
+\textbf{kinh tế hai tầng} --- FDI hướng xuất khẩu hiệu quả cao đan xen
+với doanh nghiệp nội địa năng suất thấp (CIEM, 2023).
+
+\textbf{Bối cảnh 2026 --- ADB Vietnam Economic Outlook}: Việt Nam dự
+phóng GDP \textbf{7,2\% (2026) / 7,0\% (2027)} --- vượt ASEAN 4,6\%. Bốn
+động lực: (a) cam kết FDI 2,4 tỷ USD với 18 dự án chiến lược; (b) năng
+suất lao động +5,1\% trong giai đoạn 2026--2027; (c) khoản vay ADB dựa
+trên chính sách 2,4 tỷ USD nhắm mục tiêu SME nội địa; (d) tái định vị
+trong chuỗi giá trị toàn cầu từ lắp ráp downstream sang thiết kế và R\&D
+mid-stream.
+
+\textbf{World Bank FCI Snapshot (2025)}: GDP tăng trưởng 7,09\% (2024),
+FDI 20,17 tỷ USD (4,23\% GDP), xuất khẩu máy móc và điện tử 45,8\% tổng
+xuất khẩu, tỷ lệ nữ/nam lao động 88,61\% (2023).
+
+\hypertarget{trung-quux1ed1c-mux1eabu-phuxe2n-tuxedch-cux1ee7a-nghiuxean-cux1ee9u-trung-quux1ed1c-n4.559-pool-muxf4-tux1ea3-gux1ed3m-ux111ux1ee3t-2024-n2.189}{%
+\paragraph{2.3.7.4 Trung Quốc (mẫu phân tích của nghiên cứu Trung Quốc
+n=4.559; pool mô tả gồm đợt 2024,
+n=2.189)}\label{trung-quux1ed1c-mux1eabu-phuxe2n-tuxedch-cux1ee7a-nghiuxean-cux1ee9u-trung-quux1ed1c-n4.559-pool-muxf4-tux1ea3-gux1ed3m-ux111ux1ee3t-2024-n2.189}}
+
+FSTS 10,9\% → 8,8\%; FDI ≥10\% chiếm 6,0\%. Quan hệ FSTS -- năng suất có
+dạng hàm bậc hai (U ngược) với điểm uốn \textasciitilde47,5\% (Đỗ \&
+Phan, 2026 --- JFAR). \textbf{Rủi ro tập trung}: Wang, Huang và Hong
+(2024 --- IRFA) phân tích 80\% mô hình rủi ro ngân hàng tại Trung Quốc
+phụ thuộc các nhà cung cấp công nghệ chi phối thị trường --- cảnh báo
+cho lộ trình sản xuất thông minh.
+
+\hypertarget{tux1ed5ng-hux1ee3p-khux1ed1i-chuxe2u-uxe1-mux1edbi-nux1ed5i-7-nux1ec1n-n43.502-trux1b0ux1eddng-hux1ee3p-ux1ea5n-ux111ux1ed9}{%
+\paragraph{2.3.7.5 Tổng hợp khối châu Á mới nổi (7 nền, n=43.502) ---
+trường hợp Ấn
+Độ}\label{tux1ed5ng-hux1ee3p-khux1ed1i-chuxe2u-uxe1-mux1edbi-nux1ed5i-7-nux1ec1n-n43.502-trux1b0ux1eddng-hux1ee3p-ux1ea5n-ux111ux1ed9}}
+
+FSTS 8,2\%; FDI ≥10\% chiếm 3,5\%; tỷ lệ doanh nghiệp R\&D dương 16,5\%.
+Phân tán năng suất trong đợt ở mức cao (trung vị 1,31) và dao động mạnh
+giữa ba phân nhóm con (1,25--1,47) --- phản ánh dị biệt rộng xuyên 7 nền
+(Bảng 2.3.6.4).
+
+\textbf{Trường hợp Ấn Độ --- lan tỏa công nghệ}: Theo Sikdar \&
+Mukhopadhyay (2026 --- \emph{Asian Development Review, 43}(1), 37--75),
+panel 4.293 doanh nghiệp Ấn Độ 2006--2019: FDI là kênh lan tỏa ngang
+quan trọng nhất; doanh nghiệp lớn thu nhận lan tỏa nhiều hơn; FDI tăng
+từ 1,705 triệu USD (1990--2000) → 42,396 triệu USD (2012--2022); R\&D
+trì trệ ở 0,7\% GDP.
+
+\hypertarget{muxf4ng-cux1ed5-tux1eeb-lux1eddi-nguyux1ec1n-tuxe0i-nguyuxean-ux111ux1ebfn-khouxe1ng-sux1ea3n-thiux1ebft-yux1ebfu-n1.082-3-ux111ux1ee3t-200920132019}{%
+\paragraph{2.3.7.6 Mông Cổ --- từ lời nguyền tài nguyên đến khoáng sản
+thiết yếu (n=1.082, 3 đợt
+2009/2013/2019)}\label{muxf4ng-cux1ed5-tux1eeb-lux1eddi-nguyux1ec1n-tuxe0i-nguyuxean-ux111ux1ebfn-khouxe1ng-sux1ea3n-thiux1ebft-yux1ebfu-n1.082-3-ux111ux1ee3t-200920132019}}
+
+FSTS đình trệ 4--6\% (5,8\% → 3,9\% → 4,2\%); FDI ≥10\% giảm
+\textbf{7,2\% → 4,2\%}; website dao động 39--49\%. Pattern \textbf{lời
+nguyền tài nguyên} (Sachs \& Warner, 2001). \textbf{Bước ngoặt 2026}: 11
+khoáng sản thiết yếu (Cu, Li, Mo, Mn, Co, Ni, W, REE). Xuất khẩu đồng
+1,69 triệu tấn (2024) = 22,1\% tổng xuất khẩu. Oyu Tolgoi mục tiêu
+500.000 tấn/năm 2028--2036. Trung Quốc chi phối chế biến: 100\%
+graphite, 90\% Mn, 70\% Co (ADB, 2026, tháng 5).
+
+\emph{Hình 2.3.7.1. Mông Cổ: tiến triển 2009--2019 (3 đợt khảo sát WBES)
+--- FSTS đình trệ; FDI giảm dần phản ánh lời nguyền tài nguyên giai đoạn
+1.}
+
+\hypertarget{sids-thuxe1i-buxecnh-dux1b0ux1a1ng-7-nux1ec1n-n1.781}{%
+\paragraph{2.3.7.7 SIDS Thái Bình Dương (7 nền ---
+n=1.781)}\label{sids-thuxe1i-buxecnh-dux1b0ux1a1ng-7-nux1ec1n-n1.781}}
+
+\textbf{7 nền}: Fiji (FJI), Papua New Guinea (PNG), Solomon Islands
+(SLB), Tonga (TON), Vanuatu (VUT), Samoa (WSM), \textbf{Kiribati (KIR
+--- 2025)}. FSTS 6,2\%; FDI ≥10\% \textbf{22,9\%}; đổi mới sản phẩm
+\textbf{39,6\%}; website \textbf{47,1\%}. Pattern \textbf{thích nghi
+trong điều kiện ràng buộc}.
+
+\textbf{Kiribati 2025 --- trường hợp biên cực đoan nhất}: FSTS 1,0\%,
+FDI 0,7\%, website 18,7\%, ISO 1,4\%, độ lệch chuẩn log trong đợt 1,48,
+SME 93,3\%.
+
+\textbf{Bối cảnh kinh tế vĩ mô PICs Pacific}: 4 trụ cột MIRAB (Bertram,
+2006): (1) khu vực công chủ đạo (30--50\% việc làm chính thức); (2) phụ
+thuộc 4 nguồn ngoại sinh --- ODA 30\% GDP và remittances 25--40\% GDP;
+(3) thanh niên thất nghiệp 15--30\%; (4) lao động di chuyển --- PLMS Úc
+và RSE New Zealand (Vanuatu RSE 15--20\% GDP). Chuyên đề 2 cần bổ sung 3
+biến kiểm soát đặc trưng PICs: \texttt{aid\_share\_GDP\_pct},
+\texttt{remittance\_share\_GDP\_pct},
+\texttt{seasonal\_worker\_outflow\_pct}.
+
+\hypertarget{so-suxe1nh-tux1ed5ng-hux1ee3p}{%
+\paragraph{2.3.7.8 So sánh tổng
+hợp}\label{so-suxe1nh-tux1ed5ng-hux1ee3p}}
+
+\textbf{Bảng 2.3.7.1}. \emph{Ma trận so sánh đa chiều bảy tiểu cảnh điển
+hình.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1250}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Chỉ số
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Singapore
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Việt Nam
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Trung Quốc
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Khối mới nổi (7 nền)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mông Cổ
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+SIDS Thái Bình Dương
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Saudi+Qatar+Kuwait
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+n\_firms & 623 & 3.077 & 2.189 & 43.502 & 1.082 & \textbf{1.781} &
+1.632 \\
+FSTS (\%) & 7,1 & \textbf{19,1} & 8,8 & 8,2 & 4,7 & 6,2 &
+\textbf{2,4} \\
+FDI ≥10\% (\%) & \textbf{31,5} & 11,4 & 6,0 & 3,5 & 5,7 & \textbf{22,9}
+& 11,5 \\
+R\&D dương (\%) & 7,5 & 6,1 & \textbf{39,4} & 16,5 & \textbf{33,7} &
+11,5 & \textbf{3,1} \\
+Website (\%) & \textbf{66,1} & 47,0 & 42,0 & 49,4 & 43,6 & 47,1 &
+43,6 \\
+sd ln(LP) trong đợt¹ & \textbf{1,08} & 1,46 & 1,36 & 1,31 & 1,27 & 1,29
+& \textbf{0,49} \\
+\end{longtable}
+
+\emph{¹ Trung vị độ lệch chuẩn ln(năng suất lao động) trong từng đợt
+khảo sát (bất biến tiền tệ). Hàng SIDS gồm 7 nền Pacific (bao gồm
+Kiribati 2025); cột Saudi+Qatar+Kuwait lấy trung vị ba đợt 2025.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{yux1ebfu-tux1ed1-giux1ea3i-thuxedch-sux1a1-bux1ed9}{%
+\subsubsection{2.3.8 Yếu tố giải thích sơ
+bộ}\label{yux1ebfu-tux1ed1-giux1ea3i-thuxedch-sux1a1-bux1ed9}}
+
+\hypertarget{hux1ec7-sux1ed1-tux1b0ux1a1ng-quan-pearson}{%
+\paragraph{2.3.8.1 Hệ số tương quan
+Pearson}\label{hux1ec7-sux1ed1-tux1b0ux1a1ng-quan-pearson}}
+
+Tương quan giữa năng suất và bốn yếu tố giải thích được tính trên năng
+suất chuẩn hóa z-score trong từng cặp nền kinh tế × năm (bất biến tiền
+tệ), gộp theo 6 nhóm ICRV của pool mô tả.
+
+\textbf{Bảng 2.3.8.1}. \emph{Hệ số tương quan Pearson giữa năng suất lao
+động chuẩn hóa (LP-z) và bốn yếu tố giải thích, theo nhóm ICRV (pool mô
+tả 49 nền).}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Yếu tố
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+I --- Adv. đổi mới
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+II --- Adv. tài nguyên
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+III --- Trung bình cao
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+IV --- Chuyển đổi TB-thấp
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+V --- Đang nổi
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+VI --- SIDS
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+FDI ≥ 10\% & +0,130** & +0,114** & +0,124** & +0,072** & +0,057** &
++0,122** \\
+FSTS & \textbf{+0,163**} & +0,131** & +0,094** & +0,047** & +0,018* &
+\textbf{−0,009 ns} \\
+TCI (R\&D + ISO) & +0,176** & +0,187** & \textbf{+0,240**} & +0,141** &
++0,125** & +0,117** \\
+DAI (website) & +0,098** & \textbf{+0,201**} & +0,124** & +0,180** &
++0,111** & +0,092** \\
+\end{longtable}
+
+\emph{Ghi chú: ** p \textless{} 0,01; * p \textless{} 0,05; ns = không
+có ý nghĩa thống kê (kiểm định hai phía). LP-z = z-score của ln(doanh
+thu/lao động) trong từng cặp nền kinh tế × năm; FDI ≥10\% từ b2b; FSTS =
+d3b + d3c; TCI = trung bình hai thành phần R\&D (h8) và ISO (b8); DAI =
+website (c22b). n theo nhóm: 3.620 / 2.082 / 10.138 / 40.508 / 15.669 /
+1.715 (quan sát có LP hợp lệ). Hệ số tương quan Pearson --- không áp
+dụng HC1; HC1 dành cho SE hồi quy ở Chuyên đề 2.}
+
+Sáu phát hiện chính: (1) \textbf{TCI là yếu tố tương quan mạnh và đồng
+đều nhất} ở mọi nhóm (+0,117 đến +0,240) --- năng lực công nghệ nền tảng
+là dịch chuyển mức phổ quát; (2) \textbf{gradient cường độ FSTS theo
+chiều thể chế}: tương quan xuất khẩu--năng suất giảm đơn điệu từ +0,163
+(Nhóm I) qua +0,047 (IV) và +0,018 (V) xuống \textbf{mất ý nghĩa ở SIDS
+(−0,009 ns)} --- tương quan thô của quốc tế hóa gần như biến mất ở thể
+chế yếu, gợi ý quan hệ phi tuyến và bị điều tiết thay vì tuyến tính phổ
+quát; (3) \textbf{SIDS là ngoại lệ duy nhất về dấu của FSTS} --- phù hợp
+với giả thuyết chi phí buộc phải quốc tế hóa: doanh nghiệp SIDS xuất
+khẩu vì bắt buộc, không phải vì chọn lọc theo năng suất; (4) \textbf{FDI
+dương ở mọi nhóm}, mạnh hơn ở hai cực thể chế (Nhóm I +0,130 và SIDS
++0,122) --- hai cơ chế khác nhau: MNE hub tại Advanced và FDI ngoại sinh
+tại SIDS; (5) \textbf{DAI dương ở mọi nhóm nhưng thấp nhất tại Nhóm I
+(+0,098)} trong khi cao nhất ở II và IV (+0,201; +0,180) --- phần bù của
+hiện diện số Tier-1 co lại nơi nó đã tiệm cận bão hòa (Nghịch lý bão hòa
+số ở dạng suy giảm lợi suất biên); (6) \textbf{biến thiên cường độ
+cross-regime có hệ thống} --- thể chế điều tiết độ lớn (và cá biệt là
+dấu) của các cơ chế, nhất quán với Xu (2024).
+
+\textbf{Cảnh báo schema BREADY 2025}: Bảng 2.3.8.1 có thể bị nhiễu hiệu
+ứng schema --- cần kiểm chứng qua hệ thống phòng thủ ba tầng (§2.2)
+trước khi suy diễn nhân quả.
+
+\hypertarget{pattern-giux1edbi-tuxednh-trong-quux1ea3n-luxfd-vuxe0-sux1edf-hux1eefu-eap-dux1eabn-ux111ux1ea7u-touxe0n-cux1ea7u}{%
+\paragraph{2.3.8.2 Pattern giới tính trong quản lý và sở hữu --- EAP dẫn
+đầu toàn
+cầu}\label{pattern-giux1edbi-tuxednh-trong-quux1ea3n-luxfd-vuxe0-sux1edf-hux1eefu-eap-dux1eabn-ux111ux1ea7u-touxe0n-cux1ea7u}}
+
+\textbf{Bảng 2.3.8.2}. \emph{Pattern giới tính trong lãnh đạo cấp cao và
+sở hữu doanh nghiệp theo khu vực.}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Khu vực & \% nữ TMT & \% nữ sở hữu đa số & Khoảng cách \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{East Asia \& Pacific (EAP)} & \textbf{33,4\%} & \textbf{25,7\%}
+& +7,7 đpt \\
+Latin America \& Caribbean & 27,8\% & 18,3\% & +9,5 đpt \\
+Sub-Saharan Africa & 21,3\% & 14,9\% & +6,4 đpt \\
+Europe \& Central Asia & 19,8\% & 12,1\% & +7,7 đpt \\
+South Asia & 9,2\% & 8,5\% & +0,7 đpt \\
+\textbf{MENA} & \textbf{3,3\%} & \textbf{1,7\%} & +1,6 đpt \\
+\end{longtable}
+
+Bốn quan sát: (a) EAP paradox --- quản lý dẫn đầu toàn cầu nhưng
+ownership ceiling thấp hơn management ceiling 7,7 điểm; (b) MENA
+bottleneck --- rào cản thể chế kép trong bối cảnh nhà nước tô (Beblawi,
+1987); (c) 43/50 nền kinh tế có tỷ lệ nữ trong nhóm quản trị cấp cao cao
+hơn nữ sở hữu đa số; (d) hàm ý cho Chuyên đề 2: tương tác giới tính ×
+FSTS dương tại Emerging qua kênh quan hệ (Hambrick \& Mason, 1984) nhưng
+không có ý nghĩa thống kê tại Advanced.
+
+\hypertarget{ux111ux1b0ux1eddng-cong-u-cux1ee7a-ux111ux1ed5i-mux1edbi-sux1ed1-tux1eeb-chi-phuxed-ux111ux1ea7u-tux1b0-ux111ux1ebfn-phux1ea7n-buxf9-nux103ng-suux1ea5t}{%
+\paragraph{2.3.8.3 Đường cong U của đổi mới số --- từ chi phí đầu tư đến
+phần bù năng
+suất}\label{ux111ux1b0ux1eddng-cong-u-cux1ee7a-ux111ux1ed5i-mux1edbi-sux1ed1-tux1eeb-chi-phuxed-ux111ux1ea7u-tux1b0-ux111ux1ebfn-phux1ea7n-buxf9-nux103ng-suux1ea5t}}
+
+Quan hệ giữa cường độ đầu tư số và năng suất có hình dạng phi tuyến ---
+\textbf{đường cong U theo thời gian} --- phù hợp với trễ công nghệ của
+David (1990) và nghịch lý năng suất của Brynjolfsson \& McAfee (2014).
+
+\textbf{Giai đoạn 1} (năm 1--3): Sụt giảm ngắn hạn do chi phí thiết bị,
+đào tạo và gián đoạn quy trình. Bằng chứng gián tiếp: phần bù tương quan
+DAI thấp nhất tại Nhóm Advanced đổi mới (+0,098 so với +0,180--0,201 ở
+các nhóm chuyển đổi/tài nguyên) --- nơi Tier-1 đã tiệm cận bão hòa, lợi
+suất biên co lại; giai đoạn ``sân khấu số'' (Verhoef et al., 2021).
+
+\textbf{Giai đoạn 2} (năm 3--5): Vùng chuyển tiếp. Ngưỡng: ≥ 3\% doanh
+thu/năm × ≥ 3 năm liên tục. Dưới ngưỡng, phần bù năng suất không bù được
+chi phí cơ hội.
+
+\textbf{Giai đoạn 3} (năm 5+): Phần bù năng suất. Bằng chứng: Trung Quốc
+R\&D 39,4\% (Tier-2 mature); FSTS²×DAI = +3,119 (p = 0,005) tại
+Singapore --- DAI khuếch đại quan hệ quốc tế hóa -- hiệu quả tại doanh
+nghiệp FSTS cao.
+
+\textbf{Liên kết CDCM}: Giai đoạn 1 = proxy cơ chế lỗi thời (DAI Tier-1
+bão hòa); Giai đoạn 3 = cơ chế phụ thuộc giai đoạn (DAI Tier-2 có phần
+bù có điều kiện). Hai cơ chế bổ sung nhau khi kiểm soát thế hệ số.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{thux1ea3o-luux1eadn-tux1ed5ng-hux1ee3p}{%
+\subsubsection{2.3.9 Thảo luận tổng
+hợp}\label{thux1ea3o-luux1eadn-tux1ed5ng-hux1ee3p}}
+
+\hypertarget{mux1b0ux1eddi-kux1ebft-luux1eadn-tux1ed5ng-hux1ee3p-tux1eeb-dux1eef-liux1ec7u-wbes}{%
+\paragraph{2.3.9.1 Mười kết luận tổng hợp từ dữ liệu
+WBES}\label{mux1b0ux1eddi-kux1ebft-luux1eadn-tux1ed5ng-hux1ee3p-tux1eeb-dux1eef-liux1ec7u-wbes}}
+
+\textbf{(i) Phân tán năng suất trong đợt tăng theo chiều thể chế yếu
+dần}: sd ln(LP) trong đợt từ 1,04 (Nhóm I) lên 1,31--1,39 (Nhóm III--V);
+tỷ số P90/P10 leo từ \textasciitilde12 lần (Nhóm I) lên
+\textasciitilde30 lần (Nhóm V). Pattern này \textbf{nhất quán với giả
+thuyết phân bổ sai nguồn lực} (Hsieh \& Klenow, 2009, 2014) --- lưu ý sd
+log năng suất lao động là proxy gián tiếp cho cơ chế phân tán TFPR, nên
+đây là bằng chứng mô tả phù hợp chứ không phải phân rã trực tiếp.
+
+\textbf{(ii) Dị biệt nội bộ phân nhóm Advanced}: hai nhóm cùng mức thu
+nhập cao nhưng cấu trúc đối lập --- R\&D 20,5\% so với 7,0\%; doanh
+nghiệp xuất khẩu 28,4\% so với 11,7\%; nữ quản lý cấp cao 27,5\% so với
+4,6\%; phân tán năng suất trong đợt đặc biệt hẹp ở hai nền lớn nhất Vùng
+Vịnh (Saudi Arabia 0,49; Qatar 0,33 so với Singapore 1,08 --- chênh hơn
+\textbf{2 lần}, đặc trưng nhà nước tô) --- cần phân nhóm con Advanced
+trong Chuyên đề 2.
+
+\textbf{(iii) Dị biệt nội bộ khối châu Á mới nổi --- 3 phân nhóm con}:
+FDI dẫn dắt SEA (VNM+IDN+PHL, FSTS 12,4\%) ≠ dân số lớn (IND+LKA+JOR,
+FSTS 7,1\%) ≠ tài nguyên (MNG, FSTS 4,7\%).
+
+\textbf{(iv) SIDS Pacific --- Kiribati 2025 là trường hợp biên cực đoan
+nhất}: FSTS 1,0\%, FDI 0,7\%, website 18,7\%, ISO 1,4\% --- đối lập với
+Fiji nhảy vọt số (74,8\%). Cơ sở cho giả thuyết chi phí buộc phải quốc
+tế hóa.
+
+\textbf{(v) Quốc tế hóa là hiện tượng phân cực}: trung vị FSTS = 0\%;
+chỉ khoảng 12--28\% doanh nghiệp xuất khẩu tùy nhóm. Cần lựa chọn hai
+giai đoạn trong Chuyên đề 2.
+
+\textbf{(vi) Nhảy vọt số 2018--2026} ở các nhóm IV/V/VI (+21 đến +31
+điểm phần trăm website). Phân biệt \textbf{Tier-1 Sự hiện diện số cơ
+bản} (tiệm cận bão hòa ở Advanced) và \textbf{Tier-2 Chuyển đổi số cơ
+bản} (đang phát triển). Phần bù tương quan DAI thấp nhất ở Nhóm I
+(+0,098) là dấu hiệu bão hòa Tier-1 --- xem kiểm định loại trừ ICT tại
+§2.3.4.3.
+
+\textbf{(vii) Pattern phi tuyến FDI ≥10\%} --- dạng chữ U với cực tiểu ở
+Nhóm IV (3,1\%): Advanced 10,6--13,6\% → Nhóm IV 3,1\% → SIDS 20,0\%.
+Hai mô hình FDI: MNE hub (Advanced) và du lịch/viễn thông (SIDS).
+
+\textbf{(viii) Đợt khảo sát 2025 --- mẫu đơn năm lớn nhất}: 12 nền kinh
+tế × 14.712 doanh nghiệp (17,0\% pool). Ấn Độ FSTS sụt 5 điểm phần trăm
+(hiệu ứng schema); Fiji website 74,8\% \textgreater{} Singapore 66,1\%;
+Kiribati đối lập cực đoan với Fiji.
+
+\textbf{(ix) Khung phân tích cấp ngành}: 9 ngành ISIC Rev.~4; kiểm định
+loại trừ ICT; bổ sung Dynamism profile theo Kafouros et al.~(2023).
+
+\textbf{(x) Hệ thống tái tạo được cho 4 thế hệ schema WBES}: Tất cả bảng
+và hình đều tái tạo được. Gói tái lập mở cho cộng đồng nghiên cứu.
+
+\hypertarget{nux103m-khoux1ea3ng-trux1ed1ng-nghiuxean-cux1ee9u}{%
+\paragraph{2.3.9.2 Năm khoảng trống nghiên
+cứu}\label{nux103m-khoux1ea3ng-trux1ed1ng-nghiuxean-cux1ee9u}}
+
+\textbf{KT1 --- Điều tiết ba chiều TCI×DAI×FSTS chưa được kiểm định đồng
+thời trên mẫu liên quốc gia}: Các nghiên cứu hiện tại kiểm định từng cặp
+điều tiết riêng biệt. Mô hình M7 của Chuyên đề 2 sẽ lấp khoảng trống này
+với 102 cặp nền kinh tế--năm.
+
+\textbf{KT2 --- Phân nhóm con Advanced: innovation-driven so với
+resource-driven chưa được hệ thống hóa}: Nghiên cứu hiện hành (Bausch \&
+Krist, 2007; Kirca et al., 2012) gộp tất cả OECD vào ``phát triển''.
+Bằng chứng Singapore so với Saudi Arabia/Qatar/Kuwait cho thấy hai phân
+nhóm có pattern hoàn toàn khác nhau.
+
+\textbf{KT3 --- Xác nhận nhân quả Nghịch lý bão hòa số qua ước lượng
+biến công cụ}: Phần bù tương quan DAI suy giảm rõ ở Advanced (+0,098 ---
+thấp nhất sáu nhóm) có thể phản ánh: (a) bão hòa thực sự của Tier-1; (b)
+nhân quả ngược; (c) bias biến bỏ sót. Biến công cụ hợp lệ (độ phủ băng
+thông rộng) cần thiết để phân biệt.
+
+\textbf{KT4 --- Dị biệt theo thời gian ba giai đoạn 2006--2026 chưa được
+tổng hợp}: Bằng chứng từ kiểm định Paternoster cho thấy bất ổn định tham
+số quan trọng giữa ba giai đoạn.
+
+\textbf{KT5 --- SIDS Pacific như trường hợp biên lý thuyết của thuyết
+Uppsala}: Chi phí buộc phải quốc tế hóa tại 7 SIDS không khớp với bất kỳ
+dạng hàm quốc tế hóa -- hiệu quả nào trong văn liệu. Cần khung kết hợp
+MIRAB và Briguglio (1995) và quan điểm dựa trên nguồn lực.
+
+\textbf{Ánh xạ khoảng trống → câu hỏi nghiên cứu cho Chuyên đề 2.} Để
+chính thức hóa cầu nối từ thực trạng mô tả (CĐ1) sang thiết kế kiểm định
+suy diễn (CĐ2), Bảng 2.3.9.1 chuyển mỗi khoảng trống thực nghiệm thành
+một câu hỏi nghiên cứu có mô hình/kiểm định tương ứng.
+
+\textbf{Bảng 2.3.9.1.} \emph{Ánh xạ khoảng trống thực trạng (CĐ1) → câu
+hỏi nghiên cứu (CĐ2).}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Khoảng trống (CĐ1)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Câu hỏi nghiên cứu cho CĐ2
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mô hình/kiểm định dự kiến
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{KT1} --- Điều tiết ba chiều TCI×DAI×FSTS chưa kiểm định đồng
+thời & Năng lực công nghệ và chấp nhận số đồng thời điều tiết quan hệ
+I--P như thế nào xuyên 6 chế độ ICRV? & Mô hình M7 tương tác ba chiều,
+102 cặp nền kinh tế--năm \\
+\textbf{KT2} --- Phân nhóm con Advanced chưa hệ thống hóa & Cơ chế
+innovation-driven và resource-driven khác nhau ra sao trong chuyển hóa
+quốc tế hóa thành hiệu quả? & Tách Nhóm I/II + kiểm định khác biệt hệ
+số \\
+\textbf{KT3} --- Nghịch lý bão hòa số chưa xác nhận nhân quả & Phần bù
+DAI suy giảm ở Advanced là bão hòa thực hay nhân quả ngược/bỏ sót biến?
+& Ước lượng biến công cụ (độ phủ băng thông rộng) \\
+\textbf{KT4} --- Dị biệt thời gian ba giai đoạn chưa tổng hợp & Vị trí
+điểm uốn và độ cong I--P có ổn định qua 2006--2026 không? & Kiểm định
+Paternoster + tương tác thời gian \\
+\textbf{KT5} --- SIDS là trường hợp biên của Uppsala & Có tồn tại bối
+cảnh nơi quan hệ I--P chuyển thành âm đơn điệu (FIP) không? & Hồi quy
+SIDS + khung MIRAB/Briguglio (1995) \\
+\end{longtable}
+
+\emph{Ghi chú: Bảng này bảo đảm mỗi khoảng trống thực nghiệm rút ra từ
+bức tranh thực trạng được chuyển thành một câu hỏi nghiên cứu có thiết
+kế kiểm định cụ thể trong Chuyên đề 2, duy trì tính liên tục logic giữa
+hai chuyên đề.}
+
+\hypertarget{huxe0m-uxfd-luxfd-thuyux1ebft}{%
+\paragraph{2.3.9.3 Hàm ý lý
+thuyết}\label{huxe0m-uxfd-luxfd-thuyux1ebft}}
+
+\textbf{(1) Uppsala có điều kiện --- không phổ quát}: Tương quan
+FSTS--năng suất dương mạnh tại Advanced (+0,163), suy yếu dần theo chiều
+thể chế và mất ý nghĩa tại SIDS (−0,009 ns) --- xác nhận điều kiện biên:
+lý thuyết Uppsala vận hành chỉ trong môi trường thể chế đủ mạnh
+(Williamson, 1985).
+
+\textbf{(2) CDCM như khung lý thuyết tích hợp mới cho kỷ nguyên số trong
+kinh doanh quốc tế}: Phần bù năng suất của áp dụng số là hàm của (i) mức
+độ phát triển thể chế, (ii) vị trí trên đường cong quốc tế hóa -- hiệu
+quả, (iii) tầng của năng lực số được đo lường. Ba điều kiện tương tác
+phi tuyến --- vượt qua ``phần bù số'' đồng nhất (Verhoef et al., 2021).
+
+\textbf{(3) Giao diện Đổi mới-Hiệu suất Nâng cao (AIPI)}: FSTS²×DAI =
++3,119 tại Singapore gợi ý cơ chế mới --- tại FSTS cao, doanh nghiệp cần
+DAI như ``phối hợp kỹ thuật số xuyên biên giới'' để quản lý độ phức tạp
+chuỗi giá trị toàn cầu. Cần kiểm định tại Advanced khác (Hàn Quốc, Đài
+Loan).
+
+\textbf{(4) Sân khấu số là thực tế đo lường ở cả hai chiều}: Tại
+Advanced, DAI Tier-1 là yếu tố vệ sinh bão hòa. Tại Emerging, DAI Tier-1
+có thể là proxy lỗi thời --- đo lường không còn phản ánh được cơ chế
+kinh tế thực.
+
+\textbf{(5) Bối cảnh thể chế là tầng điều kiện, không phải yếu tố nền}:
+Biến thiên cường độ có hệ thống (và cá biệt là đổi dấu --- FSTS tại
+SIDS) của các hệ số cross-regime không phải nhiễu mà là tín hiệu lý
+thuyết. Nghiên cứu kinh doanh quốc tế tương lai nên kiểm định hiệu ứng
+điều tiết theo nhóm ICRV trước khi báo cáo kích thước hiệu ứng trung
+bình.
+
+\hypertarget{huxe0m-uxfd-phux1b0ux1a1ng-phuxe1p-luux1eadn}{%
+\paragraph{2.3.9.4 Hàm ý phương pháp
+luận}\label{huxe0m-uxfd-phux1b0ux1a1ng-phuxe1p-luux1eadn}}
+
+\textbf{(1) Pool WBES xuyên quốc gia như nền tảng dữ liệu cho kinh doanh
+quốc tế thị trường mới nổi}: Khung 49 nền với 91.982 doanh nghiệp ở tầng
+ước lượng (pool phân loại 96.415 DN / 52 nền) và 86.701 doanh nghiệp /
+102 cặp nền kinh tế × năm ở tầng mô tả là một trong những mẫu lớn nhất
+từ trước đến nay cho phân tích quốc tế hóa -- hiệu quả toàn diện tại
+châu Á--Thái Bình Dương.
+
+\textbf{(2) Hệ thống phòng thủ ba tầng cho panel đa thế hệ là đóng góp
+phương pháp luận}: Ba tầng kiểm chứng --- biến giả Post\_BREADY\_2024,
+kiểm định ổn định mô hình neo, panel hậu đại dịch độc lập --- là giao
+thức có thể chuẩn hóa cho bất kỳ nghiên cứu dùng WBES với nhiều thế hệ
+schema.
+
+\textbf{(3) Winsorize trong cụm quốc gia × năm tốt hơn winsorize tổng
+thể}: Winsorize tổng thể bóp méo phân phối tại các nhóm phân tán rộng
+(Nhóm V: P90/P10 \textasciitilde30 lần trong đợt). Winsorize trong cụm
+bảo tồn dị biệt cross-regime quan trọng về lý thuyết.
+
+\textbf{(4) HC1 robust SE như chuẩn mực cho hồi quy đa quốc gia WBES}:
+HC3 cần thiết cho mẫu con nhỏ (SIDS n \textless{} 200). HC1 là cân bằng
+tốt giữa hiệu suất ước lượng và độ bền vững cho mẫu đầy đủ.
+
+\textbf{(5) Chiến lược mô hình neo bảo vệ suy luận khi schema chuyển
+đổi}: 6 biến bất biến cross-schema (ln\_employees, FSTS, ISO,
+innovate\_product, website, ln\_LP) cho phép so sánh hệ số cấu trúc giữa
+PICS3 và BREADY.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{kux1ebft-luux1eadn}{%
+\subsection{2.4 KẾT LUẬN}\label{kux1ebft-luux1eadn}}
+
+\hypertarget{kux1ebft-luux1eadn-chuxednh}{%
+\subsubsection{2.4.1 Kết luận chính}\label{kux1ebft-luux1eadn-chuxednh}}
+
+Tám kết luận từ 49 nền kinh tế châu Á -- Thái Bình Dương (pool mô tả
+86.701 doanh nghiệp / 102 cặp nền kinh tế × năm, WBES 2006--2026; khung
+ước lượng của luận án 91.982 doanh nghiệp):
+
+\textbf{KL1 --- Phi tuyến xuyên chế độ thể chế là quy luật}: U ngược tại
+các nhóm chuyển đổi (Việt Nam điểm uốn 39--46\%; Trung Quốc điểm uốn
+47--49\%); gần tuyến tính tại Advanced (Singapore điểm uốn 88,6\%); chi
+phí buộc phải tại SIDS.
+
+\textbf{KL2 --- TCI là dịch chuyển mức phổ quát, DAI là khuếch đại phụ
+thuộc bối cảnh}: TCI tương quan dương mạnh và đồng đều ở mọi nhóm; phần
+bù DAI biến thiên cường độ gấp đôi giữa các nhóm ICRV (+0,098 ở Advanced
+so với +0,201 ở Advanced tài nguyên) --- đây là nội hàm cốt lõi của
+CDCM.
+
+\textbf{KL3 --- Nghịch lý bão hòa số là cơ chế đo lường, không phải thất
+bại thị trường}: Phần bù DAI thấp nhất tại Advanced là hệ quả của đo
+lường Tier-1 trong bối cảnh Tier-2/3 đã được áp dụng rộng.
+
+\textbf{KL4 --- Thể chế là biến điều tiết, không phải biến trung gian}:
+Gap de jure--de facto (Xu, 2024) giải thích biến thiên cường độ
+cross-regime của FDI và FSTS. Chính sách nâng cao thể chế hiệu quả nhất
+khi song hành với nâng cấp TCI và DAI.
+
+\textbf{KL5 --- Dị biệt theo thời gian ba giai đoạn là thực tế cấu
+trúc}: Hiệu ứng DAI mạnh hơn trong BREADY (sau tăng tốc số hóa hậu
+COVID-19). Hệ thống phòng thủ ba tầng đảm bảo kết luận không bị nhiễu
+schema.
+
+\textbf{KL6 --- EAP dẫn đầu toàn cầu về nữ quản lý cấp cao (33,4\%)
+nhưng khoảng cách sở hữu dai dẳng}: Trần kính ở lớp sở hữu chưa được phá
+vỡ dù management ceiling đang thu hẹp.
+
+\textbf{KL7 --- SIDS Pacific là trường hợp biên lý thuyết với chi phí
+buộc phải quốc tế hóa}: FDI (+0,122) là nguồn năng suất chủ đạo; tương
+quan FSTS--năng suất bằng không (−0,009, không có ý nghĩa thống kê) ---
+nhóm duy nhất nơi xuất khẩu không gắn với phần bù năng suất. Mô hình
+MIRAB phù hợp hơn mô hình Uppsala.
+
+\textbf{KL8 --- Phân nhóm con Advanced là cần thiết cho phân tích kinh
+doanh quốc tế châu Á}: Singapore và Saudi Arabia/Qatar/Kuwait cùng nhãn
+``Advanced'' nhưng pattern năng suất doanh nghiệp hoàn toàn khác nhau.
+
+\hypertarget{huxe0m-uxfd-vuxe0-ux111ux1ec1-xuux1ea5t}{%
+\subsubsection{2.4.2 Hàm ý và đề
+xuất}\label{huxe0m-uxfd-vuxe0-ux111ux1ec1-xuux1ea5t}}
+
+\hypertarget{huxe0m-uxfd-chuxednh-suxe1ch-cho-doanh-nghiux1ec7p-viux1ec7t-nam-vuxe0-khu-vux1ef1c-chuxe2u-uxe1}{%
+\paragraph{2.4.2.1 Hàm ý chính sách cho doanh nghiệp Việt Nam và khu vực
+châu
+Á}\label{huxe0m-uxfd-chuxednh-suxe1ch-cho-doanh-nghiux1ec7p-viux1ec7t-nam-vuxe0-khu-vux1ef1c-chuxe2u-uxe1}}
+
+\textbf{(1) Sequencing năng lực trước --- nâng cấp TCI trước khi mở rộng
+FSTS}: Hệ số TCI = 0,179 (nhân quả ước lượng biến công cụ, nghiên cứu
+Việt Nam) xác nhận: xuất khẩu chỉ tạo năng suất khi doanh nghiệp có năng
+lực công nghệ nền tảng. Chương trình hỗ trợ xuất khẩu cần song hành với
+nâng cấp TCI.
+
+\textbf{(2) Ưu tiên Tier-2 số cho SME Việt Nam}: Website 47\% là điểm
+đầu vào; VietQR, TikTok Shop, Shopee Asia Pacific là Tier-1.5/Tier-2
+thực tế hơn. Voucher AI Adoption (\textasciitilde50 triệu VND/doanh
+nghiệp) giúp vượt qua giai đoạn đầu tư ban đầu.
+
+\textbf{(3) Phân biệt FDI chiến lược với FDI lắp ráp}: FSTS suy giảm
+23,2\% → 16,1\% phản ánh FDI lắp ráp tăng nhưng giá trị gia tăng nội địa
+thấp. Các chỉ tiêu cần theo dõi: tỷ lệ R\&D/doanh thu, tỷ lệ nhà cung
+cấp nội địa Tier-1, bằng sáng chế đồng nộp.
+
+\textbf{(4) Tái định vị chuỗi giá trị toàn cầu: lắp ráp downstream →
+thiết kế và R\&D mid-stream}: Việt Nam ở điểm uốn (39--46\%). Trung Quốc
+R\&D 39,4\% và điểm uốn cao hơn (47--49\%) cho thấy: Sự chênh lệch điểm
+uốn giữa Trung Quốc (TP \textasciitilde47--49\%, Nhóm III) và Việt Nam
+(TP \textasciitilde39--46\%, Nhóm IV) phản ánh gradient ICRV, không phải
+gradient TCI. TCI nâng mặt bằng năng suất ở mọi mức FSTS (hiệu ứng
+level-shift) nhưng không trực tiếp quyết định vị trí điểm uốn --- phân
+biệt hai cơ chế này là quan trọng cho hàm ý chính sách.
+
+\textbf{(5) Nền tảng học hỏi chính sách dựa trên ICRV cho ASEAN}: Trao
+đổi thực hành tốt nhất giữa nền kinh tế cùng nhóm IV Emerging (Việt Nam,
+Indonesia, Philippines, Ấn Độ) thay vì học từ Singapore/Hàn Quốc (nhóm I
+--- bối cảnh khác biệt quá lớn).
+
+\textbf{(6) Chính sách số hóa phân cấp theo vùng và quy mô}: Hiệu ứng
+DAI phụ thuộc bối cảnh --- đầu tư website khác nhau tại TP.HCM
+(Tier-1.5) so với nông thôn đồng bằng sông Cửu Long (Tier-1 chưa bão
+hòa).
+
+\textbf{(7) Hợp tác lao động di chuyển Pacific cho Việt Nam --- bài học
+PLMS/RSE}: (a) \textbf{PLMS Úc}: Học mô hình 30.000 lao động PICs/năm →
+triển khai Vietnamese Skilled Worker Mobility Scheme (nông nghiệp công
+nghệ cao và chăm sóc người cao tuổi); (b) \textbf{RSE New Zealand}: Nuôi
+trồng thủy sản, cà phê, đào tạo kỹ năng điều hàng --- tận dụng chuyên
+môn đặc thù Việt Nam; (c) \textbf{Kênh remittance kỹ thuật số}: Hợp tác
+Wise/MoMo giảm phí từ \textasciitilde7\% xuống \textless3\%; (d)
+\textbf{Nâng cấp kỹ năng theo mô hình EPS Hàn Quốc}: Đào tạo kỹ năng
+trước khi xuất khẩu lao động và kênh tái di cư.
+
+\textbf{(8) Bốn lộ trình số hóa châu Á tham khảo cho SME Việt Nam}: (a)
+Singapore/Hàn Quốc AI full-stack (Tier-3) --- không phù hợp để sao chép
+trực tiếp; (b) Nhật Bản 60\% doanh nghiệp AI back-office (Tier-2) ---
+\textbf{mục tiêu thực tế 2026--2030}; (c) Trung Quốc sản xuất thông minh
+(Tier-2/3) --- học điểm tích cực, tránh rủi ro tập trung; (d) \textbf{Mô
+hình ưu tiên Việt Nam Tier-1.5}: VietQR (100\% miễn phí) → Thương mại xã
+hội → Xuyên biên giới Shopee/Amazon → Cloud và AI cơ bản.
+
+\hypertarget{ux111ux1ecbnh-hux1b0ux1edbng-cho-chuyuxean-ux111ux1ec1-2}{%
+\paragraph{2.4.2.2 Định hướng cho Chuyên đề
+2}\label{ux111ux1ecbnh-hux1b0ux1edbng-cho-chuyuxean-ux111ux1ec1-2}}
+
+Tám kiểm định độ bền vững bắt buộc cho Chuyên đề 2:
+
+\textbf{(1) Thay biến phụ thuộc}: ln(LP) → ROS, tăng trưởng doanh thu,
+tăng trưởng việc làm. Kết quả chính cần bền vững ≥ 2/3 biến phụ thuộc.
+
+\textbf{(2) Lọc mẫu}: Loại micro firms (\textless{} 5 lao động) và doanh
+nghiệp nhà nước. Kết quả cần bền vững trong SME tư nhân (n ≈ 80.000+).
+
+\textbf{(3) Thay phương pháp}: OLS → hồi quy phân vị (p25/p50/p75);
+bootstrap SE 500 lần lặp; HC3.
+
+\textbf{(4) Kiểm định dạng hàm}: LOWESS phi tham số; kiểm định
+Lind--Mehlum (2010) bắt buộc xác nhận U ngược; AIC/BIC so sánh tuyến
+tính so với bậc hai so với bậc ba.
+
+\textbf{(5) Placebo tests}: Thay FSTS + TCI bằng biến nhiễu. Kết quả
+chính không được có ý nghĩa thống kê.
+
+\textbf{(6) Nhạy cảm cutoffs ICRV}: ±0,1 đơn vị WGI; PPP GDP/capita thay
+GNI; jackknife loại từng nền kinh tế (49 lần).
+
+\textbf{(7) Độ bền vững theo thời gian}: Chow test ổn định tham số;
+Paternoster z-test so sánh điểm uốn giữa ba giai đoạn.
+
+\textbf{(8) Kiểm định ranh giới schema}: Hệ thống phòng thủ ba tầng tại
+§2.2 --- điều kiện tiên quyết trước khi báo cáo BREADY 2025 như bằng
+chứng nhân quả.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{tuxe0i-liux1ec7u-tham-khux1ea3o}{%
+\subsection{TÀI LIỆU THAM KHẢO}\label{tuxe0i-liux1ec7u-tham-khux1ea3o}}
+
+\emph{Trích dẫn theo APA 7th edition.}
+
+ADB. (2024). \emph{Asian development outlook 2024: Strengthening climate
+resilience}. Asian Development Bank.
+
+ADB. (2026, tháng 4). \emph{Asian development outlook April 2026: The
+Middle East conflict challenges resilience in Asia and the Pacific}.
+Asian Development Bank.
+
+ADB. (2026). \emph{Vietnam economic outlook 2026: Navigating the
+crosscurrents}. Asian Development Bank.
+
+Banalieva, E. R., \& Dhanaraj, C. (2019). Internalization theory for the
+digital economy. \emph{Journal of International Business Studies,
+50}(8), 1372--1387.
+
+Bausch, A., \& Krist, M. (2007). The effect of context-related
+moderators on the internationalization--performance relationship:
+Evidence from meta-analysis. \emph{Management International Review,
+47}(3), 319--347.
+
+Beblawi, H. (1987). The rentier state in the Arab world. In H. Beblawi
+\& G. Luciani (Eds.), \emph{The rentier state} (pp.~49--62). Croom Helm.
+
+Bertram, G. (2006). Introduction: The MIRAB model in the twenty-first
+century. \emph{Asia Pacific Viewpoint, 47}(1), 1--13.
+
+Briguglio, L. (1995). Small island developing states and their economic
+vulnerabilities. \emph{World Development, 23}(9), 1615--1632.
+
+Brynjolfsson, E., \& McAfee, A. (2014). \emph{The second machine age:
+Work, progress, and prosperity in a time of brilliant technologies}. W.
+W. Norton \& Company.
+
+Cohen, W. M., \& Levinthal, D. A. (1990). Absorptive capacity: A new
+perspective on learning and innovation. \emph{Administrative Science
+Quarterly, 35}(1), 128--152.
+
+Combs, J. G., Crook, T. R., \& Shook, C. L. (2005). The dimensionality
+of organizational performance and its implications for strategic
+management research. In D. J. Ketchen \& D. D. Bergh (Eds.),
+\emph{Research methodology in strategy and management} (Vol. 2,
+pp.~259--286). Emerald. https://doi.org/10.1016/S1479-8387(05)02011-4
+
+Contractor, F. J., Kundu, S. K., \& Hsu, C. C. (2003). A three-stage
+theory of international expansion. \emph{Journal of International
+Business Studies, 34}(1), 5--18.
+
+Cusolito, A. P., \& Maloney, W. F. (2018). \emph{Productivity revisited:
+Shifting paradigms in analysis and policy}. World Bank Group.
+
+David, P. A. (1990). The dynamo and the computer: An historical
+perspective on the modern productivity paradox. \emph{American Economic
+Review, 80}(2), 355--361.
+
+Đỗ, T. H., \& Phan, A. T. (2026). Internationalization and firm
+performance in Vietnam. \emph{Journal of Asia Business Studies} (under
+review).
+
+Hall, P. A., \& Soskice, D. (Eds.). (2001). \emph{Varieties of
+capitalism: The institutional foundations of comparative advantage}.
+Oxford University Press.
+
+Hessels, J., \& Terjesen, S. (2010). Resource dependency and
+institutional theory perspectives on direct and indirect export choices.
+\emph{Small Business Economics, 34}(2), 203--220.
+https://doi.org/10.1007/s11187-008-9156-4
+
+Hertog, S. (2010). \emph{Princes, brokers, and bureaucrats: Oil and the
+state in Saudi Arabia}. Cornell University Press.
+
+Hsieh, C.-T., \& Klenow, P. J. (2009). Misallocation and manufacturing
+TFP in China and India. \emph{Quarterly Journal of Economics, 124}(4),
+1403--1448.
+
+Hsieh, C.-T., \& Klenow, P. J. (2014). The life cycle of plants in India
+and Mexico. \emph{Quarterly Journal of Economics, 129}(3), 1035--1084.
+
+Johanson, J., \& Vahlne, J.-E. (1977). The internationalization process
+of the firm. \emph{Journal of International Business Studies, 8}(1),
+23--32.
+
+Johanson, J., \& Vahlne, J.-E. (2009). The Uppsala internationalization
+process model revisited. \emph{Journal of International Business
+Studies, 40}(9), 1411--1431.
+
+Kafouros, M., Wang, C., Piperopoulos, P., \& Zhang, M. (2023). Academic
+publishing in business and management. \emph{Global Strategy Journal,
+13}(1), 3--28.
+
+Kaufmann, D., Kraay, A., \& Mastruzzi, M. (2011). The worldwide
+governance indicators: Methodology and analytical issues. \emph{Hague
+Journal on the Rule of Law, 3}(2), 220--246.
+
+Khanna, T., \& Palepu, K. G. (2010). \emph{Winning in emerging markets:
+A road map for strategy and execution}. Harvard Business Press.
+
+Kirca, A. H., Roth, K., Hult, G. T. M., \& Cavusgil, S. T. (2012). The
+role of context in the multinationality-performance relationship: A
+meta-analytic review. \emph{Global Strategy Journal, 2}(2), 108--121.
+
+Lu, J. W., \& Beamish, P. W. (2001). The internationalization and
+performance of SMEs. \emph{Strategic Management Journal, 22}(6--7),
+565--586. https://doi.org/10.1002/smj.184
+
+Lu, J. W., \& Beamish, P. W. (2004). International diversification and
+firm performance: The S-curve hypothesis. \emph{Academy of Management
+Journal, 47}(4), 598--609.
+
+Mar, J., Đỗ, T. H., \& Phan, A. T. (2026). Digital adoption and
+internationalization in Singapore. \emph{Management International
+Review} (under review).
+
+Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., \& van Essen, M.
+(2016). Home country institutions and the
+internationalization-performance relationship. \emph{Journal of
+Management, 42}(5), 1075--1110.
+
+North, D. C. (1990). \emph{Institutions, institutional change and
+economic performance}. Cambridge University Press.
+
+Paternoster, R., Brame, R., Mazerolle, P., \& Piquero, A. (1998). Using
+the correct statistical test for the equality of regression
+coefficients. \emph{Criminology, 36}(4), 859--866.
+
+Peng, M. W., \& Ilinitch, A. Y. (1998). Export intermediary firms: A
+note on export development research. \emph{Journal of International
+Business Studies, 29}(3), 609--620.
+https://doi.org/10.1057/palgrave.jibs.8490011
+
+Peng, M. W. (2001). The resource-based view and international business.
+\emph{Journal of Management, 27}(6), 803--829.
+
+Peng, M. W. (2003). Institutional transitions and strategic choices.
+\emph{Academy of Management Review, 28}(2), 275--296.
+
+Richard, P. J., Devinney, T. M., Yip, G. S., \& Johnson, G. (2009).
+Measuring organizational performance: Towards methodological best
+practice. \emph{Journal of Management, 35}(3), 718--804.
+https://doi.org/10.1177/0149206308330560
+
+Sachs, J. D., \& Warner, A. M. (2001). The curse of natural resources.
+\emph{European Economic Review, 45}(4--6), 827--838.
+
+Schwens, C., Zapkau, F. B., Brouthers, K. D., \& Hollender, L. (2018).
+How overconfidence can blind internationalization performance
+predictions. \emph{Journal of World Business, 53}(3), 290--301.
+
+Sikdar, A., \& Mukhopadhyay, A. (2026). Technology spillovers and firm
+performance in India. \emph{Asian Development Review, 43}(1), 37--75.
+
+StartupBlink. (2026). \emph{Global startup ecosystem index 2026}.
+StartupBlink Research.
+
+Stallkamp, M., \& Schotter, A. P. J. (2021). Platforms without borders?
+\emph{Global Strategy Journal, 11}(1), 58--80.
+
+Sullivan, D. (1994). Measuring the degree of internationalization of a
+firm. \emph{Journal of International Business Studies, 25}(2), 325--342.
+https://doi.org/10.1057/palgrave.jibs.8490203
+
+Teece, D. J., Pisano, G., \& Shuen, A. (1997). Dynamic capabilities and
+strategic management. \emph{Strategic Management Journal, 18}(7),
+509--533.
+
+UNCTAD. (2023). \emph{World investment report 2023}. United Nations
+Conference on Trade and Development.
+
+Venkatraman, N., \& Ramanujam, V. (1986). Measurement of business
+performance in strategy research. \emph{Academy of Management Review,
+11}(4), 801--814.
+
+Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J.
+Q., Fabian, N., \& Haenlein, M. (2021). Digital transformation: A
+multidisciplinary reflection and research agenda. \emph{Journal of
+Business Research, 122}, 889--901.
+
+Wang, J., Huang, Y., \& Hong, H. (2024). Technology concentration and
+bank risk: Evidence from Chinese commercial banks. \emph{International
+Review of Financial Analysis, 91}, 102968.
+
+Wernerfelt, B. (1984). A resource-based view of the firm.
+\emph{Strategic Management Journal, 5}(2), 171--180.
+
+Williamson, O. E. (1985). \emph{The economic institutions of
+capitalism}. Free Press.
+
+World Bank. (2023). \emph{World Bank Enterprise Surveys 2023}. World
+Bank Group.
+
+World Bank. (2024). \emph{World development indicators 2024}. World Bank
+Group.
+
+World Bank. (2025). \emph{World Bank Enterprise Surveys 2025}. World
+Bank Group.
+
+Wu, J., Xu, L., \& Yang, Z. (2022). Multinationality and performance of
+emerging economy multinational enterprises: A twenty-year study.
+\emph{International Business Review, 31}(5), 102003.
+
+Xu, D. (2024). De jure versus de facto institutional distance.
+\emph{Global Strategy Journal, 14}(2), 187--215.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{phux1ee5-lux1ee5c}{%
+\subsection{PHỤ LỤC}\label{phux1ee5-lux1ee5c}}
+
+\hypertarget{phux1ee5-lux1ee5c-a-phux1ea1m-vi-thux1ef1c-tux1ebf-cux1ee7a-pool-dux1eef-liux1ec7u-wbes}{%
+\subsubsection{Phụ lục A --- Phạm vi thực tế của pool dữ liệu
+WBES}\label{phux1ee5-lux1ee5c-a-phux1ea1m-vi-thux1ef1c-tux1ebf-cux1ee7a-pool-dux1eef-liux1ec7u-wbes}}
+
+\textbf{Bảng A.1}. \emph{Phân bổ 49 nền kinh tế theo nhóm ICRV --- pool
+mô tả 86.701 doanh nghiệp, 102 cặp nền kinh tế × năm, 2006--2026.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Nhóm ICRV
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nền kinh tế (năm khảo sát)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Đợt
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+n
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Nhóm I --- Advanced đổi mới sáng tạo (5 nền)} & Hàn Quốc (2024),
+Israel (2013, 2024), Singapore (2023), Đài Loan (2024), Hong Kong SAR
+(2023) & 6 & 4.222 \\
+\textbf{Nhóm II --- Advanced tài nguyên (6 nền)} & Saudi Arabia (2025),
+Qatar (2025), Oman (2026), Bahrain (2024), Brunei (2025), Kuwait (2025)
+& 6 & 2.231 \\
+\textbf{Nhóm III --- Trung bình cao (6 nền)} & Kazakhstan (2009, 2013,
+2019, 2024), Malaysia (2015, 2019, 2024), Trung Quốc (2024), Thái Lan
+(2016, 2025), Armenia (2009, 2013, 2020, 2024), Georgia (2013, 2019,
+2023) & 17 & 13.993 \\
+\textbf{Nhóm IV --- Chuyển đổi TB-thấp (7 nền)} & Ấn Độ (2014, 2022,
+2025), Indonesia (2009, 2015, 2023), Việt Nam (2009, 2015, 2023),
+Pakistan (2013, 2022), Bangladesh (2013, 2022), Mông Cổ (2009, 2013,
+2019), Philippines (2023) & 17 & 45.003 \\
+\textbf{Nhóm V --- Đang nổi (17 nền)} & Uzbekistan, Jordan, Lào, Iraq,
+Myanmar, Kyrgyzstan, Sri Lanka, Lebanon, Tajikistan, Campuchia,
+Afghanistan, Yemen, Bhutan, Nepal, Azerbaijan, Turkmenistan, Maldives
+(các đợt 2006--2025) & 40 & 18.957 \\
+\textbf{Nhóm VI --- SIDS (8 nền)} & Timor-Leste (2009, 2015, 2021), Fiji
+(2009, 2025), Solomon Islands (2015, 2025), Tonga (2009, 2024), Samoa
+(2009, 2023), Vanuatu (2009, 2023), Papua New Guinea (2015, 2024),
+Kiribati (2025) & 16 & 2.295 \\
+\textbf{Tổng} & \textbf{49 nền kinh tế} & \textbf{102} &
+\textbf{86.701} \\
+\end{longtable}
+
+\emph{Ghi chú: mỗi cặp nền kinh tế × năm lấy đúng một cross-section
+chuẩn WBES; loại các điều tra phi chính thức, siêu nhỏ (Micro) và panel
+mở rộng; chỉ nhận đợt khảo sát từ 2006 trở đi (bộ câu hỏi so sánh được
+toàn cầu). Khung ước lượng của luận án (91.982 doanh nghiệp / 49 nền;
+pool phân loại 96.415 / 52 nền) được hợp nhất và hài hòa hóa riêng theo
+quy trình tại Phụ lục A của luận án; hai khung thống nhất về danh sách
+nền kinh tế và nhãn nhóm ICRV.}
+
+\textbf{Ba thế hệ schema WBES trong pool mô tả}:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Schema
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Năm
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Đợt
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+n
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Phạm vi DAI
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+PICS3 / tiền-Standardized & 2006--2012 & 18 & 8.048 & Chỉ Tier-1
+(website nhị phân) \\
+Standardized & 2013--2017 & 27 & 23.940 & Chỉ Tier-1 \\
+BREADY/BEE & 2018--2026 & 57 & 54.713 & Tier-1 + Tier-2 (thanh toán điện
+tử k33/k38) \\
+\end{longtable}
+
+Hệ thống phòng thủ ba tầng (§2.2) đảm bảo kết quả từ BREADY 2025 không
+bị nhiễu hiệu ứng schema.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Chuyên đề tiến sĩ số 1 --- Phiên bản nộp (12/05/2026)}
+\emph{Nghiên cứu sinh: Đỗ Thùy Hương --- Trường Đại học Kỹ thuật Công
+nghệ Vĩnh Long (VLUTE)} \emph{Người hướng dẫn: TS. Nguyễn Minh Cảnh ---
+Trường Kinh tế, Đại học Cần Thơ (CTU)}
+
+\end{document}

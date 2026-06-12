@@ -61,3 +61,14 @@ tools/mcp/**/node_modules/
 tools/mcp/**/dist/
 !tools/mcp/OECD-MCP-main/dist/
 tools/econ/stata-mcp/
+
+# Hình copy tái tạo được bằng scripts/build_latex_ctu.sh
+latex/ctu/figures/
+# File phụ trợ LaTeX
+latex/**/*.aux
+latex/**/*.log
+latex/**/*.out
+latex/**/*.toc
+latex/**/*.bbl
+latex/**/*.blg
+latex/**/*.pdf
