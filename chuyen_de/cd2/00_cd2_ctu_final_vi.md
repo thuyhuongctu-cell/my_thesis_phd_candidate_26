@@ -499,12 +499,12 @@ Bảng 2.6. CDCM — Dự đoán tác động DAI theo 3 chiều ngữ cảnh.
 | Nhóm I (Singapore) | Cao (>50%) | Bão hòa (>65%) | Null trực tiếp; FSTS²×DAI = +3,119 | (không cần IV) | Mở rộng tình huống ở nhu cầu điều phối cao |
 | Nhóm III (Trung Quốc) | Trung bình (20–50%) | Trung bình–cao (>55%) | Null/kiểm soát | Null (Tier 1 mất tín hiệu phân biệt) | Tier 1 bão hòa |
 | Nhóm IV (Việt Nam) | Thấp–trung bình (<40%) | Trung bình (<55%) | Dương nhỏ (0,095–0,175) | Null (β = 0,018; F bậc một = 34,6) | Phụ thuộc chọn lựa |
-| Nhóm V (Cận biên) | Thấp (<20%) | Thấp (<30%) | Không xác định | Cần IV | Hạ tầng số thiếu |
+| Nhóm V (Đang nổi) | Thấp (<20%) | Thấp (<30%) | Không xác định | Cần IV | Hạ tầng số thiếu |
 | Nhóm VI (SIDS) | Cao do tắt buộc (>40%) | Thấp–trung | Gánh nặng tắt buộc trội | — | I→P gánh nặng tắt buộc che lấp tín hiệu DAI |
 
 H3: Mức độ áp dụng số (DAI) có cơ chế điều tiết **phụ thuộc chế độ thể chế** trong quan hệ I→P. DAI không hoạt động như một phần thưởng năng suất đồng nhất mà như một nguồn lực mở rộng tình huống theo CDCM, với hướng và cường độ khác nhau rõ ràng giữa Emerging/Frontier và Advanced. Hai sub-hypothesis phân biệt dấu kỳ vọng:
 
-**H3a** (Emerging và Frontier — Nhóm III–V): Trong các nền kinh tế đang nổi và cận biên, DAI điều tiết tích cực quan hệ FSTS → ln(LP): β(FSTS×DAI) > 0 và/hoặc β(FSTS²×DAI) > 0 trong ước lượng OLS. Cơ chế: DAI giảm khoảng cách tâm lý, mở rộng tiếp cận thị trường ảo, và tăng năng lực điều phối ở những bối cảnh mà website presence vẫn là tín hiệu phân biệt (chưa bão hòa). Tuy nhiên, kiểm định bằng biến công cụ tại Nhóm IV (Việt Nam) cho kết quả null (β = 0,018; p = 0,942) — OLS dương phản ánh phụ thuộc chọn lựa, không nhân quả. H3a do đó là giả thuyết có điều kiện, cần kiểm định nhân quả để xác nhận.
+**H3a** (các nền đang nổi và chuyển đổi — Nhóm III–V): Trong các nền kinh tế này, DAI điều tiết tích cực quan hệ FSTS → ln(LP): β(FSTS×DAI) > 0 và/hoặc β(FSTS²×DAI) > 0 trong ước lượng OLS. Cơ chế: DAI giảm khoảng cách tâm lý, mở rộng tiếp cận thị trường ảo, và tăng năng lực điều phối ở những bối cảnh mà website presence vẫn là tín hiệu phân biệt (chưa bão hòa). Tuy nhiên, kiểm định bằng biến công cụ tại Nhóm IV (Việt Nam) cho kết quả null (β = 0,018; p = 0,942) — OLS dương phản ánh phụ thuộc chọn lựa, không nhân quả. H3a do đó là giả thuyết có điều kiện, cần kiểm định nhân quả để xác nhận.
 
 **H3b** (Advanced — Nhóm I–II): Trong các nền kinh tế tiên tiến, tác động trực tiếp không điều kiện của DAI lên ln(LP) có thể null hoặc âm do bão hòa số và single-component measurement (chỉ website binary — Tier-1 proxy — không phản ánh đầy đủ năng lực số). Tuy nhiên, tác động điều tiết điều kiện β(FSTS²×DAI) vẫn dương ở mức FSTS cao nơi nhu cầu điều phối xuyên biên giới cao (bằng chứng neo đậu: P4 Singapore β(FSTS²×DAI) = +3,119, p = 0,005).
 
@@ -557,7 +557,7 @@ Bảng 2.5. Hệ giả thuyết H1–H6 — tóm tắt cơ chế, biến, kỳ v
 |------|-----|-----------------|----------------|---------|---------------------|
 | H1 | Phi tuyến I→P | Uppsala 3 giai đoạn; chi phí phối hợp | FSTS, FSTS², FSTS³ | β₁ > 0; β₂ < 0 | P3 TP 39–46%; P5 TP 47–49% |
 | H2 | TCI nâng mặt bằng | RBV năng lực hấp thụ | TCI, FSTS×TCI | β(TCI) > 0; độ cong: khám phá | P3 IV nhân quả; P5 +0,260 → +0,426 |
-| H3a | DAI Emerging/Frontier (+) | CDCM × Digital Adoption Lens | DAI, FSTS×DAI | β(FSTS×DAI) > 0 (Nhóm III–V) | P3 IV null; bằng chứng hạn chế |
+| H3a | DAI nhóm đang nổi/chuyển đổi (+) | CDCM × Digital Adoption Lens | DAI, FSTS×DAI | β(FSTS×DAI) > 0 (Nhóm III–V) | P3 IV null; bằng chứng hạn chế |
 | H3b | DAI Advanced (null/−, conditional +) | CDCM × Digital Adoption Lens | DAI, FSTS²×DAI | Direct: null/–; cond: β(FSTS²×DAI) > 0 ở FSTS cao | P4 +3,119; bão hòa số |
 | H4a | Kinh nghiệm QL điều tiết | Upper Echelons | exp_manager, FSTS×exp | β(FSTS×exp) > 0 (δ_exp > 0) | (WBES b5) |
 | H4b | Học vấn QL điều tiết | Upper Echelons | educ_manager, FSTS×educ | β(FSTS×educ) > 0 (δ_educ > 0) | (WBES b7a) |
@@ -713,7 +713,7 @@ Bảng 2.7. Tám mô hình M0–M7 — cấu trúc, giả thuyết kiểm địn
 
 Dữ liệu gốc: World Bank Enterprise Surveys (WBES) — cơ sở dữ liệu điều tra vi mô doanh nghiệp lớn nhất thế giới, phủ hơn 170 quốc gia với hơn 400.000 cuộc phỏng vấn từ 2006 đến nay. WBES áp dụng phương pháp lấy mẫu ngẫu nhiên phân tầng theo quy mô doanh nghiệp và ngành.
 
-Pool chuyên đề: 96.415 doanh nghiệp phân loại (52 nền nguồn); mẫu phân tích chính 91.982 doanh nghiệp / 49 nền kinh tế châu Á và Thái Bình Dương; 108 cặp quốc gia-năm; 14 mốc khảo sát từ 2009 đến 2025.
+Pool chuyên đề: 96.415 doanh nghiệp phân loại (52 nền nguồn); mẫu phân tích chính 91.982 doanh nghiệp / 49 nền kinh tế châu Á và Thái Bình Dương; 101 cặp nền kinh tế–năm trong giai đoạn 2009–2025 (kèm một đợt khảo sát Oman 2003 trong bộ dữ liệu hợp nhất).
 
 Bảng 2.8. Cấu trúc pool theo nhóm ICRV và mốc khảo sát.
 
@@ -727,13 +727,13 @@ Bảng 2.8. Cấu trúc pool theo nhóm ICRV và mốc khảo sát.
 | VI — SIDS (`SIDS_small`) | Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu, Timor-Leste | 8 | 1.885 |
 | **Tổng** | | **49** | **91.864** (≈91.982 mẫu phân tích luận án) |
 
-*Crosswalk tên CĐ ↔ icrv_label: Nhóm IV `Lower_mid_transition` (7 nền đông dân) — CĐ bản cũ gọi "Đang nổi"; Nhóm V `Emerging` (17 nền) — CĐ bản cũ gọi "Cận biên/Frontier" (tên đã hoán đổi so với nhãn dữ liệu, nay căn theo nhãn dữ liệu P7). P8: mẫu chính 7 nền Pacific (pool 1.371); robustness 9 nền (thêm Comoros + Timor-Leste). Pool phân loại đầy đủ = 96.415 DN/52 nền; loại 3 nền ngoài châu Á (Comoros, Turkey, Cyprus) → khung phân tích 49 nền Á–TBD = 91.864 DN.*
+*Ghi chú: Nhãn nhóm theo biến phân loại `icrv_label`, dùng thống nhất trong luận án và Chuyên đề 1 — Nhóm IV `Lower_mid_transition` (7 nền đông dân), Nhóm V `Emerging` (17 nền), Nhóm VI `SIDS_small` (8 nền). Nghiên cứu chuyên sâu SIDS (P8) lấy mẫu chính 7 nền Thái Bình Dương và kiểm định bền vững mở rộng 9 nền (thêm Comoros + Timor-Leste). Pool phân loại đầy đủ = 96.415 DN/52 nền; loại 3 nền ngoài châu Á (Comoros, Turkey, Cyprus) → khung phân tích 49 nền Á–TBD = 91.864 DN.*
 
-Ba thế hệ schema WBES và giao thức hòa hợp: PICS3 (2009–2013): biến FSTS từ d3a/d3b; TCI từ h1/h8/b8; DAI từ c22b only. Standardized (2014–2018): biến tái định dạng nhưng tương thích. BREADY/BEE (2019–2025): schema mở rộng; DAI đầy đủ (c22b + k33 + k38); module nhà quản trị chi tiết hơn.
+Ba thế hệ schema WBES và giao thức hòa hợp: PICS3 (2006–2012): biến FSTS từ d3b/d3c; TCI từ h1/h8/b8; DAI từ c22b only. Standardized (2013–2017): biến tái định dạng nhưng tương thích. BREADY/BEE (2018–2025): schema mở rộng; DAI đầy đủ (c22b + k33 + k38); module nhà quản trị chi tiết hơn.
 
 *Ghi chú về trọng số khảo sát:* Chuyên đề không áp dụng trọng số mẫu WBES (`wt_final`) trong các mô hình hồi quy vì ba lý do. Thứ nhất, mục tiêu phân tích là xác định hệ số quan hệ I→P tại cấp doanh nghiệp (conditional on observables), không phải ước lượng thống kê mô tả đại diện tổng thể. Thứ hai, hai chiều fixed effects (quốc gia × năm) đã hấp thụ phần lớn biến thiên liên quan đến thiết kế lấy mẫu phân tầng. Thứ ba, tích hợp trọng số mẫu vào mô hình fixed effects không đồng nhất gây phức tạp ước lượng mà không đem lại cải thiện tính hợp lệ nội tại (Solon et al., 2015). Phân tích độ nhạy với trọng số được đề xuất như kiểm định tương lai (xem §2.4.2) để xác nhận tính vững của kết quả so với mẫu không có trọng số.
 
-Giao thức hòa hợp bao gồm: crosswalk biến giữa ba schema; xử lý giá trị thiếu; loại bỏ ngoại lệ tại phân vị 1/99; chuyển đổi doanh thu về PPP USD 2017.
+Giao thức hòa hợp bao gồm: crosswalk biến giữa ba schema; xử lý giá trị thiếu; loại bỏ ngoại lệ tại phân vị 1/99 trong cụm nền kinh tế × năm; và chuẩn hóa năng suất xuyên tiền tệ (xem dưới).
 
 ##### Đo lường biến chi tiết
 
@@ -741,7 +741,7 @@ Biến phụ thuộc — ln(LP):
 
 $$\ln(LP)_i = \ln\left(\frac{\text{doanh thu hằng năm}_i}{\text{lao động thường xuyên}_i}\right)$$
 
-Doanh thu (d2) được chuyển đổi về PPP USD 2017 trước khi tính LP. Loại bỏ ngoại lệ tại phân vị 1/99 để giảm ảnh hưởng ngoại lệ.
+Doanh thu (d2) được báo cáo bằng **nội tệ** của từng nền kinh tế, nên mức $\ln(LP)$ thô không so sánh được trực tiếp xuyên quốc gia. Để trung hòa khác biệt đơn vị tiền tệ và mặt bằng giá, năng suất lao động được **chuẩn hóa z trong từng cụm nền kinh tế × năm** trước khi đưa vào mô hình, và mọi đặc tả đều có **hiệu ứng cố định hai chiều (nền kinh tế × năm)** hấp thụ toàn bộ thành phần bất biến theo nước (tiền tệ, mặt bằng giá, chế độ kế toán). Cách này bảo đảm hệ số quan hệ I→P được nhận dạng từ biến thiên *nội bộ* nền kinh tế–năm, nhất quán với Phụ lục A của luận án (§A.5) và nghiên cứu đa quốc gia P7. Mọi so sánh **mức** xuyên quốc gia dùng tỷ suất không thứ nguyên (ROS) hoặc giá trị đã hiệu chỉnh sức mua tương đương (PPP), không dùng mức $\ln(LP)$ thô. Giá trị được winsorize tại phân vị 1/99 trong cụm nền kinh tế × năm để giảm ảnh hưởng ngoại lệ.
 
 Biến độc lập — FSTS:
 
@@ -1071,7 +1071,7 @@ Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia.
 ICRV Nhóm IV — Đang nổi (7 nền kinh tế):
 Việt Nam, Indonesia, Philippines, Ấn Độ, Sri Lanka, Jordan, Mông Cổ.
 
-ICRV Nhóm V — Cận biên (17 nền kinh tế):
+ICRV Nhóm V — Đang nổi (17 nền kinh tế):
 Bangladesh, Pakistan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Timor-Leste, Iraq, Lebanon, Yemen.
 
 ICRV Nhóm VI — SIDS Thái Bình Dương, trường hợp biên (7 nền kinh tế):
