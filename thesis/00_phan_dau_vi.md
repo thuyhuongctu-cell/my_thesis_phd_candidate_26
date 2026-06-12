@@ -89,7 +89,7 @@ Key findings: (1) the I–P relationship is inverted-U shaped, but the turning p
 **CHƯƠNG 4. KẾT QUẢ NGHIÊN CỨU**
 - 4.1 Thực trạng quốc tế hóa và hiệu quả tại châu Á theo nhóm ICRV
 - 4.2 Meta-analysis ba tầng (P6), 4.3 Singapore (P4), 4.4 Trung Quốc (P5), 4.5 Việt Nam (P3)
-- 4.6 Kiểm định toàn mẫu đa bối cảnh (P7), 4.7 SIDS (P8), 4.8 Ấn Độ (P9), 4.9 Tổng hợp theo hệ giả thuyết
+- 4.6 Kiểm định toàn mẫu đa bối cảnh (P7), 4.7 SIDS (P8), 4.8 Ấn Độ (P9), 4.9 Tam giác hóa với bằng chứng vĩ mô WB, 4.10 Tổng hợp theo hệ giả thuyết
 
 **CHƯƠNG 5. THẢO LUẬN VÀ KẾT LUẬN**
 - 5.1 Bàn luận theo khung CDCM, 5.2 So sánh nghiên cứu trước, 5.3 Đóng góp lý thuyết
@@ -154,7 +154,7 @@ Key findings: (1) the I–P relationship is inverted-U shaped, but the turning p
 - Bảng định nghĩa biến, Nghiên cứu P7 đa quốc gia (Chương 3, §3.4.5.4)
 - Bảng định nghĩa biến, Nghiên cứu P8 SIDS (Chương 3, §3.4.5.5)
 - Bảng tóm tắt phương pháp: Kế thừa và đóng góp mới (Chương 3, §3.6)
-- Bảng tổng hợp kết quả kiểm định hệ giả thuyết H1–H6, H1b, H1c (Chương 4, §4.9)
+- Bảng tổng hợp kết quả kiểm định hệ giả thuyết H1–H6, H1b, H1c (Chương 4, §4.10)
 
 ## DANH MỤC HÌNH
 

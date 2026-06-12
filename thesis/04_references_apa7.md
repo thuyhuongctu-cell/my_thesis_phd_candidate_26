@@ -133,11 +133,15 @@ Pangarkar, N. (2008). Internationalization and performance of small- and medium-
 
 ### Bổ sung v3.2 — Phương pháp hợp nhất dữ liệu đa quốc gia (Phụ lục A)
 
+Angrist, J. D., & Pischke, J.-S. (2009). *Mostly harmless econometrics: An empiricist's companion*. Princeton University Press.
+
 Deaton, A. (1985). Panel data from a time series of cross-sections. *Journal of Econometrics, 30*(1–2), 109–126. https://doi.org/10.1016/0304-4076(85)90134-4 *(Cơ sở repeated cross-sections — Phụ lục A.1, A.6.)*
 
 Feenstra, R. C., Inklaar, R., & Timmer, M. P. (2015). The next generation of the Penn World Table. *American Economic Review, 105*(10), 3150–3182. https://doi.org/10.1257/aer.20130954 *(Điều chỉnh PPP cho so sánh mức xuyên quốc gia — Phụ lục A.5.)*
 
 Little, R. J. A., & Rubin, D. B. (2019). *Statistical analysis with missing data* (3rd ed.). John Wiley & Sons. https://doi.org/10.1002/9781119482260 *(Xử lý dữ liệu thiếu, listwise/MAR — Phụ lục A.9.)*
+
+Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. *Journal of Business & Economic Statistics, 37*(2), 187–204. https://doi.org/10.1080/07350015.2016.1227711
 
 Verbeek, M. (2008). Pseudo-panels and repeated cross-sections. In L. Mátyás & P. Sevestre (Eds.), *The econometrics of panel data* (3rd ed., pp. 369–383). Springer. https://doi.org/10.1007/978-3-540-75892-1_11 *(Khung lát cắt ngang lặp lại — Phụ lục A.1, A.6.)*
 
@@ -178,6 +182,12 @@ World Bank. (2025d, December). *Korea global digital knowledge center*. World Ba
 World Bank. (2026a). *ID4D & G2Px annual report 2023: Putting people at the center of digital public infrastructure*. World Bank Group.
 
 World Bank. (2026b, April). *Viet Nam macro monitoring: April 2026*. World Bank Group, Fiscal Policy and Growth Viet Nam Team.
+
+World Bank. (2026c). Frontier market economies: Promise, performance, and prospects. In *Global Economic Prospects, January 2026* (Chapter 4). World Bank Group. https://doi.org/10.1596/978-1-4648-2148-6
+
+World Bank. (2026d, April). *Commodity markets outlook, April 2026*. World Bank Group.
+
+World Bank. (2026e). *Public institutions in the age of AI: Emerging practices* (Prosperity Insight Series). World Bank Group, GovTech and Public Sector Innovation.
 
 **World Bank. (n.d.). *Tài liệu tóm tắt: Các chỉ số khảo sát doanh nghiệp Enterprise Surveys* [Summary document: Enterprise Survey indicators]. World Bank.** https://www.enterprisesurveys.org *(Mới v2.5 — Bản tiếng Việt tóm tắt 5 lĩnh vực WBES với thuật ngữ Việt chuẩn từ World Bank: (1) Quy định pháp lý + Thuế (Time Tax = "Thuế thời gian"; Tax compliance = "Tuân thủ thuế"); (2) Tài chính + Tín dụng (Credit constraint = "Hạn chế tín dụng"; Financial digitalization = "Số hóa tài chính"); (3) Cơ sở hạ tầng + Khí hậu (Energy management = "Quản lý năng lượng"); (4) Tham nhũng + Tranh chấp (Bribery = "Hối lộ"; Graft = "Tham ô"); (5) Lao động + Đổi mới (Online presence = "Hiện diện trực tuyến"). Năm xuất bản KHÔNG ghi rõ — APA 7th cite "n.d." per §8.31. Cited file 09b_vn_term_glossary.md cho thuật ngữ chuẩn + chuyển dịch tiếng Việt CĐ1 v3.x.)*
 
@@ -758,7 +768,9 @@ Sachs, J. D., & Warner, A. M. (2001). The curse of natural resources. *European 
 
 Sahay, R., von Allmen, U. E., Lahreche, A., Khera, P., Ogawa, S., Bazarbash, M., & Beaton, K. (2020). *The promise of fintech: Financial inclusion in the post COVID-19 era* (IMF Departmental Paper No. DP/2020/09). International Monetary Fund.
 
-Solon, G., Haider, S. J., & Wooldridge, J. M. (2015). What are we weighting for? *Journal of Human Resources, 50*(2), 301–316. https://doi.org/10.3368/jhr.50.2.301
+Solon, G., Haider, S. J., & Wooldridge, J. M. (2010). *Econometric analysis of cross section and panel data* (2nd ed.). MIT Press.
+
+Wooldridge, J. M. (2015). What are we weighting for? *Journal of Human Resources, 50*(2), 301–316. https://doi.org/10.3368/jhr.50.2.301
 
 Stanley, T. D., & Doucouliagos, H. (2014). Meta-regression approximations to reduce publication selection bias. *Research Synthesis Methods, 5*(1), 60–78. https://doi.org/10.1002/jrsm.1095
 
@@ -806,3 +818,10 @@ Hessels, J., & Terjesen, S. (2010). Resource dependency and institutional theory
 Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on export development research. *Journal of International Business Studies, 29*(3), 609–620. https://doi.org/10.1057/palgrave.jibs.8490011
 
 Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Journal of International Business Studies, 25*(2), 325–342. https://doi.org/10.1057/palgrave.jibs.8490203
+
+
+## Bổ sung v2.9 — Phân biệt cấu trúc số (Chương 2 §2.2.5, Chương 3 §3.3.3)
+
+Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/MISQ/2013/37:2.3
+
+Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
