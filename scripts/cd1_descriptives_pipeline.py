@@ -41,7 +41,7 @@ DROP_LABELS = ["Philippines_panel", "Nepal_panel", "Mongolia_panel",
                "Comoros", "Cyprus", "Turkey"]
 ORDER = ["Advanced_innovation", "Advanced_resource", "Upper_mid",
          "Lower_mid_transition", "Emerging", "SIDS_small"]
-GROUP_SIZE = {"Advanced_innovation": 5, "Advanced_resource": 6, "Upper_mid": 6,
+GROUP_SIZE = {"Advanced_innovation": 6, "Advanced_resource": 6, "Upper_mid": 6,
               "Lower_mid_transition": 7, "Emerging": 17, "SIDS_small": 8}
 COUNTRY_MAP = {
     "HongKong": "HongKong", "Korea": "Korea", "Taiwan": "Taiwan",
@@ -57,7 +57,11 @@ NEED = YESNO + ["j7a", "j30f", "b5", "d3b", "d3c", "l1", "l2", "b2b"]
 def icrv_map():
     df = pd.read_csv(MASTER, usecols=["country", "icrv_label"], low_memory=False)
     df = df[~df["country"].isin(DROP_LABELS)]
-    return dict(df.dropna().groupby("country")["icrv_label"].first())
+    m = dict(df.dropna().groupby("country")["icrv_label"].first())
+    # Japan: first-ever WBES survey (2025); a full Advanced-innovation member of the
+    # descriptive frame. Not in the econometric master CSV, so injected here.
+    m.setdefault("Japan", "Advanced_innovation")
+    return m
 
 
 def file_country(fn):

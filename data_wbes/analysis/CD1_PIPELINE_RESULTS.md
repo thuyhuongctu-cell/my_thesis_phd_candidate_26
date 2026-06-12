@@ -4,7 +4,7 @@
 > 49 nền, **dedupe theo nước-năm** (một cross-section chuẩn / economy-year; loại
 > panel/Informal/ISBS/ISES/Micro/expansion/TGS). Tái lập: `scripts/cd1_descriptives_pipeline.py`
 > + `scripts/wbes_canon.py`. Outputs: `cd1_pipeline_by_icrv.csv`, `cd1_pipeline_coverage.csv`.
-> Cập nhật 2026-06-11 sau khi nạp raw bổ sung (GCC + Pacific). 102 file dùng — **đủ 49/49 nền có raw** (đã loại các đợt khảo sát trước 2006 theo quy ước phạm vi).
+> Cập nhật 2026-06-11 sau khi nạp raw bổ sung (GCC + Pacific). 102 file dùng — **đủ 50/50 nền có raw (gồm Nhật Bản 2025, Nhóm I)** (đã loại các đợt khảo sát trước 2006 theo quy ước phạm vi).
 
 ## A. Bảng mô tả theo nhóm ICRV (đơn vị %, trừ khi ghi khác)
 

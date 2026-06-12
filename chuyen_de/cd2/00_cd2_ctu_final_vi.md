@@ -719,7 +719,7 @@ Bảng 2.8. Cấu trúc pool theo nhóm ICRV và mốc khảo sát.
 
 | ICRV Nhóm (icrv_label) | Nền kinh tế | Số nền | N doanh nghiệp |
 |---|---|:--:|:--:|
-| I — Adv. đổi mới (`Advanced_innovation`) | Singapore, HongKong, Hàn Quốc, Đài Loan, Israel | 5 | 4.222 |
+| I — Adv. đổi mới (`Advanced_innovation`) | Singapore, HongKong, Hàn Quốc, Đài Loan, Israel (+ Nhật Bản trong khung mô tả)¹ | 5 (mô tả: 6) | 4.222 |
 | II — Adv. tài nguyên (`Advanced_resource`) | Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei, Oman | 6 | 2.269 |
 | III — Trung bình cao (`Upper_mid`) | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia | 6 | 13.993 |
 | IV — Chuyển đổi TB-thấp (`Lower_mid_transition`) | Việt Nam, Ấn Độ, Indonesia, Philippines, Mông Cổ, Bangladesh, Pakistan | 7 | 50.926 |
@@ -727,7 +727,7 @@ Bảng 2.8. Cấu trúc pool theo nhóm ICRV và mốc khảo sát.
 | VI — SIDS (`SIDS_small`) | Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu, Timor-Leste | 8 | 1.885 |
 | **Tổng** | | **49** | **91.864** (≈91.982 mẫu phân tích luận án) |
 
-*Ghi chú: Nhãn nhóm theo biến phân loại `icrv_label`, dùng thống nhất trong luận án và Chuyên đề 1, Nhóm IV `Lower_mid_transition` (7 nền đông dân), Nhóm V `Emerging` (17 nền), Nhóm VI `SIDS_small` (8 nền). Nghiên cứu chuyên sâu SIDS (P8) lấy mẫu chính 7 nền Thái Bình Dương và kiểm định bền vững mở rộng 9 nền (thêm Comoros + Timor-Leste). Pool phân loại đầy đủ = 96.415 DN/52 nền; loại 3 nền ngoài châu Á (Comoros, Turkey, Cyprus) → khung phân tích 49 nền Á–TBD = 91.864 DN.*
+*Ghi chú: ¹Nhật Bản được WBES khảo sát lần đầu năm 2025 (n=2.168) và là thành viên thứ sáu của Nhóm I trong khung mô tả 50 nền (Chuyên đề 1); bộ dữ liệu ước lượng đa quốc gia của chuyên đề này (P7) được chạy trên 49 nền theo dữ liệu sẵn có tại thời điểm ước lượng, đưa Nhật Bản vào ước lượng là vòng tái ước lượng tiếp theo. Nhãn nhóm theo biến phân loại `icrv_label`, dùng thống nhất trong luận án và Chuyên đề 1, Nhóm IV `Lower_mid_transition` (7 nền đông dân), Nhóm V `Emerging` (17 nền), Nhóm VI `SIDS_small` (8 nền). Nghiên cứu chuyên sâu SIDS (P8) lấy mẫu chính 7 nền Thái Bình Dương và kiểm định bền vững mở rộng 9 nền (thêm Comoros + Timor-Leste). Pool phân loại đầy đủ = 96.415 DN/52 nền; loại 3 nền ngoài châu Á (Comoros, Turkey, Cyprus) → khung phân tích 49 nền Á–TBD = 91.864 DN.*
 
 Ba thế hệ schema WBES và giao thức hòa hợp: PICS3 (2006–2012): biến FSTS từ d3b/d3c; TCI từ h1/h8/b8; DAI từ c22b only. Standardized (2013–2017): biến tái định dạng nhưng tương thích. BREADY/BEE (2018–2025): schema mở rộng; DAI đầy đủ (c22b + k33 + k38); module nhà quản trị chi tiết hơn.
 
