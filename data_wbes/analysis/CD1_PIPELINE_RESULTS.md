@@ -51,4 +51,4 @@
 
 - **Dedupe nước-năm** loại double-count (vd Nhóm IV trước 55.675 → 45.003 sau khi gộp đúng các sóng trùng). n_firms là tổng DN của TẤT CẢ sóng khảo sát mỗi nước (khác mẫu phân tích master vì pool nhiều đợt).
 - File raw không xóa khỏi kho; dedupe chỉ ở bước đọc (idempotent). Quy ước phạm vi: chỉ đợt khảo sát ≥2006 (WBES có bộ câu hỏi so sánh được); pre-2006 đã loại. Idempotent — chạy lại pipeline khi có raw mới.
-- Bảng đã đồng bộ vào CĐ1: **2.3.3.2, 2.3.4.1, 2.3.5.1**. Các bảng phân tán năng suất (2.3.3.1), temporal (2.3.6.x), tiểu cảnh (2.3.7.1), tương quan (2.3.8.x) vẫn theo bản khóa mô tả 101.185.
+- Bảng đã tính từ pipeline raw và dùng trong CĐ1: **2.3.3.2, 2.3.4.1, 2.3.5.1** (file này), **2.3.3.1** phân tán within-wave (`cd1_dispersion_by_wave.csv`), **2.3.6.1/2.3.6.4/2.3.6.5** temporal + tiểu nhóm + đợt 2025 (`cd1_wave_stats.csv`), **2.3.8.1** tương quan (`cd1_correlations_by_icrv.csv`), **Bảng A.1** (`cd1_economy_inventory.csv`). Toàn bộ CĐ1 hiện chỉ dùng MỘT pool mô tả: 86.701 DN / 49 nền / 102 cặp (2006–2026); 3 file lỗi mã hóa bị loại (Cambodia 2007, 2013; Lebanon 2009).
