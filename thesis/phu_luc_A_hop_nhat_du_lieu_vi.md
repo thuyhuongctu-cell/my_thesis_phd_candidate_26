@@ -1,4 +1,4 @@
-# PHỤ LỤC A — QUY TRÌNH HỢP NHẤT VÀ HÀI HÒA HÓA DỮ LIỆU DOANH NGHIỆP ĐA QUỐC GIA (WBES)
+# PHỤ LỤC A: QUY TRÌNH HỢP NHẤT VÀ HÀI HÒA HÓA DỮ LIỆU DOANH NGHIỆP ĐA QUỐC GIA (WBES)
 
 > Phụ lục này trình bày chi tiết, có luận chứng khoa học, quy trình hợp nhất (pooling)
 > và hài hòa hóa (harmonisation) các bộ khảo sát doanh nghiệp đơn lẻ theo quốc gia–năm
@@ -25,7 +25,7 @@ quyết định lọc và hài hòa.
 
 ## A.2 Nguồn dữ liệu và đơn vị phân tích
 
-Dữ liệu sơ cấp là **World Bank Enterprise Surveys (WBES)** — bộ khảo sát doanh nghiệp cấp
+Dữ liệu sơ cấp là **World Bank Enterprise Surveys (WBES)**, bộ khảo sát doanh nghiệp cấp
 cơ sở (establishment-level) do Nhóm Ngân hàng Thế giới thực hiện theo một bộ công cụ toàn
 cầu chuẩn hóa, áp dụng **chọn mẫu ngẫu nhiên phân tầng** (stratified random sampling) theo
 ba chiều: ngành (sản xuất/dịch vụ theo ISIC), quy mô lao động (nhỏ/vừa/lớn) và vùng địa lý
@@ -44,10 +44,10 @@ Tiêu chí "năm ≥ 2006" là **điều kiện cần nhưng chưa đủ**: mộ
 khảo sát sau 2006 chạy trên **bộ công cụ khu vực/quốc gia cũ** (ví dụ bộ PICS khu vực MENA
 hay các bảng hỏi Đông Dương đời đầu) với hệ thống mã biến riêng. Tiêu chí vận hành để một đợt
 khảo sát được nhận vào khung so sánh là **sự hiện diện của các biến lõi đã hài hòa** của bộ
-công cụ Standardized toàn cầu — cụ thể là `d2` (doanh thu), `l1` (lao động), `d3b`/`d3c`
+công cụ Standardized toàn cầu, cụ thể là `d2` (doanh thu), `l1` (lao động), `d3b`/`d3c`
 (xuất khẩu trực tiếp/gián tiếp). Ba đợt khảo sát đáp ứng năm ≥ 2006 nhưng **không** chứa các
-biến lõi này — Lebanon 2009 (bộ PICS MENA, mã `q####`), Cambodia 2007 và Cambodia 2013 (bảng
-hỏi đời đầu) — được loại theo đúng nguyên tắc này, song song với việc loại các bộ công cụ phi
+biến lõi này, Lebanon 2009 (bộ PICS MENA, mã `q####`), Cambodia 2007 và Cambodia 2013 (bảng
+hỏi đời đầu), được loại theo đúng nguyên tắc này, song song với việc loại các bộ công cụ phi
 chuẩn (Informal, ISBS, ISES, Micro, panel). Cần phân biệt: việc loại trừ này là do **bất
 tương thích bộ công cụ**, không phải do thiếu hay hỏng dữ liệu; các đợt Standardized của
 chính những nền này vẫn được giữ (Lebanon 2013 và 2019; Cambodia 2016 và 2023), và các đợt
@@ -79,9 +79,9 @@ flowchart TD
     C -->|"S3 · hài hòa hóa biến<br/>(LP, FSTS, TCI/DAI, controls)"| D["Lược đồ biến chung"]
     D -->|"S4 · mã thiếu −9/−8/−7 → khuyết;<br/>kiểm tra miền giá trị"| E["106.765 bản ghi doanh nghiệp–năm"]
     E -->|"S5 · gán chế độ thể chế ICRV<br/>(đủ chỉ số WGI)"| F["96.415 DN phân loại · 52 nền"]
-    F -->|"loại Comoros / Cyprus / Türkiye<br/>(ngoài Á–Thái Bình Dương)"| G["91.982 DN · 49 nền<br/>— MẪU PHÂN TÍCH"]
-    G -->|"S6 · listwise tập biến trọng tâm"| H["84.910 — N hồi quy M2"]
-    H -->|"+ đầy đủ biến kiểm soát"| I["38.342 — M5 (two-way FE)"]
+    F -->|"loại Comoros / Cyprus / Türkiye<br/>(ngoài Á–Thái Bình Dương)"| G["91.982 DN · 49 nền<br/>(MẪU PHÂN TÍCH)"]
+    G -->|"S6 · listwise tập biến trọng tâm"| H["84.910, N hồi quy M2"]
+    H -->|"+ đầy đủ biến kiểm soát"| I["38.342, M5 (two-way FE)"]
 ```
 
 **Lưu ý tái lập (replication note).** Kho dữ liệu thô tái dựng được công khai trong repo
@@ -104,12 +104,12 @@ toàn cầu (World Bank, 2019). Các biến trọng tâm và quy tắc xây dự
 - **Năng lực công nghệ (TCI) và chấp nhận số (DAI):** xây dựng từ các chỉ báo nhị phân (chứng nhận chất lượng quốc tế `b8`; công nghệ nước ngoài cấp phép; website `c22b`; email; thanh toán điện tử), tách biệt theo lập luận thuần khiết cấu trúc (construct purity) ở §2.1.3 và Coltman et al. (2008).
 - **Biến kiểm soát:** tuổi doanh nghiệp (từ `b5`), quy mô (log lao động), sở hữu nước ngoài, đặc điểm nhà quản trị, ngành ISIC.
 
-## A.5 Xử lý tính so sánh tiền tệ — vấn đề và giải pháp
+## A.5 Xử lý tính so sánh tiền tệ: vấn đề và giải pháp
 
 Một mối đe dọa hiệu lực (validity threat) đặc thù của pool đa quốc gia là **năng suất lao
 động thô được biểu thị bằng nội tệ khác nhau** (ví dụ doanh thu/lao động của Việt Nam tính
 bằng VND, của Singapore bằng SGD), khiến **mức** năng suất **không so sánh trực tiếp** giữa
-các nước — một dạng "ảo ảnh tiền tệ" (currency artefact). Luận án xử lý vấn đề này theo hai
+các nước, một dạng "ảo ảnh tiền tệ" (currency artefact). Luận án xử lý vấn đề này theo hai
 lớp bổ trợ:
 
 1. **Chuẩn hóa within country–year:** năng suất lao động được chuẩn hóa z (trừ trung bình,
@@ -125,7 +125,7 @@ lớp bổ trợ:
 
 Hệ quả phương pháp luận quan trọng: vì lý do trên, **các so sánh mức năng suất thô giữa các
 nước bị loại khỏi suy diễn**; các so sánh giữa nhóm thể chế ICRV ở Chương 4 chỉ dùng **độ
-phân tán** (đã chuẩn hóa/PPP–winsorize theo country–year) và **gradient điểm uốn** — những
+phân tán** (đã chuẩn hóa/PPP–winsorize theo country–year) và **gradient điểm uốn**, những
 đại lượng bất biến với đơn vị tiền tệ (xem §4.1.1). Khi cần so sánh **mức** xuyên quốc gia,
 luận án dùng tỷ suất không thứ nguyên (ví dụ ROS) hoặc điều chỉnh sức mua tương đương (PPP)
 theo Bảng Penn World (Feenstra et al., 2015).
@@ -150,8 +150,8 @@ phối ở vùng FSTS cao không đủ để nhận dạng điểm uốn bậc b
 ## A.7 Phân tầng thể chế ICRV (Bước S5)
 
 Mỗi nền kinh tế được gán vào một trong sáu chế độ thể chế (Institutional Context Regime
-Variation — ICRV) dựa trên tổ hợp các Chỉ số Quản trị Toàn cầu (Worldwide Governance
-Indicators — WGI) của Kaufmann et al. (2011), mức phát triển kinh tế và đặc trưng cấu trúc
+Variation, ICRV) dựa trên tổ hợp các Chỉ số Quản trị Toàn cầu (Worldwide Governance
+Indicators, WGI) của Kaufmann et al. (2011), mức phát triển kinh tế và đặc trưng cấu trúc
 thể chế, mở rộng từ khung khoảng trống thể chế của Khanna và Palepu (2010). Việc gán nhóm
 đòi hỏi đủ chỉ số WGI; các doanh nghiệp ở nước–năm thiếu chỉ số thể chế không được phân loại
 (chênh lệch giữa 106.765 bản ghi thô và 96.415 bản ghi phân loại được ở Bước S5). Khung phân
@@ -185,7 +185,7 @@ là dữ liệu khuyết ngẫu nhiên có điều kiện (missing at random) tr
 **Tái lập.** Toàn bộ quy trình được mã hóa xác định (deterministic) và công khai:
 `scripts/wbes_canon.py` (chuẩn hóa định danh nước–năm, quy tắc lọc), `scripts/build_pooled_dataset.py`
 (hợp nhất + hài hòa + dòng dữ liệu), với báo cáo `data_wbes/analysis/pooled_dataflow.csv`.
-Việc xử lý do thiếu Stata được thực hiện bằng Python (pandas/numpy) — một giải pháp thay thế
+Việc xử lý do thiếu Stata được thực hiện bằng Python (pandas/numpy), một giải pháp thay thế
 hợp lệ cho phân tích kinh tế lượng lát cắt ngang gộp khi không có license Stata.
 
 **Hạn chế.** (i) Dữ liệu lát cắt ngang lặp lại không cho phép theo dõi quỹ đạo doanh nghiệp,

@@ -47,7 +47,20 @@ Bài báo nộp theo template tạp chí (article 12pt, giãn dòng đôi).
   bản đẹp theo phong cách P3–P6, áp macro `shared/macros.tex` cho các công thức chính.
 - **Sinh lại P7/P8/P9:** `bash scripts/build_latex_papers.sh`
 
-## 4. Đối chiếu số liệu
+## 4. Trạng thái biên dịch (xác minh trong container, TeX Live 2023)
+
+| File | Kết quả |
+|---|---|
+| LUAN_AN_CTU.pdf | ✅ 92 trang |
+| CD1_CTU.pdf / CD2_CTU.pdf | ✅ 49 / 36 trang |
+| p7_jibs / p8_worlddev / p9_ijoem | ✅ 32 / 31 / 46 trang |
+| p3_jabs / p5_ijoem / p6_ibr | ✅ 8 / 6 / 6 trang (bản tex rút gọn + biber) |
+| p4_mir | ⚠️ Cần `svjour3.cls` — tải chính thức từ Springer (đi kèm hướng dẫn tác giả MIR), đặt cạnh file .tex |
+
+Font trong container: `MAINFONT="TeX Gyre Termes"` (Times New Roman metric-equivalent).
+Trên máy có TNR thật: bỏ biến MAINFONT rồi sinh lại.
+
+## 5. Đối chiếu số liệu
 Mọi `.tex` ở đây thống nhất với số khóa của luận án sau đợt đồng bộ FSTS:
 P7 điểm uốn **40,0%** (M5; dải 33,8–40,0%); FSTS = d3b+d3c cho P7/P8/P9, d3c cho P3/P5;
 P6 I²=62,4%; P8 β=−1,339; P9 N thô vs N phân tích ghi rõ.
