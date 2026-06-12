@@ -170,10 +170,15 @@ def main():
     frames = {g: [] for g in ORDER}
     econs = {g: set() for g in ORDER}
     used = 0
+    # Standard-year files that nonetheless lack the harmonised core variables
+    # (d2/l1/d3b/d3c) run on a non-comparable regional/legacy instrument and are
+    # excluded by the same rule as Informal/ISBS/Micro. Recorded, not silent.
+    excluded_instrument = []
     for (country, year), f in sorted(chosen.items()):
         g = icrv[country]
         e = extract(f)
         if e is None or e.empty:
+            excluded_instrument.append((country, year, os.path.basename(f)))
             continue
         frames[g].append(e)
         econs[g].add(country)
@@ -204,6 +209,15 @@ def main():
 
     s, c = pd.DataFrame(stats), pd.DataFrame(cover)
     print(f"files used: {used}\n")
+    if excluded_instrument:
+        print("=== Excluded (standard year >=2006 but non-comparable instrument: "
+              "no harmonised d2/l1/d3b/d3c) ===")
+        for country, year, name in excluded_instrument:
+            print(f"  {country} {year}: {name}")
+        pd.DataFrame(excluded_instrument,
+                     columns=["economy", "year", "file"]).to_csv(
+            "data_wbes/analysis/cd1_excluded_instrument.csv", index=False)
+        print()
     print("=== Per-ICRV descriptives (raw pipeline, main cross-sections) ===")
     print(s.to_string(index=False))
     print("\n=== Coverage ===")
