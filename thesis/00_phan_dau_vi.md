@@ -184,9 +184,10 @@ Luận án được phát triển gắn với chuỗi nghiên cứu thành phầ
 6. Nghiên cứu thành phần P4, Singapore (bối cảnh thể chế tiên tiến–đổi mới). *[Bản thảo đang bình duyệt.]*
 7. Nghiên cứu thành phần P5, Trung Quốc 2012–2024 (bối cảnh upper-middle). *[Bản thảo đang bình duyệt.]*
 8. Nghiên cứu thành phần P6, Meta-analysis ba tầng mở rộng 1982–2026. *[Bản thảo đang bình duyệt.]*
-9. Nghiên cứu thành phần P7, Kiểm định toàn mẫu 49 nền kinh tế châu Á và Thái Bình Dương (capstone). *[Bản thảo đang chỉnh sửa theo phản biện.]*
+9. Nghiên cứu thành phần P7, Kiểm định toàn mẫu 50 nền kinh tế châu Á và Thái Bình Dương (capstone). *[Bản thảo đang chỉnh sửa theo phản biện.]*
 10. Nghiên cứu thành phần P8, Trường hợp biên SIDS, gánh nặng quốc tế hóa bắt buộc (FIP). *[Bản thảo đang chỉnh sửa theo phản biện.]*
 11. Nghiên cứu thành phần P9, Ấn Độ: độ bền ngưỡng I–P qua thập kỷ chuyển đổi thể chế 2014–2025 (ba đợt WBES, ~29.000 doanh nghiệp; phát hiện sự *tan biến* điểm uốn chữ U ngược dưới áp lực cải cách thể chế và bão hòa hạ tầng số UPI). Đích: Management International Review (Springer)/IJOEM. *[Bản thảo đang bình duyệt.]*
+12. Nghiên cứu thành phần P10, Nhật Bản: kiểm định biên trên của gradient thể chế trên đợt khảo sát WBES khai mở 2025. *[Bản thảo chuẩn bị gửi Asian Business & Management.]*
 
 *Ghi chú về liêm chính học thuật: Theo định hướng luận án kết hợp công trình thành phần, các nghiên cứu P1–P9 là một phần nội dung nghiên cứu của chính luận án; do đó trong các chương, chúng được dẫn chiếu bằng nhãn nội bộ (P1–P9) thay vì trích dẫn tác giả–năm. Các bản thảo ở mục B CHƯA được công bố/bình duyệt chính thức, không được diễn giải như bằng chứng đã qua bình duyệt độc lập; tên tạp chí mục tiêu chỉ được nêu chính thức sau khi bài được chấp nhận. NCS cập nhật trạng thái tại thời điểm bảo vệ.*
 
