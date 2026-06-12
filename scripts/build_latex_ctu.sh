@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # build_latex_ctu.sh — Sinh nguồn LaTeX định dạng CTU (QĐ 1799/SH) từ Markdown.
 #
-# Chuẩn CTU: Times New Roman 13pt, giãn dòng 1.2, lề trái 3cm / còn lại 2cm.
+# Chuẩn CTU: Times New Roman 13pt, giãn dòng 1.5 (chuẩn CTU QĐ 1799), lề trái 3cm / còn lại 2cm.
 # Yêu cầu biên dịch (trên máy NCS, KHÔNG chạy được trong container này):
 #     xelatex <file>.tex   (chạy 2 lần để cập nhật mục lục)
 # xelatex là bắt buộc: tiếng Việt Unicode + font Times New Roman.
@@ -20,8 +20,8 @@ CTU_VARS=(
   -V documentclass=extreport
   -V classoption=13pt
   -V mainfont="$MAINFONT"
-  -V geometry:left=3cm -V geometry:right=2cm -V geometry:top=2cm -V geometry:bottom=2cm
-  -V linestretch=1.2
+  -V geometry:left=3.5cm -V geometry:right=2cm -V geometry:top=2.5cm -V geometry:bottom=2.5cm
+  -V linestretch=1.5
   -V lang=vi
   -V colorlinks=true -V linkcolor=black -V urlcolor=blue -V citecolor=black
   -V indent=true
