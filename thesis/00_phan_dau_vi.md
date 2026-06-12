@@ -146,9 +146,10 @@ Key findings: (1) the I–P relationship is inverted-U shaped with a pooled turn
 - Bảng 4.1. Phân tán năng suất lao động và đặc điểm quốc tế hóa theo phân nhóm con ICRV (Chương 4, §4.1)
 - Bảng 4.2. Đổi mới sáng tạo và chấp nhận số theo phân nhóm con ICRV (%) (Chương 4, §4.1)
 - Bảng 4.3. Đặc trưng doanh nghiệp Nhật Bản 2025 so với Nhóm I (Chương 4, §4.1.5)
-- Bảng 4.4. Tiến triển 11 mô hình lồng nhau của P7: điểm uốn và độ phù hợp (Chương 4, §4.6)
-- Bảng 4.5. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, §4.8)
-- Bảng 4.6. Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm (Chương 4, §4.10)
+- Bảng 4.4. Tiến triển các mô hình lồng nhau của P7 trên khung 50 nền (Chương 4, §4.6)
+- Bảng 4.5. Điểm uốn theo nhóm ICRV, khung 50 nền (Chương 4, §4.6)
+- Bảng 4.6. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, §4.8)
+- Bảng 4.7. Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm (Chương 4, §4.10)
 
 **Bảng chuyên đề (không đánh số, theo mục):**
 - Bảng định nghĩa biến, Nghiên cứu P3 Việt Nam (Chương 3, §3.4.5.1)
@@ -189,6 +190,6 @@ Luận án được phát triển gắn với chuỗi nghiên cứu thành phầ
 11. Nghiên cứu thành phần P9, Ấn Độ: độ bền ngưỡng I–P qua thập kỷ chuyển đổi thể chế 2014–2025 (ba đợt WBES, ~29.000 doanh nghiệp; phát hiện sự *tan biến* điểm uốn chữ U ngược dưới áp lực cải cách thể chế và bão hòa hạ tầng số UPI). Đích: Management International Review (Springer)/IJOEM. *[Bản thảo đang bình duyệt.]*
 12. Nghiên cứu thành phần P10, Nhật Bản: kiểm định biên trên của gradient thể chế trên đợt khảo sát WBES khai mở 2025. *[Bản thảo chuẩn bị gửi Asian Business & Management.]*
 
-*Ghi chú về liêm chính học thuật: Theo định hướng luận án kết hợp công trình thành phần, các nghiên cứu P1–P9 là một phần nội dung nghiên cứu của chính luận án; do đó trong các chương, chúng được dẫn chiếu bằng nhãn nội bộ (P1–P9) thay vì trích dẫn tác giả–năm. Các bản thảo ở mục B CHƯA được công bố/bình duyệt chính thức, không được diễn giải như bằng chứng đã qua bình duyệt độc lập; tên tạp chí mục tiêu chỉ được nêu chính thức sau khi bài được chấp nhận. NCS cập nhật trạng thái tại thời điểm bảo vệ.*
+*Ghi chú về liêm chính học thuật: Theo định hướng luận án kết hợp công trình thành phần, các nghiên cứu P1–P9 là một phần nội dung nghiên cứu của chính luận án; do đó trong các chương, chúng được dẫn chiếu bằng nhãn nội bộ (P1–P9) thay vì trích dẫn tác giả–năm. Các bản thảo ở mục B CHƯA được công bố/bình duyệt chính thức, không được diễn giải như bằng chứng đã qua bình duyệt độc lập; tên tạp chí mục tiêu được nêu để minh bạch định hướng công bố; trạng thái bình duyệt sẽ được cập nhật tại thời điểm bảo vệ. NCS cập nhật trạng thái tại thời điểm bảo vệ.*
 
 ---

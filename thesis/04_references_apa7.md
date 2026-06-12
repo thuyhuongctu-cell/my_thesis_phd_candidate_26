@@ -768,9 +768,9 @@ Sachs, J. D., & Warner, A. M. (2001). The curse of natural resources. *European 
 
 Sahay, R., von Allmen, U. E., Lahreche, A., Khera, P., Ogawa, S., Bazarbash, M., & Beaton, K. (2020). *The promise of fintech: Financial inclusion in the post COVID-19 era* (IMF Departmental Paper No. DP/2020/09). International Monetary Fund.
 
-Solon, G., Haider, S. J., & Wooldridge, J. M. (2010). *Econometric analysis of cross section and panel data* (2nd ed.). MIT Press.
+Solon, G., Haider, S. J., & Wooldridge, J. M. (2015). What are we weighting for? *Journal of Human Resources, 50*(2), 301–316. https://doi.org/10.3368/jhr.50.2.301
 
-Wooldridge, J. M. (2015). What are we weighting for? *Journal of Human Resources, 50*(2), 301–316. https://doi.org/10.3368/jhr.50.2.301
+Wooldridge, J. M. (2010). *Econometric analysis of cross section and panel data* (2nd ed.). MIT Press.
 
 Stanley, T. D., & Doucouliagos, H. (2014). Meta-regression approximations to reduce publication selection bias. *Research Synthesis Methods, 5*(1), 60–78. https://doi.org/10.1002/jrsm.1095
 
@@ -825,3 +825,25 @@ Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Jo
 Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/MISQ/2013/37:2.3
 
 Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
+
+## Bổ sung v3.0 — Hoàn thiện entry còn thiếu (rà soát Inspector 06/2026)
+
+Aiken, L. S., & West, S. G. (1991). *Multiple regression: Testing and interpreting interactions*. Sage.
+
+Bloom, N., Genakos, C., Sadun, R., & Van Reenen, J. (2012). Management practices across firms and countries. *Academy of Management Perspectives, 26*(1), 12–33. https://doi.org/10.5465/amp.2011.0077
+
+Cameron, A. C., & Trivedi, P. K. (2005). *Microeconometrics: Methods and applications*. Cambridge University Press.
+
+Dawson, J. F. (2014). Moderation in management research: What, why, when, and how. *Journal of Business and Psychology, 29*(1), 1–19. https://doi.org/10.1007/s10869-013-9308-7
+
+Gomes, L., & Ramaswamy, K. (1999). An empirical examination of the form of the relationship between multinationality and performance. *Journal of International Business Studies, 30*(1), 173–187. https://doi.org/10.1057/palgrave.jibs.8490065
+
+Grant, R. M. (1987). Multinationality and performance among British manufacturing companies. *Journal of International Business Studies, 18*(3), 79–89. https://doi.org/10.1057/palgrave.jibs.8490413
+
+Kim, W. C., Hwang, P., & Burgers, W. P. (1989). Global diversification strategy and corporate profit performance. *Strategic Management Journal, 10*(1), 45–57. https://doi.org/10.1002/smj.4250100105
+
+Sambharya, R. B. (1996). Foreign experience of top management teams and international diversification strategies of U.S. multinational corporations. *Strategic Management Journal, 17*(9), 739–746. https://doi.org/10.1002/(SICI)1097-0266(199611)17:9<739::AID-SMJ846>3.0.CO;2-K
+
+Sasabuchi, S. (1980). A test of a multivariate normal mean with composite hypotheses determined by linear inequalities. *Biometrika, 67*(2), 429–439. https://doi.org/10.1093/biomet/67.2.429
+
+Scott, W. R. (1995). *Institutions and organizations*. Sage.
