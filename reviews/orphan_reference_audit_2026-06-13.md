@@ -1,0 +1,492 @@
+# Kiểm toán orphan references — 2026-06-13
+
+Sinh tự động bởi `scripts/reference_audit.py`. *Chỉ báo cáo, không tự xóa.* Khớp theo (họ tác giả đầu, năm), bỏ dấu.
+
+- Tổng entry thư mục: **279**
+- STRONG orphan (không khớp họ+năm ở bất kỳ bản thảo nào): **151**
+- WEAK orphan (cùng họ được trích, lệch năm — cần soát tay): **24**
+- MISSING (trích trong văn bản nhưng thiếu trong thư mục): **268**
+
+## ⚠️ KẾT LUẬN KIỂM TOÁN — KHÔNG gỡ bỏ hàng loạt
+
+Phân tích cho thấy **giả định "xóa ~223 orphan" là không phù hợp** với đặc thù
+thư mục của luận án này, vì hai lý do:
+
+1. **Phần lớn STRONG orphan là nghiên cứu đầu vào của meta-analysis (P6).**
+   Các entry như Abdi & Aulakh (2018), Almodóvar & Rugman (2014), Berry & Kaul
+   (2016), Assaf et al. (2012, 2016), Bae et al. (2008), Booltink &
+   Saka-Helmhout (2018)… là các nghiên cứu thực nghiệm I–P thuộc mẫu **k = 238**
+   của meta-analysis. Chúng được trích **tập thể** ("238 nghiên cứu") trong phần
+   tổng hợp chứ không trích lẻ theo tác giả–năm trong narrative, nên trình dò
+   author–year báo là "orphan" — nhưng chúng **phải nằm trong thư mục** theo
+   chuẩn PRISMA/meta-analysis. Gỡ bỏ sẽ phá vỡ tính toàn vẹn của P6.
+
+2. **Con số MISSING = 268 chứng tỏ trình dò author–year nhiễu hai chiều.** Mọi
+   chuỗi "Từ-viết-hoa (YYYY)" (ví dụ tên bảng, quốc gia, tổ chức kèm năm) đều bị
+   bắt nhầm thành trích dẫn. Vì vậy danh sách orphan/missing **chỉ dùng để soát
+   tay**, không đủ tin cậy để xóa tự động.
+
+**Khuyến nghị:** Giữ nguyên thư mục. Việc cần làm (NCS soát tay khi rảnh) chỉ
+gồm hai nhóm hẹp, an toàn:
+
+- **WEAK orphan (24)** — kiểm tra xem có phải lệch hậu tố năm (2026a/2026b) hay
+  sai năm cần đồng bộ với in-text không.
+- **Context/policy thực sự không dùng** — một số báo cáo thêm vào theo version
+  cụ thể (ví dụ phục vụ một đoạn §1.1 đã bị viết lại) có thể là ứng viên gỡ,
+  nhưng chỉ sau khi NCS xác nhận đoạn dùng nó đã không còn.
+
+Trình kiểm toán `scripts/reference_audit.py` được commit để chạy lại bất kỳ lúc
+nào (`python3 scripts/reference_audit.py --report`). Không thực hiện thay đổi
+nào lên thư mục trong đợt này.
+
+## STRONG orphans (ứng viên gỡ bỏ — cần NCS xác nhận)
+
+- (abdi, 2018) — Abdi, M., & Aulakh, P. S. (2018). Internationalization and performance: Degree, duration, and scale of operations in for
+- (abreha, 2024) — Abreha, K., & Lopez Acevedo, G. (2024). *Trade restructuring: Assessing labor market and welfare effects* (Policy Resear
+- (agarwal, 2026) — Agarwal, A., Barattieri, A., & Mattoo, A. (2026, April). *Foreign demand shocks and domestic value added: Firm-level evi
+- (agnolucci, 2026) — Agnolucci, P., Kenworthy, P., & Kose, M. A. (2026, May 7). Five questions on how the war in the Middle East is affecting
+- (ahsan, 2022) — Ahsan, F. M., & Sinha, A. (2022). Internationalization motives, location advantages and performance: The case of Indian 
+- (al-najjar, 2025) — **Al-Najjar, B., Salama, A., & Abed, A. (2025). Gender and cultural diversity on boards: Their impact on internationalis
+- (almodovar, 2014) — Almodóvar, P., & Rugman, A. M. (2014). The M curve and the performance of Spanish international new ventures. *British J
+- (altaf, 2016) — Altaf, M., & Shah, S. A. A. (2016). Internationalization and performance relationship in Pakistan: Moderating role of in
+- (anil, 2022) — Anil, K., & Misra, A. (2022). Artificial intelligence in peer-to-peer lending in India: A cross-case analysis. *Internat
+- (arbelo, 2024) — Arbelo, A., Arbelo-Pérez, M., & Pérez-Gómez, P. (2024). Internationalization and individual firm performance: A resource
+- (assaf, 2012) — Assaf, A. G., Josiassen, A., Knezevic Cvelbar, L., & Woo, L. (2012). The effects of internationalization on hotel financ
+- (assaf, 2016) — Assaf, A. G., Josiassen, A., Knezevic Cvelbar, L., & Woo, L. (2016). The role of internationalization in the performance
+- (aydemir, 2024) — Aydemir, M., & Alper, D. (2024). The internationalization-firm performance relationship: A meta-analysis. *International
+- (azman, 2022) — Azman, M. A. H., Hon, C. K. H., Xia, B., Lee, B. L., & Skitmore, M. (2022). Internationalization and productivity of con
+- (babina, 2024) — Babina, T., Fedyk, A., He, A., & Hodson, J. (2024). Artificial intelligence, firm growth, and product innovation. *Journ
+- (bae, 2008) — Bae, S.-C., Park, B. J., & Wang, X. (2008). Multinationality, R&D intensity, and firm performance: Evidence from U.S. ma
+- (banerjee, 2014) — Banerjee, A. V., & Duflo, E. (2014). Do firms want to borrow more? Testing credit constraints using a directed lending p
+- (barattieri, 2026) — Barattieri, A., Mattoo, A., & Signoret, J. (2026, April). *Foreign tariffs as catalysts for reform? The potential develo
+- (bello, 2012) — **Bello, D. C., & Kostova, T. (2012). From the editors: Conducting high impact international business research: The role
+- (benito-osorio, 2015) — Benito-Osorio, D., Guerras-Martín, L. Á., Zuñiga-Vicente, J. Á., & Rivero-Meneses, A. (2015). Diversification and perfor
+- (berry, 2016) — Berry, H., & Kaul, A. (2016). Replicating the multinationality-performance relationship: Is there an S-curve? *Strategic
+- (boeddu, 2025) — Boeddu, G., Feyen, E., Martinez Jaramillo, S., Mesquita, S., Palta, Y., Sarkar, A., Sinha, S., & Gutiérrez Traverso, A. 
+- (booltink, 2018) — Booltink, L. W. A., & Saka-Helmhout, A. (2018). The effects of R&D intensity and internationalization on firm performanc
+- (borda, 2017) — Borda, A., Geleilate, J.-M. G., Newburry, W., & Kundu, S. K. (2017). Firm internationalization, business group diversifi
+- (brida, 2016) — Brida, J. G., Driha, O. M., & Scuderi, R. (2016). Internationalization of hotels: Effects on performance. *International
+- (brock, 2008) — Brock, D. M., & Yaffe, T. (2008). International diversification and performance: The mediating role of implementation. *
+- (buchhave, 2026) — Buchhave, H., Nguyen, C. V., Vu, C., Nguyen, G. T., & Zumbyte, I. (2026). *Care for growth: Making industrial jobs work 
+- (calabrese, 2018) — Calabrese, G., & Manello, A. (2018). Firm internationalization and performance: Evidence for designing policies. *Journa
+- (cantele, 2016) — Cantele, S., Vernizzi, S., & Zardini, A. (2016). Does export affect the performance of Italian SMEs? An empirical analys
+- (capar, 2003) — Capar, N., & Kotabe, M. (2003). The relationship between international diversification and performance in service firms.
+- (carpenter, 2004) — Carpenter, M. A., & Sanders, W. G. (2004). The effects of top management team pay and firm internationalization on MNC p
+- (carr, 2010) — Carr, J. C., Haggard, K. S., Hmieleski, K. M., & Zahra, S. A. (2010). A study of the moderating effects of firm age at i
+- (cazzaniga, 2024) — **Cazzaniga, M., Jaumotte, F., Li, L., Melina, G., Panton, A. J., Pizzinelli, C., Rockall, E., & Tavares, M. M. (2024). 
+- (chao, 2010) — Chao, M. C.-H., & Kumar, V. (2010). The impact of institutional distance on the international diversity-performance rela
+- (chari, 2007) — Chari, M. D. R., Devaraj, S., & David, P. (2007). International diversification and firm performance: Role of informatio
+- (chiao, 2006) — Chiao, Y.-C., Yang, K.-P., & Yu, C.-M. J. (2006). Performance, internationalization, and firm-specific advantages of SME
+- (chiao, 2011) — Chiao, Y.-C., & Yang, K.-P. (2011). Internationalization and performance of Taiwanese SMEs: Moderating effects of firm a
+- (cho, 2018) — Cho, H.-J., & Lee, J. (2018). Firm performance and internationalization: The moderation of family ownership. *Management
+- (chodorow-reich, 2020) — Chodorow-Reich, G., Gopinath, G., Mishra, P., & Narayanan, A. (2020). Cash and the economy: Evidence from India's demone
+- (cooper, 2010) — Cooper, H. (2010). *Research synthesis and meta-analysis: A step-by-step approach* (4th ed.). Sage.
+- (cunha, 2023) — Da Cunha, H. M., Amal, M., Floriani, D. E., & Fleury, M. T. L. (2023). Firm internationalization approaches and performa
+- (debicki, 2020) — Debicki, B. J., Miao, C., & Qian, S. (2020). Internationalization and family firm performance. *Cross Cultural & Strateg
+- (dikova, 2020) — Dikova, D., & Veselova, A. (2020). Performance effects of internationalization: Contingency theory analysis of Russian i
+- (do, 2025) — Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management
+- (dunning, 1988) — **Dunning, J. H. (1988). The eclectic paradigm of international production: A restatement and some possible extensions. 
+- (elango, 2006) — Elango, B. (2006). An empirical analysis of the relationship between international activity and firm performance. *Multi
+- (elango, 2012) — Elango, B. (2012). How industry dynamics influence the internationalization–performance relationship: Evidence from tech
+- (endo, 2011) — Endo, N., & Ozaki, T. (2011). International expansion and performance: Evidence from Japanese manufacturing firms. *Asia
+- (espinosa-mendez, 2021) — Espinosa-Méndez, C., & Jara, M. (2021). International diversification and performance in family firm: Exploring nonlinea
+- (falahat, 2020) — Falahat, M., Ramayah, T., Soto-Acosta, P., & Lee, Y.-Y. (2020). SMEs internationalization: The role of product innovatio
+- (fernhaber, 2013) — Fernhaber, S. A., & Li, D. (2013). International exposure through network relationships: Implications for new venture in
+- (fortanier, 2007) — Fortanier, F., Muller, A., & Van Tulder, R. (2007). Internationalization and performance: Accounting for (host) country 
+- (freixanet, 2021) — Freixanet, J., & Rialp, J. (2021). Disentangling the relationship between internationalization, incremental and radical 
+- (fu, 2024) — Fu, Y. (2024). Enterprises' internationalization, R&D investment and enterprise performance. *Finance Research Letters, 
+- (ganvir, 2017) — Ganvir, V., & Dwivedi, M. (2017). International diversification and performance of Indian firms: An empirical analysis. 
+- (garbe, 2009) — Garbe, J. N., & Richter, N. F. (2009). Causal analysis of the internationalization and firm performance relationship bas
+- (gaur, 2009) — Gaur, A. S., & Kumar, V. (2009). International diversification, business group affiliation and firm performance: Empiric
+- (geginat, 2015) — Geginat, C., & Ramalho, R. (2015). *Electricity connections and firm performance in 183 countries* (Policy Research Work
+- (graves, 2014) — Graves, C., & Shan, Y. G. (2014). An empirical analysis of the effect of internationalization on the performance of unli
+- (hedges, 1985) — Hedges, L. V., & Olkin, I. (1985). *Statistical methods for meta-analysis*. Academic Press.
+- (helpman, 2004) — Helpman, E., Melitz, M. J., & Yeaple, S. R. (2004). Export versus FDI with heterogeneous firms. *American Economic Revie
+- (hilmersson, 2014) — Hilmersson, M. (2014). Small and medium-sized enterprise internationalisation strategy and performance in times of marke
+- (hojnik, 2018) — Hojnik, J., Ruzzier, M., & Konecnik Ruzzier, M. (2018). Internationalisation and economic performance: The mediating rol
+- (hosseini, 2018) — Hosseini, M., Brege, S., & Nord, T. (2018). A combined focused industry and company size investigation of the internatio
+- (huang, 2020) — Huang, L., & Marciano, D. (2020). Interdependence relationship of internationalization-performance in manufacturing firm
+- (jacquemin, 1979) — Jacquemin, A. P., & Berry, C. H. (1979). Entropy measure of diversification and corporate growth. *Journal of Industrial
+- (juniati, 2019) — Juniati, S., & Wahyuni, S. (2019). Internationalization and performance: Evidence from Indonesian firms. *International 
+- (katz, 2018) — Katz, R., & Callorda, F. (2018). *The economic contribution of broadband, digitization and ICT regulation*. ITU Telecomm
+- (kayaci, 2022) — Kayaci, A. (2022). The relationship between internationalization level and financial performance: A study with BİST comp
+- (khatua, 2024) — Khatua, A., Mondal, A., & Dhanda, S. (2024). The internationalization and performance of INVs: Liability or learning adv
+- (kongkaew, 2021) — Kongkaew, W., Kraiwanit, T., & Limna, P. (2021). Internationalization and business performance of Thai SMEs. *Journal of
+- (kraus, 2022) — Kraus, S., Breier, M., Lim, W. M., Dabić, M., Kumar, S., Kanbach, D., Mukherjee, D., Corvello, V., Piñeiro-Chousa, J., L
+- (kumar, 2007) — Kumar, V., & Gaur, A. S. (2007). Internationalization and performance of Indian firms. *International Business: Research
+- (kumar, 2008) — Kumar, N., & Singh, N. (2008). Internationalization and performance of Indian pharmaceutical firms. *Vikalpa: The Journa
+- (lakens, 2018) — Lakens, D., Scheel, A. M., & Isager, P. M. (2018). Equivalence testing for psychological research: A tutorial. *Advances
+- (landis, 1977) — Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics, 33*(1), 15
+- (lee, 2013) — Lee, C. Y. (2013). The effect of internationalization on business performance: The case of Korean firms. *Asian Review o
+- (lee, 2014) — Lee, S. M., Lim, S.-B., & Pathak, R. D. (2014). Culture and entrepreneurial orientation: A multi-country study. *Interna
+- (lee, 2019) — Lee, J.-Y., Woo, C.-W., & Shim, W.-S. (2019). The effect of internationalization on performance of Korean firms: Moderat
+- (leung, 2021) — Leung, T., & Sharma, P. (2021). Differences in the impact of R&D intensity and R&D internationalization on firm performa
+- (li, 2022) — Li, W., Li, C., & Wei, G. (2022). The dual mechanism of social networks on the relationship between internationalization
+- (likitwongkajon, 2020) — Likitwongkajon, N., & Vithessonthi, C. (2020). Do foreign investments increase firm value and firm performance? Evidence
+- (lin, 2011) — Lin, W. T., Liu, Y., & Cheng, K. (2011). The internationalization and performance of a firm: Moderating effect of a firm
+- (liu, 2024) — Liu, X., & Zhang, H. (2024). How geopolitical risk affects firms' internationalization performance: Evidence from China.
+- (mahler, 2026) — Mahler, D., Wang, H., & Weber, M. (2026, May). Inequalities in use of and exposure to artificial intelligence. In *Atlas
+- (majocchi, 2003) — Majocchi, A., & Zucchella, A. (2003). Internationalization and performance: Findings from a set of Italian SMEs. *Intern
+- (malerba, 1995) — **Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–
+- (manotas, 2020) — Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and performance of small and medium-sized enterpris
+- (mar, 2026) — Mar, T. T., Do, T. H., & Phan, A. T. (2026). *Digital adoption and the internationalization–performance curve: Evidence 
+- (mardones, 2025) — **Gallegos Mardones, J., & Ibáñez, M. J. (2025). Women's participation in top management business positions and the inte
+- (mcdougall, 1996) — McDougall, P. P., & Oviatt, B. M. (1996). New venture internationalization, strategic change, and performance: A follow-
+- (miller, 2016) — Miller, S. R., Lavie, D., & Delios, A. (2016). International intensity, diversity, and distance: Unpacking the internati
+- (mohr, 2016) — Mohr, A., & Batsakis, G. (2016). Internationalization speed and firm performance: A study of the market-seeking expansio
+- (mondal, 2022) — Mondal, A., Ray, S., & Lahiri, S. (2022). Internationalization and performance of family firms. *Journal of Business Res
+- (nath, 2021) — Nath, P., Kirca, A. H., & Kim, S. (2021). A study of the internationalization–performance relationship in global retaili
+- (nguyen, 2020) — Nguyen, Q., & Kim, S. (2020). The multinationality and performance relationship: Revisiting the literature and exploring
+- (nielsen, 2010) — Nielsen, S. (2010). Top management team internationalization and firm performance: The mediating role of foreign market 
+- (nosi, 2017) — Nosi, C., Pucci, T., Silvestri, L., & Zanni, L. (2017). Firm performance and legitimacy in internationalization processe
+- (olmos, 2015) — Olmos, M. F., & Díez-Vial, I. (2015). Internationalization pathways and the performance of SMEs. *European Journal of Ma
+- (pangarkar, 2008) — Pangarkar, N. (2008). Internationalization and performance of small- and medium-sized enterprises. *Journal of World Bus
+- (pattnaik, 2009) — Pattnaik, C., & Elango, B. (2009). The impact of firm resources on the internationalization and performance relationship
+- (peterson, 2005) — Peterson, R. A., & Brown, S. P. (2005). On the use of beta coefficients in meta-analysis. *Journal of Applied Psychology
+- (pirlea, 2026) — Pirlea, A. F., & Corso, L. (2026, May). The unfinished digital revolution: Expanding internet access. In *Atlas of Globa
+- (polat, 2012) — Polat, G., & Mutlu, H. M. (2012). Internationalization performance of construction companies: Evidence from Turkey. *Eng
+- (porta, 2014) — La Porta, R., & Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives, 28*(3), 109–126. ht
+- (pouresmaeili, 2018) — Pouresmaeili, M., Salamzadeh, A., Salamzadeh, Y., & Braga, V. (2018). Internationalization of Iranian SMEs and its impac
+- (purkayastha, 2018) — Purkayastha, S., Manolova, T. S., & Edelman, L. F. (2018). Business group effects on the R&D intensity-internationalizat
+- (purkayastha, 2021) — Purkayastha, A., Kumar, V., & Gupta, V. (2021). Emerging market internationalizing firms: Learning through international
+- (purkayastha, 2022) — Purkayastha, S., & Gupta, V. K. (2022). Business group affiliation and internationalization-performance relationship: Th
+- (purkayastha, 2024) — Purkayastha, A., Karna, A., Sharma, S., & Bhadra, D. (2024). Role of resource investment management and strategic resour
+- (putri, 2022) — Putri, W. H., & Pan, L. (2022). The relationship between internationalization and performance: Evidence from Indonesian 
+- (qian, 2002) — Qian, G. (2002). Multinationality, product diversification, and profitability of emerging US small- and medium-sized ent
+- (raudenbush, 2002) — Raudenbush, S. W., & Bryk, A. S. (2002). *Hierarchical linear models: Applications and data analysis methods* (2nd ed.).
+- (rienda, 2021) — Rienda, L., & Andreu, R. (2021). The role of family firms heterogeneity on the internationalisation and performance rela
+- (ruigrok, 2003) — Ruigrok, W., & Wagner, H. (2003). Internationalization and performance: An organizational learning perspective. *Managem
+- (ruigrok, 2007) — Ruigrok, W., Amann, W., & Wagner, H. (2007). The internationalization-performance relationship at Swiss firms: A test of
+- (ruzzier, 2014) — Ruzzier, M., & Ruzzier, M. K. (2014). On the relationship between firm size, resources, age at entry and internationaliz
+- (sahay, 2020) — Sahay, R., von Allmen, U. E., Lahreche, A., Khera, P., Ogawa, S., Bazarbash, M., & Beaton, K. (2020). *The promise of fi
+- (sambharya, 1996) — Sambharya, R. B. (1996). Foreign experience of top management teams and international diversification strategies of U.S.
+- (sasabuchi, 1980) — Sasabuchi, S. (1980). A test of a multivariate normal mean with composite hypotheses determined by linear inequalities. 
+- (schmuck, 2022) — Schmuck, A., Lagerström, K., & Sallis, J. F. (2022). Turning the tables: The relationship between performance and multin
+- (shaver, 2020) — Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizat
+- (siddharthan, 1982) — Siddharthan, N. S., & Lall, S. (1982). The recent growth of the largest US multinationals. *Oxford Bulletin of Economics
+- (sikdar, 2026) — **Sikdar, S., & Mukhopadhyay, A. (2026). Productivity gains in Indian manufacturing: Insights from formal and informal s
+- (silva, 2007) — Vilas-Boas da Silva, J., & González Pérez, M. A. (2007). Internationalization and performance: Evidence from Spanish fir
+- (singla, 2013) — Singla, C., & George, R. (2013). Internationalization and performance: A contextual analysis of Indian firms. *Journal o
+- (sun, 2019) — Sun, W., Price, J. M., & Ding, Y. (2019). The longitudinal effects of internationalization on firm performance: The mode
+- (suurmond, 2017) — Suurmond, R., van Rhee, H., & Hak, T. (2017). Introduction, comparison, and validation of Meta-Essentials: A free and si
+- (tallman, 1996) — Tallman, S., & Li, J. (1996). Effects of international diversity and product diversity on the performance of multination
+- (tashman, 2019) — Tashman, P., Marano, V., & Kostova, T. (2019). Walking the walk or talking the talk? Corporate social responsibility and
+- (thomas, 2004) — Thomas, D. E., & Eden, L. (2004). What is the shape of the multinationality-performance relationship? *Multinational Bus
+- (thomas, 2006) — Thomas, D. E. (2006). International diversification and firm performance in Mexican firms: A curvilinear relationship. *
+- (tongurai, 2022) — Tongurai, J., & Vithessonthi, C. (2022). Learning, foreign operations and operating performance. *Global Finance Journal
+- (tran, 2024) — Tran, T. B., & Pham, T. H. (2024). Tác động của FDI đến năng suất doanh nghiệp Việt Nam: Phân tích đa thế hệ điều tra. *
+- (tsao, 2012) — Tsao, S.-M., & Chen, G.-Z. (2012). The impact of internationalization on performance and innovation: The moderating effe
+- (tsao, 2013) — Tsao, S.-M., & Lien, W.-H. (2013). Family management and internationalization: The impact on firm performance and innova
+- (tsionas, 2021) — Tsionas, M. G., & Tzeremes, N. G. (2021). The degree of internationalization and firm productivity: Empirical evidence f
+- (upadhyayula, 2016) — Upadhyayula, R. S., Bhatt, D., & Gaur, A. S. (2016). International expansion and performance of Indian firms: Moderating
+- (velez-calle, 2018) — Vélez-Calle, A., Sánchez-Henriquez, F., & MacLennan, A. F. (2018). Peer influence and internationalization intentions of
+- (verbeek, 2008) — Verbeek, M. (2008). Pseudo-panels and repeated cross-sections. In L. Mátyás & P. Sevestre (Eds.), *The econometrics of p
+- (vithessonthi, 2016) — Vithessonthi, C., & Racela, O. C. (2016). Short- and long-run effects of internationalization and R&D intensity on firm 
+- (wang, 2020) — Wang, G., Zhang, H., Xia, B., Wu, G., & Han, Y. (2020). Relationship between internationalization and financial performa
+- (wang, 2024) — Wang, L., Huang, Y., & Hong, Z. (2024). Digitalization as a double-edged sword: A deep learning analysis of risk managem
+- (wei, 2021) — Wei, S., & Lin, L. (2021). The relationship between extent of internationalization and firm performance (Taiwan 1992–201
+- (xiong, 2024) — Xiong, Z., Sun, C., & Zhao, M. (2024). Internationalization speed and corporate long-term performance: Exploring the inv
+- (yip, 2000) — Yip, G. S., Biscarri, J. G., & Monti, J. A. (2000). The role of the internationalization process in the performance of n
+- (zeng, 2009) — Zeng, S. X., Xie, X. M., Tam, C. M., & Wan, T. W. (2009). Relationships between business factors and performance in inte
+- (zhang, 2022) — Zhang, Y., & Wei, J. (2022). The impact of the internationalization of China's new retail industry on corporate performa
+- (zhang, 2026) — Zhang, Y., Qiu, Z., Park, D., & Tian, S. (2026). The role of artificial intelligence in finance: A selective review and 
+- (zhou, 2014) — Zhou, L., & Wu, A. (2014). Earliness of internationalization and performance outcomes: Exploring the moderating effects 
+- (zhou, 2018) — Zhou, X. (2018). Effects of foreign direct investment on the efficiency of Chinese firms. *Applied Economics, 50*(2), 13
+
+## WEAK orphans (soát tay — có thể là biến thể năm)
+
+- (aguinis, 2011) — Aguinis, H., Dalton, D. R., Bosco, F. A., Pierce, C. A., & Dalton, C. M. (2011). Meta-analytic choices and judgment call
+- (ayyagari, 2011) — Ayyagari, M., Demirgüç-Kunt, A., & Maksimovic, V. (2011). Firm innovation in emerging markets. *Journal of Financial and
+- (bloom, 2012) — Bloom, N., Genakos, C., Sadun, R., & Van Reenen, J. (2012). Management practices across firms and countries. *Academy of
+- (cameron, 2005) — Cameron, A. C., & Trivedi, P. K. (2005). *Microeconometrics: Methods and applications*. Cambridge University Press.
+- (cameron, 2008) — Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors
+- (cao, 2022) — Cao, X., Li, P., Huang, X., & Fan, L. (2022). The dual mechanism of social networks on the relationship between internat
+- (chen, 2010) — Chen, H., & Hsu, C. (2010). Internationalization, resource allocation and firm performance. *Industrial Marketing Manage
+- (chen, 2012) — Chen, S., & Tan, H. (2012). Region effects in the internationalization–performance relationship in Chinese firms. *Journ
+- (cuervo-cazurra, 2017) — Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2017). Home country uncertainty and the internationalizat
+- (deaton, 1985) — Deaton, A. (1985). Panel data from a time series of cross-sections. *Journal of Econometrics, 30*(1–2), 109–126. https:/
+- (egger, 1997) — Egger, M., Davey Smith, G., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical te
+- (eisenhardt, 2000) — Eisenhardt, K. M., & Martin, J. A. (2000). Dynamic capabilities: What are they? *Strategic Management Journal, 21*(10–11
+- (hessels, 2010) — Hessels, J., & Terjesen, S. (2010). Resource dependency and institutional theory perspectives on direct and indirect exp
+- (kim, 2026) — Kim, G., Kumar, T., Ramalho, R., & Russell, S. (2026, January). *Institutional capacity for policy implementation: An an
+- (lu, 2001) — Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*
+- (mackinnon, 2017) — MacKinnon, J. G., & Webb, M. D. (2017). Wild bootstrap inference for wildly different cluster sizes. *Journal of Applied
+- (peng, 1998) — Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on export development research. *Journal of Int
+- (phan, 2020) — Phan, A. T., Do, T. H., & Phan, M. T. (2020). The moderating effects of managers' experience and gender on international
+- (phan, 2021) — Phan, A. T., Nguyen, V. S., Dinh, V. T., Thai, V. H., Nguyen, C. T., Dao, Q. T., Nguyen, V. L., & Do, T. H. (2021). The 
+- (rosenthal, 1991) — Rosenthal, R. (1991). *Meta-analytic procedures for social research* (rev. ed.). Sage.
+- (rosenthal, 1994) — Rosenthal, R. (1994). Parametric measures of effect size. In H. Cooper & L. V. Hedges (Eds.), *The handbook of research 
+- (stanley, 2014) — Stanley, T. D., & Doucouliagos, H. (2014). Meta-regression approximations to reduce publication selection bias. *Researc
+- (vahlne, 2020) — Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evo
+- (williamson, 2000) — **Williamson, O. E. (2000). The new institutional economics: Taking stock, looking ahead. *Journal of Economic Literatur
+
+## MISSING (trích nhưng thiếu entry — cần bổ sung)
+
+- (adb, 2024)
+- (advanced, 2023)
+- (aguinis, 1988)
+- (aguinis, 2020)
+- (aiken, 2014)
+- (antonakis, 2010)
+- (antonakis, 2020)
+- (antunes, 2021)
+- (april, 2026)
+- (aterido, 2018)
+- (author, 2018)
+- (avenyo, 2018)
+- (ayyagari, 2022)
+- (bahrain, 2024)
+- (banalieva, 2021)
+- (banalieva, 2025)
+- (barney, 1984)
+- (barney, 1992)
+- (barney, 2000)
+- (barney, 2014)
+- (bausch, 2012)
+- (bausch, 2016)
+- (bausch, 2018)
+- (bausch, 2022)
+- (beamish, 2004)
+- (beblawi, 2010)
+- (bernard, 2007)
+- (bhandari, 2021)
+- (bhandari, 2022)
+- (bharadwaj, 2008)
+- (bharadwaj, 2016)
+- (bharadwaj, 2019)
+- (bharadwaj, 2021)
+- (block, 2024)
+- (bloom, 2009)
+- (borenstein, 2004)
+- (borenstein, 2011)
+- (briguglio, 2006)
+- (brouthers, 2019)
+- (brunei, 2025)
+- (cac, 1998)
+- (cac, 2003)
+- (cac, 2010)
+- (cac, 2019)
+- (cameron, 1980)
+- (cao, 1990)
+- (cao, 2010)
+- (cavusgil, 2012)
+- (ciem, 2023)
+- (coase, 1985)
+- (cohen, 1992)
+- (cohen, 2007)
+- (cohen, 2019)
+- (combs, 2009)
+- (combs, 2018)
+- (common-n, 2023)
+- (consistent, 2019)
+- (contractor, 1995)
+- (contractor, 2003)
+- (contractor, 2016)
+- (cronbach, 2008)
+- (cuervo, 2018)
+- (dai, 2013)
+- (david, 1990)
+- (deaton, 2008)
+- (deaton, 2010)
+- (dersimonian, 1986)
+- (dimension, 2016)
+- (dynamism, 2023)
+- (economic, 2026)
+- (egger, 1994)
+- (eisenhardt, 2016)
+- (ferraz, 2026)
+- (foley, 2015)
+- (foley, 2017)
+- (following, 1992)
+- (following, 2016)
+- (following, 2021)
+- (forced, 2007)
+- (foundational, 2021)
+- (fsts, 2004)
+- (fy, 2026)
+- (gdp, 2024)
+- (geringer, 1989)
+- (gia, 2010)
+- (gomes, 1997)
+- (goto, 2020)
+- (greenaway, 2010)
+- (greene, 2018)
+- (gsj, 2023)
+- (haans, 2010)
+- (haans, 2013)
+- (han, 2024)
+- (hanelt, 2019)
+- (heckman, 1998)
+- (hennart, 2016)
+- (hessels, 1998)
+- (hessels, 2001)
+- (hitt, 2001)
+- (hitt, 2004)
+- (hong, 2023)
+- (hoskisson, 1997)
+- (hsieh, 2014)
+- (hsu, 1996)
+- (hsu, 2015)
+- (hunter, 2004)
+- (hunter, 2009)
+- (icbef, 2024)
+- (icbef, 2025)
+- (in, 2021)
+- (institutional, 1990)
+- (isic, 2024)
+- (iso, 2023)
+- (it, 1998)
+- (january, 2025)
+- (japanese, 2004)
+- (jfar, 2026)
+- (jiang, 2008)
+- (johanson, 2000)
+- (johanson, 2004)
+- (johanson, 2009)
+- (kh, 2024)
+- (khanna, 2003)
+- (khia, 2007)
+- (khia, 2012)
+- (khia, 2016)
+- (khia, 2018)
+- (khia, 2022)
+- (khia, 2023)
+- (kim, 1997)
+- (kir, 2025)
+- (kiribati, 2025)
+- (kundu, 2003)
+- (kundu, 2007)
+- (kuwait, 2025)
+- (labor, 2012)
+- (lall, 1990)
+- (lall, 2004)
+- (lall, 2007)
+- (lebanon, 2023)
+- (lind, 2016)
+- (lind-mehlum, 2010)
+- (loan, 2024)
+- (long, 1980)
+- (lopez, 2018)
+- (lowess, 2010)
+- (lu, 1994)
+- (lu, 2003)
+- (lu, 2007)
+- (m-curve, 1998)
+- (manova, 2015)
+- (manova, 2017)
+- (manova, 2018)
+- (marano, 2018)
+- (marano, 2022)
+- (mathews, 2007)
+- (mehlum, 2010)
+- (melitz, 2007)
+- (meta-analysis, 2007)
+- (mirab, 1995)
+- (mixed, 2009)
+- (mo, 1977)
+- (nam, 2009)
+- (ncs, 2026)
+- (ngan, 2026)
+- (north, 2001)
+- (north, 2003)
+- (north, 2009)
+- (north, 2010)
+- (north, 2016)
+- (o'brien, 2007)
+- (oman, 2026)
+- (operational, 2026)
+- (park, 2008)
+- (paternoster, 2023)
+- (phan, 2025)
+- (philippines, 2023)
+- (phu, 2019)
+- (pics, 2025)
+- (pierce, 2016)
+- (piquero, 1998)
+- (pisano, 1997)
+- (publication, 1997)
+- (qatar, 2025)
+- (ramalho, 2026)
+- (rbv, 1992)
+- (robust, 2000)
+- (rosenthal, 1979)
+- (rugman, 2004)
+- (s-curve, 2004)
+- (salo, 2023)
+- (sang, 2024)
+- (saudi, 2025)
+- (schwens, 2018)
+- (se, 2024)
+- (sids, 1995)
+- (singapore, 2023)
+- (snapshot, 2026)
+- (stallkamp, 2025)
+- (stanley, 2012)
+- (startupblink, 2026)
+- (strange, 2019)
+- (sullivan, 2006)
+- (tci, 2023)
+- (technological, 1992)
+- (temporal, 2022)
+- (the, 1998)
+- (the, 2008)
+- (the, 2010)
+- (theo, 1992)
+- (theo, 2010)
+- (theo, 2016)
+- (theo, 2018)
+- (theo, 2021)
+- (theo, 2026)
+- (three-way, 1991)
+- (timor-leste, 2015)
+- (tp, 2012)
+- (tp, 2014)
+- (tp, 2024)
+- (trong, 2021)
+- (trung, 2013)
+- (trung, 2024)
+- (u-curve, 2004)
+- (unctad, 2023)
+- (upper, 1984)
+- (usd, 2024)
+- (vahlne, 2016)
+- (vahlne, 2021)
+- (van, 2016)
+- (vefr, 2016)
+- (vefr, 2026)
+- (venaik, 2008)
+- (venkatraman, 1986)
+- (verbeke, 2018)
+- (verhoef, 2019)
+- (vernon, 2016)
+- (vi, 2023)
+- (vial, 2019)
+- (vial, 2021)
+- (vrin, 1992)
+- (wbl, 2026)
+- (wernerfelt, 1984)
+- (wernerfelt, 1991)
+- (wgi, 2009)
+- (wgi, 2011)
+- (whetten, 1978)
+- (white, 1980)
+- (williamson, 2007)
+- (wolfolds, 2019)
+- (wood, 2022)
+- (wooldridge, 2015)
+- (world, 2010)
+- (world, 2013)
+- (world, 2016)
+- (world, 2019)
+- (world, 2023)
+- (world, 2024)
+- (world, 2025)
+- (world, 2026)
+- (world, 2027)
+- (wright, 2016)
+- (wu, 2016)
+- (wu, 2019)
+- (xac, 2014)
+- (xu, 2022)
+- (yamaguchi, 2009)
+- (zhao, 2025)
