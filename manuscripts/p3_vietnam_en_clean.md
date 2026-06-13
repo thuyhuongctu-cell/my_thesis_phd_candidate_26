@@ -392,7 +392,7 @@ across stages.
 Firm performance is measured by log labour productivity ($\ln(\mathrm{LP})$). Internationalisation is measured by direct-export intensity (FSTS), mean-centred within wave ($\mathrm{FSTS}^{c}$) and squared
 
 
-($\mathrm{FSTS}^{c}$ ) so that linear and quadratic terms can be entered jointly to test for nonlinearity.
+($(\mathrm{FSTS}^{c})^{2}$) so that linear and quadratic terms can be entered jointly to test for nonlinearity.
 The analysis uses two distinct capability constructs.
 
 The Technological Capability Index
@@ -406,7 +406,7 @@ Item-level construction is as follows. The outcome is $\ln(\mathrm{LP})$ = ln(d2
 annual sales and l1 is permanent full-time employees. Internationalisation is FSTS = d3c / 100,
 
 
-mean-centred within wave ($\mathrm{FSTS}^{c}$) and squared ($\mathrm{FSTS}^{c}$ ). The primary Technological Capability Index ($\tilde{\mathrm{TCI}}$) is the within-wave standardised mean of b8 (internationally recognised
+mean-centred within wave ($\mathrm{FSTS}^{c}$) and squared ($(\mathrm{FSTS}^{c})^{2}$). The primary Technological Capability Index ($\tilde{\mathrm{TCI}}$) is the within-wave standardised mean of b8 (internationally recognised
 quality certification) and e6 (foreign-licensed technology), each recoded from WBES 1/2 to 1/0
 binary form.
 
@@ -529,7 +529,7 @@ Table 2: Focal coefficient summary by wave and pooled (M2 inverted-U, M7 dual-di
 | $\mathrm{FSTS}^{c}$ (linear) | +1.045* (p=.015) | +1.159* (p=.029) | +0.962* (p=.039) | +0.984*** (p<.001) |
 | $(\mathrm{FSTS}^{c})^2$ (quadratic) | -1.823** (p=.005) | -2.115** (p=.004) | -1.686** (p=.008) | -1.909*** (p<.001) |
 | Lind–Mehlum p | <.05 | .009 | .013 | <.001 |
-| Turning point (FSTS) | 0.287 | 0.274 | 0.285 | 0.397 |
+| Turning point (centred-scale inflection, $\mathrm{FSTS}^{c}$) | 0.287 | 0.274 | 0.285 | 0.397 |
 | **M7. Dual-direct capability** | | | | |
 | $\tilde{\mathrm{TCI}}$ | +0.215*** (p<.001) | +0.128** (p=.010) | +0.123** (p=.006) | +0.179*** (p<.001) |
 | $\tilde{\mathrm{DAI}}$ | +0.175*** (p<.001) | -0.044 (p=.377) | +0.095* (p=.038) | +0.078** (p=.004) |
@@ -538,7 +538,7 @@ Table 2: Focal coefficient summary by wave and pooled (M2 inverted-U, M7 dual-di
 | $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$ | n.s. | n.s. | n.s. | n.s. |
 | M8 joint test (curvature + moderation) | p=.700 | n.s. | p=.062 † | — |
 
-*Notes.* Coefficients from OLS with HC1 heteroscedasticity-robust standard errors. Sector fixed effects and standard firm-level controls ($\ln(\mathrm{Emp})$, FirmAge, ForeignOwned) included throughout. Significance: *** p < .001; ** p < .01; * p < .05; † p < .10. M2 = quadratic FSTS only; M7 = M2 + $\tilde{\mathrm{TCI}}$ + $\tilde{\mathrm{DAI}}$ (dual direct); M8 = M7 + $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ + $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$. The 2023 wave is the only one in which the M8 DAI moderation channel is detectable at conventional thresholds, consistent with the Tier 1 proxy-obsolescence interpretation developed in Section 5.
+*Notes.* Coefficients from OLS with HC1 heteroscedasticity-robust standard errors. Sector fixed effects and standard firm-level controls ($\ln(\mathrm{Emp})$, FirmAge, ForeignOwned) included throughout. Significance: *** p < .001; ** p < .01; * p < .05; † p < .10. M2 = quadratic FSTS only; M7 = M2 + $\tilde{\mathrm{TCI}}$ + $\tilde{\mathrm{DAI}}$ (dual direct); M8 = M7 + $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ + $(\mathrm{FSTS}^{c})^2$ × $\tilde{\mathrm{DAI}}$. The 2023 wave is the only one in which the M8 DAI moderation channel is detectable at conventional thresholds, consistent with the Tier 1 proxy-obsolescence interpretation developed in Section 5. The turning-point row reports the inflection on the wave-centred scale ($\mathrm{FSTS}^{c}$); the corresponding raw-FSTS turning points (46.2%, 39.3%, 41.6%, 39.7%; range 39–46%) with delta-method confidence intervals are reported in Table 4.
 
 
 p = .825; full-model M8 joint p = .700). In substantive terms, both capability dimensions in
@@ -546,9 +546,9 @@ p = .825; full-model M8 joint p = .700). In substantive terms, both capability d
 I–P curve is associated with technological capability rather than with basic digital presence.
 The 2015 wave shows the curvature cleanly but the weakest digital channel. M2 produces
 
-2 β = -2.115 (p = .004), with Lind–Mehlum p =
+$(\mathrm{FSTS}^{c})^{2}$ β = -2.115 (p = .004), with Lind–Mehlum p =
 
-$\mathrm{FSTS}^{c}$ β = 1.159 (p = .029) and $\mathrm{FSTS}^{c}$
+$\mathrm{FSTS}^{c}$ β = 1.159 (p = .029) and
 
 .009. $\tilde{\mathrm{TCI}}$ retains a positive direct association (β = 0.128, p = .010) but at roughly 60 per
 cent of the 2009 magnitude. $\tilde{\mathrm{DAI}}$ loses direct salience entirely (β = -0.044, p = .377). TCI
@@ -561,7 +561,7 @@ The 2023 wave is where the digital-moderation signal emerges most sharply.
 
 M2 again
 
-indicates a clear inverted-U ($\mathrm{FSTS}^{c}$ β = 0.962, p = .039; $\mathrm{FSTS}^{c}$ β = -1.686, p = .008;
+indicates a clear inverted-U ($\mathrm{FSTS}^{c}$ β = 0.962, p = .039; $(\mathrm{FSTS}^{c})^{2}$ β = -1.686, p = .008;
 Lind–Mehlum p = .013).
 
 In the dual-direct M7, both capability dimensions are positive and
@@ -605,9 +605,9 @@ the I–P curve, when capability stocks were the scarce resource, and when found
 tools, even at the website-only layer, generated direct gains because the alternative was
 paper-based transaction processing. The 2015 wave captures a transitional phase in which the
 
-2 = -2.115, p = .004 in M2) but the digital channel
+= -2.115, p = .004 in M2) but the digital channel
 
-I–P curvature is unusually sharp ($\mathrm{FSTS}^{c}$
+I–P curvature is unusually sharp ($(\mathrm{FSTS}^{c})^{2}$
 compresses entirely:
 
 $\tilde{\mathrm{DAI}}$ loses direct salience and shows no joint moderation, suggesting
@@ -624,14 +624,14 @@ higher export intensity rather than uniformly across the export-intensity range.
 The pooled estimates confirm that the internationalisation–performance relationship is nonlinear
 on average. In the pooled M2 specification, the linear $\mathrm{FSTS}^{c}$ term is positive (β = 0.984, p
 
-2 term is negative (β = -1.909, p < .001); the Lind–Mehlum
+term is negative (β = -1.909, p < .001); the Lind–Mehlum
 
-< .001) and the quadratic $\mathrm{FSTS}^{c}$
+< .001) and the quadratic $(\mathrm{FSTS}^{c})^{2}$
 
 test rejects monotonicity at p < .001 with an estimated turning point at 39.7 per cent of directexport intensity. The curvature persists in the full M8 specification ($\mathrm{FSTS}^{c}$ β = 0.845, p = .006;
-$\mathrm{FSTS}^{c}$
+$(\mathrm{FSTS}^{c})^{2}$
 
-2 β = -1.650, p < .001), supporting H1 and aligning with the meta-analytic evidence
+β = -1.650, p < .001), supporting H1 and aligning with the meta-analytic evidence
 
 on the nonlinear shape of internationalisation returns in emerging-market firms (Marano et al.,
 2016).
@@ -653,9 +653,9 @@ The pooled interaction terms involving $\tilde{\mathrm{DAI}}$ carry a marginal j
 The linear
 
 interaction is negative but not individually significant ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ = -0.448, p = .116),
-and the quadratic interaction is positive but not significant ($\mathrm{FSTS}^{c}$
+and the quadratic interaction is positive but not significant ($(\mathrm{FSTS}^{c})^{2}$
 
-2 × $\tilde{\mathrm{DAI}}$ = 0.460, p =
+× $\tilde{\mathrm{DAI}}$ = 0.460, p =
 
 .276). The joint Wald test sits at marginal significance (M8 joint p = .083). This pooled signal
 is driven primarily by the 2023 wave: the M4 joint moderation test on DAI is null in 2009 (p =
@@ -667,12 +667,12 @@ Technological-capability moderation, by contrast, is more uniformly distributed.
 
 The M3
 
-joint test on $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ and $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ is statistically distinguishable from
+joint test on $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ and $(\mathrm{FSTS}^{c})^{2}$ × $\tilde{\mathrm{TCI}}$ is statistically distinguishable from
 zero in three of four panels (2009 p = .040, 2023 p = .027, pooled p = .003) and null only in
 2015 (p = .713). Pooled, the linear interaction is negative ($\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{TCI}}$ = -0.587, p =
-.003) and the quadratic is positive ($\mathrm{FSTS}^{c}$
+.003) and the quadratic is positive ($(\mathrm{FSTS}^{c})^{2}$
 
-2 × $\tilde{\mathrm{TCI}}$ = 0.640, p = .031), indicating that the
+× $\tilde{\mathrm{TCI}}$ = 0.640, p = .031), indicating that the
 
 inverted-U flattens for high-capability firms rather than shifting in level. This is consistent with
 the absorptive-capacity reading in which firms with deeper capability stocks extract productivity
@@ -751,9 +751,9 @@ Before reading the table that follows, we anchor the reader in the two-margin st
 ~1.0 % of pooled firms sit within ±5 percentage-points of the wave-specific turning points (see
 4.5 density check), and the bulk of mass lies at FSTS = 0. When we re-fit M2 / M7 / M8 on
 the exporter-only sub-sample (FSTS > 0; pooled N = 669, 4.5 Panel H), the linear $\mathrm{FSTS}^{c}$
-term is negative (β = -0.861, p < .001) but the quadratic term is not significant ($\mathrm{FSTS}^{c}$
+term is negative (β = -0.861, p < .001) but the quadratic term is not significant ($(\mathrm{FSTS}^{c})^{2}$
 
-2β
+β
 
 = -0.200, p = .660, M8 joint p = .462). H1a (participation margin) is therefore the dominant
 productivity-relevant margin in this dataset; the within-exporter intensity curvature claimed by
@@ -779,15 +779,15 @@ firms (utilities, construction, wholesale and retail, transport, finance and oth
 
 The inverted-U is preserved in both subsets but is sharper in
 
-manufacturing ($\mathrm{FSTS}^{c}$ β = 0.971, p = .001; $\mathrm{FSTS}^{c}$
+manufacturing ($\mathrm{FSTS}^{c}$ β = 0.971, p = .001; $(\mathrm{FSTS}^{c})^{2}$
 
 
-2 β = -1.883, p < .001) than in non-
+β = -1.883, p < .001) than in non-
 
 
-manufacturing ($\mathrm{FSTS}^{c}$ β = 1.615, p = .064, marginal; $\mathrm{FSTS}^{c}$
+manufacturing ($\mathrm{FSTS}^{c}$ β = 1.615, p = .064, marginal; $(\mathrm{FSTS}^{c})^{2}$
 
-2 β = -2.479, p = .046).
+β = -2.479, p = .046).
 
 More substantively, the capability and digital-adoption channels operate primarily in manufacturing.
 
@@ -808,9 +808,9 @@ Panel H — Exporter-only sub-sample (FSTS > 0). Because the exporter share is 2
 the participation margin between FSTS = 0 and FSTS > 0. We re-fit M2 / M7 / M8 on the
 exporter-only sub-sample (N ≈ 281 in 2009, 198 in 2015, 190 in 2023, and 669 pooled). The
 pooled exporter-only specification yields a negative linear $\mathrm{FSTS}^{c}$ term (β = -0.861, p < .001)
-but a non-significant quadratic term ($\mathrm{FSTS}^{c}$
+but a non-significant quadratic term ($(\mathrm{FSTS}^{c})^{2}$
 
-2 β = -0.200, p = .660), and the joint M8 test of the
+β = -0.200, p = .660), and the joint M8 test of the
 
 curvature plus moderation block is not significant (joint F p = .462). The wave-specific exporteronly estimates are similarly noisier and individually weaker than the full-sample counterparts.
 We read this as showing that the inverted-U documented in the main specification is meaningfully
@@ -827,9 +827,9 @@ re-estimate the pooled M8 with a saturated set of wave interactions on the focal
 × wave, $(\mathrm{FSTS}^{c})^2$ × wave, $\tilde{\mathrm{DAI}}$ × wave, $\tilde{\mathrm{TCI}}$ × wave). The joint Wald tests show that
 only $\tilde{\mathrm{DAI}}$ × wave is statistically distinguishable from the pooled average (joint p = .016); the
 
-2 and $\tilde{\mathrm{TCI}}$ direct-effect cross-wave differences are not statistically separable
-(all joint p > .25), and the $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ and $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ cross-wave differences
-$\mathrm{FSTS}^{c}$, $\mathrm{FSTS}^{c}$
+and $\tilde{\mathrm{TCI}}$ direct-effect cross-wave differences are not statistically separable
+(all joint p > .25), and the $\mathrm{FSTS}^{c}$ × $\tilde{\mathrm{DAI}}$ and $(\mathrm{FSTS}^{c})^{2}$ × $\tilde{\mathrm{DAI}}$ cross-wave differences
+$\mathrm{FSTS}^{c}$, $(\mathrm{FSTS}^{c})^{2}$
 
 are not separable either (joint p > .55). This formal test confirms the descriptive Paternoster
 result: only the DAI direct shifts are cross-wave-distinguishable, while the curvature parameters
@@ -1299,7 +1299,7 @@ allow the firm to convert relatively basic digital adoption into more meaningful
 distinction is especially important in transitional economies, where firms move through uneven
 stages of capability development.
 
-### 5.6 Policy implications
+### 5.5 Policy implications
 We frame the policy reading as tentative considerations rather than directive prescriptions. The
 associational nature of the evidence, the breadth of the wave-specific heterogeneity, and the
 single-economy scope all weigh against converting the findings into firm policy targets. With
