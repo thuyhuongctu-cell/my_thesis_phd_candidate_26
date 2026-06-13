@@ -32,6 +32,14 @@ We make three contributions. First, we provide the first harmonised, firm-level 
 
 ## 2. Background and hypotheses
 
+This study sits at the intersection of three literatures: the economics of the digital divide, the theory of general-purpose technologies and complementarities, and the emerging debate on AI and economic development.
+
+The **digital-divide** literature has long documented unequal access to and use of digital technologies across and within economies, beginning with household and individual connectivity and extending to firms (Norris, 2001; OECD, 2001). Its firm-level branch shows that digital adoption is associated with higher productivity, exporting, and innovation, but that adoption itself is stratified by firm size, sector, and location (Bloom, Garicano, Sadun, & Van Reenen, 2014; Cusolito & Maloney, 2018). What this literature has lacked is a harmonised, firm-level view across the full institutional spectrum of developing and advanced economies on a single instrument — the gap this paper fills using the WBES.
+
+The **general-purpose-technology (GPT)** literature explains why the divide matters for the AI era. GPTs deliver aggregate gains only as complementary investments and capabilities diffuse, producing a delayed and uneven "productivity J-curve" (Bresnahan & Trajtenberg, 1995; Brynjolfsson et al., 2021). The corollary for AI is that the economies and firms lacking the complementary digital substrate cannot convert frontier AI capacity into realised productivity (David, 1990; Comin & Mestieri, 2018). Basic digital adoption — web presence and online business practice — is the foundational complement, the rung of the ladder on which higher digital and AI capabilities are built.
+
+The **AI-and-development** debate, finally, is split between optimism that AI can leapfrog development constraints and concern that it will entrench or widen them (Korinek & Stiglitz, 2021; Agrawal et al., 2019; Acemoglu & Restrepo, 2020). This paper informs that debate empirically and from below: rather than forecasting AI's effects, it measures the pre-AI digital substrate that conditions whether any AI dividend can reach developing-economy firms, and quantifies what closing the substrate gap is currently worth. The three hypotheses below formalise the digital dividend, the institutional gradient of the divide, and the saturation of the dividend.
+
 ### 2.1 Digital adoption as the substrate of an AI dividend
 
 The economics of general-purpose technologies holds that the aggregate returns to a new technology depend on the diffusion of complementary investments and capabilities, not on the technology's frontier capacity (Bresnahan & Trajtenberg, 1995; Brynjolfsson et al., 2021). AI is the paradigmatic case: large-language-model and analytics tools are increasingly cheap and accessible, but capturing value from them requires data infrastructure, online presence, digital workflows, and the absorptive capacity to reorganise around them (Cohen & Levinthal, 1990; Verhoef et al., 2021). Basic digital adoption — a firm's web presence and online business practices — is the entry rung of this ladder. It is a necessary, if far from sufficient, condition for AI adoption: a firm without it is structurally excluded from the AI dividend.
@@ -92,6 +100,8 @@ Table 1 reports web adoption by institutional regime. The divide is pronounced: 
 
 *H2 supported.* Adoption tracks institutional strength at the extremes — highest in the advanced-innovation regime, lowest in the emerging and SIDS regimes — though the middle regimes are compressed rather than strictly ordered.
 
+The divide is closing, but slowly. Pooling across all economies, web adoption rose from 32.6% in the 2003–2009 waves to 44.6% in 2010–2015 and 52.3% in 2016–2025. Even in the most recent window, then, barely more than half of the region's formal-sector firms maintain a web presence — a sobering baseline against which to assess the readiness of the firm population to absorb AI tools that presuppose an online operating footprint.
+
 ### 4.2 The digital-productivity dividend by regime (H1, H3)
 
 Table 2 reports the digital-productivity premium within each regime. The premium is positive and statistically significant in **every** regime, ranging from +0.214 (upper-middle) to +0.477 (advanced-resource) standard deviations of log productivity. Basic digital adoption pays everywhere, including in the weakest regimes: the emerging-regime premium is +0.253 (p < .001) and the SIDS premium is +0.246 (p = .011).
@@ -109,7 +119,7 @@ Table 2 reports the digital-productivity premium within each regime. The premium
 
 *Notes.* \* p < .05, \*\* p < .01, \*\*\* p < .001.
 
-*H1 supported.* *H3 supported.* The premium is non-monotonic in institutional strength. It is compressed in the highest-adoption advanced-innovation regime (+0.240), where web presence is near-universal and therefore weakly discriminating, and largest in the catching-up regimes — lower-middle transition (+0.383) and advanced-resource (+0.477) — where adoption is partial and still differentiating. This is the digital-saturation signature: the marginal productivity value of crossing the basic-digital threshold is highest precisely in the economies that are mid-transition, not at the frontier.
+*H1 supported.* *H3 partially supported.* The premium is non-monotonic in institutional strength. It is compressed in the two highest-adoption regimes — advanced-innovation (+0.240, adoption 69%) and upper-middle (+0.214, adoption 54%) — and largest in the catching-up regimes, lower-middle transition (+0.383) and advanced-resource (+0.477), where adoption is partial and still differentiating. This pattern is consistent with digital saturation: where web presence is near-universal, the indicator weakly discriminates and the marginal premium shrinks. We are cautious, however, in calling this a confirmed law. A formal test correlating each regime's adoption rate with its premium across the six regimes is negative but far from significant (Pearson r = −0.13, p = .80; Table 4), because the advanced-resource regime combines middling adoption (50%) with the largest premium, breaking a clean monotone. The defensible claim is narrower: the marginal productivity value of crossing the basic-digital threshold is compressed at the saturated frontier and substantial in the mid-transition economies, but adoption level alone does not fully order the premium.
 
 ### 4.3 Digital adoption versus deep capability
 
@@ -121,6 +131,24 @@ Table 3 places the digital premium alongside the level effect of deeper technolo
 |---|--:|--:|
 | Digital adoption (web presence) | +0.241 | <.001 |
 | Technological capability (TCI, z) | +0.124 | <.001 |
+
+### 4.4 Robustness
+
+Table 4 subjects the pooled digital premium to a battery of alternative specifications. The premium is +0.321 (p < .001) when DAI enters alone, attenuates to +0.241 once technological capability is controlled (digital adoption is partly a marker of broader capability), and to +0.188 with the full control set (firm size, age, foreign ownership) — but it remains large and highly significant throughout. Restricting the sample to domestic-owned firms, which removes any confounding from multinational affiliates that are both digitally advanced and productive for other reasons, leaves the premium essentially unchanged (+0.179, p < .001). The digital dividend is therefore not an artefact of foreign ownership or of the firm characteristics correlated with going online; it is robust across the plausible alternative specifications.
+
+**Table 4. Robustness of the pooled digital premium and the saturation test**
+
+| Specification | DAI premium | p | N |
+|---|--:|--:|--:|
+| Baseline (DAI only) | +0.321 | <.001 | 81,377 |
+| + technological capability | +0.241 | <.001 | 80,900 |
+| + firm size, age, foreign ownership | +0.188 | <.001 | 79,309 |
+| Domestic-owned firms only | +0.179 | <.001 | 74,773 |
+| *Saturation test:* r(regime adoption, regime premium), k = 6 | −0.13 | .80 | — |
+
+### 4.5 The dividend is broadly shared across firm size
+
+A natural concern is that the digital dividend accrues mainly to large firms with the resources to exploit an online presence, in which case digitalisation policy would be regressive within economies. The data do not support this concern. Interacting digital adoption with firm size (log employment, standardised), the interaction term is small and not significant (−0.024, p = .48), while the main digital effect remains positive and significant (+0.189, p < .001). The point estimate, if anything, leans toward smaller firms gaining slightly more, but the safe reading is that the digital dividend is broadly uniform across the firm-size distribution. Basic digitalisation is thus a candidate for inclusive productivity policy: it raises the productivity of small and large firms alike, rather than concentrating gains at the top of the size distribution.
 
 ## 5. Discussion
 
@@ -136,7 +164,13 @@ The non-monotonic premium has a corollary for policy targeting. In the advanced-
 
 Because labour productivity is the proximate driver of wages and firm survival, the digital dividend documented here is also a welfare channel. In the catching-up and emerging regimes that contain the bulk of the region's employment, a productivity premium of a quarter to nearly half a standard deviation from basic digital adoption is economically large. Policies that lower the cost of firm digitalisation — affordable connectivity, digital-payment rails, simplified online business registration — therefore have a plausible claim to be pro-poor productivity policy, not merely modernisation for its own sake. The welfare case for closing the digital divide does not depend on AI arriving; it is already justified by the pre-AI dividend, and AI raises, rather than creates, the stakes.
 
-### 5.4 Limitations
+### 5.4 A sequencing logic for AI-and-development policy
+
+The findings imply a sequencing logic that cuts against the grain of much current AI-strategy enthusiasm. National AI strategies typically foreground frontier applications — public-sector AI, AI research capacity, advanced analytics — yet our evidence locates the binding constraint for most developing-economy firms several rungs lower, at basic web presence, which half the region's firms still lack. The productivity arithmetic is stark: a +0.18 to +0.48 standard-deviation dividend from a step that costs a firm little more than registering a domain and maintaining a basic site, versus speculative and capability-intensive returns from frontier AI that the same firm cannot yet operate. For finance ministries and development agencies allocating scarce digital-policy budgets, the highest-yield intervention in catching-up economies is almost certainly to close the basic-digital gap first: affordable broadband and mobile data, low-cost digital-payment rails, simplified online business registration, and basic digital-skills programmes for small-firm managers. AI-readiness investment is the right priority where adoption is already saturated — the advanced-innovation regime — but a premature, uniform pivot to AI risks bypassing the firms and economies that the development agenda is meant to serve. The sequence is substrate first, then AI; inverting it concentrates the dividend at the frontier.
+
+This sequencing argument is also the paper's principal contribution to the AI-and-development debate. Where that debate has largely proceeded by forecasting AI's prospective effects, we ground it in a measured precondition: the existing, observable distribution of the digital substrate on which any AI dividend must build. The contribution is deliberately modest in its empirical claim — basic web presence is a coarse proxy and the design is associational — but it is precisely the modesty that makes the policy implication robust. One does not need to resolve the contested forecasts about AI's frontier effects to conclude that an economy in which half of firms are offline is not positioned to capture them.
+
+### 5.5 Limitations
 
 Three limitations bound the interpretation. First, the WBES is a repeated cross-section, not a panel; the estimates are within-economy-year associations conditioned on fixed effects, not causal effects, and selection of more productive firms into digital adoption is part of what they reflect. Second, web presence is a coarse, binary Tier-1 proxy; it captures the existence but not the depth or quality of digital engagement, and it does not measure AI adoption directly — by design, since our claim concerns the pre-AI substrate. Third, the cross-economy comparison rests on within-economy-year standardisation of productivity; level comparisons of raw productivity across economies are not identified and are not attempted here. Subsequent WBES waves carrying richer digital-capability items will allow the analysis to climb the digital ladder toward the AI rung itself.
 
@@ -150,6 +184,8 @@ Acemoglu, D., & Restrepo, P. (2020). Robots and jobs: Evidence from US labor mar
 
 Agrawal, A., Gans, J., & Goldfarb, A. (2019). *The economics of artificial intelligence: An agenda*. University of Chicago Press.
 
+Bloom, N., Garicano, L., Sadun, R., & Van Reenen, J. (2014). The distinct effects of information technology and communication technology on firm organization. *Management Science, 60*(12), 2859–2885.
+
 Bresnahan, T. F., & Trajtenberg, M. (1995). General purpose technologies: "Engines of growth"? *Journal of Econometrics, 65*(1), 83–108.
 
 Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. *American Economic Journal: Macroeconomics, 13*(1), 333–372.
@@ -158,11 +194,19 @@ Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective 
 
 Comin, D., & Mestieri, M. (2018). If technology has arrived everywhere, why has income diverged? *American Economic Journal: Macroeconomics, 10*(3), 137–178.
 
+Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank.
+
+David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review, 80*(2), 355–361.
+
 Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
 
 Korinek, A., & Stiglitz, J. E. (2021). Artificial intelligence, globalization, and strategies for economic development (NBER Working Paper No. 28453). National Bureau of Economic Research.
 
+Norris, P. (2001). *Digital divide: Civic engagement, information poverty, and the Internet worldwide*. Cambridge University Press.
+
 North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
+
+OECD. (2001). *Understanding the digital divide*. OECD Publishing.
 
 Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901.
 
