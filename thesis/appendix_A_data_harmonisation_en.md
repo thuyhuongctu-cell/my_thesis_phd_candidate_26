@@ -54,8 +54,8 @@ reconstruction and audit (Page et al., 2021).
 | **S2** | De-duplication | One survey per (economy × year) pair | — |
 | **S3** | Variable harmonisation | Map heterogeneous questionnaire fields to a common schema (A.4) | — |
 | **S4** | Missing-code treatment | Recode WBES non-response codes (−9 *Don't Know*, −8 *Refusal*, −7 *N/A*) to missing; range-validate | — |
-| **S5** | Institutional stratification (ICRV) | Assign regime; restrict to the **49-economy** Asia-Pacific frame | Classification pool = **96,415** firms (52 economies) → 49-economy frame = **91,864** firms |
-| **S6** | Listwise analytic sample | Drop records missing the dependent variable or focal regressor | Analytic sample = **91,982**; M2 regression N = **84,910**; full-control M5 = **38,342** |
+| **S5** | Institutional stratification (ICRV) | Assign regime; restrict to the **50-economy** Asia-Pacific frame (incl. Japan 2025) | Classification pool = **96,415** firms (52 economy-labels) → 50-economy frame |
+| **S6** | Listwise analytic sample | Drop records missing the dependent variable or focal regressor | Analytic sample = **88,869** (50 economies, 103 economy-year pairs); M2 regression N = **81,022**; two-way-FE M5 = **79,080** |
 
 *Official counts from the dissertation's pooled file (`data_wbes/p7/p7_pooled_clean.csv`):
 106,765 firm-year records across 17 survey rounds, 2003–2025.*
@@ -68,20 +68,22 @@ flowchart TD
     B -->|"S2 · de-duplicate"| C["One survey / (economy × year)"]
     C -->|"S3 · harmonise variables<br/>(LP, FSTS, TCI/DAI, controls)"| D["Common variable schema"]
     D -->|"S4 · recode −9/−8/−7 → missing;<br/>range-validate"| E["106,765 firm-year records"]
-    E -->|"S5 · assign ICRV regime<br/>(WGI available)"| F["96,415 classified firms · 52 economies"]
-    F -->|"drop Comoros / Cyprus / Türkiye<br/>(outside Asia-Pacific)"| G["91,982 firms · 49 economies<br/>— ANALYTIC SAMPLE"]
-    G -->|"S6 · listwise on focal set"| H["84,910 — M2 regression N"]
-    H -->|"+ full controls"| I["38,342 — M5 (two-way FE)"]
+    E -->|"S5 · assign ICRV regime<br/>(WGI available)"| F["96,415 classified firms · 52 economy-labels"]
+    F -->|"drop non-Asia-Pacific;<br/>keep 50-economy frame (incl. Japan 2025)"| G["88,869 firms · 50 economies<br/>· 103 economy-years — ANALYTIC SAMPLE"]
+    G -->|"S6 · listwise on focal set"| H["81,022 — M2 regression N"]
+    H -->|"+ controls, two-way FE"| I["79,080 — M5 (two-way FE)"]
 ```
 
-**Replication note.** The reproducible raw archive in the repository
-(`data_wbes/raw_dta/`, 105 standard cross-sections ≥2006 for 49 economies, 80,523
-firm-years) is a **subset** of the authors' full assembly (some historical rounds
-have not been re-uploaded). `scripts/build_pooled_dataset.py` reproduces the S1–S6
-**procedure** on the available archive and emits a verification data flow; the
-**official, locked** sample sizes (96,415 / 91,982 / 84,910) are reported from the
-master file and are the figures cited in Chapters 3–4. The gap between the two layers
-is disclosed transparently for committee verification.
+**Replication note.** The canonical analytic frame (50 economies incl. Japan 2025;
+96,415 classified → 88,869 analytic → M2 N = 81,022 / M5 N = 79,080) is reproducible
+from the raw archive (`data_wbes/raw_dta/`) via `scripts/p7_run_50econ.py`; the locked
+values are recorded in `data_wbes/analysis/CANONICAL_NUMBERS.md` and the re-estimation
+log (`REESTIMATION_LOG_2026-06-13.md`), and are the figures cited in Chapters 3–4.
+An earlier master-file assembly (`data_wbes/p7/p7_pooled_clean.csv`) produced a
+pre-Japan 49-economy build (91,982 analytic / 84,910 M2 / 38,342 full-control M5); that
+build is **superseded** by the Japan-inclusive re-estimation and is retained only for
+provenance. The standalone P7 working paper still reports the earlier build and is being
+reconciled to the canonical frame before journal submission.
 
 ## A.4 Variable harmonisation (Step S3)
 

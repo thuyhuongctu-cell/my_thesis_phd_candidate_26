@@ -41,7 +41,7 @@ Identification, Screening, Eligibility, Inclusion theo hướng dẫn PRISMA 202
 
 ### 3.3.1 Nguồn dữ liệu
 
-Luận án sử dụng World Bank Enterprise Surveys cho **50 nền kinh tế châu Á và Thái Bình Dương** trong giai đoạn **2003–2025** (91.982 doanh nghiệp, 103 cặp nền kinh tế và năm, 14 mốc khảo sát) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011). Quy trình hợp nhất và hài hòa hóa chi tiết các bộ khảo sát quốc gia–năm thành bộ dữ liệu phân tích thống nhất (sáu bước S1–S6, xử lý tính so sánh tiền tệ, chiến lược pooled cross-section với hiệu ứng cố định hai chiều, cùng dòng dữ liệu PRISMA và mã tái lập) được trình bày đầy đủ ở **Phụ lục A**.
+Luận án sử dụng World Bank Enterprise Surveys cho **50 nền kinh tế châu Á và Thái Bình Dương** trong giai đoạn **2003–2025** (88.869 doanh nghiệp trong khung phân tích, 103 cặp nền kinh tế và năm; bao gồm Nhật Bản 2025; pool phân loại ICRV 96.415 doanh nghiệp/52 nhãn nền) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về firm-level outcomes (Aterido et al., 2011). Quy trình hợp nhất và hài hòa hóa chi tiết các bộ khảo sát quốc gia–năm thành bộ dữ liệu phân tích thống nhất (sáu bước S1–S6, xử lý tính so sánh tiền tệ, chiến lược pooled cross-section với hiệu ứng cố định hai chiều, cùng dòng dữ liệu PRISMA và mã tái lập) được trình bày đầy đủ ở **Phụ lục A**.
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về emerging markets (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (nghiên cứu thành phần P1).
 
@@ -154,7 +154,7 @@ với $D$ = digital, $I$ = institutional, $M$ = manager.
 
 **Cơ sở kế thừa**: chuẩn moderation trong quản trị chiến lược (Aiken & West, 1991; Dawson, 2014).
 
-**Đóng góp mới**: three-way moderation digital × institutional × manager trong bối cảnh châu Á và Pacific với 49 nước chưa được kiểm định trước đây.
+**Đóng góp mới**: three-way moderation digital × institutional × manager trong bối cảnh châu Á và Pacific với 50 nước chưa được kiểm định trước đây.
 
 ### 3.4.5 Mô hình temporal heterogeneity (H6)
 
@@ -542,9 +542,9 @@ Vì dữ liệu chủ đạo của luận án là lát cắt ngang lặp lại (
 
 | Thành phần | Cơ sở kế thừa | Đóng góp mới |
 |---|---|---|
-| Mixed design | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **49 châu Á + Pacific economies** trong một luận án |
+| Mixed design | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **50 nền kinh tế châu Á + Thái Bình Dương** trong một luận án |
 | Meta-analysis 1982–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng coverage, bổ sung digital và 6 sub-regime ICRV moderators |
-| Pool empirical | nghiên cứu thành phần P1 — 17 nước châu Á mới nổi | Mở rộng từ 17 → **49 nước** với 91.982 doanh nghiệp · 103 cặp nền kinh tế và năm |
+| Pool empirical | nghiên cứu thành phần P1 — 17 nước châu Á mới nổi | Mở rộng từ 17 → **50 nước** với 88.869 doanh nghiệp · 103 cặp nền kinh tế và năm (gồm Nhật Bản 2025) |
 | Labor productivity DV | Bloom et al. (2012); Hsieh & Klenow (2009); nghiên cứu thành phần P1 | Lập luận rõ về firm performance đa chiều trong bối cảnh WBES |
 | FSTS + FSTS² + FSTS³ | Lu & Beamish (2004); Hitt et al. (1997); nghiên cứu thành phần P2 | Đưa vào cùng three-way moderation framework |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Non-overlapping construct purity protocol cho WBES; digital shield mở rộng (nghiên cứu thành phần P1) |
