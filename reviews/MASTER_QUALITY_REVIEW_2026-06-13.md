@@ -10,10 +10,11 @@
 - **Khóa canonical** `data_wbes/analysis/CANONICAL_NUMBERS.md`. Xác minh thực nghiệm: P7 re-run GỒM Nhật Bản → **50 nền/88.869/M2 81.022/M5 79.080/TP 43,6%**; "91.982/49" là build cũ superseded (bỏ Nhật chỉ còn 86.701). **Rối "49 vs 50" đã được giải quyết: đáp án là 50.**
 - **Luận án** (Ch1–5 + Phụ lục A EN): đồng bộ 49→50, 91.982→88.869; sửa §4.1.5 (Nhật ĐÃ vào P7); Phụ lục A cập nhật sơ đồ PRISMA + đánh dấu build cũ superseded. → V3 xử lý xong cho luận án.
 - **CĐ1 + CĐ2**: đồng bộ 50 nền (group-sum 6+6+6+7+17+8=50); **bổ sung FIP β=−1,339 + k=238** vào CĐ2 (D1 xử lý xong); **sửa DOI Marano hỏng** 648proper (D-DOI xử lý xong).
-- **P7 manuscript**: thêm **banner reconciliation đỏ** (V1 chặn rủi ro tạm thời; chưa tái ước lượng đầy đủ).
-- **Công cụ**: `scripts/verify_dois.py` (chạy ngoài để kiểm 62 DOI nghi bịa), `scripts/reference_audit.py`.
+- **P7 manuscript (V1 XỬ LÝ XONG):** tái ước lượng đầy đủ ladder M1–M8 trên 50 nền (`scripts/p7_full_ladder.py`); hai mỏ neo tái lập chính xác (M2 81.022/51,5%; M4 79.080/43,6%). Viết lại toàn bộ manuscript. Hai sửa đổi bản chất từ re-estimation: (i) **DAI là level-shifter (+0,219***), KHÔNG uốn cong** (tương tác FSTS×DAI không ý nghĩa) — sửa luận điểm cũ; (ii) **nữ quản lý đảo dấu +0,185→−0,104***** (nhất quán P10/luận án); gradient 28→55% → **ba vùng** (Bảng 4 per-ICRV).
+- **P3/P4/P5 (P1 XỬ LÝ XONG):** P3 sửa công thức `(FSTS^c)^2` hỏng (16 chỗ) + bảng điểm uốn + đánh số 5.5; P4 sửa nhãn item TCI (e6/h8/h1) + TP 88,6%; P5 thêm câu hòa giải ba tầng mẫu.
+- **Công cụ**: `scripts/verify_dois.py` (kiểm 62 DOI nghi bịa), `scripts/reference_audit.py`, `scripts/p7_full_ladder.py`.
 
-**Còn lại (cần phiên chuyên dụng / dữ kiện tác giả):** P7 tái ước lượng đầy đủ M0–M11 trên 50 nền (cần biến manager b7/b7a/b4); P6 hoàn tất meta thật + sửa nhãn OSF prereg (mốc thời gian — chỉ tác giả biết); P3/P4/P5 (P1) sửa hỏng công thức + N; chạy `verify_dois.py` trên máy có mạng.
+**Còn lại (cần dữ kiện tác giả / máy có mạng):** P6 hoàn tất meta thật + sửa nhãn OSF prereg (mốc thời gian — chỉ tác giả biết); chạy `verify_dois.py` trên máy có mạng để kiểm 62 DOI; đối chứng do-file Stata trên máy có license trước khi nộp.
 
 ---
 
@@ -32,11 +33,11 @@ Thang đo: (a) Đóng góp/định vị lý thuyết; (b) Chặt chẽ phương 
 | Phụ lục A | 8 | 8 | 7 | 8 | 8 | 7.8 | Tốt |
 | CĐ1 (mô tả 50 nền) | 7 | 7 | 6 | 8 | 7 | 7.0 | Tốt |
 | CĐ2 (taxonomy ICRV) | 8 | 7 | 5 | 8 | 7 | 7.0 | Sửa số liệu |
-| P3 Việt Nam | 8 | 8 | 5 | 6 | 6 | 6.6 | Sửa định dạng+số |
-| P4 Singapore | 8 | 7 | 6 | 9 | 8 | 7.6 | Gần sẵn sàng |
-| P5 Trung Quốc | 8 | 8 | 6 | 8 | 8 | 7.6 | Sửa số liệu |
+| P3 Việt Nam | 8 | 8 | 7 | 8 | 6 | 7.4 | ✅ Đã sửa (LaTeX+TP+§) |
+| P4 Singapore | 8 | 7 | 8 | 9 | 8 | 8.0 | ✅ Đã sửa (TCI+TP) |
+| P5 Trung Quốc | 8 | 8 | 8 | 8 | 8 | 8.0 | ✅ Đã sửa (N reconcile) |
 | **P6 Meta-analysis** | 6 | 6 | 5 | 7 | 6 | 6.0 | **CHƯA HOÀN TẤT** |
-| **P7 Capstone 50 nền** | 6 | 7 | 3 | 7 | 6 | 5.8 | **SỐ LIỆU LỆCH CANON** |
+| P7 Capstone 50 nền | 7 | 7 | 8 | 7 | 7 | 7.2 | ✅ Đã tái ước lượng + viết lại |
 | P8 SIDS/FIP | 8 | 7 | 6 | 8 | 7 | 7.2 | Sửa định khung |
 | P9 Ấn Độ | 8 | 8 | 7 | 8 | 7 | 7.6 | Mạnh nhất |
 | P10 Nhật Bản | 7 | 7 | 7 | 8 | 7 | 7.2 | Sạch |
