@@ -4,6 +4,7 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
+  a4paper,
   13pt]{extreport}
 \usepackage{amsmath,amssymb}
 \usepackage{setspace}
@@ -108,6 +109,31 @@
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
+% ctu_xelatex_header.tex — header-includes cho build LaTeX CTU (xelatex).
+% Ánh xạ các ký tự Unicode mà TeX Gyre Termes thiếu glyph (chỉ số dưới/trên,
+% ký tự kẻ hộp) sang lệnh LaTeX tương đương để không bị rớt glyph khi biên dịch.
+\usepackage{newunicodechar}
+\usepackage{pifont}
+\usepackage{amssymb}
+\newunicodechar{✓}{\ding{51}}
+\newunicodechar{✗}{\ding{55}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+\newunicodechar{₀}{\textsubscript{0}}
+\newunicodechar{₁}{\textsubscript{1}}
+\newunicodechar{₂}{\textsubscript{2}}
+\newunicodechar{₃}{\textsubscript{3}}
+\newunicodechar{₄}{\textsubscript{4}}
+\newunicodechar{₅}{\textsubscript{5}}
+\newunicodechar{₆}{\textsubscript{6}}
+\newunicodechar{₇}{\textsubscript{7}}
+\newunicodechar{₈}{\textsubscript{8}}
+\newunicodechar{₉}{\textsubscript{9}}
+\newunicodechar{²}{\textsuperscript{2}}
+\newunicodechar{³}{\textsuperscript{3}}
+\newunicodechar{─}{\rule[0.5ex]{0.9em}{0.4pt}}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -3040,13 +3066,14 @@ ngưỡng qua chuyển đổi thể chế
 (P9)}\label{muxf4-huxecnh-cux1ee5-thux1ec3-nghiuxean-cux1ee9u-9-ux1ea5n-ux111ux1ed9-ux111ux1ed9-bux1ec1n-ngux1b0ux1ee1ng-qua-chuyux1ec3n-ux111ux1ed5i-thux1ec3-chux1ebf-p9}}
 
 Nghiên cứu 9 sử dụng ba đợt Khảo sát Doanh nghiệp Ngân hàng Thế giới cho
-Ấn Độ (2014 PICS3, \(N_{phân tích} = 8.941\); 2022 BEE,
-\(N_{phân tích} = 9.300\); 2025 BREADY, \(N_{phân tích} = 10.476\); mẫu
-gộp \(N = 28.717\)), pool đơn quốc gia lớn nhất của luận án. Ấn Độ thuộc
-Nhóm IV ICRV (Chuyển đổi thu nhập trung bình--thấp); cửa sổ 2014--2025
-bao trùm chuỗi cú sốc thể chế (bãi bỏ tiền mặt 2016, GST 2017, IBC 2016,
-UPI 2016, PLI và Atmanirbhar Bharat 2020, COVID-19), tạo điều kiện
-stress-test cho giả thuyết bền vững ngưỡng.
+Ấn Độ (2014 PICS3, \(N_{\text{phân tích}} = 8.941\); 2022 BEE,
+\(N_{\text{phân tích}} = 9.300\); 2025 BREADY,
+\(N_{\text{phân tích}} = 10.476\); mẫu gộp \(N = 28.717\)), pool đơn
+quốc gia lớn nhất của luận án. Ấn Độ thuộc Nhóm IV ICRV (Chuyển đổi thu
+nhập trung bình--thấp); cửa sổ 2014--2025 bao trùm chuỗi cú sốc thể chế
+(bãi bỏ tiền mặt 2016, GST 2017, IBC 2016, UPI 2016, PLI và Atmanirbhar
+Bharat 2020, COVID-19), tạo điều kiện stress-test cho giả thuyết bền
+vững ngưỡng.
 
 Mô hình ước lượng OLS với sai số chuẩn vững HC1, gồm số hạng FSTS bậc
 nhất và bậc hai (centred theo đợt) cùng các tương tác năng lực (TCI,
@@ -4172,18 +4199,19 @@ vĩ mô của Ngân hàng Thế giới về các nền kinh tế nhỏ và dễ 
 2014--2025
 (P9)}\label{kux1ebft-quux1ea3-bux1ed1i-cux1ea3nh-biux1ebfn-ux111ux1ed9ng-thux1ec3-chux1ebf-cux1ef1c-ux111oan-ux1ea5n-ux111ux1ed9-20142025-p9}}
 
-Phân tích trên ba đợt WBES Ấn Độ (2014 PICS3, \(N_{phân tích} = 8.941\);
-2022 BEE, \(N_{phân tích} = 9.300\); 2025 BREADY,
-\(N_{phân tích} = 10.476\)) cho mẫu gộp \(N = 28.717\), lớn nhất trong
-các nghiên cứu đơn quốc gia của luận án. Khoảng thời gian 2014--2025 bao
-trùm một loạt cú sốc thể chế chưa từng có trong lịch sử Ấn Độ hiện đại:
-bãi bỏ tiền mặt tháng 11/2016, ban hành Luật Phá sản và Mất khả năng
-thanh toán (IBC) tháng 5/2016, áp dụng Thuế Hàng hóa và Dịch vụ (GST)
-tháng 7/2017, ra mắt Giao diện Thanh toán Hợp nhất (UPI) tháng 4/2016
-đạt mức 12 tỷ giao dịch/tháng năm 2024, triển khai sáng kiến Sản xuất
-tại Ấn Độ và chương trình Liên kết Khuyến khích Sản xuất (PLI) năm 2020,
-cùng chính sách Tự chủ Ấn Độ (Atmanirbhar Bharat) định hướng lại chiến
-lược quốc gia theo hướng nội địa hóa giai đoạn 2020.
+Phân tích trên ba đợt WBES Ấn Độ (2014 PICS3,
+\(N_{\text{phân tích}} = 8.941\); 2022 BEE,
+\(N_{\text{phân tích}} = 9.300\); 2025 BREADY,
+\(N_{\text{phân tích}} = 10.476\)) cho mẫu gộp \(N = 28.717\), lớn nhất
+trong các nghiên cứu đơn quốc gia của luận án. Khoảng thời gian
+2014--2025 bao trùm một loạt cú sốc thể chế chưa từng có trong lịch sử
+Ấn Độ hiện đại: bãi bỏ tiền mặt tháng 11/2016, ban hành Luật Phá sản và
+Mất khả năng thanh toán (IBC) tháng 5/2016, áp dụng Thuế Hàng hóa và
+Dịch vụ (GST) tháng 7/2017, ra mắt Giao diện Thanh toán Hợp nhất (UPI)
+tháng 4/2016 đạt mức 12 tỷ giao dịch/tháng năm 2024, triển khai sáng
+kiến Sản xuất tại Ấn Độ và chương trình Liên kết Khuyến khích Sản xuất
+(PLI) năm 2020, cùng chính sách Tự chủ Ấn Độ (Atmanirbhar Bharat) định
+hướng lại chiến lược quốc gia theo hướng nội địa hóa giai đoạn 2020.
 
 Kết quả thực nghiệm cho thấy một dạng phá vỡ ngưỡng (threshold collapse)
 không quan sát được ở bất kỳ bối cảnh quốc gia nào khác trong portfolio.

@@ -20,6 +20,7 @@ CTU_VARS=(
   -V documentclass=extreport
   -V classoption=13pt
   -V mainfont="$MAINFONT"
+  -V papersize=a4
   -V geometry:left=3.5cm -V geometry:right=2cm -V geometry:top=2.5cm -V geometry:bottom=2.5cm
   -V linestretch=1.5
   -V lang=vi
@@ -30,6 +31,7 @@ COMMON=(
   --standalone
   --pdf-engine=xelatex
   --resource-path=thesis:chuyen_de/cd1:chuyen_de/cd2:.
+  -H templates/ctu_xelatex_header.tex
 )
 
 pagebreak() { printf '\n\n\\newpage\n\n'; }
