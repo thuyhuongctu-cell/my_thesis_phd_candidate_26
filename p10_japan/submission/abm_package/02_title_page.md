@@ -1,4 +1,4 @@
-# At the Upper Bound of the Institutional Gradient: Internationalization and Firm Performance in Japan's Inaugural World Bank Enterprise Survey
+# At the Upper Bound of the Institutional Gradient: Internationalization, Capabilities, and Firm Performance in Japan's Inaugural World Bank Enterprise Survey
 
 **Đỗ Thùy Hương**¹ ²
 **Phan Anh Tú**²
