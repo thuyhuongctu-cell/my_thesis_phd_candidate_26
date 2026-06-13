@@ -4,6 +4,19 @@
 
 ---
 
+## ✅ CẬP NHẬT KHẮC PHỤC P0 (2026-06-13, sau đánh giá)
+
+Đã thực hiện và push (branch `claude/phd-thesis-review-L9Gml`):
+- **Khóa canonical** `data_wbes/analysis/CANONICAL_NUMBERS.md`. Xác minh thực nghiệm: P7 re-run GỒM Nhật Bản → **50 nền/88.869/M2 81.022/M5 79.080/TP 43,6%**; "91.982/49" là build cũ superseded (bỏ Nhật chỉ còn 86.701). **Rối "49 vs 50" đã được giải quyết: đáp án là 50.**
+- **Luận án** (Ch1–5 + Phụ lục A EN): đồng bộ 49→50, 91.982→88.869; sửa §4.1.5 (Nhật ĐÃ vào P7); Phụ lục A cập nhật sơ đồ PRISMA + đánh dấu build cũ superseded. → V3 xử lý xong cho luận án.
+- **CĐ1 + CĐ2**: đồng bộ 50 nền (group-sum 6+6+6+7+17+8=50); **bổ sung FIP β=−1,339 + k=238** vào CĐ2 (D1 xử lý xong); **sửa DOI Marano hỏng** 648proper (D-DOI xử lý xong).
+- **P7 manuscript**: thêm **banner reconciliation đỏ** (V1 chặn rủi ro tạm thời; chưa tái ước lượng đầy đủ).
+- **Công cụ**: `scripts/verify_dois.py` (chạy ngoài để kiểm 62 DOI nghi bịa), `scripts/reference_audit.py`.
+
+**Còn lại (cần phiên chuyên dụng / dữ kiện tác giả):** P7 tái ước lượng đầy đủ M0–M11 trên 50 nền (cần biến manager b7/b7a/b4); P6 hoàn tất meta thật + sửa nhãn OSF prereg (mốc thời gian — chỉ tác giả biết); P3/P4/P5 (P1) sửa hỏng công thức + N; chạy `verify_dois.py` trên máy có mạng.
+
+---
+
 ## PHẦN I — BẢNG ĐIỂM CHẤT LƯỢNG (rubric 0–10)
 
 Thang đo: (a) Đóng góp/định vị lý thuyết; (b) Chặt chẽ phương pháp; (c) Nhất quán số liệu nội bộ; (d) Văn phong học thuật; (e) APA7 & độ phù hợp tạp chí.
