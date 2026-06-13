@@ -23,19 +23,23 @@
 
 \documentclass[aspectratio=169,11pt]{beamer}
 
-% --------- Chọn engine: pdfLaTeX (mặc định) ----------
-\usepackage[utf8]{inputenc}
-\usepackage[T5]{fontenc}        % T5 = bảng mã font cho tiếng Việt
-\usepackage[vietnamese]{babel}
-% -----------------------------------------------------
-%
-% Nếu dùng XELATEX thay vì pdfLaTeX, hãy COMMENT 3 dòng trên và UNCOMMENT khối sau:
-% \usepackage{fontspec}
-% \usepackage{polyglossia}
-% \setmainlanguage{vietnamese}
-% \setmainfont{Latin Modern Roman}   % hoặc "Times New Roman", "DejaVu Serif"
-%
-% -----------------------------------------------------
+% --------- Engine tự nhận diện (pdfLaTeX hoặc XeLaTeX) ----------
+% Biên dịch được bằng CẢ HAI engine:
+%   pdflatex defense_slides_vi.tex   (cần texlive-lang-other: T5 + babel-vietnamese)
+%   xelatex  defense_slides_vi.tex   (chỉ cần fontspec + polyglossia, có sẵn rộng rãi)
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5]{fontenc}        % T5 = bảng mã font cho tiếng Việt
+  \usepackage[vietnamese]{babel}
+\else
+  \usepackage{fontspec}
+  \usepackage{polyglossia}
+  \setmainlanguage{vietnamese}
+  \setmainfont{TeX Gyre Termes}   % serif, phủ đủ ký tự tiếng Việt
+  \setsansfont{TeX Gyre Heros}    % sans cho beamer Madrid
+\fi
+% ---------------------------------------------------------------
 
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
@@ -114,7 +118,7 @@
       \begin{itemize}\small
         \item Tổng hợp meta-analytic 1982--2026.
         \item Kiểm định cơ chế theo từng quốc gia.
-        \item Mở rộng ra \hl{49 nền kinh tế} châu Á--TBD.
+        \item Mở rộng ra \hl{50 nền kinh tế} châu Á--TBD (gồm Nhật Bản).
         \item Phân tích điều tiết ba tầng: thể chế (ICRV), số (TCI/DAI), nhà quản trị.
       \end{itemize}
     \end{column}
@@ -149,9 +153,9 @@
       \kw{CDCM} = \emph{Country--Digital--Capability Moderation}: ba tầng điều tiết cùng giải thích heterogeneity I--P.
       \vspace{0.4em}
 
-      \kw{ICRV} (Institutional Context Regime Variation) --- taxonomy thể chế \hl{6 nhóm} cho 49 nền:
+      \kw{ICRV} (Institutional Context Regime Variation) --- taxonomy thể chế \hl{6 nhóm} cho 50 nền:
       \begin{itemize}\scriptsize
-        \item I. Advanced innovation (SG, KR, TW)
+        \item I. Advanced innovation (SG, KR, TW, Nhật Bản)
         \item II. Advanced resource (GCC)
         \item III. Upper-middle (Trung Quốc)
         \item IV. Lower-mid transition (VN, Ấn Độ)
@@ -201,7 +205,7 @@
     \begin{column}{0.5\textwidth}
       \textbf{Dữ liệu WBES}
       \begin{itemize}\small
-        \item Mẫu phân tích: \hl{91.982 doanh nghiệp / 49 nền kinh tế} (2003--2025).
+        \item Mẫu phân tích: \hl{88.869 doanh nghiệp / 50 nền kinh tế} (2003--2025); mẫu hồi quy chính $N=81.022$.
         \item Pool phân loại ICRV: \hl{96.415 DN / 52 nhãn nền}.
         \item Hòa hợp 3 thế hệ schema: PICS3, Standardized, BREADY/BEE (xem Phụ lục A).
       \end{itemize}
@@ -224,16 +228,20 @@
 
 % ===================== SLIDE 8: KẾT QUẢ — CHỮ U NGƯỢC + GRADIENT =====================
 \section{Kết quả thực nghiệm chính}
-\begin{frame}{Kết quả 1: Chữ U ngược \& gradient turning point theo ICRV}
+\begin{frame}{Kết quả 1: Chữ U ngược \& bức tranh ba vùng theo ICRV}
   \begin{columns}[T]
     \begin{column}{0.52\textwidth}\small
-    Mô hình toàn mẫu P7 (two-way FE, $\text{adj}R^2={,}677$):
-    \[ \text{TP(M5)} = \hl{40{,}0\%}\ \text{FSTS} \quad (p_{\text{LM}}<{,}001) \]
-    Turning point ổn định trong dải \hl{33{,}8--40{,}0\%} qua M2--M9; mô hình ba chiều M11: $\text{TP}=34{,}6\%$.
+    Mô hình toàn mẫu P7 (50 nền, two-way FE):
+    \[ \text{TP(M5)} = \hl{43{,}6\%}\ \text{FSTS} \quad (p_{\text{LM}}<{,}001) \]
+    Mô hình rút gọn M2 ($N=81.022$): $\text{TP}=51{,}5\%$. Hệ số bậc hai âm có ý nghĩa ở cả hai.
     \vspace{0.3em}
 
-    \kw{Gradient ICRV} (turning point dịch phải khi thể chế yếu đi):
-    \[ \underbrace{\approx\hl{28\%}}_{\text{Nhóm I}} < \text{Upper-mid} < \underbrace{\approx\hl{55\%}}_{\text{Emerging/SIDS}} \]
+    \kw{Bức tranh ba vùng theo ICRV} (không còn gradient đơn điệu):
+    \begin{itemize}\scriptsize
+      \item Giữa (Nhóm IV chuyển đổi): chữ U ngược \emph{sắc nét}, $\text{TP}=\hl{43{,}0\%}$ ($p<{,}001$).
+      \item Trên (Nhóm I, gồm Nhật Bản): \emph{gần tuyến tính}, điểm uốn ngoài miền dữ liệu.
+      \item Dưới (Emerging/SIDS): cấu trúc \emph{tan rã}; SIDS đảo chiều thành FIP.
+    \end{itemize}
     Hai nguồn độc lập xác nhận: meta P6 ($Q_M=17{,}35$) và hồi quy P7.
     \end{column}
     \begin{column}{0.48\textwidth}
@@ -242,21 +250,19 @@
     \begin{tikzpicture}[scale=1.0]
       \draw[->] (0,0) -- (5,0) node[right,font=\scriptsize]{FSTS \%};
       \draw[->] (0,0) -- (0,3.2) node[above,font=\scriptsize]{Hiệu quả};
-      % curve Nhom I (TP som ~28%)
-      \draw[very thick,accent] plot[domain=0:4.6,samples=60] (\x,{2.6-0.55*(\x-1.4)*(\x-1.4)+0.6});
-      \draw[dashed,accent] (1.4,0) -- (1.4,2.6+0.6);
-      \node[accent,font=\scriptsize] at (1.4,-0.25) {28};
-      % curve Emerging (TP muon ~55%)
-      \draw[very thick,accent2] plot[domain=0:4.6,samples=60] (\x,{2.1-0.30*(\x-2.9)*(\x-2.9)+0.6});
-      \draw[dashed,accent2] (2.9,0) -- (2.9,2.1+0.6);
-      \node[accent2,font=\scriptsize] at (2.9,-0.25) {55};
-      % SIDS monotone neg
+      % Nhom I (gan tuyen tinh, TP ngoai mien du lieu)
+      \draw[very thick,accent] plot[domain=0:4.6,samples=60] (\x,{1.4+0.42*\x-0.018*\x*\x});
+      % Nhom IV (chu U nguoc sac net, TP ~ giua = 43%)
+      \draw[very thick,accent2] plot[domain=0:4.6,samples=60] (\x,{1.3-0.42*(\x-2.3)*(\x-2.3)+1.1});
+      \draw[dashed,accent2] (2.3,0) -- (2.3,2.4);
+      \node[accent2,font=\scriptsize] at (2.3,-0.25) {43};
+      % SIDS monotone neg (FIP)
       \draw[very thick,gray,dotted] plot[domain=0.2:4.6,samples=40] (\x,{1.7-0.42*\x});
-      \node[accent,font=\scriptsize,anchor=west] at (3.2,3.0) {Nhóm I};
-      \node[accent2,font=\scriptsize,anchor=west] at (3.2,2.55) {Emerging};
+      \node[accent,font=\scriptsize,anchor=west] at (3.3,3.05) {Nhóm I (Nhật Bản)};
+      \node[accent2,font=\scriptsize,anchor=west] at (3.3,1.55) {Nhóm IV};
       \node[gray,font=\scriptsize,anchor=west] at (2.6,0.4) {SIDS (FIP)};
     \end{tikzpicture}}
-    \\{\scriptsize Hình 4.1 (minh họa): họ đường cong I--P theo ICRV.}
+    \\{\scriptsize Hình 4.1 (minh họa): bức tranh ba vùng I--P theo ICRV.}
     \end{column}
   \end{columns}
 \end{frame}
@@ -358,7 +364,7 @@
   \begin{enumerate}
     \item \kw{Khung CDCM} --- kiến trúc tích hợp đa tầng (Uppsala + RBV + thể chế + thượng tầng quản trị + digital lens), mỗi tầng giải thích một loại heterogeneity của I--P.
     \item \kw{Construct mới FIP} (Forced Internationalization Penalty) --- lần đầu định danh quan hệ I--P âm đơn điệu tại điều kiện biên cực đoan (SIDS), biện minh bằng ba điều kiện cấu trúc.
-    \item \kw{Taxonomy ICRV} --- khung phân loại thể chế 6 nhóm cho 49 nền, công cụ tái sử dụng cho nghiên cứu I--P tương lai.
+    \item \kw{Taxonomy ICRV} --- khung phân loại thể chế 6 nhóm cho 50 nền, công cụ tái sử dụng cho nghiên cứu I--P tương lai.
     \item \kw{Phân tách TCI vs DAI} --- hai construct số độc lập, cơ chế khác nhau (level shifter vs curve reshaper).
     \item \kw{Tái định vị Uppsala} cho kỷ nguyên số: "data-augmented learning".
   \end{enumerate}
@@ -400,7 +406,7 @@
     \begin{column}{0.5\textwidth}
       \textbf{Hướng tương lai}
       \begin{itemize}\small
-        \item Ước lượng lại P7 trên mẫu mở rộng (đã bổ sung Japan-2025, các sóng 2024--2026).
+        \item Nhật Bản (P10) đã tích hợp vào khung 50 nền; bước tiếp là đối chứng do-file Stata và bổ sung các sóng 2024--2026.
         \item Đo lường DAI Tier-2/Tier-3 sâu hơn (thanh toán điện tử, nền tảng).
         \item Mở rộng FIP sang các nhóm SIDS/landlocked khác.
         \item Tích hợp dữ liệu panel thực để củng cố nhân quả.
@@ -412,13 +418,13 @@
 % ===================== SLIDE 18: KẾT LUẬN =====================
 \begin{frame}{Kết luận}
   \begin{enumerate}
-    \item Quan hệ I--P ở châu Á có dạng \hl{chữ U ngược} nhưng \emph{điểm uốn không cố định}: giảm dần theo chất lượng thể chế (từ $\approx 55\%$ ở thể chế yếu xuống $\approx 28\%$ ở thể chế mạnh).
+    \item Quan hệ I--P ở châu Á có dạng \hl{chữ U ngược} nhưng định hình theo \emph{ba vùng thể chế}: sắc nét ở nhóm chuyển đổi (TP $\approx 43\%$), gần tuyến tính ở thể chế mạnh nhất (gồm Nhật Bản), tan rã ở thể chế yếu nhất.
     \item \kw{TCI} là năng lực nền tảng nâng mặt bằng hiệu quả phổ quát; \kw{DAI} là nguồn lực tình huống đổi độ cong, mạnh nhất ở thể chế yếu ("lá chắn số").
     \item Tại \kw{SIDS}, quan hệ chuyển thành âm đơn điệu --- \hl{FIP}, construct lý thuyết mới của luận án.
     \item Đóng góp: khung tích hợp \kw{CDCM}, taxonomy \kw{ICRV}, construct \kw{FIP}; cùng hàm ý chính sách/quản trị theo từng bối cảnh thể chế.
   \end{enumerate}
   \vspace{0.3em}
-  \centering\small Mẫu phân tích: \hl{91.982 doanh nghiệp / 49 nền kinh tế} (WBES, 2003--2025) --- meta-analysis $k=238$.
+  \centering\small Mẫu phân tích: \hl{88.869 doanh nghiệp / 50 nền kinh tế} (WBES, 2003--2025; hồi quy chính $N=81.022$) --- meta-analysis $k=238$.
 \end{frame}
 
 % ===================== SLIDE 19: Q&A / CẢM ƠN =====================
