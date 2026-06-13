@@ -1,8 +1,23 @@
 # Internationalization and Firm Performance across 49 Asian and Pacific Economies: Institutional Regimes, Digital Capabilities, and Managerial Characteristics as Contingency Factors
 
 **Version:** Working manuscript (May 2026)  
-**Target journal:** Journal of International Business Studies (JIBS)  
-**Status:** Empirical results complete; under revision for submission
+**Target journal:** International Business Review (revised from JIBS — see reconciliation note)  
+**Status:** ⚠️ Numbers in this file report the SUPERSEDED 49-economy pre-Japan build and are being reconciled.
+
+---
+
+> **🔴 RECONCILIATION NOTE (2026-06-13) — read before citing any number here.**
+> This standalone manuscript still reports the earlier **49-economy / 91,982-firm**
+> build (M2 N=84,910; M5 N=38,342; pooled TP≈36–40%; per-ICRV gradient 28%→55%).
+> The dissertation has since adopted the **canonical 50-economy frame including Japan**
+> (`data_wbes/analysis/CANONICAL_NUMBERS.md`): analytic 88,869 / 50 economies; M2
+> N=81,022 (TP 51.5%); M5 N=79,080 (TP 43.6%); lower-mid transition TP=43.0%; the
+> per-ICRV pattern is now a **three-zone** reading (sharp inverted-U in the transition
+> regime, near-linear at the top incl. Japan, dissolution at the bottom), not a
+> monotone 28→55 gradient. The full M0–M11 moderation ladder must be re-estimated on
+> the 50-economy frame (requires the manager variables b7/b7a/b4) before submission.
+> The verified core numbers are reproducible via `scripts/p7_run_50econ.py`
+> (see `REESTIMATION_LOG_2026-06-13.md`). Do not submit this file until reconciled.
 
 ---
 
