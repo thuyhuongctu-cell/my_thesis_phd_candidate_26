@@ -1,5 +1,13 @@
 # Submission readiness — what the project needs to submit (2026-06-14)
 
+> **Cập nhật hoàn thiện (cuối phiên):** Đã xong trong container: (1) **AI-use
+> disclosure cho cả 11 paper** (bổ sung P4/P5/P10); (2) **đồng bộ gói nộp**
+> P6 (cDAI typo) + P7 (blind lại bản cũ) + P8 (disclosure); (3) **PRISMA P6**
+> điền total 238/288 + gắn cờ mâu thuẫn Scopus; (4) **`scripts/build_osf_bundles.py`**
+> tạo gói OSF sẵn-upload cho 9 paper; (5) **`verify_all.py` full = 14/14 PASS**
+> sau mọi thay đổi. Còn lại đều là việc 👤 của NCS (bên dưới).
+
+
 Đánh giá trạng thái và việc cần làm để (A) bảo vệ luận án và (B) nộp từng paper.
 Phân loại: 🔴 chặn cứng (phải làm trước khi nộp) · 🟠 cần làm · 🟢 đã xong ·
 👤 chỉ tác giả làm được (cần máy/quyết định của NCS).
