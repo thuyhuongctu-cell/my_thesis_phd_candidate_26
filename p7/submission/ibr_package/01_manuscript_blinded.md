@@ -1,15 +1,5 @@
 # Internationalization and Firm Performance across 50 Asian and Pacific Economies: Institutional Regimes, Digital Capabilities, and Managerial Characteristics as Contingency Factors
 
----
-
-> analytic sample 88,869 firms / 50 economies / 103 country-year pairs. The full
-> (results in `data_wbes/analysis/p7_full_ladder_results.md`); the two anchors
-> reproduce exactly (M2 quadratic N=81,022, TP=51.5%; M4 +TCI+DAI N=79,080, TP=43.6%).
-> digital-adoption (DAI) curve-reshaping interactions are **not** significant — DAI is
-> before journal submission.
-
----
-
 ## Abstract
 
 We examine whether the internationalization–performance (I–P) relationship holds across a large and institutionally diverse set of Asian and Pacific economies and identify the conditions under which firms convert export intensity into productive performance. Using microdata from 88,869 firms across 50 economies and 103 country-year waves of the World Bank Enterprise Survey (2003–2025; including Japan's inaugural 2025 wave), spanning all six Institutional Context Regime Variation (ICRV) groups, we estimate a hierarchical sequence of models on currency-neutral labour productivity (standardised within economy-year) with two-way (economy and year) fixed effects throughout and standard errors clustered by economy. We find robust support for an inverted-U I–P relationship: the quadratic baseline (M2, N=81,022) yields a turning point of 51.5% of export sales, tightening to 43.6% once technological capability and digital adoption are controlled (M4, N=79,080; Lind–Mehlum p < .001 throughout). Technological capability (TCI, +0.108) and digital adoption (DAI, +0.219) both raise the performance level, but neither significantly reshapes the pooled curve; both are level-shifters, not curve-reshapers. The curve structure is instead governed by institutional regime: estimating the turning point within each ICRV group reveals a three-zone pattern: a sharp inverted-U in the lower-middle transition regime (TP ≈ 43%), a near-linear relationship in the strongest-institution regime (turning point beyond the observable range, ≈ 80%), and dissolution of the inverted-U in the weakest regimes (Emerging ≈ 37%; the Pacific SIDS group shows no inverted-U). Female top management carries a negative coefficient (−0.104, p < .001). These findings offer a parsimonious resolution to Asian I–P heterogeneity: the relationship is inverted-U in form, but it is institutional regime, not capability per se, that determines whether the inverted-U is sharp, straightened, or absent.
@@ -347,7 +337,7 @@ Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationaliz
 | FSTS²×ICRV | — | — | — | — | — | −0.013 |
 | N | 81,022 | 79,080 | 79,080 | 79,080 | 75,029 | 79,080 |
 
-*Note.* Two-way FE (economy, year); SEs clustered by economy. \*\*\* p < .001, \*\* p < .01, \* p < .05, † p < .10. Capability (TCI, DAI) carries robust positive level effects throughout; none of the FSTS×capability or FSTS×ICRV interaction terms is significant — the pooled curve is reshaped by neither capability nor a linear institutional gradient. Reproducible via `scripts/p7_full_ladder.py`.
+*Note.* Two-way FE (economy, year); SEs clustered by economy. \*\*\* p < .001, \*\* p < .01, \* p < .05, † p < .10. Capability (TCI, DAI) carries robust positive level effects throughout; none of the FSTS×capability or FSTS×ICRV interaction terms is significant; the pooled curve is reshaped by neither capability nor a linear institutional gradient. Reproducible via `scripts/p7_full_ladder.py`.
 
 **Table 4: Turning points within each ICRV regime** (capability-adjusted M4 form; two-way FE)
 

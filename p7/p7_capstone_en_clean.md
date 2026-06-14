@@ -359,7 +359,7 @@ Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationaliz
 | FSTS²×ICRV | — | — | — | — | — | −0.013 |
 | N | 81,022 | 79,080 | 79,080 | 79,080 | 75,029 | 79,080 |
 
-*Note.* Two-way FE (economy, year); SEs clustered by economy. \*\*\* p < .001, \*\* p < .01, \* p < .05, † p < .10. Capability (TCI, DAI) carries robust positive level effects throughout; none of the FSTS×capability or FSTS×ICRV interaction terms is significant — the pooled curve is reshaped by neither capability nor a linear institutional gradient. Reproducible via `scripts/p7_full_ladder.py`.
+*Note.* Two-way FE (economy, year); SEs clustered by economy. \*\*\* p < .001, \*\* p < .01, \* p < .05, † p < .10. Capability (TCI, DAI) carries robust positive level effects throughout; none of the FSTS×capability or FSTS×ICRV interaction terms is significant; the pooled curve is reshaped by neither capability nor a linear institutional gradient. Reproducible via `scripts/p7_full_ladder.py`.
 
 **Table 4: Turning points within each ICRV regime** (capability-adjusted M4 form; two-way FE)
 
