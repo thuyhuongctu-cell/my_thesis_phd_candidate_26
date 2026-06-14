@@ -131,12 +131,28 @@
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Studies included in meta-analysis:                                          ║
 ║    Prior database (backward scan + hand-search): k = 238, K = 288  ✅       ║
-║    New studies from WoS arm (after extraction) : k = [TBD]                 ║
-║    New studies from Scopus arm (pending)        : k = [TBD]                 ║
+║    New studies from WoS arm (after extraction) : k = pending               ║
+║    New studies from Scopus arm (pending)        : k = pending               ║
 ║    ──────────────────────────────────────────────────────                    ║
-║    TOTAL                                        : k = [TBD], K = [TBD]     ║
+║    TOTAL ANALYSED IN META-ANALYSIS              : k = 238, K = 288  ✅      ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+
+> **Reconciliation note (2026-06-14).** The meta-analysis reported in the
+> manuscript is conducted on the **confirmed prior-database corpus of k = 238
+> studies / K = 288 effect sizes** (`p6/results/forest_data.csv`); this is the
+> TOTAL ANALYSED. The fresh WoS/Scopus search arm (WoS n = 2,180 confirmed) is a
+> documented forward-looking update whose extraction is still pending; its new
+> studies are NOT yet in the analysed corpus.
+>
+> ⚠️ **Integrity flag for the author to resolve:** the manuscript's Appendix
+> narrative (`p6/p6_meta_manuscript_en.md`, the PRISMA paragraph) states "WoS +
+> Scopus confirmed" with **Scopus n = 1,083**, whereas this flow file records
+> Scopus as **pending (requires CTU institutional access)**. These contradict.
+> Before submission, either (a) confirm the Scopus search actually returned
+> n = 1,083 and update this file, or (b) soften the manuscript to "WoS search
+> completed (n = 2,180); Scopus and other databases pending" so the claim
+> matches what was actually run. Do not report an unrun search as confirmed.
 
 > ✅ = **Confirmed** (WoS arm; 18/05/2026). [TBD] = pending Scopus search or extraction.
 > Scopus search: requires CTU campus institutional access. Run `02_parse_scopus_export.py` after export.
