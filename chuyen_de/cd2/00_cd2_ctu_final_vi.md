@@ -136,37 +136,37 @@ Hình 2.2. Khung khái niệm tích hợp CĐ2, chi tiết với bằng chứng 
 | BIC | Bayesian Information Criterion |
 | BEE | Business Environment and Enterprise (WBES module) |
 | BREADY | Business REAdy diagnostic (WBES module) |
-| CDCM | Country–Digital–Capability Moderation — Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh |
-| DAI | Digital Adoption Index — Chỉ số áp dụng số |
-| FDI | Foreign Direct Investment — Đầu tư trực tiếp nước ngoài |
-| FE | Fixed Effects — Hiệu ứng cố định |
-| FSTS | Foreign Sales to Total Sales ratio — Tỉ lệ doanh thu xuất khẩu trên tổng doanh thu |
+| CDCM | Country–Digital–Capability Moderation, Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh |
+| DAI | Digital Adoption Index, Chỉ số áp dụng số |
+| FDI | Foreign Direct Investment, Đầu tư trực tiếp nước ngoài |
+| FE | Fixed Effects, Hiệu ứng cố định |
+| FSTS | Foreign Sales to Total Sales ratio, Tỉ lệ doanh thu xuất khẩu trên tổng doanh thu |
 | GMM | Generalized Method of Moments |
 | HC1/HC3 | Heteroskedasticity-Consistent Standard Errors (Long & Ervin, 2000) |
-| I→P | Internationalization → Performance — Quan hệ quốc tế hóa — hiệu quả |
-| IB | International Business — Kinh doanh quốc tế |
-| ICRV | Institutional Context Regime Variation — Phân loại chế độ thể chế |
+| I→P | Internationalization → Performance, Quan hệ quốc tế hóa và hiệu quả |
+| IB | International Business, Kinh doanh quốc tế |
+| ICRV | Institutional Context Regime Variation, Phân loại chế độ thể chế |
 | ICT | Information and Communications Technology |
 | ISO | International Organization for Standardization |
-| IV | Instrumental Variable — Biến công cụ |
+| IV | Instrumental Variable, Biến công cụ |
 | LOWESS | Locally Weighted Scatterplot Smoothing |
-| MNE | Multinational Enterprise — Doanh nghiệp đa quốc gia |
+| MNE | Multinational Enterprise, Doanh nghiệp đa quốc gia |
 | OECD | Organisation for Economic Co-operation and Development |
-| OLS | Ordinary Least Squares — Bình phương tối thiểu thông thường |
+| OLS | Ordinary Least Squares, Bình phương tối thiểu thông thường |
 | PICS3 | WBES schema thế hệ 1 (2009–2013) |
-| R&D | Research and Development — Nghiên cứu và phát triển |
-| RBV | Resource-Based View — Quan điểm dựa trên nguồn lực |
+| R&D | Research and Development, Nghiên cứu và phát triển |
+| RBV | Resource-Based View, Quan điểm dựa trên nguồn lực |
 | RESET | Regression Specification Error Test |
-| ROA | Return on Assets — Lợi nhuận trên tổng tài sản |
-| ROS | Return on Sales — Lợi nhuận trên doanh thu |
-| SE | Standard Errors — Sai số chuẩn |
-| SIDS | Small Island Developing States — Các quốc đảo nhỏ đang phát triển |
-| SME | Small and Medium-sized Enterprise — Doanh nghiệp vừa và nhỏ |
-| SOE | State-Owned Enterprise — Doanh nghiệp nhà nước |
-| TCI | Technological Capability Index — Chỉ số năng lực công nghệ |
-| UE | Upper Echelons Theory — Lý thuyết cấp cao |
+| ROA | Return on Assets, Lợi nhuận trên tổng tài sản |
+| ROS | Return on Sales, Lợi nhuận trên doanh thu |
+| SE | Standard Errors, Sai số chuẩn |
+| SIDS | Small Island Developing States, Các quốc đảo nhỏ đang phát triển |
+| SME | Small and Medium-sized Enterprise, Doanh nghiệp vừa và nhỏ |
+| SOE | State-Owned Enterprise, Doanh nghiệp nhà nước |
+| TCI | Technological Capability Index, Chỉ số năng lực công nghệ |
+| UE | Upper Echelons Theory, Lý thuyết cấp cao |
 | VIF | Variance Inflation Factor |
-| WBES | World Bank Enterprise Surveys — Khảo sát doanh nghiệp Ngân hàng Thế giới |
+| WBES | World Bank Enterprise Surveys, Khảo sát doanh nghiệp Ngân hàng Thế giới |
 | WGI | Worldwide Governance Indicators |
 
 ---
@@ -271,7 +271,7 @@ Bảng 2.2. Năm dạng hàm I–P, cơ chế, và bối cảnh xuất hiện.
 |----------|-------------------|--------|---------------|
 | Tuyến tính (+) | Hsu & Boggs (2003) | Quy mô + học hỏi | FSTS thấp, tất cả nhóm |
 | Chữ U ngược | Hitt et al. (1997); Gomes & Ramaswamy (1999) | Chi phí điều phối > lợi ích ở FSTS cao | Nhóm III–IV |
-| S-curve ba giai đoạn | Lu & Beamish (2004); Contractor et al. (2003) | Ba giai đoạn: học tập — quy mô — quá mức | MNE lớn, tất cả nhóm |
+| S-curve ba giai đoạn | Lu & Beamish (2004); Contractor et al. (2003) | Ba giai đoạn: học tập, quy mô, quá mức | MNE lớn, tất cả nhóm |
 | M-curve | Riahi-Belkaoui (1998) | Lợi ích không đồng nhất | Bằng chứng hạn chế |
 | Forced penalty | Glaum & Oesterle (2007) | Bắt buộc quốc tế hóa, thiếu năng lực | Nhóm VI (SIDS) |
 
@@ -300,7 +300,7 @@ Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết c
 | Marano et al. (2016) | ✓ (TP ±15% FSTS) | ✗ | ✗ | ✗ | ✓ (cốt lõi) | ✗ | ✗ | ✗ |
 | Banalieva & Dhanaraj (2019) | Partial | ✗ | ✓ (cốt lõi) | ✗ | Partial | Partial | ✗ | ✗ |
 | Wu, Wood & Khan (2022) | ✓ (TP thấp hơn EMNE) | Partial (absorptive capacity) | ✗ | ✗ | Có | ✓ (20 năm) | ✓ (EMNE/DMNE) | ✗ |
-| Đỗ & Phan (2026 — JFAR) | ✓ (bậc ba / S-curve) | – | – | – | – | – | – | – |
+| Đỗ & Phan (2026, JFAR) | ✓ (bậc ba / S-curve) | – | – | – | – | – | – | – |
 | **CĐ2 (luận án này)** | **✓ (H1: chữ U ngược + S-curve)** | **✓ (H2: nhân quả IV)** | **✓ (H3: CDCM phân biệt)** | **✓ (H4a–H4c)** | **✓ (H5: ICRV 6 nhóm)** | **✓ (H6: 3 giai đoạn)** | **✓ (Nhóm I→VI)** | **✓ (Nhóm VI FIP)** |
 
 *Ghi chú: "Có" = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; ✗ = không bao gồm; – = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
@@ -401,7 +401,7 @@ Bảng 2.1. Mỗi tầng lý thuyết, câu hỏi phụ, biến số, giả thuy
 | Digital Adoption Lens | CDCM | Năng lực số có cơ chế khác TCI không? | DAI | H3a–H3b DAI phụ thuộc chế độ thể chế | P4: DAI×FSTS² = +3,119 (Nhóm I); P3: IV null (β = 0,018, Nhóm IV) |
 | 4 | Upper Echelons | Đặc điểm nhà quản trị tác động thế nào? | Top manager | H4a–H4c Quản trị điều tiết | (kiểm định trong M5, dữ liệu WBES) |
 | 3 | Institutional | Thể chế nội địa định hình quan hệ ra sao? | ICRV (6 nhóm) | H5 Gradient thể chế | Phân tích mô tả CĐ1: phân tán LP tăng theo chế độ |
-| — | (Thời gian) | Quan hệ thay đổi qua thời gian không? | Year-bucket | H6 Không đồng nhất thời gian | P3: Paternoster p < 0,001; P5: TCI Paternoster p = 0,011 |
+| – | (Thời gian) | Quan hệ thay đổi qua thời gian không? | Year-bucket | H6 Không đồng nhất thời gian | P3: Paternoster p < 0,001; P5: TCI Paternoster p = 0,011 |
 
 Lập luận tích hợp: quốc tế hóa là quyết định chiến lược theo logic Uppsala (tầng 1); kết quả phụ thuộc nguồn lực doanh nghiệp, TCI (RBV/Lall, 1992) đóng vai trò nâng mặt bằng nhân quả; được hỗ trợ bởi hạ tầng số có điều kiện, DAI (Foundational Digital Adoption Framework/Verhoef et al., 2021) là nguồn lực mở rộng tình huống theo CDCM; phản ánh đặc điểm nhà quản trị (Upper Echelons/Hambrick & Mason, 1984); bị khuôn khổ bởi thể chế nội địa (Institutional Theory/North, 1990), gradient ICRV 6 nhóm với gánh nặng bắt buộc ở quốc đảo nhỏ; và thay đổi theo bối cảnh thời gian, thiết kế ba giai đoạn.
 
@@ -434,18 +434,18 @@ Bảng 2.4. Mapping biến đầy đủ: khái niệm lý thuyết, biến WBES,
 
 | Biến | Khái niệm | Mã WBES | Công thức | Kỳ vọng | Giả thuyết |
 |------|-----------|---------|-----------|---------|------------|
-| ln(LP) | Năng suất lao động | d2, l1 | ln(d2/l1) | Biến phụ thuộc | — |
+| ln(LP) | Năng suất lao động | d2, l1 | ln(d2/l1) | Biến phụ thuộc | – |
 | FSTS | Cường độ QTH | d3c | d3c/100 | β₁ > 0 | H1 |
-| FSTS² | Phi tuyến | — | (FSTS_c)² | β₂ < 0 | H1 |
-| FSTS³ | S-curve | — | (FSTS_c)³ | β₃ > 0 | H1 |
+| FSTS² | Phi tuyến | – | (FSTS_c)² | β₂ < 0 | H1 |
+| FSTS³ | S-curve | – | (FSTS_c)³ | β₃ > 0 | H1 |
 | TCI | Năng lực CN nội tại | b8, h8, h1, e6 | z-mean(≥3/4 items) | β > 0 (trực tiếp) | H2 |
 | DAI | Áp dụng số nền tảng | c22b; k33/k38 | z-mean (Tier 1+2) | Phụ thuộc ngữ cảnh | H3 |
-| FSTS×TCI | Điều tiết TCI | — | tương tác | β_mod: phụ thuộc ngữ cảnh | H2 |
-| FSTS²×DAI | DAI tình huống | — | tương tác | β > 0 (Nhóm I); null (Nhóm III, IV) | H3 |
+| FSTS×TCI | Điều tiết TCI | – | tương tác | β_mod: phụ thuộc ngữ cảnh | H2 |
+| FSTS²×DAI | DAI tình huống | – | tương tác | β > 0 (Nhóm I); null (Nhóm III, IV) | H3 |
 | exp_manager | Kinh nghiệm QL | b5 | năm kinh nghiệm | β > 0 (δ_exp > 0) | H4a |
 | educ_manager | Học vấn QL | b7a | thứ tự | β > 0 (δ_educ > 0) | H4b |
 | gender_manager | Giới tính QL | b7 | binary female=1 | Exploratory, two-sided | H4c |
-| ICRV_j | Chế độ thể chế | — | j = I → VI dummy | Gradient H5 | H5 |
+| ICRV_j | Chế độ thể chế | – | j = I → VI dummy | Gradient H5 | H5 |
 | Year_bucket | Thời gian | year | 2009–12/13–17/18–25 | Dịch chuyển H6 | H6 |
 | ln(employees) | Quy mô doanh nghiệp | l1 | ln(l1) | β > 0 | Kiểm soát |
 | firm_age | Tuổi doanh nghiệp | b6 | năm thành lập | β không xác định | Kiểm soát |
@@ -500,7 +500,7 @@ Bảng 2.6. CDCM, Dự đoán tác động DAI theo 3 chiều ngữ cảnh.
 | Nhóm III (Trung Quốc) | Trung bình (20–50%) | Trung bình–cao (>55%) | Null/kiểm soát | Null (Tier 1 mất tín hiệu phân biệt) | Tier 1 bão hòa |
 | Nhóm IV (Việt Nam) | Thấp–trung bình (<40%) | Trung bình (<55%) | Dương nhỏ (0,095–0,175) | Null (β = 0,018; F bậc một = 34,6) | Phụ thuộc chọn lựa |
 | Nhóm V (Đang nổi) | Thấp (<20%) | Thấp (<30%) | Không xác định | Cần IV | Hạ tầng số thiếu |
-| Nhóm VI (SIDS) | Cao do bắt buộc (>40%) | Thấp–trung | Gánh nặng bắt buộc trội | — | I→P gánh nặng bắt buộc che lấp tín hiệu DAI |
+| Nhóm VI (SIDS) | Cao do bắt buộc (>40%) | Thấp–trung | Gánh nặng bắt buộc trội | – | I→P gánh nặng bắt buộc che lấp tín hiệu DAI |
 
 H3: Mức độ áp dụng số (DAI) có cơ chế điều tiết **phụ thuộc chế độ thể chế** trong quan hệ I–P. DAI không hoạt động như một phần thưởng năng suất đồng nhất mà như một nguồn lực mở rộng tình huống theo CDCM, với hướng và cường độ khác nhau rõ ràng giữa Emerging/Frontier và Advanced. Hai sub-hypothesis phân biệt dấu kỳ vọng:
 
@@ -561,7 +561,7 @@ Bảng 2.5. Hệ giả thuyết H1–H6, tóm tắt cơ chế, biến, kỳ vọ
 | H3b | DAI Advanced (null/−, conditional +) | CDCM × Digital Adoption Lens | DAI, FSTS²×DAI | Direct: null/–; cond: β(FSTS²×DAI) > 0 ở FSTS cao | P4 +3,119; bão hòa số |
 | H4a | Kinh nghiệm QL điều tiết | Upper Echelons | exp_manager, FSTS×exp | β(FSTS×exp) > 0 (δ_exp > 0) | (WBES b5) |
 | H4b | Học vấn QL điều tiết | Upper Echelons | educ_manager, FSTS×educ | β(FSTS×educ) > 0 (δ_educ > 0) | (WBES b7a) |
-| H4c | Giới tính QL — khám phá | Upper Echelons | gender_manager, FSTS×gender | Exploratory, two-sided | (WBES b7) |
+| H4c | Giới tính QL, khám phá | Upper Echelons | gender_manager, FSTS×gender | Exploratory, two-sided | (WBES b7) |
 | H5 | Gradient ICRV | Institutional Theory | ICRV_j × FSTS | TP gradient; Nhóm VI gánh nặng bắt buộc | Phân tán LP tăng theo chế độ (CĐ1) |
 | H6 | Không đồng nhất thời gian | Thay đổi cấu trúc | Year_bucket × FSTS | β(FSTS×Year) ≠ 0 | P3 Paternoster p < 0,001; P5 TCI p = 0,011 |
 
@@ -719,12 +719,12 @@ Bảng 2.8. Cấu trúc pool theo nhóm ICRV và mốc khảo sát.
 
 | ICRV Nhóm (icrv_label) | Nền kinh tế | Số nền | N doanh nghiệp |
 |---|---|:--:|:--:|
-| I — Adv. đổi mới (`Advanced_innovation`) | Singapore, HongKong, Hàn Quốc, Đài Loan, Israel, Nhật Bản¹ | 6 | 6.390 |
-| II — Adv. tài nguyên (`Advanced_resource`) | Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei, Oman | 6 | 2.231 |
-| III — Trung bình cao (`Upper_mid`) | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia | 6 | 13.993 |
-| IV — Chuyển đổi TB-thấp (`Lower_mid_transition`) | Việt Nam, Ấn Độ, Indonesia, Philippines, Mông Cổ, Bangladesh, Pakistan | 7 | 45.003 |
-| V — Đang nổi (`Emerging`) | 17 nền (gồm Sri Lanka, Jordan, Nepal, Cambodia, Laos, Uzbekistan…) | 17 | 18.957 |
-| VI — SIDS (`SIDS_small`) | Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu, Timor-Leste | 8 | 2.295 |
+| I, Adv. đổi mới (`Advanced_innovation`) | Singapore, HongKong, Hàn Quốc, Đài Loan, Israel, Nhật Bản¹ | 6 | 6.390 |
+| II, Adv. tài nguyên (`Advanced_resource`) | Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei, Oman | 6 | 2.231 |
+| III, Trung bình cao (`Upper_mid`) | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia | 6 | 13.993 |
+| IV, Chuyển đổi TB-thấp (`Lower_mid_transition`) | Việt Nam, Ấn Độ, Indonesia, Philippines, Mông Cổ, Bangladesh, Pakistan | 7 | 45.003 |
+| V, Đang nổi (`Emerging`) | 17 nền (gồm Sri Lanka, Jordan, Nepal, Cambodia, Laos, Uzbekistan…) | 17 | 18.957 |
+| VI, SIDS (`SIDS_small`) | Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu, Timor-Leste | 8 | 2.295 |
 | **Tổng** | | **50** | **88.869** (pool mô tả; N hồi quy M2 = 81.022) |
 
 *Ghi chú: ¹Nhật Bản được WBES khảo sát lần đầu năm 2025 (n=2.168) và là thành viên thứ sáu của Nhóm I trong khung 50 nền; vòng tái ước lượng 50 nền gồm Nhật Bản đã hoàn tất nên mô tả và ước lượng (P7) nay dùng chung MỘT khung 50 nền/88.869 quan sát (hồi quy M2 N=81.022; M5 N=79.080). Nhãn nhóm theo biến phân loại `icrv_label`, dùng thống nhất trong luận án và Chuyên đề 1, Nhóm IV `Lower_mid_transition` (7 nền đông dân), Nhóm V `Emerging` (17 nền), Nhóm VI `SIDS_small` (8 nền). Nghiên cứu chuyên sâu SIDS (P8) lấy mẫu chính 7 nền Thái Bình Dương và kiểm định bền vững mở rộng 9 nền (thêm Comoros + Timor-Leste). Pool phân loại đầy đủ = 96.415 DN/52 nền; loại 2 nền ngoài châu Á (Turkey, Cyprus) sang khung phân tích 50 nền Á–TBD (gồm Nhật Bản) = 88.869 DN.*
