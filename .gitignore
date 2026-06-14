@@ -72,4 +72,5 @@ latex/**/*.toc
 latex/**/*.bbl
 latex/**/*.blg
 latex/**/*.pdf
-dist/osf/   # regenerable OSF bundles (scripts/build_osf_bundles.py)
+# regenerable OSF bundles (scripts/build_osf_bundles.py)
+dist/osf/
