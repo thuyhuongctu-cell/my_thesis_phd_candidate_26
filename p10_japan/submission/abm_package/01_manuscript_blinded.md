@@ -1,6 +1,6 @@
 # At the Upper Bound of the Institutional Gradient: Internationalization, Capabilities, and Firm Performance in Japan's Inaugural World Bank Enterprise Survey
 
-**Blinded manuscript — prepared for *Asian Business & Management* (primary target; backups: *Asia Pacific Journal of Management*, *Journal of Asian Business Studies*)**
+**Blinded manuscript, prepared for *Asian Business & Management* (primary target; backups: *Asia Pacific Journal of Management*, *Journal of Asian Business Studies*)**
 
 ---
 

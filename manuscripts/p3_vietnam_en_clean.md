@@ -715,7 +715,7 @@ The most defensible interpretation is therefore that the full-sample inverted-U 
 a combined participation-and-intensity structure, with the productivity-relevant contrast concentrated primarily at the transition from non-exporting to exporting rather
 than in strong within-exporter curvature alone.
 
-The Vietnam pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is notably lower than the manufacturing-subsample threshold of 47.8 % reported for Chinese private firms by Author Citation (2026 — JFAR). This gap is consistent with institutional transaction costs binding earlier in Vietnam's lower-income emerging-economy context: Vietnamese exporters approach over-commitment costs at a lower absolute export-intensity level than their Chinese counterparts, where more mature contract-enforcement institutions, larger domestic markets, and more established export-support infrastructure allow firms to sustain higher export intensity before productivity returns diminish. The cross-country threshold difference thus provides within-WBES cross-setting evidence for the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022 — MIR; Marano et al., 2016).
+The Vietnam pooled threshold of 39.7 % (range 39.3–46.2 % across waves) is notably lower than the manufacturing-subsample threshold of 47.8 % reported for Chinese private firms by Author Citation (2026, JFAR). This gap is consistent with institutional transaction costs binding earlier in Vietnam's lower-income emerging-economy context: Vietnamese exporters approach over-commitment costs at a lower absolute export-intensity level than their Chinese counterparts, where more mature contract-enforcement institutions, larger domestic markets, and more established export-support infrastructure allow firms to sustain higher export intensity before productivity returns diminish. The cross-country threshold difference thus provides within-WBES cross-setting evidence for the institutional-context channel identified in meta-analyses of the I–P relationship (Wu, Fan, & Chen, 2022, MIR; Marano et al., 2016).
 
 H2 is supported by the positive $\tilde{\mathrm{TCI}}$
 direct association in the pooled sample (β = 0.179, p < .001) and in all three wavespecific periods (2009 p < .001; 2015 p = .010; 2023 p = .006), reinforced by statistically distinguishable TCI moderation in three of four panels (M3 joint p = .040,
@@ -766,13 +766,13 @@ Table 1 summarises the directional interpretation of the focal coefficients from
 ### 4.5 Robustness
 Four families of robustness checks examine whether central inferences are sensitive to measurement choices, sector composition, export-participation structure, and endogeneity. The panels below are estimated on the same OLS HC1 design as the main models.
 
-Panel G — Sector split (manufacturing versus non-manufacturing).
+Panel G: Sector split (manufacturing versus non-manufacturing).
 
 To test whether the
 
 digital and capability channels operate uniformly across the broad sectoral composition of the
 Vietnamese exporter cohort, we re-estimate the pooled M2 / M7 / M8 specifications separately
-on manufacturing firms (sector1 ∈ {1, 2, 3} — ISIC 15–37, N = 1,854) and non-manufacturing
+on manufacturing firms (sector1 ∈ {1, 2, 3}, ISIC 15–37, N = 1,854) and non-manufacturing
 firms (utilities, construction, wholesale and retail, transport, finance and other services; sector1
 
 ∈ {4, 5, 6, 7}; N = 1,104).
@@ -803,7 +803,7 @@ operates broadly while the digital channel remains specific to the manufacturing
 Substantively, this pattern is consistent with the view that basic digital adoption interacts with
 cross-border production-coordination demands more strongly in tradable-goods sectors than in
 service-oriented or domestically oriented sectors of the Vietnamese economy.
-Panel H — Exporter-only sub-sample (FSTS > 0). Because the exporter share is 28.4 %,
+Panel H: Exporter-only sub-sample (FSTS > 0). Because the exporter share is 28.4 %,
 20.7 % and 18.8 % across waves, the inverted-U fitted on the full sample is partly identified by
 the participation margin between FSTS = 0 and FSTS > 0. We re-fit M2 / M7 / M8 on the
 exporter-only sub-sample (N ≈ 281 in 2009, 198 in 2015, 190 in 2023, and 669 pooled). The
@@ -820,7 +820,7 @@ variable in Vietnamese WBES data, with limited mass between the participation ma
 the implied turning point. The substantive H1 claim is therefore best read as a non-monotonic
 association between participation-and-intensity in exporting and productivity, not as a strict
 within-exporter intensity-curvature claim.
-Panel I — Pooled wave × focal interaction test. To formally test whether the wave-specific
+Panel I: Pooled wave × focal interaction test. To formally test whether the wave-specific
 patterns of curvature and moderation are statistically separable from the pooled estimates, we
 re-estimate the pooled M8 with a saturated set of wave interactions on the focal terms ($\mathrm{FSTS}^{c}$
 
@@ -1062,11 +1062,11 @@ J. PSM ATT, cert / foreign-tech 640 ATT_TCI = 0.637 (SE 0.078)
 Positive and large under
 (1-NN)
 matching
-K. IV / 2SLS — $\tilde{\mathrm{DAI}}$
+K. IV / 2SLS: $\tilde{\mathrm{DAI}}$
 2,298 $\tilde{\mathrm{DAI}}$ = 0.018 (p = .942) n.s.
 First-stage F = 34.6
 (strong)
-K. IV / 2SLS — $\tilde{\mathrm{TCI}}$
+K. IV / 2SLS: $\tilde{\mathrm{TCI}}$
 2,298 $\tilde{\mathrm{TCI}}$ = 1.639 (SE 0.299)
 First-stage F = 22.1
 (strong)
@@ -1446,7 +1446,7 @@ Aguinis, H., Hill, N. S., and Bailey, J. R. (2021). Best practices in data colle
 
 Antonakis, J., Bendahan, S., Jacquart, P., and Lalive, R. (2010). On making causal claims: A review and recommendations. The Leadership Quarterly, 21(6):1086–1120.
 
-Author Citation (2026 — JFAR). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 02*(39), 287–291. [Author details withheld for blind review.]
+Author Citation (2026, JFAR). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 02*(39), 287–291. [Author details withheld for blind review.]
 
 Banalieva, E. R. and Dhanaraj, C. (2019). Internalization theory for the digital economy. Journal of International Business Studies, 50(8):1372–1387.
 

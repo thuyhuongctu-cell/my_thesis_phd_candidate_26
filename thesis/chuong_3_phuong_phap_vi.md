@@ -271,7 +271,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 | CDDXK_c | d3c | FSTS − mean(FSTS): centred | Biến độc lập |
 | CDDXK_c² | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
 | NLCN_z | b8, e6 | z-std của TB(b8₀₁, e6₀₁) | Năng lực công nghệ (H2) |
-| CSS_z | c22b, k33, k38 | z-std của TB(c22b₀₁, k33₀₁, k38₀₁) — **Tier-1+2** | Số hoá Tier-1+2 (H3) |
+| CSS_z | c22b, k33, k38 | z-std của TB(c22b₀₁, k33₀₁, k38₀₁): **Tier-1+2** | Số hoá Tier-1+2 (H3) |
 | lnLD | l1 | ln(l1) | Quy mô doanh nghiệp |
 | TuoiDN | b5 | năm khảo sát − b5 | Tuổi doanh nghiệp |
 | SoHuuNN | b2b | 1 nếu b2b > 0 | Hình thức sở hữu |
@@ -330,8 +330,8 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.619; 2024: 
 | lnNSLD | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
 | CDDXK_c | d3c | FSTS − mean_wave(FSTS) | Biến độc lập |
 | CDDXK_c² | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
-| NLCN_z | b8, e6, b4, b7a | z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁) — TCI toàn diện | Năng lực công nghệ (H2) |
-| CSS_z | c22b | c22b₀₁ — **Tier-1 đơn biến** (binary) | Số hoá Tier-1 mỏng (kiểm soát) |
+| NLCN_z | b8, e6, b4, b7a | z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁): TCI toàn diện | Năng lực công nghệ (H2) |
+| CSS_z | c22b | c22b₀₁: **Tier-1 đơn biến** (binary) | Số hoá Tier-1 mỏng (kiểm soát) |
 | lnLD | l1 | ln(l1) | Quy mô doanh nghiệp |
 | TuoiDN | b5 | năm khảo sát − b5 | Tuổi doanh nghiệp |
 | SoHuuNN | b2b | 1 nếu b2b > 0 | Hình thức sở hữu |
@@ -406,7 +406,7 @@ $$\text{Tương tác chế độ-yếu: FSTS} \times \text{Weak} = -0{,}523\ (p 
 |---------|-----------|-----------|---------|
 | lnNSLD | d2/n3, l1 | ln(doanh thu/lao động) | Biến phụ thuộc |
 | CDDXK_c | d3c | (d3c/100) − mean_pool(FSTS): centred | Biến độc lập (I) |
-| CDDXK_c² | d3c | CDDXK_c bình phương | I — phi tuyến |
+| CDDXK_c² | d3c | CDDXK_c bình phương | I, phi tuyến |
 | NLCN_z | b8, e6 | z-std(cert chất lượng + CN nước ngoài) | Năng lực công nghệ |
 | CSS_z | c22b/e1, k33 | z-std(website + e-payment): Tier 1+2 | Số hoá (DAI) |
 | KNQLy | b7 | năm kinh nghiệm nhà quản lý trong ngành | Quản trị |
@@ -415,7 +415,7 @@ $$\text{Tương tác chế độ-yếu: FSTS} \times \text{Weak} = -0{,}523\ (p 
 | lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
 | TuoiDN | b5 | năm_khảo_sát − b5 | Control (tuổi DN) |
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |
-| δ_ct | — | country × year FE | Fixed effects |
+| δ_ct | n/a | country × year FE | Fixed effects |
 
 *Ghi chú: Mẫu phân tích giảm nhẹ từ N = 81.022 (M2) xuống 79.080 (M5, thêm kiểm soát); các mô hình điều tiết M7, M8 và M10 giữ N tương đương 79.080–79.220. DAI P7 là Tier 1+2 khi k33 có mặt, Tier-1 only khi thiếu, khác với P3 Vietnam (Tier-1 only) và đồng nhất với P4 Singapore (Tier-1+2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
 
@@ -485,9 +485,9 @@ $$\beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (C
 |---------|-----------|-----------|---------|
 | lnNSLD | d2, l1 | ln(doanh thu PPP / lao động) | Biến phụ thuộc |
 | CDDXK_c | d3c | (d3c/100) − mean_wave: centred | Biến độc lập (I) |
-| CDDXK_c² | d3c | CDDXK_c bình phương | I — kiểm định phi tuyến |
+| CDDXK_c² | d3c | CDDXK_c bình phương | I, kiểm định phi tuyến |
 | NLCN_z | b8, e6 | z-std(cert + CN nước ngoài) | Năng lực công nghệ |
-| CSS_z | c22b | z-std(website binary): Tier-1 only | Số hoá — proxy tĩnh |
+| CSS_z | c22b | z-std(website binary): Tier-1 only | Số hoá, proxy tĩnh |
 | lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
 | TuoiDN | b5 | năm_KS − năm_thành_lập | Control (tuổi DN) |
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài | Control (sở hữu) |
@@ -544,7 +544,7 @@ Vì dữ liệu chủ đạo của luận án là lát cắt ngang lặp lại (
 |---|---|---|
 | Mixed design | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **50 nền kinh tế châu Á + Thái Bình Dương** trong một luận án |
 | Meta-analysis 1982–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng coverage, bổ sung digital và 6 sub-regime ICRV moderators |
-| Pool empirical | nghiên cứu thành phần P1 — 17 nước châu Á mới nổi | Mở rộng từ 17 → **50 nước** với 88.869 doanh nghiệp · 103 cặp nền kinh tế và năm (gồm Nhật Bản 2025) |
+| Pool empirical | nghiên cứu thành phần P1, 17 nước châu Á mới nổi | Mở rộng từ 17 → **50 nước** với 88.869 doanh nghiệp · 103 cặp nền kinh tế và năm (gồm Nhật Bản 2025) |
 | Labor productivity DV | Bloom et al. (2012); Hsieh & Klenow (2009); nghiên cứu thành phần P1 | Lập luận rõ về firm performance đa chiều trong bối cảnh WBES |
 | FSTS + FSTS² + FSTS³ | Lu & Beamish (2004); Hitt et al. (1997); nghiên cứu thành phần P2 | Đưa vào cùng three-way moderation framework |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Non-overlapping construct purity protocol cho WBES; digital shield mở rộng (nghiên cứu thành phần P1) |
