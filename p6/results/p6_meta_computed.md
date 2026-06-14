@@ -6,7 +6,7 @@ Model: three-level random-effects on Fisher-z; REML variance components; GLS poo
 
 ## Baseline pooled effect
 
-- Pooled r = **0.074** (95% CI [0.060, 0.088]), z=10.24, p=<.001
+- Pooled r = **0.074** (95% CI [0.060, 0.088])
 - tau^2 (between-study L3) = 0.0014; tau^2 (within-study L2) = 0.0087
 - I^2 total = 87.8%  (L3 between = 11.8%, L2 within = 76.1%)
 
@@ -31,5 +31,5 @@ Model: three-level random-effects on Fisher-z; REML variance components; GLS poo
 ## Publication bias
 
 - Egger regression slope p = 0.007 (asymmetry detected)
-- Trim-and-fill L0 (Duval & Tweedie) imputes ~10 studies on the left; adjusted pooled effect attenuates the baseline downward.
+- Trim-and-fill L0 (Duval & Tweedie) imputes ~10 studies on the left.
 

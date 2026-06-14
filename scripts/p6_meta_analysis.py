@@ -133,41 +133,69 @@ def moderator(col):
     return Q, dfm, p, list(g.columns)
 
 
-out += ['## Moderator tests (Q_M, Wald chi-square)', '',
-        '| Moderator | levels | Q_M | df | p |', '|---|---|--:|--:|--:|']
-for col, name in [('icrv', 'ICRV regime'), ('cdai', 'country digital adoption'),
-                  ('dpl', 'digital paradox lifecycle')]:
-    Q, dfm, p, lv = moderator(col)
-    ps = "<.001" if p < .001 else f"{p:.3f}"
-    out.append(f'| {name} ({col}) | {len(lv)+1} | {Q:.2f} | {dfm} | {ps} |')
+def baseline():
+    """Pooled three-level effect; returns (r, lo, hi, t2, t3, I2 tuple)."""
+    X0 = np.ones((len(D), 1))
+    beta, cov, t2, t3 = fit(X0, z)
+    se = np.sqrt(cov[0, 0])
+    return (float(np.tanh(beta[0])),
+            float(np.tanh(beta[0] - 1.96 * se)),
+            float(np.tanh(beta[0] + 1.96 * se)), t2, t3, isq(t2, t3))
 
-# ---- subgroup pooled r by ICRV ----
-out += ['', '## Subgroup pooled r by ICRV regime', '',
-        '| ICRV | k effects | pooled r |', '|---|--:|--:|']
-for lvl in ['I', 'II', 'III', 'FR', 'MX']:
-    sub = D[D.icrv == lvl]
-    if len(sub) == 0:
-        continue
-    w = 1 / sub['v'].values
-    zbar = np.sum(w * sub['z'].values) / np.sum(w)
-    out.append(f'| {lvl} | {len(sub)} | {np.tanh(zbar):.3f} |')
 
-# ---- publication bias: Egger + trim-and-fill L0 ----
-se_all = np.sqrt(D['v'].values)
-slope, icpt, r_, p_egg, se_ = stats.linregress(se_all, z)
-# Duval-Tweedie L0 (right-side asymmetry)
-zc = z - np.median(z)
-ranks = stats.rankdata(np.abs(zc))
-signs = np.sign(zc)
-Tn = np.sum(ranks[signs > 0])
-L0 = max(0, int(round((4 * Tn - len(z) * (len(z) + 1)) /
-                      (2 * len(z) - 1))))
-out += ['', '## Publication bias', '',
-        f'- Egger regression slope p = {p_egg:.3f} '
-        f'({"asymmetry detected" if p_egg < .05 else "no significant asymmetry"})',
-        f'- Trim-and-fill L0 (Duval & Tweedie) imputes ~{L0} studies on the '
-        f'left; adjusted pooled effect attenuates the baseline downward.', '']
+def main():
+    out = ['# P6 three-level meta-analysis — FROZEN computed results', '',
+           f'Source: `p6/results/forest_data.csv` — k={D.study_id.nunique()} '
+           f'studies, K={len(D)} effect sizes. Reproducible via '
+           f'`scripts/p6_meta_analysis.py`.', '',
+           'Model: three-level random-effects on Fisher-z; REML variance '
+           'components; GLS pooling; Wald Q_M for moderators. All values below '
+           'are computed, not placeholders.', '']
 
-open('p6/results/p6_meta_computed.md', 'w').write('\n'.join(out) + '\n')
-print('\n'.join(out))
-print('\n-> p6/results/p6_meta_computed.md')
+    r_pool, lo, hi, t2, t3, (i3, i2, itot) = baseline()
+    out += ['## Baseline pooled effect', '',
+            f'- Pooled r = **{r_pool:.3f}** (95% CI [{lo:.3f}, {hi:.3f}])',
+            f'- tau^2 (between-study L3) = {t3:.4f}; tau^2 (within-study L2) '
+            f'= {t2:.4f}',
+            f'- I^2 total = {itot:.1f}%  (L3 between = {i3:.1f}%, '
+            f'L2 within = {i2:.1f}%)', '']
+
+    out += ['## Moderator tests (Q_M, Wald chi-square)', '',
+            '| Moderator | levels | Q_M | df | p |', '|---|---|--:|--:|--:|']
+    for col, name in [('icrv', 'ICRV regime'),
+                      ('cdai', 'country digital adoption'),
+                      ('dpl', 'digital paradox lifecycle')]:
+        Q, dfm, p, lv = moderator(col)
+        ps = "<.001" if p < .001 else f"{p:.3f}"
+        out.append(f'| {name} ({col}) | {len(lv)+1} | {Q:.2f} | {dfm} | {ps} |')
+
+    out += ['', '## Subgroup pooled r by ICRV regime', '',
+            '| ICRV | k effects | pooled r |', '|---|--:|--:|']
+    for lvl in ['I', 'II', 'III', 'FR', 'MX']:
+        sub = D[D.icrv == lvl]
+        if len(sub) == 0:
+            continue
+        wsub = 1 / sub['v'].values
+        zbar = np.sum(wsub * sub['z'].values) / np.sum(wsub)
+        out.append(f'| {lvl} | {len(sub)} | {np.tanh(zbar):.3f} |')
+
+    se_all = np.sqrt(D['v'].values)
+    slope, icpt, r_, p_egg, se_ = stats.linregress(se_all, z)
+    zc = z - np.median(z)
+    ranks = stats.rankdata(np.abs(zc))
+    signs = np.sign(zc)
+    Tn = np.sum(ranks[signs > 0])
+    L0 = max(0, int(round((4 * Tn - len(z) * (len(z) + 1)) /
+                          (2 * len(z) - 1))))
+    out += ['', '## Publication bias', '',
+            f'- Egger regression slope p = {p_egg:.3f} '
+            f'({"asymmetry detected" if p_egg < .05 else "no asymmetry"})',
+            f'- Trim-and-fill L0 (Duval & Tweedie) imputes ~{L0} studies on '
+            f'the left.', '']
+    open('p6/results/p6_meta_computed.md', 'w').write('\n'.join(out) + '\n')
+    print('\n'.join(out))
+    print('\n-> p6/results/p6_meta_computed.md')
+
+
+if __name__ == '__main__':
+    main()
