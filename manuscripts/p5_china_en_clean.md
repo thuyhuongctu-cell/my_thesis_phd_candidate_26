@@ -543,3 +543,6 @@ Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internati
 ---
 
 *Replication package: see `p5-china/` directory in the corresponding author's repository (handle withheld for blind review), including `do/`, `python/`, `audit/`, `results/`, and `apjm/` subfolders. The complete v1.8 manuscript is assembled from six section parts (`apjm/manuscript_v1_8_blinded_part{1,2,3,4,5,6}_*.md`) per the build script `apjm/build_docx.sh`. Full replication code (Stata + Python), audit tables, M0–M8 coefficients, three-way moderation results, citation verification (`apjm/VERIFICATION_RESULTS.md`), and figure-rendering scripts are documented in the repository README.*
+## Use of generative AI in the writing process
+
+Generative AI tools were used during manuscript preparation to assist with language editing, code refactoring, and reference formatting. All research design, variable construction, model specification, estimation, interpretation, and scientific conclusions are the authors' own work and responsibility. No result was accepted on an AI's assertion; all reported quantitative results are reproducible from the replication package.

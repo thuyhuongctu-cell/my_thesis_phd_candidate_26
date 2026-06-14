@@ -277,3 +277,7 @@ Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian
 Wolfolds, S. E., & Siegel, J. (2019). Misaccounting for endogeneity: The peril of relying on the Heckman two-step method without a valid instrument. *Strategic Management Journal*, *40*(3), 432–462. https://doi.org/10.1002/smj.2995
 Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
 World Bank. (2024). *World Bank Enterprise Survey: Singapore 2023*. https://www.enterprisesurveys.org
+
+## Use of generative AI in the writing process
+
+Generative AI tools were used during manuscript preparation to assist with language editing, code refactoring, and reference formatting. All research design, variable construction, model specification, estimation, interpretation, and scientific conclusions are the authors' own work and responsibility. No result was accepted on an AI's assertion; all reported quantitative results are reproducible from the replication package.
