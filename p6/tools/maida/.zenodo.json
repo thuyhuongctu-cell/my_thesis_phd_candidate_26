@@ -1,0 +1,19 @@
+{
+  "title": "M-AIDA: Meta-Analysis Intelligent Data Assistant",
+  "version": "7.0.0",
+  "description": "Research software for international-business meta-analysis: semi-automated effect-size extraction from academic PDFs with an LLM pipeline, a human-in-the-loop verification dashboard, and an immutable data-lock workflow that exports a reproducible effect-size dataset for three-level meta-analytic regression. Authored for the P6 component of the author's doctoral dissertation programme.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "other-closed",
+  "creators": [
+    {
+      "name": "Đỗ, Thùy Hương",
+      "orcid": "0000-0002-7711-2487",
+      "affiliation": "Vinh Long University of Technology Education; Can Tho University"
+    }
+  ],
+  "keywords": [
+    "meta-analysis", "effect-size extraction", "international business",
+    "large language models", "reproducible research", "PRISMA"
+  ]
+}

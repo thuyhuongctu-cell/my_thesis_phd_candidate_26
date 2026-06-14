@@ -1,7 +1,12 @@
 # M-AIDA v7.0 — Meta-Analysis Intelligent Data Assistant
 
-Developed at Can Tho University by Do Thi Thuy Huong.  
+Developed at Can Tho University by Đỗ Thùy Hương ([ORCID 0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)).  
 Purpose-built for IB meta-analysis: semi-automated effect-size extraction from academic PDFs with human-in-the-loop PI verification and immutable data lock.
+
+<!-- Badges (add after the first Zenodo release — see PUBLISHING.md) -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+![version](https://img.shields.io/badge/version-7.0.0-blue) ![python](https://img.shields.io/badge/python-FastAPI-green) ![frontend](https://img.shields.io/badge/frontend-React%2018%20%2B%20TS-61dafb) ![license](https://img.shields.io/badge/license-Academic%20Source--Available-lightgrey)
+
 
 ## System Architecture
 
@@ -53,8 +58,12 @@ open http://localhost:3000
 
 ## Citation
 
-Do, T. H. (2025). *M-AIDA v7.0: Meta-Analysis Intelligent Data Assistant* [Software].  
-Can Tho University. https://github.com/thuyhuongctu-cell/maida-core
+If you use M-AIDA, please cite it (see `CITATION.cff` — GitHub renders a
+"Cite this repository" button). After the first Zenodo release (see
+`PUBLISHING.md`), replace the URL below with the minted DOI:
+
+> Đỗ, T. H. (2026). *M-AIDA v7.0: Meta-Analysis Intelligent Data Assistant* (Version 7.0.0)
+> [Computer software]. Can Tho University. https://github.com/thuyhuongctu-cell/maida-core
 
 ---
 
@@ -80,3 +89,18 @@ real `.env` (it is git-ignored).
 > cDAI = country Digital Adoption Index (0–1). ICRV, DPL, and cDAI are **PI-assigned from external
 > lookup tables during verification**; the LLM extracts only statistics, the data-year window, and
 > the two text-determinable classifications (DOI measure, performance measure).
+
+## License
+
+Academic Source-Available License — see `LICENSE`. The software is public for
+transparency, citation, and academic verification; rights are reserved consistent
+with the Vietnam Copyright Office (COV) registration. Non-commercial academic use
+is permitted with citation.
+
+## Repository files for citability
+
+- `CITATION.cff` — machine-readable citation metadata (GitHub + Zenodo).
+- `.zenodo.json` — Zenodo archive metadata (DOI minting).
+- `CHANGELOG.md` — version history.
+- `LICENSE` — academic source-available license.
+- `PUBLISHING.md` — how to publish to GitHub + mint a Zenodo DOI.

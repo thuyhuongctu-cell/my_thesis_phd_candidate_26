@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use M-AIDA in your research, please cite it as below."
+title: "M-AIDA: Meta-Analysis Intelligent Data Assistant"
+abstract: >-
+  M-AIDA is a research software tool for international-business meta-analysis. It
+  semi-automates the extraction of effect sizes (Pearson r, t, F, beta, p, N, CI)
+  from academic PDFs using an LLM pipeline, with a human-in-the-loop verification
+  dashboard for the principal investigator and an immutable data-lock workflow
+  that exports a reproducible effect-size dataset for three-level meta-analysis.
+type: software
+version: "7.0.0"
+date-released: "2026-06-08"
+license: LicenseRef-MAIDA-Academic
+repository-code: "https://github.com/thuyhuongctu-cell/maida-core"
+authors:
+  - family-names: "Đỗ"
+    given-names: "Thùy Hương"
+    email: "huongdt@vlute.edu.vn"
+    orcid: "https://orcid.org/0000-0002-7711-2487"
+    affiliation: "Vinh Long University of Technology Education; Can Tho University"
+keywords:
+  - meta-analysis
+  - effect-size extraction
+  - international business
+  - large language models
+  - reproducible research
+  - PRISMA
