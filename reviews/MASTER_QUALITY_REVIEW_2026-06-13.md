@@ -14,7 +14,14 @@
 - **P3/P4/P5 (P1 XỬ LÝ XONG):** P3 sửa công thức `(FSTS^c)^2` hỏng (16 chỗ) + bảng điểm uốn + đánh số 5.5; P4 sửa nhãn item TCI (e6/h8/h1) + TP 88,6%; P5 thêm câu hòa giải ba tầng mẫu.
 - **Công cụ**: `scripts/verify_dois.py` (kiểm 62 DOI nghi bịa), `scripts/reference_audit.py`, `scripts/p7_full_ladder.py`.
 
-**Còn lại (cần dữ kiện tác giả / máy có mạng):** P6 hoàn tất meta thật + sửa nhãn OSF prereg (mốc thời gian — chỉ tác giả biết); chạy `verify_dois.py` trên máy có mạng để kiểm 62 DOI; đối chứng do-file Stata trên máy có license trước khi nộp.
+**Còn lại (cần dữ kiện tác giả / máy có mạng):** chạy `verify_dois.py` trên máy có mạng để kiểm 62 DOI; đối chứng do-file Stata trên máy có license; ICR κ của P6 (cần dữ liệu double-coding).
+
+### ✅ Bộ ba "chứng minh năng lực" (items 4, 5, 8) — đã triển khai
+- **Item 8:** `scripts/verify_all.py` tái lập **14/14 PASS** + `REPRODUCIBILITY.md` (bản đồ claim→code, quy trình hội đồng tự kiểm, AI-use disclosure, lập luận xuất xứ).
+- **Item 5:** `osf/OSF_PROJECT_STRUCTURE.md` (layout OSF từng paper + nhãn registration đúng).
+- **Item 4:** `p6/tools/maida/` đủ bộ citability (`CITATION.cff`, `.zenodo.json`, `LICENSE`, `CHANGELOG.md`, `PUBLISHING.md`) → repo `thuyhuongctu-cell/maida-core` + Zenodo DOI.
+- **P6:** meta tính & đóng băng (`p6_meta_analysis.py`, r=0,074, Q_M giải mâu thuẫn); nhãn OSF reframe; chỉ còn ICR κ.
+- **P11 (JED):** paper mới + gói nộp đầy đủ + đăng ký vào danh mục công trình.
 
 ---
 
