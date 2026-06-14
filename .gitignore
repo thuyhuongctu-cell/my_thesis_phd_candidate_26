@@ -72,3 +72,4 @@ latex/**/*.toc
 latex/**/*.bbl
 latex/**/*.blg
 latex/**/*.pdf
+dist/
