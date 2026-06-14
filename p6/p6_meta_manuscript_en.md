@@ -146,7 +146,7 @@ AND TS = (correlation OR regression OR coefficient OR "effect size" OR "r =")
 
 An equivalent string using Scopus field codes (TITLE-ABS-KEY) was applied identically. The Scopus string was validated against a known-item set of 30 papers confirmed eligible from prior reading; recall was 97% (29/30), establishing adequate coverage.
 
-**Temporal coverage.** January 1977 — March 2026. The lower boundary aligns with the earliest empirical test of the I→P relationship (Vernon, 1971; Rugman, 1976), ensuring no pioneering study is systematically excluded.
+**Temporal coverage.** January 1977 — March 2026. The lower boundary aligns with the earliest empirical test of the I→P relationship (Vernon, 1971; Rugman, 1976), ensuring no early foundational study is systematically excluded.
 
 **OSF registration.** The full protocol — including the search string, eligibility decision rules, moderator coding instructions, and planned metafor model specifications — is registered on OSF: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN; registered May 18, 2026). Because part of the corpus had already been assembled through prior backward-citation screening and hand-search before that date, we describe this transparently as a **registered analysis plan** rather than a strict pre-registration (PRISMA 2020, Item 24a); the registration fixes the moderator coding scheme and the planned three-level model specification used in the confirmatory analyses.
 
