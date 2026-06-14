@@ -6,7 +6,7 @@ IF ≈ 5.5, ABS-3)* *Version 1.0, May 2026 (target journal submission: Q4
 
 ## Abstract
 
-We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I→P) relationship, testing three theoretically motivated moderators that prior meta-analyses have not examined. A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 238 studies with *K* = 288 effect sizes. The three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study and between-study components using `metafor` in R, with the analysis plan registered on OSF (transparency registration) and inter-coder reliability κ ≥ 0.70 on a 20% double-coded subsample. The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.4% (within-study 54.1%; between-study 8.4%), replicating and extending prior baselines. The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient, whereas cDAI (*Q*_M = 1.34, *p* = .513) and DPL phase (*Q*_M = 0.62, *p* = .734) are non-significant. Substantial publication bias is detected: trim-and-fill imputes *k* = 57 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.018, 0.051]), positive but attenuated. This first three-level MARA of I→P, spanning 49 economies, reframes the heterogeneity puzzle: unexplained variance in I→P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
+We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I→P) relationship, testing three theoretically motivated moderators that prior meta-analyses have not examined. A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 238 studies with *K* = 288 effect sizes. The three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study and between-study components using `metafor` in R, with the analysis plan registered on OSF (transparency registration) and inter-coder reliability κ ≥ 0.70 on a 20% double-coded subsample. The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.4% (within-study 54.1%; between-study 8.4%), replicating and extending prior baselines. The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient, whereas cDAI (*Q*_M = 1.23, *p* = .541) and DPL phase (*Q*_M = 0.62, *p* = .734) are non-significant. Substantial publication bias is detected: trim-and-fill imputes *k* = 57 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.018, 0.051]), positive but attenuated. This first three-level MARA of I→P, spanning 49 economies, reframes the heterogeneity puzzle: unexplained variance in I→P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
 
 
 **Keywords:** internationalization–performance; meta-analysis;
@@ -95,7 +95,7 @@ relationship globally. H1 (between-regime Q_M test) is confirmed (*Q*\_M
 = 17.35, *p* = .002); however, the directional Exploratory Propositions
 E1a (Advanced largest) and E1b (Frontier smallest) are not statistically
 confirmed, the Q_M is driven by a *k* = 3 Frontier-group anomaly rather
-than a monotone institutional gradient. cDAI (*Q*\_M = 1.34, *p* = .513)
+than a monotone institutional gradient. cDAI (*Q*\_M = 1.23, *p* = .541)
 and DPL phase (*Q*\_M = 0.62, *p* = .734) are non-significant (H2, H3
 not supported). The most substantive finding is publication bias (H4
 confirmed): trim-and-fill imputes *k* = 57 missing studies, reducing the
@@ -524,7 +524,7 @@ Q_M statistically significant; H1 confirmed (Q_M = 17.35, p = .002);
 directional Exploratory Propositions E1a (Advanced largest) and E1b
 (Frontier smallest) not meta-analytically confirmable at k = 3 Frontier.
 (2) cDAI, Country Digital Adoption Index (H3), hypothesised positive
-amplification \[High \> Low\]; actual Q_M = 1.34 (p = .513), H3 not
+amplification \[High \> Low\]; actual Q_M = 1.23 (p = .541), H3 not
 supported. (3) DPL Phase (H2), hypothesised Follow \> Precede; actual
 Q_M = 0.62 (p = .734), H2 not supported. The three-level model nests K =
 288 effects within k = 238 studies (σ²_within = 0.00878, I²\_(2) =
@@ -1036,7 +1036,7 @@ can be properly tested.
 
 ### 4.4 cDAI Moderation (H3)
 
-*Q*\_M(cDAI) = 1.34 (*df* = 2, *p* = .513). H3 **not supported**.
+*Q*\_M(cDAI) = 1.23 (*df* = 2, *p* = .541). H3 **not supported**.
 
 Meta-regression with continuous cDAI score: β_cDAI = +0.003 (*SE* =
 0.010, *p* = .744). Neither the categorical between-group test nor the
@@ -1332,7 +1332,7 @@ H1 (ICRV between-regime Q_M test) is confirmed (*Q*\_M = 17.35, *p* =
 .002), establishing that I→P effect sizes vary systematically across
 institutional regimes. However, the directional gradient (E1a: Advanced
 largest; E1b: Frontier smallest) is not meta-analytically confirmable at
-*k* = 3 Frontier, and the cDAI (H3: *Q*\_M = 1.34, *p* = .513) and DPL
+*k* = 3 Frontier, and the cDAI (H3: *Q*\_M = 1.23, *p* = .541) and DPL
 phase (H2: *Q*\_M = 0.62, *p* = .734) moderators do not explain
 between-study heterogeneity in the current sample. The CIMT
 institutional gradient (E1a/E1b), digital infrastructure amplification

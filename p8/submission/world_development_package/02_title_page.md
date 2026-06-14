@@ -57,3 +57,5 @@ The World Bank Enterprise Survey microdata are publicly available at [enterprise
 ## Keywords
 
 forced internationalization; small island developing states; internationalization–performance relationship; institutional voids; Pacific economies; labor productivity; Forced Internationalization Penalty (FIP)
+
+**AI-use disclosure.** Generative-AI tools were used to assist with prose drafting, code refactoring, and language editing. All research design, variable construction, model specification, estimation, interpretation, and scientific conclusions are the authors' own work and responsibility; no result was accepted on an AI's assertion, and all reported quantitative results are reproducible from the accompanying scripts.
