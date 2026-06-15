@@ -1074,11 +1074,11 @@ The macro context of the period is consistent with a digital-
 infrastructure trough in 2015 relative to the 2009 and 2023 anchors. Public secondary indicators
 support this reading.
 
-World Bank World Development Indicators (WDI) record Vietnam's
+World Bank World Development Indicators (WDI; World Bank, 2026) record Vietnam's
 
 individuals-using-the-Internet share at approximately 26 % in 2009, 45 % in 2015 and over
 78 % by 2023; ITU's fixed-broadband subscriptions per 100 people grew from approximately
-3 in 2009 to 8 in 2015 and to over 20 by 2023.
+3 in 2009 to 8 in 2015 and to over 20 by 2023 (International Telecommunication Union, 2026).
 
 Vietnam's National Digital Transformation
 
