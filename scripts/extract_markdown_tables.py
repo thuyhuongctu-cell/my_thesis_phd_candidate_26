@@ -32,24 +32,39 @@ def extract(src_path, out_path, prefix="T"):
             i += 1
         if len(block) < 2:
             continue
-        # nearest bold caption looking up to 4 non-empty lines back
+        # nearest caption above the table: bold **...**, a "Bảng X.N ..." line,
+        # or a "## Heading". Look back up to 8 lines; stop at another table.
         caption = ""
-        for k in range(len(tables) and 0 or 1, 6):
-            j = i - len(block) - k
+        first_row = i - len(block)
+        for k in range(1, 9):
+            j = first_row - k
             if j < 0:
                 break
-            m = bold_re.search(lines[j]) if j < len(lines) else None
-            if m and m.group(1).strip():
-                caption = m.group(1).strip().rstrip(":").strip()
+            ln = lines[j].strip()
+            if not ln:
+                continue
+            if ln.startswith("|"):
                 break
-            if lines[j].lstrip().startswith("|"):
+            mb = bold_re.search(ln)
+            if mb and mb.group(1).strip():
+                caption = mb.group(1).strip().rstrip(":").strip()
+                break
+            mt = re.match(r"^(Bảng\s+[\w.]+[.\s].*)$", ln)
+            if mt:
+                caption = mt.group(1).strip().rstrip(".").strip()
+                break
+            mh = re.match(r"^#{1,4}\s+(.+)$", ln)
+            if mh:
+                caption = mh.group(1).strip()
                 break
         header = cells(block[0])
         body = [cells(r) for r in block[2:] if any(c for c in cells(r))]
         body = [(r + [""] * len(header))[:len(header)] for r in body]
         df = pd.DataFrame(body, columns=header)
-        name = re.sub(r"[^0-9A-Za-zÀ-ỹ ]", "", caption)[:24].strip() or f"{prefix}{len(tables)+1}"
-        name = f"{prefix}{len(tables)+1}_{name}".replace(" ", "_")[:31]
+        base = re.sub(r"[^0-9A-Za-zÀ-ỹ ]", "", caption)[:24].strip()
+        if not base:  # fall back to the first header cells when no caption found
+            base = re.sub(r"[^0-9A-Za-zÀ-ỹ ]", "", " ".join(header[:2]))[:24].strip()
+        name = f"{prefix}{len(tables)+1}_{base or prefix}".replace(" ", "_")[:31]
         seen[name] = seen.get(name, 0) + 1
         if seen[name] > 1:
             name = f"{name[:28]}_{seen[name]}"
