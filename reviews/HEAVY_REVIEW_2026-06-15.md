@@ -105,18 +105,16 @@ reference counts, different issues). Status:
 - **P8 (3 packages: ejdr, jid, world_development):** carried the *identical*
   Banalieva/Diamantopoulos/Jarvis issue — **fixed and rebuilt** (now clean).
 - **P6 jwb, P7 ibr:** fixed (above).
-- **P3 (4 packages: jabs, jed, mbr, thunderbird) and P5 (3 packages: apbr, cms,
-  ijoem): NOT yet fixed.** They are independently curated (e.g., the P3 packages
-  carry 55–60 references vs. the canonical 50) and have their *own* distinct
-  orphans — confirmed real ones include World Bank (2024), World Bank (2016), and
-  International Telecommunication Union (2026) listed-but-uncited in the P3
-  packages; the P5 packages use a smaller, different reference set. Each needs an
-  individual pass.
-- **Structural recommendation:** there are 4 P3 + 3 P5 + 3 P8 live packages with
-  **no DEPRECATED.md markers**. Pick one active target journal per paper and
-  deprecate the rest (as already done for P6 and P7), then regenerate that one
-  package from the corrected canonical source. Maintaining 10 parallel divergent
-  copies is the root cause of this drift.
+- **P3 (4 packages) and P5 (3 packages): RESOLVED.** Target journals confirmed
+  on the Vietnamese-standards branch — **P3 → Journal of Economic Development
+  (jed_package)**, **P5 → International Journal of Emerging Markets
+  (ijoem_package)**. The two chosen packages were verified citation-clean (jed
+  needed two prose-only data sources anchored with formal citations — World Bank
+  2026 / WDI and ITU 2026; ijoem was already clean, its flagged "orphans" being
+  last-authors of cited multi-author entries). The non-chosen packages
+  (P3 jabs/mbr/thunderbird; P5 apbr/cms) were marked DEPRECATED. jed docx rebuilt.
+- **Structural note:** consolidation to one live target per paper is now in place
+  for P3, P5, P6, P7 (and P8's three packages were all fixed identically).
 
 ## Reproducibility
 `scripts/verify_all.py`: **14/14 pass** after all edits (P6 6/6, P7 4/4, P10, P11).
