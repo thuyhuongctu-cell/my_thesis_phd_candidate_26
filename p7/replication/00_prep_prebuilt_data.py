@@ -2,9 +2,17 @@
 """
 Convert pooled_wbes_6waves.csv (Class-AI-Agent format) → P7-compatible format.
 
+LEGACY / NON-CANONICAL converter — kept for the small 3-country demo CSV
+(VNM/CHN/SGP) only. The canonical P7 pipeline for the thesis is
+01_build_p7_dataset.py (raw WBES .dta -> p7_pooled_clean.csv, all 50 economies
+incl. Japan 2025) -> 02_run_p7_models.py. There the TCI composite (tci_z) is a
+2-component construct: b8 (quality certification) + e6 (foreign-licensed
+technology). The 5-component TCI_full noted below applies ONLY to this legacy
+prebuilt CSV and is NOT the specification reported in the dissertation.
+
 Column mapping:
   export_pct / 100   → fsts
-  TCI_full (0-1)     → z-score → tci_z   [5-component: cert+tech+innov+process+rd]
+  TCI_full (0-1)     → z-score → tci_z   [legacy 5-component: cert+tech+innov+process+rd]
   DAI_rich (0-1)     → z-score → dai_z   [3-component: web+epay+epay_supp]
   manager_exp (1-4)  → mgr_experience (ordinal)
   foreign_own        → foreign_own_pct

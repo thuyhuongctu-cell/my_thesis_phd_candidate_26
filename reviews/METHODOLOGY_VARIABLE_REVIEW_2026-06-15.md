@@ -34,19 +34,22 @@ bounds that the thesis already handles honestly.
 3. **§3.5.6** measurement-invariance limitation across the 3 WBES questionnaire
    generations is now acknowledged; self-praising phrasing neutralised.
 
-## Open — needs author reconciliation against the estimation code (NOT guessed)
-**TCI item set is described inconsistently across documents.** The exact set
-should be reconciled to whatever the do-files/replication actually estimated:
-- P7 replication (`p7/replication/00_prep_prebuilt_data.py`): comment says
-  TCI_full is a **5-component** composite (cert + foreign-tech + product-innov +
-  process-innov + R&D), `tci_z = zscore(TCI_full)`; but the cleaned pool
-  (`data_wbes/p7/p7_pooled_clean.csv`) exposes only `tci_cert` + `tci_foreign_tech`.
-- P7 manuscript variable table: "TCI_z = R&D (h8) + ISO certification (b8)" (**2-item**).
-- Thesis §3.4.5.4 (P7): TCI_z = z-std(b8, e6) (**2-item, different pair**).
-These three do not agree. Likewise the 2-item TCI differs across papers (P7/CĐ1
-use h8+b8 = R&D+ISO; P8/§3.4.5.x use b8+e6 = cert+foreign-tech). Recommendation:
-pick the authoritative item set from the actual estimation, then make §3.3.4,
-§3.4.5.x, each paper's variable table, and the data dictionary agree.
+## RESOLVED (2026-06-15) — P7 TCI item set confirmed against real-data pipeline
+The author confirmed P7 uses the real WBES data (50 economies, incl. Japan 2025).
+Tracing the canonical pipeline settles the earlier ambiguity:
+- `01_build_p7_dataset.py` (raw WBES .dta → `p7_pooled_clean.csv`, 50 economies)
+  builds `tci_z` = standardized mean of **2 components: b8 (quality cert) + e6
+  (foreign-licensed tech)**. `02_run_p7_models.py` reads exactly this file.
+- `00_prep_prebuilt_data.py` (the "5-component" comment) is a **legacy 3-country
+  (VNM/CHN/SGP) demo converter**, NOT in the thesis pipeline. Its header has been
+  annotated as legacy/non-canonical.
+- ⟹ Thesis §3.4.5.4 (P7: b8 + e6, 2-item thin) is **correct**; no estimate change.
+  §3.3.4 reconciliation note updated from "needs checking" to "confirmed".
+
+Remaining tidy-up (cosmetic, author's call, no numbers affected): some companion
+**paper** variable tables phrase the 2-item TCI as "R&D (h8) + ISO (b8)" rather
+than "cert (b8) + foreign-tech (e6)". Align each paper's prose to the b8+e6 pair
+used by the estimation so the wording matches across documents.
 
 ## Other referee-sensitive points (design-inherent; already disclosed)
 - Repeated cross-sections → firm-level causal inference is bounded (handled via
