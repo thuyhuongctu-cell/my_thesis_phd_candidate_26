@@ -1,8 +1,19 @@
-# Luận án Tiến sĩ — Quốc tế hóa và Hiệu quả Doanh nghiệp tại châu Á
+# Luận án Tiến sĩ — Quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp ở Châu Á
 
-> **Đề tài:** Mối quan hệ giữa quốc tế hóa và hiệu quả hoạt động doanh nghiệp (*internationalization–firm performance*, I–P) tại châu Á — các điều kiện biên thể chế, năng lực số và đặc điểm nhà quản trị.
+> **Tên luận án (chính thức):** *Quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp ở Châu Á*
+> *(Internationalization and firm business performance in Asia)*
 
-Kho lưu trữ này chứa toàn bộ bản thảo luận án, các nghiên cứu thành phần (papers), chuyên đề, dữ liệu WBES, mã tái lập (replication) và quy trình biên dịch ra DOCX/PDF theo định dạng CTU.
+| | |
+|---|---|
+| **Nghiên cứu sinh** | Đỗ Thùy Hương — mã số NCS P1323001 |
+| **Ngành / Mã ngành** | Quản trị kinh doanh — 9340101 (Khóa 2023, đợt 1) |
+| **Người hướng dẫn khoa học** | PGS.TS. Phan Anh Tú |
+| **Cơ sở đào tạo** | Trường Đại học Cần Thơ (CTU) |
+| **Tên luận án được điều chỉnh** | QĐ số 4769/QĐ-ĐHCT ngày 15/10/2024 (từ "…các nước thuộc khối ASEAN" → "…ở Châu Á") |
+
+> ⚠️ **Công trình chưa công bố — đang thực hiện.** Kho lưu trữ này là tài liệu nội bộ của chương trình nghiên cứu; mọi cấu phần được giới thiệu lần đầu và không nên được trích dẫn như công trình đã xuất bản.
+
+Kho lưu trữ chứa toàn bộ bản thảo luận án, các cấu phần nghiên cứu, chuyên đề, dữ liệu WBES, mã tái lập (replication) và quy trình biên dịch ra DOCX/PDF theo định dạng CTU.
 
 ---
 
@@ -44,17 +55,22 @@ MY_THESIS_PHD_CANDIDATE_26/
 
 ## 🧪 Các nghiên cứu thành phần
 
-| Mã | Bối cảnh | Trọng tâm |
-|----|----------|-----------|
-| **P3** | Việt Nam | Chữ U ngược I–P, ba sóng WBES |
-| **P4** | Singapore | Quan hệ gần tuyến tính; "lá chắn số" DAI |
-| **P5** | Trung Quốc | Độ bền cấu trúc điểm uốn qua hai sóng |
-| **P6** | Meta-analysis | Tổng hợp văn liệu I–P (PRISMA) |
-| **P7** | Đa quốc gia (capstone) | 50 nền Asia-Pacific (gồm Japan), U-ngược + điều tiết |
-| **P8** | Pacific SIDS | Construct FIP (gánh nặng quốc tế hóa bắt buộc) |
-| **P9** | Ấn Độ | Mô hình ngưỡng |
-| **P10** | Nhật Bản | Kiểm định chuyên sâu I–P biên trên |
-| **P11** | JED | Bài báo phái sinh |
+> Luận án theo cấu trúc **tích lũy (cumulative)**: một chương trình nghiên cứu gồm nhiều cấu phần bổ trợ, thống nhất quanh khung CDCM và taxonomy ICRV trên dữ liệu WBES châu Á–Thái Bình Dương. Đây là **công trình chưa công bố**; các cấu phần dưới đây được giới thiệu lần đầu như một phần của chương trình luận án.
+
+| Mã | Bối cảnh / dữ liệu | Trọng tâm nghiên cứu |
+|----|--------------------|----------------------|
+| **P1** | 17 nền kinh tế mới nổi châu Á (WBES) | Tính dị biệt (heterogeneity) hiệu quả doanh nghiệp — cấu phần mô tả nền tảng |
+| **P2** | Doanh nghiệp SME sản xuất Trung Quốc | Quốc tế hóa (cường độ xuất khẩu) → hiệu quả; ràng buộc vốn lưu động; chữ U ngược |
+| **P3** | Việt Nam (WBES 2009/2015/2023) | Quan hệ I–P chữ U ngược; điều tiết TCI/DAI |
+| **P4** | Singapore (WBES 2023) | Chữ U ngược gần tuyến tính; khuếch đại DAI ("lá chắn số") |
+| **P5** | Trung Quốc (WBES 2012–2024) | Độ bền cấu trúc của điểm uốn qua thời gian |
+| **P6** | Châu Á–Thái Bình Dương | Meta-analysis ba tầng quan hệ I→P (k≈238); điều tiết theo ICRV |
+| **P7** | 50 nền Asia-Pacific, **gồm Japan** (WBES) | Nghiên cứu đa quốc gia (capstone): chữ U ngược + gradient điểm uốn theo ICRV |
+| **P8** | 7 nền Pacific SIDS | Construct mới **FIP** — gánh nặng quốc tế hóa bắt buộc |
+| **P9** | Ấn Độ | Mô hình ngưỡng (threshold) trong quan hệ I–P |
+| **P10** | Nhật Bản (sóng WBES đầu tiên 2025) | Kiểm định I–P biên trên gradient thể chế (ICRV Nhóm I) |
+| **Chương sách** | Ấn Độ (380 doanh nghiệp sản xuất & dịch vụ) | Quốc tế hóa và hiệu quả: vai trò nhà quản trị cấp cao (tầng upper-echelons) |
+| **Meta-analysis 2025** | Châu Á–Thái Bình Dương (ICBEF) | Phiên bản hội thảo của tổng hợp định lượng I–P; nền tảng phương pháp cho P6 |
 
 ---
 
