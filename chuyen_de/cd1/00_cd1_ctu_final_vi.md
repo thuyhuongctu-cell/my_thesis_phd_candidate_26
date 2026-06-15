@@ -459,7 +459,11 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 
 **Phạm vi tổng hợp dữ liệu**. Pool mô tả gồm **88.869 doanh nghiệp**, 50 nền kinh tế, **103 cặp nền kinh tế × năm**, giai đoạn 2006–2026 (bao gồm Kiribati 2025, đợt khảo sát WBES đầu tiên của nền kinh tế này). Tổng hợp này kế thừa và mở rộng từ pool 17 nền châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026, VEFR), gấp hơn 2 lần. Phân bố theo nhóm ICRV: Nhóm IV Chuyển đổi TB-thấp 45.003 (50,6%), Nhóm V Đang nổi 18.957 (21,3%), Nhóm III Trung bình cao 13.993 (15,7%), Nhóm I Advanced đổi mới 6.390 (7,2%), Nhóm VI SIDS 2.295 (2,6%), Nhóm II Advanced tài nguyên 2.231 (2,5%). Có **13 nền kinh tế khảo sát năm 2025** với 16.880 doanh nghiệp (19,0% pool, gồm Nhật Bản, đợt khảo sát đầu tiên, n=2.168); đợt khảo sát Nepal 2025 dùng bảng hỏi BREADY Micro (doanh nghiệp siêu nhỏ), không phải cross-section chuẩn nên không thuộc pool, chỉ được nhắc đến như tham chiếu.
 
+![Hình 2.3.3.1. Phân bố pool mô tả theo 3 thế hệ schema WBES.](figures/hinh_2_3_3_1.png)
+
 *Hình 2.3.3.1. Phân bố pool mô tả 88.869 doanh nghiệp (2006–2026) theo 3 thế hệ schema WBES: PICS3 (2006–2012, 18 đợt, n=8.048), Standardized (2013–2017, 27 đợt, n=23.940), BREADY (2018–2026, 58 đợt, n=56.881). Các đợt 2024–2026 đóng góp 27.859 doanh nghiệp (31,3% pool, 31 đợt), phản ánh chu kỳ khảo sát WBES dày lên rõ rệt sau đại dịch.*
+
+![Hình 2.3.3.2. Phân bố pool theo 6 nhóm ICRV.](figures/hinh_2_3_3_2.png)
 
 *Hình 2.3.3.2. Bar chart phân bố theo 6 nhóm ICRV: IV Chuyển đổi TB-thấp (45.003, 50,6%), V Đang nổi (18.957, 21,3%), III Trung bình cao (13.993, 15,7%), I Advanced đổi mới (6.390, 7,2%), VI SIDS (2.295, 2,6%), II Advanced tài nguyên (2.231, 2,5%).*
 
@@ -481,6 +485,8 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 | VI, SIDS | 16 | 1.916 | 1,32 | 26,3 | 5,4 |
 
 *Ghi chú: sd, P90/P10 và P75/P25 tính trong từng đợt khảo sát (bất biến tiền tệ), sau đó lấy trung vị giữa các đợt của nhóm; n_firms là số quan sát có năng suất hợp lệ (doanh thu và lao động dương). Trong nội bộ Nhóm II, các nền lớn nhất có phân tán đặc biệt hẹp (Saudi Arabia 0,49; Qatar 0,33), đặc trưng nhà nước tô; trung vị nhóm bị kéo lên bởi các nền nhỏ (Kuwait 1,16; Brunei 1,12). Kiribati 2025: sd 1,48, rộng nhất trong các đợt SIDS.*
+
+![Hình 2.3.3.3. Phân phối năng suất chuẩn hóa theo nhóm ICRV.](figures/hinh_2_3_3_3.png)
 
 *Hình 2.3.3.3. Đồ thị mật độ kernel của năng suất chuẩn hóa trong đợt cho 6 nhóm ICRV, Nhóm I hẹp nhất (P90/P10 ≈ 11,7 lần), Nhóm V rộng nhất (≈ 30 lần).*
 
@@ -563,7 +569,9 @@ Spec 1 (toàn bộ 2006–2026) dùng biến nhị phân duy nhất (website có
 
 *Nguồn: tính từ dữ liệu vi mô WBES trên pool mô tả 50 nền (SME = <100 lao động thường xuyên, biến l1; FDI = sở hữu nước ngoài ≥10%, biến b2b). ¹Nhóm II: đủ 6/6 nền GCC. ²Nhóm VI: đủ 8/8 nền, SME cao nhất (91,8%) và FDI cao (20,0%, do MNE du lịch/viễn thông).*
 
-*Hình 2.3.5.1. Stacked bar chart: Nhóm VI (SIDS, đủ 8/8 nền) có tỷ lệ SME cao nhất (91,8%), Nhóm V kế tiếp (85,7%), Nhóm IV thấp nhất (74,0%).*
+![Hình 2.3.5.1. Cấu trúc doanh nghiệp theo nhóm ICRV.](figures/hinh_2_3_5_1.png)
+
+*Hình 2.3.5.1. Biểu đồ thanh cấu trúc doanh nghiệp (SME, doanh nghiệp xuất khẩu, FDI ≥10%) theo nhóm ICRV (Bảng 2.3.5.1). Nhóm VI (SIDS, đủ 8/8 nền) có tỷ lệ SME cao nhất (91,8%), Nhóm V kế tiếp (86,0%), Nhóm IV thấp nhất (74,0%).*
 
 Tỷ lệ FDI có dạng chữ U với cực tiểu ở Nhóm IV, Chuyển đổi TB-thấp (3,1%). SIDS có FDI cao (20,0%) do du lịch và viễn thông được dẫn dắt bởi doanh nghiệp đa quốc gia. Hai mô hình FDI hoàn toàn khác nhau: (i) MNE hub tại Advanced (Singapore FDI 31,5%, doanh nghiệp đa quốc gia chọn Singapore làm trung tâm khu vực); (ii) du lịch/viễn thông tại SIDS (FDI nhắm vào khu vực không cạnh tranh với lao động địa phương).
 
@@ -599,9 +607,13 @@ Bốn rào cản này tạo ra bốn biến kiểm soát quan trọng cho Chuyê
 
 **Nhảy vọt số** là xu hướng nổi bật nhất: website tăng +21 đến +31 điểm phần trăm ở Nhóm IV, V và VI, phù hợp luận điểm nhảy vọt số của Banalieva & Dhanaraj (2019). Ngược chiều, tỷ lệ doanh nghiệp xuất khẩu của Nhóm IV giảm 11,3 điểm phần trăm, chủ yếu do đứt gãy schema tại Ấn Độ 2025 (FSTS đo lường thấp hơn hệ thống) cộng hưởng với cấu trúc FDI lắp ráp; trong khi Nhóm III tăng 12,5 điểm phần trăm theo chuỗi giá trị toàn cầu. FDI giảm nhẹ phổ biến ở các nhóm IV–VI.
 
-*Hình 2.3.4.1. Slope chart minh họa thay đổi 5 chỉ số giữa 2 kỳ khảo sát cho 4 nhóm ICRV có dữ liệu hai kỳ (III–VI). Pattern nổi bật: website tăng mạnh ở IV/V/VI; FDI giảm nhẹ phổ biến; R&D Nhóm V giảm mạnh do hiệu ứng schema.*
+![Hình 2.3.4.1. Δ điểm phần trăm 5 chỉ số giữa hai kỳ theo nhóm ICRV.](figures/hinh_2_3_4_1.png)
 
-*Hình 2.3.6.1. Radar/spider chart cho 3 nhóm (III, V, VI) trên 5 chiều (FSTS, Đổi mới sản phẩm, R&D, Website, ISO) với 2 kỳ khảo sát 2006–2012 vs 2018–2026.*
+*Hình 2.3.4.1. Biểu đồ thanh Δ điểm phần trăm (2018–2026 so với 2006–2012) cho 5 chỉ số ở 4 nhóm ICRV có dữ liệu hai kỳ (III–VI), số liệu từ Bảng 2.3.6.1. Pattern nổi bật: website tăng mạnh ở IV/V/VI; FDI giảm nhẹ phổ biến; R&D Nhóm V giảm mạnh do hiệu ứng schema (Δ R&D chỉ tính được cho Nhóm V).*
+
+![Hình 2.3.6.1. Hồ sơ năng lực 5 chiều theo nhóm ICRV.](figures/hinh_2_3_6_1.png)
+
+*Hình 2.3.6.1. Radar/spider chart cho 3 nhóm (III, V, VI) trên 5 chiều (FSTS, Đổi mới sản phẩm, R&D, Website, ISO), giá trị % của pool mô tả hiện hành 2006–2026 (Bảng 2.3.3.2 và 2.3.4.1); biến thiên theo thời gian được trình bày ở Hình 2.3.4.1.*
 
 #### 2.3.6.2 Phân biệt 3 chỉ số tham nhũng WBES
 
@@ -719,6 +731,8 @@ FSTS 8,2%; FDI ≥10% chiếm 3,5%; tỷ lệ doanh nghiệp R&D dương 16,5%. 
 #### 2.3.7.6 Mông Cổ: từ lời nguyền tài nguyên đến khoáng sản thiết yếu (n=1.082, 3 đợt 2009/2013/2019)
 
 FSTS đình trệ 4–6% (5,8% rồi 3,9% rồi 4,2%); FDI ≥10% giảm **7,2% rồi 4,2%**; website dao động 39–49%. Pattern **lời nguyền tài nguyên** (Sachs & Warner, 2001). **Bước ngoặt 2026**: 11 khoáng sản thiết yếu (Cu, Li, Mo, Mn, Co, Ni, W, REE). Xuất khẩu đồng 1,69 triệu tấn (2024) = 22,1% tổng xuất khẩu. Oyu Tolgoi mục tiêu 500.000 tấn/năm 2028–2036. Trung Quốc chi phối chế biến: 100% graphite, 90% Mn, 70% Co (ADB, 2026, tháng 5).
+
+![Hình 2.3.7.1. Mông Cổ: tiến triển 2009–2019.](figures/hinh_2_3_7_1.png)
 
 *Hình 2.3.7.1. Mông Cổ: tiến triển 2009–2019 (3 đợt khảo sát WBES), FSTS đình trệ; FDI giảm dần phản ánh lời nguyền tài nguyên giai đoạn 1.*
 
