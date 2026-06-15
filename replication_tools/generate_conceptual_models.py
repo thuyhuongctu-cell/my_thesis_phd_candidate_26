@@ -499,6 +499,71 @@ def make_cd2_cdcm_detail(outdir):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+# CD1 — Descriptive analytical framework (Hình 2.3.1.1)
+# Correlational / descriptive (NOT hypothesis-testing): four firm/country factors
+# vs standardized labour productivity, contextualised by ICRV regime over time.
+# Faithful to CĐ1 §2.3.8 (Pearson correlations) and §2.3.9 (synthesis).
+# ══════════════════════════════════════════════════════════════════════════════
+def make_cd1_conceptual_model(outdir):
+    fig, ax = plt.subplots(figsize=(11, 7))
+    ax.set_xlim(0, 1); ax.set_ylim(0, 1)
+    ax.axis('off')
+
+    # ── Four explanatory factors (left, stacked) ──
+    factors = [
+        (0.80, 'FDI ≥ 10%\n(b2b)', 'r = +0,06 … +0,12'),
+        (0.62, 'Quốc tế hóa — FSTS\n(d3b + d3c)', 'r = +0,139 → −0,009 (SIDS)'),
+        (0.44, 'TCI — Năng lực công nghệ\n(R&D h8 · ISO b8)', 'r = +0,117 … +0,240'),
+        (0.26, 'DAI — Hiện diện số\n(website c22b)', 'r = +0,090 … +0,201'),
+    ]
+    for y, label, rng in factors:
+        box(ax, 0.15, y, 0.24, 0.12, label, color=COL_IV, fontsize=7.6, bold=True)
+        arrow(ax, 0.275, y, 0.71, 0.44, color=COL_ARR, lw=1.0)
+        ax.text(0.30, y + 0.052, rng, ha='left', va='bottom',
+                fontsize=6.6, color='#34495E', fontstyle='italic')
+
+    # ── Dependent variable (right) ──
+    box(ax, 0.85, 0.44, 0.24, 0.17,
+        'Năng suất lao động (LP-z)\nz-score ln(doanh thu / lao động)\ntrong từng nền × năm\n(bất biến tiền tệ)',
+        color=COL_DV, fontsize=8, bold=True)
+
+    # ── ICRV regime — cross-cutting contextual moderator (top) ──
+    box(ax, 0.50, 0.93, 0.60, 0.10,
+        'Bối cảnh thể chế — 6 nhóm ICRV (I Đổi mới → VI SIDS)\n'
+        'điều tiết ĐỘ LỚN và (cá biệt) DẤU của các tương quan',
+        color='#1E8449', fontsize=7.8, bold=True)
+    ax.annotate('', xy=(0.62, 0.54), xytext=(0.62, 0.88),
+                arrowprops=dict(arrowstyle='->', color='#1E8449', lw=1.4, linestyle='--'))
+    ax.text(0.635, 0.71, 'điều tiết bối cảnh\n(gradient thể chế)', ha='left', va='center',
+            fontsize=7, color='#1E8449', fontstyle='italic')
+
+    # ── Key descriptive readings (annotation, below the factor stack) ──
+    ax.text(0.50, 0.115,
+            'Phát hiện mô tả: (i) TCI là tương quan dương mạnh & đồng đều nhất (level-shifter phổ quát); '
+            '(ii) gradient FSTS giảm đơn điệu theo thể chế\nyếu dần, mất ý nghĩa/đổi dấu ở SIDS '
+            '(giả thuyết chi phí buộc phải quốc tế hóa); (iii) phần bù DAI thấp nhất ở Nhóm I (bão hòa Tier-1)',
+            ha='center', va='center', fontsize=6.7, color='#2C3E50',
+            bbox=dict(boxstyle='round,pad=0.25', facecolor='#F8F9FA', edgecolor='#BDC3C7', lw=0.7))
+
+    # ── Temporal dimension (bottom) ──
+    ax.text(0.50, 0.03,
+            'Chiều thời gian 2006–2026: nhảy vọt số Tier-1 (+21…+31 điểm % website ở nhóm IV/V/VI) · '
+            'tái cân bằng GVC\n(mô tả cắt-ngang gộp nhiều đợt; quan hệ nhân quả dành cho Chuyên đề 2)',
+            ha='center', va='center', fontsize=7.0, color='#7D6608', style='italic',
+            bbox=dict(boxstyle='round,pad=0.3', facecolor='#FEF9E7', edgecolor='#D4AC0D', lw=0.8))
+
+    ax.set_title('Hình 2.3.1.1. Khung phân tích mô tả CĐ1 — Tương quan giữa bốn yếu tố và năng suất lao động\n'
+                 'theo bối cảnh thể chế ICRV (pool mô tả 88.869 doanh nghiệp · 50 nền · 2006–2026)',
+                 fontsize=10, fontweight='bold', pad=12, color=COL_IV)
+
+    out = os.path.join(outdir, 'chuyen_de/cd1/figures/cd1_fig_conceptual_model.png')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    fig.savefig(out, dpi=300, bbox_inches='tight', facecolor='white')
+    plt.close(fig)
+    print(f'Saved: {out}')
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 # Run all
 # ══════════════════════════════════════════════════════════════════════════════
 if __name__ == '__main__':
@@ -508,6 +573,7 @@ if __name__ == '__main__':
     make_p4_conceptual_model(base)
     make_p5_conceptual_model(base)
     make_p6_conceptual_model(base)
+    make_cd1_conceptual_model(base)
     make_cd2_conceptual_model(base)
     make_cd2_cdcm_detail(base)
-    print('\n✓ All 6 conceptual model figures generated at 300 DPI.')
+    print('\n✓ All 7 conceptual model figures generated at 300 DPI.')

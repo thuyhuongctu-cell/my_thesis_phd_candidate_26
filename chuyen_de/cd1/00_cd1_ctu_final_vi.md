@@ -119,6 +119,7 @@ Adopting multidimensional descriptive statistics, charts, cross-country–cross-
 
 | Hình | Tiêu đề | Trang |
 |---|---|---|
+| Hình 2.3.1.1 | Khung phân tích mô tả CĐ1 — tương quan giữa bốn yếu tố và năng suất lao động theo bối cảnh thể chế ICRV | 2.3 |
 | Hình 2.3.3.1 | Phân bố pool mô tả 88.869 doanh nghiệp (2006–2026) theo 3 thế hệ schema WBES | 2.3 |
 | Hình 2.3.3.2 | Phân bố pool mô tả theo 6 nhóm ICRV (n=88.869 doanh nghiệp) | 2.3 |
 | Hình 2.3.3.3 | Phân phối năng suất chuẩn hóa trong đợt theo 6 nhóm ICRV (kernel density) | 2.3 |
@@ -294,6 +295,12 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 ## 2.3 NỘI DUNG NGHIÊN CỨU
 
 ### 2.3.1 Cơ sở lý luận về hiệu quả hoạt động kinh doanh
+
+Khung phân tích mô tả của Chuyên đề 1 được tóm lược ở Hình 2.3.1.1. Đây là **khung mô tả – tương quan** (không phải khung kiểm định nhân quả; phần nhân quả được dành cho Chuyên đề 2): bốn yếu tố giải thích cấp doanh nghiệp và quốc gia, gồm vốn đầu tư trực tiếp nước ngoài (FDI ≥ 10%), mức độ quốc tế hóa (FSTS), năng lực công nghệ (TCI) và mức độ hiện diện số (DAI), được đặt trong quan hệ tương quan với **năng suất lao động chuẩn hóa** (LP-z, z-score của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm để bảo đảm bất biến tiền tệ). Điểm cốt lõi của khung là vai trò **điều tiết bối cảnh** của khung phân loại thể chế ICRV (sáu nhóm, từ Nhóm I đổi mới đến Nhóm VI SIDS): thể chế không chỉ làm thay đổi *độ lớn* mà cá biệt còn đảo *dấu* của các tương quan, rõ nhất ở gradient FSTS giảm đơn điệu từ +0,139 (Nhóm I) xuống mất ý nghĩa và đổi dấu ở SIDS (−0,009 ns), nhất quán với giả thuyết chi phí buộc phải quốc tế hóa. Toàn bộ phân tích là **cắt ngang gộp nhiều đợt** trên giai đoạn 2006–2026; các hệ số tương quan Pearson chi tiết theo nhóm ICRV được trình bày ở mục 2.3.8.
+
+![Hình 2.3.1.1. Khung phân tích mô tả CĐ1 — tương quan giữa bốn yếu tố và năng suất lao động theo bối cảnh thể chế ICRV (pool mô tả 88.869 doanh nghiệp, 50 nền, 2006–2026).](figures/cd1_fig_conceptual_model.png)
+
+*Nguồn: tác giả tổng hợp từ WBES (2006–2026). Mũi tên liền = quan hệ tương quan mô tả giữa từng yếu tố và năng suất; mũi tên nét đứt = điều tiết bối cảnh của khung thể chế ICRV. Đây là khung mô tả – tương quan; suy luận nhân quả (hồi quy hai chiều cố định, kiểm định turning-point) được dành cho Chuyên đề 2.*
 
 #### 2.3.1.1 Khái niệm hiệu quả hoạt động kinh doanh
 
