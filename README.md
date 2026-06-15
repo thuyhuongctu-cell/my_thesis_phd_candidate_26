@@ -17,6 +17,41 @@ Kho lưu trữ chứa toàn bộ bản thảo luận án, các cấu phần nghi
 
 ---
 
+## 🔗 Mục lục & Liên kết nhanh
+
+### 📘 Bản thảo luận án (tiếng Việt)
+| Phần | Tệp |
+|------|-----|
+| Phần đầu (bìa, lời cam đoan, mục lục, tóm tắt) | [`thesis/00_phan_dau_vi.md`](thesis/00_phan_dau_vi.md) |
+| Chương 1 — Giới thiệu | [`thesis/chuong_1_gioi_thieu_vi.md`](thesis/chuong_1_gioi_thieu_vi.md) |
+| Chương 2 — Tổng quan tài liệu | [`thesis/chuong_2_tong_quan_tai_lieu_vi.md`](thesis/chuong_2_tong_quan_tai_lieu_vi.md) |
+| Chương 3 — Phương pháp nghiên cứu | [`thesis/chuong_3_phuong_phap_vi.md`](thesis/chuong_3_phuong_phap_vi.md) |
+| Chương 4 — Kết quả nghiên cứu | [`thesis/chuong_4_ket_qua_vi.md`](thesis/chuong_4_ket_qua_vi.md) |
+| Chương 5 — Kết luận & đề xuất | [`thesis/chuong_5_ket_luan_de_xuat_vi.md`](thesis/chuong_5_ket_luan_de_xuat_vi.md) |
+| Phụ lục A — Hợp nhất & hài hòa hóa dữ liệu | [`thesis/phu_luc_A_hop_nhat_du_lieu_vi.md`](thesis/phu_luc_A_hop_nhat_du_lieu_vi.md) |
+| Tài liệu tham khảo (APA7) | [`thesis/04_references_apa7.md`](thesis/04_references_apa7.md) |
+| Định vị luận án | [`thesis/11_dissertation_positioning_vi.md`](thesis/11_dissertation_positioning_vi.md) |
+
+### 📗 Bản tiếng Anh
+- Tóm tắt: [`thesis/en/abstract_en.md`](thesis/en/abstract_en.md)
+- Chương 1: [`thesis/en/chapter_1_introduction_en.md`](thesis/en/chapter_1_introduction_en.md)
+
+### 📙 Chuyên đề
+- CĐ1 — Thực trạng (mô tả): [`chuyen_de/cd1/00_cd1_ctu_final_vi.md`](chuyen_de/cd1/00_cd1_ctu_final_vi.md)
+- CĐ2 — Ước lượng: [`chuyen_de/cd2/00_cd2_ctu_final_vi.md`](chuyen_de/cd2/00_cd2_ctu_final_vi.md)
+
+### 🧪 Cấu phần & dữ liệu
+- Nghiên cứu đa quốc gia P7 (capstone): [`p7/p7_capstone_en_clean.md`](p7/p7_capstone_en_clean.md)
+- Bản thảo P3–P5 (VI): [P3 Việt Nam](manuscripts/p3_vietnam_vi_clean.md) · [P4 Singapore](manuscripts/p4_singapore_vi_clean.md) · [P5 Trung Quốc](manuscripts/p5_china_vi_clean.md)
+- Mã tái lập P7: [`p7/replication/`](p7/replication/) — `01_build_p7_dataset.py` → `02_run_p7_models.py`
+- Dữ liệu WBES thô: [`data_wbes/raw_dta/`](data_wbes/raw_dta/) · Tệp phân tích: [`data_wbes/p7/p7_pooled_clean.csv`](data_wbes/p7/p7_pooled_clean.csv)
+
+### 📦 Sản phẩm & rà soát
+- Luận án biên dịch (DOCX): [`dist/luan_an_ctu/LUAN_AN_FULL_vi.docx`](dist/luan_an_ctu/LUAN_AN_FULL_vi.docx)
+- Báo cáo rà soát phương pháp & biến số: [`reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md`](reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md)
+
+---
+
 ## 🎯 Khung lý thuyết & phát hiện chính
 
 Luận án xây dựng khung điều tiết đa tầng **CDCM (Country–Digital–Capability Moderation)** tích hợp mô hình Uppsala, lý thuyết dựa trên nguồn lực (RBV), lý thuyết thể chế và lý thuyết thượng tầng quản trị, với ba tầng điều tiết:
