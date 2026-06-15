@@ -760,6 +760,8 @@ Bảng 2.9. Đo lường TCI theo mã WBES.
 
 TCI_z = z-chuẩn hóa mean của ≥3/4 items không thiếu (Cronbach α ước tính 0,55–0,65, nhất quán với tổng hợp formative, Coltman et al., 2008). Construct phản ánh chiều sâu năng lực công nghệ nội tại theo truyền thống năng lực hấp thụ và năng lực công nghệ hóa công nghiệp (Cohen & Levinthal, 1990; Lall, 1992).
 
+> *Lưu ý phân biệt biến thể TCI:* Chuyên đề 2 dùng biến thể **đầy đủ 4 mục** (≥3/4 của b8, h8, h1, e6) khả dụng trên pool mô tả; trong khi nghiên cứu đa quốc gia P7 và §3.4.5.4 của luận án dùng biến thể **thin 2 mục** (b8 chứng chỉ chất lượng + e6 công nghệ nước ngoài) để tối đa hóa độ phủ trên 50 nền kinh tế. Cả hai cùng đo construct formative *năng lực công nghệ*; khác biệt về bộ mục phản ánh ràng buộc khả dụng dữ liệu, không phải định nghĩa mâu thuẫn. Hệ số trong chuyên đề được tính từ chính bộ 4 mục này.
+
 Bảng 2.10. Đo lường DAI theo mã WBES.
 
 | Item | Mã WBES | Mô tả | Schema có sẵn |
