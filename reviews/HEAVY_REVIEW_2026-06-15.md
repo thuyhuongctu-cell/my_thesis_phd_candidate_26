@@ -73,6 +73,51 @@ directions) on each manuscript.
    reconciliation item. Pick one consistent, accurate description before submission.
 3. **P6 ICR κ** for the 20% double-coded subsample is still pending (κ ≥ 0.70 target).
 
+## Extended sweep — all remaining manuscripts (P3, P4, P5, P8, P9, P10, P11)
+
+The two-way citation check was then run on every remaining canonical manuscript.
+**P4, P9, P10, P11: clean** (zero orphans, zero broken cites). Fixed:
+
+- **P3 (Vietnam):** added missing MacKinnon & White (1985); repaired a garbled
+  Certo et al. (2016) title (words transposed); anchored Heckman (1979) + Certo
+  et al. (2016) + Wolfolds & Siegel (2019) in the Heckman two-step robustness
+  text (they were listed and on-topic but uncited).
+- **P5 (China):** added missing North (1990) and Pisani, Garcia-Bernardo &
+  Heemskerk (2020, SMJ); anchored uncited Chen & Tan (2012) with the other
+  Chinese-exporter evidence. (The "Author Citation (2025/2026)" entries are
+  intentional blind-review self-citation masks, not errors.)
+- **P8 (Pacific SIDS):** added missing Banalieva & Dhanaraj (2019); anchored
+  Diamantopoulos & Winklhofer (2001) + Jarvis et al. (2003) at the TCI_z
+  formative-composite construction (their exact topic).
+
+All newly added references were **verified against authoritative sources via web
+search** (Dunning 2000 IBR 9:163–190; Rugman 1976 JIBS 7(2):75–80; Dickersin
+1990 JAMA 263(10):1385–1389; Valentine et al. 2010 JEBS 35(2):215–247; Vernon
+1971 Basic Books; Pisani et al. 2020 SMJ 41(1):152–172; MacKinnon & White 1985
+J. Econometrics 29:305–325; Banalieva & Dhanaraj 2019 JIBS 50(8):1372–1387).
+
+## Submission-package propagation — PARTIAL (author action needed)
+
+The per-journal submission packages are **separately hand-maintained copies**, not
+auto-generated, and they have drifted from the canonical sources (different
+reference counts, different issues). Status:
+
+- **P8 (3 packages: ejdr, jid, world_development):** carried the *identical*
+  Banalieva/Diamantopoulos/Jarvis issue — **fixed and rebuilt** (now clean).
+- **P6 jwb, P7 ibr:** fixed (above).
+- **P3 (4 packages: jabs, jed, mbr, thunderbird) and P5 (3 packages: apbr, cms,
+  ijoem): NOT yet fixed.** They are independently curated (e.g., the P3 packages
+  carry 55–60 references vs. the canonical 50) and have their *own* distinct
+  orphans — confirmed real ones include World Bank (2024), World Bank (2016), and
+  International Telecommunication Union (2026) listed-but-uncited in the P3
+  packages; the P5 packages use a smaller, different reference set. Each needs an
+  individual pass.
+- **Structural recommendation:** there are 4 P3 + 3 P5 + 3 P8 live packages with
+  **no DEPRECATED.md markers**. Pick one active target journal per paper and
+  deprecate the rest (as already done for P6 and P7), then regenerate that one
+  package from the corrected canonical source. Maintaining 10 parallel divergent
+  copies is the root cause of this drift.
+
 ## Reproducibility
 `scripts/verify_all.py`: **14/14 pass** after all edits (P6 6/6, P7 4/4, P10, P11).
 No econometric coefficients were fabricated or altered.
