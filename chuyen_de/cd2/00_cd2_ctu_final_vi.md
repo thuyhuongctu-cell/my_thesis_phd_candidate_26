@@ -177,7 +177,7 @@ Hình 2.2. Khung khái niệm tích hợp CĐ2, chi tiết với bằng chứng 
 
 #### 2.1.1 Giới thiệu
 
-Quốc tế hóa là chiến lược phát triển quan trọng của doanh nghiệp trong hơn nửa thế kỷ qua, nhưng kết quả mà nó đem lại không đồng nhất. Văn liệu kinh doanh quốc tế (IB) đã ghi nhận năm dạng hàm khác nhau trong quan hệ giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp: tuyến tính (Hsu & Boggs, 2003), chữ U ngược (Gomes & Ramaswamy, 1999; Hitt, Hoskisson & Kim, 1997), S-curve (Lu & Beamish, 2004; Contractor, Kundu & Hsu, 2003), M-curve (Riahi-Belkaoui, 1998), và forced penalty (Glaum & Oesterle, 2007). Sự đa dạng này phản ánh tính phụ thuộc ngữ cảnh của hiệu ứng quốc tế hóa: cùng một mức cường độ xuất khẩu có thể tạo ra lợi ích hoặc gánh nặng tùy theo năng lực doanh nghiệp, thể chế quốc gia, và giai đoạn phát triển số (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu, Wood & Khan, 2022).
+Quốc tế hóa là chiến lược phát triển quan trọng của doanh nghiệp trong hơn nửa thế kỷ qua, nhưng kết quả mà nó đem lại không đồng nhất. Nền tảng lý thuyết của dòng nghiên cứu này bắt nguồn từ các công trình kinh điển về doanh nghiệp đa quốc gia và đầu tư trực tiếp nước ngoài: lý thuyết vòng đời sản phẩm (Vernon, 1966), lý thuyết lợi thế độc quyền của doanh nghiệp (Hymer, 1976; Caves, 1971), và lý thuyết nội bộ hóa chi phí giao dịch (Buckley & Casson, 1976), về sau được tổng hợp trong khung chiết trung OLI (Dunning, 1988). Trên nền đó, văn liệu kinh doanh quốc tế (IB) đã ghi nhận năm dạng hàm khác nhau trong quan hệ giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp: tuyến tính (Hsu & Boggs, 2003), chữ U ngược (Gomes & Ramaswamy, 1999; Hitt, Hoskisson & Kim, 1997), S-curve (Lu & Beamish, 2004; Contractor, Kundu & Hsu, 2003; Ruigrok & Wagner, 2003), M-curve (Riahi-Belkaoui, 1998), và forced penalty (Glaum & Oesterle, 2007). Sự đa dạng này phản ánh tính phụ thuộc ngữ cảnh của hiệu ứng quốc tế hóa: cùng một mức cường độ xuất khẩu có thể tạo ra lợi ích hoặc gánh nặng tùy theo năng lực doanh nghiệp, thể chế quốc gia, và giai đoạn phát triển số (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu, Wood & Khan, 2022). Thực vậy, các nghiên cứu gần đây sử dụng chiến lược nhận diện chặt chẽ hơn cho thấy dạng chữ U ngược có thể suy yếu hoặc biến mất trong các mẫu gộp xuyên quốc gia (Pisani, Garcia-Bernardo & Heemskerk, 2020), càng củng cố lập luận rằng chính dị biệt bối cảnh chi phối kết quả I–P.
 
 Châu Á trong giai đoạn 2009–2025 là phòng thí nghiệm tự nhiên độc đáo cho nghiên cứu quan hệ I–P. Khu vực này tồn tại đồng thời ít nhất sáu chế độ thể chế khác nhau theo khung phân loại ICRV: nhóm tiên tiến đổi mới sáng tạo dẫn dắt (ICRV Nhóm I) gồm Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel; nhóm tiên tiến tài nguyên dẫn dắt (ICRV Nhóm II) gồm Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei, Oman; nhóm trung bình cao (ICRV Nhóm III) gồm Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia; nhóm chuyển đổi thu nhập trung bình–thấp (ICRV Nhóm IV, `Lower_mid_transition`) gồm Việt Nam, Ấn Độ, Indonesia, Philippines, Mông Cổ, Bangladesh, Pakistan; nhóm đang nổi (ICRV Nhóm V, `Emerging`) gồm 17 nền kinh tế (gồm Sri Lanka, Jordan); và nhóm quốc đảo nhỏ (ICRV Nhóm VI, `SIDS_small`) gồm 8 nền (7 Pacific + Timor-Leste). Tổng cộng 50 nền kinh tế (gồm Nhật Bản) châu Á–Thái Bình Dương tạo thành 108 cặp quốc gia-năm qua 14 mốc khảo sát.
 
@@ -947,9 +947,15 @@ Bhandari, K. R., Ranta, M., & Salo, J. (2023). The resource-based view, stakehol
 
 Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/MISQ/2013/37:2.3
 
+Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009). *Introduction to meta-analysis*. Wiley. https://doi.org/10.1002/9780470743386
+
 Briguglio, L. (1995). Small island developing states and their economic vulnerabilities. *World Development, 23*(9), 1615–1632. https://doi.org/10.1016/0305-750X(95)00065-K
 
+Buckley, P. J., & Casson, M. C. (1976). *The future of the multinational enterprise*. Macmillan.
+
 Cannella, A. A., Jr., Park, J.-H., & Lee, H.-U. (2008). Top management team functional background diversity and firm performance: Examining the roles of team member colocation and environmental uncertainty. *Academy of Management Journal, 51*(4), 768–784. https://doi.org/10.5465/amj.2008.33665310
+
+Caves, R. E. (1971). International corporations: The industrial economics of foreign investment. *Economica, 38*(149), 1–27.
 
 Chen, S., & Tan, H. (2012). Region effects in the internationalization–performance relationship in Chinese firms. *Journal of World Business, 47*(1), 73–80. https://doi.org/10.1016/j.jwb.2010.10.019
 
@@ -963,6 +969,8 @@ Contractor, F. J. (2012). Why do multinational firms exist? A theory note about 
 
 Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
 
+Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. *Psychometrika, 16*(3), 297–334. https://doi.org/10.1007/BF02310555
+
 Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank. https://doi.org/10.1596/978-1-4648-1334-4
 
 Đỗ, T. H., & Phan, A. T. (2026). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript đang phản biện]. *Journal of Asia Business Studies*. [P3, Việt Nam]
@@ -970,6 +978,10 @@ Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting para
 Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Manuscript đang phản biện]. *International Journal of Emerging Markets*. [P5, Trung Quốc]
 
 Đỗ, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. [P2, Trung Quốc SMEs, đã công bố]
+
+Dubin, R. (1978). *Theory building* (Rev. ed.). Free Press.
+
+Dunning, J. H. (1988). The eclectic paradigm of international production: A restatement and some possible extensions. *Journal of International Business Studies, 19*(1), 1–31. https://doi.org/10.1057/palgrave.jibs.8490372
 
 Geringer, J. M., Beamish, P. W., & daCosta, R. C. (1989). Diversification strategy and internationalization: Implications for MNE performance. *Strategic Management Journal, 10*(2), 109–119.
 
@@ -988,6 +1000,8 @@ Hessels, J., & Terjesen, S. (2010). Resource dependency and institutional theory
 Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal, 40*(4), 767–798. https://doi.org/10.2307/256948
 
 Hsu, C.-C., & Boggs, D. J. (2003). Internationalization and performance: Traditional measures and their decomposition. *Multinational Business Review, 11*(3), 23–50.
+
+Hymer, S. H. (1976). *The international operations of national firms: A study of direct foreign investment*. MIT Press.
 
 Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm: A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
 
@@ -1037,9 +1051,13 @@ Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on expo
 
 Peng, M. W., Wang, D. Y. L., & Jiang, Y. (2008). An institution-based view of international business strategy: A focus on emerging economies. *Journal of International Business Studies, 39*(5), 920–936. https://doi.org/10.1057/palgrave.jibs.8400377
 
+Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
+
 Riahi-Belkaoui, A. (1998). The effects of the degree of internationalization on firm performance. *International Business Review, 7*(3), 315–321.
 
 Richard, P. J., Devinney, T. M., Yip, G. S., & Johnson, G. (2009). Measuring organizational performance: Towards methodological best practice. *Journal of Management, 35*(3), 718–804. https://doi.org/10.1177/0149206308330560
+
+Ruigrok, W., & Wagner, H. (2003). Internationalization and performance: An organizational learning perspective. *Management International Review, 43*(1), 63–83.
 
 Schwens, C., Zapkau, F. B., Brouthers, K. D., & Hollender, L. (2018). Limits to outside-in open innovation in SMEs: When it helps and when it does not help with international performance. *Journal of World Business, 53*(2), 168–177.
 
@@ -1049,13 +1067,21 @@ Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? The inter
 
 Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Journal of International Business Studies, 25*(2), 325–342. https://doi.org/10.1057/palgrave.jibs.8490203
 
+Sutton, A. J., & Higgins, J. P. T. (2008). Recent developments in meta-analysis. *Statistics in Medicine, 27*(5), 625–650. https://doi.org/10.1002/sim.2982
+
 Teece, D. J., Pisano, G., & Shuen, A. (1997). Dynamic capabilities and strategic management. *Strategic Management Journal, 18*(7), 509–533.
 
 Torraco, R. J. (2005). Writing integrative literature reviews: Guidelines and examples. *Human Resource Development Review, 4*(3), 356–367.
 
 Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhatt, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
 
+Vernon, R. (1966). International investment and international trade in the product cycle. *The Quarterly Journal of Economics, 80*(2), 190–207.
+
 Wernerfelt, B. (1984). A resource-based view of the firm. *Strategic Management Journal, 5*(2), 171–180. https://doi.org/10.1002/smj.4250050207
+
+Whetten, D. A. (1989). What constitutes a theoretical contribution? *Academy of Management Review, 14*(4), 490–495. https://doi.org/10.5465/amr.1989.4308371
+
+Wolfolds, S. E., & Siegel, J. (2019). Misaccounting for endogeneity: The peril of relying on the Heckman two-step method without a valid instrument. *Strategic Management Journal, 40*(3), 432–462. https://doi.org/10.1002/smj.2995
 
 Wooldridge, J. M. (2010). *Econometric analysis of cross section and panel data* (2nd ed.). MIT Press.
 

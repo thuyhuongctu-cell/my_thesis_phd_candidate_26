@@ -969,7 +969,13 @@ ADB. (2026, tháng 4). *Asian development outlook April 2026: The Middle East co
 
 ADB. (2026). *Vietnam economic outlook 2026: Navigating the crosscurrents*. Asian Development Bank.
 
+Aguinis, H., Hill, N. S., & Bailey, J. R. (2019). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693. https://doi.org/10.1177/1094428119836485
+
+Arte, L., & Larimo, J. (2022). Moderating influence of psychic distance on the international diversification–performance relationship: Insights from a meta-analysis. *Journal of Business Research, 139*, 230–245. https://doi.org/10.1016/j.jbusres.2021.09.060
+
 Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.
+
+Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120. https://doi.org/10.1177/014920639101700108
 
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347.
 
@@ -997,6 +1003,8 @@ David, P. A. (1990). The dynamo and the computer: An historical perspective on t
 
 Hall, P. A., & Soskice, D. (Eds.). (2001). *Varieties of capitalism: The institutional foundations of comparative advantage*. Oxford University Press.
 
+Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
+
 Hertog, S. (2010). *Princes, brokers, and bureaucrats: Oil and the state in Saudi Arabia*. Cornell University Press.
 
 Hessels, J., & Terjesen, S. (2010). Resource dependency and institutional theory perspectives on direct and indirect export choices. *Small Business Economics, 34*(2), 203–220. https://doi.org/10.1007/s11187-008-9156-4
@@ -1016,6 +1024,10 @@ Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The worldwide governance indica
 Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
 
 Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality-performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121.
+
+La Porta, R., & Shleifer, A. (2008). The unofficial economy and economic development. *Brookings Papers on Economic Activity, 2008*(2), 275–352.
+
+La Porta, R., & Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives, 28*(3), 109–126. https://doi.org/10.1257/jep.28.3.109
 
 Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
 
@@ -1042,6 +1054,8 @@ Richard, P. J., Devinney, T. M., Yip, G. S., & Johnson, G. (2009). Measuring org
 Sachs, J. D., & Warner, A. M. (2001). The curse of natural resources. *European Economic Review, 45*(4–6), 827–838.
 
 Schwens, C., Zapkau, F. B., Brouthers, K. D., & Hollender, L. (2018). How overconfidence can blind internationalization performance predictions. *Journal of World Business, 53*(3), 290–301.
+
+Scott, W. R. (1995). *Institutions and organizations*. Sage.
 
 Sikdar, A., & Mukhopadhyay, A. (2026). Technology spillovers and firm performance in India. *Asian Development Review, 43*(1), 37–75.
 
