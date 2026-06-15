@@ -363,7 +363,7 @@ The three cDAI subgroup means are all significantly positive (*p* < .001) but do
 
 ### 4.5 DPL Phase Moderation (H2)
 
-*Q*_M(DPL) = 0.62 (*df* = 2, *p* = .734). H2 **not supported**.
+*Q*_M(DPL) = 0.56 (*df* = 2, *p* = .755). H2 **not supported**.
 
 **Table 4.4 — DPL phase subgroup** *(actual MARA output)*
 
