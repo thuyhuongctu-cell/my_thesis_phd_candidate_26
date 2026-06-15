@@ -34,6 +34,31 @@ bounds that the thesis already handles honestly.
 3. **§3.5.6** measurement-invariance limitation across the 3 WBES questionnaire
    generations is now acknowledged; self-praising phrasing neutralised.
 
+## EMPIRICAL VERIFICATION (2026-06-15) — real .dta, in the Claude Code container
+Ran the P7 builder + estimator on the actual WBES `.dta` files in `data_wbes/raw_dta/`
+(146 files) to verify the TCI construction directly, not just from code comments:
+
+- **P7 analytical file exposes only `tci_cert`, `tci_foreign_tech`, `tci_z`** — no
+  innovation/R&D columns. So `tci_z` is unambiguously the **2-item b8+e6** composite.
+- **Japan-2025.dta** (339 vars, 2,168 firms) carries b8 and e6; on rebuild Japan enters
+  the pool with a valid `tci_z` (27.7% certified, 3.1% foreign-tech). Japan IS eligible
+  and IS included once the build is re-run.
+- **Substantive result stable with Japan**: on the real-data rebuild, `tci_z` is positive
+  and significant in every model (b = +0.31 … +0.55, p < .001); the baseline quadratic
+  (M2) is inverted-U (turning point ~42%). The TCI-positive + inverted-U story holds.
+
+### Reproducibility gap found (author's call — NOT auto-fixed)
+The committed analytical file `data_wbes/p7/p7_pooled_clean.csv` is **stale**: 106,765
+rows, 55 country labels, **no Japan**. A fresh build from the current `raw_dta/` gives
+145,034 rows but only 42 countries (incl. Japan). Neither exactly matches the thesis's
+reported P7 frame (88,869 firms / 103 economy-year pairs / 50 economies / M2 N=81,022),
+and the country counts diverge (42 rebuild vs 55 committed), so the `raw_dta/` set in
+this container is likely **not the full canonical set** the thesis numbers were locked
+against. Recommendation: re-run build→estimate from the definitive raw set, refresh the
+committed `p7_pooled_clean.csv`, and re-lock the P7 numbers so the package reproduces the
+"incl. Japan 2025" claim. Nothing was overwritten here (doing so would desync the package
+from the thesis's reported results). TCI construction (b8+e6) itself is confirmed.
+
 ## RESOLVED (2026-06-15) — P7 TCI item set confirmed against real-data pipeline
 The author confirmed P7 uses the real WBES data (50 economies, incl. Japan 2025).
 Tracing the canonical pipeline settles the earlier ambiguity:
