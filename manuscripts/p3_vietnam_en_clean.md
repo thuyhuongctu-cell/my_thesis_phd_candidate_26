@@ -1116,9 +1116,9 @@ Table 4: Implied turning points of the inverted-U (M2 specification).
 
 | Comparison | FSTSc z (p) | FSTSc² z (p) | $\tilde{\mathrm{TCI}}$ z (p) | $\tilde{\mathrm{DAI}}$ z (p) |
 | --- | --- | --- | --- | --- |
-| 2009 vs. 2015 | z=-0.61 (p=0.543) | z=0.96 (p=0.337) | z=1.29 (p=0.198) | z=3.35 (p=0.001) |
-| 2009 vs. 2023 | z=0.09 (p=0.926) | z=0.14 (p=0.888) | z=1.42 (p=0.155) | z=1.28 (p=0.201) |
-| 2015 vs. 2023 | z=0.66 (p=0.509) | z=-0.84 (p=0.400) | z=0.07 (p=0.947) | z=-2.05 (p=0.040) |
+| 2009 vs. 2015 | z=-0.61 (p=.543) | z=0.96 (p=.337) | z=1.29 (p=.198) | z=3.35 (p=.001) |
+| 2009 vs. 2023 | z=0.09 (p=.926) | z=0.14 (p=.888) | z=1.42 (p=.155) | z=1.28 (p=.201) |
+| 2015 vs. 2023 | z=0.66 (p=.509) | z=-0.84 (p=.400) | z=0.07 (p=.947) | z=-2.05 (p=.040) |
 
 *Notes.* Cross-wave coefficient equality tests following Paternoster et al. (1998). Failure to reject indicates coefficient stability across waves. FSTSc and FSTSc² comparisons support wave-specific heterogeneity in TCI and DAI direct effects but not in the I–P curvature parameters.
 
