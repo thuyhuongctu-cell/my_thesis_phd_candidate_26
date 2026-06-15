@@ -21,7 +21,7 @@
 \usepackage{lmodern}
 \ifPDFTeX\else
   % xetex/luatex font selection
-  \setmainfont[]{TeX Gyre Termes}
+  \setmainfont[]{Times New Roman}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -104,7 +104,7 @@
 \babelprovide[main,import]{vietnamese}
 \ifPDFTeX
 \else
-\babelfont{rm}[]{TeX Gyre Termes}
+\babelfont{rm}[]{Times New Roman}
 \fi
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
@@ -1989,19 +1989,17 @@ Giả thuyết kiểm định
 \endlastfoot
 P1--P2 (meta baseline, ICBEF 2024) & Toàn cầu/châu Á & §2.3.2; §4.2 &
 Nền tảng cho H1, H5 \\
-P3 --- Việt Nam & Lower-middle transition (Nhóm IV) & §4.5 & H1, H2,
-H3 \\
-P4 --- Singapore & Advanced đổi mới (Nhóm I) & §4.3 & H1, H3 \\
-P5 --- Trung Quốc 2012--2024 & Upper-middle (Nhóm III) & §4.4 & H1,
-H6 \\
-P6 --- Meta-analysis ba tầng & Toàn bộ literature & §4.2 & H1, H5 \\
-P7 --- Capstone đa quốc gia (50 nền kinh tế) & Toàn bộ gradient ICRV &
-§4.6 & H1, H2, H3, H4, H5 (và tương tác tổng hợp ba chiều) \\
-P8 --- Pacific SIDS (mẫu chính 7 nước, N=959; kiểm định độ vững mở rộng
-9 nước Nhóm VI) & SIDS (Nhóm VI) & §4.7 & H1b (FIP) \\
-P9 --- Ấn Độ 2014--2025 & Lower-middle transition (Nhóm IV) & §4.8 & H1c
+P3: Việt Nam & Lower-middle transition (Nhóm IV) & §4.5 & H1, H2, H3 \\
+P4: Singapore & Advanced đổi mới (Nhóm I) & §4.3 & H1, H3 \\
+P5: Trung Quốc 2012--2024 & Upper-middle (Nhóm III) & §4.4 & H1, H6 \\
+P6: Meta-analysis ba tầng & Toàn bộ literature & §4.2 & H1, H5 \\
+P7: Capstone đa quốc gia (50 nền kinh tế) & Toàn bộ gradient ICRV & §4.6
+& H1, H2, H3, H4, H5 (và tương tác tổng hợp ba chiều) \\
+P8: Pacific SIDS (mẫu chính 7 nước, N=959; kiểm định độ vững mở rộng 9
+nước Nhóm VI) & SIDS (Nhóm VI) & §4.7 & H1b (FIP) \\
+P9: Ấn Độ 2014--2025 & Lower-middle transition (Nhóm IV) & §4.8 & H1c
 (độ bền ngưỡng dưới biến động thể chế) \\
-P10 --- Nhật Bản 2025 & Advanced đổi mới (Nhóm I) & §4.1.5 & H1 (dự đoán
+P10: Nhật Bản 2025 & Advanced đổi mới (Nhóm I) & §4.1.5 & H1 (dự đoán
 biên trên: gần tuyến tính) \\
 \end{longtable}
 
@@ -2661,7 +2659,7 @@ lnNSLD & d2, l1 & ln(d2 / l1) & Biến phụ thuộc \\
 CDDXK\_c & d3c & FSTS − mean(FSTS): centred & Biến độc lập \\
 CDDXK\_c² & d3c & CDDXK\_c bình phương & Phi tuyến (H1) \\
 NLCN\_z & b8, e6 & z-std của TB(b8₀₁, e6₀₁) & Năng lực công nghệ (H2) \\
-CSS\_z & c22b, k33, k38 & z-std của TB(c22b₀₁, k33₀₁, k38₀₁) ---
+CSS\_z & c22b, k33, k38 & z-std của TB(c22b₀₁, k33₀₁, k38₀₁):
 \textbf{Tier-1+2} & Số hoá Tier-1+2 (H3) \\
 lnLD & l1 & ln(l1) & Quy mô doanh nghiệp \\
 TuoiDN & b5 & năm khảo sát − b5 & Tuổi doanh nghiệp \\
@@ -2778,9 +2776,9 @@ Vai trò
 lnNSLD & d2, l1 & ln(d2 / l1) & Biến phụ thuộc \\
 CDDXK\_c & d3c & FSTS − mean\_wave(FSTS) & Biến độc lập \\
 CDDXK\_c² & d3c & CDDXK\_c bình phương & Phi tuyến (H1) \\
-NLCN\_z & b8, e6, b4, b7a & z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁) ---
-TCI toàn diện & Năng lực công nghệ (H2) \\
-CSS\_z & c22b & c22b₀₁ --- \textbf{Tier-1 đơn biến} (binary) & Số hoá
+NLCN\_z & b8, e6, b4, b7a & z-std của TB(b8₀₁, e6₀₁, b4₀₁, b7a₀₁): TCI
+toàn diện & Năng lực công nghệ (H2) \\
+CSS\_z & c22b & c22b₀₁: \textbf{Tier-1 đơn biến} (binary) & Số hoá
 Tier-1 mỏng (kiểm soát) \\
 lnLD & l1 & ln(l1) & Quy mô doanh nghiệp \\
 TuoiDN & b5 & năm khảo sát − b5 & Tuổi doanh nghiệp \\
@@ -2910,7 +2908,7 @@ Vai trò
 lnNSLD & d2/n3, l1 & ln(doanh thu/lao động) & Biến phụ thuộc \\
 CDDXK\_c & d3c & (d3c/100) − mean\_pool(FSTS): centred & Biến độc lập
 (I) \\
-CDDXK\_c² & d3c & CDDXK\_c bình phương & I --- phi tuyến \\
+CDDXK\_c² & d3c & CDDXK\_c bình phương & I, phi tuyến \\
 NLCN\_z & b8, e6 & z-std(cert chất lượng + CN nước ngoài) & Năng lực
 công nghệ \\
 CSS\_z & c22b/e1, k33 & z-std(website + e-payment): Tier 1+2 & Số hoá
@@ -2921,7 +2919,7 @@ ICRV & phân loại & integer 1--6 (Advanced Innovation→SIDS) & Thể chế \\
 lnLD & l1 & ln(lao động thường trực) & Control (quy mô) \\
 TuoiDN & b5 & năm\_khảo\_sát − b5 & Control (tuổi DN) \\
 SoHuuNN & b6a & tỷ lệ sở hữu nước ngoài (0--1) & Control (sở hữu) \\
-δ\_ct & --- & country × year FE & Fixed effects \\
+δ\_ct & n/a & country × year FE & Fixed effects \\
 \end{longtable}
 
 \emph{Ghi chú: Mẫu phân tích giảm nhẹ từ N = 81.022 (M2) xuống 79.080
@@ -3059,9 +3057,9 @@ Vai trò
 \endlastfoot
 lnNSLD & d2, l1 & ln(doanh thu PPP / lao động) & Biến phụ thuộc \\
 CDDXK\_c & d3c & (d3c/100) − mean\_wave: centred & Biến độc lập (I) \\
-CDDXK\_c² & d3c & CDDXK\_c bình phương & I --- kiểm định phi tuyến \\
+CDDXK\_c² & d3c & CDDXK\_c bình phương & I, kiểm định phi tuyến \\
 NLCN\_z & b8, e6 & z-std(cert + CN nước ngoài) & Năng lực công nghệ \\
-CSS\_z & c22b & z-std(website binary): Tier-1 only & Số hoá --- proxy
+CSS\_z & c22b & z-std(website binary): Tier-1 only & Số hoá, proxy
 tĩnh \\
 lnLD & l1 & ln(lao động thường trực) & Control (quy mô) \\
 TuoiDN & b5 & năm\_KS − năm\_thành\_lập & Control (tuổi DN) \\
@@ -3227,9 +3225,9 @@ dụng cho \textbf{50 nền kinh tế châu Á + Thái Bình Dương} trong mộ
 Meta-analysis 1982--2026 & Bausch \& Krist (2007); Kirca et al.~(2012);
 Marano et al.~(2016) & Mở rộng coverage, bổ sung digital và 6 sub-regime
 ICRV moderators \\
-Pool empirical & nghiên cứu thành phần P1 --- 17 nước châu Á mới nổi &
-Mở rộng từ 17 → \textbf{50 nước} với 88.869 doanh nghiệp · 103 cặp nền
-kinh tế và năm (gồm Nhật Bản 2025) \\
+Pool empirical & nghiên cứu thành phần P1, 17 nước châu Á mới nổi & Mở
+rộng từ 17 → \textbf{50 nước} với 88.869 doanh nghiệp · 103 cặp nền kinh
+tế và năm (gồm Nhật Bản 2025) \\
 Labor productivity DV & Bloom et al.~(2012); Hsieh \& Klenow (2009);
 nghiên cứu thành phần P1 & Lập luận rõ về firm performance đa chiều
 trong bối cảnh WBES \\
@@ -3339,20 +3337,20 @@ FDI≥10\% (\%)
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Nhóm I --- Advanced đổi mới (SG, HK, KOR, TWN, ISR, JPN) & 6.390 &
+Nhóm I: Advanced đổi mới (SG, HK, KOR, TWN, ISR, JPN) & 6.390 &
 \textbf{1,00} & 10,3 & 24,5 & 7,7 \\
-Nhóm II --- Advanced tài nguyên (GCC) & 2.269 & 1,14² & \textasciitilde3
-& \textasciitilde8 & --- \\
-Nhóm III --- Upper-middle (CHN, MYS, THA, KAZ\ldots) & 17.905 & 1,37 &
-10,3 & 21,7 & 8,4 \\
-Nhóm IV --- Lower-middle transition (VNM, IND, IDN, PHL, BGD, PAK, MNG)
-& 50.926 & 1,31 & 8,6 & 15,5 & 4,7 \\
-Nhóm V --- Emerging (LAO, KHM, NPL, LKA, JOR\ldots) & 18.569 &
+Nhóm II: Advanced tài nguyên (GCC) & 2.269 & 1,14² & \textasciitilde3 &
+\textasciitilde8 & n/a \\
+Nhóm III: Upper-middle (CHN, MYS, THA, KAZ\ldots) & 17.905 & 1,37 & 10,3
+& 21,7 & 8,4 \\
+Nhóm IV: Lower-middle transition (VNM, IND, IDN, PHL, BGD, PAK, MNG) &
+50.926 & 1,31 & 8,6 & 15,5 & 4,7 \\
+Nhóm V: Emerging (LAO, KHM, NPL, LKA, JOR\ldots) & 18.569 &
 \textbf{1,39} & 10,1 & 16,6 & 5,9 \\
-Nhóm VI --- SIDS (FJI, PNG, SLB\ldots) & 2.038 & 1,32 & 6,3 & 16,3 &
+Nhóm VI: SIDS (FJI, PNG, SLB\ldots) & 2.038 & 1,32 & 6,3 & 16,3 &
 23,5 \\
-\textbf{Tổng (phân loại ICRV)} & \textbf{96.415} & --- & --- & --- &
---- \\
+\textbf{Tổng (phân loại ICRV)} & \textbf{96.415} & n/a & n/a & n/a &
+n/a \\
 \end{longtable}
 
 \emph{Nguồn: Phân tích của tác giả từ World Bank Enterprise Surveys
@@ -3474,13 +3472,12 @@ Website (DAI Tier-1)
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-I --- Adv. đổi mới & 26,9 & 18,8 & \textbf{21,0} & 32,5 &
-\textbf{69,2} \\
-II --- Adv. tài nguyên (GCC) & 17,0 & 8,6 & 7,0 & 15,2 & 50,2 \\
-III --- Trung bình cao & 26,7 & 18,9 & 21,5 & 25,4 & 53,9 \\
-IV --- Chuyển đổi TB-thấp & 17,1 & 14,7 & 15,5 & 25,3 & 48,3 \\
-V --- Đang nổi & 24,4 & 16,3 & 17,5 & 12,7 & 40,9 \\
-VI --- SIDS & \textbf{34,2} & \textbf{24,7} & 10,2 & 12,2 & 41,5 \\
+I, Adv. đổi mới & 26,9 & 18,8 & \textbf{21,0} & 32,5 & \textbf{69,2} \\
+II, Adv. tài nguyên (GCC) & 17,0 & 8,6 & 7,0 & 15,2 & 50,2 \\
+III, Trung bình cao & 26,7 & 18,9 & 21,5 & 25,4 & 53,9 \\
+IV, Chuyển đổi TB-thấp & 17,1 & 14,7 & 15,5 & 25,3 & 48,3 \\
+V, Đang nổi & 24,4 & 16,3 & 17,5 & 12,7 & 40,9 \\
+VI, SIDS & \textbf{34,2} & \textbf{24,7} & 10,2 & 12,2 & 41,5 \\
 \end{longtable}
 
 \emph{Nguồn: Phân tích của tác giả từ WBES, 2003--2025.}
@@ -4052,20 +4049,20 @@ Kết luận
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-I --- Adv. đổi mới (gồm Nhật Bản) & 5.581 & +0,698 (,17) & −0,504 (,31)
-& {[}79,1\%{]} & ,30 & gần tuyến tính dương; điểm uốn ngoài miền, không
+I, Adv. đổi mới (gồm Nhật Bản) & 5.581 & +0,698 (,17) & −0,504 (,31) &
+{[}79,1\%{]} & ,30 & gần tuyến tính dương; điểm uốn ngoài miền, không
 định vị \\
-II --- Adv. tài nguyên & 2.075 & +0,854 (,045) & −0,730 (,082) & 62,0\%
-& ,081 & chữ U ngược ở biên ý nghĩa \\
-III --- Trung bình cao & 12.055 & +0,168 (,42) & −0,189 (,48) &
+II, Adv. tài nguyên & 2.075 & +0,854 (,045) & −0,730 (,082) & 62,0\% &
+,081 & chữ U ngược ở biên ý nghĩa \\
+III, Trung bình cao & 12.055 & +0,168 (,42) & −0,189 (,48) &
 {[}55,0\%{]} & ,26 & không xác định ở cấp nhóm \\
-\textbf{IV --- Chuyển đổi TB-thấp} & \textbf{42.094} & \textbf{+0,709
+\textbf{IV, Chuyển đổi TB-thấp} & \textbf{42.094} & \textbf{+0,709
 (\textless,001)} & \textbf{−1,012 (\textless,001)} & \textbf{43,0\%} &
 \textbf{\textless,001} & \textbf{chữ U ngược rõ nét nhất} \\
-V --- Đang nổi & 15.457 & +0,218 (,44) & −0,455 (,21) & {[}34,8\%{]} &
-,18 & quan hệ tan rã \\
-VI --- SIDS & 1.818 & −0,728 (,010) & +0,870 (,013) & --- & --- & không
-có chữ U ngược \\
+V, Đang nổi & 15.457 & +0,218 (,44) & −0,455 (,21) & {[}34,8\%{]} & ,18
+& quan hệ tan rã \\
+VI, SIDS & 1.818 & −0,728 (,010) & +0,870 (,013) & n/a & n/a & không có
+chữ U ngược \\
 \end{longtable}
 
 \emph{Ghi chú: giá trị trong ngoặc vuông là điểm uốn đại số khi đường
@@ -4462,16 +4459,16 @@ P3 & Việt Nam (IV) & 2.958 & U ngược & 39--46\% & dương, có ý nghĩa
 P4 & Singapore (I) & 623 & gần tuyến tính dương & \textasciitilde88,6\%
 (không định vị chắc) & yếu tố vệ sinh & FSTS²×DAI=+3,119** \\
 P5 & Trung Quốc (III) & 4.559 & U ngược & 47--49\% (ổn định 2012--2024)
-& dương (+0,26→+0,43) & --- \\
-P6 & Meta-analysis (toàn cầu) & k=238 & dương nhỏ & --- & --- & r=0,074;
+& dương (+0,26→+0,43) & n/a \\
+P6 & Meta-analysis (toàn cầu) & k=238 & dương nhỏ & n/a & n/a & r=0,074;
 I²=62,4\% \\
 P7 & Đa quốc gia (50 nền, I--VI) & 81.022 & U ngược & 43,6\% (M5); rõ
 nhất ở Nhóm IV (43,0\%) & nâng mặt bằng (+0,141 sd) & nâng mặt bằng
 (+0,201 sd) \\
-P8 & SIDS Pacific (VI) & 959 & âm đơn điệu (FIP) & không có & --- &
+P8 & SIDS Pacific (VI) & 959 & âm đơn điệu (FIP) & không có & n/a &
 β(FSTS)=−1,339*** \\
 P9 & Ấn Độ (IV) & 28.717 & U ngược → sụp đổ ngưỡng & 61,8\%→40,7\%→tan
-biến & --- & --- \\
+biến & n/a & n/a \\
 \end{longtable}
 
 \emph{Nguồn: tổng hợp từ các nghiên cứu thành phần P3--P9. ** p
@@ -4531,10 +4528,10 @@ gradient ICRV → TP được xác nhận từ P7 \\
 H6 (Temporal heterogeneity) & Hình dạng I--P thay đổi theo thời gian &
 Không xác nhận tại Trung Quốc (\(F = 1{,}83\), \(p = {,}176\)); TP dịch
 chuyển tại Việt Nam giữa 2009 và 2015 \\
-H1b (FIP --- SIDS boundary condition) & Quan hệ âm đơn điệu tại SIDS &
-Xác nhận: \(\beta = -1{,}339^{***}\) (M1, country+year FE) đến
+H1b (FIP, SIDS boundary condition) & Quan hệ âm đơn điệu tại SIDS & Xác
+nhận: \(\beta = -1{,}339^{***}\) (M1, country+year FE) đến
 \(-3{,}351^{***}\) (year-FE); exporters-only NS do mẫu nhỏ (N=26) \\
-H1c (Tan biến ngưỡng --- Ấn Độ, P9) & Ngưỡng U ngược \emph{tan biến}
+H1c (Tan biến ngưỡng tại Ấn Độ, P9) & Ngưỡng U ngược \emph{tan biến}
 dưới biến động thể chế cực đoan 2014--2025 & Xác nhận tại Ấn Độ: TP
 61,8\% (2014) → 40,7\% (2022) → tan biến (2025, \(\beta_2\) NS);
 Paternoster \(z = -7{,}94\), \(p < {,}0001\); tương tác DAI Tier-2 (UPI)
