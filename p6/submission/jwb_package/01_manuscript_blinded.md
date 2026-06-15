@@ -54,7 +54,7 @@ production, and global value chain participation, transforming
 internationalization from a strategy available primarily to large
 multinationals into a competitive consideration for firms across size
 classes and geographies (Dunning, 2000; Johanson & Vahlne, 2009;
-Kafouros et al., 2012). Against this backdrop, the question of whether
+Kafouros et al., 2023). Against this backdrop, the question of whether
 internationalization improves firm performance is not merely academic;
 it shapes investment decisions, government export promotion policy, and
 the strategic priorities of firms navigating an increasingly
@@ -1490,6 +1490,8 @@ David, P. A. (1990). The dynamo and the computer: An historical
 perspective on the modern productivity paradox. *American Economic
 Review, 80*(2), 355–361.
 
+Dickersin, K. (1990). The existence of publication bias and risk factors for its occurrence. *JAMA, 263*(10), 1385–1389.
+
 Do, T. H., & Phan, A. T. (2024, December). *Internationalization and
 firm performance: A meta-analysis review* \[Paper presentation\]. The
 Sixth International Conference on Sustainable Development in Economics,
@@ -1500,6 +1502,8 @@ performance of firms in India: The role of top management. In M.
 Bartekova (Ed.), *International business research: Traditional and
 creative approaches*. IntechOpen.
 <https://doi.org/10.5772/intechopen.1011012>
+
+Dunning, J. H. (2000). The eclectic paradigm as an envelope for economic and business theories of MNE activity. *International Business Review, 9*(1), 163–190.
 
 Duval, S., & Tweedie, R. (2000). Trim and fill: A simple
 funnel-plot-based method of testing and adjusting for publication bias
@@ -1524,6 +1528,8 @@ of the firm: A model of knowledge development and increasing foreign
 market commitments. *Journal of International Business Studies, 8*(1),
 23–32.
 
+Kafouros, M., Aliyev, M., Piperopoulos, P., Au, A. K. M., Ho, J. W. Y., & Wong, S. Y. N. (2023). The role of institutional quality and industry dynamism in explaining firm performance in emerging economies. *Global Strategy Journal, 14*(1), 56–83. https://doi.org/10.1002/gsj.1479
+
 Katz, R., & Callorda, F. (2018). *The economic contribution of
 broadband, digitization and ICT regulation*. ITU Telecommunication
 Development Sector.
@@ -1531,7 +1537,7 @@ Development Sector.
 Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road
 map for strategy and execution*. Harvard Business Press.
 
-Kirca, A. H., Hult, G. T. M., Deligonul, S., Perryy, M. Z., & Cavusgil,
+Kirca, A. H., Hult, G. T. M., Deligonul, S., Perryman, A. A., & Cavusgil,
 S. T. (2012). A multilevel examination of the drivers of firm
 multinationality: A meta-analysis. *Journal of Management, 38*(2),
 502–530.
@@ -1549,6 +1555,8 @@ International Business Studies, 24*(4), 625–645.
 
 Landis, J. R., & Koch, G. G. (1977). The measurement of observer
 agreement for categorical data. *Biometrics, 33*(1), 159–174.
+
+Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M.
 (2016). Home country institutions and the
@@ -1585,20 +1593,28 @@ Rosenthal, R. (1994). Parametric measures of effect size. In H. Cooper &
 L. V. Hedges (Eds.), *The handbook of research synthesis* (pp. 231–244).
 Sage.
 
+Rugman, A. M. (1976). Risk reduction by international diversification. *Journal of International Business Studies, 7*(2), 75–80.
+
+Sahay, R., von Allmen, U. E., Lahreche, A., Khera, P., Ogawa, S., Bazarbash, M., & Beaton, K. (2020). *The promise of fintech: Financial inclusion in the post COVID-19 era* (IMF Departmental Paper No. DP/2020/09). International Monetary Fund.
+
 Schwens, C., Zapkau, F. B., Brouthers, K. D., & Hollender, L. (2018).
 Limits to outsourcing: A meta-analysis and empirical investigation.
 *Journal of International Business Studies, 49*(6), 682–703.
 
-Stanley, T. D., & Doucouliagos, H. (2014). Meta-regression
-approximations to reduce publication selection bias. *Research Synthesis
-Methods, 5*(1), 60–78.
+Scott, W. R. (1995). *Institutions and organizations*. Sage.
 
 Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders?
 The international strategies of digital platform firms. *Global Strategy
 Journal, 11*(1), 58–80.
 
+Stanley, T. D., & Doucouliagos, H. (2014). Meta-regression
+approximations to reduce publication selection bias. *Research Synthesis
+Methods, 5*(1), 60–78.
+
 Sutton, A. J., & Higgins, J. P. T. (2008). Recent developments in
 meta-analysis. *Statistics in Medicine, 27*(5), 625–650.
+
+Valentine, J. C., Pigott, T. D., & Rothstein, H. R. (2010). How many studies do you need? A primer on statistical power for meta-analysis. *Journal of Educational and Behavioral Statistics, 35*(2), 215–247.
 
 Van den Noortgate, W., López-López, J. A., Marín-Martínez, F., &
 Sánchez-Meca, J. (2013). Three-level meta-analysis of dependent effect
@@ -1608,6 +1624,8 @@ Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Qi Dong,
 J., Fabian, N., & Haenlein, M. (2021). Digital transformation: A
 multidisciplinary reflection and research agenda. *Journal of Business
 Research, 122*, 889–901.
+
+Vernon, R. (1971). *Sovereignty at bay: The multinational spread of U.S. enterprises*. Basic Books.
 
 Vevea, J. L., & Woods, C. M. (2005). Publication bias in research
 synthesis: Sensitivity analysis using a priori weight functions.
@@ -1622,10 +1640,7 @@ Management Journal, 5*(2), 171–180.
 World Bank. (2023). *Worldwide Governance Indicators*.
 <https://info.worldbank.org/governance/wgi/>
 
-Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022).
-Internationalization and innovation performance of emerging market
-enterprises: The role of host-country institutional development.
-*Journal of World Business, 52*(2), 192–203.
+Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: Evidence from a meta-analysis. *International Business Review, 31*(2), 101920.
 
 Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of
 Management Journal, 38*(2), 341–363.
