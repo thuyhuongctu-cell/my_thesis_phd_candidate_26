@@ -91,7 +91,7 @@ the natural logarithm of sales revenue per permanent worker, expressed in consta
 et al. (2016) and Contractor et al. (2003), we construct FSTS (Foreign Sales to Total Sales) from WBES item d3c (percentage of sales exported), divided by 100. For the main models, FSTS is mean-centered at the wave level: FSTS_c = FSTS − mean_wave(FSTS), yielding a mean FSTS of 0.048 (SD unreported due to small exporter subsample). Mean-centering suppresses cross-wave level differences while preserving within-wave variation, following standard practice for studies examining FSTS curvature (Haans et al., 2016).
 
 **Technological capability index (TCI_z).** Following Lall (1992) and
-Goedhuys and Sleuwaegen (2013), TCI is constructed from two WBES items: b8 (internationally recognized quality certification, binary) and e6 (licensing of foreign technology, binary). TCI_z is the z-standardized mean of these two indicators.
+Goedhuys and Sleuwaegen (2013), TCI is constructed from two WBES items: b8 (internationally recognized quality certification, binary) and e6 (licensing of foreign technology, binary). TCI_z is the z-standardized mean of these two indicators, treated as a formative composite (Diamantopoulos & Winklhofer, 2001; Jarvis, MacKenzie, & Podsakoff, 2003).
 
 **Digital adoption index (DAI_z).** DAI is measured using WBES item c22b
 (firm has an operational website, binary). This is a Tier-1 proxy capturing *foundational website adoption*, the first step of digital presence. It is appropriate for the SIDS context where advanced digital infrastructure is limited, only 5% of low-income country populations had basic digital skills in 2023, and high-income economies account for 77% of global data center capacity (Mahler, Wang, & Weber, 2026). DAI_z is the z-standardized value. We do not claim to measure dynamic digital capability, which would require multi-tiered indicators unavailable in WBES for this sample.
@@ -294,6 +294,8 @@ For the world development policy agenda, FIP suggests that export promotion stra
 During the preparation of this work, the author(s) used Grammarly, a writing-assistance tool, in order to correct spelling, grammar, and punctuation in the author(s)' own original text. No generative artificial-intelligence tool was used to generate, draft, or create any substantive content, analysis, or interpretation. After using this tool, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.
 
 ## References
+
+Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.
 
 Barney, J. (1991). Firm resources and sustained competitive advantage.
 *Journal of Management, 17*(1), 99–120.
