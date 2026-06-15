@@ -34,7 +34,7 @@ We examine whether the internationalization–performance (I–P) relationship h
 
 A central question in international business research concerns whether and how export internationalization translates into firm performance (Lu & Beamish, 2004; Johanson & Vahlne, 2009). Meta-analyses document a mean correlation of approximately r = .07 across several thousand studies (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016), yet the variance across studies vastly exceeds what sampling error can explain. In Asia (a region that accounts for over half of global manufacturing exports; UNCTAD, 2023), the evidence is especially fragmented: prior studies report positive relationships (Pangarkar, 2008; Korea), inverted-U curves (Chiao et al., 2006; Taiwan), or null and negative effects (Mondal et al., 2022; India). The standard explanation invokes context as a moderator (Marano et al., 2016; Kirca et al., 2012), but empirical tests simultaneously across institutionally diverse Asian economies remain rare.
 
-This paper addresses that gap. We pool 88,869 firm-observations from 50 Asian and Pacific economies spanning 2003–2025 (including Japan's inaugural 2025 wave), harmonised from the World Bank Enterprise Survey (WBES). Our sample spans all six ICRV regime groups, from advanced innovation-driven economies (Japan, Singapore, Korea, Taiwan, HongKong, Israel) to Pacific Small Island Developing States (Vanuatu, Solomon Islands, Fiji, Tonga, Samoa, Kiribati, Papua New Guinea) and Gulf advanced-resource economies (Bahrain, Kuwait, Qatar, Brunei, Saudi Arabia, Oman), all classified through the Institutional Context Regime Variation (ICRV) framework that anchors the broader dissertation programme of which this study is part.
+This paper addresses that gap. We pool 88,869 firm-observations from 50 Asian and Pacific economies spanning 2003–2025 (including Japan's inaugural 2025 wave), harmonised from the World Bank Enterprise Survey (WBES). Our sample spans all six ICRV regime groups, from advanced innovation-driven economies (Japan, Singapore, Korea, Taiwan, Hong Kong, Israel) to Pacific Small Island Developing States (Vanuatu, Solomon Islands, Fiji, Tonga, Samoa, Kiribati, Papua New Guinea) and Gulf advanced-resource economies (Bahrain, Kuwait, Qatar, Brunei, Saudi Arabia, Oman), all classified through the Institutional Context Regime Variation (ICRV) framework that anchors the broader dissertation programme of which this study is part.
 
 Our contributions are threefold. First, we provide the largest WBES-based test of the inverted-U I–P hypothesis in Asia, confirming a capability-adjusted turning point of 43.6% foreign sales intensity (51.5% in the unconditioned quadratic; Lind–Mehlum p < .001 throughout) on a harmonised 50-economy frame. Second, we show that both technological capability (TCI, +0.108) and digital adoption (DAI, +0.219) are strong performance **level-shifters** but that neither significantly reshapes the pooled I–P curve, a finding that disciplines capability-centred accounts of internationalization performance. Third, and most consequentially, we show that the **shape** of the curve is governed by institutional regime, and not as a smooth gradient but as a three-zone structure: a sharp inverted-U in transition economies (turning point ≈ 43%), near-linearity in the strongest-institution economies (turning point beyond the observable range), and dissolution (reversing into a Forced Internationalization Penalty among the Pacific SIDS) in the weakest regimes.
 
@@ -46,7 +46,7 @@ The remainder of the paper is organised as follows. Section 2 develops the theor
 
 ### 2.1 Theoretical Foundations
 
-We draw on four theoretical traditions. The Uppsala model (Johanson & Vahlne, 1977, 2009) describes internationalization as a sequential process in which firms accumulate experiential knowledge, progressively reducing psychic distance and coordination costs. The Resource-Based View (Barney, 1991; Wernerfelt, 1984) positions firm-level capabilities (technological, digital, and managerial) as the mediating mechanism linking export exposure to performance outcomes. Institutional Theory (North, 1990; Scott, 2008) directs attention to how country-level formal and informal institutions shape the cost structure of cross-border transactions. Upper Echelons Theory (Hambrick & Mason, 1984; Hambrick, 2007) emphasises that top management team attributes moderate how firms respond to strategic opportunities and constraints.
+We draw on four theoretical traditions. The Uppsala model (Johanson & Vahlne, 1977, 2009) describes internationalization as a sequential process in which firms accumulate experiential knowledge, progressively reducing psychic distance and coordination costs. The Resource-Based View (Barney, 1991; Wernerfelt, 1984) positions firm-level capabilities (technological, digital, and managerial) as the mediating mechanism linking export exposure to performance outcomes. Institutional Theory (North, 1990; Scott, 2008) directs attention to how country-level formal and informal institutions shape the cost structure of cross-border transactions, and how home-country uncertainty conditions the internationalization–performance link (Cuervo-Cazurra, Ciravegna, Melgarejo, & Lopez, 2018). Upper Echelons Theory (Hambrick & Mason, 1984; Hambrick, 2007) emphasises that top management team attributes moderate how firms respond to strategic opportunities and constraints.
 
 ### 2.2 The Non-Linear I–P Relationship (H1)
 
@@ -98,7 +98,7 @@ This prediction is consistent with the digital-complementarity strand of institu
 
 ### 3.1 Data Source
 
-Data derive from the World Bank Enterprise Surveys (WBES), a stratified random-sample survey of formal private-sector enterprises conducted periodically across over 130 countries. We use microdata from 50 Asian and Pacific economies across 103 country-year waves spanning 2003–2025, including Japan's inaugural WBES wave (2025). This coverage encompasses six UN M.49 Asian sub-regions: East Asia (China, HongKong, Korea, Mongolia, Taiwan), Southeast Asia (Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor-Leste, Vietnam), South Asia (Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, Sri Lanka), Central Asia (Kazakhstan, Kyrgyz Republic, Tajikistan, Turkmenistan, Uzbekistan), West Asia (Armenia, Bahrain, Cyprus, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Yemen), and Pacific/SIDS (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu).
+Data derive from the World Bank Enterprise Surveys (WBES; World Bank, 2025), a stratified random-sample survey of formal private-sector enterprises conducted periodically across over 130 countries. We use microdata from 50 Asian and Pacific economies across 103 country-year waves spanning 2003–2025, including Japan's inaugural WBES wave (2025). This coverage encompasses six UN M.49 Asian sub-regions: East Asia (China, Hong Kong, Korea, Mongolia, Taiwan), Southeast Asia (Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor-Leste, Vietnam), South Asia (Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, Sri Lanka), Central Asia (Kazakhstan, Kyrgyz Republic, Tajikistan, Turkmenistan, Uzbekistan), West Asia (Armenia, Bahrain, Cyprus, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Yemen), and Pacific/SIDS (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu).
 
 The final analytical frame contains 88,869 firm-observations across 50 economies and 103 country-year pairs; the main regression sample (outcome and FSTS non-missing) is 81,022. Some early waves predate the digital-capability and manager variables used in the moderation models; they contribute to the baseline models but drop from later specifications due to item missingness. WBES designs are cross-sectional within each wave, with standardised instruments ensuring common variable definitions across economies and years. We apply three harmonisation steps: (1) variable-priority mapping for candidate items across PICS3 (2009–2013), Standardised (2014–2018), and BREADY/BEE (2019–2025) questionnaire generations; (2) encoding-robust reading (primary UTF-8 with Latin-1/CP1252 fallback); (3) deduplication, selecting the largest file per (country, year) pair when multiple uploads exist.
 
@@ -124,7 +124,7 @@ We estimate a hierarchical sequence of eight models (Table 2). All models carry 
 
 The inverted-U shape is formally confirmed using the Lind–Mehlum (2010) test, which requires: (a) β₁ > 0, β₂ < 0, and (b) the turning point lies strictly within the observed FSTS range, and (c) the slope at the extremes satisfies the directional prediction. We report the turning point as: TP = −β₁ / (2β₂) + mean(FSTS), where β₁ and β₂ are estimated on the mean-centred FSTS_c scale and the result is expressed as a proportion (0–1) of total sales.
 
-For moderation tests (M5–M8), we include interaction terms FSTS×moderator and FSTS²×moderator and report the individual coefficient p-values.
+For moderation tests (M5–M8), we include interaction terms FSTS×moderator and FSTS²×moderator and report the individual coefficient p-values, following standard practice for specifying and interpreting interaction effects in regression (Aiken & West, 1991; Dawson, 2014).
 
 ### 3.4 Sample Sizes
 
@@ -166,7 +166,7 @@ Digital adoption carries the largest capability level effect in the model (M4: D
 
 *Table 2/3, Model M7.*
 
-Adding manager characteristics (M7, N=75,029), manager sectoral experience is not significant (β = +0.002, p > .10), while the female-top-manager coefficient is negative and highly significant (β = −0.104, p < .001). The inverted-U is unaffected (TP = 44.0%). The negative female-management coefficient is consistent with the rest of the dissertation (the single-country Japan study, P10, and the thesis Chapter 4 likewise estimate a negative female-top-manager coefficient) and is most plausibly read as compositional selection of female-led establishments into smaller, lower-margin niches in economies where female senior leadership remains rare, rather than as a leadership effect. It should not be interpreted causally.
+Adding manager characteristics (M7, N=75,029), manager sectoral experience is not significant (β = +0.002, p > .10), while the female-top-manager coefficient is negative and highly significant (β = −0.104, p < .001). The inverted-U is unaffected (TP = 44.0%). The negative female-management coefficient is consistent with the rest of the dissertation (the single-country Japan study, P10, and the thesis Chapter 4 likewise estimate a negative female-top-manager coefficient) and is most plausibly read as compositional selection of female-led establishments into smaller, lower-margin niches in economies where female senior leadership remains rare (International Finance Corporation, 2022; Buchhave et al., 2026), rather than as a leadership effect. It should not be interpreted causally.
 
 **H4 is not supported as hypothesised.** Manager experience carries no significant level effect, and the female-management coefficient is negative rather than the hypothesised positive. We treat the female-management coefficient as a descriptive regularity requiring within-economy, selection-aware analysis, not as evidence on the causal effect of female leadership.
 
@@ -216,7 +216,7 @@ Three inferential constraints bound these findings. First, WBES is a cross-secti
 
 We find that the inverted-U I–P relationship holds robustly across a 50-economy, 103-wave WBES sample (including Japan's inaugural 2025 wave), with a capability-adjusted turning point of 43.6% foreign sales intensity. Three conclusions are policy-relevant. First, for firms in the ascending phase (FSTS < 43.6%), intensifying internationalization is productivity-enhancing; the priority is removing barriers to export expansion. For firms beyond the turning point, the constraint is not market access but coordination capacity. Second, both technological capability and digital adoption raise the performance level substantially across all FSTS levels without reliably reshaping the curve; policy should target capability building as a baseline performance lever rather than as a curve-shifting intervention. Third, and most important, it is institutional regime, not capability, that determines the shape of the curve: the inverted-U is sharp in transition economies (turning point ≈ 43%), straightens toward near-linearity in the strongest-institution economies (peak beyond the observable range), and dissolves in the weakest regimes, reversing into a Forced Internationalization Penalty in the Pacific SIDS group. Context-contingent policy must therefore differ by zone, not merely by where a common peak falls.
 
-The near-term policy context adds urgency to these findings. World Bank (2026b) macro monitoring data for Vietnam, the largest ICRV Group IV economy in the sample, show manufacturing PMI falling to 45.3 (contraction) in March 2026 as new export orders collapsed following the opening of a U.S. trade-representative investigation; merchandise imports had risen 27.8% year-on-year by the same month, partly driven by energy supply-chain disruption from the Strait of Hormuz conflict. These conditions are precisely those under which the right side of the inverted-U becomes consequential: firms pushed above their optimal FSTS by earlier export commitments face amplified coordination and input-cost pressures. Because Vietnam sits in the transition regime where the inverted-U is sharpest (Group IV turning point ≈ 43%), Vietnamese exporters currently above that threshold are among the most exposed to macro shocks. The capability evidence implies that building technological and digital capability raises the productivity floor for these firms, even though, on our pooled estimates, capability does not by itself flatten the descending limb; the binding margin is the breadth of capable export participation, not a curve-shifting fix.
+The near-term policy context adds urgency to these findings. World Bank (2026) macro monitoring data for Vietnam, the largest ICRV Group IV economy in the sample, show manufacturing PMI falling to 45.3 (contraction) in March 2026 as new export orders collapsed following the opening of a U.S. trade-representative investigation; merchandise imports had risen 27.8% year-on-year by the same month, partly driven by energy supply-chain disruption from the Strait of Hormuz conflict. These conditions are precisely those under which the right side of the inverted-U becomes consequential: firms pushed above their optimal FSTS by earlier export commitments face amplified coordination and input-cost pressures. Because Vietnam sits in the transition regime where the inverted-U is sharpest (Group IV turning point ≈ 43%), Vietnamese exporters currently above that threshold are among the most exposed to macro shocks. The capability evidence implies that building technological and digital capability raises the productivity floor for these firms, even though, on our pooled estimates, capability does not by itself flatten the descending limb; the binding margin is the breadth of capable export participation, not a curve-shifting fix.
 
 Future research should leverage the growing panel dimensions of WBES to establish causality, and incorporate Tier 3–4 digital capability measures (AI adoption, cloud computing, platform participation) as these items become available in the 2025+ WBES waves.
 
@@ -256,8 +256,6 @@ Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of Management
 
 Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
 
-Hayes, A. F. (2018). *Introduction to mediation, moderation, and conditional process analysis: A regression-based approach* (2nd ed.). Guilford Press.
-
 International Finance Corporation. (2022, December). *Mind the gaps: Women in leadership in Viet Nam's banking sector*. IFC, World Bank Group.
 
 Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm—A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
@@ -267,8 +265,6 @@ Johanson, J., & Vahlne, J.-E. (2009). The Uppsala internationalization process m
 Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. https://doi.org/10.1002/gsj.1028
 
 Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
-
-Long, J. S., & Ervin, L. H. (2000). Using heteroscedasticity consistent standard errors in the linear regression model. *The American Statistician, 54*(3), 217–224. https://doi.org/10.1080/00031305.2000.10474549
 
 Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
 
@@ -284,6 +280,8 @@ Richard, O. C., Kirby, S. L., & Chadwick, K. (2019). The impact of racial and ge
 
 Scott, W. R. (2008). *Institutions and organizations: Ideas and interests* (3rd ed.). Sage.
 
+Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? The international strategies of digital platform firms. *Global Strategy Journal, 11*(1), 58–80. https://doi.org/10.1002/gsj.1336
+
 UNCTAD. (2023). *World investment report 2023: Investing in sustainable energy for all*. United Nations.
 
 Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
@@ -292,19 +290,7 @@ Wernerfelt, B. (1984). A resource-based view of the firm. *Strategic Management 
 
 World Bank. (2025). *Enterprise surveys*. https://www.enterprisesurveys.org
 
-World Bank. (2025a, March). *Digital public infrastructure and development: A World Bank Group approach*. World Bank Group.
-
-World Bank. (2025b, September). *Viet Nam economic update: Nurturing high-tech talents* (Taking Stock, September 2025). World Bank Group.
-
-World Bank. (2025c, October). *Viet Nam economy snapshot: Finance, competitiveness & innovation* (Prosperity Data360). World Bank Group. https://www.worldbank.org/ext/en/country/vietnam
-
-World Bank. (2026a). *ID4D & G2Px annual report 2023: Putting people at the center of digital public infrastructure*. World Bank Group.
-
-World Bank. (2026b, April). *Viet Nam macro monitoring: April 2026*. World Bank Group, Fiscal Policy and Growth Viet Nam Team.
-
-World Bank. (2024, December). *Viet Nam economy snapshot: Justice* (Prosperity Data360). World Bank Group. https://www.worldbank.org/ext/en/country/vietnam
-
-Wu, J., Wang, C., Hong, J., Piperopoulos, P., & Zhuo, S. (2022). Internationalization and innovation of business groups: Evidence from China. *Journal of World Business, 54*(4), 305–320.
+World Bank. (2026, April). *Viet Nam macro monitoring: April 2026*. World Bank Group, Fiscal Policy and Growth Viet Nam Team.
 
 ---
 
