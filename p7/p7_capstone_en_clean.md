@@ -108,7 +108,7 @@ The final analytical frame contains 88,869 firm-observations across 50 economies
 
 **Foreign sales intensity (FSTS).** Defined as the share of sales from exports, both direct and indirect, (d3b + d3c) / 100, ranging from 0 to 1. We mean-centre FSTS at the sample mean for quadratic and interaction models (fsts_c); the quadratic term fsts_c² is computed from the centred value. The sample mean is 9.0%.
 
-**Technological capability index (TCI_z).** A two-item composite of R&D activity (h8) and internationally recognised quality certification (b8), standardised to mean 0, SD 1 within economy-year.
+**Technological capability index (TCI_z).** A two-item composite of internationally recognised quality certification (b8: has ISO or other certification) and foreign-technology adoption (e6: uses foreign-licensed technology), standardised to mean 0, SD 1 within economy-year.
 
 **Digital adoption index (DAI).** Website presence (c22b), a binary Tier-1 indicator of digital participation.
 
@@ -302,7 +302,7 @@ World Bank. (2026, April). *Viet Nam macro monitoring: April 2026*. World Bank G
 |---|---|---|---|
 | lp_z | Log labour productivity ln(d2/l1), winsorised 1/99, z-scored within economy-year | d2; l1 | ~85% |
 | FSTS | Foreign sales share (direct + indirect exports) | (d3b + d3c) / 100 | ~83% |
-| TCI_z | Tech capability index (R&D + ISO certification), z-scored within economy-year | h8, b8 | ~82% |
+| TCI_z | Tech capability index (quality certification + foreign technology), z-scored within economy-year | b8, e6 | ~82% |
 | DAI | Digital adoption (website presence, Tier-1 binary) | c22b | ~83% |
 | mgr_experience | Top manager years in sector | b7 | ~84% |
 | mgr_female | Top manager is female (binary) | b7a, b6a | ~82% |
