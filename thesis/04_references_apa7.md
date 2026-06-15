@@ -847,3 +847,17 @@ Sambharya, R. B. (1996). Foreign experience of top management teams and internat
 Sasabuchi, S. (1980). A test of a multivariate normal mean with composite hypotheses determined by linear inequalities. *Biometrika, 67*(2), 429–439. https://doi.org/10.1093/biomet/67.2.429
 
 Scott, W. R. (1995). *Institutions and organizations*. Sage.
+
+## Bổ sung v2.8 — Tài liệu nền I–P kinh điển + phê phán gần đây (15/06/2026)
+
+> Bổ sung 5 entries để củng cố nền lý thuyết MNE/FDI kinh điển và bằng chứng phê phán gần đây cho mảng internationalization–firm performance (trích dẫn trong Chương 2). DOI của Caves (1971) và Vernon (1966) để trống, sẽ xác minh trong lượt `verify_dois.py`.
+
+Buckley, P. J., & Casson, M. C. (1976). *The future of the multinational enterprise*. Macmillan.
+
+Caves, R. E. (1971). International corporations: The industrial economics of foreign investment. *Economica, 38*(149), 1–27.
+
+Hymer, S. H. (1976). *The international operations of national firms: A study of direct foreign investment*. MIT Press.
+
+Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
+
+Vernon, R. (1966). International investment and international trade in the product cycle. *The Quarterly Journal of Economics, 80*(2), 190–207.
