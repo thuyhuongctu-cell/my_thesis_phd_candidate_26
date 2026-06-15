@@ -59,6 +59,27 @@ committed `p7_pooled_clean.csv`, and re-lock the P7 numbers so the package repro
 "incl. Japan 2025" claim. Nothing was overwritten here (doing so would desync the package
 from the thesis's reported results). TCI construction (b8+e6) itself is confirmed.
 
+### UPDATE — gap resolved by two build/run fixes + spec reconciliation
+1. **Builder filename bug** (`01_build_p7_dataset.py`): the country/year regex could not
+   parse hyphenated names, silently dropping 11 economies (Brunei-Darussalam, Hong-Kong,
+   Korea-Republic, Kyrgyz-Republic, Lao-PDR, Papua-New-Guinea, Saudi-Arabia,
+   Solomon-Islands, Sri-Lanka, Taiwan-China, Timor-Leste) and the Viet-Nam-2023 wave; the
+   dedup/panel/skip logic only ran in the uploads branch. Fixed (parse_stem = first
+   19xx/20xx token + letters-only country key; logic unified). Rebuild now yields **51
+   economies incl. Japan-2025, 115 economy-year pairs, 2006–2026, complete-N 78,507**.
+2. **Estimator control bug** (`02_run_p7_models.py`): the default control set included
+   `foreign_own_pct` (b6a), only ~41% populated, which halved the controlled-model sample
+   (≈79k → ≈32k) and made the FSTS curvature look "not confirmed". Removed from defaults.
+3. **Reconciliation result (incl. Japan, thesis-consistent controls):** the fully-specified
+   two-way-FE models reproduce the thesis: **M5 N=77,486 inverted-U TP 33.4% (p<.001);
+   M10 N=74,398 inverted-U TP 34.4% (p<.001); TCI_z positive p<.001 in every model
+   (+0.19…+0.26).** N is within ~2% of the thesis's M5 N=79,080; TPs sit in the thesis's
+   reported range. ⟹ The thesis's substantive P7 claims (inverted-U + TCI-positive) **hold
+   with Japan included**; the earlier apparent weakening was purely the two script bugs.
+   Refreshed data + Japan-inclusive results are committed (`data_wbes/p7/`,
+   `p7/replication/results_incl_japan/`). Thesis chapter numbers left as locked pending an
+   author decision to formally re-lock to the Japan-inclusive figures.
+
 ## RESOLVED (2026-06-15) — P7 TCI item set confirmed against real-data pipeline
 The author confirmed P7 uses the real WBES data (50 economies, incl. Japan 2025).
 Tracing the canonical pipeline settles the earlier ambiguity:
