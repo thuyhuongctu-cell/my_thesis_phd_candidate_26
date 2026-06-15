@@ -571,6 +571,18 @@ def main():
 
     # Combine
     pooled = pd.concat(all_frames, ignore_index=True, sort=False)
+
+    # Restrict to the thesis analytic frame: Asia & Pacific economies only.
+    # Comoros (Sub-Saharan Africa / Indian Ocean) has a WBES .dta in raw_dta but
+    # is outside the Asia-Pacific scope of P7, so it is dropped to match the
+    # thesis's 50-economy frame (incl. Japan).
+    OUT_OF_SCOPE = {"Comoros"}
+    before = pooled["country"].nunique()
+    pooled = pooled[~pooled["country"].isin(OUT_OF_SCOPE)].reset_index(drop=True)
+    if before != pooled["country"].nunique():
+        log.info(f"Dropped out-of-scope economies {sorted(OUT_OF_SCOPE)} "
+                 f"({before} -> {pooled['country'].nunique()} economies)")
+
     log.info(f"\nPooled shape: {pooled.shape}")
     log.info(f"Countries: {pooled['country'].nunique()}")
     log.info(f"Country-years: {pooled.groupby(['country','year']).ngroups}")

@@ -1,7 +1,7 @@
 {
-  "n_total": 78927,
-  "n_countries": 51,
-  "n_country_years": 112,
+  "n_total": 78810,
+  "n_countries": 50,
+  "n_country_years": 111,
   "countries": [
     "Afghanistan",
     "Armenia",
@@ -12,7 +12,6 @@
     "Brunei",
     "Cambodia",
     "China",
-    "Comoros",
     "Fiji",
     "Georgia",
     "HongKong",
