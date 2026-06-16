@@ -87,6 +87,14 @@ Cường độ quốc tế hóa được đo bằng tỷ trọng doanh thu xuấ
 
 Để kiểm định phi tuyến, mô hình đưa đồng thời số hạng bậc nhất và số hạng bậc hai của cường độ xuất khẩu. Trước khi tạo số hạng bậc hai, cường độ xuất khẩu được trung tâm hóa quanh trung bình trong từng đợt khảo sát hoặc trong từng mẫu gộp, một quy ước làm giảm tương quan giả tạo giữa số hạng tuyến tính và số hạng bình phương, qua đó cải thiện độ ổn định số học của ước lượng và làm rõ diễn giải hệ số tại điểm trung bình của mẫu. Điểm uốn của quan hệ chữ U ngược được khôi phục về thang gốc bằng cách cộng trung bình mẫu vào tỷ số $-\hat\beta_1 / (2\hat\beta_2)$, cho phép báo cáo ngưỡng tối ưu theo tỷ trọng xuất khẩu thực tế. Dạng bậc hai được dùng nhất quán trong mọi nghiên cứu thành phần, vì nó đủ để nhận dạng một điểm uốn nội miền và phù hợp với mật độ phân phối cường độ xuất khẩu của các mẫu doanh nghiệp WBES; luận án không mở rộng lên dạng bậc ba để tránh nhận dạng điểm uốn không ổn định ở vùng cường độ xuất khẩu cao vốn thưa quan sát.
 
+### 3.3.3.2 Vận hành hóa chi tiết cường độ xuất khẩu xuyên các nghiên cứu thành phần
+
+Sự thống nhất khái niệm của cường độ xuất khẩu xuyên các nghiên cứu thành phần không kéo theo một định nghĩa thao tác duy nhất, mà là một họ định nghĩa được hiệu chỉnh theo bản chất bộ công cụ của từng đợt và theo câu hỏi nghiên cứu. Khung đa quốc gia cộng gộp xuất khẩu trực tiếp và gián tiếp rồi chia cho một trăm để đưa về tỷ trọng, cụ thể $FSTS = (d3b + d3c)/100$ với miền giá trị từ 0 đến 1, đúng định nghĩa tham gia xuất khẩu chuẩn của bộ công cụ toàn cầu; trung bình mẫu của tỷ trọng này trong mẫu gộp năm mươi nền là 9,0%. Ngược lại, hai nghiên cứu đơn quốc gia dùng riêng xuất khẩu trực tiếp dựng từ một trường khảo sát: ở Trung Quốc cường độ xuất khẩu là tỷ trọng doanh thu xuất khẩu trực tiếp, còn ở đảo nhỏ Thái Bình Dương cường độ xuất khẩu được dựng từ trường `d3c` chia cho một trăm. Lý do lựa chọn riêng xuất khẩu trực tiếp đã nêu ở Mục 3.3.3.1: xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại, mang cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất.
+
+Doanh nghiệp không xuất khẩu nhận giá trị cường độ bằng 0 và được giữ trong mẫu, vì giá trị này phản ánh trạng thái phi xuất khẩu hợp lệ chứ không phải dữ liệu khuyết; điểm uốn của quan hệ do đó được nhận dạng trên toàn mẫu chứ không chỉ trên tập doanh nghiệp xuất khẩu. Quy ước này đặc biệt hệ trọng ở đảo nhỏ Thái Bình Dương, nơi chỉ 132 trong số 959 quan sát phân tích, tương đương 13,8%, là doanh nghiệp có xuất khẩu với cường độ dương: loại bỏ nhóm phi xuất khẩu sẽ làm sụp đổ công suất thống kê và làm sai lệch ước lượng ở biên tham gia.
+
+Quy ước trung tâm hóa được áp dụng nhất quán nhưng theo hai cấp khác nhau. Ở mẫu gộp đa quốc gia, cường độ xuất khẩu được trung tâm hóa quanh trung bình toàn mẫu trước khi lập bình phương. Ở các nghiên cứu đa đợt, cường độ xuất khẩu được trung tâm hóa trong từng đợt nhằm chặn khác biệt thành phần mẫu giữa các đợt làm nhiễu vị trí điểm uốn. Trung tâm hóa làm giảm tương quan giả tạo giữa số hạng tuyến tính và số hạng bình phương mà không làm dịch chuyển vị trí điểm uốn, vì công thức điểm uốn $-\hat\beta_1/(2\hat\beta_2)$ bất biến với phép trung tâm hóa; điểm uốn trên thang trung tâm hóa được quy đổi về thang gốc bằng cách cộng trung bình mẫu, tức $TP = -\hat\beta_1/(2\hat\beta_2) + \overline{FSTS}$.
+
 ### 3.3.4 Đo lường biến điều tiết
 
 #### Digital constructs (TCI và DAI)
@@ -129,6 +137,12 @@ Chỉ số chấp nhận số (Digital Adoption Index, DAI) được vận hành
 
 Cả chỉ số năng lực công nghệ (Technological Capability Index, TCI) và DAI được xử lý như chỉ số hợp thành cấu thành (formative composite) chứ không phải chỉ số phản ánh, vì mỗi chỉ báo nhị phân định nghĩa một khía cạnh độc lập của khái niệm chứ không phải là biểu hiện tương quan của một biến tiềm ẩn chung. Quy tắc xây dựng gồm ba bước: chuyển mỗi chỉ báo thành dạng nhị phân 0–1, lấy trung bình cộng các chỉ báo trong cùng một tầng, rồi chuẩn hóa z giá trị trung bình trong từng đợt khảo sát. Nguyên tắc không chồng lấn được áp đặt nghiêm ngặt: cấp phép công nghệ nước ngoài thuộc TCI và không được đồng thời tính vào DAI, bảo đảm hai chỉ số là hai cấu trúc độc lập với mạng quan hệ lý thuyết khác nhau. Vì các chỉ báo là biểu hiện nhị phân của cùng một cấu trúc cấu thành, các biến thể của một chỉ số tương quan cao và cho kết luận điều tiết nhất quán về dấu; phần độ vững kiểm tra trực tiếp độ nhạy của suy luận với lựa chọn biến thể.
 
+### 3.3.4.2 Ánh xạ mục khảo sát của chỉ số năng lực công nghệ và chỉ số chấp nhận số
+
+Để bảo đảm tính minh bạch và tái lập, mỗi biến thể của hai chỉ số hợp thành được truy nguyên về đúng bộ mục khảo sát WBES dùng để dựng nó. Biến thể mỏng của chỉ số năng lực công nghệ được dựng từ đúng hai mục nhị phân: chứng chỉ chất lượng được công nhận quốc tế (trường `b8`) và cấp phép công nghệ nước ngoài (trường `e6`); giá trị chỉ số là chuẩn hóa z của trung bình hai chỉ báo nhị phân này, xử lý như một chỉ số hợp thành cấu thành. Bộ mục hai trường này được dùng nhất quán ở khung đa quốc gia, ở Việt Nam, Singapore và đảo nhỏ Thái Bình Dương. Biến thể đầy đủ chỉ dùng ở Trung Quốc, nơi cả hai đợt đều có đủ module đổi mới, mở rộng lên bốn mục để nắm bắt chiều sâu năng lực nội tại phong phú hơn so với biến thể hai mục dùng ở các nghiên cứu khác. Khác biệt giữa biến thể mỏng và đầy đủ phản ánh ràng buộc khả dụng dữ liệu khách quan qua ba thế hệ bảng hỏi chứ không phải lựa chọn tùy ý; vì các mục là chỉ báo nhị phân của cùng một cấu trúc cấu thành, hai biến thể cho kết luận điều tiết nhất quán về dấu, và phần độ vững (Mục 3.5.1) kiểm tra trực tiếp độ nhạy với lựa chọn biến thể.
+
+Chỉ số chấp nhận số được vận hành hóa theo nguyên tắc phân tầng đã trình bày ở Mục 3.3.4.1, với bộ mục cụ thể cũng được truy nguyên về trường khảo sát. Biến thể Tầng 1 dùng đúng một chỉ báo nhị phân là hiện diện website vận hành (trường `c22b`); đây là biến thể duy nhất khả dụng ở đảo nhỏ Thái Bình Dương, nơi bộ công cụ không thu thập các mục Tầng 2 thanh toán điện tử và Tầng 3 đám mây/hệ hoạch định nguồn lực doanh nghiệp. Khung đa quốc gia dùng biến thể Tầng 1 cộng Tầng 2 khi trường thanh toán điện tử có mặt và thu gọn về Tầng 1 khi thiếu, đúng như nguyên tắc nhúng tầng theo khả dụng bộ công cụ. Nguyên tắc không chồng lấn được áp đặt nghiêm ngặt: cấp phép công nghệ nước ngoài thuộc chỉ số năng lực công nghệ và không bao giờ được tính đồng thời vào chỉ số chấp nhận số, bảo đảm hai chỉ số là hai cấu trúc độc lập với mạng quan hệ lý thuyết khác nhau. Bộ mục năng lực công nghệ của khung đa quốc gia đã được đối chiếu trực tiếp với mã xây dựng dữ liệu thực tế trên kho năm mươi nền, gồm Nhật Bản 2025, xác nhận biến `tci_z` được dựng đúng từ hai mục `b8` và `e6`.
+
 ### 3.3.5 Biến kiểm soát
 
 Khung thực nghiệm đưa vào một tập biến kiểm soát chuẩn trong nghiên cứu dữ liệu doanh nghiệp và kinh doanh quốc tế, nhằm tách hiệu ứng của quốc tế hóa và năng lực khỏi các yếu tố cấu trúc đồng biến với cả cường độ xuất khẩu lẫn năng suất. Quy mô doanh nghiệp được đo bằng logarit tự nhiên của số lao động toàn thời gian (mục l1 của WBES), một biến kiểm soát thiết yếu vì doanh nghiệp lớn vừa có xác suất xuất khẩu cao hơn vừa đạt năng suất cao hơn nhờ lợi thế quy mô; lấy logarit để xử lý phân phối lệch phải đặc trưng của biến quy mô. Tuổi doanh nghiệp được tính bằng số năm từ năm thành lập đến năm khảo sát, kiểm soát hiệu ứng học hỏi tích lũy và hiệu ứng sống sót, theo đó doanh nghiệp tồn tại lâu hơn có thể đã vượt qua các rào cản gia nhập và tích lũy năng lực.
@@ -136,6 +150,14 @@ Khung thực nghiệm đưa vào một tập biến kiểm soát chuẩn trong n
 Sở hữu nước ngoài được đưa vào dưới dạng biến giả nhận giá trị một khi tỷ lệ sở hữu của nhà đầu tư nước ngoài đạt từ 10% trở lên, ngưỡng chuẩn của đầu tư trực tiếp nước ngoài, vì doanh nghiệp có vốn nước ngoài thường tiếp cận mạng lưới quốc tế, công nghệ và thị trường theo cách khác biệt về chất so với doanh nghiệp trong nước. Ngành được kiểm soát bằng hệ biến giả ngành nhằm hấp thụ chênh lệch năng suất và cường độ thương mại có hệ thống giữa các lĩnh vực. Quan trọng nhất, mọi đặc tả gộp đều mang hiệu ứng cố định nền kinh tế và hiệu ứng cố định năm: hiệu ứng cố định nền kinh tế hấp thụ mọi khác biệt bất biến theo thời gian giữa các nền kinh tế, gồm mặt bằng giá, chế độ tỷ giá, chất lượng thể chế nền và quy mô thị trường nội địa; hiệu ứng cố định năm hấp thụ các cú sốc vĩ mô chung như chu kỳ kinh tế toàn cầu và biến động thương mại theo năm. Cấu trúc hiệu ứng cố định hai chiều này là then chốt vì nó loại bỏ chính các nhiễu cấp nền kinh tế và cấp thời gian dễ tạo tương quan giả giữa quốc tế hóa và hiệu quả, qua đó cô lập biến thiên trong nội bộ nền kinh tế và năm để nhận dạng quan hệ trọng tâm.
 
 **Cơ sở kế thừa**: tập biến kiểm soát và cấu trúc hiệu ứng cố định tuân theo chuẩn trong nghiên cứu dữ liệu doanh nghiệp WBES và kinh doanh quốc tế (Aterido et al., 2011; Ayyagari et al., 2011).
+
+### 3.3.5.1 Vận hành hóa chế độ thể chế ICRV và đặc điểm nhà quản trị
+
+Chế độ thể chế được vận hành hóa thành một biến phân loại số nguyên nhận giá trị từ một đến sáu theo phân loại ICRV, đi từ chế độ tiên tiến đổi mới đến chế độ đảo nhỏ Thái Bình Dương, trật tự tăng dần của số nhóm tương ứng với chất lượng thể chế giảm dần. Biến này được dùng theo hai vai trò trong khung đa quốc gia: làm biến điều tiết liên tục trong mô hình tương tác, nơi hiệu ứng chính của nó bị hấp thụ bởi hiệu ứng cố định nền kinh tế, và làm biến phân nhóm cho phân tích điểm uốn theo từng chế độ. Lựa chọn xử lý ICRV như biến số nguyên liên tục thay vì hệ biến giả là có chủ đích, nhằm giữ cỡ mẫu đủ lớn trong các mô hình điều tiết và ba chiều, nơi việc tách thành sáu biến giả tương tác sẽ làm phân mảnh mẫu và làm bất ổn ước lượng.
+
+Phân tích điểm uốn theo từng chế độ làm lộ rõ cấu trúc ba vùng đặc trưng của khu vực. Ở chế độ chuyển đổi thu nhập trung bình–thấp, vốn là chế độ neo ước lượng gộp, quan hệ chữ U ngược định hình sắc nét với điểm uốn quanh 43%. Ở chế độ tiên tiến đổi mới, gồm cả Nhật Bản, điểm uốn nằm gần hoặc vượt biên dữ liệu quan sát nên trong vùng dữ liệu quan hệ gần như tuyến tính dương, với điểm uốn xấp xỉ 80%. Ở các chế độ yếu nhất, chữ U ngược tan rã; riêng ở chế độ đảo nhỏ Thái Bình Dương số hạng bậc hai đổi dấu, không còn cực đại nội miền, nhất quán với gánh nặng quốc tế hóa bắt buộc ghi nhận ở nghiên cứu thành phần đảo nhỏ.
+
+Đặc điểm nhà quản trị cấp cao được vận hành hóa từ hai mục khảo sát: số năm kinh nghiệm của nhà quản trị cấp cao trong ngành (trường `b7`) và một biến nhị phân chỉ nhà quản trị cấp cao là nữ (trường `b7a` hoặc `b6a` tùy đợt). Hai biến này được đưa vào mô hình đa quốc gia để kiểm định hiệu ứng trực tiếp và hiệu ứng điều tiết của đặc điểm quản trị lên hình dạng đường quan hệ; ở các nghiên cứu thiếu dữ liệu quản trị, hai biến chỉ được dùng trong phân tích độ vững chứ không bắt buộc trong mô hình chính, đúng điều kiện sử dụng đã nêu.
 
 ## 3.4 Mô hình phân tích
 
@@ -175,6 +197,8 @@ Sự xuất hiện đồng thời của hệ số bậc nhất dương và hệ 
 
 Điểm uốn được tính theo công thức $\text{TP} = -\hat\beta_1 / (2\hat\beta_2)$ trên thang trung tâm hóa rồi quy đổi về thang gốc bằng cách cộng trung bình mẫu. Vì điểm uốn là tỷ số phi tuyến của hai hệ số ước lượng, sai số chuẩn của nó không thể đọc trực tiếp từ bảng hồi quy. Luận án báo cáo khoảng tin cậy 95 phần trăm theo phương pháp delta (delta method), khai triển tuyến tính bậc nhất quanh ước lượng điểm để xấp xỉ phương sai của tỷ số (Haans et al., 2016). Ở các nghiên cứu có mật độ thưa quanh điểm uốn, luận án bổ sung khoảng tin cậy theo phương pháp lấy mẫu lại bootstrap nhằm nới lỏng giả định chuẩn của phương pháp delta và phản ánh tính bất đối xứng của phân phối điểm uốn trong mẫu hữu hạn. Khi kiểm định không bác bỏ tính đơn điệu trong phạm vi dữ liệu, kết quả được diễn giải là thông tin tích cực theo khung bão hòa chứ không phải là thất bại của giả thuyết phi tuyến, vì nó cho biết doanh nghiệp trong mẫu chưa vượt qua ngưỡng nơi lợi suất quốc tế hóa bắt đầu suy giảm.
 
+Cách vận hành thủ tục này thể hiện rõ ở các nghiên cứu thành phần. Ở Trung Quốc, kiểm định của Lind và Mehlum được kiểm chứng cho từng đợt qua điều kiện độ dốc dương có ý nghĩa tại biên trái khi cường độ xuất khẩu bằng 0 và độ dốc âm có ý nghĩa tại biên phải khi cường độ bằng 1; điểm uốn được khôi phục bằng phương pháp delta cùng khoảng tin cậy 95 phần trăm theo gradient của phương pháp delta, cho ra điểm uốn 49,4% với khoảng tin cậy từ 43,1% đến 55,7% năm 2012 và 47,2% với khoảng từ 40,8% đến 53,6% năm 2024, hai khoảng chồng lấn rộng; trên mẫu gộp điểm uốn là 48,8% với khoảng tin cậy từ 44,2% đến 53,4%. Ở khung đa quốc gia, ba điều kiện của Lind và Mehlum, gồm dấu hệ số, điểm uốn nằm chặt bên trong miền quan sát, và dấu độ dốc tại hai biên, được gộp thành một kiểm định giao điểm duy nhất. Trường hợp đảo nhỏ Thái Bình Dương minh họa giá trị thông tin của một kiểm định không bác bỏ: cả hai số hạng mất ý nghĩa khi đưa vào đồng thời do cộng tuyến cao trong mẫu cường độ thấp với trung bình cường độ chỉ 0,048, và hệ số bậc hai dương hàm ý dạng chữ U xuôi thay vì chữ U ngược, một sự đảo dạng bản thân nó nhất quán với quan hệ đơn điệu âm không có điểm quay nội miền.
+
 ### 3.4.4 Mô hình điều tiết (H2–H6)
 
 #### Two-way interaction (H2, H3)
@@ -208,6 +232,8 @@ Nếu $\beta_4$ hoặc $\beta_5$ có ý nghĩa, hình dạng đường quan hệ
 Để đánh giá xem hình dạng quan hệ quốc tế hóa–hiệu quả có dịch chuyển giữa các đợt khảo sát hay không, luận án không chỉ dựa vào biến tương tác giữa cường độ xuất khẩu và biến giả đợt mà còn áp dụng kiểm định z của Paternoster và cộng sự (1998) cho tính bằng nhau của hệ số hồi quy giữa hai mẫu độc lập. Kiểm định này phù hợp với cấu trúc dữ liệu lát cắt ngang lặp lại, nơi mỗi đợt khảo sát rút một mẫu doanh nghiệp độc lập chứ không theo dõi cùng doanh nghiệp qua thời gian, khiến so sánh hệ số giữa các đợt là so sánh giữa hai ước lượng không tương quan. Thống kê kiểm định nhận dạng chênh lệch hai hệ số chia cho căn bậc hai của tổng phương sai hai ước lượng, cụ thể $z = (\hat\beta_A - \hat\beta_B) / \sqrt{\text{SE}(\hat\beta_A)^2 + \text{SE}(\hat\beta_B)^2}$, với giá trị p hai phía từ phân phối chuẩn tiêu chuẩn.
 
 Kiểm định được áp dụng riêng cho từng cặp hệ số trọng tâm, gồm số hạng bậc nhất, số hạng bậc hai và các hệ số trực tiếp của năng lực công nghệ và chấp nhận số. Việc tách kiểm định theo từng tham số cho phép phân biệt hai loại dịch chuyển có ý nghĩa lý thuyết khác nhau: dịch chuyển ở tham số độ cong báo hiệu hình dạng quan hệ thay đổi cấu trúc, còn dịch chuyển ở hệ số trực tiếp báo hiệu vai trò của một chiều năng lực biến đổi theo vòng đời số hóa mà không làm đổi dạng đường cong. Khung đa đợt của luận án vì vậy có thể kết luận, chẳng hạn, rằng ngưỡng tối ưu bền vững cấu trúc trong khi đóng góp trực tiếp của chấp nhận số lại biến thiên rõ rệt giữa các đợt. Ở nghiên cứu có sẵn lõi panel nhỏ gồm các doanh nghiệp xuất hiện ở cả hai đợt, kiểm định Paternoster được bổ trợ bằng sai số chuẩn phân cụm theo định danh doanh nghiệp nhằm xử lý tương quan nội nhóm.
+
+Thủ tục này cho ra hai kết cục đối lập về mặt lý thuyết tùy bối cảnh thể chế. Ở Trung Quốc, kiểm định không bác bỏ bình đẳng hệ số giữa hai đợt cho cả số hạng bậc nhất và bậc hai, với thống kê dịch chuyển bậc nhất bằng +0,82 (giá trị p bằng 0,412) và dịch chuyển bậc hai bằng −0,61 (giá trị p bằng 0,545), hỗ trợ cách diễn giải rằng ngưỡng chữ U ngược là một quy luật cấu trúc bền vững với điểm uốn ổn định quanh 48% bất kể thập niên. Tính bền vững này còn vững trước giới hạn mẫu: trên mẫu con chế biến chế tạo, điểm uốn là 48,1% năm 2012 và 46,4% năm 2024 với các thống kê Paternoster vẫn không có ý nghĩa. Ngược lại, ở Ấn Độ, kiểm định Paternoster xuyên đợt bác bỏ bình đẳng hệ số ở mức rất nhỏ hơn 0,0001 cho cả số hạng tuyến tính và bậc hai, một sự sụp đổ trùng với thập niên thay đổi thể chế ngoại lệ gồm bãi bỏ tiền mặt, thuế hàng hóa và dịch vụ, luật phá sản, hạ tầng thanh toán hợp nhất, chương trình khuyến khích sản xuất và đại dịch. Sự đối lập giữa bền vững ở Trung Quốc và sụp đổ ở Ấn Độ chính là giá trị nhận dạng của kiểm định xuyên đợt: nó phân biệt được dịch chuyển cấu trúc thực do cú sốc thể chế khỏi biến thiên ngẫu nhiên của mẫu.
 
 ### 3.4.5.1 Mô hình cụ thể: Nghiên cứu 3 (Việt Nam, WBES 2009/2015/2023)
 
@@ -302,7 +328,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 
 > M5 (Mô hình đầy đủ, kiểm định H3):
 > lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
->            + β₅(CDDXK_c × CSS_z) + β₆(CDDXK_c² × CSS_z) + γ·X + δ_s + ε
+> + β₅(CDDXK_c × CSS_z) + β₆(CDDXK_c² × CSS_z) + γ·X + δ_s + ε
 > H3: β₆ > 0, DAI khuếch đại lợi nhuận quốc tế hóa và hiệu quả ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
 > Kết quả: β₆ = +3,119 (p = 0,005) trong mẫu đầy đủ; β₆ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê ≈ 16%)
 
@@ -361,8 +387,8 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.619; 2024: 
 
 > M6 (Điều tiết ba chiều, kiểm định H3/H4a/H4b):
 > lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
->             + β₅(CDDXK_c × NLCN_z) + β₆(CDDXK_c² × NLCN_z)
->             + β₇(CDDXK_c × wave) + β₈(CDDXK_c² × wave) + γ·X + δ_s + λ_t + ε
+> + β₅(CDDXK_c × NLCN_z) + β₆(CDDXK_c² × NLCN_z)
+> + β₇(CDDXK_c × wave) + β₈(CDDXK_c² × wave) + γ·X + δ_s + λ_t + ε
 > F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng lực), F3 (dịch chuyển điều kiện)
 > Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017), do đó H4b (không có điều tiết độ cong theo năng lực) được chấp nhận
 
@@ -468,7 +494,7 @@ $$\text{Tương tác chế độ-yếu: FSTS} \times \text{Weak} = -0{,}523\ (p 
 
 Nghiên cứu 8 phân tích mẫu gồm **N = 959 doanh nghiệp** tại **7 nền kinh tế Pacific SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI, cấp thấp nhất trong phân loại 6 chế độ, đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **132 doanh nghiệp có hoạt động xuất khẩu** (13,8%), phản ánh cấu trúc thị trường đảo nhỏ.
 
-Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**, mối quan hệ quốc tế hóa–hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3–P7. Lind–Mehlum U-test không bác bỏ đơn điệu (p > ,10), xác nhận không có điểm quay.
+Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**, mối quan hệ quốc tế hóa–hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3–P7. Lind–Mehlum U-test không bác bỏ đơn điệu (p >,10), xác nhận không có điểm quay.
 
 **Ký hiệu biến (tiếng Việt ↔ mã WBES):**
 
@@ -515,10 +541,10 @@ $$\beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (C
 
 | Đặc tả | β(CDDXK_c) | SE | p |
 |---|---|---|---|
-| M1 country+year FE (N = 959) | −1,339 | 0,386 | < ,001 |
-| Year FE only (không country FE) | −3,351 | 0,808 | < ,001 |
-| Bivariate (không controls) | −0,864 | 0,441 | ,050 |
-| chỉ doanh nghiệp xuất khẩu (N = 26) | −1,176 | 0,763 | ,130 (NS) |
+| M1 country+year FE (N = 959) | −1,339 | 0,386 | <,001 |
+| Year FE only (không country FE) | −3,351 | 0,808 | <,001 |
+| Bivariate (không controls) | −0,864 | 0,441 |,050 |
+| chỉ doanh nghiệp xuất khẩu (N = 26) | −1,176 | 0,763 |,130 (NS) |
 
 *Hệ số âm nhất quán về dấu qua các specification; suy luận FIP dựa chủ yếu vào các mô hình fixed-effects (M1, year-FE), trong khi chỉ doanh nghiệp xuất khẩu (N=26) thiếu công suất thống kê.*
 
@@ -554,6 +580,8 @@ Tất cả các mô hình đều sử dụng HC1/HC3 sai số chuẩn vững (Lo
 ### 3.4.6.1 Lựa chọn cấu trúc sai số chuẩn theo thiết kế dữ liệu
 
 Cấu trúc sai số chuẩn được lựa chọn theo bản chất thiết kế của từng nghiên cứu chứ không áp dụng một quy ước đồng nhất. Các nghiên cứu đơn quốc gia trên lát cắt ngang dùng sai số chuẩn vững với phương sai thay đổi loại HC1, một hiệu chỉnh chuẩn xử lý phương sai sai số không đồng nhất giữa các doanh nghiệp mà không đòi hỏi giả định về dạng cụ thể của phương sai. Khung đa quốc gia bổ sung phân cụm sai số chuẩn theo nền kinh tế, vì thiết kế chọn mẫu phân tầng của WBES tạo ra tương quan nội cụm giữa các doanh nghiệp trong cùng một nền kinh tế, khiến giả định độc lập của HC1 không còn thỏa đáng. Phân cụm theo nền kinh tế cũng phản ánh đúng cấp độ mà các cú sốc thể chế và chính sách tác động đồng thời lên nhiều doanh nghiệp.
+
+Cụ thể, mọi mô hình trong khung đa quốc gia đều mang hiệu ứng cố định hai chiều theo nền kinh tế và theo năm, cùng sai số chuẩn vững phân cụm theo nền kinh tế theo hiệu chỉnh CRV1. Cấp phân cụm theo nền kinh tế được chọn vì thiết kế chọn mẫu phân tầng của bộ công cụ tạo tương quan nội cụm giữa các doanh nghiệp trong cùng một nền, và vì các cú sốc thể chế cùng chính sách tác động đồng thời lên nhiều doanh nghiệp ở cùng cấp này.
 
 Một giới hạn cần ghi nhận của phân cụm theo nền kinh tế là số cụm hữu hạn có thể làm sai số chuẩn tiệm cận kém chính xác khi quy mô cụm chênh lệch lớn, đặc biệt giữa các nền kinh tế đông doanh nghiệp và các đảo nhỏ chỉ có vài trăm quan sát. Trong các tình huống này, luận án diễn giải suy luận một cách thận trọng và neo kết luận chính vào tính nhất quán về dấu qua nhiều đặc tả thay vì vào ý nghĩa của một hệ số đơn lẻ. Việc luận án không áp dụng trọng số chọn mẫu trong ước lượng chính tuân theo khuyến nghị của Solon, Haider và Wooldridge (2015): khi mô hình đã kiểm soát các chiều phân tầng qua biến kiểm soát và qua hiệu ứng cố định, ước lượng bình phương nhỏ nhất không trọng số cho hệ số nhất quán và thường hiệu quả hơn, trong khi trọng số được dành cho phân tích độ vững nhằm kiểm tra tính ổn định.
 
@@ -601,6 +629,12 @@ Vì dữ liệu chủ đạo là lát cắt ngang lặp lại chứ không phả
 
 Việc tính giới hạn đòi hỏi đặt cận trên cho mức độ giải thích tối đa của một mô hình giả định đầy đủ biến. Luận án dùng quy ước cận trên này bằng 1,3 lần hệ số xác định của mô hình có kiểm soát, một mức được khuyến nghị rộng rãi trong thực hành thực nghiệm. Kết luận phương pháp luận là không hệ số trọng tâm nào đổi dấu hoặc sụp đổ về không dưới các độ lớn khả tín của lựa chọn không quan sát, qua đó cung cấp một bằng chứng độc lập rằng các mối liên hệ trọng tâm không phải là tạo phẩm của biến bỏ sót có thể thấy trước.
 
+### 3.5.6.3 Tính nhất quán về dấu qua nhiều đặc tả như nguyên tắc suy luận nền tảng
+
+Triết lý suy luận xuyên suốt khung độ vững là neo kết luận thực chất vào tính nhất quán về dấu của ước lượng trọng tâm qua nhiều đặc tả, chứ không vào ý nghĩa của một hệ số đơn lẻ, vì các bảng độ vững kiểm tra các quan ngại nhận diện khác nhau thay vì lặp lại cùng một giả thuyết. Nguyên tắc này được minh họa rõ nhất ở nghiên cứu đảo nhỏ Thái Bình Dương, nơi hệ số cường độ xuất khẩu giữ dấu âm nhất quán qua mọi đặc tả: âm và có ý nghĩa rất cao trong mô hình hiệu ứng cố định nền kinh tế và năm với hệ số −1,339, vẫn âm và có ý nghĩa khi chỉ giữ hiệu ứng cố định năm hoặc khi bỏ toàn bộ biến kiểm soát, và chỉ mất ý nghĩa ở mẫu con chỉ gồm doanh nghiệp xuất khẩu vốn quá nhỏ. Suy luận về gánh nặng quốc tế hóa bắt buộc do đó được neo chủ yếu vào các mô hình hiệu ứng cố định chứ không vào mẫu con thiếu công suất, đúng nguyên tắc báo cáo trung thực đã nêu ở Mục 3.5.6.
+
+Nguyên tắc tương tự áp dụng cho các kết quả điều tiết không có ý nghĩa trong khung đa quốc gia. Năng lực công nghệ vào mô hình với hiệu ứng mức dương và rất có ý nghĩa, cho thấy doanh nghiệp năng lực cao hơn năng suất hơn ở mọi mức quốc tế hóa, nhưng các số hạng tương tác với cường độ xuất khẩu đều không có ý nghĩa và điểm uốn gần như không đổi, nghĩa là năng lực nâng nền mà không bẻ cong đường. Kết quả không có ý nghĩa của các số hạng tương tác vì vậy không bị diễn giải là thất bại đo lường mà là bằng chứng tích cực cho cách phân vai năng lực công nghệ là bộ tăng mức chứ không phải bộ điều tiết độ cong, một kết luận được củng cố thêm bởi sự nhất quán của hiệu ứng mức dương của năng lực công nghệ ở các nghiên cứu đơn quốc gia. Việc đối chiếu chéo giữa hiệu ứng mức ổn định và hiệu ứng điều tiết không có ý nghĩa, lặp lại qua nhiều nghiên cứu thành phần và nhiều chế độ thể chế, là chính cấu trúc bằng chứng cho phép luận án phân biệt một quy luật cấu trúc bền vững khỏi một hiệu ứng ngẫu nhiên của mẫu.
+
 ## 3.6 Tóm tắt phương pháp: Kế thừa và đóng góp mới
 
 | Thành phần | Cơ sở kế thừa | Đóng góp mới |
@@ -617,6 +651,10 @@ Việc tính giới hạn đòi hỏi đặt cận trên cho mức độ giải 
 | sai số chuẩn vững | Long & Ervin (2000); White (1980) | Chuẩn |
 | lệch lạc công bố | Egger et al. (1997); Begg & Mazumdar (1994) | Chuẩn |
 
-## 3.7 Đạo đức nghiên cứu
+## 3.7 Đạo đức nghiên cứu và khả năng tái lập
 
-Luận án sử dụng dữ liệu thứ cấp từ WBES, bộ dữ liệu công khai được World Bank cung cấp miễn phí cho mục đích nghiên cứu (World Bank, n.d.). Tất cả các citation theo APA 7th để ghi nhận đầy đủ công sức của các tác giả trước, tránh đạo văn. Code và dữ liệu phân tích được lưu trữ trên các nhánh chuyên biệt của repository để bảo đảm khả năng tái lập kết quả.
+Luận án sử dụng dữ liệu thứ cấp từ WBES, bộ dữ liệu công khai được World Bank cung cấp miễn phí cho mục đích nghiên cứu (World Bank Enterprise Surveys, 2025). Tất cả các trích dẫn theo APA 7th để ghi nhận đầy đủ công sức của các tác giả trước, tránh đạo văn. Code và dữ liệu phân tích được lưu trữ trên các nhánh chuyên biệt của kho mã để bảo đảm khả năng tái lập kết quả.
+
+Về bảo mật và quyền riêng tư, dữ liệu WBES đã được World Bank ẩn danh ở nguồn: bộ dữ liệu vi mô không chứa tên doanh nghiệp hay thông tin nhận dạng cá nhân của đáp viên, và mọi định danh chỉ là mã số nội bộ phục vụ ghép nối. Luận án không thu thập dữ liệu sơ cấp từ con người nên không phát sinh nghĩa vụ xin chấp thuận đạo đức từ hội đồng đối với đối tượng nghiên cứu là người; tuy vậy luận án vẫn tuân thủ điều khoản sử dụng của World Bank, không thực hiện bất kỳ thao tác nào nhằm tái nhận dạng doanh nghiệp, và chỉ báo cáo kết quả ở cấp tổng hợp hoặc cấp hệ số. Việc xử lý mã không phản hồi của bộ công cụ, gồm mã không biết, mã từ chối và mã không áp dụng, thành giá trị khuyết được thực hiện minh bạch theo quy ước nêu ở Phụ lục A nhằm tránh diễn giải sai các mã kỹ thuật thành giá trị thực.
+
+Về khả năng tái lập, luận án áp dụng nguyên tắc minh bạch kiểu PRISMA cho dữ liệu thứ cấp: toàn bộ quy trình hợp nhất sáu bước, từ lọc loại khảo sát đến tạo mẫu phân tích bằng xóa theo danh sách, được ghi rõ tiêu chí và số quan sát còn lại ở từng bước để cho phép tái dựng và kiểm chứng, cùng dòng dữ liệu kiểu PRISMA và mã tái lập trình bày đầy đủ ở Phụ lục A. Các con số trọng tâm của khung thực nghiệm được khóa và có thể tái lập đúng, gồm mô hình bậc hai gốc với cỡ mẫu hồi quy 81.022 và điểm uốn 51,5%, cùng mô hình đầy đủ thêm năng lực công nghệ và chấp nhận số với cỡ mẫu 79.080 và điểm uốn 43,6%. Tập lệnh xây dựng dữ liệu gộp tái lập đúng quy trình sáu bước S1 đến S6 trên kho mã hiện hành, bảo đảm rằng mỗi cập nhật bổ sung nền kinh tế hay đợt khảo sát mới, chẳng hạn Nhật Bản 2025, đều đi qua cùng một chuỗi quyết định lọc và hài hòa hóa có thể kiểm chứng.
