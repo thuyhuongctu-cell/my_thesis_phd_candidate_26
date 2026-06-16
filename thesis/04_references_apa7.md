@@ -670,8 +670,8 @@ Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and perform
 Olmos, M. F., & Díez-Vial, I. (2015). Internationalization pathways and the performance of SMEs. *European Journal of Marketing, 49*(3/4), 420–443. https://doi.org/10.1108/ejm-06-2012-0365
 
 Phan, A. T., Nguyen, V. S., Dinh, V. T., Thai, V. H., Nguyen, C. T., Dao, Q. T., Nguyen, V. L., & Do, T. H. (2021). The moderating effects of the manager's characteristics and financial obstacles on internationalization and firm performance in Poland. *PalArch's Journal of Archaeology of Egypt/Egyptology, 18*(4), 4063–4081.
-Phan, A. T., Do, T. H., & Phan, M. T. (2020). The moderating effects of managers' experience and gender on internationalization and firm performance of manufacturing enterprises in Turkey. *Accounting, 6*(7), 1209–1216. https://doi.org/10.5267/j.ac.2020.9.006
-Phan, A. T., Tran, T. M., & Lu, T. M. (2020). The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon. *Decision Science Letters, 9*(4), 573–580. https://doi.org/10.5267/j.dsl.2020.7.001
+Phan, A. T., Tran, T. M., & Lu, T. M. (2020a). The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon. *Decision Science Letters, 9*(4), 573–580. https://doi.org/10.5267/j.dsl.2020.7.001
+Phan, A. T., Do, T. H., & Phan, M. T. (2020b). The moderating effects of managers' experience and gender on internationalization and firm performance of manufacturing enterprises in Turkey. *Accounting, 6*(7), 1209–1216. https://doi.org/10.5267/j.ac.2020.9.006
 
 Purkayastha, A., Karna, A., Sharma, S., & Bhadra, D. (2024). Role of resource investment management and strategic resource deployment capabilities in internationalization-performance relationship. *Journal of International Management, 30*(3), Article 101122. https://doi.org/10.1016/j.intman.2024.101122
 

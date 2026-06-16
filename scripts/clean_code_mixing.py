@@ -61,6 +61,19 @@ RULES = [
     # acronym/nhãn ngắn (uppercase, an toàn vì tiếng Việt thường không có)
     (r"\bRBV\b", "lý thuyết dựa trên nguồn lực"),
     (r"\bEMNEs\b", "doanh nghiệp đa quốc gia thị trường mới nổi"),
+    # bổ sung đợt 2 (thuật ngữ còn sót trong văn xuôi)
+    (r"emerging Asia", "châu Á mới nổi"),
+    (r"Foundational Digital Adoption Framework", "Khung chấp nhận số nền tảng"),
+    (r"robust standard errors", "sai số chuẩn vững"),
+    (r"\bRobust SE\b", "sai số chuẩn vững"),
+    (r"phase empirical", "giai đoạn thực nghiệm"),
+    (r"gộp effect", "hiệu ứng gộp"),
+    (r"\bcapstone\b", "tổng hợp"),
+    (r"\bpooled\b", "gộp"),
+    (r"\bpool\b", "mẫu gộp"),
+    (r"\bwaves\b", "các đợt"),
+    (r"\bwave\b", "đợt"),
+    (r"\bSpecification\b", "Đặc tả"),
 ]
 
 def protect(text):

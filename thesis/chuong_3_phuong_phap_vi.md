@@ -14,7 +14,7 @@ Luận án sử dụng **mixed synthesis-empirical design** gồm hai phase bổ
 
 **Cơ sở kế thừa**: Mixed design kết hợp meta và primary data đã được áp dụng trong quản trị chiến lược và IB (Borenstein et al., 2009; Hunter & Schmidt, 2004; Combs et al., 2011).
 
-**Đóng góp mới**: Áp dụng mixed design cho một luận án duy nhất về quốc tế hóa–hiệu quả doanh nghiệp trong bối cảnh châu Á và Thái Bình Dương với **50 nền kinh tế** là thiết kế hiếm gặp; đa số các luận án IB chỉ làm một trong hai phase. Quy mô 50 nền kinh tế/88.869 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ pool 17 nước trong nghiên cứu thành phần P1.
+**Đóng góp mới**: Áp dụng mixed design cho một luận án duy nhất về quốc tế hóa–hiệu quả doanh nghiệp trong bối cảnh châu Á và Thái Bình Dương với **50 nền kinh tế** là thiết kế hiếm gặp; đa số các luận án IB chỉ làm một trong hai phase. Quy mô 50 nền kinh tế/88.869 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ mẫu gộp 17 nước trong nghiên cứu thành phần P1.
 
 ### 3.1.2 Quy trình nghiên cứu
 
@@ -24,14 +24,14 @@ Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứ
 
 ### 3.2.1 Cơ sở kế thừa
 
-phân tích tổng hợp trong IB đã được thiết lập vững chắc qua nhiều thập kỷ (Hunter & Schmidt, 2004; Borenstein et al., 2009). Phương pháp chuẩn bao gồm: xây dựng inclusion criteria theo PRISMA (Page et al., 2021), chuyển dạng hiệu ứng bằng Fisher's $z$, tính gộp effect size theo random-effects, kiểm định dị biệt bằng $Q$-test và $I^2$, và đánh giá lệch lạc công bố bằng Egger và Begg-Mazumdar (Egger et al., 1997; Begg & Mazumdar, 1994). Các các phân tích tổng hợp trước đây về quốc tế hóa và hiệu quả (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) cung cấp quy trình mẫu mà luận án kế thừa và cập nhật.
+phân tích tổng hợp trong IB đã được thiết lập vững chắc qua nhiều thập kỷ (Hunter & Schmidt, 2004; Borenstein et al., 2009). Phương pháp chuẩn bao gồm: xây dựng inclusion criteria theo PRISMA (Page et al., 2021), chuyển dạng hiệu ứng bằng Fisher's $z$, tính hiệu ứng gộp size theo random-effects, kiểm định dị biệt bằng $Q$-test và $I^2$, và đánh giá lệch lạc công bố bằng Egger và Begg-Mazumdar (Egger et al., 1997; Begg & Mazumdar, 1994). Các các phân tích tổng hợp trước đây về quốc tế hóa và hiệu quả (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) cung cấp quy trình mẫu mà luận án kế thừa và cập nhật.
 
 ### 3.2.2 Đóng góp mới/điều chỉnh
 
 - **Mở rộng coverage time**: từ 1977–2022 (bài ICBEF 2025) sang **1982–2026**, bổ sung các nghiên cứu 2023–2026 liên quan đến digital transformation và doanh nghiệp đa quốc gia thị trường mới nổi.
 - **Mở rộng biến điều tiết coverage**: thêm cụm biến điều tiết về digital capability và 6 chế độ con ICRV, chưa được xem xét đầy đủ trong các các phân tích tổng hợp trước.
 - **Tập tổng hợp**: K=288 effect sizes / k=238 nghiên cứu, được xây dựng theo chiến lược tìm kiếm hệ thống nhưng có giới hạn (neo theo trích dẫn: quét trích dẫn xuôi và ngược từ 5 phân tích tổng hợp mỏ neo, bổ sung bằng cơ sở dữ liệu), báo cáo theo biến thể PRISMA 2020 "studies identified via other methods"; mở rộng so với bản nền ICBEF 2025 (K=200 / k=113).
-- **Subgroup theo châu Á và Pacific**: tách riêng nhóm nghiên cứu về doanh nghiệp châu Á và Pacific để cung cấp cơ sở trực tiếp cho phase empirical, đối chiếu với pool 17 nước trong nghiên cứu thành phần P1.
+- **Subgroup theo châu Á và Pacific**: tách riêng nhóm nghiên cứu về doanh nghiệp châu Á và Pacific để cung cấp cơ sở trực tiếp cho giai đoạn thực nghiệm, đối chiếu với mẫu gộp 17 nước trong nghiên cứu thành phần P1.
 
 ### 3.2.3 Quy trình PRISMA
 
@@ -43,7 +43,7 @@ Identification, Screening, Eligibility, Inclusion theo hướng dẫn PRISMA 202
 
 Luận án sử dụng World Bank Enterprise Surveys cho **50 nền kinh tế châu Á và Thái Bình Dương** trong giai đoạn **2003–2025** (88.869 doanh nghiệp trong khung phân tích, 103 cặp nền kinh tế và năm; bao gồm Nhật Bản 2025; pool phân loại ICRV 96.415 doanh nghiệp/52 nhãn nền) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về cấp doanh nghiệp outcomes (Aterido et al., 2011). Quy trình hợp nhất và hài hòa hóa chi tiết các bộ khảo sát quốc gia–năm thành bộ dữ liệu phân tích thống nhất (sáu bước S1–S6, xử lý tính so sánh tiền tệ, chiến lược lát cắt ngang gộp với hiệu ứng cố định hai chiều, cùng dòng dữ liệu PRISMA và mã tái lập) được trình bày đầy đủ ở **Phụ lục A**.
 
-**Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về thị trường mới nổi (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (nghiên cứu thành phần P1).
+**Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về thị trường mới nổi (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng châu Á mới nổi với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (nghiên cứu thành phần P1).
 
 **Đóng góp mới**: mở rộng quy mô từ 17 sang **50 nền kinh tế châu Á và Thái Bình Dương**, với 6 chế độ con ICRV (Advanced innovation-driven, tiên tiến tài nguyên, trung bình cao, chuyển đổi thu nhập trung bình thấp, đang nổi, SIDS). Quy mô này là lớn nhất cho khu vực trong văn liệu quốc tế hóa–performance, gồm cả trường hợp biên đảo nhỏ Thái Bình Dương (7 nước, n=959 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced quốc tế hóa penalty (nghiên cứu thành phần P8).
 
@@ -59,7 +59,7 @@ Quy trình hợp nhất tuân theo nguyên tắc minh bạch kiểu PRISMA cho d
 
 **Biến chính**: năng suất lao động đo bằng $\ln(\text{annual sales} / \text{permanent full-time employees})$.
 
-**Cơ sở kế thừa**: năng suất lao động được sử dụng rộng rãi trong nghiên cứu WBES và trong văn liệu về firm productivity (Bloom et al., 2012; Hsieh & Klenow, 2009). Chỉ tiêu này đã được vận hành hóa thành công trong bài thực trạng emerging Asia (nghiên cứu thành phần P1).
+**Cơ sở kế thừa**: năng suất lao động được sử dụng rộng rãi trong nghiên cứu WBES và trong văn liệu về firm productivity (Bloom et al., 2012; Hsieh & Klenow, 2009). Chỉ tiêu này đã được vận hành hóa thành công trong bài thực trạng châu Á mới nổi (nghiên cứu thành phần P1).
 
 **Lập luận chọn**: WBES không phải bộ financial statement đầy đủ, nên năng suất lao động phù hợp hơn ROA/ROE/ROS trong bối cảnh đa quốc gia. Ngoài ra, năng suất lao động ít bị ảnh hưởng bởi chuẩn mực kế toán khác biệt giữa các nước hơn so với các chỉ tiêu kế toán (Combs et al., 2005; Richard et al., 2009).
 
@@ -211,7 +211,7 @@ Kiểm định được áp dụng riêng cho từng cặp hệ số trọng tâ
 
 ### 3.4.5.1 Mô hình cụ thể: Nghiên cứu 3 (Việt Nam, WBES 2009/2015/2023)
 
-Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượng riêng theo từng sóng khảo sát (2009, 2015, 2023) và gộp gộp. Ký hiệu tiếng Việt:
+Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượng riêng theo từng sóng khảo sát (2009, 2015, 2023) và trên mẫu gộp. Ký hiệu tiếng Việt:
 
 - **lnNSLD_it** = lnLP_it: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
 - **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu điều chỉnh trung bình trong sóng (mean-centred)
@@ -513,7 +513,7 @@ $$\beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (C
 
 **Phân tích độ vững (kiểm tra độ vững):**
 
-| Specification | β(CDDXK_c) | SE | p |
+| Đặc tả | β(CDDXK_c) | SE | p |
 |---|---|---|---|
 | M1 country+year FE (N = 959) | −1,339 | 0,386 | < ,001 |
 | Year FE only (không country FE) | −3,351 | 0,808 | < ,001 |
@@ -543,13 +543,13 @@ $$\beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (C
 
 #### 3.4.5.6 Mô hình cụ thể, Nghiên cứu 9: Ấn Độ, độ bền ngưỡng qua chuyển đổi thể chế (P9)
 
-Nghiên cứu 9 sử dụng ba đợt Khảo sát Doanh nghiệp Ngân hàng Thế giới cho Ấn Độ (2014 PICS3, $N_{\text{phân tích}} = 8.941$; 2022 BEE, $N_{\text{phân tích}} = 9.300$; 2025 BREADY, $N_{\text{phân tích}} = 10.476$; mẫu gộp $N = 28.717$), pool đơn quốc gia lớn nhất của luận án. Ấn Độ thuộc Nhóm IV ICRV (Chuyển đổi thu nhập trung bình–thấp); cửa sổ 2014–2025 bao trùm chuỗi cú sốc thể chế (bãi bỏ tiền mặt 2016, GST 2017, IBC 2016, UPI 2016, PLI và Atmanirbhar Bharat 2020, COVID-19), tạo điều kiện stress-test cho giả thuyết bền vững ngưỡng.
+Nghiên cứu 9 sử dụng ba đợt Khảo sát Doanh nghiệp Ngân hàng Thế giới cho Ấn Độ (2014 PICS3, $N_{\text{phân tích}} = 8.941$; 2022 BEE, $N_{\text{phân tích}} = 9.300$; 2025 BREADY, $N_{\text{phân tích}} = 10.476$; mẫu gộp $N = 28.717$), mẫu gộp đơn quốc gia lớn nhất của luận án. Ấn Độ thuộc Nhóm IV ICRV (Chuyển đổi thu nhập trung bình–thấp); cửa sổ 2014–2025 bao trùm chuỗi cú sốc thể chế (bãi bỏ tiền mặt 2016, GST 2017, IBC 2016, UPI 2016, PLI và Atmanirbhar Bharat 2020, COVID-19), tạo điều kiện stress-test cho giả thuyết bền vững ngưỡng.
 
 Mô hình ước lượng OLS với sai số chuẩn vững HC1, gồm số hạng FSTS bậc nhất và bậc hai (centred theo đợt) cùng các tương tác năng lực (TCI, DAI). Ba kiểm định bổ sung: (i) Lind–Mehlum U-test xác nhận U ngược theo từng đợt; (ii) z-test Paternoster (1998) so sánh hệ số giữa 2014 và 2025 (cửa sổ 11 năm chính), báo cáo cả sai số chuẩn HC1 và cụm theo bang; (iii) đặc tả gộp ba đợt với biến giả/xu thế đợt khảo sát làm kiểm định độ vững. Việc UPI ra mắt tháng 4/2016 cung cấp thí nghiệm gần tự nhiên cho bão hòa DAI; riêng đợt 2025 (BREADY) bổ sung chỉ báo Tầng 2 (`k33`, tỷ trọng doanh thu qua thanh toán điện tử) cho phép kiểm định điều tiết DAI Tầng 2, được xử lý như phân tích thăm dò vì chỉ có ở một đợt.
 
 ### 3.4.6 Sai số chuẩn
 
-Tất cả các mô hình đều sử dụng HC1/HC3 robust standard errors (Long & Ervin, 2000; White, 1980) để xử lý phương sai thay đổi. Đối với multi-country, bổ sung clustered SE theo country.
+Tất cả các mô hình đều sử dụng HC1/HC3 sai số chuẩn vững (Long & Ervin, 2000; White, 1980) để xử lý phương sai thay đổi. Đối với multi-country, bổ sung clustered SE theo country.
 
 ### 3.4.6.1 Lựa chọn cấu trúc sai số chuẩn theo thiết kế dữ liệu
 
@@ -614,7 +614,7 @@ Việc tính giới hạn đòi hỏi đặt cận trên cho mức độ giải 
 | Lind–Mehlum U-test | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng country sample và multi-country |
 | Three-way điều tiết | Aiken & West (1991); Dawson (2014) | digital × institutional × manager mới cho châu Á và Pacific |
 | dị biệt theo thời gian | Wu et al. (2022); Xiao et al. (2013); nghiên cứu thành phần P2 | China 2012–2024 stability test (turning point ~47,8% FSTS) |
-| Robust SE | Long & Ervin (2000); White (1980) | Chuẩn |
+| sai số chuẩn vững | Long & Ervin (2000); White (1980) | Chuẩn |
 | lệch lạc công bố | Egger et al. (1997); Begg & Mazumdar (1994) | Chuẩn |
 
 ## 3.7 Đạo đức nghiên cứu
