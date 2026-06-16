@@ -126,7 +126,7 @@ Châu Á hiện được quản lý qua ba cấu trúc khu vực chính của Ng
 - Việt Nam vẫn là **Lower-middle income** (GNI ~$3,760, ngưỡng $4,515)
 - Tư cách vay: **IDA/Blend** — tiếp tục được hưởng điều khoản ưu đãi
 - Nếu GNI per capita vượt $4,515: reclassify lên Upper-middle income, có thể mất tư cách IDA hoàn toàn
-- Tốc độ tăng trưởng GNI ~$200–$300/năm → ước tính reclassify vào FY2027–2028 nếu xu hướng duy trì
+- Tốc độ tăng trưởng GNI ~$200–$300/năm đến ước tính reclassify vào FY2027–2028 nếu xu hướng duy trì
 
 ---
 
@@ -143,7 +143,7 @@ Kết quả trung bình toàn cầu (WBL 2026):
 | **Nhận thức thực thi** (Enforcement perceptions) | 53% | Tự đánh giá mức độ thực thi thực tế |
 
 **Điểm nổi bật Châu Á:**
-- **Türkiye**: tỷ lệ lao động nữ tăng +8 điểm phần trăm trong một thập kỷ (34% → 42%)
+- **Türkiye**: tỷ lệ lao động nữ tăng +8 điểm phần trăm trong một thập kỷ (34% đến 42%)
 - **Nam Á (SAS)**: tỷ lệ tham gia lao động nữ thấp nhất chỉ đạt **32%**; tiềm năng mở khóa **20% tăng trưởng GDP toàn cầu** qua cơ chế "Clear Her Path"
 
 ---

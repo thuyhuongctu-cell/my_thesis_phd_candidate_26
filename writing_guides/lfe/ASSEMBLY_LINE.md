@@ -84,7 +84,7 @@ Every skill writes its output to a physical file. The next skill reads that file
 - Files are **created** as each step completes
 - Files are **read** by the next step as input
 - Files are **archived or deleted** only when the Archivist closes the mission
-- If a session crashes → files remain → next session reads `pipeline_status.md` + existing files → resumes
+- If a session crashes to files remain to next session reads `pipeline_status.md` + existing files to resumes
 
 ---
 
@@ -129,7 +129,7 @@ Each step reads the previous step's coordination file.
 |---|---|---|---|
 | 1 | `/lfe-zoom-out` | Codebase | System context map |
 | 2 | `/lfe-inspector` | `tdd_report.md` | `.plans/inspection_report.md` |
-| 3 | `/lfe-diagnose` (if failed) | Failing behavior | Fix → back to Builder |
+| 3 | `/lfe-diagnose` (if failed) | Failing behavior | Fix to back to Builder |
 
 ## Phase 4: Archivist Sub-Pipeline
 

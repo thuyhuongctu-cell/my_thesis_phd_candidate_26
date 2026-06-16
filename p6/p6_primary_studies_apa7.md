@@ -1,4 +1,4 @@
-# P6 — 62 Nghiên cứu Sơ cấp Bổ sung: Meta-Analysis I→P 1977–2022
+# P6 — 62 Nghiên cứu Sơ cấp Bổ sung: Meta-Analysis I–P 1977–2022
 
 > k=110 studies, K=200 effect sizes, r=0.07, I²=87.88%.
 > File này bổ sung 62 nghiên cứu chưa có trong `thesis/04_references_apa7.md` v2.6.
@@ -153,7 +153,7 @@
 *Effect: r = −0.070, n = 4,217* | [scite](https://scite.ai/reports/10.1177/0894486513510534)
 
 **[S-62]** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014). A synergy effect of internationalization & firm size on performance: US hotel industry. *International Journal of Contemporary Hospitality Management, 26*(1), 35–49. https://doi.org/10.1108/IJCHM-05-2012-0073
-*Effect: r = 0.383, n = 279 | Country: USA (ICRV=I) | Industry: Hotels | IV: foreign hotel assets/total hotel assets → FP: Tobin's Q (MKT) | Panel 1990–2010 | ✅ Xác minh từ bảng trích xuất trong literature review docx (15/05/2026)*
+*Effect: r = 0.383, n = 279 | Country: USA (ICRV=I) | Industry: Hotels | IV: foreign hotel assets/total hotel assets đến FP: Tobin's Q (MKT) | Panel 1990–2010 | Xác minh từ bảng trích xuất trong literature review docx (15/05/2026)*
 
 **[S-63]** Zhou, L., & Wu, A. (2014). Earliness of internationalization and performance outcomes: Exploring the moderating effects of venture age and international commitment. *Journal of World Business, 49*(1), 132–142. https://doi.org/10.1016/j.jwb.2013.04.003
 *Effect: r = 0.150, n = 376* | [scite](https://scite.ai/reports/10.1016/j.jwb.2013.04.003)
@@ -280,40 +280,40 @@ done
 ```
 
 **APA 7th formatting notes:**
-- Journal names: not abbreviated (APA 7th §9.29)
+- Journal names: not abbreviated (APA 7th Mục 9.29)
 - DOI format: https://doi.org/... (not dx.doi.org)
 - Authors: Last, F. M. format; & before final author
-- 21+ authors: list first 19, ellipsis (...), last author (APA 7th §9.8)
+- 21+ authors: list first 19, ellipsis (...), last author (APA 7th Mục 9.8)
 - Issue numbers omitted when journal has continuous pagination
 
 ---
 
 ## Phần 2 — Ứng viên sơ cấp bổ sung 2020–2022 (r chờ trích xuất)
 
-> Xác định qua tổng quan hệ thống mở rộng 2026 (WoS/Scopus đến tháng 1/2026). Tất cả là nghiên cứu thực nghiệm định lượng kiểm định I→P với dữ liệu sơ cấp. **Chưa có r trong MetaEssentials** — cần đọc bài gốc, trích xuất từ Bảng tương quan (bivariate r) hoặc chuyển đổi từ hệ số hồi quy (β → r theo công thức Peterson & Brown, 2005), sau đó nhập vào bảng coding.
+> Xác định qua tổng quan hệ thống mở rộng 2026 (WoS/Scopus đến tháng 1/2026). Tất cả là nghiên cứu thực nghiệm định lượng kiểm định I–P với dữ liệu sơ cấp. **Chưa có r trong MetaEssentials** — cần đọc bài gốc, trích xuất từ Bảng tương quan (bivariate r) hoặc chuyển đổi từ hệ số hồi quy (β đến r theo công thức Peterson & Brown, 2005), sau đó nhập vào bảng coding.
 
 ---
 
 ### Nhóm 2020
 
 **[S-111]** Dikova, D., & Veselova, A. (2020). Performance effects of internationalization: Contingency theory analysis of Russian internationalized firms. *Management and Organization Review, 17*(1), 173–197. https://doi.org/10.1017/mor.2020.39
-*Effect: r = **−0.04** (n=200, COMP, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S204***
+*Effect: r = **−0.04** (n=200, COMP, ACC) — **ĐÃ CÓ trong forest_data.csv: study_id=S204***
 > **Cross-reference:** forest_data.csv row S204: r_i=−0.04, r_lo=−0.178, r_hi=0.099, ICRV=III, cDAI=M, dpl=SPN. Không cần trích xuất thêm.
 
 **[S-112]** Huang, L., & Marciano, D. (2020). Interdependence relationship of internationalization-performance in manufacturing firms listed in Indonesia Stock Exchange and Chinese Stock Exchanges. In *Proceedings of the 17th International Symposium on Management (INSYMA 2020)* (Article 57). https://doi.org/10.2991/aebmr.k.200127.085
-*Effect: r = **0.05** (n=200, FSTS, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S232***
+*Effect: r = **0.05** (n=200, FSTS, ACC) — **ĐÃ CÓ trong forest_data.csv: study_id=S232***
 > **Cross-reference:** forest_data.csv row S232: r_i=0.05, r_lo=−0.089, r_hi=0.187, ICRV=MX, cDAI=M, dpl=SPN. Không cần trích xuất thêm.
 
 **[S-113]** Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and performance of small and medium-sized enterprises from emerging economies. *Competitiveness Review: An International Business Journal, 31*(4), 642–662. https://doi.org/10.1108/cr-03-2019-0028
-*Effect: r = **0.05** (n=150, EXP, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S210***
+*Effect: r = **0.05** (n=150, EXP, ACC) — **ĐÃ CÓ trong forest_data.csv: study_id=S210***
 > **Cross-reference:** forest_data.csv row S210: r_i=0.05, r_lo=−0.111, r_hi=0.209, ICRV=III, cDAI=L, dpl=SPN. Không cần trích xuất thêm.
 
 **[S-114]** Phan, A. T., Tran, T. M., & Lu, T. M. (2020). The existence of W-shaped relationship between internationalization and firm performance: An empirical study of enterprises in Cameroon. *Decision Science Letters, 9*(4), 573–580. https://doi.org/10.5267/j.dsl.2020.7.001
-*Effect: r = **0.03** (n=90, FSTS, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S212***
-> **Cross-reference:** forest_data.csv row S212 (label="Phan, Tran & Lu 2020"): r_i=0.03, r_lo=−0.178, r_hi=0.236, ICRV=FR, cDAI=L, dpl=SPN. Không cần trích xuất thêm. *Lưu ý: W-shape design → forest_data.csv dùng bivariate r tổng thể (n=90 có thể là sub-sample sau khi loại outlier).*
+*Effect: r = **0.03** (n=90, FSTS, ACC) — **ĐÃ CÓ trong forest_data.csv: study_id=S212***
+> **Cross-reference:** forest_data.csv row S212 (label="Phan, Tran & Lu 2020"): r_i=0.03, r_lo=−0.178, r_hi=0.236, ICRV=FR, cDAI=L, dpl=SPN. Không cần trích xuất thêm. *Lưu ý: W-shape design đến forest_data.csv dùng bivariate r tổng thể (n=90 có thể là sub-sample sau khi loại outlier).*
 
 **[S-115]** Wang, G., Zhang, H., Xia, B., Wu, G., & Han, Y. (2020). Relationship between internationalization and financial performance: Evidence from ENR-listed Chinese firms. *Journal of Management in Engineering, 36*(2), Article 04019044. https://doi.org/10.1061/(asce)me.1943-5479.0000736
-*Effect: r = **0.07** (n=150, COMP, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S222***
+*Effect: r = **0.07** (n=150, COMP, ACC) — **ĐÃ CÓ trong forest_data.csv: study_id=S222***
 > **Cross-reference:** forest_data.csv row S222 (label="Wang et al. 2020"): r_i=0.07, r_lo=−0.091, r_hi=0.228, ICRV=III, cDAI=M, dpl=SPN. Không cần trích xuất thêm.
 
 ---
@@ -321,19 +321,19 @@ done
 ### Nhóm 2021
 
 **[S-116]** Barłożewski, K., & Trąpczyński, P. (2021a). Internationalisation motives and the multinationality-performance relationship: The case of Polish firms. *Entrepreneurial Business and Economics Review, 9*(2), 85–104. https://doi.org/10.15678/eber.2021.090206
-*Effect: r = **−0.10** (n=97, FSTS, ACC) — ✅ **TRÍCH XUẤT XONG — thêm vào forest_data.csv: study_id=S236***
-> **Phương pháp trích xuất (15/05/2026):** Không có correlation matrix trong paper. r ước lượng từ partial regression coefficient FSTS→ROA: β=−0.023 (p<0.01, N=729 obs/97 firms), inverted U-shape với turning point FSTS≈12–13%. Bivariate r phỏng tính từ partial r: r_partial≈−0.10 (t≥2.58, df≈717). Toàn bộ sample là Polish listed MNEs (panel 2006–2013). ICRV=MX (Poland post-transition), cDAI=M, dpl=SPN. CI: [−0.29, +0.10] (n=97 firms). **forest_data.csv S236:** r=−0.10, r_lo=−0.29, r_hi=0.10.
+*Effect: r = **−0.10** (n=97, FSTS, ACC) — **TRÍCH XUẤT XONG — thêm vào forest_data.csv: study_id=S236***
+> **Phương pháp trích xuất (15/05/2026):** Không có correlation matrix trong paper. r ước lượng từ partial regression coefficient FSTS đến ROA: β=−0.023 (p<0.01, N=729 obs/97 firms), inverted U-shape với turning point FSTS≈12–13%. Bivariate r phỏng tính từ partial r: r_partial≈−0.10 (t≥2.58, df≈717). Toàn bộ sample là Polish listed MNEs (panel 2006–2013). ICRV=MX (Poland post-transition), cDAI=M, dpl=SPN. CI: [−0.29, +0.10] (n=97 firms). **forest_data.csv S236:** r=−0.10, r_lo=−0.29, r_hi=0.10.
 
 **[S-117]** Barłożewski, K., & Trąpczyński, P. (2021b). Is internationalisation beneficial for novice internationalisers? The performance effects of firm-specific advantages, internationalisation degree and firm size revisited. *Oeconomia Copernicana, 12*(1), 53–75. https://doi.org/10.24136/oc.2021.003
-*Effect: r = **−0.04** (n=304, FSTS, ACC) — ✅ **TRÍCH XUẤT XONG — thêm vào forest_data.csv: study_id=S237***
-> **Phương pháp trích xuất (15/05/2026):** Trực tiếp từ Table 2 (correlation matrix, Annex): r(FSTS_3GR, ROS) = −0.04 (ns), n=304 firms (1,167 firm-year obs), Polish listed novice internationalisers 2010–2013. FSTS_3GR là biến phân loại 3 mức (0/1/2 cho <5%, 5–30%, >30%). FSTS là moderating variable trong paper (FSAs→ROS), nhưng bivariate r với ROS được trích từ correlation matrix. ICRV=MX (Poland post-transition), cDAI=M, dpl=FOL (post-2009). CI: [−0.15, +0.07] (n=304). **forest_data.csv S237:** r=−0.04, r_lo=−0.15, r_hi=0.07.
+*Effect: r = **−0.04** (n=304, FSTS, ACC) — **TRÍCH XUẤT XONG — thêm vào forest_data.csv: study_id=S237***
+> **Phương pháp trích xuất (15/05/2026):** Trực tiếp từ Table 2 (correlation matrix, Annex): r(FSTS_3GR, ROS) = −0.04 (ns), n=304 firms (1,167 firm-year obs), Polish listed novice internationalisers 2010–2013. FSTS_3GR là biến phân loại 3 mức (0/1/2 cho <5%, 5–30%, >30%). FSTS là moderating variable trong paper (FSAs đến ROS), nhưng bivariate r với ROS được trích từ correlation matrix. ICRV=MX (Poland post-transition), cDAI=M, dpl=FOL (post-2009). CI: [−0.15, +0.07] (n=304). **forest_data.csv S237:** r=−0.04, r_lo=−0.15, r_hi=0.07.
 
 **[S-118]** Tsionas, M. G., & Tzeremes, N. G. (2021). The degree of internationalization and firm productivity: Empirical evidence from large multinationals. *British Journal of Management, 32*(4), 1032–1052. https://doi.org/10.1111/1467-8551.12560
-*Effect: r = **0.10** (n=500, COMP, LAB) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S220***
+*Effect: r = **0.10** (n=500, COMP, LAB) — **ĐÃ CÓ trong forest_data.csv: study_id=S220***
 > **Cross-reference:** forest_data.csv row S220: r_i=0.10, r_lo=0.012, r_hi=0.186, ICRV=MX, cDAI=H, dpl=FOL. DV=labour productivity (LAB). Không cần trích xuất thêm.
 
 **[S-119]** Wei, S., & Lin, L. (2021). The relationship between extent of internationalization and firm performance (Taiwan 1992–2017). *Mathematical Problems in Engineering, 2021*, Article 5528972. https://doi.org/10.1155/2021/5528972
-*Effect: r = **0.04** (n=2175, EXP, ACC) + r = **0.05** (n=800, FSTS, MKT) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S108 và S223***
+*Effect: r = **0.04** (n=2175, EXP, ACC) + r = **0.05** (n=800, FSTS, MKT) — **ĐÃ CÓ trong forest_data.csv: study_id=S108 và S223***
 > **Cross-reference:** S108: r_i=0.04, r_lo=−0.002, r_hi=0.082, ICRV=III, cDAI=L, dpl=FOL. S223: r_i=0.05, r_lo=−0.019, r_hi=0.119, ICRV=I, cDAI=M, dpl=SPN. Hai effect sizes cho hai sub-periods hoặc hai DV measures. Không cần trích xuất thêm.
 
 ---
@@ -341,18 +341,18 @@ done
 ### Nhóm 2022
 
 **[S-120]** Cao, X., Li, P., Huang, X., & Fan, L. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from China. *PLoS ONE, 17*(2), Article e0263674. https://doi.org/10.1371/journal.pone.0263674
-*Effect: r = **0.07** (n=400, FSTS, ACC) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S198***
+*Effect: r = **0.07** (n=400, FSTS, ACC) — **ĐÃ CÓ trong forest_data.csv: study_id=S198***
 > **Cross-reference:** forest_data.csv row S198 (label="Cao et al. 2022"): r_i=0.07, r_lo=−0.028, r_hi=0.167, ICRV=III, cDAI=H, dpl=FOL. Không cần trích xuất thêm.
 
 **[S-121]** Schmuck, A., Lagerström, K., & Sallis, J. F. (2022). Turning the tables: The relationship between performance and multinationality. *Management International Review, 62*(1), 3–26. https://doi.org/10.1007/s11575-022-00464-3
-*Effect: r = **0.06** (n=500, FSTS, ACC) + r = **0.08** (n=400, COMP, MKT) — ✅ **ĐÃ CÓ trong forest_data.csv: study_id=S126 và S216***
+*Effect: r = **0.06** (n=500, FSTS, ACC) + r = **0.08** (n=400, COMP, MKT) — **ĐÃ CÓ trong forest_data.csv: study_id=S126 và S216***
 > **Cross-reference:** S126: r_i=0.06, r_lo=−0.028, r_hi=0.147, ICRV=MX, cDAI=H, dpl=FOL. S216 (label="Schmuck et al. (2022a) NA"): r_i=0.08, r_lo=−0.018, r_hi=0.177, ICRV=MX, cDAI=H, dpl=FOL. Hai effect sizes cho hai DV measures (ACC vs MKT). Không cần trích xuất thêm.
 
 ---
 
 ### Ghi chú trích xuất r
 
-Ưu tiên theo thứ tự: (1) Bivariate Pearson r từ correlation matrix table → (2) r từ point-biserial hoặc partial r nếu được báo cáo → (3) Chuyển đổi từ statistics khác:
+Ưu tiên theo thứ tự: (1) Bivariate Pearson r từ correlation matrix table đến (2) r từ point-biserial hoặc partial r nếu được báo cáo đến (3) Chuyển đổi từ statistics khác:
 ```
 r = t / √(t² + df)              # nếu chỉ có t-statistic và df  [ưu tiên]
 r ≈ β × SDx / SDy               # nếu có SD của cả hai biến
@@ -360,65 +360,65 @@ r = √(F / (F + df_resid))       # nếu chỉ có F-statistic (linear term)
 ```
 Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170–176). Sau khi trích xuất, kiểm tra bằng `metafor::escalc()` với measure="COR" hoặc measure="ZPCOR" tùy thiết kế.
 
-**Ghi chú S-62 (ĐÃ GIẢI QUYẾT — 15/05/2026):** Citation đúng là Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49 — nghiên cứu US hotel industry, n=279 firms panel 1990–2010, FP=Tobin's Q (MKT), DOI=foreign hotel assets/total hotel assets. Xác minh từ bảng trích xuất hiệu quả trong literature review docx. forest_data.csv đã cập nhật: fp_type ACC → MKT.
+**Ghi chú S-62 (ĐÃ GIẢI QUYẾT — 15/05/2026):** Citation đúng là Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49 — nghiên cứu US hotel industry, n=279 firms panel 1990–2010, FP=Tobin's Q (MKT), DOI=foreign hotel assets/total hotel assets. Xác minh từ bảng trích xuất hiệu quả trong literature review docx. forest_data.csv đã cập nhật: fp_type ACC đến MKT.
 
-**Lưu ý bổ sung:** Cho & Lee (2018) là bài I→P riêng biệt (FSTS→ROA, Korean SMEs, panel 2003–2013) với r=−0.029 (ns), n=232 firms — đã gộp vào forest_data.csv như entry S238.
+**Lưu ý bổ sung:** Cho & Lee (2018) là bài I–P riêng biệt (FSTS đến ROA, Korean SMEs, panel 2003–2013) với r=−0.029 (ns), n=232 firms — đã gộp vào forest_data.csv như entry S238.
 
 ---
 
 ## Phần 3 — Ứng viên bổ sung 2000–2026 (r cần trích xuất)
 
-> Nguồn: ChatGPT "Top 10 ưu tiên bổ sung" + Danh sách người dùng S-131→S-160 (15/05/2026). Cross-check với forest_data.csv đã xong — chỉ liệt kê các entry MỚI chưa có trong database.
+> Nguồn: ChatGPT "Top 10 ưu tiên bổ sung" + Danh sách người dùng S-131 đến S-160 (15/05/2026). Cross-check với forest_data.csv đã xong — chỉ liệt kê các entry MỚI chưa có trong database.
 
 ### Nhóm A: Eligible primary studies — cần PDF và r-extraction
 
 **[S-122]** Shrader, R. C., Oviatt, B. M., & McDougall, P. P. (2000). How new ventures exploit trade-offs among international risk factors: Lessons for the accelerated internationalization of the 21st century. *Academy of Management Journal, 43*(6), 1227–1247. https://doi.org/10.2307/1556420
-*Effect: r cần trích xuất | n ≈ 87 new ventures | Country: USA | IV: GEO (number markets) → FP: ACC | DPL: PRE*
+*Effect: r cần trích xuất | n ≈ 87 new ventures | Country: USA | IV: GEO (number markets) đến FP: ACC | DPL: PRE*
 
 **[S-123]** Ellis, P. D., & Pecotich, A. (2001). Social factors influencing export initiation in small and medium-sized enterprises. *Journal of Marketing Research, 38*(1), 119–130. https://doi.org/10.1509/jmkr.38.1.119.18833
-*Effect: r cần trích xuất | Country: Hong Kong | IV: EXP (export) → FP: ACC | DPL: PRE*
+*Effect: r cần trích xuất | Country: Hong Kong | IV: EXP (export) đến FP: ACC | DPL: PRE*
 
 **[S-124]** Peng, M. W., & Luo, Y. (2000). Managerial ties and firm performance in a transition economy: The nature of a micro-macro link. *Academy of Management Journal, 43*(3), 486–501. https://doi.org/10.2307/1556406
-*Effect: r cần trích xuất | Country: China | IV: EXP/managerial ties → FP: ACC | DPL: PRE [Ghi chú: cần kiểm tra correlation table — bài tập trung vào managerial ties nhưng có báo cáo r(I,P) không?]*
+*Effect: r cần trích xuất | Country: China | IV: EXP/managerial ties đến FP: ACC | DPL: PRE [Ghi chú: cần kiểm tra correlation table — bài tập trung vào managerial ties nhưng có báo cáo r(I,P) không?]*
 
 **[S-125]** Acedo, F. J., & Jones, M. V. (2007). Speed of internationalization and entrepreneurial cognition: Insights and a comparison between international new ventures, exporters and domestic firms. *Journal of World Business, 42*(3), 236–252. https://doi.org/10.1016/j.jwb.2006.08.004
-*Effect: r cần trích xuất | IV: speed/early internationalization → FP | DPL: PRE*
+*Effect: r cần trích xuất | IV: speed/early internationalization đến FP | DPL: PRE*
 
 **[S-126]** Reuber, A. R., & Fischer, E. (2002). Foreign sales and small firm growth: The moderating role of the management team. *Entrepreneurship Theory and Practice, 27*(1), 29–45. https://doi.org/10.1111/1540-8520.271003
-*Effect: r cần trích xuất | IV: EXP (foreign sales) → FP growth | DPL: PRE [Ghi chú: khác với S167 = Reuber & Fischer 1997; cần kiểm tra có báo cáo r(FSTS,FP) không]*
+*Effect: r cần trích xuất | IV: EXP (foreign sales) đến FP growth | DPL: PRE [Ghi chú: khác với S167 = Reuber & Fischer 1997; cần kiểm tra có báo cáo r(FSTS,FP) không]*
 
 **[S-127]** Papadopoulos, N., & Martín Martín, O. (2010). Toward a model of the relationship between internationalization and export performance. *International Business Review, 19*(4), 388–406. https://doi.org/10.1016/j.ibusrev.2010.02.003
-*Effect: r cần trích xuất (từ SEM path coefficients) | Method: SEM | IV: internationalization level → FP: export performance | ICRV: MX | DPL: FOL*
+*Effect: r cần trích xuất (từ SEM path coefficients) | Method: SEM | IV: internationalization level đến FP: export performance | ICRV: MX | DPL: FOL*
 
 **[S-128]** Pacheco, L. (2019). Internationalization effects on financial performance: The case of Portuguese industrial SMEs. *Journal of Small Business Strategy, 29*(3), 1–14.
-*Effect: r cần trích xuất | Country: Portugal (ICRV=II) | Sample: manufacturing SMEs | IV: export intensity/diversification → FP: profitability (ACC) | DPL: FOL*
+*Effect: r cần trích xuất | Country: Portugal (ICRV=II) | Sample: manufacturing SMEs | IV: export intensity/diversification đến FP: profitability (ACC) | DPL: FOL*
 
 **[S-129]** Nguyen, P. V., Huynh, H. T. N., Trieu, H. D. X., & Ntim, C. G. (2019). Internationalization, strategic slack resources, and firm performance. *Journal of Risk and Financial Management, 12*(3), Article 144. https://doi.org/10.3390/jrfm12030144
-*Effect: r cần trích xuất | Country: Vietnam (ICRV=IV) | IV: DOI (FSTS) → FP (W-shaped noted) | Method: fixed-effects panel | Open access MDPI | DPL: FOL | cDAI: L*
+*Effect: r cần trích xuất | Country: Vietnam (ICRV=IV) | IV: DOI (FSTS) đến FP (W-shaped noted) | Method: fixed-effects panel | Open access MDPI | DPL: FOL | cDAI: L*
 
 **[S-130]** Jie, S., Harms, R., & Jones, M. V. (2023). Capabilities and performance of early internationalizing firms. *Journal of Small Business Management*. https://doi.org/10.1080/00472778.2021.1955124
-*Effect: r cần trích xuất | Focus: early internationalizers | IV: early internationalization degree → FP | DPL: FOL*
+*Effect: r cần trích xuất | Focus: early internationalizers | IV: early internationalization degree đến FP | DPL: FOL*
 
 **[S-131]** Likitwongkajon, N., & Vithessonthi, C. (2023). Internationalization and firm performance. *Global Finance Journal, 56*, Article 100753. https://doi.org/10.1016/j.gfj.2022.100753
-*Effect: r cần trích xuất | Region: Europe 27 countries (ICRV=II mix) | Panel 1990–2016 | IV: FSTS/FATA → FP: ROA/Tobin's Q | Method: IV-2SLS | DPL: SPN | cDAI: H*
+*Effect: r cần trích xuất | Region: Europe 27 countries (ICRV=II mix) | Panel 1990–2016 | IV: FSTS/FATA đến FP: ROA/Tobin's Q | Method: IV-2SLS | DPL: SPN | cDAI: H*
 
 **[S-132]** Luu, T. D., Trinh, A. L., Nguyen, T. P. B., & Vu, N. V. (2022). Degree of internationalisation and firm performance: The flattening role of organisational slack resources. *Review of International Business and Strategy, 32*(4), 537–556. https://doi.org/10.1108/RIBS-04-2021-0068
-*Effect: r cần trích xuất | Region: Asia emerging markets (ICRV=III/IV) | IV: DOI → FP | Moderator: org slack | DPL: FOL*
+*Effect: r cần trích xuất | Region: Asia emerging markets (ICRV=III/IV) | IV: DOI đến FP | Moderator: org slack | DPL: FOL*
 
 **[S-133]** Arbelo, A., Arbelo-Pérez, M., & Pérez-Gómez, P. (2024). Internationalization and individual firm performance: A resource-based view. *Journal of the Knowledge Economy*. https://doi.org/10.1007/s40821-024-00276-5
-*Effect: r cần trích xuất | Country: Spain (ICRV=II) | Theory: RBV | IV: internationalization → FP: individual firm performance | DPL: FOL | cDAI: H*
+*Effect: r cần trích xuất | Country: Spain (ICRV=II) | Theory: RBV | IV: internationalization đến FP: individual firm performance | DPL: FOL | cDAI: H*
 
 **[S-134]** Özdemir, E., Ersöz, H. Y., & Sarıoğlu, H. İ. (2017). The effects of the degree of internationalization on export performance. *Business and Economics Research Journal, 8*(3), 611–626. https://doi.org/10.20409/berj.2017321547
-*Effect: r cần trích xuất | Country: Turkey (ICRV=III) | IV: DOI → FP: export performance [⚠️ DV = export performance, không phải financial performance — cần xem tiêu chí gộp P6]*
+*Effect: r cần trích xuất | Country: Turkey (ICRV=III) | IV: DOI đến FP: export performance [⚠️ DV = export performance, không phải financial performance — cần xem tiêu chí gộp P6]*
 
 **[S-135]** Hussain, W., et al. (2026). Internationalization channels and firm financial performance: The moderating role of ESG initiatives. *Environment, Development and Sustainability*. https://doi.org/10.1007/s10668-026-07324-2
-*Effect: r cần trích xuất | Region: Asia-Pacific (ICRV=MX) | IV: FSTS/FATA → FP | Moderator: ESG | Method: 2SLS | DPL: FOL | cDAI: H [⚠️ 2026 pub — kiểm tra availability]*
+*Effect: r cần trích xuất | Region: Asia-Pacific (ICRV=MX) | IV: FSTS/FATA đến FP | Moderator: ESG | Method: 2SLS | DPL: FOL | cDAI: H [⚠️ 2026 pub — kiểm tra availability]*
 
 **[S-136]** Różański, J. (2025). Internationalisation and the financial performance of Asian food companies. *Folia Oeconomica Stetinensia, 25*(1), 259–274. https://doi.org/10.2478/foli-2025-0014
-*Effect: r cần trích xuất | Region: Asia (food sector, ICRV=MX) | IV: internationalization → FP: EBITDA/market cap | DPL: FOL*
+*Effect: r cần trích xuất | Region: Asia (food sector, ICRV=MX) | IV: internationalization đến FP: EBITDA/market cap | DPL: FOL*
 
 **[S-137]** Cho, J., & Lee, J. (2018). Internationalization and performance of Korean SMEs: The moderating role of competitive strategy. *Asian Business & Management, 17*(2), 140–166. https://doi.org/10.1057/s41291-017-0035-9
-*Effect: r = **−0.029** (Table 4 bivariate Pearson r(FSTS,ROA)) | n = 232 firms (2,320 obs) | Country: Korea (ICRV=I) | IV: FSTS → FP: ROA (ACC) | Panel 2003–2013 | Method: Fixed-effects + GMM + SSIV | S-curve (cubic FSTS significant) | cDAI=H, DPL=SPN* ✅ **PDF đã đọc 15/05/2026 — r đã xác nhận, KHÔNG phải S-62 | forest_data.csv: S238** (CI=[−0.16, +0.10])
+*Effect: r = **−0.029** (Table 4 bivariate Pearson r(FSTS,ROA)) | n = 232 firms (2,320 obs) | Country: Korea (ICRV=I) | IV: FSTS đến FP: ROA (ACC) | Panel 2003–2013 | Method: Fixed-effects + GMM + SSIV | S-curve (cubic FSTS significant) | cDAI=H, DPL=SPN* **PDF đã đọc 15/05/2026 — r đã xác nhận, KHÔNG phải S-62 | forest_data.csv: S238** (CI=[−0.16, +0.10])
 
 ---
 
@@ -426,15 +426,15 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 
 | Nghiên cứu | Lý do loại |
 |------------|-----------|
-| Bausch & Krist (2007) *MIR* | Meta-analysis của I→P, không phải primary study |
+| Bausch & Krist (2007) *MIR* | Meta-analysis của I–P, không phải primary study |
 | Schwens, Zapkau et al. (2017) *ETP* | Meta-analysis |
 | Marano, Arregle, Hitt et al. (2016) *J.Mgmt* | Meta-analysis |
 | Wu, Fan & Chen (2022) *MIR* | Meta-analysis (EMNE) |
 | Aydemir & Alper (2024) *IJMEB* | Meta-analysis |
 | Calheiros-Lobo et al. (2023) *Sustainability* | Systematic literature review — không có primary effect size |
-| Jung & Bansal (2009) *MIR* | Chiều ngược: FP→I (performance drives internationalization), không phải I→FP |
+| Jung & Bansal (2009) *MIR* | Chiều ngược: FP đến I (performance drives internationalization), không phải I đến FP |
 
-*Lưu ý: Bausch & Krist (2007), Schwens et al. (2017), Marano et al. (2016), Wu et al. (2022), Aydemir & Alper (2024) CÓ THỂ được trích dẫn như comparison meta-analyses trong §Introduction và §Discussion của P6 manuscript.*
+*Lưu ý: Bausch & Krist (2007), Schwens et al. (2017), Marano et al. (2016), Wu et al. (2022), Aydemir & Alper (2024) CÓ THỂ được trích dẫn như comparison meta-analyses trong Mục Introduction và Mục Discussion của P6 manuscript.*
 
 ---
 
@@ -457,33 +457,33 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 
 > **Nguồn:** Người dùng cung cấp 15/05/2026. Đây là batch papers về tốc độ quốc tế hóa (internationalization speed) và born-global firms. Cross-check với forest_data.csv và tiêu chí đủ điều kiện PICO.
 
-### Nhóm B: Loại trừ — Không đủ điều kiện I→P meta-analysis
+### Nhóm B: Loại trừ — Không đủ điều kiện I–P meta-analysis
 
 > ⚠️ **Ghi chú số thứ tự (16/05/2026):** Nhãn [S-138] và [S-139] trong file này là nhãn *tạm thời* cho hai ứng viên Nhóm A. Tuy nhiên, trong `forest_data.csv` số S138 và S139 đã được gán cho **Tallman & Li (1996)** và **Aulakh, Kotabe & Teegen (2000)** — hai bài đã được code và đưa vào phân tích. Hai ứng viên dưới đây (Autio 2000 và Knight & Cavusgil 2004) đã được đánh giá là **không đủ điều kiện PICO** và được chuyển sang Nhóm B, không cần gán số S-.
 
 | Nghiên cứu | Lý do loại |
 |------------|-----------|
-| Autio, E., Sapienza, H. J., & Almeida, J. G. (2000). Effects of age at entry, knowledge intensity, and imitability on international growth. *AMJ, 43*(5), 909–924. | IV = age at entry / knowledge intensity (không phải DOI); DV = international growth rate (tốc độ tăng trưởng quốc tế, không phải firm performance). PICO: P không thoả — không phải I→FP |
-| Knight, G. A., & Cavusgil, S. T. (2004). Innovation, organizational capabilities, and the born-global firm. *JIBS, 35*(2), 124–141. | IV = innovation + intl marketing capabilities (không phải DOI/FSTS). DV = export performance. Đây là capabilities→FP, không phải DOI→FP. PICO: I không thoả |
-| Prashantham, S., & Young, S. (2011). Post-entry speed of international new ventures. *ETP, 35*(2), 275–292. | Speed of internationalization (DV), không phải DOI→FP |
+| Autio, E., Sapienza, H. J., & Almeida, J. G. (2000). Effects of age at entry, knowledge intensity, and imitability on international growth. *AMJ, 43*(5), 909–924. | IV = age at entry / knowledge intensity (không phải DOI); DV = international growth rate (tốc độ tăng trưởng quốc tế, không phải firm performance). PICO: P không thoả — không phải I đến FP |
+| Knight, G. A., & Cavusgil, S. T. (2004). Innovation, organizational capabilities, and the born-global firm. *JIBS, 35*(2), 124–141. | IV = innovation + intl marketing capabilities (không phải DOI/FSTS). DV = export performance. Đây là capabilities đến FP, không phải DOI đến FP. PICO: I không thoả |
+| Prashantham, S., & Young, S. (2011). Post-entry speed of international new ventures. *ETP, 35*(2), 275–292. | Speed of internationalization (DV), không phải DOI đến FP |
 | Casillas, J. C., & Acedo, F. J. (2013). Speed in the internationalization process of the firm. *IJMR, 15*(1), 15–29. | Review paper về speed; không có primary effect size |
 | Chetty, S., Johanson, M., & Martín Martín, O. (2014). Speed of internationalization. *JWB, 49*(4), 513–523. | Conceptual + measurement paper về speed |
 | Weerawardena, J., Sullivan Mort, G., Liesch, P. W., & Knight, G. (2007). Conceptualizing accelerated internationalization. *JWB, 42*(3), 294–306. | Conceptual framework — không empirical |
 | Oviatt, B. M., & McDougall, P. P. (2005). Defining international entrepreneurship and modeling the speed. *ETP, 29*(5), 537–554. | Conceptual/definitional — không empirical r |
 | Sapienza, H. J., Autio, E., George, G., & Zahra, S. A. (2006). A capabilities perspective on the effects of early internationalization. *AMR, 31*(4), 914–933. | AMR = theoretical review; không có empirical r |
 | Freeman, S., Edwards, R., & Schroder, B. (2006). How smaller born-global firms use networks. *JIM, 14*(3), 33–54. | Qualitative case study — không có extractable r |
-| Acedo, F. J., & Jones, M. V. (2007). Speed of internationalization. *JWB, 42*(3), 253–267. | Speed, không phải DOI→FP; đã liệt kê S-125 Phần 3 |
+| Acedo, F. J., & Jones, M. V. (2007). Speed of internationalization. *JWB, 42*(3), 253–267. | Speed, không phải DOI đến FP; đã liệt kê S-125 Phần 3 |
 
 ---
 
 **Tóm tắt tiến độ (v2.8, 16/05/2026):**
-- Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
-- Phần 2: 11 ứng viên mới (S-111 → S-121) — **HOÀN THÀNH**: 11/11 đã có r-value
-  - ✅ S-116 → **S236** (r=−0.10); S-117 → **S237** (r=−0.04)
-- Phần 3: 16 ứng viên (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 → **S238** (r=−0.029); 15 còn lại cần PDF
-- Phần 4: 10 ứng viên (2 Nhóm A + 8 Nhóm B) — **HOÀN THÀNH**: Autio (2000) và Knight & Cavusgil (2004) đã đánh giá là **LOẠI TRỪ** (PICO không thoả — không phải DOI→FP)
+- Phần 1: 62 nghiên cứu gốc (S-01 đến S-110) — r đã có từ MetaEssentials Excel
+- Phần 2: 11 ứng viên mới (S-111 đến S-121) — **HOÀN THÀNH**: 11/11 đã có r-value
+  - S-116 đến **S236** (r=−0.10); S-117 đến **S237** (r=−0.04)
+- Phần 3: 16 ứng viên (S-122 đến S-137) — **1 HOÀN THÀNH**: S-137 đến **S238** (r=−0.029); 15 còn lại cần PDF
+- Phần 4: 10 ứng viên (2 Nhóm A + 8 Nhóm B) — **HOÀN THÀNH**: Autio (2000) và Knight & Cavusgil (2004) đã đánh giá là **LOẠI TRỪ** (PICO không thoả — không phải DOI đến FP)
 - forest_data.csv: **288 data rows, k=238 studies** (S238 mới nhất; Cho & Lee 2018, Korea, FSTS, r=−0.029)
-- ✅ **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC → MKT.
+- **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC đến MKT.
 
 ---
 
@@ -495,11 +495,11 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 
 | Nhãn | Nghiên cứu (APA 7) | Mẫu | Ghi chú PICO |
 |------|-------------------|-----|-------------|
-| [S-140] | Agyare, A., Gyeke-Dako, A., & Agbolosu, A. (2023). The effect of internationalization on firm performance and firm value. *Global Finance Journal, 55*, 100750. | 1,280 firms, 27 European countries, 1990–2016 | IV=DOI, DV=firm performance + firm value (ACC + MKT). ✅ Extractable r or β. ICRV=mix Advanced + Upper-middle. |
-| [S-141] | Hussain, S. A., Khan, M. A., & [co-authors]. (2026). Internationalization, ESG performance, and financial performance in Asia-Pacific firms. *Environment, Development and Sustainability*. [Advance online]. | 1,708 Asia-Pacific firms, 2002–2023 | IV=exports + FDI (DOI channels), DV=financial performance (ACC likely). ✅ PICO OK. Moderator=ESG — can extract main DOI→FP effect. |
-| [S-142] | Andreu, L., Claver, E., Quer, D., & [co-authors]. (2025). Intellectual capital as mediator between internationalization and firm performance in hotel firms. *Journal of Business Research, [vol]*, [pages]. | Spanish hotel firms, 2009–2019 | IV=internationalization, DV=firm performance. ✅ PICO OK. Mediator=intellectual capital (extract total/direct effect). |
-| [S-143] | Castor, X., [co-authors]. (2024). Heterogeneous effects of internationalization on firm efficiency: A Bayesian frontier approach. *Eurasian Business Review, [vol]*, [pages]. | 267 Spanish manufacturing firms | IV=internationalization, DV=efficiency (Bayesian frontier = ACC measure). ✅ PICO OK. Small n=267; frontier efficiency r or β extractable. |
-| [S-144] | Matsubara, T. (2025). International diversification and firm performance among Japanese manufacturing firms. *MMRC Discussion Paper, 568*. Management Research Center, University of Tokyo. | 2,675 obs, Japanese manufacturing, 2017–2023 | IV=internationalization (alongside diversification), DV=firm performance. ⚠️ Grey lit (discussion paper). Need to verify DOI→FP β is separately identified from diversification. ICRV=Advanced (Japan). |
+| [S-140] | Agyare, A., Gyeke-Dako, A., & Agbolosu, A. (2023). The effect of internationalization on firm performance and firm value. *Global Finance Journal, 55*, 100750. | 1,280 firms, 27 European countries, 1990–2016 | IV=DOI, DV=firm performance + firm value (ACC + MKT). Có Extractable r or β. ICRV=mix Advanced + Upper-middle. |
+| [S-141] | Hussain, S. A., Khan, M. A., & [co-authors]. (2026). Internationalization, ESG performance, and financial performance in Asia-Pacific firms. *Environment, Development and Sustainability*. [Advance online]. | 1,708 Asia-Pacific firms, 2002–2023 | IV=exports + FDI (DOI channels), DV=financial performance (ACC likely). Có PICO OK. Moderator=ESG — can extract main DOI đến FP effect. |
+| [S-142] | Andreu, L., Claver, E., Quer, D., & [co-authors]. (2025). Intellectual capital as mediator between internationalization and firm performance in hotel firms. *Journal of Business Research, [vol]*, [pages]. | Spanish hotel firms, 2009–2019 | IV=internationalization, DV=firm performance. Có PICO OK. Mediator=intellectual capital (extract total/direct effect). |
+| [S-143] | Castor, X., [co-authors]. (2024). Heterogeneous effects of internationalization on firm efficiency: A Bayesian frontier approach. *Eurasian Business Review, [vol]*, [pages]. | 267 Spanish manufacturing firms | IV=internationalization, DV=efficiency (Bayesian frontier = ACC measure). Có PICO OK. Small n=267; frontier efficiency r or β extractable. |
+| [S-144] | Matsubara, T. (2025). International diversification and firm performance among Japanese manufacturing firms. *MMRC Discussion Paper, 568*. Management Research Center, University of Tokyo. | 2,675 obs, Japanese manufacturing, 2017–2023 | IV=internationalization (alongside diversification), DV=firm performance. ⚠️ Grey lit (discussion paper). Need to verify DOI đến FP β is separately identified from diversification. ICRV=Advanced (Japan). |
 
 > **Yêu cầu PDF:** Tất cả 5 nghiên cứu Nhóm A cần PDF gốc để trích xuất r (hoặc β + SE + n để tính r). Nếu r trích được, gán S239–S243 và thêm vào forest_data.csv.
 
@@ -508,20 +508,20 @@ Tham khảo: Peterson & Brown (2005, *Journal of Applied Psychology, 90*(1), 170
 | Nghiên cứu | Lý do loại |
 |-----------|-----------|
 | Han, M., & Wu, J. (2023). Internationalization and earnings management: Evidence from Chinese listed firms. *Finance Research Letters, [vol]*, [article]. | **DV = earnings management** (accrual-based) — không phải firm performance (FP). Đo lường chất lượng kế toán, không phải hiệu quả hoạt động. PICO: O không thoả. |
-| Hussain, S. S., & Luqman, A. (2024). ESG disclosure, internationalization, and firm financial performance in Asia-Pacific emerging economies. *Journal of International Studies, 17*(X), XXX. | **DOI = biến điều tiết (moderator)**, không phải IV. Quan hệ chính: ESG → FP; quốc tế hoá làm yếu tố điều tiết. PICO: I không thoả (cần DOI là IV). |
+| Hussain, S. S., & Luqman, A. (2024). ESG disclosure, internationalization, and firm financial performance in Asia-Pacific emerging economies. *Journal of International Studies, 17*(X), XXX. | **DOI = biến điều tiết (moderator)**, không phải IV. Quan hệ chính: ESG đến FP; quốc tế hoá làm yếu tố điều tiết. PICO: I không thoả (cần DOI là IV). |
 | Li, R., & Huang, J. (2025). Internationalization degree and debt maturity mismatch: Evidence from Chinese manufacturing firms. *Finance Research Letters, [vol]*, [article]. | **DV = debt maturity mismatch** (chênh lệch kỳ hạn nợ) — chỉ số rủi ro tài chính, không phải firm performance. PICO: O không thoả. |
 | Xu, Y., [co-authors]. (2025). Internationalization and asset-liability maturity mismatch: Evidence from Chinese firms. *Research in International Business and Finance, [vol]*, [article]. | **DV = asset-liability maturity gap** — chỉ số cấu trúc vốn/rủi ro, không phải firm performance. PICO: O không thoả. |
 
 ---
 
 **Tóm tắt tiến độ (v2.9, 16/05/2026):**
-- Phần 1: 62 nghiên cứu gốc (S-01 → S-110) — r đã có từ MetaEssentials Excel
-- Phần 2: 11 ứng viên mới (S-111 → S-121) — **HOÀN THÀNH**: 11/11 đã có r-value
-  - ✅ S-116 → **S236** (r=−0.10); S-117 → **S237** (r=−0.04)
-- Phần 3: 16 ứng viên (S-122 → S-137) — **1 HOÀN THÀNH**: S-137 → **S238** (r=−0.029); 15 còn lại cần PDF
+- Phần 1: 62 nghiên cứu gốc (S-01 đến S-110) — r đã có từ MetaEssentials Excel
+- Phần 2: 11 ứng viên mới (S-111 đến S-121) — **HOÀN THÀNH**: 11/11 đã có r-value
+  - S-116 đến **S236** (r=−0.10); S-117 đến **S237** (r=−0.04)
+- Phần 3: 16 ứng viên (S-122 đến S-137) — **1 HOÀN THÀNH**: S-137 đến **S238** (r=−0.029); 15 còn lại cần PDF
 - Phần 4: 10 ứng viên (2 Nhóm A + 8 Nhóm B) — **HOÀN THÀNH**: Autio (2000) và Knight & Cavusgil (2004) đã đánh giá là **LOẠI TRỪ** (PICO không thoả)
-- Phần 5: 9 ứng viên (5 Nhóm A + 4 Nhóm B) — **MỚI 16/05/2026**: 5 cần PDF để trích r (S-140→S-144); 4 loại trừ PICO
+- Phần 5: 9 ứng viên (5 Nhóm A + 4 Nhóm B) — **MỚI 16/05/2026**: 5 cần PDF để trích r (S-140 đến S-144); 4 loại trừ PICO
 - forest_data.csv: **288 data rows, k=238 studies** (S238 mới nhất)
-- ✅ **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC → MKT.
+- **S-62 ĐÃ GIẢI QUYẾT:** Lee, S., Upneja, A., Özdemir, Ö., & Sun, K. A. (2014), IJCHM 26(1):35–49, US hotels, n=279, r=0.383, Tobin's Q. forest_data.csv: fp_type đã sửa ACC đến MKT.
 
 *File v2.9 — 16/05/2026. Cập nhật: (1) Thêm Phần 5 — 9 ứng viên 2023–2026; 5 Nhóm A (S-140–S-144, cần PDF) + 4 Nhóm B (PICO fail — DV không phải FP hoặc DOI không phải IV); (2) Mọi counts khác không thay đổi: k=238, K=288.*

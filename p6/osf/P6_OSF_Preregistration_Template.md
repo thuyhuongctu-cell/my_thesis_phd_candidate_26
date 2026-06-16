@@ -3,7 +3,7 @@
 **Title:** Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis
 
 > **Registration type:** Secondary-data / meta-analysis registration.
-> **Status:** DRAFT — ready to submit to OSF. Insert the OSF URL + DOI + timestamp here after registering, then paste the same identifier into the manuscript Methods §3 and the PRISMA checklist.
+> **Status:** DRAFT — ready to submit to OSF. Insert the OSF URL + DOI + timestamp here after registering, then paste the same identifier into the manuscript Methods Mục 3 and the PRISMA checklist.
 > **Transparency disclosure:** Effect-size extraction from the working corpus is already complete. This is therefore a *transparency registration of an analysis plan applied to existing data* (not an a-priori, data-blind pre-registration); this is disclosed honestly here and should be stated as such in the manuscript.
 > **Prepared by:** Đỗ Thùy Hương, Can Tho University, Vietnam.
 
@@ -14,18 +14,18 @@
 - **Phan Anh Tú** — College of Economics, Can Tho University, Vietnam · patu@ctu.edu.vn · ORCID 0000-0003-0667-3137
 
 ## 2. Research questions
-- **RQ1 (Baseline).** What is the pooled internationalization→firm-performance (I→P) effect size (r̄, 95% CI), and how is heterogeneity distributed within vs. between studies (I²₍₂₎, I²₍₃₎) in a three-level model?
-- **RQ2 (ICRV).** Do pooled I→P effects vary across **Institutional Context Regime Variation (ICRV)** regimes?
-- **RQ3 (cDAI).** Does **country-level Digital Adoption (cDAI, 0–1)** moderate the I→P relationship?
-- **RQ4 (DPL).** Does **Digital Paradox Lifecycle (DPL)** phase (temporal) moderate the I→P relationship?
+- **RQ1 (Baseline).** What is the pooled internationalization đến firm-performance (I–P) effect size (r̄, 95% CI), and how is heterogeneity distributed within vs. between studies (I²₍₂₎, I²₍₃₎) in a three-level model?
+- **RQ2 (ICRV).** Do pooled I–P effects vary across **Institutional Context Regime Variation (ICRV)** regimes?
+- **RQ3 (cDAI).** Does **country-level Digital Adoption (cDAI, 0–1)** moderate the I–P relationship?
+- **RQ4 (DPL).** Does **Digital Paradox Lifecycle (DPL)** phase (temporal) moderate the I–P relationship?
 - **RQ5 (Publication bias).** Is the literature affected by selective reporting, and what is the bias-adjusted effect?
 
 ## 3. Hypotheses
-- **H1 (ICRV between-regime).** Pooled I→P effect sizes vary systematically across ICRV regimes; the between-regime Q_M test is significant (p < .05), with Advanced-regime (ICRV-I) studies expected to show the largest average effect.
+- **H1 (ICRV between-regime).** Pooled I–P effect sizes vary systematically across ICRV regimes; the between-regime Q_M test is significant (p < .05), with Advanced-regime (ICRV-I) studies expected to show the largest average effect.
 - **E1a (exploratory).** Advanced-regime (ICRV-I) studies show the largest pooled effect.
 - **E1b (exploratory).** Frontier-regime (ICRV-FR) studies show the smallest (possibly null/negative) effect. Treated as exploratory given small Frontier k.
-- **H2 (DPL phase).** Studies drawing predominantly on post-2014 data (Follow phase) show larger pooled I→P effects than pre-2009 (Precede) studies, with Span intermediate; between-phase Q_M significant.
-- **H3 (cDAI amplification).** Studies from high-cDAI contexts show larger pooled I→P effects than low-cDAI contexts (between-group Q_M significant), concentrated in the Follow phase.
+- **H2 (DPL phase).** Studies drawing predominantly on post-2014 data (Follow phase) show larger pooled I–P effects than pre-2009 (Precede) studies, with Span intermediate; between-phase Q_M significant.
+- **H3 (cDAI amplification).** Studies from high-cDAI contexts show larger pooled I–P effects than low-cDAI contexts (between-group Q_M significant), concentrated in the Follow phase.
 - **H4 (Publication bias).** Selective reporting inflates the raw pooled effect: (a) funnel asymmetry (Egger, Begg) significant; (b) trim-and-fill yields a smaller but still positive adjusted estimate; (c) Orwin fail-safe N exceeds the negligibility threshold.
 
 ## 4. Eligibility criteria (PICOS)
@@ -54,7 +54,7 @@ An equivalent Scopus `TITLE-ABS-KEY` string with `DOCTYPE(ar) AND LANGUAGE(engli
 The **two authors** independently apply the eligibility criteria in two stages, (L1) title/abstract and (L2) full text, resolving disagreements by discussion following a predetermined rule. Decisions and exclusion reasons are logged for the PRISMA 2020 flow diagram ("studies identified via other methods" variant).
 
 ## 7. Data extraction & coding
-**Effect-size priority order:** (1) Pearson r (as-is); (2) standardized β → r_partial = β × 0.98 (Peterson & Brown, 2005); (3) t with N → r = √[t²/(t²+df)] (Cohen, 1988); (4) F with df₁ = 1 → r = √[F/(F+df₂)] (Rosenthal, 1994). For multiple effects per study, distinct subsamples are coded as independent effects; for multiple specifications on one sample, the most fully controlled model is retained.
+**Effect-size priority order:** (1) Pearson r (as-is); (2) standardized β đến r_partial = β × 0.98 (Peterson & Brown, 2005); (3) t with N đến r = √[t²/(t²+df)] (Cohen, 1988); (4) F with df₁ = 1 đến r = √[F/(F+df₂)] (Rosenthal, 1994). For multiple effects per study, distinct subsamples are coded as independent effects; for multiple specifications on one sample, the most fully controlled model is retained.
 
 **Moderator coding (aligned to the final manuscript):**
 
@@ -102,13 +102,13 @@ None declared. No specific grant from any public, commercial, or not-for-profit 
 ---
 
 ## How to register on OSF (≈15–20 min)
-1. Sign in at **https://osf.io** → **Create new project**: "P6 I→P Meta-Analysis: ICRV, cDAI, DPL Moderators".
+1. Sign in at **https://osf.io** đến **Create new project**: "P6 I–P Meta-Analysis: ICRV, cDAI, DPL Moderators".
 2. Upload this file + the coded database + the R scripts to the project's **Files**.
-3. Open the **Registrations** tab → **New registration** → choose **"Open-Ended Registration"** (or "Preregistration") template.
+3. Open the **Registrations** tab đến **New registration** đến choose **"Open-Ended Registration"** (or "Preregistration") template.
 4. Paste sections 1–11 above into the form.
 5. **Submit.** OSF time-stamps and locks the registration and issues a URL + DOI (e.g., `https://osf.io/XXXXX`, `10.17605/OSF.IO/XXXXX`).
 6. Paste that URL + DOI back into:
    - the header of this file (Status line),
-   - the manuscript Methods §3 (replace "registration identifier will be inserted at acceptance"),
+   - the manuscript Methods Mục 3 (replace "registration identifier will be inserted at acceptance"),
    - the data-availability statement and PRISMA checklist.
 7. Because the data were already collected, tick/disclose the OSF "data already collected" option so the registration is honest.

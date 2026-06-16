@@ -38,8 +38,8 @@ open http://localhost:3000
 
 | Method | Path | Description |
 |--------|------|-------------|
-| POST | `/api/extract` | Base64 PDF body → extracted effect size |
-| POST | `/api/extract/upload` | Multipart PDF upload → extracted effect size |
+| POST | `/api/extract` | Base64 PDF body đến extracted effect size |
+| POST | `/api/extract/upload` | Multipart PDF upload đến extracted effect size |
 | GET | `/api/studies` | List studies (filter: icrv, dpl, verified, locked) |
 | GET | `/api/studies/{id}` | Single study detail |
 | PATCH | `/api/studies/{id}/verify` | PI field overrides + approval |
@@ -51,8 +51,8 @@ open http://localhost:3000
 ## Extraction Workflow
 
 1. **Parse** — PDF text extracted via MuPDF, segmented into statistical regions
-2. **Identify** — LLM locates the focal I→P coefficient (not interactions/controls); moderators ICRV/DPL/cDAI are left blank for PI assignment from lookup tables
-3. **Convert** — Hierarchy: direct *r* → *r* from *t* → *r*_partial from β (Peterson & Brown, 2005)
+2. **Identify** — LLM locates the focal I–P coefficient (not interactions/controls); moderators ICRV/DPL/cDAI are left blank for PI assignment from lookup tables
+3. **Convert** — Hierarchy: direct *r* đến *r* from *t* đến *r*_partial from β (Peterson & Brown, 2005)
 4. **Verify** — PI reviews each field; confidence < 0.70 is mandatory review
 5. **Lock** — PI data lock is cryptographically timestamped and irreversible
 

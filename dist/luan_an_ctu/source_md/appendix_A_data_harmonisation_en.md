@@ -17,8 +17,8 @@ firm sample spanning many economies and survey rounds. The data are **repeated
 cross-sections**, not a balanced panel: each WBES round draws an *independent* random
 sample of firms from the economy's frame at that time and does not track the same
 firm over time (Deaton, 1985; Verbeek, 2008). This property governs the entire
-pooling and identification strategy below. Appendix A complements Chapter 3 (§3.3) at
-the level of operational detail: whereas §3.3 states the data source and variable
+pooling and identification strategy below. Appendix A complements Chapter 3 (Section 3.3) at
+the level of operational detail: whereas Section 3.3 states the data source and variable
 definitions, Appendix A documents every transformation from 119 raw survey files to
 the final analytic sample, together with the rationale for each filtering and
 harmonisation decision.
@@ -54,7 +54,7 @@ reconstruction and audit (Page et al., 2021).
 | **S2** | De-duplication | One survey per (economy × year) pair | — |
 | **S3** | Variable harmonisation | Map heterogeneous questionnaire fields to a common schema (A.4) | — |
 | **S4** | Missing-code treatment | Recode WBES non-response codes (−9 *Don't Know*, −8 *Refusal*, −7 *N/A*) to missing; range-validate | — |
-| **S5** | Institutional stratification (ICRV) | Assign regime; restrict to the **49-economy** Asia-Pacific frame | Classification pool = **96,415** firms (52 economies) → 49-economy frame = **91,864** firms |
+| **S5** | Institutional stratification (ICRV) | Assign regime; restrict to the **49-economy** Asia-Pacific frame | Classification pool = **96,415** firms (52 economies) to 49-economy frame = **91,864** firms |
 | **S6** | Listwise analytic sample | Drop records missing the dependent variable or focal regressor | Analytic sample = **91,982**; M2 regression N = **84,910**; full-control M5 = **38,342** |
 
 *Official counts from the dissertation's pooled file (`data_wbes/p7/p7_pooled_clean.csv`):
@@ -93,7 +93,7 @@ construction rules:
 
 - **Labour productivity (primary dependent variable):** $\ln(\text{LP}) = \ln(\text{annual sales} / \text{full-time permanent employees})$, from field `d2` (total sales, last fiscal year) and `l1` (permanent workers). Labour productivity is appropriate for WBES, which lacks market prices (Combs et al., 2005; Richard et al., 2009).
 - **Internationalisation intensity (FSTS):** sum of direct and indirect exports as a share of sales, from `d3b` + `d3c`, range-bounded to [0, 100]. Non-exporting firms receive FSTS = 0 (a valid value, not missing).
-- **Technological capability (TCI) and digital adoption (DAI):** constructed from binary indicators (internationally recognised quality certification `b8`; licensed foreign technology; website `c22b`; e-mail; electronic payment), kept conceptually distinct per the construct-purity argument in §2.1.3 and Coltman et al. (2008).
+- **Technological capability (TCI) and digital adoption (DAI):** constructed from binary indicators (internationally recognised quality certification `b8`; licensed foreign technology; website `c22b`; e-mail; electronic payment), kept conceptually distinct per the construct-purity argument in Section 2.1.3 and Coltman et al. (2008).
 - **Controls:** firm age (from `b5`), size (log employment), foreign ownership, top-manager characteristics, ISIC sector.
 
 ## A.5 Currency comparability — the problem and the solution
@@ -120,7 +120,7 @@ An important methodological consequence: for this reason, **raw cross-country
 productivity-level comparisons are excluded from inference**; inter-regime (ICRV)
 comparisons in Chapter 4 use only **dispersion** (PPP/winsorised within country-year)
 and the **turning-point gradient**—quantities invariant to currency units (see
-§4.1.1). Where cross-country **level** comparison is required, the dissertation uses a
+Section 4.1.1). Where cross-country **level** comparison is required, the dissertation uses a
 dimensionless ratio (e.g., ROS) or purchasing-power-parity adjustment via the Penn
 World Table (Feenstra et al., 2015).
 

@@ -47,19 +47,19 @@ Phân loại: 🔴 chặn cứng (phải làm trước khi nộp) · 🟠 cần 
 | Paper | Đích | Sẵn sàng | Việc còn lại trước khi nộp |
 |---|---|---|---|
 | **P9 Ấn Độ** | MIR / IJOEM | ⭐ Cao nhất | A1, A2; format Springer; thừa nhận cross-section (đã có); OSF. **Nộp sớm nhất.** |
-| **P10 Nhật Bản** | ABM | Cao | A1; gói nộp đủ (title/cover/docx/pdf) ✓; OSF. |
-| **P11 JED (digital divide)** | JED SI "AI" | Cao | A1; chạy `jed_gni_axis.py` (trục thu nhập); **nên mở rộng 4.500→6.000+ từ** (lit review + sector nếu có item); **hạn 31/10/2026**. Gói nộp đủ ✓. |
+| **P10 Nhật Bản** | ABM | Cao | A1; gói nộp đủ (title/cover/docx/pdf) Có; OSF. |
+| **P11 JED (digital divide)** | JED SI "AI" | Cao | A1; chạy `jed_gni_axis.py` (trục thu nhập); **nên mở rộng 4.500 đến 6.000+ từ** (lit review + sector nếu có item); **hạn 31/10/2026**. Gói nộp đủ Có. |
 | **P4 Singapore** | JABS | Trung-cao | A1; đã sửa nhãn TCI + TP; đóng khung "informative null" (đã có); OSF. |
 | **P5 Trung Quốc** | IJOEM | Trung-cao | A1; đã hòa giải N; **nên thêm power/equivalence test** (bán "null" làm đóng góp chính); OSF. |
-| **P3 Việt Nam** | JABS / JED regular | Trung-cao | A1; đã sửa LaTeX+TP+§; tinh chỉnh khung "inverted-U vs biên tham gia"; OSF. |
-| **P7 Capstone** | IBR (không JIBS) | Trung | A1; đã tái ước lượng + viết lại đầy đủ ✓; **rà prose lần cuối**; OSF. |
+| **P3 Việt Nam** | JABS / JED regular | Trung-cao | A1; đã sửa LaTeX+TP+Mục ; tinh chỉnh khung "inverted-U vs biên tham gia"; OSF. |
+| **P7 Capstone** | IBR (không JIBS) | Trung | A1; đã tái ước lượng + viết lại đầy đủ Có; **rà prose lần cuối**; OSF. |
 | **P6 Meta** | IBR / JIM | Trung-thấp | 🔴👤 **ICR κ** (cần dữ liệu double-coding của NCS) + điền sơ đồ PRISMA cuối; **đối chứng R/metafor** (thay Stata); OSF (nhãn "registered analysis plan"). **Hạng mục lớn nhất còn lại.** |
 
 ---
 
 ## D. VIỆC TÔI CÓ THỂ LÀM TIẾP TRONG CONTAINER (nếu NCS muốn)
 
-1. **Mở rộng P11 (JED) lên 6.000+ từ** — nhưng cần item ngành (a4a không đáng tin) hoặc trục GNI (mạng chặn) → phần còn lại cần NCS/máy mạng. Có thể đào sâu lit review + intro.
+1. **Mở rộng P11 (JED) lên 6.000+ từ** — nhưng cần item ngành (a4a không đáng tin) hoặc trục GNI (mạng chặn) đến phần còn lại cần NCS/máy mạng. Có thể đào sâu lit review + intro.
 2. **Tạo gói nộp đầy đủ cho P6/P7/P8/P9** (title page + cover letter + AI-disclosure + docx) như P10/P11.
 3. **Format từng paper theo template tạp chí đích** (Springer cho MIR; Emerald cho JABS/IJOEM/JED).
 4. **Dựng skeleton OSF** từng paper (đã có hướng dẫn `osf/OSF_PROJECT_STRUCTURE.md`).
@@ -74,7 +74,7 @@ Phân loại: 🔴 chặn cứng (phải làm trước khi nộp) · 🟠 cần 
 ---
 
 ## Khuyến nghị trình tự
-1. **NCS cung cấp:** tên GVHD + tiêu đề chính thức (B1–B2) → mở khóa luận án.
+1. **NCS cung cấp:** tên GVHD + tiêu đề chính thức (B1–B2) đến mở khóa luận án.
 2. **NCS chạy 1 lần trên máy:** `verify_all.py`, `verify_dois.py`, đối chứng Stata (A1–A3).
-3. **Nộp sớm:** P9 → P10 → P11 (kịp hạn JED 31/10).
+3. **Nộp sớm:** P9 đến P10 đến P11 (kịp hạn JED 31/10).
 4. **Tôi (trong container):** dựng gói nộp P7/P8/P9 + OSF skeleton + AI-disclosure + format tạp chí, song song.

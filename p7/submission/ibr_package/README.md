@@ -16,4 +16,4 @@ Target: **International Business Review** (Elsevier · Q1). Tier in submission l
 - [ ] Blinded manuscript uploaded; title page separate
 - [x] AI disclosure present (cover letter)
 - [x] Em-dash-free (anti-AI language pass)
-- [ ] Note: first-target ladder is P6→JIM, P7→IBR (each paper to a distinct journal)
+- [ ] Note: first-target ladder is P6 to JIM, P7 to IBR (each paper to a distinct journal)

@@ -31,7 +31,7 @@
 | SIDS_small | 8 (−Comoros) | 1.885 |
 | **TỔNG** | **49** | **91.864** ≈ luận án "91.982" (lệch 0,1%) |
 
-**7 Pacific SIDS (P8 mẫu chính)** = Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu → **1.371** firms (pool thô); N=959 (analytic sau lọc missing); N=209 (M1 complete-case).
+**7 Pacific SIDS (P8 mẫu chính)** = Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu đến **1.371** firms (pool thô); N=959 (analytic sau lọc missing); N=209 (M1 complete-case).
 
 ---
 
@@ -59,31 +59,31 @@
 
 | Đại lượng | Chuẩn (dữ liệu/paper) | Luận án 5 chương | CĐ1 | CĐ2 | Trạng thái |
 |---|---|---|---|---|---|
-| Số nền kinh tế (phân tích chính) | **49** (Á–TBD) | 49 ✅ | **47** (bản khóa cũ) | **47** (bản khóa cũ) | ⚠️ CĐ dùng lock 47/101.185; có ghi chú đối chiếu — chấp nhận nếu nêu rõ |
-| Pool firms (phân loại) | **96.415** | "≈96.415" ✅ | **101.185** (lock cũ) | **101.185** (lock cũ) | ⚠️ khác lock |
-| Mẫu hồi quy chính | **91.864** | "91.982" ✅ | — | (đặc tả, không chạy) | ✅ |
+| Số nền kinh tế (phân tích chính) | **49** (Á–TBD) | 49 Có | **47** (bản khóa cũ) | **47** (bản khóa cũ) | ⚠️ CĐ dùng lock 47/101.185; có ghi chú đối chiếu — chấp nhận nếu nêu rõ |
+| Pool firms (phân loại) | **96.415** | "≈96.415" Có | **101.185** (lock cũ) | **101.185** (lock cũ) | ⚠️ khác lock |
+| Mẫu hồi quy chính | **91.864** | "91.982" Có | — | (đặc tả, không chạy) | Có |
 | Per-ICRV n_firms | (Bảng A trên) | (Ch4 regime %) | **Bảng 2.3.2.1 ≠ A.1** 🔴 | **Bảng 2.8** 🔴 | 🔴 **3 bảng mâu thuẫn** — đồng bộ về Bảng A |
-| SIDS (pool) | **1.371** (7 Pacific) | 1.371 ✅ | 1.371 / ~~2.385~~ 🔴 | ~~5.185~~ 🔴 | 🔴 sửa A.1 + Bảng 2.8 |
-| P3 Việt Nam N | **2.958** (bài P3) | — | **3.077** 🔴 | 2.958 ✅ | 🔴 CĐ1 lệch |
-| P5 Trung Quốc N | **4.559** (bài P5) | — | **4.889** 🔴 | 4.559 ✅ | 🔴 CĐ1 lệch |
-| P7 turning point | **36%** pooled | 36% ✅ | — | ~~28% toàn mẫu~~ → đã sửa ✅ | ✅ (CĐ2 vừa sửa) |
-| P8 kết quả chính | **7 Pacific, N=209, β=−1,339** | (Ch4 §4.7) | 7 nước/1.371 ✅ | **9 nước/1.469/−0,404** (robustness) 🔴 | 🔴 CĐ2 trình bày robustness như chính |
-| P6 | k=238, K=288, r=0,074 | — | — | k=238/K=288 ✅ | ✅ |
-| P9 Ấn Độ TP | 61,8→40,7→tan rã | (Ch4) | — | — | ✅ |
+| SIDS (pool) | **1.371** (7 Pacific) | 1.371 Có | 1.371 / ~~2.385~~ 🔴 | ~~5.185~~ 🔴 | 🔴 sửa A.1 + Bảng 2.8 |
+| P3 Việt Nam N | **2.958** (bài P3) | — | **3.077** 🔴 | 2.958 Có | 🔴 CĐ1 lệch |
+| P5 Trung Quốc N | **4.559** (bài P5) | — | **4.889** 🔴 | 4.559 Có | 🔴 CĐ1 lệch |
+| P7 turning point | **36%** pooled | 36% Có | — | ~~28% toàn mẫu~~ đến đã sửa Có | Có (CĐ2 vừa sửa) |
+| P8 kết quả chính | **7 Pacific, N=209, β=−1,339** | (Ch4 Mục 4.7) | 7 nước/1.371 Có | **9 nước/1.469/−0,404** (robustness) 🔴 | 🔴 CĐ2 trình bày robustness như chính |
+| P6 | k=238, K=288, r=0,074 | — | — | k=238/K=288 Có | Có |
+| P9 Ấn Độ TP | 61,8 đến 40,7 đến tan rã | (Ch4) | — | — | Có |
 
 ---
 
 ## D. KHUYẾN NGHỊ — chính sách chuẩn để mọi tài liệu khớp
 
 ### D1. Bản khóa dữ liệu (data lock) — NCS chọn 1 trong 2:
-- **(a) Khuyến nghị:** tuyên bố rõ **2 bản khóa**: CĐ1/CĐ2 dùng lock 2025 (47 nước/101.185); luận án + paper dùng lock cập nhật (49 nước/96.415 phân loại / 91.864 phân tích). Đặt **một ghi chú đối chiếu chuẩn** (như CĐ1 dòng 41 đã có) vào **mọi** tài liệu. → Ít sửa nhất, trung thực.
+- **(a) Khuyến nghị:** tuyên bố rõ **2 bản khóa**: CĐ1/CĐ2 dùng lock 2025 (47 nước/101.185); luận án + paper dùng lock cập nhật (49 nước/96.415 phân loại / 91.864 phân tích). Đặt **một ghi chú đối chiếu chuẩn** (như CĐ1 dòng 41 đã có) vào **mọi** tài liệu. đến Ít sửa nhất, trung thực.
 - **(b) Tốn công hơn:** re-lock toàn bộ CĐ1/CĐ2 về 49/96.415 để mọi nơi một con số.
 
 ### D2. Bảng phân bổ ICRV chuẩn DUY NHẤT
 Dùng **Bảng A** ở trên làm chuẩn; thay mọi bảng per-ICRV trong CĐ1 (Bảng 2.3.2.1, Phụ lục A.1) và CĐ2 (Bảng 2.8) bằng cùng số (theo lock đã chọn ở D1). Bỏ các bảng nháp cũ.
 
 ### D3. Thống nhất membership regime (Mục B) — NCS quyết:
-Sri Lanka, Jordan → IV hay V? Bangladesh, Pakistan → IV hay V? Timor-Leste → V hay VI(SIDS)? Oman có trong II không? Sau khi quyết, **sửa cho khớp cả văn bản CĐ lẫn nhãn dữ liệu**, kèm 1 bảng crosswalk tên-CĐ ↔ icrv_label.
+Sri Lanka, Jordan đến IV hay V? Bangladesh, Pakistan đến IV hay V? Timor-Leste đến V hay VI(SIDS)? Oman có trong II không? Sau khi quyết, **sửa cho khớp cả văn bản CĐ lẫn nhãn dữ liệu**, kèm 1 bảng crosswalk tên-CĐ ↔ icrv_label.
 
 ### D4. Sample size paper — sửa CĐ1 cho khớp bài gốc:
 - Việt Nam (P3): **2.958** (sửa CĐ1 "3.077").

@@ -29,12 +29,12 @@ Fill `thuyhuongctu-cell` is already set in `CITATION.cff` (repository-code) with
 git tag -a v7.0.0 -m "M-AIDA v7.0.0 — meta-analysis effect-size assistant"
 git push origin v7.0.0
 ```
-Then on GitHub: **Releases → Draft a new release → choose tag v7.0.0 → Publish.**
+Then on GitHub: **Releases to Draft a new release to choose tag v7.0.0 to Publish.**
 
 ## Step 3 — connect Zenodo for a permanent DOI
 
 1. Sign in to https://zenodo.org with the GitHub account.
-2. Zenodo → **GitHub** tab → toggle the `maida-core` repository **ON**.
+2. Zenodo to **GitHub** tab to toggle the `maida-core` repository **ON**.
 3. Back on GitHub, publish the v7.0.0 release (Step 2). Zenodo automatically
    archives it and mints a DOI from `.zenodo.json` + `CITATION.cff`.
 4. Copy the DOI badge Markdown from Zenodo into `README.md` (see badge slot).
@@ -48,9 +48,9 @@ Then on GitHub: **Releases → Draft a new release → choose tag v7.0.0 → Pub
 ## Step 5 — repository hygiene that signals quality
 
 - [ ] `README.md` with architecture diagram, quick start, and a "Cite" section (done).
-- [ ] `CITATION.cff` (done) → GitHub shows a "Cite this repository" button.
-- [ ] `LICENSE` (done) → rights preserved + academic use permitted.
-- [ ] `CHANGELOG.md` (done) → version history.
+- [ ] `CITATION.cff` (done) to GitHub shows a "Cite this repository" button.
+- [ ] `LICENSE` (done) to rights preserved + academic use permitted.
+- [ ] `CHANGELOG.md` (done) to version history.
 - [ ] `.env.example` committed, real secrets never committed (verify `.gitignore`).
 - [ ] A short `demo/` with one sample PDF and the resulting CSV row (optional but
       powerful: a visitor reproduces an extraction end-to-end).

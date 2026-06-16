@@ -18,10 +18,10 @@
 | `01_manuscript_blinded.md` / `.docx` | Main manuscript, author information removed | Manuscript (blinded) |
 | `02_title_page.md` / `.docx` | Title page with full author details, CRediT, acknowledgements | Title page |
 | `03_cover_letter.md` / `.docx` | Cover letter to Editor-in-Chief | Cover letter |
-| `figures/figure_1_conceptual_model.png` | Conceptual model | Figure 1 ✓ present |
-| `figures/figure_2_predicted_curves.png` | Wave-specific predicted I-P curves | Figure 2 ✓ present |
-| `figures/figure_3_turning_points.png` | Turning-point estimates + 2025 collapse | Figure 3 ✓ present |
-| `figures/figure_4_upi_timeline.png` | UPI quasi-experiment timeline | Figure 4 ✓ present |
+| `figures/figure_1_conceptual_model.png` | Conceptual model | Figure 1 Có present |
+| `figures/figure_2_predicted_curves.png` | Wave-specific predicted I-P curves | Figure 2 Có present |
+| `figures/figure_3_turning_points.png` | Turning-point estimates + 2025 collapse | Figure 3 Có present |
+| `figures/figure_4_upi_timeline.png` | UPI quasi-experiment timeline | Figure 4 Có present |
 
 ---
 
@@ -34,11 +34,11 @@
 - [ ] **Abstract:** structured (Purpose / Design / Findings / Research limitations / Practical implications / Social implications / Originality)
 - [ ] **Keywords:** internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; Asia; South Asia; Conditional Digital Capability Moderation
 - [ ] **JEL codes:** F23, O33, D22, L25, O53, O25
-- [ ] Upload `01_manuscript_blinded.docx` → Manuscript (anonymous)
-- [ ] Upload `02_title_page.docx` → Title Page / Author Information
-- [ ] Upload `03_cover_letter.docx` → Cover Letter
-- [ ] Upload figures 1–4 → Figure files
-- [ ] **Disclose prior related work** in cover letter (book chapter DOI 10.5772/intechopen.1011012) ← critical
+- [ ] Upload `01_manuscript_blinded.docx` to Manuscript (anonymous)
+- [ ] Upload `02_title_page.docx` to Title Page / Author Information
+- [ ] Upload `03_cover_letter.docx` to Cover Letter
+- [ ] Upload figures 1–4 to Figure files
+- [ ] **Disclose prior related work** in cover letter (book chapter DOI 10.5772/intechopen.1011012) from critical
 - [ ] Confirm corresponding author = Phan Anh Tú (patu@ctu.edu.vn)
 - [ ] Confirm no conflict of interest
 - [ ] Confirm no simultaneous submission

@@ -14,7 +14,7 @@ sạch sẵn để **biên dịch trên máy NCS**. Cần cài TeX Live (hoặc 
 
 | File | Nội dung |
 |---|---|
-| `ctu/LUAN_AN_CTU.tex` | Luận án đầy đủ (đầu mục → 5 chương → tài liệu tham khảo → Phụ lục A) |
+| `ctu/LUAN_AN_CTU.tex` | Luận án đầy đủ (đầu mục đến 5 chương đến tài liệu tham khảo đến Phụ lục A) |
 | `ctu/CD1_CTU.tex` | Chuyên đề 1 |
 | `ctu/CD2_CTU.tex` | Chuyên đề 2 |
 | `ctu/figures/` | Hình cho luận án (`fig_*`) và CĐ2 (`hinh_*`) — đã gom sẵn |
@@ -51,10 +51,10 @@ Bài báo nộp theo template tạp chí (article 12pt, giãn dòng đôi).
 
 | File | Kết quả |
 |---|---|
-| LUAN_AN_CTU.pdf | ✅ 92 trang |
-| CD1_CTU.pdf / CD2_CTU.pdf | ✅ 49 / 36 trang |
-| p7_jibs / p8_worlddev / p9_ijoem | ✅ 32 / 31 / 46 trang |
-| p3_jabs / p5_ijoem / p6_ibr | ✅ 8 / 6 / 6 trang (bản tex rút gọn + biber) |
+| LUAN_AN_CTU.pdf | Có 92 trang |
+| CD1_CTU.pdf / CD2_CTU.pdf | Có 49 / 36 trang |
+| p7_jibs / p8_worlddev / p9_ijoem | Có 32 / 31 / 46 trang |
+| p3_jabs / p5_ijoem / p6_ibr | Có 8 / 6 / 6 trang (bản tex rút gọn + biber) |
 | p4_mir | ⚠️ Cần `svjour3.cls` — tải chính thức từ Springer (đi kèm hướng dẫn tác giả MIR), đặt cạnh file .tex |
 
 Font trong container: `MAINFONT="TeX Gyre Termes"` (Times New Roman metric-equivalent).

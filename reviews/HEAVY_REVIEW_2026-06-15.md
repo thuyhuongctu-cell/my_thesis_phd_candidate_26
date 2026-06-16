@@ -11,7 +11,7 @@ directions) on each manuscript.
 ## What was found and fixed
 
 ### P7 (capstone working source + IBR submission blinded copy)
-- **CRITICAL — broken cite:** `Stallkamp & Schotter (2021)` was cited in §2 but
+- **CRITICAL — broken cite:** `Stallkamp & Schotter (2021)` was cited in Section 2 but
   had no reference entry. Added.
 - **Orphans removed** (listed, never cited): Hayes (2018), Long & Ervin (2000),
   Wu et al. (2022) — the Wu entry also had an internally impossible volume
@@ -33,7 +33,7 @@ directions) on each manuscript.
   (2023) entry (the 2012 paper was not in the vetted bibliography; the 2023
   entry is topically appropriate and DOI-verified). **Author check:** if the
   2012 knowledge-reservoirs paper was specifically intended, restore it instead.
-- **`Perryy, M. Z.` → `Perryman, A. A.`** in Kirca et al. (2012) — the same typo
+- **`Perryy, M. Z.` to `Perryman, A. A.`** in Kirca et al. (2012) — the same typo
   fixed earlier in P10; the JOM 2012 meta-analysis author is Alexa A. Perryman.
 - **Wrong Wu (2022) entry replaced:** the list carried an empirical JWB study
   (Wu, Wang, Hong, Piperopoulos & Zhuo) with an impossible volume (52/2022),
@@ -106,8 +106,8 @@ reference counts, different issues). Status:
   Banalieva/Diamantopoulos/Jarvis issue — **fixed and rebuilt** (now clean).
 - **P6 jwb, P7 ibr:** fixed (above).
 - **P3 (4 packages) and P5 (3 packages): RESOLVED.** Target journals confirmed
-  on the Vietnamese-standards branch — **P3 → Journal of Economic Development
-  (jed_package)**, **P5 → International Journal of Emerging Markets
+  on the Vietnamese-standards branch — **P3 to Journal of Economic Development
+  (jed_package)**, **P5 to International Journal of Emerging Markets
   (ijoem_package)**. The two chosen packages were verified citation-clean (jed
   needed two prose-only data sources anchored with formal citations — World Bank
   2026 / WDI and ITU 2026; ijoem was already clean, its flagged "orphans" being

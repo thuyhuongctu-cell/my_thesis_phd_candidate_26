@@ -41,13 +41,13 @@
 
 | Tiêu chí | Kết quả | Ngưỡng đạt |
 |---|:--:|---|
-| em-dash trong 23 manuscript | **0** | =0 ✅ |
-| em-dash trong 7 bản dịch VI | **0** | =0 ✅ |
-| Lộ danh tính trong bản blinded | **0** | =0 ✅ |
-| Placeholder `[TBD]` chặn nộp | **0** | =0 ✅ |
-| AI-tone thật (delve/unprecedented/...) | **0** | =0 ✅ |
-| Self-citation ngôi thứ ba (đúng chuẩn) | 100% | ✅ |
-| Nhất quán số liệu ↔ replication CSV | đã đối chiếu 7/7 | ✅ (còn vài lệch flag cho NCS) |
+| em-dash trong 23 manuscript | **0** | =0 Có |
+| em-dash trong 7 bản dịch VI | **0** | =0 Có |
+| Lộ danh tính trong bản blinded | **0** | =0 Có |
+| Placeholder `[TBD]` chặn nộp | **0** | =0 Có |
+| AI-tone thật (delve/unprecedented/...) | **0** | =0 Có |
+| Self-citation ngôi thứ ba (đúng chuẩn) | 100% | Có |
+| Nhất quán số liệu ↔ replication CSV | đã đối chiếu 7/7 | Có (còn vài lệch flag cho NCS) |
 
 > Tất cả chỉ số "vệ sinh bản thảo" (mechanical hygiene) đều ĐẠT. Đây là điều kiện cần để qua vòng desk-check của tạp chí.
 
@@ -93,9 +93,9 @@ Replication CSV đủ 7 paper (đối chiếu số được); build scripts (bui
 |---|---|---|---|
 | 🔴 Cao | κ/ICC mã hóa kép (2 tác giả) + OSF DOI — **đường găng** | P6 | GVHD+NCS |
 | 🟠 Vừa | Bảng 1 trống + estimation N=209 vs 959 | P8 | NCS |
-| 🟠 Vừa | 3 lệch off-by-one (Regime-III/cDAI-M/DPL-Span) → chạy lại Q_M | P6 | NCS |
+| 🟠 Vừa | 3 lệch off-by-one (Regime-III/cDAI-M/DPL-Span) đến chạy lại Q_M | P6 | NCS |
 | 🟡 Thấp | Ref thiếu lẻ (Leon 2004; Hutzschenreuter&Voll 2008); p exporter .660/.730; TP R↔Stata | P3/P4/P5/P9 | NCS |
-| 🟡 Thấp | Điểm review 6.5–7.5 ⇒ vẫn cần vòng phản biện; chưa có bài nào ở Q1 *đã chấp nhận* | tất cả | quá trình |
+| 🟡 Thấp | Điểm review 6.5–7.5 dẫn đến vẫn cần vòng phản biện; chưa có bài nào ở Q1 *đã chấp nhận* | tất cả | quá trình |
 
 > Lưu ý phương pháp: điểm review do **LLM reviewer** chấm, có xu hướng vừa over-flag (lỗi ảo) vừa có thể bỏ sót; nên xem là *chỉ báo định hướng*, không thay phản biện thật.
 
@@ -105,9 +105,9 @@ Replication CSV đủ 7 paper (đối chiếu số được); build scripts (bui
 
 **Xếp loại tổng: A− / B+ (sẵn sàng nộp ở mức cao, còn cổng dữ liệu của NCS).**
 
-- **Sẵn sàng về hình thức & vệ sinh học thuật:** ✅ rất cao (qua được desk-check).
-- **Sẵn sàng về nội dung khoa học:** ✅ vững; đóng góp mới rõ (CDCM, ICRV, FIP, threshold dissolution).
-- **Sẵn sàng nộp tức thì:** **P7, P5, P3, P9** (sau cổng nhỏ) → P4 → P8 → **P6 (cuối)**.
+- **Sẵn sàng về hình thức & vệ sinh học thuật:** rất cao (qua được desk-check).
+- **Sẵn sàng về nội dung khoa học:** vững; đóng góp mới rõ (CDCM, ICRV, FIP, threshold dissolution).
+- **Sẵn sàng nộp tức thì:** **P7, P5, P3, P9** (sau cổng nhỏ) đến P4 đến P8 đến **P6 (cuối)**.
 - **Khoảng cách tới "hoàn thiện 100%":** chủ yếu là **việc chỉ NCS/GVHD làm được** (κ/ICC, OSF, Bảng 1, similarity check, chạy lại Q_M) — không phải lỗi nội dung.
 
 **Kết luận:** Dự án ở trạng thái **chất lượng cao, nhất quán, liêm chính**; phần còn lại là các *cổng dữ liệu/đăng ký bên ngoài* và *vòng phản biện tạp chí* — không thể rút ngắn bằng tự động hóa.

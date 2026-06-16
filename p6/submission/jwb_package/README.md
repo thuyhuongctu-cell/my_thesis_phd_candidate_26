@@ -9,7 +9,7 @@ P6 was re-targeted from International Business Review to the **Journal of World 
 - `02_title_page.docx` — author title page (separate, not for review)
 - `03_cover_letter.docx` — JWB-specific cover letter
 - `figures/` — Figures 1–4 (PNG)
-- Supplementary (provide at submission): PRISMA flow, coding protocol, MetaEssentials/`metafor` consistency check (currently Appendices A–C) → upload as **online supplementary files**
+- Supplementary (provide at submission): PRISMA flow, coding protocol, MetaEssentials/`metafor` consistency check (currently Appendices A–C) to upload as **online supplementary files**
 
 ## JWB Submission Checklist (Editorial Manager)
 - [ ] Log in to Editorial Manager (editorialmanager.com/jwb)
@@ -28,4 +28,4 @@ P6 was re-targeted from International Business Review to the **Journal of World 
 | Word count (main text) | ~6,900 words (within JWB norms) |
 | Quartile / ABS | Q1 / 4* |
 | Reference style | APA 7 |
-| AI declaration | ✅ present (Elsevier format) |
+| AI declaration | Có present (Elsevier format) |

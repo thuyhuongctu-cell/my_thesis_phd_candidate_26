@@ -134,7 +134,7 @@ Tập trung 4 nhóm bài: (i) China-specific I–P; (ii) nonlinearity in IB; (ii
 
 ### Bước 2: Concept-to-variable mapping (1 tuần)
 
-Lập bảng đối chiếu: khái niệm → biến WBES → công thức → kỳ vọng dấu → nguồn.
+Lập bảng đối chiếu: khái niệm đến biến WBES đến công thức đến kỳ vọng dấu đến nguồn.
 
 ### Bước 3: Descriptive analysis (3–5 ngày)
 
@@ -175,7 +175,7 @@ Introduction (mạnh về differentiation từ P2), literature, hypotheses, meth
 
 | Risk | Mitigation |
 |---|---|
-| Repeated cross-sections không phải panel → khó suy luận nhân quả | Khẳng định rõ trong limitations; gắn nó như evidence về trend-level chứ không phải firm-level causation |
+| Repeated cross-sections không phải panel đến khó suy luận nhân quả | Khẳng định rõ trong limitations; gắn nó như evidence về trend-level chứ không phải firm-level causation |
 | 2012 và 2024 có thể khác về sample composition | So sánh sample profile, báo cáo chi tiết trong methodology |
 | TCI và DAI thiếu công cụ đo trong 2012 vs 2024 | Lựa chọn items chung giữa hai wave; bất kỳ differences phải được minh bạch |
 | Phân biệt với P2 chưa đủ thuyết phục | Viết hẳn một section rõ ràng "Differentiation from Do & Phan (2026)" |

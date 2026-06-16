@@ -72,7 +72,7 @@ Tuy nhiên, đóng góp của P6 so với baseline không phải ở pooled $r$ 
 
 Lu và Beamish (2004) và Contractor et al. (2003) là hai công trình nền tảng về quan hệ phi tuyến I–P. Lu và Beamish (2004) tìm turning point khoảng 60% FSTS trong mẫu doanh nghiệp Nhật Bản, trong khi Contractor et al. (2003) đề xuất S-curve ba giai đoạn. Luận án này vượt qua hai công trình đó theo ba hướng:
 
-**Thứ nhất**, luận án chứng minh rằng turning point **không cố định** mà phụ thuộc vào bối cảnh ICRV: từ TP ≈ 88,6% (Singapore — Advanced Innovation; lưu ý điểm uốn này không định vị tin cậy do CI vượt ngưỡng khả thi, xem §4.3) đến TP ≈ 39,7% (Việt Nam pooled — Lower-mid Transition), với Trung Quốc ở mức trung gian (TP ≈ 48,78%). Không có một turning point phổ quát cho tất cả bối cảnh.
+**Thứ nhất**, luận án chứng minh rằng turning point **không cố định** mà phụ thuộc vào bối cảnh ICRV: từ TP ≈ 88,6% (Singapore — Advanced Innovation; lưu ý điểm uốn này không định vị tin cậy do CI vượt ngưỡng khả thi, xem Mục 4.3) đến TP ≈ 39,7% (Việt Nam pooled — Lower-mid Transition), với Trung Quốc ở mức trung gian (TP ≈ 48,78%). Không có một turning point phổ quát cho tất cả bối cảnh.
 
 **Thứ hai**, luận án xác định trường hợp biên FIP tại SIDS — không phải là S-curve hay inverted-U mà là quan hệ âm đơn điệu — điều mà cả ba-stage theory lẫn S-curve không dự báo được.
 
@@ -190,7 +190,7 @@ Luận án này được xây dựng trên chín nghiên cứu bổ sung cho nha
 
 - **P8**: phân tích bảy nền kinh tế đảo nhỏ đang phát triển Thái Bình Dương (Pacific SIDS), $N = 959$, $\beta(\text{FSTS}_c) = -1{,}339^{***}$, FIP xác nhận — quan hệ âm đơn điệu không có turning point.
 
-- **P9**: phân tích Ấn Độ qua ba đợt WBES 2014–2025 (~29.000 doanh nghiệp), kiểm định độ bền ngưỡng I–P qua thập kỷ chuyển đổi thể chế. Phát hiện sự *tan biến* điểm uốn chữ U ngược: TP = 61,8% (2014) → 40,7% (2022) → mất ý nghĩa độ cong (2025: β₂ = −0,16, p = ,42), kèm tương tác DAI Tier-2 (UPI) âm — bằng chứng đầu tiên rằng chuyển đổi thể chế cực mạnh có thể hòa tan (chứ không chỉ dịch chuyển) ngưỡng. Đích MIR/IJOEM; kế thừa công trình tiền đề Do & Phan (2025, IntechOpen).
+- **P9**: phân tích Ấn Độ qua ba đợt WBES 2014–2025 (~29.000 doanh nghiệp), kiểm định độ bền ngưỡng I–P qua thập kỷ chuyển đổi thể chế. Phát hiện sự *tan biến* điểm uốn chữ U ngược: TP = 61,8% (2014) đến 40,7% (2022) đến mất ý nghĩa độ cong (2025: β₂ = −0,16, p = ,42), kèm tương tác DAI Tier-2 (UPI) âm — bằng chứng đầu tiên rằng chuyển đổi thể chế cực mạnh có thể hòa tan (chứ không chỉ dịch chuyển) ngưỡng. Đích MIR/IJOEM; kế thừa công trình tiền đề Do & Phan (2025, IntechOpen).
 
 ### 5.6.2 Phát hiện trung tâm
 

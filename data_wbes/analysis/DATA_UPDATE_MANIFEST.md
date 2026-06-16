@@ -9,11 +9,11 @@
 
 | Tầng | Có thể cập nhật bằng AI? |
 |---|---|
-| **Dữ liệu thô + kho** (ingest, dedupe, lọc) | ✅ Đã làm |
-| **Mô tả/phân loại** (đếm, ICRV, bảng descriptive) | ✅ Làm được từ raw |
-| **Kết quả KINH TẾ LƯỢNG** (turning point, hệ số FIP, điều tiết của P3–P9) | ❌ **KHÔNG** — phải chạy lại mô hình Stata/R thực tế; không được bịa hệ số |
+| **Dữ liệu thô + kho** (ingest, dedupe, lọc) | Có Đã làm |
+| **Mô tả/phân loại** (đếm, ICRV, bảng descriptive) | Có Làm được từ raw |
+| **Kết quả KINH TẾ LƯỢNG** (turning point, hệ số FIP, điều tiết của P3–P9) | Không **KHÔNG** — phải chạy lại mô hình Stata/R thực tế; không được bịa hệ số |
 
-→ Việc "cập nhật P3–P9 với data mới" đòi hỏi **tác giả chạy lại mô hình** trên bộ data mở rộng. Manifest này chuẩn bị đầu vào cho việc đó.
+ đến Việc "cập nhật P3–P9 với data mới" đòi hỏi **tác giả chạy lại mô hình** trên bộ data mở rộng. Manifest này chuẩn bị đầu vào cho việc đó.
 
 ## 2. Trạng thái công bố (theo xác nhận của NCS)
 
@@ -26,7 +26,7 @@
 
 ## 3. Japan-2025 — hồ sơ nền mới (Nhóm I ứng viên)
 
-Khảo sát WBES **lần đầu** cho Japan (2025) → KHÔNG thể có trong bất kỳ kết quả P1–P9
+Khảo sát WBES **lần đầu** cho Japan (2025) đến KHÔNG thể có trong bất kỳ kết quả P1–P9
 hiện tại. Hồ sơ mô tả (2.168 DN):
 
 | Chỉ tiêu | Japan-2025 | Nhóm I hiện tại (5 nền) |
@@ -43,18 +43,18 @@ hiện tại. Hồ sơ mô tả (2.168 DN):
 
 Đặc trưng: số hóa rất cao (website 83,8%), DN rất lâu đời (50 năm), nữ lãnh đạo thấp,
 quốc tế hóa thấp bất ngờ (FSTS 4,1% — thị trường nội địa lớn). Phù hợp Nhóm I về thể chế
-nhưng pattern quốc tế hóa khác biệt → **nếu đưa vào khung sẽ là case lý thú**.
+nhưng pattern quốc tế hóa khác biệt đến **nếu đưa vào khung sẽ là case lý thú**.
 
 ## 4. Khuyến nghị xử lý Japan + sóng mới
 
 - **Khung PHÂN TÍCH (econometrics)**: **giữ 49 nền** cho mọi kết quả P3–P9 trong luận án
-  hiện tại (khớp số đã/đang bình duyệt). Đổi 49→50 mà không chạy lại mô hình sẽ tạo mâu
+  hiện tại (khớp số đã/đang bình duyệt). Đổi 49 đến 50 mà không chạy lại mô hình sẽ tạo mâu
   thuẫn frame-vs-results khắp luận án — KHÔNG nên.
 - **Khung PHÂN LOẠI/mô tả**: có thể ghi nhận Japan là nền thứ 50 (Nhóm I) ở tầng mô tả,
   **kèm chú thích minh bạch** "Japan 2025 mới khảo sát lần đầu, đưa vào phân loại; chưa
   nhập vào mô hình kinh tế lượng — dành cho vòng ước lượng kế tiếp."
 - **Vòng revise P3–P9**: khi tác giả chạy lại mô hình, dùng bộ raw đã mở rộng trong kho
-  (31 nền có sóng ≥2024 + Japan) — danh sách ở §5.
+  (31 nền có sóng ≥2024 + Japan) — danh sách ở Mục 5.
 
 ## 5. 31 nền có sóng mới ≥2024 (đầu vào cho re-estimate)
 

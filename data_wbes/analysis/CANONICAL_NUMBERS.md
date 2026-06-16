@@ -37,7 +37,7 @@
 | III. Upper_mid | 12.055 | 55,0% | 0,263 | Giữa, không định vị tin cậy |
 | IV. Lower_mid_transition | 42.094 | **43,0%** | < 0,001 | **Giữa**: chữ U ngược SẮC NÉT |
 | V. Emerging | 15.457 | 34,8% | 0,184 | **Dưới**: cấu trúc tan rã |
-| VI. SIDS_small (z-spec) | 1.818 | — (âm) | — | **Dưới**: đảo chiều → FIP |
+| VI. SIDS_small (z-spec) | 1.818 | — (âm) | — | **Dưới**: đảo chiều đến FIP |
 
 ## 4. Các construct/nghiên cứu thành phần
 
@@ -52,7 +52,7 @@
 ## 5. Tình trạng Nhật Bản trong ước lượng (SỬA quan niệm cũ)
 
 **Nhật Bản ĐÃ nằm trong ước lượng P7 canonical** (2.168 dòng trong khung 88.869/50 nền).
-Câu cũ trong §4.1.5 luận án ("Nhật chưa vào ước lượng P7, là vòng tái ước lượng tiếp theo")
+Câu cũ trong Mục 4.1.5 luận án ("Nhật chưa vào ước lượng P7, là vòng tái ước lượng tiếp theo")
 **ĐÃ LỖI THỜI** — vòng tái ước lượng 50 nền đã chạy (xem REESTIMATION_LOG). Cập nhật:
 P7 = 50 nền gồm Nhật; P8 (SIDS) và P9 (Ấn Độ) là pool con riêng không liên quan Nhật.
 
@@ -63,4 +63,4 @@ P7 = 50 nền gồm Nhật; P8 (SIDS) và P9 (Ấn Độ) là pool con riêng kh
 | 88.869 / 50 nền | 91.982 / 49 nền (trừ khi gắn nhãn "build cũ") |
 | 81.022 (M2) / 79.080 (M5) | 84.910 (M2 cũ) / 38.342 (M5 cũ) |
 | TP M5 = 43,6%; M2 = 51,5% | TP 40,0% / 36% / 34,6% (cũ) |
-| Ba vùng (Nhóm IV 43,0%) | gradient đơn điệu 28% → 55% |
+| Ba vùng (Nhóm IV 43,0%) | gradient đơn điệu 28% đến 55% |

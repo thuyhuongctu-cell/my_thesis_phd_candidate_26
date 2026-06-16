@@ -9,7 +9,7 @@
 | **Ngành / Mã ngành** | Quản trị kinh doanh — 9340101 (Khóa 2023, đợt 1) |
 | **Người hướng dẫn khoa học** | PGS.TS. Phan Anh Tú |
 | **Cơ sở đào tạo** | Trường Đại học Cần Thơ (CTU) |
-| **Tên luận án được điều chỉnh** | QĐ số 4769/QĐ-ĐHCT ngày 15/10/2024 (từ "…các nước thuộc khối ASEAN" → "…ở Châu Á") |
+| **Tên luận án được điều chỉnh** | QĐ số 4769/QĐ-ĐHCT ngày 15/10/2024 (từ "…các nước thuộc khối ASEAN" đến "…ở Châu Á") |
 
 > ⚠️ **Công trình chưa công bố — đang thực hiện.** Kho lưu trữ này là tài liệu nội bộ của chương trình nghiên cứu; mọi cấu phần được giới thiệu lần đầu và không nên được trích dẫn như công trình đã xuất bản.
 
@@ -43,7 +43,7 @@ Kho lưu trữ chứa toàn bộ bản thảo luận án, các cấu phần nghi
 ### 🧪 Cấu phần & dữ liệu
 - Nghiên cứu đa quốc gia P7 (capstone): [`p7/p7_capstone_en_clean.md`](p7/p7_capstone_en_clean.md)
 - Bản thảo P3–P5 (VI): [P3 Việt Nam](manuscripts/p3_vietnam_vi_clean.md) · [P4 Singapore](manuscripts/p4_singapore_vi_clean.md) · [P5 Trung Quốc](manuscripts/p5_china_vi_clean.md)
-- Mã tái lập P7: [`p7/replication/`](p7/replication/) — `01_build_p7_dataset.py` → `02_run_p7_models.py`
+- Mã tái lập P7: [`p7/replication/`](p7/replication/) — `01_build_p7_dataset.py` đến `02_run_p7_models.py`
 - Dữ liệu WBES thô: [`data_wbes/raw_dta/`](data_wbes/raw_dta/) · Tệp phân tích: [`data_wbes/p7/p7_pooled_clean.csv`](data_wbes/p7/p7_pooled_clean.csv)
 
 ### 📦 Sản phẩm & rà soát
@@ -114,11 +114,11 @@ MY_THESIS_PHD_CANDIDATE_26/
 | Mã | Bối cảnh / dữ liệu | Trọng tâm nghiên cứu |
 |----|--------------------|----------------------|
 | **P1** | 17 nền kinh tế mới nổi châu Á (WBES) | Tính dị biệt (heterogeneity) hiệu quả doanh nghiệp — cấu phần mô tả nền tảng |
-| **P2** | Doanh nghiệp SME sản xuất Trung Quốc | Quốc tế hóa (cường độ xuất khẩu) → hiệu quả; ràng buộc vốn lưu động; chữ U ngược |
+| **P2** | Doanh nghiệp SME sản xuất Trung Quốc | Quốc tế hóa (cường độ xuất khẩu) đến hiệu quả; ràng buộc vốn lưu động; chữ U ngược |
 | **P3** | Việt Nam (WBES 2009/2015/2023) | Quan hệ I–P chữ U ngược; điều tiết TCI/DAI |
 | **P4** | Singapore (WBES 2023) | Chữ U ngược gần tuyến tính; khuếch đại DAI ("lá chắn số") |
 | **P5** | Trung Quốc (WBES 2012–2024) | Độ bền cấu trúc của điểm uốn qua thời gian |
-| **P6** | Châu Á–Thái Bình Dương | Meta-analysis ba tầng quan hệ I→P (k≈238); điều tiết theo ICRV |
+| **P6** | Châu Á–Thái Bình Dương | Meta-analysis ba tầng quan hệ I–P (k≈238); điều tiết theo ICRV |
 | **P7** | 50 nền Asia-Pacific, **gồm Japan** (WBES) | Nghiên cứu đa quốc gia (capstone): chữ U ngược + gradient điểm uốn theo ICRV |
 | **P8** | 7 nền Pacific SIDS | Construct mới **FIP** — gánh nặng quốc tế hóa bắt buộc |
 | **P9** | Ấn Độ | Mô hình ngưỡng (threshold) trong quan hệ I–P |
@@ -130,7 +130,7 @@ MY_THESIS_PHD_CANDIDATE_26/
 
 ## 🔁 Tái lập nghiên cứu P7 (đa quốc gia)
 
-Pipeline đọc trực tiếp `.dta` thô WBES → tệp phân tích → ước lượng:
+Pipeline đọc trực tiếp `.dta` thô WBES đến tệp phân tích đến ước lượng:
 
 ```bash
 # 1) Hợp nhất .dta thô thành tệp phân tích (50 nền Asia-Pacific, gồm Japan-2025)
@@ -175,7 +175,7 @@ bash scripts/build_latex_papers.sh        # Biên dịch LaTeX các bài báo
 
 Nhánh này rà soát phương pháp & biến số và làm tươi pipeline P7:
 
-- **Xác minh TCI = b8 + e6** (2 mục) trên `.dta` thật; sửa lỗi mã biến P5 (`b4,b7a → h1,h8`); hợp nhất định nghĩa thin/full ở §3.3.4.
+- **Xác minh TCI = b8 + e6** (2 mục) trên `.dta` thật; sửa lỗi mã biến P5 (`b4,b7a → h1,h8`); hợp nhất định nghĩa thin/full ở Mục 3.3.4.
 - **Sửa 2 lỗi tooling tái lập P7:** parser tên file không đọc được tên nước gạch nối (rớt 11 nền); biến kiểm soát `foreign_own_pct` (41% phủ) cắt đôi mẫu mô hình.
 - **Thêm Japan-2025 + chạy lại bằng `.dta` thật:** khung 50 nền Asia-Pacific; kết luận U-ngược + TCI dương giữ vững (M5 điểm uốn 33,4%, p<0,001; TCI +0,19, p<0,001).
 - Chi tiết: `reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md`.

@@ -17,11 +17,11 @@
 | V Emerging | 12.523 | 0,408 | 0,283² | 1,16² |
 | VI SIDS_small | 520¹ | 0,474 | −0,191² | 3,48² |
 
-¹ mẫu nhỏ (GCC/SIDS ít DN có dữ liệu chi phí). ² mean/sd méo do outlier → **dùng median**.
+¹ mẫu nhỏ (GCC/SIDS ít DN có dữ liệu chi phí). ² mean/sd méo do outlier đến **dùng median**.
 
 **Diễn giải:** biên lợi nhuận cao nhất ở chế độ tiên tiến (I≈0,50), thấp nhất ở
-chuyển đổi TB-thấp (IV≈0,35) — nhất quán Institutional Theory (thể chế mạnh → chi phí
-giao dịch thấp → biên cao). Đây là chỉ số MỨC hợp lệ giữa nước (khác với năng suất thô).
+chuyển đổi TB-thấp (IV≈0,35) — nhất quán Institutional Theory (thể chế mạnh đến chi phí
+giao dịch thấp đến biên cao). Đây là chỉ số MỨC hợp lệ giữa nước (khác với năng suất thô).
 
 ### A2. Năng suất lao động — chuẩn hóa z-score within-country-year — chỉ số PHÂN TÁN
 *(trích P1 VEFR, P2 JFAR; chỉ so sánh PHÂN TÁN, không so mức vì đã khử khác biệt nước)*
@@ -38,9 +38,9 @@ giao dịch thấp → biên cao). Đây là chỉ số MỨC hợp lệ giữa 
 Phân tán năng suất nội nhóm ~đồng đều (0,92–1,00).
 
 ## B. ⚠️ Đính chính luận điểm cần rà trong CĐ1/Chương 4
-Luận điểm "**phân tán/năng suất tăng đơn điệu Nhóm I→VI**" (nếu dựa trên mức
+Luận điểm "**phân tán/năng suất tăng đơn điệu Nhóm I–VI**" (nếu dựa trên mức
 `ln_labor_prod` thô) là **artifact tiền tệ** — phải bỏ hoặc thay bằng: (i) gradient
-**ROS** giảm từ I→IV (chỉ số mức hợp lệ); (ii) phân tán LP-z ~đồng đều.
+**ROS** giảm từ I–IV (chỉ số mức hợp lệ); (ii) phân tán LP-z ~đồng đều.
 
 ## C. Biến tỷ lệ theo nhóm (so sánh được trực tiếp)
 Xem `cd1_relock_descriptives_by_icrv.csv`: fsts_pct, exporter%, dai_website%, tci_z,

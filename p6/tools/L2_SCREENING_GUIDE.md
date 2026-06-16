@@ -14,9 +14,9 @@
 | Existing coded (k=238 database) | 344 rows | seq ≤ 435 |
 | New candidates tổng | 2,123 rows | seq > 435 |
 | **Y (confirmed + auto-Y)** | **652** | sẵn sàng extraction |
-| → có local PDF | 78 | chạy `41_auto_extract_from_pdfs.py` ngay |
-| → có repo URL | 55 | tải thủ công + extract |
-| → không PDF | 519 | cần tìm PDF |
+| đến có local PDF | 78 | chạy `41_auto_extract_from_pdfs.py` ngay |
+| đến có repo URL | 55 | tải thủ công + extract |
+| đến không PDF | 519 | cần tìm PDF |
 | N (auto-exclude) | 9 | meta-analyses, reviews, wrong-field |
 | UNSURE (cần full-text) | 1,403 | đọc thủ công từng paper |
 | blank | 0 | — |
@@ -70,16 +70,16 @@ Trả lời tất cả 5 — **bất kỳ NO = EXCLUDE**:
 | 1 | Unit of analysis là firm-level? | doanh nghiệp, nhà máy, SME | quốc gia, ngành, cá nhân |
 | 2 | Có đo lường internationalization? | FSTS, DOI, export intensity, FDI, số quốc gia | không có I variable |
 | 3 | Có đo lường firm performance? | ROA, ROE, Tobin's Q, productivity, sales growth | không có P variable |
-| 4 | Có quan hệ I→P định lượng? | r, β, t, F, hoặc có thể tính r | chỉ mô tả, không có statistics |
+| 4 | Có quan hệ I–P định lượng? | r, β, t, F, hoặc có thể tính r | chỉ mô tả, không có statistics |
 | 5 | Peer-reviewed journal article? | có DOI hoặc ISSN | dissertation, book chapter, WP, conference |
 
 ### Red flags — loại ngay không cần đọc thêm
 
-- `country-level / national-level analysis` → loại (macro-level)
-- `antecedents of internationalization` / `determinants of export` → loại (I là DV, không phải P)
-- `qualitative study` / `case study` → loại
-- `meta-analysis` / `systematic review` → loại (không phải primary study)
-- health, environment, education outcomes → loại (off-domain)
+- `country-level / national-level analysis` đến loại (macro-level)
+- `antecedents of internationalization` / `determinants of export` đến loại (I là DV, không phải P)
+- `qualitative study` / `case study` đến loại
+- `meta-analysis` / `systematic review` đến loại (không phải primary study)
+- health, environment, education outcomes đến loại (off-domain)
 
 ---
 
@@ -132,7 +132,7 @@ Ghi vào `notes_for_extractor`: `E1=ROA, E2=TobinQ`
 | 4 | Resource-rich / GCC | Saudi Arabia, UAE, Qatar, Kuwait, Kazakhstan, Angola |
 | 5 | SIDS | Fiji, PNG, Samoa, Tonga, Malta, Mauritius, Maldives |
 | 6 | Frontier / LDC | Myanmar, Cambodia, Lào, Nepal, Ethiopia, Mozambique |
-| 0 | Multi-country Mixed | Nhiều quốc gia khác regime → dùng 0 |
+| 0 | Multi-country Mixed | Nhiều quốc gia khác regime đến dùng 0 |
 
 **Đã pre-fill 38%** (202/538) — kiểm tra và điền phần còn lại khi đọc full-text.
 
@@ -265,7 +265,7 @@ python3 p6/tools/09_select_reliability_subsample.py \
 - **Batch 50 papers** mỗi phiên — `extraction_queue_20260520.csv` đã sort theo ưu tiên, bắt đầu từ row 1
 - **396 DOI_FIRST** — dùng cột `doi_link` để mở trực tiếp
 - **`ready_for_r = 1` chỉ khi đủ 5 trường**: `converted_r`, `sample_size_n`, `icrv`, `dpl`, `fp_type`
-- **Nonlinear papers**: ghi cả β₁ và β₂, turning point → `notes_for_extractor`
+- **Nonlinear papers**: ghi cả β₁ và β₂, turning point đến `notes_for_extractor`
 - **Server block tất cả API**: Unpaywall, OpenAlex, CrossRef đều 403 từ server — download PDF locally
-- **Ước tính thời gian**: 538 papers × 5 phút/paper ≈ 45 giờ → 15–20 ngày làm 3h/ngày
+- **Ước tính thời gian**: 538 papers × 5 phút/paper ≈ 45 giờ đến 15–20 ngày làm 3h/ngày
 - **ICRV pre-filled chỉ 38%** — ưu tiên điền icrv khi đọc full-text (quan trọng cho MARA)

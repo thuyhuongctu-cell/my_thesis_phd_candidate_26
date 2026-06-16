@@ -30,10 +30,10 @@
 - [ ] **Title:** as above
 - [ ] **Abstract:** ~250 words (from manuscript)
 - [ ] **Keywords** (5–6): internationalization–performance; digital adoption; technological capability; Singapore; threshold; advanced economy
-- [ ] Upload `01_manuscript_blinded.docx` → Manuscript
-- [ ] Upload `02_title_page.docx` → Author Information
-- [ ] Upload `03_cover_letter.docx` → Cover Letter
-- [ ] Upload figures 1–3 → Figure files
+- [ ] Upload `01_manuscript_blinded.docx` to Manuscript
+- [ ] Upload `02_title_page.docx` to Author Information
+- [ ] Upload `03_cover_letter.docx` to Cover Letter
+- [ ] Upload figures 1–3 to Figure files
 - [ ] Confirm corresponding author (Phan Anh Tú)
 - [ ] Confirm no conflict of interest
 - [ ] Confirm data availability

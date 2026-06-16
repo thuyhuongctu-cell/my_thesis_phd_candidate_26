@@ -25,7 +25,7 @@ Two source formats provided. Pick whichever your toolchain supports.
 
 ## Rendering
 
-### Mermaid → PNG / SVG
+### Mermaid to PNG / SVG
 
 ```bash
 # Install mermaid-cli
@@ -43,7 +43,7 @@ mmdc -i figure1_conceptual_model.mmd -o figure1.pdf
 
 Or paste the `.mmd` content into https://mermaid.live for instant preview.
 
-### Graphviz → PNG / SVG / PDF
+### Graphviz to PNG / SVG / PDF
 
 ```bash
 # Install Graphviz
@@ -70,7 +70,7 @@ Or paste the `.dot` content into https://dreampuf.github.io/GraphvizOnline for b
 - **Boxes** = firm-level constructs.
 - **Dashed box** (Working-Capital Condition) = exploratory, secondary role; not the manuscript's central mechanism.
 - **Solid arrows** = the four directional hypotheses (H1, H4a, H4b plus thin control arrow).
-- **Dashed arrow** (Working-Capital → ln LP) = exploratory H3 post-threshold conditioning.
+- **Dashed arrow** (Working-Capital to ln LP) = exploratory H3 post-threshold conditioning.
 - **Dotted double-headed link** (Export Intensity ↔ H2 annotation) = cross-wave stability evaluation, not a directional causal claim.
 - **Outcome box** (ln LP) = filled gray with thick border to anchor the rightmost endpoint.
 

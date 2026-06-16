@@ -1,5 +1,5 @@
 # P6 — Database Mã hóa Nghiên cứu Sơ cấp (Coded Study Database)
-# Meta-Analysis I→P 1982–2026
+# Meta-Analysis I–P 1982–2026
 
 > **Phiên bản**: v1.0 (12/05/2026) — Bản làm việc nội bộ
 >
@@ -64,7 +64,7 @@ Mã hóa theo giai đoạn thu thập dữ liệu so với mốc 2009 (Brynjolfs
 **Proxy rule (publication year)**:
 - Published ≤ 2011: PRE (data typically 1990s–2008)
 - Published 2012–2016: SPN (data typically 2005–2013)
-- Published 2017–2019: SPN→FOL borderline; default SPN unless post-2014 data stated
+- Published 2017–2019: SPN đến FOL borderline; default SPN unless post-2014 data stated
 - Published 2020+: FOL (data typically 2014–2021)
 
 ---
@@ -112,11 +112,11 @@ Khi study báo cáo nhiều effect sizes với different DOI/FP measures, mã h�
 6. **Xuất bản 1982–2026**
 7. **Ngôn ngữ**: tiếng Anh (ưu tiên); hoặc ngôn ngữ khác với abstract tiếng Anh đầy đủ
 
-### Exclusion (6 tiêu chí — bất kỳ một điều kiện nào → loại):
+### Exclusion (6 tiêu chí — bất kỳ một điều kiện nào đến loại):
 
 1. Lý thuyết/conceptual, không có dữ liệu empirical
 2. Không có effect size tính được (regression only without r, n, F)
-3. **Sample trùng lặp** với study khác trong pool → giữ study có sample lớn hơn
+3. **Sample trùng lặp** với study khác trong pool đến giữ study có sample lớn hơn
 4. Industry-level hoặc country-level analysis (không phải firm-level)
 5. Qualitative hoặc mixed-method không có phần định lượng rõ ràng
 6. Unpublished thesis (trừ khi đã published dưới dạng journal article riêng biệt)
@@ -257,7 +257,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 
 > **Nguồn:** Backward citation scan của 6 meta lớn (Bausch & Krist 2007; Kirca et al. 2012;
 > Yang & Driffield 2012; Marano et al. 2016; Wu et al. 2022; Arte & Larimo 2022) và
-> literature search 2022–2026. Tổng: **25 studies mới** → Pool tổng cộng **~135 studies**.
+> literature search 2022–2026. Tổng: **25 studies mới** đến Pool tổng cộng **~135 studies**.
 
 | ID | Author-Year | r | n | Country | Period | ICRV | cDAI | DPL | DOI | FP | Notes |
 |----|-------------|---|---|---------|--------|------|------|-----|-----|----|-------|
@@ -298,7 +298,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S145 | Zahra, Ireland & Hitt (2000) **NEW** | 0.22/0.31 | 321 | USA | ~1991–94 | I | L | PRE | GEO | ACC | AMJ; new ventures INV |
 | S146 | Oh & Contractor (2012) **NEW** | −0.04/0.16 | 144 | Global | ~2003–07 | I | M | FOL | FSTS | ACC | JIBS; territorial + product mod |
 | S147 | Qian, Li, Li & Qian (2008) **NEW** | 0.11 | 1,462 | USA | ~1985–02 | I | M | SPN | GEO | ACC | JIBS; regional diversification |
-| S148 | Elango & Pattnaik (2007) **NEW** | 0.09 | 794 | India | ~1998–02 | III | L | PRE | FSTS | ACC | JIBS; networks → capabilities |
+| S148 | Elango & Pattnaik (2007) **NEW** | 0.09 | 794 | India | ~1998–02 | III | L | PRE | FSTS | ACC | JIBS; networks đến capabilities |
 | S149 | Filatotchev & Piesse (2009) **NEW** | 0.15 | 254 | Europe | ~1996–03 | I | M | SPN | FSTS | MKT | JIBS; IPO firms R&D |
 | S150 | Geringer, Tallman & Olsen (2000) **NEW** | 0.07/−0.08 | 172 | Japan | ~1980–89 | I | L | PRE | FSTS | ACC | SMJ; Japan MNE div |
 | S151 | Michel & Shaked (1986) **NEW** | 0.08 | 60 | USA | ~1975–83 | I | L | PRE | GEO | ACC | JIBS; MNC vs domestic |
@@ -353,7 +353,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S200 | Chen & Hsu (2010) | +0.09 (est.) | 200 | Taiwan | ~2001–07 | I | L | PRE | FSTS | MKT | IMM; resource allocation Taiwan |
 | S201 | Cuervo-Cazurra et al. (2017) | +0.05 (est.) | 500 | Multi | ~2006–14 | MX | M | SPN | FSTS | ACC | JWB; uncertainty management |
 | S202 | Da Cunha et al. (2023) | +0.06 (est.) | 250 | Multi-LatAm | ~2010–20 | III | M | FOL | FSTS | ACC | IJOEM; formal institutions |
-| S203 | Debicki et al. (2020) | +0.05 (est.) | 300 | Multi | ~2005–15 | MX | M | SPN | FSTS | ACC | CCSM; family firm I→P |
+| S203 | Debicki et al. (2020) | +0.05 (est.) | 300 | Multi | ~2005–15 | MX | M | SPN | FSTS | ACC | CCSM; family firm I–P |
 | S204 | Dikova & Veselova (2020) | −0.04 (est.) | 200 | Russia | ~2008–16 | III | M | SPN | COMP | ACC | MOR; Russia contingency |
 | S205 | Elango (2012) | +0.10 (est.) | 250 | USA/Multi | ~2000–08 | I | M | PRE | COMP | MKT | TIBR; tech-intensive industry |
 | S206 | Espinosa-Méndez & Jara (2021) | +0.04 (est.) | 150 | Chile | ~2009–18 | III | M | FOL | GEO | ACC | SJFC; Chile family firm |
@@ -366,7 +366,7 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S213 | Purkayastha et al. (2024) | +0.07 (est.) | 200 | India | ~2014–22 | III | H | FOL | COMP | ACC | JIM; resource management India |
 | S214 | Purkayastha et al. (2021) | +0.06 (est.) | 185 | India | ~2010–18 | III | M | FOL | FSTS | ACC | JWB; EMNEs learning India |
 | S215 | Rienda & Andreu (2021) | +0.04 (est.) | 200 | Spain | ~2005–18 | II | M | SPN | FSTS | ACC | EJFB; family firms Spain |
-| S216 | Schmuck et al. (2022a) | +0.08 (est.) | 400 | Multi | ~2010–19 | MX | H | FOL | COMP | MKT | MIR; reverse P→M direction |
+| S216 | Schmuck et al. (2022a) | +0.08 (est.) | 400 | Multi | ~2010–19 | MX | H | FOL | COMP | MKT | MIR; reverse P đến M direction |
 | S217 | Singla & George (2013) | +0.08 (est.) | 200 | India | ~2004–09 | III | L | SPN | FSTS | ACC | JBR; India contextual analysis |
 | S218 | Sun et al. (2019) | +0.09 (est.) | 600 | USA | ~2003–15 | I | H | SPN | FSTS | MKT | JBR; longitudinal marketing cap |
 | S219 | Tongurai & Vithessonthi (2022) | +0.06 (est.) | 350 | Thailand | ~2010–19 | III | H | FOL | FSTS | ACC | GFJ; Thailand learning |
@@ -385,17 +385,17 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S232 | Huang & Marciano (2020) | +0.05 (est.) | 200 | Multi | ~2010–18 | MX | M | SPN | FSTS | ACC | INSYMA conf.; Indonesia/China |
 | S233 | Kayaci (2022) | +0.06 (est.) | 200 | Turkey | ~2015–20 | II | H | FOL | COMP | ACC | CumJourn; BIST-listed Turkey |
 | S234 | Yip et al. (2000) | +0.06 (est.) | 150 | Multi | ~1992–98 | MX | L | PRE | COMP | ACC | JIM; newly internationalizing firms |
-| S235 | Freixanet & Rialp (2021) GSJ | +0.08 (est.) | 1,500 | Spain | ~2008–16 | II | M | FOL | EXP | MIX | GSJ; I→P with innovation mediator (distinct from S101 EMJ) |
+| S235 | Freixanet & Rialp (2021) GSJ | +0.08 (est.) | 1,500 | Spain | ~2008–16 | II | M | FOL | EXP | MIX | GSJ; I–P with innovation mediator (distinct from S101 EMJ) |
 | S236 | Barłożewski & Trąpczyński (2021a) | −0.10 | 97 | Poland | ~2014–19 | MX | M | SPN | FSTS | ACC | EBER 9; exporter subsample n=97; r confirmed (see S195 for full-sample n=200 est.) |
 | S237 | Barłożewski & Trąpczyński (2021b) | −0.04 | 304 | Poland | ~2014–19 | MX | M | FOL | FSTS | ACC | OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.) |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 237 studies S01–S237; S238 added to forest_data directly → total k = 238, K = 288 in MARA)
+## 5. Tóm tắt Phân phối Moderator (k = 237 studies S01–S237; S238 added to forest_data directly đến total k = 238, K = 288 in MARA)
 
 > *Cập nhật 16/05/2026: k=237. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). S238 = Cho & Lee (2018) confirmed duplicate of S85 (same paper, same r=−0.029, same n=232; removed — cDAI corrected to H at S85). Table rows S01–S237 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` để có số liệu chính xác theo effect.*
 >
-> *Cập nhật 19/05/2026: S238 (Srividhya & Vidya 2024 — India BG, FSTS→ROA, r=0.13, n=992, ICRV=III, cDAI=M, DPL=SPN) thêm trực tiếp vào `forest_data.csv` (E288) từ WoS arm search. Coded database này vẫn cover S01–S237 (k=237); `forest_data.csv` hiện có K=288 rows và k=238 unique study_ids.*
+> *Cập nhật 19/05/2026: S238 (Srividhya & Vidya 2024 — India BG, FSTS đến ROA, r=0.13, n=992, ICRV=III, cDAI=M, DPL=SPN) thêm trực tiếp vào `forest_data.csv` (E288) từ WoS arm search. Coded database này vẫn cover S01–S237 (k=237); `forest_data.csv` hiện có K=288 rows và k=238 unique study_ids.*
 >
 > **Ghi chú về chênh lệch K: MetaEssentials vs forest_data (16/05/2026)**
 >
@@ -494,13 +494,13 @@ Ghi lại các studies được xem xét nhưng không đủ tiêu chuẩn để
 | Yang & Driffield (2012) | Meta-analysis — not primary study | Exclusion #1 |
 | Marano et al. (2016) | Meta-analysis — not primary study | Exclusion #1 |
 | Wu et al. (2022) | Meta-analysis — not primary study | Exclusion #1 |
-| Arte & Larimo (2022) | Meta-regression (được giữ lại S125 vì có primary effect sizes) | → INCLUDED |
+| Arte & Larimo (2022) | Meta-regression (được giữ lại S125 vì có primary effect sizes) | đến INCLUDED |
 | Luo & Tung (2007) | Conceptual/framework — no primary empirical data | Exclusion #1 |
-| Klier et al. (2017) | Meta-regression — xem xét thêm (S124) | → PENDING |
+| Klier et al. (2017) | Meta-regression — xem xét thêm (S124) | đến PENDING |
 | Banalieva & Dhanaraj (2019) | Theoretical paper | Exclusion #1 |
-| Schmuck et al. (2022) | Primary empirical with r | → INCLUDED (S126) |
-| Hitt et al. (2001)* | Not primarily I→P study (professional services HR) | Exclusion #1 |
-| Sullivan (1994) measurement | Second sample in paper has r | → INCLUDED (S114) |
+| Schmuck et al. (2022) | Primary empirical with r | đến INCLUDED (S126) |
+| Hitt et al. (2001)* | Not primarily I–P study (professional services HR) | Exclusion #1 |
+| Sullivan (1994) measurement | Second sample in paper has r | đến INCLUDED (S114) |
 | Various PhD theses | Unpublished thesis | Exclusion #6 |
 | Country-level FDI studies | Country-level not firm-level | Exclusion #4 |
 
@@ -510,7 +510,7 @@ Ghi lại các studies được xem xét nhưng không đủ tiêu chuẩn để
 
 ### 8.1 Nguồn chưa khai thác đầy đủ
 
-Theo kế hoạch P6 §4.2, các nguồn ưu tiên tiếp theo:
+Theo kế hoạch P6 Mục 4.2, các nguồn ưu tiên tiếp theo:
 
 | Nguồn | Ước tính studies mới | Phương pháp |
 |-------|---------------------|-------------|
@@ -540,7 +540,7 @@ pool hiện tại. Những studies tiềm năng còn thiếu (cần xác minh):
 | Nachum | 2004 | r ≈ 0.07 | UK | JIBS; EMNEs |
 
 > **Hành động**: Cần chạy 28 search queries (per `search_queries.json`) để confirm và extract
-> effect sizes. Mark cho audit Tuần 2–3 (per kế hoạch §6).
+> effect sizes. Mark cho audit Tuần 2–3 (per kế hoạch Mục 6).
 
 ---
 

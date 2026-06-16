@@ -15,27 +15,27 @@
 | 🟢 **SẴN SÀNG NỘP** | File đã xong, có thể click submit ngay hôm nay |
 | 🟡 **CẦN THÊM 1 BƯỚC** | Nội dung xong ~90%, cần 1 action nhỏ rồi nộp |
 | 🔴 **NCS PHẢI LÀM** | Cần công việc thủ công, dữ liệu ngoại, hoặc quyết định khoa học |
-| ✅ **ĐÃ ĐĂNG** | Đã công bố, không còn cần làm gì |
+| Có **ĐÃ ĐĂNG** | Đã công bố, không còn cần làm gì |
 
 ---
 
 ## PHẦN II — TRẠNG THÁI CHI TIẾT TỪNG BÀI
 
-### P1 — Vietnam Emerging Markets 17 nước ✅ ĐÃ ĐĂNG
+### P1 — Vietnam Emerging Markets 17 nước ĐÃ ĐĂNG
 - **Tạp chí:** VEFR (Vietnam Economic and Finance Review)
 - **File:** `p1/p1_vefr_firm_performance_heterogeneity.docx` (2.1MB)
 - **Không còn việc gì cần làm.**
 
 ---
 
-### P2 — China SMEs Cubic ✅ ĐÃ ĐĂNG
+### P2 — China SMEs Cubic ĐÃ ĐĂNG
 - **Tạp chí:** JFAR (Journal of Finance and Accounting Research)
 - **File:** `p2/p2_jfar_china_smes.pdf` (1.7MB)
 - **Không còn việc gì cần làm.**
 
 ---
 
-### P3 — Vietnam WBES (Nonlinear I→P) 🟢 SẴN SÀNG NỘP
+### P3 — Vietnam WBES (Nonlinear I–P) 🟢 SẴN SÀNG NỘP
 - **Target journal:** Journal of Asia Business Studies (JABS) — ABS-1, Emerald
 - **Submission portal:** mc.manuscriptcentral.com/jabs
 - **Files đã có:**
@@ -46,10 +46,10 @@
 - **Nội dung bài:** Vietnam 2009/2015/2023, WBES, inverted-U (M0–M6), TCI/DAI moderators
 - **Turning point:** TP* ≈ 40.3% FSTS (confirmed by Lind-Mehlum utest)
 
-**✅ NCS chỉ cần làm:**
+**NCS chỉ cần làm:**
 1. Đăng nhập ScholarOne tại mc.manuscriptcentral.com/jabs
 2. Tạo tài khoản nếu chưa có (dùng email CTU)
-3. Upload theo thứ tự: `01_manuscript_blinded.docx` → `02_title_page.docx` → `03_cover_letter.docx` → 6 figures
+3. Upload theo thứ tự: `01_manuscript_blinded.docx` đến `02_title_page.docx` đến `03_cover_letter.docx` đến 6 figures
 4. Điền metadata (keywords: internationalization, firm performance, Vietnam, digital adoption, nonlinear)
 5. Click Submit
 
@@ -67,7 +67,7 @@
   - Figures: 3 PNG files
 - **Nội dung bài:** Singapore 2023, WBES, N=2,094, inverted-U + DAI amplification
 
-**✅ NCS chỉ cần làm:**
+**NCS chỉ cần làm:**
 1. Đăng nhập Editorial Manager MIR
 2. Upload theo thứ tự như P3
 3. Điền metadata, submit
@@ -86,7 +86,7 @@
   - Figures: 4 PNG files
 - **Nội dung bài:** China 2012/2024, N=1,940 pooled, TP≈48% FSTS, null TCI moderation
 
-**✅ NCS chỉ cần làm:**
+**NCS chỉ cần làm:**
 1. Đăng nhập ScholarOne IJOEM
 2. Upload files, submit
 
@@ -94,7 +94,7 @@
 
 ---
 
-### P6 — Three-Level Meta-Analysis I→P Asia-Pacific 🟡 CẦN 1 BƯỚC
+### P6 — Three-Level Meta-Analysis I–P Asia-Pacific 🟡 CẦN 1 BƯỚC
 - **Target journal:** International Business Review (IBR) — ABS-3, Elsevier
 - **Submission portal:** editorialmanager.com/ibr
 - **Files đã có:**
@@ -117,7 +117,7 @@
 
 > **Khuyến nghị:** Nếu bảo vệ luận án trong năm 2026, chọn **Lựa chọn A** — nộp ngay với k=238, ghi chú "additional studies under extraction per OSF protocol" trong manuscript.
 
-**✅ NCS quyết định A hay B, rồi:**
+**NCS quyết định A hay B, rồi:**
 - Nếu A: Đăng nhập editorialmanager.com/ibr, upload, submit (45 phút)
 - Nếu B: Xem mục P6 L2 Extraction bên dưới
 
@@ -137,7 +137,7 @@
 - JIBS là tạp chí ABS-4* khó nhất trong nhóm (top 3% IB journals). Thời gian review 3–6 tháng.
 - Nếu muốn cẩn thận hơn, có thể submit tới **Journal of World Business (ABS-3)** hoặc **Asia Pacific Journal of Management (ABS-2)** trước.
 
-**✅ NCS chỉ cần làm:**
+**NCS chỉ cần làm:**
 1. Đăng nhập ScholarOne JIBS
 2. Upload files theo checklist `README.md` trong folder
 3. Submit (thời gian ScholarOne: 60 phút do JIBS yêu cầu nhiều metadata)
@@ -166,7 +166,7 @@
 - **Nội dung:** Phân tích vi mô multi-country Asia với ICRV 6 sub-regime + WBES pool
 - **Review report đã có:** `reviews/cd1_review_report.md` (13K)
 
-**✅ NCS cần làm:**
+**NCS cần làm:**
 1. In file `dist/chuyen_de_1/00_cd1_ctu_final_vi.docx` ra giấy (double-sided, A4)
 2. Nộp cho GVHD (PGS.TS. Phan Anh Tú) để xem xét chính thức
 3. Chờ phản hồi và chỉnh sửa theo yêu cầu của GVHD
@@ -182,7 +182,7 @@
 - **Nội dung:** Framework tích hợp đa tầng (CDCM) — meta-analysis + empirical synthesis
 - **Quy mô:** Lớn nhất trong tất cả, 126K = ~70–80 trang Word
 
-**✅ NCS cần làm:** (tương tự CD1)
+**NCS cần làm:** (tương tự CD1)
 1. In file Word, nộp GVHD
 2. Bảo vệ chuyên đề 2 (quy mô phức tạp hơn CD1 do tích hợp nhiều papers)
 
@@ -202,8 +202,8 @@
 
 ### Chương 1 — Giới thiệu (29K) 🟡
 **Nội dung đã có:** Background, research gap, research questions, contribution, structure
-**✅ Claude đã làm (20/05/2026):**
-- ✅ Thêm roadmap P3–P8 vào §1.10 (commit 3a9e8f8)
+**Claude đã làm (20/05/2026):**
+- Thêm roadmap P3–P8 vào Mục 1.10 (commit 3a9e8f8)
 **NCS cần làm:**
 - Đọc lại toàn bộ chương, kiểm tra số liệu macro (số doanh nghiệp, số tạp chí)
 - Kiểm tra nhất quán thuật ngữ với Glossary (`writing_guides/09b_vn_term_glossary.md`)
@@ -211,26 +211,26 @@
 
 ### Chương 2 — Tổng quan tài liệu (50K) 🟡
 **Nội dung đã có:** Uppsala, RBV, Institutional Theory, Upper Echelons, Digital Capability Lens, ICRV framework, meta-analysis review
-**✅ Claude đã làm (19–20/05/2026):**
-- ✅ Cập nhật §2.3.2 với k=238 baseline (r̄=0.074) — commit 1fa2cf0
-- ✅ Thêm subsections P7/P8 literature gap vào §2.4 + fix CDCM expansion — commit 1e7f2c8
+**Claude đã làm (19–20/05/2026):**
+- Cập nhật Mục 2.3.2 với k=238 baseline (r̄=0.074) — commit 1fa2cf0
+- Thêm subsections P7/P8 literature gap vào Mục 2.4 + fix CDCM expansion — commit 1e7f2c8
 **NCS cần làm:**
 - Kiểm tra tất cả citations có trong `thesis/04_references_apa7.md`
 - **Thời gian:** 1–2 giờ
 
 ### Chương 3 — Phương pháp nghiên cứu (41K) 🟡
 **Nội dung đã có:** WBES data harmonization, P3/P4/P5/P6/P7/P8 methods, estimation equations M0–M11
-**✅ Claude đã làm (20/05/2026):**
-- ✅ Thêm footnote survey weights vào §3.3.1 — commit 722bc31
-- ✅ Kiểm tra notation consistency (FSTS_c, FSTS_c², TCI_z, DAI_z) — nhất quán
+**Claude đã làm (20/05/2026):**
+- Thêm footnote survey weights vào Mục 3.3.1 — commit 722bc31
+- Kiểm tra notation consistency (FSTS_c, FSTS_c², TCI_z, DAI_z) — nhất quán
 **NCS cần làm:**
-- Hoàn thiện §3.4 về inter-coder reliability protocol cho P6 (sau khi có kết quả thực tế κ, ICC)
+- Hoàn thiện Mục 3.4 về inter-coder reliability protocol cho P6 (sau khi có kết quả thực tế κ, ICC)
 - **Thời gian:** 1–2 giờ sau L2 xong
 
 ### Chương 4 — Kết quả (32K) 🔴
 **Nội dung đã có:** Kết quả P3/P4/P5/P7/P8 (bảng số liệu, turning points)
 **Vấn đề:** Kết quả P6 meta-analysis trong chương này sẽ cần update nếu NCS chọn Lựa chọn B (chờ L2 xong)
-**✅ Claude đã kiểm tra (20/05/2026):** k=238, Q_M=17.35, turning points — tất cả nhất quán với manuscript.
+**Claude đã kiểm tra (20/05/2026):** k=238, Q_M=17.35, turning points — tất cả nhất quán với manuscript.
 **NCS cần làm:**
 - Nếu chọn Lựa chọn A (submit P6 k=238 ngay): Chương 4 gần hoàn chỉnh, chỉ cần đọc lại lần cuối
 - Nếu chọn Lựa chọn B: Chờ L2 xong, update Tables 4.2–4.4 với k mới
@@ -239,10 +239,10 @@
 ### Chương 5 — Kết luận và Đề xuất (34K) 🟡
 **Nội dung đã có:** Tóm tắt kết quả, đóng góp lý thuyết/thực tiễn, hạn chế, hướng tương lai
 **Stats đã đúng:** k=238, r=0.074, I²=62.4%, Q_M=17.35
-**✅ Claude đã làm (20/05/2026):**
-- ✅ §5.5.1 đã có đầy đủ DAI measurement constraint (website-only Tier-1) — đã kiểm tra
-- ✅ §5.6.1 đã đủ P3–P8 summary — đã kiểm tra
-- ✅ Thêm §5.4.4 về ý nghĩa chính sách cho CTU/Mekong Delta — commit ddf55dd
+**Claude đã làm (20/05/2026):**
+- Mục 5.5.1 đã có đầy đủ DAI measurement constraint (website-only Tier-1) — đã kiểm tra
+- Mục 5.6.1 đã đủ P3–P8 summary — đã kiểm tra
+- Thêm Mục 5.4.4 về ý nghĩa chính sách cho CTU/Mekong Delta — commit ddf55dd
 **NCS cần làm:**
 - Đọc lại toàn bộ Chương 5 lần cuối trước khi nộp
 - **Thời gian:** 1–2 giờ
@@ -331,8 +331,8 @@ Từ β (OLS):      r ≈ β (Peterson & Brown, 2005, acceptable approximation)
 **Thứ tự theo quy định:**
 1. **Bảo vệ chuyên đề 1** (sau khi GVHD ký)
 2. **Bảo vệ chuyên đề 2** (sau CD1)
-3. **Bảo vệ cấp Cơ sở** (seminar đơn vị đào tạo) → nhận nhận xét, chỉnh sửa
-4. **Bảo vệ cấp Trường** (hội đồng 5 người) → nhận nhận xét, chỉnh sửa
+3. **Bảo vệ cấp Cơ sở** (seminar đơn vị đào tạo) đến nhận nhận xét, chỉnh sửa
+4. **Bảo vệ cấp Trường** (hội đồng 5 người) đến nhận nhận xét, chỉnh sửa
 5. **Nộp luận án chính thức** cho Khoa sau Đại học
 
 **Hồ sơ cần chuẩn bị cho mỗi bảo vệ:**

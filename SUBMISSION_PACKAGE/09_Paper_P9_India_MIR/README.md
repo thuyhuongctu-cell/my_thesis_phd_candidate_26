@@ -13,7 +13,7 @@
 
 ---
 
-## Data Availability — VERIFIED ✓
+## Data Availability — VERIFIED 
 
 All three India WBES waves extracted to `data_wbes/raw_dta/`:
 
@@ -25,7 +25,7 @@ All three India WBES waves extracted to `data_wbes/raw_dta/`:
 
 **Total pooled raw N = 29,136 firm-year observations** — largest sample in the portfolio.
 
-**Critical discovery**: India 2025 BREADY includes `k33` (% sales via e-payment) → enables **DAI Tier-2 moderation test** — the public-vs-private digital infrastructure distinction.
+**Critical discovery**: India 2025 BREADY includes `k33` (% sales via e-payment) đến enables **DAI Tier-2 moderation test** — the public-vs-private digital infrastructure distinction.
 
 ---
 
@@ -33,16 +33,16 @@ All three India WBES waves extracted to `data_wbes/raw_dta/`:
 
 | Criterion | P9 Thailand | **P9' India** |
 |---|:-:|:-:|
-| Institutional gap-filling | ❌ Cluster with China/Vietnam | ✅ **Lấp 6 dimensions** (democratic + federal + common-law + South Asia + Hindu/Muslim + 2nd-largest population) |
+| Institutional gap-filling | Không Cluster with China/Vietnam | Có **Lấp 6 dimensions** (democratic + federal + common-law + South Asia + Hindu/Muslim + 2nd-largest population) |
 | Cross-wave durability stress test | Moderate (COVID + RCEP) | **Extreme** (demonetisation + GST + IBC + UPI + PLI + COVID + Atmanirbhar Bharat) |
-| Digital quasi-experiment | ❌ Không có | ✅ **UPI 2016 launch → 12B txn/month by 2024** |
+| Digital quasi-experiment | Không Không có | Có **UPI 2016 launch đến 12B txn/month by 2024** |
 | Sample size | 1,471 obs | **~29,000 obs (~20× larger)** |
-| Existing scaffolding | Không | ✅ Book chapter (Do & Phan 2025 IntechOpen) |
+| Existing scaffolding | Không | Có Book chapter (Do & Phan 2025 IntechOpen) |
 | Target journal ceiling | JED/JABES Q1 | **MIR (Springer ABS-3) hoặc IJOEM Q1** |
-| Self-clustering risk | Cao (3 papers JED) | ✅ Thấp (different publisher) |
+| Self-clustering risk | Cao (3 papers JED) | Có Thấp (different publisher) |
 | TC Scopus potential | +10 | +10-12 (MIR có higher impact) |
 
-→ **P9' India là phương án rõ ràng hơn về mọi mặt** so với P9 Thailand.
+ đến **P9' India là phương án rõ ràng hơn về mọi mặt** so với P9 Thailand.
 
 ---
 
@@ -65,9 +65,9 @@ Following items pending NCS running Stata analysis:
 | File | Description | Status |
 |------|-------------|--------|
 | `01_manuscript_blinded.docx` | Main manuscript anonymised | ⏳ TBD |
-| `02_title_page.docx` | Title page non-anonymous | ✓ Draft ready |
-| `03_cover_letter.docx` | Cover letter to MIR EiC | ✓ Draft ready |
-| `BOOK_CHAPTER_DIFFERENTIATION.md` | Self-plagiarism management memo | ✓ Complete |
+| `02_title_page.docx` | Title page non-anonymous | Có Draft ready |
+| `03_cover_letter.docx` | Cover letter to MIR EiC | Có Draft ready |
+| `BOOK_CHAPTER_DIFFERENTIATION.md` | Self-plagiarism management memo | Có Complete |
 | `figures/figure_1_conceptual_model.png` | Conceptual model | ⏳ TBD |
 | `figures/figure_2_predicted_curves.png` | I-P curves by wave | ⏳ TBD |
 | `figures/figure_3_turning_points.png` | Turning points + 95% CI | ⏳ TBD |
@@ -85,11 +85,11 @@ Following items pending NCS running Stata analysis:
 - [ ] **Keywords**: internationalisation–performance; export intensity; threshold stability; India; UPI; digital capability; technological capability; institutional transformation; emerging markets; CDCM
 - [ ] **JEL codes:** F23, O33, D22, L25, O53, O25
 - [ ] **Abstract** (standard MIR format)
-- [ ] Upload 01_manuscript_blinded.docx → Main Manuscript (anonymous)
-- [ ] Upload 02_title_page.docx → Title Page (non-anonymous)
-- [ ] Upload 03_cover_letter.docx → Cover Letter
+- [ ] Upload 01_manuscript_blinded.docx đến Main Manuscript (anonymous)
+- [ ] Upload 02_title_page.docx đến Title Page (non-anonymous)
+- [ ] Upload 03_cover_letter.docx đến Cover Letter
 - [ ] Upload figures 1, 2, 3, 4
-- [ ] **Disclose prior related work** in cover letter (book chapter DOI 10.5772/intechopen.1011012) ← critical
+- [ ] **Disclose prior related work** in cover letter (book chapter DOI 10.5772/intechopen.1011012) từ critical
 - [ ] Confirm corresponding author = Phan Anh Tú (patu@ctu.edu.vn)
 - [ ] Confirm no conflict of interest
 - [ ] Confirm no simultaneous submission

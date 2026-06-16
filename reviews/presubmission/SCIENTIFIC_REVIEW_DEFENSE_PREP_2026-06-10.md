@@ -8,27 +8,27 @@
 
 ## I. CÁC TẤN CÔNG SUBSTANTIVE ĐÃ KIỂM CHỨNG
 
-### SCI-2 (P8) — "Kết quả chủ đạo chỉ dựa trên 209/959 quan sát" → ✅ ĐÃ GIẢI QUYẾT (thêm robustness vào bài)
+### SCI-2 (P8) — "Kết quả chủ đạo chỉ dựa trên 209/959 quan sát" đến ĐÃ GIẢI QUYẾT (thêm robustness vào bài)
 **Tấn công:** β = −1.339 (FE đầy đủ) chạy trên N=209 = 22% mẫu sau listwise deletion. Có thể là artifact của selection.
-**Kiểm chứng dữ liệu:** 959→209 **gần như hoàn toàn** do biến `foreign_own_pct` (chỉ 22% non-missing); `ln_size`/`firm_age` ~100%. Mean FSTS của nhóm GIỮ vs BỎ = 0.046 vs 0.049 (không lệch theo biến trọng tâm).
-**Robustness đã chạy & THÊM VÀO BÀI (§4.4):** bỏ biến foreign-ownership → **β=−0.835, p=.010, N=950**; không control → **β=−0.769, p=.015, N=959**.
-**→ Phản hồi hội đồng:** *"FIP không phải artifact của mẫu 209. Trên toàn bộ 950–959 quan sát, hệ số vẫn âm và có ý nghĩa (p<.05). N=209 chỉ do thiếu dữ liệu sở hữu nước ngoài, một biến không liên quan đến FSTS."*
+**Kiểm chứng dữ liệu:** 959 đến 209 **gần như hoàn toàn** do biến `foreign_own_pct` (chỉ 22% non-missing); `ln_size`/`firm_age` ~100%. Mean FSTS của nhóm GIỮ vs BỎ = 0.046 vs 0.049 (không lệch theo biến trọng tâm).
+**Robustness đã chạy & THÊM VÀO BÀI (Mục 4.4):** bỏ biến foreign-ownership đến **β=−0.835, p=.010, N=950**; không control đến **β=−0.769, p=.015, N=959**.
+** đến Phản hồi hội đồng:** *"FIP không phải artifact của mẫu 209. Trên toàn bộ 950–959 quan sát, hệ số vẫn âm và có ý nghĩa (p<.05). N=209 chỉ do thiếu dữ liệu sở hữu nước ngoài, một biến không liên quan đến FSTS."*
 
-### SCI-3 (P8) — "Bỏ Comoros + Timor để đạt ý nghĩa (p-hacking)?" → ✅ ĐÃ GIẢI QUYẾT
+### SCI-3 (P8) — "Bỏ Comoros + Timor để đạt ý nghĩa (p-hacking)?" đến ĐÃ GIẢI QUYẾT
 **Tấn công:** 9 nước cho p=.068 (yếu); 7 nước cho p<.001. Việc loại 2 nước = chọn mẫu để có significance.
 **Kiểm chứng dữ liệu (FE, control size, full N):** 9 nước (gồm Comoros+Timor): **β=−0.510, p=.008, N=1469**; 7 nước: **β=−0.834, p=.010**.
-**→ Phản hồi:** *"FIP có ý nghĩa ở CẢ 9 nước (p=.008) lẫn 7 nước. Việc giới hạn về 7 đảo Thái Bình Dương dựa trên định nghĩa địa lý (loại Comoros-Ấn Độ Dương, Timor-ĐNÁ), làm MẠNH thêm chứ KHÔNG TẠO RA kết quả."* Đã thêm robustness 9-nước vào bài.
+** đến Phản hồi:** *"FIP có ý nghĩa ở CẢ 9 nước (p=.008) lẫn 7 nước. Việc giới hạn về 7 đảo Thái Bình Dương dựa trên định nghĩa địa lý (loại Comoros-Ấn Độ Dương, Timor-ĐNÁ), làm MẠNH thêm chứ KHÔNG TẠO RA kết quả."* Đã thêm robustness 9-nước vào bài.
 
-### SCI-1 (P9) — "'Tan rã ngưỡng' 2025 chỉ là do xuất khẩu sụp đổ (mất phương sai đuôi)?" → ⚠️ ĐÃ THÊM CAVEAT (phần còn lại là author judgment)
+### SCI-1 (P9) — "'Tan rã ngưỡng' 2025 chỉ là do xuất khẩu sụp đổ (mất phương sai đuôi)?" đến ⚠️ ĐÃ THÊM CAVEAT (phần còn lại là author judgment)
 **Tấn công:** 2025 FSTS mean = 2.7% (từ 7.2%), exporter 7% (từ 15.6%), DN có FSTS>50% chỉ còn **141** (từ 536). Độ cong bậc hai 2025 mất ý nghĩa có thể vì **thiếu biến thiên ở đuôi xuất khẩu cao**, không phải vì quan hệ thay đổi cấu trúc.
 **Kiểm chứng:** xác nhận đúng — biến thiên đuôi 2025 co lại mạnh.
-**Đã thêm caveat vào §6 (4 file):** thừa nhận phát hiện "conditional on the post-Atmanirbhar export contraction".
-**→ Phản hồi (có cơ sở bác một phần):** *"Tuy đuôi mỏng đi, DẤU của độ dốc FSTS thấp đảo chiều — dương (sườn lên) năm 2014 → âm đơn điệu 2025. Mất phương sai đuôi chỉ làm độ cong khó ước lượng, KHÔNG tạo ra đảo dấu ở vùng FSTS thấp (nơi có nhiều quan sát)."* Linear 2025 = −0.359, p=.019 (có ý nghĩa). **Khuyến nghị NCS:** nhấn mạnh sign-reversal này khi bảo vệ.
+**Đã thêm caveat vào Mục 6 (4 file):** thừa nhận phát hiện "conditional on the post-Atmanirbhar export contraction".
+** đến Phản hồi (có cơ sở bác một phần):** *"Tuy đuôi mỏng đi, DẤU của độ dốc FSTS thấp đảo chiều — dương (sườn lên) năm 2014 đến âm đơn điệu 2025. Mất phương sai đuôi chỉ làm độ cong khó ước lượng, KHÔNG tạo ra đảo dấu ở vùng FSTS thấp (nơi có nhiều quan sát)."* Linear 2025 = −0.359, p=.019 (có ý nghĩa). **Khuyến nghị NCS:** nhấn mạnh sign-reversal này khi bảo vệ.
 
-### SCI-4 (P6) — "Ý nghĩa ICRV chỉ do ô Frontier k=3 (1 nghiên cứu outlier)" → ⚠️ HẠN CHẾ ĐÃ KHAI BÁO (cần coder thứ 2 để củng cố)
+### SCI-4 (P6) — "Ý nghĩa ICRV chỉ do ô Frontier k=3 (1 nghiên cứu outlier)" đến ⚠️ HẠN CHẾ ĐÃ KHAI BÁO (cần coder thứ 2 để củng cố)
 **Tấn công:** ICRV Q_M=17.35, p=.002 nhưng Frontier r̄=0.349 (k=3, do Pouresmaeili et al. 2018 chi phối). Bỏ ô này có thể làm mất ý nghĩa.
 **Trạng thái:** bài ĐÃ tự khai báo (audit B2: "ICRV result driven by k=3 Frontier cell"). Không thể chạy lại rma.mv (metafor không có trong môi trường).
-**→ Phản hồi:** *"Chúng tôi trình bày kết quả ICRV như 'informative bounds', không phải bằng chứng xác nhận; phát hiện chính của P6 là PUBLICATION BIAS (r 0.074→0.035), không phải ICRV. Frontier là exploratory với k nhỏ đã nêu rõ."* **Việc NCS nên làm:** chạy leave-one-out bỏ Pouresmaeili + báo cáo Q_M có/không Frontier.
+** đến Phản hồi:** *"Chúng tôi trình bày kết quả ICRV như 'informative bounds', không phải bằng chứng xác nhận; phát hiện chính của P6 là PUBLICATION BIAS (r 0.074 đến 0.035), không phải ICRV. Frontier là exploratory với k nhỏ đã nêu rõ."* **Việc NCS nên làm:** chạy leave-one-out bỏ Pouresmaeili + báo cáo Q_M có/không Frontier.
 
 ---
 
@@ -40,7 +40,7 @@
 | Q2 | *"Trùng lặp với 2 chuyên đề có phải tự đạo văn?"* | Không — Lời cam đoan + Quyết định giao chuyên đề ĐHCT xác lập luận án **phát triển từ chính 2 chuyên đề của NCS**; trùng là hợp lệ, đã khai báo (Đ.2.3). |
 | Q3 | *"Đóng góp MỚI thực sự là gì?"* | (i) **FIP** — khái niệm mới: I–P đơn điệu âm khi 3 tiền đề cấu trúc đồng thời vắng; (ii) **threshold dissolution** (P9) — bằng chứng longitudinal đầu tiên ngưỡng *tan rã* chứ không chỉ dịch chuyển; (iii) **public/private digital complement** (UPI Tier-2 âm); (iv) **publication bias** làm đôi hiệu ứng I–P (P6). |
 | Q4 | *"Dùng AI thì sao?"* | Khai báo M-AIDA (hỗ trợ trích xuất, PI kiểm chứng 100%) trong P6; luận án có Lời cam đoan theo chuẩn ĐHCT; chuyên đề không khai báo AI (đúng quy định). Mã M-AIDA công khai trên GitHub (chứng minh năng lực lập trình). |
-| Q5 | *"Tại sao OLS không phải panel/IV (nhân quả)?"* | Đã khai báo: WBES ẩn danh → cross-section lặp, không match panel được. Kết quả diễn giải **associational**, không nhân quả; đã đề xuất IV (PMJDY cho UPI) cho nghiên cứu sau. |
+| Q5 | *"Tại sao OLS không phải panel/IV (nhân quả)?"* | Đã khai báo: WBES ẩn danh đến cross-section lặp, không match panel được. Kết quả diễn giải **associational**, không nhân quả; đã đề xuất IV (PMJDY cho UPI) cho nghiên cứu sau. |
 | Q6 | *"P1/P2 đã đăng ở tạp chí Việt Nam — chất lượng?"* | P1/P2 là công bố nền (VEFR, JFAR); 7 bài thành phần P3–P9 nhắm Q1–Q2 quốc tế (MIR, JWB, IBR, World Development…). |
 
 ---
@@ -48,13 +48,13 @@
 ## III. TÓM TẮT HÀNH ĐỘNG
 
 **Đã làm trong vòng này (data-verified, thêm vào bài):**
-- P8: 2 robustness mới (full-sample N=950; 9-nước) → giải quyết 2 lỗ hổng nghiêm trọng nhất.
+- P8: 2 robustness mới (full-sample N=950; 9-nước) đến giải quyết 2 lỗ hổng nghiêm trọng nhất.
 - P9: caveat về co rút biến thiên xuất khẩu 2025.
 
 **NCS nên làm thêm (củng cố, không bắt buộc trước nộp):**
-1. P6: leave-one-out bỏ Pouresmaeili → kiểm ICRV Q_M.
+1. P6: leave-one-out bỏ Pouresmaeili đến kiểm ICRV Q_M.
 2. P9: (tùy chọn) trim-tail robustness 2025 hoặc nhấn sign-reversal khi bảo vệ.
-3. Toàn bộ: chuẩn bị trả lời Q1–Q6 ở §II.
+3. Toàn bộ: chuẩn bị trả lời Q1–Q6 ở Mục II.
 
 **Đánh giá khoa học tổng thể:** sau vòng này, 2/4 tấn công nặng nhất (P8) đã được **bác bằng robustness từ chính dữ liệu**; 2 còn lại (P9 đuôi xuất khẩu, P6 Frontier) đã có caveat trung thực + đường phản hồi. Các paper **vững hơn đáng kể về mặt phòng thủ khoa học**, không chỉ sạch về hình thức.
 
@@ -62,24 +62,24 @@
 
 ## IV. ĐÀO SÂU PHẢN BIỆN P3 / P4 / P5 / P7 (data-verified, 2026-06-10)
 
-### P3 (Vietnam) — ✅ 1 lỗi thực chất ĐÃ SỬA + nền tảng vững
-**Tấn công 1 (ĐÃ SỬA):** bài tự mâu thuẫn — một chỗ ghi sở hữu website "near half (49.8%)", ba chỗ khác ghi "diffuses to **near-universal** levels" để biện minh cơ chế "proxy obsolescence/hygiene marker". **Kiểm chứng dữ liệu:** tỷ lệ website Việt Nam = 0.43→0.48→**0.50** (2009/2015/2023) — **gần một nửa, KHÔNG gần phổ quát**. Tệ hơn: ở mức ~50%, website có **phương sai phân biệt CỰC ĐẠI** (50/50), nên lập luận "hygiene marker không phân biệt" yếu nhất đúng chỗ bài viện dẫn. → Đã sửa toàn bộ "near-universal" → "roughly half of firms" + đánh dấu cách đọc obsolescence là *tentative* (5 manuscript).
-**Phòng thủ (mạnh):** Việt Nam có **support đuôi tốt** (160–211 DN có FSTS>0.4 mỗi đợt) → điểm ngưỡng 39–46% được nhận dạng thật; claim "step function / participation margin" (within-exporter quadratic null) là **framing của chính bài, được bảo vệ tốt**.
+### P3 (Vietnam) — 1 lỗi thực chất ĐÃ SỬA + nền tảng vững
+**Tấn công 1 (ĐÃ SỬA):** bài tự mâu thuẫn — một chỗ ghi sở hữu website "near half (49.8%)", ba chỗ khác ghi "diffuses to **near-universal** levels" để biện minh cơ chế "proxy obsolescence/hygiene marker". **Kiểm chứng dữ liệu:** tỷ lệ website Việt Nam = 0.43 đến 0.48 đến **0.50** (2009/2015/2023) — **gần một nửa, KHÔNG gần phổ quát**. Tệ hơn: ở mức ~50%, website có **phương sai phân biệt CỰC ĐẠI** (50/50), nên lập luận "hygiene marker không phân biệt" yếu nhất đúng chỗ bài viện dẫn. đến Đã sửa toàn bộ "near-universal" đến "roughly half of firms" + đánh dấu cách đọc obsolescence là *tentative* (5 manuscript).
+**Phòng thủ (mạnh):** Việt Nam có **support đuôi tốt** (160–211 DN có FSTS>0.4 mỗi đợt) đến điểm ngưỡng 39–46% được nhận dạng thật; claim "step function / participation margin" (within-exporter quadratic null) là **framing của chính bài, được bảo vệ tốt**.
 
 ### P4 (Singapore) — ⚠️ nhận dạng yếu nhưng KHAI BÁO TRUNG THỰC (không sửa)
 **Tấn công:** "Bạn không thực sự có inverted-U cho Singapore" — TP=88.6% nằm vùng cực thưa (phân vị 75 của FSTS = 0), CI bootstrap **[53%, 253%]** (gần như vô định), exporter N=84, power ≈16%.
 **Trạng thái:** bài **đã tự khai báo đầy đủ** ("descriptive rather than structurally identified", "inferential bounds"). Tính trung thực này CHÍNH LÀ phòng thủ.
-**→ Q&A:** *"P4 không tuyên bố xác nhận inverted-U Singapore; nó cung cấp inferential bounds underpowered, đã nêu rõ power 16% và CI rộng. Đóng góp là tam giác hóa CDCM (DAI là nguồn lực điều kiện ở nền KT tiên tiến), không phải điểm ngưỡng chính xác."*
+** đến Q&A:** *"P4 không tuyên bố xác nhận inverted-U Singapore; nó cung cấp inferential bounds underpowered, đã nêu rõ power 16% và CI rộng. Đóng góp là tam giác hóa CDCM (DAI là nguồn lực điều kiện ở nền KT tiên tiến), không phải điểm ngưỡng chính xác."*
 
-### P5 (China) — ⚠️ "ổn định = không bác bỏ" → ĐÃ THÊM CAVEAT
+### P5 (China) — ⚠️ "ổn định = không bác bỏ" đến ĐÃ THÊM CAVEAT
 **Tấn công:** kết luận "H2b structural durability" từ **việc KHÔNG bác bỏ** Paternoster (absence of evidence ≠ evidence of absence) — underpowered có thể giả làm "ổn định".
-**Kiểm chứng:** Paternoster z = −0.21 (lin), +0.10 (sq) — **rất nhỏ**; điểm ước lượng **gần như trùng** (TP 49.4 vs 47.2; b1 0.94 vs 1.03; b2 −1.28 vs −1.34). → consistency thật, không phải non-rejection biên.
+**Kiểm chứng:** Paternoster z = −0.21 (lin), +0.10 (sq) — **rất nhỏ**; điểm ước lượng **gần như trùng** (TP 49.4 vs 47.2; b1 0.94 vs 1.03; b2 −1.28 vs −1.34). đến consistency thật, không phải non-rejection biên.
 **Đã thêm hạn chế thứ 5 (3 package):** thừa nhận suy luận dựa trên non-rejection, cân bằng bằng các ước lượng gần trùng, đề xuất **TOST equivalence test** cho dữ liệu đa-đợt tương lai.
 
-### P7 (Capstone) — ✅ không lỗi mới; attrition đã được bài giải thích
-**Tấn công:** mô hình điều tiết M3–M11 rớt từ N=84,910 (M2) xuống **29,840–38,342** (35–45% mẫu) → kết quả điều tiết năng lực/quản trị dựa trên mẫu con chọn lọc?
+### P7 (Capstone) — không lỗi mới; attrition đã được bài giải thích
+**Tấn công:** mô hình điều tiết M3–M11 rớt từ N=84,910 (M2) xuống **29,840–38,342** (35–45% mẫu) đến kết quả điều tiết năng lực/quản trị dựa trên mẫu con chọn lọc?
 **Kiểm chứng:** bài **đã giải thích** (dòng 296, 371: "drops from M3+ due to missing controls"); **headline inverted-U (M2) chạy trên FULL N=84,910**. Biến điều tiết quản trị phủ rộng (mgr_experience 96%, mgr_female 92%); attrition đến từ bộ control đầy đủ ở M3+.
-**→ Q&A (không cần sửa):** chuẩn bị bảo vệ tính đại diện của mẫu con M8–M11; nhấn mạnh kết quả H1 (inverted-U 49 nền KT) trên toàn mẫu.
+** đến Q&A (không cần sửa):** chuẩn bị bảo vệ tính đại diện của mẫu con M8–M11; nhấn mạnh kết quả H1 (inverted-U 49 nền KT) trên toàn mẫu.
 
 ---
 

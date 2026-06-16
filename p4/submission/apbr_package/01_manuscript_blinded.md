@@ -178,14 +178,14 @@ enabled interfaces and transaction mechanisms. This distinction matters
 because the two constructs are associated with firm performance through
 different empirical patterns: TCI shows a more stable direct
 productivity association, whereas DAI shows a contingent
-export-intensity-dependent pattern. The §4.5 R1 indicator-sensitivity
+export-intensity-dependent pattern. The Section 4.5 R1 indicator-sensitivity
 diagnostic further clarifies that the Tier-1+2 composition of DAI 
 combining website presence with two-way electronic-payment intensity 
 is what generates the discriminatory power across the export-intensity
 range; a Tier-1-only restriction substantially weakens the quadratic
 interaction, indicating that the empirical legibility of the
 conditional-scaling mechanism depends on the institutional availability
-of Tier-2 transaction-enabling infrastructure (see §5.1 for the
+of Tier-2 transaction-enabling infrastructure (see Section 5.1 for the
 construct-boundary discussion).
 
 ### 1.4 Roadmap
@@ -379,9 +379,9 @@ interaction, rather than to produce a level shift (substitution) or a
 selection-driven artefact. This commitment to amplification as the focal
 mechanism is important for interpretation, because the positive
 *quadratic* (not just linear) interaction term will serve as the
-empirical test of the amplification prediction in §4. The substitution
+empirical test of the amplification prediction in Section 4. The substitution
 and selection mechanisms are retained as alternative explanations to be
-assessed against the robustness evidence in §4.5.
+assessed against the robustness evidence in Section 4.5.
 
 Hypothesis 3 (H3). In Singapore, when firms operate at higher export
 intensity, the association between digital adoption (DAI) and firm
@@ -432,7 +432,7 @@ informative result under the saturation framework (Lind–Mehlum p =
 .303). H1-TCI: technological capability (TCI_z, RBV: Barney, 1991)
 enters as a direct level-shift to firm performance. H2: DAI (Tier-1+2:
 website + e-payment) exhibits a non-uniform positive direct effect,
-varying across export intensity. H3: DAI amplifies I→P performance
+varying across export intensity. H3: DAI amplifies I to P performance
 returns at high FSTS, the primary contingency hypothesis (coordination
 platform mechanism: Stallkamp & Schotter, 2021; Dynamic Capabilities:
 Teece, 2007). The Heckman two-step IMR sensitivity check controls
@@ -480,7 +480,7 @@ alone could carry in less digitally mature settings, so the empirical
 signal must be drawn from the Tier-2 transaction-enabling layer
 (e-payment intensity on both customer and supplier sides) to identify
 the conditional-scaling mechanism, a measurement implication that is
-borne out in the §4.5 R1 robustness diagnostic, where reducing DAI to
+borne out in the Section 4.5 R1 robustness diagnostic, where reducing DAI to
 Tier-1 alone substantially weakens the quadratic interaction. Second, in
 transitional-economy settings where Tier-1 digital adoption has diffused
 widely while Tier-2 transaction-enabling infrastructure remains
@@ -488,8 +488,8 @@ institutionally bounded, the same construct measured at Tier-1 only
 would not be expected to produce a comparable positive quadratic
 interaction; instead it would be more plausibly read as construct-tier
 obsolescence than as evidence on the conditional-scaling mechanism (see
-§5.1 for the construct-boundary discussion). The Lind–Mehlum equivalence
-test result (p = .303) reported in §4.2 should therefore be interpreted
+Section 5.1 for the construct-boundary discussion). The Lind–Mehlum equivalence
+test result (p = .303) reported in Section 4.2 should therefore be interpreted
 in conjunction with the Tier-1+2 construct composition and the high
 domestic-orientation distribution of the Singapore sample, not as a
 stand-alone null on the inverted-U logic. Figure 3 \[see Figures
@@ -550,8 +550,8 @@ quadratic interaction coefficient attenuates substantially, from β =
 +3.119 (p = .005) in the Tier-1+2 specification to a smaller and
 statistically weaker estimate, while the Tier-1+2 full model's adjusted
 R² advantage is also reduced. This pattern is directionally consistent
-with the theoretical construct-boundary argument developed in §1.2 and
-§3.2.3: the conditional-scaling mechanism is empirically legible when
+with the theoretical construct-boundary argument developed in Section 1.2 and
+Section 3.2.3: the conditional-scaling mechanism is empirically legible when
 DAI captures the Tier-2 transaction-enabling layer (e-payment intensity
 on both customer and supplier sides), but not when the construct is
 restricted to the Tier-1 digital-presence indicator alone. In
@@ -560,7 +560,7 @@ carries insufficient discriminatory power to identify the
 export-contingent amplification signal; Tier-2 e-payment intensity
 provides the additional measurement variation required. The Tier-1-only
 sensitivity results are available in the Stata replication package
-(`do/02_run_models.do`, PART C) and are consistent with the §1.3
+(`do/02_run_models.do`, PART C) and are consistent with the Section 1.3
 supporting contribution on construct-tier specificity.
 
 #### 3.2.4 Controls
@@ -626,7 +626,7 @@ and Siegel (2019), who find that a Heckman two-step correction *without*
 a credible exclusion restriction can produce more biased estimates than
 the OLS baseline it is intended to correct. A reduced-form
 inverse-Mills-ratio sensitivity diagnostic for selection at the
-extensive margin of exporting is reported in §3.4 below for
+extensive margin of exporting is reported in Section 3.4 below for
 transparency, but is not treated as the primary specification. The
 associational nature of the OLS estimates is therefore acknowledged
 upfront, and inferential claims are bounded to within-context
@@ -635,8 +635,8 @@ associations rather than causal effects.
 ### 3.4 Boundary conditions and identification scope
 
 This subsection consolidates the methodological boundary conditions that
-constrain the inferential reach of the OLS specification, so that the §4
-results can be presented without recurrent caveats and the §5 discussion
+constrain the inferential reach of the OLS specification, so that the Section 4
+results can be presented without recurrent caveats and the Section 5 discussion
 can focus on substantive interpretation rather than on re-litigating
 identification concerns. Four boundary conditions are demarcated.
 
@@ -656,7 +656,7 @@ recovered in 96.3 % of resamples. The wide confidence interval \[53%,
 FSTS); this is a support-constrained estimate and should be interpreted
 as indicating saturation rather than as a precise threshold value. The
 conventional inverted-U interpretation is therefore not formally
-identified within the supported data range, and the §4 results are
+identified within the supported data range, and the Section 4 results are
 interpreted under this support-aware framing.
 
 *(ii) Exporters-only subsample and power-bounded interaction inference.*
@@ -686,8 +686,8 @@ Lind–Mehlum (2010) test does not formally reject monotonicity at
 conventional thresholds (p = .303 in the baseline pooled specification)
  but the appropriate reading of this null is not "the inverted-U
 fails", because the test is conditioned on dense support around the
-turning point, which the §3.4(i) sample-support boundary establishes is
-absent here. Read against the saturation hypothesis developed in §1.1,
+turning point, which the Section 3.4(i) sample-support boundary establishes is
+absent here. Read against the saturation hypothesis developed in Section 1.1,
 the Lind–Mehlum null is a *theoretically informative absence-of-decline*
 in the right tail: if foundational digital infrastructure is
 sufficiently mature to absorb the coordination-cost saturation that
@@ -695,7 +695,7 @@ produces the conventional inverted-U right-side decline, the appropriate
 empirical signature is precisely the *non-rejection* of monotonicity in
 the upper tail. This equivalence-framed reading is consistent with both
 the descriptive evidence (the right tail does not slope sharply
-downward) and the theoretical commitment in §1.1 (Tier-2 digital
+downward) and the theoretical commitment in Section 1.1 (Tier-2 digital
 infrastructure absorbs the coordination-cost mechanism that generates
 the inverted-U in less digitally mature settings). The Lind–Mehlum p =
 .303 is therefore a *positive theoretical signal* under the saturation
@@ -727,8 +727,8 @@ high-prior-strength corroborating signal rather than an independent
 identifying test; (c) the Lind–Mehlum null is a theoretically
 informative positive signal under the saturation hypothesis, not a
 methodological failure; and (d) the H3 amplification mechanism is robust
-to the Heckman sensitivity diagnostic. The §4 results below are reported
-on this consolidated identification scope, and §5 interprets the
+to the Heckman sensitivity diagnostic. The Section 4 results below are reported
+on this consolidated identification scope, and Section 5 interprets the
 substantive findings without further re-litigation of these boundary
 conditions.
 
@@ -1020,7 +1020,7 @@ the small-to-medium range; Cohen's f² for the DAI moderation block
 conventional small-effect threshold of 0.02. The exporters-only
 subsample (N = 84) is underpowered for effects of this magnitude; the
 consolidated power-bounded inferential reading is established at
-§3.4(ii) and is not repeated here. Taken together, the strongest
+Section 3.4(ii) and is not repeated here. Taken together, the strongest
 empirical claim of Section 4 is therefore not that digital adoption
 yields a large average productivity premium, but that its association
 with productivity becomes more positive as export intensity rises within
@@ -1032,10 +1032,10 @@ FSTS \> 0; N = 84): the positive quadratic DAI interaction retains its
 sign (β=+2.821) and the joint F-test is statistically significant (F =
 6.32, p = .003), corroborating the amplification mechanism documented in
 the full sample; the power-bounded inferential reading of this
-exporters-only result is established at §3.4(ii) and is not repeated
+exporters-only result is established at Section 3.4(ii) and is not repeated
 here. (ii) *Export participation selection*: the inverse-Mills-ratio
 sensitivity diagnostic for selection at the extensive margin of
-exporting is reported at §3.4(iv); the diagnostic is consistent with
+exporting is reported at Section 3.4(iv); the diagnostic is consistent with
 robustness of the H3 amplification mechanism to mild Heckman-style
 selection adjustment, with the key DAI × FSTS² interaction altered by
 \|Δ\| \< 0.02. (iii) *Tobit alternative*: because FSTS is bounded on
@@ -1146,7 +1146,7 @@ the present design but are embedded in the surrounding innovation
 ecosystem.
 
 **Empirical adjudication among the three candidate mechanisms framed in
-§2.3.4.** Read against the substitution / amplification / selection
+Section 2.3.4.** Read against the substitution / amplification / selection
 contrast established at the hypothesis-development stage, the Singapore
 evidence is most consistent with the *amplification* mechanism. The
 empirical signature distinguishing amplification from substitution is
@@ -1164,10 +1164,10 @@ removed, but the positive quadratic sign is preserved throughout. The
 selection confound cannot be fully eliminated without stronger causal
 identification, for which no instrument satisfying the exclusion
 restriction is available in the single-wave Singapore design, and the
-§4.5 (ii) Heckman sensitivity diagnostic indicates mild but
+Section 4.5 (ii) Heckman sensitivity diagnostic indicates mild but
 non-eliminating extensive-margin selection. Read together, the evidence
 supports amplification as the focal mechanism while retaining selection
-as a bounded residual concern, in line with the §2.3.4 pre-commitment to
+as a bounded residual concern, in line with the Section 2.3.4 pre-commitment to
 amplification as the focal theoretical expectation.
 
 The contribution here is thus not to establish a universal
@@ -1191,7 +1191,7 @@ the DAI construct used here. This paper's DAI combines website presence
 (Tier-1, c22b) with two-way electronic-payment intensity (Tier-2, k33
 customer side and k38 supplier side) into a single composite, and the
 empirical signal is concentrated in the Tier-2 transaction-enabling
-layer, as the §4.5 R1 specification shows: when DAI is reduced to the
+layer, as the Section 4.5 R1 specification shows: when DAI is reduced to the
 website-only Tier-1 binary, the quadratic interaction weakens
 substantially (β drops from +3.119 to +1.552, joint F retained marginal
 at 4.01, p = .019), and the item-swap falsification test indicates that
@@ -1509,7 +1509,7 @@ relying on the Heckman two-step method without a valid instrument.
 *Strategic Management Journal, 40*(3), 432–462.
 <https://doi.org/10.1002/smj.2995>
 
-*Additional contextual sources (cited in §1.1 and §5.1)*
+*Additional contextual sources (cited in Section 1.1 and Section 5.1)*
 
 Enterprise Singapore. (2025, November). *SWITCH 2025 concludes 10th
 anniversary milestone with record 25,000 attendees* \[Press release\].

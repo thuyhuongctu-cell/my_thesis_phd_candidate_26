@@ -32,7 +32,7 @@ gồm hai nhóm hẹp, an toàn:
 - **WEAK orphan (24)** — kiểm tra xem có phải lệch hậu tố năm (2026a/2026b) hay
   sai năm cần đồng bộ với in-text không.
 - **Context/policy thực sự không dùng** — một số báo cáo thêm vào theo version
-  cụ thể (ví dụ phục vụ một đoạn §1.1 đã bị viết lại) có thể là ứng viên gỡ,
+  cụ thể (ví dụ phục vụ một đoạn Mục 1.1 đã bị viết lại) có thể là ứng viên gỡ,
   nhưng chỉ sau khi NCS xác nhận đoạn dùng nó đã không còn.
 
 Trình kiểm toán `scripts/reference_audit.py` được commit để chạy lại bất kỳ lúc

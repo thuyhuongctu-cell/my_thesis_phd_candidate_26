@@ -13,7 +13,7 @@
 
 **Tables:** 3 (Table 1 descriptives by wave; Table 2 main threshold model M2; Table 3 three-way moderation specification with joint F-tests).
 
-**Figures:** 4 (Figure 1 conceptual model; Figure 2 turning-point estimates with 95% CIs; Figure 3 predicted I→P curves by wave; Figure 4 capability level-shift coefficients).
+**Figures:** 4 (Figure 1 conceptual model; Figure 2 turning-point estimates with 95% CIs; Figure 3 predicted I to P curves by wave; Figure 4 capability level-shift coefficients).
 
 ---
 
@@ -89,7 +89,7 @@ Dynamic-capabilities theory (Teece, 2007) and the technological-capabilities lit
 
 ![Figure 1: Conceptual model](figures/p5_china/figure_1_conceptual_model.png)
 
-> **Figure 1.** Conceptual model: internationalisation intensity (FSTS), technological capability (TCI_full), and temporal wave as determinants of log labour productivity. The dashed moderation arrows reflect exploratory mechanism analyses evaluated in §4.5.
+> **Figure 1.** Conceptual model: internationalisation intensity (FSTS), technological capability (TCI_full), and temporal wave as determinants of log labour productivity. The dashed moderation arrows reflect exploratory mechanism analyses evaluated in Section 4.5.
 
 ---
 
@@ -99,7 +99,7 @@ Dynamic-capabilities theory (Teece, 2007) and the technological-capabilities lit
 
 The analytic dataset combines two waves of the World Bank Enterprise Survey for China: 2012 (full release, 2,700 firms; World Bank, 2013) and 2024 (2,189 firms; World Bank, 2025). After listwise deletion on the focal set (sales, employees, export intensity) and treatment of WBES non‑response codes -9 and -7 as missing (and the additional 2024 refusal code -8), the analytic samples are 2,619 firms in 2012, 1,940 firms in 2024, and 4,559 firm‑year observations in the pooled sample. The 2024 sample is smaller than 2012 (N = 1,940 vs N = 2,619, −26%) due to a combination of: (i) WBES sampling redesign between waves; (ii) systematic exclusion of state-owned enterprises in the 2024 instrument; and (iii) potential market exit among firms surveyed in 2012. This attrition is not random in direction — WBES 2024 overshoots private manufacturing SMEs — and our analysis is explicitly restricted to private firms, mitigating compositional bias.
 
-The analytic sample is drawn from the broader private‑firm WBES frame for China rather than a manufacturing‑only subsample; firms in services, retail, IT, and construction are included alongside manufacturing because the manuscript’s identification strategy depends on the full WBES private‑firm frame in which the threshold result is estimated. We control for sectoral composition through ISIC stratum dummies (`a4a`). A robustness check restricting the sample to manufacturing firms (ISIC Rev 3.1 codes 15-38 in 2012 and ISIC Rev 4 codes 10-33 in 2024) is reported in §4.6.
+The analytic sample is drawn from the broader private‑firm WBES frame for China rather than a manufacturing‑only subsample; firms in services, retail, IT, and construction are included alongside manufacturing because the manuscript’s identification strategy depends on the full WBES private‑firm frame in which the threshold result is estimated. We control for sectoral composition through ISIC stratum dummies (`a4a`). A robustness check restricting the sample to manufacturing firms (ISIC Rev 3.1 codes 15-38 in 2012 and ISIC Rev 4 codes 10-33 in 2024) is reported in Section 4.6.
 
 **Replication note.** The focal-set samples — retaining only firms with non-missing sales, employees, and export intensity (`lnLP`, `FSTS`, `FSTS²`) — are 2,619 firms in 2012, 1,940 firms in 2024, and 4,559 firm-year observations in the pooled dataset. The regression samples (*sample_base*), which additionally require non-missing `lnEmp`, firm age, and the foreign-ownership indicator, are **2,610 (2012), 1,934 (2024), and 4,544 (pooled)** — these are the N reported throughout the paper (abstract, Table 1, Table 2). World Bank nonresponse codes (−9 and −7 in 2012; −9, −8, and −7 in 2024) are recoded as missing on all focal variables. Composite indices `TCI_full` and `DAI_core` are within‑wave z‑standardised before pooling. We have verified the analytic sample sizes, turning‑point estimates (49.4 % in 2012, 47.2 % in 2024, 48.8 % pooled), Paternoster cross‑wave equality results, and the joint F-tests for cross-wave shift and capability moderation in an independent Python replication of the Stata pipeline.
 
@@ -207,14 +207,14 @@ However, the direct effects of TCI_full are positive and significant in both wav
 | FSTS | +1.379 (0.401) | .001 | *** |
 | FSTS² | −1.721 (0.440) | < .001 | *** |
 | wave_2024 | +0.542 (0.045) | < .001 | *** |
-| FSTS × wave_2024 | +0.678 (0.876) | .439 |  |
-| FSTS² × wave_2024 | −0.290 (0.975) | .766 |  |
+| FSTS × wave_2024 | +0.678 (0.876) | .439 | |
+| FSTS² × wave_2024 | −0.290 (0.975) | .766 | |
 | Tech (TCI_full) | +0.380 (0.035) | < .001 | *** |
-| FSTS × Tech | −0.414 (0.539) | .443 |  |
-| FSTS² × Tech | +0.051 (0.615) | .934 |  |
-| FSTS × wave_2024 × Tech | −0.376 (0.898) | .675 |  |
-| FSTS² × wave_2024 × Tech | +0.249 (1.076) | .817 |  |
-| **Joint F-tests** |  |  |  |
+| FSTS × Tech | −0.414 (0.539) | .443 | |
+| FSTS² × Tech | +0.051 (0.615) | .934 | |
+| FSTS × wave_2024 × Tech | −0.376 (0.898) | .675 | |
+| FSTS² × wave_2024 × Tech | +0.249 (1.076) | .817 | |
+| **Joint F-tests** | | | |
 | F1: (FSTS × wave_2024, FSTS² × wave_2024) = 0 | F(2, 3,558) = 2.24 | **.107** | NOT rejected |
 | F2: (FSTS × Tech, FSTS² × Tech) = 0 | F(2, 3,558) = 3.26 | **.039** | marginal |
 | F3: (FSTS × wave_2024 × Tech, FSTS² × wave_2024 × Tech) = 0 | F(2, 3,558) = 0.27 | **.760** | NOT rejected |
@@ -228,7 +228,7 @@ F1 corresponds to H2a vs H2b (cross-wave shift vs structural durability); F2 to 
 
 ### 4.5 Mechanism Analysis: Digital Adoption
 
-DAI_core (own-website) is positive and significant in both waves (β_z ≈ +0.10 in 2012, p = .002; +0.12 in 2024, p < .001) when entered as a control in M2. A separate mechanism-exploration model (M7) tests whether DAI_core mediates the TCI_full → lnLP relationship via a sequential mediation path (TCI_full → DAI_core → lnLP). Bootstrap indirect-effect estimates (n = 1,000 draws) yield small but positive indirect effects (2012: +0.018, 95 % CI [0.004, 0.039]; 2024: +0.022, 95 % CI [0.007, 0.043]), consistent with a partial-mediation reading. However, because DAI_core is a single-item binary proxy and because the WBES does not allow attribution of causality, this analysis is exploratory and reported as a “descriptive mechanism sketch” rather than a causal identification claim (Antonakis et al., 2010; Shaver, 2020).
+DAI_core (own-website) is positive and significant in both waves (β_z ≈ +0.10 in 2012, p = .002; +0.12 in 2024, p < .001) when entered as a control in M2. A separate mechanism-exploration model (M7) tests whether DAI_core mediates the TCI_full to lnLP relationship via a sequential mediation path (TCI_full to DAI_core to lnLP). Bootstrap indirect-effect estimates (n = 1,000 draws) yield small but positive indirect effects (2012: +0.018, 95 % CI [0.004, 0.039]; 2024: +0.022, 95 % CI [0.007, 0.043]), consistent with a partial-mediation reading. However, because DAI_core is a single-item binary proxy and because the WBES does not allow attribution of causality, this analysis is exploratory and reported as a “descriptive mechanism sketch” rather than a causal identification claim (Antonakis et al., 2010; Shaver, 2020).
 
 ### 4.6 Robustness Checks
 
@@ -258,15 +258,15 @@ The null moderation finding — F2 = 3.26, p = .039, not surviving Bonferroni co
 
 This finding is consistent with Avenyo et al. (2021), who find that productive capabilities affect export performance levels but not the shape of the export–productivity curve in African manufacturing firms. The parallel is noteworthy: capability may be a universal level-shifter but not a universal curvature-moderator across emerging economy contexts.
 
-The null TCI moderation of curvature in China is consistent with P4 Singapore (where TCI operates only as a direct productivity enhancer without moderating the I→P slope). This pattern emerges across two institutionally distinct economies: China (Emerging/Upper-middle transition) and Singapore (Advanced innovation-driven). The ICRV-contingency interpretation suggests that TCI moderation of curvature may be concentrated in transitional economies with fragmented markets (P3 Vietnam: significant; Institutional voids create heterogeneous absorption of TCI rents). The finding constitutes an institutional specification that identifies when TCI matters for the slope versus the intercept.
+The null TCI moderation of curvature in China is consistent with P4 Singapore (where TCI operates only as a direct productivity enhancer without moderating the I to P slope). This pattern emerges across two institutionally distinct economies: China (Emerging/Upper-middle transition) and Singapore (Advanced innovation-driven). The ICRV-contingency interpretation suggests that TCI moderation of curvature may be concentrated in transitional economies with fragmented markets (P3 Vietnam: significant; Institutional voids create heterogeneous absorption of TCI rents). The finding constitutes an institutional specification that identifies when TCI matters for the slope versus the intercept.
 
 ### 5.3 Digital Adoption as Baseline Control
 
-DAI_core (own-website) enters positively and significantly in both waves but does not add explanatory power to the inverted-U curvature beyond TCI_full. The mechanism sketch (§4.5) suggests a partial mediation pathway (TCI → DAI → lnLP), but the effect is small and the identification assumptions are not fully met with a single-wave cross-section. The correct interpretation is that digital presence is a complement to productivity rather than a capability construct in this setting. Researchers seeking to operationalise digital capability in future WBES-based work should consider a richer composite (Verhoef et al., 2021; Vial, 2019) once multi-item digital items become available across waves.
+DAI_core (own-website) enters positively and significantly in both waves but does not add explanatory power to the inverted-U curvature beyond TCI_full. The mechanism sketch (Section 4.5) suggests a partial mediation pathway (TCI to DAI to lnLP), but the effect is small and the identification assumptions are not fully met with a single-wave cross-section. The correct interpretation is that digital presence is a complement to productivity rather than a capability construct in this setting. Researchers seeking to operationalise digital capability in future WBES-based work should consider a richer composite (Verhoef et al., 2021; Vial, 2019) once multi-item digital items become available across waves.
 
 ### 5.4 Limitations
 
-Four inferential bounds apply. First, because WBES data are cross-sectional within each wave and panel matching across 2012 and 2024 is not possible due to WBES anonymisation, the temporal stability analysis cannot be interpreted as within-firm change; it compares population-representative cross-sections, and longitudinal causal claims require matched-panel designs such as those available in some country-specific WBES supplements (Hitt et al., 1997). Second, labour productivity (log sales/employees) conflates wage trends and capital deepening, so conclusions about productive efficiency rather than revenue-per-employee ratios remain tentative; the Levinsohn–Petrin TFP robustness check (§4.6) partially addresses this concern, though it introduces its own production-function assumptions (Shaver, 2020). Third, the TCI_full composite relies on self-reported WBES items, which introduces common-method bias within each wave; future work could triangulate with administrative patent or certification registry data to validate the composite. Fourth, the single-item DAI_core binary proxy cannot support strong conclusions about digital capability as a construct; a multi-item composite (Verhoef et al., 2021) would be needed to test the TCI–DAI mediation pathway rigorously.
+Four inferential bounds apply. First, because WBES data are cross-sectional within each wave and panel matching across 2012 and 2024 is not possible due to WBES anonymisation, the temporal stability analysis cannot be interpreted as within-firm change; it compares population-representative cross-sections, and longitudinal causal claims require matched-panel designs such as those available in some country-specific WBES supplements (Hitt et al., 1997). Second, labour productivity (log sales/employees) conflates wage trends and capital deepening, so conclusions about productive efficiency rather than revenue-per-employee ratios remain tentative; the Levinsohn–Petrin TFP robustness check (Section 4.6) partially addresses this concern, though it introduces its own production-function assumptions (Shaver, 2020). Third, the TCI_full composite relies on self-reported WBES items, which introduces common-method bias within each wave; future work could triangulate with administrative patent or certification registry data to validate the composite. Fourth, the single-item DAI_core binary proxy cannot support strong conclusions about digital capability as a construct; a multi-item composite (Verhoef et al., 2021) would be needed to test the TCI–DAI mediation pathway rigorously.
 
 ### 5.5 Future Research
 

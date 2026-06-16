@@ -103,14 +103,14 @@ enabled interfaces and transaction mechanisms. This distinction matters
 because the two constructs are associated with firm performance through
 different empirical patterns: TCI shows a more stable direct
 productivity association, whereas DAI shows a contingent
-export-intensity-dependent pattern. The §4.5 R1 indicator-sensitivity
+export-intensity-dependent pattern. The Section 4.5 R1 indicator-sensitivity
 diagnostic further clarifies that the Tier-1+2 composition of DAI 
 combining website presence with two-way electronic-payment intensity 
 is what generates the discriminatory power across the export-intensity
 range; a Tier-1-only restriction substantially weakens the quadratic
 interaction, indicating that the empirical legibility of the
 conditional-scaling mechanism depends on the institutional availability
-of Tier-2 transaction-enabling infrastructure (see §5.1 for the
+of Tier-2 transaction-enabling infrastructure (see Section 5.1 for the
 construct-boundary discussion).
 
 ### 1.4 Roadmap
@@ -229,7 +229,7 @@ as scaling mechanisms. By contrast, firms with low export intensity may
 have fewer opportunities to translate basic digital adoption into
 measurable labour-productivity gains.
 
-**Three candidate mechanisms.** Before stating H3 we name the three channels that could generate a positive export-contingent DAI association, since identifying the focal mechanism ex ante disciplines the empirical reading. *Substitution*: foundational digital adoption compensates for weaker alternative coordination resources at higher export intensity, predicting a *level shift* of the I–P curve for high-DAI firms but not necessarily accelerating returns. *Amplification*: digital adoption raises the *marginal* return to each additional unit of export intensity, rotating the curve upward, and is identified by a positive *quadratic* FSTS × DAI interaction (super-linear growth that a level shift would not produce). *Selection*: inherently more productive firms select into both high digital adoption and high export intensity, producing a positive cross-sectional interaction with no causal scaling; it predicts attenuation under sample restrictions and is the principal identification threat in a single-wave cross-section. H3 is framed under the amplification expectation, with the positive quadratic interaction serving as its test in §4 and substitution/selection retained as alternatives assessed against the §4.5 robustness evidence.
+**Three candidate mechanisms.** Before stating H3 we name the three channels that could generate a positive export-contingent DAI association, since identifying the focal mechanism ex ante disciplines the empirical reading. *Substitution*: foundational digital adoption compensates for weaker alternative coordination resources at higher export intensity, predicting a *level shift* of the I–P curve for high-DAI firms but not necessarily accelerating returns. *Amplification*: digital adoption raises the *marginal* return to each additional unit of export intensity, rotating the curve upward, and is identified by a positive *quadratic* FSTS × DAI interaction (super-linear growth that a level shift would not produce). *Selection*: inherently more productive firms select into both high digital adoption and high export intensity, producing a positive cross-sectional interaction with no causal scaling; it predicts attenuation under sample restrictions and is the principal identification threat in a single-wave cross-section. H3 is framed under the amplification expectation, with the positive quadratic interaction serving as its test in Section 4 and substitution/selection retained as alternatives assessed against the Section 4.5 robustness evidence.
 
 Hypothesis 3 (H3). In Singapore, when firms operate at higher export
 intensity, the association between digital adoption (DAI) and firm
@@ -280,7 +280,7 @@ informative result under the saturation framework (Lind–Mehlum p =
 .303). H1-TCI: technological capability (TCI_z, RBV: Barney, 1991)
 enters as a direct level-shift to firm performance. H2: DAI (Tier-1+2:
 website + e-payment) exhibits a non-uniform positive direct effect,
-varying across export intensity. H3: DAI amplifies I→P performance
+varying across export intensity. H3: DAI amplifies I to P performance
 returns at high FSTS, the primary contingency hypothesis (coordination
 platform mechanism: Stallkamp and Schotter, 2021; Dynamic Capabilities:
 Teece, 2007). The Heckman two-step IMR sensitivity check controls
@@ -328,7 +328,7 @@ alone could carry in less digitally mature settings, so the empirical
 signal must be drawn from the Tier-2 transaction-enabling layer
 (e-payment intensity on both customer and supplier sides) to identify
 the conditional-scaling mechanism, a measurement implication that is
-borne out in the §4.5 R1 robustness diagnostic, where reducing DAI to
+borne out in the Section 4.5 R1 robustness diagnostic, where reducing DAI to
 Tier-1 alone substantially weakens the quadratic interaction. Second, in
 transitional-economy settings where Tier-1 digital adoption has diffused
 widely while Tier-2 transaction-enabling infrastructure remains
@@ -336,8 +336,8 @@ institutionally bounded, the same construct measured at Tier-1 only
 would not be expected to produce a comparable positive quadratic
 interaction; instead it would be more plausibly read as construct-tier
 obsolescence than as evidence on the conditional-scaling mechanism (see
-§5.1 for the construct-boundary discussion). The Lind–Mehlum equivalence
-test result (p = .303) reported in §4.2 should therefore be interpreted
+Section 5.1 for the construct-boundary discussion). The Lind–Mehlum equivalence
+test result (p = .303) reported in Section 4.2 should therefore be interpreted
 in conjunction with the Tier-1+2 construct composition and the high
 domestic-orientation distribution of the Singapore sample, not as a
 stand-alone null on the inverted-U logic. Figure 3 \[see Figures
@@ -398,8 +398,8 @@ quadratic interaction coefficient attenuates substantially, from β =
 +3.119 (p = .005) in the Tier-1+2 specification to a smaller and
 statistically weaker estimate, while the Tier-1+2 full model's adjusted
 R² advantage is also reduced. This pattern is directionally consistent
-with the theoretical construct-boundary argument developed in §1.2 and
-§3.2.3: the conditional-scaling mechanism is empirically legible when
+with the theoretical construct-boundary argument developed in Section 1.2 and
+Section 3.2.3: the conditional-scaling mechanism is empirically legible when
 DAI captures the Tier-2 transaction-enabling layer (e-payment intensity
 on both customer and supplier sides), but not when the construct is
 restricted to the Tier-1 digital-presence indicator alone. In
@@ -408,7 +408,7 @@ carries insufficient discriminatory power to identify the
 export-contingent amplification signal; Tier-2 e-payment intensity
 provides the additional measurement variation required. The Tier-1-only
 sensitivity results are available in the Stata replication package
-(`do/02_run_models.do`, PART C) and are consistent with the §1.3
+(`do/02_run_models.do`, PART C) and are consistent with the Section 1.3
 supporting contribution on construct-tier specificity.
 
 #### 3.2.4 Controls
@@ -474,7 +474,7 @@ and Siegel (2019), who find that a Heckman two-step correction *without*
 a credible exclusion restriction can produce more biased estimates than
 the OLS baseline it is intended to correct. A reduced-form
 inverse-Mills-ratio sensitivity diagnostic for selection at the
-extensive margin of exporting is reported in §3.4 below for
+extensive margin of exporting is reported in Section 3.4 below for
 transparency, but is not treated as the primary specification. The
 associational nature of the OLS estimates is therefore acknowledged
 upfront, and inferential claims are bounded to within-context
@@ -482,13 +482,13 @@ associations rather than causal effects.
 
 ### 3.4 Boundary conditions and identification scope
 
-Four boundary conditions delimit the inferential reach of the OLS specification; the §4 results are read against them without recurrent caveats.
+Four boundary conditions delimit the inferential reach of the OLS specification; the Section 4 results are read against them without recurrent caveats.
 
 *(i) Sample support.* Within the WBES SME frame, 82% of firms report zero exports, 18% any positive intensity, and only 3% exceed 50% FSTS. The quadratic curvature is thus identified mainly through the FSTS = 0 versus FSTS > 0 contrast, with limited upper-tail support. The fitted turning point near FSTS ≈ 88.6% lies in a sparse region with a wide 95% bootstrap CI ([53%, 253%]) despite an inverted-U shape in 96.3% of resamples; the right-side decline is therefore not formally identified within the supported range.
 
 *(ii) Exporters-only power.* The exporters-only subsample (FSTS > 0; N = 84 after the complete-case restriction on model covariates, from the roughly 18 per cent of firms with positive exports) is the natural setting for the intensity-margin mechanism but is underpowered for the small moderation block (f² ≈ 0.018; power ≈ 16% at N = 84, against N ≳ 430 for 80% power; Cohen 1988; Aguinis et al. 2005). Null moderation here is therefore not evidence against the conditional-scaling mechanism; conversely, the positive joint F-test in the R5 exporters-only specification (F = 6.32, p = .003, β = +2.821) is read as a high-prior-strength corroborating signal rather than an independent identifying test.
 
-*(iii) Lind–Mehlum equivalence framing.* The non-rejection of monotonicity (p = .303) is conditioned on dense support around the turning point, which (i) shows is absent. Under the saturation hypothesis (§1.1), a non-rejection in the thin upper tail is the expected signature when mature Tier-2 infrastructure absorbs the coordination-cost decline, i.e., a positive theoretical signal rather than a methodological failure.
+*(iii) Lind–Mehlum equivalence framing.* The non-rejection of monotonicity (p = .303) is conditioned on dense support around the turning point, which (i) shows is absent. Under the saturation hypothesis (Section 1.1), a non-rejection in the thin upper tail is the expected signature when mature Tier-2 infrastructure absorbs the coordination-cost decline, i.e., a positive theoretical signal rather than a methodological failure.
 
 *(iv) Selection.* No exclusion restriction is available in the single-wave design. A reduced-form inverse-Mills-ratio check (first-stage probit of export participation on age, log size, sector FE, sampling stratum) yields a marginal IMR coefficient (β = 0.264, SE = 0.138, p = .055), and the key DAI × FSTS² and TCI estimates are unchanged (|Δ| < 0.02). Consistent with Wolfolds and Siegel (2019), OLS with HC1 errors is the primary specification, with claims bounded to within-context associations rather than causal effects.
 
@@ -745,7 +745,7 @@ the small-to-medium range; Cohen's f² for the DAI moderation block
 conventional small-effect threshold of 0.02. The exporters-only
 subsample (N = 84) is underpowered for effects of this magnitude; the
 consolidated power-bounded inferential reading is established at
-§3.4(ii) and is not repeated here. Taken together, the strongest
+Section 3.4(ii) and is not repeated here. Taken together, the strongest
 empirical claim of Section 4 is therefore not that digital adoption
 yields a large average productivity premium, but that its association
 with productivity becomes more positive as export intensity rises within
@@ -757,10 +757,10 @@ FSTS \> 0; N = 84): the positive quadratic DAI interaction retains its
 sign (β=+2.821) and the joint F-test is statistically significant (F =
 6.32, p = .003), corroborating the amplification mechanism documented in
 the full sample; the power-bounded inferential reading of this
-exporters-only result is established at §3.4(ii) and is not repeated
+exporters-only result is established at Section 3.4(ii) and is not repeated
 here. (ii) *Export participation selection*: the inverse-Mills-ratio
 sensitivity diagnostic for selection at the extensive margin of
-exporting is reported at §3.4(iv); the diagnostic is consistent with
+exporting is reported at Section 3.4(iv); the diagnostic is consistent with
 robustness of the H3 amplification mechanism to mild Heckman-style
 selection adjustment, with the key DAI × FSTS² interaction altered by
 \|Δ\| \< 0.02. (iii) *Tobit alternative*: because FSTS is bounded on
@@ -870,9 +870,9 @@ layer captured by DAI, and that higher-tier digital capabilities
 the present design but are embedded in the surrounding innovation
 ecosystem.
 
-**Adjudicating the three candidate mechanisms (§2.3.4).** The Singapore evidence is most consistent with *amplification*. The distinguishing signature is the sign of the *quadratic* interaction: the positive FSTS² × DAI coefficient (β = +3.119, p = .005) implies that DAI's productivity contribution grows super-linearly with export-intensity scale, which a level-shift *substitution* mechanism would not produce. The quadratic sign is preserved across sample restrictions (R1 thin-website, R3 excl. micro-firms, R4 SMEs only, R5 exporters-only) and indicator-sensitivity diagnostics, which is inconsistent with a pure *selection* story (under which the joint correlation should attenuate when the firms driving it are removed). Selection cannot be fully eliminated without an instrument unavailable in the single-wave design, and the §3.4(iv) Heckman check indicates mild but non-eliminating extensive-margin selection; amplification is therefore the focal mechanism with selection retained as a bounded residual concern. The contribution is thus not a universal digitalization mechanism but a clarification that foundational digital adoption and technological capability are analytically distinct and associated with performance through different patterns. Prior conceptual work on digital internationalization (Banalieva and Dhanaraj 2019; Stallkamp and Schotter 2021) has outpaced firm-level evidence on how foundational digital adoption interacts with export intensity within a single advanced economy; these findings provide one such data point.
+**Adjudicating the three candidate mechanisms (Section 2.3.4).** The Singapore evidence is most consistent with *amplification*. The distinguishing signature is the sign of the *quadratic* interaction: the positive FSTS² × DAI coefficient (β = +3.119, p = .005) implies that DAI's productivity contribution grows super-linearly with export-intensity scale, which a level-shift *substitution* mechanism would not produce. The quadratic sign is preserved across sample restrictions (R1 thin-website, R3 excl. micro-firms, R4 SMEs only, R5 exporters-only) and indicator-sensitivity diagnostics, which is inconsistent with a pure *selection* story (under which the joint correlation should attenuate when the firms driving it are removed). Selection cannot be fully eliminated without an instrument unavailable in the single-wave design, and the Section 3.4(iv) Heckman check indicates mild but non-eliminating extensive-margin selection; amplification is therefore the focal mechanism with selection retained as a bounded residual concern. The contribution is thus not a universal digitalization mechanism but a clarification that foundational digital adoption and technological capability are analytically distinct and associated with performance through different patterns. Prior conceptual work on digital internationalization (Banalieva and Dhanaraj 2019; Stallkamp and Schotter 2021) has outpaced firm-level evidence on how foundational digital adoption interacts with export intensity within a single advanced economy; these findings provide one such data point.
 
-**Construct-tier boundary and institutional transferability.** The amplification reading is tied to the *Tier-1+2* composition of DAI (website presence, c22b, plus two-way electronic-payment intensity, k33/k38). The signal is concentrated in the Tier-2 transaction-enabling layer: in the §4.5 R1 specification, reducing DAI to the Tier-1 website-only binary weakens the quadratic interaction substantially (β drops from +3.119 to +1.552; joint F = 4.01, p = .019), and an item-swap falsification (moving c22b to TCI) further weakens it. This has a transferability implication. In advanced-economy settings where Tier-2 payment rails are diffused alongside Tier-1 presence, a Tier-1+2 composite retains discriminatory power and the amplification mechanism is detectable. In transitional economies where Tier-2 infrastructure remains institutionally bounded (cross-border payment rails reached systemic scale only in the late 2010s across lower-middle-income Asia; World Bank 2023), a Tier-1-only construct loses discriminatory power as the diffusion ceiling is approached, and any export-intensity association is more plausibly read as construct-tier obsolescence. The amplification ceiling is therefore not a Singapore idiosyncrasy but a Tier-1+2 threshold effect: economies that upgrade payment infrastructure to Tier-2 coverage should expect the conditional-complementarity pattern to become empirically legible. This reframes Singapore as a leading indicator rather than an outlier, and positions the findings as a within-context boundary case at the advanced-economy ceiling rather than a broadly applicable digital-complementarity claim.
+**Construct-tier boundary and institutional transferability.** The amplification reading is tied to the *Tier-1+2* composition of DAI (website presence, c22b, plus two-way electronic-payment intensity, k33/k38). The signal is concentrated in the Tier-2 transaction-enabling layer: in the Section 4.5 R1 specification, reducing DAI to the Tier-1 website-only binary weakens the quadratic interaction substantially (β drops from +3.119 to +1.552; joint F = 4.01, p = .019), and an item-swap falsification (moving c22b to TCI) further weakens it. This has a transferability implication. In advanced-economy settings where Tier-2 payment rails are diffused alongside Tier-1 presence, a Tier-1+2 composite retains discriminatory power and the amplification mechanism is detectable. In transitional economies where Tier-2 infrastructure remains institutionally bounded (cross-border payment rails reached systemic scale only in the late 2010s across lower-middle-income Asia; World Bank 2023), a Tier-1-only construct loses discriminatory power as the diffusion ceiling is approached, and any export-intensity association is more plausibly read as construct-tier obsolescence. The amplification ceiling is therefore not a Singapore idiosyncrasy but a Tier-1+2 threshold effect: economies that upgrade payment infrastructure to Tier-2 coverage should expect the conditional-complementarity pattern to become empirically legible. This reframes Singapore as a leading indicator rather than an outlier, and positions the findings as a within-context boundary case at the advanced-economy ceiling rather than a broadly applicable digital-complementarity claim.
 
 ### 5.2 Managerial implications
 
@@ -1008,7 +1008,7 @@ relying on the Heckman two-step method without a valid instrument.
 *Strategic Management Journal, 40*(3), 432–462.
 <https://doi.org/10.1002/smj.2995>
 
-*Additional contextual sources (cited in §1.1 and §5.1)*
+*Additional contextual sources (cited in Section 1.1 and Section 5.1)*
 
 Enterprise Singapore. (2025, November). *SWITCH 2025 concludes 10th
 anniversary milestone with record 25,000 attendees* \[Press release\].

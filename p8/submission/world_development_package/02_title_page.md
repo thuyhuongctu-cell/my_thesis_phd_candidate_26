@@ -19,14 +19,14 @@ ORCID: [ORCID]
 
 | Role | DTH | PAT |
 |------|-----|-----|
-| Conceptualization | ✓ | ✓ |
-| Methodology | ✓ | ✓ |
-| Data curation | ✓ | |
-| Formal analysis | ✓ | |
-| Writing – original draft | ✓ | |
-| Writing – review & editing | ✓ | ✓ |
-| Supervision | | ✓ |
-| Funding acquisition | | ✓ |
+| Conceptualization | Có | Có |
+| Methodology | Có | Có |
+| Data curation | Có | |
+| Formal analysis | Có | |
+| Writing – original draft | Có | |
+| Writing – review & editing | Có | Có |
+| Supervision | | Có |
+| Funding acquisition | | Có |
 
 ---
 

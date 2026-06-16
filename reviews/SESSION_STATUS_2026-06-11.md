@@ -19,18 +19,18 @@ chặn bảo vệ.
 - Linter sạch; **0 số cũ rò rỉ** (101.185/47 nền/4.544/108 cặp đã xóa khỏi 5 chương).
 
 ## 3. Sửa review (10/10 issue) — đã hoàn tất
-I-01 FIP β −0,404→**−1,339, p<,001** · I-02 SIDS N=26 · I-03/04 SIDS 7/9 nền + 7 nước ·
-I-05 P5 China N=4.559 · I-06 "gần đơn điệu" · I-07 khai báo H1c · I-08 re-lock CĐ1 →
-canonical · I-10 "47"→"49" · I-16 M4 H4→H3 · MINOR (Hình 4.1, K=288, Paternoster FSTS², §5.1.6).
+I-01 FIP β −0,404 đến **−1,339, p<,001** · I-02 SIDS N=26 · I-03/04 SIDS 7/9 nền + 7 nước ·
+I-05 P5 China N=4.559 · I-06 "gần đơn điệu" · I-07 khai báo H1c · I-08 re-lock CĐ1 đến 
+canonical · I-10 "47" đến "49" · I-16 M4 H4 đến H3 · MINOR (Hình 4.1, K=288, Paternoster FSTS², Mục 5.1.6).
 Báo cáo: `reviews/independent_review_2026-06-11.md`.
 
 ## 4. Dữ liệu WBES (kho `data_wbes/raw_dta/`)
 - **Coverage đủ 49/49 nền** (I 5/5 · II 6/6 GCC · III 6/6 · IV 7/7 · V 17/17 · VI 8/8 Pacific).
 - Đã lọc **non-Asia** (Kenya/Kosovo/Cyprus/Turkey/West Bank) + đợt **trước 2006**; dedupe nước-năm.
-- **Japan-2025** (khảo sát lần đầu) đã lưu kho — ghi nhận ở Ch4 §4.6.1 + CĐ1 là nền thứ 50 phân
+- **Japan-2025** (khảo sát lần đầu) đã lưu kho — ghi nhận ở Ch4 Mục 4.6.1 + CĐ1 là nền thứ 50 phân
   loại (94.032 DN), **chưa nhập mô hình** (chờ re-estimate). Manifest: `DATA_UPDATE_MANIFEST.md`.
 - ROS + LP-z theo nhóm ICRV (sửa artifact tiền tệ): `FP_DESCRIPTIVES_RESULTS.md`.
-- Bảng mô tả CĐ1 §2.3.3.2/2.3.4.1/2.3.5.1 đồng bộ raw 49 nền: `CD1_PIPELINE_RESULTS.md`.
+- Bảng mô tả CĐ1 Mục 2.3.3.2/2.3.4.1/2.3.5.1 đồng bộ raw 49 nền: `CD1_PIPELINE_RESULTS.md`.
 
 ## 5. Phụ lục phương pháp luận (MỚI — trả lời câu hỏi hội đồng về gộp dữ liệu)
 - `thesis/phu_luc_A_hop_nhat_du_lieu_vi.md` (VI) + `thesis/appendix_A_data_harmonisation_en.md` (EN).
@@ -41,7 +41,7 @@ Báo cáo: `reviews/independent_review_2026-06-11.md`.
 
 ## 6. Ranh giới liêm chính (đã ghi rõ)
 Thử ước lượng lại P7 với Japan (`scripts/p7_reestimate_check.py`): **không tái lập được gradient
-đã công bố** → KHÔNG bịa hệ số. Số P7 trong luận án giữ trên mẫu 49 nền đã khóa; cập nhật định
+đã công bố** đến KHÔNG bịa hệ số. Số P7 trong luận án giữ trên mẫu 49 nền đã khóa; cập nhật định
 lượng cần nhóm tác giả chạy lại do-file gốc. Chi tiết: `P7_REESTIMATION_NOTE.md`.
 
 ## 7. Hạ tầng AI (đã cài)
@@ -51,12 +51,12 @@ lượng cần nhóm tác giả chạy lại do-file gốc. Chi tiết: `P7_REES
 - **3 MCP server** trong `.mcp.json`: world-bank, data360, oecd (đã build). TAM (8 nguồn) vendored,
   chờ API keys.
 - ⚠️ **Mạng web container chặn mọi host dữ liệu** (`api.worldbank.org`, `sdmx.oecd.org`,
-  `data360api` → 403 host_not_allowed). MCP **load được** nhưng kéo live data cần: allowlist 3 host
-  đó trong *Environment → Network policy*, hoặc chạy Claude Desktop/Code cục bộ.
+  `data360api` đến 403 host_not_allowed). MCP **load được** nhưng kéo live data cần: allowlist 3 host
+  đó trong *Environment đến Network policy*, hoặc chạy Claude Desktop/Code cục bộ.
 
 ## 8. Việc mở rộng TÙY CHỌN (không chặn bảo vệ)
 1. **Re-estimate P7+Japan**: nhóm tác giả chạy do-file gốc trên `data_wbes/raw_dta/` (49 nền +
-   Japan + sóng ≥2024 — danh sách trong manifest), thay turning point/hệ số mới vào §4.6.
+   Japan + sóng ≥2024 — danh sách trong manifest), thay turning point/hệ số mới vào Mục 4.6.
 2. **Front matter bản 5 chương**: đã hoàn thiện danh mục bảng/hình; còn tóm tắt/mục lục tự sinh khi
    xuất bản cuối.
 3. **Kéo WGI live** kiểm chứng độc lập phân tầng ICRV (khi mở network policy).

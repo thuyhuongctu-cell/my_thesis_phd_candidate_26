@@ -7,13 +7,13 @@
 **Primary target journal:** Management International Review (MIR), Springer Nature (Scopus Q1; IF 6.0+; ABS-3)
 **Alternate target:** International Journal of Emerging Markets (IJOEM), Emerald Publishing (Scopus Q1; IF 3.0+)
 
-**Status:** ✅ **Empirical analysis complete** — manuscript, tables, and figures finalised; pending author-only pre-submission steps (iThenticate, OSF/replication-workbook, portal upload).
+**Status:** **Empirical analysis complete** — manuscript, tables, and figures finalised; pending author-only pre-submission steps (iThenticate, OSF/replication-workbook, portal upload).
 
 **Authors:** Đỗ Thùy Hương & PGS.TS. Phan Anh Tú (School of Economics, Can Tho University)
 
 ---
 
-## Data Availability, VERIFIED ✓
+## Data Availability, VERIFIED 
 
 All three India WBES waves extracted to `data_wbes/raw_dta/`:
 
@@ -25,7 +25,7 @@ All three India WBES waves extracted to `data_wbes/raw_dta/`:
 
 **Total pooled raw N = 29,136 firm-year observations**, largest sample in the portfolio.
 
-**Critical discovery**: India 2025 BREADY includes `k33` (% sales via e-payment) → enables **DAI Tier-2 moderation test**, the public-vs-private digital infrastructure distinction.
+**Critical discovery**: India 2025 BREADY includes `k33` (% sales via e-payment) đến enables **DAI Tier-2 moderation test**, the public-vs-private digital infrastructure distinction.
 
 ---
 
@@ -33,16 +33,16 @@ All three India WBES waves extracted to `data_wbes/raw_dta/`:
 
 | Criterion | P9 Thailand | **P9' India** |
 |---|:-:|:-:|
-| Institutional gap-filling | ❌ Cluster with China/Vietnam | ✅ **Lấp 6 dimensions** (democratic + federal + common-law + South Asia + Hindu/Muslim + 2nd-largest population) |
+| Institutional gap-filling | Không Cluster with China/Vietnam | Có **Lấp 6 dimensions** (democratic + federal + common-law + South Asia + Hindu/Muslim + 2nd-largest population) |
 | Cross-wave durability stress test | Moderate (COVID + RCEP) | **Extreme** (demonetisation + GST + IBC + UPI + PLI + COVID + Atmanirbhar Bharat) |
-| Digital quasi-experiment | ❌ Không có | ✅ **UPI 2016 launch → 12B txn/month by 2024** |
+| Digital quasi-experiment | Không Không có | Có **UPI 2016 launch đến 12B txn/month by 2024** |
 | Sample size | 1,471 obs | **~29,000 obs (~20× larger)** |
-| Existing scaffolding | Không | ✅ Book chapter (Do & Phan 2025 IntechOpen) |
+| Existing scaffolding | Không | Có Book chapter (Do & Phan 2025 IntechOpen) |
 | Target journal ceiling | JED/JABES Q1 | **MIR (Springer ABS-3) hoặc IJOEM Q1** |
-| Self-clustering risk | Cao (3 papers JED) | ✅ Thấp (different publisher) |
+| Self-clustering risk | Cao (3 papers JED) | Có Thấp (different publisher) |
 | TC Scopus potential | +10 | +10-12 (MIR có higher impact) |
 
-→ **P9' India là phương án rõ ràng hơn về mọi mặt** so với P9 Thailand.
+ đến **P9' India là phương án rõ ràng hơn về mọi mặt** so với P9 Thailand.
 
 ---
 
@@ -51,8 +51,8 @@ All three India WBES waves extracted to `data_wbes/raw_dta/`:
 Analysis pipeline complete:
 - [x] Build analytic samples for all 3 waves (`replication/data/india_{2014,2022,2025}_analytic.csv`)
 - [x] Estimate M0..M5 + Lind–Mehlum U-test + Paternoster cross-wave z (`replication/results/`)
-- [x] Findings section filled with actual coefficient values (manuscript §Results)
-- [x] Render all four figures (`replication/figures/` → copied into `figures/`)
+- [x] Findings section filled with actual coefficient values (manuscript Mục Results)
+- [x] Render all four figures (`replication/figures/` đến copied into `figures/`)
 - [x] Finalise abstract Findings + Originality/value from actual results
 - [x] Target decided: **MIR primary, IJOEM backup**
 
@@ -66,14 +66,14 @@ Author-only remaining (cannot be automated):
 
 | File | Description | Status |
 |------|-------------|--------|
-| `01_manuscript_blinded_full.md` | Main manuscript anonymised (real results) | ✓ Complete |
-| `02_title_page.docx` | Title page non-anonymous | ✓ Ready |
-| `03_cover_letter.docx` | Cover letter to MIR EiC | ✓ Ready |
-| `BOOK_CHAPTER_DIFFERENTIATION.md` | Self-plagiarism management memo | ✓ Complete |
-| `figures/figure_1_conceptual_model.png` | Conceptual model | ✓ Complete |
-| `figures/figure_2_predicted_curves.png` | I-P curves by wave | ✓ Complete |
-| `figures/figure_3_turning_points.png` | Turning points + 95% CI | ✓ Complete |
-| `figures/figure_4_upi_timeline.png` | UPI quasi-experiment timeline | ✓ Complete |
+| `01_manuscript_blinded_full.md` | Main manuscript anonymised (real results) | Có Complete |
+| `02_title_page.docx` | Title page non-anonymous | Có Ready |
+| `03_cover_letter.docx` | Cover letter to MIR EiC | Có Ready |
+| `BOOK_CHAPTER_DIFFERENTIATION.md` | Self-plagiarism management memo | Có Complete |
+| `figures/figure_1_conceptual_model.png` | Conceptual model | Có Complete |
+| `figures/figure_2_predicted_curves.png` | I-P curves by wave | Có Complete |
+| `figures/figure_3_turning_points.png` | Turning points + 95% CI | Có Complete |
+| `figures/figure_4_upi_timeline.png` | UPI quasi-experiment timeline | Có Complete |
 
 ---
 
@@ -87,11 +87,11 @@ Author-only remaining (cannot be automated):
 - [ ] **Keywords**: internationalisation–performance; export intensity; threshold stability; India; UPI; technological capability; institutional transformation; Conditional Digital Capability Moderation
 - [ ] **JEL codes:** F23, O33, D22, L25, O53, O25
 - [ ] **Abstract** (standard MIR format)
-- [ ] Upload 01_manuscript_blinded.docx → Main Manuscript (anonymous)
-- [ ] Upload 02_title_page.docx → Title Page (non-anonymous)
-- [ ] Upload 03_cover_letter.docx → Cover Letter
+- [ ] Upload 01_manuscript_blinded.docx đến Main Manuscript (anonymous)
+- [ ] Upload 02_title_page.docx đến Title Page (non-anonymous)
+- [ ] Upload 03_cover_letter.docx đến Cover Letter
 - [ ] Upload figures 1, 2, 3, 4
-- [ ] **Disclose prior related work** in cover letter (book chapter DOI 10.5772/intechopen.1011012) ← critical
+- [ ] **Disclose prior related work** in cover letter (book chapter DOI 10.5772/intechopen.1011012) từ critical
 - [ ] Confirm corresponding author = Phan Anh Tú (patu@ctu.edu.vn)
 - [ ] Confirm no conflict of interest
 - [ ] Confirm no simultaneous submission

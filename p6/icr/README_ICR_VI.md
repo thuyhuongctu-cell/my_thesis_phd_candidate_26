@@ -1,6 +1,6 @@
 # Hướng dẫn mã hóa kép P6 (Inter-Coder Reliability) — dành cho Coder 2
 
-**Mục đích:** điền 6 ô `[insert after dual-coding]` trong Bảng 3.1 của P6 (4 package) bằng số liệu **thật** từ mã hóa kép. Protocol theo §3.3.2 bản thảo: 2 tác giả mã hóa độc lập **20% stratified subsample (k = 47 studies)**, mù lẫn nhau, bất đồng giải quyết bằng thảo luận.
+**Mục đích:** điền 6 ô `[insert after dual-coding]` trong Bảng 3.1 của P6 (4 package) bằng số liệu **thật** từ mã hóa kép. Protocol theo Mục 3.3.2 bản thảo: 2 tác giả mã hóa độc lập **20% stratified subsample (k = 47 studies)**, mù lẫn nhau, bất đồng giải quyết bằng thảo luận.
 
 ## Quy trình 4 bước
 
@@ -33,8 +33,8 @@ Chép giá trị κ vào 6 ô `[insert after dual-coding]` trong `01_manuscript_
 
 ## ⚠️ 3 điểm lệch bản thảo ↔ database — tác giả cần quyết trước khi nộp
 
-1. **DOI measure:** bản thảo ghi *"Categorical (4)"* nhưng database có **6** giá trị (`FSTS/GEO/EXP/FDI/COMP/OTH`). → Sửa bản thảo thành "(6)" hoặc nêu rõ cách gộp về 4 nhóm.
-2. **cDAI:** bản thảo ghi *"Continuous (0–1), ICC(2,1)"* nhưng database lưu **ordinal H/M/L**. → Hoặc bổ sung cột điểm liên tục 0–1 (khi đó script tự tính ICC(2,1)), hoặc sửa dòng Bảng 3.1 thành "Ordinal (3), weighted κ".
-3. **Industry sector:** bản thảo có dòng *"Industry sector, Categorical (3)"* nhưng database **không có cột industry**. → Hoặc bổ sung cột và mã hóa, hoặc bỏ dòng này khỏi Bảng 3.1.
+1. **DOI measure:** bản thảo ghi *"Categorical (4)"* nhưng database có **6** giá trị (`FSTS/GEO/EXP/FDI/COMP/OTH`). đến Sửa bản thảo thành "(6)" hoặc nêu rõ cách gộp về 4 nhóm.
+2. **cDAI:** bản thảo ghi *"Continuous (0–1), ICC(2,1)"* nhưng database lưu **ordinal H/M/L**. đến Hoặc bổ sung cột điểm liên tục 0–1 (khi đó script tự tính ICC(2,1)), hoặc sửa dòng Bảng 3.1 thành "Ordinal (3), weighted κ".
+3. **Industry sector:** bản thảo có dòng *"Industry sector, Categorical (3)"* nhưng database **không có cột industry**. đến Hoặc bổ sung cột và mã hóa, hoặc bỏ dòng này khỏi Bảng 3.1.
 
 *(Cả 3 đều là lệch mô tả, không ảnh hưởng kết quả meta-analysis; nhưng reviewer sẽ bắt nếu Bảng 3.1 không khớp dữ liệu công bố.)*

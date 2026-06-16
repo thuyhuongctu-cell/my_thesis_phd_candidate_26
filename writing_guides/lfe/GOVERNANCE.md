@@ -36,7 +36,7 @@ To prevent "Spaghetti Decay" and context window bloat:
 1. **Shelf Indexes**: Every major folder must have a `README.md` or index at the top of its files to allow agents to "scout" without reading every file.
 2. **The Rolling Window**: Stale history in `CHANGELOG.md` or mission logs must be moved to `.docs/archive/` periodically.
 3. **Implicit Confidence**: No file should exist in the repository that is not indexed or referenced in the Library System.
-4. **Architecture Sweeps**: Scheduled every 5 sessions via session count in `pipeline_status.md`. Triggers `/lfe-hygiene` → `/lfe-improve-architecture`.
+4. **Architecture Sweeps**: Scheduled every 5 sessions via session count in `pipeline_status.md`. Triggers `/lfe-hygiene` to `/lfe-improve-architecture`.
 
 ---
 

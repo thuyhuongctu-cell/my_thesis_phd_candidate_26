@@ -14,7 +14,7 @@
 
 ### 1.1 Why Four Theories, Not One
 
-A single-theory approach would miss the multi-level nature of the I→P relationship. The
+A single-theory approach would miss the multi-level nature of the I–P relationship. The
 dissertation uses four theoretical pillars that operate at different levels of analysis:
 
 | Pillar | Level | Core claim | Role in CDCM |
@@ -178,7 +178,7 @@ machinery (h8), ISO certification (h1). Items standardised within-wave, then ave
 > the 2023 BREADY module adds h1 and h8, enabling TCI_4item (4-item composite). We
 > standardise each version within-wave before pooling, which addresses mean-level
 > differences but does not fully resolve item-set heterogeneity. We flag this as a
-> measurement boundary in §3.2 and treat cross-wave TCI comparisons as
+> measurement boundary in Mục 3.2 and treat cross-wave TCI comparisons as
 > provisional."
 
 ---
@@ -359,9 +359,9 @@ development of China's digital regulatory environment across provinces."
 > "Resource-based theory posits that firm-specific capabilities determine the productivity
 > of strategic actions (Barney, 1991; Wernerfelt, 1984). Technological capability — captured
 > by TCI — reduces the marginal coordination cost of deep internationalisation by increasing
-> process efficiency (quality certification → lower defect rates in export production),
-> foreign knowledge absorption (technology licensing → reduced information asymmetry in
-> foreign markets), and product-quality signalling (ISO certification → reduced liability of
+> process efficiency (quality certification đến lower defect rates in export production),
+> foreign knowledge absorption (technology licensing đến reduced information asymmetry in
+> foreign markets), and product-quality signalling (ISO certification đến reduced liability of
 > foreignness). Formally, TCI shifts the FSTS–performance turning point rightward by
 > expanding the range over which learning returns dominate complexity costs. Firms with high
 > TCI extract positive performance returns from higher FSTS levels before coordination costs
@@ -425,12 +425,12 @@ development of China's digital regulatory environment across provinces."
 
 | Reviewer challenge | Primary response | Backup argument |
 |-------------------|-----------------|----------------|
-| "FSTS is endogenous" | Inferential bounds framing (§2.1) + exporter-only sensitivity | Panel fixed effects (where available) absorb time-invariant selection |
-| "TCI is not validated" | Formative index justification (§2.2) + convergent validity descriptives | Individual-item robustness in Appendix Table |
-| "Website binary is too crude for DAI" | Lower-bound conservative bias argument (§2.3) | Tier-1+2 sensitivity in 2023 wave confirms direction |
-| "ICRV cutoffs are arbitrary" | k-means silhouette validation (§2.4) | WGI continuous sensitivity in Appendix |
-| "Why four theories?" | Process-capability-context interaction necessity (§1.2) | Each theory governs a distinct arrow in the conceptual model — no single theory predicts both H2 and H3 |
-| "H3 and H2 are the same hypothesis" | CDCM mechanism differentiation (§1.2 + §3.3) | Empirical test: TCI and DAI coefficients differ in sign/magnitude across ICRV regimes |
+| "FSTS is endogenous" | Inferential bounds framing (Mục 2.1) + exporter-only sensitivity | Panel fixed effects (where available) absorb time-invariant selection |
+| "TCI is not validated" | Formative index justification (Mục 2.2) + convergent validity descriptives | Individual-item robustness in Appendix Table |
+| "Website binary is too crude for DAI" | Lower-bound conservative bias argument (Mục 2.3) | Tier-1+2 sensitivity in 2023 wave confirms direction |
+| "ICRV cutoffs are arbitrary" | k-means silhouette validation (Mục 2.4) | WGI continuous sensitivity in Appendix |
+| "Why four theories?" | Process-capability-context interaction necessity (Mục 1.2) | Each theory governs a distinct arrow in the conceptual model — no single theory predicts both H2 and H3 |
+| "H3 and H2 are the same hypothesis" | CDCM mechanism differentiation (Mục 1.2 + Mục 3.3) | Empirical test: TCI and DAI coefficients differ in sign/magnitude across ICRV regimes |
 | "The turning point is outside sample support" | Report Lind–Mehlum utest | Report CI for TP; if boundary case, reframe as "support-constrained estimate" |
 | "FIP is just the first stage of Uppsala learning costs" | FIP is a structural regime, not a temporal phase — no recovery expected within observed FSTS range; Lind–Mehlum NS confirms no inflection | Contrast: 3-stage theory predicts eventual positive slope; SIDS data show uniformly negative slope across all specifications |
 | "FIP could be explained by firm-level selection bias" | Country+year FE absorb country-level structural factors; exporters-only subsample β = −0.901 (p = .027) confirms result among active exporters | Direction consistent across 4 specifications with different FE structures |
@@ -456,7 +456,7 @@ Use this structure whenever reporting a finding that has a known methodological 
 
 ### 5.1 Theory citation consistency
 
-Every paper must cite all four pillars in §2 Theory, even if only one is the primary anchor.
+Every paper must cite all four pillars in Mục 2 Theory, even if only one is the primary anchor.
 Minimum citations per theory:
 
 | Theory | Mandatory citations | Optional additional |
@@ -467,7 +467,7 @@ Minimum citations per theory:
 | Upper Echelons | Hambrick & Mason (1984), Hambrick (2007) | Only in H4 papers |
 | Digital Adoption (Foundational) | Stallkamp & Schotter (2021), Banalieva & Dhanaraj (2019), Rogers (1962) | Verhoef et al. (2021) — Tier 1–2 only; NOT dynamic capability |
 
-### 5.2 Contribution framing (per author voice guide §2, Pattern 4)
+### 5.2 Contribution framing (per author voice guide Mục 2, Pattern 4)
 
 Each paper's contribution must state: (1) what is found, (2) which prior ambiguity this
 resolves, (3) what methodological advance enables this resolution.
@@ -476,12 +476,12 @@ resolves, (3) what methodological advance enables this resolution.
 |-------|-------------|------------------------|----------------------|
 | P3 Vietnam | TP ≈ 12–13% FSTS; TCI positive; DAI null in 2009/2015, positive in 2023 | Whether CDCM holds in Frontier regime | First 3-wave Vietnam test; Paternoster z-test for coefficient stability |
 | P4 Singapore | TP ≈ 88.6% FSTS; DAI amplification at high FSTS; Heckman IMR confirms pattern | Whether DAI amplification is strongest in Advanced regime (CDCM Group I prediction) | Exporters-only identification; DAI Tier-1+2 composite; bootstrapped TP CI |
-| P5 China | TP ≈ 48–49% FSTS; TCI positive; DAI binary (website) null; 2012→2024 shift | Whether CDCM holds in Upper-Middle Transition regime; DPL phase shift | 2-wave cross-cohort comparison; Paternoster cross-wave z-test |
+| P5 China | TP ≈ 48–49% FSTS; TCI positive; DAI binary (website) null; 2012 đến 2024 shift | Whether CDCM holds in Upper-Middle Transition regime; DPL phase shift | 2-wave cross-cohort comparison; Paternoster cross-wave z-test |
 | P6 meta | r̄ = 0.07, I² = 88%; ICRV gradient confirmed; cDAI positive; DPL phase inflection | Conflation of institutional context with capability effects in prior meta-analyses | Three-level MARA with 3 new moderators; ICRV as continuous regime moderator |
 
 ### 5.3 ICRV cross-paper referencing rule
 
-Every paper must contain a sentence in §5 Discussion that:
+Every paper must contain a sentence in Mục 5 Discussion that:
 1. States the paper's ICRV regime placement
 2. Explains why the findings are consistent with (or diverge from) CDCM predictions for
    that regime
@@ -501,7 +501,7 @@ Every paper must contain a sentence in §5 Discussion that:
 ## Part VI — Full H3 Development: The Moderating Role of Digital Adoption (DAI)
 
 > Follows the 4-part structure from `academic-theory-hypotheses-development` skill:
-> (1) Theoretical rationale → (2) Empirical evidence → (3) Contextual consideration →
+> (1) Theoretical rationale đến (2) Empirical evidence đến (3) Contextual consideration đến 
 > (4) Hypothesis statement. This section is a ready-to-use draft for the Theory &
 > Hypotheses section of any paper in the dissertation.
 
@@ -562,7 +562,7 @@ only above a threshold institutional quality that varies by ICRV regime.*
 
 **Paragraph 3 — Distinguishing DAI moderation from TCI moderation:**
 
-It is important to distinguish the mechanism by which DAI moderates the I→P relationship
+It is important to distinguish the mechanism by which DAI moderates the I–P relationship
 from the mechanism by which TCI moderates it (H2). TCI operates through a
 *process-competence* channel: higher quality certification and foreign technology absorption
 reduce the marginal coordination cost of managing complex export operations, shifting the

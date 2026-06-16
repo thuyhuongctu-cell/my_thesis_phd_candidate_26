@@ -24,23 +24,23 @@
 
 | Hạng mục | Trạng thái |
 |---|---|
-| Chương 1 — Giới thiệu | ✅ Hoàn thành |
-| Chương 2 — Tổng quan tài liệu | ✅ Hoàn thành |
-| Chương 3 — Phương pháp nghiên cứu | ✅ Hoàn thành |
-| Chương 4 — Kết quả nghiên cứu | ✅ Hoàn thành |
-| Chương 5 — Kết luận và đề xuất | ✅ Hoàn thành |
-| Phụ lục A — Quy trình hợp nhất dữ liệu WBES (S1–S6, có luận chứng và trích dẫn APA 7) | ✅ Hoàn thành (bản Việt + Anh) |
-| Danh mục tài liệu tham khảo APA 7 | ✅ Hoàn thành |
-| Bản lắp ráp đầy đủ định dạng CTU (.docx, ~53.000 từ) | ✅ Hoàn thành |
-| Slide bảo vệ (LaTeX/Beamer, 19 slide) | ✅ Bản thảo (chờ biên dịch PDF và xác nhận tên GVHD) |
-| Tóm tắt + Chương 1 bản tiếng Anh | ✅ Hoàn thành |
+| Chương 1 — Giới thiệu | Có Hoàn thành |
+| Chương 2 — Tổng quan tài liệu | Có Hoàn thành |
+| Chương 3 — Phương pháp nghiên cứu | Có Hoàn thành |
+| Chương 4 — Kết quả nghiên cứu | Có Hoàn thành |
+| Chương 5 — Kết luận và đề xuất | Có Hoàn thành |
+| Phụ lục A — Quy trình hợp nhất dữ liệu WBES (S1–S6, có luận chứng và trích dẫn APA 7) | Có Hoàn thành (bản Việt + Anh) |
+| Danh mục tài liệu tham khảo APA 7 | Có Hoàn thành |
+| Bản lắp ráp đầy đủ định dạng CTU (.docx, ~53.000 từ) | Có Hoàn thành |
+| Slide bảo vệ (LaTeX/Beamer, 19 slide) | Có Bản thảo (chờ biên dịch PDF và xác nhận tên GVHD) |
+| Tóm tắt + Chương 1 bản tiếng Anh | Có Hoàn thành |
 
 ### 2.2 Hai chuyên đề tiến sĩ
 
 | Chuyên đề | Nội dung | Trạng thái |
 |---|---|---|
-| CĐ1 | Phân tích mô tả – chẩn đoán thực trạng hiệu quả doanh nghiệp châu Á (49 nền kinh tế, khung ICRV 6 nhóm) | ✅ Hoàn thành, đã xuất .docx chuẩn CTU |
-| CĐ2 | Mô hình nghiên cứu lý thuyết và thực nghiệm quan hệ quốc tế hóa → hiệu quả (hệ giả thuyết H1–H6, 11 mô hình M0–M11) | ✅ Hoàn thành, đã xuất .docx chuẩn CTU |
+| CĐ1 | Phân tích mô tả – chẩn đoán thực trạng hiệu quả doanh nghiệp châu Á (49 nền kinh tế, khung ICRV 6 nhóm) | Có Hoàn thành, đã xuất .docx chuẩn CTU |
+| CĐ2 | Mô hình nghiên cứu lý thuyết và thực nghiệm quan hệ quốc tế hóa đến hiệu quả (hệ giả thuyết H1–H6, 11 mô hình M0–M11) | Có Hoàn thành, đã xuất .docx chuẩn CTU |
 
 ### 2.3 Công trình khoa học
 
@@ -54,9 +54,9 @@
 | P4 | Singapore (2023, N = 623) | MIR, MBR, APBR | Gần tuyến tính dương; FSTS²×DAI = +3,119 |
 | P5 | Trung Quốc (2 đợt, N = 4.559) | CMS, IJOEM, APBR | Điểm uốn 47–49%, bền vững giữa hai đợt |
 | P6 | Meta-analysis 3 cấp (k = 238, K = 288) | APJM, JIM, JWB | r = 0,074; I² = 62,4%; Q_M = 17,35 (p = .002) |
-| P7 | Đa quốc gia (49 nền, N = 84.910) | JIBS, APJM, IBR | Điểm uốn 40,0% (mô hình đầy đủ); gradient thể chế ~28% → ~55% |
+| P7 | Đa quốc gia (49 nền, N = 84.910) | JIBS, APJM, IBR | Điểm uốn 40,0% (mô hình đầy đủ); gradient thể chế ~28% đến ~55% |
 | P8 | SIDS Thái Bình Dương (7 nền, N = 959) | World Development, EJDR, JID | FIP: β(FSTS) = −1,339 (p < .001) — quan hệ âm đơn điệu |
-| P9 | Ấn Độ (3 đợt 2014–2025, N = 28.717) | MIR, JABS, IJOEM | Điểm uốn 61,8% → 40,7% → sụp đổ ngưỡng |
+| P9 | Ấn Độ (3 đợt 2014–2025, N = 28.717) | MIR, JABS, IJOEM | Điểm uốn 61,8% đến 40,7% đến sụp đổ ngưỡng |
 
 ## 3. Dữ liệu và phương pháp luận
 
@@ -68,7 +68,7 @@
 
 ## 4. Kiểm soát chất lượng đã thực hiện
 
-1. Rà soát nhất quán đo lường hiệu quả doanh nghiệp (firm performance) xuyên P3/P4/P5 ↔ P7 ↔ luận án: cùng construct ln(doanh thu/lao động), điều kiện so sánh tiền tệ được phát biểu tường minh (Chương 3 §3.3.2).
+1. Rà soát nhất quán đo lường hiệu quả doanh nghiệp (firm performance) xuyên P3/P4/P5 ↔ P7 ↔ luận án: cùng construct ln(doanh thu/lao động), điều kiện so sánh tiền tệ được phát biểu tường minh (Chương 3 Mục 3.3.2).
 2. Đối chiếu số liệu giữa bản thảo bài báo và luận án: điểm uốn, hệ số và cỡ mẫu của cả 7 bản thảo đã khớp với số liệu trong Chương 4.
 3. Toàn bộ luận án và hai chuyên đề dùng một hệ nhãn nhóm ICRV thống nhất và một pool dữ liệu mô tả duy nhất; danh mục tài liệu tham khảo theo APA 7 có DOI.
 

@@ -14,7 +14,7 @@ model M2; Table 3 three-way moderation specification with joint
 F-tests).
 
 **Figures:** 4 (Figure 1 conceptual model; Figure 2 turning-point
-estimates with 95% CIs; Figure 3 predicted I→P curves by wave; Figure 4
+estimates with 95% CIs; Figure 3 predicted I to P curves by wave; Figure 4
 capability level-shift coefficients).
 
 ## Abstract
@@ -229,7 +229,7 @@ Figure 1: Conceptual model
 > **Figure 1.** Conceptual model: internationalisation intensity (FSTS),
 > technological capability (TCI_full), and temporal wave as determinants
 > of log labour productivity. The dashed moderation arrows reflect
-> exploratory mechanism analyses evaluated in §4.5.
+> exploratory mechanism analyses evaluated in Section 4.5.
 
 ## 3. Data and Methods
 
@@ -258,7 +258,7 @@ WBES private‑firm frame in which the threshold result is estimated. We
 control for sectoral composition through ISIC stratum dummies (`a4a`). A
 robustness check restricting the sample to manufacturing firms (ISIC Rev
 3.1 codes 15-38 in 2012 and ISIC Rev 4 codes 10-33 in 2024) is reported
-in §4.6.
+in Section 4.6.
 
 **Replication note.** The focal-set samples, retaining only firms with
 non-missing sales, employees, and export intensity (`lnLP`, `FSTS`,
@@ -335,7 +335,7 @@ heteroskedasticity-consistent (HC1) standard errors (MacKinnon and
 White, 1985). The two WBES China waves are independent, repeated
 cross-sections rather than a matched firm-level panel: WBES
 anonymisation precludes linking individual firms across the 2012 and
-2024 waves (see §5.4). The pooled specification therefore stacks the two
+2024 waves (see Section 5.4). The pooled specification therefore stacks the two
 cross-sections and reports HC1-robust standard errors; cross-wave
 comparisons rest on the Paternoster coefficient-equality tests rather
 than on within-firm variation. The main specification (M2) includes
@@ -537,8 +537,8 @@ standardised OLS)
 DAI_core (own-website) is positive and significant in both waves (β_z ≈
 +0.10 in 2012, p = .002; +0.12 in 2024, p \< .001) when entered as a
 control in M2. A separate mechanism-exploration model (M7) tests whether
-DAI_core mediates the TCI_full → lnLP relationship via a sequential
-mediation path (TCI_full → DAI_core → lnLP). Bootstrap indirect-effect
+DAI_core mediates the TCI_full to lnLP relationship via a sequential
+mediation path (TCI_full to DAI_core to lnLP). Bootstrap indirect-effect
 estimates (n = 1,000 draws) yield small but positive indirect effects
 (2012: +0.018, 95 % CI \[0.004, 0.039\]; 2024: +0.022, 95 % CI \[0.007,
 0.043\]), consistent with a partial-mediation reading. However, because
@@ -628,7 +628,7 @@ contexts.
 
 The null TCI moderation of curvature in China is consistent with P4
 Singapore (where TCI operates only as a direct productivity enhancer
-without moderating the I→P slope). This pattern emerges across two
+without moderating the I to P slope). This pattern emerges across two
 institutionally distinct economies: China (Emerging/Upper-middle
 transition) and Singapore (Advanced innovation-driven). The
 ICRV-contingency interpretation suggests that TCI moderation of
@@ -642,8 +642,8 @@ slope versus the intercept.
 
 DAI_core (own-website) enters positively and significantly in both waves
 but does not add explanatory power to the inverted-U curvature beyond
-TCI_full. The mechanism sketch (§4.5) suggests a partial mediation
-pathway (TCI → DAI → lnLP), but the effect is small and the
+TCI_full. The mechanism sketch (Section 4.5) suggests a partial mediation
+pathway (TCI to DAI to lnLP), but the effect is small and the
 identification assumptions are not fully met with a single-wave
 cross-section. The correct interpretation is that digital presence is a
 complement to productivity rather than a capability construct in this
@@ -664,7 +664,7 @@ country-specific WBES supplements (Hitt et al., 1997). Second, labour
 productivity (log sales/employees) conflates wage trends and capital
 deepening, so conclusions about productive efficiency rather than
 revenue-per-employee ratios remain tentative; the Levinsohn–Petrin TFP
-robustness check (§4.6) partially addresses this concern, though it
+robustness check (Section 4.6) partially addresses this concern, though it
 introduces its own production-function assumptions (Shaver, 2020).
 Third, the TCI_full composite relies on self-reported WBES items, which
 introduces common-method bias within each wave; future work could

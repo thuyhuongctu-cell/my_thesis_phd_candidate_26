@@ -9,7 +9,7 @@ em-dash (—, U+2014) in prose replaced with context-appropriate punctuation
 (comma for parenthetical/appositive; colon for list/definition; semicolon or
 sentence split for independent clauses; "to"/en-dash for ranges). Numbers,
 coefficients, p-values, citations, DOIs, math, en-dash numeric ranges, and
-hyphenated terms (inverted-U, I→P, three-level, chữ U ngược) were preserved.
+hyphenated terms (inverted-U, I–P, three-level, chữ U ngược) were preserved.
 All statistics were re-verified intact after each pass.
 
 ## Result — em-dash (prose)
@@ -39,8 +39,8 @@ convention, not AI tells: markdown headers, table empty-cell markers (`| — |`
 Full scan (innovative, pioneering, transformative, surpass, remarkable,
 unprecedented, breakthrough, paves the way, underscore, delve, notably, profound,
 stems from, is/capable of, highlight the potential, at its essence). Found and
-fixed: P10 "underscore"→"show"; P6 "pioneering"→"early foundational" and 2×
-"capable of"→"able to"; P8 "stems from"→"arises from". Remaining occurrences: 0.
+fixed: P10 "underscore" đến "show"; P6 "pioneering" đến "early foundational" and 2×
+"capable of" đến "able to"; P8 "stems from" đến "arises from". Remaining occurrences: 0.
 
 ## Review-skill outcome
 `pre-submission-reviewer` on P9/P10/P11/P7: score 9/10, 0 CRITICAL, 0 MAJOR

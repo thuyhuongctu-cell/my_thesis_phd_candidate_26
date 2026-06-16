@@ -1,7 +1,7 @@
 # JED Submission Package, P3 (Vietnam), ENGLISH (Emerald)
 
 **Target journal:** Journal of Economics and Development (JED)
-,  National Economics University / **Emerald Publishing**
+, National Economics University / **Emerald Publishing**
 (https://www.emeraldgrouppublishing.com/journal/jed)
 Diamond Open Access (no APC); Scopus; WoS. Submission via Emerald/ScholarOne by the corresponding author.
 
@@ -33,16 +33,16 @@ The Roles of Technological Capability and Foundational Digital Adoption."
 ## Word count (JED cap: 8,500 incl. everything)
 - Condensed manuscript `01_manuscript_blinded_8500.md`: **7,845 words**
 - Tables file `04_tables.md`: **632 words**
-- **Combined: 8,477 / 8,500** ✓ (Supplementary Material is hosted on Insight and does not count.)
+- **Combined: 8,477 / 8,500** (Supplementary Material is hosted on Insight and does not count.)
 - Both the condensed and full-length manuscripts are now **em-dash-free** (anti-AI language pass).
 
 ## Conformance to JED author guidelines
-- ✅ MS Word; structured abstract (Purpose/Design/Findings/Originality), ≤250 words; ≤12 keywords; JEL; Research paper.
-- ✅ References in **Emerald Harvard** (55 entries; in-text `and`/`*et al.*`); citations and reference list cross-checked for completeness.
-- ✅ Tables in a **separate file**, Roman numerals, with `[Insert Table … about here]` markers in the text.
-- ✅ Robustness/appendix material moved to **Supplementary Material** (Insight) to meet the word cap.
-- ✅ Ethics statement (secondary, de-identified WBES firm data, no approval required); AI-usage disclosure aligned to Emerald policy (copy-editing only; author to insert tool name/version).
-- ✅ Anonymised (author block/acknowledgements removed; no author names in figure captions).
+- MS Word; structured abstract (Purpose/Design/Findings/Originality), ≤250 words; ≤12 keywords; JEL; Research paper.
+- References in **Emerald Harvard** (55 entries; in-text `and`/`*et al.*`); citations and reference list cross-checked for completeness.
+- Tables in a **separate file**, Roman numerals, with `[Insert Table … about here]` markers in the text.
+- Robustness/appendix material moved to **Supplementary Material** (Insight) to meet the word cap.
+- Ethics statement (secondary, de-identified WBES firm data, no approval required); AI-usage disclosure aligned to Emerald policy (copy-editing only; author to insert tool name/version).
+- Anonymised (author block/acknowledgements removed; no author names in figure captions).
 
 ## Before upload (author actions)
 - Insert the exact AI-tool name + version in the AI-usage statement.

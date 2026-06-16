@@ -11,18 +11,18 @@
 
 | # | Issue | Ground truth | Action |
 |---|-------|--------------|--------|
-| A1 | **P6 meta sample size inconsistent** — JIM & APJM packages reported *k* = 237 studies / *K* = 287 effects, while dissertation, IBR & JWB packages reported 238/288 | `p6/data/p6_study_database.csv` (288 rows, 238 unique `study_id`, all `include_flag = 1`) and `P6_results_workbook.xlsx` ("288 effects, 238 studies; pooled r = 0.074") → **k = 238, K = 288** | Corrected JIM + APJM manuscripts, JIM cover letter, READMEs to **238/288**. Repo-wide now 0 occurrences of 237/287 in any P6 package. |
+| A1 | **P6 meta sample size inconsistent** — JIM & APJM packages reported *k* = 237 studies / *K* = 287 effects, while dissertation, IBR & JWB packages reported 238/288 | `p6/data/p6_study_database.csv` (288 rows, 238 unique `study_id`, all `include_flag = 1`) and `P6_results_workbook.xlsx` ("288 effects, 238 studies; pooled r = 0.074") to **k = 238, K = 288** | Corrected JIM + APJM manuscripts, JIM cover letter, READMEs to **238/288**. Repo-wide now 0 occurrences of 237/287 in any P6 package. |
 | A2 | **P6 PRISMA terminal counts blank** ("k = [TBD] studies; K = [TBD]") | 238 / 288 | Filled terminal *included* counts (238/288) in JIM, IBR, JWB packages. |
 | A3 | Em-dashes across all 6 first-target packages | — | Removed (0 em-dashes); docx rebuilt. |
 
-(Earlier passes also fixed: P5 cover-letter 4-wave→2-wave drift; P6 cover-letter 288/238 mislabel; abstract formats per publisher house style.)
+(Earlier passes also fixed: P5 cover-letter 4-wave to 2-wave drift; P6 cover-letter 288/238 mislabel; abstract formats per publisher house style.)
 
 ---
 
 ## B. CRITICAL issues the author MUST resolve before submission
 
 ### B1. P6 meta-analysis — PRISMA flow & inter-coder reliability are incomplete (29 `TBD` per package)
-The manuscript reports **definitive results** (pooled *r* = 0.074, *I²* = 62.5%, *Q*_M tests, trim-and-fill *k* = 57) **but** the PRISMA flow intermediates (records identified → deduplicated → screened → excluded-by-reason) and the inter-coder reliability table (Cohen's κ, ICC) are all `[TBD]`, with a standing note that "all counts will be confirmed after the formal WoS/Scopus search." **A reviewer will read this as a meta-analysis run on a pre-formal-search convenience database.** These cannot be auto-filled or fabricated (no κ/PRISMA outputs exist in the repo).
+The manuscript reports **definitive results** (pooled *r* = 0.074, *I²* = 62.5%, *Q*_M tests, trim-and-fill *k* = 57) **but** the PRISMA flow intermediates (records identified to deduplicated to screened to excluded-by-reason) and the inter-coder reliability table (Cohen's κ, ICC) are all `[TBD]`, with a standing note that "all counts will be confirmed after the formal WoS/Scopus search." **A reviewer will read this as a meta-analysis run on a pre-formal-search convenience database.** These cannot be auto-filled or fabricated (no κ/PRISMA outputs exist in the repo).
 **Required:** run and report the formal PRISMA search + double-coding reliability, *or* explicitly reframe the paper as a preliminary/working synthesis. This is the single biggest acceptance risk in the portfolio.
 
 ### B2. P6 — substantive contribution is thin once results are read honestly
@@ -61,7 +61,7 @@ P8 analyses **nine** economies (Fiji, Kiribati, PNG, Samoa, Solomon Is., Timor-L
 
 **P3 (Vietnam, JED).** The inverted-U is explicitly a *participation-margin* effect (quadratic loses significance on exporters-only). Good that this is stated; reviewers will still ask for a hurdle/Heckman or exporters-only robustness in the main text, and the "proxy-obsolescence" Tier-1 claim should be bounded to the single website item. Endogeneity of TCI/export intensity is associational — keep the caveat prominent.
 
-**P4 (Singapore, MBR).** The H3 amplification rests on the high-export tail where only ~3% of firms (exporters-only N = 84, power ≈ 16%) live. This is disclosed thoroughly (§3.4), but a reviewer may still regard H3 as under-identified; consider foregrounding it as a *conditional, power-bounded* finding rather than a confirmed mechanism. Now condensed to ~10.6k total.
+**P4 (Singapore, MBR).** The H3 amplification rests on the high-export tail where only ~3% of firms (exporters-only N = 84, power ≈ 16%) live. This is disclosed thoroughly (Section 3.4), but a reviewer may still regard H3 as under-identified; consider foregrounding it as a *conditional, power-bounded* finding rather than a confirmed mechanism. Now condensed to ~10.6k total.
 
 **P5 (China, IJOEM).** Two-wave threshold-stability claim is clean; pre-empt a measurement-invariance question for the TCI composite across 2012 vs 2024, and keep the single-item DAI explicitly as a control (already done).
 

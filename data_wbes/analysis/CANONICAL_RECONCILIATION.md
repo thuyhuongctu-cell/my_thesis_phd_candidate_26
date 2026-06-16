@@ -29,8 +29,8 @@
 | Vị trí | Số hiện tại | Chuẩn data | Hành động |
 |---|---|---|---|
 | `thesis/14_cd1_part1` (abstract CĐ1) | 101.185 / 47 nền | 91.982 (analytic) / 96.415 (class.) — 49 nền | sửa |
-| `thesis/chuong_2` §2.3.2 dòng 135 | "84.910–91.982 / 102 waves" | 91.982 / 49 nền / 102–108 waves | bỏ 84.910 |
-| CĐ2 / Bảng 2.3.2.1 CĐ1 | 91.864/91.982 · 49 | ✅ đã khớp | giữ |
+| `thesis/chuong_2` Mục 2.3.2 dòng 135 | "84.910–91.982 / 102 waves" | 91.982 / 49 nền / 102–108 waves | bỏ 84.910 |
+| CĐ2 / Bảng 2.3.2.1 CĐ1 | 91.864/91.982 · 49 | Có đã khớp | giữ |
 
 > "84.910" là N của mô hình M2 (sau listwise deletion một số biến) — KHÔNG phải pool. Nếu giữ phải ghi rõ "N hồi quy M2".
 
@@ -39,7 +39,7 @@
 `ln_labor_prod` thô trong master **KHÔNG đơn điệu** theo gradient ICRV
 (I=15,70; II=11,92; III=13,25; IV=14,96; V=15,07; VI=10,45) vì chưa chuẩn hóa
 PPP/tiền tệ giữa các nước. Do đó **không thể** dùng trực tiếp để chứng minh luận
-điểm "phân tán năng suất tăng đơn điệu từ Nhóm I→VI" trong CĐ1/Chương 4.
+điểm "phân tán năng suất tăng đơn điệu từ Nhóm I–VI" trong CĐ1/Chương 4.
 
 **Cần quyết định metric trước khi điền bảng mô tả:**
 - (a) chuẩn hóa within-country z-score rồi mới so sánh nhóm; hoặc

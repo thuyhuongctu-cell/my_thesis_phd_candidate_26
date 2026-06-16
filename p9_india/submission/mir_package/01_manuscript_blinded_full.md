@@ -194,19 +194,19 @@ Dependent variable: ln(Labour Productivity)
 | Term | 2014 | 2022 | 2025 |
 |---|---:|---:|---:|
 | FSTS | +1.865*** | +1.542*** | -0.359* |
-|  | (0.235) | (0.223) | (0.153) |
-|  | [0.552]*** | [0.550]** | [0.314] |
+| | (0.235) | (0.223) | (0.153) |
+| | [0.552]*** | [0.550]** | [0.314] |
 | FSTS² | -1.508*** | -1.893*** | -0.160 |
-|  | (0.254) | (0.239) | (0.199) |
-|  | [0.539]** | [0.532]*** | [0.299] |
+| | (0.254) | (0.239) | (0.199) |
+| | [0.539]** | [0.532]*** | [0.299] |
 | ln(Employees) | +0.101*** | +0.244*** | +0.214*** |
-|  | (0.011) | (0.009) | (0.007) |
+| | (0.011) | (0.009) | (0.007) |
 | Firm age | -0.001 | +0.000 | -0.000 |
-|  | (0.001) | (0.001) | (0.001) |
+| | (0.001) | (0.001) | (0.001) |
 | Foreign-owned | +0.403* | +0.252* | +0.249*** |
-|  | (0.174) | (0.109) | (0.058) |
+| | (0.174) | (0.109) | (0.058) |
 | Constant | +13.528*** | +13.463*** | +14.235*** |
-|  | (0.043) | (0.036) | (0.024) |
+| | (0.043) | (0.036) | (0.024) |
 | N | 8,941 | 9,300 | 10,476 |
 | R²_adj | 0.0313 | 0.0933 | 0.1023 |
 | Turning point (%) | 61.8 | 40.7 | n/a |
@@ -257,12 +257,12 @@ Dependent variable: ln(Labour Productivity)
 | TCI | +0.119*** | +0.185*** | -0.084*** |
 | FSTS × TCI | -0.010 | +0.128 | +0.204* |
 | FSTS² × TCI | -0.018 | -0.331† | -0.172 |
-| DAI Tier-1 |  |  |  | -0.031† |
-| FSTS × DAI Tier-1 |  |  |  | +0.896† |
-| FSTS² × DAI Tier-1 |  |  |  | -1.231† |
-| DAI Tier-2 (e-payment) |  |  |  |  | +0.887*** |
-| FSTS × DAI Tier-2 |  |  |  |  | -4.022** |
-| FSTS² × DAI Tier-2 |  |  |  |  | +3.391† |
+| DAI Tier-1 | | | | -0.031† |
+| FSTS × DAI Tier-1 | | | | +0.896† |
+| FSTS² × DAI Tier-1 | | | | -1.231† |
+| DAI Tier-2 (e-payment) | | | | | +0.887*** |
+| FSTS × DAI Tier-2 | | | | | -4.022** |
+| FSTS² × DAI Tier-2 | | | | | +3.391† |
 | N | 8,941 | 9,300 | 10,476 | 10,476 | 10,473 |
 | R²_adj | 0.0384 | 0.1114 | 0.1088 | 0.1025 | 0.1238 |
 
@@ -296,28 +296,28 @@ M2 specification: ln(Labour Productivity) = β₀ + β₁ FSTS + β₂ FSTS² + 
 | Specification | Wave | N | β̂₁ FSTS | β̂₂ FSTS² | TP (%) | Inv-U? |
 |---|---:|---:|---:|---:|---:|:-:|
 | Baseline (full sample) | 2014 | 8,941 | +1.865*** | -1.508*** | 61.8 | Yes |
-|  | 2022 | 9,300 | +1.542*** | -1.893*** | 40.7 | Yes |
-|  | 2025 | 10,476 | -0.359* | -0.160 | n/a | No |
+| | 2022 | 9,300 | +1.542*** | -1.893*** | 40.7 | Yes |
+| | 2025 | 10,476 | -0.359* | -0.160 | n/a | No |
 | | | | | | | |
 | R1: Manufacturing only | 2014 | 6,974 | +1.896*** | -1.649*** | 57.5 | Yes |
-|  | 2022 | 5,366 | +1.697*** | -2.056*** | 41.3 | Yes |
-|  | 2025 | 5,706 | -0.073 | -0.464* | -7.9 | No |
+| | 2022 | 5,366 | +1.697*** | -2.056*** | 41.3 | Yes |
+| | 2025 | 5,706 | -0.073 | -0.464* | -7.9 | No |
 | | | | | | | |
 | R2: Trimmed FSTS ≤ 0.95 | 2014 | 8,666 | +2.263*** | -2.324*** | 48.7 | Yes |
-|  | 2022 | 8,937 | +1.585*** | -1.998*** | 39.7 | Yes |
-|  | 2025 | 10,436 | -0.301 | -0.303 | -49.7 | No |
+| | 2022 | 8,937 | +1.585*** | -1.998*** | 39.7 | Yes |
+| | 2025 | 10,436 | -0.301 | -0.303 | -49.7 | No |
 | | | | | | | |
 | R3a: SME (employees < 100) | 2014 | 6,844 | +0.758* | -0.071 | n/a | No |
-|  | 2022 | 6,497 | +1.354*** | -1.644*** | 41.2 | Yes |
-|  | 2025 | 7,383 | -0.713* | +0.382 | 93.2 | No |
+| | 2022 | 6,497 | +1.354*** | -1.644*** | 41.2 | Yes |
+| | 2025 | 7,383 | -0.713* | +0.382 | 93.2 | No |
 | | | | | | | |
 | R3b: Large (employees ≥ 100) | 2014 | 2,097 | +3.047*** | -3.037*** | 50.2 | Yes |
-|  | 2022 | 2,803 | +1.942*** | -2.379*** | 40.8 | Yes |
-|  | 2025 | 3,093 | -0.033 | -0.547* | -3.0 | No |
+| | 2022 | 2,803 | +1.942*** | -2.379*** | 40.8 | Yes |
+| | 2025 | 3,093 | -0.033 | -0.547* | -3.0 | No |
 | | | | | | | |
 | R4: Alt DV (standardised levels) | 2014 | 8,941 | +0.600* | -0.551* | 54.4 | No |
-|  | 2022 | 9,300 | +0.927*** | -1.116*** | 41.5 | Yes |
-|  | 2025 | 10,476 | -0.648*** | +0.028 | n/a | No
+| | 2022 | 9,300 | +0.927*** | -1.116*** | 41.5 | Yes |
+| | 2025 | 10,476 | -0.648*** | +0.028 | n/a | No
 
 *Note: HC1 robust standard errors used throughout. Significance: † p < 0.10, * p < 0.05, ** p < 0.01, *** p < 0.001. Inv-U? column indicates whether Lind–Mehlum (2010) joint U-test supports inverted-U at the 5 % level. Manufacturing classification uses ISIC Rev 3.1 codes 15–37 for 2014 PICS3 and ISIC Rev 4 codes 10–33 for 2022 BEE and 2025 BREADY. R4 uses standardised labour productivity in levels (z-score within wave) as the dependent variable.*
 
@@ -332,7 +332,7 @@ A natural concern is whether the apparent shift is a schema artifact. The 2014 w
 
 Three mechanisms can explain the shift. Firstly, the Atmanirbhar Bharat self-reliance policy (2020) and PLI scheme rollout (2020 onward) redirect strategic firm investment toward domestic manufacturing. This shifts firms away from the export-orientation that the 2014 institutional environment rewarded. Secondly, COVID-19 supply-chain disruption (2020 to 2022) altered the marginal cost of cross-border activity, possibly permanently. This raises the over-extension cost faced by Indian exporters. Thirdly, the global trade environment in 2025 is characterised by re-shoring, friend-shoring, and elevated cross-border policy uncertainty. These factors may have shifted the optimal scale of internationalisation downward across all exporters, flattening the cost-benefit balance that previously generated the inverted-U.
 
-The five robustness specifications reported in §4.6 reinforce the structural interpretation. The manufacturing-only sub-sample confirms the cross-wave shift with Paternoster z-tests within 12 per cent of full-sample magnitudes. This rules out service-firm composition as a driver. The trimmed-FSTS specification rules out extreme exporter influence. The size sub-sample analysis reveals a finer nuance. The 2014 inverted-U was concentrated in larger firms (employees ≥ 100). The pattern extended to smaller firms only by 2022 before collapsing for both segments in 2025. This pattern is consistent with the documented broadening of SME exporter participation under the 2014 to 2020 export-promotion policy expansion, followed by its post-2020 reversal under Atmanirbhar Bharat. The pattern is not consistent with a measurement-induced collapse.
+The five robustness specifications reported in Section 4.6 reinforce the structural interpretation. The manufacturing-only sub-sample confirms the cross-wave shift with Paternoster z-tests within 12 per cent of full-sample magnitudes. This rules out service-firm composition as a driver. The trimmed-FSTS specification rules out extreme exporter influence. The size sub-sample analysis reveals a finer nuance. The 2014 inverted-U was concentrated in larger firms (employees ≥ 100). The pattern extended to smaller firms only by 2022 before collapsing for both segments in 2025. This pattern is consistent with the documented broadening of SME exporter participation under the 2014 to 2020 export-promotion policy expansion, followed by its post-2020 reversal under Atmanirbhar Bharat. The pattern is not consistent with a measurement-induced collapse.
 
 ### 5.2 Domestic versus cross-border digital infrastructure: a complementarity, not substitution
 
@@ -366,11 +366,11 @@ Thirdly, the TCI sign reversal under post-PLI strategic redirection extends the 
 
 ### 5.6 Boundary conditions and scope
 
-The findings are bounded in five ways. Firstly, the three waves are independent cross-sections rather than within-firm panels. Within-firm causal claims are not supported. Secondly, the 2014, 2022, and 2025 instruments are not identical. However, the monotone trajectory across the 2022 bridge supports a structural rather than artifactual interpretation. Thirdly, DAI Tier-2 is measured only in 2025, restricting Tier-1-versus-Tier-2 comparisons to the post-UPI wave. Fourthly, standard errors are heteroscedasticity-robust (HC1) in the primary specification and state-clustered (approximately 24 clusters) in the robustness specification. With this cluster count, the asymptotic justification for cluster-robust inference is borderline. Wild cluster bootstrap (Cameron et al., 2008; MacKinnon and Webb, 2017) would tighten inference in revision. Fifthly, the DAI_epay endogeneity concern noted in §5.2 remains unresolved and qualifies the H4b reinterpretation.
+The findings are bounded in five ways. Firstly, the three waves are independent cross-sections rather than within-firm panels. Within-firm causal claims are not supported. Secondly, the 2014, 2022, and 2025 instruments are not identical. However, the monotone trajectory across the 2022 bridge supports a structural rather than artifactual interpretation. Thirdly, DAI Tier-2 is measured only in 2025, restricting Tier-1-versus-Tier-2 comparisons to the post-UPI wave. Fourthly, standard errors are heteroscedasticity-robust (HC1) in the primary specification and state-clustered (approximately 24 clusters) in the robustness specification. With this cluster count, the asymptotic justification for cluster-robust inference is borderline. Wild cluster bootstrap (Cameron et al., 2008; MacKinnon and Webb, 2017) would tighten inference in revision. Fifthly, the DAI_epay endogeneity concern noted in Section 5.2 remains unresolved and qualifies the H4b reinterpretation.
 
 ## 6. Limitations and Future Research
 
-The substantive limitations are detailed in §5.6. One further measurement caveat warrants emphasis: the 2025 wave coincides with a sharp contraction in export engagement (mean FSTS falls from 7.2 per cent in 2014 to 2.7 per cent in 2025, and the number of firms above 50 per cent FSTS falls from 536 to 141), so the loss of significant quadratic curvature in 2025 partly reflects reduced identifying variation in the high-export tail. The threshold-dissolution finding should therefore be read as conditional on the post-Atmanirbhar export contraction. Importantly, however, the sign of the low-export slope itself reverses, from a positive ascending limb in 2014 to a monotone negative relationship in 2025, a qualitative change that thinner tail support alone does not generate. Three additional directions for future research follow from them.
+The substantive limitations are detailed in Section 5.6. One further measurement caveat warrants emphasis: the 2025 wave coincides with a sharp contraction in export engagement (mean FSTS falls from 7.2 per cent in 2014 to 2.7 per cent in 2025, and the number of firms above 50 per cent FSTS falls from 536 to 141), so the loss of significant quadratic curvature in 2025 partly reflects reduced identifying variation in the high-export tail. The threshold-dissolution finding should therefore be read as conditional on the post-Atmanirbhar export contraction. Importantly, however, the sign of the low-export slope itself reverses, from a positive ascending limb in 2014 to a monotone negative relationship in 2025, a qualitative change that thinner tail support alone does not generate. Three additional directions for future research follow from them.
 
 Firstly, this study employs repeated cross-sections across three waves. A within-firm panel design for India, feasible via the partially matched firms across the 2014 and 2022 WBES waves, would identify whether the threshold collapse operates through firm-level evolution or through composition effects. The firm-level evolution interpretation holds that the same firm's productivity-export relationship changes. The composition effect interpretation holds that different firms enter and exit the analytic sample with different I-P profiles. The distinction has direct policy implications. Firm-evolution-driven collapse implies firm-level adaptation policy. Composition-driven collapse implies industry-rebalancing policy.
 

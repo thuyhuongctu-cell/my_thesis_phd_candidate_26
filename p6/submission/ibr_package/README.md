@@ -18,7 +18,7 @@
 | `03_cover_letter.docx` | Cover letter to Editor-in-Chief | Cover letter |
 | `figures/figure_1_conceptual_model.png` | Conceptual model — three-level MARA with ICRV, cDAI, DPL | Figure 1 |
 | `figures/figure2_icrv_forest.png` | ICRV 5-regime forest plot with 95% CI | Figure 2 |
-| `figures/figure3_dpl_phase.png` | DPL phase moderation — I→P effect by digital epoch | Figure 3 |
+| `figures/figure3_dpl_phase.png` | DPL phase moderation — I to P effect by digital epoch | Figure 3 |
 | `figures/figure4_sensitivity.png` | Leave-one-out sensitivity range | Figure 4 |
 | `figures/figure5_funnel_plot.png` | Funnel plot with trim-and-fill imputed studies | Figure 5 |
 
@@ -32,10 +32,10 @@
 - [ ] **Title:** as above
 - [ ] **Abstract:** ~300 words (structured: Purpose / Design / Findings / Originality)
 - [ ] **Keywords** (5–6): internationalization–performance; meta-analysis; three-level model; digital adoption; ICRV; Digital Paradox Lifecycle
-- [ ] Upload `01_manuscript_blinded.docx` → Manuscript
-- [ ] Upload `02_title_page.docx` → Author Information / Title Page
-- [ ] Upload `03_cover_letter.docx` → Cover Letter
-- [ ] Upload figures 1–5 → Figure files (separately, high-res)
+- [ ] Upload `01_manuscript_blinded.docx` to Manuscript
+- [ ] Upload `02_title_page.docx` to Author Information / Title Page
+- [ ] Upload `03_cover_letter.docx` to Cover Letter
+- [ ] Upload figures 1–5 to Figure files (separately, high-res)
 - [ ] Confirm corresponding author (Phan Anh Tú)
 - [ ] OSF pre-registration link (add before submission)
 - [ ] Conflict of interest statement
@@ -64,7 +64,7 @@
 - [ ] PRISMA 2020 checklist completed (Appendix A)
 - [ ] Inter-coder reliability κ ≥ 0.70 reported
 - [ ] `metafor` R package version documented
-- [ ] Publication bias diagnostics (Egger test, trim-and-fill) reported in §4.4
+- [ ] Publication bias diagnostics (Egger test, trim-and-fill) reported in Section 4.4
 
 ---
 

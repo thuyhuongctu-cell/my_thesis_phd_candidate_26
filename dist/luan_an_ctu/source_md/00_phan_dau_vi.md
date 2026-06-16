@@ -143,22 +143,22 @@ Key findings: (1) the I–P relationship is inverted-U shaped, but the turning p
 
 **Bảng đánh số:**
 - Bảng 2.1. Ánh xạ nghiên cứu thành phần — chương — giả thuyết (Chương 2)
-- Bảng 4.1. Phân tán năng suất lao động và đặc điểm quốc tế hóa theo phân nhóm con ICRV (Chương 4, §4.1)
-- Bảng 4.2. Đổi mới sáng tạo và chấp nhận số theo phân nhóm con ICRV (%) (Chương 4, §4.1)
-- Bảng 4.3. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, §4.8)
+- Bảng 4.1. Phân tán năng suất lao động và đặc điểm quốc tế hóa theo phân nhóm con ICRV (Chương 4, Mục 4.1)
+- Bảng 4.2. Đổi mới sáng tạo và chấp nhận số theo phân nhóm con ICRV (%) (Chương 4, Mục 4.1)
+- Bảng 4.3. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, Mục 4.8)
 
 **Bảng chuyên đề (không đánh số, theo mục):**
-- Bảng định nghĩa biến — Nghiên cứu P3 Việt Nam (Chương 3, §3.4.5.1)
-- Bảng định nghĩa biến — Nghiên cứu P4 Singapore (Chương 3, §3.4.5.2)
-- Bảng định nghĩa biến — Nghiên cứu P5 Trung Quốc (Chương 3, §3.4.5.3)
-- Bảng định nghĩa biến — Nghiên cứu P7 đa quốc gia (Chương 3, §3.4.5.4)
-- Bảng định nghĩa biến — Nghiên cứu P8 SIDS (Chương 3, §3.4.5.5)
-- Bảng tóm tắt phương pháp: Kế thừa và đóng góp mới (Chương 3, §3.6)
-- Bảng tổng hợp kết quả kiểm định hệ giả thuyết H1–H6, H1b, H1c (Chương 4, §4.9)
+- Bảng định nghĩa biến — Nghiên cứu P3 Việt Nam (Chương 3, Mục 3.4.5.1)
+- Bảng định nghĩa biến — Nghiên cứu P4 Singapore (Chương 3, Mục 3.4.5.2)
+- Bảng định nghĩa biến — Nghiên cứu P5 Trung Quốc (Chương 3, Mục 3.4.5.3)
+- Bảng định nghĩa biến — Nghiên cứu P7 đa quốc gia (Chương 3, Mục 3.4.5.4)
+- Bảng định nghĩa biến — Nghiên cứu P8 SIDS (Chương 3, Mục 3.4.5.5)
+- Bảng tóm tắt phương pháp: Kế thừa và đóng góp mới (Chương 3, Mục 3.6)
+- Bảng tổng hợp kết quả kiểm định hệ giả thuyết H1–H6, H1b, H1c (Chương 4, Mục 4.9)
 
 ## DANH MỤC HÌNH
 
-- Hình 2.1. Khung khái niệm tích hợp đa tầng CDCM (Chương 2, §2.5)
+- Hình 2.1. Khung khái niệm tích hợp đa tầng CDCM (Chương 2, Mục 2.5)
 - Hình 4.1. Họ đường cong I–P phụ thuộc chế độ thể chế ICRV (Chương 4)
 - Các hình mô tả bổ sung (phân bố pool theo năm, cơ cấu pool, mật độ năng suất, quy mô doanh nghiệp) lưu tại `thesis/figures/`.
 

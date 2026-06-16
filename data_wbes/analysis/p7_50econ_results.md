@@ -40,9 +40,9 @@ Tương tác chế độ-yếu: FSTS×Weak = −0,523 (p=,087) — độ dốc n
 ## C. Điều tiết TCI / DAI (toàn mẫu)
 
 - TCI: hiệu ứng chính **+0,141*** (p<,001)**; tương tác FSTS×TCI, FSTS²×TCI không ý nghĩa
-  → TCI **nâng mặt bằng**, không uốn đường cong (giữ kết luận cũ).
+ đến TCI **nâng mặt bằng**, không uốn đường cong (giữ kết luận cũ).
 - DAI: hiệu ứng chính **+0,201*** (p<,001)**; FSTS×DAI −0,271 (p=,149), FSTS²×DAI +0,252 (p=,367)
-  → DAI nâng mặt bằng; chiều nén đường cong cùng hướng nhưng **không ý nghĩa** trên 50 nền
+ đến DAI nâng mặt bằng; chiều nén đường cong cùng hướng nhưng **không ý nghĩa** trên 50 nền
   (mềm hơn kết luận vintage).
 
 ## D. FIP (SIDS) — lưu ý spec

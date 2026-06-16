@@ -18,7 +18,7 @@ Trong literature, mức độ quốc tế hóa được vận hành hóa bằng 
 
 Hiệu quả hoạt động doanh nghiệp (firm performance) là một khái niệm đa chiều không có một định nghĩa hoặc thước đo thống nhất trong literature. Combs et al. (2005) và Richard et al. (2009) phân biệt ba nhóm thước đo chính: (i) thước đo dựa trên kế toán (accounting-based), bao gồm tỷ suất sinh lời trên tổng tài sản (ROA), tỷ suất sinh lời trên vốn chủ sở hữu (ROE), và tỷ suất sinh lời trên doanh thu (ROS); (ii) thước đo dựa trên thị trường tài chính (market-based), bao gồm Tobin's Q và tổng lợi nhuận cổ đông; và (iii) thước đo dựa trên năng suất và tăng trưởng (productivity-based), bao gồm năng suất lao động (labor productivity) và tăng trưởng doanh thu.
 
-Trong bối cảnh nghiên cứu sử dụng dữ liệu WBES — vốn không cung cấp thông tin về giá cổ phiếu hay giá trị thị trường — thước đo năng suất lao động là lựa chọn phổ biến nhất và phù hợp nhất về mặt kỹ thuật. Năng suất lao động được tính bằng logarithm tự nhiên của tỷ số doanh thu hàng năm trên số lao động toàn thời gian (ln(doanh thu/lao động)), cho phép so sánh chuẩn hóa giữa các doanh nghiệp thuộc các quốc gia, ngành nghề và quy mô khác nhau (nghiên cứu thành phần P1). Luận án sử dụng thước đo này làm biến phụ thuộc chính, với ROS, tăng trưởng doanh thu, tăng trưởng việc làm và ln(doanh thu) được sử dụng như các thước đo robustness để kiểm tra tính nhất quán của kết quả (xem Chương 3, §3.5).
+Trong bối cảnh nghiên cứu sử dụng dữ liệu WBES — vốn không cung cấp thông tin về giá cổ phiếu hay giá trị thị trường — thước đo năng suất lao động là lựa chọn phổ biến nhất và phù hợp nhất về mặt kỹ thuật. Năng suất lao động được tính bằng logarithm tự nhiên của tỷ số doanh thu hàng năm trên số lao động toàn thời gian (ln(doanh thu/lao động)), cho phép so sánh chuẩn hóa giữa các doanh nghiệp thuộc các quốc gia, ngành nghề và quy mô khác nhau (nghiên cứu thành phần P1). Luận án sử dụng thước đo này làm biến phụ thuộc chính, với ROS, tăng trưởng doanh thu, tăng trưởng việc làm và ln(doanh thu) được sử dụng như các thước đo robustness để kiểm tra tính nhất quán của kết quả (xem Chương 3, Mục 3.5).
 
 Cần nhấn mạnh rằng việc chọn thước đo hiệu quả không chỉ là quyết định kỹ thuật, mà còn phản ánh quan niệm lý thuyết về hiệu quả. Trong bối cảnh quốc tế hóa ở các nền kinh tế đang phát triển, năng suất lao động phản ánh trực tiếp khả năng chuyển hóa nguồn lực đầu vào thành kết quả đầu ra, qua đó thể hiện năng lực cạnh tranh thực chất của doanh nghiệp, khác với ROA vốn bị ảnh hưởng bởi cấu trúc tài sản và hệ thống kế toán đặc thù của từng quốc gia.
 
@@ -199,13 +199,13 @@ Luận án được phát triển gắn với một chuỗi nghiên cứu thành
 
 | Nghiên cứu thành phần | Bối cảnh (nhóm ICRV) | Trình bày tại | Giả thuyết kiểm định |
 |---|---|---|---|
-| P1–P2 (meta baseline, ICBEF 2024) | Toàn cầu/châu Á | §2.3.2; §4.2 | Nền tảng cho H1, H5 |
-| P3 — Việt Nam | Lower-middle transition (Nhóm IV) | §4.5 | H1, H2, H3 |
-| P4 — Singapore | Advanced đổi mới (Nhóm I) | §4.3 | H1, H3 |
-| P5 — Trung Quốc 2012–2024 | Upper-middle (Nhóm III) | §4.4 | H1, H6 |
-| P6 — Meta-analysis ba tầng | Toàn bộ literature | §4.2 | H1, H5 |
-| P7 — Capstone đa quốc gia (49 nền kinh tế) | Toàn bộ gradient ICRV | §4.6 | H1, H2, H3, H4, H5 (và tương tác tổng hợp ba chiều) |
-| P8 — Pacific SIDS (mẫu chính 7 nước, N=959; kiểm định độ vững mở rộng 9 nước Nhóm VI) | SIDS (Nhóm VI) | §4.7 | H1b (FIP) |
+| P1–P2 (meta baseline, ICBEF 2024) | Toàn cầu/châu Á | Mục 2.3.2; Mục 4.2 | Nền tảng cho H1, H5 |
+| P3 — Việt Nam | Lower-middle transition (Nhóm IV) | Mục 4.5 | H1, H2, H3 |
+| P4 — Singapore | Advanced đổi mới (Nhóm I) | Mục 4.3 | H1, H3 |
+| P5 — Trung Quốc 2012–2024 | Upper-middle (Nhóm III) | Mục 4.4 | H1, H6 |
+| P6 — Meta-analysis ba tầng | Toàn bộ literature | Mục 4.2 | H1, H5 |
+| P7 — Capstone đa quốc gia (49 nền kinh tế) | Toàn bộ gradient ICRV | Mục 4.6 | H1, H2, H3, H4, H5 (và tương tác tổng hợp ba chiều) |
+| P8 — Pacific SIDS (mẫu chính 7 nước, N=959; kiểm định độ vững mở rộng 9 nước Nhóm VI) | SIDS (Nhóm VI) | Mục 4.7 | H1b (FIP) |
 
 *Ghi chú về ký hiệu: Hệ giả thuyết của luận án gồm sáu giả thuyết trọng tâm H1–H6 và một giả thuyết điều kiện biên H1b. Trong các mô hình thực nghiệm chi tiết ở Chương 3, một số nghiên cứu thành phần sử dụng các giả thuyết con (sub-hypotheses) lồng dưới hệ giả thuyết chính của luận án, cụ thể: H2b (kiểm định tính ổn định xuyên sóng của năng lực điều tiết — thuộc P5, lồng dưới H2/H6); H4a–H4b (kiểm định điều tiết độ cong theo năng lực — thuộc P5, lồng dưới H2); tương tác tổng hợp ba chiều của P7 (lồng dưới H3 và H5); E1a–E1b (kiểm định định hướng gradient ICRV — lồng dưới H5); và H1c (kiểm định tan biến ngưỡng chữ U ngược theo thời gian tại Ấn Độ — thuộc P9, lồng dưới H1 và H6). Các ký hiệu con này phục vụ độ chính xác kỹ thuật của từng mô hình và không làm thay đổi hệ giả thuyết trọng tâm H1–H6/H1b của luận án.*
 

@@ -214,7 +214,7 @@ Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade Universi
 | **# countries** | 32 | Multi-EMNE | Multi | 1 (US) | 1 (Colombia) | 1 (Japan) | 1 (VN) | **50 (incl. Japan)** |
 | **Pacific SIDS coverage** | Không | Không | Không | Không | Không | Không | Không | **8 Pacific countries** |
 | **TCI/DAI separation** | n/a | n/a | n/a | Digital capability composite | n/a | n/a | n/a | **Yes — separated (Bharadwaj 2013; Verhoef 2021; Coltman 2008)** |
-| **Institutional gradient** | Yếu | Yếu | Yếu | Không | Một biến | Không | Không | **Full ICRV Regime I→V (6-regime CD2; 5-regime P3/P6)** |
+| **Institutional gradient** | Yếu | Yếu | Yếu | Không | Một biến | Không | Không | **Full ICRV Regime I–V (6-regime CD2; 5-regime P3/P6)** |
 | **Boundary condition test** | Không | Không | Không | Không | Không | Không | Không | **Forced Penalty** |
 | **Multi-method** | Single (meta) | Single (meta) | Single (meta) | Single | Single | Single (panel) | Single | **Mixed (meta + empirical + boundary)** |
 | **Time span** | 40 years | 23 years | 32 years | 21 years | 6 years | 11 years | 5–9 years | **44 years (1982–2026)** |
@@ -262,7 +262,7 @@ Potential **2027 graduation timeline**:
 
 ## 8.1 GVHD có thể hỏi: "Why so many countries (~50)?"
 
-**Answer**: Tính mới của luận án nằm ở chứng minh **inverted-U có boundary conditions**. Mỗi institutional regime cần ít nhất 3 countries để statistical power (Marano 2016 chuẩn: 5+ countries per regime). 50 economies (gồm Nhật Bản) chia 6 regimes (ICRV I–VI) → ~8 economies/regime trung bình — đủ statistical power.
+**Answer**: Tính mới của luận án nằm ở chứng minh **inverted-U có boundary conditions**. Mỗi institutional regime cần ít nhất 3 countries để statistical power (Marano 2016 chuẩn: 5+ countries per regime). 50 economies (gồm Nhật Bản) chia 6 regimes (ICRV I–VI) đến ~8 economies/regime trung bình — đủ statistical power.
 
 ## 8.2 GVHD có thể hỏi: "Vì sao không dùng panel?"
 
@@ -270,7 +270,7 @@ Potential **2027 graduation timeline**:
 
 ## 8.3 GVHD có thể hỏi: "Vì sao tách bạch TCI và DAI thay vì gộp một composite digital duy nhất?"
 
-**Answer**: Phân tách dựa trên 5 nguồn IB chính thống: (i) Bharadwaj et al. (2013, MIS Quarterly) phân biệt IT capability với digital business strategy; (ii) Verhoef et al. (2021, JBR) phân tầng 3 cấp digitization → digitalization → digital transformation; (iii) Cohen & Levinthal (1990, ASQ) và Lall (1992, World Development) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác bản chất với digital adoption ở giao diện ngoại tại; (iv) Bhandari et al. (2023, IBR) áp dụng resource-orchestration logic cho I→P relationship cho thấy các construct số có nomological nets khác nhau; (v) Coltman et al. (2008, JBR) đưa 4 tiêu chí cho phép TCI và DAI là hai formative composite độc lập. Do đó, NCS dùng TCI và DAI riêng biệt (cleaner construct) thay vì gộp một composite duy nhất.
+**Answer**: Phân tách dựa trên 5 nguồn IB chính thống: (i) Bharadwaj et al. (2013, MIS Quarterly) phân biệt IT capability với digital business strategy; (ii) Verhoef et al. (2021, JBR) phân tầng 3 cấp digitization đến digitalization đến digital transformation; (iii) Cohen & Levinthal (1990, ASQ) và Lall (1992, World Development) coi technological capability là chiều sâu năng lực nội tại (absorptive capacity), khác bản chất với digital adoption ở giao diện ngoại tại; (iv) Bhandari et al. (2023, IBR) áp dụng resource-orchestration logic cho I–P relationship cho thấy các construct số có nomological nets khác nhau; (v) Coltman et al. (2008, JBR) đưa 4 tiêu chí cho phép TCI và DAI là hai formative composite độc lập. Do đó, NCS dùng TCI và DAI riêng biệt (cleaner construct) thay vì gộp một composite duy nhất.
 
 ## 8.4 GVHD có thể hỏi: "P8 Pacific không phải Asia, sao trong dissertation?"
 

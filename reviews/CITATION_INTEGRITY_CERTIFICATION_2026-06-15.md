@@ -28,7 +28,7 @@ the documented included primary study (Pouresmaeili et al. 2018, in
 `p6/results/forest_data.csv`), and P5's intentional blind-review self-citation
 masks ("Author Citation, 2025/2026", entries present).
 
-¹ CĐ1 exception (flagged, not fabricated): **CIEM (2023)** is cited in §2.3.7.3.
+¹ CĐ1 exception (flagged, not fabricated): **CIEM (2023)** is cited in Section 2.3.7.3.
 CIEM (Vietnam's Central Institute for Economic Management) is a real source, but
 the exact 2023 publication could not be verified — the author should supply the
 full reference.
@@ -45,14 +45,14 @@ masks for the candidate's own companion papers (entries present in the list).
 
 - **Thesis Ch.2:** Vernon (1966), Hymer (1976), Caves (1971), Buckley & Casson
   (1976), Pisani et al. (2020) added to the reference list; integrated as
-  citations in §2.1.1/§2.3.1/§2.3.2 together with the already-listed Ruigrok &
+  citations in Section 2.1.1/Section 2.3.1/Section 2.3.2 together with the already-listed Ruigrok &
   Wagner (2003), Contractor (2012), Arbelo et al. (2024) (orphans resolved).
 - **CĐ1:** completed 7 broken citations (Aguinis et al. 2019, Arte & Larimo 2022,
   Barney 1991, Hambrick & Mason 1984, La Porta & Shleifer 2008 + 2014, Scott 1995).
 - **CĐ2:** completed 6 broken citations (Borenstein et al. 2009, Cronbach 1951,
   Dubin 1978, Sutton & Higgins 2008, Whetten 1989, Wolfolds & Siegel 2019); added
   the core I–P canon (Vernon, Hymer, Caves, Buckley & Casson, Dunning 1988,
-  Ruigrok & Wagner 2003, Pisani et al. 2020) cited in §2.3.1; and resolved 6
+  Ruigrok & Wagner 2003, Pisani et al. 2020) cited in Section 2.3.1; and resolved 6
   orphans by citing them at accurate locations (Bharadwaj et al. 2013, Bhandari
   et al. 2023, Chen & Tan 2012, Xiao et al. 2013, Melitz 2003, Nielsen & Nielsen
   2011).

@@ -31,10 +31,10 @@
 - [ ] **Title:** as above
 - [ ] **Abstract:** ~200 words (from manuscript)
 - [ ] **Keywords** (5–6): internationalisation–performance; export intensity; threshold stability; technological capability; digital adoption; Chinese private firms; World Bank Enterprise Survey
-- [ ] Upload `01_manuscript_blinded.docx` → Manuscript
-- [ ] Upload `02_title_page.docx` → Title Page / Author Information
-- [ ] Upload `03_cover_letter.docx` → Cover Letter
-- [ ] Upload figures 1–4 → Figure files
+- [ ] Upload `01_manuscript_blinded.docx` to Manuscript
+- [ ] Upload `02_title_page.docx` to Title Page / Author Information
+- [ ] Upload `03_cover_letter.docx` to Cover Letter
+- [ ] Upload figures 1–4 to Figure files
 - [ ] Confirm corresponding author (Phan Anh Tú)
 - [ ] Confirm no conflict of interest
 - [ ] Confirm data availability (WBES China 2012, 2024)

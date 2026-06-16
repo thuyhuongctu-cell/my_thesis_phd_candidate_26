@@ -8,16 +8,16 @@
 
 | Paper | Số đầu bài (bản thảo) | File nguồn (đã commit) | Giá trị nguồn | Khớp |
 |---|---|---|---|:--:|
-| **P3** Việt Nam | TP band **39–46%** (3 wave, 14 năm) | `p3/replication/coefs_main_models.csv` | per-wave M2 (vd VNM2009: b1=1.0454, b2=−1.7738; VNM2015: 1.1587/−2.115) | ✅ |
-| **P4** Singapore | TP ≈ **88.6%**, CI rộng [53%, 253%] | `p4/replication/coefs_main_models.csv` | M2: FSTSc=2.652, FSTSc2=−1.705 (FSTSc2 p=.068) | ✅ |
-| **P5** Trung Quốc | TP = **49.4%** | `p5/replication/results/results_coefs.csv` | M2-2012: FSTS=2.0654, FSTSsq=−2.0919 → −b1/(2b2)=0.4937 | ✅ exact |
-| **P7** Capstone | TP ≈ **36%** (49 nền KT, N=84,910) | `p7/replication/results/p7_summary_focal.csv` | M2: tp=36.4 (b1=1.3161, b2=−1.8102); country-FE/cap models cụm 32.7–40.0% | ✅ exact |
-| **P8** Pacific SIDS | β(FSTS)=**−1.339**, N=209; full N=959 | tái chạy `run_p8_7pacific.py` từ `data_wbes/p7/p7_pooled_clean.csv` | M1=−1.339253/N=209; full N=959/exporter 13.8% | ✅ exact |
-| **P9** Ấn Độ | TP **61.8%**(2014)→**40.7%**(2022)→**tan rã**(2025) | `p9_india/replication/results/p9_india_turning_points.csv` | 2014=61.81, 2022=40.72, 2025=−111.9 (CI khổng lồ → dissolution) | ✅ exact |
+| **P3** Việt Nam | TP band **39–46%** (3 wave, 14 năm) | `p3/replication/coefs_main_models.csv` | per-wave M2 (vd VNM2009: b1=1.0454, b2=−1.7738; VNM2015: 1.1587/−2.115) | Có |
+| **P4** Singapore | TP ≈ **88.6%**, CI rộng [53%, 253%] | `p4/replication/coefs_main_models.csv` | M2: FSTSc=2.652, FSTSc2=−1.705 (FSTSc2 p=.068) | Có |
+| **P5** Trung Quốc | TP = **49.4%** | `p5/replication/results/results_coefs.csv` | M2-2012: FSTS=2.0654, FSTSsq=−2.0919 đến −b1/(2b2)=0.4937 | Có exact |
+| **P7** Capstone | TP ≈ **36%** (49 nền KT, N=84,910) | `p7/replication/results/p7_summary_focal.csv` | M2: tp=36.4 (b1=1.3161, b2=−1.8102); country-FE/cap models cụm 32.7–40.0% | Có exact |
+| **P8** Pacific SIDS | β(FSTS)=**−1.339**, N=209; full N=959 | tái chạy `run_p8_7pacific.py` từ `data_wbes/p7/p7_pooled_clean.csv` | M1=−1.339253/N=209; full N=959/exporter 13.8% | Có exact |
+| **P9** Ấn Độ | TP **61.8%**(2014) đến **40.7%**(2022) đến **tan rã**(2025) | `p9_india/replication/results/p9_india_turning_points.csv` | 2014=61.81, 2022=40.72, 2025=−111.9 (CI khổng lồ đến dissolution) | Có exact |
 
 ## Ghi chú lệch pipeline (minh bạch, không phải lỗi)
-- **P4:** `p4_R_turning_points.csv` (spec thay thế, b1=3.642/b2=−2.630) cho TP=76.4%; bản thảo **không** dùng số này, mà dùng M2 trong `coefs_main_models.csv` → 88.6% kèm CI rộng và cảnh báo "sparsely populated upper region".
-- **P5:** `p5_R_turning_points.csv` cho 47.6% (pooled); bản thảo dùng `results_coefs.csv` → 49.4%. Cả hai cùng vùng ~48%, kết luận inverted-U không đổi.
+- **P4:** `p4_R_turning_points.csv` (spec thay thế, b1=3.642/b2=−2.630) cho TP=76.4%; bản thảo **không** dùng số này, mà dùng M2 trong `coefs_main_models.csv` đến 88.6% kèm CI rộng và cảnh báo "sparsely populated upper region".
+- **P5:** `p5_R_turning_points.csv` cho 47.6% (pooled); bản thảo dùng `results_coefs.csv` đến 49.4%. Cả hai cùng vùng ~48%, kết luận inverted-U không đổi.
 - **P3:** `p3_R_turning_points.csv` chỉ có pooled M2=34.5%; bản thảo báo cáo band per-wave 39–46% từ `coefs_main_models.csv`.
 - **P8:** bivariate R canonical −0.864 (bản thảo) vs Python reimpl −0.919 — chỉ 1 model phụ; cả hai âm, p≈.05.
 

@@ -9,9 +9,9 @@ The Library-First Engineering (LFE) protocol V2 orchestrates AI agents into four
 - **Primary Toolbelt**: `view_file`, `list_dir`, `grep_search`, `read_url_content`, `write_to_file` (within `.docs/**`).
 - **Constraint**: **ZERO CODE EDITS.** Strictly forbidden from using code editing tools on any file in `src/**`.
 - **Sub-Pipeline Skills** (execute in this order):
-  1. `/lfe-grill-with-docs` → `.plans/01_grill_summary.md`
-  2. `/lfe-to-prd` → `.plans/02_prd.md`
-  3. `/lfe-to-issues` → `.plans/03_slices.md` (🛑 Human approves slices)
+  1. `/lfe-grill-with-docs` to `.plans/01_grill_summary.md`
+  2. `/lfe-to-prd` to `.plans/02_prd.md`
+  3. `/lfe-to-issues` to `.plans/03_slices.md` (🛑 Human approves slices)
   4. Draft `.plans/active_plan.md` (🛑 Human approves plan)
 - **Output**: Coordination files in `.plans/` + explicit updates to `.docs/domain/`, `.docs/architecture/`, and `CONTEXT.md` to prevent Documentation Drift before coding starts.
 - **Handover**: Must wait for Human Approval of the plan before triggering the Builder.
@@ -22,8 +22,8 @@ The Library-First Engineering (LFE) protocol V2 orchestrates AI agents into four
 - **Primary Toolbelt**: `replace_file_content`, `multi_replace_file_content`, `write_to_file` (within `src/**`).
 - **Constraint**: Must adhere strictly to the logic and architecture defined in the `active_plan.md`. Cannot change project structure without escalating back to the Architect.
 - **Sub-Pipeline Skills** (execute in this order):
-  1. `/lfe-builder` → Production code in `src/**`
-  2. `/lfe-tdd` → `.plans/tdd_report.md` (mandatory quality pass)
+  1. `/lfe-builder` to Production code in `src/**`
+  2. `/lfe-tdd` to `.plans/tdd_report.md` (mandatory quality pass)
 - **Output**: Production code + TDD report.
 - **Handover**: Triggers the Inspector once the slice is implemented and TDD report is written.
 
@@ -32,9 +32,9 @@ The Library-First Engineering (LFE) protocol V2 orchestrates AI agents into four
 - **Primary Toolbelt**: `run_command` (tests), `view_file` (baselines), `write_to_file` (tests).
 - **Constraint**: Cannot modify production code. If a bug is found, the Inspector documents it and sends it back to the Builder via `/lfe-diagnose`.
 - **Sub-Pipeline Skills** (execute in this order):
-  1. `/lfe-zoom-out` → System context map for unfamiliar code
-  2. `/lfe-inspector` → `.plans/inspection_report.md`
-  3. `/lfe-diagnose` → (conditional: only if verification fails)
+  1. `/lfe-zoom-out` to System context map for unfamiliar code
+  2. `/lfe-inspector` to `.plans/inspection_report.md`
+  3. `/lfe-diagnose` to (conditional: only if verification fails)
 - **Output**: Inspection report + test results.
 - **Handover**: Triggers the Archivist once verification passes.
 
@@ -43,9 +43,9 @@ The Library-First Engineering (LFE) protocol V2 orchestrates AI agents into four
 - **Primary Toolbelt**: `write_to_file` (docs), `replace_file_content` (CHANGELOG/ADR).
 - **Constraint**: **NO BEHAVIOR CHANGES.** The Archivist cannot modify any file in `src/**` that affects runtime logic.
 - **Sub-Pipeline Skills** (execute in this order):
-  1. `/lfe-archivist` → Updated docs, CHANGELOG, pipeline_status
-  2. Slice loop check → More slices? Loop to Architect Step 4 : proceed
-  3. Cleanup → Archive/delete coordination files from `.plans/`
+  1. `/lfe-archivist` to Updated docs, CHANGELOG, pipeline_status
+  2. Slice loop check to More slices? Loop to Architect Step 4 : proceed
+  3. Cleanup to Archive/delete coordination files from `.plans/`
 - **Output**: Updates to `.docs/**`, `CHANGELOG.md`, `pipeline_status.md`.
 - **Handover**: If more slices remain, loops back to Architect. If mission complete, runs cleanup and checks hygiene schedule.
 

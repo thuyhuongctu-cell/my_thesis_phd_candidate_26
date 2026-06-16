@@ -2,7 +2,7 @@
 
 > **Purpose**: Distilled voice fingerprint extracted from P3 (Vietnam), P4 (Singapore), and P5 (China)
 > English manuscripts. Use this file before drafting any new section to match the author's established
-> register. Read alongside `00_author_voice_guide.md`, which captures the MSc→PhD elevation rules.
+> register. Read alongside `00_author_voice_guide.md`, which captures the MSc to PhD elevation rules.
 >
 > **Extracted from**: `p3/p3_vietnam_en_clean.md`, `p4/p4_singapore_en_clean.md`, `p5/p5_china_en_clean.md`
 > **Version**: 1.0 (2026-05-14)
@@ -242,7 +242,7 @@ concluded, (b) why the existing robustness check is insufficient, (c) what speci
 - **Right**: Report *what is notable quantitatively* — direction vs. prior expectation, magnitude relative to mean, turning-point location relative to meta-analytic baseline.
 
 ### 8. Contractions
-Never used. "don't" → "do not"; "can't" → "cannot"; "it's" → "it is"; "we've" → "we have."
+Never used. "don't" to "do not"; "can't" to "cannot"; "it's" to "it is"; "we've" to "we have."
 
 ### 9. Topic-first (generic) opening sentences
 - **Wrong**: "Internationalization is an important strategy for firm performance..."

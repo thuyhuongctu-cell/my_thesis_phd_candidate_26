@@ -5,8 +5,8 @@
 > Survey micro-data and checked against the locked canonical values:
 >
 > ```bash
-> python3 scripts/verify_all.py          # full: re-estimates P6/P7/P10/P11 → 14/14 PASS
-> python3 scripts/verify_all.py --fast   # P6 meta only (~5s) → 6/6 PASS
+> python3 scripts/verify_all.py # full: re-estimates P6/P7/P10/P11 to 14/14 PASS
+> python3 scripts/verify_all.py --fast # P6 meta only (~5s) to 6/6 PASS
 > ```
 >
 > A clean PASS means the numbers in the manuscripts are not asserted — they are
@@ -30,7 +30,7 @@ not be reproduced, the mismatch was reported rather than invented (see, e.g.,
 retained and labelled, not silently overwritten). The single source of truth for
 all sample/turning-point figures is `data_wbes/analysis/CANONICAL_NUMBERS.md`.
 
-## 2. Claim → code map (what reproduces what)
+## 2. Claim to code map (what reproduces what)
 
 | Claim (where it appears) | Script | Locked value | Verified by |
 |---|---|---|---|
@@ -41,8 +41,8 @@ all sample/turning-point figures is `data_wbes/analysis/CANONICAL_NUMBERS.md`.
 | P7 M5 (+ controls) | `scripts/p7_run_50econ.py` | N = 79,080, TP = 43.6% | verify_all |
 | P7 full ladder M1–M8 + per-ICRV | `scripts/p7_full_ladder.py` | three-zone; DAI level-shifter | results file |
 | P10 Japan headline | `p10_japan/replication/p10_japan_models.py` | FSTS linear +0.671*** | verify_all |
-| P11 JED digital divide + premium | `jed_ai_digital/replication/jed_digital_divide.py` | divide 69→41%; premium +0.241*** | verify_all |
-| P11 robustness + saturation | `jed_ai_digital/replication/jed_robustness.py` | +0.321→+0.179; r=−0.13 (NS) | results file |
+| P11 JED digital divide + premium | `jed_ai_digital/replication/jed_digital_divide.py` | divide 69 to 41%; premium +0.241*** | verify_all |
+| P11 robustness + saturation | `jed_ai_digital/replication/jed_robustness.py` | +0.321 to +0.179; r=−0.13 (NS) | results file |
 | CĐ1 descriptive frame (50 econ) | `scripts/cd1_descriptives_pipeline.py` | per-ICRV descriptives | results file |
 | Reference DOI integrity | `scripts/verify_dois.py` | Crossref check (run networked) | author, networked |
 | Reference coverage audit | `scripts/reference_audit.py` | orphan/missing report | committed report |
@@ -114,4 +114,4 @@ above, which is what makes AI assistance verifiable rather than load-bearing.
 ---
 
 *Maintained alongside `data_wbes/analysis/CANONICAL_NUMBERS.md` and the per-script
-`*_results.md` files. Last verified: `python3 scripts/verify_all.py` → 14/14 PASS.*
+`*_results.md` files. Last verified: `python3 scripts/verify_all.py` to 14/14 PASS.*

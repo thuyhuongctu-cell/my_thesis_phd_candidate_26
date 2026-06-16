@@ -7,7 +7,7 @@
 **Purpose:** We conduct a three-level meta-analytic regression analysis
 (MARA) examining whether country-level digital adoption (cDAI),
 institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL)
-phase moderate the internationalization–performance (I→P) relationship 
+phase moderate the internationalization–performance (I to P) relationship 
 three theoretically motivated moderators that prior meta-analyses have
 not examined. **Design/methodology/approach:** A systematic search
 following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026)
@@ -28,13 +28,13 @@ and *Q*\_M = 0.62, *p* = .734, respectively) in the current *k* = 238
 sample. Substantial publication bias is detected: trim-and-fill imputes
 *k* = 57 missing studies, reducing the adjusted pooled effect to *r* =
 0.035 (95% CI \[0.018, 0.051\]), positive but attenuated.
-**Originality/value:** This is the first three-level MARA of I→P drawing
+**Originality/value:** This is the first three-level MARA of I to P drawing
 on *k* = 238 studies from 49 economies globally, and the first to
 formally test ICRV, cDAI, and DPL phase as moderators. The ICRV
 between-regime Q_M test confirms H1 (Q_M = 17.35, *p* = .002), while the
 directional gradient (E1a/E1b) and the cDAI and DPL hypotheses remain
 unconfirmed, a finding that, combined with substantial publication
-bias, reframes the heterogeneity puzzle: unexplained variance in I→P may
+bias, reframes the heterogeneity puzzle: unexplained variance in I to P may
 reflect publication-side selection more than institutional or digital
 contingencies, calling for pre-registered replication with larger
 between-regime samples.
@@ -60,7 +60,7 @@ interconnected global economy (Hitt et al., 2006; Lu & Beamish, 2004).
 For scholars, however, the record remains stubbornly inconclusive.
 
 The relationship between a firm's degree of internationalization and its
-performance (the "I→P relationship") is the most meta-analyzed question
+performance (the "I to P relationship") is the most meta-analyzed question
 in international business (IB). Over four decades and six major
 meta-analyses (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al.,
 2016; Schwens et al., 2018; Wu et al., 2022; Arte & Larimo, 2022), no
@@ -80,23 +80,23 @@ prior meta-analyses, motivate the present extension:
 proposed as a contextual amplifier of firm-level competitive advantages
 (Stallkamp & Schotter, 2021; Verhoef et al., 2021), yet no meta-analysis
 has tested whether the national digital infrastructure environment
-moderates the I→P link.
+moderates the I to P link.
 
 **Gap 2, ICRV 5-regime.** Marano et al. (2016) established that
-home-country institutions moderate I→P, but applied a coarse six-group
+home-country institutions moderate I to P, but applied a coarse six-group
 global taxonomy. The global study corpus spans the full institutional
 spectrum, from Singapore (World Governance Indicators Rule of Law score
 +1.84) to frontier economies such as Pakistan (WGI −0.55) and Iran (WGI
 −0.74; World Bank, 2023). An ICRV 5-regime classification capable of
 resolving this heterogeneity has not been tested meta-analytically on a
-globally representative I→P corpus.
+globally representative I to P corpus.
 
 **Gap 3, DPL phase.** Brynjolfsson et al. (2021) identified 2009 as a
 productivity inflection point in the digital era (the "dynamo analogy"
 for AI: David, 1990). Studies examining data from before, spanning, or
-after this threshold should yield systematically different I→P effect
+after this threshold should yield systematically different I to P effect
 sizes if digital platforms reshape internationalization economics. This
-temporal moderator has never been systematically coded in I→P
+temporal moderator has never been systematically coded in I to P
 meta-analyses.
 
 This paper addresses all three gaps through a fresh systematic search
@@ -106,13 +106,13 @@ random-effects models allow.
 
 **Contributions.** We make three methodological and three theoretical
 contributions: *(Methodological)*: (1) First three-level MARA for the
-I→P literature; (2) first PRISMA-2020-compliant systematic search with
+I to P literature; (2) first PRISMA-2020-compliant systematic search with
 OSF registration for this topic; (3) first application of
-between-study *vs.* within-study heterogeneity decomposition to I→P.
+between-study *vs.* within-study heterogeneity decomposition to I to P.
 *(Theoretical)*: (4) First meta-analytic test of an ICRV 5-regime
-framework applied to a globally representative I→P corpus (*k* = 238, 49
+framework applied to a globally representative I to P corpus (*k* = 238, 49
 economies); (5) first formal test of cDAI as a national-level
-digital-infrastructure moderator of I→P; (6) first test of DPL phase as
+digital-infrastructure moderator of I to P; (6) first test of DPL phase as
 a temporal moderator using three-level MARA. The non-confirmation of
 E1a/E1b, H2, and H3, and the anomalous ICRV Frontier pattern, are
 themselves informative findings that bound the conditions under which
@@ -120,7 +120,7 @@ these moderators could operate.
 
 **Key findings preview.** The baseline pooled effect (*r* = 0.074, *k* =
 238, *K* = 288) replicates and extends the ICBEF 2025 finding (*r* =
-0.07, *k* = 113), confirming a small but consistent positive I→P
+0.07, *k* = 113), confirming a small but consistent positive I to P
 relationship globally. H1 (between-regime Q_M test) is confirmed (*Q*\_M
 = 17.35, *p* = .002); however, the directional Exploratory Propositions
 E1a (Advanced largest) and E1b (Frontier smallest) are not statistically
@@ -151,7 +151,7 @@ research.
 
 ### 2.1 Foundation theories
 
-Five perspectives connect the three new moderators to established I→P predictions. The **resource-based view** (Barney, 1991; Wernerfelt, 1984) implies that firms with stronger home-country resource endowments, including access to national digital infrastructure, earn higher returns from international expansion; a richer national digital environment (cDAI) lowers the per-unit cost of deploying firm capabilities abroad. **Institutional theory** (North, 1990; Scott, 1995) treats institutional quality, rule of law, contract enforcement, IP protection, as the determinant of cross-border coordination costs, yielding the prediction that the I→P effect declines as institutional quality falls. **Organizational learning theory** (Johanson & Vahlne, 1977, 2009) holds that digital platforms compress the experiential learning curve once they reach maturity (the DPL Follow phase). **Coordination cost theory** (Hitt et al., 1997; Lu & Beamish, 2004) explains the modal inverted-U; mature national digital infrastructure attenuates the right-side decline through communication compression, transaction-cost reduction, and information-asymmetry compression. Finally, the **foundational digital adoption framework** (Verhoef et al., 2021; Stallkamp & Schotter, 2021) distinguishes Tier-1/Tier-2 adoption, which functions as shared platform infrastructure, from proprietary capability; aggregated to the country level, it defines cDAI.
+Five perspectives connect the three new moderators to established I to P predictions. The **resource-based view** (Barney, 1991; Wernerfelt, 1984) implies that firms with stronger home-country resource endowments, including access to national digital infrastructure, earn higher returns from international expansion; a richer national digital environment (cDAI) lowers the per-unit cost of deploying firm capabilities abroad. **Institutional theory** (North, 1990; Scott, 1995) treats institutional quality, rule of law, contract enforcement, IP protection, as the determinant of cross-border coordination costs, yielding the prediction that the I to P effect declines as institutional quality falls. **Organizational learning theory** (Johanson & Vahlne, 1977, 2009) holds that digital platforms compress the experiential learning curve once they reach maturity (the DPL Follow phase). **Coordination cost theory** (Hitt et al., 1997; Lu & Beamish, 2004) explains the modal inverted-U; mature national digital infrastructure attenuates the right-side decline through communication compression, transaction-cost reduction, and information-asymmetry compression. Finally, the **foundational digital adoption framework** (Verhoef et al., 2021; Stallkamp & Schotter, 2021) distinguishes Tier-1/Tier-2 adoption, which functions as shared platform infrastructure, from proprietary capability; aggregated to the country level, it defines cDAI.
 
 Throughout, cDAI (country-level) is analytically distinct from firm-level digital adoption (DAI) and technological capability (TCI), which the companion primary studies (P3–P8) treat as separate within-study constructs. At meta-analytic resolution only cDAI is extractable as a study-level moderator; the claims below are between-study moderation claims at the country level, not within-firm capability-bundle claims.
 
@@ -159,7 +159,7 @@ Throughout, cDAI (country-level) is analytically distinct from firm-level digita
 
 We propose *Capability–Institution Mismatch Theory* (CIMT): the productivity return to international expansion depends on the degree to which home-country institutions let firm capabilities be deployed productively abroad. Three mechanisms operate. A *rent-protection* mechanism (Kogut & Zander, 1993; Zaheer, 1995): strong IP protection and contract enforcement (ICRV Regime I) let firms retain rents across markets, raising the average effect. A *liability-of-foreignness attenuation* mechanism (Peng et al., 2008; Zaheer, 1995): transparent regulation and low corruption reduce LOF, enlarging captured gains. An *institutional-void amplification* mechanism (Khanna & Palepu, 2010): as institutions weaken, substitute-governance costs accumulate, depressing the effect toward zero. CIMT therefore predicts between-regime heterogeneity, largest at the institutional frontier. Prior meta-analyses lacked a taxonomy fine enough to test this; Marano et al. (2016) used a coarse six-category scheme. The ICRV 5-regime taxonomy, anchored in World Bank WGI Rule of Law (2023) and applied to the full k = 238 corpus (Singapore WGI +1.84 to Pakistan −0.55, Iran −0.74), provides the first such test.
 
-**Hypothesis 1 (ICRV between-regime heterogeneity):** Pooled I→P effects vary systematically across ICRV regimes, with Advanced-regime studies expected to show the largest average effects (Khanna & Palepu, 2010; North, 1990; Zaheer, 1995). Formally, the between-regime Q_M test is significant (*p* < .05) and the ICRV-I point estimate exceeds those for Emerging (ICRV-III) and Mixed (MX).
+**Hypothesis 1 (ICRV between-regime heterogeneity):** Pooled I to P effects vary systematically across ICRV regimes, with Advanced-regime studies expected to show the largest average effects (Khanna & Palepu, 2010; North, 1990; Zaheer, 1995). Formally, the between-regime Q_M test is significant (*p* < .05) and the ICRV-I point estimate exceeds those for Emerging (ICRV-III) and Mixed (MX).
 
 *Exploratory Proposition E1a:* Advanced-regime (ICRV-I) studies show the largest pooled effect (direction confirmatory; magnitude not pre-specified). *Exploratory Proposition E1b:* Frontier-regime (ICRV-FR) studies show the smallest, potentially null/negative, effect; treated as exploratory because current Frontier k = 3 is below the k ≥ 10 needed for stable moderation (Valentine et al., 2010).
 
@@ -167,13 +167,13 @@ We propose *Capability–Institution Mismatch Theory* (CIMT): the productivity r
 
 The Digital Paradox Lifecycle (DPL) is a temporal moderator grounded in Brynjolfsson et al.'s (2021) productivity J-curve and David's (1990) dynamo analogy: general-purpose technologies require years of complementary investment before productivity gains materialize. Three phases characterize digital internationalization: **Precede** (data predominantly pre-2009), low digital penetration, traditional coordination-cost dynamics and the inverted-U dominate; **Span** (2005–2014), transitional and heterogeneous; **Follow** (post-2014), digital platforms reach maturity and compress coordination costs, so effects should be largest. The 2009 inflection is anchored empirically in the 2007–2009 smartphone/mobile-internet diffusion, the 2008–2011 rise of Asia-Pacific B2B e-commerce (Alibaba International, Lazada, Tokopedia), and post-2009 SME digital adoption; the Asia-Pacific region is 52% of the corpus.
 
-**Hypothesis 2 (DPL phase):** Studies on post-2014 data (Follow) show larger pooled I→P effects than pre-2009 (Precede) studies, with Span intermediate (Brynjolfsson et al., 2021; David, 1990); the between-phase Q_M test is expected significant (*p* < .05). Detection is bounded by within-phase k (below ~30 per phase the test is underpowered).
+**Hypothesis 2 (DPL phase):** Studies on post-2014 data (Follow) show larger pooled I to P effects than pre-2009 (Precede) studies, with Span intermediate (Brynjolfsson et al., 2021; David, 1990); the between-phase Q_M test is expected significant (*p* < .05). Detection is bounded by within-phase k (below ~30 per phase the test is underpowered).
 
 ### 2.4 cDAI as amplifier (H3)
 
 National digital adoption (cDAI) is an ecosystem property, broadband, electronic payments, digital identity, regulatory support, that exists independently of any firm's choice and varies between studies. It is measured on a 0–1 scale from the World Bank Digital Adoption Index (2016; Sahay et al., 2020), with the ITU Digital Development Index (rescaled) as substitute; country-year assignment follows each study's median data year. The amplification operates through the coordination-platform effect (Stallkamp & Schotter, 2021): where Tier-1/Tier-2 tools are diffused, the per-unit cost of cross-border transactions falls, especially for higher-intensity internationalizers (Bharadwaj et al., 2013; Verhoef et al., 2021). Bustamante et al. (2022) provide the closest prior cross-country evidence; we extend it meta-analytically and bound it by DPL phase.
 
-**Hypothesis 3 (cDAI amplification):** Studies from high-cDAI contexts show larger pooled I→P effects than low-cDAI studies (between-group Q_M significant, *p* < .05), operationalized as a Low/Medium/High comparison; the effect is expected to be concentrated in Follow-phase studies.
+**Hypothesis 3 (cDAI amplification):** Studies from high-cDAI contexts show larger pooled I to P effects than low-cDAI studies (between-group Q_M significant, *p* < .05), operationalized as a Low/Medium/High comparison; the effect is expected to be concentrated in Follow-phase studies.
 
 ### 2.5 Publication bias as a formal null (H4)
 
@@ -181,7 +181,7 @@ Given selective reporting in IB meta-analyses (Borenstein et al., 2021; Dickersi
 
 ### 2.6 Conceptual model
 
-*Figure 1* presents the three-level MARA with ICRV (H1), cDAI (H3), and DPL (H2) as study-level moderators of the baseline I→P pooled effect, with publication bias (H4) assessed at the synthesis level. The model nests K = 288 effects within k = 238 studies (σ²_within = 0.00878, I²₍₂₎ = 54.1%) within between-study heterogeneity (σ²_between = 0.00136, I²₍₃₎ = 8.4%); total I² = 62.4%.
+*Figure 1* presents the three-level MARA with ICRV (H1), cDAI (H3), and DPL (H2) as study-level moderators of the baseline I to P pooled effect, with publication bias (H4) assessed at the synthesis level. The model nests K = 288 effects within k = 238 studies (σ²_within = 0.00878, I²₍₂₎ = 54.1%) within between-study heterogeneity (σ²_between = 0.00136, I²₍₃₎ = 8.4%); total I² = 62.4%.
 
 ## 3. Method
 
@@ -197,7 +197,7 @@ The two authors independently applied criteria in two stages (title/abstract, th
 
 ### 3.3 Extraction and reliability
 
-Parameters (N, focal r or convertible statistic, data-year range, country/region, DOI and performance operationalization, moderator features) were extracted using a standardized form. When r was not reported, conversions were applied in precision order: r = √[t²/(t²+df)] (Cohen, 1988); r_partial = β × 0.98 (the simplified form of Peterson & Brown's (2005) estimator 0.98β + 0.05λ; identical for negative β and conservative for positive β); r = √[F/(F+df₂)] with df₁ = 1 (Rosenthal, 1994). For multiple estimates per study, distinct subsamples were coded as independent effects, and for multiple specifications on the same sample the most fully controlled model was retained. Inter-coder reliability used a three-stage design (calibration on 10 studies; independent coding of a 20% stratified subsample; PI adjudication), with Cohen's κ (target ≥ 0.70; Landis & Koch, 1977) for categorical moderators and ICC(2,1) (≥ 0.80) for continuous cDAI. Consistent with prior I→P meta-analyses (Bausch & Krist, 2007; Marano et al., 2016), no study-level risk-of-bias instrument was applied; the salient threats, publication bias, omitted-variable bias, and measurement heterogeneity, are addressed at the synthesis level.
+Parameters (N, focal r or convertible statistic, data-year range, country/region, DOI and performance operationalization, moderator features) were extracted using a standardized form. When r was not reported, conversions were applied in precision order: r = √[t²/(t²+df)] (Cohen, 1988); r_partial = β × 0.98 (the simplified form of Peterson & Brown's (2005) estimator 0.98β + 0.05λ; identical for negative β and conservative for positive β); r = √[F/(F+df₂)] with df₁ = 1 (Rosenthal, 1994). For multiple estimates per study, distinct subsamples were coded as independent effects, and for multiple specifications on the same sample the most fully controlled model was retained. Inter-coder reliability used a three-stage design (calibration on 10 studies; independent coding of a 20% stratified subsample; PI adjudication), with Cohen's κ (target ≥ 0.70; Landis & Koch, 1977) for categorical moderators and ICC(2,1) (≥ 0.80) for continuous cDAI. Consistent with prior I to P meta-analyses (Bausch & Krist, 2007; Marano et al., 2016), no study-level risk-of-bias instrument was applied; the salient threats, publication bias, omitted-variable bias, and measurement heterogeneity, are addressed at the synthesis level.
 
 ### 3.4 Moderators
 
@@ -298,7 +298,7 @@ multiple reported models. Between-study variance (Level 3, *I*²\_(3) =
 8.4%) represents country-context differences that ICRV, cDAI, and DPL
 phase were designed to explain. Total *I*² = 62.4%, indicating
 substantial heterogeneity beyond sampling error, the motivation for
-moderator analysis, though the moderator analyses in §§4.3–4.5 do not
+moderator analysis, though the moderator analyses in Section 4.3–4.5 do not
 resolve this heterogeneity significantly.
 
 ### 4.3 ICRV 5-Regime Moderation (H1)
@@ -339,11 +339,11 @@ estimate, which is dominated by one outlier study (Pouresmaeili et al.,
 differences approach significance.
 
 Group I (k=139, primarily Western MNEs and Asian advanced economies)
-shows the highest reliable I→P effect (*r̄* = 0.079), and Group III
+shows the highest reliable I to P effect (*r̄* = 0.079), and Group III
 (k=91, Emerging) shows *r̄* = 0.068, a difference of 0.011 that is
 directionally consistent with CIMT but not statistically significant
 given within-group heterogeneity. H1 (between-regime heterogeneity
-*Q*\_M significant) is confirmed, establishing that I→P effect sizes
+*Q*\_M significant) is confirmed, establishing that I to P effect sizes
 vary systematically across ICRV regimes. However, E1a's predicted
 directional ordering (Advanced \> Emerging) and E1b's predicted Frontier
 floor are not statistically confirmable at *k* = 3 Frontier. The
@@ -373,7 +373,7 @@ fail to support the predicted positive linear gradient. The cDAI × DPL
 interaction cannot be reliably estimated in the current sample given the
 non-significant main moderation. H3 is not supported: country-level
 digital adoption (cDAI, measured via World Bank DAI / ITU Digital
-Development Index) does not significantly amplify the pooled I→P effect
+Development Index) does not significantly amplify the pooled I to P effect
 in this *k* = 238 sample. A larger sample with better resolution across
 the cDAI spectrum is required to test the cDAI amplification (H3) gradient hypothesis.
 
@@ -403,7 +403,7 @@ advanced economies), or that the Digital Paradox Lifecycle inflection
 does not manifest at meta-analytic resolution with the current sample
 size. H2 is not supported.
 
-Figure 3: DPL phase moderation, pooled I→P effect by digital adoption
+Figure 3: DPL phase moderation, pooled I to P effect by digital adoption
 epoch
 
 *Figure 3.* DPL phase subgroup results. Pooled effect sizes by Precede /
@@ -413,7 +413,7 @@ and non-significant.
 ### 4.6 Publication Bias (H4)
 
 H4 **supported**: multiple indicators consistently detect publication
-bias, though the positive I→P effect survives correction.
+bias, though the positive I to P effect survives correction.
 
 **Egger's regression test** (SE as moderator): *b* = 0.487 (*SE* =
 0.251, *p* = .052), just above the conventional α = .05 threshold; this
@@ -428,7 +428,7 @@ publication bias against null or negative findings.
 **Trim-and-fill**: imputes *k* = 57 missing studies (left side);
 adjusted pooled *r̄* = 0.035 (95% CI \[0.018, 0.051\]), a conservative
 lower bound. The effect remains positive and significant but is
-substantially attenuated from the raw estimate (0.074 → 0.035).
+substantially attenuated from the raw estimate (0.074 to 0.035).
 
 **Fail-safe *N*** (Rosenthal, 1991): *N* = 44,782, far exceeding the
 criterion of 5*k* + 10 = 1,195; even under extreme publication
@@ -439,8 +439,8 @@ The trim-and-fill correction (*k* = 57 imputed, adj. *r* = 0.035) is the
 most conservative bias-corrected estimate and represents a meaningful
 reduction from the raw *r* = 0.074. Together with the substantial
 unexplained heterogeneity (*I*² = 62.4%) and non-significant moderator
-tests (§§4.3–4.5), the publication bias evidence suggests that the
-apparent average I→P effect is upwardly inflated in the published
+tests (Section 4.3–4.5), the publication bias evidence suggests that the
+apparent average I to P effect is upwardly inflated in the published
 literature. The true population effect may be closer to *r* ≈ 0.035.
 
 Figure 5: Funnel plot with trim-and-fill imputed studies
@@ -497,7 +497,7 @@ enforcement, IP protection, and low liability of foreignness (Zaheer,
 1995) allow firms to sustain productive internationalization without the
 coordination cost penalties visible in weaker environments (North, 1990;
 Peng et al., 2008). However, the magnitude is much smaller than CIMT
-predicted, and the I→III difference is not statistically significant
+predicted, and the I–III difference is not statistically significant
 (*p* = .502).
 
 **Emerging contexts (Group III, k = 91; *r̄* = 0.068):** The Emerging
@@ -513,19 +513,19 @@ Emerging environments.
 **Frontier contexts (FR, k = 3; *r̄* = 0.349):** The *k* = 3 Frontier
 estimate is driven by one outlier study (Pouresmaeili et al., 2018, *r*
 = 0.69, *n* = 226 Iranian manufacturing firms). This estimate cannot be
-interpreted as a reliable Frontier I→P effect; it instead reflects the
+interpreted as a reliable Frontier I to P effect; it instead reflects the
 near-impossibility of drawing meta-analytic conclusions when only three
-studies populate a regime cell. The actual Frontier I→P effect could be
+studies populate a regime cell. The actual Frontier I to P effect could be
 zero, positive, or negative, larger *k* is required.
 
 **Synthesis:** H1 is confirmed, the ICRV between-regime Q_M test
 (*Q*\_M = 17.35, *p* = .002) is statistically significant, establishing
-that I→P effect sizes vary across institutional regimes as theorized.
+that I to P effect sizes vary across institutional regimes as theorized.
 The Q_M significance is driven by the *k* = 3 Frontier contrast rather
 than by well-powered pairwise contrasts across the
 Advanced/Upper-middle/Emerging cells, so the directional gradient
 propositions E1a and E1b are not meta-analytically confirmed in the
-current sample. The substantiated finding is that the baseline I→P
+current sample. The substantiated finding is that the baseline I to P
 effect (*r* = 0.074) is broadly consistent across well-populated regime
 groups (I, II, III, MX), and the magnitude of the Advanced-Emerging gap
 (*r̄* = 0.079 vs. 0.068) does not reach significance, a result that
@@ -533,10 +533,10 @@ bounds, rather than refutes, CIMT's institutional gradient prediction.
 
 ### 5.2 Theoretical Contributions
 
-**Contribution 1: Largest globally representative I→P meta-analysis to
+**Contribution 1: Largest globally representative I to P meta-analysis to
 date.** The three-level MARA with *k* = 238 studies from 49 economies
 (*K* = 288 effects) is the most comprehensive quantitative synthesis of
-I→P evidence to apply three-level modeling, extending the ICBEF 2025
+I to P evidence to apply three-level modeling, extending the ICBEF 2025
 Asia-Pacific baseline (*k* = 113) by 124 studies with a globally
 inclusive ICRV-coded corpus. Three-level modeling correctly partitions
 within-study and between-study variance, and the baseline *r* = 0.074
@@ -548,7 +548,7 @@ moderators.** This paper is the first to formally test ICRV
 institutional regime, national digital adoption (cDAI), and Digital
 Paradox Lifecycle phase as moderators in a three-level MARA. H1
 (between-regime Q_M test) is confirmed (*Q*\_M = 17.35, *p* = .002),
-establishing that I→P effect sizes vary systematically across
+establishing that I to P effect sizes vary systematically across
 institutional regimes. However, the directional gradient propositions
 (E1a/E1b) and the cDAI and DPL hypotheses (H2, H3) are not confirmed
 under rigorous between-group testing. These results set theoretically
@@ -560,14 +560,14 @@ gradient emerges with richer between-regime representation.
 
 **Contribution 3: Substantial publication bias identified.** The
 trim-and-fill-corrected estimate (*r* = 0.035, *k* = 57 imputed studies)
-and significant Begg's τ (*p* = .001) together indicate that the I→P
+and significant Begg's τ (*p* = .001) together indicate that the I to P
 literature has a substantial positive publication bias. The raw pooled
 effect (*r* = 0.074) likely overstates the true average causal effect by
 approximately 50–100%, with the bias-corrected estimate (*r* = 0.035)
 providing a conservative lower bound. This finding, from the most
-globally comprehensive three-level MARA of I→P to date, is the most
+globally comprehensive three-level MARA of I to P to date, is the most
 actionable theoretical contribution: it suggests that the IB
-literature's widely cited "positive I→P relationship" is partially an
+literature's widely cited "positive I to P relationship" is partially an
 artifact of selective publication rather than a robust phenomenon.
 
 ### 5.3 Managerial and Policy Implications
@@ -589,11 +589,11 @@ market-specific learning, not by the assumption that
 
 **For researchers:** The substantial publication bias (*k* = 57 imputed,
 adj. *r* = 0.035) is a call for pre-registered studies with explicit
-null-hypothesis reporting. Publication practices in the I→P literature,
+null-hypothesis reporting. Publication practices in the I to P literature,
 where positive effects are over-represented, may be distorting the
 field's understanding of when and why internationalization helps.
 OSF registration and adoption of three-level MARA with
-trim-and-fill correction should become standard in future I→P
+trim-and-fill correction should become standard in future I to P
 meta-analyses.
 
 **For policymakers:** The ICRV Advanced–Emerging gap (*r̄* = 0.079 vs.
@@ -641,11 +641,11 @@ effects) and introducing three novel moderators for formal meta-analytic
 testing: ICRV institutional regime, country-level digital adoption
 (cDAI), and Digital Paradox Lifecycle (DPL) phase. The three-level
 pooled effect (*r* = 0.074, 95% CI \[0.060, 0.088\], *I*²_total = 62.4%)
-confirms a small but consistent positive I→P relationship globally,
+confirms a small but consistent positive I to P relationship globally,
 robust across seven sensitivity checks.
 
 H1 (ICRV between-regime Q_M test) is confirmed (*Q*\_M = 17.35, *p* =
-.002), establishing that I→P effect sizes vary systematically across
+.002), establishing that I to P effect sizes vary systematically across
 institutional regimes. However, the directional gradient (E1a: Advanced
 largest; E1b: Frontier smallest) is not meta-analytically confirmable at
 *k* = 3 Frontier, and the cDAI (H3: *Q*\_M = 1.23, *p* = .541) and DPL
@@ -660,7 +660,7 @@ sampling.
 The most substantive empirical finding is substantial publication bias:
 trim-and-fill imputes *k* = 57 missing studies, reducing the
 bias-corrected pooled effect to *r* = 0.035 (95% CI \[0.018, 0.051\]) 
-positive but considerably attenuated. This suggests that the I→P field's
+positive but considerably attenuated. This suggests that the I to P field's
 published literature over-represents positive results, and that the true
 average performance return to internationalization is closer to *r* ≈
 0.035 than the oft-cited figures in the 0.07–0.10 range. The
@@ -692,7 +692,7 @@ Advanced economies. Fifth, reliability is established on a 20% double-coded subs
 
 **Future research.** Three directions follow directly from the null
 moderator findings. First, a formal WoS/Scopus systematic search
-targeting Frontier and SIDS economy I→P studies (targeted search
+targeting Frontier and SIDS economy I to P studies (targeted search
 strings, Appendix B) would expand Frontier *k* from 3 to potentially
 20–40 studies, enabling a meaningful test of the ICRV Frontier cell.
 Second, a pre-registered replication of the ICRV, cDAI, and DPL
@@ -700,7 +700,7 @@ moderator hypotheses, with explicit power analysis for each regime cell
 and OSF registration, would provide a definitive test of whether
 these moderators reach significance in a *k* ≥ 400 corpus. Third, the
 substantial publication bias finding (*k* = 57 imputed, adj. *r* =
-0.035) motivates a dedicated publication bias audit: surveying I→P
+0.035) motivates a dedicated publication bias audit: surveying I to P
 researchers about unpublished null results, and meta-analyzing grey
 literature and dissertations, would bound the true population effect
 more precisely than trim-and-fill alone.

@@ -24,7 +24,7 @@ Outputs (300 dpi PNG + vector SVG):
 | 2024 | **47.2 %** | [34.5 %, 59.9 %] | 1,934 |
 | Pooled | **48.8 %** | [42.7 %, 54.9 %] | 4,544 |
 
-Annotation box reports Paternoster z-tests (FSTS p = .412, FSTS² p = .545) + joint F-test (F(2, 3558) = 2.24, p = .107) showing **equality NOT rejected → unexpected stability finding (predicted shift not detected)**.
+Annotation box reports Paternoster z-tests (FSTS p = .412, FSTS² p = .545) + joint F-test (F(2, 3558) = 2.24, p = .107) showing **equality NOT rejected to unexpected stability finding (predicted shift not detected)**.
 
 ### Figure 3 — predicted curves overlay
 
@@ -37,7 +37,7 @@ Two near-parallel inverted-U curves (2012 blue, 2024 red), both peaking inside t
 | TCI (tech capability) | +0.276 (0.043) | +0.426 (0.047) | +0.361 (0.032) |
 | DAI (digital adoption) | +0.077 (0.027) | +0.188 (0.044) | +0.115 (0.024) |
 
-Annotation: Paternoster cross-wave on TCI (z = −2.55, p = .011) showing strengthening 2012 → 2024.
+Annotation: Paternoster cross-wave on TCI (z = −2.55, p = .011) showing strengthening 2012 to 2024.
 
 ## How to embed in manuscript .docx
 

@@ -1,10 +1,10 @@
 # P6 — PRISMA 2020 Flow Diagram & Search Documentation
-# Meta-Analysis I→P 1977–2026 (Independent Systematic Review)
+# Meta-Analysis I–P 1977–2026 (Independent Systematic Review)
 
 > **Phiên bản**: v2.8 (19/05/2026)
 > **Chuẩn áp dụng**: PRISMA 2020 (Page et al., 2021)
 > **Loại**: Fresh/independent meta-analysis (không phải update)
-> **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` §6
+> **Tham chiếu**: `p6/06_p6_meta_update_plan_vi.md` Mục 6
 
 ---
 
@@ -154,7 +154,7 @@
 > completed (n = 2,180); Scopus and other databases pending" so the claim
 > matches what was actually run. Do not report an unrun search as confirmed.
 
-> ✅ = **Confirmed** (WoS arm; 18/05/2026). [TBD] = pending Scopus search or extraction.
+> = **Confirmed** (WoS arm; 18/05/2026). [TBD] = pending Scopus search or extraction.
 > Scopus search: requires CTU campus institutional access. Run `02_parse_scopus_export.py` after export.
 
 ---
@@ -192,7 +192,7 @@ TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
 - Language: English
 - Database: Web of Science Core Collection
 
-**Export**: Full record + Cited references → Plain Text / Excel
+**Export**: Full record + Cited references đến Plain Text / Excel
 
 ---
 
@@ -259,7 +259,7 @@ AND LANGUAGE(english)
 
 ### Supplementary Method 3: Hand-search
 
-Author's own publications and papers from known research groups working on I→P in Asia-Pacific (2020–2026). Included only if meeting full eligibility criteria.
+Author's own publications and papers from known research groups working on I–P in Asia-Pacific (2020–2026). Included only if meeting full eligibility criteria.
 **Results**: n = 19 (documented in `p6_primary_studies_apa7.md` S176–S194)
 
 ---
@@ -297,7 +297,7 @@ Author's own publications and papers from known research groups working on I→P
 - **Primary coder**: Đỗ Thùy Hương
 - **Second coder**: [Research assistant / HD Phan Anh Tú — 20% random sample]
 - **Target κ**: ≥ 0.80 for all 7 moderator variables
-- **Disagreement resolution**: Discussion; if unresolved → third coder
+- **Disagreement resolution**: Discussion; if unresolved đến third coder
 
 **Variables coded** (7 moderators + study descriptors):
 
@@ -336,16 +336,16 @@ Current database state (pre-formal-search):
 | Version | Date | Change |
 |---------|------|--------|
 | v1.0 | 12/05/2026 | Initial draft — update framing, estimated numbers |
-| v1.1 | 12/05/2026 | k=135→235 in INCLUDED box |
+| v1.1 | 12/05/2026 | k=135 đến 235 in INCLUDED box |
 | v2.0 | 12/05/2026 | Full rewrite — fresh/independent search framework; all fake numbers replaced with [TBD]; PICO criteria added; inter-coder protocol added |
-| v2.1 | 16/05/2026 | k=235→238, K=~385→288 (forest_data.csv actual count); Study ID range S001–S237++ |
-| v2.2 | 16/05/2026 | Search strategy expanded: WoS/Scopus queries updated to global scope (no Asia-Pacific geo filter); supplementary databases added (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight); "Non-peer-reviewed publication" added as exclusion reason; scite.ai → Google Scholar for forward citation; INCLUDED breakdown updated |
+| v2.1 | 16/05/2026 | k=235 đến 238, K=~385 đến 288 (forest_data.csv actual count); Study ID range S001–S237++ |
+| v2.2 | 16/05/2026 | Search strategy expanded: WoS/Scopus queries updated to global scope (no Asia-Pacific geo filter); supplementary databases added (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight); "Non-peer-reviewed publication" added as exclusion reason; scite.ai đến Google Scholar for forward citation; INCLUDED breakdown updated |
 | v2.3 | 16/05/2026 | Added OpenAlex as free supplementary database; Python search script created at p6/tools/openalex_prisma_search.py; WoS/Scopus noted as requiring institutional access |
-| v2.4 | 18/05/2026 | R3 UNSURE resolution: 25 Y + 43 N + 136 still UNSURE; Total L2 Y updated 510→535; pool updated v4/480→v5/505 |
-| v2.5 | 19/05/2026 | R5 title-only: 4Y + 11N; R6 title-only: 8Y + 46N; Total L2 Y: 550→562; worklist v7→v8 (524→532); UNSURE: 87→18 |
+| v2.4 | 18/05/2026 | R3 UNSURE resolution: 25 Y + 43 N + 136 still UNSURE; Total L2 Y updated 510 đến 535; pool updated v4/480 đến v5/505 |
+| v2.5 | 19/05/2026 | R5 title-only: 4Y + 11N; R6 title-only: 8Y + 46N; Total L2 Y: 550 đến 562; worklist v7 đến v8 (524 đến 532); UNSURE: 87 đến 18 |
 | v2.6 | 19/05/2026 | EN manuscript synced to R6/v8 counts |
-| v2.7 | 19/05/2026 | R7 manual signals: 0Y + 8N; UNSURE: 18→10 (abstract required); both manuscripts updated |
-| v2.8 | 19/05/2026 | R8 WebSearch abstract pass: 3Y + 7N; UNSURE: 10→0 (ALL RESOLVED); L2 Y: 562→565; worklist v8/532→v9/535 |
+| v2.7 | 19/05/2026 | R7 manual signals: 0Y + 8N; UNSURE: 18 đến 10 (abstract required); both manuscripts updated |
+| v2.8 | 19/05/2026 | R8 WebSearch abstract pass: 3Y + 7N; UNSURE: 10 đến 0 (ALL RESOLVED); L2 Y: 562 đến 565; worklist v8/532 đến v9/535 |
 
 ---
 

@@ -14,16 +14,16 @@
 
 | Wave | TCI × FSTS p | TCI × FSTS² p | TCI direct β | TCI direct p |
 |---|---|---|---|---|
-| 2012  | 0.612 | 0.382 | +0.260 | < .001 *** |
-| 2024  | **0.067** † | 0.362 | +0.463 | < .001 *** |
+| 2012 | 0.612 | 0.382 | +0.260 | < .001 *** |
+| 2024 | **0.067** † | 0.362 | +0.463 | < .001 *** |
 | Pooled | 0.695 | 0.696 | +0.421 | < .001 *** |
 
 `lnLP ~ FSTS + FSTSsq + DAI + DAI×FSTS + DAI×FSTS² + controls`
 
 | Wave | DAI × FSTS p | DAI × FSTS² p | DAI direct β | DAI direct p |
 |---|---|---|---|---|
-| 2012  | 0.128 | **0.071** † | +0.052 | .027 ** |
-| 2024  | 0.791 | 0.978 | +0.125 | < .001 *** |
+| 2012 | 0.128 | **0.071** † | +0.052 | .027 ** |
+| 2024 | 0.791 | 0.978 | +0.125 | < .001 *** |
 | Pooled | 0.833 | 0.723 | +0.098 | < .001 *** |
 
 † = marginal at p < 0.10; \*\* = p < 0.05; \*\*\* = p < 0.01.
@@ -34,8 +34,8 @@
 
 | Wave | TCI×FSTS² β | TCI×FSTS² p | DAI×FSTS² β | DAI×FSTS² p |
 |---|---|---|---|---|
-| 2012  | −0.264 | 0.130 | +0.145 | 0.194 |
-| 2024  | −0.662 | **0.010** \*\* | −0.031 | 0.861 |
+| 2012 | −0.264 | 0.130 | +0.145 | 0.194 |
+| 2024 | −0.662 | **0.010** \*\* | −0.031 | 0.861 |
 | Pooled | −0.433 | **0.005** \*\*\* | +0.123 | 0.264 |
 
 ## Interpretation
@@ -44,7 +44,7 @@
 
 - In Spec 1 (single-moderator, full structure): **TCI×FSTS² NOT significant in any wave** (all p > 0.36).
 - In Spec 2 (joint parsimonious, FSTS²-only interactions): TCI×FSTS² turns significant in 2024 (p = .010) and pooled (p = .005), but **stays NS in 2012 (p = .130)**.
-- The cross-wave instability (significant in 2024, null in 2012) **fails the same Decision Rule** that disqualified the working-capital block from a stronger H3 claim (see manuscript §4.5).
+- The cross-wave instability (significant in 2024, null in 2012) **fails the same Decision Rule** that disqualified the working-capital block from a stronger H3 claim (see manuscript Section 4.5).
 - The negative sign in Spec 2 (TCI×FSTS² < 0) means high-TCI firms have a **steeper** post-threshold downturn — theoretically counterintuitive (capability should buffer, not amplify, overextension costs). This sign contradicts H4a's spirit and looks like collinearity absorption rather than substantive moderation.
 
 ### DAI: no evidence of moderation across any spec
@@ -64,7 +64,7 @@
 | Construct | H | Role | Empirical support |
 |---|---|---|---|
 | FSTS, FSTS² | H1 | IV (curvature) | strong, all waves p < .03 |
-| Working-capital block | H3 | moderator (proposed) | weak / mixed (manuscript §4.5) |
+| Working-capital block | H3 | moderator (proposed) | weak / mixed (manuscript Section 4.5) |
 | TCI | H4a | **level-shifter** | strong (β +0.26 to +0.46, p < .001) |
 | DAI | H4b | **level-shifter** | modest (β +0.05 to +0.13, p ≤ .03) |
 

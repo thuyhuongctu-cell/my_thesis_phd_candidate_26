@@ -52,7 +52,7 @@ integrity flag; the rule above keeps every claim defensible.
 
 ## Recommended creation order
 
-P9 → P10 → P11 (JED) → P4 → P5 → P3 → P7 → P8 → P6, mirroring the submission
+P9 to P10 to P11 (JED) to P4 to P5 to P3 to P7 to P8 to P6, mirroring the submission
 roadmap in `reviews/PUBLICATION_PLAN_2026-06-13.md`. P6 last, because its OSF
 component needs the corrected registered-plan labelling and the completed
 inter-coder-reliability statistics (pending the double-coding data).

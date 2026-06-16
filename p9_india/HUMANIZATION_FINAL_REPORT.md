@@ -7,25 +7,25 @@
 
 | Step | Skill | Status | Commit |
 |---|---|:-:|---|
-| 1 | chuyen-doi-van-ban-ai-theo-giong-tac-gia | ✅ Done | a3e61da |
-| 2 | humanizer (Wikipedia 22+ patterns) | ✅ Done | faa1009 |
-| 3 | stop-slop (final AI tells) | ✅ Verified clean | this commit |
+| 1 | chuyen-doi-van-ban-ai-theo-giong-tac-gia | Có Done | a3e61da |
+| 2 | humanizer (Wikipedia 22+ patterns) | Có Done | faa1009 |
+| 3 | stop-slop (final AI tells) | Có Verified clean | this commit |
 
 ## Cumulative metrics evolution
 
 | Metric | Original | Post Step 1 | Post Step 2 | Post Step 3 | Target |
 |---|---:|---:|---:|---:|---:|
-| Em-dash count | 36 | 3 | 3 | 3 | < 10 ✅ |
-| Em-dash density (%) | 0.44 | 0.04 | 0.04 | 0.04 | < 0.5 ✅ |
-| "we"/"our" prose | 21 | 0 | 0 | 0 | ≤ 5 ✅ |
-| AI vocabulary words | 0 | 0 | 0 | 0 | 0 ✅ |
-| Negative parallelism | 3 | 3 | 0 | 0 | 0 ✅ |
-| Mid-sentence emphasis | 7 | 7 | 0 | 0 | 0 ✅ |
-| Inline-header lists | 2 | 2 | 0 | 0 | 0 ✅ |
-| Copula avoidance | 3 | 3 | 0 | 0 | 0 ✅ |
-| Throat-clearing | 0 | 0 | 0 | 0 | 0 ✅ |
-| Vague declaratives |, |, |, | 0 | 0 ✅ |
-| Word count | 8,260 | 8,325 | 8,356 | 8,356 | 8K-9K ✅ |
+| Em-dash count | 36 | 3 | 3 | 3 | < 10 Có |
+| Em-dash density (%) | 0.44 | 0.04 | 0.04 | 0.04 | < 0.5 Có |
+| "we"/"our" prose | 21 | 0 | 0 | 0 | ≤ 5 Có |
+| AI vocabulary words | 0 | 0 | 0 | 0 | 0 Có |
+| Negative parallelism | 3 | 3 | 0 | 0 | 0 Có |
+| Mid-sentence emphasis | 7 | 7 | 0 | 0 | 0 Có |
+| Inline-header lists | 2 | 2 | 0 | 0 | 0 Có |
+| Copula avoidance | 3 | 3 | 0 | 0 | 0 Có |
+| Throat-clearing | 0 | 0 | 0 | 0 | 0 Có |
+| Vague declaratives |, |, |, | 0 | 0 Có |
+| Word count | 8,260 | 8,325 | 8,356 | 8,356 | 8K-9K Có |
 
 ## Stop-slop final scoring (42/50)
 

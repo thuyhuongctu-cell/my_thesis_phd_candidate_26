@@ -20,7 +20,7 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 >
 > **Phiên bản 2.9 (16/05/2026 — WB Working Papers từ upload 11 PDFs)**: Bổ sung **Section T mới** (5 entries) từ đánh giá 11 PDFs upload ngày 16/05/2026: (i) Agarwal, Barattieri & Mattoo (2026) WPS11352 — Vietnam firm LP tăng theo export demand shock; (ii) Barattieri, Mattoo & Signoret (2026) WPS11354 — Vietnam trade liberalization dẫn đến +2.9%/yr productivity; (iii) Geginat & Ramalho (2015) WPS7460 — electricity quality & firm performance 183 countries (P8/CD1); (iv) Kim, Kumar, Ramalho & Russell (2026) WPS11279 — institutional capacity framework for ICRV (CD2/thesis); (v) Mahler, Serajuddin, Wadhwa & Yonzan (2026) WPS11350 — world slowest development pace 75 yrs, SIDS ≥100 yrs from standards (P8). **Disambiguation**: "Mahler, Serajuddin, Wadhwa & Yonzan (2026)" = WPS11350 ≠ "Mahler, Wang & Weber (2026)" = Atlas chapter (Section P). In-text citations added: P3 Mục 5 (Agarwal + Barattieri), P8 Mục 1 (Mahler et al. 2026b), CD2 Mục 3.3 Tầng 3 (Kim et al. 2026).
 >
-> **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **✓ RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) thành Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
+> **Phiên bản 2.5 (07/05/2026 — Vietnamese WBES sources + Vietnam Outlook 2026 + IFC PSD Blueprint)**: Bổ sung **4 references mới** từ batch upload 5 PDFs (07/05/2026): (i) Section K — **ADB (2026, April) Vietnam Economic Outlook 2026** (Việt Nam GDP 7,2% 2026 / 7,0% 2027, FDI commitment $2,4B / 18 dự án); (ii) Section K — **IFC (n.d.) Private Sector Development Blueprint** (3 trụ cột framework + 6 essential public transactions); (iii) Section K — **World Bank (2025) Hệ thống phân loại quốc gia FY26 (Vietnamese)** (4 income groups + 7 regions + 3 borrowing); (iv) Section K — **World Bank (n.d.) Tài liệu tóm tắt chỉ số WBES (Vietnamese)** — base cho thuật ngữ Việt chuẩn. **RESOLVED Audit Warning 1 v2.4**: Lin & Beamish (2005) thành Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415).
 
 > **Note**: Sections A, B, C, E, H, I, J, M, N, O giữ nguyên từ v2.1-v2.4 trừ phần entries mới được đánh dấu **(Mới v2.x)**.
 
@@ -40,7 +40,7 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 
 (Giữ nguyên từ v2.1 — Contractor et al. 2003, Gomes & Ramaswamy 1999, Grant 1987, Hitt et al. 1997 và 2006, Kim et al. 1989, Lu & Beamish 2004, Sullivan 1994. Tổng 8 entries.)
 
-> **✓ RESOLVED v2.5 — Audit Warning 1**: Lin & Beamish (2005) thành Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415, 07/05/2026): 4 occurrences trong Mục 1.1, Mục 2.6, Bảng 2.6.1 đã updated. Lu & Beamish (2004) AMJ S-curve DOI 10.2307/20159604 đã có sẵn Section B từ v2.1.
+> **RESOLVED v2.5 — Audit Warning 1**: Lin & Beamish (2005) thành Lu & Beamish (2004) replacement đã hoàn tất trong file 14 v3.8 (commit e2f8415, 07/05/2026): 4 occurrences trong Mục 1.1, Mục 2.6, Bảng 2.6.1 đã updated. Lu & Beamish (2004) AMJ S-curve DOI 10.2307/20159604 đã có sẵn Section B từ v2.1.
 
 ## C. Meta-analyses về I–P relationship
 
@@ -205,9 +205,9 @@ ADB. (2026, April). *Asian Development Outlook April 2026: The Middle East Confl
 
 **ADB. (2026, April). *Asian Development Outlook April 2026: Special Topic — Artificial Intelligence in Asia and the Pacific*. Asian Development Bank.** *(Mới v2.3)*
 
-**ADB. (2026, April). *Vietnam Economic Outlook 2026: Navigating the Crosscurrents*. Asian Development Bank.** https://www.adb.org/viet-nam *(Mới v2.5 — Báo cáo Việt Nam-specific tháng 4/2026 từ ADB. Key forecasts: (a) **GDP growth: 7,2% (2026), 7,0% (2027)** — vượt mức bình quân ASEAN 4,6% và Đông Nam Á 4,7%; cao hơn dự báo IMF WEO April 2026 ~7,0% và ADB ADO April 2026 7,0%; (b) **FDI commitment $2,4B / 18 dự án chiến lược** (fintech, năng lượng sạch, logistics); (c) **Năng suất lao động +5,1% 2026-2027** với FDI manufacturing tiến vào "higher-value" stage; (d) Lạm phát dự phóng 4,0%; (e) Two-tier framing: FDI-sector 18% global solution contribution vs SMEs nội địa cần hỗ trợ fintech/capacity (ADB Policy-Based Loans $2,4B target nhóm này); (f) GVC re-positioning từ assembly → mid-stream design/R&D dựa trên 3 trụ cột Resilience + Environmental Sustainability + Inclusiveness. Cited Mục 1.1 lớp 6 update + Mục 5.3 Vietnam case study trong CĐ1 v3.9.)*
+**ADB. (2026, April). *Vietnam Economic Outlook 2026: Navigating the Crosscurrents*. Asian Development Bank.** https://www.adb.org/viet-nam *(Mới v2.5 — Báo cáo Việt Nam-specific tháng 4/2026 từ ADB. Key forecasts: (a) **GDP growth: 7,2% (2026), 7,0% (2027)** — vượt mức bình quân ASEAN 4,6% và Đông Nam Á 4,7%; cao hơn dự báo IMF WEO April 2026 ~7,0% và ADB ADO April 2026 7,0%; (b) **FDI commitment $2,4B / 18 dự án chiến lược** (fintech, năng lượng sạch, logistics); (c) **Năng suất lao động +5,1% 2026-2027** với FDI manufacturing tiến vào "higher-value" stage; (d) Lạm phát dự phóng 4,0%; (e) Two-tier framing: FDI-sector 18% global solution contribution vs SMEs nội địa cần hỗ trợ fintech/capacity (ADB Policy-Based Loans $2,4B target nhóm này); (f) GVC re-positioning từ assembly đến mid-stream design/R&D dựa trên 3 trụ cột Resilience + Environmental Sustainability + Inclusiveness. Cited Mục 1.1 lớp 6 update + Mục 5.3 Vietnam case study trong CĐ1 v3.9.)*
 
-**ADB. (2026). *Asia-Pacific Development Report 2026: Highlights — Global Value Chain Participation in Developing Asia*. Asian Development Bank.** *(Mới v2.3 — GVC participation 9% → 18% 2000-2023.)*
+**ADB. (2026). *Asia-Pacific Development Report 2026: Highlights — Global Value Chain Participation in Developing Asia*. Asian Development Bank.** *(Mới v2.3 — GVC participation 9% đến 18% 2000-2023.)*
 
 ADB. (2026, May). *Market Assessment of Critical Minerals in Mongolia*. Asian Development Bank. https://doi.org/10.22617/TCS260157-2
 
@@ -248,7 +248,7 @@ Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: 
 
 ## P. World Bank Data360 Atlas 2026 và báo cáo AI-Finance (Mới v2.6)
 
-Agnolucci, P., Kenworthy, P., & Kose, M. A. (2026, May 7). Five questions on how the war in the Middle East is affecting commodity markets. *Let's Talk Development*. World Bank Blogs. https://blogs.worldbank.org/en/developmenttalk/five-questions-on-how-the-war-in-the-middle-east-is-affecting-co *(Mới v2.6 — Strait of Hormuz closure: 35% seaborne crude oil; Brent $72→$118/bbl March 2026; energy +24%; fertilizer +30%; EMDEs growth 3,6% downgrade 0,4pp; EMDE commodity exporters 2,4%.)*
+Agnolucci, P., Kenworthy, P., & Kose, M. A. (2026, May 7). Five questions on how the war in the Middle East is affecting commodity markets. *Let's Talk Development*. World Bank Blogs. https://blogs.worldbank.org/en/developmenttalk/five-questions-on-how-the-war-in-the-middle-east-is-affecting-co *(Mới v2.6 — Strait of Hormuz closure: 35% seaborne crude oil; Brent $72 đến $118/bbl March 2026; energy +24%; fertilizer +30%; EMDEs growth 3,6% downgrade 0,4pp; EMDE commodity exporters 2,4%.)*
 
 Boeddu, G., Feyen, E., Martinez Jaramillo, S., Mesquita, S., Palta, Y., Sarkar, A., Sinha, S., & Gutiérrez Traverso, A. (2025). *Artificial Intelligence for Financial Sector Supervision: An Emerging Market and Developing Economies Perspective* (Prosperity Insight Series). World Bank Group. https://doi.org/10.1596/978-1-4648-2132-7 *(Mới v2.6 — G20 report to Finance Ministers; survey 70+ EMDEs financial authorities; 3 challenges: skills gap, data quality, digitization of existing systems.)*
 
@@ -423,11 +423,11 @@ Shaver, J. M. (2020). Causal identification through a cumulative body of researc
 
 > 5 entries từ đánh giá 11 PDFs upload ngày 16/05/2026. Xếp theo thứ tự APA7 (tác giả đầu tiên). **Disambiguation quan trọng**: Mahler et al. (2026) WPS11350 (Mahler, Serajuddin, Wadhwa & Yonzan) ≠ Mahler, Wang & Weber (2026) Atlas chapter (Section P). Dùng hậu tố "a/b" trong in-text nếu trích dẫn cả hai trong cùng văn bản.
 
-Agarwal, A., Barattieri, A., & Mattoo, A. (2026, April). *Foreign demand shocks and domestic value added: Firm-level evidence from Viet Nam* (Policy Research Working Paper No. 11352). World Bank Group. *(Mới v2.9 — Vietnam DVAR tăng mạnh từ 2018: US demand shock 8,76% → DVAR +2,49 pp trong 2018–2020, giải thích 68,5% tổng tăng DVAR; firms phản ứng bằng cách xuất khẩu nhiều hơn sang cả US và non-US markets và ghi nhận tăng năng suất lao động; non-Chinese-owned firms là động lực chính; cơ chế: implicit rules of origin + FDI vào intermediates. Sử dụng matched firm-level + customs data 2016–2020. Cited P3 Mục 5 Discussion — corroboration cho ascending-limb mechanism.)*
+Agarwal, A., Barattieri, A., & Mattoo, A. (2026, April). *Foreign demand shocks and domestic value added: Firm-level evidence from Viet Nam* (Policy Research Working Paper No. 11352). World Bank Group. *(Mới v2.9 — Vietnam DVAR tăng mạnh từ 2018: US demand shock 8,76% đến DVAR +2,49 pp trong 2018–2020, giải thích 68,5% tổng tăng DVAR; firms phản ứng bằng cách xuất khẩu nhiều hơn sang cả US và non-US markets và ghi nhận tăng năng suất lao động; non-Chinese-owned firms là động lực chính; cơ chế: implicit rules of origin + FDI vào intermediates. Sử dụng matched firm-level + customs data 2016–2020. Cited P3 Mục 5 Discussion — corroboration cho ascending-limb mechanism.)*
 
-Barattieri, A., Mattoo, A., & Signoret, J. (2026, April). *Foreign tariffs as catalysts for reform? The potential development dividend* (Policy Research Working Paper No. 11354). World Bank Group. *(Mới v2.9 — Vietnam: liberalization dịch vụ thương mại 2008–2016 → +2,9% năng suất hàng năm trong dịch vụ, +3,1% trong sản xuất; "China-plus-one" strategy lợi ích hạn chế cho phần lớn đang phát triển; US Supreme Court Feb 20 2026 tuyên bố IEEPA tariffs unconstitutional. Cited P3 Mục 5.5 Policy implications — macro-level corroboration cho tác động của mở cửa thương mại lên năng suất Việt Nam.)*
+Barattieri, A., Mattoo, A., & Signoret, J. (2026, April). *Foreign tariffs as catalysts for reform? The potential development dividend* (Policy Research Working Paper No. 11354). World Bank Group. *(Mới v2.9 — Vietnam: liberalization dịch vụ thương mại 2008–2016 đến +2,9% năng suất hàng năm trong dịch vụ, +3,1% trong sản xuất; "China-plus-one" strategy lợi ích hạn chế cho phần lớn đang phát triển; US Supreme Court Feb 20 2026 tuyên bố IEEPA tariffs unconstitutional. Cited P3 Mục 5.5 Policy implications — macro-level corroboration cho tác động của mở cửa thương mại lên năng suất Việt Nam.)*
 
-Geginat, C., & Ramalho, R. (2015). *Electricity connections and firm performance in 183 countries* (Policy Research Working Paper No. 7460). World Bank Group. *(Mới v2.9 — WBES-based; LICs mất gấp 2 lần thời gian và trả gấp 70 lần chi phí kết nối điện so với HICs; chất lượng điện → firm performance; phân tích 183 quốc gia. Cited P8 / CD1 — infrastructure quality như institutional void context cho SIDS.)*
+Geginat, C., & Ramalho, R. (2015). *Electricity connections and firm performance in 183 countries* (Policy Research Working Paper No. 7460). World Bank Group. *(Mới v2.9 — WBES-based; LICs mất gấp 2 lần thời gian và trả gấp 70 lần chi phí kết nối điện so với HICs; chất lượng điện đến firm performance; phân tích 183 quốc gia. Cited P8 / CD1 — infrastructure quality như institutional void context cho SIDS.)*
 
 Kim, G., Kumar, T., Ramalho, R., & Russell, S. (2026, January). *Institutional capacity for policy implementation: An analytical framework* (Policy Research Working Paper No. 11279). World Bank Group. *(Mới v2.9 — Định nghĩa "năng lực thể chế" = khả năng thực thi chính sách của các tổ chức công; hai chiều: Tổ chức (nhân sự, tài chính, hệ thống thông tin, quản lý) và Quản trị (minh bạch, độc lập, trách nhiệm giải trình); xây dựng trên North (1990); phân tích "islands of excellence" trong môi trường năng lực thấp; tương quan dương vững giữa năng lực thể chế và phát triển kinh tế. Cited CD2 Mục 3.3 Tầng 3 Institutional Theory — cung cấp định nghĩa và framework chính thức cho ICRV 6-regime classification.)*
 
@@ -463,7 +463,7 @@ Mahler, D. G., Serajuddin, U., Wadhwa, D., & Yonzan, N. (2026, April). *The worl
   - Startup ecosystem rank: "StartupBlink (2025)" or "StartupBlink (2026)" (specify year for disambiguation)
 - **Trích dẫn Section T — WB Working Papers 2015/2026 (v2.9)**:
   - Vietnam firm LP + export demand: "Agarwal, Barattieri, & Mattoo (2026)" [WPS11352]
-  - Vietnam trade liberalization → productivity: "Barattieri, Mattoo, & Signoret (2026)" [WPS11354]
+  - Vietnam trade liberalization đến productivity: "Barattieri, Mattoo, & Signoret (2026)" [WPS11354]
   - Electricity & firm performance 183 countries: "Geginat & Ramalho (2015)" [WPS7460]
   - Institutional capacity framework: "Kim, Kumar, Ramalho, & Russell (2026)" [WPS11279]
   - World slowest development 75 years: **"Mahler et al. (2026b)"** [WPS11350] — **b suffix** phân biệt với "Mahler, Wang & Weber (2026)" [Atlas chapter, Section P]
@@ -479,7 +479,7 @@ Mahler, D. G., Serajuddin, U., Wadhwa, D., & Yonzan, N. (2026, April). *The worl
 
 ### Audit warnings status (cập nhật v2.5)
 
-**✓ RESOLVED v2.5 — WARNING 1 (Lin & Beamish 2005)**: Hoàn tất file 14 v3.8 (commit e2f8415, 07/05/2026) — replace 4 occurrences với Lu & Beamish (2004).
+**RESOLVED v2.5 — WARNING 1 (Lin & Beamish 2005)**: Hoàn tất file 14 v3.8 (commit e2f8415, 07/05/2026) — replace 4 occurrences với Lu & Beamish (2004).
 
 **WARNING 2 — Gambacorta et al. (2025) BIS** *(pending)*: Citation trong file 16 Mục 7.3.1 (3)(e) sectoral AI exposure cần verify trên trang BIS Working Papers. Có thể trong reference list của ADB ADO Special Topic April 2026 — NCS cần cross-check.
 

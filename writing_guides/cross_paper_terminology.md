@@ -47,12 +47,12 @@
 
 | Paper | Items | Construction |
 |-------|-------|-------------|
-| **P3 Vietnam 2009/2015** | b8 (quality cert), e6 (foreign tech license) | z-each → rowmean → re-standardize |
-| **P3 Vietnam 2023** | b8, e6 + h8 (imported machinery), h1 (ISO) | z-each → rowmean → re-standardize |
+| **P3 Vietnam 2009/2015** | b8 (quality cert), e6 (foreign tech license) | z-each đến rowmean đến re-standardize |
+| **P3 Vietnam 2023** | b8, e6 + h8 (imported machinery), h1 (ISO) | z-each đến rowmean đến re-standardize |
 | **P4 Singapore 2023** | b8, e6 + h8, h1 (where available) | Same construction as P3-2023 |
-| **P5 China** | b8, e6 | z-each → rowmean → re-standardize |
+| **P5 China** | b8, e6 | z-each đến rowmean đến re-standardize |
 
-**Why different items?** The 2023 BREADY survey module added h1 and h8. Using more items in 2023 improves construct validity; the P3 comparison across waves is controlled by noting this difference in §3.2.
+**Why different items?** The 2023 BREADY survey module added h1 and h8. Using more items in 2023 improves construct validity; the P3 comparison across waves is controlled by noting this difference in Mục 3.2.
 
 **Standardization:** TCI composite is z-standardized within sample. Reported as `TCI_z` (or `TCIfull` in raw form, then re-standardized in model prep).
 
@@ -71,7 +71,7 @@ The thesis distinguishes three export participation concepts:
 |------|-----------|-----------|
 | **Extensive margin** | Whether a firm exports at all (binary: exporter vs. non-exporter) | P3, P4, P5, P7, P8 (exporter dummy) |
 | **Intensive margin** | How much a firm exports, among active exporters (FSTS level within exporters > 0) | P3, P4, P5, P7, P8 (FSTS conditional on export) |
-| **Participation-margin effect** | The productivity premium from switching from non-exporter to exporter status — the jump at FSTS = 0 | P3 §4.5, CD2 §3.1 |
+| **Participation-margin effect** | The productivity premium from switching from non-exporter to exporter status — the jump at FSTS = 0 | P3 Mục 4.5, CD2 Mục 3.1 |
 | **Forced internationalization penalty** | In SIDS, the NEGATIVE FSTS–LP slope: export engagement reduces productivity due to structural dependency on remittance/aid economies, thin domestic markets, and terms-of-trade vulnerability — not a strategic choice but a structural constraint. | P8 exclusively |
 
 **Standard sentence form:**
@@ -126,9 +126,9 @@ The thesis distinguishes three export participation concepts:
 
 **Two-system mapping note:** Vietnam = **Nhóm IV (Lower_mid_transition, Group 4)** in the dissertation's 6-regime ICRV classification, consistent across CD1, CD2, P7 data (`ICRV_MAP["Vietnam"] = 4`) and the data registry (Group IV — Lower-Middle Transition). P3 and P6 (5-regime, SIDS excluded) use the same numbering: groups 1–5 without group 6, so Vietnam remains **Regime IV** in the 5-regime context. The earlier label **"Frontier V" in P3 was incorrect** — it was based on an outdated reading of WGI Rule of Law scores and a miscount of the regime numbering. Vietnam WGI Rule of Law estimate (RL.EST scale, −2.5 to +2.5): approximately −0.55 to −0.68 in 2009 (early-wave low), improving to approximately −0.09 in 2023 (source: World Bank / tradingeconomics.com). The Nhóm V regime ("Emerging" in P7 R code) contains lower-governance economies: Afghanistan, Nepal, Cambodia, Laos, Myanmar, Bhutan, Jordan, Kyrgyz Republic, Tajikistan, Uzbekistan, Yemen, etc. Vietnam is **above** this threshold and correctly classified at Nhóm IV across all dissertation documents.
 
-**Critical rule:** Every empirical paper must place its sample within an ICRV regime in §1 Introduction and §5 Discussion. Cross-references in CD2's 6-regime system: **P3→Nhóm IV** (`Lower_mid_transition`; Vietnam = Group 4 of 6), **P4→Nhóm I** (`Advanced_innovation`; Singapore), **P5→Nhóm III** (`Upper_mid`; China), **P7→all 6 groups (cross-regime)**, **P8→Nhóm VI** (`SIDS_small`). Note: "Frontier V" is NOT a valid dissertation-internal label for Vietnam; correct label is "Nhóm IV" or "ICRV Group 4 (Lower_mid_transition)".
+**Critical rule:** Every empirical paper must place its sample within an ICRV regime in Mục 1 Introduction and Mục 5 Discussion. Cross-references in CD2's 6-regime system: **P3 đến Nhóm IV** (`Lower_mid_transition`; Vietnam = Group 4 of 6), **P4 đến Nhóm I** (`Advanced_innovation`; Singapore), **P5 đến Nhóm III** (`Upper_mid`; China), **P7 đến all 6 groups (cross-regime)**, **P8 đến Nhóm VI** (`SIDS_small`). Note: "Frontier V" is NOT a valid dissertation-internal label for Vietnam; correct label is "Nhóm IV" or "ICRV Group 4 (Lower_mid_transition)".
 
-**Institutional gradient in P7 results (key cross-paper narrative — CRITICAL direction):** The ICRV gradient is empirically confirmed in P7 — Advanced_innovation shows the **LOWEST** TP (~28%) while Frontier shows the **HIGHEST** TP (~55%). The gradient is monotone: as institutional quality decreases (Advanced → Frontier), the turning point increases. This means in stronger-institution contexts, firms reach performance peak at lower export intensity; in weaker-institution contexts, they need higher FSTS to overcome transaction costs before reaching peak performance. SIDS_small (Nhóm VI) is the exception: FIP (Forced Internationalization Penalty) — monotone negative, no turning point. DAI×ICRV (p=.012): digital adoption delivers stronger per-unit returns in weaker institutional environments ("digital shield").
+**Institutional gradient in P7 results (key cross-paper narrative — CRITICAL direction):** The ICRV gradient is empirically confirmed in P7 — Advanced_innovation shows the **LOWEST** TP (~28%) while Frontier shows the **HIGHEST** TP (~55%). The gradient is monotone: as institutional quality decreases (Advanced đến Frontier), the turning point increases. This means in stronger-institution contexts, firms reach performance peak at lower export intensity; in weaker-institution contexts, they need higher FSTS to overcome transaction costs before reaching peak performance. SIDS_small (Nhóm VI) is the exception: FIP (Forced Internationalization Penalty) — monotone negative, no turning point. DAI×ICRV (p=.012): digital adoption delivers stronger per-unit returns in weaker institutional environments ("digital shield").
 
 ---
 
@@ -170,9 +170,9 @@ Key empirical anchors (N = 84,910–91,982 firms, 49 economies, 102 country-year
 |-------|--------------|-------|
 | M5 (controls + country-year FE) | **40.0% FSTS** | adjR² = .677 |
 | M11 (full three-way moderation) | **34.6% FSTS** | LM p = .002; DAI×ICRV p = .012 |
-| ICRV: Advanced_innovation (Group I) | **~28% FSTS** | Stronger institutions → earlier peak |
+| ICRV: Advanced_innovation (Group I) | **~28% FSTS** | Stronger institutions đến earlier peak |
 | ICRV: Emerging/Upper-middle (Group III–IV) | **~40–50% FSTS** | Mid-range gradient |
-| ICRV: Frontier/SIDS (Group V–VI) | **~55% FSTS** | Weaker institutions → later peak |
+| ICRV: Frontier/SIDS (Group V–VI) | **~55% FSTS** | Weaker institutions đến later peak |
 | P8 Pacific SIDS | monotone negative | No TP — FIP confirmed |
 
 **When citing P7 turning points**, always specify which model and whether country FE is included. The no-FE turning point (M2: 8.1%) is spurious and should not be reported in isolation.
@@ -189,7 +189,7 @@ Result: F(2, 36132) = 7.38, p = .0006***
 
 **DAI×ICRV institutional contingency:** p = .012 — DAI's moderating effect is **stronger in weak-institution contexts** (Frontier/SIDS), not only in Advanced. This is the "digital shield" mechanism: DAI compensates for institutional deficiencies rather than amplifying existing advantages. Do NOT write "DAI only significant in Advanced contexts."
 
-**Interpretation:** DAI is a *situational resource*: the level effect is universal; the moderating mechanism (compression vs amplification of the I→P curve) depends on ICRV regime. This is analytically distinct from TCI (foundational capability with universal level + curvature effects).
+**Interpretation:** DAI is a *situational resource*: the level effect is universal; the moderating mechanism (compression vs amplification of the I–P curve) depends on ICRV regime. This is analytically distinct from TCI (foundational capability with universal level + curvature effects).
 
 **Standard sentence form:**
 > "A joint F-test of the two DAI interaction terms (linear and quadratic) confirms that digital adoption significantly moderates the FSTS–labour productivity curve (F = 7.38, p < .001), consistent with digital capability theory (Stallkamp & Schotter, 2021)."
@@ -258,16 +258,16 @@ Result: F(2, 36132) = 7.38, p = .0006***
 
 ## 11. Dissertation-Wide Empirical Summary (Preliminary R Results)
 
-For use in thesis integration chapter and §6 Discussion cross-referencing:
+For use in thesis integration chapter and Mục 6 Discussion cross-referencing:
 
 | Paper | Context | TP / Key β | Direction | Confirmed |
 |-------|---------|-----------|-----------|-----------|
-| P3 Vietnam | Frontier IV (3 waves) | TP ≈ 34.5% (R); 39.7% (Stata) | Inverted-U | ✓ |
-| P4 Singapore | Advanced I | TP ≈ 76–89% (wide CI) | Predominantly positive | ✓ saturation |
-| P5 China | Upper-mid III (2 waves) | TP ≈ 47.5% | Inverted-U | ✓ Paternoster p=.831 |
-| P6 Meta-analysis | All regimes (k=238) | r = 0.074, I² = 62.4%, Q_M=17.35 (df=4, p=.002) | Positive mean | ✓ ICRV Q-mod |
-| P7 Capstone | 49 economies (6 ICRV) | TP ≈ **36%** (M2–M5: 36.4–40.0%; M11 full: TP=34.6%, LM p=.002, N=29,840); N=84,910–91,982 | Inverted-U | ✓ ICRV Q-mod; DAI×ICRV p=.012 |
-| P8 Pacific SIDS | Nhóm VI | β(FSTS_c) = −0.404 (p=.032, country+year FE, N=1,469) | **NEGATIVE (FIP)** | ✓ Penalty |
+| P3 Vietnam | Frontier IV (3 waves) | TP ≈ 34.5% (R); 39.7% (Stata) | Inverted-U | Có |
+| P4 Singapore | Advanced I | TP ≈ 76–89% (wide CI) | Predominantly positive | Có saturation |
+| P5 China | Upper-mid III (2 waves) | TP ≈ 47.5% | Inverted-U | Có Paternoster p=.831 |
+| P6 Meta-analysis | All regimes (k=238) | r = 0.074, I² = 62.4%, Q_M=17.35 (df=4, p=.002) | Positive mean | Có ICRV Q-mod |
+| P7 Capstone | 49 economies (6 ICRV) | TP ≈ **36%** (M2–M5: 36.4–40.0%; M11 full: TP=34.6%, LM p=.002, N=29,840); N=84,910–91,982 | Inverted-U | Có ICRV Q-mod; DAI×ICRV p=.012 |
+| P8 Pacific SIDS | Nhóm VI | β(FSTS_c) = −0.404 (p=.032, country+year FE, N=1,469) | **NEGATIVE (FIP)** | Có Penalty |
 
 **ICRV subgroup TPs (P7 finalized — JIBS under revision):**
 
@@ -279,10 +279,10 @@ For use in thesis integration chapter and §6 Discussion cross-referencing:
 | Frontier (Nhóm V) | **~50–55%** | Inverted-U | Afghanistan, Nepal, Cambodia, Bhutan... |
 | Pacific SIDS (Nhóm VI) | No TP | **Negative (FIP)** | β(FSTS_c)=−0.404* — monotone penalty |
 
-**ICRV gradient direction (CRITICAL):** TP **DECREASES** as institutional quality increases. Advanced Innovation (~28%) has the LOWEST TP; Frontier/SIDS (~55%) has the HIGHEST. This means stronger institutions → firms reach performance optimum at lower export intensity. Weaker institutions → firms need higher FSTS before costs exceed benefits. Do NOT write "threshold increases with institutional development."
+**ICRV gradient direction (CRITICAL):** TP **DECREASES** as institutional quality increases. Advanced Innovation (~28%) has the LOWEST TP; Frontier/SIDS (~55%) has the HIGHEST. This means stronger institutions đến firms reach performance optimum at lower export intensity. Weaker institutions đến firms need higher FSTS before costs exceed benefits. Do NOT write "threshold increases with institutional development."
 
 **Cross-paper narrative:** Results demonstrate an ICRV-contingent internationalization–performance gradient. The inverted-U is universal across non-SIDS regimes, but the turning point **decreases** with institutional quality: Frontier ~50–55%, Emerging ~44–50%, Advanced Innovation ~28%. DAI×ICRV (p=.012) confirms the "digital shield" compensatory mechanism — DAI delivers **stronger** per-unit returns in weaker institutional environments. Pacific SIDS (Nhóm VI) constitute a structural exception (Forced Internationalization Penalty), not overextension.
 
 ---
 
-*Last updated: May 2026. For discrepancies between this guide and individual paper §3 sections, the individual paper takes precedence — but update this guide accordingly.*
+*Last updated: May 2026. For discrepancies between this guide and individual paper Mục 3 sections, the individual paper takes precedence — but update this guide accordingly.*

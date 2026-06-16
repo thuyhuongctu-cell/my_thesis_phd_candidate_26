@@ -29,9 +29,9 @@
 - [ ] **Title:** as above
 - [ ] **Abstract:** ~250 words (structured: Purpose / Design / Findings / Value)
 - [ ] **Keywords** (4–6): internationalisation–performance; inverted-U; institutional regime; digital adoption; ICRV; Asia-Pacific
-- [ ] Upload `01_manuscript_blinded.docx` → Manuscript (blinded)
-- [ ] Upload `02_title_page.docx` → Title Page (with author info)
-- [ ] Upload `03_cover_letter.docx` → Cover Letter
+- [ ] Upload `01_manuscript_blinded.docx` to Manuscript (blinded)
+- [ ] Upload `02_title_page.docx` to Title Page (with author info)
+- [ ] Upload `03_cover_letter.docx` to Cover Letter
 - [ ] Confirm corresponding author (Phan Anh Tú)
 - [ ] Confirm manuscript not under review elsewhere
 - [ ] Conflict of interest statement
@@ -49,7 +49,7 @@
 | Abstract | ~250 words |
 | Tables | 3 (in Appendix A) + Appendix B reference |
 | Figures | 0 (results in tables) |
-| Observations | 84,910 (M2) → 29,840 (M11) |
+| Observations | 84,910 (M2) to 29,840 (M11) |
 | Economies | 49 (41 Asian + 8 Pacific SIDS boundary) |
 | Country-year waves | 102 (2003–2025) |
 | Baseline turning point | 36.4% FSTS (Lind–Mehlum p < .001) |

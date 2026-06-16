@@ -1,4 +1,4 @@
-# Empirical Claims Audit — v1.6 → v1.7
+# Empirical Claims Audit — v1.6 to v1.7
 
 This document records each specific empirical claim made in v1.6 (after the AI flagged fabrication risk), the verified value computed from the actual data, and the v1.7 fix.
 
@@ -12,15 +12,15 @@ Random-seed-free OLS / Heckman / Paternoster / joint F computations using `stats
 
 | # | Location | v1.6 claim | Verified value | v1.7 status |
 |---|---|---|---|---|
-| 1 | Section 1 productivity premium 2012 → 2024 | "~50 % productivity premium in level terms" | exp(0.49) − 1 = **63.6 %** | **Fixed**: "roughly a 64 % productivity premium" |
+| 1 | Section 1 productivity premium 2012 to 2024 | "~50 % productivity premium in level terms" | exp(0.49) − 1 = **63.6 %** | **Fixed**: "roughly a 64 % productivity premium" |
 | 2 | Section 3.6 / Section 4.7 Heckman IMR (2012) | "z = +0.31, p = .76; statistically indistinguishable from zero" | **z = −2.44, p = .015** (significant) | **Fixed + reframed**: Section 3.6 reports verified numbers and explicitly notes 2012 IMR is significant |
 | 3 | Section 3.6 Heckman IMR (2024) | "z = −0.42, p = .68" | **z = −0.14, p = .89** (still NS) | **Fixed**: updated number |
 | 4 | Section 4.6 mfg-only Paternoster z FSTS | "z = +1.94, p = .053" | **z = +1.51, p = .130** | **Fixed** |
 | 5 | Section 4.6 mfg-only Paternoster z FSTS² | "z = −1.51, p = .131" | **z = −0.96, p = .337** | **Fixed** |
-| 6 | Section 4.6 mfg-only TP 2012 | "~42 % (95 % CI [37.8, 46.8])" | **42.31 %, [37.81, 46.80]** | ✓ correct |
-| 7 | Section 4.6 mfg-only TP 2024 | "30 % (95 % CI [15.1, 44.2])" | **29.65 %, [15.08, 44.23]** | ✓ correct |
+| 6 | Section 4.6 mfg-only TP 2012 | "~42 % (95 % CI [37.8, 46.8])" | **42.31 %, [37.81, 46.80]** | Có correct |
+| 7 | Section 4.6 mfg-only TP 2024 | "30 % (95 % CI [15.1, 44.2])" | **29.65 %, [15.08, 44.23]** | Có correct |
 | 8 | Section 4.7 panel-firm-exclusion N | "4,342" | **4,358** | **Fixed** |
-| 9 | Section 4.7 panel-firm-exclusion TP shift | "less than 0.5 percentage points" | **1.9 pp shift (48.78 → 46.88)** | **Fixed**: changed to "1.9 pp shift; modest, well within 95 % CI" |
+| 9 | Section 4.7 panel-firm-exclusion TP shift | "less than 0.5 percentage points" | **1.9 pp shift (48.78 to 46.88)** | **Fixed**: changed to "1.9 pp shift; modest, well within 95 % CI" |
 | 10 | Section 4.7 ISIC 2-digit FE coefficient change | "less than 8 %" | **FSTS: 12.8 % reduction; FSTS²: 15.2 % reduction** | **Fixed**: reported actual numbers |
 | 11 | Section 4.7 weighted estimation (`wmedian`) | "<1 percentage point" | **Not computed** | **Removed**: noted as priority for next revision |
 | 12 | Section 4.7 2024-sample re-weighting to 2012 strata | "no qualitative change" | **Not computed** | **Removed** |
@@ -29,7 +29,7 @@ Random-seed-free OLS / Heckman / Paternoster / joint F computations using `stats
 | 15 | Section 2.2 specific SME credit reform programmes | "2014 SME Guarantee Fund, 2016 inclusive-finance white paper, 2019 supply-chain finance pilot, 2020–2022 COVID-relief lending facilities" | AI-generated names/dates; not cited to primary source | **Removed**: replaced with general "ongoing institutional change in China's SME credit and trade-finance market" |
 | 16 | Section 1 specific reform reference | "China–US tariff escalation cycle starting 2018" + "COVID‑19 disruption and supply‑chain re‑routing of 2020–2022" | Widely accepted background; not cited | Kept (general background) |
 | 17 | Section 1 "stock of technological capability... deepened across cohorts" | Cross-wave TCI evolution claim | Within-wave z-standardisation makes cross-wave levels not directly comparable | **Removed** |
-| 18 | Section 4.2 productivity premium at TP | "67 % (2012), 42 % (2024)" | **66.5 %, 42.4 %** | ✓ correct |
+| 18 | Section 4.2 productivity premium at TP | "67 % (2012), 42 % (2024)" | **66.5 %, 42.4 %** | Có correct |
 
 ## Substantive interpretation changes from v1.6 to v1.7
 

@@ -11,11 +11,11 @@
 | pyfixest | 0.60.0 (tương đương `reghdfe`) |
 | Do-file Stata đã commit | `scripts/stata/00_prep_data.do`, `p7_reestimate.do`, `p8_sids_fip.do` |
 
-Theo quy trình của skill (§1, §3) và skill `stata-khong-license-giai-phap`: khi
+Theo quy trình của skill (Mục 1, Mục 3) và skill `stata-khong-license-giai-phap`: khi
 không có Stata license, đường dẫn fallback Python đã được validate là phương án
 hợp lệ cho kinh tế lượng pooled cross-section. Các do-file Stata được commit để
 NCS chạy đối chứng trên máy có license trước khi gửi tạp chí (yêu cầu của QUY
-TẮC LIÊM CHÍNH §0).
+TẮC LIÊM CHÍNH Mục 0).
 
 **Đường dẫn đã chạy: Fallback Python (pyfixest/numpy).**
 
@@ -63,11 +63,11 @@ Phần bù doanh nghiệp xuất khẩu = +0,258 (p < 0,001).
 (R2 p = 0,662; R3 p = 0,448; R5 p = 0,378; R6 p = 0,551).
 
 Mọi con số khớp chính xác bản thảo P10 (`01_manuscript_blinded.md`) và mục
-§4.1.5/§4.6 của luận án.
+Mục 4.1.5/Mục 4.6 của luận án.
 
 ## 4. Kết luận
 
 Toàn bộ số liệu kinh tế lượng được báo cáo trong luận án (P7) và bản thảo P10
 đã tái lập thành công qua pipeline Python đã validate. Không có hệ số nào bị bịa
 hoặc chỉnh tay. Bước còn lại trước khi gửi tạp chí: chạy đối chứng các do-file
-`scripts/stata/*.do` trên máy có Stata license (QUY TẮC LIÊM CHÍNH §0).
+`scripts/stata/*.do` trên máy có Stata license (QUY TẮC LIÊM CHÍNH Mục 0).

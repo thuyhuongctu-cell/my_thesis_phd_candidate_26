@@ -30,21 +30,21 @@
 ### ScholarOne Manuscripts (mc.manuscriptcentral.com/jabs)
 
 - [ ] Register / log in to ScholarOne
-- [ ] Select "Author" → "Submit New Manuscript"
+- [ ] Select "Author" to "Submit New Manuscript"
 - [ ] **Manuscript type:** Research Article
 - [ ] **Title:** Revisiting the Internationalisation–Performance Relationship in an Emerging Market: The Roles of Technological Capability and Foundational Digital Adoption
 - [ ] **Keywords** (6): internationalisation–performance; emerging markets; digital adoption; technological capability; Vietnam; threshold durability
 - [ ] **JEL codes:** F23, O33, D22, L25, O53
 - [ ] **Abstract** (250 words): paste from `01_manuscript_blinded.docx`
-- [ ] Upload `01_manuscript_blinded.docx` → Manuscript
-- [ ] Upload `02_title_page.docx` → Title Page
-- [ ] Upload `03_cover_letter.docx` → Cover Letter
-- [ ] Upload `figures/figure_1_conceptual_model.png` → Figure 1
-- [ ] Upload `figures/figure_2a.png` → Figure 2a
-- [ ] Upload `figures/figure_2b.png` → Figure 2b
-- [ ] Upload `figures/figure_2c.png` → Figure 2c
-- [ ] Upload `figures/figure_2d.png` → Figure 2d
-- [ ] Upload `figures/figure_3_moderator_marginals.png` → Figure 3
+- [ ] Upload `01_manuscript_blinded.docx` to Manuscript
+- [ ] Upload `02_title_page.docx` to Title Page
+- [ ] Upload `03_cover_letter.docx` to Cover Letter
+- [ ] Upload `figures/figure_1_conceptual_model.png` to Figure 1
+- [ ] Upload `figures/figure_2a.png` to Figure 2a
+- [ ] Upload `figures/figure_2b.png` to Figure 2b
+- [ ] Upload `figures/figure_2c.png` to Figure 2c
+- [ ] Upload `figures/figure_2d.png` to Figure 2d
+- [ ] Upload `figures/figure_3_moderator_marginals.png` to Figure 3
 - [ ] Confirm co-author details (Phan Anh Tú as corresponding author)
 - [ ] Confirm no conflict of interest
 - [ ] Confirm no prior publication / simultaneous submission

@@ -170,13 +170,13 @@ Both the linear and quadratic terms lose significance when entered jointly, indi
 Following Haans et al. (2016), we evaluate the four necessary conditions for a curvature relationship. All four must hold for an inverted-U to be confirmed; here, all four *fail*, which is the expected signature of FIP:
 
 - **C1** (positive slope at low FSTS): β(FSTS_c) = −2.177 (*p* = .176) 
-**not significant and negative in sign**; no ascending limb at low   FSTS values
+**not significant and negative in sign**; no ascending limb at low FSTS values
 - **C2** (negative curvature β₂ \< 0): β(FSTS_c²) = +1.125 (*p* = .563), **not significant; positive sign indicates U-shape, not inverted-U**
 - **C3** (turning point within data range): TP\* = −(−2.177) / (2 ×
   1.125) = 0.968, **implied turning point lies outside the observed
-sample maximum (FSTS_max ≈ 1.0, but neither β₁ nor β₂ is   statistically significant)**
+sample maximum (FSTS_max ≈ 1.0, but neither β₁ nor β₂ is statistically significant)**
 - **C4** (Lind–Mehlum utest, Lind & Mehlum, 2010): the test 
-**fails to reject the null of monotone negative relationship; no   inverted-U detected**
+**fails to reject the null of monotone negative relationship; no inverted-U detected**
 
 The pattern is **monotone negative**, consistent with H1 and the FIP structural mechanism. There is no turning point within the observed FSTS range (0–1).
 
@@ -185,7 +185,7 @@ The pattern is **monotone negative**, consistent with H1 and the FIP structural 
 We examine three additional specifications to assess the robustness of the FIP result.
 
 **Specification M_yearFE (year fixed effects only)**: Removing country
-fixed effects, which might absorb too much structural variation  yields a substantially larger negative effect:
+fixed effects, which might absorb too much structural variation yields a substantially larger negative effect:
 
 β(FSTS) = **−3.351**, SE = 0.808, t = −4.15, p = **\<.001**
 
@@ -392,8 +392,8 @@ Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Manageme
 | ln_size | −0.034 (0.089) | +0.002 (0.089) | +0.008 (0.090) | −0.032 (0.089) | −0.102 (0.147) |, |
 | firm_age | +0.015\* (0.006) | +0.014\* (0.006) | +0.014\* (0.006) | +0.015\* (0.006) | −0.008 (0.010) |, |
 | foreign_own_pct | −0.433 (0.433) | −0.426 (0.423) | −0.426 (0.423) | −0.401 (0.449) | +0.297 (0.611) |, |
-| Country FE | ✓ | ✓ | ✓ | ✓ |, |, |
-| Year FE | ✓ | ✓ | ✓ | ✓ | ✓ |, |
+| Country FE | Có | Có | Có | Có |, |, |
+| Year FE | Có | Có | Có | Có | Có |, |
 | N | 209 | 209 | 209 | 205 | 209 | 959 |
 | R² | 0.657 | 0.667 | 0.667 | 0.678 | 0.109 | 0.004 |
 
