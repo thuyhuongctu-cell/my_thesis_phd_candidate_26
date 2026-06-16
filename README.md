@@ -50,6 +50,25 @@ Kho lưu trữ chứa toàn bộ bản thảo luận án, các cấu phần nghi
 - Luận án biên dịch (DOCX): [`dist/luan_an_ctu/LUAN_AN_FULL_vi.docx`](dist/luan_an_ctu/LUAN_AN_FULL_vi.docx)
 - Báo cáo rà soát phương pháp & biến số: [`reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md`](reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md)
 
+### 🔁 Gói tái lập OSF
+Mỗi gói gồm năm thư mục con chuẩn: `code/` · `data/` · `manuscript/` · `materials/` · `README.md`. Cấu trúc tổng thể: [`osf/OSF_PROJECT_STRUCTURE.md`](osf/OSF_PROJECT_STRUCTURE.md).
+
+| Gói | Bối cảnh | README |
+|-----|----------|--------|
+| P3 | Việt Nam | [`dist/osf/P3_vietnam/`](dist/osf/P3_vietnam/README.md) |
+| P4 | Singapore | [`dist/osf/P4_singapore/`](dist/osf/P4_singapore/README.md) |
+| P5 | Trung Quốc | [`dist/osf/P5_china/`](dist/osf/P5_china/README.md) |
+| P6 | Meta-analysis | [`dist/osf/P6_meta/`](dist/osf/P6_meta/README.md) |
+| P7 | Đa quốc gia (capstone) | [`dist/osf/P7_capstone/`](dist/osf/P7_capstone/README.md) |
+| P8 | Pacific SIDS | [`dist/osf/P8_sids/`](dist/osf/P8_sids/README.md) |
+| P9 | Ấn Độ | [`dist/osf/P9_india/`](dist/osf/P9_india/README.md) |
+| P10 | Nhật Bản | [`dist/osf/P10_japan/`](dist/osf/P10_japan/README.md) |
+
+### 🎤 Trình bày & nguồn LaTeX
+- Slide bảo vệ (PDF): [`thesis/slides/defense_slides_vi.pdf`](thesis/slides/defense_slides_vi.pdf) · nguồn: [`thesis/slides/defense_slides_vi.tex`](thesis/slides/defense_slides_vi.tex)
+- Nguồn LaTeX luận án (CTU): [`latex/ctu/LUAN_AN_CTU.tex`](latex/ctu/LUAN_AN_CTU.tex)
+- Nguồn LaTeX chuyên đề: [`latex/ctu/CD1_CTU.tex`](latex/ctu/CD1_CTU.tex) · [`latex/ctu/CD2_CTU.tex`](latex/ctu/CD2_CTU.tex)
+
 ---
 
 ## 🎯 Khung lý thuyết & phát hiện chính
