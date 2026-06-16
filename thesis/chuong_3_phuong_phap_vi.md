@@ -143,7 +143,7 @@ Random-effects model dựa trên Fisher's $z$:
 
 $$z_i = \frac{1}{2} \ln\left(\frac{1+r_i}{1-r_i}\right)$$
 
-với $r_i$ là effect size của nghiên cứu $i$. gộp effect size tính theo inverse-variance weighting (Borenstein et al., 2009).
+với $r_i$ là effect size của nghiên cứu $i$. Gộp effect size tính theo inverse-variance weighting (Borenstein et al., 2009).
 
 Heterogeneity đo bằng $Q$-test và $I^2$ (Higgins et al., 2003). Subgroup analysis và meta-regression để kiểm định các biến điều tiết.
 
