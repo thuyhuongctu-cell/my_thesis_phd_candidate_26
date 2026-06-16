@@ -132,6 +132,27 @@ Kết quả hồi quy bình phương nhỏ nhất phân tầng theo từng khố
 
 Phát hiện then chốt nằm ở mô hình tương tác (M3). Chỉ số rào cản kinh doanh tác động âm và có ý nghĩa lên năng suất ($\hat{\beta} = -0{,}076$, $p < {,}001$ ở hiệu ứng chính), nhưng tương tác giữa rào cản và chấp nhận công nghệ dương và có ý nghĩa cao ($\hat{\beta} = +0{,}110$, $p < {,}001$). Đây là bằng chứng định lượng trực tiếp cho **hiệu ứng lá chắn số**: chấp nhận công nghệ làm giảm khoảng 83% tổn thất năng suất do rào cản thể chế gây ra, theo đó ở doanh nghiệp không áp dụng công nghệ, mỗi đơn vị tăng của rào cản làm giảm năng suất khoảng 12,5%, trong khi ở doanh nghiệp có áp dụng, tổn thất biên gần như bị triệt tiêu. Khoảng cách năng suất của doanh nghiệp nhỏ và vừa cũng phụ thuộc vùng: bất lợi quy mô rõ rệt ở ASEAN (tương tác $\hat{\beta} = -0{,}390$, $p < {,}001$) nhưng gần như không tồn tại ở Đại Trung Hoa ($\hat{\beta} = 0{,}043$, không ý nghĩa). Bằng chứng nền tảng này định khung cho toàn bộ chương: dị biệt năng suất giữa các nền kinh tế châu Á không phải ngẫu nhiên mà gắn với năng lực doanh nghiệp và chất lượng thể chế, và năng lực số vận hành như cơ chế bù đắp cho thiếu hụt thể chế, đúng theo logic của khung CDCM.
 
+### 4.1.8 Gradient biên lợi nhuận và hồ sơ đặc trưng doanh nghiệp theo nhóm ICRV
+
+Phân tích phân tán năng suất ở các mục trước dựa trên thước đo bất biến tiền tệ trong từng cặp nền kinh tế và năm, nên không cho phép so sánh *mức* hiệu quả giữa các nhóm. Để bổ sung một so sánh mức hợp lệ giữa các nền kinh tế, luận án sử dụng tỷ suất lợi nhuận trên doanh thu (ROS), một tỷ số vô đơn vị không chịu ảnh hưởng của khác biệt đơn vị tiền tệ. Bảng 4.3a trình bày trung vị ROS theo sáu nhóm ICRV.
+
+**Bảng 4.3a.** *Trung vị tỷ suất lợi nhuận trên doanh thu (ROS) theo nhóm ICRV (mẫu con có dữ liệu chi phí).*
+
+| Nhóm ICRV | n | Trung vị ROS |
+|---|--:|--:|
+| I, Tiên tiến đổi mới | 3.337 | 0,503 |
+| II, Tiên tiến tài nguyên | 118¹ | 0,470 |
+| III, Trung bình cao | 13.401 | 0,455 |
+| IV, Chuyển đổi thu nhập trung bình thấp | 37.792 | 0,351 |
+| V, Đang nổi | 12.523 | 0,408 |
+| VI, Đảo nhỏ | 520¹ | 0,474 |
+
+*Ghi chú: trung vị được ưu tiên vì trung bình ở Nhóm V và VI bị méo bởi giá trị ngoại lai. ¹ Mẫu nhỏ do ít doanh nghiệp thuộc khối tài nguyên và đảo nhỏ có dữ liệu chi phí đầy đủ. Nguồn: ước lượng của tác giả từ dữ liệu thô WBES (tái lập: `scripts/relock_ros.py`).*
+
+Mô thức ROS bổ sung một chiều thông tin cho bức tranh phân tán. Biên lợi nhuận cao nhất ở chế độ tiên tiến đổi mới (khoảng 0,50) và thấp nhất ở chế độ chuyển đổi thu nhập trung bình thấp (khoảng 0,35); đây là gradient mức hợp lệ giữa các nền kinh tế, nhất quán với lý thuyết thể chế theo đó thể chế mạnh kéo theo chi phí giao dịch thấp và biên lợi nhuận cao hơn. Cần lưu ý rằng gradient này không đơn điệu hoàn toàn: các nhóm thể chế yếu nhất (V và VI) có trung vị ROS cao hơn Nhóm IV, một phần do mẫu nhỏ và do thành phần ngành dịch vụ biên cao chiếm tỷ trọng lớn ở các nền đảo nhỏ. Điểm cốt lõi là sự khác biệt mức giữa các chế độ thể chế hiện ra ở thước đo lợi nhuận hợp lệ, trong khi ở thước đo năng suất thô nó bị nhiễu tiền tệ che khuất, nên luận án đọc ROS như chỉ báo mức và đọc độ phân tán năng suất như chỉ báo phân bổ.
+
+Hồ sơ đặc trưng doanh nghiệp theo nhóm cũng phơi bày những tương phản đáng chú ý không trùng với thứ bậc thu nhập. Cường độ xuất khẩu trung bình cao nhất ở Nhóm I (13,3%) và thấp nhất ở Nhóm II tài nguyên (3,5%), phản ánh định hướng nội địa và tài nguyên của khối sau. Tỷ lệ doanh nghiệp có hiện diện số bề mặt giảm dần khá đều theo gradient thể chế, từ 61,7% ở Nhóm I xuống 41,2% ở Nhóm V, phù hợp với khoảng cách hạ tầng số. Đáng chú ý nhất, tỷ lệ nữ trong quản trị cấp cao không theo gradient thu nhập mà cao ở cả Nhóm I (27,5%), Nhóm III (29,1%) và Nhóm VI đảo nhỏ (31,8%) trong khi rất thấp ở Nhóm II tài nguyên (4,0%), một khác biệt thể chế kép gắn với bối cảnh văn hóa và nhà nước tô của khối tài nguyên dẫn dắt. Hồ sơ này củng cố lập luận xuyên suốt rằng các nhóm ICRV khác nhau về chất chứ không chỉ về mức phát triển, và do đó đòi hỏi cách đọc theo từng chế độ thay vì một thang tuyến tính duy nhất.
+
 ---
 
 ## 4.2 Kết quả tổng hợp định lượng: phân tích tổng hợp ba tầng (P6)
