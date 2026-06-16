@@ -24,7 +24,7 @@ Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứ
 
 ### 3.2.1 Cơ sở kế thừa
 
-Meta-analysis trong IB đã được thiết lập vững chắc qua nhiều thập kỷ (Hunter & Schmidt, 2004; Borenstein et al., 2009). Phương pháp chuẩn bao gồm: xây dựng inclusion criteria theo PRISMA (Page et al., 2021), chuyển dạng hiệu ứng bằng Fisher's $z$, tính gộp effect size theo random-effects, kiểm định heterogeneity bằng $Q$-test và $I^2$, và đánh giá publication bias bằng Egger và Begg-Mazumdar (Egger et al., 1997; Begg & Mazumdar, 1994). Các meta-analyses trước đây về I–P (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) cung cấp quy trình mẫu mà luận án kế thừa và cập nhật.
+Meta-analysis trong IB đã được thiết lập vững chắc qua nhiều thập kỷ (Hunter & Schmidt, 2004; Borenstein et al., 2009). Phương pháp chuẩn bao gồm: xây dựng inclusion criteria theo PRISMA (Page et al., 2021), chuyển dạng hiệu ứng bằng Fisher's $z$, tính gộp effect size theo random-effects, kiểm định dị biệt bằng $Q$-test và $I^2$, và đánh giá publication bias bằng Egger và Begg-Mazumdar (Egger et al., 1997; Begg & Mazumdar, 1994). Các meta-analyses trước đây về I–P (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) cung cấp quy trình mẫu mà luận án kế thừa và cập nhật.
 
 ### 3.2.2 Đóng góp mới/điều chỉnh
 
@@ -145,7 +145,7 @@ $$z_i = \frac{1}{2} \ln\left(\frac{1+r_i}{1-r_i}\right)$$
 
 với $r_i$ là effect size của nghiên cứu $i$. Gộp effect size tính theo inverse-variance weighting (Borenstein et al., 2009).
 
-Heterogeneity đo bằng $Q$-test và $I^2$ (Higgins et al., 2003). Subgroup analysis và meta-regression để kiểm định các biến điều tiết.
+Dị biệt đo bằng $Q$-test và $I^2$ (Higgins et al., 2003). Subgroup analysis và meta-regression để kiểm định các biến điều tiết.
 
 **Cơ sở kế thừa**: chuẩn meta-analysis trong quản trị chiến lược (Combs et al., 2011; Aguinis et al., 2011).
 

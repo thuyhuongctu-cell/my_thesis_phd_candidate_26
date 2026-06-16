@@ -60,7 +60,7 @@
 
 # 1. Phenomenon-based positioning — vì sao luận án này khác
 
-Luận án của NCS là **cumulative dissertation** với **11 component papers** (P1–P11), **multi-country WBES 50 economies (including Japan)**, **institutional gradient narrative** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime V/Frontier). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
+Luận án của NCS là **cumulative dissertation** với **11 component papers** (P1–P11), **multi-country WBES 50 economies (including Japan)**, **institutional gradient narrative** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime VI/Frontier). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
 
 Tông luận này đối chiếu luận án với các công trình nghiên cứu quốc tế và châu Á tương đương để chứng minh **tính mới và đóng góp độc đáo** trong bối cảnh học thuật quốc tế hiện nay.
 
