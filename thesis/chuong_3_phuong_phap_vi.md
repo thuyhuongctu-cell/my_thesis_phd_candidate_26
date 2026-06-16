@@ -45,7 +45,7 @@ Luận án sử dụng World Bank Enterprise Surveys cho **50 nền kinh tế ch
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về thị trường mới nổi (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng emerging Asia với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (nghiên cứu thành phần P1).
 
-**Đóng góp mới**: mở rộng quy mô từ 17 sang **50 nền kinh tế châu Á và Thái Bình Dương**, với 6 chế độ con ICRV (Advanced innovation-driven, Advanced resource-driven, Upper-middle, Lower-middle transition, Emerging, SIDS). Quy mô này là lớn nhất cho khu vực trong văn liệu quốc tế hóa–performance, gồm cả trường hợp biên đảo nhỏ Thái Bình Dương (7 nước, n=959 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced quốc tế hóa penalty (nghiên cứu thành phần P8).
+**Đóng góp mới**: mở rộng quy mô từ 17 sang **50 nền kinh tế châu Á và Thái Bình Dương**, với 6 chế độ con ICRV (Advanced innovation-driven, tiên tiến tài nguyên, trung bình cao, chuyển đổi thu nhập trung bình thấp, đang nổi, SIDS). Quy mô này là lớn nhất cho khu vực trong văn liệu quốc tế hóa–performance, gồm cả trường hợp biên đảo nhỏ Thái Bình Dương (7 nước, n=959 (mẫu phân tích sau lọc missing)) cho phép kiểm định forced quốc tế hóa penalty (nghiên cứu thành phần P8).
 
 > **Ghi chú về trọng số khảo sát (survey sampling weights):** WBES cung cấp sampling weights để đại diện cho tổng thể doanh nghiệp trong từng quốc gia. Tuy nhiên, luận án *không áp dụng sampling weights* trong ước lượng mô hình hồi quy vì ba lý do: (1) Mục tiêu của luận án là kiểm định cơ chế lý thuyết (mechanism testing) chứ không phải ước lượng mô tả đại diện tổng thể (population-representative descriptive estimation), trong bối cảnh này, không áp dụng weights là thực hành chuẩn trong văn liệu IB sử dụng WBES (Aterido et al., 2011; Cuervo-Cazurra et al., 2018); (2) hiệu ứng cố định ở cấp cặp nền kinh tế và năm đã kiểm soát đặc điểm cấu trúc của từng sóng khảo sát; (3) Việc áp dụng weights có thể làm sai lệch ước lượng khi mẫu được gộp chung từ nhiều quốc gia có quy mô tổng thể doanh nghiệp khác nhau nhiều bậc (ví dụ: Trung Quốc ~100 triệu so với Tonga ~500 doanh nghiệp). Phân tích độ nhạy có áp dụng survey weights cho từng quốc gia riêng lẻ (P3/P4/P5) không thay đổi hướng hoặc mức độ ý nghĩa của các hệ số chính (xem Mục 3.5).
 
@@ -454,7 +454,7 @@ $$\text{Tương tác chế độ-yếu: FSTS} \times \text{Weak} = -0{,}523\ (p 
 | CSS_z | c22b/e1, k33 | chuẩn hóa z(website + e-payment): Tầng 1 và 2 | Số hoá (DAI) |
 | KNQLy | b7 | năm kinh nghiệm nhà quản lý trong ngành | Quản trị |
 | NQL_nu | b7a/b6a | 1 nếu top manager là nữ | Quản trị |
-| ICRV | phân loại | integer 1–6 (Advanced Innovation đến SIDS) | Thể chế |
+| ICRV | phân loại | integer 1–6 (tiên tiến đổi mới đến SIDS) | Thể chế |
 | lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
 | TuoiDN | b5 | năm_khảo_sát − b5 | Control (tuổi DN) |
 | SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |

@@ -26,7 +26,7 @@ Phân tích mô tả trên khung 50 nền kinh tế châu Á và Thái Bình Dư
 | Nhóm II: Advanced tài nguyên (GCC) | 2.269 | 1,14² | ~3 | ~8 | n/a |
 | Nhóm III: trung bình cao (CHN, MYS, THA, KAZ…) | 17.905 | 1,37 | 10,3 | 21,7 | 8,4 |
 | Nhóm IV: chuyển đổi thu nhập trung bình thấp (VNM, IND, IDN, PHL, BGD, PAK, MNG) | 50.926 | 1,31 | 8,6 | 15,5 | 4,7 |
-| Nhóm V: Emerging (LAO, KHM, NPL, LKA, JOR…) | 18.569 | **1,39** | 10,1 | 16,6 | 5,9 |
+| Nhóm V: đang nổi (LAO, KHM, NPL, LKA, JOR…) | 18.569 | **1,39** | 10,1 | 16,6 | 5,9 |
 | Nhóm VI: SIDS (FJI, PNG, SLB…) | 2.038 | 1,32 | 6,3 | 16,3 | 23,5 |
 | **Tổng (phân loại ICRV)** | **96.415** | n/a | n/a | n/a | n/a |
 
@@ -34,7 +34,7 @@ Phân tích mô tả trên khung 50 nền kinh tế châu Á và Thái Bình Dư
 
 *Ghi chú: Cột n là số doanh nghiệp được phân loại vào sáu nhóm ICRV trong pool gộp WBES (tổng 96.415; ngoài ra còn ~10.350 doanh nghiệp chưa gán nhóm ICRV do thiếu chỉ số thể chế). Mẫu hồi quy chính của P7 là N = 81.022 (mô hình M2, khung 50 nền gồm Nhật Bản) và giảm còn 79.080 ở M5 khi bổ sung biến kiểm soát (xem Mục 4.6.1), do loại các quan sát thiếu biến phụ thuộc/FSTS. ¹ Độ lệch chuẩn ln(năng suất lao động) tính trong từng cặp nền kinh tế × năm rồi lấy trung vị giữa các đợt của nhóm, bất biến với đơn vị tiền tệ (thừa số quy đổi triệt tiêu trên thang log); năng suất được winsorize 1/99 trong cụm country-year (xem Mục 3.5.3). ² Trung vị Nhóm II bị kéo lên bởi các nền nhỏ; hai nền lớn nhất khối có phân tán hẹp nhất toàn pool (Saudi Arabia 0,49; Qatar 0,33).*
 
-*Quy ước nhãn nhóm ICRV (căn theo nhãn dữ liệu P7): Nhóm I = Advanced innovation-driven; Nhóm II = Advanced resource-driven; Nhóm III = Upper-middle; **Nhóm IV = Lower-middle transition** (`Lower_mid_transition`: Bangladesh, Ấn Độ, Indonesia, Mông Cổ, Pakistan, Philippines, Việt Nam); **Nhóm V = Emerging** (`Emerging`: 17 nền gồm Campuchia, Lào, Nepal, Sri Lanka, Jordan…); Nhóm VI = SIDS (`SIDS_small`). Hệ nhãn này được dùng thống nhất trong toàn bộ luận án và hai chuyên đề.*
+*Quy ước nhãn nhóm ICRV (căn theo nhãn dữ liệu P7): Nhóm I = Advanced innovation-driven; Nhóm II = tiên tiến tài nguyên; Nhóm III = trung bình cao; **Nhóm IV = chuyển đổi thu nhập trung bình thấp** (`Lower_mid_transition`: Bangladesh, Ấn Độ, Indonesia, Mông Cổ, Pakistan, Philippines, Việt Nam); **Nhóm V = đang nổi** (`Emerging`: 17 nền gồm Campuchia, Lào, Nepal, Sri Lanka, Jordan…); Nhóm VI = SIDS (`SIDS_small`). Hệ nhãn này được dùng thống nhất trong toàn bộ luận án và hai chuyên đề.*
 
 Phát hiện quan trọng nhất từ thực trạng mô tả là sự phân biệt nội bộ trong nhóm Advanced. Hai phân nhóm cùng mức thu nhập cao nhưng đối lập về cấu trúc: nhóm đổi mới sáng tạo dẫn dắt có R&D 21,0%, ISO 32,5% và 24,5% doanh nghiệp xuất khẩu, trong khi nhóm tài nguyên dẫn dắt chỉ có R&D 7,0% và 11,7% doanh nghiệp xuất khẩu (Chuyên đề 1). Về phân phối, hai nền lớn nhất Vùng Vịnh có phân tán năng suất trong đợt hẹp nhất toàn pool (Saudi Arabia 0,49; Qatar 0,33, so với Singapore 1,08, chênh hơn 2 lần), biểu hiện của kinh tế nhà nước tô (rentier economy) nơi phân phối lại từ xuất khẩu dầu mỏ thu hẹp khoảng cách năng suất giữa doanh nghiệp, nhưng không nhất thiết phản ánh hiệu quả doanh nghiệp đáng kể. Điều này gợi ý rằng việc gộp hai loại Advanced vào một nhóm duy nhất (như các nghiên cứu trước thường làm) sẽ che khuất cơ chế quan trọng này.
 
@@ -48,7 +48,7 @@ Sự gia tăng của độ phân tán năng suất trong đợt theo gradient IC
 
 Trung vị FSTS bằng 0% trong tất cả các phân nhóm, chỉ 15–23% doanh nghiệp tham gia xuất khẩu tùy theo bối cảnh. Phân phối FSTS có dạng phân cực mạnh: đại đa số không xuất khẩu, trong khi một thiểu số nhỏ có tỷ lệ xuất khẩu rất cao. Phân cực này đặt ra vấn đề phương pháp quan trọng cho nghiên cứu quốc tế hóa và hiệu quả: kết quả hồi quy trên toàn mẫu bị kéo bởi hành vi của thiểu số xuất khẩu tích cực.
 
-Cường độ quốc tế hóa (FSTS trung bình, tính trên toàn mẫu gồm cả doanh nghiệp không xuất khẩu) dao động từ 6,3% (SIDS) đến 10,3% (Upper-middle), với mức trung bình khu vực khoảng 8,8%. Điều đáng chú ý là trung bình cao và Advanced có cùng FSTS trung bình (~10%) nhưng cơ chế xuất khẩu hoàn toàn khác: Advanced chủ yếu dịch vụ và hàng hóa hàm lượng tri thức cao; trung bình cao chủ yếu sản xuất theo chuỗi giá trị toàn cầu với biên lợi nhuận khác nhau.
+Cường độ quốc tế hóa (FSTS trung bình, tính trên toàn mẫu gồm cả doanh nghiệp không xuất khẩu) dao động từ 6,3% (SIDS) đến 10,3% (trung bình cao), với mức trung bình khu vực khoảng 8,8%. Điều đáng chú ý là trung bình cao và Advanced có cùng FSTS trung bình (~10%) nhưng cơ chế xuất khẩu hoàn toàn khác: Advanced chủ yếu dịch vụ và hàng hóa hàm lượng tri thức cao; trung bình cao chủ yếu sản xuất theo chuỗi giá trị toàn cầu với biên lợi nhuận khác nhau.
 
 ![Hình 4.3. Quỹ đạo tăng trưởng theo nhóm ICRV](figures/fig_4_4_growth_pathway.png)
 
@@ -79,7 +79,7 @@ Một biểu hiện khác của bão hòa Tầng 1 nằm ở tương quan giữa
 
 ### 4.1.4 Bốn rào cản cấu trúc ảnh hưởng đến quốc tế hóa và hiệu quả
 
-Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biến nhất ảnh hưởng đến khả năng quốc tế hóa và hiệu quả doanh nghiệp tại châu Á: (i) tiếp cận tài chính hạn chế, đặc biệt nghiêm trọng ở Emerging và chuyển đổi thu nhập trung bình thấp (Nhóm V–IV); (ii) thiếu hụt lao động có kỹ năng; (iii) cạnh tranh từ doanh nghiệp phi chính thức; và (iv) nguồn cung điện không đáng tin cậy. Bốn rào cản này hình thành "khoảng trống thể chế" (Khanna & Palepu, 2010) tạo ra chi phí giao dịch bổ sung cho doanh nghiệp khi mở rộng hoạt động ra ngoài biên giới. Sự hiện diện đồng thời của nhiều voids tại Emerging và SIDS giải thích tại sao quan hệ quốc tế hóa và hiệu quả ở các nhóm này yếu hoặc âm.
+Phân tích thực trạng xác định bốn rào cản cấu trúc phổ biến nhất ảnh hưởng đến khả năng quốc tế hóa và hiệu quả doanh nghiệp tại châu Á: (i) tiếp cận tài chính hạn chế, đặc biệt nghiêm trọng ở đang nổi và chuyển đổi thu nhập trung bình thấp (Nhóm V–IV); (ii) thiếu hụt lao động có kỹ năng; (iii) cạnh tranh từ doanh nghiệp phi chính thức; và (iv) nguồn cung điện không đáng tin cậy. Bốn rào cản này hình thành "khoảng trống thể chế" (Khanna & Palepu, 2010) tạo ra chi phí giao dịch bổ sung cho doanh nghiệp khi mở rộng hoạt động ra ngoài biên giới. Sự hiện diện đồng thời của nhiều voids tại đang nổi và SIDS giải thích tại sao quan hệ quốc tế hóa và hiệu quả ở các nhóm này yếu hoặc âm.
 
 ### 4.1.5 Nhật Bản 2025: Lần đầu tiên được khảo sát và vị trí trong khung ICRV
 
@@ -254,7 +254,7 @@ Cảnh báo về công suất thống kê cần được định lượng cụ t
 
 ### 4.4.1 Xác nhận quan hệ phi tuyến và điểm uốn
 
-Phân tích hai giai đoạn trên dữ liệu WBES Trung Quốc (Nhóm III, Upper-middle) giai đoạn 2012–2024 xác nhận dạng quan hệ phi tuyến chữ U ngược giữa FSTS và hiệu quả hoạt động doanh nghiệp. Điểm điểm uốn được ước lượng tại:
+Phân tích hai giai đoạn trên dữ liệu WBES Trung Quốc (Nhóm III, trung bình cao) giai đoạn 2012–2024 xác nhận dạng quan hệ phi tuyến chữ U ngược giữa FSTS và hiệu quả hoạt động doanh nghiệp. Điểm điểm uốn được ước lượng tại:
 
 - **Năm 2012**: TP = 49,37% FSTS
 - **Năm 2024**: TP = 47,19% FSTS
