@@ -1,31 +1,69 @@
 <div align="center">
 
 BỘ GIÁO DỤC VÀ ĐÀO TẠO
-TRƯỜNG ĐẠI HỌC CẦN THƠ
-TRƯỜNG KINH TẾ
+**TRƯỜNG ĐẠI HỌC CẦN THƠ**
 
-─────────────────────────────────────────
+&nbsp;
+&nbsp;
 
-# ĐỖ THÙY HƯƠNG
+**ĐỖ THÙY HƯƠNG**
 
-## QUỐC TẾ HÓA VÀ HIỆU QUẢ HOẠT ĐỘNG CỦA DOANH NGHIỆP TẠI CHÂU Á: VAI TRÒ ĐIỀU TIẾT CỦA THỂ CHẾ, NĂNG LỰC SỐ VÀ ĐẶC ĐIỂM NHÀ QUẢN TRỊ
+&nbsp;
+&nbsp;
 
-*(Tiêu đề dự thảo, NCS xác nhận tiêu đề chính thức đã đăng ký với cơ sở đào tạo)*
+**QUỐC TẾ HÓA VÀ HIỆU QUẢ HOẠT ĐỘNG KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á**
 
-LUẬN ÁN TIẾN SĨ
+&nbsp;
+&nbsp;
 
-Ngành: Quản trị kinh doanh
-Mã ngành: 9340101
-Mã nghiên cứu sinh: P1323001
+**LUẬN ÁN TIẾN SĨ**
+NGÀNH QUẢN TRỊ KINH DOANH
 
-NGƯỜI HƯỚNG DẪN KHOA HỌC
-*[NCS xác nhận: TS. Nguyễn Minh Cảnh / PGS.TS. Phan Anh Tú]*
+&nbsp;
+&nbsp;
 
-Cần Thơ, năm 2026
+CẦN THƠ, NĂM 2026
+
+</div>
+
+\newpage
+
+<div align="center">
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+**TRƯỜNG ĐẠI HỌC CẦN THƠ**
+
+&nbsp;
+&nbsp;
+
+**ĐỖ THÙY HƯƠNG**
+
+&nbsp;
+
+**QUỐC TẾ HÓA VÀ HIỆU QUẢ HOẠT ĐỘNG KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á**
+
+&nbsp;
+&nbsp;
+
+**LUẬN ÁN TIẾN SĨ**
+NGÀNH QUẢN TRỊ KINH DOANH
+MÃ NGÀNH: 9340101
+
+&nbsp;
+&nbsp;
+
+**NGƯỜI HƯỚNG DẪN KHOA HỌC**
+PGS.TS. PHAN ANH TÚ
+
+&nbsp;
+&nbsp;
+
+CẦN THƠ, NĂM 2026
 
 </div>
 
 ---
+
 
 ## LỜI CAM ĐOAN
 
@@ -149,7 +187,7 @@ Key findings: (1) the I–P relationship is inverted-U shaped with a pooled turn
 - Bảng 4.4. Tiến triển các mô hình lồng nhau của P7 trên khung 50 nền (Chương 4, Mục 4.6)
 - Bảng 4.5. Điểm uốn theo nhóm ICRV, khung 50 nền (Chương 4, Mục 4.6)
 - Bảng 4.6. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, Mục 4.8)
-- Bảng 4.7. Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm (Chương 4, Mục 4.10)
+- Bảng 4.7. Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm (Chương 4, Mục 4.11)
 
 **Bảng chuyên đề (không đánh số, theo mục):**
 - Bảng định nghĩa biến, Nghiên cứu P3 Việt Nam (Chương 3, Mục 3.4.5.1)
@@ -158,7 +196,7 @@ Key findings: (1) the I–P relationship is inverted-U shaped with a pooled turn
 - Bảng định nghĩa biến, Nghiên cứu P7 đa quốc gia (Chương 3, Mục 3.4.5.4)
 - Bảng định nghĩa biến, Nghiên cứu P8 SIDS (Chương 3, Mục 3.4.5.5)
 - Bảng tóm tắt phương pháp: Kế thừa và đóng góp mới (Chương 3, Mục 3.6)
-- Bảng tổng hợp kết quả kiểm định hệ giả thuyết H1–H6, H1b, H1c (Chương 4, Mục 4.10)
+- Bảng tổng hợp kết quả kiểm định hệ giả thuyết H1–H6, H1b, H1c (Chương 4, Mục 4.11)
 
 ## DANH MỤC HÌNH
 
