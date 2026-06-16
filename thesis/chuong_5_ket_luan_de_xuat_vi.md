@@ -72,7 +72,7 @@ Tuy nhiên, đóng góp của P6 so với baseline không phải ở pooled $r$ 
 
 Lu và Beamish (2004) và Contractor et al. (2003) là hai công trình nền tảng về quan hệ phi tuyến I–P. Lu và Beamish (2004) tìm điểm uốn khoảng 60% FSTS trong mẫu doanh nghiệp Nhật Bản, trong khi Contractor et al. (2003) đề xuất S-curve ba giai đoạn. Luận án này vượt qua hai công trình đó theo ba hướng:
 
-**Thứ nhất**, luận án chứng minh rằng điểm uốn **không cố định** mà phụ thuộc vào bối cảnh ICRV: từ TP ≈ 88,6% (Singapore, Advanced Innovation; lưu ý điểm uốn này không định vị tin cậy do CI vượt ngưỡng khả thi, xem §4.3) đến TP ≈ 39,7% (Việt Nam pooled, Lower-mid Transition), với Trung Quốc ở mức trung gian (TP ≈ 48,78%). Không có một điểm uốn phổ quát cho tất cả bối cảnh.
+**Thứ nhất**, luận án chứng minh rằng điểm uốn **không cố định** mà phụ thuộc vào bối cảnh ICRV: từ TP ≈ 88,6% (Singapore, Advanced Innovation; lưu ý điểm uốn này không định vị tin cậy do CI vượt ngưỡng khả thi, xem Mục 4.3) đến TP ≈ 39,7% (Việt Nam pooled, Lower-mid Transition), với Trung Quốc ở mức trung gian (TP ≈ 48,78%). Không có một điểm uốn phổ quát cho tất cả bối cảnh.
 
 **Thứ hai**, luận án xác định trường hợp biên FIP tại SIDS, không phải là S-curve hay chữ U ngược mà là quan hệ âm đơn điệu, điều mà cả ba-stage theory lẫn S-curve không dự báo được.
 

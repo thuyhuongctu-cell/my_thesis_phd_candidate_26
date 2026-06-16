@@ -155,7 +155,7 @@ Năng lực công nghệ ($\tilde{\mathrm{TCI}}$)
 H2
 H2 (điều tiết)
 
-Quốc tế hoá → H1 (không đơn điệu) → Hiệu quả hoạt động doanh nghiệp
+Quốc tế hoá dẫn đến H1 (không đơn điệu), dẫn đến Hiệu quả hoạt động doanh nghiệp
 ($\mathrm{FSTS}^{c}$, $(\mathrm{FSTS}^{c})^2$)
 (ln năng suất lao động)
 H4 (điều tiết, khám phá)

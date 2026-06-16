@@ -143,7 +143,7 @@ Hình 2.2. Khung khái niệm tích hợp CĐ2, chi tiết với bằng chứng 
 | FSTS | Foreign Sales to Total Sales ratio, Tỉ lệ doanh thu xuất khẩu trên tổng doanh thu |
 | GMM | Generalized Method of Moments |
 | HC1/HC3 | Heteroskedasticity-Consistent Standard Errors (Long & Ervin, 2000) |
-| I→P | Internationalization → Performance, Quan hệ quốc tế hóa và hiệu quả |
+| I–P | Internationalization–Performance, Quan hệ quốc tế hóa và hiệu quả |
 | IB | International Business, Kinh doanh quốc tế |
 | ICRV | Institutional Context Regime Variation, Phân loại chế độ thể chế |
 | ICT | Information and Communications Technology |
@@ -293,15 +293,15 @@ Kết luận tổng quan: hiệu ứng trung bình I–P là dương nhỏ (r kh
 
 Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết của các khung tham chiếu chính và CĐ2.
 
-| Khung | Phi tuyến I→P | TCI | DAI | Đặc điểm QL | Thể chế (Inst.) | Temporal | Phân nhóm | SIDS |
+| Khung | Phi tuyến I–P | TCI | DAI | Đặc điểm QL | Thể chế (Inst.) | Temporal | Phân nhóm | SIDS |
 |-------|--------------|-----|-----|-------------|-----------------|----------|-----------|------|
-| Bausch & Krist (2007) | ✗ (không kiểm định hệ thống) | Partial (R&D proxy) | ✗ | ✗ | ✓ (GDP, văn hóa) | ✗ | ✗ | ✗ |
-| Kirca et al. (2012) | ✗ | ✓ (R&D proxy) | ✗ | ✗ | Partial | ✗ | Partial (ngành) | ✗ |
-| Marano et al. (2016) | ✓ (TP ±15% FSTS) | ✗ | ✗ | ✗ | ✓ (cốt lõi) | ✗ | ✗ | ✗ |
-| Banalieva & Dhanaraj (2019) | Partial | ✗ | ✓ (cốt lõi) | ✗ | Partial | Partial | ✗ | ✗ |
-| Wu, Wood & Khan (2022) | ✓ (TP thấp hơn EMNE) | Partial (absorptive capacity) | ✗ | ✗ | Có | ✓ (20 năm) | ✓ (EMNE/DMNE) | ✗ |
-| Đỗ & Phan (2026, JFAR) | ✓ (bậc ba / S-curve) | – | – | – | – | – | – | – |
-| **CĐ2 (luận án này)** | **✓ (H1: chữ U ngược + S-curve)** | **✓ (H2: nhân quả IV)** | **✓ (H3: CDCM phân biệt)** | **✓ (H4a–H4c)** | **✓ (H5: ICRV 6 nhóm)** | **✓ (H6: 3 giai đoạn)** | **✓ (Nhóm I→VI)** | **✓ (Nhóm VI FIP)** |
+| Bausch & Krist (2007) | ✗ (không kiểm định hệ thống) | Partial (R&D proxy) | ✗ | ✗ | Có (GDP, văn hóa) | ✗ | ✗ | ✗ |
+| Kirca et al. (2012) | ✗ | Có (R&D proxy) | ✗ | ✗ | Partial | ✗ | Partial (ngành) | ✗ |
+| Marano et al. (2016) | Có (TP ±15% FSTS) | ✗ | ✗ | ✗ | Có (cốt lõi) | ✗ | ✗ | ✗ |
+| Banalieva & Dhanaraj (2019) | Partial | ✗ | Có (cốt lõi) | ✗ | Partial | Partial | ✗ | ✗ |
+| Wu, Wood & Khan (2022) | Có (TP thấp hơn EMNE) | Partial (absorptive capacity) | ✗ | ✗ | Có | Có (20 năm) | Có (EMNE/DMNE) | ✗ |
+| Đỗ & Phan (2026, JFAR) | Có (bậc ba / S-curve) | – | – | – | – | – | – | – |
+| **CĐ2 (luận án này)** | **Có (H1: chữ U ngược + S-curve)** | **Có (H2: nhân quả IV)** | **Có (H3: CDCM phân biệt)** | **Có (H4a–H4c)** | **Có (H5: ICRV 6 nhóm)** | **Có (H6: 3 giai đoạn)** | **Có (Nhóm I–VI)** | **Có (Nhóm VI FIP)** |
 
 *Ghi chú: "Có" = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; ✗ = không bao gồm; – = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
 
@@ -309,7 +309,7 @@ Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết c
 
 P3 Việt Nam (Đỗ & Phan, 2026, JABS đang phản biện): Phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với kiểm định Lind–Mehlum p < 0,001 (tổng hợp). Điểm uốn: 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp). P3 phân tách H1 thành hai mệnh đề: bước nhảy từ không xuất khẩu sang xuất khẩu là biên năng suất chính (nhất quán với mô hình chọn lọc năng suất xuất khẩu của Melitz, 2003); trong mẫu chỉ gồm doanh nghiệp xuất khẩu, đường cong gần phẳng. TCI (b8+e6) dương bền vững (β = 0,179 tổng hợp, p < 0,001); biến công cụ cho TCI nhân quả (β = 1,639, F bậc một = 22,1). DAI phụ thuộc giai đoạn, dương năm 2009 (β = 0,175), null năm 2015, có tương tác âm năm 2023 (FSTS_c×DAI_z = −0,912, p = 0,043); biến công cụ cho DAI null (β = 0,018, p = 0,942, F bậc một = 34,6), phụ thuộc chọn lựa, không nhân quả.
 
-*Lưu ý về đặc tả mô hình P3: P3 Vietnam sử dụng chuỗi M0–M8 riêng, trong đó M8 là mô hình đầy đủ: lnLP_it = α + β₁ FSTS_c + β₂ FSTS_c² + β₃ TCI_z + β₄ DAI_z + β₅(FSTS_c × DAI_z) + β₆(FSTS_c² × DAI_z) + γ·X + δ_s + [λ_t] + ε_it. Đặc tả đầy đủ M0–M8 và bảng định nghĩa biến được trình bày trong bản thảo P3 (§3.2–§3.3) và luận án (§4.5.1). Chuỗi M0–M7 trong Chuyên đề 2 là các mô hình cấp độ pool 47 quốc gia, khác với đặc tả cấp độ quốc gia của P3.*
+*Lưu ý về đặc tả mô hình P3: P3 Vietnam sử dụng chuỗi M0–M8 riêng, trong đó M8 là mô hình đầy đủ: lnLP_it = α + β₁ FSTS_c + β₂ FSTS_c² + β₃ TCI_z + β₄ DAI_z + β₅(FSTS_c × DAI_z) + β₆(FSTS_c² × DAI_z) + γ·X + δ_s + [λ_t] + ε_it. Đặc tả đầy đủ M0–M8 và bảng định nghĩa biến được trình bày trong bản thảo P3 (Mục 3.2–Mục 3.3) và luận án (Mục 4.5.1). Chuỗi M0–M7 trong Chuyên đề 2 là các mô hình cấp độ pool 47 quốc gia, khác với đặc tả cấp độ quốc gia của P3.*
 
 P4 Singapore (Mar, Đỗ & Phan, 2026, MIR đang phản biện): Phân tích 623 doanh nghiệp WBES 2023. Trong nền kinh tế số bão hòa, đường cong I–P chủ yếu dương, điểm uốn hàm ý ở FSTS khoảng 88,6% (vùng thưa dữ liệu; kiểm định Lind–Mehlum p = 0,303). DAI×FSTS² = +3,119 (p = 0,005), DAI là nguồn lực mở rộng tình huống, chỉ phát huy ở FSTS cao nơi nhu cầu điều phối xuyên biên giới dày đặc. TCI dương trực tiếp (β = 0,153).
 
@@ -320,7 +320,7 @@ Bảng 2.3. So sánh bằng chứng bốn bản thảo đồng hành.
 | Chiều | P2 Trung Quốc SMEs (Nhóm III) | P3 Việt Nam (Nhóm IV) | P4 Singapore (Nhóm I) | P5 Trung Quốc (Nhóm III) |
 |-------|-------------------------------|----------------------|----------------------|--------------------------|
 | Journal | JFAR (đã công bố 2026) | JABS (under review) | MIR (under review) | IJOEM (under review) |
-| Dạng I→P | **Bậc ba / cubic** (S-curve ba giai đoạn) | Chữ U ngược xác nhận | Chủ yếu dương, TP ~88,6% | Chữ U ngược bền vững |
+| Dạng I–P | **Bậc ba / cubic** (S-curve ba giai đoạn) | Chữ U ngược xác nhận | Chủ yếu dương, TP ~88,6% | Chữ U ngược bền vững |
 | Điểm uốn | Hai điểm uốn (cubic) | 39–46% FSTS | ~88,6% (thưa dữ liệu) | 47–49% FSTS |
 | TCI | Dương; RBV xác nhận | Dương bền vững, nhân quả (IV) | Dương trực tiếp | Dương, tăng theo thời gian |
 | DAI | Không kiểm định (pre-CDCM) | Phụ thuộc giai đoạn; IV null | Mở rộng tình huống (+3,119) | Kiểm soát (Tier 1 bão hòa) |
@@ -397,7 +397,7 @@ Bảng 2.1. Mỗi tầng lý thuyết, câu hỏi phụ, biến số, giả thuy
 | Tầng | Lý thuyết | Câu hỏi phụ | Biến số chính | Giả thuyết | Bằng chứng P3/P4/P5 |
 |---|---|---|---|---|---|
 | 1 | Uppsala | Cường độ QTH có hiệu ứng phi tuyến không? | I (FSTS, FSTS²) | H1 Phi tuyến chữ U ngược | P3: TP 39–46%; P5: TP 47–49% |
-| 2 | RBV | Năng lực doanh nghiệp ảnh hưởng thế nào đến hấp thụ lợi ích I? | TCI | H2 TCI điều tiết (+) | P3: β = 0,179 nhân quả (IV); P5: +0,260 → +0,426 |
+| 2 | RBV | Năng lực doanh nghiệp ảnh hưởng thế nào đến hấp thụ lợi ích I? | TCI | H2 TCI điều tiết (+) | P3: β = 0,179 nhân quả (IV); P5: +0,260 đến +0,426 |
 | Digital Adoption Lens | CDCM | Năng lực số có cơ chế khác TCI không? | DAI | H3a–H3b DAI phụ thuộc chế độ thể chế | P4: DAI×FSTS² = +3,119 (Nhóm I); P3: IV null (β = 0,018, Nhóm IV) |
 | 4 | Upper Echelons | Đặc điểm nhà quản trị tác động thế nào? | Top manager | H4a–H4c Quản trị điều tiết | (kiểm định trong M5, dữ liệu WBES) |
 | 3 | Institutional | Thể chế nội địa định hình quan hệ ra sao? | ICRV (6 nhóm) | H5 Gradient thể chế | Phân tích mô tả CĐ1: phân tán LP tăng theo chế độ |
@@ -418,7 +418,7 @@ Khung khái niệm được xây dựng theo quy trình năm bước (Whetten, 1
 
 *Hình 2.1.* Khung khái niệm tích hợp Chuyên đề 2 (H1–H6, năm tầng lý thuyết).
 
-Mũi tên liền nét biểu thị tác động trực tiếp (H1: quan hệ phi tuyến I–P). Mũi tên đứt nét biểu thị tác động điều tiết. H1–H6 tương ứng với các giả thuyết phát triển trong §2.3.4. Biến phụ thuộc (ln(Labour Productivity)) được xác định duy nhất ở cực phải. Biến độc lập (FSTS, FSTS²_c, FSTS³_c) ở cực trái. Năm nhóm biến điều tiết phân theo hai cấp: cấp doanh nghiệp (TCI, H2, DAI, H3, đặc điểm nhà quản trị, H4a–H4c) và cấp quốc gia (ICRV regime, H5, giai đoạn thời gian, H6). Biến kiểm soát (ln(emp), firm_age, foreign_own, sector/country/year FE) được đưa vào mô hình thực nghiệm nhưng không hiển thị trong sơ đồ để đơn giản hóa trình bày. Mỗi tầng lý thuyết cung cấp cơ chế nhân quả riêng biệt: Uppsala giải thích đường cong I–P; RBV biện minh cho H2; Foundational Digital Adoption Framework (CDCM) biện minh cho H3; Upper Echelons biện minh cho H4; Institutional Theory biện minh cho H5. Bằng chứng neo đậu từ P3 Việt Nam, P4 Singapore và P5 Trung Quốc xác nhận tính khả nghiệm trước khi áp dụng cho toàn pool 88.869 doanh nghiệp (50 nền, gồm Nhật Bản).
+Mũi tên liền nét biểu thị tác động trực tiếp (H1: quan hệ phi tuyến I–P). Mũi tên đứt nét biểu thị tác động điều tiết. H1–H6 tương ứng với các giả thuyết phát triển trong Mục 2.3.4. Biến phụ thuộc (ln(Labour Productivity)) được xác định duy nhất ở cực phải. Biến độc lập (FSTS, FSTS²_c, FSTS³_c) ở cực trái. Năm nhóm biến điều tiết phân theo hai cấp: cấp doanh nghiệp (TCI, H2, DAI, H3, đặc điểm nhà quản trị, H4a–H4c) và cấp quốc gia (ICRV regime, H5, giai đoạn thời gian, H6). Biến kiểm soát (ln(emp), firm_age, foreign_own, sector/country/year FE) được đưa vào mô hình thực nghiệm nhưng không hiển thị trong sơ đồ để đơn giản hóa trình bày. Mỗi tầng lý thuyết cung cấp cơ chế nhân quả riêng biệt: Uppsala giải thích đường cong I–P; RBV biện minh cho H2; Foundational Digital Adoption Framework (CDCM) biện minh cho H3; Upper Echelons biện minh cho H4; Institutional Theory biện minh cho H5. Bằng chứng neo đậu từ P3 Việt Nam, P4 Singapore và P5 Trung Quốc xác nhận tính khả nghiệm trước khi áp dụng cho toàn pool 88.869 doanh nghiệp (50 nền, gồm Nhật Bản).
 
 ##### Hình 2.2: Cơ chế CDCM chi tiết
 
@@ -445,7 +445,7 @@ Bảng 2.4. Mapping biến đầy đủ: khái niệm lý thuyết, biến WBES,
 | exp_manager | Kinh nghiệm QL | b5 | năm kinh nghiệm | β > 0 (δ_exp > 0) | H4a |
 | educ_manager | Học vấn QL | b7a | thứ tự | β > 0 (δ_educ > 0) | H4b |
 | gender_manager | Giới tính QL | b7 | binary female=1 | Exploratory, two-sided | H4c |
-| ICRV_j | Chế độ thể chế | – | j = I → VI dummy | Gradient H5 | H5 |
+| ICRV_j | Chế độ thể chế | – | j = I–VI dummy | Gradient H5 | H5 |
 | Year_bucket | Thời gian | year | 2009–12/13–17/18–25 | Dịch chuyển H6 | H6 |
 | ln(employees) | Quy mô doanh nghiệp | l1 | ln(l1) | β > 0 | Kiểm soát |
 | firm_age | Tuổi doanh nghiệp | b6 | năm thành lập | β không xác định | Kiểm soát |
@@ -500,7 +500,7 @@ Bảng 2.6. CDCM, Dự đoán tác động DAI theo 3 chiều ngữ cảnh.
 | Nhóm III (Trung Quốc) | Trung bình (20–50%) | Trung bình–cao (>55%) | Null/kiểm soát | Null (Tier 1 mất tín hiệu phân biệt) | Tier 1 bão hòa |
 | Nhóm IV (Việt Nam) | Thấp–trung bình (<40%) | Trung bình (<55%) | Dương nhỏ (0,095–0,175) | Null (β = 0,018; F bậc một = 34,6) | Phụ thuộc chọn lựa |
 | Nhóm V (Đang nổi) | Thấp (<20%) | Thấp (<30%) | Không xác định | Cần IV | Hạ tầng số thiếu |
-| Nhóm VI (SIDS) | Cao do bắt buộc (>40%) | Thấp–trung | Gánh nặng bắt buộc trội | – | I→P gánh nặng bắt buộc che lấp tín hiệu DAI |
+| Nhóm VI (SIDS) | Cao do bắt buộc (>40%) | Thấp–trung | Gánh nặng bắt buộc trội | – | I–P gánh nặng bắt buộc che lấp tín hiệu DAI |
 
 H3: Mức độ áp dụng số (DAI) có cơ chế điều tiết **phụ thuộc chế độ thể chế** trong quan hệ I–P. DAI không hoạt động như một phần thưởng năng suất đồng nhất mà như một nguồn lực mở rộng tình huống theo CDCM, với hướng và cường độ khác nhau rõ ràng giữa Emerging/Frontier và Advanced. Hai sub-hypothesis phân biệt dấu kỳ vọng:
 
@@ -555,8 +555,8 @@ Bảng 2.5. Hệ giả thuyết H1–H6, tóm tắt cơ chế, biến, kỳ vọ
 
 | Giả thuyết | Tên | Cơ chế lý thuyết | Biến kiểm định | Kỳ vọng | Bằng chứng P3/P4/P5 |
 |------|-----|-----------------|----------------|---------|---------------------|
-| H1 | Phi tuyến I→P | Uppsala 3 giai đoạn; chi phí phối hợp | FSTS, FSTS², FSTS³ | β₁ > 0; β₂ < 0 | P3 TP 39–46%; P5 TP 47–49% |
-| H2 | TCI nâng mặt bằng | RBV năng lực hấp thụ | TCI, FSTS×TCI | β(TCI) > 0; độ cong: khám phá | P3 IV nhân quả; P5 +0,260 → +0,426 |
+| H1 | Phi tuyến I–P | Uppsala 3 giai đoạn; chi phí phối hợp | FSTS, FSTS², FSTS³ | β₁ > 0; β₂ < 0 | P3 TP 39–46%; P5 TP 47–49% |
+| H2 | TCI nâng mặt bằng | RBV năng lực hấp thụ | TCI, FSTS×TCI | β(TCI) > 0; độ cong: khám phá | P3 IV nhân quả; P5 +0,260 đến +0,426 |
 | H3a | DAI nhóm đang nổi/chuyển đổi (+) | CDCM × Digital Adoption Lens | DAI, FSTS×DAI | β(FSTS×DAI) > 0 (Nhóm III–V) | P3 IV null; bằng chứng hạn chế |
 | H3b | DAI Advanced (null/−, conditional +) | CDCM × Digital Adoption Lens | DAI, FSTS²×DAI | Direct: null/–; cond: β(FSTS²×DAI) > 0 ở FSTS cao | P4 +3,119; bão hòa số |
 | H4a | Kinh nghiệm QL điều tiết | Upper Echelons | exp_manager, FSTS×exp | β(FSTS×exp) > 0 (δ_exp > 0) | (WBES b5) |
@@ -731,7 +731,7 @@ Bảng 2.8. Cấu trúc pool theo nhóm ICRV và mốc khảo sát.
 
 Ba thế hệ schema WBES và giao thức hòa hợp: PICS3 (2006–2012): biến FSTS từ d3b/d3c; TCI từ h1/h8/b8; DAI từ c22b only. Standardized (2013–2017): biến tái định dạng nhưng tương thích. BREADY/BEE (2018–2025): schema mở rộng; DAI đầy đủ (c22b + k33 + k38); module nhà quản trị chi tiết hơn.
 
-*Ghi chú về trọng số khảo sát:* Chuyên đề không áp dụng trọng số mẫu WBES (`wt_final`) trong các mô hình hồi quy vì ba lý do. Thứ nhất, mục tiêu phân tích là xác định hệ số quan hệ I–P tại cấp doanh nghiệp (conditional on observables), không phải ước lượng thống kê mô tả đại diện tổng thể. Thứ hai, hai chiều fixed effects (quốc gia × năm) đã hấp thụ phần lớn biến thiên liên quan đến thiết kế lấy mẫu phân tầng. Thứ ba, tích hợp trọng số mẫu vào mô hình fixed effects không đồng nhất gây phức tạp ước lượng mà không đem lại cải thiện tính hợp lệ nội tại (Solon et al., 2015). Phân tích độ nhạy với trọng số được đề xuất như kiểm định tương lai (xem §2.4.2) để xác nhận tính vững của kết quả so với mẫu không có trọng số.
+*Ghi chú về trọng số khảo sát:* Chuyên đề không áp dụng trọng số mẫu WBES (`wt_final`) trong các mô hình hồi quy vì ba lý do. Thứ nhất, mục tiêu phân tích là xác định hệ số quan hệ I–P tại cấp doanh nghiệp (conditional on observables), không phải ước lượng thống kê mô tả đại diện tổng thể. Thứ hai, hai chiều fixed effects (quốc gia × năm) đã hấp thụ phần lớn biến thiên liên quan đến thiết kế lấy mẫu phân tầng. Thứ ba, tích hợp trọng số mẫu vào mô hình fixed effects không đồng nhất gây phức tạp ước lượng mà không đem lại cải thiện tính hợp lệ nội tại (Solon et al., 2015). Phân tích độ nhạy với trọng số được đề xuất như kiểm định tương lai (xem Mục 2.4.2) để xác nhận tính vững của kết quả so với mẫu không có trọng số.
 
 Giao thức hòa hợp bao gồm: crosswalk biến giữa ba schema; xử lý giá trị thiếu; loại bỏ ngoại lệ tại phân vị 1/99 trong cụm nền kinh tế × năm; và chuẩn hóa năng suất xuyên tiền tệ (xem dưới).
 
@@ -741,7 +741,7 @@ Biến phụ thuộc, ln(LP):
 
 $$\ln(LP)_i = \ln\left(\frac{\text{doanh thu hằng năm}_i}{\text{lao động thường xuyên}_i}\right)$$
 
-Doanh thu (d2) được báo cáo bằng **nội tệ** của từng nền kinh tế, nên mức $\ln(LP)$ thô không so sánh được trực tiếp xuyên quốc gia. Để trung hòa khác biệt đơn vị tiền tệ và mặt bằng giá, năng suất lao động được **chuẩn hóa z trong từng cụm nền kinh tế × năm** trước khi đưa vào mô hình, và mọi đặc tả đều có **hiệu ứng cố định hai chiều (nền kinh tế × năm)** hấp thụ toàn bộ thành phần bất biến theo nước (tiền tệ, mặt bằng giá, chế độ kế toán). Cách này bảo đảm hệ số quan hệ I–P được nhận dạng từ biến thiên *nội bộ* nền kinh tế–năm, nhất quán với Phụ lục A của luận án (§A.5) và nghiên cứu đa quốc gia P7. Mọi so sánh **mức** xuyên quốc gia dùng tỷ suất không thứ nguyên (ROS) hoặc giá trị đã hiệu chỉnh sức mua tương đương (PPP), không dùng mức $\ln(LP)$ thô. Giá trị được winsorize tại phân vị 1/99 trong cụm nền kinh tế × năm để giảm ảnh hưởng ngoại lệ. Lựa chọn năng suất lao động làm thước đo hiệu quả phù hợp với dữ liệu WBES (Combs et al., 2005; Cusolito & Maloney, 2018; Richard et al., 2009).
+Doanh thu (d2) được báo cáo bằng **nội tệ** của từng nền kinh tế, nên mức $\ln(LP)$ thô không so sánh được trực tiếp xuyên quốc gia. Để trung hòa khác biệt đơn vị tiền tệ và mặt bằng giá, năng suất lao động được **chuẩn hóa z trong từng cụm nền kinh tế × năm** trước khi đưa vào mô hình, và mọi đặc tả đều có **hiệu ứng cố định hai chiều (nền kinh tế × năm)** hấp thụ toàn bộ thành phần bất biến theo nước (tiền tệ, mặt bằng giá, chế độ kế toán). Cách này bảo đảm hệ số quan hệ I–P được nhận dạng từ biến thiên *nội bộ* nền kinh tế–năm, nhất quán với Phụ lục A của luận án (Mục A.5) và nghiên cứu đa quốc gia P7. Mọi so sánh **mức** xuyên quốc gia dùng tỷ suất không thứ nguyên (ROS) hoặc giá trị đã hiệu chỉnh sức mua tương đương (PPP), không dùng mức $\ln(LP)$ thô. Giá trị được winsorize tại phân vị 1/99 trong cụm nền kinh tế × năm để giảm ảnh hưởng ngoại lệ. Lựa chọn năng suất lao động làm thước đo hiệu quả phù hợp với dữ liệu WBES (Combs et al., 2005; Cusolito & Maloney, 2018; Richard et al., 2009).
 
 Biến độc lập, FSTS:
 
@@ -760,7 +760,7 @@ Bảng 2.9. Đo lường TCI theo mã WBES.
 
 TCI_z = z-chuẩn hóa mean của ≥3/4 items không thiếu (Cronbach α ước tính 0,55–0,65, nhất quán với tổng hợp formative, Coltman et al., 2008). Construct phản ánh chiều sâu năng lực công nghệ nội tại theo truyền thống năng lực hấp thụ và năng lực công nghệ hóa công nghiệp (Cohen & Levinthal, 1990; Lall, 1992).
 
-> *Lưu ý phân biệt biến thể TCI:* Chuyên đề 2 dùng biến thể **đầy đủ 4 mục** (≥3/4 của b8, h8, h1, e6) khả dụng trên pool mô tả; trong khi nghiên cứu đa quốc gia P7 và §3.4.5.4 của luận án dùng biến thể **thin 2 mục** (b8 chứng chỉ chất lượng + e6 công nghệ nước ngoài) để tối đa hóa độ phủ trên 50 nền kinh tế. Cả hai cùng đo construct formative *năng lực công nghệ*; khác biệt về bộ mục phản ánh ràng buộc khả dụng dữ liệu, không phải định nghĩa mâu thuẫn. Hệ số trong chuyên đề được tính từ chính bộ 4 mục này.
+> *Lưu ý phân biệt biến thể TCI:* Chuyên đề 2 dùng biến thể **đầy đủ 4 mục** (≥3/4 của b8, h8, h1, e6) khả dụng trên pool mô tả; trong khi nghiên cứu đa quốc gia P7 và Mục 3.4.5.4 của luận án dùng biến thể **thin 2 mục** (b8 chứng chỉ chất lượng + e6 công nghệ nước ngoài) để tối đa hóa độ phủ trên 50 nền kinh tế. Cả hai cùng đo construct formative *năng lực công nghệ*; khác biệt về bộ mục phản ánh ràng buộc khả dụng dữ liệu, không phải định nghĩa mâu thuẫn. Hệ số trong chuyên đề được tính từ chính bộ 4 mục này.
 
 Bảng 2.10. Đo lường DAI theo mã WBES.
 
@@ -824,11 +824,11 @@ Bảng 2.12. Kế hoạch kiểm định độ vững, sáu nhóm.
 
 | Nhóm | Mối lo | Kiểm định cụ thể | Kỳ vọng |
 |------|--------|-----------------|---------|
-| R1 Thay đổi thước đo | Biến phụ thuộc/độc lập/điều tiết khác nhau | (a) Biến phụ thuộc → ROS; (b) Biến độc lập → dummy exporter; (c) TCI 3-item (loại h1); (d) DAI Tier 1 only (c22b) xuyên tất cả schema | Dấu hệ số giữ nguyên; magnitude có thể khác |
+| R1 Thay đổi thước đo | Biến phụ thuộc/độc lập/điều tiết khác nhau | (a) Biến phụ thuộc sang ROS; (b) Biến độc lập sang dummy exporter; (c) TCI 3-item (loại h1); (d) DAI Tier 1 only (c22b) xuyên tất cả schema | Dấu hệ số giữ nguyên; magnitude có thể khác |
 | R2 Lọc mẫu | Thiên lệch chọn lựa từ thành phần mẫu | (a) Loại doanh nghiệp vi mô (<5 lao động); (b) Loại SOE (sở hữu nhà nước >50%); (c) Chỉ sản xuất (ISIC 10–33); (d) Chỉ doanh nghiệp xuất khẩu (FSTS > 0) | Kết quả cốt lõi robust với các mẫu khác nhau |
 | R3 Thay đổi phương pháp | Vi phạm giả định OLS | (a) Hồi quy phân vị tại p25/p50/p75; (b) HC3 thay HC1; (c) Bootstrap SE (1.000 lần); (d) Clustered SE tại cấp quốc gia | Bảo toàn dấu; CI có thể rộng hơn |
 | R4 Kiểm tra dạng hàm | Sai lệch dạng hàm | (a) LOWESS phi tham số; (b) RESET test; (c) Đa thức phân số; (d) Hồi quy spline với 3 knots | LOWESS nhất quán với fit bậc hai |
-| R5 Placebo tests | Tương quan giả | (a) Thay FSTS bằng biến ngẫu nhiên → không tìm thấy phi tuyến; (b) Thay TCI bằng nhiễu → không có điều tiết; (c) Kiểm tra nhân quả đảo chiều | Placebo tests không cho kết quả có ý nghĩa |
+| R5 Placebo tests | Tương quan giả | (a) Thay FSTS bằng biến ngẫu nhiên cho kết quả không tìm thấy phi tuyến; (b) Thay TCI bằng nhiễu cho kết quả không có điều tiết; (c) Kiểm tra nhân quả đảo chiều | Placebo tests không cho kết quả có ý nghĩa |
 | R6 Nhạy cảm thiết kế | Tự do lựa chọn của nhà nghiên cứu | (a) Ngưỡng ICRV khác (GNI thay PPP GDP); (b) Giai đoạn thời gian: 2009–11/12–16/17–25; (c) Loại từng quốc gia (jackknife 47 lần); (d) Ngưỡng Tier DAI khác nhau | Kết quả cốt lõi ổn định |
 
 Ngưỡng chấp nhận cho các tham số quan trọng qua kiểm định độ vững: β₁(FSTS) trong khoảng [0,1; 3,0]; β₂(FSTS²) trong khoảng [−2,5; −0,1]; điểm uốn trong khoảng [20%; 90%]; β(TCI) trong khoảng [0,05; 0,5]; β(FSTS²×DAI) Nhóm I trong khoảng [0,5; 6,0].

@@ -20,7 +20,7 @@
 
 ## Nhóm 1 — Khái niệm dữ liệu và phương pháp cơ bản
 
-*Áp dụng cho: Phương pháp nghiên cứu (Ch.1 §1.3-§1.4), Phân tích dữ liệu (Ch.4), và toàn bộ luận án.*
+*Áp dụng cho: Phương pháp nghiên cứu (Ch.1 Mục 1.3-Mục 1.4), Phân tích dữ liệu (Ch.4), và toàn bộ luận án.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -58,7 +58,7 @@
 
 ## Nhóm 3 — Thuật ngữ thống kê và kinh tế lượng
 
-*Áp dụng cho: Phương pháp luận (§1.4), Kết quả phân tích (Ch.4).*
+*Áp dụng cho: Phương pháp luận (Mục 1.4), Kết quả phân tích (Ch.4).*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -96,7 +96,7 @@
 
 ## Nhóm 5 — Phương pháp luận nghiên cứu
 
-*Áp dụng cho: §1.3-§1.4 (Phương pháp), §4.8 (Industry framework), Ch.7 (Hàm ý).*
+*Áp dụng cho: Mục 1.3-Mục 1.4 (Phương pháp), Mục 4.8 (Industry framework), Ch.7 (Hàm ý).*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -115,7 +115,7 @@
 
 ## Nhóm 6 — Thể chế và lý thuyết IB nâng cao
 
-*Áp dụng cho: §1.5 (Đóng góp), §2 (Cơ sở lý luận), §4.8 (Industry framework). Được tích hợp từ Xu (2024) GSJ và Kafouros et al. (2023) GSJ.*
+*Áp dụng cho: Mục 1.5 (Đóng góp), Mục 2 (Cơ sở lý luận), Mục 4.8 (Industry framework). Được tích hợp từ Xu (2024) GSJ và Kafouros et al. (2023) GSJ.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -132,7 +132,7 @@
 
 ## Nhóm 7 — Thuật ngữ WBES và phân loại World Bank
 
-*Áp dụng cho: §1.3-§1.4 (Phương pháp WBES), §4.4-§4.5 (Phân tích rào cản), §5.7 (PICs). Nguồn: World Bank Enterprise Survey methodology documentation.*
+*Áp dụng cho: Mục 1.3-Mục 1.4 (Phương pháp WBES), Mục 4.4-Mục 4.5 (Phân tích rào cản), Mục 5.7 (PICs). Nguồn: World Bank Enterprise Survey methodology documentation.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -149,7 +149,7 @@
 
 ## Nhóm 8 — Kinh tế vĩ mô và chính sách thương mại
 
-*Áp dụng cho: §1.1 (Bối cảnh), §5.3 (Vietnam case), §6 (Yếu tố giải thích), §7.3 (Hàm ý chính sách). Được tích hợp từ phân tích ADB Vietnam Economic Outlook 2026 và tác động thuế quan Mỹ.*
+*Áp dụng cho: Mục 1.1 (Bối cảnh), Mục 5.3 (Vietnam case), Mục 6 (Yếu tố giải thích), Mục 7.3 (Hàm ý chính sách). Được tích hợp từ phân tích ADB Vietnam Economic Outlook 2026 và tác động thuế quan Mỹ.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|

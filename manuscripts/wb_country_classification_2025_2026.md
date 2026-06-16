@@ -103,7 +103,7 @@ Châu Á hiện được quản lý qua ba cấu trúc khu vực chính của Ng
 - **Gồm**: Ấn Độ, Bangladesh, Pakistan, Sri Lanka, Nepal, Bhutan, Maldives, Afghanistan*
 - **Rủi ro vĩ mô**: 48% dân số SAS sống tại các "điểm nóng" khí hậu; tỷ lệ tham gia lao động nữ chỉ đạt 32%
 
-> *Afghanistan được chuyển từ SAS sang cấu trúc MENAAP mới (xem §3.3).
+> *Afghanistan được chuyển từ SAS sang cấu trúc MENAAP mới (xem Mục 3.3).
 
 ### 3.3 Trung Đông, Bắc Phi, Afghanistan và Pakistan (MENAAP) — Cấu trúc mới FY2025+
 - **Lý do thành lập**: phản ánh các liên kết kinh tế đặc thù và nhu cầu phục hồi sau xung đột
