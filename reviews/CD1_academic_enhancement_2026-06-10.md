@@ -56,7 +56,7 @@ So sánh năng suất/FSTS từ WBES với **nguồn vĩ mô độc lập** (nat
 Khác biệt năng suất giữa regime có phải do **cơ cấu ngành** (sector mix) hay **năng suất trong ngành**? Thêm shift-share / sector-fixed comparison đến loại trừ "regime difference chỉ là sector composition".
 
 ### C4. **Tiểu-panel cân bằng cho phân tích thời gian**
-Các bảng "Δ 2018-2025 vs 2009-2012" là **so sánh cohort chéo**, không panel. Bổ sung **tập con nước có ≥2 sóng** (FJI/PNG/VUT, VN, China...) + quỹ đạo within-economy đến củng cố claim "nhảy vọt số" (hiện chỉ Mongolia có).
+Các bảng "Δ 2018-2025 vs 2009-2012" là **so sánh cohort chéo**, không panel. Bổ sung **tập con nước có ≥2 sóng** (FJI/PNG/VUT, VN, China…) + quỹ đạo within-economy đến củng cố claim "nhảy vọt số" (hiện chỉ Mongolia có).
 
 ### C5. **Minh họa trực quan mạnh hơn** (giá trị cốt lõi của landscape paper)
 - **Bản đồ 49 nước** tô màu theo regime ICRV.

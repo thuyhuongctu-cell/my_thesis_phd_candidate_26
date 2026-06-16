@@ -274,9 +274,9 @@ For use in thesis integration chapter and Mục 6 Discussion cross-referencing:
 | ICRV Group | TP | Shape | Notes |
 |-----------|-----|-------|-------|
 | Advanced Innovation (Nhóm I) | **~28%** | Inverted-U | Singapore, HK, Korea, Taiwan — TP lowest |
-| Advanced Resource / Upper-mid (Nhóm II–III) | ~35–42% | Inverted-U | China, Malaysia, Thailand, Kazakhstan... |
-| Emerging / Lower-mid (Nhóm IV) | ~44–50% | Inverted-U | India, Vietnam, Indonesia, Philippines... |
-| Frontier (Nhóm V) | **~50–55%** | Inverted-U | Afghanistan, Nepal, Cambodia, Bhutan... |
+| Advanced Resource / Upper-mid (Nhóm II–III) | ~35–42% | Inverted-U | China, Malaysia, Thailand, Kazakhstan… |
+| Emerging / Lower-mid (Nhóm IV) | ~44–50% | Inverted-U | India, Vietnam, Indonesia, Philippines… |
+| Frontier (Nhóm V) | **~50–55%** | Inverted-U | Afghanistan, Nepal, Cambodia, Bhutan… |
 | Pacific SIDS (Nhóm VI) | No TP | **Negative (FIP)** | β(FSTS_c)=−0.404* — monotone penalty |
 
 **ICRV gradient direction (CRITICAL):** TP **DECREASES** as institutional quality increases. Advanced Innovation (~28%) has the LOWEST TP; Frontier/SIDS (~55%) has the HIGHEST. This means stronger institutions đến firms reach performance optimum at lower export intensity. Weaker institutions đến firms need higher FSTS before costs exceed benefits. Do NOT write "threshold increases with institutional development."

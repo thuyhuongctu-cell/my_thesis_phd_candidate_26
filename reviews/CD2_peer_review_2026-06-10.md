@@ -20,7 +20,7 @@
 ## 🟥 CRITICAL (Devil's Advocate + R2 + EIC hội tụ)
 
 ### D1. Gradient điểm uốn H5 **không đơn điệu** — mâu thuẫn với chính bằng chứng neo đậu
-H5 (dòng 542) tuyên bố TP "**giảm đơn điệu** theo thể chế mạnh hơn: V(~50–55%) đến ... đến I(~28%)". Cơ chế phát biểu: *"thể chế càng mạnh đến đạt đỉnh ở FSTS thấp hơn"*. **Nhưng** bằng chứng neo đậu P3/P5 chính trong bài cho:
+H5 (dòng 542) tuyên bố TP "**giảm đơn điệu** theo thể chế mạnh hơn: V(~50–55%) đến … đến I(~28%)". Cơ chế phát biểu: *"thể chế càng mạnh đến đạt đỉnh ở FSTS thấp hơn"*. **Nhưng** bằng chứng neo đậu P3/P5 chính trong bài cho:
 - Nhóm **III** (Trung Quốc, thể chế **mạnh hơn**) TP = **47–49%**
 - Nhóm **IV** (Việt Nam, thể chế **yếu hơn**) TP = **39–46%**
  đến Thể chế mạnh hơn (III) lại có TP **cao hơn** IV — **ngược** với cơ chế "đơn điệu giảm". Thứ tự thực tế I(28) < IV(39–46) < III(47–49) < V(50–55) đến III và IV **đảo vị** so với gradient thể chế. Dòng 473 (H1) cũng tự mâu thuẫn: liệt kê "III(47–49) đến IV(39–46)" rồi gọi là "**tăng dần**" (thực ra giảm). đến **Phải sửa phát biểu gradient**: hoặc bỏ "đơn điệu", thừa nhận TP không đơn điệu theo ICRV (III>IV là ngoại lệ cần giải thích bằng cơ chế khác — vd cấu trúc xuất khẩu/GVC), hoặc tái định nghĩa thứ tự gradient.

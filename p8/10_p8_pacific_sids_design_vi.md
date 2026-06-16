@@ -269,10 +269,10 @@ Skill framework gợi ý: P8 có **hai tầng** cần được đặt tên riên
 - **Dùng khi**: Mô tả kết quả thực nghiệm — quan hệ âm đơn điệu β=−0.404
 
 **Cách dùng phối hợp trong bài báo**:
-> *"Firms in SIDS engage in **survival-based internationalization** — not as a strategic choice for growth but as a structural imperative. We term the performance consequence of this pattern the **Forced Internationalization Penalty (FIP)**: a monotone negative relationship between internationalization intensity and firm performance..."*
+> *"Firms in SIDS engage in **survival-based internationalization** — not as a strategic choice for growth but as a structural imperative. We term the performance consequence of this pattern the **Forced Internationalization Penalty (FIP)**: a monotone negative relationship between internationalization intensity and firm performance…"*
 
 **Cách dùng trong luận án (tiếng Việt)**:
-> *"Doanh nghiệp tại SIDS thực hiện **quốc tế hóa bắt buộc** — không phải là lựa chọn chiến lược để tăng trưởng mà là mệnh lệnh cấu trúc do thị trường nội địa quá nhỏ. Luận án đặt tên cho hệ quả hiệu quả của hiện tượng này là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**: quan hệ âm đơn điệu giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp..."*
+> *"Doanh nghiệp tại SIDS thực hiện **quốc tế hóa bắt buộc** — không phải là lựa chọn chiến lược để tăng trưởng mà là mệnh lệnh cấu trúc do thị trường nội địa quá nhỏ. Luận án đặt tên cho hệ quả hiệu quả của hiện tượng này là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**: quan hệ âm đơn điệu giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp…"*
 
 ### 8.5 Template giới thiệu trong bài báo (World Development, English)
 
@@ -317,7 +317,7 @@ bốn specification). Đây là đóng góp lý thuyết gốc của luận án,
 - [x] Google Scholar test: Không trùng lặp với tên đã tồn tại
 - [x] Clarity test: Người ngoài ngành hiểu ≥70% ý nghĩa từ tên
 - [x] Memory test: FIP là acronym dễ nhớ
-- [x] Citation test: "Building on FIP (Đỗ & Phan, 2026), we..." — tự nhiên
+- [x] Citation test: "Building on FIP (Đỗ & Phan, 2026), we…" — tự nhiên
 - [x] Abbreviation test: FIP — 3 chữ, không gây nhầm lẫn với FDI/FTA/FDI
 
 **Vietnamese name "gánh nặng quốc tế hóa bắt buộc"**:

@@ -45,7 +45,7 @@
 | em-dash trong 7 bản dịch VI | **0** | =0 Có |
 | Lộ danh tính trong bản blinded | **0** | =0 Có |
 | Placeholder `[TBD]` chặn nộp | **0** | =0 Có |
-| AI-tone thật (delve/unprecedented/...) | **0** | =0 Có |
+| AI-tone thật (delve/unprecedented/…) | **0** | =0 Có |
 | Self-citation ngôi thứ ba (đúng chuẩn) | 100% | Có |
 | Nhất quán số liệu ↔ replication CSV | đã đối chiếu 7/7 | Có (còn vài lệch flag cho NCS) |
 

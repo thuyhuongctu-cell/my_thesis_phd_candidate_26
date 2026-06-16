@@ -139,7 +139,7 @@ Grep trong 3 files: ~12 instances cần đổi.
 ### M4 — Mục 2.3 framing tạo impression H1-H6 unanchored đến khi P6 xong
 
 **Vị trí**: `thesis/14` Mục 2.3:
-> "...dự kiến cung cấp pooled effect sizes để **neo thực nghiệm cho các giả thuyết H1–H6**"
+> "…dự kiến cung cấp pooled effect sizes để **neo thực nghiệm cho các giả thuyết H1–H6**"
 
 **Vấn đề**: Phrasing ngụ ý chỉ P6 mới anchor được H1-H6, trong khi CĐ1 đã cung cấp bằng chứng mô tả mạnh (Chương 4-6).
 
@@ -166,7 +166,7 @@ Grep trong 3 files: ~12 instances cần đổi.
 ### m3 — Bảng 4.1: P90/P10 và P75/P25 marked "(cập nhật GĐ1)" — placeholders
 **Hành động**: Điền số thực khi có dữ liệu hoàn chỉnh.
 
-### m4 — Số trang TOC đều là "..."
+### m4 — Số trang TOC đều là "…"
 **Hành động**: Điền khi xuất Word/PDF.
 
 ### m5 — R&D Emerging -42.1 đpt chưa decomposed (schema vs thực tế)
@@ -176,10 +176,10 @@ Grep trong 3 files: ~12 instances cần đổi.
 
 ## ⚪ STYLISTIC ISSUES
 
-- Version tags in body text ("v3.1", "v3.2"...) — xóa trước khi nộp
-- Commit hashes in body text ("commit `b41dbb8`"...) — di chuyển vào footnote hoặc xóa
+- Version tags in body text ("v3.1", "v3.2"…) — xóa trước khi nộp
+- Commit hashes in body text ("commit `b41dbb8`"…) — di chuyển vào footnote hoặc xóa
 - NotebookLM (2026) cited as primary source 4 lần — thay bằng "tác giả, ghi chú nội bộ"
-- "(compressed — xem commit ...)" trong table notes — không chuẩn học thuật
+- "(compressed — xem commit …)" trong table notes — không chuẩn học thuật
 
 ---
 

@@ -24,10 +24,10 @@ Phân tích mô tả trên pool 91.982 doanh nghiệp từ 49 nền kinh tế ch
 |---|---|---|---|---|---|
 | Nhóm I — Advanced đổi mới (SG, HK, KOR, TWN, ISR) | 4.708 | **1,03** | 10,2 | 23,0 | 11,1 |
 | Nhóm II — Advanced tài nguyên (GCC) | 2.269 | **0,49** | ~3 | ~8 | — |
-| Nhóm III — Upper-middle (CHN, MYS, THA, KAZ...) | 17.905 | 1,29 | 10,3 | 21,7 | 8,4 |
+| Nhóm III — Upper-middle (CHN, MYS, THA, KAZ…) | 17.905 | 1,29 | 10,3 | 21,7 | 8,4 |
 | Nhóm IV — Lower-middle transition (VNM, IND, IDN, PHL, BGD, PAK, MNG) | 50.926 | 1,24 | 8,6 | 15,5 | 4,7 |
-| Nhóm V — Emerging (LAO, KHM, NPL, LKA, JOR...) | 18.569 | 1,36 | 10,1 | 16,6 | 5,9 |
-| Nhóm VI — SIDS (FJI, PNG, SLB...) | 2.038 | 1,32 | 6,3 | 16,3 | 23,5 |
+| Nhóm V — Emerging (LAO, KHM, NPL, LKA, JOR…) | 18.569 | 1,36 | 10,1 | 16,6 | 5,9 |
+| Nhóm VI — SIDS (FJI, PNG, SLB…) | 2.038 | 1,32 | 6,3 | 16,3 | 23,5 |
 | **Tổng (phân loại ICRV)** | **96.415** | — | — | — | — |
 
 *Nguồn: Phân tích của tác giả từ World Bank Enterprise Surveys (WBES), 2003–2025.*

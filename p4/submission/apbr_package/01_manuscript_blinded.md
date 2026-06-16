@@ -244,8 +244,8 @@ captures the firm’s uptake of digital interfaces and
 transaction-enabling mechanisms (Bharadwaj et al. 2013), reflecting a
 more environmentally contingent form of firm advantage that depends on
 the maturity of the surrounding digital ecosystem (Verhoef et al. 2021).
-Equally important, the label “digital adoption” is more defensible than
-“digital capability” in the present empirical setting because the WBES
+Equally important, the label "digital adoption" is more defensible than
+"digital capability" in the present empirical setting because the WBES
 indicators available here map primarily onto basic digital presence and
 digital transaction usage rather than deeper digitally integrated
 organizational processes. In the Verhoef et al. (2021) hierarchy,
@@ -257,7 +257,7 @@ higher-order digital capabilities may be built, but it cannot directly
 observe Tier 3 process integration (e.g., ERP, CRM, digitally integrated
 supply chains) or Tier 4 digital dynamic capability (e.g., AI
 deployment, platform orchestration, reconfiguration capability). Given
-this measurement boundary, retaining a broad “digital capability” label
+this measurement boundary, retaining a broad "digital capability" label
 would overstate what the underlying indicators can legitimately support,
 whereas the DAI label improves construct validity by aligning the
 variable name with the actual content domain of the observed measures.

@@ -48,11 +48,11 @@
 ## Voice authenticity markers integrated
 
 From Do & Phan 2025 book chapter analysis:
-- "This study employs / provides / examines..."
-- "The results indicate / suggest..."
-- "Firstly / Secondly / Thirdly..." (Vietnamese-EN academic convention)
-- "Particularly in the Indian context..."
-- "consistent with [Theory]..."
+- "This study employs / provides / examines…"
+- "The results indicate / suggest…"
+- "Firstly / Secondly / Thirdly…" (Vietnamese-EN academic convention)
+- "Particularly in the Indian context…"
+- "consistent with [Theory]…"
 - Citation density 1-2 per claim
 - 1-3 sentence paragraphs in Discussion
 

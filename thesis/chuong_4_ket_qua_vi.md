@@ -24,10 +24,10 @@ Phân tích mô tả trên khung 50 nền kinh tế châu Á và Thái Bình Dư
 |---|---|---|---|---|---|
 | Nhóm I: Advanced đổi mới (SG, HK, KOR, TWN, ISR, JPN) | 6.390 | **1,00** | 10,3 | 24,5 | 7,7 |
 | Nhóm II: Advanced tài nguyên (GCC) | 2.269 | 1,14² | ~3 | ~8 | n/a |
-| Nhóm III: Upper-middle (CHN, MYS, THA, KAZ...) | 17.905 | 1,37 | 10,3 | 21,7 | 8,4 |
+| Nhóm III: Upper-middle (CHN, MYS, THA, KAZ…) | 17.905 | 1,37 | 10,3 | 21,7 | 8,4 |
 | Nhóm IV: Lower-middle transition (VNM, IND, IDN, PHL, BGD, PAK, MNG) | 50.926 | 1,31 | 8,6 | 15,5 | 4,7 |
-| Nhóm V: Emerging (LAO, KHM, NPL, LKA, JOR...) | 18.569 | **1,39** | 10,1 | 16,6 | 5,9 |
-| Nhóm VI: SIDS (FJI, PNG, SLB...) | 2.038 | 1,32 | 6,3 | 16,3 | 23,5 |
+| Nhóm V: Emerging (LAO, KHM, NPL, LKA, JOR…) | 18.569 | **1,39** | 10,1 | 16,6 | 5,9 |
+| Nhóm VI: SIDS (FJI, PNG, SLB…) | 2.038 | 1,32 | 6,3 | 16,3 | 23,5 |
 | **Tổng (phân loại ICRV)** | **96.415** | n/a | n/a | n/a | n/a |
 
 *Nguồn: Phân tích của tác giả từ World Bank Enterprise Surveys (WBES), 2003–2025.*

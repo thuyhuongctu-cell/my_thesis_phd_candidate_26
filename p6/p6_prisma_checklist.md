@@ -118,6 +118,6 @@
 
 ## References
 
-Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., ... & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., … & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
 
-Liberati, A., Altman, D. G., Tetzlaff, J., Mulrow, C., Gøtzsche, P. C., Ioannidis, J. P. A., ... & Moher, D. (2009). The PRISMA statement for reporting systematic reviews and meta-analyses. *PLOS Medicine, 6*(7), e1000097. https://doi.org/10.1371/journal.pmed.1000097
+Liberati, A., Altman, D. G., Tetzlaff, J., Mulrow, C., Gøtzsche, P. C., Ioannidis, J. P. A., … & Moher, D. (2009). The PRISMA statement for reporting systematic reviews and meta-analyses. *PLOS Medicine, 6*(7), e1000097. https://doi.org/10.1371/journal.pmed.1000097

@@ -15,18 +15,18 @@ viết — không tái lập, mà **nâng cấp** theo Mục 2.
 
 | # | MSc Pattern (Authentic) | Nguồn nhận diện |
 |---|------------------------|-----------------|
-| 1 | "In the field of X, Y is a strategy that..." | Opening sentences |
+| 1 | "In the field of X, Y is a strategy that…" | Opening sentences |
 | 2 | "Many studies have focused on X; however, the empirical results are inconsistent [1–4]" | Literature gap framing |
 | 3 | "This study aims to answer the question: 'Do X directly influence Y?'" | Research question format |
-| 4 | Numbered contribution list: "(1) examining, (2) using [theory] to analyze, (3) contributing to..." | Contribution section |
+| 4 | Numbered contribution list: "(1) examining, (2) using [theory] to analyze, (3) contributing to…" | Contribution section |
 | 5 | "H1: Internationalization has a negative impact on firm's performance" | Hypothesis format — declarative, no mechanism |
 | 6 | "coefficient DOI being negative (36.664), thus supporting H1" | Results narration — confirm/reject framing |
 | 7 | "experience helps businesses overcome barriers and challenges" | Mechanism language — generic, no pathway name |
 | 8 | "female managers bring unique perspectives to optimize business strategies" | Moderator explanation — intuitive, no theoretical anchor |
 | 9 | Limitations as bullet list: "(1) only considers two factors; (2) sample limited to single country; (3) single indicators" | Limitations section |
 | 10 | Conclusion rhythm: restate findings đến theory đến practice implications | Conclusion structure |
-| 11 | "This is consistent with [Author, Year] who found..." | Result discussion — citation as confirmation only |
-| 12 | "More research is needed to..." | Future directions — generic |
+| 11 | "This is consistent with [Author, Year] who found…" | Result discussion — citation as confirmation only |
+| 12 | "More research is needed to…" | Future directions — generic |
 
 ---
 
@@ -62,7 +62,7 @@ viết — không tái lập, mà **nâng cấp** theo Mục 2.
 > "This study aims to answer the question: 'Do X directly influence Y?'"
 
 **PhD (target)**:
-> "A more demanding question than whether X influences Y is **under what conditions** the relationship holds — and at what margins it reverses. Three specific gaps remain unresolved in [literature]..."
+> "A more demanding question than whether X influences Y is **under what conditions** the relationship holds — and at what margins it reverses. Three specific gaps remain unresolved in [literature]…"
 
 **Rule**: Reframe from binary (yes/no) to conditional (when/how/at what boundary). Frame gaps as *specific lacunae*, not just "more research needed."
 
@@ -151,7 +151,7 @@ viết — không tái lập, mà **nâng cấp** theo Mục 2.
 > Restate all findings đến state theories used đến list implications for practitioners.
 
 **PhD (target)**:
-> "Against the prior expectation of [X], the evidence is consistent with [Y]. This is not a contradiction of [prior work] but a specification of [boundary condition] that prior work did not test — a boundary that becomes visible only when [specific feature of data/context]. The practical implication is not [oversimplified advice] but [conditional guidance: 'firms in [context] operating at [FSTS level] should...']."
+> "Against the prior expectation of [X], the evidence is consistent with [Y]. This is not a contradiction of [prior work] but a specification of [boundary condition] that prior work did not test — a boundary that becomes visible only when [specific feature of data/context]. The practical implication is not [oversimplified advice] but [conditional guidance: 'firms in [context] operating at [FSTS level] should…']."
 
 **Rule**: Conclusions must reconcile with prior work, not just restate findings. The "not a contradiction but a specification" move is the PhD-level signature. Practical implications must be conditional, not universal.
 
@@ -190,7 +190,7 @@ because [2–3 specific institutional/structural conditions that enable inferenc
 In such settings, [theoretical assumption that does NOT hold] — a qualification that the
 standard [model/framework] does not accommodate.
 ```
-*Example*: P3 Vietnam Mục 1.1 — "Vietnam offers an analytically valuable setting...because firms expand abroad under conditions of institutional transition, uneven capability accumulation, and rapidly changing digital infrastructure."
+*Example*: P3 Vietnam Mục 1.1 — "Vietnam offers an analytically valuable setting…because firms expand abroad under conditions of institutional transition, uneven capability accumulation, and rapidly changing digital infrastructure."
 
 ### Theory Section Opening
 ```
@@ -222,16 +222,16 @@ First, [precision qualification]. Second, [boundary condition]. Third, [reconcil
 
 | MSc transition (avoid) | PhD equivalent |
 |------------------------|----------------|
-| "In addition, ..." | "A second and distinct mechanism operates through [pathway]..." |
-| "Furthermore, ..." | "Compounding this effect, [related mechanism] predicts..." |
-| "However, ..." | "Against this baseline expectation, [specific finding/theory predicts otherwise]..." |
-| "Therefore, ..." | "Taken together, these patterns are most consistent with [theoretical interpretation]..." |
-| "This supports our hypothesis." | "This pattern is consistent with H[n], though the coefficient magnitude suggests [qualification]..." |
-| "In conclusion, ..." | "The convergence of [finding 1] and [finding 2] implies [theoretical advance]..." |
-| "Many scholars argue..." | "[Author1 et al., Year] and [Author2, Year] both argue, from different theoretical traditions, that..." |
-| "It can be seen that..." | "[Figure N / Table N] reveals [specific pattern]: [β/r] at [FSTS level] versus [β/r] at [different level]..." |
-| "This shows..." | "The evidence is consistent with..." or "This pattern suggests..." |
-| "X is important because..." | "X operates as [theoretical function — moderator/mediator/boundary condition] because [mechanism]..." |
+| "In addition, …" | "A second and distinct mechanism operates through [pathway]…" |
+| "Furthermore, …" | "Compounding this effect, [related mechanism] predicts…" |
+| "However, …" | "Against this baseline expectation, [specific finding/theory predicts otherwise]…" |
+| "Therefore, …" | "Taken together, these patterns are most consistent with [theoretical interpretation]…" |
+| "This supports our hypothesis." | "This pattern is consistent with H[n], though the coefficient magnitude suggests [qualification]…" |
+| "In conclusion, …" | "The convergence of [finding 1] and [finding 2] implies [theoretical advance]…" |
+| "Many scholars argue…" | "[Author1 et al., Year] and [Author2, Year] both argue, from different theoretical traditions, that…" |
+| "It can be seen that…" | "[Figure N / Table N] reveals [specific pattern]: [β/r] at [FSTS level] versus [β/r] at [different level]…" |
+| "This shows…" | "The evidence is consistent with…" or "This pattern suggests…" |
+| "X is important because…" | "X operates as [theoretical function — moderator/mediator/boundary condition] because [mechanism]…" |
 
 ---
 
@@ -352,14 +352,14 @@ Phần này tổng hợp tiêu chuẩn viết cụ thể từ 7 tài liệu gố
 
 | # | Quy tắc | Áp dụng cho P3/P4/P5/P6 |
 |---|---------|------------------------|
-| A1 | Báo cáo phương pháp phân tích **và lý do chọn** (không chỉ tên phương pháp) | "HC1 robust SE was chosen over cluster-robust SE because..." |
+| A1 | Báo cáo phương pháp phân tích **và lý do chọn** (không chỉ tên phương pháp) | "HC1 robust SE was chosen over cluster-robust SE because…" |
 | A2 | Báo cáo phiên bản phần mềm và cú pháp (syntax) đã dùng | "All analyses were conducted in R 4.3.1 using `feols()` from fixest (v0.11.2)" |
 | A3 | Dữ liệu thiếu: báo cáo cơ chế (MCAR/MAR/MNAR), phương pháp xử lý, và ảnh hưởng đến kết quả | "Missing FSTS values (n = 2,341, 2.3%) were treated as MCAR based on Little's test (χ² = 8.4, p = .14)" |
 | A4 | Outlier: báo cáo phương pháp phát hiện, quy tắc quyết định, bước xử lý, kết quả **có và không có** outlier | "Cook's distance > 4/n flagged 127 firms; results excluding outliers reported in Table A2 (Δβ < 0.003)" |
 | A5 | Biến kiểm soát: **biện minh lý thuyết cho từng biến**; báo cáo kết quả có và không có kiểm soát | "Firm age is included because older firms accumulate institutional knowledge (Hitt et al., 1997)" |
 | A6 | Báo cáo **tất cả** kiểm định giả định thống kê: normality, heteroscedasticity, independence, homogeneity | "Breusch–Pagan test confirmed heteroscedasticity (BP = 84.3, p < .001), justifying HC1 correction" |
 | A7 | Báo cáo thống kê mô tả đầy đủ (mean, SD, min, max) **và** ma trận tương quan/hiệp phương sai cho **tất cả** biến | Table 2: Descriptive statistics and correlation matrix (n = 101,185) |
-| A8 | Định nghĩa khái niệm **trước** khi vận hành hóa — không nhầm construct với measure | "Labour productivity is defined as... and operationalized as ln(annual sales PPP / permanent employees)" |
+| A8 | Định nghĩa khái niệm **trước** khi vận hành hóa — không nhầm construct với measure | "Labour productivity is defined as… and operationalized as ln(annual sales PPP / permanent employees)" |
 
 **Anti-pattern (tránh)**:
 > "OLS regression was used. Outliers were excluded."  
@@ -411,9 +411,9 @@ The IV specification (§3.6) addresses this concern using [instrument].
 
 | # | Vấn đề | Biểu hiện | Cách sửa |
 |---|--------|-----------|----------|
-| C1 | Mô tả construct mà không giải thích tại sao chúng liên kết | "TCI and performance are related" | "TCI reduces per-unit coordination cost (Cohen & Levinthal, 1990) because..." |
-| C2 | Trích dẫn quy luật thực nghiệm thay vì cơ chế | "Prior studies show TCI đến performance" | "TCI functions as an absorptive-capacity resource because..." |
-| C3 | Trích dẫn lý thuyết nhưng không áp dụng logic của nó | "Based on RBV, TCI affects performance" | "RBV predicts TCI generates above-normal returns when it is valuable, rare, and non-substitutable (Barney, 1991) — conditions met when..." |
+| C1 | Mô tả construct mà không giải thích tại sao chúng liên kết | "TCI and performance are related" | "TCI reduces per-unit coordination cost (Cohen & Levinthal, 1990) because…" |
+| C2 | Trích dẫn quy luật thực nghiệm thay vì cơ chế | "Prior studies show TCI đến performance" | "TCI functions as an absorptive-capacity resource because…" |
+| C3 | Trích dẫn lý thuyết nhưng không áp dụng logic của nó | "Based on RBV, TCI affects performance" | "RBV predicts TCI generates above-normal returns when it is valuable, rare, and non-substitutable (Barney, 1991) — conditions met when…" |
 
 #### Tiêu chuẩn lý thuyết từ Bello & Kostova (2012):
 
@@ -530,13 +530,13 @@ The IV specification (§3.6) addresses this concern using [instrument].
 
 | # | Quy tắc | Trước | Sau |
 |---|---------|-------|-----|
-| G1 | Mở đầu Introduction bằng đóng góp, không bằng bối cảnh chung | "Internationalization is an important strategy..." | "This paper documents that [specific finding], resolving the debate over [specific ambiguity]." |
+| G1 | Mở đầu Introduction bằng đóng góp, không bằng bối cảnh chung | "Internationalization is an important strategy…" | "This paper documents that [specific finding], resolving the debate over [specific ambiguity]." |
 | G2 | Câu trong Introduction ≤ 25 từ | 48-từ sentence | Tách thành 2 câu |
 | G3 | Một ý chính mỗi đoạn | Đoạn gộp 3 ý | Tách 3 đoạn |
-| G4 | Thông tin cũ đầu câu, thông tin mới cuối câu | "The coefficient is negative for TCI..." | "For TCI, the coefficient is negative..." |
+| G4 | Thông tin cũ đầu câu, thông tin mới cuối câu | "The coefficient is negative for TCI…" | "For TCI, the coefficient is negative…" |
 | G5 | Tránh danh hóa động từ (zombie nouns) | "conduct an investigation of" | "investigate" |
-| G6 | Tránh hedge rỗng ("it is worth noting that") | "It is interesting to note that..." | Xóa đi; bắt đầu từ ý chính |
-| G7 | Giọng chủ động | "It was found that..." | "The analysis reveals..." |
+| G6 | Tránh hedge rỗng ("it is worth noting that") | "It is interesting to note that…" | Xóa đi; bắt đầu từ ý chính |
+| G7 | Giọng chủ động | "It was found that…" | "The analysis reveals…" |
 | G8 | Số thập phân giả tạo | β = 0.00456789 | β = 0.005 (theo SE benchmark) |
 
 ---
@@ -547,8 +547,8 @@ The IV specification (§3.6) addresses this concern using [instrument].
 
 | Loại | Format | Khi nào dùng |
 |------|--------|-------------|
-| **Loud reference** | Smith (2020) argues that... | Khi muốn nhấn mạnh nguồn; thảo luận trực tiếp với tác giả |
-| **Soft reference** | ...has been established (Smith, 2020; Jones, 2019) | Khi trích dẫn bằng chứng hỗ trợ; liệt kê nhiều nguồn |
+| **Loud reference** | Smith (2020) argues that… | Khi muốn nhấn mạnh nguồn; thảo luận trực tiếp với tác giả |
+| **Soft reference** | …has been established (Smith, 2020; Jones, 2019) | Khi trích dẫn bằng chứng hỗ trợ; liệt kê nhiều nguồn |
 | Multiple sources | (Author1, Year1; Author2, Year2) — liệt kê theo thứ tự alphabet | Soft references với nhiều nguồn |
 
 **Format APA 7th** cho luận án (xem `04_references_apa7.md` để biết full entries). Đảm bảo mọi in-text citation có entry trong danh mục và ngược lại.

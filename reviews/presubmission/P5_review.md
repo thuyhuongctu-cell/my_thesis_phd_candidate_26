@@ -44,15 +44,15 @@ Contributions↔results align; conclusions are supported by the reported tests. 
 |----|-----|----------|-------|-----|
 | W1 | PASS | Abstract (l.20–64) | Emerald structured abstract complete: Purpose / Design / Findings / Originality-value, plus keywords, JEL, paper type. | None. |
 | W2 | MINOR | Section 5.2 (l.629–639) | Paragraph references sibling papers "P4 Singapore", "P3 Vietnam", and "ICRV-contingency" framework without introducing them; in a blinded single-paper submission these read as dangling cross-references to unpublished companion work. | Either cite Đỗ and Phan (2026)-style companion references explicitly or soften to "in a parallel advanced-economy setting" without the internal P-codes. |
-| W3 | MINOR | l.249–251 | "This attrition is not random in direction, WBES 2024 overshoots private manufacturing SMEs" — comma splice joining two independent clauses. | Replace first comma with a colon or "because": "...not random in direction: WBES 2024 overshoots...". |
+| W3 | MINOR | l.249–251 | "This attrition is not random in direction, WBES 2024 overshoots private manufacturing SMEs" — comma splice joining two independent clauses. | Replace first comma with a colon or "because": "…not random in direction: WBES 2024 overshoots…". |
 
 ## Dimension 3 — Grammar
 
 | ID | Sev | Location | Issue | Fix |
 |----|-----|----------|-------|-----|
-| G1 | MINOR | Section 2.3 H4a (l.213–214) | Stray line break places the comma at the start of a line: "moderates the I–P curvature cross-sectionally / , because..." | Join: "...cross-sectionally, because...". |
+| G1 | MINOR | Section 2.3 H4a (l.213–214) | Stray line break places the comma at the start of a line: "moderates the I–P curvature cross-sectionally / , because…" | Join: "…cross-sectionally, because…". |
 | G2 | MINOR | l.249 | "This attrition is not random in direction" — comma-splice (see W3). | As W3. |
-| G3 | MINOR | l.83–85 highlight | "recasts from a sample artifact to a durable structural regularity" — verb "recast" used intransitively; reads awkwardly. | "is recast from a sample artefact to..." (and standardise artifact/artefact spelling vs l.593 "artifact"). |
+| G3 | MINOR | l.83–85 highlight | "recasts from a sample artifact to a durable structural regularity" — verb "recast" used intransitively; reads awkwardly. | "is recast from a sample artefact to…" (and standardise artifact/artefact spelling vs l.593 "artifact"). |
 
 S-V agreement, tense, which/that usage otherwise clean. No Chinglish detected.
 
@@ -82,7 +82,7 @@ S-V agreement, tense, which/that usage otherwise clean. No Chinglish detected.
 ## Dimension 6 — Banned vocab / em-dash scan
 
 - **Em-dashes:** none found (`—` returns no matches). All dashes are en-dashes ("I–P", "intensity–performance") or hyphens. PASS.
-- **"superior" (l.206):** confirmed legitimate comparative usage ("superior internal competencies reduce the coordination costs..."). NOT flagged.
+- **"superior" (l.206):** confirmed legitimate comparative usage ("superior internal competencies reduce the coordination costs…"). NOT flagged.
 - **AI-tone vocabulary:** "robust/robustly" (multiple) is standard statistical usage; "leverage" (l.340) is a noun ("identification leverage"). No genuine AI-tone terms (no delve/tapestry/nuanced/pivotal/seamless/landscape). PASS.
 
 ---

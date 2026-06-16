@@ -28,7 +28,7 @@ Random-seed-free OLS / Heckman / Paternoster / joint F computations using `stats
 | 14 | Section 6 power calculation | "~75 % power to detect F3 > 0.5" | **No power analysis performed** | **Removed**: "formal power analysis left for future work" |
 | 15 | Section 2.2 specific SME credit reform programmes | "2014 SME Guarantee Fund, 2016 inclusive-finance white paper, 2019 supply-chain finance pilot, 2020–2022 COVID-relief lending facilities" | AI-generated names/dates; not cited to primary source | **Removed**: replaced with general "ongoing institutional change in China's SME credit and trade-finance market" |
 | 16 | Section 1 specific reform reference | "China–US tariff escalation cycle starting 2018" + "COVID‑19 disruption and supply‑chain re‑routing of 2020–2022" | Widely accepted background; not cited | Kept (general background) |
-| 17 | Section 1 "stock of technological capability... deepened across cohorts" | Cross-wave TCI evolution claim | Within-wave z-standardisation makes cross-wave levels not directly comparable | **Removed** |
+| 17 | Section 1 "stock of technological capability… deepened across cohorts" | Cross-wave TCI evolution claim | Within-wave z-standardisation makes cross-wave levels not directly comparable | **Removed** |
 | 18 | Section 4.2 productivity premium at TP | "67 % (2012), 42 % (2024)" | **66.5 %, 42.4 %** | Có correct |
 
 ## Substantive interpretation changes from v1.6 to v1.7

@@ -281,9 +281,9 @@ done
 
 **APA 7th formatting notes:**
 - Journal names: not abbreviated (APA 7th Mục 9.29)
-- DOI format: https://doi.org/... (not dx.doi.org)
+- DOI format: https://doi.org/… (not dx.doi.org)
 - Authors: Last, F. M. format; & before final author
-- 21+ authors: list first 19, ellipsis (...), last author (APA 7th Mục 9.8)
+- 21+ authors: list first 19, ellipsis (…), last author (APA 7th Mục 9.8)
 - Issue numbers omitted when journal has continuous pagination
 
 ---

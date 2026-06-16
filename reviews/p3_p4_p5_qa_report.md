@@ -60,7 +60,7 @@ Citations were extracted from body text and matched against the manuscript's own
 - Contractor (2007) — P3 L1356 (P3 cites Contractor 2007, not 2003)
 - Lind & Mehlum (2010) — P3 refs
 
-**Note on P3 AI statement (L1309):** A formatting artifact — "All con-" appears alone on a line, with the continuation "ceptual framing..." on L1311. This mid-word line break will produce visible formatting damage in the final document and must be corrected.
+**Note on P3 AI statement (L1309):** A formatting artifact — "All con-" appears alone on a line, with the continuation "ceptual framing…" on L1311. This mid-word line break will produce visible formatting damage in the final document and must be corrected.
 
 ### 5. Statistical Language
 
@@ -282,7 +282,7 @@ Good hedging throughout (34 lines). The "confirmed" instances at L45 and L265 ar
 
 6. **[P5] Add AI usage statement**: Emerald Publishing requires disclosure per author guidelines effective 2023. Model on P3’s statement (L1305–1313).
 
-7. **[P4] Add Funding section and Conflict of Interest statement**: Both are required by MIR (Springer) and GSJ (Wiley). Add a "## Funding" section ("This research received no specific grant...") and a "## Conflict of Interest" section before References.
+7. **[P4] Add Funding section and Conflict of Interest statement**: Both are required by MIR (Springer) and GSJ (Wiley). Add a "## Funding" section ("This research received no specific grant…") and a "## Conflict of Interest" section before References.
 
 8. **[P4] Add AI usage statement**: Required by Springer’s research integrity policy (effective 2024 for all Springer journals including MIR).
 
@@ -301,7 +301,7 @@ Good hedging throughout (34 lines). The "confirmed" instances at L45 and L265 ar
 
 13. **[P3] "Demonstrates" overconfidence**: Lines 24 and 1189. Replace with "suggests" or "is consistent with."
 
-14. **[P3] AI statement formatting artifact**: Lines 1309–1311 contain a mid-word split ("All con-" / "ceptual framing..."). Merge into a single paragraph.
+14. **[P3] AI statement formatting artifact**: Lines 1309–1311 contain a mid-word split ("All con-" / "ceptual framing…"). Merge into a single paragraph.
 
 ### P4 — Lower priority (good practice)
 

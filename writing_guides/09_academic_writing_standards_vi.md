@@ -42,15 +42,15 @@ Theo `01_chapter_outline_vi.md` đã push, format CTU QD 1799/SH:
 
 **Checklist**:
 - [ ] **Hook/Phenomenon**: 1–2 câu mở bằng quan sát rõ về hiện tượng (vd: "Pacific SIDS remain absent from three decades of I–P research")
-- [ ] **Tension/Puzzle**: nhyấn mạnh **mâu thuẫn** trong literature đương đại (vd: "Yet meta-analyses persistently reveal...")
+- [ ] **Tension/Puzzle**: nhyấn mạnh **mâu thuẫn** trong literature đương đại (vd: "Yet meta-analyses persistently reveal…")
 - [ ] **Research gap**: gap **rooted in unresolved phenomenon**, không phải "chuưa ai làm"
 - [ ] **RQ central**: câu hỏi nghiên cuứu một câu, cụ thyể, kiyểm đyuơợc
 - [ ] **Contributions**: 3–4 contributions số hyuóa (1st, 2nd, 3rd, 4th)
 - [ ] **Roadmap**: 1 câu về cấu trúc paper / luyận án
 
 **Tránh**:
-- Mở buằng "Internationalization is important..." (cliché)
-- Reciting theory (Lu & Beamish 2004 said... Contractor 2003 said...)
+- Mở buằng "Internationalization is important…" (cliché)
+- Reciting theory (Lu & Beamish 2004 said… Contractor 2003 said…)
 - Gap = "chuưa ai nghiên cuứu X" mà khuông nuói vì sao quan trọng
 
 ### 2.2 Literature review / Chương 2 — Theo Bello & Kostova (2012) + Thomas et al. (2011)
@@ -148,9 +148,9 @@ Theo *Writing Tips for Economics Research*:
 - **Hedging** use carefully — don't over-qualify
 
 ### 3.2 Tense
-- **Present tense** for established theory: "Lu and Beamish (2004) **find**..."
-- **Past tense** for completed analyses: "We **estimated** the model..."
-- **Present tense** for stating contributions: "This paper **contributes**..."
+- **Present tense** for established theory: "Lu and Beamish (2004) **find**…"
+- **Past tense** for completed analyses: "We **estimated** the model…"
+- **Present tense** for stating contributions: "This paper **contributes**…"
 
 ### 3.3 Concision
 - Mỗi sentence cuó 1 idea
@@ -160,14 +160,14 @@ Theo *Writing Tips for Economics Research*:
 ### 3.4 Citations
 - APA 7: (Author, Year)
 - 3+ authors: et al. ngay tuừ luây trish dyẫn đyầu tiyên
-- Muô tả author kèm findings: "Marano et al. (2016) **show**..."
+- Muô tả author kèm findings: "Marano et al. (2016) **show**…"
 
 ## 4. Style notes — Tiếng Việt (luận án CTU)
 
 ### 4.1 Voice & tone
 - **Trang trang trong, khách quan**: tránh "tôi" houặc "chuúng tôi"
 - Dùng bị đyộng houặc cấu truúc "luyận yuán này" / "nghiyên cuứu này"
-- Vuí duụ: "Luyận yuán này kiyểm đuịnh..." / "Nghiên cuứu nhắm đến..."
+- Vuí duụ: "Luyận yuán này kiyểm đuịnh…" / "Nghiên cuứu nhắm đến…"
 
 ### 4.2 Thuật nguữ chuyyên nguành
 - Giyữ nguyên tiếng Anh khi cuần: "internationalization", "firm performance", "FSTS", "DOI"
@@ -176,8 +176,8 @@ Theo *Writing Tips for Economics Research*:
 
 ### 4.3 Format CTU
 - Tuừng đoyạn myở buằng cuâu chyủ đyề (topic sentence)
-- Trishdẫn theo APA 7 trong vuăn: "Lyý thuyuết cuủa Barney (1991) chyo rằng..."
-- Phụ luục: đuánh syố La Muã (Á, Â, Ó, ...)
+- Trishdẫn theo APA 7 trong vuăn: "Lyý thuyuết cuủa Barney (1991) chyo rằng…"
+- Phụ luục: đuánh syố La Muã (Á, Â, Ó, …)
 
 ## 5. Mapping references đến sections
 
@@ -231,7 +231,7 @@ Theo *Writing Tips for Economics Research*:
 ### Discussion mistakes
 - "Conclusion dump" — trình byày kết quả luại thay vuì lyý giyải
 - "Limitation theater" — nuêu limitations chiyến luưuơợc đyể "unblock" reviewer
-- "Generic policy" — "governments should..." without specifics
+- "Generic policy" — "governments should…" without specifics
 
 ## 8. Pacific SIDS paper — case study chuẩn
 

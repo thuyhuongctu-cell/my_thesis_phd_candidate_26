@@ -35,16 +35,16 @@ These have a weak INCLUDE signal. Read title + abstract. The key question:
 WEAK-INCL papers (priority sort):
 | seq | Title (truncated) | Signal | Suggested |
 |-----|-------------------|--------|-----------|
-| 463 | Finding the sweet spot: effects of exporting on the relationship between... | WEAK-INCL:exporter | Likely Y |
+| 463 | Finding the sweet spot: effects of exporting on the relationship between… | WEAK-INCL:exporter | Likely Y |
 | 466 | Exporting is a team sport: the link between management training and performance | WEAK-INCL:exporter | Likely Y |
 | 187 | The Joint Effects of Firm's Globalization and ESG Rating on Financial performance | WEAK-INCL:financial-perf | Likely Y |
-| 6 | Overseas Business and Ethnic Ties, Slack Resources... | WEAK-INCL:exporter | UNSURE — check DV |
+| 6 | Overseas Business and Ethnic Ties, Slack Resources… | WEAK-INCL:exporter | UNSURE — check DV |
 | 30 | The inefficiency of exporting SMEs: Evidence from manufacturing | WEAK-INCL:exporter | Likely Y |
 | 275 | From domestic to exporter, what happens? Evidence for Spanish manufacturers | WEAK-INCL:exporter | Likely Y (learning-by-exporting) |
 | 395 | Antecedents to differentiation strategy in the exporting SME | WEAK-INCL:exporter | Likely N (strategy as DV) |
 | 404 | Effects of the use of competitiveness as a strategy on exporting companies | WEAK-INCL:exporter | UNSURE — check DV |
-| 208 | Home country adverse political shocks and cross-border M&A... | WEAK-INCL:financial-perf | UNSURE — check if I to P |
-| 38 | How does offshore outsourcing of knowledge-intensive activities affect... | WEAK-INCL:financial-perf | UNSURE — check DV |
+| 208 | Home country adverse political shocks and cross-border M&A… | WEAK-INCL:financial-perf | UNSURE — check if I to P |
+| 38 | How does offshore outsourcing of knowledge-intensive activities affect… | WEAK-INCL:financial-perf | UNSURE — check DV |
 
 ---
 
@@ -73,9 +73,9 @@ These are genuine ambiguous cases. Need abstract to determine if I to P relation
 
 | seq | Title | Priority | DOI |
 |-----|-------|----------|-----|
-| 27 | A vicarious learning perspective on home-peer-firm... | High | Yes |
-| 28 | Configuring foreign market knowledge and opportunity recognition... | High | Yes |
-| 40 | Impact of sourcing from informal economy on export likelihood... | High | Yes |
+| 27 | A vicarious learning perspective on home-peer-firm… | High | Yes |
+| 28 | Configuring foreign market knowledge and opportunity recognition… | High | Yes |
+| 40 | Impact of sourcing from informal economy on export likelihood… | High | Yes |
 | 69 | Product Newness, Low Competition, Recent Technology, and Export Orientation | High | Yes |
 | 99 | Effects of board composition, board size and CEO duality on export performance | High | Yes |
 | 98 | Effects of top management team composition on SME export performance | High | Yes |

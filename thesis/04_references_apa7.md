@@ -284,7 +284,7 @@ Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective 
 
 Combs, J. G., Crook, T. R., & Shook, C. L. (2005). The dimensionality of organizational performance and its implications for strategic management research. In D. J. Ketchen & D. D. Bergh (Eds.), *Research methodology in strategy and management* (Vol. 2, pp. 259–286). Emerald. https://doi.org/10.1016/S1479-8387(05)02011-4
 
-Combs, J. G., Ketchen, D. J., Crook, T. R., & Roth, P. L. (2011). Assessing cumulative evidence within “macro” research: Why meta-analysis should be preferred over vote counting. *Journal of Management Studies, 48*(1), 178–197. https://doi.org/10.1111/j.1467-6486.2009.00899.x
+Combs, J. G., Ketchen, D. J., Crook, T. R., & Roth, P. L. (2011). Assessing cumulative evidence within "macro" research: Why meta-analysis should be preferred over vote counting. *Journal of Management Studies, 48*(1), 178–197. https://doi.org/10.1111/j.1467-6486.2009.00899.x
 
 Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank. https://doi.org/10.1596/978-1-4648-1219-6
 

@@ -31,9 +31,9 @@ Secondary issues: Table 1 is an empty shell (all country rows are placeholder co
 
 ## Top 3 Fixes
 
-1. **Reconcile N=959 vs N=209 for the fixed-effects models (CRITICAL).** Abstract, Section 4.2, Section 4.5 (line 214), and Section 6 attribute β=−1.339 to the FE specification framed against "959 firms," but Table 2 shows N=209 (M1) and N=205 (M3). State plainly that the FE models run on N≈209 (attrition from country/year FE + control missingness) and that only the bivariate uses N=959; revise every "959 ... fixed-effects" phrasing.
+1. **Reconcile N=959 vs N=209 for the fixed-effects models (CRITICAL).** Abstract, Section 4.2, Section 4.5 (line 214), and Section 6 attribute β=−1.339 to the FE specification framed against "959 firms," but Table 2 shows N=209 (M1) and N=205 (M3). State plainly that the FE models run on N≈209 (attrition from country/year FE + control missingness) and that only the bivariate uses N=959; revise every "959 … fixed-effects" phrasing.
 2. **Populate Table 1 (CRITICAL/MAJOR).** All seven country rows are empty placeholders (`|, |, |...`). A reviewer cannot verify the 7-SIDS composition, exporter counts, or wave coverage. Fill in the per-country N / Exporters / % / Mean FSTS / Waves, or remove the table and cite the replication archive only.
-3. **Fix significance-star / p-value contradictions (MAJOR).** Section 4.5 line 211 reads "β(TCI_z) = +0.299 ... p = .003 (n.s.)" and "β(DAI_z) = +0.094 ... p = .285 (n.s.)" — the "(n.s.)" tag on the p=.003 TCI estimate is wrong (it is significant, and Table 2 stars it `**`). Remove the erroneous "(n.s.)" from TCI.
+3. **Fix significance-star / p-value contradictions (MAJOR).** Section 4.5 line 211 reads "β(TCI_z) = +0.299 … p = .003 (n.s.)" and "β(DAI_z) = +0.094 … p = .285 (n.s.)" — the "(n.s.)" tag on the p=.003 TCI estimate is wrong (it is significant, and Table 2 stars it `**`). Remove the erroneous "(n.s.)" from TCI.
 
 ---
 
@@ -54,8 +54,8 @@ Intro chain (contested regularity to inverted-U resolution to its hidden prerequ
 | ID | Severity | Location | Finding | Fix |
 |----|----------|----------|---------|-----|
 | W-1 | MAJOR | Section 4.1 ln.145 | "roughly 83% of explained productivity variance is between-country" derived from R² 0.109 to 0.657 is asserted without showing the arithmetic, and the 83% figure is not obviously recoverable from those two numbers. | Show the decomposition or restate qualitatively ("the large majority of explained variance is between-country"). |
-| W-2 | MINOR | Section 1 ln.18 | One sentence runs ~90 words ("Independent multi-indicator analysis of six development dimensions ... disproportionately represented in this cohort"). The embedded list ("poverty, life expectancy, schooling, gender equality, climate, and electricity") lacks setoff punctuation. | Split into two sentences; set off the dimension list with a colon or dashes. |
-| W-3 | MINOR | Section 2.1 ln.39; Section 5.1 ln.228; Section 5.4 ln.264 | Recurring comma-spliced appositive lists ("absent financial intermediaries, unreliable contract enforcement, limited trade facilitation infrastructure, do not merely...") strain readability. | Use "such as ... —" setoff or semicolons within the list. |
+| W-2 | MINOR | Section 1 ln.18 | One sentence runs ~90 words ("Independent multi-indicator analysis of six development dimensions … disproportionately represented in this cohort"). The embedded list ("poverty, life expectancy, schooling, gender equality, climate, and electricity") lacks setoff punctuation. | Split into two sentences; set off the dimension list with a colon or dashes. |
+| W-3 | MINOR | Section 2.1 ln.39; Section 5.1 ln.228; Section 5.4 ln.264 | Recurring comma-spliced appositive lists ("absent financial intermediaries, unreliable contract enforcement, limited trade facilitation infrastructure, do not merely…") strain readability. | Use "such as … —" setoff or semicolons within the list. |
 
 Topic sentences are generally strong (each subsection opens with its claim). Abstract is single-paragraph, ~210 words — acceptable for JID, near the README's ~200 target. No substantive redundancy.
 
