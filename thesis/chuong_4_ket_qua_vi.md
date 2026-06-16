@@ -574,23 +574,25 @@ Năm điểm hội tụ trên cho thấy các phát hiện cấp doanh nghiệp 
 
 ## 4.11 Tổng hợp kết quả theo hệ giả thuyết
 
-Trước khi tổng hợp theo hệ giả thuyết, Bảng 4.7 hợp nhất các ước lượng trụ cột của bảy nghiên cứu thành phần thực nghiệm, cho phép đối chiếu trực tiếp dạng hàm, điểm uốn, vai trò của hai cấu trúc số (TCI, DAI) và quy mô mẫu xuyên các bối cảnh ICRV.
+Trước khi tổng hợp theo hệ giả thuyết, Bảng 4.7 hợp nhất các ước lượng trụ cột của chín nghiên cứu thành phần thực nghiệm, cho phép đối chiếu trực tiếp dạng hàm, điểm uốn, vai trò của hai cấu trúc số (TCI, DAI) và quy mô mẫu xuyên các bối cảnh ICRV.
 
 **Bảng 4.7.** *Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm.*
 
-| NC | Bối cảnh (nhóm ICRV) | N | Dạng hàm I–P | Điểm uốn (FSTS) | Vai trò TCI | Vai trò DAI |
+| NC | Bối cảnh (nhóm ICRV) | N | Dạng hàm | Điểm uốn (FSTS) | Vai trò TCI | Vai trò DAI |
 |---|---|--:|---|---|---|---|
-| P3 | Việt Nam (IV) | 2.958 | U ngược | 39–46% | dương, có ý nghĩa (β=0,179, IV) | không có ý nghĩa (Tier-1) |
+| P2 | Trung Quốc, doanh nghiệp nhỏ và vừa (III) | 4.290 | U ngược | 47,8% | nâng mặt bằng | nâng mặt bằng |
+| P3 | Việt Nam (IV) | 2.958 | U ngược | 39–46% | dương, có ý nghĩa (β=0,179, biến công cụ) | không có ý nghĩa (Tầng 1) |
 | P4 | Singapore (I) | 623 | gần tuyến tính dương | ~88,6% (không định vị chắc) | yếu tố vệ sinh | FSTS²×DAI=+3,119** |
-| P5 | Trung Quốc (III) | 4.559 | U ngược | 47–49% (ổn định 2012–2024) | dương (+0,26 lên +0,43) | n/a |
-| P6 | Meta-analysis (toàn cầu) | k=238 | dương nhỏ | n/a | n/a | r=0,074; I²=62,4% |
+| P5 | Trung Quốc (III) | 4.559 | U ngược | 47–49% (ổn định 2012–2024) | dương (+0,26 lên +0,43) | không áp dụng |
+| P6 | Phân tích tổng hợp (châu Á) | k=238 | dương nhỏ | không áp dụng | không áp dụng | r̄=0,074; I²=62,4% |
 | P7 | Đa quốc gia (50 nền, I–VI) | 81.022 | U ngược | 43,6% (M5); rõ nhất ở Nhóm IV (43,0%) | nâng mặt bằng (+0,141 sd) | nâng mặt bằng (+0,201 sd) |
-| P8 | SIDS Pacific (VI) | 959 | âm đơn điệu (FIP) | không có | n/a | β(FSTS)=−1,339*** |
-| P9 | Ấn Độ (IV) | 28.717 | U ngược chuyển sang sụp đổ ngưỡng | 61,8% rồi 40,7% rồi tan biến | n/a | n/a |
+| P8 | Đảo nhỏ Thái Bình Dương (VI) | 959 | âm đơn điệu (FIP) | không có | nâng mặt bằng, không điều tiết | β(FSTS)=−1,339*** |
+| P9 | Ấn Độ (IV) | 28.717 | U ngược chuyển sang sụp đổ ngưỡng | 61,8% rồi 40,7% rồi tan biến | không áp dụng | tương tác Tầng 2 âm |
+| P10 | Nhật Bản (I) | 2.168 | gần tuyến tính dương | ~90,1% (không định vị) | nâng mặt bằng | nâng mặt bằng |
 
-*Nguồn: tổng hợp từ các nghiên cứu thành phần P3–P9. \*\* p < ,01; \*\*\* p < ,001. Điểm uốn xác nhận bằng kiểm định Lind–Mehlum (2010). Điểm uốn P7 = 43,6% ở mô hình đầy đủ M5 trên khung 50 nền (dải 43,6–51,5% giữa các đặc tả).*
+*Nguồn: tổng hợp từ các nghiên cứu thành phần P2–P10. \*\* p < ,01; \*\*\* p < ,001. Điểm uốn xác nhận bằng kiểm định Lind–Mehlum (2010). Điểm uốn P7 = 43,6% ở mô hình đầy đủ M5 trên khung 50 nền (dải 43,6–51,5% giữa các đặc tả).*
 
-Bảng 4.7 làm nổi bật ba quy luật xuyên suốt. Thứ nhất, **dạng hàm chữ U ngược là quy luật chứ không phải ngoại lệ**, được xác nhận ở năm trong bảy nghiên cứu (P3, P5, P7, P9 và một phần P4), với hai trường hợp biên có ý nghĩa lý thuyết riêng: quan hệ âm đơn điệu tại SIDS (P8, FIP) và sự tan biến ngưỡng dưới biến động thể chế cực đoan tại Ấn Độ (P9). Thứ hai, **điểm uốn dịch theo chiều thể chế**: từ ~88,6% ở Singapore (Nhóm I) xuống 47–49% ở Trung Quốc (III) và 39–46% ở Việt Nam (IV), nhất quán với gradient toàn mẫu của P7. Thứ ba, **TCI và DAI vận hành khác nhau**: TCI nhất quán nâng mặt bằng năng suất, trong khi vai trò DAI phụ thuộc bối cảnh (nén đường cong ở thể chế yếu, khuếch đại ở Singapore), củng cố sự phân biệt cốt lõi của khung CDCM.
+Bảng 4.7 làm nổi bật ba quy luật xuyên suốt. Thứ nhất, **dạng hàm chữ U ngược là quy luật chứ không phải ngoại lệ**, được xác nhận ở năm trong chín nghiên cứu (P2, P3, P5, P7 và một phần P9), với các trường hợp biên có ý nghĩa lý thuyết riêng: quan hệ gần tuyến tính dương ở biên thể chế mạnh (P4 Singapore và P10 Nhật Bản, điểm uốn nằm ngoài miền quan sát), quan hệ âm đơn điệu tại các nền đảo nhỏ (P8, FIP), và sự tan biến ngưỡng dưới biến động thể chế cực đoan tại Ấn Độ (P9). Thứ hai, **điểm uốn dịch theo chiều thể chế**: từ khoảng 88–90% ở Singapore và Nhật Bản (Nhóm I) xuống 47–49% ở Trung Quốc (III) và 39–46% ở Việt Nam (IV), nhất quán với gradient toàn mẫu của P7. Thứ ba, **TCI và DAI vận hành khác nhau**: TCI nhất quán nâng mặt bằng năng suất, trong khi vai trò DAI phụ thuộc bối cảnh (nén đường cong ở thể chế yếu, khuếch đại ở Singapore), củng cố sự phân biệt cốt lõi của khung CDCM.
 
 | Giả thuyết | Nội dung | Kết quả |
 |---|---|---|
