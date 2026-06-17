@@ -18,7 +18,11 @@ Luận án sử dụng **mixed synthesis-empirical design** gồm hai phase bổ
 
 ### 3.1.2 Quy trình nghiên cứu
 
-Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và phân tích tổng hợp trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành phân tích tổng hợp cập nhật 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **50 nền kinh tế châu Á và Thái Bình Dương** sau khi hòa hợp 3 thế hệ schema (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết.
+Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và phân tích tổng hợp trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành phân tích tổng hợp cập nhật 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **50 nền kinh tế châu Á và Thái Bình Dương** sau khi hòa hợp 3 thế hệ schema (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết. Toàn bộ quy trình và quan hệ bổ sung hai chiều giữa hai giai đoạn được trình bày ở Hình 3.1.
+
+![](figures/fig_3_1_research_process.png)
+
+**Hình 3.1.** *Quy trình nghiên cứu của luận án.* Mũi tên liền thể hiện trình tự thực hiện; mũi tên hai chiều thể hiện quan hệ bổ sung giữa hai giai đoạn (phân tích tổng hợp gợi ý biến điều tiết cần kiểm định; phân tích thực nghiệm cung cấp bằng chứng châu Á và Thái Bình Dương cho phân tích tổng hợp). *Nguồn: tác giả xây dựng.*
 
 ## 3.2 Giai đoạn 1: Phân tích tổng hợp 1982–2026
 
