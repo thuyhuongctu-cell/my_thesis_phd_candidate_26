@@ -50,7 +50,7 @@ Danh mục tham khảo cho luận án, sắp xếp theo thứ tự alphabet củ
 
 Arbelo, A., Arbelo-Pérez, M., & Pérez-Gómez, P. (2024). Internationalization and individual firm performance: A resource-based view. *Eurasian Business Review, 14*(4), 881–915.
 
-Babina, T., Fedyk, A., He, A., & Hodson, J. (2024). Artificial intelligence, firm growth, and product innovation. *Journal of Financial Economics, 151*, 103745.
+Babina, T., Fedyk, A., He, A., & Hodson, J. (2024). Artificial intelligence, firm growth, and product innovation. *Journal of Financial Economics, 151*, 103745. https://doi.org/10.1016/j.jfineco.2023.103745
 
 Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.
 
@@ -71,7 +71,7 @@ Nath, P., Kirca, A. H., & Kim, S. (2021). A study of the internationalization–
 
 Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? *Global Strategy Journal, 11*(1), 58–80.
 
-Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901.
+Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
 
 **Xu, J. (2024). Rethinking institutional arbitrage: De jure exposure and de facto enforcement. *Global Strategy Journal, 14*(4), 754–799.** https://doi.org/10.1002/gsj.1510 *(Mới v2.3 — 3.331 US-listed firms 82 nước; phân tách de jure exposure vs de facto enforcement.)*
 
@@ -93,7 +93,7 @@ Li, W., Li, C., & Wei, G. (2022). The dual mechanism of social networks on the r
 
 Liu, X., & Zhang, H. (2024). How geopolitical risk affects firms' internationalization performance: Evidence from China. *Heliyon, 10*(6), e27512.
 
-Wang, L., Huang, Y., & Hong, Z. (2024). Digitalization as a double-edged sword: A deep learning analysis of risk management in Chinese banks. *International Review of Financial Analysis, 94*, 103249.
+Wang, L., Huang, Y., & Hong, Z. (2024). Digitalization as a double-edged sword: A deep learning analysis of risk management in Chinese banks. *International Review of Financial Analysis, 94*, 103249. https://doi.org/10.1016/j.irfa.2024.103249
 
 Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internationalization and performance of firms in China. *Journal of International Management, 19*(2), 118–137.
 
