@@ -69,6 +69,7 @@ done
 # ---------- 4. Gom hình để biên dịch turnkey ----------
 mkdir -p "$OUT/figures"
 cp -f thesis/figures/*.png "$OUT/figures/" 2>/dev/null || true       # luận án: fig_*
+cp -f chuyen_de/cd1/figures/*.png "$OUT/figures/" 2>/dev/null || true # CĐ1: cd1_fig_*, hinh_*
 cp -f chuyen_de/cd2/figures/*.png "$OUT/figures/" 2>/dev/null || true # CĐ2: hinh_*
 
 echo
