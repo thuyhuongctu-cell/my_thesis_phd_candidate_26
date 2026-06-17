@@ -893,3 +893,9 @@ Hemmert, M., & Jackson, K. (2016). Is there an East Asian model of MNC internati
 Kalubandi, S. C., Sharma, D., Edacherian, S., & Karna, A. (2025). Role of foreign market knowledge and home country institutions in international entrepreneurship-performance relationship: A meta-analysis. *Asia Pacific Journal of Management*. https://doi.org/10.1007/s10490-025-10076-8
 
 Murhadi, W. R., Setiawan, S. S., & Ernawati, E. (2025). Governance and internationalisation on firm performance: A case study in Indonesia and Malaysia. *Revista de Métodos Cuantitativos para la Economía y la Empresa, 40*, 1–15. https://doi.org/10.46661/rev.metodoscuant.econ.empresa.10865
+
+## Bổ sung v3.6 — Hướng dẫn đóng góp lý thuyết (JIBS), xác minh từ bản gốc PDF do NCS cung cấp (16/06/2026)
+
+> Trích dẫn trong Chương 5 (Mục 5.3). Verbeke (2022) về năng lực động được dùng làm cơ sở cho checklist rà soát chất lượng viết (reviews/checklist_chuan_viet_hoc_thuat.md), chưa trích trong nội dung nên không liệt kê ở đây.
+
+Santangelo, G. D., & Verbeke, A. (2022). Actionable guidelines to improve 'theory-related' contributions to international business research. *Journal of International Business Studies, 53*(9), 1843–1855. https://doi.org/10.1057/s41267-022-00567-x
