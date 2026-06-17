@@ -309,7 +309,7 @@ Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết c
 
 P3 Việt Nam (Đỗ & Phan, 2026, JABS đang phản biện): Phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với kiểm định Lind–Mehlum p < 0,001 (tổng hợp). Điểm uốn: 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp). P3 phân tách H1 thành hai mệnh đề: bước nhảy từ không xuất khẩu sang xuất khẩu là biên năng suất chính (nhất quán với mô hình chọn lọc năng suất xuất khẩu của Melitz, 2003); trong mẫu chỉ gồm doanh nghiệp xuất khẩu, đường cong gần phẳng. TCI (b8+e6) dương bền vững (β = 0,179 tổng hợp, p < 0,001); biến công cụ cho TCI nhân quả (β = 1,639, F bậc một = 22,1). DAI phụ thuộc giai đoạn, dương năm 2009 (β = 0,175), null năm 2015, có tương tác âm năm 2023 (FSTS_c×DAI_z = −0,912, p = 0,043); biến công cụ cho DAI null (β = 0,018, p = 0,942, F bậc một = 34,6), phụ thuộc chọn lựa, không nhân quả.
 
-*Lưu ý về đặc tả mô hình P3: P3 Vietnam sử dụng chuỗi M0–M8 riêng, trong đó M8 là mô hình đầy đủ: lnLP_it = α + β₁ FSTS_c + β₂ FSTS_c² + β₃ TCI_z + β₄ DAI_z + β₅(FSTS_c × DAI_z) + β₆(FSTS_c² × DAI_z) + γ·X + δ_s + [λ_t] + ε_it. Đặc tả đầy đủ M0–M8 và bảng định nghĩa biến được trình bày trong bản thảo P3 (Mục 3.2–Mục 3.3) và luận án (Mục 4.5.1). Chuỗi M0–M7 trong Chuyên đề 2 là các mô hình cấp độ mẫu gộp 47 quốc gia, khác với đặc tả cấp độ quốc gia của P3.*
+*Lưu ý về đặc tả mô hình P3: P3 Vietnam sử dụng chuỗi M0–M8 riêng, trong đó M8 là mô hình đầy đủ: lnLP_it = α + β₁ FSTS_c + β₂ FSTS_c² + β₃ TCI_z + β₄ DAI_z + β₅(FSTS_c × DAI_z) + β₆(FSTS_c² × DAI_z) + γ·X + δ_s + [λ_t] + ε_it. Đặc tả đầy đủ M0–M8 và bảng định nghĩa biến được trình bày trong bản thảo P3 (Mục 3.2–Mục 3.3) và luận án (Mục 4.5.1). Chuỗi M0–M7 trong Chuyên đề 2 là các mô hình cấp độ mẫu gộp 50 nền kinh tế, khác với đặc tả cấp độ quốc gia của P3.*
 
 P4 Singapore (Mar, Đỗ & Phan, 2026, MIR đang phản biện): Phân tích 623 doanh nghiệp WBES 2023. Trong nền kinh tế số bão hòa, đường cong I–P chủ yếu dương, điểm uốn hàm ý ở FSTS khoảng 88,6% (vùng thưa dữ liệu; kiểm định Lind–Mehlum p = 0,303). DAI×FSTS² = +3,119 (p = 0,005), DAI là nguồn lực mở rộng tình huống, chỉ phát huy ở FSTS cao nơi nhu cầu điều phối xuyên biên giới dày đặc. TCI dương trực tiếp (β = 0,153).
 
@@ -1182,7 +1182,7 @@ utest fsts_c fsts_c2
 
 * === Kiểm tra số cluster ===
 * Số cluster tối thiểu khuyến nghị: ≥ 50 (Cameron & Miller, 2015)
-* Mẫu gộp 47 quốc gia × 5 ngành chính ≈ 235 cụm, thỏa mãn
+* Mẫu gộp 50 nền kinh tế × 5 ngành chính ≈ 250 cụm, thỏa mãn
 tab cluster_id if e(sample) == 1, sum(ln_lp)
 ```
 
