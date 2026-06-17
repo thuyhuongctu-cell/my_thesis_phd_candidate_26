@@ -902,6 +902,6 @@ Santangelo, G. D., & Verbeke, A. (2022). Actionable guidelines to improve 'theor
 
 ## Bổ sung v3.7 — Lý thuyết bàn đạp (theo yêu cầu của người hướng dẫn, PGS.TS. Phan Anh Tú, 16/06/2026)
 
-> Bổ sung lý thuyết quốc tế hóa đặc thù cho doanh nghiệp nền kinh tế mới nổi, trích dẫn trong Chương 2 (Mục 2.2.3.1) và Chương 5. DOI cần xác minh lại ở lượt rà soát cuối (`verify_dois.py`).
+> Bổ sung lý thuyết quốc tế hóa đặc thù cho doanh nghiệp nền kinh tế mới nổi, trích dẫn trong Chương 2 (Mục 2.2.3.1) và Chương 5 (Mục 5.3.2). DOI đã xác minh từ Springer Nature và RePEc/IDEAS (16/06/2026): tập 38, số 4, trang 481–498, DOI 10.1057/palgrave.jibs.8400275.
 
 Luo, Y., & Tung, R. L. (2007). International expansion of emerging market enterprises: A springboard perspective. *Journal of International Business Studies, 38*(4), 481–498. https://doi.org/10.1057/palgrave.jibs.8400275
