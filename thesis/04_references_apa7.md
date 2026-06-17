@@ -871,3 +871,15 @@ Drori, N., Alessandri, T., Bart, Y., & Herstein, R. (2024). The impact of digita
 Grego, M., Buckley, P. J., Munjal, S., Voss, H., & Wang, E. Y. (2025). Managers and internationalization decisions: An affect-enacted model. *Global Strategy Journal, 15*(3), 317–345. https://doi.org/10.1002/gsj.1516
 
 Wach, K. (2021). The evolution of the Uppsala model: Towards non-linearity of internationalization of firms. *International Entrepreneurship Review, 7*(2), 7–19. https://doi.org/10.15678/IER.2021.0702.01
+
+## Bổ sung v3.4 — Công trình của Verbeke và cộng sự (2021–2025), xác minh từ bản gốc PDF do NCS cung cấp (16/06/2026)
+
+> Bốn entry xác minh trực tiếp từ bản PDF gốc. Trích dẫn trong Chương 2 (Mục 2.3.2, 2.3.3) và Chương 5 (Mục 5.5.3.3). Verbeke, Oh & Jain (2025) và Fariborzi, Verbeke & Steel (2025) là bài đăng trực tuyến trước, chưa có số tập/số trang chính thức tại thời điểm trích.
+
+Fariborzi, H., Verbeke, A., & Steel, P. (2025). Early internationalization: A meta-analysis of antecedents, dimensions, and performance. *Journal of Management Studies*. https://doi.org/10.1111/joms.70008
+
+Pan, Y., Verbeke, A., & Yuan, W. (2021). CEO transformational leadership and corporate entrepreneurship in China. *Management and Organization Review, 17*(1), 45–76. https://doi.org/10.1017/mor.2020.59
+
+Verbeke, A., Eschmann, D., & Gugler, P. (2025). Asymmetries in firm-level globalization: The case of Swiss multinational enterprises. *Management International Review, 65*(2), 305–328. https://doi.org/10.1007/s11575-025-00568-6
+
+Verbeke, A., Oh, C. H., & Jain, R. (2025). What is the future of regional multinational enterprises? *International Business Review*. https://doi.org/10.1016/j.ibusrev.2025.102442
