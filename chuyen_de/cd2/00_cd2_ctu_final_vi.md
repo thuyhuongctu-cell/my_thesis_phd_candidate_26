@@ -187,7 +187,7 @@ Khung lý thuyết hiện hành về quan hệ I–P còn phân tán. Các tổn
 
 Kết quả phân tích mô tả trong Chuyên đề Tiến sĩ số 1 đã cung cấp bức tranh thực trạng đa chiều dựa trên 88.869 doanh nghiệp WBES xuyên 50 nền kinh tế (gồm Nhật Bản), làm rõ ba pattern then chốt: phân tán năng suất tăng đơn điệu theo chế độ từ Nhóm I đến Nhóm VI; tính không đồng nhất nội bộ trong nhóm Advanced; và pattern adaptation đặc trưng của các quốc đảo nhỏ Thái Bình Dương. Đồng thời, phân tích đó phát hiện CDCM, Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh: tác động của DAI lên hiệu quả phụ thuộc vào chế độ thể chế, giai đoạn quốc tế hóa, và mức độ bão hòa số của nền kinh tế. Chuyên đề 2 này tiếp nối bằng cách xây dựng mô hình lý thuyết và thực nghiệm để giải thích cơ chế đằng sau các pattern đó.
 
-Bốn bản thảo thực nghiệm đồng hành cung cấp bằng chứng quốc gia cụ thể kiểm định khả năng của khung đề xuất. P2 Trung Quốc SMEs (Đỗ & Phan, 2026, JFAR đã công bố) phân tích 2.700 doanh nghiệp SMEs Trung Quốc và tìm thấy dạng bậc ba (cubic nonlinearity / S-curve ba giai đoạn), cung cấp tiền thân thực nghiệm cho H1 và cơ sở để so sánh với P5. P3 Việt Nam (Đỗ & Phan, 2026, JABS đang phản biện) phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với điểm uốn 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp); TCI nhân quả qua biến công cụ (β = 1,639, F bậc một = 22,1); DAI theo giai đoạn và phụ thuộc chọn lựa (IV null, β = 0,018). P4 Singapore (Mar, Đỗ & Phan, 2026, MIR đang phản biện) phân tích 623 doanh nghiệp WBES 2023, cho thấy điểm uốn hàm ý ở FSTS khoảng 88,6% và DAI hoạt động như nguồn lực mở rộng tình huống với hệ số DAI×FSTS² = +3,119 (p = 0,005). P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM đang phản biện) phân tích 4.559 doanh nghiệp WBES hai sóng (2012, 2024) xác nhận chữ U ngược bền vững cấu trúc với điểm uốn 49,4% (2012) và 47,2% (2024); kết quả này nhất quán với bằng chứng trước đó về quan hệ I–P và hiệu ứng vùng miền ở doanh nghiệp Trung Quốc (Chen & Tan, 2012; Xiao et al., 2013).
+Bốn bản thảo thực nghiệm đồng hành cung cấp bằng chứng quốc gia cụ thể kiểm định khả năng của khung đề xuất. P2 Trung Quốc SMEs (Đỗ & Phan, 2026, JFAR đã công bố) phân tích 4.290 quan sát doanh nghiệp và năm thuộc các doanh nghiệp nhỏ và vừa Trung Quốc và tìm thấy dạng chữ U ngược bậc hai với điểm uốn tối ưu 47,8% FSTS, cung cấp tiền thân thực nghiệm cho H1 và cơ sở để so sánh với P5. P3 Việt Nam (Đỗ & Phan, 2026, JABS đang phản biện) phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với điểm uốn 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp); TCI nhân quả qua biến công cụ (β = 1,639, F bậc một = 22,1); DAI theo giai đoạn và phụ thuộc chọn lựa (IV null, β = 0,018). P4 Singapore (Mar, Đỗ & Phan, 2026, MIR đang phản biện) phân tích 623 doanh nghiệp WBES 2023, cho thấy điểm uốn hàm ý ở FSTS khoảng 88,6% và DAI hoạt động như nguồn lực mở rộng tình huống với hệ số DAI×FSTS² = +3,119 (p = 0,005). P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM đang phản biện) phân tích 4.559 doanh nghiệp WBES hai sóng (2012, 2024) xác nhận chữ U ngược bền vững cấu trúc với điểm uốn 49,4% (2012) và 47,2% (2024); kết quả này nhất quán với bằng chứng trước đó về quan hệ I–P và hiệu ứng vùng miền ở doanh nghiệp Trung Quốc (Chen & Tan, 2012; Xiao et al., 2013).
 
 #### 2.1.2 Mục tiêu
 
@@ -300,7 +300,7 @@ Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết c
 | Marano et al. (2016) | Có (TP ±15% FSTS) | ✗ | ✗ | ✗ | Có (cốt lõi) | ✗ | ✗ | ✗ |
 | Banalieva & Dhanaraj (2019) | Partial | ✗ | Có (cốt lõi) | ✗ | Partial | Partial | ✗ | ✗ |
 | Wu, Wood & Khan (2022) | Có (TP thấp hơn EMNE) | Partial (absorptive capacity) | ✗ | ✗ | Có | Có (20 năm) | Có (EMNE/DMNE) | ✗ |
-| Đỗ & Phan (2026, JFAR) | Có (bậc ba / S-curve) | – | – | – | – | – | – | – |
+| Đỗ & Phan (2026, JFAR) | Có (chữ U ngược bậc hai) | – | – | – | – | – | – | – |
 | **CĐ2 (luận án này)** | **Có (H1: chữ U ngược + S-curve)** | **Có (H2: nhân quả IV)** | **Có (H3: CDCM phân biệt)** | **Có (H4a–H4c)** | **Có (H5: ICRV 6 nhóm)** | **Có (H6: 3 giai đoạn)** | **Có (Nhóm I–VI)** | **Có (Nhóm VI FIP)** |
 
 *Ghi chú: "Có" = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; ✗ = không bao gồm; – = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
@@ -320,8 +320,8 @@ Bảng 2.3. So sánh bằng chứng bốn bản thảo đồng hành.
 | Chiều | P2 Trung Quốc SMEs (Nhóm III) | P3 Việt Nam (Nhóm IV) | P4 Singapore (Nhóm I) | P5 Trung Quốc (Nhóm III) |
 |-------|-------------------------------|----------------------|----------------------|--------------------------|
 | Journal | JFAR (đã công bố 2026) | JABS (under review) | MIR (under review) | IJOEM (under review) |
-| Dạng I–P | **Bậc ba / cubic** (S-curve ba giai đoạn) | Chữ U ngược xác nhận | Chủ yếu dương, TP ~88,6% | Chữ U ngược bền vững |
-| Điểm uốn | Hai điểm uốn (cubic) | 39–46% FSTS | ~88,6% (thưa dữ liệu) | 47–49% FSTS |
+| Dạng I–P | **Chữ U ngược bậc hai** (điểm uốn 47,8%) | Chữ U ngược xác nhận | Chủ yếu dương, TP ~88,6% | Chữ U ngược bền vững |
+| Điểm uốn | 47,8% FSTS | 39–46% FSTS | ~88,6% (thưa dữ liệu) | 47–49% FSTS |
 | TCI | Dương; RBV xác nhận | Dương bền vững, nhân quả (IV) | Dương trực tiếp | Dương, tăng theo thời gian |
 | DAI | Không kiểm định (pre-CDCM) | Phụ thuộc giai đoạn; IV null | Mở rộng tình huống (+3,119) | Kiểm soát (Tier 1 bão hòa) |
 | Temporal | Cắt ngang (không temporal) | Paternoster p < 0,001 (dịch chuyển) | Cắt ngang 2023 | Paternoster p = 0,545 (ổn định) |
