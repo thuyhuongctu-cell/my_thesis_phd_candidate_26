@@ -184,6 +184,8 @@ Lý thuyết thượng tầng quản trị (Hambrick & Mason, 1984) từ lâu đ
 
 ## 5.4 Đề xuất chính sách và quản trị
 
+Cần phân định rõ tính chất của phần này so với các phần trước. Chương 4 và các mục 5.1 đến 5.3 mang tính thực chứng: chúng mô tả, giải thích và dự đoán quan hệ giữa quốc tế hóa và hiệu quả dựa trên bằng chứng. Các đề xuất dưới đây mang tính quy chuẩn: chúng là suy luận chính sách rút ra từ các phát hiện thực chứng nhưng không đồng nhất với chúng, vì việc chuyển từ một quy luật quan sát được sang một khuyến nghị hành động luôn đòi hỏi thêm các giả định về mục tiêu, chi phí và năng lực thực thi. Vì luận án dựa trên thiết kế lát cắt ngang và phần lớn suy luận là về liên hệ chứ chưa phải nhân quả đã chứng minh trực tiếp (Mục 5.5.3.2), các đề xuất nên được đọc như định hướng ưu tiên có cơ sở thực nghiệm, cần được kiểm chứng và hiệu chỉnh trong từng bối cảnh triển khai, chứ không phải như công thức nhân quả chắc chắn.
+
 ### 5.4.1 Đề xuất cho nhà hoạch định chính sách: Nâng cao TCI và cải thiện thể chế
 
 Kết quả về TCI có hàm ý chính sách rõ ràng: **đầu tư vào năng lực công nghệ của doanh nghiệp** là can thiệp chính sách có thể nâng cao lợi ích từ quốc tế hóa, đặc biệt trong các bối cảnh ICRV trung bình như Việt Nam và Trung Quốc. Chính sách hỗ trợ doanh nghiệp tiếp cận công nghệ nước ngoài (thông qua chương trình kết nối với MNCs, giảm thuế nhập khẩu công nghệ), khuyến khích R&D, và hỗ trợ chứng nhận chất lượng quốc tế sẽ nâng cao TCI của toàn bộ doanh nghiệp trong nền kinh tế, từ đó dịch chuyển đường quốc tế hóa và hiệu quả lên trên và có thể mở rộng điểm uốn về phía phải.

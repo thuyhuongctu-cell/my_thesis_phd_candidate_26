@@ -899,3 +899,9 @@ Murhadi, W. R., Setiawan, S. S., & Ernawati, E. (2025). Governance and internati
 > Trích dẫn trong Chương 5 (Mục 5.3). Verbeke (2022) về năng lực động được dùng làm cơ sở cho checklist rà soát chất lượng viết (reviews/checklist_chuan_viet_hoc_thuat.md), chưa trích trong nội dung nên không liệt kê ở đây.
 
 Santangelo, G. D., & Verbeke, A. (2022). Actionable guidelines to improve 'theory-related' contributions to international business research. *Journal of International Business Studies, 53*(9), 1843–1855. https://doi.org/10.1057/s41267-022-00567-x
+
+## Bổ sung v3.7 — Lý thuyết bàn đạp (theo yêu cầu của người hướng dẫn, PGS.TS. Phan Anh Tú, 16/06/2026)
+
+> Bổ sung lý thuyết quốc tế hóa đặc thù cho doanh nghiệp nền kinh tế mới nổi, trích dẫn trong Chương 2 (Mục 2.2.3.1) và Chương 5. DOI cần xác minh lại ở lượt rà soát cuối (`verify_dois.py`).
+
+Luo, Y., & Tung, R. L. (2007). International expansion of emerging market enterprises: A springboard perspective. *Journal of International Business Studies, 38*(4), 481–498. https://doi.org/10.1057/palgrave.jibs.8400275
