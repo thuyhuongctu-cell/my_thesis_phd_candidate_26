@@ -56,8 +56,6 @@ Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital 
 
 Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, internationalization, and firm performance. *International Business Review, 32*(4), 102027.
 
-Bustamante, C. V., Mingo, S., & Matusik, S. F. (2022). Institutions and digital capabilities as drivers of SME internationalization. *IEEE Transactions on Engineering Management, 71*, 1–14.
-
 Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414
 Chen, J., & Meng, Q. (2022). Institutional constraints and exporting of emerging-market firms. *Managerial and Decision Economics, 43*(5), 1706–1720.
 
