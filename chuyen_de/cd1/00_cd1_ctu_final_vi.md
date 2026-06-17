@@ -207,7 +207,7 @@ Trong bối cảnh đó, hệ thống thông tin về hiệu quả doanh nghiệ
 
 **Mục tiêu cụ thể**:
 
-1. Hệ thống hóa khái niệm và đa chiều đo lường hiệu quả hoạt động kinh doanh trong văn liệu hiện hành;
+1. Hệ thống hóa khái niệm và đa chiều đo lường hiệu quả hoạt động kinh doanh trong tài liệu hiện hành;
 2. Đề xuất khung phân loại 6 nhóm ICRV cho 50 nền kinh tế;
 3. Phân tích thực trạng đa chiều hiệu quả doanh nghiệp ở 42 nền kinh tế châu Á đại lục và Đông Á (phạm vi chính) và so sánh với 8 nền SIDS (trường hợp biên);
 4. Nhận diện đặc điểm và yếu tố giải thích sơ bộ cho dị biệt hiệu quả giữa các phân nhóm;
@@ -254,9 +254,9 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 **Bốn đóng góp phạm vi chính (40 nước châu Á)**:
 
-(1) **Bức tranh thực trạng đa chiều** cho hiệu quả doanh nghiệp châu Á 2006–2026, phạm vi rộng nhất trong văn liệu kinh doanh quốc tế hiện hành (Wu et al., 2022 dừng ở 2020; Arte & Larimo, 2022 dừng ở 2019).
+(1) **Bức tranh thực trạng đa chiều** cho hiệu quả doanh nghiệp châu Á 2006–2026, phạm vi rộng nhất trong tài liệu kinh doanh quốc tế hiện hành (Wu et al., 2022 dừng ở 2020; Arte & Larimo, 2022 dừng ở 2019).
 
-(2) **Phân nhóm con Advanced** (innovation-driven so với resource-driven), phát hiện lý thuyết mới chưa có trong văn liệu hiện hành. Hai nhóm cùng mức thu nhập cao nhưng cấu trúc năng lực đối lập: R&D 21,0% so với 7,0%; doanh nghiệp xuất khẩu 24,5% so với 11,7%; nữ quản lý cấp cao 20,7% so với 4,6%, phản ánh hai cơ chế tăng trưởng hoàn toàn khác nhau.
+(2) **Phân nhóm con Advanced** (innovation-driven so với resource-driven), phát hiện lý thuyết mới chưa có trong tài liệu hiện hành. Hai nhóm cùng mức thu nhập cao nhưng cấu trúc năng lực đối lập: R&D 21,0% so với 7,0%; doanh nghiệp xuất khẩu 24,5% so với 11,7%; nữ quản lý cấp cao 20,7% so với 4,6%, phản ánh hai cơ chế tăng trưởng hoàn toàn khác nhau.
 
 (3) **Nhảy vọt số** ở các nhóm đang nổi và chuyển đổi 2018–2026, mở rộng khuôn mẫu từ 17 nền lên 50 nền. Phân tách Tier-1 (website nhị phân, tiệm cận bão hòa ở Advanced) và Tier-2 (tổng hợp đa thành phần, đang phát triển ở các nhóm IV–VI).
 
@@ -264,7 +264,7 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 **Một đóng góp trường hợp biên mở rộng (SIDS Pacific)**:
 
-(5) **Chi phí buộc phải quốc tế hóa** ở 7 SIDS Thái Bình Dương (Briguglio, 1995; Bertram, 2006), bằng chứng cấp doanh nghiệp đầu tiên trong văn liệu kinh doanh quốc tế. Kiribati 2025 là trường hợp cực đoan nhất với FSTS 1,0%, FDI 0,7%, website 18,7%.
+(5) **Chi phí buộc phải quốc tế hóa** ở 7 SIDS Thái Bình Dương (Briguglio, 1995; Bertram, 2006), bằng chứng cấp doanh nghiệp đầu tiên trong tài liệu kinh doanh quốc tế. Kiribati 2025 là trường hợp cực đoan nhất với FSTS 1,0%, FDI 0,7%, website 18,7%.
 
 ---
 
@@ -278,7 +278,7 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 
 - **Biến năng suất lao động (LP)**: `LP = ln(doanh thu bán hàng hàng năm / số lao động toàn thời gian)` (d2/l1), tính theo nội tệ của từng nền kinh tế. Vì đơn vị tiền tệ khác nhau giữa các nước, chuyên đề tuân thủ một **nguyên tắc so sánh xuyên tiền tệ** xuyên suốt: (a) các thống kê *phân tán* được tính **trong từng cặp nền kinh tế × năm** (bất biến với đơn vị tiền tệ vì thừa số quy đổi triệt tiêu trong thang log); (b) so sánh *mức* giữa các nền kinh tế dùng chỉ số không thứ nguyên (ROS, tỷ suất sinh lời trên doanh thu); (c) trong khung ước lượng của luận án, LP được chuẩn hóa z-score trong từng cặp nền kinh tế × năm và mô hình luôn có hiệu ứng cố định quốc gia (Phụ lục A của luận án). Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để kiểm soát ngoại lai. Lựa chọn năng suất lao động làm thước đo hiệu quả phù hợp với dữ liệu WBES vốn không có giá thị trường và dữ liệu lợi nhuận thưa (Combs et al., 2005; Cusolito & Maloney, 2018; Richard et al., 2009).
 
-- **Biến FSTS (Foreign Sales to Total Sales)**: `FSTS = (d3b + d3c) / 100`, trong đó d3b là tỷ lệ doanh thu **xuất khẩu gián tiếp** (bán qua trung gian xuất khẩu) và d3c là tỷ lệ doanh thu **xuất khẩu trực tiếp**, theo nhãn biến chính thức của bộ công cụ WBES. Quan sát được gán FSTS = 0 nếu doanh nghiệp báo cáo toàn bộ doanh thu nội địa (d3a = 100); gán khuyết nếu không trả lời. Tổng xuất khẩu trực tiếp + gián tiếp là định nghĩa tham gia xuất khẩu chuẩn của WBES (World Bank Enterprise Surveys, 2025) và được dùng thống nhất cho thống kê mô tả của chuyên đề cũng như khung ước lượng đa quốc gia của luận án. **Ghi chú thao tác hóa**: hai nghiên cứu thành phần đơn quốc gia (P3 Việt Nam, P5 Trung Quốc) đo cường độ quốc tế hóa bằng riêng xuất khẩu trực tiếp (d3c), vì xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại, doanh nghiệp không trực tiếp tích lũy kinh nghiệm thị trường nước ngoài, nên cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất (Hessels & Terjesen, 2010; Peng & Ilinitch, 1998); trong khi tỷ trọng doanh thu xuất khẩu (FSTS) là thước đo cường độ quốc tế hóa chuẩn của văn liệu I–P (Lu & Beamish, 2001; Sullivan, 1994). Hai cách thao tác hóa trả lời hai câu hỏi bổ trợ, mức độ *tham gia* thị trường quốc tế (tổng) và mức độ *cam kết trực tiếp* của doanh nghiệp (trực tiếp), và được ghi rõ trong phần dữ liệu của từng nghiên cứu.
+- **Biến FSTS (Foreign Sales to Total Sales)**: `FSTS = (d3b + d3c) / 100`, trong đó d3b là tỷ lệ doanh thu **xuất khẩu gián tiếp** (bán qua trung gian xuất khẩu) và d3c là tỷ lệ doanh thu **xuất khẩu trực tiếp**, theo nhãn biến chính thức của bộ công cụ WBES. Quan sát được gán FSTS = 0 nếu doanh nghiệp báo cáo toàn bộ doanh thu nội địa (d3a = 100); gán khuyết nếu không trả lời. Tổng xuất khẩu trực tiếp + gián tiếp là định nghĩa tham gia xuất khẩu chuẩn của WBES (World Bank Enterprise Surveys, 2025) và được dùng thống nhất cho thống kê mô tả của chuyên đề cũng như khung ước lượng đa quốc gia của luận án. **Ghi chú thao tác hóa**: hai nghiên cứu thành phần đơn quốc gia (P3 Việt Nam, P5 Trung Quốc) đo cường độ quốc tế hóa bằng riêng xuất khẩu trực tiếp (d3c), vì xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại, doanh nghiệp không trực tiếp tích lũy kinh nghiệm thị trường nước ngoài, nên cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất (Hessels & Terjesen, 2010; Peng & Ilinitch, 1998); trong khi tỷ trọng doanh thu xuất khẩu (FSTS) là thước đo cường độ quốc tế hóa chuẩn của tài liệu I–P (Lu & Beamish, 2001; Sullivan, 1994). Hai cách thao tác hóa trả lời hai câu hỏi bổ trợ, mức độ *tham gia* thị trường quốc tế (tổng) và mức độ *cam kết trực tiếp* của doanh nghiệp (trực tiếp), và được ghi rõ trong phần dữ liệu của từng nghiên cứu.
 
 - **Biến TCI (Technological Capability Index)**: Trung bình chuẩn hóa z của tối thiểu 3 trong 4 thành phần: ISO (b8), R&D (h8), đổi mới sản phẩm (h1), công nghệ nước ngoài (e6). Yêu cầu ≥3 non-missing để tính tổng hợp. Construct phản ánh chiều sâu năng lực công nghệ nội tại theo truyền thống năng lực công nghệ hóa công nghiệp và năng lực hấp thụ (Cohen & Levinthal, 1990; Lall, 1992); cách tổng hợp formative tuân theo tiêu chí của Coltman et al. (2008). *Lưu ý phân biệt:* đây là biến thể TCI **đầy đủ 4 mục** trên mẫu gộp mô tả của chuyên đề, khác với biến thể **thin 2 mục (b8 + e6)** dùng trong nghiên cứu đa quốc gia P7 và Mục 3.4.5.4 của luận án; bảng tương quan Mục 2.3.8.1 còn dùng một proxy 2 mục riêng (h8 + b8) đã ghi rõ ở chú thích bảng. Các khác biệt này phản ánh độ khả dụng dữ liệu theo từng mẫu gộp, cùng đo một construct *năng lực công nghệ*; mọi hệ số được tính từ đúng bộ mục nêu kèm.
 
@@ -306,7 +306,7 @@ Khung phân tích mô tả của Chuyên đề 1 được tóm lược ở Hình
 
 Hiệu quả hoạt động kinh doanh (firm performance) là khái niệm **đa chiều** phản ánh mức độ đạt được các mục tiêu chiến lược của doanh nghiệp theo thời gian và trong bối cảnh thể chế cụ thể. Venkatraman và Ramanujam (1986) phân biệt hai tầng: (a) **hiệu quả tài chính**, doanh thu, lợi nhuận, tỷ suất sinh lợi; và (b) **hiệu quả hoạt động rộng hơn**, thị phần, đổi mới, năng suất, tăng trưởng việc làm. Lý thuyết dựa trên nguồn lực (Barney, 1991; Wernerfelt, 1984) xem hiệu quả doanh nghiệp là kết quả của việc tích lũy và khai thác **nguồn lực chiến lược** (có giá trị, hiếm, không thể sao chép, không thể thay thế, VRIN), trong khi quan điểm thể chế (North, 1990; Scott, 1995; Peng, 2001) nhấn mạnh rằng hiệu quả này bị định hình mạnh bởi **môi trường thể chế** nơi doanh nghiệp hoạt động.
 
-Vượt ra ngoài khung hai tầng của Venkatraman và Ramanujam (1986), văn liệu phương pháp luận về đo lường hiệu quả tổ chức (Combs et al., 2005; Richard et al., 2009) cho phép tổng hợp thành **ba nhóm thước đo chính**: (i) **thước đo dựa trên kế toán** (ROA, ROE, ROS) phản ánh hiệu quả tài chính lịch sử; (ii) **thước đo dựa trên thị trường tài chính** (Tobin's Q, tổng lợi nhuận cổ đông) phản ánh kỳ vọng tương lai do nhà đầu tư định giá; và (iii) **thước đo dựa trên năng suất và tăng trưởng** (năng suất lao động, tăng trưởng doanh thu và việc làm) phản ánh năng lực vận hành thực chất. Richard và cộng sự (2009) cảnh báo rằng việc dựa vào một thước đo đơn lẻ làm suy giảm hiệu lực cấu trúc (construct validity) và khuyến nghị đo lường đa nguồn, đa chiều. Trong bối cảnh dữ liệu WBES, vốn không cung cấp giá cổ phiếu nên loại trừ nhóm (ii), và có dữ liệu lợi nhuận thưa thớt làm hạn chế nhóm (i), **năng suất lao động** (thuộc nhóm iii) là lựa chọn chủ đạo có cơ sở lý thuyết và kỹ thuật vững nhất giữa các phương án (ROA/ROS/Tobin's Q): nó so sánh được xuyên quốc gia, ít bị méo mó bởi cơ cấu vốn và chế độ thuế đặc thù từng quốc gia, và phản ánh trực tiếp năng lực chuyển hóa đầu vào thành đầu ra. Để bù đắp giới hạn của một thước đo đơn lẻ theo khuyến nghị của Combs và cộng sự (2005), chuyên đề bổ sung ba chiều hiệu quả hỗ trợ (lợi nhuận, tăng trưởng, đổi mới) được trình bày ở mục 2.3.1.2.
+Vượt ra ngoài khung hai tầng của Venkatraman và Ramanujam (1986), tài liệu phương pháp luận về đo lường hiệu quả tổ chức (Combs et al., 2005; Richard et al., 2009) cho phép tổng hợp thành **ba nhóm thước đo chính**: (i) **thước đo dựa trên kế toán** (ROA, ROE, ROS) phản ánh hiệu quả tài chính lịch sử; (ii) **thước đo dựa trên thị trường tài chính** (Tobin's Q, tổng lợi nhuận cổ đông) phản ánh kỳ vọng tương lai do nhà đầu tư định giá; và (iii) **thước đo dựa trên năng suất và tăng trưởng** (năng suất lao động, tăng trưởng doanh thu và việc làm) phản ánh năng lực vận hành thực chất. Richard và cộng sự (2009) cảnh báo rằng việc dựa vào một thước đo đơn lẻ làm suy giảm hiệu lực cấu trúc (construct validity) và khuyến nghị đo lường đa nguồn, đa chiều. Trong bối cảnh dữ liệu WBES, vốn không cung cấp giá cổ phiếu nên loại trừ nhóm (ii), và có dữ liệu lợi nhuận thưa thớt làm hạn chế nhóm (i), **năng suất lao động** (thuộc nhóm iii) là lựa chọn chủ đạo có cơ sở lý thuyết và kỹ thuật vững nhất giữa các phương án (ROA/ROS/Tobin's Q): nó so sánh được xuyên quốc gia, ít bị méo mó bởi cơ cấu vốn và chế độ thuế đặc thù từng quốc gia, và phản ánh trực tiếp năng lực chuyển hóa đầu vào thành đầu ra. Để bù đắp giới hạn của một thước đo đơn lẻ theo khuyến nghị của Combs và cộng sự (2005), chuyên đề bổ sung ba chiều hiệu quả hỗ trợ (lợi nhuận, tăng trưởng, đổi mới) được trình bày ở mục 2.3.1.2.
 
 Trong bối cảnh nghiên cứu xuyên quốc gia, khái niệm hiệu quả cần được **tiêu chuẩn hóa** để so sánh được. Theo Cusolito và Maloney (2018), **năng suất lao động**, đo bằng giá trị gia tăng trên lao động hoặc doanh thu trên lao động, là thước đo phổ biến nhất trong các nghiên cứu WBES vì: (a) tính khả dụng cao xuyên 3 thế hệ schema; (b) ít bị biến dạng bởi cơ cấu vốn hay cơ chế thuế quốc gia; (c) phản ánh trực tiếp năng lực chuyển đổi đầu vào thành đầu ra. Trong chuyên đề này, năng suất lao động được tính bằng:
 
@@ -318,7 +318,7 @@ Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gi
 
 Hiệu quả doanh nghiệp trong chuyên đề này được đo lường theo **bốn chiều** tương ứng với bốn nhóm biến WBES:
 
-**Chiều 1, Năng suất lao động**. Biến đo lường chính: LP = ln(doanh thu hàng năm PPP / số lao động toàn thời gian). Đây là **thước đo chính** xuyên suốt phân tích, được lựa chọn vì: (a) có thể tính cho hầu hết các nền kinh tế trong mẫu gộp; (b) không bị nhiễu bởi cơ cấu thuế và chính sách chuyển giá quốc gia; (c) có giá trị tham chiếu rõ ràng trong văn liệu quốc tế (Hsieh & Klenow, 2009, 2014).
+**Chiều 1, Năng suất lao động**. Biến đo lường chính: LP = ln(doanh thu hàng năm PPP / số lao động toàn thời gian). Đây là **thước đo chính** xuyên suốt phân tích, được lựa chọn vì: (a) có thể tính cho hầu hết các nền kinh tế trong mẫu gộp; (b) không bị nhiễu bởi cơ cấu thuế và chính sách chuyển giá quốc gia; (c) có giá trị tham chiếu rõ ràng trong tài liệu quốc tế (Hsieh & Klenow, 2009, 2014).
 
 **Chiều 2, Lợi nhuận và biên lợi nhuận**. Biến đo lường: (a) tỷ suất lợi nhuận hoạt động từ câu hỏi WBES về doanh thu sau chi phí lao động; (b) chỉ số gián tiếp qua khả năng tái đầu tư. Hạn chế: nhiều doanh nghiệp trong WBES không tiết lộ lợi nhuận cụ thể, chiều này mang tính hỗ trợ thay vì chủ đạo.
 
@@ -328,7 +328,7 @@ Hiệu quả doanh nghiệp trong chuyên đề này được đo lường theo 
 
 #### 2.3.1.3 Năm meta-analysis lớn về quan hệ quốc tế hóa – hiệu quả (1980–2024)
 
-Văn liệu về quan hệ quốc tế hóa – hiệu quả là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế. Năm meta-analysis lớn cung cấp nền tảng thực nghiệm:
+Tài liệu về quan hệ quốc tế hóa – hiệu quả là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế. Năm meta-analysis lớn cung cấp nền tảng thực nghiệm:
 
 **(1) Bausch & Krist (2007)**: Tổng hợp **68 nghiên cứu** giai đoạn 1980–2005. Hệ số tương quan trung bình r=0,045, tích cực nhưng nhỏ. Phát hiện chính: đo lường quốc tế hóa và hiệu quả rất không đồng nhất giữa các nghiên cứu, hạn chế khả năng so sánh. Khoảng trống: ít nghiên cứu châu Á mới nổi.
 
@@ -648,7 +648,7 @@ Kafouros et al. (2023) chứng minh chất lượng thể chế tương tác hai
 
 #### 2.3.6.4 Dị biệt nội bộ khối châu Á mới nổi (7 nền thuộc Nhóm IV–V)
 
-Bảy nền kinh tế mới nổi đông dân nhất của khung phân tích (Việt Nam, Indonesia, Philippines, Ấn Độ, Mông Cổ thuộc Nhóm IV; Sri Lanka, Jordan thuộc Nhóm V) thường bị văn liệu gộp thành một khối "Emerging Asia" đồng nhất. Dữ liệu cho thấy ba phân nhóm con khác biệt rõ:
+Bảy nền kinh tế mới nổi đông dân nhất của khung phân tích (Việt Nam, Indonesia, Philippines, Ấn Độ, Mông Cổ thuộc Nhóm IV; Sri Lanka, Jordan thuộc Nhóm V) thường bị tài liệu gộp thành một khối "Emerging Asia" đồng nhất. Dữ liệu cho thấy ba phân nhóm con khác biệt rõ:
 
 **Bảng 2.3.6.4**. *Dị biệt nội bộ khối châu Á mới nổi, số liệu tổng hợp mẫu gộp mô tả 2006–2026 (n=43.502).*
 
@@ -846,7 +846,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **KT4, Dị biệt theo thời gian ba giai đoạn 2006–2026 chưa được tổng hợp**: Bằng chứng từ kiểm định Paternoster cho thấy bất ổn định tham số quan trọng giữa ba giai đoạn.
 
-**KT5, SIDS Pacific như trường hợp biên lý thuyết của thuyết Uppsala**: Chi phí buộc phải quốc tế hóa tại 7 SIDS không khớp với bất kỳ dạng hàm quốc tế hóa – hiệu quả nào trong văn liệu. Cần khung kết hợp MIRAB và Briguglio (1995) và quan điểm dựa trên nguồn lực.
+**KT5, SIDS Pacific như trường hợp biên lý thuyết của thuyết Uppsala**: Chi phí buộc phải quốc tế hóa tại 7 SIDS không khớp với bất kỳ dạng hàm quốc tế hóa – hiệu quả nào trong tài liệu. Cần khung kết hợp MIRAB và Briguglio (1995) và quan điểm dựa trên nguồn lực.
 
 **Ánh xạ khoảng trống sang câu hỏi nghiên cứu cho Chuyên đề 2.** Để chính thức hóa cầu nối từ thực trạng mô tả (CĐ1) sang thiết kế kiểm định suy diễn (CĐ2), Bảng 2.3.9.1 chuyển mỗi khoảng trống thực nghiệm thành một câu hỏi nghiên cứu có mô hình/kiểm định tương ứng.
 

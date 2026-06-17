@@ -13,7 +13,7 @@
 
 ### 1.1 Bối cảnh nghiên cứu
 
-Quan hệ giữa quốc tế hóa doanh nghiệp (internationalization — I) và hiệu quả hoạt động kinh doanh (firm performance — P) là một trong những chủ đề được nghiên cứu nhiều nhất trong văn liệu Kinh doanh quốc tế (IB). Năm phân tích tổng hợp (meta-analysis) lớn đã được công bố:
+Quan hệ giữa quốc tế hóa doanh nghiệp (internationalization — I) và hiệu quả hoạt động kinh doanh (firm performance — P) là một trong những chủ đề được nghiên cứu nhiều nhất trong tài liệu Kinh doanh quốc tế (IB). Năm phân tích tổng hợp (meta-analysis) lớn đã được công bố:
 
 | Meta-analysis | Phạm vi thời gian | k (số nghiên cứu) | Phát hiện chính |
 |---|---|---|---|
