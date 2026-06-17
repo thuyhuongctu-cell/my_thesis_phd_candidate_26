@@ -163,6 +163,30 @@ Phân tích điểm uốn theo từng chế độ làm lộ rõ cấu trúc ba v
 
 Đặc điểm nhà quản trị cấp cao được vận hành hóa từ hai mục khảo sát: số năm kinh nghiệm của nhà quản trị cấp cao trong ngành (trường `b7`) và một biến nhị phân chỉ nhà quản trị cấp cao là nữ (trường `b7a` hoặc `b6a` tùy đợt). Hai biến này được đưa vào mô hình đa quốc gia để kiểm định hiệu ứng trực tiếp và hiệu ứng điều tiết của đặc điểm quản trị lên hình dạng đường quan hệ; ở các nghiên cứu thiếu dữ liệu quản trị, hai biến chỉ được dùng trong phân tích độ vững chứ không bắt buộc trong mô hình chính, đúng điều kiện sử dụng đã nêu.
 
+### 3.3.6 Tổng hợp biến nghiên cứu
+
+Toàn bộ biến của khung thực nghiệm được tổng hợp trong Bảng 3.1, nêu rõ với mỗi biến: vai trò trong mô hình, ký hiệu, trường khảo sát WBES nguồn, cách vận hành hóa và giả thuyết liên quan. Bảng này bảo đảm tính minh bạch đo lường và khả năng tái lập (Aguinis et al., 2019); chi tiết vận hành hóa theo từng nghiên cứu thành phần được trình bày trong các bảng định nghĩa biến ở Mục 3.4.5.
+
+**Bảng 3.1.** *Tổng hợp biến nghiên cứu của khung thực nghiệm đa quốc gia.*
+
+| Vai trò | Biến (ký hiệu) | Trường WBES | Vận hành hóa | Giả thuyết |
+|---|---|---|---|---|
+| Biến phụ thuộc | Năng suất lao động, ln(LP) | `d2`, `l1` | Logarit tự nhiên của doanh thu trên số lao động thường xuyên | — |
+| Biến độc lập | Cường độ xuất khẩu (FSTS) | `d3c` (và `d3b`) | Tỷ lệ doanh thu nước ngoài trên tổng doanh thu (0–1), trung tâm hóa | H1 |
+| Biến độc lập | FSTS bình phương (FSTS²) | (suy ra) | Bình phương của FSTS đã trung tâm hóa, kiểm định phi tuyến | H1, H1b |
+| Điều tiết – tầng doanh nghiệp | Năng lực công nghệ (TCI) | `b8`, `e6` | Chỉ số hợp thành chuẩn hóa z (chứng chỉ chất lượng + công nghệ ngoại nhập) | H2 |
+| Điều tiết – tầng doanh nghiệp | Chấp nhận số (DAI) | `c22b`, `k33`/`k38` | Tầng 1: website (nhị phân); Tầng 2: hợp thành z (website + thanh toán điện tử) | H3 |
+| Điều tiết – tầng cá nhân | Kinh nghiệm nhà quản trị | `b7` | Số năm kinh nghiệm của nhà quản trị cấp cao trong ngành | H4 |
+| Điều tiết – tầng cá nhân | Giới tính nhà quản trị | `b7a`/`b6a` | Biến nhị phân: nhà quản trị cấp cao là nữ | H4 |
+| Điều tiết – tầng quốc gia | Chế độ thể chế (ICRV) | (phân loại) | Biến số nguyên 1–6 theo khung ICRV (thể chế giảm dần) | H5 |
+| Điều tiết – thời gian | Đợt khảo sát | (năm khảo sát) | Biến giả đợt/năm; kiểm định ổn định hệ số Paternoster | H6 |
+| Kiểm soát | Quy mô doanh nghiệp | `l1` | Logarit số lao động thường xuyên | — |
+| Kiểm soát | Tuổi doanh nghiệp | `b5` | Năm khảo sát trừ năm thành lập | — |
+| Kiểm soát | Sở hữu nước ngoài | `b2b` | Tỷ lệ vốn sở hữu nước ngoài (hoặc biến nhị phân ≥10%) | — |
+| Kiểm soát | Hiệu ứng cố định | — | Ngành (FE), nền kinh tế (FE), năm (FE) | — |
+
+*Ghi chú: trường WBES tham chiếu mã biến của bộ công cụ khảo sát; một số mã thay đổi theo thế hệ lược đồ (PICS3 / Standardized / BREADY) và được hài hòa hóa theo Phụ lục A. Vận hành hóa chi tiết theo từng nghiên cứu thành phần xem Mục 3.4.5. Nguồn: tác giả tổng hợp.*
+
 ## 3.4 Mô hình phân tích
 
 ### 3.4.1 Mô hình phân tích tổng hợp
