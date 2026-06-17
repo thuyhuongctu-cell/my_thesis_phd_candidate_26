@@ -74,6 +74,11 @@ RULES = [
     (r"\bwaves\b", "các đợt"),
     (r"\bwave\b", "đợt"),
     (r"\bSpecification\b", "Đặc tả"),
+    # bổ sung đợt 3 (chuyên đề CĐ1/CĐ2 — văn xuôi ngoài ngoặc/đậm/mã)
+    (r"\bPatterns?\b", "Khuôn mẫu"),
+    (r"\bpatterns?\b", "khuôn mẫu"),
+    (r"\bvoids\b", "khoảng trống"),
+    (r"\bin press\b", "sắp xuất bản"),
 ]
 
 def protect(text):
@@ -107,7 +112,7 @@ def fix_sentence_initial(text):
 
 def process(text):
     # KHÔNG xử lý phần danh mục tài liệu tham khảo (giữ nguyên tiêu đề tiếng Anh).
-    m = re.search(r"\n#{1,6}\s*Tài liệu tham khảo|\n#{1,6}\s*Danh mục tham khảo", text)
+    m = re.search(r"\n#{1,6}\s*Tài liệu tham khảo|\n#{1,6}\s*Danh mục tham khảo", text, re.IGNORECASE)
     if m:
         head, tail = text[:m.start()], text[m.start():]
     else:

@@ -111,7 +111,7 @@ Likitwongkajon, N., & Vithessonthi, C. (2020). Do foreign investments increase f
 
 Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*(6–7), 565–586.
 
-Mondal, A., Ray, S., & Lahiri, S. (2022). Internationalization and performance of family firms. *Journal of Business Research, 138*, 280–294.
+Mondal, A., Ray, S., & Lahiri, S. (2022). Family ownership, family management, and multinationality: Evidence from India. *Journal of Business Research, 138*, 347–359. https://doi.org/10.1016/j.jbusres.2021.09.017
 
 Pangarkar, N. (2008). Internationalization and performance of small- and medium-sized enterprises. *Journal of World Business, 43*(4), 475–485.
 
