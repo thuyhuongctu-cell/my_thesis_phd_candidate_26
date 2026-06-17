@@ -1,89 +1,89 @@
-<div align="center">
+```{=latex}
+\thispagestyle{empty}
+\begin{center}
+{\fontsize{14}{18}\selectfont\bfseries BỘ GIÁO DỤC VÀ ĐÀO TẠO\\TRƯỜNG ĐẠI HỌC CẦN THƠ}
 
-BỘ GIÁO DỤC VÀ ĐÀO TẠO
-**TRƯỜNG ĐẠI HỌC CẦN THƠ**
+\vspace{2.2cm}
+{\fontsize{14}{18}\selectfont\bfseries ĐỖ THÙY HƯƠNG}
 
-&nbsp;
-&nbsp;
+\vspace{2.4cm}
+{\fontsize{20}{26}\selectfont\bfseries QUỐC TẾ HÓA VÀ HIỆU QUẢ HOẠT ĐỘNG\\KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á}
 
-**ĐỖ THÙY HƯƠNG**
+\vspace{2.4cm}
+{\fontsize{14}{18}\selectfont\bfseries LUẬN ÁN TIẾN SĨ}
 
-&nbsp;
-&nbsp;
+{\fontsize{14}{18}\selectfont\bfseries NGÀNH QUẢN TRỊ KINH DOANH}
 
-**QUỐC TẾ HÓA VÀ HIỆU QUẢ HOẠT ĐỘNG KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á**
+{\fontsize{14}{18}\selectfont\bfseries MÃ SỐ: 9340101}
 
-&nbsp;
-&nbsp;
+\vspace{2.8cm}
+{\fontsize{14}{18}\selectfont\bfseries CẦN THƠ, NĂM 2026}
+\end{center}
+\newpage
 
-**LUẬN ÁN TIẾN SĨ**
-NGÀNH QUẢN TRỊ KINH DOANH
+\thispagestyle{empty}
+\begin{center}
+{\fontsize{14}{18}\selectfont\bfseries BỘ GIÁO DỤC VÀ ĐÀO TẠO\\TRƯỜNG ĐẠI HỌC CẦN THƠ}
 
-&nbsp;
-&nbsp;
+\vspace{1.6cm}
+{\fontsize{14}{18}\selectfont\bfseries ĐỖ THÙY HƯƠNG}
 
-CẦN THƠ, NĂM 2026
+{\fontsize{14}{18}\selectfont\bfseries MÃ SỐ NCS: \rule{3cm}{0.4pt}}
 
-</div>
+\vspace{1.6cm}
+{\fontsize{20}{26}\selectfont\bfseries QUỐC TẾ HÓA VÀ HIỆU QUẢ HOẠT ĐỘNG\\KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á}
+
+\vspace{1.6cm}
+{\fontsize{14}{18}\selectfont\bfseries LUẬN ÁN TIẾN SĨ}
+
+{\fontsize{14}{18}\selectfont\bfseries NGÀNH QUẢN TRỊ KINH DOANH}
+
+{\fontsize{14}{18}\selectfont\bfseries MÃ SỐ: 9340101}
+
+\vspace{1.4cm}
+{\fontsize{13}{17}\selectfont\bfseries NGƯỜI HƯỚNG DẪN KHOA HỌC}
+
+{\fontsize{13}{17}\selectfont\bfseries PGS.TS. PHAN ANH TÚ}
+
+\vspace{1.4cm}
+{\fontsize{14}{18}\selectfont\bfseries CẦN THƠ, NĂM 2026}
+\end{center}
+\newpage
+
+\thispagestyle{empty}
+\begin{center}
+{\fontsize{14}{18}\selectfont\bfseries CHẤP THUẬN CỦA HỘI ĐỒNG}
+\end{center}
+
+\vspace{0.5cm}
+\hspace*{1cm}Luận án này với tựa đề là ``Quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp ở châu Á'', do nghiên cứu sinh Đỗ Thùy Hương thực hiện theo sự hướng dẫn của PGS.TS. Phan Anh Tú. Luận án đã báo cáo và được Hội đồng đánh giá luận án tiến sĩ thông qua ngày \rule{1.2cm}{0.4pt} tháng \rule{1.2cm}{0.4pt} năm \rule{1.6cm}{0.4pt}. Luận án đã được chỉnh sửa theo góp ý và được Hội đồng đánh giá luận án xem lại.
+
+\vspace{1.0cm}
+\vspace{0.8cm}
+\noindent\begin{minipage}[t]{0.48\textwidth}\centering Thư ký\\[2cm](ký tên)\end{minipage}\hfill\begin{minipage}[t]{0.48\textwidth}\centering Ủy viên\\[2cm](ký tên)\end{minipage}
+
+\vspace{1.2cm}
+\noindent\begin{minipage}[t]{0.48\textwidth}\centering Ủy viên\\[2cm](ký tên)\end{minipage}\hfill\begin{minipage}[t]{0.48\textwidth}\centering Phản biện 3\\[2cm](ký tên)\end{minipage}
+
+\vspace{1.2cm}
+\noindent\begin{minipage}[t]{0.48\textwidth}\centering Phản biện 2\\[2cm](ký tên)\end{minipage}\hfill\begin{minipage}[t]{0.48\textwidth}\centering Phản biện 1\\[2cm](ký tên)\end{minipage}
+
+\vspace{1.2cm}
+\noindent\begin{minipage}[t]{0.48\textwidth}\centering Người hướng dẫn\\[2cm](ký tên)\end{minipage}\hfill\begin{minipage}[t]{0.48\textwidth}\centering Chủ tịch Hội đồng\\[2cm](ký tên)\end{minipage}
+
+\vspace{0.8cm}
+\noindent{\footnotesize *: Ghi đầy đủ học hàm, học vị và họ tên.}
+```
 
 \newpage
 
-<div align="center">
-
-BỘ GIÁO DỤC VÀ ĐÀO TẠO
-**TRƯỜNG ĐẠI HỌC CẦN THƠ**
-
-&nbsp;
-&nbsp;
-
-**ĐỖ THÙY HƯƠNG**
-
-&nbsp;
-
-**QUỐC TẾ HÓA VÀ HIỆU QUẢ HOẠT ĐỘNG KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á**
-
-&nbsp;
-&nbsp;
-
-**LUẬN ÁN TIẾN SĨ**
-NGÀNH QUẢN TRỊ KINH DOANH
-MÃ NGÀNH: 9340101
-
-&nbsp;
-&nbsp;
-
-**NGƯỜI HƯỚNG DẪN KHOA HỌC**
-PGS.TS. PHAN ANH TÚ
-
-&nbsp;
-&nbsp;
-
-CẦN THƠ, NĂM 2026
-
-</div>
-
----
-
-
-## LỜI CAM ĐOAN
-
-Tôi xin cam đoan luận án tiến sĩ này là công trình nghiên cứu của riêng tôi dưới sự hướng dẫn khoa học của người hướng dẫn. Các kết quả phân tích, số liệu, bảng biểu và hình vẽ trình bày trong luận án đều trung thực và chưa từng được công bố trong bất kỳ công trình nào khác, ngoại trừ các bài báo khoa học do chính tôi là tác giả/đồng tác giả được liệt kê trong *Danh mục công trình đã công bố của nghiên cứu sinh* (luận án được thực hiện theo định hướng kết hợp các công trình thành phần). Luận án được phát triển trên cơ sở **hai chuyên đề tiến sĩ do chính tôi thực hiện trong khuôn khổ chương trình đào tạo tiến sĩ tại Trường Đại học Cần Thơ** (theo Quyết định giao chuyên đề của Nhà trường); do đó, một phần nội dung của luận án kế thừa và có thể trùng lặp với hai chuyên đề này, đây là phần công trình của chính tôi, không phải sao chép từ nguồn của người khác. Dữ liệu sử dụng là dữ liệu thứ cấp công khai từ Khảo sát Doanh nghiệp của Ngân hàng Thế giới (World Bank Enterprise Surveys). Mọi trích dẫn từ các nghiên cứu khác đều được nêu rõ nguồn theo chuẩn APA 7th và được liệt kê đầy đủ trong danh mục tài liệu tham khảo. Tôi xin chịu trách nhiệm hoàn toàn về nội dung khoa học của luận án này.
-
-*Cần Thơ, ngày … tháng … năm 2026*
-
-**Nghiên cứu sinh**
-
-Đỗ Thùy Hương
-
----
-
-## LỜI CẢM ƠN
+## LỜI CẢM ƠN  {-}
 
 *(NCS hoàn thiện: cảm ơn người hướng dẫn khoa học, Trường Kinh tế và Trường Đại học Cần Thơ, Trường Đại học Kỹ thuật – Công nghệ Vĩnh Long, gia đình và đồng nghiệp.)*
 
 ---
 
-## TÓM TẮT
+## TÓM TẮT  {-}
 
 Luận án nghiên cứu mối quan hệ giữa quốc tế hóa và hiệu quả hoạt động của doanh nghiệp (internationalization–firm performance, I–P) tại châu Á, tập trung làm rõ các điều kiện biên giải thích sự dị biệt cao trong mối quan hệ này. Trên cơ sở tích hợp bốn lý thuyết kinh điển, mô hình Uppsala, lý thuyết dựa trên nguồn lực (RBV), lý thuyết thể chế và lý thuyết thượng tầng quản trị, cùng lớp mở rộng về năng lực số, luận án xây dựng khung giải thích đa tầng CDCM (Country–Digital–Capability Moderation) với ba tầng điều tiết: bối cảnh thể chế (vận hành hóa bằng khung phân loại ICRV sáu nhóm), năng lực số (phân tách năng lực công nghệ TCI và chỉ số chấp nhận số DAI), và đặc điểm nhà quản trị cấp cao.
 
@@ -95,7 +95,7 @@ Kết quả chính: (1) quan hệ I–P có dạng phi tuyến chữ U ngược 
 
 ---
 
-## ABSTRACT
+## ABSTRACT  {-}
 
 This dissertation examines the internationalization–firm performance (I–P) relationship across Asia, focusing on the boundary conditions that explain its well-documented heterogeneity. Integrating four foundational theories, the Uppsala model, the resource-based view (RBV), institutional theory, and upper echelons theory, with a digital-capability extension, the dissertation develops a multi-tier moderation framework, CDCM (Country–Digital–Capability Moderation), comprising three moderating tiers: institutional context (operationalized through a six-group ICRV taxonomy), digital capability (separating technological capability, TCI, from digital adoption, DAI), and top-manager characteristics.
 
@@ -105,42 +105,67 @@ Key findings: (1) the I–P relationship is inverted-U shaped with a pooled turn
 
 **Keywords:** internationalization; firm performance; institutions; digital capability; top management; Asia; WBES; inverted-U relationship.
 
----
+\newpage
 
-## MỤC LỤC
+## LỜI CAM ĐOAN  {-}
 
-**MỞ ĐẦU**, Lời cam đoan, Lời cảm ơn, Tóm tắt, Abstract, Danh mục từ viết tắt, Danh mục bảng, Danh mục hình, Danh mục công trình
+Tôi xin cam đoan luận án tiến sĩ này là công trình nghiên cứu của riêng tôi dưới sự hướng dẫn khoa học của người hướng dẫn. Các kết quả phân tích, số liệu, bảng biểu và hình vẽ trình bày trong luận án đều trung thực và chưa từng được công bố trong bất kỳ công trình nào khác, ngoại trừ các bài báo khoa học do chính tôi là tác giả/đồng tác giả được liệt kê trong *Danh mục công trình đã công bố của nghiên cứu sinh* (luận án được thực hiện theo định hướng kết hợp các công trình thành phần). Luận án được phát triển trên cơ sở **hai chuyên đề tiến sĩ do chính tôi thực hiện trong khuôn khổ chương trình đào tạo tiến sĩ tại Trường Đại học Cần Thơ** (theo Quyết định giao chuyên đề của Nhà trường); do đó, một phần nội dung của luận án kế thừa và có thể trùng lặp với hai chuyên đề này, đây là phần công trình của chính tôi, không phải sao chép từ nguồn của người khác. Dữ liệu sử dụng là dữ liệu thứ cấp công khai từ Khảo sát Doanh nghiệp của Ngân hàng Thế giới (World Bank Enterprise Surveys). Mọi trích dẫn từ các nghiên cứu khác đều được nêu rõ nguồn theo chuẩn APA 7th và được liệt kê đầy đủ trong danh mục tài liệu tham khảo. Tôi xin chịu trách nhiệm hoàn toàn về nội dung khoa học của luận án này.
 
-**CHƯƠNG 1. GIỚI THIỆU**
-- 1.1 Bối cảnh nghiên cứu, 1.2 Vấn đề nghiên cứu, 1.3 Mục tiêu, 1.4 Câu hỏi nghiên cứu
-- 1.5 Đối tượng và phạm vi, 1.6 Phương pháp luận, 1.7 Giả thuyết khoa học (tóm tắt)
-- 1.8 Ý nghĩa khoa học và thực tiễn, 1.9 Tính mới, 1.10 Cấu trúc của luận án
+*Cần Thơ, ngày … tháng … năm 2026*
 
-**CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ TỔNG QUAN TÀI LIỆU**
-- 2.1 Các khái niệm cốt lõi, 2.2 Các lý thuyết nền, 2.3 Tổng quan thực nghiệm
-- 2.4 Khoảng trống nghiên cứu, 2.5 Mô hình nghiên cứu và hệ giả thuyết (H1–H6, H1b, H1c), 2.6 Tóm tắt chương
+**Nghiên cứu sinh**
 
-**CHƯƠNG 3. PHƯƠNG PHÁP NGHIÊN CỨU**
-- 3.1 Thiết kế nghiên cứu tổng thể, 3.2 Giai đoạn 1: Phân tích tổng hợp 1982–2026, 3.3 Giai đoạn 2: Phân tích thực nghiệm đa quốc gia
-- 3.4 Mô hình phân tích (M0–M11), 3.5 Kiểm định độ vững, 3.6 Tóm tắt phương pháp, 3.7 Đạo đức nghiên cứu
+Đỗ Thùy Hương
 
-**CHƯƠNG 4. KẾT QUẢ NGHIÊN CỨU**
-- 4.1 Thực trạng quốc tế hóa và hiệu quả tại châu Á theo nhóm ICRV
-- 4.2 Phân tích tổng hợp ba tầng (P6), 4.3 Singapore (P4), 4.4 Trung Quốc (P5), 4.5 Việt Nam (P3)
-- 4.6 Kiểm định toàn mẫu đa bối cảnh (P7), 4.7 SIDS (P8), 4.8 Ấn Độ (P9), 4.9 Nhật Bản (P10), 4.10 Tam giác hóa với bằng chứng vĩ mô WB, 4.11 Tổng hợp theo hệ giả thuyết
+\newpage
 
-**CHƯƠNG 5. THẢO LUẬN VÀ KẾT LUẬN**
-- 5.1 Bàn luận theo khung CDCM, 5.2 So sánh nghiên cứu trước, 5.3 Đóng góp lý thuyết
-- 5.4 Đề xuất chính sách và quản trị, 5.5 Hạn chế và hướng tương lai, 5.6 Kết luận
-
-**TÀI LIỆU THAM KHẢO** (APA 7th)
-**PHỤ LỤC A**, Quy trình hợp nhất và hài hòa hóa dữ liệu WBES đa quốc gia (S1–S6, Hình A.1)
-
-*(Số trang được sinh tự động khi xuất bản bản cuối.)*
+```{=latex}
+\renewcommand{\contentsname}{MỤC LỤC}
+\setcounter{tocdepth}{3}
+\tableofcontents
+```
 
 ---
 
-## DANH MỤC TỪ VIẾT TẮT
+## DANH MỤC BẢNG  {-}
+
+**Bảng đánh số:**
+- Bảng 2.1. Ánh xạ nghiên cứu thành phần, mục trình bày, giả thuyết (Chương 2, Mục 2.5)
+- Bảng 4.1. Phân tán năng suất lao động và đặc điểm quốc tế hóa theo phân nhóm con ICRV (Chương 4, Mục 4.1)
+- Bảng 4.2. Đổi mới sáng tạo và chấp nhận số theo phân nhóm con ICRV (%) (Chương 4, Mục 4.1)
+- Bảng 4.3. Đặc trưng doanh nghiệp Nhật Bản 2025 so với năm nền còn lại của Nhóm I (Chương 4, Mục 4.1.5)
+- Bảng 4.4. Trung vị tỷ suất lợi nhuận trên doanh thu (ROS) theo nhóm ICRV (Chương 4, Mục 4.1.8)
+- Bảng 4.5. Tiến triển hệ số theo chuỗi mô hình phân tầng, Singapore 2023 (Chương 4, Mục 4.3.8)
+- Bảng 4.6. Tiến triển mô hình của P7 trên khung 50 nền: điểm uốn và kiểm định Lind–Mehlum (Chương 4, Mục 4.6.1)
+- Bảng 4.7. Điểm uốn theo nhóm ICRV, khung 50 nền (Chương 4, Mục 4.6.2)
+- Bảng 4.8. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, Mục 4.8.1)
+- Bảng 4.9. Hiệu ứng cường độ xuất khẩu lên năng suất qua chuỗi mô hình, Nhật Bản 2025 (Chương 4, Mục 4.9.1)
+- Bảng 4.10. Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm (Chương 4, Mục 4.11)
+
+**Bảng chuyên đề (không đánh số, theo mục):**
+- Bảng định nghĩa biến, Nghiên cứu P3 Việt Nam (Chương 3, Mục 3.4.5.1)
+- Bảng định nghĩa biến, Nghiên cứu P4 Singapore (Chương 3, Mục 3.4.5.2)
+- Bảng định nghĩa biến, Nghiên cứu P5 Trung Quốc (Chương 3, Mục 3.4.5.3)
+- Bảng định nghĩa biến, Nghiên cứu P7 đa quốc gia (Chương 3, Mục 3.4.5.4)
+- Bảng định nghĩa biến, Nghiên cứu P8 SIDS (Chương 3, Mục 3.4.5.5)
+- Bảng tóm tắt phương pháp: Kế thừa và đóng góp mới (Chương 3, Mục 3.6)
+- Bảng tổng hợp kết quả kiểm định hệ giả thuyết H1–H6, H1b, H1c (Chương 4, Mục 4.11)
+
+## DANH MỤC HÌNH  {-}
+
+- Hình 2.1. Khung khái niệm tích hợp đa tầng CDCM (Chương 2, Mục 2.5)
+- Hình 4.1. Thành phần mẫu gộp theo nhóm ICRV (Chương 4, Mục 4.1)
+- Hình 4.2. Quy mô mẫu gộp theo năm khảo sát (Chương 4, Mục 4.1)
+- Hình 4.3. Quỹ đạo tăng trưởng theo nhóm ICRV (Chương 4, Mục 4.1)
+- Hình 4.4. Phân bố quy mô doanh nghiệp theo nhóm ICRV (Chương 4, Mục 4.1)
+- Hình 4.5. Gradient năng lực công nghệ theo sáu nhóm ICRV (Chương 4, Mục 4.1)
+- Hình 4.6. Phân bố mật độ năng suất lao động theo nhóm ICRV (Chương 4, Mục 4.1)
+- Hình 4.7. Biểu đồ radar năng lực và quốc tế hóa theo nhóm ICRV (Chương 4, Mục 4.1)
+- Hình 4.8. Họ đường cong quốc tế hóa và hiệu quả phụ thuộc chế độ thể chế ICRV (Chương 4, Mục 4.6.2)
+
+---
+
+## DANH MỤC TỪ VIẾT TẮT  {-}
 
 | Viết tắt | Tiếng Anh | Tiếng Việt |
 |---|---|---|
@@ -179,45 +204,7 @@ Key findings: (1) the I–P relationship is inverted-U shaped with a pooled turn
 
 ---
 
-## DANH MỤC BẢNG
-
-**Bảng đánh số:**
-- Bảng 2.1. Ánh xạ nghiên cứu thành phần, mục trình bày, giả thuyết (Chương 2, Mục 2.5)
-- Bảng 4.1. Phân tán năng suất lao động và đặc điểm quốc tế hóa theo phân nhóm con ICRV (Chương 4, Mục 4.1)
-- Bảng 4.2. Đổi mới sáng tạo và chấp nhận số theo phân nhóm con ICRV (%) (Chương 4, Mục 4.1)
-- Bảng 4.3. Đặc trưng doanh nghiệp Nhật Bản 2025 so với năm nền còn lại của Nhóm I (Chương 4, Mục 4.1.5)
-- Bảng 4.4. Trung vị tỷ suất lợi nhuận trên doanh thu (ROS) theo nhóm ICRV (Chương 4, Mục 4.1.8)
-- Bảng 4.5. Tiến triển hệ số theo chuỗi mô hình phân tầng, Singapore 2023 (Chương 4, Mục 4.3.8)
-- Bảng 4.6. Tiến triển mô hình của P7 trên khung 50 nền: điểm uốn và kiểm định Lind–Mehlum (Chương 4, Mục 4.6.1)
-- Bảng 4.7. Điểm uốn theo nhóm ICRV, khung 50 nền (Chương 4, Mục 4.6.2)
-- Bảng 4.8. Điểm uốn theo đợt khảo sát, Ấn Độ (Chương 4, Mục 4.8.1)
-- Bảng 4.9. Hiệu ứng cường độ xuất khẩu lên năng suất qua chuỗi mô hình, Nhật Bản 2025 (Chương 4, Mục 4.9.1)
-- Bảng 4.10. Tổng hợp ước lượng các nghiên cứu thành phần thực nghiệm (Chương 4, Mục 4.11)
-
-**Bảng chuyên đề (không đánh số, theo mục):**
-- Bảng định nghĩa biến, Nghiên cứu P3 Việt Nam (Chương 3, Mục 3.4.5.1)
-- Bảng định nghĩa biến, Nghiên cứu P4 Singapore (Chương 3, Mục 3.4.5.2)
-- Bảng định nghĩa biến, Nghiên cứu P5 Trung Quốc (Chương 3, Mục 3.4.5.3)
-- Bảng định nghĩa biến, Nghiên cứu P7 đa quốc gia (Chương 3, Mục 3.4.5.4)
-- Bảng định nghĩa biến, Nghiên cứu P8 SIDS (Chương 3, Mục 3.4.5.5)
-- Bảng tóm tắt phương pháp: Kế thừa và đóng góp mới (Chương 3, Mục 3.6)
-- Bảng tổng hợp kết quả kiểm định hệ giả thuyết H1–H6, H1b, H1c (Chương 4, Mục 4.11)
-
-## DANH MỤC HÌNH
-
-- Hình 2.1. Khung khái niệm tích hợp đa tầng CDCM (Chương 2, Mục 2.5)
-- Hình 4.1. Thành phần mẫu gộp theo nhóm ICRV (Chương 4, Mục 4.1)
-- Hình 4.2. Quy mô mẫu gộp theo năm khảo sát (Chương 4, Mục 4.1)
-- Hình 4.3. Quỹ đạo tăng trưởng theo nhóm ICRV (Chương 4, Mục 4.1)
-- Hình 4.4. Phân bố quy mô doanh nghiệp theo nhóm ICRV (Chương 4, Mục 4.1)
-- Hình 4.5. Gradient năng lực công nghệ theo sáu nhóm ICRV (Chương 4, Mục 4.1)
-- Hình 4.6. Phân bố mật độ năng suất lao động theo nhóm ICRV (Chương 4, Mục 4.1)
-- Hình 4.7. Biểu đồ radar năng lực và quốc tế hóa theo nhóm ICRV (Chương 4, Mục 4.1)
-- Hình 4.8. Họ đường cong quốc tế hóa và hiệu quả phụ thuộc chế độ thể chế ICRV (Chương 4, Mục 4.6.2)
-
----
-
-## DANH MỤC CÔNG TRÌNH CỦA NGHIÊN CỨU SINH LIÊN QUAN ĐẾN LUẬN ÁN
+## DANH MỤC CÔNG TRÌNH CỦA NGHIÊN CỨU SINH LIÊN QUAN ĐẾN LUẬN ÁN  {-}
 
 Luận án được phát triển gắn với chuỗi nghiên cứu thành phần (ký hiệu nội bộ P1–P11) và một chương sách của nghiên cứu sinh. Các công trình được phân tách rõ theo trạng thái công bố.
 

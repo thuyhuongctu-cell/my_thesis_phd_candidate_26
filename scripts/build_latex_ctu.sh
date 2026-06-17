@@ -53,7 +53,7 @@ PARTS=(
 : > "$TMP"
 for p in "${PARTS[@]}"; do cat "$p" >> "$TMP"; pagebreak >> "$TMP"; done
 pandoc "${COMMON[@]}" "${CTU_VARS[@]}" \
-  --top-level-division=chapter --toc --toc-depth=2 \
+  --top-level-division=chapter \
   -f markdown-yaml_metadata_block+autolink_bare_uris -t latex "$TMP" -o "$OUT/LUAN_AN_CTU.tex"
 rm -f "$TMP"
 
