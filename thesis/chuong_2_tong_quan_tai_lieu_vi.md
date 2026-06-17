@@ -219,7 +219,7 @@ Ngoài các cơ chế điều tiết, mô hình còn bao gồm một yếu tố 
 
 ![Hình 2.1. Khung khái niệm tích hợp đa tầng CDCM cho quan hệ Quốc tế hóa–Hiệu quả tại châu Á](figures/fig_2_1_cdcm_conceptual_model.png)
 
-**Hình 2.1.** *Khung khái niệm tích hợp đa tầng CDCM.* Mũi tên liền thể hiện tác động trực tiếp (H1, quan hệ phi tuyến chữ U ngược); mũi tên đứt thể hiện tác động điều tiết của ba tầng (thể chế ICRV, H5; năng lực số TCI/DAI, H2, H3; đặc điểm nhà quản trị, H4); mũi tên chấm thể hiện điều kiện biên FIP (H1b) tại nhóm SIDS. Biến kiểm soát không thể hiện để giữ rõ ràng. *Nguồn: tác giả xây dựng dựa trên Uppsala, RBV, lý thuyết thể chế, lý thuyết thượng tầng quản trị và digital capability lens.*
+**Hình 2.1.** *Khung khái niệm tích hợp đa tầng CDCM.* Mũi tên liền thể hiện tác động trực tiếp (H1, quan hệ phi tuyến chữ U ngược); mũi tên đứt thể hiện tác động điều tiết của ba tầng (thể chế ICRV, H5; năng lực số TCI/DAI, H2, H3; đặc điểm nhà quản trị, H4); mũi tên chấm thể hiện điều kiện biên FIP (H1b) tại nhóm SIDS. Biến kiểm soát không thể hiện để giữ rõ ràng. *Nguồn: tác giả xây dựng dựa trên mô hình Uppsala, lý thuyết dựa trên nguồn lực, lý thuyết thể chế, lý thuyết thượng tầng quản trị và lăng kính năng lực số.*
 
 ### 2.5.2 Giả thuyết H1: Phi tuyến chữ U ngược
 
@@ -262,6 +262,24 @@ Cơ chế đứng sau H5 là sự thay thế giữa thể chế và năng lực:
 Dựa trên quan sát về tốc độ chuyển đổi số và thay đổi thể chế rất nhanh ở một số nền kinh tế châu Á, đặc biệt Trung Quốc, quan hệ quốc tế hóa và hiệu quả không nhất thiết ổn định theo thời gian. Giả thuyết H6 được phát biểu như sau. Hình dạng phi tuyến của quan hệ, cụ thể là vị trí của điểm uốn và độ cong của đường quan hệ, thay đổi theo thời gian trong các nền kinh tế chuyển đổi nhanh, phản ánh sự phát triển của năng lực doanh nghiệp và cải thiện điều kiện thể chế qua các giai đoạn. Cơ sở lý thuyết bao gồm Wu et al. (2022), Xiao et al. (2013), và Banalieva và Dhanaraj (2019).
 
 Việc kiểm định H6 đòi hỏi phân biệt hai khả năng đối lập về mặt lý thuyết: dịch chuyển ngưỡng do trưởng thành năng lực và thể chế (một quá trình tiệm tiến, có trật tự) so với tan rã ngưỡng do biến động thể chế tích lũy (một quá trình phá vỡ cấu trúc). Bằng chứng từ hai bối cảnh tương phản trong luận án phục vụ chính sự phân biệt này. Tại Trung Quốc, nghiên cứu thành phần P5 cho thấy điểm uốn ổn định tương đối giữa 2012 và 2024 (kiểm định Paternoster $z = +0{,}82$, $p = {,}412$, không bác bỏ tính bằng nhau), nhất quán với một quá trình trưởng thành có trật tự. Ngược lại, bằng chứng Ấn Độ (P9) cho thấy ngưỡng có thể tan rã dưới một chuỗi cú sốc thể chế dồn dập. Đặt cạnh nhau, hai trường hợp này tinh chỉnh H6 thành một mệnh đề có điều kiện: dị biệt thời gian của quan hệ là hàm của tốc độ và biên độ thay đổi thể chế tích lũy, chứ không phải một xu hướng đơn điệu theo thời gian.
+
+### 2.5.8 Tổng hợp hệ giả thuyết
+
+Bảy giả thuyết nêu trên được tổng hợp trong Bảng 2.2, làm rõ với mỗi giả thuyết bốn yếu tố: phát biểu tóm tắt, dấu kỳ vọng của hệ số, cơ sở lý thuyết nền và biến đo lường cùng kiểm định tương ứng. Cách trình bày này bảo đảm mỗi giả thuyết đều được suy ra từ lý thuyết (không phải rút ra từ quan sát thực nghiệm) và đều gắn với một thao tác kiểm định cụ thể trong Chương 3 và Chương 4. Ba giả thuyết điều tiết H2, H3, H5 cùng vận hành trên một đường quan hệ chính (H1), tương ứng ba tầng của khung CDCM; H1b là điều kiện biên của H1 tại nhóm thể chế yếu nhất; H4 và H6 bổ sung tầng cá nhân và chiều thời gian.
+
+**Bảng 2.2.** *Tổng hợp hệ giả thuyết nghiên cứu: phát biểu, dấu kỳ vọng, cơ sở lý thuyết và biến kiểm định.*
+
+| Giả thuyết | Phát biểu tóm tắt | Dấu kỳ vọng | Cơ sở lý thuyết | Biến / kiểm định |
+|---|---|---|---|---|
+| **H1** | Quan hệ quốc tế hóa và hiệu quả có dạng phi tuyến chữ U ngược | $\beta_1>0$; $\beta_2<0$ | Mô hình Uppsala; Lu và Beamish (2004) | FSTS, FSTS²; kiểm định Lind–Mehlum |
+| **H1b** | Tại nhóm SIDS (ICRV VI), quan hệ âm đơn điệu, không điểm uốn (gánh nặng quốc tế hóa bắt buộc, FIP) | $\beta(\text{FSTS})<0$ | Lý thuyết thể chế (North, 1990); chi phí giao dịch (Williamson, 1985); Lall (2004) | FSTS trên mẫu SIDS; kiểm tra không tồn tại điểm uốn |
+| **H2** | Năng lực công nghệ (TCI) điều tiết dương, nâng mặt bằng hiệu quả và có thể dịch chuyển điểm uốn | $+$ | Lý thuyết dựa trên nguồn lực (Barney, 1991); năng lực động (Teece et al., 1997) | TCI; TCI × FSTS; TCI × FSTS² |
+| **H3** | Chấp nhận số (DAI) điều tiết, uốn đường cong rõ hơn ở cường độ xuất khẩu cao (giảm chi phí phối hợp) | $+$ (đổi độ dốc) | Verhoef et al. (2021); Stallkamp và Schotter (2021); Banalieva và Dhanaraj (2019) | DAI; DAI × FSTS; DAI × FSTS² |
+| **H4** | Kinh nghiệm và giới tính nữ của nhà quản trị cấp cao điều tiết dương quan hệ quốc tế hóa và hiệu quả | $+$ | Lý thuyết thượng tầng quản trị (Hambrick và Mason, 1984); Post và Byron (2015) | Kinh nghiệm, giới tính × FSTS |
+| **H5** | Chất lượng thể chế (gradient ICRV) điều tiết; tác động mạnh nhất ở nhóm thể chế yếu, giảm dần đến nhóm tiên tiến | $+/-$ theo gradient | Lý thuyết thể chế (North, 1990; Khanna và Palepu, 2010); Marano et al. (2016) | ICRV × FSTS; ICRV × FSTS² |
+| **H6** | Dạng hàm (vị trí điểm uốn, độ cong) dịch chuyển theo thời gian ở nền kinh tế chuyển đổi nhanh | Thay đổi theo thời gian | Wu et al. (2022); Xiao et al. (2013); Banalieva và Dhanaraj (2019) | So sánh đa đợt khảo sát; kiểm định Paternoster |
+
+*Ghi chú: FSTS = tỷ lệ doanh thu nước ngoài trên tổng doanh thu (cường độ xuất khẩu); TCI = chỉ số năng lực công nghệ; DAI = chỉ số chấp nhận số; ICRV = khung phân loại chế độ bối cảnh thể chế sáu nhóm; FIP = gánh nặng quốc tế hóa bắt buộc. Dấu kỳ vọng tham chiếu hệ số của số hạng tương tác tương ứng. Nguồn: tác giả tổng hợp.*
 
 ---
 
