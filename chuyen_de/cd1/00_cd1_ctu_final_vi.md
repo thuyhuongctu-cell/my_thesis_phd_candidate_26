@@ -392,6 +392,7 @@ Ba khung lý thuyết cung cấp nền tảng giải thích cho các khuôn mẫ
 **(c) Vai trò TCI**: Việt Nam, *lợi thế khan hiếm* (TCI z biến công cụ β=1,639, p<0,001, ước lượng 2SLS vững). Singapore, *yếu tố vệ sinh* nâng sàn năng suất nhưng không điều tiết đường cong quốc tế hóa – hiệu quả.
 
 ---
+
 ### 2.3.2 Khung phân loại thể chế ICRV
 
 #### 2.3.2.1 Lý do phân loại

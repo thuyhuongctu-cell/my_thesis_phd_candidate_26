@@ -259,10 +259,18 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \bo
 H1: $\beta_1 > 0$ và $\beta_2 < 0$; điểm quay $TP^* = -\beta_1 / (2\beta_2)$, xác nhận bởi kiểm định Lind–Mehlum (2010).
 
 **M3, Điều tiết NLCN (kiểm định H2):**
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4(CDDXK\_c \times NLCN\_z) + \beta_5(CDDXK\_c^2 \times NLCN\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+$$\begin{aligned}
+\ln NSLD_{it} = {} & \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z \\
+& + \beta_4(CDDXK\_c \times NLCN\_z) + \beta_5(CDDXK\_c^2 \times NLCN\_z) \\
+& + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
+\end{aligned}$$
 
 **M4, Điều tiết CSS/DAI (H3 thăm dò):**
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z + \beta_4(CDDXK\_c \times CSS\_z) + \beta_5(CDDXK\_c^2 \times CSS\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+$$\begin{aligned}
+\ln NSLD_{it} = {} & \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z \\
+& + \beta_4(CDDXK\_c \times CSS\_z) + \beta_5(CDDXK\_c^2 \times CSS\_z) \\
+& + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
+\end{aligned}$$
 
 **M5, NLCN trực tiếp (không tương tác):**
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
@@ -274,7 +282,11 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4 CSS\_z + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
 **M8, Mô hình đầy đủ (trực tiếp + điều tiết CSS):**
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4 CSS\_z + \beta_5(CDDXK\_c \times CSS\_z) + \beta_6(CDDXK\_c^2 \times CSS\_z) + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+$$\begin{aligned}
+\ln NSLD_{it} = {} & \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4 CSS\_z \\
+& + \beta_5(CDDXK\_c \times CSS\_z) + \beta_6(CDDXK\_c^2 \times CSS\_z) \\
+& + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
+\end{aligned}$$
 
 *Tất cả mô hình đều ước lượng bằng OLS với sai số chuẩn vững HC1. Hiệu ứng cố định sóng $\lambda_t$ chỉ áp dụng trong mô hình gộp. Mô hình được ước lượng riêng cho 3 sóng và gộp (N = 989 / 956 / 1.013 / 2.958).*
 
@@ -451,7 +463,10 @@ $$+ \beta_4 (CDDXK\_c \times NLCN\_z) + \beta_5 (CDDXK\_c^2 \times NLCN\_z) + \g
 **M8** (M7 + điều tiết CSS, kiểm định H3):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z$$
 $$+ \beta_7 (CDDXK\_c \times CSS\_z) + \beta_8 (CDDXK\_c^2 \times CSS\_z) + \gamma \cdot X + \varepsilon$$
-$$\text{H3: } \hat\beta_7 = -0{,}271\ (p = {,}149);\ \hat\beta_8 = +0{,}252\ (p = {,}367) \text{, cùng chiều nén nhưng không ý nghĩa toàn mẫu; hiệu ứng mức DAI} = +0{,}201\ (p < {,}001)$$
+$$\begin{aligned}
+\text{H3: } & \hat\beta_7 = -0{,}271\ (p = {,}149);\ \hat\beta_8 = +0{,}252\ (p = {,}367), \\
+& \text{cùng chiều nén nhưng không ý nghĩa toàn mẫu; hiệu ứng mức DAI} = +0{,}201\ (p < {,}001)
+\end{aligned}$$
 
 **M9** (M8 + đặc điểm nhà quản lý, kiểm định H4):
 $$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
@@ -460,14 +475,20 @@ $$\hat\beta_{10} = -0{,}088^{*} \ (p = {,}026) \text{ (nữ quản lý cấp cao
 **M10** (M3 + điều tiết ICRV, kiểm định H5):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} ICRV_j$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
-$$\text{H5 (ba vùng): chữ U ngược định hình rõ ở Nhóm IV } (TP = 43{,}0\%,\ p_{LM} < {,}001); \text{ gần tuyến tính ở Nhóm I; tan rã ở Nhóm V–VI}$$
+$$\begin{aligned}
+\text{H5 (ba vùng): } & \text{chữ U ngược định hình rõ ở Nhóm IV } (TP = 43{,}0\%,\ p_{LM} < {,}001); \\
+& \text{gần tuyến tính ở Nhóm I; tan rã ở Nhóm V–VI}
+\end{aligned}$$
 
 **M11** (full three-way, kiểm định tương tác tổng hợp ba chiều, tổng hợp H3 và H5; P7):
 $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
 $$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
 $$+ \beta_{14}(CDDXK\_c \times CSS\_z \times ICRV) + \beta_9 KNQLy + \beta_{10} NQL\_nu + \gamma \cdot X + \delta_{ct} + \varepsilon$$
-$$\text{Tương tác chế độ-yếu: FSTS} \times \text{Weak} = -0{,}523\ (p = {,}087); \text{ ba chiều không ý nghĩa; } TP\ (M10) = 45{,}9\%,\ \text{LM } p < {,}001$$
+$$\begin{aligned}
+& \text{Tương tác chế độ-yếu: FSTS} \times \text{Weak} = -0{,}523\ (p = {,}087); \\
+& \text{ba chiều không ý nghĩa; } TP\ (M10) = 45{,}9\%,\ \text{LM } p < {,}001
+\end{aligned}$$
 
 **Bảng định nghĩa biến, Nghiên cứu 7 (đa quốc gia)**
 
@@ -529,13 +550,22 @@ M2, Kiểm định phi tuyến: thêm CDDXK_c²
 
 $$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
-$$\beta_1\ \text{NS},\ \beta_2\ \text{NS};\ \text{Lind–Mehlum U-test NS} \Rightarrow \text{không có điểm quay, đơn điệu âm}$$
+$$\begin{aligned}
+& \beta_1\ \text{NS},\ \beta_2\ \text{NS};\ \text{Lind–Mehlum U-test NS} \\
+& \Rightarrow \text{không có điểm quay, đơn điệu âm}
+\end{aligned}$$
 
 M3, Kiểm định năng lực điều tiết (H2 null cho SIDS):
 
-$$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \beta_3 NLCN\_z_{it} + \beta_4 CSS\_z_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+$$\begin{aligned}
+lnNSLD_{it} = {} & \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \beta_3 NLCN\_z_{it} \\
+& + \beta_4 CSS\_z_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}
+\end{aligned}$$
 
-$$\beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (CSS\_z):\ p = {,}285\ \text{NS} \Rightarrow \text{TCI nâng mặt bằng năng suất; không có biến điều tiết uốn đường cong (H2 moderation null)}$$
+$$\begin{aligned}
+& \beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (CSS\_z):\ p = {,}285\ \text{NS} \\
+& \Rightarrow \text{TCI nâng mặt bằng năng suất; không có biến điều tiết uốn đường cong (H2 null)}
+\end{aligned}$$
 
 **Phân tích độ vững (kiểm tra độ vững):**
 

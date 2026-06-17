@@ -134,6 +134,26 @@
 \newunicodechar{²}{\textsuperscript{2}}
 \newunicodechar{³}{\textsuperscript{3}}
 \newunicodechar{─}{\rule[0.5ex]{0.9em}{0.4pt}}
+
+% --- Bảng rộng: thu nhỏ cỡ chữ + khoảng cột, cho phép ngắt token dài để
+%     bảng không tràn lề phải (overfull hbox). Áp dụng cho mọi longtable
+%     (pandoc sinh toàn bộ bảng dạng longtable).
+\usepackage{etoolbox}
+\usepackage{seqsplit}      % ngắt được token rất dài (mã biến, số dài)
+% Lưu ý: KHÔNG đổi \tabcolsep — pandoc tính bề rộng cột theo công thức
+% (\columnwidth - 4\tabcolsep)*frac (tham chiếu \tabcolsep trực tiếp), nên
+% giảm \tabcolsep lại làm cột RỘNG hơn và tràn nặng hơn.
+\AtBeginEnvironment{longtable}{%
+  \footnotesize
+  \emergencystretch=3em
+  \hbadness=10000          % không cảnh báo underfull do RaggedRight
+}
+% Cho phép TeX bẻ dòng linh hoạt hơn trong ô p{} hẹp
+\setlength{\emergencystretch}{2em}
+
+% URL/DOI dài: cho phép ngắt ở bất kỳ ký tự nào (tránh tràn lề ở danh mục TLTK).
+% Kết hợp với pandoc +autolink_bare_uris để URL trần được bọc \url{}.
+\usepackage{xurl}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -2574,11 +2594,11 @@ econometrics: An empiricist's companion}. Princeton University Press.
 
 Banalieva, E. R., \& Dhanaraj, C. (2019). Internalization theory for the
 digital economy. \emph{Journal of International Business Studies,
-50}(8), 1372--1387. https://doi.org/10.1057/s41267-019-00243-7
+50}(8), 1372--1387. \url{https://doi.org/10.1057/s41267-019-00243-7}
 
 Barney, J. (1991). Firm resources and sustained competitive advantage.
 \emph{Journal of Management, 17}(1), 99--120.
-https://doi.org/10.1177/014920639101700108
+\url{https://doi.org/10.1177/014920639101700108}
 
 Bausch, A., \& Krist, M. (2007). The effect of context-related
 moderators on the internationalization-performance relationship:
@@ -2596,15 +2616,15 @@ firm's embeddedness into ecology, society, and governance.
 Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., \& Venkatraman, N. (2013).
 Digital business strategy: Toward a next generation of insights.
 \emph{MIS Quarterly, 37}(2), 471--482.
-https://doi.org/10.25300/MISQ/2013/37:2.3
+\url{https://doi.org/10.25300/MISQ/2013/37:2.3}
 
 Borenstein, M., Hedges, L. V., Higgins, J. P. T., \& Rothstein, H. R.
 (2009). \emph{Introduction to meta-analysis}. Wiley.
-https://doi.org/10.1002/9780470743386
+\url{https://doi.org/10.1002/9780470743386}
 
 Briguglio, L. (1995). Small island developing states and their economic
 vulnerabilities. \emph{World Development, 23}(9), 1615--1632.
-https://doi.org/10.1016/0305-750X(95)00065-K
+\url{https://doi.org/10.1016/0305-750X(95)00065-K}
 
 Buckley, P. J., \& Casson, M. C. (1976). \emph{The future of the
 multinational enterprise}. Macmillan.
@@ -2613,7 +2633,7 @@ Cannella, A. A., Jr., Park, J.-H., \& Lee, H.-U. (2008). Top management
 team functional background diversity and firm performance: Examining the
 roles of team member colocation and environmental uncertainty.
 \emph{Academy of Management Journal, 51}(4), 768--784.
-https://doi.org/10.5465/amj.2008.33665310
+\url{https://doi.org/10.5465/amj.2008.33665310}
 
 Caves, R. E. (1971). International corporations: The industrial
 economics of foreign investment. \emph{Economica, 38}(149), 1--27.
@@ -2621,22 +2641,23 @@ economics of foreign investment. \emph{Economica, 38}(149), 1--27.
 Chen, S., \& Tan, H. (2012). Region effects in the
 internationalization--performance relationship in Chinese firms.
 \emph{Journal of World Business, 47}(1), 73--80.
-https://doi.org/10.1016/j.jwb.2010.10.019
+\url{https://doi.org/10.1016/j.jwb.2010.10.019}
 
 Cohen, W. M., \& Levinthal, D. A. (1990). Absorptive capacity: A new
 perspective on learning and innovation. \emph{Administrative Science
-Quarterly, 35}(1), 128--152. https://doi.org/10.2307/2393553
+Quarterly, 35}(1), 128--152. \url{https://doi.org/10.2307/2393553}
 
 Coltman, T., Devinney, T. M., Midgley, D. F., \& Venaik, S. (2008).
 Formative versus reflective measurement models: Two applications of
 formative measurement. \emph{Journal of Business Research, 61}(12),
-1250--1262. https://doi.org/10.1016/j.jbusres.2008.01.013
+1250--1262. \url{https://doi.org/10.1016/j.jbusres.2008.01.013}
 
 Combs, J. G., Crook, T. R., \& Shook, C. L. (2005). The dimensionality
 of organizational performance and its implications for strategic
 management research. In D. J. Ketchen \& D. D. Bergh (Eds.),
 \emph{Research methodology in strategy and management} (Vol. 2,
-pp.~259--286). Emerald. https://doi.org/10.1016/S1479-8387(05)02011-4
+pp.~259--286). Emerald.
+\url{https://doi.org/10.1016/S1479-8387(05)02011-4}
 
 Contractor, F. J. (2012). Why do multinational firms exist? A theory
 note about the effect of multinational expansion on performance and
@@ -2647,15 +2668,15 @@ Contractor, F. J., Kundu, S. K., \& Hsu, C.-C. (2003). A three-stage
 theory of international expansion: The link between multinationality and
 performance in the service sector. \emph{Journal of International
 Business Studies, 34}(1), 5--18.
-https://doi.org/10.1057/palgrave.jibs.8400003
+\url{https://doi.org/10.1057/palgrave.jibs.8400003}
 
 Cronbach, L. J. (1951). Coefficient alpha and the internal structure of
 tests. \emph{Psychometrika, 16}(3), 297--334.
-https://doi.org/10.1007/BF02310555
+\url{https://doi.org/10.1007/BF02310555}
 
 Cusolito, A. P., \& Maloney, W. F. (2018). \emph{Productivity revisited:
 Shifting paradigms in analysis and policy}. World Bank.
-https://doi.org/10.1596/978-1-4648-1334-4
+\url{https://doi.org/10.1596/978-1-4648-1334-4}
 
 Đỗ, T. H., \& Phan, A. T. (2026). \emph{Revisiting the
 internationalisation--performance relationship in an emerging market:
@@ -2678,7 +2699,7 @@ Dubin, R. (1978). \emph{Theory building} (Rev.~ed.). Free Press.
 Dunning, J. H. (1988). The eclectic paradigm of international
 production: A restatement and some possible extensions. \emph{Journal of
 International Business Studies, 19}(1), 1--31.
-https://doi.org/10.1057/palgrave.jibs.8490372
+\url{https://doi.org/10.1057/palgrave.jibs.8490372}
 
 Geringer, J. M., Beamish, P. W., \& daCosta, R. C. (1989).
 Diversification strategy and internationalization: Implications for MNE
@@ -2691,28 +2712,28 @@ internationalization and firm performance: More questions than answers?
 Gomes, L., \& Ramaswamy, K. (1999). An empirical examination of the form
 of the relationship between multinationality and performance.
 \emph{Journal of International Business Studies, 30}(1), 173--187.
-https://doi.org/10.1057/palgrave.jibs.8490065
+\url{https://doi.org/10.1057/palgrave.jibs.8490065}
 
 Greene, W. H. (2018). \emph{Econometric analysis} (8th ed.). Pearson.
 
 Hambrick, D. C. (2007). Upper echelons theory: An update. \emph{Academy
 of Management Review, 32}(2), 334--343.
-https://doi.org/10.5465/amr.2007.24345254
+\url{https://doi.org/10.5465/amr.2007.24345254}
 
 Hambrick, D. C., \& Mason, P. A. (1984). Upper echelons: The
 organization as a reflection of its top managers. \emph{Academy of
 Management Review, 9}(2), 193--206.
-https://doi.org/10.5465/amr.1984.4277628
+\url{https://doi.org/10.5465/amr.1984.4277628}
 
 Hessels, J., \& Terjesen, S. (2010). Resource dependency and
 institutional theory perspectives on direct and indirect export choices.
 \emph{Small Business Economics, 34}(2), 203--220.
-https://doi.org/10.1007/s11187-008-9156-4
+\url{https://doi.org/10.1007/s11187-008-9156-4}
 
 Hitt, M. A., Hoskisson, R. E., \& Kim, H. (1997). International
 diversification: Effects on innovation and firm performance in
 product-diversified firms. \emph{Academy of Management Journal, 40}(4),
-767--798. https://doi.org/10.2307/256948
+767--798. \url{https://doi.org/10.2307/256948}
 
 Hsu, C.-C., \& Boggs, D. J. (2003). Internationalization and
 performance: Traditional measures and their decomposition.
@@ -2724,17 +2745,17 @@ firms: A study of direct foreign investment}. MIT Press.
 Johanson, J., \& Vahlne, J.-E. (1977). The internationalization process
 of the firm: A model of knowledge development and increasing foreign
 market commitments. \emph{Journal of International Business Studies,
-8}(1), 23--32. https://doi.org/10.1057/palgrave.jibs.8490676
+8}(1), 23--32. \url{https://doi.org/10.1057/palgrave.jibs.8490676}
 
 Johanson, J., \& Vahlne, J.-E. (2009). The Uppsala internationalization
 process model revisited: From liability of foreignness to liability of
 outsidership. \emph{Journal of International Business Studies, 40}(9),
-1411--1431. https://doi.org/10.1057/jibs.2009.24
+1411--1431. \url{https://doi.org/10.1057/jibs.2009.24}
 
 Kafouros, M., Aliyev, M., \& Krammer, S. (2023). Do firms benefit from
 country-level institutional reforms? The role of internal firm resources
 and capabilities. \emph{Global Strategy Journal, 13}(1), 70--100.
-https://doi.org/10.1002/gsj.1433
+\url{https://doi.org/10.1002/gsj.1433}
 
 Khanna, T., \& Palepu, K. G. (2010). \emph{Winning in emerging markets:
 A road map for strategy and execution}. Harvard Business Press.
@@ -2744,7 +2765,7 @@ Akdeniz, M. B., Deligonul, S. Z., Mena, J. A., Pollitte, W. A., Hoppner,
 J. J., Miller, J. C., \& White, R. C. (2012). Firm-specific assets,
 multinationality, and financial performance: A meta-analytic review and
 theoretical integration. \emph{Academy of Management Journal, 55}(1),
-47--73. https://doi.org/10.5465/amj.2009.0703
+47--73. \url{https://doi.org/10.5465/amj.2009.0703}
 
 Knight, G. A., \& Cavusgil, S. T. (2004). Innovation, organizational
 capabilities, and the born-global firm. \emph{Journal of International
@@ -2752,7 +2773,7 @@ Business Studies, 35}(2), 124--141.
 
 Lall, S. (1992). Technological capabilities and industrialization.
 \emph{World Development, 20}(2), 165--186.
-https://doi.org/10.1016/0305-750X(92)90097-F
+\url{https://doi.org/10.1016/0305-750X(92)90097-F}
 
 Li, J., Chen, L., Yi, J., Mao, J., \& Liao, J. (2022).
 Ecosystem-specific advantages in international digital commerce.
@@ -2761,20 +2782,20 @@ Ecosystem-specific advantages in international digital commerce.
 Lind, J. T., \& Mehlum, H. (2010). With or without U? The appropriate
 test for a U-shaped relationship. \emph{Oxford Bulletin of Economics and
 Statistics, 72}(1), 109--118.
-https://doi.org/10.1111/j.1468-0084.2009.00569.x
+\url{https://doi.org/10.1111/j.1468-0084.2009.00569.x}
 
 Long, J. S., \& Ervin, L. H. (2000). Using heteroscedasticity consistent
 standard errors in the linear regression model. \emph{The American
 Statistician, 54}(3), 217--224.
-https://doi.org/10.1080/00031305.2000.10474549
+\url{https://doi.org/10.1080/00031305.2000.10474549}
 
 Lu, J. W., \& Beamish, P. W. (2001). The internationalization and
 performance of SMEs. \emph{Strategic Management Journal, 22}(6--7),
-565--586. https://doi.org/10.1002/smj.184
+565--586. \url{https://doi.org/10.1002/smj.184}
 
 Lu, J. W., \& Beamish, P. W. (2004). International diversification and
 firm performance: The S-curve hypothesis. \emph{Academy of Management
-Journal, 47}(4), 598--609. https://doi.org/10.2307/20159604
+Journal, 47}(4), 598--609. \url{https://doi.org/10.2307/20159604}
 
 Luo, Y., \& Tung, R. L. (2007). International expansion of emerging
 market enterprises: A springboard perspective. \emph{Journal of
@@ -2789,7 +2810,7 @@ Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., \& van Essen, M.
 (2016). Home country institutions and the
 internationalization-performance relationship: A meta-analytic review.
 \emph{Journal of Management, 42}(5), 1075--1110.
-https://doi.org/10.1177/0149206315624963 \emph{(DOI cần xác minh
+\url{https://doi.org/10.1177/0149206315624963} \emph{(DOI cần xác minh
 Crossref)}
 
 Mathews, J. A. (2002). Dragon multinationals: Towards a new model of
@@ -2807,35 +2828,36 @@ multiple embeddedness. \emph{Journal of Management Studies, 48}(2),
 Nielsen, B. B., \& Nielsen, S. (2011). The role of top management team
 international orientation in international strategic decision-making:
 The choice of foreign entry mode. \emph{Journal of World Business,
-46}(2), 185--193. https://doi.org/10.1016/j.jwb.2010.05.003
+46}(2), 185--193. \url{https://doi.org/10.1016/j.jwb.2010.05.003}
 
 North, D. C. (1990). \emph{Institutions, institutional change and
 economic performance}. Cambridge University Press.
-https://doi.org/10.1017/CBO9780511808678
+\url{https://doi.org/10.1017/CBO9780511808678}
 
 Paternoster, R., Brame, R., Mazerolle, P., \& Piquero, A. (1998). Using
 the correct statistical test for the equality of regression
 coefficients. \emph{Criminology, 36}(4), 859--866.
-https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
+\url{https://doi.org/10.1111/j.1745-9125.1998.tb01268.x}
 
 Peng, M. W. (2003). Institutional transitions and strategic choices.
 \emph{Academy of Management Review, 28}(2), 275--296.
-https://doi.org/10.5465/amr.2003.9416341
+\url{https://doi.org/10.5465/amr.2003.9416341}
 
 Peng, M. W., \& Ilinitch, A. Y. (1998). Export intermediary firms: A
 note on export development research. \emph{Journal of International
 Business Studies, 29}(3), 609--620.
-https://doi.org/10.1057/palgrave.jibs.8490011
+\url{https://doi.org/10.1057/palgrave.jibs.8490011}
 
 Peng, M. W., Wang, D. Y. L., \& Jiang, Y. (2008). An institution-based
 view of international business strategy: A focus on emerging economies.
 \emph{Journal of International Business Studies, 39}(5), 920--936.
-https://doi.org/10.1057/palgrave.jibs.8400377
+\url{https://doi.org/10.1057/palgrave.jibs.8400377}
 
 Pisani, N., Garcia-Bernardo, J., \& Heemskerk, E. (2020). Does it pay to
 be a multinational? A large-sample, cross-national replication assessing
 the multinationality--performance relationship. \emph{Strategic
-Management Journal, 41}(1), 152--172. https://doi.org/10.1002/smj.3087
+Management Journal, 41}(1), 152--172.
+\url{https://doi.org/10.1002/smj.3087}
 
 Riahi-Belkaoui, A. (1998). The effects of the degree of
 internationalization on firm performance. \emph{International Business
@@ -2844,7 +2866,7 @@ Review, 7}(3), 315--321.
 Richard, P. J., Devinney, T. M., Yip, G. S., \& Johnson, G. (2009).
 Measuring organizational performance: Towards methodological best
 practice. \emph{Journal of Management, 35}(3), 718--804.
-https://doi.org/10.1177/0149206308330560
+\url{https://doi.org/10.1177/0149206308330560}
 
 Ruigrok, W., \& Wagner, H. (2003). Internationalization and performance:
 An organizational learning perspective. \emph{Management International
@@ -2857,19 +2879,19 @@ Business, 53}(2), 168--177.
 
 Solon, G., Haider, S. J., \& Wooldridge, J. M. (2015). What are we
 weighting for? \emph{Journal of Human Resources, 50}(2), 301--316.
-https://doi.org/10.3368/jhr.50.2.301
+\url{https://doi.org/10.3368/jhr.50.2.301}
 
 Stallkamp, M., \& Schotter, A. P. J. (2021). Platforms without borders?
 The international strategies of digital platform firms. \emph{Global
-Strategy Journal, 11}(1), 58--80. https://doi.org/10.1002/gsj.1336
+Strategy Journal, 11}(1), 58--80. \url{https://doi.org/10.1002/gsj.1336}
 
 Sullivan, D. (1994). Measuring the degree of internationalization of a
 firm. \emph{Journal of International Business Studies, 25}(2), 325--342.
-https://doi.org/10.1057/palgrave.jibs.8490203
+\url{https://doi.org/10.1057/palgrave.jibs.8490203}
 
 Sutton, A. J., \& Higgins, J. P. T. (2008). Recent developments in
 meta-analysis. \emph{Statistics in Medicine, 27}(5), 625--650.
-https://doi.org/10.1002/sim.2982
+\url{https://doi.org/10.1002/sim.2982}
 
 Teece, D. J., Pisano, G., \& Shuen, A. (1997). Dynamic capabilities and
 strategic management. \emph{Strategic Management Journal, 18}(7),
@@ -2883,7 +2905,7 @@ Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhatt, A., Dong, J. Q.,
 Fabian, N., \& Haenlein, M. (2021). Digital transformation: A
 multidisciplinary reflection and research agenda. \emph{Journal of
 Business Research, 122}, 889--901.
-https://doi.org/10.1016/j.jbusres.2019.09.022
+\url{https://doi.org/10.1016/j.jbusres.2019.09.022}
 
 Vernon, R. (1966). International investment and international trade in
 the product cycle. \emph{The Quarterly Journal of Economics, 80}(2),
@@ -2891,16 +2913,16 @@ the product cycle. \emph{The Quarterly Journal of Economics, 80}(2),
 
 Wernerfelt, B. (1984). A resource-based view of the firm.
 \emph{Strategic Management Journal, 5}(2), 171--180.
-https://doi.org/10.1002/smj.4250050207
+\url{https://doi.org/10.1002/smj.4250050207}
 
 Whetten, D. A. (1989). What constitutes a theoretical contribution?
 \emph{Academy of Management Review, 14}(4), 490--495.
-https://doi.org/10.5465/amr.1989.4308371
+\url{https://doi.org/10.5465/amr.1989.4308371}
 
 Wolfolds, S. E., \& Siegel, J. (2019). Misaccounting for endogeneity:
 The peril of relying on the Heckman two-step method without a valid
 instrument. \emph{Strategic Management Journal, 40}(3), 432--462.
-https://doi.org/10.1002/smj.2995
+\url{https://doi.org/10.1002/smj.2995}
 
 Wooldridge, J. M. (2010). \emph{Econometric analysis of cross section
 and panel data} (2nd ed.). MIT Press.
@@ -2909,12 +2931,12 @@ Wu, J., Fan, D., \& Chen, X. (2022). Revisiting the
 internationalization--performance relationship: A twenty-year
 meta-analysis of emerging market multinationals. \emph{Management
 International Review, 62}(2), 199--231.
-https://doi.org/10.1007/s11575-022-00462-x
+\url{https://doi.org/10.1007/s11575-022-00462-x}
 
 Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., \& Chung, J. (2013).
 Internationalization and performance of firms in China. \emph{Journal of
 International Management, 19}(2), 118--137.
-https://doi.org/10.1016/j.intman.2013.01.003
+\url{https://doi.org/10.1016/j.intman.2013.01.003}
 
 Xu, D. (2024). From de jure to de facto: Institutional distance and firm
 internationalization. \emph{Global Strategy Journal, 14}(1), 1--28.

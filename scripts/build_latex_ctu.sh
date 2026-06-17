@@ -54,7 +54,7 @@ PARTS=(
 for p in "${PARTS[@]}"; do cat "$p" >> "$TMP"; pagebreak >> "$TMP"; done
 pandoc "${COMMON[@]}" "${CTU_VARS[@]}" \
   --top-level-division=chapter --toc --toc-depth=2 \
-  -f markdown-yaml_metadata_block -t latex "$TMP" -o "$OUT/LUAN_AN_CTU.tex"
+  -f markdown-yaml_metadata_block+autolink_bare_uris -t latex "$TMP" -o "$OUT/LUAN_AN_CTU.tex"
 rm -f "$TMP"
 
 # ---------- 2 & 3. Chuyên đề 1 / 2 (extreport, ## -> section; không chapter) ----------
@@ -63,7 +63,7 @@ for cd in cd1 cd2; do
   echo "==> Chuyên đề ${cd^^} (${cd^^}_CTU.tex)"
   pandoc "${COMMON[@]}" "${CTU_VARS[@]}" \
     --top-level-division=section --toc --toc-depth=3 \
-    -f markdown-yaml_metadata_block -t latex "$src" -o "$OUT/${cd^^}_CTU.tex"
+    -f markdown-yaml_metadata_block+autolink_bare_uris -t latex "$src" -o "$OUT/${cd^^}_CTU.tex"
 done
 
 # ---------- 4. Gom hình để biên dịch turnkey ----------

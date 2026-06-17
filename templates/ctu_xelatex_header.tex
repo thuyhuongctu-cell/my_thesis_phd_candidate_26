@@ -23,3 +23,23 @@
 \newunicodechar{²}{\textsuperscript{2}}
 \newunicodechar{³}{\textsuperscript{3}}
 \newunicodechar{─}{\rule[0.5ex]{0.9em}{0.4pt}}
+
+% --- Bảng rộng: thu nhỏ cỡ chữ + khoảng cột, cho phép ngắt token dài để
+%     bảng không tràn lề phải (overfull hbox). Áp dụng cho mọi longtable
+%     (pandoc sinh toàn bộ bảng dạng longtable).
+\usepackage{etoolbox}
+\usepackage{seqsplit}      % ngắt được token rất dài (mã biến, số dài)
+% Lưu ý: KHÔNG đổi \tabcolsep — pandoc tính bề rộng cột theo công thức
+% (\columnwidth - 4\tabcolsep)*frac (tham chiếu \tabcolsep trực tiếp), nên
+% giảm \tabcolsep lại làm cột RỘNG hơn và tràn nặng hơn.
+\AtBeginEnvironment{longtable}{%
+  \footnotesize
+  \emergencystretch=3em
+  \hbadness=10000          % không cảnh báo underfull do RaggedRight
+}
+% Cho phép TeX bẻ dòng linh hoạt hơn trong ô p{} hẹp
+\setlength{\emergencystretch}{2em}
+
+% URL/DOI dài: cho phép ngắt ở bất kỳ ký tự nào (tránh tràn lề ở danh mục TLTK).
+% Kết hợp với pandoc +autolink_bare_uris để URL trần được bọc \url{}.
+\usepackage{xurl}
