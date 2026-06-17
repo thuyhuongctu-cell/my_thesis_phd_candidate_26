@@ -883,3 +883,13 @@ Pan, Y., Verbeke, A., & Yuan, W. (2021). CEO transformational leadership and cor
 Verbeke, A., Eschmann, D., & Gugler, P. (2025). Asymmetries in firm-level globalization: The case of Swiss multinational enterprises. *Management International Review, 65*(2), 305–328. https://doi.org/10.1007/s11575-025-00568-6
 
 Verbeke, A., Oh, C. H., & Jain, R. (2025). What is the future of regional multinational enterprises? *International Business Review*. https://doi.org/10.1016/j.ibusrev.2025.102442
+
+## Bổ sung v3.5 — Bằng chứng phân tích tổng hợp và bối cảnh châu Á gần đây, xác minh từ bản gốc PDF do NCS cung cấp (16/06/2026)
+
+> Ba entry xác minh trực tiếp từ bản PDF. Trích dẫn trong Chương 2 (Mục 2.3.2, 2.3.3). Kalubandi et al. (2025) là bài đăng trực tuyến trước. (Hai tệp khác trong cùng lô — Huang 2024 và Belaounia & Nekhili 2014 — không được đưa vào do chất lượng nguồn xuất bản không đạt chuẩn luận án.)
+
+Hemmert, M., & Jackson, K. (2016). Is there an East Asian model of MNC internationalization? A comparative analysis of Japanese and Korean firms. *Asia Pacific Business Review, 22*(4), 567–594. https://doi.org/10.1080/13602381.2016.1168617
+
+Kalubandi, S. C., Sharma, D., Edacherian, S., & Karna, A. (2025). Role of foreign market knowledge and home country institutions in international entrepreneurship-performance relationship: A meta-analysis. *Asia Pacific Journal of Management*. https://doi.org/10.1007/s10490-025-10076-8
+
+Murhadi, W. R., Setiawan, S. S., & Ernawati, E. (2025). Governance and internationalisation on firm performance: A case study in Indonesia and Malaysia. *Revista de Métodos Cuantitativos para la Economía y la Empresa, 40*, 1–15. https://doi.org/10.46661/rev.metodoscuant.econ.empresa.10865
