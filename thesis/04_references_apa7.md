@@ -861,3 +861,13 @@ Hymer, S. H. (1976). *The international operations of national firms: A study of
 Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
 
 Vernon, R. (1966). International investment and international trade in the product cycle. *The Quarterly Journal of Economics, 80*(2), 190–207.
+
+## Bổ sung v3.3 — Tài liệu đầu ngành cập nhật, xác minh từ bản gốc PDF do NCS cung cấp (16/06/2026)
+
+> Ba entry được xác minh trực tiếp từ bản PDF gốc (đầy đủ tác giả, năm, tạp chí, tập, số, trang, DOI). Trích dẫn trong Chương 2 (Mục 2.2.1, 2.2.4, 2.2.5, 2.3.4, 2.5.4, 2.5.5, 2.5.7).
+
+Drori, N., Alessandri, T., Bart, Y., & Herstein, R. (2024). The impact of digitalization on internationalization from an internalization theory lens. *Long Range Planning, 57*(1), 102395. https://doi.org/10.1016/j.lrp.2023.102395
+
+Grego, M., Buckley, P. J., Munjal, S., Voss, H., & Wang, E. Y. (2025). Managers and internationalization decisions: An affect-enacted model. *Global Strategy Journal, 15*(3), 317–345. https://doi.org/10.1002/gsj.1516
+
+Wach, K. (2021). The evolution of the Uppsala model: Towards non-linearity of internationalization of firms. *International Entrepreneurship Review, 7*(2), 7–19. https://doi.org/10.15678/IER.2021.0702.01
