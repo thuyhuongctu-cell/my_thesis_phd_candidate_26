@@ -82,7 +82,7 @@ Phạm vi không gian chính của nghiên cứu bao gồm **50 nền kinh tế 
 
 ### 1.5.3 Phạm vi thời gian
 
-Phạm vi thời gian của nghiên cứu có hai mức. Đối với phase phân tích tổng hợp, luận án tổng hợp tài liệu trong giai đoạn 1982–2026, bao quát toàn bộ chương trình nghiên cứu về quan hệ quốc tế hóa và hiệu quả từ khi các nghiên cứu thực nghiệm đầu tiên xuất hiện đến thời điểm hoàn thành luận án. Đối với phase phân tích thực nghiệm đa quốc gia, luận án sử dụng dữ liệu WBES trong giai đoạn 2003–2025, bao gồm 88.869 doanh nghiệp với 103 cặp nền kinh tế-năm. Dữ liệu WBES từ ba thế hệ schema (PICS3 giai đoạn 2009–2012, Standardized giai đoạn 2013–2017, và BREADY/BEE giai đoạn 2018–2025) đã được hòa hợp để đảm bảo tính nhất quán trong đo lường biến qua các đợt khảo sát.
+Phạm vi thời gian của nghiên cứu có hai mức. Đối với giai đoạn phân tích tổng hợp, luận án tổng hợp tài liệu trong giai đoạn 1982–2026, bao quát toàn bộ chương trình nghiên cứu về quan hệ quốc tế hóa và hiệu quả từ khi các nghiên cứu thực nghiệm đầu tiên xuất hiện đến thời điểm hoàn thành luận án. Đối với giai đoạn phân tích thực nghiệm đa quốc gia, luận án sử dụng dữ liệu WBES trong giai đoạn 2003–2025, bao gồm 88.869 doanh nghiệp với 103 cặp nền kinh tế-năm. Dữ liệu WBES từ ba thế hệ lược đồ (PICS3 giai đoạn 2009–2012, Standardized giai đoạn 2013–2017, và BREADY/BEE giai đoạn 2018–2025) đã được hòa hợp để đảm bảo tính nhất quán trong đo lường biến qua các đợt khảo sát.
 
 ---
 
