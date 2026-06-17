@@ -39,5 +39,5 @@ Theo yêu cầu "tiếp tục", đã Việt hóa các thuật ngữ tiếng Anh 
   1. **Abstract tiếng Anh** + **Keywords** — bản tiếng Anh là hợp lệ và bắt buộc; đã kiểm tra và khôi phục 2 chỗ bị thay nhầm ("no convergence *pattern*", "penalty *pattern*" trong abstract CĐ1).
   2. **Bảng chú giải/viết tắt** (DAI = *Digital Adoption Index*, RBV = *Resource-Based View*, I–P, UE…) — đây là nơi *định nghĩa* thuật ngữ Anh, phải giữ nguyên cụm tiếng Anh.
   3. **Nhãn chế độ ICRV** (`Advanced`, `Emerging`, `Upper-middle`…) khi nằm trong ngoặc/đậm/mã: là **nhãn mã phân loại** (biến `icrv_label`), luận án cũng giữ làm chú giải trong ngoặc → giữ nguyên cho khớp luận án.
-  4. **Danh mục tài liệu tham khảo** (gồm trạng thái "under review"/"in press" của bản thảo) — giữ nguyên theo thông lệ thư mục.
+  4. **Danh mục tài liệu tham khảo** — trạng thái bản thảo đã được **chuẩn hóa nhất quán** (17/06/2026): mọi nhãn trong ngữ cảnh tiếng Việt nay dùng "[Bản thảo đang phản biện]" / "(đang phản biện)" / "[sắp xuất bản]" (gộp các biến thể cũ "[Manuscript under review]", "[Manuscript đang phản biện]", "(under review)", "[in press]"). **Abstract tiếng Anh giữ nguyên** "under review" (bản tiếng Anh hợp lệ).
 - Lưu ý: thân CĐ vẫn còn một số thuật ngữ Anh khác trong ngoặc đơn (gloss định nghĩa lần đầu) — đây là hợp lệ theo chính quy ước của luận án, không xử lý.

@@ -999,7 +999,7 @@ Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting para
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review, 80*(2), 355–361.
 
-Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Journal of Asia Business Studies* (under review).
+Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Journal of Asia Business Studies* (đang phản biện).
 
 Hall, P. A., & Soskice, D. (Eds.). (2001). *Varieties of capitalism: The institutional foundations of comparative advantage*. Oxford University Press.
 
@@ -1035,7 +1035,7 @@ Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of 
 
 Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609.
 
-Mar, J., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review* (under review).
+Mar, J., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review* (đang phản biện).
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship. *Journal of Management, 42*(5), 1075–1110.
 

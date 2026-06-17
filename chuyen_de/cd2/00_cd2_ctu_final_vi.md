@@ -319,7 +319,7 @@ Bảng 2.3. So sánh bằng chứng bốn bản thảo đồng hành.
 
 | Chiều | P2 Trung Quốc SMEs (Nhóm III) | P3 Việt Nam (Nhóm IV) | P4 Singapore (Nhóm I) | P5 Trung Quốc (Nhóm III) |
 |-------|-------------------------------|----------------------|----------------------|--------------------------|
-| Journal | JFAR (đã công bố 2026) | JABS (under review) | MIR (under review) | IJOEM (under review) |
+| Journal | JFAR (đã công bố 2026) | JABS (đang phản biện) | MIR (đang phản biện) | IJOEM (đang phản biện) |
 | Dạng I–P | **Chữ U ngược bậc hai** (điểm uốn 47,8%) | Chữ U ngược xác nhận | Chủ yếu dương, TP ~88,6% | Chữ U ngược bền vững |
 | Điểm uốn | 47,8% FSTS | 39–46% FSTS | ~88,6% (thưa dữ liệu) | 47–49% FSTS |
 | TCI | Dương; RBV xác nhận | Dương bền vững, nhân quả (IV) | Dương trực tiếp | Dương, tăng theo thời gian |
@@ -975,9 +975,9 @@ Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. *
 
 Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank. https://doi.org/10.1596/978-1-4648-1334-4
 
-Đỗ, T. H., & Phan, A. T. (2026). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Manuscript đang phản biện]. *Journal of Asia Business Studies*. [P3, Việt Nam]
+Đỗ, T. H., & Phan, A. T. (2026). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Bản thảo đang phản biện]. *Journal of Asia Business Studies*. [P3, Việt Nam]
 
-Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Manuscript đang phản biện]. *International Journal of Emerging Markets*. [P5, Trung Quốc]
+Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Bản thảo đang phản biện]. *International Journal of Emerging Markets*. [P5, Trung Quốc]
 
 Đỗ, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. [P2, Trung Quốc SMEs, đã công bố]
 
@@ -1031,7 +1031,7 @@ Lu, J. W., & Beamish, P. W. (2004). International diversification and firm perfo
 
 Luo, Y., & Tung, R. L. (2007). International expansion of emerging market enterprises: A springboard perspective. *Journal of International Business Studies, 38*(4), 481–498.
 
-Mar, K. S., Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and the internationalization–performance relationship: A firm-level study of Singapore* [Manuscript under review]. *Management International Review*. [P4, Singapore]
+Mar, K. S., Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and the internationalization–performance relationship: A firm-level study of Singapore* [Bản thảo đang phản biện]. *Management International Review*. [P4, Singapore]
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963 *(DOI cần xác minh Crossref)*
 
@@ -1093,7 +1093,7 @@ Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internati
 
 Xu, D. (2024). From de jure to de facto: Institutional distance and firm internationalization. *Global Strategy Journal, 14*(1), 1–28.
 
-Yang, Z., Zhao, Y., & Wei, Z. (2025). Digital capability as a moderator of internationalization–performance in emerging Asia: Evidence from WBES 2018–2023. *Asia Pacific Journal of Management* [in press].
+Yang, Z., Zhao, Y., & Wei, Z. (2025). Digital capability as a moderator of internationalization–performance in emerging Asia: Evidence from WBES 2018–2023. *Asia Pacific Journal of Management* [sắp xuất bản].
 
 ---
 
