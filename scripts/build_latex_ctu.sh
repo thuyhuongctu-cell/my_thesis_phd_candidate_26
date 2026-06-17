@@ -62,7 +62,7 @@ for cd in cd1 cd2; do
   src="chuyen_de/$cd/00_${cd}_ctu_final_vi.md"
   echo "==> Chuyên đề ${cd^^} (${cd^^}_CTU.tex)"
   pandoc "${COMMON[@]}" "${CTU_VARS[@]}" \
-    --top-level-division=section --toc --toc-depth=3 \
+    --top-level-division=section \
     -f markdown-yaml_metadata_block+autolink_bare_uris -t latex "$src" -o "$OUT/${cd^^}_CTU.tex"
 done
 

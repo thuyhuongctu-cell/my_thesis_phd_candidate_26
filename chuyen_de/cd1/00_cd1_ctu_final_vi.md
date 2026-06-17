@@ -1,26 +1,34 @@
-BỘ GIÁO DỤC VÀ ĐÀO TẠO
-TRƯỜNG ĐẠI HỌC CẦN THƠ
-TRƯỜNG KINH TẾ
+```{=latex}
+\thispagestyle{empty}
+\begin{center}
+{\fontsize{14}{18}\selectfont\bfseries BỘ GIÁO DỤC VÀ ĐÀO TẠO\\TRƯỜNG ĐẠI HỌC CẦN THƠ\\TRƯỜNG KINH TẾ}
 
-─────────────────────────────────────────
+\vspace{1.8cm}
+{\fontsize{14}{18}\selectfont\bfseries ĐỖ THÙY HƯƠNG}
 
-ĐỖ THÙY HƯƠNG
+{\fontsize{13}{17}\selectfont MÃ SỐ NGHIÊN CỨU SINH: P1323001}
 
-CHUYÊN ĐỀ TIẾN SĨ SỐ 1
+\vspace{1.6cm}
+{\fontsize{14}{18}\selectfont\bfseries CHUYÊN ĐỀ TIẾN SĨ SỐ 1}
 
-THỰC TRẠNG VỀ HIỆU QUẢ HOẠT ĐỘNG KINH DOANH
-CỦA CÁC DOANH NGHIỆP Ở CHÂU Á
+\vspace{0.7cm}
+{\fontsize{18}{24}\selectfont\bfseries THỰC TRẠNG VỀ HIỆU QUẢ HOẠT ĐỘNG\\KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á}
 
-Ngành: Quản trị kinh doanh
-Mã ngành: 9340101
-Mã nghiên cứu sinh: P1323001
+\vspace{1.6cm}
+{\fontsize{14}{18}\selectfont\bfseries NGÀNH QUẢN TRỊ KINH DOANH}
 
-NGƯỜI HƯỚNG DẪN KHOA HỌC
-TS. NGUYỄN MINH CẢNH
+{\fontsize{14}{18}\selectfont\bfseries MÃ NGÀNH: 9340101}
 
-Cần Thơ, năm 2026
+\vspace{1.2cm}
+{\fontsize{13}{17}\selectfont\bfseries NGƯỜI HƯỚNG DẪN KHOA HỌC}
 
----
+{\fontsize{13}{17}\selectfont\bfseries TS. NGUYỄN MINH CẢNH}
+
+\vspace{1.4cm}
+{\fontsize{14}{18}\selectfont\bfseries CẦN THƠ, NĂM 2026}
+\end{center}
+\newpage
+```
 
 ## LỜI CAM ĐOAN
 
@@ -59,37 +67,11 @@ Adopting multidimensional descriptive statistics, charts, cross-country–cross-
 
 ---
 
-## MỤC LỤC
-
-- Lời cam đoan
-- Tóm tắt / Abstract
-- Danh mục bảng
-- Danh mục hình
-- Danh mục từ viết tắt
-- **2.1 Giới thiệu**
-  - 2.1.1 Đặt vấn đề và tính cấp thiết
-  - 2.1.2 Mục tiêu chuyên đề
-  - 2.1.3 Nội dung và phạm vi nghiên cứu
-  - 2.1.4 Giới hạn nghiên cứu
-  - 2.1.5 Ý nghĩa khoa học và thực tiễn
-- **2.2 Phương pháp nghiên cứu**
-- **2.3 Nội dung nghiên cứu**
-  - 2.3.1 Cơ sở lý luận về hiệu quả hoạt động kinh doanh
-  - 2.3.2 Khung phân loại thể chế ICRV
-  - 2.3.3 Thực trạng năng suất lao động và quốc tế hóa
-  - 2.3.4 Đổi mới sáng tạo và năng lực số hóa
-  - 2.3.5 Cấu trúc doanh nghiệp
-  - 2.3.6 Biến thiên theo thời gian (2006–2026)
-  - 2.3.7 Bảy trường hợp điển hình
-  - 2.3.8 Yếu tố giải thích sơ bộ
-  - 2.3.9 Thảo luận tổng hợp
-- **2.4 Kết luận**
-  - 2.4.1 Kết luận chính
-  - 2.4.2 Hàm ý và đề xuất
-- Tài liệu tham khảo
-- Phụ lục A, Phạm vi nhóm dữ liệu WBES
-
----
+```{=latex}
+\renewcommand{\contentsname}{MỤC LỤC}
+\setcounter{tocdepth}{3}
+\tableofcontents
+```
 
 ## DANH MỤC BẢNG
 

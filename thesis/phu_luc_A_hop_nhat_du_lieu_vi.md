@@ -196,6 +196,11 @@ nhất quán với phần hạn chế ở Chương 5.
 
 ---
 
-*Liên kết tập lệnh & dữ liệu: `scripts/build_pooled_dataset.py`, `scripts/wbes_canon.py`,
-`scripts/cd1_descriptives_pipeline.py`; `data_wbes/analysis/pooled_dataflow.csv`,
-`DATA_UPDATE_MANIFEST.md`, `CANONICAL_RECONCILIATION.md`.*
+*Liên kết tập lệnh và dữ liệu (phục vụ tái lập):*
+
+- `scripts/build_pooled_dataset.py`
+- `scripts/wbes_canon.py`
+- `scripts/cd1_descriptives_pipeline.py`
+- `data_wbes/analysis/pooled_dataflow.csv`
+- `DATA_UPDATE_MANIFEST.md`
+- `CANONICAL_RECONCILIATION.md`

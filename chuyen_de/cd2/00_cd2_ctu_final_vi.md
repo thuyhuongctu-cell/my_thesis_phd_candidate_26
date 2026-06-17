@@ -1,32 +1,34 @@
-# CHUYÊN ĐỀ TIẾN SĨ SỐ 2
+```{=latex}
+\thispagestyle{empty}
+\begin{center}
+{\fontsize{14}{18}\selectfont\bfseries BỘ GIÁO DỤC VÀ ĐÀO TẠO\\TRƯỜNG ĐẠI HỌC CẦN THƠ\\TRƯỜNG KINH TẾ}
 
-BỘ GIÁO DỤC VÀ ĐÀO TẠO
+\vspace{1.8cm}
+{\fontsize{14}{18}\selectfont\bfseries ĐỖ THÙY HƯƠNG}
 
-TRƯỜNG ĐẠI HỌC CẦN THƠ
+{\fontsize{13}{17}\selectfont MÃ SỐ NGHIÊN CỨU SINH: P1323001}
 
-TRƯỜNG KINH TẾ
+\vspace{1.6cm}
+{\fontsize{14}{18}\selectfont\bfseries CHUYÊN ĐỀ TIẾN SĨ SỐ 2}
 
----
+\vspace{0.7cm}
+{\fontsize{17}{23}\selectfont\bfseries XÂY DỰNG MÔ HÌNH NGHIÊN CỨU VỀ ẢNH HƯỞNG CỦA QUỐC TẾ HÓA ĐẾN HIỆU QUẢ HOẠT ĐỘNG KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á}
 
-ĐỖ THÙY HƯƠNG
+\vspace{1.5cm}
+{\fontsize{14}{18}\selectfont\bfseries NGÀNH QUẢN TRỊ KINH DOANH}
 
-CHUYÊN ĐỀ TIẾN SĨ SỐ 2
+{\fontsize{14}{18}\selectfont\bfseries MÃ NGÀNH: 9340101}
 
-XÂY DỰNG MÔ HÌNH NGHIÊN CỨU VỀ ẢNH HƯỞNG CỦA QUỐC TẾ HÓA ĐẾN HIỆU QUẢ HOẠT ĐỘNG KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á
+\vspace{1.1cm}
+{\fontsize{13}{17}\selectfont\bfseries NGƯỜI HƯỚNG DẪN KHOA HỌC}
 
-Ngành: Quản trị kinh doanh
+{\fontsize{13}{17}\selectfont\bfseries PGS.TS. PHAN ANH TÚ}
 
-Mã ngành: 9340101
-
-Mã nghiên cứu sinh: P1323001
-
-NGƯỜI HƯỚNG DẪN KHOA HỌC
-
-PGS.TS. PHAN ANH TÚ
-
-Cần Thơ, năm 2026
-
----
+\vspace{1.3cm}
+{\fontsize{14}{18}\selectfont\bfseries CẦN THƠ, NĂM 2026}
+\end{center}
+\newpage
+```
 
 ## LỜI CAM ĐOAN
 
@@ -42,7 +44,7 @@ Tôi xin cam đoan chuyên đề tiến sĩ số 2 với tiêu đề "Xây dựn
 
 ## TÓM TẮT
 
-Chuyên đề này xây dựng mô hình nghiên cứu lý thuyết và thực nghiệm về ảnh hưởng của quốc tế hóa đến hiệu quả hoạt động kinh doanh của các doanh nghiệp ở các quốc gia châu Á trong giai đoạn 2009–2025. Khung lý thuyết tích hợp bốn tầng, Uppsala Model (Johanson & Vahlne, 1977, 2009), lý thuyết dựa trên nguồn lực (Barney, 1991; Wernerfelt, 1984), lý thuyết thể chế (North, 1990; Khanna & Palepu, 2010; Peng, 2003) và lý thuyết thượng tầng quản trị (Hambrick & Mason, 1984; Hambrick, 2007), kết hợp với Khung chấp nhận số nền tảng (Banalieva & Dhanaraj, 2019; Verhoef et al., 2021; Stallkamp & Schotter, 2021) làm nền tảng lý thuyết. Lược khảo năm dạng hàm quan hệ quốc tế hóa, hiệu quả (I–P) gồm tuyến tính, chữ U ngược, S-curve, M-curve, và forced penalty, cùng năm phân tích tổng hợp lớn giai đoạn 1980–2024, cho thấy khoảng trống thực nghiệm trong việc kiểm định đồng thời phi tuyến và điều tiết đa tầng ở châu Á. Hệ giả thuyết H1–H6 được phát triển: H1 phi tuyến dạng chữ U ngược hoặc S-curve; H2 năng lực công nghệ Index (TCI) điều tiết tích cực; H3a–H3b chỉ số chấp nhận số (DAI) điều tiết phụ thuộc chế độ thể chế: có điều kiện ở Emerging/Frontier (H3a, dương trong OLS nhưng phụ thuộc bối cảnh và có thể null trong kiểm định nhân quả) và có điều kiện/null ở Advanced (H3b), phân biệt với TCI; H4a–H4c đặc điểm nhà quản trị điều tiết (kinh nghiệm, học vấn, giới tính, tách biệt dấu kỳ vọng); H5 thể chế nội địa điều tiết theo gradient ICRV sáu nhóm; H6 tính không đồng nhất theo thời gian. Tám mô hình thực nghiệm M0–M7 được đặc tả, từ cơ sở tuyến tính đến mô hình điều tiết ba chiều cấp luận án. Chiến lược nhận dạng đa tầng và kế hoạch kiểm định độ vững toàn diện được thiết kế cho mẫu gộp 88.869 doanh nghiệp ở 50 nền kinh tế (gồm Nhật Bản) châu Á và Thái Bình Dương, bao gồm 108 cặp quốc gia-năm qua 14 mốc khảo sát WBES giai đoạn 2009–2025 (hồi quy chính M2 N=81.022, M5 N=79.080). Bốn đóng góp chính: (i) khung tích hợp 4 tầng kết hợp Khung chấp nhận số nền tảng chưa có tương đương cho châu Á; (ii) tách bạch TCI và DAI theo Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh (CDCM); (iii) mô hình M7 điều tiết ba chiều; (iv) phân loại nhánh Advanced thành tiên tiến đổi mới sáng tạo dẫn dắt (ICRV Nhóm I) và tiên tiến tài nguyên dẫn dắt (ICRV Nhóm II). Ba bản thảo thực nghiệm đồng hành, P3 Việt Nam (JABS, đang phản biện), P4 Singapore (MIR, đang phản biện), P5 Trung Quốc (IJOEM, đang phản biện), cung cấp bằng chứng quốc gia cụ thể kiểm định H1–H6 và xác nhận tính khả nghiệm của mô hình đề xuất.
+Chuyên đề này xây dựng mô hình nghiên cứu lý thuyết và thực nghiệm về ảnh hưởng của quốc tế hóa đến hiệu quả hoạt động kinh doanh của các doanh nghiệp ở các quốc gia châu Á trong giai đoạn 2009–2025. Khung lý thuyết tích hợp bốn tầng, Uppsala Model (Johanson & Vahlne, 1977, 2009), lý thuyết dựa trên nguồn lực (Barney, 1991; Wernerfelt, 1984), lý thuyết thể chế (North, 1990; Khanna & Palepu, 2010; Peng, 2003) và lý thuyết thượng tầng quản trị (Hambrick & Mason, 1984; Hambrick, 2007), kết hợp với Khung chấp nhận số nền tảng (Banalieva & Dhanaraj, 2019; Verhoef et al., 2021; Stallkamp & Schotter, 2021) làm nền tảng lý thuyết. Lược khảo năm dạng hàm quan hệ quốc tế hóa, hiệu quả (I–P) gồm tuyến tính, chữ U ngược, S-curve, M-curve, và forced penalty, cùng năm phân tích tổng hợp lớn giai đoạn 1980–2024, cho thấy khoảng trống thực nghiệm trong việc kiểm định đồng thời phi tuyến và điều tiết đa tầng ở châu Á. Hệ giả thuyết H1–H6 được phát triển: H1 phi tuyến dạng chữ U ngược hoặc S-curve; H2 chỉ số năng lực công nghệ (TCI) điều tiết tích cực; H3a–H3b chỉ số chấp nhận số (DAI) điều tiết phụ thuộc chế độ thể chế: có điều kiện ở Emerging/Frontier (H3a, dương trong OLS nhưng phụ thuộc bối cảnh và có thể null trong kiểm định nhân quả) và có điều kiện/null ở Advanced (H3b), phân biệt với TCI; H4a–H4c đặc điểm nhà quản trị điều tiết (kinh nghiệm, học vấn, giới tính, tách biệt dấu kỳ vọng); H5 thể chế nội địa điều tiết theo gradient ICRV sáu nhóm; H6 tính không đồng nhất theo thời gian. Tám mô hình thực nghiệm M0–M7 được đặc tả, từ cơ sở tuyến tính đến mô hình điều tiết ba chiều cấp luận án. Chiến lược nhận dạng đa tầng và kế hoạch kiểm định độ vững toàn diện được thiết kế cho mẫu gộp 88.869 doanh nghiệp ở 50 nền kinh tế (gồm Nhật Bản) châu Á và Thái Bình Dương, bao gồm 108 cặp quốc gia-năm qua 14 mốc khảo sát WBES giai đoạn 2009–2025 (hồi quy chính M2 N=81.022, M5 N=79.080). Bốn đóng góp chính: (i) khung tích hợp 4 tầng kết hợp Khung chấp nhận số nền tảng chưa có tương đương cho châu Á; (ii) tách bạch TCI và DAI theo Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh (CDCM); (iii) mô hình M7 điều tiết ba chiều; (iv) phân loại nhánh Advanced thành tiên tiến đổi mới sáng tạo dẫn dắt (ICRV Nhóm I) và tiên tiến tài nguyên dẫn dắt (ICRV Nhóm II). Ba bản thảo thực nghiệm đồng hành, P3 Việt Nam (JABS, đang phản biện), P4 Singapore (MIR, đang phản biện), P5 Trung Quốc (IJOEM, đang phản biện), cung cấp bằng chứng quốc gia cụ thể kiểm định H1–H6 và xác nhận tính khả nghiệm của mô hình đề xuất.
 
 Từ khóa: quốc tế hóa; hiệu quả hoạt động kinh doanh; châu Á; mô hình phi tuyến; điều tiết; áp dụng số; thể chế; lý thuyết thượng tầng quản trị; ICRV.
 
@@ -56,39 +58,11 @@ Keywords: internationalization; firm performance; Asia; nonlinear models; modera
 
 ---
 
-## MỤC LỤC
-
-Phần 2, Nội dung chuyên đề
-
-2.1 Đặt vấn đề
-  2.1.1 Giới thiệu
-  2.1.2 Mục tiêu
-  2.1.3 Nội dung
-  2.1.4 Giới hạn của chuyên đề
-  2.1.5 Ý nghĩa
-
-2.2 Phương pháp nghiên cứu
-
-2.3 Kết quả và thảo luận
-  2.3.1 Tổng quan tài liệu về quan hệ quốc tế hóa và hiệu quả kinh doanh
-  2.3.2 Khung lý thuyết tích hợp 4 tầng
-  2.3.3 Khung khái niệm và mô hình nghiên cứu đề xuất
-  2.3.4 Hệ giả thuyết nghiên cứu (H1–H6)
-  2.3.5 Thiết kế mô hình thực nghiệm (M0–M7)
-  2.3.6 Dữ liệu và chiến lược nhận dạng nhân quả
-  2.3.7 Kế hoạch kiểm định độ vững
-  2.3.8 Thảo luận: đóng góp lý thuyết và thực tiễn
-
-2.4 Kết luận và đề xuất
-  2.4.1 Kết luận
-  2.4.2 Hạn chế nghiên cứu
-  2.4.3 Hướng nghiên cứu tiếp theo
-
-Tài liệu tham khảo
-
-Phụ lục
-
----
+```{=latex}
+\renewcommand{\contentsname}{MỤC LỤC}
+\setcounter{tocdepth}{3}
+\tableofcontents
+```
 
 ## DANH MỤC BẢNG
 
@@ -482,7 +456,7 @@ Cơ sở lý thuyết: lý thuyết dựa trên nguồn lực (Barney, 1991) cho
 
 Bằng chứng neo đậu: P3 Việt Nam: β(TCI) = 0,179 (p < 0,001) bền vững 3 sóng; biến công cụ cho β(TCI) = 1,639 (p < 0,001, F bậc một = 22,1), TCI là nhân quả. P5 Trung Quốc: β_z(TCI) tăng từ +0,260 (2012) sang +0,426 (2024), Paternoster z = −2,55 (p = 0,011), TCI nâng mặt bằng tăng cường theo thời gian. P4 Singapore: β(TCI) = +0,153 (p < 0,01), không điều tiết độ cong, TCI là nâng mặt bằng thuần túy trong Nhóm I.
 
-H2: năng lực công nghệ Index (TCI) có mối quan hệ dương trực tiếp với hiệu quả doanh nghiệp (β(TCI) > 0) và nâng mặt bằng ln(LP) của toàn bộ đường cong quốc tế hóa và hiệu quả (hiệu ứng nâng mặt bằng). Tác động điều tiết của TCI lên độ cong của đường cong là câu hỏi thực nghiệm mở và được kiểm định như H2 khám phá trong M3.
+H2: chỉ số năng lực công nghệ (TCI) có mối quan hệ dương trực tiếp với hiệu quả doanh nghiệp (β(TCI) > 0) và nâng mặt bằng ln(LP) của toàn bộ đường cong quốc tế hóa và hiệu quả (hiệu ứng nâng mặt bằng). Tác động điều tiết của TCI lên độ cong của đường cong là câu hỏi thực nghiệm mở và được kiểm định như H2 khám phá trong M3.
 
 ##### H3a–H3b: DAI điều tiết phụ thuộc chế độ thể chế (CDCM)
 

@@ -300,7 +300,7 @@ Kiểm định tương tác thời gian (Temporal H6): $F = 1{,}83$, $p = {,}176
 
 ### 4.4.3 Vai trò của TCI và DAI
 
-Tương tác $FSTS \times TCI$ không đạt ý nghĩa thống kê (null moderation, $p > {,}10$), cho thấy năng lực công nghệ Index không phát huy vai trò điều tiết đáng kể ở bối cảnh Trung Quốc theo mô hình P5. Tương tự, DAI cũng không cho thấy điều tiết có ý nghĩa trong bối cảnh này. kết quả không có ý nghĩa về điều tiết tại Trung Quốc có thể phản ánh thực tế rằng năng lực công nghệ đã được phân phối tương đối đồng đều hơn trong mẫu doanh nghiệp xuất khẩu Trung Quốc, làm giảm phương sai đủ để phát hiện hiệu ứng điều tiết.
+Tương tác $FSTS \times TCI$ không đạt ý nghĩa thống kê (null moderation, $p > {,}10$), cho thấy chỉ số năng lực công nghệ (TCI) không phát huy vai trò điều tiết đáng kể ở bối cảnh Trung Quốc theo mô hình P5. Tương tự, DAI cũng không cho thấy điều tiết có ý nghĩa trong bối cảnh này. kết quả không có ý nghĩa về điều tiết tại Trung Quốc có thể phản ánh thực tế rằng năng lực công nghệ đã được phân phối tương đối đồng đều hơn trong mẫu doanh nghiệp xuất khẩu Trung Quốc, làm giảm phương sai đủ để phát hiện hiệu ứng điều tiết.
 
 ### 4.4.4 Bộ hệ số mô hình ngưỡng chính (M2) và độ lớn kinh tế
 
