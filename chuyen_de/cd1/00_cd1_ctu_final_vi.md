@@ -230,15 +230,15 @@ Trong bối cảnh đó, hệ thống thông tin về hiệu quả doanh nghiệ
 
 **B. Trường hợp biên mở rộng, Nhóm VI SIDS (8 nền, n=2.295, 2,6% mẫu gộp)**: Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati (2025) và Timor-Leste. Mẫu chính của nghiên cứu chuyên sâu SIDS là 7 nền Thái Bình Dương (n=1.781).
 
-**Phạm vi thời gian**: **2006–2026** (19 năm khảo sát, 103 cặp nền kinh tế × năm). Ba thế hệ schema WBES trong mẫu gộp mô tả: PICS3/tiền-Standardized (2006–2012, 18 đợt, n=8.048), Standardized (2013–2017, 27 đợt, n=23.940), BREADY/BEE/EAP Core (2018–2026, 57 đợt, n=54.713, chiếm 63,1% mẫu gộp).
+**Phạm vi thời gian**: **2006–2026** (19 năm khảo sát, 103 cặp nền kinh tế × năm). Ba thế hệ lược đồ WBES trong mẫu gộp mô tả: PICS3/tiền-Standardized (2006–2012, 18 đợt, n=8.048), Standardized (2013–2017, 27 đợt, n=23.940), BREADY/BEE/EAP Core (2018–2026, 57 đợt, n=54.713, chiếm 63,1% mẫu gộp).
 
 ### 2.1.4 Giới hạn nghiên cứu
 
 Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
-**(1) Cross-sectional không cho phép suy luận nhân quả mạnh**: WBES là repeated cross-sections, không phải panel cân bằng. Kết luận nhân quả dựa trên ước lượng biến công cụ từ nghiên cứu Việt Nam và không thể khái quát trực tiếp sang 50 nền kinh tế (gồm Nhật Bản) trong khung phân tích.
+**(1) Cross-sectional không cho phép suy luận nhân quả mạnh**: WBES là repeated lát cắt ngang, không phải panel cân bằng. Kết luận nhân quả dựa trên ước lượng biến công cụ từ nghiên cứu Việt Nam và không thể khái quát trực tiếp sang 50 nền kinh tế (gồm Nhật Bản) trong khung phân tích.
 
-**(2) Chỉ số áp dụng số bị giới hạn ở Tier-1 và Tier-2**: Bộ câu hỏi PICS3/Standardized chỉ có website nhị phân (Tier-1). BREADY có Tier-2 nhưng không đo Tier-3/4. Chuyên đề chỉ phát biểu về phần bù Tier-1/2, không phải toàn bộ phổ áp dụng số.
+**(2) Chỉ số áp dụng số bị giới hạn ở Tier-1 và Tier-2**: Bộ câu hỏi PICS3/Standardized chỉ có website nhị phân (Tier-1). BREADY có Tầng 2 nhưng không đo Tầng 3/4. Chuyên đề chỉ phát biểu về phần bù Tầng 1/2, không phải toàn bộ phổ áp dụng số.
 
 **(3) Chỉ số TCI tổng hợp với trọng số đồng đều**: Trung bình đơn giản 4 thành phần (ISO, R&D, đổi mới sản phẩm, công nghệ nước ngoài) chưa được xác nhận bằng phân tích nhân tố, trọng số tối ưu có thể khác nhau giữa các nhóm ICRV.
 
@@ -248,7 +248,7 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 **(6) Phạm vi SIDS chưa đầy đủ**: 9/~52 SIDS theo UNCTAD (dữ liệu WBES hiện có). Tuvalu, Nauru, Marshall Islands, Micronesia chưa có WBES. Kết luận về chi phí quốc tế hóa buộc phải có thể chưa đại diện toàn bộ SIDS Pacific.
 
-**(7) Không có dữ liệu cường độ số theo ngành**: WBES không phân biệt chỉ số áp dụng số theo ngành. Doanh nghiệp sản xuất và dịch vụ có hệ số DAI Tier-1 giống nhau nhưng cường độ số thực tế khác nhau. Hiệu ứng cố định ngành kiểm soát được một phần nhưng không giải quyết triệt để vấn đề này.
+**(7) Không có dữ liệu cường độ số theo ngành**: WBES không phân biệt chỉ số áp dụng số theo ngành. Doanh nghiệp sản xuất và dịch vụ có hệ số DAI Tầng 1 giống nhau nhưng cường độ số thực tế khác nhau. Hiệu ứng cố định ngành kiểm soát được một phần nhưng không giải quyết triệt để vấn đề này.
 
 ### 2.1.5 Ý nghĩa khoa học và thực tiễn
 
@@ -258,7 +258,7 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 (2) **Phân nhóm con Advanced** (innovation-driven so với resource-driven), phát hiện lý thuyết mới chưa có trong tài liệu hiện hành. Hai nhóm cùng mức thu nhập cao nhưng cấu trúc năng lực đối lập: R&D 21,0% so với 7,0%; doanh nghiệp xuất khẩu 24,5% so với 11,7%; nữ quản lý cấp cao 20,7% so với 4,6%, phản ánh hai cơ chế tăng trưởng hoàn toàn khác nhau.
 
-(3) **Nhảy vọt số** ở các nhóm đang nổi và chuyển đổi 2018–2026, mở rộng khuôn mẫu từ 17 nền lên 50 nền. Phân tách Tier-1 (website nhị phân, tiệm cận bão hòa ở Advanced) và Tier-2 (tổng hợp đa thành phần, đang phát triển ở các nhóm IV–VI).
+(3) **Nhảy vọt số** ở các nhóm đang nổi và chuyển đổi 2018–2026, mở rộng khuôn mẫu từ 17 nền lên 50 nền. Phân tách Tầng 1 (website nhị phân, tiệm cận bão hòa ở Advanced) và Tầng 2 (tổng hợp đa thành phần, đang phát triển ở các nhóm IV–VI).
 
 (4) **Bằng chứng cho khung lý thuyết phi tuyến và điều tiết đa tầng**, gradient cường độ rõ rệt của các hệ số tương quan xuyên 6 nhóm thể chế (đặc biệt: tương quan FSTS–năng suất giảm dần từ +0,139 ở Nhóm I xuống mất ý nghĩa ở SIDS) là cơ sở thực tiễn cho các giả thuyết của Chuyên đề 2.
 
@@ -272,23 +272,23 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thiết lập mô hình hồi quy đa biến để kiểm định nhân quả. Phương pháp kết hợp ba kỹ thuật: (a) thống kê mô tả đa biến (trung vị, trung bình, độ phân tán, kurtosis) theo phân nhóm thể chế và theo ngành; (b) trực quan hóa dữ liệu (heatmap, kernel density, spider chart, scatter plot, 7 hình); (c) phân tích hai biến.
 
-**Nguồn dữ liệu**: World Bank Enterprise Surveys (WBES), cơ sở dữ liệu vi mô doanh nghiệp cấp quốc gia lớn nhất toàn cầu, được thiết kế theo phương pháp lấy mẫu xác suất phân tầng đảm bảo tính đại diện (World Bank Enterprise Surveys, 2025). Các bảng thống kê mô tả Mục 2.3.3–2.3.8 dưới đây được tính trên **mẫu gộp mô tả gồm 88.869 doanh nghiệp, 50 nền kinh tế, 103 cặp nền kinh tế × năm (2006–2026)**, mỗi cặp nền kinh tế × năm lấy đúng một cross-section chuẩn, chỉ nhận đợt khảo sát từ 2006 trở đi (xem ghi chú dữ liệu ở Tóm tắt và Phụ lục A). Khung phân loại thống nhất với bộ dữ liệu ước lượng của luận án: 50 nền kinh tế (88.869 doanh nghiệp, gồm Nhật Bản; mẫu gộp phân loại 96.415 DN / 52 nền).
+**Nguồn dữ liệu**: World Bank Enterprise Surveys (WBES), cơ sở dữ liệu vi mô doanh nghiệp cấp quốc gia lớn nhất toàn cầu, được thiết kế theo phương pháp lấy mẫu xác suất phân tầng đảm bảo tính đại diện (World Bank Enterprise Surveys, 2025). Các bảng thống kê mô tả Mục 2.3.3–2.3.8 dưới đây được tính trên **mẫu gộp mô tả gồm 88.869 doanh nghiệp, 50 nền kinh tế, 103 cặp nền kinh tế × năm (2006–2026)**, mỗi cặp nền kinh tế × năm lấy đúng một lát cắt ngang chuẩn, chỉ nhận đợt khảo sát từ 2006 trở đi (xem ghi chú dữ liệu ở Tóm tắt và Phụ lục A). Khung phân loại thống nhất với bộ dữ liệu ước lượng của luận án: 50 nền kinh tế (88.869 doanh nghiệp, gồm Nhật Bản; mẫu gộp phân loại 96.415 DN / 52 nền).
 
 **Các biến đo lường chính**:
 
-- **Biến năng suất lao động (LP)**: `LP = ln(doanh thu bán hàng hàng năm / số lao động toàn thời gian)` (d2/l1), tính theo nội tệ của từng nền kinh tế. Vì đơn vị tiền tệ khác nhau giữa các nước, chuyên đề tuân thủ một **nguyên tắc so sánh xuyên tiền tệ** xuyên suốt: (a) các thống kê *phân tán* được tính **trong từng cặp nền kinh tế × năm** (bất biến với đơn vị tiền tệ vì thừa số quy đổi triệt tiêu trong thang log); (b) so sánh *mức* giữa các nền kinh tế dùng chỉ số không thứ nguyên (ROS, tỷ suất sinh lời trên doanh thu); (c) trong khung ước lượng của luận án, LP được chuẩn hóa z-score trong từng cặp nền kinh tế × năm và mô hình luôn có hiệu ứng cố định quốc gia (Phụ lục A của luận án). Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để kiểm soát ngoại lai. Lựa chọn năng suất lao động làm thước đo hiệu quả phù hợp với dữ liệu WBES vốn không có giá thị trường và dữ liệu lợi nhuận thưa (Combs et al., 2005; Cusolito & Maloney, 2018; Richard et al., 2009).
+- **Biến năng suất lao động (LP)**: `LP = ln(doanh thu bán hàng hàng năm / số lao động toàn thời gian)` (d2/l1), tính theo nội tệ của từng nền kinh tế. Vì đơn vị tiền tệ khác nhau giữa các nước, chuyên đề tuân thủ một **nguyên tắc so sánh xuyên tiền tệ** xuyên suốt: (a) các thống kê *phân tán* được tính **trong từng cặp nền kinh tế × năm** (bất biến với đơn vị tiền tệ vì thừa số quy đổi triệt tiêu trong thang log); (b) so sánh *mức* giữa các nền kinh tế dùng chỉ số không thứ nguyên (ROS, tỷ suất sinh lời trên doanh thu); (c) trong khung ước lượng của luận án, LP được chuẩn hóa điểm z trong từng cặp nền kinh tế × năm và mô hình luôn có hiệu ứng cố định quốc gia (Phụ lục A của luận án). Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để kiểm soát ngoại lai. Lựa chọn năng suất lao động làm thước đo hiệu quả phù hợp với dữ liệu WBES vốn không có giá thị trường và dữ liệu lợi nhuận thưa (Combs et al., 2005; Cusolito & Maloney, 2018; Richard et al., 2009).
 
-- **Biến FSTS (Foreign Sales to Total Sales)**: `FSTS = (d3b + d3c) / 100`, trong đó d3b là tỷ lệ doanh thu **xuất khẩu gián tiếp** (bán qua trung gian xuất khẩu) và d3c là tỷ lệ doanh thu **xuất khẩu trực tiếp**, theo nhãn biến chính thức của bộ công cụ WBES. Quan sát được gán FSTS = 0 nếu doanh nghiệp báo cáo toàn bộ doanh thu nội địa (d3a = 100); gán khuyết nếu không trả lời. Tổng xuất khẩu trực tiếp + gián tiếp là định nghĩa tham gia xuất khẩu chuẩn của WBES (World Bank Enterprise Surveys, 2025) và được dùng thống nhất cho thống kê mô tả của chuyên đề cũng như khung ước lượng đa quốc gia của luận án. **Ghi chú thao tác hóa**: hai nghiên cứu thành phần đơn quốc gia (P3 Việt Nam, P5 Trung Quốc) đo cường độ quốc tế hóa bằng riêng xuất khẩu trực tiếp (d3c), vì xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại, doanh nghiệp không trực tiếp tích lũy kinh nghiệm thị trường nước ngoài, nên cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất (Hessels & Terjesen, 2010; Peng & Ilinitch, 1998); trong khi tỷ trọng doanh thu xuất khẩu (FSTS) là thước đo cường độ quốc tế hóa chuẩn của tài liệu I–P (Lu & Beamish, 2001; Sullivan, 1994). Hai cách thao tác hóa trả lời hai câu hỏi bổ trợ, mức độ *tham gia* thị trường quốc tế (tổng) và mức độ *cam kết trực tiếp* của doanh nghiệp (trực tiếp), và được ghi rõ trong phần dữ liệu của từng nghiên cứu.
+- **Biến FSTS (Foreign Sales to Total Sales)**: `FSTS = (d3b + d3c) / 100`, trong đó d3b là tỷ lệ doanh thu **xuất khẩu gián tiếp** (bán qua trung gian xuất khẩu) và d3c là tỷ lệ doanh thu **xuất khẩu trực tiếp**, theo nhãn biến chính thức của bộ công cụ WBES. Quan sát được gán FSTS = 0 nếu doanh nghiệp báo cáo toàn bộ doanh thu nội địa (d3a = 100); gán khuyết nếu không trả lời. Tổng xuất khẩu trực tiếp + gián tiếp là định nghĩa tham gia xuất khẩu chuẩn của WBES (World Bank Enterprise Surveys, 2025) và được dùng thống nhất cho thống kê mô tả của chuyên đề cũng như khung ước lượng đa quốc gia của luận án. **Ghi chú thao tác hóa**: hai nghiên cứu thành phần đơn quốc gia (P3 Việt Nam, P5 Trung Quốc) đo cường độ quốc tế hóa bằng riêng xuất khẩu trực tiếp (d3c), vì xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại, doanh nghiệp không trực tiếp tích lũy kinh nghiệm thị trường nước ngoài, nên cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất (Hessels & Terjesen, 2010; Peng & Ilinitch, 1998); trong khi tỷ trọng doanh thu xuất khẩu (FSTS) là thước đo cường độ quốc tế hóa chuẩn của tài liệu quốc tế hóa và hiệu quả (Lu & Beamish, 2001; Sullivan, 1994). Hai cách thao tác hóa trả lời hai câu hỏi bổ trợ, mức độ *tham gia* thị trường quốc tế (tổng) và mức độ *cam kết trực tiếp* của doanh nghiệp (trực tiếp), và được ghi rõ trong phần dữ liệu của từng nghiên cứu.
 
 - **Biến TCI (Technological Capability Index)**: Trung bình chuẩn hóa z của tối thiểu 3 trong 4 thành phần: ISO (b8), R&D (h8), đổi mới sản phẩm (h1), công nghệ nước ngoài (e6). Yêu cầu ≥3 non-missing để tính tổng hợp. Construct phản ánh chiều sâu năng lực công nghệ nội tại theo truyền thống năng lực công nghệ hóa công nghiệp và năng lực hấp thụ (Cohen & Levinthal, 1990; Lall, 1992); cách tổng hợp formative tuân theo tiêu chí của Coltman et al. (2008). *Lưu ý phân biệt:* đây là biến thể TCI **đầy đủ 4 mục** trên mẫu gộp mô tả của chuyên đề, khác với biến thể **thin 2 mục (b8 + e6)** dùng trong nghiên cứu đa quốc gia P7 và Mục 3.4.5.4 của luận án; bảng tương quan Mục 2.3.8.1 còn dùng một proxy 2 mục riêng (h8 + b8) đã ghi rõ ở chú thích bảng. Các khác biệt này phản ánh độ khả dụng dữ liệu theo từng mẫu gộp, cùng đo một construct *năng lực công nghệ*; mọi hệ số được tính từ đúng bộ mục nêu kèm.
 
 - **Biến DAI (Digital Adoption Index)**: Spec 1 (toàn bộ 2006–2026): website nhị phân (c22b/e8), **Tier-1 Sự hiện diện số cơ bản**. Spec 2 (BREADY 2018+ trở lên): tổng hợp chuẩn hóa z website + cường độ thanh toán điện tử (k33/k38), **Tier-2 Chuyển đổi số cơ bản**. Phân tầng đo lường số hóa theo Verhoef et al. (2021); vai trò công cụ số trong quốc tế hóa theo Banalieva & Dhanaraj (2019).
 
-**Hài hòa hóa xuyên ba thế hệ schema**: World Bank Enterprise Surveys trải qua ba thế hệ schema trong giai đoạn nghiên cứu. Thế hệ 1, PICS3/MENA-WBES (2006–2012, 18 đợt, n=8.048): bảng hỏi PICS3 cho khu vực Đông Nam Á và Trung Á. Thế hệ 2, Standardized (2013–2017, 27 đợt, n=23.940): áp dụng đồng nhất xuyên toàn cầu từ 2013. Thế hệ 3, BREADY/BEE/EAP Core (2018–2026, 58 đợt, n=56.881): tích hợp thanh toán điện tử, điện toán đám mây, ngân hàng di động vào các module bổ sung, gây **đứt gãy schema** quan sát được: Ấn Độ FSTS sụt 7,7% rồi 2,7% trong đợt 2025.
+**Hài hòa hóa xuyên ba thế hệ schema**: World Bank Enterprise Surveys trải qua ba thế hệ lược đồ trong giai đoạn nghiên cứu. Thế hệ 1, PICS3/MENA-WBES (2006–2012, 18 đợt, n=8.048): bảng hỏi PICS3 cho khu vực Đông Nam Á và Trung Á. Thế hệ 2, Standardized (2013–2017, 27 đợt, n=23.940): áp dụng đồng nhất xuyên toàn cầu từ 2013. Thế hệ 3, BREADY/BEE/EAP Core (2018–2026, 58 đợt, n=56.881): tích hợp thanh toán điện tử, điện toán đám mây, ngân hàng di động vào các module bổ sung, gây **đứt gãy schema** quan sát được: Ấn Độ FSTS sụt 7,7% rồi 2,7% trong đợt 2025.
 
 **Nguyên tắc minh bạch dữ liệu** (Aguinis et al., 2019): chuyên đề trình bày rõ (i) định nghĩa tổng thể (50 nền kinh tế châu Á và Thái Bình Dương, phân tách 42 phạm vi chính và 8 trường hợp biên); (ii) quy trình lấy mẫu (lấy mẫu chính thức WBES); (iii) lý giải quy mô mẫu (khung phân tích 88.869 DN / 103 cặp / 50 nền gồm Nhật Bản, dùng chung cho mô tả và ước lượng P7; mẫu gộp phân loại 96.415 DN); (iv) xử lý giá trị thiếu (FSTS = d3b + d3c, winsorize 1/99); (v) xây dựng biến; (vi) độ tin cậy và giá trị (TCI đa thành phần; DAI đơn thành phần Spec 1, đa thành phần Spec 2); (vii) phương pháp ước lượng (mô tả trong CĐ1; OLS và biến công cụ trong CĐ2); (viii) khoa học mở, toàn bộ bảng và hình tái lập được từ gói tái lập kèm theo luận án.
 
-**Hệ thống phòng thủ ba tầng cho đứt gãy schema BREADY 2025**: Đợt 2025 (13 nền kinh tế, n=16.880 doanh nghiệp, 19,0% mẫu gộp, gồm Nhật Bản khảo sát lần đầu) sử dụng schema mới BREADY gây biến động bất thường: Ấn Độ FSTS giảm từ 7,7% xuống 2,7%; R&D nhiều nước tăng đột biến do hiệu ứng bảng hỏi chứ không phải thực tế. Ba đề xuất phương pháp: (3a) biến giả `Post_BREADY_2024` hấp thụ hiệu ứng schema tĩnh; (3b) mô hình neo (anchor model), chạy hồi quy với dữ liệu đến 2024, khóa hệ số, kiểm định ổn định với dữ liệu đầy đủ bằng Chow test; (3c) panel hậu đại dịch độc lập, tách 2025 thành tập xác thực ngoài mẫu cho kỷ nguyên hậu COVID và AI.
+**Hệ thống phòng thủ ba tầng cho đứt gãy schema BREADY 2025**: Đợt 2025 (13 nền kinh tế, n=16.880 doanh nghiệp, 19,0% mẫu gộp, gồm Nhật Bản khảo sát lần đầu) sử dụng lược đồ mới BREADY gây biến động bất thường: Ấn Độ FSTS giảm từ 7,7% xuống 2,7%; R&D nhiều nước tăng đột biến do hiệu ứng bảng hỏi chứ không phải thực tế. Ba đề xuất phương pháp: (3a) biến giả `Post_BREADY_2024` hấp thụ hiệu ứng lược đồ tĩnh; (3b) mô hình neo (anchor model), chạy hồi quy với dữ liệu đến 2024, khóa hệ số, kiểm định ổn định với dữ liệu đầy đủ bằng Chow test; (3c) panel hậu đại dịch độc lập, tách 2025 thành tập xác thực ngoài mẫu cho kỷ nguyên hậu COVID và AI.
 
 ---
 
@@ -296,7 +296,7 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 
 ### 2.3.1 Cơ sở lý luận về hiệu quả hoạt động kinh doanh
 
-Khung phân tích mô tả của Chuyên đề 1 được tóm lược ở Hình 2.3.1.1. Đây là **khung mô tả – tương quan** (không phải khung kiểm định nhân quả; phần nhân quả được dành cho Chuyên đề 2): bốn yếu tố giải thích cấp doanh nghiệp và quốc gia, gồm vốn đầu tư trực tiếp nước ngoài (FDI ≥ 10%), mức độ quốc tế hóa (FSTS), năng lực công nghệ (TCI) và mức độ hiện diện số (DAI), được đặt trong quan hệ tương quan với **năng suất lao động chuẩn hóa** (LP-z, z-score của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm để bảo đảm bất biến tiền tệ). Điểm cốt lõi của khung là vai trò **điều tiết bối cảnh** của khung phân loại thể chế ICRV (sáu nhóm, từ Nhóm I đổi mới đến Nhóm VI SIDS): thể chế không chỉ làm thay đổi *độ lớn* mà cá biệt còn đảo *dấu* của các tương quan, rõ nhất ở gradient FSTS giảm đơn điệu từ +0,139 (Nhóm I) xuống mất ý nghĩa và đổi dấu ở SIDS (−0,009 ns), nhất quán với giả thuyết chi phí buộc phải quốc tế hóa. Toàn bộ phân tích là **cắt ngang gộp nhiều đợt** trên giai đoạn 2006–2026; các hệ số tương quan Pearson chi tiết theo nhóm ICRV được trình bày ở mục 2.3.8.
+Khung phân tích mô tả của Chuyên đề 1 được tóm lược ở Hình 2.3.1.1. Đây là **khung mô tả – tương quan** (không phải khung kiểm định nhân quả; phần nhân quả được dành cho Chuyên đề 2): bốn yếu tố giải thích cấp doanh nghiệp và quốc gia, gồm vốn đầu tư trực tiếp nước ngoài (FDI ≥ 10%), mức độ quốc tế hóa (FSTS), năng lực công nghệ (TCI) và mức độ hiện diện số (DAI), được đặt trong quan hệ tương quan với **năng suất lao động chuẩn hóa** (LP-z, điểm z của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm để bảo đảm bất biến tiền tệ). Điểm cốt lõi của khung là vai trò **điều tiết bối cảnh** của khung phân loại thể chế ICRV (sáu nhóm, từ Nhóm I đổi mới đến Nhóm VI SIDS): thể chế không chỉ làm thay đổi *độ lớn* mà cá biệt còn đảo *dấu* của các tương quan, rõ nhất ở gradient FSTS giảm đơn điệu từ +0,139 (Nhóm I) xuống mất ý nghĩa và đổi dấu ở SIDS (−0,009 ns), nhất quán với giả thuyết chi phí buộc phải quốc tế hóa. Toàn bộ phân tích là **cắt ngang gộp nhiều đợt** trên giai đoạn 2006–2026; các hệ số tương quan Pearson chi tiết theo nhóm ICRV được trình bày ở mục 2.3.8.
 
 ![Hình 2.3.1.1. Khung phân tích mô tả CĐ1 — tương quan giữa bốn yếu tố và năng suất lao động theo bối cảnh thể chế ICRV (mẫu gộp mô tả 88.869 doanh nghiệp, 50 nền, 2006–2026).](figures/cd1_fig_conceptual_model.png)
 
@@ -308,7 +308,7 @@ Hiệu quả hoạt động kinh doanh (firm performance) là khái niệm **đa
 
 Vượt ra ngoài khung hai tầng của Venkatraman và Ramanujam (1986), tài liệu phương pháp luận về đo lường hiệu quả tổ chức (Combs et al., 2005; Richard et al., 2009) cho phép tổng hợp thành **ba nhóm thước đo chính**: (i) **thước đo dựa trên kế toán** (ROA, ROE, ROS) phản ánh hiệu quả tài chính lịch sử; (ii) **thước đo dựa trên thị trường tài chính** (Tobin's Q, tổng lợi nhuận cổ đông) phản ánh kỳ vọng tương lai do nhà đầu tư định giá; và (iii) **thước đo dựa trên năng suất và tăng trưởng** (năng suất lao động, tăng trưởng doanh thu và việc làm) phản ánh năng lực vận hành thực chất. Richard và cộng sự (2009) cảnh báo rằng việc dựa vào một thước đo đơn lẻ làm suy giảm hiệu lực cấu trúc (construct validity) và khuyến nghị đo lường đa nguồn, đa chiều. Trong bối cảnh dữ liệu WBES, vốn không cung cấp giá cổ phiếu nên loại trừ nhóm (ii), và có dữ liệu lợi nhuận thưa thớt làm hạn chế nhóm (i), **năng suất lao động** (thuộc nhóm iii) là lựa chọn chủ đạo có cơ sở lý thuyết và kỹ thuật vững nhất giữa các phương án (ROA/ROS/Tobin's Q): nó so sánh được xuyên quốc gia, ít bị méo mó bởi cơ cấu vốn và chế độ thuế đặc thù từng quốc gia, và phản ánh trực tiếp năng lực chuyển hóa đầu vào thành đầu ra. Để bù đắp giới hạn của một thước đo đơn lẻ theo khuyến nghị của Combs và cộng sự (2005), chuyên đề bổ sung ba chiều hiệu quả hỗ trợ (lợi nhuận, tăng trưởng, đổi mới) được trình bày ở mục 2.3.1.2.
 
-Trong bối cảnh nghiên cứu xuyên quốc gia, khái niệm hiệu quả cần được **tiêu chuẩn hóa** để so sánh được. Theo Cusolito và Maloney (2018), **năng suất lao động**, đo bằng giá trị gia tăng trên lao động hoặc doanh thu trên lao động, là thước đo phổ biến nhất trong các nghiên cứu WBES vì: (a) tính khả dụng cao xuyên 3 thế hệ schema; (b) ít bị biến dạng bởi cơ cấu vốn hay cơ chế thuế quốc gia; (c) phản ánh trực tiếp năng lực chuyển đổi đầu vào thành đầu ra. Trong chuyên đề này, năng suất lao động được tính bằng:
+Trong bối cảnh nghiên cứu xuyên quốc gia, khái niệm hiệu quả cần được **tiêu chuẩn hóa** để so sánh được. Theo Cusolito và Maloney (2018), **năng suất lao động**, đo bằng giá trị gia tăng trên lao động hoặc doanh thu trên lao động, là thước đo phổ biến nhất trong các nghiên cứu WBES vì: (a) tính khả dụng cao xuyên 3 thế hệ lược đồ; (b) ít bị biến dạng bởi cơ cấu vốn hay cơ chế thuế quốc gia; (c) phản ánh trực tiếp năng lực chuyển đổi đầu vào thành đầu ra. Trong chuyên đề này, năng suất lao động được tính bằng:
 
 **LP = ln(Doanh thu bán hàng hàng năm / Số lao động toàn thời gian)**
 
@@ -326,27 +326,27 @@ Hiệu quả doanh nghiệp trong chuyên đề này được đo lường theo 
 
 **Chiều 4, Đổi mới sáng tạo và cấu trúc doanh nghiệp**. Biến đo lường: (a) R&D (tỷ lệ doanh nghiệp có chi tiêu R&D dương); (b) đổi mới sản phẩm mới; (c) đổi mới quy trình mới; (d) chứng nhận ISO; (e) website (Tier-1 Sự hiện diện số cơ bản); (f) FDI ≥10% (cơ cấu sở hữu). Chiều thứ tư phản ánh **năng lực tương lai**, khả năng duy trì hiệu quả trong dài hạn qua đổi mới và nâng cấp công nghệ.
 
-#### 2.3.1.3 Năm meta-analysis lớn về quan hệ quốc tế hóa – hiệu quả (1980–2024)
+#### 2.3.1.3 Năm phân tích tổng hợp lớn về quan hệ quốc tế hóa – hiệu quả (1980–2024)
 
-Tài liệu về quan hệ quốc tế hóa – hiệu quả là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế. Năm meta-analysis lớn cung cấp nền tảng thực nghiệm:
+Tài liệu về quan hệ quốc tế hóa – hiệu quả là một trong những dòng nghiên cứu tích lũy nhiều nhất trong lý thuyết kinh doanh quốc tế. Năm phân tích tổng hợp lớn cung cấp nền tảng thực nghiệm:
 
 **(1) Bausch & Krist (2007)**: Tổng hợp **68 nghiên cứu** giai đoạn 1980–2005. Hệ số tương quan trung bình r=0,045, tích cực nhưng nhỏ. Phát hiện chính: đo lường quốc tế hóa và hiệu quả rất không đồng nhất giữa các nghiên cứu, hạn chế khả năng so sánh. Khoảng trống: ít nghiên cứu châu Á mới nổi.
 
-**(2) Kirca et al. (2012)**: Tổng hợp **154 mẫu** với phân tích điều tiết meta-analytic. Phát hiện: quan hệ quốc tế hóa – hiệu quả dương và có ý nghĩa thống kê; nhưng bị điều tiết bởi loại doanh nghiệp, phương thức đo lường, bối cảnh quốc gia. Quan trọng: các doanh nghiệp châu Á và các nền kinh tế mới nổi biểu hiện khuôn mẫu khác biệt so với doanh nghiệp OECD.
+**(2) Kirca et al. (2012)**: Tổng hợp **154 mẫu** với phân tích điều tiết phân tích tổng hợp. Phát hiện: quan hệ quốc tế hóa – hiệu quả dương và có ý nghĩa thống kê; nhưng bị điều tiết bởi loại doanh nghiệp, phương thức đo lường, bối cảnh quốc gia. Quan trọng: các doanh nghiệp châu Á và các nền kinh tế mới nổi biểu hiện khuôn mẫu khác biệt so với doanh nghiệp OECD.
 
-**(3) Marano et al. (2016)**: Tập trung vào thể chế hóa nghiên cứu quốc tế hóa – hiệu quả. Phát hiện: chất lượng thể chế nước chủ nhà là biến điều tiết quan trọng nhất, giải thích phần lớn phương sai không giải thích được trong các meta-analysis trước. Đặt nền tảng cho khung ICRV trong chuyên đề này.
+**(3) Marano et al. (2016)**: Tập trung vào thể chế hóa nghiên cứu quốc tế hóa – hiệu quả. Phát hiện: chất lượng thể chế nước chủ nhà là biến điều tiết quan trọng nhất, giải thích phần lớn phương sai không giải thích được trong các phân tích tổng hợp trước. Đặt nền tảng cho khung ICRV trong chuyên đề này.
 
 **(4) Schwens et al. (2018)**: Tổng hợp các yếu tố điều tiết mức độ tác động của quốc tế hóa. Phát hiện: năng lực hấp thụ (Cohen & Levinthal, 1990), chất lượng lãnh đạo, và phát triển thể chế là các biến điều tiết quan trọng nhất.
 
-**(5) Wu, Xu và Yang (2022)**: Cập nhật meta-analysis đến 2020, tập trung vào **doanh nghiệp đa quốc gia mới nổi châu Á**. Phát hiện: quan hệ quốc tế hóa – hiệu quả ở doanh nghiệp mới nổi châu Á có hình dạng U ngược rõ nét hơn so với doanh nghiệp OECD; điểm uốn thường nằm trong phạm vi 30–50% FSTS.
+**(5) Wu, Xu và Yang (2022)**: Cập nhật phân tích tổng hợp đến 2020, tập trung vào **doanh nghiệp đa quốc gia mới nổi châu Á**. Phát hiện: quan hệ quốc tế hóa – hiệu quả ở doanh nghiệp mới nổi châu Á có hình dạng U ngược rõ nét hơn so với doanh nghiệp OECD; điểm uốn thường nằm trong phạm vi 30–50% FSTS.
 
-**Khoảng trống từ 5 meta-analyses**: Không một meta-analysis nào trong số trên có dữ liệu WBES xuyên 50 nền kinh tế với phân loại ICRV 6 nhóm. Không có nghiên cứu nào phân biệt tường minh Tier-1 và Tier-2 áp dụng số như biến điều tiết riêng biệt. Khoảng trống này là nền tảng cho phần thảo luận về các khoảng trống nghiên cứu trong mục 2.3.9.
+**Khoảng trống từ 5 meta-analyses**: Không một phân tích tổng hợp nào trong số trên có dữ liệu WBES xuyên 50 nền kinh tế với phân loại ICRV 6 nhóm. Không có nghiên cứu nào phân biệt tường minh Tầng 1 và Tầng 2 áp dụng số như biến điều tiết riêng biệt. Khoảng trống này là nền tảng cho phần thảo luận về các khoảng trống nghiên cứu trong mục 2.3.9.
 
 #### 2.3.1.4 Ba khung lý thuyết nền
 
 Ba khung lý thuyết cung cấp nền tảng giải thích cho các khuôn mẫu thực trạng được quan sát:
 
-**Khung 1, Lý thuyết Uppsala** (Johanson & Vahlne, 1977, 2009): Doanh nghiệp quốc tế hóa theo **lộ trình tiệm tiến**, bắt đầu từ các thị trường gần về tâm lý rồi mở rộng dần. Phiên bản 2009 cập nhật: mạng lưới quan hệ kinh doanh thay thế khoảng cách tâm lý như cơ chế dẫn dắt. Hàm ý cho chuyên đề: (a) khuôn mẫu FSTS thấp ở SIDS Pacific (6,3%) và FSTS cao liên kết FDI ở Việt Nam (23,2%) phù hợp với đường cong học hỏi Uppsala; (b) các công cụ số theo Banalieva & Dhanaraj (2019) có thể rút ngắn lộ trình tiệm tiến ở giai đoạn đầu, nhưng cần Tier-2 để phát huy đầy đủ.
+**Khung 1, Lý thuyết Uppsala** (Johanson & Vahlne, 1977, 2009): Doanh nghiệp quốc tế hóa theo **lộ trình tiệm tiến**, bắt đầu từ các thị trường gần về tâm lý rồi mở rộng dần. Phiên bản 2009 cập nhật: mạng lưới quan hệ kinh doanh thay thế khoảng cách tâm lý như cơ chế dẫn dắt. Hàm ý cho chuyên đề: (a) khuôn mẫu FSTS thấp ở SIDS Pacific (6,3%) và FSTS cao liên kết FDI ở Việt Nam (23,2%) phù hợp với đường cong học hỏi Uppsala; (b) các công cụ số theo Banalieva & Dhanaraj (2019) có thể rút ngắn lộ trình tiệm tiến ở giai đoạn đầu, nhưng cần Tầng 2 để phát huy đầy đủ.
 
 **Khung 2, Quan điểm dựa trên nguồn lực và năng lực động** (Barney, 1991; Teece et al., 1997; Wernerfelt, 1984): Doanh nghiệp đạt lợi thế cạnh tranh bền vững thông qua nguồn lực VRIN và khả năng tái cấu hình năng lực theo biến động môi trường. Hàm ý cho chuyên đề: (a) TCI (năng lực công nghệ) là proxy cho nguồn lực khó sao chép, giải thích tại sao Advanced innovation-driven (ISO 32,5%, R&D 21,0%) có năng suất vượt trội; (b) năng lực hấp thụ (Cohen & Levinthal, 1990) giải thích tại sao tác động lan tỏa FDI tích cực hơn ở Ấn Độ với R&D 19,8% so với Việt Nam 6,1%.
 
@@ -381,13 +381,13 @@ Ba khung lý thuyết cung cấp nền tảng giải thích cho các khuôn mẫ
 | **Tier 3** | Tích hợp quy trình số | ERP, CRM | Không quan sát được |
 | **Tier 4** | Năng lực số động | AI, platform | Không quan sát được |
 
-**Tuyên bố ranh giới đo lường**: Dữ liệu WBES của chuyên đề (khung phân tích 88.869 DN / 50 nền, gồm Nhật Bản, dùng chung cho mô tả và ước lượng P7) quan sát Tier 1–2, không Tier 3–4. Mọi lập luận về "năng lực số" phải hạn chế ở phạm vi **Áp dụng số nền tảng (Foundational Digital Adoption, FDA)**.
+**Tuyên bố ranh giới đo lường**: Dữ liệu WBES của chuyên đề (khung phân tích 88.869 DN / 50 nền, gồm Nhật Bản, dùng chung cho mô tả và ước lượng P7) quan sát Tầng 1–2, không Tầng 3–4. Mọi lập luận về "năng lực số" phải hạn chế ở phạm vi **Áp dụng số nền tảng (Foundational Digital Adoption, FDA)**.
 
 **Mô hình Năng lực số phụ thuộc bối cảnh (CDCM)**, hợp nhất bằng chứng Singapore và Việt Nam:
 
 **(a) Hình dạng đường cong quốc tế hóa – hiệu quả**: Việt Nam sang U ngược, điểm uốn ≈ 39–46% FSTS; Singapore sang tuyến tính dương + bậc hai nhẹ, điểm uốn ≈ 88,6% FSTS (điểm uốn này nằm sát/ngoài miền dữ liệu với khoảng tin cậy bootstrap rất rộng, nên được diễn giải là quan hệ *tăng gần đơn điệu* trong miền quan sát chứ không phải một ngưỡng bất lợi đã định vị chắc chắn, nhất quán với diễn giải tại luận án Chương 4 Mục 4.3.1).
 
-**(b) Cơ chế DAI**: Việt Nam (Tier 1 = website only) sang **phụ thuộc giai đoạn**: tương tác DAI×FSTS âm ở FSTS cao, Tier 1 trở thành điểm nghẽn. Singapore (Tier 1+2) sang **mở rộng có điều kiện**: tương tác DAI×FSTS² dương mạnh (β=3,119, p=0,005), Tier 1+2 là đòn bẩy.
+**(b) Cơ chế DAI**: Việt Nam (Tier 1 = website only) sang **phụ thuộc giai đoạn**: tương tác DAI×FSTS âm ở FSTS cao, Tầng 1 trở thành điểm nghẽn. Singapore (Tier 1+2) sang **mở rộng có điều kiện**: tương tác DAI×FSTS² dương mạnh (β=3,119, p=0,005), Tầng 1+2 là đòn bẩy.
 
 **(c) Vai trò TCI**: Việt Nam, *lợi thế khan hiếm* (TCI z biến công cụ β=1,639, p<0,001, ước lượng 2SLS vững). Singapore, *yếu tố vệ sinh* nâng sàn năng suất nhưng không điều tiết đường cong quốc tế hóa – hiệu quả.
 
@@ -397,7 +397,7 @@ Ba khung lý thuyết cung cấp nền tảng giải thích cho các khuôn mẫ
 
 #### 2.3.2.1 Lý do phân loại
 
-Châu Á không phải là một khối đồng nhất về thể chế. Các meta-analysis (Marano et al., 2016; Wu et al., 2022) đã ghi nhận rằng bối cảnh thể chế là biến điều tiết quan trọng nhất trong quan hệ quốc tế hóa – hiệu quả, nhưng không có nghiên cứu nào thiết lập hệ thống phân loại thể chế toàn diện cho 50 nền kinh tế châu Á (khung mô tả). Khung phân loại ICRV (Institutional Context Regime Variation, Biến thiên chế độ bối cảnh thể chế) được đề xuất trong chuyên đề này nhằm lấp khoảng trống đó, dựa trên bốn nguyên tắc:
+Châu Á không phải là một khối đồng nhất về thể chế. Các phân tích tổng hợp (Marano et al., 2016; Wu et al., 2022) đã ghi nhận rằng bối cảnh thể chế là biến điều tiết quan trọng nhất trong quan hệ quốc tế hóa – hiệu quả, nhưng không có nghiên cứu nào thiết lập hệ thống phân loại thể chế toàn diện cho 50 nền kinh tế châu Á (khung mô tả). Khung phân loại ICRV (Institutional Context Regime Variation, Biến thiên chế độ bối cảnh thể chế) được đề xuất trong chuyên đề này nhằm lấp khoảng trống đó, dựa trên bốn nguyên tắc:
 
 (a) **Tính phân biệt**: mỗi nhóm phải có mô hình hiệu quả doanh nghiệp khác biệt thực sự, không chỉ khác nhau về mức GDP bình quân đầu người;
 
@@ -458,9 +458,9 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 
 #### 2.3.3.1 Nguồn dữ liệu và cấu trúc mẫu gộp
 
-**Phạm vi tổng hợp dữ liệu**. Mẫu gộp mô tả gồm **88.869 doanh nghiệp**, 50 nền kinh tế, **103 cặp nền kinh tế × năm**, giai đoạn 2006–2026 (bao gồm Kiribati 2025, đợt khảo sát WBES đầu tiên của nền kinh tế này). Tổng hợp này kế thừa và mở rộng từ mẫu gộp 17 nền châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026, VEFR), gấp hơn 2 lần. Phân bố theo nhóm ICRV: Nhóm IV Chuyển đổi TB-thấp 45.003 (50,6%), Nhóm V Đang nổi 18.957 (21,3%), Nhóm III Trung bình cao 13.993 (15,7%), Nhóm I Advanced đổi mới 6.390 (7,2%), Nhóm VI SIDS 2.295 (2,6%), Nhóm II Advanced tài nguyên 2.231 (2,5%). Có **13 nền kinh tế khảo sát năm 2025** với 16.880 doanh nghiệp (19,0% mẫu gộp, gồm Nhật Bản, đợt khảo sát đầu tiên, n=2.168); đợt khảo sát Nepal 2025 dùng bảng hỏi BREADY Micro (doanh nghiệp siêu nhỏ), không phải cross-section chuẩn nên không thuộc mẫu gộp, chỉ được nhắc đến như tham chiếu.
+**Phạm vi tổng hợp dữ liệu**. Mẫu gộp mô tả gồm **88.869 doanh nghiệp**, 50 nền kinh tế, **103 cặp nền kinh tế × năm**, giai đoạn 2006–2026 (bao gồm Kiribati 2025, đợt khảo sát WBES đầu tiên của nền kinh tế này). Tổng hợp này kế thừa và mở rộng từ mẫu gộp 17 nền châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026, VEFR), gấp hơn 2 lần. Phân bố theo nhóm ICRV: Nhóm IV Chuyển đổi TB-thấp 45.003 (50,6%), Nhóm V Đang nổi 18.957 (21,3%), Nhóm III Trung bình cao 13.993 (15,7%), Nhóm I Advanced đổi mới 6.390 (7,2%), Nhóm VI SIDS 2.295 (2,6%), Nhóm II Advanced tài nguyên 2.231 (2,5%). Có **13 nền kinh tế khảo sát năm 2025** với 16.880 doanh nghiệp (19,0% mẫu gộp, gồm Nhật Bản, đợt khảo sát đầu tiên, n=2.168); đợt khảo sát Nepal 2025 dùng bảng hỏi BREADY Micro (doanh nghiệp siêu nhỏ), không phải lát cắt ngang chuẩn nên không thuộc mẫu gộp, chỉ được nhắc đến như tham chiếu.
 
-![Hình 2.3.3.1. Phân bố mẫu gộp mô tả theo 3 thế hệ schema WBES.](figures/hinh_2_3_3_1.png)
+![Hình 2.3.3.1. Phân bố mẫu gộp mô tả theo 3 thế hệ lược đồ WBES.](figures/hinh_2_3_3_1.png)
 
 *Hình 2.3.3.1. Phân bố mẫu gộp mô tả 88.869 doanh nghiệp (2006–2026) theo 3 thế hệ schema WBES: PICS3 (2006–2012, 18 đợt, n=8.048), Standardized (2013–2017, 27 đợt, n=23.940), BREADY (2018–2026, 58 đợt, n=56.881). Các đợt 2024–2026 đóng góp 27.859 doanh nghiệp (31,3% mẫu gộp, 31 đợt), phản ánh chu kỳ khảo sát WBES dày lên rõ rệt sau đại dịch.*
 
@@ -491,7 +491,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các me
 
 *Hình 2.3.3.3. Đồ thị mật độ kernel của năng suất chuẩn hóa trong đợt cho 6 nhóm ICRV, Nhóm I hẹp nhất (P90/P10 ≈ 11,7 lần), Nhóm V rộng nhất (≈ 30 lần).*
 
-**Ba phát hiện từ phân tán trong đợt**: (1) **Gradient thể chế của phân tán là thực và đơn điệu theo hướng yếu dần của thể chế**: doanh nghiệp ở phân vị 90 năng suất gấp doanh nghiệp ở phân vị 10 khoảng **12 lần** tại Nhóm I, nhưng **25–30 lần** tại Nhóm III–V, nhất quán với giả thuyết phân bổ sai nguồn lực (Hsieh & Klenow, 2009, 2014), với lưu ý sd log năng suất lao động là proxy gián tiếp cho phân tán TFPR nên đây là bằng chứng mô tả phù hợp, không phải phân rã trực tiếp. (2) **So sánh mức giữa các nền kinh tế** dùng chỉ số không thứ nguyên **ROS** (tỷ suất sinh lời trên doanh thu, tính trên khung ước lượng của luận án): ROS trung vị giảm từ **0,50 (Nhóm I) rồi 0,45 (III) rồi 0,35 (IV)**; Nhóm V–VI có outlier mạnh nên chỉ đọc trung vị (V≈0,41; VI≈0,47), thể chế yếu đi kèm biên lợi nhuận mỏng hơn, nhất quán với Lý thuyết thể chế (chi phí giao dịch cao bào mòn biên). (3) Suy diễn về **điều tiết thể chế** trong quan hệ quốc tế hóa – hiệu quả được neo vào bằng chứng suy diễn ở meta-analysis của luận án ($Q_M=17{,}35$) và gradient điểm uốn xuyên nhóm ICRV của nghiên cứu đa quốc gia (P7), chứ không chỉ vào thống kê mô tả.
+**Ba phát hiện từ phân tán trong đợt**: (1) **Gradient thể chế của phân tán là thực và đơn điệu theo hướng yếu dần của thể chế**: doanh nghiệp ở phân vị 90 năng suất gấp doanh nghiệp ở phân vị 10 khoảng **12 lần** tại Nhóm I, nhưng **25–30 lần** tại Nhóm III–V, nhất quán với giả thuyết phân bổ sai nguồn lực (Hsieh & Klenow, 2009, 2014), với lưu ý sd log năng suất lao động là proxy gián tiếp cho phân tán TFPR nên đây là bằng chứng mô tả phù hợp, không phải phân rã trực tiếp. (2) **So sánh mức giữa các nền kinh tế** dùng chỉ số không thứ nguyên **ROS** (tỷ suất sinh lời trên doanh thu, tính trên khung ước lượng của luận án): ROS trung vị giảm từ **0,50 (Nhóm I) rồi 0,45 (III) rồi 0,35 (IV)**; Nhóm V–VI có outlier mạnh nên chỉ đọc trung vị (V≈0,41; VI≈0,47), thể chế yếu đi kèm biên lợi nhuận mỏng hơn, nhất quán với Lý thuyết thể chế (chi phí giao dịch cao bào mòn biên). (3) Suy diễn về **điều tiết thể chế** trong quan hệ quốc tế hóa – hiệu quả được neo vào bằng chứng suy diễn ở phân tích tổng hợp của luận án ($Q_M=17{,}35$) và gradient điểm uốn xuyên nhóm ICRV của nghiên cứu đa quốc gia (P7), chứ không chỉ vào thống kê mô tả.
 
 #### 2.3.3.3 Thực trạng quốc tế hóa và tăng trưởng việc làm
 
@@ -545,7 +545,7 @@ WBES tổ chức các chỉ số doanh nghiệp thành **5 lĩnh vực chính th
 
 Với dữ liệu đầy đủ 8/8 nền Nhóm VI, SIDS thể hiện khuôn mẫu **thích nghi và nhảy vọt số** rõ nét: tỷ lệ đổi mới sản phẩm **cao nhất mọi nhóm (34,2%)** phản ánh đổi mới bằng nguồn lực hạn chế, sáng tạo không chính thức bù đắp thiếu hụt nguồn lực; website 41,5% ngang nhóm Đang nổi dù GNI thấp hơn đáng kể. Gradient năng lực thể chế vẫn rõ ở các biến nền tảng: R&D giảm từ 20,5% (Nhóm I) xuống 10,2% (Nhóm VI); ISO 35,0% rồi 12,2%; website 61,7% rồi 41,5%. Phân tách rõ TCI so với DAI, kế thừa Đỗ & Phan (2026, VEFR).
 
-#### 2.3.4.3 Tái định hình Chỉ số áp dụng số: Tier-1 Sự hiện diện số cơ bản
+#### 2.3.4.3 Tái định hình Chỉ số áp dụng số: Tầng 1 Sự hiện diện số cơ bản
 
 Spec 1 (toàn bộ 2006–2026) dùng biến nhị phân duy nhất (website có/không). **Hệ quả phân tích đáng chú ý**: phần bù tương quan DAI ở Nhóm I là thấp nhất trong sáu nhóm (+0,090, Bảng 2.3.8.1), trong khi tỷ lệ có website ở nhóm này đã đạt 69,2%. Khi một chỉ báo nhị phân tiệm cận bão hòa, nó mất dần khả năng phân biệt năng suất: phương sai của biến co lại và phần doanh nghiệp "không website" còn lại ngày càng mang tính chọn lọc đặc thù (quy mô siêu nhỏ, ngành không cần hiện diện web), nên hệ số đo được phản ánh **giới hạn của thước đo Tier-1** nhiều hơn là giới hạn của số hóa.
 
@@ -606,7 +606,7 @@ Bốn rào cản này tạo ra bốn biến kiểm soát quan trọng cho Chuyê
 
 *¹ Δ R&D chỉ tính được cho Nhóm V: biến chi R&D (h8) không có trong các đợt 2006–2012 của Nhóm III, IV và VI. Nhóm I và II không có đợt khảo sát nào trước 2013 trong mẫu gộp nên không so sánh dọc được. ² Mức giảm R&D ở Nhóm V chủ yếu là hiệu ứng schema (BREADY đo R&D khác PICS3), không phản ánh suy giảm đầu tư thực.*
 
-**Nhảy vọt số** là xu hướng nổi bật nhất: website tăng +21 đến +31 điểm phần trăm ở Nhóm IV, V và VI, phù hợp luận điểm nhảy vọt số của Banalieva & Dhanaraj (2019). Ngược chiều, tỷ lệ doanh nghiệp xuất khẩu của Nhóm IV giảm 11,3 điểm phần trăm, chủ yếu do đứt gãy schema tại Ấn Độ 2025 (FSTS đo lường thấp hơn hệ thống) cộng hưởng với cấu trúc FDI lắp ráp; trong khi Nhóm III tăng 12,5 điểm phần trăm theo chuỗi giá trị toàn cầu. FDI giảm nhẹ phổ biến ở các nhóm IV–VI.
+**Nhảy vọt số** là xu hướng nổi bật nhất: website tăng +21 đến +31 điểm phần trăm ở Nhóm IV, V và VI, phù hợp luận điểm nhảy vọt số của Banalieva & Dhanaraj (2019). Ngược chiều, tỷ lệ doanh nghiệp xuất khẩu của Nhóm IV giảm 11,3 điểm phần trăm, chủ yếu do đứt gãy lược đồ tại Ấn Độ 2025 (FSTS đo lường thấp hơn hệ thống) cộng hưởng với cấu trúc FDI lắp ráp; trong khi Nhóm III tăng 12,5 điểm phần trăm theo chuỗi giá trị toàn cầu. FDI giảm nhẹ phổ biến ở các nhóm IV–VI.
 
 ![Hình 2.3.4.1. Δ điểm phần trăm 5 chỉ số giữa hai kỳ theo nhóm ICRV.](figures/hinh_2_3_4_1.png)
 
@@ -698,7 +698,7 @@ FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5
 
 **Bối cảnh hệ sinh thái 2025/2026**: Singapore xếp **hạng 2 toàn cầu** trong Innovators Business Environment Index 2026 (StartupBlink, 2026); hạng 4 toàn cầu trong Global Startup Ecosystem Index 2025 với tăng trưởng hệ sinh thái 44,9%; hạng 3 thế giới trong Khảo sát Chính phủ điện tử Liên Hiệp Quốc 2024. Sáng kiến **Smart Nation 2.0** (2024) với 3 trụ cột: Tin tưởng, Tăng trưởng, Cộng đồng.
 
-Hệ sinh thái Singapore vận hành ở Tier 3–4, vượt xa lớp DAI Tier 1–2 đo trong WBES. Đây là lý do **Nghịch lý bão hòa số (Digital Saturation Paradox)** xuất hiện: DAI cơ bản đã trở thành yếu tố vệ sinh, phần bù năng suất chỉ còn đo được ở nhóm xuất khẩu cường độ cao.
+Hệ sinh thái Singapore vận hành ở Tầng 3–4, vượt xa lớp DAI Tầng 1–2 đo trong WBES. Đây là lý do **Nghịch lý bão hòa số (Digital Saturation Paradox)** xuất hiện: DAI cơ bản đã trở thành yếu tố vệ sinh, phần bù năng suất chỉ còn đo được ở nhóm xuất khẩu cường độ cao.
 
 #### 2.3.7.2 Saudi Arabia, Qatar và Kuwait (Advanced tài nguyên dẫn dắt: n=1.632)
 
@@ -766,7 +766,7 @@ FSTS đình trệ 4–6% (5,8% rồi 3,9% rồi 4,2%); FDI ≥10% giảm **7,2% 
 
 #### 2.3.8.1 Hệ số tương quan Pearson
 
-Tương quan giữa năng suất và bốn yếu tố giải thích được tính trên năng suất chuẩn hóa z-score trong từng cặp nền kinh tế × năm (bất biến tiền tệ), gộp theo 6 nhóm ICRV của mẫu gộp mô tả.
+Tương quan giữa năng suất và bốn yếu tố giải thích được tính trên năng suất chuẩn hóa điểm z trong từng cặp nền kinh tế × năm (bất biến tiền tệ), gộp theo 6 nhóm ICRV của mẫu gộp mô tả.
 
 **Bảng 2.3.8.1**. *Hệ số tương quan Pearson giữa năng suất lao động chuẩn hóa (LP-z) và bốn yếu tố giải thích, theo nhóm ICRV (mẫu gộp mô tả 50 nền).*
 
@@ -777,11 +777,11 @@ Tương quan giữa năng suất và bốn yếu tố giải thích được tí
 | TCI (R&D + ISO) | +0,158\*\* | +0,187\*\* | **+0,240\*\*** | +0,141\*\* | +0,125\*\* | +0,117\*\* |
 | DAI (website) | +0,090\*\* | **+0,201\*\*** | +0,124\*\* | +0,180\*\* | +0,111\*\* | +0,092\*\* |
 
-*Ghi chú: \*\* p < 0,01; \* p < 0,05; ns = không có ý nghĩa thống kê (kiểm định hai phía). LP-z = z-score của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm; FDI ≥10% từ b2b; FSTS = d3b + d3c; TCI = trung bình hai thành phần R&D (h8) và ISO (b8); DAI = website (c22b). n theo nhóm: 5.661 / 2.082 / 10.138 / 40.508 / 15.669 / 1.715 (quan sát có LP hợp lệ). Hệ số tương quan Pearson, không áp dụng HC1; HC1 dành cho SE hồi quy ở Chuyên đề 2.*
+*Ghi chú: \*\* p < 0,01; \* p < 0,05; ns = không có ý nghĩa thống kê (kiểm định hai phía). LP-z = điểm z của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm; FDI ≥10% từ b2b; FSTS = d3b + d3c; TCI = trung bình hai thành phần R&D (h8) và ISO (b8); DAI = website (c22b). n theo nhóm: 5.661 / 2.082 / 10.138 / 40.508 / 15.669 / 1.715 (quan sát có LP hợp lệ). Hệ số tương quan Pearson, không áp dụng HC1; HC1 dành cho SE hồi quy ở Chuyên đề 2.*
 
-Sáu phát hiện chính: (1) **TCI là yếu tố tương quan mạnh và đồng đều nhất** ở mọi nhóm (+0,117 đến +0,240), năng lực công nghệ nền tảng là dịch chuyển mức phổ quát; (2) **gradient cường độ FSTS theo chiều thể chế**: tương quan xuất khẩu–năng suất giảm đơn điệu từ +0,139 (Nhóm I) qua +0,047 (IV) và +0,018 (V) xuống **mất ý nghĩa ở SIDS (−0,009 ns)**, tương quan thô của quốc tế hóa gần như biến mất ở thể chế yếu, gợi ý quan hệ phi tuyến và bị điều tiết thay vì tuyến tính phổ quát; (3) **SIDS là ngoại lệ duy nhất về dấu của FSTS**, phù hợp với giả thuyết chi phí buộc phải quốc tế hóa: doanh nghiệp SIDS xuất khẩu vì bắt buộc, không phải vì chọn lọc theo năng suất; (4) **FDI dương ở mọi nhóm**, mạnh hơn ở hai cực thể chế (Nhóm I +0,104 và SIDS +0,122), hai cơ chế khác nhau: MNE hub tại Advanced và FDI ngoại sinh tại SIDS; (5) **DAI dương ở mọi nhóm nhưng thấp nhất tại Nhóm I (+0,090)** trong khi cao nhất ở II và IV (+0,201; +0,180), phần bù của hiện diện số Tier-1 co lại nơi nó đã tiệm cận bão hòa (Nghịch lý bão hòa số ở dạng suy giảm lợi suất biên); (6) **biến thiên cường độ cross-regime có hệ thống**, thể chế điều tiết độ lớn (và cá biệt là dấu) của các cơ chế, nhất quán với Xu (2024).
+Sáu phát hiện chính: (1) **TCI là yếu tố tương quan mạnh và đồng đều nhất** ở mọi nhóm (+0,117 đến +0,240), năng lực công nghệ nền tảng là dịch chuyển mức phổ quát; (2) **gradient cường độ FSTS theo chiều thể chế**: tương quan xuất khẩu–năng suất giảm đơn điệu từ +0,139 (Nhóm I) qua +0,047 (IV) và +0,018 (V) xuống **mất ý nghĩa ở SIDS (−0,009 ns)**, tương quan thô của quốc tế hóa gần như biến mất ở thể chế yếu, gợi ý quan hệ phi tuyến và bị điều tiết thay vì tuyến tính phổ quát; (3) **SIDS là ngoại lệ duy nhất về dấu của FSTS**, phù hợp với giả thuyết chi phí buộc phải quốc tế hóa: doanh nghiệp SIDS xuất khẩu vì bắt buộc, không phải vì chọn lọc theo năng suất; (4) **FDI dương ở mọi nhóm**, mạnh hơn ở hai cực thể chế (Nhóm I +0,104 và SIDS +0,122), hai cơ chế khác nhau: MNE hub tại Advanced và FDI ngoại sinh tại SIDS; (5) **DAI dương ở mọi nhóm nhưng thấp nhất tại Nhóm I (+0,090)** trong khi cao nhất ở II và IV (+0,201; +0,180), phần bù của hiện diện số Tầng 1 co lại nơi nó đã tiệm cận bão hòa (Nghịch lý bão hòa số ở dạng suy giảm lợi suất biên); (6) **biến thiên cường độ cross-regime có hệ thống**, thể chế điều tiết độ lớn (và cá biệt là dấu) của các cơ chế, nhất quán với Xu (2024).
 
-**Cảnh báo schema BREADY 2025**: Bảng 2.3.8.1 có thể bị nhiễu hiệu ứng schema, cần kiểm chứng qua hệ thống phòng thủ ba tầng (Mục 2.2) trước khi suy diễn nhân quả.
+**Cảnh báo schema BREADY 2025**: Bảng 2.3.8.1 có thể bị nhiễu hiệu ứng lược đồ, cần kiểm chứng qua hệ thống phòng thủ ba tầng (Mục 2.2) trước khi suy diễn nhân quả.
 
 #### 2.3.8.2 Khuôn mẫu giới tính trong quản lý và sở hữu: EAP dẫn đầu toàn cầu
 
@@ -802,7 +802,7 @@ Bốn quan sát: (a) EAP paradox, quản lý dẫn đầu toàn cầu nhưng own
 
 Quan hệ giữa cường độ đầu tư số và năng suất có hình dạng phi tuyến, **đường cong U theo thời gian**, phù hợp với trễ công nghệ của David (1990) và nghịch lý năng suất của Brynjolfsson & McAfee (2014).
 
-**Giai đoạn 1** (năm 1–3): Sụt giảm ngắn hạn do chi phí thiết bị, đào tạo và gián đoạn quy trình. Bằng chứng gián tiếp: phần bù tương quan DAI thấp nhất tại Nhóm Advanced đổi mới (+0,090 so với +0,180–0,201 ở các nhóm chuyển đổi/tài nguyên), nơi Tier-1 đã tiệm cận bão hòa, lợi suất biên co lại; giai đoạn "sân khấu số" (Verhoef et al., 2021).
+**Giai đoạn 1** (năm 1–3): Sụt giảm ngắn hạn do chi phí thiết bị, đào tạo và gián đoạn quy trình. Bằng chứng gián tiếp: phần bù tương quan DAI thấp nhất tại Nhóm Advanced đổi mới (+0,090 so với +0,180–0,201 ở các nhóm chuyển đổi/tài nguyên), nơi Tầng 1 đã tiệm cận bão hòa, lợi suất biên co lại; giai đoạn "sân khấu số" (Verhoef et al., 2021).
 
 **Giai đoạn 2** (năm 3–5): Vùng chuyển tiếp. Ngưỡng: ≥ 3% doanh thu/năm × ≥ 3 năm liên tục. Dưới ngưỡng, phần bù năng suất không bù được chi phí cơ hội.
 
@@ -826,7 +826,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **(v) Quốc tế hóa là hiện tượng phân cực**: trung vị FSTS = 0%; chỉ khoảng 12–28% doanh nghiệp xuất khẩu tùy nhóm. Cần lựa chọn hai giai đoạn trong Chuyên đề 2.
 
-**(vi) Nhảy vọt số 2018–2026** ở các nhóm IV/V/VI (+21 đến +31 điểm phần trăm website). Phân biệt **Tier-1 Sự hiện diện số cơ bản** (tiệm cận bão hòa ở Advanced) và **Tier-2 Chuyển đổi số cơ bản** (đang phát triển). Phần bù tương quan DAI thấp nhất ở Nhóm I (+0,090) là dấu hiệu bão hòa Tier-1, xem kiểm định loại trừ ICT tại Mục 2.3.4.3.
+**(vi) Nhảy vọt số 2018–2026** ở các nhóm IV/V/VI (+21 đến +31 điểm phần trăm website). Phân biệt **Tier-1 Sự hiện diện số cơ bản** (tiệm cận bão hòa ở Advanced) và **Tier-2 Chuyển đổi số cơ bản** (đang phát triển). Phần bù tương quan DAI thấp nhất ở Nhóm I (+0,090) là dấu hiệu bão hòa Tầng 1, xem kiểm định loại trừ ICT tại Mục 2.3.4.3.
 
 **(vii) Khuôn mẫu phi tuyến FDI ≥10%**, dạng chữ U với cực tiểu ở Nhóm IV (3,1%): Advanced 10,6–13,6% sang Nhóm IV 3,1% sang SIDS 20,0%. Hai mô hình FDI: MNE hub (Advanced) và du lịch/viễn thông (SIDS).
 
@@ -842,7 +842,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **KT2, Phân nhóm con Advanced: innovation-driven so với resource-driven chưa được hệ thống hóa**: Nghiên cứu hiện hành (Bausch & Krist, 2007; Kirca et al., 2012) gộp tất cả OECD vào "phát triển". Bằng chứng Singapore so với Saudi Arabia/Qatar/Kuwait cho thấy hai phân nhóm có khuôn mẫu hoàn toàn khác nhau.
 
-**KT3, Xác nhận nhân quả Nghịch lý bão hòa số qua ước lượng biến công cụ**: Phần bù tương quan DAI suy giảm rõ ở Advanced (+0,090, thấp nhất sáu nhóm) có thể phản ánh: (a) bão hòa thực sự của Tier-1; (b) nhân quả ngược; (c) bias biến bỏ sót. Biến công cụ hợp lệ (độ phủ băng thông rộng) cần thiết để phân biệt.
+**KT3, Xác nhận nhân quả Nghịch lý bão hòa số qua ước lượng biến công cụ**: Phần bù tương quan DAI suy giảm rõ ở Advanced (+0,090, thấp nhất sáu nhóm) có thể phản ánh: (a) bão hòa thực sự của Tầng 1; (b) nhân quả ngược; (c) bias biến bỏ sót. Biến công cụ hợp lệ (độ phủ băng thông rộng) cần thiết để phân biệt.
 
 **KT4, Dị biệt theo thời gian ba giai đoạn 2006–2026 chưa được tổng hợp**: Bằng chứng từ kiểm định Paternoster cho thấy bất ổn định tham số quan trọng giữa ba giai đoạn.
 
@@ -870,7 +870,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **(3) Giao diện Đổi mới-Hiệu suất Nâng cao (AIPI)**: FSTS²×DAI = +3,119 tại Singapore gợi ý cơ chế mới, tại FSTS cao, doanh nghiệp cần DAI như "phối hợp kỹ thuật số xuyên biên giới" để quản lý độ phức tạp chuỗi giá trị toàn cầu. Cần kiểm định tại Advanced khác (Hàn Quốc, Đài Loan).
 
-**(4) Sân khấu số là thực tế đo lường ở cả hai chiều**: Tại Advanced, DAI Tier-1 là yếu tố vệ sinh bão hòa. Tại Emerging, DAI Tier-1 có thể là proxy lỗi thời, đo lường không còn phản ánh được cơ chế kinh tế thực.
+**(4) Sân khấu số là thực tế đo lường ở cả hai chiều**: Tại Advanced, DAI Tầng 1 là yếu tố vệ sinh bão hòa. Tại Emerging, DAI Tầng 1 có thể là proxy lỗi thời, đo lường không còn phản ánh được cơ chế kinh tế thực.
 
 **(5) Bối cảnh thể chế là tầng điều kiện, không phải yếu tố nền**: Biến thiên cường độ có hệ thống (và cá biệt là đổi dấu, FSTS tại SIDS) của các hệ số cross-regime không phải nhiễu mà là tín hiệu lý thuyết. Nghiên cứu kinh doanh quốc tế tương lai nên kiểm định hiệu ứng điều tiết theo nhóm ICRV trước khi báo cáo kích thước hiệu ứng trung bình.
 
@@ -878,13 +878,13 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **(1) Mẫu gộp WBES xuyên quốc gia như nền tảng dữ liệu cho kinh doanh quốc tế thị trường mới nổi**: Khung 50 nền với 88.869 doanh nghiệp / 103 cặp nền kinh tế × năm (gồm Nhật Bản; mẫu gộp phân loại 96.415 DN / 52 nền), dùng chung cho cả mô tả và ước lượng P7, là một trong những mẫu lớn nhất từ trước đến nay cho phân tích quốc tế hóa – hiệu quả toàn diện tại châu Á–Thái Bình Dương.
 
-**(2) Hệ thống phòng thủ ba tầng cho panel đa thế hệ là đóng góp phương pháp luận**: Ba tầng kiểm chứng, biến giả Post_BREADY_2024, kiểm định ổn định mô hình neo, panel hậu đại dịch độc lập, là giao thức có thể chuẩn hóa cho bất kỳ nghiên cứu dùng WBES với nhiều thế hệ schema.
+**(2) Hệ thống phòng thủ ba tầng cho panel đa thế hệ là đóng góp phương pháp luận**: Ba tầng kiểm chứng, biến giả Post_BREADY_2024, kiểm định ổn định mô hình neo, panel hậu đại dịch độc lập, là giao thức có thể chuẩn hóa cho bất kỳ nghiên cứu dùng WBES với nhiều thế hệ lược đồ.
 
 **(3) Winsorize trong cụm quốc gia × năm tốt hơn winsorize tổng thể**: Winsorize tổng thể bóp méo phân phối tại các nhóm phân tán rộng (Nhóm V: P90/P10 ~30 lần trong đợt). Winsorize trong cụm bảo tồn dị biệt cross-regime quan trọng về lý thuyết.
 
 **(4) HC1 robust SE như chuẩn mực cho hồi quy đa quốc gia WBES**: HC3 cần thiết cho mẫu con nhỏ (SIDS n < 200). HC1 là cân bằng tốt giữa hiệu suất ước lượng và độ bền vững cho mẫu đầy đủ.
 
-**(5) Chiến lược mô hình neo bảo vệ suy luận khi schema chuyển đổi**: 6 biến bất biến cross-schema (ln_employees, FSTS, ISO, innovate_product, website, ln_LP) cho phép so sánh hệ số cấu trúc giữa PICS3 và BREADY.
+**(5) Chiến lược mô hình neo bảo vệ suy luận khi schema chuyển đổi**: 6 biến bất biến cross-lược đồ (ln_employees, FSTS, ISO, innovate_product, website, ln_LP) cho phép so sánh hệ số cấu trúc giữa PICS3 và BREADY.
 
 ---
 
@@ -898,11 +898,11 @@ Tám kết luận từ 50 nền kinh tế châu Á – Thái Bình Dương (khun
 
 **KL2, TCI là dịch chuyển mức phổ quát, DAI là khuếch đại phụ thuộc bối cảnh**: TCI tương quan dương mạnh và đồng đều ở mọi nhóm; phần bù DAI biến thiên cường độ gấp đôi giữa các nhóm ICRV (+0,090 ở Advanced so với +0,201 ở Advanced tài nguyên), đây là nội hàm cốt lõi của CDCM.
 
-**KL3, Nghịch lý bão hòa số là cơ chế đo lường, không phải thất bại thị trường**: Phần bù DAI thấp nhất tại Advanced là hệ quả của đo lường Tier-1 trong bối cảnh Tier-2/3 đã được áp dụng rộng.
+**KL3, Nghịch lý bão hòa số là cơ chế đo lường, không phải thất bại thị trường**: Phần bù DAI thấp nhất tại Advanced là hệ quả của đo lường Tầng 1 trong bối cảnh Tầng 2/3 đã được áp dụng rộng.
 
 **KL4, Thể chế là biến điều tiết, không phải biến trung gian**: Gap de jure–de facto (Xu, 2024) giải thích biến thiên cường độ cross-regime của FDI và FSTS. Chính sách nâng cao thể chế hiệu quả nhất khi song hành với nâng cấp TCI và DAI.
 
-**KL5, Dị biệt theo thời gian ba giai đoạn là thực tế cấu trúc**: Hiệu ứng DAI mạnh hơn trong BREADY (sau tăng tốc số hóa hậu COVID-19). Hệ thống phòng thủ ba tầng đảm bảo kết luận không bị nhiễu schema.
+**KL5, Dị biệt theo thời gian ba giai đoạn là thực tế cấu trúc**: Hiệu ứng DAI mạnh hơn trong BREADY (sau tăng tốc số hóa hậu COVID-19). Hệ thống phòng thủ ba tầng đảm bảo kết luận không bị nhiễu lược đồ.
 
 **KL6, EAP dẫn đầu toàn cầu về nữ quản lý cấp cao (33,4%) nhưng khoảng cách sở hữu dai dẳng**: Trần kính ở lớp sở hữu chưa được phá vỡ dù management ceiling đang thu hẹp.
 
@@ -916,9 +916,9 @@ Tám kết luận từ 50 nền kinh tế châu Á – Thái Bình Dương (khun
 
 **(1) Sequencing năng lực trước, nâng cấp TCI trước khi mở rộng FSTS**: Hệ số TCI = 0,179 (nhân quả ước lượng biến công cụ, nghiên cứu Việt Nam) xác nhận: xuất khẩu chỉ tạo năng suất khi doanh nghiệp có năng lực công nghệ nền tảng. Chương trình hỗ trợ xuất khẩu cần song hành với nâng cấp TCI.
 
-**(2) Ưu tiên Tier-2 số cho SME Việt Nam**: Website 47% là điểm đầu vào; VietQR, TikTok Shop, Shopee Asia Pacific là Tier-1.5/Tier-2 thực tế hơn. Voucher AI Adoption (~50 triệu VND/doanh nghiệp) giúp vượt qua giai đoạn đầu tư ban đầu.
+**(2) Ưu tiên Tier-2 số cho SME Việt Nam**: Website 47% là điểm đầu vào; VietQR, TikTok Shop, Shopee Asia Pacific là Tầng 1.5/Tầng 2 thực tế hơn. Voucher AI Adoption (~50 triệu VND/doanh nghiệp) giúp vượt qua giai đoạn đầu tư ban đầu.
 
-**(3) Phân biệt FDI chiến lược với FDI lắp ráp**: FSTS suy giảm 23,2% rồi 16,1% phản ánh FDI lắp ráp tăng nhưng giá trị gia tăng nội địa thấp. Các chỉ tiêu cần theo dõi: tỷ lệ R&D/doanh thu, tỷ lệ nhà cung cấp nội địa Tier-1, bằng sáng chế đồng nộp.
+**(3) Phân biệt FDI chiến lược với FDI lắp ráp**: FSTS suy giảm 23,2% rồi 16,1% phản ánh FDI lắp ráp tăng nhưng giá trị gia tăng nội địa thấp. Các chỉ tiêu cần theo dõi: tỷ lệ R&D/doanh thu, tỷ lệ nhà cung cấp nội địa Tầng 1, bằng sáng chế đồng nộp.
 
 **(4) Tái định vị chuỗi giá trị toàn cầu: lắp ráp downstream sang thiết kế và R&D mid-stream**: Việt Nam ở điểm uốn (39–46%). Trung Quốc R&D 39,4% và điểm uốn cao hơn (47–49%) cho thấy: Sự chênh lệch điểm uốn giữa Trung Quốc (TP ~47–49%, Nhóm III) và Việt Nam (TP ~39–46%, Nhóm IV) phản ánh gradient ICRV, không phải gradient TCI. TCI nâng mặt bằng năng suất ở mọi mức FSTS (hiệu ứng level-shift) nhưng không trực tiếp quyết định vị trí điểm uốn, phân biệt hai cơ chế này là quan trọng cho hàm ý chính sách.
 
