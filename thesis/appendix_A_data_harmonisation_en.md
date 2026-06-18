@@ -58,7 +58,7 @@ reconstruction and audit (Page et al., 2021).
 | **S6** | Listwise analytic sample | Drop records missing the dependent variable or focal regressor | Analytic sample = **88,869** (50 economies, 103 economy-year pairs); M2 regression N = **81,022**; two-way-FE M5 = **79,080** |
 
 *Official counts from the dissertation's pooled file (`data_wbes/p7/p7_pooled_clean.csv`):
-106,765 firm-year records across 17 survey rounds, 2003–2025.*
+106,765 firm-year records across survey rounds spanning 2006–2026.*
 
 **Figure A.1.** *PRISMA-style WBES data-pooling flow.*
 

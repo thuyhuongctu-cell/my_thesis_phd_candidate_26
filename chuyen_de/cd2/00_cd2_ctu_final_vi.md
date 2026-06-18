@@ -197,7 +197,7 @@ Câu hỏi 3 (Q3): Tác động quốc tế hóa và hiệu quả và cơ chế 
 
 Phạm vi không gian: 50 nền kinh tế (gồm Nhật Bản) phân theo sáu nhóm ICRV (6+6+6+7+17+8).
 
-Phạm vi thời gian: 2009–2025 (kèm một đợt khảo sát Oman 2003 trong bộ dữ liệu hợp nhất), bao trùm ba thế hệ lược đồ WBES, tạo thành 103 cặp nền kinh tế–năm trên khung phân tích 50 nền (gồm Nhật Bản).
+Phạm vi thời gian: 2009–2026 (kèm đợt khảo sát Oman 2026 trong bộ dữ liệu hợp nhất), bao trùm ba thế hệ lược đồ WBES, tạo thành 103 cặp nền kinh tế–năm trên khung phân tích 50 nền (gồm Nhật Bản).
 
 Phạm vi nội dung: mô hình hóa quan hệ quốc tế hóa và hiệu quả và bốn cơ chế điều tiết cộng với tính không đồng nhất theo thời gian. Chuyên đề không trình bày kết quả thực nghiệm từ toàn bộ mẫu gộp, đó là nhiệm vụ của các bài báo tiếp theo trong chuỗi luận án. Chuyên đề này tập trung xây dựng và đặc tả mô hình.
 

@@ -47,7 +47,7 @@
 | **Meta-analysis k (P6)** | **k = 238** | ⚠️ CẦN hoàn tất search/extraction thật; đóng băng 1 giá trị/thống kê |
 | **P10 Nhật Bản** | FSTS tuyến tính +0,671***; bậc hai n.s.; phần bù xuất khẩu +0,258*** | N=2.168; xuất khẩu 16,8%; website 83,8%; tuổi 50,4; nữ QL 7,3% |
 | **P9 Ấn Độ** | N gộp = 28.717 (3 sóng) | 2014/2022/2025 |
-| **P5 Trung Quốc** | N gộp ≈ 4.559 | 2012/2024 |
+| **P5 Trung Quốc** | N gộp = 4.544 (2012: 2.610; 2024: 1.934) | 2012/2024 |
 
 ## 5. Tình trạng Nhật Bản trong ước lượng (SỬA quan niệm cũ)
 

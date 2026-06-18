@@ -45,7 +45,7 @@ Bốn bước Nhận diện, Sàng lọc, Đủ điều kiện và Đưa vào th
 
 ### 3.3.1 Nguồn dữ liệu
 
-Luận án sử dụng World Bank Enterprise Surveys cho **50 nền kinh tế châu Á và Thái Bình Dương** trong giai đoạn **2003–2025** (88.869 doanh nghiệp trong khung phân tích, 103 cặp nền kinh tế và năm; bao gồm Nhật Bản 2025; pool phân loại ICRV 96.415 doanh nghiệp/52 nhãn nền) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về cấp doanh nghiệp kết quả (Aterido et al., 2011). Quy trình hợp nhất và hài hòa hóa chi tiết các bộ khảo sát quốc gia–năm thành bộ dữ liệu phân tích thống nhất (sáu bước S1–S6, xử lý tính so sánh tiền tệ, chiến lược lát cắt ngang gộp với hiệu ứng cố định hai chiều, cùng dòng dữ liệu PRISMA và mã tái lập) được trình bày đầy đủ ở **Phụ lục A**.
+Luận án sử dụng World Bank Enterprise Surveys cho **50 nền kinh tế châu Á và Thái Bình Dương** trong giai đoạn **2006–2026** (88.869 doanh nghiệp trong khung phân tích, 103 cặp nền kinh tế và năm; bao gồm Nhật Bản 2025; pool phân loại ICRV 96.415 doanh nghiệp/52 nhãn nền) (World Bank, n.d., 2019, 2023, 2026). WBES là bộ dữ liệu doanh nghiệp chuẩn hóa, phù hợp cho nghiên cứu so sánh đa quốc gia về cấp doanh nghiệp kết quả (Aterido et al., 2011). Quy trình hợp nhất và hài hòa hóa chi tiết các bộ khảo sát quốc gia–năm thành bộ dữ liệu phân tích thống nhất (sáu bước S1–S6, xử lý tính so sánh tiền tệ, chiến lược lát cắt ngang gộp với hiệu ứng cố định hai chiều, cùng dòng dữ liệu PRISMA và mã tái lập) được trình bày đầy đủ ở **Phụ lục A**.
 
 **Cơ sở kế thừa**: WBES đã được sử dụng rộng rãi trong nghiên cứu IB về thị trường mới nổi (Ayyagari et al., 2011; Cuervo-Cazurra et al., 2018; Chen & Meng, 2022), đồng thời đã được sử dụng trong bài nghiên cứu thực trạng châu Á mới nổi với 17 nền kinh tế và ~40.633 quan sát doanh nghiệp (nghiên cứu thành phần P1).
 
@@ -451,7 +451,7 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 
 ---
 
-### 3.4.5.4 Mô hình cụ thể: Nghiên cứu 7 (Đa quốc gia châu Á, WBES 2003–2025)
+### 3.4.5.4 Mô hình cụ thể: Nghiên cứu 7 (Đa quốc gia châu Á, WBES 2006–2026)
 
 Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **50 nền kinh tế châu Á và Thái Bình Dương** (103 cặp nền kinh tế × năm, 2006–2026, gồm Nhật Bản 2025). Mẫu phân tích đạt N = 81.022 (M2) đến N = 79.080 (M5 với kiểm soát đầy đủ). Thiết kế hồi quy hiệu ứng cố định hai chiều (nền kinh tế và năm) với sai số chuẩn cụm theo nền kinh tế. Ký hiệu tiếng Việt:
 
