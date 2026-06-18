@@ -87,7 +87,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Sample | 218 effect sizes, 186 studies, EMNEs | 50 economies (including Japan) WBES + meta-analysis + SIDS |
 | Theory | Government quality moderates EMNE I-P | Multi-tier framework (4 layers + digital lens) |
 | Contribution | EMNE-specific moderation | **Asian-specific + extreme boundary cases** |
-| Time period | 1998–2021 | 1982–2026 (extended) |
+| Time period | 1998–2021 | 1977–2026 (extended) |
 
 **Điểm khác biệt**: Wu focus EMNEs broadly; NCS focus **Asia + Pacific** với **boundary cases** Pacific SIDS (Wu không cover).
 
@@ -97,7 +97,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 |---|---|---|
 | Sample | 154 samples, 47,849 firms | 50 economies (including Japan) WBES |
 | Method | Meta-analytic review | Mixed methodology |
-| Time period | 1977–2009 | 1982–2026 |
+| Time period | 1977–2009 | 1977–2026 |
 | Contribution | Context-dependent I-P | **Context-conditional** I-P (stronger claim) |
 
 **Điểm khác biệt**: Kirca established context-dependent; NCS extended sang context-conditional với sign reversal evidence.
@@ -106,7 +106,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 | Khía cạnh | Cuervo-Cazurra et al. (2018) | NCS dissertation |
 |---|---|---|
-| Sample | 218 firms, Colombia EMNEs, 2006–2012 | 50 economies (including Japan) WBES, 1982–2026 |
+| Sample | 218 firms, Colombia EMNEs, 2006–2012 | 50 economies (including Japan) WBES, 1977–2026 |
 | Method | Single-country panel | **Multi-country mixed methodology** |
 | Theory | Home country uncertainty + capability | **4-tier framework + digital lens + Forced Penalty** |
 
@@ -140,7 +140,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Khía cạnh | Lu & Beamish | NCS dissertation |
 |---|---|---|
 | Country focus | Japan single | Asian + Pacific multi-country |
-| Time | 1986–1997 | 1982–2026 (5 decades) |
+| Time | 1986–1997 | 1977–2026 (5 decades) |
 | Theory contribution | S-curve hypothesis | **Conditional inverted-U + Forced Penalty** |
 | Sample | Up to 1,489 Japanese firms | Up to 30,000+ firms across regions |
 
@@ -152,7 +152,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 |---|---|---|
 | Country | India 269 firms | India + 35 other |
 | Theory | Three-stage S-curve in EMNE | **Multi-tier including extreme boundary** |
-| Time | 1994–2003 | 1982–2026 |
+| Time | 1994–2003 | 1977–2026 |
 
 ## 3.3 Hitt, Hoskisson, & Kim (1997) — *Academy of Management Journal*
 
@@ -185,7 +185,7 @@ Tìm kiếm ProQuest Dissertations + JIBS + AMJ archives cho "internationalizati
 |---|---|---|
 | **# papers** | 1–3 | **11 component papers (P1–P11)** |
 | **# countries** | 1 (Asian focus) | **50 (including Japan)** |
-| **Time span** | 5–10 years | **1982–2026 (44 years)** |
+| **Time span** | 5–10 years | **1977–2026 (49 years)** |
 | **Method** | Single | **Mixed: meta + multi-country + boundary case** |
 | **Theory** | 1–2 frameworks | **4 layers + digital lens** |
 | **Boundary cases** | Hiếm có | **Pacific SIDS (Forced Penalty)** |
@@ -217,7 +217,7 @@ Tìm trong cơ sở dữ liệu Luận án CTU, NEU, UEH, Foreign Trade Universi
 | **Institutional gradient** | Yếu | Yếu | Yếu | Không | Một biến | Không | Không | **Full ICRV Regime I–V (6-regime CD2; 5-regime P3/P6)** |
 | **Boundary condition test** | Không | Không | Không | Không | Không | Không | Không | **Forced Penalty** |
 | **Multi-method** | Single (meta) | Single (meta) | Single (meta) | Single | Single | Single (panel) | Single | **Mixed (meta + empirical + boundary)** |
-| **Time span** | 40 years | 23 years | 32 years | 21 years | 6 years | 11 years | 5–9 years | **44 years (1982–2026)** |
+| **Time span** | 40 years | 23 years | 32 years | 21 years | 6 years | 11 years | 5–9 years | **49 years (1977–2026)** |
 
 # 7. Talking points cho buổi demo GVHD
 

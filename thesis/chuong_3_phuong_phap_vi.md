@@ -18,13 +18,13 @@ Luận án sử dụng **thiết kế hỗn hợp tổng hợp–thực nghiệm
 
 ### 3.1.2 Quy trình nghiên cứu
 
-Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và phân tích tổng hợp trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành phân tích tổng hợp cập nhật 1982–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **50 nền kinh tế châu Á và Thái Bình Dương** sau khi hòa hợp 3 thế hệ lược đồ (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết. Toàn bộ quy trình và quan hệ bổ sung hai chiều giữa hai giai đoạn được trình bày ở Hình 3.1.
+Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứu từ tổng quan và phân tích tổng hợp trước đây; (ii) xây dựng khung lý thuyết tích hợp đa tầng và hệ giả thuyết H1–H6; (iii) tiến hành phân tích tổng hợp cập nhật 1977–2026; (iv) thu thập và chuẩn hóa dữ liệu WBES cho **50 nền kinh tế châu Á và Thái Bình Dương** sau khi hòa hợp 3 thế hệ lược đồ (PICS3, Standardized, BREADY/BEE); (v) ước lượng mô hình thực nghiệm theo bối cảnh quốc gia và đa quốc gia; (vi) kiểm định độ vững và tích hợp kết quả để đóng góp lý thuyết. Toàn bộ quy trình và quan hệ bổ sung hai chiều giữa hai giai đoạn được trình bày ở Hình 3.1.
 
 ![](figures/fig_3_1_research_process.png)
 
 **Hình 3.1.** *Quy trình nghiên cứu của luận án.* Mũi tên liền thể hiện trình tự thực hiện; mũi tên hai chiều thể hiện quan hệ bổ sung giữa hai giai đoạn (phân tích tổng hợp gợi ý biến điều tiết cần kiểm định; phân tích thực nghiệm cung cấp bằng chứng châu Á và Thái Bình Dương cho phân tích tổng hợp). *Nguồn: tác giả xây dựng.*
 
-## 3.2 Giai đoạn 1: Phân tích tổng hợp 1982–2026
+## 3.2 Giai đoạn 1: Phân tích tổng hợp 1977–2026
 
 ### 3.2.1 Cơ sở kế thừa
 
@@ -32,7 +32,7 @@ phân tích tổng hợp trong IB đã được thiết lập vững chắc qua 
 
 ### 3.2.2 Đóng góp mới/điều chỉnh
 
-- **Mở rộng coverage time**: từ 1977–2022 (bài ICBEF 2025) sang **1982–2026**, bổ sung các nghiên cứu 2023–2026 liên quan đến chuyển đổi số và doanh nghiệp đa quốc gia thị trường mới nổi.
+- **Mở rộng coverage time**: từ 1977–2022 (bài ICBEF 2025) sang **1977–2026**, bổ sung các nghiên cứu 2023–2026 liên quan đến chuyển đổi số và doanh nghiệp đa quốc gia thị trường mới nổi.
 - **Mở rộng biến điều tiết coverage**: thêm cụm biến điều tiết về năng lực số và 6 chế độ con ICRV, chưa được xem xét đầy đủ trong các các phân tích tổng hợp trước.
 - **Tập tổng hợp**: K=288 cỡ ảnh hưởng / k=238 nghiên cứu, được xây dựng theo chiến lược tìm kiếm hệ thống nhưng có giới hạn (neo theo trích dẫn: quét trích dẫn xuôi và ngược từ 5 phân tích tổng hợp mỏ neo, bổ sung bằng cơ sở dữ liệu), báo cáo theo biến thể PRISMA 2020 "studies identified via other methods"; mở rộng so với bản nền ICBEF 2025 (K=200 / k=113).
 - **Subgroup theo châu Á và Pacific**: tách riêng nhóm nghiên cứu về doanh nghiệp châu Á và Pacific để cung cấp cơ sở trực tiếp cho giai đoạn thực nghiệm, đối chiếu với mẫu gộp 17 nước trong nghiên cứu thành phần P1.
@@ -698,7 +698,7 @@ Nguyên tắc tương tự áp dụng cho các kết quả điều tiết không
 | Thành phần | Cơ sở kế thừa | Đóng góp mới |
 |---|---|---|
 | Thiết kế hỗn hợp | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **50 nền kinh tế châu Á + Thái Bình Dương** trong một luận án |
-| phân tích tổng hợp 1982–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng phạm vi, bổ sung digital và 6 chế độ con ICRV moderators |
+| phân tích tổng hợp 1977–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng phạm vi, bổ sung digital và 6 chế độ con ICRV moderators |
 | Mẫu thực nghiệm gộp | nghiên cứu thành phần P1, 17 nền kinh tế châu Á mới nổi | Mở rộng từ 17 lên **50 nền kinh tế**, 103 cặp nền kinh tế và năm (gồm Nhật Bản 2025) |
 | Biến phụ thuộc năng suất lao động | Bloom et al. (2012); Hsieh & Klenow (2009); nghiên cứu thành phần P1 | Lập luận rõ về hiệu quả doanh nghiệp đa chiều trong bối cảnh WBES |
 | FSTS + FSTS² | Lu & Beamish (2004); Hitt et al. (1997); nghiên cứu thành phần P2 và P5 | Đưa vào cùng khung điều tiết ba chiều |

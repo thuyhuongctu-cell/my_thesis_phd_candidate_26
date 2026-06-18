@@ -194,7 +194,7 @@ Phát hiện lệch lạc công bố này có một hàm ý lý thuyết quan tr
 
 Cấu trúc ba tầng của mô hình MARA cho phép quy phương sai hệ thống về đúng nguồn gốc của nó thay vì gộp chung như mô hình hiệu ứng ngẫu nhiên một tầng. Hai thành phần phương sai ước lượng bằng REML là phương sai trong nghiên cứu $\hat{\sigma}^2_{(2)} = 0{,}00878$ và phương sai giữa các nghiên cứu $\hat{\sigma}^2_{(3)} = 0{,}00136$. Phương sai trong nghiên cứu lớn gấp khoảng sáu lần phương sai giữa các nghiên cứu, một tỷ lệ trực tiếp chuyển thành phần dị biệt $I^2_{(2)} = 54{,}1\%$ áp đảo phần $I^2_{(3)} = 8{,}4\%$ đã trình bày ở Mục 4.2.2. Kiểm định Cochran tổng cho $Q = 1.909{,}42$ ($df = 287$, $p < {,}001$), bác bỏ giả thuyết đồng nhất một cách rõ ràng và do đó biện minh cho lựa chọn mô hình hiệu ứng ngẫu nhiên ba tầng.
 
-Hàm ý phương pháp luận của phân rã này khác biệt căn bản so với một báo cáo $I^2$ tổng đơn thuần. Vì biến thiên hệ số chủ yếu phát sinh từ những lựa chọn vận hành hóa bên trong cùng một bài báo, cụ thể là cách đo lường cường độ quốc tế hóa (tỷ lệ doanh thu xuất khẩu trên tổng doanh thu, chỉ số entropy, số thị trường nước ngoài), cách chọn thước đo hiệu quả (dựa trên kế toán, dựa trên thị trường, dựa trên năng suất) và đặc tả biến kiểm soát, nên việc bổ sung thêm các nghiên cứu sơ cấp mới khó có khả năng thu hẹp dị biệt nếu các nghiên cứu đó tiếp tục báo cáo nhiều hệ số không đồng nhất cho cùng một mẫu. Mô hình hai tầng quy ước (ước lượng DerSimonian–Laof) cho cùng giá trị điểm $r = 0{,}074$ với khoảng tin cậy $[0{,}061;\ 0{,}087]$, xác nhận rằng việc bỏ qua cấu trúc lồng ghép không làm chệch ước lượng gộp mà chỉ làm mất thông tin về nguồn dị biệt. Đây là lý do trung tâm để luận án ưu tiên bằng chứng cấp doanh nghiệp trên một khung phân loại thể chế nhất quán hơn là tiếp tục tích lũy phân tích tổng hợp trên dữ liệu thứ cấp không đồng nhất.
+Hàm ý phương pháp luận của phân rã này khác biệt căn bản so với một báo cáo $I^2$ tổng đơn thuần. Vì biến thiên hệ số chủ yếu phát sinh từ những lựa chọn vận hành hóa bên trong cùng một bài báo, cụ thể là cách đo lường cường độ quốc tế hóa (tỷ lệ doanh thu xuất khẩu trên tổng doanh thu, chỉ số entropy, số thị trường nước ngoài), cách chọn thước đo hiệu quả (dựa trên kế toán, dựa trên thị trường, dựa trên năng suất) và đặc tả biến kiểm soát, nên việc bổ sung thêm các nghiên cứu sơ cấp mới khó có khả năng thu hẹp dị biệt nếu các nghiên cứu đó tiếp tục báo cáo nhiều hệ số không đồng nhất cho cùng một mẫu. Mô hình hai tầng quy ước (ước lượng DerSimonian–Laird) cho cùng giá trị điểm $r = 0{,}074$ với khoảng tin cậy $[0{,}061;\ 0{,}087]$, xác nhận rằng việc bỏ qua cấu trúc lồng ghép không làm chệch ước lượng gộp mà chỉ làm mất thông tin về nguồn dị biệt. Đây là lý do trung tâm để luận án ưu tiên bằng chứng cấp doanh nghiệp trên một khung phân loại thể chế nhất quán hơn là tiếp tục tích lũy phân tích tổng hợp trên dữ liệu thứ cấp không đồng nhất.
 
 ### 4.2.6 Gradient hiệu ứng theo nhóm thể chế và giới hạn của bằng chứng định hướng
 
@@ -336,9 +336,9 @@ Nghiên cứu thành phần P2 cung cấp một kiểm định độc lập về
 
 ### 4.5.1 Xác nhận quan hệ phi tuyến và hệ số hồi quy
 
-Phân tích hồi quy bảng (panel regression) trên ba làn sóng khảo sát WBES Việt Nam (2009, 2015, 2023) xác nhận dạng phi tuyến chữ U ngược. Mô hình M4, mô hình chính, cho kết quả:
+Phân tích hồi quy bảng (panel regression) trên ba làn sóng khảo sát WBES Việt Nam (2009, 2015, 2023) xác nhận dạng phi tuyến chữ U ngược. Mô hình M2, mô hình phi tuyến chính (mẫu gộp, $N = 2.958$), cho kết quả:
 
-$$\hat{\beta}(\text{FSTS}_c) = +0{,}431, \quad \hat{\beta}(\text{FSTS}_c^2) = -0{,}553$$
+$$\hat{\beta}(\text{FSTS}_c) = +0{,}984, \quad \hat{\beta}(\text{FSTS}_c^2) = -1{,}909$$
 
 Cả hai hệ số đều có ý nghĩa thống kê, với hệ số bậc nhất dương và bậc hai âm xác nhận đường cong chữ U ngược. Kiểm định hình thức bằng phương pháp Lind–Mehlum (U-test) cho kết quả $p < {,}001$, bằng chứng thống kê mạnh nhất trong tất cả các mẫu quốc gia của luận án.
 
@@ -357,11 +357,11 @@ Cả hai hệ số đều có ý nghĩa thống kê, với hệ số bậc nhấ
 
 ### 4.5.3 Điều tiết bởi TCI: Tích cực và có ý nghĩa
 
-Mô hình M6 với tương tác $FSTS \times TCI$ cho kết quả **dương và có ý nghĩa thống kê**: TCI làm nâng cao mặt bằng hiệu quả và khuếch đại tác động tích cực của quốc tế hóa. Doanh nghiệp Việt Nam có năng lực công nghệ tốt hơn (đo bằng TCI) đạt hiệu quả cao hơn từ quá trình quốc tế hóa, nhất quán với H2 trong khung lý thuyết CDCM.
+Mô hình M3 với tương tác $FSTS \times TCI$ cho kết quả **dương và có ý nghĩa thống kê**: TCI làm nâng cao mặt bằng hiệu quả và khuếch đại tác động tích cực của quốc tế hóa. Doanh nghiệp Việt Nam có năng lực công nghệ tốt hơn (đo bằng TCI) đạt hiệu quả cao hơn từ quá trình quốc tế hóa, nhất quán với H2 trong khung lý thuyết CDCM.
 
 ### 4.5.4 Điều tiết bởi DAI: Không có ý nghĩa
 
-Mô hình M5 với tương tác $FSTS \times DAI$ (chỉ bao gồm Tầng 1 DAI do giới hạn đo lường WBES trong các làn sóng này) cho kết quả yếu dương nhưng không có ý nghĩa thống kê. Kết quả này có thể phản ánh hạn chế về đo lường: Tầng 1 DAI chỉ nắm bắt mức độ chấp nhận số bề mặt (website, email, online sales) chứ không đo lường được chiều sâu năng lực số. Với dữ liệu WBES Việt Nam chỉ cung cấp Tầng 1, không đủ phân biệt để phát hiện hiệu ứng điều tiết tinh tế hơn.
+Mô hình M4 với tương tác $FSTS \times DAI$ (chỉ bao gồm Tầng 1 DAI do giới hạn đo lường WBES trong các làn sóng này) cho kết quả yếu dương nhưng không có ý nghĩa thống kê. Kết quả này có thể phản ánh hạn chế về đo lường: Tầng 1 DAI chỉ nắm bắt mức độ chấp nhận số bề mặt (website, email, online sales) chứ không đo lường được chiều sâu năng lực số. Với dữ liệu WBES Việt Nam chỉ cung cấp Tầng 1, không đủ phân biệt để phát hiện hiệu ứng điều tiết tinh tế hơn.
 
 ### 4.5.5 Bộ hệ số đầy đủ theo làn sóng và quỹ đạo điều tiết
 
@@ -607,7 +607,7 @@ Hiệu ứng tuyến tính của cường độ xuất khẩu lên năng suất 
 |---|--:|--:|--:|--:|--:|
 | FSTS (định tâm) | +0,671\*\*\* | +1,042\*\* | +0,872\* | +0,476 | +0,486 |
 | FSTS² | — | −0,606 (ns) | (ns) | (ns) | (ns) |
-| Điểm uốn đại số | — | [90,1%] | [108%] | ngoài miền | ngoài miền |
+| Điểm uốn đại số | — | [90,1%] | [108,3%] | ngoài miền | ngoài miền |
 | Bổ sung kiểm soát | nền | +bậc hai | +nhân khẩu | +TCI/DAI | +tương tác |
 
 *Ghi chú: sai số chuẩn vững HC1. \* $p<0{,}05$; \*\* $p<0{,}01$; \*\*\* $p<0{,}001$; (ns) không có ý nghĩa thống kê. Không đặc tả nào có FSTS² âm có ý nghĩa nên không xác nhận chữ U ngược (Lind & Mehlum, 2010). Độ vững với d3c riêng: $\beta_1 = +1{,}255$\*\*; $\beta_2 = -0{,}674$ ($p = 0{,}445$), cùng kết luận. Nguồn: P10, `p10_japan/replication/`.*
