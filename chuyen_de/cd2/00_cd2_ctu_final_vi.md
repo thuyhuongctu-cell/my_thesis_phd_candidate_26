@@ -161,7 +161,7 @@ Khung lý thuyết hiện hành về quan hệ quốc tế hóa và hiệu quả
 
 Kết quả phân tích mô tả trong Chuyên đề Tiến sĩ số 1 đã cung cấp bức tranh thực trạng đa chiều dựa trên 88.869 doanh nghiệp WBES xuyên 50 nền kinh tế (gồm Nhật Bản), làm rõ ba khuôn mẫu then chốt: phân tán năng suất tăng đơn điệu theo chế độ từ Nhóm I đến Nhóm VI; tính không đồng nhất nội bộ trong nhóm Advanced; và khuôn mẫu adaptation đặc trưng của các quốc đảo nhỏ Thái Bình Dương. Đồng thời, phân tích đó phát hiện CDCM, Mô hình Áp dụng số và Năng lực phụ thuộc bối cảnh: tác động của DAI lên hiệu quả phụ thuộc vào chế độ thể chế, giai đoạn quốc tế hóa, và mức độ bão hòa số của nền kinh tế. Chuyên đề 2 này tiếp nối bằng cách xây dựng mô hình lý thuyết và thực nghiệm để giải thích cơ chế đằng sau các khuôn mẫu đó.
 
-Bốn bản thảo thực nghiệm đồng hành cung cấp bằng chứng quốc gia cụ thể kiểm định khả năng của khung đề xuất. P2 Trung Quốc SMEs (Đỗ & Phan, 2026, JFAR đã công bố) phân tích 4.290 quan sát doanh nghiệp và năm thuộc các doanh nghiệp nhỏ và vừa Trung Quốc và tìm thấy dạng chữ U ngược bậc hai với điểm uốn tối ưu 47,8% FSTS, cung cấp tiền thân thực nghiệm cho H1 và cơ sở để so sánh với P5. P3 Việt Nam (Đỗ & Phan, 2026, JABS đang phản biện) phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với điểm uốn 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp); TCI nhân quả qua biến công cụ (β = 1,639, F bậc một = 22,1); DAI theo giai đoạn và phụ thuộc chọn lựa (IV null, β = 0,018). P4 Singapore (Mar, Đỗ & Phan, 2026, MIR đang phản biện) phân tích 623 doanh nghiệp WBES 2023, cho thấy điểm uốn hàm ý ở FSTS khoảng 88,6% và DAI hoạt động như nguồn lực mở rộng tình huống với hệ số DAI×FSTS² = +3,119 (p = 0,005). P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM đang phản biện) phân tích 4.544 doanh nghiệp WBES hai sóng (2012, 2024) xác nhận chữ U ngược bền vững cấu trúc với điểm uốn 49,4% (2012) và 47,2% (2024); kết quả này nhất quán với bằng chứng trước đó về quan hệ quốc tế hóa và hiệu quả và hiệu ứng vùng miền ở doanh nghiệp Trung Quốc (Chen & Tan, 2012; Xiao et al., 2013).
+Bốn bản thảo thực nghiệm đồng hành cung cấp bằng chứng quốc gia cụ thể kiểm định khả năng của khung đề xuất. P2 Trung Quốc SMEs (Đỗ & Phan, 2026c, JFAR đã công bố) phân tích 4.290 quan sát doanh nghiệp và năm thuộc các doanh nghiệp nhỏ và vừa Trung Quốc và tìm thấy dạng chữ U ngược bậc hai với điểm uốn tối ưu 47,8% FSTS, cung cấp tiền thân thực nghiệm cho H1 và cơ sở để so sánh với P5. P3 Việt Nam (Đỗ & Phan, 2026a, JABS đang phản biện) phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với điểm uốn 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp); TCI nhân quả qua biến công cụ (β = 1,639, F bậc một = 22,1); DAI theo giai đoạn và phụ thuộc chọn lựa (IV null, β = 0,018). P4 Singapore (Mar, Đỗ & Phan, 2026, MIR đang phản biện) phân tích 623 doanh nghiệp WBES 2023, cho thấy điểm uốn hàm ý ở FSTS khoảng 88,6% và DAI hoạt động như nguồn lực mở rộng tình huống với hệ số DAI×FSTS² = +3,119 (p = 0,005). P5 Trung Quốc (Đỗ & Phan, 2026b, IJOEM đang phản biện) phân tích 4.544 doanh nghiệp WBES hai sóng (2012, 2024) xác nhận chữ U ngược bền vững cấu trúc với điểm uốn 49,4% (2012) và 47,2% (2024); kết quả này nhất quán với bằng chứng trước đó về quan hệ quốc tế hóa và hiệu quả và hiệu ứng vùng miền ở doanh nghiệp Trung Quốc (Chen & Tan, 2012; Xiao et al., 2013).
 
 #### 2.1.2 Mục tiêu
 
@@ -274,20 +274,20 @@ Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết c
 | Marano et al. (2016) | Có (TP ±15% FSTS) | ✗ | ✗ | ✗ | Có (cốt lõi) | ✗ | ✗ | ✗ |
 | Banalieva & Dhanaraj (2019) | Partial | ✗ | Có (cốt lõi) | ✗ | Partial | Partial | ✗ | ✗ |
 | Wu, Wood & Khan (2022) | Có (TP thấp hơn EMNE) | Partial (absorptive capacity) | ✗ | ✗ | Có | Có (20 năm) | Có (EMNE/DMNE) | ✗ |
-| Đỗ & Phan (2026, JFAR) | Có (chữ U ngược bậc hai) | – | – | – | – | – | – | – |
+| Đỗ & Phan (2026c, JFAR) | Có (chữ U ngược bậc hai) | – | – | – | – | – | – | – |
 | **CĐ2 (luận án này)** | **Có (H1: chữ U ngược + S-curve)** | **Có (H2: nhân quả IV)** | **Có (H3: CDCM phân biệt)** | **Có (H4a–H4c)** | **Có (H5: ICRV 6 nhóm)** | **Có (H6: 3 giai đoạn)** | **Có (Nhóm I–VI)** | **Có (Nhóm VI FIP)** |
 
 *Ghi chú: "Có" = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; ✗ = không bao gồm; – = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
 
 ##### Bằng chứng châu Á từ ba bản thảo đồng hành
 
-P3 Việt Nam (Đỗ & Phan, 2026, JABS đang phản biện): Phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với kiểm định Lind–Mehlum p < 0,001 (tổng hợp). Điểm uốn: 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp). P3 phân tách H1 thành hai mệnh đề: bước nhảy từ không xuất khẩu sang xuất khẩu là biên năng suất chính (nhất quán với mô hình chọn lọc năng suất xuất khẩu của Melitz, 2003); trong mẫu chỉ gồm doanh nghiệp xuất khẩu, đường cong gần phẳng. TCI (b8+e6) dương bền vững (β = 0,179 tổng hợp, p < 0,001); biến công cụ cho TCI nhân quả (β = 1,639, F bậc một = 22,1). DAI phụ thuộc giai đoạn, dương năm 2009 (β = 0,175), null năm 2015, có tương tác âm năm 2023 (FSTS_c×DAI_z = −0,912, p = 0,043); biến công cụ cho DAI null (β = 0,018, p = 0,942, F bậc một = 34,6), phụ thuộc chọn lựa, không nhân quả.
+P3 Việt Nam (Đỗ & Phan, 2026a, JABS đang phản biện): Phân tích 2.958 doanh nghiệp WBES ba sóng (2009, 2015, 2023) xác nhận chữ U ngược trong cả ba sóng với kiểm định Lind–Mehlum p < 0,001 (tổng hợp). Điểm uốn: 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp). P3 phân tách H1 thành hai mệnh đề: bước nhảy từ không xuất khẩu sang xuất khẩu là biên năng suất chính (nhất quán với mô hình chọn lọc năng suất xuất khẩu của Melitz, 2003); trong mẫu chỉ gồm doanh nghiệp xuất khẩu, đường cong gần phẳng. TCI (b8+e6) dương bền vững (β = 0,179 tổng hợp, p < 0,001); biến công cụ cho TCI nhân quả (β = 1,639, F bậc một = 22,1). DAI phụ thuộc giai đoạn, dương năm 2009 (β = 0,175), null năm 2015, có tương tác âm năm 2023 (FSTS_c×DAI_z = −0,912, p = 0,043); biến công cụ cho DAI null (β = 0,018, p = 0,942, F bậc một = 34,6), phụ thuộc chọn lựa, không nhân quả.
 
 *Lưu ý về đặc tả mô hình P3: P3 Vietnam sử dụng chuỗi M0–M8 riêng, trong đó M8 là mô hình đầy đủ: lnLP_it = α + β₁ FSTS_c + β₂ FSTS_c² + β₃ TCI_z + β₄ DAI_z + β₅(FSTS_c × DAI_z) + β₆(FSTS_c² × DAI_z) + γ·X + δ_s + [λ_t] + ε_it. Đặc tả đầy đủ M0–M8 và bảng định nghĩa biến được trình bày trong bản thảo P3 (Mục 3.2–Mục 3.3) và luận án (Mục 4.5.1). Chuỗi M0–M7 trong Chuyên đề 2 là các mô hình cấp độ mẫu gộp 50 nền kinh tế, khác với đặc tả cấp độ quốc gia của P3.*
 
 P4 Singapore (Mar, Đỗ & Phan, 2026, MIR đang phản biện): Phân tích 623 doanh nghiệp WBES 2023. Trong nền kinh tế số bão hòa, đường cong quốc tế hóa và hiệu quả chủ yếu dương, điểm uốn hàm ý ở FSTS khoảng 88,6% (vùng thưa dữ liệu; kiểm định Lind–Mehlum p = 0,303). DAI×FSTS² = +3,119 (p = 0,005), DAI là nguồn lực mở rộng tình huống, chỉ phát huy ở FSTS cao nơi nhu cầu điều phối xuyên biên giới dày đặc. TCI dương trực tiếp (β = 0,153).
 
-P5 Trung Quốc (Đỗ & Phan, 2026, IJOEM đang phản biện): Phân tích 4.544 doanh nghiệp WBES hai sóng (2012, 2024). Chữ U ngược bền vững cấu trúc, điểm uốn 49,4% (2012), 47,2% (2024), kiểm định Paternoster cho hệ số FSTS² không có sự khác biệt đáng kể (p = 0,545). TCI tăng cường theo thời gian (+0,260 sang +0,426, Paternoster p = 0,011).
+P5 Trung Quốc (Đỗ & Phan, 2026b, IJOEM đang phản biện): Phân tích 4.544 doanh nghiệp WBES hai sóng (2012, 2024). Chữ U ngược bền vững cấu trúc, điểm uốn 49,4% (2012), 47,2% (2024), kiểm định Paternoster cho hệ số FSTS² không có sự khác biệt đáng kể (p = 0,545). TCI tăng cường theo thời gian (+0,260 sang +0,426, Paternoster p = 0,011).
 
 Bảng 2.3. So sánh bằng chứng bốn bản thảo đồng hành.
 
@@ -301,7 +301,7 @@ Bảng 2.3. So sánh bằng chứng bốn bản thảo đồng hành.
 | Temporal | Cắt ngang (không temporal) | Paternoster p < 0,001 (dịch chuyển) | Cắt ngang 2023 | Paternoster p = 0,545 (ổn định) |
 | Mô hình CDCM | Tiền thân (chưa tách TCI/DAI) | Nhóm IV, trung gian | Nhóm I, bão hòa số | Nhóm III, đang trưởng thành |
 
-*Ghi chú: P2 (Đỗ & Phan, 2026, JFAR) là bản thảo tiền thân đã công bố, tìm thấy quan hệ chữ U ngược bậc hai (điểm uốn 47,8% FSTS, mẫu 4.290 quan sát doanh nghiệp–năm) trong nhóm doanh nghiệp nhỏ và vừa Trung Quốc, là bằng chứng nền tảng cho dạng phi tuyến trong H1. P2 không kiểm định CDCM, được đưa vào đây để làm rõ sự tiến hóa phương pháp từ P2 sang P5.*
+*Ghi chú: P2 (Đỗ & Phan, 2026c, JFAR) là bản thảo tiền thân đã công bố, tìm thấy quan hệ chữ U ngược bậc hai (điểm uốn 47,8% FSTS, mẫu 4.290 quan sát doanh nghiệp–năm) trong nhóm doanh nghiệp nhỏ và vừa Trung Quốc, là bằng chứng nền tảng cho dạng phi tuyến trong H1. P2 không kiểm định CDCM, được đưa vào đây để làm rõ sự tiến hóa phương pháp từ P2 sang P5.*
 
 Bốn bản thảo cùng xác nhận ba dự đoán cốt lõi của CDCM: TCI là nhân quả và bền vững qua ba nền kinh tế khác nhau; DAI là phụ thuộc ngữ cảnh, không đồng nhất; chữ U ngược bậc hai là dạng hàm phổ biến nhất cho doanh nghiệp vừa và nhỏ châu Á với điểm uốn phụ thuộc vào ICRV.
 
@@ -949,11 +949,11 @@ Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. *
 
 Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank. https://doi.org/10.1596/978-1-4648-1334-4
 
-Đỗ, T. H., & Phan, A. T. (2026). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Bản thảo đang phản biện]. *Journal of Asia Business Studies*. [P3, Việt Nam]
+Đỗ, T. H., & Phan, A. T. (2026a). *Revisiting the internationalisation–performance relationship in an emerging market: The roles of technological capability and foundational digital adoption* [Bản thảo đang phản biện]. *Journal of Asia Business Studies*. [P3, Việt Nam]
 
-Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Bản thảo đang phản biện]. *International Journal of Emerging Markets*. [P5, Trung Quốc]
+Đỗ, T. H., & Phan, A. T. (2026b). *Technological capability, digital adoption, and internationalization performance in China: Evidence from two WBES waves* [Bản thảo đang phản biện]. *International Journal of Emerging Markets*. [P5, Trung Quốc]
 
-Đỗ, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. [P2, Trung Quốc SMEs, đã công bố]
+Đỗ, T. H., & Phan, A. T. (2026c). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. [P2, Trung Quốc SMEs, đã công bố]
 
 Dubin, R. (1978). *Theory building* (Rev. ed.). Free Press.
 
@@ -1005,11 +1005,11 @@ Lu, J. W., & Beamish, P. W. (2004). International diversification and firm perfo
 
 Luo, Y., & Tung, R. L. (2007). International expansion of emerging market enterprises: A springboard perspective. *Journal of International Business Studies, 38*(4), 481–498.
 
-Mar, K. S., Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and the internationalization–performance relationship: A firm-level study of Singapore* [Bản thảo đang phản biện]. *Management International Review*. [P4, Singapore]
+Mar, T. T., Đỗ, T. H., & Phan, A. T. (2026). *Technological capability, digital adoption, and the internationalization–performance relationship: A firm-level study of Singapore* [Bản thảo đang phản biện]. *Management International Review*. [P4, Singapore]
 
-Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963 *(DOI cần xác minh Crossref)*
+Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
 
-Mathews, J. A. (2002). Dragon multinationals: Towards a new model of global growth. *Oxford University Press*.
+Mathews, J. A. (2002). *Dragon multinationals: Towards a new model of global growth*. Oxford University Press.
 
 Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725.
 
@@ -1098,11 +1098,11 @@ Tổng: 6 + 6 + 6 + 7 + 17 + 8 = 50 nền kinh tế.
 
 ### Phụ lục B: Tóm tắt ba bản thảo đồng hành
 
-P3, Việt Nam (JABS, đang phản biện): Đỗ, T. H., & Phan, A. T. (2026). Phân tích 2.958 doanh nghiệp WBES ba sóng 2009/2015/2023. Kết quả chính: chữ U ngược xác nhận (Lind–Mehlum p < 0,001 tổng hợp); điểm uốn 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp); TCI nhân quả (β = 1,639, F bậc một = 22,1); DAI phụ thuộc chọn lựa (β_IV = 0,018, F bậc một = 34,6); Paternoster z = 3,353 giữa điểm uốn 2009 và 2015 (p < 0,001).
+P3, Việt Nam (JABS, đang phản biện): Đỗ, T. H., & Phan, A. T. (2026a). Phân tích 2.958 doanh nghiệp WBES ba sóng 2009/2015/2023. Kết quả chính: chữ U ngược xác nhận (Lind–Mehlum p < 0,001 tổng hợp); điểm uốn 46,2% (2009), 39,3% (2015), 41,6% (2023), 39,7% (tổng hợp); TCI nhân quả (β = 1,639, F bậc một = 22,1); DAI phụ thuộc chọn lựa (β_IV = 0,018, F bậc một = 34,6); Paternoster z = 3,353 giữa điểm uốn 2009 và 2015 (p < 0,001).
 
-P4, Singapore (MIR, đang phản biện): Mar, K. S., Đỗ, T. H., & Phan, A. T. (2026). Phân tích 623 doanh nghiệp WBES 2023. Kết quả chính: đường cong I–P chủ yếu dương; điểm uốn hàm ý ~88,6% (vùng thưa dữ liệu; Lind–Mehlum p = 0,303); DAI×FSTS² = +3,119 (p = 0,005), DAI là nguồn lực mở rộng tình huống; TCI β = 0,153.
+P4, Singapore (MIR, đang phản biện): Mar, T. T., Đỗ, T. H., & Phan, A. T. (2026). Phân tích 623 doanh nghiệp WBES 2023. Kết quả chính: đường cong I–P chủ yếu dương; điểm uốn hàm ý ~88,6% (vùng thưa dữ liệu; Lind–Mehlum p = 0,303); DAI×FSTS² = +3,119 (p = 0,005), DAI là nguồn lực mở rộng tình huống; TCI β = 0,153.
 
-P5, Trung Quốc (IJOEM, đang phản biện): Đỗ, T. H., & Phan, A. T. (2026). Phân tích 4.544 doanh nghiệp WBES hai sóng 2012/2024. Kết quả chính: chữ U ngược bền vững cấu trúc, điểm uốn 49,4% (2012), 47,2% (2024), Paternoster FSTS² p = 0,545 (không có sự khác biệt đáng kể); TCI tăng cường theo thời gian (+0,260 sang +0,426, Paternoster p = 0,011).
+P5, Trung Quốc (IJOEM, đang phản biện): Đỗ, T. H., & Phan, A. T. (2026b). Phân tích 4.544 doanh nghiệp WBES hai sóng 2012/2024. Kết quả chính: chữ U ngược bền vững cấu trúc, điểm uốn 49,4% (2012), 47,2% (2024), Paternoster FSTS² p = 0,545 (không có sự khác biệt đáng kể); TCI tăng cường theo thời gian (+0,260 sang +0,426, Paternoster p = 0,011).
 
 ### Phụ lục C: Quy ước báo cáo thống kê
 

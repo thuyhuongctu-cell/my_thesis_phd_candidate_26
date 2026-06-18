@@ -177,7 +177,7 @@ Adopting multidimensional descriptive statistics, charts, cross-country–cross-
 
 Khu vực châu Á đã trở thành động lực tăng trưởng của kinh tế thế giới trong gần hai thập niên qua. Theo Asian Development Bank (ADB, 2024), châu Á đóng góp khoảng 60% tăng trưởng GDP toàn cầu giai đoạn 2010–2023, với tổng quy mô kinh tế chiếm xấp xỉ 40% GDP toàn cầu (World Bank, 2024). Bên trong khu vực, hiệu quả hoạt động của doanh nghiệp, đơn vị tế bào của nền kinh tế, là yếu tố quyết định mức độ chuyển hoá tăng trưởng quốc gia thành thịnh vượng và năng lực cạnh tranh dài hạn (Cusolito & Maloney, 2018). Vì vậy, đánh giá thực trạng hiệu quả hoạt động kinh doanh của doanh nghiệp ở châu Á có ý nghĩa lý luận lẫn chính sách.
 
-Bức tranh hiệu quả doanh nghiệp châu Á 2006–2026 được định hình bởi **bảy lớp bối cảnh đan xen**. Bốn lớp đầu gồm: hậu khủng hoảng tài chính toàn cầu 2008–2009; tái cấu trúc chuỗi giá trị toàn cầu sau chiến tranh thương mại Mỹ–Trung 2018 (UNCTAD, 2023); đại dịch COVID-19 2020–2022 (World Bank, 2023); và làn sóng chuyển đổi số tăng tốc từ 2018 (Verhoef et al., 2021; Banalieva & Dhanaraj, 2019). Lớp thứ năm là **giai đoạn AI bùng nổ và củng cố hậu COVID 2023–2025** (Stallkamp & Schotter, 2021). **Lớp thứ sáu là xung đột Trung Đông 2026**, IMF (2026, tháng 4) điều chỉnh giảm tăng trưởng toàn cầu xuống 3,1% năm 2026; ADB (2026, tháng 4) dự báo Pacific 3,4%, Đông Nam Á 4,7%, Việt Nam 7,0%. Riêng Việt Nam, ADB (2026, tháng 4) ghi nhận GDP lịch sử 2025 đạt 8,0% và cập nhật dự báo 7,2% (2026) rồi 7,0% (2027). **Lớp thứ bảy là bất định chính sách thuế quan Mỹ 2026**, Mỹ chiếm xấp xỉ 30% tổng kim ngạch xuất khẩu Việt Nam; thuế toàn cầu 10% tạm thời tạo áp lực kép: hiệu ứng front-loading ngắn hạn và trì hoãn đầu tư dài hạn. **Lưu ý thời điểm**: Lớp bối cảnh thứ sáu và thứ bảy (các sự kiện 2026) phần lớn nằm *ngoài* cửa sổ dữ liệu của chuyên đề (các đợt khảo sát WBES từ 2006 đến đầu 2026); chúng được nêu để định khung diễn giải vĩ mô và định hướng chính sách, chứ không phản ánh trong các thống kê mô tả.
+Bức tranh hiệu quả doanh nghiệp châu Á 2006–2026 được định hình bởi **bảy lớp bối cảnh đan xen**. Bốn lớp đầu gồm: hậu khủng hoảng tài chính toàn cầu 2008–2009; tái cấu trúc chuỗi giá trị toàn cầu sau chiến tranh thương mại Mỹ–Trung 2018 (UNCTAD, 2023); đại dịch COVID-19 2020–2022 (World Bank, 2023); và làn sóng chuyển đổi số tăng tốc từ 2018 (Verhoef et al., 2021; Banalieva & Dhanaraj, 2019). Lớp thứ năm là **giai đoạn AI bùng nổ và củng cố hậu COVID 2023–2025** (Stallkamp & Schotter, 2021). **Lớp thứ sáu là xung đột Trung Đông 2026**, IMF (2026, tháng 4) điều chỉnh giảm tăng trưởng toàn cầu xuống 3,1% năm 2026; ADB (2026a) dự báo Pacific 3,4%, Đông Nam Á 4,7%, Việt Nam 7,0%. Riêng Việt Nam, ADB (2026a) ghi nhận GDP lịch sử 2025 đạt 8,0% và cập nhật dự báo 7,2% (2026) rồi 7,0% (2027). **Lớp thứ bảy là bất định chính sách thuế quan Mỹ 2026**, Mỹ chiếm xấp xỉ 30% tổng kim ngạch xuất khẩu Việt Nam; thuế toàn cầu 10% tạm thời tạo áp lực kép: hiệu ứng front-loading ngắn hạn và trì hoãn đầu tư dài hạn. **Lưu ý thời điểm**: Lớp bối cảnh thứ sáu và thứ bảy (các sự kiện 2026) phần lớn nằm *ngoài* cửa sổ dữ liệu của chuyên đề (các đợt khảo sát WBES từ 2006 đến đầu 2026); chúng được nêu để định khung diễn giải vĩ mô và định hướng chính sách, chứ không phản ánh trong các thống kê mô tả.
 
 Trong bối cảnh đó, hệ thống thông tin về hiệu quả doanh nghiệp châu Á còn phân mảnh. World Bank Enterprise Surveys (WBES) là cơ sở dữ liệu vi mô tin cậy nhất hiện có (World Bank Enterprise Surveys, 2025). Đỗ và Phan (2026, VEFR) đã mở rộng phạm vi WBES đến 17 nền kinh tế châu Á mới nổi với ~40.633 doanh nghiệp. Tuy nhiên, vẫn còn ít tổng hợp xuyên **50 nền kinh tế** trên một giai đoạn dài. Chuyên đề này lấp khoảng trống thực tiễn đó với **mẫu gộp mô tả gồm 88.869 doanh nghiệp, 103 cặp nền kinh tế × năm (2006–2026)**, gấp hơn 2 lần phạm vi của Đỗ & Phan (2026, VEFR), và khung phân loại thống nhất với bộ dữ liệu ước lượng của luận án (88.869 doanh nghiệp / 50 nền, gồm Nhật Bản; mẫu gộp phân loại 96.415 DN / 52 nền).
 
@@ -391,7 +391,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ph
 
 #### 2.3.2.2 Tiêu chí phân loại sáu nhóm
 
-**Nhóm I, Advanced đổi mới sáng tạo dẫn dắt**: WGI Rule of Law >+0,80; GNI bình quân đầu người >30.000 USD (phương pháp Atlas, theo ngưỡng phân loại thu nhập FY2026 của World Bank, 2025a); GDP tăng trưởng dựa trên đổi mới công nghệ, dịch vụ tài chính và hàm lượng tri thức cao. Bằng chứng WBES: R&D >10%, ISO >20%, độ lệch chuẩn log năng suất trong đợt thấp nhất sáu nhóm (~1,00, phân tán hẹp, ít phân bổ sai).
+**Nhóm I, Advanced đổi mới sáng tạo dẫn dắt**: WGI Rule of Law >+0,80; GNI bình quân đầu người >30.000 USD (phương pháp Atlas, theo ngưỡng phân loại thu nhập FY2026 của World Bank, 2025b); GDP tăng trưởng dựa trên đổi mới công nghệ, dịch vụ tài chính và hàm lượng tri thức cao. Bằng chứng WBES: R&D >10%, ISO >20%, độ lệch chuẩn log năng suất trong đợt thấp nhất sáu nhóm (~1,00, phân tán hẹp, ít phân bổ sai).
 
 **Nhóm II, Advanced tài nguyên dẫn dắt**: WGI Rule of Law trung bình (+0,00 sang +0,50); GNI bình quân đầu người >20.000 USD; GDP tăng trưởng dựa trên xuất khẩu tài nguyên thiên nhiên (dầu mỏ, khí đốt, khoáng sản). Bằng chứng WBES: FDI cao hướng khai thác tài nguyên; phân tán năng suất trong đợt thấp ở các nền lớn nhất khối (Saudi Arabia 0,49; Qatar 0,33, đặc trưng nhà nước tô san bằng phân phối).
 
@@ -699,7 +699,7 @@ FSTS 23,2% rồi 17,9% rồi 16,1% (suy giảm theo thời gian); doanh nghiệp
 
 **Bối cảnh 2026, ADB Vietnam Economic Outlook**: Việt Nam dự phóng GDP **7,2% (2026) / 7,0% (2027)**, vượt ASEAN 4,6%. Bốn động lực: (a) cam kết FDI 2,4 tỷ USD với 18 dự án chiến lược; (b) năng suất lao động +5,1% trong giai đoạn 2026–2027; (c) khoản vay ADB dựa trên chính sách 2,4 tỷ USD nhắm mục tiêu SME nội địa; (d) tái định vị trong chuỗi giá trị toàn cầu từ lắp ráp downstream sang thiết kế và R&D mid-stream.
 
-**World Bank FCI Snapshot (2025)**: GDP tăng trưởng 7,09% (2024), FDI 20,17 tỷ USD (4,23% GDP), xuất khẩu máy móc và điện tử 45,8% tổng xuất khẩu, tỷ lệ nữ/nam lao động 88,61% (2023). Báo cáo *Taking Stock* tháng 9/2025 nhấn mạnh nhân lực công nghệ cao là nút thắt để Việt Nam dịch chuyển từ lắp ráp sang thiết kế và R&D (World Bank, 2025b), nhất quán với hàm ý sequencing năng lực (TCI trước FSTS) của chuyên đề; snapshot kinh tế Data360 xác nhận vị thế thu nhập trung bình thấp với GNI bình quân 4.180 USD năm 2023, đúng ngưỡng Nhóm IV của khung ICRV (World Bank, 2026).
+**World Bank FCI Snapshot (2025)**: GDP tăng trưởng 7,09% (2024), FDI 20,17 tỷ USD (4,23% GDP), xuất khẩu máy móc và điện tử 45,8% tổng xuất khẩu, tỷ lệ nữ/nam lao động 88,61% (2023). Báo cáo *Taking Stock* tháng 9/2025 nhấn mạnh nhân lực công nghệ cao là nút thắt để Việt Nam dịch chuyển từ lắp ráp sang thiết kế và R&D (World Bank, 2025a), nhất quán với hàm ý sequencing năng lực (TCI trước FSTS) của chuyên đề; snapshot kinh tế Data360 xác nhận vị thế thu nhập trung bình thấp với GNI bình quân 4.180 USD năm 2023, đúng ngưỡng Nhóm IV của khung ICRV (World Bank, 2026).
 
 #### 2.3.7.4 Trung Quốc (mẫu phân tích của nghiên cứu Trung Quốc n=4.544; mẫu gộp mô tả gồm đợt 2024, n=2.189)
 
@@ -713,7 +713,7 @@ FSTS 8,2%; FDI ≥10% chiếm 3,5%; tỷ lệ doanh nghiệp R&D dương 16,5%. 
 
 #### 2.3.7.6 Mông Cổ: từ lời nguyền tài nguyên đến khoáng sản thiết yếu (n=1.082, 3 đợt 2009/2013/2019)
 
-FSTS đình trệ 4–6% (5,8% rồi 3,9% rồi 4,2%); FDI ≥10% giảm **7,2% rồi 4,2%**; website dao động 39–49%. Khuôn mẫu **lời nguyền tài nguyên** (Sachs & Warner, 2001). **Bước ngoặt 2026**: 11 khoáng sản thiết yếu (Cu, Li, Mo, Mn, Co, Ni, W, REE). Xuất khẩu đồng 1,69 triệu tấn (2024) = 22,1% tổng xuất khẩu. Oyu Tolgoi mục tiêu 500.000 tấn/năm 2028–2036. Trung Quốc chi phối chế biến: 100% graphite, 90% Mn, 70% Co (ADB, 2026, tháng 5).
+FSTS đình trệ 4–6% (5,8% rồi 3,9% rồi 4,2%); FDI ≥10% giảm **7,2% rồi 4,2%**; website dao động 39–49%. Khuôn mẫu **lời nguyền tài nguyên** (Sachs & Warner, 2001). **Bước ngoặt 2026**: 11 khoáng sản thiết yếu (Cu, Li, Mo, Mn, Co, Ni, W, REE). Xuất khẩu đồng 1,69 triệu tấn (2024) = 22,1% tổng xuất khẩu. Oyu Tolgoi mục tiêu 500.000 tấn/năm 2028–2036. Trung Quốc chi phối chế biến: 100% graphite, 90% Mn, 70% Co (ADB, 2026a).
 
 ![Hình 2.3.7.1. Mông Cổ: tiến triển 2009–2019.](figures/hinh_2_3_7_1.png)
 
@@ -948,9 +948,9 @@ Tám kiểm định độ bền vững bắt buộc cho Chuyên đề 2:
 
 ADB. (2024). *Asian development outlook 2024: Strengthening climate resilience*. Asian Development Bank.
 
-ADB. (2026, tháng 4). *Asian development outlook April 2026: The Middle East conflict challenges resilience in Asia and the Pacific*. Asian Development Bank.
+ADB. (2026a, tháng 4). *Asian development outlook April 2026: The Middle East conflict challenges resilience in Asia and the Pacific*. Asian Development Bank.
 
-ADB. (2026). *Vietnam economic outlook 2026: Navigating the crosscurrents*. Asian Development Bank.
+ADB. (2026b). *Vietnam economic outlook 2026: Navigating the crosscurrents*. Asian Development Bank.
 
 Aguinis, H., Hill, N. S., & Bailey, J. R. (2019). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693. https://doi.org/10.1177/1094428119836485
 
@@ -1018,7 +1018,7 @@ Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of 
 
 Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609.
 
-Mar, J., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review* (đang phản biện).
+Mar, T. T., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review* (đang phản biện).
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship. *Journal of Management, 42*(5), 1075–1110.
 
@@ -1028,9 +1028,9 @@ Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the corre
 
 Peng, M. W. (2001). The resource-based view and international business. *Journal of Management, 27*(6), 803–829.
 
-Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on export development research. *Journal of International Business Studies, 29*(3), 609–620. https://doi.org/10.1057/palgrave.jibs.8490011
-
 Peng, M. W. (2003). Institutional transitions and strategic choices. *Academy of Management Review, 28*(2), 275–296.
+
+Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on export development research. *Journal of International Business Studies, 29*(3), 609–620. https://doi.org/10.1057/palgrave.jibs.8490011
 
 Richard, P. J., Devinney, T. M., Yip, G. S., & Johnson, G. (2009). Measuring organizational performance: Towards methodological best practice. *Journal of Management, 35*(3), 718–804. https://doi.org/10.1177/0149206308330560
 
@@ -1066,11 +1066,11 @@ World Bank. (2023). *World Bank Enterprise Surveys 2023*. World Bank Group.
 
 World Bank. (2024). *World development indicators 2024*. World Bank Group.
 
-World Bank. (2025). *World Bank Enterprise Surveys 2025*. World Bank Group.
+World Bank. (2025a). *Taking stock, September 2025: Viet Nam economic update, Nurturing Viet Nam's high-tech talents*. World Bank Group.
 
-World Bank. (2025a). *World Bank country and lending groups: FY2026*. World Bank Group. https://datahelpdesk.worldbank.org/knowledgebase/articles/906519
+World Bank. (2025b). *World Bank country and lending groups: FY2026*. World Bank Group. https://datahelpdesk.worldbank.org/knowledgebase/articles/906519
 
-World Bank. (2025b). *Taking stock, September 2025: Viet Nam economic update, Nurturing Viet Nam's high-tech talents*. World Bank Group.
+World Bank. (2025c). *World Bank Enterprise Surveys 2025*. World Bank Group.
 
 World Bank. (2026). *Viet Nam: Data360 economy snapshot* (April 2026). World Bank Group.
 
