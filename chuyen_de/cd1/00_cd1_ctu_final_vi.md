@@ -713,7 +713,7 @@ FSTS 8,2%; FDI ≥10% chiếm 3,5%; tỷ lệ doanh nghiệp R&D dương 16,5%. 
 
 #### 2.3.7.6 Mông Cổ: từ lời nguyền tài nguyên đến khoáng sản thiết yếu (n=1.082, 3 đợt 2009/2013/2019)
 
-FSTS đình trệ 4–6% (5,8% rồi 3,9% rồi 4,2%); FDI ≥10% giảm **7,2% rồi 4,2%**; website dao động 39–49%. Khuôn mẫu **lời nguyền tài nguyên** (Sachs & Warner, 2001). **Bước ngoặt 2026**: 11 khoáng sản thiết yếu (Cu, Li, Mo, Mn, Co, Ni, W, REE). Xuất khẩu đồng 1,69 triệu tấn (2024) = 22,1% tổng xuất khẩu. Oyu Tolgoi mục tiêu 500.000 tấn/năm 2028–2036. Trung Quốc chi phối chế biến: 100% graphite, 90% Mn, 70% Co (số liệu thị trường khoáng sản 2024, nguồn cần bổ sung khi hoàn thiện).
+FSTS đình trệ 4–6% (5,8% rồi 3,9% rồi 4,2%); FDI ≥10% giảm **7,2% rồi 4,2%**; website dao động 39–49%. Khuôn mẫu **lời nguyền tài nguyên** (Sachs & Warner, 2001).
 
 ![Hình 2.3.7.1. Mông Cổ: tiến triển 2009–2019.](figures/hinh_2_3_7_1.png)
 
