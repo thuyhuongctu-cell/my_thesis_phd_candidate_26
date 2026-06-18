@@ -194,3 +194,30 @@
 - **P8 §4.7.7 — β=−0,510 (9 nền, N=1.469)** và **β=−0,835 (bỏ control, N=950)**: không có trong CSV replication hiện hữu; CSV 9-nền cho M1(ctry+year FE)=−0,4038 (p=,032). Cần xác minh do-file đặc tả nào sinh −0,510/−0,835 trước khi kết luận đúng/sai.
 - **P6 — r̄=0,074; I²=62,4%; k=238**: nhất quán nội bộ giữa abstract–§4.2–§4.11 nhưng chưa có tệp số gốc đối chiếu; canonical gắn cờ "k cần hoàn tất extraction thật".
 - **P2 — N=4.290; TP 47,8%**: nghiên cứu nền đã công bố, không có pipeline replication trong repo.
+
+---
+
+## BỔ SUNG: KIỂM CHỨNG .DTA & HÀNH ĐỘNG (cập nhật)
+
+### P4 Singapore — đã kiểm chứng trực tiếp trên `.dta`
+Chạy lại M2 trên `data_wbes/raw_dta/Singapore-2023-full-data.dta` (FSTS=d3c/100 định tâm; controls quy mô/tuổi/FDI; HC1):
+
+| Đặc tả | β₁(FSTS_c) | β₂(FSTS²) | Điểm uốn | N |
+|---|---|---|---|---|
+| Bản thảo P4 (Table 2) | +2,652 | −1,705 (p=,068) | **88,6%** (LM p=,303, không xác nhận) | 623 |
+| Replication R (có dummy ngành) | +3,642 | −2,630 | **76,4%** (lm=TRUE) | 623 |
+| Em chạy lại (không dummy ngành) | +3,349 | −2,167 (p=,047) | **81,9%** | 623 |
+
+**Kết luận:** cả ba đặc tả đặt điểm uốn trong khoảng **76–88%**, đều **ngoài vùng dữ liệu** (FSTS trung bình 4,7%; rất ít DN > 50%), nên cách diễn đạt của luận án — *"quan hệ gần tuyến tính dương, điểm uốn ~88,6% với CI rất rộng [53%; 253%] vượt biên dữ liệu, Lind–Mehlum không xác nhận chữ U ngược nội mẫu"* — là **đúng và bảo thủ nhất**. **Luận án giữ 88,6% (khớp bản thảo) — không sửa.** Khác biệt 76/82/88% chỉ do bộ kiểm soát; kết luận định tính bất biến.
+
+### P7 capstone — sửa cho bản thảo (paper), KHÔNG sửa luận án (luận án đã khớp canonical)
+Bản thảo `p7/p7_capstone_en_clean.md` dùng script cũ `p7_full_ladder.py`. Cần sửa **thủ công, có chọn lọc** về số canonical (`p7_50econ_results.md`):
+- **TCI level**: `+0.108` → **`+0.141`** ở các vị trí TCI (dòng ~27, 39, 153, 336 cột mô hình M-điều tiết). *Cẩn thận: bảng dòng 336 có nhiều cột (M khác nhau) — chỉ cột mô hình điều tiết canonical mới là +0,141.*
+- **DAI level**: `+0.219` → **`+0.201`** **CHỈ** ở ngữ cảnh DAI (dòng ~27, 39, 161, 203, và hàng `DAI_z` trong bảng). ⚠️ **KHÔNG đổi `+0.219` ở dòng 145 và 319** — đó là **hệ số FSTS tuyến tính baseline** (đúng, trùng số ngẫu nhiên).
+- **Bảng điểm uốn theo nhóm ICRV (Table 4)**: Nhóm I β₁ +0.707→+0,698; Nhóm II 56,6%→**62,0%**; Nhóm III 56,4%/β₁+0.174→**55,0%**/+0,168; Nhóm V 36,8%/+0.235/−0.455→**34,8%**/+0,218; (Nhóm IV 43,0% và VI giữ).
+- **TCI×FSTS** trong bảng: +0.068/−0.119 → **+0,019/−0,069** (kết luận n.s. không đổi).
+
+### Vệ sinh dữ liệu — đã làm
+- `p6/results/p6_meta_computed.md`: thêm banner **DEPRECATED** (I²=87,8% lỗi thời, mâu thuẫn bản thảo 62,4%).
+- `p7/replication/results_rich/_DEPRECATED.md`: ghi rõ đây là run mẫu nhỏ N≈8k, không phải số P7 chính thức.
+- (Khuyến nghị NCS) đổi tên các tệp bị gán nhãn nhầm trong `p4/replication/` (chứa dữ liệu Việt Nam P3) và xóa/tạo lại `p6_meta_computed.md`.

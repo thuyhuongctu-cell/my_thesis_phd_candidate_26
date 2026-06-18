@@ -1,3 +1,8 @@
+> ⚠️ **DEPRECATED — KHÔNG DÙNG LÀM NGUỒN.** File này (I²=87,8%; trim-and-fill ~10; Egger p=0,007;
+> ICRV r 0,045/0,052/−0,007/0,399/0,049) **mâu thuẫn** với bản thảo P6 và các bảng CSV trong cùng
+> thư mục `p6/results/` (I²=**62,4%**; trim-and-fill **58**; Egger p=**0,057**; ICRV r 0,079/0,065/0,069/0,349/0,053).
+> Nguồn sự thật = `p6/p6_meta_manuscript_en.md` + `table1_baseline.csv`/`table2_icrv.csv`. Cần tạo lại hoặc xóa file này.
+
 # P6 three-level meta-analysis — FROZEN computed results
 
 Source: `p6/results/forest_data.csv` — k=238 studies, K=288 effect sizes. Reproducible via `scripts/p6_meta_analysis.py`.
