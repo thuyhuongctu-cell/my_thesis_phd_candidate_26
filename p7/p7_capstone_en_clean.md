@@ -178,7 +178,7 @@ Because ICRV regime is time-invariant within an economy, its main effect is abso
 
 - **Lower-middle transition (Group IV, N=42,094): TP ≈ 43%**, a sharp, reliably located inverted-U (β₂ < 0, p < .001). This is the regime that anchors the pooled estimate.
 - **Strongest-institution regime (Group I Advanced innovation, incl. Japan): TP ≈ 80%**: the turning point lies near or beyond the observable range, so within the data the relationship is effectively near-linear and positive.
-- **Weakest regimes (Group V Emerging: TP ≈ 37%; Group VI Pacific SIDS): the inverted-U dissolves**; in the SIDS group the quadratic flips sign (no interior maximum), consistent with the Forced Internationalization Penalty documented in the companion SIDS study (P8).
+- **Weakest regimes (Group V Emerging: TP ≈ 34.8%; Group VI Pacific SIDS): the inverted-U dissolves**; in the SIDS group the quadratic flips sign (no interior maximum), consistent with the Forced Internationalization Penalty documented in the companion SIDS study (P8).
 
 **H5 is supported, but as existence-moderation rather than location-moderation.** Institutional regime does not merely shift where a universal inverted-U peaks; it governs whether the inverted-U is sharp (transition regimes), straightened (strongest regimes), or absent (weakest regimes): a three-zone structure.
 
