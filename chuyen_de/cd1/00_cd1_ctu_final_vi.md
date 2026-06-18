@@ -701,7 +701,7 @@ FSTS 23,2% rồi 17,9% rồi 16,1% (suy giảm theo thời gian); doanh nghiệp
 
 **World Bank FCI Snapshot (2025)**: GDP tăng trưởng 7,09% (2024), FDI 20,17 tỷ USD (4,23% GDP), xuất khẩu máy móc và điện tử 45,8% tổng xuất khẩu, tỷ lệ nữ/nam lao động 88,61% (2023). Báo cáo *Taking Stock* tháng 9/2025 nhấn mạnh nhân lực công nghệ cao là nút thắt để Việt Nam dịch chuyển từ lắp ráp sang thiết kế và R&D (World Bank, 2025b), nhất quán với hàm ý sequencing năng lực (TCI trước FSTS) của chuyên đề; snapshot kinh tế Data360 xác nhận vị thế thu nhập trung bình thấp với GNI bình quân 4.180 USD năm 2023, đúng ngưỡng Nhóm IV của khung ICRV (World Bank, 2026).
 
-#### 2.3.7.4 Trung Quốc (mẫu phân tích của nghiên cứu Trung Quốc n=4.559; mẫu gộp mô tả gồm đợt 2024, n=2.189)
+#### 2.3.7.4 Trung Quốc (mẫu phân tích của nghiên cứu Trung Quốc n=4.544; mẫu gộp mô tả gồm đợt 2024, n=2.189)
 
 FSTS 10,9% rồi 8,8%; FDI ≥10% chiếm 6,0%. Quan hệ FSTS – năng suất có dạng hàm bậc hai (U ngược) với điểm uốn ~47,5% (Đỗ & Phan, 2026, JFAR). **Rủi ro tập trung**: Wang, Huang và Hong (2024, IRFA) phân tích 80% mô hình rủi ro ngân hàng tại Trung Quốc phụ thuộc các nhà cung cấp công nghệ chi phối thị trường, cảnh báo cho lộ trình sản xuất thông minh.
 
