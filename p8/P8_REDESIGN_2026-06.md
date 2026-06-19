@@ -10,19 +10,29 @@ is **data-version-sensitive**, and **does not survive** on the fuller sample (β
 submission. The redesign converts the weakness into a **robust, honest, and theoretically valuable**
 contribution.
 
-## Verified empirical core (full 8-economy SIDS sample, raw .dta, FE, cluster by economy)
+## Verified empirical core (7 Pacific SIDS, raw .dta, FE, wild-cluster bootstrap by economy)
 
-| Quantity | Estimate | p | Reading |
+> **Update 2026-06-19 — Timor-Leste excluded.** The original redesign used an 8-economy sample
+> that included Timor-Leste, which is **not** a World Bank Pacific Island Country nor a UN Pacific
+> SIDS. The canonical sample is now the **7 genuine Pacific SIDS** (`icrv_map` corrected); estimates
+> below are from `p8/replication/build_and_run_p8_7pacific.py` (lp_z DV, P7 harmonisation, G=7).
+
+| Quantity | Estimate | p_wild | Reading |
 |---|--:|--:|---|
-| FSTS² (curvature) | +0.553 | 0.154 | **No inverted-U** (curvature null) |
-| FSTS linear slope | −0.161 | 0.338 | **I–P slope null** (faint negative lean) |
-| N / economies / exporters | 1,916 / 8 / 13.9% | — | thin, forced-export profile |
+| FSTS linear slope (M1) | −0.085 | .66 | **I–P slope null** |
+| FSTS² curvature (M2) | +0.696 | .082 | **No inverted-U** (curvature only marginal, positive) |
+| FSTS² curvature (M3, +capability) | +1.051 | .056 | suggestive convexity, marginal |
+| TCI level (M3) | +0.064 | .036 | capability raises level, not the curve |
+| N / economies / exporters | 1,450 / 7 / 14.6% | — | thin, forced-export profile |
 | Contrast: mainland transition (P7 Lower-mid) | β₂ = −1.012 | <.001 | inverted-U **present** on the mainland |
+
+*(Historical note: the earlier 8-economy build with Timor gave FSTS² +0.553 (p=.21), slope −0.161
+(p=.25), N=1,916 — superseded.)*
 
 **Robust finding:** in Pacific SIDS the canonical inverted-U **dissolves** — neither the curvature nor
 the slope is statistically distinguishable from zero — in sharp contrast to mainland Asia, where the
-inverted-U is sharp. This holds on the full 8-economy sample (8 clusters), is not data-version-fragile,
-and is the empirically honest core.
+inverted-U is sharp. This holds on the full 7-economy sample (7 clusters) and is the empirically
+honest core.
 
 ## Redesigned positioning
 
