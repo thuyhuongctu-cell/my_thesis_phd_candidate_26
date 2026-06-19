@@ -1,32 +1,38 @@
 # CANONICAL_NUMBERS — Nguồn sự thật duy nhất (single source of truth)
 
-> **Khóa ngày 2026-06-13.** Mọi con số mẫu/điểm uốn/hệ số trong luận án, chuyên đề
-> và papers PHẢI khớp bảng này. Khi một con số thay đổi, sửa Ở ĐÂY trước rồi
-> propagate. Mọi giá trị đã tái lập qua `scripts/p7_run_50econ.py`,
+> **Khóa ngày 2026-06-13; cập nhật 2026-06-19 (loại Timor-Leste).** Mọi con số mẫu/điểm
+> uốn/hệ số trong luận án, chuyên đề và papers PHẢI khớp bảng này. Khi một con số thay đổi,
+> sửa Ở ĐÂY trước rồi propagate. Mọi giá trị đã tái lập qua `scripts/p7_run_50econ.py`,
 > `p10_japan/replication/p10_japan_models.py` (xem `REESTIMATION_LOG_2026-06-13.md`).
 > Lưu ý liêm chính: số chỉ đổi sau khi chạy estimation thật, không bịa.
+>
+> **CẬP NHẬT 2026-06-19 — Timor-Leste bị loại khỏi khung.** Timor-Leste không phải Pacific
+> Island Country (Ngân hàng Thế giới: 11 nước) và không thuộc danh sách Pacific SIDS của Liên
+> Hợp Quốc (14 PSIDS); `icrv_map()` đã sửa. Khung giảm **50 → 49 nền**, Nhóm VI còn **7 nền**.
+> Các con số dưới đây là **giá trị TÁI LẬP từ kho .dta đã commit** (chạy lại P7 không Timor,
+> 2026-06-19); chênh lệch nhỏ với bộ locked cũ một phần do kho raw là tập con của master đầy đủ.
 
 ## 1. Các khung dữ liệu (định nghĩa chính xác)
 
 | Khung | N firms | Số nền | Ghi chú |
 |---|--:|--:|---|
-| **Pool phân loại ICRV** | 96.415 | 52 nhãn nền | Trước lọc; gán nhóm ICRV |
-| **Khung phân tích (canonical, GỒM Nhật Bản)** | **88.869** | **50** | 103 cặp nền-năm; dùng cho cả mô tả VÀ ước lượng P7 |
+| **Pool phân loại ICRV** | 96.415 | 52 nhãn nền | Trước lọc; gán nhóm ICRV (locked; re-lock loại Timor đang chờ master đầy đủ) |
+| **Khung phân tích (tái lập từ raw, loại Timor, GỒM Nhật)** | **87.987** | **49** | 99 cặp nền-năm; dùng cho cả mô tả VÀ ước lượng P7 |
 | — trong đó Nhật Bản (P10) | 2.168 | 1 | Sóng WBES đầu tiên 2025 |
-| — nếu loại Nhật Bản | 86.701 | 49 | Chỉ để tham chiếu |
+| **Tham chiếu locked cũ (GỒM Timor)** | 88.869 | 50 | Bộ locked 2026-06-13 trước khi loại Timor; cần re-lock |
 | **⚠️ LEGACY — KHÔNG DÙNG** | 91.982 | 49 | Build P7 cũ tiền-Nhật (pipeline trước); đã bị thay thế |
 
 **Quy tắc phát ngôn chuẩn (lặp ở mọi abstract/chương):**
-> "Khung phân tích đa quốc gia gồm **88.869 doanh nghiệp trên 50 nền kinh tế** châu Á
-> và Thái Bình Dương (103 cặp nền-năm, **bao gồm Nhật Bản 2025**); pool phân loại
-> ICRV 96.415 doanh nghiệp/52 nhãn nền."
+> "Khung phân tích đa quốc gia gồm **87.987 doanh nghiệp trên 49 nền kinh tế** châu Á
+> và Thái Bình Dương (99 cặp nền-năm, **bao gồm Nhật Bản 2025**, loại Timor-Leste theo phân
+> loại WB/UN); pool phân loại ICRV trước lọc 96.415 doanh nghiệp/52 nhãn nền."
 
-## 2. P7 — Hồi quy toàn mẫu (50 nền, GỒM Nhật, two-way FE economy+year, CRV1)
+## 2. P7 — Hồi quy toàn mẫu (49 nền, GỒM Nhật, loại Timor, two-way FE economy+year, CRV1)
 
 | Mô hình | N | β₁ (FSTS) | β₂ (FSTS²) | Điểm uốn | p (Lind–Mehlum) |
 |---|--:|--:|--:|--:|--:|
-| **M2** (FSTS + FSTS², FE) | **81.022** | +1,189*** | −1,398*** | **51,5%** | < 0,001 |
-| **M5** (+ kiểm soát, FE) | **79.080** | +0,500*** | −0,721*** | **43,6%** | < 0,001 |
+| **M2** (FSTS + FSTS², FE) | **80.373** | +1,194*** | −1,404*** | **51,5%** | < 0,001 |
+| **M5** (+ kiểm soát, FE) | **78.445** | +0,503*** | −0,727*** | **43,5%** | < 0,001 |
 
 ## 3. Điểm uốn theo nhóm ICRV (khung 50 nền) — "BA VÙNG"
 
@@ -44,7 +50,7 @@
 | II. Advanced_resource (GCC) | 2.075 | 62,0% | 0,081 | Trên–giữa |
 | III. Upper_mid | 12.055 | 55,0% | 0,263 | Giữa, không định vị tin cậy |
 | IV. Lower_mid_transition | 42.094 | **43,0%** | < 0,001 | **Giữa**: chữ U ngược SẮC NÉT |
-| V. Emerging | 15.457 | 34,8% | 0,184 | **Dưới**: cấu trúc tan rã |
+| V. Emerging | 15.251 | 34,6% | 0,191 | **Dưới**: cấu trúc tan rã |
 | VI. SIDS_small (7 nền, loại Timor) | 1.450 | — (n.s.) | — | **Dưới**: chữ U ngược tan rã (độ dốc −0,085 p_wild=,66; độ cong +0,696 p_wild=,082); FIP là trường hợp giới hạn |
 
 ## 4. Các construct/nghiên cứu thành phần

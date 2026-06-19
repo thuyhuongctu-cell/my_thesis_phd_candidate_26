@@ -60,7 +60,7 @@
 
 # 1. Phenomenon-based positioning — vì sao luận án này khác
 
-Luận án của NCS là **cumulative dissertation** với **11 component papers** (P1–P11), **multi-country WBES 50 economies (including Japan)**, **institutional gradient narrative** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime VI/Frontier). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
+Luận án của NCS là **cumulative dissertation** với **11 component papers** (P1–P11), **multi-country WBES 49 economies (including Japan)**, **institutional gradient narrative** theo khung ICRV (Institutional Context Regime Variation — Biến thiên chế độ bối cảnh thể chế) từ Singapore (ICRV Regime I — Advanced Innovation-Driven) đến Pacific SIDS (ICRV Regime VI/Frontier). Trong 1,745 papers sử dụng WBES đã công bố, **không có** dissertation nào có cấu trúc tương đương.
 
 Tông luận này đối chiếu luận án với các công trình nghiên cứu quốc tế và châu Á tương đương để chứng minh **tính mới và đóng góp độc đáo** trong bối cảnh học thuật quốc tế hiện nay.
 
@@ -71,7 +71,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Khía cạnh | Marano et al. (2016) | NCS dissertation |
 |---|---|---|
 | Loại nghiên cứu | Single meta-analysis paper | **Cumulative dissertation 11 papers** |
-| Sample | 170 studies, 32 countries, 1972–2012 | 50 economies (including Japan) WBES (88,869 firms) + 238 studies meta + Pacific SIDS |
+| Sample | 170 studies, 32 countries, 1972–2012 | 49 economies (including Japan) WBES (87,987 firms) + 238 studies meta + Pacific SIDS |
 | Theory | Home country institutions moderates I-P | **Institutional gradient + 3 prerequisites theory** |
 | Contribution | Institutional quality moderates degree of effect | **Inverted-U is conditional, not universal** — sign reversal in extreme regimes |
 | Method | Random-effects meta-regression | **Mixed: meta-analysis + multi-country + extreme boundary case** |
@@ -84,7 +84,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 | Khía cạnh | Wu et al. (2022) | NCS dissertation |
 |---|---|---|
 | Loại nghiên cứu | Single meta-analysis paper | Cumulative dissertation |
-| Sample | 218 effect sizes, 186 studies, EMNEs | 50 economies (including Japan) WBES + meta-analysis + SIDS |
+| Sample | 218 effect sizes, 186 studies, EMNEs | 49 economies (including Japan) WBES + meta-analysis + SIDS |
 | Theory | Government quality moderates EMNE I-P | Multi-tier framework (4 layers + digital lens) |
 | Contribution | EMNE-specific moderation | **Asian-specific + extreme boundary cases** |
 | Time period | 1998–2021 | 1977–2026 (extended) |
@@ -95,7 +95,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 | Khía cạnh | Kirca et al. (2012) | NCS dissertation |
 |---|---|---|
-| Sample | 154 samples, 47,849 firms | 50 economies (including Japan) WBES |
+| Sample | 154 samples, 47,849 firms | 49 economies (including Japan) WBES |
 | Method | Meta-analytic review | Mixed methodology |
 | Time period | 1977–2009 | 1977–2026 |
 | Contribution | Context-dependent I-P | **Context-conditional** I-P (stronger claim) |
@@ -106,7 +106,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 | Khía cạnh | Cuervo-Cazurra et al. (2018) | NCS dissertation |
 |---|---|---|
-| Sample | 218 firms, Colombia EMNEs, 2006–2012 | 50 economies (including Japan) WBES, 1977–2026 |
+| Sample | 218 firms, Colombia EMNEs, 2006–2012 | 49 economies (including Japan) WBES, 1977–2026 |
 | Method | Single-country panel | **Multi-country mixed methodology** |
 | Theory | Home country uncertainty + capability | **4-tier framework + digital lens + Forced Penalty** |
 
@@ -116,7 +116,7 @@ Tông luận này đối chiếu luận án với các công trình nghiên cứ
 
 | Khía cạnh | Bhandari et al. (2023) | NCS dissertation |
 |---|---|---|
-| Sample | 571 USA manufacturing firms | 50 economies including Japan (WBES Asian + Pacific) |
+| Sample | 571 USA manufacturing firms | 49 economies including Japan (WBES Asian + Pacific) |
 | Method | Single country panel | Multi-country pooled |
 | Theory | Resource orchestration + new OLI | Multi-tier + Forced Penalty boundary |
 | Digital | Digital capability composite (resource-orchestration) | **TCI + DAI riêng biệt** theo Bharadwaj et al. (2013), Verhoef et al. (2021), Coltman et al. (2008) |
@@ -262,7 +262,7 @@ Potential **2027 graduation timeline**:
 
 ## 8.1 GVHD có thể hỏi: "Why so many countries (~50)?"
 
-**Answer**: Tính mới của luận án nằm ở chứng minh **inverted-U có boundary conditions**. Mỗi institutional regime cần ít nhất 3 countries để statistical power (Marano 2016 chuẩn: 5+ countries per regime). 50 economies (gồm Nhật Bản) chia 6 regimes (ICRV I–VI) đến ~8 economies/regime trung bình — đủ statistical power.
+**Answer**: Tính mới của luận án nằm ở chứng minh **inverted-U có boundary conditions**. Mỗi institutional regime cần ít nhất 3 countries để statistical power (Marano 2016 chuẩn: 5+ countries per regime). 49 economies (gồm Nhật Bản) chia 6 regimes (ICRV I–VI) đến ~8 economies/regime trung bình — đủ statistical power.
 
 ## 8.2 GVHD có thể hỏi: "Vì sao không dùng panel?"
 
@@ -319,7 +319,7 @@ heterogeneity?
 ✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft → MIR)
 ✅ P5 China temporal 2012–2024 (manuscript complete → IJOEM)
 ✅ P6 Meta-analysis three-level MARA k=238 (manuscript complete → IBR — International Business Review; r=0.074, I²=62.4%, ICRV Q_M=17.35**)
-✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → JIBS; analytic frame 88,869 firms/50 economies incl. Japan; main regression N=81,022 (M2)/79,080 (M5); TP=43.6% (M5; 51.5% in unconditioned quadratic M2); DAI là level-shifter +0.20, p<.001, không reshape curvature trong pool 50 nền)
+✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → JIBS; analytic frame 87,987 firms/49 economies incl. Japan; main regression N=80,373 (M2)/78,445 (M5); TP=43.5% (M5; 51.5% in unconditioned quadratic M2); DAI là level-shifter +0.20, p<.001, không reshape curvature trong pool 49 nền)
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 ✅ P10 Japan — inaugural 2025 WBES wave, ICRV Group I (manuscript)
 ✅ P11 JED digital-divide (manuscript)
@@ -328,7 +328,7 @@ INSTITUTIONAL GRADIENT:
 Vietnam (Nhóm IV — Lower_mid_transition*)  → Inverted-U, TP ~39–46% FSTS (low optimum, lower-middle transition constraint)
 Singapore (Advanced I)               → Inverted-U, TP ~88.6% FSTS (wide CI [53–253%], support-constrained)
 China (Upper-middle III)             → Inverted-U, TP ~47–49% FSTS (stable 2012→2024, Paternoster z=0.82)
-Asian capstone (all 6 ICRV groups)  → Heterogeneous moderation; P7 full-model M5 TP=43.6% (M2 quadratic 51.5%), DAI≠TCI.
+Asian capstone (all 6 ICRV groups)  → Heterogeneous moderation; P7 full-model M5 TP=43.5% (M2 quadratic 51.5%), DAI≠TCI.
                                        BA VÙNG: chữ U ngược SẮC NÉT ở lower-middle transition regime (TP≈43%);
                                        gần tuyến tính ở regime thể chế mạnh nhất (điểm uốn ngoài miền quan sát);
                                        tan rã ở các regime yếu nhất (SIDS → FIP).

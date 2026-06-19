@@ -10,11 +10,11 @@
 
 **Q1. Dữ liệu là lát cắt ngang lặp lại, sao có thể nói quốc tế hóa "cải thiện" hiệu quả? Hệ số FSTS chẳng phải chỉ phản ánh việc doanh nghiệp năng suất cao tự chọn vào xuất khẩu (Melitz)?**
 - Luận án **không tuyên bố nhân quả mạnh** ở khung đa quốc gia; "hiệu quả" là quan hệ đồng thời, được phát biểu minh bạch ở Mục 3.5.6.
-- Ba lớp phòng thủ: (i) **hiệu ứng cố định hai chiều** (nền kinh tế × năm) + chuẩn hóa within country–year hấp thụ chênh lệch mức cố định giữa doanh nghiệp xuất khẩu và không xuất khẩu; (ii) đối tượng suy luận trọng tâm là **hình dạng** (độ cong, vị trí điểm uốn), mà câu chuyện chọn lọc mức đơn thuần khó tạo ra cực đại nội vùng có hệ thống; (iii) **kiểm tra chọn lọc Heckman** (Mục 4.6.8): thêm tỷ số Mills nghịch đảo, điểm uốn gần như không đổi (43,6%→43,5%), độ cong giữ nguyên (β₂=−0,732, p<,001), **tỷ số Mills không có ý nghĩa (p=,317)** → không phát hiện thiên lệch chọn lọc trong độ cong.
+- Ba lớp phòng thủ: (i) **hiệu ứng cố định hai chiều** (nền kinh tế × năm) + chuẩn hóa within country–year hấp thụ chênh lệch mức cố định giữa doanh nghiệp xuất khẩu và không xuất khẩu; (ii) đối tượng suy luận trọng tâm là **hình dạng** (độ cong, vị trí điểm uốn), mà câu chuyện chọn lọc mức đơn thuần khó tạo ra cực đại nội vùng có hệ thống; (iii) **kiểm tra chọn lọc Heckman** (Mục 4.6.8): thêm tỷ số Mills nghịch đảo, điểm uốn gần như không đổi (43,5%→43,5%), độ cong giữ nguyên (β₂=−0,732, p<,001), **tỷ số Mills không có ý nghĩa (p=,317)** → không phát hiện thiên lệch chọn lọc trong độ cong.
 - Ở cấp đơn quốc gia (P3 Việt Nam) có **biến công cụ** cho năng lực (F bậc một = 22,1) tách hiệu ứng nhân quả.
 
-**Q2. Vì sao không dùng biến công cụ cho FSTS ở khung 50 nền?**
-- Không có công cụ hợp lệ ở quy mô 50 nền cho FSTS; luận án thừa nhận tường minh (Mục 3.5.6). Thay vào đó dựa vào FE hai chiều + suy luận theo hình dạng + kiểm tra IMR, và **tam giác hóa** với phân tích tổng hợp P6 (nguồn thiên lệch khác nhau, cùng kết luận).
+**Q2. Vì sao không dùng biến công cụ cho FSTS ở khung 49 nền?**
+- Không có công cụ hợp lệ ở quy mô 49 nền cho FSTS; luận án thừa nhận tường minh (Mục 3.5.6). Thay vào đó dựa vào FE hai chiều + suy luận theo hình dạng + kiểm tra IMR, và **tam giác hóa** với phân tích tổng hợp P6 (nguồn thiên lệch khác nhau, cùng kết luận).
 
 ---
 
@@ -51,7 +51,7 @@
 - Căng thẳng thay thế–bổ trợ được xử lý (Mục 2.5.6): DAI đo ở **tầng nền tảng nhất** (hiện diện web), loại công cụ **ít đòi hỏi hạ tầng** và khả thi trên hạ tầng mỏng; lợi ích đến từ **hạ chi phí tìm kiếm/thông tin** — chính chi phí mà khoảng trống thể chế khuếch đại. Luận án thừa nhận hiệu ứng có thể đảo chiều ở các tầng số đòi hỏi hạ tầng cao hơn (ranh giới phạm vi áp dụng).
 
 **Q9. Làm sao phân biệt H2 (TCI nâng mặt bằng) với H3 (DAI uốn đường cong) trong cùng mô hình?**
-- Tiêu chí nhận dạng đối ngược (Mục 2.5.3–2.5.4): H2 dự đoán **hệ số chính TCI dương + tương tác TCI×FSTS² null**; H3 dự đoán **tương tác DAI×FSTS² (hoặc DAI×FSTS) có ý nghĩa + hiệu ứng mức không nhất thiết mạnh**. Kết quả 50 nền: cả bốn tương tác năng lực **không có ý nghĩa** kể cả sau hiệu chỉnh Holm/Bonferroni → năng lực là **bộ nâng mặt bằng** (kết luận vững trước đa kiểm định, Mục 4.6.8).
+- Tiêu chí nhận dạng đối ngược (Mục 2.5.3–2.5.4): H2 dự đoán **hệ số chính TCI dương + tương tác TCI×FSTS² null**; H3 dự đoán **tương tác DAI×FSTS² (hoặc DAI×FSTS) có ý nghĩa + hiệu ứng mức không nhất thiết mạnh**. Kết quả 49 nền: cả bốn tương tác năng lực **không có ý nghĩa** kể cả sau hiệu chỉnh Holm/Bonferroni → năng lực là **bộ nâng mặt bằng** (kết luận vững trước đa kiểm định, Mục 4.6.8).
 
 **Q10. DAI chỉ đo website (Tier-1) — đo lường quá nghèo để kết luận?**
 - Thừa nhận hạn chế (Mục 5.5.3.1). Nhưng: (i) **bất biến đo lường** — mục web hiện diện ~99% ở cả ba thế hệ lược đồ, trung bình tăng 0,30→0,46→0,53 phản ánh **khuếch tán thực**, nên so sánh chéo đợt có cơ sở (Mục 4.6.8); (ii) kết luận DAI là **bộ nâng mặt bằng** vững; chỉ vai trò **uốn đường cong** là phụ thuộc tầng đo (xuất hiện ở P4 Singapore Tier-2, không ở mẫu gộp Tier-1) — luận án phát biểu đúng giới hạn này.
@@ -70,7 +70,7 @@
 - Hai phương pháp **điểm yếu không trùng**: P6 dễ thiên lệch công bố + phụ thuộc báo cáo; P7 dễ thiên lệch chọn lọc xuất khẩu + chênh đo lường chéo đợt. Cùng định vị **thể chế là biến điều tiết then chốt** → tam giác hóa nâng độ tin cậy (Mục 5.2.5).
 
 **Q14. Khả năng tái lập? Reviewer/hội đồng kiểm tra được không?**
-- Bộ số canonical khóa ở `CANONICAL_NUMBERS.md`; khung 50 nền tái lập qua `p7_run_50econ.py` (M2 β₁=1,189, điểm uốn 51,5% tái lập đúng). Gói robustness tái lập ở `p7_robustness_suite_2026-06.md`. Các paper đơn quốc gia chạy bằng do-file Stata (P3/P4/P5); khuyến nghị nộp kèm bảng ước lượng + `.dta` phân tích để hội đồng kiểm chứng.
+- Bộ số canonical khóa ở `CANONICAL_NUMBERS.md`; khung 49 nền tái lập qua `p7_run_50econ.py` (M2 β₁=1,189, điểm uốn 51,5% tái lập đúng). Gói robustness tái lập ở `p7_robustness_suite_2026-06.md`. Các paper đơn quốc gia chạy bằng do-file Stata (P3/P4/P5); khuyến nghị nộp kèm bảng ước lượng + `.dta` phân tích để hội đồng kiểm chứng.
 
 ---
 
