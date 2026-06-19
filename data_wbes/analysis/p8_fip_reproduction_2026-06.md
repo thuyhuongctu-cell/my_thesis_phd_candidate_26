@@ -70,3 +70,34 @@ analytic `.dta`** (the ~209-firm capability-complete SIDS sample that yields β=
 exact raw SIDS `.dta` snapshot used. Until then the FIP result is not reproducible from the repo,
 and a referee reproducing on current data obtains a positive coefficient. This blocks a credible
 P8 submission and should be reconciled against thesis §4.7.
+
+---
+
+## Full re-estimation on current raw .dta (per candidate request, 2026-06-19)
+
+7 Pacific SIDS built directly from the raw WBES `.dta` now in the repo; FSTS=(d3b+d3c)/100;
+ln_labor_prod=ln(sales/l1); country+year FE; CRV1 cluster by economy.
+
+| Model | β(FSTS_c) | p (cluster) | N |
+|---|--:|--:|--:|
+| M1 FIP (FE + controls) | **+0.352** | 0.322 | 610 |
+| M2 quadratic | −0.688 | 0.472 | 610 |
+| M3 + TCI + DAI | −0.915 | 0.405 | 588 |
+| Year-FE only | +0.099 | 0.869 | 610 |
+| Bivariate (no FE) | +0.480 | 0.433 | 1,471 |
+| Exporters-only | +0.182 | 0.690 | 98 |
+| **Paper (older data)** | **−1.339** | **<.001** | **209** |
+
+**Definitive finding.** On the current data the FSTS–productivity coefficient is **non-significant
+in every specification** (all p>0.30) and **sign-unstable** (M1 positive; M2/M3 negative). The
+strong, highly significant FIP (−1.339, p<.001) **does not survive** — the relationship is
+effectively null on the fuller current sample (N≈610–1,471 vs the paper's 209–959).
+
+**Decision required (candidate).** The FIP contribution as stated (a *robust, significant* monotone
+negative penalty) is not supported by the current repository data. Options:
+1. **Locate & commit the original P8 `.dta`** (the ~209/959-firm version that yields −1.339) and
+   treat the current larger `.dta` as a different/expanded download — then the paper stands on the
+   pinned data and the discrepancy is a data-versioning note.
+2. **Adopt the current data** and substantially revise P8 (and thesis §4.7): the SIDS I–P relation
+   is *null/weak*, not a strong FIP — which is a different (weaker) contribution.
+This is a substantive call for the candidate; no paper/thesis text was rewritten.
