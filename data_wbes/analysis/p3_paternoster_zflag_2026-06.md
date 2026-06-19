@@ -100,3 +100,16 @@ labour-productivity denominator used in the P3 Stata build (i.e., what `b1_d` ma
 WBES Vietnam files — `l1`? `l1`+temp? a derived employment variable?), plus confirmation of the
 FSTS-centering sample. With that, the Python port can be aligned to reproduce the manuscript
 numbers exactly, and §4.5.6 can be made fully auditable.
+
+---
+
+## RESOLUTION (2026-06-19, per author)
+
+The P3 (and companion) papers have been run repeatedly in Stata; the manuscript figures are
+**author-authoritative**. The §4.5.6 numbers are therefore **retained unchanged**. The committed
+Python pipeline (`scripts/p3_dai_reproduce.py`) stands as a **pattern-confirming cross-check** —
+it reproduces the DAI sign/significance trajectory (2009 sig / 2015 ns / 2023 sig) and shows that
+including TCI_z (M7) pulls DAI_z toward the reported magnitude — not as a replacement for the
+Stata estimates. For a fully auditable replication package the candidate need only (i) commit the
+Stata estimates table + analytic `.dta`, and (ii) annotate that the `.do` `b1_d` denominator maps
+to her labour-productivity worker field. No thesis/manuscript number is changed.
