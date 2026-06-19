@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """P8 Figure 1: the inverted-U dissolves at the periphery.
 Mainland transition (P7 Lower-mid): concave inverted-U (beta1=+0.709, beta2=-1.012).
-Pacific SIDS (M3, capability-conditioned): only a suggestive, marginal positive
-curvature (beta1=-0.860, beta2=+0.844, p_wild=.07) — presented as a hint of a
-convex pattern, not a confirmed reversal. Monochrome, journal style.
+Pacific SIDS (7 economies, Timor-Leste excluded; M3, capability-conditioned): only a
+suggestive, marginal positive curvature (beta1=-0.852, beta2=+1.051, p_wild=.056) —
+presented as a hint of a convex pattern, not a confirmed reversal. Monochrome, journal style.
 Outputs VN (thesis) and EN (submission package) versions."""
 import numpy as np
 import matplotlib
@@ -18,7 +18,7 @@ LABELS = {
         'zone': 'vùng phạt\n(đa số DN)',
         'title_a': '(a) Lục địa — chế độ chuyển đổi (Nhóm IV)\nChữ U ngược: $\\beta_2=-1.012^{***}$',
         'title_b': '(b) Pacific SIDS — có điều kiện năng lực (M3)\n'
-                   'Độ cong dương ở mức biên (gợi ý): $\\beta_2=+0.844$ ($p_{wild}=.07$)',
+                   'Độ cong dương ở mức biên (gợi ý): $\\beta_2=+1.051$ ($p_{wild}=.056$)',
         'suptitle': 'Hình 4.7.1. Sự tan rã của chữ U ngược ở biên cực đoan: '
                     'lục địa (∩) so với Pacific SIDS (độ cong không có ý nghĩa)',
     },
@@ -29,7 +29,7 @@ LABELS = {
         'zone': 'penalty zone\n(most firms)',
         'title_a': '(a) Mainland — transition regime (Group IV)\nInverted-U: $\\beta_2=-1.012^{***}$',
         'title_b': '(b) Pacific SIDS — capability-conditioned (M3)\n'
-                   'Suggestive marginal convexity: $\\beta_2=+0.844$ ($p_{wild}=.07$)',
+                   'Suggestive marginal convexity: $\\beta_2=+1.051$ ($p_{wild}=.056$)',
         'suptitle': 'Figure 1. The inverted-U dissolves at the periphery: '
                     'mainland (∩) vs Pacific SIDS (curvature not significant)',
     },
@@ -55,9 +55,9 @@ def render(lang, outpaths):
     ax.set_xlabel(L['xlabel'], fontsize=9)
     ax.set_ylabel(L['ylabel'], fontsize=9)
     # SIDS: M3 suggestive convex (capability-conditioned)
-    s_mean = 0.062
+    s_mean = 0.054
     xs = x - s_mean
-    y_sids = -0.860 * xs + 0.844 * xs ** 2
+    y_sids = -0.852 * xs + 1.051 * xs ** 2
     y_sids -= y_sids.max()
     ax = axes[1]
     ax.plot(x * 100, y_sids, color='black', lw=2)

@@ -33,7 +33,7 @@
 ## C. Đóng góp lý thuyết: FIP, CDCM, ICRV
 
 **Q5. FIP (gánh nặng quốc tế hóa cưỡng bức) có thật là khái niệm mới, hay chỉ là giai đoạn 1 của đường cong chữ S / gánh nặng người nước ngoài?**
-- Trước hết, làm rõ vị thế bằng chứng: phát hiện **vững** trên mẫu đầy đủ tám nền là dạng chữ U ngược **tan rã** (cả độ cong lẫn độ dốc đều không có ý nghĩa); FIP được nêu như **trường hợp giới hạn lý thuyết** của sự tan rã đó, không phải một quan hệ âm đơn điệu đã được ước lượng vững (hệ số −1,339 chỉ xuất hiện trên bản dựng dữ liệu hạn chế ba cụm, nhạy cảm với phiên bản dữ liệu).
+- Trước hết, làm rõ vị thế bằng chứng: phát hiện **vững** trên mẫu đầy đủ bảy nền Thái Bình Dương (loại Timor-Leste theo phân loại WB/UN; $N=1.450$, bảy cụm) là dạng chữ U ngược **tan rã** (độ dốc không có ý nghĩa, độ cong chỉ ở mức biên); FIP được nêu như **trường hợp giới hạn lý thuyết** của sự tan rã đó, không phải một quan hệ âm đơn điệu đã được ước lượng vững (hệ số −1,339 chỉ xuất hiện trên bản dựng dữ liệu hạn chế ba cụm, nhạy cảm với phiên bản dữ liệu).
 - Khác biệt rạch ròi của FIP như construct (Mục 2.5.2b, 5.3.2): (i) khác **chi phí giai đoạn đầu** chữ S — FIP phản ánh ràng buộc **cấu trúc** chứ không phải giai đoạn; (ii) khác **gánh nặng người nước ngoài** (Zaheer) vận hành ở thị trường đích — FIP ở **thị trường nguồn**; (iii) ba điều kiện cấu trúc đồng thời bị vi phạm (thị trường nội địa cực nhỏ, chi phí thương mại cực cao, vắng hỗ trợ thể chế).
 - **Có tiêu chí kiểm sai**: nếu Lind–Mehlum phát hiện cực đại nội vùng tại SIDS khi dữ liệu đủ phủ → FIP bị bác. Trên dữ liệu hiện có, việc không tìm thấy điểm uốn nhất quán với sự tan rã của cấu trúc, không phải do cắt cụt.
 

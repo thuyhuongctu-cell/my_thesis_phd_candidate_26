@@ -30,6 +30,14 @@
 
 ## 3. Điểm uốn theo nhóm ICRV (khung 50 nền) — "BA VÙNG"
 
+> ⚠️ **Cập nhật 2026-06-19 — loại Timor-Leste khỏi SIDS_small.** Timor-Leste không phải Pacific
+> Island Country (Ngân hàng Thế giới: 11 nước, không có Timor) và không thuộc danh sách Pacific
+> SIDS của Liên Hợp Quốc (14 PSIDS, không có Timor). `icrv_map()` đã được sửa để loại Timor khỏi
+> Nhóm VI; SIDS_small còn **7 nền** (Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu) và khung
+> giảm từ 50 → **49 nền**. Tác động lên headline P7 không đáng kể (Timor ≈ 0,55% mẫu; TP/β giữ
+> nguyên). **Các tổng locked dưới đây (88.869 / 81.022 / nhóm) vẫn gồm Timor và cần RE-LOCK lại
+> trên master đầy đủ** — dòng SIDS_small đã được cập nhật theo build raw 7 nền đã verify.
+
 | Nhóm ICRV | N | Điểm uốn | p (LM) | Diễn giải ba vùng |
 |---|--:|--:|--:|---|
 | I. Advanced_innovation (gồm Nhật) | 5.581 | 79,1% | 0,304 | **Trên**: gần tuyến tính, TP ngoài miền |
@@ -37,7 +45,7 @@
 | III. Upper_mid | 12.055 | 55,0% | 0,263 | Giữa, không định vị tin cậy |
 | IV. Lower_mid_transition | 42.094 | **43,0%** | < 0,001 | **Giữa**: chữ U ngược SẮC NÉT |
 | V. Emerging | 15.457 | 34,8% | 0,184 | **Dưới**: cấu trúc tan rã |
-| VI. SIDS_small (z-spec) | 1.818 | — (n.s.) | — | **Dưới**: chữ U ngược tan rã; FIP là trường hợp giới hạn |
+| VI. SIDS_small (7 nền, loại Timor) | 1.450 | — (n.s.) | — | **Dưới**: chữ U ngược tan rã (độ dốc −0,085 p_wild=,66; độ cong +0,696 p_wild=,082); FIP là trường hợp giới hạn |
 
 ## 4. Các construct/nghiên cứu thành phần
 

@@ -9,7 +9,7 @@ Convention going forward: replication scripts must read the **committed** raw WB
 | **P7** 50-econ | `dist/osf/P7_capstone/code/p7_run_50econ.py` | ✅ runnable | ✅ exact (β₁=1.189; TP 51.5%/43.6%) |
 | **P4** Singapore (figures) | `p4/replication/p4_singapore_figs_from_raw.py` | ✅ **path fixed** (→ Singapore-2023-full-data.dta) | figures only |
 | **P3** Vietnam | `p3/replication/do/01_build_vietnam.do` (+ `scripts/p3_dai_reproduce.py`) | ⚠️ Stata build authoritative | pattern reproduces; exact magnitudes need candidate's Stata (b1_d denominator — see p3_paternoster_zflag note) |
-| **P8** SIDS | `p8/replication/reanalysis_7pacific/run_p8_7pacific.py` | ⚠️ **data-version issue** | −1.339 only on pinned 3-economy build (`p8/replication/data/p8_sids_pinned_0b288f3.csv`); see p8_fip_reproduction note |
+| **P8** SIDS | `p8/replication/build_and_run_p8_7pacific.py` | ✅ **rebuilt from raw (7 Pacific, Timor excluded)** | dissolution: linear −0.085 (p_wild=.66), FSTS² +0.696 (.082); M3 FSTS² +1.051 (.056), TCI +0.064 (.036); pinned `p8/replication/data/p8_7pacific_pinned.csv`. −1.339 only on restricted 3-economy build (illustrative) |
 
 ## Broken / mis-wired scripts (need candidate action)
 
