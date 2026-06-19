@@ -64,3 +64,10 @@ P7 = 50 nền gồm Nhật; P8 (SIDS) và P9 (Ấn Độ) là pool con riêng kh
 | 81.022 (M2) / 79.080 (M5) | 84.910 (M2 cũ) / 38.342 (M5 cũ) |
 | TP M5 = 43,6%; M2 = 51,5% | TP 40,0% / 36% / 34,6% (cũ) |
 | Ba vùng (Nhóm IV 43,0%) | gradient đơn điệu 28% đến 55% |
+
+## Gói kiểm định độ vững bổ sung (2026-06, P7 50 nền)
+> Chi tiết: `data_wbes/analysis/p7_robustness_suite_2026-06.md`; thuật toán: `dist/osf/P7_capstone/code/p7_run_50econ.py` + bootstrap WCR thủ công (FWL).
+- **Cụm nhỏ (wild-cluster CGM, B=9.999):** độ cong Nhóm IV p: 0,001 (CRV1) → ≈0,10 (wild); Đang nổi ≈0,33; SIDS-linear ≈0,30 → suy luận phi tuyến neo ở cấp gộp (M2, 49 cụm, β₂=−1,399, p<,001).
+- **Đa kiểm định (Holm/Bonferroni):** cả 4 tương tác TCI/DAI không có ý nghĩa thô lẫn sau hiệu chỉnh → kết luận level-shifter vững.
+- **Bất biến đo lường:** mục web/TCI hiện diện ~99% ở cả 3 lược đồ; DAI mean 0,30→0,46→0,53 (khuếch tán thực).
+- **Chọn lọc (IMR):** M5 TP 43,6%→43,5%; β₂=−0,732 (p<,001); IMR=−0,414 (p=,317, n.s.) → không có thiên lệch chọn lọc trong độ cong.
