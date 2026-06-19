@@ -63,3 +63,40 @@ printed coefficients, and commit the resulting `vietnam_*_analytic.dta` + an est
 the numbers are auditable; or (b) if the harmonised CSV is the canonical path, update §4.5.6 to
 the CSV-reproducible DAI_z values. No thesis number was changed pending the candidate's choice of
 authoritative build.
+
+---
+
+## Real-.dta reproduction attempt (2026-06-19) — pattern reproduces, exact values do not
+
+Built directly from the raw Vietnam WBES `.dta` (`scripts/p3_dai_reproduce.py`), porting
+`01/02_*.do`. **Blocker found:** the committed `.do` denominates labour productivity by `b1_d`,
+a field **absent** from the raw files; the WBES-standard worker field `l1` was substituted (the
+P7 canonical also uses `l1`). With that substitution and the documented spec (FSTS=`d3c`,
+winsorise-within-wave, `dai_samp`/`full_samp`):
+
+| | 2009 | 2015 | 2023 | source model |
+|---|--:|--:|--:|---|
+| **M6 DAI-only** DAI_z | +0.273 | +0.045 (ns) | +0.153 | level |
+| **M7 dual-direct** DAI_z | +0.201 | +0.014 (ns) | +0.128 | TCI_z+DAI_z (full_samp) |
+| **Manuscript §4.5.6 / P3** | **+0.175** | **−0.044** | **+0.095** | M7 |
+| M2 β₁ (FSTS) | +0.575 | +0.952 | +0.852 | quad |
+| **Manuscript M2 β₁** | **1.045** | **1.159** | **0.962** | quad |
+
+**Reading.** Including `TCI_z` (M7) pulls DAI_z down from +0.27 (M6) toward the manuscript's
++0.175 — confirming §4.5.6 reports the **M7 dual-direct** coefficient — and the
+**sign/significance pattern reproduces** (2009 sig / 2015 ns / 2023 sig). However the **exact
+magnitudes do not**: M2 β₁ is ~0.58 here vs 1.045 in the manuscript, a gap too large to be the
+DAI control alone. The most likely cause is the **labour-productivity denominator** (`b1_d` in
+the `.do` vs `l1` substituted here) and/or the FSTS-centering sample, which shift `lnLP` and the
+FSTS slope and propagate through the whole M0–M8 web.
+
+**Decision.** The thesis/P3-manuscript numbers were **not overwritten**: the candidate's figures
+form a dense, internally consistent M0–M8 Stata web, and substituting an approximate Python build
+that fails to match even M2 β₁ would introduce errors and break that consistency. The reproducible
+pipeline is committed as an audit artifact showing the pattern holds.
+
+**To finish option (a) faithfully, one input is needed from the candidate:** the exact
+labour-productivity denominator used in the P3 Stata build (i.e., what `b1_d` maps to in the raw
+WBES Vietnam files — `l1`? `l1`+temp? a derived employment variable?), plus confirmation of the
+FSTS-centering sample. With that, the Python port can be aligned to reproduce the manuscript
+numbers exactly, and §4.5.6 can be made fully auditable.
