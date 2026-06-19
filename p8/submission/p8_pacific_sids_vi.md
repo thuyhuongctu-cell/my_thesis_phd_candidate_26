@@ -1,5 +1,8 @@
 # Hình phạt Quốc tế hóa Cưỡng bức: Hiệu quả Doanh nghiệp tại các Quốc đảo nhỏ đang phát triển Thái Bình Dương
 
+> ⚠️ **ĐÃ THAY THẾ (2026-06-19).** Bản thảo này trình bày FIP mạnh, vững (β=−1,339) trên mẫu SIDS gồm Timor-Leste / hạn chế. Đã được thay thế bởi bản redesign tại `p8/submission/world_development_redesign/` ("When the Inverted-U Dissolves"): dùng 7 nền Pacific SIDS thật (loại Timor theo WB/UN), dissolution là phát hiện vững, FIP là trường hợp giới hạn lý thuyết. Không nộp bản này.
+
+
 *Bản dịch tiếng Việt. Nguồn: p8/p8_pacific_sids_en_clean.md (7 Pacific SIDS, N=959)*
 *Dịch thuật: Claude AI theo chuẩn văn phong học thuật CTU (09b_vn_term_glossary.md v1.4)*
 *Ngày: 2026-06-09*

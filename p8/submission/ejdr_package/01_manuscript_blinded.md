@@ -1,5 +1,8 @@
 # Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States
 
+> ⚠️ **SUPERSEDED (2026-06-19).** This draft presents a strong, robust Forced Internationalization Penalty (β=−1.339) on a Timor-inclusive / restricted SIDS sample. It is superseded by the redesigned manuscript in `p8/submission/world_development_redesign/` ("When the Inverted-U Dissolves"), which uses the 7 genuine Pacific SIDS (Timor-Leste excluded per WB/UN), frames dissolution as the robust finding, and treats FIP as a theoretical limiting case. Do not submit this version.
+
+
 **Keywords**: internationalization–performance relationship; small
 island developing states; forced internationalization; institutional voids; Pacific economies; labor productivity
 
