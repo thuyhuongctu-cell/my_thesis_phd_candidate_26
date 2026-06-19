@@ -41,3 +41,32 @@ defending the FIP contribution:
    and should be revisited once (1)–(2) are resolved.
 
 **No thesis/manuscript number was changed** — this is a reproduction diagnostic for the candidate.
+
+---
+
+## Filter search for the N=209 sample (option a, exhausted 2026-06-19)
+
+The committed P8 coefficients show **all models at N≈209** (M1=209, M3=205), so −1.339 is the
+control-and-capability-complete sample, not a basic-controls sample. Testing every plausible
+required-complete set on the **current** 7-Pacific SIDS data:
+
+| Required-complete set | M1 β(FSTS_c) | N |
+|---|--:|--:|
+| basic controls only | +0.022 | 515 |
+| + tci_z | +0.095 | 500 |
+| + dai_z | +0.028 | 513 |
+| + tci_z + dai_z (capability-complete) | +0.102 | 498 |
+| **Paper** | **−1.339** | **209** |
+
+**Conclusion.** No subset of the current data reproduces N=209, and every subset yields a
+**positive** FSTS coefficient. The current raw SIDS `.dta` contains ~2.5× more complete firms
+than the paper's sample (current ≈498–515 vs paper 209 for the same 7 economies and control set),
+so the −1.339 result derives from a **data version not present in the repository** — the raw SIDS
+`.dta` files themselves appear to have grown/changed since P8 was estimated. The N=209 sample
+cannot be reconstructed here.
+
+**Required from the candidate (only she can resolve this):** locate and commit the **exact P8
+analytic `.dta`** (the ~209-firm capability-complete SIDS sample that yields β=−1.339), or the
+exact raw SIDS `.dta` snapshot used. Until then the FIP result is not reproducible from the repo,
+and a referee reproducing on current data obtains a positive coefficient. This blocks a credible
+P8 submission and should be reconciled against thesis §4.7.
