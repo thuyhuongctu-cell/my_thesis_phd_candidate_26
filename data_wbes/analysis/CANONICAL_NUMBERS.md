@@ -37,7 +37,7 @@
 | III. Upper_mid | 12.055 | 55,0% | 0,263 | Giữa, không định vị tin cậy |
 | IV. Lower_mid_transition | 42.094 | **43,0%** | < 0,001 | **Giữa**: chữ U ngược SẮC NÉT |
 | V. Emerging | 15.457 | 34,8% | 0,184 | **Dưới**: cấu trúc tan rã |
-| VI. SIDS_small (z-spec) | 1.818 | — (âm) | — | **Dưới**: đảo chiều đến FIP |
+| VI. SIDS_small (z-spec) | 1.818 | — (n.s.) | — | **Dưới**: chữ U ngược tan rã; FIP là trường hợp giới hạn |
 
 ## 4. Các construct/nghiên cứu thành phần
 

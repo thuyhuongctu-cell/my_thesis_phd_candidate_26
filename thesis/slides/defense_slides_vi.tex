@@ -145,7 +145,7 @@
       \draw[-{Latex[length=2mm]},dashed,accent2] (t1) -- ($(i)!0.5!(p)+(0,0.12)$);
       \draw[-{Latex[length=2mm]},dashed,accent2] (t2.north) -- (i.south);
       \draw[-{Latex[length=2mm]},dashed,accent2] (t3.north) -- (p.south);
-      \node[mod,fill=gray!10,draw=gray,below=1.7cm of $(i)!0.5!(p)$] (fip) {Điều kiện biên FIP (H1b) tại SIDS\\$\Rightarrow$ âm đơn điệu};
+      \node[mod,fill=gray!10,draw=gray,below=1.7cm of $(i)!0.5!(p)$] (fip) {Điều kiện biên FIP (H1b) tại SIDS\\$\Rightarrow$ chữ U ngược tan rã};
       \draw[-{Latex[length=2mm]},dotted,thick,gray] (fip) -- ($(i)!0.5!(p)-(0,0.12)$);
     \end{tikzpicture}}
     \end{column}
@@ -173,7 +173,7 @@
 \begin{frame}{Hệ giả thuyết H1--H6 (+ H1b, H1c)}
   \begin{itemize}\small
     \item \kw{H1} --- Quan hệ I--P có dạng \hl{phi tuyến chữ U ngược}, có điểm uốn (turning point) tối ưu.
-    \item \kw{H1b (FIP)} --- Tại SIDS (Nhóm VI), khi cả ba điều kiện cấu trúc tối thiểu bị vi phạm, quan hệ chuyển thành \hl{âm đơn điệu, không có điểm uốn} --- \emph{gánh nặng quốc tế hóa bắt buộc}.
+    \item \kw{H1b (FIP)} --- Tại SIDS (Nhóm VI), khi cả ba điều kiện cấu trúc tối thiểu bị vi phạm, dạng chữ U ngược \hl{tan rã} (mất cả độ cong lẫn độ dốc có ý nghĩa); quan hệ nghiêng về dạng âm đơn điệu như \emph{trường hợp giới hạn} --- \emph{gánh nặng quốc tế hóa bắt buộc}.
     \item \kw{H1c} --- Ngưỡng chữ U ngược có thể \hl{tan biến} dưới biến động thể chế cực đoan (Ấn Độ, P9; lồng dưới H1/H6).
     \item \kw{H2} --- TCI điều tiết dương: nâng mặt bằng hiệu quả (level shifter).
     \item \kw{H3} --- DAI điều tiết \emph{phi đơn điệu, phụ thuộc thể chế}: làm thay đổi độ cong ("lá chắn số").
@@ -240,7 +240,7 @@
     \begin{itemize}\scriptsize
       \item Giữa (Nhóm IV chuyển đổi): chữ U ngược \emph{sắc nét}, $\text{TP}=\hl{43{,}0\%}$ ($p<{,}001$).
       \item Trên (Nhóm I, gồm Nhật Bản): \emph{gần tuyến tính}, điểm uốn ngoài miền dữ liệu.
-      \item Dưới (Emerging/SIDS): cấu trúc \emph{tan rã}; SIDS đảo chiều thành FIP.
+      \item Dưới (Emerging/SIDS): cấu trúc \emph{tan rã}; FIP là trường hợp giới hạn lý thuyết.
     \end{itemize}
     Hai nguồn độc lập xác nhận: meta P6 ($Q_M=17{,}35$) và hồi quy P7.
     \end{column}
@@ -271,18 +271,18 @@
 \begin{frame}{Kết quả 2: Gánh nặng quốc tế hóa bắt buộc (FIP) tại SIDS}
   \begin{columns}[T]
     \begin{column}{0.55\textwidth}\small
-    Tại 7 nền kinh tế Pacific SIDS (Nhóm VI), mô hình tuyến tính cho:
-    \[ \hat\beta(\text{FSTS}_c) = \hl{-1{,}339},\ SE=0{,}386,\ p<{,}001^{***} \]
+    Tại các nền kinh tế Pacific SIDS (Nhóm VI), phát hiện \emph{vững} trên mẫu đầy đủ tám nền ($N=1.916$, tám cụm) là \hl{sự tan rã của chữ U ngược}:
+    \[ \hat\beta(\text{FSTS}^2)=+0{,}553\ (p_{wild}={,}21);\ \ \hat\beta(\text{FSTS})=-0{,}161\ (p_{wild}={,}25) \]
     \begin{itemize}
-      \item Bổ sung FSTS$^2$ \emph{không} có ý nghĩa $\Rightarrow$ quan hệ \hl{âm đơn điệu, không turning point}.
-      \item Mẫu chỉ exporters ($N=26$): $\hat\beta=-1{,}176$, $p={,}130$ (NS, thiếu công suất).
+      \item Cả độ cong lẫn độ dốc \emph{không} có ý nghĩa $\Rightarrow$ \hl{không có điểm uốn, không có chữ U ngược}.
+      \item Hệ số âm mạnh $-1{,}339$ ($p<{,}001$) chỉ xuất hiện trên bản dựng dữ liệu hạn chế \emph{ba cụm}; mang tính minh họa và nhạy cảm với phiên bản dữ liệu.
     \end{itemize}
     \kw{Ba điều kiện cấu trúc bị vi phạm đồng thời:}
-    (1) thị trường nội địa quá nhỏ; (2) chi phí thương mại/hậu cần cực cao; (3) thiếu hỗ trợ thể chế xuất khẩu.
+    (1) thị trường nội địa quá nhỏ; (2) chi phí thương mại, hậu cần cực cao; (3) thiếu hỗ trợ thể chế xuất khẩu.
     \end{column}
     \begin{column}{0.45\textwidth}
     \begin{block}{Đóng góp gốc}
-    \small \hl{FIP} là construct lý thuyết \emph{mới} --- lần đầu được định danh trong literature I--P: doanh nghiệp SIDS xuất khẩu \emph{để sinh tồn}, không phải để khai thác lợi thế cạnh tranh. Xác nhận H1b.
+    \small \hl{FIP} là cấu trúc lý thuyết \emph{mới} --- lần đầu được định danh trong tài liệu I--P như \emph{trường hợp giới hạn} của sự tan rã: doanh nghiệp SIDS xuất khẩu \emph{để sinh tồn}, không phải để khai thác lợi thế cạnh tranh. Ủng hộ H1b theo hướng tan rã.
     \end{block}
     \centering
     \scalebox{0.85}{
@@ -348,7 +348,7 @@
     \textbf{Giả thuyết} & \textbf{Nội dung} & \textbf{Kết quả} \\
     \midrule
     H1 (chữ U ngược) & I--P dạng inverted-U & \kw{Xác nhận} (SG, TQ, VN, P7; trừ SIDS) \\
-    H1b (FIP) & SIDS: âm đơn điệu & \kw{Xác nhận} ($\beta=-1{,}339$, $p<{,}001$) \\
+    H1b (FIP) & SIDS: chữ U ngược tan rã; FIP là trường hợp giới hạn & \kw{Ủng hộ} (mẫu đầy đủ: độ cong \& độ dốc n.s.; $-1{,}339$ chỉ ở bản dựng ba cụm) \\
     H1c (tan biến) & Ngưỡng tan biến (Ấn Độ) & \kw{Xác nhận} ($z=-7{,}94$, $p<{,}0001$) \\
     H2 (TCI dương) & TCI khuếch đại I--P & Xác nhận \emph{một phần}: nâng mặt bằng phổ quát; uốn cong chỉ ở VN, NS toàn mẫu P7 \\
     H3 (DAI) & DAI đổi độ dốc & \kw{Xác nhận}: level effect ($\beta=+0{,}155^{***}$); DAI$\times$ICRV $p={,}012$ ("lá chắn số") \\
@@ -363,7 +363,7 @@
 \begin{frame}{Đóng góp lý thuyết}
   \begin{enumerate}
     \item \kw{Khung CDCM} --- kiến trúc tích hợp đa tầng (Uppsala + RBV + thể chế + thượng tầng quản trị + digital lens), mỗi tầng giải thích một loại heterogeneity của I--P.
-    \item \kw{Construct mới FIP} (Forced Internationalization Penalty) --- lần đầu định danh quan hệ I--P âm đơn điệu tại điều kiện biên cực đoan (SIDS), biện minh bằng ba điều kiện cấu trúc.
+    \item \kw{Construct mới FIP} (Forced Internationalization Penalty) --- lần đầu định danh trường hợp giới hạn nơi chữ U ngược tan rã tại điều kiện biên cực đoan (SIDS), biện minh bằng ba điều kiện cấu trúc.
     \item \kw{Taxonomy ICRV} --- khung phân loại thể chế 6 nhóm cho 50 nền, công cụ tái sử dụng cho nghiên cứu I--P tương lai.
     \item \kw{Phân tách TCI vs DAI} --- hai construct số độc lập, cơ chế khác nhau (level shifter vs curve reshaper).
     \item \kw{Tái định vị Uppsala} cho kỷ nguyên số: "data-augmented learning".
@@ -420,7 +420,7 @@
   \begin{enumerate}
     \item Quan hệ I--P ở châu Á có dạng \hl{chữ U ngược} nhưng định hình theo \emph{ba vùng thể chế}: sắc nét ở nhóm chuyển đổi (TP $\approx 43\%$), gần tuyến tính ở thể chế mạnh nhất (gồm Nhật Bản), tan rã ở thể chế yếu nhất.
     \item \kw{TCI} là năng lực nền tảng nâng mặt bằng hiệu quả phổ quát; \kw{DAI} là nguồn lực tình huống đổi độ cong, mạnh nhất ở thể chế yếu ("lá chắn số").
-    \item Tại \kw{SIDS}, quan hệ chuyển thành âm đơn điệu --- \hl{FIP}, construct lý thuyết mới của luận án.
+    \item Tại \kw{SIDS}, dạng chữ U ngược tan rã; \hl{FIP} là trường hợp giới hạn lý thuyết --- construct mới của luận án.
     \item Đóng góp: khung tích hợp \kw{CDCM}, taxonomy \kw{ICRV}, construct \kw{FIP}; cùng hàm ý chính sách/quản trị theo từng bối cảnh thể chế.
   \end{enumerate}
   \vspace{0.3em}
