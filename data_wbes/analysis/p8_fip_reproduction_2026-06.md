@@ -119,3 +119,33 @@ it to 7 economies / N=844. In every configuration the FSTS coefficient is **non-
 (M1 positive, M2/M3 weakly negative). Country composition does **not** recover the −1.339: the
 root cause is the firm-count gap (current ≈610–844 vs paper 209), i.e., the current raw `.dta`
 contain substantially more firms than the version the paper was estimated on.
+
+---
+
+## RECOVERED (2026-06-19): the −1.339 data is in git history — but it is a 3-economy result
+
+The data version that yields the paper's FIP was found at commit **`0b288f3`** (2026-06-08),
+where `p7_pooled_clean.csv` had 106,766 rows (before the 2026-06-15 "rebuild incl Japan"). Running
+P8 M1 on it reproduces **exactly**: β(FSTS) = **−1.339** (SE 0.387, p = .0005, **N = 209**).
+
+**But the N=209 sample contains only THREE economies:**
+
+| Economy | Wave | n |
+|---|---|--:|
+| Fiji | 2009 | 70 |
+| Papua New Guinea | 2015 | 62 |
+| Vanuatu | 2009 | 77 |
+| **Total** | | **209** |
+
+At commit 0b288f3 the other four "Pacific SIDS" (Kiribati, Samoa, Solomon Islands, Tonga) had **no
+control-complete pre-2018 wave** in the frame, so the headline FIP — described as spanning seven
+Pacific SIDS — is in fact estimated on **three economies / three clusters**. The 2026-06-15 rebuild
+added Samoa-2009, Solomon-2015 and Tonga-2009 (control-complete old waves), and with the full data
+the FSTS coefficient turns **non-significant / sign-unstable** (M1 +0.35; M2/M3 weakly negative).
+
+**Assessment.** The −1.339 is reproducible (data pinned at `p8/replication/data/p8_sids_pinned_0b288f3.csv`),
+but as a *three-economy, three-cluster* estimate it does **not** support the paper's claim of a robust
+FIP across seven Pacific SIDS, and it does not survive the addition of the other economies' old waves.
+Cluster inference with three clusters is not valid (boottest needs more clusters). This is a
+substantive robustness problem, not merely a data-versioning one, and the candidate must decide how to
+reframe the FIP contribution (and thesis §4.7) accordingly.
