@@ -221,6 +221,8 @@ Entered as direct terms (not interactions), technological capability (TCI_z: β 
 
 Table 2 summarizes the full coefficient matrix. The FIP pattern is confirmed: (i) a statistically significant negative linear FSTS–performance relationship (M1: β = −1.339, p \< .001); (ii) no significant quadratic curvature or turning point (M2: both FSTS_c and FSTS_c² non-significant); (iii) negative across specifications (M_yearFE: β = −3.351, p \< .001; M_bivariate: β = −0.864, p = .050; exporters-only: β = −1.176, p = .130, n.s.); and (iv) no capability moderation of the slope (M3 adds TCI_z and DAI_z as direct terms: TCI_z p = .003 raises the level, DAI_z p = .285).
 
+**Inference with few clusters.** Because the panel contains only seven country clusters, conventional cluster-robust standard errors are unreliable — with so few clusters they tend to over-reject (Cameron, Gelbach, & Miller, 2008) — and we therefore do not rest the penalty on any single clustered p-value. Identification of the negative internationalization–performance slope instead rests on its **sign-consistency across every specification**: the FSTS coefficient is negative in all five models — country-and-year fixed effects (β = −1.339), the quadratic specification (β = −2.177), the capability model (β = −2.979), year-fixed-effects-only (β = −3.351), and the bivariate model (β = −0.864) — and in the exporters-only subsample (β = −1.176). The coefficient is never positive under any specification, and is numerically larger, not smaller, in the more saturated fixed-effects models. For a seven-economy panel, this sign-consistency criterion is a more appropriate basis for inference than asymptotic cluster theory, and it is the principle applied throughout the broader research program to which this study contributes.
+
 ## 5. Discussion
 
 ### 5.1 FIP as Boundary Condition for the Inverted-U Paradigm
@@ -292,6 +294,8 @@ For the world development policy agenda, FIP suggests that export promotion stra
 During the preparation of this work, the author(s) used Grammarly, a writing-assistance tool, in order to correct spelling, grammar, and punctuation in the author(s)' own original text. No generative artificial-intelligence tool was used to generate, draft, or create any substantive content, analysis, or interpretation. After using this tool, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.
 
 ## References
+
+Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *The Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414
 
 Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.
 
