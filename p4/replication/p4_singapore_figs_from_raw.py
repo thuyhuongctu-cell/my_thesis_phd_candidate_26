@@ -10,14 +10,15 @@ import matplotlib.ticker as mtick
 from statsmodels.formula.api import ols
 warnings.filterwarnings('ignore')
 
-UPLOAD = '/root/.claude/uploads/4342a099-4c09-46f0-a81b-f754f349e99f'
 import os
+# Resolve the Singapore raw file from the committed repo data (override via WBES_RAW).
+UPLOAD = os.environ.get('WBES_RAW', os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'data_wbes', 'raw_dta'))
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(REPO, 'manuscripts', 'figures', 'p3_singapore')
 os.makedirs(OUT, exist_ok=True)
 
 # ── 1. Load data ──────────────────────────────────────────────────────────────
-df_raw, meta = pyreadstat.read_dta(f'{UPLOAD}/d0ca2a21-Singapore2023fulldata.dta')
+df_raw, meta = pyreadstat.read_dta(f'{UPLOAD}/Singapore-2023-full-data.dta')
 df = df_raw.copy()
 
 for col in df.columns:
