@@ -87,7 +87,9 @@ Table 1 reports the model ladder. Adding a linear FSTS term to the controls leav
 
 ### 4.2 Conditional inversion: a U-shape, not an inverted-U (Proposition 2)
 
-Once technological capability and digital adoption are held constant (M3), the curvature is **positive and marginally robust** (β₂ = +0.844, wild-bootstrap p = .07), with a negative linear term (β₁ = −0.860). The implied shape is **convex (U-shaped)**: productivity declines with export intensity across the low-to-moderate range and turns up only beyond an interior *minimum* around the high-FSTS region that few island firms reach. This is the mirror image of the mainland inverted-U. Substantively, the dominant mass of SIDS firms—almost all at low-to-moderate FSTS—sits on the **descending limb**, where additional export intensity is associated with lower productivity: the empirical signature consistent with the FIP mechanism.
+Once technological capability and digital adoption are held constant (M3), the curvature is **positive and marginally robust** (β₂ = +0.844, wild-bootstrap p = .07), with a negative linear term (β₁ = −0.860). The implied shape is **convex (U-shaped)**: productivity declines with export intensity across the low-to-moderate range and turns up only beyond an interior *minimum* around the high-FSTS region that few island firms reach. This is the mirror image of the mainland inverted-U.
+
+![**Figure 1.** The inverted-U inverts at the periphery. Mainland transition economies show a concave inverted-U (panel a); Pacific SIDS, conditional on firm capability, show a convex U-shape (panel b) with a productivity penalty across the low-to-moderate export-intensity range where almost all island firms operate.](figures/p8_fig1_dissolution_en.png) Substantively, the dominant mass of SIDS firms—almost all at low-to-moderate FSTS—sits on the **descending limb**, where additional export intensity is associated with lower productivity: the empirical signature consistent with the FIP mechanism.
 
 ### 4.3 Capability raises the level but does not restore the curve (Proposition 3)
 
