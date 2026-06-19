@@ -101,3 +101,21 @@ negative penalty) is not supported by the current repository data. Options:
 2. **Adopt the current data** and substantially revise P8 (and thesis §4.7): the SIDS I–P relation
    is *null/weak*, not a strong FIP — which is a different (weaker) contribution.
 This is a substantive call for the candidate; no paper/thesis text was rewritten.
+
+---
+
+## Country-composition sensitivity (2026-06-19)
+
+Re-ran the FIP under different SIDS economy sets on current raw .dta (FE + CRV1 by economy):
+
+| Set | M1 β(FSTS) | p | N | #econ |
+|---|--:|--:|--:|--:|
+| 7 Pacific (Kiribati has no old wave → 6 in M1) | +0.352 | 0.32 | 610 | 6 |
+| 8 econ: 7 Pacific + Timor-Leste (Comoros dropped) | +0.118 | 0.58 | 844 | 7 |
+
+Note: **Kiribati has only the 2025 wave** (no foreign-ownership control → 0 firms in M1), so the
+7-Pacific FIP is effectively estimated on 6 economies. Adding Timor-Leste (2009/2015/2021) raises
+it to 7 economies / N=844. In every configuration the FSTS coefficient is **non-significant**
+(M1 positive, M2/M3 weakly negative). Country composition does **not** recover the −1.339: the
+root cause is the firm-count gap (current ≈610–844 vs paper 209), i.e., the current raw `.dta`
+contain substantially more firms than the version the paper was estimated on.
