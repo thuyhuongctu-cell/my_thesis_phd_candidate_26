@@ -188,6 +188,12 @@ Taken together, the moderation results relocate the explanatory weight from capa
 
 ---
 
+### 4.8 Robustness
+
+Four supplementary checks bound the inference. *(i) Few-cluster inference.* Because the per-ICRV-group turning points rest on only 6–16 economies, cluster-robust (CRV1) standard errors can over-reject. A restricted wild-cluster bootstrap (Cameron, Gelbach, & Miller, 2008; Rademacher weights, B = 9,999, clustered by economy) inflates the per-group curvature p-values: the sharp transition-regime inverted-U (Group IV, β₂ = −1.012) moves from p = 0.001 (CRV1) to p ≈ 0.10, while the emerging and SIDS groups remain non-significant. Formal non-linearity inference is therefore anchored at the pooled level (M2, 49 clusters, β₂ = −1.399, p < .001) and triangulated with the companion meta-analysis, with the per-ICRV turning points read as a descriptive gradient rather than independently powered tests. *(ii) Multiple testing.* Holm and Bonferroni corrections applied to the four-term capability-interaction family (FSTS×TCI, FSTS²×TCI, FSTS×DAI, FSTS²×DAI) leave every term non-significant, so the capability-as-level-shifter conclusion is not a false negative produced by uncorrected testing. *(iii) Measurement invariance.* The Tier-1 DAI (website) and TCI component items are populated for ~99% of firms in all three WBES schema generations; the DAI mean rises monotonically (0.30 → 0.46 → 0.53), indicating genuine diffusion rather than a schema discontinuity, so cross-wave comparisons rest on item-comparable measures. *(iv) Selection into exporting.* Adding an inverse-Mills term from an export-participation probit to the controlled specification leaves the curvature and turning point essentially unchanged (43.6% → 43.5%; β₂ = −0.732, p < .001) with a non-significant Mills ratio (p = 0.317), indicating no detectable Melitz-type selection bias in the estimated curvature. Full procedures and statistics are reported in the online supplement.
+
+---
+
 ## 5. Discussion
 
 ### 5.1 Resolution of Cross-Study Heterogeneity
@@ -208,7 +214,7 @@ On the canonical specification, manager sectoral experience carries no significa
 
 ### 5.5 Limitations
 
-Three inferential constraints bound these findings. First, WBES is a cross-sectional design: "performance" throughout refers to a contemporaneous association between FSTS and labour productivity in a given survey year, not a panel-tracked causal effect. The IV strategy used in the single-country P3 Vietnam study to address selection into exporting is not available at scale across 50 economies, and capability-based selection into exporting is part of what the capability-adjusted turning point (M4) reveals rather than a nuisance assumed away. Second, the DAI measure is limited to Tier-1 (website) capability in the harmonised pool; the richer digital-capability dimensions captured in more recent BEE-schema waves are not yet available for the majority of economies, which likely contributes to the null curve-reshaping result. Third, the dataset covers all 50 ICRV-mapped economies across six regime groups, including Japan's inaugural 2025 wave; some early waves predate the digital-capability and manager variables, limiting their contribution to the baseline models. Future WBES waves would sharpen the moderation estimates, particularly for the sparser Advanced and SIDS regimes.
+Three inferential constraints bound these findings. First, WBES is a cross-sectional design: "performance" throughout refers to a contemporaneous association between FSTS and labour productivity in a given survey year, not a panel-tracked causal effect. The instrumental-variable strategy used in the single-country P3 Vietnam study to address selection into exporting is not available at scale across 50 economies; the pooled inverse-Mills selection check (Section 4.8) indicates the estimated curvature is not driven by selection into exporting, but a panel-tracked causal design remains out of reach, and capability-based selection into exporting is part of what the capability-adjusted turning point (M4) reveals rather than a nuisance assumed away. Second, the DAI measure is limited to Tier-1 (website) capability in the harmonised pool; the richer digital-capability dimensions captured in more recent BEE-schema waves are not yet available for the majority of economies, which likely contributes to the null curve-reshaping result. Third, the dataset covers all 50 ICRV-mapped economies across six regime groups, including Japan's inaugural 2025 wave; some early waves predate the digital-capability and manager variables, limiting their contribution to the baseline models. Future WBES waves would sharpen the moderation estimates, particularly for the sparser Advanced and SIDS regimes.
 
 ---
 
@@ -233,6 +239,8 @@ Buchhave, H., Nguyen, C. V., Vu, C., Nguyen, G. T., & Zumbyte, I. (2026). *Care 
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization-performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
 
 Chiao, Y.-C., Yang, K.-P., & Yu, C.-M. J. (2006). Performance, internationalization, and firm-specific advantages of SMEs in a newly-industrialized economy. *Small Business Economics, 26*(5), 475–492. https://doi.org/10.1007/s11187-005-5599-z
+
+Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *The Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414
 
 Cho, H., Kim, C., & Han, S. (2023). Business group affiliation and the internationalization–performance relationship: Evidence from Korean firms. *Journal of International Business Studies, 54*(3), 487–509.
 
