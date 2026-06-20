@@ -358,7 +358,7 @@ Phần này tổng hợp tiêu chuẩn viết cụ thể từ 7 tài liệu gố
 | A4 | Outlier: báo cáo phương pháp phát hiện, quy tắc quyết định, bước xử lý, kết quả **có và không có** outlier | "Cook's distance > 4/n flagged 127 firms; results excluding outliers reported in Table A2 (Δβ < 0.003)" |
 | A5 | Biến kiểm soát: **biện minh lý thuyết cho từng biến**; báo cáo kết quả có và không có kiểm soát | "Firm age is included because older firms accumulate institutional knowledge (Hitt et al., 1997)" |
 | A6 | Báo cáo **tất cả** kiểm định giả định thống kê: normality, heteroscedasticity, independence, homogeneity | "Breusch–Pagan test confirmed heteroscedasticity (BP = 84.3, p < .001), justifying HC1 correction" |
-| A7 | Báo cáo thống kê mô tả đầy đủ (mean, SD, min, max) **và** ma trận tương quan/hiệp phương sai cho **tất cả** biến | Table 2: Descriptive statistics and correlation matrix (n = 101,185) |
+| A7 | Báo cáo thống kê mô tả đầy đủ (mean, SD, min, max) **và** ma trận tương quan/hiệp phương sai cho **tất cả** biến | Table 2: Descriptive statistics and correlation matrix (n = 88,869) |
 | A8 | Định nghĩa khái niệm **trước** khi vận hành hóa — không nhầm construct với measure | "Labour productivity is defined as… and operationalized as ln(annual sales PPP / permanent employees)" |
 
 **Anti-pattern (tránh)**:

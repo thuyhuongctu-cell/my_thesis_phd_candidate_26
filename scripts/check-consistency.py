@@ -17,13 +17,15 @@ from typing import Optional
 
 # ─── Canonical figures ────────────────────────────────────────────────────────
 CANONICAL = {
-    # CĐ1 / CĐ2 pool
-    "pool_firms":          {"values": ["101.185", "101,185"], "wrong": ["101.035", "101,035", "101.135", "101,135"], "label": "Pool firms (CĐ1/CĐ2)"},
-    "pool_economies":      {"values": ["47 nền kinh tế", "47 economies", "47 economies"], "wrong": ["48 nền", "46 nền"], "label": "47 economies"},
-    "pool_country_year":   {"values": ["108 cặp", "108 country-year"], "wrong": ["107 cặp", "109 cặp"], "label": "108 country-year pairs"},
+    # CĐ1 / CĐ2 pool — canonical analytic frame 88.869/50/103 (ICRV pool 96.415/52 source)
+    # NOTE: 91.982/49 (P7 legacy build) and "49 nền" (P6 meta-analysis ICRV scope) are
+    # legitimate when explicitly labelled, so they are NOT listed as wrong here.
+    "pool_firms":          {"values": ["88.869", "88,869", "96.415", "96,415"], "wrong": ["101.185", "101,185"], "label": "Pool firms (88.869 analytic / 96.415 ICRV)"},
+    "pool_economies":      {"values": ["50 nền kinh tế", "50 economies"], "wrong": ["47 nền", "47 economies"], "label": "50 economies"},
+    "pool_country_year":   {"values": ["103 cặp", "103 country-year"], "wrong": ["108 cặp", "108 country-year", "107 cặp", "109 cặp"], "label": "103 country-year pairs"},
     "pool_waves":          {"values": ["14 mốc", "14 survey waves", "14 đợt"], "wrong": ["13 mốc", "15 mốc"], "label": "14 survey waves"},
-    # ICRV groups — must sum to 47
-    "icrv_sum_check":      {"values": ["5+5+6+7+17+7"], "wrong": [], "label": "ICRV sum 5+5+6+7+17+7=47"},
+    # ICRV groups — must sum to 50 (Nhật vào Nhóm I; SIDS_small 8 nền)
+    "icrv_sum_check":      {"values": ["6+6+6+7+17+8"], "wrong": ["5+5+6+7+17+7"], "label": "ICRV sum 6+6+6+7+17+8=50"},
     # P3 Vietnam
     "p3_n":                {"values": ["N=2,958", "N = 2,958", "2,958 firm", "2.958 doanh"], "wrong": ["N=2958", "N=2.858", "N=2,968"], "label": "P3 N=2,958"},
     "p3_tp":               {"values": ["39.*46.*%", "39–46%", "39-46%"], "wrong": [], "label": "P3 turning points 39–46% FSTS"},

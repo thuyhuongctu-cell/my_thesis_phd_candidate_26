@@ -625,7 +625,7 @@ returns — precisely the condition captured by ICRV.
 **Paragraph 6 — Why Asia-Pacific ICRV diversity provides the right test:**
 
 The Asia-Pacific WBES sample examined in this dissertation offers an analytically ideal
-test bed for context-contingent DAI moderation. The 47 economies span the full ICRV
+test bed for context-contingent DAI moderation. The 50 economies span the full ICRV
 spectrum — from Singapore's world-class digital infrastructure (Global Connectivity Index
 rank 1, ITU 2024) to frontier economies with less than 20% broadband penetration and
 fragmented e-payment regulation. This institutional heterogeneity is far greater than
@@ -704,8 +704,11 @@ A significant z confirms the ICRV regime gradient in DAI moderation.
 | `data_wbes/analysis/pooled_wbes_6waves.csv` | 8,589 | P3/P4/P5 countries only (Vietnam, Singapore, China) | Working dataset for empirical papers |
 | `data_wbes/p7/p7_pooled_clean.csv` | 102,332 total; 91,982 non-panel | Full Asia-Pacific WBES scope (49 economies, 102 country-waves) | P7 / CD1 / CD2 full pool |
 
-**Discrepancy note**: CD1/CD2 manuscripts cite "101,185 firms · 108 country-year pairs ·
-14 survey waves · 47 economies." The current `p7_pooled_clean.csv` has 91,982 non-panel
-firms across 49 economies and 102 country-waves. This discrepancy reflects data updates
-since the CD manuscripts were drafted. When CD1/CD2 are submitted for defence, the pool
-statistics should be re-verified against the final locked P7 dataset.
+**Reconciliation note (2026-06)**: The legacy pool statistic "101,185 firms · 108
+country-year pairs · 47 economies" cited in early CD1/CD2 drafts has been superseded.
+Both manuscripts now cite the locked canonical analytic frame — **88,869 firms · 50
+economies · 103 country-year pairs · 14 survey waves** (with 96,415 ICRV-classified firms
+across 52 source economies; see `data_wbes/analysis/CANONICAL_NUMBERS.md`). The earlier
+`p7_pooled_clean.csv` build (91,982 non-panel firms / 49 economies / 102 country-waves)
+is the pre-Japan LEGACY pipeline and must not be cited. `scripts/check-consistency.py`
+enforces the canonical figures.

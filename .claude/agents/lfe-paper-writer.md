@@ -41,8 +41,8 @@ You execute the approved plan — no improvisation, no scope changes.
 ## Logic Sovereignty (CRITICAL — verify every anchor before submitting)
 - P3: TP pooled = 39.7% (range 39–46%), DAI IV β = 0.018, TCI β = 0.179, N = 2,958
 - P4: DAI×FSTS² = +3.119 (p=.005), TP ≈ 88.6%, N = 623
-- P5: TP 2012 = 49.4%, TP 2024 = 47.2%, Paternoster p = .545, N = 4,559
-- CĐ2: N = 101,185, 47 economies, 108 country-year pairs, 14 WBES waves
+- P5: TP 2012 = 49.4%, TP 2024 = 47.2%, Paternoster p = .545, N = 4,544
+- CĐ2: N = 88,869, 50 economies, 103 country-year pairs, 14 WBES waves (96,415 ICRV-classified / 52 source economies)
 - Authors: Đỗ Thùy Hương (VLUTE), Phan Anh Tú (CTU)
 - Target journals: P3→JABS, P4→MIR, P5→IJOEM
 
