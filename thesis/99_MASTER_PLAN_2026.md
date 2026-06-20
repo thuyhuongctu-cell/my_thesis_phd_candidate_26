@@ -150,14 +150,39 @@
 ### P8 — Pacific SIDS Forced Internationalization 🟡 CẦN KIỂM TRA
 - **Target journal:** World Development — ABS-4*, Elsevier (IF ~6.0)
 - **Submission portal:** editorialmanager.com/worlddev
-- **Files đã có:** `p8/submission/world_development_package/`
-- **README ghi:** "Target submission: Q3 2026 (revision of submitted version)"
-- **Nội dung bài:** 6 Pacific SIDS, FIP (Forced Internationalization Penalty), N nhỏ
+- **Files đã có:** `p8/submission/world_development_redesign/` (bản **redesign 2026-06-19**)
+- **Nội dung bài:** **7 nền Pacific SIDS** (loại Timor-Leste — không thuộc Pacific SIDS của LHQ/WB), N=1.450 (7 cụm); phát hiện **mất cấu trúc** của chữ U ngược (độ dốc −0,085, p_wild=,66; độ cong +0,696, p_wild=,082), quan hệ nghiêng về dạng âm đơn điệu — trường hợp giới hạn **FIP (Forced Internationalization Penalty)**. Hệ số FIP âm mạnh (β=−1,339) chỉ xuất hiện trên bản dựng 3 cụm hạn chế, nhạy cảm phiên bản dữ liệu.
+- **⚠️ Lưu ý:** thư mục `world_development_package/` (6 SIDS, còn gồm Timor) là **bản cũ** — dùng bản redesign 7 nền Pacific.
 
 **❓ Cần NCS xác nhận:**
-- Đã submit bản đầu chưa? Hay "revision of submitted version" là kế hoạch tương lai?
-- Nếu chưa submit: Upload và submit ngay (30 phút)
-- Nếu đã submit và đang chờ: Không cần làm gì, đợi review
+- Đã submit bản đầu tới World Development chưa?
+- Nếu chưa: upload bản redesign và submit; nếu đã submit và đang chờ: nộp bản redesign như revision.
+
+---
+
+### P9 — India Threshold Dissolution (2014–2025) 🟢 SẴN SÀNG NỘP
+- **Target journal:** Management International Review (MIR) — ABS-3, Springer (primary); IJOEM (Emerald) thay thế
+- **Submission portal:** mc.manuscriptcentral.com/mir
+- **Files đã có:**
+  - `p9_india/submission/mir_package/01_manuscript_blinded.docx`
+  - `p9_india/submission/mir_package/02_title_page.docx`
+  - `p9_india/submission/mir_package/03_cover_letter.docx`
+- **Nội dung bài:** 3 đợt WBES Ấn Độ 2014/2022/2025, N gộp phân tích = 28.717 (raw 29.136); chữ U ngược năm 2014 (TP 61,8%) và 2022 (TP 40,7%) **tan biến** thành dốc âm đơn điệu năm 2025 (độ cong p=,42); Paternoster bác bỏ bằng nhau hệ số xuyên đợt (FSTS z=−7,94; FSTS² z=+4,17); điều tiết âm của thanh toán điện tử UPI Tier-2 (FSTS×DAI_epay=−4,02, p=,004).
+- **Tiền đề đã công bố:** chương sách IntechOpen 2025 (380 DN Ấn Độ), trích dẫn như công trình tiền đề của tác giả.
+
+**NCS chỉ cần làm:** Đăng nhập ScholarOne MIR, upload 3 file theo thứ tự, submit.
+
+---
+
+### P10 — Japan Upper-Bound Institutional Test (WBES 2025) 🟡 CHUẨN BỊ GỬI
+- **Target journal:** Asian Business & Management (ABM) — ABS-2, Palgrave Macmillan
+- **Files đã có:**
+  - `p10_japan/submission/abm_package/01_manuscript_blinded.docx`
+  - `p10_japan/submission/abm_package/02_title_page.docx`
+  - `p10_japan/submission/abm_package/03_cover_letter.docx`
+- **Nội dung bài:** Nhật Bản, đợt WBES khai mở 2025, N=2.168; kiểm định **biên trên của phổ thể chế**; FSTS tuyến tính dương (+0,671***), bậc hai không ý nghĩa; phần bù xuất khẩu +0,258***. Xuất khẩu 16,8%; website 83,8%; tuổi DN 50,4; nữ quản lý 7,3%.
+
+**NCS cần làm:** Rà soát lần cuối bản thảo ABM, hoàn tất cover letter, rồi submit.
 
 ---
 
@@ -359,6 +384,8 @@ Tháng 5–6/2026 (NGAY BÂY):
   ✅ Nộp P7 (IBR)            — 1 ngày
   ✅ Nộp P6 với k=238 (JWB)  — 1 ngày  [nếu chọn Lựa chọn A]
   ✅ Xác nhận P8 status       — 30 phút
+  ✅ Nộp P9 (MIR)            — 1 ngày
+  ✅ Nộp P10 (ABM)           — 1 ngày  [rà soát cuối]
   ✅ Nộp CD1 cho GVHD        — 1 ngày in + họp
 
 Tháng 6–8/2026:
@@ -395,7 +422,9 @@ Tháng 12/2026:
 | P5 (IJOEM) | **95%** | Click Submit |
 | P6 (JWB) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
 | P7 (IBR) | **95%** | Click Submit |
-| P8 (World Dev) | **90%** | Xác nhận status, submit nếu chưa |
+| P8 (World Dev) | **90%** | Xác nhận status, submit bản redesign 7 nền |
+| P9 (MIR) | **95%** | Click Submit |
+| P10 (ABM) | **85%** | Rà soát cuối, rồi submit |
 | CD1 | **90%** | In + nộp GVHD |
 | CD2 | **90%** | In + nộp GVHD |
 | Luận án Ch.1 | **85%** | Polish + format CTU |
