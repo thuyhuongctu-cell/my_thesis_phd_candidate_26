@@ -182,6 +182,20 @@ Nhánh này rà soát phương pháp & biến số, làm tươi pipeline P7 và 
 - **Một nguồn chân lý cho bảng mô tả:** `scripts/relock_descriptives_canonical.py` tái lập mọi bảng mô tả từ raw, cùng harmonization với phần hồi quy; dòng SIDS đã re-lock về 7 nền Pacific.
 - Chi tiết quyết định: `IMPLEMENTATION_LOG.md`; số chuẩn: `data_wbes/analysis/CANONICAL_NUMBERS.md`; rà soát phương pháp: `reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md`.
 
+### Kiểm định độ vững: Timor-Leste CÓ vs KHÔNG
+
+Cùng quy trình hài hòa hóa, chỉ bật/tắt Timor-Leste (`scripts/timor_sensitivity.py`):
+
+| | **CÓ Timor** | **KHÔNG Timor** (chốt) |
+|---|--:|--:|
+| **P7** điểm uốn M2 / M5 | 51,5% / 43,6% | 51,5% / 43,5% |
+| P7 độ cong β₂ (M2) | −1,399 | −1,404 |
+| **P8 SIDS** số nền / N | 8 / 1.867 | 7 / 1.434 |
+| P8 độ dốc tuyến tính (M1) | −0,088 (n.s.) | −0,085 (n.s.) |
+| P8 độ cong (M2) | +0,598 (p=,06) | +0,696 (p=,10) |
+
+→ Kết luận **giống nhau cả hai chiều**: P7 headline gần như không đổi (Timor ≈ 0,5% mẫu); P8 = chữ U ngược **tan rã** (độ dốc null, độ cong chỉ ở mức biên, không có điểm uốn nội vùng). Loại Timor là quyết định **phân loại** (WB/UN), và kiểm định xác nhận kết luận **không phụ thuộc** lựa chọn đó. Chi tiết: `data_wbes/analysis/timor_sensitivity.md`.
+
 ---
 
 ## 📌 Ghi chú
