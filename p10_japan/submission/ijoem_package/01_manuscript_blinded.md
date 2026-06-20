@@ -228,72 +228,73 @@ Using Japan's first-ever World Bank Enterprise Survey, we show that at the upper
 
 ## References
 
-Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120.
 
-Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347.
+Barney, J. (1991), "Firm resources and sustained competitive advantage", *Journal of Management*, Vol. 17 No. 1, pp. 99-120.
 
-Bernard, A. B., Jensen, J. B., Redding, S. J., & Schott, P. K. (2007). Firms in international trade. *Journal of Economic Perspectives, 21*(3), 105–130.
+Bausch, A. and Krist, M. (2007), "The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis", *Management International Review*, Vol. 47 No. 3, pp. 319-347.
 
-Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152.
+Bernard, A.B., Jensen, J.B., Redding, S.J. and Schott, P.K. (2007), "Firms in international trade", *Journal of Economic Perspectives*, Vol. 21 No. 3, pp. 105-130.
 
-Combs, J. G., Crook, T. R., & Shook, C. L. (2005). The dimensionality of organizational performance and its implications for strategic management research. In D. J. Ketchen & D. D. Bergh (Eds.), *Research methodology in strategy and management* (Vol. 2, pp. 259–286). Emerald.
+Cohen, W.M. and Levinthal, D.A. (1990), "Absorptive capacity: A new perspective on learning and innovation", *Administrative Science Quarterly*, Vol. 35 No. 1, pp. 128-152.
 
-Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18.
+Combs, J.G., Crook, T.R. and Shook, C.L. (2005), "The dimensionality of organizational performance and its implications for strategic management research", in D.J. Ketchen and D.D. Bergh (Eds), *Research methodology in strategy and management*, Vol. 2, Emerald, pp. 259-286.
 
-Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank.
+Contractor, F.J., Kundu, S.K. and Hsu, C.-C. (2003), "A three-stage theory of international expansion: The link between multinationality and performance in the service sector", *Journal of International Business Studies*, Vol. 34 No. 1, pp. 5-18.
 
-Goto, T. (2014). Family business and its longevity. *Kindai Management Review, 2*, 78–96.
+Cusolito, A.P. and Maloney, W.F. (2018), *Productivity revisited: Shifting paradigms in analysis and policy*, World Bank.
 
-Greenaway, D., & Kneller, R. (2007). Firm heterogeneity, exporting and foreign direct investment. *Economic Journal, 117*(517), F134–F161.
+Goto, T. (2014), "Family business and its longevity", *Kindai Management Review*, Vol. 2, pp. 78-96.
 
-Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206.
+Greenaway, D. and Kneller, R. (2007), "Firm heterogeneity, exporting and foreign direct investment", *Economic Journal*, Vol. 117 No. 517, pp. F134-F161.
 
-Hessels, J., & Terjesen, S. (2010). Resource dependency and institutional theory perspectives on direct and indirect export choices. *Small Business Economics, 34*(2), 203–220.
+Hambrick, D.C. and Mason, P.A. (1984), "Upper echelons: The organization as a reflection of its top managers", *Academy of Management Review*, Vol. 9 No. 2, pp. 193-206.
 
-Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal, 40*(4), 767–798.
+Hessels, J. and Terjesen, S. (2010), "Resource dependency and institutional theory perspectives on direct and indirect export choices", *Small Business Economics*, Vol. 34 No. 2, pp. 203-220.
 
-Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm: A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32.
+Hitt, M.A., Hoskisson, R.E. and Kim, H. (1997), "International diversification: Effects on innovation and firm performance in product-diversified firms", *Academy of Management Journal*, Vol. 40 No. 4, pp. 767-798.
 
-Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
+Johanson, J. and Vahlne, J.-E. (1977), "The internationalization process of the firm: A model of knowledge development and increasing foreign market commitments", *Journal of International Business Studies*, Vol. 8 No. 1, pp. 23-32.
 
-Kirca, A. H., Hult, G. T. M., Deligonul, S., Perryman, A. A., & Cavusgil, S. T. (2012). A multilevel examination of the drivers of firm multinationality–performance relationship. *Journal of Management, 38*(2), 502–530.
+Khanna, T. and Palepu, K.G. (2010), *Winning in emerging markets: A road map for strategy and execution*, Harvard Business Press.
 
-Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186.
+Kirca, A.H., Hult, G.T.M., Deligonul, S., Perryman, A.A. and Cavusgil, S.T. (2012), "A multilevel examination of the drivers of firm multinationality–performance relationship", *Journal of Management*, Vol. 38 No. 2, pp. 502-530.
 
-Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118.
+Lall, S. (1992), "Technological capabilities and industrialization", *World Development*, Vol. 20 No. 2, pp. 165-186.
 
-Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*(6–7), 565–586.
+Lind, J.T. and Mehlum, H. (2010), "With or without U? The appropriate test for a U-shaped relationship", *Oxford Bulletin of Economics and Statistics*, Vol. 72 No. 1, pp. 109-118.
 
-Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609.
+Lu, J.W. and Beamish, P.W. (2001), "The internationalization and performance of SMEs", *Strategic Management Journal*, Vol. 22 No. 6-7, pp. 565-586.
 
-Magoshi, E., & Chang, E. (2009). Diversity management and the effects on employees' organizational commitment: Evidence from Japan and Korea. *Journal of World Business, 44*(1), 31–40.
+Lu, J.W. and Beamish, P.W. (2004), "International diversification and firm performance: The S-curve hypothesis", *Academy of Management Journal*, Vol. 47 No. 4, pp. 598-609.
 
-Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110.
+Magoshi, E. and Chang, E. (2009), "Diversity management and the effects on employees' organizational commitment: Evidence from Japan and Korea", *Journal of World Business*, Vol. 44 No. 1, pp. 31-40.
 
-Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725.
+Marano, V., Arregle, J.-L., Hitt, M.A., Spadafora, E. and van Essen, M. (2016), "Home country institutions and the internationalization–performance relationship: A meta-analytic review", *Journal of Management*, Vol. 42 No. 5, pp. 1075-1110.
 
-Meyer, K. E., Estrin, S., Bhaumik, S. K., & Peng, M. W. (2009). Institutions, resources, and entry strategies in emerging economies. *Strategic Management Journal, 30*(1), 61–80.
+Melitz, M.J. (2003), "The impact of trade on intra-industry reallocations and aggregate industry productivity", *Econometrica*, Vol. 71 No. 6, pp. 1695-1725.
 
-North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
+Meyer, K.E., Estrin, S., Bhaumik, S.K. and Peng, M.W. (2009), "Institutions, resources, and entry strategies in emerging economies", *Strategic Management Journal*, Vol. 30 No. 1, pp. 61-80.
 
-Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on export development research. *Journal of International Business Studies, 29*(3), 609–620.
+North, D.C. (1990), *Institutions, institutional change and economic performance*, Cambridge University Press.
 
-Richard, P. J., Devinney, T. M., Yip, G. S., & Johnson, G. (2009). Measuring organizational performance: Towards methodological best practice. *Journal of Management, 35*(3), 718–804.
+Peng, M.W. and Ilinitch, A.Y. (1998), "Export intermediary firms: A note on export development research", *Journal of International Business Studies*, Vol. 29 No. 3, pp. 609-620.
 
-Sasaki, I., Kotlar, J., Ravasi, D., & Vaara, E. (2020). Dealing with revered past: Historical identity statements and strategic change in Japanese family firms. *Strategic Management Journal, 41*(3), 590–623.
+Richard, P.J., Devinney, T.M., Yip, G.S. and Johnson, G. (2009), "Measuring organizational performance: Towards methodological best practice", *Journal of Management*, Vol. 35 No. 3, pp. 718-804.
 
-Sørensen, J. B., & Stuart, T. E. (2000). Aging, obsolescence, and organizational innovation. *Administrative Science Quarterly, 45*(1), 81–112.
+Sasaki, I., Kotlar, J., Ravasi, D. and Vaara, E. (2020), "Dealing with revered past: Historical identity statements and strategic change in Japanese family firms", *Strategic Management Journal*, Vol. 41 No. 3, pp. 590-623.
 
-Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Journal of International Business Studies, 25*(2), 325–342.
+Sørensen, J.B. and Stuart, T.E. (2000), "Aging, obsolescence, and organizational innovation", *Administrative Science Quarterly*, Vol. 45 No. 1, pp. 81-112.
 
-Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901.
+Sullivan, D. (1994), "Measuring the degree of internationalization of a firm", *Journal of International Business Studies*, Vol. 25 No. 2, pp. 325-342.
 
-Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy, 30*(1), 60–82.
+Verhoef, P.C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J.Q., Fabian, N. and Haenlein, M. (2021), "Digital transformation: A multidisciplinary reflection and research agenda", *Journal of Business Research*, Vol. 122, pp. 889-901.
 
-Yamaguchi, K. (2019). *Gender inequalities in the Japanese workplace and employment: Theories and empirical evidence*. Springer.
+Wagner, J. (2007), "Exports and productivity: A survey of the evidence from firm-level data", *The World Economy*, Vol. 30 No. 1, pp. 60-82.
 
-Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Management Journal, 38*(2), 341–363.
+Yamaguchi, K. (2019), *Gender inequalities in the Japanese workplace and employment: Theories and empirical evidence*, Springer.
 
-Zahra, S. A., Ireland, R. D., & Hitt, M. A. (2000). International expansion by new venture firms: International diversity, mode of market entry, technological learning, and performance. *Academy of Management Journal, 43*(5), 925–950.
+Zaheer, S. (1995), "Overcoming the liability of foreignness", *Academy of Management Journal*, Vol. 38 No. 2, pp. 341-363.
 
-World Bank. (2026). *Japan 2025 Enterprise Surveys* [Data file]. World Bank Enterprise Surveys.
+Zahra, S.A., Ireland, R.D. and Hitt, M.A. (2000), "International expansion by new venture firms: International diversity, mode of market entry, technological learning, and performance", *Academy of Management Journal*, Vol. 43 No. 5, pp. 925-950.
+
+World Bank (2026), *Japan 2025 Enterprise Surveys* [Data file], World Bank Enterprise Surveys.

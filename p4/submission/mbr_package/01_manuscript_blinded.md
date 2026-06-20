@@ -921,114 +921,73 @@ upon reasonable request.
 
 ## References
 
-Aguinis, H., Beaty, J. C., Boik, R. J., and Pierce, C. A. (2005). Effect
-size and power in assessing moderating effects of categorical variables
-using multiple regression: A 30-year review. *Journal of Applied
-Psychology, 90*(1), 94–107. <https://doi.org/10.1037/0021-9010.90.1.94>
-Aiken, L. S., and West, S. G. (1991). *Multiple regression: Testing and
-interpreting interactions*. Sage. Avenyo, E. K., Tregenna,
-F., and Kraemer-Mbula, E. (2021). Do productive capabilities affect export
-performance? Microeconomic evidence from sub-Saharan Africa. *The
-European Journal of Development Research, 33*(2), 304–329.
-<https://doi.org/10.1057/s41287-020-00328-2> Banalieva, E. R., and
-Dhanaraj, C. (2019). Internalization theory for the digital economy.
-*Journal of International Business Studies, 50*(8), 1372–1387.
-<https://doi.org/10.1057/s41267-019-00243-7> Barney, J. (1991). Firm
-resources and sustained competitive advantage. *Journal of Management,
-17*(1), 99–120. <https://doi.org/10.1177/014920639101700108> Bharadwaj,
-A., El Sawy, O. A., Pavlou, P. A., and Venkatraman, N. (2013). Digital
-business strategy: Toward a next generation of insights. *MIS Quarterly,
-37*(2), 471–482. <https://doi.org/10.25300/MISQ/2013/37:2.3> Coase, R. H. (1937). The nature
-of the firm. *Economica, 4*(16), 386–405.
-<https://doi.org/10.1111/j.1468-0335.1937.tb00002.x> Cohen, J. (1988). *Statistical
-power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum.
-Cohen, W. M., and Levinthal, D. A. (1990). Absorptive capacity: A new
-perspective on learning and innovation. *Administrative Science
-Quarterly, 35*(1), 128–152. <https://doi.org/10.2307/2393553> Coltman,
-T., Devinney, T. M., Midgley, D. F., and Venaik, S. (2008). Formative
-versus reflective measurement models: Two applications of formative
-measurement. *Journal of Business Research, 61*(12), 1250–1262.
-<https://doi.org/10.1016/j.jbusres.2008.01.013> Contractor, F. J., Kundu, S.
-K., and Hsu, C.-C. (2003). A three-stage theory of international
-expansion: The link between multinationality and performance in the
-service sector. *Journal of International Business Studies, 34*(1),
-5–18. <https://doi.org/10.1057/palgrave.jibs.8400003> Haans, R. F. J.,
-Pieters, C., and He, Z.-L. (2016). Thinking about U: Theorizing and
-testing U- and inverted U-shaped relationships in strategy research.
-*Strategic Management Journal, 37*(7), 1177–1195.
-<https://doi.org/10.1002/smj.2399> Hambrick, D. C., and Mason, P. A.
-(1984). Upper echelons: The organization as a reflection of its top
-managers. *Academy of Management Review, 9*(2), 193–206.
-<https://doi.org/10.5465/amr.1984.4277628> Hitt, M. A., Hoskisson, R.
-E., and Kim, H. (1997). International diversification: Effects on
-innovation and firm performance in product-diversified firms. *Academy
-of Management Journal, 40*(4), 767–798. <https://doi.org/10.5465/256948>
-Krammer, S. M. S., Strange, R., and Lashitew, A. (2018). The export
-performance of emerging economy firms. *International Business Review,
-27*(1), 218–230. <https://doi.org/10.1016/j.ibusrev.2017.07.003> Lakens,
-D., Scheel, A. M., and Isager, P. M. (2018). Equivalence testing for
-psychological research: A tutorial. *Advances in Methods and Practices
-in Psychological Science, 1*(2), 259–269.
-<https://doi.org/10.1177/2515245918770963> Lall, S. (1992).
-Technological capabilities and industrialization. *World Development,
-20*(2), 165–186. <https://doi.org/10.1016/0305-750X(92)90097-F> Lind, J.
-T., and Mehlum, H. (2010). With or without U? The appropriate test for a
-U-shaped relationship. *Oxford Bulletin of Economics and Statistics,
-72*(1), 109–118. <https://doi.org/10.1111/j.1468-0084.2009.00569.x> Lu,
-J. W., and Beamish, P. W. (2004). International diversification and firm
-performance: The S-curve hypothesis. *Academy of Management Journal,
-47*(4), 598–609. <https://doi.org/10.5465/20159604> Marano, V., Arregle,
-J.-L., Hitt, M. A., Spadafora, E., and van Essen, M. (2016). Home country
-institutions and the internationalization-performance relationship: A
-meta-analytic review. *Journal of Management, 42*(5), 1075–1110.
-<https://doi.org/10.1177/0149206315624963> O’Brien, R. M. (2007). A
-caution regarding rules of thumb for variance inflation factors.
-*Quality & Quantity, 41*(5), 673–690.
-<https://doi.org/10.1007/s11135-006-9018-6> Peng, M. W. (2003).
-Institutional transitions and strategic choices. *Academy of Management
-Review, 28*(2), 275–296. <https://doi.org/10.5465/amr.2003.9416341>
-Peng, M. W., Wang, D. Y. L., and Jiang, Y. (2008). An institution-based
-view of international business strategy: A focus on emerging economies.
-*Journal of International Business Studies, 39*(5), 920–936.
-<https://doi.org/10.1057/palgrave.jibs.8400377> Stallkamp,
-M., and Schotter, A. P. J. (2021). Platforms without borders? The
-international strategies of digital platform firms. *Global Strategy
-Journal, 11*(1), 58–80. <https://doi.org/10.1002/gsj.1336> Teece, D. J. (2007). Explicating
-dynamic capabilities: The nature and microfoundations of (sustainable)
-enterprise performance. *Strategic Management Journal, 28*(13),
-1319–1350. <https://doi.org/10.1002/smj.640> Verhoef, P.
-C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian,
-N., and Haenlein, M. (2021). Digital transformation: A multidisciplinary
-reflection and research agenda. *Journal of Business Research, 122*,
-889–901. <https://doi.org/10.1016/j.jbusres.2019.09.022> Williamson, O. E.
-(1985). *The economic institutions of capitalism*. Free Press.
-Wolfolds, S.
-E., and Siegel, J. (2019). Misaccounting for endogeneity: The peril of
-relying on the Heckman two-step method without a valid instrument.
-*Strategic Management Journal, 40*(3), 432–462.
-<https://doi.org/10.1002/smj.2995>
+
+Aguinis, H., Beaty, J.C., Boik, R.J. and Pierce, C.A. (2005), "Effect size and power in assessing moderating effects of categorical variables using multiple regression: A 30-year review", *Journal of Applied Psychology*, Vol. 90 No. 1, pp. 94-107, doi: 10.1037/0021-9010.90.1.94.
+
+Aiken, L.S. and West, S.G. (1991), *Multiple regression: Testing and interpreting interactions*, Sage.
+
+Avenyo, E.K., Tregenna, F. and Kraemer-Mbula, E. (2021), "Do productive capabilities affect export performance? Microeconomic evidence from sub-Saharan Africa", *The European Journal of Development Research*, Vol. 33 No. 2, pp. 304-329, doi: 10.1057/s41287-020-00328-2.
+
+Banalieva, E.R. and Dhanaraj, C. (2019), "Internalization theory for the digital economy", *Journal of International Business Studies*, Vol. 50 No. 8, pp. 1372-1387, doi: 10.1057/s41267-019-00243-7.
+
+Barney, J. (1991), "Firm resources and sustained competitive advantage", *Journal of Management*, Vol. 17 No. 1, pp. 99-120, doi: 10.1177/014920639101700108.
+
+Bharadwaj, A., El Sawy, O.A., Pavlou, P.A. and Venkatraman, N. (2013), "Digital business strategy: Toward a next generation of insights", *MIS Quarterly*, Vol. 37 No. 2, pp. 471-482, doi: 10.25300/MISQ/2013/37:2.3.
+
+Coase, R.H. (1937), "The nature of the firm", *Economica*, Vol. 4 No. 16, pp. 386-405, doi: 10.1111/j.1468-0335.1937.tb00002.x.
+
+Cohen, J. (1988), *Statistical power analysis for the behavioral sciences* (2nd ed.), Lawrence Erlbaum.
+
+Cohen, W.M. and Levinthal, D.A. (1990), "Absorptive capacity: A new perspective on learning and innovation", *Administrative Science Quarterly*, Vol. 35 No. 1, pp. 128-152, doi: 10.2307/2393553.
+
+Coltman, T., Devinney, T.M., Midgley, D.F. and Venaik, S. (2008), "Formative versus reflective measurement models: Two applications of formative measurement", *Journal of Business Research*, Vol. 61 No. 12, pp. 1250-1262, doi: 10.1016/j.jbusres.2008.01.013.
+
+Contractor, F.J., Kundu, S.K. and Hsu, C.-C. (2003), "A three-stage theory of international expansion: The link between multinationality and performance in the service sector", *Journal of International Business Studies*, Vol. 34 No. 1, pp. 5-18, doi: 10.1057/palgrave.jibs.8400003.
+
+Haans, R.F.J., Pieters, C. and He, Z.-L. (2016), "Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research", *Strategic Management Journal*, Vol. 37 No. 7, pp. 1177-1195, doi: 10.1002/smj.2399.
+
+Hambrick, D.C. and Mason, P.A. (1984), "Upper echelons: The organization as a reflection of its top managers", *Academy of Management Review*, Vol. 9 No. 2, pp. 193-206, doi: 10.5465/amr.1984.4277628.
+
+Hitt, M.A., Hoskisson, R.E. and Kim, H. (1997), "International diversification: Effects on innovation and firm performance in product-diversified firms", *Academy of Management Journal*, Vol. 40 No. 4, pp. 767-798, doi: 10.5465/256948.
+
+Krammer, S.M.S., Strange, R. and Lashitew, A. (2018), "The export performance of emerging economy firms", *International Business Review*, Vol. 27 No. 1, pp. 218-230, doi: 10.1016/j.ibusrev.2017.07.003.
+
+Lakens, D., Scheel, A.M. and Isager, P.M. (2018), "Equivalence testing for psychological research: A tutorial", *Advances in Methods and Practices in Psychological Science*, Vol. 1 No. 2, pp. 259-269, doi: 10.1177/2515245918770963.
+
+Lall, S. (1992), "Technological capabilities and industrialization", *World Development*, Vol. 20 No. 2, pp. 165-186, doi: 10.1016/0305-750X(92)90097-F.
+
+Lind, J.T. and Mehlum, H. (2010), "With or without U? The appropriate test for a U-shaped relationship", *Oxford Bulletin of Economics and Statistics*, Vol. 72 No. 1, pp. 109-118, doi: 10.1111/j.1468-0084.2009.00569.x.
+
+Lu, J.W. and Beamish, P.W. (2004), "International diversification and firm performance: The S-curve hypothesis", *Academy of Management Journal*, Vol. 47 No. 4, pp. 598-609, doi: 10.5465/20159604.
+
+Marano, V., Arregle, J.-L., Hitt, M.A., Spadafora, E. and van Essen, M. (2016), "Home country institutions and the internationalization-performance relationship: A meta-analytic review", *Journal of Management*, Vol. 42 No. 5, pp. 1075-1110, doi: 10.1177/0149206315624963.
+
+O’Brien, R.M. (2007), "A caution regarding rules of thumb for variance inflation factors", *Quality & Quantity*, Vol. 41 No. 5, pp. 673-690, doi: 10.1007/s11135-006-9018-6.
+
+Peng, M.W. (2003), "Institutional transitions and strategic choices", *Academy of Management Review*, Vol. 28 No. 2, pp. 275-296, doi: 10.5465/amr.2003.9416341.
+
+Peng, M.W., Wang, D.Y.L. and Jiang, Y. (2008), "An institution-based view of international business strategy: A focus on emerging economies", *Journal of International Business Studies*, Vol. 39 No. 5, pp. 920-936, doi: 10.1057/palgrave.jibs.8400377.
+
+Stallkamp, M. and Schotter, A.P.J. (2021), "Platforms without borders? The international strategies of digital platform firms", *Global Strategy Journal*, Vol. 11 No. 1, pp. 58-80, doi: 10.1002/gsj.1336.
+
+Teece, D.J. (2007), "Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance", *Strategic Management Journal*, Vol. 28 No. 13, pp. 1319-1350, doi: 10.1002/smj.640.
+
+Verhoef, P.C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J.Q., Fabian, N. and Haenlein, M. (2021), "Digital transformation: A multidisciplinary reflection and research agenda", *Journal of Business Research*, Vol. 122, pp. 889-901, doi: 10.1016/j.jbusres.2019.09.022.
+
+Williamson, O.E. (1985), *The economic institutions of capitalism*, Free Press.
+
+Wolfolds, S.E. and Siegel, J. (2019), "Misaccounting for endogeneity: The peril of relying on the Heckman two-step method without a valid instrument", *Strategic Management Journal*, Vol. 40 No. 3, pp. 432-462, doi: 10.1002/smj.2995.
 
 *Additional contextual sources (cited in Section 1.1 and Section 5.1)*
 
-Enterprise Singapore. (2025, November). *SWITCH 2025 concludes 10th
-anniversary milestone with record 25,000 attendees* \[Press release\].
-Enterprise Singapore.
-<https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2025/november/mr05225_switch-2025-concludes-10th-anniversary-milestone-with-record-25000-attendees-strengthens-position-as-premiere-platform-for-deep-tech-innovation>
+Enterprise Singapore (2025), "SWITCH 2025 concludes 10th anniversary milestone with record 25,000 attendees", press release, Enterprise Singapore, available at: https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2025/november/mr05225_switch-2025-concludes-10th-anniversary-milestone-with-record-25000-attendees-strengthens-position-as-premiere-platform-for-deep-tech-innovation (accessed 20 June 2026).
 
-GovTech Singapore. (2024). *Our digital government rankings*. Government
-Technology Agency of Singapore.
-<https://www.tech.gov.sg/about-us/our-achievements/our-digital-government-rankings/>
+GovTech Singapore (2024), *Our Digital Government Rankings*, Government Technology Agency of Singapore, available at: https://www.tech.gov.sg/about-us/our-achievements/our-digital-government-rankings/ (accessed 20 June 2026).
 
-IMDA. (2025). *Asia Tech x Singapore turns five* \[Press release\].
-Infocomm Media Development Authority.
-<https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2025/asia-tech-x-singapore-turns-five>
+IMDA (2025), "Asia Tech x Singapore turns five", press release, Infocomm Media Development Authority, available at: https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2025/asia-tech-x-singapore-turns-five (accessed 20 June 2026).
 
-StartupBlink. (2025). *Global Startup Ecosystem Index 2025*.
-StartupBlink Research.
-<https://www.startupblink.com/startup-ecosystem/singapore>
+StartupBlink (2025), *Global Startup Ecosystem Index 2025*, StartupBlink Research, available at: https://www.startupblink.com/startup-ecosystem/singapore (accessed 20 June 2026).
 
-StartupBlink. (2026). *Innovators Business Environment Index 2026*.
-StartupBlink Research.
-<https://www.startupblink.com/blog/innovators-business-environment-index/>
-World Bank. (2024). *World Bank Enterprise Survey: Singapore 2023*.
-<https://www.enterprisesurveys.org>
+StartupBlink (2026), *Innovators Business Environment Index 2026*, StartupBlink Research, available at: https://www.startupblink.com/blog/innovators-business-environment-index/ (accessed 20 June 2026).
+
+World Bank (2024), *World Bank Enterprise Survey: Singapore 2023*, World Bank Enterprise Surveys, available at: https://www.enterprisesurveys.org (accessed 20 June 2026).
