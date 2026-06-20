@@ -38,6 +38,7 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 - P3 trong bundle là **bản 8.500 từ** (`_8500`) đúng giới hạn JED (bản đầy đủ vượt cap, không nộp JED).
 - Tự-trích-dẫn của P5/P6/P7/P9 đã **ẩn danh** ("Authors, năm") cho double-blind; OSF DOI của P6 đã điền (10.17605/OSF.IO/Z37KN).
 - Cover letter P9 đã điền ngày (20 June 2026).
+- LaTeX: primary non-Emerald kèm `04_manuscript_latex.pdf` (P4/P6/P7/P8/P9/P10). Mỗi paper có ≥3 hồ sơ/3 tạp chí với LaTeX cho đích non-Emerald; xem `reviews/JOURNAL_FORMAT_MATRIX.md`. Abstract theo house-style (Emerald structured / khác unstructured); tự-trích-dẫn đã ẩn danh ở mọi gói.
 - Còn lại lúc nộp (không chặn): giá trị κ mã hóa ICRV của P6 chờ dual-coding thật.
 
 ## 2. Hai chuyên đề (`2_chuyen_de/`)
