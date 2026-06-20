@@ -36,6 +36,9 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 
 ## 2. Hai chuyên đề (`2_chuyen_de/`)
 
+> Định dạng chuẩn CTU (QĐ 1799/SH): TeX Gyre Termes 13pt, lề trái 3cm / phải-trên-dưới 2cm,
+> giãn dòng 1,2. PDF biên dịch bằng XeLaTeX; docx dùng template `ctu_thesis_reference.docx`.
+
 | File | Nội dung |
 |---|---|
 | `CD1_CTU.pdf` / `.docx` | Chuyên đề 1 — định dạng CTU (36 trang) |
@@ -43,14 +46,16 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 
 ## 3. Năm chương luận án + phụ lục (`3_luan_an_chuong_phu_luc/`)
 
+> Mỗi chương có **cả PDF (CTU XeLaTeX) lẫn docx (template CTU luận án)**, đúng chuẩn QĐ 1799/SH.
+
 | File | Nội dung |
 |---|---|
 | `LUAN_AN_CTU_full_154tr.pdf` | **Luận án đầy đủ** đã biên dịch (154 trang, định dạng CTU) |
-| `chuong_1_gioi_thieu_vi.docx` | Chương 1 — Giới thiệu |
-| `chuong_2_tong_quan_tai_lieu_vi.docx` | Chương 2 — Tổng quan tài liệu |
-| `chuong_3_phuong_phap_vi.docx` | Chương 3 — Phương pháp |
-| `chuong_4_ket_qua_vi.docx` | Chương 4 — Kết quả |
-| `chuong_5_ket_luan_de_xuat_vi.docx` | Chương 5 — Kết luận & đề xuất |
+| `chuong_1_gioi_thieu_vi.pdf` / `.docx` | Chương 1 — Giới thiệu (9 tr) |
+| `chuong_2_tong_quan_tai_lieu_vi.pdf` / `.docx` | Chương 2 — Tổng quan tài liệu (23 tr) |
+| `chuong_3_phuong_phap_vi.pdf` / `.docx` | Chương 3 — Phương pháp (24 tr) |
+| `chuong_4_ket_qua_vi.pdf` / `.docx` | Chương 4 — Kết quả (39 tr) |
+| `chuong_5_ket_luan_de_xuat_vi.pdf` / `.docx` | Chương 5 — Kết luận & đề xuất (20 tr) |
 | `00_phan_dau_vi.docx` | Phần đầu (bìa, mục lục, tóm tắt) |
 | `04_references_apa7.docx` | Danh mục tài liệu tham khảo (APA 7) |
 | `phu_luc_A_hop_nhat_du_lieu_vi.docx` | Phụ lục A — Hợp nhất dữ liệu |
