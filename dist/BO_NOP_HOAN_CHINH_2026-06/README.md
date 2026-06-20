@@ -16,8 +16,6 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 | Thư mục | Paper | Tạp chí đích (live) | Hạng | Cổng nộp |
 |---|---|---|---|---|
 | `P3_JED/` | P3 Việt Nam | Journal of Economics and Development (Emerald) | Scopus/WoS, Diamond OA | emeraldgrouppublishing.com/journal/jed |
-
-> **Ghi chú nộp (2026-06-20):** Bản P3 trong bundle là **bản 8.500 từ** (`_8500`) đúng giới hạn JED. Tự-trích-dẫn của P5/P6/P7 đã được **ẩn danh** ("Authors, năm") cho double-blind; OSF DOI của P6 đã điền (10.17605/OSF.IO/Z37KN).
 | `P4_MIR/` | P4 Singapore | Management International Review (Springer) | ABS-3 | mc.manuscriptcentral.com/mir |
 | `P5_IJOEM/` | P5 Trung Quốc | International Journal of Emerging Markets (Emerald) | ABS-1 | mc.manuscriptcentral.com/ijoem |
 | `P6_JWB/` | P6 Meta-analysis | Journal of World Business (Elsevier) | ABS-4* | editorialmanager.com/jwb |
@@ -35,6 +33,11 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 - P9 → **MIR** (primary; IJOEM thay thế). Bản India đã hòa giải: N gộp phân tích 28.717
   (3 đợt 2014/2022/2025); phát hiện "tan biến điểm uốn" theo thập kỷ chuyển đổi thể chế.
 - P10 → **ABM** (Asian Business & Management); Nhật Bản 2025 (N=2.168, đợt WBES khai mở).
+
+**Ghi chú độ sẵn sàng nộp (2026-06-20):**
+- P3 trong bundle là **bản 8.500 từ** (`_8500`) đúng giới hạn JED (bản đầy đủ vượt cap, không nộp JED).
+- Tự-trích-dẫn của P5/P6/P7 đã **ẩn danh** ("Authors, năm") cho double-blind; OSF DOI của P6 đã điền (10.17605/OSF.IO/Z37KN).
+- Còn điền lúc nộp (không chặn): ngày trong cover letter P9; giá trị κ mã hóa ICRV của P6 chờ dual-coding thật.
 
 ## 2. Hai chuyên đề (`2_chuyen_de/`)
 
