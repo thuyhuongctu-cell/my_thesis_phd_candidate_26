@@ -123,14 +123,14 @@
 
 ---
 
-### P7 — Multi-Country Capstone (49 economies) 🟢 SẴN SÀNG NỘP
+### P7 — Multi-Country Capstone (50 economies, incl. Japan) 🟢 SẴN SÀNG NỘP
 - **Target journal:** Journal of International Business Studies (JIBS) — ABS-4*, FT-50
 - **Submission portal:** mc.manuscriptcentral.com/jibs
 - **Files đã có:**
   - `p7/submission/jibs_package/01_manuscript_blinded.docx`
   - `p7/submission/jibs_package/02_title_page.docx`
   - `p7/submission/jibs_package/03_cover_letter.docx`
-- **Nội dung bài:** N=84,910–91,982, 49 economies, M0–M11, TP≈36% (LM p<.001)
+- **Nội dung bài:** pool 88,869 firms / 50 economies / 103 country-years; M2 N=81,022 (TP 51.5%), M5 N=79,080 (TP 43.6%), M0–M11 (LM p<.001)
 - **Dữ liệu:** `data_wbes/p7/p7_pooled_clean.csv` (24MB)
 
 **⚠️ Lưu ý:**
