@@ -95,19 +95,20 @@
 ---
 
 ### P6 — Three-Level Meta-Analysis I–P Asia-Pacific 🟡 CẦN 1 BƯỚC
-- **Target journal:** International Business Review (IBR) — ABS-3, Elsevier
-- **Submission portal:** editorialmanager.com/ibr
+- **Target journal:** Journal of World Business (JWB) — ABS-4*, Elsevier · Q1
+  (P6 đã đổi đích khỏi IBR — IBR nay là gói của P7; ladder P6 hiện tại: **JWB → JIM → APJM**)
+- **Submission portal:** editorialmanager.com/jwb
 - **Files đã có:**
-  - `p6/submission/ibr_package/01_manuscript_blinded.docx` (k=238, K=288)
-  - `p6/submission/ibr_package/02_title_page.docx`
-  - `p6/submission/ibr_package/03_cover_letter.docx`
+  - `p6/submission/jwb_package/01_manuscript_blinded.docx` (k=238, K=288)
+  - `p6/submission/jwb_package/02_title_page.docx`
+  - `p6/submission/jwb_package/03_cover_letter.docx`
   - Figures: 5 PNG + PDF (forest plot, funnel plot, moderator plots)
   - OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)
 
 **⚠️ Vấn đề cần quyết định trước khi nộp:**
 
 **Lựa chọn A — Nộp ngay với k=238 (ĐƯỢC, defensible):**
-- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho IBR meta-analysis
+- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho meta-analysis ở tạp chí ABS-4* như JWB
 - Kết quả đã ổn định: r̄=0.074 [0.060, 0.088], I²=62.4%, Q_M(ICRV)=17.35**
 - Rủi ro: Reviewer có thể hỏi về 782 papers đang chờ L2
 
@@ -118,29 +119,30 @@
 > **Khuyến nghị:** Nếu bảo vệ luận án trong năm 2026, chọn **Lựa chọn A** — nộp ngay với k=238, ghi chú "additional studies under extraction per OSF protocol" trong manuscript.
 
 **NCS quyết định A hay B, rồi:**
-- Nếu A: Đăng nhập editorialmanager.com/ibr, upload, submit (45 phút)
+- Nếu A: Đăng nhập editorialmanager.com/jwb, upload, submit (45 phút)
 - Nếu B: Xem mục P6 L2 Extraction bên dưới
 
 ---
 
 ### P7 — Multi-Country Capstone (50 economies, incl. Japan) 🟢 SẴN SÀNG NỘP
-- **Target journal:** Journal of International Business Studies (JIBS) — ABS-4*, FT-50
-- **Submission portal:** mc.manuscriptcentral.com/jibs
+- **Target journal:** International Business Review (IBR) — ABS-3, Elsevier · Q1
+- **Submission portal:** editorialmanager.com/ibr
 - **Files đã có:**
-  - `p7/submission/jibs_package/01_manuscript_blinded.docx`
-  - `p7/submission/jibs_package/02_title_page.docx`
-  - `p7/submission/jibs_package/03_cover_letter.docx`
+  - `p7/submission/ibr_package/01_manuscript_blinded.docx`
+  - `p7/submission/ibr_package/02_title_page.docx`
+  - `p7/submission/ibr_package/03_cover_letter.docx`
 - **Nội dung bài:** pool 88,869 firms / 50 economies / 103 country-years; M2 N=81,022 (TP 51.5%), M5 N=79,080 (TP 43.6%), M0–M11 (LM p<.001)
 - **Dữ liệu:** `data_wbes/p7/p7_pooled_clean.csv` (24MB)
 
 **⚠️ Lưu ý:**
-- JIBS là tạp chí ABS-4* khó nhất trong nhóm (top 3% IB journals). Thời gian review 3–6 tháng.
-- Nếu muốn cẩn thận hơn, có thể submit tới **Journal of World Business (ABS-3)** hoặc **Asia Pacific Journal of Management (ABS-2)** trước.
+- **JIBS đã bị loại bỏ** (`p7/submission/jibs_package/` = DEPRECATED, build 49 nền tiền-Nhật): WBES pooled
+  cross-section không đáp ứng kỳ vọng nhận dạng nhân quả của JIBS. Đích sống duy nhất của P7 là IBR.
+- Gói IBR đã hòa giải về khung 50 nền (M2 N=81,022, TP 43.6%, ba vùng; DAI level-shifter).
 
 **NCS chỉ cần làm:**
-1. Đăng nhập ScholarOne JIBS
-2. Upload files theo checklist `README.md` trong folder
-3. Submit (thời gian ScholarOne: 60 phút do JIBS yêu cầu nhiều metadata)
+1. Đăng nhập Editorial Manager (IBR)
+2. Upload files theo checklist `README.md` trong `p7/submission/ibr_package/`
+3. Submit (title page nộp riêng, manuscript blinded riêng)
 
 ---
 
@@ -353,8 +355,8 @@ Tháng 5–6/2026 (NGAY BÂY):
   ✅ Nộp P3 (JABS)           — 1 ngày
   ✅ Nộp P4 (MIR)            — 1 ngày  
   ✅ Nộp P5 (IJOEM)          — 1 ngày
-  ✅ Nộp P7 (JIBS)           — 1 ngày
-  ✅ Nộp P6 với k=238 (IBR)  — 1 ngày  [nếu chọn Lựa chọn A]
+  ✅ Nộp P7 (IBR)            — 1 ngày
+  ✅ Nộp P6 với k=238 (JWB)  — 1 ngày  [nếu chọn Lựa chọn A]
   ✅ Xác nhận P8 status       — 30 phút
   ✅ Nộp CD1 cho GVHD        — 1 ngày in + họp
 
@@ -390,8 +392,8 @@ Tháng 12/2026:
 | P3 (JABS) | **95%** | Click Submit |
 | P4 (MIR) | **95%** | Click Submit |
 | P5 (IJOEM) | **95%** | Click Submit |
-| P6 (IBR) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
-| P7 (JIBS) | **95%** | Click Submit |
+| P6 (JWB) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
+| P7 (IBR) | **95%** | Click Submit |
 | P8 (World Dev) | **90%** | Xác nhận status, submit nếu chưa |
 | CD1 | **90%** | In + nộp GVHD |
 | CD2 | **90%** | In + nộp GVHD |
