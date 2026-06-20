@@ -294,6 +294,26 @@ For the world development policy agenda, FIP suggests that export promotion stra
 
 During the preparation of this work, the author(s) used Grammarly, a writing-assistance tool, in order to correct spelling, grammar, and punctuation in the author(s)' own original text. No generative artificial-intelligence tool was used to generate, draft, or create any substantive content, analysis, or interpretation. After using this tool, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.
 
+## Acknowledgements
+
+The authors thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the WBES microdata for the Pacific Small Island Developing States analysed data. The original collector of the data, the authorised distributor, and the relevant funding agency bear no responsibility for the use of the data or for interpretations or inferences based upon such uses.
+
+## Funding
+
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Conflict of Interest
+
+The authors declare no conflict of interest.
+
+## Ethics Statement
+
+This study analyses secondary, de-identified, publicly available firm-level survey data (World Bank Enterprise Surveys) and did not involve human participants or animals; ethics approval was not required.
+
+## Data Availability Statement
+
+The World Bank Enterprise Survey (WBES) microdata for the Pacific Small Island Developing States analysed in this study are publicly available at https://www.enterprisesurveys.org subject to World Bank registration. Replication materials are available from the authors upon reasonable request, to the extent permitted by the WBES Data Access Protocol.
+
 ## References
 
 Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.

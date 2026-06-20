@@ -404,6 +404,10 @@ Generative AI tools were used during manuscript preparation to assist with langu
 
 ---
 
+## Ethics approval
+
+This study analyses secondary, de-identified, publicly available firm-level survey data (World Bank Enterprise Surveys) and did not involve human participants or animals; ethics approval was not required.
+
 ## References
 
 Aschauer, D.A. (1989), "Is public expenditure productive?", *Journal of Monetary Economics*, Vol. 23 No. 2, pp. 177–200.

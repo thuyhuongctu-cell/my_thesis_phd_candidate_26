@@ -4,6 +4,14 @@
 IF ≈ 5.5, ABS-3)* *Version 1.0, May 2026 (target journal submission: Q4
 2026)*
 
+## Highlights
+
+- Three-level meta-analysis of internationalization–performance: k = 238, 288 effects
+- Baseline pooled effect is small but positive (r = 0.074, 95% CI [0.060, 0.088])
+- ICRV institutional regime moderates the I–P relationship (Q_M = 17.35, p = .002)
+- Digital adoption and lifecycle phase show no significant I–P moderation
+- Trim-and-fill reveals publication bias, attenuating the effect to r = 0.035
+
 ## Abstract
 
 We conduct a three-level meta-analytic regression analysis (MARA) examining whether country-level digital adoption (cDAI), institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL) phase moderate the internationalization–performance (I to P) relationship, testing three theoretically motivated moderators that prior meta-analyses have not examined. A systematic search following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026) identifies *k* = 238 studies with *K* = 288 effect sizes. The three-level MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes heterogeneity into within-study and between-study components using `metafor` in R, with the analysis plan registered on OSF (transparency registration) and inter-coder reliability κ ≥ 0.70 on a 20% double-coded subsample. The baseline pooled effect is *r* = 0.074 (95% CI [0.060, 0.088], *p* < .001) with *I*² = 62.4% (within-study 54.1%; between-study 8.4%), replicating and extending prior baselines. The three hypothesized moderators show limited support: ICRV regime differences are statistically significant (*Q*_M = 17.35, *df* = 4, *p* = .002) but driven by an anomalous Frontier-group estimate (*k* = 3 studies, *r̄* = 0.35) rather than a monotone institutional gradient, whereas cDAI (*Q*_M = 1.23, *p* = .541) and DPL phase (*Q*_M = 0.62, *p* = .734) are non-significant. Substantial publication bias is detected: trim-and-fill imputes *k* = 57 missing studies, reducing the adjusted pooled effect to *r* = 0.035 (95% CI [0.018, 0.051]), positive but attenuated. This first three-level MARA of I to P, spanning 49 economies, reframes the heterogeneity puzzle: unexplained variance in I to P may reflect publication-side selection more than institutional or digital contingencies, calling for pre-registered replication with larger between-regime samples.
@@ -1408,6 +1416,10 @@ checklist is provided as supplementary material.
 ## Declaration of Generative AI and AI-Assisted Technologies in the Writing Process
 
 During the preparation of this work, the authors used two software aids, each under full human control and verification. First, a purpose-built large-language-model-assisted tool (M-AIDA, using Anthropic Claude) was used to assist effect-size extraction and statistical conversion from the primary studies; every value proposed by the tool was independently checked, corrected where necessary, and permanently locked by the Principal Investigator before entry into the analysis database. Second, Grammarly was used to correct spelling, grammar, and punctuation in the authors' own text. No generative AI tool selected studies, made eligibility decisions, performed the statistical analysis, or generated any interpretive or written content; the authors reviewed all outputs and take full responsibility for the content of the publication.
+
+## Acknowledgements
+
+The authors thank the authors of the primary studies synthesised in this meta-analysis. Where World Bank Enterprise Survey data informed primary estimates, the original collectors, the authorised distributor, and the relevant funding agencies bear no responsibility for the use of the data or for interpretations based upon such uses.
 
 ## References
 

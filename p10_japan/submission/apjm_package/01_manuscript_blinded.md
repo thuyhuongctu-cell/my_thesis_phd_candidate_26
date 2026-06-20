@@ -226,6 +226,30 @@ Two qualifications discipline the interpretation. First, this is a single cross-
 
 Using Japan's first-ever World Bank Enterprise Survey, we show that at the upper bound of the institutional gradient the internationalization–performance relationship is monotonically positive within the observable range, with no statistically detectable turning point in any specification. Technological capability and digital adoption raise productivity levels without reshaping the curve; firm longevity carries a measurable premium consistent with the *shinise* tradition; and the female-leadership margin remains strikingly thin. Crucially, the consequential variation lies not along the intensity gradient but at the extensive margin: foreign ownership, technological capability, and digital adoption govern who exports, and exporters earn a sizeable productivity premium. For theory, the result closes the upper end of the three-zone, institution-contingent reading of the I–P relationship, and it does so on the economy that gave the literature its founding inverted-U. For policy, it implies that in frontier institutional contexts the binding constraint on internationalization gains is not a harmful threshold to be avoided but the breadth of participation and the capability floor that supports it.
 
+## Acknowledgements
+
+The authors thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the WBES Japan 2025 (first survey wave) data. The original collector of the data, the authorised distributor, and the relevant funding agency bear no responsibility for the use of the data or for interpretations or inferences based upon such uses.
+
+## Funding
+
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Competing interests
+
+The authors have no relevant financial or non-financial competing interests to declare.
+
+## Ethics approval
+
+This study analyses secondary, de-identified, publicly available firm-level survey data (World Bank Enterprise Surveys) and did not involve human participants or animals; ethics approval was not required.
+
+## Data availability statement
+
+The World Bank Enterprise Survey (WBES) microdata for Japan (2025) analysed in this study are publicly available at https://www.enterprisesurveys.org subject to World Bank registration. Replication materials are available from the authors upon reasonable request, to the extent permitted by the WBES Data Access Protocol.
+
+## Declaration of Generative AI in the Writing Process
+
+During the preparation of this work the authors used generative AI tools to assist with language editing and formatting. The authors reviewed and edited the content as needed and take full responsibility for the content of the publication.
+
 ## References
 
 Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120.

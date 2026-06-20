@@ -2,6 +2,14 @@
 
 **Keywords:** internationalization–performance relationship; inverted-U; boundary conditions; small island developing states; forced internationalization; institutional voids; labor productivity; Pacific economies
 
+## Highlights
+
+- The canonical inverted-U dissolves in Pacific small island developing states
+- Export-intensity slope is indistinguishable from zero (bootstrap p = .66)
+- Curvature is marginally positive, not concave, hinting at convexity
+- Technological capability raises productivity but does not restore the inverted-U
+- Forced Internationalization Penalty bounds the inverted-U paradigm's scope
+
 ## Abstract
 
 The inverted-U is the dominant functional form for the internationalization–performance (I–P) relationship: performance first rises with foreign-sales intensity, then declines beyond a turning point. This logic rests, implicitly, on three structural prerequisites—a viable domestic market, manageable trade costs, and functional institutional support—that are routinely satisfied in mainstream samples but are simultaneously violated in the world's most peripheral economies. We test whether the inverted-U extends to such contexts using World Bank Enterprise Survey microdata from 1,450 firms across seven Pacific small island developing states (SIDS)—Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, and Vanuatu (2009–2025). The robust finding is that the canonical inverted-U **dissolves**: across the full sample, the export-intensity slope is statistically indistinguishable from zero (wild-cluster bootstrap p = .66) and the curvature term is only marginally significant and *positive* rather than concave (p = .082), in sharp contrast to the sharp inverted-U observed in mainland transition economies. A weaker, suggestive pattern is that once firm capability is held constant the curvature becomes more strongly positive and marginally significant (wild-cluster bootstrap p = .056), hinting at a **convex** rather than concave relationship—a productivity penalty across the low-to-moderate export-intensity range in which almost all island firms operate; we present this convexity cautiously rather than as a confirmed reversal. Technological capability raises the productivity level (p = .036) but does not restore the inverted-U. We interpret this pattern through the concept of a **Forced Internationalization Penalty (FIP)**—a theoretical limiting case in which compulsory, prerequisite-deprived internationalization becomes performance-eroding—while reporting transparently that any strong negative point estimate is sensitive to the small number of island economies with complete firm-level data. The study identifies the previously implicit structural prerequisites of the inverted-U paradigm, bounds its scope, and carries direct implications for export-led-growth strategy in microstates.
@@ -117,6 +125,26 @@ Three limitations bound the findings. First, the design is cross-sectional repea
 ## 6. Conclusion
 
 The inverted-U is the workhorse functional form of the internationalization–performance literature, but its generating logic presupposes structural prerequisites that the world's most peripheral economies lack. Using firm-level data from seven Pacific island states, we show that the inverted-U dissolves at this periphery, with suggestive evidence that, conditional on capability, the relationship leans convex—a penalty across the export-intensity range where island firms actually operate. We name the limiting case the Forced Internationalization Penalty and position it as a scope condition of universal internationalization theory. The paradigm is conditional, not universal: where the domestic market is too small, trade costs too high, and institutions too thin, intensifying internationalization is not a path to performance but a structural burden.
+
+## Acknowledgements
+
+The authors thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the WBES microdata for the Pacific Small Island Developing States analysed data. The original collector of the data, the authorised distributor, and the relevant funding agency bear no responsibility for the use of the data or for interpretations or inferences based upon such uses.
+
+## Funding
+
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Declaration of competing interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Data availability
+
+The World Bank Enterprise Survey (WBES) microdata for the Pacific Small Island Developing States analysed in this study are publicly available at https://www.enterprisesurveys.org subject to World Bank registration. Replication materials are available from the authors upon reasonable request, to the extent permitted by the WBES Data Access Protocol.
+
+## Declaration of Generative AI in the Writing Process
+
+During the preparation of this work the authors used generative AI tools to assist with language editing and formatting. The authors reviewed and edited the content as needed and take full responsibility for the content of the publication.
 
 ## References
 

@@ -1,5 +1,13 @@
 # Internationalization and Firm Performance across 50 Asian and Pacific Economies: Institutional Regimes, Digital Capabilities, and Managerial Characteristics as Contingency Factors
 
+## Highlights
+
+- Inverted-U internationalization–performance across 50 Asia-Pacific economies
+- 88,869 firms across 103 country-year WBES waves (2003–2025), incl. Japan 2025
+- Turning point at 43.6% of export sales after capability and digital controls
+- Capability and digital adoption shift performance level, not the curve
+- Institutional regime, not capability, governs the inverted-U's presence
+
 ## Abstract
 
 We examine whether the internationalization–performance (I–P) relationship holds across a large and institutionally diverse set of Asian and Pacific economies and identify the conditions under which firms convert export intensity into productive performance. Using microdata from 88,869 firms across 50 economies and 103 country-year waves of the World Bank Enterprise Survey (2003–2025; including Japan's inaugural 2025 wave), spanning all six Institutional Context Regime Variation (ICRV) groups, we estimate a hierarchical sequence of models on currency-neutral labour productivity (standardised within economy-year) with two-way (economy and year) fixed effects throughout and standard errors clustered by economy. We find robust support for an inverted-U I–P relationship: the quadratic baseline (M2, N=81,022) yields a turning point of 51.5% of export sales, tightening to 43.6% once technological capability and digital adoption are controlled (M4, N=79,080; Lind–Mehlum p < .001 throughout). Technological capability (TCI, +0.108) and digital adoption (DAI, +0.219) both raise the performance level, but neither significantly reshapes the pooled curve; both are level-shifters, not curve-reshapers. The curve structure is instead governed by institutional regime: estimating the turning point within each ICRV group reveals a three-zone pattern: a sharp inverted-U in the lower-middle transition regime (TP ≈ 43%), a near-linear relationship in the strongest-institution regime (turning point beyond the observable range, ≈ 80%), and dissolution of the inverted-U in the weakest regimes (Emerging ≈ 37%; the Pacific SIDS group shows no inverted-U). Female top management carries a negative coefficient (−0.104, p < .001). These findings offer a parsimonious resolution to Asian I–P heterogeneity: the relationship is inverted-U in form, but it is institutional regime, not capability per se, that determines whether the inverted-U is sharp, straightened, or absent.
@@ -203,6 +211,26 @@ The near-term policy context adds urgency to these findings. World Bank (2026) m
 Future research should leverage the growing panel dimensions of WBES to establish causality, and incorporate Tier 3–4 digital capability measures (AI adoption, cloud computing, platform participation) as these items become available in the 2025+ WBES waves.
 
 ---
+
+## Acknowledgements
+
+The authors thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the WBES microdata for the Asian and Pacific economies analysed (including Japan 2025) data. The original collector of the data, the authorised distributor, and the relevant funding agency bear no responsibility for the use of the data or for interpretations or inferences based upon such uses.
+
+## Funding
+
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Declaration of competing interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Data availability
+
+The World Bank Enterprise Survey (WBES) microdata for the Asian and Pacific economies analysed in this study (including Japan 2025) are publicly available at https://www.enterprisesurveys.org subject to World Bank registration. Replication materials are available from the authors upon reasonable request, to the extent permitted by the WBES Data Access Protocol.
+
+## Declaration of Generative AI in the Writing Process
+
+During the preparation of this work the authors used generative AI tools to assist with language editing and formatting. The authors reviewed and edited the content as needed and take full responsibility for the content of the publication.
 
 ## References
 

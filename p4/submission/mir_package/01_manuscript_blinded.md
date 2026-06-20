@@ -1402,6 +1402,11 @@ publicly available at <https://www.enterprisesurveys.org>. Processed
 data and replication code are available from the corresponding author
 upon reasonable request.
 
+## Ethics approval
+
+This study analyses secondary, de-identified, publicly available firm-level survey data (World Bank Enterprise Surveys) and did not involve human participants or animals; ethics approval was not required.
+
+
 ## References
 
 Aguinis, H., Beaty, J. C., Boik, R. J., & Pierce, C. A. (2005). Effect

@@ -4,6 +4,14 @@
 IF ≈ 5.5, ABS-3)* *Version 1.0, May 2026 (target journal submission: Q4
 2026)*
 
+## Highlights
+
+- Three-level meta-analysis of internationalization–performance: k = 238, 288 effects
+- Baseline pooled effect is small but positive (r = 0.074, 95% CI [0.060, 0.088])
+- ICRV institutional regime moderates the I–P relationship (Q_M = 17.35, p = .002)
+- Digital adoption and lifecycle phase show no significant I–P moderation
+- Trim-and-fill reveals publication bias, attenuating the effect to r = 0.035
+
 ## Abstract
 
 We conduct a three-level meta-analytic regression analysis
@@ -1440,6 +1448,10 @@ checklist is provided as supplementary material.
 ## Declaration of Generative AI and AI-Assisted Technologies in the Writing Process
 
 During the preparation of this work, the authors used two software aids, each under full human control and verification. First, a purpose-built large-language-model-assisted tool (M-AIDA, using Anthropic Claude) was used to assist effect-size extraction and statistical conversion from the primary studies; every value proposed by the tool was independently checked, corrected where necessary, and permanently locked by the Principal Investigator before entry into the analysis database. Second, Grammarly was used to correct spelling, grammar, and punctuation in the authors' own text. No generative AI tool selected studies, made eligibility decisions, performed the statistical analysis, or generated any interpretive or written content; the authors reviewed all outputs and take full responsibility for the content of the publication.
+
+## Acknowledgements
+
+The authors thank the authors of the primary studies synthesised in this meta-analysis. Where World Bank Enterprise Survey data informed primary estimates, the original collectors, the authorised distributor, and the relevant funding agencies bear no responsibility for the use of the data or for interpretations based upon such uses.
 
 ## References
 

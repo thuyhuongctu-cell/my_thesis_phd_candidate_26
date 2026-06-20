@@ -723,10 +723,9 @@ expressed in this paper are entirely those of the authors and do not
 necessarily represent the views of the World Bank Group, its Executive
 Directors, or the governments they represent.
 
-The authors received no specific grant from any funding agency in the
-public, commercial, or not‑for‑profit sectors for the research,
-authorship, or publication of this article. The authors declare no
-conflicts of interest.
+## Funding
+
+The authors received no specific grant from any funding agency in the public, commercial, or not‑for‑profit sectors for the research, authorship, or publication of this article.
 
 ## Data Availability
 
@@ -741,6 +740,10 @@ reasonable request.
 Grammarly was used for grammar and spelling corrections only. No AI
 tools were used for idea generation, literature synthesis, data
 analysis, or manuscript content creation.
+
+## Conflict of Interest
+
+The authors declare no conflict of interest.
 
 ## References
 

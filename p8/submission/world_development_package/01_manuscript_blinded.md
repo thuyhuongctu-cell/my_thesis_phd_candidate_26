@@ -6,6 +6,14 @@
 **Keywords**: internationalization–performance relationship; small
 island developing states; forced internationalization; institutional voids; Pacific economies; labor productivity
 
+## Highlights
+
+- The canonical inverted-U dissolves in Pacific small island developing states
+- Export-intensity slope is indistinguishable from zero (bootstrap p = .66)
+- Curvature is marginally positive, not concave, hinting at convexity
+- Technological capability raises productivity but does not restore the inverted-U
+- Forced Internationalization Penalty bounds the inverted-U paradigm's scope
+
 ## Abstract
 
 The conventional inverted-U relationship between internationalization intensity and firm performance rests on three structural prerequisites: a viable domestic market, manageable trade costs, and functional institutional support. We argue that when all three are simultaneously absent, as in Pacific Small Island Developing States (SIDS), the expected non-linear pattern collapses into a monotone negative relationship that we term the **Forced Internationalization Penalty (FIP)**. Unlike the downward phase-1 slope in three-stage internationalization theory, FIP is not a transient learning cost with an eventual turning point; it is a persistent structural condition arising from the compulsion to export despite systemic disadvantages. Using World Bank Enterprise Survey data from 959 firms across seven Pacific SIDS economies (2009–2025), we find that internationalization intensity is negatively associated with labor productivity (β = −1.339, p \< .001 in the country-and-year fixed-effects specification; β = −3.351, p \< .001 without country fixed effects; estimation N = 209 complete cases, from the full analysis sample of N = 959), with no significant quadratic curvature. We are explicit, however, that this estimate rests on the three SIDS economies with complete pre-2018 control data and is sensitive to the data version and to the small number of island economies with complete firm-level data (see Limitations); the result is therefore best read as exploratory evidence for a theoretical boundary condition rather than a robustly estimated effect. Neither technological capability nor digital adoption moderates the negative export–performance slope in the SIDS environment, although technological capability does raise the overall productivity level, consistent with the FIP mechanism: when structural prerequisites are absent, firm-level capabilities cannot redirect the I-P relationship toward positive territory. The findings reframe the inverted-U paradigm as conditional rather than universal, identify boundary conditions for institutional moderation theory, and carry direct implications for the Antigua and Barbuda Agenda for SIDS.
@@ -295,6 +303,22 @@ For the world development policy agenda, FIP suggests that export promotion stra
 ## Declaration of Generative AI and AI-Assisted Technologies in the Writing Process
 
 During the preparation of this work, the author(s) used Grammarly, a writing-assistance tool, in order to correct spelling, grammar, and punctuation in the author(s)' own original text. No generative artificial-intelligence tool was used to generate, draft, or create any substantive content, analysis, or interpretation. After using this tool, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.
+
+## Acknowledgements
+
+The authors thank the Enterprise Analysis Unit of the Development Economics Global Indicators Group of the World Bank for the WBES microdata for the Pacific Small Island Developing States analysed data. The original collector of the data, the authorised distributor, and the relevant funding agency bear no responsibility for the use of the data or for interpretations or inferences based upon such uses.
+
+## Funding
+
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+## Declaration of competing interest
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Data availability
+
+The World Bank Enterprise Survey (WBES) microdata for the Pacific Small Island Developing States analysed in this study are publicly available at https://www.enterprisesurveys.org subject to World Bank registration. Replication materials are available from the authors upon reasonable request, to the extent permitted by the WBES Data Access Protocol.
 
 ## References
 

@@ -725,6 +725,14 @@ checklist is provided as supplementary material.
 
 During the preparation of this work, the authors used two software aids, each under full human control and verification. First, a purpose-built large-language-model-assisted tool (M-AIDA, using Anthropic Claude) was used to assist effect-size extraction and statistical conversion from the primary studies; every value proposed by the tool was independently checked, corrected where necessary, and permanently locked by the Principal Investigator before entry into the analysis database. Second, Grammarly was used to correct spelling, grammar, and punctuation in the authors' own text. No generative AI tool selected studies, made eligibility decisions, performed the statistical analysis, or generated any interpretive or written content; the authors reviewed all outputs and take full responsibility for the content of the publication.
 
+## Acknowledgements
+
+The authors thank the authors of the primary studies synthesised in this meta-analysis. Where World Bank Enterprise Survey data informed primary estimates, the original collectors, the authorised distributor, and the relevant funding agencies bear no responsibility for the use of the data or for interpretations based upon such uses.
+
+## Ethics approval
+
+This study analyses secondary, de-identified, publicly available firm-level survey data (World Bank Enterprise Surveys) and did not involve human participants or animals; ethics approval was not required.
+
 ## References
 
 Aguinis, H., Dalton, D. R., Bosco, F. A., Pierce, C. A., & Dalton, C. M.
