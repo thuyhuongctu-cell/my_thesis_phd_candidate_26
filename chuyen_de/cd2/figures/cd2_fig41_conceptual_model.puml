@@ -3,7 +3,7 @@
 ' Hình 4.1 — Khung khái niệm tích hợp CĐ2
 ' Tác động của Quốc tế hóa (I) lên Hiệu quả (P)
 ' Điều tiết đa tầng: TCI · DAI/CDCM · Manager · ICRV · Year-bucket
-' Pool: 101.185 doanh nghiệp × 47 nền kinh tế × 108 country-years
+' Pool: 88.869 doanh nghiệp × 50 nền kinh tế × 103 country-years
 ' Phiên bản 1.0 — 09/05/2026
 ' ══════════════════════════════════════════════════════════════════
 
@@ -19,7 +19,7 @@ skinparam RectangleBorderThickness 1.5
 skinparam RectangleFontSize 11
 
 ' ── [1] Biến độc lập ────────────────────────────────────────────
-rectangle "  **Quốc tế hóa (I)**\n  FSTS · FSTS²_c · FSTS³_c\n  ──────────────────────\n  Mã WBES: d3c / 100\n  N = 101.185 doanh nghiệp\n  47 nền kinh tế · 14 sóng  " as IV #AED6F1
+rectangle "  **Quốc tế hóa (I)**\n  FSTS · FSTS²_c · FSTS³_c\n  ──────────────────────\n  Mã WBES: d3c / 100\n  N = 88.869 doanh nghiệp\n  50 nền kinh tế · 14 sóng  " as IV #AED6F1
 
 ' ── [2] Biến phụ thuộc ──────────────────────────────────────────
 rectangle "  **Hiệu quả (P)**\n  ln(Labour Productivity)\n  ──────────────────────\n  ln(Doanh thu PPP / Lao động)\n  Năng suất lao động PPP-adjusted  " as DV #A9DFBF
@@ -32,7 +32,7 @@ rectangle "  **DAI** — CDCM\n  Áp dụng Số Nền tảng\n  ─────
 rectangle "  **Đặc điểm Nhà quản trị**\n  ────────────────────\n  Kinh nghiệm (b5)\n  Học vấn (b7a) · Giới tính (b7)\n  → **Upper Echelons** [H4]  " as MGR #FEF9E7
 
 ' ── [4] Điều tiết cấp quốc gia (Country-level) ─────────────────
-rectangle "  **ICRV Regime** (6 nhóm)\n  ────────────────────\n  Nhóm I (đổi mới) → Nhóm VI (SIDS)\n  5+5+6+7+17+7 = 47 nền kinh tế\n  Gradient TP + Forced penalty\n  → **Institutional Theory** [H5]  " as ICRV #FAD7A0
+rectangle "  **ICRV Regime** (6 nhóm)\n  ────────────────────\n  Nhóm I (đổi mới) → Nhóm VI (SIDS)\n  Tổng 50 nền kinh tế (96.415/52 nhãn → lọc 50)\n  Phổ thể chế (điểm uốn) + Forced penalty\n  → **Institutional Theory** [H5]  " as ICRV #FAD7A0
 
 rectangle "  **Year-bucket**\n  ────────────────────\n  2009–2012 (hậu GFC)\n  2013–2017 (GVC surge)\n  2018–2025 (số hóa + COVID)\n  → **Temporal heterogeneity** [H6]  " as YB #D5DBDB
 
