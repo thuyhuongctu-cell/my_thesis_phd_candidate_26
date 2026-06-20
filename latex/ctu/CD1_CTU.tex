@@ -227,12 +227,11 @@ và M5 N=78.445. Sau khi đã chạy vòng tái ước lượng 49 nền gồm N
 mô tả và ước lượng nay dùng chung MỘT khung 49 nền. Trường hợp biên
 SIDS: Nhóm VI gồm 7 nền Pacific (Timor-Leste bị loại theo phân loại Ngân
 hàng Thế giới và Liên Hợp Quốc --- không phải quốc đảo Thái Bình Dương).
-Lưu ý: mọi thống kê mô tả Nhóm VI ở các Mục 2.3.3--2.3.8 (gồm số quan
-sát, độ phân tán, tỷ lệ đổi mới/số/cấu trúc --- ví dụ Bảng 2.3.3.1 ghi
-n=1.916, 16 đợt) được tính trên \textbf{tập mô tả mở rộng gồm
-Timor-Leste} và đang \textbf{chờ re-lock theo 7 nền Pacific}; phần ước
-lượng kinh tế lượng (P7/P8) đã loại Timor và dùng 7 nền (mẫu chính P8
-N=1.450).}
+Lưu ý: các dòng Nhóm VI ở Mục 2.3.3--2.3.6 đã được \textbf{re-lock theo
+7 nền Pacific} (loại Timor-Leste), tái lập từ raw bằng
+\texttt{scripts/relock\_descriptives\_canonical.py} (n LP-hợp lệ =
+1.471, 13 đợt). Số phân loại nhóm (n=1.781) và số LP-hợp lệ (n=1.471) là
+hai lát cắt khác nhau của cùng 7 nền.}
 \end{quote}
 
 Phương pháp chủ đạo là thống kê mô tả đa chiều, kết hợp đồ thị, bảng so
@@ -1252,8 +1251,8 @@ cao nhất (sd \textasciitilde1,39; P90/P10 \textasciitilde30 lần), nhưng
 \textless1 triệu; cô lập địa lý \textgreater2.000 km từ hub thương mại;
 phụ thuộc ODA + remittances \textgreater{} 20\% GDP; mô hình MIRAB
 (Bertram, 2006). Khuôn mẫu WBES: n=1.781 (\textasciitilde2,0\% mẫu gộp);
-FDI cao nhất (20,0\%, do MNE du lịch/viễn thông); đổi mới sản phẩm cao
-nhất (34,2\%, đổi mới bằng nguồn lực hạn chế); website khá cao ngoại trừ
+FDI cao nhất (22,9\%, do MNE du lịch/viễn thông); đổi mới sản phẩm cao
+nhất (39,6\%, đổi mới bằng nguồn lực hạn chế); website khá cao ngoại trừ
 Kiribati (18,7\%).
 
 \hypertarget{danh-suxe1ch-49-nux1ec1n-kinh-tux1ebf-theo-nhuxf3m-icrv-cux103n-theo-nhuxe3n-dux1eef-liux1ec7u}{%
@@ -1460,7 +1459,7 @@ II, Advanced tài nguyên & 6 & 2.082 & 1,14 & 20,8 & 4,8 \\
 III, Trung bình cao & 17 & 12.481 & 1,37 & 25,0 & 5,4 \\
 IV, Chuyển đổi TB-thấp & 17 & 42.798 & 1,31 & 27,8 & 5,6 \\
 V, Đang nổi & 40 & 16.595 & \textbf{1,39} & \textbf{30,3} & 5,8 \\
-VI, SIDS & 16 & 1.916 & 1,32 & 26,3 & 5,4 \\
+VI, SIDS (7 nền Pacific) & 13 & 1.471 & 1,30 & 25,0 & 4,9 \\
 \end{longtable}
 
 \emph{Ghi chú: sd, P90/P10 và P75/P25 tính trong từng đợt khảo sát (bất
@@ -1634,24 +1633,25 @@ I, Adv. đổi mới & 26,9 & 18,8 & \textbf{21,0} & 32,5 & \textbf{69,2} \\
 II, Adv. tài nguyên¹ & 17,0 & 8,6 & 7,0 & 15,2 & 50,2 \\
 III, Trung bình cao & 26,7 & 18,9 & 21,5 & 25,4 & 53,9 \\
 IV, Chuyển đổi TB-thấp & 17,1 & 14,7 & 15,5 & 25,3 & 48,3 \\
-V, Đang nổi & 24,4 & 16,3 & 17,5 & 12,7 & 40,9 \\
-VI, SIDS² & \textbf{34,2} & \textbf{24,7} & 10,2 & 12,2 & 41,5 \\
+V, Đang nổi & 24,4 & 16,4 & 17,5 & 12,6 & 40,6 \\
+VI, SIDS² (7 nền Pacific) & \textbf{39,6} & \textbf{27,9} & 11,5 & 15,2
+& 47,1 \\
 \end{longtable}
 
 \emph{Nguồn: tính từ dữ liệu vi mô WBES trên mẫu gộp mô tả 49 nền (biến
 h1/h5/h8/b8/c22b; mã 1=có, 2=không; mã âm = thiếu). ¹Nhóm II: đủ 6/6 nền
 GCC, đặc trưng dầu mỏ: R\&D thấp (7,0\%), nữ quản lý cấp cao rất thấp
 (4,6\%), website 50,2\%. ²Nhóm VI: đủ 7/7 nền, đổi mới sản phẩm cao nhất
-mọi nhóm (34,2\%) và website 41,5\%: khuôn mẫu ``thích nghi và nhảy vọt
+mọi nhóm (39,6\%) và website 47,1\%: khuôn mẫu ``thích nghi và nhảy vọt
 số'' của SIDS.}
 
 Với dữ liệu đầy đủ 7/7 nền Nhóm VI, SIDS thể hiện khuôn mẫu
 \textbf{thích nghi và nhảy vọt số} rõ nét: tỷ lệ đổi mới sản phẩm
-\textbf{cao nhất mọi nhóm (34,2\%)} phản ánh đổi mới bằng nguồn lực hạn
+\textbf{cao nhất mọi nhóm (39,6\%)} phản ánh đổi mới bằng nguồn lực hạn
 chế, sáng tạo không chính thức bù đắp thiếu hụt nguồn lực; website
-41,5\% ngang nhóm Đang nổi dù GNI thấp hơn đáng kể. Gradient năng lực
-thể chế vẫn rõ ở các biến nền tảng: R\&D giảm từ 20,5\% (Nhóm I) xuống
-10,2\% (Nhóm VI); ISO 35,0\% rồi 12,2\%; website 61,7\% rồi 41,5\%. Phân
+47,1\% cao hơn nhóm Đang nổi dù GNI thấp hơn đáng kể. Gradient năng lực
+thể chế vẫn rõ ở các biến nền tảng: R\&D giảm từ 21,0\% (Nhóm I) xuống
+11,5\% (Nhóm VI); ISO 32,5\% rồi 15,2\%; website 69,2\% rồi 47,1\%. Phân
 tách rõ TCI so với DAI, kế thừa Đỗ \& Phan (2026, VEFR).
 
 \hypertarget{tuxe1i-ux111ux1ecbnh-huxecnh-chux1ec9-sux1ed1-uxe1p-dux1ee5ng-sux1ed1-tux1ea7ng-1-sux1ef1-hiux1ec7n-diux1ec7n-sux1ed1-cux1a1-bux1ea3n}{%
@@ -1702,13 +1702,13 @@ II, Adv. tài nguyên¹ & 77,4 & 11,7 & 13,6 \\
 III, Trung bình cao & 78,7 & 21,3 & 8,9 \\
 IV, Chuyển đổi TB-thấp & 74,0 & 14,3 & 3,1 \\
 V, Đang nổi & 86,0 & 18,8 & 7,1 \\
-VI, SIDS² & \textbf{91,8} & 14,7 & \textbf{20,0} \\
+VI, SIDS² (7 nền Pacific) & \textbf{90,7} & 15,5 & \textbf{22,9} \\
 \end{longtable}
 
 \emph{Nguồn: tính từ dữ liệu vi mô WBES trên mẫu gộp mô tả 49 nền (SME =
 \textless100 lao động thường xuyên, biến l1; FDI = sở hữu nước ngoài
 ≥10\%, biến b2b). ¹Nhóm II: đủ 6/6 nền GCC. ²Nhóm VI: đủ 7/7 nền, SME
-cao nhất (91,8\%) và FDI cao (20,0\%, do MNE du lịch/viễn thông).}
+cao nhất (90,7\%) và FDI cao (22,9\%, do MNE du lịch/viễn thông).}
 
 \begin{figure}
 \centering
@@ -1718,11 +1718,11 @@ cao nhất (91,8\%) và FDI cao (20,0\%, do MNE du lịch/viễn thông).}
 
 \emph{Hình 2.3.5.1. Biểu đồ thanh cấu trúc doanh nghiệp (SME, doanh
 nghiệp xuất khẩu, FDI ≥10\%) theo nhóm ICRV (Bảng 2.3.5.1). Nhóm VI
-(SIDS, đủ 7/7 nền) có tỷ lệ SME cao nhất (91,8\%), Nhóm V kế tiếp
+(SIDS, đủ 7/7 nền) có tỷ lệ SME cao nhất (90,7\%), Nhóm V kế tiếp
 (86,0\%), Nhóm IV thấp nhất (74,0\%).}
 
 Tỷ lệ FDI có dạng chữ U với cực tiểu ở Nhóm IV, Chuyển đổi TB-thấp
-(3,1\%). SIDS có FDI cao (20,0\%) do du lịch và viễn thông được dẫn dắt
+(3,1\%). SIDS có FDI cao (22,9\%) do du lịch và viễn thông được dẫn dắt
 bởi doanh nghiệp đa quốc gia. Hai mô hình FDI hoàn toàn khác nhau: (i)
 MNE hub tại Advanced (Singapore FDI 31,5\%, doanh nghiệp đa quốc gia
 chọn Singapore làm trung tâm khu vực); (ii) du lịch/viễn thông tại SIDS
@@ -2512,7 +2512,7 @@ bản} (đang phát triển). Phần bù tương quan DAI thấp nhất ở Nhó
 
 \textbf{(vii) Khuôn mẫu phi tuyến FDI ≥10\%}, dạng chữ U với cực tiểu ở
 Nhóm IV (3,1\%): Advanced 10,6--13,6\% sang Nhóm IV 3,1\% sang SIDS
-20,0\%. Hai mô hình FDI: MNE hub (Advanced) và du lịch/viễn thông
+22,9\%. Hai mô hình FDI: MNE hub (Advanced) và du lịch/viễn thông
 (SIDS).
 
 \textbf{(viii) Đợt khảo sát 2025, mẫu đơn năm lớn nhất}: 13 nền kinh tế

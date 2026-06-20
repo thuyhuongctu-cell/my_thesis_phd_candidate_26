@@ -43,6 +43,12 @@
 > giảm từ 50 → **49 nền**. Tác động lên headline P7 không đáng kể (Timor ≈ 0,55% mẫu; TP/β giữ
 > nguyên). **Các tổng locked dưới đây (88.869 / 81.022 / nhóm) vẫn gồm Timor và cần RE-LOCK lại
 > trên master đầy đủ** — dòng SIDS_small đã được cập nhật theo build raw 7 nền đã verify.
+>
+> **Bảng mô tả (single source of truth):** `scripts/relock_descriptives_canonical.py` →
+> `data_wbes/analysis/descriptives_canonical_49econ.csv` tái lập mọi ô của Bảng 4.1/4.2 (luận án)
+> và 2.3.3.1–2.3.6 (CĐ1) từ raw, cùng harmonization P7 (loại Timor). SIDS 7 nền: n(LP)=1.471,
+> sd ln(LP)=1,30, FSTS TB 6,2, xuất khẩu 15,5%, FDI 22,9%, đổi mới SP 39,6%, quy trình 27,9%,
+> R&D 11,5%, ISO 15,2%, website 47,1%. Các nhóm khác canonical **trùng** Bảng 4.2 vintage.
 
 | Nhóm ICRV | N | Điểm uốn | p (LM) | Diễn giải ba vùng |
 |---|--:|--:|--:|---|
