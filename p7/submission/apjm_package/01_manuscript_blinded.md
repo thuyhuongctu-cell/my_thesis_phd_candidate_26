@@ -154,7 +154,7 @@ electronic-payment share, has been associated with reduced
 communication and transaction costs (Verhoef et al., 2021). In the CDCM
 (Context-Contingent Digital Capability Model) developed in the
 dissertation, DAI's effect depends on the interaction of regime quality,
-FSTS level, and digital market saturation (Đỗ & Phan, 2024).
+FSTS level, and digital market saturation (Authors, 2024).
 Specifically, in institutionally advanced economies where digital
 infrastructure is mature, DAI provides universal performance lifts (as
 in P4 Singapore: β(DAI) positive and significant). In emerging-economy
@@ -732,10 +732,7 @@ Dawson, J. F. (2014). Moderation in management research: What, why,
 when, and how. *Journal of Business and Psychology, 29*(1), 1–19.
 <https://doi.org/10.1007/s10869-013-9308-7>
 
-Đỗ, T. H., & Phan, A. T. (2024). *Internationalization and firm
-performance: A meta-analysis for Asia-Pacific economies*. Paper
-presented at the International Conference on Business, Economics, and
-Finance (ICBEF 2024). Can Tho University.
+Authors (2024). Details omitted for double-blind review.
 
 Gomes, L., & Ramaswamy, K. (1999). An empirical examination of the form
 of the relationship between multinationality and performance. *Journal
@@ -747,11 +744,7 @@ Theorizing and testing U- and inverted U-shaped relationships in
 strategy research. *Strategic Management Journal, 37*(7), 1177–1195.
 <https://doi.org/10.1002/smj.2399>
 
-Do, T. H., & Phan, A. T. (2025). Internationalization and firm
-performance of firms in India: The role of top management. In M.
-Bartekova (Ed.), *International business research: Traditional and
-creative approaches*. IntechOpen.
-https://doi.org/10.5772/intechopen.1011012
+Authors (2025). Details omitted for double-blind review.
 
 Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of
 Management Review, 32*(2), 334–343.
@@ -819,10 +812,7 @@ Pangarkar, N. (2008). Internationalization and performance of small- and
 medium-sized enterprises. *Journal of World Business, 43*(4), 475–485.
 <https://doi.org/10.1016/j.jwb.2007.11.009>
 
-Phan, A. T., Do, T. H., & Phan, M. T. (2020). The moderating effects of
-managers' experience and gender on internationalization and firm
-performance of manufacturing enterprises in Turkey. *Accounting, 6*(7),
-1209–1216. https://doi.org/10.5267/j.ac.2020.9.006
+Phan, A. T., Authors (2020). Details omitted for double-blind review.
 
 Richard, O. C., Kirby, S. L., & Chadwick, K. (2019). The impact of
 racial and gender diversity in management on firm performance: An

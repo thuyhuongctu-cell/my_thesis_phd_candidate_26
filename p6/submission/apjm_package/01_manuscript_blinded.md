@@ -4,18 +4,18 @@
 
 ## Abstract
 
-**Purpose:** We conduct a three-level meta-analytic regression analysis
+We conduct a three-level meta-analytic regression analysis
 (MARA) examining whether country-level digital adoption (cDAI),
 institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL)
 phase moderate the internationalization–performance (I to P) relationship 
 three theoretically motivated moderators that prior meta-analyses have
-not examined. **Design/methodology/approach:** A systematic search
+not examined. A systematic search
 following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026)
 identifies *k* = 238 studies with *K* = 288 effect sizes. Three-level
 MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes
 heterogeneity into within-study (*Level 2*) and between-study (*Level
 3*) components using `metafor` in R. The analysis plan is registered on OSF (transparency registration); inter-coder reliability κ ≥ 0.70 on 20%
-double-coded subsample. **Findings:** The baseline pooled effect is *r*
+double-coded subsample. The baseline pooled effect is *r*
 = 0.074 (95% CI \[0.060, 0.088\], *p* \< .001) with *I*² = 62.4%
 (within-study 54.1%; between-study 8.4%), replicating and extending the
 ICBEF 2025 baseline (*r* = 0.07, *k* = 113). The three hypothesized
@@ -28,7 +28,7 @@ and *Q*\_M = 0.62, *p* = .734, respectively) in the current *k* = 238
 sample. Substantial publication bias is detected: trim-and-fill imputes
 *k* = 57 missing studies, reducing the adjusted pooled effect to *r* =
 0.035 (95% CI \[0.018, 0.051\]), positive but attenuated.
-**Originality/value:** This is the first three-level MARA of I to P drawing
+This is the first three-level MARA of I to P drawing
 on *k* = 238 studies from 49 economies globally, and the first to
 formally test ICRV, cDAI, and DPL phase as moderators. The ICRV
 between-regime Q_M test confirms H1 (Q_M = 17.35, *p* = .002), while the
@@ -69,7 +69,7 @@ positive, yet *I*² regularly exceeds 80%, signaling that context, not a
 universal mechanism, drives outcomes.
 
 The present study's starting point is the ICBEF 2025 baseline analysis
-(Do & Phan, 2024): *k* = 113 studies, pooled *r* = 0.07 (*p* \< .001),
+(Authors, 2024): *k* = 113 studies, pooled *r* = 0.07 (*p* \< .001),
 *I*² = 87.92%. While confirming the positive average effect, this
 baseline identified that conventional moderators, country of origin,
 industry, performance measure type, leave approximately 70% of variance
@@ -485,7 +485,7 @@ single study drives the results.
 The meta-analytic baseline (*r* = 0.074, *k* = 238, 49 economies) is
 consistent with country-level evidence from across the global study
 corpus, including the Asia-Pacific primary studies underlying the ICBEF
-2025 baseline (Do & Phan, 2024). The pooled effect is positive and
+2025 baseline (Authors, 2024). The pooled effect is positive and
 significant, confirming that export-intensive firms tend to outperform
 domestically focused peers even after adjusting for firm size, age, and
 industry.
@@ -503,7 +503,7 @@ predicted, and the I–III difference is not statistically significant
 **Emerging contexts (Group III, k = 91; *r̄* = 0.068):** The Emerging
 group shows *r̄* = 0.068, directionally below the Advanced group,
 consistent with CIMT's institutional friction argument. At the
-primary-study level, Do & Phan (2025) document a negative aggregate DOI
+primary-study level, Authors (2025) document a negative aggregate DOI
 coefficient on 380 Indian WBES firms (FGLS estimation), with manager
 experience and female top-management leadership as positive moderating
 factors, a pattern consistent with CIMT's prediction that firm-level
@@ -774,16 +774,9 @@ David, P. A. (1990). The dynamo and the computer: An historical
 perspective on the modern productivity paradox. *American Economic
 Review, 80*(2), 355–361.
 
-Do, T. H., & Phan, A. T. (2024, December). *Internationalization and
-firm performance: A meta-analysis review* \[Paper presentation\]. The
-Sixth International Conference on Sustainable Development in Economics,
-Business, and Finance (ICBEF).
+Authors (2024). Details omitted for double-blind review.
 
-Do, T. H., & Phan, A. T. (2025). Internationalization and firm
-performance of firms in India: The role of top management. In M.
-Bartekova (Ed.), *International business research: Traditional and
-creative approaches*. IntechOpen.
-<https://doi.org/10.5772/intechopen.1011012>
+Authors (2025). Details omitted for double-blind review.
 
 Duval, S., & Tweedie, R. (2000). Trim and fill: A simple
 funnel-plot-based method of testing and adjusting for publication bias

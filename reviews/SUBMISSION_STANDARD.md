@@ -17,6 +17,7 @@ Mỗi package gồm: `01_manuscript_blinded.md` (+ `.docx`), `02_title_page.md`,
 | **P7** Capstone | 3 Có | IBR, APJM, JIBS | Có `p7/submission/p7_capstone_vi.md` |
 | **P8** Pacific SIDS | 3 Có | JID, World Development, EJDR | Có `p8/submission/p8_pacific_sids_vi.md` (7-SIDS) |
 | **P9** India | 3 Có | MIR, IJOEM, JABS | Có `p9_india/submission/p9_india_vi.md` |
+| **P10** Japan | 3 Có | ABM, APJM, IJOEM | (đang chuẩn bị) |
 
 **Tất cả P3–P9 đều có ≥3 hồ sơ nộp + 1 bản dịch tiếng Việt manuscript-level (em-dash=0).**
 
@@ -24,3 +25,13 @@ Mỗi package gồm: `01_manuscript_blinded.md` (+ `.docx`), `02_title_page.md`,
 > - P1, P2 đã công bố — không tạo package, không sửa.
 > - `p6/21_p6_meta_vi.md` là bản dịch working-manuscript cũ (đã gắn nhãn lỗi thời); bản chính thức là `p6/submission/p6_meta_vi.md`.
 > - Tất cả bản blinded đã gỡ danh tính tác giả (P4/P5/P6 đã sửa); P8 đã đồng bộ 7-SIDS toàn bộ (manuscript + master `clean_en` + metadata + VI).
+
+## LaTeX + house-style (cập nhật 2026-06-20)
+
+- Mỗi đích **non-Emerald** có thêm `04_manuscript_latex.{tex,pdf}` sinh bằng
+  `scripts/build_journal_latex.py` (compile xelatex; class chính thức ghi ở header,
+  article-fallback để xác minh PDF). Emerald nộp Word qua ScholarOne (không LaTeX).
+- Abstract theo house-style: **Emerald = structured**; Springer/Elsevier/T&F/Wiley/Palgrave
+  = **unstructured**. Tham chiếu APA author-year (Emerald: Harvard). Xem `reviews/JOURNAL_FORMAT_MATRIX.md`.
+- Tự-trích-dẫn đã **ẩn danh** trong **mọi** gói live (double-blind, leak = 0).
+- Chuẩn hóa lại bằng: `python3 scripts/rollout_format.py` + `python3 scripts/build_journal_latex.py --all`.

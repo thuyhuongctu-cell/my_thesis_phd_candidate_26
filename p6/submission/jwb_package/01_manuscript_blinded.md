@@ -6,18 +6,18 @@ IF ≈ 5.5, ABS-3)* *Version 1.0, May 2026 (target journal submission: Q4
 
 ## Abstract
 
-**Purpose:** We conduct a three-level meta-analytic regression analysis
+We conduct a three-level meta-analytic regression analysis
 (MARA) examining whether country-level digital adoption (cDAI),
 institutional context regime (ICRV), and Digital Paradox Lifecycle (DPL)
 phase moderate the internationalization–performance (I to P) relationship 
 three theoretically motivated moderators that prior meta-analyses have
-not examined. **Design/methodology/approach:** A systematic search
+not examined. A systematic search
 following PRISMA 2020 protocols on Web of Science and Scopus (1977–2026)
 identifies *k* = 238 studies with *K* = 288 effect sizes. Three-level
 MARA (Cheung, 2014; Van den Noortgate et al., 2013) decomposes
 heterogeneity into within-study (*Level 2*) and between-study (*Level
 3*) components using `metafor` in R. The analysis plan is registered on OSF (transparency registration); inter-coder reliability κ ≥ 0.70 on 20%
-double-coded subsample. **Findings:** The baseline pooled effect is *r*
+double-coded subsample. The baseline pooled effect is *r*
 = 0.074 (95% CI \[0.060, 0.088\], *p* \< .001) with *I*² = 62.4%
 (within-study 54.1%; between-study 8.4%), replicating and extending the
 ICBEF 2025 baseline (*r* = 0.07, *k* = 113). The three hypothesized
@@ -30,7 +30,7 @@ and *Q*\_M = 0.62, *p* = .734, respectively) in the current *k* = 238
 sample. Substantial publication bias is detected: trim-and-fill imputes
 *k* = 57 missing studies, reducing the adjusted pooled effect to *r* =
 0.035 (95% CI \[0.018, 0.051\]), positive but attenuated.
-**Originality/value:** This is the first three-level MARA of I to P drawing
+This is the first three-level MARA of I to P drawing
 on *k* = 238 studies from 49 economies globally, and the first to
 formally test ICRV, cDAI, and DPL phase as moderators. The ICRV
 between-regime Q_M test confirms H1 (Q_M = 17.35, *p* = .002), while the

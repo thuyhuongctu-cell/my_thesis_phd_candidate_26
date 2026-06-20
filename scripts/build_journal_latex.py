@@ -16,14 +16,27 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 os.chdir(ROOT)
 
 # documentclass: 'elsarticle' (native) | 'article' (fallback cho Springer/T&F/Wiley)
+_SPR = 'Springer svjour3.cls (smallextended) — Springer Nature LaTeX support; article fallback để xác minh'
+_ELS = 'Elsevier elsarticle.cls (review,12pt) — Elsevier; article fallback để xác minh'
+_TF  = 'T&F interact.cls (interactapasample) — Taylor & Francis; article fallback để xác minh'
+_WIL = 'Wiley WileyNJD-v2.cls — Wiley author resources; article fallback để xác minh'
+_PAL = 'Springer Nature sn-jnl.cls (pdflatex) — Palgrave/Springer; article fallback để xác minh'
+
 TARGETS = {
-  # P4 Singapore
-  'p4_mir':  dict(pkg='p4/submission/mir_package',  cls='article',
-                  journal='Management International Review (Springer Nature)',
-                  swap='Springer svjour3.cls (smallextended) — tải từ Springer Nature LaTeX support; article fallback dùng để xác minh'),
-  'p4_apbr': dict(pkg='p4/submission/apbr_package', cls='article',
-                  journal='Asia Pacific Business Review (Taylor & Francis)',
-                  swap='T&F interact.cls (interactapasample) — tải từ Taylor & Francis; article fallback dùng để xác minh'),
+  'p4_mir':  dict(pkg='p4/submission/mir_package',  cls='article', journal='Management International Review (Springer Nature)', swap=_SPR),
+  'p4_apbr': dict(pkg='p4/submission/apbr_package', cls='article', journal='Asia Pacific Business Review (Taylor & Francis)',  swap=_TF),
+  'p5_apbr': dict(pkg='p5/submission/apbr_package', cls='article', journal='Asia Pacific Business Review (Taylor & Francis)',  swap=_TF),
+  'p6_jwb':  dict(pkg='p6/submission/jwb_package',  cls='article', journal='Journal of World Business (Elsevier)',            swap=_ELS),
+  'p6_jim':  dict(pkg='p6/submission/jim_package',  cls='article', journal='Journal of International Management (Elsevier)',  swap=_ELS),
+  'p6_apjm': dict(pkg='p6/submission/apjm_package', cls='article', journal='Asia Pacific Journal of Management (Springer)',   swap=_SPR),
+  'p7_ibr':  dict(pkg='p7/submission/ibr_package',  cls='article', journal='International Business Review (Elsevier)',        swap=_ELS),
+  'p7_apjm': dict(pkg='p7/submission/apjm_package', cls='article', journal='Asia Pacific Journal of Management (Springer)',   swap=_SPR),
+  'p8_wd':   dict(pkg='p8/submission/world_development_redesign', cls='article', journal='World Development (Elsevier)',       swap=_ELS),
+  'p8_jid':  dict(pkg='p8/submission/jid_package',  cls='article', journal='Journal of International Development (Wiley)',     swap=_WIL),
+  'p8_ejdr': dict(pkg='p8/submission/ejdr_package', cls='article', journal='European Journal of Development Research (Palgrave)', swap=_PAL),
+  'p9_mir':  dict(pkg='p9_india/submission/mir_package', cls='article', journal='Management International Review (Springer Nature)', swap=_SPR),
+  'p10_abm': dict(pkg='p10_japan/submission/abm_package',  cls='article', journal='Asian Business & Management (Palgrave)',   swap=_PAL),
+  'p10_apjm':dict(pkg='p10_japan/submission/apjm_package', cls='article', journal='Asia Pacific Journal of Management (Springer)', swap=_SPR),
 }
 
 def parse_md(md_path):
