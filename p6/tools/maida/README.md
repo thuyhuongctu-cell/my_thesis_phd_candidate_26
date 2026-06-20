@@ -41,16 +41,19 @@ open http://localhost:3000
 cd backend
 pip install -e ".[test]"
 pytest -q
+
+# Frontend (Vite) — dev server / production build
+cd frontend
+npm ci
+npm run dev      # http://localhost:3000
+npm run build    # outputs to build/
 ```
 
-CI runs the backend test suite on every change (`.github/workflows/maida-ci.yml`).
-
-> **Frontend build status.** The UI is a Create-React-App project (`react-scripts` 5).
-> Its build chain does not support the pinned React 19 / TypeScript versions
-> (ajv and peer-dependency conflicts), so a production build currently fails and
-> is **not** in CI. Fixing it means migrating off the deprecated `react-scripts`
-> to Vite. The scientifically meaningful, copyright-relevant logic lives in the
-> backend and is fully tested.
+CI runs the backend test suite and the frontend Vite build on every change
+(`.github/workflows/maida-ci.yml`). The frontend was migrated from the
+deprecated Create-React-App (`react-scripts`) to **Vite** so it builds cleanly
+under React 19. Set `VITE_API_URL` (see `frontend/.env.example`) to point the
+client at a non-default backend URL.
 
 ## API Routes
 

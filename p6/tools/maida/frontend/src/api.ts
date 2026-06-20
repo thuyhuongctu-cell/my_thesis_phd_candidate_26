@@ -2,7 +2,7 @@
  * M-AIDA v7.0 API client.
  *
  * All routes proxied from the React dev server to the FastAPI backend
- * (default: http://localhost:8765).  Set REACT_APP_API_URL in .env.local
+ * (default: http://localhost:8765).  Set VITE_API_URL in .env.local
  * to override the base URL.
  */
 
@@ -17,7 +17,7 @@ import type {
 } from "./types";
 
 const BASE_URL =
-  process.env.REACT_APP_API_URL ?? "http://localhost:8765";
+  import.meta.env.VITE_API_URL ?? "http://localhost:8765";
 
 const http: AxiosInstance = axios.create({
   baseURL: BASE_URL,

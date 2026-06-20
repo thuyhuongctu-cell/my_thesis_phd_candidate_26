@@ -1,21 +1,14 @@
 name: M-AIDA CI
 
-# Tests the backend (effect-size conversions + confidence scheme) on changes.
-#
-# NOTE: a frontend production-build job is intentionally omitted. The UI is a
-# Create-React-App project (react-scripts 5) whose toolchain does not support
-# the pinned React 19 / TypeScript versions (ajv + peer-dependency conflicts);
-# building it requires migrating off the deprecated react-scripts to Vite. The
-# scientifically meaningful, copyright-relevant logic lives in the backend and
-# is fully covered here. Re-add a frontend job after the Vite migration.
+# Backend unit tests + frontend (Vite) production build, on changes to the tool.
 on:
   push:
     paths:
-      - "p6/tools/maida/backend/**"
+      - "p6/tools/maida/**"
       - ".github/workflows/maida-ci.yml"
   pull_request:
     paths:
-      - "p6/tools/maida/backend/**"
+      - "p6/tools/maida/**"
       - ".github/workflows/maida-ci.yml"
   workflow_dispatch:
 
@@ -36,3 +29,21 @@ jobs:
         run: pip install -e ".[test]"
       - name: Run unit tests
         run: pytest -q
+
+  frontend-build:
+    name: Frontend — Vite build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: p6/tools/maida/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: p6/tools/maida/frontend/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build

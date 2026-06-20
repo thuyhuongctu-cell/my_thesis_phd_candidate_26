@@ -10,9 +10,13 @@ internal release line used during the doctoral meta-analysis (P6).
 - Tests: added `backend/tests/` (pytest) pinning the Cohen (1988) t→r and
   Peterson & Brown (2005) β→r conversions, sign preservation, the unit-interval
   bound, and the three-level confidence scheme / PI-review threshold.
+- Frontend: migrated from the deprecated Create-React-App (`react-scripts` 5,
+  which cannot build under React 19) to **Vite 6** + `@vitejs/plugin-react`.
+  Added `vite.config.ts`, root `index.html`, `tsconfig.json`, `src/vite-env.d.ts`,
+  and `frontend/.env.example`; the API base URL now reads `import.meta.env.VITE_API_URL`.
+  Build output stays in `build/` so the Docker/nginx setup is unchanged.
 - CI: added `.github/workflows/maida-ci.yml` running the backend pytest suite
-  on every change. (A frontend build job is deferred: react-scripts 5 does not
-  support the pinned React 19 / TypeScript versions; needs a Vite migration.)
+  and the frontend Vite production build on every change.
 
 ## [7.0.0] — 2026-06-08
 - Two-tab workflow finalised: **Extract** (LLM PDF to effect sizes) and
