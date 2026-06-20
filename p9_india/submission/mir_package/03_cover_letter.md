@@ -1,4 +1,4 @@
-[Date of submission]
+20 June 2026
 
 The Editor-in-Chief
 *Management International Review*
