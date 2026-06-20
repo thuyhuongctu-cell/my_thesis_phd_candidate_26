@@ -685,7 +685,7 @@ more productivity-enhancing between 2012 and 2024. Third, the
 digital-capability proxy could be enriched using WBES’s emerging
 e-commerce and platform-sales items (available in some country waves),
 enabling a more rigorous test of the TCI–DAI mediation pathway. Readers
-should note that a companion analysis (Đỗ and Phan, 2026) examines a
+should note that a companion analysis (Authors, 2026) examines a
 manufacturing-only extraction and GVC-position moderator using the same
 WBES waves; the present manuscript focuses on the full private-firm
 frame and threshold stability.
@@ -759,9 +759,7 @@ on the internationalization–performance relationship: A meta-analysis.
 *Management International Review, 47*(3), 423–452.
 <https://doi.org/10.1007/s11575-007-0022-4>
 
-Do, T. H., and Phan, A. T. (2026). Unveiling the impact of Chinese
-manufacturing SMEs' internationalization on performance. *Journal of
-Finance and Accounting Research*. Advance online publication.
+Authors. (2026). Details omitted for double-blind review.
 
 Haans, R. F. J., Pieters, C., and He, Z.-L. (2016). Thinking about U:
 Theorizing and testing U- and inverted U-shaped relationships in

@@ -71,7 +71,7 @@ positive, yet *I*² regularly exceeds 80%, signaling that context, not a
 universal mechanism, drives outcomes.
 
 The present study's starting point is the ICBEF 2025 baseline analysis
-(Do & Phan, 2024): *k* = 113 studies, pooled *r* = 0.07 (*p* \< .001),
+(Authors, 2024): *k* = 113 studies, pooled *r* = 0.07 (*p* \< .001),
 *I*² = 87.92%. While confirming the positive average effect, this
 baseline identified that conventional moderators, country of origin,
 industry, performance measure type, leave approximately 70% of variance
@@ -626,7 +626,7 @@ excluded.
 
 **OSF registration.** The full protocol, including the search
 string, eligibility decision rules, moderator coding instructions, and
-planned metafor model specifications, is registered on OSF (DOI: [insert OSF DOI at submission]). Because the corpus had already been assembled, this is a transparency registration of the analysis plan rather than a data-blind pre-registration; the protocol document is available from the corresponding
+planned metafor model specifications, is registered on OSF (DOI: 10.17605/OSF.IO/Z37KN). Because the corpus had already been assembled, this is a transparency registration of the analysis plan rather than a data-blind pre-registration; the protocol document is available from the corresponding
 author.
 
 ### 3.2 Eligibility Criteria and Study Selection
@@ -1201,7 +1201,7 @@ single study drives the results.
 The meta-analytic baseline (*r* = 0.074, *k* = 238, 49 economies) is
 consistent with country-level evidence from across the global study
 corpus, including the Asia-Pacific primary studies underlying the ICBEF
-2025 baseline (Do & Phan, 2024). The pooled effect is positive and
+2025 baseline (Authors, 2024). The pooled effect is positive and
 significant, confirming that export-intensive firms tend to outperform
 domestically focused peers even after adjusting for firm size, age, and
 industry.
@@ -1219,7 +1219,7 @@ predicted, and the I–III difference is not statistically significant
 **Emerging contexts (Group III, k = 91; *r̄* = 0.068):** The Emerging
 group shows *r̄* = 0.068, directionally below the Advanced group,
 consistent with CIMT's institutional friction argument. At the
-primary-study level, Do & Phan (2025) document a negative aggregate DOI
+primary-study level, Authors (2025) document a negative aggregate DOI
 coefficient on 380 Indian WBES firms (FGLS estimation), with manager
 experience and female top-management leadership as positive moderating
 factors, a pattern consistent with CIMT's prediction that firm-level
@@ -1492,15 +1492,9 @@ Review, 80*(2), 355–361.
 
 Dickersin, K. (1990). The existence of publication bias and risk factors for its occurrence. *JAMA, 263*(10), 1385–1389.
 
-Do, T. H., & Phan, A. T. (2024, December). *Internationalization and
-firm performance: A meta-analysis review* \[Paper presentation\]. The
-Sixth International Conference on Sustainable Development in Economics,
-Business, and Finance (ICBEF).
+Authors. (2024, December). Details omitted for double-blind review.
 
-Do, T. H., & Phan, A. T. (2025). Internationalization and firm
-performance of firms in India: The role of top management. In M.
-Bartekova (Ed.), *International business research: Traditional and
-creative approaches*. IntechOpen.
+Authors. (2025). Details omitted for double-blind review.
 <https://doi.org/10.5772/intechopen.1011012>
 
 Dunning, J. H. (2000). The eclectic paradigm as an envelope for economic and business theories of MNE activity. *International Business Review, 9*(1), 163–190.
