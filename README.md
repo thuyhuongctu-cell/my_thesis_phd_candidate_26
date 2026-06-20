@@ -82,7 +82,7 @@ Luận án xây dựng khung điều tiết đa tầng **CDCM (Country–Digital
 **Phát hiện chính:**
 - Quan hệ I–P có dạng **phi tuyến chữ U ngược**, điểm uốn gộp **43,6%** (mô hình đầy đủ, **50 nền kinh tế châu Á–Thái Bình Dương, gồm Nhật Bản 2025**).
 - TCI và DAI **nâng mặt bằng hiệu quả phổ quát**, nhưng vai trò *uốn đường cong* chỉ rõ ở bối cảnh đơn quốc gia đặc thù (vd "lá chắn số" DAI tại Singapore).
-- Tại nhóm SIDS (7 nền Pacific), dạng chữ U ngược **không hình thành** (cả độ cong lẫn độ dốc không có ý nghĩa thống kê) — construct mới **Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)** được định vị là **trường hợp giới hạn lý thuyết** về điều kiện biên.
+- Tại nhóm SIDS (7 nền Pacific), dạng chữ U ngược **mất cấu trúc** (cả độ cong lẫn độ dốc không có ý nghĩa thống kê) — construct mới **Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)** được định vị là **trường hợp giới hạn lý thuyết** về điều kiện biên.
 
 ---
 
@@ -120,7 +120,7 @@ MY_THESIS_PHD_CANDIDATE_26/
 | **P5** | Trung Quốc (WBES 2012–2024) | Độ bền cấu trúc của điểm uốn qua thời gian |
 | **P6** | Châu Á–Thái Bình Dương | Meta-analysis ba tầng quan hệ I–P (k≈238); điều tiết theo ICRV |
 | **P7** | 50 nền Asia-Pacific, **gồm Japan** (WBES; loại Timor-Leste) | Nghiên cứu đa quốc gia (capstone): chữ U ngược + phổ điểm uốn theo ICRV |
-| **P8** | 7 nền Pacific SIDS | Sự **không hình thành** của chữ U ngược ở biên cực đoan; construct lý thuyết **FIP** (trường hợp giới hạn) |
+| **P8** | 7 nền Pacific SIDS | Sự **mất cấu trúc** của chữ U ngược ở biên cực đoan; construct lý thuyết **FIP** (trường hợp giới hạn) |
 | **P9** | Ấn Độ | Mô hình ngưỡng (threshold) trong quan hệ I–P |
 | **P10** | Nhật Bản (sóng WBES đầu tiên 2025) | Kiểm định I–P biên trên phổ thể chế (ICRV Nhóm I) |
 | **Chương sách** | Ấn Độ (380 doanh nghiệp sản xuất & dịch vụ) | Quốc tế hóa và hiệu quả: vai trò nhà quản trị cấp cao (tầng upper-echelons) |
@@ -178,7 +178,7 @@ Nhánh này rà soát phương pháp & biến số, làm tươi pipeline P7 và 
 
 - **Sửa lỗi tooling tái lập P7:** parser tên file không đọc được tên nước gạch nối (rớt 11 nền); biến kiểm soát `foreign_own_pct` cắt đôi mẫu mô hình; thêm Japan-2025 + chạy lại bằng `.dta` thật.
 - **Loại Timor-Leste khỏi nhóm SIDS Thái Bình Dương** (không thuộc 11 Pacific Island Countries của WB, không thuộc 14 Pacific SIDS của LHQ): P7 (khung 50 nền) **giữ** Timor như nền Đông Á–TBD; **chỉ P8 (SIDS) loại** Timor, dùng 7 nền Pacific. Headline P7 không đổi đáng kể (M2 điểm uốn 51,5%; M5 43,6%, p<0,001).
-- **Tái khung P8 sang "việc chữ U ngược không hình thành":** trên mẫu đầy đủ 7 nền (N=1.450, bootstrap cụm hoang dã) dạng chữ U ngược không hình thành; FIP được định vị là trường hợp giới hạn lý thuyết (hệ số −1,339 chỉ ở bản dựng hạn chế ba cụm).
+- **Tái khung P8 sang "việc chữ U ngược mất cấu trúc":** trên mẫu đầy đủ 7 nền (N=1.450, bootstrap cụm hoang dã) dạng chữ U ngược mất cấu trúc; FIP được định vị là trường hợp giới hạn lý thuyết (hệ số −1,339 chỉ ở bản dựng hạn chế ba cụm).
 - **Một nguồn chân lý cho bảng mô tả:** `scripts/relock_descriptives_canonical.py` tái lập mọi bảng mô tả từ raw, cùng harmonization với phần hồi quy; dòng SIDS đã re-lock về 7 nền Pacific.
 - Chi tiết quyết định: `IMPLEMENTATION_LOG.md`; số chuẩn: `data_wbes/analysis/CANONICAL_NUMBERS.md`; rà soát phương pháp: `reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md`.
 
@@ -194,7 +194,7 @@ Cùng quy trình hài hòa hóa, chỉ bật/tắt Timor-Leste (`scripts/timor_s
 | P8 độ dốc tuyến tính (M1) | −0,088 (n.s.) | −0,085 (n.s.) |
 | P8 độ cong (M2) | +0,598 (p=,06) | +0,696 (p=,10) |
 
-→ Kết luận **giống nhau cả hai chiều**: P7 headline gần như không đổi (Timor ≈ 0,5% mẫu); P8 = chữ U ngược **không hình thành** (độ dốc null, độ cong chỉ ở mức biên, không có điểm uốn nội vùng). Loại Timor là quyết định **phân loại** (WB/UN), và kiểm định xác nhận kết luận **không phụ thuộc** lựa chọn đó. Chi tiết: `data_wbes/analysis/timor_sensitivity.md`.
+→ Kết luận **giống nhau cả hai chiều**: P7 headline gần như không đổi (Timor ≈ 0,5% mẫu); P8 = chữ U ngược **mất cấu trúc** (độ dốc null, độ cong chỉ ở mức biên, không có điểm uốn nội vùng). Loại Timor là quyết định **phân loại** (WB/UN), và kiểm định xác nhận kết luận **không phụ thuộc** lựa chọn đó. Chi tiết: `data_wbes/analysis/timor_sensitivity.md`.
 
 ---
 

@@ -33,15 +33,15 @@
 ## C. Đóng góp lý thuyết: FIP, CDCM, ICRV
 
 **Q5. FIP (gánh nặng quốc tế hóa cưỡng bức) có thật là khái niệm mới, hay chỉ là giai đoạn 1 của đường cong chữ S / gánh nặng người nước ngoài?**
-- Trước hết, làm rõ vị thế bằng chứng: phát hiện **vững** trên mẫu đầy đủ bảy nền Thái Bình Dương (loại Timor-Leste theo phân loại WB/UN; $N=1.450$, bảy cụm) là dạng chữ U ngược **không hình thành** (độ dốc không có ý nghĩa, độ cong chỉ ở mức biên); FIP được nêu như **trường hợp giới hạn lý thuyết** của sự không hình thành đó, không phải một quan hệ âm đơn điệu đã được ước lượng vững (hệ số −1,339 chỉ xuất hiện trên bản dựng dữ liệu hạn chế ba cụm, nhạy cảm với phiên bản dữ liệu).
+- Trước hết, làm rõ vị thế bằng chứng: phát hiện **vững** trên mẫu đầy đủ bảy nền Thái Bình Dương (loại Timor-Leste theo phân loại WB/UN; $N=1.450$, bảy cụm) là dạng chữ U ngược **mất cấu trúc** (độ dốc không có ý nghĩa, độ cong chỉ ở mức biên); FIP được nêu như **trường hợp giới hạn lý thuyết** của sự mất cấu trúc đó, không phải một quan hệ âm đơn điệu đã được ước lượng vững (hệ số −1,339 chỉ xuất hiện trên bản dựng dữ liệu hạn chế ba cụm, nhạy cảm với phiên bản dữ liệu).
 - Khác biệt rạch ròi của FIP như construct (Mục 2.5.2b, 5.3.2): (i) khác **chi phí giai đoạn đầu** chữ S — FIP phản ánh ràng buộc **cấu trúc** chứ không phải giai đoạn; (ii) khác **gánh nặng người nước ngoài** (Zaheer) vận hành ở thị trường đích — FIP ở **thị trường nguồn**; (iii) ba điều kiện cấu trúc đồng thời bị vi phạm (thị trường nội địa cực nhỏ, chi phí thương mại cực cao, vắng hỗ trợ thể chế).
-- **Có tiêu chí kiểm sai**: nếu Lind–Mehlum phát hiện cực đại nội vùng tại SIDS khi dữ liệu đủ phủ → FIP bị bác. Trên dữ liệu hiện có, việc không tìm thấy điểm uốn nhất quán với sự không hình thành của cấu trúc, không phải do cắt cụt.
+- **Có tiêu chí kiểm sai**: nếu Lind–Mehlum phát hiện cực đại nội vùng tại SIDS khi dữ liệu đủ phủ → FIP bị bác. Trên dữ liệu hiện có, việc không tìm thấy điểm uốn nhất quán với sự mất cấu trúc của cấu trúc, không phải do cắt cụt.
 
 **Q6. CDCM khác gì các khung tích hợp thể chế–năng lực đã có?**
 - Điểm khác: thể chế **không phải một biến điều tiết ngang hàng** mà là **biến liên kết điều kiện hóa đồng thời** cả ba cơ chế còn lại (năng lực công nghệ, chấp nhận số, quản trị) — qua đó giải thích vì sao cùng một mức năng lực cho kết quả khác nhau theo chế độ thể chế (Mục 5.3.5).
 
 **Q7. ICRV sáu nhóm chỉ là "chia nhỏ hơn" Marano (2016)?**
-- Hơn thế: phân loại nhị phân gây **triệt tiêu dấu** khi gộp — dưới nhãn "mới nổi" duy nhất, hệ số điều tiết lấy trung bình đồng thời các nền có chữ U ngược (Trung Quốc, Việt Nam), gần tuyến tính, và **cấu trúc không hình thành** (SIDS/FIP), che lấp chính sự phân kỳ. ICRV **phục hồi thông tin phổ thể chế** bị mất (Mục 5.2.3).
+- Hơn thế: phân loại nhị phân gây **triệt tiêu dấu** khi gộp — dưới nhãn "mới nổi" duy nhất, hệ số điều tiết lấy trung bình đồng thời các nền có chữ U ngược (Trung Quốc, Việt Nam), gần tuyến tính, và **mất cấu trúc** (SIDS/FIP), che lấp chính sự phân kỳ. ICRV **phục hồi thông tin phổ thể chế** bị mất (Mục 5.2.3).
 
 ---
 

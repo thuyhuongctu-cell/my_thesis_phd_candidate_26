@@ -1,6 +1,6 @@
 # CANONICAL_NUMBERS — Nguồn sự thật duy nhất (single source of truth)
 
-> **Khóa ngày 2026-06-13; cập nhật 2026-06-19 (loại Timor-Leste).** Mọi con số mẫu/điểm
+> **Khóa ngày 2026-06-13; cập nhật 2026-06-19 (phạm vi Timor: P7 giữ, P8 loại).** Mọi con số mẫu/điểm
 > uốn/hệ số trong luận án, chuyên đề và papers PHẢI khớp bảng này. Khi một con số thay đổi,
 > sửa Ở ĐÂY trước rồi propagate. Mọi giá trị đã tái lập qua `scripts/p7_run_50econ.py`,
 > `p10_japan/replication/p10_japan_models.py` (xem `REESTIMATION_LOG_2026-06-13.md`).
@@ -52,8 +52,8 @@
 | II. Advanced_resource (GCC) | 2.075 | 62,0% | 0,081 | Trên–giữa |
 | III. Upper_mid | 12.055 | 55,0% | 0,263 | Giữa, không định vị tin cậy |
 | IV. Lower_mid_transition | 42.094 | **43,0%** | < 0,001 | **Giữa**: chữ U ngược SẮC NÉT |
-| V. Emerging | 15.457 | 34,8% | 0,184 | **Dưới**: cấu trúc không hình thành |
-| VI. SIDS_small (P7: 8 nền; P8: 7 Pacific) | 1.818 | — (n.s.) | — | **Dưới**: chữ U ngược không hình thành (P8 7 nền: độ dốc −0,085 p_wild=,66; độ cong +0,696 p_wild=,082); FIP là trường hợp giới hạn |
+| V. Emerging | 15.457 | 34,8% | 0,184 | **Dưới**: mất cấu trúc |
+| VI. SIDS_small (P7: 8 nền; P8: 7 Pacific) | 1.818 | — (n.s.) | — | **Dưới**: chữ U ngược mất cấu trúc (P8 7 nền: độ dốc −0,085 p_wild=,66; độ cong +0,696 p_wild=,082); FIP là trường hợp giới hạn |
 
 ## 4. Các construct/nghiên cứu thành phần
 

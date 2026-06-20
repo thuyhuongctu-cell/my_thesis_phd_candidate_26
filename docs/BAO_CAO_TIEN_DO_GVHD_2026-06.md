@@ -55,7 +55,7 @@
 | P5 | Trung Quốc (2 đợt, N = 4.559) | CMS, IJOEM, APBR | Điểm uốn 47–49%, bền vững giữa hai đợt |
 | P6 | Meta-analysis 3 cấp (k = 238, K = 288) | APJM, JIM, JWB | r = 0,074; I² = 62,4%; Q_M = 17,35 (p = .002) |
 | P7 | Đa quốc gia (50 nền, N = 81.022 ở M2 / 79.080 ở M5) | JIBS, APJM, IBR | Chữ U ngược; điểm uốn 51,5% (M2) đến 43,6% (mô hình đầy đủ M5); phổ thể chế ba vùng theo thể chế |
-| P8 | SIDS Thái Bình Dương (7 nền Pacific, N = 1.450) | World Development (bản redesign "When the Inverted-U Dissolves") | **Chữ U ngược không hình thành** (độ cong và độ dốc không có ý nghĩa thống kê); FIP là **trường hợp giới hạn lý thuyết**. Hệ số −1,339 chỉ xuất hiện trên bản dựng hạn chế ba cụm (minh họa) |
+| P8 | SIDS Thái Bình Dương (7 nền Pacific, N = 1.450) | World Development (bản redesign "When the Inverted-U Dissolves") | **Chữ U ngược mất cấu trúc** (độ cong và độ dốc không có ý nghĩa thống kê); FIP là **trường hợp giới hạn lý thuyết**. Hệ số −1,339 chỉ xuất hiện trên bản dựng hạn chế ba cụm (minh họa) |
 | P9 | Ấn Độ (3 đợt 2014–2025, N = 28.717) | MIR, JABS, IJOEM | Điểm uốn 61,8% đến 40,7% đến sụp đổ ngưỡng |
 
 ## 3. Dữ liệu và phương pháp luận
@@ -79,8 +79,8 @@ Ba điều chỉnh lớn đã được thực hiện và đồng bộ toàn bộ
 **(1) Làm rõ phạm vi Timor-Leste: giữ ở P7, loại ở P8 — có cơ sở phân loại quốc tế.**
 Rà soát phát hiện mã phân loại `icrv_map` từng xếp nhầm Timor-Leste vào Nhóm VI (SIDS_small). Hai chuẩn uy quyền đều xác nhận Timor-Leste **không** thuộc nhóm quốc đảo Thái Bình Dương: Ngân hàng Thế giới (11 Pacific Island Countries) và Liên Hợp Quốc (14 Pacific SIDS). Phạm vi xử lý: **P7 (khung đa quốc gia 50 nền) GIỮ Timor-Leste** như một nền kinh tế Đông Á–Thái Bình Dương; **chỉ nghiên cứu SIDS (P8) LOẠI Timor**, dùng 7 nền Pacific thật. Tác động lên kết quả lõi P7 không đáng kể. Tác động lên kết quả lõi P7 **không đáng kể** (Timor ≈ 0,55% mẫu; điểm uốn và hệ số giữ nguyên).
 
-**(2) Tái khung kết quả P8 từ "FIP âm đơn điệu mạnh" sang "việc chữ U ngược không hình thành".**
-Hệ số FIP β = −1,339 trước đây chỉ tái lập trên một bản dựng hạn chế **ba cụm** (N = 209), nhạy cảm với phiên bản dữ liệu. Trên mẫu đầy đủ **bảy nền Pacific** (N = 1.450, suy luận bootstrap cụm hoang dã), phát hiện **vững** là dạng chữ U ngược **không hình thành** (cả độ cong lẫn độ dốc không có ý nghĩa thống kê), tương phản với chữ U ngược sắc nét của lục địa. **FIP được định vị lại là một trường hợp giới hạn lý thuyết** (đóng góp khái niệm về điều kiện biên), không phải một hiệu ứng âm đơn điệu được ước lượng vững. Đây là cách trình bày trung thực và phòng thủ tốt hơn trước hội đồng và phản biện tạp chí.
+**(2) Tái khung kết quả P8 từ "FIP âm đơn điệu mạnh" sang "việc chữ U ngược mất cấu trúc".**
+Hệ số FIP β = −1,339 trước đây chỉ tái lập trên một bản dựng hạn chế **ba cụm** (N = 209), nhạy cảm với phiên bản dữ liệu. Trên mẫu đầy đủ **bảy nền Pacific** (N = 1.450, suy luận bootstrap cụm hoang dã), phát hiện **vững** là dạng chữ U ngược **mất cấu trúc** (cả độ cong lẫn độ dốc không có ý nghĩa thống kê), tương phản với chữ U ngược sắc nét của lục địa. **FIP được định vị lại là một trường hợp giới hạn lý thuyết** (đóng góp khái niệm về điều kiện biên), không phải một hiệu ứng âm đơn điệu được ước lượng vững. Đây là cách trình bày trung thực và phòng thủ tốt hơn trước hội đồng và phản biện tạp chí.
 
 **(3) Thiết lập "một nguồn chân lý" cho bảng mô tả + re-lock dòng SIDS.**
 Đã xây một pipeline mô tả canonical (`scripts/relock_descriptives_canonical.py`) tái lập mọi bảng mô tả trực tiếp từ raw, cùng quy trình hài hòa hóa với phần hồi quy. Pipeline này tái lập **khớp tuyệt đối** các nhóm không-SIDS của Bảng 4.2; dòng Nhóm VI đã được cập nhật về giá trị 7 nền Pacific (đổi mới sản phẩm 39,6%, website 47,1%…). Mọi số mô tả nay tái lập được từ mã + dữ liệu đã commit.

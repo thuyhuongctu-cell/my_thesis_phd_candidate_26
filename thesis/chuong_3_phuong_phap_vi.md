@@ -159,7 +159,7 @@ Sở hữu nước ngoài được đưa vào dưới dạng biến giả nhận
 
 Chế độ thể chế được vận hành hóa thành một biến phân loại số nguyên nhận giá trị từ một đến sáu theo phân loại ICRV, đi từ chế độ tiên tiến đổi mới đến chế độ đảo nhỏ Thái Bình Dương, trật tự tăng dần của số nhóm tương ứng với chất lượng thể chế giảm dần. Biến này được dùng theo hai vai trò trong khung đa quốc gia: làm biến điều tiết liên tục trong mô hình tương tác, nơi hiệu ứng chính của nó bị hấp thụ bởi hiệu ứng cố định nền kinh tế, và làm biến phân nhóm cho phân tích điểm uốn theo từng chế độ. Lựa chọn xử lý ICRV như biến số nguyên liên tục thay vì hệ biến giả là có chủ đích, nhằm giữ cỡ mẫu đủ lớn trong các mô hình điều tiết và ba chiều, nơi việc tách thành sáu biến giả tương tác sẽ làm phân mảnh mẫu và làm bất ổn ước lượng.
 
-Phân tích điểm uốn theo từng chế độ làm lộ rõ cấu trúc ba vùng đặc trưng của khu vực. Ở chế độ chuyển đổi thu nhập trung bình–thấp, vốn là chế độ neo ước lượng gộp, quan hệ chữ U ngược định hình sắc nét với điểm uốn quanh 43%. Ở chế độ tiên tiến đổi mới, gồm cả Nhật Bản, điểm uốn nằm gần hoặc vượt biên dữ liệu quan sát nên trong vùng dữ liệu quan hệ gần như tuyến tính dương, với điểm uốn xấp xỉ 80%. Ở các chế độ yếu nhất, chữ U ngược không hình thành; riêng ở chế độ đảo nhỏ Thái Bình Dương số hạng bậc hai đổi dấu, không còn cực đại nội miền, nhất quán với gánh nặng quốc tế hóa bắt buộc ghi nhận ở nghiên cứu thành phần đảo nhỏ.
+Phân tích điểm uốn theo từng chế độ làm lộ rõ cấu trúc ba vùng đặc trưng của khu vực. Ở chế độ chuyển đổi thu nhập trung bình–thấp, vốn là chế độ neo ước lượng gộp, quan hệ chữ U ngược định hình sắc nét với điểm uốn quanh 43%. Ở chế độ tiên tiến đổi mới, gồm cả Nhật Bản, điểm uốn nằm gần hoặc vượt biên dữ liệu quan sát nên trong vùng dữ liệu quan hệ gần như tuyến tính dương, với điểm uốn xấp xỉ 80%. Ở các chế độ yếu nhất, chữ U ngược mất cấu trúc; riêng ở chế độ đảo nhỏ Thái Bình Dương số hạng bậc hai đổi dấu, không còn cực đại nội miền, nhất quán với gánh nặng quốc tế hóa bắt buộc ghi nhận ở nghiên cứu thành phần đảo nhỏ.
 
 Đặc điểm nhà quản trị cấp cao được vận hành hóa từ hai mục khảo sát: số năm kinh nghiệm của nhà quản trị cấp cao trong ngành (trường `b7`) và một biến nhị phân chỉ nhà quản trị cấp cao là nữ (trường `b7a` hoặc `b6a` tùy đợt). Hai biến này được đưa vào mô hình đa quốc gia để kiểm định hiệu ứng trực tiếp và hiệu ứng điều tiết của đặc điểm quản trị lên hình dạng đường quan hệ; ở các nghiên cứu thiếu dữ liệu quản trị, hai biến chỉ được dùng trong phân tích độ vững chứ không bắt buộc trong mô hình chính, đúng điều kiện sử dụng đã nêu.
 
@@ -505,7 +505,7 @@ $$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} IC
 $$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
 $$\begin{aligned}
 \text{H5 (ba vùng): } & \text{chữ U ngược định hình rõ ở Nhóm IV } (TP = 43{,}0\%,\ p_{LM} < {,}001); \\
-& \text{gần tuyến tính ở Nhóm I; không hình thành ở Nhóm V–VI}
+& \text{gần tuyến tính ở Nhóm I; mất cấu trúc ở Nhóm V–VI}
 \end{aligned}$$
 
 **M11** (full three-way, kiểm định tương tác tổng hợp ba chiều, tổng hợp H3 và H5; P7):
