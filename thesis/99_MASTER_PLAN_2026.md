@@ -36,20 +36,21 @@
 ---
 
 ### P3 — Vietnam WBES (Nonlinear I–P) 🟢 SẴN SÀNG NỘP
-- **Target journal:** Journal of Asia Business Studies (JABS) — ABS-1, Emerald
-- **Submission portal:** mc.manuscriptcentral.com/jabs
+- **Target journal:** Journal of Economics and Development (JED) — Emerald, Diamond OA (miễn phí APC), Scopus/WoS
+  (JABS/MBR/Thunderbird đã DEPRECATED — đích sống duy nhất của P3 là JED)
+- **Submission portal:** Emerald ScholarOne — emeraldgrouppublishing.com/journal/jed
 - **Files đã có:**
-  - `p3/submission/jabs_package/01_manuscript_blinded.docx` — bản nộp (đã blinded)
-  - `p3/submission/jabs_package/02_title_page.docx` — trang tiêu đề có tên tác giả
-  - `p3/submission/jabs_package/03_cover_letter.docx` — cover letter đã điền
-  - Figures: 6 PNG files sẵn sàng upload
+  - `p3/submission/jed_package/01_manuscript_blinded.docx` — bản nộp (đã blinded)
+  - `p3/submission/jed_package/02_title_page.docx` — trang tiêu đề có tên tác giả
+  - `p3/submission/jed_package/03_cover_letter.docx` — cover letter đã điền
+  - Figures: cấp file độ phân giải cao (.tif/.eps/.jpeg) khi nộp
 - **Nội dung bài:** Vietnam 2009/2015/2023, WBES, inverted-U (M0–M6), TCI/DAI moderators
 - **Turning point:** TP* ≈ 40.3% FSTS (confirmed by Lind-Mehlum utest)
 
 **NCS chỉ cần làm:**
-1. Đăng nhập ScholarOne tại mc.manuscriptcentral.com/jabs
+1. Đăng nhập Emerald ScholarOne (emeraldgrouppublishing.com/journal/jed)
 2. Tạo tài khoản nếu chưa có (dùng email CTU)
-3. Upload theo thứ tự: `01_manuscript_blinded.docx` đến `02_title_page.docx` đến `03_cover_letter.docx` đến 6 figures
+3. Upload theo thứ tự: `01_manuscript_blinded.docx` đến `02_title_page.docx` đến `03_cover_letter.docx` đến figures độ phân giải cao
 4. Điền metadata (keywords: internationalization, firm performance, Vietnam, digital adoption, nonlinear)
 5. Click Submit
 
@@ -352,7 +353,7 @@ Từ β (OLS):      r ≈ β (Peterson & Brown, 2005, acceptable approximation)
 
 ```
 Tháng 5–6/2026 (NGAY BÂY):
-  ✅ Nộp P3 (JABS)           — 1 ngày
+  ✅ Nộp P3 (JED)           — 1 ngày
   ✅ Nộp P4 (MIR)            — 1 ngày  
   ✅ Nộp P5 (IJOEM)          — 1 ngày
   ✅ Nộp P7 (IBR)            — 1 ngày
@@ -389,7 +390,7 @@ Tháng 12/2026:
 |-----------|--------|-----------|
 | P1 (VEFR) | **100%** | Đã đăng |
 | P2 (JFAR) | **100%** | Đã đăng |
-| P3 (JABS) | **95%** | Click Submit |
+| P3 (JED) | **95%** | Click Submit |
 | P4 (MIR) | **95%** | Click Submit |
 | P5 (IJOEM) | **95%** | Click Submit |
 | P6 (JWB) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |

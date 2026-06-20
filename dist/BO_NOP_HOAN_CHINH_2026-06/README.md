@@ -15,12 +15,14 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 
 | Thư mục | Paper | Tạp chí đích (live) | Hạng | Cổng nộp |
 |---|---|---|---|---|
-| `P3_JED/` | P3 Việt Nam | Journal of Economic Development | — | — |
+| `P3_JED/` | P3 Việt Nam | Journal of Economics and Development (Emerald) | Scopus/WoS, Diamond OA | emeraldgrouppublishing.com/journal/jed |
 | `P4_MIR/` | P4 Singapore | Management International Review (Springer) | ABS-3 | mc.manuscriptcentral.com/mir |
-| `P5_IJOEM/` | P5 Trung Quốc | International Journal of Emerging Markets (Emerald) | — | mc.manuscriptcentral.com/ijoem |
+| `P5_IJOEM/` | P5 Trung Quốc | International Journal of Emerging Markets (Emerald) | ABS-1 | mc.manuscriptcentral.com/ijoem |
 | `P6_JWB/` | P6 Meta-analysis | Journal of World Business (Elsevier) | ABS-4* | editorialmanager.com/jwb |
 | `P7_IBR/` | P7 Đa quốc gia | International Business Review (Elsevier) | ABS-3 | editorialmanager.com/ibr |
-| `P8_World_Development/` | P8 Pacific SIDS | World Development (Elsevier) | ABS-4* | — |
+| `P8_World_Development/` | P8 Pacific SIDS | World Development (Elsevier) | ABS-4* | editorialmanager.com/worlddev |
+| `P9_MIR/` | P9 Ấn Độ | Management International Review (Springer) — primary; IJOEM thay thế | ABS-3 | mc.manuscriptcentral.com/mir |
+| `P10_ABM/` | P10 Nhật Bản | Asian Business & Management (Palgrave) | ABS-2 | — |
 
 **Lưu ý định tuyến (đã sửa khỏi số liệu/đích cũ):**
 - P3 → **JED** (không phải JABS — JABS/MBR/Thunderbird đã DEPRECATED).
@@ -28,6 +30,9 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 - P7 → **IBR** (JIBS bị loại: pooled cross-section không đạt kỳ vọng nhận dạng nhân quả của JIBS).
   Bản IBR dùng khung 50 nền: M2 N=81.022 (TP 51,5%), M5 N=79.080 (TP 43,6%).
 - P8 → bản **redesign 2026-06-19** (7 nền Pacific, loại Timor-Leste).
+- P9 → **MIR** (primary; IJOEM thay thế). Bản India đã hòa giải: N gộp phân tích 28.717
+  (3 đợt 2014/2022/2025); phát hiện "tan biến điểm uốn" theo thập kỷ chuyển đổi thể chế.
+- P10 → **ABM** (Asian Business & Management); Nhật Bản 2025 (N=2.168, đợt WBES khai mở).
 
 ## 2. Hai chuyên đề (`2_chuyen_de/`)
 
