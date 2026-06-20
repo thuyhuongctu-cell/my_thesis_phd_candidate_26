@@ -15,3 +15,5 @@ venv/
 node_modules/
 /coverage
 /build
+.pytest_cache/
+*.egg-info/

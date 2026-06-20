@@ -3,6 +3,16 @@
 All notable changes to this project are documented here. Versions follow the
 internal release line used during the doctoral meta-analysis (P6).
 
+## [Unreleased]
+- Packaging: added `backend/pyproject.toml` (PEP 621) making the backend
+  pip-installable (`pip install -e backend[test]`), with pinned runtime
+  dependencies and a `test` extra.
+- Tests: added `backend/tests/` (pytest) pinning the Cohen (1988) t→r and
+  Peterson & Brown (2005) β→r conversions, sign preservation, the unit-interval
+  bound, and the three-level confidence scheme / PI-review threshold.
+- CI: added `.github/workflows/maida-ci.yml` running backend pytest and a
+  frontend production build on every change to the tool.
+
 ## [7.0.0] — 2026-06-08
 - Two-tab workflow finalised: **Extract** (LLM PDF to effect sizes) and
   **Verify & Lock** (PI dashboard, overrides, immutable lock).

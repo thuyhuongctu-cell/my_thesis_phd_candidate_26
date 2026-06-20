@@ -34,6 +34,21 @@ docker compose up
 open http://localhost:3000
 ```
 
+## Development & tests
+
+```bash
+# Backend unit tests (effect-size conversions + confidence scheme)
+cd backend
+pip install -e ".[test]"
+pytest -q
+
+# Frontend production build
+cd frontend
+npm ci && npm run build
+```
+
+Continuous integration runs both on every change (`.github/workflows/maida-ci.yml`).
+
 ## API Routes
 
 | Method | Path | Description |
