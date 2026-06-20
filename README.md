@@ -80,9 +80,9 @@ Luận án xây dựng khung điều tiết đa tầng **CDCM (Country–Digital
 3. **Đặc điểm nhà quản trị cấp cao**.
 
 **Phát hiện chính:**
-- Quan hệ I–P có dạng **phi tuyến chữ U ngược**, điểm uốn gộp **43,6%** (mô hình đầy đủ, **50 nền kinh tế châu Á–Thái Bình Dương, gồm Nhật Bản 2025**).
+- Quan hệ I–P có dạng **phi tuyến chữ U ngược**, điểm uốn gộp **43,5%** (mô hình đầy đủ, **49 nền kinh tế châu Á–Thái Bình Dương, gồm Nhật Bản 2025**; loại Timor-Leste vì không thuộc nhóm quốc đảo Thái Bình Dương theo phân loại WB/UN).
 - TCI và DAI **nâng mặt bằng hiệu quả phổ quát**, nhưng vai trò *uốn đường cong* chỉ rõ ở bối cảnh đơn quốc gia đặc thù (vd "lá chắn số" DAI tại Singapore).
-- Tại nhóm SIDS, quan hệ chuyển thành **âm đơn điệu** — construct mới: **Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**.
+- Tại nhóm SIDS (7 nền Pacific), dạng chữ U ngược **tan rã** (cả độ cong lẫn độ dốc không có ý nghĩa thống kê) — construct mới **Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)** được định vị là **trường hợp giới hạn lý thuyết** về điều kiện biên.
 
 ---
 
@@ -119,8 +119,8 @@ MY_THESIS_PHD_CANDIDATE_26/
 | **P4** | Singapore (WBES 2023) | Chữ U ngược gần tuyến tính; khuếch đại DAI ("lá chắn số") |
 | **P5** | Trung Quốc (WBES 2012–2024) | Độ bền cấu trúc của điểm uốn qua thời gian |
 | **P6** | Châu Á–Thái Bình Dương | Meta-analysis ba tầng quan hệ I–P (k≈238); điều tiết theo ICRV |
-| **P7** | 50 nền Asia-Pacific, **gồm Japan** (WBES) | Nghiên cứu đa quốc gia (capstone): chữ U ngược + gradient điểm uốn theo ICRV |
-| **P8** | 7 nền Pacific SIDS | Construct mới **FIP** — gánh nặng quốc tế hóa bắt buộc |
+| **P7** | 49 nền Asia-Pacific, **gồm Japan** (WBES; loại Timor-Leste) | Nghiên cứu đa quốc gia (capstone): chữ U ngược + gradient điểm uốn theo ICRV |
+| **P8** | 7 nền Pacific SIDS | Sự **tan rã** của chữ U ngược ở biên cực đoan; construct lý thuyết **FIP** (trường hợp giới hạn) |
 | **P9** | Ấn Độ | Mô hình ngưỡng (threshold) trong quan hệ I–P |
 | **P10** | Nhật Bản (sóng WBES đầu tiên 2025) | Kiểm định I–P biên trên gradient thể chế (ICRV Nhóm I) |
 | **Chương sách** | Ấn Độ (380 doanh nghiệp sản xuất & dịch vụ) | Quốc tế hóa và hiệu quả: vai trò nhà quản trị cấp cao (tầng upper-echelons) |
@@ -133,7 +133,7 @@ MY_THESIS_PHD_CANDIDATE_26/
 Pipeline đọc trực tiếp `.dta` thô WBES đến tệp phân tích đến ước lượng:
 
 ```bash
-# 1) Hợp nhất .dta thô thành tệp phân tích (50 nền Asia-Pacific, gồm Japan-2025)
+# 1) Hợp nhất .dta thô thành tệp phân tích (49 nền Asia-Pacific, gồm Japan-2025, loại Timor-Leste)
 python3 p7/replication/01_build_p7_dataset.py \
         --raw-dir data_wbes/raw_dta --out-dir data_wbes/p7
 
@@ -165,20 +165,22 @@ bash scripts/build_latex_papers.sh        # Biên dịch LaTeX các bài báo
 
 ## 📊 Dữ liệu
 
-- **Nguồn:** World Bank Enterprise Surveys (WBES), khung 50 nền kinh tế châu Á–Thái Bình Dương, 2006–2025, **gồm Nhật Bản (khảo sát lần đầu 2025)**.
+- **Nguồn:** World Bank Enterprise Surveys (WBES), khung 49 nền kinh tế châu Á–Thái Bình Dương, 2006–2025, **gồm Nhật Bản (khảo sát lần đầu 2025)**.
 - **Hài hòa hóa:** ba thế hệ schema (PICS3, Standardized, BREADY/BEE) được hợp nhất theo quy trình tại `thesis/phu_luc_A_hop_nhat_du_lieu_vi.md`.
-- **Phạm vi phân tích:** loại các điều tra phi chính thức/siêu nhỏ/ISES và nền ngoài Asia-Pacific (Comoros) khỏi khung ước lượng.
+- **Phạm vi phân tích:** loại các điều tra phi chính thức/siêu nhỏ/ISES; loại Comoros (Ấn Độ Dương) và Timor-Leste (Đông Nam Á) khỏi nhóm SIDS Thái Bình Dương theo phân loại WB/UN.
+- **Một nguồn chân lý:** mọi số mô tả tái lập từ raw bằng `scripts/relock_descriptives_canonical.py`; số chuẩn tập trung ở `data_wbes/analysis/CANONICAL_NUMBERS.md`.
 
 ---
 
 ## 🛠️ Nhánh `claude/phd-thesis-review-L9Gml` — đã thực hiện
 
-Nhánh này rà soát phương pháp & biến số và làm tươi pipeline P7:
+Nhánh này rà soát phương pháp & biến số, làm tươi pipeline P7 và đồng bộ toàn bộ luận án:
 
-- **Xác minh TCI = b8 + e6** (2 mục) trên `.dta` thật; sửa lỗi mã biến P5 (`b4,b7a → h1,h8`); hợp nhất định nghĩa thin/full ở Mục 3.3.4.
-- **Sửa 2 lỗi tooling tái lập P7:** parser tên file không đọc được tên nước gạch nối (rớt 11 nền); biến kiểm soát `foreign_own_pct` (41% phủ) cắt đôi mẫu mô hình.
-- **Thêm Japan-2025 + chạy lại bằng `.dta` thật:** khung 50 nền Asia-Pacific; kết luận U-ngược + TCI dương giữ vững (M5 điểm uốn 33,4%, p<0,001; TCI +0,19, p<0,001).
-- Chi tiết: `reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md`.
+- **Sửa lỗi tooling tái lập P7:** parser tên file không đọc được tên nước gạch nối (rớt 11 nền); biến kiểm soát `foreign_own_pct` cắt đôi mẫu mô hình; thêm Japan-2025 + chạy lại bằng `.dta` thật.
+- **Loại Timor-Leste khỏi nhóm SIDS Thái Bình Dương** (không thuộc 11 Pacific Island Countries của WB, không thuộc 14 Pacific SIDS của LHQ): khung **50 → 49 nền**, Nhóm VI còn **7 nền Pacific**. Headline P7 không đổi đáng kể (M2 điểm uốn 51,5%; M5 43,5%, p<0,001).
+- **Tái khung P8 sang "sự tan rã của chữ U ngược":** trên mẫu đầy đủ 7 nền (N=1.450, bootstrap cụm hoang dã) dạng chữ U ngược tan rã; FIP được định vị là trường hợp giới hạn lý thuyết (hệ số −1,339 chỉ ở bản dựng hạn chế ba cụm).
+- **Một nguồn chân lý cho bảng mô tả:** `scripts/relock_descriptives_canonical.py` tái lập mọi bảng mô tả từ raw, cùng harmonization với phần hồi quy; dòng SIDS đã re-lock về 7 nền Pacific.
+- Chi tiết quyết định: `IMPLEMENTATION_LOG.md`; số chuẩn: `data_wbes/analysis/CANONICAL_NUMBERS.md`; rà soát phương pháp: `reviews/METHODOLOGY_VARIABLE_REVIEW_2026-06-15.md`.
 
 ---
 
