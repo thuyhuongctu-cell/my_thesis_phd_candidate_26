@@ -25,6 +25,7 @@ PARTS=(
   "thesis/chuong_5_ket_luan_de_xuat_vi.md"
   "thesis/04_references_apa7.md"
   "thesis/phu_luc_A_hop_nhat_du_lieu_vi.md"
+  "thesis/phu_luc_B_maida_vi.md"
 )
 
 MERGED="$TMP/merged.md"

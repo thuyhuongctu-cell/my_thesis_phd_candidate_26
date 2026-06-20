@@ -230,6 +230,10 @@ Luận án được phát triển gắn với chuỗi nghiên cứu thành phầ
 12. Nghiên cứu thành phần P10, Nhật Bản: kiểm định biên trên của phổ thể chế trên đợt khảo sát WBES khai mở 2025. *[Bản thảo chuẩn bị gửi Asian Business & Management.]*
 13. Nghiên cứu thành phần P11 (sản phẩm phái sinh theo định hướng phát triển), Khoảng cách số tiền-AI và năng suất doanh nghiệp qua các chế độ thể chế châu Á (50 nền WBES): khai thác bằng chứng DAI×ICRV của luận án cho chủ đề AI–phát triển. Đích: *Journal of Economics and Development*, số đặc biệt "Sustainable Growth and Welfare in the Age of AI" (Emerald; Scopus/ESCI/ABDC; diamond OA, không phí; hạn 31/10/2026). *[Bản thảo chuẩn bị gửi.]*
 
+**C. Sản phẩm phần mềm (đăng ký quyền tác giả)**
+
+14. Đỗ Thùy Hương (2026). *M-AIDA — Meta-Analysis Intelligent Data Assistant (phiên bản 7.0)* [Phần mềm máy tính]. Trường Đại học Cần Thơ. *(Công cụ trích xuất dữ liệu cỡ ảnh hưởng hỗ trợ bằng mô hình ngôn ngữ lớn, với kiểm chứng toàn bộ của nghiên cứu sinh và cơ chế khóa dữ liệu bất biến; xây dựng phục vụ trực tiếp Nghiên cứu thành phần P6. Đã nộp hồ sơ đăng ký quyền tác giả; mô tả chi tiết ở Phụ lục B.)*
+
 *Ghi chú về liêm chính học thuật: Theo định hướng luận án kết hợp công trình thành phần, các nghiên cứu P1–P11 là một phần nội dung nghiên cứu của chính luận án (P11 là sản phẩm phái sinh theo định hướng phát triển, khai thác lại bằng chứng của luận án); do đó trong các chương, chúng được dẫn chiếu bằng nhãn nội bộ (P1–P10) thay vì trích dẫn tác giả–năm. Các bản thảo ở mục B CHƯA được công bố/bình duyệt chính thức, không được diễn giải như bằng chứng đã qua bình duyệt độc lập; tên tạp chí mục tiêu được nêu để minh bạch định hướng công bố; trạng thái bình duyệt sẽ được cập nhật tại thời điểm bảo vệ. NCS cập nhật trạng thái tại thời điểm bảo vệ.*
 
 ---

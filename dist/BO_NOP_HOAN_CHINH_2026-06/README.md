@@ -45,7 +45,7 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 
 | File | Nội dung |
 |---|---|
-| `LUAN_AN_CTU_full_152tr.pdf` | **Luận án đầy đủ** đã biên dịch (152 trang, định dạng CTU) |
+| `LUAN_AN_CTU_full_154tr.pdf` | **Luận án đầy đủ** đã biên dịch (154 trang, định dạng CTU) |
 | `chuong_1_gioi_thieu_vi.docx` | Chương 1 — Giới thiệu |
 | `chuong_2_tong_quan_tai_lieu_vi.docx` | Chương 2 — Tổng quan tài liệu |
 | `chuong_3_phuong_phap_vi.docx` | Chương 3 — Phương pháp |
@@ -54,3 +54,4 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 | `00_phan_dau_vi.docx` | Phần đầu (bìa, mục lục, tóm tắt) |
 | `04_references_apa7.docx` | Danh mục tài liệu tham khảo (APA 7) |
 | `phu_luc_A_hop_nhat_du_lieu_vi.docx` | Phụ lục A — Hợp nhất dữ liệu |
+| `phu_luc_B_maida_vi.docx` | Phụ lục B — Công cụ trích xuất M-AIDA & công bố dùng AI |

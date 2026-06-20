@@ -635,6 +635,22 @@ phân tách rõ theo trạng thái công bố.
   31/10/2026). \emph{{[}Bản thảo chuẩn bị gửi.{]}}
 \end{enumerate}
 
+\textbf{C. Sản phẩm phần mềm (đăng ký quyền tác giả)}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{13}
+\tightlist
+\item
+  Đỗ Thùy Hương (2026). \emph{M-AIDA --- Meta-Analysis Intelligent Data
+  Assistant (phiên bản 7.0)} {[}Phần mềm máy tính{]}. Trường Đại học Cần
+  Thơ. \emph{(Công cụ trích xuất dữ liệu cỡ ảnh hưởng hỗ trợ bằng mô
+  hình ngôn ngữ lớn, với kiểm chứng toàn bộ của nghiên cứu sinh và cơ
+  chế khóa dữ liệu bất biến; xây dựng phục vụ trực tiếp Nghiên cứu thành
+  phần P6. Đã nộp hồ sơ đăng ký quyền tác giả; mô tả chi tiết ở Phụ lục
+  B.)}
+\end{enumerate}
+
 \emph{Ghi chú về liêm chính học thuật: Theo định hướng luận án kết hợp
 công trình thành phần, các nghiên cứu P1--P11 là một phần nội dung
 nghiên cứu của chính luận án (P11 là sản phẩm phái sinh theo định hướng
@@ -3265,6 +3281,41 @@ PRISMA 2020 (Page et al., 2021). tiêu chí lựa chọn: nghiên cứu thực
 nghiệm ở cấp doanh nghiệp, có đo lường quốc tế hóa và hiệu quả hoạt động
 kinh doanh của doanh nghiệp, có đủ thống kê để tính cỡ ảnh hưởng
 (Pearson \(r\), \(\beta\), \(t\)-stat).
+
+\hypertarget{cuxf4ng-cux1ee5-truxedch-xuux1ea5t-dux1eef-liux1ec7u-vuxe0-cuxf4ng-bux1ed1-sux1eed-dux1ee5ng-truxed-tuux1ec7-nhuxe2n-tux1ea1o}{%
+\subsection{3.2.4 Công cụ trích xuất dữ liệu và công bố sử dụng trí tuệ
+nhân
+tạo}\label{cuxf4ng-cux1ee5-truxedch-xuux1ea5t-dux1eef-liux1ec7u-vuxe0-cuxf4ng-bux1ed1-sux1eed-dux1ee5ng-truxed-tuux1ec7-nhuxe2n-tux1ea1o}}
+
+Việc trích xuất cỡ ảnh hưởng từ K=288 ước lượng (k=238 nghiên cứu) được
+thực hiện bằng phần mềm chuyên dụng \textbf{M-AIDA} (Meta-Analysis
+Intelligent Data Assistant, phiên bản 7.0) do chính nghiên cứu sinh phát
+triển và đã nộp hồ sơ đăng ký quyền tác giả. M-AIDA dùng mô hình ngôn
+ngữ lớn (large language model, LLM) để đọc và trích các thống kê gốc (cỡ
+mẫu \(N\), hệ số tương quan \(r\), thống kê \(t\), bậc tự do \(df\), hệ
+số hồi quy chuẩn hóa \(\beta\), giá trị \(p\), khoảng tin cậy) từ bản
+PDF của từng nghiên cứu, kèm điểm tin cậy trích xuất (extraction
+confidence) ba mức --- 1,0 khi lấy trực tiếp \(r\); 0,8 khi suy từ
+\(t\); 0,6 khi suy từ \(\beta\) theo Peterson và Brown (2005) --- và tự
+động gắn cờ cần xác minh đối với mọi bản ghi có độ tin cậy dưới 0,7.
+
+Để bảo đảm liêm chính và khả năng tái lập, luận án áp dụng nguyên tắc
+\textbf{con người trong vòng lặp (human-in-the-loop) với kiểm chứng toàn
+bộ (100\%) bởi nghiên cứu sinh} trong vai trò chủ trì nghiên cứu
+(Principal Investigator): (i) LLM \textbf{chỉ} trích xuất thống kê và
+\textbf{không} suy đoán các biến điều tiết thể chế --- các nhãn chế độ
+ICRV, pha DPL và chỉ số cDAI do nghiên cứu sinh gán thủ công từ bảng tra
+cứu ngoài (WGI Rule of Law, năm dữ liệu trung vị, Digital Adoption
+Index), bảo đảm tính kiểm chứng độc lập; (ii) mỗi bản ghi phải được
+nghiên cứu sinh phê duyệt --- với quyền ghi đè bất kỳ trường nào ---
+trước khi được \textbf{khóa bất biến (irreversible data lock)} kèm dấu
+thời gian; (iii) chỉ các bản ghi đã khóa mới được đưa vào tập phân tích
+tổng hợp. Cơ chế hai bước phê duyệt--khóa tạo dấu vết kiểm toán (audit
+trail) phân tách rạch ròi phần do máy trích xuất và phần do con người
+quyết định, phù hợp với chuẩn mực công bố sử dụng trí tuệ nhân tạo ngày
+càng được các tạp chí học thuật yêu cầu. Kiến trúc, quy trình trích
+xuất--chuyển đổi cỡ ảnh hưởng và cơ chế quản trị dữ liệu của M-AIDA được
+trình bày chi tiết ở \textbf{Phụ lục B}.
 
 \hypertarget{giai-ux111oux1ea1n-2-phuxe2n-tuxedch-thux1ef1c-nghiux1ec7m-ux111a-quux1ed1c-gia}{%
 \section{3.3 Giai đoạn 2: Phân tích thực nghiệm đa quốc
@@ -11890,6 +11941,127 @@ này được nêu nhất quán với phần hạn chế ở Chương 5.
 \item
   \texttt{CANONICAL\_RECONCILIATION.md}
 \end{itemize}
+
+\newpage
+
+\hypertarget{phux1ee5-lux1ee5c-b-cuxf4ng-cux1ee5-truxedch-xuux1ea5t-dux1eef-liux1ec7u-meta-analysis-m-aida}{%
+\chapter{PHỤ LỤC B: CÔNG CỤ TRÍCH XUẤT DỮ LIỆU META-ANALYSIS
+M-AIDA}\label{phux1ee5-lux1ee5c-b-cuxf4ng-cux1ee5-truxedch-xuux1ea5t-dux1eef-liux1ec7u-meta-analysis-m-aida}}
+
+\begin{quote}
+Phụ lục này mô tả phần mềm \textbf{M-AIDA} (Meta-Analysis Intelligent
+Data Assistant, phiên bản 7.0) --- công cụ do chính nghiên cứu sinh phát
+triển và đã nộp hồ sơ đăng ký quyền tác giả, dùng để trích xuất và quản
+trị dữ liệu cỡ ảnh hưởng cho cấu phần phân tích tổng hợp của luận án
+(Nghiên cứu thành phần P6). Phụ lục được trình bày như \textbf{một cấu
+phần minh bạch phương pháp luận}, nhằm bảo đảm khả năng tái lập, công bố
+sử dụng trí tuệ nhân tạo, và khả năng phản biện trước hội đồng.
+\end{quote}
+
+\hypertarget{b.1-mux1ee5c-ux111uxedch-vuxe0-vux1ecb-truxed-trong-thiux1ebft-kux1ebf-nghiuxean-cux1ee9u}{%
+\section{B.1 Mục đích và vị trí trong thiết kế nghiên
+cứu}\label{b.1-mux1ee5c-ux111uxedch-vuxe0-vux1ecb-truxed-trong-thiux1ebft-kux1ebf-nghiuxean-cux1ee9u}}
+
+Cấu phần phân tích tổng hợp (Mục 3.2) tổng hợp K=288 cỡ ảnh hưởng từ
+k=238 nghiên cứu thực nghiệm về quan hệ quốc tế hóa--hiệu quả (I--P)
+giai đoạn 1977--2026. Trích xuất thủ công thuần túy ở quy mô này vừa tốn
+kém vừa dễ phát sinh sai số ghi chép; ngược lại, trích xuất hoàn toàn tự
+động bằng mô hình ngôn ngữ lớn (LLM) lại tiềm ẩn rủi ro ``ảo giác'' số
+liệu và thiếu dấu vết kiểm toán. M-AIDA được thiết kế để dung hòa: tận
+dụng tốc độ của LLM cho khâu đọc--trích, đồng thời đặt \textbf{toàn bộ
+quyền quyết định cuối cùng vào tay nghiên cứu sinh} (Principal
+Investigator, PI) thông qua quy trình xác minh và khóa dữ liệu bất biến.
+
+\hypertarget{b.2-kiux1ebfn-truxfac-phux1ea7n-mux1ec1m}{%
+\section{B.2 Kiến trúc phần
+mềm}\label{b.2-kiux1ebfn-truxfac-phux1ea7n-mux1ec1m}}
+
+M-AIDA gồm hai thành phần, giao tiếp qua REST API:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Backend --- FastAPI (Python 3.11+).} Các module chính:
+  \texttt{extractor.py} (lớp \texttt{StatisticalExtractor}: pipeline LLM
+  trích cỡ ảnh hưởng từ văn bản PDF), \texttt{models.py} (các mô hình dữ
+  liệu Pydantic: \texttt{ExtractedEffect}, \texttt{StudyDatabaseEntry},
+  \texttt{VerificationDecision}), \texttt{settings.py} (cấu hình
+  runtime), \texttt{notion\_sync.py} (đồng bộ cơ sở dữ liệu nghiên cứu).
+  Thư viện xử lý: PyMuPDF (đọc PDF), Anthropic Claude SDK (pipeline
+  LLM), pandas/numpy/scipy (xử lý thống kê).
+\item
+  \textbf{Frontend --- React 18 + TypeScript.} Bố cục hai thẻ: thẻ
+  \emph{Trích xuất} (upload PDF, hiển thị kết quả LLM) và thẻ \emph{Xác
+  minh \& Khóa} (bảng điều khiển để PI rà soát, ghi đè, phê duyệt và
+  khóa từng nghiên cứu), kèm chức năng xuất CSV các nghiên cứu đã khóa.
+\end{itemize}
+
+\hypertarget{b.3-quy-truxecnh-truxedch-xuux1ea5t-vuxe0-chuyux1ec3n-ux111ux1ed5i-cux1ee1-ux1ea3nh-hux1b0ux1edfng}{%
+\section{B.3 Quy trình trích xuất và chuyển đổi cỡ ảnh
+hưởng}\label{b.3-quy-truxecnh-truxedch-xuux1ea5t-vuxe0-chuyux1ec3n-ux111ux1ed5i-cux1ee1-ux1ea3nh-hux1b0ux1edfng}}
+
+Với mỗi PDF, M-AIDA đọc toàn văn bằng PyMuPDF rồi gửi tới LLM với một
+system prompt chuyên biệt cho meta-analysis I--P, yêu cầu nhận diện: cỡ
+mẫu \(N\), hệ số tương quan Pearson \(r\), thống kê \(t\), bậc tự do
+\(df\), hệ số hồi quy chuẩn hóa \(\beta\), giá trị \(p\), khoảng tin cậy
+95\%; đồng thời phân loại hai chiều xác định được từ văn bản (thước đo
+quốc tế hóa: FSTS/GEO/EXP/FDI/COMP/OTH; thước đo hiệu quả:
+ACC/MKT/LAB/MIX) và cửa sổ dữ liệu. Khi chỉ có thống kê phái sinh, hệ
+thống chuyển đổi về \(r\) theo chuẩn:
+
+\[ r = \sqrt{\dfrac{t^2}{t^2 + df}} \quad \text{(Cohen, 1988)}; \qquad r \approx 0{,}98\,\beta \quad \text{(Peterson \& Brown, 2005)}. \]
+
+Mỗi bản ghi được gán \textbf{điểm tin cậy trích xuất} ba mức: 1,0 (lấy
+trực tiếp \(r\)), 0,8 (suy từ \(t\)), 0,6 (suy từ \(\beta\)); bản ghi có
+độ tin cậy dưới 0,7 tự động bị gắn cờ \texttt{requires\_verification}.
+
+\hypertarget{b.4-quux1ea3n-trux1ecb-dux1eef-liux1ec7u-nguyuxean-tux1eafc-tuxe1ch-bux1ea1ch-xuxe1c-minh-pi-vuxe0-khuxf3a-bux1ea5t-biux1ebfn}{%
+\section{B.4 Quản trị dữ liệu: nguyên tắc tách bạch, xác minh PI và khóa
+bất
+biến}\label{b.4-quux1ea3n-trux1ecb-dux1eef-liux1ec7u-nguyuxean-tux1eafc-tuxe1ch-bux1ea1ch-xuxe1c-minh-pi-vuxe0-khuxf3a-bux1ea5t-biux1ebfn}}
+
+Ba nguyên tắc quản trị bảo đảm tính kiểm chứng độc lập và liêm chính:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Tách bạch máy--người.} LLM \textbf{chỉ} trích thống kê. Các
+  biến điều tiết thể chế của luận án --- chế độ ICRV (I/II/III/FR/MX
+  theo WGI Rule of Law), pha DPL (PRE/SPN/FOL theo năm dữ liệu trung vị)
+  và chỉ số cDAI (Digital Adoption Index 0--1) --- \textbf{do PI gán thủ
+  công từ bảng tra cứu ngoài}, không để LLM suy đoán.
+\item
+  \textbf{Xác minh PI.} PI có thể áp \texttt{field\_overrides} lên bất
+  kỳ trường nào của bản ghi và ghi \texttt{pi\_notes}; chỉ khi PI phê
+  duyệt thì cờ \texttt{requires\_verification} mới chuyển sang
+  \texttt{False}.
+\item
+  \textbf{Khóa bất biến (irreversible lock).} Bản ghi đã phê duyệt được
+  khóa vĩnh viễn (\texttt{pi\_locked\ =\ True}, kèm \texttt{locked\_at}
+  theo giờ UTC); thao tác \textbf{không thể đảo ngược}. Chỉ các bản ghi
+  đã khóa mới được xuất ra tập dữ liệu phân tích tổng hợp.
+\end{enumerate}
+
+Cơ chế hai bước phê duyệt--khóa tạo \textbf{dấu vết kiểm toán (audit
+trail)} phân tách rõ phần do máy trích xuất với phần do con người quyết
+định --- đặc tính cốt lõi giúp kết quả meta- analysis có thể tái lập và
+phản biện.
+
+\hypertarget{b.5-cuxf4ng-bux1ed1-sux1eed-dux1ee5ng-truxed-tuux1ec7-nhuxe2n-tux1ea1o-vuxe0-liuxeam-chuxednh-hux1ecdc-thuux1eadt}{%
+\section{B.5 Công bố sử dụng trí tuệ nhân tạo và liêm chính học
+thuật}\label{b.5-cuxf4ng-bux1ed1-sux1eed-dux1ee5ng-truxed-tuux1ec7-nhuxe2n-tux1ea1o-vuxe0-liuxeam-chuxednh-hux1ecdc-thuux1eadt}}
+
+Theo các khuyến nghị công bố sử dụng AI ngày càng phổ biến ở tạp chí học
+thuật, luận án công bố minh bạch: (i) LLM được dùng \textbf{chỉ ở khâu
+trích xuất thống kê} trong cấu phần phân tích tổng hợp, không dùng để
+sinh nội dung khoa học, không dùng để gán biến điều tiết hay diễn giải
+kết quả; (ii) \textbf{toàn bộ} bản ghi đưa vào phân tích đã qua kiểm
+chứng 100\% và phê duyệt của nghiên cứu sinh, kèm khóa dữ liệu bất biến;
+(iii) tập dữ liệu đã khóa và mã nguồn công cụ được lưu giữ phục vụ kiểm
+tra tái lập. Nhờ đó, vai trò của trí tuệ nhân tạo là \textbf{hỗ trợ năng
+suất ở khâu cơ học}, trong khi trách nhiệm khoa học và mọi quyết định
+nội dung thuộc về nghiên cứu sinh.
 
 \newpage
 

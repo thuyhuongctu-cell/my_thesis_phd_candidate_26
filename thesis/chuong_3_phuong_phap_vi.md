@@ -41,6 +41,12 @@ phân tích tổng hợp trong IB đã được thiết lập vững chắc qua 
 
 Bốn bước Nhận diện, Sàng lọc, Đủ điều kiện và Đưa vào theo hướng dẫn PRISMA 2020 (Page et al., 2021). tiêu chí lựa chọn: nghiên cứu thực nghiệm ở cấp doanh nghiệp, có đo lường quốc tế hóa và hiệu quả hoạt động kinh doanh của doanh nghiệp, có đủ thống kê để tính cỡ ảnh hưởng (Pearson $r$, $\beta$, $t$-stat).
 
+### 3.2.4 Công cụ trích xuất dữ liệu và công bố sử dụng trí tuệ nhân tạo
+
+Việc trích xuất cỡ ảnh hưởng từ K=288 ước lượng (k=238 nghiên cứu) được thực hiện bằng phần mềm chuyên dụng **M-AIDA** (Meta-Analysis Intelligent Data Assistant, phiên bản 7.0) do chính nghiên cứu sinh phát triển và đã nộp hồ sơ đăng ký quyền tác giả. M-AIDA dùng mô hình ngôn ngữ lớn (large language model, LLM) để đọc và trích các thống kê gốc (cỡ mẫu $N$, hệ số tương quan $r$, thống kê $t$, bậc tự do $df$, hệ số hồi quy chuẩn hóa $\beta$, giá trị $p$, khoảng tin cậy) từ bản PDF của từng nghiên cứu, kèm điểm tin cậy trích xuất (extraction confidence) ba mức — 1,0 khi lấy trực tiếp $r$; 0,8 khi suy từ $t$; 0,6 khi suy từ $\beta$ theo Peterson và Brown (2005) — và tự động gắn cờ cần xác minh đối với mọi bản ghi có độ tin cậy dưới 0,7.
+
+Để bảo đảm liêm chính và khả năng tái lập, luận án áp dụng nguyên tắc **con người trong vòng lặp (human-in-the-loop) với kiểm chứng toàn bộ (100%) bởi nghiên cứu sinh** trong vai trò chủ trì nghiên cứu (Principal Investigator): (i) LLM **chỉ** trích xuất thống kê và **không** suy đoán các biến điều tiết thể chế — các nhãn chế độ ICRV, pha DPL và chỉ số cDAI do nghiên cứu sinh gán thủ công từ bảng tra cứu ngoài (WGI Rule of Law, năm dữ liệu trung vị, Digital Adoption Index), bảo đảm tính kiểm chứng độc lập; (ii) mỗi bản ghi phải được nghiên cứu sinh phê duyệt — với quyền ghi đè bất kỳ trường nào — trước khi được **khóa bất biến (irreversible data lock)** kèm dấu thời gian; (iii) chỉ các bản ghi đã khóa mới được đưa vào tập phân tích tổng hợp. Cơ chế hai bước phê duyệt–khóa tạo dấu vết kiểm toán (audit trail) phân tách rạch ròi phần do máy trích xuất và phần do con người quyết định, phù hợp với chuẩn mực công bố sử dụng trí tuệ nhân tạo ngày càng được các tạp chí học thuật yêu cầu. Kiến trúc, quy trình trích xuất–chuyển đổi cỡ ảnh hưởng và cơ chế quản trị dữ liệu của M-AIDA được trình bày chi tiết ở **Phụ lục B**.
+
 ## 3.3 Giai đoạn 2: Phân tích thực nghiệm đa quốc gia
 
 ### 3.3.1 Nguồn dữ liệu
