@@ -36,8 +36,9 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 
 **Ghi chú độ sẵn sàng nộp (2026-06-20):**
 - P3 trong bundle là **bản 8.500 từ** (`_8500`) đúng giới hạn JED (bản đầy đủ vượt cap, không nộp JED).
-- Tự-trích-dẫn của P5/P6/P7 đã **ẩn danh** ("Authors, năm") cho double-blind; OSF DOI của P6 đã điền (10.17605/OSF.IO/Z37KN).
-- Còn điền lúc nộp (không chặn): ngày trong cover letter P9; giá trị κ mã hóa ICRV của P6 chờ dual-coding thật.
+- Tự-trích-dẫn của P5/P6/P7/P9 đã **ẩn danh** ("Authors, năm") cho double-blind; OSF DOI của P6 đã điền (10.17605/OSF.IO/Z37KN).
+- Cover letter P9 đã điền ngày (20 June 2026).
+- Còn lại lúc nộp (không chặn): giá trị κ mã hóa ICRV của P6 chờ dual-coding thật.
 
 ## 2. Hai chuyên đề (`2_chuyen_de/`)
 
