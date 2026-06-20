@@ -1,6 +1,6 @@
 # M-AIDA v7.0 — Meta-Analysis Intelligent Data Assistant
 
-Developed at Can Tho University by Đỗ Thùy Hương ([ORCID 0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)).  
+Developed at Can Tho University by Do Thuy Huong ([ORCID 0000-0002-7711-2487](https://orcid.org/0000-0002-7711-2487)) and Phan Anh Tu.  
 Purpose-built for IB meta-analysis: semi-automated effect-size extraction from academic PDFs with human-in-the-loop PI verification and immutable data lock.
 
 <!-- Badges (add after the first Zenodo release — see PUBLISHING.md) -->
@@ -83,15 +83,15 @@ If you use M-AIDA, please cite it (see `CITATION.cff` — GitHub renders a
 "Cite this repository" button). After the first Zenodo release (see
 `PUBLISHING.md`), replace the URL below with the minted DOI:
 
-> Đỗ, T. H. (2026). *M-AIDA v7.0: Meta-Analysis Intelligent Data Assistant* (Version 7.0.0)
+> Do, T. H., & Phan, A. T. (2026). *M-AIDA v7.0: Meta-Analysis Intelligent Data Assistant* (Version 7.0.0)
 > [Computer software]. Can Tho University. https://github.com/thuyhuongctu-cell/maida-core
 
 ---
 
 ## Authorship, license, and research-integrity note
 
-**Author / copyright:** Đỗ Thùy Hương (Do Thuy Huong), College of Economics, Can Tho University.
-M-AIDA was developed by the author to support effect-size extraction for Paper 6 of the doctoral
+**Authors / copyright:** Do Thuy Huong and Phan Anh Tu, College of Economics, Can Tho University.
+M-AIDA was developed by the authors to support effect-size extraction for Paper 6 of the doctoral
 dissertation. It is the basis of a Vietnam Copyright Office (COV) software-copyright registration.
 
 **Role of AI (research-integrity disclosure):** M-AIDA uses a large language model (Anthropic Claude)

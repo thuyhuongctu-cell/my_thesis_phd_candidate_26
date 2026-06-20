@@ -13,11 +13,14 @@ date-released: "2026-06-08"
 license: LicenseRef-MAIDA-Academic
 repository-code: "https://github.com/thuyhuongctu-cell/maida-core"
 authors:
-  - family-names: "Đỗ"
-    given-names: "Thùy Hương"
+  - family-names: "Do"
+    given-names: "Thuy Huong"
     email: "huongdt@vlute.edu.vn"
     orcid: "https://orcid.org/0000-0002-7711-2487"
     affiliation: "Vinh Long University of Technology Education; Can Tho University"
+  - family-names: "Phan"
+    given-names: "Anh Tu"
+    affiliation: "Can Tho University"
 keywords:
   - meta-analysis
   - effect-size extraction
