@@ -37,17 +37,17 @@ except Exception:
 
 MASTER = "data_wbes/p7/p7_pooled_clean.csv"
 RAW = "data_wbes/raw_dta"
-# TimorLeste: not a World Bank "Pacific Island Country" (the WB Pacific group is the
-# 11 member states — FSM, Fiji, Kiribati, Marshall Islands, Nauru, Palau, Samoa,
-# Solomon Islands, Tonga, Tuvalu, Vanuatu; Timor-Leste is classed as a separate East
-# Asia & Pacific economy, geographically in the Timor Sea / SE Asia). Excluded from the
-# SIDS_small (ICRV VI) group, alongside Comoros (Indian Ocean).
+# Scope convention: the broad P7 multi-country frame KEEPS Timor-Leste (a World Bank
+# East Asia & Pacific economy) in the ICRV Group VI "small/peripheral" descriptive group
+# (50 economies). The dedicated SIDS study (P8) restricts to the 7 genuine Pacific SIDS
+# and excludes Timor-Leste (not a WB Pacific Island Country / not a UN Pacific SIDS) and
+# Comoros — that filtering happens inside the P8 scripts (PACIFIC7 whitelist), not here.
 DROP_LABELS = ["Philippines_panel", "Nepal_panel", "Mongolia_panel",
-               "Comoros", "Cyprus", "Turkey", "TimorLeste"]
+               "Comoros", "Cyprus", "Turkey"]
 ORDER = ["Advanced_innovation", "Advanced_resource", "Upper_mid",
          "Lower_mid_transition", "Emerging", "SIDS_small"]
 GROUP_SIZE = {"Advanced_innovation": 6, "Advanced_resource": 6, "Upper_mid": 6,
-              "Lower_mid_transition": 7, "Emerging": 17, "SIDS_small": 7}
+              "Lower_mid_transition": 7, "Emerging": 17, "SIDS_small": 8}
 COUNTRY_MAP = {
     "HongKong": "HongKong", "Korea": "Korea", "Taiwan": "Taiwan",
     "Lao": "Laos", "Laos": "Laos", "Kyrgyz": "KyrgyzRepublic",

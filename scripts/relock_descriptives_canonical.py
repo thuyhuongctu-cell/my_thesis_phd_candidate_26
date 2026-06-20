@@ -120,7 +120,8 @@ def main():
     tot_e = res['n_econ'].sum()
     tot_w = res['n_waves'].sum()
     print(f"Frame: {tot_e} economies, {tot_w} economy-year cells, "
-          f"{tot_n:,} LP-valid firms (Timor-Leste excluded)\n")
+          f"{tot_n:,} LP-valid firms (per icrv_map; P7 frame keeps Timor in Group VI, "
+          f"P8 SIDS study restricts to the 7 Pacific via PACIFIC7)\n")
     pd.set_option('display.width', 200, 'display.max_columns', 30)
     print(res.to_string(index=False))
     print('\nsaved -> data_wbes/analysis/descriptives_canonical_49econ.csv')

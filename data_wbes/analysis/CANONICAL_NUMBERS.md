@@ -6,49 +6,45 @@
 > `p10_japan/replication/p10_japan_models.py` (xem `REESTIMATION_LOG_2026-06-13.md`).
 > Lưu ý liêm chính: số chỉ đổi sau khi chạy estimation thật, không bịa.
 >
-> **CẬP NHẬT 2026-06-19 — Timor-Leste bị loại khỏi khung.** Timor-Leste không phải Pacific
-> Island Country (Ngân hàng Thế giới: 11 nước) và không thuộc danh sách Pacific SIDS của Liên
-> Hợp Quốc (14 PSIDS); `icrv_map()` đã sửa. Khung giảm **50 → 49 nền**, Nhóm VI còn **7 nền**.
-> Các con số dưới đây là **giá trị TÁI LẬP từ kho .dta đã commit** (chạy lại P7 không Timor,
-> 2026-06-19); chênh lệch nhỏ với bộ locked cũ một phần do kho raw là tập con của master đầy đủ.
+> **CẬP NHẬT 2026-06-19 — Phạm vi Timor-Leste.** P7 (khung đa quốc gia 50 nền) **GIỮ** Timor-Leste
+> như một nền kinh tế Đông Á–Thái Bình Dương. Chỉ nghiên cứu SIDS (P8) **LOẠI** Timor (không phải
+> Pacific Island Country của WB / không thuộc 14 Pacific SIDS của LHQ), dùng 7 nền Pacific thật.
+> Số P7 dưới đây là bộ locked 50 nền; kiểm định độ vững có/không Timor: `data_wbes/analysis/timor_sensitivity.md`.
 
 ## 1. Các khung dữ liệu (định nghĩa chính xác)
 
 | Khung | N firms | Số nền | Ghi chú |
 |---|--:|--:|---|
 | **Pool phân loại ICRV** | 96.415 | 52 nhãn nền | Trước lọc; gán nhóm ICRV (locked; re-lock loại Timor đang chờ master đầy đủ) |
-| **Khung phân tích (tái lập từ raw, loại Timor, GỒM Nhật)** | **87.987** | **49** | 99 cặp nền-năm; dùng cho cả mô tả VÀ ước lượng P7 |
+| **Khung phân tích (canonical, GỒM Nhật Bản và Timor)** | **88.869** | **50** | 103 cặp nền-năm; dùng cho cả mô tả VÀ ước lượng P7 |
 | — trong đó Nhật Bản (P10) | 2.168 | 1 | Sóng WBES đầu tiên 2025 |
-| **Tham chiếu locked cũ (GỒM Timor)** | 88.869 | 50 | Bộ locked 2026-06-13 trước khi loại Timor; cần re-lock |
 | **⚠️ LEGACY — KHÔNG DÙNG** | 91.982 | 49 | Build P7 cũ tiền-Nhật (pipeline trước); đã bị thay thế |
 
 **Quy tắc phát ngôn chuẩn (lặp ở mọi abstract/chương):**
-> "Khung phân tích đa quốc gia gồm **87.987 doanh nghiệp trên 49 nền kinh tế** châu Á
-> và Thái Bình Dương (99 cặp nền-năm, **bao gồm Nhật Bản 2025**, loại Timor-Leste theo phân
-> loại WB/UN); pool phân loại ICRV trước lọc 96.415 doanh nghiệp/52 nhãn nền."
+> "Khung phân tích đa quốc gia gồm **88.869 doanh nghiệp trên 50 nền kinh tế** châu Á
+> và Thái Bình Dương (103 cặp nền-năm, **bao gồm Nhật Bản 2025**); pool phân loại ICRV
+> 96.415 doanh nghiệp/52 nhãn nền."
 
-## 2. P7 — Hồi quy toàn mẫu (49 nền, GỒM Nhật, loại Timor, two-way FE economy+year, CRV1)
+## 2. P7 — Hồi quy toàn mẫu (50 nền, GỒM Nhật và Timor, two-way FE economy+year, CRV1)
 
 | Mô hình | N | β₁ (FSTS) | β₂ (FSTS²) | Điểm uốn | p (Lind–Mehlum) |
 |---|--:|--:|--:|--:|--:|
-| **M2** (FSTS + FSTS², FE) | **80.373** | +1,194*** | −1,404*** | **51,5%** | < 0,001 |
-| **M5** (+ kiểm soát, FE) | **78.445** | +0,503*** | −0,727*** | **43,5%** | < 0,001 |
+| **M2** (FSTS + FSTS², FE) | **81.022** | +1,189*** | −1,398*** | **51,5%** | < 0,001 |
+| **M5** (+ kiểm soát, FE) | **79.080** | +0,500*** | −0,721*** | **43,6%** | < 0,001 |
 
 ## 3. Điểm uốn theo nhóm ICRV (khung 50 nền) — "BA VÙNG"
 
-> ⚠️ **Cập nhật 2026-06-19 — loại Timor-Leste khỏi SIDS_small.** Timor-Leste không phải Pacific
-> Island Country (Ngân hàng Thế giới: 11 nước, không có Timor) và không thuộc danh sách Pacific
-> SIDS của Liên Hợp Quốc (14 PSIDS, không có Timor). `icrv_map()` đã được sửa để loại Timor khỏi
-> Nhóm VI; SIDS_small còn **7 nền** (Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu) và khung
-> giảm từ 50 → **49 nền**. Tác động lên headline P7 không đáng kể (Timor ≈ 0,55% mẫu; TP/β giữ
-> nguyên). **Các tổng locked dưới đây (88.869 / 81.022 / nhóm) vẫn gồm Timor và cần RE-LOCK lại
-> trên master đầy đủ** — dòng SIDS_small đã được cập nhật theo build raw 7 nền đã verify.
+> ⚠️ **Cập nhật 2026-06-19 — phạm vi Timor-Leste theo nghiên cứu.** P7 (khung 50 nền) **giữ**
+> Timor-Leste trong Nhóm VI như một nền kinh tế Đông Á–Thái Bình Dương; nghiên cứu SIDS (P8)
+> **loại** Timor (không phải Pacific Island Country của WB / không thuộc 14 Pacific SIDS của LHQ),
+> dùng **7 nền Pacific** thật (Fiji, Kiribati, PNG, Samoa, Solomon, Tonga, Vanuatu). Kiểm định độ
+> vững có/không Timor: `data_wbes/analysis/timor_sensitivity.md` (kết luận không đổi cả hai chiều).
 >
 > **Bảng mô tả (single source of truth):** `scripts/relock_descriptives_canonical.py` →
 > `data_wbes/analysis/descriptives_canonical_49econ.csv` tái lập mọi ô của Bảng 4.1/4.2 (luận án)
-> và 2.3.3.1–2.3.6 (CĐ1) từ raw, cùng harmonization P7 (loại Timor). SIDS 7 nền: n(LP)=1.471,
-> sd ln(LP)=1,30, FSTS TB 6,2, xuất khẩu 15,5%, FDI 22,9%, đổi mới SP 39,6%, quy trình 27,9%,
-> R&D 11,5%, ISO 15,2%, website 47,1%. Các nhóm khác canonical **trùng** Bảng 4.2 vintage.
+> và 2.3.3.1–2.3.6 (CĐ1) từ raw, cùng harmonization P7. Mô tả Nhóm VI (P7) = 8 nền gồm Timor
+> (n(LP)=1.916, đổi mới SP 34,2%, website 41,5%); nghiên cứu P8 dùng 7 Pacific (n(LP)=1.471,
+> đổi mới SP 39,6%, website 47,1%). Các nhóm khác canonical **trùng** Bảng 4.2 vintage.
 
 | Nhóm ICRV | N | Điểm uốn | p (LM) | Diễn giải ba vùng |
 |---|--:|--:|--:|---|
@@ -56,8 +52,8 @@
 | II. Advanced_resource (GCC) | 2.075 | 62,0% | 0,081 | Trên–giữa |
 | III. Upper_mid | 12.055 | 55,0% | 0,263 | Giữa, không định vị tin cậy |
 | IV. Lower_mid_transition | 42.094 | **43,0%** | < 0,001 | **Giữa**: chữ U ngược SẮC NÉT |
-| V. Emerging | 15.251 | 34,6% | 0,191 | **Dưới**: cấu trúc tan rã |
-| VI. SIDS_small (7 nền, loại Timor) | 1.450 | — (n.s.) | — | **Dưới**: chữ U ngược tan rã (độ dốc −0,085 p_wild=,66; độ cong +0,696 p_wild=,082); FIP là trường hợp giới hạn |
+| V. Emerging | 15.457 | 34,8% | 0,184 | **Dưới**: cấu trúc không hình thành |
+| VI. SIDS_small (P7: 8 nền; P8: 7 Pacific) | 1.818 | — (n.s.) | — | **Dưới**: chữ U ngược không hình thành (P8 7 nền: độ dốc −0,085 p_wild=,66; độ cong +0,696 p_wild=,082); FIP là trường hợp giới hạn |
 
 ## 4. Các construct/nghiên cứu thành phần
 
@@ -83,7 +79,7 @@ P7 = 50 nền gồm Nhật; P8 (SIDS) và P9 (Ấn Độ) là pool con riêng kh
 | 88.869 / 50 nền | 91.982 / 49 nền (trừ khi gắn nhãn "build cũ") |
 | 81.022 (M2) / 79.080 (M5) | 84.910 (M2 cũ) / 38.342 (M5 cũ) |
 | TP M5 = 43,6%; M2 = 51,5% | TP 40,0% / 36% / 34,6% (cũ) |
-| Ba vùng (Nhóm IV 43,0%) | gradient đơn điệu 28% đến 55% |
+| Ba vùng (Nhóm IV 43,0%) | phổ thể chế đơn điệu 28% đến 55% |
 
 ## Gói kiểm định độ vững bổ sung (2026-06, P7 50 nền)
 > Chi tiết: `data_wbes/analysis/p7_robustness_suite_2026-06.md`; thuật toán: `dist/osf/P7_capstone/code/p7_run_50econ.py` + bootstrap WCR thủ công (FWL).
