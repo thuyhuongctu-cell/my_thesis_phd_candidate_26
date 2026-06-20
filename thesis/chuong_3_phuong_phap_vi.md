@@ -14,7 +14,7 @@ Luận án sử dụng **thiết kế hỗn hợp tổng hợp–thực nghiệm
 
 **Cơ sở kế thừa**: Thiết kế hỗn hợp kết hợp phân tích tổng hợp và dữ liệu sơ cấp đã được áp dụng trong quản trị chiến lược và IB (Borenstein et al., 2009; Hunter & Schmidt, 2004; Combs et al., 2011).
 
-**Đóng góp mới**: Áp dụng thiết kế hỗn hợp cho một luận án duy nhất về quốc tế hóa–hiệu quả doanh nghiệp trong bối cảnh châu Á và Thái Bình Dương với **50 nền kinh tế** là thiết kế hiếm gặp; đa số các luận án IB chỉ làm một trong hai giai đoạn. Quy mô 50 nền kinh tế/88.869 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ mẫu gộp 17 nước trong nghiên cứu thành phần P1.
+**Đóng góp mới**: Áp dụng thiết kế hỗn hợp cho một luận án duy nhất về quốc tế hóa–hiệu quả hoạt động kinh doanh của doanh nghiệp trong bối cảnh châu Á và Thái Bình Dương với **50 nền kinh tế** là thiết kế hiếm gặp; đa số các luận án IB chỉ làm một trong hai giai đoạn. Quy mô 50 nền kinh tế/88.869 doanh nghiệp là phạm vi địa lý lớn nhất từng có cho khu vực, mở rộng từ mẫu gộp 17 nước trong nghiên cứu thành phần P1.
 
 ### 3.1.2 Quy trình nghiên cứu
 
@@ -39,7 +39,7 @@ phân tích tổng hợp trong IB đã được thiết lập vững chắc qua 
 
 ### 3.2.3 Quy trình PRISMA
 
-Bốn bước Nhận diện, Sàng lọc, Đủ điều kiện và Đưa vào theo hướng dẫn PRISMA 2020 (Page et al., 2021). tiêu chí lựa chọn: nghiên cứu thực nghiệm ở cấp doanh nghiệp, có đo lường quốc tế hóa và hiệu quả doanh nghiệp, có đủ thống kê để tính cỡ ảnh hưởng (Pearson $r$, $\beta$, $t$-stat).
+Bốn bước Nhận diện, Sàng lọc, Đủ điều kiện và Đưa vào theo hướng dẫn PRISMA 2020 (Page et al., 2021). tiêu chí lựa chọn: nghiên cứu thực nghiệm ở cấp doanh nghiệp, có đo lường quốc tế hóa và hiệu quả hoạt động kinh doanh của doanh nghiệp, có đủ thống kê để tính cỡ ảnh hưởng (Pearson $r$, $\beta$, $t$-stat).
 
 ## 3.3 Giai đoạn 2: Phân tích thực nghiệm đa quốc gia
 
@@ -71,7 +71,7 @@ Quy trình hợp nhất tuân theo nguyên tắc minh bạch kiểu PRISMA cho d
 
 **Biến độ vững**: ROS, sales growth, employment growth, $\ln$(annual sales).
 
-**Đóng góp mới**: lập luận rõ ràng về hiệu quả doanh nghiệp là khái niệm đa chiều và việc lựa chọn thước đo phải phù hợp với bối cảnh dữ liệu (xem Chương 2).
+**Đóng góp mới**: lập luận rõ ràng về hiệu quả hoạt động kinh doanh của doanh nghiệp là khái niệm đa chiều và việc lựa chọn thước đo phải phù hợp với bối cảnh dữ liệu (xem Chương 2).
 
 ### 3.3.2.1 Vận hành hóa thước đo năng suất và quy trình xử lý phân phối
 
@@ -700,7 +700,7 @@ Nguyên tắc tương tự áp dụng cho các kết quả điều tiết không
 | Thiết kế hỗn hợp | Borenstein et al. (2009); Hunter & Schmidt (2004) | Áp dụng cho **50 nền kinh tế châu Á + Thái Bình Dương** trong một luận án |
 | phân tích tổng hợp 1977–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng phạm vi, bổ sung digital và 6 chế độ con ICRV moderators |
 | Mẫu thực nghiệm gộp | nghiên cứu thành phần P1, 17 nền kinh tế châu Á mới nổi | Mở rộng từ 17 lên **50 nền kinh tế**, 103 cặp nền kinh tế và năm (gồm Nhật Bản 2025) |
-| Biến phụ thuộc năng suất lao động | Bloom et al. (2012); Hsieh & Klenow (2009); nghiên cứu thành phần P1 | Lập luận rõ về hiệu quả doanh nghiệp đa chiều trong bối cảnh WBES |
+| Biến phụ thuộc năng suất lao động | Bloom et al. (2012); Hsieh & Klenow (2009); nghiên cứu thành phần P1 | Lập luận rõ về hiệu quả hoạt động kinh doanh của doanh nghiệp đa chiều trong bối cảnh WBES |
 | FSTS + FSTS² | Lu & Beamish (2004); Hitt et al. (1997); nghiên cứu thành phần P2 và P5 | Đưa vào cùng khung điều tiết ba chiều |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Không chồng lấn, độ thuần cấu trúc protocol cho WBES; lá chắn số mở rộng (nghiên cứu thành phần P1) |
 | Lind–Mehlum U-test | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng country sample và multi-country |

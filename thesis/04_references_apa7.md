@@ -166,7 +166,7 @@ Cho, H.-J., & Lee, J. (2018). Firm performance and internationalization: The mod
 
 Chodorow-Reich, G., Gopinath, G., Mishra, P., & Narayanan, A. (2020). Cash and the economy: Evidence from India's demonetization. *Quarterly Journal of Economics, 135*(1), 57–103. https://doi.org/10.1093/qje/qjz027
 
-CIEM. (2023). *Báo cáo Năng lực cạnh tranh và hiệu quả doanh nghiệp Việt Nam 2023* [Central Institute for Economic Management]. Nhà xuất bản Khoa học và Kỹ thuật.
+CIEM. (2023). *Báo cáo Năng lực cạnh tranh và hiệu quả hoạt động kinh doanh của doanh nghiệp Việt Nam 2023* [Central Institute for Economic Management]. Nhà xuất bản Khoa học và Kỹ thuật.
 
 Ciszewska-Mlinarič, M., & Mlinarič, F. (2010). Internationalization and performance of small and medium-sized enterprises. *Organizacija, 43*(5), 175–185. https://doi.org/10.2478/v10051-010-0017-y
 

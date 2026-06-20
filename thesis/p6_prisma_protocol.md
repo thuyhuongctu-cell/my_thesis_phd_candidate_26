@@ -1,5 +1,5 @@
 # P6 — PRISMA 2020 PROTOCOL
-## Meta-Analysis: Quan hệ Quốc tế hóa và Hiệu quả Doanh nghiệp (I–P) tại Châu Á và Thái Bình Dương
+## Meta-Analysis: Quan hệ Quốc tế hóa và Hiệu quả Hoạt động Kinh doanh của Doanh nghiệp (I–P) tại Châu Á và Thái Bình Dương
 
 > **Tiêu đề đầy đủ (dự kiến)**: "Internationalization and Firm Performance in Asia and the Pacific: A Meta-Analytic Synthesis"
 > **Tác giả**: Đỗ Thùy Hương, [đồng tác giả TBD]
