@@ -72,6 +72,14 @@ latex/**/*.toc
 latex/**/*.bbl
 latex/**/*.blg
 latex/**/*.pdf
+# File rác biên dịch LaTeX trong các gói submission (giữ lại .tex và .pdf bản thảo)
+*.errlog
+**/submission/**/*.aux
+**/submission/**/*.log
+**/submission/**/*.out
+**/submission/**/*.toc
+**/submission/**/*.bbl
+**/submission/**/*.blg
 # regenerable OSF bundles (scripts/build_osf_bundles.py)
 dist/osf/
 
