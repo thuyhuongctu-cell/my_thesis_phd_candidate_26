@@ -126,6 +126,15 @@ MY_THESIS_PHD_CANDIDATE_26/
 | **Chương sách** | Ấn Độ (380 doanh nghiệp sản xuất & dịch vụ) | Quốc tế hóa và hiệu quả: vai trò nhà quản trị cấp cao (tầng upper-echelons) |
 | **Meta-analysis 2025** | Châu Á–Thái Bình Dương (ICBEF) | Phiên bản hội thảo của tổng hợp định lượng I–P; nền tảng phương pháp cho P6 |
 
+### ✅ Kiểm tra yêu cầu tạp chí (submission readiness)
+
+Mỗi paper nhắm nhiều tạp chí mục tiêu; mỗi gói nộp được kiểm tra theo yêu cầu tạp chí đích (số từ main-text vs giới hạn, dạng abstract, kiểu tham chiếu, declarations theo NXB, Highlights cho Elsevier). Bảng hợp nhất sinh tự động từ chính file bản thảo:
+
+- **Bảng tổng:** [`reviews/SUBMISSION_READINESS_MASTER_2026-06.md`](reviews/SUBMISSION_READINESS_MASTER_2026-06.md) — 19 gói LIVE, hiện **✅ đạt toàn bộ** (cập nhật bằng `python3 scripts/build_submission_readiness.py`).
+- Chi tiết: [`reviews/SUBMISSION_FORMAT_COMPLIANCE_2026-06.md`](reviews/SUBMISSION_FORMAT_COMPLIANCE_2026-06.md) (format/declarations) · [`reviews/WORDCOUNT_COMPLIANCE_2026-06.md`](reviews/WORDCOUNT_COMPLIANCE_2026-06.md) (số từ).
+
+> Giới hạn số từ là giá trị theo author-guideline (môi trường chặn web nên cần đối chiếu Guide for Authors trước khi nộp); các kiểm tra còn lại đọc trực tiếp từ bản thảo.
+
 ---
 
 ## 🔁 Tái lập nghiên cứu P7 (đa quốc gia)
