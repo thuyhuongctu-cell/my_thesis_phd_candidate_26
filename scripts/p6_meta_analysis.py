@@ -1,21 +1,27 @@
 #!/usr/bin/env python3
-"""P6 three-level meta-analysis (MARA) — frozen, reproducible computation.
+"""P6 three-level meta-analysis (MARA) — NON-CANONICAL Python cross-check.
 
-Completes the previously-"TBD" P6 results by actually estimating the model the
-manuscript describes, on the coded effect-size dataset p6/results/forest_data.csv
-(k=238 studies, K=288 effect sizes). No network/WoS/Scopus needed: the systematic
-search and coding are already done; this script computes and FREEZES the numbers.
+⚠️  NOT THE SOURCE OF TRUTH. The canonical P6 results come from the R `metafor`
+pipeline `p6/scripts/p6_real_mara.R` (rma.mv three-level model), whose outputs are
+`p6/results/table1_baseline.csv` … `table5_sensitivity.csv` and which the P6
+submission manuscripts use (I² = 62.4%; ICRV r = 0.079/0.065/0.069/0.349/0.053;
+trim-and-fill k = 57; Egger b = 0.487). See `p6/results/CANONICAL_NUMBERS_P6.md`.
 
-Model: Fisher-z effect sizes z_ij = atanh(r_ij), sampling variance v_ij=1/(n-3).
-Three-level random-effects: study-level (L3, tau3^2) + within-study (L2, tau2^2)
-+ known sampling variance. Marginal covariance is block-diagonal by study with
-off-diagonal tau3^2. Variance components by REML (scipy.optimize); pooled effect
-and moderator meta-regressions by GLS with that covariance. Moderator joint tests
-(Q_M) are Wald chi-square on the group dummies. Publication bias: Egger regression
-+ Duval-Tweedie L0 trim-and-fill on z.
+This Python re-implementation is a simplified independent check only. It DIVERGES
+from the canonical pipeline (it yields I² ≈ 87.8%, trim-and-fill ≈ 10, Egger
+p ≈ 0.007) due to a different variance-component implementation and input file. Its
+output `p6/results/p6_meta_computed.md` is therefore marked DEPRECATED. DO NOT use
+this script's numbers to populate the manuscript, tables, or thesis. Re-running it
+will NOT reproduce the canonical numbers — by design the manuscript follows the R
+`metafor` results, which cannot be regenerated in this environment because R is not
+installed.
+
+Model (as implemented here): Fisher-z effect sizes z_ij = atanh(r_ij), sampling
+variance v_ij = 1/(n-3); three-level random-effects (study L3 + within-study L2 +
+sampling), REML variance components by scipy.optimize; GLS pooling; Wald Q_M.
 
 Run:  python3 scripts/p6_meta_analysis.py
-Out:  p6/results/p6_meta_computed.md  (frozen numbers for the manuscript)
+Out:  p6/results/p6_meta_computed.md  (DEPRECATED cross-check, not for citation)
 """
 import warnings
 
