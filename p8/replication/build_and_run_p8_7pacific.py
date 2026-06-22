@@ -38,7 +38,7 @@ SEED = 20260619
 
 def load_p7_builder():
     spec = importlib.util.spec_from_file_location(
-        'p7', 'dist/osf/P7_capstone/code/p7_run_50econ.py')
+        'p7', 'scripts/p7_run_50econ.py')
     p7 = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(p7)
     return p7

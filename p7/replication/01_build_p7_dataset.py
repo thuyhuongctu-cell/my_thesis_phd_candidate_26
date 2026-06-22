@@ -592,6 +592,11 @@ def main():
     pooled.to_csv(pooled_csv, index=False)
     log.info(f"Saved {pooled_csv} ({pooled_csv.stat().st_size/1024:.0f} KB)")
 
+    # Keep metadata rows on the same analytic frame as `pooled` (drop OUT_OF_SCOPE
+    # economies from the manifest and variable log so coverage reports match).
+    manifest_rows = [r for r in manifest_rows if r["country"] not in OUT_OF_SCOPE]
+    var_log_rows = [r for r in var_log_rows if r["country"] not in OUT_OF_SCOPE]
+
     manifest_path = out_dir / "p7_manifest.csv"
     pd.DataFrame(manifest_rows).to_csv(manifest_path, index=False)
     log.info(f"Saved {manifest_path}")
