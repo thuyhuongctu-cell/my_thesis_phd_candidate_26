@@ -32,9 +32,9 @@ phân tích tổng hợp trong IB đã được thiết lập vững chắc qua 
 
 ### 3.2.2 Đóng góp mới/điều chỉnh
 
-- **Mở rộng coverage time**: từ 1977–2022 (bài ICBEF 2025) sang **1977–2026**, bổ sung các nghiên cứu 2023–2026 liên quan đến chuyển đổi số và doanh nghiệp đa quốc gia thị trường mới nổi.
+- **Mở rộng coverage time**: từ 1977–2022 (bài ICBEF 2024) sang **1977–2026**, bổ sung các nghiên cứu 2023–2026 liên quan đến chuyển đổi số và doanh nghiệp đa quốc gia thị trường mới nổi.
 - **Mở rộng biến điều tiết coverage**: thêm cụm biến điều tiết về năng lực số và 6 chế độ con ICRV, chưa được xem xét đầy đủ trong các các phân tích tổng hợp trước.
-- **Tập tổng hợp**: K=288 cỡ ảnh hưởng / k=238 nghiên cứu, được xây dựng theo chiến lược tìm kiếm hệ thống nhưng có giới hạn (neo theo trích dẫn: quét trích dẫn xuôi và ngược từ 5 phân tích tổng hợp mỏ neo, bổ sung bằng cơ sở dữ liệu), báo cáo theo biến thể PRISMA 2020 "studies identified via other methods"; mở rộng so với bản nền ICBEF 2025 (K=200 / k=113).
+- **Tập tổng hợp**: K=288 cỡ ảnh hưởng / k=238 nghiên cứu, được xây dựng theo chiến lược tìm kiếm hệ thống nhưng có giới hạn (neo theo trích dẫn: quét trích dẫn xuôi và ngược từ 5 phân tích tổng hợp mỏ neo, bổ sung bằng cơ sở dữ liệu), báo cáo theo biến thể PRISMA 2020 "studies identified via other methods"; mở rộng so với bản nền ICBEF 2024 (K=200 / k=113).
 - **Subgroup theo châu Á và Pacific**: tách riêng nhóm nghiên cứu về doanh nghiệp châu Á và Pacific để cung cấp cơ sở trực tiếp cho giai đoạn thực nghiệm, đối chiếu với mẫu gộp 17 nước trong nghiên cứu thành phần P1.
 
 ### 3.2.3 Quy trình PRISMA

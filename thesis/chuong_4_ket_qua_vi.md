@@ -665,7 +665,7 @@ Trước khi tổng hợp theo hệ giả thuyết, Bảng 4.10 hợp nhất cá
 | P2 | Trung Quốc, doanh nghiệp nhỏ và vừa (III) | 4.290 | U ngược | 47,8% | nâng mặt bằng | nâng mặt bằng |
 | P3 | Việt Nam (IV) | 2.958 | U ngược | 39–46% | dương, có ý nghĩa (β=0,179, biến công cụ) | không có ý nghĩa (Tầng 1) |
 | P4 | Singapore (I) | 623 | gần tuyến tính dương | ~88,6% (không định vị chắc) | yếu tố vệ sinh | FSTS²×DAI=+3,119** |
-| P5 | Trung Quốc (III) | 4.544 | U ngược | 47–49% (ổn định 2012–2024) | dương (+0,26 lên +0,43) | không áp dụng |
+| P5 | Trung Quốc (III) | 4.544 | U ngược | 47–49% (ổn định 2012–2024) | dương (+0,28 lên +0,43) | không áp dụng |
 | P6 | Phân tích tổng hợp (toàn cầu, 49 nền) | k=238 | dương nhỏ | không áp dụng | không áp dụng | r̄=0,074; I²=62,4% |
 | P7 | Đa quốc gia (50 nền, I–VI) | 81.022 | U ngược | 43,6% (M5); rõ nhất ở Nhóm IV (43,0%) | nâng mặt bằng (+0,141 sd) | nâng mặt bằng (+0,201 sd) |
 | P8 | Đảo nhỏ Thái Bình Dương (VI) | 1.450 | chữ U ngược mất cấu trúc (FIP: trường hợp giới hạn) | không có | nâng mặt bằng, không điều tiết | độ cong & độ dốc n.s. (7 nền, mẫu đầy đủ); −1,339 chỉ ở bản dựng ba cụm |
