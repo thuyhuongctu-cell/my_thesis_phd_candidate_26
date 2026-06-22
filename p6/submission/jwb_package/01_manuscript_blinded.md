@@ -911,7 +911,8 @@ Study (*k*) counts by cDAI/DPL are reported after multi-effect deduplication.
 Within the combined Frontier/SIDS (FR) code, all *k* = 3 coded studies
 sample frontier economies and none sample a small-island developing state
 (SIDS *k* = 0); SIDS effects therefore cannot be estimated in the present
-corpus and are flagged as a targeted-search priority (Appendix B).
+corpus and are flagged as a targeted-search priority (to follow the
+OSF-registered search protocol).
 
 ### 4.2 Baseline Three-Level Model
 
@@ -1233,7 +1234,7 @@ Three limitations bound the inferences from this study.
 **(a) What cannot be concluded:** (1) The SIDS subgroup (*k* = 0; no
 primary small-island study met inclusion) does not permit any test of the
 "forced-penalty" hypothesis; a targeted search for SIDS-focused primary
-studies (Appendix B) is required first. (2) The cDAI × ICRV joint moderation (three-way
+studies (following the OSF-registered search protocol) is required first. (2) The cDAI × ICRV joint moderation (three-way
 interaction) is underpowered (*k* per cell \< 20), so point estimates carry
 wide confidence intervals. (3) All effect sizes are cross-sectional or
 study-level panel, so no longitudinal meta-regression can distinguish
@@ -1309,7 +1310,8 @@ independently validated.
 
 **Future research.** Three directions follow from the null moderator
 findings. First, a formal WoS/Scopus search targeting Frontier and SIDS
-economy I to P studies (targeted strings, Appendix B) would expand Frontier
+economy I to P studies (targeted strings in the OSF-registered search
+protocol) would expand Frontier
 *k* from 3 to potentially 20–40 studies, enabling a meaningful test of the
 Frontier cell. Second, a pre-registered replication of the ICRV,
 cDAI, and DPL hypotheses, with explicit per-cell power analysis and OSF
