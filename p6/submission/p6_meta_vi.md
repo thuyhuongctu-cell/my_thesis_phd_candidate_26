@@ -308,7 +308,7 @@ Các kiểm định độ vững định trước sau đánh giá độ nhạy c
 | Theo loại FP: LAB (năng suất lao động) | 12 | |
 | Theo loại FP: MIX | 14 | |
 
-*Ghi chú:* Đếm từ cơ sở dữ liệu đã mã hóa (`p6/results/forest_data.csv`, K=288 dòng, k=238 ID nghiên cứu duy nhất, cập nhật 15/05/2026). Đếm *k* và *K* theo ICRV cộng lại > tổng vì các nghiên cứu MX có thể bắc qua nhiều chế độ. Đếm nghiên cứu (*k*) theo cDAI/DPL được báo cáo sau khử trùng lặp đa hiệu ứng.
+*Ghi chú:* Đếm từ cơ sở dữ liệu đã mã hóa (`p6/results/forest_data.csv`, K=288 dòng, k=238 ID nghiên cứu duy nhất, cập nhật 15/05/2026). Đếm *k* và *K* theo ICRV cộng lại > tổng vì các nghiên cứu MX có thể bắc qua nhiều chế độ. Đếm nghiên cứu (*k*) theo cDAI/DPL được báo cáo sau khử trùng lặp đa hiệu ứng. Trong mã gộp Frontier/SIDS (FR), toàn bộ *k* = 3 nghiên cứu đã mã hóa đều thuộc các nền kinh tế frontier và không nghiên cứu nào lấy mẫu một quốc đảo nhỏ đang phát triển (SIDS *k* = 0); do đó các hiệu ứng SIDS không thể ước lượng trong tập dữ liệu hiện tại và được đánh dấu là ưu tiên tìm kiếm có mục tiêu (Phụ lục B).
 
 ### 4.2 Mô hình ba cấp nền
 
@@ -462,7 +462,7 @@ Việc không xác nhận ba biến điều tiết giả thuyết giới hạn c
 
 Ba hạn chế giới hạn các suy luận có sẵn từ nghiên cứu này:
 
-**(a) Điều không thể kết luận:** (1) Nhóm con SIDS (*k* ≈ 5, CI rộng) không cho phép kết luận dứt khoát về giả thuyết "hình phạt cưỡng bức", cần một tìm kiếm có mục tiêu cho các nghiên cứu sơ cấp tập trung SIDS (như nêu trong Phụ lục B) trước khi các hiệu ứng SIDS phân tích tổng hợp đạt độ chính xác. (2) Điều tiết liên kết cDAI × ICRV (tương tác ba chiều) thiếu năng lực trong tập dữ liệu hiện tại (*k* mỗi ô < 20); ước lượng điểm được cung cấp nhưng khoảng tin cậy rộng. (3) Tất cả cỡ hiệu ứng là mặt cắt ngang hoặc bảng ở cấp nghiên cứu, không có hồi quy phân tích tổng hợp dọc nào có thể phân biệt hiệu ứng chọn lọc với lợi tức học hỏi nhân quả của quốc tế hóa.
+**(a) Điều không thể kết luận:** (1) Nhóm con SIDS (*k* = 0; không nghiên cứu sơ cấp quốc đảo nhỏ nào đạt tiêu chí đưa vào) không cho phép bất kỳ kiểm định nào về giả thuyết "hình phạt cưỡng bức", cần một tìm kiếm có mục tiêu cho các nghiên cứu sơ cấp tập trung SIDS (như nêu trong Phụ lục B) trước khi có thể ước lượng bất kỳ hiệu ứng SIDS phân tích tổng hợp nào. (2) Điều tiết liên kết cDAI × ICRV (tương tác ba chiều) thiếu năng lực trong tập dữ liệu hiện tại (*k* mỗi ô < 20); ước lượng điểm được cung cấp nhưng khoảng tin cậy rộng. (3) Tất cả cỡ hiệu ứng là mặt cắt ngang hoặc bảng ở cấp nghiên cứu, không có hồi quy phân tích tổng hợp dọc nào có thể phân biệt hiệu ứng chọn lọc với lợi tức học hỏi nhân quả của quốc tế hóa.
 
 **(b) Biện pháp khắc phục phương pháp cho công việc tương lai:** Phân tích tổng hợp bảng với cỡ hiệu ứng dọc từ dữ liệu doanh nghiệp riêng lẻ sẽ cho phép phân rã nhân quả (Sutton & Higgins, 2008). Hồi quy phân tích tổng hợp Bayes với tiên nghiệm cung cấp thông tin từ các nghiên cứu bảng cấp quốc gia của các nền kinh tế frontier sẽ siết chặt các ước lượng chế độ SIDS.
 

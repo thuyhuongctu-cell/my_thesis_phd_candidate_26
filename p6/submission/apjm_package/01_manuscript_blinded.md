@@ -265,6 +265,10 @@ Publication bias was assessed with Egger's regression (Egger et al., 1997), Begg
 K=288 rows, k=238 unique study IDs, updated 15/05/2026). ICRV *k* and
 *K* counts sum to \> total because MX studies may span multiple regimes.
 Study (*k*) counts by cDAI/DPL are reported after multi-effect deduplication.
+Within the combined Frontier/SIDS (FR) code, all *k* = 3 coded studies
+sample frontier economies and none sample a small-island developing state
+(SIDS *k* = 0); SIDS effects therefore cannot be estimated in the present
+corpus and are flagged as a targeted-search priority (Appendix B).
 
 ### 4.2 Baseline Three-Level Model
 
@@ -608,11 +612,11 @@ current sample sizes.
 
 Three limitations bound the inferences available from this study:
 
-**(a) What cannot be concluded:** (1) The SIDS subgroup (*k* ≈ 5, wide
-CI) does not permit definitive conclusions about the "forced-penalty"
-hypothesis, a targeted search for SIDS-focused primary studies (as
-specified in Appendix B) is required before meta-analytic SIDS effects
-are precise. (2) The cDAI × ICRV joint moderation (three-way
+**(a) What cannot be concluded:** (1) The SIDS subgroup (*k* = 0; no
+primary small-island study met inclusion) does not permit any test of the
+"forced-penalty" hypothesis, a targeted search for SIDS-focused primary
+studies (as specified in Appendix B) is required before any meta-analytic
+SIDS effect can be estimated. (2) The cDAI × ICRV joint moderation (three-way
 interaction) is underpowered in the current dataset (*k* per cell \<
 20); point estimates are provided but confidence intervals are wide. (3)
 All effect sizes are cross-sectional or panel at the study level, no
