@@ -180,6 +180,8 @@ Combs, J. G., Crook, T. R., & Shook, C. L. (2005). The dimensionality of organiz
 
 Combs, J. G., Ketchen, D. J., Crook, T. R., & Roth, P. L. (2011). Assessing cumulative evidence within "macro" research: Why meta-analysis should be preferred over vote counting. *Journal of Management Studies, 48*(1), 178–197. https://doi.org/10.1111/j.1467-6486.2009.00899.x
 
+Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
+
 Contractor, F. J. (2012). Why do multinational firms exist? A theory note about the effect of multinational expansion on performance and recent methodological critiques. *Global Strategy Journal, 2*(4), 318–331. https://doi.org/10.1111/j.2042-5805.2012.01043.x
 
 Cooper, H. (2010). *Research synthesis and meta-analysis: A step-by-step approach* (4th ed.). Sage.
@@ -292,6 +294,8 @@ Hilmersson, M. (2014). Small and medium-sized enterprise internationalisation st
 
 Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal, 40*(4), 767–798. https://doi.org/10.2307/256948
 
+Hitt, M. A., Tihanyi, L., Miller, T., & Connelly, B. (2006). International diversification: Antecedents, outcomes, and moderators. *Journal of Management, 32*(6), 831–867. https://doi.org/10.1177/0149206306293575
+
 Hojnik, J., Ruzzier, M., & Konecnik Ruzzier, M. (2018). Internationalisation and economic performance: The mediating role of innovation. *Economics Research-Ekonomska Istraživanja, 31*(1), 1770–1789. https://doi.org/10.1080/1331677X.2018.1504673
 
 Hosseini, M., Brege, S., & Nord, T. (2018). A combined focused industry and company size investigation of the internationalization-performance relationship: The case of small and medium-sized enterprises (SMEs) within the Swedish wood manufacturing industry. *Forest Policy and Economics*. https://doi.org/10.1016/j.forpol.2018.09.013
@@ -303,6 +307,8 @@ Hsu, M.-L., & Boggs, D. J. (2003). Internationalization and performance: Traditi
 Hsu, W. T., Chen, H. L., & Cheng, C. Y. (2013). Internationalization and firm performance of SMEs: The moderating effects of CEO attributes. *Journal of World Business, 48*(1), 1–12. https://doi.org/10.1016/j.jwb.2012.06.001
 
 Huang, L., & Marciano, D. (2020). Interdependence relationship of internationalization-performance in manufacturing firms listed in Indonesia Stock Exchange and Chinese Stock Exchanges. In *Proceedings of the 17th International Symposium on Management (INSYMA 2020)*. https://doi.org/10.2991/aebmr.k.200127.085
+
+Hunter, J. E., & Schmidt, F. L. (2004). *Methods of meta-analysis: Correcting error and bias in research findings* (2nd ed.). Sage.
 
 Hymer, S. H. (1976). *The international operations of national firms: A study of direct foreign investment*. MIT Press.
 
@@ -457,6 +463,8 @@ Pangarkar, N. (2008). Internationalization and performance of small- and medium-
 Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866. https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
 
 Pattnaik, C., & Elango, B. (2009). The impact of firm resources on the internationalization and performance relationship: A study of Indian manufacturing firms. *Multinational Business Review, 17*(2), 69–90. https://doi.org/10.1108/1525383X200900012
+
+Peng, M. W. (2001). The resource-based view and international business. *Journal of Management, 27*(6), 803–829. https://doi.org/10.1177/014920630102700604
 
 Peng, M. W. (2003). Institutional transitions and strategic choices. *Academy of Management Review, 28*(2), 275–296. https://doi.org/10.5465/amr.2003.9416341
 
