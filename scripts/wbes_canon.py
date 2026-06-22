@@ -64,11 +64,16 @@ def parse(path: str):
     country = canon_country(name[:m.start()])
     if country is None:
         return None
-    suffix = re.sub(r"[^a-z]", "", name[m.start():].lower())
+    # Drop the sample-size annotation (e.g. "-N2700" in "...full-ES-N2700-data")
+    # before tokenising; otherwise "ES-N####" collapses to "esn", which both
+    # breaks the contiguous "fulldata" test and spuriously matches the
+    # _NONSTANDARD "esn" instrument tag, dropping a valid full cross-section.
+    tail = re.sub(r"[-_]n\d+", "", name[m.start():].lower())
+    suffix = re.sub(r"[^a-z]", "", tail)
     panel = len(years) > 1                                # multi-wave panel file
     year = int(years[0])
     # pre-2006 WBES used a non-comparable questionnaire; excluded by scope rule
-    standard = ("fulldata" in suffix) and year >= MIN_YEAR \
+    standard = ("full" in suffix and "data" in suffix) and year >= MIN_YEAR \
         and not any(t in suffix for t in _NONSTANDARD)
     return {"country": country, "year": year,
             "standard": standard, "panel": panel}

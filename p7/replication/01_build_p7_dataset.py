@@ -402,9 +402,13 @@ def main():
         return NAME_MAP.get(key, key), int(m.group(0))
 
     def is_panel_filename(fpath: Path) -> bool:
-        """True when stem contains two separate 4-digit years."""
+        """True when stem contains two separate 19xx/20xx year tokens.
+
+        Match only real year tokens (19xx/20xx) so a sample-size annotation
+        such as the "N2700" in "China-2012-full-ES-N2700-data" is not misread
+        as a second year and the file wrongly treated as a multi-wave panel."""
         stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-        years = re.findall(r"\d{4}", stem)
+        years = re.findall(r"(?:19|20)\d{2}", stem)
         return len(years) >= 2
 
     # Find all .dta files (raw-dir preferred; fall back to uploads).
