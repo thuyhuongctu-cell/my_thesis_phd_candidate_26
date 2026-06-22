@@ -16,9 +16,9 @@
 | 3 | TCI Trung Quốc 2012: thân luận án ghi "+0,26" vs bài P5 "+0,28" | 🟡 Nhẹ | ✅ **Đã sửa → +0,28** (ch4:668, ch5:139) |
 | 4 | ~~H1c vắng trong Bảng 2.2~~ → **KHÔNG phải lỗi**: H1c là giả thuyết con (lồng dưới H1/H6), cố ý không nằm trong Bảng 2.2 theo ghi chú `ch2:314` | ⚪ Bác bỏ flag | ✅ Đã rà lại — đúng thiết kế |
 | 5 | Tiêu đề ch5 §5.1.2 "Xác nhận H2" mâu thuẫn chính thân bài ("một phần") và ch4 §4.11 | 🟠 Trung bình | ✅ **Đã sửa → "Xác nhận một phần H2"** |
-| 5b | Tiêu đề ch5 §5.1.1 "Xác nhận H5" vs ch4 §4.11 "Xác nhận một phần" (E1a/E1b chưa xác nhận, k=3 Frontier) | 🟠 Trung bình | ⏳ **Cần NCS quyết** (xem dưới) |
-| 6 | H6 chỉ kết luận ở ch4 §4.11, không nhắc lại trong ch5 | 🟡 Nhẹ | ⏳ Đề xuất |
-| 7 | Bảng 2.1 / Bảng 2.2 đánh số ngược thứ tự xuất hiện (ch2 §2.5.8–2.5.9) | 🟡 Nhẹ | ⏳ Đề xuất |
+| 5b | Tiêu đề ch5 §5.1.1 "Xác nhận H5" vs ch4 §4.11 "Xác nhận một phần" | 🟠 Trung bình | ✅ **Đã sửa → "một phần"** (rà soát kết quả thực P6/P7, xem §10) |
+| 6 | H6 chỉ kết luận ở ch4 §4.11, không nhắc lại trong ch5 | 🟡 Nhẹ | ✅ **Đã thêm đoạn H6 vào ch5 §5.1.6** |
+| 7 | Bảng 2.1 / Bảng 2.2 đánh số ngược thứ tự xuất hiện (ch2 §2.5.8–2.5.9) | 🟡 Nhẹ | ✅ **Đã hoán đổi** (2.1=giả thuyết, 2.2=ánh xạ) |
 | 8 | **4 trích dẫn mồ côi** (ch1–3 có trong văn nhưng thiếu mục tài liệu): Contractor et al. 2003, Hitt et al. 2006, Hunter & Schmidt 2004, Peng 2001 | 🟠 Trung bình | ✅ **Đã bổ sung 4 mục vào `04_references_apa7.md`** |
 
 **Kết luận chung:** Bộ số kinh tế lượng cốt lõi (điểm uốn P3/P4/P5/P7/P9/P10, hệ số TCI/DAI,
@@ -194,3 +194,30 @@ Mason 1984, Teece 1997, Johanson & Vahlne 1977, Haans 2016, Pisani 2020, Kafouro
 đều có mục đúng năm. Định nghĩa biến (FSTS=d3b+d3c đa quốc gia / d3c đơn quốc gia; DAI Tầng 1/2;
 ICRV 6 chế độ), đặc tả mô hình P7 (M1–M10, M2 N=81.022 / M5 N=79.080) và mọi số xem trước ở Chương 1
 đều **nhất quán** với Chương 4–5.
+
+---
+
+## 10. ✅ H5 — chốt verdict bằng rà soát kết quả thực (P6 MARA + P7)
+
+Theo yêu cầu "rà soát kết quả .dta thực tế trước khi quyết", đã đối chiếu trực tiếp output thật:
+
+**P6 MARA** (`p6/p6_meta_manuscript_en.md:328,344–346,434,470`):
+- Lõi H5 — **xác nhận**: $Q_M = 17{,}35$, $df=4$, $p={,}002$ → cỡ ảnh hưởng khác nhau giữa các chế độ.
+- Định hướng E1a/E1b — **KHÔNG xác nhận**: ý nghĩa $Q_M$ do **nhóm Frontier $k=3$** (chi phối bởi
+  1 nghiên cứu ngoại lai Pouresmaeili 2018, $r=0{,}69$). Tương phản giữa các nhóm đông (I, II, III,
+  MX) **đều không có ý nghĩa**; khoảng cách Advanced–Emerging 0,079 vs 0,069 không ý nghĩa. Manuscript
+  còn khuyến cáo chính sách rằng gradient thể chế "không được xác nhận meta-analytically".
+
+**P7** (`p7/replication/results/p7_R_turning_points.csv`): gradient điểm uốn theo ICRV là **ba vùng
+phi đơn điệu** (chữ U ngược sắc ở vùng giữa → duỗi thẳng biên trên → mất cấu trúc/U ở SIDS), không
+phải dốc đơn điệu "mạnh ở yếu → giảm ở tiên tiến" như H5 phát biểu.
+
+**→ Kết luận:** bằng chứng thực ủng hộ **Phương án (a)** — verdict đúng là **"Xác nhận một phần H5"**.
+Phương án (b) (nâng lên "Xác nhận" đầy đủ) sẽ **mâu thuẫn chính kết luận của bài P6**, nên bị loại.
+Đã sửa ch5 §5.1.1 (tiêu đề + đoạn mở) xuống "một phần" kèm giải thích E1a/E1b & ba-vùng, khớp ch4 §4.11.
+
+*Ghi chú phụ phát hiện khi rà:* `p7_R_turning_points.csv` (v1 không-FE) và `_v2` (FE theo nhóm) cho
+điểm uốn per-ICRV **lệch nhau khá lớn** (vd Upper_mid 5,5% vs 42,9%; Emerging 43,9% vs 59,2%;
+Advanced_innovation 56,6% vs 73,9%). Thân luận án dùng các con số đã chốt riêng (Nhóm IV 43,0%,
+Nhóm I ngoài miền); nên khi rebuild authoritative, cần nêu rõ **đặc tả nào** (FE hay không) là nguồn
+chính cho phổ điểm uốn per-nhóm để tránh người đọc đối chiếu nhầm sang bản v1/v2.

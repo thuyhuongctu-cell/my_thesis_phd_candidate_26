@@ -273,9 +273,9 @@ Việc kiểm định H6 đòi hỏi phân biệt hai khả năng đối lập v
 
 ### 2.5.8 Tổng hợp hệ giả thuyết
 
-Bảy giả thuyết nêu trên được tổng hợp trong Bảng 2.2, làm rõ với mỗi giả thuyết bốn yếu tố: phát biểu tóm tắt, dấu kỳ vọng của hệ số, cơ sở lý thuyết nền và biến đo lường cùng kiểm định tương ứng. Cách trình bày này bảo đảm mỗi giả thuyết đều được suy ra từ lý thuyết (không phải rút ra từ quan sát thực nghiệm) và đều gắn với một thao tác kiểm định cụ thể trong Chương 3 và Chương 4. Ba giả thuyết điều tiết H2, H3, H5 cùng vận hành trên một đường quan hệ chính (H1), tương ứng ba tầng của khung CDCM; H1b là điều kiện biên của H1 tại nhóm thể chế yếu nhất; H4 và H6 bổ sung tầng cá nhân và chiều thời gian.
+Bảy giả thuyết nêu trên được tổng hợp trong Bảng 2.1, làm rõ với mỗi giả thuyết bốn yếu tố: phát biểu tóm tắt, dấu kỳ vọng của hệ số, cơ sở lý thuyết nền và biến đo lường cùng kiểm định tương ứng. Cách trình bày này bảo đảm mỗi giả thuyết đều được suy ra từ lý thuyết (không phải rút ra từ quan sát thực nghiệm) và đều gắn với một thao tác kiểm định cụ thể trong Chương 3 và Chương 4. Ba giả thuyết điều tiết H2, H3, H5 cùng vận hành trên một đường quan hệ chính (H1), tương ứng ba tầng của khung CDCM; H1b là điều kiện biên của H1 tại nhóm thể chế yếu nhất; H4 và H6 bổ sung tầng cá nhân và chiều thời gian.
 
-**Bảng 2.2.** *Tổng hợp hệ giả thuyết nghiên cứu: phát biểu, dấu kỳ vọng, cơ sở lý thuyết và biến kiểm định.*
+**Bảng 2.1.** *Tổng hợp hệ giả thuyết nghiên cứu: phát biểu, dấu kỳ vọng, cơ sở lý thuyết và biến kiểm định.*
 
 | Giả thuyết | Phát biểu tóm tắt | Dấu kỳ vọng | Cơ sở lý thuyết | Biến / kiểm định |
 |---|---|---|---|---|
@@ -293,9 +293,9 @@ Bảy giả thuyết nêu trên được tổng hợp trong Bảng 2.2, làm rõ
 
 ### 2.5.9 Ánh xạ giả thuyết và các nghiên cứu thành phần
 
-Luận án được phát triển gắn với một chuỗi nghiên cứu thành phần (ký hiệu P1–P10 và một chương sách), mỗi nghiên cứu kiểm định một phần của hệ giả thuyết H1–H6 và điều kiện biên H1b trong một bối cảnh thể chế cụ thể. Bảng 2.1 ánh xạ các nghiên cứu thành phần với mục trình bày kết quả và các giả thuyết tương ứng.
+Luận án được phát triển gắn với một chuỗi nghiên cứu thành phần (ký hiệu P1–P10 và một chương sách), mỗi nghiên cứu kiểm định một phần của hệ giả thuyết H1–H6 và điều kiện biên H1b trong một bối cảnh thể chế cụ thể. Bảng 2.2 ánh xạ các nghiên cứu thành phần với mục trình bày kết quả và các giả thuyết tương ứng.
 
-**Bảng 2.1.** *Ánh xạ nghiên cứu thành phần, mục trình bày, giả thuyết.*
+**Bảng 2.2.** *Ánh xạ nghiên cứu thành phần, mục trình bày, giả thuyết.*
 
 | Nghiên cứu thành phần | Bối cảnh (nhóm ICRV) | Trình bày tại | Giả thuyết kiểm định |
 |---|---|---|---|
@@ -321,4 +321,4 @@ Phần đầu chương xác lập bốn khái niệm cốt lõi: quốc tế hó
 
 Tổng quan thực nghiệm cho thấy tài liệu về quan hệ quốc tế hóa và hiệu quả đã phát triển qua ba giai đoạn, từ tuyến tính dương đến phi tuyến đến tập trung vào các biến điều tiết; các phân tích tổng hợp nhất quán cho thấy tác động gộp là dương nhưng nhỏ với mức dị biệt cao ($I^2$ trên 80% ở các tổng hợp trước, $62{,}4\%$ ở phân tích tổng hợp cập nhật P6), đòi hỏi cách tiếp cận lấy biến điều tiết làm trung tâm; và bối cảnh châu Á, đặc biệt là các nền kinh tế biên thể chế yếu và các nền đảo nhỏ, đang thiếu đại diện nghiêm trọng trong tài liệu. Phần này cũng ghi nhận làn sóng nhân rộng quy mô lớn gần đây vốn đặt câu hỏi về tính phổ quát của dạng hàm, qua đó củng cố luận điểm rằng chính dị biệt bối cảnh, chứ không phải một quy luật hàm phổ quát, mới chi phối kết quả.
 
-Ba khoảng trống được xác định: thiếu khung tích hợp đa tầng, sự đồng nhất không hợp lý giữa TCI và DAI, và thiếu bằng chứng đa quốc gia quy mô lớn có cấu trúc cho châu Á. Để lấp đầy ba khoảng trống này, luận án đề xuất khung CDCM và phát triển sáu giả thuyết trọng tâm (H1 đến H6) cùng điều kiện biên H1b, bao phủ phi tuyến cơ bản, vai trò của TCI và DAI, vai trò của đặc điểm nhà quản trị, vai trò của thể chế ICRV, và dị biệt thời gian. Mỗi giả thuyết được neo vào một hoặc nhiều nghiên cứu thành phần và một bối cảnh thể chế cụ thể, như Bảng 2.1 trình bày, để bảo đảm rằng khung lý thuyết được kiểm định trên toàn bộ phổ thể chế của khu vực chứ không chỉ ở một bối cảnh đơn lẻ. Chương 3 sẽ trình bày thiết kế phương pháp và chiến lược kiểm định hệ giả thuyết này.
+Ba khoảng trống được xác định: thiếu khung tích hợp đa tầng, sự đồng nhất không hợp lý giữa TCI và DAI, và thiếu bằng chứng đa quốc gia quy mô lớn có cấu trúc cho châu Á. Để lấp đầy ba khoảng trống này, luận án đề xuất khung CDCM và phát triển sáu giả thuyết trọng tâm (H1 đến H6) cùng điều kiện biên H1b, bao phủ phi tuyến cơ bản, vai trò của TCI và DAI, vai trò của đặc điểm nhà quản trị, vai trò của thể chế ICRV, và dị biệt thời gian. Mỗi giả thuyết được neo vào một hoặc nhiều nghiên cứu thành phần và một bối cảnh thể chế cụ thể, như Bảng 2.2 trình bày, để bảo đảm rằng khung lý thuyết được kiểm định trên toàn bộ phổ thể chế của khu vực chứ không chỉ ở một bối cảnh đơn lẻ. Chương 3 sẽ trình bày thiết kế phương pháp và chiến lược kiểm định hệ giả thuyết này.
