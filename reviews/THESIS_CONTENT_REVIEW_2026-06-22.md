@@ -261,3 +261,33 @@ thêm China-2012. Các nhóm khác không đổi.
    49/50 trên toàn luận án.
 3. Headline pool **96.415/52** vẫn là số master-file (không tái lập từ script LP-valid) — giữ làm
    pool phân loại, nhưng nếu cần con số tái lập được thì phải chạy bước phân loại trên master file.
+
+---
+
+## 12. ✅ Đồng bộ CĐ1 + chốt quy ước Timor (2026-06-22, lượt 3)
+
+Theo chỉ đạo "triển khai đồng bộ; P7 giữ Timor, P8 bỏ Timor":
+
+**Quy ước Timor đã chốt & ghi rõ:** khung mô tả/P7 **GIỮ** Timor-Leste trong Nhóm VI (SIDS = 8 nền,
+LP-valid 1.916); nghiên cứu chuyên sâu **P8 LOẠI** Timor (7 nền Pacific, n=1.781). Đây đúng là cách
+script canonical đã chạy; đã sửa docstring `relock_descriptives_canonical.py` (trước ghi nhầm "Timor
+excluded") cho khớp thực tế.
+
+**Đã đồng bộ CĐ1** (`chuyen_de/cd1/00_cd1_ctu_final_vi.md`) sang **cùng vintage** với thesis Bảng
+4.1/4.2:
+- **Bảng 2.3.2.1** (chính) + **Bảng A.1** (phụ lục): cột N → LP-valid (5.688 / 2.082 / 15.174 /
+  42.798 / 16.387 / 1.916; tổng **84.045**); Nhóm VI bổ sung **Timor-Leste** (trước thiếu ở bảng
+  chính); đợt khảo sát Nhóm III 17→18 (China-2012), Nhóm V 40→39 (Azerbaijan không dữ liệu).
+- **Bảng 2.3.4.1** (%): Nhóm III ISO 25,4→31,4 / website 53,9→56,9; Nhóm V đổi mới quy trình
+  16,3→16,4 / ISO 12,7→12,6 / website 40,9→40,6 — khớp thesis Bảng 4.2.
+- Văn xuôi phân bố (§2.3.3) + caption hình + ghi chú SIDS (2.295→1.916) căn theo LP-valid.
+- Note bảng nêu rõ thứ bậc khung (96.415/52 ⊇ 88.869/50 ⊇ 84.045/49 ⊇ 81.022) + quy ước Timor.
+
+**Trạng thái:** thesis ↔ CĐ1 ↔ CSV canonical nay **cùng MỘT vintage** (gồm China-2012), tái lập được
+từ `scripts/relock_descriptives_canonical.py`. "88.869/50" giữ vai trò **pool mô tả/khung phân tích**
+(narrative), còn các bảng phân rã per-nhóm dùng **LP-valid 84.045/49** (tái lập được) — quan hệ tập
+con đã ghi chú minh bạch.
+
+**Lưu ý còn mở (nhẹ):** nếu cần con số phân rã đúng cho khung 88.869/50 (không phải LP-valid) hoặc
+bổ sung Azerbaijan, phải có lát cắt thô Azerbaijan + chạy bước phân loại trên master file — nằm ngoài
+subset committed.

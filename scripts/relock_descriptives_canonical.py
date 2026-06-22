@@ -4,14 +4,17 @@ tables (thesis Table 4.1/4.2, CĐ1 Bảng 2.3.3.1-2.3.6).
 
 Design goal: every descriptive number is reproducible from the committed raw
 `.dta` using the SAME harmonisation as the P7 econometric pipeline, so the
-descriptive frame and the regression frame are identical (49 economies incl.
-Japan, Timor-Leste excluded per WB/UN). This eliminates the multiple conflicting
+descriptive frame and the regression frame are identical (49 economies with
+committed raw data, incl. Japan and Timor-Leste; Timor-Leste is KEPT in Group VI
+for the P7/descriptive frame — only the dedicated P8 SIDS study excludes it via
+PACIFIC7. The 50th economy, Azerbaijan (Group V), has no committed raw
+cross-section). This eliminates the multiple conflicting
 "vintages" (SIDS counts of 1,781 / 1,916 / 2,038 / 2,295 / 2,809 across older
 scripts) by deriving one coherent set.
 
 Harmonisation (mirrors dist/osf/P7_capstone/code/p7_run_50econ.py):
   - file selection: standard cross-sections, year >= 2006, in ICRV frame,
-    one cross-section per economy-year (dedup); icrv_map() now excludes Timor.
+    one cross-section per economy-year (dedup); icrv_map() KEEPS Timor in Grp VI.
   - LP    = ln(d2/l1), winsorised 1/99 WITHIN economy-year
   - dispersion = sd / P90/P10 / P75/P25 of LP demeaned WITHIN economy-year
     (Hsieh-Klenow), then aggregated across the group's firm-years

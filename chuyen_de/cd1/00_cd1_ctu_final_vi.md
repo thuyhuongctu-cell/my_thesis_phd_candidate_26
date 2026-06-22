@@ -210,7 +210,7 @@ Trong bối cảnh đó, hệ thống thông tin về hiệu quả hoạt độn
 
 > **Ghi chú nhất quán nhãn nhóm:** Nhãn nhóm và danh sách thành viên trong Mục 2.1.3 và Bảng 2.3.2.1 thống nhất với biến phân loại `icrv_label` của bộ dữ liệu ước lượng (P7) và Chuyên đề 2: Nhóm IV = `Lower_mid_transition` (7 nền đông dân), Nhóm V = `Emerging` (17 nền), Nhóm VI = `SIDS_small` (8 nền). Mẫu gộp mô tả phủ **đủ 50/50 nền**: Nhóm I 6/6 (gồm Nhật Bản), II 6/6 (đủ khối GCC), III 6/6, IV 7/7, V 17/17 (gồm Lebanon, Yemen), VI 8/8 (7 Pacific + Timor-Leste).
 
-**B. Trường hợp biên mở rộng, Nhóm VI SIDS (8 nền, n=2.295, 2,6% mẫu gộp)**: Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati (2025) và Timor-Leste. Mẫu chính của nghiên cứu chuyên sâu SIDS là 7 nền Thái Bình Dương (n=1.781).
+**B. Trường hợp biên mở rộng, Nhóm VI SIDS (8 nền, n=1.916 LP-valid, 2,3% mẫu gộp)**: Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati (2025) và Timor-Leste. Mẫu chính của nghiên cứu chuyên sâu SIDS (P8) là 7 nền Thái Bình Dương, **loại Timor-Leste** (n=1.781).
 
 **Phạm vi thời gian**: **2006–2026** (19 năm khảo sát, 103 cặp nền kinh tế × năm). Ba thế hệ lược đồ WBES trong mẫu gộp mô tả: PICS3/tiền-Standardized (2006–2012, 18 đợt, n=8.048), Standardized (2013–2017, 27 đợt, n=23.940), BREADY/BEE/EAP Core (2018–2026, 57 đợt, n=54.713, chiếm 63,1% mẫu gộp).
 
@@ -401,7 +401,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ph
 
 **Nhóm V, Đang nổi (Emerging)**: WGI Rule of Law < -0,50 hoặc khoảng trống thể chế lớn; GNI bình quân đầu người phần lớn <3.000 USD; gồm nhiều nền đang qua giai đoạn xung đột hoặc chuyển đổi sau xung đột. Khuôn mẫu WBES: phân tán năng suất trong đợt cao nhất (sd ~1,39; P90/P10 ~30 lần), nhưng đổi mới sản phẩm khá cao (đổi mới bằng nguồn lực hạn chế).
 
-**Nhóm VI, SIDS Thái Bình Dương (Trường hợp biên mở rộng)**: Dân số <1 triệu; cô lập địa lý >2.000 km từ hub thương mại; phụ thuộc ODA + remittances > 20% GDP; mô hình MIRAB (Bertram, 2006). Khuôn mẫu WBES: n=2.295 (2,6% mẫu gộp); FDI cao nhất (20,0%, do MNE du lịch/viễn thông); đổi mới sản phẩm cao nhất (34,2%, đổi mới bằng nguồn lực hạn chế); website khá cao ngoại trừ Kiribati (18,7%).
+**Nhóm VI, SIDS Thái Bình Dương (Trường hợp biên mở rộng)**: Dân số <1 triệu; cô lập địa lý >2.000 km từ hub thương mại; phụ thuộc ODA + remittances > 20% GDP; mô hình MIRAB (Bertram, 2006). Khuôn mẫu WBES: n=1.916 (2,3% mẫu gộp, LP-valid, gồm Timor-Leste); FDI cao nhất (20,0%, do MNE du lịch/viễn thông); đổi mới sản phẩm cao nhất (34,2%, đổi mới bằng nguồn lực hạn chế); website khá cao ngoại trừ Kiribati (18,7%).
 
 #### 2.3.2.3 Danh sách 50 nền kinh tế theo nhóm ICRV (căn theo nhãn dữ liệu)
 
@@ -409,15 +409,15 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ph
 
 | Nhóm ICRV (icrv_label) | Tên nhóm | Quốc gia | N doanh nghiệp |
 |---|---|---|:--:|
-| **I** (`Advanced_innovation`) | Advanced, đổi mới sáng tạo | Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel, **Nhật Bản** | 6.390 |
-| **II** (`Advanced_resource`) | Advanced, tài nguyên | Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei, Oman | 2.231 |
-| **III** (`Upper_mid`) | Trung bình cao | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia | 13.993 |
-| **IV** (`Lower_mid_transition`) | Chuyển đổi thu nhập trung bình–thấp | Việt Nam, Ấn Độ, Indonesia, Philippines, Mông Cổ, Bangladesh, Pakistan | 45.003 |
-| **V** (`Emerging`) | Đang nổi | Sri Lanka, Jordan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Azerbaijan, Iraq, Lebanon, Yemen (17 nước) | 18.589 |
-| **VI** (`SIDS_small`) | SIDS (trường hợp biên) | Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu | 1.781 |
-| **Tổng** | | **50 nền kinh tế** | **88.869** (mẫu gộp mô tả) |
+| **I** (`Advanced_innovation`) | Advanced, đổi mới sáng tạo | Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel, **Nhật Bản** | 5.688 |
+| **II** (`Advanced_resource`) | Advanced, tài nguyên | Saudi Arabia, Qatar, Kuwait, Bahrain, Brunei, Oman | 2.082 |
+| **III** (`Upper_mid`) | Trung bình cao | Trung Quốc, Malaysia, Thái Lan, Kazakhstan, Armenia, Georgia | 15.174 |
+| **IV** (`Lower_mid_transition`) | Chuyển đổi thu nhập trung bình–thấp | Việt Nam, Ấn Độ, Indonesia, Philippines, Mông Cổ, Bangladesh, Pakistan | 42.798 |
+| **V** (`Emerging`) | Đang nổi | Sri Lanka, Jordan, Lào, Campuchia, Myanmar, Nepal, Bhutan, Maldives, Uzbekistan, Tajikistan, Kyrgyzstan, Turkmenistan, Afghanistan, Azerbaijan, Iraq, Lebanon, Yemen (17 nước) | 16.387 |
+| **VI** (`SIDS_small`) | SIDS (trường hợp biên) | Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu, **Timor-Leste** | 1.916 |
+| **Tổng** | | **49 nền (LP-valid)** | **84.045** (khung mô tả tái lập) |
 
-*Ghi chú: Cột N là số doanh nghiệp trong mẫu gộp mô tả (88.869 DN / 50 nền kinh tế / 103 cặp nền × năm). Nhật Bản được WBES khảo sát lần đầu năm 2025 (n=2.168) và là thành viên đầy đủ của Nhóm I. Nhãn nhóm theo biến phân loại `icrv_label`, dùng thống nhất trong luận án và hai chuyên đề. SIDS: mẫu chính của nghiên cứu chuyên sâu SIDS là 7 nền Pacific; kiểm định bền vững mở rộng 9 nền. Khung ước lượng đa quốc gia của luận án (P7) được chạy trên bộ dữ liệu 50 nền/88.869 quan sát gồm Nhật Bản (mẫu gộp phân loại 96.415 / 52 nền); vòng tái ước lượng 50 nền đã hoàn tất nên mô tả và ước lượng nay dùng chung MỘT khung 50 nền (hồi quy M2 N=81.022; M5 N=79.080).*
+*Ghi chú: Cột N là số doanh nghiệp có **năng suất lao động hợp lệ (LP-valid)**, tái lập trực tiếp từ dữ liệu thô bằng `scripts/relock_descriptives_canonical.py` (cùng quy trình hài hòa hóa với pipeline P7, đã gồm China-2012). Tổng 84.045 trên 49 nền có dữ liệu thô (Azerbaijan ở Nhóm V chưa có lát cắt thô trong subset committed nên đóng góp 0; khung phân loại vẫn liệt kê đủ 50 nền). **Quy ước Timor-Leste:** thuộc Nhóm VI ở khung mô tả và khung ước lượng đa quốc gia P7 (giữ Timor); riêng nghiên cứu chuyên sâu SIDS (P8) dùng 7 nền Thái Bình Dương và **loại** Timor-Leste. Nhật Bản được WBES khảo sát lần đầu năm 2025 (n=2.168), thành viên đầy đủ Nhóm I. Thứ bậc khung: pool phân loại 96.415/52 nhãn ⊇ khung phân tích đa quốc gia 88.869/50 nền ⊇ khung mô tả LP-valid 84.045/49 nền ⊇ mẫu hồi quy P7 M2 81.022 (M5 79.080). Nhãn nhóm theo biến `icrv_label`, dùng thống nhất trong luận án và hai chuyên đề.*
 
 #### 2.3.2.4 Đặc điểm các nhóm ICRV
 
@@ -440,7 +440,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ph
 
 #### 2.3.3.1 Nguồn dữ liệu và cấu trúc mẫu gộp
 
-**Phạm vi tổng hợp dữ liệu**. Mẫu gộp mô tả gồm **88.869 doanh nghiệp**, 50 nền kinh tế, **103 cặp nền kinh tế × năm**, giai đoạn 2006–2026 (bao gồm Kiribati 2025, đợt khảo sát WBES đầu tiên của nền kinh tế này). Tổng hợp này kế thừa và mở rộng từ mẫu gộp 17 nền châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026, VEFR), gấp hơn 2 lần. Phân bố theo nhóm ICRV: Nhóm IV Chuyển đổi TB-thấp 45.003 (50,6%), Nhóm V Đang nổi 18.589 (21,3%), Nhóm III Trung bình cao 13.993 (15,7%), Nhóm I Advanced đổi mới 6.390 (7,2%), Nhóm VI SIDS 1.781 (2,0%), Nhóm II Advanced tài nguyên 2.231 (2,5%). Có **13 nền kinh tế khảo sát năm 2025** với 16.880 doanh nghiệp (19,0% mẫu gộp, gồm Nhật Bản, đợt khảo sát đầu tiên, n=2.168); đợt khảo sát Nepal 2025 dùng bảng hỏi BREADY Micro (doanh nghiệp siêu nhỏ), không phải lát cắt ngang chuẩn nên không thuộc mẫu gộp, chỉ được nhắc đến như tham chiếu.
+**Phạm vi tổng hợp dữ liệu**. Khung mô tả tái lập (LP-valid) gồm **84.045 doanh nghiệp có năng suất hợp lệ**, 49 nền kinh tế có dữ liệu thô, **103 cặp nền kinh tế × năm**, giai đoạn 2006–2026 (bao gồm Kiribati 2025, đợt khảo sát WBES đầu tiên của nền kinh tế này); khung này thuộc khung phân tích đa quốc gia 88.869/50 nền dùng cho P7. Tổng hợp này kế thừa và mở rộng từ mẫu gộp 17 nền châu Á mới nổi (~40.633 doanh nghiệp) của Đỗ & Phan (2026, VEFR), gấp hơn 2 lần. Phân bố theo nhóm ICRV: Nhóm IV Chuyển đổi TB-thấp 42.798 (50,9%), Nhóm V Đang nổi 16.387 (19,5%), Nhóm III Trung bình cao 15.174 (18,1%), Nhóm I Advanced đổi mới 5.688 (6,8%), Nhóm VI SIDS 1.916 (2,3%), Nhóm II Advanced tài nguyên 2.082 (2,5%). Có **13 nền kinh tế khảo sát năm 2025** với 16.880 doanh nghiệp (19,0% mẫu gộp, gồm Nhật Bản, đợt khảo sát đầu tiên, n=2.168); đợt khảo sát Nepal 2025 dùng bảng hỏi BREADY Micro (doanh nghiệp siêu nhỏ), không phải lát cắt ngang chuẩn nên không thuộc mẫu gộp, chỉ được nhắc đến như tham chiếu.
 
 ![Hình 2.3.3.1. Phân bố mẫu gộp mô tả theo 3 thế hệ lược đồ WBES.](figures/hinh_2_3_3_1.png)
 
@@ -448,7 +448,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ph
 
 ![Hình 2.3.3.2. Phân bố mẫu gộp theo 6 nhóm ICRV.](figures/hinh_2_3_3_2.png)
 
-*Hình 2.3.3.2. Bar chart phân bố theo 6 nhóm ICRV: IV Chuyển đổi TB-thấp (45.003, 50,6%), V Đang nổi (18.589, 21,3%), III Trung bình cao (13.993, 15,7%), I Advanced đổi mới (6.390, 7,2%), VI SIDS (1.781, 2,0%), II Advanced tài nguyên (2.231, 2,5%).*
+*Hình 2.3.3.2. Bar chart phân bố theo 6 nhóm ICRV (khung mô tả LP-valid 84.045): IV Chuyển đổi TB-thấp (42.798, 50,9%), V Đang nổi (16.387, 19,5%), III Trung bình cao (15.174, 18,1%), I Advanced đổi mới (5.688, 6,8%), VI SIDS (1.916, 2,3%), II Advanced tài nguyên (2.082, 2,5%).*
 
 **Trường hợp biên**: Nhóm VI đủ **8/8 nền SIDS** (FJI, PNG, SLB, TON, VUT, WSM, KIR, TLS). Quy trình hài hòa hóa: FSTS = `d3b + d3c`; winsorize log năng suất ở mức 1/99 phân vị trong cụm quốc gia × năm.
 
@@ -488,7 +488,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ph
 | V, Đang nổi | 10,6 | 18,8 | 4,5 |
 | VI, SIDS² | 6,7 | 14,7 | 5,3 |
 
-*Nguồn: tính từ dữ liệu vi mô WBES trên mẫu gộp mô tả 50 nền (FSTS = d3b + d3c; CAGR việc làm từ l1/l2 trên 3 năm tài khóa). ¹Nhóm II: đủ 6/6 nền GCC (Bahrain, Brunei, Kuwait, Oman, Qatar, Saudi Arabia). ²Nhóm VI: đủ 8/8 nền (7 Pacific + Timor-Leste; n=2.295).*
+*Nguồn: tính từ dữ liệu vi mô WBES trên mẫu gộp mô tả 50 nền (FSTS = d3b + d3c; CAGR việc làm từ l1/l2 trên 3 năm tài khóa). ¹Nhóm II: đủ 6/6 nền GCC (Bahrain, Brunei, Kuwait, Oman, Qatar, Saudi Arabia). ²Nhóm VI: đủ 8/8 nền (7 Pacific + Timor-Leste; n=1.916, LP-valid).*
 
 Trung vị FSTS bằng 0%, phân phối phân cực mạnh với chỉ khoảng 12–28% doanh nghiệp tham gia xuất khẩu tùy theo nhóm (cao nhất ở Nhóm I, thấp nhất ở Nhóm II). SIDS có tốc độ tăng trưởng việc làm hàng năm kép cao nhất (5,3%), phản ánh quy mô nhỏ và tăng trưởng từ nền thấp. Nhóm I và V có FSTS trung bình cao nhất (13,4% và 10,6%) nhưng cơ chế xuất khẩu khác nhau: Nhóm I chủ yếu dịch vụ và hàng hóa hàm lượng tri thức cao; các nhóm III–V chủ yếu sản xuất theo chuỗi giá trị toàn cầu.
 
@@ -518,12 +518,12 @@ WBES tổ chức các chỉ số doanh nghiệp thành **5 lĩnh vực chính th
 |---|---|---|---|---|---|
 | I, Adv. đổi mới | 26,9 | 18,8 | **21,0** | 32,5 | **69,2** |
 | II, Adv. tài nguyên¹ | 17,0 | 8,6 | 7,0 | 15,2 | 50,2 |
-| III, Trung bình cao | 26,7 | 18,9 | 21,5 | 25,4 | 53,9 |
+| III, Trung bình cao | 26,7 | 18,9 | 21,5 | 31,4 | 56,9 |
 | IV, Chuyển đổi TB-thấp | 17,1 | 14,7 | 15,5 | 25,3 | 48,3 |
-| V, Đang nổi | 24,4 | 16,3 | 17,5 | 12,7 | 40,9 |
+| V, Đang nổi | 24,4 | 16,4 | 17,5 | 12,6 | 40,6 |
 | VI, SIDS² | **34,2** | **24,7** | 10,2 | 12,2 | 41,5 |
 
-*Nguồn: tính từ dữ liệu vi mô WBES trên mẫu gộp mô tả 50 nền (biến h1/h5/h8/b8/c22b; mã 1=có, 2=không; mã âm = thiếu). ¹Nhóm II: đủ 6/6 nền GCC, đặc trưng dầu mỏ: R&D thấp (7,0%), nữ quản lý cấp cao rất thấp (4,6%), website 50,2%. ²Nhóm VI: đủ 8/8 nền, đổi mới sản phẩm cao nhất mọi nhóm (34,2%) và website 41,5%: khuôn mẫu "thích nghi và nhảy vọt số" của SIDS.*
+*Nguồn: tái lập từ dữ liệu vi mô WBES trên khung mô tả LP-valid 49 nền (canonical; biến h1/h5/h8/b8/c22b; mã 1=có, 2=không; mã âm = thiếu). ¹Nhóm II: đủ 6/6 nền GCC, đặc trưng dầu mỏ: R&D thấp (7,0%), nữ quản lý cấp cao rất thấp (4,6%), website 50,2%. ²Nhóm VI: đủ 8/8 nền, đổi mới sản phẩm cao nhất mọi nhóm (34,2%) và website 41,5%: khuôn mẫu "thích nghi và nhảy vọt số" của SIDS.*
 
 Với dữ liệu đầy đủ 8/8 nền Nhóm VI, SIDS thể hiện khuôn mẫu **thích nghi và nhảy vọt số** rõ nét: tỷ lệ đổi mới sản phẩm **cao nhất mọi nhóm (34,2%)** phản ánh đổi mới bằng nguồn lực hạn chế, sáng tạo không chính thức bù đắp thiếu hụt nguồn lực; website 41,5% ngang nhóm Đang nổi dù GNI thấp hơn đáng kể. Phổ năng lực thể chế vẫn rõ ở các biến nền tảng: R&D giảm từ 21,0% (Nhóm I) xuống 10,2% (Nhóm VI); ISO 32,5% rồi 12,2%; website 69,2% rồi 41,5%. Phân tách rõ TCI so với DAI, kế thừa Đỗ & Phan (2026, VEFR).
 
@@ -1084,17 +1084,17 @@ Xu, D. (2024). De jure versus de facto institutional distance. *Global Strategy 
 
 ### Phụ lục A: Phạm vi thực tế của mẫu gộp dữ liệu WBES
 
-**Bảng A.1**. *Phân bổ 50 nền kinh tế theo nhóm ICRV, mẫu gộp mô tả 88.869 doanh nghiệp, 103 cặp nền kinh tế × năm, 2006–2026.*
+**Bảng A.1**. *Phân bổ nền kinh tế theo nhóm ICRV — khung mô tả LP-valid tái lập 84.045 doanh nghiệp, 103 cặp nền kinh tế × năm, 2006–2026 (cột n đã gồm China-2012; Azerbaijan ở Nhóm V chưa có lát cắt thô).*
 
 | Nhóm ICRV | Nền kinh tế (năm khảo sát) | Đợt | n |
 |---|---|--:|--:|
-| **Nhóm I, Advanced đổi mới sáng tạo (6 nền)** | Hàn Quốc (2024), Israel (2013, 2024), Singapore (2023), Đài Loan (2024), Hong Kong SAR (2023), Nhật Bản (2025) | 7 | 6.390 |
-| **Nhóm II, Advanced tài nguyên (6 nền)** | Saudi Arabia (2025), Qatar (2025), Oman (2026), Bahrain (2024), Brunei (2025), Kuwait (2025) | 6 | 2.231 |
-| **Nhóm III, Trung bình cao (6 nền)** | Kazakhstan (2009, 2013, 2019, 2024), Malaysia (2015, 2019, 2024), Trung Quốc (2024), Thái Lan (2016, 2025), Armenia (2009, 2013, 2020, 2024), Georgia (2013, 2019, 2023) | 17 | 13.993 |
-| **Nhóm IV, Chuyển đổi TB-thấp (7 nền)** | Ấn Độ (2014, 2022, 2025), Indonesia (2009, 2015, 2023), Việt Nam (2009, 2015, 2023), Pakistan (2013, 2022), Bangladesh (2013, 2022), Mông Cổ (2009, 2013, 2019), Philippines (2023) | 17 | 45.003 |
-| **Nhóm V, Đang nổi (17 nền)** | Uzbekistan, Jordan, Lào, Iraq, Myanmar, Kyrgyzstan, Sri Lanka, Lebanon, Tajikistan, Campuchia, Afghanistan, Yemen, Bhutan, Nepal, Azerbaijan, Turkmenistan, Maldives (các đợt 2006–2025) | 40 | 18.589 |
-| **Nhóm VI, SIDS (8 nền)** | Timor-Leste (2009, 2015, 2021), Fiji (2009, 2025), Solomon Islands (2015, 2025), Tonga (2009, 2024), Samoa (2009, 2023), Vanuatu (2009, 2023), Papua New Guinea (2015, 2024), Kiribati (2025) | 16 | 1.781 |
-| **Tổng** | **50 nền kinh tế** | **103** | **88.869** |
+| **Nhóm I, Advanced đổi mới sáng tạo (6 nền)** | Hàn Quốc (2024), Israel (2013, 2024), Singapore (2023), Đài Loan (2024), Hong Kong SAR (2023), Nhật Bản (2025) | 7 | 5.688 |
+| **Nhóm II, Advanced tài nguyên (6 nền)** | Saudi Arabia (2025), Qatar (2025), Oman (2026), Bahrain (2024), Brunei (2025), Kuwait (2025) | 6 | 2.082 |
+| **Nhóm III, Trung bình cao (6 nền)** | Kazakhstan (2009, 2013, 2019, 2024), Malaysia (2015, 2019, 2024), Trung Quốc (2012, 2024), Thái Lan (2016, 2025), Armenia (2009, 2013, 2020, 2024), Georgia (2013, 2019, 2023) | 18 | 15.174 |
+| **Nhóm IV, Chuyển đổi TB-thấp (7 nền)** | Ấn Độ (2014, 2022, 2025), Indonesia (2009, 2015, 2023), Việt Nam (2009, 2015, 2023), Pakistan (2013, 2022), Bangladesh (2013, 2022), Mông Cổ (2009, 2013, 2019), Philippines (2023) | 17 | 42.798 |
+| **Nhóm V, Đang nổi (16 nền có dữ liệu)** | Uzbekistan, Jordan, Lào, Iraq, Myanmar, Kyrgyzstan, Sri Lanka, Lebanon, Tajikistan, Campuchia, Afghanistan, Yemen, Bhutan, Nepal, Turkmenistan, Maldives (Azerbaijan chưa có lát cắt thô; các đợt 2006–2025) | 39 | 16.387 |
+| **Nhóm VI, SIDS (8 nền)** | Timor-Leste (2009, 2015, 2021), Fiji (2009, 2025), Solomon Islands (2015, 2025), Tonga (2009, 2024), Samoa (2009, 2023), Vanuatu (2009, 2023), Papua New Guinea (2015, 2024), Kiribati (2025) | 16 | 1.916 |
+| **Tổng** | **49 nền (LP-valid)** | **103** | **84.045** |
 
 *Ghi chú: mỗi cặp nền kinh tế × năm lấy đúng một cross-section chuẩn WBES; loại các điều tra phi chính thức, siêu nhỏ (Micro) và panel mở rộng; chỉ nhận đợt khảo sát từ 2006 trở đi (bộ câu hỏi so sánh được toàn cầu). Nhật Bản 2025 (n=2.168) là thành viên đầy đủ của Nhóm I trong mẫu gộp mô tả. Khung ước lượng đa quốc gia của luận án (P7: 88.869 doanh nghiệp / 50 nền, gồm Nhật Bản; mẫu gộp phân loại 96.415 / 52 nền) được chạy theo quy trình tại Phụ lục A; vòng tái ước lượng 50 nền gồm Nhật Bản đã hoàn tất nên mô tả và ước lượng nay dùng chung MỘT khung 50 nền (hồi quy M2 N=81.022; M5 N=79.080).*
 
