@@ -46,14 +46,14 @@ This is the **only** item that genuinely blocks submission. Steps:
 - [ ] Title/abstract foreground **publication bias** as the primary contribution; moderator nulls framed as informative bounds, not confirmed effects (no over-claim of ICRV/cDAI/DPL).
 - [ ] Cover letter (`03_cover_letter.md`) updated with current framing.
 
-## 5. Cross-reference note (verify before submit)
-- [ ] The SIDS/Frontier sentences cite **"Appendix B"** for *targeted search strings* (lines ~914, 1236, 1312), but Appendix B in this manuscript is the **Coding Protocol** (line 1577); the actual supplementary search strings live in **OSF §6**. Either (i) change those three cross-refs to "OSF §6 / future-work protocol," or (ii) add a short "targeted Frontier/SIDS search strings" sub-section to an appendix. Recommended: (i) — minimal, accurate. *(Pre-existing wording; flagged here, not silently edited.)*
+## 5. Cross-reference note
+- [x] **RESOLVED (commit 5741740).** The three search-context sentences (Method note, Limitations (a), Frontier-expansion future-work) previously cited **"Appendix B"** for *targeted search strings*, but Appendix B is the **Coding Protocol**. Repointed to **"the OSF-registered search protocol"** across JWB/JIM/APJM (.md + .tex) and the Vietnamese version. Legitimate coding-protocol references to Appendix B left untouched.
 
 ---
 
 ## 6. Downstream (JIM, APJM — next rungs of the ladder)
 Same ICR gate (6 unfilled cells each). Additional:
-- [ ] **APJM** manuscript states OSF registration but **omits the DOI** — add `10.17605/OSF.IO/Z37KN` to APJM Methods + data-availability before its turn.
+- [x] **RESOLVED (commit 5741740).** APJM previously omitted the OSF DOI while asserting OSF registration — `10.17605/OSF.IO/Z37KN` now added to APJM Methods + Data Availability (.md + .tex), matching JWB/JIM.
 - [ ] JIM = APA 7; APJM (Emerald) = Harvard — confirm per-journal reference style (already applied per readiness checklist).
 
 ---
