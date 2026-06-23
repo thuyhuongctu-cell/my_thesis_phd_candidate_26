@@ -43,7 +43,7 @@ echo "DOCX: $DOCX ($(stat -c%s "$DOCX") bytes)"
 pandoc -f markdown-yaml_metadata_block+autolink_bare_uris \
   --standalone --pdf-engine=xelatex \
   -H templates/ctu_xelatex_header.tex \
-  -V header-includes='\usepackage{caption}\captionsetup{labelformat=empty}' \
+  -V header-includes='\usepackage{caption}\captionsetup{labelformat=empty}\usepackage{float}\floatplacement{figure}{H}' \
   --toc --toc-depth=2 --resource-path="$RESPATH" \
   -V documentclass=extarticle -V classoption=13pt \
   -V mainfont="$MAINFONT" -V papersize=a4 \

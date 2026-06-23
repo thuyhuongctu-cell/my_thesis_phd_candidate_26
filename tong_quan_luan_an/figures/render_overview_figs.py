@@ -8,6 +8,7 @@ gives static raster equivalents). Monochrome, journal-style. No external data.
 Run:  python3 tong_quan_luan_an/figures/render_overview_figs.py
 Out:  tong_quan_luan_an/figures/fig_integration_map.png
       tong_quan_luan_an/figures/fig_three_zone.png
+      tong_quan_luan_an/figures/fig_study_chapter_map.png
 """
 from pathlib import Path
 import matplotlib
@@ -130,7 +131,71 @@ def three_zone():
     print(f"  wrote {p.relative_to(OUT.parents[1])}")
 
 
+# ---------------------------------------------------------------- Figure 3
+def study_chapter_map():
+    """Ánh xạ nghiên cứu thành phần / chuyên đề -> chương luận án (Mục 2.2).
+
+    Bố cục lưỡng phân: nguồn (trái) -> chương (phải) + trục xương sống Ch.1→Ch.5.
+    """
+    fig, ax = plt.subplots(figsize=(10.2, 6.6))
+    ax.set_xlim(0, 11.5); ax.set_ylim(0, 7.4); ax.axis("off")
+    ax.text(5.75, 7.15, "Ánh xạ nghiên cứu thành phần · chuyên đề → chương luận án",
+            ha="center", va="center", fontsize=11, fontweight="bold", color=INK)
+
+    # Nguồn (trái): (nhãn, y0); h=0.85, w=3.1, tâm x=1.85, mép phải x=3.4
+    sources = [
+        ("CĐ1 — Tổng quan mô tả,\nphân tầng ICRV", 5.95),
+        ("CĐ2 — Khung CDCM,\nthiết kế thực nghiệm", 4.75),
+        ("P6 — Phân tích tổng hợp\n(meta toàn cầu)", 3.55),
+        ("P3, P4, P5, P2\n(đơn quốc gia)", 2.35),
+        ("P7 — Toàn mẫu 50 nền", 1.15),
+        ("P8, P9, P10\n(trường hợp biên)", -0.05),
+    ]
+    scy = {}
+    for label, y0 in sources:
+        _box(ax, 0.3, y0, 3.1, 0.85, label, fc=LIGHT, fs=7.8)
+        scy[label.split(" ")[0]] = y0 + 0.425
+
+    # Chương (phải): (nhãn, y0); h=0.8, w=2.7, tâm x=9.35, mép trái x=8.0
+    chapters = [
+        ("Ch.1 Giới thiệu", 6.0),
+        ("Ch.2 Tổng quan & lý thuyết", 4.7),
+        ("Ch.3 Phương pháp", 3.4),
+        ("Ch.4 Kết quả", 2.1),
+        ("Ch.5 Kết luận & đóng góp", 0.8),
+    ]
+    ccy = {}
+    for i, (label, y0) in enumerate(chapters):
+        _box(ax, 8.0, y0, 2.7, 0.8, label, fc="#e8e8e8", bold=True, fs=8.2, lw=1.3)
+        ccy[label[:4]] = y0 + 0.4
+        if i:  # trục xương sống Ch.(i)→Ch.(i+1)
+            _arrow(ax, (9.35, chapters[i - 1][1]), (9.35, y0 + 0.8),
+                   color="#bbbbbb", lw=1.2)
+
+    # Cung nguồn -> chương (mép phải nguồn -> mép trái chương)
+    links = [
+        ("CĐ1", ["Ch.2", "Ch.4"]),
+        ("CĐ2", ["Ch.2", "Ch.3"]),
+        ("P6", ["Ch.2", "Ch.4"]),
+        ("P3,", ["Ch.4"]),
+        ("P7", ["Ch.4", "Ch.5"]),
+        ("P8,", ["Ch.5", "Ch.4"]),
+    ]
+    for src, targets in links:
+        for tgt in targets:
+            _arrow(ax, (3.4, scy[src]), (8.0, ccy[tgt]), color="#999999", lw=0.9)
+
+    ax.text(5.75, -0.55, "Nguồn: tác giả tổng hợp (Mục 2.2). Trục xương sống Ch.1→Ch.5 là "
+            "mạch lập luận; cung xiên là đầu vào nội dung.",
+            ha="center", va="top", fontsize=7, color=GREY, style="italic")
+    fig.tight_layout()
+    p = OUT / "fig_study_chapter_map.png"
+    fig.savefig(p, dpi=200, bbox_inches="tight"); plt.close(fig)
+    print(f"  wrote {p.relative_to(OUT.parents[1])}")
+
+
 if __name__ == "__main__":
     integration_map()
     three_zone()
+    study_chapter_map()
     print("done.")

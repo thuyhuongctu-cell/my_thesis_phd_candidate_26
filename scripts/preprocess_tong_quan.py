@@ -32,6 +32,11 @@ FIGURES = {
         "**Hình 2.1.** Bản đồ tích hợp: câu hỏi nghiên cứu → nghiên cứu thành "
         "phần → khung CDCM → tuyên bố lý thuyết trung tâm.",
     ),
+    "2.2": (
+        "tong_quan_luan_an/figures/fig_study_chapter_map.png",
+        "**Hình 2.2.** Ánh xạ nghiên cứu thành phần · chuyên đề → chương luận án "
+        "(trục xương sống Ch.1→Ch.5 là mạch lập luận; cung xiên là đầu vào nội dung).",
+    ),
     "2.3": (
         "tong_quan_luan_an/figures/fig_three_zone.png",
         "**Hình 2.3.** Hình thái ba vùng của quan hệ quốc tế hóa–hiệu quả theo "
@@ -40,11 +45,8 @@ FIGURES = {
     ),
 }
 
-SECTION_NOTE = {
-    "2.2": "> *Sơ đồ ánh xạ nghiên cứu thành phần ↔ chương luận án có ở bản "
-    "Mermaid trên kho lưu trữ (`tong_quan_luan_an/02_truc_quan_hoa_quan_he.md`); "
-    "nội dung tương ứng được tóm trong Bảng \"sợi chỉ vàng\" ở Mục 2.4.*",
-}
+# Mục không có ảnh tĩnh -> chèn ghi chú nguồn (hiện đã đủ 3 hình, để rỗng).
+SECTION_NOTE: dict[str, str] = {}
 
 PAGE_BREAK = "\n\n\\newpage\n\n"
 
