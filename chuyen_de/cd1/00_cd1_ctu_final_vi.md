@@ -242,7 +242,7 @@ Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 (3) **Nhảy vọt số** ở các nhóm đang nổi và chuyển đổi 2018–2026, mở rộng khuôn mẫu từ 17 nền lên 50 nền. Phân tách Tầng 1 (website nhị phân, tiệm cận bão hòa ở Advanced) và Tầng 2 (tổng hợp đa thành phần, đang phát triển ở các nhóm IV–VI).
 
-(4) **Bằng chứng cho khung lý thuyết phi tuyến và điều tiết đa tầng**, phổ thể chế cường độ rõ rệt của các hệ số tương quan xuyên 6 nhóm thể chế (đặc biệt: tương quan FSTS–năng suất giảm dần từ +0,139 ở Nhóm I xuống mất ý nghĩa ở SIDS) là cơ sở thực tiễn cho các giả thuyết của Chuyên đề 2.
+(4) **Bằng chứng cho khung lý thuyết phi tuyến và điều tiết đa tầng**, phổ thể chế cường độ rõ rệt của các hệ số tương quan xuyên 6 nhóm thể chế (đặc biệt: tương quan FSTS–năng suất giảm dần từ +0,141 ở Nhóm I xuống mất ý nghĩa ở SIDS) là cơ sở thực tiễn cho các giả thuyết của Chuyên đề 2.
 
 **Một đóng góp trường hợp biên mở rộng (SIDS Pacific)**:
 
@@ -278,7 +278,7 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 
 ### 2.3.1 Cơ sở lý luận về hiệu quả hoạt động kinh doanh
 
-Khung phân tích mô tả của Chuyên đề 1 được tóm lược ở Hình 2.3.1.1. Đây là **khung mô tả – tương quan** (không phải khung kiểm định nhân quả; phần nhân quả được dành cho Chuyên đề 2): bốn yếu tố giải thích cấp doanh nghiệp và quốc gia, gồm vốn đầu tư trực tiếp nước ngoài (FDI ≥ 10%), mức độ quốc tế hóa (FSTS), năng lực công nghệ (TCI) và mức độ hiện diện số (DAI), được đặt trong quan hệ tương quan với **năng suất lao động chuẩn hóa** (LP-z, điểm z của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm để bảo đảm bất biến tiền tệ). Điểm cốt lõi của khung là vai trò **điều tiết bối cảnh** của khung phân loại thể chế ICRV (sáu nhóm, từ Nhóm I đổi mới đến Nhóm VI SIDS): thể chế không chỉ làm thay đổi *độ lớn* mà cá biệt còn đảo *dấu* của các tương quan, rõ nhất ở phổ thể chế FSTS giảm đơn điệu từ +0,139 (Nhóm I) xuống mất ý nghĩa và đổi dấu ở SIDS (−0,009 ns), nhất quán với giả thuyết chi phí buộc phải quốc tế hóa. Toàn bộ phân tích là **cắt ngang gộp nhiều đợt** trên giai đoạn 2006–2026; các hệ số tương quan Pearson chi tiết theo nhóm ICRV được trình bày ở mục 2.3.8.
+Khung phân tích mô tả của Chuyên đề 1 được tóm lược ở Hình 2.3.1.1. Đây là **khung mô tả – tương quan** (không phải khung kiểm định nhân quả; phần nhân quả được dành cho Chuyên đề 2): bốn yếu tố giải thích cấp doanh nghiệp và quốc gia, gồm vốn đầu tư trực tiếp nước ngoài (FDI ≥ 10%), mức độ quốc tế hóa (FSTS), năng lực công nghệ (TCI) và mức độ hiện diện số (DAI), được đặt trong quan hệ tương quan với **năng suất lao động chuẩn hóa** (LP-z, điểm z của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm để bảo đảm bất biến tiền tệ). Điểm cốt lõi của khung là vai trò **điều tiết bối cảnh** của khung phân loại thể chế ICRV (sáu nhóm, từ Nhóm I đổi mới đến Nhóm VI SIDS): thể chế không chỉ làm thay đổi *độ lớn* mà cá biệt còn làm *triệt tiêu* các tương quan, rõ nhất ở phổ thể chế FSTS giảm đơn điệu từ +0,141 (Nhóm I) xuống mất ý nghĩa ở SIDS (+0,002 ns), nhất quán với giả thuyết chi phí buộc phải quốc tế hóa. Toàn bộ phân tích là **cắt ngang gộp nhiều đợt** trên giai đoạn 2006–2026; các hệ số tương quan Pearson chi tiết theo nhóm ICRV được trình bày ở mục 2.3.8.
 
 ![Hình 2.3.1.1. Khung phân tích mô tả CĐ1 — tương quan giữa bốn yếu tố và năng suất lao động theo bối cảnh thể chế ICRV (mẫu gộp mô tả 88.869 doanh nghiệp, 50 nền, 2006–2026).](figures/cd1_fig_conceptual_model.png)
 
@@ -529,7 +529,7 @@ Với dữ liệu đầy đủ 8/8 nền Nhóm VI, SIDS thể hiện khuôn mẫ
 
 #### 2.3.4.3 Tái định hình Chỉ số áp dụng số: Tầng 1 Sự hiện diện số cơ bản
 
-Spec 1 (toàn bộ 2006–2026) dùng biến nhị phân duy nhất (website có/không). **Hệ quả phân tích đáng chú ý**: phần bù tương quan DAI ở Nhóm I là thấp nhất trong sáu nhóm (+0,090, Bảng 2.3.8.1), trong khi tỷ lệ có website ở nhóm này đã đạt 69,2%. Khi một chỉ báo nhị phân tiệm cận bão hòa, nó mất dần khả năng phân biệt năng suất: phương sai của biến co lại và phần doanh nghiệp "không website" còn lại ngày càng mang tính chọn lọc đặc thù (quy mô siêu nhỏ, ngành không cần hiện diện web), nên hệ số đo được phản ánh **giới hạn của thước đo Tier-1** nhiều hơn là giới hạn của số hóa.
+Spec 1 (toàn bộ 2006–2026) dùng biến nhị phân duy nhất (website có/không). **Hệ quả phân tích đáng chú ý**: phần bù tương quan DAI ở Nhóm I là thấp nhất trong sáu nhóm (+0,093, Bảng 2.3.8.1), trong khi tỷ lệ có website ở nhóm này đã đạt 69,2%. Khi một chỉ báo nhị phân tiệm cận bão hòa, nó mất dần khả năng phân biệt năng suất: phương sai của biến co lại và phần doanh nghiệp "không website" còn lại ngày càng mang tính chọn lọc đặc thù (quy mô siêu nhỏ, ngành không cần hiện diện web), nên hệ số đo được phản ánh **giới hạn của thước đo Tier-1** nhiều hơn là giới hạn của số hóa.
 
 **Kiểm định loại trừ ICT (đề xuất cho Chuyên đề 2)**: so sánh hệ số DAI của phân nhóm Advanced trước và sau khi loại các doanh nghiệp ICT (ISIC J 58–63, nơi website là điều kiện tồn tại, không phải lựa chọn đầu tư) sẽ tách được phần "bão hòa thước đo" khỏi phần bù số thực. Theo logic đó, biến Spec 1 được đặt tên chính xác là **"Sự hiện diện số cơ bản (Tier-1)"**, phạm vi khiêm tốn và phản ánh đúng thực tế đo lường.
 
@@ -754,14 +754,14 @@ Tương quan giữa năng suất và bốn yếu tố giải thích được tí
 
 | Yếu tố | I, Adv. đổi mới | II, Adv. tài nguyên | III, Trung bình cao | IV, Chuyển đổi TB-thấp | V, Đang nổi | VI, SIDS |
 |---|--:|--:|--:|--:|--:|--:|
-| FDI ≥ 10% | +0,104\*\* | +0,114\*\* | +0,124\*\* | +0,072\*\* | +0,057\*\* | +0,122\*\* |
-| FSTS | **+0,139\*\*** | +0,131\*\* | +0,094\*\* | +0,047\*\* | +0,018\* | **−0,009 ns** |
-| TCI (R&D + ISO) | +0,158\*\* | +0,187\*\* | **+0,240\*\*** | +0,141\*\* | +0,125\*\* | +0,117\*\* |
-| DAI (website) | +0,090\*\* | **+0,201\*\*** | +0,124\*\* | +0,180\*\* | +0,111\*\* | +0,092\*\* |
+| FDI ≥ 10% | +0,105\*\* | +0,114\*\* | +0,067\*\* | +0,086\*\* | +0,057\*\* | +0,104\*\* |
+| FSTS | **+0,141\*\*** | +0,122\*\* | +0,061\*\* | +0,049\*\* | +0,015\* | **+0,002 ns** |
+| TCI (R&D + ISO) | +0,164\*\* | **+0,180\*\*** | +0,140\*\* | +0,152\*\* | +0,122\*\* | +0,094\*\* |
+| DAI (website) | +0,093\*\* | **+0,202\*\*** | +0,091\*\* | +0,183\*\* | +0,113\*\* | +0,095\*\* |
 
-*Ghi chú: \*\* p < 0,01; \* p < 0,05; ns = không có ý nghĩa thống kê (kiểm định hai phía). LP-z = điểm z của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm; FDI ≥10% từ b2b; FSTS = d3b + d3c; TCI = trung bình hai thành phần R&D (h8) và ISO (b8); DAI = website (c22b). n theo nhóm: 5.661 / 2.082 / 10.138 / 40.508 / 15.669 / 1.715 (quan sát có LP hợp lệ). Hệ số tương quan Pearson, không áp dụng HC1; HC1 dành cho SE hồi quy ở Chuyên đề 2.*
+*Ghi chú: \*\* p < 0,01; \* p < 0,05; ns = không có ý nghĩa thống kê (kiểm định hai phía). LP-z = điểm z của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm; FDI ≥10% từ b2b; FSTS = d3b + d3c; TCI = trung bình hai thành phần R&D (h8) và ISO (b8); DAI = website (c22b). n theo nhóm: 5.688 / 2.082 / 15.174 / 42.798 / 17.340 / 1.916 (quan sát có LP hợp lệ, khung mô tả 50 nền tái lập). Hệ số tương quan Pearson, không áp dụng HC1; HC1 dành cho SE hồi quy ở Chuyên đề 2.*
 
-Sáu phát hiện chính: (1) **TCI là yếu tố tương quan mạnh và đồng đều nhất** ở mọi nhóm (+0,117 đến +0,240), năng lực công nghệ nền tảng là dịch chuyển mức phổ quát; (2) **phổ thể chế cường độ FSTS theo chiều thể chế**: tương quan xuất khẩu–năng suất giảm đơn điệu từ +0,139 (Nhóm I) qua +0,047 (IV) và +0,018 (V) xuống **mất ý nghĩa ở SIDS (−0,009 ns)**, tương quan thô của quốc tế hóa gần như biến mất ở thể chế yếu, gợi ý quan hệ phi tuyến và bị điều tiết thay vì tuyến tính phổ quát; (3) **SIDS là ngoại lệ duy nhất về dấu của FSTS**, phù hợp với giả thuyết chi phí buộc phải quốc tế hóa: doanh nghiệp SIDS xuất khẩu vì bắt buộc, không phải vì chọn lọc theo năng suất; (4) **FDI dương ở mọi nhóm**, mạnh hơn ở hai cực thể chế (Nhóm I +0,104 và SIDS +0,122), hai cơ chế khác nhau: MNE hub tại Advanced và FDI ngoại sinh tại SIDS; (5) **DAI dương ở mọi nhóm nhưng thấp nhất tại Nhóm I (+0,090)** trong khi cao nhất ở II và IV (+0,201; +0,180), phần bù của hiện diện số Tầng 1 co lại nơi nó đã tiệm cận bão hòa (Nghịch lý bão hòa số ở dạng suy giảm lợi suất biên); (6) **biến thiên cường độ cross-regime có hệ thống**, thể chế điều tiết độ lớn (và cá biệt là dấu) của các cơ chế, nhất quán với Xu (2024).
+Sáu phát hiện chính: (1) **TCI là yếu tố tương quan mạnh và đồng đều nhất** ở mọi nhóm (+0,094 đến +0,180), năng lực công nghệ nền tảng là dịch chuyển mức phổ quát; (2) **phổ thể chế cường độ FSTS theo chiều thể chế**: tương quan xuất khẩu–năng suất giảm đơn điệu từ +0,141 (Nhóm I) qua +0,049 (IV) và +0,015 (V) xuống **mất ý nghĩa ở SIDS (+0,002 ns)**, tương quan thô của quốc tế hóa gần như biến mất ở thể chế yếu, gợi ý quan hệ phi tuyến và bị điều tiết thay vì tuyến tính phổ quát; (3) **SIDS là nhóm duy nhất mà tương quan FSTS triệt tiêu hoàn toàn** (≈0, không ý nghĩa), phù hợp với giả thuyết chi phí buộc phải quốc tế hóa: doanh nghiệp SIDS xuất khẩu vì bắt buộc, không phải vì chọn lọc theo năng suất; (4) **FDI dương ở mọi nhóm**, mạnh hơn ở hai cực thể chế (Nhóm I +0,105 và SIDS +0,104), hai cơ chế khác nhau: MNE hub tại Advanced và FDI ngoại sinh tại SIDS; (5) **DAI dương ở mọi nhóm nhưng thấp nhất tại Nhóm I (+0,093)** trong khi cao nhất ở II và IV (+0,202; +0,183), phần bù của hiện diện số Tầng 1 co lại nơi nó đã tiệm cận bão hòa (Nghịch lý bão hòa số ở dạng suy giảm lợi suất biên); (6) **biến thiên cường độ cross-regime có hệ thống**, thể chế điều tiết độ lớn (và cá biệt là dấu) của các cơ chế, nhất quán với Xu (2024).
 
 **Cảnh báo schema BREADY 2025**: Bảng 2.3.8.1 có thể bị nhiễu hiệu ứng lược đồ, cần kiểm chứng qua hệ thống phòng thủ ba tầng (Mục 2.2) trước khi suy diễn nhân quả.
 
@@ -784,7 +784,7 @@ Bốn quan sát: (a) EAP paradox, quản lý dẫn đầu toàn cầu nhưng own
 
 Quan hệ giữa cường độ đầu tư số và năng suất có hình dạng phi tuyến, **đường cong U theo thời gian**, phù hợp với trễ công nghệ của David (1990) và nghịch lý năng suất của Brynjolfsson & McAfee (2014).
 
-**Giai đoạn 1** (năm 1–3): Sụt giảm ngắn hạn do chi phí thiết bị, đào tạo và gián đoạn quy trình. Bằng chứng gián tiếp: phần bù tương quan DAI thấp nhất tại Nhóm Advanced đổi mới (+0,090 so với +0,180–0,201 ở các nhóm chuyển đổi/tài nguyên), nơi Tầng 1 đã tiệm cận bão hòa, lợi suất biên co lại; giai đoạn "sân khấu số" (Verhoef et al., 2021).
+**Giai đoạn 1** (năm 1–3): Sụt giảm ngắn hạn do chi phí thiết bị, đào tạo và gián đoạn quy trình. Bằng chứng gián tiếp: phần bù tương quan DAI thấp nhất tại Nhóm Advanced đổi mới (+0,093 so với +0,183–0,202 ở các nhóm chuyển đổi/tài nguyên), nơi Tầng 1 đã tiệm cận bão hòa, lợi suất biên co lại; giai đoạn "sân khấu số" (Verhoef et al., 2021).
 
 **Giai đoạn 2** (năm 3–5): Vùng chuyển tiếp. Ngưỡng: ≥ 3% doanh thu/năm × ≥ 3 năm liên tục. Dưới ngưỡng, phần bù năng suất không bù được chi phí cơ hội.
 
@@ -808,7 +808,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **(v) Quốc tế hóa là hiện tượng phân cực**: trung vị FSTS = 0%; chỉ khoảng 12–28% doanh nghiệp xuất khẩu tùy nhóm. Cần lựa chọn hai giai đoạn trong Chuyên đề 2.
 
-**(vi) Nhảy vọt số 2018–2026** ở các nhóm IV/V/VI (+21 đến +31 điểm phần trăm website). Phân biệt **Tier-1 Sự hiện diện số cơ bản** (tiệm cận bão hòa ở Advanced) và **Tier-2 Chuyển đổi số cơ bản** (đang phát triển). Phần bù tương quan DAI thấp nhất ở Nhóm I (+0,090) là dấu hiệu bão hòa Tầng 1, xem kiểm định loại trừ ICT tại Mục 2.3.4.3.
+**(vi) Nhảy vọt số 2018–2026** ở các nhóm IV/V/VI (+21 đến +31 điểm phần trăm website). Phân biệt **Tier-1 Sự hiện diện số cơ bản** (tiệm cận bão hòa ở Advanced) và **Tier-2 Chuyển đổi số cơ bản** (đang phát triển). Phần bù tương quan DAI thấp nhất ở Nhóm I (+0,093) là dấu hiệu bão hòa Tầng 1, xem kiểm định loại trừ ICT tại Mục 2.3.4.3.
 
 **(vii) Khuôn mẫu phi tuyến FDI ≥10%**, dạng chữ U với cực tiểu ở Nhóm IV (3,1%): Advanced 10,6–13,6% sang Nhóm IV 3,1% sang SIDS 20,0%. Hai mô hình FDI: MNE hub (Advanced) và du lịch/viễn thông (SIDS).
 
@@ -824,7 +824,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **KT2, Phân nhóm con Advanced: innovation-driven so với resource-driven chưa được hệ thống hóa**: Nghiên cứu hiện hành (Bausch & Krist, 2007; Kirca et al., 2012) gộp tất cả OECD vào "phát triển". Bằng chứng Singapore so với Saudi Arabia/Qatar/Kuwait cho thấy hai phân nhóm có khuôn mẫu hoàn toàn khác nhau.
 
-**KT3, Xác nhận nhân quả Nghịch lý bão hòa số qua ước lượng biến công cụ**: Phần bù tương quan DAI suy giảm rõ ở Advanced (+0,090, thấp nhất sáu nhóm) có thể phản ánh: (a) bão hòa thực sự của Tầng 1; (b) nhân quả ngược; (c) bias biến bỏ sót. Biến công cụ hợp lệ (độ phủ băng thông rộng) cần thiết để phân biệt.
+**KT3, Xác nhận nhân quả Nghịch lý bão hòa số qua ước lượng biến công cụ**: Phần bù tương quan DAI suy giảm rõ ở Advanced (+0,093, thấp nhất sáu nhóm) có thể phản ánh: (a) bão hòa thực sự của Tầng 1; (b) nhân quả ngược; (c) bias biến bỏ sót. Biến công cụ hợp lệ (độ phủ băng thông rộng) cần thiết để phân biệt.
 
 **KT4, Dị biệt theo thời gian ba giai đoạn 2006–2026 chưa được tổng hợp**: Bằng chứng từ kiểm định Paternoster cho thấy bất ổn định tham số quan trọng giữa ba giai đoạn.
 
@@ -846,7 +846,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 #### 2.3.9.3 Hàm ý lý thuyết
 
-**(1) Uppsala có điều kiện, không phổ quát**: Tương quan FSTS–năng suất dương mạnh tại Advanced (+0,139), suy yếu dần theo chiều thể chế và mất ý nghĩa tại SIDS (−0,009 ns), xác nhận điều kiện biên: lý thuyết Uppsala vận hành chỉ trong môi trường thể chế đủ mạnh (Williamson, 1985).
+**(1) Uppsala có điều kiện, không phổ quát**: Tương quan FSTS–năng suất dương mạnh tại Advanced (+0,141), suy yếu dần theo chiều thể chế và mất ý nghĩa tại SIDS (+0,002 ns), xác nhận điều kiện biên: lý thuyết Uppsala vận hành chỉ trong môi trường thể chế đủ mạnh (Williamson, 1985).
 
 **(2) CDCM như khung lý thuyết tích hợp mới cho kỷ nguyên số trong kinh doanh quốc tế**: Phần bù năng suất của áp dụng số là hàm của (i) mức độ phát triển thể chế, (ii) vị trí trên đường cong quốc tế hóa – hiệu quả, (iii) tầng của năng lực số được đo lường. Ba điều kiện tương tác phi tuyến, vượt qua "phần bù số" đồng nhất (Verhoef et al., 2021).
 
@@ -854,7 +854,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **(4) Sân khấu số là thực tế đo lường ở cả hai chiều**: Tại Advanced, DAI Tầng 1 là yếu tố vệ sinh bão hòa. Tại Emerging, DAI Tầng 1 có thể là proxy lỗi thời, đo lường không còn phản ánh được cơ chế kinh tế thực.
 
-**(5) Bối cảnh thể chế là tầng điều kiện, không phải yếu tố nền**: Biến thiên cường độ có hệ thống (và cá biệt là đổi dấu, FSTS tại SIDS) của các hệ số cross-regime không phải nhiễu mà là tín hiệu lý thuyết. Nghiên cứu kinh doanh quốc tế tương lai nên kiểm định hiệu ứng điều tiết theo nhóm ICRV trước khi báo cáo kích thước hiệu ứng trung bình.
+**(5) Bối cảnh thể chế là tầng điều kiện, không phải yếu tố nền**: Biến thiên cường độ có hệ thống (và cá biệt là triệt tiêu hoàn toàn, FSTS tại SIDS) của các hệ số cross-regime không phải nhiễu mà là tín hiệu lý thuyết. Nghiên cứu kinh doanh quốc tế tương lai nên kiểm định hiệu ứng điều tiết theo nhóm ICRV trước khi báo cáo kích thước hiệu ứng trung bình.
 
 #### 2.3.9.4 Hàm ý phương pháp luận
 
@@ -878,7 +878,7 @@ Tám kết luận từ 50 nền kinh tế châu Á – Thái Bình Dương (khun
 
 **KL1, Phi tuyến xuyên chế độ thể chế là quy luật**: U ngược tại các nhóm chuyển đổi (Việt Nam điểm uốn 39–46%; Trung Quốc điểm uốn 47–49%); gần tuyến tính tại Advanced (Singapore điểm uốn 88,6%); chi phí buộc phải tại SIDS.
 
-**KL2, TCI là dịch chuyển mức phổ quát, DAI là khuếch đại phụ thuộc bối cảnh**: TCI tương quan dương mạnh và đồng đều ở mọi nhóm; phần bù DAI biến thiên cường độ gấp đôi giữa các nhóm ICRV (+0,090 ở Advanced so với +0,201 ở Advanced tài nguyên), đây là nội hàm cốt lõi của CDCM.
+**KL2, TCI là dịch chuyển mức phổ quát, DAI là khuếch đại phụ thuộc bối cảnh**: TCI tương quan dương mạnh và đồng đều ở mọi nhóm; phần bù DAI biến thiên cường độ gấp đôi giữa các nhóm ICRV (+0,093 ở Advanced so với +0,202 ở Advanced tài nguyên), đây là nội hàm cốt lõi của CDCM.
 
 **KL3, Nghịch lý bão hòa số là cơ chế đo lường, không phải thất bại thị trường**: Phần bù DAI thấp nhất tại Advanced là hệ quả của đo lường Tầng 1 trong bối cảnh Tầng 2/3 đã được áp dụng rộng.
 
@@ -888,7 +888,7 @@ Tám kết luận từ 50 nền kinh tế châu Á – Thái Bình Dương (khun
 
 **KL6, EAP dẫn đầu toàn cầu về nữ quản lý cấp cao (33,4%) nhưng khoảng cách sở hữu dai dẳng**: Trần kính ở lớp sở hữu chưa được phá vỡ dù management ceiling đang thu hẹp.
 
-**KL7, SIDS Pacific là trường hợp biên lý thuyết với chi phí buộc phải quốc tế hóa**: FDI (+0,122) là nguồn năng suất chủ đạo; tương quan FSTS–năng suất bằng không (−0,009, không có ý nghĩa thống kê), nhóm duy nhất nơi xuất khẩu không gắn với phần bù năng suất. Mô hình MIRAB phù hợp hơn mô hình Uppsala.
+**KL7, SIDS Pacific là trường hợp biên lý thuyết với chi phí buộc phải quốc tế hóa**: FDI (+0,104) là nguồn năng suất chủ đạo; tương quan FSTS–năng suất bằng không (+0,002, không có ý nghĩa thống kê), nhóm duy nhất nơi xuất khẩu không gắn với phần bù năng suất. Mô hình MIRAB phù hợp hơn mô hình Uppsala.
 
 **KL8, Phân nhóm con Advanced là cần thiết cho phân tích kinh doanh quốc tế châu Á**: Singapore và Saudi Arabia/Qatar/Kuwait cùng nhãn "Advanced" nhưng khuôn mẫu năng suất doanh nghiệp hoàn toàn khác nhau.
 

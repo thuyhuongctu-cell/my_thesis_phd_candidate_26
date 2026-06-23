@@ -324,3 +324,27 @@ phải Timor** (Timor luôn nằm trong Nhóm VI).
   riêng phần tương quan. Đây là phân tích sâu hơn lớp mô tả, để NCS quyết.
 - "88.869/103 cặp" vẫn là **khung phân tích/hồi quy P7** (từ master), khác **khung mô tả LP-valid 84.998/107
   cặp** (tái lập từ raw) — hai khung dựng từ hai nguồn nên số cặp/firm khác nhau; ghi chú bảng đã phân biệt rõ.
+
+---
+
+## 14. ✅ Tính lại bảng tương quan Pearson (Bảng 2.3.8.1) trên khung 50 nền
+
+Đã tái lập **Bảng 2.3.8.1** (tương quan LP-z với FDI/FSTS/TCI/DAI theo 6 nhóm ICRV) trên đúng khung
+50 nền (gồm China-2012 + 4 đợt Azerbaijan) bằng script tái lập mới `scripts/relock_correlations_canonical.py`
+(xuất `data_wbes/analysis/correlations_canonical_50econ.csv`). n theo nhóm nay khớp khung LP-valid:
+5.688 / 2.082 / 15.174 / 42.798 / 17.340 / 1.916.
+
+**Thay đổi đáng chú ý (so vintage cũ):**
+- **Nhóm III (Upper_mid) giảm rõ** do nạp China-2012: TCI 0,240→**0,140**, FDI 0,124→0,067, FSTS 0,094→0,061, DAI 0,124→0,091.
+- **SIDS FSTS −0,009 → +0,002 (vẫn ns)**: tương quan nay **≈0 (triệt tiêu)** chứ không còn **âm**. Đã
+  **chỉnh lại diễn giải** ở mọi nơi: từ "SIDS là ngoại lệ duy nhất về *dấu*" → "nhóm duy nhất nơi tương
+  quan FSTS *triệt tiêu hoàn toàn*". Lập luận chi phí-buộc-phải-quốc-tế-hóa giữ nguyên (xuất khẩu không
+  gắn phần bù năng suất ở SIDS), chỉ đổi cơ sở từ "âm" sang "bằng 0/không ý nghĩa".
+- TCI mạnh nhất nay ở **Nhóm II (0,180)** thay vì III; DAI thấp nhất vẫn ở Nhóm I (0,090→**0,093**).
+
+**Đã đồng bộ tất cả nơi trích dẫn các hệ số này:** CĐ1 (Bảng 2.3.8.1 + 6 phát hiện + các mục 245, 281,
+532, 787, 811, 827, 849, 857, 881, 891) và thesis §4.1.3 (cд:76) + §4.1.6 (113/117/125). Các chỗ "đảo
+dấu" còn lại trong luận án là về **độ cong hồi quy** (U-shape SIDS, TCI Ấn Độ, giới tính ROS-vs-năng
+suất) — khác bản chất với tương quan mô tả, giữ nguyên đúng.
+
+→ Toàn bộ lớp mô tả + tương quan của CĐ1 và thesis nay **cùng một vintage 50 nền tái lập được**.
