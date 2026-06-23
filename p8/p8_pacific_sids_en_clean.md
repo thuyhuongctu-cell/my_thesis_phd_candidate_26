@@ -1,3 +1,11 @@
+> ⚠️ **DEPRECATED / SUPERSEDED (2026-06).** This is the pre-redesign P8 manuscript whose
+> headline rested on a strong negative FIP coefficient (β = −1.339) that reproduction showed
+> is a fragile three-cluster artefact. The scientifically sound version — whose robust finding
+> is that the inverted-U **dissolves** (slope −0.085, p_wild=.66; curvature +0.696, p_wild=.082)
+> on the full seven-economy sample (N=1,450) — is `p8/p8_pacific_sids_redesigned_en.md`
+> (submission: `p8/submission/world_development_redesign/`). The Vietnamese translation
+> `p8/submission/p8_pacific_sids_vi.md` and the dissertation both follow the redesign.
+
 # Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States
 
 **Target journal**: World Development
