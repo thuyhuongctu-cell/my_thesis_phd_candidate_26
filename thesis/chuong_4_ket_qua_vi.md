@@ -214,7 +214,7 @@ Một hàm ý phương pháp luận trực tiếp nối kết phân tích tổng
 
 ---
 
-## 4.3 Kết quả bối cảnh thể chế tiên tiến: Đổi mới: Singapore (P4)
+## 4.3 Kết quả bối cảnh thể chế tiên tiến đổi mới: Singapore (P4)
 
 ### 4.3.1 Xác nhận quan hệ phi tuyến chữ U ngược
 
@@ -721,7 +721,7 @@ Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the fi
 
 Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law, 3*(2), 220–246.
 
-Khanna, T., & Palepu, K. G. (2010). *Winning in thị trường mới nổi: A road map for strategy and execution*. Harvard Business Press.
+Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
 
 Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality-performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121.
 

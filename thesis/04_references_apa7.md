@@ -10,7 +10,7 @@ ADB. (2016). *Asian Economic Integration Report 2016 Highlights*. Asian Developm
 
 ADB. (2024). *Asian Development Outlook 2024 — Recovery and resilience in Asia*. Asian Development Bank.
 
-ADB. (2025). *Annual Report 2025 — Online Appendix 1: Resolutions of the Board of Governors Adopted in 2025*. Asian Development Bank.** https://www.adb.org/documents/adb-annual-report-2025
+ADB. (2025). *Annual Report 2025 — Online Appendix 1: Resolutions of the Board of Governors Adopted in 2025*. Asian Development Bank. https://www.adb.org/documents/adb-annual-report-2025
 
 ADB. (2026). *Asia-Pacific Development Report 2026: Highlights — Global Value Chain Participation in Developing Asia*. Asian Development Bank.
 
@@ -18,7 +18,7 @@ ADB. (2026, April). *Asian Development Outlook April 2026: Special Topic — Art
 
 ADB. (2026, April). *Asian Development Outlook April 2026: The Middle East Conflict Challenges Resilience in Asia and the Pacific*. Asian Development Bank.
 
-ADB. (2026, April). *Vietnam Economic Outlook 2026: Navigating the Crosscurrents*. Asian Development Bank.** https://www.adb.org/viet-nam
+ADB. (2026, April). *Vietnam Economic Outlook 2026: Navigating the Crosscurrents*. Asian Development Bank. https://www.adb.org/viet-nam
 
 ADB. (2026, March). *Asia Bond Monitor March 2026: Emerging East Asian Local Currency Bond Markets*. Asian Development Bank. https://doi.org/10.22617/SGP260088-2
 
@@ -30,13 +30,13 @@ Agnolucci, P., Kenworthy, P., & Kose, M. A. (2026, May 7). Five questions on how
 
 Aguinis, H., Dalton, D. R., Bosco, F. A., Pierce, C. A., & Dalton, C. M. (2011). Meta-analytic choices and judgment calls: Implications for theory and research. *Journal of Management, 37*(1), 5–38. https://doi.org/10.1177/0149206310370708
 
-Aguinis, H., Hill, N. S., & Bailey, J. R. (2019). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693.** https://doi.org/10.1177/1094428119836485
+Aguinis, H., Hill, N. S., & Bailey, J. R. (2019). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693. https://doi.org/10.1177/1094428119836485
 
 Ahsan, F. M., & Sinha, A. (2022). Internationalization motives, location advantages and performance: The case of Indian firms from knowledge-intensive industries. *Cross Cultural & Strategic Management*. https://doi.org/10.1108/ccsm-07-2021-0119
 
 Aiken, L. S., & West, S. G. (1991). *Multiple regression: Testing and interpreting interactions*. Sage.
 
-Al-Najjar, B., Salama, A., & Abed, A. (2025). Gender and cultural diversity on boards: Their impact on internationalisation. *The International Journal of Human Resource Management, 36*(13), 2305–2341.** https://doi.org/10.1080/09585192.2025.2550765
+Al-Najjar, B., Salama, A., & Abed, A. (2025). Gender and cultural diversity on boards: Their impact on internationalisation. *The International Journal of Human Resource Management, 36*(13), 2305–2341. https://doi.org/10.1080/09585192.2025.2550765
 
 Almodóvar, P., & Rugman, A. M. (2014). The M curve and the performance of Spanish international new ventures. *British Journal of Management, 25*(S1), S6–S23. https://doi.org/10.1111/1467-8551.12048
 
@@ -86,7 +86,7 @@ Beblawi, H. (1987). The rentier state in the Arab world. In H. Beblawi & G. Luci
 
 Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. *Biometrics, 50*(4), 1088–1101. https://doi.org/10.2307/2533446
 
-Bello, D. C., & Kostova, T. (2012). From the editors: Conducting high impact international business research: The role of theory. *Journal of International Business Studies, 43*(6), 537–543.** https://doi.org/10.1057/jibs.2012.14
+Bello, D. C., & Kostova, T. (2012). From the editors: Conducting high impact international business research: The role of theory. *Journal of International Business Studies, 43*(6), 537–543. https://doi.org/10.1057/jibs.2012.14
 
 Benito-Osorio, D., Guerras-Martín, L. Á., Zuñiga-Vicente, J. Á., & Rivero-Meneses, A. (2015). Diversification and performance: The moderating effect of firm's international activity. *International Business Review, 24*(5), 893–907. https://doi.org/10.1016/j.ibusrev.2015.03.003
 
@@ -136,7 +136,7 @@ Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvem
 
 Cantele, S., Vernizzi, S., & Zardini, A. (2016). Does export affect the performance of Italian SMEs? An empirical analysis. *Economia e Diritto del Terziario, 28*(1), 5–22.
 
-Cao, X., Li, P., Huang, X., & Fan, L. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from China. *PLoS ONE, 17*(2), Article e0263674. https://doi.org/10.1371/journal.pone.0263674
+Cao, X., Li, P., Huang, X., & Fan, L. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from China. *PLOS ONE, 17*(2), Article e0263674. https://doi.org/10.1371/journal.pone.0263674
 
 Capar, N., & Kotabe, M. (2003). The relationship between international diversification and performance in service firms. *Journal of International Business Studies, 34*(4), 345–355. https://doi.org/10.1057/palgrave.jibs.8400036
 
@@ -146,7 +146,7 @@ Carr, J. C., Haggard, K. S., Hmieleski, K. M., & Zahra, S. A. (2010). A study of
 
 Caves, R. E. (1971). International corporations: The industrial economics of foreign investment. *Economica, 38*(149), 1–27.
 
-Cazzaniga, M., Jaumotte, F., Li, L., Melina, G., Panton, A. J., Pizzinelli, C., Rockall, E., & Tavares, M. M. (2024). Gen-AI: Artificial intelligence and the future of work. *IMF Staff Discussion Note*, SDN/2024/001.** International Monetary Fund.
+Cazzaniga, M., Jaumotte, F., Li, L., Melina, G., Panton, A. J., Pizzinelli, C., Rockall, E., & Tavares, M. M. (2024). Gen-AI: Artificial intelligence and the future of work. *IMF Staff Discussion Note*, SDN/2024/001. International Monetary Fund.
 
 Chao, M. C.-H., & Kumar, V. (2010). The impact of institutional distance on the international diversity-performance relationship. *Journal of World Business, 45*(1), 93–103. https://doi.org/10.1016/j.jwb.2009.04.005
 
@@ -186,8 +186,6 @@ Contractor, F. J. (2012). Why do multinational firms exist? A theory note about 
 
 Cooper, H. (2010). *Research synthesis and meta-analysis: A step-by-step approach* (4th ed.). Sage.
 
-Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2017). Home country uncertainty and the internationalization-performance relationship: Building an uncertainty management capability. *Journal of World Business, 53*(2), 209–221. https://doi.org/10.1016/j.jwb.2017.11.002
-
 Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home country uncertainty and the internationalization–performance relationship. *Journal of World Business, 53*(2), 209–221.
 
 Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting paradigms in analysis and policy*. World Bank. https://doi.org/10.1596/978-1-4648-1219-6
@@ -208,7 +206,7 @@ Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of fi
 
 Drori, N., Alessandri, T., Bart, Y., & Herstein, R. (2024). The impact of digitalization on internationalization from an internalization theory lens. *Long Range Planning, 57*(1), 102395. https://doi.org/10.1016/j.lrp.2023.102395
 
-Dunning, J. H. (1988). The eclectic paradigm of international production: A restatement and some possible extensions. *Journal of International Business Studies, 19*(1), 1–31.** https://doi.org/10.1057/palgrave.jibs.8490372
+Dunning, J. H. (1988). The eclectic paradigm of international production: A restatement and some possible extensions. *Journal of International Business Studies, 19*(1), 1–31. https://doi.org/10.1057/palgrave.jibs.8490372
 
 Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. *Biometrics, 56*(2), 455–463. https://doi.org/10.1111/j.0006-341X.2000.00455.x
 
@@ -246,7 +244,7 @@ Freixanet, J., & Rialp, J. (2021). Disentangling the relationship between intern
 
 Fu, Y. (2024). Enterprises' internationalization, R&D investment and enterprise performance. *Finance Research Letters, 68*. https://doi.org/10.1016/j.frl.2024.105721
 
-Gallegos Mardones, J., & Ibáñez, M. J. (2025). Women's participation in top management business positions and the internationalization process: Evidence for Chilean companies. *SAGE Open, 15*(2), 1–17.** https://doi.org/10.1177/21582440251335079
+Gallegos Mardones, J., & Ibáñez, M. J. (2025). Women's participation in top management business positions and the internationalization process: Evidence for Chilean companies. *SAGE Open, 15*(2), 1–17. https://doi.org/10.1177/21582440251335079
 
 Ganvir, V., & Dwivedi, M. (2017). International diversification and performance of Indian firms: An empirical analysis. *South Asian Journal of Business Studies, 6*(3), 259–282. https://doi.org/10.1108/SAJBS-03-2016-0020
 
@@ -326,7 +324,7 @@ Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the fi
 
 Juniati, S., & Wahyuni, S. (2019). Internationalization and performance: Evidence from Indonesian firms. *International Journal of Business and Society, 20*(3), 1134–1152.
 
-Kafouros, M., Aliyev, M., Piperopoulos, P., Au, A. K. M., Ho, J. W. Y., & Wong, S. Y. N. (2023). The role of institutional quality and industry dynamism in explaining firm performance in emerging economies. *Global Strategy Journal, 14*(1), 56–83.** https://doi.org/10.1002/gsj.1479
+Kafouros, M., Aliyev, M., Piperopoulos, P., Au, A. K. M., Ho, J. W. Y., & Wong, S. Y. N. (2023). The role of institutional quality and industry dynamism in explaining firm performance in emerging economies. *Global Strategy Journal, 14*(1), 56–83. https://doi.org/10.1002/gsj.1479
 
 Kalubandi, S. C., Sharma, D., Edacherian, S., & Karna, A. (2025). Role of foreign market knowledge and home country institutions in international entrepreneurship-performance relationship: A meta-analysis. *Asia Pacific Journal of Management*. https://doi.org/10.1007/s10490-025-10076-8
 
@@ -408,7 +406,7 @@ Mahler, D., Wang, H., & Weber, M. (2026, May). Inequalities in use of and exposu
 
 Majocchi, A., & Zucchella, A. (2003). Internationalization and performance: Findings from a set of Italian SMEs. *International Small Business Journal, 21*(3), 249–268. https://doi.org/10.1177/0266242603021003001
 
-Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–65.** https://doi.org/10.1093/oxfordjournals.cje.a035301
+Malerba, F., & Orsenigo, L. (1995). Schumpeterian patterns of innovation. *Cambridge Journal of Economics, 19*(1), 47–65. https://doi.org/10.1093/oxfordjournals.cje.a035301
 
 Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and performance of small and medium-sized enterprises from emerging economies. *Competitiveness Review: An International Business Journal, 31*(4), 642–662. https://doi.org/10.1108/cr-03-2019-0028
 
@@ -422,7 +420,7 @@ McDougall, P. P., & Oviatt, B. M. (1996). New venture internationalization, stra
 
 Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
 
-Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551.** https://doi.org/10.1057/s41267-017-0078-8
+Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551. https://doi.org/10.1057/s41267-017-0078-8
 
 Miller, S. R., Lavie, D., & Delios, A. (2016). International intensity, diversity, and distance: Unpacking the internationalization-performance relationship. *International Business Review, 25*(4), 907–920. https://doi.org/10.1016/j.ibusrev.2015.12.001
 
@@ -542,7 +540,7 @@ Shaver, J. M. (2020). Causal identification through a cumulative body of researc
 
 Siddharthan, N. S., & Lall, S. (1982). The recent growth of the largest US multinationals. *Oxford Bulletin of Economics and Statistics, 44*(1), 1–13. https://doi.org/10.1111/j.1468-0084.1982.mp44001001.x
 
-Sikdar, S., & Mukhopadhyay, A. (2026). Productivity gains in Indian manufacturing: Insights from formal and informal sectors. *Asian Development Review, 43*(1), Article 12.** Asian Development Bank.
+Sikdar, S., & Mukhopadhyay, A. (2026). Productivity gains in Indian manufacturing: Insights from formal and informal sectors. *Asian Development Review, 43*(1), Article 12. Asian Development Bank.
 
 Singla, C., & George, R. (2013). Internationalization and performance: A contextual analysis of Indian firms. *Journal of Business Research, 66*(12), 2500–2506. https://doi.org/10.1016/j.jbusres.2013.05.041
 
@@ -624,9 +622,11 @@ Wang, L., Huang, Y., & Hong, Z. (2024). Digitalization as a double-edged sword: 
 
 Wei, S., & Lin, L. (2021). The relationship between extent of internationalization and firm performance (Taiwan 1992–2017). *Mathematical Problems in Engineering*. https://doi.org/10.1155/2021/5528972
 
+Wernerfelt, B. (1984). A resource-based view of the firm. *Strategic Management Journal, 5*(2), 171–180. https://doi.org/10.1002/smj.4250050207
+
 Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
 
-Williamson, O. E. (2000). The new institutional economics: Taking stock, looking ahead. *Journal of Economic Literature, 38*(3), 595–613.** https://doi.org/10.1257/jel.38.3.595
+Williamson, O. E. (2000). The new institutional economics: Taking stock, looking ahead. *Journal of Economic Literature, 38*(3), 595–613. https://doi.org/10.1257/jel.38.3.595
 
 WIPO. (2024). *Global Innovation Index 2024: Unlocking the promise of social entrepreneurship*. World Intellectual Property Organization.
 
@@ -670,7 +670,7 @@ World Bank. (2026d, April). *Commodity markets outlook, April 2026*. World Bank 
 
 World Bank. (2026e). *Public institutions in the age of AI: Emerging practices* (Prosperity Insight Series). World Bank Group, GovTech and Public Sector Innovation.
 
-World Bank. (n.d.). *Tài liệu tóm tắt: Các chỉ số khảo sát doanh nghiệp Enterprise Surveys* [Summary document: Enterprise Survey indicators]. World Bank.** https://www.enterprisesurveys.org
+World Bank. (n.d.). *Tài liệu tóm tắt: Các chỉ số khảo sát doanh nghiệp Enterprise Surveys* [Summary document: Enterprise Survey indicators]. World Bank. https://www.enterprisesurveys.org
 
 Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: Evidence from a meta-analysis. *International Business Review, 31*(2), 101920.
 
@@ -678,9 +678,7 @@ Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internati
 
 Xiong, Z., Sun, C., & Zhao, M. (2024). Internationalization speed and corporate long-term performance: Exploring the inverted U-shaped relationship. *Finance Research Letters*. https://doi.org/10.1016/j.frl.2024.106247
 
-Xu, J. (2024). Rethinking institutional arbitrage: De jure exposure and de facto enforcement. *Global Strategy Journal, 14*(4), 754–799.** https://doi.org/10.1002/gsj.1510
-
-Yang et al. (2025) JBR: hiện chưa verify được volume/pages — cần kiểm tra Crossref hoặc loại bỏ.
+Xu, J. (2024). Rethinking institutional arbitrage: De jure exposure and de facto enforcement. *Global Strategy Journal, 14*(4), 754–799. https://doi.org/10.1002/gsj.1510
 
 Yang, B., Bai, W., Chen, Y., & Rong, K. (2025). Internationalization of digital firms: A systematic review and research agenda. *Journal of Business Research*.
 
