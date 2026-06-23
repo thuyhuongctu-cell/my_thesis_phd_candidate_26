@@ -41,7 +41,7 @@
 > vững có/không Timor: `data_wbes/analysis/timor_sensitivity.md` (kết luận không đổi cả hai chiều).
 >
 > **Bảng mô tả (single source of truth):** `scripts/relock_descriptives_canonical.py` →
-> `data_wbes/analysis/descriptives_canonical_49econ.csv` tái lập mọi ô của Bảng 4.1/4.2 (luận án)
+> `data_wbes/analysis/descriptives_canonical_50econ.csv` tái lập mọi ô của Bảng 4.1/4.2 (luận án)
 > và 2.3.3.1–2.3.6 (CĐ1) từ raw, cùng harmonization P7. Mô tả Nhóm VI (P7) = 8 nền gồm Timor
 > (n(LP)=1.916, đổi mới SP 34,2%, website 41,5%); nghiên cứu P8 dùng 7 Pacific (n(LP)=1.471,
 > đổi mới SP 39,6%, website 47,1%). Các nhóm khác canonical **trùng** Bảng 4.2 vintage.

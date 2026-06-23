@@ -11,7 +11,7 @@
 
 | # | Hạng mục | Mức độ | Trạng thái |
 |---|----------|--------|-----------|
-| 1 | Bảng 4.1/4.2 drift (cũ: cộng 98.097 ≠ 96.415; lệch CSV; thiếu China-2012) | 🔴→🟢 | ✅ **Đã tái lập Bảng 4.1+4.2 từ script canonical** (gồm China-2012); n = LP-valid 84.045/49 nền. Còn: **sync CĐ1** (xem §11) |
+| 1 | Bảng 4.1/4.2 drift (cũ: cộng 98.097 ≠ 96.415; lệch CSV; thiếu China-2012 + Azerbaijan) | 🔴→🟢 | ✅ **Tái lập đủ 50 nền từ script canonical** (gồm China-2012 + 4 đợt Azerbaijan); n = LP-valid **84.998/50 nền/107 cặp**. Thesis Bảng 4.1–4.2 + CĐ1 Bảng 2.3.2.1/2.3.3.1/2.3.4.1/A.1 đã đồng bộ (§11–§13) |
 | 2 | Nhãn năm hội nghị: "ICBEF 2025" (ch3 ×2) vs "ICBEF 2024" (ch4/ch5/DMTL) | 🟡 Nhẹ | ✅ **Đã sửa → 2024** |
 | 3 | TCI Trung Quốc 2012: thân luận án ghi "+0,26" vs bài P5 "+0,28" | 🟡 Nhẹ | ✅ **Đã sửa → +0,28** (ch4:668, ch5:139) |
 | 4 | ~~H1c vắng trong Bảng 2.2~~ → **KHÔNG phải lỗi**: H1c là giả thuyết con (lồng dưới H1/H6), cố ý không nằm trong Bảng 2.2 theo ghi chú `ch2:314` | ⚪ Bác bỏ flag | ✅ Đã rà lại — đúng thiết kế |
@@ -291,3 +291,36 @@ con đã ghi chú minh bạch.
 **Lưu ý còn mở (nhẹ):** nếu cần con số phân rã đúng cho khung 88.869/50 (không phải LP-valid) hoặc
 bổ sung Azerbaijan, phải có lát cắt thô Azerbaijan + chạy bước phân loại trên master file — nằm ngoài
 subset committed.
+
+---
+
+## 13. ✅ Tích hợp Azerbaijan → đủ 50 nền tái lập (2026-06-22, lượt 4)
+
+NCS cung cấp dữ liệu thô WBES Azerbaijan đầy đủ. Đã tích hợp để khung mô tả đạt **đủ 50 nền tái lập được**.
+
+**Nguyên nhân Azerbaijan bị rớt (49 nền):** Azerbaijan có 1.363 quan sát / 4 đợt trong master CSV nhưng
+ô `icrv_label` **toàn NaN** → `icrv_map().dropna()` loại bỏ. Khoảng cách 49-vs-50 do Azerbaijan, **không
+phải Timor** (Timor luôn nằm trong Nhóm VI).
+
+**Đã làm:**
+1. `scripts/cd1_descriptives_pipeline.py`: gán nhãn `m.setdefault("Azerbaijan","Emerging")` (Nhóm V, theo
+   phân loại luận án) — cùng cơ chế đã dùng cho Nhật Bản.
+2. Thêm 4 lát cắt thô chuẩn vào `data_wbes/raw_dta/`: Azerbaijan-2009/2013/2019-full-data.dta (2024 đã có).
+   (ZIP 2021 OS không phải lát cắt chuẩn nên không thêm; khớp đúng 4 năm 2009/2013/2019/2024 của master.)
+3. Chạy lại script canonical → **50 nền, 107 cặp nền-năm, 84.998 LP-valid**. Chỉ Nhóm V đổi
+   (Azerbaijan thuộc V): n 16.387→**17.340**, đợt 40→43; sd, FSTS, %… cập nhật theo.
+4. Đổi tên CSV `descriptives_canonical_49econ.csv` → `…_50econ.csv` (đã cập nhật script + CANONICAL_NUMBERS).
+
+**Đã cập nhật đồng bộ (thesis ↔ CĐ1, cùng vintage):**
+- Thesis: §4.1.1 (84.998/50/107), Bảng 4.1 (V n=17.340, tổng 84.998), Bảng 4.2 (V 24,0/15,9/17,6/13,0/40,6),
+  văn xuôi FSTS/website.
+- CĐ1: Bảng 2.3.2.1, Bảng A.1 (V 17.340, đợt 43, khôi phục Azerbaijan; tổng 84.998/50/107),
+  Bảng **2.3.3.1** (đếm + phân tán *trung vị giữa đợt* tính lại: I 0,96/II 1,13/III 1,29/IV 1,27/V 1,34/VI 1,30),
+  Bảng 2.3.4.1, văn xuôi phân bố (IV 50,4% / V 20,4% / III 17,9% / I 6,7% / VI 2,3% / II 2,4%).
+
+**Lưu ý còn mở (nhẹ, không bắt buộc):**
+- Bảng tương quan Pearson (`cd1:762`) dùng n *mẫu con cặp-đầy-đủ* riêng (5.661/…/1.715) — một subsample
+  phân tích khác, tính theo từng cặp biến; nếu muốn khớp tuyệt đối với khung 50 nền mới thì phải chạy lại
+  riêng phần tương quan. Đây là phân tích sâu hơn lớp mô tả, để NCS quyết.
+- "88.869/103 cặp" vẫn là **khung phân tích/hồi quy P7** (từ master), khác **khung mô tả LP-valid 84.998/107
+  cặp** (tái lập từ raw) — hai khung dựng từ hai nguồn nên số cặp/firm khác nhau; ghi chú bảng đã phân biệt rõ.

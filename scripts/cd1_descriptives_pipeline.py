@@ -66,6 +66,11 @@ def icrv_map():
     # Japan: first-ever WBES survey (2025); a full Advanced-innovation member of the
     # descriptive frame. Not in the econometric master CSV, so injected here.
     m.setdefault("Japan", "Advanced_innovation")
+    # Azerbaijan: present in the master CSV (4 waves, 1,363 obs) but its icrv_label
+    # cell is NaN, so dropna() above drops it. It is an Emerging-regime economy
+    # (ICRV Group V) per the thesis classification; re-assert the label so the
+    # descriptive frame covers all 50 economies (raw: Azerbaijan-2009/2013/2019/2024-full-data.dta).
+    m.setdefault("Azerbaijan", "Emerging")
     return m
 
 

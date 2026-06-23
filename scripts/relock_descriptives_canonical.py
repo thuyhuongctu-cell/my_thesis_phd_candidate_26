@@ -4,11 +4,11 @@ tables (thesis Table 4.1/4.2, CĐ1 Bảng 2.3.3.1-2.3.6).
 
 Design goal: every descriptive number is reproducible from the committed raw
 `.dta` using the SAME harmonisation as the P7 econometric pipeline, so the
-descriptive frame and the regression frame are identical (49 economies with
-committed raw data, incl. Japan and Timor-Leste; Timor-Leste is KEPT in Group VI
-for the P7/descriptive frame — only the dedicated P8 SIDS study excludes it via
-PACIFIC7. The 50th economy, Azerbaijan (Group V), has no committed raw
-cross-section). This eliminates the multiple conflicting
+descriptive frame and the regression frame are identical (50 economies with
+committed raw data, incl. Japan, Timor-Leste and Azerbaijan; Timor-Leste is KEPT
+in Group VI for the P7/descriptive frame — only the dedicated P8 SIDS study
+excludes it via PACIFIC7. Azerbaijan (Group V) is covered across all four waves
+2009/2013/2019/2024). This eliminates the multiple conflicting
 "vintages" (SIDS counts of 1,781 / 1,916 / 2,038 / 2,295 / 2,809 across older
 scripts) by deriving one coherent set.
 
@@ -23,7 +23,7 @@ Harmonisation (mirrors dist/osf/P7_capstone/code/p7_run_50econ.py):
   - rates (% Yes): product innov (h1), process innov (h5), R&D (h8),
     ISO cert (b8), website (c22b)
 
-Out: data_wbes/analysis/descriptives_canonical_49econ.csv
+Out: data_wbes/analysis/descriptives_canonical_50econ.csv
 Run: python3 scripts/relock_descriptives_canonical.py
 """
 import glob
@@ -118,7 +118,7 @@ def main():
             'website_pct': yes_rate(s['c22b']),
         })
     res = pd.DataFrame(out)
-    res.to_csv('data_wbes/analysis/descriptives_canonical_49econ.csv', index=False)
+    res.to_csv('data_wbes/analysis/descriptives_canonical_50econ.csv', index=False)
     tot_n = res['n_lp_valid'].sum()
     tot_e = res['n_econ'].sum()
     tot_w = res['n_waves'].sum()
@@ -127,7 +127,7 @@ def main():
           f"P8 SIDS study restricts to the 7 Pacific via PACIFIC7)\n")
     pd.set_option('display.width', 200, 'display.max_columns', 30)
     print(res.to_string(index=False))
-    print('\nsaved -> data_wbes/analysis/descriptives_canonical_49econ.csv')
+    print('\nsaved -> data_wbes/analysis/descriptives_canonical_50econ.csv')
 
 
 if __name__ == '__main__':
