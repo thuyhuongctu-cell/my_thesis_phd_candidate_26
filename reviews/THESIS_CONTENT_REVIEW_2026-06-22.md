@@ -348,3 +348,21 @@ dấu" còn lại trong luận án là về **độ cong hồi quy** (U-shape SI
 suất) — khác bản chất với tương quan mô tả, giữ nguyên đúng.
 
 → Toàn bộ lớp mô tả + tương quan của CĐ1 và thesis nay **cùng một vintage 50 nền tái lập được**.
+
+---
+
+## 15. ✅ Build lại toàn bộ bản nộp `dist/` (2026-06-23)
+
+Các file `.docx` bản nộp trước đây đề ngày 06-20, **trước** mọi sửa đổi 06-22/06-23 → đã build lại từ
+source hiện tại bằng pipeline sẵn có:
+- `bash scripts/build_word_all.sh` → `dist/word/LUAN_AN_vi.docx`, `CHUYEN_DE_1_vi.docx`, `CHUYEN_DE_2_vi.docx`.
+- `bash scripts/build_dissertation_docx.sh` → `dist/luan_an_ctu/LUAN_AN_FULL_vi.docx`.
+- Regenerate per-file docx trong `dist/luan_an_ctu/` (ch1–5, 00_phan_dau, 04_references, phụ lục A/B,
+  appendix_A) và `dist/chuyen_de_1|2/` từ source, dùng template `templates/ctu_paper_reference.docx`.
+
+**Đã kiểm chứng trong file đã build:** LUAN_AN_FULL chứa 84.998 (×4), 17.340, "Xác nhận một phần H5",
+"ICBEF 2024" (×7); CĐ1 chứa 84.998 (×7), 17.340 (×6), +0,141, "triệt tiêu hoàn toàn"; không còn số cũ
+84.045/16.387/−0,009. ("49 nền" còn lại trong bản dựng là **corpus meta P6** — đúng, khác khung WBES.)
+
+→ Bản nộp `dist/` nay khớp source đã sửa. **Vẫn còn (phần của NCS, không build được ở đây):** P6 κ +
+nhánh Scopus; A1 đối chiếu Stata; A2 verify DOI; Lời cảm ơn luận án.
