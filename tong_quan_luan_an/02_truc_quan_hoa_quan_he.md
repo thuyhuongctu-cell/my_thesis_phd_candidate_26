@@ -1,6 +1,10 @@
 # 2. Trực quan hóa quan hệ giữa papers – chuyên đề – các chương luận án
 
 > Các sơ đồ dùng cú pháp **Mermaid** (hiển thị trực tiếp trên GitHub/VS Code). Bảng "sợi chỉ vàng" trích từ Bảng 5.1 của Chương 5.
+>
+> **Phiên bản ảnh tĩnh** (dùng cho Word/PDF/in, sinh bằng `figures/render_overview_figs.py`):
+> ![Bản đồ tích hợp](figures/fig_integration_map.png)
+> ![Hình thái ba vùng](figures/fig_three_zone.png)
 
 ## 2.1 Sơ đồ tích hợp tổng thể: RQ → nghiên cứu thành phần → chương → chuyên đề
 
