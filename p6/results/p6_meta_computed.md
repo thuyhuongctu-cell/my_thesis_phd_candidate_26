@@ -1,7 +1,10 @@
-> ⚠️ **DEPRECATED — KHÔNG DÙNG LÀM NGUỒN.** File này (I²=87,8%; trim-and-fill ~10; Egger p=0,007;
-> ICRV r 0,045/0,052/−0,007/0,399/0,049) **mâu thuẫn** với bản thảo P6 và các bảng CSV trong cùng
-> thư mục `p6/results/` (I²=**62,4%**; trim-and-fill **58**; Egger p=**0,057**; ICRV r 0,079/0,065/0,069/0,349/0,053).
-> Nguồn sự thật = `p6/p6_meta_manuscript_en.md` + `table1_baseline.csv`/`table2_icrv.csv`. Cần tạo lại hoặc xóa file này.
+> ⚠️ **DEPRECATED — KHÔNG DÙNG LÀM NGUỒN / DO NOT CITE.** This file is the output of the
+> NON-CANONICAL Python cross-check `scripts/p6_meta_analysis.py`. It diverges from the canonical
+> R `metafor` pipeline: here I² = 87.8% (canonical 62.4%), trim-and-fill ~10 (canonical 57),
+> Egger p = 0.007 (canonical 0.057), ICRV r 0.045/0.052/−0.007/0.399/0.049 (canonical
+> 0.079/0.065/0.069/0.349/0.053). Source of truth = `table1_baseline.csv` … `table5_sensitivity.csv`
+> + `p6/results/CANONICAL_NUMBERS_P6.md`. The pooled r̄ = 0.074, k = 238, K = 288 and Q_M
+> ICRV = 17.35 below DO match canonical and are the only values safe to reuse from here.
 
 # P6 three-level meta-analysis — FROZEN computed results
 

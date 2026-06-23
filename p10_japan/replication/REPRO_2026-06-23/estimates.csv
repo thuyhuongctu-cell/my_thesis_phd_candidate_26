@@ -1,0 +1,11 @@
+quantity,model,term,estimate,std_or_p,n,canonical_target,match
+fsts_linear,M1,fsts_c,0.6707,p=0.0000,2047,+0.671***,Y
+fsts_quadratic,M2,fsts_c2,-0.6061,p=0.3232,2047,n.s. (no inverted-U),Y
+fsts_linear_in_quad,M2,fsts_c,1.0418,p=0.0022,2047,(linear dominates; near-linear),Y
+export_premium,premium,exporter,0.2580,p=0.0000,2011,+0.258***,Y
+N_raw,sample,raw_rows,2168,,2168,2168,Y
+desc_fsts_mean,Table1,fsts,0.041,sd=0.140 N=2128,2128,4.1%,Y
+desc_exporters_share,Table1,exporter,0.168,sd=0.374 N=2128,2128,16.8%,Y
+desc_website,Table1,dai_c22b,0.838,sd=0.368 N=2148,2148,83.8%,Y
+desc_firm_age,Table1,age,50.388,sd=29.906 N=2135,2135,50.4,Y
+desc_female_mgmt,Table1,fem,0.073,sd=0.260 N=2163,2163,7.3%,Y

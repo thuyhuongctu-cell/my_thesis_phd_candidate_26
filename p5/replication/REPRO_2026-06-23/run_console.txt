@@ -1,0 +1,82 @@
+======================================================================
+Loading raw data...
+  2012: (2700, 287)
+  2024: (2189, 339)
+  2024 panel firms: 217
+
+======================================================================
+>>> FRAME: ALL <<<
+
+--- AUDIT N ---
+wave    step                filter                          N
+2012    raw                 open                         2700
+2012    sample_analytic     all                          2610
+2012    sample_base         all                          2610
+2012    sample_dai          all                          2610
+2012    sample_tci          all                          1639
+2012    sample_full         all                          1639
+2024    raw                 open                         2189
+2024    sample_analytic     all                          1934
+2024    sample_base         all                          1934
+2024    sample_dai          all                          1934
+2024    sample_tci          all                          1920
+2024    sample_full         all                          1920
+pooled  append              all                          4889
+pooled  sample_analytic     all                          4544
+pooled  sample_base         all                          4544
+pooled  sample_dai          all                          4544
+pooled  sample_tci          all                          3559
+pooled  sample_full         all                          3559
+
+--- M2 TURNING POINTS (frame: all) ---
+  2012: TP = 49.37%  [95% CI: 43.17, 55.57]  N=2610
+  2024: TP = 47.19%  [95% CI: 34.46, 59.92]  N=1934
+
+======================================================================
+>>> FRAME: MFG <<<
+
+--- AUDIT N ---
+wave    step                filter                          N
+2012    raw                 open                         2700
+2012    mfg                 a4a 15-38                    1708
+2012    sample_analytic     mfg                          1656
+2012    sample_base         mfg                          1656
+2012    sample_dai          mfg                          1656
+2012    sample_tci          mfg                          1620
+2012    sample_full         mfg                          1620
+2024    raw                 open                         2189
+2024    mfg                 d1a2_v4//100 10-33           1187
+2024    sample_analytic     mfg                          1062
+2024    sample_base         mfg                          1062
+2024    sample_dai          mfg                          1062
+2024    sample_tci          mfg                          1052
+2024    sample_full         mfg                          1052
+pooled  append              mfg                          2895
+pooled  sample_analytic     mfg                          2718
+pooled  sample_base         mfg                          2718
+pooled  sample_dai          mfg                          2718
+pooled  sample_tci          mfg                          2672
+pooled  sample_full         mfg                          2672
+
+--- M2 TURNING POINTS (frame: mfg) ---
+  2012: TP = 42.31%  [95% CI: 37.81, 46.80]  N=1656
+  2024: TP = 29.65%  [95% CI: 15.08, 44.23]  N=1062
+
+Done. Output: audit_N_all.csv, audit_N_mfg.csv
+Wrote /home/user/MY_THESIS_PHD_CANDIDATE_26/p5/replication/REPRO_2026-06-23/estimates.csv
+
+--- TURNING POINTS ---
+  M2_all_2012            TP=49.37%     N=2610
+  M2_all_2024            TP=47.19%     N=1934
+  M2_all_pooled          TP=48.78%     N=4544
+  M2_mfg_2012            TP=42.31%     N=1656
+  M2_mfg_2024            TP=29.65%     N=1062
+  M2_mfg_pooled          TP=38.62%     N=2718
+
+--- INVERTED-U b2 (FSTSsq) ---
+  M2_all_2012            b2=  -2.0919  se=0.4345  p=1e-06
+  M2_all_2024            b2=  -1.5873  se=0.7117  p=0.0257
+  M2_all_pooled          b2=  -1.8289  se=0.3753  p=1e-06
+  M2_mfg_2012            b2=  -2.3559  se=0.4146  p=0
+  M2_mfg_2024            b2=  -1.4961  se=0.7942  p=0.0596
+  M2_mfg_pooled          b2=  -2.0564  se=0.3730  p=0
