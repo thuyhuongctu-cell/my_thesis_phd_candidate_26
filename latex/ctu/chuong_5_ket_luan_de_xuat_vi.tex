@@ -1,8 +1,10 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
+  a4paper,
   13pt]{extreport}
 \usepackage{amsmath,amssymb}
 \usepackage{setspace}
@@ -27,18 +29,8 @@
   \usepackage[]{microtype}
   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
 \usepackage{xcolor}
-\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm,headsep=1cm,footskip=1cm]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -119,7 +111,11 @@
 \urlstyle{same}
 \hypersetup{
   pdflang={vi},
-  hidelinks,
+  colorlinks=true,
+  linkcolor={black},
+  filecolor={Maroon},
+  citecolor={black},
+  urlcolor={blue},
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
