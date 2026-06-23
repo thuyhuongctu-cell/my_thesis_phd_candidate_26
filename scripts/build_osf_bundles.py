@@ -25,40 +25,54 @@ PAPERS = {
         'See manuscript replication appendix (Stata + Python).',
         'Inverted-U turning point 39-46% FSTS across waves.'),
     'P4_singapore': (
-        ['manuscripts/p4_singapore_en_clean.md'],
+        ['p4/replication/p4_singapore_figs_from_raw.py',
+         'p4/replication/REPRO_2026-06-23/estimates.csv'],
         'manuscripts/p4_singapore_en_clean.md',
-        'See manuscript replication appendix.',
-        'Turning point ~88.6% (not reliably located); DAI x FSTS^2 +3.119, p=.005.'),
+        'python3 p4/replication/p4_singapore_figs_from_raw.py',
+        'Inverted-U M2 (FSTS_c +3.08/FSTS^2_c -1.90); TP ~88.6% (not reliably '
+        'located); DAI x FSTS^2 +3.119 (p~.02); N=623/617.'),
     'P5_china': (
-        ['manuscripts/p5_china_en_clean.md'],
+        ['p5/replication/python/build_and_run.py',
+         'p5/replication/REPRO_2026-06-23/estimates.csv'],
         'manuscripts/p5_china_en_clean.md',
-        'See p5-china replication appendix.',
-        'Threshold stability across 2012/2024 (Paternoster z ns); pooled N=4,559.'),
+        'python3 p5/replication/python/build_and_run.py',
+        'Inverted-U pooled TP 48.8% (mfg 42.3% 2012 / 29.7% 2024); threshold '
+        'stability (Paternoster z ns); pooled N=4,544 (2,610/1,934).'),
     'P6_meta': (
         ['scripts/p6_meta_analysis.py', 'p6/results/forest_data.csv'],
         'p6/submission/jwb_package/01_manuscript_blinded.md',
         'python3 scripts/p6_meta_analysis.py',
         'Pooled r=0.074; Q_M ICRV=17.35/cDAI=1.23/DPL=0.56; k=238, K=288.'),
     'P7_capstone': (
-        ['scripts/p7_run_50econ.py', 'scripts/p7_full_ladder.py'],
+        ['scripts/p7_run_50econ.py', 'scripts/p7_full_ladder.py',
+         'p7/replication/REPRO_2026-06-23/estimates.csv'],
         'p7/submission/ibr_package/01_manuscript_blinded.md',
-        'python3 scripts/p7_full_ladder.py',
-        'M2 N=81,022 TP=51.5%; M4 N=79,080 TP=43.6%; three-zone per-ICRV.'),
+        'python3 scripts/p7_run_50econ.py',
+        'M2 N=81,022 TP=51.5%; M5 N=79,080 TP=43.6%; three-zone per-ICRV '
+        '(Group IV 43.0% sharp; SIDS no inverted-U).'),
     'P8_sids': (
-        ['scripts/stata/p8_sids_fip.do'],
-        'p8/submission/world_development_package/01_manuscript_blinded.md',
-        'stata -b do scripts/stata/p8_sids_fip.do (or pyfixest equivalent)',
-        'FIP beta=-1.339, p<.001 (N=959); 9-econ robustness beta=-0.510, p=.008.'),
+        ['p8/replication/build_and_run_p8_7pacific.py',
+         'p8/replication/REPRO_2026-06-23/estimates.csv'],
+        'p8/p8_pacific_sids_redesigned_en.md',
+        'python3 p8/replication/build_and_run_p8_7pacific.py',
+        'Inverted-U DISSOLVES across 7 Pacific SIDS (N=1,450/7 clusters): '
+        'linear FSTS_c -0.085 (p_wild=.66); quadratic FSTS_c^2 +0.696 '
+        '(p_wild=.082). FIP beta=-1.339 is a SUPERSEDED 3-cluster limiting '
+        'case only, not the headline.'),
     'P9_india': (
-        [],
+        ['p9_india/replication/run_pipeline.py',
+         'p9_india/replication/REPRO_2026-06-23/estimates.csv'],
         'p9_india/submission/mir_package/01_manuscript_blinded_full.md',
-        'See p9 replication appendix (3 WBES waves).',
-        'Threshold dissolution across 2014/2022/2025; pooled N~28,717.'),
+        'python3 p9_india/replication/run_pipeline.py',
+        'Threshold dissolution across waves (TP 61.8% 2014 / 40.7% 2022 / '
+        'dissolves); Paternoster z=-7.94; pooled N~28,717.'),
     'P10_japan': (
-        ['p10_japan/replication/p10_japan_models.py'],
+        ['p10_japan/replication/p10_japan_models.py',
+         'p10_japan/replication/REPRO_2026-06-23/estimates.csv'],
         'p10_japan/submission/abm_package/01_manuscript_blinded.md',
         'python3 p10_japan/replication/p10_japan_models.py',
-        'FSTS linear +0.671***; quadratic ns; exporter premium +0.258***.'),
+        'FSTS linear +0.671***; quadratic ns (near-linear); exporter premium '
+        '+0.258***; N=2,168.'),
     'P11_jed': (
         ['jed_ai_digital/replication/jed_digital_divide.py',
          'jed_ai_digital/replication/jed_robustness.py',
