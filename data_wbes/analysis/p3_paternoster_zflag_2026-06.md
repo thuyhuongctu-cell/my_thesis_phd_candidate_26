@@ -113,3 +113,27 @@ including TCI_z (M7) pulls DAI_z toward the reported magnitude — not as a repl
 Stata estimates. For a fully auditable replication package the candidate need only (i) commit the
 Stata estimates table + analytic `.dta`, and (ii) annotate that the `.do` `b1_d` denominator maps
 to her labour-productivity worker field. No thesis/manuscript number is changed.
+
+---
+
+## Dò mẫu số `b1_d` bằng dữ liệu thực (2026-06-23)
+
+Để tìm "input còn thiếu" (`b1_d` ánh xạ sang biến lao động nào), đã thử lại M2 β₁ với 7 mẫu số ứng
+viên trên 3 đợt Vietnam thô (LP = ln(d2/DENOM), winsorize 1/99 trong đợt, M2 = FSTSc+FSTSc²+lnEmp+
+firmage+foreign, HC1):
+
+| DENOM | 2009 (tgt 1,045) | 2015 (tgt 1,159) | 2023 (tgt 0,962) |
+|---|---|---|---|
+| **l1** (baseline) | +0,575 | +0,952 | +0,852 |
+| l2 | +0,358 | +0,981 | +0,849 |
+| l6 | −0,931 | +0,423 | −1,729 |
+| l5 | +4,279 | +0,934 | +7,774 |
+| n2a | −0,034 | +1,017 | +0,409 |
+| l10 | +0,681 | +1,182 | +1,183 |
+| l1+l2 | +0,479 | +1,027 | +0,822 |
+
+**Kết luận:** **không mẫu số đơn lẻ nào** tái lập đồng thời cả ba β₁ bản thảo. `l10` khớp 2015 nhưng
+lệch 2009/2023; `l1` lệch đều ~+0,2…+0,5. → Gap **đa yếu tố** (mẫu số + mẫu định tâm FSTS/exporters +
+winsorize/sample), không thể đảo ngược chỉ bằng đổi mẫu số. Xác nhận khuyến nghị: cần **bảng estimate
+Stata + `.dta` phân tích** của NCS (Option a), hoặc chuyển §4.5.6 sang giá trị tái lập được từ CSV
+(Option b). Số bản thảo **giữ nguyên** (author-authoritative, đã chốt 19/06).
