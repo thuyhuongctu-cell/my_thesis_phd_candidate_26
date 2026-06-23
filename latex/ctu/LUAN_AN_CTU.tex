@@ -11799,8 +11799,9 @@ Kết quả (mẫu gộp chính thức)
 \bottomrule\noalign{}
 \endlastfoot
 \textbf{S1} & Thu thập \& lọc loại khảo sát & Giữ lát cắt ngang doanh
-nghiệp tư nhân chuẩn; \textbf{loại} bảng panel, Informal Sector, ISBS,
-ISES, Micro, và khảo sát theo dõi TGS; giữ \textbf{năm ≥ 2006} & --- \\
+nghiệp tư nhân chuẩn; \textbf{loại} thành phần dữ liệu bảng (panel), khu
+vực phi chính thức, ISBS, ISES, Micro, và khảo sát theo dõi TGS; giữ
+\textbf{năm ≥ 2006} & --- \\
 \textbf{S2} & Khử trùng lặp & Một khảo sát cho mỗi cặp (nền kinh tế ×
 năm) & --- \\
 \textbf{S3} & Hài hòa hóa biến & Ánh xạ trường câu hỏi dị biệt về một
@@ -11856,8 +11857,9 @@ S3)}\label{a.4-huxe0i-huxf2a-huxf3a-biux1ebfn-sux1ed1-bux1b0ux1edbc-s3}}
 Thách thức cốt lõi của hợp nhất đa quốc gia là \textbf{dị biệt tên
 trường và mã hóa} giữa các đợt khảo sát (ví dụ, một số đợt tách xuất
 khẩu trực tiếp/gián tiếp, một số gộp). Luận án xây dựng một \textbf{lược
-đồ biến chung} ánh xạ về các module cốt lõi bất biến của bộ công cụ WBES
-toàn cầu (World Bank, 2019). Các biến trọng tâm và quy tắc xây dựng:
+đồ biến chung} ánh xạ về các phân hệ cốt lõi bất biến của bộ công cụ
+WBES toàn cầu (World Bank, 2019). Các biến trọng tâm và quy tắc xây
+dựng:
 
 \begin{itemize}
 \tightlist
@@ -11929,10 +11931,11 @@ dụ ROS) hoặc điều chỉnh sức mua tương đương (PPP) theo Bảng Pe
 ngang lặp
 lại)}\label{a.6-chiux1ebfn-lux1b0ux1ee3c-hux1ee3p-nhux1ea5t-kinh-tux1ebf-lux1b0ux1ee3ng-dux1eef-liux1ec7u-gux1ed9p-luxe1t-cux1eaft-ngang-lux1eb7p-lux1ea1i}}
 
-Vì dữ liệu là lát cắt ngang lặp lại chứ không phải panel, ước lượng tuân
-theo khung \textbf{pooled cross-section với hiệu ứng cố định} thay vì mô
-hình panel động (Deaton, 1985; Wooldridge, 2010). Cụ thể, mô hình lõi
-của P7 có dạng bậc hai để nắm bắt quan hệ chữ U ngược (H1):
+Vì dữ liệu là lát cắt ngang lặp lại chứ không phải dữ liệu bảng, ước
+lượng tuân theo khung \textbf{gộp lát cắt ngang (pooled cross-section)
+với hiệu ứng cố định} thay vì mô hình bảng động (panel động) (Deaton,
+1985; Wooldridge, 2010). Cụ thể, mô hình lõi của P7 có dạng bậc hai để
+nắm bắt quan hệ chữ U ngược (H1):
 
 \[\ln(\text{LP})_{ijt} = \beta_1 \text{FSTS}_{ijt} + \beta_2 \text{FSTS}^2_{ijt} + \mathbf{X}_{ijt}\boldsymbol{\gamma} + \alpha_j + \tau_t + \varepsilon_{ijt}\]
 
@@ -12009,10 +12012,11 @@ license Stata.
 
 \textbf{Hạn chế.} (i) Dữ liệu lát cắt ngang lặp lại không cho phép theo
 dõi quỹ đạo doanh nghiệp, hạn chế suy diễn nhân quả động; (ii) năng suất
-lao động là proxy cho hiệu quả, không phải TFPR trực tiếp; (iii) đo
-lường DAI bị giới hạn ở proxy website cấp nền tảng do ràng buộc dữ liệu;
-(iv) kho thô tái lập hiện là tập con của bộ lắp ráp đầy đủ. Các hạn chế
-này được nêu nhất quán với phần hạn chế ở Chương 5.
+lao động là biến đại diện (proxy) cho hiệu quả, không phải TFPR trực
+tiếp; (iii) đo lường DAI bị giới hạn ở biến đại diện website cấp nền
+tảng do ràng buộc dữ liệu; (iv) kho thô tái lập hiện là tập con của bộ
+lắp ráp đầy đủ. Các hạn chế này được nêu nhất quán với phần hạn chế ở
+Chương 5.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -12073,7 +12077,7 @@ M-AIDA gồm hai thành phần, giao tiếp qua REST API:
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Backend --- FastAPI (Python 3.11+).} Các module chính:
+  \textbf{Backend --- FastAPI (Python 3.11+).} Các mô-đun chính:
   \texttt{extractor.py} (lớp \texttt{StatisticalExtractor}: pipeline LLM
   trích cỡ ảnh hưởng từ văn bản PDF), \texttt{models.py} (các mô hình dữ
   liệu Pydantic: \texttt{ExtractedEffect}, \texttt{StudyDatabaseEntry},

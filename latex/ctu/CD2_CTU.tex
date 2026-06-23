@@ -1145,8 +1145,8 @@ FSTS²) & H1 Phi tuyến chữ U ngược & P3: TP 39--46\%; P5: TP 47--49\% \\
 Digital Adoption Lens & CDCM & Năng lực số có cơ chế khác TCI không? &
 DAI & H3a--H3b DAI phụ thuộc chế độ thể chế & P4: DAI×FSTS² = +3,119
 (Nhóm I); P3: IV null (β = 0,018, Nhóm IV) \\
-4 & Upper Echelons & Đặc điểm nhà quản trị tác động thế nào? & Top
-manager & H4a--H4c Quản trị điều tiết & (kiểm định trong M5, dữ liệu
+4 & Upper Echelons & Đặc điểm nhà quản trị tác động thế nào? & Nhà quản
+trị cấp cao & H4a--H4c Quản trị điều tiết & (kiểm định trong M5, dữ liệu
 WBES) \\
 3 & Institutional & Thể chế nội địa định hình quan hệ ra sao? & ICRV (6
 nhóm) & H5 Phổ thể chế & Phân tích mô tả CĐ1: phân tán LP tăng theo chế
@@ -1169,7 +1169,7 @@ quốc đảo nhỏ; và thay đổi theo bối cảnh thời gian, thiết kế
 đoạn.
 
 Hạn chế của khung tích hợp: khó tách hiệu ứng riêng từng tầng nếu không
-có dữ liệu panel dài; một số biến quan trọng theo Uppsala (khoảng cách
+có dữ liệu bảng dài; một số biến quan trọng theo Uppsala (khoảng cách
 tâm lý, gắn kết mạng lưới) khó đo trong WBES; TCI và DAI có thể tương
 quan; ICRV và country hiệu ứng cố định có thể đa cộng; CDCM chỉ đo ở
 Tầng 1--2 do hạn chế WBES.
@@ -1303,7 +1303,7 @@ educ\_manager & Học vấn QL & b7a & thứ tự & β \textgreater{} 0 (δ\_edu
 \textgreater{} 0) & H4b \\
 gender\_manager & Giới tính QL & b7 & binary female=1 & Exploratory,
 two-sided & H4c \\
-ICRV\_j & Chế độ thể chế & -- & j = I--VI dummy & Phổ H5 & H5 \\
+ICRV\_j & Chế độ thể chế & -- & j = I--VI, biến giả & Phổ H5 & H5 \\
 Year\_bucket & Thời gian & year & 2009--12/13--17/18--25 & Dịch chuyển
 H6 & H6 \\
 ln(employees) & Quy mô doanh nghiệp & l1 & ln(l1) & β \textgreater{} 0 &
@@ -1584,7 +1584,7 @@ Cơ sở
 \bottomrule\noalign{}
 \endlastfoot
 Nhóm I (tiên tiến đổi mới) & \textbf{gần tuyến tính dương; điểm uốn
-ngoài miền dữ liệu} & P7 50 nền: pooled TP M5 = 43,6\% (N=79.080; M2
+ngoài miền dữ liệu} & P7 50 nền: TP gộp M5 = 43,6\% (N=79.080; M2
 N=81.022); trong Nhóm I đường cong không định hình (LM p = ,30), nhất
 quán P4 Singapore (TP \textasciitilde88,6\%, LM p = ,303, không có ý
 nghĩa) \\
@@ -1786,8 +1786,8 @@ H2)}\label{m3-ux111iux1ec1u-tiux1ebft-tci-kiux1ec3m-ux111ux1ecbnh-h2}}
 Mục đích: kiểm định H2, TCI là nâng mặt bằng (β₃ \textgreater{} 0)
 và/hoặc điều tiết độ cong (β₄, β₅). Kỳ vọng chính: β₃ \textgreater{} 0
 (hiệu ứng TCI trực tiếp). Kiểm định: F-test (β₄ = β₅ = 0) = kiểm định
-joint moderation; nếu p \textgreater{} 0,10 sang TCI là nâng mặt bằng
-thuần túy.
+điều tiết kết hợp (joint moderation); nếu p \textgreater{} 0,10 sang TCI
+là nâng mặt bằng thuần túy.
 
 \hypertarget{m4-ux111iux1ec1u-tiux1ebft-dai-kiux1ec3m-ux111ux1ecbnh-h3}{%
 \subparagraph{M4: + Điều tiết DAI (kiểm định
@@ -1992,8 +1992,8 @@ sang khung phân tích 50 nền Á--TBD (gồm Nhật Bản) = 88.869 DN.}
 Ba thế hệ lược đồ WBES và giao thức hòa hợp: PICS3 (2006--2012): biến
 FSTS từ d3b/d3c; TCI từ h1/h8/b8; DAI từ c22b only. Standardized
 (2013--2017): biến tái định dạng nhưng tương thích. BREADY/BEE
-(2018--2025): lược đồ mở rộng; DAI đầy đủ (c22b + k33 + k38); module nhà
-quản trị chi tiết hơn.
+(2018--2025): lược đồ mở rộng; DAI đầy đủ (c22b + k33 + k38); phân hệ
+nhà quản trị chi tiết hơn.
 
 \emph{Ghi chú về trọng số khảo sát:} Chuyên đề không áp dụng trọng số
 mẫu WBES (\texttt{wt\_final}) trong các mô hình hồi quy vì ba lý do. Thứ
@@ -2020,20 +2020,21 @@ Biến phụ thuộc, ln(LP):
 \[\ln(LP)_i = \ln\left(\frac{\text{doanh thu hằng năm}_i}{\text{lao động thường xuyên}_i}\right)\]
 
 Doanh thu (d2) được báo cáo bằng \textbf{nội tệ} của từng nền kinh tế,
-nên mức \(\ln(LP)\) thô không so sánh được trực tiếp xuyên quốc gia. Để
-trung hòa khác biệt đơn vị tiền tệ và mặt bằng giá, năng suất lao động
-được \textbf{chuẩn hóa z trong từng cụm nền kinh tế × năm} trước khi đưa
-vào mô hình, và mọi đặc tả đều có \textbf{hiệu ứng cố định hai chiều
-(nền kinh tế × năm)} hấp thụ toàn bộ thành phần bất biến theo nước (tiền
-tệ, mặt bằng giá, chế độ kế toán). Cách này bảo đảm hệ số quan hệ quốc
-tế hóa và hiệu quả được nhận dạng từ biến thiên \emph{nội bộ} nền kinh
-tế--năm, nhất quán với Phụ lục A của luận án (Mục A.5) và nghiên cứu đa
-quốc gia P7. Mọi so sánh \textbf{mức} xuyên quốc gia dùng tỷ suất không
-thứ nguyên (ROS) hoặc giá trị đã hiệu chỉnh sức mua tương đương (PPP),
-không dùng mức \(\ln(LP)\) thô. Giá trị được winsorize tại phân vị 1/99
-trong cụm nền kinh tế × năm để giảm ảnh hưởng ngoại lệ. Lựa chọn năng
-suất lao động làm thước đo hiệu quả phù hợp với dữ liệu WBES (Combs et
-al., 2005; Cusolito \& Maloney, 2018; Richard et al., 2009).
+nên mức \(\ln(\mathrm{LP})\) thô không so sánh được trực tiếp xuyên quốc
+gia. Để trung hòa khác biệt đơn vị tiền tệ và mặt bằng giá, năng suất
+lao động được \textbf{chuẩn hóa z trong từng cụm nền kinh tế × năm}
+trước khi đưa vào mô hình, và mọi đặc tả đều có \textbf{hiệu ứng cố định
+hai chiều (nền kinh tế × năm)} hấp thụ toàn bộ thành phần bất biến theo
+nước (tiền tệ, mặt bằng giá, chế độ kế toán). Cách này bảo đảm hệ số
+quan hệ quốc tế hóa và hiệu quả được nhận dạng từ biến thiên \emph{nội
+bộ} nền kinh tế--năm, nhất quán với Phụ lục A của luận án (Mục A.5) và
+nghiên cứu đa quốc gia P7. Mọi so sánh \textbf{mức} xuyên quốc gia dùng
+tỷ suất không thứ nguyên (ROS) hoặc giá trị đã hiệu chỉnh sức mua tương
+đương (PPP), không dùng mức \(\ln(\mathrm{LP})\) thô. Giá trị được cắt
+đuôi (winsorize) tại phân vị 1/99 trong cụm nền kinh tế × năm để giảm
+ảnh hưởng ngoại lệ. Lựa chọn năng suất lao động làm thước đo hiệu quả
+phù hợp với dữ liệu WBES (Combs et al., 2005; Cusolito \& Maloney, 2018;
+Richard et al., 2009).
 
 Biến độc lập, FSTS:
 
@@ -2199,7 +2200,7 @@ quả}\label{chiux1ebfn-lux1b0ux1ee3c-nhux1eadn-dux1ea1ng-nhuxe2n-quux1ea3}}
 
 Tầng 1, OLS với SE robust và hiệu ứng cố định (tất cả mô hình M0--M7):
 HC1 SE (chuẩn), điều chỉnh không đồng nhất phương sai cấp doanh nghiệp;
-two-way hiệu ứng cố định (quốc gia × năm); kiểm tra VIF, kỳ vọng
+hiệu ứng cố định hai chiều (quốc gia × năm); kiểm tra VIF, kỳ vọng
 \textless{} 10 cho các biến trọng tâm.
 
 Tầng 2, Biến công cụ (DAI trong M4, Nhóm IV): Ứng viên biến công cụ: (1)
@@ -2261,9 +2262,9 @@ Kỳ vọng
 \bottomrule\noalign{}
 \endlastfoot
 R1 Thay đổi thước đo & Biến phụ thuộc/độc lập/điều tiết khác nhau & (a)
-Biến phụ thuộc sang ROS; (b) Biến độc lập sang dummy exporter; (c) TCI
-3-item (loại h1); (d) DAI Tier 1 only (c22b) xuyên tất cả schema & Dấu
-hệ số giữ nguyên; magnitude có thể khác \\
+Biến phụ thuộc sang ROS; (b) Biến độc lập sang biến giả xuất khẩu (dummy
+exporter); (c) TCI 3-item (loại h1); (d) DAI Tier 1 only (c22b) xuyên
+tất cả schema & Dấu hệ số giữ nguyên; magnitude có thể khác \\
 R2 Lọc mẫu & Thiên lệch chọn lựa từ thành phần mẫu & (a) Loại doanh
 nghiệp vi mô (\textless5 lao động); (b) Loại SOE (sở hữu nhà nước
 \textgreater50\%); (c) Chỉ sản xuất (ISIC 10--33); (d) Chỉ doanh nghiệp
@@ -2377,7 +2378,7 @@ WBES được hòa hợp qua giao thức chi tiết. Mẫu gộp này đủ lớ
 nhân rộng mẫu con theo ICRV và giai đoạn thời gian với power đầy đủ.
 
 Đóng góp 7: Chiến lược nhận dạng đa tầng tích hợp biến công cụ. Kết hợp
-HC1/HC3 SE robust, two-way hiệu ứng cố định, nhận dạng IV (F bậc một
+HC1/HC3 SE robust, hiệu ứng cố định hai chiều, nhận dạng IV (F bậc một
 \textgreater{} 16), và Paternoster z-test cho so sánh xuyên nhóm tạo ra
 chiến lược nhận dạng mạnh nhất có thể với dữ liệu WBES cắt ngang. Đặc
 biệt, việc tách DAI nhân quả vs.~phụ thuộc chọn lựa (từ bằng chứng P3
@@ -2474,13 +2475,13 @@ nguồn tham chiếu phương pháp.
 
 \textbf{(a) Điều không thể kết luận từ khung nghiên cứu này:}
 
-Thứ nhất, dữ liệu WBES không phải panel chuẩn, mỗi sóng là thiết kế cắt
-ngang với mẫu mới, không theo dõi cùng một doanh nghiệp qua thời gian.
-Do đó, mô hình M0--M7 xác lập \emph{liên kết có điều kiện} chứ không
-phải \emph{tác động nhân quả} giữa quốc tế hóa và hiệu quả; không thể
-loại trừ khả năng doanh nghiệp vốn hiệu quả hơn sẽ xuất khẩu nhiều hơn
-(reverse causality) mà không có biến công cụ hợp lệ hoặc thiết kế thực
-nghiệm tự nhiên.
+Thứ nhất, dữ liệu WBES không phải dữ liệu bảng chuẩn, mỗi sóng là thiết
+kế cắt ngang với mẫu mới, không theo dõi cùng một doanh nghiệp qua thời
+gian. Do đó, mô hình M0--M7 xác lập \emph{liên kết có điều kiện} chứ
+không phải \emph{tác động nhân quả} giữa quốc tế hóa và hiệu quả; không
+thể loại trừ khả năng doanh nghiệp vốn hiệu quả hơn sẽ xuất khẩu nhiều
+hơn (reverse causality) mà không có biến công cụ hợp lệ hoặc thiết kế
+thực nghiệm tự nhiên.
 
 Thứ hai, DAI bị giới hạn ở Tầng 1--2 (website và e-payment) do hạn chế
 lược đồ WBES. Không thể kết luận về vai trò của năng lực số Tầng 3--4,
@@ -2528,11 +2529,11 @@ al.~(2003).
 Về nhân quả hóa quốc tế hóa và hiệu quả: Angrist \& Pischke (2009);
 Oster (2019) về δ-stability bounds; Wolfolds \& Siegel (2019) về điều
 kiện hợp lệ của Heckman. Về tổng hợp bằng chứng xuyên bối cảnh: Sutton
-\& Higgins (2008), panel phân tích tổng hợp; Borenstein et al.~(2021),
-Bayesian hồi quy phân tích tổng hợp với thông tin tiền nghiệm. Về mở
-rộng bậc số hóa: Verhoef et al.~(2021), phân cấp Tầng 1--4. Về mở rộng
-quốc tế hóa đa chiều: Contractor et al.~(2003); Sullivan (1994) về DOI
-chỉ số hợp thành.
+\& Higgins (2008), dữ liệu bảng cho phân tích tổng hợp; Borenstein et
+al.~(2021), Bayesian hồi quy phân tích tổng hợp với thông tin tiền
+nghiệm. Về mở rộng bậc số hóa: Verhoef et al.~(2021), phân cấp Tầng
+1--4. Về mở rộng quốc tế hóa đa chiều: Contractor et al.~(2003);
+Sullivan (1994) về DOI chỉ số hợp thành.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -2591,13 +2592,13 @@ tình huống (chỉ phát huy ở FSTS cao) thành nguồn lực nền tảng (
 bằng đồng nhất), và điều kiện chuyển đổi là gì (ngưỡng thể chế, quy mô
 doanh nghiệp, hay sóng công nghệ)?
 
-\textbf{Hướng 5, Panel longitudinal WBES core 2023--2027 (JIBS hoặc
-SMJ):} WBES core panel theo dõi một nhóm doanh nghiệp trong ít nhất hai
-sóng liên tiếp, cho phép kiểm định nhân quả TCI sang năng suất và DAI
-sang FSTS (theo hướng: số hóa có thúc đẩy xuất khẩu không, thay vì chỉ
-làm tăng năng suất?) không phụ thuộc vào giả định IV. Đây là hướng
-nghiên cứu thiết yếu để chuyển H2 và H3 từ liên kết có điều kiện thành
-tác động nhân quả được xác nhận.
+\textbf{Hướng 5, Dữ liệu bảng dọc (panel longitudinal) WBES core
+2023--2027 (JIBS hoặc SMJ):} tập dữ liệu bảng lõi (WBES core panel) theo
+dõi một nhóm doanh nghiệp trong ít nhất hai sóng liên tiếp, cho phép
+kiểm định nhân quả TCI sang năng suất và DAI sang FSTS (theo hướng: số
+hóa có thúc đẩy xuất khẩu không, thay vì chỉ làm tăng năng suất?) không
+phụ thuộc vào giả định IV. Đây là hướng nghiên cứu thiết yếu để chuyển
+H2 và H3 từ liên kết có điều kiện thành tác động nhân quả được xác nhận.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 

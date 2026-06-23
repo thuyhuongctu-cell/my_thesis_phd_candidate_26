@@ -21,7 +21,7 @@ khâu đọc–trích, đồng thời đặt **toàn bộ quyền quyết địn
 
 M-AIDA gồm hai thành phần, giao tiếp qua REST API:
 
-- **Backend — FastAPI (Python 3.11+).** Các module chính: `extractor.py` (lớp
+- **Backend — FastAPI (Python 3.11+).** Các mô-đun chính: `extractor.py` (lớp
   `StatisticalExtractor`: pipeline LLM trích cỡ ảnh hưởng từ văn bản PDF), `models.py`
   (các mô hình dữ liệu Pydantic: `ExtractedEffect`, `StudyDatabaseEntry`,
   `VerificationDecision`), `settings.py` (cấu hình runtime), `notion_sync.py` (đồng bộ

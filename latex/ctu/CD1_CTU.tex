@@ -214,7 +214,7 @@ nghiệp / 52 nền).
 nhất về danh sách 50 nền kinh tế và nhãn nhóm ICRV. (i) \textbf{Mẫu gộp
 mô tả} phục vụ toàn bộ thống kê Mục 2.3.3--2.3.8: 88.869 doanh nghiệp,
 103 cặp nền kinh tế × năm (2006--2026), tính trực tiếp từ tệp vi mô
-WBES, mỗi cặp nền kinh tế × năm lấy đúng một cross-section chuẩn (loại
+WBES, mỗi cặp nền kinh tế × năm lấy đúng một lát cắt ngang chuẩn (loại
 các điều tra phi chính thức, siêu nhỏ và panel mở rộng), chỉ nhận các
 đợt khảo sát từ 2006 trở đi khi WBES áp dụng bộ câu hỏi so sánh được
 toàn cầu. Mẫu gộp này chứa đầy đủ các biến mô tả (R\&D, ISO, đổi mới,
@@ -620,9 +620,10 @@ cứu}\label{giux1edbi-hux1ea1n-nghiuxean-cux1ee9u}}
 Bảy giới hạn cấu trúc được thừa nhận minh bạch:
 
 \textbf{(1) Cross-sectional không cho phép suy luận nhân quả mạnh}: WBES
-là repeated lát cắt ngang, không phải panel cân bằng. Kết luận nhân quả
-dựa trên ước lượng biến công cụ từ nghiên cứu Việt Nam và không thể khái
-quát trực tiếp sang 50 nền kinh tế (gồm Nhật Bản) trong khung phân tích.
+là repeated lát cắt ngang, không phải dữ liệu bảng cân bằng. Kết luận
+nhân quả dựa trên ước lượng biến công cụ từ nghiên cứu Việt Nam và không
+thể khái quát trực tiếp sang 50 nền kinh tế (gồm Nhật Bản) trong khung
+phân tích.
 
 \textbf{(2) Chỉ số áp dụng số bị giới hạn ở Tier-1 và Tier-2}: Bộ câu
 hỏi PICS3/Standardized chỉ có website nhị phân (Tier-1). BREADY có Tầng
@@ -740,11 +741,12 @@ nền).
   giữa các nền kinh tế dùng chỉ số không thứ nguyên (ROS, tỷ suất sinh
   lời trên doanh thu); (c) trong khung ước lượng của luận án, LP được
   chuẩn hóa điểm z trong từng cặp nền kinh tế × năm và mô hình luôn có
-  hiệu ứng cố định quốc gia (Phụ lục A của luận án). Giá trị LP được
-  winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để kiểm soát
-  ngoại lai. Lựa chọn năng suất lao động làm thước đo hiệu quả phù hợp
-  với dữ liệu WBES vốn không có giá thị trường và dữ liệu lợi nhuận thưa
-  (Combs et al., 2005; Cusolito \& Maloney, 2018; Richard et al., 2009).
+  hiệu ứng cố định quốc gia (Phụ lục A của luận án). Giá trị LP được cắt
+  đuôi (winsorize) ở mức 1/99 phân vị trong cụm quốc gia × năm để kiểm
+  soát ngoại lai. Lựa chọn năng suất lao động làm thước đo hiệu quả phù
+  hợp với dữ liệu WBES vốn không có giá thị trường và dữ liệu lợi nhuận
+  thưa (Combs et al., 2005; Cusolito \& Maloney, 2018; Richard et al.,
+  2009).
 \item
   \textbf{Biến FSTS (Foreign Sales to Total Sales)}:
   \texttt{FSTS\ =\ (d3b\ +\ d3c)\ /\ 100}, trong đó d3b là tỷ lệ doanh
@@ -799,7 +801,7 @@ PICS3/MENA-WBES (2006--2012, 18 đợt, n=8.048): bảng hỏi PICS3 cho khu
 vực Đông Nam Á và Trung Á. Thế hệ 2, Standardized (2013--2017, 27 đợt,
 n=23.940): áp dụng đồng nhất xuyên toàn cầu từ 2013. Thế hệ 3,
 BREADY/BEE/EAP Core (2018--2026, 58 đợt, n=56.881): tích hợp thanh toán
-điện tử, điện toán đám mây, ngân hàng di động vào các module bổ sung,
+điện tử, điện toán đám mây, ngân hàng di động vào các phân hệ bổ sung,
 gây \textbf{đứt gãy schema} quan sát được: Ấn Độ FSTS sụt 7,7\% rồi
 2,7\% trong đợt 2025.
 
@@ -823,8 +825,8 @@ biến do hiệu ứng bảng hỏi chứ không phải thực tế. Ba đề xu
 pháp: (3a) biến giả \texttt{Post\_BREADY\_2024} hấp thụ hiệu ứng lược đồ
 tĩnh; (3b) mô hình neo (anchor model), chạy hồi quy với dữ liệu đến
 2024, khóa hệ số, kiểm định ổn định với dữ liệu đầy đủ bằng Chow test;
-(3c) panel hậu đại dịch độc lập, tách 2025 thành tập xác thực ngoài mẫu
-cho kỷ nguyên hậu COVID và AI.
+(3c) dữ liệu bảng hậu đại dịch độc lập, tách 2025 thành tập xác thực
+ngoài mẫu cho kỷ nguyên hậu COVID và AI.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -918,11 +920,11 @@ suất lao động được tính bằng:
 \textbf{LP = ln(Doanh thu bán hàng hàng năm / Số lao động toàn thời
 gian)}
 
-Giá trị LP được winsorize ở mức 1/99 phân vị trong cụm quốc gia × năm để
-kiểm soát ngoại lai; vì doanh thu báo cáo bằng nội tệ, tính so sánh
-xuyên quốc gia được bảo đảm bằng chuẩn hóa trong từng cặp nền kinh tế ×
-năm và chỉ số không thứ nguyên, như trình bày ở mục 2.2 (World Bank
-Enterprise Surveys, 2025).
+Giá trị LP được cắt đuôi (winsorize) ở mức 1/99 phân vị trong cụm quốc
+gia × năm để kiểm soát ngoại lai; vì doanh thu báo cáo bằng nội tệ, tính
+so sánh xuyên quốc gia được bảo đảm bằng chuẩn hóa trong từng cặp nền
+kinh tế × năm và chỉ số không thứ nguyên, như trình bày ở mục 2.2 (World
+Bank Enterprise Surveys, 2025).
 
 \hypertarget{bux1ed1n-chiux1ec1u-ux111o-lux1b0ux1eddng-hiux1ec7u-quux1ea3}{%
 \paragraph{2.3.1.2 Bốn chiều đo lường hiệu
@@ -1435,8 +1437,8 @@ nổi (17.340, 20,4\%), III Trung bình cao (15.174, 17,9\%), I Advanced
 
 \textbf{Trường hợp biên}: Nhóm VI đủ \textbf{8/8 nền SIDS} (FJI, PNG,
 SLB, TON, VUT, WSM, KIR, TLS). Quy trình hài hòa hóa: FSTS =
-\texttt{d3b\ +\ d3c}; winsorize log năng suất ở mức 1/99 phân vị trong
-cụm quốc gia × năm.
+\texttt{d3b\ +\ d3c}; cắt đuôi (winsorize) log năng suất ở mức 1/99 phân
+vị trong cụm quốc gia × năm.
 
 \hypertarget{phuxe2n-tuxe1n-nux103ng-suux1ea5t-lao-ux111ux1ed9ng}{%
 \paragraph{2.3.3.2 Phân tán năng suất lao
@@ -1498,13 +1500,13 @@ tán TFPR nên đây là bằng chứng mô tả phù hợp, không phải phân
 tiếp. (2) \textbf{So sánh mức giữa các nền kinh tế} dùng chỉ số không
 thứ nguyên \textbf{ROS} (tỷ suất sinh lời trên doanh thu, tính trên
 khung ước lượng của luận án): ROS trung vị giảm từ \textbf{0,50 (Nhóm I)
-rồi 0,45 (III) rồi 0,35 (IV)}; Nhóm V--VI có outlier mạnh nên chỉ đọc
-trung vị (V≈0,41; VI≈0,47), thể chế yếu đi kèm biên lợi nhuận mỏng hơn,
-nhất quán với Lý thuyết thể chế (chi phí giao dịch cao bào mòn biên).
-(3) Suy diễn về \textbf{điều tiết thể chế} trong quan hệ quốc tế hóa --
-hiệu quả được neo vào bằng chứng suy diễn ở phân tích tổng hợp của luận
-án (\(Q_M=17{,}35\)) và phổ điểm uốn xuyên nhóm ICRV của nghiên cứu đa
-quốc gia (P7), chứ không chỉ vào thống kê mô tả.
+rồi 0,45 (III) rồi 0,35 (IV)}; Nhóm V--VI có giá trị ngoại lai mạnh nên
+chỉ đọc trung vị (V≈0,41; VI≈0,47), thể chế yếu đi kèm biên lợi nhuận
+mỏng hơn, nhất quán với Lý thuyết thể chế (chi phí giao dịch cao bào mòn
+biên). (3) Suy diễn về \textbf{điều tiết thể chế} trong quan hệ quốc tế
+hóa -- hiệu quả được neo vào bằng chứng suy diễn ở phân tích tổng hợp
+của luận án (\(Q_M=17{,}35\)) và phổ điểm uốn xuyên nhóm ICRV của nghiên
+cứu đa quốc gia (P7), chứ không chỉ vào thống kê mô tả.
 
 \hypertarget{thux1ef1c-trux1ea1ng-quux1ed1c-tux1ebf-huxf3a-vuxe0-tux103ng-trux1b0ux1edfng-viux1ec7c-luxe0m}{%
 \paragraph{2.3.3.3 Thực trạng quốc tế hóa và tăng trưởng việc
@@ -2093,7 +2095,7 @@ tệ, so sánh được giữa các nền kinh tế. Ghi chú: đợt khảo sá
 dùng bảng hỏi BREADY Micro (doanh nghiệp siêu nhỏ, n=1.740;
 \textasciitilde10\% bán ra thị trường quốc tế theo biến nhị phân
 \texttt{me1c}, 22,6\% dùng máy tính/tablet), bộ công cụ không tương
-đương với cross-section chuẩn nên không thuộc mẫu gộp mô tả và chỉ nêu ở
+đương với lát cắt ngang chuẩn nên không thuộc mẫu gộp mô tả và chỉ nêu ở
 đây như tham chiếu.}
 
 Bảy phát hiện từ đợt 2025: (1) Ấn Độ FSTS sụt 5 điểm phần trăm so với
@@ -2220,8 +2222,8 @@ giữa ba phân nhóm con (1,25--1,47), phản ánh dị biệt rộng xuyên 7 
 (Bảng 2.3.6.4).
 
 \textbf{Trường hợp Ấn Độ, lan tỏa công nghệ}: Theo Sikdar \&
-Mukhopadhyay (2026, \emph{Asian Development Review, 43}(1), 37--75),
-panel 4.293 doanh nghiệp Ấn Độ 2006--2019: FDI là kênh lan tỏa ngang
+Mukhopadhyay (2026, \emph{Asian Development Review, 43}(1), 37--75), dữ
+liệu bảng 4.293 doanh nghiệp Ấn Độ 2006--2019: FDI là kênh lan tỏa ngang
 quan trọng nhất; doanh nghiệp lớn thu nhận lan tỏa nhiều hơn; FDI tăng
 từ 1,705 triệu USD (1990--2000) rồi 42,396 triệu USD (2012--2022); R\&D
 trì trệ ở 0,7\% GDP.
@@ -2656,13 +2658,14 @@ doanh quốc tế thị trường mới nổi}: Khung 50 nền với 88.869 doan
 lớn nhất từ trước đến nay cho phân tích quốc tế hóa -- hiệu quả toàn
 diện tại châu Á--Thái Bình Dương.
 
-\textbf{(2) Hệ thống phòng thủ ba tầng cho panel đa thế hệ là đóng góp
-phương pháp luận}: Ba tầng kiểm chứng, biến giả Post\_BREADY\_2024, kiểm
-định ổn định mô hình neo, panel hậu đại dịch độc lập, là giao thức có
-thể chuẩn hóa cho bất kỳ nghiên cứu dùng WBES với nhiều thế hệ lược đồ.
+\textbf{(2) Hệ thống phòng thủ ba tầng cho dữ liệu bảng đa thế hệ là
+đóng góp phương pháp luận}: Ba tầng kiểm chứng, biến giả
+Post\_BREADY\_2024, kiểm định ổn định mô hình neo, panel hậu đại dịch
+độc lập, là giao thức có thể chuẩn hóa cho bất kỳ nghiên cứu dùng WBES
+với nhiều thế hệ lược đồ.
 
-\textbf{(3) Winsorize trong cụm quốc gia × năm tốt hơn winsorize tổng
-thể}: Winsorize tổng thể bóp méo phân phối tại các nhóm phân tán rộng
+\textbf{(3) Winsorize trong cụm quốc gia × năm tốt hơn cắt đuôi tổng
+thể}: Cắt đuôi tổng thể bóp méo phân phối tại các nhóm phân tán rộng
 (Nhóm V: P90/P10 \textasciitilde30 lần trong đợt). Winsorize trong cụm
 bảo tồn dị biệt cross-regime quan trọng về lý thuyết.
 
@@ -2795,8 +2798,9 @@ Tám kiểm định độ bền vững bắt buộc cho Chuyên đề 2:
 thu, tăng trưởng việc làm. Kết quả chính cần bền vững ≥ 2/3 biến phụ
 thuộc.
 
-\textbf{(2) Lọc mẫu}: Loại micro firms (\textless{} 5 lao động) và doanh
-nghiệp nhà nước. Kết quả cần bền vững trong SME tư nhân (n ≈ 80.000+).
+\textbf{(2) Lọc mẫu}: Loại doanh nghiệp siêu nhỏ (micro firms,
+\textless{} 5 lao động) và doanh nghiệp nhà nước. Kết quả cần bền vững
+trong SME tư nhân (n ≈ 80.000+).
 
 \textbf{(3) Thay phương pháp}: OLS sang hồi quy phân vị (p25/p50/p75);
 bootstrap SE 500 lần lặp; HC3.
@@ -3134,7 +3138,7 @@ Kiribati (2025) & 16 & 1.916 \\
 \textbf{84.998} \\
 \end{longtable}
 
-\emph{Ghi chú: mỗi cặp nền kinh tế × năm lấy đúng một cross-section
+\emph{Ghi chú: mỗi cặp nền kinh tế × năm lấy đúng một lát cắt ngang
 chuẩn WBES; loại các điều tra phi chính thức, siêu nhỏ (Micro) và panel
 mở rộng; chỉ nhận đợt khảo sát từ 2006 trở đi (bộ câu hỏi so sánh được
 toàn cầu). Nhật Bản 2025 (n=2.168) là thành viên đầy đủ của Nhóm I trong
