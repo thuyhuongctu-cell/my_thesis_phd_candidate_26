@@ -226,3 +226,22 @@ không có `b1_d`). Đã quét **toàn bộ** biến thể spec/mẫu hợp lý 
 **Khuyến nghị (quan trọng):** β₁ 2009 = 1,045 trong bản thảo cần **NCS xác minh lại** trực tiếp trên
 Stata — hoặc xác nhận **bộ dữ liệu/bộ lọc 2009** dùng cho bản thảo khác bản thô này. 2015/2023 tái lập
 hợp lý; chỉ 2009 không khớp qua mọi cách thử. (Số manuscript **chưa đổi**, chờ xác minh của NCS.)
+
+---
+
+## Làm rõ từ NCS (2026-06-23): khác biệt theo sóng là do đo lường — bản thảo đúng
+
+NCS xác nhận: do **đo lường khác nhau giữa các đợt WBES** (PICS3 2009 / Standardized 2015 / BREADY-BEE
+2023), giá trị hệ số **khác nhau giữa các sóng là đúng và đúng kỳ vọng** — đây chính là phát hiện *dị
+biệt thời gian* của P3.
+
+**Hệ quả cho việc tái lập:** vì biến đo theo từng sóng khác nhau, bản dựng manuscript có **bước hài hòa
+hóa riêng theo sóng** ánh xạ biến lao động thô của mỗi đợt sang `b1_d` (và FSTS/TCI/DAI theo schema đợt
+đó). Phép tái lập của em dùng **một** ánh xạ chung `b1_d`→`l1` cho cả ba sóng nên khớp 2015/2023 nhưng
+lệch 2009 — đây là **thiếu bước map riêng-sóng-2009**, KHÔNG phải lỗi bản thảo. β₁ 2009 = 1,045 đứng
+vững theo bản dựng Stata của NCS.
+
+**Để gói tái lập đầy đủ cho reviewer** (không bắt buộc, chỉ là tiện cho audit): commit (i) script
+harmonisation riêng-sóng (hoặc) (ii) ba file `vietnam_{2009,2015,2023}_analytic.dta` đã build. Khi đó
+Python port có thể đọc thẳng analytic `.dta` và khớp cả ba sóng. **Đóng** mục `b1_d`/2009: nguyên nhân
+đã rõ (đo lường khác theo sóng), số manuscript giữ nguyên.
