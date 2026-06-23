@@ -1,7 +1,7 @@
 # Bộ nộp hoàn chỉnh — NCS Đỗ Thùy Hương (VLUTE / CTU)
 
 > Cập nhật 2026-06-23 (dựng lại toàn bộ từ nguồn đã hiệu chỉnh bằng
-> `scripts/build_bo_nop_package.sh`). Tất cả số liệu đã đồng bộ về **khung canonical 50 nền**.
+> `scripts/build_bo_nop_package.sh`). Tất cả số liệu **của các gói LIVE** đã đồng bộ về **khung canonical 50 nền**; các bản nháp thế-hệ-trước (P7 APJM/JIBS khung 49 nền; P8 EJDR/JID/World Development khung −1.339) được **giữ lại có gắn nhãn SUPERSEDED — không nộp**.
 > Phân cấp khung (đã tái lập được): pool phân loại **96.415 DN / 52 nhãn** ⊇ khung phân tích
 > **88.869 DN / 50 nền** ⊇ khung mô tả LP hợp lệ **84.998 DN / 50 nền / 107 cặp nền-năm**
 > (cơ sở của Bảng 4.1/4.2 và bảng tương quan) ⊇ hồi quy P7 M2 **81.022** (master-locked).

@@ -1,5 +1,7 @@
 # Internationalization and Firm Performance across 49 Asian and Pacific Economies: Institutional Regimes, Digital Capabilities, and Managerial Characteristics as Contingency Factors
 
+> ⚠️ **SUPERSEDED (2026-06).** This draft uses the prior-generation 49-economy frame (91,982 firms / 102 country-year waves; analytic M2 N=84,910; inverted-U turning point 40.0% in M5). It is superseded by the canonical 50-economy frame in `p7/submission/ibr_package/` (88,869 firms / 103 country-year waves incl. Japan 2025; M2 N=81,022 with TP 51.5%, M5 N=79,080 with TP 43.6%). P7's single live target is **International Business Review (IBR)**; JIBS was dropped for P7 because a pooled cross-section does not meet JIBS's causal-identification expectations. Do not submit this version.
+
 
 ## Abstract
 
