@@ -1,7 +1,11 @@
 # Bộ nộp hoàn chỉnh — NCS Đỗ Thùy Hương (VLUTE / CTU)
 
-> Cập nhật 2026-06-20. Tất cả số liệu đã đồng bộ về **khung canonical 50 nền**
-> (pool 88.869 DN / 50 nền kinh tế / 103 cặp nền-năm; nghiên cứu SIDS P8 dùng 7 nền Pacific).
+> Cập nhật 2026-06-23 (dựng lại toàn bộ từ nguồn đã hiệu chỉnh bằng
+> `scripts/build_bo_nop_package.sh`). Tất cả số liệu đã đồng bộ về **khung canonical 50 nền**.
+> Phân cấp khung (đã tái lập được): pool phân loại **96.415 DN / 52 nhãn** ⊇ khung phân tích
+> **88.869 DN / 50 nền** ⊇ khung mô tả LP hợp lệ **84.998 DN / 50 nền / 107 cặp nền-năm**
+> (cơ sở của Bảng 4.1/4.2 và bảng tương quan) ⊇ hồi quy P7 M2 **81.022** (master-locked).
+> Khung mô tả giữ Timor-Leste trong Nhóm VI; nghiên cứu SIDS P8 loại Timor (7 nền Pacific).
 > Thuật ngữ thống nhất: quan hệ I–P "mất cấu trúc" (Nhóm V/VI); "phổ thể chế" (ICRV).
 
 Thư mục gồm 3 phần: (1) papers đủ điều kiện nộp, (2) hai chuyên đề, (3) năm chương luận án + phụ lục.
@@ -57,7 +61,7 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 
 | File | Nội dung |
 |---|---|
-| `LUAN_AN_CTU_full_154tr.pdf` | **Luận án đầy đủ** đã biên dịch (154 trang, định dạng CTU) |
+| `LUAN_AN_CTU_full.pdf` | **Luận án đầy đủ** đã biên dịch (154 trang, định dạng CTU) |
 | `chuong_1_gioi_thieu_vi.pdf` / `.docx` | Chương 1 — Giới thiệu (9 tr) |
 | `chuong_2_tong_quan_tai_lieu_vi.pdf` / `.docx` | Chương 2 — Tổng quan tài liệu (23 tr) |
 | `chuong_3_phuong_phap_vi.pdf` / `.docx` | Chương 3 — Phương pháp (24 tr) |
@@ -67,3 +71,26 @@ Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03
 | `04_references_apa7.docx` | Danh mục tài liệu tham khảo (APA 7) |
 | `phu_luc_A_hop_nhat_du_lieu_vi.docx` | Phụ lục A — Hợp nhất dữ liệu |
 | `phu_luc_B_maida_vi.docx` | Phụ lục B — Công cụ trích xuất M-AIDA & công bố dùng AI |
+
+---
+
+## 4. Việc còn lại — CHỈ NCS / máy có mạng + license làm được (không chặn đóng gói)
+
+Các mục dưới đây **không thể chạy trong môi trường dựng bộ nộp** (container chặn outbound,
+không có Stata license, nội dung cá nhân). Bộ nộp đã hoàn chỉnh về nội dung; đây là các bước
+xác minh/điền cuối NCS thực hiện trước khi bấm nộp:
+
+| # | Việc | Vì sao chỉ NCS làm được | Cách làm |
+|---|------|--------------------------|----------|
+| A2 | **Verify DOI** (~62 DOI cũ + 4 mục mới: Contractor–Kundu–Hsu 2003, Hitt 2006, Hunter–Schmidt 2004 [sách, không DOI — hợp lệ], Peng 2001) | Container trả HTTP 403 từ CrossRef | Chạy `python3 scripts/verify_dois.py` trên máy có mạng |
+| A1 | **Cross-validation bằng Stata** (P3–P10) | Cần Stata license | Chạy lại `.do` trong `p*/replication/do/`; Python đã đối chiếu chéo P4–P10 ✅ (xem `reviews/REPLICATION_CROSSCHECK_2026-06-23.md`) |
+| P3 | **Khóa reproducibility sóng 2009** (β₁ = 1,045) | Cần `.dta` build Stata gốc của NCS | Export `vietnam_2009_analytic.dta`; raw chính thức cho β₁ = 0,634, chênh do harmonize per-wave (đã chẩn đoán xong, xem `data_wbes/analysis/p3_paternoster_zflag_2026-06.md`) |
+| P6 | **κ inter-coder** (Bảng 3.1 ICRV) + nhánh PRISMA Scopus | Cần dual-coding thật của 2 người mã hóa | Điền κ sau khi mã hóa độc lập |
+| LA | **"Lời cảm ơn"** (`thesis/00_phan_dau_vi.md`) | Nội dung cá nhân | NCS viết, build lại bằng `scripts/build_bo_nop_package.sh` |
+
+> Sau khi điền bất kỳ mục nào ở trên vào nguồn Markdown, **dựng lại toàn bộ bộ nộp** bằng:
+> ```bash
+> bash scripts/build_bo_nop_package.sh
+> ```
+> Script biên dịch lại PDF (XeLaTeX) + DOCX cho luận án, 5 chương, 2 chuyên đề và phụ lục,
+> đồng bộ tự động về đúng khung canonical 50 nền.

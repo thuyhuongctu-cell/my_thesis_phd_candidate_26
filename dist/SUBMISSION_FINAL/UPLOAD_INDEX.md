@@ -1,3 +1,8 @@
+> ⚠️ **LƯU Ý (2026-06-23): File này đã CŨ (lập 2026-06-10), định tuyến tạp chí lỗi thời**
+> (vd P3→MBR — nay MBR đã DEPRECATED, P3 nộp **JED**). Bộ nộp hoàn chỉnh, duy nhất, đã đồng bộ
+> khung canonical 50 nền nằm ở: **`dist/BO_NOP_HOAN_CHINH_2026-06/`** (xem README ở đó).
+> Giữ file này chỉ để tham chiếu lịch sử cổng nộp/house-style từng tạp chí.
+
 # Upload Index — bộ nộp đầu tiên cho từng paper (P3–P9)
 
 **Cập nhật:** 2026-06-10. Mỗi paper liệt kê **tạp chí nộp đầu tiên (Reach)**, các file cần upload (đường dẫn chuẩn trong repo), bản dịch VI, house style, và **cổng cần NCS xử lý trước khi nộp**. Tên tạp chí chỉ nêu chính thức sau khi được chấp nhận (Đ.15). Không nộp đồng thời; theo thang Reach đến Target đến Safe trong `reviews/JOURNAL_TARGETING_PLAN.md`.
