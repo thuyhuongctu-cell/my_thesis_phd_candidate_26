@@ -137,3 +137,35 @@ lệch 2009/2023; `l1` lệch đều ~+0,2…+0,5. → Gap **đa yếu tố** (m
 winsorize/sample), không thể đảo ngược chỉ bằng đổi mẫu số. Xác nhận khuyến nghị: cần **bảng estimate
 Stata + `.dta` phân tích** của NCS (Option a), hoặc chuyển §4.5.6 sang giá trị tái lập được từ CSV
 (Option b). Số bản thảo **giữ nguyên** (author-authoritative, đã chốt 19/06).
+
+---
+
+## Giải mã `b1_d` bằng bảng hỏi + dữ liệu thô NCS gửi (2026-06-23)
+
+NCS cung cấp dữ liệu thô đầy đủ (Vietnam 2009/2015/2023, ~287–355 biến) + **bảng hỏi chính thức**
+(`ES_BEE_Questionnaire_Viet_Nam_2023.pdf`) + Implementation Report.
+
+**Phát hiện 1 — `b1_d` = `l1`.** Không file nào có biến tên `b1_d` (chỉ có `b1`=tình trạng pháp lý,
+`b1x`). Do-file `01_build_vietnam.do` dùng `ln(d2/b1_d)` với chú thích "// number of workers". Nhãn
+biến trong dữ liệu xác nhận **`l1` = "L1. End of fiscal year, how many permanent, full-time
+employees"** (cả 3 đợt). Vậy `b1_d` trong do-file **ánh xạ sang `l1`** (số lao động thường xuyên toàn
+thời gian) — đây chính là "input còn thiếu".
+
+**Phát hiện 2 — do-file KHÔNG winsorize lnLP.** `01_build_vietnam.do` không có lệnh winsor; script
+`scripts/p3_dai_reproduce.py` đã **tự thêm** winsorize 1/99 (sai lệch so với do-file).
+
+**Tái lập faithful (l1, KHÔNG winsor, FSTS=d3c định tâm trong đợt, base sample, controls
+lnEmp+firmage(b4)+foreign(b2b≥10)) trên dữ liệu NCS gửi:**
+
+| | 2009 | 2015 | 2023 |
+|---|---|---|---|
+| Python faithful (b1_d=l1) | +0,634 | +0,977 | +0,892 |
+| **Manuscript M2 β₁** | **1,045** | **1,159** | **0,962** |
+
+→ **2015 và 2023 tái lập hợp lý** (lệch ~0,15–0,18); **2009 vẫn lệch lớn (~0,41)**. Gap 2009 mang
+tính **đặc thù đợt** — không phải do mẫu số (đã chốt l1) cũng không phải winsor. Nghi vấn còn lại cho
+2009: biến `firmage` (b4 là *năm* hay *tuổi*?), tập biến kiểm soát đợt 2009, hoặc số manuscript 2009.
+
+**Kết luận:** đã giải được mẫu số (`b1_d`=`l1`) và loại winsorize; 2/3 đợt khớp. Để khớp **đợt 2009**
+chính xác, cần NCS xác nhận spec đợt 2009 (định nghĩa `firmage`/controls) hoặc dán bảng estimate Stata
+2009. Số manuscript **giữ nguyên**.
