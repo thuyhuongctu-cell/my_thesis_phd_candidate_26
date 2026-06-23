@@ -61,35 +61,37 @@ Luận án sử dụng World Bank Enterprise Surveys cho **50 nền kinh tế ch
 
 ### 3.3.1.1 Hài hòa hóa ba thế hệ lược đồ bảng hỏi WBES
 
-Bộ công cụ WBES đã trải qua ba thế hệ lược đồ với hệ thống mã biến và phạm vi module khác nhau: thế hệ PICS3 đời đầu, thế hệ Standardized toàn cầu áp dụng từ năm 2006, và thế hệ BREADY/BEE gần đây. Sự thay đổi này tạo ra thách thức then chốt cho hợp nhất đa quốc gia, vì cùng một khái niệm có thể được hỏi bằng trường khác nhau hoặc thiếu hẳn ở một số đợt. Luận án giải quyết bằng một lược đồ biến chung ánh xạ mọi trường dị biệt về các module cốt lõi bất biến của bộ công cụ toàn cầu, với tiêu chí vận hành để một đợt được nhận vào khung so sánh là sự hiện diện của các biến lõi đã hài hòa, cụ thể là doanh thu (d2), lao động (l1) và xuất khẩu trực tiếp cùng gián tiếp (d3b và d3c). Đợt khảo sát đáp ứng năm khảo sát từ 2006 nhưng chạy trên bộ công cụ khu vực cũ không chứa các biến lõi này bị loại do bất tương thích bộ công cụ chứ không phải do thiếu dữ liệu.
+Bộ công cụ WBES đã trải qua ba thế hệ lược đồ với hệ thống mã biến và phạm vi phân hệ khác nhau: thế hệ PICS3 đời đầu, thế hệ Standardized toàn cầu áp dụng từ năm 2006, và thế hệ BREADY/BEE gần đây. Sự thay đổi này tạo ra thách thức then chốt cho hợp nhất đa quốc gia, vì cùng một khái niệm có thể được hỏi bằng trường khác nhau hoặc thiếu hẳn ở một số đợt. Luận án giải quyết bằng một lược đồ biến chung ánh xạ mọi trường dị biệt về các module cốt lõi bất biến của bộ công cụ toàn cầu, với tiêu chí vận hành để một đợt được nhận vào khung so sánh là sự hiện diện của các biến lõi đã hài hòa, cụ thể là doanh thu (d2), lao động (l1) và xuất khẩu trực tiếp cùng gián tiếp (d3b và d3c). Đợt khảo sát đáp ứng năm khảo sát từ 2006 nhưng chạy trên bộ công cụ khu vực cũ không chứa các biến lõi này bị loại do bất tương thích bộ công cụ chứ không phải do thiếu dữ liệu.
 
 Quy trình hợp nhất tuân theo nguyên tắc minh bạch kiểu PRISMA cho dữ liệu thứ cấp, gồm sáu bước tuần tự: lọc loại khảo sát, khử trùng lặp một khảo sát cho mỗi cặp nền kinh tế và năm, hài hòa hóa biến, mã hóa mã không phản hồi của WBES thành giá trị khuyết, phân tầng chế độ thể chế, đến tạo mẫu phân tích bằng xóa theo danh sách. Mỗi bước ghi rõ tiêu chí và số quan sát còn lại nhằm cho phép tái dựng và kiểm chứng. Một hệ quả của xóa theo danh sách là cỡ mẫu giảm dần khi thêm biến kiểm soát, rõ nhất ở biến sở hữu nước ngoài vốn khuyết nhiều ở các nền nhỏ và sóng sớm; luận án báo cáo minh bạch sự suy giảm này và kiểm tra tính ổn định của điểm uốn qua các đặc tả để bảo đảm kết quả không bị chi phối bởi cơ chế khuyết. Toàn bộ thao tác chi tiết của quy trình sáu bước, cùng dòng dữ liệu kiểu PRISMA và mã tái lập, được trình bày đầy đủ ở Phụ lục A.
 
 ### 3.3.2 Đo lường biến phụ thuộc: Hiệu quả hoạt động
 
-**Biến chính**: năng suất lao động đo bằng $\ln(\text{annual sales} / \text{permanent full-time employees})$.
+**Biến chính**: năng suất lao động $\mathrm{LP}$ (labour productivity), đo bằng $\ln(\mathrm{LP}) = \ln(d2/l1)$, trong đó $d2$ là tổng doanh thu năm tài chính gần nhất và $l1$ là số lao động thường xuyên toàn thời gian (mã trường WBES).
 
-**Cơ sở kế thừa**: năng suất lao động được sử dụng rộng rãi trong nghiên cứu WBES và trong tài liệu về firm productivity (Bloom et al., 2012; Hsieh & Klenow, 2009). Chỉ tiêu này đã được vận hành hóa thành công trong bài thực trạng châu Á mới nổi (nghiên cứu thành phần P1).
+**Cơ sở kế thừa**: năng suất lao động được sử dụng rộng rãi trong nghiên cứu WBES và trong tài liệu về năng suất doanh nghiệp (Bloom et al., 2012; Hsieh & Klenow, 2009). Chỉ tiêu này đã được vận hành hóa thành công trong bài thực trạng châu Á mới nổi (nghiên cứu thành phần P1).
 
-**Lập luận chọn**: WBES không phải bộ financial statement đầy đủ, nên năng suất lao động phù hợp hơn ROA/ROE/ROS trong bối cảnh đa quốc gia. Ngoài ra, năng suất lao động ít bị ảnh hưởng bởi chuẩn mực kế toán khác biệt giữa các nước hơn so với các chỉ tiêu kế toán (Combs et al., 2005; Richard et al., 2009).
+**Lập luận chọn**: WBES không phải bộ báo cáo tài chính đầy đủ, nên năng suất lao động phù hợp hơn các tỷ suất sinh lời kế toán (ROA, ROE, ROS) trong bối cảnh đa quốc gia. Ngoài ra, năng suất lao động ít bị ảnh hưởng bởi chuẩn mực kế toán khác biệt giữa các nước hơn so với các chỉ tiêu kế toán (Combs et al., 2005; Richard et al., 2009).
 
-**Nhất quán đo lường xuyên các nghiên cứu thành phần và điều kiện so sánh tiền tệ**: cùng một cấu trúc $\ln(\text{LP})$ từ trường WBES d2/l1 được dùng thống nhất ở P3, P4, P5 và P7, nhưng cách xử lý đơn vị tiền tệ khác nhau **theo đúng bản chất thiết kế** của từng nghiên cứu: (i) các nghiên cứu **đơn quốc gia** (P3 Việt Nam, P4 Singapore, P5 Trung Quốc, P9 Ấn Độ) đo doanh thu bằng **một nội tệ duy nhất** nên mức $\ln(\text{LP})$ so sánh được trực tiếp trong nội bộ mẫu; khác biệt mặt bằng giá giữa các đợt khảo sát được hấp thụ bằng biến giả đợt/hiệu ứng cố định năm (P5: $D_{2024}$; P3 bổ sung hiệu chỉnh PPP cho khoảng cách 14 năm 2009–2023), kèm winsorize 1%/99% (P4); (ii) nghiên cứu **đa quốc gia** (P7) gộp doanh thu bằng **nhiều nội tệ**, do đó mức $\ln(\text{LP})$ thô không so sánh được giữa các nước, tính so sánh được bảo đảm bằng chuẩn hóa z within country–year và hiệu ứng cố định hai chiều, như trình bày chi tiết ở Phụ lục A (Mục A.5); mọi so sánh **mức** xuyên quốc gia trong luận án dùng tỷ suất không thứ nguyên (ROS) hoặc giá trị đã hiệu chỉnh PPP. Như vậy tính so sánh xuyên quốc gia của thước đo là **có điều kiện**, đạt được qua thiết kế ước lượng, không phải tự động ở mức thô. Về phía biến quốc tế hóa, khung ước lượng đa quốc gia của luận án (P7, P8, P9) và thống kê mô tả ở Chuyên đề 1 đo FSTS bằng **tổng xuất khẩu trực tiếp và gián tiếp** (trường WBES d3b + d3c), định nghĩa tham gia xuất khẩu chuẩn của bộ công cụ WBES; hai nghiên cứu đơn quốc gia (P3 Việt Nam, P5 Trung Quốc) dùng **riêng xuất khẩu trực tiếp** (d3c), vì xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại với cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất (Hessels & Terjesen, 2010; Peng & Ilinitch, 1998), trong khi tỷ trọng doanh thu xuất khẩu là thước đo cường độ quốc tế hóa chuẩn của tài liệu về quan hệ quốc tế hóa và hiệu quả (Lu & Beamish, 2001; Sullivan, 1994); lựa chọn thao tác hóa được ghi rõ trong phần dữ liệu của từng nghiên cứu thành phần.
+**Nhất quán đo lường xuyên các nghiên cứu thành phần và điều kiện so sánh tiền tệ**: cùng một cấu trúc $\ln(\mathrm{LP})$ từ trường WBES $d2/l1$ được dùng thống nhất ở P3, P4, P5 và P7, nhưng cách xử lý đơn vị tiền tệ khác nhau **theo đúng bản chất thiết kế** của từng nghiên cứu: (i) các nghiên cứu **đơn quốc gia** (P3 Việt Nam, P4 Singapore, P5 Trung Quốc, P9 Ấn Độ) đo doanh thu bằng **một nội tệ duy nhất** nên mức $\ln(\mathrm{LP})$ so sánh được trực tiếp trong nội bộ mẫu; khác biệt mặt bằng giá giữa các đợt khảo sát được hấp thụ bằng biến giả đợt, hiệu ứng cố định năm (P5: $D_{2024}$; P3 bổ sung hiệu chỉnh PPP cho khoảng cách 14 năm 2009–2023), kèm cắt đuôi 1%/99% (P4); (ii) nghiên cứu **đa quốc gia** (P7) gộp doanh thu bằng **nhiều nội tệ**, do đó mức $\ln(\mathrm{LP})$ thô không so sánh được giữa các nước, tính so sánh được bảo đảm bằng chuẩn hóa z within country–year và hiệu ứng cố định hai chiều, như trình bày chi tiết ở Phụ lục A (Mục A.5); mọi so sánh **mức** xuyên quốc gia trong luận án dùng tỷ suất không thứ nguyên (ROS) hoặc giá trị đã hiệu chỉnh PPP. Như vậy tính so sánh xuyên quốc gia của thước đo là **có điều kiện**, đạt được qua thiết kế ước lượng, không phải tự động ở mức thô. Về phía biến quốc tế hóa, khung ước lượng đa quốc gia của luận án (P7, P8, P9) và thống kê mô tả ở Chuyên đề 1 đo $\mathrm{FSTS}$ bằng **tổng xuất khẩu trực tiếp và gián tiếp** (trường WBES $d3b + d3c$), định nghĩa tham gia xuất khẩu chuẩn của bộ công cụ WBES; hai nghiên cứu đơn quốc gia (P3 Việt Nam, P5 Trung Quốc) dùng **riêng xuất khẩu trực tiếp** ($d3c$), vì xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại với cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất (Hessels & Terjesen, 2010; Peng & Ilinitch, 1998), trong khi tỷ trọng doanh thu xuất khẩu là thước đo cường độ quốc tế hóa chuẩn của tài liệu về quan hệ quốc tế hóa và hiệu quả (Lu & Beamish, 2001; Sullivan, 1994); lựa chọn thao tác hóa được ghi rõ trong phần dữ liệu của từng nghiên cứu thành phần.
 
-**Biến độ vững**: ROS, sales growth, employment growth, $\ln$(annual sales).
+**Biến độ vững**: tỷ suất lợi nhuận trên doanh thu ($\mathrm{ROS}$), tăng trưởng doanh thu, tăng trưởng lao động, và logarit doanh thu năm $\ln(d2)$.
 
 **Đóng góp mới**: lập luận rõ ràng về hiệu quả hoạt động kinh doanh của doanh nghiệp là khái niệm đa chiều và việc lựa chọn thước đo phải phù hợp với bối cảnh dữ liệu (xem Chương 2).
 
 ### 3.3.2.1 Vận hành hóa thước đo năng suất và quy trình xử lý phân phối
 
-Năng suất lao động được dựng từ hai trường khảo sát cốt lõi của bộ công cụ WBES: tổng doanh thu năm tài chính gần nhất (trường d2) và số lao động thường xuyên toàn thời gian cuối kỳ (trường l1). Biến phụ thuộc nhận dạng logarit tự nhiên của thương số hai trường này, nghĩa là $\ln(\text{LP}) = \ln(d2 / l1)$, một phép biến đổi vừa nén đuôi phải của phân phối doanh thu vừa cho phép diễn giải hệ số theo phần trăm. Do doanh thu thô được báo cáo bằng nội tệ của từng nền kinh tế, mức năng suất thô không so sánh trực tiếp giữa các nước, một mối đe dọa hiệu lực được xử lý qua thiết kế ước lượng chứ không qua quy đổi tỷ giá danh nghĩa.
+Năng suất lao động được dựng từ hai trường khảo sát cốt lõi của bộ công cụ WBES: tổng doanh thu năm tài chính gần nhất (trường d2) và số lao động thường xuyên toàn thời gian cuối kỳ (trường l1). Biến phụ thuộc nhận dạng logarit tự nhiên của thương số hai trường này, nghĩa là $\ln(\mathrm{LP}) = \ln(d2 / l1)$, một phép biến đổi vừa nén đuôi phải của phân phối doanh thu vừa cho phép diễn giải hệ số theo phần trăm. Do doanh thu thô được báo cáo bằng nội tệ của từng nền kinh tế, mức năng suất thô không so sánh trực tiếp giữa các nước, một mối đe dọa hiệu lực được xử lý qua thiết kế ước lượng chứ không qua quy đổi tỷ giá danh nghĩa.
 
-Trước khi ước lượng, năng suất lao động trải qua hai bước xử lý phân phối nhằm bảo đảm tính bền vững của ước lượng trước quan sát cực trị. Bước thứ nhất là cắt đuôi (winsorize) tại ngưỡng phân vị 1 và 99 áp dụng trong từng cặp nền kinh tế và năm, qua đó giới hạn ảnh hưởng của giá trị ngoại lai mà không loại bỏ quan sát khỏi mẫu. Bước thứ hai, chỉ áp dụng cho khung ước lượng đa quốc gia, là chuẩn hóa z trong từng cặp nền kinh tế và năm, đưa mọi quan sát về cùng thang vị thế tương đối trong phân phối nội bộ nước–năm. Phép chuẩn hóa này khử triệt để khác biệt đơn vị tiền tệ và mặt bằng giá, đồng thời bảo toàn cấu trúc biến thiên bên trong mỗi nước, nơi diễn ra việc nhận dạng quan hệ quốc tế hóa–hiệu quả. Đối với các nghiên cứu đơn quốc gia, doanh thu được biểu thị bằng một nội tệ duy nhất nên mức $\ln(\text{LP})$ so sánh được trực tiếp trong nội bộ mẫu; khác biệt mặt bằng giá giữa các đợt khảo sát được hấp thụ bằng biến giả đợt hoặc hiệu ứng cố định năm, kèm cắt đuôi 1 và 99.
+Trước khi ước lượng, năng suất lao động trải qua hai bước xử lý phân phối nhằm bảo đảm tính bền vững của ước lượng trước quan sát cực trị. Bước thứ nhất là cắt đuôi (winsorize) tại ngưỡng phân vị 1 và 99 áp dụng trong từng cặp nền kinh tế và năm, qua đó giới hạn ảnh hưởng của giá trị ngoại lai mà không loại bỏ quan sát khỏi mẫu. Bước thứ hai, chỉ áp dụng cho khung ước lượng đa quốc gia, là chuẩn hóa z trong từng cặp nền kinh tế và năm, đưa mọi quan sát về cùng thang vị thế tương đối trong phân phối nội bộ nước–năm. Phép chuẩn hóa này khử triệt để khác biệt đơn vị tiền tệ và mặt bằng giá, đồng thời bảo toàn cấu trúc biến thiên bên trong mỗi nước, nơi diễn ra việc nhận dạng quan hệ quốc tế hóa–hiệu quả. Đối với các nghiên cứu đơn quốc gia, doanh thu được biểu thị bằng một nội tệ duy nhất nên mức $\ln(\mathrm{LP})$ so sánh được trực tiếp trong nội bộ mẫu; khác biệt mặt bằng giá giữa các đợt khảo sát được hấp thụ bằng biến giả đợt hoặc hiệu ứng cố định năm, kèm cắt đuôi 1 và 99.
 
-### 3.3.3 Đo lường biến độc lập: Quốc tế hóa
+### 3.3.3 Đo lường biến độc lập: Mức độ quốc tế hóa
 
-**Biến chính**: cường độ xuất khẩu (FSTS, tỷ lệ doanh thu xuất khẩu trên tổng doanh thu). Mô hình đưa vào đồng thời $FSTS$ và $FSTS^2$ để kiểm định quan hệ phi tuyến dạng chữ U ngược.
+**Khái niệm.** Biến độc lập trọng tâm của luận án là *mức độ quốc tế hóa* (degree of internationalisation, DOI) — phạm vi mà doanh nghiệp gắn hoạt động của mình với thị trường nước ngoài. Theo Sullivan (1994), mức độ quốc tế hóa là khái niệm đa chiều gồm ba thành phần: chiều theo doanh số (tỷ trọng doanh thu nước ngoài), chiều theo tài sản (tỷ trọng tài sản đặt ở nước ngoài) và chiều theo nhân sự, tâm lý (mức độ phân tán quốc tế của nhân lực và định hướng quản trị). Bộ dữ liệu WBES chỉ thu thập nhất quán **chiều theo doanh số** xuyên ba thế hệ bảng hỏi, nên luận án thao tác hóa mức độ quốc tế hóa bằng *cường độ xuất khẩu* $\mathrm{FSTS}$ (foreign sales to total sales) — tỷ trọng doanh thu xuất khẩu trên tổng doanh thu, miền giá trị $[0,1]$.
 
-**Cơ sở kế thừa**: FSTS là thước đo quốc tế hóa phổ biến nhất trong tài liệu về quan hệ quốc tế hóa và hiệu quả (Sullivan, 1994; Hitt et al., 2006). Việc bổ sung $FSTS^2$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Dạng bậc hai được nghiên cứu thành phần P2 xác nhận có ý nghĩa thống kê ở Trung Quốc với điểm uốn khoảng 47,8% FSTS, làm cơ sở cho việc kiểm định mở rộng trong luận án.
+**Biến chính.** $\mathrm{FSTS}$ là tỷ lệ doanh thu xuất khẩu trên tổng doanh thu. Mô hình đưa vào đồng thời số hạng bậc nhất $\mathrm{FSTS}$ và số hạng bậc hai $\mathrm{FSTS}^{2}$ để kiểm định quan hệ phi tuyến dạng chữ U ngược.
+
+**Cơ sở kế thừa**: $\mathrm{FSTS}$ là thước đo đơn chiều của mức độ quốc tế hóa được dùng phổ biến nhất trong tài liệu về quan hệ quốc tế hóa và hiệu quả khi dữ liệu chiều tài sản và chiều nhân sự quốc tế không khả dụng (Sullivan, 1994; Lu & Beamish, 2001; Hitt et al., 2006). Việc bổ sung $\mathrm{FSTS}^{2}$ để kiểm định phi tuyến đã được áp dụng trong Lu và Beamish (2004), Contractor et al. (2003), và Hitt et al. (1997). Dạng bậc hai được nghiên cứu thành phần P2 xác nhận có ý nghĩa thống kê ở Trung Quốc với điểm uốn khoảng 47,8% $\mathrm{FSTS}$, làm cơ sở cho việc kiểm định mở rộng trong luận án. Giới hạn đo lường đơn chiều này (chỉ chiều doanh số) được nêu minh bạch như một hạn chế nghiên cứu ở Chương 5.
 
 ### 3.3.3.1 Vận hành hóa cường độ quốc tế hóa và quy ước trung tâm hóa
 
@@ -99,47 +101,47 @@ Cường độ quốc tế hóa được đo bằng tỷ trọng doanh thu xuấ
 
 ### 3.3.3.2 Vận hành hóa chi tiết cường độ xuất khẩu xuyên các nghiên cứu thành phần
 
-Sự thống nhất khái niệm của cường độ xuất khẩu xuyên các nghiên cứu thành phần không kéo theo một định nghĩa thao tác duy nhất, mà là một họ định nghĩa được hiệu chỉnh theo bản chất bộ công cụ của từng đợt và theo câu hỏi nghiên cứu. Khung đa quốc gia cộng gộp xuất khẩu trực tiếp và gián tiếp rồi chia cho một trăm để đưa về tỷ trọng, cụ thể $FSTS = (d3b + d3c)/100$ với miền giá trị từ 0 đến 1, đúng định nghĩa tham gia xuất khẩu chuẩn của bộ công cụ toàn cầu; trung bình mẫu của tỷ trọng này trong mẫu gộp năm mươi nền là 9,0%. Ngược lại, hai nghiên cứu đơn quốc gia dùng riêng xuất khẩu trực tiếp dựng từ một trường khảo sát: ở Trung Quốc cường độ xuất khẩu là tỷ trọng doanh thu xuất khẩu trực tiếp, còn ở đảo nhỏ Thái Bình Dương cường độ xuất khẩu được dựng từ trường `d3c` chia cho một trăm. Lý do lựa chọn riêng xuất khẩu trực tiếp đã nêu ở Mục 3.3.3.1: xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại, mang cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất.
+Sự thống nhất khái niệm của cường độ xuất khẩu xuyên các nghiên cứu thành phần không kéo theo một định nghĩa thao tác duy nhất, mà là một họ định nghĩa được hiệu chỉnh theo bản chất bộ công cụ của từng đợt và theo câu hỏi nghiên cứu. Khung đa quốc gia cộng gộp xuất khẩu trực tiếp và gián tiếp rồi chia cho một trăm để đưa về tỷ trọng, cụ thể $\mathrm{FSTS} = (d3b + d3c)/100$ với miền giá trị từ 0 đến 1, đúng định nghĩa tham gia xuất khẩu chuẩn của bộ công cụ toàn cầu; trung bình mẫu của tỷ trọng này trong mẫu gộp năm mươi nền là 9,0%. Ngược lại, hai nghiên cứu đơn quốc gia dùng riêng xuất khẩu trực tiếp dựng từ một trường khảo sát: ở Trung Quốc cường độ xuất khẩu là tỷ trọng doanh thu xuất khẩu trực tiếp, còn ở đảo nhỏ Thái Bình Dương cường độ xuất khẩu được dựng từ trường `d3c` chia cho một trăm. Lý do lựa chọn riêng xuất khẩu trực tiếp đã nêu ở Mục 3.3.3.1: xuất khẩu gián tiếp ủy thác chức năng quốc tế hóa cho trung gian thương mại, mang cơ chế học hỏi và yêu cầu nguồn lực khác về bản chất.
 
 Doanh nghiệp không xuất khẩu nhận giá trị cường độ bằng 0 và được giữ trong mẫu, vì giá trị này phản ánh trạng thái phi xuất khẩu hợp lệ chứ không phải dữ liệu khuyết; điểm uốn của quan hệ do đó được nhận dạng trên toàn mẫu chứ không chỉ trên tập doanh nghiệp xuất khẩu. Quy ước này đặc biệt hệ trọng ở đảo nhỏ Thái Bình Dương, nơi chỉ 132 trong số 959 quan sát phân tích, tương đương 13,8%, là doanh nghiệp có xuất khẩu với cường độ dương: loại bỏ nhóm phi xuất khẩu sẽ làm sụp đổ công suất thống kê và làm sai lệch ước lượng ở biên tham gia.
 
-Quy ước trung tâm hóa được áp dụng nhất quán nhưng theo hai cấp khác nhau. Ở mẫu gộp đa quốc gia, cường độ xuất khẩu được trung tâm hóa quanh trung bình toàn mẫu trước khi lập bình phương. Ở các nghiên cứu đa đợt, cường độ xuất khẩu được trung tâm hóa trong từng đợt nhằm chặn khác biệt thành phần mẫu giữa các đợt làm nhiễu vị trí điểm uốn. Trung tâm hóa làm giảm tương quan giả tạo giữa số hạng tuyến tính và số hạng bình phương mà không làm dịch chuyển vị trí điểm uốn, vì công thức điểm uốn $-\hat\beta_1/(2\hat\beta_2)$ bất biến với phép trung tâm hóa; điểm uốn trên thang trung tâm hóa được quy đổi về thang gốc bằng cách cộng trung bình mẫu, tức $TP = -\hat\beta_1/(2\hat\beta_2) + \overline{FSTS}$.
+Quy ước trung tâm hóa được áp dụng nhất quán nhưng theo hai cấp khác nhau. Ở mẫu gộp đa quốc gia, cường độ xuất khẩu được trung tâm hóa quanh trung bình toàn mẫu trước khi lập bình phương. Ở các nghiên cứu đa đợt, cường độ xuất khẩu được trung tâm hóa trong từng đợt nhằm chặn khác biệt thành phần mẫu giữa các đợt làm nhiễu vị trí điểm uốn. Trung tâm hóa làm giảm tương quan giả tạo giữa số hạng tuyến tính và số hạng bình phương mà không làm dịch chuyển vị trí điểm uốn, vì công thức điểm uốn $-\hat\beta_1/(2\hat\beta_2)$ bất biến với phép trung tâm hóa; điểm uốn trên thang trung tâm hóa được quy đổi về thang gốc bằng cách cộng trung bình mẫu, tức $\mathrm{TP} = -\hat\beta_1/(2\hat\beta_2) + \overline{\mathrm{FSTS}}$.
 
 ### 3.3.4 Đo lường biến điều tiết
 
-#### Digital constructs (TCI và DAI)
+#### Các cấu trúc số: năng lực công nghệ (TCI) và chấp nhận số (DAI)
 
 Luận án phân biệt rõ hai cấu trúc:
 
-- **Technological Capability Index (TCI)**: chiều sâu năng lực công nghệ, tổng hợp từ cấp phép công nghệ nước ngoài, chi tiêu nghiên cứu và phát triển, đổi mới sản phẩm, và chứng nhận chất lượng.
-- **Digital Adoption Index (DAI)**: mức độ chấp nhận số bề mặt, tổng hợp từ website, thư điện tử, bán hàng trực tuyến (DAI_thin) hoặc bổ sung thanh toán điện tử và nhà cung cấp điện tử (DAI_rich).
+- **Chỉ số năng lực công nghệ** (technological capability index, $\mathrm{TCI}$): chiều sâu năng lực công nghệ, tổng hợp từ cấp phép công nghệ nước ngoài, chi tiêu nghiên cứu và phát triển, đổi mới sản phẩm, và chứng nhận chất lượng.
+- **Chỉ số chấp nhận số** (digital adoption index, $\mathrm{DAI}$): mức độ chấp nhận số bề mặt, tổng hợp từ website, thư điện tử, bán hàng trực tuyến ($\mathrm{DAI}_{\text{thin}}$) hoặc bổ sung thanh toán điện tử và nhà cung cấp điện tử ($\mathrm{DAI}_{\text{rich}}$).
 
 **Nguyên tắc không chồng lấn**: TCI và DAI không chia sẻ thành phần chỉ báo để bảo đảm độ thuần cấu trúc. Đặc biệt, cấp phép công nghệ nước ngoài thuộc TCI chứ không được đồng thời tính vào DAI.
 
 **Biến thể đo lường (rút gọn/đầy đủ).** Do bộ công cụ WBES thay đổi qua ba thế hệ bảng hỏi (PICS3, Standardized, BREADY) khiến không phải mọi mục đều khả dụng ở mọi sóng, TCI được vận hành hóa thống nhất theo hai biến thể của cùng một chỉ số hợp thành cấu thành:
 
-- **TCI_thin** = chuẩn hóa z của trung bình hai mục cốt lõi: chứng chỉ chất lượng quốc tế (b8) và cấp phép công nghệ nước ngoài (e6). Dùng trong các nghiên cứu Việt Nam (P3), Singapore (P4), đa quốc gia (P7) và đảo nhỏ Thái Bình Dương (P8).
-- **TCI_full** = chuẩn hóa z của trung bình bốn mục: b8, e6, đổi mới sản phẩm (h1), và chi R&D (h8). Dùng trong nghiên cứu Trung Quốc (P5), nơi cả hai sóng 2012 và 2024 đều có đủ module đổi mới.
+- $\mathrm{TCI}_{\text{thin}}$ = chuẩn hóa z của trung bình hai mục cốt lõi: chứng chỉ chất lượng quốc tế (`b8`) và cấp phép công nghệ nước ngoài (`e6`). Dùng trong các nghiên cứu Việt Nam (P3), Singapore (P4), đa quốc gia (P7) và đảo nhỏ Thái Bình Dương (P8).
+- $\mathrm{TCI}_{\text{full}}$ = chuẩn hóa z của trung bình bốn mục: `b8`, `e6`, đổi mới sản phẩm (`h1`), và chi nghiên cứu–phát triển (`h8`). Dùng trong nghiên cứu Trung Quốc (P5), nơi cả hai sóng 2012 và 2024 đều có đủ phân hệ đổi mới.
 
 Bộ mục chính xác của mỗi nghiên cứu thành phần được nêu lại trong bảng định nghĩa biến của nghiên cứu đó (Mục 3.4.5) và Phụ lục A; khác biệt giữa biến thể rút gọn và đầy đủ phản ánh ràng buộc khả dụng dữ liệu khách quan, không phải lựa chọn tùy ý. Vì các mục là chỉ báo nhị phân của cùng một cấu trúc cấu thành (năng lực công nghệ), hai biến thể tương quan cao và cho kết luận điều tiết nhất quán về dấu; phần độ vững (Mục 3.5.1) kiểm tra độ nhạy của kết quả với lựa chọn biến thể. Bộ mục TCI của nghiên cứu đa quốc gia (P7) đã được đối chiếu trực tiếp với mã xây dựng dữ liệu thực tế (quy trình xử lý dữ liệu thô WBES 50 nền kinh tế, gồm Nhật Bản 2025): biến `tci_z` được dựng đúng từ hai mục b8 và e6, thống nhất với khung rút gọn nêu trên.
 
 **Cơ sở kế thừa**: Bhandari et al. (2023) phân biệt số hóa, quốc tế hóa và năng lực theo logic điều phối nguồn lực; Verhoef et al. (2021) phân biệt ba giai đoạn (số hóa dữ liệu, số hóa quy trình, chuyển đổi số). Khuôn mẫu "hiệu ứng lá chắn số" được nghiên cứu thành phần P1 phát hiện trên 17 nước châu Á mới nổi.
 
-**Đóng góp mới**: Đưa ra **giao thức hài hòa hóa đo lường** trong bối cảnh WBES, đảm bảo độ thuần cấu trúc ở 50 nền kinh tế châu Á và Thái Bình Dương, với quy trình hòa hợp 3 thế hệ lược đồ. Phân tách TCI và DAI theo (i) Bharadwaj et al. (2013), năng lực công nghệ thông tin so với chiến lược kinh doanh số có mạng quan hệ lý thuyết khác nhau; (ii) phân tầng 3 cấp của Verhoef et al. (2021), số hóa dữ liệu, số hóa quy trình, chuyển đổi số; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi năng lực công nghệ là chiều sâu năng lực nội tại (absorptive capacity), khác về bản chất với chấp nhận số ở giao diện ngoại tại; (iv) logic điều phối nguồn lực của Bhandari et al. (2023) cho quan hệ quốc tế hóa và hiệu quả; và (v) 4 tiêu chí chỉ số hợp thành cấu thành của Coltman et al. (2008), đảm bảo TCI và DAI là hai chỉ số hợp thành độc lập.
+**Đóng góp mới**: Đưa ra **giao thức hài hòa hóa đo lường** trong bối cảnh WBES, đảm bảo độ thuần cấu trúc ở 50 nền kinh tế châu Á và Thái Bình Dương, với quy trình hòa hợp 3 thế hệ lược đồ. Phân tách TCI và DAI theo (i) Bharadwaj et al. (2013), năng lực công nghệ thông tin so với chiến lược kinh doanh số có mạng quan hệ lý thuyết khác nhau; (ii) phân tầng 3 cấp của Verhoef et al. (2021), số hóa dữ liệu, số hóa quy trình, chuyển đổi số; (iii) truyền thống Lall (1992) và Cohen & Levinthal (1990) coi năng lực công nghệ là chiều sâu năng lực hấp thụ nội tại (absorptive capacity), khác về bản chất với chấp nhận số ở giao diện ngoại tại; (iv) logic điều phối nguồn lực của Bhandari et al. (2023) cho quan hệ quốc tế hóa và hiệu quả; và (v) 4 tiêu chí chỉ số hợp thành cấu thành của Coltman et al. (2008), đảm bảo TCI và DAI là hai chỉ số hợp thành độc lập.
 
 #### Biến thể chế
 
-**Biến chính**: business obstacle index (tổng hợp từ các câu hỏi WBES về obstacles), country-level governance proxies, chỉ số pháp quyền WGI (Kaufmann et al., 2011), 6 chế độ con ICRV (classification từ Khanna & Palepu, 2010 mở rộng).
+**Biến chính**: chỉ số rào cản kinh doanh (business obstacle index, tổng hợp từ các câu hỏi WBES về rào cản hoạt động), các biến đại diện chất lượng quản trị cấp quốc gia, chỉ số pháp quyền WGI (Kaufmann et al., 2011), và 6 chế độ con ICRV (phân loại mở rộng từ Khanna & Palepu, 2010).
 
-**Cơ sở kế thừa**: Khanna và Palepu (2010) với khoảng trống thể chế; North (1990) với institutional analysis; Marano et al. (2016) với phân tích tổng hợp evidence về institutional các biến điều tiết.
+**Cơ sở kế thừa**: Khanna và Palepu (2010) với khoảng trống thể chế; North (1990) với phân tích thể chế; Marano et al. (2016) với tổng hợp bằng chứng về các biến điều tiết thể chế.
 
 #### Đặc điểm nhà quản trị cấp cao
 
-**Biến chính**: top manager experience (năm kinh nghiệm), top manager gender (female / male).
+**Biến chính**: kinh nghiệm nhà quản trị cấp cao (số năm kinh nghiệm trong ngành) và giới tính nhà quản trị cấp cao (nữ/nam).
 
 **Cơ sở kế thừa**: Hambrick và Mason (1984), Hambrick (2007), Hsu et al. (2013), Post và Byron (2015).
 
-**Điều kiện sử dụng**: chỉ trong subset có đủ dữ liệu; nếu thiếu, đưa vào độ vững chứ không bắt buộc trong mô hình chính.
+**Điều kiện sử dụng**: chỉ trong tập con có đủ dữ liệu; nếu thiếu, đưa vào phần kiểm định độ vững chứ không bắt buộc trong mô hình chính.
 
 ### 3.3.4.1 Phân tầng chỉ số chấp nhận số và quy tắc xây dựng chỉ số hợp thành cấu thành
 
@@ -149,7 +151,7 @@ Cả chỉ số năng lực công nghệ (Technological Capability Index, TCI) v
 
 ### 3.3.4.2 Ánh xạ mục khảo sát của chỉ số năng lực công nghệ và chỉ số chấp nhận số
 
-Để bảo đảm tính minh bạch và tái lập, mỗi biến thể của hai chỉ số hợp thành được truy nguyên về đúng bộ mục khảo sát WBES dùng để dựng nó. Biến thể mỏng của chỉ số năng lực công nghệ được dựng từ đúng hai mục nhị phân: chứng chỉ chất lượng được công nhận quốc tế (trường `b8`) và cấp phép công nghệ nước ngoài (trường `e6`); giá trị chỉ số là chuẩn hóa z của trung bình hai chỉ báo nhị phân này, xử lý như một chỉ số hợp thành cấu thành. Bộ mục hai trường này được dùng nhất quán ở khung đa quốc gia, ở Việt Nam, Singapore và đảo nhỏ Thái Bình Dương. Biến thể đầy đủ chỉ dùng ở Trung Quốc, nơi cả hai đợt đều có đủ module đổi mới, mở rộng lên bốn mục để nắm bắt chiều sâu năng lực nội tại phong phú hơn so với biến thể hai mục dùng ở các nghiên cứu khác. Khác biệt giữa biến thể mỏng và đầy đủ phản ánh ràng buộc khả dụng dữ liệu khách quan qua ba thế hệ bảng hỏi chứ không phải lựa chọn tùy ý; vì các mục là chỉ báo nhị phân của cùng một cấu trúc cấu thành, hai biến thể cho kết luận điều tiết nhất quán về dấu, và phần độ vững (Mục 3.5.1) kiểm tra trực tiếp độ nhạy với lựa chọn biến thể.
+Để bảo đảm tính minh bạch và tái lập, mỗi biến thể của hai chỉ số hợp thành được truy nguyên về đúng bộ mục khảo sát WBES dùng để dựng nó. Biến thể mỏng của chỉ số năng lực công nghệ được dựng từ đúng hai mục nhị phân: chứng chỉ chất lượng được công nhận quốc tế (trường `b8`) và cấp phép công nghệ nước ngoài (trường `e6`); giá trị chỉ số là chuẩn hóa z của trung bình hai chỉ báo nhị phân này, xử lý như một chỉ số hợp thành cấu thành. Bộ mục hai trường này được dùng nhất quán ở khung đa quốc gia, ở Việt Nam, Singapore và đảo nhỏ Thái Bình Dương. Biến thể đầy đủ chỉ dùng ở Trung Quốc, nơi cả hai đợt đều có đủ phân hệ đổi mới, mở rộng lên bốn mục để nắm bắt chiều sâu năng lực nội tại phong phú hơn so với biến thể hai mục dùng ở các nghiên cứu khác. Khác biệt giữa biến thể mỏng và đầy đủ phản ánh ràng buộc khả dụng dữ liệu khách quan qua ba thế hệ bảng hỏi chứ không phải lựa chọn tùy ý; vì các mục là chỉ báo nhị phân của cùng một cấu trúc cấu thành, hai biến thể cho kết luận điều tiết nhất quán về dấu, và phần độ vững (Mục 3.5.1) kiểm tra trực tiếp độ nhạy với lựa chọn biến thể.
 
 Chỉ số chấp nhận số được vận hành hóa theo nguyên tắc phân tầng đã trình bày ở Mục 3.3.4.1, với bộ mục cụ thể cũng được truy nguyên về trường khảo sát. Biến thể Tầng 1 dùng đúng một chỉ báo nhị phân là hiện diện website vận hành (trường `c22b`); đây là biến thể duy nhất khả dụng ở đảo nhỏ Thái Bình Dương, nơi bộ công cụ không thu thập các mục Tầng 2 thanh toán điện tử và Tầng 3 đám mây/hệ hoạch định nguồn lực doanh nghiệp. Khung đa quốc gia dùng biến thể Tầng 1 cộng Tầng 2 khi trường thanh toán điện tử có mặt và thu gọn về Tầng 1 khi thiếu, đúng như nguyên tắc nhúng tầng theo khả dụng bộ công cụ. Nguyên tắc không chồng lấn được áp đặt nghiêm ngặt: cấp phép công nghệ nước ngoài thuộc chỉ số năng lực công nghệ và không bao giờ được tính đồng thời vào chỉ số chấp nhận số, bảo đảm hai chỉ số là hai cấu trúc độc lập với mạng quan hệ lý thuyết khác nhau. Bộ mục năng lực công nghệ của khung đa quốc gia đã được đối chiếu trực tiếp với mã xây dựng dữ liệu thực tế trên kho năm mươi nền, gồm Nhật Bản 2025, xác nhận biến `tci_z` được dựng đúng từ hai mục `b8` và `e6`.
 
@@ -209,13 +211,13 @@ Dị biệt được đo bằng kiểm định $Q$ và chỉ số $I^2$ (Higgins
 
 ### 3.4.2 Mô hình thực nghiệm: Tuyến tính cơ bản
 
-$$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
+$$\ln(\mathrm{LP})_i = \beta_0 + \beta_1 \mathrm{FSTS}_i + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
 với $\mathbf{X}_i$ là vector control variables.
 
 ### 3.4.3 Mô hình phi tuyến (H1)
 
-$$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
+$$\ln(\mathrm{LP})_i = \beta_0 + \beta_1 \mathrm{FSTS}_i + \beta_2 \mathrm{FSTS}_i^{2} + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
 Nếu $\beta_1 > 0$ và $\beta_2 < 0$, chữ U ngược được xác nhận. Điểm uốn tính theo $-\beta_1 / (2\beta_2)$.
 
@@ -237,23 +239,23 @@ Cách vận hành thủ tục này thể hiện rõ ở các nghiên cứu thàn
 
 #### Tương tác hai chiều (H2, H3)
 
-$$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 M_i + \beta_4 (FSTS_i \times M_i) + \beta_5 (FSTS_i^2 \times M_i) + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
+$$\ln(\mathrm{LP})_i = \beta_0 + \beta_1 \mathrm{FSTS}_i + \beta_2 \mathrm{FSTS}_i^{2} + \beta_3 M_i + \beta_4 (\mathrm{FSTS}_i \times M_i) + \beta_5 (\mathrm{FSTS}_i^{2} \times M_i) + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
 với $M_i$ là biến điều tiết (TCI hoặc DAI).
 
-#### Tương tác ba chiều (synthesis)
+#### Tương tác ba chiều (tổng hợp)
 
-$$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 D_i + \beta_4 I_i + \beta_5 M_i + \sum \text{interactions} + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
+$$\ln(\mathrm{LP})_i = \beta_0 + \beta_1 \mathrm{FSTS}_i + \beta_2 \mathrm{FSTS}_i^{2} + \beta_3 D_i + \beta_4 I_i + \beta_5 M_i + \sum \text{(các số hạng tương tác)} + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
-với $D$ = digital, $I$ = institutional, $M$ = manager.
+với $D$ = chấp nhận số, $I$ = thể chế, $M$ = nhà quản trị.
 
 **Cơ sở kế thừa**: chuẩn điều tiết trong quản trị chiến lược (Aiken & West, 1991; Dawson, 2014).
 
-**Đóng góp mới**: three-way điều tiết digital × institutional × manager trong bối cảnh châu Á và Pacific với 50 nước chưa được kiểm định trước đây.
+**Đóng góp mới**: điều tiết ba chiều (số × thể chế × nhà quản trị) trong bối cảnh châu Á và Thái Bình Dương với 50 nước chưa được kiểm định trước đây.
 
 ### 3.4.5 Mô hình dị biệt theo thời gian (H6)
 
-$$\ln(LP)_i = \beta_0 + \beta_1 FSTS_i + \beta_2 FSTS_i^2 + \beta_3 Y_{2024,i} + \beta_4 (FSTS_i \times Y_{2024,i}) + \beta_5 (FSTS_i^2 \times Y_{2024,i}) + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
+$$\ln(\mathrm{LP})_i = \beta_0 + \beta_1 \mathrm{FSTS}_i + \beta_2 \mathrm{FSTS}_i^{2} + \beta_3 Y_{2024,i} + \beta_4 (\mathrm{FSTS}_i \times Y_{2024,i}) + \beta_5 (\mathrm{FSTS}_i^{2} \times Y_{2024,i}) + \boldsymbol{\gamma} \mathbf{X}_i + \varepsilon_i$$
 
 Nếu $\beta_4$ hoặc $\beta_5$ có ý nghĩa, hình dạng đường quan hệ đã dịch chuyển giữa hai mốc thời gian.
 
@@ -282,43 +284,43 @@ Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượn
 - **δ_s**: hiệu ứng cố định ngành (1-digit ISIC); **λ_t**: hiệu ứng cố định sóng (chỉ pooled)
 
 **M0, Mô hình cơ sở (biến kiểm soát):**
-$$\ln NSLD_{it} = \alpha + \gamma_1 \ln LD_{it} + \gamma_2 TuoiDN_{it} + \gamma_3 SoHuuNN_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \gamma_1 \ln\mathrm{LD}_{it} + \gamma_2 \mathrm{TuoiDN}_{it} + \gamma_3 \mathrm{SoHuuNN}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
 
 **M1, Quốc tế hoá tuyến tính:**
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
 
 **M2, Quốc tế hoá phi tuyến (kiểm định H1, chữ U ngược):**
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \beta_2 (\mathrm{CDDXK}^{c}_{it})^{2} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
 
 H1: $\beta_1 > 0$ và $\beta_2 < 0$; điểm quay $TP^* = -\beta_1 / (2\beta_2)$, xác nhận bởi kiểm định Lind–Mehlum (2010).
 
 **M3, Điều tiết NLCN (kiểm định H2):**
 $$\begin{aligned}
-\ln NSLD_{it} = {} & \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z \\
-& + \beta_4(CDDXK\_c \times NLCN\_z) + \beta_5(CDDXK\_c^2 \times NLCN\_z) \\
+\ln\mathrm{NSLD}_{it} = {} & \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} \\
+& + \beta_4(\mathrm{CDDXK}^{c} \times \mathrm{NLCN}_{z}) + \beta_5((\mathrm{CDDXK}^{c})^{2} \times \mathrm{NLCN}_{z}) \\
 & + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
 \end{aligned}$$
 
 **M4, Điều tiết CSS/DAI (H3 thăm dò):**
 $$\begin{aligned}
-\ln NSLD_{it} = {} & \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z \\
-& + \beta_4(CDDXK\_c \times CSS\_z) + \beta_5(CDDXK\_c^2 \times CSS\_z) \\
+\ln\mathrm{NSLD}_{it} = {} & \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{CSS}_{z} \\
+& + \beta_4(\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z}) + \beta_5((\mathrm{CDDXK}^{c})^{2} \times \mathrm{CSS}_{z}) \\
 & + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
 \end{aligned}$$
 
 **M5, NLCN trực tiếp (không tương tác):**
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
 **M6, CSS/DAI trực tiếp (không tương tác):**
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 CSS\_z + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{CSS}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
 **M7, Cả hai trực tiếp, không tương tác:**
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4 CSS\_z + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \beta_4 \mathrm{CSS}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
 **M8, Mô hình đầy đủ (trực tiếp + điều tiết CSS):**
 $$\begin{aligned}
-\ln NSLD_{it} = {} & \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_4 CSS\_z \\
-& + \beta_5(CDDXK\_c \times CSS\_z) + \beta_6(CDDXK\_c^2 \times CSS\_z) \\
+\ln\mathrm{NSLD}_{it} = {} & \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \beta_4 \mathrm{CSS}_{z} \\
+& + \beta_5(\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z}) + \beta_6((\mathrm{CDDXK}^{c})^{2} \times \mathrm{CSS}_{z}) \\
 & + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
 \end{aligned}$$
 
@@ -476,49 +478,49 @@ Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử d
 
 **Chuỗi mô hình lồng nhau M0–M11:**
 
-**M0** (tuyến tính baseline):
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \varepsilon_{it}$$
+**M0** (mô hình tuyến tính cơ sở):
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \varepsilon_{it}$$
 
 **M2** (phi tuyến, kiểm định H1):
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \beta_2 (\mathrm{CDDXK}^{c}_{it})^{2} + \varepsilon_{it}$$
 $$TP^* = -\beta_1 / (2\beta_2); \quad \text{Lind–Mehlum } p < {,}001;\ TP = 51{,}5\%\ (N = 81.022)$$
 
 **M3** (M2 + kiểm soát cơ bản):
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot X_{it} + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \gamma \cdot X_{it} + \varepsilon_{it}$$
 
 **M5** (M3 + country-year FE, kiểm định vững mạnh nhất):
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \gamma \cdot X_{it} + \delta_{ct} + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \gamma \cdot X_{it} + \delta_{ct} + \varepsilon_{it}$$
 $$TP = 43{,}6\%\ (N = 79.080;\ \text{Lind–Mehlum } p < {,}001)$$
 
 **M7** (M3 + điều tiết NLCN, kiểm định H2):
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z$$
-$$+ \beta_4 (CDDXK\_c \times NLCN\_z) + \beta_5 (CDDXK\_c^2 \times NLCN\_z) + \gamma \cdot X + \varepsilon$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z}$$
+$$+ \beta_4 (\mathrm{CDDXK}^{c} \times \mathrm{NLCN}_{z}) + \beta_5 ((\mathrm{CDDXK}^{c})^{2} \times \mathrm{NLCN}_{z}) + \gamma \cdot X + \varepsilon$$
 
 **M8** (M7 + điều tiết CSS, kiểm định H3):
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z$$
-$$+ \beta_7 (CDDXK\_c \times CSS\_z) + \beta_8 (CDDXK\_c^2 \times CSS\_z) + \gamma \cdot X + \varepsilon$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \beta_6 \mathrm{CSS}_{z}$$
+$$+ \beta_7 (\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z}) + \beta_8 ((\mathrm{CDDXK}^{c})^{2} \times \mathrm{CSS}_{z}) + \gamma \cdot X + \varepsilon$$
 $$\begin{aligned}
 \text{H3: } & \hat\beta_7 = -0{,}271\ (p = {,}149);\ \hat\beta_8 = +0{,}252\ (p = {,}367), \\
 & \text{cùng chiều nén nhưng không ý nghĩa toàn mẫu; hiệu ứng mức DAI} = +0{,}201\ (p < {,}001)
 \end{aligned}$$
 
 **M9** (M8 + đặc điểm nhà quản lý, kiểm định H4):
-$$+ \beta_9 KNQLy + \beta_{10} NQL\_nu + \beta_{11}(CDDXK\_c \times KNQLy) + \gamma \cdot X + \varepsilon$$
+$$+ \beta_9 \mathrm{KNQLy} + \beta_{10} \mathrm{NQL}_{\text{nu}} + \beta_{11}(\mathrm{CDDXK}^{c} \times \mathrm{KNQLy}) + \gamma \cdot X + \varepsilon$$
 $$\hat\beta_{10} = -0{,}088^{*} \ (p = {,}026) \text{ (nữ quản lý cấp cao: hệ số mức âm nhẹ; tương tác với FSTS không ý nghĩa)}$$
 
 **M10** (M3 + điều tiết ICRV, kiểm định H5):
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_{11} ICRV_j$$
-$$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV) + \gamma \cdot X + \varepsilon$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_{11} \mathrm{ICRV}_{j}$$
+$$+ \beta_{12}(\mathrm{CDDXK}^{c} \times \mathrm{ICRV}) + \beta_{13}((\mathrm{CDDXK}^{c})^{2} \times \mathrm{ICRV}) + \gamma \cdot X + \varepsilon$$
 $$\begin{aligned}
 \text{H5 (ba vùng): } & \text{chữ U ngược định hình rõ ở Nhóm IV } (TP = 43{,}0\%,\ p_{LM} < {,}001); \\
 & \text{gần tuyến tính ở Nhóm I; mất cấu trúc ở Nhóm V–VI}
 \end{aligned}$$
 
 **M11** (full three-way, kiểm định tương tác tổng hợp ba chiều, tổng hợp H3 và H5; P7):
-$$\ln NSLD_{it} = \alpha + \beta_1 CDDXK\_c + \beta_2 CDDXK\_c^2 + \beta_3 NLCN\_z + \beta_6 CSS\_z + \beta_{11} ICRV$$
-$$+ \beta_{7}(CDDXK\_c \times CSS\_z) + \beta_{8}(CDDXK\_c^2 \times CSS\_z)$$
-$$+ \beta_{12}(CDDXK\_c \times ICRV) + \beta_{13}(CDDXK\_c^2 \times ICRV)$$
-$$+ \beta_{14}(CDDXK\_c \times CSS\_z \times ICRV) + \beta_9 KNQLy + \beta_{10} NQL\_nu + \gamma \cdot X + \delta_{ct} + \varepsilon$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \beta_6 \mathrm{CSS}_{z} + \beta_{11} \mathrm{ICRV}$$
+$$+ \beta_{7}(\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z}) + \beta_{8}((\mathrm{CDDXK}^{c})^{2} \times \mathrm{CSS}_{z})$$
+$$+ \beta_{12}(\mathrm{CDDXK}^{c} \times \mathrm{ICRV}) + \beta_{13}((\mathrm{CDDXK}^{c})^{2} \times \mathrm{ICRV})$$
+$$+ \beta_{14}(\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z} \times \mathrm{ICRV}) + \beta_9 \mathrm{KNQLy} + \beta_{10} \mathrm{NQL}_{\text{nu}} + \gamma \cdot X + \delta_{ct} + \varepsilon$$
 $$\begin{aligned}
 & \text{Tương tác chế độ-yếu: FSTS} \times \text{Weak} = -0{,}523\ (p = {,}087); \\
 & \text{ba chiều không ý nghĩa; } TP\ (M10) = 45{,}9\%,\ \text{LM } p < {,}001
@@ -572,17 +574,17 @@ Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced 
 
 M0, cơ sở kiểm soát:
 
-$$lnNSLD_{it} = \alpha + \gamma_1 lnLD_{it} + \gamma_2 TuoiDN_{it} + \gamma_3 SoHuuNN_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \gamma_1 \ln\mathrm{LD}_{it} + \gamma_2 \mathrm{TuoiDN}_{it} + \gamma_3 \mathrm{SoHuuNN}_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
 M1, Kiểm định FIP (H1b): thêm cường độ xuất khẩu tuyến tính
 
-$$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
 $$\beta_1 = -1{,}339,\ p < {,}001\ (\text{country+year FE, N} = 959) \Rightarrow \textbf{FIP xác nhận}$$
 
 M2, Kiểm định phi tuyến: thêm CDDXK_c²
 
-$$lnNSLD_{it} = \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \beta_2 (\mathrm{CDDXK}^{c}_{it})^{2} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
 $$\begin{aligned}
 & \beta_1\ \text{NS},\ \beta_2\ \text{NS};\ \text{Lind–Mehlum U-test NS} \\
@@ -592,12 +594,12 @@ $$\begin{aligned}
 M3, Kiểm định năng lực điều tiết (H2 null cho SIDS):
 
 $$\begin{aligned}
-lnNSLD_{it} = {} & \alpha + \beta_1 CDDXK\_c_{it} + \beta_2 CDDXK\_c^2_{it} + \beta_3 NLCN\_z_{it} \\
-& + \beta_4 CSS\_z_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}
+\ln\mathrm{NSLD}_{it} = {} & \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \beta_2 (\mathrm{CDDXK}^{c}_{it})^{2} + \beta_3 \mathrm{NLCN}_{z,it} \\
+& + \beta_4 \mathrm{CSS}_{z,it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}
 \end{aligned}$$
 
 $$\begin{aligned}
-& \beta_3\ (NLCN\_z):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (CSS\_z):\ p = {,}285\ \text{NS} \\
+& \beta_3\ (\mathrm{NLCN}_{z}):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (\mathrm{CSS}_{z}):\ p = {,}285\ \text{NS} \\
 & \Rightarrow \text{TCI nâng mặt bằng năng suất; không có biến điều tiết uốn đường cong (H2 null)}
 \end{aligned}$$
 
@@ -710,8 +712,8 @@ Nguyên tắc tương tự áp dụng cho các kết quả điều tiết không
 | FSTS + FSTS² | Lu & Beamish (2004); Hitt et al. (1997); nghiên cứu thành phần P2 và P5 | Đưa vào cùng khung điều tiết ba chiều |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Không chồng lấn, độ thuần cấu trúc protocol cho WBES; lá chắn số mở rộng (nghiên cứu thành phần P1) |
 | Lind–Mehlum U-test | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng country sample và multi-country |
-| Three-way điều tiết | Aiken & West (1991); Dawson (2014) | digital × institutional × manager mới cho châu Á và Pacific |
-| dị biệt theo thời gian | Wu et al. (2022); Xiao et al. (2013); nghiên cứu thành phần P2 | China 2012–2024 stability test (turning point ~47,8% FSTS) |
+| Điều tiết ba chiều | Aiken & West (1991); Dawson (2014) | số × thể chế × nhà quản trị, mới cho châu Á và Thái Bình Dương |
+| dị biệt theo thời gian | Wu et al. (2022); Xiao et al. (2013); nghiên cứu thành phần P2 | kiểm định ổn định Trung Quốc 2012–2024 (điểm uốn ~47,8% $\mathrm{FSTS}$) |
 | sai số chuẩn vững | Long & Ervin (2000); White (1980) | Chuẩn |
 | lệch lạc công bố | Egger et al. (1997); Begg & Mazumdar (1994) | Chuẩn |
 
