@@ -14,7 +14,9 @@ Thư mục gồm 3 phần: (1) papers đủ điều kiện nộp, (2) hai chuyê
 
 ## 1. Papers đủ điều kiện submit (`1_papers/`)
 
-Mỗi gói gồm 3 file: `01_manuscript_blinded.docx`, `02_title_page.docx`, `03_cover_letter.docx`.
+Mỗi gói gồm 4 file: `01_manuscript_blinded.docx` (bản tiếng Anh ẩn danh để nộp tạp chí),
+`02_title_page.docx`, `03_cover_letter.docx`, và **`04_ban_dich_vi.docx`** (bản dịch tiếng Việt
+đầy đủ cho hồ sơ luận án/hội đồng CTU — kèm hình minh họa với P3/P4/P5).
 Đích tạp chí là **gói live** (đã loại các gói DEPRECATED), theo `DEPRECATED.md` trong từng paper.
 
 | Thư mục | Paper | Tạp chí đích (live) | Hạng | Cổng nộp |

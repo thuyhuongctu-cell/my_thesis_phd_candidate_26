@@ -46,7 +46,7 @@ xe() { # compile <texbasename> inside $LATEX_OUT, 2 passes, quiet
 }
 
 echo "==================================================================="
-echo " [1/4] Sinh .tex (full LA + CĐ1 + CĐ2) và biên dịch PDF"
+echo " [1/5] Sinh .tex (full LA + CĐ1 + CĐ2) và biên dịch PDF"
 echo "==================================================================="
 MAINFONT="$MAINFONT" bash scripts/build_latex_ctu.sh >/dev/null
 for t in LUAN_AN_CTU CD1_CTU CD2_CTU; do
@@ -59,7 +59,7 @@ cp "$LATEX_OUT/CD2_CTU.pdf"     "$PKG/2_chuyen_de/CD2_CTU.pdf"
 echo "  Luận án đầy đủ: ${LA_PAGES:-?} trang"
 
 echo "==================================================================="
-echo " [2/4] Chương 1..5 — PDF (xelatex) + DOCX (pandoc)"
+echo " [2/5] Chương 1..5 — PDF (xelatex) + DOCX (pandoc)"
 echo "==================================================================="
 CHAPTERS=(
   chuong_1_gioi_thieu_vi
@@ -82,7 +82,7 @@ for ch in "${CHAPTERS[@]}"; do
 done
 
 echo "==================================================================="
-echo " [3/4] Front-matter / References / Phụ lục — DOCX"
+echo " [3/5] Front-matter / References / Phụ lục — DOCX"
 echo "==================================================================="
 DOCX_ONLY=(
   00_phan_dau_vi
@@ -99,7 +99,7 @@ for f in "${DOCX_ONLY[@]}"; do
 done
 
 echo "==================================================================="
-echo " [4/4] Chuyên đề 1 & 2 — DOCX"
+echo " [4/5] Chuyên đề 1 & 2 — DOCX"
 echo "==================================================================="
 pandoc -f markdown-yaml_metadata_block "${REF[@]}" $RP --toc --toc-depth=3 \
   chuyen_de/cd1/00_cd1_ctu_final_vi.md -o "$PKG/2_chuyen_de/CD1_CTU.docx"
@@ -107,6 +107,30 @@ echo "  [docx] CD1_CTU"
 pandoc -f markdown-yaml_metadata_block "${REF[@]}" $RP --toc --toc-depth=3 \
   chuyen_de/cd2/00_cd2_ctu_final_vi.md -o "$PKG/2_chuyen_de/CD2_CTU.docx"
 echo "  [docx] CD2_CTU"
+
+echo "==================================================================="
+echo " [5/5] Bản dịch tiếng Việt của 8 papers -> 1_papers/*/04_ban_dich_vi.docx"
+echo "==================================================================="
+PAPER_TPL="templates/ctu_paper_reference.docx"
+PREF=(); [[ -f "$PAPER_TPL" ]] && PREF=(--reference-doc="$PAPER_TPL")
+# folder<TAB>vi-source<TAB>resource-path-root
+while IFS=$'\t' read -r folder src rp; do
+  [[ -z "$folder" ]] && continue
+  if [[ ! -f "$src" ]]; then echo "  WARN missing $src"; continue; fi
+  out="$PKG/1_papers/$folder/04_ban_dich_vi.docx"
+  pandoc -f gfm+tex_math_dollars "${PREF[@]}" --resource-path="$rp:$(dirname "$src"):." \
+    "$src" -o "$out"
+  echo "  [vi] $folder <- $(basename "$src")"
+done <<'TSV'
+P3_JED	p3/submission/p3_vietnam_vi.md	p3
+P4_MIR	p4/submission/p4_singapore_vi.md	p4
+P5_IJOEM	p5/submission/p5_china_vi.md	p5
+P6_JWB	p6/submission/p6_meta_vi.md	p6
+P7_IBR	p7/submission/p7_capstone_vi.md	p7
+P8_World_Development	p8/submission/p8_pacific_sids_vi.md	p8
+P9_MIR	p9_india/submission/p9_india_vi.md	p9_india
+P10_ABM	p10_japan/p10_japan_vi.md	p10_japan
+TSV
 
 # Dọn file phụ trợ LaTeX
 ( cd "$LATEX_OUT" && rm -f ./*.aux ./*.log ./*.out ./*.toc ./*.lof ./*.lot \
