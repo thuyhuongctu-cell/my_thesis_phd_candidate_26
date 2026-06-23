@@ -245,3 +245,20 @@ vững theo bản dựng Stata của NCS.
 harmonisation riêng-sóng (hoặc) (ii) ba file `vietnam_{2009,2015,2023}_analytic.dta` đã build. Khi đó
 Python port có thể đọc thẳng analytic `.dta` và khớp cả ba sóng. **Đóng** mục `b1_d`/2009: nguyên nhân
 đã rõ (đo lường khác theo sóng), số manuscript giữ nguyên.
+
+---
+
+## Xác nhận bằng package CHÍNH THỨC (Data + Documentation) — 2026-06-23
+
+NCS gửi trọn bộ package chính thức WBES Vietnam (Data + Documentation 2009/2015/2023). Kiểm tra:
+- **Dữ liệu chính thức cho ra ĐÚNG kết quả của em**: M2 β₁ = **0,634 (2009) / 0,977 (2015) / 0,892
+  (2023)** với l1/d3c/no-winsor. Không có biến `b1_d`; `l1` = "permanent full-time employees" (xác nhận
+  qua questionnaire Core_Vietnam_2009 + BEE 2023).
+- **Documentation** = bảng hỏi (Core/Retail/Manufacturing 2009; BEE 2023) + implementation note —
+  **không** có data dictionary định nghĩa biến lao động phái sinh nào khác `l1`.
+
+**Chốt:** (i) Khác biệt **giữa các sóng** là đúng do đo lường khác nhau theo schema WBES (điểm NCS nêu,
+đã xác nhận: 2015/2023 tái lập + pattern thời gian đúng). (ii) Riêng **con số 2009 = 1,045** đứng theo
+**bản dựng Stata của NCS** (author-authoritative); dữ liệu thô chính thức + spec do-file committed cho
+0,634 nên để tái lập đúng 2009 cần bản dựng/analytic `.dta` 2009 của NCS. Mục `b1_d`/2009 **đóng** ở mức
+chẩn đoán; không đổi số manuscript.
