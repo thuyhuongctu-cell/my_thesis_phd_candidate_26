@@ -255,7 +255,7 @@ Về **Điều kiện tiên quyết 3** (thể chế vận hành được): phá
 
 Một số hạn chế giới hạn cách diễn giải các phát hiện của chúng tôi.
 
-Thứ nhất, **cấu trúc gộp mặt cắt ngang**: trong khi chúng tôi gộp qua nhiều đợt khảo sát quốc gia-năm (2009–2025), ít nền kinh tế SIDS có nhiều hơn một đợt WBES (xem Bảng 1), làm hạn chế nhận dạng panel cho các tác động nhân quả. Ước lượng FIP chủ yếu được nhận dạng từ biến thiên mặt cắt ngang của FSTS trong các ô quốc gia-năm. Công việc tương lai sử dụng dữ liệu panel, nơi có sẵn cho Fiji, Papua New Guinea và Vanuatu (ba nền kinh tế có hai đợt khảo sát), có thể củng cố nhận dạng nhân quả.
+Thứ nhất, **cấu trúc gộp mặt cắt ngang**: trong khi chúng tôi gộp qua nhiều đợt khảo sát quốc gia-năm (2009–2025), ít nền kinh tế SIDS có nhiều hơn một đợt WBES (xem Bảng 1), làm hạn chế nhận dạng dữ liệu bảng cho các tác động nhân quả. Ước lượng FIP chủ yếu được nhận dạng từ biến thiên mặt cắt ngang của FSTS trong các ô quốc gia-năm. Công việc tương lai sử dụng dữ liệu bảng, nơi có sẵn cho Fiji, Papua New Guinea và Vanuatu (ba nền kinh tế có hai đợt khảo sát), có thể củng cố nhận dạng nhân quả.
 
 Thứ hai, **đo lường FSTS trong các bối cảnh xuất khẩu mỏng**: với FSTS trung bình 0,048 và chỉ 13,8% nhà xuất khẩu, phân phối FSTS lệch phải mạnh. Các ước lượng hệ số trong M2 có thể nhạy cảm với một nhóm nhỏ giá trị ngoại lai FSTS cao; các kết quả bậc hai không có ý nghĩa nên được diễn giải thận trọng. Công việc tương lai có thể sử dụng hồi quy phân vị hoặc giới hạn cực trị (winsorize) để đánh giá độ nhạy phân phối.
 
