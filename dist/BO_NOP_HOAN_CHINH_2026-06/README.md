@@ -73,6 +73,7 @@ Mỗi gói gồm 4 file: `01_manuscript_blinded.docx` (bản tiếng Anh ẩn da
 | `04_references_apa7.docx` | Danh mục tài liệu tham khảo (APA 7) |
 | `phu_luc_A_hop_nhat_du_lieu_vi.docx` | Phụ lục A — Hợp nhất dữ liệu |
 | `phu_luc_B_maida_vi.docx` | Phụ lục B — Công cụ trích xuất M-AIDA & công bố dùng AI |
+| `kappa_synthesis_en.pdf` / `.docx` | **Tổng luận tích hợp (kappa) tiếng Anh** — bản synthesis essay hợp nhất 8 nghiên cứu thành phần thành một luận điểm, chuẩn compilation-thesis quốc tế (kèm bảng golden-thread); luận án chính vẫn tiếng Việt theo CTU |
 
 ---
 
