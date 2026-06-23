@@ -188,7 +188,7 @@ nhất quán thành giá trị khuyết trước mọi phép tính. Mẫu phân 
 sách** (listwise deletion) trên tập biến trọng tâm, khiến N giảm dần khi thêm biến kiểm soát
 (rõ nhất ở biến sở hữu nước ngoài, khuyết ~50% ở các nền nhỏ và sóng sớm). Giả định nền tảng
 là dữ liệu khuyết ngẫu nhiên có điều kiện (missing at random) trên các hiệp biến quan sát
-được; luận án báo cáo minh bạch sự suy giảm N qua các đặc tả và kiểm tra tính ổn định của
+được; luận án báo cáo minh bạch sự suy giảm N qua các mô hình và kiểm tra tính ổn định của
 điểm uốn để bảo đảm kết quả không bị chi phối bởi cơ chế khuyết (Little & Rubin, 2019).
 
 ## A.10 Khả năng tái lập và hạn chế

@@ -12,7 +12,7 @@
 
 ## A.1 Purpose and position within the research design
 
-The dissertation tests the internationalisation–performance (I–P) relationship on a
+The dissertation tests the internationalization–performance (I–P) relationship on a
 firm sample spanning many economies and survey rounds. The data are **repeated
 cross-sections**, not a balanced panel: each WBES round draws an *independent* random
 sample of firms from the economy's frame at that time and does not track the same
@@ -94,7 +94,7 @@ core modules of the global WBES instrument (World Bank, 2019). Focal variables a
 construction rules:
 
 - **Labour productivity (primary dependent variable):** $\ln(\text{LP}) = \ln(\text{annual sales} / \text{full-time permanent employees})$, from field `d2` (total sales, last fiscal year) and `l1` (permanent workers). Labour productivity is appropriate for WBES, which lacks market prices (Combs et al., 2005; Richard et al., 2009).
-- **Internationalisation intensity (FSTS):** sum of direct and indirect exports as a share of sales, from `d3b` + `d3c`, range-bounded to [0, 100]. Non-exporting firms receive FSTS = 0 (a valid value, not missing).
+- **Internationalization intensity (FSTS):** sum of direct and indirect exports as a share of sales, from `d3b` + `d3c`, range-bounded to [0, 100]. Non-exporting firms receive FSTS = 0 (a valid value, not missing).
 - **Technological capability (TCI) and digital adoption (DAI):** constructed from binary indicators (internationally recognised quality certification `b8`; licensed foreign technology; website `c22b`; e-mail; electronic payment), kept conceptually distinct per the construct-purity argument in Section 2.1.3 and Coltman et al. (2008).
 - **Controls:** firm age (from `b5`), size (log employment), foreign ownership, top-manager characteristics, ISIC sector.
 
