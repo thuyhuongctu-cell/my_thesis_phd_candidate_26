@@ -47,6 +47,7 @@ Table 1 traces the **golden thread** — the line that runs from each research q
 
 | RQ | Component (ICRV) | Hypothesis | Key empirical finding | Theoretical contribution |
 |---|---|---|---|---|
+| Foundation | P1 — 17-economy Asian baseline (*N* = 40,633) | Foundational (CDCM) | Regional productivity stratification; **digital-shield effect** (obstacle × technology +0.110, *p* < .001) | Seeds CDCM; origin of the "digital shield" that P7 scales to 50 economies |
 | RQ1 | P6 — global meta-analysis | H1, H5 | *k* = 238; small positive pooled *r̄* = 0.074; high heterogeneity *I²* = 62.4%; institutions moderate *Q*<sub>M</sub> = 17.35 (*p* = .002) | Establishes that I–P is small-positive but **institution-driven heterogeneous** — empirical basis for the ICRV axis |
 | RQ2 | P4 — Singapore (I) | H1, H3 | Near-linear positive; turning point ~88.6% (wide CI, outside range); DAI amplifies at high intensity | Upper bound: the curve **straightens** when the institutional cushion is thick |
 | RQ2 | P3 — Vietnam (IV) | H1, H2, H3 | Sharp inverted-U, turning point 39.3–46.2%; TCI positively moderates | Anchor regime; distinguishes the **participation margin** from the intensity margin |
@@ -62,7 +63,7 @@ Table 1 traces the **golden thread** — the line that runs from each research q
 
 ## 5. The integrated finding: a three-zone morphology
 
-Placed side by side, the nine independent pieces of empirical evidence converge on a single, falsifiable theoretical claim: **internationalisation improves firm performance through a functional form that is itself a function of institutional position.** The thickness of the institutional cushion determines whether the I–P relationship is near-linear positive, a sharp inverted-U, or structurally absent and sign-reversed.
+Placed side by side, the full set of ten component studies plus the supplementary book chapter — the 17-economy foundational study (P1), the global meta-analysis (P6), five single-country estimations (P2–P5, P9), the 50-economy pooled test (P7), two boundary cases (P8 SIDS, P10 Japan), and the governance-tier book chapter — converge on a single, falsifiable theoretical claim: **internationalisation improves firm performance through a functional form that is itself a function of institutional position.** The thickness of the institutional cushion determines whether the I–P relationship is near-linear positive, a sharp inverted-U, or structurally absent and sign-reversed.
 
 Concretely, a **three-zone morphology** organises the entire body of evidence as a continuous expression of one institutional mechanism rather than three separate phenomena:
 
