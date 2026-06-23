@@ -1,0 +1,31 @@
+test,metric,value,note
+1_baseline_quad,N,32400.0,
+1_baseline_quad,beta_fsts,1.5947,p=0.0011
+1_baseline_quad,beta_fsts2,-1.6262,p=0.0027
+1_baseline_quad,turning_point_pct,49.0,canonical M5=43.6%
+2_cubic_test,beta_fsts3,1.0081,p=0.5253
+2_cubic_test,delta_AIC_cubic_minus_quad,-0.0,âm => cubic tốt hơn; dương => quadratic đủ
+2_cubic_test,delta_BIC_cubic_minus_quad,8.38,BIC phạt tham số mạnh hơn
+3_manufacturing_only,N,31540.0,
+3_manufacturing_only,turning_point_pct,49.1,p_fsts2=0.0040
+4_harman,first_factor_var_pct,31.6,>50% => nguy cơ CMB; càng thấp càng tốt
+4_harman,n_items,6.0,
+5_construct_corr,tci_cert__tci_foreign_tech,0.12,
+5_construct_corr,dai_website__tci_cert,0.287,
+5_construct_corr,dai_website__tci_foreign_tech,0.115,
+5_construct_corr,dai_epay__tci_cert,0.017,
+5_construct_corr,dai_epay__tci_foreign_tech,0.033,
+5_construct_corr,dai_epay__dai_website,0.029,
+5_efa_loadings,tci_cert_F1,-0.746,
+5_efa_loadings,tci_cert_F2,-0.154,
+5_efa_loadings,tci_foreign_tech_F1,-0.489,
+5_efa_loadings,tci_foreign_tech_F2,0.143,
+5_efa_loadings,dai_website_F1,-0.745,
+5_efa_loadings,dai_website_F2,-0.117,
+5_efa_loadings,dai_epay_F1,-0.136,
+5_efa_loadings,dai_epay_F2,0.97,
+6_vietnam_all,N,2759.0,
+6_vietnam_all,turning_point_pct,35.2,p_fsts2=0.0000
+6_vietnam_all,share_nonexporter,0.703,
+6_vietnam_exporters_only,N,820.0,
+6_vietnam_exporters_only,beta_fsts2,-1.6649,p=0.1698 (n.s. => U-shape là biên tham gia)
