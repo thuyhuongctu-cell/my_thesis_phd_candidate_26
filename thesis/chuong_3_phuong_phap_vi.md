@@ -506,7 +506,7 @@ $$\begin{aligned}
 
 **M9** (M8 + đặc điểm nhà quản lý, kiểm định H4):
 $$+ \beta_9 \mathrm{KNQLy} + \beta_{10} \mathrm{NQL}_{\text{nu}} + \beta_{11}(\mathrm{CDDXK}^{c} \times \mathrm{KNQLy}) + \gamma \cdot X + \varepsilon$$
-$$\hat\beta_{10} = -0{,}088^{*} \ (p = {,}026) \text{ (nữ quản lý cấp cao: hệ số mức âm nhẹ; tương tác với FSTS không ý nghĩa)}$$
+$$\hat\beta_{10} = -0{,}104^{***} \ (p < {,}001) \text{ (nữ quản lý cấp cao: hệ số mức âm; tương tác với FSTS không ý nghĩa)}$$
 
 **M10** (M3 + điều tiết ICRV, kiểm định H5):
 $$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_{11} \mathrm{ICRV}_{j}$$
@@ -547,11 +547,11 @@ $$\begin{aligned}
 
 ---
 
-#### 3.4.5.5 Mô hình cụ thể: Nghiên cứu 8: đảo nhỏ Thái Bình Dương (N = 959, Nhóm VI)
+#### 3.4.5.5 Mô hình cụ thể: Nghiên cứu 8: đảo nhỏ Thái Bình Dương (N = 1.450, Nhóm VI)
 
-Nghiên cứu 8 phân tích mẫu gồm **N = 959 doanh nghiệp** tại **7 nền kinh tế Pacific SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI, cấp thấp nhất trong phân loại 6 chế độ, đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **132 doanh nghiệp có hoạt động xuất khẩu** (13,8%), phản ánh cấu trúc thị trường đảo nhỏ.
+Nghiên cứu 8 phân tích mẫu gồm **N = 1.450 doanh nghiệp** tại **7 nền kinh tế Pacific SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI, cấp thấp nhất trong phân loại 6 chế độ, đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **212 doanh nghiệp có hoạt động xuất khẩu** (14,6%), phản ánh cấu trúc thị trường đảo nhỏ.
 
-Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**, mối quan hệ quốc tế hóa–hiệu quả là **đơn điệu âm** tại Nhóm VI, trái ngược với hình chữ U ngược được quan sát ở P3–P7. Lind–Mehlum U-test không bác bỏ đơn điệu (p >,10), xác nhận không có điểm quay.
+Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**. Tại Nhóm VI, dạng hình chữ U ngược **mất cấu trúc**: trên mẫu đầy đủ bảy nền (N = 1.450), cả số hạng tuyến tính lẫn bậc hai đều mất ý nghĩa khi đưa vào đồng thời và cả bốn điều kiện cần của một đường cong chữ U ngược đều thất bại (xem Chương 4, Mục 4.7.2 và 4.7.6), nên quan hệ là **đơn điệu âm về xu hướng**, không có điểm quay nội miền, trái ngược với hình chữ U ngược ở P3–P7. Hệ số FIP âm **mạnh, có ý nghĩa** (β₁ = −1,339, p < ,001) ghi nhận trên **phiên bản dữ liệu gốc / bản dựng hạn chế** (N = 959; lõi ba nền có đủ kiểm soát đợt trước 2018: N = 209) và được trình bày như bằng chứng độ vững nội bộ ở Chương 4 (Mục 4.7.7–4.7.8).
 
 **Ký hiệu biến (tiếng Việt ↔ mã WBES):**
 
@@ -580,7 +580,7 @@ M1, Kiểm định FIP (H1b): thêm cường độ xuất khẩu tuyến tính
 
 $$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
-$$\beta_1 = -1{,}339,\ p < {,}001\ (\text{country+year FE, N} = 959) \Rightarrow \textbf{FIP xác nhận}$$
+$$\beta_1 = -1{,}339,\ p < {,}001\ (\text{country+year FE, phiên bản dữ liệu gốc, N} = 959) \Rightarrow \textbf{FIP (bản dựng gốc)}$$
 
 M2, Kiểm định phi tuyến: thêm CDDXK_c²
 
@@ -612,7 +612,7 @@ $$\begin{aligned}
 | Bivariate (không controls) | −0,864 | 0,441 |,050 |
 | chỉ doanh nghiệp xuất khẩu (N = 26) | −1,176 | 0,763 |,130 (NS) |
 
-*Hệ số âm nhất quán về dấu qua các specification; suy luận FIP dựa chủ yếu vào các mô hình fixed-effects (M1, year-FE), trong khi chỉ doanh nghiệp xuất khẩu (N=26) thiếu công suất thống kê.*
+*Bảng độ vững trên thuộc **phiên bản dữ liệu gốc** (N = 959); hệ số âm nhất quán về dấu qua các đặc tả, suy luận FIP dựa chủ yếu vào các mô hình hiệu ứng cố định (M1, year-FE), trong khi chỉ doanh nghiệp xuất khẩu (N = 26) thiếu công suất thống kê. Trên mẫu đầy đủ bảy nền (N = 1.450), dạng đơn điệu âm vẫn là xu hướng nhưng các số hạng mất ý nghĩa thống kê khi đưa vào đồng thời (Chương 4, Mục 4.7.2).*
 
 **Bảng định nghĩa biến, Nghiên cứu 8 (SIDS)**
 
