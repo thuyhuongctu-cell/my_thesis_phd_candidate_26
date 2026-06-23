@@ -1,10 +1,8 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  a4paper,
   13pt]{extreport}
 \usepackage{amsmath,amssymb}
 \usepackage{setspace}
@@ -29,8 +27,28 @@
   \usepackage[]{microtype}
   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
 \usepackage{xcolor}
-\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm,headsep=1cm,footskip=1cm]{geometry}
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -101,11 +119,7 @@
 \urlstyle{same}
 \hypersetup{
   pdflang={vi},
-  colorlinks=true,
-  linkcolor={black},
-  filecolor={Maroon},
-  citecolor={black},
-  urlcolor={blue},
+  hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
@@ -435,6 +449,105 @@ là một tinh chỉnh lý thuyết mà khung CDCM phiên bản ban đầu chưa
 bật, và nó cung cấp một giải thích thống nhất cho việc vì sao đường cong
 duỗi thẳng ở biên trên.
 
+\hypertarget{sux1ee3i-chux1ec9-vuxe0ng-truy-vux1ebft-tuxedch-hux1ee3p-tux1eeb-cuxe2u-hux1ecfi-nghiuxean-cux1ee9u-ux111ux1ebfn-ux111uxf3ng-guxf3p-luxfd-thuyux1ebft}{%
+\subsection{5.1.8 Sợi chỉ vàng: truy vết tích hợp từ câu hỏi nghiên cứu
+đến đóng góp lý
+thuyết}\label{sux1ee3i-chux1ec9-vuxe0ng-truy-vux1ebft-tuxedch-hux1ee3p-tux1eeb-cuxe2u-hux1ecfi-nghiuxean-cux1ee9u-ux111ux1ebfn-ux111uxf3ng-guxf3p-luxfd-thuyux1ebft}}
+
+Để làm rõ rằng luận án là \textbf{một lập luận tích hợp duy nhất} chứ
+không phải tập hợp rời rạc các nghiên cứu thành phần, Bảng 5.1 truy vết
+``sợi chỉ vàng'' xuyên suốt: mỗi câu hỏi nghiên cứu được trả lời bằng
+những nghiên cứu thành phần cụ thể, kiểm định những giả thuyết xác định,
+cho ra những phát hiện thực nghiệm có thể đối chiếu, và cùng hội tụ về
+một đóng góp lý thuyết của khung CDCM--ICRV--FIP. Bảng đọc theo chiều
+ngang cho thấy tính nhất quán nội tại của từng mắt xích; đọc theo chiều
+dọc cho thấy cách các mảnh bằng chứng độc lập bồi đắp lẫn nhau thành một
+tuyên bố thống nhất.
+
+\textbf{Bảng 5.1.} \emph{Sợi chỉ vàng tích hợp: câu hỏi nghiên cứu →
+nghiên cứu thành phần → giả thuyết → phát hiện thực nghiệm chủ chốt →
+đóng góp lý thuyết.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+RQ
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nghiên cứu (nhóm ICRV)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Giả thuyết
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Phát hiện thực nghiệm chủ chốt
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Đóng góp lý thuyết
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+RQ1 & P6 --- Phân tích tổng hợp toàn cầu & H1, H5 & \(k=238\); hiệu ứng
+dương nhỏ \(\bar{r}=0{,}074\); dị biệt cao \(I^2=62{,}4\%\); thể chế
+điều tiết \(Q_M=17{,}35\) (\(p=,002\)) & Xác lập thực chứng rằng quan hệ
+I--P dương nhỏ nhưng \textbf{dị biệt do thể chế} --- cơ sở cho trục
+ICRV \\
+RQ2 & P4 --- Singapore (I) & H1, H3 & Gần tuyến tính dương; điểm uốn
+\textasciitilde88,6\% (CI rộng, ngoài miền); DAI khuếch đại ở cường độ
+cao & Biên trên: đường cong \textbf{duỗi thẳng} khi đệm thể chế dày \\
+RQ2 & P3 --- Việt Nam (IV) & H1, H2, H3 & Chữ U ngược sắc nét, điểm uốn
+39,3--46,2\%; TCI điều tiết dương & Chế độ neo; phân biệt \textbf{biên
+tham gia} vs biên cường độ \\
+RQ2 & P5 --- Trung Quốc 2012--2024 (III); P2 --- DNVVN TQ & H1, H6 &
+Điểm uốn ổn định \textasciitilde48,78\% (Paternoster \(z=0{,}82\),
+\(p=,412\)); P2: 47,8\%, bẫy vốn lưu động & \textbf{Tính bền thời gian}
+của điểm uốn qua một thập kỷ \\
+RQ3 & P7 --- Toàn mẫu 50 nền & H1, H2, H3, H5 & \(N=81.022/79.080\);
+điểm uốn 43,6--51,5\%; TCI \(+0{,}141\), DAI \(+0{,}201\) (\(p<,001\))
+nâng mặt bằng & Khái quát hóa CDCM; TCI/DAI là \textbf{bộ nâng mặt bằng
+phổ quát}, không uốn đường cong \\
+RQ3 & P8 --- Pacific SIDS (VI) & H1b & Mất cấu trúc: độ dốc \(-0{,}085\)
+(\(p_\text{wild}=,66\)), độ cong \(+0{,}696\) (\(p_\text{wild}=,082\)
+biên); \(N=1.450\) & Định danh \textbf{FIP} --- điều kiện biên cực trị
+của chữ U ngược \\
+RQ4 & P7 --- Toàn phổ ICRV & H5 & Điểm uốn dịch theo chế độ (Nhóm IV
+43,0\% → Nhóm I gần tuyến tính → Nhóm V/VI mất cấu trúc) & Thể chế điều
+tiết cả \textbf{dạng hàm}, không chỉ độ lớn --- ``có điều kiện theo bối
+cảnh'' \\
+RQ4 & P9 --- Ấn Độ 2014--2025 (IV) & H1c & \textbf{Tan biến} điểm uốn:
+61,8\% (2014) → 40,7\% (2022) → mất ý nghĩa độ cong (2025:
+\(\beta_2=-0{,}16\), \(p=,42\)) & Chuyển đổi thể chế cực mạnh
+\textbf{hòa tan} chứ không chỉ dịch ngưỡng (điều kiện biên thời gian) \\
+RQ4 & P10 --- Nhật Bản 2025 (I) & H1 (biên trên) & Gần tuyến tính dương,
+điểm uốn ngoài miền; phần bù xuất khẩu 25,8\% & Xác nhận \textbf{dự đoán
+biên trên}; cơ chế biên tham gia (Melitz, 2003) \\
+RQ4 & Chương sách --- Ấn Độ, quản trị (IV) & H4 & ROS: kinh nghiệm
+\(+1{,}55\), lãnh đạo nữ \(+77{,}03\) điều tiết dương (\(N=380\)) & Bằng
+chứng đơn quốc gia cho \textbf{tầng quản trị} của CDCM \\
+\end{longtable}
+
+\emph{Ghi chú: Các con số trích nguyên từ Mục 5.6.1 và các mục kết quả
+tương ứng (Mục 4.2--4.9). Nhóm ICRV: I = tiên tiến đổi mới; III = trung
+bình cao; IV = chuyển đổi thu nhập trung bình thấp; VI = SIDS. Nguồn:
+tác giả tổng hợp.}
+
+Đọc dọc Bảng 5.1, chín mảnh bằng chứng độc lập --- một phân tích tổng
+hợp toàn cầu, năm ước lượng đơn quốc gia trải khắp phổ thể chế, một kiểm
+định toàn mẫu 50 nền, và hai trường hợp biên (SIDS, Nhật Bản) --- hội tụ
+về \textbf{một tuyên bố lý thuyết duy nhất có thể bác bỏ}: \emph{mức độ
+quốc tế hóa cải thiện hiệu quả doanh nghiệp theo một dạng hàm mà bản
+thân dạng hàm đó là một hàm của vị trí thể chế}. Cụ thể, độ dày đệm thể
+chế quyết định liệu quan hệ I--P là gần tuyến tính dương (biên trên),
+chữ U ngược sắc nét (chế độ chuyển đổi), hay mất cấu trúc và đảo dấu
+(biên dưới). Tuyên bố này nâng luận điểm kinh điển ``bối cảnh quan
+trọng'' từ một nhận định định tính (thể chế điều tiết \emph{độ lớn} hiệu
+ứng) lên một mệnh đề định lượng kiểm định được (thể chế điều tiết
+\emph{dấu và dạng} hiệu ứng), và xác định tường minh điểm --- chế độ
+SIDS --- mà tại đó cả họ lý thuyết chữ U ngược không còn ứng dụng được.
+
 \hypertarget{so-suxe1nh-vux1edbi-nghiuxean-cux1ee9u-trux1b0ux1edbc-ux111uxe2y}{%
 \section{5.2 So sánh với nghiên cứu trước
 đây}\label{so-suxe1nh-vux1edbi-nghiuxean-cux1ee9u-trux1b0ux1edbc-ux111uxe2y}}
@@ -677,6 +790,38 @@ chế độ thể chế cực yếu như nhóm đảo nhỏ.
 \hypertarget{ux111uxf3ng-guxf3p-luxfd-thuyux1ebft}{%
 \section{5.3 Đóng góp lý
 thuyết}\label{ux111uxf3ng-guxf3p-luxfd-thuyux1ebft}}
+
+\hypertarget{khung-ux111uxe1nh-giuxe1-ux111uxf3ng-guxf3p-luxfd-thuyux1ebft}{%
+\subsection{5.3.0 Khung đánh giá đóng góp lý
+thuyết}\label{khung-ux111uxe1nh-giuxe1-ux111uxf3ng-guxf3p-luxfd-thuyux1ebft}}
+
+Trước khi trình bày từng đóng góp, mục này định vị chúng theo hai tiêu
+chí được chấp nhận rộng rãi để đánh giá đóng góp lý thuyết trong nghiên
+cứu quản trị và kinh doanh quốc tế: \textbf{tính nguyên gốc và tính hữu
+dụng} (originality × utility; Corley \& Gioia, 2011), và bộ ba câu hỏi
+\textbf{``cái gì -- như thế nào -- vì sao''} mà một đóng góp lý thuyết
+phải trả lời (Whetten, 1989). Theo Corley và Gioia (2011), một đóng góp
+có giá trị phải vừa \emph{nguyên gốc} (tăng tiến hoặc mở đường mới) vừa
+\emph{hữu dụng} (cho khoa học hoặc thực tiễn); luận án định vị mỗi đóng
+góp trên cả hai trục này thay vì chỉ tuyên bố tính mới.
+
+Điểm phân biệt cốt lõi giữa \textbf{đóng góp} và \textbf{nhân rộng}
+(replication) được giữ tường minh: việc tái xác nhận chữ U ngược ở từng
+bối cảnh đơn lẻ (P3, P4, P5) tự nó là \emph{nhân rộng} có giá trị xác
+nhận nhưng không phải đóng góp lý thuyết mới; đóng góp nằm ở \emph{cấu
+trúc hóa} sự biến thiên xuyên bối cảnh của dạng hàm đó thành một quy
+luật kiểm định được. Tương ứng, mỗi đóng góp dưới đây được phát biểu
+dưới dạng \textbf{mệnh đề có thể bác bỏ} (falsifiable) kèm \textbf{điều
+kiện phạm vi} (scope conditions) tường minh --- đặc điểm mà khung
+CDCM--ICRV--FIP đáp ứng vì nó dự đoán \emph{trước} vị trí và sự tồn tại
+của điểm uốn theo chế độ thể chế, do đó có thể sai nếu dữ liệu không
+khớp. Bốn đóng góp dưới đây (5.3.1--5.3.7) lần lượt trả lời: \emph{cái
+gì} mới được đưa vào (DAI là nguồn lực tình huống; FIP; ICRV; điều kiện
+ổn định thể chế), \emph{như thế nào} các cấu trúc này vận hành (qua nâng
+mặt bằng vs uốn đường cong; qua dịch chuyển vs hòa tan điểm uốn), và
+\emph{vì sao bây giờ} (kỷ nguyên số và sự sẵn có lần đầu của dữ liệu
+doanh nghiệp hài hòa cho 50 nền châu Á -- Thái Bình Dương, gồm Nhật Bản
+2025).
 
 \hypertarget{cdcm-luxe0m-ruxf5-dai-luxe0-nguux1ed3n-lux1ef1c-tuxecnh-huux1ed1ng}{%
 \subsection{5.3.1 CDCM: Làm rõ DAI là nguồn lực tình
@@ -1014,6 +1159,62 @@ hiện đúng cả hai: vận hành hóa điều kiện biên thể chế bằng
 thay vì giả định một quy luật phổ quát, và nối tầng vĩ mô thể chế với
 tầng cá nhân nhà quản trị trong một khung đa cấp được lập luận tường
 minh thay vì chuyển dịch lý thuyết giữa các cấp độ một cách máy móc.
+
+\hypertarget{ux111iux1ec1u-kiux1ec7n-phux1ea1m-vi-vuxe0-cux1a1-sux1edf-nhux1eadn-dux1ea1ng-nhuxe2n-quux1ea3-cux1ee7a-khung-cdcm}{%
+\subsection{5.3.8 Điều kiện phạm vi và cơ sở nhận dạng nhân quả của
+khung
+CDCM}\label{ux111iux1ec1u-kiux1ec7n-phux1ea1m-vi-vuxe0-cux1a1-sux1edf-nhux1eadn-dux1ea1ng-nhuxe2n-quux1ea3-cux1ee7a-khung-cdcm}}
+
+Một đóng góp lý thuyết đạt chuẩn quốc tế phải nêu rõ không chỉ \emph{nó
+khẳng định điều gì} mà cả \emph{trong những điều kiện nào điều đó đúng}
+và \emph{cơ sở suy luận nào nâng đỡ khẳng định} (Santangelo \& Verbeke,
+2022). Mục này phát biểu tường minh hai điều đó cho khung CDCM, tách
+bạch khỏi các hạn chế nghiên cứu (Mục 5.5) vốn nói về điểm yếu của thiết
+kế chứ không phải ranh giới của lý thuyết.
+
+\textbf{Điều kiện phạm vi (boundary conditions).} Khung CDCM được phát
+biểu trong một miền ứng dụng xác định, và chính sự xác định này làm cho
+nó có thể bị bác bỏ. Thứ nhất, \emph{đơn vị và thước đo}: khung áp dụng
+cho quan hệ ở \textbf{cấp doanh nghiệp} với mức độ quốc tế hóa được đo
+bằng \textbf{cường độ xuất khẩu (chiều doanh số của DOI)}; các chiều
+khác của quốc tế hóa (phạm vi địa lý, chiều sâu cam kết qua đầu tư trực
+tiếp ra nước ngoài) nằm ngoài phạm vi đã kiểm định và là điều kiện biên
+cần nhân rộng (Mục 5.5.3.3). Thứ hai, \emph{miền thể chế}: khung được
+hiệu chỉnh và kiểm định trên \textbf{phổ thể chế châu Á và Thái Bình
+Dương} giai đoạn 2006--2026; việc mở rộng sang các khu vực có cấu hình
+thể chế khác (Mỹ Latinh, châu Phi hạ Sahara) là một kiểm định phạm vi
+mở. Thứ ba, \emph{giả định cấu trúc tối thiểu}: khung ngầm giả định ba
+điều kiện cấu trúc --- thị trường nội địa đủ lớn, chi phí thương mại
+không quá cao, và tồn tại hỗ trợ thể chế tối thiểu --- được thỏa mãn;
+chính việc \textbf{định danh trường hợp các giả định này đồng thời bị vi
+phạm} (chế độ SIDS, qua khái niệm FIP) là cách luận án biến điều kiện
+biên ngầm của cả họ lý thuyết chữ U ngược thành một mệnh đề tường minh.
+Khung do đó tự nêu ranh giới ứng dụng của chính nó: tại biên dưới cực
+trị của phổ thể chế, dạng hàm chữ U ngược không còn là mô tả đúng.
+
+\textbf{Cơ sở nhận dạng nhân quả.} Luận án giữ thái độ suy luận thận
+trọng và nhất quán: thiết kế dữ liệu là \textbf{chuỗi cắt ngang lặp lại}
+(không phải dữ liệu bảng theo dõi cùng doanh nghiệp), nên các phát biểu
+được hiểu là \textbf{quan hệ cấu trúc có điều kiện} chứ không phải hiệu
+ứng nhân quả điểm được nhận dạng chặt. Tuy vậy, độ tin cậy của luận điểm
+trung tâm không dựa trên một ước lượng đơn lẻ mà trên \textbf{tam giác
+hóa nhiều nguồn nhận dạng có thiên lệch không trùng nhau}: (i) biến công
+cụ cho chấp nhận số với kiểm định độ mạnh công cụ (Mục 3.5.6.1), cho hệ
+số DAI được công cụ hóa gần ``không'' --- gợi ý phần lớn tương quan
+DAI--hiệu quả mang tính chọn lọc chứ không nhân quả, một kết luận
+\emph{khiêm tốn hóa} chứ không thổi phồng; (ii) giới hạn Oster về thiên
+lệch do biến bỏ sót không quan sát (Mục 3.5.6.2); (iii) kiểm định ổn
+định hệ số Paternoster xuyên đợt khảo sát (P5: \(z=0{,}82\),
+\(p=,412\)); (iv) \textbf{tính nhất quán về dấu xuyên nhiều đặc tả} như
+nguyên tắc suy luận nền tảng (Mục 3.5.6.3); và (v) sự hội tụ giữa phân
+tích tổng hợp (P6) và ước lượng gộp cấp doanh nghiệp (P7) --- hai phương
+pháp chịu các nguồn thiên lệch khác nhau nhưng cùng định vị thể chế là
+biến điều tiết then chốt (Mục 5.2.5). Khi năm nguồn nhận dạng với điểm
+yếu bù trừ lẫn nhau cùng chỉ về một kết luận, luận điểm cấu trúc trở nên
+khó quy về tạo tác của một quy trình phân tích đơn lẻ, ngay cả khi từng
+nguồn riêng lẻ không đủ để nhận dạng nhân quả điểm. Đây chính là chuẩn
+suy luận mà tài liệu kinh doanh quốc tế đương đại kỳ vọng ở thiết kế
+quan sát đa bối cảnh.
 
 \hypertarget{ux111ux1ec1-xuux1ea5t-chuxednh-suxe1ch-vuxe0-quux1ea3n-trux1ecb}{%
 \section{5.4 Đề xuất chính sách và quản

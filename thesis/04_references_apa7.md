@@ -184,6 +184,8 @@ Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of in
 
 Contractor, F. J. (2012). Why do multinational firms exist? A theory note about the effect of multinational expansion on performance and recent methodological critiques. *Global Strategy Journal, 2*(4), 318–331. https://doi.org/10.1111/j.2042-5805.2012.01043.x
 
+Corley, K. G., & Gioia, D. A. (2011). Building theory about theory building: What constitutes a theoretical contribution? *Academy of Management Review, 36*(1), 12–32. https://doi.org/10.5465/amr.2009.0486
+
 Cooper, H. (2010). *Research synthesis and meta-analysis: A step-by-step approach* (4th ed.). Sage.
 
 Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home country uncertainty and the internationalization–performance relationship. *Journal of World Business, 53*(2), 209–221.
@@ -420,6 +422,8 @@ McDougall, P. P., & Oviatt, B. M. (1996). New venture internationalization, stra
 
 Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
 
+Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
+
 Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551. https://doi.org/10.1057/s41267-017-0078-8
 
 Miller, S. R., Lavie, D., & Delios, A. (2016). International intensity, diversity, and distance: Unpacking the internationalization-performance relationship. *International Business Review, 25*(4), 907–920. https://doi.org/10.1016/j.ibusrev.2015.12.001
@@ -623,6 +627,8 @@ Wang, L., Huang, Y., & Hong, Z. (2024). Digitalization as a double-edged sword: 
 Wei, S., & Lin, L. (2021). The relationship between extent of internationalization and firm performance (Taiwan 1992–2017). *Mathematical Problems in Engineering*. https://doi.org/10.1155/2021/5528972
 
 Wernerfelt, B. (1984). A resource-based view of the firm. *Strategic Management Journal, 5*(2), 171–180. https://doi.org/10.1002/smj.4250050207
+
+Whetten, D. A. (1989). What constitutes a theoretical contribution? *Academy of Management Review, 14*(4), 490–495. https://doi.org/10.5465/amr.1989.4308371
 
 Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
 
