@@ -28,3 +28,27 @@ Convention going forward: replication scripts must read the **committed** raw WB
 Before submission/defense, pin each paper's analytic `.dta` (or confirm raw → analytic builds
 run from `data_wbes/raw_dta/`) and commit an estimates table per paper so every headline number
 is auditable by a reviewer.
+
+---
+
+## Cập nhật 2026-06-23 — A1 cross-check (Python) + P4 fix
+
+Đã chạy lại bằng phần mềm tương đương (Python) trên `data_wbes/raw_dta/` và **tái lập headline**:
+
+| Paper | Runner | Tái lập 2026-06-23 |
+|---|---|---|
+| P4 Singapore | `p4/replication/p4_singapore_figs_from_raw.py` | ✅ chữ U ngược; **FSTS²×DAI +3,22** (≈ bản thảo +3,119); TP ~86% (không định vị); N=623/617 |
+| P5 China | `p5/replication/python/build_and_run.py` | ✅ mfg TP 42,31/29,65; pooled 48,78 |
+| P7 50-econ | `dist/osf/P7_capstone/code/p7_run_50econ.py` | ✅ TP 51,40/43,83; Nhóm IV 43,03; SIDS U-shape (N theo khung raw, gồm Azerbaijan — xem `reviews/REPLICATION_CROSSCHECK_2026-06-23.md`) |
+| P8 SIDS | `p8/replication/build_and_run_p8_7pacific.py` | ✅ N=1.450/7cl; lin −0,085 (.656); quad +0,696 (.082) |
+| P9 India | `p9_india/replication/run_pipeline.py` | ✅ TP 61,81/40,72/tan biến; Paternoster z=−7,94 |
+| P10 Japan | `p10_japan/replication/p10_japan_models.py` | ✅ premium +0,258; FSTS 4,1% |
+
+**Fix:** `p4/replication/p4_singapore_replication.py` (bản Vietnam dán nhầm nhãn, đường dẫn upload tạm)
+→ chuyển thành **stub deprecation** chỉ sang runner đúng `p4_singapore_figs_from_raw.py` (đã path-correct
+`WBES_RAW`/`data_wbes/raw_dta`) và do-files `p4/replication/do/`.
+
+**P9 + P10 path-audit:** ✅ cả hai đã đọc `data_wbes/raw_dta/` (không cần sửa).
+
+**Còn lại:** P3 (độ lớn chính xác cần Stata `b1_d`); top-level `replication/*.py` xáo trộn (trùng per-paper,
+khuyến nghị dọn); A2 verify DOI phải chạy trên máy có mạng của NCS (container chặn outbound — CrossRef 403).
