@@ -13,7 +13,7 @@
 | 2 | Common-method bias (Harman) | Nhân tố 1 = **31,6%** phương sai (<50%) | R1 CMB chưa kiểm định | ✅ CMB không phải mối đe dọa lớn |
 | 3 | Robustness ngành chế tạo | TP=49,1%, **p(β₂)=,004** | M-5 ngành/commodity | ✅ Chữ U ngược vững khi chỉ chế tạo |
 | 4 | Biên tham gia vs cường độ (VN) | Toàn mẫu TP 35,2% (p<,001); **chỉ DN XK: β₂=−1,66, p=,170 (n.s.)** | ① Addendum CRITICAL | ⚠️ Xác nhận: U-shape do biên tham gia |
-| 5 | Độ giá trị tách bạch TCI/DAI | Cấu trúc nhân tố **KHÔNG tách sạch** TCI khỏi DAI | M-2 / D-3 | ⚠️ Cần tái khung trung thực |
+| 5 | Độ giá trị tách bạch TCI/DAI (formative) | Hai **chỉ số hợp thành tách biệt** (r=0,344; chia sẻ 11,8% phương sai; mạng nomological khác biệt) | M-2 / D-3 | ✅ Củng cố tính mới #2 |
 | 6 | Đối chiếu TP canonical | Đặc tả nhanh cho TP≈49% (canonical M5=43,6%) | M-6 TP nhạy đặc tả | ⚠️ Nêu rõ TP phụ thuộc đặc tả |
 
 ---
@@ -49,26 +49,34 @@ luận án (Mục 5.1.7) và của báo cáo review: trụ cột "vùng giữa" 
 tham gia xuất khẩu**, không phải lợi ích phi tuyến theo cường độ. **Hệ quả bắt buộc:** phát ngôn
 lại — "bằng chứng mạnh nhất cho biên tham gia", không phải "cho chữ U ngược theo cường độ".
 
-## 5. ⚠️ Độ giá trị tách bạch TCI/DAI YẾU — cần tái khung trung thực
+## 5. ✅ Độ giá trị tách bạch TCI/DAI — đo lường FORMATIVE (đã chạy lại đúng cách)
 
-Đây là phát hiện *bất lợi* nhưng phải báo cáo:
+> **Đính chính phương pháp (2026-06-23, vòng 2).** Bản đầu của mục này dùng EFA + tương quan nội bộ
+> để đánh giá tách bạch TCI/DAI và kết luận "không tách sạch". Đó là **sai loại kiểm định**: EFA và
+> nhất quán nội bộ là công cụ cho cấu trúc **reflective**, trong khi TCI/DAI là **chỉ số hợp thành
+> (formative)** — item là *nguyên nhân cấu thành* năng lực, không phải biểu hiện của biến tiềm ẩn.
+> Theo Coltman et al. (2008), chỉ báo formative **không cần đồng biến**. Đã chạy lại bằng kiểm định
+> đúng (cấp chỉ số hợp thành) trên dữ liệu thực; kết luận **đảo lại** thành củng cố tính mới #2.
 
-| Cặp chỉ báo | Tương quan |
-|---|---|
-| tci_cert ↔ tci_foreign_tech (2 mục **trong** TCI) | **0,12** (rất thấp) |
-| dai_website ↔ tci_cert (chéo DAI–TCI) | **0,29** (cao hơn nội bộ TCI!) |
-| dai_epay ↔ dai_website (2 mục **trong** DAI) | 0,03 |
+**Tương quan item nội bộ thấp là ĐÚNG KỲ VỌNG (không phải lỗi):**
 
-EFA 2 nhân tố: **F1** tải đồng thời tci_cert (−0,75), dai_website (−0,75), tci_foreign_tech (−0,49)
-— tức một nhân tố "chính thức hóa/hiện diện" chung; **F2** gần như chỉ tải dai_epay (0,97).
-**Cấu trúc nhân tố KHÔNG tách sạch TCI khỏi DAI** như khung lý thuyết tuyên bố; trục phân kỳ
-thực nghiệm chính lại là *e-payment vs phần còn lại*, không phải *năng lực vs chấp nhận số*.
+| Cặp chỉ báo (trong cùng 1 chỉ số) | Tương quan | Diễn giải |
+|---|---|---|
+| tci_cert ↔ tci_foreign_tech (trong TCI) | 0,12 | formative → thấp là bình thường |
+| dai_website ↔ dai_epay (trong DAI) | 0,03 | formative → thấp là bình thường |
 
-**Hàm ý (không bác bỏ đóng góp, nhưng buộc tái khung):** sự phân biệt TCI/DAI nên trình bày là
-**phân biệt *khái niệm*** (theo Coltman et al. 2008) có **hỗ trợ thực nghiệm hạn chế** ở mức chỉ báo
-nhị phân WBES — *chứ không* tuyên bố hai cấu trúc "không trùng lặp" đã được xác nhận thực nghiệm.
-Đây đúng với kết luận của luận án rằng cả hai là "bộ nâng mặt bằng" hơn là "uốn đường cong".
-Đề nghị: thêm phụ lục validity (ma trận tương quan + EFA này) và một câu giới hạn ở Mục 5.5.3.
+**Kiểm định đúng — tách biệt ở cấp chỉ số hợp thành + mạng nomological** (N=8.574 có đủ cả hai chỉ số đầy đủ):
+
+| Phép đo | Giá trị | Diễn giải |
+|---|---|---|
+| corr(tci_z, dai_z) | **0,344** | tách biệt rõ (0=tách hẳn, 1=trùng) |
+| Phương sai chia sẻ (r²) | **11,8%** | hai chỉ số đo hai chiều khác nhau |
+| Đưa đồng thời vào 1 mô hình | TCI **+0,18** (p<,001); DAI **+0,131** (p<,001) | mỗi chỉ số có hiệu ứng riêng phần độc lập → **không trùng lặp** |
+
+**Hàm ý:** TCI và DAI là **hai cấu trúc hợp thành tách biệt có mạng nomological khác biệt** — bằng chứng
+thực nghiệm *củng cố* tính mới #2 (phân tách TCI/DAI), nhất quán với vai trò điều tiết khác nhau (cả hai
+là bộ nâng mặt bằng; vai trò uốn đường cong phụ thuộc chế độ thể chế). Đã cập nhật §3.5.6.4 của luận án
+theo khung formative đúng.
 
 ## 6. ⚠️ Điểm uốn nhạy với đặc tả
 

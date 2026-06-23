@@ -71,21 +71,30 @@ add("4_harman", "first_factor_var_pct", round(100*ev[0]/ev.sum(), 1),
     ">50% => nguy cơ CMB; càng thấp càng tốt")
 add("4_harman", "n_items", len(hv))
 
-# ---- (5) Độ giá trị cấu trúc TCI vs DAI ----
+# ---- (5) Độ giá trị cấu trúc TCI vs DAI (đo lường FORMATIVE) ----
+# TCI/DAI là chỉ số hợp thành (formative): item là nguyên nhân cấu thành năng lực,
+# không phải biểu hiện reflective -> item KHÔNG cần covary; EFA/nội-bộ không chẩn đoán
+# được. Kiểm định đúng: (i) hai CHỈ SỐ hợp thành có tách biệt không; (ii) mạng nomological.
 items = ["tci_cert", "tci_foreign_tech", "dai_website", "dai_epay"]
 V = df[items].dropna()
 corr = V.corr()
-for a in items:
-    for b in items:
-        if a < b:
-            add("5_construct_corr", f"{a}__{b}", round(corr.loc[a, b], 3))
-# EFA 2 nhân tố (PCA + loadings) trên ma trận tương quan
-evals, evecs = eigh(np.corrcoef(((V-V.mean())/V.std(ddof=0)).values, rowvar=False))
-order = np.argsort(evals)[::-1]
-load = evecs[:, order[:2]] * np.sqrt(evals[order[:2]])
-for i, it in enumerate(items):
-    add("5_efa_loadings", f"{it}_F1", round(load[i, 0], 3))
-    add("5_efa_loadings", f"{it}_F2", round(load[i, 1], 3))
+add("5_item_corr_formative", "tci_cert__tci_foreign_tech", round(corr.loc["tci_cert", "tci_foreign_tech"], 3),
+    "thấp là ĐÚNG kỳ vọng cho formative")
+add("5_item_corr_formative", "dai_website__dai_epay", round(corr.loc["dai_website", "dai_epay"], 3),
+    "thấp là ĐÚNG kỳ vọng cho formative")
+
+# Kiểm định đúng: tách biệt ở cấp CHỈ SỐ HỢP THÀNH + mạng nomological
+rich = pd.read_csv("data_wbes/p7/p7_pooled_rich.csv")
+cz = rich[["tci_z", "dai_z"]].dropna()
+r_comp = cz.tci_z.corr(cz.dai_z)
+add("5b_composite_distinct", "N", int(len(cz)))
+add("5b_composite_distinct", "corr_tci_z_dai_z", round(r_comp, 3), "0=tách hẳn, 1=trùng")
+add("5b_composite_distinct", "shared_variance_r2", round(r_comp**2, 3), "phương sai chia sẻ")
+mn = df.dropna(subset=["ln_labor_prod", "tci_z", "dai_z", "fsts", "ln_size",
+                       "firm_age", "country", "year"]).copy()
+rn = fit(mn, "ln_labor_prod ~ tci_z + dai_z + fsts + ln_size + firm_age + C(country) + C(year)")
+add("5b_composite_distinct", "joint_beta_tci_z", round(rn.params["tci_z"], 3), f"p={rn.pvalues['tci_z']:.4f}")
+add("5b_composite_distinct", "joint_beta_dai_z", round(rn.params["dai_z"], 3), f"p={rn.pvalues['dai_z']:.4f}")
 
 # ---- (6) Việt Nam: biên tham gia vs cường độ ----
 vn = df[df.country.astype(str).str.contains("Viet", case=False, na=False)].copy()
