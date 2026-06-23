@@ -203,3 +203,26 @@ biến sai).
   setting không nằm trong do-file committed.
 - **Cần từ NCS để khớp 2009 chính xác:** bảng estimate Stata đợt 2009 + file `vietnam_2009_analytic.dta`
   (hoặc xác nhận bộ lọc mẫu 2009). Số manuscript **giữ nguyên** (author-authoritative).
+
+---
+
+## Đợt 2009 — kết luận cuối (2026-06-23): không tái lập được từ raw, cần xác minh của NCS
+
+NCS gửi thêm 2 bản file 2009; **cả 3 bản 2009 giống hệt nhau** (1053 dòng, 287 cột, `b4`=owners-female,
+không có `b1_d`). Đã quét **toàn bộ** biến thể spec/mẫu hợp lý cho M2 β₁ (mục tiêu **1,045**):
+
+| Biến thể | β₁ 2009 |
+|---|---|
+| baseline (l1, no winsor, firmage=b4) | +0,634 |
+| drop micro (<5 emp) | +0,623 |
+| medium+ (≥20 emp) | +0,435 |
+| winsor 5/95 | +0,521 |
+| firmage = năm − b5 | +0,595 |
+| l1+l6 / l1+l2 (mẫu số khác) | +0,47 / +0,48 |
+
+→ **Tối đa ~0,68; không biến thể nào đạt 1,045.** Dữ liệu 2009 (đã xác nhận 3 bản trùng) + spec do-file
+**không thể** sinh ra β₁ = 1,045.
+
+**Khuyến nghị (quan trọng):** β₁ 2009 = 1,045 trong bản thảo cần **NCS xác minh lại** trực tiếp trên
+Stata — hoặc xác nhận **bộ dữ liệu/bộ lọc 2009** dùng cho bản thảo khác bản thô này. 2015/2023 tái lập
+hợp lý; chỉ 2009 không khớp qua mọi cách thử. (Số manuscript **chưa đổi**, chờ xác minh của NCS.)
