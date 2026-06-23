@@ -15,13 +15,16 @@ set more off
 set linesize 120
 
 /* ---- Directory Setup ---------------------------------------- */
-global data   "../../../data_wbes"
+/* Raw WBES Vietnam cross-sections live in data_wbes/raw_dta/ with the
+   distributor's hyphenated "-full-data" filenames. Repointed 2026-06-23
+   (was "../../../data_wbes" + "Vietnam_YYYY.dta", which did not exist). */
+global data   "../../../data_wbes/raw_dta"
 global out    "data"
 
 /* ============================================================
    WAVE 1: WBES Vietnam 2009 (PICS3 schema)
    ============================================================ */
-use "$data/Vietnam_2009.dta", clear
+use "$data/Vietnam-2009-full-data.dta", clear
 
 /* -- Outcome: Labour Productivity -- */
 gen lnLP = ln(d2 / b1_d)           // ln(annual sales / number of workers)
@@ -87,7 +90,7 @@ save "$out/vietnam_2009_analytic.dta", replace
 /* ============================================================
    WAVE 2: WBES Vietnam 2015 (Standardized schema)
    ============================================================ */
-use "$data/Vietnam_2015.dta", clear
+use "$data/Vietnam-2015-full-data.dta", clear
 
 gen lnLP    = ln(d2 / b1_d) if b1_d > 0
 gen FSTS    = d3c / 100   // d3c = direct exports (manuscript spec)
@@ -127,7 +130,7 @@ save "$out/vietnam_2015_analytic.dta", replace
 /* ============================================================
    WAVE 3: WBES Vietnam 2023 (BREADY schema)
    ============================================================ */
-use "$data/Vietnam_2023.dta", clear
+use "$data/Vietnam-2023-full-data.dta", clear
 
 gen lnLP    = ln(d2 / b1_d) if b1_d > 0
 gen FSTS    = d3c / 100   // d3c = direct exports (manuscript spec)
