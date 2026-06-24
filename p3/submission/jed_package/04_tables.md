@@ -54,6 +54,6 @@
 | TCI moderation, M3 joint p | .040 | .713 | .027 | .003 |
 | FSTS_c × DAI_z (M8) | n.s. | n.s. | −0.912* | −0.448 |
 | DAI moderation, M8 joint p | .700 | .093 | .062 | .083 |
-| Exporter-only FSTS_c² (Panel H) | — | — | — | −0.200 (p=.730) |
+| Exporter-only FSTS_c² (Panel H) | n/a | n/a | n/a | −0.200 (p=.730) |
 
 *Notes.* β reported; full SEs and the M0–M8 sequence are in the replication package. Exporter-only sub-sample pooled N = 669; its non-significant quadratic term indicates the full-sample inverted-U is driven by the participation margin. Robustness panels (A–K): Supplementary Material.
