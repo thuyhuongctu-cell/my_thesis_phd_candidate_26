@@ -273,14 +273,14 @@ Thủ tục này cho ra hai kết cục đối lập về mặt lý thuyết tù
 
 ### 3.4.5.1 Mô hình cụ thể: Nghiên cứu 3 (Việt Nam, WBES 2009/2015/2023)
 
-Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượng riêng theo từng sóng khảo sát (2009, 2015, 2023) và trên mẫu gộp. Ký hiệu tiếng Việt:
+Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượng riêng theo từng sóng khảo sát (2009, 2015, 2023) và trên mẫu gộp. Ký hiệu biến:
 
-- **lnNSLD_it** = lnLP_it: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
-- **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu điều chỉnh trung bình trong sóng (mean-centred)
-- **CDDXK_c²_it** = FSTS_c²_it: bình phương cường độ xuất khẩu điều chỉnh
-- **NLCN_z_it** = TCI_z_it: năng lực công nghệ (chuẩn hoá z trong sóng)
-- **CSS_z_it** = DAI_z_it: chỉ số số hoá cơ sở, Tầng 1 (chuẩn hoá z trong sóng)
-- **lnLD** = ln(L) (quy mô), **TuoiDN** = Age (tuổi), **SoHuuNN** = Own (sở hữu): biến kiểm soát
+- **lnLP_it**: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
+- **FSTS_c_it**: cường độ xuất khẩu điều chỉnh trung bình trong sóng (mean-centred)
+- **FSTS_c²_it**: bình phương cường độ xuất khẩu điều chỉnh
+- **TCI_z_it**: năng lực công nghệ (chuẩn hoá z trong sóng)
+- **DAI_z_it**: chỉ số số hoá cơ sở, Tầng 1 (chuẩn hoá z trong sóng)
+- **lnL** = ln(L) (quy mô), **Age** (tuổi), **Own** (sở hữu): biến kiểm soát
 - **δ_s**: hiệu ứng cố định ngành (1-digit ISIC); **λ_t**: hiệu ứng cố định sóng (chỉ pooled)
 
 **M0, Mô hình cơ sở (biến kiểm soát):**
@@ -330,28 +330,30 @@ $$\begin{aligned}
 
 | Ký hiệu | Biến WBES | Cách tính | Vai trò |
 |---|---|---|---|
-| lnNSLD | d2, l1 | ln(d2 / l1): ln(doanh thu PPP / lao động thường xuyên) | Biến phụ thuộc |
-| CDDXK | d3c | d3c / 100: cường độ xuất khẩu trực tiếp (0–1) | Biến độc lập |
-| CDDXK_c | d3c | CDDXK − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
-| CDDXK_c² | d3c | CDDXK_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
-| NLCN_z | b8, e6 | chuẩn hóa z trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
-| CSS_z | c22b | chuẩn hóa z trong sóng của c22b₀₁: hiện diện website | Số hoá Tầng 1 (H3 thăm dò) |
-| lnLD | l1 | ln(l1): log số lao động thường xuyên | Kiểm soát: quy mô doanh nghiệp |
-| TuoiDN | b5 | năm khảo sát − b5: số năm hoạt động | Kiểm soát: tuổi doanh nghiệp |
-| SoHuuNN | b2b | 1 nếu b2b > 0: có vốn nước ngoài | Kiểm soát: hình thức sở hữu |
+| lnLP | d2, l1 | ln(d2 / l1): ln(doanh thu PPP / lao động thường xuyên) | Biến phụ thuộc |
+| FSTS | d3c | d3c / 100: cường độ xuất khẩu trực tiếp (0–1) | Biến độc lập |
+| FSTS_c | d3c | FSTS − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
+| FSTS_c² | d3c | FSTS_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
+| TCI_z | b8, e6 | chuẩn hóa z trong sóng của TB(b8₀₁, e6₀₁): chứng chỉ chất lượng + công nghệ ngoại | Năng lực công nghệ (H2) |
+| DAI_z | c22b | chuẩn hóa z trong sóng của c22b₀₁: hiện diện website | Số hoá Tầng 1 (H3 thăm dò) |
+| lnL | l1 | ln(l1): log số lao động thường xuyên | Kiểm soát: quy mô doanh nghiệp |
+| Age | b5 | năm khảo sát − b5: số năm hoạt động | Kiểm soát: tuổi doanh nghiệp |
+| Own | b2b | 1 nếu b2b > 0: có vốn nước ngoài | Kiểm soát: hình thức sở hữu |
 | δ_s | a4b / a4a | ngành 1-chữ số ISIC (a4b cho 2009/2015; a4a cho 2023) | Hiệu ứng cố định ngành |
 | λ_t | đợt | chỉ báo sóng khảo sát (chỉ pooled) | Hiệu ứng cố định thời kỳ |
 
+*Đối chiếu ký hiệu (áp dụng cho toàn bộ bảng định nghĩa biến Chương 3): các ký hiệu Anh chính tắc dùng xuyên suốt luận án trước đây được ghi bằng mnemonic tiếng Việt — FSTS (CDDXK, cường độ xuất khẩu), TCI (NLCN, năng lực công nghệ), DAI (CSS, chấp nhận số), lnLP (lnNSLD, năng suất lao động), lnL (lnLD, quy mô lao động), Age (TuoiDN, tuổi doanh nghiệp), Own (SoHuuNN, sở hữu nước ngoài), MgrExp (KNQLy, kinh nghiệm quản lý) và MgrFem (NQL_nu, nữ quản lý cấp cao).*
+
 ### 3.4.5.2 Mô hình cụ thể: Nghiên cứu 4 (Singapore, WBES 2023)
 
-Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N = 623). Thiết kế đơn sóng, không có thành phần λ_t. Ký hiệu tiếng Việt:
+Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N = 623). Thiết kế đơn sóng, không có thành phần λ_t. Ký hiệu biến:
 
-- **lnNSLD_i** = lnLP_i: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
-- **CDDXK_i** = FSTS_i: cường độ xuất khẩu trực tiếp (d3c / 100)
-- **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; CDDXK_c² là bình phương
-- **NLCN_z_i** = TCI_z_i: năng lực công nghệ, chuẩn hóa z của trung bình(b8₀₁, e6₀₁)
-- **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tầng 1 và 2**, chuẩn hóa z của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm thanh toán điện tử hai chiều (Tầng 2)
-- **lnLD_i** = ln(L)_i (quy mô), **TuoiDN_i** = Age_i (tuổi), **SoHuuNN_i** = Own_i (sở hữu): biến kiểm soát tương tự P3, gộp trong vector **X**_i
+- **lnLP_i**: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
+- **FSTS_i**: cường độ xuất khẩu trực tiếp (d3c / 100)
+- **FSTS_c_i**: FSTS trung bình mẫu; FSTS_c² là bình phương
+- **TCI_z_i**: năng lực công nghệ, chuẩn hóa z của trung bình(b8₀₁, e6₀₁)
+- **DAI_z_i**: chỉ số số hoá **Tầng 1 và 2**, chuẩn hóa z của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm thanh toán điện tử hai chiều (Tầng 2)
+- **lnL_i** = ln(L)_i (quy mô), **Age_i** (tuổi), **Own_i** (sở hữu): biến kiểm soát tương tự P3, gộp trong vector **X**_i
 - **δ_s**: ngành hiệu ứng cố định (ISIC 1-chữ số)
 - **IMR_i** = nghịch đảo tỷ lệ Mills từ mô hình probit tham gia xuất khẩu (kiểm tra độ nhạy Heckman)
 
@@ -390,16 +392,16 @@ H3: $\beta_6 > 0$, DAI khuếch đại lợi nhuận quốc tế hóa và hiệu
 
 **Bảng định nghĩa biến, Nghiên cứu 4 (Singapore):**
 
-| Ký hiệu VN | Mã WBES | Cách tính | Vai trò |
+| Ký hiệu | Mã WBES | Cách tính | Vai trò |
 |---|---|---|---|
-| lnNSLD | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
-| CDDXK_c | d3c | FSTS − mean(FSTS): centred | Biến độc lập |
-| CDDXK_c² | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
-| NLCN_z | b8, e6 | chuẩn hóa z của TB(b8₀₁, e6₀₁) | Năng lực công nghệ (H2) |
-| CSS_z | c22b, k33, k38 | chuẩn hóa z của TB(c22b₀₁, k33₀₁, k38₀₁): **Tầng 1 và 2** | Số hoá Tầng 1 và 2 (H3) |
-| lnLD | l1 | ln(l1) | Quy mô doanh nghiệp |
-| TuoiDN | b5 | năm khảo sát − b5 | Tuổi doanh nghiệp |
-| SoHuuNN | b2b | 1 nếu b2b > 0 | Hình thức sở hữu |
+| lnLP | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
+| FSTS_c | d3c | FSTS − mean(FSTS): centred | Biến độc lập |
+| FSTS_c² | d3c | FSTS_c bình phương | Phi tuyến (H1) |
+| TCI_z | b8, e6 | chuẩn hóa z của TB(b8₀₁, e6₀₁) | Năng lực công nghệ (H2) |
+| DAI_z | c22b, k33, k38 | chuẩn hóa z của TB(c22b₀₁, k33₀₁, k38₀₁): **Tầng 1 và 2** | Số hoá Tầng 1 và 2 (H3) |
+| lnL | l1 | ln(l1) | Quy mô doanh nghiệp |
+| Age | b5 | năm khảo sát − b5 | Tuổi doanh nghiệp |
+| Own | b2b | 1 nếu b2b > 0 | Hình thức sở hữu |
 | IMR | probit selection | Nghịch đảo tỷ lệ Mills (kiểm tra Heckman) | Kiểm soát chọn lựa tham gia xuất khẩu |
 | δ_s | a4b | ngành FE (ISIC 1-chữ số) | Hiệu ứng cố định ngành |
 
@@ -407,13 +409,13 @@ H3: $\beta_6 > 0$, DAI khuếch đại lợi nhuận quốc tế hóa và hiệu
 
 ### 3.4.5.3 Mô hình cụ thể: Nghiên cứu 5 (Trung Quốc, WBES 2012 và 2024)
 
-Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: N = 1.934; pooled N = 4.544). Thiết kế đa sóng không panel (217 doanh nghiệp xuất hiện cả hai sóng tạo thành "panel core" được sử dụng cho cluster-robust SE). Ký hiệu tiếng Việt:
+Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: N = 1.934; pooled N = 4.544). Thiết kế đa sóng không panel (217 doanh nghiệp xuất hiện cả hai sóng tạo thành "panel core" được sử dụng cho cluster-robust SE). Ký hiệu biến:
 
-- **lnNSLD_it** = lnLP_it: log năng suất lao động (biến phụ thuộc)
-- **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
-- **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện, chuẩn hóa z của TB(b8₀₁, e6₀₁, h1₀₁, h8₀₁); mở rộng hơn P3
-- **CSS_z_it** = DAI_core_it: chỉ số số hoá cơ bản, chỉ c22b₀₁ (Tầng 1 mỏng, một chỉ báo nhị phân)
-- **lnLD_it** = ln(L)_it (quy mô), **TuoiDN_it** = Age_it (tuổi), **SoHuuNN_it** = Own_it (sở hữu): biến kiểm soát, gộp trong vector **X**_it
+- **lnLP_it**: log năng suất lao động (biến phụ thuộc)
+- **FSTS_c_it**: cường độ xuất khẩu centred theo trung bình sóng
+- **TCI_full_z_it**: năng lực công nghệ toàn diện, chuẩn hóa z của TB(b8₀₁, e6₀₁, h1₀₁, h8₀₁); mở rộng hơn P3
+- **DAI_core_it**: chỉ số số hoá cơ bản, chỉ c22b₀₁ (Tầng 1 mỏng, một chỉ báo nhị phân)
+- **lnL_it** = ln(L)_it (quy mô), **Age_it** (tuổi), **Own_it** (sở hữu): biến kiểm soát, gộp trong vector **X**_it
 - **δ_s**: ngành hiệu ứng cố định; **λ_t**: đợt hiệu ứng cố định (pooled)
 
 **Chuỗi mô hình lồng nhau M0–M6:**
@@ -460,16 +462,16 @@ F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng 
 
 **Bảng định nghĩa biến, Nghiên cứu 5 (Trung Quốc):**
 
-| Ký hiệu VN | Mã WBES | Cách tính | Vai trò |
+| Ký hiệu | Mã WBES | Cách tính | Vai trò |
 |---|---|---|---|
-| lnNSLD | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
-| CDDXK_c | d3c | FSTS − mean_wave(FSTS) | Biến độc lập |
-| CDDXK_c² | d3c | CDDXK_c bình phương | Phi tuyến (H1) |
-| NLCN_z | b8, e6, h1, h8 | chuẩn hóa z của TB(b8₀₁, e6₀₁, h1₀₁, h8₀₁): TCI toàn diện | Năng lực công nghệ (H2) |
-| CSS_z | c22b | c22b₀₁: **Tầng 1 đơn biến** (binary) | Số hoá Tầng 1 mỏng (kiểm soát) |
-| lnLD | l1 | ln(l1) | Quy mô doanh nghiệp |
-| TuoiDN | b5 | năm khảo sát − b5 | Tuổi doanh nghiệp |
-| SoHuuNN | b2b | 1 nếu b2b > 0 | Hình thức sở hữu |
+| lnLP | d2, l1 | ln(d2 / l1) | Biến phụ thuộc |
+| FSTS_c | d3c | FSTS − mean_wave(FSTS) | Biến độc lập |
+| FSTS_c² | d3c | FSTS_c bình phương | Phi tuyến (H1) |
+| TCI_z | b8, e6, h1, h8 | chuẩn hóa z của TB(b8₀₁, e6₀₁, h1₀₁, h8₀₁): TCI toàn diện | Năng lực công nghệ (H2) |
+| DAI_z | c22b | c22b₀₁: **Tầng 1 đơn biến** (binary) | Số hoá Tầng 1 mỏng (kiểm soát) |
+| lnL | l1 | ln(l1) | Quy mô doanh nghiệp |
+| Age | b5 | năm khảo sát − b5 | Tuổi doanh nghiệp |
+| Own | b2b | 1 nếu b2b > 0 | Hình thức sở hữu |
 | δ_s | ISIC ngành | ngành FE | Hiệu ứng cố định ngành |
 | λ_t | đợt (2012/2024) | đợt FE (chỉ pooled) | Hiệu ứng cố định thời kỳ |
 
@@ -479,19 +481,19 @@ F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng 
 
 ### 3.4.5.4 Mô hình cụ thể: Nghiên cứu 7 (Đa quốc gia châu Á, WBES 2006–2026)
 
-Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **50 nền kinh tế châu Á và Thái Bình Dương** (103 cặp nền kinh tế × năm, 2006–2026, gồm Nhật Bản 2025). Mẫu phân tích đạt N = 81.022 (M2) đến N = 79.080 (M5 với kiểm soát đầy đủ). Thiết kế hồi quy hiệu ứng cố định hai chiều (nền kinh tế và năm) với sai số chuẩn cụm theo nền kinh tế. Ký hiệu tiếng Việt:
+Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử dụng dữ liệu WBES từ **50 nền kinh tế châu Á và Thái Bình Dương** (103 cặp nền kinh tế × năm, 2006–2026, gồm Nhật Bản 2025). Mẫu phân tích đạt N = 81.022 (M2) đến N = 79.080 (M5 với kiểm soát đầy đủ). Thiết kế hồi quy hiệu ứng cố định hai chiều (nền kinh tế và năm) với sai số chuẩn cụm theo nền kinh tế. Ký hiệu biến:
 
-- **lnNSLD_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực), biến phụ thuộc
-- **CDDXK_c_it**: cường độ xuất khẩu mean-centred, FSTS_c = (d3c/100) − mean_pool(FSTS)
-- **CDDXK_c²_it**: CDDXK_c bình phương, kiểm định phi tuyến
-- **NLCN_z_it**: năng lực công nghệ z-standardised, TCI_z = chuẩn hóa z(b8, e6)
-- **CSS_z_it**: chỉ số số hoá z-standardised, DAI_z = chuẩn hóa z(website + e-pay, Tầng 1 và 2: c22b/e1, k33)
-- **KNQLy_it** = MgrExp_it: kinh nghiệm nhà quản lý trong ngành (năm, b7)
-- **NQL_nu_it** = MgrFem_it: top manager là nữ (binary, b7a/b6a)
+- **lnLP_it**: ln(năng suất lao động) = ln(doanh thu / lao động thường trực), biến phụ thuộc
+- **FSTS_c_it**: cường độ xuất khẩu mean-centred, FSTS_c = (d3c/100) − mean_pool(FSTS)
+- **FSTS_c²_it**: FSTS_c bình phương, kiểm định phi tuyến
+- **TCI_z_it**: năng lực công nghệ z-standardised, TCI_z = chuẩn hóa z(b8, e6)
+- **DAI_z_it**: chỉ số số hoá z-standardised, DAI_z = chuẩn hóa z(website + e-pay, Tầng 1 và 2: c22b/e1, k33)
+- **MgrExp_it**: kinh nghiệm nhà quản lý trong ngành (năm, b7)
+- **MgrFem_it**: top manager là nữ (binary, b7a/b6a)
 - **ICRV_j**: phân loại chế độ thể chế ICRV (integer 1–6, Advanced sang SIDS)
-- **lnLD_it**: ln(lao động thường trực), kiểm soát quy mô doanh nghiệp
-- **TuoiDN_it**: tuổi doanh nghiệp (năm_khảo_sát − b5)
-- **SoHuuNN_it**: tỷ lệ sở hữu nước ngoài (b6a/100)
+- **lnL_it**: ln(lao động thường trực), kiểm soát quy mô doanh nghiệp
+- **Age_it**: tuổi doanh nghiệp (năm_khảo_sát − b5)
+- **Own_it**: tỷ lệ sở hữu nước ngoài (b6a/100)
 - **δ_ct**: country × year hiệu ứng cố định (M5)
 
 **Chuỗi mô hình lồng nhau M0–M11:**
@@ -548,17 +550,17 @@ $$\begin{aligned}
 
 | Ký hiệu | WBES item | Cách tính | Vai trò |
 |---------|-----------|-----------|---------|
-| lnNSLD | d2/n3, l1 | ln(doanh thu/lao động) | Biến phụ thuộc |
-| CDDXK_c | d3c | (d3c/100) − mean_pool(FSTS): centred | Biến độc lập (I) |
-| CDDXK_c² | d3c | CDDXK_c bình phương | I, phi tuyến |
-| NLCN_z | b8, e6 | chuẩn hóa z(cert chất lượng + CN nước ngoài) | Năng lực công nghệ |
-| CSS_z | c22b/e1, k33 | chuẩn hóa z(website + thanh toán điện tử): Tầng 1 và 2 | Số hoá (DAI) |
-| KNQLy | b7 | năm kinh nghiệm nhà quản lý trong ngành | Quản trị |
-| NQL_nu | b7a/b6a | 1 nếu top manager là nữ | Quản trị |
+| lnLP | d2/n3, l1 | ln(doanh thu/lao động) | Biến phụ thuộc |
+| FSTS_c | d3c | (d3c/100) − mean_pool(FSTS): centred | Biến độc lập (I) |
+| FSTS_c² | d3c | FSTS_c bình phương | I, phi tuyến |
+| TCI_z | b8, e6 | chuẩn hóa z(cert chất lượng + CN nước ngoài) | Năng lực công nghệ |
+| DAI_z | c22b/e1, k33 | chuẩn hóa z(website + thanh toán điện tử): Tầng 1 và 2 | Số hoá (DAI) |
+| MgrExp | b7 | năm kinh nghiệm nhà quản lý trong ngành | Quản trị |
+| MgrFem | b7a/b6a | 1 nếu top manager là nữ | Quản trị |
 | ICRV | phân loại | integer 1–6 (tiên tiến đổi mới đến SIDS) | Thể chế |
-| lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
-| TuoiDN | b5 | năm_khảo_sát − b5 | Control (tuổi DN) |
-| SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |
+| lnL | l1 | ln(lao động thường trực) | Control (quy mô) |
+| Age | b5 | năm_khảo_sát − b5 | Control (tuổi DN) |
+| Own | b6a | tỷ lệ sở hữu nước ngoài (0–1) | Control (sở hữu) |
 | δ_ct | n/a | country × year FE | hiệu ứng cố định |
 
 *Ghi chú: Mẫu phân tích giảm nhẹ từ N = 81.022 (M2) xuống 79.080 (M5, thêm kiểm soát); các mô hình điều tiết M7, M8 và M10 giữ N tương đương 79.080–79.220. DAI P7 là Tầng 1 và 2 khi k33 có mặt, Tầng 1 only khi thiếu, khác với P3 Vietnam (chỉ Tầng 1) và đồng nhất với P4 Singapore (Tầng 1 và 2). ICRV là biến điều tiết liên tục (integer), không phải dummies, nhằm giữ N đủ lớn trong M10–M11.*
@@ -571,22 +573,22 @@ Nghiên cứu 8 phân tích mẫu gồm **N = 1.450 doanh nghiệp** tại **7 n
 
 Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**. Tại Nhóm VI, dạng hình chữ U ngược **mất cấu trúc**: trên mẫu đầy đủ bảy nền (N = 1.450), cả số hạng tuyến tính lẫn bậc hai đều mất ý nghĩa khi đưa vào đồng thời và cả bốn điều kiện cần của một đường cong chữ U ngược đều thất bại (xem Chương 4, Mục 4.7.2 và 4.7.6), nên quan hệ là **đơn điệu âm về xu hướng**, không có điểm quay nội miền, trái ngược với hình chữ U ngược ở P3–P7. Hệ số FIP âm **mạnh, có ý nghĩa** ($\beta_1 = -1{,}339$, $p < {,}001$) ghi nhận trên **phiên bản dữ liệu gốc / bản dựng hạn chế** (N = 959; lõi ba nền có đủ kiểm soát đợt trước 2018: N = 209) và được trình bày như bằng chứng độ vững nội bộ ở Chương 4 (Mục 4.7.7–4.7.8).
 
-**Ký hiệu biến (tiếng Việt ↔ mã WBES):**
+**Ký hiệu biến (↔ mã WBES):**
 
 | Ký hiệu | Tên tiếng Việt | Mã WBES | Cách tính |
 |---------|----------------|---------|-----------|
-| lnNSLD | Log năng suất lao động | d2, l1 | ln(doanh thu PPP / lao động thường trực) |
-| CDDXK_c | Cường độ xuất khẩu (điều chỉnh) | d3c | (d3c/100) − mean_wave(FSTS): centred theo sóng |
-| CDDXK_c² | CDDXK_c bình phương | d3c | CDDXK_c × CDDXK_c |
-| NLCN_z | Năng lực công nghệ | b8, e6 | chuẩn hóa z(trung bình cert chất lượng + CN nước ngoài) |
-| CSS_z | Chỉ số số hoá (Tầng 1) | c22b | chuẩn hóa z(website binary): **chỉ Tầng 1, không dynamic** |
-| lnLD | Log quy mô lao động | l1 | ln(lao động thường trực) |
-| TuoiDN | Tuổi doanh nghiệp | b5 | năm_khảo_sát − b5 |
-| SoHuuNN | Tỷ lệ sở hữu nước ngoài | b6a | tỷ lệ 0–1 |
+| lnLP | Log năng suất lao động | d2, l1 | ln(doanh thu PPP / lao động thường trực) |
+| FSTS_c | Cường độ xuất khẩu (điều chỉnh) | d3c | (d3c/100) − mean_wave(FSTS): centred theo sóng |
+| FSTS_c² | FSTS_c bình phương | d3c | FSTS_c × FSTS_c |
+| TCI_z | Năng lực công nghệ | b8, e6 | chuẩn hóa z(trung bình cert chất lượng + CN nước ngoài) |
+| DAI_z | Chỉ số số hoá (Tầng 1) | c22b | chuẩn hóa z(website binary): **chỉ Tầng 1, không dynamic** |
+| lnL | Log quy mô lao động | l1 | ln(lao động thường trực) |
+| Age | Tuổi doanh nghiệp | b5 | năm_khảo_sát − b5 |
+| Own | Tỷ lệ sở hữu nước ngoài | b6a | tỷ lệ 0–1 |
 | δ_c | Country hiệu ứng cố định | a3b | biến giả theo quốc gia |
 | λ_t | đợt hiệu ứng cố định | đợt | biến giả theo sóng điều tra |
 
-*Ghi chú: CSS_z (DAI) là biến đại diện tĩnh Tầng 1 (website binary c22b). WBES không thu thập đủ thang đo cho số hoá động tại các đảo nhỏ, KHÔNG gọi là "năng lực số hoá động".*
+*Ghi chú: DAI là biến đại diện tĩnh Tầng 1 (website binary c22b). WBES không thu thập đủ thang đo cho số hoá động tại các đảo nhỏ, KHÔNG gọi là "năng lực số hoá động".*
 
 **Chuỗi mô hình M0–M3 (P8):**
 
@@ -636,18 +638,18 @@ $$\begin{aligned}
 
 | Ký hiệu | WBES item | Cách tính | Vai trò |
 |---------|-----------|-----------|---------|
-| lnNSLD | d2, l1 | ln(doanh thu PPP / lao động) | Biến phụ thuộc |
-| CDDXK_c | d3c | (d3c/100) − mean_wave: centred | Biến độc lập (I) |
-| CDDXK_c² | d3c | CDDXK_c bình phương | I, kiểm định phi tuyến |
-| NLCN_z | b8, e6 | chuẩn hóa z(cert + CN nước ngoài) | Năng lực công nghệ |
-| CSS_z | c22b | chuẩn hóa z(website binary): Tầng 1 only | Số hoá, biến đại diện tĩnh |
-| lnLD | l1 | ln(lao động thường trực) | Control (quy mô) |
-| TuoiDN | b5 | năm_KS − năm_thành_lập | Control (tuổi DN) |
-| SoHuuNN | b6a | tỷ lệ sở hữu nước ngoài | Control (sở hữu) |
+| lnLP | d2, l1 | ln(doanh thu PPP / lao động) | Biến phụ thuộc |
+| FSTS_c | d3c | (d3c/100) − mean_wave: centred | Biến độc lập (I) |
+| FSTS_c² | d3c | FSTS_c bình phương | I, kiểm định phi tuyến |
+| TCI_z | b8, e6 | chuẩn hóa z(cert + CN nước ngoài) | Năng lực công nghệ |
+| DAI_z | c22b | chuẩn hóa z(website binary): Tầng 1 only | Số hoá, biến đại diện tĩnh |
+| lnL | l1 | ln(lao động thường trực) | Control (quy mô) |
+| Age | b5 | năm_KS − năm_thành_lập | Control (tuổi DN) |
+| Own | b6a | tỷ lệ sở hữu nước ngoài | Control (sở hữu) |
 | δ_c | a3b | country FE | hiệu ứng cố định |
 | λ_t | đợt | đợt FE | hiệu ứng cố định |
 
-*Ghi chú: FIP là điều kiện biên (boundary condition) của mô hình chữ U ngược, áp dụng đặc thù tại ICRV Nhóm VI nơi 3 điều kiện cấu trúc bị vi phạm đồng thời: (1) không có thị trường nội địa đủ lớn, (2) chi phí thương mại không kiểm soát được, (3) hỗ trợ thể chế không đủ chức năng. DAI (CSS_z) Tầng 1 only, WBES không thu thập thang đo đầy đủ cho số hoá động tại SIDS.*
+*Ghi chú: FIP là điều kiện biên (boundary condition) của mô hình chữ U ngược, áp dụng đặc thù tại ICRV Nhóm VI nơi 3 điều kiện cấu trúc bị vi phạm đồng thời: (1) không có thị trường nội địa đủ lớn, (2) chi phí thương mại không kiểm soát được, (3) hỗ trợ thể chế không đủ chức năng. DAI Tầng 1 only, WBES không thu thập thang đo đầy đủ cho số hoá động tại SIDS.*
 
 ---
 
