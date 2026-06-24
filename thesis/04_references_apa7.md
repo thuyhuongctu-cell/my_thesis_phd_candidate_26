@@ -94,6 +94,8 @@ Berry, H., & Kaul, A. (2016). Replicating the multinationality-performance relat
 
 Bertram, G. (2006). Introduction: The MIRAB model in the twenty-first century. *Asia Pacific Viewpoint, 47*(1), 1–13. https://doi.org/10.1111/j.1467-8373.2006.00297.x
 
+Beugelsdijk, S., Kostova, T., Kunst, V. E., Spadafora, E., & van Essen, M. (2018). Cultural distance and firm internationalization: A meta-analytical review and theoretical implications. *Journal of Management, 44*(1), 89–130. https://doi.org/10.1177/0149206317729027
+
 Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, internationalization, and firm performance. *International Business Review, 32*(4), 102027.
 
 Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/MISQ/2013/37:2.3
