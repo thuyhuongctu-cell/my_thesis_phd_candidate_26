@@ -548,7 +548,7 @@ Tích hợp cả sáu giả thuyết trong M7 (điều tiết ba chiều) cho ph
 
 ##### Nguyên tắc mô hình
 
-Tám mô hình M0–M7 được xây dựng theo cấu trúc lồng nhau: mỗi mô hình sau bổ sung thêm biến so với mô hình trước, cho phép so sánh AIC/BIC và R² tăng thêm, và kiểm định từng giả thuyết bằng F-test theo khối. Tất cả mô hình sử dụng: biến phụ thuộc là ln(LP) = ln(doanh thu hằng năm PPP / lao động thường xuyên); sai số chuẩn HC1 robust (Long & Ervin, 2000) làm chuẩn; hiệu ứng cố định quốc gia ($\alpha_j$) và năm ($\delta_t$); FSTS được tính trung tâm theo mean trước khi tính $\mathrm{FSTS}^2$ để giảm đa cộng tuyến.
+Tám mô hình M0–M7 được xây dựng theo cấu trúc lồng nhau: mỗi mô hình sau bổ sung thêm biến so với mô hình trước, cho phép so sánh AIC/BIC và R² tăng thêm, và kiểm định từng giả thuyết bằng F-test theo khối. Tất cả mô hình sử dụng: biến phụ thuộc là ln(LP) = ln(doanh thu hằng năm trong nội tệ / lao động thường xuyên), chuẩn hóa z trong cụm nền kinh tế × năm (xem Mục 2.3.6); sai số chuẩn HC1 robust (Long & Ervin, 2000) làm chuẩn; hiệu ứng cố định quốc gia ($\alpha_j$) và năm ($\delta_t$); FSTS được tính trung tâm theo mean trước khi tính $\mathrm{FSTS}^2$ để giảm đa cộng tuyến.
 
 Tiêu chí lựa chọn mô hình: $\Delta R^2 > 0{,}01$ để thêm biến điều tiết; $\Delta\mathrm{AIC} < -2$ ủng hộ mô hình phức tạp hơn; $\Delta\mathrm{BIC} < -10$ là bằng chứng mạnh; F-test $p < 0{,}05$ để thêm khối biến. M7 được báo cáo nếu ΔAIC(M7 vs M4+M3 kết hợp) < −2 VÀ F-test p < 0,05.
 

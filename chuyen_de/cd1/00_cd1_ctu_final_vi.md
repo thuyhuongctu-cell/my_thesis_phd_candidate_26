@@ -300,7 +300,7 @@ Giá trị LP được cắt đuôi (winsorize) ở mức 1/99 phân vị trong 
 
 Hiệu quả hoạt động kinh doanh của doanh nghiệp trong chuyên đề này được đo lường theo **bốn chiều** tương ứng với bốn nhóm biến WBES:
 
-**Chiều 1, Năng suất lao động**. Biến đo lường chính: LP = ln(doanh thu hàng năm PPP / số lao động toàn thời gian). Đây là **thước đo chính** xuyên suốt phân tích, được lựa chọn vì: (a) có thể tính cho hầu hết các nền kinh tế trong mẫu gộp; (b) không bị nhiễu bởi cơ cấu thuế và chính sách chuyển giá quốc gia; (c) có giá trị tham chiếu rõ ràng trong tài liệu quốc tế (Hsieh & Klenow, 2009, 2014).
+**Chiều 1, Năng suất lao động**. Biến đo lường chính: LP = ln(doanh thu hàng năm trong nội tệ / số lao động toàn thời gian), chuẩn hóa z trong từng cặp nền kinh tế × năm để bảo đảm so sánh được (xem Mục 2.3.1.1). Đây là **thước đo chính** xuyên suốt phân tích, được lựa chọn vì: (a) có thể tính cho hầu hết các nền kinh tế trong mẫu gộp; (b) không bị nhiễu bởi cơ cấu thuế và chính sách chuyển giá quốc gia; (c) có giá trị tham chiếu rõ ràng trong tài liệu quốc tế (Hsieh & Klenow, 2009, 2014).
 
 **Chiều 2, Lợi nhuận và biên lợi nhuận**. Biến đo lường: (a) tỷ suất lợi nhuận hoạt động từ câu hỏi WBES về doanh thu sau chi phí lao động; (b) chỉ số gián tiếp qua khả năng tái đầu tư. Hạn chế: nhiều doanh nghiệp trong WBES không tiết lộ lợi nhuận cụ thể, chiều này mang tính hỗ trợ thay vì chủ đạo.
 
