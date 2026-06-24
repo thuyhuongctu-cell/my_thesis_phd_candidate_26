@@ -435,7 +435,11 @@ interfaces and transaction-enabling mechanisms through website or digital
 presence and customer- and supplier-side electronic-payment intensity, and
 should be interpreted as a Tier 1–2 construct. Component indicators are
 standardized, aggregated with equal weights, and re-standardized so
-coefficients are interpretable in standard-deviation units.
+coefficients are interpretable in standard-deviation units. Empirically,
+the two standardized indices are distinct in the Singapore sample
+(composite correlation r = 0.13; under 2 % shared variance), consistent
+with treating them as separate firm-level domains rather than one
+redundant construct.
 
 **R1 sensitivity diagnostic (Tier-1-only DAI).** A sensitivity check
 replaces the Tier-1+2 composite with a Tier-1-only variant

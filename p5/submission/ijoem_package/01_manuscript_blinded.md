@@ -323,6 +323,15 @@ is available and identically defined in both waves. DAI_core is treated
 as a baseline control rather than a theoretically-grounded capability
 construct.
 
+**Measurement note.** TCI_full is a *formative* composite — its items
+are defining constituents of technological capability rather than
+reflective manifestations of a single latent trait, so by the
+four-criterion test of Coltman et al. (2008) the indicators need not
+covary and reflective internal-consistency diagnostics do not apply.
+Consistent with treating digital adoption as a separate baseline domain,
+TCI and the website indicator are empirically distinct in the China
+sample (composite correlation r = 0.18; 3 % shared variance).
+
 **Controls.** (a) Log number of employees (lnEmp) to control for firm
 size; (b) firm age in years; (c) binary foreign-ownership indicator
 (`b2b`, \> 10 % foreign equity); (d) ISIC 2-digit industry stratum
@@ -753,6 +762,8 @@ Antonakis, J., Bendahan, S., Jacquart, P. and Lalive, R. (2010), "On making caus
 Avenyo, E.K., Tregenna, F. and Kraemer-Mbula, E. (2021), "Do productive capabilities affect export performance? Evidence from African firms", *European Journal of Development Research*, Vol. 33 No. 2, pp. 304-329, doi: 10.1057/s41287-021-00364-6.
 
 Bausch, A. and Krist, M. (2007), "The effect of context-related moderators on the internationalization–performance relationship: A meta-analysis", *Management International Review*, Vol. 47 No. 3, pp. 423-452, doi: 10.1007/s11575-007-0022-4.
+
+Coltman, T., Devinney, T.M., Midgley, D.F. and Venaik, S. (2008), "Formative versus reflective measurement models: Two applications of formative measurement", *Journal of Business Research*, Vol. 61 No. 12, pp. 1250-1262, doi: 10.1016/j.jbusres.2008.01.013.
 
 Authors (2026), details omitted for double-blind review.
 

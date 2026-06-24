@@ -539,7 +539,10 @@ integrated organizational capability. Following the
 formative-measurement logic adopted in the study, component indicators
 are standardized, aggregated using equal weights, and then
 re-standardized so that coefficients are interpretable in
-standard-deviation units.
+standard-deviation units. Empirically, the two standardized indices are
+distinct in the Singapore sample (composite correlation r = 0.13; under
+2 % shared variance), consistent with treating them as separate
+firm-level domains rather than one redundant construct.
 
 **R1 sensitivity diagnostic (Tier-1-only DAI).** A sensitivity check
 replaces the Tier-1+2 composite DAI with a Tier-1-only variant

@@ -98,6 +98,8 @@ The final analytical frame contains 88,869 firm-observations across 50 economies
 
 **Digital adoption index (DAI).** Website presence (c22b), a binary Tier-1 indicator of digital participation.
 
+**Construct distinctness (TCI vs DAI).** TCI and DAI are treated as two distinct *formative* composites rather than reflective scales: their indicators are defining constituents of capability rather than interchangeable manifestations of a common latent trait, so by the four-criterion test of Coltman et al. (2008) the indicators need not covary and reflective diagnostics (internal-consistency, exploratory factor analysis) do not apply. The appropriate distinctness evidence is at the composite level: across the analytic frame the two standardised indices correlate only r = 0.28 (sharing 8% of variance), and when entered jointly each retains an independent, highly significant partial association with productivity (TCI +0.18, DAI +0.13, both p < .001), confirming that they capture different dimensions of firm advantage rather than one redundant construct.
+
 **Manager characteristics.** Top manager experience in sector (b7, in years) and a binary indicator for female top manager (b7a / b6a).
 
 **Controls.** Female ownership share (b4 > 0.5: majority female-owned, binary), foreign ownership percentage (b6a / 100), firm age (in years, current year − b5), and log permanent employees (ln l1_workers) as a size proxy.
@@ -249,6 +251,8 @@ Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvem
 Cho, H., Kim, C., & Han, S. (2023). Business group affiliation and the internationalization–performance relationship: Evidence from Korean firms. *Journal of International Business Studies, 54*(3), 487–509.
 
 Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
+
+Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
 
 Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
 

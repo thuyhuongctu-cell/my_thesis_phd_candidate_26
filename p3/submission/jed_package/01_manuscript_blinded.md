@@ -362,6 +362,7 @@ as a measure of transaction-level digital integration or digital transformation 
 
 so that the reported coefficients are comparable in magnitude. This separation is deliberate because the study is interested in whether the two domains exhibit different empirical roles, while
 keeping the construct labels tight against what the underlying WBES items actually measure.
+TCI and DAI are specified as *formative* composites rather than reflective scales — their indicators are defining constituents of the construct, so by the four-criterion test of Coltman et al. (2008) the indicators need not covary and reflective diagnostics do not apply — and the two indices are empirically distinct in the Vietnam sample (composite correlation r = 0.28; 8% shared variance), supporting their treatment as separate firm-level domains.
 Item-level construction is as follows. The outcome is lnLP = ln(d2 / l1), where d2 is total annual sales and l1 is permanent full-time employees. Internationalisation is FSTS = d3c / 100, mean-centred within wave (FSTS_c) and squared (FSTS_c²). The primary Technological Capability Index (TCI_z) is the within-wave standardised mean of b8 (internationally recognised
 quality certification) and e6 (foreign-licensed technology), each recoded from WBES 1/2 to 1/0
 binary form.
@@ -1251,6 +1252,8 @@ Brynjolfsson, E., Rock, D. and Syverson, C. (2021), "The productivity J-curve: h
 Certo, S.T., Busenbark, J.R., Woo, H.-S. and Semadeni, M. (2016), "Sample selection bias and Heckman models in strategic management research", *Strategic Management Journal*, Vol. 37 No. 13, pp.2639-2657, https://doi.org/10.1002/smj.2475
 
 Cohen, W.M. and Levinthal, D.A. (1990), "Absorptive capacity: a new perspective on learning and innovation", *Administrative Science Quarterly*, Vol. 35 No. 1, pp.128-152, https://doi.org/10.2307/2393553
+
+Coltman, T., Devinney, T.M., Midgley, D.F. and Venaik, S. (2008), "Formative versus reflective measurement models: two applications of formative measurement", *Journal of Business Research*, Vol. 61 No. 12, pp.1250-1262, https://doi.org/10.1016/j.jbusres.2008.01.013
 
 Contractor, F.J. (2007), "Is international business good for companies? The evolutionary or multi-stage theory of internationalization vs. the transaction cost perspective", *Management International Review*, Vol. 47 No. 3, pp.453-475, https://doi.org/10.1007/s11575-007-0024-2
 
