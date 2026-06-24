@@ -181,7 +181,7 @@ Toàn bộ biến của khung thực nghiệm được tổng hợp trong Bảng
 |---|---|---|---|---|
 | Biến phụ thuộc | Năng suất lao động, ln(LP) | `d2`, `l1` | Logarit tự nhiên của doanh thu trên số lao động thường xuyên | — |
 | Biến độc lập | Cường độ xuất khẩu (FSTS) | `d3c` (và `d3b`) | Tỷ lệ doanh thu nước ngoài trên tổng doanh thu (0–1), trung tâm hóa | H1 |
-| Biến độc lập | FSTS bình phương (FSTS²) | (suy ra) | Bình phương của FSTS đã trung tâm hóa, kiểm định phi tuyến | H1, H1b |
+| Biến độc lập | FSTS bình phương ($\text{FSTS}^2$) | (suy ra) | Bình phương của FSTS đã trung tâm hóa, kiểm định phi tuyến | H1, H1b |
 | Điều tiết – tầng doanh nghiệp | Năng lực công nghệ (TCI) | `b8`, `e6` | Chỉ số hợp thành chuẩn hóa z (chứng chỉ chất lượng + công nghệ ngoại nhập) | H2 |
 | Điều tiết – tầng doanh nghiệp | Chấp nhận số (DAI) | `c22b`, `k33`/`k38` | Tầng 1: website (nhị phân); Tầng 2: hợp thành z (website + thanh toán điện tử) | H3 |
 | Điều tiết – tầng cá nhân | Kinh nghiệm nhà quản trị | `b7` | Số năm kinh nghiệm của nhà quản trị cấp cao trong ngành | H4 |
@@ -190,7 +190,7 @@ Toàn bộ biến của khung thực nghiệm được tổng hợp trong Bảng
 | Điều tiết – thời gian | Đợt khảo sát | (năm khảo sát) | Biến giả đợt/năm; kiểm định ổn định hệ số Paternoster | H6 |
 | Kiểm soát | Quy mô doanh nghiệp | `l1` | Logarit số lao động thường xuyên | — |
 | Kiểm soát | Tuổi doanh nghiệp | `b5` | Năm khảo sát trừ năm thành lập | — |
-| Kiểm soát | Sở hữu nước ngoài | `b2b` | Tỷ lệ vốn sở hữu nước ngoài (hoặc biến nhị phân ≥10%) | — |
+| Kiểm soát | Sở hữu nước ngoài | `b2b` | Tỷ lệ vốn sở hữu nước ngoài (hoặc biến nhị phân $\geq$10%) | — |
 | Kiểm soát | Hiệu ứng cố định | — | Ngành (FE), nền kinh tế (FE), năm (FE) | — |
 
 *Ghi chú: trường WBES tham chiếu mã biến của bộ công cụ khảo sát; một số mã thay đổi theo thế hệ lược đồ (PICS3 / Standardized / BREADY) và được hài hòa hóa theo Phụ lục A. Vận hành hóa chi tiết theo từng nghiên cứu thành phần xem Mục 3.4.5. Nguồn: tác giả tổng hợp.*
@@ -737,7 +737,7 @@ Ba kiểm định bổ sung dưới đây được tái lập trực tiếp từ
 | phân tích tổng hợp 1977–2026 | Bausch & Krist (2007); Kirca et al. (2012); Marano et al. (2016) | Mở rộng phạm vi, bổ sung digital và 6 chế độ con ICRV moderators |
 | Mẫu thực nghiệm gộp | nghiên cứu thành phần P1, 17 nền kinh tế châu Á mới nổi | Mở rộng từ 17 lên **50 nền kinh tế**, 103 cặp nền kinh tế và năm (gồm Nhật Bản 2025) |
 | Biến phụ thuộc năng suất lao động | Bloom et al. (2012); Hsieh & Klenow (2009); nghiên cứu thành phần P1 | Lập luận rõ về hiệu quả hoạt động kinh doanh của doanh nghiệp đa chiều trong bối cảnh WBES |
-| FSTS + FSTS² | Lu & Beamish (2004); Hitt et al. (1997); nghiên cứu thành phần P2 và P5 | Đưa vào cùng khung điều tiết ba chiều |
+| FSTS + $\text{FSTS}^2$ | Lu & Beamish (2004); Hitt et al. (1997); nghiên cứu thành phần P2 và P5 | Đưa vào cùng khung điều tiết ba chiều |
 | TCI vs DAI | Bhandari et al. (2023); Verhoef et al. (2021) | Không chồng lấn, độ thuần cấu trúc protocol cho WBES; lá chắn số mở rộng (nghiên cứu thành phần P1) |
 | Lind–Mehlum U-test | Lind & Mehlum (2010); Haans et al. (2016) | Áp dụng cho từng country sample và multi-country |
 | Điều tiết ba chiều | Aiken & West (1991); Dawson (2014) | số × thể chế × nhà quản trị, mới cho châu Á và Thái Bình Dương |

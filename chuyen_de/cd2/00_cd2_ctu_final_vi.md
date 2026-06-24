@@ -370,9 +370,9 @@ Bảng 2.1. Mỗi tầng lý thuyết, câu hỏi phụ, biến số, giả thuy
 
 | Tầng | Lý thuyết | Câu hỏi phụ | Biến số chính | Giả thuyết | Bằng chứng P3/P4/P5 |
 |---|---|---|---|---|---|
-| 1 | Uppsala | Cường độ QTH có hiệu ứng phi tuyến không? | I (FSTS, FSTS²) | H1 Phi tuyến chữ U ngược | P3: TP 39–46%; P5: TP 47–49% |
-| 2 | RBV | Năng lực doanh nghiệp ảnh hưởng thế nào đến hấp thụ lợi ích I? | TCI | H2 TCI điều tiết (+) | P3: β = 0,179 nhân quả (IV); P5: +0,260 đến +0,426 |
-| Digital Adoption Lens | CDCM | Năng lực số có cơ chế khác TCI không? | DAI | H3a–H3b DAI phụ thuộc chế độ thể chế | P4: DAI×FSTS² = +3,119 (Nhóm I); P3: IV null (β = 0,018, Nhóm IV) |
+| 1 | Uppsala | Cường độ QTH có hiệu ứng phi tuyến không? | I (FSTS, $\text{FSTS}^2$) | H1 Phi tuyến chữ U ngược | P3: TP 39–46%; P5: TP 47–49% |
+| 2 | RBV | Năng lực doanh nghiệp ảnh hưởng thế nào đến hấp thụ lợi ích I? | TCI | H2 TCI điều tiết (+) | P3: $\beta = 0{,}179$ nhân quả (IV); P5: +0,260 đến +0,426 |
+| Digital Adoption Lens | CDCM | Năng lực số có cơ chế khác TCI không? | DAI | H3a–H3b DAI phụ thuộc chế độ thể chế | P4: $\text{DAI} \times \text{FSTS}^2 = +3{,}119$ (Nhóm I); P3: IV null ($\beta = 0{,}018$, Nhóm IV) |
 | 4 | Upper Echelons | Đặc điểm nhà quản trị tác động thế nào? | Nhà quản trị cấp cao | H4a–H4c Quản trị điều tiết | (kiểm định trong M5, dữ liệu WBES) |
 | 3 | Institutional | Thể chế nội địa định hình quan hệ ra sao? | ICRV (6 nhóm) | H5 Phổ thể chế | Phân tích mô tả CĐ1: phân tán LP tăng theo chế độ |
 | – | (Thời gian) | Quan hệ thay đổi qua thời gian không? | Year-bucket | H6 Không đồng nhất thời gian | P3: Paternoster p < 0,001; P5: TCI Paternoster p = 0,011 |
@@ -409,21 +409,21 @@ Bảng 2.4. Mapping biến đầy đủ: khái niệm lý thuyết, biến WBES,
 | Biến | Khái niệm | Mã WBES | Công thức | Kỳ vọng | Giả thuyết |
 |------|-----------|---------|-----------|---------|------------|
 | ln(LP) | Năng suất lao động | d2, l1 | ln(d2/l1) | Biến phụ thuộc | – |
-| FSTS | Cường độ QTH | d3c | d3c/100 | β₁ > 0 | H1 |
-| FSTS² | Phi tuyến | – | (FSTS_c)² | β₂ < 0 | H1 |
-| FSTS³ | Chữ S | – | (FSTS_c)³ | β₃ > 0 | H1 |
-| TCI | Năng lực CN nội tại | b8, h8, h1, e6 | z-mean(≥3/4 items) | β > 0 (trực tiếp) | H2 |
+| FSTS | Cường độ QTH | d3c | d3c/100 | $\beta_1 > 0$ | H1 |
+| $\text{FSTS}^2$ | Phi tuyến | – | $(\text{FSTS}_c)^2$ | $\beta_2 < 0$ | H1 |
+| $\text{FSTS}^3$ | Chữ S | – | $(\text{FSTS}_c)^3$ | $\beta_3 > 0$ | H1 |
+| TCI | Năng lực CN nội tại | b8, h8, h1, e6 | z-mean ($\geq$3/4 items) | $\beta > 0$ (trực tiếp) | H2 |
 | DAI | Áp dụng số nền tảng | c22b; k33/k38 | z-mean (Tier 1+2) | Phụ thuộc ngữ cảnh | H3 |
-| FSTS×TCI | Điều tiết TCI | – | tương tác | β_mod: phụ thuộc ngữ cảnh | H2 |
-| FSTS²×DAI | DAI tình huống | – | tương tác | β > 0 (Nhóm I); null (Nhóm III, IV) | H3 |
-| exp_manager | Kinh nghiệm QL | b5 | năm kinh nghiệm | β > 0 (δ_exp > 0) | H4a |
-| educ_manager | Học vấn QL | b7a | thứ tự | β > 0 (δ_educ > 0) | H4b |
+| $\text{FSTS} \times \text{TCI}$ | Điều tiết TCI | – | tương tác | $\beta_\text{mod}$: phụ thuộc ngữ cảnh | H2 |
+| $\text{FSTS}^2 \times \text{DAI}$ | DAI tình huống | – | tương tác | $\beta > 0$ (Nhóm I); null (Nhóm III, IV) | H3 |
+| exp_manager | Kinh nghiệm QL | b5 | năm kinh nghiệm | $\beta > 0$ ($\delta_\text{exp} > 0$) | H4a |
+| educ_manager | Học vấn QL | b7a | thứ tự | $\beta > 0$ ($\delta_\text{educ} > 0$) | H4b |
 | gender_manager | Giới tính QL | b7 | binary female=1 | Exploratory, two-sided | H4c |
-| ICRV_j | Chế độ thể chế | – | j = I–VI, biến giả | Phổ H5 | H5 |
+| $\text{ICRV}_j$ | Chế độ thể chế | – | j = I–VI, biến giả | Phổ H5 | H5 |
 | Year_bucket | Thời gian | year | 2009–12/13–17/18–25 | Dịch chuyển H6 | H6 |
-| ln(employees) | Quy mô doanh nghiệp | l1 | ln(l1) | β > 0 | Kiểm soát |
-| firm_age | Tuổi doanh nghiệp | b6 | năm thành lập | β không xác định | Kiểm soát |
-| foreign_own | Sở hữu nước ngoài | b2b | ≥10% = 1 | β > 0 | Kiểm soát |
+| ln(employees) | Quy mô doanh nghiệp | l1 | ln(l1) | $\beta > 0$ | Kiểm soát |
+| firm_age | Tuổi doanh nghiệp | b6 | năm thành lập | $\beta$ không xác định | Kiểm soát |
+| foreign_own | Sở hữu nước ngoài | b2b | $\geq$10% = 1 | $\beta > 0$ | Kiểm soát |
 
 Ghi chú đo lường: TCI là tổng hợp formative từ: chứng nhận ISO (b8=1), R&D (h8=1), đổi mới sản phẩm (h1=1), công nghệ nước ngoài có bản quyền (e6=1). Yêu cầu ≥3/4 items không thiếu; z-chuẩn hóa trong mỗi sóng. DAI_z_full (Tier 1+2): z-mean(c22b + k33 + k38) chỉ có trong lược đồ BEE (2019 trở đi). DAI_z_tier1 (Tier 1): z-mean(c22b) có xuyên tất cả lược đồ. FSTS được tính trung tâm theo mean trong mỗi ô quốc gia-sóng trước khi tính FSTS² để giảm đa cộng tuyến.
 
@@ -470,9 +470,9 @@ Bảng 2.6. CDCM, Dự đoán tác động DAI theo 3 chiều ngữ cảnh.
 
 | Chế độ (ICRV) | Mức FSTS | Bão hòa số | DAI OLS | DAI nhân quả (IV) | Cơ chế |
 |---------------|----------|-----------|---------|--------------------|--------|
-| Nhóm I (Singapore) | Cao (>50%) | Bão hòa (>65%) | Null trực tiếp; FSTS²×DAI = +3,119 | (không cần IV) | Mở rộng tình huống ở nhu cầu điều phối cao |
+| Nhóm I (Singapore) | Cao (>50%) | Bão hòa (>65%) | Null trực tiếp; $\text{FSTS}^2 \times \text{DAI} = +3{,}119$ | (không cần IV) | Mở rộng tình huống ở nhu cầu điều phối cao |
 | Nhóm III (Trung Quốc) | Trung bình (20–50%) | Trung bình–cao (>55%) | Null/kiểm soát | Null (Tier 1 mất tín hiệu phân biệt) | Tier 1 bão hòa |
-| Nhóm IV (Việt Nam) | Thấp–trung bình (<40%) | Trung bình (<55%) | Dương nhỏ (0,095–0,175) | Null (β = 0,018; F bậc một = 34,6) | Phụ thuộc chọn lựa |
+| Nhóm IV (Việt Nam) | Thấp–trung bình (<40%) | Trung bình (<55%) | Dương nhỏ (0,095–0,175) | Null ($\beta = 0{,}018$; F bậc một = 34,6) | Phụ thuộc chọn lựa |
 | Nhóm V (Đang nổi) | Thấp (<20%) | Thấp (<30%) | Không xác định | Cần IV | Hạ tầng số thiếu |
 | Nhóm VI (SIDS) | Cao do bắt buộc (>40%) | Thấp–trung | Gánh nặng bắt buộc trội | – | I–P gánh nặng bắt buộc che lấp tín hiệu DAI |
 
@@ -529,15 +529,15 @@ Bảng 2.5. Hệ giả thuyết H1–H6, tóm tắt cơ chế, biến, kỳ vọ
 
 | Giả thuyết | Tên | Cơ chế lý thuyết | Biến kiểm định | Kỳ vọng | Bằng chứng P3/P4/P5 |
 |------|-----|-----------------|----------------|---------|---------------------|
-| H1 | Phi tuyến I–P | Uppsala 3 giai đoạn; chi phí phối hợp | FSTS, FSTS², FSTS³ | β₁ > 0; β₂ < 0 | P3 TP 39–46%; P5 TP 47–49% |
-| H2 | TCI nâng mặt bằng | RBV năng lực hấp thụ | TCI, FSTS×TCI | β(TCI) > 0; độ cong: khám phá | P3 IV nhân quả; P5 +0,260 đến +0,426 |
-| H3a | DAI nhóm đang nổi/chuyển đổi (+) | CDCM × Digital Adoption Lens | DAI, FSTS×DAI | β(FSTS×DAI) > 0 (Nhóm III–V) | P3 IV null; bằng chứng hạn chế |
-| H3b | DAI Advanced (null/−, conditional +) | CDCM × Digital Adoption Lens | DAI, FSTS²×DAI | Direct: null/–; cond: β(FSTS²×DAI) > 0 ở FSTS cao | P4 +3,119; bão hòa số |
-| H4a | Kinh nghiệm QL điều tiết | Upper Echelons | exp_manager, FSTS×exp | β(FSTS×exp) > 0 (δ_exp > 0) | (WBES b5) |
-| H4b | Học vấn QL điều tiết | Upper Echelons | educ_manager, FSTS×educ | β(FSTS×educ) > 0 (δ_educ > 0) | (WBES b7a) |
-| H4c | Giới tính QL, khám phá | Upper Echelons | gender_manager, FSTS×gender | Exploratory, two-sided | (WBES b7) |
-| H5 | Phổ ICRV | Institutional Theory | ICRV_j × FSTS | TP phổ thể chế; Nhóm VI gánh nặng bắt buộc | Phân tán LP tăng theo chế độ (CĐ1) |
-| H6 | Không đồng nhất thời gian | Thay đổi cấu trúc | Year_bucket × FSTS | β(FSTS×Year) ≠ 0 | P3 Paternoster p < 0,001; P5 TCI p = 0,011 |
+| H1 | Phi tuyến I–P | Uppsala 3 giai đoạn; chi phí phối hợp | FSTS, $\text{FSTS}^2$, $\text{FSTS}^3$ | $\beta_1 > 0$; $\beta_2 < 0$ | P3 TP 39–46%; P5 TP 47–49% |
+| H2 | TCI nâng mặt bằng | RBV năng lực hấp thụ | TCI, $\text{FSTS} \times \text{TCI}$ | $\beta(\text{TCI}) > 0$; độ cong: khám phá | P3 IV nhân quả; P5 +0,260 đến +0,426 |
+| H3a | DAI nhóm đang nổi/chuyển đổi (+) | CDCM × Digital Adoption Lens | DAI, $\text{FSTS} \times \text{DAI}$ | $\beta(\text{FSTS} \times \text{DAI}) > 0$ (Nhóm III–V) | P3 IV null; bằng chứng hạn chế |
+| H3b | DAI Advanced (null/−, conditional +) | CDCM × Digital Adoption Lens | DAI, $\text{FSTS}^2 \times \text{DAI}$ | Direct: null/–; cond: $\beta(\text{FSTS}^2 \times \text{DAI}) > 0$ ở FSTS cao | P4 +3,119; bão hòa số |
+| H4a | Kinh nghiệm QL điều tiết | Upper Echelons | exp_manager, $\text{FSTS} \times \text{exp}$ | $\beta(\text{FSTS} \times \text{exp}) > 0$ ($\delta_\text{exp} > 0$) | (WBES b5) |
+| H4b | Học vấn QL điều tiết | Upper Echelons | educ_manager, $\text{FSTS} \times \text{educ}$ | $\beta(\text{FSTS} \times \text{educ}) > 0$ ($\delta_\text{educ} > 0$) | (WBES b7a) |
+| H4c | Giới tính QL, khám phá | Upper Echelons | gender_manager, $\text{FSTS} \times \text{gender}$ | Exploratory, two-sided | (WBES b7) |
+| H5 | Phổ ICRV | Institutional Theory | $\text{ICRV}_j \times \text{FSTS}$ | TP phổ thể chế; Nhóm VI gánh nặng bắt buộc | Phân tán LP tăng theo chế độ (CĐ1) |
+| H6 | Không đồng nhất thời gian | Thay đổi cấu trúc | $\text{Year\_bucket} \times \text{FSTS}$ | $\beta(\text{FSTS} \times \text{Year}) \neq 0$ | P3 Paternoster p < 0,001; P5 TCI p = 0,011 |
 
 Mười một mệnh đề con dưới sáu giả thuyết chính H1–H6 (H1 với hai cơ chế biên tham gia và biên cường độ, H2, H3a–H3b với H3c distinctiveness, H4a–H4c, H5, H6) tạo thành hệ thống logic nhất quán: H1 cùng hai cơ chế biên tham gia và biên cường độ (phi tuyến) là trọng tâm; H2 (TCI nâng mặt bằng) và H3a/H3b (DAI phụ thuộc regime) phân rã cơ chế năng lực doanh nghiệp với dấu kỳ vọng khác nhau theo ngữ cảnh; H4a–H4c (Quản trị) bổ sung tầng lý thuyết thượng tầng quản trị với dấu kỳ vọng phân biệt theo đặc điểm nhà quản trị; H5 (ICRV phổ thể chế) là tầng thể chế bao trùm; H6 (Thời gian) là tầng động.
 
@@ -671,14 +671,14 @@ Bảng 2.7. Tám mô hình M0–M7, cấu trúc, giả thuyết kiểm định, 
 
 | Mô hình | Biến bổ sung so với mô hình trước | Giả thuyết | Kiểm định chính |
 |---------|----------------------------------|------------|-----------------|
-| M0 | FSTS (tuyến tính) | Baseline | β₁ > 0 |
-| M1 | + FSTS² | H1 (chữ U ngược) | β₂ < 0; Lind–Mehlum |
-| M2 | + FSTS³ | H1 (chữ S) | β₃ > 0; F-test β₃ = 0 |
-| M3 | + TCI, FSTS×TCI, FSTS²×TCI | H2 | β₃ > 0; F-test (β₄ = β₅ = 0) |
-| M4 | + DAI, FSTS×DAI, FSTS²×DAI | H3a/H3b | H3a: β(FSTS×DAI) > 0 Nhóm III–V; H3b: β(FSTS²×DAI) > 0 ở FSTS cao Nhóm I |
-| M5 | + Manager, FSTS×Manager | H4a/H4b/H4c | H4a: β₄(FSTS×exp) > 0; H4b: β₄(FSTS×educ) > 0; H4c: two-sided |
-| M6 | + ICRV_j × FSTS, ICRV_j × FSTS² | H5 | Phổ TP; gánh nặng bắt buộc Nhóm VI |
-| M7 | + TCI×DAI×FSTS, Year_bucket×FSTS | H2+H3+H6 | F-test block ba chiều |
+| M0 | FSTS (tuyến tính) | Baseline | $\beta_1 > 0$ |
+| M1 | + $\text{FSTS}^2$ | H1 (chữ U ngược) | $\beta_2 < 0$; Lind–Mehlum |
+| M2 | + $\text{FSTS}^3$ | H1 (chữ S) | $\beta_3 > 0$; F-test $\beta_3 = 0$ |
+| M3 | + TCI, $\text{FSTS} \times \text{TCI}$, $\text{FSTS}^2 \times \text{TCI}$ | H2 | $\beta_3 > 0$; F-test ($\beta_4 = \beta_5 = 0$) |
+| M4 | + DAI, $\text{FSTS} \times \text{DAI}$, $\text{FSTS}^2 \times \text{DAI}$ | H3a/H3b | H3a: $\beta(\text{FSTS} \times \text{DAI}) > 0$ Nhóm III–V; H3b: $\beta(\text{FSTS}^2 \times \text{DAI}) > 0$ ở FSTS cao Nhóm I |
+| M5 | + Manager, $\text{FSTS} \times \text{Manager}$ | H4a/H4b/H4c | H4a: $\beta_4(\text{FSTS} \times \text{exp}) > 0$; H4b: $\beta_4(\text{FSTS} \times \text{educ}) > 0$; H4c: two-sided |
+| M6 | + $\text{ICRV}_j \times \text{FSTS}$, $\text{ICRV}_j \times \text{FSTS}^2$ | H5 | Phổ TP; gánh nặng bắt buộc Nhóm VI |
+| M7 | + $\text{TCI} \times \text{DAI} \times \text{FSTS}$, $\text{Year\_bucket} \times \text{FSTS}$ | H2+H3+H6 | F-test block ba chiều |
 
 
 #### 2.3.6 Dữ liệu và chiến lược nhận dạng nhân quả
