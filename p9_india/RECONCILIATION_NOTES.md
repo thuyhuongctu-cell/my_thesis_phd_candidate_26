@@ -47,3 +47,21 @@ P9' findings are integrated into the dissertation chapters:
 - `format-apa7.py`: all citations have entries in references
 - Blind DOCX scan: 0 author-identifier hits (rebuilt to dist/SUBMISSION_FINAL/P9_India_MIR/, commit `f1f5d38`)
 - Target journal options: MIR (primary) or IJOEM (alternative)
+
+## Numbers reconciliation pass (2026-06-24)
+
+Full cross-check of every reported quantity against the replication source of
+truth (`p9_india/replication/results/*.csv`, `REPRO_2026-06-23`, and
+`data_wbes/analysis/CANONICAL_NUMBERS.md`). Tables 1, 2, 4, 5 in the manuscript
+are verbatim-identical to the generated replication tables; N (28,717 pooled;
+8,941/9,300/10,476 per wave), turning points (61.8% / 40.7% / n.a.),
+coefficients, R²_adj, descriptives, moderators, and Paternoster z-tests
+(HC1: −7.94 / +4.17; state-clustered: −3.50 / +2.19) all match.
+
+**One discrepancy found and fixed.** The Discussion claimed the 2022
+Lind–Mehlum joint test was "p < 1e-12". The replication `uTest` value is
+`p_joint = 2.125e-12`, which is *not* below 1e-12. Corrected to `p < 1e-11`
+(a true bound) across all manuscript copies (en_clean, MIR full + .tex, VI,
+IJOEM-blinded, JABS-blinded) and the affected `.docx` rebuilt via the canonical
+`build_docx.py` / pandoc pipeline. The `p9_india_robustness.csv` data values
+(which legitimately contain `1e-12`-scale p-values) were left untouched.
