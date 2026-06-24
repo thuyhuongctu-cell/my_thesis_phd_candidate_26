@@ -135,12 +135,12 @@ coordination demands are densest. This within-context evidence supports a
 contingent digital complementarity mechanism, DAI as a scaling lever realised
 under export-intensity conditions rather than as a broad capability advantage;
 the evidence for it (H3: positive quadratic DAI×FSTS²
-interaction, β=+3.119, p=.005) is the most distinctive finding and the one
+interaction, β=+3.220, p=.020) is the most distinctive finding and the one
 least anticipated by prior literature. The first supporting contribution
 qualifies the conventional nonlinear I–P literature: within the observed
 range, the fitted quadratic is more defensibly read as predominantly
 positive with mild curvature than as a formally established inverted-U,
-because the implied turning point lies near FSTS=88.6% in a sparsely
+because the implied turning point lies near FSTS=85.7% in a sparsely
 populated upper tail and the Lind–Mehlum test does not confirm a right-side
 decline at conventional thresholds. Where Tier 1–2 coordination tools are
 widely diffused, this is an informative positive null consistent with the
@@ -347,11 +347,11 @@ arrows represent moderating and conditional effects. The independent
 variable, internationalisation intensity (FSTS, FSTS²_c), is placed at
 left; the dependent variable, ln(labour productivity), is placed at
 right. H1 (inverted-U tendency with support-constrained turning point
-~88.6% FSTS, bootstrap CI \[53%, 253%\]) is grounded in
+~85.7% FSTS, bootstrap CI \[58%, 398%\]) is grounded in
 coordination-cost theory (Hitt et al., 1997); the right-side decline is
 not formally identified within the observed FSTS range, a theoretically
 informative result under the saturation framework (Lind–Mehlum p =
-.303). H1-TCI: technological capability (TCI_z, RBV: Barney, 1991)
+.346). H1-TCI: technological capability (TCI_z, RBV: Barney, 1991)
 enters as a direct level-shift to firm performance. H2: DAI (Tier-1+2:
 website + e-payment) exhibits a non-uniform positive direct effect,
 varying across export intensity. H3: DAI amplifies I to P performance
@@ -395,7 +395,7 @@ presence removes the discriminatory power that the website indicator alone
 could carry, so the empirical signal must be drawn from the Tier-2
 transaction-enabling layer to identify the conditional-scaling mechanism, a
 point borne out in the Section 4.5 R1 diagnostic. The Lind–Mehlum
-equivalence-test result (p = .303) in Section 4.2 should therefore be
+equivalence-test result (p = .346) in Section 4.2 should therefore be
 interpreted alongside the Tier-1+2 construct composition and the high
 domestic orientation of the sample, not as a stand-alone null on the
 inverted-U logic. Figure 3 illustrates the predicted I–P curve and the
@@ -411,8 +411,7 @@ from WBES sales and employment items following the
 productivity-as-performance approach in prior firm-level research. Because
 all observations belong to the same 2023 cross-section, sales are in
 nominal 2023 Singapore dollars, with any common price-level effect
-absorbed by the intercept. To reduce outlier sensitivity, the dependent
-variable is winsorized at the 1st and 99th percentiles.
+absorbed by the intercept.
 
 #### 3.2.2 Focal independent variable
 
@@ -514,9 +513,9 @@ positive export intensity, and only 3% exceed 50% FSTS. The curvature
 parameters in the quadratic FSTS specification are therefore identified
 primarily through the participation contrast between FSTS = 0 and FSTS > 0,
 with limited support in the upper tail. The fitted turning point near
-FSTS ≈ 88.6% falls in a sparsely populated region with a wide 95% bootstrap
-confidence interval (\[53%, 253%\]), even though an inverted-U shape is
-recovered in 96.3% of resamples. This support-constrained estimate indicates
+FSTS ≈ 85.7% falls in a sparsely populated region with a wide 95% bootstrap
+confidence interval (\[58%, 398%\]), even though an inverted-U shape is
+recovered in 94.9% of resamples. This support-constrained estimate indicates
 saturation rather than a precise threshold; the conventional inverted-U is
 not formally identified within the supported range, and Section 4 is
 interpreted under this support-aware framing.
@@ -532,14 +531,14 @@ N = 84 is approximately 16% (underpowered for interaction effects of
 with N ≥ 300 would enable intensity-margin inference (power requirements
 follow Cohen 1988 and Aguinis et al. 2005). Null DAI moderation in this
 subsample is therefore not evidence against the mechanism; conversely, the
-positive joint F-test in the R5 exporters-only specification (F = 6.32,
-p = .003, β = +2.821) is a stronger signal than the sample size would
+positive joint F-test in the R5 exporters-only specification (F = 4.54,
+p = .014, β = +1.987) is a stronger signal than the sample size would
 ordinarily support and is read as a high-prior corroboration of the
 full-sample amplification mechanism rather than a stand-alone identifying
 test.
 
 *(iii) Lind–Mehlum equivalence framing.* The Lind–Mehlum (2010) test does
-not reject monotonicity at conventional thresholds (p = .303 in the
+not reject monotonicity at conventional thresholds (p = .346 in the
 baseline pooled specification), but the appropriate reading is not that
 "the inverted-U fails", because the test is conditioned on dense support
 around the turning point, which condition (i) shows is absent here. Read
@@ -547,7 +546,7 @@ against the saturation hypothesis of Section 1.1, the null is a
 *theoretically informative absence-of-decline*: if foundational digital
 infrastructure is mature enough to absorb the coordination-cost saturation
 that produces the right-side decline, the expected signature is precisely
-the non-rejection of monotonicity. The p = .303 is therefore a positive
+the non-rejection of monotonicity. The p = .346 is therefore a positive
 theoretical signal under the saturation framework, not a methodological
 failure.
 
@@ -555,10 +554,9 @@ failure.
 available, a reduced-form check estimates a first-stage probit of export
 participation on observables (age, log size, sector fixed effects, WBES
 sampling stratum) and adds the resulting inverse Mills ratio (IMR) to M8.
-The IMR coefficient (β = 0.264, SE = 0.138, t = 1.92, p = .055) is just
-above .05, indicating mild extensive-margin selection. The key DAI × FSTS²
-interaction (H3) and the TCI coefficient are not materially altered
-(\|Δ\| < 0.02 each), confirming robustness to this adjustment. Consistent
+This check leaves the key DAI × FSTS² and TCI estimates essentially
+unchanged (\|Δ\| < 0.02), with the inverse-Mills term itself
+statistically insignificant. Consistent
 with Wolfolds and Siegel (2019), OLS is the primary specification with the
 caveat that selection on unobservables cannot be fully excluded.
 
@@ -611,15 +609,15 @@ Two-tailed significance levels are reported as follows: p \< .10, p \<
 ### 4.2 The I–P relationship: primarily monotonic with mild curvature
 
 In the baseline quadratic specification (Model M2), the linear FSTS term
-is positive and significant (β = +2.652, SE = 0.691, p < .001) and the
-squared term negative (β = −1.705, SE = 0.931, p = .068). The fitted curve
-implies a turning point in the upper tail near FSTS = 82% on the original
+is positive and significant (β = +3.078, SE = 0.805, p < .001) and the
+squared term negative (β = −1.898, SE = 1.079, p = .079). The fitted curve
+implies a turning point in the upper tail near FSTS = 85.7% on the original
 scale, but that point is imprecisely located. The 5,000-replication
 bootstrap recovers an inverted-U
-shape in 96.3% of replications, yet the 95% percentile confidence interval
-for the turning point is wide (\[53%, 253%\]), and the Lind–Mehlum test
+shape in 94.9% of replications, yet the 95% percentile confidence interval
+for the turning point is wide (\[58%, 398%\]), and the Lind–Mehlum test
 does not confirm a conventional inverted-U at conventional levels
-(p = .303). This null is itself informative: with the DAI distribution
+(p = .346). This null is itself informative: with the DAI distribution
 concentrated at the high end (approximately 67% report website presence and
 Tier 2 e-payment adoption is widespread), there is insufficient spread to
 identify the right-side decline within the observable FSTS range, so the
@@ -640,12 +638,12 @@ nonlinear literature.
 ### 4.3 TCI results
 
 The direct-effect model for technological capability (Model M5) shows TCI
-positively associated with labour productivity (β = 0.168, SE = 0.040,
-p < .001), with R² rising from 0.178 in M2 to 0.199 in M5, indicating that
+positively associated with labour productivity (β = 0.171, SE = 0.044,
+p < .001), with R² rising from 0.175 in M2 to 0.197 in M5, indicating that
 technological capability raises the firm's productivity base rather than
 proxying for export intensity. In the supplementary
 TCI-moderation specification (Model M3), the direct TCI coefficient
-remains positive and significant (β = 0.188, p < .001), but the FSTS and
+remains positive and significant (β = 0.168, p < .001), but the FSTS and
 squared-FSTS interaction terms are jointly insignificant. Because absence of
 moderation cannot be inferred from non-significance alone, the evidence is
 better read as supporting an intercept-dominant interpretation of the TCI
@@ -656,10 +654,10 @@ and export-contingent digital complementarity.
 ### 4.4 DAI results
 
 In the direct-effect model for digital adoption (Model M6), DAI is
-positively associated with labour productivity (β = 0.104, SE = 0.038,
-p = .007). Once TCI is included alongside DAI in Model M7, the DAI
-coefficient attenuates to β = 0.077 and remains significant but reduced
-(p = .048), indicating partial overlap in the firm heterogeneity captured by
+positively associated with labour productivity (β = 0.119, SE = 0.039,
+p = .002). Once TCI is included alongside DAI in Model M7, the DAI
+coefficient attenuates to β = 0.094 and remains significant but reduced
+(p = .016), indicating partial overlap in the firm heterogeneity captured by
 the two constructs and that DAI is not a large, uniform productivity premium.
 Table 2. Hierarchical OLS regression
 results Singapore 2023. DV: Ln(Labour Productivity). HC1 robust standard
@@ -667,26 +665,26 @@ errors in parentheses.
 
 | Variable | M0Ctrl | M2Inv-U | M5+TCI | M6+DAI | M7T+D | M4DAI× | M8Full |
 |----------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| FSTS | | +2.652\*\*\* | +2.165\*\* | +2.322\*\*\* | +1.952\*\* | +2.768\*\*\* | +2.409\*\* |
-| | | (0.691) | (0.699) | (0.701) | (0.707) | (0.750) | (0.748) |
-| FSTS² | | -1.705† | -1.168 | -1.389 | -0.965 | -2.959\*\* | -2.543\* |
-| | | (0.931) | (0.940) | (0.928) | (0.938) | (1.012) | (1.045) |
-| TCI (z) | | | +0.168\*\*\* | | +0.153\*\*\* | | +0.153\*\*\* |
-| | | | (0.040) | | (0.041) | | (0.041) |
-| DAI (z) | | | | +0.104\*\* | +0.077\* | +0.046 | +0.019 |
-| | | | | (0.038) | (0.039) | (0.045) | (0.050) |
-| FSTS × DAI | | | | | | -1.144 | -1.167† |
-| | | | | | | (0.702) | (0.686) |
-| FSTS² × DAI | | | | | | +3.098\*\* | +3.119\*\* |
-| | | | | | | (1.088) | (1.124) |
-| Firm size (ln) | -0.120\*\* | -0.124\*\*\* | -0.175\*\*\* | -0.135\*\*\* | -0.179\*\*\* | -0.125\*\*\* | -0.168\*\*\* |
-| Firm age | +0.017\*\*\* | +0.015\*\*\* | +0.017\*\*\* | +0.016\*\*\* | +0.017\*\*\* | +0.015\*\*\* | +0.016\*\*\* |
-| Foreign-owned | +0.407\*\*\* | +0.307\*\*\* | +0.293\*\*\* | +0.307\*\*\* | +0.294\*\* | +0.298\*\*\* | +0.284\*\* |
+| FSTS | | +3.078\*\*\* | +2.643\*\* | +2.726\*\*\* | +2.408\*\* | +3.109\*\*\* | +2.791\*\* |
+| | | (0.805) | (0.836) | (0.817) | (0.845) | (0.826) | (0.850) |
+| FSTS² | | -1.898† | -1.418 | -1.568 | -1.203 | -3.277\*\* | -2.872\* |
+| | | (1.079) | (1.111) | (1.080) | (1.114) | (1.103) | (1.145) |
+| TCI (z) | | | +0.171\*\*\* | | +0.155\*\*\* | | +0.152\*\*\* |
+| | | | (0.044) | | (0.046) | | (0.046) |
+| DAI (z) | | | | +0.119\*\* | +0.094\* | +0.063 | +0.039 |
+| | | | | (0.039) | (0.039) | (0.049) | (0.049) |
+| FSTS × DAI | | | | | | -1.037 | -1.018 |
+| | | | | | | (0.790) | (0.777) |
+| FSTS² × DAI | | | | | | +3.307\* | +3.220\* |
+| | | | | | | (1.345) | (1.384) |
+| Firm size (ln) | -0.127\*\*\* | -0.129\*\*\* | -0.177\*\*\* | -0.143\*\*\* | -0.184\*\*\* | -0.130\*\*\* | -0.171\*\*\* |
+| Firm age | +0.018\*\*\* | +0.015\*\*\* | +0.016\*\*\* | +0.016\*\*\* | +0.016\*\*\* | +0.015\*\*\* | +0.016\*\*\* |
+| Foreign-owned | +0.443\*\*\* | +0.330\*\*\* | +0.319\*\*\* | +0.327\*\*\* | +0.315\*\*\* | +0.316\*\*\* | +0.304\*\*\* |
 | Sector FE | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Constant | +10.958\*\*\* | +11.157\*\*\* | +11.345\*\*\* | +11.199\*\*\* | +11.361\*\*\* | +11.190\*\*\* | +11.353\*\*\* |
+| Constant | +11.433\*\*\* | +11.537\*\*\* | +11.656\*\*\* | +11.558\*\*\* | +11.664\*\*\* | +11.550\*\*\* | +11.655\*\*\* |
 | N | 623 | 623 | 623 | 617 | 617 | 617 | 617 |
-| R² | 0.122 | 0.178 | 0.199 | 0.184 | 0.202 | 0.193 | 0.211 |
-| Adj. R² | 0.115 | 0.168 | 0.189 | 0.174 | 0.190 | 0.180 | 0.196 |
+| R² | 0.104 | 0.175 | 0.197 | 0.184 | 0.201 | 0.194 | 0.211 |
+| Adj. R² | 0.096 | 0.166 | 0.186 | 0.173 | 0.189 | 0.181 | 0.196 |
 
 Notes: The dependent variable is log labour productivity. HC1 robust
 standard errors are reported in parentheses. FSTS is mean-centered
@@ -695,10 +693,10 @@ ownership, and broad sector fixed effects. Models containing DAI use N =
 617 because six firms have missing values on DAI-related variables.
 Table 2 reports the main hierarchical regression results, with the strongest
 evidence for DAI in the moderation specifications. In the full model (Model
-M8), the direct DAI term is small and not significant (β = 0.019, p = .705),
+M8), the direct DAI term is small and not significant (β = 0.039, p = .419),
 the linear interaction with FSTS is negative but below conventional
-significance (β = −1.177, p = .083), and the quadratic interaction is
-positive and significant (β = 3.119, SE = 1.124, p = .005); M8 also produces
+significance (β = −1.018, p = .190), and the quadratic interaction is
+positive and significant (β = 3.220, SE = 1.384, p = .020); M8 also produces
 the highest explanatory power (R² = 0.211, adjusted R² = 0.196). These
 estimates indicate that the productivity relevance of digital adoption
 becomes more positive at higher export intensity, with the clearest signal
@@ -712,24 +710,24 @@ Marginal effects of DAI across selected FSTS levels (from Model M8).
 
 | FSTS level | Marginal effect of DAI | SE | p-value | 95% CI |
 |----------------------|------------------------|-------|----------|--------------------|
-| FSTS = 0% (domestic) | +0.080 | 0.040 | .045\* | \[+0.002, +0.158\] |
-| FSTS = 5% | +0.015 | 0.047 | .752 | \[-0.077, +0.106\] |
-| FSTS = 10% | -0.035 | 0.069 | .616 | \[-0.170, +0.101\] |
-| FSTS = 15% | -0.069 | 0.093 | .459 | \[-0.250, +0.113\] |
-| FSTS = 20% | -0.087 | 0.113 | .444 | \[-0.309, +0.135\] |
-| FSTS = 30% | -0.077 | 0.145 | .598 | \[-0.361, +0.208\] |
-| FSTS = 50% | +0.131 | 0.186 | .481 | \[-0.234, +0.496\] |
-| FSTS = 70% | +0.660 | 0.295 | .025\* | \[+0.082, +1.238\] |
-| FSTS = 100% | +1.818 | 0.592 | .002\*\* | \[+0.658, +2.978\] |
+| FSTS = 0% (domestic) | +0.094 | 0.041 | .021\* | \[+0.014, +0.173\] |
+| FSTS = 5% | +0.036 | 0.050 | .476 | \[-0.063, +0.134\] |
+| FSTS = 10% | -0.006 | 0.077 | .938 | \[-0.157, +0.145\] |
+| FSTS = 15% | -0.032 | 0.104 | .761 | \[-0.235, +0.172\] |
+| FSTS = 20% | -0.041 | 0.127 | .747 | \[-0.291, +0.209\] |
+| FSTS = 30% | -0.012 | 0.164 | .942 | \[-0.332, +0.309\] |
+| FSTS = 50% | +0.240 | 0.220 | .276 | \[-0.192, +0.671\] |
+| FSTS = 70% | +0.749 | 0.342 | .029\* | \[+0.079, +1.420\] |
+| FSTS = 100% | +1.996 | 0.767 | .009\*\* | \[+0.492, +3.500\] |
 
 Notes: Marginal effects are computed from Model M8 for a
 one-standard-deviation increase in DAI. Standard errors are derived
 using the delta method. Table 4 and Figure 2 translate the M8 interaction
 estimates into marginal effects across the export-intensity distribution:
 the marginal effect of DAI is small but positive and significant at
-FSTS = 0 (+0.080, p = .045), statistically indistinguishable from zero
+FSTS = 0 (+0.094, p = .021), statistically indistinguishable from zero
 across the low- and middle-export range, and positive and significant among
-high-intensity exporters (+0.660 at FSTS = 70%, +1.818 at FSTS = 100%).
+high-intensity exporters (+0.749 at FSTS = 70%, +1.996 at FSTS = 100%).
 This supports interpreting DAI as a conditional scaling resource whose
 productivity relevance emerges when firms face denser cross-border
 coordination demands while remaining weak across much of the distribution.
@@ -750,12 +748,12 @@ Predicted I–P curve with bootstrap confidence band (Singapore, OLS M2)
 *Figure 3.* Predicted internationalization–performance curve. Predicted
 relationship between export intensity and labour productivity with 95%
 confidence bands from the canonical quadratic specification (M2). The
-implied turning point occurs near FSTS = 88.6% on the original scale
-(−β₁/2β₂ on mean-centered FSTS ≈ 84.1%; adding back the sample mean of
-0.045 gives ≈ 88.6%, Aiken & West, 1991), but its 95% percentile
-cluster-bootstrap confidence interval (5,000 replications) spans \[53%,
-253%\] (median 80%, IQR \[68%, 102%\]); the inverted-U shape is
-recovered in 96.3% of bootstrap replications, but its precise location
+implied turning point occurs near FSTS = 85.7% on the original scale
+(−β₁/2β₂ on mean-centered FSTS ≈ 81.1%; adding back the sample mean of
+0.047 gives ≈ 85.7%, Aiken & West, 1991), but its 95% percentile
+cluster-bootstrap confidence interval (5,000 replications) spans \[58%,
+398%\] (median 83%, IQR \[70%, 107%\]); the inverted-U shape is
+recovered in 94.9% of bootstrap replications, but its precise location
 is only loosely identified. The shaded red vertical band marks the
 bootstrap CI for the turning point. The estimate should therefore be
 interpreted as descriptive of the data rather than as structurally
@@ -776,13 +774,13 @@ subsample is less stable given the thin right tail, so those estimates are
 suggestive. An item-swap falsification test
 supports the TCI–DAI construct boundary: reassigning the website indicator
 (c22b) from DAI to TCI collapses the joint significance of the DAI
-moderation block (joint F drops from 4.56 \[p = .011\] to 1.88
-\[p = .154\]), whereas swapping technology indicators the other way
+moderation block (joint F drops from 3.21 \[p = .041\] to 1.86
+\[p = .157\]), whereas swapping technology indicators the other way
 preserves the pattern, so the conditional-scaling interpretation depends on
 the foundational digital-infrastructure indicators being grouped under DAI.
 Cohen's f² for the TCI
-direct effect (M2 vs. M5) is approximately 0.036 (small-to-medium); for
-the DAI moderation block (M7 vs. M8) it is approximately 0.018, below
+direct effect (M2 vs. M5) is approximately 0.027 (small-to-medium); for
+the DAI moderation block (M7 vs. M8) it is approximately 0.012, below
 Cohen's (1988) small-effect threshold of 0.02; the exporters-only subsample
 (N = 84) is underpowered for effects of this magnitude (see Section 3.4(ii)).
 The strongest claim is therefore not a large average DAI premium but that
@@ -790,7 +788,7 @@ its productivity association becomes more positive as export intensity rises.
 
 **Additional robustness notes.** (i) *Exporters-only subsample* (R5,
 FSTS > 0; N = 84): the positive quadratic DAI interaction retains its sign
-(β=+2.821) and the joint F-test is significant (F = 6.32, p = .003),
+(β=+1.987) and the joint F-test is significant (F = 4.54, p = .014),
 corroborating the full-sample amplification mechanism (see Section 3.4(ii)).
 (ii) *Export participation selection*: the
 inverse-Mills-ratio diagnostic at Section 3.4(iv) is consistent with
@@ -805,12 +803,12 @@ reports a separate full-specification regression with controls.
 
 | Specification | N | TCI β_z | FSTS² × DAI | Joint F (p) | Adj. R² |
 |----------------------------------|-----|-------------|-------------|-------------|---------|
-| Baseline (TCI_full + DAI_rich) | 617 | 0.153\*\*\* | 3.119\*\* | 4.56 (.011) | 0.196 |
-| R1: DAI_thin (website c22b only) | 623 | 0.180\*\*\* | 1.552 | 4.01 (.019) | 0.188 |
-| R2: TCI_thin (e6 + b8) | 617 | 0.159\*\*\* | 2.930\*\* | 4.27 (.014) | 0.199 |
-| R3: Excl micro-firms (\<10 empl) | 464 | 0.170\*\*\* | 3.521\*\* | 4.61 (.010) | 0.219 |
-| R4: SMEs only (≤200 empl) | 595 | 0.156\*\*\* | 3.505\*\* | 5.30 (.005) | 0.199 |
-| R5: Exporters only (FSTS \> 0) | 84 | 0.130 | 2.821 | 6.32 (.003) | 0.165 |
+| Baseline (TCI_full + DAI_rich) | 617 | 0.152\*\*\* | 3.220\* | 3.21 (.041) | 0.196 |
+| R1: DAI_thin (website c22b only) | 623 | 0.180\*\*\* | 1.348 | 2.27 (.104) | 0.185 |
+| R2: TCI_thin (e6 + b8) | 611 | 0.149\*\* | 2.581\* | 3.03 (.049) | 0.186 |
+| R3: Excl micro-firms (\<10 empl) | 464 | 0.187\*\*\* | 4.252\*\* | 4.48 (.012) | 0.231 |
+| R4: SMEs only (≤200 empl) | 595 | 0.160\*\*\* | 3.600\*\* | 3.61 (.028) | 0.202 |
+| R5: Exporters only (FSTS \> 0) | 84 | 0.130 | 1.987 | 4.54 (.014) | 0.165 |
 
 Notes: Each row reports a separate full-specification regression with
 controls. Joint F refers to the test that the two DAI interaction terms
@@ -867,7 +865,7 @@ the surrounding ecosystem.
 **Empirical adjudication among the three candidate mechanisms.** Read
 against the Section 2.3.4 contrast, the Singapore evidence is most
 consistent with *amplification*: the positive quadratic FSTS² × DAI
-coefficient (β=+3.119, p=.005) implies that DAI's contribution grows
+coefficient (β=+3.220, p=.020) implies that DAI's contribution grows
 super-linearly with export-intensity scale, which a level-shift substitution
 mechanism would not produce. Its robustness across sample restrictions
 (R1, R3, R4, R5) and indicator-sensitivity diagnostics is inconsistent with
@@ -895,7 +893,7 @@ discriminatory power and the amplification mechanism becomes detectable as
 the upward rotation of the I–P curve documented here. In emerging economies
 where Tier-1 has diffused but Tier-2 infrastructure remains institutionally
 bounded, including settings where cross-border electronic-payment rails
-reached systemic scale only in the late 2010s (World Bank, 2023), a
+reached systemic scale only in the late 2010s (World Bank, 2024), a
 Tier-1-only construct loses discriminatory power as the diffusion ceiling is
 approached, and any contingent association is more plausibly construct-tier
 obsolescence than evidence on dynamic digital capability. The mechanism
@@ -971,8 +969,8 @@ fraction occupy the high-export range where the fitted turning point and
 strongest DAI moderation signals appear. The implied turning point should
 therefore be read as descriptive rather than a structurally identified
 inflection, estimated from a sparsely populated region with a wide 95%
-bootstrap confidence interval (\[53%, 253%\]) even though an inverted-U is
-recovered in 96.3% of resamples. The same caution applies to the DAI
+bootstrap confidence interval (\[58%, 398%\]) even though an inverted-U is
+recovered in 94.9% of resamples. The same caution applies to the DAI
 moderation pattern, which remains visible across leave-one-out,
 trimmed-tail, and indicator-sensitivity diagnostics but is less precise in
 the small exporter subsample (N = 84). Third, the digital-adoption estimate
