@@ -1113,5 +1113,5 @@ Hệ thống phòng thủ ba tầng (Mục 2.2) đảm bảo kết quả từ BR
 ---
 
 *Chuyên đề tiến sĩ số 1, Phiên bản nộp (12/05/2026)*
-*Nghiên cứu sinh: Đỗ Thùy Hương, Trường Đại học Kỹ thuật Công nghệ Vĩnh Long (VLUTE)*
+*Nghiên cứu sinh: Đỗ Thùy Hương, Trường Đại học Cần Thơ*
 *Người hướng dẫn: TS. Nguyễn Minh Cảnh, Trường Kinh tế, Đại học Cần Thơ (CTU)*
