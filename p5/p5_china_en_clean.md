@@ -117,6 +117,8 @@ The analytic sample is drawn from the broader private‑firm WBES frame for Chin
 
 **Digital Adoption Index (DAI_core).** A binary indicator of whether the firm has its own website (`c22b`). While a richer digital-adoption composite is possible, cross-wave item comparability is limited; `c22b` is available and identically defined in both waves. DAI_core is treated as a baseline control rather than a theoretically-grounded capability construct.
 
+**Measurement note.** TCI_full is a *formative* composite — its items are defining constituents of technological capability rather than reflective manifestations of a single latent trait, so by the four-criterion test of Coltman et al. (2008) the indicators need not covary and reflective internal-consistency diagnostics do not apply. Consistent with treating digital adoption as a separate baseline domain, TCI and the website indicator are empirically distinct in the China sample (composite correlation r = 0.18; 3% shared variance).
+
 **Controls.** (a) Log number of employees (lnEmp) to control for firm size; (b) firm age in years; (c) binary foreign-ownership indicator (`b2b`, > 10 % foreign equity); (d) ISIC 2-digit industry stratum dummies.
 
 **Table V1.** *Variable definitions and WBES item sources — China 2012 and 2024.*
@@ -369,6 +371,8 @@ Antonakis, J., Bendahan, S., Jacquart, P., & Lalive, R. (2010). On making causal
 Avenyo, E. K., Tregenna, F., & Kraemer-Mbula, E. (2021). Do productive capabilities affect export performance? Evidence from African firms. *European Journal of Development Research, 33*(2), 304–329. https://doi.org/10.1057/s41287-021-00364-6
 
 Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: A meta-analysis. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0022-4
+
+Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
 
 Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance and Accounting Research*. Advance online publication. [DOI pending; add upon assignment]
 

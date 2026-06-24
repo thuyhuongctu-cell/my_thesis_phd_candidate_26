@@ -369,7 +369,7 @@ as a measure of transaction-level digital integration or digital transformation 
 
 
 so that the reported coefficients are comparable in magnitude. This separation is deliberate because the study is interested in whether the two domains exhibit different empirical roles, while
-keeping the construct labels tight against what the underlying WBES items actually measure.
+keeping the construct labels tight against what the underlying WBES items actually measure. TCI and DAI are specified as *formative* composites rather than reflective scales — their indicators are defining constituents of the construct, so by the four-criterion test of Coltman et al. (2008) the indicators need not covary and reflective diagnostics do not apply — and the two indices are empirically distinct in the Vietnam sample (composite correlation r = 0.28; 8% shared variance), supporting their treatment as separate firm-level domains.
 Item-level construction is as follows. The outcome is lnLP = ln(d2 / l1), where d2 is total annual sales and l1 is permanent full-time employees. Internationalisation is FSTS = d3c / 100, mean-centred within wave (FSTS_c) and squared (FSTS_c²). The primary Technological Capability Index (TCI_z) is the within-wave standardised mean of b8 (internationally recognised
 quality certification) and e6 (foreign-licensed technology), each recoded from WBES 1/2 to 1/0
 binary form.
@@ -1268,6 +1268,7 @@ Brouthers, K. D., Geisser, K. D., & Rothlauf, F. (2016). Explaining the internat
 Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. *American Economic Journal: Macroeconomics, 13*(1), 333–372. https://doi.org/10.1257/mac.20180386
 Certo, S. T., Busenbark, J. R., Woo, H.-S., & Semadeni, M. (2016). Sample selection bias and Heckman models in strategic management research. *Strategic Management Journal, 37*(13), 2639–2657. https://doi.org/10.1002/smj.2475
 Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
+Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
 Contractor, F. J. (2007). Is international business good for companies? The evolutionary or multi-stage theory of internationalization vs. the transaction cost perspective. *Management International Review, 47*(3), 453–475. https://doi.org/10.1007/s11575-007-0024-2
 Coviello, N., Kano, L., & Liesch, P. W. (2017). Adapting the Uppsala model to a modern world: Macro-context and microfoundations. *Journal of International Business Studies, 48*(9), 1151–1164. https://doi.org/10.1057/s41267-017-0120-x
 Cuervo-Cazurra, A., & Genc, M. (2008). Transforming disadvantages into advantages: Developing-country MNEs in the least developed countries. *Journal of International Business Studies, 39*(6), 957–979. https://doi.org/10.1057/palgrave.jibs.8400390

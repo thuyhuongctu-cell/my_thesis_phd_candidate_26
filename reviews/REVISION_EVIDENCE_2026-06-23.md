@@ -78,6 +78,23 @@ thực nghiệm *củng cố* tính mới #2 (phân tách TCI/DAI), nhất quán
 là bộ nâng mặt bằng; vai trò uốn đường cong phụ thuộc chế độ thể chế). Đã cập nhật §3.5.6.4 của luận án
 theo khung formative đúng.
 
+### 5.1 Số liệu tách biệt theo từng paper (đã chèn vào Methods/Measurement)
+
+Vì tính mới #2 dùng xuyên các paper P3/P4/P5/P7 (đang phản biện, **chưa công bố**), đã chèn ghi chú khung
+formative + bằng chứng tách biệt vào nguồn `_en_clean.md` của từng paper, mỗi paper dùng **số liệu của
+chính mẫu mình** (tái lập bằng `scripts/revision_evidence.py`, mục `5c_per_paper`):
+
+| Paper | Mẫu | corr(TCI,DAI) | Phương sai chia sẻ | Ghi chú chèn |
+|---|---|--:|--:|---|
+| P7 (toàn mẫu 50 nền) | N=94.211 | 0,28 | 8,0% | §3.2 — đoạn "Construct distinctness" + Coltman 2008 |
+| P3 Việt Nam | N=3.060 | 0,28 | 8,1% | §3.2 — câu formative + Coltman 2008 |
+| P5 Trung Quốc | N=2.183 | 0,18 | 3,4% | §3.2 — "Measurement note" (DAI là control) + Coltman 2008 |
+| P4 Singapore | N=623 | 0,13 | 1,6% | §3.2.5 — 1 câu bằng chứng (khung formative đã có sẵn) |
+
+Mỗi paper đã được thêm mục tham chiếu Coltman et al. (2008) khớp với trích dẫn trong văn (đã kiểm tra
+in-text ↔ reference 1:1). *Lưu ý:* các bản blinded trong `*/submission/*_package/` là bản dẫn xuất —
+khi nộp cần đồng bộ 2–3 câu này (hoặc dựng lại từ nguồn `_en_clean.md`).
+
 ## 6. ⚠️ Điểm uốn nhạy với đặc tả
 
 Đặc tả nhanh (FE nền+năm, **không** chuẩn hóa z nội bộ nền–năm cho biến phụ thuộc, bộ kiểm soát

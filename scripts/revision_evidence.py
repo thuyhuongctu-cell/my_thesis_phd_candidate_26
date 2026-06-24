@@ -96,6 +96,19 @@ rn = fit(mn, "ln_labor_prod ~ tci_z + dai_z + fsts + ln_size + firm_age + C(coun
 add("5b_composite_distinct", "joint_beta_tci_z", round(rn.params["tci_z"], 3), f"p={rn.pvalues['tci_z']:.4f}")
 add("5b_composite_distinct", "joint_beta_dai_z", round(rn.params["dai_z"], 3), f"p={rn.pvalues['dai_z']:.4f}")
 
+# Toàn khung phân tích (clean, khớp mẫu hồi quy joint) + theo từng paper
+cz_all = df[["tci_z", "dai_z"]].dropna()
+r_all = cz_all.tci_z.corr(cz_all.dai_z)
+add("5c_per_paper", "POOLED_clean_corr", round(r_all, 3), f"N={len(cz_all)}; r2={r_all**2:.3f}; khớp mẫu joint")
+for label, key in [("P3_Vietnam", "Viet"), ("P4_Singapore", "Singapore"),
+                   ("P5_China", "China"), ("P7_pooled", None)]:
+    if key is None:
+        continue
+    s = df[df.country.astype(str).str.contains(key, case=False, na=False)][["tci_z", "dai_z"]].dropna()
+    if len(s) >= 50:
+        rr = s.tci_z.corr(s.dai_z)
+        add("5c_per_paper", f"{label}_corr", round(rr, 3), f"N={len(s)}; r2={rr**2:.3f}")
+
 # ---- (6) Việt Nam: biên tham gia vs cường độ ----
 vn = df[df.country.astype(str).str.contains("Viet", case=False, na=False)].copy()
 vn = vn.assign(fsts2=vn.fsts**2)
