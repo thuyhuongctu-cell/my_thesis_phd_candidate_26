@@ -12,14 +12,14 @@
 | FSTS | d3c | d3c / 100: direct-export intensity (0–1) | Independent |
 | FSTS_c, FSTS_c² | d3c | within-wave mean-centred and squared | Tests inverted-U (H1) |
 | TCI_z | b8, e6 | within-wave z of mean(quality certification, foreign-licensed technology) | Technological capability (H2) |
-| DAI_z | c22b | within-wave z of website presence | Digital adoption, Tier-1 (H4, exploratory) |
+| DAI_z | c22b | within-wave z of website presence | Digital adoption, Tier-1 (H3, exploratory) |
 | lnEmp | l1 | ln(permanent employees) | Control: firm size |
 | FirmAge | b5 | survey year − year established | Control: firm age |
 | ForeignOwned | b2b | 1 if any foreign equity | Control: ownership |
 | Sector FE | a4b / a4a | 1-digit ISIC (a4b 2009/2015; a4a 2023) | Fixed effects |
 | Wave FE | wave | 2009 / 2015 / 2023 (pooled only) | Fixed effects |
 
-*Notes.* b8, e6, c22b recoded to binary 1/0; composites standardised within wave. TP* = −β₁/(2β₂), confirmed by the Lind–Mehlum (2010) u-test. WBES −9 treated as missing; listwise deletion. Source: WBES Vietnam 2009/2015/2023.
+*Notes.* b8, e6, c22b recoded to binary 1/0; composites standardised within wave. TP* = −β₁/(2β₂), confirmed by the Lind and Mehlum (2010) u-test. WBES −9 treated as missing; listwise deletion. Source: WBES Vietnam 2009/2015/2023.
 
 ---
 
@@ -50,10 +50,10 @@
 | Turning point (% FSTS) | 46.2 | 39.3 | 41.6 | 39.7 |
 | TCI_z direct (M7) | 0.215*** | 0.128* | 0.123** | 0.179*** |
 | DAI_z direct (M7) | 0.175*** | −0.044 | 0.095* | 0.078** |
-| FSTS_c × TCI_z (M3) | −0.579† | n.s. | (sig.) | −0.587** |
+| FSTS_c × TCI_z (M3) | −0.579† | n.s. | (sig.) | −0.573** |
 | TCI moderation, M3 joint p | .040 | .713 | .027 | .003 |
 | FSTS_c × DAI_z (M8) | n.s. | n.s. | −0.912* | −0.448 |
 | DAI moderation, M8 joint p | .700 | .093 | .062 | .083 |
-| Exporter-only FSTS_c² (Panel H) | — | — | — | −0.200 (p=.660) |
+| Exporter-only FSTS_c² (Panel H) | — | — | — | −0.200 (p=.730) |
 
 *Notes.* β reported; full SEs and the M0–M8 sequence are in the replication package. Exporter-only sub-sample pooled N = 669; its non-significant quadratic term indicates the full-sample inverted-U is driven by the participation margin. Robustness panels (A–K): Supplementary Material.

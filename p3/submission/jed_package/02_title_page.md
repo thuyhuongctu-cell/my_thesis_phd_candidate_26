@@ -44,17 +44,17 @@
 | Contribution Role | Đỗ Thùy Hương | Phan Anh Tú |
 |---|---|---|
 | Conceptualization | Lead | Supporting |
-| Data curation | Lead |, |
+| Data curation | Lead | — |
 | Formal analysis | Lead | Supporting |
-| Funding acquisition |, |, |
+| Funding acquisition | — | — |
 | Investigation | Lead | Supporting |
 | Methodology | Lead | Supporting |
-| Project administration | Lead |, |
-| Resources |, | Supporting |
-| Software | Lead |, |
-| Supervision |, | Lead |
+| Project administration | Lead | — |
+| Resources | — | Supporting |
+| Software | Lead | — |
+| Supervision | — | Lead |
 | Validation | Supporting | Lead |
-| Visualization | Lead |, |
+| Visualization | Lead | — |
 | Writing – original draft | Lead | Supporting |
 | Writing – review & editing | Lead | Lead |
 
@@ -88,7 +88,7 @@ The data that support the findings of this study are from the World Bank Enterpr
 
 ## Use of Generative AI in the Writing Process
 
-Generative AI tools were used during manuscript preparation to assist with language editing, structure suggestions, and the assembly of the replication package documentation. All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were authored by the human authors, who take full responsibility for the content of the publication.
+In preparing this manuscript, the authors used Grammarly, a writing-assistance tool, to help correct spelling, grammar, and punctuation in the authors' own original text. No generative artificial-intelligence tool was used to generate, draft, or create any substantive content, analysis, or interpretation. All conceptual framing, hypothesis development, empirical analysis, results interpretation, and final wording were produced by the human authors, who take full responsibility for the content of the publication.
 
 ---
 
@@ -97,12 +97,12 @@ Generative AI tools were used during manuscript preparation to assist with langu
 | Item | Detail |
 |---|---|
 | Paper type | Research article |
-| Word count (main text) | Approximately 6,800 words |
-| Abstract word count | 247 words |
-| Tables | 5 (inline) |
-| Figures | 6 (inline) |
-| References | 48 |
-| Keywords | internationalisation–performance; transition economies; technological capability; digital adoption; threshold durability; Vietnam |
+| Word count | 8,476 total (manuscript incl. references 7,843; tables 633), within the JED 8,500-word limit |
+| Abstract word count | 192 words (structured: Purpose / Design / Findings / Originality) |
+| Tables | 3 (Tables I–III, submitted as a separate file) |
+| Figures | 2 (Figure 1, Figure 2; wave panels 2a–2d in the Supplementary Material) |
+| References | 55 |
+| Keywords | internationalisation–performance; emerging markets; technological capability; threshold durability; Vietnam; firm productivity |
 | JEL codes | F23, O33, D22, L25, O53 |
 | Data source | World Bank Enterprise Surveys (Vietnam 2009, 2015, 2023) |
 | Software | Stata 17 (estimation); Python 3.12 (replication checks) |

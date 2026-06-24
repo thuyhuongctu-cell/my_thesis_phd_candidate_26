@@ -1,5 +1,19 @@
 # P3 Vietnam — Reproduction Note (2026-06-23)
 
+> **CORRECTION (2026-06-24).** The "outlier" framing below (§ "Cross-artifact
+> coefficient divergence") is superseded. On review, `coefs_main_models.csv` is the
+> **authoritative** source, not the outlier: its sample sizes (989/956/1013/**2958**)
+> match the manuscript's stated N exactly, and its pooled M2 (β₁=+0.9843, β₂=−1.9091)
+> reproduces the reported turning point of **39.7%** (and 46.2/39.3/41.6 by wave) to the
+> decimal. This Python harness is an **approximation**: it estimates only M2/M4/M6 (no
+> TCI/H2 ladder), uses a divergent foreign-ownership rule (`b2b≥10` vs the manuscript's
+> `b2b>0`) and missing-code handling → N=2973, and approximates the labour-input
+> denominator, which is why its turning point lands ~5 points low (34.8%). The Python/R
+> ports reproduce the *pattern* (inverted-U + TP band), not the exact magnitudes; the
+> manuscript numbers stand on the Stata pipeline. The authoritative Stata run on a
+> licensed machine remains the final confirmation. The original 2026-06-23 text is kept
+> below as the investigation record.
+
 Reproduction run from the **committed raw WBES microdata** in `data_wbes/raw_dta/`
 via the Python (statsmodels/pyreadstat) Stata-equivalent runner. No fabricated
 numbers; everything below is printed by the script.
