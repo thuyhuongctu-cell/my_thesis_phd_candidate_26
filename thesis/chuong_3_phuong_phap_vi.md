@@ -280,47 +280,47 @@ Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượn
 - **CDDXK_c²_it** = FSTS_c²_it: bình phương cường độ xuất khẩu điều chỉnh
 - **NLCN_z_it** = TCI_z_it: năng lực công nghệ (chuẩn hoá z trong sóng)
 - **CSS_z_it** = DAI_z_it: chỉ số số hoá cơ sở, Tầng 1 (chuẩn hoá z trong sóng)
-- **lnLD, TuoiDN, SoHuuNuocNgoai**: kiểm soát quy mô, tuổi, sở hữu
+- **lnLD** = ln(L) (quy mô), **TuoiDN** = Age (tuổi), **SoHuuNN** = Own (sở hữu): biến kiểm soát
 - **δ_s**: hiệu ứng cố định ngành (1-digit ISIC); **λ_t**: hiệu ứng cố định sóng (chỉ pooled)
 
 **M0, Mô hình cơ sở (biến kiểm soát):**
-$$\ln\mathrm{NSLD}_{it} = \alpha + \gamma_1 \ln\mathrm{LD}_{it} + \gamma_2 \mathrm{TuoiDN}_{it} + \gamma_3 \mathrm{SoHuuNN}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \gamma_1 \ln(L)_{it} + \gamma_2 \mathrm{Age}_{it} + \gamma_3 \mathrm{Own}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
 
 **M1, Quốc tế hoá tuyến tính:**
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c,it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
 
 **M2, Quốc tế hoá phi tuyến (kiểm định H1, chữ U ngược):**
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \beta_2 (\mathrm{CDDXK}^{c}_{it})^{2} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c,it} + \beta_2 \mathrm{FSTS}_{c,it}^{2} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + [\lambda_t] + \varepsilon_{it}$$
 
-H1: $\beta_1 > 0$ và $\beta_2 < 0$; điểm quay $TP^* = -\beta_1 / (2\beta_2)$, xác nhận bởi kiểm định Lind–Mehlum (2010).
+H1: $\beta_1 > 0$ và $\beta_2 < 0$; điểm quay $\mathrm{TP}^{*} = -\beta_1 / (2\beta_2)$, xác nhận bởi kiểm định Lind–Mehlum (2010).
 
-**M3, Điều tiết NLCN (kiểm định H2):**
+**M3, Điều tiết TCI (kiểm định H2):**
 $$\begin{aligned}
-\ln\mathrm{NSLD}_{it} = {} & \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} \\
-& + \beta_4(\mathrm{CDDXK}^{c} \times \mathrm{NLCN}_{z}) + \beta_5((\mathrm{CDDXK}^{c})^{2} \times \mathrm{NLCN}_{z}) \\
+\ln(\mathrm{LP})_{it} = {} & \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z} \\
+& + \beta_4(\mathrm{FSTS}_{c} \times \mathrm{TCI}_{z}) + \beta_5(\mathrm{FSTS}_{c}^{2} \times \mathrm{TCI}_{z}) \\
 & + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
 \end{aligned}$$
 
-**M4, Điều tiết CSS/DAI (H3 thăm dò):**
+**M4, Điều tiết DAI (H3 thăm dò):**
 $$\begin{aligned}
-\ln\mathrm{NSLD}_{it} = {} & \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{CSS}_{z} \\
-& + \beta_4(\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z}) + \beta_5((\mathrm{CDDXK}^{c})^{2} \times \mathrm{CSS}_{z}) \\
+\ln(\mathrm{LP})_{it} = {} & \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{DAI}_{z} \\
+& + \beta_4(\mathrm{FSTS}_{c} \times \mathrm{DAI}_{z}) + \beta_5(\mathrm{FSTS}_{c}^{2} \times \mathrm{DAI}_{z}) \\
 & + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
 \end{aligned}$$
 
-**M5, NLCN trực tiếp (không tương tác):**
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+**M5, TCI trực tiếp (không tương tác):**
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
-**M6, CSS/DAI trực tiếp (không tương tác):**
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{CSS}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+**M6, DAI trực tiếp (không tương tác):**
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{DAI}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
 **M7, Cả hai trực tiếp, không tương tác:**
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \beta_4 \mathrm{CSS}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z} + \beta_4 \mathrm{DAI}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon$$
 
-**M8, Mô hình đầy đủ (trực tiếp + điều tiết CSS):**
+**M8, Mô hình đầy đủ (trực tiếp + điều tiết DAI):**
 $$\begin{aligned}
-\ln\mathrm{NSLD}_{it} = {} & \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \beta_4 \mathrm{CSS}_{z} \\
-& + \beta_5(\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z}) + \beta_6((\mathrm{CDDXK}^{c})^{2} \times \mathrm{CSS}_{z}) \\
+\ln(\mathrm{LP})_{it} = {} & \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z} + \beta_4 \mathrm{DAI}_{z} \\
+& + \beta_5(\mathrm{FSTS}_{c} \times \mathrm{DAI}_{z}) + \beta_6(\mathrm{FSTS}_{c}^{2} \times \mathrm{DAI}_{z}) \\
 & + \boldsymbol{\gamma}\mathbf{X} + \delta_s + [\lambda_t] + \varepsilon
 \end{aligned}$$
 
@@ -351,34 +351,42 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 - **CDDXK_c_i** = FSTS_c_i: CDDXK trung bình mẫu; CDDXK_c² là bình phương
 - **NLCN_z_i** = TCI_z_i: năng lực công nghệ, chuẩn hóa z của trung bình(b8₀₁, e6₀₁)
 - **CSS_z_i** = DAI_z_i: chỉ số số hoá **Tầng 1 và 2**, chuẩn hóa z của trung bình(c22b₀₁, k33₀₁, k38₀₁); khác P3 ở chỗ bao gồm thanh toán điện tử hai chiều (Tầng 2)
-- **lnLD_i**, **TuoiDN_i**, **SoHuuNN_i**: biến kiểm soát tương tự P3
+- **lnLD_i** = ln(L)_i (quy mô), **TuoiDN_i** = Age_i (tuổi), **SoHuuNN_i** = Own_i (sở hữu): biến kiểm soát tương tự P3, gộp trong vector **X**_i
 - **δ_s**: ngành hiệu ứng cố định (ISIC 1-chữ số)
 - **IMR_i** = nghịch đảo tỷ lệ Mills từ mô hình probit tham gia xuất khẩu (kiểm tra độ nhạy Heckman)
 
 **Chuỗi mô hình lồng nhau M0–M5:**
 
-> M0 (Baseline):
-> lnNSLD_i = α + γ₁ lnLD_i + γ₂ TuoiDN_i + γ₃ SoHuuNN_i + δ_s + ε_i
+**M0 (Baseline):**
 
-> M1 (Tuyến tính FSTS):
-> lnNSLD_i = α + β₁ CDDXK_c_i + γ·X_i + δ_s + ε_i
+$$\ln(\mathrm{LP})_i = \alpha + \gamma_1 \ln(L)_i + \gamma_2\,\mathrm{Age}_i + \gamma_3\,\mathrm{Own}_i + \delta_s + \varepsilon_i$$
 
-> M2 (Bậc hai FSTS, kiểm định H1):
-> lnNSLD_i = α + β₁ CDDXK_c_i + β₂ CDDXK_c²_i + γ·X_i + δ_s + ε_i
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂) ≈ 88,6% FSTS [CI bootstrap [53%, 253%]]
-> Lưu ý: Lind–Mehlum p = 0,303, không bác bỏ tuyến tính trong phạm vi dữ liệu quan sát; đây là kết quả thông tin tích cực theo khung bão hòa (saturation framework)
+**M1 (Tuyến tính FSTS):**
 
-> M3 (+ NLCN, H1-TCI trực tiếp):
-> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + γ·X + δ_s + ε
+$$\ln(\mathrm{LP})_i = \alpha + \beta_1\,\mathrm{FSTS}_{c,i} + \boldsymbol{\gamma}\mathbf{X}_i + \delta_s + \varepsilon_i$$
 
-> M4 (+ CSS trực tiếp):
-> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z + γ·X + δ_s + ε
+**M2 (Bậc hai FSTS, kiểm định H1):**
 
-> M5 (Mô hình đầy đủ, kiểm định H3):
-> lnNSLD_i = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
-> + β₅(CDDXK_c × CSS_z) + β₆(CDDXK_c² × CSS_z) + γ·X + δ_s + ε
-> H3: β₆ > 0, DAI khuếch đại lợi nhuận quốc tế hóa và hiệu quả ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021)
-> Kết quả: β₆ = +3,119 (p = 0,005) trong mẫu đầy đủ; β₆ = +2,821 (p = 0,003, F-test) trong mẫu chỉ xuất khẩu (N = 84, lưu ý: công suất thống kê ≈ 16%)
+$$\ln(\mathrm{LP})_i = \alpha + \beta_1\,\mathrm{FSTS}_{c,i} + \beta_2\,\mathrm{FSTS}_{c,i}^{2} + \boldsymbol{\gamma}\mathbf{X}_i + \delta_s + \varepsilon_i$$
+
+H1: $\beta_1 > 0,\ \beta_2 < 0$; điểm uốn $\mathrm{TP}^{*} = -\beta_1/(2\beta_2) \approx 88{,}6\%$ $\mathrm{FSTS}$ (CI bootstrap [53\%, 253\%]). Lưu ý: Lind–Mehlum $p = 0{,}303$, không bác bỏ tuyến tính trong phạm vi dữ liệu quan sát; đây là kết quả thông tin tích cực theo khung bão hòa (saturation framework).
+
+**M3 (+ TCI, H1-TCI trực tiếp):**
+
+$$\ln(\mathrm{LP})_i = \alpha + \beta_1\,\mathrm{FSTS}_{c,i} + \beta_2\,\mathrm{FSTS}_{c,i}^{2} + \beta_3\,\mathrm{TCI}_{z,i} + \boldsymbol{\gamma}\mathbf{X}_i + \delta_s + \varepsilon_i$$
+
+**M4 (+ DAI trực tiếp):**
+
+$$\ln(\mathrm{LP})_i = \alpha + \beta_1\,\mathrm{FSTS}_{c,i} + \beta_2\,\mathrm{FSTS}_{c,i}^{2} + \beta_3\,\mathrm{TCI}_{z,i} + \beta_4\,\mathrm{DAI}_{z,i} + \boldsymbol{\gamma}\mathbf{X}_i + \delta_s + \varepsilon_i$$
+
+**M5 (Mô hình đầy đủ, kiểm định H3):**
+
+$$\begin{aligned}
+\ln(\mathrm{LP})_i = {} & \alpha + \beta_1\,\mathrm{FSTS}_{c,i} + \beta_2\,\mathrm{FSTS}_{c,i}^{2} + \beta_3\,\mathrm{TCI}_{z,i} + \beta_4\,\mathrm{DAI}_{z,i} \\
+& + \beta_5(\mathrm{FSTS}_{c,i} \times \mathrm{DAI}_{z,i}) + \beta_6(\mathrm{FSTS}_{c,i}^{2} \times \mathrm{DAI}_{z,i}) + \boldsymbol{\gamma}\mathbf{X}_i + \delta_s + \varepsilon_i
+\end{aligned}$$
+
+H3: $\beta_6 > 0$, DAI khuếch đại lợi nhuận quốc tế hóa và hiệu quả ở cường độ xuất khẩu cao (coordination platform mechanism; Stallkamp & Schotter, 2021). Kết quả: $\beta_6 = +3{,}119$ ($p = 0{,}005$) trong mẫu đầy đủ; $\beta_6 = +2{,}821$ ($p = 0{,}003$, F-test) trong mẫu chỉ xuất khẩu ($N = 84$, lưu ý: công suất thống kê $\approx 16\%$)
 
 **Bảng định nghĩa biến, Nghiên cứu 4 (Singapore):**
 
@@ -405,40 +413,50 @@ Nghiên cứu 5 sử dụng hai sóng WBES Trung Quốc (2012: N = 2.610; 2024: 
 - **CDDXK_c_it** = FSTS_c_it: cường độ xuất khẩu centred theo trung bình sóng
 - **NLCN_z_it** = TCI_full_z_it: năng lực công nghệ toàn diện, chuẩn hóa z của TB(b8₀₁, e6₀₁, h1₀₁, h8₀₁); mở rộng hơn P3
 - **CSS_z_it** = DAI_core_it: chỉ số số hoá cơ bản, chỉ c22b₀₁ (Tầng 1 mỏng, một chỉ báo nhị phân)
-- **lnLD_it**, **TuoiDN_it**, **SoHuuNN_it**: biến kiểm soát
+- **lnLD_it** = ln(L)_it (quy mô), **TuoiDN_it** = Age_it (tuổi), **SoHuuNN_it** = Own_it (sở hữu): biến kiểm soát, gộp trong vector **X**_it
 - **δ_s**: ngành hiệu ứng cố định; **λ_t**: đợt hiệu ứng cố định (pooled)
 
 **Chuỗi mô hình lồng nhau M0–M6:**
 
-> M0 (Baseline):
-> lnNSLD_it = α + γ₁ lnLD_it + γ₂ TuoiDN_it + γ₃ SoHuuNN_it + δ_s + λ_t + ε_it
+**M0 (Baseline):**
 
-> M1 (Tuyến tính FSTS):
-> lnNSLD_it = α + β₁ CDDXK_c_it + γ·X_it + δ_s + λ_t + ε_it
+$$\ln(\mathrm{LP})_{it} = \alpha + \gamma_1 \ln(L)_{it} + \gamma_2\,\mathrm{Age}_{it} + \gamma_3\,\mathrm{Own}_{it} + \delta_s + \lambda_t + \varepsilon_{it}$$
 
-> M2 (Bậc hai FSTS, kiểm định H1):
-> lnNSLD_it = α + β₁ CDDXK_c_it + β₂ CDDXK_c²_it + γ·X_it + δ_s + λ_t + ε_it
-> H1: β₁ > 0, β₂ < 0; TP* = −β₁/(2β₂), điểm uốn 49,4% (2012), 47,2% (2024), và 48,8% (pooled)
-> Kiểm định ổn định cấu trúc: Paternoster et al. (1998) z-test: z(FSTS) = +0,82 (p = 0,412); z(FSTS²) = −0,61 (p = 0,545), không bác bỏ bình đẳng hệ số giữa hai sóng
+**M1 (Tuyến tính FSTS):**
 
-> M3 (+ NLCN trực tiếp, H2 level-shift):
-> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + γ·X + δ_s + λ_t + ε
-> Kết quả: β₃ = +0,28 (2012, p < 0,001), +0,43 (2024, p < 0,001), TCI là "bộ tăng mức" (level-shifter), không điều tiết độ cong
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1\,\mathrm{FSTS}_{c,it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + \lambda_t + \varepsilon_{it}$$
 
-> M4 (+ CSS trực tiếp):
-> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z + γ·X + δ_s + λ_t + ε
+**M2 (Bậc hai FSTS, kiểm định H1):**
 
-> M5 (Kiểm định ổn định xuyên sóng, H2b):
-> Ước lượng M2 riêng biệt cho 2012 và 2024, sau đó áp dụng:
-> z = (β̂₁,2012 − β̂₁,2024) / √(SE²₁,2012 + SE²₁,2024)
-> (Paternoster et al., 1998), tương tự cho β₂ (FSTS²)
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1\,\mathrm{FSTS}_{c,it} + \beta_2\,\mathrm{FSTS}_{c,it}^{2} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + \lambda_t + \varepsilon_{it}$$
 
-> M6 (Điều tiết ba chiều, kiểm định H3/H4a/H4b):
-> lnNSLD_it = α + β₁ CDDXK_c + β₂ CDDXK_c² + β₃ NLCN_z + β₄ CSS_z
-> + β₅(CDDXK_c × NLCN_z) + β₆(CDDXK_c² × NLCN_z)
-> + β₇(CDDXK_c × wave) + β₈(CDDXK_c² × wave) + γ·X + δ_s + λ_t + ε
-> F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng lực), F3 (dịch chuyển điều kiện)
-> Kết quả: F2 = 3,26 (p = 0,039, không qua Bonferroni α* = 0,017), do đó H4b (không có điều tiết độ cong theo năng lực) được chấp nhận
+H1: $\beta_1 > 0,\ \beta_2 < 0$; điểm uốn $\mathrm{TP}^{*} = -\beta_1/(2\beta_2)$, đạt 49,4\% (2012), 47,2\% (2024), và 48,8\% (pooled). Kiểm định ổn định cấu trúc: Paternoster et al. (1998) z-test: $z(\mathrm{FSTS}) = +0{,}82$ ($p = 0{,}412$); $z(\mathrm{FSTS}^{2}) = -0{,}61$ ($p = 0{,}545$), không bác bỏ bình đẳng hệ số giữa hai sóng.
+
+**M3 (+ TCI trực tiếp, H2 level-shift):**
+
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1\,\mathrm{FSTS}_{c,it} + \beta_2\,\mathrm{FSTS}_{c,it}^{2} + \beta_3\,\mathrm{TCI}_{z,it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + \lambda_t + \varepsilon_{it}$$
+
+Kết quả: $\beta_3 = +0{,}28$ (2012, $p < 0{,}001$), $+0{,}43$ (2024, $p < 0{,}001$); TCI là "bộ tăng mức" (level-shifter), không điều tiết độ cong.
+
+**M4 (+ DAI trực tiếp):**
+
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1\,\mathrm{FSTS}_{c,it} + \beta_2\,\mathrm{FSTS}_{c,it}^{2} + \beta_3\,\mathrm{TCI}_{z,it} + \beta_4\,\mathrm{DAI}_{z,it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + \lambda_t + \varepsilon_{it}$$
+
+**M5 (Kiểm định ổn định xuyên sóng, H2b):** Ước lượng M2 riêng biệt cho 2012 và 2024, sau đó áp dụng
+
+$$z = \frac{\hat\beta_{1,2012} - \hat\beta_{1,2024}}{\sqrt{\mathrm{SE}_{1,2012}^{2} + \mathrm{SE}_{1,2024}^{2}}}$$
+
+(Paternoster et al., 1998), tương tự cho $\beta_2$ ($\mathrm{FSTS}^{2}$).
+
+**M6 (Điều tiết ba chiều, kiểm định H3/H4a/H4b):**
+
+$$\begin{aligned}
+\ln(\mathrm{LP})_{it} = {} & \alpha + \beta_1\,\mathrm{FSTS}_{c,it} + \beta_2\,\mathrm{FSTS}_{c,it}^{2} + \beta_3\,\mathrm{TCI}_{z,it} + \beta_4\,\mathrm{DAI}_{z,it} \\
+& + \beta_5(\mathrm{FSTS}_{c,it} \times \mathrm{TCI}_{z,it}) + \beta_6(\mathrm{FSTS}_{c,it}^{2} \times \mathrm{TCI}_{z,it}) \\
+& + \beta_7(\mathrm{FSTS}_{c,it} \times \mathrm{wave}) + \beta_8(\mathrm{FSTS}_{c,it}^{2} \times \mathrm{wave}) + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + \lambda_t + \varepsilon_{it}
+\end{aligned}$$
+
+F-tests: F1 (dịch chuyển độ cong xuyên sóng), F2 (điều tiết năng lực), F3 (dịch chuyển điều kiện). Kết quả: $F_2 = 3{,}26$ ($p = 0{,}039$, không qua Bonferroni $\alpha^{*} = 0{,}017$), do đó H4b (không có điều tiết độ cong theo năng lực) được chấp nhận.
 
 **Bảng định nghĩa biến, Nghiên cứu 5 (Trung Quốc):**
 
@@ -468,8 +486,8 @@ Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử d
 - **CDDXK_c²_it**: CDDXK_c bình phương, kiểm định phi tuyến
 - **NLCN_z_it**: năng lực công nghệ z-standardised, TCI_z = chuẩn hóa z(b8, e6)
 - **CSS_z_it**: chỉ số số hoá z-standardised, DAI_z = chuẩn hóa z(website + e-pay, Tầng 1 và 2: c22b/e1, k33)
-- **KNQLy_it**: kinh nghiệm nhà quản lý trong ngành (năm, b7)
-- **NQL_nu_it**: top manager là nữ (binary, b7a/b6a)
+- **KNQLy_it** = MgrExp_it: kinh nghiệm nhà quản lý trong ngành (năm, b7)
+- **NQL_nu_it** = MgrFem_it: top manager là nữ (binary, b7a/b6a)
 - **ICRV_j**: phân loại chế độ thể chế ICRV (integer 1–6, Advanced sang SIDS)
 - **lnLD_it**: ln(lao động thường trực), kiểm soát quy mô doanh nghiệp
 - **TuoiDN_it**: tuổi doanh nghiệp (năm_khảo_sát − b5)
@@ -479,51 +497,51 @@ Nghiên cứu 7 là kiểm định quy mô lớn nhất của luận án, sử d
 **Chuỗi mô hình lồng nhau M0–M11:**
 
 **M0** (mô hình tuyến tính cơ sở):
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \varepsilon_{it}$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c,it} + \varepsilon_{it}$$
 
 **M2** (phi tuyến, kiểm định H1):
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \beta_2 (\mathrm{CDDXK}^{c}_{it})^{2} + \varepsilon_{it}$$
-$$TP^* = -\beta_1 / (2\beta_2); \quad \text{Lind–Mehlum } p < {,}001;\ TP = 51{,}5\%\ (N = 81.022)$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c,it} + \beta_2 \mathrm{FSTS}_{c,it}^{2} + \varepsilon_{it}$$
+$$\mathrm{TP}^{*} = -\beta_1 / (2\beta_2); \quad \text{Lind–Mehlum } p < {,}001;\ \mathrm{TP} = 51{,}5\%\ (N = 81.022)$$
 
 **M3** (M2 + kiểm soát cơ bản):
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \gamma \cdot X_{it} + \varepsilon_{it}$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \boldsymbol{\gamma}\mathbf{X}_{it} + \varepsilon_{it}$$
 
 **M5** (M3 + country-year FE, kiểm định vững mạnh nhất):
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \gamma \cdot X_{it} + \delta_{ct} + \varepsilon_{it}$$
-$$TP = 43{,}6\%\ (N = 79.080;\ \text{Lind–Mehlum } p < {,}001)$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_{ct} + \varepsilon_{it}$$
+$$\mathrm{TP} = 43{,}6\%\ (N = 79.080;\ \text{Lind–Mehlum } p < {,}001)$$
 
-**M7** (M3 + điều tiết NLCN, kiểm định H2):
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z}$$
-$$+ \beta_4 (\mathrm{CDDXK}^{c} \times \mathrm{NLCN}_{z}) + \beta_5 ((\mathrm{CDDXK}^{c})^{2} \times \mathrm{NLCN}_{z}) + \gamma \cdot X + \varepsilon$$
+**M7** (M3 + điều tiết TCI, kiểm định H2):
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z}$$
+$$+ \beta_4 (\mathrm{FSTS}_{c} \times \mathrm{TCI}_{z}) + \beta_5 (\mathrm{FSTS}_{c}^{2} \times \mathrm{TCI}_{z}) + \boldsymbol{\gamma}\mathbf{X} + \varepsilon$$
 
-**M8** (M7 + điều tiết CSS, kiểm định H3):
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \beta_6 \mathrm{CSS}_{z}$$
-$$+ \beta_7 (\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z}) + \beta_8 ((\mathrm{CDDXK}^{c})^{2} \times \mathrm{CSS}_{z}) + \gamma \cdot X + \varepsilon$$
+**M8** (M7 + điều tiết DAI, kiểm định H3):
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z} + \beta_6 \mathrm{DAI}_{z}$$
+$$+ \beta_7 (\mathrm{FSTS}_{c} \times \mathrm{DAI}_{z}) + \beta_8 (\mathrm{FSTS}_{c}^{2} \times \mathrm{DAI}_{z}) + \boldsymbol{\gamma}\mathbf{X} + \varepsilon$$
 $$\begin{aligned}
 \text{H3: } & \hat\beta_7 = -0{,}271\ (p = {,}149);\ \hat\beta_8 = +0{,}252\ (p = {,}367), \\
 & \text{cùng chiều nén nhưng không ý nghĩa toàn mẫu; hiệu ứng mức DAI} = +0{,}201\ (p < {,}001)
 \end{aligned}$$
 
 **M9** (M8 + đặc điểm nhà quản lý, kiểm định H4):
-$$+ \beta_9 \mathrm{KNQLy} + \beta_{10} \mathrm{NQL}_{\text{nu}} + \beta_{11}(\mathrm{CDDXK}^{c} \times \mathrm{KNQLy}) + \gamma \cdot X + \varepsilon$$
+$$+ \beta_9 \mathrm{MgrExp} + \beta_{10} \mathrm{MgrFem} + \beta_{11}(\mathrm{FSTS}_{c} \times \mathrm{MgrExp}) + \boldsymbol{\gamma}\mathbf{X} + \varepsilon$$
 $$\hat\beta_{10} = -0{,}104^{***} \ (p < {,}001) \text{ (nữ quản lý cấp cao: hệ số mức âm; tương tác với FSTS không ý nghĩa)}$$
 
 **M10** (M3 + điều tiết ICRV, kiểm định H5):
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_{11} \mathrm{ICRV}_{j}$$
-$$+ \beta_{12}(\mathrm{CDDXK}^{c} \times \mathrm{ICRV}) + \beta_{13}((\mathrm{CDDXK}^{c})^{2} \times \mathrm{ICRV}) + \gamma \cdot X + \varepsilon$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_{11} \mathrm{ICRV}_{j}$$
+$$+ \beta_{12}(\mathrm{FSTS}_{c} \times \mathrm{ICRV}) + \beta_{13}(\mathrm{FSTS}_{c}^{2} \times \mathrm{ICRV}) + \boldsymbol{\gamma}\mathbf{X} + \varepsilon$$
 $$\begin{aligned}
-\text{H5 (ba vùng): } & \text{chữ U ngược định hình rõ ở Nhóm IV } (TP = 43{,}0\%,\ p_{LM} < {,}001); \\
+\text{H5 (ba vùng): } & \text{chữ U ngược định hình rõ ở Nhóm IV } (\mathrm{TP} = 43{,}0\%,\ p_{LM} < {,}001); \\
 & \text{gần tuyến tính ở Nhóm I; mất cấu trúc ở Nhóm V–VI}
 \end{aligned}$$
 
 **M11** (full three-way, kiểm định tương tác tổng hợp ba chiều, tổng hợp H3 và H5; P7):
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c} + \beta_2 (\mathrm{CDDXK}^{c})^{2} + \beta_3 \mathrm{NLCN}_{z} + \beta_6 \mathrm{CSS}_{z} + \beta_{11} \mathrm{ICRV}$$
-$$+ \beta_{7}(\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z}) + \beta_{8}((\mathrm{CDDXK}^{c})^{2} \times \mathrm{CSS}_{z})$$
-$$+ \beta_{12}(\mathrm{CDDXK}^{c} \times \mathrm{ICRV}) + \beta_{13}((\mathrm{CDDXK}^{c})^{2} \times \mathrm{ICRV})$$
-$$+ \beta_{14}(\mathrm{CDDXK}^{c} \times \mathrm{CSS}_{z} \times \mathrm{ICRV}) + \beta_9 \mathrm{KNQLy} + \beta_{10} \mathrm{NQL}_{\text{nu}} + \gamma \cdot X + \delta_{ct} + \varepsilon$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z} + \beta_6 \mathrm{DAI}_{z} + \beta_{11} \mathrm{ICRV}$$
+$$+ \beta_{7}(\mathrm{FSTS}_{c} \times \mathrm{DAI}_{z}) + \beta_{8}(\mathrm{FSTS}_{c}^{2} \times \mathrm{DAI}_{z})$$
+$$+ \beta_{12}(\mathrm{FSTS}_{c} \times \mathrm{ICRV}) + \beta_{13}(\mathrm{FSTS}_{c}^{2} \times \mathrm{ICRV})$$
+$$+ \beta_{14}(\mathrm{FSTS}_{c} \times \mathrm{DAI}_{z} \times \mathrm{ICRV}) + \beta_9 \mathrm{MgrExp} + \beta_{10} \mathrm{MgrFem} + \boldsymbol{\gamma}\mathbf{X} + \delta_{ct} + \varepsilon$$
 $$\begin{aligned}
-& \text{Tương tác chế độ-yếu: FSTS} \times \text{Weak} = -0{,}523\ (p = {,}087); \\
-& \text{ba chiều không ý nghĩa; } TP\ (M10) = 45{,}9\%,\ \text{LM } p < {,}001
+& \text{Tương tác chế độ-yếu: } \mathrm{FSTS} \times \text{Weak} = -0{,}523\ (p = {,}087); \\
+& \text{ba chiều không ý nghĩa; } \mathrm{TP}\ (M10) = 45{,}9\%,\ \text{LM } p < {,}001
 \end{aligned}$$
 
 **Bảng định nghĩa biến, Nghiên cứu 7 (đa quốc gia)**
@@ -551,7 +569,7 @@ $$\begin{aligned}
 
 Nghiên cứu 8 phân tích mẫu gồm **N = 1.450 doanh nghiệp** tại **7 nền kinh tế Pacific SIDS** (Fiji, Kiribati, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu) từ các sóng WBES 2009–2025. Đây là nhóm thể chế ICRV Nhóm VI, cấp thấp nhất trong phân loại 6 chế độ, đặc trưng bởi thị trường nội địa cực nhỏ, chi phí thương mại cao và hỗ trợ thể chế yếu. Trong tổng mẫu, chỉ **212 doanh nghiệp có hoạt động xuất khẩu** (14,6%), phản ánh cấu trúc thị trường đảo nhỏ.
 
-Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**. Tại Nhóm VI, dạng hình chữ U ngược **mất cấu trúc**: trên mẫu đầy đủ bảy nền (N = 1.450), cả số hạng tuyến tính lẫn bậc hai đều mất ý nghĩa khi đưa vào đồng thời và cả bốn điều kiện cần của một đường cong chữ U ngược đều thất bại (xem Chương 4, Mục 4.7.2 và 4.7.6), nên quan hệ là **đơn điệu âm về xu hướng**, không có điểm quay nội miền, trái ngược với hình chữ U ngược ở P3–P7. Hệ số FIP âm **mạnh, có ý nghĩa** (β₁ = −1,339, p < ,001) ghi nhận trên **phiên bản dữ liệu gốc / bản dựng hạn chế** (N = 959; lõi ba nền có đủ kiểm soát đợt trước 2018: N = 209) và được trình bày như bằng chứng độ vững nội bộ ở Chương 4 (Mục 4.7.7–4.7.8).
+Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP)**. Tại Nhóm VI, dạng hình chữ U ngược **mất cấu trúc**: trên mẫu đầy đủ bảy nền (N = 1.450), cả số hạng tuyến tính lẫn bậc hai đều mất ý nghĩa khi đưa vào đồng thời và cả bốn điều kiện cần của một đường cong chữ U ngược đều thất bại (xem Chương 4, Mục 4.7.2 và 4.7.6), nên quan hệ là **đơn điệu âm về xu hướng**, không có điểm quay nội miền, trái ngược với hình chữ U ngược ở P3–P7. Hệ số FIP âm **mạnh, có ý nghĩa** ($\beta_1 = -1{,}339$, $p < {,}001$) ghi nhận trên **phiên bản dữ liệu gốc / bản dựng hạn chế** (N = 959; lõi ba nền có đủ kiểm soát đợt trước 2018: N = 209) và được trình bày như bằng chứng độ vững nội bộ ở Chương 4 (Mục 4.7.7–4.7.8).
 
 **Ký hiệu biến (tiếng Việt ↔ mã WBES):**
 
@@ -574,17 +592,17 @@ Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced 
 
 M0, cơ sở kiểm soát:
 
-$$\ln\mathrm{NSLD}_{it} = \alpha + \gamma_1 \ln\mathrm{LD}_{it} + \gamma_2 \mathrm{TuoiDN}_{it} + \gamma_3 \mathrm{SoHuuNN}_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \gamma_1 \ln(L)_{it} + \gamma_2 \mathrm{Age}_{it} + \gamma_3 \mathrm{Own}_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
 M1, Kiểm định FIP (H1b): thêm cường độ xuất khẩu tuyến tính
 
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c,it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
-$$\beta_1 = -1{,}339,\ p < {,}001\ (\text{country+year FE, phiên bản dữ liệu gốc, N} = 959) \Rightarrow \textbf{FIP (bản dựng gốc)}$$
+$$\beta_1 = -1{,}339,\ p < {,}001\ (\text{country+year FE, phiên bản dữ liệu gốc, } N = 959) \Rightarrow \textbf{FIP (bản dựng gốc)}$$
 
-M2, Kiểm định phi tuyến: thêm CDDXK_c²
+M2, Kiểm định phi tuyến: thêm $\mathrm{FSTS}_{c}^{2}$
 
-$$\ln\mathrm{NSLD}_{it} = \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \beta_2 (\mathrm{CDDXK}^{c}_{it})^{2} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
+$$\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{c,it} + \beta_2 \mathrm{FSTS}_{c,it}^{2} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_c + \lambda_t + \varepsilon_{it}$$
 
 $$\begin{aligned}
 & \beta_1\ \text{NS},\ \beta_2\ \text{NS};\ \text{Lind–Mehlum U-test NS} \\
@@ -594,23 +612,23 @@ $$\begin{aligned}
 M3, Kiểm định năng lực điều tiết (H2 null cho SIDS):
 
 $$\begin{aligned}
-\ln\mathrm{NSLD}_{it} = {} & \alpha + \beta_1 \mathrm{CDDXK}^{c}_{it} + \beta_2 (\mathrm{CDDXK}^{c}_{it})^{2} + \beta_3 \mathrm{NLCN}_{z,it} \\
-& + \beta_4 \mathrm{CSS}_{z,it} + \gamma \cdot X_{it} + \delta_c + \lambda_t + \varepsilon_{it}
+\ln(\mathrm{LP})_{it} = {} & \alpha + \beta_1 \mathrm{FSTS}_{c,it} + \beta_2 \mathrm{FSTS}_{c,it}^{2} + \beta_3 \mathrm{TCI}_{z,it} \\
+& + \beta_4 \mathrm{DAI}_{z,it} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_c + \lambda_t + \varepsilon_{it}
 \end{aligned}$$
 
 $$\begin{aligned}
-& \beta_3\ (\mathrm{NLCN}_{z}):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (\mathrm{CSS}_{z}):\ p = {,}285\ \text{NS} \\
+& \beta_3\ (\mathrm{TCI}_{z}):\ p = {,}003\ (\text{dương, có ý nghĩa});\ \beta_4\ (\mathrm{DAI}_{z}):\ p = {,}285\ \text{NS} \\
 & \Rightarrow \text{TCI nâng mặt bằng năng suất; không có biến điều tiết uốn đường cong (H2 null)}
 \end{aligned}$$
 
 **Phân tích độ vững (kiểm tra độ vững):**
 
-| Mô hình | β(CDDXK_c) | SE | p |
+| Mô hình | $\beta(\mathrm{FSTS}_c)$ | SE | p |
 |---|---|---|---|
-| M1 country+year FE (N = 959) | −1,339 | 0,386 | <,001 |
-| Year FE only (không country FE) | −3,351 | 0,808 | <,001 |
-| Bivariate (không controls) | −0,864 | 0,441 |,050 |
-| chỉ doanh nghiệp xuất khẩu (N = 26) | −1,176 | 0,763 |,130 (NS) |
+| M1 country+year FE (N = 959) | $-1{,}339$ | 0,386 | <,001 |
+| Year FE only (không country FE) | $-3{,}351$ | 0,808 | <,001 |
+| Bivariate (không controls) | $-0{,}864$ | 0,441 |,050 |
+| chỉ doanh nghiệp xuất khẩu (N = 26) | $-1{,}176$ | 0,763 |,130 (NS) |
 
 *Bảng độ vững trên thuộc **phiên bản dữ liệu gốc** (N = 959); hệ số âm nhất quán về dấu qua các mô hình, suy luận FIP dựa chủ yếu vào các mô hình hiệu ứng cố định (M1, year-FE), trong khi chỉ doanh nghiệp xuất khẩu (N = 26) thiếu công suất thống kê. Trên mẫu đầy đủ bảy nền (N = 1.450), dạng đơn điệu âm vẫn là xu hướng nhưng các số hạng mất ý nghĩa thống kê khi đưa vào đồng thời (Chương 4, Mục 4.7.2).*
 

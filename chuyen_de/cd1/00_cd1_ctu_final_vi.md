@@ -369,9 +369,9 @@ Ba khung lý thuyết cung cấp nền tảng giải thích cho các khuôn mẫ
 
 **(a) Hình dạng đường cong quốc tế hóa – hiệu quả**: Việt Nam sang U ngược, điểm uốn ≈ 39–46% FSTS; Singapore sang tuyến tính dương + bậc hai nhẹ, điểm uốn ≈ 88,6% FSTS (điểm uốn này nằm sát/ngoài miền dữ liệu với khoảng tin cậy bootstrap rất rộng, nên được diễn giải là quan hệ *tăng gần đơn điệu* trong miền quan sát chứ không phải một ngưỡng bất lợi đã định vị chắc chắn, nhất quán với diễn giải tại luận án Chương 4 Mục 4.3.1).
 
-**(b) Cơ chế DAI**: Việt Nam (Tier 1 = website only) sang **phụ thuộc giai đoạn**: tương tác DAI×FSTS âm ở FSTS cao, Tầng 1 trở thành điểm nghẽn. Singapore (Tier 1+2) sang **mở rộng có điều kiện**: tương tác DAI×FSTS² dương mạnh (β=3,119, p=0,005), Tầng 1+2 là đòn bẩy.
+**(b) Cơ chế DAI**: Việt Nam (Tier 1 = website only) sang **phụ thuộc giai đoạn**: tương tác $\mathrm{DAI}\times\mathrm{FSTS}$ âm ở FSTS cao, Tầng 1 trở thành điểm nghẽn. Singapore (Tier 1+2) sang **mở rộng có điều kiện**: tương tác $\mathrm{DAI}\times\mathrm{FSTS}^2$ dương mạnh ($\beta=3{,}119$, $p=0{,}005$), Tầng 1+2 là đòn bẩy.
 
-**(c) Vai trò TCI**: Việt Nam, *lợi thế khan hiếm* (TCI z biến công cụ β=1,639, p<0,001, ước lượng 2SLS vững). Singapore, *yếu tố vệ sinh* nâng sàn năng suất nhưng không điều tiết đường cong quốc tế hóa – hiệu quả.
+**(c) Vai trò TCI**: Việt Nam, *lợi thế khan hiếm* (TCI z biến công cụ $\beta=1{,}639$, $p<0{,}001$, ước lượng 2SLS vững). Singapore, *yếu tố vệ sinh* nâng sàn năng suất nhưng không điều tiết đường cong quốc tế hóa – hiệu quả.
 
 ---
 
@@ -788,7 +788,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **Giai đoạn 2** (năm 3–5): Vùng chuyển tiếp. Ngưỡng: ≥ 3% doanh thu/năm × ≥ 3 năm liên tục. Dưới ngưỡng, phần bù năng suất không bù được chi phí cơ hội.
 
-**Giai đoạn 3** (năm 5+): Phần bù năng suất. Bằng chứng: Trung Quốc R&D 39,4% (Tier-2 mature); FSTS²×DAI = +3,119 (p = 0,005) tại Singapore, DAI khuếch đại quan hệ quốc tế hóa – hiệu quả tại doanh nghiệp FSTS cao.
+**Giai đoạn 3** (năm 5+): Phần bù năng suất. Bằng chứng: Trung Quốc R&D 39,4% (Tier-2 mature); $\mathrm{FSTS}^2\times\mathrm{DAI} = +3{,}119$ ($p = 0{,}005$) tại Singapore, DAI khuếch đại quan hệ quốc tế hóa – hiệu quả tại doanh nghiệp FSTS cao.
 
 **Liên kết CDCM**: Giai đoạn 1 = proxy cơ chế lỗi thời (DAI Tier-1 bão hòa); Giai đoạn 3 = cơ chế phụ thuộc giai đoạn (DAI Tier-2 có phần bù có điều kiện). Hai cơ chế bổ sung nhau khi kiểm soát thế hệ số.
 
@@ -850,7 +850,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **(2) CDCM như khung lý thuyết tích hợp mới cho kỷ nguyên số trong kinh doanh quốc tế**: Phần bù năng suất của áp dụng số là hàm của (i) mức độ phát triển thể chế, (ii) vị trí trên đường cong quốc tế hóa – hiệu quả, (iii) tầng của năng lực số được đo lường. Ba điều kiện tương tác phi tuyến, vượt qua "phần bù số" đồng nhất (Verhoef et al., 2021).
 
-**(3) Giao diện Đổi mới-Hiệu suất Nâng cao (AIPI)**: FSTS²×DAI = +3,119 tại Singapore gợi ý cơ chế mới, tại FSTS cao, doanh nghiệp cần DAI như "phối hợp kỹ thuật số xuyên biên giới" để quản lý độ phức tạp chuỗi giá trị toàn cầu. Cần kiểm định tại Advanced khác (Hàn Quốc, Đài Loan).
+**(3) Giao diện Đổi mới-Hiệu suất Nâng cao (AIPI)**: $\mathrm{FSTS}^2\times\mathrm{DAI} = +3{,}119$ tại Singapore gợi ý cơ chế mới, tại FSTS cao, doanh nghiệp cần DAI như "phối hợp kỹ thuật số xuyên biên giới" để quản lý độ phức tạp chuỗi giá trị toàn cầu. Cần kiểm định tại Advanced khác (Hàn Quốc, Đài Loan).
 
 **(4) Sân khấu số là thực tế đo lường ở cả hai chiều**: Tại Advanced, DAI Tầng 1 là yếu tố vệ sinh bão hòa. Tại Emerging, DAI Tầng 1 có thể là proxy lỗi thời, đo lường không còn phản ánh được cơ chế kinh tế thực.
 
