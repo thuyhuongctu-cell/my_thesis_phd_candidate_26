@@ -275,7 +275,7 @@ Thủ tục này cho ra hai kết cục đối lập về mặt lý thuyết tù
 
 Nghiên cứu 3 sử dụng chuỗi mô hình lồng nhau M0–M8 ước lượng riêng theo từng sóng khảo sát (2009, 2015, 2023) và trên mẫu gộp. Ký hiệu biến:
 
-- **lnLP_it**: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
+- **lnLP_it**: log năng suất lao động (ln doanh thu nội tệ / lao động thường xuyên)
 - **FSTS_c_it**: cường độ xuất khẩu điều chỉnh trung bình trong sóng (mean-centred)
 - **FSTS_c²_it**: bình phương cường độ xuất khẩu điều chỉnh
 - **TCI_z_it**: năng lực công nghệ (chuẩn hoá z trong sóng)
@@ -330,7 +330,7 @@ $$\begin{aligned}
 
 | Ký hiệu | Biến WBES | Cách tính | Vai trò |
 |---|---|---|---|
-| lnLP | d2, l1 | ln(d2 / l1): ln(doanh thu PPP / lao động thường xuyên) | Biến phụ thuộc |
+| lnLP | d2, l1 | ln(d2 / l1): ln(doanh thu nội tệ / lao động thường xuyên) | Biến phụ thuộc |
 | FSTS | d3c | d3c / 100: cường độ xuất khẩu trực tiếp (0–1) | Biến độc lập |
 | FSTS_c | d3c | FSTS − trung bình sóng: chuẩn hoá điều chỉnh | Biến độc lập (centred) |
 | FSTS_c² | d3c | FSTS_c bình phương: hạng phi tuyến | Kiểm định inverted-U (H1) |
@@ -348,7 +348,7 @@ $$\begin{aligned}
 
 Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N = 623). Thiết kế đơn sóng, không có thành phần λ_t. Ký hiệu biến:
 
-- **lnLP_i**: log năng suất lao động (ln doanh thu PPP / lao động thường xuyên)
+- **lnLP_i**: log năng suất lao động (ln doanh thu nội tệ / lao động thường xuyên)
 - **FSTS_i**: cường độ xuất khẩu trực tiếp (d3c / 100)
 - **FSTS_c_i**: FSTS trung bình mẫu; FSTS_c² là bình phương
 - **TCI_z_i**: năng lực công nghệ, chuẩn hóa z của trung bình(b8₀₁, e6₀₁)
@@ -577,7 +577,7 @@ Phát hiện trọng tâm: **gánh nặng quốc tế hóa bắt buộc (Forced 
 
 | Ký hiệu | Tên tiếng Việt | Mã WBES | Cách tính |
 |---------|----------------|---------|-----------|
-| lnLP | Log năng suất lao động | d2, l1 | ln(doanh thu PPP / lao động thường trực) |
+| lnLP | Log năng suất lao động | d2, l1 | ln(doanh thu nội tệ / lao động thường trực) |
 | FSTS_c | Cường độ xuất khẩu (điều chỉnh) | d3c | (d3c/100) − mean_wave(FSTS): centred theo sóng |
 | FSTS_c² | FSTS_c bình phương | d3c | FSTS_c × FSTS_c |
 | TCI_z | Năng lực công nghệ | b8, e6 | chuẩn hóa z(trung bình cert chất lượng + CN nước ngoài) |
@@ -638,7 +638,7 @@ $$\begin{aligned}
 
 | Ký hiệu | WBES item | Cách tính | Vai trò |
 |---------|-----------|-----------|---------|
-| lnLP | d2, l1 | ln(doanh thu PPP / lao động) | Biến phụ thuộc |
+| lnLP | d2, l1 | ln(doanh thu nội tệ / lao động) | Biến phụ thuộc |
 | FSTS_c | d3c | (d3c/100) − mean_wave: centred | Biến độc lập (I) |
 | FSTS_c² | d3c | FSTS_c bình phương | I, kiểm định phi tuyến |
 | TCI_z | b8, e6 | chuẩn hóa z(cert + CN nước ngoài) | Năng lực công nghệ |
