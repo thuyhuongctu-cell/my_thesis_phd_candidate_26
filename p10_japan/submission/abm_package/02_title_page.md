@@ -6,7 +6,7 @@
 ¹ Vinh Long University of Technology Education (VLUTE), Vinh Long, Viet Nam
 ² School of Economics, Can Tho University (CTU), Can Tho, Viet Nam
 
-**Corresponding author:** Đỗ Thùy Hương — huongdt@vlute.edu.vn
+**Corresponding author:** Đỗ Thùy Hương, huongdt@vlute.edu.vn
 
 **Acknowledgements:** This study is part of the corresponding author's doctoral
 dissertation at Can Tho University. World Bank Enterprise Surveys micro-data are
