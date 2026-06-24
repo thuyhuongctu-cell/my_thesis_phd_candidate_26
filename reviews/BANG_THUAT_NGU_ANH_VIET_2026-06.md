@@ -2,6 +2,22 @@
 
 *Ngày: 2026-06-24 · Phạm vi áp dụng sau duyệt: 7 file nguồn (Ch1–Ch5 + CĐ1 + CĐ2)*
 
+## ✅ TRẠNG THÁI: ĐÃ DUYỆT & ĐÃ ÁP (2026-06-24)
+- **Mục A — Tier/Tầng:** cô chọn **"Bậc 1–4"**. Đã áp cho cả 7 file.
+  - Phân biệt theo ngữ cảnh: chỉ "Tầng" nghĩa **bậc đo DAI** → "Bậc". GIỮ nguyên "Tầng"
+    cho: bốn tầng lý thuyết (CĐ2:311–341), bốn bước phân tích (CĐ2:771–790), phân rã
+    phương sai meta ba tầng (Ch4:172–173), và "nhà cung cấp Tầng 1" (CĐ1:903).
+  - Tổng đổi: cd1 32 + cd2 12 (Tier-Anh); Tầng-DAI: ch1 2, ch2 1, ch3 46, ch4 36, ch5 20, cd1/cd2 nhiều.
+- **Mục B — thuật ngữ:** ĐÃ áp. Tiếng Anh giữ trong ngoặc 1 lần ở lần đầu mỗi chương; tên
+  kiểm định/mô hình/phần mềm/ký hiệu và **tiêu đề trích dẫn** giữ nguyên tiếng Anh.
+  - **Điều chỉnh so với bảng gốc:** KHÔNG gộp "yếu tố vệ sinh" (hygiene factor) vào "bộ nâng
+    mặt bằng" — đây là hai khái niệm khác nhau (DAI bão hòa vs vai trò TCI). Giữ riêng cả hai.
+- **Mục D — sáo rỗng:** ĐÃ áp. "Nhìn chung/Đáng chú ý/Nói cách khác/Tổng hợp lại" về 0 ở cả 7 file;
+  giảm "bức tranh"; "chữ ký"→"dấu hiệu đặc trưng".
+- **Commit:** `41d465c` (cd1,cd2) · `b72ed8c` (ch3,ch4) · `a995db3` (ch1,ch2,ch5) — PR #17.
+
+---
+
 ## Cách dùng bảng này
 - Cột **Đề xuất Việt** là phương án em sẽ áp. Cô sửa thẳng vào cột này nếu muốn khác.
 - Quy ước: dùng thuật ngữ Việt, **giữ tiếng Anh trong ngoặc đúng 1 lần** ở lần xuất hiện đầu
