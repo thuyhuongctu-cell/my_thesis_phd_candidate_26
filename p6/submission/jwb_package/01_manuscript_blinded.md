@@ -937,7 +937,7 @@ effects):
 
 The three-level pooled estimate (*r̂* = 0.074) is consistent with the
 ICBEF 2025 single-level baseline (*r* = 0.07), confirming no systematic
-upward bias from ignoring multilevel nesting earlier. The larger share of
+upward bias from ignoring multilevel nesting earlier. This magnitude places the pooled effect at the lower bound of the prior meta-analytic record (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016) and close to recent emerging-market syntheses that likewise report small positive effects amid very high heterogeneity (Wu et al., 2022); the substantial residual heterogeneity is consistent with evidence that internationalization outcomes are systematically bounded by cultural and institutional distance (Beugelsdijk et al., 2018) rather than governed by a universal mechanism. The larger share of
 systematic heterogeneity lies within studies (Level 2, *I*²\_(2) = 54.1%),
 attributable to within-paper variation in DOI operationalization,
 performance measure type, and control specification across reported models.
@@ -1366,6 +1366,11 @@ meta-analysis. *Management International Review, 47*(3), 319–347.
 
 Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank
 correlation test for publication bias. *Biometrics, 50*(4), 1088–1101.
+
+Beugelsdijk, S., Kostova, T., Kunst, V. E., Spadafora, E., & van Essen,
+M. (2018). Cultural distance and firm internationalization: A
+meta-analytical review and theoretical implications. *Journal of
+Management, 44*(1), 89–130.
 
 Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013).
 Digital business strategy: Toward a next generation of insights. *MIS
