@@ -269,15 +269,15 @@ Bảng 2.13. So sánh đặc điểm phương pháp và phạm vi lý thuyết c
 
 | Khung | Phi tuyến I–P | TCI | DAI | Đặc điểm QL | Thể chế (Inst.) | Temporal | Phân nhóm | SIDS |
 |-------|--------------|-----|-----|-------------|-----------------|----------|-----------|------|
-| Bausch & Krist (2007) | ✗ (không kiểm định hệ thống) | Partial (R&D proxy) | ✗ | ✗ | Có (GDP, văn hóa) | ✗ | ✗ | ✗ |
-| Kirca et al. (2012) | ✗ | Có (R&D proxy) | ✗ | ✗ | Partial | ✗ | Partial (ngành) | ✗ |
-| Marano et al. (2016) | Có (TP ±15% FSTS) | ✗ | ✗ | ✗ | Có (cốt lõi) | ✗ | ✗ | ✗ |
-| Banalieva & Dhanaraj (2019) | Partial | ✗ | Có (cốt lõi) | ✗ | Partial | Partial | ✗ | ✗ |
-| Wu, Wood & Khan (2022) | Có (TP thấp hơn EMNE) | Partial (absorptive capacity) | ✗ | ✗ | Có | Có (20 năm) | Có (EMNE/DMNE) | ✗ |
+| Bausch & Krist (2007) | Không (không kiểm định hệ thống) | Partial (R&D proxy) | Không | Không | Có (GDP, văn hóa) | Không | Không | Không |
+| Kirca et al. (2012) | Không | Có (R&D proxy) | Không | Không | Partial | Không | Partial (ngành) | Không |
+| Marano et al. (2016) | Có (TP ±15% FSTS) | Không | Không | Không | Có (cốt lõi) | Không | Không | Không |
+| Banalieva & Dhanaraj (2019) | Partial | Không | Có (cốt lõi) | Không | Partial | Partial | Không | Không |
+| Wu, Wood & Khan (2022) | Có (TP thấp hơn EMNE) | Partial (absorptive capacity) | Không | Không | Có | Có (20 năm) | Có (EMNE/DMNE) | Không |
 | Đỗ & Phan (2026c, JFAR) | Có (chữ U ngược bậc hai) | – | – | – | – | – | – | – |
 | **CĐ2 (luận án này)** | **Có (H1: chữ U ngược + chữ S)** | **Có (H2: nhân quả IV)** | **Có (H3: CDCM phân biệt)** | **Có (H4a–H4c)** | **Có (H5: ICRV 6 nhóm)** | **Có (H6: 3 giai đoạn)** | **Có (Nhóm I–VI)** | **Có (Nhóm VI FIP)** |
 
-*Ghi chú: "Có" = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; ✗ = không bao gồm; – = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
+*Ghi chú: "Có" = kiểm định chính thức hoặc đóng góp lý thuyết rõ ràng; Partial = đề cập nhưng không phải trọng tâm; Không = không bao gồm; – = không áp dụng. FIP = Forced Internationalization Penalty. TCI và DAI được phân tách theo tiêu chí CDCM; P2 JFAR không kiểm định CDCM (pre-framework) nhưng cung cấp bằng chứng phi tuyến cubic tiền thân.*
 
 ##### Bằng chứng châu Á từ ba bản thảo đồng hành
 
@@ -320,13 +320,13 @@ Vai trò trong mô hình đề xuất: Uppsala cung cấp logic cho hiệu ứng
 
 ##### Tầng 2: Lý thuyết doanh nghiệp dựa trên nguồn lực (RBV)
 
-lý thuyết dựa trên nguồn lực (Wernerfelt, 1984; Barney, 1991) cho rằng lợi thế cạnh tranh bền vững xuất phát từ nguồn lực có giá trị, hiếm, khó bắt chước, và không thay thế (VRIN). Doanh nghiệp khác nhau về hiệu quả vì sở hữu các bộ nguồn lực khác nhau. Các phát triển gần đây mở rộng lý thuyết dựa trên nguồn lực sang lợi thế cạnh tranh bền vững gắn với bối cảnh môi trường, xã hội và quản trị (Bhandari, Ranta & Salo, 2023).
+Lý thuyết dựa trên nguồn lực (Wernerfelt, 1984; Barney, 1991) cho rằng lợi thế cạnh tranh bền vững xuất phát từ nguồn lực có giá trị, hiếm, khó bắt chước, và không thay thế (VRIN). Doanh nghiệp khác nhau về hiệu quả vì sở hữu các bộ nguồn lực khác nhau. Các phát triển gần đây mở rộng lý thuyết dựa trên nguồn lực sang lợi thế cạnh tranh bền vững gắn với bối cảnh môi trường, xã hội và quản trị (Bhandari, Ranta & Salo, 2023).
 
 Teece, Pisano và Shuen (1997) phát triển khái niệm năng lực động, khả năng tích hợp, xây dựng, và tái cấu trúc nguồn lực để thích ứng với môi trường thay đổi. Trong bối cảnh quốc tế hóa, năng lực động đặc biệt quan trọng để hấp thụ tri thức từ thị trường nước ngoài và tái phân bổ nguồn lực qua các thị trường.
 
 Cohen và Levinthal (1990) đề xuất khái niệm năng lực hấp thụ, khả năng doanh nghiệp nhận diện, đồng hóa, và áp dụng kiến thức bên ngoài. Doanh nghiệp có R&D nội tại cao có năng lực hấp thụ cao và do đó hấp thụ tri thức từ quốc tế hóa hiệu quả hơn.
 
-Vai trò trong mô hình đề xuất: lý thuyết dựa trên nguồn lực cung cấp lý thuyết cho H2 (TCI điều tiết tích cực). Doanh nghiệp có năng lực công nghệ (R&D, ISO, máy nhập khẩu) cao hấp thụ lợi ích quốc tế hóa tốt hơn. TCI là biến điều tiết cấp doanh nghiệp. Bằng chứng P3 Việt Nam (TCI trực tiếp β = 0,179, nhân quả từ IV) và P5 Trung Quốc (TCI tăng cường +0,260 sang +0,426) ủng hộ TCI là nguồn lực VRIN bền vững.
+Vai trò trong mô hình đề xuất: Lý thuyết dựa trên nguồn lực cung cấp lý thuyết cho H2 (TCI điều tiết tích cực). Doanh nghiệp có năng lực công nghệ (R&D, ISO, máy nhập khẩu) cao hấp thụ lợi ích quốc tế hóa tốt hơn. TCI là biến điều tiết cấp doanh nghiệp. Bằng chứng P3 Việt Nam (TCI trực tiếp β = 0,179, nhân quả từ IV) và P5 Trung Quốc (TCI tăng cường +0,260 sang +0,426) ủng hộ TCI là nguồn lực VRIN bền vững.
 
 ##### Tầng 3: Lý thuyết thể chế (Institutional Theory)
 
@@ -338,13 +338,13 @@ Peng (2003) và Peng, Wang, Jiang (2008) đề xuất cặp chiến lược ba c
 
 Vai trò trong mô hình đề xuất: Lý thuyết thể chế cung cấp logic cho H5 (thể chế ICRV điều tiết theo phổ thể chế). Cùng một mức quốc tế hóa, doanh nghiệp ở Nhóm I thu được hiệu quả khác doanh nghiệp ở Nhóm V do khác biệt về chi phí giao dịch, chất lượng thể chế, và tiếp cận thị trường. Sáu nhóm ICRV là biến điều tiết cấp quốc gia.
 
-##### Tầng 4: Lý thuyết lý thuyết thượng tầng quản trị
+##### Tầng 4: Lý thuyết thượng tầng quản trị
 
 Hambrick và Mason (1984) đề xuất lý thuyết thượng tầng quản trị với luận điểm trung tâm: các quyết định chiến lược của doanh nghiệp phản ánh đặc điểm nhân khẩu học của nhà quản trị cấp cao. Các đặc điểm này gồm tuổi, giáo dục, kinh nghiệm chức năng, thâm niên, kinh nghiệm quốc tế, giới tính.
 
 Hambrick (2007) bổ sung hai khái niệm quan trọng: mức độ tự do của nhà quản trị trong việc đưa ra quyết định, và áp lực công việc ảnh hưởng đến chất lượng quyết định. Cannella, Park và Lee (2008) cho thấy đa dạng chức năng của đội quản lý cấp cao tương quan dương với hiệu quả ở các môi trường thay đổi nhanh.
 
-Vai trò trong mô hình đề xuất: lý thuyết thượng tầng quản trị cung cấp lý thuyết cho H4a–H4c (đặc điểm nhà quản trị điều tiết). Doanh nghiệp có nhà quản trị kinh nghiệm cao (H4a), học vấn cao (H4b) chuyển hóa quốc tế hóa thành hiệu quả tốt hơn thông qua hai kênh: chất lượng quyết định (tránh quốc tế hóa sớm) và năng lực điều phối (quản lý phức tạp đa thị trường). Giới tính nhà quản trị (H4c) được kiểm định khám phá không có dấu tiên nghiệm.
+Vai trò trong mô hình đề xuất: Lý thuyết thượng tầng quản trị cung cấp lý thuyết cho H4a–H4c (đặc điểm nhà quản trị điều tiết). Doanh nghiệp có nhà quản trị kinh nghiệm cao (H4a), học vấn cao (H4b) chuyển hóa quốc tế hóa thành hiệu quả tốt hơn thông qua hai kênh: chất lượng quyết định (tránh quốc tế hóa sớm) và năng lực điều phối (quản lý phức tạp đa thị trường). Giới tính nhà quản trị (H4c) được kiểm định khám phá không có dấu tiên nghiệm.
 
 ##### Khung chấp nhận số nền tảng và CDCM
 
@@ -456,7 +456,7 @@ Cơ sở lý thuyết: lý thuyết dựa trên nguồn lực (Barney, 1991) cho
 
 Bằng chứng neo đậu: P3 Việt Nam: β(TCI) = 0,179 (p < 0,001) bền vững 3 sóng; biến công cụ cho β(TCI) = 1,639 (p < 0,001, F bậc một = 22,1), TCI là nhân quả. P5 Trung Quốc: β_z(TCI) tăng từ +0,260 (2012) sang +0,426 (2024), Paternoster z = −2,55 (p = 0,011), TCI nâng mặt bằng tăng cường theo thời gian. P4 Singapore: β(TCI) = +0,153 (p < 0,01), không điều tiết độ cong, TCI là nâng mặt bằng thuần túy trong Nhóm I.
 
-H2: chỉ số năng lực công nghệ (TCI) có mối quan hệ dương trực tiếp với hiệu quả hoạt động kinh doanh của doanh nghiệp (β(TCI) > 0) và nâng mặt bằng ln(LP) của toàn bộ đường cong quốc tế hóa và hiệu quả (hiệu ứng nâng mặt bằng). Tác động điều tiết của TCI lên độ cong của đường cong là câu hỏi thực nghiệm mở và được kiểm định như H2 khám phá trong M3.
+H2: Chỉ số năng lực công nghệ (TCI) có mối quan hệ dương trực tiếp với hiệu quả hoạt động kinh doanh của doanh nghiệp (β(TCI) > 0) và nâng mặt bằng ln(LP) của toàn bộ đường cong quốc tế hóa và hiệu quả (hiệu ứng nâng mặt bằng). Tác động điều tiết của TCI lên độ cong của đường cong là câu hỏi thực nghiệm mở và được kiểm định như H2 khám phá trong M3.
 
 ##### H3a–H3b: DAI điều tiết phụ thuộc chế độ thể chế (CDCM)
 

@@ -28,18 +28,18 @@ Quy trình đi theo sáu bước: (i) xác định khoảng trống nghiên cứ
 
 ### 3.2.1 Cơ sở kế thừa
 
-phân tích tổng hợp trong IB đã được thiết lập vững chắc qua nhiều thập kỷ (Hunter & Schmidt, 2004; Borenstein et al., 2009). Phương pháp chuẩn bao gồm: xây dựng tiêu chí lựa chọn theo PRISMA (Page et al., 2021), chuyển dạng hiệu ứng bằng Fisher's $z$, tính hiệu ứng gộp size theo hiệu ứng ngẫu nhiên, kiểm định dị biệt bằng $Q$-test và $I^2$, và đánh giá lệch lạc công bố bằng Egger và Begg-Mazumdar (Egger et al., 1997; Begg & Mazumdar, 1994). Các các phân tích tổng hợp trước đây về quốc tế hóa và hiệu quả (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) cung cấp quy trình mẫu mà luận án kế thừa và cập nhật.
+Phân tích tổng hợp trong IB đã được thiết lập vững chắc qua nhiều thập kỷ (Hunter & Schmidt, 2004; Borenstein et al., 2009). Phương pháp chuẩn bao gồm: xây dựng tiêu chí lựa chọn theo PRISMA (Page et al., 2021), chuyển dạng hiệu ứng bằng Fisher's $z$, tính hiệu ứng gộp size theo hiệu ứng ngẫu nhiên, kiểm định dị biệt bằng $Q$-test và $I^2$, và đánh giá lệch lạc công bố bằng Egger và Begg-Mazumdar (Egger et al., 1997; Begg & Mazumdar, 1994). Các các phân tích tổng hợp trước đây về quốc tế hóa và hiệu quả (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Wu et al., 2022; Arte & Larimo, 2022) cung cấp quy trình mẫu mà luận án kế thừa và cập nhật.
 
 ### 3.2.2 Đóng góp mới/điều chỉnh
 
 - **Mở rộng coverage time**: từ 1977–2022 (bài ICBEF 2024) sang **1977–2026**, bổ sung các nghiên cứu 2023–2026 liên quan đến chuyển đổi số và doanh nghiệp đa quốc gia thị trường mới nổi.
-- **Mở rộng biến điều tiết coverage**: thêm cụm biến điều tiết về năng lực số và 6 chế độ con ICRV, chưa được xem xét đầy đủ trong các các phân tích tổng hợp trước.
+- **Mở rộng biến điều tiết coverage**: thêm cụm biến điều tiết về năng lực số và 6 chế độ con ICRV, chưa được xem xét đầy đủ trong các phân tích tổng hợp trước.
 - **Tập tổng hợp**: K=288 cỡ ảnh hưởng / k=238 nghiên cứu, được xây dựng theo chiến lược tìm kiếm hệ thống nhưng có giới hạn (neo theo trích dẫn: quét trích dẫn xuôi và ngược từ 5 phân tích tổng hợp mỏ neo, bổ sung bằng cơ sở dữ liệu), báo cáo theo biến thể PRISMA 2020 "studies identified via other methods"; mở rộng so với bản nền ICBEF 2024 (K=200 / k=113).
 - **Subgroup theo châu Á và Pacific**: tách riêng nhóm nghiên cứu về doanh nghiệp châu Á và Pacific để cung cấp cơ sở trực tiếp cho giai đoạn thực nghiệm, đối chiếu với mẫu gộp 17 nước trong nghiên cứu thành phần P1.
 
 ### 3.2.3 Quy trình PRISMA
 
-Bốn bước Nhận diện, Sàng lọc, Đủ điều kiện và Đưa vào theo hướng dẫn PRISMA 2020 (Page et al., 2021). tiêu chí lựa chọn: nghiên cứu thực nghiệm ở cấp doanh nghiệp, có đo lường quốc tế hóa và hiệu quả hoạt động kinh doanh của doanh nghiệp, có đủ thống kê để tính cỡ ảnh hưởng (Pearson $r$, $\beta$, $t$-stat).
+Bốn bước Nhận diện, Sàng lọc, Đủ điều kiện và Đưa vào theo hướng dẫn PRISMA 2020 (Page et al., 2021). Tiêu chí lựa chọn: nghiên cứu thực nghiệm ở cấp doanh nghiệp, có đo lường quốc tế hóa và hiệu quả hoạt động kinh doanh của doanh nghiệp, có đủ thống kê để tính cỡ ảnh hưởng (Pearson $r$, $\beta$, $t$-stat).
 
 ### 3.2.4 Công cụ trích xuất dữ liệu và công bố sử dụng trí tuệ nhân tạo
 

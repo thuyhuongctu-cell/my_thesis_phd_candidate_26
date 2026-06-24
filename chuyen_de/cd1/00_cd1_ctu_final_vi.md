@@ -350,7 +350,7 @@ Ba khung lý thuyết cung cấp nền tảng giải thích cho các khuôn mẫ
 |---|---|:---:|:---:|:---:|---|
 | **A. Điểm tối ưu của U-curve** | Singapore, Hong Kong, Hàn Quốc, Đài Loan | Đạt | Có | Đạt | U-curve vận hành chuẩn; FSTS có mức tối ưu cho hiệu quả tối đa |
 | **B. Bẫy chuyển hướng nguồn lực** | Việt Nam, Indonesia, Trung Quốc, Mông Cổ | Đạt | Có | Một phần (chênh lệch de jure–de facto) | U-curve vận hành nhưng có bẫy chuyển hướng nguồn lực; cần phân biệt quy tắc hình thức và năng lực thực thi |
-| **C. Sụp đổ đường cong** | SIDS Pacific (Fiji, Kiribati, Tonga) | Không | ✗ | Một phần đến Không | U-curve không vận hành: quốc tế hóa là buộc phải; Fiji website 74,8% > Singapore 66% là minh chứng |
+| **C. Sụp đổ đường cong** | SIDS Pacific (Fiji, Kiribati, Tonga) | Không | Không | Một phần đến Không | U-curve không vận hành: quốc tế hóa là buộc phải; Fiji website 74,8% > Singapore 66% là minh chứng |
 
 #### 2.3.1.6 Khung 4 Tầng chuyển đổi số và Mô hình CDCM
 
