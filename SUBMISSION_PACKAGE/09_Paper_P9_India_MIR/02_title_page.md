@@ -1,6 +1,6 @@
-# Author Title Page — P9' India
+# Author Title Page: P9 India
 
-*(Submitted separately from the blinded manuscript — not for review)*
+*(Submitted separately from the blinded manuscript, not for review)*
 
 ## Manuscript Title
 
@@ -10,7 +10,7 @@
 
 *Alternate target:* International Journal of Emerging Markets (IJOEM), Emerald Publishing (Scopus Q1; IF 3.0+)
 
-*Submission date (planned):* [TBD — after empirical analysis complete]
+*Submission date (planned):* [TBD: after empirical analysis complete]
 
 ---
 
@@ -55,7 +55,7 @@ Role: Corresponding author
 | Writing – original draft | Lead | Supporting |
 | Writing – review & editing | Lead | Lead |
 
-## Prior Related Work — Disclosure
+## Prior Related Work: Disclosure
 
 The authors have previously published a related but methodologically and theoretically distinct study on Indian firms:
 

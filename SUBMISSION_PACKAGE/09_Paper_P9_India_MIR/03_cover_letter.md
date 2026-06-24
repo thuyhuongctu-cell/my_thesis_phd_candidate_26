@@ -1,4 +1,4 @@
-[Submission date — fill in after empirical analysis complete]
+[Submission date: fill in after empirical analysis complete]
 
 The Editor-in-Chief
 *Management International Review*
@@ -14,7 +14,7 @@ We are pleased to submit the above manuscript for consideration for publication 
 
 **Fit with MIR**
 
-MIR is a natural venue for this work for three reasons. First, the manuscript addresses a **core international business question** — the durability of the internationalisation–performance relationship under institutional change — using a large, multi-wave emerging-market dataset, consistent with MIR's editorial focus on rigorous comparative empirical research. Second, the **South Asian institutional context** (democratic federal common-law system with active developmental-state policy under Atmanirbhar Bharat and PLI) provides theoretical variation distinct from the East Asian transition-economy evidence that dominates the post-2010 emerging-market I-P literature. Third, the **UPI quasi-natural experiment** — distinguishing private digital adoption (Tier-1 website) from public digital infrastructure utilisation (Tier-2 e-payment via UPI rails) — speaks to a current MIR conversation on how state-provisioned infrastructure substitutes for private capability accumulation in emerging markets.
+MIR is a natural venue for this work for three reasons. First, the manuscript addresses a **core international business question**, the durability of the internationalisation–performance relationship under institutional change, using a large, multi-wave emerging-market dataset, consistent with MIR's editorial focus on rigorous comparative empirical research. Second, the **South Asian institutional context** (democratic federal common-law system with active developmental-state policy under Atmanirbhar Bharat and PLI) provides theoretical variation distinct from the East Asian transition-economy evidence that dominates the post-2010 emerging-market I-P literature. Third, the **UPI quasi-natural experiment**, distinguishing private digital adoption (Tier-1 website) from public digital infrastructure utilisation (Tier-2 e-payment via UPI rails), speaks to a current MIR conversation on how state-provisioned infrastructure substitutes for private capability accumulation in emerging markets.
 
 **Key Contributions**
 
@@ -24,7 +24,7 @@ Second, the manuscript **decomposes the Digital Adoption Index** into Tier-1 (pr
 
 Third, the manuscript **replicates and extends** the threshold-durability finding documented for China (Author Citation P5, under review at IJOEM, 2026) and Vietnam (Author Citation P3, under review at JED, 2026) to the South Asian context. If India also exhibits durability under far more severe institutional change, the structural-durability claim gains substantial external validity.
 
-**Prior Related Work — Transparent Disclosure**
+**Prior Related Work: Transparent Disclosure**
 
 We wish to disclose that we have previously published a related but distinct study on Indian firms in a book chapter (Do & Phan, 2025, IntechOpen, DOI 10.5772/intechopen.1011012). That chapter used a matched sub-sample of 380 firms (760 firm-year observations), a linear DOI specification, FGLS panel estimation, and an Uppsala + Upper Echelons theoretical lens to test moderation by top-management characteristics (experience, gender).
 
