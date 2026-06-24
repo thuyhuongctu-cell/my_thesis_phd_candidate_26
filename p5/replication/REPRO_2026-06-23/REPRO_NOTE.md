@@ -81,10 +81,25 @@ Both now run with no env vars and reproduce pooled TP 48.78% / N 4,544.
   six M2 specs (all/mfg × 2012/2024/pooled).
 - `audit_N_all.csv`, `audit_N_mfg.csv` — sample-size audit ladders.
 - `make_estimates.py` — generator (imports `build_and_run.py` as the single build).
+- `make_table2.py` — full Table 2 generator (coef, HC1 SE, p, stars, R², F, N,
+  delta-method turning point + 95% CI) for all-frame 2012/2024/pooled; the
+  authoritative source for the IJOEM manuscript's Table 2.
 - `three_way_moderation.csv` — moderation coefficients + joint F-tests.
 - `run_console.txt` — captured console output of the runs.
 
+## Table 2 reconciliation (manuscript sync)
+
+The IJOEM manuscript's Table 2 previously carried stale main-model coefficients
+(e.g. FSTS +1.28/+1.19/+1.24, FSTS² −1.53/−1.55, lnEmp +0.31, R² .142–.179)
+that matched neither `estimates.csv` nor the table's own (correct) turning
+points — recomputing TP from the printed β gave 41.8% rather than the stated
+49.4%. The turning points (49.4/47.2/48.8%) and N (2,610/1,934/4,544) were
+already canonical. Table 2 and the β-prose were re-synced to `make_table2.py`
+output (FSTS +2.07/+1.50/+1.78, FSTS² −2.09/−1.59/−1.83, lnEmp −0.10/+0.12/+0.00,
+R² .020/.053/.054); the 2024 Lind–Mehlum u-test is p = .029 (not < .001). The
+inverted-U narrative, turning points, and figures are unchanged.
+
 ## Integrity
 
-No numbers were altered; all values above are the literal output of the
-estimation scripts on the committed raw data. No discrepancies vs canonical.
+All coefficient values are the literal output of the estimation scripts on the
+committed raw data. Table 2 now matches `estimates.csv` / `make_table2.py`.
