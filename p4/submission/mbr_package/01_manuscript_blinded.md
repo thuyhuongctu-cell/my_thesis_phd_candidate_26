@@ -29,7 +29,7 @@ productivity; Singapore
 
 Singapore is an analytically valuable setting for revisiting the internationalization–performance relationship because it combines high digital maturity with firm-level heterogeneity in export intensity. The classic I–P literature explains nonlinearity through a trade-off between the scale and learning benefits of expansion and the rising coordination costs of operating across markets, with the inverted-U as the modal pattern (Marano et al. 2016). Much of this literature, however, was developed in pre-digital or transitional settings whose institutional and infrastructural conditions differ from those of digitally advanced economies (Peng 2003; Peng et al. 2008). By contemporaneous assessments Singapore is at the frontier: 2nd globally (1st in Asia Pacific) in the StartupBlink Innovators Business Environment Index 2026, 4th in the Global Startup Ecosystem Index 2025, and 3rd in the UN e-Government Survey 2024, while Smart Nation 2.0 (2024) makes digital trust infrastructure explicit national policy (GovTech Singapore 2024; StartupBlink 2025, 2026).
 
-In such a context the relevant question is not whether firms still exhibit the conventional inverted-U, but whether digital maturity changes the export range over which the right-side decline becomes visible. If mature digital infrastructure attenuates communication, transaction, and information frictions, the coordination-cost mechanism underlying the classic inverted-U may be weakened, delayed, or pushed toward sparsely populated export levels (Bharadwaj et al. 2013; Verhoef et al. 2021). This creates a *digital saturation paradox*: where Tier 1–2 interfaces (websites, electronic payments) are already widely diffused, enabled by Singapore's national Digital Public Infrastructure (World Bank 2025a), they function as hygiene factors for domestic operations rather than differentiating assets. Consistent with this, 82% of sampled firms report zero exports and only 3% exceed 50% foreign sales. The productivity returns to foundational digital adoption should therefore not manifest uniformly; they should become measurable mainly when firms face the intensified coordination demands of cross-border activity. Singapore thus serves as an analytically ideal stress test: domestic saturation removes the uniform-premium effect and leaves only the export-contingent signal.
+In such a context the relevant question is not whether firms still exhibit the conventional inverted-U, but whether digital maturity changes the export range over which the right-side decline becomes visible. If mature digital infrastructure attenuates communication, transaction, and information frictions, the coordination-cost mechanism underlying the classic inverted-U may be weakened, delayed, or pushed toward sparsely populated export levels (Bharadwaj et al. 2013; Verhoef et al. 2021). This creates a *digital saturation paradox*: where Tier 1–2 interfaces (websites, electronic payments) are already widely diffused, enabled by Singapore's national Digital Public Infrastructure (World Bank 2024), they function as hygiene factors for domestic operations rather than differentiating assets. Consistent with this, 82% of sampled firms report zero exports and only 3% exceed 50% foreign sales. The productivity returns to foundational digital adoption should therefore not manifest uniformly; they should become measurable mainly when firms face the intensified coordination demands of cross-border activity. Singapore thus serves as an analytically ideal stress test: domestic saturation removes the uniform-premium effect and leaves only the export-contingent signal.
 
 A second motivation concerns construct clarity. In digitally advanced settings, firms differ not only in deeper technological capability rooted in learning, innovation, and absorptive capacity, but also in their adoption of basic digital interfaces and transaction-enabling systems. These domains should not be collapsed: technological capability reflects firm-internal capability depth (Barney 1991; Cohen and Levinthal 1990; Lall 1992), whereas digital adoption reflects participation in digitally enabled transactions contingent on the surrounding ecosystem (Bharadwaj et al. 2013; Verhoef et al. 2021).
 
@@ -83,13 +83,13 @@ demands are densest. This within-context evidence from Singapore
 supports a contingent digital complementarity mechanism, DAI as a
 scaling lever whose value is realised under export-intensity conditions
 rather than as a broad firm-level capability advantage. The evidence for
-this mechanism (H3: positive quadratic DAI×FSTS² interaction, β=+3.119,
-p=.005) is the most distinctive empirical finding and the one least
+this mechanism (H3: positive quadratic DAI×FSTS² interaction, β=+3.220,
+p=.020) is the most distinctive empirical finding and the one least
 anticipated by prior literature. The first supporting contribution
 qualifies the conventional nonlinear I–P literature. Within the observed
 export-intensity range, the fitted quadratic is more defensibly read as
 predominantly positive with mild curvature than as a formally
-established inverted-U: the implied turning point lies near FSTS=88.6%,
+established inverted-U: the implied turning point lies near FSTS=85.7%,
 in a sparsely populated upper tail, and the Lind–Mehlum test does not
 formally confirm a right-side decline at conventional thresholds. In a
 digitally mature economy where Tier 1–2 coordination tools are widely
@@ -273,11 +273,11 @@ arrows represent moderating and conditional effects. The independent
 variable, internationalisation intensity (FSTS, FSTS²_c), is placed at
 left; the dependent variable, ln(labour productivity), is placed at
 right. H1 (inverted-U tendency with support-constrained turning point
-~88.6% FSTS, bootstrap CI \[53%, 253%\]) is grounded in
+~85.7% FSTS, bootstrap CI \[58%, 398%\]) is grounded in
 coordination-cost theory (Hitt et al., 1997); the right-side decline is
 not formally identified within the observed FSTS range, a theoretically
 informative result under the saturation framework (Lind–Mehlum p =
-.303). H1-TCI: technological capability (TCI_z, RBV: Barney, 1991)
+.346). H1-TCI: technological capability (TCI_z, RBV: Barney, 1991)
 enters as a direct level-shift to firm performance. H2: DAI (Tier-1+2:
 website + e-payment) exhibits a non-uniform positive direct effect,
 varying across export intensity. H3: DAI amplifies I to P performance
@@ -337,7 +337,7 @@ would not be expected to produce a comparable positive quadratic
 interaction; instead it would be more plausibly read as construct-tier
 obsolescence than as evidence on the conditional-scaling mechanism (see
 Section 5.1 for the construct-boundary discussion). The Lind–Mehlum equivalence
-test result (p = .303) reported in Section 4.2 should therefore be interpreted
+test result (p = .346) reported in Section 4.2 should therefore be interpreted
 in conjunction with the Tier-1+2 construct composition and the high
 domestic-orientation distribution of the Singapore sample, not as a
 stand-alone null on the inverted-U logic. Figure 3 \[see Figures
@@ -355,8 +355,7 @@ employment items and follows the productivity-as-performance approach
 used in prior firm-level international business research. Because all
 sampled observations belong to the same 2023 cross-section, sales are
 expressed in nominal 2023 Singapore dollars, with any common price-level
-effect absorbed by the intercept. To reduce sensitivity to outliers, the
-dependent variable is winsorized at the 1st and 99th percentiles.
+effect absorbed by the intercept.
 
 #### 3.2.2 Focal independent variable
 
@@ -398,7 +397,7 @@ replaces the Tier-1+2 composite DAI with a Tier-1-only variant
 digital-presence measure used in less digitally mature WBES settings
 (e.g., Vietnam 2009–2015). The key result is that the FSTS²×DAI
 quadratic interaction coefficient attenuates substantially, from β =
-+3.119 (p = .005) in the Tier-1+2 specification to a smaller and
++3.220 (p = .020) in the Tier-1+2 specification to a smaller and
 statistically weaker estimate, while the Tier-1+2 full model's adjusted
 R² advantage is also reduced. This pattern is directionally consistent
 with the theoretical construct-boundary argument developed in Section 1.2 and
@@ -487,13 +486,13 @@ associations rather than causal effects.
 
 Four boundary conditions delimit the inferential reach of the OLS specification; the Section 4 results are read against them without recurrent caveats.
 
-*(i) Sample support.* Within the WBES SME frame, 82% of firms report zero exports, 18% any positive intensity, and only 3% exceed 50% FSTS. The quadratic curvature is thus identified mainly through the FSTS = 0 versus FSTS > 0 contrast, with limited upper-tail support. The fitted turning point near FSTS ≈ 88.6% lies in a sparse region with a wide 95% bootstrap CI ([53%, 253%]) despite an inverted-U shape in 96.3% of resamples; the right-side decline is therefore not formally identified within the supported range.
+*(i) Sample support.* Within the WBES SME frame, 82% of firms report zero exports, 18% any positive intensity, and only 3% exceed 50% FSTS. The quadratic curvature is thus identified mainly through the FSTS = 0 versus FSTS > 0 contrast, with limited upper-tail support. The fitted turning point near FSTS ≈ 85.7% lies in a sparse region with a wide 95% bootstrap CI ([58%, 398%]) despite an inverted-U shape in 94.9% of resamples; the right-side decline is therefore not formally identified within the supported range.
 
-*(ii) Exporters-only power.* The exporters-only subsample (FSTS > 0; N = 84 after the complete-case restriction on model covariates, from the roughly 18 per cent of firms with positive exports) is the natural setting for the intensity-margin mechanism but is underpowered for the small moderation block (f² ≈ 0.018; power ≈ 16% at N = 84, against N ≳ 430 for 80% power; Cohen 1988; Aguinis et al. 2005). Null moderation here is therefore not evidence against the conditional-scaling mechanism; conversely, the positive joint F-test in the R5 exporters-only specification (F = 6.32, p = .003, β = +2.821) is read as a high-prior-strength corroborating signal rather than an independent identifying test.
+*(ii) Exporters-only power.* The exporters-only subsample (FSTS > 0; N = 84 after the complete-case restriction on model covariates, from the roughly 18 per cent of firms with positive exports) is the natural setting for the intensity-margin mechanism but is underpowered for the small moderation block (f² ≈ 0.012; power ≈ 16% at N = 84, against N ≳ 430 for 80% power; Cohen 1988; Aguinis et al. 2005). Null moderation here is therefore not evidence against the conditional-scaling mechanism; conversely, the positive joint F-test in the R5 exporters-only specification (F = 4.54, p = .014, β = +1.987) is read as a high-prior-strength corroborating signal rather than an independent identifying test.
 
-*(iii) Lind–Mehlum equivalence framing.* The non-rejection of monotonicity (p = .303) is conditioned on dense support around the turning point, which (i) shows is absent. Under the saturation hypothesis (Section 1.1), a non-rejection in the thin upper tail is the expected signature when mature Tier-2 infrastructure absorbs the coordination-cost decline, i.e., a positive theoretical signal rather than a methodological failure.
+*(iii) Lind–Mehlum equivalence framing.* The non-rejection of monotonicity (p = .346) is conditioned on dense support around the turning point, which (i) shows is absent. Under the saturation hypothesis (Section 1.1), a non-rejection in the thin upper tail is the expected signature when mature Tier-2 infrastructure absorbs the coordination-cost decline, i.e., a positive theoretical signal rather than a methodological failure.
 
-*(iv) Selection.* No exclusion restriction is available in the single-wave design. A reduced-form inverse-Mills-ratio check (first-stage probit of export participation on age, log size, sector FE, sampling stratum) yields a marginal IMR coefficient (β = 0.264, SE = 0.138, p = .055), and the key DAI × FSTS² and TCI estimates are unchanged (|Δ| < 0.02). Consistent with Wolfolds and Siegel (2019), OLS with HC1 errors is the primary specification, with claims bounded to within-context associations rather than causal effects.
+*(iv) Selection.* No exclusion restriction is available in the single-wave design. A reduced-form inverse-Mills-ratio check (first-stage probit of export participation on age, log size, sector FE, sampling stratum) leaves the key DAI × FSTS² and TCI estimates essentially unchanged (|Δ| < 0.02), with the inverse-Mills term itself statistically insignificant. Consistent with Wolfolds and Siegel (2019), OLS with HC1 errors is the primary specification, with claims bounded to within-context associations rather than causal effects.
 
 ## 4 Results
 
@@ -539,7 +538,7 @@ Two-tailed significance levels are reported as follows: p \< .10, p \<
 
 ### 4.2 The I–P relationship: primarily monotonic with mild curvature
 
-In the baseline quadratic specification (Model M2), the linear FSTS term is positive and significant (β = +2.652, SE = 0.691, p < .001) and the squared term is negative (β = −1.705, SE = 0.931, p = .068). The fitted curve implies a turning point in the upper tail (near FSTS = 88.6% on the original scale) that is imprecisely located in a sparsely populated region. A 5,000-replication bootstrap recovers an inverted-U in 96.3% of replications, but the 95% percentile CI for the turning point is wide ([53%, 253%]), and the Lind–Mehlum test does not formally confirm an inverted-U (p = .303).
+In the baseline quadratic specification (Model M2), the linear FSTS term is positive and significant (β = +3.078, SE = 0.805, p < .001) and the squared term is negative (β = −1.898, SE = 1.079, p = .079). The fitted curve implies a turning point in the upper tail (near FSTS = 85.7% on the original scale) that is imprecisely located in a sparsely populated region. A 5,000-replication bootstrap recovers an inverted-U in 94.9% of replications, but the 95% percentile CI for the turning point is wide ([58%, 398%]), and the Lind–Mehlum test does not formally confirm an inverted-U (p = .346).
 
 This null is itself informative. Singapore's DAI distribution is concentrated at the high end (≈67% report website presence; Tier-2 e-payment is widespread), leaving insufficient spread to identify a right-side decline within the observable FSTS range. Under an equivalence-test framing (Lakens, Scheel, and Isager 2018), with observed FSTS bounded near the 70th percentile, the test cannot distinguish "no inverted-U" from "an inverted-U whose decline lies in the unobserved upper tail"; both readings are consistent with a predominantly positive association across the supported range. The most defensible interpretation is therefore not a firmly established inverted-U but a relationship that is predominantly positive with mild quadratic curvature over the observed range, consistent with the saturation hypothesis underlying H3. Read this way, the evidence qualifies rather than overturns the conventional nonlinear literature.
 
@@ -547,13 +546,13 @@ This null is itself informative. Singapore's DAI distribution is concentrated at
 
 The direct-effect model for technological capability (Model M5)
 indicates that TCI is positively associated with labour productivity (β
-= 0.168, SE = 0.040, p \< .001). Model fit also improves relative to the
-quadratic baseline, with R² rising from 0.178 in Model M2 to 0.199 in
+= 0.171, SE = 0.044, p \< .001). Model fit also improves relative to the
+quadratic baseline, with R² rising from 0.175 in Model M2 to 0.197 in
 Model M5. This pattern supports the view that technological capability
 raises the firm’s productivity base rather than simply proxying for
 export intensity. In the supplementary TCI-moderation specification
 (Model M3), the direct TCI coefficient remains positive and significant
-(β = 0.188, p \< .001), but the interaction terms involving FSTS and
+(β = 0.168, p \< .001), but the interaction terms involving FSTS and
 squared FSTS are jointly insignificant. Because the absence of
 moderation cannot be inferred from non-significance alone, the evidence
 is better read as supporting an intercept-dominant interpretation of the
@@ -569,10 +568,10 @@ digital complementarity.
 ### 4.4 DAI results
 
 In the direct-effect model for digital adoption (Model M6), DAI is
-positively associated with labour productivity (β = 0.104, SE = 0.038, p
-= .007). However, once TCI is included alongside DAI in Model M7, the
-DAI coefficient attenuates to β = 0.077 and remains statistically
-significant but attenuated (p = .048), suggesting partial overlap in the
+positively associated with labour productivity (β = 0.119, SE = 0.039, p
+= .002). However, once TCI is included alongside DAI in Model M7, the
+DAI coefficient attenuates to β = 0.094 and remains statistically
+significant but attenuated (p = .016), suggesting partial overlap in the
 average-firm heterogeneity captured by the two constructs. This
 attenuation is substantively important because it suggests that DAI
 should not be interpreted as a large, uniform productivity premium
@@ -582,26 +581,26 @@ in parentheses.
 
 | Variable | M0Ctrl | M2Inv-U | M5+TCI | M6+DAI | M7T+D | M4DAI× | M8Full |
 |----------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| FSTS | | +2.652\*\*\* | +2.165\*\* | +2.322\*\*\* | +1.952\*\* | +2.768\*\*\* | +2.409\*\* |
-| | | (0.691) | (0.699) | (0.701) | (0.707) | (0.750) | (0.748) |
-| FSTS² | | -1.705† | -1.168 | -1.389 | -0.965 | -2.959\*\* | -2.543\* |
-| | | (0.931) | (0.940) | (0.928) | (0.938) | (1.012) | (1.045) |
-| TCI (z) | | | +0.168\*\*\* | | +0.153\*\*\* | | +0.153\*\*\* |
-| | | | (0.040) | | (0.041) | | (0.041) |
-| DAI (z) | | | | +0.104\*\* | +0.077\* | +0.046 | +0.019 |
-| | | | | (0.038) | (0.039) | (0.045) | (0.050) |
-| FSTS × DAI | | | | | | -1.144 | -1.177† |
-| | | | | | | (0.702) | (0.686) |
-| FSTS² × DAI | | | | | | +3.098\*\* | +3.119\*\* |
-| | | | | | | (1.088) | (1.124) |
-| Firm size (ln) | -0.120\*\* | -0.124\*\*\* | -0.175\*\*\* | -0.135\*\*\* | -0.179\*\*\* | -0.125\*\*\* | -0.168\*\*\* |
-| Firm age | +0.017\*\*\* | +0.015\*\*\* | +0.017\*\*\* | +0.016\*\*\* | +0.017\*\*\* | +0.015\*\*\* | +0.016\*\*\* |
-| Foreign-owned | +0.407\*\*\* | +0.307\*\*\* | +0.293\*\*\* | +0.307\*\*\* | +0.294\*\* | +0.298\*\*\* | +0.284\*\* |
+| FSTS | | +3.078\*\*\* | +2.643\*\* | +2.726\*\*\* | +2.408\*\* | +3.109\*\*\* | +2.791\*\* |
+| | | (0.805) | (0.836) | (0.817) | (0.845) | (0.826) | (0.850) |
+| FSTS² | | -1.898† | -1.418 | -1.568 | -1.203 | -3.277\*\* | -2.872\* |
+| | | (1.079) | (1.111) | (1.080) | (1.114) | (1.103) | (1.145) |
+| TCI (z) | | | +0.171\*\*\* | | +0.155\*\*\* | | +0.152\*\*\* |
+| | | | (0.044) | | (0.046) | | (0.046) |
+| DAI (z) | | | | +0.119\*\* | +0.094\* | +0.063 | +0.039 |
+| | | | | (0.039) | (0.039) | (0.049) | (0.049) |
+| FSTS × DAI | | | | | | -1.037 | -1.018 |
+| | | | | | | (0.790) | (0.777) |
+| FSTS² × DAI | | | | | | +3.307\* | +3.220\* |
+| | | | | | | (1.345) | (1.384) |
+| Firm size (ln) | -0.127\*\*\* | -0.129\*\*\* | -0.177\*\*\* | -0.143\*\*\* | -0.184\*\*\* | -0.130\*\*\* | -0.171\*\*\* |
+| Firm age | +0.018\*\*\* | +0.015\*\*\* | +0.016\*\*\* | +0.016\*\*\* | +0.016\*\*\* | +0.015\*\*\* | +0.016\*\*\* |
+| Foreign-owned | +0.443\*\*\* | +0.330\*\*\* | +0.319\*\*\* | +0.327\*\*\* | +0.315\*\*\* | +0.316\*\*\* | +0.304\*\*\* |
 | Sector FE | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Constant | +10.958\*\*\* | +11.157\*\*\* | +11.345\*\*\* | +11.199\*\*\* | +11.361\*\*\* | +11.190\*\*\* | +11.353\*\*\* |
+| Constant | +11.433\*\*\* | +11.537\*\*\* | +11.656\*\*\* | +11.558\*\*\* | +11.664\*\*\* | +11.550\*\*\* | +11.655\*\*\* |
 | N | 623 | 623 | 623 | 617 | 617 | 617 | 617 |
-| R² | 0.122 | 0.178 | 0.199 | 0.184 | 0.202 | 0.193 | 0.211 |
-| Adj. R² | 0.115 | 0.168 | 0.189 | 0.174 | 0.190 | 0.180 | 0.196 |
+| R² | 0.104 | 0.175 | 0.197 | 0.184 | 0.201 | 0.194 | 0.211 |
+| Adj. R² | 0.096 | 0.166 | 0.186 | 0.173 | 0.189 | 0.181 | 0.196 |
 
 Notes: The dependent variable is log labour productivity. HC1 robust
 standard errors are reported in parentheses. FSTS is mean-centered
@@ -625,11 +624,11 @@ large unconditional premium, but a positive quadratic moderation pattern
 indicating that the relevance of digital adoption becomes more positive
 as export intensity rises. The strongest evidence for DAI appears in the
 moderation specifications. In the full model (Model M8), the direct DAI
-term is small and not statistically significant (β = 0.019, p = .705),
+term is small and not statistically significant (β = 0.039, p = .419),
 the linear interaction with FSTS is negative but does not reach
-conventional significance (β = −1.177, p = .083), and the quadratic
-interaction term is positive and statistically significant (β = 3.119,
-SE = 1.124, p = .005). Model M8 also produces the highest explanatory
+conventional significance (β = −1.018, p = .190), and the quadratic
+interaction term is positive and statistically significant (β = 3.220,
+SE = 1.384, p = .020). Model M8 also produces the highest explanatory
 power among the main specifications, with R² = 0.211 and adjusted R² =
 0.196. Read substantively, these estimates indicate that the
 productivity relevance of digital adoption becomes more positive at
@@ -650,15 +649,15 @@ across selected FSTS levels (from Model M8).
 
 | FSTS level | Marginal effect of DAI | SE | p-value | 95% CI |
 |----------------------|------------------------|-------|----------|--------------------|
-| FSTS = 0% (domestic) | +0.080 | 0.040 | .045\* | \[+0.002, +0.158\] |
-| FSTS = 5% | +0.015 | 0.047 | .752 | \[-0.077, +0.106\] |
-| FSTS = 10% | -0.035 | 0.069 | .616 | \[-0.170, +0.101\] |
-| FSTS = 15% | -0.069 | 0.093 | .459 | \[-0.250, +0.113\] |
-| FSTS = 20% | -0.087 | 0.113 | .444 | \[-0.309, +0.135\] |
-| FSTS = 30% | -0.077 | 0.145 | .598 | \[-0.361, +0.208\] |
-| FSTS = 50% | +0.131 | 0.186 | .481 | \[-0.234, +0.496\] |
-| FSTS = 70% | +0.660 | 0.295 | .025\* | \[+0.082, +1.238\] |
-| FSTS = 100% | +1.818 | 0.592 | .002\*\* | \[+0.658, +2.978\] |
+| FSTS = 0% (domestic) | +0.094 | 0.041 | .021\* | \[+0.014, +0.173\] |
+| FSTS = 5% | +0.036 | 0.050 | .476 | \[-0.063, +0.134\] |
+| FSTS = 10% | -0.006 | 0.077 | .938 | \[-0.157, +0.145\] |
+| FSTS = 15% | -0.032 | 0.104 | .761 | \[-0.235, +0.172\] |
+| FSTS = 20% | -0.041 | 0.127 | .747 | \[-0.291, +0.209\] |
+| FSTS = 30% | -0.012 | 0.164 | .942 | \[-0.332, +0.309\] |
+| FSTS = 50% | +0.240 | 0.220 | .276 | \[-0.192, +0.671\] |
+| FSTS = 70% | +0.749 | 0.342 | .029\* | \[+0.079, +1.420\] |
+| FSTS = 100% | +1.996 | 0.767 | .009\*\* | \[+0.492, +3.500\] |
 
 Notes: Marginal effects are computed from Model M8 for a
 one-standard-deviation increase in DAI. Standard errors are derived
@@ -668,15 +667,15 @@ export range but becomes positive and significant among high-intensity
 exporters. Table 4 and Figure 2 translate the interaction estimates from
 Model M8 into substantively interpretable marginal effects across the
 export-intensity distribution. At FSTS = 0, the marginal effect of DAI
-is small but positive and statistically significant (+0.080, p = .045),
+is small but positive and statistically significant (+0.094, p = .021),
 indicating only a modest baseline association among purely domestic
 firms. Across the low-export and middle export range, however, the
 marginal effect is statistically indistinguishable from zero, which
 indicates that basic digital adoption does not generate a large
 universal labour-productivity premium across the full sample. By
 contrast, the marginal effect becomes positive and statistically
-significant among high-intensity exporters, reaching +0.660 at FSTS =
-70% and +1.818 at FSTS = 100% (Table 4). This pattern supports the
+significant among high-intensity exporters, reaching +0.749 at FSTS =
+70% and +1.996 at FSTS = 100% (Table 4). This pattern supports the
 interpretation of DAI as a scale-enabling complement whose productivity
 relevance emerges more clearly when firms face denser cross-border
 coordination and transaction demands. In this setting, foundational
@@ -700,12 +699,12 @@ Predicted I–P curve with bootstrap confidence band (Singapore, OLS M2)
 *Figure 3.* Predicted internationalization–performance curve. Predicted
 relationship between export intensity and labour productivity with 95%
 confidence bands from the canonical quadratic specification (M2). The
-implied turning point occurs near FSTS = 88.6% on the original scale
-(−β₁/2β₂ on mean-centered FSTS ≈ 84.1%; adding back the sample mean of
-0.045 gives ≈ 88.6%, Aiken and West, 1991), but its 95% percentile
-cluster-bootstrap confidence interval (5,000 replications) spans \[53%,
-253%\] (median 80%, IQR \[68%, 102%\]); the inverted-U shape is
-recovered in 96.3% of bootstrap replications, but its precise location
+implied turning point occurs near FSTS = 85.7% on the original scale
+(−β₁/2β₂ on mean-centered FSTS ≈ 81.1%; adding back the sample mean of
+0.045 gives ≈ 85.7%, Aiken and West, 1991), but its 95% percentile
+cluster-bootstrap confidence interval (5,000 replications) spans \[58%,
+398%\] (median 83%, IQR \[70%, 107%\]); the inverted-U shape is
+recovered in 94.9% of bootstrap replications, but its precise location
 is only loosely identified. The shaded red vertical band marks the
 bootstrap CI for the turning point. The estimate should therefore be
 interpreted as descriptive of the data rather than as structurally
@@ -736,15 +735,15 @@ as suggestive rather than definitive. An item-swap falsification test
 further supports the construct boundary between TCI and DAI: when the
 website indicator (c22b) is reassigned from DAI to TCI, the joint
 significance of the DAI moderation block collapses (joint F drops from
-4.56 \[p = .011\] in the canonical specification to 1.88 \[p = .154\]),
+3.21 \[p = .041\] in the canonical specification to 1.86 \[p = .157\]),
 whereas swapping technology indicators in the opposite direction
 preserves the moderation pattern. The conditional-scaling interpretation
 therefore depends on the foundational digital-infrastructure indicators
 (website plus electronic payments) being correctly grouped under DAI
 rather than absorbed into a broader capability construct. Cohen's f² for
-the TCI direct effect (comparing M2 with M5) is approximately 0.036, in
+the TCI direct effect (comparing M2 with M5) is approximately 0.027, in
 the small-to-medium range; Cohen's f² for the DAI moderation block
-(comparing M7 with M8) is approximately 0.018, below Cohen's (1988)
+(comparing M7 with M8) is approximately 0.012, below Cohen's (1988)
 conventional small-effect threshold of 0.02. The exporters-only
 subsample (N = 84) is underpowered for effects of this magnitude; the
 consolidated power-bounded inferential reading is established at
@@ -757,8 +756,8 @@ high-export tail.
 
 **Additional robustness notes.** (i) *Exporters-only subsample* (R5,
 FSTS \> 0; N = 84): the positive quadratic DAI interaction retains its
-sign (β=+2.821) and the joint F-test is statistically significant (F =
-6.32, p = .003), corroborating the amplification mechanism documented in
+sign (β=+1.987) and the joint F-test is statistically significant (F =
+4.54, p = .014), corroborating the amplification mechanism documented in
 the full sample; the power-bounded inferential reading of this
 exporters-only result is established at Section 3.4(ii) and is not repeated
 here. (ii) *Export participation selection*: the inverse-Mills-ratio
@@ -776,12 +775,12 @@ reports a separate full-specification regression with controls.
 
 | Specification | N | TCI β_z | FSTS² × DAI | Joint F (p) | Adj. R² |
 |----------------------------------|-----|-------------|-------------|-------------|---------|
-| Baseline (TCI_full + DAI_rich) | 617 | 0.153\*\*\* | 3.119\*\* | 4.56 (.011) | 0.196 |
-| R1: DAI_thin (website c22b only) | 623 | 0.180\*\*\* | 1.552 | 4.01 (.019) | 0.188 |
-| R2: TCI_thin (e6 + b8) | 617 | 0.159\*\*\* | 2.930\*\* | 4.27 (.014) | 0.199 |
-| R3: Excl micro-firms (\<10 empl) | 464 | 0.170\*\*\* | 3.521\*\* | 4.61 (.010) | 0.219 |
-| R4: SMEs only (≤200 empl) | 595 | 0.156\*\*\* | 3.505\*\* | 5.30 (.005) | 0.199 |
-| R5: Exporters only (FSTS \> 0) | 84 | 0.130 | 2.821 | 6.32 (.003) | 0.165 |
+| Baseline (TCI_full + DAI_rich) | 617 | 0.152\*\*\* | 3.220\* | 3.21 (.041) | 0.196 |
+| R1: DAI_thin (website c22b only) | 623 | 0.180\*\*\* | 1.348 | 2.27 (.104) | 0.185 |
+| R2: TCI_thin (e6 + b8) | 611 | 0.149\*\* | 2.581\* | 3.03 (.049) | 0.186 |
+| R3: Excl micro-firms (\<10 empl) | 464 | 0.187\*\*\* | 4.252\*\* | 4.48 (.012) | 0.231 |
+| R4: SMEs only (≤200 empl) | 595 | 0.160\*\*\* | 3.600\*\* | 3.61 (.028) | 0.202 |
+| R5: Exporters only (FSTS \> 0) | 84 | 0.130 | 1.987 | 4.54 (.014) | 0.165 |
 
 Notes: Each row reports a separate full-specification regression with
 controls. Joint F refers to the test that the two DAI interaction terms
@@ -873,9 +872,9 @@ layer captured by DAI, and that higher-tier digital capabilities
 the present design but are embedded in the surrounding innovation
 ecosystem.
 
-**Adjudicating the three candidate mechanisms (Section 2.3.4).** The Singapore evidence is most consistent with *amplification*. The distinguishing signature is the sign of the *quadratic* interaction: the positive FSTS² × DAI coefficient (β = +3.119, p = .005) implies that DAI's productivity contribution grows super-linearly with export-intensity scale, which a level-shift *substitution* mechanism would not produce. The quadratic sign is preserved across sample restrictions (R1 thin-website, R3 excl. micro-firms, R4 SMEs only, R5 exporters-only) and indicator-sensitivity diagnostics, which is inconsistent with a pure *selection* story (under which the joint correlation should attenuate when the firms driving it are removed). Selection cannot be fully eliminated without an instrument unavailable in the single-wave design, and the Section 3.4(iv) Heckman check indicates mild but non-eliminating extensive-margin selection; amplification is therefore the focal mechanism with selection retained as a bounded residual concern. The contribution is thus not a universal digitalization mechanism but a clarification that foundational digital adoption and technological capability are analytically distinct and associated with performance through different patterns. Prior conceptual work on digital internationalization (Banalieva and Dhanaraj 2019; Stallkamp and Schotter 2021) has outpaced firm-level evidence on how foundational digital adoption interacts with export intensity within a single advanced economy; these findings provide one such data point.
+**Adjudicating the three candidate mechanisms (Section 2.3.4).** The Singapore evidence is most consistent with *amplification*. The distinguishing signature is the sign of the *quadratic* interaction: the positive FSTS² × DAI coefficient (β = +3.220, p = .020) implies that DAI's productivity contribution grows super-linearly with export-intensity scale, which a level-shift *substitution* mechanism would not produce. The quadratic sign is preserved across sample restrictions (R1 thin-website, R3 excl. micro-firms, R4 SMEs only, R5 exporters-only) and indicator-sensitivity diagnostics, which is inconsistent with a pure *selection* story (under which the joint correlation should attenuate when the firms driving it are removed). Selection cannot be fully eliminated without an instrument unavailable in the single-wave design, and the Section 3.4(iv) Heckman check indicates mild but non-eliminating extensive-margin selection; amplification is therefore the focal mechanism with selection retained as a bounded residual concern. The contribution is thus not a universal digitalization mechanism but a clarification that foundational digital adoption and technological capability are analytically distinct and associated with performance through different patterns. Prior conceptual work on digital internationalization (Banalieva and Dhanaraj 2019; Stallkamp and Schotter 2021) has outpaced firm-level evidence on how foundational digital adoption interacts with export intensity within a single advanced economy; these findings provide one such data point.
 
-**Construct-tier boundary and institutional transferability.** The amplification reading is tied to the *Tier-1+2* composition of DAI (website presence, c22b, plus two-way electronic-payment intensity, k33/k38). The signal is concentrated in the Tier-2 transaction-enabling layer: in the Section 4.5 R1 specification, reducing DAI to the Tier-1 website-only binary weakens the quadratic interaction substantially (β drops from +3.119 to +1.552; joint F = 4.01, p = .019), and an item-swap falsification (moving c22b to TCI) further weakens it. This has a transferability implication. In advanced-economy settings where Tier-2 payment rails are diffused alongside Tier-1 presence, a Tier-1+2 composite retains discriminatory power and the amplification mechanism is detectable. In transitional economies where Tier-2 infrastructure remains institutionally bounded (cross-border payment rails reached systemic scale only in the late 2010s across lower-middle-income Asia; World Bank 2023), a Tier-1-only construct loses discriminatory power as the diffusion ceiling is approached, and any export-intensity association is more plausibly read as construct-tier obsolescence. The amplification ceiling is therefore not a Singapore idiosyncrasy but a Tier-1+2 threshold effect: economies that upgrade payment infrastructure to Tier-2 coverage should expect the conditional-complementarity pattern to become empirically legible. This reframes Singapore as a leading indicator rather than an outlier, and positions the findings as a within-context boundary case at the advanced-economy ceiling rather than a broadly applicable digital-complementarity claim.
+**Construct-tier boundary and institutional transferability.** The amplification reading is tied to the *Tier-1+2* composition of DAI (website presence, c22b, plus two-way electronic-payment intensity, k33/k38). The signal is concentrated in the Tier-2 transaction-enabling layer: in the Section 4.5 R1 specification, reducing DAI to the Tier-1 website-only binary weakens the quadratic interaction substantially (β drops from +3.220 to +1.348; joint F = 2.27, p = .104), and an item-swap falsification (moving c22b to TCI) further weakens it. This has a transferability implication. In advanced-economy settings where Tier-2 payment rails are diffused alongside Tier-1 presence, a Tier-1+2 composite retains discriminatory power and the amplification mechanism is detectable. In transitional economies where Tier-2 infrastructure remains institutionally bounded (cross-border payment rails reached systemic scale only in the late 2010s across lower-middle-income Asia; World Bank 2024), a Tier-1-only construct loses discriminatory power as the diffusion ceiling is approached, and any export-intensity association is more plausibly read as construct-tier obsolescence. The amplification ceiling is therefore not a Singapore idiosyncrasy but a Tier-1+2 threshold effect: economies that upgrade payment infrastructure to Tier-2 coverage should expect the conditional-complementarity pattern to become empirically legible. This reframes Singapore as a leading indicator rather than an outlier, and positions the findings as a within-context boundary case at the advanced-economy ceiling rather than a broadly applicable digital-complementarity claim.
 
 ### 5.2 Managerial implications
 
@@ -887,7 +886,7 @@ This study revisits the internationalization–performance relationship by disti
 
 ## 7 Limitations and Future Research
 
-Three limitations warrant caution. First, the analysis is a single-country cross-section, so inference is associational rather than causal; the observed relationships may reflect reverse causation, omitted variables, or productivity-driven selection into exporting and digital adoption. Second, the sample has a thin right tail of high-intensity exporters (the 75th percentile of FSTS is zero; only a small fraction occupy the high-export range where the turning point and the strongest DAI moderation appear). The implied turning point is therefore descriptive rather than structurally identified, with a wide 95% bootstrap CI ([53%, 253%]) despite an inverted-U shape in 96.3% of resamples; the DAI moderation survives leave-one-out, trimmed-tail, and indicator-sensitivity diagnostics but is necessarily less precise in the small exporter subsample (N = 84). Third, the DAI construct captures Tier 1–2 digital adoption (digital presence and electronic-transaction usage) rather than deeper process integration or digital dynamic capability, and the moderation weakens when the foundational indicators are dropped. Future research should test whether the same conditional pattern appears in other digitally advanced economies and under richer measures of process integration and higher-order capabilities, using panel data, successive survey waves, linked administrative records, or quasi-experimental designs (e.g., instruments such as firm-to-port distance or customs-clearance times for export intensity, and regional broadband coverage or within-sector peer adoption for digital adoption), while noting that such designs require adequate first-stage strength and credible exclusion restrictions (Wolfolds and Siegel 2019).
+Three limitations warrant caution. First, the analysis is a single-country cross-section, so inference is associational rather than causal; the observed relationships may reflect reverse causation, omitted variables, or productivity-driven selection into exporting and digital adoption. Second, the sample has a thin right tail of high-intensity exporters (the 75th percentile of FSTS is zero; only a small fraction occupy the high-export range where the turning point and the strongest DAI moderation appear). The implied turning point is therefore descriptive rather than structurally identified, with a wide 95% bootstrap CI ([58%, 398%]) despite an inverted-U shape in 94.9% of resamples; the DAI moderation survives leave-one-out, trimmed-tail, and indicator-sensitivity diagnostics but is necessarily less precise in the small exporter subsample (N = 84). Third, the DAI construct captures Tier 1–2 digital adoption (digital presence and electronic-transaction usage) rather than deeper process integration or digital dynamic capability, and the moderation weakens when the foundational indicators are dropped. Future research should test whether the same conditional pattern appears in other digitally advanced economies and under richer measures of process integration and higher-order capabilities, using panel data, successive survey waves, linked administrative records, or quasi-experimental designs (e.g., instruments such as firm-to-port distance or customs-clearance times for export intensity, and regional broadband coverage or within-sector peer adoption for digital adoption), while noting that such designs require adequate first-stage strength and credible exclusion restrictions (Wolfolds and Siegel 2019).
 
 ## Data Availability Statement
 
