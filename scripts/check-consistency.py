@@ -20,9 +20,15 @@ CANONICAL = {
     # CĐ1 / CĐ2 pool — canonical analytic frame 88.869/50/103 (ICRV pool 96.415/52 source)
     # NOTE: 91.982/49 (P7 legacy build) and "49 nền" (P6 meta-analysis ICRV scope) are
     # legitimate when explicitly labelled, so they are NOT listed as wrong here.
+    # NOTE: "107 cặp" is legitimate too — it is the LP-valid DESCRIPTIVE frame
+    # (84.998 DN / 50 nền / 107 cặp, scripts/relock_descriptives_canonical.py). It does
+    # NOT nest in the 103-pair ANALYTIC frame (different inclusion criterion: descriptive
+    # needs only valid labour productivity → +4 sparse country-year cells). Both frames are
+    # documented as non-conflicting in thesis/phu_luc_A_hop_nhat_du_lieu_vi.md, so 107 is
+    # NOT listed as wrong. Genuinely stale values are the legacy 108/109.
     "pool_firms":          {"values": ["88.869", "88,869", "96.415", "96,415"], "wrong": ["101.185", "101,185"], "label": "Pool firms (88.869 analytic / 96.415 ICRV)"},
     "pool_economies":      {"values": ["50 nền kinh tế", "50 economies"], "wrong": ["47 nền", "47 economies"], "label": "50 economies"},
-    "pool_country_year":   {"values": ["103 cặp", "103 country-year"], "wrong": ["108 cặp", "108 country-year", "107 cặp", "109 cặp"], "label": "103 country-year pairs"},
+    "pool_country_year":   {"values": ["103 cặp", "103 country-year"], "wrong": ["108 cặp", "108 country-year", "109 cặp"], "label": "103 country-year (analytic) / 107 (LP-valid descriptive)"},
     "pool_waves":          {"values": ["14 mốc", "14 survey waves", "14 đợt"], "wrong": ["13 mốc", "15 mốc"], "label": "14 survey waves"},
     # ICRV groups — must sum to 50 (Nhật vào Nhóm I; SIDS_small 8 nền)
     "icrv_sum_check":      {"values": ["6+6+6+7+17+8"], "wrong": ["5+5+6+7+17+7"], "label": "ICRV sum 6+6+6+7+17+8=50"},
@@ -80,8 +86,9 @@ def _skip_line(line: str) -> bool:
     # DOI / URL lines
     if re.search(r'https?://doi\.org|https?://|doi\.org', s):
         return True
-    # Historical version notes (e.g., "cập nhật từ 101.035")
-    if re.search(r'cập nhật từ|updated from|formerly|previous version', s, re.IGNORECASE):
+    # Historical version notes (e.g., "cập nhật từ 101.035") and reconciliation notes that
+    # deliberately quote superseded legacy figures to document they are no longer used.
+    if re.search(r'cập nhật từ|updated from|formerly|previous version|superseded|legacy pool|cited in early', s, re.IGNORECASE):
         return True
     # Robustness spec row labels (e.g., "| R2: TCI_thin |")
     if re.match(r'\|\s*R\d+:', s):
