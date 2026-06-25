@@ -1,0 +1,305 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  a4paper,
+  13pt]{extarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{setspace}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{Times New Roman}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{xcolor}
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{vietnamese}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Times New Roman}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+% ctu_xelatex_header.tex — header-includes cho build LaTeX CTU (xelatex).
+% Ánh xạ các ký tự Unicode mà TeX Gyre Termes thiếu glyph (chỉ số dưới/trên,
+% ký tự kẻ hộp) sang lệnh LaTeX tương đương để không bị rớt glyph khi biên dịch.
+\usepackage{newunicodechar}
+\usepackage{pifont}
+\usepackage{amssymb}
+\newunicodechar{✓}{\ding{51}}
+\newunicodechar{✗}{\ding{55}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+\newunicodechar{₀}{\textsubscript{0}}
+\newunicodechar{₁}{\textsubscript{1}}
+\newunicodechar{₂}{\textsubscript{2}}
+\newunicodechar{₃}{\textsubscript{3}}
+\newunicodechar{₄}{\textsubscript{4}}
+\newunicodechar{₅}{\textsubscript{5}}
+\newunicodechar{₆}{\textsubscript{6}}
+\newunicodechar{₇}{\textsubscript{7}}
+\newunicodechar{₈}{\textsubscript{8}}
+\newunicodechar{₉}{\textsubscript{9}}
+\newunicodechar{²}{\textsuperscript{2}}
+\newunicodechar{³}{\textsuperscript{3}}
+\newunicodechar{─}{\rule[0.5ex]{0.9em}{0.4pt}}
+
+% --- Bảng rộng: thu nhỏ cỡ chữ + khoảng cột, cho phép ngắt token dài để
+%     bảng không tràn lề phải (overfull hbox). Áp dụng cho mọi longtable
+%     (pandoc sinh toàn bộ bảng dạng longtable).
+\usepackage{etoolbox}
+\usepackage{seqsplit}      % ngắt được token rất dài (mã biến, số dài)
+% Lưu ý: KHÔNG đổi \tabcolsep — pandoc tính bề rộng cột theo công thức
+% (\columnwidth - 4\tabcolsep)*frac (tham chiếu \tabcolsep trực tiếp), nên
+% giảm \tabcolsep lại làm cột RỘNG hơn và tràn nặng hơn.
+\AtBeginEnvironment{longtable}{%
+  \footnotesize
+  \emergencystretch=3em
+  \hbadness=10000          % không cảnh báo underfull do RaggedRight
+}
+% Cho phép TeX bẻ dòng linh hoạt hơn trong ô p{} hẹp
+\setlength{\emergencystretch}{2em}
+
+% URL/DOI dài: cho phép ngắt ở bất kỳ ký tự nào (tránh tràn lề ở danh mục TLTK).
+% Kết hợp với pandoc +autolink_bare_uris để URL trần được bọc \url{}.
+\usepackage{xurl}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdflang={vi},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\setstretch{1.2}
+\hypertarget{thuxf4ng-tin-vux1ec1-nhux1eefng-ux111uxf3ng-guxf3p-mux1edbi-vux1ec1-mux1eb7t-hux1ecdc-thuux1eadt-luxfd-luux1eadn-cux1ee7a-luux1eadn-uxe1n}{%
+\section*{THÔNG TIN VỀ NHỮNG ĐÓNG GÓP MỚI VỀ MẶT HỌC THUẬT, LÝ LUẬN CỦA
+LUẬN
+ÁN}\label{thuxf4ng-tin-vux1ec1-nhux1eefng-ux111uxf3ng-guxf3p-mux1edbi-vux1ec1-mux1eb7t-hux1ecdc-thuux1eadt-luxfd-luux1eadn-cux1ee7a-luux1eadn-uxe1n}}
+\addcontentsline{toc}{section}{THÔNG TIN VỀ NHỮNG ĐÓNG GÓP MỚI VỀ MẶT
+HỌC THUẬT, LÝ LUẬN CỦA LUẬN ÁN}
+
+\textbf{Tên luận án:} Quốc tế hóa và hiệu quả hoạt động kinh doanh của
+các doanh nghiệp ở châu Á
+
+\textbf{Chuyên ngành:} Quản trị kinh doanh --- \textbf{Mã số:} 9340101
+
+\textbf{Nghiên cứu sinh:} Đỗ Thùy Hương
+
+\textbf{Người hướng dẫn khoa học:} PGS.TS. Phan Anh Tú
+
+\textbf{Cơ sở đào tạo:} Trường Đại học Cần Thơ
+
+\hypertarget{nhux1eefng-ux111uxf3ng-guxf3p-mux1edbi-cux1ee7a-luux1eadn-uxe1n}{%
+\subsection*{Những đóng góp mới của luận
+án}\label{nhux1eefng-ux111uxf3ng-guxf3p-mux1edbi-cux1ee7a-luux1eadn-uxe1n}}
+\addcontentsline{toc}{subsection}{Những đóng góp mới của luận án}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Khung lý thuyết tích hợp đa tầng (CDCM).} Luận án đề xuất
+  khung \emph{Điều tiết theo Quốc gia -- Số hóa -- Năng lực}
+  (Country--Digital--Capability Moderation), kết hợp bốn lý thuyết kinh
+  điển (mô hình Uppsala, lý thuyết dựa trên nguồn lực, lý thuyết thể
+  chế, lý thuyết thượng tầng quản trị) với lăng kính năng lực số thành
+  một kiến trúc lý thuyết thống nhất và có khả năng kiểm định. Đây là
+  khung tích hợp đầy đủ ba tầng điều tiết đầu tiên được xây dựng có hệ
+  thống cho bối cảnh châu Á.
+\item
+  \textbf{Phân tách hai cấu trúc năng lực số.} Luận án tách chỉ số năng
+  lực công nghệ (TCI) và chỉ số chấp nhận số (DAI) thành hai cấu trúc
+  không trùng lặp và kiểm định chúng riêng biệt trong cùng một mô hình,
+  làm rõ TCI là \emph{năng lực nền tảng} nâng mặt bằng đồng nhất, còn
+  DAI là \emph{nguồn lực tình huống} chỉ phát huy trong những bối cảnh
+  nhất định.
+\item
+  \textbf{Hệ phân loại thể chế ICRV sáu chế độ.} Luận án phát triển và
+  áp dụng khung phân loại \emph{Biến thiên Chế độ Bối cảnh Thể chế}
+  (ICRV) với sáu chế độ con cho 50 nền kinh tế châu Á và Thái Bình
+  Dương, bao gồm bảy nền kinh tế đảo nhỏ Thái Bình Dương như trường hợp
+  ranh giới cực đoan --- mức độ phân giải thể chế chưa từng có trong
+  nghiên cứu thực nghiệm về quan hệ quốc tế hóa và hiệu quả tại châu Á.
+\item
+  \textbf{Cơ sở dữ liệu đa quốc gia lớn nhất ghi nhận được cho khu vực.}
+  Mẫu gộp gồm 88.869 doanh nghiệp từ 50 nền kinh tế châu Á và Thái Bình
+  Dương (mẫu hồi quy chính N = 81.022), mở rộng đáng kể so với các nền
+  tảng dữ liệu đa quốc gia hiện có cho quan hệ quốc tế hóa và hiệu quả
+  tại châu Á.
+\item
+  \textbf{Bằng chứng về tính ổn định theo thời gian của điểm uốn.} Luận
+  án kiểm định tính bền vững của cấu trúc phi tuyến tại Trung Quốc và
+  cho thấy điểm uốn trong quan hệ quốc tế hóa và hiệu quả tương đối ổn
+  định qua hơn một thập kỷ chuyển đổi số (≈ 48,78\% FSTS), bất chấp
+  những thay đổi lớn của bối cảnh kinh tế.
+\item
+  \textbf{Đề xuất và định danh khái niệm Gánh nặng quốc tế hóa bắt buộc
+  (FIP).} Luận án đề xuất một điều kiện biên lý thuyết của mô hình chữ U
+  ngược, trong đó quan hệ quốc tế hóa và hiệu quả chuyển sang âm đơn
+  điệu khi ba điều kiện cấu trúc bị vi phạm đồng thời --- một cấu trúc
+  chưa được định danh trong tài liệu kinh doanh quốc tế.
+\end{enumerate}
+
+\textbf{Tuyên bố tính mới trung tâm:} Luận án là công trình đầu tiên
+trong tài liệu kinh doanh quốc tế chuyển luận điểm ``quan hệ quốc tế hóa
+và hiệu quả phụ thuộc bối cảnh'' từ một nhận định định tính thành một
+cấu trúc kiểm định được trên toàn bộ phổ thể chế của một khu vực, đồng
+thời xác định và định danh điểm mà tại đó dạng hàm chữ U ngược không còn
+ứng dụng được. Khác với các nghiên cứu trước thường dừng ở việc chứng
+minh thể chế điều tiết \emph{độ lớn} của hiệu ứng, luận án chứng minh
+thể chế điều tiết cả \emph{dấu} và \emph{dạng hình} của quan hệ, qua đó
+nâng luận điểm từ ``phụ thuộc bối cảnh'' lên ``có điều kiện theo bối
+cảnh''.
+
+\hypertarget{uxfd-nghux129a-thux1ef1c-tiux1ec5n}{%
+\subsection*{Ý nghĩa thực
+tiễn}\label{uxfd-nghux129a-thux1ef1c-tiux1ec5n}}
+\addcontentsline{toc}{subsection}{Ý nghĩa thực tiễn}
+
+Bản đồ điều tiết theo chế độ thể chế cung cấp cho doanh nghiệp và nhà
+hoạch định chính sách một cơ sở để định vị kỳ vọng về quan hệ quốc tế
+hóa và hiệu quả theo từng bối cảnh thể chế cụ thể, thay vì áp dụng một
+kỳ vọng phổ quát; đồng thời cảnh báo rằng vai trò ``lá chắn số'' của DAI
+phụ thuộc bối cảnh, và chỉ ra điều kiện biên FIP đối với các nền kinh tế
+đảo nhỏ.
+
+\vspace{1.4cm}
+
+\noindent\begin{minipage}[t]{0.48\textwidth}\centering \textbf{NGƯỜI HƯỚNG DẪN KHOA HỌC}\\[2.2cm]PGS.TS. Phan Anh Tú\end{minipage}\hfill\begin{minipage}[t]{0.48\textwidth}\centering \textbf{NGHIÊN CỨU SINH}\\[2.2cm]Đỗ Thùy Hương\end{minipage}
+
+\newpage
+
+\hypertarget{information-on-the-new-academic-and-theoretical-contributions-of-the-dissertation}{%
+\section*{INFORMATION ON THE NEW ACADEMIC AND THEORETICAL CONTRIBUTIONS
+OF THE
+DISSERTATION}\label{information-on-the-new-academic-and-theoretical-contributions-of-the-dissertation}}
+\addcontentsline{toc}{section}{INFORMATION ON THE NEW ACADEMIC AND
+THEORETICAL CONTRIBUTIONS OF THE DISSERTATION}
+
+\textbf{Dissertation title:} Internationalization and Firm Performance
+in Asia: The Moderating Roles of Institutions, Digital Capability, and
+Top-Manager Characteristics
+
+\textbf{Major:} Business Administration --- \textbf{Code:} 9340101
+
+\textbf{PhD candidate:} Do Thuy Huong
+
+\textbf{Supervisor:} Assoc. Prof.~Dr.~Phan Anh Tu
+
+\textbf{Institution:} Can Tho University
+
+\hypertarget{new-contributions-of-the-dissertation}{%
+\subsection*{New contributions of the
+dissertation}\label{new-contributions-of-the-dissertation}}
+\addcontentsline{toc}{subsection}{New contributions of the dissertation}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{An integrative, multi-tier theoretical framework (CDCM).} The
+  dissertation proposes the \emph{Country--Digital--Capability
+  Moderation} framework, joining four established theories (the Uppsala
+  model, the resource-based view, institutional theory, and
+  upper-echelons theory) with a digital-capability extension into a
+  unified, testable architecture. It is the first systematically
+  constructed three-tier moderation framework for the Asian context.
+\item
+  \textbf{Separation of two digital-capability constructs.} The study
+  separates the Technological Capability Index (TCI) and the Digital
+  Adoption Index (DAI) into two non-overlapping constructs and tests
+  them jointly within a single model, clarifying that TCI is a
+  \emph{foundational capability} that shifts the performance level
+  uniformly, whereas DAI is a \emph{situational resource} effective only
+  in specific contexts.
+\item
+  \textbf{A six-regime institutional taxonomy (ICRV).} The dissertation
+  develops and applies the \emph{Institutional Context Regime Variation}
+  taxonomy of six sub-regimes for 50 Asia-Pacific economies, including
+  seven Pacific Small Island Developing States as an extreme boundary
+  case --- an institutional resolution not previously used in empirical
+  I--P research on Asia.
+\item
+  \textbf{The largest documented multi-country dataset for the region.}
+  The pooled sample comprises 88,869 firms from 50 Asia-Pacific
+  economies (main regression sample N = 81,022), substantially extending
+  existing multi-country evidence bases for the
+  internationalization--performance relationship in Asia.
+\item
+  \textbf{Evidence on the temporal stability of the turning point.}
+  Testing the durability of the nonlinear structure in China, the
+  dissertation shows that the inverted-U turning point is relatively
+  stable across more than a decade of digital transformation (≈ 48.78\%
+  FSTS), despite substantial changes in the economic context.
+\item
+  \textbf{Proposal and naming of the Forced Internationalization Penalty
+  (FIP).} The dissertation introduces a theoretical boundary condition
+  of the inverted-U model, under which the I--P relationship turns
+  monotonically negative when three structural conditions are violated
+  simultaneously --- a construct not previously named in the
+  international-business literature.
+\end{enumerate}
+
+\textbf{Central novelty statement:} This dissertation is the first work
+in the international-business literature to convert the claim that ``the
+I--P relationship is context-dependent'' from a qualitative assertion
+into a construct testable across the full institutional spectrum of a
+region, while identifying and naming the point at which the inverted-U
+functional form ceases to apply. Unlike prior work that demonstrates
+institutions moderating the \emph{magnitude} of the effect, this
+dissertation shows that institutions moderate both the \emph{sign} and
+the \emph{shape} of the relationship, thereby elevating the claim from
+``context-dependent'' to ``context-contingent.''
+
+\hypertarget{practical-implications}{%
+\subsection*{Practical implications}\label{practical-implications}}
+\addcontentsline{toc}{subsection}{Practical implications}
+
+The regime-based moderation map provides firms and policymakers with a
+basis for calibrating their expectations about the
+internationalization--performance relationship to each specific
+institutional context, rather than applying a universal expectation; it
+also cautions that DAI's ``digital shield'' role is context-dependent
+and identifies the FIP boundary condition for small-island economies.
+
+\vspace{1.4cm}
+
+\noindent\begin{minipage}[t]{0.48\textwidth}\centering \textbf{SUPERVISOR}\\[2.2cm]Assoc. Prof. Dr. Phan Anh Tu\end{minipage}\hfill\begin{minipage}[t]{0.48\textwidth}\centering \textbf{PhD CANDIDATE}\\[2.2cm]Do Thuy Huong\end{minipage}
+
+\end{document}
