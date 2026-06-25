@@ -1,4 +1,4 @@
-# APPENDIX A — POOLING AND HARMONISATION OF THE MULTI-COUNTRY ENTERPRISE DATASET (WBES)
+# APPENDIX A: POOLING AND HARMONISATION OF THE MULTI-COUNTRY ENTERPRISE DATASET (WBES)
 
 > This appendix documents, with scientific justification, the procedure used to pool
 > and harmonise the country-year World Bank Enterprise Survey (WBES) cross-sections
@@ -28,7 +28,7 @@ harmonisation decision.
 The primary data are the **World Bank Enterprise Surveys (WBES)**, an
 establishment-level firm survey administered by the World Bank Group under a
 standardised global instrument using **stratified random sampling** along three
-dimensions—sector (manufacturing/services by ISIC), employment size (small/medium/
+dimensions: sector (manufacturing/services by ISIC), employment size (small/medium/
 large), and geographic region within each economy (World Bank Enterprise Surveys,
 2025; World Bank, 2019). This stratified design ensures representativeness of each
 economy's formal, non-agricultural private sector and supports cross-country
@@ -108,12 +108,12 @@ construction rules:
 - **Technological capability (TCI) and digital adoption (DAI):** constructed from binary indicators (internationally recognised quality certification `b8`; licensed foreign technology; website `c22b`; e-mail; electronic payment), kept conceptually distinct per the construct-purity argument in Section 2.1.3 and Coltman et al. (2008).
 - **Controls:** firm age (from `b5`), size (log employment), foreign ownership, top-manager characteristics, ISIC sector.
 
-## A.5 Currency comparability — the problem and the solution
+## A.5 Currency comparability: the problem and the solution
 
 A validity threat specific to a multi-country pool is that **raw labour productivity
 is denominated in different national currencies** (e.g., sales/worker in VND for
 Vietnam, SGD for Singapore), so productivity **levels are not directly comparable**
-across economies—a "currency artefact". The dissertation addresses this with two
+across economies, a "currency artefact". The dissertation addresses this with two
 complementary layers:
 
 1. **Within country-year standardisation:** labour productivity is z-standardised
@@ -131,7 +131,7 @@ complementary layers:
 An important methodological consequence: for this reason, **raw cross-country
 productivity-level comparisons are excluded from inference**; inter-regime (ICRV)
 comparisons in Chapter 4 use only **dispersion** (PPP/winsorised within country-year)
-and the **turning-point phổ thể chế**—quantities invariant to currency units (see
+and the **turning-point phổ thể chế**, quantities invariant to currency units (see
 Section 4.1.1). Where cross-country **level** comparison is required, the dissertation uses a
 dimensionless ratio (e.g., ROS) or purchasing-power-parity adjustment via the Penn
 World Table (Feenstra et al., 2015).
@@ -195,7 +195,7 @@ the missingness mechanism (Little & Rubin, 2019).
 `scripts/wbes_canon.py` (economy-year identifier canonicalisation, filtering rules),
 `scripts/build_pooled_dataset.py` (pooling + harmonisation + data flow), with the
 report `data_wbes/analysis/pooled_dataflow.csv`. Estimation in the absence of Stata is
-performed in Python (pandas/numpy)—a valid alternative for pooled cross-section
+performed in Python (pandas/numpy), a valid alternative for pooled cross-section
 econometrics when no Stata licence is available. For the avoidance of doubt, every
 firm count and coefficient cited in Chapters 3 and 4 is drawn from the **canonical,
 Japan-inclusive frame** (88,869 firms across 50 economies / 103 economy-year pairs;
