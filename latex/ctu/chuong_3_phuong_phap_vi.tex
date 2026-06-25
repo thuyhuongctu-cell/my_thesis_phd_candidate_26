@@ -21,7 +21,7 @@
 \usepackage{lmodern}
 \ifPDFTeX\else
   % xetex/luatex font selection
-  \setmainfont[]{TeX Gyre Termes}
+  \setmainfont[]{Times New Roman}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -66,7 +66,7 @@
 \babelprovide[main,import]{vietnamese}
 \ifPDFTeX
 \else
-\babelfont{rm}[]{TeX Gyre Termes}
+\babelfont{rm}[]{Times New Roman}
 \fi
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
@@ -1762,6 +1762,22 @@ Own & b6a & tỷ lệ sở hữu nước ngoài & Control (sở hữu) \\
 λ\_t & đợt & đợt FE & hiệu ứng cố định \\
 \end{longtable}
 
+\textbf{Cảnh báo công suất thống kê và phạm vi suy luận.} Mẫu Nghiên cứu
+8 nhỏ và phân tán cao: \(N = 1.450\) trải trên 7 nền kinh tế phân cụm,
+trong đó chỉ 212 doanh nghiệp có hoạt động xuất khẩu (14,6\%) và độ phân
+tán năng suất là cao nhất toàn mẫu gộp (độ lệch chuẩn ln(LP) ≈ 1,40; tỷ
+số P90/P10 ≈ 27 lần). Với cỡ mẫu xuất khẩu hữu hiệu nhỏ như vậy, công
+suất thống kê để phát hiện một độ cong bậc hai ở mức ý nghĩa thông
+thường ước tính \textbf{dưới 20\%}, nên việc các số hạng FSTS và FSTS²
+mất ý nghĩa khi đưa vào đồng thời cần được đọc là \textbf{thiếu công
+suất}, không phải bằng chứng khẳng định không có quan hệ. Do đó FIP được
+định vị là phát hiện \textbf{sinh giả thuyết (hypothesis-generating)}
+hơn là \textbf{khẳng định giả thuyết}, và hệ số âm
+\(\beta_1 = -1{,}339^{***}\) được hiểu là nhạy với cách dựng dữ liệu
+(chỉ vững trên bản dựng gốc N = 959, không trên mẫu đầy đủ bảy nền).
+Cách đọc thận trọng này được nhắc lại ở phần mở đầu kết quả P8 (Chương
+4, Mục 4.7).
+
 \emph{Ghi chú: FIP là điều kiện biên (boundary condition) của mô hình
 chữ U ngược, áp dụng đặc thù tại ICRV Nhóm VI nơi 3 điều kiện cấu trúc
 bị vi phạm đồng thời: (1) không có thị trường nội địa đủ lớn, (2) chi
@@ -1797,6 +1813,262 @@ nhiên cho bão hòa DAI; riêng đợt 2025 (BREADY) bổ sung chỉ báo Bậc
 (\texttt{k33}, tỷ trọng doanh thu qua thanh toán điện tử) cho phép kiểm
 định điều tiết DAI Bậc 2, được xử lý như phân tích thăm dò vì chỉ có ở
 một đợt.
+
+\textbf{Ký hiệu biến (↔ mã WBES):}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2750}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2750}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2250}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Ký hiệu
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+WBES item
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Cách tính
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Vai trò
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+lnLP & d2, l1 & ln(doanh thu nội tệ / lao động thường trực) & Biến phụ
+thuộc \\
+FSTS\_c & d3c & (d3c/100) − mean\_wave(FSTS): centred theo đợt & Biến
+độc lập (I) \\
+FSTS\_c² & d3c & FSTS\_c bình phương & I, phi tuyến \\
+TCI\_z & b8, e6 & chuẩn hóa z(cert chất lượng + CN nước ngoài) & Năng
+lực công nghệ \\
+DAI\_z & c22b (mọi đợt); k33 (2025) & chuẩn hóa z(website Bậc 1; + thanh
+toán điện tử Bậc 2) & Số hoá \\
+MgrExp & b7 & năm kinh nghiệm nhà quản lý trong ngành & Quản trị \\
+MgrFem & b7a/b6a & 1 nếu top manager là nữ & Quản trị \\
+lnL & l1 & ln(lao động thường trực) & Control (quy mô) \\
+Age & b5 & năm\_khảo\_sát − b5 & Control (tuổi DN) \\
+Own & b6a & tỷ lệ sở hữu nước ngoài (0--1) & Control (sở hữu) \\
+Wave & đợt & biến giả/xu thế đợt khảo sát & thời gian (mô hình gộp) \\
+\end{longtable}
+
+\textbf{Chuỗi mô hình theo từng đợt M0--M3 (P9):}
+
+M0 (cơ sở kiểm soát):
+\[\ln(\mathrm{LP})_{i} = \alpha + \gamma_1 \ln(L)_{i} + \gamma_2 \mathrm{Age}_{i} + \gamma_3 \mathrm{Own}_{i} + \varepsilon_{i}\]
+
+M1 (tuyến tính): thêm cường độ xuất khẩu
+\[\ln(\mathrm{LP})_{i} = \alpha + \beta_1 \mathrm{FSTS}_{c,i} + \boldsymbol{\gamma}\mathbf{X}_{i} + \varepsilon_{i}\]
+
+M2 (phi tuyến, kiểm định H1 theo từng đợt): thêm
+\(\mathrm{FSTS}_{c}^{2}\)
+\[\ln(\mathrm{LP})_{i} = \alpha + \beta_1 \mathrm{FSTS}_{c,i} + \beta_2 \mathrm{FSTS}_{c,i}^{2} + \boldsymbol{\gamma}\mathbf{X}_{i} + \varepsilon_{i}\]
+\[\mathrm{TP}^{*} = -\beta_1/(2\beta_2);\quad \mathrm{TP}_{2014} = 61{,}8\%,\ \mathrm{TP}_{2022} = 40{,}7\%,\ \text{tan biến } 2025\ (\beta_2\ \text{NS})\]
+
+M3 (điều tiết năng lực, kiểm định H2--H3): thêm TCI, DAI và tương tác
+\[\ln(\mathrm{LP})_{i} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z} + \beta_4 \mathrm{DAI}_{z} + \beta_5(\mathrm{FSTS}_{c}\times\mathrm{DAI}_{z}) + \boldsymbol{\gamma}\mathbf{X} + \varepsilon\]
+
+\textbf{Kiểm định ổn định ngưỡng xuyên đợt (Paternoster z-test):} so
+sánh cặp hệ số \((\beta_1, \beta_2)\) giữa đợt 2014 (tiền-UPI) và đợt
+2025 (UPI bão hòa) qua cửa sổ 11 năm chính:
+\[z = \frac{\hat\beta^{(2025)} - \hat\beta^{(2014)}}{\sqrt{\mathrm{SE}(\hat\beta^{(2025)})^2 + \mathrm{SE}(\hat\beta^{(2014)})^2}}\]
+\[z(\mathrm{FSTS}) = -7{,}94,\ z(\mathrm{FSTS}^2) = +4{,}17\ (\text{HC1, } p < {,}0001);\ \text{cụm theo bang: } z = -3{,}50/+2{,}19\]
+
+\emph{Ghi chú: Sai số chuẩn HC1 (lát cắt ngang theo đợt); riêng kiểm
+định Paternoster báo cáo song song cả HC1 và cụm theo bang để kiểm tra
+độ vững suy luận. DAI là Bậc 1 (website) ở mọi đợt và bổ sung Bậc 2
+(\texttt{k33}) chỉ ở 2025 (BREADY), nên điều tiết DAI Bậc 2 là phân tích
+thăm dò. Mẫu gộp ba đợt \(N = 28.717\) (8.941 / 9.300 / 10.476) dùng cho
+mô hình xu thế đợt như kiểm định độ vững; kết quả chi tiết tại Chương 4,
+Mục 4.8.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{muxf4-huxecnh-cux1ee5-thux1ec3-nghiuxean-cux1ee9u-10-nhux1eadt-bux1ea3n-wbes-2025}{%
+\subsubsection{3.4.5.7 Mô hình cụ thể: Nghiên cứu 10 (Nhật Bản, WBES
+2025)}\label{muxf4-huxecnh-cux1ee5-thux1ec3-nghiuxean-cux1ee9u-10-nhux1eadt-bux1ea3n-wbes-2025}}
+
+Nghiên cứu 10 phân tích \textbf{đợt khảo sát WBES đầu tiên của Nhật Bản
+(2025)}, với mẫu thô \(N = 2.168\) doanh nghiệp, mẫu phân tích chính
+\(N = 2.047\) (hồi quy FSTS) và \(N = 2.011\) (phần bù năng suất doanh
+nghiệp xuất khẩu). Nhật Bản là thành viên thứ sáu của Nhóm I ICRV (tiên
+tiến đổi mới sáng tạo) và là nền kinh tế có cơ sở lâu đời nhất mẫu gộp
+(tuổi doanh nghiệp trung bình 50,4 năm). Thiết kế là lát cắt ngang đơn
+đợt, ước lượng OLS với sai số chuẩn vững HC1 và hiệu ứng cố định ngành
+(\texttt{a4a}). Đặc trưng mẫu: cường độ xuất khẩu trung bình rất thấp
+(FSTS 4,1\%), tỷ lệ doanh nghiệp xuất khẩu 16,8\%, website đã bão hòa
+(83,8\%), nữ quản lý cấp cao mỏng nhất khu vực (7,3\%).
+
+\textbf{Ký hiệu biến (↔ mã WBES):}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2750}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2750}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2250}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Ký hiệu
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+WBES item
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Cách tính
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Vai trò
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+lnLP & d2, l1 & ln(doanh thu nội tệ / lao động thường trực) & Biến phụ
+thuộc \\
+FSTS\_c & d3c & (d3c/100) − mean(FSTS): centred & Biến độc lập (I) \\
+FSTS\_c² & d3c & FSTS\_c bình phương & I, kiểm định phi tuyến \\
+TCI\_z & b8, e6 & chuẩn hóa z(cert chất lượng + CN nước ngoài) & Năng
+lực công nghệ \\
+DAI\_z & c22b, k33 & chuẩn hóa z(website + thanh toán điện tử): Bậc 1 và
+2 & Số hoá (bão hòa Bậc 1) \\
+MgrExp & b7 & năm kinh nghiệm nhà quản lý & Quản trị \\
+MgrFem & b7a/b6a & 1 nếu top manager là nữ & Quản trị \\
+Export & d3c\textgreater0 & 1 nếu doanh nghiệp có xuất khẩu & Biên rộng
+(tham gia) \\
+lnL & l1 & ln(lao động thường trực) & Control (quy mô) \\
+Age & b5 & năm\_khảo\_sát − b5 & Control (tuổi DN) \\
+Own & b6a & tỷ lệ sở hữu nước ngoài (0--1) & Control (sở hữu) \\
+δ\_s & a4a & hiệu ứng cố định ngành & hiệu ứng cố định \\
+\end{longtable}
+
+\textbf{Chuỗi mô hình M1--M5 (P10):}
+
+M1 (tuyến tính cơ sở):
+\[\ln(\mathrm{LP})_{i} = \alpha + \beta_1 \mathrm{FSTS}_{c,i} + \delta_s + \varepsilon_{i}\]
+\[\beta_1 = +0{,}671^{***}\ (p < {,}001;\ N = 2.047)\]
+
+M2 (phi tuyến, kiểm định H1): thêm \(\mathrm{FSTS}_{c}^{2}\)
+\[\ln(\mathrm{LP})_{i} = \alpha + \beta_1 \mathrm{FSTS}_{c,i} + \beta_2 \mathrm{FSTS}_{c,i}^{2} + \delta_s + \varepsilon_{i}\]
+\[\beta_1 = +1{,}042^{**}\ (p = {,}002);\ \beta_2 = -0{,}606\ (p = {,}323,\ \text{NS});\ \mathrm{TP} = [90{,}1\%]\ \text{ngoài miền} \Rightarrow \text{không có chữ U ngược}\]
+
+M3 (M2 + kiểm soát nhân khẩu); M4 (M3 + TCI, DAI); M5 (M4 + tương tác
+uốn đường cong):
+\[\ln(\mathrm{LP})_{i} = \alpha + \beta_1 \mathrm{FSTS}_{c} + \beta_2 \mathrm{FSTS}_{c}^{2} + \beta_3 \mathrm{TCI}_{z} + \beta_4 \mathrm{DAI}_{z} + \boldsymbol{\gamma}\mathbf{X} + \delta_s + \varepsilon\]
+\[\beta_3\,(\mathrm{TCI}_{z}) = +0{,}100^{***};\ \beta_4\,(\mathrm{DAI}_{z}) = +0{,}110^{*};\ \text{tương tác uốn đường cong NS qua M3–M5}\]
+
+\textbf{Mô hình xác suất tham gia (biên rộng, kiểm định H4):} vì đường
+cường độ phẳng trong miền quan sát, biến thiên có ý nghĩa nằm ở
+\emph{ai} xuất khẩu:
+\[\Pr(\mathrm{Export}_{i} = 1) = \alpha + \theta_1 \mathrm{Own}_{i} + \theta_2 \mathrm{TCI}_{z,i} + \theta_3 \mathrm{DAI}_{z,i} + \boldsymbol{\gamma}\mathbf{X}_{i} + \varepsilon_{i}\]
+\[\theta_1\,(\mathrm{Own}) = +0{,}408^{***};\ \theta_2\,(\mathrm{TCI}) = +0{,}083^{***};\ \theta_3\,(\mathrm{DAI}) = +0{,}046^{**};\ R^2 = 0{,}228\]
+\[\text{Phần bù năng suất doanh nghiệp xuất khẩu} = +0{,}258^{***}\ (p < {,}001;\ N = 2.011)\]
+
+\emph{Ghi chú: Sai số chuẩn HC1, hiệu ứng cố định ngành \texttt{a4a}.
+DAI Bậc 1 và 2 nhưng website đã bão hòa 83,8\% nên phần bù DAI bị nén
+còn khoảng một nửa mức gộp 50 nền. Quan hệ FSTS gần tuyến tính, không có
+chữ U ngược (Lind--Mehlum NS qua mọi mô hình), nhất quán với cấp nhóm
+Advanced của Nghiên cứu 7 và với Singapore (P4): ở biên trên phổ thể
+chế, cơ chế chuyển từ biên cường độ sang biên rộng (tự chọn lọc Melitz
+2003). Tái lập: \texttt{p10\_japan/replication/p10\_japan\_models.py}.
+Kết quả chi tiết tại Chương 4, Mục 4.9.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{hai-nghiuxean-cux1ee9u-nux1ec1n-tux1ea3ng-ux111a-quux1ed1c-gia-17-nux1ec1n-p1-vuxe0-doanh-nghiux1ec7p-nhux1ecf-vuxe0-vux1eeba-trung-quux1ed1c-p2}{%
+\subsubsection{3.4.5.8 Hai nghiên cứu nền tảng: đa quốc gia 17 nền (P1)
+và doanh nghiệp nhỏ và vừa Trung Quốc
+(P2)}\label{hai-nghiuxean-cux1ee9u-nux1ec1n-tux1ea3ng-ux111a-quux1ed1c-gia-17-nux1ec1n-p1-vuxe0-doanh-nghiux1ec7p-nhux1ecf-vuxe0-vux1eeba-trung-quux1ed1c-p2}}
+
+Ngoài bảy nghiên cứu đường cong ở trên, hai nghiên cứu nền tảng cung cấp
+bằng chứng cấp doanh nghiệp định khung cho luận án, được trình bày kết
+quả tại Chương 4 (Mục 4.1.7 và 4.4.8).
+
+\textbf{Nghiên cứu 1 (P1): phân tầng năng suất vùng và hiệu ứng lá chắn
+số.} Mẫu phân tích \(N = 40.633\) doanh nghiệp tại 17 nền kinh tế châu Á
+(2009--2024), nhóm thành ba cụm vùng: Đại Trung Hoa (5.251), ASEAN
+(12.068), Nam Á (23.314). Biến phụ thuộc là ln(năng suất lao động)
+winsorize tại bách phân vị 1 và 99. Thiết kế OLS phân tầng theo khối
+biến, \textbf{không có số hạng FSTS} (trọng tâm là năng lực và rào cản
+thể chế, không phải cường độ xuất khẩu). Chuỗi mô hình: M1 chỉ biến
+vùng; M2 thêm khối năng lực (chấp nhận công nghệ, chứng nhận chất
+lượng); M3 thêm tương tác rào cản × năng lực.
+\[\ln(\mathrm{LP})_{i} = \alpha + \beta_1 \mathrm{Region}_{i} + \beta_2 \mathrm{TechAdopt}_{i} + \beta_3 \mathrm{Barrier}_{i} + \beta_4(\mathrm{Barrier}_{i}\times\mathrm{TechAdopt}_{i}) + \boldsymbol{\gamma}\mathbf{X}_{i} + \varepsilon_{i}\]
+\[\beta(\mathrm{GC}) = +0{,}990^{***};\ \beta(\mathrm{SA}) = +0{,}506^{***};\ R^2: 0{,}054 \to 0{,}105;\ \beta(\mathrm{Barrier}) = -0{,}076^{***};\ \beta(\mathrm{Barrier}\times\mathrm{Tech}) = +0{,}110^{***}\]
+Tương tác dương là bằng chứng định lượng cho \textbf{hiệu ứng lá chắn
+số}: chấp nhận công nghệ triệt tiêu phần lớn tổn thất năng suất do rào
+cản thể chế, đúng theo logic khung CDCM.
+
+\textbf{Nghiên cứu 2 (P2): chữ U ngược và bẫy vốn lưu động ở doanh
+nghiệp nhỏ và vừa Trung Quốc.} Mẫu \(N = 4.290\) quan sát doanh nghiệp
+và năm, doanh nghiệp sản xuất nhỏ và vừa (mã ngành ISIC 15--37). Cường
+độ xuất khẩu trung bình 23,7\% (độ lệch chuẩn 28,4\%), 18\% doanh nghiệp
+có FSTS vượt 50\%. Ước lượng mô hình bậc hai với hiệu ứng cố định ngành
+và năm:
+\[\ln(\mathrm{LP})_{it} = \alpha + \beta_1 \mathrm{FSTS}_{it} + \beta_2 \mathrm{FSTS}_{it}^{2} + \boldsymbol{\gamma}\mathbf{X}_{it} + \delta_s + \lambda_t + \varepsilon_{it}\]
+\[\beta_1 = +1{,}704^{***}\ (p < {,}001);\ \beta_2 < 0\ (p < {,}001);\ \mathrm{TP} = 47{,}8\%\ \text{(Lind–Mehlum xác nhận)}\]
+Điểm uốn 47,8\% sát ngưỡng P5 (48,8\%) và trong dải vận hành an toàn
+30--60\% xuyên suốt luận án. Đóng góp đặc thù của P2 là cơ chế nhánh đi
+xuống: \textbf{bẫy vốn lưu động} (chu kỳ chuyển đổi tiền mặt kéo dài khi
+cường độ xuất khẩu cao). P2 là kiểm định độc lập, củng cố độ vững của
+điểm uốn Trung Quốc trên một lát cắt mẫu khác.
+
+\emph{Ghi chú: P1 và P2 là nghiên cứu nền tảng/bổ trợ, không nằm trong
+chuỗi bảy nghiên cứu đường cong chính nhưng cung cấp neo thực nghiệm cho
+hai trụ cột của khung CDCM (lá chắn số ở P1; điểm uốn và cơ chế tài
+chính ở P2). Số hạng FSTS vắng mặt ở P1 do thiết kế tập trung vào phân
+tầng năng lực vùng.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{nghiuxean-cux1ee9u-tam-giuxe1c-huxf3a-ux111uxe3-cuxf4ng-bux1ed1-chux1b0ux1a1ng-suxe1ch-quux1ea3n-trux1ecb-cux1ea5p-cao-ux1ea5n-ux111ux1ed9-ux111ux1ed7-vuxe0-phan-2025}{%
+\subsubsection{3.4.5.9 Nghiên cứu tam giác hóa đã công bố: chương sách
+quản trị cấp cao Ấn Độ (Đỗ và Phan,
+2025)}\label{nghiuxean-cux1ee9u-tam-giuxe1c-huxf3a-ux111uxe3-cuxf4ng-bux1ed1-chux1b0ux1a1ng-suxe1ch-quux1ea3n-trux1ecb-cux1ea5p-cao-ux1ea5n-ux111ux1ed9-ux111ux1ed7-vuxe0-phan-2025}}
+
+Một nghiên cứu đã xuất bản của nhóm tác giả (Đỗ và Phan, 2025,
+IntechOpen, DOI 10.5772/intechopen.1011012) cung cấp bằng chứng tam giác
+hóa độc lập cho bối cảnh Ấn Độ, tiếp cận từ khung lý thuyết và đặc tả
+\textbf{khác hẳn} Nghiên cứu 9. Vì hội đồng không thể truy cập toàn văn
+ấn phẩm này, thiết kế của nó được tóm tắt tại đây để luận án tự chứa.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Biến phụ thuộc}: tỷ suất lợi nhuận trên doanh thu (ROS), trung
+  bình 30,34\% (miền −660\% đến 98,166\%), khác với biến năng suất lao
+  động dạng logarit của Nghiên cứu 9.
+\item
+  \textbf{Biến độc lập}: mức độ quốc tế hóa (DOI), \textbf{đặc tả tuyến
+  tính} (không bậc hai), trung bình 5,6\% (miền 0--100\%).
+\item
+  \textbf{Khung lý thuyết}: mô hình Uppsala (Johanson và Vahlne, 1977)
+  kết hợp lý thuyết thượng tầng quản trị (Upper Echelons; Hambrick và
+  Mason, 1984), khác với khung CDCM của Nghiên cứu 9.
+\item
+  \textbf{Biến điều tiết}: kinh nghiệm nhà quản trị cấp cao (số năm) và
+  giới tính nữ của nhà quản trị cấp cao.
+\item
+  \textbf{Phương pháp ước lượng}: bình phương nhỏ nhất tổng quát khả thi
+  (FGLS) trên dữ liệu bảng, xử lý phương sai thay đổi.
+\item
+  \textbf{Mẫu}: \(N = 760\) quan sát doanh nghiệp và năm = 380 doanh
+  nghiệp × 2 đợt (mẫu con bảng cân đối của WBES Ấn Độ), khác với mẫu đầy
+  đủ \textasciitilde10.000 doanh nghiệp/đợt của Nghiên cứu 9.
+\end{itemize}
+
+\[\mathrm{ROS}_{it} = \alpha + \beta_1 \mathrm{DOI}_{it} + \beta_2(\mathrm{DOI}_{it}\times\mathrm{MgrExp}_{it}) + \beta_3(\mathrm{DOI}_{it}\times\mathrm{MgrFem}_{it}) + \boldsymbol{\gamma}\mathbf{X}_{it} + u_{it}\]
+
+Kết quả: quốc tế hóa có hiệu ứng tuyến tính \textbf{âm} lên hiệu quả
+(\(\hat\beta_1 = -36{,}66\), \(p < {,}001\)); kinh nghiệm quản trị điều
+tiết \textbf{dương} (\(\hat\beta_2 = +1{,}55\), \(p < {,}001\)); nữ quản
+trị cấp cao điều tiết \textbf{dương} (\(\hat\beta_3 = +77{,}03\),
+\(p < {,}001\)). Ba mệnh đề đều được ủng hộ.
+
+\emph{Ghi chú: Đây là ấn phẩm đã công bố (prior work), không phải đóng
+góp mới của luận án. Chồng lấn khái niệm, thực nghiệm và phương pháp với
+Nghiên cứu 9 gần bằng không (biến phụ thuộc, đặc tả, khung lý thuyết,
+biến điều tiết, mẫu đều khác); luận án trích dẫn book chapter như bằng
+chứng tam giác hóa và như công trình tiền nhiệm được công bố minh bạch.
+Chi tiết khác biệt:
+\texttt{p9\_india/BOOK\_CHAPTER\_DIFFERENTIATION.md}. Kết quả được tham
+chiếu tại Chương 4, Mục 4.8.4.}
 
 \hypertarget{sai-sux1ed1-chuux1ea9n}{%
 \subsection{3.4.6 Sai số chuẩn}\label{sai-sux1ed1-chuux1ea9n}}
