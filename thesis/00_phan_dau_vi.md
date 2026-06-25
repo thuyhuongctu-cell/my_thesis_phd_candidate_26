@@ -219,15 +219,15 @@ Luận án được phát triển gắn với chuỗi nghiên cứu thành phầ
 3. Do, T. H., & Phan, A. T. (2026). Firm performance heterogeneity in emerging Asia: Evidence from World Bank Enterprise Surveys. *Vietnam Economic & Financial Review, 2*(1), 111–115. *(P1.)*
 4. Do, T. H., & Phan, A. T. (2026). Unveiling the impact of Chinese manufacturing SMEs' internationalization on performance. *Journal of Finance & Accounting Research, 39*(2), 287–291. *(P2.)*
 
-**B. Bản thảo đang trong quá trình bình duyệt (CHƯA công bố)**
+**B. Bản thảo đang hoàn thiện, chưa nộp (CHƯA công bố)**
 
-5. Nghiên cứu thành phần P3, Việt Nam (bối cảnh chuyển đổi thu nhập trung bình thấp). *[Bản thảo đang bình duyệt.]*
-6. Nghiên cứu thành phần P4, Singapore (bối cảnh thể chế tiên tiến–đổi mới). *[Bản thảo đang bình duyệt.]*
-7. Nghiên cứu thành phần P5, Trung Quốc 2012–2024 (bối cảnh trung bình cao). *[Bản thảo đang bình duyệt.]*
-8. Nghiên cứu thành phần P6, phân tích tổng hợp ba tầng mở rộng 1977–2026. *[Bản thảo đang bình duyệt.]*
-9. Nghiên cứu thành phần P7, Kiểm định toàn mẫu 50 nền kinh tế châu Á và Thái Bình Dương (nghiên cứu tổng hợp đỉnh). *[Bản thảo đang chỉnh sửa theo phản biện.]*
-10. Nghiên cứu thành phần P8, Trường hợp biên SIDS, gánh nặng quốc tế hóa bắt buộc (FIP). *[Bản thảo đang chỉnh sửa theo phản biện.]*
-11. Nghiên cứu thành phần P9, Ấn Độ: độ bền ngưỡng I–P qua thập kỷ chuyển đổi thể chế 2014–2025 (ba đợt WBES, ~29.000 doanh nghiệp; phát hiện sự *tan biến* điểm uốn chữ U ngược dưới áp lực cải cách thể chế và bão hòa hạ tầng số UPI). Đích: Management International Review (Springer)/IJOEM. *[Bản thảo đang bình duyệt.]*
+5. Nghiên cứu thành phần P3, Việt Nam (bối cảnh chuyển đổi thu nhập trung bình thấp). *[Bản thảo chưa nộp.]*
+6. Nghiên cứu thành phần P4, Singapore (bối cảnh thể chế tiên tiến–đổi mới). *[Bản thảo chưa nộp.]*
+7. Nghiên cứu thành phần P5, Trung Quốc 2012–2024 (bối cảnh trung bình cao). *[Bản thảo chưa nộp.]*
+8. Nghiên cứu thành phần P6, phân tích tổng hợp ba tầng mở rộng 1977–2026. *[Bản thảo chưa nộp.]*
+9. Nghiên cứu thành phần P7, Kiểm định toàn mẫu 50 nền kinh tế châu Á và Thái Bình Dương (nghiên cứu tổng hợp đỉnh). *[Bản thảo chưa nộp.]*
+10. Nghiên cứu thành phần P8, Trường hợp biên SIDS, gánh nặng quốc tế hóa bắt buộc (FIP). *[Bản thảo chưa nộp.]*
+11. Nghiên cứu thành phần P9, Ấn Độ: độ bền ngưỡng I–P qua thập kỷ chuyển đổi thể chế 2014–2025 (ba đợt WBES, ~29.000 doanh nghiệp; phát hiện sự *tan biến* điểm uốn chữ U ngược dưới áp lực cải cách thể chế và bão hòa hạ tầng số UPI). Đích: Management International Review (Springer)/IJOEM. *[Bản thảo chưa nộp.]*
 12. Nghiên cứu thành phần P10, Nhật Bản: kiểm định biên trên của phổ thể chế trên đợt khảo sát WBES khai mở 2025. *[Bản thảo chuẩn bị gửi Asian Business & Management.]*
 13. Nghiên cứu thành phần P11 (sản phẩm phái sinh theo định hướng phát triển), Khoảng cách số tiền-AI và năng suất doanh nghiệp qua các chế độ thể chế châu Á (50 nền WBES): khai thác bằng chứng DAI×ICRV của luận án cho chủ đề AI–phát triển. Đích: *Journal of Economics and Development*, số đặc biệt "Sustainable Growth and Welfare in the Age of AI" (Emerald; Scopus/ESCI/ABDC; diamond OA, không phí; hạn 31/10/2026). *[Bản thảo chuẩn bị gửi.]*
 

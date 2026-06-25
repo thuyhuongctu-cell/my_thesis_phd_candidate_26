@@ -416,7 +416,7 @@ Manotas, E. C., & Gonzalez-Perez, M. A. (2020). Internationalization and perform
 
 Manova, K. (2013). Credit constraints, heterogeneous firms, and international trade. *Review of Economic Studies, 80*(2), 711–744. https://doi.org/10.1093/restud/rds036
 
-Mar, T. T., Do, T. H., & Phan, A. T. (2026). *Digital adoption and the internationalization–performance curve: Evidence from Singapore firms* [Manuscript under review]. *Management International Review*.
+Mar, T. T., Do, T. H., & Phan, A. T. (2026). *Digital adoption and the internationalization–performance curve: Evidence from Singapore firms* [Manuscript in preparation]. *Management International Review*.
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
 

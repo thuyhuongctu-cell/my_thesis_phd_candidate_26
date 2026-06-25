@@ -432,7 +432,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ph
 | V, Emerging | <-0,50 | <$1k–$3k | Tự cấp + phi chính thức | Thấp–trung bình | ~1,39 | Yếu; khoảng trống thể chế dẫn đến đổi mới bằng nguồn lực hạn chế |
 | VI, SIDS | Đặc biệt | $1k–$8k | MIRAB + du lịch | Rất thấp (1–12%) | ~1,32 | Chi phí buộc phải quốc tế hóa: U-curve không vận hành |
 
-*Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, tháng 7). Cột sd log LP: trung vị độ lệch chuẩn ln(năng suất lao động) tính trong từng đợt khảo sát (Bảng 2.3.3.1). Khuôn mẫu quốc tế hóa – hiệu quả từ các nghiên cứu thành phần của luận án (Đỗ & Phan, 2026, VEFR, JABS, JFAR, MIR).*
+*Nguồn: Tổng hợp từ World Bank Enterprise Surveys (2025); WGI từ Kaufmann et al. (2011); GNI từ World Bank (2025, tháng 7). Cột sd log LP: trung vị độ lệch chuẩn ln(năng suất lao động) tính trong từng đợt khảo sát (Bảng 2.3.3.1). Khuôn mẫu quốc tế hóa – hiệu quả từ các nghiên cứu thành phần của luận án (Đỗ & Phan, 2026, VEFR, JED, JFAR, MIR).*
 
 ---
 
@@ -676,7 +676,7 @@ Bảy phát hiện từ đợt 2025: (1) Ấn Độ FSTS sụt 5 điểm phần 
 
 #### 2.3.7.1 Singapore (Advanced đổi mới sáng tạo dẫn dắt: n=623, đợt 2023)
 
-FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất trong đợt 1,08. **Biên trên** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo nghiên cứu Singapore (Mar, Đỗ & Phan, 2026, MIR đang phản biện): R² hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119 (p=0,005); điểm uốn ~88,6%.
+FSTS 7,1%; doanh nghiệp xuất khẩu 17,8%; website 66,1%; ISO 23,3%; R&D 7,5%; FDI 31,5%. Độ lệch chuẩn log năng suất trong đợt 1,08. **Biên trên** của nhóm Advanced đổi mới sáng tạo dẫn dắt. Theo nghiên cứu Singapore (Mar, Đỗ & Phan, 2026, mục tiêu MIR): R² hiệu chỉnh = 0,196; tương tác FSTS² × DAI = 3,119 (p=0,005); điểm uốn ~88,6%.
 
 **Bối cảnh hệ sinh thái 2025/2026**: Singapore xếp **hạng 2 toàn cầu** trong Innovators Business Environment Index 2026 (StartupBlink, 2026); hạng 4 toàn cầu trong Global Startup Ecosystem Index 2025 với tăng trưởng hệ sinh thái 44,9%; hạng 3 thế giới trong Khảo sát Chính phủ điện tử Liên Hiệp Quốc 2024. Sáng kiến **Smart Nation 2.0** (2024) với 3 trụ cột: Tin tưởng, Tăng trưởng, Cộng đồng.
 
@@ -984,7 +984,7 @@ Cusolito, A. P., & Maloney, W. F. (2018). *Productivity revisited: Shifting para
 
 David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review, 80*(2), 355–361.
 
-Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Journal of Asia Business Studies* (đang phản biện).
+Đỗ, T. H., & Phan, A. T. (2026). Internationalization and firm performance in Vietnam. *Journal of Economics and Development* (chưa nộp).
 
 Hall, P. A., & Soskice, D. (Eds.). (2001). *Varieties of capitalism: The institutional foundations of comparative advantage*. Oxford University Press.
 
@@ -1020,7 +1020,7 @@ Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of 
 
 Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609.
 
-Mar, T. T., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review* (đang phản biện).
+Mar, T. T., Đỗ, T. H., & Phan, A. T. (2026). Digital adoption and internationalization in Singapore. *Management International Review* (chưa nộp).
 
 Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization-performance relationship. *Journal of Management, 42*(5), 1075–1110.
 

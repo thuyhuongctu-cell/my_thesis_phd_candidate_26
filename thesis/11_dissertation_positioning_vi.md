@@ -246,15 +246,15 @@ Mở bằng phenomenon-based pitch:
 
 - P1 (VEFR 2026), P2 (JFAR 2026): đã công bố
 - P6 baseline (ICBEF 2025): đã published
-- P3: bản thảo hoàn chỉnh — target JABS (Journal of Asia Business Studies, Emerald)
+- P3: bản thảo hoàn chỉnh — target JED (Journal of Economics and Development, Emerald)
 - P4: bản thảo hoàn chỉnh — target MIR (Management International Review, Springer)
 - P5: bản thảo hoàn chỉnh — target IJOEM (International Journal of Emerging Markets, Emerald)
-- P6: bản thảo hoàn chỉnh — IBR (International Business Review, Elsevier) under review
-- P7: bản thảo hoàn chỉnh — JIBS (Journal of International Business Studies) under revision
-- P8: bản thảo hoàn chỉnh — World Development (Elsevier) under revision
+- P6: bản thảo hoàn chỉnh — target JWB (Journal of World Business, Elsevier)
+- P7: bản thảo hoàn chỉnh — target IBR (International Business Review, Elsevier)
+- P8: bản thảo hoàn chỉnh — target World Development (Elsevier)
 
 Potential **2027 graduation timeline**:
-- 2026 H2: Submit P3, P4, P5 — submission packages hoàn chỉnh (JABS/MIR/IJOEM)
+- 2026 H2: Submit P3, P4, P5 — submission packages hoàn chỉnh (JED/MIR/IJOEM)
 - 2027 H1: Ít nhất 1 paper accepted; revisions P6/P7/P8 nộp lại
 - 2027 H2: Defense
 
@@ -315,11 +315,11 @@ heterogeneity?
 11 COMPONENT PAPERS (P1–P11):
 ✅ P1 Emerging Asia 17 economies (VEFR 2026)
 ✅ P2 China SMEs (JFAR 2026)
-✅ P3 Vietnam — Nhóm IV (Lower_mid_transition), inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JABS)
+✅ P3 Vietnam — Nhóm IV (Lower_mid_transition), inverted-U (TP ~39–46% FSTS), DAI Tier-1 (draft → JED)
 ✅ P4 Singapore — Advanced I, inverted-U (TP ~88.6% FSTS), DAI Tier-1+2 moderation (draft → MIR)
 ✅ P5 China temporal 2012–2024 (manuscript complete → IJOEM)
-✅ P6 Meta-analysis three-level MARA k=238 (manuscript complete → IBR — International Business Review; r=0.074, I²=62.4%, ICRV Q_M=17.35**)
-✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → JIBS; analytic frame 88,869 firms/50 economies incl. Japan; main regression N=81,022 (M2)/79,080 (M5); TP=43.6% (M5; 51.5% in unconditioned quadratic M2); DAI là level-shifter +0.20, p<.001, không reshape curvature trong pool 50 nền)
+✅ P6 Meta-analysis three-level MARA k=238 (manuscript complete → JWB — Journal of World Business; r=0.074, I²=62.4%, ICRV Q_M=17.35**)
+✅ P7 Asian capstone TCI+DAI multi-country (manuscript complete → IBR — International Business Review; analytic frame 88,869 firms/50 economies incl. Japan; main regression N=81,022 (M2)/79,080 (M5); TP=43.6% (M5; 51.5% in unconditioned quadratic M2); DAI là level-shifter +0.20, p<.001, không reshape curvature trong pool 50 nền)
 ✅ P8 Pacific SIDS Forced Penalty (REVISED, submit World Development)
 ✅ P10 Japan — inaugural 2025 WBES wave, ICRV Group I (manuscript)
 ✅ P11 JED digital-divide (manuscript)
