@@ -37,7 +37,7 @@
 
 ### P3 — Vietnam WBES (Nonlinear I–P) 🟢 SẴN SÀNG NỘP
 - **Tạp chí mục tiêu (ladder 3 bậc):** **JED** (Journal of Economics and Development — Emerald, Diamond OA, miễn phí APC, Scopus/WoS) → **JABS** (Journal of Asia Business Studies — Emerald, ABS-1) → **IJOEM** (International Journal of Emerging Markets — Emerald, ABS-1)
-  - *Vì sao JED là đích chính:* Diamond OA (miễn phí, nhanh), Scopus/WoS, hợp deadline bảo vệ; cả ba đều Emerald/ScholarOne nên chuyển bậc dễ. Gói đã dựng: JED ✅, JABS ✅; IJOEM dựng khi cần.
+  - *Vì sao JED là đích chính:* Diamond OA (miễn phí, nhanh), Scopus/WoS, hợp deadline bảo vệ; cả ba đều Emerald/ScholarOne nên chuyển bậc dễ. Gói đã dựng: JED ✅, JABS ✅, IJOEM ✅.
 - **Submission portal:** Emerald ScholarOne — emeraldgrouppublishing.com/journal/jed
 - **Files đã có:**
   - `p3/submission/jed_package/01_manuscript_blinded.docx` — bản nộp (đã blinded)
@@ -78,7 +78,7 @@
 ---
 
 ### P5 — China WBES Temporal (2012–2024) 🟢 SẴN SÀNG NỘP
-- **Tạp chí mục tiêu (ladder 3 bậc):** **IJOEM** (International Journal of Emerging Markets — Emerald, ABS-1) → **APJM** (Asia Pacific Journal of Management — Springer, ABS-3) → **JABS** (Emerald, ABS-1). Gói đã dựng: IJOEM ✅; APJM/JABS dựng khi cần.
+- **Tạp chí mục tiêu (ladder 3 bậc):** **IJOEM** (International Journal of Emerging Markets — Emerald, ABS-1) → **APJM** (Asia Pacific Journal of Management — Springer, ABS-3) → **JABS** (Emerald, ABS-1). Gói đã dựng: IJOEM ✅, APJM ✅, JABS ✅.
 - **Submission portal:** mc.manuscriptcentral.com/ijoem
 - **Files đã có:**
   - `p5/submission/ijoem_package/01_manuscript_blinded.docx`
@@ -127,7 +127,7 @@
 ---
 
 ### P7 — Multi-Country Capstone (50 economies, incl. Japan) 🟢 SẴN SÀNG NỘP
-- **Tạp chí mục tiêu (ladder 3 bậc):** **IBR** (International Business Review — Elsevier, ABS-3, Q1) → **JIBP** (Journal of International Business Policy — Palgrave, ABS-3) → **GSJ** (Global Strategy Journal — Wiley, ABS-3). JIBS đã loại (WBES pooled cross-section không đáp ứng kỳ vọng nhận dạng nhân quả của JIBS); IBP/GSJ hợp với đóng góp bản đồ chính sách theo chế độ thể chế. Gói đã dựng: IBR ✅; JIBP/GSJ dựng khi cần.
+- **Tạp chí mục tiêu (ladder 3 bậc):** **IBR** (International Business Review — Elsevier, ABS-3, Q1) → **JIBP** (Journal of International Business Policy — Palgrave, ABS-3) → **GSJ** (Global Strategy Journal — Wiley, ABS-3). JIBS đã loại (WBES pooled cross-section không đáp ứng kỳ vọng nhận dạng nhân quả của JIBS); IBP/GSJ hợp với đóng góp bản đồ chính sách theo chế độ thể chế. Gói đã dựng: IBR ✅, JIBP ✅, GSJ ✅.
 - **Submission portal:** editorialmanager.com/ibr
 - **Files đã có:**
   - `p7/submission/ibr_package/01_manuscript_blinded.docx`
