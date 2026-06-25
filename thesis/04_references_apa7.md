@@ -578,6 +578,8 @@ Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfound
 
 Teece, D. J., Pisano, G., & Shuen, A. (1997). Dynamic capabilities and strategic management. *Strategic Management Journal, 18*(7), 509–533. https://doi.org/10.1002/smj.4250180702
 
+Thomas, D. C., Cuervo-Cazurra, A., & Brannen, M. Y. (2011). From the Editors: Explaining theoretical relationships in international business research: Focusing on the arrows, NOT the boxes. *Journal of International Business Studies, 42*(9), 1073–1080. https://doi.org/10.1057/jibs.2011.47
+
 Thomas, D. E. (2006). International diversification and firm performance in Mexican firms: A curvilinear relationship. *Journal of Business Research, 59*(4), 501–507. https://doi.org/10.1016/j.jbusres.2005.09.008
 
 Thomas, D. E., & Eden, L. (2004). What is the shape of the multinationality-performance relationship? *Multinational Business Review, 12*(1), 89–110. https://doi.org/10.1108/1525383X200400005

@@ -36,6 +36,16 @@ comparison through an identical core questionnaire (Aterido et al., 2011). The u
 of analysis is the **establishment**; the dependent, focal, and moderating variables
 are all measured at this level.
 
+On the distinction between targeted and realised samples, the World Bank draws each
+economy's target sample from a national business registry (or equivalent frame) to
+preset stratum quotas by sector, size, and region, and applies a documented
+replacement protocol when a sampled establishment is ineligible or declines, so that
+the realised stratum counts match the targets (World Bank, 2019; Aterido et al.,
+2011). The dissertation inherits this realised, registry-based frame at second hand
+and does not itself recruit firms; it therefore takes WBES sampling and eligibility
+decisions as given and confines its own selection to the inclusion rules in A.3 (Step
+S1) and the missing-data treatment in A.9.
+
 A key comparability constraint: WBES has applied a **unified global methodology only
 from 2006 onward**; earlier rounds used non-comparable instruments and sampling
 frames (World Bank, 2019). The dissertation therefore restricts the data to survey
@@ -186,7 +196,12 @@ the missingness mechanism (Little & Rubin, 2019).
 `scripts/build_pooled_dataset.py` (pooling + harmonisation + data flow), with the
 report `data_wbes/analysis/pooled_dataflow.csv`. Estimation in the absence of Stata is
 performed in Python (pandas/numpy)—a valid alternative for pooled cross-section
-econometrics when no Stata licence is available.
+econometrics when no Stata licence is available. For the avoidance of doubt, every
+firm count and coefficient cited in Chapters 3 and 4 is drawn from the **canonical,
+Japan-inclusive frame** (88,869 firms across 50 economies / 103 economy-year pairs;
+main regression N = 81,022 and 79,080 for the full-moderation model); any earlier
+50-economy build that predates the addition of Japan-2025 is retained only for
+provenance tracing and is not the source of any number reported in the dissertation.
 
 **Limitations.** (i) Repeated cross-sections do not track firm trajectories, limiting
 dynamic causal inference; (ii) labour productivity proxies performance and is not
