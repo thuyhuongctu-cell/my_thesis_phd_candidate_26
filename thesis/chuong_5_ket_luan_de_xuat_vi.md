@@ -22,13 +22,13 @@ Kết quả này xác nhận **một phần** H5 và tầng thể chế của kh
 
 Về mặt lý thuyết, phổ thể chế ICRV có thể được hiểu qua hai cơ chế bổ sung cho nhau. Cơ chế thứ nhất là **giảm chi phí giao dịch**: thể chế chất lượng cao (hệ thống pháp lý, bảo vệ quyền sở hữu trí tuệ, thực thi hợp đồng) làm giảm chi phí xuyên biên giới, cho phép doanh nghiệp duy trì đà tăng trưởng hiệu quả đến mức FSTS cao hơn. Cơ chế thứ hai là **khuếch đại năng lực**: môi trường thể chế tốt cũng có nghĩa là hệ sinh thái dịch vụ hỗ trợ (logistics, tài chính thương mại, tư vấn pháp lý quốc tế) phát triển, làm giảm gánh nặng điều phối nội bộ của doanh nghiệp khi mở rộng quốc tế. Hai cơ chế này cùng giải thích vì sao đường cong duỗi thẳng ở biên trên của phổ thể chế: khi chi phí giao dịch xuyên biên giới đủ thấp và hệ sinh thái hỗ trợ đủ dày, nhánh đi xuống của chữ U ngược bị đẩy lùi ra ngoài miền quan sát; ngược lại ở biên dưới, sự thiếu vắng cả hai điều kiện khiến phần thưởng của quốc tế hóa trở nên nhỏ và bất định đến mức dạng hàm không còn định hình được.
 
-### 5.1.2 TCI là Năng Lực Nền Tảng: Xác nhận một phần H2
+### 5.1.2 TCI là năng lực nền tảng: Xác nhận một phần H2
 
 Chỉ số năng lực công nghệ (TCI) nhất quán cho thấy **hiệu ứng nâng mặt bằng năng suất dương** trong tất cả các mẫu (Việt Nam P3, Trung Quốc P5, toàn mẫu P7: hệ số +0,141 độ lệch chuẩn năng suất chuẩn hóa cho mỗi độ lệch chuẩn TCI, p <,001). Tuy nhiên, TCI chỉ **điều tiết hình dạng đường cong I–P** tại bối cảnh quốc gia cụ thể (P3 Việt Nam, môi trường chuyển đổi với phân mảnh thể chế tạo điều kiện cho TCI định hình lại hiệu ứng), không phổ quát trên toàn mẫu 50 nền kinh tế (P7: tương tác FSTS×TCI và FSTS²×TCI đều không ý nghĩa). H2 được **xác nhận một phần**: TCI là năng lực nền tảng phổ quát, nhưng vai trò uốn đường cong quốc tế hóa và hiệu quả phụ thuộc bối cảnh thể chế. Điều này xác nhận vai trò của TCI là **năng lực nền tảng** (foundational capability) trong khung CDCM: doanh nghiệp có năng lực công nghệ sâu hơn, được đo bằng việc tiếp cận công nghệ nước ngoài, chi tiêu R&D, đổi mới sản phẩm và chứng nhận chất lượng, tạo ra giá trị cao hơn từ cùng một mức độ quốc tế hóa.
 
 Cơ chế lý thuyết đằng sau kết quả này bắt nguồn từ lý thuyết dựa trên nguồn lực (Barney, 1991): TCI là nguồn lực VRIN (có giá trị, hiếm, khó sao chép, khó thay thế), do đó tạo ra lợi thế cạnh tranh bền vững ngay cả khi doanh nghiệp mở rộng ra thị trường nước ngoài với mức độ bất định cao. Năng lực công nghệ cũng tạo ra năng lực hấp thụ (Cohen & Levinthal, 1990), khả năng hấp thu và tích hợp tri thức từ thị trường nước ngoài, giúp doanh nghiệp học hỏi hiệu quả hơn trong quá trình quốc tế hóa, nhất quán với learning loop của Uppsala model (Johanson & Vahlne, 1977).
 
-### 5.1.3 DAI là Nguồn Lực Tình Huống: Hỗ trợ một phần H3
+### 5.1.3 DAI là nguồn lực tình huống: Hỗ trợ một phần H3
 
 Kết quả về chỉ số chấp nhận số (DAI) phức tạp hơn và có nhiều sắc thái hơn so với TCI. Trên toàn mẫu P7 (khung 50 nền kinh tế), DAI có hiệu ứng nâng mặt bằng năng suất dương và có ý nghĩa cao ($\hat{\beta} = +0{,}201$, $p < {,}001$): doanh nghiệp có hiện diện số cơ bản đạt năng suất chuẩn hóa cao hơn một phần năm độ lệch chuẩn. Các tương tác điều tiết đường cong mang đúng chiều nén như khung CDCM dự đoán ($\hat{\beta}(\text{FSTS} \times \text{DAI}) = -0{,}271$; $\hat{\beta}(\text{FSTS}^2 \times \text{DAI}) = +0{,}252$) nhưng không đạt ý nghĩa thống kê ở cấp toàn mẫu ($p = {,}149$ và $p = {,}367$), nghĩa là hiệu ứng uốn đường cong của DAI không phổ quát mà tập trung ở các bối cảnh đặc thù. Tại Singapore (P4, DAI Bậc 1 và 2), DAI phát huy rõ nhất dưới dạng hiệu ứng khuếch đại ($\hat{\beta}(\text{FSTS}^2 \times \text{DAI}) = +3{,}119$, $p = {,}005$). Tại Việt Nam (P3, Bậc 1 only, IV-estimated), DAI không có ý nghĩa phản ánh hạn chế đo lường và thiên lệch chọn lựa hơn là bác bỏ H3.
 
@@ -38,7 +38,7 @@ Cần lưu ý rằng kết quả không có ý nghĩa về DAI tại Việt Nam 
 
 Một giải thích bổ sung từ Lý thuyết thể chế: ở các bối cảnh ICRV thấp với nhiều khoảng trống thể chế (Khanna & Palepu, 2010), doanh nghiệp xuất khẩu có thể phụ thuộc vào DAI nhiều hơn như một cơ chế bù đắp cho thiếu hụt hạ tầng thể chế (hiệu ứng lá chắn số đã ghi nhận ở nghiên cứu thành phần P1 trên 17 nền). Trên khung 50 nền, tương tác chế độ-yếu với độ dốc đường cong ở mức biên ý nghĩa (FSTS×chế độ yếu = −0,523, p =,087), nhất quán về chiều với lập luận này nhưng cần kiểm định nhân quả chặt hơn trước khi khẳng định.
 
-### 5.1.4 Đặc Điểm Nhà Quản Trị là Biến điều tiết Cá Nhân: Hỗ trợ có điều kiện H4
+### 5.1.4 Đặc điểm nhà quản trị là biến điều tiết cá nhân: Hỗ trợ có điều kiện H4
 
 Kết quả về H4 trên khung 50 nền cho thấy đặc điểm nhà quản trị cấp cao **không tạo hiệu ứng điều tiết phổ quát**. Hệ số mức của nữ quản lý cấp cao là âm nhẹ ($\hat{\beta} = -0{,}104$, $p < {,}001$) sau khi kiểm soát hiệu ứng cố định nền kinh tế và năm, và tương tác với cường độ quốc tế hóa không có ý nghĩa thống kê (FSTS×nữ quản lý: $p = {,}847$). Kết quả này nhất quán với lập luận của Lý thuyết thượng tầng quản trị (Hambrick & Mason, 1984) ở dạng có điều kiện: tác động của đặc điểm lãnh đạo phụ thuộc mạnh vào bối cảnh thể chế và cấu trúc ngành mà doanh nghiệp hoạt động, thay vì là một hiệu ứng đồng nhất xuyên 50 nền kinh tế; hệ số mức âm nhẹ nhiều khả năng phản ánh sự phân bố không ngẫu nhiên của nữ quản lý vào các ngành thâm dụng lao động biên thấp, một dạng chọn lọc ngành cần thiết kế nhận dạng riêng để bóc tách.
 
@@ -46,7 +46,7 @@ Cơ chế lý thuyết có thể qua hai kênh: thứ nhất, **đa dạng nhậ
 
 Tuy nhiên, cần lưu ý rằng tác động này được phát hiện ở cấp gộp toàn mẫu (P7) và cần kiểm định riêng biệt theo từng bối cảnh ICRV để hiểu đầy đủ điều kiện biên của biến điều tiết cấp quản trị. Kết quả không có ý nghĩa về kinh nghiệm nhà quản trị (mgr_experience) gợi ý rằng trong bối cảnh châu Á đa dạng, số năm kinh nghiệm đơn thuần không nắm bắt được **chất lượng** kinh nghiệm quốc tế (bề rộng so với chiều sâu, breadth vs. depth), một hạn chế đo lường trong WBES cần được khắc phục trong nghiên cứu tương lai.
 
-### 5.1.5 FIP là Điều Kiện Biên Cực Đoan: H1b cho SIDS
+### 5.1.5 FIP là điều kiện biên cực đoan: H1b cho SIDS
 
 Gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty, FIP) tại các nền kinh tế SIDS ($\beta = -1{,}339$, $p < {,}001$ trên phiên bản dữ liệu gốc của P8; cần đọc cùng giới hạn dữ liệu ở Mục 4.7.8, theo đó kết quả mang tính thăm dò và nhạy cảm với phiên bản dữ liệu) đại diện cho điều kiện biên mà CDCM không hoàn toàn dự báo trước trong phiên bản ban đầu của khung lý thuyết. FIP là biểu hiện của trường hợp khi **cả ba tầng của CDCM** (thể chế, năng lực, và quản trị) đều ở mức thấp: thể chế yếu, TCI thấp, DAI không phát huy tác dụng, thì quốc tế hóa không chỉ dừng ở mức không mang lại lợi ích mà còn gây tổn hại thực sự đến hiệu quả hoạt động kinh doanh của doanh nghiệp.
 
@@ -252,7 +252,7 @@ Kết quả thực nghiệm cung cấp **hướng dẫn thực tế** cho nhà q
 
 - **Doanh nghiệp SIDS (Nhóm VI)**: kết quả FIP là cảnh báo nghiêm túc, đẩy mạnh xuất khẩu trong bối cảnh thiếu năng lực và hỗ trợ thể chế không cải thiện mà còn có thể làm xấu đi hiệu quả hoạt động. Doanh nghiệp SIDS nên ưu tiên xây dựng năng lực nội địa và nâng cao TCI trước khi mở rộng xuất khẩu đáng kể.
 
-### 5.4.3 Đề xuất đặc biệt cho SIDS: Tránh Bẫy Quốc Tế Hóa Bắt Buộc
+### 5.4.3 Đề xuất đặc biệt cho SIDS: Tránh bẫy quốc tế hóa bắt buộc
 
 Phát hiện hình phạt quốc tế hóa cưỡng bức tại bảy nền kinh tế đảo nhỏ Thái Bình Dương có hàm ý chính sách cụ thể và cấp bách. Khác với năm bối cảnh còn lại, nơi quan hệ có dạng chữ U ngược với một ngưỡng tối ưu, ở nhóm đảo nhỏ hệ số nhánh cường độ xuất khẩu mang dấu âm và có ý nghĩa cao ($\beta = -1{,}339$ trên thang căn giữa), nghĩa là mọi mức tăng cường độ xuất khẩu đều đi kèm năng suất thấp hơn, không tồn tại điểm uốn để doanh nghiệp hướng tới. Hiện nay nhiều chương trình phát triển quốc tế và viện trợ thương mại cho các nền đảo nhỏ tập trung vào khuyến khích xuất khẩu như một chiến lược tăng trưởng tự thân. Kết quả này đặt câu hỏi nghiêm túc về hiệu quả của cách tiếp cận đó khi ba điều kiện cấu trúc nền tảng của một quan hệ chữ U ngược, gồm thị trường nội địa đủ lớn, chi phí thương mại chấp nhận được, và hỗ trợ thể chế tối thiểu, đồng thời bị vi phạm.
 
@@ -398,7 +398,7 @@ Luận án này được xây dựng trên mười nghiên cứu thành phần v
 
 Phát hiện trung tâm của luận án có thể được tóm tắt trong một luận điểm ngắn gọn:
 
-> **"Không có một mức độ quốc tế hóa tối ưu duy nhất, điểm uốn phụ thuộc vào thể chế, và trong điều kiện thể chế cực yếu, quốc tế hóa có thể gây ra bất lợi hiệu quả thay vì lợi ích."**
+> **"Thể chế quy định không chỉ độ lớn mà cả dấu và dạng hình của quan hệ quốc tế hóa và hiệu quả: không tồn tại một mức độ quốc tế hóa tối ưu duy nhất, điểm uốn dịch chuyển theo vị trí thể chế, và tại cực trị thể chế, toàn bộ dạng chữ U ngược ngừng áp dụng, quan hệ nghiêng về bất lợi đơn điệu thay vì lợi ích."**
 
 Bằng chứng từ 238 nghiên cứu (P6 meta-analysis) và 81.022 doanh nghiệp tại 50 nền kinh tế châu Á và Thái Bình Dương (P7) đều chỉ đến kết luận này. Quan hệ quốc tế hóa và hiệu quả không phải là một đường cong phổ quát mà là một **họ đường cong phụ thuộc bối cảnh** (family of context-dependent curves): chữ U ngược định hình rõ nhất ở vùng giữa phổ thể chế (Nhóm IV, điểm uốn khoảng 43%), duỗi thẳng gần tuyến tính ở biên trên nơi thể chế mạnh đẩy điểm uốn ra mức cường độ xuất khẩu rất cao (Singapore khoảng 88,6%, gần hoặc vượt biên dữ liệu quan sát), và mất cấu trúc ở biên dưới nơi thể chế yếu nhất; nghĩa là thể chế càng mạnh, doanh nghiệp càng duy trì lợi ích từ quốc tế hóa đến mức cường độ cao hơn trước khi đạt đỉnh.
 
