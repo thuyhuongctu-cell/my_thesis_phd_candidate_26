@@ -8,7 +8,7 @@
 
 ## Giới thiệu chương
 
-Chương 5 tổng hợp và diễn giải kết quả từ Chương 4 trong ánh sáng của khung lý thuyết CDCM và bốn lý thuyết nền (Uppsala, RBV, Institutional Theory, Upper Echelons Theory). Cấu trúc chương gồm sáu phần: (i) bàn luận kết quả theo khung lý thuyết; (ii) so sánh với nghiên cứu trước; (iii) đóng góp lý thuyết; (iv) đề xuất chính sách và quản trị; (v) hạn chế và hướng nghiên cứu tương lai; và (vi) kết luận tổng thể của luận án.
+Chương 5 tổng hợp và diễn giải kết quả từ Chương 4 trong ánh sáng của khung lý thuyết CDCM và bốn lý thuyết nền (Uppsala, RBV, Institutional Theory, Upper Echelons Theory). Toàn bộ chương được tổ chức quanh việc bảo vệ luận điểm trọng tâm của luận án: thể chế không chỉ điều tiết độ lớn mà quy định cả dấu và dạng hình của quan hệ quốc tế hóa và hiệu quả, và tại cực trị thể chế, toàn bộ họ mô hình chữ U ngược ngừng áp dụng (điều kiện biên FIP). Cấu trúc chương gồm sáu phần: (i) bàn luận kết quả theo khung lý thuyết; (ii) so sánh với nghiên cứu trước; (iii) đóng góp lý thuyết; (iv) đề xuất chính sách và quản trị; (v) hạn chế và hướng nghiên cứu tương lai; và (vi) kết luận tổng thể của luận án.
 
 ---
 
