@@ -50,6 +50,7 @@ PARTS=(
   thesis/04_references_apa7.md
   thesis/phu_luc_A_hop_nhat_du_lieu_vi.md
   thesis/phu_luc_B_maida_vi.md
+  thesis/phu_luc_C_ket_qua_thanh_phan_vi.md
 )
 : > "$TMP"
 for p in "${PARTS[@]}"; do cat "$p" >> "$TMP"; pagebreak >> "$TMP"; done
