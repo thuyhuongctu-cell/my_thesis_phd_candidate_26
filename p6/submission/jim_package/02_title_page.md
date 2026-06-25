@@ -10,13 +10,13 @@ Does Country Context Shape the Internationalization–Performance Link? A Three-
 
 ## Authors
 
-**First Author , ** Đỗ Thùy Hương (Do Thuy Huong)
+**First Author:** Đỗ Thùy Hương (Do Thuy Huong)
 - Position: PhD Candidate
 - Affiliation: College of Economics, Can Tho University (CTU), Vietnam
 - Email: huongp1323001@gstudent.ctu.edu.vn
 - ORCID: 0000-0002-7711-2487
 
-**Corresponding Author , ** Phan Anh Tú (Phan Anh Tu)
+**Corresponding Author:** Phan Anh Tú (Phan Anh Tu)
 - Title: Associate Professor (PGS.TS.)
 - Affiliation: College of Economics, Can Tho University (CTU), Vietnam
 - Email: patu@ctu.edu.vn
