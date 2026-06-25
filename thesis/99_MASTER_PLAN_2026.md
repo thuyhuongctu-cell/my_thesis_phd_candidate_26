@@ -1,4 +1,4 @@
-# KẾ HOẠCH TỔNG THỂ LUẬN ÁN TIẾN SĨ — CẬP NHẬT 20/05/2026
+# KẾ HOẠCH TỔNG THỂ LUẬN ÁN TIẾN SĨ — CẬP NHẬT 25/06/2026
 
 **NCS:** Đỗ Thùy Hương | **Mã NCS:** P1323001  
 **Đề tài:** Quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp ở Châu Á  
@@ -36,8 +36,8 @@
 ---
 
 ### P3 — Vietnam WBES (Nonlinear I–P) 🟢 SẴN SÀNG NỘP
-- **Target journal:** Journal of Economics and Development (JED) — Emerald, Diamond OA (miễn phí APC), Scopus/WoS
-  (JABS/MBR/Thunderbird đã DEPRECATED — đích sống duy nhất của P3 là JED)
+- **Tạp chí mục tiêu (ladder 3 bậc):** **JED** (Journal of Economics and Development — Emerald, Diamond OA, miễn phí APC, Scopus/WoS) → **JABS** (Journal of Asia Business Studies — Emerald, ABS-1) → **IJOEM** (International Journal of Emerging Markets — Emerald, ABS-1)
+  - *Vì sao JED là đích chính:* Diamond OA (miễn phí, nhanh), Scopus/WoS, hợp deadline bảo vệ; cả ba đều Emerald/ScholarOne nên chuyển bậc dễ. Gói đã dựng: JED ✅, JABS ✅; IJOEM dựng khi cần.
 - **Submission portal:** Emerald ScholarOne — emeraldgrouppublishing.com/journal/jed
 - **Files đã có:**
   - `p3/submission/jed_package/01_manuscript_blinded.docx` — bản nộp (đã blinded)
@@ -45,7 +45,7 @@
   - `p3/submission/jed_package/03_cover_letter.docx` — cover letter đã điền
   - Figures: cấp file độ phân giải cao (.tif/.eps/.jpeg) khi nộp
 - **Nội dung bài:** Vietnam 2009/2015/2023, WBES, inverted-U (M0–M6), TCI/DAI moderators
-- **Turning point:** TP* ≈ 40.3% FSTS (confirmed by Lind-Mehlum utest)
+- **Turning point:** TP* ≈ 39,7% FSTS (khoảng 39,3–46,2% qua các mô hình; xác nhận bằng Lind–Mehlum utest)
 
 **NCS chỉ cần làm:**
 1. Đăng nhập Emerald ScholarOne (emeraldgrouppublishing.com/journal/jed)
@@ -59,7 +59,7 @@
 ---
 
 ### P4 — Singapore WBES (DAI Amplification) 🟢 SẴN SÀNG NỘP
-- **Target journal:** Management International Review (MIR) — ABS-3, Springer
+- **Tạp chí mục tiêu (ladder 3 bậc):** **MIR** (Management International Review — Springer, ABS-3) → **MBR** (Multinational Business Review — Emerald, ABS-2) → **APBR** (Asia Pacific Business Review — Taylor & Francis, ABS-2). Gói đã dựng: MIR ✅, MBR ✅, APBR ✅.
 - **Submission portal:** mc.manuscriptcentral.com/mir (hoặc link.springer.com/journal/11575)
 - **Files đã có:**
   - `p4/submission/mir_package/01_manuscript_blinded.docx`
@@ -78,7 +78,7 @@
 ---
 
 ### P5 — China WBES Temporal (2012–2024) 🟢 SẴN SÀNG NỘP
-- **Target journal:** International Journal of Emerging Markets (IJOEM) — ABS-1, Emerald
+- **Tạp chí mục tiêu (ladder 3 bậc):** **IJOEM** (International Journal of Emerging Markets — Emerald, ABS-1) → **APJM** (Asia Pacific Journal of Management — Springer, ABS-3) → **JABS** (Emerald, ABS-1). Gói đã dựng: IJOEM ✅; APJM/JABS dựng khi cần.
 - **Submission portal:** mc.manuscriptcentral.com/ijoem
 - **Files đã có:**
   - `p5/submission/ijoem_package/01_manuscript_blinded.docx`
@@ -96,8 +96,7 @@
 ---
 
 ### P6 — Three-Level Meta-Analysis I–P Asia-Pacific 🟡 CẦN 1 BƯỚC
-- **Target journal:** Journal of World Business (JWB) — ABS-4*, Elsevier · Q1
-  (P6 đã đổi đích khỏi IBR — IBR nay là gói của P7; ladder P6 hiện tại: **JWB → JIM → APJM**)
+- **Tạp chí mục tiêu (ladder 3 bậc):** **JWB** (Journal of World Business — Elsevier, ABS-4*, Q1) → **JIM** (Journal of International Management — Elsevier, ABS-3) → **APJM** (Asia Pacific Journal of Management — Springer, ABS-3). IBR đã chuyển sang P7. Gói đã dựng: JWB ✅, JIM ✅, APJM ✅.
 - **Submission portal:** editorialmanager.com/jwb
 - **Files đã có:**
   - `p6/submission/jwb_package/01_manuscript_blinded.docx` (k=238, K=288)
@@ -117,7 +116,9 @@
 - Mục tiêu ban đầu k≥250 từ OSF preregistration
 - Cần hoàn thành L2 extraction 435 papers trước
 
-> **Khuyến nghị:** Nếu bảo vệ luận án trong năm 2026, chọn **Lựa chọn A** — nộp ngay với k=238, ghi chú "additional studies under extraction per OSF protocol" trong manuscript.
+> **Khuyến nghị:** Nếu bảo vệ luận án trong năm 2026, chọn **Lựa chọn A** — nộp với k=238, ghi chú "additional studies under extraction per OSF protocol" trong manuscript.
+>
+> ⚠️ **Ràng buộc PRISMA bắt buộc (áp dụng cho cả A và B, làm TRƯỚC khi nộp P6):** một meta-analysis nộp khi mới search một CSDL (WoS) sẽ vi phạm PRISMA 2020 và gần như chắc bị major revision. Trình tự đúng: (1) chạy **Scopus** + khử trùng; (2) tính và báo cáo **độ tin cậy liên mã hóa κ ≥ 0,70 / ICC ≥ 0,80**; (3) rồi mới submit. Không nộp P6 trước khi hoàn tất ba bước này, bất kể chọn đích JWB/JIM/APJM.
 
 **NCS quyết định A hay B, rồi:**
 - Nếu A: Đăng nhập editorialmanager.com/jwb, upload, submit (45 phút)
@@ -126,7 +127,7 @@
 ---
 
 ### P7 — Multi-Country Capstone (50 economies, incl. Japan) 🟢 SẴN SÀNG NỘP
-- **Target journal:** International Business Review (IBR) — ABS-3, Elsevier · Q1
+- **Tạp chí mục tiêu (ladder 3 bậc):** **IBR** (International Business Review — Elsevier, ABS-3, Q1) → **JIBP** (Journal of International Business Policy — Palgrave, ABS-3) → **GSJ** (Global Strategy Journal — Wiley, ABS-3). JIBS đã loại (WBES pooled cross-section không đáp ứng kỳ vọng nhận dạng nhân quả của JIBS); IBP/GSJ hợp với đóng góp bản đồ chính sách theo chế độ thể chế. Gói đã dựng: IBR ✅; JIBP/GSJ dựng khi cần.
 - **Submission portal:** editorialmanager.com/ibr
 - **Files đã có:**
   - `p7/submission/ibr_package/01_manuscript_blinded.docx`
@@ -148,7 +149,7 @@
 ---
 
 ### P8 — Pacific SIDS Forced Internationalization 🟡 CẦN KIỂM TRA
-- **Target journal:** World Development — ABS-4*, Elsevier (IF ~6.0)
+- **Tạp chí mục tiêu (ladder 3 bậc):** **World Development** (Elsevier, ABS-4*, IF ~6,0) → **JID** (Journal of International Development — Wiley, ABS-2) → **EJDR** (European Journal of Development Research — Palgrave, ABS-1). Gói đã dựng: World Development (redesign 7 nền) ✅, JID ✅, EJDR ✅.
 - **Submission portal:** editorialmanager.com/worlddev
 - **Files đã có:** `p8/submission/world_development_redesign/` (bản **redesign 2026-06-19**)
 - **Nội dung bài:** **7 nền Pacific SIDS** (loại Timor-Leste — không thuộc Pacific SIDS của LHQ/WB), N=1.450 (7 cụm); phát hiện **mất cấu trúc** của chữ U ngược (độ dốc −0,085, p_wild=,66; độ cong +0,696, p_wild=,082), quan hệ nghiêng về dạng âm đơn điệu — trường hợp giới hạn **FIP (Forced Internationalization Penalty)**. Hệ số FIP âm mạnh (β=−1,339) chỉ xuất hiện trên bản dựng 3 cụm hạn chế, nhạy cảm phiên bản dữ liệu.
@@ -161,7 +162,7 @@
 ---
 
 ### P9 — India Threshold Dissolution (2014–2025) 🟢 SẴN SÀNG NỘP
-- **Target journal:** Management International Review (MIR) — ABS-3, Springer (primary); IJOEM (Emerald) thay thế
+- **Tạp chí mục tiêu (ladder 3 bậc):** **MIR** (Management International Review — Springer, ABS-3) → **IJOEM** (Emerald, ABS-1) → **JABS** (Emerald, ABS-1). Gói đã dựng: MIR ✅, IJOEM ✅, JABS ✅.
 - **Submission portal:** mc.manuscriptcentral.com/mir
 - **Files đã có:**
   - `p9_india/submission/mir_package/01_manuscript_blinded.docx`
@@ -175,7 +176,7 @@
 ---
 
 ### P10 — Japan Upper-Bound Institutional Test (WBES 2025) 🟡 CHUẨN BỊ GỬI
-- **Target journal:** Asian Business & Management (ABM) — ABS-2, Palgrave Macmillan
+- **Tạp chí mục tiêu (ladder 3 bậc):** **ABM** (Asian Business & Management — Palgrave Macmillan, ABS-2) → **APJM** (Asia Pacific Journal of Management — Springer, ABS-3) → **IJOEM** (Emerald, ABS-1). Gói đã dựng: ABM ✅, APJM ✅, IJOEM ✅.
 - **Files đã có:**
   - `p10_japan/submission/abm_package/01_manuscript_blinded.docx`
   - `p10_japan/submission/abm_package/02_title_page.docx`
@@ -435,4 +436,6 @@ Tháng 12/2026:
 
 ---
 
-*Cập nhật: 20/05/2026 | Lưu tại: `thesis/99_MASTER_PLAN_2026.md`*
+*Cập nhật: 25/06/2026 | Lưu tại: `thesis/99_MASTER_PLAN_2026.md`*
+
+> **Ghi chú phiên bản 25/06/2026.** (1) Mỗi paper nay có **ladder 3 tạp chí mục tiêu** (đích chính → dự phòng 2 → dự phòng 3), chọn theo độ khớp bản chất bài + cùng nhà xuất bản/cổng nộp để chuyển bậc nhanh. (2) Ánh xạ đích chính đã chốt: P3→JED, P6→JWB, P7→IBR (JIBS loại); đồng bộ với Chương 1 §1.10. (3) Số liệu khóa: P3 TP 39,7% (39,3–46,2%); P6 k=238 là **số cuối** dùng trong luận án; P7 N=81.022/79.080; bảng "% hoàn thiện" ở Phần VII là ảnh chụp 20/05, các chương từ đó đã qua tái cấu trúc apex + 13 sửa chuẩn JIBS. (4) Cảnh báo PRISMA cho P6: Scopus + κ/ICC TRƯỚC khi nộp.
