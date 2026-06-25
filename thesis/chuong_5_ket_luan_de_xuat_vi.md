@@ -340,7 +340,7 @@ Cuối cùng, các kết quả liên quan đặc trưng nhà quản trị cấp 
 
 ### 5.5.4 Hướng nghiên cứu tương lai
 
-Dựa trên các hạn chế trên, luận án đề xuất bảy hướng nghiên cứu ưu tiên:
+Dựa trên các hạn chế trên, luận án đề xuất mười hướng nghiên cứu ưu tiên:
 
 **Thứ nhất**, xây dựng đo lường DAI phong phú hơn (Bậc 2 và Bậc 3) trên dữ liệu WBES mới nhất (2023–2026) và các nguồn dữ liệu bổ sung (ITU Digital Development Index, OECD Digital Economy Outlook) để kiểm định lại vai trò DAI trong các bối cảnh ICRV thấp hơn.
 
