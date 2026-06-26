@@ -212,7 +212,7 @@ Trong bối cảnh đó, hệ thống thông tin về hiệu quả hoạt độn
 
 **B. Trường hợp biên mở rộng, Nhóm VI SIDS (8 nền, n=1.916 LP-valid, 2,3% mẫu gộp)**: Fiji, Papua New Guinea, Solomon Islands, Tonga, Vanuatu, Samoa, Kiribati (2025) và Timor-Leste. Mẫu chính của nghiên cứu chuyên sâu SIDS (P8) là 7 nền Thái Bình Dương, **loại Timor-Leste** (n=1.781).
 
-**Phạm vi thời gian**: **2006–2026** (19 năm khảo sát, 103 cặp nền kinh tế × năm). Ba thế hệ lược đồ WBES trong mẫu gộp mô tả: PICS3/tiền-Standardized (2006–2012, 18 đợt, n=8.048), Standardized (2013–2017, 27 đợt, n=23.940), BREADY/BEE/EAP Core (2018–2026, 57 đợt, n=54.713, chiếm 63,1% mẫu gộp).
+**Phạm vi thời gian**: **2006–2026** (19 năm khảo sát, 103 cặp nền kinh tế × năm). Ba thế hệ lược đồ WBES trong mẫu gộp mô tả: PICS3/tiền-Standardized (2006–2012, 18 đợt, n=8.048), Standardized (2013–2017, 27 đợt, n=23.940), BREADY/BEE/EAP Core (2018–2026, 58 đợt, n=56.881, chiếm 64,0% mẫu gộp).
 
 ### 2.1.4 Giới hạn nghiên cứu
 
@@ -490,7 +490,7 @@ Châu Á không phải là một khối đồng nhất về thể chế. Các ph
 
 *Nguồn: tính từ dữ liệu vi mô WBES trên mẫu gộp mô tả 50 nền (FSTS = d3b + d3c; CAGR việc làm từ l1/l2 trên 3 năm tài khóa). ¹Nhóm II: đủ 6/6 nền GCC (Bahrain, Brunei, Kuwait, Oman, Qatar, Saudi Arabia). ²Nhóm VI: đủ 8/8 nền (7 Pacific + Timor-Leste; n=1.916, LP-valid).*
 
-Trung vị FSTS bằng 0%, phân phối phân cực mạnh với chỉ khoảng 12–28% doanh nghiệp tham gia xuất khẩu tùy theo nhóm (cao nhất ở Nhóm I, thấp nhất ở Nhóm II). SIDS có tốc độ tăng trưởng việc làm hàng năm kép cao nhất (5,3%), phản ánh quy mô nhỏ và tăng trưởng từ nền thấp. Nhóm I và V có FSTS trung bình cao nhất (13,4% và 10,6%) nhưng cơ chế xuất khẩu khác nhau: Nhóm I chủ yếu dịch vụ và hàng hóa hàm lượng tri thức cao; các nhóm III–V chủ yếu sản xuất theo chuỗi giá trị toàn cầu.
+Trung vị FSTS bằng 0%, phân phối phân cực mạnh với chỉ khoảng 12–28% doanh nghiệp tham gia xuất khẩu tùy theo nhóm (cao nhất ở Nhóm I, thấp nhất ở Nhóm II). SIDS có tốc độ tăng trưởng việc làm hàng năm kép cao nhất (5,3%), phản ánh quy mô nhỏ và tăng trưởng từ nền thấp. Nhóm I và V có FSTS trung bình cao nhất (10,3% và 10,6%) nhưng cơ chế xuất khẩu khác nhau: Nhóm I chủ yếu dịch vụ và hàng hóa hàm lượng tri thức cao; các nhóm III–V chủ yếu sản xuất theo chuỗi giá trị toàn cầu.
 
 ---
 
@@ -810,7 +810,7 @@ Quan hệ giữa cường độ đầu tư số và năng suất có hình dạn
 
 **(vi) Nhảy vọt số 2018–2026** ở các nhóm IV/V/VI (+21 đến +31 điểm phần trăm website). Phân biệt **Bậc 1 Sự hiện diện số cơ bản** (tiệm cận bão hòa ở Advanced) và **Bậc 2 Chuyển đổi số cơ bản** (đang phát triển). Phần bù tương quan DAI thấp nhất ở Nhóm I (+0,093) là dấu hiệu bão hòa Bậc 1, xem kiểm định loại trừ ICT tại Mục 2.3.4.3.
 
-**(vii) Khuôn mẫu phi tuyến FDI ≥10%**, dạng chữ U với cực tiểu ở Nhóm IV (3,1%): Advanced 10,6–13,6% sang Nhóm IV 3,1% sang SIDS 20,0%. Hai mô hình FDI: MNE hub (Advanced) và du lịch/viễn thông (SIDS).
+**(vii) Khuôn mẫu phi tuyến FDI ≥10%**, dạng chữ U với cực tiểu ở Nhóm IV (3,1%): Advanced 7,7–13,6% sang Nhóm IV 3,1% sang SIDS 20,0%. Hai mô hình FDI: MNE hub (Advanced) và du lịch/viễn thông (SIDS).
 
 **(viii) Đợt khảo sát 2025, mẫu đơn năm lớn nhất**: 13 nền kinh tế × 16.880 doanh nghiệp (19,0% mẫu gộp, gồm Nhật Bản khảo sát lần đầu). Ấn Độ FSTS sụt 5 điểm phần trăm (hiệu ứng schema); Fiji website 74,8% > Singapore 66,1%; Kiribati đối lập cực đoan với Fiji.
 
@@ -1015,6 +1015,8 @@ La Porta, R., & Shleifer, A. (2008). The unofficial economy and economic develop
 La Porta, R., & Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives, 28*(3), 109–126. https://doi.org/10.1257/jep.28.3.109
 
 Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
+
+Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118.
 
 Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*(6–7), 565–586. https://doi.org/10.1002/smj.184
 
