@@ -326,6 +326,8 @@ Jacquemin, A. P., & Berry, C. H. (1979). Entropy measure of diversification and 
 
 Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm — A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
 
+Johanson, J., & Vahlne, J.-E. (2009). The Uppsala internationalization process model revisited: From liability of foreignness to liability of outsidership. *Journal of International Business Studies, 40*(9), 1411–1431. https://doi.org/10.1057/jibs.2009.24
+
 Juniati, S., & Wahyuni, S. (2019). Internationalization and performance: Evidence from Indonesian firms. *International Journal of Business and Society, 20*(3), 1134–1152.
 
 Kafouros, M., Aliyev, M., Piperopoulos, P., Au, A. K. M., Ho, J. W. Y., & Wong, S. Y. N. (2023). The role of institutional quality and industry dynamism in explaining firm performance in emerging economies. *Global Strategy Journal, 14*(1), 56–83. https://doi.org/10.1002/gsj.1479
