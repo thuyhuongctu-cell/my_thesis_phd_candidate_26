@@ -245,5 +245,6 @@ Các nghiên cứu đánh dấu **\*** là nguồn dữ liệu của phân tích
 | S235\* | +0.08 (est.) | Freixanet, J., & Rialp, J. (2021). Disentangling the relationship between internationalization, incremental and radical innovation, and firm performance. *Global Strategy Journal*. https://doi.org/10.1002/gsj.1412 |
 | S236\* | −0.10 | Barłożewski, K., & Trąpczyński, P. (2021a). Internationalisation motives and the multinationality-performance relationship: The case of Polish firms. *Entrepreneurial Business and Economics Review, 9*(2), 85–104. https://doi.org/10.15678/eber.2021.090206 |
 | S237\* | −0.04 | Barłożewski, K., & Trąpczyński, P. (2021b). Is internationalisation beneficial for novice internationalisers? The performance effects of firm-specific advantages, internationalisation degree and firm size revisited. *Oeconomia Copernicana, 12*(1), 53–75. https://doi.org/10.24136/oc.2021.003 |
+| S238\* | +0.13 | Srividhya, M., & Vidya, C. T. (2024). Internationalization at inception: Insights from the Indian textile industry's born globals. *Journal of Economic Integration, 39*(2). https://doi.org/10.11130/jei.2024033 |
 
-*Tổng: 237 nghiên cứu. Đã ghép trích dẫn đầy đủ từ danh mục tham khảo: 134; còn cần hoàn thiện trích dẫn đầy đủ: 103.*
+*Tổng: 238 nghiên cứu. Đã ghép trích dẫn đầy đủ từ danh mục tham khảo: 135; còn cần hoàn thiện trích dẫn đầy đủ: 103.*

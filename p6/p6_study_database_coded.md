@@ -388,10 +388,11 @@ Các cột: **ID | Author-Year | r (range) | n | Country | Sample_period | ICRV 
 | S235 | Freixanet & Rialp (2021) GSJ | +0.08 (est.) | 1,500 | Spain | ~2008–16 | II | M | FOL | EXP | MIX | GSJ; I–P with innovation mediator (distinct from S101 EMJ) |
 | S236 | Barłożewski & Trąpczyński (2021a) | −0.10 | 97 | Poland | ~2014–19 | MX | M | SPN | FSTS | ACC | EBER 9; exporter subsample n=97; r confirmed (see S195 for full-sample n=200 est.) |
 | S237 | Barłożewski & Trąpczyński (2021b) | −0.04 | 304 | Poland | ~2014–19 | MX | M | FOL | FSTS | ACC | OC 12; larger-sample n=304; r confirmed (see S196 for n=200 est.) |
+| S238 | Srividhya & Vidya (2024) | 0.13 | 992 | India | ~2005–21 | III | M | SPN | FSTS | ACC | JEI v39(2); WoS 001303672500007; doi 10.11130/jei.2024033; Indian textile born-globals (PROWESS panel); effect E288 |
 
 ---
 
-## 5. Tóm tắt Phân phối Moderator (k = 237 studies S01–S237; S238 added to forest_data directly đến total k = 238, K = 288 in MARA)
+## 5. Tóm tắt Phân phối Moderator (k = 238 studies S01–S238; K = 288 effect sizes in MARA)
 
 > *Cập nhật 16/05/2026: k=237. S236/S237 are distinct subsample analyses from same papers as S195/S196 (different n, different effect). S238 = Cho & Lee (2018) confirmed duplicate of S85 (same paper, same r=−0.029, same n=232; removed — cDAI corrected to H at S85). Table rows S01–S237 documented below. Các bảng phân phối dưới đây là ước tính từ coding thủ công; xem `p6/results/forest_data.csv` để có số liệu chính xác theo effect.*
 >
