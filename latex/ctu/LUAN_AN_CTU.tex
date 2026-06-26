@@ -4115,9 +4115,9 @@ tục đòi hỏi ba điều kiện đồng thời: hệ số bậc nhất dươ
 hai âm; độ dốc của hàm tại biên trái của miền dương và độ dốc tại biên
 phải âm; và điểm uốn nằm chặt bên trong khoảng giá trị quan sát của
 cường độ xuất khẩu. Kiểm định gộp ba ràng buộc trên thành một kiểm định
-giao điểm theo nguyên lý Sasabuchi, cho ra một giá trị p duy nhất; chỉ
-khi giá trị p này đủ nhỏ thì hình chữ U ngược mới được xác nhận về mặt
-thống kê chứ không chỉ về mặt mô tả.
+giao điểm theo nguyên lý Sasabuchi (Sasabuchi, 1980), cho ra một giá trị
+p duy nhất; chỉ khi giá trị p này đủ nhỏ thì hình chữ U ngược mới được
+xác nhận về mặt thống kê chứ không chỉ về mặt mô tả.
 
 Điểm uốn được tính theo công thức
 \(\text{TP} = -\hat\beta_1 / (2\hat\beta_2)\) trên thang trung tâm hóa
@@ -7757,17 +7757,18 @@ lục dữ liệu, tệp \texttt{p7\_robustness\_suite\_2026-06.md}).
 \textbf{Thứ nhất, suy luận cụm nhỏ.} Vì ước lượng điểm uốn theo từng
 nhóm ICRV chỉ dựa trên 6--16 nền kinh tế (cụm), sai số chuẩn cụm CRV1 có
 xu hướng bác bỏ quá mức. Một kiểm định bootstrap cụm hoang dã
-(wild-cluster, Cameron--Gelbach--Miller, trọng số Rademacher, B = 9.999,
-cụm theo nền kinh tế) cho thấy độ cong cấp nhóm nhạy cảm với số cụm: số
-hạng bậc hai của vùng chuyển đổi (Nhóm IV) vẫn mạnh nhất nhưng giá trị
-\(p\) nới rộng từ \(0{,}001\) (CRV1) lên khoảng \(0{,}10\), trong khi
-các nhóm Đang nổi và SIDS giữ nguyên không có ý nghĩa
-(\(p_{\text{wild}} \approx 0{,}33\) và \(0{,}30\)). Kết quả này xác nhận
-rằng suy luận hình thức về tính phi tuyến được neo đúng ở \textbf{cấp
-gộp} (mô hình M2 với 49 cụm, \(\beta_2 = -1{,}399\), \(p < {,}001\)) và
-tam giác hóa với phân tích tổng hợp P6, chứ không đọc ra từ từng nhóm
-con ít cụm; các điểm uốn theo nhóm ICRV vì vậy được diễn giải như một
-phổ mô tả chứ không phải các kiểm định độc lập đủ công suất.
+(wild-cluster, Cameron--Gelbach--Miller, 2008; MacKinnon và Webb, 2017,
+trọng số Rademacher, B = 9.999, cụm theo nền kinh tế) cho thấy độ cong
+cấp nhóm nhạy cảm với số cụm: số hạng bậc hai của vùng chuyển đổi (Nhóm
+IV) vẫn mạnh nhất nhưng giá trị \(p\) nới rộng từ \(0{,}001\) (CRV1) lên
+khoảng \(0{,}10\), trong khi các nhóm Đang nổi và SIDS giữ nguyên không
+có ý nghĩa (\(p_{\text{wild}} \approx 0{,}33\) và \(0{,}30\)). Kết quả
+này xác nhận rằng suy luận hình thức về tính phi tuyến được neo đúng ở
+\textbf{cấp gộp} (mô hình M2 với 49 cụm, \(\beta_2 = -1{,}399\),
+\(p < {,}001\)) và tam giác hóa với phân tích tổng hợp P6, chứ không đọc
+ra từ từng nhóm con ít cụm; các điểm uốn theo nhóm ICRV vì vậy được diễn
+giải như một phổ mô tả chứ không phải các kiểm định độc lập đủ công
+suất.
 
 \textbf{Thứ hai, đa kiểm định.} Áp dụng hiệu chỉnh Holm và Bonferroni
 cho cả họ bốn số hạng tương tác năng lực số
@@ -7850,10 +7851,11 @@ ICRV khác là \textbf{việc dạng chữ U ngược mất cấu trúc}. Trên 
 bảy cụm quốc gia), ước lượng bằng đúng quy trình hài hòa hóa của P7
 (biến phụ thuộc là năng suất lao động chuẩn hóa z trong từng cặp nền ×
 năm, hiệu ứng cố định nền và năm) với suy luận few-cluster hợp lệ bằng
-bootstrap cụm hoang dã (Cameron, Gelbach và Miller, 2008; B = 9.999),
-\textbf{cả độ cong lẫn độ dốc của FSTS đều không có ý nghĩa thống kê}:
-độ dốc tuyến tính \(\hat{\beta}(\text{FSTS}) = -0{,}085\)
-(\(p_{\text{wild}} = {,}66\)) ở mô hình tuyến tính, và số hạng bậc hai
+bootstrap cụm hoang dã (Cameron, Gelbach và Miller, 2008; MacKinnon và
+Webb, 2017; B = 9.999), \textbf{cả độ cong lẫn độ dốc của FSTS đều không
+có ý nghĩa thống kê}: độ dốc tuyến tính
+\(\hat{\beta}(\text{FSTS}) = -0{,}085\) (\(p_{\text{wild}} = {,}66\)) ở
+mô hình tuyến tính, và số hạng bậc hai
 \(\hat{\beta}(\text{FSTS}^2) = +0{,}696\) chỉ đạt ý nghĩa biên
 (\(p_{\text{wild}} = {,}082\)). Các điều kiện Lind--Mehlum cho một chữ U
 ngược thực sự không được thỏa, và không tồn tại cực đại nội vùng. Điều
