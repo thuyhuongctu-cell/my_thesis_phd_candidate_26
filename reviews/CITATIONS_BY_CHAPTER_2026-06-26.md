@@ -1,0 +1,309 @@
+# Danh mục tài liệu được trích dẫn theo từng chương
+
+> Tự động đối sánh trích dẫn trong thân chương với 303 mục của `thesis/04_references_apa7.md` (khớp họ tác giả thứ nhất + năm, cả dạng tường thuật và trong ngoặc). Một tài liệu có thể được trích ở nhiều chương.
+
+## Chương 1 — Giới thiệu — 29 tài liệu
+
+- Arte, L., & Larimo, J. (2022). Moderating influence of psychic distance on the international diversification–performance relationship: Insights from a meta-analysis. *Journal of Business Research, 139*, 230–245. https://doi.org/10.1016/j.jbusres.2021.09.060
+- Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.
+- Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
+- Berry, H., & Kaul, A. (2016). Replicating the multinationality-performance relationship: Is there an S-curve? *Strategic Management Journal, 37*(11), 2275–2290. https://doi.org/10.1002/smj.2429
+- Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, internationalization, and firm performance. *International Business Review, 32*(4), 102027.
+- Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/MISQ/2013/37:2.3
+- Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
+- Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
+- Da Cunha, H. M., Amal, M., Floriani, D. E., & Fleury, M. T. L. (2023). Firm internationalization approaches and performance: The moderating role of the home country's formal institutions. *International Journal of Emerging Markets*. https://doi.org/10.1108/ijoem-08-2021-1299
+- Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+- Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
+- Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
+- Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0022-4
+- Hsu, W. T., Chen, H. L., & Cheng, C. Y. (2013). Internationalization and firm performance of SMEs: The moderating effects of CEO attributes. *Journal of World Business, 48*(1), 1–12. https://doi.org/10.1016/j.jwb.2012.06.001
+- Hunter, J. E., & Schmidt, F. L. (2004). *Methods of meta-analysis: Correcting error and bias in research findings* (2nd ed.). Sage.
+- Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm — A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
+- Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
+- Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. https://doi.org/10.1111/j.2042-5805.2012.01028.x
+- Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
+- Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
+- Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
+- North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
+- Peng, M. W. (2003). Institutional transitions and strategic choices. *Academy of Management Review, 28*(2), 275–296. https://doi.org/10.5465/amr.2003.9416341
+- Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
+- Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. *Academy of Management Journal, 58*(5), 1546–1571. https://doi.org/10.5465/amj.2013.0319
+- Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? *Global Strategy Journal, 11*(1), 58–80.
+- Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
+- Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: Evidence from a meta-analysis. *International Business Review, 31*(2), 101920.
+- Yang, B., Bai, W., Chen, Y., & Rong, K. (2025). Internationalization of digital firms: A systematic review and research agenda. *Journal of Business Research*.
+
+## Chương 2 — Tổng quan tài liệu — 125 tài liệu
+
+- Abdi, M., & Aulakh, P. S. (2018). Internationalization and performance: Degree, duration, and scale of operations in foreign markets. *Journal of International Business Studies, 49*(7), 832–857. https://doi.org/10.1057/s41267-017-0117-9
+- Aguinis, H., Dalton, D. R., Bosco, F. A., Pierce, C. A., & Dalton, C. M. (2011). Meta-analytic choices and judgment calls: Implications for theory and research. *Journal of Management, 37*(1), 5–38. https://doi.org/10.1177/0149206310370708
+- Almodóvar, P., & Rugman, A. M. (2014). The M curve and the performance of Spanish international new ventures. *British Journal of Management, 25*(S1), S6–S23. https://doi.org/10.1111/1467-8551.12048
+- Arbelo, A., Arbelo-Pérez, M., & Pérez-Gómez, P. (2024). Internationalization and individual firm performance: A resource-based view. *Eurasian Business Review, 14*(4), 881–915.
+- Arte, L., & Larimo, J. (2022). Moderating influence of psychic distance on the international diversification–performance relationship: Insights from a meta-analysis. *Journal of Business Research, 139*, 230–245. https://doi.org/10.1016/j.jbusres.2021.09.060
+- Avenyo, E. K., Tregenna, F., & Kraemer-Mbula, E. (2021). Do productive capabilities affect export performance? Evidence from African firms. *European Journal of Development Research, 33*(2), 304–329. https://doi.org/10.1057/s41287-021-00364-6
+- Ayyagari, M., Demirgüç-Kunt, A., & Maksimovic, V. (2011). Firm innovation in emerging markets. *Journal of Financial and Quantitative Analysis, 46*(6), 1545–1580.
+- Babina, T., Fedyk, A., He, A., & Hodson, J. (2024). Artificial intelligence, firm growth, and product innovation. *Journal of Financial Economics, 151*, 103745. https://doi.org/10.1016/j.jfineco.2023.103745
+- Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.
+- Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120. https://doi.org/10.1177/014920639101700108
+- Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
+- Berry, H., & Kaul, A. (2016). Replicating the multinationality-performance relationship: Is there an S-curve? *Strategic Management Journal, 37*(11), 2275–2290. https://doi.org/10.1002/smj.2429
+- Beugelsdijk, S., Kostova, T., Kunst, V. E., Spadafora, E., & van Essen, M. (2018). Cultural distance and firm internationalization: A meta-analytical review and theoretical implications. *Journal of Management, 44*(1), 89–130. https://doi.org/10.1177/0149206317729027
+- Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, internationalization, and firm performance. *International Business Review, 32*(4), 102027.
+- Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/MISQ/2013/37:2.3
+- Briguglio, L. (1995). Small island developing states and their economic vulnerabilities. *World Development, 23*(9), 1615–1632. https://doi.org/10.1016/0305-750X(95)00065-K
+- Brynjolfsson, E., Rock, D., & Syverson, C. (2021). The productivity J-curve: How intangibles complement general purpose technologies. *American Economic Journal: Macroeconomics, 13*(1), 333–372. https://doi.org/10.1257/mac.20180386
+- Buckley, P. J., & Casson, M. C. (1976). *The future of the multinational enterprise*. Macmillan.
+- Buckley, P. J., Clegg, L. J., Cross, A. R., Liu, X., Voss, H., & Zheng, P. (2007). The determinants of Chinese outward foreign direct investment. *Journal of International Business Studies, 38*(4), 499–518. https://doi.org/10.1057/palgrave.jibs.8400277
+- Caves, R. E. (1971). International corporations: The industrial economics of foreign investment. *Economica, 38*(149), 1–27.
+- Chao, M. C.-H., & Kumar, V. (2010). The impact of institutional distance on the international diversity-performance relationship. *Journal of World Business, 45*(1), 93–103. https://doi.org/10.1016/j.jwb.2009.04.005
+- Chen, J., & Meng, Q. (2022). Institutional constraints and exporting of emerging-market firms. *Managerial and Decision Economics, 43*(5), 1706–1720.
+- Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
+- Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
+- Combs, J. G., Crook, T. R., & Shook, C. L. (2005). The dimensionality of organizational performance and its implications for strategic management research. In D. J. Ketchen & D. D. Bergh (Eds.), *Research methodology in strategy and management* (Vol. 2, pp. 259–286). Emerald. https://doi.org/10.1016/S1479-8387(05)02011-4
+- Combs, J. G., Ketchen, D. J., Crook, T. R., & Roth, P. L. (2011). Assessing cumulative evidence within "macro" research: Why meta-analysis should be preferred over vote counting. *Journal of Management Studies, 48*(1), 178–197. https://doi.org/10.1111/j.1467-6486.2009.00899.x
+- Contractor, F. J. (2012). Why do multinational firms exist? A theory note about the effect of multinational expansion on performance and recent methodological critiques. *Global Strategy Journal, 2*(4), 318–331. https://doi.org/10.1111/j.2042-5805.2012.01043.x
+- Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
+- Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home country uncertainty and the internationalization–performance relationship. *Journal of World Business, 53*(2), 209–221.
+- Da Cunha, H. M., Amal, M., Floriani, D. E., & Fleury, M. T. L. (2023). Firm internationalization approaches and performance: The moderating role of the home country's formal institutions. *International Journal of Emerging Markets*. https://doi.org/10.1108/ijoem-08-2021-1299
+- Demir, B., & Javorcik, B. (2018). Don't throw in the towel, throw in trade credit! *Journal of International Economics, 111*, 177–189. https://doi.org/10.1016/j.jinteco.2018.01.008
+- Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+- Drori, N., Alessandri, T., Bart, Y., & Herstein, R. (2024). The impact of digitalization on internationalization from an internalization theory lens. *Long Range Planning, 57*(1), 102395. https://doi.org/10.1016/j.lrp.2023.102395
+- Dunning, J. H. (1988). The eclectic paradigm of international production: A restatement and some possible extensions. *Journal of International Business Studies, 19*(1), 1–31. https://doi.org/10.1057/palgrave.jibs.8490372
+- Eden, L., & Nielsen, B. B. (2020). Research methods in international business: The challenge of complexity. *Journal of International Business Studies, 51*(9), 1609–1620. https://doi.org/10.1057/s41267-020-00374-2
+- Eisenhardt, K. M., & Martin, J. A. (2000). Dynamic capabilities: What are they? *Strategic Management Journal, 21*(10–11), 1105–1121. https://doi.org/10.1002/smj.118
+- Fariborzi, H., Verbeke, A., & Steel, P. (2025). Early internationalization: A meta-analysis of antecedents, dimensions, and performance. *Journal of Management Studies*. https://doi.org/10.1111/joms.70008
+- Gaur, A. S., & Kumar, V. (2009). International diversification, business group affiliation and firm performance: Empirical evidence from India. *British Journal of Management, 20*(2), 172–186. https://doi.org/10.1111/j.1467-8551.2008.00558.x
+- Glaum, M., & Oesterle, M. (2007). 40 years of research on internationalization and firm performance: More questions than answers? *Management International Review, 47*(3), 307–317. https://doi.org/10.1007/s11575-007-0018-0
+- Gomes, L., & Ramaswamy, K. (1999). An empirical examination of the form of the relationship between multinationality and performance. *Journal of International Business Studies, 30*(1), 173–187. https://doi.org/10.1057/palgrave.jibs.8490065
+- Grant, R. M. (1987). Multinationality and performance among British manufacturing companies. *Journal of International Business Studies, 18*(3), 79–89. https://doi.org/10.1057/palgrave.jibs.8490413
+- Grego, M., Buckley, P. J., Munjal, S., Voss, H., & Wang, E. Y. (2025). Managers and internationalization decisions: An affect-enacted model. *Global Strategy Journal, 15*(3), 317–345. https://doi.org/10.1002/gsj.1516
+- Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
+- Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of Management Review, 32*(2), 334–343. https://doi.org/10.5465/amr.2007.24345254
+- Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
+- Helpman, E., Melitz, M. J., & Yeaple, S. R. (2004). Export versus FDI with heterogeneous firms. *American Economic Review, 94*(1), 300–316. https://doi.org/10.1257/000282804322970814
+- Hemmert, M., & Jackson, K. (2016). Is there an East Asian model of MNC internationalization? A comparative analysis of Japanese and Korean firms. *Asia Pacific Business Review, 22*(4), 567–594. https://doi.org/10.1080/13602381.2016.1168617
+- Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0022-4
+- Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal, 40*(4), 767–798. https://doi.org/10.2307/256948
+- Hitt, M. A., Tihanyi, L., Miller, T., & Connelly, B. (2006). International diversification: Antecedents, outcomes, and moderators. *Journal of Management, 32*(6), 831–867. https://doi.org/10.1177/0149206306293575
+- Hsu, W. T., Chen, H. L., & Cheng, C. Y. (2013). Internationalization and firm performance of SMEs: The moderating effects of CEO attributes. *Journal of World Business, 48*(1), 1–12. https://doi.org/10.1016/j.jwb.2012.06.001
+- Hymer, S. H. (1976). *The international operations of national firms: A study of direct foreign investment*. MIT Press.
+- Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm — A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
+- Johanson, J., & Vahlne, J.-E. (2009). The Uppsala internationalization process model revisited: From liability of foreignness to liability of outsidership. *Journal of International Business Studies, 40*(9), 1411–1431. https://doi.org/10.1057/jibs.2009.24
+- Kafouros, M., Aliyev, M., Piperopoulos, P., Au, A. K. M., Ho, J. W. Y., & Wong, S. Y. N. (2023). The role of institutional quality and industry dynamism in explaining firm performance in emerging economies. *Global Strategy Journal, 14*(1), 56–83. https://doi.org/10.1002/gsj.1479
+- Kalubandi, S. C., Sharma, D., Edacherian, S., & Karna, A. (2025). Role of foreign market knowledge and home country institutions in international entrepreneurship-performance relationship: A meta-analysis. *Asia Pacific Journal of Management*. https://doi.org/10.1007/s10490-025-10076-8
+- Kano, L., Tsang, E. W. K., & Yeung, H. W.-C. (2020). Global value chains: A review of the multi-disciplinary literature. *Journal of International Business Studies, 51*(4), 577–622. https://doi.org/10.1057/s41267-020-00304-2
+- Karna, A., Richter, A., & Riesenkampff, E. (2016). Revisiting the role of the environment in the capabilities–financial performance relationship: A meta-analysis. *Strategic Management Journal, 37*(6), 1154–1173. https://doi.org/10.1002/smj.2379
+- Katz, R., & Callorda, F. (2018). *The economic contribution of broadband, digitization and ICT regulation*. ITU Telecommunication Development Sector.
+- Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law, 3*(2), 220–246. https://doi.org/10.1017/S1876404511200046
+- Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
+- Kim, W. C., Hwang, P., & Burgers, W. P. (1989). Global diversification strategy and corporate profit performance. *Strategic Management Journal, 10*(1), 45–57. https://doi.org/10.1002/smj.4250100105
+- Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. https://doi.org/10.1111/j.2042-5805.2012.01028.x
+- Knight, G. A., & Cavusgil, S. T. (2004). Innovation, organizational capabilities, and the born-global firm. *Journal of International Business Studies, 35*(2), 124–141. https://doi.org/10.1057/palgrave.jibs.8400071
+- Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
+- Li, W., Li, C., & Wei, G. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance. *PLOS ONE, 17*(11), e0277421.
+- Likitwongkajon, N., & Vithessonthi, C. (2020). Do foreign investments increase firm value and firm performance? Evidence from Japan. *Research in International Business and Finance, 51*, 101099.
+- Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
+- Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*(6–7), 565–586.
+- Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
+- Luo, Y., & Tung, R. L. (2007). International expansion of emerging market enterprises: A springboard perspective. *Journal of International Business Studies, 38*(4), 481–498. https://doi.org/10.1057/palgrave.jibs.8400275
+- Manova, K. (2013). Credit constraints, heterogeneous firms, and international trade. *Review of Economic Studies, 80*(2), 711–744. https://doi.org/10.1093/restud/rds036
+- Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
+- Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
+- Miller, S. R., Lavie, D., & Delios, A. (2016). International intensity, diversity, and distance: Unpacking the internationalization-performance relationship. *International Business Review, 25*(4), 907–920. https://doi.org/10.1016/j.ibusrev.2015.12.001
+- Mondal, A., Ray, S., & Lahiri, S. (2022). Family ownership, family management, and multinationality: Evidence from India. *Journal of Business Research, 138*, 347–359. https://doi.org/10.1016/j.jbusres.2021.09.017
+- Murhadi, W. R., Setiawan, S. S., & Ernawati, E. (2025). Governance and internationalisation on firm performance: A case study in Indonesia and Malaysia. *Revista de Métodos Cuantitativos para la Economía y la Empresa, 40*, 1–15. https://doi.org/10.46661/rev.metodoscuant.econ.empresa.10865
+- Nambisan, S., Wright, M., & Feldman, M. (2019). The digital transformation of innovation and entrepreneurship: Progress, challenges and key themes. *Research Policy, 48*(8), 103773. https://doi.org/10.1016/j.respol.2019.03.018
+- Nguyen, Q., & Kim, S. (2020). The multinationality and performance relationship: Revisiting the literature and exploring the implications. *International Business Review, 29*(6), Article 101670. https://doi.org/10.1016/j.ibusrev.2020.101670
+- Nielsen, S. (2010). Top management team internationalization and firm performance: The mediating role of foreign market entry. *Management International Review, 50*(2), 185–206. https://doi.org/10.1007/s11575-010-0029-0
+- North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
+- Pan, Y., Verbeke, A., & Yuan, W. (2021). CEO transformational leadership and corporate entrepreneurship in China. *Management and Organization Review, 17*(1), 45–76. https://doi.org/10.1017/mor.2020.59
+- Pangarkar, N. (2008). Internationalization and performance of small- and medium-sized enterprises. *Journal of World Business, 43*(4), 475–485.
+- Pattnaik, C., & Elango, B. (2009). The impact of firm resources on the internationalization and performance relationship: A study of Indian manufacturing firms. *Multinational Business Review, 17*(2), 69–90. https://doi.org/10.1108/1525383X200900012
+- Peng, M. W. (2001). The resource-based view and international business. *Journal of Management, 27*(6), 803–829. https://doi.org/10.1177/014920630102700604
+- Peng, M. W. (2003). Institutional transitions and strategic choices. *Academy of Management Review, 28*(2), 275–296. https://doi.org/10.5465/amr.2003.9416341
+- Peng, M. W., Wang, D. Y. L., & Jiang, Y. (2008). An institution-based view of international business strategy: A focus on emerging economies. *Journal of International Business Studies, 39*(5), 920–936. https://doi.org/10.1057/palgrave.jibs.8400377
+- Phan, A. T., Do, T. H., & Phan, M. T. (2020b). The moderating effects of managers' experience and gender on internationalization and firm performance of manufacturing enterprises in Turkey. *Accounting, 6*(7), 1209–1216. https://doi.org/10.5267/j.ac.2020.9.006
+- Phan, A. T., Nguyen, V. S., Dinh, V. T., Thai, V. H., Nguyen, C. T., Dao, Q. T., Nguyen, V. L., & Do, T. H. (2021). The moderating effects of the manager's characteristics and financial obstacles on internationalization and firm performance in Poland. *PalArch's Journal of Archaeology of Egypt/Egyptology, 18*(4), 4063–4081.
+- Pierce, J. R., & Aguinis, H. (2013). The too-much-of-a-good-thing effect in management. *Journal of Management, 39*(2), 313–338. https://doi.org/10.1177/0149206311410060
+- Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
+- Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. *Academy of Management Journal, 58*(5), 1546–1571. https://doi.org/10.5465/amj.2013.0319
+- Purkayastha, A., Karna, A., Sharma, S., & Bhadra, D. (2024). Role of resource investment management and strategic resource deployment capabilities in internationalization-performance relationship. *Journal of International Management, 30*(3), Article 101122. https://doi.org/10.1016/j.intman.2024.101122
+- Riahi-Belkaoui, A. (1998). The effects of the degree of internationalization on firm performance. *International Business Review, 7*(3), 315–321. https://doi.org/10.1016/S0969-5931(98)00013-4
+- Richard, P. J., Devinney, T. M., Yip, G. S., & Johnson, G. (2009). Measuring organizational performance: Towards methodological best practice. *Journal of Management, 35*(3), 718–804. https://doi.org/10.1177/0149206308330560
+- Ruigrok, W., & Wagner, H. (2003). Internationalization and performance: An organizational learning perspective. *Management International Review, 43*(1), 63–83.
+- Sambharya, R. B. (1996). Foreign experience of top management teams and international diversification strategies of U.S. multinational corporations. *Strategic Management Journal, 17*(9), 739–746. https://doi.org/10.1002/(SICI)1097-0266(199611)17:9<739::AID-SMJ846>3.0.CO;2-K
+- Santangelo, G. D., & Verbeke, A. (2022). Actionable guidelines to improve 'theory-related' contributions to international business research. *Journal of International Business Studies, 53*(9), 1843–1855. https://doi.org/10.1057/s41267-022-00567-x
+- Schmuck, A., Lagerström, K., & Sallis, J. F. (2022). Turning the tables: The relationship between performance and multinationality. *Management International Review, 62*(1), 3–26. https://doi.org/10.1007/s11575-022-00464-3
+- Scott, W. R. (1995). *Institutions and organizations*. Sage.
+- Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. https://doi.org/10.1177/0149206319846272
+- Singla, C., & George, R. (2013). Internationalization and performance: A contextual analysis of Indian firms. *Journal of Business Research, 66*(12), 2500–2506. https://doi.org/10.1016/j.jbusres.2013.05.041
+- Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? *Global Strategy Journal, 11*(1), 58–80.
+- Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Journal of International Business Studies, 25*(2), 325–342. https://doi.org/10.1057/palgrave.jibs.8490203
+- Tallman, S., & Li, J. (1996). Effects of international diversity and product diversity on the performance of multinational firms. *Academy of Management Journal, 39*(1), 179–196. https://doi.org/10.2307/256635
+- Teece, D. J. (1986). Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. *Research Policy, 15*(6), 285–305. https://doi.org/10.1016/0048-7333(86)90027-2
+- Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. *Strategic Management Journal, 28*(13), 1319–1350. https://doi.org/10.1002/smj.640
+- Teece, D. J., Pisano, G., & Shuen, A. (1997). Dynamic capabilities and strategic management. *Strategic Management Journal, 18*(7), 509–533. https://doi.org/10.1002/smj.4250180702
+- Thomas, D. C., Cuervo-Cazurra, A., & Brannen, M. Y. (2011). From the Editors: Explaining theoretical relationships in international business research: Focusing on the arrows, NOT the boxes. *Journal of International Business Studies, 42*(9), 1073–1080. https://doi.org/10.1057/jibs.2011.47
+- Thomas, D. E., & Eden, L. (2004). What is the shape of the multinationality-performance relationship? *Multinational Business Review, 12*(1), 89–110. https://doi.org/10.1108/1525383X200400005
+- Tsionas, M. G., & Tzeremes, N. G. (2021). The degree of internationalization and firm productivity: Empirical evidence from large multinationals. *British Journal of Management, 32*(4), 1032–1052. https://doi.org/10.1111/1467-8551.12560
+- Vahlne, J.-E. (2020). Development of the Uppsala model of internationalization process: From internationalization to evolution. *Global Strategy Journal, 10*(2), 239–250. https://doi.org/10.1002/gsj.1383
+- Verbeke, A., Eschmann, D., & Gugler, P. (2025). Asymmetries in firm-level globalization: The case of Swiss multinational enterprises. *Management International Review, 65*(2), 305–328. https://doi.org/10.1007/s11575-025-00568-6
+- Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
+- Vernon, R. (1966). International investment and international trade in the product cycle. *The Quarterly Journal of Economics, 80*(2), 190–207.
+- Wach, K. (2021). The evolution of the Uppsala model: Towards non-linearity of internationalization of firms. *International Entrepreneurship Review, 7*(2), 7–19. https://doi.org/10.15678/IER.2021.0702.01
+- Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy, 30*(1), 60–82. https://doi.org/10.1111/j.1467-9701.2007.00872.x
+- Wernerfelt, B. (1984). A resource-based view of the firm. *Strategic Management Journal, 5*(2), 171–180. https://doi.org/10.1002/smj.4250050207
+- Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
+- Williamson, O. E. (2000). The new institutional economics: Taking stock, looking ahead. *Journal of Economic Literature, 38*(3), 595–613. https://doi.org/10.1257/jel.38.3.595
+- Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: Evidence from a meta-analysis. *International Business Review, 31*(2), 101920.
+- Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internationalization and performance of firms in China. *Journal of International Management, 19*(2), 118–137.
+- Xu, J. (2024). Rethinking institutional arbitrage: De jure exposure and de facto enforcement. *Global Strategy Journal, 14*(4), 754–799. https://doi.org/10.1002/gsj.1510
+- Yang, B., Bai, W., Chen, Y., & Rong, K. (2025). Internationalization of digital firms: A systematic review and research agenda. *Journal of Business Research*.
+- Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Management Journal, 38*(2), 341–363. https://doi.org/10.2307/256411
+
+## Chương 3 — Phương pháp — 64 tài liệu
+
+- Aguinis, H., Dalton, D. R., Bosco, F. A., Pierce, C. A., & Dalton, C. M. (2011). Meta-analytic choices and judgment calls: Implications for theory and research. *Journal of Management, 37*(1), 5–38. https://doi.org/10.1177/0149206310370708
+- Aguinis, H., Hill, N. S., & Bailey, J. R. (2019). Best practices in data collection and preparation: Recommendations for reviewers, editors, and authors. *Organizational Research Methods, 24*(4), 678–693. https://doi.org/10.1177/1094428119836485
+- Aiken, L. S., & West, S. G. (1991). *Multiple regression: Testing and interpreting interactions*. Sage.
+- Angrist, J. D., & Pischke, J.-S. (2009). *Mostly harmless econometrics: An empiricist's companion*. Princeton University Press.
+- Arte, L., & Larimo, J. (2022). Moderating influence of psychic distance on the international diversification–performance relationship: Insights from a meta-analysis. *Journal of Business Research, 139*, 230–245. https://doi.org/10.1016/j.jbusres.2021.09.060
+- Aterido, R., Hallward-Driemeier, M., & Pagés, C. (2011). Big constraints to small firms' growth? Business environment and employment growth across firms. *Economic Development and Cultural Change, 59*(3), 609–647. https://doi.org/10.1086/658349
+- Ayyagari, M., Demirgüç-Kunt, A., & Maksimovic, V. (2011). Firm innovation in emerging markets. *Journal of Financial and Quantitative Analysis, 46*(6), 1545–1580.
+- Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
+- Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. *Biometrics, 50*(4), 1088–1101. https://doi.org/10.2307/2533446
+- Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, internationalization, and firm performance. *International Business Review, 32*(4), 102027.
+- Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/MISQ/2013/37:2.3
+- Bloom, N., Genakos, C., Sadun, R., & Van Reenen, J. (2012). Management practices across firms and countries. *Academy of Management Perspectives, 26*(1), 12–33. https://doi.org/10.5465/amp.2011.0077
+- Breusch, T. S., & Pagan, A. R. (1979). A simple test for heteroscedasticity and random coefficient variation. *Econometrica, 47*(5), 1287–1294. https://doi.org/10.2307/1911963
+- Chen, J., & Meng, Q. (2022). Institutional constraints and exporting of emerging-market firms. *Managerial and Decision Economics, 43*(5), 1706–1720.
+- Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
+- Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
+- Combs, J. G., Crook, T. R., & Shook, C. L. (2005). The dimensionality of organizational performance and its implications for strategic management research. In D. J. Ketchen & D. D. Bergh (Eds.), *Research methodology in strategy and management* (Vol. 2, pp. 259–286). Emerald. https://doi.org/10.1016/S1479-8387(05)02011-4
+- Combs, J. G., Ketchen, D. J., Crook, T. R., & Roth, P. L. (2011). Assessing cumulative evidence within "macro" research: Why meta-analysis should be preferred over vote counting. *Journal of Management Studies, 48*(1), 178–197. https://doi.org/10.1111/j.1467-6486.2009.00899.x
+- Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
+- Cuervo-Cazurra, A., Ciravegna, L., Melgarejo, M., & Lopez, L. (2018). Home country uncertainty and the internationalization–performance relationship. *Journal of World Business, 53*(2), 209–221.
+- Da Cunha, H. M., Amal, M., Floriani, D. E., & Fleury, M. T. L. (2023). Firm internationalization approaches and performance: The moderating role of the home country's formal institutions. *International Journal of Emerging Markets*. https://doi.org/10.1108/ijoem-08-2021-1299
+- Dawson, J. F. (2014). Moderation in management research: What, why, when, and how. *Journal of Business and Psychology, 29*(1), 1–19. https://doi.org/10.1007/s10869-013-9308-7
+- Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+- Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. *Biometrics, 56*(2), 455–463. https://doi.org/10.1111/j.0006-341X.2000.00455.x
+- Egger, M., Davey Smith, G., Schneider, M., & Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test. *British Medical Journal, 315*(7109), 629–634. https://doi.org/10.1136/bmj.315.7109.629
+- Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
+- Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage.
+- Hambrick, D. C. (2007). Upper echelons theory: An update. *Academy of Management Review, 32*(2), 334–343. https://doi.org/10.5465/amr.2007.24345254
+- Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
+- Hessels, J., & Terjesen, S. (2010). Resource dependency and institutional theory perspectives on direct and indirect export choices. *Small Business Economics, 34*(2), 203–220. https://doi.org/10.1007/s11187-008-9156-4
+- Higgins, J. P. T., Thompson, S. G., Deeks, J. J., & Altman, D. G. (2003). Measuring inconsistency in meta-analyses. *BMJ, 327*(7414), 557–560. https://doi.org/10.1136/bmj.327.7414.557
+- Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification: Effects on innovation and firm performance in product-diversified firms. *Academy of Management Journal, 40*(4), 767–798. https://doi.org/10.2307/256948
+- Hitt, M. A., Tihanyi, L., Miller, T., & Connelly, B. (2006). International diversification: Antecedents, outcomes, and moderators. *Journal of Management, 32*(6), 831–867. https://doi.org/10.1177/0149206306293575
+- Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics, 124*(4), 1403–1448. https://doi.org/10.1162/qjec.2009.124.4.1403
+- Hsu, W. T., Chen, H. L., & Cheng, C. Y. (2013). Internationalization and firm performance of SMEs: The moderating effects of CEO attributes. *Journal of World Business, 48*(1), 1–12. https://doi.org/10.1016/j.jwb.2012.06.001
+- Hunter, J. E., & Schmidt, F. L. (2004). *Methods of meta-analysis: Correcting error and bias in research findings* (2nd ed.). Sage.
+- Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm — A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
+- Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law, 3*(2), 220–246. https://doi.org/10.1017/S1876404511200046
+- Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
+- Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. https://doi.org/10.1111/j.2042-5805.2012.01028.x
+- Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
+- Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
+- Long, J. S., & Ervin, L. H. (2000). Using heteroscedasticity consistent standard errors in the linear regression model. *The American Statistician, 54*(3), 217–224. https://doi.org/10.1080/00031305.2000.10474549
+- Lu, J. W., & Beamish, P. W. (2001). The internationalization and performance of SMEs. *Strategic Management Journal, 22*(6–7), 565–586.
+- Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
+- Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
+- Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
+- North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
+- Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. *Journal of Business & Economic Statistics, 37*(2), 187–204. https://doi.org/10.1080/07350015.2016.1227711
+- Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
+- Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866. https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
+- Peng, M. W., & Ilinitch, A. Y. (1998). Export intermediary firms: A note on export development research. *Journal of International Business Studies, 29*(3), 609–620. https://doi.org/10.1057/palgrave.jibs.8490011
+- Peterson, R. A., & Brown, S. P. (2005). On the use of beta coefficients in meta-analysis. *Journal of Applied Psychology, 90*(1), 175–181. https://doi.org/10.1037/0021-9010.90.1.175
+- Phan, A. T., Nguyen, V. S., Dinh, V. T., Thai, V. H., Nguyen, C. T., Dao, Q. T., Nguyen, V. L., & Do, T. H. (2021). The moderating effects of the manager's characteristics and financial obstacles on internationalization and firm performance in Poland. *PalArch's Journal of Archaeology of Egypt/Egyptology, 18*(4), 4063–4081.
+- Post, C., & Byron, K. (2015). Women on boards and firm financial performance: A meta-analysis. *Academy of Management Journal, 58*(5), 1546–1571. https://doi.org/10.5465/amj.2013.0319
+- Richard, P. J., Devinney, T. M., Yip, G. S., & Johnson, G. (2009). Measuring organizational performance: Towards methodological best practice. *Journal of Management, 35*(3), 718–804. https://doi.org/10.1177/0149206308330560
+- Sasabuchi, S. (1980). A test of a multivariate normal mean with composite hypotheses determined by linear inequalities. *Biometrika, 67*(2), 429–439. https://doi.org/10.1093/biomet/67.2.429
+- Solon, G., Haider, S. J., & Wooldridge, J. M. (2015). What are we weighting for? *Journal of Human Resources, 50*(2), 301–316. https://doi.org/10.3368/jhr.50.2.301
+- Stallkamp, M., & Schotter, A. P. J. (2021). Platforms without borders? *Global Strategy Journal, 11*(1), 58–80.
+- Sullivan, D. (1994). Measuring the degree of internationalization of a firm. *Journal of International Business Studies, 25*(2), 325–342. https://doi.org/10.1057/palgrave.jibs.8490203
+- Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
+- Wooldridge, J. M. (2010). *Econometric analysis of cross section and panel data* (2nd ed.). MIT Press.
+- Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: Evidence from a meta-analysis. *International Business Review, 31*(2), 101920.
+- Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internationalization and performance of firms in China. *Journal of International Management, 19*(2), 118–137.
+
+## Chương 4 — Kết quả — 33 tài liệu
+
+- Arte, L., & Larimo, J. (2022). Moderating influence of psychic distance on the international diversification–performance relationship: Insights from a meta-analysis. *Journal of Business Research, 139*, 230–245. https://doi.org/10.1016/j.jbusres.2021.09.060
+- Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. https://doi.org/10.1007/s11575-007-0019-z
+- Begg, C. B., & Mazumdar, M. (1994). Operating characteristics of a rank correlation test for publication bias. *Biometrics, 50*(4), 1088–1101. https://doi.org/10.2307/2533446
+- Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414
+- Cao, X., Li, P., Huang, X., & Fan, L. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance: Empirical evidence from China. *PLOS ONE, 17*(2), Article e0263674. https://doi.org/10.1371/journal.pone.0263674
+- Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum.
+- Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
+- Da Cunha, H. M., Amal, M., Floriani, D. E., & Fleury, M. T. L. (2023). Firm internationalization approaches and performance: The moderating role of the home country's formal institutions. *International Journal of Emerging Markets*. https://doi.org/10.1108/ijoem-08-2021-1299
+- Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+- Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
+- Helpman, E., Melitz, M. J., & Yeaple, S. R. (2004). Export versus FDI with heterogeneous firms. *American Economic Review, 94*(1), 300–316. https://doi.org/10.1257/000282804322970814
+- Hennart, J.-F. (2007). The theoretical rationale for a multinationality–performance relationship. *Management International Review, 47*(3), 423–452. https://doi.org/10.1007/s11575-007-0022-4
+- Hsieh, C.-T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. *Quarterly Journal of Economics, 124*(4), 1403–1448. https://doi.org/10.1162/qjec.2009.124.4.1403
+- Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm — A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
+- Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. *Hague Journal on the Rule of Law, 3*(2), 220–246. https://doi.org/10.1017/S1876404511200046
+- Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
+- Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. https://doi.org/10.1111/j.2042-5805.2012.01028.x
+- La Porta, R., & Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives, 28*(3), 109–126. https://doi.org/10.1257/jep.28.3.109
+- Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. https://doi.org/10.1016/0305-750X(92)90097-F
+- Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
+- MacKinnon, J. G., & Webb, M. D. (2017). Wild bootstrap inference for wildly different cluster sizes. *Journal of Applied Econometrics, 32*(2), 233–254. https://doi.org/10.1002/jae.2508
+- Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
+- Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
+- Mizik, N., & Jacobson, R. (2003). Trading off between value creation and value appropriation: The financial implications of shifts in strategic emphasis. *Journal of Marketing, 67*(1), 63–76. https://doi.org/10.1509/jmkg.67.1.63.18595
+- North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
+- Oster, E. (2019). Unobservable selection and coefficient stability: Theory and evidence. *Journal of Business & Economic Statistics, 37*(2), 187–204. https://doi.org/10.1080/07350015.2016.1227711
+- Paternoster, R., Brame, R., Mazerolle, P., & Piquero, A. (1998). Using the correct statistical test for the equality of regression coefficients. *Criminology, 36*(4), 859–866. https://doi.org/10.1111/j.1745-9125.1998.tb01268.x
+- Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
+- Pouresmaeili, M., Salamzadeh, A., Salamzadeh, Y., & Braga, V. (2018). Internationalization of Iranian SMEs and its impact on firm performance. *International Journal of Business and Globalisation, 21*(3), 388–404. https://doi.org/10.1504/IJBG.2018.095267
+- Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy, 30*(1), 60–82. https://doi.org/10.1111/j.1467-9701.2007.00872.x
+- Williamson, O. E. (1985). *The economic institutions of capitalism*. Free Press.
+- Wu, J., Wood, G., & Khan, Z. (2022). Internationalization and firm performance: Evidence from a meta-analysis. *International Business Review, 31*(2), 101920.
+- Xu, J. (2024). Rethinking institutional arbitrage: De jure exposure and de facto enforcement. *Global Strategy Journal, 14*(4), 754–799. https://doi.org/10.1002/gsj.1510
+
+## Chương 5 — Kết luận & Đề xuất — 40 tài liệu
+
+- Banalieva, E. R., & Dhanaraj, C. (2019). Internalization theory for the digital economy. *Journal of International Business Studies, 50*(8), 1372–1387.
+- Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120. https://doi.org/10.1177/014920639101700108
+- Berry, H., & Kaul, A. (2016). Replicating the multinationality-performance relationship: Is there an S-curve? *Strategic Management Journal, 37*(11), 2275–2290. https://doi.org/10.1002/smj.2429
+- Beugelsdijk, S., Kostova, T., Kunst, V. E., Spadafora, E., & van Essen, M. (2018). Cultural distance and firm internationalization: A meta-analytical review and theoretical implications. *Journal of Management, 44*(1), 89–130. https://doi.org/10.1177/0149206317729027
+- Bhandari, K. R., Zámborský, P., Ranta, M., & Salo, J. (2023). Digitalization, internationalization, and firm performance. *International Business Review, 32*(4), 102027.
+- Bharadwaj, A., El Sawy, O. A., Pavlou, P. A., & Venkatraman, N. (2013). Digital business strategy: Toward a next generation of insights. *MIS Quarterly, 37*(2), 471–482. https://doi.org/10.25300/MISQ/2013/37:2.3
+- Chen, J., & Meng, Q. (2022). Institutional constraints and exporting of emerging-market firms. *Managerial and Decision Economics, 43*(5), 1706–1720.
+- Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. *Administrative Science Quarterly, 35*(1), 128–152. https://doi.org/10.2307/2393553
+- Coltman, T., Devinney, T. M., Midgley, D. F., & Venaik, S. (2008). Formative versus reflective measurement models: Two applications of formative measurement. *Journal of Business Research, 61*(12), 1250–1262. https://doi.org/10.1016/j.jbusres.2008.01.013
+- Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international expansion: The link between multinationality and performance in the service sector. *Journal of International Business Studies, 34*(1), 5–18. https://doi.org/10.1057/palgrave.jibs.8400003
+- Corley, K. G., & Gioia, D. A. (2011). Building theory about theory building: What constitutes a theoretical contribution? *Academy of Management Review, 36*(1), 12–32. https://doi.org/10.5465/amr.2009.0486
+- Da Cunha, H. M., Amal, M., Floriani, D. E., & Fleury, M. T. L. (2023). Firm internationalization approaches and performance: The moderating role of the home country's formal institutions. *International Journal of Emerging Markets*. https://doi.org/10.1108/ijoem-08-2021-1299
+- Debicki, B. J., Miao, C., & Qian, S. (2020). Internationalization and family firm performance. *Cross Cultural & Strategic Management, 27*(1), 1–25. https://doi.org/10.1108/ccsm-04-2019-0075
+- Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
+- Grego, M., Buckley, P. J., Munjal, S., Voss, H., & Wang, E. Y. (2025). Managers and internationalization decisions: An affect-enacted model. *Global Strategy Journal, 15*(3), 317–345. https://doi.org/10.1002/gsj.1516
+- Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U: Theorizing and testing U- and inverted U-shaped relationships in strategy research. *Strategic Management Journal, 37*(7), 1177–1195. https://doi.org/10.1002/smj.2399
+- Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: The organization as a reflection of its top managers. *Academy of Management Review, 9*(2), 193–206. https://doi.org/10.5465/amr.1984.4277628
+- Johanson, J., & Vahlne, J.-E. (1977). The internationalization process of the firm — A model of knowledge development and increasing foreign market commitments. *Journal of International Business Studies, 8*(1), 23–32. https://doi.org/10.1057/palgrave.jibs.8490676
+- Kafouros, M., Aliyev, M., Piperopoulos, P., Au, A. K. M., Ho, J. W. Y., & Wong, S. Y. N. (2023). The role of institutional quality and industry dynamism in explaining firm performance in emerging economies. *Global Strategy Journal, 14*(1), 56–83. https://doi.org/10.1002/gsj.1479
+- Karna, A., Richter, A., & Riesenkampff, E. (2016). Revisiting the role of the environment in the capabilities–financial performance relationship: A meta-analysis. *Strategic Management Journal, 37*(6), 1154–1173. https://doi.org/10.1002/smj.2379
+- Khanna, T., & Palepu, K. G. (2010). *Winning in emerging markets: A road map for strategy and execution*. Harvard Business Press.
+- Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. https://doi.org/10.1111/j.2042-5805.2012.01028.x
+- Li, W., Li, C., & Wei, G. (2022). The dual mechanism of social networks on the relationship between internationalization and firm performance. *PLOS ONE, 17*(11), e0277421.
+- Lind, J. T., & Mehlum, H. (2010). With or without U? The appropriate test for a U-shaped relationship. *Oxford Bulletin of Economics and Statistics, 72*(1), 109–118. https://doi.org/10.1111/j.1468-0084.2009.00569.x
+- Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance: The S-curve hypothesis. *Academy of Management Journal, 47*(4), 598–609. https://doi.org/10.2307/20159604
+- Luo, Y., & Tung, R. L. (2007). International expansion of emerging market enterprises: A springboard perspective. *Journal of International Business Studies, 38*(4), 481–498. https://doi.org/10.1057/palgrave.jibs.8400275
+- Marano, V., Arregle, J.-L., Hitt, M. A., Spadafora, E., & van Essen, M. (2016). Home country institutions and the internationalization–performance relationship: A meta-analytic review. *Journal of Management, 42*(5), 1075–1110. https://doi.org/10.1177/0149206315624963
+- Melitz, M. J. (2003). The impact of trade on intra-industry reallocations and aggregate industry productivity. *Econometrica, 71*(6), 1695–1725. https://doi.org/10.1111/1468-0262.00467
+- North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
+- Pisani, N., Garcia-Bernardo, J., & Heemskerk, E. (2020). Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality–performance relationship. *Strategic Management Journal, 41*(1), 152–172. https://doi.org/10.1002/smj.3087
+- Santangelo, G. D., & Verbeke, A. (2022). Actionable guidelines to improve 'theory-related' contributions to international business research. *Journal of International Business Studies, 53*(9), 1843–1855. https://doi.org/10.1057/s41267-022-00567-x
+- Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. https://doi.org/10.1177/0149206319846272
+- Teece, D. J. (1986). Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. *Research Policy, 15*(6), 285–305. https://doi.org/10.1016/0048-7333(86)90027-2
+- Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. *Strategic Management Journal, 28*(13), 1319–1350. https://doi.org/10.1002/smj.640
+- Teece, D. J., Pisano, G., & Shuen, A. (1997). Dynamic capabilities and strategic management. *Strategic Management Journal, 18*(7), 509–533. https://doi.org/10.1002/smj.4250180702
+- Verbeke, A., Eschmann, D., & Gugler, P. (2025). Asymmetries in firm-level globalization: The case of Swiss multinational enterprises. *Management International Review, 65*(2), 305–328. https://doi.org/10.1007/s11575-025-00568-6
+- Verhoef, P. C., Broekhuizen, T., Bart, Y., Bhattacharya, A., Dong, J. Q., Fabian, N., & Haenlein, M. (2021). Digital transformation: A multidisciplinary reflection and research agenda. *Journal of Business Research, 122*, 889–901. https://doi.org/10.1016/j.jbusres.2019.09.022
+- Wagner, J. (2007). Exports and productivity: A survey of the evidence from firm-level data. *The World Economy, 30*(1), 60–82. https://doi.org/10.1111/j.1467-9701.2007.00872.x
+- Whetten, D. A. (1989). What constitutes a theoretical contribution? *Academy of Management Review, 14*(4), 490–495. https://doi.org/10.5465/amr.1989.4308371
+- Zaheer, S. (1995). Overcoming the liability of foreignness. *Academy of Management Journal, 38*(2), 341–363. https://doi.org/10.2307/256411
