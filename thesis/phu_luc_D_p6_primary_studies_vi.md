@@ -4,7 +4,7 @@ Phụ lục này liệt kê toàn bộ **238 nghiên cứu sơ cấp** (k = 238;
 
 Các nghiên cứu đánh dấu **\*** là nguồn dữ liệu của phân tích tổng hợp. Những mục ghi *[cần xác minh đầy đủ từ WoS/Scopus/Crossref]* hiện chỉ có thông tin tác giả–năm đã mã hóa trong cơ sở dữ liệu P6; trích dẫn đầy đủ (nhan đề, tạp chí, số trang, DOI) sẽ được hoàn thiện và đối chiếu trên máy có kết nối mạng bằng `scripts/verify_dois.py`. Không có thông tin nào trong phụ lục này được tạo ra mà thiếu nguồn đối chiếu.
 
-> **Lưu ý liêm chính dữ liệu.** Tổng số k = 238 là giá trị đã khóa (canonical) của P6 (xem `data_wbes/analysis/CANONICAL_NUMBERS.md`). Danh sách dưới đây được sinh tự động từ cơ sở dữ liệu mã hóa `p6_study_database_coded.md`; phần trích dẫn đầy đủ được ghép từ danh mục tham khảo của luận án khi có sẵn.
+> **Lưu ý liêm chính dữ liệu.** Tổng số k = 238 là giá trị đã khóa (canonical) của P6 (xem tệp `CANONICAL_NUMBERS.md`). Danh sách dưới đây được sinh tự động từ cơ sở dữ liệu mã hóa `p6_study_database_coded.md`; phần trích dẫn đầy đủ được ghép từ danh mục tham khảo của luận án khi có sẵn.
 
 | Study ID | Cỡ ảnh hưởng (r) | Trích dẫn (APA 7th) |
 |---|---|---|
