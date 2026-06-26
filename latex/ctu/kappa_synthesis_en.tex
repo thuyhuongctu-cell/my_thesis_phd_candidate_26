@@ -1,10 +1,11 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  12pt,
-]{article}
+  a4paper,
+  13pt]{extreport}
 \usepackage{amsmath,amssymb}
 \usepackage{setspace}
 \usepackage{iftex}
@@ -20,7 +21,7 @@
 \usepackage{lmodern}
 \ifPDFTeX\else
   % xetex/luatex font selection
-  \setmainfont[]{TeX Gyre Termes}
+  \setmainfont[]{Times New Roman}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -28,18 +29,8 @@
   \usepackage[]{microtype}
   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
 \usepackage{xcolor}
-\usepackage[margin=2.5cm]{geometry}
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm,headsep=1cm,footskip=1cm]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -54,19 +45,6 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\ifLuaTeX
-\usepackage[bidi=basic]{babel}
-\else
-\usepackage[bidi=default]{babel}
-\fi
-\babelprovide[main,import]{english}
-\ifPDFTeX
-\else
-\babelfont{rm}[]{TeX Gyre Termes}
-\fi
-% get rid of language-specific shorthands (see #6817):
-\let\LanguageShortHands\languageshorthands
-\def\languageshorthands#1{}
 % ctu_xelatex_header.tex — header-includes cho build LaTeX CTU (xelatex).
 % Ánh xạ các ký tự Unicode mà TeX Gyre Termes thiếu glyph (chỉ số dưới/trên,
 % ký tự kẻ hộp) sang lệnh LaTeX tương đương để không bị rớt glyph khi biên dịch.
@@ -119,8 +97,11 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdflang={en},
-  hidelinks,
+  colorlinks=true,
+  linkcolor={black},
+  filecolor={Maroon},
+  citecolor={black},
+  urlcolor={blue},
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
@@ -128,7 +109,7 @@
 
 \begin{document}
 
-\setstretch{1.15}
+\setstretch{1.2}
 \hypertarget{internationalization-and-firm-performance-in-asia-an-institution-contingent-reconception}{%
 \section{Internationalization and Firm Performance in Asia: An
 Institution-Contingent
@@ -138,8 +119,8 @@ Reconception}\label{internationalization-and-firm-performance-in-asia-an-institu
 \subsection{Integrative Synthesis Essay
 (Kappa)}\label{integrative-synthesis-essay-kappa}}
 
-\emph{Đỗ Thùy Hương --- Doctoral dissertation, Can Tho University}
-\emph{Supervisor: Assoc. Prof. Dr. Phan Anh Tú}
+\emph{Đỗ Thùy Hương, Doctoral dissertation, Can Tho University}
+\emph{Supervisor: Assoc. Prof.~Dr.~Phan Anh Tú}
 
 \begin{quote}
 This essay is the English-language \textbf{integrative synthesis
@@ -149,19 +130,19 @@ in full; it states the single argument that binds them, shows how each
 component earns its place in that argument, and articulates the
 theoretical contribution at a register intended for an international
 international-business (IB) readership. All quantitative results are
-reported as they appear in the dissertation\textquotesingle s results
-chapters and are not re-derived here.
+reported as they appear in the dissertation's results chapters and are
+not re-derived here.
 \end{quote}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\hypertarget{1-phenomenon-and-motivation}{%
+\hypertarget{phenomenon-and-motivation}{%
 \subsection{1. Phenomenon and
-motivation}\label{1-phenomenon-and-motivation}}
+motivation}\label{phenomenon-and-motivation}}
 
 For four decades the internationalization--performance (I--P)
-relationship has been one of the most heavily researched --- and most
-stubbornly inconsistent --- questions in international business.
+relationship has been one of the most heavily researched (and most
+stubbornly inconsistent) questions in international business.
 Meta-analyses recover effect sizes ranging from strongly positive to
 null to negative, and functional-form claims span linear, U-shaped,
 inverted-U, S-shaped, and horizontal-J specifications. The dominant
@@ -171,16 +152,15 @@ incurs liabilities of foreignness and coordination costs, an
 intermediate range yields scale, learning, and market-diversification
 benefits, and beyond a turning point governance costs overwhelm those
 benefits. Yet the inverted-U is itself unstable across contexts, and the
-field has largely treated this instability as residual noise ---
-"context matters" --- rather than as a structured, predictable
-phenomenon.
+field has largely treated this instability as residual noise (``context
+matters'') rather than as a structured, predictable phenomenon.
 
 Three contemporary forces sharpen the puzzle and motivate this
 dissertation. First, an \textbf{employment and productivity imperative}
 across developing Asia makes the firm-level returns to
 internationalization a first-order policy question, not merely an
 academic one. Second, an \textbf{institutional spectrum} of unusual
-breadth coexists within a single region --- from innovation-driven
+breadth coexists within a single region, ranging from innovation-driven
 advanced economies (Singapore, Korea, Japan) through resource-rich Gulf
 states, large emerging markets (China), lower-middle-income transition
 economies (Vietnam), to frontier economies and Pacific Small Island
@@ -191,24 +171,24 @@ not merely the level, of the I--P relationship. These three forces
 converge on a firm-level question that the existing literature answers
 only fragmentarily.
 
-\hypertarget{2-research-gap-and-questions}{%
+\hypertarget{research-gap-and-questions}{%
 \subsection{2. Research gap and
-questions}\label{2-research-gap-and-questions}}
+questions}\label{research-gap-and-questions}}
 
 The gap this dissertation addresses is not the absence of evidence but
 the absence of \textbf{structure} in that evidence. Prior work has shown
 that institutions moderate the \emph{magnitude} of the I--P effect
-(Marano et al., 2016); it has not shown that institutions govern the
-\emph{sign and functional form} of the effect across a continuous
-spectrum, nor identified the point at which the inverted-U family ceases
-to apply. In parallel, the digitalisation literature has tended to
-conflate distinct constructs --- deep technological capability versus
-surface-level digital adoption --- obscuring their different mechanisms.
+(Marano et al., 2016); it has not shown whether institutions also shape
+the \emph{sign and functional form} of the effect across a continuous
+spectrum, nor located the regime at which the inverted-U family may
+cease to apply. In parallel, the digitalisation literature has tended to
+conflate distinct constructs (deep technological capability versus
+surface-level digital adoption), obscuring their different mechanisms.
 
-The dissertation therefore poses a central question --- \emph{How does
+The dissertation therefore poses a central question, \emph{How does
 internationalization affect the performance of Asian firms, and what
 institutional, digital, and managerial conditions explain the high
-heterogeneity in that relationship?} --- decomposed into four research
+heterogeneity in that relationship?}, decomposed into four research
 questions:
 
 \begin{itemize}
@@ -233,24 +213,23 @@ questions:
   interaction imply?
 \end{itemize}
 
-\hypertarget{3-theoretical-framework-the-cdcm-architecture}{%
+\hypertarget{theoretical-framework-the-cdcm-architecture}{%
 \subsection{3. Theoretical framework: the CDCM
-architecture}\label{3-theoretical-framework-the-cdcm-architecture}}
+architecture}\label{theoretical-framework-the-cdcm-architecture}}
 
-The dissertation\textquotesingle s theoretical contribution is organised
-by a single integrative architecture, the
-\textbf{Country--Digital--Capability Moderation (CDCM)} framework, which
-combines four classic theories with a digital-capability lens not as a
-mechanical concatenation but as an internally consistent multi-tier
-explanation in which each tier accounts for a distinct source of
-heterogeneity in the I--P relationship.
+The dissertation's theoretical contribution is organised by a single
+integrative architecture, the \textbf{Country--Digital--Capability
+Moderation (CDCM)} framework, which combines four classic theories with
+a digital-capability lens not as a mechanical concatenation but as an
+internally consistent multi-tier explanation in which each tier accounts
+for a distinct source of heterogeneity in the I--P relationship.
 
 \begin{itemize}
 \tightlist
 \item
   The \textbf{Uppsala internationalization model} supplies the baseline
-  learning logic and, extended for the AI era, a "data-augmented
-  learning" mechanism (Banalieva \& Dhanaraj, 2019).
+  learning logic and, extended for the AI era, a ``data-augmented
+  learning'' mechanism (Banalieva \& Dhanaraj, 2019).
 \item
   The \textbf{resource-based view} (Wernerfelt, 1984; Barney, 1991)
   frames technological capability as an absorptive, depth-of-capability
@@ -271,17 +250,19 @@ upper-middle; IV lower-middle transition; V emerging; VI SIDS) that
 converts a continuous institutional spectrum into a testable firm-level
 moderator. The contribution of ICRV is not the addition of a categorical
 control but the provision of a systematic way to predict how the turning
-point of the I--P curve shifts with institutional regime --- turning the
-qualitative claim "context matters" into a falsifiable quantitative
-proposition. The apex of the architecture is the \textbf{Forced
-Internationalization Penalty (FIP)}, a named boundary condition stating
-that when all three CDCM tiers are simultaneously minimal, the I--P
-relationship loses not only its early-stage benefit but its inverted-U
-form, tilting toward a monotone-negative limiting case.
+point of the I--P curve shifts with institutional regime, turning the
+qualitative claim ``context matters'' into a falsifiable quantitative
+proposition. The architecture's limiting case is the \textbf{Forced
+Internationalization Penalty (FIP)}, a named boundary condition
+proposing that when all three CDCM tiers are simultaneously minimal, the
+I--P relationship may lose not only its early-stage benefit but its
+inverted-U form, tilting toward a monotone-negative limiting case (the
+empirical magnitude of this tilt is data-version-sensitive and treated
+as exploratory; see the SIDS evidence below).
 
-\hypertarget{4-the-compilation-and-how-each-component-earns-its-place}{%
+\hypertarget{the-compilation-and-how-each-component-earns-its-place}{%
 \subsection{4. The compilation and how each component earns its
-place}\label{4-the-compilation-and-how-each-component-earns-its-place}}
+place}\label{the-compilation-and-how-each-component-earns-its-place}}
 
 The dissertation is a compilation of ten component studies plus a
 supplementary book chapter, spanning a meta-analysis, five
@@ -296,8 +277,8 @@ which the labour-productivity-valid descriptive frame is 84,998 firms /
 107 cells, and the capstone P7 regression frame is 81,022 (M2) / 79,080
 (M5).
 
-Table 1 traces the \textbf{golden thread} --- the line that runs from
-each research question, through the components that answer it and the
+Table 1 traces the \textbf{golden thread}: the line that runs from each
+research question, through the components that answer it and the
 hypotheses they test, to the empirical finding and the theoretical
 contribution it supports. Read across, each row shows the internal
 consistency of one link; read down, the rows show how independent pieces
@@ -306,10 +287,24 @@ of evidence accumulate into one claim.
 \textbf{Table 1.} \emph{Golden thread: research question → component
 (ICRV regime) → hypothesis → key finding → theoretical contribution.}
 
-\begin{longtable}[]{@{}lllll@{}}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
 \toprule\noalign{}
-RQ & Component (ICRV) & Hypothesis & Key empirical finding & Theoretical
-contribution \\
+\begin{minipage}[b]{\linewidth}\raggedright
+RQ
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Component (ICRV)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Hypothesis
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Key empirical finding
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Theoretical contribution
+\end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -317,7 +312,7 @@ contribution \\
 Foundation & P1 --- 17-economy Asian baseline (\emph{N} = 40,633) &
 Foundational (CDCM) & Regional productivity stratification;
 \textbf{digital-shield effect} (obstacle × technology +0.110, \emph{p}
-\textless{} .001) & Seeds CDCM; origin of the "digital shield" that P7
+\textless{} .001) & Seeds CDCM; origin of the ``digital shield'' that P7
 scales to 50 economies \\
 RQ1 & P6 --- global meta-analysis & H1, H5 & \emph{k} = 238; small
 positive pooled \emph{r̄} = 0.074; high heterogeneity \emph{I²} = 62.4\%;
@@ -347,7 +342,7 @@ of the inverted-U \\
 RQ4 & P7 --- full ICRV spectrum & H5 & Turning point shifts by regime
 (Group IV 43.0\% → Group I near-linear → Groups V/VI structure loss) &
 Institutions moderate the \textbf{functional form}, not only the
-magnitude --- "context-contingent" \\
+magnitude --- ``context-contingent'' \\
 RQ4 & P9 --- India 2014--2025 (IV) & H1c & Turning point
 \textbf{dissolves}: 61.8\% (2014) → 40.7\% (2022) → curvature
 insignificant (2025: \emph{β₂} = −0.16, \emph{p} = .42) & Intense
@@ -362,25 +357,25 @@ RQ4 & Book chapter --- India, governance (IV) & H4 & ROS: experience
 Single-country evidence for the \textbf{managerial tier} of CDCM \\
 \end{longtable}
 
-\emph{Note. Figures are reproduced from the
-dissertation\textquotesingle s results chapters (§4.2--§4.9; §5.6.1).
-ICRV groups: I = innovation-driven advanced; III = upper-middle; IV =
-lower-middle transition; VI = SIDS.}
+\emph{Note. Figures are reproduced from the dissertation's results
+chapters (§4.2--§4.9; §5.6.1). ICRV groups: I = innovation-driven
+advanced; III = upper-middle; IV = lower-middle transition; VI = SIDS.}
 
-\hypertarget{5-the-integrated-finding-a-three-zone-morphology}{%
+\hypertarget{the-integrated-finding-a-three-zone-morphology}{%
 \subsection{5. The integrated finding: a three-zone
-morphology}\label{5-the-integrated-finding-a-three-zone-morphology}}
+morphology}\label{the-integrated-finding-a-three-zone-morphology}}
 
 Placed side by side, the full set of ten component studies plus the
-supplementary book chapter --- the 17-economy foundational study (P1),
-the global meta-analysis (P6), five single-country estimations (P2--P5,
-P9), the 50-economy pooled test (P7), two boundary cases (P8 SIDS, P10
-Japan), and the governance-tier book chapter --- converge on a single,
-falsifiable theoretical claim: \textbf{internationalization improves
-firm performance through a functional form that is itself a function of
-institutional position.} The thickness of the institutional cushion
-determines whether the I--P relationship is near-linear positive, a
-sharp inverted-U, or structurally absent and sign-reversed.
+supplementary book chapter converge on a single, falsifiable theoretical
+claim. This set comprises the 17-economy foundational study (P1), the
+global meta-analysis (P6), five single-country estimations (P2--P5, P9),
+the 50-economy pooled test (P7), two boundary cases (P8 SIDS, P10
+Japan), and the governance-tier book chapter. The claim is this:
+\textbf{internationalization improves firm performance through a
+functional form that is itself a function of institutional position.}
+The thickness of the institutional cushion determines whether the I--P
+relationship is near-linear positive, a sharp inverted-U, or
+structurally absent and sign-reversed.
 
 Concretely, a \textbf{three-zone morphology} organises the entire body
 of evidence as a continuous expression of one institutional mechanism
@@ -400,8 +395,8 @@ rather than three separate phenomena:
   transition; China P5/P2, Vietnam P3, India P9): the inverted-U is
   sharpest and best-identified, with turning points clustering around
   40--49\%; independent single-country estimates converge on this band
-  without being constrained to do so --- an out-of-sample coincidence
-  that resists a specification-search reading.
+  without being constrained to do so, an out-of-sample coincidence that
+  resists a specification-search reading.
 \item
   \textbf{Lower bound} (Groups V--VI, emerging and SIDS; P7, P8):
   structure is lost. In Group V the coefficients lose significance; in
@@ -409,16 +404,15 @@ rather than three separate phenomena:
   toward the monotone-negative FIP limiting case.
 \end{itemize}
 
-This finding elevates the field\textquotesingle s classic claim from
-"context matters" (institutions moderate the \emph{magnitude} of the
-effect) to \textbf{context-contingency} (institutions moderate the
-\emph{sign and form} of the effect), and it identifies explicitly the
-point --- the SIDS regime --- at which the entire inverted-U theory
-family ceases to apply.
+This evidence points from the field's classic claim that ``context
+matters'' (institutions moderate the \emph{magnitude} of the effect)
+toward \textbf{context-contingency} (institutions may also moderate the
+\emph{sign and form} of the effect), and it locates the regime (the SIDS
+extreme) at which the inverted-U form appears to dissolve.
 
-\hypertarget{6-theoretical-contributions}{%
+\hypertarget{theoretical-contributions}{%
 \subsection{6. Theoretical
-contributions}\label{6-theoretical-contributions}}
+contributions}\label{theoretical-contributions}}
 
 Following the criteria of originality × utility (Corley \& Gioia, 2011)
 and what/how/why (Whetten, 1989), the dissertation makes four
@@ -433,8 +427,8 @@ scope conditions.
   the performance level universally (+0.201, \emph{p} \textless{} .001)
   but bending the I--P curve only context-dependently (clearest in the
   strong-institution single-country case, P4), with its moderating
-  effect \emph{stronger} in weaker-institution regimes --- a "digital
-  shield" that compensates for institutional deficits. This separates
+  effect \emph{stronger} in weaker-institution regimes, a ``digital
+  shield'' that compensates for institutional deficits. This separates
   two constructs the literature routinely conflates and specifies
   \emph{how} each operates (level-shift versus curve-bend).
 \item
@@ -450,7 +444,7 @@ scope conditions.
 \item
   \textbf{The six-regime ICRV taxonomy.} A region-specific institutional
   classification that converts a continuous spectrum into a testable
-  moderator capable of predicting turning-point location by regime --- a
+  moderator capable of predicting turning-point location by regime: a
   methodological-theoretical instrument with reuse value beyond this
   dissertation.
 \item
@@ -461,9 +455,9 @@ scope conditions.
   dissertation makes explicit a premise the literature had left tacit.
 \end{enumerate}
 
-\hypertarget{7-boundary-conditions-and-identification}{%
+\hypertarget{boundary-conditions-and-identification}{%
 \subsection{7. Boundary conditions and
-identification}\label{7-boundary-conditions-and-identification}}
+identification}\label{boundary-conditions-and-identification}}
 
 A contribution that meets international standards must state not only
 what it claims but the conditions under which the claim holds and the
@@ -498,54 +492,54 @@ the structural claim becomes hard to attribute to a single analytic
 artefact, even where each source alone falls short of point causal
 identification.
 
-\hypertarget{8-implications}{%
-\subsection{8. Implications}\label{8-implications}}
+\hypertarget{implications}{%
+\subsection{8. Implications}\label{implications}}
 
 For \textbf{theory}, the dissertation reframes a four-decade debate: the
-question is not "is the I--P relationship positive, negative, or
-inverted-U?" but "at what institutional position does each form obtain?"
-For \textbf{practice and policy}, it replaces a one-size-fits-all
-prescription with a regime-conditioned policy map: in strong-institution
-regimes, remove expansion ceilings and raise absorptive-capacity
-ceilings; in transition regimes, identify the optimum and avoid
-over-expansion ahead of coordination capacity; in the SIDS regime,
-address structural trade-cost and institutional constraints before
-expecting internationalization to improve performance --- because there
-internationalization is a survival burden, not a competitive-advantage
-choice.
+question is not ``is the I--P relationship positive, negative, or
+inverted-U?'' but ``at what institutional position does each form
+obtain?'' For \textbf{practice and policy}, it replaces a
+one-size-fits-all prescription with a regime-conditioned policy map: in
+strong-institution regimes, remove expansion ceilings and raise
+absorptive-capacity ceilings; in transition regimes, identify the
+optimum and avoid over-expansion ahead of coordination capacity; in the
+SIDS regime, address structural trade-cost and institutional constraints
+before expecting internationalization to improve performance, because
+there internationalization is a survival burden, not a
+competitive-advantage choice.
 
-\hypertarget{9-limitations-and-future-research}{%
+\hypertarget{limitations-and-future-research}{%
 \subsection{9. Limitations and future
-research}\label{9-limitations-and-future-research}}
+research}\label{limitations-and-future-research}}
 
 The principal limitations are stated as study weaknesses distinct from
-the framework\textquotesingle s boundary conditions: the
-single-dimension (export-intensity) operationalisation of
-internationalization; the labour-productivity (rather than
-multidimensional) performance measure; the repeated-cross-section
-design; and the platform-level operationalisation of digital adoption.
-Each maps to a future-research direction: multidimensional DOI measures,
-multidimensional performance, genuine firm-level panels (the forthcoming
-WBES core panel), richer Tier-2 digital measures, and replication of the
-three-zone morphology beyond Asia-Pacific.
+the framework's boundary conditions: the single-dimension
+(export-intensity) operationalisation of internationalization; the
+labour-productivity (rather than multidimensional) performance measure;
+the repeated-cross-section design; and the platform-level
+operationalisation of digital adoption. Each maps to a future-research
+direction: multidimensional DOI measures, multidimensional performance,
+genuine firm-level panels (the forthcoming WBES core panel), richer
+Tier-2 digital measures, and replication of the three-zone morphology
+beyond Asia-Pacific.
 
-\hypertarget{10-concluding-statement}{%
-\subsection{10. Concluding statement}\label{10-concluding-statement}}
+\hypertarget{concluding-statement}{%
+\subsection{10. Concluding statement}\label{concluding-statement}}
 
-The dissertation\textquotesingle s single new sentence to the field is
-this: across the institutional spectrum of Asia and the Pacific, the
-form of the internationalization--performance relationship is itself
-governed by institutions, such that the inverted-U is one
-regime-specific case within a continuum that runs from near-linear
-reward at the upper bound to structural penalty at the lower bound ---
-and the dissertation identifies, and names, the point at which the
-inverted-U no longer applies.
+The dissertation's single new sentence to the field is this: across the
+institutional spectrum of Asia and the Pacific, the form of the
+internationalization--performance relationship appears to be shaped by
+institutions, such that the inverted-U is plausibly one regime-specific
+case within a continuum that runs from near-linear reward at the upper
+bound to structural penalty at the lower bound; and the dissertation
+locates, and names, the regime at which the inverted-U form appears no
+longer to apply.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\emph{Citation note: all references appear in the
-dissertation\textquotesingle s APA-7 reference list
-(\texttt{thesis/04\_references\_apa7.md}). This synthesis introduces no
-claims or figures beyond those in the Vietnamese dissertation chapters.}
+\emph{Citation note: all references appear in the dissertation's APA-7
+reference list (\texttt{thesis/04\_references\_apa7.md}). This synthesis
+introduces no claims or figures beyond those in the Vietnamese
+dissertation chapters.}
 
 \end{document}

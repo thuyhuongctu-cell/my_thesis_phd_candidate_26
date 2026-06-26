@@ -17,7 +17,7 @@ Three contemporary forces sharpen the puzzle and motivate this dissertation. Fir
 
 ## 2. Research gap and questions
 
-The gap this dissertation addresses is not the absence of evidence but the absence of **structure** in that evidence. Prior work has shown that institutions moderate the *magnitude* of the I–P effect (Marano et al., 2016); it has not shown that institutions govern the *sign and functional form* of the effect across a continuous spectrum, nor identified the point at which the inverted-U family ceases to apply. In parallel, the digitalisation literature has tended to conflate distinct constructs (deep technological capability versus surface-level digital adoption), obscuring their different mechanisms.
+The gap this dissertation addresses is not the absence of evidence but the absence of **structure** in that evidence. Prior work has shown that institutions moderate the *magnitude* of the I–P effect (Marano et al., 2016); it has not shown whether institutions also shape the *sign and functional form* of the effect across a continuous spectrum, nor located the regime at which the inverted-U family may cease to apply. In parallel, the digitalisation literature has tended to conflate distinct constructs (deep technological capability versus surface-level digital adoption), obscuring their different mechanisms.
 
 The dissertation therefore poses a central question, *How does internationalization affect the performance of Asian firms, and what institutional, digital, and managerial conditions explain the high heterogeneity in that relationship?*, decomposed into four research questions:
 
@@ -35,7 +35,7 @@ The dissertation's theoretical contribution is organised by a single integrative
 - **Institutional theory** (North, 1990; Khanna & Palepu, 2010) supplies the macro tier and, crucially, the claim that institutional context conditions firm strategy outcomes.
 - **Upper-echelons theory** (Hambrick & Mason, 1984) supplies the individual tier of manager experience and diversity.
 
-The macro tier is operationalised through the **Institutional Context Regime Variation (ICRV)** classification, a six-regime taxonomy (I innovation-driven advanced; II resource-based advanced; III upper-middle; IV lower-middle transition; V emerging; VI SIDS) that converts a continuous institutional spectrum into a testable firm-level moderator. The contribution of ICRV is not the addition of a categorical control but the provision of a systematic way to predict how the turning point of the I–P curve shifts with institutional regime, turning the qualitative claim "context matters" into a falsifiable quantitative proposition. The apex of the architecture is the **Forced Internationalization Penalty (FIP)**, a named boundary condition stating that when all three CDCM tiers are simultaneously minimal, the I–P relationship loses not only its early-stage benefit but its inverted-U form, tilting toward a monotone-negative limiting case.
+The macro tier is operationalised through the **Institutional Context Regime Variation (ICRV)** classification, a six-regime taxonomy (I innovation-driven advanced; II resource-based advanced; III upper-middle; IV lower-middle transition; V emerging; VI SIDS) that converts a continuous institutional spectrum into a testable firm-level moderator. The contribution of ICRV is not the addition of a categorical control but the provision of a systematic way to predict how the turning point of the I–P curve shifts with institutional regime, turning the qualitative claim "context matters" into a falsifiable quantitative proposition. The architecture's limiting case is the **Forced Internationalization Penalty (FIP)**, a named boundary condition proposing that when all three CDCM tiers are simultaneously minimal, the I–P relationship may lose not only its early-stage benefit but its inverted-U form, tilting toward a monotone-negative limiting case (the empirical magnitude of this tilt is data-version-sensitive and treated as exploratory; see the SIDS evidence below).
 
 ## 4. The compilation and how each component earns its place
 
@@ -71,7 +71,7 @@ Concretely, a **three-zone morphology** organises the entire body of evidence as
 - **Anchor regimes** (Groups III–IV, upper-middle and lower-middle transition; China P5/P2, Vietnam P3, India P9): the inverted-U is sharpest and best-identified, with turning points clustering around 40–49%; independent single-country estimates converge on this band without being constrained to do so, an out-of-sample coincidence that resists a specification-search reading.
 - **Lower bound** (Groups V–VI, emerging and SIDS; P7, P8): structure is lost. In Group V the coefficients lose significance; in the SIDS regime the inverted-U dissolves and the relationship tilts toward the monotone-negative FIP limiting case.
 
-This finding elevates the field's classic claim from "context matters" (institutions moderate the *magnitude* of the effect) to **context-contingency** (institutions moderate the *sign and form* of the effect), and it identifies explicitly the point (the SIDS regime) at which the entire inverted-U theory family ceases to apply.
+This evidence points from the field's classic claim that "context matters" (institutions moderate the *magnitude* of the effect) toward **context-contingency** (institutions may also moderate the *sign and form* of the effect), and it locates the regime (the SIDS extreme) at which the inverted-U form appears to dissolve.
 
 ## 6. Theoretical contributions
 
@@ -101,7 +101,7 @@ The principal limitations are stated as study weaknesses distinct from the frame
 
 ## 10. Concluding statement
 
-The dissertation's single new sentence to the field is this: across the institutional spectrum of Asia and the Pacific, the form of the internationalization–performance relationship is itself governed by institutions, such that the inverted-U is one regime-specific case within a continuum that runs from near-linear reward at the upper bound to structural penalty at the lower bound; and the dissertation identifies, and names, the point at which the inverted-U no longer applies.
+The dissertation's single new sentence to the field is this: across the institutional spectrum of Asia and the Pacific, the form of the internationalization–performance relationship appears to be shaped by institutions, such that the inverted-U is plausibly one regime-specific case within a continuum that runs from near-linear reward at the upper bound to structural penalty at the lower bound; and the dissertation locates, and names, the regime at which the inverted-U form appears no longer to apply.
 
 ---
 
