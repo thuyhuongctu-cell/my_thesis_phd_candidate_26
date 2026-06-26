@@ -361,7 +361,7 @@ Nghiên cứu 4 sử dụng dữ liệu mặt cắt ngang WBES Singapore 2023 (N
 
 **M0 (Baseline):**
 
-$$\ln(\mathrm{LP})_i = \alpha + \gamma_1 \$\ln(L)_{i}$ + \gamma_2\,\mathrm{Age}_i + \gamma_3\,\mathrm{Own}_i + \delta_s + \varepsilon_i$$
+$$\ln(\mathrm{LP})_i = \alpha + \gamma_1\,\ln(L)_{i} + \gamma_2\,\mathrm{Age}_i + \gamma_3\,\mathrm{Own}_i + \delta_s + \varepsilon_i$$
 
 **M1 (Tuyến tính FSTS):**
 
