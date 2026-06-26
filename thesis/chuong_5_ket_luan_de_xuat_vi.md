@@ -8,7 +8,7 @@
 
 ## Giới thiệu chương
 
-Chương 5 tổng hợp và diễn giải kết quả từ Chương 4 trong ánh sáng của khung lý thuyết CDCM và bốn lý thuyết nền (Uppsala, RBV, Institutional Theory, Upper Echelons Theory). Toàn bộ chương được tổ chức quanh việc bảo vệ luận điểm trọng tâm của luận án: thể chế không chỉ điều tiết độ lớn mà quy định cả dấu và dạng hình của quan hệ quốc tế hóa và hiệu quả, và tại cực trị thể chế, toàn bộ họ mô hình chữ U ngược ngừng áp dụng (điều kiện biên FIP). Cấu trúc chương gồm sáu phần: (i) bàn luận kết quả theo khung lý thuyết; (ii) so sánh với nghiên cứu trước; (iii) đóng góp lý thuyết; (iv) đề xuất chính sách và quản trị; (v) hạn chế và hướng nghiên cứu tương lai; và (vi) kết luận tổng thể của luận án.
+Chương 5 tổng hợp và diễn giải kết quả từ Chương 4 trong ánh sáng của khung lý thuyết CDCM và bốn lý thuyết nền (Uppsala, RBV, Institutional Theory, Upper Echelons Theory). Toàn bộ chương được tổ chức quanh việc bảo vệ luận điểm trọng tâm của luận án: thể chế không chỉ điều tiết độ lớn mà còn có thể định hình dấu và dạng hình của quan hệ quốc tế hóa và hiệu quả; ở cực trị thể chế yếu nhất, bằng chứng cho thấy họ mô hình chữ U ngược có xu hướng không còn áp dụng (điều kiện biên FIP, với độ lớn nhạy theo phiên bản dữ liệu). Cấu trúc chương gồm sáu phần: (i) bàn luận kết quả theo khung lý thuyết; (ii) so sánh với nghiên cứu trước; (iii) đóng góp lý thuyết; (iv) đề xuất chính sách và quản trị; (v) hạn chế và hướng nghiên cứu tương lai; và (vi) kết luận tổng thể của luận án.
 
 ---
 
@@ -396,7 +396,7 @@ Luận án này được xây dựng trên mười nghiên cứu thành phần v
 
 Phát hiện trung tâm của luận án có thể được tóm tắt trong một luận điểm ngắn gọn:
 
-> **"Thể chế quy định không chỉ độ lớn mà cả dấu và dạng hình của quan hệ quốc tế hóa và hiệu quả: không tồn tại một mức độ quốc tế hóa tối ưu duy nhất, điểm uốn dịch chuyển theo vị trí thể chế, và tại cực trị thể chế, toàn bộ dạng chữ U ngược ngừng áp dụng, quan hệ nghiêng về bất lợi đơn điệu thay vì lợi ích."**
+> **"Thể chế định hình không chỉ độ lớn mà còn cả dấu và dạng hình của quan hệ quốc tế hóa và hiệu quả: không tồn tại một mức độ quốc tế hóa tối ưu duy nhất, điểm uốn dịch chuyển theo vị trí thể chế, và ở cực trị thể chế yếu nhất, bằng chứng cho thấy dạng chữ U ngược có xu hướng không còn áp dụng, quan hệ nghiêng về bất lợi đơn điệu thay vì lợi ích (như trường hợp giới hạn FIP)."**
 
 Bằng chứng từ 238 nghiên cứu (P6 meta-analysis) và 81.022 doanh nghiệp tại 50 nền kinh tế châu Á và Thái Bình Dương (P7) đều chỉ đến kết luận này. Quan hệ quốc tế hóa và hiệu quả không phải là một đường cong phổ quát mà là một **họ đường cong phụ thuộc bối cảnh** (family of context-dependent curves): chữ U ngược định hình rõ nhất ở vùng giữa phổ thể chế (Nhóm IV, điểm uốn khoảng 43%), duỗi thẳng gần tuyến tính ở biên trên nơi thể chế mạnh đẩy điểm uốn ra mức cường độ xuất khẩu rất cao (Singapore khoảng 88,6%, gần hoặc vượt biên dữ liệu quan sát), và mất cấu trúc ở biên dưới nơi thể chế yếu nhất; nghĩa là thể chế càng mạnh, doanh nghiệp càng duy trì lợi ích từ quốc tế hóa đến mức cường độ cao hơn trước khi đạt đỉnh.
 

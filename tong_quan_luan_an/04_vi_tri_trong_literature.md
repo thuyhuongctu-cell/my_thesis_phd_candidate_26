@@ -69,4 +69,4 @@ Mẫu hình điển hình (ProQuest/CTU/NEU/UEH/FTU):
 
 ## 4.7 Một câu định vị
 
-> Luận án không phát minh lại quan hệ I–P; nó **giải thích vì sao tài liệu hiện tại phân tán** — bằng cách cho thấy *dạng hàm* của quan hệ là một hàm của *vị trí thể chế*, và xác định tường minh ranh giới (SIDS, chuyển đổi cực mạnh) nơi các lý thuyết phổ quát ngừng áp dụng.
+> Luận án không phát minh lại quan hệ I–P; nó **giải thích vì sao tài liệu hiện tại phân tán** — bằng cách cho thấy *dạng hàm* của quan hệ dường như thay đổi theo *vị trí thể chế*, và định vị ranh giới (SIDS, chuyển đổi cực mạnh) nơi các lý thuyết phổ quát có xu hướng không còn áp dụng.
