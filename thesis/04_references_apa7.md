@@ -206,6 +206,8 @@ Demir, B., & Javorcik, B. (2018). Don't throw in the towel, throw in trade credi
 
 Dikova, D., & Veselova, A. (2020). Performance effects of internationalization: Contingency theory analysis of Russian internationalized firms. *Management and Organization Review, 17*(1), 173–197. https://doi.org/10.1017/mor.2020.39
 
+Do, T. H., & Phan, A. T. (2024, December 12). *Internationalization and firm performance: A meta-analysis review* [Conference presentation]. The 6th International Conference on Economics, Business and Finance, College of Economics, Can Tho University, Can Tho, Vietnam.
+
 Do, T. H., & Phan, A. T. (2025). Internationalization and firm performance of firms in India: The role of top management. In M. Bartekova (Ed.), *International business research: Traditional and creative approaches*. IntechOpen. https://doi.org/10.5772/intechopen.1011012
 
 Drori, N., Alessandri, T., Bart, Y., & Herstein, R. (2024). The impact of digitalization on internationalization from an internalization theory lens. *Long Range Planning, 57*(1), 102395. https://doi.org/10.1016/j.lrp.2023.102395
