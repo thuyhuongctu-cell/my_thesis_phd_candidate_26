@@ -10,7 +10,8 @@
 ## B.1 Mục đích và vị trí trong thiết kế nghiên cứu
 
 Cấu phần phân tích tổng hợp (Mục 3.2) tổng hợp K=288 cỡ ảnh hưởng từ k=238 nghiên cứu
-thực nghiệm về quan hệ quốc tế hóa–hiệu quả (I–P) giai đoạn 1977–2026. Trích xuất thủ
+thực nghiệm về quan hệ quốc tế hóa–hiệu quả (I–P) giai đoạn 1977–2026 (danh sách đầy đủ
+các nghiên cứu sơ cấp: Phụ lục D). Trích xuất thủ
 công thuần túy ở quy mô này vừa tốn kém vừa dễ phát sinh sai số ghi chép; ngược lại, trích
 xuất hoàn toàn tự động bằng mô hình ngôn ngữ lớn (LLM) lại tiềm ẩn rủi ro "ảo giác" số liệu
 và thiếu dấu vết kiểm toán. M-AIDA được thiết kế để dung hòa: tận dụng tốc độ của LLM cho

@@ -6,10 +6,10 @@ Phụ lục này hợp nhất các kết quả hồi quy chính, điểm uốn v
 
 **Bảng C.1.** *Kết quả hồi quy chính và điểm uốn của tám nghiên cứu thành phần trên phổ thể chế ICRV.*
 
-| Nghiên cứu (bối cảnh, nhóm ICRV) | N | $\beta_1$ (FSTS) | $\beta_2$ (FSTS²) | Điểm uốn | Kiểm định phi tuyến | Phát hiện điều tiết chính |
+| Nghiên cứu (bối cảnh, nhóm ICRV) | N | $\beta_1$ (FSTS) | $\beta_2$ ($\text{FSTS}^2$) | Điểm uốn | Kiểm định phi tuyến | Phát hiện điều tiết chính |
 |---|--:|--:|--:|--:|---|---|
 | **P3** Việt Nam (chuyển đổi TB–thấp, IV) | 2.958 | +0,984\*\*\* | −1,909\*\*\* | 39,7% (dải 39,3–46,2) | Lind–Mehlum $p<{,}001$ | TCI +0,179\*\*\* nâng nền và điều tiết ($p={,}003$); DAI Bậc 1 không ý nghĩa |
-| **P4** Singapore (tiên tiến đổi mới, I) | 623 | +2,652\*\*\* | −1,705† | ≈88,6% (ngoài miền) | Lind–Mehlum $p={,}303$ (null thông tin) | FSTS²×DAI = +3,119\*\* (lá chắn số); TCI +0,153\*\*\* |
+| **P4** Singapore (tiên tiến đổi mới, I) | 623 | +2,652\*\*\* | −1,705† | ≈88,6% (ngoài miền) | Lind–Mehlum $p={,}303$ (null thông tin) | $\text{FSTS}^2 \times \text{DAI}$ = +3,119\*\* (lá chắn số); TCI +0,153\*\*\* |
 | **P5** Trung Quốc (trung bình cao, III) | 4.544 | +1,78\*\*\* | −1,83\*\*\* | 48,78% (49,37→47,19) | Lind–Mehlum $p<{,}001$ | Điểm uốn ổn định theo thời gian (Paternoster $p={,}545$); TCI z +0,380\*\*\* |
 | **P6** Phân tích tổng hợp ba tầng | k=238 (K=288) | — | — | — | $Q_M=17{,}35$ ($df=4$, $p={,}002$) | $\bar r=0{,}074$; $I^2=62{,}4\%$; lệch lạc Begg $\tau=-0{,}132$\*\* → $\bar r_{\text{adj}}=0{,}035$ |
 | **P7** 50 nền kinh tế (toàn phổ I–VI) | 81.022 / 79.080 | +0,500\*\*\* | −0,721\*\*\* | 43,6% (M2: 51,5%) | Lind–Mehlum $p<{,}001$ | TCI +0,141\*\*\*, DAI +0,201\*\*\* nâng nền; điều tiết độ cong không ý nghĩa toàn mẫu |
@@ -21,7 +21,7 @@ Phụ lục này hợp nhất các kết quả hồi quy chính, điểm uốn v
 
 ## C.2 Chi tiết phân tích tổng hợp ba tầng (P6)
 
-**Bảng C.2.** *Hiệu ứng gộp, phân rã dị biệt, điều tiết và lệch lạc công bố của P6 (k=238, K=288 cỡ ảnh hưởng).*
+**Bảng C.2.** *Hiệu ứng gộp, phân rã dị biệt, điều tiết và lệch lạc công bố của P6 (k=238, K=288 cỡ ảnh hưởng; danh sách đầy đủ 238 nghiên cứu sơ cấp: Phụ lục D).*
 
 | Hạng mục | Giá trị | Ghi chú |
 |---|--:|---|
