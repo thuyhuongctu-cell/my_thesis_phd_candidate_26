@@ -41,7 +41,8 @@ build "Luận án" "dist/word/LUAN_AN_vi.docx" "$LA_COVER" \
   thesis/00_phan_dau_vi.md thesis/chuong_1_gioi_thieu_vi.md thesis/chuong_2_tong_quan_tai_lieu_vi.md \
   thesis/chuong_3_phuong_phap_vi.md thesis/chuong_4_ket_qua_vi.md thesis/chuong_5_ket_luan_de_xuat_vi.md \
   thesis/04_references_apa7.md thesis/phu_luc_A_hop_nhat_du_lieu_vi.md \
-  thesis/phu_luc_B_maida_vi.md thesis/phu_luc_C_ket_qua_thanh_phan_vi.md
+  thesis/phu_luc_B_maida_vi.md thesis/phu_luc_C_ket_qua_thanh_phan_vi.md \
+  thesis/phu_luc_D_p6_primary_studies_vi.md
 
 # ---------- Chuyên đề 1 ----------
 CD1_COVER="$(ctr 'BỘ GIÁO DỤC VÀ ĐÀO TẠO' 28)$(ctr 'TRƯỜNG ĐẠI HỌC CẦN THƠ' 28)$(ctr 'TRƯỜNG KINH TẾ' 28)$(gap)$(gap)$(ctr 'ĐỖ THÙY HƯƠNG' 28)$(ctr 'MÃ SỐ NGHIÊN CỨU SINH: P1323001' 26)$(gap)$(ctr 'CHUYÊN ĐỀ TIẾN SĨ SỐ 1' 28)$(gap)$(ctr 'THỰC TRẠNG VỀ HIỆU QUẢ HOẠT ĐỘNG KINH DOANH CỦA CÁC DOANH NGHIỆP Ở CHÂU Á' 36)$(gap)$(gap)$(ctr 'NGÀNH QUẢN TRỊ KINH DOANH' 28)$(ctr 'MÃ NGÀNH: 9340101' 28)$(gap)$(ctr 'NGƯỜI HƯỚNG DẪN KHOA HỌC' 26)$(ctr 'TS. NGUYỄN MINH CẢNH' 26)$(gap)$(ctr 'CẦN THƠ, NĂM 2026' 28)$(pb)"
