@@ -48,7 +48,7 @@ Anil, K., & Misra, A. (2022). Artificial intelligence in peer-to-peer lending in
 
 Arbelo, A., Arbelo-Pérez, M., & Pérez-Gómez, P. (2024). Internationalization and individual firm performance: A resource-based view. *Eurasian Business Review, 14*(4), 881–915.
 
-Arte, L., & Larimo, J. (2022). Moderating influence of psychic distance on the international diversification–performance relationship: Insights from a meta-analysis. *Journal of Business Research, 139*, 230–245. https://doi.org/10.1016/j.jbusres.2021.09.060
+Arte, P., & Larimo, J. (2022). Moderating influence of product diversification on the international diversification–performance relationship: A meta-analysis. *Journal of Business Research, 139*, 281–295.
 
 Assaf, A. G., Josiassen, A., Knezevic Cvelbar, L., & Woo, L. (2012). The effects of internationalization on hotel financial performance. *International Journal of Hospitality Management, 31*(1), 39–48. https://doi.org/10.1016/j.ijhm.2011.05.003
 
