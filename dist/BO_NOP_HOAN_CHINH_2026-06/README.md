@@ -12,6 +12,44 @@ Thư mục gồm 3 phần: (1) papers đủ điều kiện nộp, (2) hai chuyê
 
 ---
 
+## 0. Tóm tắt đóng góp cốt lõi (Executive Summary of Contributions)
+
+Năm đóng góp định hướng toàn bộ công trình; hội đồng nên đọc README này trước, rồi tra
+ngược về chương/paper tương ứng:
+
+1. **Khung CDCM (Country–Digital–Capability Moderation).** Tái khái niệm hóa quan hệ
+   quốc tế hóa–hiệu quả (I–P) thành một quan hệ *được điều tiết bởi thể chế*: thể chế chi
+   phối **độ lớn, dấu, và hình dạng** đường cong (luận điểm apex, nêu ở thì thăm dò/có điều
+   kiện). → Chương 2–3; CĐ1/CĐ2.
+2. **Phân loại sáu tiểu chế độ ICRV** (I Advanced_innovation … VI SIDS_small) cho 50 nền
+   châu Á–Thái Bình Dương, dựng trên khung canonical WBES 88.869 DN. → Chương 3–4; P7.
+3. **Cấu trúc ba vùng giải mâu thuẫn văn liệu I–P châu Á.** Đường cong chữ U ngược *sắc nét*
+   ở chế độ chuyển đổi (Nhóm IV, TP ≈ 43%), *gần tuyến tính* ở chế độ thể chế mạnh nhất
+   (Nhóm I, đỉnh ngoài tầm quan sát), *tan biến* ở chế độ yếu nhất (Nhóm V/VI) — hòa giải
+   các phát hiện tuyến-tính-dương vs null/âm trước đây. → P7; Chương 4.
+4. **FIP (Forced Internationalization Penalty)** như điều kiện biên: ở nhóm Pacific SIDS,
+   quan hệ đảo dấu (không có cực đại nội vi). → P8; Chương 4–5.
+5. **Tổng hợp meta-analysis ba cấp k=238 (K=288 cỡ hiệu ứng, MARA/metafor)** kết nối tám
+   nghiên cứu thành phần P3–P10 thành một luận điểm thống nhất (kappa synthesis essay). → P6;
+   essay kappa.
+
+## 0b. Đạo đức nghiên cứu & minh bạch dữ liệu (Research Ethics & Data Transparency)
+
+- **Nguồn dữ liệu thứ cấp, ẩn danh:** phân tích dùng vi dữ liệu **World Bank Enterprise
+  Survey (WBES)** đã ẩn danh ở cấp doanh nghiệp; không thu thập dữ liệu người tham gia mới,
+  không có thông tin định danh cá nhân (PII). Không yêu cầu phê duyệt IRB cho dữ liệu thứ cấp
+  công khai này.
+- **Tái lập (reproducibility):** mỗi paper kèm replication package (`p*/replication/`);
+  kết quả đã đối chiếu chéo Python↔Stata (xem `reviews/REPLICATION_CROSSCHECK_2026-06-23.md`).
+  Các số liệu công bố khóa theo `data_wbes/analysis/CANONICAL_NUMBERS.md` (master-lock).
+- **Công bố dùng AI:** quy trình trích xuất M-AIDA và mức độ hỗ trợ của công cụ AI được khai
+  báo minh bạch tại **Phụ lục B** (`phu_luc_B_maida_vi`).
+- **Liêm chính trích dẫn:** không bịa trích dẫn/DOI; các mục chờ xác minh online được gắn
+  nhãn rõ ràng và để NCS xác minh trên máy có mạng (Crossref bị chặn 403 trong môi trường
+  dựng bộ nộp — xem mục 4 và `reviews/P6_PHASE_B_HANDOFF.md`).
+
+---
+
 ## 1. Papers đủ điều kiện submit (`1_papers/`)
 
 Mỗi gói gồm 4 file: `01_manuscript_blinded.docx` (bản tiếng Anh ẩn danh để nộp tạp chí),
