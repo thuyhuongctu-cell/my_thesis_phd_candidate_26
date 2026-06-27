@@ -136,7 +136,7 @@ Gom dữ liệu nguồn, kết quả ước lượng và mã để hội đồng
 
 | Thư mục | Nội dung |
 |---|---|
-| `ket_qua_excel/` | Excel kết quả từng paper (`P3..P8_results_workbook.xlsx`) + tổng hợp 8 paper (`ALL_PAPERS_results_data.xlsx`) + số liệu luận án (`MASTER_du_lieu_luan_an.xlsx`, `dissertation_results_data.xlsx`, bảng chương 3/4, CĐ2) — hệ số ước lượng, turning point, kiểm định, dữ liệu hình/bảng |
+| `ket_qua_excel/` | Excel kết quả **riêng từng paper** (`P3..P10_results_workbook.xlsx`) + tổng hợp 8 paper (`ALL_PAPERS_results_data.xlsx`) + số liệu luận án (`MASTER_du_lieu_luan_an.xlsx`, `dissertation_results_data.xlsx`, bảng chương 3/4, CĐ2) — hệ số ước lượng, turning point, kiểm định, dữ liệu hình/bảng |
 | `p7_du_lieu_gop_50_nuoc/` | **File gộp 50 nền cho P7**: `p7_pooled_clean.csv` (~21 MB, 88.869 DN/50 nền/103 sóng — dữ liệu master ước lượng P7) + `p7_manifest.csv` + `p7_variable_log.csv` |
 | `ma_stata_do/` | Mã Stata `.do` build dữ liệu + chạy mô hình (P3/P4/P5/P9 + P7/P8); P6/P10 dùng Python |
 
