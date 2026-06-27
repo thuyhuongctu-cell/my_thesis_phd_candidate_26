@@ -76,3 +76,11 @@ chữ U ngược), và **tiêu đề bài Johanson & Vahlne (1977)** trong danh 
 - `check-consistency.py`: 0 vấn đề (số liệu/hệ số/p-value nguyên vẹn).
 - Đã tái sinh: `latex/ctu/{LUAN_AN_CTU,CD1,CD2}.tex` + per-chapter `.tex`, và dựng lại
   bộ nộp (LUAN_AN_CTU_full.pdf 185 trang + 5 chương PDF/docx + CĐ1/CĐ2) từ md đã sửa.
+
+## Bổ sung 2026-06-27 — bản dịch VI của paper
+
+Quét 8 bản dịch tiếng Việt của paper (`p*_vi.md`): 7/8 đã sạch; riêng **P8**
+(`p8/submission/p8_pacific_sids_vi.md`, song ngữ VI+EN) còn **50 em-dash** (24 câu
+văn VI + khối abstract EN dạng dính liền `prerequisites—a`). Đã khử về dấu phẩy,
+giữ en-dash khoảng (30–70%, I–P), ô bảng, và tên tham khảo. Bản dịch VI sau sửa:
+em-dash câu văn = 0 trên cả 8 paper. Đã dựng lại docx P8 VI trong bộ nộp (nhúng Hình 1).
