@@ -1,4 +1,4 @@
-# Bộ nộp hoàn chỉnh — NCS Đỗ Thùy Hương (VLUTE / CTU)
+# Bộ nộp hoàn chỉnh — NCS Đỗ Thùy Hương (CTU)
 
 > Cập nhật **2026-06-26** (dựng lại toàn bộ; bổ sung S238 đóng khe k=238 ở Phụ lục D, và các sửa CĐ1/CĐ2: số nội bộ, trích dẫn Wu Fan & Chen, Unicode→math). Trước đó 2026-06-23 (dựng lại toàn bộ từ nguồn đã hiệu chỉnh bằng
 > `scripts/build_bo_nop_package.sh`). Tất cả số liệu **của các gói LIVE** đã đồng bộ về **khung canonical 50 nền**; các bản nháp thế-hệ-trước (P7 APJM/JIBS khung 49 nền; P8 EJDR/JID/World Development khung −1.339) được **giữ lại có gắn nhãn SUPERSEDED — không nộp**.
