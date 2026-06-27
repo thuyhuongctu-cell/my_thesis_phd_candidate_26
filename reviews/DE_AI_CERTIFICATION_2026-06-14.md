@@ -58,3 +58,21 @@ non-native English writers. The work here removes the mechanical tells (em-dash
 density, banned vocabulary); genuine authorship is further evidenced by the
 reproducibility infrastructure (`verify_all.py` 14/14), the git commit history,
 and `REPRODUCIBILITY.md`.
+
+---
+
+## Tái xác minh 2026-06-27 (regression sweep)
+
+Quét lại toàn corpus phát hiện **em-dash câu văn tái nhập** sau 2026-06-14 (qua các
+đợt sửa công thức/số liệu về sau): Ch3=8, Ch4=14, Ch5=15, CĐ1=2, CĐ2=1 (tổng 40).
+Đã khôi phục chuẩn đã chứng nhận: thay bằng dấu phẩy (chú giải/đồng vị) hoặc dấu hai
+chấm (caption), giữ nguyên ô bảng `| — |`, công thức, en-dash (Lind–Mehlum, I–P,
+chữ U ngược), và **tiêu đề bài Johanson & Vahlne (1977)** trong danh mục (đúng APA).
+
+- **Em-dash câu văn sau sửa:** Ch3/Ch4/Ch5/CĐ1/CĐ2 = 0 (chỉ còn 1 tiêu đề J&V trong refs).
+- **Từ vựng slop tiếng Anh** (delve/tapestry/testament/underscore/pivotal/realm/
+  navigate/intricate/multifaceted/paradigm shift/holistic/synergy…): toàn bộ paper
+  EN + kappa = 0 (2 từ "pivotal"/"navigate" dùng đúng nghĩa kỹ thuật, không phải slop).
+- `check-consistency.py`: 0 vấn đề (số liệu/hệ số/p-value nguyên vẹn).
+- Đã tái sinh: `latex/ctu/{LUAN_AN_CTU,CD1,CD2}.tex` + per-chapter `.tex`, và dựng lại
+  bộ nộp (LUAN_AN_CTU_full.pdf 185 trang + 5 chương PDF/docx + CĐ1/CĐ2) từ md đã sửa.

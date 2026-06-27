@@ -280,7 +280,7 @@ Chuyên đề tiếp cận theo lối **mô tả – chẩn đoán**, không thi
 
 Khung phân tích mô tả của Chuyên đề 1 được tóm lược ở Hình 2.3.1.1. Đây là **khung mô tả – tương quan** (không phải khung kiểm định nhân quả; phần nhân quả được dành cho Chuyên đề 2): bốn yếu tố giải thích cấp doanh nghiệp và quốc gia, gồm vốn đầu tư trực tiếp nước ngoài (FDI ≥ 10%), mức độ quốc tế hóa (FSTS), năng lực công nghệ (TCI) và mức độ hiện diện số (DAI), được đặt trong quan hệ tương quan với **năng suất lao động chuẩn hóa** (LP-z, điểm z của ln(doanh thu/lao động) trong từng cặp nền kinh tế × năm để bảo đảm bất biến tiền tệ). Điểm cốt lõi của khung là vai trò **điều tiết bối cảnh** của khung phân loại thể chế ICRV (sáu nhóm, từ Nhóm I đổi mới đến Nhóm VI SIDS): thể chế không chỉ làm thay đổi *độ lớn* mà cá biệt còn làm *triệt tiêu* các tương quan, rõ nhất ở phổ thể chế FSTS giảm đơn điệu từ +0,141 (Nhóm I) xuống mất ý nghĩa ở SIDS (+0,002 ns), nhất quán với giả thuyết chi phí buộc phải quốc tế hóa. Toàn bộ phân tích là **cắt ngang gộp nhiều đợt** trên giai đoạn 2006–2026; các hệ số tương quan Pearson chi tiết theo nhóm ICRV được trình bày ở mục 2.3.8.
 
-![Hình 2.3.1.1. Khung phân tích mô tả CĐ1 — tương quan giữa bốn yếu tố và năng suất lao động theo bối cảnh thể chế ICRV (mẫu gộp mô tả 88.869 doanh nghiệp, 50 nền, 2006–2026).](figures/cd1_fig_conceptual_model.png)
+![Hình 2.3.1.1. Khung phân tích mô tả CĐ1: tương quan giữa bốn yếu tố và năng suất lao động theo bối cảnh thể chế ICRV (mẫu gộp mô tả 88.869 doanh nghiệp, 50 nền, 2006–2026).](figures/cd1_fig_conceptual_model.png)
 
 *Nguồn: tác giả tổng hợp từ WBES (2006–2026). Mũi tên liền = quan hệ tương quan mô tả giữa từng yếu tố và năng suất; mũi tên nét đứt = điều tiết bối cảnh của khung thể chế ICRV. Đây là khung mô tả – tương quan; suy luận nhân quả (hồi quy hai chiều cố định, kiểm định turning-point) được dành cho Chuyên đề 2.*
 
@@ -1088,7 +1088,7 @@ Xu, D. (2024). De jure versus de facto institutional distance. *Global Strategy 
 
 ### Phụ lục A: Phạm vi thực tế của mẫu gộp dữ liệu WBES
 
-**Bảng A.1**. *Phân bổ 50 nền kinh tế theo nhóm ICRV — khung mô tả LP-valid tái lập 84.998 doanh nghiệp, 107 cặp nền kinh tế × năm, 2006–2026 (cột n đã gồm China-2012 và đủ bốn đợt Azerbaijan).*
+**Bảng A.1**. *Phân bổ 50 nền kinh tế theo nhóm ICRV: khung mô tả LP-valid tái lập 84.998 doanh nghiệp, 107 cặp nền kinh tế × năm, 2006–2026 (cột n đã gồm China-2012 và đủ bốn đợt Azerbaijan).*
 
 | Nhóm ICRV | Nền kinh tế (năm khảo sát) | Đợt | n |
 |---|---|--:|--:|
