@@ -1,6 +1,6 @@
 # Bộ nộp hoàn chỉnh — NCS Đỗ Thùy Hương (CTU)
 
-> Cập nhật **2026-06-26** (dựng lại toàn bộ; bổ sung S238 đóng khe k=238 ở Phụ lục D, và các sửa CĐ1/CĐ2: số nội bộ, trích dẫn Wu Fan & Chen, Unicode→math). Trước đó 2026-06-23 (dựng lại toàn bộ từ nguồn đã hiệu chỉnh bằng
+> Cập nhật **2026-06-27** (mở rộng `1_papers/`: mỗi paper nay gồm 1 bản dịch VI + **3 tạp chí mục tiêu** primary/dự phòng; thêm phần **4_du_lieu_ket_qua/** gồm Excel kết quả, mã Stata, và file gộp 50 nền cho P7). Trước đó 2026-06-26 (bổ sung S238 đóng khe k=238 ở Phụ lục D, và các sửa CĐ1/CĐ2: số nội bộ, trích dẫn Wu Fan & Chen, Unicode→math). 2026-06-23 (dựng lại toàn bộ từ nguồn đã hiệu chỉnh bằng
 > `scripts/build_bo_nop_package.sh`). Tất cả số liệu **của các gói LIVE** đã đồng bộ về **khung canonical 50 nền**; các bản nháp thế-hệ-trước (P7 APJM/JIBS khung 49 nền; P8 EJDR/JID/World Development khung −1.339) được **giữ lại có gắn nhãn SUPERSEDED — không nộp**.
 > Phân cấp khung (đã tái lập được): pool phân loại **96.415 DN / 52 nhãn** ⊇ khung phân tích
 > **88.869 DN / 50 nền** ⊇ khung mô tả LP hợp lệ **84.998 DN / 50 nền / 107 cặp nền-năm**
@@ -8,7 +8,7 @@
 > Khung mô tả giữ Timor-Leste trong Nhóm VI; nghiên cứu SIDS P8 loại Timor (7 nền Pacific).
 > Thuật ngữ thống nhất: quan hệ I–P "mất cấu trúc" (Nhóm V/VI); "phổ thể chế" (ICRV).
 
-Thư mục gồm 3 phần: (1) papers đủ điều kiện nộp, (2) hai chuyên đề, (3) năm chương luận án + phụ lục.
+Thư mục gồm 4 phần: (1) papers đủ điều kiện nộp, (2) hai chuyên đề, (3) năm chương luận án + phụ lục, (4) dữ liệu & kết quả replication.
 
 ---
 
@@ -52,12 +52,26 @@ ngược về chương/paper tương ứng:
 
 ## 1. Papers đủ điều kiện submit (`1_papers/`)
 
-Mỗi gói gồm 4 file: `01_manuscript_blinded.docx` (bản tiếng Anh ẩn danh để nộp tạp chí),
-`02_title_page.docx`, `03_cover_letter.docx`, và **`04_ban_dich_vi.docx`** (bản dịch tiếng Việt
-đầy đủ cho hồ sơ luận án/hội đồng CTU — kèm hình minh họa với P3/P4/P5).
-Đích tạp chí là **gói live** (đã loại các gói DEPRECATED), theo `DEPRECATED.md` trong từng paper.
+**Cấu trúc mỗi paper (cập nhật 2026-06-27):** mỗi thư mục paper `P{n}_{PRIMARY}/` gồm
+**1 bản dịch tiếng Việt** `00_ban_dich_vi.docx` (cho hồ sơ luận án/hội đồng CTU) + **3 thư mục
+con theo 3 tạp chí mục tiêu** (primary + 2 dự phòng, đã loại các gói DEPRECATED/SUPERSEDED):
 
-| Thư mục | Paper | Tạp chí đích (live) | Hạng | Cổng nộp |
+```
+P4_MIR/
+├── 00_ban_dich_vi.docx
+├── 01_MIR_primary/    01_manuscript_blinded.docx · 02_title_page.docx · 03_cover_letter.docx [· 04_manuscript_latex.pdf · figures/]
+├── 02_MBR_target/     …
+└── 03_APBR_safe/      …
+```
+
+Ladder 3 tạp chí/paper: **P3** JED→IJOEM *(chỉ 2 live)* · **P4** MIR→MBR→APBR ·
+**P5** IJOEM→APJM→JABS · **P6** JWB→JIM→APJM · **P7** IBR→GSJ→JIBP ·
+**P8** World Development(redesign)→JID→EJDR · **P9** MIR→IJOEM→JABS · **P10** ABM→APJM→IJOEM.
+Dựng lại bằng `scripts/build_bo_nop_papers_full.py`.
+
+Bảng dưới là **tạp chí primary** của mỗi paper (đích nộp đầu tiên):
+
+| Thư mục | Paper | Tạp chí primary | Hạng | Cổng nộp |
 |---|---|---|---|---|
 | `P3_JED/` | P3 Việt Nam | Journal of Economics and Development (Emerald) | Scopus/WoS, Diamond OA | emeraldgrouppublishing.com/journal/jed |
 | `P4_MIR/` | P4 Singapore | Management International Review (Springer) | ABS-3 | mc.manuscriptcentral.com/mir |
@@ -115,7 +129,23 @@ Mỗi gói gồm 4 file: `01_manuscript_blinded.docx` (bản tiếng Anh ẩn da
 
 ---
 
-## 4. Việc còn lại — CHỈ NCS / máy có mạng + license làm được (không chặn đóng gói)
+## 4. Dữ liệu & kết quả replication (`4_du_lieu_ket_qua/`)
+
+Gom dữ liệu nguồn, kết quả ước lượng và mã để hội đồng kiểm chứng số liệu (xem
+`4_du_lieu_ket_qua/README.md`):
+
+| Thư mục | Nội dung |
+|---|---|
+| `ket_qua_excel/` | Excel kết quả từng paper (`P3..P8_results_workbook.xlsx`) + tổng hợp 8 paper (`ALL_PAPERS_results_data.xlsx`) + số liệu luận án (`MASTER_du_lieu_luan_an.xlsx`, `dissertation_results_data.xlsx`, bảng chương 3/4, CĐ2) — hệ số ước lượng, turning point, kiểm định, dữ liệu hình/bảng |
+| `p7_du_lieu_gop_50_nuoc/` | **File gộp 50 nền cho P7**: `p7_pooled_clean.csv` (~21 MB, 88.869 DN/50 nền/103 sóng — dữ liệu master ước lượng P7) + `p7_manifest.csv` + `p7_variable_log.csv` |
+| `ma_stata_do/` | Mã Stata `.do` build dữ liệu + chạy mô hình (P3/P4/P5/P9 + P7/P8); P6/P10 dùng Python |
+
+> Dữ liệu thô WBES (.dta) không đính kèm (dung lượng lớn, tải công khai từ World Bank);
+> đường dẫn build: `data_wbes/raw_dta/`.
+
+---
+
+## 5. Việc còn lại — CHỈ NCS / máy có mạng + license làm được (không chặn đóng gói)
 
 Các mục dưới đây **không thể chạy trong môi trường dựng bộ nộp** (container chặn outbound,
 không có Stata license, nội dung cá nhân). Bộ nộp đã hoàn chỉnh về nội dung; đây là các bước
