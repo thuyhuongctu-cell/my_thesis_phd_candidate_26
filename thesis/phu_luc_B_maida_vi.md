@@ -43,6 +43,11 @@ dữ liệu. Khi chỉ có thống kê phái sinh, hệ thống chuyển đổi 
 
 $$ r = \sqrt{\dfrac{t^2}{t^2 + df}} \quad \text{(Cohen, 1988)}; \qquad r \approx 0{,}98\,\beta \quad \text{(Peterson \& Brown, 2005)}. $$
 
+Phép chuyển từ $\beta$ chỉ dùng số hạng độ dốc $0{,}98$ của Peterson và Brown (2005), bỏ
+hệ số chặn $+0{,}05\lambda$ trong công thức gốc của hai tác giả. Cách làm này trùng khít với
+Peterson và Brown khi $\beta$ âm và làm $|r|$ nhỏ đi $0{,}05$ khi $\beta$ dương, tức thiên về
+hướng thận trọng (không thổi phồng hiệu ứng); dấu của $t$ và $\beta$ luôn được giữ nguyên.
+
 Mỗi bản ghi được gán **điểm tin cậy trích xuất** ba mức: 1,0 (lấy trực tiếp $r$), 0,8
 (suy từ $t$), 0,6 (suy từ $\beta$); bản ghi có độ tin cậy dưới 0,7 tự động bị gắn cờ
 `requires_verification`.
