@@ -181,6 +181,44 @@ class StatisticalExtractor:
         # Peterson & Brown (2005): r ≈ β × 0.98
         return beta * 0.98
 
+    @staticmethod
+    def resolve_overridden_r(
+        data: dict[str, Any], overridden_keys: Any
+    ) -> float | None:
+        """Resolve the canonical Pearson r after a PI override.
+
+        Mirrors the extraction hierarchy so a PI correction to an upstream
+        statistic propagates to ``effect_r`` instead of leaving a stale value:
+
+        * an explicit ``effect_r`` override always wins;
+        * else, if ``effect_t``/``effect_df`` were overridden and both are
+          present, recompute via Cohen (1988);
+        * else, if ``effect_beta`` was overridden and present, recompute via
+          Peterson & Brown (2005);
+        * else keep the existing ``data['effect_r']``.
+
+        Args:
+            data: The merged study record (overrides already applied).
+            overridden_keys: Iterable of field names the PI overrode.
+
+        Returns:
+            The effect_r value the record should carry.
+        """
+        keys = set(overridden_keys)
+        if "effect_r" in keys:
+            return data.get("effect_r")
+        if (
+            ("effect_t" in keys or "effect_df" in keys)
+            and data.get("effect_t") is not None
+            and data.get("effect_df") is not None
+        ):
+            return StatisticalExtractor.compute_r_from_t(
+                float(data["effect_t"]), int(data["effect_df"])
+            )
+        if "effect_beta" in keys and data.get("effect_beta") is not None:
+            return StatisticalExtractor.convert_beta_to_r(float(data["effect_beta"]))
+        return data.get("effect_r")
+
     # ------------------------------------------------------------------
     # Private helpers
     # ------------------------------------------------------------------

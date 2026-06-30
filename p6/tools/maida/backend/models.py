@@ -78,7 +78,7 @@ class ExtractedEffect(BaseModel):
         description="Pearson's r as directly reported (preferred); confidence = 1.0",
     )
     effect_t: float | None = Field(
-        None, description="t-statistic; converted to r via Peterson & Brown (2005)"
+        None, description="t-statistic; converted to r via Cohen (1988)"
     )
     effect_beta: float | None = Field(
         None,

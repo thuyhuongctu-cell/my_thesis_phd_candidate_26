@@ -90,3 +90,36 @@ class TestConfidenceScheme:
     def test_expected_canonical_values(self):
         assert (CONFIDENCE_DIRECT_R, CONFIDENCE_FROM_T, CONFIDENCE_FROM_BETA) == (1.0, 0.8, 0.6)
         assert CONFIDENCE_REVIEW_THRESHOLD == 0.7
+
+
+# --------------------------------------------------------------------------- #
+# resolve_overridden_r: a PI correction to an upstream statistic must
+# propagate to effect_r (regression test for the verify_study contract)
+# --------------------------------------------------------------------------- #
+class TestResolveOverriddenR:
+    def test_recompute_from_t_when_t_df_overridden(self):
+        data = {"effect_r": 0.10, "effect_t": 2.0, "effect_df": 4, "effect_beta": None}
+        r = StatisticalExtractor.resolve_overridden_r(data, {"effect_t", "effect_df"})
+        assert r == pytest.approx(math.sqrt(0.5))  # not the stale 0.10
+
+    def test_recompute_from_beta_when_beta_overridden(self):
+        data = {"effect_r": 0.10, "effect_t": None, "effect_df": None, "effect_beta": 0.5}
+        r = StatisticalExtractor.resolve_overridden_r(data, {"effect_beta"})
+        assert r == pytest.approx(0.49)
+
+    def test_explicit_r_override_wins(self):
+        data = {"effect_r": 0.33, "effect_t": 2.0, "effect_df": 4, "effect_beta": None}
+        r = StatisticalExtractor.resolve_overridden_r(
+            data, {"effect_r", "effect_t", "effect_df"}
+        )
+        assert r == pytest.approx(0.33)
+
+    def test_no_relevant_override_keeps_existing_r(self):
+        data = {"effect_r": 0.10, "effect_t": 2.0, "effect_df": 4, "effect_beta": None}
+        r = StatisticalExtractor.resolve_overridden_r(data, {"p_value", "sample_n"})
+        assert r == pytest.approx(0.10)
+
+    def test_t_override_without_df_keeps_existing_r(self):
+        data = {"effect_r": 0.10, "effect_t": 2.0, "effect_df": None, "effect_beta": None}
+        r = StatisticalExtractor.resolve_overridden_r(data, {"effect_t"})
+        assert r == pytest.approx(0.10)  # cannot compute without df → no stale overwrite
