@@ -25,10 +25,22 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
 MASTER = OUT / "icr_subsample_master.csv"
-CODER2 = OUT / "icr_coding_sheet_coder2_FILLED.csv"
+# Coder 2 may submit either the .xlsx workbook (dropdowns) or a .csv export.
+CODER2_XLSX = OUT / "icr_coding_sheet_coder2_FILLED.xlsx"
+CODER2_CSV = OUT / "icr_coding_sheet_coder2_FILLED.csv"
 
 CAT_COLS = ["icrv", "dpl", "doi_type", "fp_type"]
 ORDINAL_MAP = {"L": 0, "M": 1, "H": 2}
+
+
+def load_coder2():
+    """Read the filled coder-2 sheet, preferring .xlsx, else .csv. None if neither."""
+    if CODER2_XLSX.exists():
+        df = pd.read_excel(CODER2_XLSX, sheet_name="MaHoa", dtype=str)
+        return df, CODER2_XLSX.name
+    if CODER2_CSV.exists():
+        return pd.read_csv(CODER2_CSV, dtype=str), CODER2_CSV.name
+    return None, None
 
 
 def cohens_kappa(a, b, weights=None):
@@ -69,16 +81,17 @@ def icc_2_1(x, y):
 
 
 def main():
-    if not CODER2.exists():
+    c2, src = load_coder2()
+    if c2 is None:
         sys.exit(
-            f"ERROR: {CODER2.name} not found.\n"
-            "Coder 2 must complete icr_coding_sheet_coder2_BLANK.csv from the "
-            "source papers (blind to the master sheet), save it as "
-            "icr_coding_sheet_coder2_FILLED.csv, then re-run this script.\n"
+            "ERROR: filled coder-2 sheet not found.\n"
+            "Coder 2 must complete icr_coding_sheet_coder2_BLANK.xlsx (or the .csv) from "
+            "the source papers (blind to the master sheet), save it as "
+            "icr_coding_sheet_coder2_FILLED.xlsx (or .csv), then re-run this script.\n"
             "This script will NOT produce statistics without real second-coder data."
         )
+    print(f"Reading second-coder data from: {src}")
     m = pd.read_csv(MASTER, dtype=str)
-    c2 = pd.read_csv(CODER2, dtype=str)
 
     merged = m.merge(c2, on="study_id", suffixes=("_c1", "_c2"))
     if len(merged) != len(m):

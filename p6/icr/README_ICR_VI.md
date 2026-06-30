@@ -10,7 +10,12 @@
 - `icr_coding_sheet_coder2_BLANK.csv` — phiếu trống cho Coder 2.
 
 ### Bước 2 — Coder 2 (thầy Tú) mã hóa
-Mở `icr_coding_sheet_coder2_BLANK.csv`, với từng nghiên cứu (đọc bài gốc/abstract), điền 5 cột theo codebook:
+**Khuyến nghị:** mở `icr_coding_sheet_coder2_BLANK.xlsx` — phiếu Excel có **dropdown** (chỉ chọn
+giá trị hợp lệ, ô vàng = cần điền, kèm sheet *Codebook*). Lưu thành `icr_coding_sheet_coder2_FILLED.xlsx`.
+*(Phương án thay thế: bản CSV `icr_coding_sheet_coder2_BLANK.csv` → lưu `..._FILLED.csv`. Script
+`02_compute_icr.py` đọc được cả .xlsx lẫn .csv. Công thức κ/ICC: xem `CONG_THUC_KAPPA_ICC_VI.md`.)*
+
+Với từng nghiên cứu (đọc bài gốc/abstract), điền 5 cột theo codebook:
 
 | Cột | Giá trị hợp lệ | Ý nghĩa |
 |---|---|---|
