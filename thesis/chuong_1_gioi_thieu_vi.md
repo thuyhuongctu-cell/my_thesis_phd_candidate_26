@@ -1,3 +1,7 @@
+```{=latex}
+\pagenumbering{arabic}
+```
+
 <div align="center">
 
 # CHƯƠNG 1: GIỚI THIỆU
