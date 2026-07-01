@@ -2,7 +2,7 @@
 
 Two source formats provided. Pick whichever your toolchain supports.
 
-## Variable taxonomy (matches manuscript v1.3 §2.5)
+## Variable taxonomy (matches manuscript v1.3 Section 2.5)
 
 | Role | Variable | Operationalization | Hypothesis | Render style |
 |---|---|---|---|---|
@@ -14,7 +14,7 @@ Two source formats provided. Pick whichever your toolchain supports.
 | **Controls** | `lnEmp`, `firmage`, `foreigndummy`, sector (`a4a`) strata, `wave2024` (pooled only) | various | — | solid box, thin gray arrow |
 | **Cross-wave annotation** | H2 stability link | Paternoster (1998) z-test on (FSTS, FSTS²) | H2 | note shape, **dotted double-headed link** |
 
-**Key clarification for reviewers.** Working-capital is the **only true moderator** in the model (interacts with FSTS² to test H3). TCI and DAI are additional predictors / level-shifters — they enter the regression as direct effects on lnLP, NOT as moderators of the curvature. This is a deliberate architectural choice (see manuscript §2.4) prioritizing threshold stability and reflecting WBES measurement constraints (lower-tier digital indicators only).
+**Key clarification for reviewers.** Working-capital is the **only true moderator** in the model (interacts with FSTS² to test H3). TCI and DAI are additional predictors / level-shifters — they enter the regression as direct effects on lnLP, NOT as moderators of the curvature. This is a deliberate architectural choice (see manuscript Section 2.4) prioritizing threshold stability and reflecting WBES measurement constraints (lower-tier digital indicators only).
 
 ## Files
 
@@ -25,7 +25,7 @@ Two source formats provided. Pick whichever your toolchain supports.
 
 ## Rendering
 
-### Mermaid → PNG / SVG
+### Mermaid to PNG / SVG
 
 ```bash
 # Install mermaid-cli
@@ -43,7 +43,7 @@ mmdc -i figure1_conceptual_model.mmd -o figure1.pdf
 
 Or paste the `.mmd` content into https://mermaid.live for instant preview.
 
-### Graphviz → PNG / SVG / PDF
+### Graphviz to PNG / SVG / PDF
 
 ```bash
 # Install Graphviz
@@ -61,7 +61,7 @@ Or paste the `.dot` content into https://dreampuf.github.io/GraphvizOnline for b
 ### Embedding into the Word manuscript
 
 1. Render to SVG (preferred) or 600-dpi PNG.
-2. Insert at the Figure 1 placeholder in the manuscript (after §2.5 caption).
+2. Insert at the Figure 1 placeholder in the manuscript (after Section 2.5 caption).
 3. Verify legend visibility, font size ≥ 10pt, no truncated labels.
 4. Re-export the assembled `manuscript_v1_3.docx` from pandoc; or paste the rendered figure manually if working in Word native.
 
@@ -70,7 +70,7 @@ Or paste the `.dot` content into https://dreampuf.github.io/GraphvizOnline for b
 - **Boxes** = firm-level constructs.
 - **Dashed box** (Working-Capital Condition) = exploratory, secondary role; not the manuscript's central mechanism.
 - **Solid arrows** = the four directional hypotheses (H1, H4a, H4b plus thin control arrow).
-- **Dashed arrow** (Working-Capital → ln LP) = exploratory H3 post-threshold conditioning.
+- **Dashed arrow** (Working-Capital to ln LP) = exploratory H3 post-threshold conditioning.
 - **Dotted double-headed link** (Export Intensity ↔ H2 annotation) = cross-wave stability evaluation, not a directional causal claim.
 - **Outcome box** (ln LP) = filled gray with thick border to anchor the rightmost endpoint.
 

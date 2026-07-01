@@ -20,7 +20,7 @@
 
 ## Nhóm 1 — Khái niệm dữ liệu và phương pháp cơ bản
 
-*Áp dụng cho: Phương pháp nghiên cứu (Ch.1 §1.3-§1.4), Phân tích dữ liệu (Ch.4), và toàn bộ luận án.*
+*Áp dụng cho: Phương pháp nghiên cứu (Ch.1 Mục 1.3-Mục 1.4), Phân tích dữ liệu (Ch.4), và toàn bộ luận án.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -46,7 +46,7 @@
 | 11 | Technological Capability Index (TCI) | Chỉ số năng lực công nghệ | Chỉ số năng lực công nghệ (Technological Capability Index — TCI) | TCI / năng lực công nghệ |
 | 12 | Digital Adoption Index (DAI) | Chỉ số năng lực số | Chỉ số năng lực số (Digital Adoption Index — DAI) | DAI / năng lực số |
 | 13 | Foreign Sales to Total Sales (FSTS) | Tỷ lệ doanh số quốc tế | Tỷ lệ doanh số quốc tế trên tổng doanh số (Foreign Sales to Total Sales — FSTS) | FSTS / cường độ quốc tế hóa |
-| 14 | Institutional Capability-Resource Vitality (ICRV) | Phân loại thể chế năng lực-nguồn lực | Phân loại thể chế năng lực-nguồn lực (Institutional Capability-Resource Vitality — ICRV) | ICRV / phân loại thể chế ICRV |
+| 14 | Institutional Context Regime Variation (ICRV) | Biến thiên chế độ bối cảnh thể chế | Biến thiên chế độ bối cảnh thể chế (Institutional Context Regime Variation — ICRV) | ICRV / phân loại thể chế ICRV |
 | 15 | Total Factor Productivity (TFP) | Năng suất nhân tố tổng hợp | Năng suất nhân tố tổng hợp (Total Factor Productivity — TFP) | TFP / năng suất tổng hợp |
 | 16 | Return on Assets (ROA) | Tỷ suất sinh lời trên tài sản | Tỷ suất sinh lời trên tài sản (Return on Assets — ROA) | ROA |
 | 17 | World Governance Indicators (WGI) | Chỉ số quản trị thế giới | Chỉ số quản trị thế giới (World Governance Indicators — WGI) | WGI |
@@ -58,7 +58,7 @@
 
 ## Nhóm 3 — Thuật ngữ thống kê và kinh tế lượng
 
-*Áp dụng cho: Phương pháp luận (§1.4), Kết quả phân tích (Ch.4).*
+*Áp dụng cho: Phương pháp luận (Mục 1.4), Kết quả phân tích (Ch.4).*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -96,7 +96,7 @@
 
 ## Nhóm 5 — Phương pháp luận nghiên cứu
 
-*Áp dụng cho: §1.3-§1.4 (Phương pháp), §4.8 (Industry framework), Ch.7 (Hàm ý).*
+*Áp dụng cho: Mục 1.3-Mục 1.4 (Phương pháp), Mục 4.8 (Industry framework), Ch.7 (Hàm ý).*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -115,7 +115,7 @@
 
 ## Nhóm 6 — Thể chế và lý thuyết IB nâng cao
 
-*Áp dụng cho: §1.5 (Đóng góp), §2 (Cơ sở lý luận), §4.8 (Industry framework). Được tích hợp từ Xu (2024) GSJ và Kafouros et al. (2023) GSJ.*
+*Áp dụng cho: Mục 1.5 (Đóng góp), Mục 2 (Cơ sở lý luận), Mục 4.8 (Industry framework). Được tích hợp từ Xu (2024) GSJ và Kafouros et al. (2023) GSJ.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -132,7 +132,7 @@
 
 ## Nhóm 7 — Thuật ngữ WBES và phân loại World Bank
 
-*Áp dụng cho: §1.3-§1.4 (Phương pháp WBES), §4.4-§4.5 (Phân tích rào cản), §5.7 (PICs). Nguồn: World Bank Enterprise Survey methodology documentation.*
+*Áp dụng cho: Mục 1.3-Mục 1.4 (Phương pháp WBES), Mục 4.4-Mục 4.5 (Phân tích rào cản), Mục 5.7 (PICs). Nguồn: World Bank Enterprise Survey methodology documentation.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|
@@ -149,7 +149,7 @@
 
 ## Nhóm 8 — Kinh tế vĩ mô và chính sách thương mại
 
-*Áp dụng cho: §1.1 (Bối cảnh), §5.3 (Vietnam case), §6 (Yếu tố giải thích), §7.3 (Hàm ý chính sách). Được tích hợp từ phân tích ADB Vietnam Economic Outlook 2026 và tác động thuế quan Mỹ.*
+*Áp dụng cho: Mục 1.1 (Bối cảnh), Mục 5.3 (Vietnam case), Mục 6 (Yếu tố giải thích), Mục 7.3 (Hàm ý chính sách). Được tích hợp từ phân tích ADB Vietnam Economic Outlook 2026 và tác động thuế quan Mỹ.*
 
 | STT | Tiếng Anh | Tiếng Việt chuẩn | Cách viết lần đầu | Từ viết tắt / Tên ngắn |
 |-----|-----------|------------------|-------------------|------------------------|

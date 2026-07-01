@@ -48,7 +48,7 @@ function FilterBar({ filters, onChange }: FilterBarProps) {
         aria-label="Filter by ICRV regime"
       >
         <option value="">All ICRV</option>
-        {(["I", "II", "III", "SIDS", "V", "pooled"] as IcrvRegime[]).map((r) => (
+        {(["I", "II", "III", "FR", "MX"] as IcrvRegime[]).map((r) => (
           <option key={r} value={r}>
             Regime {r}
           </option>
@@ -64,7 +64,7 @@ function FilterBar({ filters, onChange }: FilterBarProps) {
         aria-label="Filter by DPL phase"
       >
         <option value="">All DPL</option>
-        {(["Precede", "Span", "Follow"] as DplPhase[]).map((p) => (
+        {(["PRE", "SPN", "FOL"] as DplPhase[]).map((p) => (
           <option key={p} value={p}>
             {p}
           </option>

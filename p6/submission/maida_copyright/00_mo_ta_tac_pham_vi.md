@@ -19,7 +19,7 @@ Phần mềm máy tính (Computer Program)
 
 ## 3. MỤC ĐÍCH VÀ CHỨC NĂNG TỔNG QUAN
 
-M-AIDA là phần mềm chuyên dụng phục vụ nghiên cứu học thuật trong lĩnh vực Quản trị Kinh doanh Quốc tế (International Business). Phần mềm hỗ trợ các nhà nghiên cứu tự động hóa quy trình trích xuất dữ liệu thống kê từ các bài báo khoa học dạng PDF, kiểm tra và chuẩn hóa kết quả, sau đó xuất tập dữ liệu phục vụ meta-analysis (phân tích tổng hợp định lượng) về mối quan hệ giữa quốc tế hóa doanh nghiệp và hiệu quả hoạt động (Internationalization → Performance, I→P).
+M-AIDA là phần mềm chuyên dụng phục vụ nghiên cứu học thuật trong lĩnh vực Quản trị Kinh doanh Quốc tế (International Business). Phần mềm hỗ trợ các nhà nghiên cứu tự động hóa quy trình trích xuất dữ liệu thống kê từ các bài báo khoa học dạng PDF, kiểm tra và chuẩn hóa kết quả, sau đó xuất tập dữ liệu phục vụ meta-analysis (phân tích tổng hợp định lượng) về mối quan hệ giữa quốc tế hóa doanh nghiệp và hiệu quả hoạt động (Internationalization đến Performance, I–P).
 
 Phần mềm được phát triển để phục vụ trực tiếp Luận án Tiến sĩ "Internationalization and Firm Performance in Asia-Pacific: A Multi-Country Meta-Analysis" (Paper 6 của luận án).
 
@@ -73,9 +73,10 @@ M-AIDA gồm hai thành phần chính:
 - Trích xuất văn bản toàn bộ PDF bằng PyMuPDF
 - Gửi văn bản đến Claude API với system prompt chuyên biệt để:
   - Xác định N (sample size), r (Pearson correlation), t-statistic, df, β (standardised regression coefficient), p-value, CI 95%
-  - Phân loại moderators: doi_measure (FSTS/entropy/n_markets/TNI), performance_measure (ROA/ROE/ROS/TobinsQ), icrv_regime (I/II/III/SIDS/V/pooled), dpl_phase (Precede/Span/Follow)
-- Chuyển đổi t → r theo công thức Peterson & Brown (2005): `r = sqrt(t² / (t² + df))`
-- Chuyển đổi β → r theo Peterson & Brown (2005): `r ≈ β × 0.98`
+  - Phân loại 2 chiều xác định được từ văn bản: doi_measure (FSTS/GEO/EXP/FDI/COMP/OTH), performance_measure (ACC/MKT/LAB/MIX); trích cửa sổ dữ liệu (sample_start/sample_end)
+  - Các moderator thể chế — icrv_regime (I/II/III/FR/MX, theo WGI Rule of Law), dpl_phase (PRE/SPN/FOL, theo năm dữ liệu trung vị), cdai_score (Digital Adoption Index 0–1) — do PI gán từ bảng tra cứu ngoài ở bước xác minh, KHÔNG do LLM đoán
+- Chuyển đổi t đến r theo công thức chuẩn (Cohen, 1988): `r = sqrt(t² / (t² + df))`
+- Chuyển đổi β đến r theo Peterson & Brown (2005), dạng rút gọn: `r ≈ β × 0.98` (trùng khít công thức đầy đủ 0.98β + 0.05λ khi β âm; bảo thủ khi β dương)
 - Tính extraction_confidence (1.0=direct r; 0.8=from t; 0.6=from β) và tự động đánh dấu requires_verification nếu confidence < 0.7
 
 ### 5.2. Module Quản lý Nghiên cứu (GET /api/studies)
@@ -114,11 +115,11 @@ M-AIDA gồm hai thành phần chính:
 
 M-AIDA là phần mềm đầu tiên tại Việt Nam kết hợp:
 
-1. **LLM-powered extraction với confidence scoring**: Sử dụng Claude API với system prompt chuyên biệt cho I→P meta-analysis, với thang đánh giá độ tin cậy 3 mức (direct r / from t / from β) dựa trên Peterson & Brown (2005) — không có trong bất kỳ meta-analysis tool công khai nào.
+1. **LLM-powered extraction với confidence scoring**: Sử dụng Claude API với system prompt chuyên biệt cho I–P meta-analysis, với thang đánh giá độ tin cậy 3 mức (direct r / from t / from β) dựa trên Peterson & Brown (2005) — không có trong bất kỳ meta-analysis tool công khai nào.
 
-2. **Workflow PI Verification + Irreversible Lock**: Cơ chế 2 bước (approve → lock) đảm bảo data integrity và audit trail, phân biệt rõ LLM extraction và quyết định của Principal Investigator — đặc thù cho dissertations và peer-reviewed research.
+2. **Workflow PI Verification + Irreversible Lock**: Cơ chế 2 bước (approve đến lock) đảm bảo data integrity và audit trail, phân biệt rõ LLM extraction và quyết định của Principal Investigator — đặc thù cho dissertations và peer-reviewed research.
 
-3. **Domain-specific moderator coding**: Tích hợp sẵn phân loại ICRV regime (5 mức: I/II/III/SIDS/V), DPL phase (3 giai đoạn), cDAI score — các constructs độc quyền của luận án tiến sĩ này.
+3. **Domain-specific moderator schema**: Tích hợp sẵn schema moderator của luận án — ICRV regime (5 mức thể chế: I/II/III/FR/MX theo WGI Rule of Law), DPL phase (PRE/SPN/FOL), cDAI score (Digital Adoption Index 0–1) — với nguyên tắc tách bạch: LLM chỉ trích thống kê; moderator thể chế do PI gán từ bảng tra cứu, bảo đảm tính kiểm chứng độc lập.
 
 4. **Notion bidirectional sync**: Cho phép collaborative verification qua Notion workspace mà không cần shared file system.
 
@@ -131,7 +132,7 @@ M-AIDA là phần mềm đầu tiên tại Việt Nam kết hợp:
 **Backend**:
 - Ngôn ngữ: Python 3.11+
 - Framework: FastAPI 0.115.0, Uvicorn 0.30.0
-- AI/LLM: Anthropic Claude SDK 0.31.0 (model: claude-sonnet-4-6)
+- AI/LLM: Anthropic Claude SDK 0.31.0 (model mặc định: claude-fable-5; cấu hình qua ANTHROPIC_MODEL / ANTHROPIC_DEFAULT_FABLE_MODEL)
 - PDF: PyMuPDF 1.24.5
 - Database sync: notion-client 2.2.1
 - Data processing: pandas 2.2.2, numpy 2.0.0, scipy 1.13.1

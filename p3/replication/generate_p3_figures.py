@@ -93,7 +93,7 @@ def plot_wave_curve(ax, sample, color, label):
 
 fig2, axes2 = plt.subplots(2, 2, figsize=(9, 7), sharey=False)
 wave_order = [('VNM2009','a'), ('VNM2015','b'), ('VNM2023','c'), ('VNMpooled','d')]
-ns = {'VNM2009': 989, 'VNM2015': 864, 'VNM2023': 908, 'VNMpooled': 2761}
+ns = {'VNM2009': 989, 'VNM2015': 956, 'VNM2023': 1013, 'VNMpooled': 2958}
 
 for (sample, letter), ax in zip(wave_order, axes2.flat):
     color, _, wave_label = WAVE_PALETTE[sample]

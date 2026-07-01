@@ -1,325 +1,114 @@
-# OSF Pre-Registration: P6 Three-Level Meta-Analysis
-# Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship
+# OSF Pre-Registration — P6 Three-Level Meta-Analysis
 
-> **Registration type:** Systematic Review & Meta-Analysis (Secondary Data)  
-> **Date prepared:** 2026-05-18  
-> **Prepared by:** Đỗ Thùy Hương, Can Tho University, Vietnam  
-> **OSF Registration ID:** https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)  
-> **Status:** REGISTERED — submitted 2026-05-18; registration active
+**Title:** Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis
 
----
-
-## 1. Study Title
-
-Institutional Context, Digital Adoption, and the Internationalization–Performance Relationship: A Three-Level Meta-Analysis
+> **Registration type:** Secondary-data / meta-analysis registration.
+> **Status:** DRAFT — ready to submit to OSF. Insert the OSF URL + DOI + timestamp here after registering, then paste the same identifier into the manuscript Methods Mục 3 and the PRISMA checklist.
+> **Transparency disclosure:** Effect-size extraction from the working corpus is already complete. This is therefore a *transparency registration of an analysis plan applied to existing data* (not an a-priori, data-blind pre-registration); this is disclosed honestly here and should be stated as such in the manuscript.
+> **Prepared by:** Đỗ Thùy Hương, Can Tho University, Vietnam.
 
 ---
 
-## 2. Authors
+## 1. Authors
+- **Đỗ Thùy Hương** (corresponding author) — College of Economics, Can Tho University, Vietnam · huongp1323001@gstudent.ctu.edu.vn · ORCID 0000-0002-7711-2487
+- **Phan Anh Tú** — College of Economics, Can Tho University, Vietnam · patu@ctu.edu.vn · ORCID 0000-0003-0667-3137
 
-- **Đỗ Thùy Hương** (corresponding author) — Can Tho University, Vietnam; huongp1323001@gstudent.ctu.edu.vn
-- **Phan Anh Tú** — Can Tho University, Vietnam
+## 2. Research questions
+- **RQ1 (Baseline).** What is the pooled internationalization đến firm-performance (I–P) effect size (r̄, 95% CI), and how is heterogeneity distributed within vs. between studies (I²₍₂₎, I²₍₃₎) in a three-level model?
+- **RQ2 (ICRV).** Do pooled I–P effects vary across **Institutional Context Regime Variation (ICRV)** regimes?
+- **RQ3 (cDAI).** Does **country-level Digital Adoption (cDAI, 0–1)** moderate the I–P relationship?
+- **RQ4 (DPL).** Does **Digital Paradox Lifecycle (DPL)** phase (temporal) moderate the I–P relationship?
+- **RQ5 (Publication bias).** Is the literature affected by selective reporting, and what is the bias-adjusted effect?
 
----
+## 3. Hypotheses
+- **H1 (ICRV between-regime).** Pooled I–P effect sizes vary systematically across ICRV regimes; the between-regime Q_M test is significant (p < .05), with Advanced-regime (ICRV-I) studies expected to show the largest average effect.
+- **E1a (exploratory).** Advanced-regime (ICRV-I) studies show the largest pooled effect.
+- **E1b (exploratory).** Frontier-regime (ICRV-FR) studies show the smallest (possibly null/negative) effect. Treated as exploratory given small Frontier k.
+- **H2 (DPL phase).** Studies drawing predominantly on post-2014 data (Follow phase) show larger pooled I–P effects than pre-2009 (Precede) studies, with Span intermediate; between-phase Q_M significant.
+- **H3 (cDAI amplification).** Studies from high-cDAI contexts show larger pooled I–P effects than low-cDAI contexts (between-group Q_M significant), concentrated in the Follow phase.
+- **H4 (Publication bias).** Selective reporting inflates the raw pooled effect: (a) funnel asymmetry (Egger, Begg) significant; (b) trim-and-fill yields a smaller but still positive adjusted estimate; (c) Orwin fail-safe N exceeds the negligibility threshold.
 
-## 3. Research Questions
+## 4. Eligibility criteria (PICOS)
+**Include:** firm-level studies (any country / multi-country); internationalization measured by FSTS, degree of internationalization, export intensity, geographic diversification, foreign subsidiaries, or FATA; performance measured by accounting (ROA/ROE/ROS), market (Tobin's Q, returns), or productivity (labour productivity, TFP) indicators; peer-reviewed journal article reporting Pearson r or a statistic convertible to r (standardized β; t with N; F with df₁ = 1).
+**Exclude:** country/macro-level unit; qualitative/conceptual/review-only; non-IB disciplinary context; book chapters, dissertations, conference/working papers (no DOI / not peer-reviewed); duplicates (exact DOI or >90% title match + same year); insufficient statistics to compute r.
+**Temporal coverage:** January 1977 – March 2026. **Language:** English (Vietnamese where a convertible effect size is confirmed).
 
-**RQ1 (Baseline):** What is the pooled internationalization–firm performance (I→P) effect size globally (*k*, *r̄*, *I*²)?
+## 5. Search strategy
+The corpus is assembled through a **systematic but bounded, citation-anchored strategy** rather than an exhaustive database census, and is reported under the PRISMA 2020 "studies identified via other methods" variant. The anchor set is five benchmark meta-analyses (Bausch & Krist, 2007; Kirca et al., 2012; Marano et al., 2016; Schwens et al., 2018; Arte & Larimo, 2022); their reference lists (backward citation) and forward-citation networks (Google Scholar) are screened. This is **supplemented** by targeted structured queries in Web of Science Core Collection (SSCI/SCI-E/ESCI), Scopus, and specialist databases (ABI/INFORM, Business Source Complete, ScienceDirect, SpringerLink, Emerald Insight, OpenAlex) to check coverage of the citation network — these queries supplement the citation-anchored search rather than constitute a standalone census.
 
-**RQ2 (ICRV moderation):** Does institutional context-regime vulnerability (ICRV; 6 regime groups from Advanced to Frontier/SIDS) moderate the I→P effect, with a gradient such that Frontier regimes show larger turning points and smaller baseline effects than Advanced regimes?
-
-**RQ3 (cDAI moderation):** Does country-level digital adoption (cDAI, World Bank Digital Adoption Index, 0–1) positively moderate the I→P relationship?
-
-**RQ4 (DPL phase):** Does Digital Platform Lifecycle (DPL) phase (1 = pre-2000, 2 = 2000–2009, 3 = 2010–2026) moderate the baseline I→P effect, with Phase 3 showing a different pattern than Phases 1–2?
-
----
-
-## 4. Hypotheses
-
-**H1 (ICRV between-regime):** The I→P effect size varies significantly across ICRV regime groups (*Q*_M test on between-regime variance is significant).
-
-**E1a (ICRV directional — exploratory):** Advanced-regime firms show the largest baseline I→P effect; Frontier-regime firms show the smallest effect (monotone gradient).
-
-**E1b (ICRV turning point — exploratory):** ICRV TP gradient: Frontier-regime TP > Advanced-regime TP (Frontier firms require greater internationalization before performance improves).
-
-**H2 (DPL phase):** DPL Phase 3 (post-2009) studies show a larger I→P effect than Phase 1 or Phase 2 studies, consistent with digital platform maturation accelerating internationalization payoffs.
-
-**H3 (cDAI moderation):** cDAI positively moderates the I→P relationship: studies from countries with higher digital adoption (higher cDAI) report larger positive I→P effects.
-
----
-
-## 5. Eligibility Criteria (PICOS Framework)
-
-### 5.1 Inclusion
-
-| PICOS Element | Criterion |
-|---|---|
-| **P** (Population) | Firm-level unit of analysis; any country or multi-country sample |
-| **I** (Intervention) | Internationalization measure: FSTS, DOI, export intensity, geographic diversification, number of foreign subsidiaries, FATA, or equivalent |
-| **C** (Comparison) | Domestic-only firms or lower-internationalization baseline (implicit or explicit) |
-| **O** (Outcome) | Firm performance: financial (ROA, ROE, ROS, Tobin's Q, sales growth) or operational (labor productivity, TFP, efficiency) |
-| **S** (Study design) | Quantitative, peer-reviewed journal article; reports Pearson *r*, standardized *β*, *t*-value, *F*-statistic (*df* = 1), or odds ratio convertible to *r* |
-
-### 5.2 Exclusion
-
-| Criterion | Reason |
-|---|---|
-| Country-level or macro-level unit of analysis | Unit mismatch |
-| Qualitative, conceptual, or review-only (no quantitative I→P coefficient) | No extractable effect size |
-| Health, environmental, or non-IB disciplinary context | Out of scope |
-| Book chapter, dissertation, conference paper, working paper (no DOI, not peer-reviewed) | Publication quality |
-| Duplicate of existing k = 287 coded database (exact DOI match or >90% title similarity + same year) | Deduplication |
-| Insufficient statistics to compute *r* (e.g., only reports direction without magnitude) | Effect size cannot be extracted |
-
----
-
-## 6. Search Strategy
-
-### 6.1 Web of Science (Primary Database)
-
-**Platform:** Web of Science Core Collection  
-**Access:** Institutional (Can Tho University) + WoS Starter API (free tier)  
-**Date range:** 1977–2026  
-**Document types:** Article only (exclude Review, Book Chapter, Proceedings, Editorial)  
-**Language:** English  
-
-**Search string (Advanced Search — Topic field):**
+**Supplementary query string (WoS Topic field):**
 ```
-TS=(internationaliz* OR internationalis* OR multinationality 
-    OR "degree of internationalization" OR "degree of internationalisation"
-    OR "international diversification" OR "geographic diversification"
-    OR "foreign sales" OR "foreign sales to total sales" OR FSTS
-    OR "foreign assets" OR "foreign assets to total assets" OR FATA
-    OR "export intensity" OR "export scope" OR "export ratio"
+TS=(internationaliz* OR internationalis* OR multinationality OR "degree of internationalization"
+    OR "international diversification" OR "geographic diversification" OR "foreign sales" OR FSTS
+    OR "foreign assets" OR FATA OR "export intensity" OR "export scope" OR "export ratio"
     OR "foreign market entry" OR "foreign subsidiaries")
-AND 
-TS=("firm performance" OR "enterprise performance" OR "corporate performance"
-    OR "financial performance" OR "business performance"
-    OR "labor productivity" OR "labour productivity" OR profitability 
-    OR "Tobin's q" OR "return on assets" OR ROA OR "return on equity"
-    OR "return on sales" OR "total factor productivity" OR "firm efficiency")
-AND
-TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
+AND TS=("firm performance" OR "enterprise performance" OR "corporate performance" OR "financial performance"
+    OR "business performance" OR "labor productivity" OR "labour productivity" OR profitability
+    OR "Tobin's q" OR "return on assets" OR ROA OR "return on equity" OR "return on sales"
+    OR "total factor productivity" OR "firm efficiency")
+AND TS=(correlation OR regression OR coefficient OR "effect size" OR "r =")
 ```
+An equivalent Scopus `TITLE-ABS-KEY` string with `DOCTYPE(ar) AND LANGUAGE(english) AND PUBYEAR AFT 1976` is applied. These queries are used to supplement and cross-check the citation-anchored corpus, not as an exhaustive census.
 
-### 6.2 Scopus (Secondary Database)
+## 6. Screening protocol
+The **two authors** independently apply the eligibility criteria in two stages, (L1) title/abstract and (L2) full text, resolving disagreements by discussion following a predetermined rule. Decisions and exclusion reasons are logged for the PRISMA 2020 flow diagram ("studies identified via other methods" variant).
 
-**Platform:** Scopus (Elsevier)  
-**Access:** CTU campus network (IP-restricted)  
-**Date range:** 1977–2026  
-**Status:** Pending — blocked by IP restriction outside campus network
+## 7. Data extraction & coding
+**Effect-size priority order:** (1) Pearson r (as-is); (2) standardized β đến r_partial = β × 0.98 (Peterson & Brown, 2005); (3) t with N đến r = √[t²/(t²+df)] (Cohen, 1988); (4) F with df₁ = 1 đến r = √[F/(F+df₂)] (Rosenthal, 1994). For multiple effects per study, distinct subsamples are coded as independent effects; for multiple specifications on one sample, the most fully controlled model is retained.
 
-**Search string (TITLE-ABS-KEY):**
-```
-TITLE-ABS-KEY((internationaliz* OR internationalis* OR multinationality
-    OR "degree of internationalization" OR "foreign sales" OR FSTS
-    OR "export intensity" OR "foreign subsidiaries")
-AND ("firm performance" OR "financial performance" OR profitability
-    OR "Tobin's q" OR "return on assets" OR ROA OR "labor productivity")
-AND (correlation OR regression OR coefficient))
-AND DOCTYPE(ar) AND LANGUAGE(english) AND PUBYEAR AFT 1976
-```
+**Moderator coding (aligned to the final manuscript):**
 
-### 6.3 OpenAlex (Supplementary — Free, Open Access)
-
-**Script:** `p6/tools/openalex_prisma_search.py`  
-**Date range:** 1977–2026  
-**Filter:** peer_reviewed = true, type = journal-article
-
-### 6.4 WoS Starter API (Supplementary Search — Completed)
-
-**Script:** `p6/tools/06_wos_api_search.py`  
-**Run date:** 2026-05-18  
-**Records retrieved:** 782 (max_records = 2500)  
-**Output:** `p6/tools/results/wos_api_20260518.csv`
-
----
-
-## 7. Screening Protocol
-
-### 7.1 Level 1 Screening (Title/Abstract)
-
-- **Tool:** `p6/tools/04_screen_l1.py` (automated) + manual review of UNSURE
-- **Decision rules:**
-  - **INCLUDE** → passes title/abstract for L2
-  - **EXCLUDE** → discarded with reason logged
-  - **UNSURE** → manual review by lead author
-
-### 7.2 Level 2 Screening (Full-Text)
-
-- **Template:** `p6/tools/results/l2_extraction_template.csv`
-- **Codebook:** `p6/tools/p6_extraction_codebook.md` (v1.0, 2026-05-18)
-- **Decision fields:** `include_flag` (Y / N / UNSURE), `screen_l2_reason`
-- **Discrepancies:** resolved by consensus or third-party adjudication
-
----
-
-## 8. Data Extraction and Coding Protocol
-
-### 8.1 Effect Size Extraction (Priority Order)
-
-| Priority | Source statistic | Conversion formula |
+| Moderator | Variable | Coding |
 |---|---|---|
-| 1 | Pearson *r* (direct) | *r* used as-is |
-| 2 | Standardized *β* | *r* ≈ *β* / √(*β*² + 1) |
-| 3 | *t*-value + *N* | *r* = *t* / √(*t*² + *N* − 2) |
-| 4 | *F*-statistic (*df* = 1) + *N* | *r* = √(*F* / (*F* + *N* − 2)) |
-| 5 | Quadratic term (nonlinear studies) | Extract β₁ (linear) and β₂ (quadratic) + TP = −β₁/(2β₂) |
+| **ICRV — Institutional Context Regime Variation** | `icrv` | 5 regimes from World Bank WGI Rule of Law (2023): **I** Advanced-Innovation (WGI > +0.80); **II** Upper-Middle (0 to +0.80); **III** Emerging (−0.50 to 0); **FR** Frontier/SIDS (≤ −0.50 or small-island state); **MX** Multi-country pooled (no modal regime ≥ 60%) |
+| **cDAI — country Digital Adoption Index** | `cdai` | Continuous 0–1: World Bank Digital Adoption Index (2016; Sahay et al., 2020), or ITU Digital Development Index rescaled; assigned by the study's **median data year** |
+| **DPL — Digital Paradox Lifecycle phase** | `dpl` | **Precede** (median data year < 2009); **Span** (2005–2014, or unclassifiable); **Follow** (median data year ≥ 2015) |
+| Internationalization measure | `doi_type` | FSTS / geographic-diversification / export-ratio / composite / FDI / other |
+| Performance measure | `fp_type` | accounting / market / labour-productivity / mixed |
+| Effect-size estimation | `is_estimated` | 1 = converted from t/F/β; 0 = directly reported r |
 
-**Reference:** Borenstein et al. (2009) *Introduction to Meta-Analysis*, Appendix B
+**Inter-coder reliability:** a 20% stratified subsample (by ICRV regime, DPL phase, DOI type) is independently double-coded; **Cohen's κ ≥ 0.70** for categorical moderators and **ICC(2,1) ≥ 0.80** for continuous cDAI; disagreements resolved by PI adjudication.
 
-### 8.2 Moderator Coding
+## 8. Statistical analysis plan
+**Software:** R (≥ 4.3), `metafor` (Viechtbauer, 2010). All r are Fisher-z transformed for analysis and back-transformed for reporting.
 
-| Moderator | Variable name | Coding |
-|---|---|---|
-| Institutional Context-Resource Vulnerability | `icrv` | Integer 1–6 (1=Advanced, 2=Upper-Middle, 3=Lower-Middle, 4=Frontier, 5=SIDS, 6=LDC) |
-| Country Digital Adoption Index | `cdai` | Continuous 0–1 (World Bank Digital Adoption Index, or nearest available proxy) |
-| cDAI source | `cdai_source` | "WB_DAI", "ITU", "estimated", "missing" |
-| Digital Platform Lifecycle phase | `dpl` | Integer 1/2/3 (1=pre-2000, 2=2000–2009, 3=2010–2026, based on publication year) |
-| Internationalization measure type | `doi_type` | "FSTS", "DOI", "export_ratio", "geographic_diversification", "other" |
-| Performance measure type | `fp_type` | "ROA", "ROE", "ROS", "Tobin_Q", "labor_productivity", "TFP", "sales_growth", "other" |
-| Effect size estimation method | `is_estimated` | Binary (1 = converted from t/F/β; 0 = directly reported Pearson r) |
-| Panel data | `is_panel` | Binary (1 = panel/longitudinal; 0 = cross-sectional) |
-| Endogeneity correction | `endogeneity_corrected` | Binary (1 = IV/2SLS/Heckman/GMM; 0 = OLS/FE only) |
-
-### 8.3 Inter-Coder Reliability
-
-- **Subsample:** 20% of included studies, stratified by DPL phase and ICRV regime
-- **Coders:** Đỗ Thùy Hương (lead) + one independent coder (advisor or research assistant)
-- **Thresholds:** Cohen's κ ≥ 0.70 for categorical variables; ICC ≥ 0.80 for continuous variables
-- **Resolution:** Consensus meeting for all disagreements; adjudication by third party if consensus fails
-
----
-
-## 9. Statistical Analysis Plan
-
-### 9.1 Primary Analysis — Three-Level MARA
-
-**Software:** R (version ≥ 4.3), `metafor` package (Viechtbauer, 2010)
-
+**Baseline three-level model** (effects nested in studies):
 ```r
-library(metafor)
-
-# Effect size calculation
-dat <- escalc(measure = "COR", ri = r, ni = n, data = coded_db)
-
-# Three-level random-effects model (baseline)
-res_base <- rma.mv(
-  yi, vi,
-  random = ~ 1 | study_id / effect_id,
-  data = dat,
-  method = "REML"
-)
-
-# Key outputs:
-# - Pooled effect r̄ [95% CI], p-value
-# - σ²(2) within-study variance, σ²(3) between-study variance
-# - I² total, I²(2), I²(3)
-# - Q_E (residual heterogeneity), Q_M (moderator test)
+dat <- escalc(measure="COR", ri=r, ni=n, data=db)
+res <- rma.mv(yi, vi, random = ~ 1 | study_id/effect_id, data=dat, method="REML")
+# Outputs: pooled r̄ [95% CI]; σ²(2), σ²(3); I² total, I²(2), I²(3); Q_E, Q_M
 ```
-
-### 9.2 Moderator Analyses
-
+**Moderator tests** (Q_M omnibus; Holm–Bonferroni for pairwise ICRV):
 ```r
-# M2: ICRV regime (H1)
-res_icrv <- rma.mv(yi, vi, mods = ~ factor(icrv),
-  random = ~ 1 | study_id / effect_id, data = dat)
-
-# M3: cDAI continuous (H3)
-res_cdai <- rma.mv(yi, vi, mods = ~ cdai,
-  random = ~ 1 | study_id / effect_id, data = dat)
-
-# M4: DPL phase (H2)
-res_dpl <- rma.mv(yi, vi, mods = ~ factor(dpl),
-  random = ~ 1 | study_id / effect_id, data = dat)
-
-# M5: Internationalization measure type (exploratory)
-res_doi_type <- rma.mv(yi, vi, mods = ~ doi_type,
-  random = ~ 1 | study_id / effect_id, data = dat)
-
-# M6: Performance measure type (exploratory)
-res_fp_type <- rma.mv(yi, vi, mods = ~ fp_type,
-  random = ~ 1 | study_id / effect_id, data = dat)
+rma.mv(yi, vi, mods = ~ factor(icrv), random = ~ 1|study_id/effect_id, data=dat)  # H1
+rma.mv(yi, vi, mods = ~ factor(dpl),  random = ~ 1|study_id/effect_id, data=dat)  # H2
+rma.mv(yi, vi, mods = ~ cdai,         random = ~ 1|study_id/effect_id, data=dat)  # H3
 ```
+**Publication bias (H4):** Egger's regression; Begg & Mazumdar rank correlation; Duval & Tweedie trim-and-fill; Orwin fail-safe N; PET-PEESE.
+**Sensitivity / robustness:** two-level vs three-level comparison; leave-one-out (Cook's distance > 4/k); FSTS-only restriction; ICRV reclassified on the WGI composite governance index; post-2000 temporal restriction; directly-reported-r-only restriction.
 
-### 9.3 Publication Bias
+## 9. Reporting standards
+PRISMA 2020 (Page et al., 2021) full flow diagram; APA Meta-Analysis Reporting Standards (Cooper, 2010); forest + funnel plots.
 
-```r
-# Egger's regression test
-regtest(rma(yi, vi, data = dat), model = "rma")
+## 10. Data availability
+- Coded study database: `p6/data/p6_study_database.csv` (288 effects, 238 studies).
+- Analysis scripts: `p6/tools/meta_r_scripts/` and `p6/replication/` (GitHub).
+- Extraction tool: M-AIDA (`p6/tools/maida/`) — LLM-assisted extraction under 100% PI verification + data lock (disclosed in the manuscript's AI-use statement).
+- PRISMA checklist: `p6/p6_prisma_checklist.md`.
 
-# Trim-and-fill
-taf <- trimfill(rma(yi, vi, data = dat))
-funnel(taf, legend = TRUE)
-```
-
-### 9.4 Sensitivity Analyses
-
-```r
-# Leave-one-out
-loo <- leave1out(res_base)
-
-# Alternative estimator comparison: REML vs DerSimonian-Laird
-res_dl <- rma(yi, vi, method = "DL", data = dat)
-
-# Restriction to directly-reported Pearson r only (no conversions)
-res_direct <- rma.mv(yi, vi,
-  random = ~ 1 | study_id / effect_id,
-  data = dat[dat$is_estimated == 0, ])
-
-# Restriction to panel data only
-res_panel <- rma.mv(yi, vi,
-  random = ~ 1 | study_id / effect_id,
-  data = dat[dat$is_panel == 1, ])
-```
+## 11. Conflicts of interest / funding
+None declared. No specific grant from any public, commercial, or not-for-profit funding agency.
 
 ---
 
-## 10. Reporting Standards
-
-- **PRISMA 2020** (Page et al., 2021): full flow diagram with records identified, screened, eligible, and included
-- **APA Meta-Analysis Reporting Standards** (Cooper, 2010): Table 1 study characteristics, Table 2 moderator results
-- **MAAS-G** (Marsh et al., 2009): forest plot with study-level estimates and CIs
-
----
-
-## 11. Timeline
-
-| Milestone | Target date |
-|---|---|
-| OSF pre-registration submitted | 2026-05-19 (or earliest available) |
-| L2 full-text screening complete | 2026-06-15 |
-| Inter-coder reliability computed | 2026-06-20 |
-| Database merge + MARA re-run | 2026-06-30 |
-| Manuscript revision submitted to IBR | 2026-07-15 |
-
----
-
-## 12. Data Availability
-
-- Coded study database: `p6/data/p6_study_database_updated.csv` (available upon reasonable request)
-- R analysis scripts: `p6/tools/meta_r_scripts/` (GitHub repository, branch: `claude/edit-vietnamese-academic-standards-xcAmn`)
-- OSF pre-registration: this document (time-stamped after submission)
-- PRISMA 2020 checklist: `p6/p6_prisma_checklist.md`
-
----
-
-## 13. Conflicts of Interest
-
-None declared. This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
-
----
-
-## HOW TO SUBMIT THIS REGISTRATION TO OSF.IO
-
-1. Go to **https://osf.io** and sign in (create account if needed)
-2. Click **"Create a new project"** → name it: *"P6 I→P Meta-Analysis: ICRV, cDAI, DPL Moderators"*
-3. Inside the project, click **"Registrations"** tab → **"New Registration"**
-4. Choose template: **"Open-Ended Registration"** (or "Secondary Data Preregistration")
-5. Copy the content of this file into the registration form
-6. Upload this file (`P6_OSF_Preregistration_Template.md`) as an attachment
-7. **Submit** — OSF will timestamp and lock the registration
-8. Copy the registration URL (e.g., `https://osf.io/xxxxx`) 
-9. Send the URL to Claude for insertion into the manuscript and PRISMA checklist
-
-**Time estimate:** ~15–20 minutes to complete the form
+## How to register on OSF (≈15–20 min)
+1. Sign in at **https://osf.io** đến **Create new project**: "P6 I–P Meta-Analysis: ICRV, cDAI, DPL Moderators".
+2. Upload this file + the coded database + the R scripts to the project's **Files**.
+3. Open the **Registrations** tab đến **New registration** đến choose **"Open-Ended Registration"** (or "Preregistration") template.
+4. Paste sections 1–11 above into the form.
+5. **Submit.** OSF time-stamps and locks the registration and issues a URL + DOI (e.g., `https://osf.io/XXXXX`, `10.17605/OSF.IO/XXXXX`).
+6. Paste that URL + DOI back into:
+   - the header of this file (Status line),
+   - the manuscript Methods Mục 3 (replace "registration identifier will be inserted at acceptance"),
+   - the data-availability statement and PRISMA checklist.
+7. Because the data were already collected, tick/disclose the OSF "data already collected" option so the registration is honest.

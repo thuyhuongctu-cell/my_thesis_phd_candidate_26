@@ -1,0 +1,20 @@
+quantity,recomputed,canonical_target,source_of_canonical,match,note
+pooled_r,0.074,0.074,table1_baseline.csv,Y,Python GLS on Fisher-z reproduces canonical pooled r exactly
+pooled_r_ci_lo,0.060,0.060,table1_baseline.csv,Y,
+pooled_r_ci_hi,0.088,0.088,table1_baseline.csv,Y,
+k_studies,238,238,table1_baseline.csv,Y,unique study_id in forest_data.csv (and include_flag==1 in p6_study_database.csv)
+K_effects,288,288,table1_baseline.csv,Y,effect rows in forest_data.csv
+I2_total,87.8,62.4,table1_baseline.csv,N,EXPECTED divergence: Python REML variance-component differs from R metafor rma.mv; canonical I2 comes from R metafor (not re-runnable here)
+I2_between,11.8,8.4,table1_baseline.csv,N,same divergence cause as I2_total
+I2_within,76.1,54.1,table1_baseline.csv,N,same divergence cause as I2_total
+Q_total,n/a,1909.42,table1_baseline.csv,N/A,Python script does not emit Q_total; canonical Q from R metafor
+Q_M_icrv,17.35,17.35,manuscript/CANONICAL_NUMBERS_P6.md,Y,moderation Wald Q_M (df=4 p=.002) reproduced exactly
+Q_M_cdai,1.23,1.23,manuscript/CANONICAL_NUMBERS_P6.md,Y,df=2 p=.541
+Q_M_dpl,0.56,0.62,manuscript/CANONICAL_NUMBERS_P6.md,N,minor divergence (0.56 vs 0.62); same estimator-difference cause; both non-significant (p>.7)
+icrv_r_I,0.045,0.079,table2_icrv.csv,N,subgroup inverse-variance pooled r differs from R metafor BLUPs
+icrv_r_II,0.052,0.065,table2_icrv.csv,N,
+icrv_r_III,-0.007,0.069,table2_icrv.csv,N,
+icrv_r_FR,0.399,0.349,table2_icrv.csv,N,
+icrv_r_MX,0.049,0.053,table2_icrv.csv,N,
+egger_p,0.007,0.057,manuscript,N,EXPECTED divergence documented in script header
+trim_fill_imputed,10,57,manuscript,N,EXPECTED divergence documented in script header

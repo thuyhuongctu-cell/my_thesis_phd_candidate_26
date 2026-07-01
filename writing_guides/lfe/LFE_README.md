@@ -76,7 +76,7 @@ No reliance on chat context. The graph below mirrors `.docs/protocol/ASSEMBLY_LI
 <summary><b>Click to expand — coordination layer, bypass routes, and persona tool-locking</b></summary>
 
 **Coordination layer.** Each skill writes to a file in `.plans/` and the next skill reads it:
-`01_grill_summary.md` → `02_prd.md` → `03_slices.md` → `active_plan.md` → `tdd_report.md` → `inspection_report.md`. If a session crashes, the files remain and `lfe-boot` resumes from the last step.
+`01_grill_summary.md` to `02_prd.md` to `03_slices.md` to `active_plan.md` to `tdd_report.md` to `inspection_report.md`. If a session crashes, the files remain and `lfe-boot` resumes from the last step.
 
 **Bypass routes** — when the full pipeline is overkill:
 
@@ -93,12 +93,12 @@ Personas are **tool-locked**: the Architect cannot edit code, the Builder cannot
 
 When an AI agent (or a human teammate) opens an LFE repo, it asks the same **six questions** every time. The framework answers each one with a dedicated file — so context is *looked up*, never guessed:
 
-1. **Who am I right now?** → my persona contract.
-2. **What step am I on, what's next?** → the live pipeline cursor.
-3. **What's in active working memory?** → the current mission's plan files.
-4. **What's already true in this codebase?** → the documentation library.
-5. **What am I forbidden from doing?** → the IDE rule files and governance.
-6. **How should I write what I write?** → the format contracts.
+1. **Who am I right now?** to my persona contract.
+2. **What step am I on, what's next?** to the live pipeline cursor.
+3. **What's in active working memory?** to the current mission's plan files.
+4. **What's already true in this codebase?** to the documentation library.
+5. **What am I forbidden from doing?** to the IDE rule files and governance.
+6. **How should I write what I write?** to the format contracts.
 
 **Two boundary rules** close the loop:
 
@@ -115,7 +115,7 @@ When an AI agent (or a human teammate) opens an LFE repo, it asks the same **six
 | :-- | :--- | :--- |
 | 1 | **Identity** — *Who am I right now?* | `.docs/protocol/PERSONAS.md` — tool-locked persona contracts |
 | 2 | **Process** — *What step am I on, what's next?* | `pipeline_status.md` (live cursor) + `.docs/protocol/ASSEMBLY_LINE.md` (reference) + the active `.agents/skills/<name>/SKILL.md` |
-| 3 | **State** — *What is the active mission's working memory?* | `.plans/` — numbered coordination files (`01_grill_summary.md` → `02_prd.md` → `03_slices.md` → `active_plan.md` → `tdd_report.md` → `inspection_report.md`) |
+| 3 | **State** — *What is the active mission's working memory?* | `.plans/` — numbered coordination files (`01_grill_summary.md` to `02_prd.md` to `03_slices.md` to `active_plan.md` to `tdd_report.md` to `inspection_report.md`) |
 | 4 | **Knowledge** — *What is already true in this codebase?* | `.docs/` library — start at `.docs/README.md` (the floor map); canonical terms in `CONTEXT.md` (repo root); ADRs in `.docs/architecture/`; domain logic in `.docs/domain/` |
 | 5 | **Rules** — *What am I forbidden from doing?* | `.docs/protocol/GOVERNANCE.md` + the IDE adapter files (`.cursorrules`, `.antigravityrules`, `.windsurfrules`, `.clinerules`) + `.github/copilot-instructions.md` |
 | 6 | **Format** — *How should I write what I write?* | Schema contracts: `lfe-grill-with-docs/CONTEXT-FORMAT.md`, `lfe-grill-with-docs/ADR-FORMAT.md`, plus convention docs in `lfe-tdd/` and `lfe-improve-architecture/` |
@@ -138,7 +138,7 @@ When an AI agent (or a human teammate) opens an LFE repo, it asks the same **six
 
 ## What LFE buys you
 
-### **💰 Cost & efficiency · ✅ Quality & correctness · 🛡️ Resilience & scale**
+### **💰 Cost & efficiency · Quality & correctness · 🛡️ Resilience & scale**
 
 | **Lower token cost** | **No hallucinated logic** | **Crash-safe resume** |
 | :---: | :---: | :---: |
@@ -183,7 +183,7 @@ Both categories produce broken architecture by opposite paths. LFE supplies the 
    - `.cursorrules` / `.windsurfrules` / `.clinerules` / `.antigravityrules` — IDE adapters.
    - `.plans/` — empty by default; populated per session as the transaction log.
 3. **Boot LFE** — run `/lfe-boot` at the start of every session. The boot skill orients the agent, checks for an interrupted session, and offers the **Complexity Gate**: full pipeline for major changes, `/lfe-scout` for minor fixes.
-4. **Run one feature end-to-end** — Architect → Builder → Inspector → Archivist. One change per session. No parallel pipelines.
+4. **Run one feature end-to-end** — Architect to Builder to Inspector to Archivist. One change per session. No parallel pipelines.
 
 > [!IMPORTANT]
 > **Operational discipline.** Quality over quantity. **One change per session, one pipeline at a time.** Parallel pipelines defeat the file-based coordination model.

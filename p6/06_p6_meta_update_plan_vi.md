@@ -22,9 +22,9 @@ Bài "Internationalization and firm performance: A meta-analysis review" đượ
 
 ### 0.4 Mốc 4 — P6 update cho luận án (2026, hiện tại)
 
-- **Coverage**: 1977–2022 → 1982–2026.
+- **Coverage**: 1977–2022 đến 1982–2026.
 - **Pool**: 113 baseline + bổ sung (ước lượng tham khảo ~130–172, MASTER ~269; **không bắt buộc phải đạt**).
-- **Method**: random-effects pooled → **three-level MARA** với nested effect sizes.
+- **Method**: random-effects pooled đến **three-level MARA** với nested effect sizes.
 - **Moderators mới**: **cDAI**, **ICRV 5-regime**, **DPL phase** (đây là đóng góp chính).
 - **Software**: chuyển từ MetaEssentials sang `metafor` (R) hoặc `pymetaR` (Python).
 
@@ -75,7 +75,7 @@ Giữ nguyên 7 tiêu chí include + 6 tiêu chí exclude.
 
 ### Gap 1: country-level Digital Adoption (cDAI) moderator
 
-**Country-level digital adoption (cDAI)** — proxied bằng World Bank Digital Adoption Index hoặc ITU Digital Development Index — chưa từng được kiểm định meta-analytic như country-level moderator của quan hệ I→P, dù Bhandari et al. (2023) chứng minh resource-orchestration interaction ở firm level và Verhoef et al. (2021) đặt nền cho phân tầng năng lực số (digitization → digitalization → digital transformation). cDAI tương ứng tier "digitalization" trong Verhoef framework, khác với firm-level technological capability (TCI) theo truyền thống Lall (1992) và Cohen & Levinthal (1990). P6 là meta đầu tiên kiểm định cDAI ở cấp quốc gia (Bharadwaj et al., 2013; Bhandari et al., 2023; Bustamante et al., 2022; Chen & Meng, 2022; Verhoef et al., 2021).
+**Country-level digital adoption (cDAI)** — proxied bằng World Bank Digital Adoption Index hoặc ITU Digital Development Index — chưa từng được kiểm định meta-analytic như country-level moderator của quan hệ I–P, dù Bhandari et al. (2023) chứng minh resource-orchestration interaction ở firm level và Verhoef et al. (2021) đặt nền cho phân tầng năng lực số (digitization đến digitalization đến digital transformation). cDAI tương ứng tier "digitalization" trong Verhoef framework, khác với firm-level technological capability (TCI) theo truyền thống Lall (1992) và Cohen & Levinthal (1990). P6 là meta đầu tiên kiểm định cDAI ở cấp quốc gia (Bharadwaj et al., 2013; Bhandari et al., 2023; Bustamante et al., 2022; Chen & Meng, 2022; Verhoef et al., 2021).
 
 ### Gap 2: Asian institutional heterogeneity
 
@@ -116,7 +116,7 @@ Mô hình ba cấp:
 
 Theo Cheung (2014) và Van den Noortgate et al. (2013), `metafor` package R.
 
-### 5.2 Moderators ưu tiên (giảm từ 11 → 7)
+### 5.2 Moderators ưu tiên (giảm từ 11 đến 7)
 
 **Core 3 (mới, bắt buộc)**: ICRV regime, cDAI level, DPL phase.
 
@@ -147,7 +147,7 @@ Bỏ bớt cho versión dễ thuức hiện: sample size, publication year, digi
 - ~3–4 tuần nếu có RA giúp; 5–6 tuần nếu solo
 - **Inter-coder reliability**: double-code 20% subset, tính Cohen's $\kappa \geq 0.7$
 
-### Tuần 7–8: Convert MetaEssentials → `metafor`
+### Tuần 7–8: Convert MetaEssentials đến `metafor`
 
 - Re-run baseline analysis trong R (`metafor::rma.mv`)
 - Confirm consistency với 2023 results
@@ -176,7 +176,7 @@ Lấy `P6_OSF_Preregistration_Template.md`, fill ngay với:
 - Search strategy (28 queries đã thiết kế)
 - Coding protocol (3 moderator mới)
 - Analysis plan (three-level MARA, moderator subgroups)
-- Submit ngay khi bắt đầu phân tích → lock hypotheses trước khi extract effect sizes mới
+- Submit ngay khi bắt đầu phân tích đến lock hypotheses trước khi extract effect sizes mới
 
 ## 7. Đóng góp kỳ vọng (không đổi)
 

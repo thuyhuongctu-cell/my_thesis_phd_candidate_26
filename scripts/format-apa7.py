@@ -25,12 +25,8 @@ MANUSCRIPT_PATTERNS = [
     "p5/versions/apjm/manuscript_v1_8_blinded_part2_theory.md",
     "p5/versions/apjm/manuscript_v1_8_blinded_part3_data_methods.md",
     "p5/versions/apjm/manuscript_v1_8_blinded_part4_results.md",
-    "chuyen_de/cd1/14_cd1_part1_intro_theory_vi.md",
-    "chuyen_de/cd1/15_cd1_part2_findings_vi.md",
-    "chuyen_de/cd1/16_cd1_part3_cases_conclusion_vi.md",
-    "chuyen_de/cd2/17_cd2_part1_intro_theory_vi.md",
-    "chuyen_de/cd2/18_cd2_part2_review_framework_hypotheses_vi.md",
-    "chuyen_de/cd2/19_cd2_part3_models_data_conclusion_vi.md",
+    "chuyen_de/cd1/00_cd1_ctu_final_vi.md",
+    "chuyen_de/cd2/00_cd2_ctu_final_vi.md",
     "p6/21_p6_meta_vi.md",
 ]
 

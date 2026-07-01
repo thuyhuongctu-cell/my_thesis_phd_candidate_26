@@ -1,0 +1,8 @@
+# Local Claude Code runtime/settings (machine-specific, do not commit)
+.claude/
+
+# Scratch / temp files
+*.tmp
+.tmp_*
+.scout_*
+_scout_*

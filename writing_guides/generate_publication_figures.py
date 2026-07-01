@@ -370,68 +370,79 @@ def p7_conceptual_model():
               frameon=True, edgecolor='black')
     save(fig, os.path.join(fig_dir('p7'), 'figure_1_conceptual_model.png'))
 
+def _load_p7_canonical():
+    """Canonical P7 50-economy results (incl. Japan), keyed by model/regime name.
+    Source: data_wbes/analysis/p7_50econ_models.csv (scripts/p7_run_50econ.py);
+    confirmed by scripts/verify_all.py (14/14). Replaces the legacy 84,910-sample
+    p7_R_turning_points.csv (see p7/replication/results/DEPRECATED.md)."""
+    path = 'data_wbes/analysis/p7_50econ_models.csv'
+    rows = {}
+    with open(path, newline='', encoding='utf-8') as f:
+        for r in csv.DictReader(f):
+            rows[r['model']] = r
+    return rows
+
+
 def p7_icrv_gradient():
-    # P7 actual turning points by ICRV regime from p7_R_turning_points.csv
-    # M6 country FE: overall TP=40.4%
-    # By ICRV subgroup (tp_raw from csv):
-    icrv_data = {
-        'Advanced\nInnovation': (0.934, -1.071, 56.6, 'black',   'solid'),
-        'Emerging':             (2.026, -2.995, 43.9, '#444444', 'dashed'),
-        'Lower-mid\nTransition':(3.130, -4.413, 44.5, '#777777', 'dashdot'),
-        'Upper-mid':            (-0.107, -0.798, 5.5, '#aaaaaa', 'dotted'),
-    }
-    # Note: SIDS_small shows U-shape (FIP), not inverted-U
+    # P7 per-ICRV turning points — CANONICAL (read live so it stays in sync)
+    rows = _load_p7_canonical()
+    regimes = [
+        ('Advanced_innovation',    'Advanced\nInnovation (I)',      'black'),
+        ('Advanced_resource',      'Advanced\nResource (II)',       '#333333'),
+        ('Upper_mid',              'Upper-mid (III)',               '#666666'),
+        ('Lower_mid_transition',   'Lower-mid\nTransition (IV)',    '#999999'),
+        ('Emerging',               'Emerging (V)',                  '#bbbbbb'),
+    ]
+    icrv_data = {}
+    for key, label, col in regimes:
+        r = rows[key]
+        icrv_data[label] = (float(r['b1']), float(r['b2']), float(r['TP_pct']), col)
+    overall_tp = float(rows['M5 (+ controls, FE)']['TP_pct'])   # main model
+    m2_tp = float(rows['M2 (FSTS + FSTS^2, FE)']['TP_pct'])
+    # Note: SIDS_small shows U-shape (FIP), not inverted-U → plotted in P8 figures
 
     fig, axes = plt.subplots(1, 2, figsize=(13, 5))
 
     # Panel A: Inverted-U by ICRV regime
     ax = axes[0]
-    for regime, (b1, b2, tp, col, ls) in icrv_data.items():
+    for regime, (b1, b2, tp, col) in icrv_data.items():
         inverted_u_curve(ax, b1, b2, fsts_range=(0, 0.9),
                          label=f'{regime.replace(chr(10), " ")} (TP≈{tp:.0f}%)',
-                         color=col, ls=ls, lw=1.8, tp_label=False)
-
-    # Add vertical TP indicators
-    tps = [56.6, 43.9, 44.5]
-    cols = ['black', '#444444', '#777777']
-    for tp, col in zip(tps, cols):
-        ax.axvline(tp, color=col, ls=':', lw=0.7, alpha=0.5)
-
+                         color=col, ls='solid', lw=1.8, tp_label=False)
     ax.set_xlabel('Export Intensity — FSTS (%)', fontsize=11)
     ax.set_ylabel('Δ ln Labor Productivity (centered)', fontsize=11)
-    ax.set_title('Panel A. I-P Curves by ICRV Regime\n(P7 Multi-country, M6 country FE)', fontsize=10)
+    ax.set_title('Panel A. I-P Curves by ICRV Regime\n(P7 50-economy frame incl. Japan, two-way FE)', fontsize=10)
     ax.axhline(0, color='#cccccc', lw=0.8)
     ax.set_xlim(0, 90)
     ax.legend(loc='upper right', frameon=True, edgecolor='black', fontsize=8)
     ax.text(0.02, 0.03,
-            'Note: Upper-mid regime shows low b₁, suggesting minimal positive range.\n'
+            'Note: Group-level curvature is significant for IV (and II at the margin);\n'
+            'I and III turning points lie near/outside the observed range.\n'
             'SIDS regime (FIP) plotted separately in P8 figures.',
             transform=ax.transAxes, fontsize=7, color='#555555')
 
-    # Panel B: TP summary bar chart by regime
+    # Panel B: TP summary bar chart by regime + overall main model
     ax2 = axes[1]
-    regimes = ['Advanced\nInnovation\n(Regime I)', 'Emerging\n(Regime II)',
-               'Lower-mid\nTransition\n(Regime III)', 'Upper-mid\n(Regime II-III)', 'Overall\nM6']
-    tp_vals = [56.6, 43.9, 44.5, 5.5, 40.4]
-    bar_cols = ['black', '#444444', '#777777', '#aaaaaa', '#333333']
-    bars = ax2.bar(range(len(regimes)), tp_vals,
-                   color=bar_cols, edgecolor='black', width=0.6)
-    ax2.set_xticks(range(len(regimes)))
-    ax2.set_xticklabels(regimes, fontsize=8)
+    labels = [lab.replace(chr(10), ' ') for lab in icrv_data] + ['Overall\n(M5 main)']
+    tp_vals = [v[2] for v in icrv_data.values()] + [overall_tp]
+    bar_cols = [v[3] for v in icrv_data.values()] + ['#1A5276']
+    bars = ax2.bar(range(len(labels)), tp_vals, color=bar_cols, edgecolor='black', width=0.65)
+    ax2.set_xticks(range(len(labels)))
+    ax2.set_xticklabels(labels, fontsize=7.5, rotation=20, ha='right')
     ax2.set_ylabel('Turning Point — FSTS (%)', fontsize=11)
     ax2.set_title('Panel B. Institutional Gradient:\nTurning Points by ICRV Regime', fontsize=10)
-    ax2.set_ylim(0, 80)
+    ax2.set_ylim(0, 90)
     for bar, tp in zip(bars, tp_vals):
-        ax2.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1,
+        ax2.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 1,
                  f'{tp:.1f}%', ha='center', va='bottom', fontsize=8)
     ax2.text(0.02, 0.03,
-            'Note: TP declines as institutional quality decreases (Regimes I→III).\n'
-            'Upper-mid TP near zero reflects b₁ ≈ 0 (weak linear component).\n'
-            'Source: P7 multi-country WBES, R replication (p7_R_turning_points.csv).',
+            'Note: TP declines across the institutional gradient I→V (≈79%→35%).\n'
+            'Source: data_wbes/analysis/p7_50econ_models.csv (scripts/p7_run_50econ.py).',
             transform=ax2.transAxes, fontsize=7, color='#555555')
 
     fig.suptitle('Figure 2. Institutional Gradient in I-P Relationship — P7 Multi-Country Asia\n'
-                 '(N=84,910–91,982; 49 economies; country-year FE)', fontsize=10, y=1.01)
+                 f'(N=88,869; 50 economies incl. Japan; M2 TP={m2_tp:.1f}%, M5 TP={overall_tp:.1f}%; two-way FE)',
+                 fontsize=10, y=1.01)
     fig.tight_layout()
     save(fig, os.path.join(fig_dir('p7'), 'figure_2_icrv_gradient.png'))
 

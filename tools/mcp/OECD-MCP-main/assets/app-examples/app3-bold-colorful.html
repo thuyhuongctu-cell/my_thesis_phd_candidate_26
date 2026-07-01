@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OECD Productivity Comparison</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen bg-white">
+  <!-- Bold Gradient Header -->
+  <header class="bg-gradient-to-r from-teal-600 via-emerald-500 to-cyan-500 text-white py-16 px-8">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="px-4 py-1 bg-white/20 rounded-full text-sm font-semibold backdrop-blur">
+          PRODUCTIVITY DATA
+        </span>
+        <span class="px-4 py-1 bg-white/20 rounded-full text-sm font-semibold backdrop-blur">
+          2024
+        </span>
+      </div>
+      <h1 class="text-5xl font-extrabold tracking-tight mb-4">
+        GDP per Hour Worked
+      </h1>
+      <p class="text-xl text-teal-100 max-w-2xl">
+        Compare labor productivity across OECD countries — annual hours worked and economic output.
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-8 -mt-8">
+    <!-- Featured Stats -->
+    <div class="bg-white rounded-2xl shadow-2xl p-8 mb-8">
+      <div class="flex flex-wrap items-center gap-4 mb-8">
+        <span class="px-5 py-2 bg-teal-100 text-teal-700 rounded-full font-bold text-sm">
+          PDB_LV Dataset
+        </span>
+        <span class="px-5 py-2 bg-emerald-100 text-emerald-700 rounded-full font-bold text-sm">
+          38 Countries
+        </span>
+        <span class="px-5 py-2 bg-cyan-100 text-cyan-700 rounded-full font-bold text-sm">
+          Annual Data
+        </span>
+      </div>
+
+      <!-- Bar Chart Visualization -->
+      <div class="bg-white rounded-2xl p-6 mb-8">
+        <h3 class="text-lg font-bold text-slate-800 mb-4">Productivity Ranking</h3>
+        <svg class="w-full h-48" viewBox="0 0 600 160">
+          <!-- Bars -->
+          <rect x="40" y="10" width="78" height="30" rx="4" fill="url(#bar1)"/>
+          <rect x="40" y="50" width="72" height="30" rx="4" fill="url(#bar2)"/>
+          <rect x="40" y="90" width="68" height="30" rx="4" fill="url(#bar3)"/>
+          <rect x="40" y="130" width="65" height="30" rx="4" fill="url(#bar4)"/>
+
+          <!-- Country labels -->
+          <text x="35" y="30" text-anchor="end" font-size="11" fill="#64748b">🇧🇪</text>
+          <text x="35" y="70" text-anchor="end" font-size="11" fill="#64748b">🇳🇴</text>
+          <text x="35" y="110" text-anchor="end" font-size="11" fill="#64748b">🇩🇪</text>
+          <text x="35" y="150" text-anchor="end" font-size="11" fill="#64748b">🇸🇪</text>
+
+          <!-- Values -->
+          <text x="125" y="30" font-size="12" font-weight="600" fill="#0f766e">$81.4/hr</text>
+          <text x="119" y="70" font-size="12" font-weight="600" fill="#0d9488">$78.9/hr</text>
+          <text x="115" y="110" font-size="12" font-weight="600" fill="#14b8a6">$76.5/hr</text>
+          <text x="112" y="150" font-size="12" font-weight="600" fill="#2dd4bf">$74.2/hr</text>
+
+          <!-- Gradient definitions -->
+          <defs>
+            <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#0d9488"/>
+              <stop offset="100%" style="stop-color:#14b8a6"/>
+            </linearGradient>
+            <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#14b8a6"/>
+              <stop offset="100%" style="stop-color:#2dd4bf"/>
+            </linearGradient>
+            <linearGradient id="bar3" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#2dd4bf"/>
+              <stop offset="100%" style="stop-color:#5eead4"/>
+            </linearGradient>
+            <linearGradient id="bar4" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#5eead4"/>
+              <stop offset="100%" style="stop-color:#99f6e4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- Country Comparison Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Belgium -->
+        <div class="bg-gradient-to-br from-teal-50 to-emerald-50 rounded-xl p-6 border-2 border-teal-200 hover:border-teal-400 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-4xl">🇧🇪</span>
+            <div>
+              <h3 class="font-bold text-slate-800 text-lg">Belgium</h3>
+              <p class="text-sm text-slate-500">Western Europe</p>
+            </div>
+          </div>
+          <div class="text-4xl font-extrabold text-teal-600 mb-2">
+            $81.4
+            <span class="text-lg font-normal text-slate-400">/hour</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-emerald-500 font-bold">↑ 0.3%</span>
+            <span class="text-slate-400 text-sm">vs 2023</span>
+          </div>
+          <!-- Mini sparkline -->
+          <svg class="w-full h-8 mt-3" viewBox="0 0 100 20">
+            <polyline points="0,15 20,12 40,14 60,10 80,8 100,6" fill="none" stroke="#14b8a6" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Norway -->
+        <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-6 border-2 border-cyan-200 hover:border-cyan-400 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-4xl">🇳🇴</span>
+            <div>
+              <h3 class="font-bold text-slate-800 text-lg">Norway</h3>
+              <p class="text-sm text-slate-500">Nordic</p>
+            </div>
+          </div>
+          <div class="text-4xl font-extrabold text-cyan-600 mb-2">
+            $78.9
+            <span class="text-lg font-normal text-slate-400">/hour</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-emerald-500 font-bold">↑ 0.5%</span>
+            <span class="text-slate-400 text-sm">vs 2023</span>
+          </div>
+          <svg class="w-full h-8 mt-3" viewBox="0 0 100 20">
+            <polyline points="0,12 20,14 40,11 60,9 80,7 100,5" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Germany -->
+        <div class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-xl p-6 border-2 border-emerald-200 hover:border-emerald-400 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-4xl">🇩🇪</span>
+            <div>
+              <h3 class="font-bold text-slate-800 text-lg">Germany</h3>
+              <p class="text-sm text-slate-500">Western Europe</p>
+            </div>
+          </div>
+          <div class="text-4xl font-extrabold text-emerald-600 mb-2">
+            $76.5
+            <span class="text-lg font-normal text-slate-400">/hour</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-red-500 font-bold">↓ 0.2%</span>
+            <span class="text-slate-400 text-sm">vs 2023</span>
+          </div>
+          <svg class="w-full h-8 mt-3" viewBox="0 0 100 20">
+            <polyline points="0,8 20,9 40,10 60,11 80,10 100,12" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Sweden -->
+        <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-200 hover:border-blue-400 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-4xl">🇸🇪</span>
+            <div>
+              <h3 class="font-bold text-slate-800 text-lg">Sweden</h3>
+              <p class="text-sm text-slate-500">Nordic</p>
+            </div>
+          </div>
+          <div class="text-4xl font-extrabold text-blue-600 mb-2">
+            $74.2
+            <span class="text-lg font-normal text-slate-400">/hour</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-emerald-500 font-bold">↑ 0.4%</span>
+            <span class="text-slate-400 text-sm">vs 2023</span>
+          </div>
+          <svg class="w-full h-8 mt-3" viewBox="0 0 100 20">
+            <polyline points="0,14 20,13 40,12 60,10 80,8 100,7" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- United States -->
+        <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-6 border-2 border-indigo-200 hover:border-indigo-400 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-4xl">🇺🇸</span>
+            <div>
+              <h3 class="font-bold text-slate-800 text-lg">United States</h3>
+              <p class="text-sm text-slate-500">North America</p>
+            </div>
+          </div>
+          <div class="text-4xl font-extrabold text-indigo-600 mb-2">
+            $85.7
+            <span class="text-lg font-normal text-slate-400">/hour</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-emerald-500 font-bold">↑ 0.7%</span>
+            <span class="text-slate-400 text-sm">vs 2023</span>
+          </div>
+          <svg class="w-full h-8 mt-3" viewBox="0 0 100 20">
+            <polyline points="0,16 20,14 40,12 60,9 80,6 100,4" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Japan -->
+        <div class="bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl p-6 border-2 border-rose-200 hover:border-rose-400 transition-colors">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-4xl">🇯🇵</span>
+            <div>
+              <h3 class="font-bold text-slate-800 text-lg">Japan</h3>
+              <p class="text-sm text-slate-500">East Asia</p>
+            </div>
+          </div>
+          <div class="text-4xl font-extrabold text-rose-600 mb-2">
+            $52.3
+            <span class="text-lg font-normal text-slate-400">/hour</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-emerald-500 font-bold">↑ 0.1%</span>
+            <span class="text-slate-400 text-sm">vs 2023</span>
+          </div>
+          <svg class="w-full h-8 mt-3" viewBox="0 0 100 20">
+            <polyline points="0,12 20,11 40,12 60,10 80,10 100,9" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Banner -->
+    <div class="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 text-white mb-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>
+          <h2 class="text-2xl font-bold mb-2">Explore More OECD Data</h2>
+          <p class="text-slate-300">Access 5,000+ datasets across 17 categories via the MCP Server</p>
+        </div>
+        <div class="flex gap-3">
+          <span class="px-6 py-3 bg-teal-500 rounded-full font-bold">Economy</span>
+          <span class="px-6 py-3 bg-emerald-500 rounded-full font-bold">Health</span>
+          <span class="px-6 py-3 bg-cyan-500 rounded-full font-bold">Education</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-slate-500 py-8">
+    <p>Data from OECD Productivity Database via <span class="font-bold text-teal-600">OECD MCP Server</span></p>
+    <p class="mt-1">Dataset: PDB_LV • Reference Year: 2024 • SDMX API</p>
+  </footer>
+</body>
+</html>

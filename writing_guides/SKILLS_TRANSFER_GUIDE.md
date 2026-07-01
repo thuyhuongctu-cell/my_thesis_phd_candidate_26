@@ -70,12 +70,12 @@ cp skills-repo/INDEX.json ./INDEX.json
 | Skill | Dùng cho |
 |-------|---------|
 | `meta-analysis-extraction-workflow` | L2 extraction protocol, escalc() formulas |
-| `meta-analysis-internationalization-performance` | I→P specific patterns & benchmarks |
-| `meta-analysis-statistical-extraction` | Convert t/F/β → Pearson r |
+| `meta-analysis-internationalization-performance` | I–P specific patterns & benchmarks |
+| `meta-analysis-statistical-extraction` | Convert t/F/β đến Pearson r |
 | `three-level-meta-analysis` | rma.mv() R execution, moderator tests |
 | `systematic-review-meta-analysis-mcp` | PRISMA workflow automation |
 | `prisma-meta-analysis` | PRISMA 2020 compliance checklist |
-| `prisma-meta-analysis-internationalization` | I→P PRISMA search strings |
+| `prisma-meta-analysis-internationalization` | I–P PRISMA search strings |
 | `prisma-systematic-review-workflow` | Step-by-step screening workflow |
 | `wos-api-restricted-server` | WoS API queries |
 | `wos-meta-analysis-extraction` | WoS-specific extraction |
@@ -135,7 +135,7 @@ cp skills-repo/INDEX.json ./INDEX.json
 ### NHÓM E — Document Generation & Formatting
 | Skill | Dùng cho |
 |-------|---------|
-| `markdown-to-word` | Convert .md → .docx |
+| `markdown-to-word` | Convert .md đến .docx |
 | `docx-thesis-format` | CTU thesis formatting |
 | `chinh-sua-tai-lieu-latex-khoa-hoc` | LaTeX editing cho bài báo |
 | `latex-formatting` | LaTeX tools |

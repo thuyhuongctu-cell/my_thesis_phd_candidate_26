@@ -47,6 +47,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -92,16 +93,29 @@ def build_batch_prompt(rows: list[dict]) -> str:
     return "\n".join(lines)
 
 
+# Project model resolution chain: ANTHROPIC_MODEL -> ANTHROPIC_DEFAULT_FABLE_MODEL
+# -> cheap default. NOTE: this is a bulk screener over thousands of abstracts;
+# with the project-wide Fable default the cost is ~10x Haiku. Pass
+# ANTHROPIC_MODEL=claude-haiku-4-5 for a cheap run.
+SCREENING_MODEL = (
+    os.environ.get("ANTHROPIC_MODEL")
+    or os.environ.get("ANTHROPIC_DEFAULT_FABLE_MODEL")
+    or "claude-haiku-4-5-20251001"
+)
+
+
 def call_claude_api(client, prompt: str, retries: int = 3) -> list[dict]:
     for attempt in range(retries):
         try:
             msg = client.messages.create(
-                model="claude-haiku-4-5-20251001",
+                model=SCREENING_MODEL,
                 max_tokens=1024,
                 system=SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": prompt}],
             )
-            text = msg.content[0].text.strip()
+            text = next(
+                (b.text for b in msg.content if b.type == "text"), ""
+            ).strip()
             # Extract JSON array from response
             if "```" in text:
                 text = text.split("```")[1].strip()

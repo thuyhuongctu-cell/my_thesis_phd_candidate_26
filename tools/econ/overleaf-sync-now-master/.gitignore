@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Runtime data (cookies, state, project index — never commit)
+cookies.json
+state.json
+projects.json
+.overleaf-sync/
+.overleaf-data/
+
+# Test artifacts (one-off test scripts in the repo root, not the unit-test
+# suite under tests/ — keep that committed).
+/test_*.json
+/test_*.py
+.playwright-mcp/
+
+# Don't commit the bug-report markdown the user feeds in for triage; it's
+# input, not release content.
+overleaf-sync-now-bug-report.md
+
+# Claude Code project-local settings
+.claude/
+
+# Session continuation file (local notes, not for the repo)
+SESSION.md
+
+# Internal error reports / user testing notes
+*-error-report.md
+*-test-report.md

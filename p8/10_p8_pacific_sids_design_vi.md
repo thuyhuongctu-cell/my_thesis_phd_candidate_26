@@ -12,11 +12,11 @@ P8 đóng vai trò **extreme boundary case** trong **institutional gradient narr
 |---|---|---|---|
 | High-quality institutions | P3 Singapore | Inverted-U classic, optimum ~71% FSTS | Regime I |
 | Transitional | P4 Vietnam | Resource Diversion Trap, optimum ~37–44% | Regime II |
-| Evolving | P5 China 2012–2024 | Vanishing inverted-U over time | Regime II→I |
+| Evolving | P5 China 2012–2024 | Vanishing inverted-U over time | Regime II–I |
 | Multi-country mainland | P7 Asian capstone (47–49 economies) | Heterogeneous w/ moderation | Regimes I–V |
 | **Extreme institutional voids** | **P8 Pacific SIDS** | **REVERSED slope (Forced Penalty)** | **Regime IV/V** |
 
-→ P8 cung cấp **biên ngoài** của institutional spectrum, hoàn thiện buức tranh inverted-U lyà **conditional relationship**, không phải universal law.
+ đến P8 cung cấp **biên ngoài** của institutional spectrum, hoàn thiện buức tranh inverted-U lyà **conditional relationship**, không phải universal law.
 
 ### 1.2 Vị trí trong cấu trúc 5 chương
 
@@ -70,7 +70,7 @@ P8 chuứng minh inverted-U paradigm cyó **structural prerequisites**, mu1edf r
 - **Marano et al. (2016)**: institutional quality **moderates** I-P relationship intensity
 - **P8 (Forced Penalty)**: institutional regime **determines** existence and **sign** of I-P relationship
 
-→ Move from variation in **degree** to variation in **kind**.
+ đến Move from variation in **degree** to variation in **kind**.
 
 ## 3. Empirical summary (để người đọc dissertation hiểu nhanh)
 
@@ -98,7 +98,7 @@ P8 chuứng minh inverted-U paradigm cyó **structural prerequisites**, mu1edf r
 | M0 (controls only) | firm_age | +0.009 | 0.005 | .046 | Older firms more productive |
 | M0/M1 | foreign_own_pct | −0.006 | 0.003 | .056 | Foreign ownership marginal negative |
 
-→ **Forced Penalty confirmed**: β(FSTS_c) = −0.404, p = .032 in M1 (country+year FE, N=532 with full controls). Direction is robustly negative across all specifications (M_yearFE: β=−1.236, p<.001; exporters only: β=−0.901, p=.027).
+ đến **Forced Penalty confirmed**: β(FSTS_c) = −0.404, p = .032 in M1 (country+year FE, N=532 with full controls). Direction is robustly negative across all specifications (M_yearFE: β=−1.236, p<.001; exporters only: β=−0.901, p=.027).
 
 ### 3.3 R-squared
 
@@ -106,7 +106,7 @@ P8 chuứng minh inverted-U paradigm cyó **structural prerequisites**, mu1edf r
 - M1 (+ FSTS_c): R² = 0.8001
 - M_yearFE (year FE only): R² = 0.5115
 
-→ Country fixed effects dominate variance (R² jumps from 0.51 to 0.80 when country FE added), consistent with the design-doc insight that **95% of explained variance is between-country**.
+ đến Country fixed effects dominate variance (R² jumps from 0.51 to 0.80 when country FE added), consistent with the design-doc insight that **95% of explained variance is between-country**.
 
 ## 4. Methodological contributions
 
@@ -125,7 +125,7 @@ Theo Hair et al. (2022) + Diamantopoulos & Winklhofer (2001) + Jarvis et al. (20
 - Extensive margin: Probit cho export participation ($N = 1,207$)
 - Intensive margin: OLS exporters only ($N = 172$)
 
-→ Tách biệt **selection effect** và **conditional intensity effect**.
+ đến Tách biệt **selection effect** và **conditional intensity effect**.
 
 ### 4.3 Multiple robustness
 
@@ -153,7 +153,7 @@ Theo Hair et al. (2022) + Diamantopoulos & Winklhofer (2001) + Jarvis et al. (20
 Khi giới thiệu dissertation, nêu:
 - Dissertation bảo quát **Asian + adjacent regions** (không strict Asia)
 - Pacific SIDS là **extreme test** của institutional moderation thesis
-- 4 paper mạch: P3 (regime I) → P4 (regime II) → P5 (regime II→I) → **P8 (regime IV/V)**
+- 4 paper mạch: P3 (regime I) đến P4 (regime II) đến P5 (regime II–I) đến **P8 (regime IV/V)**
 
 ### 6.2 Trong Chương 2 (Theory)
 
@@ -216,12 +216,12 @@ Khi giới thiệu dissertation, nêu:
 
 | Tiêu chí | Đánh giá | Kết luận |
 |---|---|---|
-| **Rõ ràng** | "Forced" = structural compulsion; "Penalty" = negative performance outcome — người đọc ngay lập tức hiểu chiều âm | ✅ Đạt |
-| **Ngắn gọn** | 3 từ (không kể FIP) — trong phạm vi 2–5 từ lý tưởng | ✅ Đạt |
-| **Phân biệt** | "Forced" phân biệt với voluntary internationalization; "Penalty" phân biệt với generic "costs" | ✅ Đạt |
-| **Độ chính xác** | "Forced" = không thể không xuất khẩu (thị trường nội địa quá nhỏ); "Penalty" = tác động âm trên hiệu quả, không phải điểm uốn | ✅ Đạt |
-| **Dễ nhớ** | FIP là viết tắt 3 chữ rõ ràng, không gây nhầm lẫn | ✅ Đạt |
-| **Tìm kiếm** | "Forced Internationalization Penalty" chưa được sử dụng trong IB literature trước P8 | ✅ Đạt |
+| **Rõ ràng** | "Forced" = structural compulsion; "Penalty" = negative performance outcome — người đọc ngay lập tức hiểu chiều âm | Có Đạt |
+| **Ngắn gọn** | 3 từ (không kể FIP) — trong phạm vi 2–5 từ lý tưởng | Có Đạt |
+| **Phân biệt** | "Forced" phân biệt với voluntary internationalization; "Penalty" phân biệt với generic "costs" | Có Đạt |
+| **Độ chính xác** | "Forced" = không thể không xuất khẩu (thị trường nội địa quá nhỏ); "Penalty" = tác động âm trên hiệu quả, không phải điểm uốn | Có Đạt |
+| **Dễ nhớ** | FIP là viết tắt 3 chữ rõ ràng, không gây nhầm lẫn | Có Đạt |
+| **Tìm kiếm** | "Forced Internationalization Penalty" chưa được sử dụng trong IB literature trước P8 | Có Đạt |
 
 **Kết luận**: Tên tiếng Anh **"Forced Internationalization Penalty (FIP)"** đạt đầy đủ 6 tiêu chí — GIỮ NGUYÊN.
 
@@ -242,7 +242,7 @@ Khi giới thiệu dissertation, nêu:
 
 | Thành phần | Lý do chọn |
 |---|---|
-| **gánh nặng** | Theo pattern "Liability of Foreignness → gánh nặng ngoại lai" trong literature IB tiếng Việt; "gánh nặng" ngụ ý bất lợi có tính cấu trúc, khác với "chi phí" (chi phí là có thể kiểm soát) |
+| **gánh nặng** | Theo pattern "Liability of Foreignness đến gánh nặng ngoại lai" trong literature IB tiếng Việt; "gánh nặng" ngụ ý bất lợi có tính cấu trúc, khác với "chi phí" (chi phí là có thể kiểm soát) |
 | **quốc tế hóa** | Thuật ngữ chuẩn trong literature kinh doanh quốc tế tiếng Việt |
 | **bắt buộc** | Theo làm rõ của tác giả: doanh nghiệp SIDS quốc tế hóa vì **sự bắt buộc cấu trúc** (thị trường nội địa quá nhỏ để duy trì hoạt động), không phải chiến lược (chiến lược) cũng không phải áp lực bên ngoài (cưỡng bức) |
 
@@ -252,7 +252,7 @@ Khi giới thiệu dissertation, nêu:
 |---|---|
 | "hình phạt quốc tế hóa cưỡng ép" | "hình phạt" có sắc thái pháp lý không phù hợp; "cưỡng ép" ngụ ý áp lực bên ngoài |
 | "bất lợi hiệu quả từ quốc tế hóa cưỡng bức" | Quá dài (7 từ), không đáp ứng tiêu chí ngắn gọn; "bất lợi hiệu quả" nghe không tự nhiên |
-| "quốc tế hóa vì sự tồn tại" | Phù hợp để mô tả PROCESS nhưng không nắm bắt OUTCOME âm; dùng làm tên phụ (xem §8.4) |
+| "quốc tế hóa vì sự tồn tại" | Phù hợp để mô tả PROCESS nhưng không nắm bắt OUTCOME âm; dùng làm tên phụ (xem Mục 8.4) |
 
 ### 8.4 Bước 4 — Phân biệt Process Name vs. Outcome Name
 
@@ -269,10 +269,10 @@ Skill framework gợi ý: P8 có **hai tầng** cần được đặt tên riên
 - **Dùng khi**: Mô tả kết quả thực nghiệm — quan hệ âm đơn điệu β=−0.404
 
 **Cách dùng phối hợp trong bài báo**:
-> *"Firms in SIDS engage in **survival-based internationalization** — not as a strategic choice for growth but as a structural imperative. We term the performance consequence of this pattern the **Forced Internationalization Penalty (FIP)**: a monotone negative relationship between internationalization intensity and firm performance..."*
+> *"Firms in SIDS engage in **survival-based internationalization** — not as a strategic choice for growth but as a structural imperative. We term the performance consequence of this pattern the **Forced Internationalization Penalty (FIP)**: a monotone negative relationship between internationalization intensity and firm performance…"*
 
 **Cách dùng trong luận án (tiếng Việt)**:
-> *"Doanh nghiệp tại SIDS thực hiện **quốc tế hóa bắt buộc** — không phải là lựa chọn chiến lược để tăng trưởng mà là mệnh lệnh cấu trúc do thị trường nội địa quá nhỏ. Luận án đặt tên cho hệ quả hiệu quả của hiện tượng này là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**: quan hệ âm đơn điệu giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp..."*
+> *"Doanh nghiệp tại SIDS thực hiện **quốc tế hóa bắt buộc** — không phải là lựa chọn chiến lược để tăng trưởng mà là mệnh lệnh cấu trúc do thị trường nội địa quá nhỏ. Luận án đặt tên cho hệ quả hiệu quả của hiện tượng này là **gánh nặng quốc tế hóa bắt buộc (Forced Internationalization Penalty — FIP)**: quan hệ âm đơn điệu giữa cường độ quốc tế hóa và hiệu quả doanh nghiệp…"*
 
 ### 8.5 Template giới thiệu trong bài báo (World Development, English)
 
@@ -317,11 +317,11 @@ bốn specification). Đây là đóng góp lý thuyết gốc của luận án,
 - [x] Google Scholar test: Không trùng lặp với tên đã tồn tại
 - [x] Clarity test: Người ngoài ngành hiểu ≥70% ý nghĩa từ tên
 - [x] Memory test: FIP là acronym dễ nhớ
-- [x] Citation test: "Building on FIP (Đỗ & Phan, 2026), we..." — tự nhiên
+- [x] Citation test: "Building on FIP (Đỗ & Phan, 2026), we…" — tự nhiên
 - [x] Abbreviation test: FIP — 3 chữ, không gây nhầm lẫn với FDI/FTA/FDI
 
 **Vietnamese name "gánh nặng quốc tế hóa bắt buộc"**:
-- [x] Follows "liability → gánh nặng" IB Vietnam convention
+- [x] Follows "liability đến gánh nặng" IB Vietnam convention
 - [x] "bắt buộc" chính xác hơn "cưỡng bức"/"cưỡng ép" (structural necessity, not external coercion)
 - [x] Không dịch từng từ sát nghĩa; ưu tiên tự nhiên trong văn phong học thuật VN
 - [x] 5 từ — chấp nhận được cho Vietnamese academic style (không thể ngắn hơn mà không mất nghĩa)

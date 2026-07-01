@@ -385,65 +385,76 @@ def main():
                      "ESIS", "Documentation", "paneldata", "Micro", "micro"]
 
     def parse_stem(fpath: Path) -> tuple[str, int] | None:
-        """Return (canonical_country, year) or None if unparseable."""
+        """Return (canonical_country, year) or None if unparseable.
+
+        Year = first 19xx/20xx token in the stem; country = the text before it
+        with all non-letters stripped, then mapped via NAME_MAP. Stripping
+        non-letters handles hyphenated multi-word names (Solomon-Islands,
+        Timor-Leste, Lao-PDR, Hong-Kong-SAR-China, Viet-Nam, Saudi-Arabia,
+        Korea-Republic, Kyrgyz-Republic, Papua-New-Guinea, Sri-Lanka, ...)."""
         stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-        # Allow underscores inside country name (e.g. Republic_of_Cyprus)
-        m = re.match(r"^([A-Za-z][A-Za-z_]+?)[\s_-]*(\d{4})", stem)
+        m = re.search(r"(?:19|20)\d{2}", stem)
         if not m:
             return None
-        return NAME_MAP.get(m.group(1), m.group(1)), int(m.group(2))
+        key = re.sub(r"[^A-Za-z]", "", stem[:m.start()])
+        if not key:
+            return None
+        return NAME_MAP.get(key, key), int(m.group(0))
 
     def is_panel_filename(fpath: Path) -> bool:
-        """True when stem contains two separate 4-digit years."""
+        """True when stem contains two separate 19xx/20xx year tokens.
+
+        Match only real year tokens (19xx/20xx) so a sample-size annotation
+        such as the "N2700" in "China-2012-full-ES-N2700-data" is not misread
+        as a second year and the file wrongly treated as a multi-wave panel."""
         stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-        years = re.findall(r"\d{4}", stem)
+        years = re.findall(r"(?:19|20)\d{2}", stem)
         return len(years) >= 2
 
-    # Find all .dta files
-    dta_files = sorted(raw_dir.rglob("*.dta"))
-    if not dta_files:
-        uploads = list(Path("/root/.claude/uploads").rglob("*.dta"))
-        uploads = [p for p in uploads
-                   if not any(kw in p.name for kw in SKIP_KEYWORDS)]
-        log.info(f"raw-dir empty — {len(uploads)} .dta from uploads (before dedup)")
+    # Find all .dta files (raw-dir preferred; fall back to uploads).
+    # The same dedup / panel-split / skip-keyword logic now applies to BOTH
+    # sources so a populated raw-dir is processed as carefully as uploads.
+    source_files = sorted(raw_dir.rglob("*.dta"))
+    if not source_files:
+        source_files = sorted(Path("/root/.claude/uploads").rglob("*.dta"))
+    # Exclude informal / micro / ISES / expansion / documentation surveys to
+    # match the thesis analytic frame (standard comparable cross-sections only).
+    source_files = [p for p in source_files
+                    if not any(kw in p.name for kw in SKIP_KEYWORDS)]
+    log.info(f"{len(source_files)} .dta after SKIP_KEYWORDS filter")
 
-        # Separate panel files (two years in name) from single-year files
-        panel_files = [p for p in uploads if is_panel_filename(p)]
-        single_files = [p for p in uploads if not is_panel_filename(p)]
-        log.info(f"  Single-year files: {len(single_files)}, "
-                 f"Panel files (will split): {len(panel_files)}")
+    # Separate panel files (two+ years in name) from single-year files
+    panel_files = [p for p in source_files if is_panel_filename(p)]
+    single_files = [p for p in source_files if not is_panel_filename(p)]
+    log.info(f"  Single-year files: {len(single_files)}, "
+             f"Panel files (will split): {len(panel_files)}")
 
-        # Deduplicate single-year files: per (country, year), keep largest
-        cy_single: dict = defaultdict(list)
-        for fpath in single_files:
-            parsed = parse_stem(fpath)
-            if parsed:
-                cy_single[parsed].append(fpath)
-        dta_files = [
-            sorted(files, key=lambda p: p.stat().st_size, reverse=True)[0]
-            for files in cy_single.values()
-        ]
+    # Deduplicate single-year files: per (country, year), keep largest
+    cy_single: dict = defaultdict(list)
+    for fpath in single_files:
+        parsed = parse_stem(fpath)
+        if parsed:
+            cy_single[parsed].append(fpath)
+        else:
+            log.warning(f"Cannot parse country/year from {fpath.stem} — skipping")
+    dta_files = [
+        sorted(files, key=lambda p: p.stat().st_size, reverse=True)[0]
+        for files in cy_single.values()
+    ]
 
-        # For panel files, only keep if the (country, year) pair has no single file
-        panel_to_process = []
-        for fpath in panel_files:
-            stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-            m = re.match(r"^([A-Za-z][A-Za-z_]+?)[\s_-]*(\d{4})", stem)
-            if not m:
-                continue
-            country = NAME_MAP.get(m.group(1), m.group(1))
-            years_in_name = [int(y) for y in re.findall(r"\d{4}", stem)]
-            # Include panel if any of its years lacks a single-year file
-            needs_panel = any((country, yr) not in cy_single for yr in years_in_name)
-            if needs_panel:
-                panel_to_process.append(fpath)
+    # Keep a panel file only if any of its years lacks a single-year file
+    panel_to_process = []
+    for fpath in panel_files:
+        parsed = parse_stem(fpath)
+        if not parsed:
+            continue
+        country = parsed[0]
+        stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
+        years_in_name = [int(y) for y in re.findall(r"(?:19|20)\d{2}", stem)]
+        if any((country, yr) not in cy_single for yr in years_in_name):
+            panel_to_process.append(fpath)
 
-        log.info(f"After dedup: {len(dta_files)} single-year + "
-                 f"{len(panel_to_process)} panel files")
-    else:
-        panel_to_process = []
-
-    log.info(f"Found {len(dta_files)} single-year + "
+    log.info(f"After dedup: {len(dta_files)} single-year + "
              f"{len(panel_to_process)} panel files to process")
 
     REGION_MAP = {
@@ -511,22 +522,19 @@ def main():
 
     # --- Single-year files ---
     for fpath in dta_files:
-        stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-        m = re.match(r"^([A-Za-z][A-Za-z_]+?)[\s_-]*(\d{4})", stem)
-        if not m:
-            log.warning(f"Cannot parse country/year from {stem} — skipping")
+        parsed = parse_stem(fpath)
+        if not parsed:
+            log.warning(f"Cannot parse country/year from {fpath.stem} — skipping")
             continue
-        country = NAME_MAP.get(m.group(1), m.group(1))
-        year = int(m.group(2))
+        country, year = parsed
         process_file(fpath, country, year)
 
     # --- Panel files: split by 'year' column ---
     for fpath in panel_to_process:
-        stem = re.sub(r"^[0-9a-f]{8}-", "", fpath.stem)
-        m = re.match(r"^([A-Za-z][A-Za-z_]+?)[\s_-]*(\d{4})", stem)
-        if not m:
+        parsed = parse_stem(fpath)
+        if not parsed:
             continue
-        country = NAME_MAP.get(m.group(1), m.group(1))
+        country = parsed[0]
         log.info(f"Reading panel file {fpath.name} ({country})")
         try:
             df_panel, _ = read_dta_robust(fpath)
@@ -567,6 +575,18 @@ def main():
 
     # Combine
     pooled = pd.concat(all_frames, ignore_index=True, sort=False)
+
+    # Restrict to the thesis analytic frame: Asia & Pacific economies only.
+    # Comoros (Sub-Saharan Africa / Indian Ocean) has a WBES .dta in raw_dta but
+    # is outside the Asia-Pacific scope of P7, so it is dropped to match the
+    # thesis's 50-economy frame (incl. Japan).
+    OUT_OF_SCOPE = {"Comoros"}
+    before = pooled["country"].nunique()
+    pooled = pooled[~pooled["country"].isin(OUT_OF_SCOPE)].reset_index(drop=True)
+    if before != pooled["country"].nunique():
+        log.info(f"Dropped out-of-scope economies {sorted(OUT_OF_SCOPE)} "
+                 f"({before} -> {pooled['country'].nunique()} economies)")
+
     log.info(f"\nPooled shape: {pooled.shape}")
     log.info(f"Countries: {pooled['country'].nunique()}")
     log.info(f"Country-years: {pooled.groupby(['country','year']).ngroups}")
@@ -575,6 +595,11 @@ def main():
     pooled_csv = out_dir / "p7_pooled_clean.csv"
     pooled.to_csv(pooled_csv, index=False)
     log.info(f"Saved {pooled_csv} ({pooled_csv.stat().st_size/1024:.0f} KB)")
+
+    # Keep metadata rows on the same analytic frame as `pooled` (drop OUT_OF_SCOPE
+    # economies from the manifest and variable log so coverage reports match).
+    manifest_rows = [r for r in manifest_rows if r["country"] not in OUT_OF_SCOPE]
+    var_log_rows = [r for r in var_log_rows if r["country"] not in OUT_OF_SCOPE]
 
     manifest_path = out_dir / "p7_manifest.csv"
     pd.DataFrame(manifest_rows).to_csv(manifest_path, index=False)

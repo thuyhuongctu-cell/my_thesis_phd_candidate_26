@@ -1,5 +1,5 @@
 # P6 Effect Size Extraction Codebook
-# Meta-Analysis: Internationalization → Firm Performance (I→P), 1977–2026
+# Meta-Analysis: Internationalization to Firm Performance (I to P), 1977–2026
 
 > Protocol based on `meta-analysis-extraction-workflow` skill + MARS (Meta-Analysis Reporting Standards)
 > Applied to: 782 new WoS candidates (post-L2 screening)
@@ -10,7 +10,7 @@
 
 **INCLUDE if ALL criteria met:**
 - [ ] Firm-level unit of analysis (not country, industry, or individual)
-- [ ] Quantitative I→P relationship reported (r, β, t, F, or convertible stat)
+- [ ] Quantitative I to P relationship reported (r, β, t, F, or convertible stat)
 - [ ] Internationalization operationalized as DOI/FSTS/export/FDI/entropy/number of markets
 - [ ] Performance operationalized (ROA, ROE, Tobin's Q, ROS, sales growth, productivity, etc.)
 - [ ] Peer-reviewed journal article (not dissertation, working paper, book chapter)
@@ -46,12 +46,12 @@
 
 ### 3.1 Priority hierarchy (use first available)
 
-1. **Pearson r** reported directly → use as-is
-2. **Partial correlation** → note as approximation, code `is_partial=1`
-3. **Standardized β** from OLS/panel → r ≈ β (acceptable approximation per Peterson & Brown, 2005)
-4. **t-statistic** + N → r = t / √(t² + df)
-5. **F-statistic** (1 df numerator) → r = √(F / (F + df_error))
-6. **p-value + N** → convert via t-distribution (last resort, conservative)
+1. **Pearson r** reported directly to use as-is
+2. **Partial correlation** to note as approximation, code `is_partial=1`
+3. **Standardized β** from OLS/panel to r ≈ β (acceptable approximation per Peterson & Brown, 2005)
+4. **t-statistic** + N to r = t / √(t² + df)
+5. **F-statistic** (1 df numerator) to r = √(F / (F + df_error))
+6. **p-value + N** to convert via t-distribution (last resort, conservative)
 
 ```r
 # R conversion formulas (metafor::escalc)
@@ -67,17 +67,17 @@ r <- sqrt(F / (F + df_error))
 
 ### 3.2 Multiple effects per study
 
-If a study reports multiple I→P effects (e.g., different performance measures):
-- Extract ALL effects → separate rows with same `study_id`, different `effect_id`
+If a study reports multiple I to P effects (e.g., different performance measures):
+- Extract ALL effects to separate rows with same `study_id`, different `effect_id`
 - Use `rma.mv()` with `random = ~ 1 | study_id/effect_id` (three-level model)
 - Correlation between effects from same sample: assume ρ = 0.50 (Cheung & Chan, 2004)
 
 ### 3.3 Curvilinear relationships
 
 If study tests U-shape (FSTS + FSTS²):
-- Extract linear β → `r` column
-- Extract quadratic β → `r_quadratic` column
-- Extract turning point if reported → `turning_point` column
+- Extract linear β to `r` column
+- Extract quadratic β to `r_quadratic` column
+- Extract turning point if reported to `turning_point` column
 - Code `doi_type = "quadratic"` in moderator
 
 ---
@@ -95,7 +95,7 @@ If study tests U-shape (FSTS + FSTS²):
 | 5 | Small Island / SIDS | Singapore, Malta, Mauritius, Caribbean states |
 | 6 | Frontier / LDC | Bangladesh, Ethiopia, Myanmar, Cambodia |
 
-Multi-country studies: code dominant context; if mixed → code "2" (emerging) as conservative
+Multi-country studies: code dominant context; if mixed to code "2" (emerging) as conservative
 
 ### 4.2 cDAI — Country Digital Adoption Index (continuous, 0–1)
 

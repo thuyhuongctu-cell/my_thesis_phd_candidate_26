@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.log
+.git/
+.github/
+.vscode/
+.idea/
+.env
+.env.local
+coverage/
+tests/
+*.md
+!README.md
+.DS_Store
+Thumbs.db

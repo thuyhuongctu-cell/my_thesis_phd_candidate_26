@@ -1,0 +1,28 @@
+test,metric,value,note
+1_baseline_quad,N,32400.0,
+1_baseline_quad,beta_fsts,1.5947,p=0.0011
+1_baseline_quad,beta_fsts2,-1.6262,p=0.0027
+1_baseline_quad,turning_point_pct,49.0,canonical M5=43.6%
+2_cubic_test,beta_fsts3,1.0081,p=0.5253
+2_cubic_test,delta_AIC_cubic_minus_quad,-0.0,âm => cubic tốt hơn; dương => quadratic đủ
+2_cubic_test,delta_BIC_cubic_minus_quad,8.38,BIC phạt tham số mạnh hơn
+3_manufacturing_only,N,31540.0,
+3_manufacturing_only,turning_point_pct,49.1,p_fsts2=0.0040
+4_harman,first_factor_var_pct,31.6,>50% => nguy cơ CMB; càng thấp càng tốt
+4_harman,n_items,6.0,
+5_item_corr_formative,tci_cert__tci_foreign_tech,0.12,thấp là ĐÚNG kỳ vọng cho formative
+5_item_corr_formative,dai_website__dai_epay,0.029,thấp là ĐÚNG kỳ vọng cho formative
+5b_composite_distinct,N,8574.0,
+5b_composite_distinct,corr_tci_z_dai_z,0.344,"0=tách hẳn, 1=trùng"
+5b_composite_distinct,shared_variance_r2,0.118,phương sai chia sẻ
+5b_composite_distinct,joint_beta_tci_z,0.18,p=0.0000
+5b_composite_distinct,joint_beta_dai_z,0.131,p=0.0000
+5c_per_paper,POOLED_clean_corr,0.284,N=94211; r2=0.080; khớp mẫu joint
+5c_per_paper,P3_Vietnam_corr,0.284,N=3060; r2=0.081
+5c_per_paper,P4_Singapore_corr,0.128,N=623; r2=0.016
+5c_per_paper,P5_China_corr,0.184,N=2183; r2=0.034
+6_vietnam_all,N,2759.0,
+6_vietnam_all,turning_point_pct,35.2,p_fsts2=0.0000
+6_vietnam_all,share_nonexporter,0.703,
+6_vietnam_exporters_only,N,820.0,
+6_vietnam_exporters_only,beta_fsts2,-1.6649,p=0.1698 (n.s. => U-shape là biên tham gia)

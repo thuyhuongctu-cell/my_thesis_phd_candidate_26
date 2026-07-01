@@ -1,4 +1,4 @@
-# KẾ HOẠCH TỔNG THỂ LUẬN ÁN TIẾN SĨ — CẬP NHẬT 20/05/2026
+# KẾ HOẠCH TỔNG THỂ LUẬN ÁN TIẾN SĨ — CẬP NHẬT 25/06/2026
 
 **NCS:** Đỗ Thùy Hương | **Mã NCS:** P1323001  
 **Đề tài:** Quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp ở Châu Á  
@@ -15,41 +15,42 @@
 | 🟢 **SẴN SÀNG NỘP** | File đã xong, có thể click submit ngay hôm nay |
 | 🟡 **CẦN THÊM 1 BƯỚC** | Nội dung xong ~90%, cần 1 action nhỏ rồi nộp |
 | 🔴 **NCS PHẢI LÀM** | Cần công việc thủ công, dữ liệu ngoại, hoặc quyết định khoa học |
-| ✅ **ĐÃ ĐĂNG** | Đã công bố, không còn cần làm gì |
+| Có **ĐÃ ĐĂNG** | Đã công bố, không còn cần làm gì |
 
 ---
 
 ## PHẦN II — TRẠNG THÁI CHI TIẾT TỪNG BÀI
 
-### P1 — Vietnam Emerging Markets 17 nước ✅ ĐÃ ĐĂNG
+### P1 — Vietnam Emerging Markets 17 nước ĐÃ ĐĂNG
 - **Tạp chí:** VEFR (Vietnam Economic and Finance Review)
 - **File:** `p1/p1_vefr_firm_performance_heterogeneity.docx` (2.1MB)
 - **Không còn việc gì cần làm.**
 
 ---
 
-### P2 — China SMEs Cubic ✅ ĐÃ ĐĂNG
+### P2 — China SMEs Cubic ĐÃ ĐĂNG
 - **Tạp chí:** JFAR (Journal of Finance and Accounting Research)
 - **File:** `p2/p2_jfar_china_smes.pdf` (1.7MB)
 - **Không còn việc gì cần làm.**
 
 ---
 
-### P3 — Vietnam WBES (Nonlinear I→P) 🟢 SẴN SÀNG NỘP
-- **Target journal:** Journal of Asia Business Studies (JABS) — ABS-1, Emerald
-- **Submission portal:** mc.manuscriptcentral.com/jabs
+### P3 — Vietnam WBES (Nonlinear I–P) 🟢 SẴN SÀNG NỘP
+- **Tạp chí mục tiêu (ladder 3 bậc):** **JED** (Journal of Economics and Development — Emerald, Diamond OA, miễn phí APC, Scopus/WoS) → **JABS** (Journal of Asia Business Studies — Emerald, ABS-1) → **IJOEM** (International Journal of Emerging Markets — Emerald, ABS-1)
+  - *Vì sao JED là đích chính:* Diamond OA (miễn phí, nhanh), Scopus/WoS, hợp deadline bảo vệ; cả ba đều Emerald/ScholarOne nên chuyển bậc dễ. Gói đã dựng: JED ✅, JABS ✅, IJOEM ✅.
+- **Submission portal:** Emerald ScholarOne — emeraldgrouppublishing.com/journal/jed
 - **Files đã có:**
-  - `p3/submission/jabs_package/01_manuscript_blinded.docx` — bản nộp (đã blinded)
-  - `p3/submission/jabs_package/02_title_page.docx` — trang tiêu đề có tên tác giả
-  - `p3/submission/jabs_package/03_cover_letter.docx` — cover letter đã điền
-  - Figures: 6 PNG files sẵn sàng upload
+  - `p3/submission/jed_package/01_manuscript_blinded.docx` — bản nộp (đã blinded)
+  - `p3/submission/jed_package/02_title_page.docx` — trang tiêu đề có tên tác giả
+  - `p3/submission/jed_package/03_cover_letter.docx` — cover letter đã điền
+  - Figures: cấp file độ phân giải cao (.tif/.eps/.jpeg) khi nộp
 - **Nội dung bài:** Vietnam 2009/2015/2023, WBES, inverted-U (M0–M6), TCI/DAI moderators
-- **Turning point:** TP* ≈ 40.3% FSTS (confirmed by Lind-Mehlum utest)
+- **Turning point:** TP* ≈ 39,7% FSTS (khoảng 39,3–46,2% qua các mô hình; xác nhận bằng Lind–Mehlum utest)
 
-**✅ NCS chỉ cần làm:**
-1. Đăng nhập ScholarOne tại mc.manuscriptcentral.com/jabs
+**NCS chỉ cần làm:**
+1. Đăng nhập Emerald ScholarOne (emeraldgrouppublishing.com/journal/jed)
 2. Tạo tài khoản nếu chưa có (dùng email CTU)
-3. Upload theo thứ tự: `01_manuscript_blinded.docx` → `02_title_page.docx` → `03_cover_letter.docx` → 6 figures
+3. Upload theo thứ tự: `01_manuscript_blinded.docx` đến `02_title_page.docx` đến `03_cover_letter.docx` đến figures độ phân giải cao
 4. Điền metadata (keywords: internationalization, firm performance, Vietnam, digital adoption, nonlinear)
 5. Click Submit
 
@@ -58,7 +59,7 @@
 ---
 
 ### P4 — Singapore WBES (DAI Amplification) 🟢 SẴN SÀNG NỘP
-- **Target journal:** Management International Review (MIR) — ABS-3, Springer
+- **Tạp chí mục tiêu (ladder 3 bậc):** **MIR** (Management International Review — Springer, ABS-3) → **MBR** (Multinational Business Review — Emerald, ABS-2) → **APBR** (Asia Pacific Business Review — Taylor & Francis, ABS-2). Gói đã dựng: MIR ✅, MBR ✅, APBR ✅.
 - **Submission portal:** mc.manuscriptcentral.com/mir (hoặc link.springer.com/journal/11575)
 - **Files đã có:**
   - `p4/submission/mir_package/01_manuscript_blinded.docx`
@@ -67,7 +68,7 @@
   - Figures: 3 PNG files
 - **Nội dung bài:** Singapore 2023, WBES, N=2,094, inverted-U + DAI amplification
 
-**✅ NCS chỉ cần làm:**
+**NCS chỉ cần làm:**
 1. Đăng nhập Editorial Manager MIR
 2. Upload theo thứ tự như P3
 3. Điền metadata, submit
@@ -77,7 +78,7 @@
 ---
 
 ### P5 — China WBES Temporal (2012–2024) 🟢 SẴN SÀNG NỘP
-- **Target journal:** International Journal of Emerging Markets (IJOEM) — ABS-1, Emerald
+- **Tạp chí mục tiêu (ladder 3 bậc):** **IJOEM** (International Journal of Emerging Markets — Emerald, ABS-1) → **APJM** (Asia Pacific Journal of Management — Springer, ABS-3) → **JABS** (Emerald, ABS-1). Gói đã dựng: IJOEM ✅, APJM ✅, JABS ✅.
 - **Submission portal:** mc.manuscriptcentral.com/ijoem
 - **Files đã có:**
   - `p5/submission/ijoem_package/01_manuscript_blinded.docx`
@@ -86,7 +87,7 @@
   - Figures: 4 PNG files
 - **Nội dung bài:** China 2012/2024, N=1,940 pooled, TP≈48% FSTS, null TCI moderation
 
-**✅ NCS chỉ cần làm:**
+**NCS chỉ cần làm:**
 1. Đăng nhập ScholarOne IJOEM
 2. Upload files, submit
 
@@ -94,20 +95,20 @@
 
 ---
 
-### P6 — Three-Level Meta-Analysis I→P Asia-Pacific 🟡 CẦN 1 BƯỚC
-- **Target journal:** International Business Review (IBR) — ABS-3, Elsevier
-- **Submission portal:** editorialmanager.com/ibr
+### P6 — Three-Level Meta-Analysis I–P Asia-Pacific 🟡 CẦN 1 BƯỚC
+- **Tạp chí mục tiêu (ladder 3 bậc):** **JWB** (Journal of World Business — Elsevier, ABS-4*, Q1) → **JIM** (Journal of International Management — Elsevier, ABS-3) → **APJM** (Asia Pacific Journal of Management — Springer, ABS-3). IBR đã chuyển sang P7. Gói đã dựng: JWB ✅, JIM ✅, APJM ✅.
+- **Submission portal:** editorialmanager.com/jwb
 - **Files đã có:**
-  - `p6/submission/ibr_package/01_manuscript_blinded.docx` (k=238, K=288)
-  - `p6/submission/ibr_package/02_title_page.docx`
-  - `p6/submission/ibr_package/03_cover_letter.docx`
+  - `p6/submission/jwb_package/01_manuscript_blinded.docx` (k=238, K=288)
+  - `p6/submission/jwb_package/02_title_page.docx`
+  - `p6/submission/jwb_package/03_cover_letter.docx`
   - Figures: 5 PNG + PDF (forest plot, funnel plot, moderator plots)
   - OSF pre-registration: https://osf.io/z37kn (DOI: 10.17605/OSF.IO/Z37KN)
 
 **⚠️ Vấn đề cần quyết định trước khi nộp:**
 
 **Lựa chọn A — Nộp ngay với k=238 (ĐƯỢC, defensible):**
-- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho IBR meta-analysis
+- k=238 đã vượt ngưỡng 200+ thường yêu cầu cho meta-analysis ở tạp chí ABS-4* như JWB
 - Kết quả đã ổn định: r̄=0.074 [0.060, 0.088], I²=62.4%, Q_M(ICRV)=17.35**
 - Rủi ro: Reviewer có thể hỏi về 782 papers đang chờ L2
 
@@ -115,46 +116,74 @@
 - Mục tiêu ban đầu k≥250 từ OSF preregistration
 - Cần hoàn thành L2 extraction 435 papers trước
 
-> **Khuyến nghị:** Nếu bảo vệ luận án trong năm 2026, chọn **Lựa chọn A** — nộp ngay với k=238, ghi chú "additional studies under extraction per OSF protocol" trong manuscript.
+> **Khuyến nghị:** Nếu bảo vệ luận án trong năm 2026, chọn **Lựa chọn A** — nộp với k=238, ghi chú "additional studies under extraction per OSF protocol" trong manuscript.
+>
+> ⚠️ **Ràng buộc PRISMA bắt buộc (áp dụng cho cả A và B, làm TRƯỚC khi nộp P6):** một meta-analysis nộp khi mới search một CSDL (WoS) sẽ vi phạm PRISMA 2020 và gần như chắc bị major revision. Trình tự đúng: (1) chạy **Scopus** + khử trùng; (2) tính và báo cáo **độ tin cậy liên mã hóa κ ≥ 0,70 / ICC ≥ 0,80**; (3) rồi mới submit. Không nộp P6 trước khi hoàn tất ba bước này, bất kể chọn đích JWB/JIM/APJM.
 
-**✅ NCS quyết định A hay B, rồi:**
-- Nếu A: Đăng nhập editorialmanager.com/ibr, upload, submit (45 phút)
+**NCS quyết định A hay B, rồi:**
+- Nếu A: Đăng nhập editorialmanager.com/jwb, upload, submit (45 phút)
 - Nếu B: Xem mục P6 L2 Extraction bên dưới
 
 ---
 
-### P7 — Multi-Country Capstone (49 economies) 🟢 SẴN SÀNG NỘP
-- **Target journal:** Journal of International Business Studies (JIBS) — ABS-4*, FT-50
-- **Submission portal:** mc.manuscriptcentral.com/jibs
+### P7 — Multi-Country Capstone (50 economies, incl. Japan) 🟢 SẴN SÀNG NỘP
+- **Tạp chí mục tiêu (ladder 3 bậc):** **IBR** (International Business Review — Elsevier, ABS-3, Q1) → **JIBP** (Journal of International Business Policy — Palgrave, ABS-3) → **GSJ** (Global Strategy Journal — Wiley, ABS-3). JIBS đã loại (WBES pooled cross-section không đáp ứng kỳ vọng nhận dạng nhân quả của JIBS); IBP/GSJ hợp với đóng góp bản đồ chính sách theo chế độ thể chế. Gói đã dựng: IBR ✅, JIBP ✅, GSJ ✅.
+- **Submission portal:** editorialmanager.com/ibr
 - **Files đã có:**
-  - `p7/submission/jibs_package/01_manuscript_blinded.docx`
-  - `p7/submission/jibs_package/02_title_page.docx`
-  - `p7/submission/jibs_package/03_cover_letter.docx`
-- **Nội dung bài:** N=84,910–91,982, 49 economies, M0–M11, TP≈36% (LM p<.001)
+  - `p7/submission/ibr_package/01_manuscript_blinded.docx`
+  - `p7/submission/ibr_package/02_title_page.docx`
+  - `p7/submission/ibr_package/03_cover_letter.docx`
+- **Nội dung bài:** pool 88,869 firms / 50 economies / 103 country-years; M2 N=81,022 (TP 51.5%), M5 N=79,080 (TP 43.6%), M0–M11 (LM p<.001)
 - **Dữ liệu:** `data_wbes/p7/p7_pooled_clean.csv` (24MB)
 
 **⚠️ Lưu ý:**
-- JIBS là tạp chí ABS-4* khó nhất trong nhóm (top 3% IB journals). Thời gian review 3–6 tháng.
-- Nếu muốn cẩn thận hơn, có thể submit tới **Journal of World Business (ABS-3)** hoặc **Asia Pacific Journal of Management (ABS-2)** trước.
+- **JIBS đã bị loại bỏ** (`p7/submission/jibs_package/` = DEPRECATED, build 49 nền tiền-Nhật): WBES pooled
+  cross-section không đáp ứng kỳ vọng nhận dạng nhân quả của JIBS. Đích sống duy nhất của P7 là IBR.
+- Gói IBR đã hòa giải về khung 50 nền (M2 N=81,022, TP 43.6%, ba vùng; DAI level-shifter).
 
-**✅ NCS chỉ cần làm:**
-1. Đăng nhập ScholarOne JIBS
-2. Upload files theo checklist `README.md` trong folder
-3. Submit (thời gian ScholarOne: 60 phút do JIBS yêu cầu nhiều metadata)
+**NCS chỉ cần làm:**
+1. Đăng nhập Editorial Manager (IBR)
+2. Upload files theo checklist `README.md` trong `p7/submission/ibr_package/`
+3. Submit (title page nộp riêng, manuscript blinded riêng)
 
 ---
 
 ### P8 — Pacific SIDS Forced Internationalization 🟡 CẦN KIỂM TRA
-- **Target journal:** World Development — ABS-4*, Elsevier (IF ~6.0)
+- **Tạp chí mục tiêu (ladder 3 bậc):** **World Development** (Elsevier, ABS-4*, IF ~6,0) → **JID** (Journal of International Development — Wiley, ABS-2) → **EJDR** (European Journal of Development Research — Palgrave, ABS-1). Gói đã dựng: World Development (redesign 7 nền) ✅, JID ✅, EJDR ✅.
 - **Submission portal:** editorialmanager.com/worlddev
-- **Files đã có:** `p8/submission/world_development_package/`
-- **README ghi:** "Target submission: Q3 2026 (revision of submitted version)"
-- **Nội dung bài:** 6 Pacific SIDS, FIP (Forced Internationalization Penalty), N nhỏ
+- **Files đã có:** `p8/submission/world_development_redesign/` (bản **redesign 2026-06-19**)
+- **Nội dung bài:** **7 nền Pacific SIDS** (loại Timor-Leste — không thuộc Pacific SIDS của LHQ/WB), N=1.450 (7 cụm); phát hiện **mất cấu trúc** của chữ U ngược (độ dốc −0,085, p_wild=,66; độ cong +0,696, p_wild=,082), quan hệ nghiêng về dạng âm đơn điệu — trường hợp giới hạn **FIP (Forced Internationalization Penalty)**. Hệ số FIP âm mạnh (β=−1,339) chỉ xuất hiện trên bản dựng 3 cụm hạn chế, nhạy cảm phiên bản dữ liệu.
+- **⚠️ Lưu ý:** thư mục `world_development_package/` (6 SIDS, còn gồm Timor) là **bản cũ** — dùng bản redesign 7 nền Pacific.
 
 **❓ Cần NCS xác nhận:**
-- Đã submit bản đầu chưa? Hay "revision of submitted version" là kế hoạch tương lai?
-- Nếu chưa submit: Upload và submit ngay (30 phút)
-- Nếu đã submit và đang chờ: Không cần làm gì, đợi review
+- Đã submit bản đầu tới World Development chưa?
+- Nếu chưa: upload bản redesign và submit; nếu đã submit và đang chờ: nộp bản redesign như revision.
+
+---
+
+### P9 — India Threshold Dissolution (2014–2025) 🟢 SẴN SÀNG NỘP
+- **Tạp chí mục tiêu (ladder 3 bậc):** **MIR** (Management International Review — Springer, ABS-3) → **IJOEM** (Emerald, ABS-1) → **JABS** (Emerald, ABS-1). Gói đã dựng: MIR ✅, IJOEM ✅, JABS ✅.
+- **Submission portal:** mc.manuscriptcentral.com/mir
+- **Files đã có:**
+  - `p9_india/submission/mir_package/01_manuscript_blinded.docx`
+  - `p9_india/submission/mir_package/02_title_page.docx`
+  - `p9_india/submission/mir_package/03_cover_letter.docx`
+- **Nội dung bài:** 3 đợt WBES Ấn Độ 2014/2022/2025, N gộp phân tích = 28.717 (raw 29.136); chữ U ngược năm 2014 (TP 61,8%) và 2022 (TP 40,7%) **tan biến** thành dốc âm đơn điệu năm 2025 (độ cong p=,42); Paternoster bác bỏ bằng nhau hệ số xuyên đợt (FSTS z=−7,94; FSTS² z=+4,17); điều tiết âm của thanh toán điện tử UPI Tier-2 (FSTS×DAI_epay=−4,02, p=,004).
+- **Tiền đề đã công bố:** chương sách IntechOpen 2025 (380 DN Ấn Độ), trích dẫn như công trình tiền đề của tác giả.
+
+**NCS chỉ cần làm:** Đăng nhập ScholarOne MIR, upload 3 file theo thứ tự, submit.
+
+---
+
+### P10 — Japan Upper-Bound Institutional Test (WBES 2025) 🟡 CHUẨN BỊ GỬI
+- **Tạp chí mục tiêu (ladder 3 bậc):** **ABM** (Asian Business & Management — Palgrave Macmillan, ABS-2) → **APJM** (Asia Pacific Journal of Management — Springer, ABS-3) → **IJOEM** (Emerald, ABS-1). Gói đã dựng: ABM ✅, APJM ✅, IJOEM ✅.
+- **Files đã có:**
+  - `p10_japan/submission/abm_package/01_manuscript_blinded.docx`
+  - `p10_japan/submission/abm_package/02_title_page.docx`
+  - `p10_japan/submission/abm_package/03_cover_letter.docx`
+- **Nội dung bài:** Nhật Bản, đợt WBES khai mở 2025, N=2.168; kiểm định **biên trên của phổ thể chế**; FSTS tuyến tính dương (+0,671***), bậc hai không ý nghĩa; phần bù xuất khẩu +0,258***. Xuất khẩu 16,8%; website 83,8%; tuổi DN 50,4; nữ quản lý 7,3%.
+
+**NCS cần làm:** Rà soát lần cuối bản thảo ABM, hoàn tất cover letter, rồi submit.
 
 ---
 
@@ -166,7 +195,7 @@
 - **Nội dung:** Phân tích vi mô multi-country Asia với ICRV 6 sub-regime + WBES pool
 - **Review report đã có:** `reviews/cd1_review_report.md` (13K)
 
-**✅ NCS cần làm:**
+**NCS cần làm:**
 1. In file `dist/chuyen_de_1/00_cd1_ctu_final_vi.docx` ra giấy (double-sided, A4)
 2. Nộp cho GVHD (PGS.TS. Phan Anh Tú) để xem xét chính thức
 3. Chờ phản hồi và chỉnh sửa theo yêu cầu của GVHD
@@ -182,7 +211,7 @@
 - **Nội dung:** Framework tích hợp đa tầng (CDCM) — meta-analysis + empirical synthesis
 - **Quy mô:** Lớn nhất trong tất cả, 126K = ~70–80 trang Word
 
-**✅ NCS cần làm:** (tương tự CD1)
+**NCS cần làm:** (tương tự CD1)
 1. In file Word, nộp GVHD
 2. Bảo vệ chuyên đề 2 (quy mô phức tạp hơn CD1 do tích hợp nhiều papers)
 
@@ -202,8 +231,8 @@
 
 ### Chương 1 — Giới thiệu (29K) 🟡
 **Nội dung đã có:** Background, research gap, research questions, contribution, structure
-**✅ Claude đã làm (20/05/2026):**
-- ✅ Thêm roadmap P3–P8 vào §1.10 (commit 3a9e8f8)
+**Claude đã làm (20/05/2026):**
+- Thêm roadmap P3–P8 vào Mục 1.10 (commit 3a9e8f8)
 **NCS cần làm:**
 - Đọc lại toàn bộ chương, kiểm tra số liệu macro (số doanh nghiệp, số tạp chí)
 - Kiểm tra nhất quán thuật ngữ với Glossary (`writing_guides/09b_vn_term_glossary.md`)
@@ -211,26 +240,26 @@
 
 ### Chương 2 — Tổng quan tài liệu (50K) 🟡
 **Nội dung đã có:** Uppsala, RBV, Institutional Theory, Upper Echelons, Digital Capability Lens, ICRV framework, meta-analysis review
-**✅ Claude đã làm (19–20/05/2026):**
-- ✅ Cập nhật §2.3.2 với k=238 baseline (r̄=0.074) — commit 1fa2cf0
-- ✅ Thêm subsections P7/P8 literature gap vào §2.4 + fix CDCM expansion — commit 1e7f2c8
+**Claude đã làm (19–20/05/2026):**
+- Cập nhật Mục 2.3.2 với k=238 baseline (r̄=0.074) — commit 1fa2cf0
+- Thêm subsections P7/P8 literature gap vào Mục 2.4 + fix CDCM expansion — commit 1e7f2c8
 **NCS cần làm:**
 - Kiểm tra tất cả citations có trong `thesis/04_references_apa7.md`
 - **Thời gian:** 1–2 giờ
 
 ### Chương 3 — Phương pháp nghiên cứu (41K) 🟡
 **Nội dung đã có:** WBES data harmonization, P3/P4/P5/P6/P7/P8 methods, estimation equations M0–M11
-**✅ Claude đã làm (20/05/2026):**
-- ✅ Thêm footnote survey weights vào §3.3.1 — commit 722bc31
-- ✅ Kiểm tra notation consistency (FSTS_c, FSTS_c², TCI_z, DAI_z) — nhất quán
+**Claude đã làm (20/05/2026):**
+- Thêm footnote survey weights vào Mục 3.3.1 — commit 722bc31
+- Kiểm tra notation consistency (FSTS_c, FSTS_c², TCI_z, DAI_z) — nhất quán
 **NCS cần làm:**
-- Hoàn thiện §3.4 về inter-coder reliability protocol cho P6 (sau khi có kết quả thực tế κ, ICC)
+- Hoàn thiện Mục 3.4 về inter-coder reliability protocol cho P6 (sau khi có kết quả thực tế κ, ICC)
 - **Thời gian:** 1–2 giờ sau L2 xong
 
 ### Chương 4 — Kết quả (32K) 🔴
 **Nội dung đã có:** Kết quả P3/P4/P5/P7/P8 (bảng số liệu, turning points)
 **Vấn đề:** Kết quả P6 meta-analysis trong chương này sẽ cần update nếu NCS chọn Lựa chọn B (chờ L2 xong)
-**✅ Claude đã kiểm tra (20/05/2026):** k=238, Q_M=17.35, turning points — tất cả nhất quán với manuscript.
+**Claude đã kiểm tra (20/05/2026):** k=238, Q_M=17.35, turning points — tất cả nhất quán với manuscript.
 **NCS cần làm:**
 - Nếu chọn Lựa chọn A (submit P6 k=238 ngay): Chương 4 gần hoàn chỉnh, chỉ cần đọc lại lần cuối
 - Nếu chọn Lựa chọn B: Chờ L2 xong, update Tables 4.2–4.4 với k mới
@@ -239,10 +268,10 @@
 ### Chương 5 — Kết luận và Đề xuất (34K) 🟡
 **Nội dung đã có:** Tóm tắt kết quả, đóng góp lý thuyết/thực tiễn, hạn chế, hướng tương lai
 **Stats đã đúng:** k=238, r=0.074, I²=62.4%, Q_M=17.35
-**✅ Claude đã làm (20/05/2026):**
-- ✅ §5.5.1 đã có đầy đủ DAI measurement constraint (website-only Tier-1) — đã kiểm tra
-- ✅ §5.6.1 đã đủ P3–P8 summary — đã kiểm tra
-- ✅ Thêm §5.4.4 về ý nghĩa chính sách cho CTU/Mekong Delta — commit ddf55dd
+**Claude đã làm (20/05/2026):**
+- Mục 5.5.1 đã có đầy đủ DAI measurement constraint (website-only Tier-1) — đã kiểm tra
+- Mục 5.6.1 đã đủ P3–P8 summary — đã kiểm tra
+- Thêm Mục 5.4.4 về ý nghĩa chính sách cho CTU/Mekong Delta — commit ddf55dd
 **NCS cần làm:**
 - Đọc lại toàn bộ Chương 5 lần cuối trước khi nộp
 - **Thời gian:** 1–2 giờ
@@ -331,8 +360,8 @@ Từ β (OLS):      r ≈ β (Peterson & Brown, 2005, acceptable approximation)
 **Thứ tự theo quy định:**
 1. **Bảo vệ chuyên đề 1** (sau khi GVHD ký)
 2. **Bảo vệ chuyên đề 2** (sau CD1)
-3. **Bảo vệ cấp Cơ sở** (seminar đơn vị đào tạo) → nhận nhận xét, chỉnh sửa
-4. **Bảo vệ cấp Trường** (hội đồng 5 người) → nhận nhận xét, chỉnh sửa
+3. **Bảo vệ cấp Cơ sở** (seminar đơn vị đào tạo) đến nhận nhận xét, chỉnh sửa
+4. **Bảo vệ cấp Trường** (hội đồng 5 người) đến nhận nhận xét, chỉnh sửa
 5. **Nộp luận án chính thức** cho Khoa sau Đại học
 
 **Hồ sơ cần chuẩn bị cho mỗi bảo vệ:**
@@ -350,12 +379,14 @@ Từ β (OLS):      r ≈ β (Peterson & Brown, 2005, acceptable approximation)
 
 ```
 Tháng 5–6/2026 (NGAY BÂY):
-  ✅ Nộp P3 (JABS)           — 1 ngày
+  ✅ Nộp P3 (JED)           — 1 ngày
   ✅ Nộp P4 (MIR)            — 1 ngày  
   ✅ Nộp P5 (IJOEM)          — 1 ngày
-  ✅ Nộp P7 (JIBS)           — 1 ngày
-  ✅ Nộp P6 với k=238 (IBR)  — 1 ngày  [nếu chọn Lựa chọn A]
+  ✅ Nộp P7 (IBR)            — 1 ngày
+  ✅ Nộp P6 với k=238 (JWB)  — 1 ngày  [nếu chọn Lựa chọn A]
   ✅ Xác nhận P8 status       — 30 phút
+  ✅ Nộp P9 (MIR)            — 1 ngày
+  ✅ Nộp P10 (ABM)           — 1 ngày  [rà soát cuối]
   ✅ Nộp CD1 cho GVHD        — 1 ngày in + họp
 
 Tháng 6–8/2026:
@@ -387,12 +418,14 @@ Tháng 12/2026:
 |-----------|--------|-----------|
 | P1 (VEFR) | **100%** | Đã đăng |
 | P2 (JFAR) | **100%** | Đã đăng |
-| P3 (JABS) | **95%** | Click Submit |
+| P3 (JED) | **95%** | Click Submit |
 | P4 (MIR) | **95%** | Click Submit |
 | P5 (IJOEM) | **95%** | Click Submit |
-| P6 (IBR) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
-| P7 (JIBS) | **95%** | Click Submit |
-| P8 (World Dev) | **90%** | Xác nhận status, submit nếu chưa |
+| P6 (JWB) | **85%** (hoặc 95% nếu chọn A) | Quyết định A/B, rồi submit |
+| P7 (IBR) | **95%** | Click Submit |
+| P8 (World Dev) | **90%** | Xác nhận status, submit bản redesign 7 nền |
+| P9 (MIR) | **95%** | Click Submit |
+| P10 (ABM) | **85%** | Rà soát cuối, rồi submit |
 | CD1 | **90%** | In + nộp GVHD |
 | CD2 | **90%** | In + nộp GVHD |
 | Luận án Ch.1 | **85%** | Polish + format CTU |
@@ -403,4 +436,6 @@ Tháng 12/2026:
 
 ---
 
-*Cập nhật: 20/05/2026 | Lưu tại: `thesis/99_MASTER_PLAN_2026.md`*
+*Cập nhật: 25/06/2026 | Lưu tại: `thesis/99_MASTER_PLAN_2026.md`*
+
+> **Ghi chú phiên bản 25/06/2026.** (1) Mỗi paper nay có **ladder 3 tạp chí mục tiêu** (đích chính → dự phòng 2 → dự phòng 3), chọn theo độ khớp bản chất bài + cùng nhà xuất bản/cổng nộp để chuyển bậc nhanh. (2) Ánh xạ đích chính đã chốt: P3→JED, P6→JWB, P7→IBR (JIBS loại); đồng bộ với Chương 1 §1.10. (3) Số liệu khóa: P3 TP 39,7% (39,3–46,2%); P6 k=238 là **số cuối** dùng trong luận án; P7 N=81.022/79.080; bảng "% hoàn thiện" ở Phần VII là ảnh chụp 20/05, các chương từ đó đã qua tái cấu trúc apex + 13 sửa chuẩn JIBS. (4) Cảnh báo PRISMA cho P6: Scopus + κ/ICC TRƯỚC khi nộp.

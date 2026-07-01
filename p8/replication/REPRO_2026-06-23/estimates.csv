@@ -1,0 +1,8 @@
+model,term,N,clusters,beta,se_crv1,p_crv1,p_wild,canonical_value,match
+M1 (linear),fsts_c,1434,7,-0.085,0.1505,0.5723,0.6562,slope -0.085 / p_wild ~.656,Y
+M2 (quadratic),fsts_c,1434,7,-0.5667,0.2808,0.0436,0.0885,-0.567 / p_wild ~.088,Y
+M2 (quadratic),fsts_c2,1434,7,0.6962,0.3567,0.051,0.0819,+0.696 / p_wild ~.082,Y
+M3 (+capability),fsts_c,1389,7,-0.8516,0.2477,0.0006,0.0235,suggestive convexity (not headline),Y
+M3 (+capability),fsts_c2,1389,7,1.0507,0.3412,0.0021,0.056,curvature positive p_wild ~.056,Y
+M3 (+capability),tci_z,1389,7,0.0639,0.0271,0.0181,0.0358,capability raises level p_wild ~.036,Y
+M3 (+capability),dai,1389,7,0.1574,0.0888,0.0764,0.1015,digital adoption n.s.,Y

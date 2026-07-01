@@ -273,23 +273,24 @@ Extract ONLY the following statistics:
 - p  : reported p-value (exact or inequality, e.g. p < 0.05)
 - CI : 95 % confidence interval for r if reported
 
-Also classify the study on these moderators when determinable from the text:
-- doi_measure    : one of FSTS | entropy | n_markets | TNI
-- performance_measure : one of ROA | ROE | ROS | TobinsQ | composite | other
-- icrv_regime    : one of I | II | III | SIDS | V | pooled
-- dpl_phase      : one of Precede | Span | Follow
-- cdai_score     : float 0–10 if Cultural Distance Asymmetry Index is mentioned
+Also classify the study on these two text-determinable dimensions, and report
+the data window:
+- doi_measure : FSTS | GEO | EXP | FDI | COMP | OTH
+- performance_measure : ACC | MKT | LAB | MIX
+- sample_start, sample_end : first and last calendar year of the sample data
+
+Do NOT attempt to code ICRV regime, DPL phase, or cDAI: those moderators are
+assigned by the Principal Investigator from external lookup tables (World Bank
+WGI Rule of Law; World Bank DAI / ITU DDI; median data year).
 
 Return a single JSON object — no markdown, no prose — with exactly these keys:
 {
-  "sample_n": <int|null>, "effect_r": <float|null>, "effect_t": <float|null>,
+  "sample_n": <int|null>, "sample_start": <int|null>, "sample_end": <int|null>,
+  "effect_r": <float|null>, "effect_t": <float|null>,
   "effect_beta": <float|null>, "effect_df": <int|null>, "p_value": <float|null>,
   "ci_lower": <float|null>, "ci_upper": <float|null>,
-  "doi_measure": <"FSTS"|"entropy"|"n_markets"|"TNI"|null>,
-  "performance_measure": <"ROA"|"ROE"|"ROS"|"TobinsQ"|"composite"|"other"|null>,
-  "icrv_regime": <"I"|"II"|"III"|"SIDS"|"V"|"pooled"|null>,
-  "dpl_phase": <"Precede"|"Span"|"Follow"|null>,
-  "cdai_score": <float|null>
+  "doi_measure": <"FSTS"|"GEO"|"EXP"|"FDI"|"COMP"|"OTH"|null>,
+  "performance_measure": <"ACC"|"MKT"|"LAB"|"MIX"|null>
 }
 
 Rules:
@@ -333,7 +334,7 @@ class StatisticalExtractor:
         )
         try:
             message = self._client.messages.create(
-                model="claude-sonnet-4-6",
+                model=self._model,  # default claude-fable-5; env-configurable
                 max_tokens=1024,
                 system=_SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": user_content}],
@@ -382,12 +383,13 @@ class StatisticalExtractor:
             p_value=float(raw["p_value"]) if raw.get("p_value") is not None else None,
             ci_lower=float(raw["ci_lower"]) if raw.get("ci_lower") is not None else None,
             ci_upper=float(raw["ci_upper"]) if raw.get("ci_upper") is not None else None,
-            doi_measure=_safe_literal(raw.get("doi_measure"), ("FSTS","entropy","n_markets","TNI")),
+            doi_measure=_safe_literal(raw.get("doi_measure"), ("FSTS","GEO","EXP","FDI","COMP","OTH")),
             performance_measure=_safe_literal(raw.get("performance_measure"),
-                                              ("ROA","ROE","ROS","TobinsQ","composite","other")),
-            icrv_regime=_safe_literal(raw.get("icrv_regime"), ("I","II","III","SIDS","V","pooled")),
-            dpl_phase=_safe_literal(raw.get("dpl_phase"), ("Precede","Span","Follow")),
-            cdai_score=float(raw["cdai_score"]) if raw.get("cdai_score") is not None else None,
+                                              ("ACC","MKT","LAB","MIX")),
+            # ICRV / DPL / cDAI are PI-assigned from lookup tables at verification
+            icrv_regime=None,
+            dpl_phase=None,
+            cdai_score=None,
             extraction_confidence=confidence,
             requires_verification=requires_verification,
             pi_locked=False,
@@ -531,10 +533,13 @@ from datetime import datetime
 from typing import Literal
 from pydantic import BaseModel, Field
 
-DoiMeasure = Literal["FSTS", "entropy", "n_markets", "TNI"]
-PerformanceMeasure = Literal["ROA", "ROE", "ROS", "TobinsQ", "composite", "other"]
-IcrvRegime = Literal["I", "II", "III", "SIDS", "V", "pooled"]
-DplPhase = Literal["Precede", "Span", "Follow"]
+DoiMeasure = Literal["FSTS", "GEO", "EXP", "FDI", "COMP", "OTH"]
+PerformanceMeasure = Literal["ACC", "MKT", "LAB", "MIX"]
+# ICRV = Institutional Context Regime Variation (WGI Rule of Law, 2023):
+# I Advanced-Innovation | II Upper-Middle | III Emerging | FR Frontier/SIDS
+# | MX Multi-country pooled. PI-assigned, never LLM-extracted.
+IcrvRegime = Literal["I", "II", "III", "FR", "MX"]
+DplPhase = Literal["PRE", "SPN", "FOL"]
 
 
 class ExtractedEffect(BaseModel):
@@ -544,6 +549,8 @@ class ExtractedEffect(BaseModel):
     year: int
     country: str
     sample_n: int | None = None
+    sample_start: int | None = None
+    sample_end: int | None = None
     effect_r: float | None = None
     effect_t: float | None = None
     effect_beta: float | None = None
@@ -554,7 +561,7 @@ class ExtractedEffect(BaseModel):
     doi_measure: DoiMeasure | None = None
     performance_measure: PerformanceMeasure | None = None
     icrv_regime: IcrvRegime | None = None
-    cdai_score: float | None = Field(None, ge=0.0, le=10.0)
+    cdai_score: float | None = Field(None, ge=0.0, le=1.0)  # Digital Adoption Index
     dpl_phase: DplPhase | None = None
     extraction_confidence: float = Field(..., ge=0.0, le=1.0)
     requires_verification: bool

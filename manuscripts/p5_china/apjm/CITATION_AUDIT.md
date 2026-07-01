@@ -1,14 +1,14 @@
-# Citation Audit — v1.7 → v1.8 → v1.8.1 (CLOSED, all tiers verified)
+# Citation Audit — v1.7 đến v1.8 đến v1.8.1 (CLOSED, all tiers verified)
 
 **Status (2026-05-06):** **All 40 references verified across Tier A / B / C.**
-- Tier A (22 classics): ✓ verified inherent-correctness
-- Tier B (8 mid-confidence): ✓ all 8 verified via Crossref + journal websites (this audit pass, 2026-05-06)
-- Tier C (10 recently-added): ✓ verified in v1.7 → v1.8 audit (2026-05-04)
-- Tier D (2 author refs): ✓ author-confirmed
+- Tier A (22 classics): verified inherent-correctness
+- Tier B (8 mid-confidence): all 8 verified via Crossref + journal websites (this audit pass, 2026-05-06)
+- Tier C (10 recently-added): verified in v1.7 đến v1.8 audit (2026-05-04)
+- Tier D (2 author refs): author-confirmed
 
 **Patches applied since v1.7:**
-- v1.8 (2026-05-04): Demir & Javorcik 2018 corrected vol 117/pp 11–22 → vol 111/pp 177–189; DOI 10.1016/j.jinteco.2018.01.008
-- v1.8.1 (2026-05-06): Avenyo et al. (2021) DOI corrected via Crossref s41287-020-00269-w → s41287-021-00364-6; title corrected "Microeconomic evidence from sub-Saharan Africa" → "Evidence from African firms"
+- v1.8 (2026-05-04): Demir & Javorcik 2018 corrected vol 117/pp 11–22 đến vol 111/pp 177–189; DOI 10.1016/j.jinteco.2018.01.008
+- v1.8.1 (2026-05-06): Avenyo et al. (2021) DOI corrected via Crossref s41287-020-00269-w đến s41287-021-00364-6; title corrected "Microeconomic evidence from sub-Saharan Africa" đến "Evidence from African firms"
 
 After all patches, **no remaining unverified references in the manuscript**.
 
@@ -22,28 +22,28 @@ These references are widely cited classics in IB / strategy / methodology / econ
 
 | # | Reference | Status |
 |---|---|---|
-| 1 | Antonakis, J., Bendahan, S., Jacquart, P., & Lalive, R. (2010). On making causal claims. *The Leadership Quarterly, 21*(6), 1086–1120. | ✓ classic |
-| 2 | Buckley, P. J., et al. (2007). Determinants of Chinese outward FDI. *JIBS, 38*(4), 499–518. | ✓ classic |
-| 3 | Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity. *ASQ, 35*(1), 128–152. | ✓ classic |
-| 4 | Contractor, F. J. (2007). Is international business good for companies? *MIR, 47*(3), 453–475. | ✓ classic |
-| 5 | Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). Three-stage theory. *JIBS, 34*(1), 5–18. | ✓ classic |
-| 6 | Hennart, J.-F. (2007). Theoretical rationale for multinationality–performance. *MIR, 47*(3), 423–452. | ✓ classic |
-| 7 | Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification. *AMJ, 40*(4), 767–798. | ✓ classic |
-| 8 | Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. | ✓ classic |
-| 9 | Lind, J. T., & Mehlum, H. (2010). With or without U? *Oxford Bulletin, 72*(1), 109–118. | ✓ classic |
-| 10 | Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance. *AMJ, 47*(4), 598–609. | ✓ classic |
-| 11 | MacKinnon, J. G., & White, H. (1985). Heteroskedasticity-consistent SEs. *J. Econometrics, 29*(3), 305–325. | ✓ classic |
-| 12 | Manova, K. (2013). Credit constraints and trade. *Restud, 80*(2), 711–744. | ✓ classic |
-| 13 | Marano, V., et al. (2016). Home country institutions and IP. *JOM, 42*(5), 1075–1110. | ✓ classic |
-| 14 | Paternoster, R., et al. (1998). Equality of regression coefficients test. *Criminology, 36*(4), 859–866. | ✓ classic |
-| 15 | Pierce, J. R., & Aguinis, H. (2013). Too-much-of-a-good-thing. *JOM, 39*(2), 313–338. | ✓ classic |
-| 16 | Teece, D. J. (2007). Dynamic capabilities. *SMJ, 28*(13), 1319–1350. | ✓ classic |
-| 17 | Wagner, J. (2007). Exports and productivity. *World Economy, 30*(1), 60–82. | ✓ classic |
-| 18 | Foley, C. F., & Manova, K. (2015). International trade & corporate finance. *Annual Review of Economics, 7*. | ✓ classic |
-| 19 | Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U. *SMJ, 37*(7), 1177–1195. | ✓ classic |
-| 20 | Bharadwaj, A., et al. (2013). Digital business strategy. *MIS Quarterly, 37*(2), 471–482. | ✓ classic |
-| 21 | Verhoef, P. C., et al. (2021). Digital transformation. *JBR, 122*, 889–901. | ✓ widely cited |
-| 22 | World Bank (2013, 2025). WBES China data files. | ✓ official source |
+| 1 | Antonakis, J., Bendahan, S., Jacquart, P., & Lalive, R. (2010). On making causal claims. *The Leadership Quarterly, 21*(6), 1086–1120. | Có classic |
+| 2 | Buckley, P. J., et al. (2007). Determinants of Chinese outward FDI. *JIBS, 38*(4), 499–518. | Có classic |
+| 3 | Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity. *ASQ, 35*(1), 128–152. | Có classic |
+| 4 | Contractor, F. J. (2007). Is international business good for companies? *MIR, 47*(3), 453–475. | Có classic |
+| 5 | Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). Three-stage theory. *JIBS, 34*(1), 5–18. | Có classic |
+| 6 | Hennart, J.-F. (2007). Theoretical rationale for multinationality–performance. *MIR, 47*(3), 423–452. | Có classic |
+| 7 | Hitt, M. A., Hoskisson, R. E., & Kim, H. (1997). International diversification. *AMJ, 40*(4), 767–798. | Có classic |
+| 8 | Lall, S. (1992). Technological capabilities and industrialization. *World Development, 20*(2), 165–186. | Có classic |
+| 9 | Lind, J. T., & Mehlum, H. (2010). With or without U? *Oxford Bulletin, 72*(1), 109–118. | Có classic |
+| 10 | Lu, J. W., & Beamish, P. W. (2004). International diversification and firm performance. *AMJ, 47*(4), 598–609. | Có classic |
+| 11 | MacKinnon, J. G., & White, H. (1985). Heteroskedasticity-consistent SEs. *J. Econometrics, 29*(3), 305–325. | Có classic |
+| 12 | Manova, K. (2013). Credit constraints and trade. *Restud, 80*(2), 711–744. | Có classic |
+| 13 | Marano, V., et al. (2016). Home country institutions and IP. *JOM, 42*(5), 1075–1110. | Có classic |
+| 14 | Paternoster, R., et al. (1998). Equality of regression coefficients test. *Criminology, 36*(4), 859–866. | Có classic |
+| 15 | Pierce, J. R., & Aguinis, H. (2013). Too-much-of-a-good-thing. *JOM, 39*(2), 313–338. | Có classic |
+| 16 | Teece, D. J. (2007). Dynamic capabilities. *SMJ, 28*(13), 1319–1350. | Có classic |
+| 17 | Wagner, J. (2007). Exports and productivity. *World Economy, 30*(1), 60–82. | Có classic |
+| 18 | Foley, C. F., & Manova, K. (2015). International trade & corporate finance. *Annual Review of Economics, 7*. | Có classic |
+| 19 | Haans, R. F. J., Pieters, C., & He, Z.-L. (2016). Thinking about U. *SMJ, 37*(7), 1177–1195. | Có classic |
+| 20 | Bharadwaj, A., et al. (2013). Digital business strategy. *MIS Quarterly, 37*(2), 471–482. | Có classic |
+| 21 | Verhoef, P. C., et al. (2021). Digital transformation. *JBR, 122*, 889–901. | Có widely cited |
+| 22 | World Bank (2013, 2025). WBES China data files. | Có official source |
 
 ### Tier B — VERIFIED via Crossref + journal websites (2026-05-06 audit pass)
 
@@ -51,16 +51,16 @@ All 8 Tier B refs verified for title, journal, volume/issue, page numbers.
 
 | # | Reference | Verification status |
 |---|---|---|
-| 23 | Avenyo, E. K., Tregenna, F., & Kraemer-Mbula, E. (2021). Do productive capabilities affect export performance? Evidence from African firms. *European Journal of Development Research, 33*(2), 304–329. https://doi.org/10.1057/s41287-021-00364-6 | ✓ **VERIFIED + PATCHED in v1.8.1**: DOI corrected from s41287-020-00269-w → s41287-021-00364-6; title corrected from "Microeconomic evidence from sub-Saharan Africa" → "Evidence from African firms" (Springer/Crossref) |
-| 24 | Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. | ✓ **VERIFIED**: MIR 47(3), 319–347 confirmed (Springer Nature Link) |
-| 25 | Chen, S., & Tan, H. (2012). Region effects in the internationalization–performance relationship in Chinese firms. *Journal of World Business, 47*(1), 73–80. | ✓ **VERIFIED**: JWB 47(1), 73–80 confirmed (ScienceDirect) |
-| 26 | Feng, D., Chen, Q., Song, M., & Cui, L. (2019). Relationship between the degree of internationalization and performance in manufacturing enterprises of the Yangtze River Delta region. *Emerging Markets Finance and Trade, 55*(7), 1455–1471. | ✓ **VERIFIED**: EMFT 55(7), 1455–1471 confirmed (Taylor & Francis / RePEc) |
-| 27 | Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. | ✓ **VERIFIED**: GSJ 2(2), 108–121 confirmed (Wiley Online Library) |
-| 28 | Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551. | ✓ **VERIFIED**: JIBS 48(5), 535–551 confirmed (Springer Nature Link) |
-| 29 | Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. | ✓ **VERIFIED**: JOM 46(7), 1244–1256 confirmed (SAGE Journals) |
-| 30 | Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internationalization and performance of firms in China: Moderating effects of governance structure and the degree of centralized control. *Journal of International Management, 19*(2), 118–137. | ✓ **VERIFIED**: JIM 19(2), 118–137 confirmed (ScienceDirect / EconPapers) |
+| 23 | Avenyo, E. K., Tregenna, F., & Kraemer-Mbula, E. (2021). Do productive capabilities affect export performance? Evidence from African firms. *European Journal of Development Research, 33*(2), 304–329. https://doi.org/10.1057/s41287-021-00364-6 | Có **VERIFIED + PATCHED in v1.8.1**: DOI corrected from s41287-020-00269-w đến s41287-021-00364-6; title corrected from "Microeconomic evidence from sub-Saharan Africa" đến "Evidence from African firms" (Springer/Crossref) |
+| 24 | Bausch, A., & Krist, M. (2007). The effect of context-related moderators on the internationalization–performance relationship: Evidence from meta-analysis. *Management International Review, 47*(3), 319–347. | Có **VERIFIED**: MIR 47(3), 319–347 confirmed (Springer Nature Link) |
+| 25 | Chen, S., & Tan, H. (2012). Region effects in the internationalization–performance relationship in Chinese firms. *Journal of World Business, 47*(1), 73–80. | Có **VERIFIED**: JWB 47(1), 73–80 confirmed (ScienceDirect) |
+| 26 | Feng, D., Chen, Q., Song, M., & Cui, L. (2019). Relationship between the degree of internationalization and performance in manufacturing enterprises of the Yangtze River Delta region. *Emerging Markets Finance and Trade, 55*(7), 1455–1471. | Có **VERIFIED**: EMFT 55(7), 1455–1471 confirmed (Taylor & Francis / RePEc) |
+| 27 | Kirca, A. H., Roth, K., Hult, G. T. M., & Cavusgil, S. T. (2012). The role of context in the multinationality–performance relationship: A meta-analytic review. *Global Strategy Journal, 2*(2), 108–121. | Có **VERIFIED**: GSJ 2(2), 108–121 confirmed (Wiley Online Library) |
+| 28 | Meyer, K. E., van Witteloostuijn, A., & Beugelsdijk, S. (2017). What's in a p? Reassessing best practices for conducting and reporting hypothesis-testing research. *Journal of International Business Studies, 48*(5), 535–551. | Có **VERIFIED**: JIBS 48(5), 535–551 confirmed (Springer Nature Link) |
+| 29 | Shaver, J. M. (2020). Causal identification through a cumulative body of research in the study of strategy and organizations. *Journal of Management, 46*(7), 1244–1256. | Có **VERIFIED**: JOM 46(7), 1244–1256 confirmed (SAGE Journals) |
+| 30 | Xiao, S. S., Jeong, I., Moon, J. J., Chung, C. C., & Chung, J. (2013). Internationalization and performance of firms in China: Moderating effects of governance structure and the degree of centralized control. *Journal of International Management, 19*(2), 118–137. | Có **VERIFIED**: JIM 19(2), 118–137 confirmed (ScienceDirect / EconPapers) |
 
-### Tier C — Lower confidence (recently added; verified in v1.7 → v1.8 audit, 2026-05-04)
+### Tier C — Lower confidence (recently added; verified in v1.7 đến v1.8 audit, 2026-05-04)
 
 These references were added in v1.5 / v1.6. The AI may have correctly identified the authors and rough topic but the exact title, year, journal, volume, issue, and page numbers should be verified independently before submission. Some may be paraphrases of real papers with slight inaccuracies.
 
@@ -106,12 +106,12 @@ For each Tier B and Tier C reference, the audit:
 
 **v1.9 change:** All three Tier-D self-citations (ICBEF 2025, VEFR 2026, JFAR 2026) are PUBLISHED works (ISBN-registered conference proceedings; Vietnam Economic and Financial Review issued by Ministry of Finance; Journal of Finance & Accounting Research). They are cited in-text in blinded form "Author Citation, year — journal-acronym" per APJM blind-review convention; full author details will be un-blinded after acceptance. Cross-references to *unsubmitted* companion working papers (P3 Vietnam, P4 Singapore) were removed in v1.9 because those manuscripts are not yet citable.
 
-→ **All 42 references verified.** Manuscript ready for APJM submission.
+ đến **All 42 references verified.** Manuscript ready for APJM submission.
 
 ## Audit history
 
-- **v1.6 → v1.7 (2026-05-03):** Initial Tier A/B/C classification + warning to verify
-- **v1.7 → v1.8 (2026-05-04):** Tier C verification (10 refs); Demir & Javorcik 2018 patched
-- **v1.8 → v1.8.1 (2026-05-06):** Tier B verification (8 refs); Avenyo et al. 2021 patched
+- **v1.6 đến v1.7 (2026-05-03):** Initial Tier A/B/C classification + warning to verify
+- **v1.7 đến v1.8 (2026-05-04):** Tier C verification (10 refs); Demir & Javorcik 2018 patched
+- **v1.8 đến v1.8.1 (2026-05-06):** Tier B verification (8 refs); Avenyo et al. 2021 patched
 - **v1.9 (2026-05-20):** Tier D self-citations restored in blinded form after confirming all three (ICBEF 2025, VEFR 2026, JFAR 2026) are published. Cross-references to unsubmitted companion working papers removed. Part5 (discussion), part6 (limitations + conclusion), part7 (references + acknowledgements) extracted from the clean source so the APJM split is complete (7 parts) and `build_docx.sh` runs end-to-end. ICBEF reference blinded further: institutional publisher "College of Economics, Can Tho University" replaced with "[Publisher details withheld for blind review]" to avoid affiliation leak.
 - **All tiers verified.** Audit closed.

@@ -52,7 +52,7 @@ File CSV có các cột: `openalex_id, doi, title, first_author, year, journal, 
 Để Title/Abstract screening nhanh:
 - Lọc theo journal (chỉ giữ SSCI/SCIE journals)
 - Sort theo `cited_by_count` giảm dần để xem papers quan trọng trước
-- Đọc title → xem có liên quan I→P không
+- Đọc title đến xem có liên quan I–P không
 
 ### Bước 3: Cross-reference với k=238 database hiện có
 So sánh DOIs trong CSV với DOIs trong `p6/p6_primary_studies_apa7.md` để tìm studies mới.

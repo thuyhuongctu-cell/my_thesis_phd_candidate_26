@@ -1,7 +1,7 @@
 # P6 Meta-Analysis R Framework
 
 Three-level MARA framework for P6:  
-*"Systematic meta-analysis of the internationalization→performance relationship for 47 Asian and Pacific economies"*
+*"Systematic meta-analysis of the internationalization–performance relationship for 47 Asian and Pacific economies"*
 
 ## Prerequisites
 
@@ -42,7 +42,7 @@ m0 <- rma.mv(yi, vi,
 - L2 (within-study, between-ES): `~ 1 | study_id/es_id` — variance τ²_L2  
 - L1: sampling error from `vi`
 
-## Moderators (PRISMA §4)
+## Moderators (PRISMA Mục 4)
 
 | Code | Moderator | H link | Levels |
 |---|---|---|---|
@@ -50,7 +50,7 @@ m0 <- rma.mv(yi, vi,
 | M2 | I-measure type | — | FSTS / export_dummy / entropy |
 | M3 | P-measure type | — | labor_productivity / ROA / sales_growth |
 
-## Sensitivity Analyses (PRISMA §6.3)
+## Sensitivity Analyses (PRISMA Mục 6.3)
 
 | SA | Description | Exclusion criterion |
 |---|---|---|
@@ -64,7 +64,7 @@ m0 <- rma.mv(yi, vi,
 ## Real Data Integration
 
 When PRISMA database search completes (target: 06/2026), place coded data at  
-`data/p6_coded_effects.rds` following coding template in `thesis/p6_prisma_protocol.md` §4.
+`data/p6_coded_effects.rds` following coding template in `thesis/p6_prisma_protocol.md` Mục 4.
 
 All scripts auto-detect real vs. simulated data:
 ```r

@@ -8,17 +8,17 @@
 // Domain literal types
 // ---------------------------------------------------------------------------
 
-export type DoiMeasure = "FSTS" | "entropy" | "n_markets" | "TNI";
-export type PerformanceMeasure =
-  | "ROA"
-  | "ROE"
-  | "ROS"
-  | "TobinsQ"
-  | "composite"
-  | "other";
-// ICRV regimes: I=Domestic, II=Limited intl, III=Moderate, SIDS, V=High, pooled
-export type IcrvRegime = "I" | "II" | "III" | "SIDS" | "V" | "pooled";
-export type DplPhase = "Precede" | "Span" | "Follow";
+// DOI measure: FSTS, GEO (geographic scope), EXP (export intensity),
+// FDI (outward-FDI-based), COMP (composite/entropy, e.g. TNI), OTH (other)
+export type DoiMeasure = "FSTS" | "GEO" | "EXP" | "FDI" | "COMP" | "OTH";
+// Performance: ACC (accounting), MKT (market), LAB (labour productivity), MIX
+export type PerformanceMeasure = "ACC" | "MKT" | "LAB" | "MIX";
+// ICRV — Institutional Context Regime Variation (WGI Rule of Law, 2023):
+// I=Advanced-Innovation, II=Upper-Middle, III=Emerging, FR=Frontier/SIDS,
+// MX=Multi-country pooled. PI-assigned, never LLM-extracted.
+export type IcrvRegime = "I" | "II" | "III" | "FR" | "MX";
+// DPL phase (PRE/SPN/FOL), PI-derived from median data year.
+export type DplPhase = "PRE" | "SPN" | "FOL";
 
 // ---------------------------------------------------------------------------
 // Core extracted effect model
@@ -33,6 +33,8 @@ export interface ExtractedEffect {
 
   // Sample
   sample_n: number | null;
+  sample_start: number | null;
+  sample_end: number | null;
 
   // Raw statistics
   effect_r: number | null;

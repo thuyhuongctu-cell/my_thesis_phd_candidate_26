@@ -33,8 +33,10 @@ import statsmodels.formula.api as smf
 import warnings
 warnings.filterwarnings('ignore')
 
-D2012 = os.environ.get('D2012', 'China2012fullESN2700data.dta')
-D2024 = os.environ.get('D2024', 'China2024fulldata.dta')
+# Default to the repository's committed raw WBES files (override via env vars if needed).
+_RAW = os.environ.get('WBES_RAW', os.path.join(os.path.dirname(__file__), '..', '..', '..', 'data_wbes', 'raw_dta'))
+D2012 = os.environ.get('D2012', os.path.join(_RAW, 'China-2012-full-ES-N2700-data.dta'))
+D2024 = os.environ.get('D2024', os.path.join(_RAW, 'China-2024-full-data.dta'))
 
 
 def yes_no_bin(s):

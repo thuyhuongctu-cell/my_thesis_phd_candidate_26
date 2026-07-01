@@ -1,53 +1,53 @@
-# Replication Package — P3 Vietnam
-## Technological Capability, Digital Adoption, and the Internationalisation–Performance Relationship: Evidence from Vietnam (2009–2015–2023)
+# Replication Package — P4 Singapore
+## Capability, Digital Adoption, and the Internationalisation–Performance Relationship: Evidence from Singapore (WBES 2023)
 
 ### Overview
-This replication package contains the Python script and supplementary output tables for the paper above. All analysis uses three waves of World Bank Enterprise Survey (WBES) microdata for Vietnam (2009, 2015, 2023).
+Single-wave firm-level analysis of the internationalisation–performance (I–P) relationship for
+Singapore using World Bank Enterprise Survey (WBES) 2023 microdata (BREADY schema).
 
-### Requirements
-- Python ≥ 3.9
-- `pandas`, `numpy`, `statsmodels`, `pyreadstat`, `matplotlib`
-- WBES raw DTA files (see Data Availability below)
-
-### Data Availability
-The WBES microdata are publicly available from the World Bank Enterprise Surveys portal:
-- Vietnam 2009: https://www.enterprisesurveys.org (survey year 2009)
-- Vietnam 2015: https://www.enterprisesurveys.org (survey year 2015)
-- Vietnam 2023: https://www.enterprisesurveys.org (survey year 2023)
-
-Place the three DTA files in a local directory and update the `UPLOAD` path variable at the top of `p4_vietnam_replication.py`.
-
-### Running the Replication
+### Authoritative runner (reproducible from committed raw data)
 ```bash
-python replication/p4_vietnam_replication.py
+python3 p4/replication/p4_singapore_figs_from_raw.py
 ```
+- Reads `data_wbes/raw_dta/Singapore-2023-full-data.dta` (override with `WBES_RAW`).
+- Builds `lnLP = ln(d2/l1)`, `FSTS = d3c/100` (mean-centred), `TCI` (z-composite of b8+e6+h1),
+  `DAI` (z-composite of website c22b + k33 + k38).
+- Estimates M0–M8 (incl. the `FSTS²×DAI` interaction) with HC1 SEs + Lind–Mehlum turning point.
 
-Outputs are written to `/tmp/p4_vietnam_figures/` by default. This includes:
-- PNG figures (figure_2a–2d, figure_3)
-- `results_p4.json` summary statistics
+Stata equivalent (authoritative for the candidate's licensed run):
+`p4/replication/do/01_build_singapore.do` → `02_run_models.do` → `03_make_figures.do`.
 
-### Supplementary Tables
-The `tables/` subdirectory contains CSV files with the underlying coefficient outputs:
+### Authoritative reproduction (2026-06-23)
+The clean raw re-run lives in `REPRO_2026-06-23/`: `estimates.csv` (full M0–M8
+coef/se/p/n) + `REPRO_NOTE.md` (command, headline match-vs-canonical).
 
-| File | Contents |
-|------|----------|
-| `table_1_descriptives.csv` | Analytic-sample summary statistics by wave (Table 1 in manuscript) |
-| `coefs_main_models.csv` | Long-format regression coefficients for M0–M8, all waves and pooled |
-| `joint_tests_main_models.csv` | Joint F-tests for H2 (TCI moderation) and H4 (DAI moderation) by wave |
-| `table_lind_mehlum.csv` | Lind–Mehlum U-shape test results with turning-point estimates |
-| `table_3_robustness.csv` | Robustness specifications (Panels A–D and G) |
-| `selection_checks.csv` | Heckman selection and control-function robustness checks |
-| `table_paternoster.csv` | Cross-wave Paternoster z-tests for coefficient equality |
+### Supplementary tables (`tables/`)
+Singapore (sample `SGP2023`, N=623): `table_3_robustness.csv`, `selection_checks.csv`,
+`table_paternoster.csv`, `table_oster_bounds.csv`, `table_psm_balance.csv`,
+`table_density_around_tp.csv`.
 
-### Key Replication Targets
-From the manuscript (all models OLS with HC1 robust SEs):
+> ⚠️ **STALE — flagged 2026-06-23, do not cite (candidates for deletion):**
+> - `tables/coefs_main_models.csv` and `tables/joint_tests_main_models.csv` contain
+>   **Vietnam multi-wave** data (`VNM`/`pooled` 2009/2015/2023, N=989/956/1013/2958,
+>   FSTS_c≈+1.0) — a mislabelled leftover, **not** Singapore. Contradicts canonical.
+> - `tables/p4_R_coefs.csv` / `tables/p4_R_turning_points.csv` are an old R run with a
+>   different build (M2 FSTS_c +3.64, FSTS²_c −2.63, TP 76.4%) that does **not** match
+>   the canonical mean-centred spec (+3.08 / −1.90 / TP ~86–88.6%).
+>
+> Authoritative Singapore numbers come only from `p4_singapore_figs_from_raw.py` and
+> `REPRO_2026-06-23/estimates.csv`. The top-level `coefs_main_models.csv` (sample
+> `SGP2023`) is a manuscript-frozen alternate spec (M2 +2.652 / M8 INT +3.119) kept for
+> traceability of the published +3.119 figure.
 
-| Wave | N | TCI_z (M7) | DAI_z (M7) | LM p-value | Turning point |
-|------|---|-----------|-----------|------------|---------------|
-| 2009 | 989 | +0.215*** | +0.175*** | .006 | ~40% |
-| 2015 | 956 | +0.128** | −0.044 | .009 | ~44% |
-| 2023 | 1,013 | +0.123** | +0.095* | .013 | ~46% |
-| Pooled | 2,958 | +0.179*** | +0.078** | <.001 | 39.7% |
+### Key replication targets (OLS, HC1 SEs)
+| Quantity | Manuscript | Python re-run (2026-06-23) |
+|---|---|---|
+| N (base / with DAI) | 623 / 617 | 623 / 617 |
+| M2 inverted-U | FSTS_c +; FSTS²_c − | +3.08 / −1.90 |
+| TCI level (M5) | + | +0.21 |
+| DAI level (M6) | + | +0.17 |
+| **FSTS²×DAI (M8)** | **+3.119**, p≈.005 | **+3.22**, p=.020 |
+| M2 turning point | ~88.6% (CI exceeds feasible FSTS → not reliably located) | ~86% [31%–141%] |
 
 ### Citation
-Please cite the manuscript and the World Bank Enterprise Surveys when using this replication package.
+Please cite the manuscript and the World Bank Enterprise Surveys when using this package.

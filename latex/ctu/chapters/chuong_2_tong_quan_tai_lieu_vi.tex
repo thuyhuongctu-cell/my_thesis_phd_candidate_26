@@ -1,0 +1,1949 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  a4paper,
+  13pt]{extreport}
+\usepackage{amsmath,amssymb}
+\usepackage{setspace}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{TeX Gyre Termes}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{xcolor}
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm,headsep=1cm,footskip=1cm]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{vietnamese}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{TeX Gyre Termes}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+% ctu_xelatex_header.tex — header-includes cho build LaTeX CTU (xelatex).
+% Ánh xạ các ký tự Unicode mà TeX Gyre Termes thiếu glyph (chỉ số dưới/trên,
+% ký tự kẻ hộp) sang lệnh LaTeX tương đương để không bị rớt glyph khi biên dịch.
+\usepackage{newunicodechar}
+\usepackage{pifont}
+\usepackage{amssymb}
+\newunicodechar{✓}{\ding{51}}
+\newunicodechar{✗}{\ding{55}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+\newunicodechar{₀}{\textsubscript{0}}
+\newunicodechar{₁}{\textsubscript{1}}
+\newunicodechar{₂}{\textsubscript{2}}
+\newunicodechar{₃}{\textsubscript{3}}
+\newunicodechar{₄}{\textsubscript{4}}
+\newunicodechar{₅}{\textsubscript{5}}
+\newunicodechar{₆}{\textsubscript{6}}
+\newunicodechar{₇}{\textsubscript{7}}
+\newunicodechar{₈}{\textsubscript{8}}
+\newunicodechar{₉}{\textsubscript{9}}
+\newunicodechar{²}{\textsuperscript{2}}
+\newunicodechar{³}{\textsuperscript{3}}
+\newunicodechar{─}{\rule[0.5ex]{0.9em}{0.4pt}}
+
+% --- Bảng rộng: thu nhỏ cỡ chữ + khoảng cột, cho phép ngắt token dài để
+%     bảng không tràn lề phải (overfull hbox). Áp dụng cho mọi longtable
+%     (pandoc sinh toàn bộ bảng dạng longtable).
+\usepackage{etoolbox}
+\usepackage{seqsplit}      % ngắt được token rất dài (mã biến, số dài)
+% Lưu ý: KHÔNG đổi \tabcolsep — pandoc tính bề rộng cột theo công thức
+% (\columnwidth - 4\tabcolsep)*frac (tham chiếu \tabcolsep trực tiếp), nên
+% giảm \tabcolsep lại làm cột RỘNG hơn và tràn nặng hơn.
+\AtBeginEnvironment{longtable}{%
+  \footnotesize
+  \emergencystretch=3em
+  \hbadness=10000          % không cảnh báo underfull do RaggedRight
+}
+% Cho phép TeX bẻ dòng linh hoạt hơn trong ô p{} hẹp
+\setlength{\emergencystretch}{2em}
+
+% URL/DOI dài: cho phép ngắt ở bất kỳ ký tự nào (tránh tràn lề ở danh mục TLTK).
+% Kết hợp với pandoc +autolink_bare_uris để URL trần được bọc \url{}.
+\usepackage{xurl}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdflang={vi},
+  colorlinks=true,
+  linkcolor={black},
+  filecolor={Maroon},
+  citecolor={black},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\setstretch{1.2}
+\hypertarget{chux1b0ux1a1ng-2-tux1ed5ng-quan-tuxe0i-liux1ec7u}{%
+\chapter{CHƯƠNG 2: TỔNG QUAN TÀI
+LIỆU}\label{chux1b0ux1a1ng-2-tux1ed5ng-quan-tuxe0i-liux1ec7u}}
+
+Chương 2 có nhiệm vụ hệ thống hóa các khái niệm cốt lõi và lý thuyết nền
+tảng, lược khảo và đánh giá các công trình thực nghiệm đã công bố về mối
+quan hệ giữa quốc tế hóa và hiệu quả hoạt động kinh doanh của doanh
+nghiệp, xác định những khoảng trống còn tồn tại trong tài liệu, và từ đó
+xây dựng khung khái niệm tích hợp cùng hệ giả thuyết nghiên cứu H1--H6
+cho luận án. Logic của chương đi từ nền tảng khái niệm đến lý thuyết, từ
+bằng chứng thực nghiệm đến khoảng trống, và từ khoảng trống đến mô hình
+nghiên cứu và giả thuyết.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{cuxe1c-khuxe1i-niux1ec7m-cux1ed1t-luxf5i}{%
+\section{2.1 Các khái niệm cốt
+lõi}\label{cuxe1c-khuxe1i-niux1ec7m-cux1ed1t-luxf5i}}
+
+\hypertarget{quux1ed1c-tux1ebf-huxf3a-doanh-nghiux1ec7p}{%
+\subsection{2.1.1 Quốc tế hóa doanh
+nghiệp}\label{quux1ed1c-tux1ebf-huxf3a-doanh-nghiux1ec7p}}
+
+Quốc tế hóa doanh nghiệp (internationalization) được hiểu là mức độ và
+phạm vi tham gia của một doanh nghiệp vào các hoạt động kinh tế có yếu
+tố quốc tế, bao gồm xuất khẩu hàng hóa và dịch vụ, đầu tư trực tiếp ra
+nước ngoài, liên doanh quốc tế, cấp phép công nghệ xuyên biên giới, và
+thiết lập mạng lưới phân phối ở thị trường nước ngoài (Sullivan, 1994;
+Hitt et al., 2006). Khái niệm này không đồng nhất với ``toàn cầu hóa'',
+vốn mang nghĩa một xu hướng kinh tế vĩ mô, mà là một thuộc tính đo lường
+được ở cấp độ doanh nghiệp, phản ánh chiến lược mở rộng quốc tế và mức
+độ phụ thuộc vào thị trường nước ngoài. Nền tảng lý thuyết của lĩnh vực
+này bắt nguồn từ các công trình kinh điển về doanh nghiệp đa quốc gia và
+đầu tư trực tiếp nước ngoài: lý thuyết vòng đời sản phẩm (Vernon, 1966),
+lý thuyết lợi thế độc quyền của doanh nghiệp (Hymer, 1976; Caves, 1971),
+và lý thuyết nội bộ hóa chi phí giao dịch (Buckley \& Casson, 1976), về
+sau được tổng hợp trong khung chiết trung OLI (Dunning, 1988).
+
+Trong tài liệu, mức độ quốc tế hóa được vận hành hóa bằng nhiều thước đo
+khác nhau. Sullivan (1994) đề xuất một chỉ số tổng hợp đa chiều bao gồm
+tỷ trọng doanh thu từ nước ngoài trên tổng doanh thu (foreign sales to
+total sales, FSTS), tỷ trọng tài sản ở nước ngoài trên tổng tài sản
+(foreign assets to total assets, FATA), và phạm vi địa lý (geographic
+scope). Trong những nghiên cứu sử dụng dữ liệu doanh nghiệp từ các nền
+kinh tế đang phát triển và từ khảo sát doanh nghiệp của Ngân hàng Thế
+giới (World Bank Enterprise Surveys, WBES), thước đo phổ biến nhất là
+cường độ xuất khẩu (export intensity), tức là tỷ lệ phần trăm doanh thu
+xuất khẩu trên tổng doanh thu, hay tương đương với FSTS theo nghĩa rộng
+(Johanson \& Vahlne, 1977; Lu \& Beamish, 2004). Luận án này sử dụng
+FSTS và bình phương FSTS (FSTS²) làm thước đo chính về mức độ quốc tế
+hóa, với lý do phù hợp với cấu trúc dữ liệu WBES và nhất quán với các
+nghiên cứu quốc tế hóa và hiệu quả sử dụng bộ dữ liệu tương tự (Bhandari
+et al., 2023; nghiên cứu thành phần P1).
+
+Điều quan trọng cần lưu ý là quốc tế hóa không phải là một trạng thái
+nhị phân, mà là một biến liên tục biểu thị cường độ tham gia thị trường
+quốc tế, có thể thay đổi theo thời gian và phản ánh quá trình cam kết
+tích lũy của doanh nghiệp vào các thị trường nước ngoài (Johanson \&
+Vahlne, 1977, 2009).
+
+Việc lựa chọn cường độ xuất khẩu làm thước đo trung tâm còn được củng cố
+bởi một truyền thống nghiên cứu kinh tế học thương mại quốc tế song hành
+với truyền thống kinh doanh quốc tế. Melitz (2003) chứng minh trên cơ sở
+lý thuyết rằng việc mở cửa thương mại tạo ra sự tái phân bổ nguồn lực
+trong nội bộ ngành, theo đó chỉ những doanh nghiệp có năng suất đủ cao
+mới vượt qua được chi phí cố định của xuất khẩu và tự lựa chọn tham gia
+thị trường quốc tế. Helpman và cộng sự (2004) mở rộng logic này bằng
+cách phân biệt giữa lựa chọn xuất khẩu và lựa chọn đầu tư trực tiếp, cho
+thấy rằng những doanh nghiệp năng suất cao nhất có xu hướng phục vụ thị
+trường nước ngoài thông qua hiện diện sản xuất thay vì xuất khẩu thuần
+túy. Hai luận điểm này có hàm ý đo lường trực tiếp đối với luận án:
+cường độ xuất khẩu không phải là một biến ngoại sinh thuần túy mà gắn
+liền với năng suất nội tại của doanh nghiệp, do đó quan hệ giữa quốc tế
+hóa và hiệu quả có thể vừa phản ánh cơ chế nhân quả vừa phản ánh cơ chế
+tự lựa chọn. Tổng quan thực nghiệm cấp doanh nghiệp của Wagner (2007)
+xác nhận rằng bằng chứng về việc doanh nghiệp năng suất cao tự lựa chọn
+xuất khẩu (self-selection) vững chắc hơn nhiều so với bằng chứng về việc
+xuất khẩu trực tiếp nâng cao năng suất (learning-by-exporting), một sự
+bất đối xứng có hệ quả phương pháp luận quan trọng được luận án xử lý
+tường minh trong chiến lược nhận diện ở Chương 3. Nhận thức về tính nội
+sinh tiềm tàng này không làm suy yếu giá trị của thước đo cường độ xuất
+khẩu, mà ngược lại đòi hỏi lý thuyết hóa cẩn trọng về cơ chế đứng sau
+quan hệ quan sát được, một yêu cầu mà khung tích hợp đa tầng của luận án
+đáp ứng bằng cách phân tách các tầng cơ chế thay vì gộp chúng vào một hệ
+số tổng hợp duy nhất.
+
+\hypertarget{hiux1ec7u-quux1ea3-houx1ea1t-ux111ux1ed9ng-kinh-doanh-cux1ee7a-doanh-nghiux1ec7p}{%
+\subsection{2.1.2 Hiệu quả hoạt động kinh doanh của doanh
+nghiệp}\label{hiux1ec7u-quux1ea3-houx1ea1t-ux111ux1ed9ng-kinh-doanh-cux1ee7a-doanh-nghiux1ec7p}}
+
+Hiệu quả hoạt động kinh doanh của doanh nghiệp (firm performance) là một
+khái niệm đa chiều không có một định nghĩa hoặc thước đo thống nhất
+trong tài liệu. Combs et al.~(2005) và Richard et al.~(2009) phân biệt
+ba nhóm thước đo chính: (i) thước đo dựa trên kế toán
+(accounting-based), bao gồm tỷ suất sinh lời trên tổng tài sản (ROA), tỷ
+suất sinh lời trên vốn chủ sở hữu (ROE), và tỷ suất sinh lời trên doanh
+thu (ROS); (ii) thước đo dựa trên thị trường tài chính (market-based),
+bao gồm Tobin's Q và tổng lợi nhuận cổ đông; và (iii) thước đo dựa trên
+năng suất và tăng trưởng (productivity-based), bao gồm năng suất lao
+động (labor productivity) và tăng trưởng doanh thu.
+
+Trong bối cảnh nghiên cứu sử dụng dữ liệu WBES, vốn không cung cấp thông
+tin về giá cổ phiếu hay giá trị thị trường, thước đo năng suất lao động
+là lựa chọn phổ biến nhất và phù hợp nhất về mặt kỹ thuật. Năng suất lao
+động được tính bằng logarithm tự nhiên của tỷ số doanh thu hàng năm trên
+số lao động toàn thời gian (ln(doanh thu/lao động)), cho phép so sánh
+chuẩn hóa giữa các doanh nghiệp thuộc các quốc gia, ngành nghề và quy mô
+khác nhau (nghiên cứu thành phần P1). Luận án sử dụng thước đo này làm
+biến phụ thuộc chính, với ROS, tăng trưởng doanh thu, tăng trưởng việc
+làm và ln(doanh thu) được sử dụng như các thước đo độ vững để kiểm tra
+tính nhất quán của kết quả (xem Chương 3, Mục 3.5).
+
+Cần nhấn mạnh rằng việc chọn thước đo hiệu quả không chỉ là quyết định
+kỹ thuật, mà còn phản ánh quan niệm lý thuyết về hiệu quả. Trong bối
+cảnh quốc tế hóa ở các nền kinh tế đang phát triển, năng suất lao động
+phản ánh trực tiếp khả năng chuyển hóa nguồn lực đầu vào thành kết quả
+đầu ra, qua đó thể hiện năng lực cạnh tranh thực chất của doanh nghiệp,
+khác với ROA vốn bị ảnh hưởng bởi cấu trúc tài sản và hệ thống kế toán
+đặc thù của từng quốc gia.
+
+\hypertarget{nux103ng-lux1ef1c-cuxf4ng-nghux1ec7-vuxe0-chux1ec9-sux1ed1-chux1ea5p-nhux1eadn-sux1ed1}{%
+\subsection{2.1.3 Năng lực công nghệ và chỉ số chấp nhận
+số}\label{nux103ng-lux1ef1c-cuxf4ng-nghux1ec7-vuxe0-chux1ec9-sux1ed1-chux1ea5p-nhux1eadn-sux1ed1}}
+
+Một trong những đóng góp khái niệm trọng tâm của luận án là sự phân biệt
+rõ ràng giữa hai cấu trúc: năng lực công nghệ (Technological Capability
+Index, TCI) và chỉ số chấp nhận số (Digital Adoption Index, DAI). Trong
+nhiều nghiên cứu trước đây, hai cấu trúc này thường bị gộp lại thành một
+khái niệm chung về ``năng lực số'' (digital capability), dẫn đến sự mơ
+hồ lý thuyết và sai lệch trong đo lường (Bhandari et al., 2023).
+
+Năng lực công nghệ (TCI) đề cập đến chiều sâu của năng lực công nghệ
+được nhập vào tổ chức, phản ánh khả năng hấp thụ, khai thác và phát
+triển tri thức công nghệ tiên tiến. Các chỉ báo tiêu biểu bao gồm việc
+sở hữu chứng nhận chất lượng quốc tế (ISO hoặc tương đương) và sử dụng
+công nghệ được cấp phép từ các đối tác nước ngoài. Về bản chất lý
+thuyết, TCI gần với khái niệm năng lực hấp thụ (absorptive capacity) của
+Cohen và Levinthal (1990) và năng lực công nghệ của Lall (1992), đây là
+chiều sâu nội tại của tổ chức, khó sao chép và tạo ra lợi thế bền vững
+theo tinh thần lý thuyết dựa trên nguồn lực (Barney, 1991).
+
+Chỉ số chấp nhận số (Digital Adoption Index, DAI), ngược lại, phản ánh
+mức độ áp dụng các công cụ số tại giao diện ngoại tại của doanh nghiệp,
+bao gồm việc sở hữu website, sử dụng email trong giao dịch kinh doanh,
+thanh toán điện tử, và bán hàng trực tuyến. Đây là các công cụ số có
+tính bề mặt (surface digital tools) theo phân loại của Verhoef et
+al.~(2021), tức là nằm ở cấp độ số hóa (digitization) và số hóa quy
+trình (digitalization), chưa đạt đến cấp độ chuyển đổi số toàn diện
+(digital transformation). Trong phạm vi luận án, DAI được đo bằng biến
+đại diện ``foundational website adoption'' từ dữ liệu WBES, đây là ràng
+buộc đo lường có chủ đích do giới hạn của bộ dữ liệu, không phải thiếu
+sót lý thuyết.
+
+Hai cấu trúc TCI và DAI không đồng nhất và vận hành theo cơ chế khác
+nhau trong mối quan hệ quốc tế hóa, hiệu quả: TCI hoạt động chủ yếu như
+một nhân tố nâng mặt bằng hiệu quả (level shifter), trong khi DAI có xu
+hướng làm thay đổi độ dốc hoặc độ cong của đường quan hệ quốc tế hóa và
+hiệu quả tùy theo bối cảnh (Bhandari et al., 2023; Chen \& Meng, 2022).
+Việc duy trì sự phân biệt rõ ràng này trong suốt luận án là điều kiện
+tiên quyết để đảm bảo tính thuần khiết của cấu trúc (construct purity)
+theo tiêu chuẩn của Coltman et al.~(2008).
+
+\hypertarget{bux1ed1i-cux1ea3nh-thux1ec3-chux1ebf-vuxe0-khung-icrv}{%
+\subsection{2.1.4 Bối cảnh thể chế và khung
+ICRV}\label{bux1ed1i-cux1ea3nh-thux1ec3-chux1ebf-vuxe0-khung-icrv}}
+
+Thể chế (institutions) theo North (1990) là ``luật chơi'' của một xã
+hội, bao gồm các ràng buộc chính thức (luật pháp, quy định, hợp đồng) và
+phi chính thức (chuẩn mực, giá trị, văn hóa ứng xử). Thể chế tạo ra cấu
+trúc khuyến khích và chi phí giao dịch, do đó ảnh hưởng trực tiếp đến
+chiến lược và kết quả kinh doanh của doanh nghiệp.
+
+Để vận hành hóa bối cảnh thể chế đa cấp và đa quốc gia trong luận án,
+khung ICRV (Institutional Context Regime Variation, Biến thiên chế độ
+bối cảnh thể chế) được phát triển như một công cụ phân loại có hệ thống.
+Khung ICRV chia 50 nền kinh tế trong phạm vi nghiên cứu thành sáu nhóm
+(sub-regime), dựa trên tổ hợp các chỉ số quản trị toàn cầu (World
+Governance Indicators, WGI) của Kaufmann et al.~(2011), mức độ phát
+triển kinh tế, và đặc trưng cấu trúc thể chế: Nhóm I (tiên tiến đổi mới,
+gồm Singapore, Hong Kong SAR, Hàn Quốc, Đài Loan, Israel và Nhật Bản),
+Nhóm II (tiên tiến tài nguyên, bao gồm các nền kinh tế vùng Vịnh), Nhóm
+III (trung bình cao, điển hình là Trung Quốc), Nhóm IV (chuyển đổi thu
+nhập trung bình thấp, bao gồm Việt Nam và Ấn Độ), Nhóm V (đang nổi), và
+Nhóm VI (SIDS, Small Island Developing States). Khung này mở rộng từ
+phân loại thể chế của Khanna và Palepu (2010) và được điều chỉnh để phản
+ánh thực tiễn đa dạng của châu Á và khu vực lân cận.
+
+ICRV không chỉ là một biến phân loại mà còn là một phổ thể chế liên tục,
+từ môi trường thể chế mạnh, ít rủi ro (Nhóm I) đến môi trường thể chế
+yếu, nhiều rủi ro và khoảng trống thể chế (Nhóm V và VI). Phổ này tạo ra
+điều kiện biên quan trọng để kiểm định khả năng tổng quát hóa của mối
+quan hệ quốc tế hóa và hiệu quả, đặc biệt liên quan đến giả thuyết phi
+tuyến.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{cuxe1c-luxfd-thuyux1ebft-nux1ec1n}{%
+\section{2.2 Các lý thuyết
+nền}\label{cuxe1c-luxfd-thuyux1ebft-nux1ec1n}}
+
+\hypertarget{muxf4-huxecnh-quux1ed1c-tux1ebf-huxf3a-uppsala}{%
+\subsection{2.2.1 Mô hình quốc tế hóa
+Uppsala}\label{muxf4-huxecnh-quux1ed1c-tux1ebf-huxf3a-uppsala}}
+
+Mô hình Uppsala (Johanson \& Vahlne, 1977) là một trong những lý thuyết
+có ảnh hưởng sâu rộng nhất trong nghiên cứu về quốc tế hóa doanh nghiệp.
+Được xây dựng trên cơ sở quan sát quá trình quốc tế hóa của các doanh
+nghiệp Thụy Điển, mô hình đề xuất rằng doanh nghiệp quốc tế hóa theo một
+quá trình tuần tự và tích lũy, trong đó tri thức thị trường nước ngoài
+và cam kết nguồn lực vào thị trường đó tác động lẫn nhau theo vòng lặp
+phản hồi. Doanh nghiệp bắt đầu bằng xuất khẩu gián tiếp, tiến đến đại lý
+độc lập, sau đó là chi nhánh kinh doanh, và cuối cùng là sản xuất tại
+nước ngoài, phản ánh mức độ cam kết và tri thức ngày càng tăng.
+
+Một trong những khái niệm trọng tâm của mô hình Uppsala là ``gánh nặng
+của người nước ngoài'' (liability of foreignness), chi phí và bất lợi mà
+doanh nghiệp phải gánh chịu khi hoạt động ở môi trường văn hóa, thể chế,
+và pháp lý xa lạ (Zaheer, 1995). Johanson và Vahlne (2009) cập nhật mô
+hình bằng cách bổ sung khái niệm ``gánh nặng của người ngoài mạng lưới''
+(liability of outsidership), nhấn mạnh rằng trong nền kinh tế toàn cầu
+hiện đại, rào cản lớn nhất không phải là khoảng cách địa lý hay tâm lý,
+mà là vị trí ngoài lề của các mạng lưới kinh doanh địa phương. Hai loại
+gánh nặng này giải thích vì sao chi phí quốc tế hóa giai đoạn đầu thường
+cao, tạo ra giai đoạn hiệu quả giảm trước khi doanh nghiệp tích lũy đủ
+tri thức và quan hệ để thu được lợi ích từ mở rộng quốc tế (Lu \&
+Beamish, 2004; Contractor et al., 2003).
+
+Tuy nhiên, mô hình Uppsala cổ điển được xây dựng trong bối cảnh tiền số
+và tiền nền tảng (pre-platform), nên đã bị thách thức đáng kể trong thập
+kỷ gần đây. Các nghiên cứu về born-global firms, tức doanh nghiệp quốc
+tế hóa ngay từ giai đoạn đầu mà không theo trình tự tuần tự, và doanh
+nghiệp nền tảng, tức doanh nghiệp công nghệ tận dụng nền tảng số để vươn
+ra thị trường quốc tế không cần hiện diện vật lý, cho thấy logic của
+Uppsala không còn phổ quát (Stallkamp \& Schotter, 2021; Yang et al.,
+2025). Trong luận án này, mô hình Uppsala không bị bác bỏ, mà được tái
+định vị như một lớp nền giải thích chi phí học hỏi và bất định trong
+giai đoạn đầu quốc tế hóa, còn cơ chế học hỏi được mở rộng để bao gồm
+``học hỏi tăng cường bằng dữ liệu số'' (data-augmented learning) trong
+kỷ nguyên chuyển đổi số, nơi dữ liệu từ thị trường nước ngoài có thể
+được thu thập, xử lý và phân tích nhanh hơn nhiều so với trước
+(Banalieva \& Dhanaraj, 2019).
+
+Việc tái định vị mô hình Uppsala trong luận án dựa trên một phân biệt
+khái niệm quan trọng giữa cơ chế học hỏi và trình tự thâm nhập. Vahlne
+(2020), trong bản cập nhật gần đây nhất do chính đồng tác giả của mô
+hình gốc thực hiện, nhấn mạnh rằng cốt lõi bền vững của truyền thống
+Uppsala không nằm ở trình tự bốn bước mang tính mô tả, mà nằm ở cơ chế
+tiến hóa: doanh nghiệp tích lũy tri thức trải nghiệm, điều chỉnh cam
+kết, và tái cấu trúc vị trí mạng lưới theo thời gian. Cách diễn giải này
+tách phần lõi lý thuyết khỏi phần biểu hiện thực nghiệm, do đó giải
+phóng mô hình khỏi sự phụ thuộc vào bối cảnh tiền số. Tổng quan hệ thống
+của Wach (2021) về quá trình tiến hóa của mô hình Uppsala qua bảy phiên
+bản từ năm 1977 đến 2017 củng cố cách đọc này: dù các mô hình theo giai
+đoạn thường bị phê phán, chuỗi điều chỉnh kế tiếp của chính các tác giả
+gốc cho thấy tính bền vững và khả năng thích ứng của truyền thống
+Uppsala, qua đó biện minh cho quyết định của luận án giữ mô hình như một
+lớp nền giải thích thay vì bác bỏ nó. Đối với các doanh nghiệp ở những
+nền kinh tế chuyển đổi và mới nổi tại châu Á, cơ chế học hỏi trải nghiệm
+có hàm ý trực tiếp với hình dạng phi tuyến của quan hệ quốc tế hóa và
+hiệu quả: giai đoạn đầu của đường cong, nơi hiệu quả suy giảm, phản ánh
+chính chi phí học hỏi và chi phí của gánh nặng người nước ngoài chưa
+được khấu hao, trong khi giai đoạn giữa phản ánh lợi ích thu được khi
+tri thức trải nghiệm đạt ngưỡng tới hạn (Lu \& Beamish, 2004). Hennart
+(2007) bổ sung một cảnh báo lý thuyết quan trọng rằng quan hệ giữa mức
+độ đa quốc gia và hiệu quả không phải là một quy luật phổ quát tự thân,
+mà phụ thuộc vào bản chất của tài sản đặc thù mà doanh nghiệp khai thác
+xuyên biên giới; lập luận này củng cố cách tiếp cận của luận án, theo đó
+cơ chế học hỏi của Uppsala cần được đặt trong tương tác với năng lực và
+bối cảnh, thay vì được xem là động lực độc lập.
+
+\hypertarget{luxfd-thuyux1ebft-dux1ef1a-truxean-nguux1ed3n-lux1ef1c}{%
+\subsection{2.2.2 Lý thuyết dựa trên nguồn
+lực}\label{luxfd-thuyux1ebft-dux1ef1a-truxean-nguux1ed3n-lux1ef1c}}
+
+Lý thuyết dựa trên nguồn lực (Resource-Based View, RBV) do Wernerfelt
+(1984) đặt nền và được Barney (1991) hệ thống hóa thành một khung lý
+thuyết có ảnh hưởng bền vững. lý thuyết dựa trên nguồn lực cho rằng
+doanh nghiệp không chỉ là tập hợp các hoạt động giá trị (value chain) mà
+còn là bó nguồn lực (bundle of resources), và sự khác biệt về hiệu quả
+lâu dài giữa các doanh nghiệp bắt nguồn từ sự khác biệt trong sở hữu và
+khai thác các nguồn lực thỏa mãn tiêu chí VRIN: có giá trị (Valuable),
+hiếm có (Rare), khó sao chép (Inimitable), và khó thay thế
+(Non-substitutable).
+
+Áp dụng vào bối cảnh quốc tế hóa, lý thuyết dựa trên nguồn lực giải
+thích vì sao cùng một mức độ FSTS nhưng các doanh nghiệp lại đạt hiệu
+quả rất khác nhau: những doanh nghiệp sở hữu năng lực công nghệ, năng
+lực quản trị vượt trội, và năng lực học hỏi mạnh hơn sẽ chuyển hóa quốc
+tế hóa thành hiệu quả tốt hơn do họ có thể giảm chi phí gánh nặng người
+nước ngoài và khai thác lợi thế cạnh tranh trên phạm vi quốc tế hiệu quả
+hơn (Hitt et al., 2006; Peng, 2001). Cùng mức độ quốc tế hóa, doanh
+nghiệp có nguồn lực yếu hơn sẽ gánh chịu chi phí điều phối và rủi ro lớn
+hơn, trong khi doanh nghiệp có nguồn lực VRIN mạnh hơn có thể biến những
+thách thức đó thành lợi thế cạnh tranh.
+
+Trong bối cảnh đương đại, lý thuyết dựa trên nguồn lực được mở rộng bằng
+lý thuyết năng lực động (dynamic capabilities) của Teece et al.~(1997),
+nhấn mạnh khả năng của doanh nghiệp trong việc tích hợp, xây dựng và tái
+cấu hình các năng lực nội bộ để ứng phó với môi trường cạnh tranh thay
+đổi nhanh chóng. Trong kỷ nguyên số, năng lực công nghệ (TCI), theo phân
+biệt của luận án, được xem là một dạng năng lực động quan trọng, cho
+phép doanh nghiệp tái cấu hình nguồn lực và mô hình kinh doanh để ứng
+phó với bất định trong quốc tế hóa (Bhandari et al., 2023; Verhoef et
+al., 2021). DAI, chỉ số áp dụng số nền tảng (biến đại diện Tầng 1) đo
+lường sự hiện diện website, phản ánh mức độ chấp nhận kỹ thuật số cơ bản
+chứ không phải năng lực động theo nghĩa Teece et al.~(1997). lý thuyết
+dựa trên nguồn lực cung cấp nền lý thuyết trực tiếp cho giả thuyết H2 về
+vai trò điều tiết của TCI, trong khi H3 về DAI được neo đậu trong Khung
+chấp nhận số nền tảng (Banalieva \& Dhanaraj, 2019).
+
+Lý thuyết năng lực động cần được phân tích sâu hơn để làm rõ vì sao TCI
+được định vị như một dạng năng lực bậc cao trong khung của luận án.
+Eisenhardt và Martin (2000) tinh chỉnh khái niệm năng lực động bằng cách
+lập luận rằng các năng lực này về bản chất là những quy trình tổ chức có
+thể nhận diện được, và giá trị cạnh tranh của chúng phụ thuộc vào tính
+kịp thời cùng khả năng tái cấu hình nguồn lực trong môi trường biến
+động. Teece (2007) làm rõ thêm vi nền tảng của năng lực động qua ba nhóm
+hoạt động: cảm nhận cơ hội, nắm bắt cơ hội, và tái cấu hình tài sản; ba
+nhóm hoạt động này tương ứng trực tiếp với những đòi hỏi mà doanh nghiệp
+phải đáp ứng khi mở rộng ra thị trường nước ngoài bất định. Theo logic
+đó, năng lực công nghệ không chỉ là một kho tài sản tĩnh thỏa mãn tiêu
+chí VRIN, mà còn là cơ chế cho phép doanh nghiệp hấp thụ tri thức mới và
+tái triển khai nguồn lực khi điều kiện thị trường quốc tế thay đổi
+(Cohen \& Levinthal, 1990; Teece et al., 1997). Sự phân biệt giữa năng
+lực bậc một, tức năng lực vận hành thường nhật, và năng lực bậc cao, tức
+năng lực tái cấu hình, cung cấp cơ sở lý thuyết cho việc tách TCI khỏi
+DAI: TCI mang đặc trưng của năng lực bậc cao gắn với chiều sâu tổ chức,
+trong khi DAI gần với năng lực vận hành bề mặt, dễ tiếp cận và dễ sao
+chép hơn, do đó khó tạo ra lợi thế bền vững theo tinh thần lý thuyết dựa
+trên nguồn lực (Barney, 1991). Phân tầng này giải thích vì sao luận án
+dự báo hai cấu trúc số vận hành qua hai cơ chế khác nhau trong quan hệ
+quốc tế hóa và hiệu quả, thay vì giả định một hiệu ứng đồng nhất.
+
+Một bổ sung lý thuyết cần thiết cho lý thuyết dựa trên nguồn lực trong
+bối cảnh quốc tế hóa là sự phân biệt giữa tạo ra giá trị và chiếm giữ
+giá trị. Teece (1986), trong lập luận kinh điển về việc thu lợi từ đổi
+mới công nghệ, chỉ ra rằng việc sở hữu một năng lực có giá trị chưa đủ
+để bảo đảm doanh nghiệp chiếm giữ được phần lợi ích kinh tế từ năng lực
+đó; khả năng chiếm giữ giá trị còn phụ thuộc vào chế độ bảo hộ quyền sở
+hữu (appropriability regime) và quyền kiểm soát các tài sản bổ trợ
+chuyên biệt. Trong bối cảnh quốc tế hóa ở các nền kinh tế đang phát
+triển, nơi chế độ bảo hộ thường yếu và các tài sản bổ trợ như kênh phân
+phối hay tài chính thương mại còn khan hiếm, lập luận của Teece (1986)
+hàm ý rằng cùng một năng lực công nghệ có thể chuyển hóa thành hiệu quả
+ở mức độ rất khác nhau tùy theo môi trường thể chế. Luận điểm này tạo
+cầu nối lý thuyết trực tiếp giữa lý thuyết dựa trên nguồn lực và lý
+thuyết thể chế, đồng thời báo trước cơ chế thay thế giữa thể chế và năng
+lực được phát biểu trong giả thuyết H5: nơi thể chế yếu, biên đóng góp
+của năng lực doanh nghiệp lớn hơn vì nó bù đắp cho khoảng trống thể chế
+trong việc bảo đảm chiếm giữ giá trị. Bằng chứng cấp doanh nghiệp gần
+đây của Purkayastha và cộng sự (2024) củng cố hướng lập luận này khi cho
+thấy rằng năng lực quản lý đầu tư nguồn lực và năng lực triển khai nguồn
+lực chiến lược điều tiết đáng kể cách quốc tế hóa chuyển hóa thành hiệu
+quả, nghĩa là hiệu quả của quốc tế hóa phụ thuộc không chỉ vào việc
+doanh nghiệp sở hữu nguồn lực gì mà còn vào việc doanh nghiệp triển khai
+và tái phân bổ nguồn lực đó hiệu quả đến đâu, đúng theo tinh thần năng
+lực động của Teece và cộng sự (1997).
+
+\hypertarget{luxfd-thuyux1ebft-thux1ec3-chux1ebf}{%
+\subsection{2.2.3 Lý thuyết thể
+chế}\label{luxfd-thuyux1ebft-thux1ec3-chux1ebf}}
+
+Lý thuyết thể chế (Institutional Theory) trong kinh doanh quốc tế rút từ
+nhiều nguồn lý luận: kinh tế học thể chế mới của North (1990), xã hội
+học thể chế của Scott (1995), và lý thuyết về khoảng trống thể chế của
+Khanna và Palepu (2010). Điểm chung của các tiếp cận này là nhấn mạnh
+vai trò của môi trường thể chế, cả chính thức lẫn phi chính thức, trong
+việc định hình chiến lược và kết quả kinh doanh của doanh nghiệp.
+
+North (1990) chỉ ra rằng thể chế hiệu quả làm giảm chi phí giao dịch,
+bảo vệ quyền sở hữu trí tuệ, và tạo ra môi trường khuyến khích đầu tư
+dài hạn. Ngược lại, ở các nền kinh tế đang phát triển, sự vắng mặt hoặc
+yếu kém của các thể chế trung gian thị trường, từ hệ thống pháp lý đến
+thị trường vốn, từ tổ chức đánh giá tín nhiệm đến hiệp hội ngành nghề,
+tạo ra ``khoảng trống thể chế'' (institutional voids) làm tăng chi phí
+giao dịch và rủi ro cho doanh nghiệp khi hoạt động hoặc mở rộng ra nước
+ngoài (Khanna \& Palepu, 2010).
+
+Trong tài liệu về quốc tế hóa và hiệu quả, bằng chứng phân tích tổng hợp
+của Marano et al.~(2016), phân tích 170 nghiên cứu với 32 quốc gia giai
+đoạn 1972--2012, cho thấy thể chế quốc gia nguồn điều tiết đáng kể mối
+quan hệ quốc tế hóa, hiệu quả, với doanh nghiệp từ các nền kinh tế có
+thể chế yếu hơn có xu hướng thu được lợi ích thấp hơn hoặc thậm chí tổn
+thất từ quốc tế hóa. Cuervo-Cazurra et al.~(2018) bổ sung rằng bất định
+thể chế ở quốc gia nguồn (home country uncertainty) không chỉ tạo ra
+thách thức mà còn có thể xây dựng năng lực quản lý bất định đặc thù,
+giúp doanh nghiệp ở các thị trường mới nổi cạnh tranh hiệu quả hơn ở các
+thị trường nước ngoài có đặc điểm tương tự. Lý thuyết thể chế cung cấp
+nền tảng lý luận cho giả thuyết H5 và cho khung ICRV trong luận án.
+
+Để vận hành hóa bối cảnh thể chế một cách chặt chẽ, luận án dựa trên một
+nền tảng lý luận rộng hơn về kinh tế học thể chế và quan điểm dựa trên
+thể chế trong chiến lược quốc tế. Williamson (2000) phân tầng các cấp độ
+phân tích thể chế từ những ràng buộc phi chính thức ăn sâu vào văn hóa,
+đến môi trường thể chế chính thức, đến quản trị giao dịch, và sau cùng
+là phân bổ nguồn lực; cách phân tầng này làm rõ rằng chất lượng thể chế
+tác động đến doanh nghiệp qua nhiều kênh đồng thời, chứ không chỉ qua
+một chỉ số tổng hợp duy nhất. Peng và cộng sự (2008) phát triển quan
+điểm dựa trên thể chế như một trụ cột thứ ba của chiến lược quốc tế, bên
+cạnh quan điểm dựa trên ngành và quan điểm dựa trên nguồn lực, lập luận
+rằng ở các nền kinh tế mới nổi, thể chế không chỉ là bối cảnh nền mà là
+yếu tố trực tiếp định hình lựa chọn chiến lược của doanh nghiệp. Peng
+(2003) bổ sung góc nhìn động về quá trình chuyển đổi thể chế, theo đó
+các doanh nghiệp ở những nền kinh tế đang chuyển đổi điều chỉnh chiến
+lược từ dựa trên quan hệ sang dựa trên quy tắc khi khung thể chế chính
+thức trưởng thành; góc nhìn này cung cấp cơ sở lý thuyết cho giả thuyết
+H6 về dị biệt thời gian của quan hệ quốc tế hóa và hiệu quả ở các nền
+kinh tế chuyển đổi nhanh. Ngoài ra, Kim và cộng sự (2026) định nghĩa
+năng lực thể chế như khả năng thực thi chính sách của các tổ chức công,
+phân tách thành chiều tổ chức và chiều quản trị, cung cấp một khung phân
+tích chính thức làm cơ sở cho việc phân loại sáu chế độ thể chế trong
+khung ICRV. Tổng hợp các tiếp cận này, luận án xem khung ICRV không phải
+là một biến phân loại tùy nghi, mà là sự vận hành hóa có hệ thống của
+một phổ thể chế đa chiều, neo đậu trong lý thuyết thể chế đương đại.
+
+\hypertarget{luxfd-thuyux1ebft-buxe0n-ux111ux1ea1p-quux1ed1c-tux1ebf-huxf3a-cux1ee7a-doanh-nghiux1ec7p-nux1ec1n-kinh-tux1ebf-mux1edbi-nux1ed5i}{%
+\subsection{2.2.3.1 Lý thuyết bàn đạp: quốc tế hóa của doanh nghiệp nền
+kinh tế mới
+nổi}\label{luxfd-thuyux1ebft-buxe0n-ux111ux1ea1p-quux1ed1c-tux1ebf-huxf3a-cux1ee7a-doanh-nghiux1ec7p-nux1ec1n-kinh-tux1ebf-mux1edbi-nux1ed5i}}
+
+Lý thuyết bàn đạp (springboard theory) do Luo và Tung (2007) đề xuất bổ
+sung một góc nhìn đặc thù cho quốc tế hóa của doanh nghiệp từ các nền
+kinh tế mới nổi mà các lý thuyết có gốc ở nước phát triển chưa nắm bắt
+đầy đủ. Theo lý thuyết này, doanh nghiệp mới nổi sử dụng mở rộng quốc tế
+như một bàn đạp chiến lược để nhanh chóng thu nhận các nguồn lực chiến
+lược còn thiếu, gồm công nghệ, thương hiệu, tri thức quản trị và tiếp
+cận thị trường, qua đó bù đắp bất lợi của người đến sau và rút ngắn
+khoảng cách năng lực với các doanh nghiệp dẫn đầu, tức nhảy cóc về năng
+lực. Khác với logic khai thác lợi thế sẵn có trong các lý thuyết quốc tế
+hóa cổ điển, lý thuyết bàn đạp nhấn mạnh động cơ tìm kiếm tài sản: doanh
+nghiệp quốc tế hóa không chỉ để bán cái đã có mà còn để học hỏi và thâu
+nhận cái chưa có.
+
+Lý thuyết bàn đạp đặc biệt phù hợp với bối cảnh của luận án, vốn tập
+trung vào các nền kinh tế mới nổi và chuyển đổi ở châu Á như Trung Quốc,
+Việt Nam và Ấn Độ, nơi doanh nghiệp đối mặt đồng thời với bất lợi của
+người đến sau và khoảng trống thể chế quê nhà. Nó bổ sung cho khung của
+luận án theo hai hướng. Thứ nhất, nó soi sáng lại nhánh đi lên của quan
+hệ chữ U ngược: ở giai đoạn đầu, hiệu quả chưa cao không chỉ vì chi phí
+học hỏi theo mô hình Uppsala mà còn vì doanh nghiệp đang chủ động đầu tư
+để xây dựng và thâu nhận năng lực, một quá trình mà phần thưởng chỉ hiện
+thực hóa khi tài sản chiến lược được tích lũy và khai thác. Thứ hai, nó
+kết nối trực tiếp với trục thể chế: lý thuyết bàn đạp lập luận rằng
+chính khoảng trống và bất lợi thể chế quê nhà thúc đẩy doanh nghiệp mới
+nổi vươn ra ngoài để bù đắp, cộng hưởng với lập luận điều tiết thể chế
+ICRV và với quan sát của Cuervo-Cazurra et al.~(2018) rằng bất định thể
+chế quê nhà có thể bồi đắp năng lực quản lý bất định đặc thù.
+
+Cần phân định rõ phạm vi áp dụng để tránh suy luận quá đà. Lý thuyết bàn
+đạp được phát triển chủ yếu cho đầu tư trực tiếp ra nước ngoài mang tính
+thâu tóm tài sản, trong khi luận án vận hành hóa quốc tế hóa bằng cường
+độ xuất khẩu (FSTS), tức chiều bán hàng ra nước ngoài chứ không phải
+chiều đầu tư. Do đó luận án sử dụng lý thuyết bàn đạp như một lăng kính
+động cơ bổ trợ giải thích vì sao doanh nghiệp mới nổi theo đuổi quốc tế
+hóa bất chấp chi phí giai đoạn đầu, chứ không khẳng định rằng cường độ
+xuất khẩu đo lường trực tiếp hành vi bàn đạp. Ở chiều xuất khẩu, một cơ
+chế tương đồng vận hành qua học hỏi nhờ xuất khẩu và tích lũy năng lực
+từ tiếp xúc thị trường quốc tế, một con đường thu nhận tri thức song
+song với con đường thâu tóm tài sản mà lý thuyết bàn đạp mô tả.
+
+\hypertarget{luxfd-thuyux1ebft-thux1b0ux1ee3ng-tux1ea7ng-quux1ea3n-trux1ecb}{%
+\subsection{2.2.4 Lý thuyết thượng tầng quản
+trị}\label{luxfd-thuyux1ebft-thux1b0ux1ee3ng-tux1ea7ng-quux1ea3n-trux1ecb}}
+
+Lý thuyết thượng tầng quản trị (Upper Echelons Theory) do Hambrick và
+Mason (1984) đề xuất và được Hambrick (2007) cập nhật, cho rằng các
+quyết định chiến lược lớn và kết quả của tổ chức không phải là sản phẩm
+của các quy trình duy lý hoàn toàn, mà phản ánh đặc điểm nhận thức, giá
+trị và kinh nghiệm của nhà quản trị cấp cao. Nói cách khác, ``tổ chức là
+sự phản chiếu của nhà quản trị đỉnh cao'' (Hambrick \& Mason, 1984, tr.
+193).
+
+Trong bối cảnh quốc tế hóa, lý thuyết thượng tầng quản trị có hai hàm ý
+trực tiếp. Thứ nhất, kinh nghiệm quốc tế của nhà quản trị cấp cao, được
+đo bằng số năm kinh nghiệm làm việc hoặc học tập ở nước ngoài, hay tiếp
+xúc với thị trường quốc tế, giúp giảm nhận thức về gánh nặng người nước
+ngoài và nâng cao khả năng đánh giá cơ hội, quản trị rủi ro ở thị trường
+quốc tế (Hsu et al., 2013; Sambharya, 1996). Thứ hai, sự đa dạng giới
+tính trong lãnh đạo, đặc biệt là sự hiện diện của quản trị viên nữ ở các
+vị trí lãnh đạo, liên quan đến nhận thức chiến lược đa chiều hơn và thực
+tiễn quản trị rủi ro thận trọng hơn, qua đó có tác động tích cực đến
+hiệu quả hoạt động kinh doanh của doanh nghiệp trong quá trình quốc tế
+hóa (Post \& Byron, 2015). Những hàm ý này cung cấp cơ sở lý thuyết cho
+giả thuyết H4 về vai trò điều tiết của đặc điểm nhà quản trị cấp cao.
+
+Cơ sở lý luận của lý thuyết thượng tầng quản trị trong bối cảnh quốc tế
+hóa được củng cố thêm bởi luận điểm trung tâm rằng quyết định chiến lược
+lớn được lọc qua trường nhận thức hạn chế và hệ giá trị của nhà quản trị
+cấp cao, đặc biệt khi nhiệm vụ mang tính bất định cao và quá tải thông
+tin (Hambrick, 2007). Mở rộng quốc tế là một trong những quyết định
+chiến lược điển hình cho điều kiện này, bởi nó đòi hỏi nhà quản trị đánh
+giá cơ hội và rủi ro ở những thị trường mà thông tin không đầy đủ và
+khung tham chiếu quen thuộc không còn phù hợp. Kinh nghiệm quốc tế của
+đội ngũ quản trị cấp cao, theo Sambharya (1996), gắn với mức độ và phạm
+vi của chiến lược đa quốc gia, vì kinh nghiệm này mở rộng trường nhận
+thức và giảm thiên lệch nhận thức gắn với gánh nặng người nước ngoài.
+Nielsen (2010) tinh chỉnh thêm bằng cách chỉ ra rằng tác động của tính
+quốc tế của đội ngũ quản trị cấp cao lên hiệu quả có thể vận hành qua
+những cơ chế trung gian liên quan đến lựa chọn phương thức thâm nhập,
+hàm ý rằng đặc điểm nhà quản trị không tác động trực tiếp lên hiệu quả
+mà điều tiết chất lượng của các quyết định quốc tế hóa. Trong khung của
+luận án, hai hàm ý này hội tụ vào giả thuyết H4: kinh nghiệm và đa dạng
+giới tính của nhà quản trị cấp cao điều tiết khả năng doanh nghiệp
+chuyển hóa quốc tế hóa thành hiệu quả, thông qua việc nâng cao chất
+lượng nhận thức chiến lược và sự thận trọng trong quản trị rủi ro quốc
+tế (Post \& Byron, 2015).
+
+Một bước tiến lý thuyết gần đây làm sâu sắc thêm nền tảng vi mô của giả
+thuyết H4. Grego và cộng sự (2025), qua tổng quan hệ thống hơn hai thập
+kỷ nghiên cứu cấp cá nhân trong kinh doanh quốc tế, chỉ ra rằng các lý
+thuyết truyền thống, gồm cả lý thuyết nội hóa và mô hình Uppsala, đều
+giả định nhà quản trị là tác nhân duy lý có giới hạn, ra quyết định quốc
+tế hóa chủ yếu bằng tính toán lợi ích chi phí lạnh lùng, do đó bỏ qua
+vai trò của nhận thức cảm tính. Các tác giả đề xuất một mô hình quyết
+định quốc tế hóa được kiến tạo bởi cảm xúc, theo đó nhận thức cảm tính
+và nhận thức phi cảm tính cùng định hình tri thức, kinh nghiệm, thái độ
+và đánh giá rủi ro của nhà quản trị. Luận điểm này có hai hàm ý cho luận
+án. Thứ nhất, nó củng cố cách đọc rằng tác động của đặc điểm nhà quản
+trị lên quan hệ quốc tế hóa và hiệu quả là không đồng nhất và không quy
+giản về một cơ chế duy lý đơn giản, nhất quán với phát hiện thực nghiệm
+của luận án rằng hệ số của biến quản trị nữ phụ thuộc thước đo và bối
+cảnh. Thứ hai, nó cảnh báo rằng các thước đo đặc điểm nhà quản trị quan
+sát được ở dữ liệu doanh nghiệp, như kinh nghiệm và giới tính, chỉ là
+chỉ báo bề mặt của một quá trình nhận thức phức tạp hơn, nên các hệ số
+ước lượng cần được diễn giải thận trọng thay vì gán nhân quả trực tiếp,
+đúng theo lập trường mà luận án giữ trong Chương 4 và Chương 5. Bằng
+chứng của Pan, Verbeke và Yuan (2021) về lãnh đạo doanh nghiệp tại Trung
+Quốc minh họa cùng nguyên tắc ở một góc khác: tác động của lãnh đạo
+chuyển hóa lên tinh thần khởi nghiệp doanh nghiệp không có ý nghĩa thống
+kê khi bỏ qua các điều kiện biên, nhưng trở nên có ý nghĩa khi đưa vào
+các biến điều tiết về đội ngũ quản trị, môi trường và thiết kế tổ chức,
+một mô thức song hành với luận điểm trung tâm của luận án rằng hiệu ứng
+chỉ bộc lộ đúng khi được điều kiện hóa theo bối cảnh.
+
+\hypertarget{lux1edbp-mux1edf-rux1ed9ng-lux103ng-kuxednh-nux103ng-lux1ef1c-sux1ed1}{%
+\subsection{2.2.5 Lớp mở rộng: Lăng kính năng lực
+số}\label{lux1edbp-mux1edf-rux1ed9ng-lux103ng-kuxednh-nux103ng-lux1ef1c-sux1ed1}}
+
+Bốn lý thuyết nền trên được xây dựng chủ yếu trong bối cảnh tiền số
+(pre-digital). Sự phát triển mạnh mẽ của kinh tế số và trí tuệ nhân tạo
+từ cuối thập niên 2010 đến nay đặt ra yêu cầu cập nhật và mở rộng các lý
+thuyết kinh doanh quốc tế để phản ánh logic mới của quốc tế hóa trong kỷ
+nguyên số.
+
+Banalieva và Dhanaraj (2019) là một trong những nghiên cứu đầu tiên đề
+xuất cập nhật lý thuyết nội hóa (internalization theory) cho nền kinh tế
+số, lập luận rằng dữ liệu số và tương tác dựa trên nền tảng làm giảm sự
+phụ thuộc vào hiện diện vật lý và thay đổi cơ bản logic về quyết định
+nội hóa. Stallkamp và Schotter (2021) mở rộng luận điểm này bằng cách
+chỉ ra rằng các doanh nghiệp nền tảng (platform firms) quốc tế hóa theo
+logic đa diện (multi-sided) khác hẳn với các MNCs truyền thống, với hiệu
+ứng mạng lưới tạo ra lợi thế quy mô không bị ràng buộc bởi biên giới địa
+lý. Verhoef et al.~(2021) cung cấp khung khái niệm phân tầng ba cấp độ:
+số hóa thông tin (digitization), số hóa quy trình (digitalization), và
+chuyển đổi số toàn diện (digital transformation), nhấn mạnh rằng các cấp
+độ này khác nhau về chiều sâu tổ chức và tác động kinh doanh. Yang et
+al.~(2025) bổ sung bằng tổng quan hệ thống về quốc tế hóa của các doanh
+nghiệp số, phác thảo các lý thuyết cần điều chỉnh và hướng nghiên cứu
+tiếp theo. Đặc biệt liên quan đến luận án, Drori và cộng sự (2024), cũng
+từ lăng kính lý thuyết nội hóa, kiểm định trực tiếp trên mẫu 2.370 doanh
+nghiệp Mỹ trong giai đoạn 18 năm và phát hiện rằng số hóa làm giảm khiếm
+khuyết thị trường nhưng mức độ giảm thay đổi theo cường độ số hóa của
+ngành, đồng thời các hiệu ứng tương tác này biến đổi theo thời gian khi
+đổi mới số lan tỏa rộng hơn. Phát hiện này cung cấp bằng chứng thực
+nghiệm gần đây và trực tiếp cho hai luận điểm cốt lõi của luận án: vai
+trò của năng lực số đối với quốc tế hóa là phụ thuộc bối cảnh (ở đây là
+cường độ số hóa của ngành, song hành với lập luận về phụ thuộc thể chế
+của luận án) và phụ thuộc thời gian, chứ không phải một hiệu ứng đồng
+nhất và bất biến.
+
+Sự phân biệt giữa hai cấu trúc số có nền tảng đo lường vững chắc trong
+tài liệu. Bharadwaj et al.~(2013) lập luận rằng năng lực công nghệ thông
+tin (IT capability) và chiến lược kinh doanh số (digital business
+strategy) có mạng quan hệ lý thuyết khác nhau, nghĩa là chúng liên hệ
+với các tiền tố và hệ quả khác nhau, do đó không nên gộp thành một cấu
+trúc. Coltman et al.~(2008) cung cấp bốn tiêu chí để phân biệt cấu trúc
+formative với reflective, làm cơ sở phương pháp luận cho việc xây dựng
+TCI và DAI như hai chỉ số hợp thành formative độc lập thay vì các chỉ
+báo của một cấu trúc tiềm ẩn chung. Trên nền đó, luận án định vị TCI ở
+truyền thống năng lực công nghệ hóa công nghiệp và năng lực hấp thụ, vốn
+xem năng lực công nghệ là chiều sâu năng lực nội tại được tích lũy qua
+đầu tư và học hỏi (Cohen \& Levinthal, 1990; Lall, 1992), trong khi DAI
+phản ánh mức độ áp dụng công cụ số ở giao diện ngoại tại. Sự tách biệt
+khái niệm này không chỉ là tinh tế đo lường mà có hệ quả lý thuyết trực
+tiếp: nếu hai cấu trúc vận hành qua hai cơ chế khác nhau, thì việc gộp
+chúng sẽ trung bình hóa hai hiệu ứng trái chiều và che khuất chính cơ
+chế mà nhà nghiên cứu và nhà hoạch định chính sách cần phân biệt.
+
+Sự trỗi dậy của trí tuệ nhân tạo trong những năm gần đây làm sâu sắc
+thêm, chứ không làm thay đổi, logic phân tách hai cấu trúc số của luận
+án. Babina và cộng sự (2024) cung cấp bằng chứng quy mô lớn rằng việc áp
+dụng trí tuệ nhân tạo gắn với tăng trưởng doanh nghiệp và đổi mới sản
+phẩm, song chủ yếu thông qua mở rộng quy mô và phạm vi sản phẩm ở những
+doanh nghiệp vốn đã có chiều sâu năng lực, chứ không phân bổ đồng đều
+cho mọi doanh nghiệp áp dụng công cụ số. Phát hiện này nhất quán với
+``đường cong J năng suất'' của Brynjolfsson và cộng sự (2021), theo đó
+lợi ích năng suất của các công nghệ đa dụng chỉ hiện thực hóa sau một độ
+trễ đầu tư vào tài sản vô hình bổ trợ, hàm ý rằng việc chấp nhận công cụ
+số bề mặt (DAI) và việc tích lũy năng lực tổ chức sâu (TCI) tách biệt cả
+về thời gian lẫn cơ chế tạo giá trị. Đồng thời, một khối bằng chứng vĩ
+mô cho thấy năng lực số phân bố cực kỳ không đồng đều giữa các nền kinh
+tế: khoảng cách kết nối internet vẫn còn rất lớn ở các nền kinh tế thu
+nhập thấp (Pirlea \& Corso, 2026), và bất bình đẳng trong tiếp cận cũng
+như sử dụng trí tuệ nhân tạo còn sâu sắc hơn (Mahler, Wang \& Weber,
+2026). Katz và Callorda (2018) định lượng đóng góp kinh tế của băng
+thông rộng và số hóa, cho thấy hiệu ứng của hạ tầng số lên tăng trưởng
+phụ thuộc vào ngưỡng phát triển và chất lượng quy định. Những bằng chứng
+vĩ mô này không phải là bối cảnh ngoài lề mà có hàm ý lý thuyết trực
+tiếp đối với khung của luận án: vì hạ tầng và kỹ năng số là điều kiện
+cần để công cụ số phát huy tác dụng phối hợp xuyên biên giới, hiệu ứng
+điều tiết của DAI được dự báo là phụ thuộc bối cảnh thể chế chứ không
+phổ quát, một dự đoán có điều kiện được phát biểu tường minh trong giả
+thuyết H3 và H5.
+
+Trong luận án, lớp mở rộng về năng lực số đóng vai trò mở rộng lý thuyết
+dựa trên nguồn lực bằng cách xác định TCI và DAI như hai loại tài sản số
+có chiều sâu và cơ chế vận hành khác nhau, đồng thời mở rộng Uppsala
+bằng cơ chế học hỏi dựa trên dữ liệu số. Sự tích hợp này tạo thành lớp
+thứ năm của khung lý thuyết, bổ sung cho bốn lý thuyết kinh điển để tạo
+thành một khung giải thích hoàn chỉnh và phù hợp với thực tiễn kinh
+doanh đương đại. Cách tích hợp năm lớp này, thay vì chọn một hoặc hai lý
+thuyết làm nền như đa số nghiên cứu trước, chính là phản hồi trực tiếp
+cho khoảng trống thứ nhất đã nêu ở Chương 1: không một lý thuyết đơn lẻ
+nào đủ sức giải thích mức dị biệt cao của quan hệ quốc tế hóa và hiệu
+quả, và chỉ một khung đa tầng tích hợp mới nắm bắt được đồng thời chi
+phí học hỏi (Uppsala), khác biệt năng lực (RBV), bối cảnh thể chế
+(Institutional Theory), đặc điểm nhà quản trị (Upper Echelons) và logic
+số (Digital Capability Lens).
+
+\hypertarget{tux1ed5ng-hux1ee3p-khung-luxfd-thuyux1ebft-nguyuxean-tux1eafc-tuxedch-hux1ee3p-ux111a-tux1ea7ng}{%
+\subsection{2.2.6 Tổng hợp khung lý thuyết: nguyên tắc tích hợp đa
+tầng}\label{tux1ed5ng-hux1ee3p-khung-luxfd-thuyux1ebft-nguyuxean-tux1eafc-tuxedch-hux1ee3p-ux111a-tux1ea7ng}}
+
+Việc đặt cạnh nhau năm lý thuyết nền không tự động tạo thành một khung
+tích hợp; điều phân biệt một khung tích hợp với một danh sách lý thuyết
+rời rạc là sự minh định về cách các lý thuyết liên kết với nhau theo cấp
+độ phân tích và về điều kiện biên áp dụng của từng lý thuyết. Tiểu mục
+này tổng hợp năm lớp lý thuyết thành một logic tích hợp duy nhất, làm
+nền cho khung CDCM được trình bày ở Mục 2.5.
+
+Nguyên tắc tổ chức thứ nhất là phân tầng theo cấp độ phân tích. Mỗi lý
+thuyết soi sáng một tầng nguyên nhân riêng biệt nhưng vận hành đồng
+thời: mô hình Uppsala định vị cơ chế ở cấp quá trình, giải thích chi phí
+học hỏi và động thái tích lũy tri thức theo thời gian; lý thuyết dựa
+trên nguồn lực định vị cơ chế ở cấp doanh nghiệp, giải thích vì sao cùng
+một mức quốc tế hóa lại tạo ra hiệu quả khác nhau giữa các doanh nghiệp;
+lý thuyết thể chế định vị cơ chế ở cấp bối cảnh quốc gia, giải thích
+biến thiên theo môi trường nền; lý thuyết thượng tầng quản trị định vị
+cơ chế ở cấp cá nhân người ra quyết định; và lăng kính năng lực số bổ
+sung một chiều ngang cắt qua cả bốn tầng, phản ánh cách công nghệ số tái
+định hình chi phí học hỏi, bản chất nguồn lực, hiệu lực thể chế và năng
+lực nhận thức của nhà quản trị. Quan điểm dựa trên thể chế trong chiến
+lược quốc tế của Peng và cộng sự (2008), vốn đề xuất thể chế như trụ cột
+thứ ba bên cạnh quan điểm dựa trên ngành và quan điểm dựa trên nguồn
+lực, cung cấp chính cái khớp nối lý thuyết cho phép các tầng này tương
+tác thay vì tồn tại song song; trong khung của luận án, thể chế không
+chỉ là biến bối cảnh mà là yếu tố định hình hiệu lực của mọi tầng cơ chế
+còn lại.
+
+Nguyên tắc tổ chức thứ hai là bổ sung thay vì cạnh tranh. Các tranh luận
+trong tài liệu thường khung hóa các lý thuyết này như những giải thích
+đối kháng, ví dụ tranh luận giữa giải thích dựa trên năng lực và giải
+thích dựa trên thể chế cho hiệu quả hoạt động kinh doanh của doanh
+nghiệp ở các nền kinh tế mới nổi. Luận án lập luận rằng sự đối kháng này
+phần lớn là biểu kiến: vì các cơ chế vận hành ở các cấp độ khác nhau,
+chúng không loại trừ nhau mà tương tác. Kano và cộng sự (2020), trong
+tổng quan đa ngành về chuỗi giá trị toàn cầu, minh họa rõ rằng kết quả
+của doanh nghiệp khi tham gia hoạt động xuyên biên giới là sản phẩm đồng
+thời của năng lực nội tại, cấu trúc quản trị và bối cảnh thể chế, chứ
+không quy giản về bất kỳ yếu tố đơn lẻ nào. Logic tương tác này là cơ sở
+để luận án mô hình hóa các biến điều tiết một cách đồng thời thay vì
+kiểm định rời rạc từng biến.
+
+Tuy nhiên, bổ sung thay vì cạnh tranh không có nghĩa là gộp các lý
+thuyết một cách hình thức; việc kết hợp các lý thuyết có tiền đề khác
+nhau đòi hỏi minh định chính các tiền đề đó để tránh một khung tích hợp
+gượng ép (Santangelo \& Verbeke, 2022). Năm lý thuyết nền của luận án
+dựa trên những tiền đề khác nhau về đơn vị phân tích và bản chất hành
+vi: mô hình Uppsala giả định doanh nghiệp học hỏi tiệm tiến và e ngại
+bất định; lý thuyết dựa trên nguồn lực giả định tính dị biệt và khó di
+chuyển của nguồn lực; lý thuyết thể chế giả định hành vi bị ràng buộc
+bởi cấu trúc khuyến khích bên ngoài; lý thuyết thượng tầng quản trị giả
+định tính duy lý có giới hạn và vai trò của nhận thức cá nhân; và lăng
+kính năng lực số giả định công nghệ làm thay đổi chi phí giao dịch và
+bản chất tài sản. Luận án hòa giải các tiền đề này không phải bằng cách
+xem chúng loại trừ nhau mà bằng cách định vị chúng như các lát cắt bổ
+sung của cùng một quá trình: thể chế định khung không gian lựa chọn,
+năng lực và nhà quản trị quyết định cách doanh nghiệp di chuyển trong
+không gian đó, và logic số dịch chuyển các đường biên chi phí. Lý thuyết
+bàn đạp (Luo \& Tung, 2007) được tích hợp đúng theo nguyên tắc này: nó
+không thay thế mà bổ sung một tiền đề động cơ đặc thù cho doanh nghiệp
+nền kinh tế mới nổi, rằng quốc tế hóa đồng thời là phương tiện thâu nhận
+năng lực còn thiếu, và tiền đề này tương thích với chứ không mâu thuẫn
+với logic tích lũy năng lực của lý thuyết dựa trên nguồn lực, miễn là
+giữ rõ phân biệt giữa chiều đầu tư thâu tóm tài sản và chiều cường độ
+xuất khẩu mà luận án vận hành hóa.
+
+Nguyên tắc tổ chức thứ ba là điều kiện biên. Một khung tích hợp chỉ chặt
+chẽ khi nó xác định được không chỉ nơi lý thuyết áp dụng mà cả nơi lý
+thuyết thất bại. Hennart (2007) đã cảnh báo rằng quan hệ giữa mức độ đa
+quốc gia và hiệu quả không phải là quy luật phổ quát mà phụ thuộc vào
+bản chất tài sản đặc thù; điều kiện biên FIP tại các nền kinh tế đảo
+nhỏ, phát biểu trong giả thuyết H1b, chính là sự cụ thể hóa cảnh báo này
+thành một mệnh đề kiểm định được, xác định bối cảnh nơi dạng hàm chữ U
+ngược sụp đổ thành quan hệ âm đơn điệu. Việc khung tích hợp bao gồm cả
+điều kiện biên cực trị, thay vì chỉ khẳng định tính phổ quát của một
+dạng hàm, là điều phân biệt một lý thuyết có khả năng phản nghiệm với
+một mô tả thiếu ràng buộc. Tổng hợp lại, ba nguyên tắc phân tầng theo
+cấp độ, bổ sung thay vì cạnh tranh, và điều kiện biên tường minh cấu
+thành logic tích hợp của khung CDCM, và mỗi nguyên tắc được phản ánh
+trực tiếp trong cấu trúc của hệ giả thuyết H1 đến H6 cùng điều kiện biên
+H1b.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{tux1ed5ng-quan-thux1ef1c-nghiux1ec7m}{%
+\section{2.3 Tổng quan thực
+nghiệm}\label{tux1ed5ng-quan-thux1ef1c-nghiux1ec7m}}
+
+\hypertarget{giai-ux111oux1ea1n-phuxe1t-triux1ec3n-cux1ee7a-tuxe0i-liux1ec7u-vux1ec1-quan-hux1ec7-quux1ed1c-tux1ebf-huxf3a-vuxe0-hiux1ec7u-quux1ea3}{%
+\subsection{2.3.1 Giai đoạn phát triển của tài liệu về quan hệ quốc tế
+hóa và hiệu
+quả}\label{giai-ux111oux1ea1n-phuxe1t-triux1ec3n-cux1ee7a-tuxe0i-liux1ec7u-vux1ec1-quan-hux1ec7-quux1ed1c-tux1ebf-huxf3a-vuxe0-hiux1ec7u-quux1ea3}}
+
+Nghiên cứu về mối quan hệ giữa quốc tế hóa và hiệu quả hoạt động kinh
+doanh của doanh nghiệp (I--P relationship) đã trải qua hơn bốn thập kỷ
+phát triển, với những thay đổi đáng kể về cả câu hỏi nghiên cứu, phương
+pháp luận, và kết luận lý thuyết.
+
+Giai đoạn đầu (từ thập niên 1980 đến giữa thập niên 1990) đặc trưng bởi
+giả định về quan hệ tuyến tính dương giữa quốc tế hóa và hiệu quả. Grant
+(1987) và Kim et al.~(1989) cho rằng quốc tế hóa giúp doanh nghiệp khai
+thác lợi thế theo quy mô (economies of scale), lợi thế phạm vi
+(economies of scope), và phân tán rủi ro kinh tế vĩ mô, do đó dẫn đến
+hiệu quả cao hơn. Logic này trực quan và phù hợp với quan sát ban đầu về
+các MNCs thành công từ Mỹ, Châu Âu và Nhật Bản.
+
+Giai đoạn thứ hai (từ cuối thập niên 1990 đến đầu thập niên 2000) chứng
+kiến sự xuất hiện của mô hình phi tuyến, thách thức giả định tuyến tính
+giản đơn. Hitt et al.~(1997) là nghiên cứu đầu tiên kiểm định và tìm
+thấy bằng chứng cho quan hệ chữ U ngược (chữ U ngược) giữa đa dạng hóa
+sản phẩm quốc tế và hiệu quả, lập luận rằng lợi ích từ quốc tế hóa tăng
+đến một điểm tối ưu rồi suy giảm do chi phí điều phối và phức tạp tổ
+chức vượt qua lợi ích. Gomes và Ramaswamy (1999) cung cấp bằng chứng
+tương tự trong bối cảnh doanh nghiệp đa ngành. Contractor et al.~(2003)
+và Lu và Beamish (2004) tinh chỉnh mô hình phi tuyến với đề xuất ``đường
+cong chữ S ba giai đoạn'' (three-stage S-curve), theo đó hiệu quả giảm ở
+giai đoạn thâm nhập ban đầu (chi phí thiết lập), tăng ở giai đoạn khai
+thác (học hỏi tích lũy và quy mô), rồi lại giảm ở giai đoạn siêu mở rộng
+(over-extension) khi chi phí phức tạp vượt quá lợi ích. Ruigrok và
+Wagner (2003) bổ sung bằng chứng cho cơ chế học hỏi tổ chức làm nền cho
+giai đoạn giữa của đường cong, trong khi Contractor (2012) tổng hợp lý
+thuyết đa giai đoạn này cùng các phê phán phương pháp luận về cách đo
+lường và kiểm định quan hệ phi tuyến.
+
+Giai đoạn thứ ba (từ cuối thập niên 2000 đến hiện tại) chuyển trọng tâm
+sang nghiên cứu các yếu tố điều tiết (các biến điều tiết), tức điều kiện
+bối cảnh làm thay đổi hình dạng, cường độ, hoặc dấu của mối quan hệ quốc
+tế hóa và hiệu quả. Các biến điều tiết được nghiên cứu bao gồm đặc điểm
+quốc gia nguồn (Marano et al., 2016), đặc điểm ngành (Kirca et al.,
+2012), năng lực lãnh đạo cấp cao (Hsu et al., 2013), và năng lực kỹ
+thuật số (Bhandari et al., 2023; Wu et al., 2022). Sự chuyển dịch này
+phản ánh nhận thức ngày càng sâu sắc rằng không có quan hệ quốc tế hóa
+và hiệu quả phổ quát, kết quả quốc tế hóa phụ thuộc vào điều kiện cụ thể
+của doanh nghiệp, ngành và quốc gia (Arte \& Larimo, 2022).
+
+Một vấn đề xuyên suốt bốn thập kỷ phát triển của tài liệu về quan hệ
+quốc tế hóa và hiệu quả là sự thiếu thống nhất về hình dạng hàm số của
+mối quan hệ, mà bản thân nó phần nào bắt nguồn từ khác biệt phương pháp
+luận hơn là từ khác biệt thực chất. Glaum và Oesterle (2007), trong bài
+tổng kết bốn mươi năm nghiên cứu, kết luận rằng tài liệu để lại nhiều
+câu hỏi hơn câu trả lời, một phần do sự đa dạng trong cách đo lường mức
+độ quốc tế hóa và cách định dạng hàm hồi quy. Thomas và Eden (2004) chỉ
+ra trực tiếp rằng hình dạng quan hệ phụ thuộc vào việc nghiên cứu giả
+định bậc hai hay bậc ba, và vào khoảng giá trị của biến quốc tế hóa được
+quan sát trong mẫu. Berry và Kaul (2016), qua một nỗ lực tái lặp quy mô
+lớn, đặt câu hỏi về tính phổ quát của đường cong chữ S, cho thấy kết quả
+nhạy cảm với đặc tả mô hình và cấu thành mẫu. Những phê phán này có hệ
+quả phương pháp luận quan trọng đối với luận án: kiểm định quan hệ phi
+tuyến đòi hỏi quy trình chặt chẽ, bao gồm kiểm định sự tồn tại của điểm
+cực trị nằm trong khoảng dữ liệu (Lind \& Mehlum, 2010) và lý thuyết hóa
+cẩn trọng về cơ chế tạo ra độ cong thay vì chỉ đưa số hạng bình phương
+vào mô hình một cách máy móc (Haans et al., 2016). Cách tiếp cận của
+luận án, theo đó điểm uốn của đường cong được lý thuyết hóa như hệ quả
+của tương tác giữa chi phí học hỏi, năng lực và bối cảnh thể chế, là một
+phản hồi trực tiếp cho các phê phán phương pháp luận này, đồng thời
+tránh hiện tượng ``quá nhiều điều tốt'' được khái quát hóa bởi Pierce và
+Aguinis (2013).
+
+Sự đa dạng về dạng hàm được đề xuất trong tài liệu phi tuyến đáng được
+lược khảo chi tiết hơn, vì chính sự đa dạng này là một phần của khoảng
+trống mà luận án giải quyết. Bên cạnh dạng chữ U ngược bậc hai và dạng
+chữ S ba giai đoạn, một số nghiên cứu đề xuất các dạng hàm phức tạp hơn.
+Almodóvar và Rugman (2014) đề xuất ``đường cong chữ M'' cho các doanh
+nghiệp khởi nghiệp quốc tế mới, hàm ý hai điểm uốn phản ánh hai chu kỳ
+học hỏi liên tiếp. Tallman và Li (1996) phân tách tác động của đa dạng
+quốc tế khỏi đa dạng sản phẩm và cho thấy hai chiều này có quan hệ khác
+nhau với hiệu quả, một lời nhắc rằng cách vận hành hóa quốc tế hóa quyết
+định dạng hàm quan sát được. Riahi-Belkaoui (1998) cung cấp bằng chứng
+ban đầu về dạng phi tuyến trên mẫu doanh nghiệp đa quốc gia, trong khi
+Miller và cộng sự (2016) lập luận rằng việc gộp ba thành phần cường độ,
+đa dạng và khoảng cách của quốc tế hóa vào một thước đo duy nhất che
+khuất các quan hệ trái chiều mà mỗi thành phần có với hiệu quả. Tsionas
+và Tzeremes (2021) đo lường trực tiếp quan hệ giữa mức độ quốc tế hóa và
+năng suất doanh nghiệp trên mẫu các doanh nghiệp đa quốc gia lớn, cung
+cấp một tiền lệ phương pháp luận cho việc luận án sử dụng năng suất lao
+động làm biến phụ thuộc thay vì các thước đo dựa trên kế toán. Đáng chú
+ý, Schmuck và cộng sự (2022) đảo ngược chiều nhân quả thường được giả
+định và kiểm định khả năng hiệu quả cao dẫn đến mức độ đa quốc gia cao,
+một lời nhắc rằng vấn đề nội sinh trong quan hệ quốc tế hóa và hiệu quả
+không thể bỏ qua. Tổng hợp lại, sự phân tán về dạng hàm và về chiều nhân
+quả trong tài liệu củng cố luận điểm trung tâm của luận án rằng không
+tồn tại một dạng hàm phổ quát; hình dạng quan sát được là sản phẩm của
+bối cảnh, cách đo lường và chiến lược nhận diện, và do đó phải được lý
+thuyết hóa thay vì giả định.
+
+\hypertarget{bux1eb1ng-chux1ee9ng-tux1eeb-phuxe2n-tuxedch-tux1ed5ng-hux1ee3p}{%
+\subsection{2.3.2 Bằng chứng từ phân tích tổng
+hợp}\label{bux1eb1ng-chux1ee9ng-tux1eeb-phuxe2n-tuxedch-tux1ed5ng-hux1ee3p}}
+
+Một trong những đóng góp quan trọng nhất trong giai đoạn gần đây là sự
+phát triển của các các phân tích tổng hợp về quan hệ quốc tế hóa và hiệu
+quả, cho phép tổng hợp và định lượng hóa kết quả từ hàng trăm nghiên cứu
+thực nghiệm riêng lẻ. Tổng hợp từ các các phân tích tổng hợp chính cho
+thấy một bức tranh nhất quán nhưng phức tạp.
+
+Bausch và Krist (2007) phân tích 65 nghiên cứu và tìm thấy tác động tổng
+hợp dương nhưng nhỏ (r ≈ 0,10), đồng thời xác nhận rằng mức độ dị biệt
+(heterogeneity) giữa các nghiên cứu rất cao với I² \textgreater{} 80\%,
+hàm ý rằng các biến điều tiết là nguồn giải thích chủ yếu cho sự khác
+biệt. Kirca et al.~(2012) mở rộng mẫu gộp lên 154 mẫu và tìm thấy tác
+động tổng hợp tương tự, đồng thời xác nhận vai trò của bối cảnh quốc gia
+và ngành. Marano et al.~(2016), nghiên cứu phân tích tổng hợp toàn diện
+nhất trong tài liệu với 170 nghiên cứu và 32 quốc gia, tìm thấy r ≈
+0,07--0,13 và chứng minh rằng thể chế quốc gia nguồn là biến điều tiết
+quan trọng nhất trong tất cả các biến bối cảnh được kiểm định. Wu et
+al.~(2022) cập nhật với mẫu gộp 218 quy mô hiệu ứng tập trung vào các
+thị trường mới nổi multinationals (EMNEs) và tìm thấy mô hình biến điều
+tiết tương tự. Tại hội nghị ICBEF 2024, kết quả sơ bộ từ mẫu gộp nghiên
+cứu về châu Á với k = 113 nghiên cứu cho thấy r = 0,07, nhất quán với
+các các phân tích tổng hợp toàn cầu nhưng cụ thể hơn về bối cảnh châu Á.
+Luận án này mở rộng mẫu gộp đó thông qua Nghiên cứu P6, một phân tích
+tổng hợp ba tầng (three-level MARA) với k = 238 nghiên cứu và K = 288
+quy mô hiệu ứng từ châu Á và Thái Bình Dương, ước lượng r̄ = 0,074 {[}KTC
+95\%: 0,060; 0,088{]}, I² = 62,4\%, Q\_M(ICRV) = 17,35 (df = 4, p =
+,002). Kết quả này xác nhận tác động tổng hợp dương nhỏ nhưng bền vững,
+đồng thời chứng minh rằng phổ thể chế ICRV, điểm uốn giảm dần khi chuyển
+từ thể chế yếu sang thể chế mạnh, là biến điều tiết thực chất của mối
+quan hệ quốc tế hóa và hiệu quả trong bối cảnh châu Á (nghiên cứu thành
+phần P6). Tuy vậy, một số nghiên cứu gần đây sử dụng chiến lược nhận
+diện chặt chẽ hơn đặt câu hỏi về tính phổ quát của dạng hàm chữ U ngược:
+Pisani, Garcia-Bernardo và Heemskerk (2020) cho thấy quan hệ này suy yếu
+đáng kể, thậm chí biến mất, trong các mẫu gộp xuyên quốc gia khi áp dụng
+nhận diện nghiêm ngặt hơn, củng cố lập luận rằng chính dị biệt bối cảnh,
+chứ không phải một quy luật hàm phổ quát, mới chi phối kết quả quốc tế
+hóa và hiệu quả. Ở cấp doanh nghiệp, Arbelo, Arbelo-Pérez và Pérez-Gómez
+(2024) chứng minh quan hệ quốc tế hóa và hiệu quả phụ thuộc vào tài sản
+đặc thù của doanh nghiệp theo quan điểm dựa trên nguồn lực, nhất quán
+với vai trò điều tiết của năng lực công nghệ được nhấn mạnh trong luận
+án này.
+
+Nhìn chung, bằng chứng phân tích tổng hợp cho thấy ba kết luận quan
+trọng: tác động tổng hợp của quốc tế hóa lên hiệu quả là dương nhưng
+khiêm tốn; mức dị biệt cực kỳ cao; và các biến điều tiết bối cảnh, đặc
+biệt là thể chế quốc gia, năng lực doanh nghiệp, và đặc điểm ngành, là
+những nguồn giải thích chính cho sự khác biệt giữa các nghiên cứu. Kết
+luận về vai trò trung tâm của thể chế quốc gia tiếp tục được củng cố bởi
+bằng chứng rất gần đây: Kalubandi và cộng sự (2025), qua một phân tích
+tổng hợp quy mô lớn trên 292 mẫu độc lập với 598.525 quan sát doanh
+nghiệp và năm, dùng cùng họ phương pháp hồi quy phân tích tổng hợp như
+Nghiên cứu thành phần P6, phát hiện rằng thể chế quốc gia nguồn điều
+tiết dương quan hệ giữa tinh thần kinh doanh quốc tế và hiệu quả, song
+hành trực tiếp với giả thuyết H5 của luận án về vai trò điều tiết của
+chất lượng thể chế. Đây là luận điểm cơ bản biện hộ cho sự cần thiết của
+một khung giải thích đa tầng.
+
+Giá trị của bằng chứng phân tích tổng hợp không chỉ nằm ở ước lượng tác
+động tổng hợp, mà còn ở khả năng phân tách các nguồn tạo nên mức dị biệt
+cao giữa các nghiên cứu, qua đó định hướng việc xây dựng lý thuyết.
+Combs và cộng sự (2011) lập luận rằng tổng hợp tích lũy bằng phương pháp
+phân tích tổng hợp nên được ưu tiên hơn so với đếm phiếu, vì phân tích
+tổng hợp cho phép đánh giá cả độ lớn lẫn tính ổn định của hiệu ứng qua
+nhiều bối cảnh. Aguinis và cộng sự (2011) cảnh báo rằng nhiều lựa chọn
+phương pháp và phán đoán trong quá trình tổng hợp, từ cách mã hóa biến
+điều tiết đến cách xử lý phụ thuộc giữa các quy mô hiệu ứng, có thể ảnh
+hưởng đáng kể đến kết luận, do đó đòi hỏi tính minh bạch và phân tích độ
+vững. Những nguyên tắc này có hàm ý trực tiếp đối với thiết kế của
+Nghiên cứu thành phần P6: việc sử dụng mô hình ba tầng cho phép tách
+phương sai trong nội bộ nghiên cứu khỏi phương sai giữa các nghiên cứu,
+qua đó xử lý đúng cấu trúc phụ thuộc mà Aguinis và cộng sự (2011) lưu ý.
+Karna và cộng sự (2016), qua một phân tích tổng hợp về quan hệ giữa năng
+lực và hiệu quả tài chính, cung cấp bằng chứng rằng môi trường điều tiết
+đáng kể cách năng lực chuyển hóa thành hiệu quả; phát hiện này song song
+với luận điểm trung tâm của luận án rằng bối cảnh thể chế điều tiết cơ
+chế chuyển hóa quốc tế hóa thành hiệu quả. Tổng hợp lại, bằng chứng phân
+tích tổng hợp không chỉ định lượng mức dị biệt mà còn xác nhận rằng các
+biến điều tiết bối cảnh là đối tượng lý thuyết hóa chính, từ đó biện hộ
+cho việc xây dựng một khung tích hợp đa tầng thay vì kiểm định rời rạc
+từng biến điều tiết đơn lẻ.
+
+Một chiều quan trọng khác mà bằng chứng phân tích tổng hợp mở ra là vấn
+đề nhận diện nhân quả trong một tài liệu chủ yếu dựa trên dữ liệu quan
+sát. Shaver (2020) lập luận rằng trong nghiên cứu chiến lược và tổ chức,
+nhận diện nhân quả đáng tin cậy thường đến từ một khối nghiên cứu tích
+lũy hơn là từ một thiết kế đơn lẻ hoàn hảo, vì mỗi nghiên cứu xử lý một
+mối đe dọa nội sinh khác nhau và sự hội tụ của bằng chứng qua nhiều bối
+cảnh nâng cao độ tin cậy của suy luận. Quan điểm này biện hộ trực tiếp
+cho kiến trúc nghiên cứu thành phần của luận án, trong đó nhiều nghiên
+cứu đơn quốc gia với chiến lược nhận diện khác nhau hội tụ về cùng một
+mô thức phi tuyến và cùng một logic điều tiết thể chế. Eden và Nielsen
+(2020) bổ sung một cảnh báo phương pháp luận rằng nghiên cứu kinh doanh
+quốc tế đối mặt với độ phức tạp đặc thù do tính lồng ghép đa cấp của dữ
+liệu, từ doanh nghiệp đến ngành đến quốc gia, đòi hỏi các kỹ thuật ước
+lượng tôn trọng cấu trúc phân cấp này; yêu cầu đó được luận án đáp ứng
+bằng mô hình ba tầng trong Nghiên cứu thành phần P6 và bằng hiệu ứng cố
+định nền kinh tế và năm trong các mô hình hồi quy cấp doanh nghiệp. Abdi
+và Aulakh (2018) làm sâu sắc thêm khái niệm quốc tế hóa bằng cách phân
+tách ba chiều mức độ, thời lượng và quy mô hoạt động ở thị trường nước
+ngoài, cho thấy rằng kết luận về quan hệ quốc tế hóa và hiệu quả nhạy
+cảm với chiều nào của quốc tế hóa được đo lường. Cùng hướng này, phân
+tích tổng hợp gần đây của Fariborzi, Verbeke và Steel (2025), sử dụng mô
+hình hóa phương trình cấu trúc trong phân tích tổng hợp trên 378 nghiên
+cứu, phân biệt rõ tiền tố cấp cá nhân với tiền tố cấp doanh nghiệp và ba
+chiều tốc độ, phạm vi và cường độ của quốc tế hóa, đồng thời cho thấy hệ
+quả hiệu quả phụ thuộc vào chiều được xét và vào cấp độ phân tích; kết
+quả này vừa biện minh cho lựa chọn đo lường nhất quán của luận án, vừa
+kết nối tài liệu phân tích tổng hợp với chương trình nghị sự nền tảng vi
+mô về phân tách hiệu ứng cấp cá nhân và cấp tổ chức. Nguyen và Kim
+(2020), trong một lược khảo và mở rộng tài liệu về quan hệ đa quốc gia
+và hiệu quả, nhấn mạnh rằng những kết luận trái ngược trong tài liệu
+phần lớn bắt nguồn từ khác biệt trong thước đo, mẫu và đặc tả mô hình
+hơn là từ sự không tồn tại của một quan hệ thực chất. Những đóng góp
+phương pháp luận này không chỉ định khung cho việc đọc bằng chứng phân
+tích tổng hợp một cách thận trọng mà còn định hình trực tiếp các lựa
+chọn thiết kế của luận án, được trình bày chi tiết ở Chương 3.
+
+\hypertarget{bux1ed1i-cux1ea3nh-chuxe2u-uxe1-vuxe0-cuxe1c-nux1ec1n-kinh-tux1ebf-mux1edbi-nux1ed5i}{%
+\subsection{2.3.3 Bối cảnh châu Á và các nền kinh tế mới
+nổi}\label{bux1ed1i-cux1ea3nh-chuxe2u-uxe1-vuxe0-cuxe1c-nux1ec1n-kinh-tux1ebf-mux1edbi-nux1ed5i}}
+
+Châu Á là bối cảnh đặc biệt quan trọng và đặc thù trong tài liệu về quan
+hệ quốc tế hóa và hiệu quả vì nhiều lý do. Thứ nhất, sự đa dạng thể chế
+trong khu vực là ngoại lệ không có ở bất kỳ khu vực nào khác trên thế
+giới: từ Singapore với chất lượng quản trị đứng hàng đầu thế giới đến
+Afghanistan với chất lượng quản trị cực kỳ yếu, từ Nhật Bản với nền kinh
+tế phát triển hoàn thiện đến các SIDS với quy mô siêu nhỏ và hạ tầng thể
+chế còn sơ khai (Khanna \& Palepu, 2010; Peng, 2003). Thứ hai, tốc độ
+chuyển đổi số và hội nhập quốc tế rất không đồng đều giữa các quốc gia
+trong khu vực, tạo ra ``thí nghiệm tự nhiên'' về ảnh hưởng của bối cảnh
+thể chế và năng lực số đến kết quả quốc tế hóa.
+
+Một góc nhìn lý thuyết gần đây bổ sung chiều giải thích cho mô thức
+cường độ xuất khẩu thấp đặc trưng của khu vực. Verbeke, Oh và Jain
+(2025), kế thừa truyền thống nghiên cứu doanh nghiệp đa quốc gia theo
+vùng, lập luận rằng phần lớn các doanh nghiệp lớn trên thế giới vẫn định
+hướng nội vùng chứ không thực sự toàn cầu, với hơn một nửa doanh số tập
+trung ở khu vực bản địa. Quan điểm này giúp giải thích vì sao ngay cả ở
+các nền kinh tế thể chế mạnh nhất trong mẫu của luận án, như Singapore
+và Nhật Bản, cường độ xuất khẩu trung bình cấp doanh nghiệp vẫn thấp và
+đường cong quốc tế hóa và hiệu quả có xu hướng duỗi thẳng về gần tuyến
+tính với điểm uốn nằm ngoài miền quan sát: phần lớn doanh nghiệp tập
+trung ở nhánh tham gia thấp của phân phối cường độ xuất khẩu thay vì ở
+vùng thâm dụng xuất khẩu cao. Các tác giả đồng thời đặt nghiên cứu doanh
+nghiệp đa quốc gia trước bốn thách thức lớn đương đại là chuyển đổi số,
+bất ổn địa chính trị, biến đổi khí hậu và khả năng chống chịu trước gián
+đoạn quy mô lớn, bốn lực mà luận án cũng định vị là bối cảnh cấp bách
+cho khu vực châu Á và Thái Bình Dương trong Mục 1.1.1.
+
+Nghiên cứu thành phần P1 là nghiên cứu thực nghiệm đa quốc gia quy mô
+lớn nhất hiện có về quan hệ quốc tế hóa và hiệu quả trong bối cảnh châu
+Á mới nổi, phân tích 40.633 doanh nghiệp từ 17 nền kinh tế châu Á sử
+dụng dữ liệu WBES. Nghiên cứu tìm thấy hai phát hiện chính. Thứ nhất,
+tồn tại phân tầng năng suất rõ rệt giữa nhóm Đại Trung Hoa, Nam Á và
+ASEAN, phản ánh sự dị biệt thể chế và năng lực giữa các nhóm. Thứ hai,
+việc áp dụng công nghệ vừa làm tăng năng suất lao động trực tiếp vừa làm
+suy giảm đáng kể tác động bất lợi của các rào cản thể chế, một phát hiện
+được gọi là hiệu ứng lá chắn số. Nghiên cứu thành phần P2 kiểm định cụ
+thể với dữ liệu doanh nghiệp nhỏ và vừa Trung Quốc và tìm thấy dạng chữ
+U ngược bậc hai với ngưỡng cường độ xuất khẩu tối ưu khoảng 47,8\%, tức
+điểm uốn khá thấp so với các nền kinh tế tiên tiến. Luận án kế thừa và
+mở rộng các kết quả này trên mẫu đầy đủ 50 nền kinh tế, bao gồm 7 nền
+kinh tế đảo nhỏ Thái Bình Dương trong mẫu chính và 9 nền khi mở rộng
+kiểm định độ vững.
+
+Phần lớn các nghiên cứu về quốc tế hóa và hiệu quả trong bối cảnh châu Á
+tập trung vào Nhật Bản, Hàn Quốc, Đài Loan, và Trung Quốc, trong khi các
+nền kinh tế chuyển đổi như Việt Nam, Campuchia, Bangladesh, và đặc biệt
+là các SIDS, về cơ bản thiếu vắng trong tài liệu. Ngay cả trong nhóm
+tiên tiến Đông Á, sự đồng nhất cũng không nên được giả định: Hemmert và
+Jackson (2016), qua so sánh doanh nghiệp Nhật Bản và Hàn Quốc, cho thấy
+không tồn tại một mô hình quốc tế hóa Đông Á duy nhất mà có những khác
+biệt hệ thống giữa hai nền, một phát hiện củng cố cách luận án phân biệt
+nội bộ nhóm thể chế thay vì gộp các nền tiên tiến thành một khối. Ở
+chiều ASEAN, bằng chứng gần đây của Murhadi và cộng sự (2025) trên doanh
+nghiệp Indonesia và Malaysia cho thấy quản trị doanh nghiệp và mức độ
+quốc tế hóa cùng tác động đến hiệu quả tài chính, bổ sung một chiều quản
+trị cho bức tranh khu vực mà luận án bao phủ ở cấp doanh nghiệp. Sự
+thiếu đại diện này tạo ra khoảng trống nghiêm trọng trong khả năng khái
+quát hóa lý thuyết, vì các nền kinh tế biên thể chế yếu và đảo nhỏ có
+thể là địa điểm quan trọng để kiểm định điều kiện biên của các lý thuyết
+về quốc tế hóa và hiệu quả.
+
+Tài liệu về quan hệ quốc tế hóa và hiệu quả trong bối cảnh các nền kinh
+tế mới nổi của châu Á đã tích lũy đủ để cho thấy rằng vai trò của bối
+cảnh thể chế và năng lực doanh nghiệp là đặc biệt nổi bật ở khu vực này.
+Kafouros và cộng sự (2023) chứng minh rằng chất lượng thể chế và tính
+năng động của ngành cùng giải thích biến thiên hiệu quả hoạt động kinh
+doanh của doanh nghiệp ở các nền kinh tế mới nổi, hàm ý rằng tác động
+của quốc tế hóa không thể tách rời khỏi điều kiện thể chế và ngành mà
+doanh nghiệp hoạt động. Xu (2024) tinh chỉnh quan điểm về chênh lệch thể
+chế bằng cách phân tách giữa mức độ phơi nhiễm trên luật định và mức độ
+thực thi trên thực tế, cho thấy rằng khoảng cách giữa quy định chính
+thức và thực thi thực tế là một nguồn dị biệt quan trọng mà các thước đo
+thể chế tổng hợp dễ bỏ sót. Chao và Kumar (2010) cung cấp bằng chứng
+rằng khoảng cách thể chế giữa quốc gia nguồn và quốc gia đích điều tiết
+quan hệ giữa đa dạng quốc tế và hiệu quả, củng cố luận điểm rằng cùng
+một mức độ quốc tế hóa tạo ra kết quả khác nhau tùy theo bối cảnh thể
+chế. Da Cunha và cộng sự (2023) bổ sung bằng chứng rằng thể chế chính
+thức ở quốc gia nguồn điều tiết quan hệ giữa phương thức quốc tế hóa và
+hiệu quả, trong khi Cuervo-Cazurra và cộng sự (2018) lập luận rằng bất
+định thể chế ở quốc gia nguồn có thể bồi đắp năng lực quản lý bất định
+đặc thù. Tổng hợp các bằng chứng này định vị châu Á như một bối cảnh lý
+tưởng để kiểm định khung điều tiết đa tầng, đồng thời làm nổi bật rằng
+sự thiếu đại diện của các nền kinh tế chuyển đổi và các nền kinh tế đảo
+nhỏ là một khoảng trống thực chất chứ không chỉ là vấn đề về phạm vi
+mẫu.
+
+Bằng chứng cấp doanh nghiệp ở châu Á cũng cho thấy rằng cấu trúc sở hữu
+và quy mô doanh nghiệp là những nguồn dị biệt quan trọng trong quan hệ
+quốc tế hóa và hiệu quả, củng cố sự cần thiết của một khung lấy biến
+điều tiết làm trung tâm. Đối với doanh nghiệp nhỏ và vừa, Lu và Beamish
+(2001) cùng Pangarkar (2008) cho thấy quốc tế hóa có thể nâng cao hiệu
+quả nhưng theo một quan hệ phụ thuộc vào nguồn lực và mức độ cam kết thị
+trường, nhất quán với logic phi tuyến của luận án. Đối với doanh nghiệp
+gia đình và doanh nghiệp thuộc tập đoàn kinh doanh, vốn là hình thức tổ
+chức phổ biến ở Nam Á và Đông Á, Mondal và cộng sự (2022) cùng Gaur và
+Kumar (2009) cho thấy quan hệ phụ thuộc vào việc liên kết tập đoàn cung
+cấp nguồn lực nội bộ thay thế cho thị trường bên ngoài còn kém phát
+triển, một biểu hiện trực tiếp của logic khoảng trống thể chế ở cấp
+doanh nghiệp. Pattnaik và Elango (2009) cùng Singla và George (2013)
+cung cấp bằng chứng từ doanh nghiệp Ấn Độ rằng nguồn lực doanh nghiệp
+điều tiết quan hệ quốc tế hóa và hiệu quả và rằng bối cảnh thể chế quốc
+gia định hình quan hệ này một cách hệ thống. Ở chiều đầu tư ra nước
+ngoài, Buckley và cộng sự (2007) phân tích các yếu tố quyết định đầu tư
+trực tiếp ra nước ngoài của doanh nghiệp Trung Quốc, làm nổi bật vai trò
+của yếu tố thể chế quốc gia nguồn trong việc định hình chiến lược quốc
+tế hóa của các doanh nghiệp đa quốc gia thị trường mới nổi, trong khi
+Likitwongkajon và Vithessonthi (2020) cho thấy bằng chứng từ Nhật Bản
+rằng tác động của đầu tư nước ngoài lên giá trị và hiệu quả hoạt động
+kinh doanh của doanh nghiệp không nhất thiết dương và phụ thuộc vào điều
+kiện cụ thể. Sự phong phú nhưng phân mảnh của bằng chứng đơn quốc gia
+này, mỗi nghiên cứu xử lý một loại doanh nghiệp và một bối cảnh thể chế,
+chính là điều biện hộ cho cách tiếp cận tích hợp đa quốc gia của luận
+án: chỉ khi đặt các bối cảnh này trên cùng một phổ thể chế và cùng một
+khung đo lường mới có thể phân tách được phần dị biệt do bối cảnh thể
+chế tạo ra khỏi phần do đặc trưng doanh nghiệp.
+
+\hypertarget{vai-truxf2-cux1ee7a-nux103ng-lux1ef1c-sux1ed1-trong-mux1ed1i-quan-hux1ec7-quux1ed1c-tux1ebf-huxf3a-vuxe0-hiux1ec7u-quux1ea3}{%
+\subsection{2.3.4 Vai trò của năng lực số trong mối quan hệ quốc tế hóa
+và hiệu
+quả}\label{vai-truxf2-cux1ee7a-nux103ng-lux1ef1c-sux1ed1-trong-mux1ed1i-quan-hux1ec7-quux1ed1c-tux1ebf-huxf3a-vuxe0-hiux1ec7u-quux1ea3}}
+
+Sự tích hợp giữa nghiên cứu về năng lực số và quan hệ quốc tế hóa và
+hiệu quả là một xu hướng tương đối mới, phát triển mạnh từ 2019 đến nay.
+Bhandari et al.~(2023) phân tích 571 doanh nghiệp sản xuất của Mỹ và tìm
+thấy rằng năng lực kỹ thuật số (được đo như một composite duy nhất) điều
+tiết tích cực mối quan hệ quốc tế hóa và hiệu quả, với doanh nghiệp có
+năng lực số cao hơn thu được lợi ích lớn hơn từ quốc tế hóa. Banalieva
+và Dhanaraj (2019) phát triển lý thuyết nội bộ hóa cho nền kinh tế số,
+lập luận rằng công nghệ số làm giảm chi phí phối hợp và chi phí giao
+dịch xuyên biên giới, qua đó hạ thấp rào cản chi phí khi doanh nghiệp
+thâm nhập thị trường nước ngoài. Chen và Meng (2022) nghiên cứu doanh
+nghiệp Trung Quốc từ WBES và phát hiện rằng ràng buộc thể chế làm giảm
+cường độ xuất khẩu, nhưng doanh nghiệp có năng lực số cao hơn có thể
+vượt qua ràng buộc này hiệu quả hơn.
+
+Tuy nhiên, phần lớn các nghiên cứu hiện tại không phân biệt TCI và DAI,
+xử lý năng lực số như một khái niệm đơn nhất. Hậu quả lý thuyết của sự
+đồng nhất không hợp lý này là không thể phân tách được hai cơ chế vận
+hành khác nhau: chiều sâu năng lực tổ chức (TCI) và khả năng phối hợp kỹ
+thuật số bề mặt (DAI). Sự không phân biệt này làm mờ đi cơ chế tác động
+và dẫn đến kết luận không thể áp dụng trực tiếp vào thực tiễn chính sách
+và quản trị doanh nghiệp.
+
+Nền tảng lý luận cho việc phân tách TCI và DAI cần được trình bày sâu
+hơn để làm rõ rằng đây không phải là một tinh chỉnh đo lường tùy nghi,
+mà là một yêu cầu lý thuyết có cơ sở. Bharadwaj và cộng sự (2013) lập
+luận rằng chiến lược kinh doanh số là một cấu trúc ở cấp độ chiến lược,
+khác biệt với năng lực công nghệ thông tin ở cấp độ chức năng, và việc
+gộp hai cấu trúc này che khuất chính cơ chế tạo giá trị mà nhà nghiên
+cứu cần phân tách. Nambisan và cộng sự (2019) làm rõ thêm rằng chuyển
+đổi số tác động đến đổi mới và khởi nghiệp qua nhiều cơ chế phân tầng,
+từ số hóa công cụ đến tái cấu trúc mô hình kinh doanh, hàm ý rằng các
+chỉ báo số ở những tầng khác nhau không thể được xem là tương đương về
+mặt lý thuyết. Phân tầng này nhất quán với khung ba cấp độ của Verhoef
+và cộng sự (2021), theo đó số hóa thông tin và số hóa quy trình nằm ở
+tầng nông hơn so với chuyển đổi số toàn diện. Trong bối cảnh quốc tế
+hóa, Li và cộng sự (2022) cung cấp bằng chứng từ doanh nghiệp sản xuất
+Trung Quốc rằng số hóa điều tiết quan hệ quốc tế hóa và hiệu quả, song
+nghiên cứu này, giống như đa số tài liệu hiện hành, vẫn xử lý năng lực
+số như một cấu trúc tổng hợp. Knight và Cavusgil (2004) bổ sung một góc
+nhìn lịch sử quan trọng rằng năng lực tổ chức và đổi mới cho phép một số
+doanh nghiệp quốc tế hóa sớm và nhanh, cho thấy rằng chiều sâu năng lực
+nội tại và công cụ giao diện đóng vai trò khác nhau trong quá trình quốc
+tế hóa. Tổng hợp các luận điểm này, luận án lập luận rằng nếu TCI vận
+hành như chiều sâu năng lực hấp thụ và tái cấu hình, còn DAI vận hành
+như công cụ phối hợp bề mặt, thì việc gộp hai cấu trúc sẽ trung bình hóa
+hai hiệu ứng có thể trái chiều, dẫn đến ước lượng chệch và kết luận
+chính sách không thể áp dụng (Coltman et al., 2008; Bharadwaj et al.,
+2013).
+
+Cần đặt cơ chế của năng lực số trong một bức tranh rộng hơn về các ràng
+buộc thực chất mà doanh nghiệp ở các nền kinh tế đang phát triển đối mặt
+khi quốc tế hóa, vì chính những ràng buộc này tạo ra dư địa để công cụ
+số phát huy hoặc không phát huy tác dụng. Tài liệu kinh tế học thương
+mại cho thấy ràng buộc tín dụng là một trong những rào cản nghiêm trọng
+nhất đối với xuất khẩu: Manova (2013) chứng minh trên cơ sở lý thuyết và
+thực nghiệm rằng các doanh nghiệp ở những quốc gia có hệ thống tài chính
+kém phát triển bị hạn chế khả năng tham gia thương mại quốc tế do không
+huy động được vốn lưu động cho chi phí cố định của xuất khẩu, trong khi
+Demir và Javorcik (2018) cho thấy tín dụng thương mại có thể thay thế
+một phần cho tín dụng ngân hàng và nới lỏng ràng buộc này. Trong khung
+của luận án, các phát hiện này có hàm ý cơ chế rõ ràng: ở những bối cảnh
+mà ràng buộc tài chính và khoảng trống thể chế bóp nghẹt khả năng chuyển
+hóa quốc tế hóa thành hiệu quả, công cụ số ở giao diện ngoại tại có thể
+giảm chi phí giao dịch và mở rộng khả năng tiếp cận thông tin thị
+trường, qua đó bù đắp một phần cho hạ tầng thể chế và tài chính còn
+thiếu, đúng theo logic lá chắn số được phát biểu trong giả thuyết H5.
+Avenyo và cộng sự (2021) bổ sung bằng chứng từ doanh nghiệp châu Phi
+rằng năng lực sản xuất nội tại quyết định kết quả xuất khẩu, song song
+với phát hiện của Ayyagari và cộng sự (2011) rằng đổi mới ở các nền kinh
+tế mới nổi gắn chặt với năng lực hấp thụ và môi trường thể chế. Tổng hợp
+các bằng chứng này, luận án định vị TCI và DAI không phải như những yếu
+tố tách rời khỏi cấu trúc kinh tế nền, mà như hai cơ chế tương tác với
+ràng buộc tài chính và thể chế đặc thù của từng chế độ ICRV, qua đó cung
+cấp cơ sở lý thuyết cho dự đoán rằng hiệu ứng điều tiết của năng lực số
+mạnh nhất ở biên dưới của phổ thể chế.
+
+\hypertarget{bux1eb1ng-chux1ee9ng-vux129-muxf4-vux1ec1-chux1ea5t-lux1b0ux1ee3ng-thux1ec3-chux1ebf-vuxe0-phuxe2n-huxf3a-kux1ebft-quux1ea3-tux103ng-trux1b0ux1edfng}{%
+\subsection{2.3.5 Bằng chứng vĩ mô về chất lượng thể chế và phân hóa kết
+quả tăng
+trưởng}\label{bux1eb1ng-chux1ee9ng-vux129-muxf4-vux1ec1-chux1ea5t-lux1b0ux1ee3ng-thux1ec3-chux1ebf-vuxe0-phuxe2n-huxf3a-kux1ebft-quux1ea3-tux103ng-trux1b0ux1edfng}}
+
+Bên cạnh dòng nghiên cứu cấp doanh nghiệp, một khối bằng chứng vĩ mô
+đang tích lũy cung cấp nền tảng bối cảnh quan trọng cho luận điểm điều
+tiết thể chế của luận án. Phân tích hệ thống đầu tiên của Ngân hàng Thế
+giới về nhóm thị trường biên định nghĩa nhóm này là tập con của các nền
+kinh tế đang phát triển và mới nổi có mức độ tiếp cận thị trường tài
+chính quốc tế ``có ý nghĩa nhưng hạn chế'', nằm giữa các thị trường mới
+nổi và các nền kinh tế đang phát triển khác (World Bank, 2026c). Điều
+đáng chú ý về mặt phương pháp luận là chính báo cáo này thừa nhận rằng
+``thị trường biên với tư cách một tiểu nhóm có xu hướng bị bỏ qua trong
+các phân tích kinh tế'' (World Bank, 2026c), một sự thừa nhận trực tiếp
+về khoảng trống mà luận án này lấp ở cấp doanh nghiệp đối với khu vực
+châu Á--Thái Bình Dương.
+
+Phát hiện cốt lõi của khối bằng chứng vĩ mô này là chất lượng thể chế
+phân hóa kết quả tăng trưởng một cách có hệ thống. Các thị trường biên
+tăng trưởng nhanh nhất trong một phần tư thế kỷ qua chia sẻ một số đặc
+điểm chung: cải thiện quản trị, thu hẹp chênh lệch lãi suất cho vay--huy
+động của ngân hàng, kiểm soát nợ công và gánh nặng trả nợ, cùng với tích
+lũy vốn trên đầu người mạnh hơn (World Bank, 2026c). Ngược lại, các điểm
+yếu thể chế và quản trị, biểu hiện qua thị trường tài chính nội địa nông
+và chênh lệch lãi suất rộng, đi kèm với tăng trưởng vốn trên đầu người
+đáng thất vọng và làm khuếch đại tác động bất lợi của các cú sốc (World
+Bank, 2026c). Cơ chế vĩ mô này nhất quán với lập luận
+institutional-khoảng trống ở cấp doanh nghiệp (Khanna \& Palepu, 2010):
+thể chế yếu làm tăng chi phí giao dịch và bất định, từ đó bào mòn khả
+năng chuyển hóa đầu tư và quốc tế hóa thành hiệu quả thực.
+
+Quan trọng không kém, bằng chứng vĩ mô cho thấy không tồn tại một con
+đường phát triển phổ quát: các thị trường biên thành công đã áp dụng
+những chiến lược rất khác nhau, từ thu hút đầu tư vào năng lượng và
+khoáng sản (Kazakhstan), đến sản xuất chế tạo giá trị gia tăng và xuất
+khẩu (Việt Nam), đến tăng trưởng dựa trên dịch vụ và du lịch (Rwanda);
+và bốn nền kinh tế (Bulgaria, Costa Rica, Panama, Romania) đã đạt thu
+nhập cao và ``tốt nghiệp'' khỏi nhóm biên trong giai đoạn 2012--2025
+(World Bank, 2026c). Sự đa dạng con đường này củng cố trực tiếp tiền đề
+của khung ICRV: cơ chế chuyển hóa quốc tế hóa thành hiệu quả phụ thuộc
+vào chế độ thể chế và mô hình tăng trưởng đặc thù, chứ không tuân theo
+một dạng hàm phổ quát. Tuy nhiên, bằng chứng vĩ mô này dừng ở cấp quốc
+gia và để ngỏ câu hỏi về cơ chế cấp doanh nghiệp, chính là khoảng trống
+mà luận án giải quyết bằng dữ liệu WBES cấp cơ sở trên 50 nền kinh tế.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{khoux1ea3ng-trux1ed1ng-nghiuxean-cux1ee9u}{%
+\section{2.4 Khoảng trống nghiên
+cứu}\label{khoux1ea3ng-trux1ed1ng-nghiuxean-cux1ee9u}}
+
+Trên cơ sở tổng quan lý thuyết và thực nghiệm ở các phần trước, ba
+khoảng trống nghiên cứu chính được xác định như sau.
+
+\textbf{Khoảng trống thứ nhất: Thiếu khung tích hợp đa tầng để giải
+thích dị biệt trong quan hệ quốc tế hóa và hiệu quả.} Các phân tích tổng
+hợp trước đây thường báo cáo mức dị biệt rất cao (\(I^2\) thường trên
+80\%) (Bausch \& Krist, 2007; Marano et al., 2016), và ngay phân tích
+tổng hợp cập nhật của luận án (nghiên cứu thành phần P6, Mục 4.2) cũng
+ghi nhận mức dị biệt đáng kể (\(I^2 = 62{,}4\%\)); ở cả hai trường hợp,
+phần lớn biến thiên trong cỡ ảnh hưởng không được giải thích bởi sai số
+ngẫu nhiên mà bởi sự khác biệt có hệ thống giữa các bối cảnh. Tuy nhiên,
+hầu hết các nghiên cứu thực nghiệm hiện tại chỉ kiểm định một hoặc hai
+biến điều tiết từ một lý thuyết đơn lẻ, không có khả năng giải thích
+đồng thời dị biệt do bối cảnh thể chế, năng lực doanh nghiệp và đặc điểm
+lãnh đạo tạo ra. Không một lý thuyết đơn lẻ nào, dù là mô hình Uppsala,
+lý thuyết dựa trên nguồn lực, lý thuyết thể chế hay lý thuyết thượng
+tầng quản trị, đủ để giải thích đầy đủ sự phức tạp của quan hệ này trong
+bối cảnh đa quốc gia đa dạng như châu Á. Mỗi lý thuyết soi sáng một tầng
+nguyên nhân khác nhau: mô hình Uppsala giải thích chi phí học hỏi giai
+đoạn đầu, lý thuyết dựa trên nguồn lực giải thích khác biệt năng lực, lý
+thuyết thể chế giải thích biến thiên theo môi trường nền, và lý thuyết
+thượng tầng quản trị giải thích vai trò của người ra quyết định. Vì các
+tầng nguyên nhân này vận hành đồng thời, một khung tích hợp đa tầng,
+trong đó các lý thuyết bổ sung cho nhau thay vì cạnh tranh nhau, là điều
+kiện cần để giải thích mức dị biệt cao mà các phân tích tổng hợp ghi
+nhận.
+
+\textbf{Khoảng trống thứ hai: Sự đồng nhất không hợp lý giữa TCI và DAI
+trong phần lớn tài liệu trước.} Phần lớn các nghiên cứu về năng lực số
+trong bối cảnh quốc tế hóa và hiệu quả hoặc là không đo lường năng lực
+số, hoặc là gộp tất cả các chỉ báo số vào một chỉ số hợp thành duy nhất,
+không phân biệt giữa chiều sâu năng lực công nghệ tổ chức (TCI) và mức
+độ chấp nhận công cụ số bề mặt (DAI). Hậu quả thực tiễn của sự đồng nhất
+này là: (i) không thể trả lời câu hỏi liệu nên đầu tư vào năng lực công
+nghệ nội tại hay vào việc áp dụng công cụ số giao diện; (ii) không thể
+phân biệt được hai cơ chế tác động có hàm ý chính sách khác nhau. Phân
+biệt rõ TCI và DAI là điều kiện cần để rút ra hàm ý quản trị và chính
+sách có tính cụ thể và ứng dụng cao.
+
+\textbf{Khoảng trống thứ ba: Thiếu bằng chứng đa quốc gia quy mô lớn,
+toàn diện và có cấu trúc cho bối cảnh châu Á.} Mặc dù châu Á là khu vực
+kinh tế năng động và đa dạng nhất thế giới, tài liệu về quan hệ quốc tế
+hóa và hiệu quả vẫn thiếu bằng chứng đa quốc gia bao quát đủ rộng để
+kiểm định khả năng tổng quát hóa của các lý thuyết. Mẫu 17 nền kinh tế
+của nghiên cứu thành phần P1 là cơ sở lớn nhất hiện có trong tài liệu về
+châu Á, nhưng vẫn chưa bao gồm các nền kinh tế biên thể chế yếu và các
+nền kinh tế đảo nhỏ đang phát triển, những địa điểm cực kỳ quan trọng để
+kiểm định điều kiện biên của lý thuyết. Thiếu vắng các bằng chứng này
+khiến các lý thuyết về quan hệ quốc tế hóa và hiệu quả, vốn được xây
+dựng chủ yếu trên dữ liệu từ Nhật Bản, Hàn Quốc và các nền kinh tế tiên
+tiến, có nguy cơ bị áp dụng sai trong bối cảnh các nền kinh tế đang phát
+triển và chuyển đổi ở châu Á. Điều kiện biên là nơi một lý thuyết bộc lộ
+giới hạn của nó; do đó việc đưa các nền kinh tế ở hai cực của phổ thể
+chế vào khung phân tích không chỉ mở rộng phạm vi mà còn là phép thử
+nghiêm ngặt nhất đối với tính phổ quát của dạng hàm chữ U ngược.
+
+Ba khoảng trống này hội tụ vào một hướng giải quyết chung: cần phát
+triển và kiểm định một khung giải thích tích hợp đa tầng trên dữ liệu đa
+quốc gia đủ rộng và đủ đa dạng về thể chế để bao phủ toàn bộ phổ thể chế
+của châu Á. Luận án đề xuất khung CDCM (điều tiết theo quốc gia, năng
+lực số và năng lực doanh nghiệp), là khung lý thuyết tích hợp đa tầng
+kết hợp bối cảnh thể chế (tầng vĩ mô, vận hành hóa bằng ICRV), năng lực
+doanh nghiệp với TCI và DAI tách biệt (tầng tổ chức), đặc điểm nhà quản
+trị cấp cao (tầng cá nhân), và lớp mở rộng lăng kính năng lực số. Trong
+khung này, cường độ xuất khẩu (FSTS) là biến độc lập chính và năng suất
+lao động là biến phụ thuộc.
+
+\textbf{Từ khoảng trống đến nghiên cứu P7: kiểm định CDCM trên 50 nền
+kinh tế châu Á.} Khoảng trống thứ nhất và thứ ba hội tụ vào một câu hỏi
+kiểm định trực tiếp: liệu khung CDCM có thể giải thích đồng thời dị biệt
+của quan hệ quốc tế hóa và hiệu quả khi kiểm soát đầy đủ cả ba tầng
+trong một mô hình tích hợp ở quy mô đủ rộng để bao phủ toàn bộ phổ thể
+chế ICRV hay không. Tài liệu hiện tại chưa có bằng chứng kiểm định đồng
+thời năm biến điều tiết chính, gồm TCI, DAI, kinh nghiệm quản trị, giới
+tính nhà quản trị và ICRV, trong một mô hình hồi quy đơn lẻ trên dữ liệu
+đa quốc gia quy mô lớn. Nghiên cứu thành phần P7 lấp đầy khoảng trống
+này bằng dữ liệu WBES từ 50 nền kinh tế (mẫu hồi quy bậc hai
+\(N = 81.022\); mẫu mô hình đầy đủ \(N = 79.080\) sau khi loại bỏ theo
+danh sách các biến điều tiết khuyết, 103 cặp nền kinh tế và năm), bao
+phủ toàn bộ phổ thể chế ICRV từ nhóm tiên tiến đến nhóm đảo nhỏ, kiểm
+định đồng thời H1 đến H6 với hiệu ứng cố định nền kinh tế và năm. Điểm
+uốn hiệu chỉnh năng lực của P7 là 43,6\% FSTS, nằm trong vùng chuyển đổi
+của phổ thể chế, nhất quán với P3 Việt Nam (khoảng 40\%) và thấp hơn P5
+Trung Quốc (khoảng 49\%); cấu trúc ba vùng theo nhóm ICRV xác nhận thể
+chế điều tiết cả vị trí lẫn sự tồn tại của điểm uốn theo phổ thể chế dự
+đoán lý thuyết, đóng góp bằng chứng kiểm định tích hợp đầu tiên cho
+khung CDCM ở cấp độ liên quốc gia quy mô lớn.
+
+\textbf{Từ khoảng trống đến nghiên cứu P8: kiểm định điều kiện biên FIP
+tại các nền kinh tế đảo nhỏ.} Khoảng trống thứ ba không chỉ đòi hỏi mở
+rộng phạm vi địa lý mà còn đòi hỏi kiểm định điều kiện biên lý thuyết
+cực trị: liệu có tồn tại bối cảnh nơi chữ U ngược hoàn toàn sụp đổ thành
+quan hệ âm đơn điệu hay không. Không có nghiên cứu nào trong tài liệu
+hiện tại kiểm định hình phạt quốc tế hóa cưỡng bức (FIP), bối cảnh mà
+quốc tế hóa là gánh nặng sinh tồn chứ không phải lựa chọn chiến lược dựa
+trên lợi thế cạnh tranh. Nghiên cứu thành phần P8 kiểm định H1b bằng dữ
+liệu WBES từ các nền kinh tế đảo nhỏ Thái Bình Dương (Fiji, Papua New
+Guinea, Quần đảo Solomon, Tonga, Vanuatu, Samoa, Kiribati), nơi ba điều
+kiện cấu trúc cơ bản của chữ U ngược đồng thời bị vi phạm: thị trường
+nội địa cực nhỏ, chi phí vận tải cao bất thường, và hỗ trợ thể chế cho
+xuất khẩu gần như không tồn tại. Kết quả P8 xác định điều kiện biên cực
+trị của khung CDCM, tức điểm nơi lý thuyết đường cong chữ U ngược không
+còn ứng dụng được.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{muxf4-huxecnh-nghiuxean-cux1ee9u-vuxe0-hux1ec7-giux1ea3-thuyux1ebft}{%
+\section{2.5 Mô hình nghiên cứu và hệ giả
+thuyết}\label{muxf4-huxecnh-nghiuxean-cux1ee9u-vuxe0-hux1ec7-giux1ea3-thuyux1ebft}}
+
+\hypertarget{muxf4-huxecnh-khuxe1i-niux1ec7m}{%
+\subsection{2.5.1 Mô hình khái
+niệm}\label{muxf4-huxecnh-khuxe1i-niux1ec7m}}
+
+Mô hình khái niệm của luận án vận hành theo logic đa tầng, trong đó mối
+quan hệ trung tâm giữa quốc tế hóa (FSTS) và hiệu quả hoạt động kinh
+doanh của doanh nghiệp (labor productivity) được điều tiết đồng thời bởi
+ba tầng can thiệp.
+
+Tầng vĩ mô, bối cảnh thể chế, được vận hành hóa bằng khung ICRV với sáu
+chế độ con theo phổ thể chế từ tiên tiến đổi mới đến SIDS. Ở tầng này,
+ICRV điều tiết mối quan hệ quốc tế hóa và hiệu quả thông qua hai cơ chế:
+(i) mức độ khoảng trống thể chế ảnh hưởng đến chi phí giao dịch xuyên
+biên giới; và (ii) chất lượng thể chế ảnh hưởng đến khả năng doanh
+nghiệp khai thác lợi ích từ quốc tế hóa. Ở các nền kinh tế biên thể chế
+yếu và đảo nhỏ, khoảng trống thể chế cực kỳ lớn có thể đảo ngược quan hệ
+quốc tế hóa và hiệu quả, biến lợi ích tiềm năng thành tổn thất thực tế
+(nghiên cứu thành phần P8).
+
+Tầng tổ chức, năng lực doanh nghiệp, bao gồm TCI và DAI như hai biến
+điều tiết độc lập với cơ chế tác động khác nhau. TCI đóng vai trò như
+một ``nâng đỡ mặt bằng'' (level shifter): doanh nghiệp có TCI cao sẽ đạt
+hiệu quả cao hơn ở mọi mức độ FSTS, và đặc biệt có khả năng khai thác
+lợi ích quốc tế hóa tốt hơn nhờ năng lực hấp thụ tri thức và công nghệ
+từ thị trường nước ngoài. DAI, ngược lại, đóng vai trò là ``bộ đệm phối
+hợp số'' (digital coordination buffer): ở mức FSTS cao, DAI giúp giảm
+chi phí điều phối xuyên biên giới, làm chuyển dịch điểm uốn sang phải và
+kéo dài giai đoạn lợi ích dương của quan hệ quốc tế hóa và hiệu quả.
+
+Tầng cá nhân, đặc điểm nhà quản trị cấp cao, bao gồm kinh nghiệm quản
+trị và giới tính nhà quản trị như các biến điều tiết vi mô. Kinh nghiệm
+quốc tế của nhà quản trị giảm chi phí nhận thức của gánh nặng người nước
+ngoài; sự hiện diện của quản trị viên nữ tăng cường đa dạng nhận thức và
+thận trọng trong quản trị rủi ro quốc tế.
+
+Ngoài các cơ chế điều tiết, mô hình còn bao gồm một yếu tố động thái
+quan trọng: hình dạng phi tuyến của quan hệ quốc tế hóa và hiệu quả
+(điểm uốn của chữ U ngược) không cố định theo thời gian mà có thể thay
+đổi khi bối cảnh thể chế và năng lực doanh nghiệp thay đổi theo chiều
+dọc, đặc biệt rõ rệt ở các nền kinh tế chuyển đổi nhanh như Trung Quốc.
+
+\begin{figure}
+\centering
+\includegraphics{figures/fig_2_1_cdcm_conceptual_model.png}
+\caption{Hình 2.1. Khung khái niệm tích hợp đa tầng CDCM cho quan hệ
+Quốc tế hóa--Hiệu quả tại châu Á}
+\end{figure}
+
+\textbf{Hình 2.1.} \emph{Khung khái niệm tích hợp đa tầng CDCM.} Mũi tên
+liền thể hiện tác động trực tiếp (H1, quan hệ phi tuyến chữ U ngược);
+mũi tên đứt thể hiện tác động điều tiết của ba tầng (thể chế ICRV, H5;
+năng lực số TCI/DAI, H2, H3; đặc điểm nhà quản trị, H4); mũi tên chấm
+thể hiện điều kiện biên FIP (H1b) tại nhóm SIDS. Biến kiểm soát không
+thể hiện để giữ rõ ràng. \emph{Nguồn: tác giả xây dựng dựa trên mô hình
+Uppsala, lý thuyết dựa trên nguồn lực, lý thuyết thể chế, lý thuyết
+thượng tầng quản trị và lăng kính năng lực số.}
+
+\hypertarget{giux1ea3-thuyux1ebft-h1-phi-tuyux1ebfn-chux1eef-u-ngux1b0ux1ee3c}{%
+\subsection{2.5.2 Giả thuyết H1: Phi tuyến chữ U
+ngược}\label{giux1ea3-thuyux1ebft-h1-phi-tuyux1ebfn-chux1eef-u-ngux1b0ux1ee3c}}
+
+Trên cơ sở lý thuyết từ Uppsala về chi phí thâm nhập giai đoạn đầu, lý
+thuyết dựa trên nguồn lực về lợi thế cạnh tranh tích lũy ở giai đoạn
+trung, và lý thuyết chi phí giao dịch về sự phức tạp điều phối ở giai
+đoạn mở rộng quá mức, giả thuyết H1 được phát biểu như sau. Quan hệ giữa
+mức độ quốc tế hóa và hiệu quả hoạt động kinh doanh của các doanh nghiệp
+ở các quốc gia châu Á có dạng phi tuyến chữ U ngược, với một điểm uốn
+tối ưu trước khi chi phí điều phối và bất định vượt qua lợi ích từ mở
+rộng thị trường quốc tế. Cơ sở lý thuyết trực tiếp bao gồm mô hình đường
+cong chữ S của Lu và Beamish (2004), lý thuyết ba giai đoạn của
+Contractor et al.~(2003), và bằng chứng chữ U ngược ban đầu của Hitt et
+al.~(1997).
+
+\hypertarget{b-ux111iux1ec1u-kiux1ec7n-biuxean-h1b-guxe1nh-nux1eb7ng-quux1ed1c-tux1ebf-huxf3a-bux1eaft-buux1ed9c-fip-tux1ea1i-sids}{%
+\subsection{2.5.2b Điều kiện biên H1b: Gánh nặng quốc tế hóa bắt buộc
+(FIP) tại
+SIDS}\label{b-ux111iux1ec1u-kiux1ec7n-biuxean-h1b-guxe1nh-nux1eb7ng-quux1ed1c-tux1ebf-huxf3a-bux1eaft-buux1ed9c-fip-tux1ea1i-sids}}
+
+H1 dự báo quan hệ chữ U ngược, tức là tồn tại một mức FSTS tối ưu mà
+dưới ngưỡng đó quốc tế hóa tạo ra lợi ích, và trên ngưỡng đó chi phí
+điều phối vượt qua lợi ích học hỏi. Tuy nhiên, lý thuyết dự đoán này
+ngầm giả định rằng ba điều kiện cấu trúc cơ bản được đáp ứng: (i) tồn
+tại thị trường nội địa đủ lớn để doanh nghiệp có nền tảng hiệu suất và
+thanh khoản trước khi xuất khẩu; (ii) chi phí thương mại ở mức chấp nhận
+được, cho phép cân nhắc kinh tế hợp lý; và (iii) tồn tại hỗ trợ thể chế
+tối thiểu cho hoạt động trao đổi quốc tế.
+
+Tại các nền kinh tế SIDS (Nhóm VI ICRV), cả ba điều kiện này đồng thời
+bị vi phạm: thị trường nội địa cực nhỏ buộc các doanh nghiệp phải xuất
+khẩu không phải vì có lợi thế cạnh tranh mà vì thiếu cầu nội địa đủ lớn
+để duy trì hoạt động (xuất khẩu bắt buộc); chi phí hậu cần và vận chuyển
+cực cao do địa lý đảo xa và phân tán làm suy giảm biên lợi nhuận ở mọi
+mức FSTS; và hỗ trợ thể chế (logistics, tài chính thương mại, năng lực
+xúc tiến xuất khẩu) thiếu hụt nghiêm trọng. Khi ba điều kiện này đồng
+thời không được đáp ứng, quan hệ quốc tế hóa và hiệu quả không chỉ mất
+đi phần lợi ích giai đoạn đầu của chữ U ngược mà có thể chuyển thành
+\textbf{quan hệ âm đơn điệu không có điểm uốn}, tức là điều kiện biên lý
+thuyết nơi mọi mức độ quốc tế hóa đều gây tổn hại đến hiệu quả hoạt động
+kinh doanh của doanh nghiệp.
+
+Giả thuyết H1b được phát biểu như sau. Tại các nền kinh tế SIDS (ICRV
+Nhóm VI), mối quan hệ giữa mức độ quốc tế hóa (FSTS) và hiệu quả hoạt
+động kinh doanh của doanh nghiệp (năng suất lao động) là \textbf{âm đơn
+điệu}, không có điểm uốn trong phạm vi dữ liệu, phản ánh gánh nặng quốc
+tế hóa bắt buộc (Forced Internationalization Penalty, FIP) nơi doanh
+nghiệp xuất khẩu để sinh tồn chứ không phải để khai thác lợi thế cạnh
+tranh. Cơ sở lý thuyết bao gồm lý thuyết thể chế (North, 1990), lý
+thuyết chi phí giao dịch (Williamson, 1985), Khanna và Palepu (2010) về
+khoảng trống thể chế, và Lall (2004) về các ràng buộc cấu trúc của các
+nền kinh tế đảo nhỏ.
+
+Một yêu cầu lý thuyết quan trọng đối với H1b là phân biệt FIP như một
+điều kiện biên thực chất với khả năng quan hệ âm đơn điệu chỉ là sản
+phẩm của cỡ mẫu nhỏ hoặc miền FSTS bị giới hạn. Sự phân biệt này có thể
+bác bỏ được về mặt thực nghiệm: nếu FIP là một cấu trúc thực, kiểm định
+Lind và Mehlum (2010) sẽ không phát hiện một cực đại nội vùng ngay cả
+khi độ phủ dữ liệu đủ rộng, và dấu của hiệu ứng biên phải âm ở cả hai
+biên của miền quan sát; ngược lại, nếu quan hệ âm chỉ phản ánh thiếu sức
+mạnh thống kê hay cắt cụt phạm vi, một cực đại nội vùng sẽ lộ ra khi mở
+rộng độ phủ. Đặc thù phân phối FSTS tại SIDS củng cố cách đọc cấu trúc:
+khối lượng doanh nghiệp tập trung ở vùng xuất khẩu cao do cưỡng bức xuất
+khẩu chứ không phải ở vùng FSTS thấp, nên một kết quả âm đơn điệu không
+thể quy cho việc thiếu quan sát ở đuôi trên của miền. Do đó H1b được
+phát biểu như một mệnh đề có thể kiểm sai: việc phát hiện một điểm uốn
+nội vùng có ý nghĩa tại SIDS khi dữ liệu đủ phủ sẽ phủ định FIP, đặt
+khái niệm này dưới một tiêu chí nhận dạng minh bạch chứ không phải một
+diễn giải hậu nghiệm.
+
+\hypertarget{c-ux111iux1ec1u-kiux1ec7n-biuxean-h1c-tan-biux1ebfn-ngux1b0ux1ee1ng-dux1b0ux1edbi-biux1ebfn-ux111ux1ed9ng-thux1ec3-chux1ebf-tuxedch-lux169y}{%
+\subsection{2.5.2c Điều kiện biên H1c: Tan biến ngưỡng dưới biến động
+thể chế tích
+lũy}\label{c-ux111iux1ec1u-kiux1ec7n-biuxean-h1c-tan-biux1ebfn-ngux1b0ux1ee1ng-dux1b0ux1edbi-biux1ebfn-ux111ux1ed9ng-thux1ec3-chux1ebf-tuxedch-lux169y}}
+
+Trong khi H6 dự báo ngưỡng (điểm uốn) \textbf{dịch chuyển} một cách có
+trật tự theo quá trình trưởng thành năng lực và thể chế, một khả năng
+đối lập về mặt lý thuyết là ngưỡng \textbf{tan biến} dưới một chuỗi cú
+sốc thể chế dồn dập, khi đó cấu trúc chữ U ngược không còn được nhận
+diện. Giả thuyết H1c được phát biểu như sau. Ở nền kinh tế trải qua biến
+động thể chế tích lũy cực đoan qua các giai đoạn (điển hình là Ấn Độ
+trong nghiên cứu thành phần P9), cấu trúc chữ U ngược của quan hệ quốc
+tế hóa và hiệu quả \textbf{tan biến theo thời gian} (điểm uốn dịch
+chuyển rồi biến mất trong miền dữ liệu), phản ánh sự phá vỡ cấu trúc chứ
+không phải dịch chuyển tiệm tiến. H1c là điều kiện biên thứ hai của H1
+(bên cạnh H1b), phân biệt rõ với H6 ở chỗ H6 mô tả dịch chuyển có trật
+tự còn H1c mô tả mất cấu trúc cấu trúc. Cơ sở lý thuyết bao gồm North
+(1990) về bất định thể chế, Banalieva và Dhanaraj (2019), và bằng chứng
+đa đợt của P9.
+
+\hypertarget{giux1ea3-thuyux1ebft-h2-ux111iux1ec1u-tiux1ebft-bux1edfi-nux103ng-lux1ef1c-cuxf4ng-nghux1ec7-tci}{%
+\subsection{2.5.3 Giả thuyết H2: Điều tiết bởi năng lực công nghệ
+(TCI)}\label{giux1ea3-thuyux1ebft-h2-ux111iux1ec1u-tiux1ebft-bux1edfi-nux103ng-lux1ef1c-cuxf4ng-nghux1ec7-tci}}
+
+Dựa trên lý thuyết dựa trên nguồn lực (Barney, 1991) và lý thuyết năng
+lực động (Teece et al., 1997), năng lực công nghệ là một nguồn lực thỏa
+mãn tiêu chí VRIN giúp doanh nghiệp khai thác lợi ích từ quốc tế hóa
+hiệu quả hơn. Giả thuyết H2 được phát biểu như sau. Năng lực công nghệ
+(TCI) làm gia tăng tác động tích cực của quốc tế hóa lên hiệu quả hoạt
+động kinh doanh của doanh nghiệp, bằng cách nâng mặt bằng hiệu quả tổng
+thể và làm giảm chi phí học hỏi thị trường quốc tế, do đó làm dịch
+chuyển đường quan hệ quốc tế hóa và hiệu quả lên cao hơn và có thể điều
+chỉnh vị trí của điểm uốn. Cơ sở lý thuyết bao gồm Barney (1991), Teece
+et al.~(1997), và Bhandari et al.~(2023).
+
+Cơ chế lý thuyết đứng sau H2 là năng lực hấp thụ: doanh nghiệp có năng
+lực công nghệ cao hơn xử lý tín hiệu thị trường quốc tế hiệu quả hơn,
+chuyển hóa tri thức bên ngoài thành cải thiện năng suất nhanh hơn, và do
+đó khấu hao chi phí gánh nặng người nước ngoài với tốc độ cao hơn (Cohen
+\& Levinthal, 1990). Vì cơ chế này vận hành chủ yếu qua việc nâng chiều
+sâu năng lực nội tại chứ không qua việc thay đổi bản chất đánh đổi của
+quốc tế hóa, dự đoán mạnh nhất là một hiệu ứng nâng mặt bằng phổ quát,
+trong khi hiệu ứng uốn lại đường cong, nếu có, sẽ phụ thuộc vào sự bổ
+trợ thể chế. Dự đoán này phù hợp với bằng chứng định hướng từ các nghiên
+cứu thành phần đơn quốc gia, nơi năng lực công nghệ liên tục xuất hiện
+như yếu tố nâng mặt bằng dương và có ý nghĩa, sẽ được kiểm định hệ thống
+ở Chương 4. Về mặt nhận dạng thực nghiệm, H2 hàm ý một mẫu hệ số phân
+biệt được: hệ số chính của TCI dương và có ý nghĩa (nâng mặt bằng),
+trong khi số hạng tương tác độ cong TCI × FSTS² không có ý nghĩa hoặc
+yếu (không uốn lại đường cong). Chính sự kết hợp giữa hiệu ứng mức mạnh
+và hiệu ứng độ cong yếu này là tiêu chí thực nghiệm cho phép tách H2
+(nâng mặt bằng) khỏi H3 (uốn đường cong) ngay trong cùng một mô hình
+tương tác.
+
+\hypertarget{giux1ea3-thuyux1ebft-h3-ux111iux1ec1u-tiux1ebft-bux1edfi-chux1ec9-sux1ed1-chux1ea5p-nhux1eadn-sux1ed1-dai}{%
+\subsection{2.5.4 Giả thuyết H3: Điều tiết bởi chỉ số chấp nhận số
+(DAI)}\label{giux1ea3-thuyux1ebft-h3-ux111iux1ec1u-tiux1ebft-bux1edfi-chux1ec9-sux1ed1-chux1ea5p-nhux1eadn-sux1ed1-dai}}
+
+Phân biệt rõ với H2, DAI không có chiều sâu năng lực tổ chức như TCI
+nhưng có vai trò giảm thiểu chi phí phối hợp xuyên biên giới ở mức xuất
+khẩu cao. Giả thuyết H3 được phát biểu như sau. Chỉ số chấp nhận số
+(DAI) điều tiết mối quan hệ quốc tế hóa và hiệu quả, với vai trò bổ trợ
+rõ rệt hơn ở mức cường độ xuất khẩu cao khi DAI giúp giảm chi phí phối
+hợp giao dịch xuyên biên giới, theo đó DAI làm thay đổi độ dốc của đường
+cong chứ không nhất thiết nâng mặt bằng hiệu quả như TCI. Cơ sở lý
+thuyết bao gồm Verhoef et al.~(2021), Stallkamp và Schotter (2021), và
+Banalieva và Dhanaraj (2019). Sự phân biệt cơ chế tác động giữa H2 và H3
+là đóng góp lý thuyết quan trọng, cho phép phân tách TCI và DAI trong mô
+hình hồi quy thực nghiệm.
+
+Cơ chế đứng sau H3 là sự nén chi phí phối hợp ở nhánh đi xuống của đường
+cong. Khi cường độ xuất khẩu tăng cao, chi phí điều phối nhiều thị
+trường, múi giờ và chuỗi cung ứng phân tán là một nguồn chính kéo năng
+suất đi xuống; công cụ số làm giảm chính loại chi phí này thông qua kênh
+giao tiếp, theo dõi đơn hàng và phối hợp số hóa. Vì lý do đó, hiệu ứng
+dự kiến của DAI tập trung ở việc làm thoải nhánh đi xuống và đẩy điểm
+uốn về phía phải, tức một hiệu ứng uốn đường cong, khác về bản chất với
+hiệu ứng nâng mặt bằng của TCI. Tương ứng, H3 dự đoán một mẫu hệ số đối
+ngược với H2: số hạng tương tác DAI × FSTS² (hoặc DAI × FSTS) có ý
+nghĩa, biểu thị thay đổi độ cong hoặc độ dốc, trong khi hiệu ứng mức
+chính của DAI không nhất thiết mạnh. Cặp tiêu chí nhận dạng đối ngược
+này, hiệu ứng mức không kèm uốn cong cho H2 so với uốn cong không nhất
+thiết kèm hiệu ứng mức cho H3, khiến hai giả thuyết có thể phân biệt và
+bác bỏ độc lập trong khung tương tác, thay vì chỉ là hai cách diễn đạt
+cho cùng một hiệu ứng năng lực số. Tuy nhiên, vì cơ chế này phụ thuộc
+vào việc hạ tầng số có định hướng xuyên biên giới hay không, sức mạnh
+của hiệu ứng uốn được dự báo là phụ thuộc bối cảnh thể chế chứ không phổ
+quát, một dự đoán có điều kiện sẽ được kiểm chứng trong khung CDCM.
+
+\hypertarget{giux1ea3-thuyux1ebft-h4-ux111iux1ec1u-tiux1ebft-bux1edfi-ux111ux1eb7c-ux111iux1ec3m-nhuxe0-quux1ea3n-trux1ecb-cux1ea5p-cao}{%
+\subsection{2.5.5 Giả thuyết H4: Điều tiết bởi đặc điểm nhà quản trị cấp
+cao}\label{giux1ea3-thuyux1ebft-h4-ux111iux1ec1u-tiux1ebft-bux1edfi-ux111ux1eb7c-ux111iux1ec3m-nhuxe0-quux1ea3n-trux1ecb-cux1ea5p-cao}}
+
+Dựa trên lý thuyết thượng tầng quản trị (Hambrick \& Mason, 1984;
+Hambrick, 2007), quyết định chiến lược quốc tế hóa và khả năng chuyển
+hóa nó thành hiệu quả phụ thuộc vào đặc điểm nhận thức và kinh nghiệm
+của nhà quản trị. Giả thuyết H4 được phát biểu như sau. Kinh nghiệm quản
+trị và giới tính nữ của nhà quản trị cấp cao làm mạnh hơn tác động tích
+cực của quốc tế hóa lên hiệu quả hoạt động, thông qua cơ chế nâng cao
+nhận thức chiến lược quốc tế và quản trị rủi ro thận trọng hơn trong quá
+trình mở rộng quốc tế. Cơ sở lý thuyết bao gồm Hambrick và Mason (1984),
+Hsu et al.~(2013), và Post và Byron (2015); bằng chứng thực nghiệm ở cấp
+doanh nghiệp cho thấy kinh nghiệm và giới tính của nhà quản trị có thể
+điều tiết quan hệ quốc tế hóa và hiệu quả (Phan, Do, \& Phan, 2020b;
+Phan et al., 2021; Do \& Phan, 2025).
+
+Cơ chế đứng sau H4 là vai trò của trường nhận thức quản trị: kinh nghiệm
+và sự đa dạng trong đội ngũ lãnh đạo cấp cao định hình cách doanh nghiệp
+diễn giải rủi ro và cơ hội quốc tế, qua đó điều tiết chất lượng của các
+quyết định quốc tế hóa thay vì tác động trực tiếp lên mức hiệu quả
+(Nielsen, 2010). Cần lưu ý rằng dự đoán về dấu của hiệu ứng giới tính
+phụ thuộc vào thước đo hiệu quả và đặc tả mô hình: khi đo bằng lợi nhuận
+và mô hình hóa như điều tiết độ dốc, hiệu ứng dự kiến là dương; khi đo
+bằng năng suất và ước lượng như hiệu ứng mức ở mẫu gộp đa quốc gia, hệ
+số có thể âm do chọn lọc cấu thành. Sự phụ thuộc thước đo và bối cảnh
+này được xử lý tường minh trong phần tổng hợp bằng chứng ở Chương 4 và
+Chương 5, nên H4 được khung lại như một giả thuyết về điều tiết chất
+lượng quyết định chứ không phải về một hiệu ứng mức phổ quát.
+
+\hypertarget{giux1ea3-thuyux1ebft-h5-ux111iux1ec1u-tiux1ebft-bux1edfi-bux1ed1i-cux1ea3nh-thux1ec3-chux1ebf-icrv}{%
+\subsection{2.5.6 Giả thuyết H5: Điều tiết bởi bối cảnh thể chế
+(ICRV)}\label{giux1ea3-thuyux1ebft-h5-ux111iux1ec1u-tiux1ebft-bux1edfi-bux1ed1i-cux1ea3nh-thux1ec3-chux1ebf-icrv}}
+
+Trên cơ sở lý thuyết thể chế (North, 1990; Khanna \& Palepu, 2010), chất
+lượng thể chế tạo ra chi phí giao dịch và rủi ro khác nhau, do đó điều
+tiết đáng kể mối quan hệ quốc tế hóa và hiệu quả. Giả thuyết H5 được
+phát biểu như sau. Chất lượng thể chế theo khung ICRV điều tiết tác động
+của các rào cản thể chế lên hiệu quả hoạt động trong quá trình quốc tế
+hóa, với chỉ số chấp nhận số (DAI) đóng vai trò lá chắn số giúp bù đắp
+một phần khoảng trống thể chế; cường độ điều tiết này giảm dần theo phổ
+thể chế ICRV từ các nền kinh tế biên thể chế yếu (Nhóm V và VI, điều
+tiết mạnh nhất) đến các nền kinh tế tiên tiến (Nhóm I, điều tiết yếu
+nhất). Cơ sở lý thuyết bao gồm North (1990), Khanna và Palepu (2010), và
+Marano et al.~(2016).
+
+Cơ chế đứng sau H5 là sự thay thế giữa thể chế và năng lực: nơi thể chế
+nền yếu, mỗi đơn vị năng lực doanh nghiệp, đặc biệt là năng lực số, tạo
+ra khác biệt cạnh tranh lớn hơn vì nó bù đắp cho hạ tầng thể chế còn
+thiếu; nơi thể chế đã mạnh, biên đóng góp của cùng năng lực đó nhỏ hơn
+vì môi trường đã cung cấp phần lớn sự bảo đảm cần thiết cho giao dịch
+xuyên biên giới. Logic thay thế này hàm ý một dự đoán phổ thể chế có
+hướng: vai trò điều tiết của thể chế, và của lá chắn số gắn với nó, mạnh
+nhất ở biên dưới của phổ thể chế ICRV và yếu dần khi tiến lên biên trên.
+Đây chính là dự đoán định hướng mà luận án kiểm định bằng cả phân tích
+tổng hợp theo nhóm thể chế và ước lượng điểm uốn trong từng chế độ ICRV
+ở Chương 4.
+
+Một phản biện hiển nhiên đối với logic thay thế này là tính bổ trợ hạ
+tầng: chính những nền kinh tế có thể chế yếu nhất cũng thường có hạ tầng
+số kém phát triển nhất, nên có thể lập luận rằng lá chắn số phát huy tác
+dụng yếu nhất chứ không phải mạnh nhất ở biên dưới của phổ thể chế. Luận
+án giải quyết căng thẳng giữa thay thế và bổ trợ này bằng cách lưu ý
+rằng thành phần DAI được vận hành hóa ở tầng nền tảng nhất (sự hiện diện
+web và giao dịch số cơ bản), tức loại công cụ ít đòi hỏi hạ tầng dày
+nhất và vẫn khả thi trên hạ tầng mỏng; ở tầng này, lợi ích chủ yếu đến
+từ việc hạ chi phí tìm kiếm và thông tin trong trao đổi xuyên biên giới,
+vốn chính là những chi phí mà khoảng trống thể chế khuếch đại. Vì vậy cơ
+chế thay thế được dự báo trội hơn cơ chế bổ trợ trong dải năng lực số
+nền tảng mà luận án đo lường; song chính sự phụ thuộc tầng đo lường này
+hàm ý rằng hiệu ứng lá chắn có thể đảo chiều ở các tầng số đòi hỏi hạ
+tầng cao hơn, một ranh giới phạm vi áp dụng được thừa nhận tường minh và
+sẽ được nối lại trong phần hạn chế đo lường DAI ở Chương 5.
+
+\hypertarget{giux1ea3-thuyux1ebft-h6-dux1ecb-biux1ec7t-thux1eddi-gian-trong-quan-hux1ec7-quux1ed1c-tux1ebf-huxf3a-vuxe0-hiux1ec7u-quux1ea3}{%
+\subsection{2.5.7 Giả thuyết H6: Dị biệt thời gian trong quan hệ quốc tế
+hóa và hiệu
+quả}\label{giux1ea3-thuyux1ebft-h6-dux1ecb-biux1ec7t-thux1eddi-gian-trong-quan-hux1ec7-quux1ed1c-tux1ebf-huxf3a-vuxe0-hiux1ec7u-quux1ea3}}
+
+Dựa trên quan sát về tốc độ chuyển đổi số và thay đổi thể chế rất nhanh
+ở một số nền kinh tế châu Á, đặc biệt Trung Quốc, quan hệ quốc tế hóa và
+hiệu quả không nhất thiết ổn định theo thời gian. Giả thuyết H6 được
+phát biểu như sau. Hình dạng phi tuyến của quan hệ, cụ thể là vị trí của
+điểm uốn và độ cong của đường quan hệ, thay đổi theo thời gian trong các
+nền kinh tế chuyển đổi nhanh, phản ánh sự phát triển của năng lực doanh
+nghiệp và cải thiện điều kiện thể chế qua các giai đoạn. Cơ sở lý thuyết
+bao gồm Wu et al.~(2022), Xiao et al.~(2013), và Banalieva và Dhanaraj
+(2019).
+
+Việc kiểm định H6 đòi hỏi phân biệt hai khả năng đối lập về mặt lý
+thuyết: dịch chuyển ngưỡng do trưởng thành năng lực và thể chế (một quá
+trình tiệm tiến, có trật tự) so với mất cấu trúc ngưỡng do biến động thể
+chế tích lũy (một quá trình phá vỡ cấu trúc). Bằng chứng từ hai bối cảnh
+tương phản trong luận án phục vụ chính sự phân biệt này. Tại Trung Quốc,
+nghiên cứu thành phần P5 cho thấy điểm uốn ổn định tương đối giữa 2012
+và 2024 (kiểm định Paternoster \(z = +0{,}82\), \(p = {,}412\), không
+bác bỏ tính bằng nhau), nhất quán với một quá trình trưởng thành có trật
+tự. Ngược lại, bằng chứng Ấn Độ (P9) cho thấy ngưỡng có thể mất cấu trúc
+dưới một chuỗi cú sốc thể chế dồn dập. Đặt cạnh nhau, hai trường hợp này
+tinh chỉnh H6 thành một mệnh đề có điều kiện: dị biệt thời gian của quan
+hệ là hàm của tốc độ và biên độ thay đổi thể chế tích lũy, chứ không
+phải một xu hướng đơn điệu theo thời gian.
+
+\hypertarget{tux1ed5ng-hux1ee3p-hux1ec7-giux1ea3-thuyux1ebft}{%
+\subsection{2.5.8 Tổng hợp hệ giả
+thuyết}\label{tux1ed5ng-hux1ee3p-hux1ec7-giux1ea3-thuyux1ebft}}
+
+Bảy giả thuyết nêu trên được tổng hợp trong Bảng 2.2, làm rõ với mỗi giả
+thuyết bốn yếu tố: phát biểu tóm tắt, dấu kỳ vọng của hệ số, cơ sở lý
+thuyết nền và biến đo lường cùng kiểm định tương ứng. Cách trình bày này
+bảo đảm mỗi giả thuyết đều được suy ra từ lý thuyết (không phải rút ra
+từ quan sát thực nghiệm) và đều gắn với một thao tác kiểm định cụ thể
+trong Chương 3 và Chương 4. Ba giả thuyết điều tiết H2, H3, H5 cùng vận
+hành trên một đường quan hệ chính (H1), tương ứng ba tầng của khung
+CDCM; H1b là điều kiện biên của H1 tại nhóm thể chế yếu nhất; H4 và H6
+bổ sung tầng cá nhân và chiều thời gian.
+
+\textbf{Bảng 2.2.} \emph{Tổng hợp hệ giả thuyết nghiên cứu: phát biểu,
+dấu kỳ vọng, cơ sở lý thuyết và biến kiểm định.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Giả thuyết
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Phát biểu tóm tắt
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dấu kỳ vọng
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Cơ sở lý thuyết
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Biến / kiểm định
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{H1} & Quan hệ quốc tế hóa và hiệu quả có dạng phi tuyến chữ U
+ngược & \(\beta_1>0\); \(\beta_2<0\) & Mô hình Uppsala; Lu và Beamish
+(2004) & FSTS, FSTS²; kiểm định Lind--Mehlum \\
+\textbf{H1b} & Tại nhóm SIDS (ICRV VI), quan hệ âm đơn điệu, không điểm
+uốn (gánh nặng quốc tế hóa bắt buộc, FIP) & \(\beta(\text{FSTS})<0\) &
+Lý thuyết thể chế (North, 1990); chi phí giao dịch (Williamson, 1985);
+Lall (2004) & FSTS trên mẫu SIDS; kiểm tra không tồn tại điểm uốn \\
+\textbf{H2} & Năng lực công nghệ (TCI) điều tiết dương, nâng mặt bằng
+hiệu quả và có thể dịch chuyển điểm uốn & \(+\) & Lý thuyết dựa trên
+nguồn lực (Barney, 1991); năng lực động (Teece et al., 1997) & TCI; TCI
+× FSTS; TCI × FSTS² \\
+\textbf{H3} & Chấp nhận số (DAI) điều tiết, uốn đường cong rõ hơn ở
+cường độ xuất khẩu cao (giảm chi phí phối hợp) & \(+\) (đổi độ dốc) &
+Verhoef et al.~(2021); Stallkamp và Schotter (2021); Banalieva và
+Dhanaraj (2019) & DAI; DAI × FSTS; DAI × FSTS² \\
+\textbf{H4} & Kinh nghiệm và giới tính nữ của nhà quản trị cấp cao điều
+tiết dương quan hệ quốc tế hóa và hiệu quả & \(+\) & Lý thuyết thượng
+tầng quản trị (Hambrick và Mason, 1984); Post và Byron (2015) & Kinh
+nghiệm, giới tính × FSTS \\
+\textbf{H5} & Chất lượng thể chế (phổ thể chế ICRV) điều tiết; tác động
+mạnh nhất ở nhóm thể chế yếu, giảm dần đến nhóm tiên tiến & \(+/-\) theo
+phổ thể chế & Lý thuyết thể chế (North, 1990; Khanna và Palepu, 2010);
+Marano et al.~(2016) & ICRV × FSTS; ICRV × FSTS² \\
+\textbf{H6} & Dạng hàm (vị trí điểm uốn, độ cong) dịch chuyển theo thời
+gian ở nền kinh tế chuyển đổi nhanh & Thay đổi theo thời gian & Wu et
+al.~(2022); Xiao et al.~(2013); Banalieva và Dhanaraj (2019) & So sánh
+đa đợt khảo sát; kiểm định Paternoster \\
+\end{longtable}
+
+\emph{Ghi chú: FSTS = tỷ lệ doanh thu nước ngoài trên tổng doanh thu
+(cường độ xuất khẩu); TCI = chỉ số năng lực công nghệ; DAI = chỉ số chấp
+nhận số; ICRV = khung phân loại chế độ bối cảnh thể chế sáu nhóm; FIP =
+gánh nặng quốc tế hóa bắt buộc. Dấu kỳ vọng tham chiếu hệ số của số hạng
+tương tác tương ứng. Nguồn: tác giả tổng hợp.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{uxe1nh-xux1ea1-giux1ea3-thuyux1ebft-vuxe0-cuxe1c-nghiuxean-cux1ee9u-thuxe0nh-phux1ea7n}{%
+\subsection{2.5.9 Ánh xạ giả thuyết và các nghiên cứu thành
+phần}\label{uxe1nh-xux1ea1-giux1ea3-thuyux1ebft-vuxe0-cuxe1c-nghiuxean-cux1ee9u-thuxe0nh-phux1ea7n}}
+
+Luận án được phát triển gắn với một chuỗi nghiên cứu thành phần (ký hiệu
+P1--P10 và một chương sách), mỗi nghiên cứu kiểm định một phần của hệ
+giả thuyết H1--H6 và điều kiện biên H1b trong một bối cảnh thể chế cụ
+thể. Bảng 2.1 ánh xạ các nghiên cứu thành phần với mục trình bày kết quả
+và các giả thuyết tương ứng.
+
+\textbf{Bảng 2.1.} \emph{Ánh xạ nghiên cứu thành phần, mục trình bày,
+giả thuyết.}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Nghiên cứu thành phần
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Bối cảnh (nhóm ICRV)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Trình bày tại
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Giả thuyết kiểm định
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+P1: Cơ sở đa quốc gia (17 nền kinh tế) & Châu Á (đa nhóm) & Mục 2.3.3;
+Mục 4.1.7 & Nền tảng cho H1, H2, H5 \\
+P2: Doanh nghiệp nhỏ và vừa Trung Quốc & Trung bình cao (Nhóm III) & Mục
+2.3.3; Mục 4.4.8 & Nền tảng cho H1 \\
+P3: Việt Nam & Chuyển đổi thu nhập trung bình thấp (Nhóm IV) & Mục 4.5 &
+H1, H2, H3 \\
+P4: Singapore & Tiên tiến đổi mới (Nhóm I) & Mục 4.3 & H1, H3 \\
+P5: Trung Quốc 2012--2024 & Trung bình cao (Nhóm III) & Mục 4.4 & H1,
+H6 \\
+P6: Phân tích tổng hợp ba tầng & Toàn bộ tài liệu châu Á & Mục 4.2 & H1,
+H5 \\
+P7: Toàn mẫu đa quốc gia (50 nền kinh tế) & Toàn bộ phổ thể chế ICRV &
+Mục 4.6 & H1, H2, H3, H4, H5 (và tương tác tổng hợp ba chiều) \\
+P8: Đảo nhỏ Thái Bình Dương (mẫu chính 7 nước, N=959; kiểm định độ vững
+mở rộng 9 nước Nhóm VI) & SIDS (Nhóm VI) & Mục 4.7 & H1b (FIP) \\
+P9: Ấn Độ 2014--2025 & Chuyển đổi thu nhập trung bình thấp (Nhóm IV) &
+Mục 4.8 & H1c (độ bền ngưỡng dưới biến động thể chế) \\
+P10: Nhật Bản 2025 & Tiên tiến đổi mới (Nhóm I) & Mục 4.1.5; Mục 4.9 &
+H1 (dự đoán biên trên: gần tuyến tính) \\
+Chương sách: Ấn Độ, quản trị cấp cao & Chuyển đổi thu nhập trung bình
+thấp (Nhóm IV) & Mục 4.8.4 & H4 (điều tiết bởi đặc trưng quản trị) \\
+\end{longtable}
+
+\emph{Ghi chú về ký hiệu: Hệ giả thuyết của luận án gồm sáu giả thuyết
+trọng tâm H1--H6 và một giả thuyết điều kiện biên H1b. Trong các mô hình
+thực nghiệm chi tiết ở Chương 3, một số nghiên cứu thành phần sử dụng
+các giả thuyết con (sub-hypotheses) lồng dưới hệ giả thuyết chính của
+luận án, cụ thể: H2b (kiểm định tính ổn định xuyên sóng của năng lực
+điều tiết, thuộc P5, lồng dưới H2/H6); H4a--H4b (kiểm định điều tiết độ
+cong theo năng lực, thuộc P5, lồng dưới H2); tương tác tổng hợp ba chiều
+của P7 (lồng dưới H3 và H5); E1a--E1b (kiểm định định hướng phổ thể chế
+ICRV, lồng dưới H5); và H1c (kiểm định tan biến ngưỡng chữ U ngược theo
+thời gian tại Ấn Độ, thuộc P9, lồng dưới H1 và H6). Các ký hiệu con này
+phục vụ độ chính xác kỹ thuật của từng mô hình và không làm thay đổi hệ
+giả thuyết trọng tâm H1--H6/H1b của luận án.}
+
+\hypertarget{tuxf3m-tux1eaft-chux1b0ux1a1ng}{%
+\section{2.6 Tóm tắt chương}\label{tuxf3m-tux1eaft-chux1b0ux1a1ng}}
+
+Chương 2 đã trình bày hệ thống nền tảng lý thuyết và thực nghiệm cho
+luận án theo một trục logic nhất quán: từ khái niệm đến lý thuyết, từ
+bằng chứng thực nghiệm đến khoảng trống, và từ khoảng trống đến khung
+nghiên cứu và giả thuyết.
+
+Phần đầu chương xác lập bốn khái niệm cốt lõi: quốc tế hóa doanh nghiệp
+(đo bằng FSTS), hiệu quả hoạt động (đo chủ yếu bằng năng suất lao động),
+năng lực công nghệ (TCI) và chỉ số chấp nhận số (DAI) như hai cấu trúc
+độc lập, và bối cảnh thể chế được vận hành hóa bằng khung ICRV sáu nhóm.
+Phần lý thuyết nền trình bày và phân tích bốn lý thuyết kinh điển, gồm
+mô hình Uppsala, lý thuyết dựa trên nguồn lực, lý thuyết thể chế và lý
+thuyết thượng tầng quản trị, cùng với lớp mở rộng lăng kính năng lực số,
+xác định vai trò của từng lý thuyết trong khung giải thích tổng thể của
+luận án. Điểm nhấn lý thuyết là lập luận rằng năm lớp này bổ sung cho
+nhau theo cấp độ phân tích, từ chi phí học hỏi, khác biệt năng lực, bối
+cảnh thể chế, đặc điểm người ra quyết định, đến logic số, và do đó cần
+được tích hợp thay vì lựa chọn loại trừ.
+
+Tổng quan thực nghiệm cho thấy tài liệu về quan hệ quốc tế hóa và hiệu
+quả đã phát triển qua ba giai đoạn, từ tuyến tính dương đến phi tuyến
+đến tập trung vào các biến điều tiết; các phân tích tổng hợp nhất quán
+cho thấy tác động gộp là dương nhưng nhỏ với mức dị biệt cao (\(I^2\)
+trên 80\% ở các tổng hợp trước, \(62{,}4\%\) ở phân tích tổng hợp cập
+nhật P6), đòi hỏi cách tiếp cận lấy biến điều tiết làm trung tâm; và bối
+cảnh châu Á, đặc biệt là các nền kinh tế biên thể chế yếu và các nền đảo
+nhỏ, đang thiếu đại diện nghiêm trọng trong tài liệu. Phần này cũng ghi
+nhận làn sóng nhân rộng quy mô lớn gần đây vốn đặt câu hỏi về tính phổ
+quát của dạng hàm, qua đó củng cố luận điểm rằng chính dị biệt bối cảnh,
+chứ không phải một quy luật hàm phổ quát, mới chi phối kết quả.
+
+Ba khoảng trống được xác định: thiếu khung tích hợp đa tầng, sự đồng
+nhất không hợp lý giữa TCI và DAI, và thiếu bằng chứng đa quốc gia quy
+mô lớn có cấu trúc cho châu Á. Để lấp đầy ba khoảng trống này, luận án
+đề xuất khung CDCM và phát triển sáu giả thuyết trọng tâm (H1 đến H6)
+cùng điều kiện biên H1b, bao phủ phi tuyến cơ bản, vai trò của TCI và
+DAI, vai trò của đặc điểm nhà quản trị, vai trò của thể chế ICRV, và dị
+biệt thời gian. Mỗi giả thuyết được neo vào một hoặc nhiều nghiên cứu
+thành phần và một bối cảnh thể chế cụ thể, như Bảng 2.1 trình bày, để
+bảo đảm rằng khung lý thuyết được kiểm định trên toàn bộ phổ thể chế của
+khu vực chứ không chỉ ở một bối cảnh đơn lẻ. Chương 3 sẽ trình bày thiết
+kế phương pháp và chiến lược kiểm định hệ giả thuyết này.
+
+\end{document}

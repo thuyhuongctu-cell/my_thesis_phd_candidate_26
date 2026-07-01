@@ -18,17 +18,29 @@ from pydantic import BaseModel, Field
 # Domain Enums / Literal Types
 # ---------------------------------------------------------------------------
 
-DoiMeasure = Literal["FSTS", "entropy", "n_markets", "TNI"]
-PerformanceMeasure = Literal["ROA", "ROE", "ROS", "TobinsQ", "composite", "other"]
-# ICRV regimes follow the dissertation's classification schema:
-#   I   = Domestic-only control
-#   II  = Limited international (FSTS < 25 %)
-#   III = Moderate international (25–75 %)
-#   SIDS= Small Island Developing States sub-sample
-#   V   = High internationalization (> 75 %)
-#   pooled = Mixed / unclassified sample
-IcrvRegime = Literal["I", "II", "III", "SIDS", "V", "pooled"]
-DplPhase = Literal["Precede", "Span", "Follow"]
+# Codes below mirror the canonical P6 analysis database (p6/data/p6_study_database.csv)
+# and the dissertation's construct definitions; keep the three artefacts in sync.
+#
+# DOI (degree-of-internationalisation) measure reported by the primary study:
+#   FSTS = foreign sales / total sales; GEO = geographic scope / country count;
+#   EXP  = export intensity or exporter dummy; FDI = outward-FDI-based measure;
+#   COMP = composite / entropy index (e.g. TNI); OTH = other.
+DoiMeasure = Literal["FSTS", "GEO", "EXP", "FDI", "COMP", "OTH"]
+# Firm-performance construct: ACC = accounting (ROA/ROE/ROS); MKT = market
+# (Tobin's Q, returns); LAB = labour productivity; MIX = composite/mixed.
+PerformanceMeasure = Literal["ACC", "MKT", "LAB", "MIX"]
+# ICRV — Institutional Context Regime Variation. Assigned by the PI from the
+# sample country's World Bank WGI Rule of Law score (2023 vintage), NOT
+# extracted by the LLM:
+#   I   = Advanced-Innovation        (WGI > +0.80)
+#   II  = Upper-Middle               (0 to +0.80)
+#   III = Emerging                   (-0.50 to 0)
+#   FR  = Frontier / SIDS            (<= -0.50, or small-island state)
+#   MX  = Multi-country pooled       (no modal regime >= 60 %)
+IcrvRegime = Literal["I", "II", "III", "FR", "MX"]
+# DPL phase, assigned by the PI from the study's median data year:
+#   PRE = Precede, SPN = Span, FOL = Follow.
+DplPhase = Literal["PRE", "SPN", "FOL"]
 
 
 # ---------------------------------------------------------------------------
@@ -53,6 +65,12 @@ class ExtractedEffect(BaseModel):
 
     # Sample information
     sample_n: int | None = Field(None, description="Total sample size (N)")
+    sample_start: int | None = Field(
+        None, description="First year of the study's data window"
+    )
+    sample_end: int | None = Field(
+        None, description="Last year of the study's data window"
+    )
 
     # Raw reported statistics
     effect_r: float | None = Field(
@@ -60,7 +78,7 @@ class ExtractedEffect(BaseModel):
         description="Pearson's r as directly reported (preferred); confidence = 1.0",
     )
     effect_t: float | None = Field(
-        None, description="t-statistic; converted to r via Peterson & Brown (2005)"
+        None, description="t-statistic; converted to r via Cohen (1988)"
     )
     effect_beta: float | None = Field(
         None,
@@ -85,16 +103,28 @@ class ExtractedEffect(BaseModel):
         None, description="Firm-performance construct used"
     )
     icrv_regime: IcrvRegime | None = Field(
-        None, description="ICRV internationalization regime classification"
+        None,
+        description=(
+            "ICRV institutional regime (I/II/III/FR/MX). PI-assigned from the "
+            "WGI Rule of Law lookup table (2023 vintage); never LLM-extracted."
+        ),
     )
     cdai_score: float | None = Field(
         None,
         ge=0.0,
-        le=10.0,
-        description="Cultural Distance Asymmetry Index score (0–10)",
+        le=1.0,
+        description=(
+            "Country Digital Adoption Index, 0-1 (World Bank DAI 2016, or ITU "
+            "DDI rescaled), assigned by the PI from the study's median data "
+            "year; never LLM-extracted."
+        ),
     )
     dpl_phase: DplPhase | None = Field(
-        None, description="Dynamic Performance Lag phase (Precede/Span/Follow)"
+        None,
+        description=(
+            "Digital Paradox Lifecycle phase (PRE/SPN/FOL), derived by the PI "
+            "from the study's median data year; never LLM-extracted."
+        ),
     )
 
     # Extraction provenance

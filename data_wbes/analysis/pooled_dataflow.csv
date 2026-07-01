@@ -1,0 +1,11 @@
+step,count
+"S1 standard cross-sections >=2006 (in-frame, deduped)",105 waves / 49 economies
+S2 firm-year observations (re-uploaded archive),"80,523"
+S3-S4 harmonised + non-response recoded,"80,523"
+S5 labour-productivity valid,"73,594"
+S6 analytic (LP + FSTS valid),"73,109"
+"— OFFICIAL locked pool (master, full assembly) —",
+"Classification pool (ICRV-assigned, 52 econ)","96,415"
+Analytic frame (49 Asia-Pacific economies),"91,982"
+P7 M2 regression N (listwise focal set),"84,910"
+P7 M5 full-control N,"38,342"

@@ -38,11 +38,11 @@ When resolving conflicts, use this priority order:
 1. **Orientation**: Run `/lfe-boot` to read `pipeline_status.md`, check for interrupted sessions, and load the Protocol.
 2. **Complexity Gate**: Ask the human: *"Is this a Major Architectural Change or a Minor Fix?"*
 3. **Execution**: Follow the persona sub-pipelines in strict order:
-   - **Architect**: `/lfe-grill-with-docs` → `/lfe-to-prd` → `/lfe-to-issues` → `/lfe-architect`
-   - **Builder**: `/lfe-builder` → `/lfe-tdd`
-   - **Inspector**: `/lfe-zoom-out` → `/lfe-inspector` → `/lfe-diagnose` (if failed)
-   - **Archivist**: `/lfe-archivist` → slice loop → cleanup
-4. **Hygiene**: Scheduled every 5 sessions. Run `/lfe-hygiene` → `/lfe-improve-architecture`.
+   - **Architect**: `/lfe-grill-with-docs` to `/lfe-to-prd` to `/lfe-to-issues` to `/lfe-architect`
+   - **Builder**: `/lfe-builder` to `/lfe-tdd`
+   - **Inspector**: `/lfe-zoom-out` to `/lfe-inspector` to `/lfe-diagnose` (if failed)
+   - **Archivist**: `/lfe-archivist` to slice loop to cleanup
+4. **Hygiene**: Scheduled every 5 sessions. Run `/lfe-hygiene` to `/lfe-improve-architecture`.
 5. **Orientation Shortcut**: Run `/lfe-whats-next` at any point for instant pipeline orientation.
 
 ## 5. File-Based Coordination (CRITICAL)

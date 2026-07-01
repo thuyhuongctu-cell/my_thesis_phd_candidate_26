@@ -1,0 +1,18 @@
+quantity,value,se,p,note
+wave_2014_N,8941.0,,,M2 analytic N (sample_base)
+wave_2014_b1_FSTS,1.8645,0.2351,2.16e-15,HC1
+wave_2014_b2_FSTSsq,-1.5082,0.2543,3.00e-09,HC1
+wave_2014_TP_pct,61.81,3.48,,"95% CI [55.0%, 68.6%]"
+wave_2022_N,9300.0,,,M2 analytic N (sample_base)
+wave_2022_b1_FSTS,1.5419,0.2225,4.25e-12,HC1
+wave_2022_b2_FSTSsq,-1.8933,0.2391,2.40e-15,HC1
+wave_2022_TP_pct,40.72,1.4,,"95% CI [38.0%, 43.5%]"
+wave_2025_N,10476.0,,,M2 analytic N (sample_base)
+wave_2025_b1_FSTS,-0.3591,0.1525,1.86e-02,HC1
+wave_2025_b2_FSTSsq,-0.1604,0.199,4.20e-01,HC1
+wave_2025_TP_pct,-111.95,183.75,,"95% CI [-472.1%, 248.2%]"
+pooled_3wave_N,28717.0,,,2014+2022+2025 sample_base
+pooled_dummy_b2_FSTSsq,-1.1114,0.2506,9.24e-06,pooled inverted-U curvature (dummy-spec)
+pooled_trend_b2_FSTSsq,-1.4132,0.2441,7.09e-09,pooled inverted-U curvature (trend-spec)
+paternoster_z_FSTS_2014v2025,-7.935,,2.00e-15,"cross-wave equality test, HC1 SE"
+paternoster_z_FSTSsq_2014v2025,4.174,,2.99e-05,"cross-wave equality test, HC1 SE"

@@ -27,10 +27,10 @@ v1.2 reports 49.4 / 47.6 / 48.9 — replication matches within ≤0.4 pp.
 
 | Coefficient | b (2012) | b (2024) | z | p | Verdict |
 |---|---|---|---|---|---|
-| FSTS | +2.065 (0.379) | +1.498 (0.578) | +0.821 | **0.412** | Equality NOT rejected → **stable** |
-| FSTSsq | −2.092 (0.435) | −1.587 (0.712) | −0.605 | **0.545** | Equality NOT rejected → **stable** |
+| FSTS | +2.065 (0.379) | +1.498 (0.578) | +0.821 | **0.412** | Equality NOT rejected to **stable** |
+| FSTSsq | −2.092 (0.435) | −1.587 (0.712) | −0.605 | **0.545** | Equality NOT rejected to **stable** |
 
-Both p-values > 0.10 → fail to reject equality → **threshold-stability claim verified**.
+Both p-values > 0.10 to fail to reject equality to **threshold-stability claim verified**.
 
 ## Files in this directory
 

@@ -80,7 +80,9 @@ def _get_extractor() -> StatisticalExtractor:
             status_code=503,
             detail="ANTHROPIC_API_KEY not configured; extraction unavailable.",
         )
-    return StatisticalExtractor(api_key=settings.anthropic_api_key)
+    return StatisticalExtractor(
+        api_key=settings.anthropic_api_key, model=settings.resolved_model
+    )
 
 
 def _get_notion() -> NotionSync:
@@ -245,6 +247,8 @@ def export_csv() -> StreamingResponse:
         "year",
         "country",
         "sample_n",
+        "sample_start",
+        "sample_end",
         "effect_r",
         "effect_t",
         "effect_beta",
@@ -315,12 +319,19 @@ def verify_study(study_id: str, decision: VerificationDecision) -> StudyDatabase
         )
 
     # Apply overrides to a mutable copy
+    overrides = decision.field_overrides
     data = entry.model_dump()
-    for field, value in decision.field_overrides.items():
+    for field, value in overrides.items():
         if field in data:
             data[field] = value
         else:
             logger.warning("Ignoring unknown field override %r", field)
+
+    # Recompute the canonical Pearson r when the PI corrects an upstream
+    # statistic (t/df or β) but does not override effect_r directly, so the
+    # meta-analysis never uses a stale correlation. An explicit effect_r
+    # override always wins.
+    data["effect_r"] = StatisticalExtractor.resolve_overridden_r(data, overrides)
 
     data["pi_notes"] = decision.pi_notes
     # Approval clears the requires_verification flag

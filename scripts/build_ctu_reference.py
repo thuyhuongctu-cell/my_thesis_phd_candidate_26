@@ -93,12 +93,12 @@ def set_heading_styles(doc, font_name="Times New Roman", color_rgb=None):
 
 
 def build_ctu_thesis_template(input_docx, output_docx):
-    """CTU thesis/CĐ: TNR 13pt, lề 3-2-2-2, line 1.5, justify, đen."""
+    """CTU thesis/CĐ: TNR 13pt, lề 3-2-2-2, line 1.2, justify, đen."""
     shutil.copy(input_docx, output_docx)
     doc = Document(output_docx)
     set_page_layout(doc, top=2.0, bottom=2.0, left=3.0, right=2.0)
     set_default_font(doc, "Times New Roman", 13, RGBColor(0, 0, 0))
-    set_paragraph_format_default(doc, 1.5, WD_ALIGN_PARAGRAPH.JUSTIFY)
+    set_paragraph_format_default(doc, 1.2, WD_ALIGN_PARAGRAPH.JUSTIFY)
     set_heading_styles(doc, "Times New Roman", RGBColor(0, 0, 0))
     doc.save(output_docx)
     print(f"[OK] CTU thesis template: {output_docx}")

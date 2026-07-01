@@ -3,7 +3,7 @@
 ## Authors
 
 **Đỗ Thùy Hương** (corresponding author)
-Viet Nam — Latvia University of Technology and Economics (VLUTE) / Can Tho University
+Vietnam–Latvia University of Technology and Economics (VLUTE) / Can Tho University
 Email: [author email]
 ORCID: [ORCID]
 
@@ -19,26 +19,26 @@ ORCID: [ORCID]
 
 | Role | DTH | PAT |
 |------|-----|-----|
-| Conceptualization | ✓ | ✓ |
-| Methodology | ✓ | ✓ |
-| Data curation | ✓ | |
-| Formal analysis | ✓ | |
-| Writing — original draft | ✓ | |
-| Writing — review & editing | ✓ | ✓ |
-| Supervision | | ✓ |
-| Funding acquisition | | ✓ |
+| Conceptualization | Có | Có |
+| Methodology | Có | Có |
+| Data curation | Có | |
+| Formal analysis | Có | |
+| Writing – original draft | Có | |
+| Writing – review & editing | Có | Có |
+| Supervision | | Có |
+| Funding acquisition | | Có |
 
 ---
 
 ## Acknowledgements
 
-The authors gratefully acknowledge the World Bank Enterprise Survey team for providing publicly available firm-level data. This research uses WBES waves 2009–2025 for nine Pacific Small Island Developing States economies.
+The authors gratefully acknowledge the World Bank Enterprise Survey team for providing publicly available firm-level data. This research uses WBES waves 2009–2025 for seven Pacific Small Island Developing States economies.
 
 ---
 
 ## Funding
 
-[Confirm funding source with authors — e.g., Vietnam Ministry of Education and Training research grant, or Can Tho University research fund]
+[Confirm funding source with authors – e.g., Vietnam Ministry of Education and Training research grant, or Can Tho University research fund]
 
 ---
 
@@ -57,3 +57,5 @@ The World Bank Enterprise Survey microdata are publicly available at [enterprise
 ## Keywords
 
 forced internationalization; small island developing states; internationalization–performance relationship; institutional voids; Pacific economies; labor productivity; Forced Internationalization Penalty (FIP)
+
+**AI-use disclosure.** Generative-AI tools were used to assist with prose drafting, code refactoring, and language editing. All research design, variable construction, model specification, estimation, interpretation, and scientific conclusions are the authors' own work and responsibility; no result was accepted on an AI's assertion, and all reported quantitative results are reproducible from the accompanying scripts.

@@ -1,11 +1,11 @@
 # IJOEM Submission Package
-## International Journal of Emerging Markets — Emerald Publishing
+## International Journal of Emerging Markets, Emerald Publishing
 
-**Manuscript:** "Technological Capability, Digital Adoption, and Internationalization Performance in China: Evidence from Two WBES Waves"
+**Manuscript:** "The Export Intensity–Performance Relationship in Chinese Private Firms: A Threshold-Stability Perspective"
 
 **Submission date:** 10 May 2026
 
-**Authors:** Đỗ Thùy Hương & Phan Anh Tú (Can Tho University)
+**Authors:** Đỗ Thùy Hương and Phan Anh Tú (Can Tho University)
 
 ---
 
@@ -13,7 +13,7 @@
 
 | File | Description | Submits as |
 |------|-------------|------------|
-| `01_manuscript_blinded.docx` | Main manuscript — author information removed | Manuscript (blinded) |
+| `01_manuscript_blinded.docx` | Main manuscript, author information removed | Manuscript (blinded) |
 | `02_title_page.docx` | Title page with full author details, CRediT, acknowledgements | Title page |
 | `03_cover_letter.docx` | Cover letter to Editor-in-Chief | Cover letter |
 | `figures/figure_1_conceptual_model.png` | Conceptual model (300 DPI PNG) | Figure 1 |
@@ -30,11 +30,11 @@
 - [ ] **Manuscript type:** Research Article
 - [ ] **Title:** as above
 - [ ] **Abstract:** ~200 words (from manuscript)
-- [ ] **Keywords** (5–6): internationalization–performance; China; temporal stability; technological capability; WBES; structural durability
-- [ ] Upload `01_manuscript_blinded.docx` → Manuscript
-- [ ] Upload `02_title_page.docx` → Title Page / Author Information
-- [ ] Upload `03_cover_letter.docx` → Cover Letter
-- [ ] Upload figures 1–4 → Figure files
+- [ ] **Keywords** (5–6): internationalisation–performance; export intensity; threshold stability; technological capability; digital adoption; Chinese private firms; World Bank Enterprise Survey
+- [ ] Upload `01_manuscript_blinded.docx` to Manuscript
+- [ ] Upload `02_title_page.docx` to Title Page / Author Information
+- [ ] Upload `03_cover_letter.docx` to Cover Letter
+- [ ] Upload figures 1–4 to Figure files
 - [ ] Confirm corresponding author (Phan Anh Tú)
 - [ ] Confirm no conflict of interest
 - [ ] Confirm data availability (WBES China 2012, 2024)
@@ -45,8 +45,8 @@
 
 | Item | Count |
 |------|-------|
-| Word count (main text) | ~7,500 words |
-| Tables | 4 |
+| Word count (main text) | ~7,200 words |
+| Tables | 3 |
 | Figures | 4 |
 | Data | WBES China 2012 (N = 2,610) + 2024 (N = 1,934) |
 | ICRV context | Upper-Middle Transition (Group III) |
@@ -56,6 +56,8 @@
 
 ## Source Files
 
-Main markdown: `p5/p5_china_en_clean.md`
+Submission markdown (2-wave, current): `p5/submission/ijoem_package/01_manuscript_blinded.md`
 Vietnamese: `p5/submission/p5_china_vi.md`
 Replication: `p5/replication/`
+
+> Note: the legacy 4-wave drafts (`p5/p5_china_en_clean.md`, `p5_china_cover_letter.md`) are superseded; the IJOEM/CMS/APBR packages all use the 2-wave (2012, 2024) design.

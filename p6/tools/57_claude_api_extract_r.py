@@ -43,7 +43,14 @@ except ImportError:
     print("ERROR: pip install requests"); sys.exit(1)
 
 # ─── Configuration ────────────────────────────────────────────────────────────
-MODEL       = "claude-haiku-4-5-20251001"   # fast + cheap for batch extraction
+# Project model resolution chain: ANTHROPIC_MODEL -> ANTHROPIC_DEFAULT_FABLE_MODEL
+# -> cheap default (batch extraction over many PDFs; Fable costs ~10x Haiku --
+# pass ANTHROPIC_MODEL=claude-haiku-4-5 for a cheap run).
+MODEL = (
+    os.environ.get("ANTHROPIC_MODEL")
+    or os.environ.get("ANTHROPIC_DEFAULT_FABLE_MODEL")
+    or "claude-haiku-4-5-20251001"
+)
 MAX_TOKENS  = 512
 PDF_TEXT_CHARS = 12_000   # chars sent to Claude (≈ first 4–6 pages)
 
@@ -132,7 +139,9 @@ def ask_claude(client: anthropic.Anthropic, text: str) -> dict:
             max_tokens=MAX_TOKENS,
             messages=[{"role": "user", "content": prompt}],
         )
-        raw = msg.content[0].text.strip()
+        raw = next(
+            (b.text for b in msg.content if b.type == "text"), ""
+        ).strip()
         # Strip markdown code fences if present
         raw = re.sub(r"^```(?:json)?\s*", "", raw)
         raw = re.sub(r"\s*```$", "", raw)

@@ -1,0 +1,442 @@
+% =====================================================================
+%  SLIDE BẢO VỆ LUẬN ÁN TIẾN SĨ — NCS Đỗ Thùy Hương
+%  "Quốc tế hóa và hiệu quả hoạt động kinh doanh của doanh nghiệp tại châu Á:
+%   vai trò điều tiết của thể chế, năng lực số và đặc điểm nhà quản trị"
+% =====================================================================
+%
+%  CÁCH BIÊN DỊCH (compile)
+%  ------------------------
+%  Khuyến nghị 1 — pdfLaTeX (mặc định, an toàn nhất cho tiếng Việt):
+%        pdflatex defense_slides_vi.tex
+%        pdflatex defense_slides_vi.tex      % chạy 2 lần để cập nhật mục lục/overlay
+%
+%  Khuyến nghị 2 — XeLaTeX (nếu muốn dùng font hệ thống đẹp hơn):
+%        Mở khối "XELATEX" bên dưới (đổi \iffalse -> \iftrue trong khối chọn engine)
+%        rồi chạy:  xelatex defense_slides_vi.tex
+%
+%  GHI CHÚ: Môi trường tạo file này KHÔNG cài sẵn pdflatex/xelatex nên file
+%  chưa được biên dịch ra PDF tự động. File đã được viết theo cú pháp Beamer
+%  chuẩn (theme Madrid) + babel[vietnamese] để biên dịch được ngay bằng pdflatex.
+%  Nếu thiếu gói: cài texlive-lang-other (Vietnamese) hoặc dùng Overleaf
+%  (chọn compiler pdfLaTeX). Theme Madrid có sẵn trong mọi bản TeX Live.
+% =====================================================================
+
+\documentclass[aspectratio=169,11pt]{beamer}
+
+% --------- Engine tự nhận diện (pdfLaTeX hoặc XeLaTeX) ----------
+% Biên dịch được bằng CẢ HAI engine:
+%   pdflatex defense_slides_vi.tex   (cần texlive-lang-other: T5 + babel-vietnamese)
+%   xelatex  defense_slides_vi.tex   (chỉ cần fontspec + polyglossia, có sẵn rộng rãi)
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T5]{fontenc}        % T5 = bảng mã font cho tiếng Việt
+  \usepackage[vietnamese]{babel}
+\else
+  \usepackage{fontspec}
+  \usepackage{polyglossia}
+  \setmainlanguage{vietnamese}
+  \setmainfont{TeX Gyre Termes}   % serif, phủ đủ ký tự tiếng Việt
+  \setsansfont{TeX Gyre Heros}    % sans cho beamer Madrid
+\fi
+% ---------------------------------------------------------------
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,arrows.meta,positioning,calc}
+
+% --------- Theme ----------
+\usetheme{Madrid}
+\usecolortheme{whale}
+\useinnertheme{circles}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}[numbered]
+\setbeamerfont{footnote}{size=\tiny}
+
+% Màu nhấn dùng cho các con số chốt
+\definecolor{accent}{RGB}{0,90,156}
+\definecolor{accent2}{RGB}{176,42,55}
+\newcommand{\hl}[1]{\textcolor{accent2}{\textbf{#1}}}
+\newcommand{\kw}[1]{\textcolor{accent}{\textbf{#1}}}
+
+% --------- Thông tin tiêu đề ----------
+\title[Quốc tế hóa \& hiệu quả DN tại châu Á]{Quốc tế hóa và hiệu quả hoạt động kinh doanh của doanh nghiệp tại châu Á}
+\subtitle{Vai trò điều tiết của thể chế, năng lực số và đặc điểm nhà quản trị}
+\author[Đỗ Thùy Hương]{Nghiên cứu sinh: \textbf{Đỗ Thùy Hương}}
+\institute[ĐH Cần Thơ]{Trường Kinh tế --- Trường Đại học Cần Thơ}
+\date{Bảo vệ luận án tiến sĩ --- Cần Thơ, 2026}
+
+\begin{document}
+
+% ===================== SLIDE 1: TITLE =====================
+\begin{frame}[plain]
+  \titlepage
+  \begin{center}\small
+  Ngành: Quản trị kinh doanh \quad|\quad Mã ngành: 9340101 \quad|\quad Mã NCS: P1323001\\[2pt]
+  \textit{Người hướng dẫn khoa học: TS. Nguyễn Minh Cảnh / PGS.TS. Phan Anh Tú}
+  \end{center}
+\end{frame}
+
+% ===================== SLIDE 2: NỘI DUNG =====================
+\begin{frame}{Nội dung trình bày}
+  \tableofcontents
+\end{frame}
+
+% ===================== SLIDE 3: BỐI CẢNH & KHOẢNG TRỐNG =====================
+\section{Bối cảnh và khoảng trống nghiên cứu}
+\begin{frame}{Bối cảnh và ba khoảng trống nghiên cứu}
+  \textbf{Bối cảnh.} Quan hệ quốc tế hóa--hiệu quả (I--P) là \emph{có thực nhưng phức tạp}: meta-analyses cho hệ số tổng hợp dương nhỏ ($\bar r \approx 0{,}07$--$0{,}13$) nhưng dị biệt rất cao ($I^2 > 80\%$). Châu Á --- từ Singapore đến SIDS Thái Bình Dương --- là "phòng thí nghiệm" lý tưởng để kiểm định điều kiện biên.
+  \vspace{0.4em}
+  \begin{block}{Ba khoảng trống (gaps)}
+  \begin{enumerate}
+    \item \kw{Gap 1 --- Thiếu khung tích hợp đa tầng}: mỗi lý thuyết đứng riêng (Uppsala, RBV, thể chế, thượng tầng quản trị) không đủ giải thích heterogeneity cao.
+    \item \kw{Gap 2 --- Đồng nhất sai hai construct số}: gộp \emph{năng lực công nghệ} (TCI) với \emph{chấp nhận số bề mặt} (DAI) thành một chỉ số duy nhất.
+    \item \kw{Gap 3 --- Thiếu bằng chứng cross-country quy mô lớn, có cấu trúc} cho châu Á.
+  \end{enumerate}
+  \end{block}
+\end{frame}
+
+% ===================== SLIDE 4: CÂU HỎI & MỤC TIÊU =====================
+\section{Câu hỏi và mục tiêu nghiên cứu}
+\begin{frame}{Câu hỏi và mục tiêu nghiên cứu}
+  \textbf{Câu hỏi trung tâm.} Quốc tế hóa ảnh hưởng đến hiệu quả hoạt động kinh doanh của doanh nghiệp ở châu Á \emph{như thế nào}, và \emph{điều kiện nào} --- thể chế, năng lực số, đặc điểm nhà quản trị --- giải thích sự dị biệt cao đó?
+  \vspace{0.3em}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \textbf{Câu hỏi cụ thể}
+      \begin{itemize}\small
+        \item RQ1: Tác động tổng hợp \& moderators (1982--2026)?
+        \item RQ2: Cơ chế theo bối cảnh quốc gia (SG, VN, TQ)?
+        \item RQ3: DAI vs TCI có khái quát hóa \& khác cơ chế?
+        \item RQ4: Tương tác ba tầng (ICRV $\times$ số $\times$ quản trị)?
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \textbf{Mục tiêu cụ thể}
+      \begin{itemize}\small
+        \item Tổng hợp meta-analytic 1982--2026.
+        \item Kiểm định cơ chế theo từng quốc gia.
+        \item Mở rộng ra \hl{50 nền kinh tế} châu Á--TBD (gồm Nhật Bản).
+        \item Phân tích điều tiết ba tầng: thể chế (ICRV), số (TCI/DAI), nhà quản trị.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ===================== SLIDE 5: KHUNG LÝ THUYẾT CDCM + ICRV =====================
+\section{Khung lý thuyết CDCM và taxonomy ICRV}
+\begin{frame}{Khung khái niệm tích hợp đa tầng CDCM (Hình 2.1)}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+    \centering
+    \scalebox{0.82}{
+    \begin{tikzpicture}[
+      box/.style={draw=accent,very thick,rounded corners,align=center,minimum height=0.9cm,inner sep=4pt,fill=accent!6},
+      mod/.style={draw=accent2,thick,rounded corners,align=center,inner sep=3pt,fill=accent2!6,font=\footnotesize},
+      every node/.style={font=\small}]
+      \node[box] (i) {Quốc tế hóa\\(FSTS)};
+      \node[box,right=2.8cm of i] (p) {Hiệu quả DN\\(năng suất LĐ)};
+      \draw[-{Latex[length=3mm]},very thick] (i) -- node[above,font=\footnotesize]{H1: chữ U ngược} (p);
+      \node[mod,above=1.0cm of $(i)!0.5!(p)$] (t1) {Thể chế --- ICRV (H5)};
+      \node[mod,below=0.7cm of i] (t2) {Năng lực số\\TCI (H2) / DAI (H3)};
+      \node[mod,below=0.7cm of p] (t3) {Nhà quản trị\\KN \& giới tính (H4)};
+      \draw[-{Latex[length=2mm]},dashed,accent2] (t1) -- ($(i)!0.5!(p)+(0,0.12)$);
+      \draw[-{Latex[length=2mm]},dashed,accent2] (t2.north) -- (i.south);
+      \draw[-{Latex[length=2mm]},dashed,accent2] (t3.north) -- (p.south);
+      \node[mod,fill=gray!10,draw=gray,below=1.7cm of $(i)!0.5!(p)$] (fip) {Điều kiện biên FIP (H1b) tại SIDS\\$\Rightarrow$ chữ U ngược mất cấu trúc};
+      \draw[-{Latex[length=2mm]},dotted,thick,gray] (fip) -- ($(i)!0.5!(p)-(0,0.12)$);
+    \end{tikzpicture}}
+    \end{column}
+    \begin{column}{0.45\textwidth}\small
+      \kw{CDCM} = \emph{Country--Digital--Capability Moderation}: ba tầng điều tiết cùng giải thích heterogeneity I--P.
+      \vspace{0.4em}
+
+      \kw{ICRV} (Institutional Context Regime Variation) --- taxonomy thể chế \hl{6 nhóm} cho 50 nền:
+      \begin{itemize}\scriptsize
+        \item I. Advanced innovation (SG, KR, TW, Nhật Bản)
+        \item II. Advanced resource (GCC)
+        \item III. Upper-middle (Trung Quốc)
+        \item IV. Lower-mid transition (VN, Ấn Độ)
+        \item V. Emerging
+        \item VI. SIDS (đảo nhỏ TBD)
+      \end{itemize}
+    \end{column}
+  \end{columns}
+  \vspace{0.2em}
+  {\scriptsize\textit{Mũi tên liền = H1; nét đứt = điều tiết ba tầng; nét chấm = điều kiện biên FIP.}}
+\end{frame}
+
+% ===================== SLIDE 6: HỆ GIẢ THUYẾT =====================
+\section{Hệ giả thuyết}
+\begin{frame}{Hệ giả thuyết H1--H6 (+ H1b, H1c)}
+  \begin{itemize}\small
+    \item \kw{H1} --- Quan hệ I--P có dạng \hl{phi tuyến chữ U ngược}, có điểm uốn (turning point) tối ưu.
+    \item \kw{H1b (FIP)} --- Tại SIDS (Nhóm VI), khi cả ba điều kiện cấu trúc tối thiểu bị vi phạm, dạng chữ U ngược \hl{mất cấu trúc} (mất cả độ cong lẫn độ dốc có ý nghĩa); quan hệ nghiêng về dạng âm đơn điệu như \emph{trường hợp giới hạn} --- \emph{gánh nặng quốc tế hóa bắt buộc}.
+    \item \kw{H1c} --- Ngưỡng chữ U ngược có thể \hl{tan biến} dưới biến động thể chế cực đoan (Ấn Độ, P9; lồng dưới H1/H6).
+    \item \kw{H2} --- TCI điều tiết dương: nâng mặt bằng hiệu quả (level shifter).
+    \item \kw{H3} --- DAI điều tiết \emph{phi đơn điệu, phụ thuộc thể chế}: làm thay đổi độ cong ("lá chắn số").
+    \item \kw{H4} --- Kinh nghiệm \& giới tính nữ của nhà quản trị điều tiết dương.
+    \item \kw{H5} --- Thể chế (ICRV) điều tiết phổ thể chế: dương lớn ở Nhóm I $\to$ âm ở Emerging/SIDS.
+    \item \kw{H6} --- Hình dạng I--P có thể thay đổi theo thời gian ở nền kinh tế chuyển đổi nhanh.
+  \end{itemize}
+\end{frame}
+
+% ===================== SLIDE 7: PHƯƠNG PHÁP =====================
+\section{Phương pháp và dữ liệu}
+\begin{frame}{Thiết kế hỗn hợp tổng hợp--thực nghiệm (mixed)}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \textbf{(i) Tổng hợp --- Meta-analysis (P6)}
+      \begin{itemize}\small
+        \item Random-effects, Fisher's $z$; $k = 238$ nghiên cứu (1982--2026).
+        \item Subgroup theo chế độ thể chế; Egger \& Begg--Mazumdar.
+        \item Điều tiết ICRV: \hl{$Q_M = 17{,}35$} ($df=4$, $p={,}002$).
+      \end{itemize}
+      \vspace{0.3em}
+      \textbf{(ii) Thực nghiệm --- 9 nghiên cứu thành phần (P1--P9)}
+      \begin{itemize}\small
+        \item OLS robust HC1/HC3; mô hình bậc 2 \& 3 (phi tuyến).
+        \item Pooled cross-section + \kw{two-way FE} (quốc gia $\times$ năm).
+        \item Lind--Mehlum U-test, Paternoster (so sánh TP).
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \textbf{Dữ liệu WBES}
+      \begin{itemize}\small
+        \item Mẫu phân tích: \hl{88.869 doanh nghiệp / 50 nền kinh tế} (2003--2025); mẫu hồi quy chính $N=81.022$.
+        \item Pool phân loại ICRV: \hl{96.415 DN / 52 nhãn nền}.
+        \item Hòa hợp 3 thế hệ schema: PICS3, Standardized, BREADY/BEE (xem Phụ lục A).
+      \end{itemize}
+      \vspace{0.3em}
+      \footnotesize
+      \begin{tabular}{@{}lr@{}}
+        \toprule
+        Đo lường & Biến chính \\
+        \midrule
+        Quốc tế hóa & FSTS, FSTS$^2$ \\
+        Hiệu quả & ln(năng suất LĐ) \\
+        Số (chiều sâu) & TCI \\
+        Số (bề mặt) & DAI \\
+        Thể chế & ICRV (6 nhóm) \\
+        \bottomrule
+      \end{tabular}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ===================== SLIDE 8: KẾT QUẢ — CHỮ U NGƯỢC + PHỔ =====================
+\section{Kết quả thực nghiệm chính}
+\begin{frame}{Kết quả 1: Chữ U ngược \& bức tranh ba vùng theo ICRV}
+  \begin{columns}[T]
+    \begin{column}{0.52\textwidth}\small
+    Mô hình toàn mẫu P7 (50 nền, two-way FE):
+    \[ \text{TP(M5)} = \hl{43{,}6\%}\ \text{FSTS} \quad (p_{\text{LM}}<{,}001) \]
+    Mô hình rút gọn M2 ($N=81.022$): $\text{TP}=51{,}5\%$. Hệ số bậc hai âm có ý nghĩa ở cả hai.
+    \vspace{0.3em}
+
+    \kw{Bức tranh ba vùng theo ICRV} (không còn phổ thể chế đơn điệu):
+    \begin{itemize}\scriptsize
+      \item Giữa (Nhóm IV chuyển đổi): chữ U ngược \emph{sắc nét}, $\text{TP}=\hl{43{,}0\%}$ ($p<{,}001$).
+      \item Trên (Nhóm I, gồm Nhật Bản): \emph{gần tuyến tính}, điểm uốn ngoài miền dữ liệu.
+      \item Dưới (Emerging/SIDS): cấu trúc \emph{mất cấu trúc}; FIP là trường hợp giới hạn lý thuyết.
+    \end{itemize}
+    Hai nguồn độc lập xác nhận: meta P6 ($Q_M=17{,}35$) và hồi quy P7.
+    \end{column}
+    \begin{column}{0.48\textwidth}
+    \centering
+    \scalebox{0.9}{
+    \begin{tikzpicture}[scale=1.0]
+      \draw[->] (0,0) -- (5,0) node[right,font=\scriptsize]{FSTS \%};
+      \draw[->] (0,0) -- (0,3.2) node[above,font=\scriptsize]{Hiệu quả};
+      % Nhom I (gan tuyen tinh, TP ngoai mien du lieu)
+      \draw[very thick,accent] plot[domain=0:4.6,samples=60] (\x,{1.4+0.42*\x-0.018*\x*\x});
+      % Nhom IV (chu U nguoc sac net, TP ~ giua = 43%)
+      \draw[very thick,accent2] plot[domain=0:4.6,samples=60] (\x,{1.3-0.42*(\x-2.3)*(\x-2.3)+1.1});
+      \draw[dashed,accent2] (2.3,0) -- (2.3,2.4);
+      \node[accent2,font=\scriptsize] at (2.3,-0.25) {43};
+      % SIDS monotone neg (FIP)
+      \draw[very thick,gray,dotted] plot[domain=0.2:4.6,samples=40] (\x,{1.7-0.42*\x});
+      \node[accent,font=\scriptsize,anchor=west] at (3.3,3.05) {Nhóm I (Nhật Bản)};
+      \node[accent2,font=\scriptsize,anchor=west] at (3.3,1.55) {Nhóm IV};
+      \node[gray,font=\scriptsize,anchor=west] at (2.6,0.4) {SIDS (FIP)};
+    \end{tikzpicture}}
+    \\{\scriptsize Hình 4.1 (minh họa): bức tranh ba vùng I--P theo ICRV.}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ===================== SLIDE 9: FIP TẠI SIDS =====================
+\begin{frame}{Kết quả 2: Gánh nặng quốc tế hóa bắt buộc (FIP) tại SIDS}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}\small
+    Tại các nền kinh tế Pacific SIDS (Nhóm VI, bảy nền; loại Timor-Leste theo phân loại WB/UN), phát hiện \emph{vững} trên mẫu đầy đủ ($N=1.450$, bảy cụm) là \hl{việc chữ U ngược mất cấu trúc}:
+    \[ \hat\beta(\text{FSTS})=-0{,}085\ (p_{wild}={,}66);\ \ \hat\beta(\text{FSTS}^2)=+0{,}696\ (p_{wild}={,}082) \]
+    \begin{itemize}
+      \item Cả độ cong lẫn độ dốc \emph{không} có ý nghĩa $\Rightarrow$ \hl{không có điểm uốn, không có chữ U ngược}.
+      \item Hệ số âm mạnh $-1{,}339$ ($p<{,}001$) chỉ xuất hiện trên bản dựng dữ liệu hạn chế \emph{ba cụm}; mang tính minh họa và nhạy cảm với phiên bản dữ liệu.
+    \end{itemize}
+    \kw{Ba điều kiện cấu trúc bị vi phạm đồng thời:}
+    (1) thị trường nội địa quá nhỏ; (2) chi phí thương mại, hậu cần cực cao; (3) thiếu hỗ trợ thể chế xuất khẩu.
+    \end{column}
+    \begin{column}{0.45\textwidth}
+    \begin{block}{Đóng góp gốc}
+    \small \hl{FIP} là cấu trúc lý thuyết \emph{mới} --- lần đầu được định danh trong tài liệu I--P như \emph{trường hợp giới hạn} của sự mất cấu trúc: doanh nghiệp SIDS xuất khẩu \emph{để sinh tồn}, không phải để khai thác lợi thế cạnh tranh. Ủng hộ H1b theo hướng mất cấu trúc.
+    \end{block}
+    \centering
+    \scalebox{0.85}{
+    \begin{tikzpicture}
+      \draw[->] (0,0)--(3.6,0) node[right,font=\scriptsize]{FSTS};
+      \draw[->] (0,0)--(0,2.6) node[above,font=\scriptsize]{Hiệu quả};
+      \draw[very thick,accent2] (0.2,2.3) -- (3.4,0.3);
+      \node[accent2,font=\scriptsize] at (2.3,1.8) {$\beta=-1{,}339$};
+    \end{tikzpicture}}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ===================== SLIDE 10: SINGAPORE =====================
+\section{Bằng chứng theo bối cảnh quốc gia}
+\begin{frame}{Singapore (P4) --- Nhóm I, Advanced innovation}
+  \begin{itemize}
+    \item $N=237$ doanh nghiệp xuất khẩu; quan hệ phi tuyến chữ U ngược có ý nghĩa ($p<{,}05$), hệ số bậc hai âm.
+    \item Turning point trung tâm $\approx \hl{88{,}6\%}$ FSTS, nhưng CI bootstrap rất rộng và \emph{vượt ngưỡng khả thi} ($[53\%,253\%]$) $\Rightarrow$ \kw{không định vị tin cậy}; trong miền dữ liệu, quan hệ \emph{tăng gần như đơn điệu}.
+    \item M5: tương tác $\text{FSTS}^2\times\text{DAI}<0$ ($p<{,}05$) --- DAI làm chậm đà suy giảm bên phải (situational resource).
+    \item \textit{Diễn giải thận trọng:} bằng chứng \emph{phù hợp nhưng chưa kết luận} (power $\approx 16\%$). Nhất quán với kỳ vọng: ở thể chế mạnh, dư địa quốc tế hóa có lợi rất rộng.
+  \end{itemize}
+\end{frame}
+
+% ===================== SLIDE 11: TRUNG QUỐC =====================
+\begin{frame}{Trung Quốc (P5) --- Nhóm III, 2012--2024}
+  \begin{itemize}
+    \item Xác nhận chữ U ngược; turning point $\approx \hl{48{,}78\%}$ FSTS --- mức tập trung quốc tế vừa phải bên cạnh thị trường nội địa khổng lồ.
+    \item \kw{Ổn định thời gian}: TP $49{,}37\%$ (2012) $\to 47{,}19\%$ (2024); Paternoster $z=+0{,}82$, $p={,}412$ (không bác bỏ bằng nhau).
+    \item Tương tác thời gian H6: $F=1{,}83$, $p={,}176$ --- \emph{không} có ý nghĩa $\Rightarrow$ cấu trúc I--P bền vững.
+    \item TCI \& DAI: null moderation ($p>{,}10$) --- có thể do năng lực phân phối đồng đều hơn trong mẫu xuất khẩu TQ.
+  \end{itemize}
+\end{frame}
+
+% ===================== SLIDE 12: VIỆT NAM =====================
+\begin{frame}{Việt Nam (P3) --- Nhóm IV, Lower-mid transition}
+  \begin{itemize}
+    \item Ba làn sóng WBES (2009, 2015, 2023). Mô hình chính M4:
+      \[ \hat\beta(\text{FSTS}_c)=+0{,}431,\quad \hat\beta(\text{FSTS}_c^2)=-0{,}553 \]
+      Lind--Mehlum U-test $p<{,}001$ --- bằng chứng mạnh nhất trong các mẫu quốc gia.
+    \item Turning point \hl{39--46\%} FSTS; dịch từ $46{,}2\%$ (2009) $\to 39{,}3\%$ (2015), Paternoster $z=3{,}353$, $p<{,}001$.
+    \item M6 ($\text{FSTS}\times\text{TCI}$): \kw{dương, có ý nghĩa} --- ủng hộ H2 (TCI nâng mặt bằng \& khuếch đại).
+    \item M5 ($\text{FSTS}\times\text{DAI}$, chỉ Tier-1): yếu dương, NS --- tương thích do hạn chế đo lường.
+  \end{itemize}
+\end{frame}
+
+% ===================== SLIDE 13: ẤN ĐỘ =====================
+\begin{frame}{Ấn Độ (P9) --- Nhóm IV, biến động thể chế cực đoan 2014--2025}
+  \begin{itemize}
+    \item Ba đợt WBES ($N \approx 28.717$); bối cảnh: bãi bỏ tiền mặt, GST, IBC, UPI, PLI/Atmanirbhar.
+    \item \kw{Tan biến ngưỡng (threshold collapse)}: TP $\hl{61{,}8\%}$ (2014) $\to 40{,}7\%$ (2022) $\to$ \hl{tan biến} (2025, $\beta_2$ NS); Paternoster $z=-7{,}94$, $p<{,}0001$ $\Rightarrow$ xác nhận H1c.
+    \item TCI \emph{đảo dấu} năm 2025 ($\beta=-0{,}08$); tương tác DAI Tier-2 (UPI) âm: $-4{,}02$, $p={,}004$ --- hạ tầng số công cộng nội địa không thay thế hạ tầng tài chính xuyên biên giới.
+    \item Đối lập với Trung Quốc: bền vững ngưỡng \emph{không} phổ quát, phụ thuộc tốc độ thay đổi thể chế.
+  \end{itemize}
+\end{frame}
+
+% ===================== SLIDE 14: BẢNG TỔNG HỢP GIẢ THUYẾT =====================
+\section{Tổng hợp giả thuyết và đóng góp}
+\begin{frame}{Tổng hợp kết quả kiểm định H1--H6 / H1b / H1c}
+  \scriptsize
+  \begin{tabular}{@{}p{1.6cm}p{4.3cm}p{6.0cm}@{}}
+    \toprule
+    \textbf{Giả thuyết} & \textbf{Nội dung} & \textbf{Kết quả} \\
+    \midrule
+    H1 (chữ U ngược) & I--P dạng inverted-U & \kw{Xác nhận} (SG, TQ, VN, P7; trừ SIDS) \\
+    H1b (FIP) & SIDS: chữ U ngược mất cấu trúc; FIP là trường hợp giới hạn & \kw{Ủng hộ} (mẫu đầy đủ: độ cong \& độ dốc n.s.; $-1{,}339$ chỉ ở bản dựng ba cụm) \\
+    H1c (tan biến) & Ngưỡng tan biến (Ấn Độ) & \kw{Xác nhận} ($z=-7{,}94$, $p<{,}0001$) \\
+    H2 (TCI dương) & TCI khuếch đại I--P & Xác nhận \emph{một phần}: nâng mặt bằng phổ quát; uốn cong chỉ ở VN, NS toàn mẫu P7 \\
+    H3 (DAI) & DAI đổi độ dốc & \kw{Xác nhận}: level effect ($\beta=+0{,}155^{***}$); DAI$\times$ICRV $p={,}012$ ("lá chắn số") \\
+    H4 (nhà quản trị) & KN \& giới tính điều tiết dương & Hỗ trợ trong khung tích hợp P7 (theo bối cảnh) \\
+    H5 (ICRV phổ thể chế) & Thể chế điều tiết phổ thể chế & Xác nhận \emph{một phần}: $Q_M=17{,}35^{**}$; phổ thể chế TP từ P7 \\
+    H6 (thời gian) & Hình dạng đổi theo thời gian & Không xác nhận ở TQ ($F=1{,}83$); TP dịch ở VN \\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+
+% ===================== SLIDE 15: ĐÓNG GÓP LÝ THUYẾT =====================
+\begin{frame}{Đóng góp lý thuyết}
+  \begin{enumerate}
+    \item \kw{Khung CDCM} --- kiến trúc tích hợp đa tầng (Uppsala + RBV + thể chế + thượng tầng quản trị + digital lens), mỗi tầng giải thích một loại heterogeneity của I--P.
+    \item \kw{Construct mới FIP} (Forced Internationalization Penalty) --- lần đầu định danh trường hợp giới hạn nơi chữ U ngược mất cấu trúc tại điều kiện biên cực đoan (SIDS), biện minh bằng ba điều kiện cấu trúc.
+    \item \kw{Taxonomy ICRV} --- khung phân loại thể chế 6 nhóm cho 50 nền, công cụ tái sử dụng cho nghiên cứu I--P tương lai.
+    \item \kw{Phân tách TCI vs DAI} --- hai construct số độc lập, cơ chế khác nhau (level shifter vs curve reshaper).
+    \item \kw{Tái định vị Uppsala} cho kỷ nguyên số: "data-augmented learning".
+  \end{enumerate}
+\end{frame}
+
+% ===================== SLIDE 16: HÀM Ý CHÍNH SÁCH =====================
+\section{Hàm ý, hạn chế và kết luận}
+\begin{frame}{Hàm ý quản trị và chính sách}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \textbf{Đối với doanh nghiệp}
+      \begin{itemize}\small
+        \item Tồn tại \hl{ngưỡng tối ưu} của cường độ xuất khẩu; ngưỡng thay đổi theo thể chế \& năng lực số.
+        \item Ưu tiên đầu tư \kw{năng lực công nghệ (TCI)} --- nâng mặt bằng phổ quát --- thay vì chỉ "số hóa bề mặt".
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \textbf{Đối với nhà hoạch định chính sách}
+      \begin{itemize}\small
+        \item Cải cách thể chế + hỗ trợ chuyển đổi số có hiệu ứng bổ trợ --- \kw{"digital shield"}: năng lực số bù đắp một phần khoảng trống thể chế.
+        \item SIDS: cần chính sách \emph{khác biệt} --- giảm chi phí thương mại, hỗ trợ thể chế xuất khẩu (tránh FIP).
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ===================== SLIDE 17: HẠN CHẾ & HƯỚNG TƯƠNG LAI =====================
+\begin{frame}{Hạn chế và hướng nghiên cứu tương lai}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \textbf{Hạn chế}
+      \begin{itemize}\small
+        \item DAI bị ràng buộc đo lường (proxy foundational adoption / Tier-1 ở một số sóng).
+        \item Một số mẫu quốc gia nhỏ (SG $N=237$; SIDS exporters $N=26$) $\Rightarrow$ thiếu công suất.
+        \item Năng suất lao động thô chưa chuẩn hóa PPP cho so sánh xuyên nhóm mô tả.
+        \item Thiết kế cross-section/pooled $\Rightarrow$ suy luận nhân quả thận trọng.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \textbf{Hướng tương lai}
+      \begin{itemize}\small
+        \item Nhật Bản (P10) đã tích hợp vào khung 50 nền; bước tiếp là đối chứng do-file Stata và bổ sung các sóng 2024--2026.
+        \item Đo lường DAI Tier-2/Tier-3 sâu hơn (thanh toán điện tử, nền tảng).
+        \item Mở rộng FIP sang các nhóm SIDS/landlocked khác.
+        \item Tích hợp dữ liệu panel thực để củng cố nhân quả.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ===================== SLIDE 18: KẾT LUẬN =====================
+\begin{frame}{Kết luận}
+  \begin{enumerate}
+    \item Quan hệ I--P ở châu Á có dạng \hl{chữ U ngược} nhưng định hình theo \emph{ba vùng thể chế}: sắc nét ở nhóm chuyển đổi (TP $\approx 43\%$), gần tuyến tính ở thể chế mạnh nhất (gồm Nhật Bản), mất cấu trúc ở thể chế yếu nhất.
+    \item \kw{TCI} là năng lực nền tảng nâng mặt bằng hiệu quả phổ quát; \kw{DAI} là nguồn lực tình huống đổi độ cong, mạnh nhất ở thể chế yếu ("lá chắn số").
+    \item Tại \kw{SIDS}, dạng chữ U ngược mất cấu trúc; \hl{FIP} là trường hợp giới hạn lý thuyết --- construct mới của luận án.
+    \item Đóng góp: khung tích hợp \kw{CDCM}, taxonomy \kw{ICRV}, construct \kw{FIP}; cùng hàm ý chính sách/quản trị theo từng bối cảnh thể chế.
+  \end{enumerate}
+  \vspace{0.3em}
+  \centering\small Mẫu phân tích: \hl{88.869 doanh nghiệp / 50 nền kinh tế} (WBES, 2003--2025; hồi quy chính $N=81.022$) --- meta-analysis $k=238$.
+\end{frame}
+
+% ===================== SLIDE 19: Q&A / CẢM ƠN =====================
+\begin{frame}[plain]
+  \centering
+  \vfill
+  {\Huge\textcolor{accent}{\textbf{Trân trọng cảm ơn!}}}\\[1em]
+  {\large Kính mong nhận được ý kiến đóng góp của Hội đồng}\\[2em]
+  \textbf{Nghiên cứu sinh: Đỗ Thùy Hương}\\
+  Trường Kinh tế --- Trường Đại học Cần Thơ, 2026\\[1em]
+  {\large\textcolor{accent2}{Q \& A}}
+  \vfill
+\end{frame}
+
+\end{document}

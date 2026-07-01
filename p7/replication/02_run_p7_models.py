@@ -182,8 +182,13 @@ def main():
     )
     print(f"  Full analytic (all focal): {len(full_analytic):,}")
 
-    # Build controls dynamically from columns that are actually present + have data
-    optional_controls = ["female_owner", "foreign_own_pct", "firm_age", "ln_size"]
+    # Build controls dynamically from columns that are actually present + have data.
+    # NOTE: foreign_own_pct (b6a) is deliberately excluded from the default control
+    # set — it is only ~41% populated across WBES waves, so requiring it collapses
+    # the controlled-model sample by half (≈79k → ≈32k) and distorts the FSTS
+    # curvature. The thesis main models (M5 N≈79k) do not condition on it. Pass it
+    # explicitly via --extra-controls only for a foreign-ownership robustness check.
+    optional_controls = ["female_owner", "firm_age", "ln_size"]
     available_controls = [
         c for c in optional_controls
         if c in df.columns and df[c].notna().sum() > 100

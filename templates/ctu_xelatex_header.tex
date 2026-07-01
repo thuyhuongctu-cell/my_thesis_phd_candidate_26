@@ -1,0 +1,57 @@
+% ctu_xelatex_header.tex — header-includes cho build LaTeX CTU (xelatex).
+% Ánh xạ các ký tự Unicode mà TeX Gyre Termes thiếu glyph (chỉ số dưới/trên,
+% ký tự kẻ hộp) sang lệnh LaTeX tương đương để không bị rớt glyph khi biên dịch.
+\usepackage{newunicodechar}
+\usepackage{pifont}
+\usepackage{amssymb}
+\newunicodechar{✓}{\ding{51}}
+\newunicodechar{✗}{\ding{55}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+\newunicodechar{₀}{\textsubscript{0}}
+\newunicodechar{₁}{\textsubscript{1}}
+\newunicodechar{₂}{\textsubscript{2}}
+\newunicodechar{₃}{\textsubscript{3}}
+\newunicodechar{₄}{\textsubscript{4}}
+\newunicodechar{₅}{\textsubscript{5}}
+\newunicodechar{₆}{\textsubscript{6}}
+\newunicodechar{₇}{\textsubscript{7}}
+\newunicodechar{₈}{\textsubscript{8}}
+\newunicodechar{₉}{\textsubscript{9}}
+\newunicodechar{²}{\textsuperscript{2}}
+\newunicodechar{³}{\textsuperscript{3}}
+\newunicodechar{─}{\rule[0.5ex]{0.9em}{0.4pt}}
+\newunicodechar{∩}{\ensuremath{\cap}}
+\newunicodechar{∪}{\ensuremath{\cup}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{≠}{\ensuremath{\neq}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{⊇}{\ensuremath{\supseteq}}
+\newunicodechar{⊆}{\ensuremath{\subseteq}}
+\newunicodechar{∈}{\ensuremath{\in}}
+\newunicodechar{∉}{\ensuremath{\notin}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{√}{\ensuremath{\surd}}
+\newunicodechar{·}{\ensuremath{\cdot}}
+
+% --- Bảng rộng: thu nhỏ cỡ chữ + khoảng cột, cho phép ngắt token dài để
+%     bảng không tràn lề phải (overfull hbox). Áp dụng cho mọi longtable
+%     (pandoc sinh toàn bộ bảng dạng longtable).
+\usepackage{etoolbox}
+\usepackage{seqsplit}      % ngắt được token rất dài (mã biến, số dài)
+% Lưu ý: KHÔNG đổi \tabcolsep — pandoc tính bề rộng cột theo công thức
+% (\columnwidth - 4\tabcolsep)*frac (tham chiếu \tabcolsep trực tiếp), nên
+% giảm \tabcolsep lại làm cột RỘNG hơn và tràn nặng hơn.
+\AtBeginEnvironment{longtable}{%
+  \footnotesize
+  \emergencystretch=3em
+  \hbadness=10000          % không cảnh báo underfull do RaggedRight
+}
+% Cho phép TeX bẻ dòng linh hoạt hơn trong ô p{} hẹp
+\setlength{\emergencystretch}{2em}
+
+% URL/DOI dài: cho phép ngắt ở bất kỳ ký tự nào (tránh tràn lề ở danh mục TLTK).
+% Kết hợp với pandoc +autolink_bare_uris để URL trần được bọc \url{}.
+\usepackage{xurl}

@@ -51,16 +51,16 @@ No instances of "supports H[n]" or "confirms H[n]" without mechanism explanation
 Citations were extracted from body text and matched against the manuscript's own References section (L1346 onward). The per-manuscript reference list was used as the authoritative source (the shared `thesis/04_references_apa7.md` file contains Vietnamese-language changelog notes that caused false negatives in automated matching).
 
 **Result: No orphan citations found in P3.** All sampled citations verified present in the P3 reference list:
-- Bharadwaj et al. (2013) ✅ — P3 L1351
-- Cohen & Levinthal (1990) ✅ — P3 refs (cited as "Cohen and Levinthal, 1990" in body)
-- Vial (2019) ✅ — P3 L1388
-- Oster (2019) ✅ — P3 L1374
-- Paternoster et al. (1998) ✅ — P3 L1375
-- Lu & Beamish (2004) ✅ — P3 L1371
-- Contractor (2007) ✅ — P3 L1356 (P3 cites Contractor 2007, not 2003)
-- Lind & Mehlum (2010) ✅ — P3 refs
+- Bharadwaj et al. (2013) — P3 L1351
+- Cohen & Levinthal (1990) — P3 refs (cited as "Cohen and Levinthal, 1990" in body)
+- Vial (2019) — P3 L1388
+- Oster (2019) — P3 L1374
+- Paternoster et al. (1998) — P3 L1375
+- Lu & Beamish (2004) — P3 L1371
+- Contractor (2007) — P3 L1356 (P3 cites Contractor 2007, not 2003)
+- Lind & Mehlum (2010) — P3 refs
 
-**Note on P3 AI statement (L1309):** A formatting artifact — "All con-" appears alone on a line, with the continuation "ceptual framing..." on L1311. This mid-word line break will produce visible formatting damage in the final document and must be corrected.
+**Note on P3 AI statement (L1309):** A formatting artifact — "All con-" appears alone on a line, with the continuation "ceptual framing…" on L1311. This mid-word line break will produce visible formatting damage in the final document and must be corrected.
 
 ### 5. Statistical Language
 
@@ -74,16 +74,16 @@ Hedging language is well-used throughout (47 lines containing terms such as "ass
 
 | Check | APJM | JABS | Status |
 |-------|------|------|--------|
-| Word count (body, excl. refs/tables) | 6,000–12,000w | 4,000–10,000w | ❌ ~15,551 body words — exceeds both limits. Total file ~19,327w. Major trimming required. |
-| Abstract present | ✅ required | ✅ required | ✅ Present |
+| Word count (body, excl. refs/tables) | 6,000–12,000w | 4,000–10,000w | Không ~15,551 body words — exceeds both limits. Total file ~19,327w. Major trimming required. |
+| Abstract present | Có required | Có required | Có Present |
 | Abstract word limit | ≤150w unstructured OR ≤250w structured | ≤250w structured | ⚠️ 315 words — exceeds APJM ≤250w structured limit by 65w; exceeds JABS ≤250w limit by 65w. Needs trimming. |
-| Abstract format | Structured (Purpose/Design/Findings/Originality) | Structured accepted | ✅ All four sections present |
-| Keywords | 4–6 | 4–6 | ✅ 6 keywords |
-| Blind review | Double-blind | Double-blind | ✅ "Author details removed for blind review" marker at L3; no institutional/author names in body |
-| Data availability statement | Required | Required | ✅ Dedicated section present (L1297) |
-| Funding statement | Required | Required | ✅ Dedicated section present (L1293): "no specific grant from any funding agency" |
-| Conflict of interest | Required | Required | ✅ Present (L1290) |
-| AI usage statement | Required (Springer/Emerald policy) | Required (Emerald policy) | ✅ Present (L1305) — but see formatting artifact note |
+| Abstract format | Structured (Purpose/Design/Findings/Originality) | Structured accepted | Có All four sections present |
+| Keywords | 4–6 | 4–6 | Có 6 keywords |
+| Blind review | Double-blind | Double-blind | Có "Author details removed for blind review" marker at L3; no institutional/author names in body |
+| Data availability statement | Required | Required | Có Dedicated section present (L1297) |
+| Funding statement | Required | Required | Có Dedicated section present (L1293): "no specific grant from any funding agency" |
+| Conflict of interest | Required | Required | Có Present (L1290) |
+| AI usage statement | Required (Springer/Emerald policy) | Required (Emerald policy) | Có Present (L1305) — but see formatting artifact note |
 
 ---
 
@@ -119,21 +119,21 @@ No instances of "confirms H[n]", "supports H[n]", "proves", or "demonstrates" re
 
 | Citation in Text | In P4 Refs? | Notes |
 |-----------------|-------------|-------|
-| Hitt et al. (1997) | ✅ | |
-| Contractor et al. (2003) | ✅ | P4 L265 |
-| Lu & Beamish (2004) | ✅ | P4 L273 |
-| Bharadwaj et al. (2013) | ✅ | P4 L259 |
-| Cohen & Levinthal (1990) | ✅ | P4 refs |
-| Cohen (1988) | ✅ | P4 refs — Cohen, J. (1988) statistical power |
-| Coltman et al. (2008) | ✅ | P4 refs |
-| Lind & Mehlum (2010) | ✅ | P4 refs |
-| Wolfolds & Siegel (2019) | ✅ | P4 L284 |
-| Antonakis et al. (2010) | ✅ | P4 refs |
-| Marano et al. (2016) | ✅ | P4 refs |
-| Shaver (2020) | ✅ | P4 refs |
-| IMDA (2025) | ✅ | P4 refs (press release) |
-| Peng (2003) | ✅ | P4 refs |
-| Verhoef et al. (2021) | ✅ | P4 refs |
+| Hitt et al. (1997) | Có | |
+| Contractor et al. (2003) | Có | P4 L265 |
+| Lu & Beamish (2004) | Có | P4 L273 |
+| Bharadwaj et al. (2013) | Có | P4 L259 |
+| Cohen & Levinthal (1990) | Có | P4 refs |
+| Cohen (1988) | Có | P4 refs — Cohen, J. (1988) statistical power |
+| Coltman et al. (2008) | Có | P4 refs |
+| Lind & Mehlum (2010) | Có | P4 refs |
+| Wolfolds & Siegel (2019) | Có | P4 L284 |
+| Antonakis et al. (2010) | Có | P4 refs |
+| Marano et al. (2016) | Có | P4 refs |
+| Shaver (2020) | Có | P4 refs |
+| IMDA (2025) | Có | P4 refs (press release) |
+| Peng (2003) | Có | P4 refs |
+| Verhoef et al. (2021) | Có | P4 refs |
 
 **Result: No orphan citations found in P4.**
 
@@ -149,16 +149,16 @@ Strong hedging throughout (39 lines). P4 explicitly adopts "disciplined causal-l
 
 | Check | GSJ | MIR | Status |
 |-------|-----|-----|--------|
-| Word count (body, excl. refs/tables) | 6,000–12,000w | 5,000–12,000w | ✅ ~11,224 body words — within both limits |
-| Abstract present | ✅ required | ✅ required | ✅ Present |
+| Word count (body, excl. refs/tables) | 6,000–12,000w | 5,000–12,000w | Có ~11,224 body words — within both limits |
+| Abstract present | Có required | Có required | Có Present |
 | Abstract word limit | ≤150w | ≤250w (MIR) | ⚠️ 201 words — within MIR; **exceeds GSJ ≤150w by ~51 words** if submitting to GSJ |
 | Abstract format | Unstructured preferred | Unstructured preferred | ⚠️ Abstract is unstructured (narrative only, no section labels). Acceptable for MIR and GSJ. Would need restructuring if target changes to a structured-abstract Emerald journal. |
-| Keywords | 4–6 | 4–6 | ✅ 6 keywords |
+| Keywords | 4–6 | 4–6 | Có 6 keywords |
 | Blind review | Double-blind | Double-blind | ⚠️ No explicit "author details removed" header marker (contrast with P3). No actual author names/affiliations in body text. "Corresponding author on reasonable request" at L245 is standard disclosure language, not an identification. Recommend adding explicit marker. |
-| Data availability statement | Required | Required | ✅ Dedicated section present (L244) |
-| Funding statement | Required | Required | ❌ No standalone Funding section. Acknowledgements (L247) thanks the World Bank for data but contains no "no specific grant" or funding declaration. |
-| Conflict of interest | Required | Required | ❌ No Conflict of Interest statement found anywhere in P4. |
-| AI usage statement | Required (Springer policy 2024+) | Required (Springer policy 2024+) | ❌ Absent from P4. |
+| Data availability statement | Required | Required | Có Dedicated section present (L244) |
+| Funding statement | Required | Required | Không No standalone Funding section. Acknowledgements (L247) thanks the World Bank for data but contains no "no specific grant" or funding declaration. |
+| Conflict of interest | Required | Required | Không No Conflict of Interest statement found anywhere in P4. |
+| AI usage statement | Required (Springer policy 2024+) | Required (Springer policy 2024+) | Không Absent from P4. |
 
 ---
 
@@ -176,7 +176,7 @@ No instances of banned quasi-significance phrases found. Clean on this dimension
 |------|----------|------------|
 | 45 | "**H2b (structural durability) is confirmed over H2a (environmental shift)**" | **Flag** — "confirmed" is too strong for a null finding (failure to reject coefficient equality). Prefer "supported" or "consistent with". |
 | 265 | Section heading: "H2b supported — structural durability confirmed" | **Flag** — same issue. Revise heading to "H2b supported — structural durability not rejected". |
-| 271 | "**The data support H2b (structural durability) over H2a (environmental shift).**" | ✅ Correct — uses "support" appropriately. |
+| 271 | "**The data support H2b (structural durability) over H2a (environmental shift).**" | Có Correct — uses "support" appropriately. |
 | 317 | "the inverted-U curvature of the I–P relationship in China is a durable structural feature" | ⚠️ Stated as fact rather than inference. Suggest "the evidence is consistent with the inverted-U curvature being a durable structural feature." |
 | 65 | "we identify and characterise an **optimal** export-intensity threshold" | ⚠️ "Optimal" implies normative optimality; the manuscript estimates a statistical turning point from cross-sectional OLS. Prefer "empirical turning point" or "estimated threshold." |
 
@@ -202,23 +202,23 @@ The discrepancy arises because 2,619 is the "sample_base" (firms with non-missin
 
 | Citation in Text | In P5 Refs? | Notes |
 |-----------------|-------------|-------|
-| Bharadwaj et al. (2013) | ✅ | P5 L441 |
-| Vial (2019) | ✅ | P5 L508 |
-| Paternoster et al. (1998) | ✅ | P5 L496 |
-| Antonakis et al. (2010) | ✅ | P5 L435 |
-| Manova (2013) | ✅ | P5 L486 |
-| Foley & Manova (2015) | ✅ | P5 L464 |
-| Eden & Nielsen (2020) | ✅ | P5 L458 |
-| Lind & Mehlum (2010) | ✅ | P5 refs |
-| Lu & Beamish (2004) | ✅ | P5 L482 |
-| Contractor et al. (2003) | ✅ | P5 L451 |
-| Marano et al. (2016) | ✅ | P5 refs |
-| Schwens et al. (2018) | ✅ | P5 refs |
-| Nambisan et al. (2019) | ✅ | P5 refs |
-| MacKinnon & White (1985) | ✅ | P5 refs |
-| World Bank (2013) | ✅ | P5 refs |
+| Bharadwaj et al. (2013) | Có | P5 L441 |
+| Vial (2019) | Có | P5 L508 |
+| Paternoster et al. (1998) | Có | P5 L496 |
+| Antonakis et al. (2010) | Có | P5 L435 |
+| Manova (2013) | Có | P5 L486 |
+| Foley & Manova (2015) | Có | P5 L464 |
+| Eden & Nielsen (2020) | Có | P5 L458 |
+| Lind & Mehlum (2010) | Có | P5 refs |
+| Lu & Beamish (2004) | Có | P5 L482 |
+| Contractor et al. (2003) | Có | P5 L451 |
+| Marano et al. (2016) | Có | P5 refs |
+| Schwens et al. (2018) | Có | P5 refs |
+| Nambisan et al. (2019) | Có | P5 refs |
+| MacKinnon & White (1985) | Có | P5 refs |
+| World Bank (2013) | Có | P5 refs |
 
-**Result: No orphan citations found in P5.** Citations that triggered false positives under surname-only matching (e.g., "Nielsen" → Eden & Nielsen 2020; "Piquero" → Paternoster et al. 1998; "Mehlum" → Lind & Mehlum 2010) are all correctly listed in full in the P5 reference section.
+**Result: No orphan citations found in P5.** Citations that triggered false positives under surname-only matching (e.g., "Nielsen" to Eden & Nielsen 2020; "Piquero" to Paternoster et al. 1998; "Mehlum" to Lind & Mehlum 2010) are all correctly listed in full in the P5 reference section.
 
 ### 5. Statistical Language
 
@@ -230,16 +230,16 @@ Good hedging throughout (34 lines). The "confirmed" instances at L45 and L265 ar
 
 | Check | IJOEM requirement | Status |
 |-------|-------------------|--------|
-| Word count (body, excl. refs/tables) | 4,000–8,000w | ❌ ~15,228 body words — **~90% over the 8,000w upper limit**. Most urgent submission-readiness issue for P5. |
-| Abstract present | ✅ required | ✅ Present |
+| Word count (body, excl. refs/tables) | 4,000–8,000w | Không ~15,228 body words — **~90% over the 8,000w upper limit**. Most urgent submission-readiness issue for P5. |
+| Abstract present | Có required | Có Present |
 | Abstract word limit | ≤250w structured | ⚠️ 311 words — **exceeds limit by ~61 words**. Needs trimming. |
-| Abstract format | Purpose / Design / Findings / Originality | ✅ All four sections present, bold-formatted |
-| Keywords | 5–8 (IJOEM convention) | ✅ 7 keywords |
+| Abstract format | Purpose / Design / Findings / Originality | Có All four sections present, bold-formatted |
+| Keywords | 5–8 (IJOEM convention) | Có 7 keywords |
 | Blind review | Double-blind | ⚠️ No "author details removed" header marker. Replication note at L522 states "handle withheld for blind review" — adequate, but adding a header marker (as P3 does) is standard practice. No author names or institutional affiliations in body text. |
-| Data availability statement | Dedicated section required (Emerald policy) | ❌ **No standalone Data Availability Statement section.** Data access information is embedded in §3.1 (L138) and Acknowledgements (L427). A dedicated section must be added before References. |
-| Funding statement | Required | ✅ Present in Acknowledgements (L429): "no specific grant from any funding agency" |
-| Conflict of interest | Required | ✅ Present in Acknowledgements (L429): "no conflicts of interest" |
-| AI usage statement | Required (Emerald policy) | ❌ **Absent.** Emerald Publishing requires disclosure of AI tool use. Add statement (parallel to P3’s wording at L1305–1313). |
+| Data availability statement | Dedicated section required (Emerald policy) | Không **No standalone Data Availability Statement section.** Data access information is embedded in Section 3.1 (L138) and Acknowledgements (L427). A dedicated section must be added before References. |
+| Funding statement | Required | Có Present in Acknowledgements (L429): "no specific grant from any funding agency" |
+| Conflict of interest | Required | Có Present in Acknowledgements (L429): "no conflicts of interest" |
+| AI usage statement | Required (Emerald policy) | Không **Absent.** Emerald Publishing requires disclosure of AI tool use. Add statement (parallel to P3’s wording at L1305–1313). |
 
 ---
 
@@ -247,20 +247,20 @@ Good hedging throughout (34 lines). The "confirmed" instances at L45 and L265 ar
 
 | Dimension | P3 (Vietnam) | P4 (Singapore) | P5 (China) |
 |-----------|-------------|----------------|------------|
-| Banned quasi-significance phrases | ⚠️ 4 × "marginal significance" | ⚠️ 1 × "marginal significance" | ✅ None (1 borderline case L325) |
-| Overconfident language (own findings) | ⚠️ L24, L1189 | ✅ None | ⚠️ L45 "confirmed"; L265 section heading |
-| Sample N consistency | ✅ Consistent | ✅ Consistent | ❌ 2,619 vs 2,610 discrepancy across abstract and tables |
-| Citation orphans (cited but not in refs) | ✅ None | ✅ None | ✅ None |
+| Banned quasi-significance phrases | ⚠️ 4 × "marginal significance" | ⚠️ 1 × "marginal significance" | Có None (1 borderline case L325) |
+| Overconfident language (own findings) | ⚠️ L24, L1189 | Có None | ⚠️ L45 "confirmed"; L265 section heading |
+| Sample N consistency | Có Consistent | Có Consistent | Không 2,619 vs 2,610 discrepancy across abstract and tables |
+| Citation orphans (cited but not in refs) | Có None | Có None | Có None |
 | Abstract word count | ⚠️ 315w (limit ~250w) | ⚠️ 201w (MIR OK; GSJ over) | ⚠️ 311w (limit 250w) |
-| Abstract structure | ✅ Structured 4-section | ⚠️ Unstructured narrative | ✅ Structured 4-section |
-| Keyword count | ✅ 6 | ✅ 6 | ✅ 7 |
-| Blind review marker | ✅ Explicit header marker | ⚠️ No header marker | ⚠️ No header marker |
-| Data availability statement | ✅ Dedicated section | ✅ Dedicated section | ❌ Missing as dedicated section |
-| Funding statement | ✅ Dedicated section | ❌ Missing | ✅ In acknowledgements |
-| Conflict of interest statement | ✅ Present | ❌ Missing | ✅ In acknowledgements |
-| AI usage statement | ✅ Present | ❌ Missing | ❌ Missing |
-| Body word count vs journal limit | ❌ ~15,551w (limit ~10–12k) | ✅ ~11,224w (within limits) | ❌ ~15,228w (limit 8,000w) |
-| Target journal header matches task | ❌ JABS ≠ APJM | ❌ MIR ≠ GSJ | ✅ IJOEM = IJOEM |
+| Abstract structure | Có Structured 4-section | ⚠️ Unstructured narrative | Có Structured 4-section |
+| Keyword count | Có 6 | Có 6 | Có 7 |
+| Blind review marker | Có Explicit header marker | ⚠️ No header marker | ⚠️ No header marker |
+| Data availability statement | Có Dedicated section | Có Dedicated section | Không Missing as dedicated section |
+| Funding statement | Có Dedicated section | Không Missing | Có In acknowledgements |
+| Conflict of interest statement | Có Present | Không Missing | Có In acknowledgements |
+| AI usage statement | Có Present | Không Missing | Không Missing |
+| Body word count vs journal limit | Không ~15,551w (limit ~10–12k) | Có ~11,224w (within limits) | Không ~15,228w (limit 8,000w) |
+| Target journal header matches task | Không JABS ≠ APJM | Không MIR ≠ GSJ | Có IJOEM = IJOEM |
 
 ---
 
@@ -278,11 +278,11 @@ Good hedging throughout (34 lines). The "confirmed" instances at L45 and L265 ar
 
 ### P2 — Required before submission (likely desk-reject if absent)
 
-5. **[P5] Add Data Availability Statement section**: Emerald requires a dedicated section header. Consolidate the data-access text from §3.1 L138 and Acknowledgements L427 into a new "## Data Availability Statement" section placed before References.
+5. **[P5] Add Data Availability Statement section**: Emerald requires a dedicated section header. Consolidate the data-access text from Section 3.1 L138 and Acknowledgements L427 into a new "## Data Availability Statement" section placed before References.
 
 6. **[P5] Add AI usage statement**: Emerald Publishing requires disclosure per author guidelines effective 2023. Model on P3’s statement (L1305–1313).
 
-7. **[P4] Add Funding section and Conflict of Interest statement**: Both are required by MIR (Springer) and GSJ (Wiley). Add a "## Funding" section ("This research received no specific grant...") and a "## Conflict of Interest" section before References.
+7. **[P4] Add Funding section and Conflict of Interest statement**: Both are required by MIR (Springer) and GSJ (Wiley). Add a "## Funding" section ("This research received no specific grant…") and a "## Conflict of Interest" section before References.
 
 8. **[P4] Add AI usage statement**: Required by Springer’s research integrity policy (effective 2024 for all Springer journals including MIR).
 
@@ -301,7 +301,7 @@ Good hedging throughout (34 lines). The "confirmed" instances at L45 and L265 ar
 
 13. **[P3] "Demonstrates" overconfidence**: Lines 24 and 1189. Replace with "suggests" or "is consistent with."
 
-14. **[P3] AI statement formatting artifact**: Lines 1309–1311 contain a mid-word split ("All con-" / "ceptual framing..."). Merge into a single paragraph.
+14. **[P3] AI statement formatting artifact**: Lines 1309–1311 contain a mid-word split ("All con-" / "ceptual framing…"). Merge into a single paragraph.
 
 ### P4 — Lower priority (good practice)
 

@@ -264,7 +264,7 @@ export default function VerificationPanel({
             override={overrides.doi_measure}
             onOverride={setOverride}
             inputType="select"
-            selectOptions={["FSTS", "entropy", "n_markets", "TNI"] satisfies DoiMeasure[]}
+            selectOptions={["FSTS", "GEO", "EXP", "FDI", "COMP", "OTH"] satisfies DoiMeasure[]}
           />
           <FieldRow
             label="Performance measure"
@@ -273,35 +273,28 @@ export default function VerificationPanel({
             override={overrides.performance_measure}
             onOverride={setOverride}
             inputType="select"
-            selectOptions={[
-              "ROA",
-              "ROE",
-              "ROS",
-              "TobinsQ",
-              "composite",
-              "other",
-            ] satisfies PerformanceMeasure[]}
+            selectOptions={["ACC", "MKT", "LAB", "MIX"] satisfies PerformanceMeasure[]}
           />
           <FieldRow
-            label="ICRV regime"
+            label="ICRV regime (PI-assigned: WGI lookup)"
             fieldKey="icrv_regime"
             original={study.icrv_regime}
             override={overrides.icrv_regime}
             onOverride={setOverride}
             inputType="select"
-            selectOptions={["I", "II", "III", "SIDS", "V", "pooled"] satisfies IcrvRegime[]}
+            selectOptions={["I", "II", "III", "FR", "MX"] satisfies IcrvRegime[]}
           />
           <FieldRow
-            label="DPL phase"
+            label="DPL phase (PI-derived: median year)"
             fieldKey="dpl_phase"
             original={study.dpl_phase}
             override={overrides.dpl_phase}
             onOverride={setOverride}
             inputType="select"
-            selectOptions={["Precede", "Span", "Follow"] satisfies DplPhase[]}
+            selectOptions={["PRE", "SPN", "FOL"] satisfies DplPhase[]}
           />
           <FieldRow
-            label="CDAI score"
+            label="cDAI 0–1 (PI-assigned: WB DAI/ITU DDI)"
             fieldKey="cdai_score"
             original={study.cdai_score}
             override={overrides.cdai_score}

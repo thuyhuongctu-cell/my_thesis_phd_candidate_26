@@ -1,9 +1,9 @@
 # World Development Submission Package
-## P8 — Forced Internationalization Penalty in Pacific SIDS
+## P8 – Forced Internationalization Penalty in Pacific SIDS
 
 **Manuscript:** "Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States"
 
-**Target journal:** World Development — Elsevier (ABS-4*, IF ~6.0)
+**Target journal:** World Development – Elsevier (ABS-4*, IF ~6.0)
 
 **Authors:** Đỗ Thùy Hương (VLUTE / Can Tho University) & Phan Anh Tú (Can Tho University)
 
@@ -15,7 +15,7 @@
 
 | File | Description | Submits as |
 |------|-------------|------------|
-| `01_manuscript_blinded.docx` | Main manuscript — author info removed | Manuscript (anonymous) |
+| `01_manuscript_blinded.docx` | Main manuscript – author info removed | Manuscript (anonymous) |
 | `02_title_page.docx` | Title page with author details, CRediT, ORCID | Title page / cover sheet |
 | `03_cover_letter.docx` | Cover letter to Editor-in-Chief | Cover letter |
 
@@ -31,9 +31,9 @@
 - [ ] **Title:** Forced Internationalization Penalty: Firm Performance in Pacific Small Island Developing States
 - [ ] **Abstract:** ~200 words (provided in manuscript)
 - [ ] **Keywords** (4–6): forced internationalization; small island developing states; firm performance; institutional voids; Pacific economies; labor productivity
-- [ ] Upload `01_manuscript_blinded.docx` → Main Document (anonymous)
-- [ ] Upload `02_title_page.docx` → Title Page (with author info)
-- [ ] Upload `03_cover_letter.docx` → Cover Letter
+- [ ] Upload `01_manuscript_blinded.docx` đến Main Document (anonymous)
+- [ ] Upload `02_title_page.docx` đến Title Page (with author info)
+- [ ] Upload `03_cover_letter.docx` đến Cover Letter
 - [ ] Confirm corresponding author (Đỗ Thùy Hương or Phan Anh Tú)
 - [ ] Confirm manuscript not under review elsewhere
 - [ ] Conflict of interest statement: None
@@ -52,13 +52,13 @@
 | Abstract | ~200 words |
 | Tables | 3 (main regression matrix, country stats, robustness) |
 | Figures | 0 |
-| Firms (analysis sample) | 1,469 |
+| Firms (analysis sample) | 959 |
 | Exporters | 187 (12.7%) |
 | Economies | 9 Pacific SIDS |
 | WBES waves | 2009–2025 |
-| Primary result | β(FSTS_c) = −0.404, p = .032 (M1, country+year FE) |
+| Primary result | β(FSTS_c) = −1.339, p < .001 (M1, country+year FE) |
 | Robustness | β = −1.236 (p < .001, year FE only); β = −0.901 (p = .027, exporters only) |
-| FIP status | Confirmed — monotone negative, no turning point |
+| FIP status | Confirmed – monotone negative, no turning point |
 
 ---
 
@@ -69,9 +69,9 @@
 - [ ] All tables formatted per World Development style (numbered, captioned)
 - [ ] Statistical reporting: β ± SE, t-statistic, p-values (not stars alone)
 - [ ] Lind–Mehlum test result noted for quadratic null
-- [ ] FIP defined formally in §2.2 with 3-prerequisite framework
+- [ ] FIP defined formally in Mục 2.2 with 3-prerequisite framework
 - [ ] Antigua and Barbuda Agenda cited (UN General Assembly, 2024)
-- [ ] DAI described as Tier-1 proxy (website only) — NOT dynamic digital capability
+- [ ] DAI described as Tier-1 proxy (website only) – NOT dynamic digital capability
 
 ---
 
